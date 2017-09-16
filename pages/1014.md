@@ -1,38 +1,45 @@
 * toc
 {:toc}
 
-+--{: .query}
-[[Arnold Neumaier]]: I added some comments originating from my 
-attempts to read this with the interpretation of sets as SEAR 
-sets in mind.
-=--
-
 # Idea
 
-A **pure set** is a [[set]] of pure sets.
+Informally, a **pure set** is a [[set]] of pure sets.
 
-+--{: .query}
-AN: This cannot be true literally when set is a SEAR set. 
-The statement should therefore be marked explicitly as informal. 
+On the face of it, this is a circular definition, but like many such definitions, it can be made precise in at least two ways: [[recursion|recursively]] and [[corecursion|corecursively]].
 
-_Toby_:  I don\'t agree with your second sentence, but that\'s more a matter of style.  However, I added the common **Idea** heading, which was lacking.  (Also, keep in mind that this page was not written with $\mathbf{SEAR}$ in mind; expect much abuse of language.
+* The 'recursive' meaning is that all pure sets must be *constructed*, starting from nothing, as sets of other previously constructed pure sets.  This results in the **[[well-founded relation|well-founded]] pure sets**.  Thus, at first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  In this way we can obtain at least all [[hereditarily finite sets]]; if we use an axiom of infinity as well, we can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
+
+* The 'corecursive' meaning is that any pure set can be *deconstructed* into a set of other pure sets, and every possible such deconstruction defines a unique pure set.  In this way we obtain not just well-founded pure sets but also **ill-founded pure sets**.  (The inclusion of well-founded sets here is an example of the [[red herring principle]].)  Possible examples of non-well-founded sets include a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.
+
+In addition, the meaning of this definition changes according to whether our [[set theory|set-theoretic]] [[foundations|foundation]] is [[material set theory|material]] or [[structural set theory|structural]].
+
+* If the foundation is 'material' or 'membership-based,' such as [[ZFC]], then the elements of a set can, in fact, *be* other sets.  Therefore, in this case we are defining (either recursively or corecursively) an *adjective* "pure" that can be applied to the noun "set:" a set is pure if at no point in its construction or deconstruction into elements do we encounter anything that is not a pure set.
+
+  In the most common material set theories, such as [[ZFC]], *all* sets are pure, since the only 'things' the theory deals with (hence the only things that can be elements of sets) are sets.  However, there are easy modifications of these theories that allow 'atoms' or [[urelement]]s that are not sets, and in this case the pure sets will be those that 'hereditarily' contain no atoms.  Many common material set theories (starting with von Neumann 1925, Zermelo 1930) also include an [[axiom of foundation]] asserting that all (pure) sets are well-founded; the dual [[axiom of anti-foundation]] (due to Aczel) allows and 'tames' the ill-founded sets.
+
+* If the foundation is 'structural' or 'categorial', such as [[ETCS]] or [[SEAR]], then the elements of a set cannot *be* other sets.  Thus, in this case we are defining a single noun "pure set," with no *a priori* relation to the structural notion of "set" that occurs in the foundational theory.  A *pure set*, according to this definition, is a set *equipped with structure* assigning to each of its elements another pure set (interpreted either recursively or corecursively).
+
+  From this point of view, the definition of pure set provides a construction of a model of material set theory within a model of structural set theory: a global relation of $\in$ can be defined between pure sets which will satisfy the axioms of some material set theory.  (Of course, the sets in a model of material set theory always model a structural set theory, so this is the 'difficult' direction of the equivalence between the two types of set theory.)  Whether we use the recursive or corecursive definition determines whether the resulting material set theory will satisfy the axiom of foundation or the axiom of anti-foundation.  Note that using these two choices, the composite operation "material $\to$ structural $\to$ material" reduces to the standard proofs of the relative consistency of the axioms of foundation and anti-foundation, since the passage from material to structural requires neither one.
+
+
+# Formalisation in material set theory
+
+In material set theory without urelements, every set is a pure set.  If there are urelements, so that not all sets are pure, then it is easy to define the class of pure sets as follows:
+
++-- {: .un_defn}
+###### Definition
+A set $x$ is **pure** if given any sequence $x_n \in x_{n-1} \in \dots \in x_1 \in x_0 = x$, all of the $x_i$ are sets.
 =--
 
-This is a circular definition; if you interpret it [[recursion|recursively]], then you get **well-founded sets**; if you interpret it [[corecursion|corecursively]], then you allow for **ill-founded sets**.  (But note that the corecursive interpretation includes the well-founded sets as well, an example of the [[red herring principle]].)
+Whether this produces the well-founded pure sets or the ill-founded ones depends on whether the axiom of foundation is satisfied in the ambient set theory.
 
-At first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  These are the [[hereditarily finite sets]]; using an axiom of infinity, you can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
+# Formalization in structural set theory
 
-For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate [[axiom of foundation]], or explicitly allowed and tamed by the dual axiom of anti-foundation.
+In a structural set theory like [[ETCS]] or [[SEAR]], we can model a pure set by a graph describing its hereditary membership relation.
 
+One way to state the basic theoretical idea is that the class of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the class of ill-founded sets is the [[terminal coalgebra]] of the same functor.  Of course, neither of these algebras exists as a set, since this would violate [[Cantor's theorem]], but we can still describe what their elements would be like.  We can also define these algebras as [[discrete category|discrete]] [[large category|large categories]], or as proper classes in a structural set-class theory such as [[algebraic set theory]].
 
-# Formalisation #
-
-In material [[set theory|set theories]] (such as ZFC and its variations), one usually assumes that everything is a pure set (although ur-elements are also sometimes used).  The late addition (von Neumann 1925, Zermelo 1930) of the [[axiom of foundation]] assures that only well-founded sets are included.
-
-In a structural set theory like [[ETCS]], we can model a pure set by its membership tree or by the membership relation on its reflexive-[[transitive set|transitive closure]].
-
-The basic theoretical idea is that the class of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the class of ill-founded sets is the [[terminal coalgebra]] of the same functor.  Of course, neither of these algebras exists (since this would violate [[Cantor's theorem]]), but we can still describe what their elements would be like (and in fact define these algebras as [[discrete category|discrete]] [[large category|large categories]]).
-
+The discussion which follows is phrased informally, like most mathematics.  However, it is purely structural and can be interpreted in any structural set theory.  For instance, the definition below of a "graph" as a set with a binary relation should be formalized as a set $N$ together with an injection $R \hookrightarrow N\times N$.
 
 ## Membership trees ##
 
@@ -92,22 +99,12 @@ In this representation, a pure set is a _rigid rooted directed tree_, possibly a
 *  Every directed graph generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __[[tree]]__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
 *  The __full subtree__ of a tree rooted at a node $i$ consists of all of the nodes with a path (necessarily unique) to $i$.
-*  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, if any graph [[automorphism]] is the identity function.
-   +--{: .query}
-   AN: Here and later, "must be" should be "is".
-
-   _Toby_:  I wrote 'must be' because I was rephrasing a definition.  But if you think that it\'s clearer with 'is', then feel free to change it.
-
-   AN: I did. Equivalently means that an alternative way of defining things is given, and a definition has no must be.
-   (You had the "is" already in the equivalent rewriting of the next definition!)
-
-   _Toby_:  The 'is' in a definition is really a 'must be', just like the 'if' is really an 'if and only if'.  But no matter; your way is fine.
-   =--
-*  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that the tree has no infinite paths.
+*  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree.  Assuming [[classical logic]], this is equivalent to saying that any graph [[automorphism]] is the identity function.
+*  A tree is __well-founded__ if $\to$ is a [[well-founded relation]].  Assuming the principle of [[excluded middle]], this is equivalent to saying that the tree has no infinite paths.  Note that the [[opposite relation]] $\leftarrow$ is automatically well-founded: each node has a unique [[natural number]] *height*, namely the length of its unique path to the root, so well-foundedness of $\mathbb{N}$ implies well-foundedness of $\leftarrow$.
 
 These subsidiary notions are also needed:
 
-*  Two trees are __equivalent__ if there exists a graph isomorphism between them; between rigid trees, such an isomorphism is unique.
+*  Two trees are __equivalent__ if there exists a graph isomorphism between them.  Note that between rigid trees, such an isomorphism is unique.
    +--{: .query}
    AN: I don't see the meaning or relevance of this definition.
    Equivalent says exactly the same as isomorphic.
