@@ -35,7 +35,7 @@ To avoid having to treat $\mathbf{2}$ as a special case, we can use another defi
 
 Assume we have defined $\mathbf{n}$ for $n \geq 1$. Then let $\psi_{n+1}:\mathbf{1} \looparrowright P\mathbf{n}$ be the relation such that $\psi_{n+1}(*,u)$ whenever the subset $\{ i | \epsilon(i,u)\}$ of $\mathbf{n}$ has either exactly one element or no elements. A tabulation $|\psi_{n+1}|$ has $n+1$ elements, and fixing one of these we denote it by $\mathbf{n+1}$.
 
-This definition holds in the same fragment of (bounded) SEAR as described above.
+This definition holds in a bounded fragment, just as above.  However, this definition requires Collection (Axiom 5), which the previous one did not, in exchange for Power sets (Axiom 3).
 
 
 ## Replacing the power set axiom by something else ##
