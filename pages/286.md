@@ -67,4 +67,6 @@ _for they multiply the number of mankind._ <br>
 [[Mike Shulman]]: I don't see what this quote has to do with anything.
 
 [[Jon Awbrey]]: I don't know who coined the term "evil" for this particular form of "multiplying entities beyond necessity", but I felt sure that he-she must be alluding to Borges' story.  At any rate, it seemed a fitting epigraph.
+
+[[David Roberts]]: I would think that the evil referred to on this page is actually lessening the number of entities, because things are made to be equal when they are only isomorphic. There are many categories which have a small skeleton but aren't small, and an evil way of thinking about such categories is to consider only the skeletal version. 
 =--
