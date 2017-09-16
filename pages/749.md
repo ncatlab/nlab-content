@@ -36,7 +36,12 @@ See _Jardine07_, theorem 5.
 
 #References#
 
-see [[model structure on simplicial presheaves]]
+* [[Sjoerd Crans]], _Quillen closed model structure for sheaves_,  J. Pure Appl. Algebra  101 (1995), 35-57 ([web](http://home.tiscali.nl/secrans/papers/thcms.html))
+
+see also [[model structure on simplicial presheaves]] for more literature
+
+Jardine's lectures
 
 * **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
+discuss the Quillen equivalence between the model structure on simplicial sheaves and the [[model structure on simplicial presheaves]].
