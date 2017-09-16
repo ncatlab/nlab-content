@@ -1,1 +1,1 @@
-A **cochain-complex** in a [[pre-additive category]] $C$ is nothing but a [[chain complex]] in $C$, but with the sign of the $\mathbb{Z}$-grading reversed.
+A **cochain complex** in an [[Ab-enriched category]] $C$ is nothing but a [[chain complex]] in $C$, but with the sign of the $\mathbb{Z}$-grading reversed.
