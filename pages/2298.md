@@ -9,8 +9,24 @@
 
 ## Contents ##
 
-* [[structured generalized space]]
+* [[(∞,1)-topos]]
 
-* [[derived algebraic geometry]]
+  * [[∞-space]]
+
+  * [[∞-stack]]
+
+* [[structured (∞,1)-topos]]
+
+  * [[geometry (for structured (∞,1)-toposes)]]
+
+  * [[generalized scheme]]
+
+    * [[derived algebraic geometry]]
+
+      * [[E-∞ ring]]
+
+  * [[derived smooth manifold]]
+
+    * [[generalized smooth algebra]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+geometry+-+contents)</div>
