@@ -119,7 +119,7 @@ So in terms of simplicial presheaves the [[localization of an (∞,1)-category]]
 
 
 Recall that the [[(∞,1)-category]] modeled/presented by a [[simplicial model category]] is the full [[SimpSet|SSet]]-subcategory on fibrant-cofibrant objects.
-According to [section 6.5.2](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528)  of [[Higher Topos Theory|HTT]] we have:
+According to [section 6.5.2](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=528)  of [[Higher Topos Theory|HTT]] we have:
 
 * the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _global_ injective model structure is (the [[SimpSet|SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $PSh_{(\infty,1)}(S)$ of [[(∞,1)-presheaves]] on $S$.
 
