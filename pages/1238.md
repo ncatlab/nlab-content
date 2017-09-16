@@ -209,3 +209,5 @@ $\langle s(s^{-1}x_1.s^{-1}x_2;w\rangle  = (-1)^{|x_2| + 1}\langle x_1,x_2;\part
 
 [[Tim Porter|Tim]]:  There is no direct continuation, but the development continues lexicon  in a new entry on [[differential forms on simplices]].  
 =--
+
+category: lexicon
