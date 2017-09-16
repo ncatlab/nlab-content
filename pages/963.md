@@ -4,7 +4,9 @@
 
 ## Definition
 
-A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid|monoid object]] in the closed symmetric monoidal category of suplattices. This means it is a poset having all [[join]]s and an associative, unital tensor product $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]).  The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$.
+A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid|monoid object]] in the closed symmetric monoidal category of suplattices. This means it is a poset having all [[join]]s and an associative, unital tensor product $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]).  The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$. 
+
+As a monoid in suplattices, a quantale is essentially the same thing as a 1-object [[quantaloid]], i.e., a 1-object category enriched in suplattices. 
 
 ## Quantales and Frames
 
