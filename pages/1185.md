@@ -37,7 +37,7 @@ First of all sorry if I am posting in the wrong place
 
 While thinking about graphs, I wanted to define them as subobjects of naive cardinal **2** and this got me thinking about the behaviour of the full subcategories of **Set** defined by isomorphism classes.  These categories turned out to be more interesting than I had expected.
 
-If the background set theory is ZFC or similar, these are all large but locally small categories with all hom sets being isomorphic.  They all contain the same number of objects (except **0**, which contains one object and no non-identity morphisms) and are equinumerous with **Set**.  Each hom Set contains 2^N arrows.  In the finite case N! of the morphisms in a particular hom set are isomorphisms.  In particular, only **0** and **1** are groupoids.  I haven't worked out how this extends to infinite cardinalities, yet.
+If the background set theory is ZFC or similar, these are all large but locally small categories with all hom sets being isomorphic.  They all contain the same number of objects (except **0**, which contains one object and no non-identity morphisms) and are equinumerous with **Set**.  Each hom Set contains N^2 arrows.  In the finite case N! of the morphisms in a particular hom set are isomorphisms.  In particular, only **0** and **1** are groupoids.  I haven't worked out how this extends to infinite cardinalities, yet.
 
 If the background theory is NF, then they are set and **1** is smaller than **Set**.  I haven't yet worked out how **2** compares to **1**.  I need to brush up on my NF to see how NF and category theory interact.
 
@@ -135,11 +135,11 @@ a very readable account of ZFC and the definitions of both Ordinal and Cardinal 
 
 _Toby_:  It looks like you\'re asking about cardinal numbers in general rather than groupoid cardinality.
 
-Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is Thomas Jech\'s _[Set Theory](http://books.google.com/books?id=pLxq0myANiEC)_; there are also some references listed at [MathWorld](http://mathworld.wolfram.com/CardinalNumber.html) and [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
+Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is Thomas Jech\'s _[Set Theory](; there are also some references listed at [MathWorld]() and [the English Wikipedia]().
 
 Any *standard* approach will start from a material set theory, such as ZFC; we tend to prefer structural set theory here.  (See [[set theory]].)  Since cardinality is isomorphism invariant (which is kind of the whole point), it\'s easy to interpret the standard material structurally, but the basic definitions will be different.  If you\'re looking for a standard reference on cardinality from a structural foundation, I can\'t help you; there may not be any.
 
-By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
+By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
 =--
 
 
