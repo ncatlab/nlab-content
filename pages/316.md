@@ -6,7 +6,7 @@ If $c$ is an object of $C$, a **cone** from $c$ to $F$ is a [[natural transforma
 $$T: \Delta(c) \to F$$ 
 where $\Delta(c):J\to C$ denotes the [[constant functor]].
 
-In other words, a cone consists of morphisms (called the _components_ of the cone) 
+In other words, a cone consists of morphisms (called the **components** of the cone) 
 
 $$T_j: c \to F(j),$$
 
