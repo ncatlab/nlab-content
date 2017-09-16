@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 The _homotopy groups_ $\pi_n(X,a)$ of a [[pointed object|pointed]] space $(X,a)$ are a sequence of [[groups]] that generalise the [[fundamental group]] $\pi_1(X,a)$ to higher [[homotopy (as a transformation)|homotopies]].
@@ -6,7 +11,9 @@ Actually, $\pi_0(X,a)$ is not a group at all but merely a [[pointed set]].  Conv
 
 Lower homotopy groups act on higher homotopy groups; the nonabelian group cohomology of this gives the Postnikov invariants of the space.  All of this data put together allows one to reconstruct the original space, at least up to weak [[homotopy type]], through its [[Postnikov system]].
 
-# Definition #
+# Definition 
+
+## for topological spaces##
 
 Let $S^n$ be the pointed $n$-[[sphere]], that is an $n$-dimensional real sphere equipped with any basepoint.  The underlying set of $\pi_n(X,a)$ will be the set of basepoint-preserving continuous maps from $S^n$ to $(X,a)$, with such maps identified if there is a basepoint-preserving [[homotopy]] between them.  Now we will put some structure on that set.
 
@@ -20,7 +27,7 @@ The result is that the set $\pi_n(X,a)$ of equivalence classes is an abelian gro
 
 Note that if $X$ is [[connected space|path-connected]], then all of the $\pi_n(X,a)$ are isomorphic.  Accordingly, it\'s traditional to just write $\pi_n(X)$ in that case.  (This is why we must use $\Pi_n(X)$ for the homotopy $n$-groupoid.)  However, there may be many different isomorphisms between $\pi_n(X,a)$ and $\pi_n(X,b)$ (given by $\pi_{n+1}(X)$), so a more careful treatment requires keeping track of the basepoint even in the connected case.
 
-# Low-dimensional cases #
+### Low-dimensional cases ###
 
 The $0$th homotopy 'group' $\pi_0(X,a)$ can be identified with the set of all [[path component]]s of $X$, with the component containing $a$ as the basepoint.  Similarly, the [[fundamental infinity-groupoid|fundamental 0-groupoid]] $\Pi_0(X)$ is the set of all path components without a chosen basepoint.  Note that $\Pi_0(X)$ is traditionally written $\pi_0(X)$, even without a basepoint.
 
@@ -29,6 +36,20 @@ The $1$st homotopy group $\pi_1(X,a)$ is precisely the [[fundamental group]] of 
 +--{.query}
 At least, that\'s where I *think* that it comes from ...  ---Toby
 =--
+
+## for simplicial sets ##
+
+See [[simplicial homotopy group]].
+
+## for objects in a general $\infty$-stack $(\infty,1)$-topos ##
+
+[[Top]] is the archetypical [[(∞,1)-topos]].
+The definition of homotopy groups for objects in [[Top]]
+is just a special case of a general definition of
+homotopy groups of objects of [[∞-stack]] [[(∞,1)-topos]]es.
+
+This is described in detail at
+[[homotopy group (of an ∞-stack)]].
 
 # History #
 
