@@ -7,46 +7,29 @@ Despite its name, a bundle gerbe is not a [[gerbe]]. A gerbe is rather a categor
 A fiber bundle can be characterized (up to isomorphism) 
 in several different ways, for instance as
 
-<ul>
- <li>
-   a fibration,
- </li>
- <li>
-   a sheaf of sections,
- </li>
- <li> 
-   a transition function,
- </li>
- <li> 
-   an Atiyah groupoid extension.
- </li>
-</ul>
+* a fibration,
+
+* a sheaf of sections,
+
+* a transition function,
+
+* an Atiyah groupoid extension.
+
 If it is a principal $U(1)$-bundle or a complex line bundle, it can also be characterized as
-<ul>
- <li>
-  an element in second integral cohomology.
- </li>
-</ul>
+
+*  an element in second integral cohomology.
 
 Each of these descriptions has a categorification. They go, respectively, by the name
 
-<ul>
- <li>
-   a 2-bundle,
- </li>
- <li>
-   a gerbe,
- </li>
- <li> 
-   a bundle gerbe,
-</li>
- <li> 
-   an Atiyah 2-groupoid extension,
- </li>
- <li>
-  an element in third integral cohomology.
- </li>
-</ul>
+* a 2-bundle,
+
+* a gerbe,
+
+* a bundle gerbe,
+   
+* an Atiyah 2-groupoid extension,
+
+* an element in third integral cohomology.
 
 The degree to which these have been 
 studied and understood differs. In as far as they have been understood, one finds essentially the expected equivalences.
@@ -64,10 +47,9 @@ It turns out that line bundle gerbes can alternatively be regarded as central ex
 
 A bundle gerbe over a space $X$ is 
 
-<ul>
-  <li>
-    a regular epimorphism
-    $$
+* a regular epimorphism 
+
+$$
       \array{
           Y
           \\
@@ -76,10 +58,10 @@ A bundle gerbe over a space $X$ is
           X
       }
     $$
-  </li>
-  <li>
-    a fiber bundle
-    $$
+
+* a fiber bundle 
+
+$$
         \array{
            B
            \\
@@ -88,9 +70,11 @@ A bundle gerbe over a space $X$ is
            Y^{[2]}
         }
     $$
-     over the fiber product $Y^{[2]}$ of $Y$ with itself, i.e.
-    $$
-      \array{
+
+over the fiber product $Y^{[2]}$ of $Y$ with itself, i.e.
+
+$$
+    \array{
           L
           \\
           p \downarrow \;\;
@@ -103,24 +87,24 @@ A bundle gerbe over a space $X$ is
           X
       }
      \,,
-    $$
-   together with a notion of product $\otimes$ of fibers of $B$;
-  </li>   
-  <li>
-    on $Y^{[3]}$ an isomorphism
+$$
+
+*  together with a notion of product $\otimes$ of fibers of $B$;
+
+* on $Y^{[3]}$ an isomorphism
    $$
      \mu : \pi_{12}^*B \;\otimes\; \pi_{23}^*B \;\stackrel{\sim}{\to}\; \pi_{13}^* B
      \,,
    $$
+
     which satisfies an associativity relation on $Y^{[4]}$.
    Here $\pi_{12}, \pi_{23}, \pi_{13}$ are the three obvious maps
+
     $$
        Y^{[3]} \stackrel{\stackrel{\rightarrow}{\rightarrow}}{\rightarrow}
        Y^{[2]}
        \,.
     $$
-  </li>
-</ul>
 
 For line bundle gerbes, $X$ is taken to be a smooth space, $\pi : Y \to X$ 
 a surjective submersion, $B$ a smooth line bundle and $\mu$ a smooth
@@ -247,9 +231,11 @@ $G\mathrm{BiTor}$.
 For line bundle gerbes this is often expressed as saying that a line bundle gerbe is
 a $U(1)$-central extension of $Y^\bullet$.
 
+
+
 ##Connection on a bundle gerbe##
 
-Like bundle gerbes are a categorification of transitions in fiber bundles,
+As bundle gerbes are a [[vertical categorification|categorification]] of transitions in fiber bundles,
 bundle gerbes with connection are a categorification of transitions in
 fiber bundles with connection.
 
@@ -267,39 +253,37 @@ can be derived from parallel line transport.
 
 <br/><strong>Connection on a bundle gerbe - Definition.</strong>
 
-<em>Line bundle gerbes.</em>
 
-A connection (also known as "connection and curving") on a line bundle
-gerbe
+
+###Line bundle gerbes.###
+
+A connection (also known as "connection and curving") on a line bundle gerbe
+
 $$
   B \stackrel{p}{\to} Y^{[2]} \stackrel{\to}{\to} Y \stackrel{\pi}{\to} X
 $$ 
+
 is
 
-<ul>
-  <li>
-    a 2-form on $Y$
+* a 2-form on $Y$
+
     $$
       B \in \Omega^2(Y)
     $$
-  </li>
-  <li>
-    a connection $\nabla$ on the line bundle $B \to Y^{[2]}$
-  </li>
-  <li>
-   such that
+
+* a connection $\nabla$ on the line bundle $B \to Y^{[2]}$
+
+* such that
+
    $$
       \pi_1^*B \; -\;  p_2^*B \;=\; F_\nabla
    $$
-  </li>
-  <li>
-    together with an extension of the bundle gerbe product $\mu$ to an isomorphism
+
+* together with an extension of the bundle gerbe product $\mu$ to an isomorphism
     $$
         \mu_\nabla \;:\; p_{12}^* (B,\nabla) \;\; \otimes p_{23}^* (B,\nabla) \;\to\; p_{13}^* (B,\nabla)
     $$
     of line bundles with connection.
-  </li>
-</ul>
 
 
 
@@ -324,31 +308,25 @@ $$
 
 The deRham class $[H]$ of this 3-form is the image in real cohomology of the class in integral coholomology classifying the bundle gerbe.
 
-<br/><em>Principal bundle gerbes.</em>
+### Principal bundle gerbes ###
 
 A connection on a $G$-principal bundle gerbe is
 
-<ul>
-  <li>
-    a $\mathrm{Lie}(G)$-valued 2-form on $Y$
+* a $\mathrm{Lie}(G)$-valued 2-form on $Y$
     $$
        B \in \Omega^2(Y,\mathrm{Lie}(G))
     $$
-  </li>
-  <li>
-    together with a $\mathrm{Lie}(\mathrm{Aut}(G))$-valued 1-form on $Y$
+
+* together with a $\mathrm{Lie}(\mathrm{Aut}(G))$-valued 1-form on $Y$
+
     $$
        A \in \Omega^1(Y,\mathrm{Lie}(\mathrm{Aut}(G)))
     $$
-  </li>
-  <li>
-    and a certain twisted notion of connection on the $G$-bundle $B$
-  </li>
-  <li>
-    satisfying a couple of conditions that reduce to those described above in the case
-    $G = U(1)$.
-  </li>
-</ul>
+
+* and a certain twisted notion of connection on the $G$-bundle $B$
+
+
+* satisfying a couple of conditions that reduce to those described above in the case $G = U(1)$.
 
 For the case that $F_{A} + \mathrm{ad} B = 0$, these conditions are nothing but
 a tetrahedron law on a 2-functor from 2-paths in $Y$ to the category 
@@ -368,49 +346,36 @@ From a line bundle gerbe with connection one obtains a notion of parallel transp
 
 Recall that in the case of fiber bundles, the holonomy associated to a based loop $\gamma$ is obtained by
 
-<ul>
-  <li>
-     choosing a triangulation of the loop (i.e., a decomposition into intervals) such that each vertex sits in a double intersection $U_{ij}$ and such that each edge sits in a patch $U_i$ 
-  </li>
-  <li>
-    choosing for each edge a lift into $Y = \sqcup_i U_i$
-  </li>
-  <li>
-    choosing for each vertex a lift into $Y^{[2]} = \sqcup_{ij} U_i\cap U_j$
-  </li>
-  <li>
-    assigning to each edge lifted to $U_i$ the transport computed from the connection 
+* choosing a triangulation of the loop (i.e., a decomposition into intervals) such that each vertex sits in a double intersection $U_{ij}$ and such that each edge sits in a patch $U_i$ 
+
+* choosing for each edge a lift into $Y = \sqcup_i U_i$
+
+* choosing for each vertex a lift into $Y^{[2]} = \sqcup_{ij} U_i\cap U_j$
+
+* assigning to each edge lifted to $U_i$ the transport computed from the connection 
     1-form $a_i$
-  </li>
-  <li>
-    assigning to each vertex  lifted to $U_i \cap U_j$ the value of the transition function
+
+* assigning to each vertex  lifted to $U_i \cap U_j$ the value of the transition function
     $g_{ij}$ at that point
-  </li>
-  <li>
-    multiplying these data in the order given by $\gamma$ .
-  </li>
-</ul>
+
+* multiplying these data in the order given by $\gamma$ .
 
 For bundle gerbes this generalizes to a procedure that assigns a triangulation to a closed surface, that lifts faces, edges, and vertices to single, double and triple intersections,
 respectively, and which assigns the exponentiated integrals of the 2-form over faces, of the connection 1-form over edges, and assigns the isomorphism $\mu_{ijk}$ to vertices.
 
 For the abelian case (line bundle gerbes) this procedure has been first described in
 
-K. Gawedzki &amp; N. Reis
-<br/><em>WZW branes and Gerbes</em>
-<br/><a href="http://arxiv.org/abs/hep-th/0205233">hep-th/0205233</a>
+* K. Gawedzki &amp; N. Reis, _WZW branes and Gerbes_
+([arXiv](http://arxiv.org/abs/hep-th/0205233))
 
 based on
 
-O. Alvarez
-<br/><em>Topological quantization and cohomology.</em>
-<br/> Commun. Math. Phys. 100 (1985), 279-309.
+* O. Alvarez, _Topological quantization and cohomology_
+Commun. Math. Phys. 100 (1985), 279-309.
 
 Further discussion can be found in 
 
-A. Carey, S. Johnson &amp; M. Murray
-<br/><em>Holonomy on D-branes</em>
-<br/><a href="http://arxiv.org/abs/hep-th/0204199">hep-th/0204199</a>.
+* A. Carey, S. Johnson &amp; M. Murray, _Holonomy on D-branes_, ([arXiv](http://arxiv.org/abs/hep-th/0204199))
 
 Gawedzki and Reis showed this way that the Wess-Zumino term in the WZW-model is nothing but the surface holonomy of a (line bundle) gerbe.
 
@@ -418,23 +383,29 @@ In terms of string physics this means that the string (the 2-particle) couples t
 
 The necessity to interpret the Kalb-Ramond field as a connection on a gerbe was originally discussed in
 
-D. Freed and E. Witten
-<br/><em>Anomalies in string theory with D-branes</em>
-<br/> Asian J. Math. 3 (1999), 819-851.
-<br/><a href="http://arxiv.org/abs/hep-th/9907189">hep-th/9907189</a>.
+* D. Freed and E. Witten
+_Anomalies in string theory with D-branes_, Asian J. Math. 3 (1999), 819-851 ([arXiv](http://arxiv.org/abs/hep-th/9907189))
 
-Underlying the Gawedzki-Reis formula is a general mechanism of transition of transport 2-functors. This applies to more general situations than ordinary line bundle gerbes with connection.
+
+Underlying the Gawedzki-Reis formula is a general mechanism of transition of transport 2-functors, described in
+
+* U. Schreiber, K. Waldorf, _Connections on non-abelian gerbes and their holonomy_ ([arXiv](http://arxiv.org/abs/0808.1923))
+
+and similarly in 
+
+* Joao Faria Martins, Roger Picken, _A Cubical Set Approach to 2-Bundles with Connection and Wilson Surfaces_ ([arXiv](http://arxiv.org/abs/0808.3964))
+
+
+ This applies to more general situations than ordinary line bundle gerbes with connection.
 
 The generalization to unoriented surfaces (hence to type I strings) was given in
 
-K. Waldorf, C. Schweigert &amp; U. S.
-<br/><a href="http://golem.ph.utexas.edu/string/archives/000708.html">Unoriented WZW Models and Holonomy of Bundle Gerbes</a>
-<br/><a href="http://arxiv.org/abs/hep-th/0512283">hep-th/0512283</a>.
+* K. Waldorf, C. Schweigert &amp; U. S., _Unoriented WZW Models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
 
 ##References##
 
 Taken from two blog posts:
 
-Urs Schreiber, [Bundle Gerbes: General Idea and Definition](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes.html)
+* Urs Schreiber, [Bundle Gerbes: General Idea and Definition](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes.html)
 
-Urs Schreiber, [Bundle Gerbes: Connections and Surface Transport](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes_connections_and.html)
+* Urs Schreiber, [Bundle Gerbes: Connections and Surface Transport](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes_connections_and.html)
