@@ -1,3 +1,4 @@
+
 #Idea#
 
 The **localization** of a [[category]] $C$ at a class of [[morphisms]] $W$ is the universal solution to making the morphisms in $W$ into [[isomorphisms]]; it is written $C[W^{-1}]$ or $W^{-1}C$ and often also (deserves to be) called the [[homotopy category]] of $C$ with respect to $W$.
@@ -124,6 +125,8 @@ This concept has been extended to [[bicategory of fractions|bicategories of frac
 One account of localization with a [[calculus of fractions]] is section 7 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
+* Homotopy Theory, [Research Paper Help](http://www.superiorpapers.com/)
+* Morphisms, [Wolfram MathWorld](mathworld.wolfram.com/HomotopyTheory.html)
 
 
 ***
