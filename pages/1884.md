@@ -77,6 +77,7 @@ One version of $\mathbb{Z}_2$-graded vector bundles, which lead to a description
 
 Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-theory is represented by a [[spectrum]]: the [[K-theory spectrum]].
 
+The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
 ## References ##
 
