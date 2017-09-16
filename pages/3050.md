@@ -19,9 +19,19 @@ $$
 and we ask whether $U$ is a [[monadic functor]]. 
 
 
-## Details
+## Details {#Details}
 
-In more detail, the adjunction, $F\dashv U$ with unit $\eta:1_B \to U \circ F$ and counit $\epsilon: F \circ U\to 1_A$, induces the [[monad]] $\mathbf{T}= (T,\mu,\eta)$ in $B$ via $T\coloneqq U F$, $\mu\coloneqq U\epsilon F:U F U F\to U F$ with unit $\eta$. The monad $\mathbf{T}$ generates the [[Eilenberg–Moore category]] $B^{\mathbf{T}}$ of modules (= algebras) over $\mathbf{T}$, that is the pairs $(M,\nu)$ where $M\in Ob(B)$ and $\nu:T M\to M$ satisfies the action axioms $T(\nu)\circ \nu= \nu_T \circ\nu$ and $\nu\circ\eta_M=id_M$. There is a **comparison functor** 
+The adjunction, $F\dashv U$ with unit $\eta:1_B \to U \circ F$ and counit $\epsilon: F \circ U\to 1_A$, induces the [[monad]] $\mathbf{T}= (T,\mu,\eta)$ in $B$ via $T\coloneqq U F$, $\mu\coloneqq U\epsilon F:U F U F\to U F$ with unit $\eta$. The monad $\mathbf{T}$ generates the [[Eilenberg–Moore category]] $B^{\mathbf{T}}$ of modules (= algebras) over $\mathbf{T}$, that is the pairs $(M,\nu)$ where $M\in Ob(B)$ and $\nu:T M\to M$ satisfies the action axioms $T(\nu)\circ \nu= \nu_T \circ\nu$ and $\nu\circ\eta_M=id_M$. 
+
+We think of this data as follows:
+
+* $A$ is the category of some type of objects on some space;
+
+* $B$ is the category of this type of object on a [[cover]] of that space
+
+* $B^T$ is the category of [[descent]] data for such objects, with respect to that cover.
+
+There is a **comparison functor** 
 
 $$ K : A\to B^{\mathbf{T}}, \,\,\,\, K(N) \coloneqq  (U(N),U(\epsilon_N)). $$
 
@@ -45,6 +55,14 @@ One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s. 
 
 Other examples of monadic descent often find a useful interpretation when relating them back to monadic descent for codomain fibrations. For instance (co)monadic descent for [[Sweedler coring]]s, discussed below, finds a natural geometric interpretion this way (as discussed in detail there).
 
+
+We show in the following that for $cod : [I,C] \to C$ a [[codomain fibration]] and for $\pi : Y\to X$ a morphism in $C$, an algebra object in $[I,C]_Y$ over the [[monad]] $f^* f_*$ encodes and is encoded by a "geometric" [[descent]] datum: that it is
+
+* a morphism $P \to Y$
+
+* equipped with a transition function between its two pullbacks to double $Y \times_X Y$
+
+* which satisfies on $Y \times_X Y \times_X Y$ the usual cocycle condition.
 
 #### Motivation: failure of push-forward for principal bundles
 
