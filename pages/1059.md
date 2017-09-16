@@ -7,6 +7,8 @@ It is easy to see that in _any_ category, any regular epimorphism is strict.  In
 
 +--{: .query}
 [[David Roberts]]: I'm interested in a bicategorical version of this. You haven't happened to have done this Mike?
+
+[[Mike Shulman]]: Not more than can be extracted from [[michaelshulman:2-congruence]] and [[michaelshulman:regular 2-category]].  What is there called an "eso" is the bicategorical version of a strong epi (which agrees with an extremal epi in the presence of pullbacks), and what is there called "the quotient of a 2-congruence" is the bicategorical version of a regular epi.  I've never thought about the bicategorical version of a strict epi; since strict epis agree with regular epis in the presence of finite limits I've never really had occasion to care about them independently.
 =--
 # References#
 
