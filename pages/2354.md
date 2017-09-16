@@ -24,7 +24,7 @@ which commutes up to isomorphism, there exists a morphism $u:Z\to P$ and isomorp
 
 ## Equivalence of definitions
 
-The simplification in the above explicit definition has to do with the omission of an unnecessary structure map.  Note that an ordinary pullback of $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ comes equipped with maps $P\overset{p}{\to} A$, $P\overset{q}{\to} B$, and $P\overset{r}{\to} C$, but since $r = f p$ and $r = g q$, the map $r$ is superfluous data and is usually omitted.  In the 2-categorical case, where identities are replaced by isomorphisms, it is, strictly speaking, different to give merely $p$ and $q$ with an isomorphism $f p \cong g q$, than to give $p$, $q$, and $r$ with isomorphisms $r \cong f p$ and $r \cong g q$.  However, when 2-limits are considered as only defined up to equivalence (as is the default on the nLab), the two resulting notions of "2-pullback" are the same.  In much of the 2-categorical literature, the version with $r$ specified would be called a "bipullback" and the version with $r$ not specified would be called a "bi-iso-comma-object."
+The simplification in the above explicit definition has to do with the omission of an unnecessary structure map.  Note that an ordinary pullback of $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ comes equipped with maps $P\overset{p}{\to} A$, $P\overset{q}{\to} B$, and $P\overset{r}{\to} C$, but since $r = f p$ and $r = g q$, the map $r$ is superfluous data and is usually omitted.  In the 2-categorical case, where identities are replaced by isomorphisms, it is, strictly speaking, different to give merely $p$ and $q$ with an isomorphism $f p \cong g q$, than to give $p$, $q$, and $r$ with isomorphisms $r \cong f p$ and $r \cong g q$.  However, when 2-limits are considered as only defined up to equivalence (as is the default on the nLab), the two resulting notions of "2-pullback" are the same.  In much of the 2-categorical literature, the version with $r$ specified would be called a __bipullback__ and the version with $r$ not specified would be called a __bi-iso-comma-object__.
 
 The unsimplified definition would be: a __$2$-pullback__ in a [[2-category]] is a diagram
 $$\array{P & \overset{p}{\to} &A \\
@@ -53,6 +53,8 @@ We have a canonical [[pseudonatural transformation]] $F_2\to F_1$ that forgets $
 
 ## Variations
 
+2-pullbacks can also be identified with [[homotopy pullbacks]], when the latter are interpreted in $Cat$-enriched homotopy theory.
+
 ### Strict 2-pullbacks
 
 If we are in a [[strict 2-category]] and all the coherence isomorphisms ($\mu$, $\kappa$, $\lambda$, etc.) are required to be identities, and $u$ in property (1) is required to be unique, then we obtain the notion of a **strict 2-pullback**.  This is an example of a [[strict 2-limit]].  Note that since we must have $x = f v = g w$, the two definitions above are still the same.  In fact, they are now even isomorphic (and determined up to isomorphism, rather than equivalence).
@@ -73,8 +75,6 @@ Every strict iso-comma object, and every strict pseudo-pullback, is also a (non-
 
 Replacing the isomorphism $\mu$ in the simplified definition by a mere transformation results in a [[comma object]], while replacing $\kappa$ and $\lambda$ in the unsimplified definition by mere transformations results in a [[lax pullback]].  In a [[(2,1)-category]], any [[comma object]] or [[lax pullback]] is also a 2-pullback, but this is not true in a general 2-category.  Note that comma objects are often misleadingly called lax pullbacks.
 
-2-pullbacks can also be identified with [[homotopy pullbacks]], when the latter are interpreted in $Cat$-enriched homotopy theory.
-
 
 ## Discussion
 
@@ -94,6 +94,21 @@ Zoran: giving in some version of 2-categories the same vertex (of 2-limit) or no
 _Toby_:  Please note my 'without loss of generality'.  The two definitions (the simplified one below, and the general limit-based one) are equivalent; specifically, each (universal) limit cone is uniquely isomorphic to the one in which the arrow to $C$ is taken to be $P\to A\to C$.
 =--
 
+
 [[!redirects 2-pullbacks]]
 [[!redirects 2-fiber product]]
 [[!redirects 2-fiber products]]
+[[!redirects bipullback]]
+[[!redirects bipullbacks]]
+[[!redirects bi-pullback]]
+[[!redirects bi-pullbacks]]
+[[!redirects bi-iso-comma-object]]
+[[!redirects bi-iso-comma-objects]]
+[[!redirects iso-comma-object]]
+[[!redirects iso-comma-objects]]
+[[!redirects pseudopullback]]
+[[!redirects pseudopullbacks]]
+[[!redirects pseudo-pullback]]
+[[!redirects pseudo-pullbacks]]
+[[!redirects pseudo pullback]]
+[[!redirects pseudo pullbacks]]
