@@ -2,10 +2,53 @@
 [[!include differential graded objects - contents]]
 </div>
 
-This entry is in parallel to [[dg-algebra]]. Here a detailed component-wise description of the inner workings of dg-algebras is given. See [[dg-algebra]] for the [[category theory|abstract nonsense]] definition and further links and remarks.
+#Contents#
+* automatic table of contents
+{:toc}
 
+## Definition
 
-###Pre-graded algebras
+### Abstract definition
+
+A __dg-algebra__, or __[[differential graded algebra]]__, is a [[monoid]] in the [[symmetric monoidal category]] of (possibly unbounded) [[chain complex]]es or [[]cochain complex]es with its standard structure of a [[monoidal category]]. 
+
+For the case of chain complexes we also speak of **chain algebras**.
+
+For the case of cochain complexes we also speak of **cochain algebras**.
+
+Recall 
+
+* that the standard tensor product on (co)chain complexes is given by
+$$
+(A\otimes B)_n = \sum_{i+j=n} A_i\otimes B_j,
+$$
+with the differential $d_{A\otimes B} = d_A\otimes B + A\otimes d_B$.
+
+* that a [[monoid]] in a [[monoidal category]] $C$ is an object $A$ in $C$ together with a morphism
+
+  $$
+    \cdot : A \otimes A \to A
+  $$
+
+  that is unital and associative in the obvious sense.
+
+This implies that a dg-algebra is, more concretely, a graded algebra $A$ equipped with a linear map $d : A \to A$ with the property that
+
+* $d\circ d = 0$
+
+* for $a \in A$ homogeneous of degree $k$, the element $d a$ is of degree $k+1$ (for monoids in cochain complexes) of of degree $k-1$ (for monoids in chain complexes)
+
+* for all $a,b \in A$ with $a$ homogeneous of degree k the **graded Leibniz rule** holds
+
+  $d (a \cdot b) = (d a) \cdot b + (-1)^k a \cdot (d b)$.   
+
+A more detailed disucssion of this is at
+
+* [[differential graded algebra]].
+
+### Detailed component definition
+
+#### Pre-graded algebras
 
 A _pre-graded algebra- (pre-ga) or $\mathbb{Z}$-graded algebra_ is a pre-gvs, $A$, together with an algebra multiplication satisfying $A_p.A_q \subseteq A_{p+q}$ for any $p,q$.  The relevant morphisms are pre-gvs morphisms which respect the multiplication.  This gives a category $pre GA$.
 
@@ -14,7 +57,7 @@ An _augmentation_ of a pre-ga, $A$, is a homomorphism $\varepsilon : A \to k$.  
 A morphism $f:(A,\varepsilon)\to (A',\varepsilon')$ of augmented pre-gas is a homomorphism $f : A \to A'$ (thus of degree zero) such that $\varepsilon = \varepsilon ' f$.  The resulting category will be written $pre \varepsilon GA$. 
 
 
-####Tensor product
+#### Tensor product
 
 If $A$, $A'$ are two pre-gas, then $A\otimes A'$ is a pre-ga with
 
@@ -25,7 +68,7 @@ for homogeneous $a,b \in A$, $a', b' \in A'$.
 If $\varepsilon, \varepsilon$ are augmentations of $A$ and $A'$ respectively, then $\varepsilon\otimes \varepsilon'$ is an augmentation of $A\otimes A'$.
 
 
-####Derivations
+#### Derivations
 
 Let $A$ be a pre-ga. An _(algebra) derivation_ of degree $p\in \mathbb{Z}$ is a linear map $\theta \in Hom_p(A,A)$ such that 
 
@@ -43,7 +86,7 @@ In the case of upper gradings, an element of $Der_p(A)$ sends $A^n$ into $A^{n-p
 
 
 
-####Pre-DGAs
+#### Pre-DGAs
 
 A _differential_ $\partial$ on an (augmented) pre-ga is a derivation of the (augmented) algebra of degree -1 such that $\partial\circ\partial = 0$.
 
@@ -57,7 +100,7 @@ A morphism of pre-dgas (or pre-$\varepsilon$-dgas) is a morphism which is both o
 
 
 
-####Commutative graded algebras (CGA)
+#### Commutative graded algebras (CGA)
 
 
 A pre-ga $A$ is said to be _commutative_ if $ab = (-1)^{|a||b|}ba$ for each pair, $a, b$, of homogeneous elements of $A$.
@@ -67,7 +110,7 @@ Commutativity is preserved by tensor product.
 We get obvious full subcategories $pre CDGA$ and $pre \varepsilon CDGA$ corresponding to the case with differentials.
 
 
-####CDGAs
+#### CDGAs
 
 A cdga is a **negatively** graded pre-cdga (in upper grading), $A= \bigoplus_{p\geq 0} A^p.$
 
@@ -75,19 +118,19 @@ There is an augmented variant, of course.  These definitions give categories $CD
 
 
 
-####$n$-connectivity
+#### $n$-connectivity
 
 An $\varepsilon$cdga $(A,d)$ is _$n$-connected_ (resp. _cohomologically $n$-connected_ if $\bar{A}^p = 0 $ for $p\leq n$, (resp. $\overline{H(A,d)}^p = 0$ for $p\leq n$).  This gives subcategories $CDGA^n$ and $CDGA^{cn}$.
 
 
 
-####Filtrations
+#### Filtrations
 
 A filtration on a pre-ga, $A$, is a filtration on $A$, so that $F_pA \subseteq F_{p+1}A$, $F_pA.F_nA \subseteq F_{p+n}A$ (and, if $A$ is differential, also $\partial F_pA \subseteq F_pA$).
 
 
 
-#####Example: Word length filtration.
+##### Example: Word length filtration.
 
 Let $A$ be an augmented pre-ga and denote by 
 
@@ -102,7 +145,7 @@ $Q(A) = \bar{A}/Im\bar{\mu}$ is the _space of indecomposables_ of A.
 If $(A,\partial)$ is an augmented pre-dga, $F^pA$ is stable under $\partial$ and we get $Q(\partial)$ is a differential on $Q(A)$ and hence we get a functor  $Q: pre \varepsilon DGA\to pre DGVS.$
 
 
-####Free GAs: $T(V)$, the tensor algebra
+#### Free GAs: $T(V)$, the tensor algebra
 
 Given a pre-gvs, $V$, the tensor algebra generated by $V$ is given by $T(V) = \bigotimes_{n\geq 0}V^{\otimes n}$.  
 
@@ -113,7 +156,7 @@ If $A$ is a pre-ga and $f: V\to A$, a morphism to the underlying pre-gvs of $A$,
 =--
 
 
-####Free CGAs: $\bigwedge V$
+#### Free CGAs: $\bigwedge V$
 
 This is the tensor product of the exterior algebra on the odd elements and the symmetric algebra on the even ones:
 
@@ -125,13 +168,14 @@ If $A$ is a pre-cga, any morphism, $f : V\to A$, to the underlying pre-gvs of $A
 
 If $(e_\alpha)_{\alpha \in I}$ is a homogeneous basis for $V$, $\bigwedge V$ and $T(V)$ may be written $\bigwedge((e_\alpha)_{\alpha \in I})$ and $T((e_\alpha)_{\alpha \in I})$ respectively.
 
-###Note : 
+**Note:**
+ 
 *  $T(V)$ is a non-commutative polynomial algebra, 
 
 *  $\bigwedge V$ is a commutative polynomial algebra.
 
 
-####Word length filtrations on $\bigwedge V$ and $T(V)$.
+#### Word length filtrations on $\bigwedge V$ and $T(V)$.
 
 On $\bigwedge V$ (resp.  $T(V)$) write 
 
@@ -143,12 +187,12 @@ If $(\bigwedge V,d)$ is a pre-cdga, which is free as a pre-cga on a fixed $V$, t
 
 
 
-####Sum and Product of CDGAs.
+#### Sum and Product of CDGAs.
 
 If $(A,d)$ and $(A',d')$ are two cdgas, their (categorical) _sum_ (i.e. coproduct) is their tensor product, $(A,d)\otimes(A',d' )$, whilst their product is the 'direct sum', $(A,d)\oplus (A',d' )$.
 
 
-####Koszul convention
+#### Koszul convention
 
 Given a permutation $\sigma$ of a graded object $(x_1, \ldots, x_p)$, the _Koszul sign_, $\varepsilon(\sigma)$ is defined by 
 
@@ -156,12 +200,61 @@ $$x_1\wedge \ldots \wedge x_p = \varepsilon(\sigma)x_{\sigma(1)} \wedge \ldots \
 
 in $\bigwedge(x_1, \ldots, x_p )$. We note that although we write $\varepsilon(\sigma)$, $\sigma$ does not suffice to define it as it depends also on the degrees of the various $x_i$.
 
-###Terminology
+### Terminology
 
 Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. This seems to be a very useful convention.
+
+
+## Related concepts
+
+### Model category structure
+
+There is a standard [[model category]] structure on $dgAlg$.See [[model structure on dg-algebras]].
+
+### Cosimplicial algebras
+
+The [[monoidal Dold-Kan correspondence]] effectively identifies non-negatively graded [[chain complex]] algebras with simplicial algebras, and non-negatively graded [[cochain complex]] algebras with [[cosimplicial algebra]]s.
+
+Since cosimplicial algebras have a fundamental interpretation dual to [[∞-space]], as described at [[∞-quantity]], this can be understood as explaining the great role differential graded algebras are playing in various context, suchh as notably in 
+
+* [[rational homotopy theory]].
+
+### dg-coalgebra
+
+Dually, a [[comonoid]] in [[chain complex]]es is a [[dg-coalgebra]].
+
+### Homological smoothness
+
+A dga $A$ is __[[homologically smooth dga|homologically smooth]]__ if as a dg-bimodule $_A A_A$ over itself it has a bounded resolution by finitely generated projective dg-bimodules.
+
+
+## Discussion
+
+A previous version of this entry gave rise to the following discussion
+
++--{.query}
+Zoran, why would you not say that this is 'following the product rule from ordinary calculus', as I wrote?  Not that this can be proved like the product rule can, but it\'s an easy mnemonic (and a similar one works for direct sums too).  ---Toby
+
+I find it very confusing for me at least. The Leibniz rule is about the coproduct in a single algebra; here one has several algebras with different differentials, not a single derivative operators, and not acting on a tensor square of a single algebra, so it is a bit far. If $A=B$ then I would be happy, but otherwise it is too general. ---Zoran
+
+You mean that if $A = B$, then the Leibniz rule is a special case of this?  Then surely it is also a special case of the more general case without $A = B$?  Anyway, I think that it\'s more an example of [[vertical categorification|categorification]] than generalisation.  ---Toby
+
+For some special algebras this is true. For example, the dual of symmetric algebra as a Hopf algebra can be identified with the infinite order formal differential operators with constant coefficients (the isomorphism is given by evaluation at zero). Thus the Leibniz rule for derivatives is indeed the dual coproduct to the product on the symmetric algebras. There are braided etc. generalizations to this, and a version for computing the coproduct on a dual of enveloping algebras. In physics the addition of momenta and angular momenta for multiparticle systems is exactly coming from this kind of coproduct. But in all these cases the operators whose product you are taking live in a representation of a single algebra. --- Zoran
+
+=--
+
+
+
+
+
+
 
 
 
 [[!redirects differential graded algebras]]
 
 [[!redirects differential graded module]]
+[[!redirects chain algebra]]
+[[!redirects cochain algebra]]
+[[!redirects dg-algebra]]
+[[!redirects dg-algebras]]
