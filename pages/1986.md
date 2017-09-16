@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-11
 
+* [[Urs Schreiber]]: created [[pullback stability]] to satisfy links, but included so far just a pointer to [[commutativity of limits and colimits]]. Maybe we want to split that latter entry into the relevant subentries.
+
 *  [[Toby Bartels]]:
    *  Expanded and rephrased [[topos]].
    *  Decided to create [[Giraud's axioms]], realised that everything that I wanted to say was already at [[Grothendieck topos]], and so made a redirect instead.  (This is not to say that one couldn\'t split it off later, however.)
