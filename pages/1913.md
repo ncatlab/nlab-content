@@ -226,6 +226,8 @@ One often sees the definition of integration given for *parametrised* submanifol
 
 +--{.query}
 [[Zoran Škoda]]: Should maybe this entry have a discussion on heuristics behind the usual trick in supersymmetry which asserts that the inner hom for supermanifolds, gives the statement that the algebra of smooth differential forms on $M$ is the space of functions on the odd tangent bundle $\Pi T M$? I am not the most competent to do this succinctly enough... 
+
+_Toby_:  Possibly that should go at [[differential forms on supermanifolds]]?
 =--
 
 ## Cohomology of forms
