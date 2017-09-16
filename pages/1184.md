@@ -1,44 +1,23 @@
 # Idea #
 
-A _well order_ on a set $S$ is a [[relation]] $\prec$ that allows one to interpret $S$ as an [[ordinal number]] $\alpha$ and $\prec$ as the relation $\lt$ on the ordinal numbers less than $\alpha$.  In particular, one can do [[induction]] on $S$ over $\prec$ (although the more general [[well-founded relation]]s also allow this).
+A _well-order_ on a set $S$ is a [[relation]] $\prec$ that allows one to interpret $S$ as an [[ordinal number]] $\alpha$ and $\prec$ as the relation $\lt$ on the ordinal numbers less than $\alpha$.  In particular, one can do [[induction]] on $S$ over $\prec$ (although the more general [[well-founded relation]]s also allow this).
 
-The [[well-ordering theorem]] states precisely that every set may be equipped with a well order.  Assuming the principle of [[excluded middle]], this theorem is equivalent to the [[axiom of choice]].
+The [[well-ordering theorem]] states precisely that every set may be equipped with a well-order.  This theorem follows from the [[axiom of choice]], and is equivalent to it in the presence of [[excluded middle]].
 
 # Definition #
 
-A binary [[relation]] $\prec$ on a [[set]] $S$ is a __well order__ if it is a [[well-founded relation|well-founded]] [[linear order]].  Equivalently, a well order is a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation.
+A binary [[relation]] $\prec$ on a [[set]] $S$ is a __well-order__ if it is a [[well-founded relation|well-founded]] [[linear order]].  Equivalently, a well-order is a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation.  A set equipped with a well-order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well-order' is a back formation.
 
-Sometimes one wants $S$ to have a [[total order]] $\preceq$ instead of a linear order $\prec$.  In classical mathematics, at least, the distinction is a technicality: $x \preceq y$ if $x \prec y$ or $x = y$, and $x \prec y$ if $x \preceq y$ but $x \ne y$.  (In [[constructive mathematics]], $\preceq$ is not sufficient to reconstruct $\prec$.)
+Sometimes one wants $S$ to have a [[total order]] $\preceq$ instead of a linear order $\prec$ (that is, a reflexive rather than an irreflexive one).  In classical mathematics, at least, the distinction is a technicality: $x \preceq y$ if $x \prec y$ or $x = y$, and $x \prec y$ if $x \preceq y$ but $x \ne y$.  With this in mind, we may equivalently define a well-order on $S$ to be a total order $\preceq$ such that every [[inhabited set|inhabited subset]] has a lowest element.  That is, for all $U \subset S$ with $U \neq \emptyset$ there exists $\bottom_U \in U$ such that for all $u \in U$ we have $\bottom_U \leq u$.  This is probably the definition most often found in textbooks.
 
-With this in mind, we may equivalently define a well order on $S$ to be a total order $\preceq$ such that every [[inhabited set|inhabited subset]] has a lowest element.  That is, for all $U \subset S$ with $U \neq \emptyset$ there exists $\bottom_U \in U$ such that for all $u \in U$ we have $\bottom_U \leq u$.  (Again, in constructive mathematics, this will not work; in fact, if any set with at least $2$ elements has a 'classical well order' ---a well order by this definition---, then the principle of [[excluded middle]] follows.)
+Note that in [[constructive mathematics]], a linear order $\prec$ cannot necessarily be reconstructed from its induced total order $\preceq$, and not every well-ordered set satisfies the property that every inhabited set has a least element; if it does we call it **classically well-ordered**.  Any classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ elements has a classical well-order, [[excluded middle]] follows.
 
-A set equipped with a well order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well order' is a back formation.  Accordingly, most writers spell this noun as 'well-order', the cringes of grammarians notwithstanding.
-
-+--{: .query}
-I for one would be happy to move this to [[well order]].  Indeed, when I began rewriting it, I naturally used that spelling until I got to the paragraph above.  ---Toby
-
-[[Mike Shulman|Mike]]: Well, I'm not an expert at grammar, so I don't know what the difference is between "well-order" and "well order."  Neither sounds really correct to me, however, since "well" is an _adverb_ but is being used as an adjective modifying "order."
-
-_Toby_:  Actually, 'well' (like 'ill') can be either an adjective or an adverb.  If it were an adverb here, then we wouldn\'t need the hyphen even in 'well ordered', and the noun would be 'good order'.  Note that an 'ordered set' is a set equipped with an order as well as a set that\'s been ordered (and in fact the verb 'order' is derived from the noun); so is a 'well ordered set' a set that\'s been ordered well, or is a 'well-ordered set' a set equipped with a well order?  (Although by this logic, there should be no hyphen in 'well-founded', since 'found' is definitely a verb there and not a noun.  ...  This reasoning doesn\'t really fit with 'partially-ordered set' either, does it?  Of course, I\'ve never liked those hyphens, and now I see why.)
-
-[[Mike Shulman|Mike]]: "Well" can of course be an adjective, but I'm pretty sure than in "well ordered" it is an adverb, meaning the set has been ordered well.  I don't think the order on a well ordered set is "healthy."  Also, the other words that come in front of "ordered set" are adverbs: "partially," "totally," "linearly," etc.
-
-I think the reason there is a hyphen in well-founded is that there is no notion of a "founded set."  Thus, rather than a founded set that happens to have been founded well, we use a hyphen to indicate that "well-founded" is an atomic notion.  On the other hand there is a notion of "ordered set" to which we can apply adverbs "partially," "totally," "well," etce, so I don't usually put hyphens in these.
-
-_Toby_:  The adjective 'well' doesn\'t only mean healthy, it also means good in condition (as opposed to good in action for 'good' used more particularly).  However, I think that you\'re correct that, in origin, the 'well' here is the adverb.  From the 1913 Merriam-Webster (under 'ill' but cited also at 'well'):
->_Ill_, like _above_, _well_, and _so_, is used before many participal adjectives, in its usual adverbal sense.  When the two words are used as an epithet preceding the noun qualified they are commonly hyphened; in other cases they are written separatively; as, an ill-educated man; he was ill educated; an ill-formed plan; the plan, however ill formed, was acceptable.
-But I still think that we can regain grammatical propriety in the back formation by *reinterpreting* 'well' as an adjective and removing the hyphen.  (I suppose that there\'s also the point of view that 'well-ordering' in the gerund of the verb 'to well-order', meaning the same as 'to order well', so that we should use that.)
-
-_Mike_: I think the real problem is that "well-ordered" was a bad choice of terminology to begin with.  But rather than try for complete grammatical propriety I think it is probably better to accord with the most common usage, which may be to include the hyphen.
-
-_Toby_:  I\'m certain that 'well-order' is more common than 'well order' (although the latter does appear sometimes).  But I\'m not sure about 'well-ordering', which is a little better grammatically.  (Unless you want to follow that up, feel free to delete this query box now.)
-=--
 
 # Examples #
 
 * Any [[finite set|finite]] [[total order|totally ordered set]] $\{x_1 \lt \cdots \lt x_n\}$ is well-ordered.
 
-* The set of [[natural number]]s is well-orderd under the usual order $\lt$.
+* The set of [[natural number]]s is well-ordered under the usual order $\lt$.
 
 * More generally, any set of [[ordinal number]]s (or even the proper class of all ordinal numbers) is well-ordered under the usual order $\lt$.
 
