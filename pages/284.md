@@ -25,7 +25,7 @@ To some extent an $(\infty,1)$-category can be thought of as a [[enriched catego
 
 Among all [[(n,r)-category|(n,r)-categories]], $(\infty,1)$-categories are special in that they are the simplest structures that at the same time:
 
-* admit a [[higher category theory|higher version]] of [[category theory]] ([[limit]]s, [[adjunction]]s, [[Grothendieck construction]], etc, [[sheaf and topos theory]], etc.);
+* admit a [[higher category theory|higher version]] of [[category theory]] ([[limit]]s, [[adjunction]]s, [[Grothendieck construction]], etc, [[sheaf and topos theory]], etc.) : [[(infinity,1)-category theory]]
 
 * and know everything about higher equivalences.
 
