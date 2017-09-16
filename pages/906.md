@@ -1,13 +1,13 @@
 # Idea #
 
-A [[topological space]] is _sequential_ if (in a certain sense) you can do topology in it using only [[sequence]]s instead of more general [[net]]s.
+A [[topological space]] is _sequential_ if (in a certain sense) you can do topology in it using only [[sequences]] instead of more general [[nets]].
 
 Sequential spaces are a kind of [[nice topological space]].
 
 
 # Definition #
 
-A __sequential topological space__ is a [[topological space]] $X$ such that a subset $A$ of $X$ is closed iff it contains all the limit points of all [[sequence]]s whose members are in $A$---or equivalently, such that $A$ is open iff any sequence converging to a point of $A$ must eventually be in $A$.
+A __sequential topological space__ is a [[topological space]] $X$ such that a subset $A$ of $X$ is closed iff it contains all the limit points of all [[sequences]] whose members are in $A$---or equivalently, such that $A$ is open iff any sequence converging to a point of $A$ must eventually be in $A$.
 
 
 # Examples #
@@ -23,7 +23,7 @@ A __sequential topological space__ is a [[topological space]] $X$ such that a su
 
 * The category of sequential spaces is a [[coreflective subcategory]] of the category of all topological spaces.
 
-* The category of sequential spaces is a [[reflective subcategory]] of the category of [[subsequential space]]s, much as $Top$ itself is a reflective subcategory of the category of all [[pseudotopological space]]s.
+* The category of sequential spaces is a [[reflective subcategory]] of the category of [[subsequential spaces]], much as $Top$ itself is a reflective subcategory of the category of all [[pseudotopological spaces]].
 
 
 # References #
