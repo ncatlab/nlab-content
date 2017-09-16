@@ -1,6 +1,4 @@
-See [[schreiber:∞-quantity]].
+For now, see [[schreiber:∞-quantity]].
 
-
-category: redirect
 
 [[!redirects ∞-quantity]]
