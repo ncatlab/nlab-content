@@ -47,9 +47,11 @@ It is fairly easy to prove that the combinatorial definition of homotopy agrees 
 
 In the case of the category of (not necessarily abelian) groups, the combinatorial definition equals the one via cylinder only if the role of "cylinder" for a group $G$ is played by a simplicial object in the category of groups which in degree $n$ equals the free product of $(n+2)$ copies of $G$, indexed by the set $(\Delta^1)_n$ (noted by Swan and quoted in exercise 8.3.5 of Weibel: _Homological algebra_).
 +--{:.query}
-[[Tim Porter}:  I do not understand the above as $(\Delta^1)_n$ is not a set. Perhaps we need an explicit description of [[copower|copowers]] in simplicial objects also. I pointed out in an edit above that the combinatorial description is much more general than just for  simplicial objects in an abelian category. 
+[[Tim Porter]]:  I do not understand the above as $(\Delta^1)_n$ is not a set. Perhaps we need an explicit description of [[copower|copowers]] in simplicial objects also. I pointed out in an edit above that the combinatorial description is much more general than just for  simplicial objects in an abelian category. 
 
 Can specific references to Swan be given, anyone?
+
+[[Zoran Škoda]]: I agree that one should talk about copowers etc. $\Delta^1$ in notation here is not the geometric realization of an interval, but the simplical set $\Delta[1]$, hence in this notation $(\Delta^1)_n = SSet([n],[1])$ is a set of cardinality $n+2$: out of $n+1$ elements in $[n]$ first $i$ go to $0$ and the remaining to $1$, there are $(n+2)$ choices at which element the first $1$ occurs, namely for $0$ to $n+1$ and "never".
 =--
 
 #Properties#
@@ -159,8 +161,19 @@ Finally we use the fact that [[SSet]] is a [[cartesian closed category]] to dedu
 +-- {: .un_proposition}
 ###### Proposition
 
-Let $A$ be an abelian category and $f,g : X\to Y$ homotopic morphisms in $A$. Then the induced maps $f_*, g_* : N(X)\to N(Y)$ of their normalized chain complexes are chain homotopic. 
+Let $A$ be an abelian category and $f,g : X\to Y$ homotopic morphisms of simplicial objects in $A$. Then the induced maps $f_*, g_* : N(X)\to N(Y)$ of their normalized chain complexes are chain homotopic. 
 
+=--
++-- {: .un_proposition}
+###### Proposition
+
+Let $A$ be an abelian category. The morphisms of simplicial objects (variant: of unbounded chain complexes) in $A$, which are homotopic to zero, form an ideal. More precisely 
+
+* being homotopic is an equivalence relation on the class of morphism,
+
+* $f_1\sim 0$ and $f_2\sim 0$ implies $f_1+f_2 \sim 0$,
+
+* if $f\circ h$ (resp. $h\circ f$) exists and if $f\sim 0$ then $f\circ h\sim 0$ (resp. $h\circ f\sim 0$). 
 =--
 
 #References#
