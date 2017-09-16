@@ -1,17 +1,18 @@
 # Definition
 
-A __generator__ in a category $C$ is an object $S$ such that the functor $h^S = C(S,-) : C\to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $f_1,f_2\in C(X,Y)$
-there is a morphism $\theta\in C(S,X)$ which distinguishes
-them in the sense that $f_1\circ\theta=f_2\circ\theta$.
+A __generator__ in a category $C$ is an object $S$ such that the functor $h^S = C(S,-) : C\to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $S$ in the sense that
+$$ \forall (\theta: S \to X),\; f_1 \circ \theta = f_2 \circ \theta ,$$
+then $f_1 = f_2$.
 
-One often extends this notion to a _generating family_ of objects, which is a (usually small) set $\lbrace S_a, a\in A\rbrace$ of objects in $C$ such that the family $C(S_a,-)$ is jointly faithful, that is for any pair $f_1,f_2\in C(X,Y)$
-there is an $a\in A$ and a morphism $\theta\in C(S_a,X)$ which distinguishes them in the sense that 
-$f_1\circ\theta=f_2\circ\theta$.
+One often extends this notion to a _generating family_ of objects, which is a (usually [[small category|small]]) set $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $C$ such that the family $C(S_a,-)$ is jointly faithful. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
+$$ \forall (a: A),\; \forall (\theta: S_a \to X),\; f_1 \circ \theta = f_2 \circ \theta ,$$
+then $f_1 = f_2$.
 
 The dual notion is [[cogenerator]].
 
-
 # Examples and applications
+
+In [[Set]], the [[point]] is a generator.  More generally, in any [[well-pointed category]], $1$ is a generator.  More generally still, in any [[concrete category]], the representing object is a generator.
 
 The standard example of a generator in the category of $R$-modules over a ring $R$ is any free module $R^I$ and $R$ in particular. If a generator is a finitely generated [[projective object]] in the category of $R$-modules, then the traditional terminology is _progenerator_. Progenerators are important in classical Morita theory, see [[Morita equivalence]].
 
