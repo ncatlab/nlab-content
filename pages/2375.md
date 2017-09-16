@@ -47,7 +47,13 @@
 
 # Principles #
 
-* [[Eckmann-Hilton argument]], [[microcosm principle]], [[stability hypothesis]]
+* [[Eckmann-Hilton argument]]
+
+* [[microcosm principle]]
+
+* [[periodic table]]
+
+  * [[periodic table|stabilization hypothesis]]
 
 # Extensions #
 
