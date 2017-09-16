@@ -158,17 +158,24 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[terminal object in a quasi-category]]
 
-
 * [[(infinity,1)-functor]]
 
   * [[(infinity,1)-presheaf]]
 
   * [[(infinity,1)-category of (infinity,1)-functors]]
 
+* [[adjoint functor|adjoint (infinity,1)-functor]]
+
 * [[limit in quasi-categories]]
 
 
+
+
 ##2 Fibrations of Simplicial Sets ##
+
+* [[model structure on simplicial sets]]
+
+* [[Cartesian fibration]]
 
 ##3 The $\infty$-Category of $\infty$-Categories
 
@@ -200,11 +207,15 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
   * [[presentable (infinity,1)-category]]
 
 
+* [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
+
 * [[localization of an (infinity,1)-category]]
 
   * [[reflective (infinity,1)-subcategory]]
 
   * [[local object]]
+
+  * [[local equivalence]]
 
 
 ##6 $\infty$-Topoi##
@@ -223,6 +234,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[stack]]
 
+  * [[infinity-stack]]  
+
   * [[derived stack]]
 
   * [[infinity-stackification]]
@@ -230,11 +243,11 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
   * [[hypercompletion]]
 
 
+* [[models for infinity-stack (infinity,1)-toposes]]
+
 * [[model structure on simplicial presheaves]]
 
   * [[simplicial presheaf]]
-
-  * [[infinity-stack homotopically]]
 
   * [[global model structure on simplicial presheaves]]
 
