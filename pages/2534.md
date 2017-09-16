@@ -29,6 +29,44 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
    $$\mathcal{X}\cap\mathcal{Y} = \langle X\cap Y, \min(\mu_X,\mu_Y)\rangle.$$
 
++--{.query}
+
+[[Eric]]: What is the motivation for the above definition of intersection? I've been doodling a lot lately and think a more natural definition for intersection would be
+
+$$\mathcal{X}\cap\mathcal{Y} = \langle X\cap Y,1_{X\cap Y}\rangle,$$
+
+i.e. the intersection of two multisets should just be a set.
+
+When $\mathcal{X}$ and $\mathcal{Y}$ are just sets, we have
+
+$$\mathcal{X}+\mathcal{Y} = \mathcal{X}\backslash\mathcal{Y} + \mathcal{Y}\backslash\mathcal{X} + 2\mathcal{X}\cap\mathcal{Y}.$$
+
+A natural generalization of this would seem to be
+
+$$\mathcal{X}+\mathcal{Y} = \mathcal{X}\backslash\mathcal{Y} + \mathcal{Y}\backslash\mathcal{X} + (\mu_X+\mu_Y) \text{"}\mathcal{X}\cap\mathcal{Y}\text{"},$$
+
+where the above actually _defines_ the intersection of multisets. However, if we define
+
+$$\mathcal{X}\cap\mathcal{Y} \coloneqq \frac{1}{\mu_X+\mu_Y} \left(\mathcal{X}+\mathcal{Y} - \mathcal{X}\backslash\mathcal{Y} - \mathcal{Y}\backslash\mathcal{X}\right) = \langle X\cap Y,1_{X\cap Y}\rangle,$$
+
+then the multiplicity is one and we are back to a simple set. If we were to define intersection this way, then the intersection of two multisets is always a set. This would mean that $\mathcal{X}\cap\mathcal{X}\ne\mathcal{X}$ EXCEPT when $\mathcal{X}$ is a set, in which case we do have $\mathcal{X}\cap\mathcal{X} = \mathcal{X}$.
+
+However, instead of defining intersection in that convoluted way, I would just define
+
+$$\mathcal{X}\cap\mathcal{Y} \coloneqq \langle X\cap Y,1_{X\cap Y}\rangle.$$
+
+Then the result
+
+$$\mathcal{X} + \mathcal{Y} = \mathcal{X}\backslash\mathcal{Y} + \mathcal{Y}\backslash\mathcal{X} + (\mu_X+\mu_Y) \mathcal{X}\cap\mathcal{Y}$$
+
+would follow. Furthermore, when $\mathcal{X}$ and $\mathcal{Y}$ are just sets, we'd have
+
+$$\alpha\mathcal{X}+\beta\mathcal{X} = \alpha\mathcal{X}\backslash\mathcal{Y} + \beta\mathcal{Y}\backslash\mathcal{X} + (\alpha+\beta)\mathcal{X}\cap\mathcal{Y},$$
+
+which has a certain intuitive feeling to it.
+
+=--
+
 *  The __[[union]]__ of multisets is the multiset whose cardinality is given by the [[supremum]] operation on cardinal numbers.
 
    $$\mathcal{X}\cup\mathcal{Y} = \langle X\cup Y, \max(\mu_X,\mu_Y)\rangle.$$
