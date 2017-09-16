@@ -18,7 +18,5 @@ Less generally, a **commutative algebra** (where associative and unital are usua
 
 
 [[!redirects associative algebra]]
-[[!redirects commutative algebra]]
 [[!redirects associative unital algebras]]
 [[!redirects associative algebras]]
-[[!redirects commutative algebras]]
