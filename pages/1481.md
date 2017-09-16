@@ -13,7 +13,7 @@ The search is on for the abstract formalization of the process of _quantization_
 
 +-- {.standout}
 
-There is an open problem of mathematical (-[[physics]]) model building: what is the true formalism behind [[quantization]] that is to quantization such as, say, [[symplectic geometry]] is to [[Hamiltonian mechanis]].
+There is an open problem of mathematical (-[[physics]]) model building: what is the true formalism behind [[quantization]] that is to quantization such as, say, [[symplectic geometry]] is to [[Hamiltonian mechanics]].
 
 The formalism of [[FQFT]] clearly suggests that the fundamental description of [[quantization]] is some natural operation on higher functors.
 
