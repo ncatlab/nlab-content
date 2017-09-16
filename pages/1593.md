@@ -13,7 +13,7 @@ One formalization of orientifold backgrounds appeared in
 
 A formalization that also takes the spinorial degrees of freedom into account is in
 
-* [[Jacques Distler]], Dan Freed, Greg Moore, _Orientifold Precis_ ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
 A formulation in [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is indicated in 
 
