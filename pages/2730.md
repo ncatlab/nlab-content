@@ -28,3 +28,9 @@ So let's do it!
 Off the bat, I'm not seeing a clear connection between $M$-sets and multisets. It sounds like you were hoping that (locally finite) multisets were in some way connected with $\mathbb{N}$-sets, so let's talk a little about the latter. As stated in the abstract, an $\mathbb{N}$-set is a set equipped with an action by the monoid $\mathbb{N}$ (natural numbers $0, 1, 2, \ldots$ with the monoid multiplication taken to be ordinary addition). 
 
 A first thing to do is get a very clear picture of what $\mathbb{N}$-sets are like; there are other suggestive words that can be used to describe them. Any ideas? 
+
+[[Eric]]: So the [[monoid]] $\mathbb{N}$ has one object $\bullet$, an identity morphism labeled "+0" and a morphism labeled "+1" that generates all the other morphisms, e.g. $+2 = (+1)\circ(+1)$? So we need to understand the [[functor category]] $Set^\mathbb{N}$. Hmm...
+
+So $F(\bullet)$ is one set $X$ and we need to understand what is the function $F(+1)$ on that set. Hmm...
+
+I guess it doesn't really matter what $F(+1)$ is. It can be any function $f:X\to X$. We simply have $F(+n) = f^n$ with $f^0 = Id$. Ok!
