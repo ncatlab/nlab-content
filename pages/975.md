@@ -101,6 +101,10 @@ For a pedagogical motivation of the general topic under consideration here see
 
       * [[comma category]]
 
+        * [[category of elements]]
+   
+        * [[generalized universal bundle]]
+
       * [[subobject]]
 
   * concrete examples
@@ -124,6 +128,8 @@ For a pedagogical motivation of the general topic under consideration here see
 * [[functor]]
 
   * [[stuff, structure, property]]
+
+    * [[forgetful functor]]
 
     * [[essentially surjective functor]]
 
@@ -151,9 +157,17 @@ For a pedagogical motivation of the general topic under consideration here see
 
     * [[Yoneda embedding]]
 
+    * [[Yoneda extension]]
+ 
+    * [[free cocompletion]]
+
+    * [[co-Yoneda lemma]]
+
   * [[adjoint functor]]
 
     * [[adjunction]]
+
+    * [[examples of adjoint functors]]
 
 * functor and presheaf categories
 
@@ -169,6 +183,8 @@ For a pedagogical motivation of the general topic under consideration here see
 
   * examples
    
+    * [[limits and colimits by example]]
+
     * [[product]]
 
     * [[coproduct]]
