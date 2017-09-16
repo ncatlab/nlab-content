@@ -183,10 +183,10 @@ $$
     &&
     \infty-stacks\;on\;\mathcal{G}
     \\
-    \stackrel{specific, nice}{\leftarrow} & 
+    \stackrel{tame\;but\;restrictive}{\leftarrow} & 
     &&&&
     &
-    \stackrel{general, possibly wild}{\to}
+    \stackrel{versatile\;but\;possibly\;wild}{\to}
   }
 $$
 
@@ -273,7 +273,7 @@ This makes us want to say and make precise the statement that
 
 An **concrete [[∞-stack]]** $X$ is one which has an _underlying_ [[(∞,1)-topos]] $\mathcal{X}$:
 
-the collection of $U$-probes of $X$ is a subobject of the collection of [[(∞,1)-topos]] morphisms from $U$ to $mathcal{X}$:
+the collection of $U$-probes of $X$ is a [[subobject]] of the collection of [[(∞,1)-topos]]-morphisms from $U$ to $\mathcal{X}$:
 
 $$
   X(U) \subset \mathcal{L}Top(\mathcal{G})^{op}(Sh_{\infty}(U),\mathcal{X})
@@ -332,7 +332,7 @@ are provided by the objects of $\mathcal{G}$ themselves, which are canonically e
 ###### Theorem
 **([[Structured Spaces|StSp, thm. 2.1.1]])**
 
-Let $f : \mathcal{G} \to \mathcal{G}'$ be a morphism of [[geometry (for structured (infinity,1)-toposes)|geometries], 
+Let $f : \mathcal{G} \to \mathcal{G}'$ be a morphism of [[geometry (for structured (infinity,1)-toposes)|geometries]], 
 then the obvious [[(∞,1)-functor]] $f^* : \mathcal{L}Top(\mathcal{G}) \to \mathcal{L}Top(\mathcal{G}')$ admits a [[left adjoint]]
 
 $$
@@ -466,9 +466,11 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 =--
 
-> **warning** these statement pertain to pregeometries, not geometries. for the moment this here is glossing over the difference between the two. See [[geometry (for structured (∞,1)-toposes)]] for the details.
 
-**examples**
+**Examples**
+
+> **warning** the following statement really pertain to pregeometries, not geometries. for the moment this here is glossing over the difference between the two. See [[geometry (for structured (∞,1)-toposes)]] for the details.
+
 
 * ordinary smooth [[manifold]]s are [[n-localic (infinity,1)-topos|0-localic]] [[Diff]]-[[generalized scheme]]s ([Structured Spaces|StSp, ex. 4.5.2]])
 
