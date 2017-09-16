@@ -1,8 +1,10 @@
 
 * [website](http://www.dpmms.cam.ac.uk/~rhgg2/)
 
-#related $n$Lab entries#
+Related $n$Lab entries: [[ionad]], [[small object argument]]
 
-* [[ionad]]
+* R. Garner, _Cofibrantly generated natural weak factorisation systems_, arXiv:math.CT/0702290.
 
-cateory: people
+* R. Garner, _Understanding the small object argument_, Applied Cat. Structures, arXiv:math.CT/0712.0724
+
+category: people
