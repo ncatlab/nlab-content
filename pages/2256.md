@@ -1,5 +1,3 @@
-<div class="rightHandSide toc">
-
 * [[differential object|differential]] [[graded object|graded objects]]
 
 and
@@ -29,5 +27,3 @@ and
 * [[simplicial local system]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/differential+graded+objects+-+contents)</div>
-
-</div>
