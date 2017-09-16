@@ -29,6 +29,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: 
 
+  * added a reference to Peter May et al.'s survey article to [[stable homotopy theory]] -- also added a link back to [[stable homotopy category]]
+
+  * filled in formal definition at [[elliptic curve]], also that of the corresponding formal group law and some examples -- but needs polishing/expanding
+
+  * filled in content at [[formal spectrum]]
+
+  * created [[Landweber exactness criterion]]
+
+  * created [[weakly periodic cohomology theory]]
+
+  * since I see entries pointing to "direct limit" and "inverse limit" I created entries [[direct limit]] and [[inverse limit]]. I know that we could just redirect to [[limit]] and [[colimit]] where the terminology is discussed, but maybe the reader following such a link will appreciated being quickly alerted to the terminological issue before being faced with a long entry on limits and colimits where this is hidden as a remark somewhere
+
+  * slightly edited [[formal scheme]]: added an "Idea" sentence and highlighted the definition of _formal spectrum_ a bit. In fact, created [[formal spectrum]] planning to have the definition there, but then hesitated. Maybe this needs someone more expert than me.
+
   * stub for [[structure sheaf]]
 
   * slightly edited the beginning of [[structured (infinity,1)-topos]]
