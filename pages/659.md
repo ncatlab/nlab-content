@@ -89,3 +89,6 @@ A crossed module $\mu: M \to P$ determines a $cat^1$-structure on the [[semidire
 This equivalence between crossed squares and $cat^2$-groups confirms the completeness of the axioms for crossed squares. Notice also that to prove a diagram of crossed squares is a [[colimit]] diagram, it looks as if you have to make appallingly detailed verifications of axioms. It is much easier to prove the corresponding diagram of $cat^2$-groups is a colimit!
 
 This theme of using two equivalent categories, one for conjecture and proof, the other for calculation and application to traditional invariants, runs through the story of [[higher van Kampen theorem|higher homotopy van Kampen theorems]].
+
+
+[[!redirects crossed squares]]
