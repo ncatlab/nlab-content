@@ -33,7 +33,7 @@ $$
 $$
 in [[Cat]], where
 
-* $I$ is the interval category $I = \{a \to b\}$, which is the first [[oriental]], the 1-[[globe]], the canonical [[interval object]] in [[Cat]];
+* $I$ is the [[interval category]];
 
 * $[I,C]$ is the [[closed monoidal category|internal hom]] in [[Cat]], which here is the [[arrow category]] $Arr(C)$;
 
