@@ -1,6 +1,6 @@
 A **simplicial homotopy** is a [[homotopy]] in the classical [[model structure on simplicial sets]]. It can also be defined combinatorially; in that form one can define a homotopy 2-cell between morphisms of simplicial objects in any category $C$. 
 
-#Definition via cylinder#
+##Definition via cylinders##
 
 [[SSet]] has a [[cylinder functor]] given by [[cartesian monoidal category|cartesian]] product with the standard 1-[[simplex]] $I := \Delta^1$. (In fact, one can define simplicial  cylinders, $\Delta^1\odot X$, more generally, for example for $X$ being a simplicial object in an [[cocomplete category]] $C$,(see below).) 
 
@@ -26,7 +26,7 @@ commutes.
 
 Remark: Since in the standard [[model structure on simplicial sets]] every simplicial set is cofibrant, this indeed defines left homotopies.
 
-**Combinatorial definition** 
+##Combinatorial definition##
 
 Given morphisms $f,g,:X\to Y$ of simplicial objects in any category $C$, a __simplicial homotopy__ is a family of morphisms $\eta_n:X_n\to Y_{n+1}$ $n = 0,1,2,\ldots$, such that $d_0 h_0 = f$, $d_{n+1} \eta_n = g$ and
 
@@ -41,8 +41,11 @@ $$ s_i h_j = \left\lbrace\array{
 \eta_j s_{i-1}, & i\gt j.
 }\right.$$
 
-**Commentary**
-It is fairly easy to prove that the combinatorial definition of homotopy agrees with the one via the cylinder both for simplicial sets and for simplicial objects in any [[finitely cocomplete category]], $C$.  This uses the fact that the category of simplicial objects in a cocomplete category, $C$, has [[copower|copowers]] with finite simplicial sets and hence in articular with $\Delta[1]$. (As there are explicit formulae for the construction of [[copower|copowers]
+##Commentary##
+It is fairly easy to prove that the combinatorial definition of homotopy agrees with the one via the cylinder both for simplicial sets and for simplicial objects in any [[finitely cocomplete category]], $C$.  This uses the fact that the category of simplicial objects in a cocomplete category, $C$, has [[copower|copowers]] with finite simplicial sets and hence in articular with $\Delta[1]$. (As there are explicit formulae for the construction of [[copower|copowers]]
++-- {: .query}
+Something is missing here ...
+=--
 
 
 In the case of the category of (not necessarily abelian) groups, the combinatorial definition equals the one via cylinder only if the role of "cylinder" for a group $G$ is played by a simplicial object in the category of groups which in degree $n$ equals the free product of $(n+2)$ copies of $G$, indexed by the set $(\Delta^1)_n$ (noted by Swan and quoted in exercise 8.3.5 of Weibel: _Homological algebra_).
@@ -54,7 +57,7 @@ Can specific references to Swan be given, anyone?
 [[Zoran Škoda]]: I agree that one should talk about copowers etc. $\Delta^1$ in notation here is not the geometric realization of an interval, but the simplical set $\Delta[1]$, hence in this notation $(\Delta^1)_n = SSet([n],[1])$ is a set of cardinality $n+2$: out of $n+1$ elements in $[n]$ first $i$ go to $0$ and the remaining to $1$, there are $(n+2)$ choices at which element the first $1$ occurs, namely for $0$ to $n+1$ and "never".
 =--
 
-#Properties#
+##Properties##
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -176,7 +179,7 @@ Let $A$ be an abelian category. The morphisms of simplicial objects (variant: of
 * if $f\circ h$ (resp. $h\circ f$) exists and if $f\sim 0$ then $f\circ h\sim 0$ (resp. $h\circ f\sim 0$). 
 =--
 
-#References#
+##References##
 
 * Goerss, Jardine, _Simplicial homotopy theory_ ([ps](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi))
 
