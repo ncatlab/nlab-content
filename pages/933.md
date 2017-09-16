@@ -55,6 +55,11 @@ Since cosimplicial algebras have a fundamental interpretation dual to [[∞-spac
 * [[rational homotopy theory]].
 
 
+# Related entries
+
+*  A dga $A$ is __[[homologically smooth dga|homologically smooth]]__ if as a dg-bimodule $_A A_A$ over itself it has a bounded resolution by finitely generated projective dg-bimodules.
+
+
 #Discussion#
 
 A previous version of this entry gave rise to the following discussion
