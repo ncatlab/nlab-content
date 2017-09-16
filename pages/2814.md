@@ -24,6 +24,8 @@ Am I the only one who objects to the term 'comonoidal functor'?  Surely there ar
 You're not the only one!  The Australians call these 'comonoidal functors' [[oplax monoidal functor|oplax monoidal functors]].  ---[[John Baez]]
 
 I know that term, which is why I included it in the list of terms (^_^).  It\'s nice that you made that page, but you should also link to it in the text here and move the redirects from the bottom of this page to that one.  (I did that now.)   ---Toby
+
+[[Mike Shulman]]: I think some Australians, at least, call them "opmonoidal functors."  I agree that "comonoidal functor" has nothing to recommend it.  I myself prefer always to add the adjective "lax" when it applies, and to put the "co" or the "op" on the "lax."
 =--
 
 If we pass to the [[delooping]] [[2-category|2-categories]] $\mathbf{B}C$ and $\mathbf{B}D$ then a lax monoidal functor corresponds to a [[lax 2-functor]] 
