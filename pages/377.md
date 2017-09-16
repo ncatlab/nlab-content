@@ -16,7 +16,7 @@ The lack of cartesian closure and, to a lesser extent, local presentability, is 
 
 * In his paper _On a topological topos_, Peter Johnstone described a [[Grothendieck topos]] $E$ which contains the category of [[sequential space|sequential]] topological spaces as a full reflective subcategory which is closed under many colimits (including all those used to define [[CW complex|CW complexes]].  Since $E$ is a Grothendieck topos, it is locally presentable and locally cartesian closed.  Moreover, the [[geometric realization]] and [[singular complex]] functors form a [[geometric morphism]] between $E$ and the category of [[simplicial set|simplicial sets]].
 
-* One can just forget topological spaces and use the category of [[simplicial set]]s as the subject of homotopy theory. That every topological space has a simplicial set as its [[singularization]] now becomes an application of homotopy theory, rather than the starting point. 
+* One can just forget topological spaces and use the category of [[simplicial set]]s as the subject of homotopy theory.  The fact that every topological space has a simplicial set as its [[singularization]] then becomes an application of the homotopy theory of simplicial sets to the study of topological spaces, rather than a way to use simplicial sets to study the homotopy theory of topological spaces.
 
 #References#
 
@@ -55,4 +55,14 @@ When algebraic topologists (and, by extension, people talking about $\infty$-gro
 _Toby_:  I thought the full subcategory of locally compact Hausdorff spaces was cartesian closed?  Maybe not, and it\'s not mentioned above.
 
 But you can see that most of the examples above list nice properties of their full subcategories.  And the page begins by talking about what a lousy category $\Top$ is.  So it seems clearly wrong that you can\'t make $\Top$ a nicer category by taking a full subcategory of nice spaces.  (Not all of the examples are subcategories, of course.)
+
+[[Mike Shulman|Mike]]: It's true that locally compact Hausdorff spaces are [[exponentiable object|exponentiable]] in $Top$.  However, I don't think there's any reason why the exponential should again be locally compact Hausdorff.
+
+I guess you are right that one could argue that compactly generated spaces themselves are "nice," although I think the main reason they are important is that the category _of_ compactly generated spaces is nice.  I propose the following:
+
+1. Move the current content of this page to [[convenient category of spaces]].
+1. Create [[m-cofibrant space]] (I'll do that in a minute).
+1. Update most links to point to one or the other of the above, since I think that in most places one or the other of them is what is meant.
+1. At [[nice topological space]], list many niceness properties of topological spaces.  Some of them, like compact generation, will also produce a [[convenient category of spaces]]; others, like [[CW complex]]es, will be in particular [[m-cofibrant space|m-cofibrant]]; and yet others, like [[locally contractible space]]es, will do neither.
+
 =--
