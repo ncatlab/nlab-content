@@ -1,22 +1,46 @@
-Waldhausen in his work in K-theory introduced the notion of a category with cofibration and weak equivalences, nowdays known as _Waldhausen category_. As the original name suggests, this is a category $C$ with zero object $0$, equipped with a choice of two classes of maps $\mathrm{cof}$ of the cofibrations and $w.e.$ of weak equivalences such that
 
-(C1) all isomorphisms are cofibrations
+# Idea #
 
-(C2) there is a zero object $0$ and for any object $a$ the unique morphism $O\to a$ is a cofibration
+A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows to regard it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] $\mathbf{K}(C)$ of $C$.
 
-(C3) if $a\hookrightarrow b$ is a cofibration and $d\to b$ any morphism than the pushout $d\to a\cup_b d$ is a cofibration
+Notably a Waldhausen category provides the notion of co[[fibration sequence]]s, which are crucial structures controlling $\mathbf{K}(C)$. Dual to the discussion at [[homotopy limit]] and [[homotopy pullback]], ordinary [[pushout]]s in Waldhausen categories of the form
 
-(W1) all isomorphisms are weak equivalences
+$$
+ \array{
+  A &\hookrightarrow& B
+  \\
+  \downarrow && \downarrow
+  \\
+  0 &\to& B//A
+ }
+$$
 
-(W2) weak equivalences are closed under composition (make a subcategory)
+with $A \hookrightarrow B$ a special morphism called a Waldhausen cofibration compute _homotopy pushout_ s and hence coeact sequences in the corresponding [[stable (infinity,1)-category]].
 
-(W3) "glueing for weak equivalences": Given any commutative diagram of the form 
-$$\array{
-D &\leftarrow& A &\hookrightarrow &B\\
-\downarrow^\sim&& \downarrow^\sim &&\downarrow^\sim\\
-D' &\leftarrow &A' &\hookrightarrow &B'
-}$$
-in which the vertical arrows are weak equivalences and right horizontal maps cofibrations, the induced map
+Using this, the [[Waldhausen S-construction]] on $C'$ is an algorithm for computing the [[K-theory]] spectrum of $C$.
+
+# Definition #
+
+Waldhausen in his work in [[K-theory]] introduced the notion of a category with cofibration and weak equivalences, nowdays known as _Waldhausen category_. As the original name suggests, this is a category $C$ with zero object $0$, equipped with a choice of two classes of maps $\mathrm{cof}$ of the cofibrations and $w.e.$ of weak equivalences such that
+
+* (C1) all isomorphisms are cofibrations
+
+* (C2) there is a zero object $0$ and for any object $a$ the unique morphism $O\to a$ is a cofibration
+
+* (C3) if $a\hookrightarrow b$ is a cofibration and $d\to b$ any morphism than the pushout $d\to a\cup_b d$ is a cofibration
+
+* (W1) all isomorphisms are weak equivalences
+
+* (W2) weak equivalences are closed under composition (make a subcategory)
+
+* (W3) "glueing for weak equivalences": Given any
+commutative diagram of the form 
+  $$\array{
+  D &\leftarrow& A &\hookrightarrow &B\\
+  \downarrow^\sim&& \downarrow^\sim &&\downarrow^\sim\\
+  D' &\leftarrow &A' &\hookrightarrow &B'
+  }$$
+  in which the vertical arrows are weak equivalences and right horizontal maps cofibrations, the induced map
 $B\cup_A D\hookrightarrow B'\cup_{A'} D'$
 is a weak equivalence. 
 
@@ -27,9 +51,9 @@ Given a Waldhausen category $C$ whose weak equivalence classes from a set, one d
 Waldhausen then devises so called S-construction $C\mapsto S_\bullet C$ from Waldhausen categories to simplicial categories with cofibrations and weak equivalence (hence one can iterate the construction producing multisimplicial categories). 
 
 The [[K-theory space]] of a Waldhausen construction is 
-given by formula $\Omega\mathrm{hocolim}_{\Delta^{\mathrm{op}}}([n]\mapsto N_\bullet(w.e.(S_n C)))$, where $\Omega$ is the loop space functor, $N$ is the simplicial nerve, w.e. takes the (simplicial) subcategory of weak equivalence and $[n]\in\Delta$. This construction can be improved (using iterated $S$-construction) to the K-theory $\Omega$-spectrum of $C$; the K-theory space will be just the one-space of the K-theory spectrum. 
+given by formula $\Omega\mathrm{hocolim}_{\Delta^{\mathrm{op}}}([n]\mapsto N_\bullet(w.e.(S_n C)))$, where $\Omega$ is the loop space functor, $N$ is the simplicial [[nerve]], w.e. takes the (simplicial) subcategory of weak equivalence and $[n]\in\Delta$. This construction can be improved (using iterated [[Waldhausen S-construction]]) to the [[K-theory]] $\Omega$-[[spectrum]] of $C$; the K-theory space will be just the one-space of the K-theory spectrum. 
 
-Then the K-groups are the homotopy groups of the K-theory space.
+Then the K-groups are the [[homotopy group]]s of the K-theory space.
 
 #Remarks#
 
