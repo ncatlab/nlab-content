@@ -78,6 +78,15 @@ $$
 
 Being an [[over category]], this would match well with the reasoning at [[geometric function object]].
 
+#### references ####
+
+Somebody points out the discussion here
+
+* [http://www.mta.ca/~cat-dist/catlist/1999/finite-topos](http://www.mta.ca/~cat-dist/catlist/1999/finite-topos)
+
+on formulating finitely-presented conditions internally in a topos. In particular [[William Lawvere]]'s message (the third one from the top).
+
+
 ## further questions ##
 
 will go here...
