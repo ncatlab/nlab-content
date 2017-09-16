@@ -1,2 +1,2 @@
+category: delete
 [[!redirects baz]]
-
