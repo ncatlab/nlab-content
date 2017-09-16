@@ -50,19 +50,29 @@ Here $2Vect$ denotes some version of the category of 2-vector spaces with the pr
 More details on this perspective on graded vector spaces are in [[schreiber:Nonabelian cocycles and their quantum symmetries]].
 
 #Special case of $\mathbb{Z}$-graded vector spaces.#
-The case  $G = \mathbb{Z}$ serves as a base for many other applications of the same basic idea. It has some of its own 'traditional' terminology and structure that links it to [[differential object|differential objects]], so that a 'differential graded vector space' is a [[chain complex]] of vector spaces.  We will use 'gvs' as an abbreviation for this sort of graded vector space and 'dgvs' for the differential form. (The theory easily adapts to handle graded modules over a ring, and with some restriction, to graded groups.) Basing algebras on dgvs gives differential graded algebras ([[dg-algebra]]).
 
-We will give a sort of lexicon of some terms which are taken from a source on [[rational homotopy theory]]. 
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
++-- {: goal}
+###### Lexicon
 
-+-- {: .query}
-[[Tim Porter|Tim]]:This will, for the moment, be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made.
+[[Tim Porter|Tim]]:
+The case  $G = \mathbb{Z}$ serves as a base for many other applications of the same basic idea. It has some of its own 'traditional' terminology and structure that links it to [[differential object|differential objects]], so that a 'differential graded vector space' is a [[chain complex]] of vector spaces. I will use 'gvs' as an abbreviation for this sort of graded vector space and 'dgvs' for the differential form. (Of course, the theory easily adapts to handle graded modules over a ring, and with some restriction, to graded groups.) Basing algebras on dgvs gives differential graded algebras ([[dg-algebra]]) and so on.
+
+I wan to put here a sort of lexicon of some terms which are taken from a source on [[rational homotopy theory]]. 
+
+This will, for the moment, be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made.
+
+I have put this in the main area so as to encourage feedback and the identification of potential clashes of notation, terminology and conventions.  I have typed this in but do not like it in some of its terminology. (I am using a latex file from some years ago.) Once I have everything I have in my lexicon down in the nLab I hope we can make the entry  fit more closely to others.
+
+The lexicon will be spread over a number of entries with links at least at the end of each.
 =--
 
 #Lexicon#
 
 **Note** With $\mathbb{Z}$-graded vector spaces (and sometimes with other examples as well), some authors work with a direct sum of the various vector spaces instead of using an indexed family.
 
-[[Tim Porter|Tim]]: I have typed this in but do not like it in some of its terminology. (I am using a latex file from some years ago.) Once I have everything I have in my lexicon down in the nLab I hope we can make the entry  fit more closely to others.
 
 
 **(Pre-)graded vector spaces**
@@ -160,8 +170,12 @@ and is of degree $|f| + |g|$.
 
 In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W)$, and this is an isomorphism if either $V$ or $W$ is of finite type.
 
-##Remark ##
-A [[differential object]] in the category of gvs is a [[differential graded vector space]] or dgvs. This is just a [[chain complex]] or cochain complex
-
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
++-- {: goal}
+######Links to next part and other things:
+A [[differential object]] in the category of gvs is a [[differential graded vector space]] or dgvs. This is just a [[chain complex]] or cochain complex.
+=--
 
 
