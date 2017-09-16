@@ -3,9 +3,11 @@
 Recall that a [[Kan complex]] is a special [[simplicial set]] that [[homotopy hypothesis|behaves like]] a combinatorial model for a [[topological space]].
 
 
-The _simplicial homotopy groups_ of a Kan complex are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological sphere modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. 
+The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|pointed]]* Kan complex) are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological sphere modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. 
 
 Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of ordinary [[homotopy group]]s.  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
+
+As for ordinary homotopy groups, an $n$th simplicial homotopy group is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] $0$-[[0-groupoid|groupoid]].  That is, for $n = 0$, it is not a group at all but rather a [[pointed set]]; for $n = 1$, it is a [[group]]; and for $n \geq 2$, it is an [[abelian group]].
 
 
 #Definition# 
@@ -15,9 +17,9 @@ Recall the classical [[model structure on simplicial sets]]. Let $X$ be a fibran
 Define
 
 
-* the **0th simplicial homotopy groupoid** $\Pi_0(X)$ to be the [[discrete category|discrete groupoid]] on the _set_ $(X_0/X_1)$ of connected components of $X$,
+* the **$0$th simplicial homotopy groupoid** $\Pi_0(X)$ to be the [[discrete category|discrete groupoid]] on the _set_ $(X_0/X_1)$ of connected components of $X$,
 
-  * for every $x \in X_0$ the [[pointed set]] $\pi(X,x)$ to be the set $(X_0/X_1)$ of connected components of $X$ with point the connected component $[x]$ of $x \in X_0$;
+  * for every $x \in X_0$ the [[pointed set]] $\pi(X,x)$ to be the set $(X_0/X_1)$ with point the connected component $[x]$ of $x \in X_0$; this is actually a special case of the following definition, until the group structure.
 
 +-- {: .query}
   I would like the set of connnected components to be the simplicial homotopy $0$-group*oid* $\Pi_0(X)$, while the $0$th simplicial homotopy 'group' itself is (like the following) a property of a *pointed* space: $\pi_0(X,x)$ is the [[pointed set]] $\Pi_0(X)$ equipped with the component of $x$ as point.  That way, the $n$th simplicial homotopy group is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] set, as I\'ve done at [[homotopy group]].  (This also becomes strictly a special case of the general definition below, not an exception.)  ---Toby
