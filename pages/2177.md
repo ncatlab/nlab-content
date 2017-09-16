@@ -2,9 +2,13 @@
 
 ## Idea ##
 
-Consider the [[minimal negation operator]] of arity $k$:
+Consider the [[minimal negation operator]] of arity $k$, written in the form $\nu (x_1, \dots, x_k)$ or `(` $x_1$ `,` $\ldots$ `,` $x_k$ `)`.
 
-$$\displaystyle \nu (x_1, \dots, x_k)$$
+Read as a function, $\nu$ returns a value of $1$ in exactly those cases where exactly one of its arguments is $0$.
+
+Read as an assertion, under the interpretation where $1 = \mathop{true}$, $\nu$ makes a statement to the effect that exactly one of its arguments is $\mathop{false}$.
+
+The relation between the function and the assertion is this, that the fiber of $1$ under the function captures precisely the models of the assertion.
 
 ## External links ##
 
