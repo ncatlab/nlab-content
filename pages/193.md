@@ -31,6 +31,7 @@ $$
   D \stackrel{R}{\to} C
 $$
 
+[[zigzag-0.png:pic]]
 
 and
 $$ 
@@ -61,6 +62,7 @@ $$
   C \stackrel{L}{\to} D
 $$
 
+[[zigzag-1.png:pic]]
 
 variously called the _triangle identities_ or the _zig-zag identities_.  We call $L$ the **left adjoint** (of $R$) and $R$ the **right adjoint** (of $L$).  We call $\eta$ the [[unit]] and $\epsilon$ the [[counit]] of the adjunction.
 
