@@ -31,7 +31,7 @@ $$
 for $V$-functors $In : S^{op} \to V$ and $Out : S \to V$.
 
 
-#### How to handle size issues in this context? ####
+### How to handle size issues in this context? ###
 
 From [[Froelicher space|Frölicher spaces]]: When considering functor categories such as the above, there's clearly some size issues.  What's the "standard" way to avoid this?  Is it to insist that the original category have a small skeleton?
 
@@ -43,5 +43,6 @@ _Mike_: Yes, you almost certainly want it to be essentially small (see my commen
 From [[Froelicher space|Frölicher spaces]]: I want to consider the case of a concrete category and a (maybe full) subcategory which can detect which set-morphisms come from the original category.  A bit like the idea that one can detect which set maps are smooth maps between, say, manifolds by testing with smooth maps from $R$.
 
 _Mike_: Perhaps "concretely dense" or "relatively dense?"  (See my comment at [[Froelicher space]])
+
 
 category: meta
