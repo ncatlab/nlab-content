@@ -1,0 +1,1 @@
+Given a [[set]] $S$, the __free monoid__ on $S$ is the set $S^*$ of all __lists__ (finite [[sequences]]) of elements of $S$, made into a monoid using __concatenation__.
