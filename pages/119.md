@@ -42,10 +42,14 @@ However, maybe it's a rule that a [[Hasse diagram]] with directed edges $x \to y
 
 _Toby_:
 
-Eric, there *is* a functor $\Cat \to \Ord$ as you describe.  If you call it a forgetful functor, then a category is a proset with extra stuff (not just structure), since this functor is not faithful (although interestingly it is both full and essentially surjective, so it forgets 'only stuff').  In contrast, a proset is a category with extra property (as you can literally see from John\'s slick definition above), since the functor $\Ord \to \Cat$ is fully faithful (as Matthieu points out).
+Eric, there *is* a functor $\Cat \to \Ord$ as you describe.  If you call it a forgetful functor, then a category is a proset with extra stuff (not just structure), since this functor is not faithful (although it is essentially surjective).  In contrast, a proset is a category with extra property (as you can literally see from John\'s slick definition above), since the functor $\Ord \to \Cat$ is fully faithful (as Matthieu points out).
 
-(Recall that [[essentially surjective functor]]s, [[full functor]]s, and [[faithful functor]]s form the three anti-homogenous parts of the yoga of stuff, structure, and property, where in general you can call *any* functor a 'forgetful functor' and see what that gets you.  I am treating only the $1$-category of categories, since otherwise this discussion would be at [[poset]] by rights.)
+>(Recall that [[essentially surjective functor]]s, [[full functor]]s, and [[faithful functor]]s form the three anti-homogenous parts of the yoga of stuff, structure, and property, where in general you can call *any* functor a 'forgetful functor' and see what that gets you.  I am treating only the $1$-category of categories, since otherwise this discussion would be at [[poset]] by rights.)
+
+In fact, as Mike points out below, these two functors form an adjunction that makes $\Ord$ into a [[reflective subcategory]] of $\Cat$.
 
 For a Hasse diagram, I like John\'s definition.  It is true that a Hasse diagram shouldn\'t have an edge $x \to z$ if there are edges $x \to y \to z$, but this follows; it\'s not a further restriction.  (Similarly, there can\'t be any loops, even though directed graphs in general should allow them.)
 
 _Mike_: I don't think the preorder reflection $Cat\to Ord$ is full.  Let $C$ be the walking commutative square (aka $\mathbf{2}\times\mathbf{2}$, where $\mathbf{2}$ is the walking arrow), and let $D$ be the walking non-commutative square (the free category on the directed graph that looks like a square with no diagonals).  Then $C$ and $D$ have isomorphic preorder reflections, but I don't believe there is a functor $C\to D$ mapping to this isomorphism.
+
+_Toby_:  Yeah, you\'re right; I made a level slip while thinking about this.  I fixed my comment above.
