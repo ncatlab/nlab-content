@@ -24,7 +24,7 @@ Notice that in general a topological localization is not a [[hypercomplete (∞,
 +-- {: .un_def }
 ###### Definition
 
-Call a morphism $f : X \to Y$ in an [[(∞,1)-category]] $C$ a **monomorphism** if it is a [[n-truncated object of an (infinity,1)-category|(-1)-truncated object]] in the [[overcategory]] $X_{/Y}$.
+Call a morphism $f : X \to Y$ in an [[(∞,1)-category]] $C$ a **[[monomorphism in an (∞,1)-category|monomorphism]]** if it is a [[n-truncated object of an (infinity,1)-category|(-1)-truncated object]] in the [[overcategory]] $X_{/Y}$.
 
 Equivalently: if for every object $A \in C$ the induced morphism in the [[homotopy category]] of [[∞-groupoid]]s
 
