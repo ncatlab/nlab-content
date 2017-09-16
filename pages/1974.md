@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include categorification - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 The term _Grothendieck group_ has a restricted and a more general meaning.
