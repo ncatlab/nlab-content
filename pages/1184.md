@@ -16,7 +16,7 @@ Note that in [[constructive mathematics]], $\prec$ cannot necessarily be reconst
 
 ## Examples ##
 
-* Any [[finite set|finite]] [[total order|totally ordered set]] $\{x_1 \lt \cdots \lt x_n\}$ is well-ordered.
+* Any [[finite set|finite]] [[linearly ordered set]] $\{x_1 \lt \cdots \lt x_n\}$ is well-ordered.
 
 * The set of [[natural numbers]] is well-ordered under the usual order $\lt$.
 
@@ -26,11 +26,11 @@ Note that in [[constructive mathematics]], $\prec$ cannot necessarily be reconst
 
 ## Interpretation as an ordinal number ##
 
-Any well-ordered set $S$ defines an [[ordinal number]] $\alpha$ and an order isomorphism $r$ between $S$ and the set of ordinal numbers less than $\alpha$; as such, $S$ may be identified (up to isomorphism of wosets) with the von Neumann ordinal $\alpha$.  The idea is that the minimal element $\bot$ of $S$ itself (if any) is mapped to the ordinal number $0$, the minimal element of $S \setminus \{\bot\}$ (if any) is mapped to $1$, and so on; after which the next element of $S$ (if any) is mapped to $\omega$; and so on; and so on.
+Any well-ordered set $S$ defines an [[ordinal number]] $\alpha$ and an order isomorphism $r$ between $S$ and the set of ordinal numbers less than $\alpha$; as such, $S$ may be identified (up to isomorphism of wosets) with the von Neumann ordinal $\alpha$.  The idea is that the minimal element $\bot$ of $S$ itself (if any) is mapped to the ordinal number $0$, the minimal element of $S \setminus \{\bot\}$ (if any) is mapped to $1$, and so on; after which the next element of $S$ (if any) is mapped to $\omega$, and so on; and so on.
 
 This may be defined immediately (and constructively) as a recursively defined function from $S$ to the class of all ordinal numbers:
-$$ r(x) = \bigcup_{t \prec x} r(t)+ ;$$
-the validity of this sort of recursive definition is precisely what the well-foundedness of $\prec$ allows.  Here, $\beta+$ is the [[successor]] of the ordinal number $\beta$, and $\bigcup$ is the union operation on ordinal numbers (literally the [[union]] of von Neumann ordinals).
+$$ r(x) = \sup_{t \prec x} r(t)^+ ;$$
+the validity of this sort of recursive definition is precisely what the well-foundedness of $\prec$ allows.  Here, $\beta^+$ is the [[successor]] of the ordinal number $\beta$, and $\sup$ is the [[supremum]] operation on ordinal numbers (which is the [[union]] of von Neumann ordinals).
 
 Since $S$ is a set, the image of $r$ in the class of all ordinals is also a set, and one can now prove that $r$ is an order isomorphism between $S$ and the set of ordinals less than the next ordinal, $\alpha$.
 
