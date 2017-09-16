@@ -7,3 +7,10 @@ One of the founders of the subject is Shun-ichi [Amari](http://www.brain.riken.j
 *  ETVC08 [lecture](http://videolectures.net/etvc08_amari_igaia/).
 *  Shun-ichi Amari, Hiroshi Nagaoka, _Methods of information geometry_, Transactions of mathematical monographs; v. 191, American Mathematical Society, 2000. 
 *  Blog [post](http://golem.ph.utexas.edu/category/2006/11/infinitedimensional_exponentia.html).
+
+
++-- {: .query}
+[[Tim Porter]]: I have looked briefly at the Methods of Info Geom book and it seemed to me to be distantly related to what the eminent statistician David Kendall used to do.  He and some coauthors wrote a very nice book called: Shape and Shape Theory (nothing to do with Borsuk's Shape Theory). The theory may be of relevance as it used differential geometric techniques.  (Incidently there are some nice questions concerning the space of configurations of various types that would be a good source for student project work in it.) 
+
+My query is whether the link is a strong one between the Amari stuff and those Kendall Shape space calculations.  Kendall's theory and some similar work by Bookstein is widely used in identifcation algorithms using a feature space. In case the link is only faint I will leave it at that for the moment.  Any thoughts anyone?
+=--
