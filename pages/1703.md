@@ -49,13 +49,6 @@ $$
   \,.
 $$
 
-+-- {: .query}
-Urs, I hope that you don\'t my changing your $G_{(2)}$s to $H$s here and elsewhere.  $G_{(2)}$ makes me think that it ought to be derivable from $G$, whereas you really just want to indicate a shift from the group $G$ to some $2$-group.  So I have dubbed the $2$-group $H$ instead.  ---Toby
-
-[[Urs Schreiber|Urs]]: yes, sure. Maybe remove this comment box here when you see it next.
-
-=--
-
 As ordinary [[principal bundle]]s, these gadgets may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsor]]s equipped with 2-group [[action]], or certain variants of this. 
 
 Maybe the earliest explicit description of a principal $\infty$-bundle using a [[geometric definition of higher category]] is
@@ -67,7 +60,7 @@ This describes [[torsor]]s over [[infinity-groupoid]]s in terms of the correspon
 This theory of higher bundles and [[gerbe]]s was made to look manifestly like a systematic [[vertical categorification|categorification]] of the familiar description of ordinary [[principal bundle]]s in terms of cocycles and local trivializations in
 
 *  Luca Mauri, PhD thesis, 1998
-   ([pdf](http://home.aubg.bg/faculty/aganchev/Category Theory/Mauri%28papers%29/mauri-2.pdf) ;
+   ([pdf](http://home.aubg.bg/faculty/aganchev/Category%20Theory/Mauri%20%28papers%29/mauri-2.pdf));
 
 An abridged version is
 
