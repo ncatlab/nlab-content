@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: 
 
+  * created [[Karoubi envelope]] in order to collect references to the $\infty$-version of it
+
   * expanded [[universal fibration of (infinity,1)-categories]]
 
   * added a section "Idea" and a section "Generalization" to [[Grothendieck construction]]
