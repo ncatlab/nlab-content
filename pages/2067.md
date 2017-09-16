@@ -33,7 +33,14 @@ $$
   f^* : X_{y_2} \to X_{y_1}
 $$
 
-between the [[fiber]]s of $p$ over $y_1$ and $y_2$. This way a functor $p : X \to Y$ with enough Cartesian morphisms -- called a [[Cartesian fibration]] or [[Grothendieck fibration]] -- determines and is determined by a fiber-assigning functor $Y \to Cat^{op}$.
+between the [[fiber]]s of $p$ over $y_1$ and $y_2$. 
+
++--{: .query}
+[[David Roberts]]: There would surely be an anafunctor version of this, that would require no choices whatsoever. It is unlikely that I would be able to find time to write this up, so my plea goes out to those in the know...
+
+I imagine that there would then be an $(\infty,1)$-version using whatever passes as anafunctors in that setting (dratted memory, failing at the first gate)
+=--
+This way a functor $p : X \to Y$ with enough Cartesian morphisms -- called a [[Cartesian fibration]] or [[Grothendieck fibration]] -- determines and is determined by a fiber-assigning functor $Y \to Cat^{op}$.
 
 This has its analog in [[higher category theory|higher categories]].
 
