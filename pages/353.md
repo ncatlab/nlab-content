@@ -69,7 +69,7 @@ Someone should add some more references!
 
 * [[Todd Trimble|Trimble]]-style definition: An $n$-category is a category weakly enriched over $(n-1)$-categories, where the weakness is parametrized by an [[operad]].  This definition is inductive and thus cannot do $\omega$ in an obvious way, but it has been accomplished using terminal coalgebras; see [[Trimble n-category]].  Alternately, by starting with enrichment in [[spaces]] or [[simplicial sets]], one can obtain directly a notion of [[(∞,n)-category]].  The resulting notion of [[(∞,1)-category]] is an $A_\infty$-[[A∞-category|category]].
 
-* [[Tamsamani]]--[[Simpson]] definition: An $n$-category is a simplicial object in $(n-1)$-categories satisfying object-discreteness and [[Segal conditions]].  This definition is inductive (it is a different way of formalizing "iterated weak enrichment") and thus cannot do $\omega$ in an obvious way.  It does have a natural extension to $(\infty,n)$-categories, and the resulting notion of [[(∞,1)-category]] reduces to a [[Segal category]].
+* [[Tamsamani]]--[[Carlos Simpson|Simpson]] definition: An $n$-category is a simplicial object in $(n-1)$-categories satisfying object-discreteness and the [[Segal condition]].  This definition is inductive (it is a different way of formalizing "iterated weak enrichment") and thus cannot do $\omega$ in an obvious way.  It does have a natural extension to $(\infty,n)$-categories, and the resulting notion of [[(∞,1)-category]] reduces to a [[Segal category]].
 
 * [[Ieke Moerdijk|Moerdijk]] and [[Ittay Weiss|Weiss]]'s definition uses yet another way of formalizing "iterated weak enrichment," using [[dendroidal sets]] and [[quasi-operad]]s.
 
@@ -79,9 +79,9 @@ Someone should add some more references!
   [[Mike Shulman]]: The information that it may not quite work was given to me third-hand, with no details.  I have my own suspicions about what the reasons might be, but not time to write them down right now.
   =--
 
-* [[Clark Barwick|Barwick]]'s definition (popularized by [[Jacob Lurie|Lurie]] in solving the Baez--Dolan [[cobordism hypothesis]]): an $(\infty,n)$-category is an $n$-fold [[simplicial object|simplicial]] [[topological space]] satisfying completeness and [[Segal conditions]].  See [[n-fold complete Segal space]].  An $n$-category is again defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  It is not clear whether this definition can do $\omega$.  An $(\infty,1)$-category with this definition is also the same as a [[complete Segal space]].
+* [[Clark Barwick|Barwick]]'s definition (popularized by [[Jacob Lurie|Lurie]] in solving the Baez--Dolan [[cobordism hypothesis]]): an $(\infty,n)$-category is an $n$-fold [[simplicial object|simplicial]] [[topological space]] satisfying completeness and the [[Segal condition]].  See [[n-fold complete Segal space]].  An $n$-category is again defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  It is not clear whether this definition can do $\omega$.  An $(\infty,1)$-category with this definition is also the same as a [[complete Segal space]].
 
-* [[Charles Rezk|Rezk]]'s definition: An $(\infty,n)$-category is a *simplicial* $n$-cellular set satisfying [[fibrancy]], completeness, and [[Segal conditions]].  An $n$-category can then be defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  This definition can potentially do $\omega$, although it seems not to have been written down yet.  An $(\infty,1)$-category with this definition is the same as a [[complete Segal space]]. See [[Theta space]].
+* [[Charles Rezk|Rezk]]'s definition: An $(\infty,n)$-category is a *simplicial* $n$-cellular set satisfying [[fibrancy]], completeness, and the [[Segal condition]].  An $n$-category can then be defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  This definition can potentially do $\omega$, although it seems not to have been written down yet.  An $(\infty,1)$-category with this definition is the same as a [[complete Segal space]]. See [[Theta space]].
 
 
 ## Comparisons
