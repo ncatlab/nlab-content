@@ -1,0 +1,5 @@
+A __scheme__ is a locally [[ringed space]] locally isomorphic to the affine spectrum of a unital commutative [[ring]]. In [[algebraic geometry]] this is a basic object of study, since the revolution of Grothendieck. There are generalizations like relative schemes (just objects in slice category $Schemes/S$),  relative schemes in [[noncommutative algebraic geometry]] introduced by A. Rosenberg in terms of categories and covers defined using pairs of adjoint functors, generalized schemes of [[Nikolai Durov]], [[algebraic stack]]s of Deligne-Mumford and Artin, dg-schemes of Kapranov, derived schemes of [[Jacob Lurie]], higher algebraic stacks of Toen-Vezzosi, almost schemes (Ofer Gabber and Lorenzo Ramero), formal schemes (Cartier-Grothendieck), locally affine spaces in fpqc, fppf or etale topology (Grothendieck), [[algebraic spaces]] etc. 
+
+See also [wikipedia](http://en.wikipedia.org/wiki/Scheme_(mathematics).
+
+[[!redirects schemes]]
