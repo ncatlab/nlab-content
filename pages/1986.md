@@ -15,17 +15,22 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-08-04
+
+*  [[Toby Bartels]]:  Added [[characteristic morphism]] to [[characteristic function]].
+
 * [[Zoran Škoda]]: Created [[exact sequence of Hopf algebras]] (well, for now short exact). 
 Oh John, you gave me an opportunity for recalling some sweet memories: I clumsily used word lazy for a lack of interaction (actually a barrier of shyness/fear between experts and non-experts) at a summer school on geometry and strings in 1999 and got excommunicated there for about a week :) 
 
 * [[John Baez]]: What, I'm the first one working on the $n$Lab and it's already past noon (in Paris)?  The rest of you must be getting lazy!  :-)  I added a little bit about cosimplicial objects vs cochain complexes to [[Dold-Kan correspondence]].
 
+
 ## 2009-08-03
 
 * [[Zoran Škoda]]: To assist [[John Baez]]'s links, created [[Eilenberg-Moore category]], [[Kleisli category]] and added details and redirects to [[monadic functor]]. To John's question: I think most basic facts in Tannaka reconstruction including sort of those on coalgebra level are in chapter 3 of [Bodo Pareigis' online notes](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html); his emphasis is on [[end]]s and coends. However I hope you find Kazhdan's notes, they must be great. I created entry [[Tomasz Maszczyk]] with very interesting past seminar abstract at the bottom relating a new reconstruction theorem coming from nc geometry. 
 
-   * [[John Baez]]: thanks for the reference to Pareigis' online notes!  I'll look at them sometime --- I hadn't known about them.
+  * [[John Baez]]: thanks for the reference to Pareigis' online notes!  I'll look at them sometime --- I hadn't known about them.
 
 * [[Urs Schreiber]]: expanded the example list at [[twisted cohomology]] -- in particular added "cohomology with local coefficients" as a special case. Added to the very beginning of [[local system]] a paragraph on how strictly speaking local systems were meant to be such "local systems of coefficients".
 
@@ -56,6 +61,7 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
      * I could move this to my private web. Let me know if you feel that would be better.
 
 * [[Zoran Škoda]]: created [[crossed profunctor]] (of crossed modules) and [[butterfly]] (papillon). First after M. Jibladze (1990) and second after B. Noohi (2005). I did not draw the diagram but wrote equations explicitly.
+
 * [[Eric]]:
 
   * Gleefully responded to John's gleeful response on [[directed graph]]. Note: I need to learn about this 'resolution' stuff.
@@ -78,11 +84,11 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
 * [[John Baez]]: 
 
-   * Added theorem characterizing categories of $R$-modules to [[compact object]].
+  * Added theorem characterizing categories of $R$-modules to [[compact object]].
 
-   * Added same theorem and also the Mitchell embedding theorem to [[abelian category]].
+  * Added same theorem and also the Mitchell embedding theorem to [[abelian category]].
 
-   * Gleefully shot down an idea of Eric's over at [[directed graph]] --- but this idea can be resuscitated using the concept of 'resolution'.
+  * Gleefully shot down an idea of Eric's over at [[directed graph]] --- but this idea can be resuscitated using the concept of 'resolution'.
 
 * [[Sridhar Ramesh]] added a small note that [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] are the same as (internal) closure operators on truth values (Being new here, I'm not exactly sure what the protocols are; in "Please log all your non-trivial changes", does "non-trivial" mean everything above, say, typo-correction?). I also observed, in the article on [[presheaf|presheaves]], that the representable presheaves on a category of presheaves are precisely those which turn colimits into limits (i.e., a functor of type $[C, Set]^{op} \to Set$ is representable just in case it is limit-preserving).
 
@@ -100,7 +106,6 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 * [[Urs Schreiber]]: replied and reacted at  [[differential form]]
 
 *  [[Toby Bartels]]:
-
    *  Archived the [[2009 July changes]].  (Check there if you missed some ... which you did, I promise.)
    *  More discussion with [[Rafael Borowiecki]] at [[category theory]].
    *  Answered one of two un-logged questions by [[Jim Stasheff]] at the bottom of [[Timeline of category theory and related mathematics]].
