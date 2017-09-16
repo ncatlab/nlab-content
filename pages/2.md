@@ -15,8 +15,8 @@
   * [[HomePage|Home]]
   * [[HowTo|HowTo]]
   * [[FAQ|FAQ]]
-  * [[General Discussion|General Discussion]]
   * [[latest changes|Latest Changes]]
+  * [[request for help|Request For Help]]
   * [[Sandbox|Sandbox]]
 
 * [[About]]
