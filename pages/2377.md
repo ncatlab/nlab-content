@@ -708,6 +708,8 @@ If to this equality-free version of SEAR we add a primitive notion of (non-exten
 
 # Universes in SEAR
 
+See also [[categories in SEAR]].
+
 +--{: .query}
 [[David Roberts]]: Can we talk about Grothendieck universes or analogous size-related mechanisms? (this is a naive question, since there may be (no need for/obvious way to do) this in a structural set theory that I am unaware of.
 
