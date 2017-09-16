@@ -48,6 +48,8 @@ _Toby_: Yes, I\'m happy now for now.
 
 =--
 
-
+[[!redirects inhabited sets]]
 [[!redirects occupied set]]
 [[!redirects well-supported object]]
+[[!redirects occupied sets]]
+[[!redirects well-supported objects]]
