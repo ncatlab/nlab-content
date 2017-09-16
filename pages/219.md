@@ -6,6 +6,12 @@ See also
 
 * Part III, [[Trimble on ETCS III|ETCS: Building joins and coproducts]]
 
+#Contents#
+* tic
+{:toc}
+
+
+
 #ZFC and ETCS: Elementary Theory of the Category of Sets#
 
 This is a post on "[[foundations]] of mathematics" (eek!). I was motivated to write it while I've been struggling to understand better certain applications of ultrafilters -- namely the theory of *measurable cardinals* -- from a point of view and language that I feel comfortable with. My original intent was to blog about *that*, as a kind of off-shoot of the general discussion of [ultrafilters](http://topologicalmusings.wordpress.com/2008/07/18/ultrafilter-convergence-compactness-and-the-spectrum-of-a-boolean-algebra/) I started in connection with the series on [Stone duality](http://topologicalmusings.wordpress.com/2008/04/02/toward-stone-duality-posets-and-meets/), and because it seems kind of cool. And I will. But this got finished first, and I thought that it would be of interest to some who have been following my [category](http://topologicalmusings.wordpress.com/2008/06/22/basic-category-theory-i/) [theory](http://topologicalmusings.wordpress.com/2008/06/29/basic-category-theory-ii/) [posts](http://topologicalmusings.wordpress.com/2008/07/12/basic-category-theory-iii-representability-adjoints-and-the-yoneda-lemma/).
