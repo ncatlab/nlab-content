@@ -148,6 +148,8 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * In the context of [[module]]s (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
 
+* There is a [[Yoneda lemma for bicategories]].
+
 * There is a [[Yoneda lemma for (infinity,1)-categories]].
 
 * In [[functional programming]], the Yoneda embedding is the [[continuation passing style]] transform.
@@ -160,4 +162,4 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 #References#
 
-* [[Tom Leinster]], [[LeinsterYoneda.ps:file]] 
+* [[Tom Leinster]], [[LeinsterYoneda.ps:file]]
