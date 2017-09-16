@@ -176,9 +176,11 @@ But we've established that both these ratios are $\Phi$ for a _regular_ pentagon
 
 [[!include pentagon decagon hexagon identity/regular pentagon]]
 
-That's probably intuitively obvious, but we can make it a bit more explicit.  In the diagram above, the blue pentagon shares one edge with the regular, black pentagon, and has also been constrained to have the same width.  We just need to show that specifying the height ratio is enough to fix the blue pentagon completely, making it coincide with the black pentagon.
+That's probably intuitively obvious, but we can make it a bit more explicit.  In the diagram above, the blue pentagon shares one edge with the regular, black pentagon, and has also been constrained to have the same width.  We need to show that specifying the height ratio is then enough to determine the shape of the blue pentagon completely, making it coincide with the black pentagon.
 
-The edges $F H$ and $K H$ are congruent by construction, so $(F H)^2=(F G)^2+(G H)^2=(J H)^2+(J K)^2=(K H)^2$.  But if the ratio $\frac{G H}{J K}$ is specified (and given the ratio of heights, this ratio, too, turns out to be $\Phi$), we have $(F G)^2+\Phi^2(J K)^2=(J H)^2+(J K)^2$.  The horizontal distances $F G$ and $J H$ are fixed, so this is enough to determine $J K$ and all the vertex heights, forcing the blue pentagon to be congruent to the black one.
+If the height of the blue pentagon, $G H + J K$, is $\Phi$ times the height of an adjacent vertex, $G H$, that fixes the ratio $\frac{G H}{J K}=\frac{1}{\Phi-1}=\Phi$.
+
+The four blue edges are all congruent, so ${F H}^2={K H}^2$ and ${F G}^2+{G H}^2={J H}^2+{J K}^2$, or ${F G}^2+\Phi^2{J K}^2={J H}^2+{J K}^2$.  The horizontal distances $F G$ and $J H$ are fixed, so this is clearly enough to determine $J K$, and then $G H$.  In other words, there is only one pentagon meeting all these constraints, which we know are obeyed by the regular pentagon as well as those in our construction, so those pentagons must be regular, too.
 
 This means that, given our choice of $x=\Phi$, the two kinds of congruent edges in our generic icosahedron end up being the same size, and the icosahedron itself is regular.
 
