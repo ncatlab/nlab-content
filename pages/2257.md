@@ -3,7 +3,7 @@
 
 ## indexed books on the $n$Lab ##
 
-* (with [[Sauders MacLane]]) [[Sheaves in Geometry and Logic]]
+* (with [[Saunders MacLane]]) [[Sheaves in Geometry and Logic]]
 
   on [[sheaf and topos theory]]
 
