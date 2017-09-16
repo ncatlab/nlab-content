@@ -25,7 +25,7 @@
 
 ## Computation ##
 
-* [[propositions as types]]
+* [[propositions as types done right]]
 
 ## Inquiry ##
 
