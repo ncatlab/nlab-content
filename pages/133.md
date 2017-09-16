@@ -51,6 +51,8 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This is sufficient for the existence of projective resolutions and cofibrant replacements.  For example, see the [[folk model structure on Cat]].
 
+* The assertion that $Set$ has a [[generic proof]], or equivalently that the [[free exact completion]] $Set_{ex/lex}$ of $Set$ is a [[topos]], appears also to be a weaker form of AC.  A still weaker statement is that $Set_{ex/lex}$ is [[well-powered category|well-powered]].
+
 The axiom of choice can also be strengthened in a few ways.
 
 * While the ordinary axiom of choice says that any surjection of sets is split, the *axiom of global choice* says that this is also true for any surjection of [[proper classes]].  (Making this precise requires a bit of work.)  It is equivalent to the existence of a well-ordering of the class of all sets.
