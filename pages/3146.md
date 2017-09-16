@@ -13,7 +13,7 @@ In as far as cocycles in differential cohomology represent [[gauge field]]s in [
 
 The term _curvature_ may be motivated from the special case of curvature of [[Levi-Civita connection]]s on a [[tangent bundle]] $T X$ of a [[Riemannian manifold]] $X$: here the connection manifestly encodes how the metric space $X$ is "bent" and the curvature of the connection is a measure for this. It generalizes the notion of [[Gaussian curvature]] of surfaces.
 
-After the conception of [[gauge theory]], the term _curvature_ was firmly established in its generalization from this special case the case of connections on all kinds of bundles and [[principal infinity-bundle|higher bundles]].
+After the conception of [[gauge theory]], the term _curvature_ was firmly established in its generalization from this special case to the case of connections on all kinds of [[bundle]]s and [[principal infinity-bundle|higher bundles]].
 
 
 ## On trivial bundles
