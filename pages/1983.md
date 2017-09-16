@@ -1,6 +1,6 @@
 This entry is about the book
 
-* Ieke Moerdijk, Gonzalo E. Reyes, _Models fro Smooth Infinitesimal Analysis_ Springer (1991)
+* [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _Models for Smooth Infinitesimal Analysis_ Springer (1991)
 
 # Overview #
 
