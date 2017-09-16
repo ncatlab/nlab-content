@@ -97,7 +97,7 @@ $$
 
 ## history ##
 
-This definition apparently first appears in an exercise in 
+This definition appears in an exercise in 
 
 * Spanier  (1966) 
 
