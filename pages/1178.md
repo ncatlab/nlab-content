@@ -66,5 +66,13 @@ This is notably the case in (functorial extended topological) [[FQFT|quantum fie
 +--{+ .query}
 This gives impression that (infty,1) categories are the first higher categorical framework to naturally capture TQFT-s, and derived techniques in rep theory. My impression is that so far much greater number of concrete cases has been worked out using A-infty categories, related to mirror
 symmetry and related models; and the picture in Lagrangean geometry and homological mirror symmetry emerged in works of Fukaya and Kontsevich in early 1990s. Can (infty, 1) approach at least reproduce after the fact the results which can be studied using Ainfty setup ? in particular is there a good treatment of Lagrangean intersection theory using derived geometry of topos and (infty,1) school ? -- Zoran
+
+[[Urs Schreiber|Urs]]: good point. I'll have to think about that. Just two quick remarks: 
+
+* David Ben-Zvi keeps emphasizing that the dg-categories used in much of this QFT business are naturally thought of as $(\infty,1)$-categories. For instance in his latest article he makes some connection to the Kapustin-Witten description.
+
+* Over on the blog John and Mike are talking about whether and in which sense $A_\infty$-categories are models for $(\infty,1)$-categories, too.
+
+
 =--
 
