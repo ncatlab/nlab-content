@@ -15,6 +15,6 @@ He had a succession of influential students, and among the concepts which he ini
   (1983) suppll. 1.
 
 
-category: biography
+category: people
 
 [[!redirects Ehresmann]]
