@@ -1,15 +1,18 @@
 There is a sequence of extra [[stuff, structure, property|structure and property]] on a [[category]] that makes this category behave like a general context for [[homological algebra]]. In order of increasing structure and property this is:
 
-1. **[[pre-additive category]]**:
-  a [[category]] that is [[Ab-enriched category|Ab-enriched]];
+1. **[[Ab-enriched category]]**:
+  a [[category]] that is [[Ab]]-[[enriched category|enriched]];
 
-1. **[[additive category]]**: a [[pre-additive category]] that admits finite [[product]]s and therefore finite [[coproduct]]s and [[biproduct]]s;
+1. **[[pre-additive category]]**:
+  an $Ab$-enriched category that has a [[terminal object]] or [[initial object]] and therefore a [[zero object]];
+
+1. **[[additive category]]**: a pre-additive category that admits binary [[product]]s or binary [[coproduct]]s and therefore binary [[biproduct]]s (equivalently, an $Ab$-enriched category with all finite products or coproducts);
 
 1. **[[pre-abelian category]]**:
-  an [[additive category]] that admits [[kernel]]s and  [[cokernel]]s (equivalently, a pre-additive category with all finite limits and colimits);
+  an additive category that admits [[kernel]]s and  [[cokernel]]s (equivalently, an $Ab$-enriched category with all finite [[limit]]s and [[colimit]]s);
 
 1. **[[abelian category]]**:
-  a [[pre-abelian category]] such that every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]] (and many other equivalent definitions).
+  a pre-abelian category such that every [[monomorphism]] is a kernel and every [[epimorphism]] is a cokernel (and many other equivalent definitions).
 
 Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categories, after the sequence of axioms introduced by Grothendieck in [[Tohoku]].  These continue:
 
