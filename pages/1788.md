@@ -8,6 +8,8 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+* _Der Mann mit $@$_
+
 __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23ax56/default/boing.gif)
 1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
 1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
