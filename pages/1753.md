@@ -48,7 +48,7 @@ See also [[model structure on simplicial presheaves]].
 
 The global projective model structure is originally due to
 
-* A. K. Bousfield and D.M. Kan, _Homotopy limits completions and localizations_ , Springer, Lecture Notes in Math. 304 (2nd corrected printing), Springer-Verlag, Berlin-Heidelberg-New York (1987).
+* A. K. Bousfield and D.M. Kan, _Homotopy limits completions and localizations_, Springer Lecture Notes in Math. 304 (2nd corrected printing), Springer-Verlag, Berlin--Heidelberg--New York (1987).
 
 The fact that the global injective model structure yields a proper simplicial cofibrantly generated model category is originally due to 
 
