@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-03
 
+* [[lab elf|Lab Elf (children's department)]]: We're getting a memory upgrade sometime soon.  This will involve a downtime of approximately 35-40 minutes (they have to shift our "slice" to another machine to accommodate the upgrade).  I don't know yet exactly when this will occur and I may not get notice in time to post it here (I've requested that it be ASAP).  For obvious reasons, if I do get notice of when it will be then I'll put an announcement on the Forum and somewhere appropriate on the Cafe (I guess the 'nLab migration' thread seems most suitable).
+
 * [[Urs Schreiber]]: expanded [[generalized (Eilenberg-Steenrod) cohomology]]
 
   * added table of contents to [[cohomology]] and strated adding to rtelated entries
@@ -34,6 +36,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 *  [[Toby Bartels]]:  In answer to Jon Awbrey\'s question,
    >What day is it?
    it\'s still September 2 UTC, but for some reason the Lab is now on UTC+4, which makes it September 3.  Hopefully we can get it back to UTC, which is the standard for international sites; but if not, then I\'ll probably just edit the 'UTC' up above to 'UTC+4' and leave it at that.
+
+   [[lab elf|Lab Elf (Swiss department)]]: On the TODO list ... Actually, maybe the TODO list ought to be a little more explicit.  I'll stick it on the forum.
 
 * [[Jon Awbrey]] finished formatting [[triadic relation]].
 
