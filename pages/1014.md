@@ -98,7 +98,7 @@ In this representation, a pure set is an _extensional accessible graph_, again p
 *  A __[[directed graph]]__ again consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; again, $i$ is a __child__ of $j$ is $i \to j$.
 *  Now instead of forming the quiver of paths, we simply form the [[transitive closure]] $\to^*$ of $\to$.  That is, we only care whether there exists a path, not which paths there are.
 *  A graph is __accessible__ (technically, _directed accessible pointed_) if it is equipped with a __root__ node $r$ that is a [[top]] of $\to^*$ (meaning that every node has a path to the root).
-*  A graph is __extensional__ if $\to$ is an [[extensional relation]], meaning that $\to$-isomorphic $\to^*$-[[downset]]s must be equal.
+*  A graph is __extensional__ if $\to$ is an [[extensional relation]]; this is probably the most complicated part.
 *  A graph is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded for an accessible graph).
 
 These subsidiary notions are also needed:
@@ -152,7 +152,7 @@ Now an extensional accessible graph models a [[hereditarily finite set]] iff the
 
 ### Relation between these ###
 
-Peter Aczel\'s general model a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a fixed one), nor need it be extensional.  One can make such a graph extensional by identifying nodes if their $\to^*$-downsets are $\to$-isomorphic (and counting as a node\'s children any nodes identified with any of its children).  Then one can unwrap this extensional graph into a tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
+Peter Aczel\'s general model a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a fixed one), nor need it be extensional.  One can make such a graph extensional by identifying nodes to make the extensional quotient as explained at [[extensional relation]].  Then one can unwrap this extensional graph into a tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
 
 ## References ##
 
