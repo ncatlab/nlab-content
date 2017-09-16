@@ -46,7 +46,7 @@ Important special cases include when each fiber is a [[groupoid]], corresponding
 
 ### Non-evil version ###
 
-There is something [[evil]] about the notion of fibration, namely the requirement that for every $f:a\to b$ and $e\in E_b$ there exists a $\phi:e'\to e$ such that $p(e')$ is _equal_, rather than merely isomorphic, to $a$.  This is connected with the fact that we use strict fibers, rather than [[essential fiber]]s, and that fibrations and pseudofunctors can be recovered from each other up to isomorphism rather than merely equivalence.
+There is something [[evil]] about the notion of fibration, namely the requirement that for every $f:a\to b$ and $e\in E_b$ there exists a $\phi:e'\to e$ such that $p(e')$ is _[[equality|equal]]_, rather than merely [[isomorphism|isomorphic]], to $a$.  This is connected with the fact that we use strict fibers, rather than [[essential fiber]]s, and that fibrations and pseudofunctors can be recovered from each other up to isomorphism rather than merely equivalence.
 
 While almost any fibration between "concrete" categories that arises in practice does satisfy this evil property, it is sometimes useful to have a non-evil version, for instance when working internally in a [[bicategory]] where equality of objects doesn't even really make sense.  The correct modification, first given by Street, is simply to require that for any $f:a\to b$ and $e\in E_b$ there exists a cartesian $\phi:e'\to e$ and an _isomorphism_ $h:p(e') \cong a$ such that $f\circ h = p(\phi)$; the definition of "cartesian" is unchanged.
 
