@@ -34,6 +34,16 @@ Define
 
    I think that Toby's viewpoint is excellent. Perhaps the homotopy group(oids)s are really 'relative' concepts, i.e.  defined for $X$ and a cofibration, $A\to X$, and the usual ones just have $A$ a point. (If I remember rightly this viewpoint was the one adopted by Baues at least to some extent.) The usual groupoidal case is with the terminal cofibration.  I think that this idea is linked to the fact that SSet is monadic over SplitAugSSet, but that can be a very stark but useful viewpoint to adopt. (It would not be favoured by most algebraic topologists however!) 
  
+[[Urs Schreiber|Urs]]: I see. Sure, sounds good. Do you want to go ahead and change the terminology as you deem appropriate?
+
+I might have just one minor quibble: while I'd be fine with it, I have to say that it seems that of the following two equivalent sentences, the former is less awkward:
+
+* a morphism $f : X \to Y$ of fibrant simplicial sets is a weak equivalences precisely if it induces an isomorphism on all homotopy groups based at all points of $X$
+
+* a morphism $f : X \to Y$ of fibrant simplicial sets is a weak equivalences precisely if for all  possible ways to interpret $X$ as a pointed simplicial space and for the corresponding structure of a pointed simplicial space induced by $f$ on $Y$, the morphism induces an isomorphism of homotopy groups.
+
+But okay, I am not dogmatic about issues at that fine-grained level of pedantery.
+
 =--
 
 * for every $n \geq 1$ and $x \in X_0$ the **$n$th simplicial homotopy group** of $X$ at $x$ to be the set 
