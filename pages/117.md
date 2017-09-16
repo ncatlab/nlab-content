@@ -1,3 +1,2 @@
-See [[partial order]].
-
-category: redirect
+&lt; [[poset]]
+[[!redirects poset -- history]]
