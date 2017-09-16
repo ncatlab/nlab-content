@@ -33,3 +33,5 @@ In 19th-century analysis, one considered the square-root function, the logarithm
 
 
 [[!redirects multivalued function]]
+[[!redirects multivalued functions]]
+[[!redirects multi-valued functions]]
