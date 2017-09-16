@@ -266,12 +266,11 @@ The following particular type theories are important enough to (potentially) hav
 * [[Martin-Lof dependent type theory|Martin-Löf dependent type theory]]
 * [[pure type system]]
 * the [[calculus of constructions]]
-* the [[internal logic]] of various kinds of categories
+* the [[internal logic]] of various kinds of categories, including the [[Mitchell-Benabou language]] of an [[elementary topos]]
 * the [[internal logic of a 2-topos]]
 * the [[internal logic of an (∞,1)-topos]]
 
 
 [[!redirects dependent type theory]]
-[[!redirects dependent type]]
-[[!redirects dependent types]]
+[[!redirects dependent type theories]]
 [[!redirects type theories]]
