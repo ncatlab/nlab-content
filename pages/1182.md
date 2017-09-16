@@ -108,6 +108,10 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 * [[schreiber:Journal Club -- (infinity,1)-Categories|Journal Club -- (infinity,1)-Categories]]
 
+* [[ind-object]]
+
+  * [[ind-object in an (infinity,1)-category]]
+
 #### monoidal $\infty$-categories ####
 
 #### derived algebraic geometry ####
@@ -175,6 +179,9 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 ## Character Quantum Field Theory ##
 
+* [[ringed site]]
+
+* [[D-module]]
 
 ### and so on ###
 
