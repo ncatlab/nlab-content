@@ -1,6 +1,6 @@
 The Gram--Schmidt process is an algorithm which takes as input an ordered [[basis]] of an [[inner product space]] and produces as output an ordered [[orthonormal basis]]. 
 
-"Gram--Schmidt" is also used to refer to a factorization of a invertible matrix $M \in GL_n(\mathbb{R})$ ($M \in GL_n(\mathbb{C})$) as a product $M = U T$ where $T$ is an upper triangular matrix and $U$ is an orthonormal (unitary) matrix $U$, as such it is a special case of the more general [[Iwasawa decomposition]] for a (connected) semisimple Lie group. It may also refer to the reduction of the structure group of an inner product [[vector bundle|bundle]] (e.g., the [[tangent bundle]] of a [[Riemannian manifold]]) from the [[general linear group]] $GL_n$ to [[orthogonal group]] $O_n$. 
+In terms of matrices Gram--Schmidt procedure is a procedure of factorization of a invertible matrix $M \in GL_n(\mathbb{R})$ ($M \in GL_n(\mathbb{C})$) as a product $M = U T$ where $T$ is an upper triangular matrix and $U$ is an orthonormal (unitary) matrix $U$, as such it is a special case of the more general [[Iwasawa decomposition]] for a (connected) semisimple Lie group. Regarding that the factorization depends smoothly on the parameters, Gram-Schmidt procedure enables the reduction of the structure group of an inner product [[vector bundle|bundle]] (e.g., the [[tangent bundle]] of a [[Riemannian manifold]]) from the [[general linear group]] $GL_n$ to [[orthogonal group]] $O_n$. 
 
 
 ## Gram--Schmidt process on Hilbert spaces 
