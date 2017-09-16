@@ -400,7 +400,8 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 +-- {: .proof}
 ###### Proof
 
-> [[Urs Schreiber]]: here is a supposed proof that I come up with, but see the remark below
+> [[Urs Schreiber]]: here is a direct proof that I come up with, see alternatively the reference by Dugger mentioned below
+
 
 Notice that cofibrant objects in $SPSh(C)_{proj}^{loc}$ are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
 In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
@@ -520,12 +521,6 @@ See also the proof of lemma 2.7 in section 9 of
 
 * [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
 
-
-+-- {: .query}
-
-[[Urs Schreiber]]: hm, there Dugger has that extra "free degeneracies"-condition. Did I miss that in the above? In any case, this condition is satisfied for [[Cech nerve]]s, which is all that the remark in the section above really needs. But I need to sort this out here.
-
-=--
 
 
 
