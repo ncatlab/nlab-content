@@ -248,3 +248,5 @@ _Eric_: This notation seems to cause some initial confusion. At least until you 
 _Toby_:  I like your first suggestion, so I implemented it; but I think that I only understand the second suggestion since I already know what it means.
 
   [[Urs Schreiber|Urs]]: added link to [[delooping]] above so that we have one page where this is treated discussed, since it appears in lots of other entries, too.
+
+[[!redirects deloopings]]
