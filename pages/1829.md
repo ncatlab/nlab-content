@@ -502,6 +502,60 @@ $$
 the  role of [[hypercompletion]].
 
 
+# Applications #
+
+## Abelian sheaf cohomology as special case of $\infty$-stackification ## 
+
+The [[nerve]] operation of the [[Dold-Kan correspondence]]
+
+$$
+  N : Ch_+ \to SimpAb \subset \infty Grpd
+$$
+
+embeds [[sheaf|sheaves]] with values in non-negatively graded [[chain complex]]es
+of abelian groups
+into simplicial sheaves as those simplicial sheaves with values in
+[[Kan complex]]es that carry a struict abelian group structure.
+This way [[homological algebra]] and [[abelian sheaf cohomology]]
+are realized as special cases of models for $\infty$-stacks:
+a complex of abelian sheaves presents a stably abelian $\infty$-stack.
+
+**Proposition**
+
+Under the [[Dold-Kan correspondence]] [[abelian sheaf cohomology]]
+identifies with the [[hom-set]] of the 
+[[homotopy category of an (infinity,1)-category|homotopy category]] corresponding 
+[[infinity-stack]] [[(infinity,1)-topos]].
+
+More precisely, let 
+
+* the underlying [[site]] be the [[category of open subsets]]  $C = Op(X)$
+  of a [[topological space]] $X$,
+ 
+* let $A \in Sh(X)$ be a sheaf with values in abelian groups on $X$;
+
+* let $\mathbf{B}^n A \in Sh(X,SSet)$ be the image of the 
+  complex of sheaves $A[-n]$ concentrated in degree $n$ under the
+  [[Dold-Kan correspondence|Dold-Kan]] [[nerve]];
+  
+* write $X \in Sh(X)$ for the [[terminal object]] sheaf in $Sh(X)$ (the sheaf constant
+  on the singleton set).
+  
+Then degree $n$ [[abelian sheaf cohomology]] of $X$ with coefficients in $A$ is 
+homotopy classes of maps from $X$ to $\mathbf{B}^n A$:
+
+$$
+  H^n(X,A) \simeq Ho_{SSh(X)}(X, \mathbf{B}^n A)
+  \,.
+$$
+
+**Proof**
+
+The original proof was given in [[BrownAHT]] in terms of the [[category of fibrant objects]] structure on locally Kan simplicial sheaves. 
+
+The analogous arguments in terms of the full injective model structure were  given by Jardine. See section 6 of his [lecture notes](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf).
+
+
 [[!redirects models for infinity-stack (infinity,1)-topoi]]
 [[!redirects models for ∞-stack (∞,1)-toposes]]
 [[!redirects models for ∞-stack (∞,1)-topoi]]
