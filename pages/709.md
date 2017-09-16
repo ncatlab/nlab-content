@@ -2,13 +2,13 @@
 
 The **delooping hypothesis** is one of the "guiding hypotheses of higher category theory."  Like the [[homotopy hypothesis]], it is generally accepted to be a "litmus test" that any suitable definition of [[n-category]] should satisfy.  It states that:
 
-* [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] can be identified with $(k-j)$-tuply monoidal $(j-1)$-connected $(n+j)$-categories, for any $0\le j \le k$.
+* [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] can be identified with $(k-j)$-tuply monoidal $j$-[[k-tuply connected n-category|connected]] $(n+j)$-categories, for any $0\le j \le k$.
 
-The identification involves a degree shift: the $i$-morphisms of a $k$-tuply monoidal $n$-category become $(i+j)$-morphisms in the associated $(k-j)$-tuply monoidal $(j-1)$-connected $(n+j)$-category.
+The identification involves a degree shift: the $i$-morphisms of a $k$-tuply monoidal $n$-category become $(i+j)$-morphisms in the associated $(k-j)$-tuply monoidal $j$-connected $(n+j)$-category.
 
-Here _$(j-1)$-connected_ means that any two parallel $i$-morphisms are [[equivalence|equivalent]] for $i\le j-1$.  Also, _$0$-tuply monoidal_ is interpreted as meaning [[pointed object|pointed]].  We may also allow $n$ to be of the form [[(n,r)-category|(n,r)]] or $(\infty,r)$, with the usual conventions that $(n,r)+j=(n+j,r+j)$, $\infty+j=\infty$, and so on.  In particular, taking $j=k$ we have:
+Here _$j$-connected_ means that any two parallel $i$-morphisms are [[equivalence|equivalent]] for $i\lt j$.  Also, _$0$-tuply monoidal_ is interpreted as meaning [[pointed object|pointed]].  We may also allow $n$ to be of the form [[(n,r)-category|(n,r)]] or $(\infty,r)$, with the usual conventions that $(n,r)+j=(n+j,r+j)$, $\infty+j=\infty$, and so on.  In particular, taking $j=k$ we have:
 
-* $k$-tuply monoidal $n$-categories can be identified with pointed $(k-1)$-connected pointed $(n+k)$-categories.
+* $k$-tuply monoidal $n$-categories can be identified with pointed $k$-connected pointed $(n+k)$-categories.
 
 The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is called its **$j$-fold delooping** and sometimes written $B^j C$.  Conversely, any $k$-tuply monoidal $n$-category $C$ with a point $*\in C$ has a [[loop space object]] $\Omega C = C(*,*)$ which is a $(k+1)$-tuply monoidal $(n-1)$-category.
 
@@ -26,7 +26,7 @@ The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is call
 
 A "groupoidal" version of the delooping hypothesis may be stated as
 
-* $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids can be identified with $(k-j)$-tuply groupal $(j-1)$-connected $(n+j)$-groupoids, for $0\le j\le k$.
+* $k$-[[k-tuply groupal n-groupoid|tuply groupal]] $n$-groupoids can be identified with $(k-j)$-tuply groupal $j$-connected $(n+j)$-groupoids, for $0\le j\le k$.
 
 Here "groupal" means "monoidal and such that all objects have inverses."  (This can actually be seen as a special case of the delooping hypothesis for $k$-tuply monoidal $(n,r)$-categories with $r$ set to $-1$.)
 
