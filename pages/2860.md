@@ -84,6 +84,18 @@ There\'s an inherent problem with considering the largest (or any) symmetric sub
 
 Even if that worked, I wouldn\'t understand the full subcategory of CAU comonoids, since again being a CAU comonoid is not a property but a structure on an object in a given symmetric monoidal category.  This is like asking for the full subcategory of $Set$ consisting of groups; it doesn\'t parse.  At best, I would understand this as the full subcategory of sets that have at least one group structure, but you\'re no longer keeping track of that structure (and in fact, at least assuming the axiom of choice, this is just $Set \setminus \{\empty\}$, which has nothing much to do with groups at all).
 
+[[Andrew Stacey|Andrew]]: Okay, let me be absolutely specific here.  I was trying to get at the general story first, but that's the wrong way round for _here_ (it's the right way round for the paper, but that's once I've understood what the general story is!).
+
+This is tied up with [[Tall-Wraith monoids]].  If you start with a set and take the free ring on that set, then that's again a biring (co-ring object in rings).  Now start with abelian groups instead.  If you take the free ring on an abelian group, then that's not a biring, but still has a certain amount of co-structure because a ring is a monoid in $(Ab, \otimes, \mathbb{Z})$.  To make it a biring, I need to start with a coalgebra - that's enough to supply the missing pieces of the co-structure.
+
+Furthermore, if I wish to interpret the resulting biring as representing a functor from abelian groups to rings, then I can only do so on the subcategory of coalgebras - but I need to take abelian group homs not coalgebra homs.
+
+This all generalises quite nicely: replace abelian groups by a [[commutative algebraic theory]] and replace rings (rather, replace monoids) by a [[PRO]].  Then the PRO-objects in the commutative algebraic theory will again be an algebraic theory and the free functor from the commutative theory to the other one has lots of nice properties.
+
+But this _felt_ like it was a specialisation of an even more general story.  My mistake was to try to guess the general story first rather than tell you the special case.
+
+(Not that I regard this particularly as a _mistake_!  It was enough to learn about [[PRO|PROs]] and it's all part of learning how to ask good questions.)
+
 =--
 
 
