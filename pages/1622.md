@@ -19,7 +19,7 @@ Here are notes from [[Urs Schreiber]] for Monday, June 8, from [[Oberwolfach Wor
 
 **Definition: [[modular tensor category]]**
 
-* [[abelian category]], $\mathbb{C}$-linear (i.e. $Vect_{\mathbb{C}}$ [[enriched category]]), [[semisimple category]] [[monoidal catgeory|tensor category]]
+* [[abelian category]], $\mathbb{C}$-linear (i.e. $Vect_{\mathbb{C}}$ [[enriched category]]), [[semisimple category]] [[monoidal category|tensor category]]
 
 * the tensor unit is a simple object, $I$ 
   a finite set of representatives of isomorphism classes of simple objects
