@@ -58,7 +58,7 @@ $$
 
 #Integration#
 
-Under [[Lie integration]] a Poisson Lie alghebroid is supposed to
+Under [[Lie integration]] a Poisson Lie algebroid is supposed to
 yield a [[symplectic groupoid]].
 
 #References#
