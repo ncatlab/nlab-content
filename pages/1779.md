@@ -34,5 +34,5 @@ This mainly plays a role in the general context of the [[model structure on simp
 
 
 [[!redirects Cech-nerve]]
-[[!redirects Cech nerve]]
+[[!redirects Čech nerve]]
 [[!redirects Čech-nerve]]
