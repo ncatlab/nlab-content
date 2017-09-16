@@ -225,3 +225,4 @@ theory is interpreted in the [[internal logic]] of some
 
 
 [[!redirects material set theory]]
+[[!redirects set theories]]
