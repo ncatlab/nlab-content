@@ -9,17 +9,17 @@ A _category of fibrant objects_ is essentially like a [[model category]] but wit
 +-- {: .un_defn}
 ###### Definition
 
-A **category of fibrant objects** $C$ is 
+A **category of fibrant objects** $\mathbf{C}$ is 
 
 * a [[category with weak equivalences]], i.e equipped with a subcategory
   $$
-    Core(C) \hookrightarrow W \hookrightarrow C
+    Core(\mathbf{C}) \hookrightarrow W \hookrightarrow C
   $$
   where $f \in Mor(W)$ is called a **weak equivalence**;
 
 * equipped with a further subcategory 
   $$
-    Core(C) \hookrightarrow F \hookrightarrow C
+    Core(\mathbf{C}) \hookrightarrow F \hookrightarrow C
     \,,
   $$
   where $f \in Mor(F)$ is called a **fibration**
@@ -35,6 +35,8 @@ This data has to satisfy the following properties:
 * fibrations are preserved under [[pullback]];
 
 * acyclic fibrations are preserved under [[pullback]];
+
+* weak equivalences satisfy [[category with weak equivalences|2-out-of-3]]
 
 * for every object there exists a [[path object]]
 
@@ -84,9 +86,46 @@ $$
 
 in with respect to the [[closed monoidal structure on presheaves|closed monoidal structure on]] [[SSet]] with the simplicial 1-[[simplex]] $\Delta^1$.
 
+The morphism $X \to X^I$ is given by the [[simplex category|degeneracy map]] $\sigma_0 : \Delta^0 \to \Delta^1$ as
+$$
+  X \stackrel{\simeq}{\to}
+  [\Delta^0, X]
+  \stackrel{[\sigma_0, X]}{\to}
+  [\Delta^1, X]
+  \,.
+$$
+This is indeed a weak equivalence, since by the [[simplicial identities]] it is a [[section]] (a [[inverse|right inverse]]) for the morphism
+$$
+  [\Delta^1, X] \stackrel{[\delta_0,X]}{\to}
+  [\Delta^0, X]
+  \,.
+$$
+This map, one checks, has the 
+[[weak factorization system|right lifting property]] 
+with respect to all [[boundary of a simplex]]-inclusions
+$\partial \Delta^n \to \Delta^n$. By a lemma discussed
+at [[Kan fibration]] this means that $[\delta_0,X]$
+is an acyclic fibration. Hence $[\sigma_0, X]$, being
+its right [[inverse]], is a weak equivalence.
+
+The remaining morphism of the [[path object|path space object]] $X^I \to X \times X$ is
+$$
+  [\Delta^1, X]
+  \stackrel{[\delta_0 \sqcup \delta_1, X]}{\to}
+  [\Delta^0 \sqcup \Delta^0, X]
+  \stackrel{\simeq}{\to}
+  X \times X
+  \,.
+$$
+One checks that this is indeed a [[Kan fibration]].
+
 The stability of fibrations and acyclic fibrations
 follows from the above fact that both are characterized
 by a [[nLab:weak factorization system|right lifting property]] (as described a [[model structure on simplicial sets]]).
+
+See for instance [section 1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi) of 
+
+* Goerss, Jardine, _Simplicial homotopy theory_ .
 
 =--
 
@@ -105,7 +144,7 @@ The point of the axioms of a category of fibrant objects is that when passing fr
 +-- {: .un_defn}
 ###### Definition ($\infty$-groupoid valued sheaves)
 
-For $X$ a [[topological space]] let $SSh(X)$ be the full [[subcategory]] of 
+For $X$ a [[topological space]] let $\mathbf{C} = SSh(X)$ be the full [[subcategory]] of 
 
 * [[sheaf|sheaves]] on $X$ with values in the category [[SSet]] of [[simplicial set]]s 
 
@@ -113,7 +152,7 @@ For $X$ a [[topological space]] let $SSh(X)$ be the full [[subcategory]] of
 
 on sheaves $A$ for which each [[stalk]] $x^* A \in SSet$ is a [[Kan complex]].
 
-Define a morphism $f : A \to B$ to be a fibration or a weakequivalence, if on each [[stalk]] $x^* f : x^* A \to x^* B$ is a fibration or weak equivalence, respectively of Kan complexes (in terms of the standard [[model structure on simplicial sets]]).
+Define a morphism $f : A \to B$ to be a fibration or a weak equivalence, if on each [[stalk]] $x^* f : x^* A \to x^* B$ is a fibration or weak equivalence, respectively, of Kan complexes (in terms of the standard [[model structure on simplicial sets]]).
 
 =--
 
@@ -129,7 +168,7 @@ $SSh(X)$ with this structure is a category of fibrant objects.
 
 The terminal object ${*} = X$ is the sheaf constant on the 0-[[simplex]] $\Delta^0$, which represents the space $X$ itself as a sheaf. 
 
-For every simplicial sheaf $A$ and every point $x \in X$ the [[stalk]] of the unique morphis $A \to {*}$ is $x^* A \to x^* {X}$, which is the unique morphism from the [[Kan complex]] $x^* A$ to $\Delta^0$. Since [[Kan complex]]es are fibrant, this is a [[Kan fibration]] for every $x \in X$. So every $A$ is a fibrant object by the above definition.
+For every simplicial sheaf $A$ and every point $x \in X$ the [[stalk]] of the unique morphism $A \to {*}$ is $x^* A \to x^* {X}$, which is the unique morphism from the [[Kan complex]] $x^* A$ to $\Delta^0$. Since [[Kan complex]]es are fibrant, this is a [[Kan fibration]] for every $x \in X$. So every $A$ is a fibrant object by the above definition.
 
 The fact that fibrations and acyclic fibrations
 are preserved under pullback follows from the fact that
@@ -140,7 +179,7 @@ $$
 $$
 
 is the [[inverse image]] of a [[geometric morphism]]
-and hence preserved finite [[limit]]s and in particular [[pullback]]s. So if $f : A \to B$ is a fibration or acyclic fibration in $SSh(X)$ and 
+and hence preserves finite [[limit]]s and in particular [[pullback]]s. So if $f : A \to B$ is a fibration or acyclic fibration in $SSh(X)$ and 
 
 $$
   \array{
@@ -164,7 +203,8 @@ $$
   }
 $$
 
-is a [[pullback]] diagram, now of [[Kan complex]]es. Since Kan complexes form a category of fibration objects, it follows that $x^* (h^* f)$ is a fiberation or acyclic fibration of Kan complexes, respectively. Since this holds for every $x$, it follows that $h^* f$ is a fibration or acyclic fibration, respectively.
+is a [[pullback]] diagram, now of [[Kan complex]]es. Since Kan complexes form a category of fibrant objects, 
+by the above, it follows that $x^* (h^* f)$ is a fibration or acyclic fibration of Kan complexes, respectively. Since this holds for every $x$, it follows that $h^* f$ is a fibration or acyclic fibration, respectively, in $SSh(X)$.
 
 Recall that a functorial choice of [[path object]] for a [[Kan complex]]e $K$ is the [[internal hom]] $[\Delta^1, K]$ with respect to the [[closed monoidal structure on presheaves|closed monoidal structure on]] [[simplicial set]]s:
 
@@ -188,8 +228,7 @@ $$
 $$
 where on the left we have new notation and on the right we have the [[internal hom]] in [[SSet]]. 
 
-(This is really using the [[copower]]in of $SSh(X)$ over
-[[SSet]]).
+(The notation on the left defines the way in which $SSh(X)$ is [[copower]]ered  over [[SSet]]).
 
 We want to claim that $[\Delta^1,A]$ is a [[path object]] for $A$.
 
@@ -207,27 +246,27 @@ $$
      SSet(\Delta^1 \times \Delta^\n, A(U))
     \\
     & 
-      ([n] \mapsto colim_{U \ni x} 
+    \simeq  ([n] \mapsto colim_{U \ni x} 
      \int_{[k] \in \Delta}
       Set(\Delta([k],[1])\times\Delta([k],[n]), A(U)_k)
     \\
     & \simeq
       ([n] \mapsto      
-      \int_{[k] \in \Delta}(   
+      \int_{[k \leq n+1] \in \Delta}(   
         colim_{U \ni x} 
         Set(\Delta([k],[1])\times\Delta([k],[n]), A(U)_k
       )
     \\
     &\simeq
       ([n] \mapsto      
-      \int_{[k] \in \Delta}(   
+      \int_{[k] \in \Delta|_{n+1}}(   
        Set(\Delta([k],[1])\times\Delta([k],[n]), 
        colim_{U \ni x} A(U)_k
       )  
     \\
     &\simeq
       ([n] \mapsto      
-      \int_{[k] \in \Delta}(   
+      \int_{[k] \in \Delta|_{n+1}}(   
        Set(\Delta([k],[1])\times\Delta([k],[n]), 
        (colim_{U \ni x} A(U))_k
       )  
@@ -252,9 +291,15 @@ Where the
 * the fourth step is the definition of the 
   [[SSet]]-[[enriched functor category]] by an [[end]]
 
-* the fifth step uses that the end truncates to a finite limit with $k \leq n$ and that the colimit is over a [[filtered category]] and that filtered colimits commute with finite limits;
+* the fifth step uses that 
 
-* the sixth step uses that the set $\Delta([k],[1])\times \Delta([k],[n])$ is finite, hence a [[compact object]] to that the colimit can be taken into the hom;
+  * the end truncates to a finite limit with $k \leq n+1$ since $\Delta^1 \times \Delta^n$ is $(n+1)$-[[simplicial skeleton|skeletal]]
+
+  * and that the colimit is over a [[filtered category]] 
+
+  * and that filtered colimits commute with finite limits;
+
+* the sixth step uses that the set $\Delta([k],[1])\times \Delta([k],[n])$ is finite, hence a [[compact object]] so that the colimit can be taken into the hom;
 
 * the seventh step uses again that colimits of presheaves are computed objectwise
 
@@ -278,6 +323,8 @@ The following constructions produce new categories
 of fibrant objects from the data provided from a given one.
 
 Let $\mathbf{C}$ be a category of fibrant objects.
+With fibrations $F \subset Mor(\mathbf{C})$
+and weak equivalences $W \subset Mor(\mathbf{C})$.
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -291,11 +338,11 @@ over $B$:
 * morphisms are commuting triangles 
   $$
     \array{  
-      A &\to& A'
+      A &&\to&& A'
       \\
-      & \searrow \swarrow
+      & {}_{\in F}\searrow && \swarrow_{\in F}
       \\
-      & B
+      && B
     }  
   $$
   in $\mathbf{C}$.
@@ -323,7 +370,7 @@ $$
   \array{
     A &&\stackrel{Id \times Id}{\to}&& A \times_B A
     \\
-    & \searrow && \swarrow
+    & {}_{\in F}\searrow && \swarrow_{\in F}
     \\
     &&
     B 
@@ -337,7 +384,7 @@ $$
     A &\stackrel{\in W}{\to}& A^I &\stackrel{\in F}{\to}& 
     A \times_B A
     \\
-    & \searrow && \swarrow
+    & {}_{\in F}\searrow && \swarrow_{\in F}
     \\
     &&
     B 
@@ -354,13 +401,18 @@ in $\mathbf{C}^F_B$.
 
 # Simple consequences of the definition #
 
-Before looking at more sophisticated constructions, we record the following direct consequences of the definition.
+Before looking at more sophisticated constructions, we record the following direct consequences of the definition
+of a category of fibrant objects.
 
 +-- {: .un_lemma }
 ###### Lemma
 
-The two projection maps $p_i : A_1 \times A_2 \to A_i$
-out of a [[product]] are fibrations.
+For every two objects $A_1, A_2 \in \mathbf{C}$,
+the two projection maps 
+$$
+  p_i : A_1 \times A_2 \stackrel{\in F}{\to} A_i
+$$
+out of their [[product]] are fibrations.
 
 =--
 
@@ -387,7 +439,12 @@ $$
 +-- {: .un_lemma }
 ###### Lemma
 
-The two morphisms $d_i : B^I \to B$ 
+For every object $B \in \mathbf{C}$ and
+everey [[path object]] $B^I$ of $B$,
+the two morphisms
+$$
+  d_i : B^I \stackrel{\in W \cap F}{\to} B
+$$ 
 (whose product $d_0 \times d_1$, recall, is required to be
 a fibration) are each separately acyclic fibrations.
 
@@ -398,7 +455,7 @@ a fibration) are each separately acyclic fibrations.
 
 By the above lemma 
 $d_i : B^I \stackrel{d_0 \times d_1}{\to} B \times B
-  \stackrel{p_i}{\to}$ is the composite of two fibrations
+  \stackrel{p_i}{\to} B$ is the composite of two fibrations
  and hence itself a fibration.
 
 Moreover, from the diagram
@@ -427,20 +484,20 @@ is also a weak equivalence.
 
 # Generalized universal bundles and the factorization lemma #
 
-A central lemma in the theory of categories of fibrant objects is the factorization lemma
+A central lemma in the theory of categories of fibrant objects is the following
 
 +-- {: .un_lemma }
 ###### Lemma (factorization lemma)
 
 For every morphism $f : C \to D$ in a category
-$C$ of fibrant objects, there is an object 
+$\mathbf{C}$ of fibrant objects, there is an object 
 $\mathbf{E}_f B$ such that $f$ factors as
 
 $$
   \array{
     && \mathbf{E}_f B
     \\
-    & {}^{\sigma_f}\nearrow && \searrow^{p_f}
+    & {}^{\sigma_f \in W}\nearrow && \searrow^{p_f \in F}
     \\
     C &&\stackrel{f}{\to}&& B
   }
@@ -450,14 +507,16 @@ with
 
 * $p_f$ a fibration
 
-* $\sigma_f$ a weak equivalence that is a left [[inverse]]:
+* $\sigma_f$ a weak equivalence that is a 
+  [[section]] ( a [[inverse|right inverse]]):
   $$
     Id_{\mathbf{E}_f B}
     =
     (
+     C
+      \stackrel{\sigma_f}{\to}
       \mathbf{E}_f B \stackrel{\simeq}{\to}
-      C \stackrel{\sigma_f}{\to}
-      \mathbf{E}_f B
+      C 
     )
     \,.
   $$
@@ -467,9 +526,30 @@ with
 +-- {: .un_remark}
 ###### Remarks
 
-This is the analog of the _factorization axiom_ in a [[model category]] which says that every map factors as an acyclic cofibration followed by a fibration.
+This is the analog of one of the _factorization axioms_ in a [[model category]] which says that every map factors as an acyclic cofibration followed by a fibration.
 
-Notice that this in particular implies that every weak equivalence is given by a span of acyclic fibrations. In the context of [[Lie groupoid]] theory these are known as the [[Morita equivalence]]s between groupoids. (And groupoids indeed form a category of fibrant objects for instance with respect to the Brown-Golasinski [[folk model structure]]).
+Notice that by 
+[[category with weak equivalences|2-out-of-3]] 
+this in particular implies that every weak equivalence 
+$f : C \stackrel{\in W}{\to} B$
+is given by a span of acyclic fibrations. 
+
+$$
+  \array{
+    && \mathbf{E}_f B
+    \\
+    & {}^{\sigma_f \in W}\nearrow && 
+    \searrow^{p_f \in F\cap W}
+    \\
+    C &&\stackrel{f \in W}{\to}&& B
+  }
+  \,.
+$$
+
+In the context of [[Lie groupoid]] theory these are known as the [[Morita equivalence]]s between groupoids. 
+There here arise as a special case. 
+Compar also the notion of [[anafunctor]].
+
 =--
 
 The way the proof of this lemma works, one sees that
@@ -481,7 +561,7 @@ and will be taken up in the next section on homotopy limits.
 +-- {: .un_defn}
 ###### Definition 
 
-For $f : C \to B$ a morphism, we say that 
+For $f : C \to B$ a morphism in $\mathbf{C}$, we say that 
 the morphism $p_f : \mathbf{E}_f B \to B$
 defined as the composite vertical morphism in the
 [[pullback]] diagram
@@ -576,25 +656,25 @@ can be refined to a double pullback diagram as follows
 $$
   \array{
     \mathbf{E}_f B 
-     &\to& 
+     &\stackrel{\in F}{\to}& 
      C \times B 
      &\stackrel{p_1}{\to}& 
      C
      \\
      \downarrow && \downarrow^{f \times Id} && \downarrow^f
      \\
-     B^I &\stackrel{d_0 \times d_1}{\to}&
+     B^I &\stackrel{d_0 \times d_1 \in F}{\to}&
      B \times B &\stackrel{p_1}{\to}&
      B
      \\
-     \downarrow^{d_1} & \swarrow_{p_2}
+     \downarrow^{d_1} & \swarrow_{p_2 \in F}
      \\
      B
   }
   \,.
 $$
 
-Both squares are pullback suqares. Since
+Both squares are pullback squares. Since
 pullbacks of fibrations are fibrations, the morphism
 $\mathbf{E}_f B  \to C \times B$ is a fibration.
 
@@ -720,7 +800,7 @@ Let
 
 $$
  \array{
-  A &&\stackrel{f}{\to}&& A'
+  A_1 &&\stackrel{f}{\to}&& A_2
   \\
   & {}_{\in F}\searrow && \swarrow_{\in F}
   \\
@@ -728,12 +808,14 @@ $$
  }
 $$
 
-be a morphism of fibrations ober $B$ in $\mathbf{C}$
-and $u : B' \to B$ any morphism. Let 
+be a morphism of fibrations over 
+some object $B$ in $\mathbf{C}$
+and let $u : B' \to B$ be any morphism in 
+\mathbf{C}. Let 
 
 $$
  \array{
-  u^*A &&\stackrel{u^* f}{\to}&& u^* A'
+  u^*A_1 &&\stackrel{u^* f}{\to}&& u^* A_2
   \\
   & {}_{\in F}\searrow && \swarrow_{\in F}
   \\
@@ -761,13 +843,14 @@ the fact that in the diagram
 
 $$
   \array{
-    B' \times_B E_1 &\to& E_1
+    B' \times_B A_1 &\to& A_1
     \\
-    \downarrow && \downarrow^{f \in F}
+    \;\;\downarrow^{u^* f \in F} 
+    && \;\;\downarrow^{f \in F}
     \\
-    B' \times_B E_2 &\to& E_2
+    B' \times_B A_2 &\to& A_2
     \\
-    \downarrow && \downarrow^{\in F}
+    \;\downarrow^{\in F} && \;\downarrow^{\in F}
     \\
     B' &\stackrel{u}{\to}& B
   }
@@ -787,15 +870,15 @@ acyclic fibration followed by an
 acyclic fibration. 
 
 $$
-  f : E_1 \stackrel{\in W}{\to} \mathbf{E} 
-  \stackrel{\in W \cap F}{\to} E_2
+  f : A_1 \stackrel{\in W}{\to} \mathbf{E}_f A_2 
+  \stackrel{\in W \cap F}{\to} A_2
   \,.
 $$
 
-(So we make use of the fact that the categpory
+(Compare the definition of the category
+of fibrant objects
 $\mathbf{C}_B^F$ of fibrations over $B$,
-discussed in the example section above, is a category
-of fibrant objects.)
+discussed in the example section above.)
 
 
 Using the above this reduces the proof to showing that 
@@ -803,7 +886,7 @@ the pullback of the top horizontal morphism of
 
 $$
  \array{
-  E_1 &&\stackrel{}{\to}&& \mathbf{E}
+  A_1 &&\stackrel{}{\to}&& \mathbf{E}_f A_2
   \\
   & {}_{\in F}\searrow && \swarrow_{\in F}
   \\
@@ -812,33 +895,35 @@ $$
 $$
 
 (here the fibration on the right is the composite 
-of the fibration $\mathbf{E} \to E_2$ with $E_2 \to B$)
+of the fibration $\mathbf{E}_f A_2 \to A_2$ with $A_2 \to B$)
 
 along $u$ is a weak equivalence. For that 
 consider the diagram
 
 $$
   \array{
-    B' \times_B E_1  &\to& E_1
+    B' \times_B A_1  &\to& A_1
     \\
     \downarrow && \downarrow
     \\
-    B' \times_B \mathbf{E} && \mathbf{E}
+    B' \times_B \mathbf{E}_f A_2 
+    &\to& 
+    \mathbf{E}_f A_2
     \\
     \;\;\downarrow^{\in W \cap F} 
     && 
       \;\;\downarrow^{\in W \cap F}
     \\
-    B' \times_B E_1 &\to& E_1
+    B' \times_B A_1 &\to& A_1
     \\
-    \downarrow && \downarrow
+    \;\downarrow^{\in F} && \;\downarrow^{\in F}
     \\     
     B' &\to& B
   }
 $$
 
 where again all squares are pullback squares.
-The top two vertical morphisms are
+The top two vertical composite morphisms are
 identities. Hence by 2-out-of-3 
 the morphism
 $B' \times_B E_1 \to B' \times_B \mathbf{E}$
@@ -860,7 +945,7 @@ is again a weak equivalence.
 
 
 
-So let 
+Let 
 $u : B' \to B$ be a weak equivalence and
 $ p : E \to B$ be a fibration. We want to show that the
 left vertical morphism in the [[pullback]]
@@ -869,7 +954,7 @@ $$
   \array{
     E \times_B B' &\to& B'
     \\
-    \;\;\;\downarrow^{\Rightarrow \in W } 
+    \;\;\;\;\downarrow^{\Rightarrow \in W } 
     && \;\downarrow^{\in W}
     \\
     E &\stackrel{\in F}{\to}& B
@@ -881,7 +966,7 @@ is a fibration.
 First of all, using the factorization lemma
 we may always factor $B' \to B$ as
 
-$B ' \stackrel{\in W}{\to} \mathbf{E} B 
+$B ' \stackrel{\in W}{\to} \mathbf{E}_u B 
  \stackrel{\in W \cap F}{\to} B$
 
 with the first morphism a weak equivalence that is
@@ -896,7 +981,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    Q &\stackrel{\in F}{\to}& \mathbf{E} B
+    Q &\stackrel{\in F}{\to}& \mathbf{E}_u B
     \\
     \;\;\downarrow^{\in W \cap F} 
     && \;\;\downarrow^{\in W \cap F}
@@ -911,12 +996,13 @@ acyclic fibrations using the stability of these
 under arbitrary pullback.
 
 This means that the proof reduces to proving that weak equivalences
-$u : B' \stackrel{\in}{\to} B$ 
+$u : B' \stackrel{\in W}{\to} B$ 
 that are right inverse to some acyclic fibration
 $v : B \stackrel{\in W \cap F}{\to} B'$
 map to a weak equivalence under pullback along a fibration.
 
-Given such $u$, consider the pullback diagram
+Given such $u$ with right inverse $v$, 
+consider the pullback diagram
 
 $$
   \array{
@@ -942,11 +1028,10 @@ $$
   \,.
 $$
 
-This says that the universal morphism 
+Notice that the indicated universal morphism 
 $p \times Id : E \stackrel{\in W}{\to} E_1$ 
-is a weak equivalence
-(and in fact in turn 
-right inverse to to a weak equivalence).
+into the pullback is a weak equivalence
+by [[category with weak equivalences|2-out-of-3]].
 
 The above lemma says that weak equivalences between fibrations over $B$
 are themselves preserved by base extension along
@@ -1009,8 +1094,7 @@ Right properness is a crucial assumption
 in the closely related work
 
 * Jardine, 
-  _Cocycle categories_   
-  ([arXiv](http://arxiv.org/abs/math.AT/0605198))
+  _Cocycle categories_ ([arXiv](http://arxiv.org/abs/math.AT/0605198))
 =--
 
 
@@ -1126,11 +1210,12 @@ $$
     \\
     \downarrow && && \downarrow^v
     \\
-    \mathbf{E}_u C & \to &C^I & \stackrel{d_0}{\to}& C
+    \mathbf{E}_u C & \stackrel{\in W \cap F}{\to} &C^I & 
+    \stackrel{d_0 \in W \cap F}{\to}& C
     \\
-    \downarrow 
+    \downarrow^{\in W \cap F} 
     &&
-    \downarrow^{d_1}
+    \;\;\downarrow^{d_1\in W \cap F}
     \\
     A &\stackrel{u}{\to} & C    
   }
@@ -1186,16 +1271,23 @@ $$
   }
 $$
 
+for some object $\hat A$ and
 for some [[path object|path space object]] $B^I$ of $I$
 
 =--
+
+**Remark** So this says that there is a
+right [[homotopy]] between the two morphisms after
+both are pulled back to a sufficiently good resolution of 
+their domain.
 
 **Proposition**
 
 For $ u : B \to C$ a morphism and $B^I$, $C^I$ choices of path objects,
 there is always another path object $B^{I'}$
-with an acyclic fibration $B^I \leftarrow B^{I'}$ 
-and a span of morphism of path objects
+with an acyclic fibration 
+$B^I \stackrel{\in W \cap F}{\leftarrow} B^{I'}$ 
+and a span of morphisms of path space objects
 
 
 $$
