@@ -10,7 +10,7 @@ Presentable $(\infty,1)$-categories are precisely those [[(infinity,1)-category|
 
 (Or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
 
-Partly due to the fact that [[simplicial model category|simplicial model categories]] have been studied for a longer time than [[(infinity,1)-category|(infinity,1)-categories]], many $(\infty,1)$-categories are indeed handled in terms in terms of such a presentation by a [[simplicial model category]]. 
+Partly due to the fact that [[simplicial model category|simplicial model categories]] have been studied for a longer time -- partly because they are simply more tractable -- than [[(infinity,1)-category|(infinity,1)-categories]], many $(\infty,1)$-categories are indeed handled in terms of such a presentation by a [[simplicial model category]]. 
 
 The canonical example is the presentation of the [[(infinity,1)-category of (infinity,1)-sheaves]] on an ordinary (1-categorical) [[site]] $S$ by the simplicial [[model structure on simplicial presheaves|model category of simplicial presheaves]] on $S$.
 
