@@ -52,13 +52,14 @@ There is a standard way to _[[presentable (∞,1)-category|present]]_ all this s
 * then the [[homotopy localization]] is modeled by 
   the corresponding [[Bousfield localization of model categories|left Bousfield localization]] of this model structure;
 
-* and finally the [[stabilization]] may be modeled by further Bousfield
-  localization at all suspension morphism  $T \wedge X \to X$ for  
-  $T = \mathbb{A}^1/(\mathbb{A}^1-{0})$ 
+* and finally the [[stabilization]] may be modeled by further passing to spectra with respect to the suspension operaton $T \mapsto T \wedge X$  in the sense of 
+
+  * Mark Hovey, 
+    _Spectra and symmetric spectra in General Model Categories_ K-theory, ([web](http://www.math.uiuc.edu/K-theory/0402/), [pdf](http://www.math.uiuc.edu/K-theory/0402/stable-model.pdf))
+
+  for $T = \mathbb{A}^1/(\mathbb{A}^1-{0})$ 
   a suitable model of the circle and $\wedge$ the internal 
   [[smash product]].
-
-[BEWARE: This last point seems to suggest that one makes the suspension morphisms into weak equivalences - this is NOT the case, rather one passes to a category of spectra in the abstract sense of Mark Hovey's "Spectra and symmetric spectra in General Model Categories"]
 
 A concise overview of the constructions and definitions just outlined above is in
 
