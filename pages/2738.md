@@ -208,7 +208,7 @@ $$
   \,.
 $$
 
-This is called an **oute face map**-
+This is called an **outer face map**.
 
 In the above example for $T$ we have
 
@@ -247,8 +247,7 @@ $$
 
 
 +-- {: .un_lemma }
-###### Lemma
-**(face maps are the monomorphisms)**
+###### Lemma (face maps are the monomorphisms)
 
 The inner and outer face morphisms $\partial_e$ and $\partial v$ are precisely the [[monomorphism]]s in the [[tree category]] $\Omega$. 
 
@@ -277,7 +276,7 @@ $$
   \Lambda^e \Omega[T] = \cup_{e \neq d \in Edges(T)} \Omega[\partial_e T] \vup_{v \in Vertices(T)} \Omega[\partial_v T] 
 $$
 
-of dendroidal sets is the **inner horn** of $T$ at $e$, and for $w$ an oute face the union
+of dendroidal sets is the **inner horn** of $T$ at $e$, and for $w$ an outer face the union
 
 $$
   \Lambda^w \Omega[T] = \cup_{e \neq d \in Edges(T)} \Omega[\partial_e T] \vup_{v \neq w \in Vertices(T)} \Omega[\partial_v T] 
@@ -299,11 +298,13 @@ $$
 $$
 
 +-- {: .un_defn}
-###### Definition/Proposition
-**(normal monomorphisms)**
+###### Definition/Proposition (normal monomorphisms)
 
 The class of morphisms in $dSet$ generated from the boundary inclusions under [[pushout]] and [[transfinite composition]] is called the class of **normal monomorphisms**.
+=--
 
++-- {: .query}
+Surely this has nothing to do with [[normal monomorphism]], which as far as I know only makes sense in a context with [[zero morphisms]].  But then what part of this is the proposition?  Is it that these are monomorphisms at all?  ---Toby
 =--
 
 
