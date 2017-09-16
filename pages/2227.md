@@ -3,6 +3,7 @@
 [[!redirects 3-place relation]]
 [[!redirects ternary relation]]
 [[!redirects triadic relations]]
+[[!redirects triadic relation"]]
 
 * tic
 {:toc}
