@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-14 #
 
+* [[Andrew Stacey|The English Pedant]]: I'm not convinced about the use of the word "heuristic" on the n-Lab.  I've started a discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=17) rather than force my views on the English language on the n-Lab.  I realise that this is a little against the Wiki-spirit but I figured that if I went through changing all occurrences of the word "heuristic" then someone would object and we'd have a discussion about it; so to save a bit of agro, I'm instigating the discussion first.
+
 *  [[Toby Bartels]]:  I started a new category, `foundational axiom`, in which I put the pages that contain axioms that one might (or might not) want in one [[foundations]] of mathematics.  That way, anyone with opinions on the matter can check them to see that one\'s views are represented.  (A few don\'t really have much in the way of an axiom right now, but one could be added or noted there.)  This does not include things like the axioms for a [[group]], but rather axioms for [[set theory]] (or other foundational theory).  (Although [[set theory]] itself I don\'t think should really be included, but [[ETCS]] is in there.)
 
 #2009-04-13
