@@ -1,6 +1,10 @@
 ##Note##
 
-The purpose of this entry is simply to state and prove a result of Dowker that was mentioned at [[Vietoris complex]].  To keep the discussion fairly self contained, certain ideas will be repeated from that, and possibly other, entries.
+The purpose of this entry is simply to state and prove a result of Dowker that was mentioned at [[Vietoris complex]].  Here we will look at a version of Dowker's original proof.  In later sections we will see other ways of proving it. We will also discuss some of the interpretations and applications of the result and ask about possible generalisations.
+
+
+
+To keep the discussion fairly self contained, certain ideas will be repeated from that, and possibly other, entries.
 
 ##The two nerves of a relation: Dowker's construction##
 
