@@ -62,7 +62,7 @@ such that for every morphism $f: c \to c'$ in $C$,
 
 $$G(c, f)\alpha_c F(f, c) = G(f, c')\alpha_{c'}F(c', f): F(c', c) \to G(c, c') \qquad (3)$$ 
 
-This "hexagon identity" gives the "domain" version of dinaturality occurs when $G$ is constant, and the "codomain" version when $F$ is constant. The domain version involves a commutative square of the form 
+This "hexagon identity" gives the "domain" version of dinaturality when $G$ is constant, and the "codomain" version when $F$ is constant. The domain version involves a commutative square of the form 
 
 $$\alpha_c F(f, c) = alpha_{c'} F(c', f): F(c', c) \to G \qquad (4)$$
 
