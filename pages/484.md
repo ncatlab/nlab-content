@@ -3,8 +3,7 @@
 [[!redirects partition]]
 [[!redirects partitions]]
 [[!redirects setoid]]
-[[!redirects preset]]
-[[!redirects pre-set]]
+
 
 An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S$ that is:
 * [[reflexive relation|reflexive]]: $x \equiv x$ for all $x: S$;
@@ -21,4 +20,4 @@ A __[[congruence]]__ is an [[internalization|internal]] equivalence relation.
 
 It may well be useful to consider several possible equivalence relations on a given set.  When considering a single equivalence relation once and for all, however, it is common to take the [[quotient set]] $S/{\equiv}$ and use that instead.  As a groupoid, any setoid is [[equivalence of categories|equivalent]] to a [[set]] in this way.
 
-Setoids are still important in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as 'preset', 'type', or 'completely presented set') where they say 'set'.  (See page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
+Setoids are still important in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as '[[preset]]', '[[type]]', or '[[completely presented set]]') where they say 'set'.  (See page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
