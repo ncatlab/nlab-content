@@ -239,6 +239,38 @@ and thus maps the trivial $G$-bundle over $U_j$ on the intersection with the tri
 
 ...
 
+####Comparing the two monads for principal bundles
+
+(tentative section, please check)
+
+Let us work in a category $C$ with pullbacks; let $G$ be an internal group in $C$.
+
+Let $\nu: P\times G\to P$ be a right principal action and $p:P\times G\to P$ the projection. Let $\pi:P\to X$ be the coequalizer of $\nu$ and $p$. The principality says $P\times G \to P\times_X P$ given by $(p,g)\mapsto (p,pg)$ is an isomorphism. We do not assume $P$ to be trivial. 
+
+$$
+P\times G \overset{\nu}\underset{p}\rightrightarrows P \overset{\pi}\to X
+$$
+
+We have also 
+
+$$
+P\times_X P \overset{p_1}\underset{p_2}\rightrightarrows P \overset{\pi}\to X
+$$
+
+where $p_1,p_2$ make a kernel pair of $\pi$. Thus the principality is equivalent to saying that $\nu,p$ make also a kernel pair of its own coequalizer. The two diagrams above are truncations of augmented simplicial objects in $C$. We want to relate these objects to monads.
+
+For this let us suppose we work in codomain fibration. Then we have two monads in $C/P$ whose underlying functors are $p_! \nu^*$ and $\pi^* \pi_!$.
+The second monad is induced by a pair of adjoint functors, while the first is also easy to define. Namely to construct the component $\mu_l$ of the transformation $\mu: p_! \nu^* p_!\nu^*\to p_!\nu^*$ where $h: L\to P$, by the universal property of the pullback there is an obvious map $\nu^* p_! \nu^* h$ to $p_* \nu^* h$ which can be interpreted as a map $p_!\nu^* p_! \nu^* h\to p_* \nu^* h$ because the domains of the maps $p_!\nu^* p_! \nu^* h$ and $\nu^* p_! \nu^* h$ are the same by the definition and the commuting triangles can be checked easily. 
+
+The principality $P\times G \cong P\times_X P$ now induces the isomorphisms 
+
+$$p_! \nu^* h \cong \pi^* \pi_! h$$
+
+natural in  $h:L\to P$. This rule extends to an isomorphism of monads. 
+As a corollary, the Eilenberg-Moore categories of the two monads are equivalent. Notice that the actions over the monad $p_! \nu^* $ are certain maps $p_!\nu^*h\to h$, hence $\nu^* h\to p^* h$ by adjointness. This matches one of the definitions for an [[equivariant sheaf]].
+
+$P\to X$ is an effective descent morphism with respect to codomain fibration if the comparison functor for any of the two above isomorphic monads above is an equivalence of categories.  
+
 ### Comomadic descent for modules, using Sweedler corings
 
 Descent for a [[Sweedler coring]] is comonadic descent. See there for more details and geometric interpretations. 
