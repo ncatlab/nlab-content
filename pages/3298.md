@@ -3,7 +3,6 @@
 </div>
 
 
-> under construction
 
 #Contents#
 * automatic table of contents goes here
@@ -15,7 +14,9 @@ From the [[nPOV]] on [[cohomology]], the notion of Hochschild cohomology is the 
 
 +-- {: .standout}
 
-Hochschild cohomology or [[cyclic cohomology]] is the [[cohomology]] $\mathbf{H}(\mathcal{L}X,C)$ of [[free loop space object]]s $\mathcal{L}X$ in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$ with coefficients in [[quasicoherent ∞-stack|quasicoherent ∞-stacks of modules]] $C$. 
+Hochschild cohomology is the [[cohomology]] $\mathbf{H}(\mathcal{L}X,C)$ of [[free loop space object]]s $\mathcal{L}X$ in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$ with coefficients in [[quasicoherent ∞-stack|quasicoherent ∞-stacks of modules]] $C$. 
+
+This naturally inherits an $S^1$-action from the [[free loop space object]]. The $S^1$-[[equivariant cohomology]] refinement of Hochschild cohomology is [[cyclic cohomology]].
 
 =--
 
