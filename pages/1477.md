@@ -1,0 +1,1 @@
+This designates work on $n$-categories for negative values of $n$. See [[(-1)-category]], [[(-1)-groupoid]], [[(-1)-poset]], etc. and Section 2 of [Lectures on n-Categories and Cohomology](http://arxiv.org/abs/math/0608420).
