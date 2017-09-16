@@ -51,7 +51,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-25
 
-*  [[Toby Bartels]]:  [[SEAR]], [[pure set]], [[natural numbers in SEAR]], [[category theory]].
+*  [[Toby Bartels]]:  [[SEAR]], [[pure set]], [[natural numbers in SEAR]], [[category theory]], [[choice operation]].
 
 * [[David Roberts]]: fixed up problem at [[natural numbers in SEAR]] pointed out by Mike, and included another, cleaner, definition.
 
