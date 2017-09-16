@@ -216,6 +216,7 @@ These cases for $n= 0$ and $n=1$ have been considered in the context of universa
 
 The discussion there becomes more manifestly one of bundles if one regards all morphisms $C \to Set$ appearing there as being the right legs of [[anafunctor]]s. 
 
+There is a well-understood version of this for $n = (\infty,1)$, i.e. for [[(infinity,1)-category|(∞,1)-categories]]. This is described at [[universal fibration of (∞,1)-categories]].
 
 ## Action groupoids as generalized bundles ##
 
