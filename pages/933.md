@@ -46,7 +46,7 @@ A more detailed disucssion of this is at
 
 There is a standard [[model category]] structure on $dgAlg$.See [[model structure on dg-algebras]].
 
-# relation to cosimplicial alghebras #
+# relation to cosimplicial algebras #
 
 The [[monoidal Dold-Kan correspondence]] effectively identifies non-negatively graded [[chain complex]] algebras with simplicial algebras, and non-negatively graded [[cochain complex]] algebras with [[cosimplicial algebra]]s.
 
