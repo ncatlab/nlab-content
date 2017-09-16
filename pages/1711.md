@@ -158,6 +158,8 @@ satisfying certain naturality conditions (which ensure precisely that $\eta$ ext
 $
   \eta : X \to [G^k,Y]
 $). 
+
+JCMcKeown: not meaning to cause annoyance, but how about calling them "$+k$-transformations", owing to their incrementing dimensions by $k$; or if we don't like the $+$ prefix, one might call them $k$-vexilors, because they tend to generate flags of period $k$.
 =--
 
 
