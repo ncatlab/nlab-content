@@ -24,6 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-08
+
+* [[Jon Awbrey]]:  Clarifying at [[graph theory]] and questying at [[evil]].
+
 
 ## 2009-09-07
 
