@@ -1,4 +1,4 @@
-In its modern form the axiom of choice in an [[internalization|ambient category]] $A$ says that
+In its modern form, the axiom of choice in an [[internalization|ambient category]] $A$ says that
 
 * _Every [[epimorphism]] in $A$ splits._
 
@@ -20,12 +20,21 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 * Formulated in terms of sections the _axiom of choice_ may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $A =$ [[Top]] and $A = $[[Diff]], due to the existence of nontrivial topological and smooth fiber bundles.
 
-* The axiom of choice in [[Set]] is equivalent to the statement that the pair ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system]] in [[Set]].
+* When the full axiom of choice it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A\to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A\to B$ splitting).
 
-* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.
-
-* The axiom of choice in $Set$ implies (and is implied by, given excluded middle) the [[well-ordering theorem]] and [[Zorn's lemma]].
+* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.  One good example is the axiom of _countable choice_, which says that the set $\mathbb{N}$ of [[natural number]]s is projective.  A stronger version is the [[axiom of dependent choice]].
 
 * See also 
   * [[anafunctor]];
   * [[foundations]].
+
+
+# Equivalents 
+
+The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction or the other requires [[excluded middle]]):
+
+* The [[well-ordering theorem]] (any set can be [[well-order|well-ordered]])
+
+* [[Zorn's lemma]].
+
+* ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system]] in [[Set]].
