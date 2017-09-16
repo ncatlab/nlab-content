@@ -183,5 +183,5 @@ Math. Soc. 25 (230) (1980) ix+171.
 +-- {: goal}
 ###### Lexicon links onwards:
 
-[[Tim Porter|Tim]]:  The lexicon  continues on a new entry on the links between differential graded algebras and differential graded Lie algebras. (I will provide a title when I have thought what to call it!) 
+[[Tim Porter|Tim]]:  The lexicon  continues on a new entry that goes from  [[differential graded algebras and differential graded Lie algebras-relationships|Differential graded algebras to differential graded Lie algebras and back]].  
 =--
