@@ -15,6 +15,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[group cohomology]]
+
+    * the point of view adopted there is _almost_ fully explicit in Brown-Higgins-Sivera's book _Nonabelian algebraic topology_ , only that one needs to notice in addition that the morphisms out of free resolutions of crossed complexes discusses there are the [[anafunctor]]s that compute the morphisms in the corresponding homotopy category. Has this been made fully explicit anywhere in the existing literature?
+
+
   * fiddled a bit with the entry [[higher category theory]] (added one more introductory sentence, created a hyperlinked list of definitions of higher categories) but I still feel that we should put more energy in this particular entry. It is sort of the single central entry one would expect an "$n$Lab" to be built around, but currently it doesn't even come close to living up to playing such a pivotal role. I am imagining that it should carry some paragraphs that highlight the powerful recent developments in view of [[Pursuing Stacks]], of the kind that I filled in today in the entry [[Carlos Simpson]]. Does any higher category theory expert out there feel like writing an expositional piece for the $n$Lab here?
 
   * created [[simplicial localization]] but was then too lazy to draw the hammock. But main point here is the link to an article by [[Tim Porter]] that nicely collects all the relevant definitions and references 
