@@ -1,4 +1,4 @@
-#regular epimorphism#
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
@@ -16,18 +16,30 @@ The [[duality|dual]] concept is that of [[regular monomorphism]].  A morphism ha
 
 Although the definition doesn\'t state so explicitly, it is true that any regular epimorphism is an [[epimorphism]]. In fact, every regular epimorphism is a [[strong epimorphism]]. On the other hand, every [[split epimorphism]] is regular.
 
-In [[Set|the category of sets]], every epimorphism is regular. Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use. In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using regular epimorphisms.
+## Examples
 
-As another example, in the category of monoids, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.
+* In [[Set|the category of sets]], every epimorphism is regular. Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use. In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using regular epimorphisms.
+
+* In the category of [[monoid]]s, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.
 
 
-## In higher context
+## In the context of higher category theory ##
 
 Comparing the above to the defintion of [[effective epimorphism]], we propose the following definition in an [[(∞,1)-category]]:  
 
-A __regular epimorphism__ in an [[(∞,1)-category]] is a morphism with a [[simplicial resolution]].
+A __regular epimorphism__ $f : c \to d$ in an [[(∞,1)-category]] $C$ is a morphism with a [[simplicial resolution]]:
 
-**Warning** Such a morphism may fail to satisfy some condition for being a plain _epimorphism_ that you might think of. The idea is that there may not be a good notion of epimorphism in an [[(∞,1)-category]] apart from regular epimorphism.
+one for which a [[colimit in a quasi-category|colimit diagram]]
+
+$$
+  \cdots c_2 \stackrel{\to}{\stackrel{\to}{\to}} c_1 \stackrel{\to}{\to} c \stackrel{f}{\to} d
+$$
+
+exist.
+
+This is a morphism such that for all objects $e \in C$ the induced morphism $f^* : C(d,e) \to C(c,e)$ is a [[regular monomorphism]] in the [[(∞,1)-category]] [[∞Grpd]].
+
+**Warning**. Such a morphism may fail to satisfy some condition for being a plain _epimorphism_ in an [[(∞,1)-category]] that you might think of. The idea is that there may not be a good notion of epimorphism in an [[(∞,1)-category]] apart from regular epimorphism.
 
 +--{: .query}
 
