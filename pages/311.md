@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 # Overview #
 
 If $C$ is a [[locally small category]], then we say a [[functor]] 
