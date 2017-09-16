@@ -170,7 +170,7 @@ $$R: Vect(M,G) \to Rep(H) $$
 
 which restricts the action of $G$ on the whole bundle to the action of the stabilizer subgroup $H$ on the fiber over the chosen point $x$.  We now wish to show that $L$ and $R$ are adjoint functors.
 
-[[!include induced representation/adjoint]]
+[[!include induced representation > adjoint]]
 
 In the diagram above, on the top left we have a generic $G$-equivariant vector bundle over $M$, $F\in Vect(M,G)$, with projection $\pi_1:F\to M$, and a chosen point $x\in M$ whose stabilizer subgroup is $H$.  The functor $R$ maps $F$ to a representation of $H$ on the fiber over $x$, $\pi_1^{-1}(x)$, shown on the top right.
 
