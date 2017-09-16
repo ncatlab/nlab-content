@@ -1,3 +1,2 @@
-See [[quiver algebra]].
-
-category: redirect
+&lt; [[path algebra]]
+[[!redirects path algebra -- history]]
