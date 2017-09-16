@@ -17,15 +17,26 @@ Here we will concentrate on the bar-cobar adjointness itself and start exploring
 (The previous entry in this lexicon can be found at [[differential graded Hopf algebra]].) 
 =--
 
+
 ##The Bar construction
 
 (due originally Eilenberg-MacLane)
 \[B :pre \varepsilon CDGA \to pre CDGHA\]
-Let $(A,d,\varepsilon) $ be a commutative, augmented differential $\mathbb{Z}$-graded algebra, $d(A_n)\subseteq A_{n-1}$, $\overline{A} = Ker \varepsilon$.  
+
++-- {: .query}
+ 
+[[Urs Schreiber|Urs]]:
+ This is a bit abrupt. Could we just say this in words, once, like "The bar construction, originally due to MacLane, is a map that sends xyz to abc such that rst."? I would also  greatly appreciate some more motivational background and other helpful side remarks. Such as: why does the bar/cobar-construction go between algebras and coalgebras, instead of being an endomorphism of either? 
+
+=--
+
 
 ##Definition
 
-The _bar construction_ $B(A,d,\varepsilon)$ is given by 
+Let $(A,d,\varepsilon) $ be a commutative, augmented differential $\mathbb{Z}$-graded algebra, $d(A_n)\subseteq A_{n-1}$, $\overline{A} = Ker \varepsilon$.  
+
+
+The **bar construction** $B(A,d,\varepsilon)$ is given by 
 $$B(A,d,\varepsilon) = (T(s\overline{A}), D),$$
 where 
 
@@ -39,6 +50,7 @@ $$d_I(sa_1\otimes \ldots\otimes sa_n) = -\sum_{i = 1} ^n\eta(i-1)sa_1\otimes \ld
 and
 
 $$d_E(sa_1\otimes \ldots\otimes sa_n) = -\sum_{i = 1} ^n\eta(i-1)sa_1\otimes \ldots \otimes sa_{i-2}\otimes sa_{i-1}.a_i\otimes \ldots sa_n,$$ 
+
 
 with $\eta(i) = (-1)^{\sum_{k=1}^i |sa_k|}$.
 
@@ -116,6 +128,13 @@ $$\hat{\beta} : (C,\partial) \to BF(C,\partial)$$
 are weak equivalences.
 
 =--
+
++-- {: .query}
+ 
+Here weak equivalence means [[quasi-isomorphism]], I suppose?
+
+=--
+
 
 These latter morphisms are defined by
 
