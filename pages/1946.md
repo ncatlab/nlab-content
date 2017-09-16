@@ -40,13 +40,13 @@ Note that $L_0 X = 0$ is the initial object and $M_0 X$ is the terminal object, 
 In the case $R=\Delta^{op}$, the latching object $L_n X$ can be thought of as the object of _degenerate_ $n$-simplices sitting inside the object $X_n$ of all $n$-simplices.  When $R=\alpha$ is an ordinal, then $L_{n+1} X = X_n$ and $M_n X = 1$, and dually for $R=\alpha^{op}$.
 
 We now define a morphism $f:X\to Y$ in $M^R$ to be a cofibration or trivial cofibration if for all $r$, the map
-$$L_r Y \sqcup_{L_r X} X_r \to Y_r$$
+$$L_r Y \amalg_{L_r X} X_r \to Y_r$$
 is a cofibration or trivial cofibration in $M$, respectively, and to be a fibration or trivial fibration if for all $r$, the map
 $$ X_r \to M_r X \times_{M_r Y} Y_r$$
 is a fibration or trivial fibration in $M$, respectively.  Define $f$ to be a weak equivalence if each $f_r$ is a weak equivalence in $M$.
 
 One then verifies that this defines a model structure; the details can be found in (for instance) Hovey and Hirschhorn's books.  In particular, to factor a morphism $f:X\to Y$ in either of the two necessary ways, we construct the factorization $f_r = g_r h_r$ inductively on $r$, by factoring the induced morphism
-$$ L_r Z \sqcup_{L_r X} X_r \to M_r Z \times_{M_r Y} Y_r$$
+$$ L_r Z \amalg_{L_r X} X_r \to M_r Z \times_{M_r Y} Y_r$$
 in the appropriate way in $M$.
 
 
