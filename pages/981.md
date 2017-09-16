@@ -8,4 +8,6 @@ Cyclic objects in a category $C$ are the contravariant functors $\Lambda^{\mathr
 
 +--{.query}
 We might also call it the [[cycle category]] in analogy with [[simplex category]], [[cube category]], and [[globe category]] that we\'ve already got here.  If that\'s a good system.  ---Toby
+
+[[Mike Shulman|Mike]]: I like that system.
 =--
