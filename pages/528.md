@@ -33,7 +33,7 @@ Note that the definition of Hopf algebra (or, really, of [[Hopf monoid]]) is [[d
 
 1. A _commutative_ Hopf monoid in a [[symmetric monoidal category]] $V$ is the same as a group object in $CMon(V)^{op}$, where $CMon(V)$ is the category of commutative monoids in $V$.  This works because the tensor product of commutative algebras is the categorical [[coproduct]], and hence the [[product]] in its [[opposite category]]. In particular, a commutative Hopf algebra is the same as a group object in the category $Alg^{op}$ of affine schemes.
 
-Corresponding to these two, an ordinary group $G$ gives us two different Hopf algebras (here $k$ is the ground ring):
+Corresponding to these two, an ordinary group $G$ gives us two different Hopf algebras (here $k$ is the [[ground ring]]):
 
 1. The [[group algebra]] $k[G]$ (the free vector space on the set $G$), with multiplication given by the group operation of $G$ and comultiplication given by the diagonal $g\mapsto g\otimes g$.  This Hopf algebra is always cocommutative, and is commutative iff $G$ is abelian.  It can be viewed as the result of applying the [[strong monoidal functor]] $k[-]:Set \to k Mod$ to the Hopf monoid $G$ in $Set$.
 
@@ -91,7 +91,7 @@ William C. Waterhouse, Introduction to affine group schemes, Graduate Texts in M
 
 # A Word of caution #
 
-In algebraic topology, it is common to define Hopf algebras without mentioning the antipode, since in many topological cases of interest it exists automatically.  For example, this is the case if it is [[graded object|graded]] and "connected" in the sense that its degree-0 part is just the ground field (a property possessed by the homology or cohomology of any connected space).  In algebraic topology also the strict coassociativity is not always taken for granted.
+In algebraic topology, it is common to define Hopf algebras without mentioning the antipode, since in many topological cases of interest it exists automatically.  For example, this is the case if it is [[graded object|graded]] and "connected" in the sense that its degree-0 part is just the [[ground field]] (a property possessed by the homology or cohomology of any connected space).  In algebraic topology also the strict coassociativity is not always taken for granted.
 
 [[!redirects antipode]]
 [[!redirects Hopf monoid]]
