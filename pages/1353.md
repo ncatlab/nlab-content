@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 #Idea#
 
 Weak complicial sets are [[simplicial sets]] with [[stuff, structure, property|extra structure]] that are closely related to the [[nerves]] of weak $\omega$-[[omega-category|categories]].
