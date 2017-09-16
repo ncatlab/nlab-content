@@ -152,7 +152,7 @@ _Toby_:  If you start with an $\infty$-category $C$ and turn all $k$-morphisms f
 
 +-- {: .un_prop}
 ###### Proposition
-A **finite category** is the 1-[[truncation]] of a [[n-quiver|2-quiver]] for some [[directed n-graph|directed 2-graph]].
+A **finite category** is the 1-[[truncation]] of a free [[n-poset|2-poset]] for some [[directed n-graph|directed 2-graph]].
 =--
 
 +-- {: myproof}
