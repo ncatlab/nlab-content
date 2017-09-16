@@ -355,6 +355,14 @@ _Toby_:  What is the purpose of the timeline?  If it\'s to know when things were
 
 #Discussion#
 
+###Concerning an update from Wikipedia###
+
++-- {: .query}
+
+_Rafael_: I have been writing on a new version of this timeline in wikipedia and i can handle the migration to nLab now. Except maby for some formulas. But how do i handle to update most of 1500 links!?
+
+=--
+
 ###Concerning the Desire for References###
 
 Rafael: John, if you need references a priority is needed for which references to include first.
