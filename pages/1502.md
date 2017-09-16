@@ -26,7 +26,7 @@ A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched cate
 
    =--
 
-*  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{ij} k$ where $k$ is the ground field (such objects are called _simple_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
+*  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{ij} k$ where $k$ is the [[ground field]] (such objects are called _[[simple object|simple]]_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
    \[
      \bigoplus_{i \in I} Hom(V, X_i) \otimes Hom(X_i, W) \rightarrow Hom(V, W)
    \]
@@ -73,7 +73,7 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 
 #Examples#
 
-* The archetypical simple example is [[Vect]] itself, the category of (finite dimensional!) vector spaces over some ground field $k$. This has a single isomorphism class of simple objects: given by $k$ itself.
+* The archetypical simple example is [[Vect]] itself, the category of (finite dimensional!) vector spaces over some [[ground field]] $k$. This has a single isomorphism class of simple objects: given by $k$ itself.
 
 * The category of [[representations]] of a compact Lie group $G$ is semisimple, with the simple objects being precisely the irreducible representations (this is the content of Schur's lemma). If $G$ is noncompact, one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
 
