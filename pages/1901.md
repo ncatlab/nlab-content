@@ -1,3 +1,4 @@
+[[!redirects Verity on descent for strict omega-groupoid valued presheave]]
 
 This entry is about a theorem by [[Dominic Verity]] that characterizes the [[descent]] condition for [[infinity-stack]]s that take values not in arbitrary [[infinity-groupoid]]s, but just in [[strict omega-groupoid]]s.
 
