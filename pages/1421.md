@@ -28,4 +28,6 @@ I'd like to see some statement to the effect "A space $X$ is compact if and only
 
 The best I've seen so far is: A space $X$ is compact if and only if $Hom(X, \cdot)$ preserves all filtered colimits. I'd like to see a similar statement at the level of functions though to make the analogy clearer. 
 
+_Toby_:  Do we need a page [[perfect stack]]?  And we could certainly use some exposition at [[compact object]]!
+
 =--
