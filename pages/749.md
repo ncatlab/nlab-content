@@ -7,7 +7,7 @@ The local [[model category]] structure on $SimpSh(S)$ is originally due to Joyal
 +-- {: .un_theorem }
 ###### Theorem 
 
-There is a proper closed [[enriched category|simplicially enriched]] [[model category]] structure on $SimpSh(S)$ such that
+There is a proper closed [[simplicially enriched category|simplicially enriched]] [[model category]] structure on $SimpSh(S)$ such that
 
 * cofibrations are precisely the monomorphisms in $SimpSh(S)$;
 
