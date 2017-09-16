@@ -41,7 +41,13 @@ And the entire discussion for the 1-category [[Set]] above then has its analogs 
 
 _David_ : Just as not all reasoning in the topos [[Set]] carries over to other toposes, what can be said of the reasoning in [[Top]] that does/does not work in other (infinity, 1)-toposes?
 
+[[Urs Schreiber|Urs]]: good question. I added one little remark in response to this below. But likely much more could be said here (both known to date and not yet known to date, I suppose). In particular, this only addresses the geometric aspects of $(\infty,1)$-topoi. I don't think anyone has as yet considered $(\infty,1)$-topoi as context in which to interpret logic.  And after all, one must not forget that, [[Higher Topos Theory|HTT]] is only (hah!) about _Grothendieck_ $(\infty,1)$-topoi ($(\infty,1)$-presheaf topoi).
+
 =--
+
+Many constructions familiar from the [[homotopy theory]] of [[Top]] make sense in every [[(infinity,1)-topos]]. For an account see [section 6.5](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=521) [[Higher Topos Theory|HTT]]. 
+
+
 
 ## side remark: relation to more general $\infty$-categories ##
 
@@ -87,7 +93,7 @@ This is notably the case in (functorial extended topological) [[FQFT|quantum fie
 
 * based on this, Ben-Zvi, Francis and Nadler have begun in their work on [[geometric infinity-function theory]] to systematically study those extended TFTs which arise from _geometric backgrounds_ as _$\sigma$-models_ using an $(\infty,1)$-categorical version of [[geometric function theory]]. They show that [[infinity-stack homotopically|infinity-stacks]] arising in [[Lie theory]] represent $\infty$-categorical extended TFTs in this sense which organize a rich amount of structures and theorems in representation theory. 
 
-* this perspective also incorporates the $A_\infty$-categorical work by Kontsevich, Fukaya and others on homological mirror symmetry: linear $A_\infty$-categories are equivalent to [[dg-category|dg-categories]] and pre[[triangulated category|triangulated]] dg-categories are [[stable (infinity,1)-category|stable (infinity,1)-categories]].
+* this perspective also incorporates the $A_\infty$-categorical work by Kontsevich, Fukaya and others on homological mirror symmetry: linear [[A-infinity category|A-infinity categories]] are equivalent to [[dg-category|dg-categories]] and [[pretriangulated dg-category|pretriangulated dg-categories]] are [[stable (infinity,1)-category|stable (infinity,1)-categories]].
 
 
 (... needs more detals and more scope ...)
