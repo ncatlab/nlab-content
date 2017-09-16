@@ -43,3 +43,5 @@ _Mike_: Yes, you almost certainly want it to be essentially small (see my commen
 From [[Froelicher space|Frölicher spaces]]: I want to consider the case of a concrete category and a (maybe full) subcategory which can detect which set-morphisms come from the original category.  A bit like the idea that one can detect which set maps are smooth maps between, say, manifolds by testing with smooth maps from $R$.
 
 _Mike_: Perhaps "concretely dense" or "relatively dense?"  (See my comment at [[Froelicher space]])
+
+category: meta
