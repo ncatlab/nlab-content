@@ -28,7 +28,7 @@ But $f$ also determines a morphism $\bar f : I \to n Cat$. The **cograph** of $f
 
 ## Cographs of functors between 0-categories ##
 
-In the case that $C, D$ are [[0-category|0-categories]], i.e. [[set]]s, a functor $f : C \to D$
+In the case that $C, D$ are [[0-category|0-categories]], i.e. [[sets]], a functor $f : C \to D$
 is just a [[function]] between sets. The cograph [[2-pullback]] 
 
 $$
@@ -79,12 +79,12 @@ below.
 ### Adjoint functors in terms of cographs ###
 
 As emphasized in the beginning of section 5.2 there, cographs of functors may be used to characterize
-[[adjoint functor]]s.
+[[adjoint functors]].
 
 +-- {: .un_prop }
 ###### Proposition
 
-Two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functor]]s precisely if their cographs (modulo the obvious passage to [[opposite categories]]) are isomorphic under $C$ and $D$:
+Two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functors]] precisely if their cographs (modulo the obvious passage to [[opposite categories]]) are isomorphic under $C$ and $D$:
 
 $$
   (L \dashv R) \Leftrightarrow 
@@ -149,9 +149,9 @@ Note that under the identification of [[profunctors]] with *codiscrete cofibrati
 
 ## Cographs of functors between $(\infty,1)$-categories ##
 
-In the context of [[(∞,1)-category]] theory there is a good theory of [[Cartesian fibration]]s $X \to S$ and of their classification by [[(∞,1)-functor]]s $S^{op} \to (\infty,1)Cat$ to the [[(∞,1)-category of (∞,1)-categories]] as described at [[universal fibration of (∞,1)-categories]].
+In the context of [[(∞,1)-category]] theory there is a good theory of [[Cartesian fibrations]] $X \to S$ and of their classification by [[(∞,1)-functors]] $S^{op} \to (\infty,1)Cat$ to the [[(∞,1)-category of (∞,1)-categories]] as described at [[universal fibration of (∞,1)-categories]].
 
-Accordingly, the above notion of cograph of a functor has a direct generalization to [[(∞,1)-functor]]s:
+Accordingly, the above notion of cograph of a functor has a direct generalization to [[(∞,1)-functors]]:
 
 +-- {: .un_defn}
 ###### Definition
