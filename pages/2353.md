@@ -22,7 +22,7 @@ _Toby_:  Note that much of what Todd writes is already at [[cograph]].  (And wha
 
 =--
 
-But $f$ also determines a morphism $\bar f : I \to n Cat$. The **cograph** of $f$ is the fibration classified by $\bar f$.
+But $f$ also determines a morphism $\bar f : I \to n Cat$ from the [[interval category]] $I$. The **cograph** of $f$ is the fibration classified by $\bar f$.
 
 # Examples #
 
