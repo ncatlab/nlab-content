@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * based on [[Zoran Skoda|Zoran]]'s references at [[enhanced triangulated category]] I created [[pretriangulated dg-category]] and [[twisted complex]], but then ran out of steam
+
   * moved a bit of material from [[derived infinity-stack]] to [[derived stack]] and then made [[derived infinity-stack]] a redirect to [[derived stack]]
 
   * finally wrote at least a blurb at [[stack]], only to make it look less orphaned in between [[sheaf]] and [[(infinity,1)-sheaf]].
