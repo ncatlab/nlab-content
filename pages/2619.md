@@ -10,9 +10,15 @@
 
 Let $E$ be a small, cocomplete category. An object $e$ of $E$ is **tiny** if the hom-functor $E(e, -) : E \to Set$ preserves small colimits.
 
-Tiny objects are also sometimes called **small-[[projective object]]s**.
+Tiny objects are also sometimes called **small-[[projective object]]s**. 
 
-If homming out of a tiny object even has a [[right adjoint]] and hence preserves _all_ colimits it is called an [[infinitesimal object|atomic object]]. The right adjoint is called an [[amazing right adjoint]].
++--{.query} 
+
+_Todd_: Hm, I'm not familiar with that term. Who calls it that? (The link to [[projective object]] only mentions preservation of epimorphisms or perhaps regular epimorphisms = coequalizer maps.) 
+
+=--
+
+If homming out of a tiny object even has a [[right adjoint]] and hence preserves _all_ colimits, it is called an [[infinitesimal object|atomic object]]. The right adjoint is sometimes called an [[amazing right adjoint]], particularly in the context of [[synthetic differential geometry]]. If $E$ is a sheaf topos, then tiny objects and infinitesimal objects coincide. 
 
 
 #Examples#
@@ -25,6 +31,6 @@ If homming out of a tiny object even has a [[right adjoint]] and hence preserves
 
   where now the last [[colimit]] is in [[Set]].
 
-  This is the example of tiny objects that appear in the context of [[Cauchy complete category|Cauchy completetion]] of categories.
+In the context of [[Cauchy complete category|Cauchy completion]] of categories, every tiny object may be construed as a representable presheaf, provided that we change the site from a small category $C$ to its Cauchy completion or [[Karoubi envelope]] $\bar{C}$, which gives the same presheaves up to equivalence. 
 
 [[!redirects small-projective object]]
