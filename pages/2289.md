@@ -40,13 +40,15 @@ The central theorem is
 
    1. [interpretation in terms of higher topos theory](#interpretationintermsofhighertopostheory)
 
-1. partial surveys
+1. Partial surveys
 
-   The following links point to pages that contain notes on aspects of the theory from a [seminar](http://nd.edu/~rgrady/seminar.html)
+   These links point to pages that contain notes on aspects of the theory that are in the style of and originate from [a seminar on A Survey of Elliptic Cohomology](http://nd.edu/~rgrady/seminar.html):
 
    1. [[A Survey of Eilliptic Cohomology - cohomology theories]]
 
    1. [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
+
+   1. [[A Survey of Elliptic Cohomology - E-infinity rings and derived schemes]]
 
 
 1. [Contents](#contents)
