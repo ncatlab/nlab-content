@@ -367,7 +367,7 @@ $$
   G Bund(X)_\sim
 $$ 
 
-as expected. In $SPSh(CartSp)$, however, $X$ is in general not representable, hence in general not cofibrant. But by propXYZ we have that the [[Cech nerve]] $C(U)$ of any good cover $U = \coprod_i U_i$ of $X$ is cofibrant. Hence here we find the above result by a different intermediate step
+as expected. In $SPSh(CartSp)$, however, $X$ is in general not representable, hence in general not cofibrant. But by the proposition below we have that the [[Cech nerve]] $C(U)$ of any good cover $U = \coprod_i U_i$ of $X$ is cofibrant. Hence here we find the above result by a different intermediate step
 
 $$
   Ho_{SPSh(Cart)^{loc}}(X, \mathbf{B}G )
@@ -379,6 +379,150 @@ $$
 $$
 
 =--
+
+
+
+# some properties and constructions #
+
+## good covers ##
+
++-- {: .query}
+
+[[Urs Schreiber]]: the following looks like a good definition to me, but check
+
+=--
+
+
++-- {: .un_def }
+###### Definition (good cover)
+
+For $C$ some [[nLab:site|site]] and $X \in SPSh(C)$, a [[nLab:Cech cover|Cech cover]] $\pi : U \stackrel{\simeq}{\to} X$ of $X$ is called a **good cover** if $U_\bullet$ is degreewise a [[coproduct]] over [[representable functor|representable]]s.
+
+=--
+
+
++-- {: .un_prop }
+###### Proposition
+
+In the [[local model structure on simplicial presheaves|local projective model structure]] $SPSh(C)_{proj}^{loc}$ all good covers are cofibrant.
+
+=--
+
++-- {: .query}
+
+[[Urs Schreiber]]: check this proof
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that cofibrant objects in $SPSh(C)_{proj}^{loc}$ are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
+In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
+
+Assume that $U$ is a good cover. Then we have
+
+$$
+  \begin{aligned}
+    SPSh(U,B)
+    &=
+    SPSh(\int^k \Delta^k \cdot U_k, B)
+    \\
+    &\simeq \int_k SPSh(\Delta^k\cdot U_k, B)
+    \\
+    &\simeq \int_k SSet(\Delta^k, SPSh(U_k, B))
+    \\
+    &\simeq \int_k SSet(\Delta^k, 
+     SPSh(\coprod U_{i_0, \cdots U_{i_k}},
+    B))
+    \\
+    &\simeq \int_k SSet(\Delta^k, 
+    \prod SPSh(U_{i_0, \cdots U_{i_k}},
+    B))
+    \\
+    &\simeq \int_k \prod_r SSet(\Delta^k, 
+    SPSh(U_{i_0, \cdots U_{i_k}},
+    B))
+    \\
+    &\simeq \int_k  \prod  SSet(\Delta^k, B(U_{i_0, \cdots U_{i_k}})
+  \end{aligned}
+  \,.
+$$
+
+
+We need to show that for any morphism $A \to B$ that is objectwise an acylic [[Kan fibration]] and for every morphism $U \to B$ there is a lift
+
+$$
+  \array{
+    && A
+    \\
+    & \nearrow & \downarrow
+    \\
+    U &\to& B
+  }
+  \,.
+$$
+
+By the above this is the same as producing a section of the induced morphism
+
+$$
+  \int_k \prod  SSet(\Delta^k, A(U_{i_0, \cdots U_{i_k}})
+  \to
+  \int_k \prod  SSet(\Delta^k, B(U_{i_0, \cdots U_{i_k}})
+$$
+
+of simplicial sets, and this is componentwise an acyclic fibration.
+
+Now construct a lift by induction over $k$. First for the 0-cells, we do have a lift
+
+$$
+  \array{
+    && \prod A(U_i)
+    \\
+    & {}^{L_0}\nearrow & \downarrow
+    \\
+    \Delta^0 &\to & \prod B(U_i)
+  }
+$$
+
+because $A \to B$ is objectwise an acyclic fibration. Accordingly, there is then a lift
+
+$$
+  \array{
+    \Delta^0 \coprod \Delta^0
+    &\stackrel{}{\to}& \prod A(U_{i j})
+    \\
+    \downarrow & \nearrow & \downarrow
+    \\
+    \Delta^1 &\to & \prod B(U_{i j})
+  }
+$$
+
+etc. At the $k$th induction step we produce a lift 
+
+$$
+  \array{
+    \partial \Delta^k
+    &\stackrel{}{\to}& \prod A(U_{i_0, \cdots, i_k})
+    \\
+    \downarrow & \nearrow & \downarrow
+    \\
+    \Delta^k &\to & \prod B(U_{i_0, \cdots, i_k})
+  }
+  \,,
+$$
+
+where the top horizontal morphism is just built from the restrictions of the previously obtained lifts to further intersections of the  $U_i$. 
+
+The way these lifts are constructed they do satisfy the naturality condition that makes them objects of the required [[end]], so they do give the desired lift.
+
+=--
++-- {: .query}
+
+[[Urs Schreiber]]: or does it? I need to write the down more systematically.
+=--
+
+
+
 
 #References#
 
