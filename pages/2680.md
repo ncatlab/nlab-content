@@ -86,7 +86,7 @@ The impact that this idea of quantization from symplectic geometry eventually ha
 
 ## examples ##
 
-The symplectic-geometry description of Hamiltonian mechanics is especially well-suited to descvribe topologically nontrivial phasse spaces that are not [[cotangent bundle]]s.
+The symplectic-geometry description of Hamiltonian mechanics is especially well-suited to describe topologically nontrivial phase spaces that are not [[cotangent bundle]]s.
 
 ### vortices on the sphere ###
 
