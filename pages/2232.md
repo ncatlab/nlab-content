@@ -15,11 +15,13 @@ The definition of the centre of a category has an obvious (vertical) [[decategor
 
 +--{: .query}
 [[Mike Shulman]]: It seems to me that the monoid of endofunctions of a set would be the decategorification of $[C,C]$, not $[C,C](Id_C,Id_C)$.  The center of a set should be the endotransformations _of_ the identity endofunction (of which there is only one, the identity).  Moreover, since the center of a category is a commutative monoid, and the center of a bicategory is a braided monoidal category (horizontally categorifying the center of a monoidal category), the center construction acts like a knights-move on the periodic table; thus it makes sense that the center of a set should be a symmetric monoidal $(-1)$-category, i.e. "True."
+
+_Toby_:  I didn\'t look closely enough at your centre of a category then!  What you say here contradicts what you wrote below ---that the centre of a $k$-tuply monoidal $n$-category is a $(k+1)$-tuply monoidal $n$-category, which is my understanding--- and contradicts what John Baez writes in Section 1.1 (page 5) of [HDA1](http://math.ucr.edu/home/baez/bm2cat.ps).
 =--
 
 The center of a group or monoid can also be [[vertical categorification|vertically categorified]]: one can define the center of a [[monoidal category]].  The center of a monoidal category is a [[braided monoidal category]], which is [[symmetric monoidal category|symmetric]] if the original category was braided.
 
-Importantly, the centers of a sets, category, or monoidal category $C$ is no longer a "subobject" of $C$; rather its objects are objects of $C$ equipped with additional structure.  More generally, one expects the center of a [[k-tuply monoidal n-category]] to be a $(k+1)$-tuply monoidal $n$-category; this has also been proven for $k\le 4$ when $n=2$.
+Importantly, the center of a set, category, or monoidal category $C$ is not simply a "subobject" of $C$; rather its objects are objects of $C$ equipped with additional structure.  More generally, one expects the center of a [[k-tuply monoidal n-category]] to be a $(k+1)$-tuply monoidal $n$-category; this has also been proven for $k\le 4$ when $n=2$.
 
 
 [[!redirects centre]]
