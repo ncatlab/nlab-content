@@ -2,11 +2,12 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea and Definition
 
-In [[logic]], the **context** of an assertion (or judgement) consists of all of the assumptions that are made when that assertion to claimed be valid; whether an assertion is in fact valid (or even meaningful) may depend on the context.
+## Idea
 
-Generally, a context is thought of as relative to some underlying logical theory.  This underlying theory will contain most of the assumptions of what constitutes validity; the context of an assertion in this theory will then include only those extra assumptions that may be used by that assertion.  (On the other hand, one could also think of the entire base theory as part of the context.)
+In [[logic]], the **context** of an assertion (or judgement) consists of all of the assumptions that are made when that assertion to claimed be valid; whether an assertion is in fact valid (or even meaningful) may depend on the context.  The precise definition depends on the [[theory]] (or [[doctrine]]) that one is working in.
+
+Generally, a context is thought of as relative to some underlying logical theory.  This underlying theory will contain most of the assumptions of what constitutes validity; the context of an assertion in this theory will then include only those extra assumptions that may be used by that assertion.  On the other hand, one could also think of the entire base theory as part of the context.
 
 For example, in the theory of a [[group]], it is understood that there is a group $G$, that $G$ has various elements, that two elements of $G$ may be [[equality|equal]], that any two elements of $G$ have as product an element of $G$, and that various equational laws are satisfied (which we will not list here).  However, the validity and meaningful of an assertion that two elements of $G$ commute will depend on the context.
 
@@ -27,6 +28,7 @@ Here the context on the left side is the **empty context**, consisting of no ass
 However, these versions involve $\forall$ and $\Rightarrow$, while the previous versions work in weaker logics.  In fact, these assertions make sense (and the valid one may be proved) in the [[internal logic]] of a [[group object]] in a [[finitely complete category]] (and somewhat more generally than that).  Accordingly, they can be interpreted as statements about any group object in any finitely complete category (and the valid one will then be interpreted as a true statement), exactly as they do for groups (which are group objects in the finitely complete category [[Set]]).
 
 Even if one is completely uninterested in [[internalization]] or weak logics, a basic familiarity with contexts may help drive home a point that is important throughout reasoning:  **What you can state and prove depends on your assumptions.**
+
 
 ## The category of contexts
 
@@ -90,14 +92,17 @@ As for the code that hides finitely presented groups in this category of context
 [[Mike Shulman|Mike]]: It's true in the generality of any finite-limit theory.  (And, presumably, there are infinitary generalizations.)  There's some general discussion in the [[Elephant]].
 =--
 
+
 ## Display morphisms
 
 ...
+
 
 ## References
 
 * [[Practical Foundations]], Chapter VIII
 * The [[Elephant]], Section D4.4
+
 
 ## Discussion
 
