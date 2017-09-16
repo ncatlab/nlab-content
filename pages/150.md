@@ -1,3 +1,2 @@
-See [[infinity-groupoid]].
-
-category: redirect
+&lt; [[infinity groupoid]]
+[[!redirects infinity groupoid -- history]]
