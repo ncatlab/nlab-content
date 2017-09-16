@@ -1,0 +1,1 @@
+A [[vector space]] $V$ over a field $k$ is symplectic if it is equipped with an exterior 2-form $\omega \in \Lambda^2_k V$ such that $\omega^{\wedge n}=\omega\wedge\omega\ldots\wedge\omega$ has the maximal rank. 
