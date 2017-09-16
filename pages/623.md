@@ -83,12 +83,12 @@ The Moore complex is a [[normal complex of groups]].
 
 # differing conventions #
 
-* There is an alternative 'dual' form of this with $\bigcap_{i=0}^{n-1}Ker\,d_i^n$ and with the boundary /  differential $\partial$ induced by the last face map $d^n_n$. The theories run parallel but the fact there are two valid forms can be confusing for the formulae for various derived structures. 
+* There is an alternative form of this construction using $\bigcap_{i=0}^{n-1}Ker\,d_i^n$ instead of $\bigcap_{i=1}^{n}Ker\,d_i^n$, and with the differential $\partial$ defined using the last face map $d^n_n$ instead of the first. The theories run parallel but the fact there are two valid forms can be confusing for the formulae for various derived structures. 
 
 
 *  The notation $N G$ is quite widely used in the literature but can get confused with that sometimes used for the [[nerve]] functor, so care is needed. (We have therefore used $\mathcal{N}$ for the latter.) The $N$ here stands for 'normalised'.
 
-   +-- {: .query}
++-- {: .query}
    Dang, my fault for messing this up a while back; I read it as nerve on [[crossed complex]] and so changed it.  I would use $\mathcal{N}$ for the nerve, to go with $\mathcal{B}$ for the [[classifying space]] functor (to contrast with $\mathbf{B}$ as discussed on [[category algebra]]).  ---Toby
 
 =--
