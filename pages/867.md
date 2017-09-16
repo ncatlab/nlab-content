@@ -10,7 +10,7 @@
 
 ## Idea ##
 
-A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.
+A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.  This is the fundamental notion in [[order theory]].
 
 
 ## Definitions ##
@@ -71,7 +71,8 @@ As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is
 
 ## In higher category theory ##
 
-An poset can be understood as a [[(0,1)-category]]. The fundamental notion in [[order theory]]. This suggests an obvious [[vertical categorification]] of the notion of poset to that of [[n-poset]].
+An poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[vertical categorification]] of the notion of poset to that of [[n-poset]].
+
 
 ## References ##
 
