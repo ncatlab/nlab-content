@@ -16,6 +16,20 @@ Also including questions that should be frequently asked but aren't.
 
    However, for tables you can also use the [PHP Markdown Extra](http://michelf.com/projects/php-markdown/extra/#table) syntax inside which `$...$` works without a problem.
 
+1. *How do I make commutative diagrams?*
+
+   One answer is to use the `\array` command of itex.  For example,
+
+       $$\array{A & \to & B\\ \downarrow && \downarrow \\ C & \to &D}$$
+
+   produces
+
+   $$\array{A & \to & B\\ \downarrow && \downarrow \\ C & \to &D}$$
+
+   You can get nicer-looking output by using SVG.  The way to get math into the SVG is to use the SVG `<foreignObject>` tag with itex math `$...$` inside it.  As in the previous question, for this to work you need to put `markdown="1"` on the `<foreignObject>` tag or else on a `<g>` tag containing it.
+
+   As for how to get the SVG itself, including the arrows, there are several options.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You'll probably have to modify it by hand, though, to put in the itex math.  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]] and [[comma object]].
+
 1. *My reference cites the wrong theorem*
 
     If you want to use references with numbered theorems and the like then there has to be a reference for _every_ numbered theorem.
