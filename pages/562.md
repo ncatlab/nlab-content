@@ -1,11 +1,23 @@
+
+#Contents#
 * toc
 {:toc}
 
-# Idea #
+## Idea 
 
-A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or [[fibered category]] or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
+A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or **fibered category** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
 
-There is an [[equivalence of categories|equivalence]] of [[strict 2-category|2-categories]] between the 2-category of fibrations over $B$ and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called _$B$-indexed categories_.  The construction of a fibration from a pseudofunctor is sometimes called the _[[Grothendieck construction]]_, although fortunately (or unfortunately) Grothendieck performed many constructions.  Less ambiguous terms are the [[category of elements]] and the [[2-limit|lax colimit]].
+There is an [[equivalence of categories|equivalence]] of [[strict 2-category|2-categories]] 
+
+$$
+  Fib(B) \stackrel{\simeq}{\leftrightarrow} [B^{op}, Cat] : 
+  \int
+$$
+
+between the 2-category of fibrations over $B$ and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called _$B$-indexed categories_.  
+
+The construction $\int : [B^{op}, Cat] \to Fib(B) : F \mapsto \int F$ of a fibration from a pseudofunctor is sometimes called the _[[Grothendieck construction]]_, although fortunately (or unfortunately) Grothendieck performed many constructions.  Less ambiguous terms for $\int F$ are the [[category of elements]] and the [[2-limit|lax colimit]] of $F$.
+
 
 +--{: .query}
 [[Sridhar Ramesh]]: I have a (possibly stupid) question about the nature of this equivalence. I assume the idea here is that moving from a cloven fibration to the corresponding pseudofunctor is in some sense "inverse" to carrying out the Grothendieck construction in the other direction. But, in trying to get a good intuition for the nuances of non-splittable fibrations, I seem to be stumbling upon just in what sense this is so. For example, consider the nontrivial group homomorphism from Z (integer addition) to Z_2 (integer addition modulo 2); this gives us a non-splittable fibration (and, for that matter, an opfibration), for which a cleavage can be readily selected. No matter what cleavage is selected, the corresponding (contravariant) pseudofunctor from Z_2 to Cat, it would appear to me, is the one which sends the unique object in Z_2 to the subcategory of Z containing only even integers (let us call this 2Z), and which sends both of Z_2's morphisms to identity; thus, it is actually a genuine functor, and indeed, a "constant" functor. Applying the Grothendieck construction now, I would seem to get back the projection from Z_2 X 2Z onto Z_2. But can this really be equivalent to the fibration I started with? After all, Z and Z_2 X 2Z are very different groups. So either "equivalence" means something trickier here than I realize, or I keep making a mistake somewhere along the line. Either way, it'd be great if someone could help me see the light.
@@ -19,7 +31,10 @@ _Toby_:  So the multiplication is strictly associative, but the $2$-group itself
 [[Sridhar Ramesh]]: Ah, of course, that's what I was missing. Thanks, both of you; that clears it all up.
 =--
 
-# Definition #
+Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] are called **categories fibered in groupoids**.
+
+
+## Definition 
 
 Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **[[cartesian morphism|cartesian]]** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$.  We say that $p:E\to B$ is a **fibration** if for any $e\in E$ and $f:b\to p(e)$, there is a cartesian arrow $\phi:e'\to e$ with $p(\phi)=f$.
 
@@ -27,7 +42,7 @@ As a side note, we say that $\phi$ is _weakly cartesian_ if it has the property 
 
 We say that $p$ is an **opfibration** if $p^{op}:E^{op}\to B^{op}$ is a fibration.  Functors that are both fibrations as well as opfibrations are called **[[bifibration]]s**. Traditional term for opfibrations (especially in algebraic geometry) is cofibered category, and if the fibers are grupoids then also "category cofibered in groupoids" (SGA I, [[Higher Topos Theory]]). The complaints against this term were given by Gray and accepted by much of homotopy/category theory community. 
 
-Grothendieck originally called these "cofibered categories," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].  (Unfortunately, however, using the internal notion of fibration in a 2-category mentioned below, opfibrations are fibrations in the 2-cell dual $Cat^{co}$, while the fibrations in the 1-cell dual $Cat^{op}$ are more deserving of the name "opfibration.") Lurie's [[HIgher Topos Theory]] also says "category cofibered in groupoids" for what is here opfibration whose fibers are groupoids. 
+Grothendieck originally called these "cofibered categories," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].  (Unfortunately, however, using the internal notion of fibration in a 2-category mentioned below, opfibrations are fibrations in the 2-cell dual $Cat^{co}$, while the fibrations in the 1-cell dual $Cat^{op}$ are more deserving of the name "opfibration.") Lurie's [[Higher Topos Theory]] also says "category cofibered in groupoids" for what is here opfibration whose fibers are groupoids. 
 
 A square
 $$\array{E' & \to & E \\ \downarrow && \downarrow \\ B' &\to  & B}$$
@@ -38,7 +53,7 @@ Given a fibration $p:E\to B$, we obtain a pseudofunctor $B^{op}\to Cat$ by sendi
 Important special cases include when each fiber is a [[groupoid]], corresponding to pseudofunctors $B^{op}\to Grpd$, and when each fiber is a [[discrete category]], corresponding to functors $B^{op}\to Set$.  The latter case is called a **[[discrete fibration]]**.
 
 
-# Remarks #
+## Remarks 
 
 * If $p:E\to B$ is a fibration, then it is also an opfibration if and only if each functor $f^*$ has a left adjoint, written $f_!$ or $\Sigma_f$.  Such a fibration-and-opfibration is sometimes called a **bifibration**.  In many cases $f^*$ also has a right adjoint, written $f_*$ or $\Pi_f$, but this is not as easily expressible in fibrational language.
 
@@ -51,7 +66,7 @@ Important special cases include when each fiber is a [[groupoid]], corresponding
 * A [[stack]], being a particular type of pseudofunctor, can also be described as a particular sort of fibration.  This was the original application for which Grothendieck introduced the notion.
 
 
-# Examples #
+## Examples 
 
 * Let $Ring$ be the category of [[ring|rings]], and $Mod$ the category of pairs $(R,M)$ where $R$ is a ring and $M$ is a (left) $R$-module.  Then the evident forgetful functor $Mod\to Ring$ is a fibration and an opfibration.  The functors $f^*$ are given by restriction of scalars, $f_!$ is extension of scalars, and the right adjoint $f_*$ is coextension of scalars.
 
@@ -59,9 +74,9 @@ Important special cases include when each fiber is a [[groupoid]], corresponding
 
 * Let $C$ be any category and let $Fam(C)$ be the category of set-indexed families of objects of $C$.  The forgetful functor $Fam(C)\to Set$ taking a family to its indexing set is a fibration; the functors $f^*$ are given by reindexing.  They have left adjoints iff $C$ has small coproducts, and right adjoints iff $C$ has small products.
 
-# Variations #
+## Variations 
 
-## Non-evil version ##
+### Non-evil version 
 
 There is something [[evil]] about the notion of fibration, namely the requirement that for every $f:a\to b$ and $e\in E_b$ there exists a $\phi:e'\to e$ such that $p(e')$ is _[[equality|equal]]_, rather than merely [[isomorphism|isomorphic]], to $a$.  This is connected with the fact that we use strict fibers, rather than [[essential fiber]]s, and that fibrations and pseudofunctors can be recovered from each other up to isomorphism rather than merely equivalence.
 
@@ -77,27 +92,25 @@ While almost any fibration between "concrete" categories that arises in practice
 [[David Roberts]]: Duh, of course. The interesting bit of course comes when thinking about fundamental bigroupoids, where the parameterisations on the paths are preserved. I'd like to talk to you about some ideas on this line, but obviously on a more appropriate page, such as [[fibration of bigroupoids]].
 =--
 
-## Internal version ##
+### Internal version 
 
 In a [[strict 2-category]] $K$, a morphism $p:E\to B$ is called a fibration if for every object $X$, $K(X,E)\to K(X,B)$ is a fibration of categories, and for every morphism $f:Y\to X$, the square
 $$\array{ K(X,E) & \to & K(Y,E) \\ \downarrow && \downarrow \\ K(X,B) & \to & K(Y,B)}$$
 is a morphism of fibrations.  There is an alternate characterization in terms of [[comma object]]s and adjoints, see [[fibration in a 2-category]].  The same definition works in a [[bicategory]], as long as we use the non-evil version above.  Interpreted in [[Cat]] we obtain the explicit notion we started with.
 
-## Two-sided version ##
+### Two-sided version 
 
 A **two-sided fibration**, or a **fibration from $B$ to $A$**, is a span $A \leftarrow E \rightarrow B$ such that $E\to A$ is a fibration, $E\to B$ is an opfibration, and the structure "commutes" in a natural way.  Such two-sided fibrations correspond to pseudofunctors $A^{op}\times B \to Cat$.
 
 Note that such a pseudofunctor can also be represented by an opfibration $E_1\to A^{op}\times B$ and by a fibration $E_2\to A\times B^{op}$, but there is no simple relationship between the three categories $E$, $E_1$, and $E_2$.
 
-## Higher categorical versions ##
-
-There is a notion of Grothendieck fibration for [[quasi-category|quasicategories]] defined using lifting of fillers for certain simplicial spheres, used in work of Joyal and Lurie.  Applied to [[nerve|nerves]] of categories, it generalizes the original notion.
+### Higher categorical versions 
 
 There is also a notion of fibration for 2-categories that has been studied by Hermida.  See [[n-fibration]] for a general version.
 
-For [[(infinity,1)-category|(∞,1)-categories]] the notion of fibered category is modeled by the notion of [[Cartesian fibration]] of simplicial sets.
+For [[(∞,1)-category|(∞,1)-categories]] the notion of fibered category is modeled by the notion of [[Cartesian fibration]] of simplicial sets. The corresponding analog of the Grothendieck construction is discussed at [[(∞,1)-Grothendieck construction]].
 
-# References #
+## References 
 
 There are lots of references on fibrations; feel free to add your favorites!
 
@@ -114,3 +127,13 @@ There are lots of references on fibrations; feel free to add your favorites!
 [[!redirects Grothendieck opfibration]]
 [[!redirects Grothendieck cofibration]]
 [[!redirects opfibration]]
+
+[[!redirects fibered category]]
+[[!redirects fibred category]]
+[[!redirects fibered categories]]
+[[!redirects fibred categories]]
+
+[[!redirects category fibered in groupoids]]
+[[!redirects category fibred in groupoids]]
+[[!redirects categories fibered in groupoids]]
+[[!redirects categories fibred in groupoids]]
