@@ -12,6 +12,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-19 #
+
+* [[Urs Schreiber|Urs]]: 
+
+  * added a short section _Basic idea in three words_ to the beginning of [[geometric infinity-function theory]], as I noticed that this simple introductory statement was not sufficiently amplified in the existing introductory section
+
+  * thanks to [[Toby Bartels|Toby]] for (in particular) his editorial work! it doesn't go unnoticed, is much appreciated
+
+
 # 2009-05-18 #
 
 *  [[Todd Trimble]] has also created [[uniform space]] and [[ultrafilter theorem]].
