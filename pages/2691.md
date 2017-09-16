@@ -298,3 +298,4 @@ more on this).
 [[!redirects model structure on dg-rings]]
 [[!redirects model structure on dg-algebra]]
 [[!redirects Sullival algebra]]
+[[!redirects model structures on dg-algebras]]
