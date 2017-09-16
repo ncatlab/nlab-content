@@ -333,6 +333,9 @@ $$
   \,.
 $$
 
+## Monadic descent
+
+Since the codomain fibration $cod : [I,C] \to C$ is a [[bifibration]] when $C$ has all [[pullback]]s, there is a notion of [[monadic descent]] in this case. Details on this are at [monadic descent for codomain fibrations](http://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs).
 
 ## Categorification
 
