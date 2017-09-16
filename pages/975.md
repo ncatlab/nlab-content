@@ -38,6 +38,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[foundations]]
 
+  * [[ETCS]]
+
   * [[Grothendieck universe]]
 
 * [[category]]
@@ -324,6 +326,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[local isomorphism]]
 
+  * [[dense monomorphism]]
+
   * [[site]]
 
 
@@ -334,6 +338,12 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
   * [[sheaf]]
 
   * [[sheafification]]
+
+    * [[geometric morphism]]
+
+    * [[sheafification on Lawvere-Tierney topos]]
+
+    * [[IPC-property]]
 
 #18 Abelian Sheaves#
 
