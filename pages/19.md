@@ -61,7 +61,7 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 * The theory of categories as primitive mathematical [[universe]]s or [[space]]s (nothing as fancy as a [[topos]]). As a space, a category is a [[simplicial set]] such that the [[Segal map]]s are isomorphisms. The simplicial set is the [[nerve]] of the category.
 
 
-+-- {: .query}
+  +-- {: .query}
 
   Rafael: Preferrably as some 1D CW-complex that i am trying to figure out. Can someone fill that in.
 
@@ -84,15 +84,15 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
   Another by the way: the characterization theorem of simplicial sets that are nerves of categories is given at [[nerve]]. Maybe the paragraph above that we are talking about here should just read as follows:
 
-* Categories can be conceived as [[simplicial set]]s with a special [[stuff, structure, property|property]]. This property is described at [[nerve]], since simplicial sets that have this property are called [[nerve]]s of categories. 
+    * Categories can be conceived as [[simplicial set]]s with a special [[stuff, structure, property|property]]. This property is described at [[nerve]], since simplicial sets that have this property are called [[nerve]]s of categories. 
 
   This description is useful in that it opens a useful road to [[higher category theory]] in terms of [[geometric definition of higher category]]. Generally, a [[simplicial model for weak omega-categories]] is a characterization of [[simplicial set]]s with certain properties that generalize those of [[nerve]]s of ordinary categories.
 
   This is particularly well known for the case that the higher categories in question are [[infinity-groupoid]]s. These are modeled by simplicial sets that have the property that they are [[Kan complex]]es.
 
-That would be a suggestion. I must say I don't feel that the sentence "The theory of categories as primitive mathematical universes or spaces (nothing as fancy as a topos)." tells me anything. I'd suggest to either remove it completely or figure out what it means to say and then say it in somewhat different words.
+  That would be a suggestion. I must say I don't feel that the sentence "The theory of categories as primitive mathematical universes or spaces (nothing as fancy as a topos)." tells me anything. I'd suggest to either remove it completely or figure out what it means to say and then say it in somewhat different words.
 
-=--
+  =--
 
 
 * A unifying tool and language in [[mathematics]].
