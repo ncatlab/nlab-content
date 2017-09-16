@@ -16,13 +16,15 @@ But Grothendieck has had not only the descent for quasicoherent sheaves but also
 
 >([[Zoran Skoda|Zoran]]: we should find an exact reference from EGA or so for the descent for affine schemes). 
 
-Moreover this has also a crystalline version: **crystals of affine schemes**. This corresponds to a nonlinear version of D-modules, called **D-schemes** . As D-modules correspond to solutions of systems of linear differential equations, D-schemes correspond to systems of nonlinear ones. One has also analytic version (analytic D-spaces).
+Moreover this has also a crystalline version: **crystals of affine schemes**. This corresponds to a nonlinear version of D-modules, called **D-schemes** (also called [[diffieties]] by Vinogradov). As D-modules correspond to solutions of systems of linear differential equations, D-schemes correspond to systems of nonlinear ones. One has also analytic version (analytic D-spaces).
 
 ## Related entries and references
 
 * [[Grothendieck connection]], [[D-module]]
 
 * Notes in Gaitsgory's seminar [pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)
+
+* Beilinson, Drinfeld, Chiral Algebras contains a section on D-schemes.
 
 
 
