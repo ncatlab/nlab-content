@@ -150,3 +150,28 @@ The subject as it develops from this point on is a little like doing [[different
 ## Gallery ##
 
 __NB.__ I'll be using this area to test the remote images and upload the local images that I'll be inserting as the article develops.  ---[[JA]]
+
+Template ---
+
+       [[mypic.jpg|alt text:pic]]
+
+Uploads ---
+
+[[Cactus_Graph_Lobe_Connective.jpg|Cactus Graph Lobe Connective:pic]]
+
+[[Cactus_Graph_Node_Connective.jpg|Cactus Graph Node Connective:pic]]
+
+[[Cactus_Graph_Existential_P_And_Q.jpg|Cactus Graph Existential P And Q:pic]]
+
+[[Venn_Diagram_P_And_Q.jpg|Venn Diagram P And Q:pic]]
+
+[[Cactus_Graph_lPcdPrlQcdQr.jpg|Cactus Graph (P,dP)(Q,dQ):pic]]
+
+[[Cactus_Graph_lPcdPr.jpg|Cactus_Graph_(P,dP):pic]]
+
+[[Cactus_Graph_llPcdPrlQcdQrcPQr.jpg|Cactus Graph ((P,dP)(Q,dQ),PQ):pic]]
+
+[[Cactus_Graph_ll_cdPrl_cdQrc_r.jpg|Cactus Graph (( ,dP)( ,dQ), ):pic]]
+
+[[Cactus_Graph_lldPrldQrr.jpg|Cactus Graph ((dP)(dQ)):pic]]
+
