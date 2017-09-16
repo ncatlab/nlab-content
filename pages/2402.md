@@ -86,11 +86,11 @@ Despite these examples, in a lot of cases the functors are not representable. We
 
 Why are [[fine moduli space]]s desireable?
 
-They allow us to study a _single_ family which tells us universal things about all families. Even if you do not care about families or deformations, moduli spaces can help, because they can tell you something about trivial families, i.e. the objects that you are studying to begin with.
+They allow us to study a _single_ family which tells us universal things about all families. Even if you do not care about families or deformations, moduli spaces can help, because perhaps they can tell you something about trivial families, i.e. the objects that you are studying to begin with.
 
-**example** studying the [[cohomology ring]]s of $Gr_n(\mathbb{R}^\infty)$ or $Gr_n(\mathbb{C}^\infty)$, which are the classifying space for higher rank real and complex [[vector bundle]]s gives universal relations among [[Chern class]]es, etc.
+**example** studying the [[cohomology ring]]s of $Gr_n(\mathbb{R}^\infty)$ or $Gr_n(\mathbb{C}^\infty)$, which are the classifying space for higher rank real and complex [[vector bundle]]s gives universal relations (or, rather, the lack thereof!) among [[Chern class]]es, etc.
 
-Let's look at [[elliptic curve]]s (work over $\mathbb{C}$).
+Let's look at [[elliptic curve]]s (we'll work over $\mathbb{C}$).
 
 the functor of families here is 
 
@@ -186,7 +186,7 @@ so that gives some computational insight that something goes wrong
 This argument does not yet prove that there exists no moduli space of elliptic curves. It merely proves that the "j-line" $\mathbb{A}^1$ can not be the moduli space of elliptic curves. 
 However, the basic argument can be adapted, if one so desires, to in fact prove that there is no moduli space of elliptic curves. 
 
-In fact, below we will see (in an exerciss), that the $j$-line _is_ a [[coarse moduli space]], as explained below. Since fine moduli spaces,  if they exist, are also coarse moduli spaces, and the $j$-line is a coarse but not a fine moduli space by the above argument, it follows that no fine moduli space exists,
+In fact, below we will see (in an exercise), that the $j$-line _is_ a [[coarse moduli space]], as explained below. Moreover, if a coarse moduli space exists, then it is unique up to canonical isomorphism. Since fine moduli spaces, if they exist, are also coarse moduli spaces, and the $j$-line is a coarse but not a fine moduli space by the above argument, it follows that no fine moduli space exists.
 
 **Abstract argument** Yet another, more abstract way, to see that no fine moduli space can exist it to realize that since elliptic curves have nontivial automorphisms, it is possible to construct families of elliptic curves that are locally trivial families (of the form $U \times E \to U$ for a fixed elliptic curve $U$) but which are glued together from these local pieces using nontrivial automorphisms such that the resulting family $V \to X$ is not globally trivial, i.e. not globally of the form $E \to X \to X$.
 
@@ -199,7 +199,7 @@ However, one has to be careful with interpreting this slogan correctly. Taken na
 
 **How to "fix" these problems**. 
 
-1. add extra structure to the objects under consideration (add marked points)
+1. add extra structure to the objects under consideration (e.g. add marked points) to make the automorphism groups trivial.
 
 2. instead of looking for representing [[topological space]]s, look for representing [[groupoid]]s / [[stack]]s.
 
@@ -209,11 +209,13 @@ However, one has to be careful with interpreting this slogan correctly. Taken na
  
    b) given $M'$ and $\Psi_{M'} : F \to h_{M'}$ then there exists unique $M \to M'$ such that $\array{ F && \stackrel{\Psi_{M'}}{\to}&& h_{M'} \\ & {}_{\Psi_M}\searrow && \nearrow \\ && h_M} $
 
-   so a [[coarse moduli space]] is one that at least has the right underlying set of points as the _right_ [[moduli stack]] has: as long as we don't look at families but just at single things, it does give the right classification.
+So a [[coarse moduli space]] is one that at least has the right underlying set of points as the _right_ [[moduli stack]] has: as long as we don't look at families but just at single things, it does give the right classification.
 
 
 
-**exercise** show that the $j$-line $\mathbb{A}^1$ _is_, while not a [[fine moduli space]], a [[coarse moduli space]]
+**exercise** show that the $j$-line $\mathbb{A}^1$ _is_, while not a [[fine moduli space]], a [[coarse moduli space]].
+
+**exercise** Show that if a coarse moduli space exists, then it is unique up to canonical isomorphism.
 
 **fact** there exists a [[coarse moduli space]] $M_{g,n}$ of [[Riemann surface]]s of [[genus]] $g$ with $n$ marked points and a [[fine moduli stack]] $M_{g,n}$ such that for all $g,n$ we have
 
@@ -221,11 +223,11 @@ $M_{g,n}$ is a [[smooth scheme|smooth]] [[Deligne-Mumford stack]] - aka [[orbifo
 
 **except** for $(g,n) =$ $(0,0), (0,1), (0,2), (1,0)$ (these are the cases where the [[automorphism group]] is infinite, so in these cases we don't get a [[Deligne-Mumford stack]])
 
-**Issues**:
+**"Issues"**:
 
 1. $M_{g,n}$ is not proper, meaning: not compact, so we don't have, for example, [[Poincare duality]] on $M_{g,n}$ and no [[integration]] theory. Proper, or even better projective, schemes or stacks are just a lot easier to deal with.
 
-2. sometimes one wants to study singular curves or families with degeneracies.
+2. Sometimes one wants to study singular curves or families with degeneracies.
 
 Both "issues" can be "resolved" via [[Deligne-Mumford compactification]].
 
@@ -233,21 +235,21 @@ $$
   \bar M_{g,n}
 $$
 
-which parameterizes at-most-nodal curves, that are connected, arithmetic [[genus]] $g$, with $n$ smooth marked points, and the group of [[automorphism]]s is finite.
+which parameterizes at-most-nodal curves, that are connected, of arithmetic [[genus]] $g$, with $n$ smooth marked points, and the group of [[automorphism]]s is finite.
 
 $\bar M_{g,n}$ is a smooth proper [[Deligne-Mumford stack]].
 
 smooth here means smoothness as for [[orbifold]]s.
 
-Deligne and Mumford were able to prove many theorems about the ordinary moduli space of curves by studying instead the compactification.
+Deligne and Mumford were able to prove many theorems about the ordinary moduli space of curves by studying instead the compactification. For example they were able to prove that $M_{g,n}$ is irreducible.
 
 
 
 #Intro Part II: basics of Gromov-Witten theory{#intropart2}
 
-**Gromov** was looking for invariants of [[symplectic manifold]]s: he used $J$-holomorphic curves in compact symplectic manifolds to get symplectic invariants
+**Gromov** was looking for invariants of [[symplectic manifold]]s: his idea was to use $J$-holomorphic curves in compact symplectic manifolds to get symplectic invariants
 
-**[[Edward Witten]]** studied [[worldsheet]]s of [[string theory|string]]s in some [[spacetime]] [[manifold]] (e.g a [[Calabi-Yau space|Calabi-Yau 3-fold]])
+**[[Edward Witten]]** and other physicists studied [[worldsheet]]s of [[string theory|string]]s in some [[spacetime]] [[manifold]] (e.g a [[Calabi-Yau space|Calabi-Yau 3-fold]])
 
 we want to consider now [[genus]] $g$ [[Riemann surface]]s with $n$ marked points mapping into some space $X$
 
@@ -276,7 +278,7 @@ $$
   \,.
 $$
 
-this is a smooth [[Deligne-Mumford stack]]. (Again we must exclude the cases of small $(g,n)$.)
+this is a smooth [[Deligne-Mumford stack]]. (Again we must exclude the cases of small $(g,n)$. Excluding these cases, the automorphisms of the surfaces and the automorphisms of the maps are automatically finite.)
 
 similarly, write $\bar M_{g,n}(X,\beta)$ for the same setup but with $\Sigma$ from $\bar M_{g,n}$ as above in part 1 (the DM compactified moduli stack). EXCEPT here we do not require that $\Sigma$ (with its $n$ marked points) has finite automorphism group; we require instead that the MAP has finite automorphism group, which means.......(fill in)
 
@@ -306,9 +308,13 @@ $$
   \mathbb{C}
 $$
 
-**string theorists conjectured** : there exists a virtual fundamental class $[\bar M_{g,n}(x,\beta)]^{virtual}$ that makes the maps above into the [[correlation function]]s of a [[quantum field theory]] (the integral would be the [[path integral]] of the [[worldsheet]] [[sigma-model]]) with state space $H^\ast(X)$.
+There should be a virtual fundamental class $[\bar M_{g,n}(x,\beta)]^{virtual}$ that makes the maps above into the [[correlation function]]s of a [[quantum field theory]] (the integral would be the [[path integral]] of the [[worldsheet]] [[sigma-model]]) with state space $H^*(X)$. We'll explain some of what this means below.
 
-Why do we want to use a "virtual" fundamental class? Because \bar M_{g,n}(x,\beta) is not smooth, the actual fundamental class may not behave very well.
+This virtual fundamental class in algebraic geometry was constructed by Behrend-Fantechi; in symplectic geometry it was done by Li-Tian.
+
+Why do we want to use a "virtual" fundamental class? Because \bar M_{g,n}(x,\beta) is not smooth, the actual fundamental class may not behave very well. **NEEDS ELUCIDATION -- it would be nice if someone could give a more complete explanation of why we need a _virtual_ fundamental class**
+
+
 
 the mathematical structure of GW-theory was elucidated Ruan and then by [[Maxim Kontsevich]] and Manin in 1994.
 
@@ -373,7 +379,7 @@ $$
    H^\bullet(X)^{\otimes n_1 + 1}
    \otimes
    H^\bullet(X)^{\otimes n_2 + 1}    
-   &\stackrel{I_{g_1,n_1+1} \otimes I_{g_2,n_2+1}}{\to}&
+   &\stackrel{\sum_{\beta_1+\beta_2 = \beta}I_{g_1,n_1+1,\beta_1} \otimes I_{g_2,n_2+1,\beta_2}}{\to}&
    H^{\bullet}(\bar M_{g_1,n_1+1}) \otimes H^\bullet (\bar M_{g_2,n_2+1}))
    }
   $$
@@ -398,7 +404,7 @@ $$
 
 so this diagram above says that this satisfies the [[sewing law]]s that defines a [[quantum field theory]].
 
-There are various other axioms that Gromov-Witten theory must satisfy, but the sewing law above is the most important. The hard part of all of this is constructing the virtual fundamental class, and then proving that this class indeed makes the sewing law and the other axioms satisfied.
+There are various other axioms that Gromov-Witten theory must satisfy, but the sewing law above is the most important. The hard part of all of this is constructing the virtual fundamental class, and then proving that this class indeed makes the sewing law and the other axioms (which I have omitted) satisfied.
 
 The above discussion does not yet reveal much of the rich structure of Gromov-Witten invariants. But GW invariants indeed have a very rich and beautiful mathematical structure. Indeed, if we look at just the easiest part of the theory, namely g=0, we are lead to quantum cohomology and Frobenius manifolds. 
 
