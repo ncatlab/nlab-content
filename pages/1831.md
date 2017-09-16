@@ -60,3 +60,7 @@ Definition 2.4.2.1 in
 [[!redirects coCartesian fibration]]
 [[!redirects co-cartesian fibration]]
 [[!redirects cocartesian fibration]]
+[[!redirects cartesian fibrations]]
+[[!redirects coCartesian fibrations]]
+[[!redirects co-cartesian fibrations]]
+[[!redirects cocartesian fibrations]]
