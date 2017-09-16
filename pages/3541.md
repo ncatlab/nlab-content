@@ -110,6 +110,9 @@ Notice that the identity map is clearly completely positive and trace preserving
 [[Ian Durham]]: If the objects are the set of linear operators on the Hilbert space in question, is $QChan$ small?  Or, if we could make sub-categories of QChan for sets of linear operators of different dimension, could we then use these to make a commutative square?
 
 [[David Roberts]]: Let me be the first to say that I'm not sure what you're asking with regard to the commutative square. But there are certainly subcategories $QChan_n$ with the only object $Mat(n \times n, \mathbb{C})$. More natural would be to allow arbitrary $End(V)$ where $V$ is an $n$-dimensional $\mathbb{C}$-vector space, as then different $V$ could correspond to different representations, say. But in respect of the next comment box, I don't think that this was the category you were after, so this may be a moot point. Unfortunately I don't know enough relevant physics to make that call.
+
+[[Urs Schreiber]]: there is one object of $QChan$ per element $n$ of the set of natural numbers, namely the vector space $Mat(n \times n, \mathbb{C})$. So $QChan$ has a _set_ of objects, namely $Obj(QChan) \simeq \mathbb{N}$ and hence is certainly a [[small category]]. (I don't know which commuting squares are meant.)
+
 =--
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
@@ -120,6 +123,9 @@ Notice that the identity map is clearly completely positive and trace preserving
 [[David Roberts]]: I was thinking that perhaps the objects of the category were the vector/Hilbert spaces, and the arrows were the completely positive and trace-preserving maps between the matrix algebras. In this instance, the category theoretical content seems that it would be more detailed than \'it\'s just a subcategory of Vect\'.
 
 [[Ian Durham]]: Yes!  That was what my original plan was.  The idea was that it would be possible to create a monoid if the input and output Hilbert space was the same which would give it possibly interesting group theoretic properties (namely Cayley's theorem which would potentially allow me to find some morphism to unitaries which we like in quantum mechanics because they describe system evolution).
+
+[[Urs Schreiber]]: certainly the quantum channels that go $Mat(n \times n , \mathbb{C}) \to Mat(n \times n, \mathbb{C})$ form a monoid. This is the endomorphism monoid $End_{QChan}(n)$ in $QChan$ on the object $n$, i.e. on the object $Mat(n \times n , \mathbb{C})$.
+
 =--
 
 ## References
