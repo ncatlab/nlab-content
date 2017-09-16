@@ -28,3 +28,5 @@ Second: bimodules are not that much good unless you can compose them; for that o
   =--
 
 * Let $V = Vect$ and let $C = \mathbf{B}A_1$ and $D = \mathbf{B}A_2$ be two one-object $Vect$-enriched categories, whose endomorphism vector spaces are hence [[algebra]]s. Then a $C$-$D$ bimodule is a vector space $V$ with an action of $A_1$ on the left and and action of $A_2$ on the right.
+
+[[!redirects bimodules]]
