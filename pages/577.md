@@ -100,3 +100,5 @@ In this sense, a cartesian monad is really *locally* cartesian.
 ## Discussion ##
 
 Some past discussion about the term 'cartesian' has been moved to [[locally cartesian category]].
+
+[[!redirects cartesian monads]]
