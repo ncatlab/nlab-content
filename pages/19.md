@@ -371,3 +371,5 @@ Todd: I think Zoran's basically right. The phrase is believed to have been coine
 [[!redirects abstract nonsense]]
 [[!redirects general abstract nonsense]]
 [[!redirects applied category theory]]
+[[!redirects precursors]]
+[[!redirects Precursors]]
