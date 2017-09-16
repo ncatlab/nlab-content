@@ -38,6 +38,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
     to [[Bruce Bartlett]]: I think on that particular page we don't want query boxes, as that page is supposed to provide quick unambiguous information that tries to deconfuse people instead of to confuse them -- please see my reply and check if you can work something into the paragraph right before the query box that allows to remove that query box
 
+    [[Andrew Stacey]] I concur, but couldn't delete the query box as I made a remark in it and so if I delete the box _now_ then that would permanently remove that remark.  Someone else could do it (or I could in half an hour's time).
+
 * [[David Corfield]]: Started [[Lambda-ring]] with some Baezian exposition and an abstract of James Borger. Hmm, is there a difference between $\lambda$-ring and $\Lambda$-ring? This [paper](http://wwwmaths.anu.edu.au/~borger/papers/03/lambda.pdf) uses both.
 
   * [[Urs Schreiber]]: thanks, David, I was hoping you would
