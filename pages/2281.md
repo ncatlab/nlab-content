@@ -8,4 +8,6 @@
 
 * [[history of cohomology with local coefficients]]
 
-category: people
+category: biography
+
+[[!redirects Sammy Eilenberg]]
