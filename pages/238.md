@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * fixed the mistake at [[interval object]] that [[Toby Bartels|Toby]] spotted and added a little bit of dicussion
+
   * added Berger-Moerdijk's definition to [[interval object]]
 
 * [[Toby Bartels]]:
