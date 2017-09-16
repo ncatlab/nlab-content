@@ -14,7 +14,7 @@ Motivic cohomology was for a long time a hypothetical [[cohomology]] theory of [
 
 Several different realizations of this hypothetical cohomology theory have been proposed:
 
-1. The proposal due to Morel (?) based on Morel-Voevodsky's [[A1-homotopy theory]] effectively identifies motivic cohomology with the cohomology as given in the [[(∞,1)-topos]] $\mathbf{H}_{Nis}$ of [[∞-stack]]s on the [[Nisnevich site]], following the general notion of [[cohomology]] (as described there): for $X$ a [[scheme]] and $A \in \mathbf{H}_{Nis}$ some coefficient object, the motivic cohomology of $X$ with coefficients in $A$ is the connected components of the [[derived hom space|(∞,1)-categorical hom-space]] of morphisms from $X$ to $A$:
+1. The proposal due to Morel and Voevodsky, based on Morel-Voevodsky's [[A1-homotopy theory]] effectively identifies motivic cohomology with the cohomology as given in the [[(∞,1)-topos]] $\mathbf{H}_{Nis}$ of [[∞-stack]]s on the [[Nisnevich site]], following the general notion of [[cohomology]] (as described there): for $X$ a [[scheme]] and $A \in \mathbf{H}_{Nis}$ some coefficient object, the motivic cohomology of $X$ with coefficients in $A$ is the connected components of the [[derived hom space|(∞,1)-categorical hom-space]] of morphisms from $X$ to $A$:
 
    $$
      H_{motivic}(X,A)  = \pi_0 \mathbf{H}_{Nis}(X,A)
@@ -75,15 +75,15 @@ The [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(Nis)$ naturally is a [[lined
  
 Accordingly, by the general reasoning discussed at [Cohomology -- Gradings](http://ncatlab.org/nlab/show/cohomology#Grading), in $\mathbf{H}$ there are two kinds of 1-[[spheres]]
 
-* the **categorical 1-sphere** $S^1 = \Delta^1/\partial \Delta^1$;
+* the **categorical 1-sphere** $S^1 = \Delta^1/\partial \Delta^1$, i.e. the $\infty$-stack obtained by $\infty$-stackification from the presheaf constant on the [[groupoid]] $\mathbf{B}\mathbb{Z} = {*}//\mathbb{Z}$;
 
-* the **geometric 1-sphere** $S^1_{\mathbb{A}^1} := \mathbb{G}_m$ (the multiplicative group inside $\mathbb{A}^1$);
+* the  **geometric 1-sphere** $S^1_{t} := \mathbb{A}^1 - \{0\} = \mathbb{G}_m$ (the multiplicative group inside $\mathbb{A}^1$);
 
 whose [[smash product]] is called 
 
-* the **Tate sphere** $T := \mathbb{P}^1 := S^1 \wedge S^1_{\mathbb{A}^1}$
+* the **Tate sphere** $T := \mathbb{P}^1 := S^1 \wedge S^1_{\mathbb{A}^1}$ which is equivalent to $\cdots \simeq \mathbb{A}^1 / (\mathbb{A}^1 - \{0\})$;
 
-and which induce a **[bigrading on cohomology](http://ncatlab.org/nlab/show/cohomology#BiGrading):
+(e.g. [MoVo98, p. 79](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf#page=79)) and which induce a **[bigrading on cohomology](http://ncatlab.org/nlab/show/cohomology#BiGrading):
 
 $$
   H^{p,q}(X, A) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{\mathbb{A}^1}^{q} A)
@@ -93,7 +93,7 @@ $$
 For instance for $A = H(\mathbb{Z})$ the [[Eilenberg-MacLane object]] (discussed more in detail below), one writes
 
 $$
-  H^{p,q}(X, \mathbb{Z}) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{\mathbb{A}^1}^{q} H(\mathbb{Z}))
+  H^{p,q}(X, \mathbb{Z}) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{t}^{q} H(\mathbb{Z}))
   \,.
 $$
 
