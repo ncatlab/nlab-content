@@ -4,7 +4,8 @@ According to the general pattern on [[(n,r)-category]], an $(\infty,1)$-category
 
 To some extent an $(\infty,1)$-category can be thought of as a [[enriched category|category enriched in]] [[(infinity,0)-category|(infinity,0)]]-categories, namely in [[infinity-groupoid]]s.
 
-See [[Higher Topos Theory]] for more.
+For a discussion of the motivation and purpose of $(\infty,1)$-categories see [[why (infinity,1)-categories?]].
+
 
 #Definition#
 
