@@ -85,3 +85,5 @@ There is also the notion of free 2-category generated from a 2-computad, and thi
 [[Mike Shulman]]: Yeah, I'm with Todd; it seems strange to me to try to specify which diagrams *don't* commute instead of which ones *do*.
 
 I'm not sure if this is quite what you were thinking of with "a category with non-commuting paths [i.e. a category that isn't a preorder] is secretly a non-trivial 2-category somehow", but it's not true that you can make a 2-category out of a category by putting a 2-cell between any two unequal parallel arrows.  For one, there would be no identity 2-cells (since an arrow *is* equal to itself), and for two, you can't compose inequalities; if $f\neq g$ and $g\neq h$ it can still be that $f=h$.
+
+[[David Roberts]]: I like the idea about the fundamental category of a 2-computad - I have some examples of things up my sleeve that I think this (and the next level up - the fundamental bicategory of a 3-computad) would very accurately describe. One of which is the localisation of a (small) category. Even more interesting for me would be the comparison with [[directed homotopy]], especially if the 2-cells are not invertible.
