@@ -37,7 +37,7 @@ In the [[string theory|string theoretic]] applications the extension of the loca
 
 Useful references are at [[vertex operator algebra]].
 
-The special case of _rational_ conformal field theory has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--Runkel--Schweigert
+The special case of _rational_ conformal field theory has been essentially entirely formalized and classified. The classification result for full rational 2d CFT was given by Fjelstad--Fuchs--[[Ingo Runkel|Runkel]]--Schweigert
 
 * [FRS reviews](http://golem.ph.utexas.edu/string/archives/000747.html)
 
