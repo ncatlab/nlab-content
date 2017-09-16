@@ -61,6 +61,10 @@ I find _Mathematics of Multisets_ especially interesting for its distinction bet
 
 Normally, one only needs multisubsets of a given set, and one is not interested in functions between them.  But if one wants to make a category of abstract multisets, then the pure and impure versions are different!
 
+[[Mike Shulman]]: Whereas his definition makes the category of multisets equivalent to $Set^{\mathbf{2}}$.  Is that better?
+
+I don't find it wrong that the category of multisets would be equivalent to $Set$, since $Set$ only sees "structural" properties of sets, and the fact that two elements of a set are "the same" (which is what distinguishes $\{1,1\}$ from $\{2,3\}$) is a nonstructural property that only makes sense in the context of sub-multisets of some ambient set.
+
 ## Examples
 
 ...
