@@ -15,7 +15,7 @@
 
 * [[On the Classification of Topological Field Theories]] ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
-* [[(infinity,n)-category|(infinity,2)-categories]] ([pdf](http://www-math.mit.edu/~lurie/papers/bicat.pdf))
+* [[(infinity,2)-category|(infinity,2)-categories]] ([pdf](http://www-math.mit.edu/~lurie/papers/bicat.pdf))
 
 
 category: biography
