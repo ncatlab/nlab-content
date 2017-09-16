@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-12
 
+* [[Mike Shulman]]: A question about the [[Crans-Gray tensor product]].
+
 *  [[Toby Bartels]]:
    *  Broke [[undirected object]] off of [[directed object]] as planned.  Discussion stayed at [[directed object]], even though it discusses both concepts (and that of a [[directed space]]).
    *  Finally wrote [[full subcategory]] and directed links to it.
