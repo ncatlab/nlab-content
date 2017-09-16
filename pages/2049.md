@@ -46,19 +46,19 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         1.  [[directed poset]], [[directed join]]
         2.  (none)
         3.  [[suplattice]], [[complete lattice]]
-        4.  [[complete Boolean algebra]]; [[SemiLat]]
-        5.  [[SupLat]]
-        6.  [[Lat]]
-        7.  [[CompLat]]
-        8.  [[DistLat]]
-        9.  [[BoolAlg]]
-        10. [[CompBoolAlg]]
-        11. [[HeytAlg]]
+        4.  [[complete Boolean algebra]]; [[free semilattice]]
+        5.  [[free suplattice]]
+        6.  [[free lattice]]
+        7.  [[free complete lattice]]
+        8.  [[free distributive lattice]]
+        9.  [[free boolean algebra]]
+        10. [[free complete boolean algebra]]
+        11. [[free Heyting algebra]]
 2.  Introduction to locales
 
     1.  Frames and locales
         1.  [[frame]], [[locale]], [[subframe]]
-        2.  $Frm$ is monadic
+        2.  [[free frame]]
         3.  [[point]] (of a locale), [[completely prime filter]], [[prime element]]
         4.  adjunction between $Loc$ and $Top$
         5.  [[atom]], [[spatial locale]]
