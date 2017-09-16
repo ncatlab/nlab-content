@@ -14,6 +14,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-23 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * have a reply at [[local system]]
+
+  * found time to work a bit more on [[Lie infinity-algebroid representation]]
+
+    * request to [[Tim Porter|Tim]] and others: there is naturally a kind of "twisting function" appearing there. One aim of my presentation is not to postulate it, but to derive that it arises from a (co)fibration of DGCAs. I am thinking that all the [[twisting function]]s and [[twisting cochain]]s should have such a _conceptual_ definition, from which one derives the usual component-wise definition by unravelling the component-wise mechanisms. I think here on the $n$Lab we should try to find and give conceptual categorical explanations as far as possible. My personal feelling is that all discussion of "twisting cochains" and related phenomena would become considerably clearer and less confusing if one had this.
+
 *  [[Toby Bartels]]:  Please note that there are no actual links to [[Differential Nonabelian Cohomology]] (except this one just now).  That there appear to be is actually a bug in Instiki (which I haven\'t bothered to report to Jacques yet).
 
 * [[Tim Porter|Tim]]:  
