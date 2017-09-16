@@ -1,11 +1,37 @@
 
-The [[category]] $Ho(Top)$ is the [[homotopy category]] of [[Top]] with respect to [[category with weak equivalences|weak equivalences]] given by [[weak homotopy equivalence]]s.
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-The study of $HoTop$ was the motivating example of [[homotopy theory]]. Often $HoTop$ is called _the_ homotopy category.
+## Definition
 
-Notice the distinction between $Ho(Top)$ for [[Top]] regarded as the category of _all_ [[topological space]]s and that for [[Top]] regarded only as the subcategory on spaces of the [[homotopy type]] of a [[CW-complex]]. By the [[homotopy hypothesis]] the latter is equivalent for instance to the [[homotopy category]] $Ho(sSet_{Quillen})$ of the standard [[model structure on simplicial sets]]. 
+By $Ho(Top)$ one means a [[homotopy category]] of [[Top]] with respect to [[category with weak equivalences|weak equivalences]] given 
 
-The category $Ho(Top)$ of _all_ topological spaces can be studied by testing its objects with objcts from $Ho(sSet_{Quillen}) \simeq Ho(CWCplx)$. This is the topic of [[shape theory]].
+* either by [[homotopy equivalence]]s -- $Ho(Top)_{he}$.
+
+* or by [[weak homotopy equivalence]]s -- $Ho(Top)_{whe}$.
+
+Depending on context here [[Top]] contains all topological spaces or is some subcategory of [[nice topological space]]s.
+
+The study of $Ho(Top)$ was the motivating example of [[homotopy theory]]. Often $Ho(Top)$ is called _the_ homotopy category.
+
+## Compactly generated spaces
+
+Let now $Top$ denote concretely the category of [[compactly generated space|compactly generated]] [[weakly Hausdorff space]]s. And Let $CW$ be the subcategory on [[CW-complex]]es. We have $Ho(CW)_{whe} = Ho(CW)_{he} = Ho(CW)$.
+
+There is a functor
+
+$$
+  Top \to Ho(CW)
+$$
+
+that sends each topological space to a weakly homotopy equivalent CW-complex.
+
+By the [[homotopy hypothesis]]-theorem $Ho(CW)$ is equivalent for instance to the [[homotopy category]] $Ho(sSet_{Quillen})$ of the standard [[model structure on simplicial sets]]. 
+
+## Shape theory
+
+The category $Ho(Top)_{he}$ of can be studied by testing its objects with objcts from $Ho(CW)$. This is the topic of [[shape theory]].
 
 category: category
 
