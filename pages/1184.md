@@ -12,7 +12,7 @@ Sometimes one wants $S$ to have a [[total order]] $\preceq$ instead of a linear 
 
 With this in mind, we may equivalently define a well order on $S$ to be a total order $\preceq$ such that every [[inhabited set|inhabited subset]] has a lowest element.  That is, for all $U \subset S$ with $U \neq \emptyset$ there exists $\bottom_U \in U$ such that for all $u \in U$ we have $\bottom_U \leq u$.  (Again, in constructive mathematics, this will not work; indeed, it\'s not possible to prove constructively the existence of any well order, in this sense, on any set with at least $2$ elements.)
 
-A set equipped with a well order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well order' is a back formation.  Accordingly, many writers spell this noun as 'well-order', the cringes of grammarians notwithstanding.
+A set equipped with a well order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well order' is a back formation.  Accordingly, most writers spell this noun as 'well-order', the cringes of grammarians notwithstanding.
 
 +--{: .query}
 I for one would be happy to move this to [[well order]].  Indeed, when I began rewriting it, I naturally used that spelling until I got to the paragraph above.  ---Toby
@@ -30,6 +30,8 @@ _Toby_:  The adjective 'well' doesn\'t only mean healthy, it also means good in 
 But I still think that we can regain grammatical propriety in the back formation by *reinterpreting* 'well' as an adjective and removing the hyphen.  (I suppose that there\'s also the point of view that 'well-ordering' in the gerund of the verb 'to well-order', meaning the same as 'to order well', so that we should use that.)
 
 _Mike_: I think the real problem is that "well-ordered" was a bad choice of terminology to begin with.  But rather than try for complete grammatical propriety I think it is probably better to accord with the most common usage, which may be to include the hyphen.
+
+_Toby_:  I\'m certain that 'well-order' is more common than 'well order' (although the latter does appear sometimes).  But I\'m not sure about 'well-ordering', which is a little better grammatically.  (Unless you want to follow that up, feel free to delete this query box now.)
 =--
 
 # Examples #
