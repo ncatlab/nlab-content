@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-14 #
+
+*  [[Toby Bartels]]:  I started a new category, `foundational axiom`, in which I put the pages that contain axioms that one might (or might not) want in one [[foundations]] of mathematics.  That way, anyone with opinions on the matter can check them to see that one\'s views are represented.  (A few don\'t really have much in the way of an axiom right now, but one could be added or noted there.)  This does not include things like the axioms for a [[group]], but rather axioms for [[set theory]] (or other foundational theory).  (Although [[set theory]] itself I don\'t think should really be included, but [[ETCS]] is in there.)
+
 #2009-04-13
 
 * [[Mike Shulman|Mike]]: Did some massaging of [[well-order]], [[well-ordering theorem]], [[well-founded relation]], [[choice object]], and [[axiom of choice]], and created [[extensional relation]].
