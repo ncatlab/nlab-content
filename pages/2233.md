@@ -61,6 +61,10 @@ This suggests that one can see ETQFTs as $C$-valued representations of $n Cob_m$
 _Rafael_: I obviously used a linear category in the definition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
 =--
 
++-- {: .query}
+Domonico Fiorenza has [a question about this definition](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=468) on the Forum.
+=--
+
 #Examples#
 
 $m=2$ gives ordinary [[TQFT]].
