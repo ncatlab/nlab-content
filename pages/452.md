@@ -1,16 +1,15 @@
 #Ideas#
 
-*  A _crossed module_ (of groups) is like the inclusion of a normal subgroup, but isn\'t a subgroup.
+A _crossed module_  is:
+*  like the inclusion of a [[normal subgroup]], but isn\'t (even a crossed module of groups) a subgroup;
+*  like a [[module]] with a twisted 'multiplication';
+*  like the action of automorphisms on a group;
+*  a [[crossed complex]] concentated in degrees $1$ and $2$;
+*  a nonabelian [[chain complex|chain-complex]];
+*  an incarnation of a strict [[2-group]];
+*  [[Moore complex]]es of certain [[simplicial group]]s.
 
-*  A _crossed module_ is like a module but with a twisted 'multiplication'.
-
-*  A _crossed module_ is like the action of automorphisms on a group.
-
-*  A _crossed module_  is a [[crossed complex]] concentated in degree 1 and 2: it is a (nonabelian) [[chain complex|chain-complex]].
-
-*  A _crossed module_  is an incarnation of a strict [[2-group]].
-
-For certain purposes, e.g., their [[homotopy theory]], crossed modules can be usefully thought of as [[crossed complex|crossed complexes]] concentrated in degree $1$ and $2$; algebraically they are generalisations of (inclusions of) [[normal subgroup]]s; and 'simplicially' are [[Moore complex]]es of certain [[simplicial group]]s. Historically they were the first example of [[higher dimensional algebra]] to be studied.
+Historically they were the first example of [[higher dimensional algebra]] to be studied.
 
 #Definition#
 
@@ -53,10 +52,10 @@ $$
 $$
 commute.
 
-#Notation#
+##Notation#
 We may use the notation $(G_2,G_1,\delta)$, for this if the action is fairly obvious, including an explicit [[action]], $(G_2,G_1,\delta,\alpha)$, if there is a risk of confusion.
  
-#Definition in terms of equations#
+##Definition in terms of equations#
 
 The two [[diagram]]s can be translated into equations, which may often be helpful.
 
@@ -92,10 +91,10 @@ This equation is known as the **Peiffer rule** in the literature.
 
     and if $a$ is a loop in $E$
 based at $f_0$, and $b$ a loop in $F$ based at $f_0$, then the composite path
-corresponding to $aba^{-1}$ is [[homotopy|homotopic]] to one wholly within $F$.  To see
-this, note that $p(aba^{-1})$ is [[null homotopic]].  Pick a [[homotopy]] in $B$
+corresponding to $a b a^{-1}$ is [[homotopy|homotopic]] to one wholly within $F$.  To see
+this, note that $p(a b a^{-1})$ is [[null homotopic]].  Pick a [[homotopy]] in $B$
 between it and the constant map, then lift that homotopy back up to $E$ to one 
-starting at $aba^{-1}$.  This homotopy is the required one and its other end
+starting at $a b a^{-1}$.  This homotopy is the required one and its other end
 gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and 
 their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a 
 crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
