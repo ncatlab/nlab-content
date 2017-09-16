@@ -24,12 +24,20 @@ For those who better understand the mathematics of the first line, this analogy 
 
 #Formulation#
 
-Denote the spacetime region by $\mathbb{D}^2$ and let $P^2(\mathbb{D}^2)$ denote the strict 2-category with
+First, due to the symmetry of the diagram above, we can consider the simplified region
 
-* Objects $\{x_0,x^+_\tau,x^-_\tau,x_{2\tau}\}$
-* Morphisms $\{x_0\stackrel{v_0}{\to}x_{2\tau},x_0\stackrel{v^+_0}{\to}x^+_\tau,x_0\stackrel{v^-_0}{\to}x^-_\tau,x^+_\tau\stackrel{v^+_\tau}{\to}x^+_{2\tau},x^-_\tau\stackrel{v^-_\tau}{\to}x^-_{2\tau}\}$
-* 2-Morphisms $\{v^+_0\stackrel{F^+}{\Rightarrow}v^+_\tau,v^-_0\stackrel{F^-}{\Rightarrow}v^-_\tau\}$
+$$\array{
+{} & {} & {} & x_{\tau} & {} & {} & {} \\
+{} & {} & {} &  \bullet     & {} & {} & {} \\
+{} & {} & {}^{v_0}\nearrow & {}_F\Rightarrow & \searrow^{v_{\tau}} & {} & {} \\
+x_0 & \bullet & {} & \stackrel{v}{\longrightarrow} & {} & \bullet & x_{2\tau} 
+}$$
 
+This diagram represents a very simple strict 2-category we will denote by $P^2(\mathbb{D}^2)$ with
+
+* Objects $\{x_0,x_\tau,x_{2\tau}\}$
+* Morphisms $\{x_0\stackrel{v_0}{\to}x_{\tau},x_\tau\stackrel{v_\tau}{\to}x_{2\tau},x_0\stackrel{v}{\to}x_{2\tau}\}$
+* 2-Morphism $\{v_0\stackrel{F}{\Rightarrow}v_\tau\}$
 
 #Discussion#
 
