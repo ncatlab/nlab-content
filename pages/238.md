@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-19 #
 
+* [[Zoran Škoda]]: created [[algebraic geometry]], [[algebraic stack]]; updated [[quasicompact]] with the definition and facts about quasicompact morphisms.
+
 * [[Urs Schreiber|Urs]]: 
 
   * created [[Northwestern TFT Conference 2009]]
