@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-03
 
+* [[Urs Schreiber]]: expanded the example list at [[twisted cohomology]] -- in particular added "cohomology with local coefficients" as a special case. Added to the very beginning of [[local system]] a paragraph on how strictly speaking local systems were meant to be such "local systems of coefficients".
+
 * [[Zoran Škoda]]: created [[smooth scheme]], [[flat morphism]], [[smooth morphism of schemes]], [[EGA IV]], [[locally affine space]], [[relativization in algebraic geometry]]. Notice that this is extending a series on regularity/smoothness/differential calculus in algebraic framework which included our earlier entries [[regular differential operator]], [[quasi-free dga]], [[formally smooth morphism]] and so on.
   
   * John and Ramesh thank you for the nice detailed material on Lawvere reconstruction theorem, I'd suggest to create a separate lab entry [[Lawvere reconstruction theorem]] on it, moving the most of the material there (regarding the size and number of other reconstruction theorems waiting to be covered in detail the same way) with a link and short comment on the main [[reconstruction]] page. 
