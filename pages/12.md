@@ -4,6 +4,9 @@ This is a test to migrate the timeline of category theory and related mathematic
 Reason: No one really contributes to it at wikipedia
 
 If i had started a little later when nLab existed i would write in nLab from the start.
+
+[[Urs Schreiber|Urs]]: I like this idea. Why is the timeline here only 3 items long at the moment? Was there some technical problem with the migration? Should we all invest energy into migrating more of the material, or are you planning to do this?
+
 =--
 
 #Timeline#
