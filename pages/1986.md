@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-03
 
+* [[Zoran Škoda]]: To assist [[John Baez]]'s links, created [[Eilenberg-Moore category]] and added details and redirects to [[monadic functor]]. To John's question: I think most basic facts in Tannaka reconstruction including sort of those on coalgebra level are in chapter 3 of [Bodo Pareigis' online notes](http://www.mathematik.uni-muenchen.de/~pareigis/pa_schft.html); his emphasis is on [[end]]s and coends. However I hope you find Kazhdan's notes, they must be great. I created entry [[Tomasz Maszczyk]] with very interesting past seminar abstract at the bottom relating a new reconstruction theorem coming from nc geometry. 
+
 * [[Urs Schreiber]]: expanded the example list at [[twisted cohomology]] -- in particular added "cohomology with local coefficients" as a special case. Added to the very beginning of [[local system]] a paragraph on how strictly speaking local systems were meant to be such "local systems of coefficients".
 
 * [[Zoran Škoda]]: created [[smooth scheme]], [[flat morphism]], [[smooth morphism of schemes]], [[EGA IV]], [[locally affine space]], [[relativization in algebraic geometry]]. Notice that this is extending a series on regularity/smoothness/differential calculus in algebraic framework which included our earlier entries [[regular differential operator]], [[quasi-free dga]], [[formally smooth morphism]] and so on.
