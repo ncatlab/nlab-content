@@ -13,7 +13,7 @@ I\'m hoping that somebody will come up with a good suggestion, actually.
 and Strecker, in their book ACC (see references) use _topological concrete category_ in the index, although slip back to _topological category_ in the main discussion. Perhaps that is the solution.
 _Thinks: stuff, structure, properties!!!!!_
 
-_Toby_:  Your pedantic point is acknowledged below; more importantly, I like your suggested terminology.  It\'s not perfect, as $C$ can be topological over $D$ without either being concrete (although perhaps we should say that $C$ is concrete over $D$? what would that mean exactly?), but it solves the problem of what to call the page, I think.  (Since page moves are easily reversible, I\'ll move it to [[topological concrete category]] now, but other good suggestions are still welcome@)
+_Toby_:  Your pedantic point is acknowledged below; more importantly, I like your suggested terminology.  It\'s not perfect, as $C$ can be topological over $D$ without either being concrete (although perhaps we should say that $C$ is concrete over $D$? what would that mean exactly?), but it solves the problem of what to call the page, I think.  (Since page moves are easily reversible, I\'ll move it to [[topological concrete category]] now, but other good suggestions are still welcome!)
 =--
 
 
