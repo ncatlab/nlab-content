@@ -47,3 +47,4 @@ He is a blogger at [Secret Blogging Seminar](http://sbseminar.wordpress.com/).
 [Stable marriages](http://sbseminar.wordpress.com/2008/01/21/stable-marriages/)
 
 category: people
+[[!redirects BWebster:Ben Webster]]
