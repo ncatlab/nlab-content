@@ -18,7 +18,7 @@ such that $\check\phi\dashv\hat\phi$.
 
 Just as the notion of [[adjunction]] makes sense not just in $Cat$ but
 in any 2-category, lax 2-adjunctions can be defined in any 3-category
-when the above is suitably externalized.  So, given 0-cells $C,D$ and
+when the above is suitably internalized.  So, given 0-cells $C,D$ and
 1-cells $F:C\to D$, $G:D\to C$ in any 3-category, we say $F$ is lax
 left adjoint to $G$ if we have
 
