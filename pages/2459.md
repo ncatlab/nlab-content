@@ -1,3 +1,5 @@
 Let $G$ be a discrete group, $k$ a commutative unital ring, $kG$ the group ring of $G$ and $M$ a left $kG$-module. Then there is well-defined $k$-module $M_G = M/\lt m - gm\gt$ called the module of $G$-coinvariants. Here $\lt m - gm\rt$ denotes the smallest sub-$k$-module of $M$ containing all experessions of teh form $m-gm$ wheer $g\in G$ and $m\in M$. 
 
 Let $C$ be a $k$-coalgebra, $\chi$ a [[group-like element]], that is an element such that $\Delta_C(\chi)=\chi\otimes\chi$ and $\rho:V\to V\otimes C$ a right $C$-coaction. Any element $v\in V$ such that $\rho(v)=v\otimes\chi$ is called a $(\rho,\chi)$-coinvariant element in $C$-cmodule $(V,\rho)$. Suppose $H$ is a [[bialgebra]], $A$ an algebra and $\rho:A\to A\otimes H$ a coaction making $A$ into a right $H$-comodule algebra. The unit element $1_H$ is a group-like element, and we call $(\rho,1)$-coinvariants simply $\rho$-coinvariants. The subset of $\rho$-coinvariants in $A$ is a subalgebra, called the subalgebra of coinvariants.  
+
+[[!redirects coinvariants]]
