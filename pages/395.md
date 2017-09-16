@@ -394,7 +394,7 @@ and will be taken up in the next section on homotopy limits.
 +-- {: .un_defn}
 ###### Definition 
 
-For $f : C \to B$ a morphism,, we say that 
+For $f : C \to B$ a morphism, we say that 
 the morphism $p_f : \mathbf{E}_f B \to B$
 defined as the composite vertical morphism in the
 [[pullback]] diagram
