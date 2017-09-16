@@ -4,6 +4,10 @@ If $C$ has [[pullback]]s, then any such $g,h$ factor uniquely through the [[kern
 
 It is easy to see that in _any_ category, any regular epimorphism is strict.  In a category without pullbacks, it seems that not every strict epimorphism need be regular.  However, every strict epimorphism is [[strong epimorphism|strong]], and hence [[extremal epimorphism|extremal]], for the same reason that any regular epimorphism is.
 
+
++--{: .query}
+[[David Roberts]]: I'm interested in a bicategorical version of this. You haven't happened to have done this Mike?
+=--
 # References#
 
 * [[Categories and Sheaves]], p115-116.
