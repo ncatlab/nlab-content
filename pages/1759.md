@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * rewrote the intro to [[Cech cohomology]] (see there) and started adding a list of examples for the abelian case: the standard series line bundles, line bundle gerbes, with connection, etc. -- but not well written at the moment and no effort to get signs straight
+
   * created [[nerve and realization]] in order to host Kan's general idea of how a functor into a category with colimits induces an adjoint pair of functors 
 
     * I think I know what I am doing, but I'd like to ask people like [[Tim Porter]] and [[Todd Trimble]] to have a critical look at it (where is [[Mike Shulman]]??) -- in particular at the moment I allowed myself to assume that we are copowered over the enriching category in order to get nice formulas, I wouldn't object if somebody finds the time to give the more general discussion
