@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * added to [[point of a topos]] a section "enough points" with discussion about what it means for a topos to have "enough points" and two examples
+
   * created [[QFT with defects]]
 
   * created [[2-category of 2-dimensional cobordisms]]
