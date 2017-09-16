@@ -44,3 +44,5 @@ Since Lawvere-Tierney topologies make sense for every [[topos]] (not necessarily
 Dense monomorphisms appear around p. 223 of
 
 * MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
+
+[[!redirects dense monomorphisms]]
