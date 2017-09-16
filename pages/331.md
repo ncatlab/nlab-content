@@ -25,5 +25,7 @@
 * [[predicative mathematics]]
 * [[propositional equation reasoning system]]
 * [[relation theory]]
+* [[sign relation]]
+* [[triadic relation]]
 * [[truth value]]
 * [[type theory]]
