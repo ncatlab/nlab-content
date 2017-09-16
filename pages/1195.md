@@ -62,4 +62,6 @@ _Finn_:  What you're talking about here is the distinction between 'multiplicati
 You're right that the multiplicative versions don't work well for these subsystems of LK -- but I think the choice is far from arbitrary, as linear logic shows.  That is, the choice of additive versus multiplicative inference rules seems to be intimately related to the structural aspects of the logic.
 
 As for $\Gamma,\bot\vdash\Delta$ as an axiom, that just isn't included in minimal logic.  (By the way, your point above was well taken, that it would seem better to leave $\bot$ out of minimal logic entirely, but I think most people like having $\neg$ in their logics, even if it's just $\to$ in disguise)
+
+_Toby_:  Well, I can\'t accept that minimal logic is really about exactly one item on the right while intuitionistic logic is really about at most one item on the right, not if you have to ignore $\bot$ to make that work.  But I think that I now have a better understanding of how intuitionistic logic is (in one sense) really about having one item on the right (and using additive rules).
 =--
