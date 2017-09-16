@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-11 #
+
+*  [[Toby Bartels]]:
+   *  There\'s more work going on at [[SVG Sandbox]] and being discussed in [a Forum post](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=20).  See also the new [[Inclusion Sandbox]].
+   *  There\'s been some work recently at [[generalized element]], in response to a reader\'s question.
+
 # 2009-05-08 #
 
 *  [[Toby Bartels]]:  Fixed the last 'heuristic', at [[local system]], among other such fixes.  (You gotta open them up for editing and look at the source!)
