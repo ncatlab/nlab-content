@@ -1,4 +1,4 @@
-[[!include differential graded objects - contents]]
+<div class="rightHandSide toc">[[!include differential graded objects - contents]]</div>
 
 
 #Definition#
