@@ -18,7 +18,7 @@ When the unit of the reflector is a [[monomorphism]], a reflective category is o
 
 * Complete [[metric space]]s are mono-reflective in metric spaces; the reflector is called _completion_.
 
-* The category of [[sheaf|sheaves]] on a [[site]] $S$ is a reflective subcategory of the category of presheaves on $S$; the reflector is called _sheafification_.
+* The category of [[sheaf|sheaves]] on a [[site]] $S$ is a reflective subcategory of the category of presheaves on $S$; the reflector is called _[[sheafification]]_.
 
 
 #Generalizations#
