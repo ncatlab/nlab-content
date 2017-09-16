@@ -10,17 +10,17 @@ The notion of a [[category]] can be formulated [[internalization|internal]] to a
 
 Let $A$ be any category. A **category internal to $A$** consists of 
 
-* an object of objects $C_0\in A$;
+* an object of objects $C_0 \in A$;
 
-* an object of morphisms $C_1\in A$;
+* an object of morphisms $C_1 \in A$;
 
 together with
 
-* [[source]] and [[target]] morphisms $s,t:C_1\to C_0$;
+* [[source]] and [[target]] morphisms $s,t: C_1 \to C_0$;
 
-* an [[identity assigning morphism]] $i:C_0\to C_1$;
+* an [[identity assigning morphism]] $e: C_0 \to C_1$;
 
-* a [[composition]] morphism $\circ: C_1\times_{C_0} C_1\to C_1$;
+* a [[composition]] morphism $c: C_1 \times_{C_0} C_1 \to C_1$;
 
 such that the following diagrams commute, expressing the usual category laws:
 
@@ -28,13 +28,13 @@ such that the following diagrams commute, expressing the usual category laws:
 
 $$
 \array{
-C_0 & \stackrel{i}{\to} & C_1 \\
+C_0 & \stackrel{e}{\to} & C_1 \\
 {}  & 1\searrow         & \darr s \\
 {}  & {}                & C_0
 }
 \quad\quad\quad\quad
 \array{
-C_0 & \stackrel{i}{\to} & C_1 \\
+C_0 & \stackrel{e}{\to} & C_1 \\
 {}  & 1\searrow         & \darr t \\
 {}  & {}                & C_0
 }
@@ -44,15 +44,15 @@ $$
 
 $$
 \array{
-C_1 \times_{C_0} C_1 & \stackrel{\circ}{\to} & C_1 \\
-{}^{p_1}\downarrow & {} & \downarrow^{s} \\
-C_1 & \stackrel{s}{\to} & C_0
+C_1 \times_{C_0} C_1 & \stackrel{c}{\to} & C_1 \\
+{}^{p_1}\downarrow   & {}                & \downarrow^{s} \\
+C_1                  & \stackrel{s}{\to} & C_0
 }
 \quad\quad\quad\quad
 \array{
-C_1 \times_{C_0} C_1 & \stackrel{\circ}{\to} & C_1 \\
-{}^{p_2}\downarrow & {} & \downarrow^{t} \\
-C_1 & \stackrel{t}{\to} & C_0
+C_1 \times_{C_0} C_1 & \stackrel{c}{\to} & C_1 \\
+{}^{p_2}\downarrow   & {}                & \downarrow^{t} \\
+C_1                  & \stackrel{t}{\to} & C_0
 }
 $$
 
@@ -60,9 +60,9 @@ $$
 
 $$
 \array{
-C_1 \times_{C_0} C_1 \times_{C_0} C_1 & \stackrel{\circ\times_{C_0} 1}{\to} & C_1 \times_{C_0} C_1 \\
-{}^{1\times_{C_0}\circ}\downarrow & {} & \downarrow^{\circ} \\
-C_1 \times_{C_0} C_1 & \stackrel{\circ}{\to} & C_1
+C_1 \times_{C_0} C_1 \times_{C_0} C_1 & \stackrel{c\times_{C_0} 1}{\to} & C_1 \times_{C_0} C_1 \\
+{}^{1\times_{C_0}c}\downarrow         & {}                              & \downarrow^{c} \\
+C_1 \times_{C_0} C_1                  & \stackrel{c}{\to}               & C_1
 }
 $$
 
@@ -70,30 +70,31 @@ $$
 
 $$
 \array{
-C_1 \times_{C_0} C_1 & \stackrel{i\times_{C_0} 1}{\to} & C_1 \times_{C_0} C_1 & \stackrel{1\times_{C_0} i}{\leftarrow} & C_1 \times_{C_0} C_1 \\
-{} & {}^{p_2}\searrow & \downarrow^{\circ} & \swarrow^{p_1} & {} \\
-{} & {} & C_1 & {} & {}
+C_1 \times_{C_0} C_1  & \stackrel{e \times_{C_0} 1}{\to} &
+ C_1 \times_{C_0} C_1 & \stackrel{1 \times_{C_0} e}{\leftarrow} & C_1 \times_{C_0} C_1 \\
+{}                    & {}^{p_2}\searrow                 & \downarrow^{c}       & \swarrow^{p_1}                          & {} \\
+{}                    & {}                               & C_1                  & {}                                      & {}
 }
 $$
 
-The pullback $C_1\times_{C_0} C_1$ is defined via the square
+Here, the pullback $C_1 \times_{C_0} C_1$ is defined via the square
 $$
 \array{
-C_1 \times_{C_0} C_1 &\stackrel{p_2}{\to} & C_1 \\
-{}^{p_1}\downarrow & {} & \downarrow^{t} \\
-C_1 &\stackrel{s}{\to}& C_0
+C_1 \times_{C_0} C_1 & \stackrel{p_2}{\to} & C_1 \\
+{}^{p_1}\downarrow   & {}                  & \downarrow^{s} \\
+C_1                  & \stackrel{t}{\to}   & C_0
 }
 $$
 
-Notice that inherent to this definition is the assumption that the pullbacks involved actually exist. This holds automatically when the [[ambient category]] $A$ has finite [[limit|limits]], but there are some important examples such as $A =\,$ [[Diff]] where this is not the case.
+Notice that inherent to this definition is the assumption that the pullbacks involved actually exist. This holds automatically when the [[ambient category]] $A$ has finite [[limit|limits]], but there are some important examples such as $A =\,$ [[Diff]] where this is not the case.  Here it is helpful to assume simply that $s$ and $t$ have all pullbacks; in the case of $Diff$ this occurs if they are submersions.
 
 A [[groupoid]] internal to $A$ is all of the above 
 
  * such that the cartesian product $C_1 \times C_1$ exists
 
- * and a morphism
+ * with a morphism
   $$
-     C_1 \stackrel{s}{\to} C_1
+     C_1 \stackrel{i}{\to} C_1
   $$
 
 
@@ -103,15 +104,29 @@ A [[groupoid]] internal to $A$ is all of the above
         C_1 &\stackrel{diag}{\to}& C_1 \times C_1
         \\
         \downarrow^s && \;\;\;\;\;\;\;
-           \downarrow^{comp \;\; (Id \times s)}
+           \downarrow^{c \circ (Id \times i)}
         \\
-        C_0 &\stackrel{i}{\to}& C_1
+        C_0 &\stackrel{e}{\to}& C_1
      }
-     \,.
    $$
-+--{+ .query}
+
+ * and
+   $$
+     \array{
+        C_1 &\stackrel{diag}{\to}& C_1 \times C_1
+        \\
+        \downarrow^t && \;\;\;\;\;\;\;
+           \downarrow^{c \circ (i \times Id)}
+        \\
+        C_0 &\stackrel{e}{\to}& C_1
+     }
+   $$
+
++--{: .query}
 I think things are mutliply inconsistent in this entry.
-I do not want to change as I do not know what the intentional notation to start with was. If $p_1\circ s = p_2\circ t$ that mean that target is read at the left-hand side (composition as o, not as ;), while the diagrams before that suggest left to right composition. Then finally the diagram for groupoids has $s$ both for source and inverse, and there is only for right inverse, and one should also check convention, once it is decided above.-Zoran
+I do not want to change as I do not know what the intentional notation to start with was. If $p_1; s = p_2; t$ that mean that target is read at the left-hand side (composition as o, not as ;), while the diagrams before that suggest left to right composition. Then finally the diagram for groupoids has $s$ both for source and inverse, and there is only for right inverse, and one should also check convention, once it is decided above.-Zoran
+
+You\'re right; I think that I caught all of the inconsistencies now.  Incidentally, one needs only inverses on one side (as long as *all* such inverses exist), although it\'s probably best to put both in the definition.  (For groupoids, one also needs only identities on that same side too!  [This proof](http://en.wikipedia.org/wiki/Elementary_group_theory#Alternative_Axioms) generalises.)  ---Toby
 =--
 
 
