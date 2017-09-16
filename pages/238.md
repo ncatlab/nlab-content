@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-05-24 #
 
 *  [[Toby Bartels]]:
+   *  Cleaned up [[Cauchy space]] a bit.
    *  An answer for [[Mike Shulman]] at [[subsequential space]].
    *  A question for [[Bruce Bartlett]] at [[semisimple category]].
 
