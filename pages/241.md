@@ -49,3 +49,5 @@ A proof of Giraud's theorem is in appendix A.
 The proof of Giraud's theorem for [[(infinity,1)-topos|(infinity,1)-topoi]] is section 6.1.5 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects Grothendieck topoi]]
