@@ -3,15 +3,20 @@
 </div>
 
 
-Every [[lined topos]] $(\mathcal{T}, R)$ has a canonical [[cosimplicial object]]
+In every [[lined topos]] $(\mathcal{T}, R)$ the line $R$ may canonically be regarded as an [[interval object]]
+
+$$
+  {*} \stackrel{0}{\to} R \stackrel{1}{\leftarrow} {*}
+  \,.
+$$
+
+As discussed there, this inuces a [[cosimplicial object]]
 
 $$
   \Delta_{\mathcal{T}} : \Delta \to \mathcal{T}
 $$
 
-given by the [[simplex in a lined topos|standard simplices in the lined topos]].
-
-This induces a functor
+and then in turn a functor
 
 $$
   \Pi : \mathcal{T} \to [\Delta^{op},\mathcal{T}]
