@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-09
 
+* [[Urs Schreiber]]: motivated by [[Toby Bartels|Toby]]'s comment there I have now branched off the material at [[limits and colimits by example]] that describes a computer program to [[Paine on a Category Theory Demonstrations program]]. This is now linked to there from the section "Further resources". I have moved the pertaining discussion boxes to the bottom of the entry. 
+
 * [[Jon Awbrey]]: Piecewise discussion at [[boolean domain]], but it will be later before I can get to the rest of the pieces.
 
 *  [[Toby Bartels]]:  Discussions at [[center]], [[evil]], [[graph]], [[boolean domain]], [[limits and colimits by example]], [[semicartesian monoidal category]].
