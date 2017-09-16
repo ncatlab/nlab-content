@@ -5,7 +5,6 @@ The substantive content of this page should **not** be altered.
 
 ***
 
-
 # 2009-04-30 #
 
 * [[Urs Schreiber|Urs]]: 
@@ -651,8 +650,6 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
   * Migrated [[2009 March changes|March changes]] 
 
   * Continued discussion with Urs at my private page [[davidroberts:comments on chapter 2]].
-
-
 
 ***
 
