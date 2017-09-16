@@ -21,12 +21,12 @@ One point to note is that the filler for any horn can be chosen to be a _product
 
 * The homotopy groups of a simplicial group, $G$, can be calculated as the homology groups of the [[Moore complex]] of $G$.  This is, in general,  a non-Abelian chain complex.
 
-* A simplicial group can be considered as a [[simplicially enriched category|simplicial groupoid]] having exactly one object. If $G$ is a simplicial group, the suggested notation for the corresponding simplicially enriched groupoid would be $\mathbf{B}G$ according to notational conventions suggested elsewhere in the nLab.
+* A simplicial group can be considered as a [[simplicial groupoid]] having exactly one object. If $G$ is a simplicial group, the suggested notation for the corresponding simplicially enriched groupoid would be $\mathbf{B}G$ according to notational conventions suggested elsewhere in the nLab.
 
 * There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplcial groupoid. This has a left adjoint $\overline{W}$ (see below) and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
 
 #The classifying space of a simplicial group.#
-(We will give this in the more general from needed for a [[simplicially enriched category|simplicial groupoid]].)
+(We will give this in the more general from needed for a [[simplicial groupoid]].)
 
 
 Let $H$ be a simplicial groupoid, then $\overline{W}H$ is the simplicial set  described by
