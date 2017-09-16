@@ -58,3 +58,6 @@ it seems that the injective model structure on chain complexes has been made ful
 The projective model structure is discussed after that in 
 
 * Mark Hovey, _Model category structures on chain complexes of sheaves_, Trans. Amer. Math. Soc. 353, 6 ([pdf](http://www.mathaware.org/tran/2001-353-06/S0002-9947-01-02721-0/S0002-9947-01-02721-0.pdf))
+
+
+[[!redirects model structures on chain complexes]]
