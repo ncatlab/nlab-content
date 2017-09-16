@@ -12,3 +12,6 @@ Any lattice that satisfies one of the two binary distributivity laws must also s
 
 
 Any [[Boolean algebra]], and even any [[Heyting algebra]], is a distributive lattice.
+
+
+[[!redirects distributive lattices]]
