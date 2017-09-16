@@ -21,10 +21,21 @@ With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial 
 
 ## simplicial sets as spaces built of simplices ##
 
-The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the set of $n$-simplicies in this space, hence the way of mapping a standard $n$-simplex into this spaces.
+* The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the **set of $n$-simplices** in this space, hence the way of mapping a standard $n$-simplex into this spaces.
 
-* The face map $d_i : X_n \rightarrow X_{n-1}$ is dual to the unique injection $\delta^i : [n-1] \rightarrow [n]$ in the category $\Delta$ whose image omits the element $i \in [n]$. Similarly, the degeneracy map $s_i : X_n \rightarrow X_{n+1}$ is dual to the unique surjection $\sigma^i : [n+1] \rightarrow [n]$ in $\Delta$ such that $i \in [n]$ has two elements in its preimage. The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations, dual to the _simplicial relations_ spelled out at [[simplex category]]; the face are degeneracy maps satisfy relations dual to these (so we get a [[functor]] from $\Delta^{op}$ to $\Set$).  The relations satisfied by the face and degeneracy maps are often called  the [[simplicial identities]].
+* For $S$ a simplicial set, the **face map** 
+  $$
+    d_i := S(\delta^i): S_n \rightarrow S_{n-1}
+  $$ 
+  is dual to the unique injection $\delta^i : [n-1] \rightarrow [n]$ in the category $\Delta$ whose image omits the element $i \in [n]$. 
 
+* Similarly, the **degeneracy map** 
+  $$
+    s_i := S(\sigma^i) : S_n \rightarrow S_{n+1}
+  $$ 
+  is dual to the unique surjection $\sigma^i : [n+1] \rightarrow [n]$ in $\Delta$ such that $i \in [n]$ has two elements in its preimage. 
+
+* The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations -- the [[simplicial identities]] -- dual to those  spelled out at [[simplex category]].
 
 ## simplicial complexes ##
 
