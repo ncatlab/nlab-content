@@ -103,6 +103,9 @@ For appropriate $G$, we recover the classical theory of ringed and locally ringe
 
 Page 6 gives some general overview for the paper which will be helpful.
 
+* Note on [The Character Theory of a Complex Group](http://arxiv.org/abs/0904.1247)
 
+Go back here to see different correspondences related to the Hecke algebra
 
+* [[Hecke algebra]]
 category: people
