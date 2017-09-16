@@ -33,6 +33,14 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
    $$\mathcal{X}\cup\mathcal{Y} = \langle X\cup Y, \max(\mu_X,\mu_Y)\rangle.$$
 
++--{.query}
+The following definition of set difference is tentative because it requires us to allow $\mu = 0$, which is under consideration.
+=--
+
+*  The _[[set difference]]_ of multisets is the multiset given by
+
+   $$\mathcal{X}\backslash\mathcal{Y} = \langle X\cup Y,\max(0,\mu_X-\mu_Y)\rangle.$$
+
 *  The __sum__ of multisets is the multiset whose cardinality is given by addition of cardinal numbers; this has no analogue for ordinary sets.
 
    $$\mathcal{X}+\mathcal{Y} = \langle X\cup Y, \mu_X+\mu_Y\rangle.$$
@@ -50,6 +58,22 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
    Note that the inner product corresponds to the cardinality of the product
 
    $$\langle\mathcal{X},\mathcal{Y}\rangle = |\mathcal{X}\mathcal{Y}|.$$
+
+## Examples
+
+...
+
+
+* See also [[inner product of multisets]].
+
+## References
+
+* [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
+
+* [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
+
+
+## Discussion
 
 +--{.query}
 [[Eric]]: What would a colimit over an MSet-valued functor $F:A\to MSet$ look like?
@@ -107,19 +131,6 @@ _Toby_:  At least $Set^{\mathbf{2}}$ is *different* from $Set$.  And how do you 
 >The previous definition is the characteristic function definition method for multisets.
 
 >**Remark 1**. Any ordinary set $A$ is actually a multiset $\langle A,\chi_A\rangle$, where $\chi_A$ is its characteristic function.
-
-## Examples
-
-...
-
-
-* See also [[inner product of multisets]].
-
-## References
-
-* [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
-
-* [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
 
 
 +--{.query}
