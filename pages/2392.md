@@ -18,9 +18,11 @@ The notion of _$(\infty,1)$-operad_ is to that of [[(∞,1)-category]] as [[oper
 
 So, roughly, an $(\infty,1)$-operad is an algebraic structure that has for each given type of input and one type of outpout an [[∞-groupoid]] of operations that take these inputs to that output.
 
+#Definition#
+
 Two models for $(\infty,1)$-operads exist to date, one by Cisinski-[[Ieke Moerdijk|Moerdijk]], the other by [[Jacob Lurie|Lurie]].
 
-#in terms of dendroidal sets#
+##in terms of dendroidal sets##
 
 Here [[simplicial set]]s are generalized to [[dendroidal set]]s. The theory of $(\infty,1)$-operads is then formulated in terms of dendroidal sets in close analogy to how the theory of [[(∞,1)-category|(∞,1)-categories]] iss formulated in terms of [[simplicial set]]s.
 
@@ -30,7 +32,7 @@ Here are two blog entries on talks on this stuff:
 
 * [Moerdijk on Infinity Operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
 
-#in terms of $(\infty,1)$-categories fibred over Segal's category#
+##in terms of $(\infty,1)$-categories fibred over Segal's category##
 
 In this approach an $(\infty,1)$-operad $C^\otimes$ is regarded as an [[(∞,1)-category]] $C$ -- the unary part of the $(\infty,1)$-operad to be described-- with extra structure that determines [[(∞,1)-functor]]s $C^{\times n} \to C$.
 
