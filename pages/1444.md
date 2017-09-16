@@ -12,8 +12,8 @@ is given by
 with unit $(1,1)$ and $h,h'\in H$, $k,k'\in K$, where $\alpha: K\times H\rightarrow H$, $\beta: K\times H\rightarrow K$ are left and right actions, respectively.
 
 A pair of groups $(H,K)$ is said to be matched if there exists a left action $\alpha$ of $K$ on the set $H$ and a right action $\beta$ of the group $H$ on the set $K$ such that for all $h,h'\in H$, $k,k'\in K$, the following hold:
-* $\beta(kk',h) = \beta(k,\alpha(k',h))\beta(k',h)$,
-* $\alpha(k,hh') = \alpha(k,h)\alpha(\beta(k,h),h')$,
+* $\beta(k k',h) = \beta(k,\alpha(k',h))\beta(k',h)$,
+* $\alpha(k,h h') = \alpha(k,h)\alpha(\beta(k,h),h')$,
 * $\alpha(k,1) = 1$,
 * $\beta(1,h) = 1$.
 
