@@ -1,6 +1,9 @@
 <div class="rightHandSide toc">
+[[!include category theory - contents]]
+***
 [[!include higher category theory - contents]]
 </div>
+
 
 
 $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
