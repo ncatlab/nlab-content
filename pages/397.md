@@ -61,6 +61,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Matthew Kahle]]
 * [[Mike Shulman]]
 * [[Mike Stay]]
+* [[Noah Snyder]]
 * [[Omar Antolín-Camarena]]
 * [[Owen Biesel]]
 * [[Patrick Schultz]]
