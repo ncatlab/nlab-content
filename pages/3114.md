@@ -11,11 +11,15 @@ At least assuming [[classical logic]], it is equivalent to say that every set is
 
 ## Implications
 
-The following statements are all consequences of SVC.
+The following statements are all consequences of SVC (some requiring [[excluded middle]]).
 
 * Assuming SVC with $S$, AC holds as soon as $S$ is choice.
 
-* There are "enough highly filtered ordinals," in the sense that for any set $A$, there is a limit [[ordinal]] $\alpha$ such that there is no cofinal function $A\to \alpha$.
+* The [[regular extension axiom]] (REA).
+
+* The [[axiom of multiple choice]] (AMC).
+
+* There are "enough highly filtered ordinals," in the sense that for any set $A$, there is a limit [[ordinal]] $\alpha$ such that there is no cofinal function $A\to \alpha$.  (This is actually a consequence of REA.)
 
 * There are enough [[injective object|injective]] [[abelian groups]].
 
@@ -50,10 +54,12 @@ SVC was introduced in the paper
 
 * Blass, Andreas.  "Injectivity, projectivity, and the axiom of choice."  Trans. Amer. Math. Soc. 1979
 
-where most of the above results were proven.
+where most of the above results were proven.  Some others can be found in
+
+* Rathjen and Lubarsky, "Choice principles in constructive and classical set theories".
 
 
 category: foundational axiom
 
 [[!redirects SVC]]
-[[!redirects small violations of choice]]
+[[!redirects axiom of small violations of choice]]
