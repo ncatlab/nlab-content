@@ -13,4 +13,5 @@ $Simp Set$ is naturally a [[model category]] using the [[model structure on simp
 category: category
 
 [[!redirects SSet]]
+[[!redirects sSet]]
 [[!redirects Simp Set]]
