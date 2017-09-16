@@ -167,7 +167,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
   
     * [[equalizer]]
 
-    * [[coequalize]]
+    * [[coequalizer]]
 
     * [[kernel]]
 
@@ -178,6 +178,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
   * [[continuous functor]]
 
 * [[Kan extension]]
+
+  * [[Yoneda extension]]
 
 
 #3 Filtrant Limits#
