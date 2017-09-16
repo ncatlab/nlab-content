@@ -87,6 +87,8 @@ $$
   \,.
 $$
 
+This may be used to define the _geometric_ [[homotopy group (of an ∞-stack)]].
+
 ## References
 
 A discussion of locally constant $\infty$-stacks over [[topological space]]s is in
