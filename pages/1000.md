@@ -11,4 +11,9 @@ An algebraic monad defines a [[Lawvere theory]], which can then be interpreted i
 In any case, one should also list term finitary monad, both synonyms should be listed.
 
 _Toby_:  Whether these are 'algebraic' or 'finitary' (I\'d be more inclined to the latter, but not through any familiarity with the literature), they\'re not obviously the same as Lawvere theories.  I\'ve tried to indicate the connection, although (vague as my statement is) I\'m not even sure that it\'s correct!
+
+[[Zoran Škoda]] added below redirect [[finitary monad]].
+
 =--
+
+[[!redirects finitary monad]]
