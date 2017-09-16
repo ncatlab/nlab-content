@@ -258,9 +258,15 @@ in
 * Jonathan Block, _Duality and equivalence of module categories in noncommutative geometry I_
 ([arXiv](http://arxiv.org/abs/math/0509284))
 
+
 A blog discussion of this is at
 
 * Urs Schreiber,  [Block on L-infinity Module Categories](http://golem.ph.utexas.edu/category/2008/06/block_on_loo_module_categories.html)
+
+The same definition, up to inessential technical details, appears also in
+
+* Camilo Arias Abad, Marius Crainic, _Representations up to homotopy of Lie algebroids_ ([arXiv](http://arxiv.org/abs/0901.0319))
+
 
 Some further discussion and examples of Lie-infinity-algebroid representations is at
 
