@@ -449,10 +449,20 @@ chapter 2 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
+
+[[!redirects fibration of quasi-categories]]
+[[!redirects fibrations of quasi-categories]]
+[[!redirects fibration of simplicial sets]]
 [[!redirects fibrations of simplicial sets]]
 [[!redirects inner Kan fibration]]
+[[!redirects inner Kan fibrations]]
 [[!redirects right Kan fibration]]
+[[!redirects right Kan fibrations]]
 [[!redirects weak Kan fibration]]
+[[!redirects weak Kan fibrations]]
 [[!redirects inner fibration]]
+[[!redirects inner fibrations]]
 [[!redirects right fibration]]
+[[!redirects right fibrations]]
 [[!redirects weak fibration]]
+[[!redirects weak fibrations]]
