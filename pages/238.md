@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-05-03 #
 
 *  [[Toby Bartels]]:
+   *  Wrote [[FOLDS]] (and [[Michael Makkai]]), [[identity functor]], [[identity natural transformation]], [[anafunctor category]], [[identity anafunctor]], [[anabicategory]], and [[ananatural transformation]] to be linked from the below.
    *  Rewrote [[equivalence of categories]], moving one paragraph to [[Cat]] and otherwise expanding.
    *  Urs and I would like some advice from [[Tim Porter]] at [[simplicial nerve]].
 
