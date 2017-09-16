@@ -134,7 +134,7 @@ There is a model due to Stolz and Teichner in 'What is an elliptic object?'...
 
 ## as a smooth 2-group ##
 
-While $Spin(n)$ in not just a [[topological group]] but a (finite dimensional) [[Lie group]], $String(n)$ cannot have the structure of a finite dimensional [[Lie group]], due to the fact that the third [[homotopy group]] is nontrivial for every (finite dimensional) Lie group, while for $\pi_3(String(n)) = 0$ by the very definition of $String(n)$.
+While $Spin(n)$ is not just a [[topological group]] but a (finite dimensional) [[Lie group]], $String(n)$ cannot have the structure of a finite dimensional [[Lie group]], due to the fact that the third [[homotopy group]] is nontrivial for every (finite dimensional) Lie group, while for $\pi_3(String(n)) = 0$ by the very definition of $String(n)$.
 
 +--{: .query}
 [[David Roberts]]: This raises an interesting question: is there an infinite dimensional Lie group which is a 3-connected cover? This seems very hard to do.
