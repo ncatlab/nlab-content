@@ -14,6 +14,8 @@ suggested by [[Urs Schreiber]]. A summary of Alm's paper with many motivating re
 
  [[Urs Schreiber|Urs]]: Johan Alm meanwhile has a refined version of these notes, but some aspects still need more work and thinking. When things have stabilized further I'll be happy to provide more details here. 
 
+_Eric_: Are the refined notes available?
+
 =--
 
 This page represents an experiment similar to the [[geometric infinity-function theory|Journal Club's]] effort to understand the papers
