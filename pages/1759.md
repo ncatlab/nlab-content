@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-07
 
+* [[Urs Schreiber|Urs]]
+
+  * I notice that [[Timeline of category theory and related mathematics]] is a renamed version of the original Sandbox(!). (As you can see by clicking on its "history" link. But also the current [[Sandbox]]'s very first link claims to lead to the historical Sandbox, but takes on to the Sandbox poage with title "Timeline of category theory-...") I guess that's not intended. 
+
+  * tried to improve the exposition at [[groupoid object in an (infinity,1)-category]]. More to be done eventually, though.
+
 * [[Eric]]
 
   * Reminds Urs that he no longer needs to type <nowiki>[[Urs Schreiber|Urs]]</nowiki> because there is now a redirect from [[Urs]] to [[Urs Schreiber]]., i.e. the link <nowiki>[[Urs]]</nowiki> points to [[Urs]]. Try it! :)
