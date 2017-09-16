@@ -17,8 +17,11 @@ $$
   \,.
 $$
 
+More generally, in a category [[enriched category|enriched]] over [[pointed set]]s (with [[smash product]]), the kernel of a morphism $f:c\to d$ is the universal morphism $k:a\to c$ such that $f k$ is the basepoint.  It is a [[weighted limit]] in the sense of enriched category theory.  This applies in particular in any [[additive category]].
+
+
 # Kernel in $\infty$-categories #
 
 Accordingly, the kernel of a morphism in an [[infinity-category]] with $\infty$-categorical [[zero object]] is the [[homotopy pullback]] of the above kind. 
 
-See also [[stable infinity-category]].
+See also [[stable (infinity,1)-category]].
