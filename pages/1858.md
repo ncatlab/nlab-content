@@ -34,6 +34,5 @@ A realization of the path [[3-groupoid]] as a [[Gray-groupoid]] internal to [[di
 
 * Joao Faria Martins, Roger Picken, _The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module_ ([arXiv](http://arxiv.org/abs/0907.2566))
 
-[[Note on Formatting|✄]]
 
 [[!redirects path n-groupoids]]
