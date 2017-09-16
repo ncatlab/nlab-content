@@ -28,6 +28,11 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 =--
 
 
+## 2009-07-23
+
+*  [[Toby Bartels]] welcomed [[Sebastian Thomas]] at [[(n,k)-transformation]].
+
+
 ## 2009-07-22
 
 * [[Urs Schreiber]]
