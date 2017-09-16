@@ -26,21 +26,21 @@ We can replace the third condition  by:
 Of course, wherever possible, we will abbreviate $(A,\Delta,\mu,\epsilon,\eta)$ to $A$.
 
 
-A morphism of pre-ghas is a linear map of degree zero compatible with both the algebra and coalgebra structures.  We may write $pre-GHA$ for the resulting category.
+A morphism of pre-ghas is a linear map of degree zero compatible with both the algebra and coalgebra structures.  We may write $pre GHA$ for the resulting category.
 
-If $A$ and $A^\prime$ are two pre-ghas, $A\otimes A^\prime$ is a pre-gha for the algebra and coalgebra structures already defined.
+If $A$ and $A'$ are two pre-ghas, $A\otimes A'$ is a pre-gha for the algebra and coalgebra structures already defined.
 
 ###Derivations of Hopf algebras
 
 Let $A$ be a pre-gha.  A  _Hopf algebra derivation_ of $A$ of degree $p\in \mathbb{Z}$ is a linear mapping $\theta \in Hom_p(A,A)$, defining both an algebra and a coalgebra derivation.
 
-A differential $\partial$ of pre-ghas is a Hopf algebra derivation of degree -1 such that $\partial\circ \partial = 0$.  The pair $(A,\partial)$ is called a _differential $\mathbb{Z}$-graded Hopf algebra_ (pre-dgha).  Its homology $H(A,\partial)$ is also a pre-gha.  A morphism of pre-dghas is a morphism, at the same time, of pre-ghas and pre-dgvs.  This gives a category $pre-DGHA$.
+A differential $\partial$ of pre-ghas is a Hopf algebra derivation of degree -1 such that $\partial\circ \partial = 0$.  The pair $(A,\partial)$ is called a _differential $\mathbb{Z}$-graded Hopf algebra_ (pre-dgha).  Its homology $H(A,\partial)$ is also a pre-gha.  A morphism of pre-dghas is a morphism, at the same time, of pre-ghas and pre-dgvs.  This gives a category $pre DGHA$.
 
 A pre-gha $(A,\Delta,\mu,\epsilon,\eta)$ is _commutative_ if $(A,\mu)$ is commutative and is _cocommutative_ if $(A,\Delta,\varepsilon)$ is cocommutative.
 
-This gives categories $pre-CDGHA$ and $pre-CoDGHA$ respectively.
+This gives categories $pre CDGHA$ and $pre CoDGHA$ respectively.
 
-A _cocommutative_ (resp. _commutative_) _dgha_} is an object of $pre-CoDGHA$ (resp. $pre-CDGHA$, which has a lower (resp. upper) grading.
+A _cocommutative_ (resp. _commutative_) _dgha_} is an object of $pre CoDGHA$ (resp. $pre CDGHA$, which has a lower (resp. upper) grading.
 
 
 
@@ -103,11 +103,11 @@ If $L$ is a free Lie algebra on $V$, then the enveloping algebra is the tensor a
 
 Let $(L,\partial)$ be a pre-dgla, the differential $\partial $ extends to an algebra differential on $T(L)$.  With the quotient differential, $U(L)$ becomes a cocommutative pre-dgha, which will be denoted $U(L,\partial)$.
 
-The differential $\partial$ determines a differential, also denoted $\partial$, on the cocommutative pre-gca $\bigwedge^\prime L$, (for which gca see [[differential graded coalgebra]]).  It satisfies:
+The differential $\partial$ determines a differential, also denoted $\partial$, on the cocommutative pre-gca $\bigwedge' L$, (for which gca see [[differential graded coalgebra]]).  It satisfies:
 
-$$\bigwedge{\!}^\prime H(L,\partial) \cong H(\bigwedge{\!}^\prime L,\partial).$$
+$$\bigwedge' H(L,\partial) \cong H(\bigwedge' L,\partial).$$
 
-Let $i : L \to U(L)$ be the linear mapping $L\to T(L) \to U(L)$, then define $e: \bigwedge^\prime L \to U(L)$ by 
+Let $i : L \to U(L)$ be the linear mapping $L\to T(L) \to U(L)$, then define $e: \bigwedge' L \to U(L)$ by 
 
 $$e(x_1\wedge \ldots x_n) = \frac{1}{n!}\sum_\sigma \varepsilon(\sigma)i(x_{\sigma(1)})\ldots i(x_{\sigma(n)}),$$
 
@@ -134,11 +134,11 @@ Let $(A,\partial)$ be a cocommutative pre-dgha.  The vector space $P(A)$ of prim
 
 The inclusion $P(A)\to A$ extends to a morphism of cocommutative pre-dghas $\sigma: UP(A)\to A.$
 +-- {: .num_theorem #}
-###### Theorem (Quillen, **Quillen**)\\
+###### Theorem (Quillen, **Quillen**)
 If $A$ is conilpotent, $\sigma$ is an isomorphism.
 =--
 
-The above theorem and earlier corollary show that $U$ and $P$ are inverse equivalences between the category, $pre-DGLA$ and that of cocommutative, conilpotent pre-dghas.
+The above theorem and earlier corollary show that $U$ and $P$ are inverse equivalences between the category, $pre DGLA$ and that of cocommutative, conilpotent pre-dghas.
 
 
 
