@@ -1,5 +1,4 @@
 [[!redirects nitwitta]]
 
-category: meta
-category: redirect
 
+category: meta
