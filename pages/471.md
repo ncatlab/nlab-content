@@ -627,3 +627,5 @@ I need to learn more about how one would go about systematically defining concep
 My understanding is that Todd is going to write an entry on the Trimble definition of $\infty$-categories, and that this  issue appears there in some guise. So maybe I'll just wait for Todd's entry to appear...
 
 =--
+
+[[!redirects interval objects]]
