@@ -164,7 +164,7 @@ $$
     &\stackrel{Spec^{\mathcal{G}}}{\hookrightarrow}&   
     Sch(\mathcal{G}) 
     &\hookrightarrow&
-    Str(\mathcal{G}) 
+    \mathcal{L}Top(\mathcal{G})^{op} 
     &\hookrightarrow&      
     Sh_\infty(Pro(\mathcal{G}))
     \\
@@ -290,7 +290,7 @@ The archetypical examples are those obtained from the model space objects in $\m
 
 $$
   \mathcal{G} \stackrel{Spec^{\mathcal{G}}}{\hookrightarrow}
-  Str(\mathcal{G})
+  \mathcal{L}Top(\mathcal{G})^{op}
 $$
 
 Abstractly, this inclusion works as follows: let $\mathcal{G}_{disc}$ be the geometry $\mathcal{G}$ equipped with the discrete [[coverage|topology]] (no nontrivial covers). Then one can identify...
