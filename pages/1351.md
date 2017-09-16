@@ -23,3 +23,5 @@ Weakening the conditions on a [[stratified simplicial set]] to be a complicial s
 
 
 * Dominic Verity, _Complicial Sets_ ([arXiv](http://arxiv.org/abs/math/0410412))
+
+[[!redirects complicial sets]]
