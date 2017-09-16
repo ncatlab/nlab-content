@@ -253,7 +253,7 @@ Now: a right adjoint such as $ (-)^A$ preserves all limits, and in particular pu
 $$\array{
 \arrayopts{\rowalign{center axis center}}
 B^A & \longrightarrow & 1^A \\
-\llap{\scriptsize{\sigma^A}} \downarrow & & \downarrow \rlap{\scriptsize{t^\alpha}} \\
+\mathllap{\scriptsize{\sigma^A}} \downarrow & & \downarrow \mathrlap{\scriptsize{t^\alpha}} \\
 P(B)^A & \underset{\dlap{\chi_\sigma^A}}{\longrightarrow} & P(1)^A
 }$$
 
