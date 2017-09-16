@@ -35,21 +35,38 @@ called the $n$-**coskeleton**.
 
 The $n$-skeleton produces a simplicial set that is freely filled with degenerate simplices above degree $n$.
 
-By slight abuse of notation one also writes
+$$
+  ( sk_n \dashv tr_n \dashv cosk_n) \;\;
+   :
+   \;\;
+   sSet_{\leq n}
+   \stackrel{\overset{sk_n}{\to}}{\stackrel{\overset{tr_n}{\leftarrow}}{\overset{cosk_n}{\to}}}
+   sSet
+  \,.
+$$
+
+
+Write
 
 $$
-  cosk_n : sSet \to sSet
+  \mathbf{sk}_n := sk_n \circ tr_n: sSet \to sSet
 $$
 
-for the composite $sSet \stackrel{tr_n}{\to} [\Delta_{\leq n}] \stackrel{cosk_n}{\to} sSet$.
+and
+
+$$
+  \mathbf{cosk}_n := cosk_n \circ tr_n: sSet \to sSet
+$$
+
+for the composite functors. Often by slight abuse of notation we suppress the boldface and just write $sk_n : sSet \to sSet$ and $cosk_n : sSet \to sSet$.
+
 
 The $k$-coskeleton of a simplicial set $X$ is given by the formula
 
 $$
-  cosk_k X : [n] \mapsto Hom_{sSet}(sk_k \Delta^n, X)
+  \mathbf{cosk}_k X : [n] \mapsto Hom_{sSet}(sk_k \Delta^n, X)
   \,.
 $$
-
 
 
 Simplicial sets isomorphic to objects in the image of $cosk_n$ are called **coskeletal** simplicial sets.
@@ -61,7 +78,7 @@ For $X \in $ [[sSet]], the following are equivalent:
 
 * $X$ is $n$-coskeletal; 
 
-* on $X$ the unit  $X \to cosk_n(X)$ of the adjunction is an [[isomorphism]];
+* on $X$ the unit  $X \to \mathbf{cosk}_n(X)$ of the adjunction is an [[isomorphism]];
 
 * the map
 
@@ -82,6 +99,14 @@ For $X \in $ [[sSet]], the following are equivalent:
        \Delta[k]
     }
   $$
+
+## Examples
+
+### $n$-coskeletal Kan complexes
+
+A [[Kan complex]] that is $n$-coskeletal is (the [[nerve]] of) an [[n-groupoid]].
+
+A 0-coskeletal simplicial set $X$ is a [[contractible]] [[Kan complex]] , $X \stackrel{\simeq}{\to} *$ that is the [[nerve]] $X = N(C)$ of a [[groupoid]] $C$ that has a [[equivalence of categories]] $C \simeq *$.
 
 ## References
 
