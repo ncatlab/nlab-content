@@ -1,3 +1,5 @@
 See [[Frechet-Uryson space]].
 
 category: redirect
+
+[[!redirects Frechet-Uryson space  -- history]]
