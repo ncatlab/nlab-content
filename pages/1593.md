@@ -17,5 +17,5 @@ A formalization that also takes the spinorial degrees of freedom into account is
 
 A formulation in [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is indicated in 
 
-* U. Schreiber,  talk [[schreiber: Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
+* U. Schreiber,  talk [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]] at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] 
 
