@@ -1,12 +1,19 @@
-#Definition#
 
-A **section** of a [[morphism]] $f : A \to B$ is a **right-[[inverse]]**: a [[morphism]] $\sigma : B \to A$ such that
+#Contents#
+* automatic table of contents goes here
+{:toc} 
+
+## Definition
+
+A **section** of a [[morphism]] $f : A \to B$ in some [[category]] is a **right-[[inverse]]**: a [[morphism]] $\sigma : B \to A$ such that
 $$
   f \circ g : B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B
 $$
 equals the [[identity morphism]] on $B$.
 
-In this case, $f$ may also be called a [[retraction]] or **cosection** of $\sigma$, $B$ may be called a [[retract]] of $A$, and the entire situation is said to split the [[idempotent]]
+## Split idempotents
+
+In the case case that $f$ has a section $\sigma$, $f$ may also be called a [[retraction]] or **cosection** of $\sigma$, $B$ may be called a [[retract]] of $A$, and the entire situation is said to split the [[idempotent]]
 $$
   A \stackrel{f}{\to} B \stackrel{\sigma}{\to} A
   \,.
@@ -25,6 +32,14 @@ C&\stackrel{s}\rightarrow & B&\stackrel{p}\rightarrow& C
 }$$
 commutes and its both horizontal composites are identities. It is easy to check that every split fork is a [[coequalizer]], which is then called a **split coequalizer**.
 Clearly any functor sends a split coequalizer to a split coequalizer, hence every split coequalizer is an **[[absolute coequalizer]]** (coequalizer stable under all functors).
+
+## Sections of bundles and sheaves
+
+If one thinks of $f : A \to B$ as a [[bundle]] then its sections are sometimes called [[global section]]s. This leads to a notion of global sections of [[sheaves]] and further of objects in a general [[topos]]. See 
+
+* [[global section]]
+
+for more on this.
 
 
 [[!redirects sections]]
