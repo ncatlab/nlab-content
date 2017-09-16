@@ -5,7 +5,7 @@
 #Idea#
 
 
-Multisymplec geometry is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
+Multisymplectic geometry is a generalization of [[symplectic geometry]] to cases where the symplectic 2-form is generalized to a higher degree [[differential form]].
 It encodes aspects of [[n-symplectic manifold]]s. For the moment, see there for further details and references.
 
 In as far as [[symplectic geometry]] encodes [[Hamiltonian mechanics]], multisymplectic geometry may be regarded as resulving the symplectic geometry of the [[Hamiltonian mechanics]] of [[classical field theory]]: the kinematics of an $n$-dimensional field theory may be encoded in an degree $1+n$ higher symplectic form. Roughly the idea is that undeer a suitable fiber integration this becomes an ordinary symplectic form on the ordinary phase space of the theory.
