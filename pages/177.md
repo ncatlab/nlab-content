@@ -53,7 +53,7 @@ Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
 _[[Eric Forgy|Eric]] asks_: Given a small [[category]] $C$ whose set of objects is countable, I'm interested in finding the smallest [[directed graph]] $G$ such that its free category/quiver $F(G)$ is equivalent to $C$. Is that a standard construction? If so, what would it be called? Does that even make any sense?
 
-[[John Baez]]: If I had you a small category $C$, there's usually _no_ directed graph $G$ such that $F(G)$ is equivalent to $C$!  For example: suppose $C$ has one object and two morphisms.  (There are two categories of this sort; pick your favorite.)  Quivers are very special categories.
+[[John Baez]]: If I hand you a small category $C$, there's usually _no_ directed graph $G$ such that $F(G)$ is equivalent to $C$!  For example: suppose $C$ has one object and two morphisms.  (There are two categories of this sort; pick your favorite.)  Quivers are very special categories.
 
 [[Eric Forgy|Eric]] continues: Here is one idea I had...
 
@@ -82,6 +82,8 @@ _[[Eric Forgy|Eric]] says_: Great! Thanks for the references. I would find it to
 It seems that when every morphism is a composite of other morphisms, i.e. there are no primordial morphisms, it would be difficult to find the directed graph I'm looking for. If higher degree edges somehow provide the magic ingredient, that would be neat.
 
 _[[Eric Forgy|Eric]] says_: It seems what I was talking about might also be related to a [covering relation](http://en.wikipedia.org/wiki/Covering_relation). 
+
+[[Eric]]: Oh! I see John Baez is (likely with the help of the Wizard) playing with the space time continuum again. Ok! So the example with one object and two morphisms is a good one. Thanks! Now I can ask a related question, given a [[preorder]] $C$, I'd like to find the smallest directed graph $G$ such that $F(G)\equiv C$. But this reminds me of a [Hasse diagram](http://en.wikipedia.org/wiki/Hasse_diagram). Hmm...
 
 #See also#
 ***
