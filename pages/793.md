@@ -3,7 +3,7 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
 The space of [[differential geometry|differential geometric]] data consisting of
 
@@ -22,7 +22,7 @@ It was noticed originally in the study of [[conformal field theory|conformal fie
 Further generalisations let $X$ be a nontrivial torus bundle, but the T-dual is then generically a bundle of [[noncommutative torus|non-commutative tori]]. (cite Mathai, Rosenberg and Hannabus)
 
 
-## topological T-duality ##
+## topological T-duality 
 
 It turns out to be possible and useful to discuss just the _topological_ aspects of T-duality, meaning all the aspects that depend on the $X$ as a [[topological space]], on the topological class of the [[gerbe]] and of its 3-form curvature, but not on the [[Riemannian metric]] and not on the precise connection on the gerbe (there may be several inequivalent one for a given curvature)!
 
@@ -33,8 +33,8 @@ This sub-phenomenon is discussed in more detail at [[topological T-duality]].
 
 Another approach to the study of T-duality takes a somewhat complementary point of view and ignores the  [[Eilenberg-MacLane spectrum|integral cohomology]] class in $H^3(X,\mathbb{Z})$ of the [[gerbe]] but does consider the [[Riemannian metric]].
 
-The best language for describing this turns out to be [[generalized complex geometry]].
-
-The current state of the art of understanding geometric T-duality this way seems to be
+In this context T-duality is described as an isomorphism of [[standard Courant algebroid]]s. This picture emerged in the study of [[generalized complex geometry]].
 
 * Cavalcanti, Gualtieri, _Generalized complex geometry and T-duality_ ([pdf](http://www.math.uu.nl/people/cavalcan/homepage/Research_files/t-duality.pdf))
+
+* Jonas Persson, _T-duality and Generalized Complex Geometry_ ([arXiv](http://arxiv.org/abs/hep-th/0612034))
