@@ -43,16 +43,16 @@ $
 
 Systems of local isomorphisms on $PSh(S)$ are equivalent to [[Grothendieck topology|Grothendieck topologies]] on $S$.
 
-The following indicates how choices of systems of local isomorphisms are equivalent to choices of systems of [[local epimorphism]]s. The claim follows by the discussion at [[local epimorphism]].
+The following indicates how choices of systems of local isomorphisms are equivalent to choices of systems of [[local epimorphisms]]. The claim follows by the discussion at [[local epimorphism]].
 
 ## Local epimorphisms from local isomorphisms ##
 
-A system of [[local epimorphism]]s is defined from a system of local isomorphisms by declaring that $f : Y \to X$ is a [[local epimorphism]] precisely if $im(f) \to X$ is a local isomorphism.
+A system of [[local epimorphisms]] is defined from a system of local isomorphisms by declaring that $f : Y \to X$ is a [[local epimorphism]] precisely if $im(f) \to X$ is a local isomorphism.
  
 
 ## Local isomorphisms from local epimorphisms ##
 
-Given a [[Grothendieck topology]] in terms of a system of [[local epimorphism]]s, a system of local isomorphisms is constructed as follows.
+Given a [[Grothendieck topology]] in terms of a system of [[local epimorphisms]], a system of local isomorphisms is constructed as follows.
 
 A **local monomorphism** with respect to this topology is a morphism $f : A \to B$ in $[S^{op}, Set]$ such that the canonical morphism $A \to A \times_B A$ is a [[local epimorphism]].
 
@@ -64,7 +64,7 @@ Recall that [[Grothendieck topology|Grothendieck topologies]] on a [[small categ
 
 We have:
 
-the [[dense monomorphism]]s are precisely the local isomorphisms which are also ordinary [[monomorphism]]s.
+the [[dense monomorphisms]] are precisely the local isomorphisms which are also ordinary [[monomorphisms]].
 
 
 
@@ -91,14 +91,14 @@ $$
   \,,
 $$
 
-where $U$ is an object in $S$ and $Y$ is the [[Yoneda embedding]]. These come from covering [[sieve]]s of a [[Grothendieck topology]] on $S$: for $U \in S$ and $\{V_i \to U\}_i$ a covering [[sieve]] on $U$, the coresponding local isomorphism is the presheaf which is the [[image]] of the joint injection map
+where $U$ is an object in $S$ and $Y$ is the [[Yoneda embedding]]. These come from covering [[sieves]] of a [[Grothendieck topology]] on $S$: for $U \in S$ and $\{V_i \to U\}_i$ a covering [[sieve]] on $U$, the coresponding local isomorphism is the presheaf which is the [[image]] of the joint injection map
 
 $$
   \sqcup_i Y(V_i) \to Y(U)
   \,.
 $$
 
-Using the fact that morphisms in a presheaf category are [[strict morphism]]s, so that [[image]] and [[coimage]] coincide, it useful, with an eye towards generalizations to [[sheaf|sheaves]] to [[stack]]s and [[infinity-stack]]s (see in particular [[descent for simplicial presheaves]]), to say this equivalently in terms of the [[coimage]]: the local isomorphism corresponding to the covering [[sieve]] $\{V_i \to U\}$ is
+Using the fact that morphisms in a presheaf category are [[strict morphisms]], so that [[image]] and [[coimage]] coincide, it useful, with an eye towards generalizations to [[sheaf|sheaves]] to [[stacks]] and [[∞-stacks]] (see in particular [[descent for simplicial presheaves]]), to say this equivalently in terms of the [[coimage]]: the local isomorphism corresponding to the covering [[sieve]] $\{V_i \to U\}$ is
 
 $$
   colim (
@@ -111,7 +111,7 @@ $$
   Y(U)
 $$
 
-Notice that in general these are not _all_ the local isomorphism with representable codomain (more generally these are [[hypercover]]s, where 
+Notice that in general these are not _all_ the local isomorphism with representable codomain (more generally these are [[hypercovers]], where 
 $(\sqcup_i Y(V_i))\times_{Y(U)} (\sqcup_i Y(V_i))$ is replaced in turn by one of its covers).
 
 
@@ -173,3 +173,5 @@ This is in section 16.2 of
 * Kashiwara-Schapira, [[Categories and Sheaves]] .
 
 See in particular exercise 16.5 there for the characterization of [[Grothendieck topology|Grothendieck topologies]] in terms of local isomorphisms.
+
+[[!redirects local isomorphisms]]
