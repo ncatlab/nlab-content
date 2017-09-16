@@ -10,6 +10,8 @@ where $I = [0,1]$ (the [[unit interval]]) and $\sigma_0:X\to X\times I$ is given
 
 Set-theoretically, the mapping cone is usually represented by the quotient space $(X\times I \coprod Y)/{\sim}$ where $\sim$ is the smallest [[equivalence relation]] identifying $(x,0)\sim f(x)$ for all $x\in X$. 
 
+As any other pushout, the mapping cylinder has a universal property: for any space $Z$ and mapping $g_1:X\times I\to Z$, $g_2:Y\to Z$ such that $g_1(x,0)=g_2(f(x))$ for all $x\in X$, there is a unique $k:Cyl(f)\to Z$, such that the composition $X\times I\to Cyl(f)\stackrel{k}\to Z$ equals $g_1$ and the composition $Y\to Cyl(f)\stackrel{k}\to Z$ equals $g_2$.
+
 +-- {: .un_theorem}
 ###### Theorem
 Let $f:X\to Y$ be any continuous map.
