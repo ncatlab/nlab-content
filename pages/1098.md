@@ -29,3 +29,6 @@ $$
 Section 5.1 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]].
+
+[[!redirects (∞,1)-presheaf]]
+[[!redirects (∞,1)-presheaves]]
