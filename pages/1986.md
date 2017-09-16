@@ -41,6 +41,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Gleefully responded to John's gleeful response on [[directed graph]]. Note: I need to learn about this 'resolution' stuff.
 
 * [[Zoran Škoda]]: created [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
+
+* [[John Baez]]: I love the idea of an article full of [[reconstruction theorems]]!  I contributed one, perhaps not quite the sort Zoran was thinking --- but I just happened to have it on hand, and I think with some work one can see that it's part of the big family of Tannaka--Krein-like results.  By the way, I took a course with Kazhdan in which he went through tons of Tannaka--Krein--like theorems, but I've been unable to find my notes from that course!  He started with a very primitive (and thus important) result saying something like this: any $k$-linear abelian category with a faithful functor to $FinVect_k$ is equivalent to the category of finite-dimensional representations of some coalgebra.  Does anyone know a reference to this sort of theorem?  It's crucial that we use _co_algebras here.
+
 * [[Urs Schreiber]]: 
 
   * added something on the dual Dold-Kan correspondence relating _co_ -chain complexes and co-simplicial abelian groups to [[Dold-Kan correspondence]].
