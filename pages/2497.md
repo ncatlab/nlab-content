@@ -3,6 +3,10 @@
 * automatic table of contents goes here
 {:toc}
 
+#Disclaimer#
+
+In discussion elsewhere it has been asserted that half-baked and incomplete entries are welcome on nLab.  So I'm putting that to the test. -- KW
+
 #Idea#
 
 One way of thinking of the blob complex is as a generalization of the [[Hochschild complex]] to [[higher category theory|higher categories]] and higher dimensional manifolds.  
@@ -13,6 +17,20 @@ Its advantage over the Hochschild complex is that it is "local".  In higher dime
 
 
 #Definition#
+
+Two definitions.  The second is more general, and is homotopy equivalent to the first when both are available.  See references below for more details.
+
+First:
+
+* Start with a linear n-category C with strong duality (e.g. pivotal 2-category) and an n-manifold M.
+
+* Define B_0(M) to be finite linear combinations of "C string diagrams" drawn on M.
+
+* Define B_1(M) to be finite linear combinations of triples (B, u, r), where B \subset M is is a ball, r is a string diagram on M\setminus B, and u is a linear combination of string diagrams on which evaluates to zero.
+
+* Define B_2(M) to be ...
+
+Second definition:
 
 ...
 
@@ -34,7 +52,11 @@ It should be closely related to
 
 #References#
 
-A big article by  [[Kevin Walker]] and [[Scott Morrison]] is in preparation. Some notes appeared in the context of the
+A rough pre-preprint can be found [here](http://canyon23.net/math/blob1.pdf) or [here](http://tqft.net/blobs).
+
+Notes from talks can be found [here](http://canyon23.net/math/talks) and [here](http://tqft.net/UCR-blobs1).
+
+Some notes appeared in the context of the
 
 * [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
 
