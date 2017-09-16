@@ -4,6 +4,7 @@
 [[!include category theory - contents]]
 </div>
 
+
 #Idea#
 
 +-- {: .un_remark}
@@ -536,7 +537,6 @@ Zoran: I think that the wikipedia [article](http://en.wikipedia.org/wiki/Abstrac
 
 Todd: I think Zoran's basically right. The phrase is believed to have been coined by Norman Steenrod, who should be considered as friendly towards categorical methods. When snappily deployed, it's more likely than not an indication of the speaker's sophistication. Compare the deep truth underlying Freyd's witticism: "Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial."
 =--
-
 
 
 [[!redirects abstract nonsense]]
