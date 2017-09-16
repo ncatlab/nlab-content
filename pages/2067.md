@@ -1,7 +1,40 @@
 
 # Idea #
 
-...
+Given a [[functor]] $p : X \to Y$ between categories one may ask for each [[morphism]] $f : y_1 \to y_2$ if given a lift of its target
+$$
+  \array{
+    X &&& && \hat y_2
+    \\
+    \downarrow^p 
+    \\
+    Y &&& y_1 &\stackrel{f}{\to}& y_2
+  }
+$$
+
+there is an _essentially unique_ lift of $f$
+
+$$
+  \array{
+    X &&& \hat y_1 &\stackrel{\hat f}{\to}& \hat y_2
+    \\
+    \downarrow^p 
+    \\
+    Y &&& y_1 &\stackrel{f}{\to}& y_2
+  }
+  \,.
+$$
+
+Those morphisms $\hat f$ in $X$ which are essentially uniquely determined by their source $\hat y_1$ and their image $f = p(\hat f)$ in $Y$ are called _cartesian morphisms_ . If there are enough of them in $Y$ may by used to define [[functor]]s
+
+$$
+  f^* : X_{y_2} \to X_{y_1}
+$$
+
+between the [[fiber]]s of $p$ over $y_1$ and $y_2$. This way a functor $p : X \to Y$ with enough Cartesian morphisms -- called a [[Cartesian fibration]] or [[Grothendieck fibration]] -- determines and is determined by a fiber-assigning functor $Y \to Cat^{op}$.
+
+This has its analog in [[higher category theory|higher categories]].
+
 
 # Definition #
 
@@ -36,7 +69,7 @@ If for every morphism in $Y$ there is a lift through $p$ that is a cartesian mor
 
 Let $p : X \to Y$ be a morphism of [[simplicial set]]s that may be the [[quasi-category]] incarnation of an [[infinity-functor]] of [[(infinity,1)-category|(∞,1)-categories]].
 
-Assume that $p$ is an [[inner fibration]] of simplicial sets.
+Assume that $p$ is an [[inner Kan fibration]] of simplicial sets.
 
 Then an edge $f : x \to y$ in $X$ is _$p$-cartesian_ if the induced morphism
 
