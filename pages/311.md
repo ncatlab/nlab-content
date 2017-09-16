@@ -25,6 +25,12 @@ Regarding representable functors, since representations are unique up to unique 
 Even it uses a terminology "universal limiting cone" what is double notation as limiting cone and universal cone and universal initial cone and initial cone and limit are equivalent terms. One allows "universal initial" because sometimes one says "universal terminal".
 
 For representable I agreed, though I will of course continue using it with the structure whenever needed. 
+
+[[Mike Shulman|Mike]]: Actually, that page has not defined limits using cones, but using an isomorphism of hom-sets.  This is, of course, equivalent, but the section "Unwrapping" is about that equivalence.  So when it says "if the limit $lim F\in C$ of $F$ exists, then it singles out a special cone" it means that given an object $lim F$ _equipped with_ an isomorphism $Hom(c,lim F)\cong Hom(pt,Hom(c,F-))$ natural in $c$, there exists a particular cone and so on.  On the next line it defines that cone, using the isomorphism with which $\lim F$ is equipped.
+
+That is, a limit is an object equipped with data which makes it a limit.  That data might be a limiting cone, or it might be a certain natural isomorphism; it doesn't matter since either can be constructed from the other.
+
+I don't think anyone would argue, though, that that page is a work in progress.  It's certainly not all that clear which parts are the definitions, which parts are alternate definitions, and which parts are theorems.
 =--
 
 Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjunction]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
