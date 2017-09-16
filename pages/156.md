@@ -15,6 +15,9 @@ Notice that the [[axiom of choice]] fails in general when one considers [[intern
 Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a surjective equivalence $C\to S$.  In [[Categories, Allegories]] it is shown that the following are equivalent.
 
 1. Any two ana-equivalent categories are non-ana equivalent.
+   +-- {: .query}
+   By 'non-ana' here, do we mean weakly or strongly [[equivalence of categories|equivalent]]?  ---Toby
+   =--
 1. Every small category has a skeleton.
 1. Every small category has a coskeleton.
 1. Any two skeletons of a given small category are isomorphic.
@@ -22,8 +25,10 @@ Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a sur
 
 For convenience we add:
 
-1. Given a non-empty family $\{S_i\}_I$ of equinumerous sets there exists $0 \in I$  and a family of isomorphisms of the permutation groups $\{Aut(S_0) \to Aut(S_i)\}_I$.
-1. Given a family $\{S_i\}_I$ of non-empty equinumerous sets, there exists a family $(x_i)_I$ such that $x_i \in S_i$ for all $i in I$.
+1. Given an inhabited family $\{S_i\}_I$ of equinumerous sets there exists $0 \in I$  and a family of isomorphisms of the permutation groups $\{Aut(S_0) \to Aut(S_i)\}_I$.
+1. Given a family $\{S_i\}_I$ of inhabited equinumerous sets, there exists a family $(x_i)_I$ such that $x_i \in S_i$ for all $i \in I$.
+1. Given a family $\{S_i\}_I$ of inhabited sets, there exists a family $(x_i)_I$ such that $x_i \in S_i$ for all $i \in I$ (that is, the ordinary [[axiom of choice]]).
+
 
 [[!redirects skeleta]]
 [[!redirects skeletons]]
