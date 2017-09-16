@@ -247,3 +247,8 @@ and, building on that, in example 1.8 of
 [[!redirects homotopy groups (of an ∞-stack)]]
 [[!redirects homotopy groups (of infinity-stacks)]]
 [[!redirects homotopy groups (of ∞-stacks)]]
+
+[[!redirects fundamental group of an infinity-stack]]
+[[!redirects fundamental group of an ∞-stack]]
+[[!redirects fundamental groups of infinity-stacks]]
+[[!redirects fundamental groups of ∞-stacks]]
