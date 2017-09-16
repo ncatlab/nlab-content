@@ -28,6 +28,8 @@ The slice category is a special case of a [[comma category]].
 
 There is a [[forgetful functor]] $U_c: \mathbf{C}/c \to \mathbf{C}$ which maps an object $f:X \to c$ to its domain $X$ and a morphism $g: X \to X' \in \mathbf{C}$ (from $f:X \to c$ to $f': X' \to c$ such that $f' \circ g = f$) to the morphism $g: X \to X'$.
 
+The [[duality|dual]] notion is an [[under category]].
+
 
 ## Examples ##
 
@@ -43,8 +45,10 @@ There is a [[forgetful functor]] $U_c: \mathbf{C}/c \to \mathbf{C}$ which maps a
 * Similarly, there is a notion of [[model structure on an over category]].
 
 
-[[!redirects slice category]]
 [[!redirects over categories]]
 [[!redirects over-category]]
 [[!redirects over-categories]]
+[[!redirects overcategory]]
+[[!redirects overcategories]]
+[[!redirects slice category]]
 [[!redirects slice categories]]
