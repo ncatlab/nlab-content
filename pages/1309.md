@@ -45,6 +45,8 @@ _Toby_:  Doubting a $\le$ version and believing that reflecting linear orders is
 [[Todd Trimble|Todd]]: Guys, I may be confused here, but I'm having a problem: it seems that the empty relation on the 1-element set 1 is a cyclic order (in fact the only one on 1), and therefore (under the definition that monotone functions are those which reflect the cyclic order) that 1 is terminal. But then the category of finite (nonempty) cyclically ordered sets and monotone sets would have to be contractible. How does this square with the homotopy type of Connes' cyclic category (which I'm told is the same as that of $S^1$)? 
 
 This is the point that I stumbled on in the blog discussion on the cyclic category almost exactly two years ago, when I attempted to give my own description of $\Lambda$ (but using a cyclic analogue of total orders, which you two have challenged readers to give). You can see my attempted description [here](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html#c010503), and my retraction [here](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html#c010511). 
+
+_Toby_:  The problem is that the $0$-cycle (unlike the $[0]$-simplex) should not be a point but instead have a nontrivial loop, is that right?  And so it\'s not terminal, since a map to it from $[n]$ really consists of $n + 1$ binary choices (whether to be a degeneracy or to map to the nontrivial loop).
 =--
 
 # Remarks #
