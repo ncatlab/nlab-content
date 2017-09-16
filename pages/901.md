@@ -51,6 +51,16 @@ $$
    &\cong lim_{d\in D} colim_{e\in E}\; C(F d, G e)
 \end{aligned}$$
 
+Here
+
+* the first step is by assumption that each object is a suitable colimit;
+
+* the second by the fact that the contravariant Hom sends colimits to limits (see properties of [[colimit]]);
+
+* the third by the assumption that each object is [[finitely presentable object|finitely presentable]];
+
+*  the last by the assumption that the embedding is a [[full and faithful functor]].
+
 So then one _defines_ 
 
 $$
