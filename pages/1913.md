@@ -203,7 +203,7 @@ _A priori_, this definition depends not only on the particular coordinate patche
 When $\omega$ is an $n$-pseudoform, the definition of $\int_E \omega$ is independent of the coordinates and partition chosen.  Furthermore, the map from $n$-pseudoforms to measures is linear.
 =--
 
-Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value $|\omega_U|$ in place of $\omega_U$ in (eq:absvalposs) and the following equations, but then the map from forms to measures would not be linear.
+Note that, if $\omega$ were an $n$-form instead of a pseudoform, then the definition would depend on the orientation of the coordinates chosen.  We could fix that by using the absolute value $|\omega_U|$ in place of $\omega_U$ in (eq:absvalposs) and in the following equations, but then the map from forms to measures would not be linear.
 
 
 It may also be enlightening to consider how to go back from a measure to an $n$-pseudoform.  If $\omega$ is an [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] (see [Wikipedia](http://en.wikipedia.org/wiki/absolute_continuity) [articles](http://en.wikipedia.org/wiki/Radon_measure) until we get our own) on $X$, then it defines an $n$-pseudoform (which we may also call $\omega$) as follows:
@@ -244,7 +244,7 @@ _Toby_:  Ah, I see; your $M$ above need not be super, and it still works.  Then 
 
 There is a [[cohomology]] theory of smooth differential forms; we have a [[chain complex]]
 $$ \cdots \stackrel{\mathrm{d}}\to C^\infty\Omega^2(X) \stackrel{\mathrm{d}}\to C^\infty\Omega^1(X) \stackrel{\mathrm{d}}\to C^\infty\Omega^0(X) \stackrel{\mathrm{d}}\to 0 ;$$
-the [[chain cohomology]] of this complex is the __de Rham cohomology__ of $X$.
+the [[chain cohomology]] of this complex is the __[[de Rham cohomology]]__ of $X$.
 
 As smooth differential forms are the cochains in de Rham cohomolgy, the theory of integration of forms allows us to interpret [[relatively compact subspace|relatively compact]] oriented submanifolds as chains on $X$, giving us a [[homology]] theory.  Combining these, we have __Stokes\'s theorem__
 $$ \int_{\partial{R}} \omega = \int_R \mathrm{d}\omega ,$$
@@ -305,8 +305,6 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects weighted forms]]
 [[!redirects weighted pseudoform]]
 [[!redirects weighted pseudoforms]]
-[[!redirects de Rham cohomology]]
-[[!redirects deRham cohomology]]
 [[!redirects Stokes theorem]]
 [[!redirects Stokes' theorem]]
 [[!redirects Stokes's theorem]]
