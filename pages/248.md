@@ -1,3 +1,2 @@
-See [[stack]].
-
-category: delete
+&lt; [[stack*]]
+[[!redirects stack* -- history]]
