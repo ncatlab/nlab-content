@@ -1,8 +1,3 @@
-[[!redirects Lie's first theorem]]
-[[!redirects Lie's second theorem]]
-[[!redirects Lie's third theorem]]
-
-
 #Lie's three theorems#
 
 There is an obvious [[functor]]
