@@ -1,16 +1,21 @@
-## Idea ##
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 If $C$ is a [[finitely complete category]] (a category with all finite limits), then it\'s interesting to consider a left [[exact functor]] on $C$ (a functor that preserves all finite limits).  Even if $C$ lacks some finite limits, then this concept still makes sense, but it may not be the correct one.  Instead we use the stronger concept of a _flat functor_, which may be thought of as a functor that preserves all finite limits ---even the ones that don\'t exist yet!
 
-## Definition ##
+## Definition
 
 A [[functor]] $F: C \rightarrow D$ is **flat** if for each object $d \in D$, the [[comma category]] $(d / F)$ is [[filtered category|cofiltered]].
 
-### Remarks ###
+### Remarks
 
 * Some authors call this precisely a [[exact functor|left exact functor]], see the definition there.
 
-## Properties ##
+## Properties
 
 If $F$ is flat, then it preserves any finite limits that exist in $C$.  A partial converse holds: if $C$ has enough finite limits and $F$ preserves these, then $F$ is flat.
 
