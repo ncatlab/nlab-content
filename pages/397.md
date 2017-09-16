@@ -47,6 +47,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Rafael Borowiecki]]
 * [[Reid Barton]]
 * [[Richard Body]]
+* [[Roger Witte]]
 * [[Ronnie Brown]]
 * [[Sebastian Thomas]]
 * [[Simon Willerton]]
