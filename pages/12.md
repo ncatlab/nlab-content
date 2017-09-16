@@ -12,6 +12,14 @@ Rafael: I am just learning the nLab wiki syntax and rules. A preview when you ed
 I only included a start since i did this late by night with a problem how to start a new entry, a new syntax and a lot of waiting.
 
 That nLab works very slowly don't help. At least it is so on my computer and i think the fault is not at my end.
+
+_Toby_:  Hou\'re right, the problem is with the hosting company\'s server.  Urs and Andrew are working on getting a different one, I believe.
+
+The theory behind Instiki\'s lack of preview is that you preview by submitting and then editing again.  It\'s not as bad as that would be with MediaWiki, because successive edits signed by the same person within half an hour are counted as one.  And the reward is that you never lose anything because you thought that you submitted it but really only previewed it or because your browser/OS/computer/power crashes in the middle.  (Not everyone agrees that this way is better, of course.)
+
+Also, note another difference from Wikipedia: page titles are case sensitive even in the first letter.  Like Wikipedia, we tend to prefer lower case in our titles; unlike Wikipedia, this means that you must write something like `[[category|Category]]` when you do capitalise (unless there\'s a [[redirect]] ---those also work very differently in Instiki).
+
+I\'ll probably work a bit on transferring the timeline too.
 =--
 
 #Timeline#
