@@ -1,4 +1,4 @@
-#Christoffel symbol#
+#Christoffel symbols#
 * automatic table of contents goes here
 {:toc}
 
@@ -134,3 +134,6 @@ $$
 where $\{e^{\mu}{}_{a}\}$ denote the components of the inverse $e^{-1}$ bundle automorphism.
 
 This is traditionally the way that the Christoffel symbols are related to the notion of connection. But really both the Christoffel symbols as well as the spin connection components are nothing but a local component expression of the general notion of a connection $1$-form on a $GL(n)$-[[principal bundle]].
+
+
+[[!redirects Christoffel symbol]]
