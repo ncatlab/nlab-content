@@ -19,9 +19,7 @@ $$
   Spf\,R = \hat{X}
 $$ 
 
-(and often pronounced _spoof of $R$_)
-
-(viewed as a topological ring). It can be considered as an [[ind-object]] in the [[category]] of [[algebraic scheme]]s, viewed as a formal colimit
+(where $R$ is viewed as a topological ring). It is an [[ind-object]] in the [[category]] of [[algebraic scheme]]s, viewed as a formal colimit
 $colim_n Spec (R/I^n)$.
 
 A (locally) noetherian formal scheme is a formal completion of a (locally) noetherian scheme along a closed subscheme. Equivalently, a locally noetherian scheme is a locally ringed space which is locally isomorphic to the formal spectrum of a complete separated adic noetherian ring.
