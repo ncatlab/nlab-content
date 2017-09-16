@@ -56,7 +56,7 @@ $\mathcal{T}ors(G)$ is a gerbe on $B$.
 To see _locally non-empty_: If $U$ is any open set in $B$, then as $\mathcal{T}ors(G)(U) = Tors(U;G)$, the category of $G_U$-torsors over $U$, it has at least the [[trivial torsor|trivial $G_U$-torsor]] amongst its objects, so $\mathcal{T}ors(G)$ is locally non-empty.
 
 
-
++--{: .query}
 ===Differential geometry===
 * $H^3(X,\mathbb{Z})$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
 
@@ -64,3 +64,4 @@ _Daniel_:Please, would someone mind explain this with detail? I am interested in
 I got it from the entry on wikipedia on [gerbes,]( http://en.wikipedia.org/wiki/Gerbe) but it was not explained.
 
 [[Tim Porter|Tim]]:  I will get there but the route is not that short! It is however not that long either.
+=--
