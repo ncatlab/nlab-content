@@ -35,6 +35,9 @@ dipaths. A discussion document and overview of some techniques_ ([pdf](http://dr
 * Bombelli, Henson, Sorkin, _Discreteness without symmetry breaking: a theorem_ ([arXiv](http://arxiv.org/abs/gr-qc/0605006))
 * Dagstuhl Seminar Proceedings 04351, _Spatial Representation: Discrete vs. Continuous Computational Models_, ([web](http://drops.dagstuhl.de/portals/index.php?semnr=04351))
 
+See also:
+
+* [[directed homotopy theory]].
 
 ***
 #Discussion#
