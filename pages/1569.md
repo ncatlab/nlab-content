@@ -1,4 +1,4 @@
-[[!redirects Sandbox]]
+[[nitwitta]]
 
 category: meta
 category: redirect
