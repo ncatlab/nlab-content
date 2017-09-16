@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+* [[Urs Schreiber|Urs]]: to [[Toby Bartels|Toby]]: sure, I just thought for readability the discussion would be better had at the bottom of the page -- a big green box in the middle of the entry gives the reader the impression that he or shee needs to beware of some urgent unsettled issue before reading on 
+
 *  [[Toby Bartels]]:  I think that the naming discussion at [[ind-object]] is still current until Eric is happy.
 
 * [[Finn Lawler]]:  Replied to Toby at [[minimal logic]], and slightly expanded [[paraconsistent logic]] to incorporate some of our discussion.
