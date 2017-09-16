@@ -17,7 +17,7 @@ $ of open subsets into each other.
 
 #Remarks#
 
-* The category $Op(X)$ is a [[poset]].
+* The category $Op(X)$ is a [[partial order|poset]].
 
 * The category $Op(X)$ is naturally equipped with the
 structure of a [[site]], where a collection $\{U_i \to U\}_i$ of morphisms is a cover precisely if their [[union]] in $X$ equals $U$:
