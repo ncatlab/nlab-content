@@ -1,16 +1,7 @@
-author: AnonymousCoward
-company: 
-title: essential supremum
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
+The __essential supremum__ of a [[measurable function]] is essentially the [[supremum]] of its [[image]].  But we ignore things that happen only on a [[null set]].
 
-:category: S5-slideshow
+Until we write this article, see:
 
-essential supremum
-==============
-
-My First Slide
------------------
-
+* [Wikipedia](http://en.wikipedia.org/wiki/Essential_supremum)
+* [MathWorld](http://mathworld.wolfram.com/EssentialSupremum.html) (with a picture)
+* [PlanetMath](http://planetmath.org/encyclopedia/EssentialSupremum.html)
