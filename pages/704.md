@@ -26,4 +26,13 @@ C&\stackrel{s}\rightarrow & B&\stackrel{p}\rightarrow& C
 commutes and its both horizontal composites are identities. It is easy to check that every split fork is a [[coequalizer]], which is then called a **split coequalizer**.
 Clearly any functor sends a split coequalizer to a split coequalizer, hence every split coequalizer is an **[[absolute coequalizer]]** (coequalizer stable under all functors).
 
- 
+
+[[!redirects sections]]
+[[!redirects cross section]]
+[[!redirects cross-section]]
+[[!redirects right inverse]]
+[[!redirects right-inverse]]
+[[!redirects cross sections]]
+[[!redirects cross-sections]]
+[[!redirects right inverses]]
+[[!redirects right-inverses]]
