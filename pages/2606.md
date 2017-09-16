@@ -5,6 +5,9 @@
 [[!redirects Curry--Howard]]
 [[!redirects Curry--Howard isomorphism]]
 
+* tic
+{:toc}
+
 # Idea #
 
 __Triadic Analogy__
@@ -90,6 +93,8 @@ $$\array{x_A & = & x_A \mathop{I}_{A \Rightarrow A}}$$
 
 A suitable type assignment provides a propositional typing for $\mathop{I} : A \Rightarrow A$, whose type, read as a proposition, is a theorem of intuitionistic propositional calculus.
 
+## Step 3 (Optional) ##
+
 Check that $A \Rightarrow A$ is a theorem of classical propositional calculus.
 
 <table align="center" style="font-weight:bold"><td><pre>
@@ -171,3 +176,127 @@ o===========================================================o
 o-----------------------------------------------------------o
                                                              
 </pre></td></table>
+
+## Step 5 ##
+
+__Existential Graph Format : Application Triples with Structure Sharing__
+
+Redo the same development in Existential Graph notation.  In the work below, the term development is carried out in reverse, that is, in application order.
+
+<table align="center" style="font-weight:bold"><td><pre>
+o-----------------------------------------------------------o
+|                                                           |
+|             B   A          B   A                          |
+|             o---o          o---o                          |
+|             |              |                              |
+|             |   A      A   |          A x   A xI          |
+|             o---o      o---o          o-----o             |
+|             |          |              |                   |
+|         A   |          | K            | K(KS) = I         |
+|         o---o          o--------------o                   |
+|         |              |                                  |
+|         | K            | KS                               |
+|         o--------------o                                  |
+|         |                                                 |
+|         | S                                               |
+|         @                                                 |
+|                                                           |
+o===========================================================o
+|                                                           |
+|                                        B     A            |
+|                                        o-----o            |
+|                                        |                  |
+|               B     A                  | xK  A            |
+|               o-----o     ............[1]---[o](xK)(xK)   |
+|               |           .            |                  |
+|         A x   | xK        .      A x   | xK               |
+|         o----[1]...........      o-----o                  |
+|         |                        |                        |
+|         | K                      | K                      |
+|         @                        @                        |
+|                                                           |
+o===========================================================o
+|                                                           |
+|         A                                                 |
+|         @ x                                               |
+|                                                           |
+o-----------------------------------------------------------o
+                                                             
+</pre></td></table>
+
+__NB.__  Looking at my notes from Fall Term 1996, I'm still not sure what order I intended for the application triples, but the above is one likely guess:
+
+For example:
+
+* The nodes that are right-labeled $(\mathop{K}, \mathop{K}\mathop{S}, \mathop{K}(\mathop{K}\mathop{S}))$, in that order, constitute an application triple.
+
+* The type of the applicand $\mathop{K}$ is $A \Rightarrow (B \Rightarrow A)$.
+
+* The type of the applicator $\mathop{K}\mathop{S}$ is $(A \Rightarrow (B \Rightarrow A)) \Rightarrow (A \Rightarrow A)$.
+
+* Therefore, the type of the application $\mathop{K}(\mathop{K}\mathop{S})$ is $A \Rightarrow A$.
+
+# Composition, or the Composer #
+
+## Step 1 ##
+
+We are given a specification of the _composition combinator_, or the _composer_ $\mathop{P}$, in terms of the following effects:
+
+$$\array{x(y(z\mathop{P})) & = & (xy)z}$$
+
+We are asked to find an explication of $\mathop{P}$ in terms of primitive combinators.
+
+Proceed as follows:
+
+$$\array{
+(xy)z
+& = &
+(xy)(x(z\mathop{K}))
+& = &
+x(y((z\mathop{K})\mathop{S}))
+\\
+(z\mathop{K})\mathop{S}
+& = &
+(z\mathop{K})(z(\mathop{S}\mathop{K}))
+& = &
+z(\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))
+\\
+&& \Downarrow &&
+\\
+x(y(z\mathop{P}))
+& = &
+(xy)z
+& = &
+x(y(z(\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))))
+\\
+&& \Downarrow &&
+\\
+\mathop{P}
+&& = &&
+(\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))
+}$$
+
+## Step 2 ##
+
+Assign types in the following specification:
+
+$$\array{
+\arrayopts{\colalign{left}}
+((x \overset{ }{\underset{A}{\Downarrow}} \;
+  y \overset{A}{\underset{B}{\Downarrow}}
+  ) \overset{ }{\underset{B}{\Downarrow}} \;
+  z \overset{B}{\underset{C}{\Downarrow}}
+  ) \overset{ }{\underset{C}{\Downarrow}}
+\\ \\
+=
+\\ \\
+(x \overset{ }{\underset{A}{\Downarrow}} \;
+(y \overset{A}{\underset{B}{\Downarrow}} \;
+(z \overset{B}{\underset{C}{\Downarrow}} \;
+ P \overset{B \Rightarrow C}{\underset{(A \Rightarrow B) \Rightarrow (A \Rightarrow C)}{\Downarrow}}
+ ) \overset{A \Rightarrow B}{\underset{A \Rightarrow C}{\Downarrow}}
+ ) \overset{A}{\underset{C}{\Downarrow}}
+ ) \overset{ }{\underset{C}{\Downarrow}}
+}$$
+
+Here, a notation of the form $x \underset{A}{\Downarrow}$ means that $x$ is of the type $A$, while a notation of the form $x \overset{A}{\underset{B}{\Downarrow}}$ means that $x$ is of the type $A \Rightarrow B$.
