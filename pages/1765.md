@@ -236,7 +236,7 @@ $$
   \,.
 $$
 
-Because here $Y \times_X \times_Y \times Q$ is the space whose points consist of a point in a double overlap of the cover and a point in the fiber of $Q$ over that with respect to one patch, and the morphism identifies this with a point in the fiber of $Q$ regarded as sitting over the other patch. Analogously, there is a cocycle condition on $g$ on triple overlaps.
+Because here $Y \times_X Y \times_Y Q$ is the space whose points consist of a point in a double overlap of the cover and a point in the fiber of $Q$ over that with respect to one patch, and the morphism identifies this with a point in the fiber of $Q$ regarded as sitting over the other patch. Analogously, there is a cocycle condition on $g$ on triple overlaps.
 
 Now, blindly applying our functor that takes functions of spaces to the above diagram yields the double [[pushout]] diagram
 
