@@ -3,7 +3,7 @@ A _stable $(\infty,1)$-topos_ is to an [[(infinity,1)-topos]] as a [[stable (inf
 
 Recall that a Grothendieck-Rezk-Lurie [[(infinity,1)-topos]] is an [[(infinity,1)-category of (infinity,1)-sheaves]], i.e. of [[sheaf|sheaves]] with values in the [[(infinity,1)-category]] of [[infinity-groupoid]]s. 
 
-A _stable_ Grothendieck-Rezk-Lurie [[(infinity,1)-topos]] should therefore be an [[(infinity,1)-category]] of [[sheaf|sheaves]] with values in [[spectrum|spectra]].
+A _stable_ Grothendieck--Rezk--Lurie [[(infinity,1)-topos]] should therefore be an [[(infinity,1)-category]] of [[sheaf|sheaves]] with values in [[spectrum|spectra]].
 
 But maybe a full formalization of this idea has not appeared yet (?)
 
@@ -23,5 +23,7 @@ _Toby_:  You could call this an _abelian $(\infty,1)$-category_.  A topos is lik
 [[Mike Shulman|Mike]]: Well, while an abelian category is like the category of abelian groups, there are plenty of abelian categories other than categories of abelian sheaves, and it sounds like Urs is particularly interested in $(\infty,1)$-categories of sheaves of spectra.
 
 Also, I feel like a broken record saying this, but the category of spectra is _not_ the category of stably monoidal $\infty$-groupoids; that would be the category of _connective_ spectra.
+
+_Toby_:  I didn\'t think that this would make a difference to the elementary properties of the category, but maybe that\'s wrong.  I certainly see your point about restricting to categories of sheaves, however; I expected that that would go under the 'Grothendieck' or 'Grothendieck--Rezk--Lurie' condition.  But do we even have yet a notion of 'Grothendieck' abelian category that reproduces the concept of a category of abelian sheaves (other than simply 'category of abelian shaves')?
 
 =--
