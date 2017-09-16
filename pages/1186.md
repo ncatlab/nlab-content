@@ -4,13 +4,13 @@ A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(infinity,1
 
 There is a wealth of equivalent ways to make precise what this means, which are listed below. The two most important ones are maybe the following:
 
-## presentation by simplicial model categories$
+## presentation by simplicial model categories ##
 
 Presentable $(\infty,1)$-categories are precisely those [[(infinity,1)-category|(infinity,1)-category]] which are _presented_ by a combinatorial [[simplicial model category]] $C$ in that they are the full [[simplicially enriched category|simplicial subcategory]] $C^\circ \hookrightarrow C$ on fibrant-cofibrant objects of $C$ 
 
 (Or, equivalently, the [[quasi-category]] associated to this [[simplicially enriched category]]).
 
-Partly due to the fact that [[simplicial model category|simplicial model categories]] have been studied for a longer time than [[(infinity,1)-category|(infinty,1)-categories]], many $(\infty,1)$-categories are indeed handled in terms in terms of such a presentation by a [[simplicial model category]]. 
+Partly due to the fact that [[simplicial model category|simplicial model categories]] have been studied for a longer time than [[(infinity,1)-category|(infinity,1)-categories]], many $(\infty,1)$-categories are indeed handled in terms in terms of such a presentation by a [[simplicial model category]]. 
 
 The canonical example is the presentation of the [[(infinity,1)-category of (infinity,1)-sheaves]] on an ordinary (1-categorical) [[site]] $S$ by the simplicial [[model structure on simplicial presheaves|model category of simplicial presheaves]] on $S$.
 
@@ -35,7 +35,7 @@ where $A^\circ$ is the full [[SSet]]-subcategory of $A$ on fibrant-cofibrant obj
 This is equivalent to all of the following equivalent statements.
 
 
-* $C$ is [[accessible (infinity,1)-category|accesible]] and admits small [[limit in quasi-categories|colimits]];
+* $C$ is [[accessible (infinity,1)-category|accessible]] and admits small [[limit in quasi-categories|colimits]];
 
 * there exists a small $(\infty,1)$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(infinity,1)-category of (infinity,1)-presheaves]] on $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
@@ -45,7 +45,7 @@ This is equivalent to all of the following equivalent statements.
 * $C$ is [[accessible (infinity,1)-category|accessible]] and for every [[cardinal number|regular cardinal]] $\kappa$ the full subcategory $C^\kappa$ (...explanation to be filled in...) admits $\kappa$-small [[limit in quasi-categories|colimits]];
 
 
-* there exists a [[cardinal number|regular cardinal]] $\kappa$ such that $C$ is $\kappa$-[[accessible (infinity,1)-category|accesible]] and $C^\kappa$ ([explanation]()) admits $\kappa$-small [[limit in quasi-categories|colimits]];
+* there exists a [[cardinal number|regular cardinal]] $\kappa$ such that $C$ is $\kappa$-[[accessible (infinity,1)-category|accessible]] and $C^\kappa$ ([explanation]()) admits $\kappa$-small [[limit in quasi-categories|colimits]];
 
 * there exists a [[cardinal number|regular cardinal]] $\kappa$, a small $(\infty,1)$-category $D$ with $\kappa$-small [[limit in quasi-categories|colimits]] and an equivalence $Ind_\kappa D \stackrel{\simeq}{\to} D$ of $D$ with the category of $\kappa$-[[ind-object]]s of $D$;
 
