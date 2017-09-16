@@ -121,6 +121,8 @@ For the case of (2,1)-categories, here are a few papers that come to mind:
 * or even the discussion of the Burali-Forti paradox in a (2,3)-topos [[michaelshulman:category of all sets|here]].
 
 The point about "horizontal categorification" is, of course, that the intuition of "moving us higher in the hierarchy of $n$-categories" is only applicable, basically by definition, to *vertical* categorification.  Horizontal categorification is *supposed* to be something different.  I'd rather not call that "categorification" either, but it is certainly a process of "generalizing something to use categories."  However I *do* feel, as I've said, that "directification" does "move us higher in the hierarchy of $n$-categories"---it's just that that "hierarchy" is not *linear*!  Remember the [periodic table](http://ncatlab.org/nlab/show/%28n%2Cr%29-category#the_periodic_table_7) of (n,r)-categories.
+
+_Toby_:  All right, yes, that helps.  I\'ll sleep on it, but there\'s a good chance that you\'ve convinced me.
 =--
 
 If you like [[negative thinking]], then instead of saying that categorification 'replaces [[sets]] by [[categories]]' (to quote Wikipedia), you can say that we replace [[truth values]] by sets, especially the truth values of [[equality|equations]].  That is, we acknowledge that there may be many different ways in which something may be true, and in particular many different ways in which two things may be the same.  And then it is meaningful to ask whether two ways in which these things are the same are the same way (and if so, whether two ways that *they* are the same are the same way, etc).
