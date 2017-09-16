@@ -20,13 +20,13 @@ But this site started operation only a few months ago. Some structure is beginni
 
 * See the [[HowTo]]-page to get started if you want to contribute.
 
-* See [[latest changes]] to get an idea of recent activity and to log your own changes to the $n$Lab.
+* See [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) to get an idea of recent activity and to log your own changes to the $n$Lab.
 
-* There is a <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum">forum</a> (imaginatively called the $n$-Forum) for $n$Lab-related dicussion.
+* There is a [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum) (imaginatively called the $n$-Forum) for $n$Lab-related dicussion.
 
   * See in particular the discussion
 
-    [What is the scope of the nLab? Particularly original research?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=59&page=1#Item_43)
+    [What is the scope of the nLab? Particularly original research?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=59)
 
     where we are trying to figure out what the $n$Lab is precisely.
 
