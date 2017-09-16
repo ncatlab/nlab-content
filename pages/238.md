@@ -14,11 +14,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+* [[Andrew Stacey]]: Changed the example in [[topological concrete category]] for [[generalized smooth space]] since I think that all the examples listed there are topological over set.
+
 *  [[David Roberts]]: 
 
-  * Edited [[covering space]] as requested by [[Todd Trimble|Todd]]. I still wonder whether some of the discussion would be better off at [[universal covering space]].
+   * Edited [[covering space]] as requested by [[Todd Trimble|Todd]]. I still wonder whether some of the discussion would be better off at [[universal covering space]].
 
-  * Created stubs at [[semi-locally simply-connected space]] and [[locally path-connected space]].
+   * Created stubs at [[semi-locally simply-connected space]] and [[locally path-connected space]].
 
 # 2009-06-17 #
 
