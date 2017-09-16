@@ -1,4 +1,13 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 Local nets are a structure used in [[AQFT]] in order to axiomatize local algebras of observables in [[quantum field theory]].
+
+## Definition
 
 Let $X$ be a [[topological space]]. A co-[[presheaf]] on the [[category of open subsets]] of $X$
 
@@ -28,6 +37,6 @@ This axiom encodes the the physical property known as Einstein-causality or micr
 
 It is to be noted that many auxiliary operators in usual [[quantum field theory]] do _not_ satisfy this axioms, for instance operators associate to currents in gauge theory. The idea is that those operators that actually do qualify as _observables_ do satisfy the axiom, however, i.e. in particular those that are gauge invariant.
 
-#Related concepts#
+## Related concepts
 
 There is a version of the notion of local nets for Euclidean spaces. This is closely related to the notion of [[factorization algebra]].
