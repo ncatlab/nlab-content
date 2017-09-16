@@ -26,7 +26,7 @@ Note that $hom_{SVect}$ is indeed a super vector space, with the even elements b
 ### Internal hom for Banach spaces
 A similar thing happens in the category $Ban$ of [[Banach space]]s.  The external hom consists of only the linear maps bounded by $1$:
 $$ Hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \leq 1 \} .$$
-This definition of morphism recovers the proper notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = 1$ or $p = \infty$ respectively.
+This definition of morphism recovers the proper notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = \infty$ or $p = 1$ respectively.
 
 But the internal hom is the Banach space of all bounded linear maps:
 $$ hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \lt \infty \} .$$
