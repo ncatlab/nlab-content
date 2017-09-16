@@ -24,7 +24,7 @@ Coalgebras of this sort are an important ingredient in more sophisticated struct
 
 More generally: 
 
-* a **coalgebra for an endo[[functor]]** $F : C \to C$ on a [[category]] $C$ -- an _$F$-coalgebra_ --  is 
+* a [[coalgebra for an endofunctor]] $F : C \to C$ on a [[category]] $C$ -- an _$F$-coalgebra_ --  is 
 
     * an [[object]] $A$ of $C$;
 
@@ -34,7 +34,7 @@ More generally:
 
 ##Examples##
 
-* For $R$ a commutative ring, if the endofunction $F : C \to C$ is $F : R Mod \to R Mod$ given by $F : N \mapsto N \otimes N$, then $F$-coalgebras are precisely non-coassociative coalgebras in the specific sense of non-associtive monoids in $R Mod^{op}$. (See [[Tom Leinster]]'s comment [here](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020741)).
+* For $R$ a commutative ring, if the endofunction $F : C \to C$ is $F : R Mod \to R Mod$ given by $F : N \mapsto N \otimes N$, then $F$-coalgebras are precisely non-coassociative coalgebras in the specific sense of non-associative monoids in $R Mod^{op}$. (See [[Tom Leinster]]'s comment [here](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020741)).
 
 * $L_\infty$-[[L-infinity-algebra|algebra]]s are [[CoDGCA|cocommutative comonoids]] in the category of chain complexes.
 
