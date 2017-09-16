@@ -8,7 +8,7 @@ A [[functor]] $F: C \rightarrow D$ is __flat__ if each for each object $d \in D$
 
 ### Remarks ###
 
-* Some authors call this precisely an [[exact functor|left exact functor]], see the definition there.
+* Some authors call this precisely a [[exact functor|left exact functor]], see the definition there.
 
 ## Properties ##
 
