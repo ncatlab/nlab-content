@@ -119,6 +119,24 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 
 </table>
 
+The simplest expression for logical truth is the empty word, usually denoted by $\varepsilon$ or $\lambda$ in formal languages, where it forms the identity element for concatenation.  To make it visible in context, it may be denoted by the equivalent expression &ldquo;$\text{&#x2997;&#x2997; &#x2998;&#x2998;}$&rdquo;, or, especially if operating in an algebraic context, by a simple &ldquo;$1$&rdquo;.  Also when working in an algebraic mode, the plus sign &ldquo;$+$&rdquo; may be used for exclusive disjunction.  For example, we have the following paraphrases of algebraic expressions by means of parenthesized expressions:
+
+<div markdown="1"><font size="+1">
+$$\array{a + b & = & \text{&#x2997;} a \text{&#xFE50;} b \text{&#x2998;}}$$
+
+<br>
+
+$$\array{
+a + b + c
+& = &
+\text{&#x2997;} a \text{&#xFE50;&#x2997;} b \text{&#xFE50;} c \text{&#x2998;&#x2998;}
+& = &
+\text{&#x2997;&#x2997;} a \text{&#xFE50;} b \text{&#x2998;&#xFE50;} c \text{&#x2998;}
+}$$
+</font></div>
+
+It is important to note that the last expressions are not equivalent to the 3-place parenthesis $\text{&#x2997;} a \text{&#xFE50;} b \text{&#xFE50;} c \text{&#x2998;}$.
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
