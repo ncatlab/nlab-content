@@ -80,7 +80,13 @@ The point is really, as described in some detail at [[sheaf]], that we want to c
 
 Should we say this here again? Maybe. But It is already described in some detail at [[sheaf]].
 
-But of course you are right to "prefer" sieves in a way: they are the explicit hand-on realization of some abstract nonsense. That's why one useses them. As a tool. But their raison d'etre is the abstract nonsense that they are a manifestation of.
+But of course you are right to "prefer" sieves in a way: they are the explicit hand-on realization of some abstract nonsense. That's why one useses them. As a tool. But their raison d'etre is the abstract nonsense that they are a manifestation of. 
+
+[[Todd Trimble|Todd]]: I much prefer "subfunctor of a representable" on grounds of snappiness and immediate comprehension, but it may help (as I do myself) to think of 'subfunctor' here not in terms the general abstract notion of '[[subobject]]', but in terms of 'subset' of naive set theory. 
+
+The situation seems to be this: 'subobject' refers to an isomorphism class of monomorphisms. But probably most people think of isomorphism classes (or equivalence classes generally) as another layer of abstraction they would prefer to do without when they can; they would rather deal with concrete elements, picking out a distinguished representative of the class and working directly with that (for example, think of how we multiply in $\mathbb{Z}_{13}$ or something). So, instead of "isomorphism class of injective functions", they go straight to the actual subset inclusion in the class -- the 'image' as Bruce said -- as the distinguished element they want to get their hands on, formulated in the good old-fashioned language of naive sets and elements we grew up with, not this newfangled subobject nonsense. 
+
+Since presheaves $Set^{C^{op}}$ and sheaves are based on sets to begin with, we have that! So here there is no harm whatsoever in defining subfunctor in this concrete way, as an arrow $F \subseteq G$ whose components $F(c) \subseteq G(c)$ are literal subset inclusions. That's how I always picture these things myself, and it gives the notion of sieve straightaway, in a tight conceptual package. 
 =--
 
 +-- {: .un_lemma}
