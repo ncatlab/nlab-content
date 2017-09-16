@@ -1487,6 +1487,24 @@ f \Rightarrow 1,
 
 Thus, $\alpha_{0} = \beta_{15}$ is a totally indiscriminate measure, one that accepts all propositions $f : \mathbb{B}^2 \to \mathbb{B}$, whereas $\alpha_{15}$ and $\beta_{0}$ are measures that value the constant propositions $1 : \mathbb{B}^2 \to \mathbb{B}$ and $0 : \mathbb{B}^2 \to \mathbb{B}$, respectively, above all others.
 
+Finally, in conformity with the use of fiber notation to indicate sets of models, it is natural to use notations like the following to denote sets of propositions that satisfy the umpires in question.
+
+<div markdown="1"><font size="+1">
+$$\array{
+\text{&#x301A;} \alpha_{i} \text{&#x301B;}
+&amp; = &amp;
+\alpha_{i}^{-1}(1),
+\\
+\text{&#x301A;} \beta_{i} \text{&#x301B;}
+&amp; = &amp;
+\beta_{i}^{-1}(1),
+\\
+\text{&#x301A;} \Upsilon_{p} \text{&#x301B;}
+&amp; = &amp;
+\Upsilon_{p}^{-1}(1).
+}$$
+</font></div>
+
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # Functional conception of quantification theory #
