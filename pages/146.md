@@ -1,29 +1,43 @@
 #Definition#
 
-A presheaf on a category $S$ with values in a category $C$ is nothing but a functor 
+A **presheaf** on a category $C$ is nothing but a [[functor]]
 $$
-  S^{op} \to C
+ F : C^{op} \to Set
 $$
-from the [[opposite category]] $S^{op}$ to $C$.
+where $C^{op}$ is the [[opposite category]] of $C$.  More generally, given any category $S$, an **$S$-valued presheaf** on $C$ is a functor 
+$$
+  C^{op} \to S
+$$
+
+The **category of presheaves** on $C$, usually denoted $Set^{C^{op}}$ or $[C^{op},Set]$, but often abbreviated as $\widehat{C}$, has:
+
+* functors $F : C^{op} \to Set$ as objects;
+
+* [[natural transformation|natural transformations]] between such functors as morphisms.
+
+As such, it is an example of a [[functor category]].
 
 #Remarks#
 
-* One usually addresses such functors as presheaves instead of just as functors
+* There are certain special contexts in which one calls  functors $F: C^{op} \to S$ 'presheaves' instead of just functors, namely: 
 
-  * when one is interested in the [[Yoneda embedding]] of a category $C$ into its presheaf category $[C^{op}, Set]$ for purposes of studying for instance [[limit]]s, [[colimit]]s, [[ind-object]]s, [[pro-object]]s of $C$;
+  * when $S = Set$, and especially one is interested in the [[Yoneda embedding]] of a category $C$ into its presheaf category $[C^{op}, Set]$ for purposes of studying, for instance, [[limit]]s, [[colimit]]s, [[ind-object]]s, and [[pro-object]]s of $C$;
 
   * or when there is the structure of a [[site]] on $S$, such that it makes sense to ask if a given presheaf is actually a [[sheaf]].
 
 * One generally useful way to think of presheaves is in the sense of [[space and quantity]].
 
-* In the case where $C = Set$ and $S$ is [[small category|small]], an important general principle is that the category of presheaves on $S$ and [[natural transformation|natural transformations]] between them is the [[free cocompletion]] of $S$. 
-
+* In the case where $S = Set$ and $C$ is [[small category|small]], an important general principle is that the presheaf category $[C^{op},Set]$ is the [[free cocompletion]] of $S$.  Intuitively, it is formed by taking $C$ and 'freely throwing in small colimits'.  The category $C$ is contained in $[C^{op},Set]$ via the [[Yoneda embedding]]
+$$ Y : C \to [C^{op},Set]$$
+The Yoneda embedding sends each object $c \in C$ to the presheaf
+$$ F(-) = hom(-, c) $$
+Presheaves of this form, or isomorphic to those of this form, are called [[representable functors|representable]].
 
 #Properties of presheaves#
 
 Any category of presheaves is [[complete category|complete]] and [[cocomplete category|cocomplete]], with both [[limit|limits]] and [[colimit|colimits]] being computed _pointwise_.  That is, to compute the limit or colimit of a diagram $F : D \to Set^{C^op}$, we think of it as a functor $F: D \times C^{op} \times Set$ and take the limit or colimit in the $D$ variable.
 
-Every presheaf is a [[colimit]] of a [[representable functor]].
+Every presheaf is a [[colimit]] of [[representable functor|representable presheaves]].
 
 An elegant way to express this for any preaheaf $F : C^{op} \to Set$ is as the [[end|coend]] identity
 $$
