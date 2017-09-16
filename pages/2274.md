@@ -15,7 +15,7 @@ $$
 
 Here $\Pi^{inf}(X)$ is effectively the [[infinitesimal singular simplicial complex]] of $X$ and $A$ is modeled typically as a [[sheaf]] of [[∞-groupoid]]s as described at [[models for ∞-stack (∞,1)-toposes]].
 
-This was originally considered by [[Alexander Grothendieck|Grothendieck]] for [[scheme]]s in the context of [[algebraic geometry]] for the case that $A$ is a 1-[[groupoid]] -- but the genralization to [[∞-groupoid]]s in [[synthetic differential geometry]] is immediate.
+This was originally considered by [[Alexander Grothendieck|Grothendieck]] for [[scheme]]s in the context of [[algebraic geometry]] for the case that $A$ is a 1-[[groupoid]] -- but the generalization to [[∞-groupoid]]s in [[synthetic differential geometry]] is immediate.
 
 
 #Details#
