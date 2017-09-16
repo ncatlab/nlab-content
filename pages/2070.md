@@ -6,6 +6,10 @@ As a special case, a __regular open__ in a [[locale]] $S$ is a regular element o
 
 Analogously, a __regular open set__ in a [[topological space]] $X$ is a regular element of the frame of open sets of $X$; equivalently, an open set which equals the interior of its closure, or equivalently the exterior of its exterior.  (This is the origin of the term, related to a [[regular space]].)
 
+The __regularisation__ of $x$ is $\neg{\neg{x}}$; note that this is regular.  In fact, any element of the form $\neg{y}$ is regular.
+
 
 [[!redirects regular open]]
 [[!redirects regular open set]]
+[[!redirects regularisation]]
+[[!redirects regularization]]
