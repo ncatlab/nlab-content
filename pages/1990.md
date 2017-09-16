@@ -1,4 +1,3 @@
-
 #Idea#
 
 In the context of [[synthetic differential geometry]] a [[differential form]] $\omega$ of degree $k$ on a [[manifold]] $X$ is literally a function on the space of _infinitesimal cubes_ or _infinitesimal simplices_ in $X$.
@@ -41,7 +40,7 @@ $$
 
 of the [[simplicial set|degeneracy maps]]. As one can see, these act by restricting a function on infinitesimal $k$-simplices to the degenerate ones and regarding these then as a $(k-1)$-simplex.
 
-Therefore we may characterize the subobject $\Omega^k(X) \hookrigtharrow C^\infty(X^{\Delta^k_{inf}})$ as the joint kernel of the degeneracy maps
+Therefore we may characterize the subobject $\Omega^k(X) \hookrightarrow C^\infty(X^{\Delta^k_{inf}})$ as the joint kernel of the degeneracy maps
 $$ 
   \Omega^k(X) = \cap_{i = 0}^{k-1} ker(s_i^*)
   \,.
@@ -71,7 +70,7 @@ $$
   \,.
 $$
 
-These constructions remind one and should be compared with the [[Dold-Kan correspondence]]. In particular with its _dual_ (cosimplicial) version as recalled in section 4 of [CastigliniCortinas](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf)
+These constructions remind one and should be compared with the [[Dold-Kan correspondence]]. In particular with its _dual_ (cosimplicial) version as recalled in section 4 of [CastiglioniCortinas](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf)
 
 In total this should show the following
 
