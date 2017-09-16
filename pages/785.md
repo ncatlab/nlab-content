@@ -34,7 +34,7 @@ the **homotopy fiber product** $X \times_{Z^I} Y$ of $X$ with $Y$ over $Z$ is th
 $$
   \array{
      X \times_{Z^I} Y
-     &\to&\to& \to& X
+     &\to&\to& \to& Y
      \\
      \downarrow
      &&&& 
