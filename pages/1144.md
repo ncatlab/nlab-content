@@ -13,7 +13,7 @@ As with many other parts of [[homotopy theory]] one can view _rational homotopy 
 * or alternatively one looks at fairly arbitrary nice spaces, but collects up and uses only the information available using some particular type of [[homotopy functor]].
 
 
-From the first viewpoint, rational homotopy theory studies special [[topological space]]s called **rational spaces**. 
+From the first viewpoint, rational homotopy theory studies special [[topological space]]s called **[[rational topological space|rational spaces]]**. 
 
 The point of this is that
 
