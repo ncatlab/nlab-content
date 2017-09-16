@@ -2,14 +2,15 @@ For $S$ a small [[site]] let $SimpSh(S)$ be the full category of [[simplicial pr
 
 The local [[model category]] structure on $SimpSh(S)$ is originally due to Joyal. It is closely related to the local [[model structure on simplicial presheaves]].
 
-#Local model structure#
+#Local injective model structure#
 
 +-- {: .un_theorem }
 ###### Theorem 
 
 There is a proper closed [[simplicially enriched category|simplicially enriched]] [[model category]] structure on $SimpSh(S)$ such that
 
-* cofibrations are precisely the monomorphisms in $SimpSh(S)$;
+* cofibrations are precisely the objectwise cofibrations (monomorphisms) of [[simplicial set]]s;
+
 
 * weak equivalences are the _local weak equivalences_ of the underlying simplicial presheaves as defined at [[model structure on simplicial presheaves]].
 
