@@ -59,13 +59,22 @@ $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 
 
 # References #
+Compactly generated spaces were first introduced by J. L. Kelley, see his book
+
+* J. L. Kelley, _General topology_, D. van Nostrand, New York 1955. 
+
+Many properties of compactly generated Hausdorff spaces are used to establish a variant of the theory of fibrations, cofibrations and deformation retracts in 
+
+* N. E. Steenrod, _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
+
+Later references include
 
 * R. Brown, _Topology and groupoids_, Booksurge 2006, section 5.9. 
 
 * Booth, Peter I.; Heath, Philip R.; Piccinini, Renzo A.
 Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
 
-* J. P. May, _A Concise Course in Algebraic Topology_, Chapter 5 (I think)
+* J. P. May, _A concise course in algebraic topology_, Chapter 5 [file, revised version](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
 
 [[!redirects compactly generated spaces]]
 [[!redirects k-space]]
