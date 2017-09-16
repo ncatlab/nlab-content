@@ -1,6 +1,6 @@
 A [[finite object]] in a [[category]] is a generalisation of the notion of [[finite set]] in [[Set|the category of sets]].
 
-As there are already at least five distinct notions of finite set in [[constructivism|constructive mathematics]], so there must be at least five distinct notions of finite object internal to a topos.  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions.  Only some are mentioned below.
+As there are already at least five distinct notions of finite set in [[constructive mathematics]], so there must be at least five distinct notions of finite object internal to a topos.  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions.  Only some are mentioned below.
 
 # Definitions
 
