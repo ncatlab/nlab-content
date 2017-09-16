@@ -40,5 +40,12 @@ The usual Fourier transform (for periodic functions) passes between Fourier coef
 
 If the "Fourier transform" is properly formulated (using enriched tensor products), then the same holds for any monoidal category in place of the discrete monoidal category $\mathbb{N}$. 
 
-_[[AnonymousCoward]] says_: The passage to analytic functors eems more like a z-transform or Laplace transform. In the particular case of species, it is the Laplace transform formula that applies to the analytic functor of a derivative of a species, not the Fourier transform one involving multiplication by the imaginary unit.
+_[[AnonymousCoward]] says_: The passage to analytic functors seems more like a z-transform or Laplace transform. In the particular case of species, it is the Laplace transform formula that applies to the analytic functor of a derivative of a species, not the Fourier transform one involving multiplication by the imaginary unit.
+
 The use of hom above is reminiscent of the Dirac delta. Is there a connection?
+
+_[[John Baez]] says_: It's true that the passage from a sequence $a_n$ to a power series $\sum_n a_n z^n$ is precisely the $z$-transform.  If we get $z = exp(i \theta)$, we get the Fourier transform, but as you note this makes use of the imaginary unit $i$, which plays no known role Day convolution.  So, the analogies Todd is discussing become most precise if we work with the $z$-transform.  But, the Fourier transform is also related.
+
+On the other hand, I've discovered that many 'pure mathematicians' don't know about the $z$-transform --- at least, not under that name.  I think it's 'engineers' who talk most about the $z$-transform.  So, if you're trying to explain Day convolution to pure mathematicians, it's pedagogically best to start talking about the Fourier transform, and then later mention the $z$-transform.
+
+In general $hom$ is a categorified version of an inner product.  I'm too lazy to figure out how this is related to the Dirac delta, but I would not be surprised if there were a connection.
