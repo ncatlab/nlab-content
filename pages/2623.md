@@ -32,7 +32,7 @@ This procedure justifies itself mainly through the remarkable fact that the numb
 
 The combinatorial Hopf algebraic approach to perturbative quantum field theory , see for instance
 
-* Hector Figueroa, Jose M. Gracia-Bondia, _Combinatorial Hopf algebras in quantum field theory I_ ([arXiv](http://arxiv.org/abs/hep-th/0408145))\,,
+* Hector Figueroa, Jose M. Gracia-Bondia, _Combinatorial Hopf algebras in quantum field theory I_ ([arXiv](http://arxiv.org/abs/hep-th/0408145)),
 
 starts with the observation that the BPHZ-procedure can be understood 
 
