@@ -64,7 +64,7 @@ A Lie algebroid over the manifold $X$ is
 
     2. in the CE-definition: $\mathrm{CE}(T X) = (\Omega^\bullet(X), d_{deRham})$;
 
-*  **Bundles of Lie algebras** $E \to X$ with fiber $\mathfrak{g}$ are Lie algebroids with $\rho = 0$ and fiberwise bracket. In particular, for $G$ a Lie group with Lie algebra $\mathfrak{g}$ and $P \to X$ a $G$-principal bundle, the _adjoint bundle_ $ad P := P \times_G \mathfrak{g}$ (where $\mathfrak{g}$ is associated using the adjoint representation of $G$ on its Lie algebra) is a bundle of Lie algebras.
+*  **Bundles of Lie algebras** $E \to X$ with fiber $\mathfrak{g}$ are Lie algebroids with $\rho = 0$ and fiberwise bracket. In particular, for $G$ a Lie group with Lie algebra $\mathfrak{g}$ and $P \to X$ a $G$-principal bundle, the _adjoint bundle_ $ad P := P \times_G \mathfrak{g}$ (where $\mathfrak{g}$ is associated using the [[adjoint representation]] of $G$ on its Lie algebra) is a bundle of Lie algebras.
 
  * The **Atiyah Lie algebroid**: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
 $$
