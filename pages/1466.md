@@ -88,7 +88,11 @@ Altogether, these may be seen as axiomatising the notion of *approximate* [[equi
 *  [[symmetric relation|symmetric]]: $x \approx y$ iff $y \approx $, but
 *  NOT [[transitive relation|transitive]]: $x \approx y \approx z$ does not necessarily mean that $x \approx z$.
 
-One could stop there, but this is not a very useful notion of approximation.  Instead we generalise to a *family* of approximate equivalence relations and impose the $\frac{\varepsilon}{2}$ principle to allow them to be used.  This is nearly the definition of uniform space; in particular, the first axiom states precisely that each entourage is relfexive.  The symmetry axiom in the standard definition is weaker than requiring each individual entourage to be symmetric, but that is not an essential change; every uniformity has a base consisting of only symmetric entourages.  The final three axioms have already been explained as a closure condition; they force equivalent uniformities on a given set (in the sense that the [[identity function]] on the set is uniformaly continuous either way) to be equal.
+One could stop there, but this is not a very useful notion of approximation.  Instead we generalise to a *family* of approximate equivalence relations and impose the $\frac{\varepsilon}{2}$ principle to allow them to be used.  This is nearly the definition of uniform space; in particular, the first axiom states precisely that each entourage is reflexive.  The symmetry axiom in the standard definition is weaker than requiring each individual entourage to be symmetric, but that is not an essential change; every uniformity has a base consisting of only symmetric entourages.  The final three axioms have already been explained as a closure condition; they force equivalent uniformities on a given set (in the sense that the [[identity function]] on the set is uniformaly continuous either way) to be equal.
+
++--{.query} 
+[[Todd Trimble|Todd]]: Nice mop-up job, Toby -- thanks. 
+=--
 
 ## References
 
