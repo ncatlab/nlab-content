@@ -245,7 +245,6 @@ I have done some research and think the discussion is really about how you view 
 
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 
-
 * A unifying tool and language in [[mathematics]].
 
 * An organizational tool in [[mathematics]].
@@ -260,9 +259,9 @@ I have done some research and think the discussion is really about how you view 
 
 * The theory of [[directed graph|directed multipseudographs]] with a [[composition]] law and identity loops. This has given rise to the heavy use of diagrams in category theory.
 
-* A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
+* A theory of [[type theory|type theories]]. See objects as types and morphisms as mappings between types. Every categorys internal language is a type theory and every type theory of appropriate form defines a category, the type theorys free model.
 
-* A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
+* A theory of [[deductive system]]s. By assimilating a categorys objects to statements or formulas and morphisms to deductions (or proofs) a category can be presented equationally as a certain kind of deductive system (with an equivalence relation on deductions).
 
 * A theory of [[presheaves]] with some properties on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$.
 
