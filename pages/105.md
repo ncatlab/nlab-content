@@ -34,3 +34,6 @@ This develops the theory of localization in [[category of fibrant objects|catego
 Homotopical cohomology theory in the context of the [[homotopy theory]] of simplicial presheaves (presheaves with values in simplcial sets) has been much developed by Jardine. For instance
 
 * J. Jardine, _Cocycle categories_ ([arXiv](http://arxiv.org/abs/math.AT/0605198))
+
+
+[[!redirects Homotopical cohomology theory]]
