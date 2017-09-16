@@ -2,6 +2,10 @@
 
 Given a [[concrete category]] $C$, we can **explode** $C$ into a new category $Explode(C)$. The objects of $Explode(C)$ consist of all the elements of all the objects of $C$.
 
++-- {: .query}
+Eric, what would you call $Explode(C)$ is words?: the 'explosion' of $C$, the 'exploding' of $C$, the 'exploded category' of $C$?  ---Toby
+=--
+
 The morphisms of $Explode(C)$ are the obvious ones inherited from the morphisms of $C$, i.e. given a morphism
 
 
