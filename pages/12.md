@@ -197,10 +197,6 @@ This is the original Markdown list:
 1.  McHale
 1.  Parish
 
-`some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;codesome&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;codesome&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;codesome&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;codesome&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code&nbsp;some&nbsp;long&nbsp;code`
-
-`some long code some& long code some long code some long code some long code some long code some long code some long codesome long code some long code some long code some long codesome long code some long code some long code some long codesome long code some long code some long code some long codesome long code some long code some long code some long code`
-
 <table markdown="1"><tr><td>I can put $x^2$ math in a table!</td></tr></table>
 
 | Another  | Way  |
