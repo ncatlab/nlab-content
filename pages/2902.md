@@ -146,7 +146,8 @@ Here the first step comes directly from the defining equation for $\Phi$, and th
 
 * John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
 
-* Ian Mueller, _Philosophy of Mathematics and Deductive Structure in Euclid's Elements_, MIT Press, Cambridge Massachusetts, 1981, pp. 257-258 and references therein.
+* Ian Mueller, _Philosophy of Mathematics and Deductive Structure in Euclid's Elements_, MIT Press, Cambridge Massachusetts, 1981, pp. 257--258 and references therein.
+
 
 [[!redirects pentagon-decagon-hexagon identity]]
 [[!redirects pentagon–decagon–hexagon identity]]
