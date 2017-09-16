@@ -2,6 +2,10 @@
 
 The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[group]]s, [[ring]]s without unit, [[algebra]]s without unit, Lie algebras, as nicely as the axioms of an [[abelian category]] captures the properties of the category of abelian groups and of modules.
 
++--{: .query}
+[[Mike Shulman|Mike]]: Why only rings without units (that is, rngs)?  What important properties do the above listed examples share that are not shared by rings with units?
+=--
+
 
 #Definition#
 
@@ -32,6 +36,7 @@ A [[category]] $C$ is **semi-abelian** if it
 
 [[Urs Schreiber|Urs]]: the statement about the two equivalent defintions was taken directly from the reference given below -- maybe I copied it incorrectly, but then we should keep the corrected version of the second definition here
 
+[[Mike Shulman|Mike]]: It seems that $Set_*$ is Barr-exact and has a zero object and finite coproducts, so it must fail at being Bourn-protomodular.  Could someone fill in a definition for what that means?
 =--
 
 #Remarks#
