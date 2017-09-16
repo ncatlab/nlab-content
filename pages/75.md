@@ -193,3 +193,4 @@ It may seem on first sight that foundational questions in mathematics are remote
 [[!redirects Foundations]]
 [[!redirects foundations of mathematics]]
 [[!redirects foundation of mathematics]]
+[[!redirects foundation]]
