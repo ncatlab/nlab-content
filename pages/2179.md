@@ -1,1 +1,1 @@
-&lt; [[inquiry]]
+&lt; [[inquiry driven system]]
