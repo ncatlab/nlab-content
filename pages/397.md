@@ -9,6 +9,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Chris Brav]]
 * [[Chris Schommer-Pries]]
 * [[Dan Lior]]
+* [[Daniel de França MTd2]]
 * [[David Corfield]]
 * [[davidfsnyder|David F. Snyder]]
 * [[David Roberts]]
