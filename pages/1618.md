@@ -85,14 +85,6 @@ More precisely: if it is true that every morphism $f : A \to B$ such that for ev
 
 * For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
 
-+--{.query}
-
-_Todd_: I don't have much time to think about this now, but I doubt this is true. A "point" of $Sh(X)$ corresponds to a closed irreducible set of $X$, and there may be very few of these. The claim is true though if $X$ is sober.
-
-[[Mike Shulman]]: But $Sh(X)$ is equivalent to $Sh(X_{sober})$, where $X_{sober}$ is the soberification of $X$, since $X_{sober}$ and $X$ have the same frame of open sets.
-
-=-- 
-
 * Let $Diff$ be a [[small category]] version of the category of smooth manifolds (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $Sh(Diff)$ has precisely one point $p_n$ per natural number $n \in \mathbb{N}$ , corresponding to the $n$-ball: the [[stalk]] of a sheaf on $Diff$ at that point is the colimit over the result of evaluating the sheaf on all $n$-dimensional smooth balls.
 
   This is discussed for instance on p. 36 of 
