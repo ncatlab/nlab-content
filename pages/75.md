@@ -124,6 +124,10 @@ To make ETCC a practical foundation we need to replace these ideas.  We need a g
 [[Mike Shulman]]: To me, anything called a *foundation* should, in particular, suffice as a foundation for *existing* mathematics.  If someone has a "vision" and wants to go off into their own world and invent some new universe of mathematics based on its own foundation, that's their prerogative, but I don't think that justifies calling ETCC a foundation for mathematics.  And I thought that was the point being made: that we don't (currently) know how to describe much ordinary mathematics cleanly in ETCC (without going via ETCS), and so it is not really suitable as a foundation for mathematics.
 
 By the way, one can give a general definition of "structure" in set theory which includes basically everything people study.  Bourbaki did this in one way using material set theory, and versions for structural set theory are also easy to come up with.  So it really is true that we can define everything "in the same way" based on sets.
+
+_Toby_:  ETCC *is* a foundation for existing mathematics, via ETCS, as you note.  It is not a *convenient* foundation for existing mathematics, which explains my answer to Urs up above.  But Roger responds that the mathematics that we should work on in the future is mathematics for which ETCC *is* convenient.  I don\'t see anything contradictory or wrong here, even though Roger\'s position is at least controversial.
+
+BTW, I wouldn\'t say that Bourbaki\'s theory of structure is 'using' material set theory.  Bourbaki dealt with relations, functions, and the like; like their other work, it\'s already structural.  The only reason that you know that their sets are material is because you\'ve read the earlier sections.  (^_^)
 =--
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
 
