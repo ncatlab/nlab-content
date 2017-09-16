@@ -197,7 +197,9 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[closed monoidal category]]
 
+* [[enriched category theory]]
 
+  * [[enriched category]]
 
 #5 Generators and Representability#
 
@@ -221,7 +223,9 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[Ab]]
 
-* [[Ab-renriched category]]
+* [[Ab-enrriched category]]
+
+* [[additive and abelian categories]]
 
   * [[pre-additive category]]
 
