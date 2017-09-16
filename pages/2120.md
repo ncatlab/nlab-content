@@ -8,5 +8,7 @@ A function $f$ between [[convergence spaces]] is __continuous__ if for any filte
 A __continuous map__ between [[locales]] is simply a [[frame]] homomorphism in the opposite direction.
 
 
-[[!redirects continuous function]]
+[[!redirects continuous map]]
 [[!redirects continuous maps]]
+[[!redirects continuous function]]
+[[!redirects continuous functions]]
