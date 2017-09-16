@@ -16,7 +16,7 @@ $$
   G : Sch(\mathcal{G})/X \to Ab \infty Grpd
 $$
 
-from $\mathcal{G}$-schemes over $X$ to topological abelian groups, such that composition with the forgetful functor $Ab \infty Grpd$ \to \infty Grpd$ is [[representable functor|representable]] by a [[derived scheme]] flat over $X$.
+from $\mathcal{G}$-schemes over $X$ to topological abelian groups, such that composition with the forgetful functor $Ab \infty Grpd \to \infty Grpd$ is [[representable functor|representable]] by a [[derived scheme]] flat over $X$.
 
 
 This is (adapted from) definition 3.1 of 
