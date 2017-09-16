@@ -18,3 +18,4 @@ An initial object 0 is called **strict** if any morphism $x\to 0$ must be an iso
 
 
 [[!redirects initial]]
+[[!redirects coterminal object]]
