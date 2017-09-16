@@ -13,3 +13,6 @@ There are categories which are cartesian closed and not locally cartesian closed
 * Howie, J.. Pullback functors and crossed complexes, Cahiers Topologie G\'eom. Diff\'erentielle, 20 (1979) 281--296.
 
 * Bunge, Marta and Niefield, Susan.  Exponentiability and single universes. J. Pure Appl. Algebra 148 (2000) 217--250.
+
+[[!redirects locally cartesian closed categories]]
+[[!redirects LCCC]]
