@@ -37,7 +37,7 @@ Finally, suppose the Banach subalgebra $A$ separates points. Given $g \in C(X)$ 
   =--
   +-- {: .proof}
   ###### Proof
-  For each $y \in X$, we can choose $s \in A$ such that $s(x) \neq s(y)$, since $A$ separates points. Then we can solve for scalars $a$ and $b$ in the equations 
+  For each $y \in X$, $y \neq x$ we can choose $s \in A$ such that $s(x) \neq s(y)$, since $A$ separates points. Thus, given any $x, y$, there exists $s \in A$ and scalars $a$ and $b$ such that 
   $$a + b \cdot s(x) = g(x), \qquad a + b \cdot s(y) = g(y)$$ 
   Denote $a \cdot 1 + b s$ by $f_{x, y}$ (to indicate dependence on $x$ and $y$). For each $y$, choose a neighborhood $V_y$ so that $g(z) \leq f_{x, y}(z) + \varepsilon$ for all $z \in V_y$. Finitely many such neighborhoods $V_{y_1}, \ldots, V_{y_n}$ cover $X$; let $f_x$ be the join of $f_{x, y_1}, \ldots, f_{x, y_n}$. Then $g(y) \leq f_x(y) + \varepsilon$ for all $y \in X$. 
   =--
