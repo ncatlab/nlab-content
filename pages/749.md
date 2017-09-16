@@ -36,5 +36,7 @@ See _Jardine07_, theorem 5.
 
 #References#
 
+see [[model structure on simplicial presheaves]]
+
 * **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf]([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
