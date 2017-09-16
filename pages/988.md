@@ -1,8 +1,12 @@
 #Idea#
 
-A stable $\infty$-category, or, more precisely, a stable [[(infinity,1)-category]], is an $(\infty,1)$-category all whose objects are stable in the sense of [[stable homotopy theory]]: they behave as if they were [[infinite loop space]]s.
+A stable $\infty$-category, or, more precisely, a stable [[(infinity,1)-category]], is an $(\infty,1)$-category all whose objects are stable in the sense of [[stable homotopy theory]]: they behave as if they were [[spectrum|spectra]].
 
-The homotopy category of a stable $\infty$-category is a [[triangulated category]]. This is remarkable because the definition of triangulated categories is involved and their behaviour is bad, whereas the defintion of stable $\infty$-category is very simple. 
++--{: .query}
+[[Mike Shulman|Mike]]: Given the existing consensus on nlab terminology, shouldn't this page really be [[stable (infinity,1)-category]]?
+=--
+
+The [[homotopy category]] of a stable $\infty$-category is a [[triangulated category]].  This could be considered remarkable, because the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is very simple.  Alternately, however, one can argue that the complexity and bad behavior of triangulated categories comes from trying to capture at the level of a homotopy category a type of structure that properly belongs to an $(\infty,1)$-category.
 
 The relation between triangulated categories and stable $\infty$-categories has apparently been clear to some experts, but a comprehensive discussion appeared only more recently in the first part of Jacob Lurie's PhD thesis
 
@@ -118,4 +122,4 @@ Hence stable homotopy theory and homological algebra are both special cases of t
 
 # Warning #
 
-A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  (The connection between the terms is that the $(\infty,1)$-category of [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids is a stable $\infty$-category.)
+A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  The connection between the terms is that the $(\infty,1)$-category of [[spectrum|spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or $E_\infty$-[[E_infinity-spaces|spaces]].
