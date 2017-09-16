@@ -10,18 +10,17 @@ We say that a property $P$ of morphisms is *local on the target* if satisfaction
 
 Following Noohi, we say that 
 
-**Definition**
++-- {: .un_defn}
+###### Definition
 
 A 1-[[stack]] of [[groupoid]]s over $\mathrm{Top}$ having a representable epimorphism is a __pretopological stack__. Any map from a topological space $S$ to a pretopological stack $X$ is representable and the diagonal $X\to X\times X$ is representable as well. The pretopological stack is called __topological stack__ if the chart can be chosen to belong to a class of "local fibrations"; there are axioms which the class of local fibrations have to satisfy; there are several natural choices of this class which modify the variant of topological stacks considered. 
+=--
 
 #References#
 
 Articles by Behrang Noohi on this topic:
 
 * Foundations of Topological Stacks I, [pdf] (http://arxiv.org/pdf/math.AG/0503247.pdf)
-
 * [Homotopy types of topological stacks] (http://front.math.ucdavis.edu/0808.3799)
-
 * [Mapping stacks of topological stacks](http://front.math.ucdavis.edu/0809.2373) 
-
 * K. Behrend, G. Ginot, B. Noohi, P. Xu, [String topology for stacks](http://front.math.ucdavis.edu/0712.3857)
