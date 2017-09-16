@@ -2,7 +2,7 @@
 
 A _multi-valued function_ $f: A \to B$ is like a [[function]] from $A$ to $B$ except that there may be more than one possible value $f(x)$ for a given element $x$ of $A$.  (Compare a [[partial function]], where $f(x)$ may not exist at all.)
 
-In older literature (into the 20th century, especially in analysis), functions were often considered to be multi-valued by default, requiring one to specify a _singe-valued_ function otherwise.  As set-theoretic formalisation spread, this intuition became difficult to maintain, and the modern concept of function must be single-valued.  If you want multi-valued functions, then you can get them in terms of single-valued functions as below.
+In older literature (into the 20th century, especially in analysis), functions were often considered to be multi-valued by default, requiring one to specify a _singe-valued_ function otherwise.  As [[set theory|set-theoretic formalisation]] spread, this intuition became difficult to maintain, and the modern concept of function must be single-valued.  If you want multi-valued functions, then you can get them in terms of single-valued functions as below.
 
 # Definition #
 
