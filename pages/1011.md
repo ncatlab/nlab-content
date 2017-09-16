@@ -8,7 +8,7 @@ This means that a finite category consists of
 
 Similarly, a **locally finite category** is a category [[enriched category|enriched]] over $Fin Set$, that is a category whose [[hom-set]]s are all finite.
 
-(Locally) finite categories may also be called (locally) **$\mathbf{N}$-small**; this generalises from $\mathbf{N}$ (the set of [[natural number]]s) to (other) [[Grothendieck universe]]s.
+(Locally) finite categories may also be called (locally) **$\omega$-small**; this generalises from $\omega$ (the set of [[natural number]]s) to (other) [[inaccessible cardinal]]s (or, equivalently, [[Grothendieck universe]]s).
 
 # Limits and colimits
 
