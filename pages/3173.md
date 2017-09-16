@@ -1,0 +1,3 @@
+The local Lie groups are inifinitesimal versions of Lie groups, containing information about the product operation in some smooth neighborhood of the unit element; the multiplication is defined only when the factors are sufficiently close to the unit element, and if the consecutive products of triples in both ways are defined they are associative. 
+
+The category of real Local Lie groups is equivalent to the category of finite-dimensional real Lie algebras. This has been proved by [[Sophus Lie]]. The extension to the global Lie theory has been possible only after works of [[Élie Cartan]], who extended the equivalence to the equivalence between the category of real Lie algebras and connected simply connected Lie groups. 
