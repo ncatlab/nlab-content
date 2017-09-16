@@ -7,9 +7,9 @@
 ###### Definition (NQP-supermanifold)
 
 
-An **N-[supermanifold]** is a supermanifold equipped with a lift of the $\mathbb{Z}_2$-grading to a $\mathbb{N}$-grading through the standard homomorphism $even/odd : \mathbb{N} \to \mathbb{Z}_2$.
+An **N-[supermanifold]** is a [[supermanifold]] equipped with a lift of the $\mathbb{Z}_2$-grading to a $\mathbb{N}$-grading through the standard homomorphism $even/odd : \mathbb{N} \to \mathbb{Z}_2$.
 
-A **Q-[supermanifold]** is a supermanifold equipped with an odd-graded vector field $Q$ (i.e. an odd graded derivation of the algebra of functions) which is **homological**, i.e. the super Lie bracket with itself vanishes: $[Q,Q] = 0$.
+A **Q-[supermanifold]** is a supermanifold equipped with an odd-graded [[vector field]] $Q$ (i.e. an odd-graded [[derivation]] of the algebra of functions) which is **homological**, i.e. the super Lie bracket with itself vanishes: $[Q,Q] = 0$.
 
 A **P-[supermanifold]** is a supermanifold equipped with a graded symplectic structure.
 
