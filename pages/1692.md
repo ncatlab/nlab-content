@@ -11,7 +11,7 @@ Many concrete dualities in mathematics can be seen as embedded in a larger ambie
 
 ## Definition ## 
 
-The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of dualizing object in $Chu(C, d)$. 
+The objects of $Chu(C, d)$ are triples $(a, b; r: a \otimes b \to d)$ (called _$d$-valued pairings_ between $a$ and $b$), where $a$ and $b$ are objects of $C$ and $r$ is a morphism of $C$. The special triple $(d, I; \rho: d \otimes I \cong d)$, where $rho$ is an instance of the canonical isomorphism (the right unitor) for the monoidal unit $I$, will play the role of [[dualizing object]] in $Chu(C, d)$. 
 
 The morphisms of $Chu(C, d)$, 
 
@@ -155,6 +155,11 @@ Now that I go to write [[Boolean rig]], I\'m not so sure.  I just know that $Chu
 
 Right, I agree. The Chu construction applied to a complete Heyting algebra is merely a $*$-autonomous quantale, not a $*$-autonomous frame (which would be a complete Boolean algebra), as you noted at [[measurable space]]. ---Todd
 =--
+
+## References ##
+
+* A nice post by Todd Trimble on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
+* Pratt, [Chu Spaces](http://boole.stanford.edu/pub/coimbra.pdf)
 
 category: category
 
