@@ -1,7 +1,11 @@
 [[!redirects 3-ary relation]]
+[[!redirects 3-ary relations]]
 [[!redirects 3-adic relation]]
+[[!redirects 3-adic relations]]
 [[!redirects 3-place relation]]
+[[!redirects 3-place relations]]
 [[!redirects ternary relation]]
+[[!redirects ternary relations]]
 [[!redirects triadic relations]]
 [[!redirects triadic relation"]]
 
@@ -100,15 +104,16 @@ Object & Sign & Interpretant \\
 
 * The triples in $L_{\mathrm{B}}$ represent the way that interpreter $\mathrm{B}$ uses signs. For example, the listing of the triple $(\mathrm{B}, \backprime\backprime \mathrm{i} \prime\prime, \backprime\backprime \mathrm{B} \prime\prime)$ in $L_{\mathrm{B}}$ represents the fact that $\mathrm{B}$ uses $\backprime\backprime \mathrm{B} \prime\prime$ to mean the same thing that $\mathrm{B}$ uses $\backprime\backprime \mathrm{i} \prime\prime$ to mean, namely, $\mathrm{B}$.
 
-# Further developments #
+# Related topics #
 
 * [[sign relation]]
 * [[referent equivalence relation]]
 * [[semiotic equivalence relation]]
 
-# External links #
+# Links #
 
 * [Triadic Relation @ MyWikiBiz](http://mywikibiz.com/Triadic_relation)
+
 * [Triadic Relation @ PlanetMath](http://planetmath.org/encyclopedia/TriadicRelation.html)
 
 # Discussion #
