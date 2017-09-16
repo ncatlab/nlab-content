@@ -1,3 +1,4 @@
+[[!redirects global model structure on simplicial sheaves]]
 #Idea#
 
 
