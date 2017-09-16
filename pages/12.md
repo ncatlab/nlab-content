@@ -343,6 +343,8 @@ _Rafael_: After thinking a bit more about it, it comes down to the same as i wro
 
 Then, this theorem is by far the most specialized result in the timeline. So i see it as the least important result in the timeline. If it would at least be a theory of determinants of complexes or inspired this theory, it would be worth mentioning, but it's not. There are too many particular cases and results to start to include them, the idea was at least to include the most important events in category theory and the related disciplines.
 
+_Zoran_: I am not talking Koszul algebras of Priddy but the older Koszul resolutions in the subject of [[commutative algebra]]. Of course, Koszul pair of the symmetric vs. exterior algebra is behind the classical Koszul resolutions; but the resolutions are typically, like in Cayley's work, resolutions of modules of finite type over reduced f.g. commutative algebras. Thus take any projective variety and a coherent sheaf on it and you are in the setup of this paper. The paper starts with a notion of resolution in about this setup, then develops Koszul resolutions and calculations with determinants which express the bases of the modules which appear in the resolution. This is very general. Gel'fand, Kapranov, Zelevinsky in their book dedicate chapter 2 (and 3.4) to "Cayley method" and say this about the paper: "The method goes back to the remarkable paper by Cayley [Ca4] on elimination theory, in which the foundations were laid for what is now called homological algebra." But what happened with your too shy question/suggestion to include also Galois ? By the way what does it mean "categorical quantization" in 1978 entry ?
+Never heard.
 =--
 
 $[2]$  in his thesis on abelian categories 1962, Bull. Soc. Math. France 
@@ -374,6 +376,8 @@ Zoran: oops one character too long, try [again](http://www.numdam.org/numdam-bin
 _Rafael_: Alas, don't forget i don't know french. When i read the entry i interpret it as it was written on a blackboard. But something as important as this should be in the proceedings. I also know that some concepts such as the Schwartzian derivative are well hidden in their first appearance. I am open to remove entries, so if you know you are right remove it.
 
 Zoran: In fact I believe you are right, that Cartan seminars had sheaves in 1948; thsi is what I recall from my earlier readings, but it is not in the writeup of the seminars as it stands; I do not know what is the reference. Maybe we should look in Serre's FAC paper where he should have quoted earlier papers on sheaf theory.
+
+Zoran: Here is the key! The 1948/9 acad year volume of Cartan seminar has 11 exposes, as on numdam. Weibel in his historical survey says that exposes 12-17 in mimeographed version had sheaf theory and that those exposes were abandoned, hence not published for real later and that Cartan again in 1950/51 a reworked version is published as exposes 14-20 (the latter are at numdam). Now timeline has 3 years as 3 contributions of Cartan 1948, 1950, 1951; at least the latter two for one academic year of the same volume of publications is not sensitive. 
 =--
 
 
