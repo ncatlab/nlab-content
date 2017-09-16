@@ -10,6 +10,8 @@
 
   * [[infinitesimal space]]
 
+    * [[amazing right adjoint]]
+
     * [[infinitesimal interval object]]
 
   * [[Kock-Lawvere axiom]]
