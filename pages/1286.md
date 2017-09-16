@@ -43,3 +43,7 @@ The unifying picture, in particular independent of the choice of model for the [
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+Derived ($\infty$-)stacks are currently mostly, maybe exclusively, studied on algebraic sites $S$, where the category $S^{op} := $ [[Alg]] is replaced with a category of "$\infty$-algebras" of sorts. The theory of these $\infty$-algebras is described in great detail in
+
+
+* Jacob Lurie, _Derived Algebraic Geometry II: Noncommutative Algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
