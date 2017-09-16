@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-12
 
+* [[Urs Schreiber|Urs]]: at [[homotopy limit]] I am asking for further details and/or literature on the "central theorem" which identified local and global definition
+
 * [[Mike Shulman]]:
 
   * Added what I think is a more standard viewpoint to [[classifying space]], although there are so many different meanings of that term.
