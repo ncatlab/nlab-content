@@ -25,7 +25,7 @@ If morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$,
 
 * [[model category]]
 
-* category with [[multiplicative system]]
+* category with a [[calculus of fractions]]
 
 #References#
 
