@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * further expanded [[image]] and [[coimage]]
+
   * edited and replied at [[semisimple category]]
 
 * [[Bruce Bartlett|Bruce]] responded to comments at [[semisimple category]]...and then got stuck. Can anyone help?
