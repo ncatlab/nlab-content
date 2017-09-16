@@ -63,6 +63,8 @@
 
 * [Mathlog](http://www.scienceblogs.de/mathlog)
 
+* [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss)
+
 * [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom)
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com)
