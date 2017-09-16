@@ -55,6 +55,16 @@ In particular
 
 * the Lie--Rinehart pair corresponding to a [[Poisson Lie algebroid]] on a [[Poisson manifold]] $X$ is $(C^\infty(X), MultVect(X))$, where the [[Lie algebra]] is the the space of multi vector fields on $X$ equipped with the bracket ... (exercise for the reader) ...
 
+# Generalizations #
+
+A little bit is known in the literature to generalizations of the notion of Lie-Rinehart algebras that to [[Lie infinity-algebroid]]s as the latter are to [[Lie algebroid]].
+
+In 
+
+* [[Dmitry Roytenberg]], _Courant-Dorfman algebras and their cohomology_ ([arXiv](http://arxiv.org/abs/0902.4862))
+
+the analogous algebraic structure for [[Courant algebroid]]s is discussed. These "2-Lie-Rinehart algebras" are ccalled [[Courant-Dorfman algebra]]s there.
+
 
 #References#
 
