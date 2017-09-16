@@ -8,7 +8,7 @@
 
 A _strict 2-category_, often called simply a _2-category_, is a [[enriched category|category enriched over]] [[Cat]]. 
 
-Similarly,  a [[strict 2-groupoid]] is a groupoid enriched over groupoids. This is also called a [[globular]] strict 2-groupoid, to emphasise the underlying geometry. The category of strict 2-groupoids is eqivalent to the category  of [[crossed module]]s over groupoids. It is also equivalent to the category of (strict) double groupoids with connections. 
+Similarly, a [[strict 2-groupoid]] is a groupoid enriched over groupoids. This is also called a [[geometric shapes for higher structures|globular]] strict 2-groupoid, to emphasise the underlying geometry. The category of strict 2-groupoids is eqivalent to the category  of [[crossed module]]s over groupoids. It is also equivalent to the category of (strict) double groupoids with connections. 
 
 They are also special cases of strict globular omega-groupoids, and the category of these is equivalent to the category of [[crossed complex]]es. 
 
