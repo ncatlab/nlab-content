@@ -13,3 +13,7 @@ It usually doesn\'t make sense to speak of strict $2$-functors between weak $2$-
 For the generalisation of this to higher categories, see [[semistrict higher category]].
 
 [^1]: Although there are certain contexts in which it does.  For instance, there is a [[model structure]] on the category of [[bicategories]] and strict 2-functors between them, which models the homotopy theory of bicategories and weak 2-functors.
+
+[[!redirects 2-functors]]
+[[!redirects strict 2-functor]]
+[[!redirects strict 2-functors]]
