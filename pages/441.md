@@ -77,7 +77,7 @@ $$
 
 and
 
-$$\Lambda^2_1 =   
+$$\Lambda^2_2 =   
 \left\{
       \array{
         && 1
