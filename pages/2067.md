@@ -54,7 +54,7 @@ This has its analog in [[higher category theory|higher categories]].
 
 ## Definition
 
-### in categories
+### In categories
 
 Let $p : X \to Y$ be a [[functor]]. A [[morphism]] $f : x_1 \to x_2$ in the [[category]] $X$ is _cartesian_ with respect to $p$, or _$p$-cartesian. If it satisfies the following property:
 
@@ -62,7 +62,7 @@ $$
   \array{
     x'
     \\
-    \downarrow^{\exists!} & \searrow^{\forall h}
+    \downarrow^{\mathrlap{\exists!}} & \searrow^{\mathrlap{\forall h}}
     \\
     x_1 &\stackrel{f}{\to}& x_2
   }
@@ -74,7 +74,7 @@ $$
   \array{
     p(x')
     \\
-    \downarrow^{\forall g} & \searrow^{p(h)}
+    \downarrow^{\mathrlap{\forall g}} & \searrow^{\mathrlap{p(h)}}
     \\
     p(x_1) &\stackrel{p(f)}{\to}& p(x_2)
   }
@@ -119,7 +119,7 @@ into the [[pullback]] of the obvious projection $X_{x_2} \to S/p(x_2)$ along the
 
 This definition in terms of pullbacks is the one that straightforwardly generalizes to [[higher category theory]].
 
-### in $(\infty,1)$-categories
+### In $(\infty,1)$-categories
 
 There is a notion of cartesian edge in a [[simplicial set]] $X$ relative to a morphism $p : X \to Y$ of simplicial sets. In the case that these simplicial sets are [[quasi-category|quasi-categories]] -- i.e. simplicial set incarnations of [[(∞,1)-category|(∞,1)-categories]] -- this yields a notion of cartesian morphisms in $(\infty,1)$-categories.
 
