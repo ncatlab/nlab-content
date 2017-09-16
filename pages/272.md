@@ -28,7 +28,7 @@ There exist the following variations of the axioms for such a situation, dependi
 
   * [[factorization algebra]]s
 
-In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], rewlating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
+In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], relating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
 
 --- much information to be filled in ---
 
