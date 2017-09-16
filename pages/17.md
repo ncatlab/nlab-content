@@ -10,20 +10,35 @@ See also the [[FAQ]].
 
 # Contents
 
-1.  [Software required to use the Lab](#software)
-2.  [How to use a Wiki](#editing)
-3.  [Note to new contributors](#newbies)
-4.  [Naming conventions](#names)
-5.  [How to leave comments and questions](#query)
-6.  [How to make a standout box](#standout)
-7.  [How to fiddle with the CSS on your personal ncatlab space](#css)
-8.  [How to search the nLab from Firefox](#SearchPlugins)
-9.  [How to edit nLab pages in your favorite text editor](#itsalltext)
-10. [How to include one page within another](#include)
-11. [How to customize the nLab](#stylish)
-12. [How to use redirects](#redirects)
-13. [How to put parentheses in external links](#parens)
-14. [Instiki HowTo](#instiki)
+1. General
+
+   1.  [Software required to use the Lab](#software) (likely nothing you aren't using anyway!)
+   1.  [How to use a Wiki](#editing)
+   1.  [Note to new contributors](#newbies)
+
+1. Hyperlinks
+
+   1.  [Naming conventions](#names)
+   1.  [How to use redirects](#redirects)
+   1. [How to put parentheses in external links](#parens)
+
+1. Special typesetting features
+
+   1.  [How to leave comments and questions](#query)
+   1.  [How to make a standout box](#standout)
+   1.  [How to implement tables, footnotes, definition/proof/theorem environments, graphics, etc.](#instiki)
+   1.  [How to include one page within another](#include)
+
+1. Formatting
+
+   1.  [How to fiddle with the CSS on your personal ncatlab space](#css)
+   1. [How to customize the nLab](#stylish)
+
+1. Miscellaneous
+
+   1.  [How to search the nLab from Firefox](#SearchPlugins)
+   1.  [How to edit nLab pages in your favorite text editor](#itsalltext)
+
 
 # Software required to use the $n$Lab # {#software}
 
