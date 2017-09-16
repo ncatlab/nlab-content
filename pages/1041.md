@@ -25,7 +25,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 * The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) [[locally small category|locally small]] category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident from the start and does not need to be constructed in this way.  (A similar statement is true for [[additive categories]], although the most natural result in that case gives only enrichment over abelian [[monoids]].)
 
-* The last point is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www-math.mit.edu/~lurie/papers/DAG-I.pdf#page=5) of Jacob Lurie's [[Stable Infinity-Categories]].
+* The last point is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf#page=5) of [[Jacob Lurie]]'s [[Stable Infinity-Categories]].
 
 
 ## Examples
