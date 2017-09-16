@@ -33,6 +33,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:  Replies at [[barycentric algebra]], [[evil]], [[graph]], [[boolean domain]], [[center]].
 
+   *  [[David Corfield]]: convex spaces and barycentric algebras cropped up [here](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html#c023763). I don't know if there's anything useful there.
+
 * [[Jon Awbrey]]:  Further discussion and some data at [[graph]].
 
 * [[Mike Shulman]]: Expanded a bunch at [[center]], and continued discussions at [[graph]] and [[evil]].
