@@ -378,13 +378,41 @@ $$f(g_1\cdot [(g,v)]) = f([(g_1 g,v)]) = (g_1 g)\cdot i(v) = g_1\cdot f([(g,v)])
 
 Next, given a $G$-equivariant vector bundle morphism $(f,m)$, where $f:L(V)\to F$ and $m:G/H\to M$, we define an intertwiner $i:V\to \pi_1^{-1}(x)$ by:
 
-$$i(v)=k(m(e H))^{-1}\cdot f([(e,v)])$$
+$$i(v)=f([(g_x,v)])$$
 
-We know this will map to $\pi_1^{-1}(x)$ because $f$ must map $[(e,v)]$ to the fiber over $m(\pi_2([(e,v)]))=m(e H)$, and we use the action of $k(m(e H))^{-1}$ to map it to the fiber over $x$.
+where $g_x$ is any element of $G$ that satisfies $m(g_x H)=x$, i.e. any element of the coset $m^{-1}(x)$.
+We know $i$ will map to $\pi_1^{-1}(x)$ because $f$ must map $[(g_x,v)]$ to the fiber over $m(\pi_2([(g_x,v)]))=m(g_x H)$.
 
-We check that this is an intertwiner for the representations of $H$ on the respective vector spaces.  We abbreviate $k(m(e H))^{-1}$ as $k_1$:
+However, this is <i>not</i> an intertwiner for the representations of $H$ on the respective vector spaces:
 
-$$i(s(h)v)=k_1\cdot f([(e,s(h)v)])=k_1\cdot f([(h,v)])=(k_1 h) \cdot f([(e,v)])$$
+$$i(s(h)v)=f([(g_x,s(h)v)])=f([(g_x h,v)])=f(g_x\cdot [(h,v)])=g_x\cdot f([(h,v)])\ne h\cdot i(v)$$
+
+So the obvious construction doesn't work ...
+
+We can demonstrate a bijection between intertwiners and $G$-equivariant vector bundle morphisms in the other direction:  intertwiners $i^*:\pi_1^{-1}(x)\to V$ and vector bundle morphisms $(f^*,m^*)$, where $f^*:F\to L(V)$ and $m^*:M\to G/H$.
+
+Given an intertwiner $i^*:\pi_1^{-1}(x)\to V$, we define $m^*:M\to G/H$ as:
+
+$$m^*(y) = k(y) H$$
+
+We define the map $f^* : F \to L(V)$ by:
+
+$$f^*(w) = [(k(\pi_1(w)), i(k(\pi_1(w))^{-1}\cdot w) )]$$
+
+for each $w\in F$.  Because $k(\pi_1(w))\cdot x = \pi_1(w)$, $k(\pi_1(w))^{-1}$ will map the entire fiber to which $w$ belongs to $\pi_1^{-1}(x)$, the domain of the intertwiner $i^*$.  And we have:
+
+$$\pi_2(f^*(w)) = k(\pi_1(w)) H = m^*(\pi_1(w))$$
+
+The map $f^*$ is a linear map between the fibers $\pi_1^{-1}(y)$ and $\pi_2^{-1}(m^*(y))$, because, along with the linearity of $i^*$, the vector space structure on the fibers of $L(V)$ is _defined_ so all maps of the form $v\to [(g,v)]$ are linear.  So, $m^*$ and $f^*$ together give us a vector bundle morphism from $F$ to $L(V)$.
+
+In order to be a morphism in the category of $G$-equivariant vector bundles, $f^*$ should also commute with the action of $G$.  We have:
+
+$$f^*(g\cdot w) = [(k(\pi_1(g\cdot w)), i(k(\pi_1(g\cdot w))^{-1} g\cdot w) )] = [(k(g\cdot \pi_1(w)), i(k(g\cdot \pi_1(w))^{-1} g\cdot w) )]$$
+
+Let's abbreviate $\pi_1(w)$ as $y$ and define $h=k(g\cdot y)^{-1} g k(y)$, which takes $x$ to $x$ and so must lie in $H$.  Then we have:
+
+$$f^*(g\cdot w) = [(k(g\cdot y), i(h k(y)^{-1}\cdot w) )] = [(k(g\cdot y), s(h) i(k(y)^{-1}\cdot w) )] = [(k(g\cdot y) h, i(k(y)^{-1}\cdot w) )]$$
+$$ = [(g k(y) , i(k(y)^{-1}\cdot w) )] = g\cdot [(k(y) , i(k(y)^{-1}\cdot w) )] = g\cdot f^*(w)$$
 
 #Related issues#
 
