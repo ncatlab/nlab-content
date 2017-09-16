@@ -1,15 +1,15 @@
 The __spin group__ $Spin(n)$ is the [[universal covering space]] of the [[special orthogonal group]] $SO(n)$. By the usual arguments it inherits a group structure for which the operations are smooth and so is a [[Lie group]] like $SO(n)$.
 
-The Spin group is one element in the [[Whitehead tower]] of $O(n)$, which starts out like
+The spin group is one element in the [[Whitehead tower]] of $O(n)$, which starts out like
 
 $$
   \cdots \to Fivebrane(n)
   \to String(n) \to Spin(n)
   \to SO(n)
-  \to O(n)
+  \to \mathrm{O}(n)
 $$
 
-[[Fivebrane group]] $\to$ [[String group]] $\to$ Spin group $\to$ [[special orthogonal group]] to [[orthogonal group]].
+[[Fivebrane group]] to [[string group]] to **spin group** to [[special orthogonal group]] to [[orthogonal group]].
 
 #Spin group in physics#
 
