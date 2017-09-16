@@ -1,5 +1,3 @@
-See [[Infinity-Grpd]].
-
-category: redirect
-
+&lt; [[∞Grpd]]
 [[!redirects ∞Grpd/history]]
+[[!redirects ∞Grpd -- history]]
