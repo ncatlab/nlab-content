@@ -259,10 +259,9 @@ more general than the place of [[topological space]]s, but where still all the c
 
 ## higher sheaves: $\infty$-stacks ##
 
-* But once we are at this point, we should go even a bit further: we have been talking about _sets_ of probes $X(U)$. But of course 
+* Once we are at this point, we should go even a bit further: we have been talking about _sets_ of probes $X(U)$. But of course 
 for $X$ a true [[topological space]] and $U$ a [[topological space]], there
-is not just a set, but a [[topological space]] of maps $U \to X$. 
-So we should be looking at sheaves with values in topological spaces.
+is not just a set, but a [[topological space]] of maps $U \to X$ (using the [compact-open topology](http://en.wikipedia.org/wiki/Compact-open_topology) on spaces of continuous maps).  So we should be looking at sheaves with values in topological spaces: functors $X(-) : S^{op} \to Top$ satisfying some suitable condition.
 
 * There is only one thing we need to take care of, then: since a 
 topological spaces is a bit more flexible than a plain set, 
@@ -277,50 +276,32 @@ space which matter so much, but they way they hang together.
   are measured by a collection of groups called the 
   [[homotopy group]]s $\pi_n(X(U))$, one for each natural number $n$.
   
-  * So if we are being careful, we should recognize that two sheaves
-  $X : U \mapsto X(U)$ and $Y : Y \mapsto Y(U)$ must characterize
-  essentially the same generalized space if there is a rule
-  $f : X \to Y$ for turning for each test space $U$, probes of $X$ into 
-  probes of $Y$, $f_U : X(U) \to Y(U)$
-  such that for _sufficiently small_ $U$ this comparison map of
+  * So if we are being careful, we should recognize that two sheaves  $X : S^{op} \to Top$ and $Y : S^{op} \to Top$ must characterize essentially the same generalized space if there is a rule $f : X \to Y$ for turning for each test space $U$, probes of $X$ into probes of $Y$, $f_U : X(U) \to Y(U)$, as before, such that for _sufficiently small_ $U$ this comparison map of
   probe spaces does not change the homotopy groups, i.e. so that
-  all homomorphism $\pi_n(f_U) : \pi_n(X(U)) \to \pi_n(X(V))$
-  are isomorphisms of groups. One says that such $f_U$ is a [[weak homotopy equivalence]].
+  all induced homomorphism $\pi_n(f_U, x) : \pi_n(X(U)) \to \pi_n(X(V), f_U(x))$ of [[homotopy group]]s are isomorphisms of groups. One says that such $f_U$ is a [[weak homotopy equivalence]].
   
-  * If a comparison map $f : X \to Y$ exists with these properties, then one says that our
-  generalized spaces $X$ and $Y$ defined by these sheaves are
-  _weakly equivalent_ or [[quasi-isomorphism|quasi-isomorphic]] 
+  * If a comparison map $f : X \to Y$ exists with these properties (for small enough $U$, recall), then one says that our generalized spaces $X$ and $Y$ defined by these sheaves are _weakly equivalent_ or [[quasi-isomorphism|quasi-isomorphic]].
   
 * There are several ways to deal with this complication that 
 sheaves with values in topological spaces are very flexible, so flexible
 that it may require a bit of effort to determine if two of them 
 determine the same generalized space, for all practical purposes. 
 
-
-* One nice way to deal with it is to again go back to our attitude that everything 
-should be determined by how we map other things into it: if 
-$f : X \to Y$ is a weak equivalence of sheaves, as above, then we
-we would expect that for $Z$ any other sheaf, the induced map 
-of spaces of probes $Z(f) : Z(Y) \to Z(X)$
+* One nice way to deal with it is to again go back to our attitude that everything  should be determined by how we map other things into it: if $f : X \to Y$ is a weak equivalence of sheaves, as above, then we
+we would expect that for $Z$ any other sheaf, the induced map of spaces of probes $Z(f) : Z(Y) \to Z(X)$
 of $Z$ by $X$ and $Y$ is a [[weak homotopy equivalence]]. 
 
 
-Recall from the discussion in the above section "maps of generalized spaces" that $Z(Y)$ is just another way saying "space of maps of generalized spaces from $Y$ to $Z$", and similarly for $Z(X)$. 
+  * Recall from the discussion in the above section "maps of generalized spaces" that $Z(Y)$ is just another way saying "space of maps of generalized spaces from $Y$ to $Z$", and similarly for $Z(X)$. 
 
 
 
-Now, that may fail to be true, simply because we are using
-an awkward realization of the sheaf $Z$. It may be that we have
-to straighten out $Z$ a bit, without really changing it, for the above
-to be true. Indeed, there is always a sheaf of topological spaces
-$Z'$ which is equivalent to $Z$, but for which the above consistency condition
-is true: the map $Z'(f) : Z'(Y) \to Z'(X)$ between spaces of probes
-of $Z'$ by $X$ and by $Y$ is a homotopy equivalence.
+* Now, that may fail to be true, simply because we are using
+an awkward realization of the sheaf $Z$. It may be that we have to _straighten out_ $Z$ a bit, without really changing it, for the above to be true. Indeed, if things are set up correctly, there should always a sheaf of topological spaces $Z'$ which is equivalent to $Z$, but for which the above consistency condition is true: the map $Z'(f) : Z'(Y) \to Z'(X)$ between spaces of probes of $Z'$ by $X$ and by $Y$ is a homotopy equivalence.
 
-* The sheaves with this niceness property are called [[infinity-stack]]s
-  of [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. Recall that despite the
-  fancy terminology, these things are nothing but consistent rules 
-  for something that may be probed with test spaces $U$, $V$,...
+* The sheaves with this niceness property are called [[infinity-stack]]s or [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. Recall that despite the fancy terminology, these things are nothing but consistent rules for something that may be probed with test spaces $U$, $V$,...
+
+  * in applications this means that before we compute the space of maps $[X,A]$ between generalized spaces, we first have two ensure that at least one of them is sufficiently _straightened out_. Once says one picks a _resolution_. More on that below.
 
 
 ## generalized cohomology ##
@@ -352,20 +333,12 @@ general context.
 ##  complexes of sheaves: abelian $\infty$-stacks  ##
 
 * Another term for this [[cohomology|generalized cohomology]] theory thus obtained is
-[[nonabelian cohomology]]. The reason for that terms is a historic
-one: before arriving at the full picture of higher topos theory as 
-described here, people had a pretty good guess about some aspects of
-this story, and this aspect they called 
-[[abelian sheaf cohomology|sheaf cohomology]]. It turns out that 
-sheaf cohomology is precisely the _abelian_ part of general cohomology.
-So now general cohomology is sometimes called [[nonabelian cohomology]]
-to distinguish it from the more traditional cohomology theory. 
+[[nonabelian cohomology]]. The reason for that terms is a historic one: before arriving at the full picture of higher topos theory as described here, people had a pretty good guess about some aspects of this story, and this aspect they called 
+[[abelian sheaf cohomology|sheaf cohomology]]. It turns out that sheaf cohomology is precisely the _abelian_ part of general cohomology. So now general cohomology is sometimes called [[nonabelian cohomology]] to distinguish it from the more traditional cohomology theory. 
 
 * Here is what "abelian part of general cohomology" means:
 
-  * For many sheaves that appear in practice, the topological space
-  $X(U)$ assigned to any test space $U$ is not just a topological space,
-  but happens to have the structure of an abelian group, too. 
+  * For many sheaves that appear in practice, the topological space $X(U)$ assigned to any test space $U$ is not just a topological space, but happens to have the structure of an abelian group, too. 
   
   * In this case a cascade of simplifications kicks is: first of all,
   such topological spaces, by a special case of something called the 
@@ -376,10 +349,13 @@ to distinguish it from the more traditional cohomology theory.
   simplicial abelian groups are equivalently encoded more simply
   in the collection of data given by
   (non-positively graded) chain complexes in abelian groups.
+
+  * $AbelianChainComplexes \simeq SimplicialAbelianGroups
+    \subset KanComplexes \simeq NiceTopologicalSpaces$
   
 * By an [[abelian sheaf]] one means a sheaf $U \mapsto X(U)$ which
 takes values in [[chain complex]]es of abelian groups
-(or,  more generally,, in [[complex]]es in another [[abelian category]]).
+(or,  more generally, in [[complex]]es in another [[abelian category]]).
 Under the above correspondences, we understand this as a special case
 of a sheaf with values in topological spaces. 
 
@@ -394,14 +370,6 @@ techniques are used to compute these mapping spaces
 fully general case. This wealth of computational machinery
 employed, useful as it is, sometimes hides the simple conceptual
 reasoning underlying everything.
-
-+-- {: .query}
-
-from here on at least it's  a bit incoherent for the moment, but I have to quit for the moment...
-
-=--
-
-
   
 * there is a collection of tools available for _computing_ explicitly the cohomologies  $H(X,A) := [X,A]$ for the case that the coefficient space can be thought of as a complex of abelian groups, or a complex of modules, these tools go by names like
 
@@ -439,28 +407,28 @@ this is remedied.
 
   * Indeed, this is now the case. There is a famous 
   abelian sheaf, called the second [[Deligne cohomology|Deligne complex]] which we may denote by
-  $[P_1(-), \mathbf{B}U(1)]$ (as explained at [[Deligne cohomology]]), which has precisely the property that maps from a manifold $X$ into it classify circle bundles with connection on $X$. Moreover, by varying the two parameters here we get the following cases
+  $[P_1(-), \mathbf{B}U(1)]$ or $\bar \mathbf{B}_1 U(1)$ (as explained at [[Deligne cohomology]]), which has precisely the property that maps from a manifold $X$ into it classify circle bundles with connection on $X$. Moreover, by varying the two parameters here we get the following cases
   
 
-    * $A = [P_0(-), \mathbf{B}U(1)] = \mathbf{B}U(1)$ -- $H(X,A) = H^2(X,A)$ is second integral cohomology -- line bundles;
+    * $A = [P_0(-), \mathbf{B}U(1)] = \mathbf{B}U(1)$;  $H(X,A) = H^2(X,A)$ is second integral cohomology -- classifies line bundles;
 
-    * $A = [P_1(-), \mathbf{B}U(1)] $ -- $H(X,A) = \bar H^2(X,\mathbb{Z})$ is second differential integral cohomology -- line bundles with connection;
+    * $A = [P_1(-), \mathbf{B}U(1)] = \bar \mathbf{B}_1 U(1)$; $H(X,A) = \bar H^2(X,\mathbb{Z})$ is second differential integral cohomology -- classifies line bundles with connection;
 
-    * $A = [P_2(-), \mathbf{B}U(1)] $ -- $ H(X,A) = \bar H_{flat}^2(X,\mathbb{Z})$ is second flat differential integral cohomology -- line bundles with flat connection;
+    * $A = [P_2(-), \mathbf{B}U(1)] = \bar \mathbf{B}_2 U(1)$; $ H(X,A) = \bar H_{flat}^2(X,\mathbb{Z})$ is second flat differential integral cohomology -- classifies smooth line bundles with flat connection;
   
-    * $A = [P_0(-), \mathbf{B}^2U(1)] = \mathbf{B}^2U(1)$ -- $H(X,A) = H^3(X,A)$ is thrid integral cohomology -- line bundle gerbes;
+    * $A = [P_0(-), \mathbf{B}^2U(1)] = \mathbf{B}^2U(1)$;  $H(X,A) = H^3(X,A)$ is third integral cohomology -- classifies line bundle gerbes;
 
-    * $A = [P_1(-), \mathbf{B}^2U(1)] $ -- line bundle gerbes with connective structure;
+    * $A = [P_1(-), \mathbf{B}^2U(1)] = \bar \mathbf{B}^2_1 U(1)$ -- classifies line bundle gerbes with connective structure;
 
-    * $A = [P_2(-), \mathbf{B}^2U(1)] $ -- $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third differential integral cohomology -- line bundle gerbes with connection;
+    * $A = [P_2(-), \mathbf{B}^2U(1)] = \bar \mathbf{B}^2_2 U(1)$; $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third differential integral cohomology -- classifies smooth line bundle gerbes with connection;
   
-    * $A = [P_3(-), \mathbf{B}^2U(1)] $ -- $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third flat differential integral cohomology -- line bundle gerbes with flat connection;
+    * $A = [P_3(-), \mathbf{B}^2U(1)] = \bar \mathbf{B}^2_3 U(1)$; $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third flat differential integral cohomology -- classifies line bundle gerbes with flat connection;
 
 
-* Notice that all these objects $A$ do indeed behave, and cen be treated like, generalized spaces. For instance one can look at paths in these spaces and for instance form their [[fundamental groupoid]]s. One finds results such that for instance 
+* Notice that all these objects $A$ do indeed behave, and can be treated like, generalized spaces. For instance one can look at paths in these spaces and for instance form their [[fundamental groupoid]]s. One finds results such that for instance 
 
-   * $\Pi_1([P_2(-), \mathbf{B}U(1)]) \simeq \mathbf{B}R$
+   * $\Pi_1(\bar \mathbf{B}_2 U(1)) \simeq \mathbf{B}R$
 
    * more generally: for $G$ any Lie group, we have
-     $\Pi_1([\Pi_1(-), \mathbf{B}G]) \simeq \mathbf{B}\hat G$, where $\hat G$ is the unique simply connected Lie group covering $G$.
+     $\Pi_1(\bar \mathbf{B}_2 G) \simeq \mathbf{B}\hat G$, where $\hat G$ is the unique simply connected Lie group covering $G$.
 
