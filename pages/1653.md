@@ -31,9 +31,9 @@ Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we
 
    It follows that $\Sigma$ is closed under [[inhabited set|inhabited]] finitary intersection and under finitary [[symmetric difference]]:
    *  If $S$ and $T$ are measurable, then so is their intersection $S \cap T = T \setminus (T \setminus S)$.
-   *  If $S$ and $T$ are measurable, then so is their symmetric difference $S \ocup T = (T \setminus S) \cup (S \setminus T)$.
+   *  If $S$ and $T$ are measurable, then so is their symmetric difference $S \uplus T = (T \setminus S) \cup (S \setminus T)$.
 
-   We can actually use the latter as an alternative to (2), since $S \cup T = (S \ocup T) \ocup (S \cap T)$.  Or we can use the pair as an alternative to (2,3), since $T \setminus S = (S \cap T) \ocup T$.  For that matter, we can weaken (1) to simply say that *some* set $S$ is measurable; then $\empty = S \setminus S$.
+   We can actually use the latter as an alternative to (2), since $S \cup T = (S \uplus T) \uplus (S \cap T)$.  Or we can use the pair as an alternative to (2,3), since $T \setminus S = (S \cap T) \uplus T$.  For that matter, we can weaken (1) to simply say that *some* set $S$ is measurable; then $\empty = S \setminus S$.
 
    While the nullary union and nullary symmetric difference (both the empty set) belong to $\Sigma$, the nullary intersection (which is $S$ itself) might not.  The term 'ring' dates from the days when a [[ring]] in algebra was not assumed to be unital; so a ring on $X$ is simply a Boolean subring (in this sense) of the [[Boolean ring]] $P X$.
 
@@ -91,7 +91,7 @@ Any and all of the above notions have been used by various authors in the defini
 
 Given measurable spaces $X$ and $Y$, a __measurable function__ from $X$ to $Y$ is a [[function]] $f: X \to Y$ such that the [[preimage]] $f^*(T)$ is measurable in $X$ whenever $T$ is measurable in $Y$.
 
-Measurable spaces and measurable functions form a [[category]] $Measble$.
+Measurable spaces and measurable functions form a [[category]] $Measble$, which is [[topological concrete category|topological]] over [[Set]].
 
 
 ## Examples
@@ -104,3 +104,13 @@ If $X$ is any measurable space, then a _measurable function_ from $X$ to $\mathb
 ## In alternative fondations
 
 ... coming ...
+
+
+[[!redirects measurable set]]
+[[!redirects measurable function]]
+[[!redirects sigma-algebra]]
+[[!redirects delta-algebra]]
+[[!redirects sigma-field]]
+[[!redirects delta-field]]
+[[!redirects sigma-ring]]
+[[!redirects delta-ring]]
