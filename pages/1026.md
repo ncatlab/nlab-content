@@ -26,8 +26,10 @@ $$
 
 1. Topologists sometimes use "continuous functor" to mean a functor [[enriched category|enriched]] over [[Top]], since a functor between topologically enriched categories is enriched iff its actions on hom-spaces are continuous functions.
 
-2. H. Bass in his treatment of K-theory (and more recently A. Rosenberg and some others) use "continuous functor" in the sense "[[additive category|additive]] functor having right adjoint". 
+2. H. Bass in his treatment of K-theory uses older term 'right continuous functor' for the dual notion of [[cocontinuous functor]] in a version which is additive. If the domain of an additive functor which commutes with direct sums is cocomplete, then it automatically has right adjoint. Following this fact some people in ring theory and noncommutative geometry use simply term 'continuous functor' requiring always right adjoint (even if the domain [[abelian category]] is not cocomplete). In general, of course, this is just a bit more than cocontinuous in standard sense.
 
 +--{.query}
 Left I could understand, but right?  ---Toby
+
+The way I rewrote it explains it. It is unfortunate that the Eilenberg-Watts theorem treated in Bass was using only right adjoint functors so later they dropped word right. -- Zoran
 =--
