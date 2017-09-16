@@ -76,3 +76,6 @@ The above formulation is taken from page 6 of
 
 * Tibor Beke, _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv.org/abs/math.CT/0102087))
 
+[[!redirects transfinite composite]]
+[[!redirects transfinite composites]]
+[[!redirects transfinite compositions]]
