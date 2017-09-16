@@ -11,4 +11,7 @@ The alternative is 'tight relation'.  I\'ve never seen that used (in mathematics
 Perhaps this is such an unimportant concept that it doesn\'t matter, but I wonder if there are any opinions?
 
 _Mike_: I think it is so unimportant that it doesn't matter.  (-:  I would actually prefer to avoid calling it anything, especially something that has other meanings and  could create needless confusion.
+
+_Toby_:  I think that I\'ll take the last clause as a vote for 'tight'.  (The best that I can find for 'tight relation' is a usage in combinatorics that seems pretty informal; one sometimes says that there\'s a tight relation between $A$ and $B$ if $A$ provides a tight bound for $B$; here 'tight bound' is the only notion that requires definition.)  The main reason that I want a word is so that I can put it in the table at [[linear order]].
+
 =--
