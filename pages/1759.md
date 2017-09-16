@@ -13,7 +13,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-07-04
+
+*  [[Toby Bartels]] added a bit to the scandalously short page [[isomorphism]].
+
+
 ## 2009-07-03
+
+*  [[Eric Forgy]] created [[exchange law]] blank (perhaps by accident?) and [[Toby Bartels]] wrote a very brief stub there.
 
 * [[Urs Schreiber|Urs]]
 
