@@ -32,7 +32,13 @@ In the enriched case, this must be suitably modified to deal with [[weighted lim
 
 ### Local definition ##
 
-This definition is rather more complicated, but rather more intuitive.  It requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram; one then defines the homotopy limit $L$ of a functor $F:D\to C$ to be a representing object for such cones, in the sense that we have a (weak) equivalence
+The local definition requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram. 
+
+For the case of $V = $ [[SSet]]-[[enriched category|enrichment]] one elegant way to do so is in terms of suitable [[weighted limit]]s as described in the example section at [[weighted limit]]: a homotopy commutative cone with tip $c \in C$ over a diagram $F : K \to C$ in an [[SSet]]-enriched category $C$ is a natural transformation 
+$W \Rightarrow C(c,F(-)) : K \to SSet$ where the _weight_ functor $W$ is not constant on the point, as for ordinary limits, but is given by $W : k \mapsto N(K/k)$.
+
+
+Following the reasoning described in example 1 of [[representable functor]] one then defines the homotopy limit $L$ of a functor $F: K \to C$ to be a representing object for such homotopy cones, in the sense that we have a (weak) equivalence
 $$ Map(X,L) \simeq HoCones(X,F)$$
 of hom-objects (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
 
