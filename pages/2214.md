@@ -44,6 +44,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * replied at [[Bousfield localization]]
 
 * [[Jon Awbrey]]:
+
   * "A [[continuous predicate]], as described by [[Charles Sanders Peirce]], is a special type of relational predicate that arises as the limit of an iterated process of [[hypostatic abstraction]]."
 
 *  [[Rafael Borowiecki]]:
