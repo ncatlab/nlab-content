@@ -1,8 +1,14 @@
+# Stuff, structure, properties
+* tic
+{: toc}
+
+
 ##Idea#
 
 [[category theory|Category theory]] frequently allows to give precise and useful formalized meanings to "everyday" terms, at least terms used everyday by practicing mathematicians. 
 
 It was indeed introduced originally in order to formalize the use of the notion "natural" in mathematics. Another frequently recurring pair of terms in math are "extra structure" and "extra properties", to which we add the more general concept of "extra stuff". In discussion among Jim Dolan, John Baez and Toby Bartels, the following useful formalization of these concepts in category theoretic terms was established.
+
 
 ##Definitions
 
@@ -207,6 +213,8 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 
 
 [[!redirects extra properties]]
+[[!redirects extra property]]
+[[!redirects extra structures]]
 [[!redirects extra structure]]
 [[!redirects extra stuff]]
 [[!redirects n-stuff]]
