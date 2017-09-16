@@ -13,7 +13,7 @@ See [[Understanding Constructions in Categories]]
 
 ## Limits
 
-Recall that a [[limit]], or universal cone, over a [[diagram]] $F:J\to Set$ is a [[cone]] $T$ over $J$ such that, given any cone $T'$, there is a unique [[cone morphism]] from $T'$ to $T$.
+Recall that a [[limit]], or universal cone, over a [[diagram]] $F:J\to Set$ is a [[cone]] $T$ over $J$ such that, given any cone $T'$, there is a unique [[cone function]] from $T'$ to $T$.
 
 #### Terminal Object
 
@@ -23,7 +23,7 @@ A [[terminal object]] is a universal cone over the empty diagram. In this sectio
 Any [[singleton]] (a one-element set) is a [[terminal object]] in $Set$.
 =--
 
-To demonstrate, first note that a cone over an empty diagram is just an [[object]] and a corresponding cone morphism is just a [[morphism]]. Therefore, we are looking for a "universal set" $\bullet$ such that for an other set $C$, there is a unique function 
+To demonstrate, first note that a cone over an empty diagram is just an set and a corresponding cone function is just a function. Therefore, we are looking for a "universal set" $\bullet$ such that for an other set $C$, there is a unique function 
 
 $$f:C\to\bullet.$$
 
@@ -41,11 +41,11 @@ A [[product]] is a universal cone over a discrete diagram. In this section, we d
 Any [[cartesian product]] is a [[product]] in $Set$.
 =--
 
-To demonstrate, first note that a discrete diagram $F:J\to Set$ produces a family of sets $(A_i)$ with no functions between them. A cone over the discrete diagram consists of a set $T$ and a single morphism 
+To demonstrate, first note that a discrete diagram $F:J\to Set$ produces a family of sets $(A_i)$ with no functions between them. A cone over the discrete diagram consists of a set $T$ and a single component 
 
 $$\f_i:T\to A_i$$
 
-for each set $A_i$. Therefore, we are looking for a universal cone $\prod_i A_i$ such that for any other cone $T$, there is a unique function
+for each set $A_i$. Therefore, we are looking for a universal cone $\prod_i A_i$ such that for any other cone $T$, there is a unique cone function
 
 $$f:T\to\prod_i A_i.$$
 
@@ -73,11 +73,11 @@ In this section, we demonstrate how this leads us to the statement:
 The [[equalizer]] of two functions is the subset on which both functions coincide.
 =--
 
-To demonstrate, first note that a parallel diagram $F:J\to Set$ produces two sets $X,Y$ with two [[parallel morphism|parallel functions]] $f,g:X\to Y$. A cone over the parallel diagram consists of a set $T$ and two functions 
+To demonstrate, first note that a parallel diagram $F:J\to Set$ produces two sets $X,Y$ with two [[parallel morphism|parallel functions]] $f,g:X\to Y$. A cone over the parallel diagram consists of a set $T$ and two components 
 
 $$T_X:T\to X\quad\text{and}\quad T_Y:T\to Y.$$
 
-This is the first example we encounter where the diagram contains morphisms so recall that with a cone we also want the the diagrams to commute, i.e. we want
+This is the first example we encounter where the diagram contains morphisms so recall that with a cone we also want the the component diagrams to commute, i.e. we want
 
 $$f\circ T_X = T_Y\quad\text{and}\quad g\circ T_X = T_Y.$$
 
