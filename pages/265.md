@@ -32,6 +32,8 @@ $$ C \stackrel{F}{\to} D \to Ho_D $$
 
 [[Zoran Skoda]]: This is very interesting; maybe it suggests that one needs to choose sort of factorization system or something, so that still thing has some universal property: among functors of special kind with respect to the factorization system of a sort. I would like to hear your examples and insight in more detail. Surely in homological 
 algebra osmetimes one does not have sufficiently many projective or injectives so there is an appeal in something universal. Most interestingly, satelites make sense sometimes when derived functors don't but still satelites in very general (nonabelian) context are themselves still sort of Kan extensions. I do not understand why total derived functor would have kind of universality as one step in forming it has. 
+
+[[Tim Porter|Tim]]: The 'homotopy Kan extensions' are weighted Kan extensions and can handle quite a few of the 'derived functor' cases.  As they are enriched versions they seem to generalise the pointwise case, yet manage to do more. Perhaps that neaeds airing as an idea.  I suspect it does not handle all the derived functors we might want.
 =--
 
 
@@ -50,4 +52,4 @@ more elementary notion of [[derived functor on a derived category]] in [[homolog
 
 #Examples#
 
-* The derived functor of the [[limit]] functor is the [[homotopy limit]].
+* The (total) derived functor of the [[limit]] functor is the [[homotopy limit]].  The functors $lim^{(i)}$ often called the derived functors of Lim are then given by the (co)homology of that 'total' form.  
