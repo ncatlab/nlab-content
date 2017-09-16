@@ -10,7 +10,7 @@ A *bicategory of relations* is a [[(1,2)-category]] which behaves like the 2-cat
 
 ## Definition
 
-A **bicategory of relations** is a [[cartesian bicategory]] which is [[locally posetal 2-category|locally posetal]] and in which for every object $X$, the [[diagonal morphism|diagonal]] $\Delta\colon X\to X\times X$ and [[codiagonal]] $\nabla\colon X\times X\to X$ satisfy the [[Frobenius condition]]:
+A **bicategory of relations** is a [[cartesian bicategory]] which is [[locally posetal 2-category|locally posetal]] and moreover in which for every object $X$, the [[diagonal morphism|diagonal]] $\Delta\colon X\to X\times X$ and [[codiagonal]] $\nabla\colon X\times X\to X$ satisfy the [[Frobenius condition]]:
 $$\nabla\Delta = (1\times \Delta)(\nabla \times 1).$$
 
 +--{: .query}
