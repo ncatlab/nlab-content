@@ -1,4 +1,4 @@
-## External links ##
+# External links #
 
 * [Differential Propositional Calculus](http://planetmath.org/encyclopedia/DifferentialPropositionalCalculus.html) @ [PlanetMath](http://planetmath.org/)
 
