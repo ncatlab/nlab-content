@@ -69,7 +69,7 @@ one can similarly look at equivalence classes of pairs $(V,W) \in \mathbf{Vect}(
 
 This perspective on K-theory was originally realized by Atiyah and Hirzebruch. The resulting cohomology theory is usually called [[topological K-theory]].
 
-As one of variations, it is useful to regard a pair of [[vector bundle]]s as a single $\mathbb{Z}_2$-[[graded vector space|graded vector bundle]].
+As one of several variations, it is useful to regard a pair of [[vector bundle]]s as a single $\mathbb{Z}_2$-[[graded vector space|graded vector bundle]].
 
 One version of $\mathbb{Z}_2$-graded vector bundles, which lead to a description of [[twisted cohomology|twisted]] $K$-theory are [[vectorial bundle]]s.
 
