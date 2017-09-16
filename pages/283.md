@@ -4,6 +4,8 @@ The concept of **$\infty$-topos** is to the concept [[topos]] as [[infinity-cate
 
 More generally, the concept _$(n,r)$-topos_ is to [[topos]] as [[(n,r)-category]] is to [[category]].
 
+See also [[higher topos theory]].
+
 Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos) is [[Set]] -- the category of [[0-category|0-categories]] -- so the $\infty$-category of [[n-category|n-categories]] or at least of $n$-[[groupoid]]s should form the archetypical example of an $(n+1,1)$-topos. 
 
 This story has been realized in detail for the [[(infinity,1)-category|(infinity,1)-categorical]] case of [[(infinity,1)-topos|(infinity,1)-topoi]]. Indeed, the [[(infinity,1)-category]] of [[infinity-groupoid]]s is the archetypical example of an $(\infty,1)$-topos.
