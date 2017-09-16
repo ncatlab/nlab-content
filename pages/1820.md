@@ -41,7 +41,7 @@ The relevance of combinatorial model categories is given more abstractly by the 
 
 +-- {: .un_defn}
 ###### Definition
-(Jeff Smith)
+**(Jeff Smith)**
 
 A [[model category]] $C$ is **combinatorial** if it is
 
@@ -68,18 +68,33 @@ Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, 
 
 Jeff Smith's theorem, below, gives an equivalent characterization that is usually easier to handle.
 
+
 ## Characterization theorems ##
 
-There are two powerful theorems that characterize combinatorial model categories in terms of data that is often easier to handle:
+There are two powerful theorems that characterize combinatorial model categories in terms of data that is often easier to handle: 
+
+* [[Jeff Smith]]'s theorem characterizes combinatorial model categories just in terms of weak equivalences and generating cofibrations, hence using ony two third of the input data explicitly required. This greatly facilitates identifying combinatorial model category structures. For instance it helps to show that the left [[Bousfield localization of model categories|Bousfield localization]] of certain combinatorial model categories is again a combinatorial model category.
+
+* [[Dan Dugger]]'s theorem shows that [[combinatorial simplicial model category|combinatorial simplicial model categories]] are, up to [[Quillen equivalence]], precisely those model categories that have a _presentation_ in that they are [[Bousfield localization of model categories|Bousfield localization]]s of global [[model structure on simplicial presheaves|global model structures on simplicial presheaves]]. This was used by [[Jacob Lurie]] to show that simplicial combinatorial model categories are precisely the models for [[presentable (∞,1)-category|locally presentable (∞,1)-categories]].
+
 
 ### Smith's theorem ###
 
-A central theorem about combinatorial model categories is **Jeff Smith's theorem** which establishes the existence of model category structures from a comparatively small amount of input data.
+A central theorem about combinatorial model categories is **[[Jeff Smith]]'s theorem** which establishes the existence of combinatorial model category structures from a small amount of input data.
 
 +-- {: .num_theorem }
-###### Theorem (Jeff Smith)
+###### Theorem 
+**(Jeff Smith's theorem)**
 
-Let $C$ be a [[locally presentable category]], $W$ an accessibly embedded [[accessible category|accessible]] [[subcategory]] of the [[arrow category]] $Arr(C)$, and $I \subset Mor(C)$ a [[set]] (not a proper class) of morphisms of $C$ such that
+For
+
+* $C$ a [[locally presentable category]];
+
+* $Arr_W(C) \subset Arr(C)$ an accessibly embedded [[accessible category|accessible]] [[full subcategory]] of the [[arrow category]] $Arr(C)$ on a [[class]] $W \subset Mor(C)$;
+
+* $I \subset Mor(C)$ a small [[set]] (not a proper class) of morphisms of $C$ 
+
+such that
 
 * $W$ satisfies [[category with weak equivalences|2-out-of-3]];
 
@@ -87,94 +102,140 @@ Let $C$ be a [[locally presentable category]], $W$ an accessibly embedded [[acce
 
 * $cof(I) \cap W$ is closed under [[pushout]] and [[transfinite composition]].
 
-Then $C$ is a combinatorial model category with
+we have that $C$ is a combinatorial model category with
 
 * weak equivalences $W$;
 
 * cofibrations $cof(I)$.
 
-Conversely, every combinatorial model category is of this form.
+Moreover, every combinatorial model category arises in this way.
 
 =--
 
-Here $inj(I) = rlp(I)$ and $cof(I) = llp(rlp(I))$.
+Here the notation is as described at [[cofibrantly generated model category]], so: $inj(I) = rlp(I)$ and $cof(I) = llp(rlp(I))$.
 
-This statement was announced by Jeff Smith in 1998 at a conference in Barcelona and appeared in print as theorem 1.7 in
+This statement was announced by [[Jeff Smith]] in 1998 at a conference in Barcelona and appararently first appeared in print as theorem 1.7 in
 
 * [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0102087))
 
-The above statement follows prop 2.2 in 
+The above formulation follows prop 2.2 in 
 
 * [[Clark Barwick]], _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
 
 +-- {: .proof}
 ###### Proof
 
-For the proof of the first part, it is sufficent to exhibit a small set $J$ such that $cof(J) = W \cap cof(I)$. The construction of that is described in the following two lemmas.
-
-The converse statement, that every combinatorial model category satisfies the assumptions of the theorem, is for instance corollary 2.6 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
-
-=--
-
-+-- {: .un_lemma }
-###### Lemma (Smith)
-
-If a sub-set $J \subset cof(I) \cap W$ is such that every commutative square
+To prove the first part of the statement, that the given data encodes a combinatorial model category, it is sufficient to find a small set $J$ such that
 
 $$
-  \array{
-    K &\to& X
-    \\
-    \downarrow^{\mathrlap{i \in I}} && 
-    \downarrow^{\mathrlap{w \in W}}
-    \\
-    L &\to& Y
-  }
-$$
-
-may be factored as
-
-$$
-  \array{
-    K &\to& X' &\to& X
-    \\
-    \downarrow^{\mathrlap{i \in I}} && 
-    \downarrow^{\mathrlap{j \in J}} && 
-    \downarrow^{\mathrlap{w \in W}}
-    \\
-    L &\to& L' &\to& Y
-  }
-$$
-
-then 
-
-$$
-  cof(j) = cof(I) \cap W
+  cof(J) = W \cap cof(I)
   \,.
 $$
 
+With that the statement follows using the [[small object argument]] to show the existence of the required factorizations.
 
-=--
+To find this small set, we make use of the assumption that the subcategory
+$Arr_W(C) \subset Arr(C)$ of weak equivalences and commuting squares in $C$ between them
+is an [[accessible category|accessible]] subcategory of the [[arrow category]] $Arr(C)$.  This means that there is a small set $W_0 \subset W$ such that every element of $W$
+is a $\kappa$-[[directed colimit]] over element in $W_0$ in $Arr_W(C)$, for some [[cardinal number]] $\kappa$. We set then
 
-+-- {: .proof}
-###### Proof
+$$
+  J := W_0 \cap cof(I)
+  \,.
+$$
 
-(...)
+By the assumption that $Arr_C(W)$ is an accessibly embedded accessible subcategory of $Arr(C)$ and that $C$ itself is [[locally presentable category|locally presentable]], so that all its objects are
+[[small object]]s, it follows that every morphism
 
-=--
+$$
+  \array{
+    K &\to& M
+    \\
+    \downarrow && \downarrow^{\mathrlap{\in W}}
+    \\
+    L &\to& N
+  }
+$$
 
+in $Arr(C)$ lifts through one of the components in $W_0$ of $W$  (this mechanism is described in detail at [[small object]]) as
 
-+-- {: .un_lemma }
-###### Lemma (Smith)
+$$
+  \array{
+    K &\to& P &\to& M
+    \\
+    \downarrow && \downarrow^{\mathrlap{\in W_0}} && \downarrow^{\mathrlap{\in W}}
+    \\
+    L &\to& Q &\to& N
+  }
+  \,.
+$$
 
-Under the assumptions of Jeff Smith's theorem, a small set $J$ satisfying the condition of the above lemma can be found.
+In the special case that $K \to L$ is in $I$, we can refine this to a factoring through $J = W \cap cof(I)$ as follows:
 
-=--
+using the [[small object argument]] factor
+the canonical morphism $L \coprod_K P \to Q$ as 
+$L \coprod_K P \stackrel{\in cell(I)}{\to} R \stackrel{\in inj(J)}{\to}Q$. Then $L \to Q$ lifts to $L \to R$ and we obtain the factorization 
 
-+-- {: .proof}
-###### Proof
+$$
+  \array{
+    K &\to& P &\to& M
+    \\
+    \downarrow && \downarrow^{\mathrlap{\in W_0 \cap cof(I)}} && \downarrow^{\mathrlap{\in W}}
+    \\
+    L &\to& R &\to& N
+  }
+$$
 
-(...)
+of the original square from an elementin $I$ to an element in $W$  through an element in $J = W \cap cof(I)$. 
+(In [Beke](http://arxiv1.library.cornell.edu/abs/math/0102087), following [[Jeff Smith]], this is called the 
+**solution set condition**: $W_0 \cap cof(I)$ is "a solution set for $W$ at $I$").
+
+By following now precisely the [[small object argument]] with the only difference that one factors all the squares over which one takes a colimit in that argument through elements in $J$ as above, it follows now that every morphism $A \stackrel{\in W}{\to} B$ in $W$ may be factored as
+
+$$
+  A \stackrel{\in cell(J)}{\to} C \stackrel{inj(I)}{\to} B
+  \,.
+$$
+
+This we use to show that every morphism $f \in cof(I) \cap W$ is in $cof(J)$:
+
+since $f \in W$ we may factor $f$ as above and since $f \in cof(I)$ we obtain a lift $\sigma$ in
+
+$$
+  \array{
+    A &\stackrel{\in cell(J)}{\to}& C
+    \\
+    \downarrow^{f} &{}^\sigma \nearrow&
+    \downarrow^{\mathrlap{\in inj(I)}}
+    \\
+    B &\stackrel{=}{\to}& B
+  }
+  \,.
+$$
+
+Rearranging this it becomes a [[retract]] diagram in $Arr(C)$
+
+$$
+  \array{
+    A &\stackrel{=}{\to}& A &\stackrel{=}{\to}& A
+    \\
+    \downarrow^f && \downarrow^{\mathrlap{\in cell(J)}}
+    && \downarrow^f
+    \\
+    B &\stackrel{\sigma}{\to}&
+    C
+    &
+    \stackrel{\in inj(I)}{\to}
+    &
+    B
+  }
+$$
+
+which shows that $f$ is a retract of an element in $cell(J) \subset cof(J)$, hence itself in $cof(J)$.
+
+And the converse statement is immediate: by definition $J \subset cof(I) \cap W$ and $cof(J)$ is the saturation of $J$ under the operation of forming retracts of transfinite compositions of pushouts of elements of $J$, under which $cof(I) \cap W$ is assumed to be closed.
+
+In total we have indeed $cof(j) = cof(I) \cap W$.
 
 =--
 
@@ -183,7 +244,7 @@ Under the assumptions of Jeff Smith's theorem, a small set $J$ satisfying the co
 +-- {: .num_theorem }
 ###### Theorem (Dan Dugger)
 
-Every combinatorial model category $C$ is [[Quillen equivalence|Quillen equivalent]] to a left [[Bousfield localization]] $L_S SPSh(K)_{proj}$ of the global projective [[model structure on simplicial presheaves]] $SPSh(K)_{proj}$ on a [[small category]] $K$
+Every combinatorial model category $C$ is [[Quillen equivalence|Quillen equivalent]] to a left [[Bousfield localization of model categories|Bousfield localization]] $L_S SPSh(K)_{proj}$ of the global projective [[model structure on simplicial presheaves]] $SPSh(K)_{proj}$ on a [[small category]] $K$
 
 $$
   L_S SPSh(K)_{proj} \stackrel{\simeq_{Quillen}}{\to}
