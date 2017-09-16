@@ -13,6 +13,8 @@ It is an old idea that analogous to how [[differential K-theory]] is modeled by 
 
 [[Stephan Stolz]] and [[Peter Teichner]] have initiated a prrogram studying this in the article [[What is an elliptic object?]]. 
 
+The fundamental idea of this program is essentially to encode [[parallel transport]] along [[cobordism]]s with maps into a given space $X$ pretty much along the lines of [[schreiber:differential cohomology|functorial differential cohomology]]. One expects that this encodes actually the differential refinements of the corresponding [[cohomology|cohomology theories]], such as [[differential K-theory]]. However, currently in the program one divides out [[concordance]] which effectively devides out the differential information and keeps just the underlying topological information.
+
 The fundamental result of this program so far is that there is a useful notion of 2d [[FQFT]] over $X$ such that its [[partition function]] is indeed [[topological modular form]]-valued, so that it is a candidate for a model of [[tmf]].
 
 The following is going to be an exposition of this partial result:
