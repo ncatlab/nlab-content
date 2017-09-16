@@ -16,3 +16,5 @@
 * [[cobordism hypothesis]]
 
 category: people
+
+[[!redirects Julia Bergner]]
