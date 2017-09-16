@@ -13,6 +13,6 @@ Related subjects:
 See also the [English Wikipedia article](http://secure.wikimedia.org/wikipedia/en/wiki/Vladimir_Voevodsky).
 
 
-category: biography
+category: people
 
 [[!redirects Владимир Воеводский]]
