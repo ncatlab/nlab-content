@@ -100,6 +100,10 @@ $$
 
 * The triples in $L_{\mathrm{B}}$ represent the way that interpreter $\mathrm{B}$ uses signs. For example, the listing of the triple $(\mathrm{B}, \backprime\backprime \mathrm{i} \prime\prime, \backprime\backprime \mathrm{B} \prime\prime)$ in $L_{\mathrm{B}}$ represents the fact that $\mathrm{B}$ uses $\backprime\backprime \mathrm{B} \prime\prime$ to mean the same thing that $\mathrm{B}$ uses $\backprime\backprime \mathrm{i} \prime\prime$ to mean, namely, $\mathrm{B}$.
 
+## Further developments ##
+
+$\ldots$
+
 ## External links ##
 
 * [Triadic Relation @ MyWikiBiz](http://mywikibiz.com/Triadic_relation)
