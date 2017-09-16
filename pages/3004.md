@@ -14,10 +14,7 @@ The notion of *geometric theory* has many different incarnations.  A few are:
 
 The equivalence of these statements involves some serious proofs, including [[Giraud's theorem]] characterizing Grothendieck topoi.
 
-
-# Definitions
-
-## Logical definition
+# Logical definition
 
 In logical terms, a geometric theory fits into a hierarchy of theories that can be interpreted in the [[internal logic]] of a hierarchy of categories.  Since [[predicates]] in the internal logic are represented by [[subobjects]], in order to interpret any connective or quantifier in the internal logic, one needs a corresponding operation on subobjects to exist in the category in question, and be well-behaved.  For instance:
 
@@ -39,10 +36,40 @@ The interpretation of arbitrary uses of $\Rightarrow$ and $\forall$ requires a [
 
 By the usual syntactic constructions (see [[internal logic]] and [[context]]), any geometric theory $T$ generates a "free geometric category containing a model of that theory," also known as its *syntactic category* $G_T$.  This syntactic category $G_T$ has the universal property that for any other geometric category $G'$, geometric functors $G_T \to G'$ are equivalent to $T$-models in $G'$.
 
+# Examples
+
+* Any finitary [[algebraic theory]] is, in particular, a cartesian theory, and hence geometric.  This includes [[monoids]], [[groups]], [[abelian groups]], [[rings]], [[commutative rings]], etc.
+
+* The theory of [[categories]] is not finitary-algebraic, but it is cartesian, and hence geometric.
+
+* The theory of torsion-free abelian groups is also cartesian, being obtained from the theory of abelian groups by the addition of the sequents $(n\cdot x = 0) \vdash (x = 0)$ for all $n\in \mathbb{N}$.
+
+* The theory of [[local rings]] is a coherent theory, being obtained from the theory of commutative rings by adding the sequent $ (0 = 1) \vdash \bot $, for nontriviality, and
+  $$\exists z. ((x+y)z = 1) \vdash (\exists z.(x z = 1) \vee \exists z.(y z = 1))$$
+  saying that if $x+y$ is invertible, then either $x$ or $y$ is so.
+
+* The theory of [[fields]] is also coherent, being obtained from the theory of commutative rings by adding $ (0 = 1) \vdash \bot $ and also 
+  $$ \top \vdash (x=0) \vee (\exists y.(x y = 1)) $$
+  asserting that every element is either zero or invertible.  In the [[constructive logic]] that holds internal to the categories in question, this is the notion of a "discrete field;" other classically equivalent axiomatizations (called "Heyting fields" or "residue fields") are not coherent.
+
+* The theory of [[torsion]] abelian groups is geometric but not coherent; it can be obtained from the theory of abelian groups by adding the sequent
+  $$ \top \vdash \bigvee_{n\gt 1} (n \cdot x = 0) $$
+  asserting that for each $x$, either $x=0$ or $x+x=0$ or $x+x+x=0$ or ....  Similarly, the theory of fields of finite characteristic is geometric but not coherent.
+
+* The theory of a [[real number]] is geometric.  This is a [[propositional logic|propositional]] theory, having no sorts, and having one relation symbol "$p\lt x\lt q$" for each pair of rational numbers $p\lt q$.  Its axioms are:
+  - If $\max(p_1,p_2) \lt \min(q_1,q_2)$, then if $p_1\lt x\lt q_1$  and $p_2\lt x\lt q_2$, then $\max(p_1,p_2)\lt x\lt \min(q_1,q_2)$.  Otherwise, if $p_1\lt x\lt q_1$  and $p_2\lt x\lt q_2$ then $\bot$.
+  - If $p\lt p' \lt q' \lt q$, then if $p\lt x\lt q$, then either $p\lt x\lt q'$ or $p' \lt x\lt q$.
+  - If $p\lt x\lt q$, then $\bigvee_{p\lt p'\lt q'\lt q} (p' \lt x\lt q')$.
+  - Always $\bigvee_{p\lt q} (p\lt x\lt q)$.
+
+  The classifying topos of this theory is the topos of [[sheaves]] on the [[real numbers]].
+
+
+# Other characterizations
 
 ## From logic to geometry
 
-Now, categories of each type can also be "completed" with respect to a suitable "exactness" property, without changing their internal logic.  Any regular category has an completion into an [[exact category]] (see [[regular and exact completion]]), any coherent category has a completion into a [[pretopos]], and any geometric category has a completion into an [[infinitary pretopos]].
+Categories of each "logical" type can also be "completed" with respect to a suitable "exactness" property, without changing their internal logic.  Any regular category has an completion into an [[exact category]] (see [[regular and exact completion]]), any coherent category has a completion into a [[pretopos]], and any geometric category has a completion into an [[infinitary pretopos]].
 
 However, [[Giraud's theorem]] says that an infinitary pretopos having a [[generating set]] is precisely a [[Grothendieck topos]].  Moreover, a functor between Grothendieck topoi is geometric (preserves all the structure of a geometric category) iff it preserves finite [[limits]] and small [[colimits]].  By the [[adjoint functor theorem]], this implies that it is the [[inverse image]] part of a [[geometric morphism]], i.e. an [[adjunction]] $f^* \dashv f_*$ in which $f^*$ (the "inverse image") preserves finite limits.
 
