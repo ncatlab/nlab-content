@@ -6,6 +6,8 @@
 
 A **2-category equipped with proarrows**, also called a *proarrow equipment* or simply an *equipment*, is a [[2-category]] together with extra "proarrows" which enable one to reproduce more category theory inside it than is possible in a general 2-category.  The ur-example is [[Cat]] equipped with [[profunctors]].
 
+See also [[framed bicategory]].
+
 ## Motivation ##
 
 Just as ordinary [[category theory]] provides a framework in which one can do "formal mathematics," one of the (many) purposes of [[higher category theory]] is to provide a framework in which one can do "formal category theory."  In particular, many concepts in ordinary category theory can be interpreted internally in a [[2-category]], in a way which specializes to the original concept in [[Cat]].  Examples of such concepts include [[adjunctions]], [[monads]], [[Grothendieck fibrations]], [[Kan extensions]], and [[fully faithful morphisms]].
