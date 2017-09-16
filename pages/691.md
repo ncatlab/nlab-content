@@ -1,3 +1,3 @@
 See [[Lawvere theory]].
 
-category: redirect
+category: delete
