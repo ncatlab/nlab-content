@@ -1,8 +1,10 @@
-#entries on logic#
+# entries on logic #
 
-* [[Boolean algebra]]
-* [[Heyting algebra]]
 * [[axiom of choice]]
+* [[Boolean algebra]]
+* [[boolean domain]]
+* [[boolean function]]
+* [[boolean-valued function]]
 * [[cactus language]]
 * [[classical logic]]
 * [[constructive mathematics]]
@@ -12,6 +14,7 @@
 * [[equality]]
 * [[evil]]
 * [[excluded middle]]
+* [[Heyting algebra]]
 * [[hypostatic abstraction]]
 * [[internal logic]]
 * [[intuitionistic logic]]
@@ -25,6 +28,7 @@
 * [[predicative mathematics]]
 * [[propositional equation reasoning system]]
 * [[relation theory]]
+* [[semiotic equivalence relation]]
 * [[sign relation]]
 * [[triadic relation]]
 * [[truth value]]
