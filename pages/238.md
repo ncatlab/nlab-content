@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-11 #
  
+* [[Bruce Bartlett|Bruce]]: Added some comments abotu query boxes in personal nLab pages in the [[HowTo]] page.
+
 *  [[Tim Porter|Tim]]: I have added a query to [[join of simplicial sets]]. Am I missing something, but I find the initial definition confusing as it does not mention the ordinal structure nor ordinal sum. (There may be a subtlety that I am missing so ...)
 
 *  New pages: [[doctrine]], [[pretopological space]].
