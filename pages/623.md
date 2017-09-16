@@ -186,3 +186,6 @@ for instance [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 * Goerss, Jardine, _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  
 Notice that Goerss--Jardine write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss--Jardine call "Moore complex" is sometime maybe just called "alternating sum complex".
+
+
+[[!redirects Moore-complex]]
