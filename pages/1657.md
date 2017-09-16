@@ -82,5 +82,7 @@ $$\mu(\{x: f(x) \neq 0\}) = 0$$
 
 The functions which are 0 almost everywhere form a closed linear subspace $Null$ of the pseudonormed space of integrable functions. We say $f = g$ almost everywhere (a.e.) if $f - g \in Null$. The pseudonorm descends to a norm on the quotient space of a.e. equivalence classes of integrable functions, and the resulting normed space is denoted $L^1(X, \Sigma, \mu)$ (sometimes shortened to $L^1(X, \mu)$ or just $L^1(X)$ if the measure is clear). 
 
+#Discussion#
 
+[[Eric]]: Some day this should hopefully tie into the beautiful stuff on [[Leinster measure]] ([blog](http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html)).
 [[!redirects measure spaces]]
