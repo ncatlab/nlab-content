@@ -30,29 +30,29 @@ As with ordinary categories, an  object in a [[(infinity,1)-category]] is a [[ze
 
 Here and in the following, all notions such as [[initial object]], [[terminal object]], [[diagram]], [[pullback]], [[pushout]] etc. are to be interpreted in the sense of $(\infty,1)$-categories. See [[Higher Topos Theory]].
 
-In a pointed $(\infty,1)$-category $C$ with zero object $0$, the **kernel** of a morphism $g : X \to Y$ is the [[pullback]]
+In a pointed $(\infty,1)$-category $C$ with zero object $0$, the **kernel** of a morphism $g : Y \to Z$ is the [[pullback]]
 
 $$
   \array{
-     ker(g) &\to& X
+     ker(g) &\to& Y
      \\
      \downarrow && \downarrow^g
      \\
-     0 &\to& Y
+     0 &\to& Z
   }
 $$
 
-(so that $ker(g) \to X \stackrel{g}{\to} Y$ is a [[fibration sequence]])
+(so that $ker(g) \to Y \stackrel{g}{\to} Z$ is a [[fibration sequence]])
 
-and the **cokernel** of $g$ is the [[pushout]]
+and the **cokernel** of $f:X\to Y$ is the [[pushout]]
 
 $$
   \array{
-     X &\stackrel{g}{\to}& Y
+     X &\stackrel{f}{\to}& Y
      \\
      \downarrow && \downarrow
      \\
-     0 &\to& coker(g)
+     0 &\to& coker(f)
   }
   \,.
 $$
@@ -61,15 +61,15 @@ An arbitrary commuting square in $C$ of the form
 
 $$
   \array{
-     A &\to& B
+     X &\stackrel{f}{\to}& Y
      \\
-     \downarrow && \downarrow
+     \downarrow && \downarrow^g
      \\
-     0 &\to& C
+     0 &\to& Z
   }
 $$
 
-is a **triangle** in $C$. A pullback triangle is called an **exact triangle** and a pushout triangle a **coexact triangle**.
+is a **triangle** in $C$. A pullback triangle is called an **exact triangle** and a pushout triangle a **coexact triangle**. By the universal property of pullback and pushout, to any triangle are associated canonical morphisms $X\to\ker(g)$ and $coker(f)\to Z$. In particular, for every exact triangle there is a canonical morphism $coker(ker(g)\to Y)\to Z$ and for every coexact triangle there is a canonical morphism $X\to ker(Y\to coker(f))$. 
 
 A **stable $(\infty,1)$-category** is a pointed $(\infty,1)$-category such that
 
