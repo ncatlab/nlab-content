@@ -86,4 +86,4 @@ All these sorts of completions work just as well in an [[enriched category|enric
 
 Some other non-idempotent completions:
 
-* The [[regular category|reg/lex]] and [[exact category|ex/lex]] completions of a category with finite limits.
+* The [[reg/lex completion]] and [[ex/lex completion]] of a category with finite limits.
