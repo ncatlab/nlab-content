@@ -21,32 +21,37 @@ $$S : A \to A$$
 called the **antipode** or **coinverse** such that $m\circ(\mathrm{id}\otimes S)\circ \Delta = m\circ(S\otimes\mathrm{id})\circ\Delta = \eta\circ\epsilon$ (as a map $A\to A$). If an antipode exists then it is unique, just the way that if inverses exist in a monoid they are unique.
 The unit is group like, hence $S(1)1=1$, therefore $S(1)=1$. By linearity of $S$ this implies that $S\circ\eta\circ\epsilon = \eta\circ\epsilon$.
 
-**Proposition** The antipode is an antihomomorphism both of algebras and coalgebras (i.e. a homomorphism $S:A\to A^{cop}_{op}$). 
++-- {: .un_prop}
+###### Proposition
+The antipode is an antihomomorphism both of algebras and coalgebras (i.e. a homomorphism $S:A\to A^{cop}_{op}$). 
+=--
 
-Proof (algebra part). In Sweedler notation, for any $g,h\in A$, 
++-- {: .proof}
+###### Proof (algebra part)
+In Sweedler notation, for any $g,h\in A$, 
 
-$$S((hg)_{(1)}) (hg)_{(2)} = \epsilon(hg)$$ 
+$$S((h g)_{(1)}) (h g)_{(2)} = \epsilon(h g)$$ 
 
-$$S((hg)_{(1)}) h_{(2)}g_{(2)} = \epsilon(h)\epsilon(g)$$
+$$S((h g)_{(1)}) h_{(2)}g_{(2)} = \epsilon(h)\epsilon(g)$$
 
-$$S((hg)_{(1)}) h_{(2)}g_{(2)} Sg_{(3)} Sh_{(3)} = \epsilon(h_{(1)})\epsilon(g_{(1)}) Sg_{(2)} Sh_{(2)}$$
+$$S((h g)_{(1)}) h_{(2)}g_{(2)} S g_{(3)} S h_{(3)} = \epsilon(h_{(1)})\epsilon(g_{(1)}) S g_{(2)} S h_{(2)}$$
 
-$$S(h_{(1)}g_{(1)}) \epsilon(h_{(2)})\epsilon(g_{(2)}) = (Sg) (Sh)$$
+$$S(h_{(1)}g_{(1)}) \epsilon(h_{(2)})\epsilon(g_{(2)}) = (S g) (S h)$$
 
-$$S(h_{(1)}\epsilon(h_{(2)})g_{(1)}\epsilon(g_{(2)})) = (Sg)(Sh)$$
+$$S(h_{(1)}\epsilon(h_{(2)})g_{(1)}\epsilon(g_{(2)})) = (S g)(S h)$$
 
-Therefore $S(hg) = (Sg) (Sh)$.
+Therefore $S(h g) = (S g) (S h)$.
 
-For the coalgebra part, notice first that $\epsilon(h)1\otimes 1 = \tau\circ\Delta(\epsilon(h)1)=\tau\circ\Delta(Sh_{(1)}h_{(2)})$. Expand this as 
+For the coalgebra part, notice first that $\epsilon(h)1\otimes 1 = \tau\circ\Delta(\epsilon(h)1)=\tau\circ\Delta(S h_{(1)}h_{(2)})$. Expand this as 
 
-$$ (Sh_{(1)}\otimes Sh_{(2)})(h_{(4)}\otimes h_{(3)}) = ((Sh_{(1)})_{(2)}\otimes (Sh_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})$$
+$$ (S h_{(1)}\otimes S h_{(2)})(h_{(4)}\otimes h_{(3)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})$$
 
-$$ (Sh_{(1)}\otimes Sh_{(2)})(h_{(4)}\otimes h_{(3)}) (Sh_{(5)}\otimes Sh_{(6)}) = ((Sh_{(1)})_{(2)}\otimes (Sh_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})(Sh_{(5)}\otimes Sh_{(6)})$$
+$$ (S h_{(1)}\otimes S h_{(2)})(h_{(4)}\otimes h_{(3)}) (S h_{(5)}\otimes S h_{(6)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})(S h_{(5)}\otimes S h_{(6)})$$
 
-$$ ((Sh_{(1)}\otimes Sh_{(2)})\epsilon(h_{(3)}) = ((Sh_{(1)})_{(2)}\otimes (Sh_{(1)})_{(1)})(\epsilon(h_{(3)})1\otimes\epsilon(h_{(2)}))$$
+$$ ((S h_{(1)}\otimes S h_{(2)})\epsilon(h_{(3)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(\epsilon(h_{(3)})1\otimes\epsilon(h_{(2)}))$$
 
-$$ (Sh_{(1)}\otimes Sh_{(2)})=(\tau\circ\Delta)(Sh_{(1)}\epsilon(h_{(2)}))=(Sh)_{(2)}\otimes (Sh)_{(1)}).$$
-
+$$ (S h_{(1)}\otimes S h_{(2)})=(\tau\circ\Delta)(S h_{(1)}\epsilon(h_{(2)}))=(S h)_{(2)}\otimes (S h)_{(1)}).$$
+=--
 
 
 The axiom that must be satisfied by the antipode looks like a $k$-linear version of the identity satisfied by the inverse map in a group bimonoid: taking a group element $g$, duplicating by the diagonal map $\Delta$ to obtain $(g,g)$, taking the inverse of either component of this ordered pair, and then multiplying the two components, we obtain the identity element of our group.
