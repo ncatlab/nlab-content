@@ -95,6 +95,12 @@ Mike, I spent about two weeks trying to figure out how to get around Toby's obje
 Since the world of categories (about 50 years old) is currently less familiar than the world of sets (about 150 years old) ETCS is bound to be easier in the short term.  However, if we didn't want a new perspective on existing maths, we wouldn't be investigating alternative foundations.  To my mind, ETCC offers better chances of revealing something in an unexpected new light.
 
 _Toby_:  Ah well, I agree that one should do locale theory!  OK, if your point is that, however convenient ETCS may be as a foundation of *existing* mathematics, working in ETCC is likely to be convenient for useful *future* mathematics, then you may be right!
+
+_Roger Witte_ says
+Mike, [A new look at pointfree metrization theorems](http://www.emis.de/journals/CMUC/ps/cmuc9801/banaspul.ps).  Two down, Three to go?
+
+Toby
+Yes - we already know how to do maths in ETCS but we need to learn how to do it in ETCC.
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
