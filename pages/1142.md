@@ -56,7 +56,7 @@ $$
   \,.
 $$
 
-So if the [[internal hom]] exists, it has to be of the form given. It remains to show that with this definition $[-,F]$ really is [[right adjoint]] to $-\otimes F$.
+So if the [[internal hom]] exists, it has to be of the form given. It remains to show that with this definition $[F,-]$ really is [[right adjoint]] to $-\otimes F$.
 
 =--
 
