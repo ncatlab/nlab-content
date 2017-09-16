@@ -1,0 +1,3 @@
+One would like to embed an abstract [[group]] into a bigger group $K$ in which every [[automorphism]] of $G$ is obtained by restricting to $G$ an [[inner automorphism]] of $K$ fixing $G$ as a set.
+
+Each group embeds $G$ embeds into the symmetric group $Sym(G)$ on $G$ as a set by the left regular representation $g\mapsto l_g$ where $l_g(h) = gh$. The image is isomorphic to $G$ (the left regular representation of a discrete group is faithful). The [[normalizer]] of the image of $G$ in $Sym(G)$ is called the [[holomorph]]. The holomorph is the universal (the smallest) solution to the problem of making automorphism inner in a bigger group. 
