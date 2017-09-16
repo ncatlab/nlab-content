@@ -61,6 +61,33 @@ This is in chapter VI, 1. Inversion of elements is described around proposition 
 
 For instance for $\ell A = R = \ell C^\infty(\mathbb{R})$ the real line, a covering family is given by maps from two further copies of the real line $f_{1,2} : R \to R$ determined by any two smooth functions $a_1, a_1 \in C^\infty(\mathbb{R})$ with support  $(-\infty,1)$ and $(-1,\infty)$. By proposition 1.6 in chapter I we have $C^\infty(\mathbb{R})\{a_1^{-1}\} = C^\infty((-\infty,1))$ and $C^\infty(\mathbb{R})\{a_2^{-1}\} = C^\infty((-1,\infty))$. As both these open intervals are diffeomorphic to the real line, and as [[Diff]] embeds fully, we have isomorphisms $R \stackrel{\simeq}{\to} \ell(C^\infty(\mathbb{R}/{a_i^{-1}})$. Hence the cover defined by $(a_i, a_2)$ is the ordinary open cover of the real line by the two open subsets $(-\infty,1)$ and $(-1,\infty)$.
 
+Similarly using I.1.6, one finds the general result:
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $\ell C^\infty(U)/I$ be a [[smooth locus]] with $U \subset \mathbb{R}^n$ open and $I$ an ideal of $C^\infty(U)$. Then, up to isomorphisms, its covering families are precisely those families 
+
+$$
+  \{\ell C^\infty(U_i)/(I|U_i) \to \ell C^\infty(U_i)/I\}_{i=1}^n
+$$
+
+such that the $U_i \subset U$ are an ordinary open cover of $U$.
+
+Equivalently, such families where the $(U_i)$ need not cover all of $U$, but where there is $V \subset U$ open such that the $(U_i)$ together with $V$ do cover and $1 \in I|_V$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is lemma 1.2 in chapter VI.
+
+=--
+
+
+We now list central properties of this topos.
+
 +-- {: .um_prop}
 ###### Proposition
 **(properties)**
@@ -68,6 +95,8 @@ For instance for $\ell A = R = \ell C^\infty(\mathbb{R})$ the real line, a cover
 For the [[topos]] $\mathcal{Z}$ the following is true.
 
 * the [[Grothendieck topology]] is [[subcanonical coverage|subcanonical]]
+
+  (chapter VI, lemma 1.3)
 
 * the [[category]] [[Diff]] of smooth [[manifold]]s embeds [[full and faithful functor|full and faithfully]], $Diff \hookrightarrow \mathcal{Z}$
 
