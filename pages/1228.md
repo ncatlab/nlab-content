@@ -142,3 +142,6 @@ where it is atributed to Kan.
 
 A blog discussion which led to the creation of this entry is [here](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023106).
 
+
+[[!redirects Coyoneda lemma]]
+[[!redirects coYoneda lemma]]
