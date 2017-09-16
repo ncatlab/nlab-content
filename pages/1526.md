@@ -1,3 +1,6 @@
+>[[Urs Schreiber|Urs]]: the following really describes this concept: given a category $C$ with a [[generator]] ${*}$ or some other singled out object such as a tensor unit if $C$ is monoidal, there is the category of [[generalized element]]s of $C$ with respect to ${*}$, which is the [[over category]] $(*/C)$. The term "exploding a category" is very non-standard and I don't really like it, to be frank. Could we move this here maybe to something like "category of elements", or the like? 
+
+
 Given a [[category]] $C$, it is often the case that each object $X$ itself contains many elements $x\in X$.
 
 **Exploding a category** $C$ results in a new category $Explode(C)$. The objects of $Explode(C)$ consist of all the elements of all the objects of $C$.
