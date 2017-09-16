@@ -58,11 +58,11 @@ Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Se
 An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
 
 
-##Algebras over a monad#
+##Algebras/modules over a monad#
 
-Given that a monad in $B$ is nothing but a [[monoid]] in a hom-category $B(a,a)$, it is natural to consider [[module]]s over this monad.  This notion of module is more general than a module in a monoidal category, however, since they need not live in $B(a,a)$ but can be in $B(b,a)$ (for left modules) or $B(a,c)$ (for right modules).
+Given that a monad in $B$ is nothing but a [[monoid]] in a hom-category $B(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a monoidal category, however, since it need not live in $B(a,a)$ but can be in $B(b,a)$ (for left modules) or $B(a,c)$ (for right modules).
 
-In a Cat-like bicategory, left modules over a monad are usually called _algebras over the monad_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].
+In a $Cat$-like bicategory, left modules over a monad are usually called _algebras over the monad_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].
 
 Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
 
