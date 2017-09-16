@@ -1,3 +1,4 @@
+[[!redirects (infinity,1)-quantity]]
 +-- {: .standout}
 
 Research material. 
@@ -7,15 +8,23 @@ Research material.
 
 # Idea #
 
-We introduce a notion [[duality|dual]] to that of [[infinity-stack|∞-stack]] -- a generalized space -- which in the sense of [[space and quantity|space and quantity]] gives the corresponding notion of generalized quantity.
+In the sense of [[space and quantity]] a
 
-This is such that if we have a [[smooth infinity-stack|smooth ∞-stack]] -- i.e. a [[Lie infinity-groupoid|Lie ∞-groupoid]] -- its $(\infty,1)$-quantity is the dual to the corresponding [[Lie infinity-algebroid|Lie ∞-algebroid]]: its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]].
+* space is [[presheaf]]
+
+* quantity is a [[presheaf|co-presheaf]].
+
+The [[vertical categorification|categorification]] of space is an  [[∞-space]] -- a [[higher category theory|higher categorical]] presheaf usually called an [[infinity-stack|∞-stack]]. These may be [[model structure on simplicial presheaves|modeled]] by [[simplicial presheaf|simplicial presheaves]].
+
+Here we discuss the notion [[duality|dual]] to that of of $\infty$-space/$\infty$-stack/simplicial presheaf in the sense of [[space and quantity]]: that of _$\infty$-quantity.
+
+This is such that for instance in the smooth context of [[smooth infinity-stack|smooth ∞-stack]] -- i.e. a [[Lie infinity-groupoid|Lie ∞-groupoid]] -- the $\infty$-quantity $C^\infty(A)$ dual to a [[Lie infinity-groupoid|Lie ∞-groupoid]] $A$ is the cosimplicial algebra of smooth functions on neighbourhoods of identities in $A$ which turns out to be the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of the corresponding  [[Lie infinity-algebroid|Lie ∞-algebroid]]. 
 
 For instance 
 
-* the $(\infty,1)$-quantity of functions on the  [[path ∞-groupoid]] $\Pi(X)$ is the deRham complex of [[differential form]]s on $X$;
+* the $\infty$-quantity of functions on the  [[path ∞-groupoid]] $\Pi(X)$ is the [[deRham complex]] of [[differential form]]s on $X$;
 
-* the $(\infty,1)$-quantity of functions on the [[delooping|delooping]] $\mathbf{B}G$ of a [[Lie group|Lie group]] $G$ is the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of its [[Lie algebra|Lie algebra]].
+* the $\infty$-quantity of functions on the [[delooping|delooping]] $\mathbf{B}G$ of a [[Lie group|Lie group]] $G$ is the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of its [[Lie algebra|Lie algebra]].
 
 
 
@@ -330,3 +339,5 @@ infinitesimal simplices as given by [[Anders Kock]]. See [[differential forms in
 [[!redirects (infinity,1) quantity]]
 [[!redirects (∞,1)-quantity]]
 [[!redirects (∞,1) quantity]]
+
+[[!redirects ∞-quantity]]
