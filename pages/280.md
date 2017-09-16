@@ -20,7 +20,7 @@ Here the collection $\sqcup_{k \in Obj(k)} \rho(k)$ of objects in $C$ in the ima
 
 ##Action of a group ##
 
-An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[group homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the group of [[automorphism|automorphisms]] of $x$.  
+An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[group homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the [[automorphism group]] of $x$.  
 
 
 As indicated above, a more sophisticated but equivalent definition treats the group $G$ as a category denoted $\mathbf{B} G$ with one object, say $*$.  Then an _action_ of $G$ in the category $C$ is just a [[functor]] 
