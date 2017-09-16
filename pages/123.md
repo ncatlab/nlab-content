@@ -239,7 +239,7 @@ In [[higher category theory]] there are corresponding higher notions of functor,
 * [[(∞,1)-functor]]
 
 
-* See also [[Eric Forgy]]\'s [[experimental alternative definition of functor]].
+* See also an informal discussion about an [[experimental alternative definition of functor]].
 
 
 [[!redirects functors]]
