@@ -244,6 +244,9 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #10 Triangulated Categories#
 
+* [[triangulated category]]
+
+* [[cohomological functor]]
 
 #11 Complexes in Additive Categories#
 
