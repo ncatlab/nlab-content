@@ -36,7 +36,7 @@ A _category_ $C$ consists of
 
   * one writes $f : x \to y$ if $s(f) = x$ and $t(f) = y$;
 
-* a rule which assigns to any pair of morphisms $f$, $g$ such that $t(f) = s(g)$ their _composite_ morphism $g \circ f \in C_1$ (also  written $g f$ or sometimes $f;g$);
+* a rule which assigns to any pair of morphisms $f$, $g$ such that $t(f) = s(g)$ their _composite_ morphism $g \circ f \in C_1$ (also  written $g f$ or sometimes $f;g$&mdash; see [[diagrammatic order]]);
 
 * a rule which assigns to each object $x$ a morphism $1_x$, the _identity_ morphism on $x$;
 
