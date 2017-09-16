@@ -1,0 +1,1 @@
+Every [[monad]] induces an augmented cosimplicial [[endofunctor]]; in additive context we can produce a cochain complex out of any such cosimplicial endofunctor when applied to any particular object. Taking cohomologies of that complex yields **monadic cohomology**. This approach has been specially studied by Jon Beck. 
