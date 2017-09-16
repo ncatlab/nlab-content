@@ -33,7 +33,7 @@ As a partially ordered set is a special kind of [[category]], so a (finitely) di
 
 Directed sets are heavily used in point-set topology and analysis, where they serve as index sets for [[net|nets]] (aka Moore--Smith sequences).  In this application, it is important that a direction need not be a partial order, since a net need not preserve the preorder in any way but by default still preserves [[equality]].  (But in principle, one could force a directed set to be a poset by allowing a net to be a [[multi-valued function]]; this has practical consequences for the meaning of [[sequence]] in the absence of [[countable choice]].)
 
-Colimits over directed index sets also play an important role in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories; see also [[filtered category]].
+Joins over directed index sets are [[directed joins]]; colimits over directed index sets are [[directed colimits]].  These play an important role in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories; see also [[filtered category]].
 
 
 [[!redirects directed set]]
