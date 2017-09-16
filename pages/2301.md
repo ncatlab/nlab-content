@@ -225,6 +225,15 @@ Zoran: there is a serious collision here with the terminology in algebraic geome
 
 =--
 
+#### derived schemes with $E_\infty$-ring valued structure sheaves ####
+
+The above [[derived scheme]]s have structure sheaves with values in [[simplicial object|simplicial]] commutative rings. There is also a notion of derived scheme whose structure sheaf takes values in [[E-infinity ring]]s. The theory of these is to be described in full detail in 
+
+* [[Jacob Lurie]], [[Spectral Schemes]].
+
+An indication of some details is in 
+
+* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
 
 #### derived smooth manifolds ####
 
