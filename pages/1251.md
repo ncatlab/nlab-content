@@ -8,7 +8,7 @@
 
 A **directed colimit** is a [[colimit]] $\lim_\to F$ of a functor $F : J \to C$ whose [[source]] [[category]] $J$ is an (upward)-[[direction|directed set]].  
 
-More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a **$\kappa$-directed set** $J$ is a [[poset]] in which every subset of cardinality $\lt \kappa$ has an upper bound. Then a colimit over a functor $J \to C$ is called **$\kappa$-directed colimit**. This is also called a **$\kappa$-[[filtered category|filtered]] colimit**. 
+More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a **$\kappa$-directed set** $J$ is a [[poset]] in which every subset of cardinality $\lt \kappa$ has an upper bound. Then a colimit over a functor $J \to C$ is called **$\kappa$-directed colimit**.
 
 The [[duality|dual]] notion is that of _[[directed limit]]_, a [[limit]] of a functor whose source is a downward-directed set.
 
@@ -43,9 +43,10 @@ As with other colimits, an inductive limit, if any exists at all, is unique up t
 
 ## Properties {#properties}
 
-According to 1.5 and 1.21 in the book by Adamek & Rosicky, a category has $\kappa$-directed colimits iff it has $\kappa$-filtered ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones.
+According to 1.5 and 1.21 in the book by Adamek & Rosicky, a category has $\kappa$-directed colimits iff it has $\kappa$-[[filtered colimit|filtered]] ones, and a functor preserves $\kappa$-directed colimits iff it preserves $\kappa$-filtered ones.
 
-The fact that directed colimits suffice to obtain all filtered ones may be regarded as a convenient coincidence, like the fact that all colimits can be constructed from coproducts and coequalizers.
+The fact that directed colimits suffice to obtain all filtered ones may be regarded as a convenience similar to the fact that all [[colimits]] can be constructed from [[coproducts]] and [[coequalizers]].
+
 
 ## Applications 
 
@@ -65,3 +66,6 @@ The objects of an [[accessible category]] and of a [[presentable category]] are 
 A [[Pruefer group]] $Z_{p^\infty}$ (for $p$ a [[prime number]]) is an inductive limit of the [[cyclic group]]s $Z_{p^n}$ (for $n$ a [[natural number]]).  Here, $C$ is the category of [[group]]s, $I$ is the directed set of natural numbers, $A_i = Z_{p^i}$, and $f_{ij}: A_i \to A_j$ is induced by multiplication by $p$ (which must be proved well defined on $Z_{p^i}$ for $i \leq j$).
 
 A [[stalk]] $F_x$ (for $F$ a [[sheaf]] on a [[topological space $S$ and $x$ an element of $S$) is an inductive limit of $F(U)$ (for $U$ an open neighbourhood of $x$).
+
+
+[[!redirects directed colimits]]
