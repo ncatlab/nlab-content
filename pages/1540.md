@@ -1,0 +1,3 @@
+A **finitely cocomplete category** is a [[category]] $C$ which admits all finite [[colimit|colimits]], that is a colimit for any finite [[diagram]] $F: J \to C$.  Finitely cocomplete categories are also called **rex categories**, although this is rarer than 'lex' for finitely complete categories.
+
+For further theory, see [[finitely complete category]].  Note that $C$ is finitely cocomplete if and only if its [[opposite category]] $C^op$ is finitely complete.
