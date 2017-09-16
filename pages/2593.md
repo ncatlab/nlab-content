@@ -37,12 +37,13 @@ of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].
 
 * [[supergravity Lie 3-algebra]]
 
+* C. Weibel, _An introduction to homological algebra_ (Cambridge studies in advanced mathematics 38, 1994), chapter 7: Lie algebra homology and cohomology
 
 #References#
 
 ## ordinary Lie algebras ##
 
-... lots of references to go here ...
+* [Springer online enc:Lie algebra cohomology](http://eom.springer.de/C/c023140.htm)
 
 ## super Lie algebras ##
 
