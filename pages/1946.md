@@ -2,8 +2,21 @@
 
 Given a [[Reedy category]] $R$ and a [[model category]] $C$ the **Reedy model structure** is a [[model category]] structure on the [[functor category]] $[R,C] = Func(R,C)$.
 
-If $C^\circ$ denotes the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ then the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by the Reedy model structure on $Func(R,C)$ should be the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$.
+There is a refinement to a notion of $V$-[[enriched Reedy category]] such that if $C$ is a $V$-[[enriched model category]] -- in particular when it is a [[simplicial model category]] for $V = $ [[SSet]] -- the [[enriched functor category]] $[R,C]$ is itself a $V$-[[enriched model category]]. (Reference _Ang_ below.)
 
+
+
+In the case that 
+
+* $C$ a [[combinatorial simplicial model category]] 
+
+* with  $C^\circ$ the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by $C$ 
+
+* and with the [[Reedy category]] $R$ an ordinary category regarded as a [[SSet]]-[[enriched category]], 
+
+the [[(∞,1)-category]] $[R,C]^\circ$ [[presentable (∞,1)-category|presented]] by the enriched Reedy model structure on $[C,R]$ _should_ be the [[(∞,1)-category of (∞,1)-functors]] $Func_\infty(R,C^\circ)$.
+
+>That last statement here mainly since it would be the best way to describe the _idea_ behind Reedy model structures. This ought to be true, but I'll get back to this after checking something.
 
 #Definition#
 
@@ -51,3 +64,15 @@ in the appropriate way in $M$.
 * If $R$ admits more than one structure of Reedy category, then $C^R$ will have more than one Reedy model structure.  For instance, if $R = (\cdot\to\cdot)$ is the walking arrow, then we can regard it as either the ordinal $2$ or its opposite $2^{op}$, resulting in two different Reedy model structures on $C^2$.
 
 * For a general Reedy category $R$, the diagonal functor $C\to C^R$ need not be either a right or a left [[Quillen adjunction|Quillen functor]] (although, of course, it has left and right adjoints given by colimits and limits over $R$).  One can, however, characterize those Reedy categories for which one or the other is the case, and in this case one can construct [[homotopy limit|homotopy limits]] and colimits using the derived functors of these Quillen adjunctions.
+
+# References #
+
+A review of Reedy model structures is in section A.2.9 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]] .
+
+The discussion of enriched Reedy model structures is in
+
+* Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
+
+The main statement is theorem 4.7 there.
