@@ -1,7 +1,11 @@
 <div class="rightHandSide toc">
 [[!include physicscontents]]
-</div>
 
+***
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
 
 _Functorial quantum field theory_, one of the two approaches of axiomatizing [[quantum field theory]]. The other is [[AQFT]]. FQFT formalizes the _Schr&ouml;dinger picture_ of quantum mechanics, while AQFT formalizes the _Heisenberg picture_.
 
