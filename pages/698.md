@@ -42,7 +42,7 @@ The structure of a **model 2-category** on a [[strict 2-category]] $C$ with fini
 
   * if $u : X \to Y$ is a cofibration and $v : V \to W$ is a fibration in $C_1$ then the functor $[u,v]$ defined above is an [[isofibration]] in [[Cat]];
 
-  * and $[u,v]$ is a weak equivalence (in the [[folk model structure]] on [[Cat]], i.e. a categorical [[equivalence]]) if either of $u$ or $v$ is.
+  * and $[u,v]$ is a weak equivalence (in the [[folk model structure]] on [[Cat]], i.e. an [[equivalence of categories]]) if either of $u$ or $v$ is.
 
 This is just the usual notion of an [[enriched model category]] specialized to enrichment over the [[monoidal model category]] $Cat$.
 
