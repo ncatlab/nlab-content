@@ -33,7 +33,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Expanded [[section]] and wrote [[retraction]] following it; similarly wrote [[split monomorphism]] following [[split epimorphism]].
   * Separated [[k-tuply monoidal (n,r)-category]] from [[periodic table]].
   * Linked to [[Pursuing Stacks]] from [[infinity-stack]] so it won\'t be an orphan.  People more familiar with _Pursuing Stacks_ than I am may want to link to it in other ways.
-  * Reverted Andrew\'s edit to [[HowTo]]. I\'ll explain why on the [Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/), since it would be confusing to place the explanation there (and out of place here).
 
 # 2009-02-10
 
