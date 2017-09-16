@@ -54,24 +54,24 @@ An explicit statement of this can be found for instance as prop. 4.2.4
 
 * Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.daimi.au.dk/~luca/thesis.htmlPhD))
 
-This formulation plays a big role also in the context of [[(infinity,1)-category|(infinity,1)-categories]]. A [[presentable (infinity,1)-category]] is one equivalent to a [[localization]] of some [[(infinity,1)-category of (infinity,1)-presheaves]] (i.e. some [[reflective (infinity,1)-subcategory]] of the latter). The collection of all [[presentable (infinity,1)-category|presentable (infinity,1)-categories]] and colimit-preserving [[(infinity,1)-functor]]s betweem them forms the [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]], whose [[tensor product]] is the "bilinear" tensor product coming from interpreting colimit-preserving functors as "linear" (reading: colimit $\sim$ sum).
+This formulation plays a big role also in the context of [[(∞,1)-categories]]. A [[presentable (∞,1)-category]] is one equivalent to a [[localization]] of some [[(∞,1)-category of (∞,1)-presheaves]] (i.e. some [[reflective (∞,1)-subcategory]] of the latter). The collection of all [[presentable (∞,1)-categories]] and colimit-preserving [[(∞,1)-functors]] betweem them forms the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]], whose [[tensor product]] is the "bilinear" tensor product coming from interpreting colimit-preserving functors as "linear" (reading: colimit $\sim$ sum).
 
-This $(\infinity,1)$-category $Pr^L$ therefore is an $(\infty,1)$-analog of $Set\text{-}Mod$. In [[geometric infinity-function theory]] one finds (see section 4 there) that morphisms in $Pr^L$ encode the "correspondence operations" such as Fourier-Mukai and its generalizations. See in that context also the examples below.
+This $(\infty,1)$-category $Pr^L$ therefore is an $(\infty,1)$-analog of $Set\text{-}Mod$. In [[geometric ∞-function theory]] one finds (see section 4 there) that morphisms in $Pr^L$ encode the "correspondence operations" such as Fourier-Mukai and its generalizations. See in that context also the examples below.
 
 
 #Examples#
 
-* Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
+* Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebras]], [[bimodules]] and bimodule homomorphisms.
 
-* For $V = (Set, \times)$, $SetMod$ is the bicategory of [[locally small category|locally small categories]], [[profunctor]]s and transformations. 
+* For $V = (Set, \times)$, $SetMod$ is the bicategory of [[locally small category|locally small categories]], [[profunctors]] and transformations. 
 
-  The full sub-bicategory on [[discrete category|discrete categories]] is that of sets, [[span]]s of sets and morphisms of spans:
+  The full sub-bicategory on [[discrete category|discrete categories]] is that of sets, [[spans]] of sets and morphisms of spans:
   $$
     Set\Mod_{disc} \simeq Span(Set) 
     \,.
   $$
 
-* Accordingly for $S = (Set^{op}, \times)$ we get the bicategory of [[cospan]]s
+* Accordingly for $S = (Set^{op}, \times)$ we get the bicategory of [[cospans]]
 $$
   Set^{op}\Mod_{disc} \simeq Span(Set^{op}) = Cospan(Set) 
   \,.
@@ -91,7 +91,7 @@ $$
   \,.
 $$
 
-  * For $V = Vect$ this is the generalization of how every morphism $A \to B$ of [[algebra]]s induces the $A$-$B$ bimodule which as a vector space is $B$ with obvious right $B$ action and left $A$-action induced by first mapping $A$ to $B$ via $f$ and then using multiplication in $B$.
+  * For $V = Vect$ this is the generalization of how every morphism $A \to B$ of [[algebras]] induces the $A$-$B$ bimodule which as a vector space is $B$ with obvious right $B$ action and left $A$-action induced by first mapping $A$ to $B$ via $f$ and then using multiplication in $B$.
 
   * For $V = Set$ this is the fact that every map $f : C \to D$ of sets induces the span 
 $$
@@ -121,7 +121,7 @@ Some exposition at
 
 * John Baez, _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
 
-The common generalization of [[bimodule]]s and [[span]]s in terms of distributors has been discussed on the blog at
+The common generalization of [[bimodules]] and [[spans]] in terms of distributors has been discussed on the blog at
 
 * John Baez, _Bimodules versus spans_ ([blog](http://golem.ph.utexas.edu/category/2008/08/bimodules_versus_spans.html))
 
@@ -145,5 +145,6 @@ _Todd_: There is an inevitable debate here about whether one should use $C^{op} 
 [[Mike Shulman|Mike]]: My convention is $D^{op}\otimes C$.  I agree with your reasoning for why $D$ should be contravariant; I like to put it first because in the hom-functor $C(-,-)$ the contravariant variable appears first.
 =--
 
-
 [[!redirects profunctor]]
+[[!redirects profunctors]]
+[[!redirects distributors]]
