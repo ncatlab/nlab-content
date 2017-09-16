@@ -1,6 +1,6 @@
 [[!include contents]]
 
-An easy introduction for elemenatry basics is
+An easy introduction for elementary basics is
 
 * [[How to get started]].
 
