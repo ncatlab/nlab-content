@@ -1,5 +1,6 @@
-_Geometric quantization_ is the approach of Kirillov ("orbit method"), Kostant and Souriau attaching a [[Hilbert space]] to a symplectic manifold with a line bundle with connection, provided the symplectic manifold
-satisfies certain quantization conditions. It can be interpreted as a procedure [[quantization]] that sends a classical system defined by the [[symplectic geometry]] $(P,\omega)$ of its [[phase space]] $P$ equipped with a Hamiltonian vector field to a [[Hilbert space]] of states on which a [[Hamiltonian operator]] acts, whose flow describes the [[quantum field theory|quantum dynamics]] of the physical system in question. Geometric quantization is closely related to Berezin quantization and the subject of [[coherent states]].
+_Geometric quantization_ is the approach of Kirillov ("orbit method"), Kostant and Souriau for attaching a [[Hilbert space]] to a [[symplectic manifold]] with a [[line bundle]] with [[connection]], provided the symplectic manifold satisfies certain quantization conditions.
+
+It can be interpreted as a procedure of [[quantization]] that sends a classical system defined by the [[symplectic geometry]] $(P,\omega)$ of its [[phase space]] $P$ equipped with a Hamiltonian vector field to a [[Hilbert space]] of states on which a [[Hamiltonian operator]] acts, whose flow describes the [[quantum field theory|quantum dynamics]] of the physical system in question. Geometric quantization is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
 
 The basic idea is to let the quantum Hilbert space of states be _half_ the space of [[section]]s of a [[vector bundle|line bundle]] [[connection on a bundle|with connection]] whose curvature $2$-form coincides with the symplectic form $\omega$.
 
@@ -26,7 +27,7 @@ Geometric quantization is a marvelous tool for understanding the relation betwee
 
 1. Then we do *prequantization*: this gives us a Hermitian [[vector bundle|line bundle]] $L$ over $X$, equipped with a $U(1)$ [[connection on a bundle|connection]] $D$ whose curvature equals $i \omega$. $L$ is called the *prequantum line bundle*.
 
-   **Warning:** we can only do this step if $\omegha$ satisfies the *Bohr--Sommerfeld condition*, which says that $\omega/2\pi$ defines an [[Eilenberg-MacLane spectrum|integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
+   **Warning:** we can only do this step if $\omega$ satisfies the *Bohr--Sommerfeld condition*, which says that $\omega/2\pi$ defines an [[Eilenberg-MacLane spectrum|integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
 
 1. The [[Hilbert space]] $H_0$ of square-integrable [[section]]s of $L$ is called the *prequantum Hilbert space*. This is not yet the Hilbert space of our quantized theory -- it's too big. But it's a good step in the right direction. In particular, we can *prequantize classical observables*: there's a map sending any smooth function on $X$ to an operator on $H_0$. This map takes [[Poisson bracket]]s to [[commutator]]s, just as one would hope. The formula for this map involves the [[connection on a bundle|connection]] $D$.
 
