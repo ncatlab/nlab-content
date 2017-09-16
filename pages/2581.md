@@ -16,8 +16,8 @@ $\array{\text{The Way It Looks In} \\ \text{Windows} \\ \text{Firefox 3.5.4} \\ 
 $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \text{Fontset 2}}$</td></tr>
 
 <tr>
-<td>`A \:\text{:=}\: B`</td>
-<td>$A \:\text{:=}\: B$</td>
+<td>`A \;\text{:=}\; B`</td>
+<td>$A \;\text{:=}\; B$</td>
 <td>acceptable</td>
 <td>$\ldots$</td></tr>
 
@@ -40,8 +40,14 @@ $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \te
 <td>kinda cute &mdash;
 <br>looks like a planarian</td>
 <td>Correct vertical alignment
-<br>(but too loose horizontal spacing?)
+<br>(too loose horiz. spacing?)
 <br>using U+2236.</td></tr>
+
+<tr>
+<td>`A \;\text{-\lt}\; B`</td>
+<td>$A \;\text{-\lt}\; B$</td>
+<td>`A -\lt B`</td>
+<td>$\ldots$</td></tr>
 
 <tr>
 <td>`A \mathrel{-\lt} B`</td>
@@ -49,7 +55,49 @@ $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \te
 <td>`A -\lt B`</td>
 <td>$\ldots$</td></tr>
 
+<tr>
+<td>`A \;\text{&amp;#8722;&amp;#60;}\; B`</td>
+<td>$A \;\text{&#8722;&#60;}\; B$</td>
+<td>not rendering ???</td>
+<td>$\ldots$</td></tr>
+
+<tr>
+<td>`A \mathrel{&amp;#8722;&amp;#60;} B`</td>
+<td>$A \mathrel{&#8722;&#60;} B$</td>
+<td>not rendering ???</td>
+<td>$\ldots$</td></tr>
+
+<tr>
+<td>`A \;\text{&amp;#x2212;&amp;#x003C;}\; B`</td>
+<td>$A \;\text{&#x2212;&#x003C;}\; B$</td>
+<td>not rendering ???</td>
+<td>$\ldots$</td></tr>
+
+<tr>
+<td>`A \mathrel{&amp;#x2212;&amp;#x003C;} B`</td>
+<td>$A \mathrel{&#x2212;&#x003C;} B$</td>
+<td>not rendering ???</td>
+<td>$\ldots$</td></tr>
+
 </table>
+
+***
+
+$\array{
+A \;\text{-\lt}\; B
+&
+A \mathrel{-\lt} B
+\\
+A \;\text{&#8722;&#60;}\; B
+&
+A \mathrel{&#8722;&#60;} B
+\\
+A \;\text{&#x2212;&#x003C;}\; B
+&
+A \mathrel{&#x2212;&#x003C;} B
+}$
+
+***
 
 # Selected Pages from the Unicode Data Bank #
 
