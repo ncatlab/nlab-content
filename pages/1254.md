@@ -1,3 +1,3 @@
-See [[identity assigning morphism]].
+See [[identity-assigning morphism]].
 
 category: delete
