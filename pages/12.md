@@ -312,10 +312,10 @@ For a timeline of [[higher category theory]], see [A Prehistory of n-Categorical
 #Proposed Guidelines#
 Every entry should include:
 * A year
-* A list of names, typically authors of some paper or book.  These should have links to - possibly not yet created - pages about these authors.
-* A very brief sketch of the new concept or result that was introduced by these authors.  This should include links to pages containing definitions of the technical terms that are used.  If such pages don't exist yet we can include a link and create the page later.
+* A list of 'contributors', typically authors of some paper or book.  This should include links to --- possibly not yet created --- pages about these contributors.
+* A very brief sketch of the new concept or result that was introduced by these authors.  This should include links to pages containing definitions of the technical terms that are used.  If such pages don't exist yet, we can include a link and create the page later.
 
-For historians and people wanting references to cite, it will be very helpful if there exists a _reference_ to the paper or book in which a concept or result was introduced.  However, we can put this in the page for that concept or result.
+For historians and people writing bibliographies, it will be very helpful if there exists a _reference_ to any paper or book in which a concept or result was introduced.  However, we can put this information in the page for that concept or result.
 
 +-- {: .query}
 
@@ -422,12 +422,12 @@ Rafael: I simply mean that the text in the different cells melts together when t
 
 Rafael: Why not splitting?  The table will grow larger and a split will be necessary soon anyway. I just hope everyone agrees what the milestones are.
 
-: [[John Baez|John]] We won't agree on the milestones, but we can have fun arguing about it.  I think this page here should include _lots_ of developments, with just a little text about each one, so people can find out when things happened.  Another entry, called something like "Milestones in Category Theory and Related Mathematics", could be more selective.  
+: [[John Baez|John]] We won't agree on the milestones, but we can have fun arguing about it.  I think this page here should include _lots_ of developments, with just a little text about each one, so people can find out when things happened.  Another entry, called something like "Milestones in Category Theory and Related Mathematics", could be more selective.  We should not remove information from this big list, but we can copy "milestones" to a shorter list.
 
 : When writing papers it's often nice to refer to the article or book where a concept was first developed.  So, I want to have this information in the $n$Lab eventually.  In particular, if we claim that multiple categories were invented in 1963 by Ehresmann, we should have a reference somewhere to back up this claim.  But maybe that reference should appear in the (not-yet-existent) page on multiple categories.  That will prevent this page from becoming unnecessarily long.
 
-[[David Corfield|David]: I can see the milestone list being contentious. Anyway far more important to improve this timeline first. We could do with some experts looking it over. I'm sure most would include the effective topos concept much sooner than the quantum topos. I've transported out some of the material for a couple of lengthy entries, e.g., AST. It looks better to have entries of comparable length and with no breaks in the table, e.g., to define cosmoses.
+[[David Corfield|David]]: I can see the milestone list being contentious. Anyway far more important to improve this timeline first. We could do with some experts looking it over. I'm sure most would include the effective topos concept much sooner than the quantum topos. I've transported out some of the material for a couple of lengthy entries, e.g., AST. It looks better to have entries of comparable length and with no breaks in the table, e.g., to define cosmoses.
 
-[[John Baez|John]: I've deleted the entry on 'quantum topos', since in fact most experts are very doubtful that a correct definition has been found for this notion, and they're even uncertain such a notion deserves to exist. Let's stick to concepts that are fairly widely considered to be fruitful.
+[[John Baez|John]]: I've deleted the entry on 'quantum topos', since in fact most experts are very doubtful that a correct definition has been found for this notion, and they're even uncertain such a notion deserves to exist. Let's stick to concepts that are fairly widely considered to be fruitful.
 
 =--
