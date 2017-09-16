@@ -187,6 +187,6 @@ Urs: that diagram seems to be meaningful only if $A = B$, right? In that case, t
 
 [[Eric]]: Yeah. It needs some work. Of course I don't want $A=B$, but I would like to be able to introduce morphisms from $A$ to $B$. Could I form some kind of category union or something? The picture is kind of neat. Each diagram in $A$ "hovers" above a diagram in $B$. If it can be ironed out, it might be an efficient definition.
 
-
+Urs: now you are looking for the notion [[cograph of a functor]] (you should make us write out more details at that entry!)
 
 [[!redirects functors]]
