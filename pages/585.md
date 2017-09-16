@@ -18,7 +18,7 @@ But the really cool part is how this construction goes hand in hand with his def
 
 ## History ##
 
-In 1999, [[Todd Trimble]] introduced a definition of weak $n$-category in a lecture at Cambridge University. This definition was introduced in order to give an algebraic notion of fundamental $n$-groupoid, and has since been taken up in a number of directions by Tom Leinster and Eugenia Cheng, who compare it with globular approaches (e.g., Batanin's) and give a weak $\omega$-category extension. 
+In 1999, [[Todd Trimble]] introduced a definition of weak $n$-category in a lecture at Cambridge University. This definition was introduced in order to give an algebraic notion of fundamental $n$-groupoid, and has since been taken up in a number of directions by [[Tom Leinster]] and [[Eugenia Cheng]], who compare it with globular approaches (e.g., Batanin's) and give a weak $\omega$-category extension. 
 
 Trimble never published this material himself (in effect leaving it to others present at the Cambridge lecture to develop their own accounts, which has been a good thing), but it may be of at least historical interest to have Trimble's original account available. We will then pick out the highlights and streamline the approach, following subsequent work by Leinster and Cheng. 
 
@@ -289,7 +289,7 @@ to $T$. But other operads are possible; for the purposes of $n$-category theory,
 
 ## Extension to $\infty$-categories
 
-Using some theory of terminal coalgebras, Tom Leinster and Eugenia Cheng described a viable notion of Trimble $\infty$-category. 
+Using some theory of terminal coalgebras, Leinster and Cheng described a viable notion of Trimble $\infty$-category. 
 
 To get some idea of what is involved, consider the basic shape of the fundamental $n$-groupoid $\Pi_n(X)$ as a globular set: in dimensions $j \lt n$, the $j$-cells are just continuous maps $D^j \to X$. The dimension $j = n$ is exceptional: one "truncates", _abus de langage_, a putative $\infty$-groupoid $\Pi_\omega(X)$ to a fundamental $n$-groupoid $\Pi_n(X)$ by forcing all $j$-cells in dimensions $j \gt n$ to be identity cells, that is by taking the quotient of the set of $n$-cells $D^n \to X$ with respect to homotopy-equivalence rel boundary $\partial D^n$. (Thus it isn't literal truncation or amputation -- one also "closes the open wounds" by passing to a homotopical quotient!) Thinking of homotopy-equivalence classes in terms of applying a path-components functor $\Pi_0$ to a suitable function space, one sees after some reflection that this globular "truncation", which is a sort of enforcement of coherence at the level of top-dimensional cells, is really the result of beginning the iterative enrichment with the path-components functor 
 
@@ -398,7 +398,7 @@ What about monoidal structures? Is there a good guess for what it would mean to 
 
 The first appearance in print of the definition was in 
 
-* Tom Leinster, _A Survey of Definitions of $n$-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188)), [p. 54](http://arxiv.org/PS_cache/math/pdf/0107/0107188v1.pdf#page=54) 
+* [[Tom Leinster]], _A Survey of Definitions of $n$-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188)), [p. 54](http://arxiv.org/PS_cache/math/pdf/0107/0107188v1.pdf#page=54) 
 
 Later the definition was applied tentatively for the construction of weak $n$-cateories of cobordisms in
 
