@@ -29,6 +29,8 @@ One of the central theorems of the subject is that in good cases, the two give e
 
 +-- {: .query}
 [[Urs Schreiber|Urs]]: It would be nice to give this statement more in detail. Could you point me to specific literature on this?
+
+[[Tim Porter|Tim]] Like a lot else in this area, one of the earliest references to this sort of result is in Bousfield and Kan's SLN 304.  The material can be collected from parts of their chapter XI, and the result proposition 8.1, is, I think, more or less what Mike is saying. (As was often the case with Kan's papers t that time, there are some details omitted from that treatment, but most are, as he claimed, quite easy to complete.) For another approach in an algebraic context, there is a description in Illusie's thesis (SLN ?? but I have not a copy with me.)
 =--
 
 ### Global definition ###
