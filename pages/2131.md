@@ -39,5 +39,7 @@ Following the [[duality]] of [[space and quantity]], the concept dual to $\infty
 
 One place where the conceptual usefulness of interpreting catgeories internal to [[smooth space]]s as smooth **2-spaces** (and de-emphasizing conceptually their _realization_ as simplicial sheaves) has been particularly amplified is the work
 
-* [[Toby Bartels]], _2-Bundles_ ([pdf]()) 
+* [[Toby Bartels]], _2-Bundles_ ([web](http://toby.bartels.name/2bundles/)) 
 
+
+[[!redirects ∞-space]]
