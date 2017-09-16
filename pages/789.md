@@ -15,6 +15,10 @@ The basic idea is to study not just the [[tangent bundle]] $T X$ or cotangent bu
 
 #References#
 
+A standard reference is the PhD thesis
+
 * Marco Gualtieri, _Generalized complex geometry_ ([arXiv](http://arxiv.org/abs/math/0401221))
 
-* Urs Schreiber, [blog](http://golem.ph.utexas.edu/category/2007/08/the_g_and_the_b.html)
+A survey set of slides with an eye towards  the description of the [[Kalb-Ramond field]] and [[bundle gerbe]]s is
+
+* [[Nigel Hitchin]], _B-Fields, gerbes and generalized geometry_ ([pdf](http://www.maths.dur.ac.uk/events/Meetings/LMS/2005/GCFTST/Talks/hitchin1.pdf)) 
