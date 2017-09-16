@@ -1,3 +1,2 @@
-See [[small category]].
-
-category: redirect
+&lt; [[essentially small category]]
+[[!redirects essentially small category -- history]]
