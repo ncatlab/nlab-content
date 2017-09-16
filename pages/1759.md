@@ -17,6 +17,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * created [[nerve and realization]] in order to host Kan's general idea of how a functor into a category with colimits induces an adjoint pair of functors 
+
+    * I think I know what I am doing, but I'd like to ask people like [[Tim Porter]] and [[Todd Trimble]] to have a critical look at it (where is [[Mike Shulman]]??) -- in particular at the moment I allowed myself to assume that we are copowered over the enriching category in order to get nice formulas, I wouldn't object if somebody finds the time to give the more general discussion
+
+    * then of course I adjusted links and made some comments accordingly at [[nerve]], [[geometric realization]] and [[Dold-Kan correspondence]]
+
+  * following [[Eric Forgy|Eric]]'s question I typed a quick reply into [[cohomology]] on how the ordinary notion of cohomology in cochain complexes is reproduced. In principle this gives all the necessary information, but I'll try to find the time later to give a long detailed exposition of how this basic important special case arises from the very general perspective
+
   * added an "Idea" section to the beginning of 
     [[Postnikov system in triangulated category]]
 
