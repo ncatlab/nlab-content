@@ -1,13 +1,14 @@
-***
-
-Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
-
-The sandbox had gotten a little full, making it hard to use as a sandbox.  So [[lab elf|we've]] given it a bit of a clear out.  You can look at the old stuff by going [back in the history](http://ncatlab.org/nlab/revision/Sandbox/123).
++-- {: .standout}
+Every wiki needs a sandbox! Just test between the horizontal rules below (`***` in the source) and don't worry about messing things up.
+=--
 
 ***
 
 
 <img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
+
+
+***
 
 category: meta
 
