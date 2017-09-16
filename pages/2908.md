@@ -3,7 +3,7 @@ An __algebraic category__, according to one well-established definition, is a [[
 
 ## Details
 
-In more detail, let $A$ be a [[locally small category]], let $F\: Set \to A$ and $U\: A \to Set$ be [[functors]], and let $\epsilon\: F \circ U \to id_A$ be a [[natural transformation]].  Then $F, U, \epsilon$ give $A$ the structure of an __algebraic category__ if the following conditions hold:
+In more detail, let $A$ be a [[locally small category]], let $F\colon Set \to A$ and $U\colon A \to Set$ be [[functors]], and let $\epsilon\colon F \circ U \to id_A$ be a [[natural transformation]].  Then $F, U, \epsilon$ give $A$ the structure of an __algebraic category__ if the following conditions hold:
 
 *  $F \vdash U$ are [[adjoint functors]] with counit $\epsilon$.  More explicitly: for each $h\colon F(x) \to y$ in $A$, there is a unique $g\colon x \to U(y)$ in $Set$ such that $\epsilon(y) \circ F(g) = h$.
 *  $U \circ \epsilon$ is an [[equivalence of categories]] from $C$ to the [[Eilenberg–Moore category]] $Set^{U \circ F}$ of the [[monad]] $U \circ F$.  More explicitly:
