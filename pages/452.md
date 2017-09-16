@@ -61,7 +61,7 @@ This equation is known as the **Peiffer rule** in the literature.
 
 #Examples#
 
-* For $H$ any group, its automorphism crossed module is $AUT(H) := (G_2 = H, G_1 = Aut(H), \delta = Ad, \alpha = Id)$; under the equivalence of crossed modules with strict [[2-group]]s this corresponds to the 2-group $Aut_{Grpd}(\mathbf{B}H)$ of automorphisms in the category [[Grpd]] of [[groupoid]]s on the one-object [[groupoid]] $\mathbf{B}H$ corresponding to the group $H$.
+* For $H$ any group, its automorphism crossed module is $AUT(H) := (G_2 = H, G_1 = Aut(H), \delta = Ad, \alpha = Id)$; under the equivalence of crossed modules with strict [[2-group]]s this corresponds to the 2-group $Aut_{Grpd}(\mathbf{B}H)$ of [[automorphism]]s in the category [[Grpd]] of [[groupoid]]s on the one-object [[groupoid]] $\mathbf{B}H$ corresponding to the group $H$.
 
 *  Almost the canonical example of a crossed module is given by a group $G$ and a normal subgroup $N$ of $G$.  We take $G_2 = N$, and $G_1 = G$ with the action given by conjugation, whilst $\delta$ is the inclusion, $inc : N \to G$. This is 'almost canonical', since if we replace the groups by simplicial groups $G_.$ and $N_.$, then $(\pi_0(G_.),\pi_0(N_.),\pi_0(inc))$ is a crossed module, and given any crossed module, $(C,P,\delta)$, there is a simplicial group $G_.$ and a normal subgroup $N_.$, such that the construction above gives the given crossed module up to isomorphism.
 
