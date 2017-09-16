@@ -1,4 +1,4 @@
-A __hereditarily finite set__ is a [[finite set]] of hereditarily finite sets; this circular definition should be intepreted [[recursion|recursively]].  The set of all hereditarily finite sets (which is infinite, hence not itself hereditarily finite) is written $V_\omega$ to show its place in the [[von Neumann heirarchy]] of pure sets.
+A __hereditarily finite set__ is a [[finite set]] of hereditarily finite sets; this circular definition should be intepreted [[recursion|recursively]].  The set of all hereditarily finite sets (which is infinite, hence not itself hereditarily finite) is written $V_\omega$ to show its place in the [[von Neumann hierarchy]] of pure sets.
 
 As a property of a [[set]], being hereditarily finite is equivalent (up to [[isomorphism]] of sets) to simply being finite.  So the 'hereditary' part is meaningful only in material [[set theory]], not structurally, unless you see it as a property of a [[pure set]] represented structurally as a membership tree.
 
