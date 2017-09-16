@@ -96,9 +96,10 @@ We will now list $n$-categorical physics ordered according to this rough pattern
 
 Two sets of developing notes sketching a "history" of $n$-categorical and homotopical physics exist:
 
-* [[Jim Stasheff]], _A survey of cohomological physics_ ([pdf](http://www.math.unc.edu/Faculty/jds/survey.pdf))
-
 * [[John Baez]] and Aaron Lauda, _A prehistory of $n$-categorical physics_ ([pdf](http://math.ucr.edu/home/baez/history.pdf)) 
+
+* [[Jim Stasheff]], [[A Survey of Cohomological Physics]] 
+
 
 This comes with its blog discussion:
 
