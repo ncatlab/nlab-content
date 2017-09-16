@@ -19,7 +19,7 @@
 
 * [[small object argument]]
 
-* [[Quillen adjunction]]
+* [[Quillen adjunction]]/[[Quillen equivalence]]
 
 * [[Bousfield localization of model categories|Bousfield localization]]
 
