@@ -93,4 +93,6 @@ _for they multiply the number of mankind._ <br>
 _Toby_:  Evil isn\'t about whether there are more or fewer objects; it\'s about whether you can count the objects at all!  It\'s evil to say that $C$ has at least $2$ objects; all that you can say is that $C$ has at least $1$ object and (if it\'s true) that $C$ has at least $2$ isomorphism classes of objects.  To count things (beyond the question of whether there is at least $1$), you need a notion of equality of those things.
 
 [[Mike Shulman]]: Ditto Toby.  Making there be fewer objects would be like passing to the [[skeleton]] of a category, but the very *notion* of a skeleton is evil.
+
+_Toby_:  By the way, I kind of like the quotation.  It\'s kind of inappropriate, too, but in an interesting way.
 =--
