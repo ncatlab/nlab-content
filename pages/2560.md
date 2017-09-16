@@ -13,3 +13,5 @@ When $n \gt 2$, an $(n,i)$-[[horn]] in $S$ has the same edges as any of its fill
 If $S$ is a [[Kan complex]] or [[quasi-category]], then 
 the spine of $\sigma$ is the maximal list of _composable_ edges ([[k-morphism|1-morphism]]s) of $\sigma$. 
 
+
+[[!redirects backbone]]
