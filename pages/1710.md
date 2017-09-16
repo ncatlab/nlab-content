@@ -15,6 +15,8 @@ In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 * $x/C$ - See [[under category]] a.k.a. coslice category
 * $x\backslash C$ - See [[under category]] a.k.a. coslice category
 * $C(x,y)$ - See [[hom-set]]
+* $hom(x,y)$ -
+* $Hom(x,y)$ - 
 
 #Discussion#
 
