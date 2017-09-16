@@ -1,6 +1,15 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
 
 
-## idea
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea
 
 A strict Lie 2-algebra is the [[infinitesimal object|infinitesimal]] approximation to a smooth [[strict 2-group]] in generalization of how an ordinary [[Lie algebra]] is the infinitesimal approximation to a [[Lie group]].
 
