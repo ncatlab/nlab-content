@@ -175,7 +175,7 @@ A 2-group is an internal category in [[Grp]] and so has an internal nerve, which
 
 [...]
 
-Jean Pradines, _In [Ehresmann](http://en.wikipedia.org/wiki/Charles_Ehresmann)'s footsteps: from Group Geometries to Groupoid Geometries_ [	arXiv:0711.1608](http://arxiv.org/abs/0711.1608)
+Jean Pradines, _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_ [	arXiv:0711.1608](http://arxiv.org/abs/0711.1608)
 
 Baez & Crans, _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
 
@@ -198,3 +198,6 @@ _[[Eric Forgy|Eric]]_: Ok. Duh. It is pretty obvious for Set EXCEPT for pullback
 _[[Tim Porter|Tim]]_: If I remember rightly the important case is when trying to work on 'smooth categories', that is, general internal categories in a category of smooth manifolds.  Unless you take care with the source and target maps, the pullback giving the space of composible pairs of arrows may not be a manifold. (I remember something like this being the case in Pradines work in the area.) The point is then that one works with internal categories with extra conditions on $s$ and $t$ to ensure the pullback is there when you need it.
 
 _[[Toby Bartels|Toby]]_: Usually in the theory of Lie groupoids, they require $s$ and $t$ to be submersions, which guarantees that the pullback of *any* map along them exists.
+
+
+[[!redirects internal groupoid]]
