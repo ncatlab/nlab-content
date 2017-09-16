@@ -242,6 +242,19 @@ Can someone tell me how old the term 'monodromy' is?  I know that Ehresmann used
 The main aim should be to have a clear description of the idea and a definition or definitions with some discussion of their interrelationships.
 
 [[Zoran Skoda]]: so how will you do the local system on a site ? For a general site with a terminal object it is hard to have a satisfactory notion of fundamental group (though it works for topoi -- with regular epi topology assumed) while locally free sheaf still makes sense: you can use a cover of terminal object. The word monodromy is usually associated to  the case of ordinary differential equations and Riemann-Hilbert problem, so I believe that it existed around 1900, though I may be wrong.  
+
+[[Tim Porter|Tim]]:  My own approach would, I think, be to rephrase things along the line of standard treatments of descent theory from a simplicial viewpoint. I have not thought about this so this may get garbled a bit.  Classically you can do local systems on a triangulation of a manifold without reference to the fundamental group(oid), and again classically open covers of a manifold are linked to triangulations by the Cech nerve, (see [[simplicial local system]]. The analogue for a general topos would be a hypercovering (I suppose) so it should be feasible to adapt the definition to that setting. (This is probably either well known or wrong!) The fundamental group should be nowhere in sight.  Paths are not relevant in this, and, of course, locally constant sheaves or their generalisations _are_ just around the corner. (This is all analytic continuation but does not use paths only (generalisations of) open sets.)
+
+Local system was, as I said earlier, originally short for 'local system of coefficients', I believe, i.e. for cohomology or homology.
+
+My main point is that a local system is **not** the same as a locally constant sheaf.  It is more like a diagram defining such a sheaf, rather than the sheaf itself.  If that terminology is used then it is sloppy terminology.  This does not make it 'wrong', just like so much maths, 'systematic abuse of terminology', and it should only be  indulged in with great care and consideration. 
+
+
+
+(Another case which is more serious, I likewise object to U(1)-gerbes being called just gerbes.  This is historically wrong, can confuse a beginning researcher, and also can have a devastating effect on the future of young researchers, when well known 'experts' insist, for instance, that 'nice' gerbes are all abelian,(implying that other types are uninteresting, nasty and unimportant) as that condemns workers in non-Abelian cohomology who study non-Abelian gerbes to lack of grant funding etc. (I know I have been there!!! so my vehemence is well founded.))
+
+Your comment on monodromy reinforced my feeling about it.  I have not got Steenrod's paper, so wonder if it shows that he was aware of the link. His fibre bundles book was still in the future ... interesting historical question there.
+
 =--
 
 
