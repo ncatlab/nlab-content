@@ -385,17 +385,17 @@ this is remedied.
 
   * $A = [P_0(-), \mathcal{B}U(1)] = \mathcal{B}U(1)$;  $H(X,A) = H^2(X,A)$ is second integral cohomology -- classifies line bundles;
 
-  * $A = [P_1(-), \mathcal{B}U(1)] = \bar \mathcal{B}_1 U(1)$; $H(X,A) = \bar H^2(X,\mathbb{Z})$ is second differential integral cohomology -- classifies line bundles with connection;
+  * $A = [P_1(-), \mathcal{B}U(1)] = \bar \mathcal{B}_1 U(1)$; $H(X,A) = \bar H^2(X,\mathbb{Z})$ is second differential integral cohomology -- classifies line bundles with [[connection]];
 
-  * $A = [P_2(-), \mathcal{B}U(1)] = \bar \mathcal{B}_2 U(1)$; $ H(X,A) = \bar H_{flat}^2(X,\mathbb{Z})$ is second flat differential integral cohomology -- classifies smooth line bundles with flat connection;
+  * $A = [P_2(-), \mathcal{B}U(1)] = \bar \mathcal{B}_2 U(1)$; $ H(X,A) = \bar H_{flat}^2(X,\mathbb{Z})$ is second flat differential integral cohomology -- classifies smooth line bundles with flat [[connection]];
   
-  * $A = [P_0(-), \mathcal{B}^2U(1)] = \mathcal{B}^2U(1)$;  $H(X,A) = H^3(X,A)$ is third integral cohomology -- classifies line bundle gerbes;
+  * $A = [P_0(-), \mathcal{B}^2U(1)] = \mathcal{B}^2U(1)$;  $H(X,A) = H^3(X,A)$ is third integral cohomology -- classifies line [[bundle gerbe]]s;
 
-  * $A = [P_1(-), \mathcal{B}^2U(1)] = \bar \mathcal{B}^2_1 U(1)$ -- classifies line bundle gerbes with connective structure;
+  * $A = [P_1(-), \mathcal{B}^2U(1)] = \bar \mathcal{B}^2_1 U(1)$ -- classifies line [[bundle gerbe]]s with connective structure;
 
-  * $A = [P_2(-), \mathcal{B}^2U(1)] = \bar \mathcal{B}^2_2 U(1)$; $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third differential integral cohomology -- classifies smooth line bundle gerbes with connection;
+  * $A = [P_2(-), \mathcal{B}^2U(1)] = \bar \mathcal{B}^2_2 U(1)$; $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third differential integral cohomology -- classifies smooth line [[bundle gerbe]]s with connection;
   
-  * $A = [P_3(-), \mathcal{B}^2U(1)] = \bar \mathcal{B}^2_3 U(1)$; $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third flat differential integral cohomology -- classifies line bundle gerbes with flat connection;
+  * $A = [P_3(-), \mathcal{B}^2U(1)] = \bar \mathcal{B}^2_3 U(1)$; $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third flat differential integral cohomology -- classifies line [[bundle gerbe]]s with flat connection;
 
 
 Notice that all these objects $A$ do indeed behave, and can be treated like, generalized spaces. For instance one can look at paths in these spaces and for instance form their [[fundamental groupoid]]s. One finds results such that for instance 
