@@ -184,7 +184,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #3 Filtrant Limits#
 
-* [[filtrant category]]
+* [[filtered category|filtrant category]]
 
 * [[exact functor]]
 
