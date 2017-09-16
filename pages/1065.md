@@ -34,9 +34,7 @@ One of the most refined 1-categorical approximations to the right context in whi
 * [[Jacob Lurie]], [[Stable Infinity-Categories]]
 
 
-***
-
-## Discusssion ##
+## Discussion ##
 
 A previous version of this entry had triggered the following discussion:
 
