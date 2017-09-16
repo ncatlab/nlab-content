@@ -62,3 +62,7 @@ In considering what is desirable for a [[fundamental infinity-groupoid]] one sho
 
 The W-bar construction which gives the classifying space functor for simplicial groups and simplicially enriched groupoids is given in the entry on [[simplicial group|simplicial groups]].  It provides a good example of the above as the W-bar functor is right adjoint to the [[Dwyer-Kan loop groupoid]] functor and induces an equivalence of homotopy categories between that of simplicial sets and that of simplicially enriched groupoids.
 The simplicial sets here are playing the role of 'topological data'.
+
+#Moduli spaces#
+
+The notion of **[[moduli space]]** is closely related to that of classifying space, but has some subtle differences. See there for more on this.
