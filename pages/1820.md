@@ -20,7 +20,7 @@ A _combinatorial model catgeory_ is a particularly convenient [[model category]]
 
 A [[model category]] $C$ is **combinatorial** if it is
 
-* [[presentable category|presentable]]
+* [[locally presentable category|locally presentable]]
 
 and
 
@@ -39,8 +39,9 @@ Recall from the discussion at [[cofibrantly generated model category]] that this
     \,.
   $$
 
-
 Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, respectively, and $llp(S), rlp(S)$ is the collection of morphisms satisfying the left or right, respectively, [[lifting property]] with respect to a collection of morphisms $S$. 
+
+Jeff Smith's theorem, below, gives an equivalent characterization that is usually easier to handle.
 
 ## Jeff Smith's theorem ##
 
@@ -63,6 +64,8 @@ Then $C$ is a combinatorial model category with
 
 * cofibrations $cof(I)$.
 
+Conversely, every combinatorial model category is of this form.
+
 =--
 
 Here $inj(I) = rlp(I)$ and $cof(I) = llp(rlp(I))$.
@@ -75,7 +78,14 @@ The above statement follows prop 2.2 in
 
 * [[Clark Barwick]], _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
 
-The **proof** proceeds via two lemmas
++-- {: .proof}
+###### Proof
+
+The proof of the first part of the theorem proceeds in two lemmas, described below.
+
+The converse statement, that every combinatorial model category satisfies the assumptions of the theorem, is for instance corollary 2.6 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
+
+=--
 
 +-- {: .un_lemma }
 ###### Lemma (Smith)
@@ -136,6 +146,14 @@ Under the assumptions of Jeff Smith's theorem, a small set $J$ satisfying the co
 ...
 
 =--
+
+## Tractable combinatorial model categories ##
+
+A combinatorial model category is a [[tractable model category]] precisely if the set $I$ of generating cofibrations can be chosen such that all elements have a cofibrant object as domain.
+
+A [[proper model category|left proper]] combinatorial model category precisely if the set $J$ of generating trivial cofibrations can be chosen with cofibrant domain.
+
+This are corollaries 2.7 and 2..8 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
 
 
 ## Simplicial combinatorial model categories ##
