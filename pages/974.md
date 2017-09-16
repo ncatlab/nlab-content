@@ -180,6 +180,12 @@ _Toby_:  It\'s discussed very briefly at [[redirect]]; you can find much more on
 [[Mike Shulman]]: I agree that "locally" is a poor choice (and an overworked word), but I think that merely "presentable" is worse; some adjective must be used and "locally" has the weight of history behind it.  The important point requiring the adjective is that it is the _objects_ of the category which are presentable, rather than the category itself.  For instance, consider the notion of "locally _finitely_ presentable category," in which the generating set $S$ consists of finitely presentable objects, i.e. $\omega$-small ones.  If you drop the word "locally" then you would get "finitely presentable category" which means something completely different, namely an $\omega$-small object of [[Cat]].
 
 I'm guessing that when you say "presentable category" you are thinking of the set $S$ as "presenting" the category in some way, but I think this is wrong.  The notion of "presentable object" has a precise meaning in the very theory we are discussing, so we shouldn't apply it unqualified to the category as well with a different meaning.
+
+_Reid Barton_: I don't find these arguments very convincing.  First, local presentability is not something that can be checked objectwise, even once the category is assumed to be cocomplete.  For example, take the large poset of all sets (or elements of a fixed universe), ordered by inclusion.  This category is cocomplete, and every object is $\kappa$-presentable where $\kappa$ is its cardinality as a set, but it is not locally presentable: it has no terminal object.
+
+Secondly, and less pathologically, the name "locally finitely presentable" makes no sense at all from this point of view.  The category of groups is locally finitely presentable even though most of its objects are not finitely presentable.  It is only the category as a whole which is finitely presentable in the sense of being specified by a finite amount of data (the localization of presheaves on a finite category at finitely many morphisms).
+
+Finally, locally presentable categories should be viewed as a full sub-2-category not of Cat but of cocomplete categories and colimit-preserving functors.  A presentation of a category as the localization of a presheaf category at a set of maps is exactly the data you need to compute Hom out of it in this 2-category.  I have not worked out the details, but it seems that local presentability should be closely related to presentability in this setting.
 =--
 
 
