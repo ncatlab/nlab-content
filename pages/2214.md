@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-05
 
+* [[Todd Trimble]]: responded to something Rafael wrote at [[category theory]], and asked a question at the bottom of the timeline page. 
+
 * [[Urs Schreiber]]
 
   * created [[derived algebraic geometry]]
