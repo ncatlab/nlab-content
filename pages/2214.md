@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created entries for [[Saunders MacLane]], [[Gonzalo Reyes]] and [[Ieke Moerdijk]] and included links to them where we cite these people as authors (but I will have missed many pages where we do)
+
   * am asking for discussion of my latest formatting decision concerning these floating tables of contnts [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61) on the forum
 
   * expanded the entry [[dg-algebra]], moved the discussion there to the bottom, as I think it has been addressed (but Toby, let me know if not)
