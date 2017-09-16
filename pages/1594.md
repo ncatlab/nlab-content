@@ -25,3 +25,5 @@ An interesting generalization of an orbifold is so-called weighted branched mani
 * Dusa McDuff, Groupoids, branched manifolds and multisections, J. Symplectic Geom. Volume 4, Number 3 (2006), 259-315 ([project euclid](http://projecteuclid.org/euclid.jsg/1180135649))
 
 Wikipedia [article](http://en.wikipedia.org/wiki/Orbifold) is mainly tailored toward Thurston's approach. 
+
+[[!redirects orbifolds]]
