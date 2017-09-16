@@ -33,6 +33,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   *  _Toby_:  Yes, Jacques turned that off because it was such a load on the server; I expect that we can turn it on again when we get a better host.  In principle, you can get the HTML by exporting the source and compiling it on a local copy of Instiki, but of course you have to install Instiki to do that.  (Also note that you\'ll need the CSS files if you want the HTML to look the same, including fonts, query boxes, etc.)  And neither of these includes old versions; I think that Urs(?) is backing those up periodically in case the server crashes.
 
+  * _Zoran_: could then somebody make one copy of html zip file 2-3 times a month ? It would not be updated but still it would be useful for browsing math when offline. If I get the zip-file I can put it online on my homepage. Or simply could Jacques put one zip file of export_html weekly with link and warning that it is not up-to-date; and for editing we can anywy use markup version. Then the server does not get heavy with generation, I think that probably generating, compiling all takes time, the shear downloading from time to time would maybe not burden the server ? 
+
 * [[David Corfield|David]]: began an experiment on [[homotopy (as an operation)]] of dualizing the [[cohomology]] page. Began [[generalized (Eilenberg-Steenrod) homotopy]].
 
 * [[Urs Schreiber]]:
