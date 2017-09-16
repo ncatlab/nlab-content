@@ -5,3 +5,9 @@ A category of _pure motives_ is a certain linearization or [[additive and abelia
 #Definition#
 
 Given an [[adequate relation]] for algebraic cycles (the typical 4 choices are the rational, numerical, algebraic and homological equivalences), one constructs a version of [[Chow ring]]s, or what is axiomatically called a [[Weyl cohomology theory]] for varieties; the treatment of adequate relations typically involves a nontrivial tool, the so called [[Chow moving lemma]]. To define the category of __effective pure motives__, one starts with the category of smooth varieties over a field $k$, then enlarges the hom-sets between any two objects $X,Y$ by including a linear version of [[span|correspondence]]s, which are roughly the Chow cohomology classes of cycles on $X\times Y$. This gives an [[additive category]]; its [[Karoubian category|Karoubian envelope]] with formally inverted [[Lefschetz motive]] is the category of effective pure motives over $k$.
+
+##Exposition##
+
+*  James S. Milne, [Motives -- Grothendieck's Dream](http://www.jmilne.org/math/xnotes/MOT.pdf)
+
+*  Mihnyong Kim, [Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)
