@@ -1,1 +1,4 @@
-Test a redirect to an existing page.
+[[!redirects Sandbox]]
+
+category: meta
+category: redirect
