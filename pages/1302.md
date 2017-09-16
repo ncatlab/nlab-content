@@ -409,7 +409,11 @@ $$
   QX(X) := [C^{op},\infty Grpd](X,QC)
 $$
 
-as a definition of generalized $\infty$-vector bundles on $X$. This is considered further at [[schreiber:∞-vector bundle]].
+as a definition of generalized $\infty$-vector bundles on $X$. This general nonsense is considered further at [[schreiber:∞-vector bundle]]. Concrete realizations are discused at [[quasicoherent ∞-stack]].
+
+
+
+
 
 
 
