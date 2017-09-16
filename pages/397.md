@@ -25,6 +25,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Jacques Distler]]
 * [[Jamie Vicary]]
 * [[James Dolan]]
+* [[JCMcKeown]]
 * [[Jim Stasheff]]
 * [[Jocelyn Paine]]
 * [[John Baez]]
