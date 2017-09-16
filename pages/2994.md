@@ -1,0 +1,1 @@
+Given a commutative ring $R$, the commutative ring of **rational functions** with coefficients in $R$ is the field of fractions of the [[polynomial]] ring $R[z]$.  
