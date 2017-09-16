@@ -12,7 +12,7 @@ It is difficult to decide the laws that these these thin elements should satisfy
 1. Any horn has a unique thin filler;
 1. If all faces but one of a thin element are thin, then so is the remaining face. 
 
-Ashley's theorem, conjectured by Dakin, is that the category of such  $T$-[[T-complex|complexes]] is equivalent to that of [[crossed complex]]es.
+Ashley's theorem, conjectured by Dakin, is that the category of such  $T$-[[T-complex|complexes]] is equivalent to that of [[crossed complexes]].
 
 As for relations with complexes having cells of different shapes, Brown and Higgins proved that cubical $T$-complexes are equivalent to crossed complexes, and to strict cubical $omega$-groupoids with connections.  In that theory, the notion of thin element is crucial because it can be proved that any (multiple) composition of thin elements is thin, and because of the relation of thin elements to commutative shells.  David Jones in his thesis developed the notion of polyhedral $T$-complex, and gave sufficient axioms for these to be equivalent to crossed complexes.
 
@@ -29,15 +29,15 @@ Thus some thin structures  contain a way to represent any vertical arrow as a ho
 
 # Simplicial nerves for higher categories #
 
-Following on the work mentioned above for thin elements in Kan complexes, one can consider thin elements in [[nerve]]s of higher categories.  In "The algebra of oriented simplices" Street constructed the simplicial nerve for a [[strict omega-category]], which comes equipped with a collection of thin simplices that are identities (rather than merely cells).  Thus this nerve is not just a simplicial set, but a [[stratified simplicial set]] (a simplicial set equipped with a collection of "thin simplices" containing all degeneracies).
+Following on the work mentioned above for thin elements in Kan complexes, one can consider thin elements in [[nerves]] of higher categories.  In "The algebra of oriented simplices" Street constructed the simplicial nerve for a [[strict omega-category]], which comes equipped with a collection of thin simplices that are identities (rather than merely cells).  Thus this nerve is not just a simplicial set, but a [[stratified simplicial set]] (a simplicial set equipped with a collection of "thin simplices" containing all degeneracies).
 
 Street and Roberts conjectured that the nerves of strict $\omega$-categories could be characterized as stratified simplicial sets such that
 1. every [[complicial horn]] has a unique thin filler, and 
 1. for such a thin filler, if all faces but the one missing face in the complicial horn are thin, then so is the last one.
 
-Such stratified simplicial sets are called [[complicial set]]s.  This conjecture was later proven by Verity.
+Such stratified simplicial sets are called [[complicial sets]].  This conjecture was later proven by Verity.
 
 A [[weak complicial set]] is a stratified simplicial set satisfying the above conditions except that thin fillers need not be unique. Street conjectured that these represent the nerves of _weak_ $\omega$-categories, where now the thin simplices are supposed to be the _equivalences_ rather than the identities.  But since every complicial set is weak complicial, one should also require that the collection of thin simplices is "maximal" in some sense; Street gave one proposed characterization.  Weak complicial sets have been studied extensively by Verity.
 
-
+[[!redirects thin elements]]
 [[!redirects thin]]
