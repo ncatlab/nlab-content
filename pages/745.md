@@ -1,3 +1,5 @@
+[[!redirects comma categories]]
+
 #Idea#
 
 The comma category of two functors $f : C \to E$ and $g : D \to E$ is like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images).
