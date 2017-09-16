@@ -9,15 +9,34 @@
 
 #Defintion#
 
-Write $dgRing$ for the [[category]] of [[monoid]]s in the category of $\mathbb{N}$-graded [[cochain complex]]es of abelian groups.
+Write $dgRing$ for the [[category]] of [[monoid]]s in the category of [[cochain complex]]es of abelian groups.
 
 A [[dg-algebra]] is a dg-ring that is degreewise a $k$-[[vector spac]e] over some field $k$.
+
++-- {: .un_defn}
+###### Definition
 
 The  **projective** [[model category]] structure on $dgRing$ is given by setting:
 
 * weak equivalences are the [[quasi-isomorphism]]s
 
 * fibrations are the degreewise surjections.
+
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+This indeed defines a [[model category]] and in fact a [[cofibrantly generated model category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+See the references below.
+
+=--
 
 
 #References#
