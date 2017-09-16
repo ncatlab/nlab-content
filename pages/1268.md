@@ -1,4 +1,4 @@
-D-module is a sheaf of modules over the sheaf of regular differential operators (the latter notion depends on wheather we work over a scheme, manifold or analytic space etc.). They are useful as a means of applying the methods of homological algebra and sheaf theory to the study of analytic systems of partial differential equations.
+A D-module is a sheaf of modules over the sheaf of regular differential operators (the latter notion depends on whether we work over a scheme, manifold or analytic space etc.). They are useful as a means of applying the methods of homological algebra and sheaf theory to the study of analytic systems of partial differential equations.
 
 #References#
 
