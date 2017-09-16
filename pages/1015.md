@@ -50,7 +50,7 @@ and
 * __structural set theory__.  
 
 ZFC is an example of a material set theory, while [[ETCS]] is an example of a
-structural one.
+structural one.  From a model of either kind of set theory we can construct a model of the other, so the two are, broadly speaking, equivalent.  A more precise statement is that the two kinds of theories form categories related by the [[material-structural adjunction]].
 
 ### Material set theory
 
