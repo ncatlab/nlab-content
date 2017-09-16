@@ -386,6 +386,8 @@ Zoran: In fact I believe you are right, that Cartan seminars had sheaves in 1948
 Zoran: Here is the key! The 1948/9 acad year volume of Cartan seminar has 11 exposes, as on numdam. Weibel in his historical survey says that exposes 12-17 in mimeographed version had sheaf theory and that those exposes were abandoned, hence not published for real later and that Cartan again in 1950/51 a reworked version is published as exposes 14-20 (the latter are at numdam). Now timeline has 3 years as 3 contributions of Cartan 1948, 1950, 1951; at least the latter two for one academic year of the same volume of publications is not sensitive. 
 
 _Rafael_: Yes, this is something to include :) Good detective work. Here is another. Is it necessary that the variety is Noetherian in the Serre-Swan theorem? It don't say so for instance [here](http://info.fuw.edu.pl/~pmh/seminar.html)
+
+_Zoran_ In Serre's paper, says and uses noetherian. In a manuscript book on alg K-theory, Weibel quotes several related conditions, I think one detail is even there not precise, we had short nonconclusive correspondence on that. I should remember and look in my 2 years or so old letters on that. Another issue is 1964 item on sites. As there is a reference (I have a copy) M, Artin, Grothendieck topologies (mimeographed notes), Harvard University, Cambridge, Mass., 1962. than the year should be before 1962. One should compare descent chapters in FGA which are earlier; Grothendieck created descent theory to do it for qcoh sheaves in faithfully flat Grothendieck topology, so my suspicion would be even as early as 1959, but I am not sure; this is just a response without looking. 
 =--
 
 
