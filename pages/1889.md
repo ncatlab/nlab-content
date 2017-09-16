@@ -16,3 +16,11 @@ Often the term lax functor is often used for $n$-functors $F : C \to D$ whose do
   * So in particular for $V$ a [[monoidal category]] and $\mathbf{B}V$ its one-object [[delooping]] [[bicategory]], lax functors ${*} \to \mathbf{B}V$ are equivalent to [[monoid]]s in $V$.
  
 * Similarly, oplax functors ${*} \to D$ are equivalent to [[comonad]]s in $D$.
+
+* If $C$ is the [[codiscrete category]] on a set $S$, and $D$ is a [[bicategory]], lax functors $F : C \to D$ are the same as categories enriched in $D$ having $S$ as their set of objects.  
+
+   * In particular, if $C = {*}$, then this example reduces to the first one.  
+
+   * Another special case arises when $D = \mathbf{B}V$ for some monoidal category $V$.  Then lax functors $F : C \to D$ are the same as categories enriched in the monoidal category $V$.  
+
+
