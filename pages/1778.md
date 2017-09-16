@@ -1,5 +1,6 @@
 
-Cech cohomology is less a special kind of [[cohomology]] than a special algorithm for _computing_ cohomology classes.
+Cech cohomology is less a special kind of [[cohomology]] than a special algorithm (see [[Cech methods]]) for _computing_ cohomology classes.
+
 
 On the other hand, while the algorithm always produces results that look like cohomology classes, these actually are the abstractly defined cohomology classes only under certain assumptions. Historically Cech cohomology has often been understood as being defined as whatever that algorithm computes, and theorems would be proven that determine under which conditions such "Cech cohomology" coincides with cohomology defined by other means, where "by other means" traditionally is: "in terms of right derived functor definition of [[abelian sheaf cohomology]]".
 
