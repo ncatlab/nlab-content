@@ -35,7 +35,7 @@ The "higher algebra" embodied by [[commutative ring spectrum|commutative ring sp
 
 More recently [[Jacob Lurie]] argued that the natural ambient formalism for "brave new algebra" is that of ([[symmetric monoidal (infinity,1)-category|symmetric]]) [[monoidal (infinity,1)-category|monoidal]] [[(infinity,1)-category|(infinity,1)-categories]]:
 
->We should emphasize that the theory of [[A-infinity ring]]s is not new. There are various definitions available in the the literature; see for example _EKMM97_. We have chosen to present the subject using the language of [[(infinity,1)-category|(infinity,1)-categories]], which we feel is the natural home for these ideas. [#](http://www-math.mit.edu/~lurie/papers/DAG-II.pdf#page=3)
+>We should emphasize that the theory of [[A-infinity ring]]s is not new. There are various definitions available in the the literature; see for example _EKMM97_. We have chosen to present the subject using the language of [[(infinity,1)-category|(infinity,1)-categories]], which we feel is the natural home for these ideas. [#](http://www.math.harvard.edu/~lurie/papers/DAG-II.pdf#page=3)
 
 
 #Related entries#
@@ -44,9 +44,9 @@ The following links are ordered following the sections of the articles
 
 * [[Jacob Lurie]] 
 
-  * _Noncommutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-II.pdf))
+  * _Noncommutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-II.pdf))
 
-  * _Commutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAG-III.pdf)) 
+  * _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/topoibook/DAG-III.pdf)) 
 
 See also 
 
