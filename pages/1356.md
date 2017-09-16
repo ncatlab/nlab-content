@@ -7,4 +7,5 @@ This program was originally begun by Ross Street and has been carried forward by
 
 [[Urs Schreiber|Urs]]: my impression is that what Dominic Verity mainly wants to express with the term is "simplicial model for weak $\omega$-category". Maybe we could/should use a longer phrase like that?
 
+[[Mike Shulman|Mike]]: That would make me happier.
 =--
