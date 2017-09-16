@@ -2,6 +2,12 @@ This entry illustrates by way of examples the concepts of categorical [[limit]] 
 
 It starts with very elementary and simple examples and eventually passes to more sophisticated ones.
 
+For examples of the other [[universal construction]]s see
+
+* [[examples of adjoint functors]]
+
+* [[examples of Kan extensions]]
+
 # Limits and colimits in Set #
 
 In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
