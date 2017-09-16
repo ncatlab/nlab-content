@@ -34,13 +34,13 @@ $$
 
 Given this data of a vector bundle $E \to X$ with anchor map $\rho$ as above, one obtains the structure of a [[dg-algebra]] on the [[exterior algebra]] $\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*$ of smooth sections of the dual bundle by generalizing the familiar formula for the [[deRham complex|deRham differential]]: 
 
-for $\omega \in \wedge^n \Gamma(E)^*$ for all $v_i \in \Gamma(E)$ the differential is given by
+for $\omega \in \wedge^{n-1} \Gamma(E)^*$ for all $v_i \in \Gamma(E)$ the differential is given by
 
 $$
   (d \omega)(v_1, \cdots,v_n)
   =
   const
-  \sum_{\sigma} \pm \rho(\sigma_1)(\omega(v_{\sigma_2}, \cdots, v_{\sigma_n}))
+  \sum_{\sigma} \pm \rho(v_{\sigma_1})(\omega(v_{\sigma_2}, \cdots, v_{\sigma_n}))
   \pm
   const
   \sum_{\sigma} \omega([v_{\sigma_1}, v_{\sigma_2}], v_{\sigma_3}, \cdots, v_{\sigma_n})
