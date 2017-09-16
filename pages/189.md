@@ -86,6 +86,7 @@ I removed the green 'query' box, which gets a bit inconvenient when the discussi
 
 Let me emphasize that it really is used as a synonym -- it doesn't necessarily carry the implication that the representations of the graph are going to be considered.  For example, representation theorists talk about the AR-quiver of a category all the time, and they hardly ever mean that they want to consider the representation theory of that quiver.
 
+_Toby_:  I\'m inclined to rename this page to [[free category]] or [[free category on a quiver]].
 
 
 [[!redirects quivers]]
