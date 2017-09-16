@@ -1,6 +1,6 @@
-Projection measures are operator-valued measures of special type. They appear for example in the theory of reproducing kernel Hilbert spaces, coherent states and foundations of quantum mechanics. It is used to parametrize a complete family of projection operators, by subsets of some parameter space.  
+Projection measures are operator-valued [[measures]] of a special type. They appear for example in the theory of reproducing kernel [[Hilbert spaces]], [[coherent states]] and the foundations of [[quantum mechanics]]. A projection measure is used to parametrize a complete family of [[projection operator]]s by subsets of some parameter space.  
 
-Given a topological space $X$ and the $\sigma$-algebra $\mathcal{B}(X)$ of Borel subsets of $X$, a __projection measure__ $P$ is an assignment $A\mapsto P(A)$ of self-adjoint projection operators on a fixed Hilbert space $H$
+Given a [[topological space]] $X$ and the $\sigma$-[[sigma-algebra|algebra]] $\mathcal{B}(X)$ of [[Borel set|Borel subsets]] of $X$, a __projection measure__ $P$ is an assignment $A\mapsto P(A)$ of self-adjoint projection operators on a fixed Hilbert space $H$
 to Borel subsets $A\in \mathcal{B}(X)$ such that 
 $$
 P(A_1\cap A_2) = P(A_1) P(A_2)
