@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-23 #
 
+*  [[Toby Bartels]]:  A question (not a dispute!, what do you know?) on terminology at [[exponential object]].
+
 * [[Mike Shulman|Mike]]: 
 
   * Disagreed with Toby at [[k-tuply connected n-category]]: I think connectedness should be 0-connectedness, not '1-tuple' connectedness.
