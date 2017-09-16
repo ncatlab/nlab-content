@@ -1,6 +1,6 @@
 # Idea #
 
-A **pro-object** of a category $C$ is a "formal [[filtered category|cofiltered]] limit" of objects of $C$.  The category of pro-objects of $C$ is written $pro$-$C$.
+A **pro-object** of a category $C$ is a "formal [[filtered category|cofiltered]] limit" of objects of $C$.  The category of pro-objects of $C$ is written $pro$-$C$. It is sometimes called a 'pro-category'.
 
 "Pro" is short for "projective limit," an old term for a [[limit]], as contrasted with "ind" in the [[ind-object|dual notion]] for "inductive limit," the old term for [[colimit]].
 
