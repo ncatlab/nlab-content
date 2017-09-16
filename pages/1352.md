@@ -2,9 +2,9 @@
 
 A _stratified simplicial set_ is a [[simplicial set]] equipped with information about which of its [[simplex|simplices]] are to be regarded as being _[[thin element|thin]]_ in that they are like identies or at least like equivalences in a [[higher category theory|higher category]].
 
-The theory of [[simplicial weak omega-category|simplicial weak omega-catgeories]] is based on stratified simplicial sets.
+The theory of [[simplicial weak omega-category|simplicial weak omega-categories]] is based on stratified simplicial sets.
 
-#Definition#
+# Definition #
 
 A **stratification** of a [[simplicial set]] $X : \Delta^{op} \to Set$ is a subset $t X \subset \coprod_{[n]} X_n$ of its set of simplices (not in general a simplicial subset!) such that
 
@@ -26,7 +26,7 @@ $$
 
 The [[category]] of startified simplicial sets and stratified maps between them is usually denoted $Strat$.
 
-This category is a [[quasi-topos]].
+This category is a [[quasitopos]].  Hence, in particular, it is [[cartesian closed category|cartesian closed]].
 
 
 
@@ -37,9 +37,11 @@ This category is a [[quasi-topos]].
 
   * using the **maximal stratification**: all simplices are regarded as thin;
 
+  * using the **minimal stratification**: only degeneracies are thin.
 
+  These two stratifications give [[left adjoint|left]] and [[right adjoint]]s to the [[forgetful functor]] from stratified simplicial sets to simplicial sets.
 
-* A [[complicial set]] is a stratified simplicial set satisfying certain extra conditions. Complicial sets are precisely those simplicial sets which arise as the [[oriental|omega-nerve]] $N(C)$ of a [[strict omega-category]] $C$ and whose thin cells are precisely the images of the identity cells of $C$.
+* A [[complicial set]] is a stratified simplicial set satisfying certain extra conditions. Complicial sets are precisely those simplicial sets which arise (up to isomorphism) as the [[oriental|omega-nerve]] $N(C)$ of a [[strict omega-category]] $C$, where the thin cells are the images of the identity cells of $C$.
 
 
 * A [[simplicial set]] is a [[Kan complex]] precisely if its maximal stratification makes it a [[weak complicial set]].
@@ -62,9 +64,10 @@ $$
   \,.
 $$
 
-**Proposition**
-
++-- {: .un_prop}
+###### Proposition
 The functor $N : Str \omega Cat \to Strat$ has a [[left adjoint]] $F : Strat \to Str \omega Cat$ which is a [[strong monoidal functor]].
+=--
 
 Or so it is claimed on [slide 60](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf#page=60) of 
 [Ver07](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf)
