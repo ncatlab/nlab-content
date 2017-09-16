@@ -8,7 +8,7 @@ But that list tends to contain lots of minor changes: it's not easy to spot the 
 
 +-- {: .standout}
 
-Since we are currently experiencing problems with the server  whenever the _recently revised_ page is called, for the time being you are asked NOT to try to go to that page.
+Since we are currently experiencing problems with the server  whenever the **Recently Revised** page is called or a **Search** is performed, for the time being you are asked NOT to try either of these.
 
 Chances are that you won't get the page before end of the day anyway, and meanwhile the server performance suffers for all of us.
 
@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[John Baez]]
 
   * wrote a lot more on [[free cocompletion]].  I hope other students of category theory, not just Mike Stay and David Corfield, ask questions or do some of the exercises!
+
+    * [[Eric]]: Thanks for doing this. I've been trying to understand [[Kan extension]] for [[An Exercise in Kantization]]. I promise to try not to stray off topic.
 
 * [[David Corfield]]
 
