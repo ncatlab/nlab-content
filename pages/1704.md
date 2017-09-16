@@ -20,31 +20,27 @@ For motivation, background and further details see
 * [[gerbe]]
 * [[principal 2-bundle]].
 
-#Definition#
+#Definition in general $(\infty,1)$-topos #
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]], i.e. an [[(∞,1)-category of (∞,1)-sheaves]] whose objects behave as used to from [[topological spaces]], but are actually _parameterized_ topological spaces (for instance [[generalized smooth space|smooth]] spaces), namely [[∞-stacks]].
+We define $G$-principal $\infty$-bundles in the general context of an [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$, with $G$ a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]].
 
-Let $\mathbf{B} G$ be a one-object $\infty$-groupoid in $\mathbf{H}$, defining an $\infty$-group $G$. 
-
-Then for $X$ any object in $\mathbf{H}$, a $G$-principal $\infty$-bundle $P \to X$ is a [[fibration sequence|homotopy fiber]] of a morphism  $X \to \mathbf{B} G$
+Recall that for $A \in \mathbf{H}$ an object equipped with a point $pt_A : {*} \to A $, its corresponding [[loop space object]] $\Omega A$ is the [[homotopy pullback]]
 
 $$
   \array{
-    P &\to& {*}
+    \Omega A &\to& {*}
     \\
     \downarrow && \downarrow
     \\
-    X &\stackrel{g}{\to}& \mathbf{B} G
+    {*} &\to& A
   }
+  \,.
 $$
 
-for some classifying morphism $g : X \to \mathbf{B} G$.
-
-Notice that $g$ is a cocycle in the [[nonabelian cohomology|nonabelian]] [[cohomology]] on $X$ with coefficients in $G$.
-
-Also notice that every such object naturally comes equipped with a coherent [[action]] of $G$ obtained by further pulling back $P \to X$ along the [[simplicial object]] in $\mathbf{H}$ given by the [[homotopy pullback|homotopy fiber product]] of ${*} \to \mathbf{B}G$ along itself -- the [[groupoid object in an (∞,1)-category]] given by the [[Cech nerve]] of ${*} \to \mathbf{B}G$ --
+Conversely, for $G \in \mathbf{H}$ we say an object $\mathbf{B}G$ is a [[delooping]] of $\mathbf{H}$ if it has an essentially unique point and if $G \simeq \Omega \mathbf{B}G$. We call $G$ an **$\infty$-group**. More in detail, its structure as a [[groupoid object in an (∞,1)-category|group object in an (∞,1)-category]] is exhibited by the [[Cech nerve]] 
 
 $$
+ \left(
  \array{
    &\cdots&
    {*} \times_{\mathbf{B}G} {*} 
@@ -53,66 +49,221 @@ $$
    {*} \times_{\mathbf{B}G} {*} 
    &\stackrel{\to}{\to}& 
    {*} 
-   &\to& 
-   \mathbf{B}G
  }
+ \right)
+ \simeq
+ \left(
+  \array{
+   &\cdots&
+   G \times G
+   &\stackrel{\to}{\stackrel{\to}{\to}}&
+   G 
+   &\stackrel{\to}{\to}&
+   {*} 
+  }
+ \right)
 $$
 
-which by the discussion at [[fibration sequence]] is
+of ${*} \to \mathbf{B}G$.
+
+## $G$-principal $\infty$-bundles ##
+
+By the general reasoning discussed at [[cohomology]], a cocycle for nonabelian $G$-cohomology on $X \in \mathbf{H}$ is just a morphism $g : X \to \mathbf{B}G$ in $\mathbf{H}$. 
+
+To this is canonically associated its [[homotopy fiber]]
 
 $$
- \array{
-  &\cdots&
-  G \times G
-  &\stackrel{\to}{\stackrel{\to}{\to}}&
-  G 
-  &\stackrel{\to}{\to}&
-  {*} 
-  &\to& 
-  \mathbf{B}G
- }
-  \,.
+  \array{
+    P &\to& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\to& \mathbf{B}G
+    \,.
+  }
 $$
 
-See [[principal bundle]] for details on how this works for 1-bundles.
-
-Now from any $X \to \mathbf{B} G$ we obtain another simplicial object $P \times G^{\times n-1}$ with a map to the above of the form
+and we claim that $P \to X$ canonically extends to the structure of a [[groupoid object in an (∞,1)-category|groupoid object in an (∞,1)-topos]] 
+that exhibits the action of $G$ on $P$ in that it is a groupoid object _over_ $G$: it fits naturally into a diagram
 
 $$
- \array{
-  &\cdots&
-  P \times G \times G
-  &\stackrel{\to}{\stackrel{\to}{\to}}&
-  P \times G 
-  &\stackrel{\to}{\to}& 
-  P 
-  &\to& 
-  X
-  \\
-  &\cdots&
-  \downarrow
-  &&
-  \downarrow
-  &&
-  \downarrow
-  &&
-  \downarrow
-  \\
-  &\cdots&
-  G \times G
-  &\stackrel{\to}{\stackrel{\to}{\to}}&
-  G 
-  &\stackrel{\to}{\to}& 
-  {*} 
-  &\to& 
-  \mathbf{B}G
- }
-  \,.
+  \array{
+    \vdots && \vdots && \vdots
+    \\
+    P \times_X P \times_X P 
+    &\stackrel{\simeq}{\to}& P \times G \times G
+    &\to& G \times G
+    \\
+    \downarrow\downarrow\downarrow
+    && 
+   \downarrow\downarrow\downarrow 
+    && \downarrow\downarrow\downarrow
+    \\
+    P \times_X P &\stackrel{\simeq}{\to}& P \times G
+    &\stackrel{p_2}{\to}& G
+    \\
+    \downarrow\downarrow
+    && \downarrow\downarrow && \downarrow\downarrow
+    \\
+    P &\stackrel{=}{\to}& P &\stackrel{}{\to}& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X &\stackrel{=}{\to}& X &\stackrel{g}{\to}& \mathbf{B}G
+  }
 $$
 
-This encodes the action of $G$ on $P$.
++-- {: .un_prop }
+###### Proposition
 
-The morphisms of principal $\infty$-bundles are to be such that they respect this action, so that the [[∞-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
+Here the horizontal morphisms on the left are indeed equivalences, as indicated.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The definition homotopy pullback square for $P \times_X P$ is
+
+$$
+  \array{
+    P \times_X P &\to& P
+    \\
+    \downarrow && \downarrow
+    \\
+    P &\to& X
+  }
+$$
+
+To compute this, we may attach the defining homotopy pullback square of $P$ to obtain
+
+$$
+  \array{
+    P \times_X P &\to& P &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    P &\to& X &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+Since homotopy pullback squares paste to homotopy pullback squares, this says that $P \times_X P$ is the homotopy limit 
+
+$$
+  \array{
+    P \times_X P &\to& &\to& {*}
+    \\
+    \downarrow && && \downarrow
+    \\
+    P &\to& X &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+But again by the defnition of $P$, the lower horizontal morphism is homotopic to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also (equivalent to) the homotopy pullback
+
+$$
+  \array{
+    P \times_X P &\to& &\to& {*}
+    \\
+    \downarrow && && \downarrow
+    \\
+    P &\to& {*} &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+This finally may be computed in turn as the pasting of two homotopy pullbacks
+
+$$
+  \array{
+    P \times_X P\simeq P \times G &\to& G &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    P &\to& {*} &\to& \mathbf{B}G
+    \,.
+  }
+$$
+
+of which the one on the right is the defining one of $G$ and the remaining one on the left is just a [[product]].
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+**(terminology)**
+
+For ordinary [[principal bundle]]s the following terminology is standard:
+
+* the morphism $P \times_X P \stackrel{}{\to} P \times G$ is the **division map**;
+
+* the fact that the division map is an equivalence is the **principality condition** on the action;
+
+* the image $\rho : P \times G \to P$ of the projection to the second factor $p_2 : P \times_X P \to P$ under this equaivelence is the **action** of $G$ on $P$.
+
+=--
+
+The above shows how every cocycle $X \to \mathbf{B}G$ induces a map $P \to X$ equipped with a $G$-action. Conversely, we may _define_ a $G$-action on an object $V$ to be a [[groupoid object in an (∞,1)-category|groupoid object in an (∞,1)-topos]] sitting over $G$.
+
+
++-- {: .un_defn}
+###### Definition
+**($G$-action)**
+
+Let $G$ be a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $\mathbf{H}$. An [[action]] of $G$ on another object $V \in \mathbf{H}$ is a [[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] $V//G \to G$ _over $G$_ in that we have a morphism of simplicial diagrams
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    V \times G \times G
+    &\to& G \times G
+    \\
+   \downarrow\downarrow\downarrow 
+    && \downarrow\downarrow\downarrow
+    \\
+    V \times G
+    &\stackrel{p_2}{\to}& G
+    \\
+    \downarrow\downarrow && \downarrow\downarrow
+    \\
+    P &\stackrel{}{\to}& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+
+such that the corresponding diagram of [[effective epimorphism]]s
+
+$$
+   \array{
+      & V &\to& {*}
+      \\
+      & \downarrow && \downarrow
+      \\
+      V//G := & \lim_\to V\times G^{\times n} &\to&
+      \mathbf{B}G
+   }
+$$
+
+(recalling that by the axioms of [[(∞,1)-topos]] every groupoid object _is effective_) is a [[homotopy pullback]].
+
+We call the object $V//G$ with this structure of a
+[[groupoid object in an (∞,1)-category|group object in the (∞,1)-topos]] the [[action groupoid]] of $G$ acting on $V$.
+
+=--
+
+
+ 
+## Morphisms of $G$-principal $\infty$-bundles ##
+
+The morphisms of $G$-principal $\infty$-bundles are to be such that they respect the G$-action, so that the [[∞-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
 
 $$
   G Bund(X) \simeq Hom_C(X, \mathbf{B} G)
@@ -127,7 +278,7 @@ $$
 
 given by the [[hom-set]] in the [[homotopy category of an (infinity,1)-category|homotopy category of the (∞,1)-category]] $C$.
 
-#Connection#
+## Connections on $G$-principal $\infty$-bundles ##
 
 By refining the classifying [[nonabelian cohomology|cocycles]] $g : X \to \mathbf{B} G$ to cocycles 
 $\Pi(X) \to \mathbf{B} G$
