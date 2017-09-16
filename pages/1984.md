@@ -13,3 +13,6 @@ The article had a huge influence not only in Tannakian theory but also in creati
 See also [wikipedia](http://en.wikipedia.org/wiki/Tannakian_category)
 
 There will be later a separate entry on Tannakian reconstructions. 
+
+
+category: reference
