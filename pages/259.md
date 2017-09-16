@@ -60,6 +60,7 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[sub-quasi-category]]
 
+* [[fibrations of quasi-categories]]
 
 ## References
 
