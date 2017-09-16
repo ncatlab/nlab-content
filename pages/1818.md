@@ -34,5 +34,6 @@ spaces by homotopy equivalent spaces then you can build from those new spaces a 
 +--{: .query}
 That is a start on it anyhow!
 =--
-[[!redirects Cech homotopy]]
 
+
+[[!redirects Čech homotopy]]
