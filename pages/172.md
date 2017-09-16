@@ -1,6 +1,6 @@
 #Idea#
 
-An [[higher category theory|infinity category]]-valued (pseudo)[[presheaf]] $\mathbf{A} : Spaces^{op} \to \infty-Cat$ is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent and codescent|descent data]] for any [[hypercover]] $Y^\bullet \stackrel{\simeq}{\to}\gt X$: if the canonical morphism
+An [[higher category theory|infinity category]]-valued (pseudo)[[presheaf]] $\mathbf{A} : Spaces^{op} \to \infty-Cat$ is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[hypercover]] $Y^\bullet \stackrel{\simeq}{\to}\gt X$: if the canonical morphism
 $$
   \mathbf{A}(X) \to
   Desc(Y^\bullet, \mathbf{A})
