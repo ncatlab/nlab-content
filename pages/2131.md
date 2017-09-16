@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher geometry - contents]]
+</div>
+
+
 #Idea#
 
 In the sense of [[space and quantity]] a _space_ is, quite generally, a [[presheaf]] on some category of test objects.
