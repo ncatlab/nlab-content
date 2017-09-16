@@ -1,5 +1,7 @@
 [[!redirects (∞,1)-category]]
 [[!redirects (∞,1)-categories]]
+[[!redirects (infinity,1)-categories]]
+
 
 #Idea#
 
@@ -123,7 +125,7 @@ For more see
 
 
 
-## Segal categories and complte Segal spaces ##
+## Segal categories and complete Segal spaces ##
 
 Other models for $(\infty,1)$-categories are
 
