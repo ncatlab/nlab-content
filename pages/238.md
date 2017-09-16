@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added more details to and slightly restructured [[exact functor]] 
+
+    * in particular added a remark on and a link to "[[flat functor]]", which overlaps in content
+
+    * I changed at [[flat functor]] the condition that $(d/F)$ be filtered to the condition that it be cofiltered. Please check that I am not hallucinating! But see for instance [[Categories and Sheaves|KashSch prop. 3.3.2]]
+
   * after reading it I got the idea that [[Toby Bartels|Toby]]'s latest addition to [[stuff, structure, property]] is really about higher subobject classifiers as discussed at [[generalized universal bundle]]. I added corresponding remarks, but didn't find the time to look into this very carefully.
 
 *  [[David Corfield|David]]: Started [[locally finitely presentable category]]
