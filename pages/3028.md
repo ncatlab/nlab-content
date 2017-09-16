@@ -84,6 +84,8 @@ As you can (probably) tell, I'm making this up as I go along!  I've not decided 
 Pondering a little more, I think that I'm avoiding distance not because I don't think it belongs in an elementary treatment - as you imply, what could be more simple to understand than distance? - but because it's a way of keeping metric spaces at bay: once I start talking about distances then it'll be easy to talk about metrics and the like.
 
 I think you're right about the square roots, by the way.  ---Andrew
+
+Since accidentally using metric space theory is always a danger, I understand not wanting to mention distances and norms right away.  On the other hand, I do think that any introductory treatment ought to mention them at some point, and even to prove that they satisfy the triangle inequality and Cauchy completeness.  But those should be theorems specifically about the concept of distance in a Hilbert space, not anything fundamental to the development of the general theory of Hilbert spaces.  So sure, keep them out for now.  ---Toby
 =--
 
 +-- {: .proof}
