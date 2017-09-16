@@ -96,6 +96,9 @@ A series of blog posts looking at spectral triples from the perspective of [[FQF
 
 * [[Urs Schreiber]], _Connes on Spectral Geometry of the Standard Model_ ([part I](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of.html), [part II](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_1.html) [part III](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_2.html), [part IV](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_3.html)) 
 
+Articles on spectral triples from superstrings/2d super [[conformal field theory]]:
+
+* Sebastiano Carpi, Robin Hillier, Yasuyuki Kawahigashi and Roberto Longo, _Spectral Triples and the Super-Virasoro Algebra_ Communications in Mathematical Physics, Volume 295, Number 1 / April 2010 ([pdf](http://www.springerlink.com/content/316wx4r4x885172w/fulltext.pdf))
 
 
 ## von Neumann spectral triples ##
