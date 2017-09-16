@@ -41,3 +41,4 @@ A pedagogical introduction to Postnikov systems with an eye towards their $\inft
 
 
 [[!redirects Postnikov tower]]
+[[!redirects Postnikov decomposition]]
