@@ -85,3 +85,6 @@ Concretely the need for the site of simplicial ring objects is discussed in the 
 and in the introduction of
 
 * David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf).
+
+
+[[!redirects derived infinity-stack]]
