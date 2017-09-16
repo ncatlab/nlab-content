@@ -352,6 +352,8 @@ If moreover $X_0 \hookrightarrow X$ is the inclusion from above, we have
 
 * $H(\Pi(X),Vect_\infty)$ =: $Vect_\infty(\Pi(X))$ is the $\infty$-groupoid of equivariant $\infty$-vector bundles on $X_0$ with flat connection.
 
+Morphisms from the [[fundamental infinity-groupoid]] are also called [[local system]]s.
+
 
 
 #### monoidal $\infty$-categories ####
