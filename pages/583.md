@@ -287,11 +287,11 @@ This way all the familiar logical operations are recovered from the internal log
 
 
 
-### Internal logic in a presheaf topos on open subsets {#LogicOfPresheaves}
+### Internal logic in a sheaf topos on open subsets {#LogicOfPresheaves}
 
-Let $X$ be a [[topological space]] and $Op(X)$ its [[category of open subsets]] and $Psh(Op(X)) = Func(Op(X)^{op}, Set)$ the [[Grothendieck topos]] of [[presheaf|presheaves]] on $X$.
+Let $X$ be a [[topological space]] and $Op(X)$ its [[category of open subsets]] and $Sh(X) := Sh(Op(X))$ the [[Grothendieck topos]] of [[category of sheaves|of sheaves]] on $X$.
 
-The [[terminal object]] is the presheaf [[representable functor|represented by]] $X$: the one that is constant on the one-element set
+The [[terminal object]] is the sheaf [[representable functor|represented by]] $X$: the one that is constant on the one-element set
 
 $$
   X : U \mapsto {*}
@@ -313,9 +313,7 @@ $$
 
 for $V \in Op(X)$.
 
-+--{: .query}
-[[Mike Shulman]]: In the *presheaf* topos, the subobjects of $1$ are arbitrary [[sieves]] in $Op(X)$, not just representables.  For instance, for any two open sets $U$ and $V$ there is a sieve consisting of all open sets contained in either $U$ or $V$, which doesn't necessarily contain $U\cup V$.  It's only in the *sheaf* topos $Sh(X)$ that the representables are precisely the subobjects of $1$.  I didn't fix this myself because I don't know whether you'd rather say the correct thing in the presheaf topos, or change to the sheaf topos so that the subterminals are the open sets (though I'd lean towards the latter as providing better intuition).
-=--
+**Remark** In the *[[presheaf]]* topos $PSh(Op(X))= Func(Op(X)^{op},Set)$, the subobjects of $1$ are arbitrary [[sieves]] in $Op(X)$, not just representables.  For instance, for any two open sets $U$ and $V$ there is a sieve consisting of all open sets contained in either $U$ or $V$, which doesn't necessarily contain $U\cup V$.  It's only in the *sheaf* topos $Sh(X)$ that the representables are precisely the subobjects of $1$.  
 
  The [[poset]] of [[subobject]]s formed by these is just the [[category of open subsets]] itself:
 
