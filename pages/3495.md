@@ -27,6 +27,6 @@ To be connected with things like [[small object argument]], [[Bousfield localiza
 
 ## References ## 
 
-Gabriel-Zisman
+* [[Gabriel-Zisman]]
 
-Peter Freyd and Max Kelly, Categories of continuous functors I, Jour. Pure Appl. Alg. 2 (1972), 169-191. 
+* Peter Freyd, Max Kelly, _Categories of continuous functors I_, Jour. Pure Appl. Alg. 2 (1972), 169-191. 
