@@ -217,7 +217,7 @@ $$
 $$ 
 
 be the [[chain complex]] with the 
-tensor unit (the ground field, say) in degree $n$ and
+tensor unit (the [[ground field]], say) in degree $n$ and
 trivial elsewhere. Then 
 $$
   \begin{aligned}
