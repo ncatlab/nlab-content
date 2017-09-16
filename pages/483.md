@@ -13,6 +13,8 @@ Is the boundary of a directed $k$-cell a directed $(k-1)$-chain?
 
 [Edit: I've started a thread on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=84). I think we can remove this query box.]
 
+[[Urs Schreiber]]: okay, thanks. So that means the above Idea section needs to be improved then!
+
 =--
 
 So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by by [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. 
