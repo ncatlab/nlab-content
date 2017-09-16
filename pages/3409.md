@@ -1,8 +1,5 @@
 __$Comp Bool Alg$__ is the [[category]] whose [[objects]] are [[complete boolean algebras]] and whose [[morphisms]] are complete lattice [[homomorphisms]], that is [[functions]] which preserve all [[joins]] and [[meets]] (including the [[bottom]] and [[top]] elements); it follows that they preserve the boolean [[negation]] operation.  $Comp Bool Alg$ is a [[subcategory]] of [[Pos]].
 
-
-## Properties
-
 $Comp Bool Alg$ is given by a [[variety of algebras]], or equivalently by an [[algebraic theory]], so it is an [[equationally presented category]]; however, it requires operations of arbitrarily large arity.  In fact, it is *not* a [[monadic category]] (over [[Set]]), because it lacks some [[free objects]].  Specifically, the __free boolean algebra__ on a [[set]] $X$, while it exists (by general abstract nonsense) as a [[class]], is small only if $X$ is [[finite set|finite]] (in which case it is finite and equals the [[free boolean algebra]] $2^{2^X}$ on $X$).
 
 
