@@ -1517,55 +1517,58 @@ Let us return to the 2-dimensional case $X^\circ = \left[ u, v \right]$.  In ord
 
 <div markdown="1"><font size="+1">
 $$\array{
+\arrayopts{\colalign{left}}
 \ell_{00} f
 &amp; = &amp;
-\ell_{(u)(v)} f
+\ell_{\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}} f
 &amp; = &amp;
 \alpha_{1} f
 &amp; = &amp;
-\Upsilon_{(u)(v)} f
+\Upsilon_{\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}} f
 &amp; = &amp;
-\Upsilon_{(u)(v) \: \Rightarrow f}
+\Upsilon_{\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;} \: \Rightarrow f}
 &amp; = &amp;
-f \: \mathop{likes} \: (u)(v)
+f \: \mathop{likes} \: \text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}
 \\
 \ell_{01} f
 &amp; = &amp;
-\ell_{(u) v} f
+\ell_{\text{&#x2997;} u \text{&#x2998;} \: v} f
 &amp; = &amp;
-\alpha_2 f
+\alpha_{2} f
 &amp; = &amp;
-\Upsilon_{(u) v} f
+\Upsilon_{\text{&#x2997;} u \text{&#x2998;} \: v} f
 &amp; = &amp;
-\Upsilon_{(u) v \: \Rightarrow f}
+\Upsilon_{\text{&#x2997;} u \text{&#x2998;} \: v \: \Rightarrow f}
 &amp; = &amp;
-f \: \mathop{likes} \: (u) v
+f \: \mathop{likes} \: \text{&#x2997;} u \text{&#x2998;} \: v
 \\
 \ell_{10} f
 &amp; = &amp;
-\ell_{u (v)} f
+\ell_{u \: \text{&#x2997;} v \text{&#x2998;}} f
 &amp; = &amp;
-\alpha_4 f
+\alpha_{4} f
 &amp; = &amp;
-\Upsilon_{u (v)} f
+\Upsilon_{u \: \text{&#x2997;} v \text{&#x2998;}} f
 &amp; = &amp;
-\Upsilon_{u (v) \: \Rightarrow f}
+\Upsilon_{u \: \text{&#x2997;} v \text{&#x2998;} \: \Rightarrow f}
 &amp; = &amp;
-f \: \mathop{likes} \: u (v)
+f \: \mathop{likes} \: u \: \text{&#x2997;} v \text{&#x2998;}
 \\
 \ell_{11} f
 &amp; = &amp;
-\ell_{u v} f
+\ell_{u \: v} f
 &amp; = &amp;
-\alpha_8 f
+\alpha_{8} f
 &amp; = &amp;
-\Upsilon_{u v} f
+\Upsilon_{u \: v} f
 &amp; = &amp;
-\Upsilon_{u v \: \Rightarrow f}
+\Upsilon_{u \: v \: \Rightarrow f}
 &amp; = &amp;
-f \: \mathop{likes} \: u v
+f \: \mathop{likes} \: u \: v
 }$$
 </font></div>
+
+Intuitively, the $\ell_{ij}$ operators may be thought of as qualifying propositions according to the elements of the universe of discourse that each proposition positively values.  Taken together, these measures provide us with the means to express many useful observations about the propositions in $X^\circ = \left[ u, v \right]$, and so they mediate a subtext $\left[ \ell_{00}, \ell_{01}, \ell_{10}, \ell_{11} \right]$ that takes place within the higher order universe of discourse $X^{\circ 2} = \left[ X^\circ \right] = \left[\left[ u, v \right]\right]$.  Figure&nbsp;6 summarizes the action of the $\ell_{ij}$ operators on the $f_{i}$ within $X^{\circ 2}$.
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
