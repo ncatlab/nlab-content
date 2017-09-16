@@ -26,6 +26,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
+* [[Urs Schreiber]]
+
+  * I agree with Andrew: single long pages are not so good for the reader. An entry that becomes very long should be split into an overview page with a linked table of contents and sub-pages. We did this for instance for [[gerbe]].
+
+  * added to [[HomePage]] and to [[HowTo]] a note on software prerequisites for displaying MathML. At [[HowTo]] this discussion should eventually be expanded.
+
+  * I changed links throughout the Lab to the pages [[Chevalley-eilenberg algebra in synthetic differential geomet|Chevalley-eilenberg algebra in synthetic differential geometry]] and to [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]] to the new truncated title names, so that they will still work. There are more entries for which this is necessary. See the discussion at the forum.
+
 * [[Andrew Stacey]] I've written enough on the Instiki/MediaWiki issues elsewhere and I'm not going to rehash them here (or even link to them).  In short: it ain't gonna happen.  The issues we're having is purely a matter of database differences - it's nothing to do with Instiki itself.  I doubt many people do a database migration - certainly none of the nonsense (abstract or otherwise) that I've read has mentioned the problems we've had - so the issues aren't well known.  I'm finding them out as we go along.  I apologise that it's a live test, but there were only three serious beta testers and they didn't pick up on all of these issues as there were only three of them.
 
   I don't know why splitting the timeline up wouldn't feel like 2009.  I think that _long_ pages are a hangover from the _old days_.  We should have shorter pages included in to bigger pages (which, incidentally, is what MediaWiki does only it does it without telling you).  "Pages" should be layered so that a visitor gets a broad overview first, then clicks through to get finer and finer details.  One long page seems to miss the point of hyperlinks.
