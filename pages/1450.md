@@ -3,33 +3,34 @@
 </div>
 
 
-#Contents#
+# Contents
 
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+
+## Idea
 
 In _synthetic differential geometry_ one formulates [[differential geometry]] axiomatically in [[topos]]es -- called [[smooth topos]]es --  of [[generalized smooth space]]s. 
 
 The main point of the axioms is to ensure that a well defined notion of [[infinitesimal space]]s exist in the topos, whose existence concretely and usefully formalizes the wide-spread but often vague intuition about te role of infinitesimals in [[differential geometry]].
 
-In particular, in such toposes $T$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in T$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^T$ (using the notation of [[exponential object]]s in the [[cartesian closed category]] $T$). So a tangent vector in this context literally is an _infinitesimal path_ in $X$.
+In particular, in such toposes $E$ there exists an [[infinitesimal space]] $D$ that behaves like the [[infinitesimal object|infinitesimal interval]] in such a way that for any space $X \in E$ the [[tangent bundle]] of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; X^D$ (using the notation of [[exponential object]]s in the [[cartesian closed category]] $E$). So a tangent vector in this context literally is an _infinitesimal path_ in $X$.
 
 This way, in [[smooth topos]]es it is possible to give precise well-defined meaning to many of the familiar computations -- wide-spread in particular in the [[physics]] literature -- that compute with supposedly "infinitesimal" quantities.
 
-As quoted by Anders Kock in his book (see below), Sophus Lie once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see [[analytic versus synthetic]]) through lack of a formalized language.  Synthetic differential geometry does provides this formalized language.
+As quoted by Anders Kock in his book (see below), Sophus Lie once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see [[analytic versus synthetic]]) through lack of a formalized language.  Synthetic differential geometry provides this formalized language.
 
 
-## axiomatics ## 
+## Axiomatics
 
-The axioms of synthetic differential geometry demand that the [[topos]] $T$ of smooth spaces is 
+The axioms of synthetic differential geometry demand that the [[topos]] $E$ of smooth spaces is 
 
 * a [[smooth topos]] (see there for details)
 
 in which in particular 
 
-* [[infinitesimal space]]s exists and
+* [[infinitesimal space]]s exist and
 
 * satisfy the [[Kock-Lawvere axiom]].
 
@@ -41,23 +42,27 @@ With that little bit of axiomatics alone, a large amount of [[differential geome
 
 In his work he particularly makes use of the fact that as sophisticated as a [[smooth topos]] may be when explicitly constructed (see the section on [models](#models)), being a [[topos]] means that one can reason inside it almost literally as in [[Set]]. Using this Kock's work gives descriptions of synthetic differential geometry which are entirely intuitive and have no esoteric topos-theoretic flavor. All he needs is the assumption that the [[Kock-Lawvere axiom]] is satisfied for "numbers". Here "numbers" is really to be interpreted in the topos, but if one just accepts that they satisfy the KL axiom, one may work with infinitesimals in this context in essentially precisely the naive way, with the topos theory in the background just ensuring that everything makes good sense.
 
-## models ##
 
-Being exiomatic, reasoning in synthetic differential geometry applies in every **model** for the axioms, i.e. in every concrete choice of [[smooth topos]] $T$.
+## Models
+{#models}
+
+Being axiomatic, reasoning in synthetic differential geometry applies in every **model** for the axioms, i.e. in every concrete choice of [[smooth topos]] $T$.
 
 Models of [[smooth topos]]es tend to be inspired, but more general than, constructions familiar from [[algebraic geometry]]. In particular the old insight promoted by [[Grothendieck]] in his work, that nilpotent ideals in [[ring]]s are formal duals of spaces with infinitesimal extension is typically used to model [[infinitesimal space]]s in synthetic differential geometry.
 
-The main difference between models for [[smooth topos]]es  and  [[algebraic geometry]] from this perspective is that models for [[smooth topos]] tend to employ test spaces that are _richer_ than plain formal duals to commutative [[ring]]s or algebras, as in [[algebraic geometry]]: typical models for synthetic differential geometry use test spaces given by formal duals of [[generalized smooth algebras]] that remember "smooth structure" in the usual sense of [[differential geometry]] (and different from, though not entirely unrelated, to the notion of [[smooth scheme]] in algebraic geometry). This is in particular true for the [well adapted models](#well adapted models).
+The main difference between models for [[smooth topos]]es  and  [[algebraic geometry]] from this perspective is that models for [[smooth topos]] tend to employ test spaces that are _richer_ than plain formal duals to commutative [[ring]]s or algebras, as in [[algebraic geometry]]: typical models for synthetic differential geometry use test spaces given by formal duals of [[generalized smooth algebras]] that remember "smooth structure" in the usual sense of [[differential geometry]] (and different from, though not entirely unrelated, to the notion of [[smooth scheme]] in algebraic geometry). This is in particular true for the [well adapted models](#wellAdaptedModels).
 
 However, with a a sufficiently general perspective on [[higher geometry]] one finds that algebraic geometry and  synthetic differential geometry are both special cases of a more general notion of theories of generalized spaces. For more on this see [[generalized scheme]].
 
-## well adapted models ##
 
-A [[topos]] $T$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it, in particular if there is a [[full and faithful functor]] [[Diff]] $\to T$ from the category of ordinary smooth [[manifold]]s into $T$. 
+## Well adapted models
+{#wellAdaptedModels}
+
+A [[topos]] $E$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it, in particular if there is a [[full and faithful functor]] [[Diff]] $\to E$ from the category of ordinary smooth [[manifold]]s into $E$. 
 
 A standard model for well adapted synthetic toposes is obtained in terms of sheaves on duals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook _[[Models for Smooth Infinitesimal Analysis]]_. 
 
-The conception and discussion of these well adapted toposes goes back to E. Dubuc, who studied them in a long series of articles. He <a href="http://north.ecc.edu/alsani/ct99-00(8-12)/msg00218.html">asks</a> people to refer it this topos as the **[[Dubuc topos]]**. 
+The conception and discussion of these well adapted toposes goes back to E. Dubuc, who studied them in a long series of articles. He [asks](http://north.ecc.edu/alsani/ct99-00%288-12%29/msg00218.html) people to refer to this topos as the **[[Dubuc topos]]**. 
 
 This theory of well-adapted models was later summarized and extended in the standard textbook
 
@@ -65,20 +70,20 @@ This theory of well-adapted models was later summarized and extended in the stan
 
 
 
-# Variations #
+## Variations
 
-## higher categorical versions ##
+### Higher categorical versions
 
 * Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifolds]] and, generally, that of [[generalized schemes]].
 
-## supergeometry  versions ##
+### Supergeometric versions
 
 The notion of synthetic differential geometry extends to the context of [[supergeometry - contents|supergeometry]]. See
 
 * [[synthetic differential supergeometry]].
 
 
-# Related entries #
+## Related entries
 
 * [[infinitesimal singular simplicial complex]]
 
@@ -86,7 +91,9 @@ The notion of synthetic differential geometry extends to the context of [[superg
 
   * [[Chevalley-Eilenberg algebra in synthetic differential geomet|Chevalley-Eilenberg algebra in synthetic differential geometry]]
 
-# References #
+
+## References
+{#References}
 
 The idea of axiomaizing [[differential geometry]] using [[topos]] theory originates in 
 
@@ -96,11 +103,12 @@ The first model for the axioms presented there served to demonstrate that the th
 
 * E. Dubuc, _Sur la mod&egrave;le de la g&eacute;ometrie diff&eacute;rrentielle synth&eacute;tique_, Cahier Top et G&eacute;om. Diff. XX-3 (1979)
 
-## Books ##
+
+### Books
 
 The textbooks by [[Anders Kock]]
 
-*  [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf])
+*  [[Anders Kock]], _Synthetic Differential Geometry_, (pdf link missing)
 
 *  [[Anders Kock]], _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
@@ -116,15 +124,17 @@ Another testbook is
 
 * R. Lavendhomme, _Basic concepts of synthetic differential geometry_, Kluwer, Dordrecht (1996)
 
-## Expositions ##
+
+### Expositions
 
 Two useful introductory expositions of basic ideas of synthetic differential geometry are
 
-*  [Mike Shulman], __Chicago Pizza-Seminar: Synthetic Differential Geometry ([pdf](http://www.math.uchicago.edu/~shulman/exposition/sdg/pizza-seminar.pdf))
+*  [Mike Shulman], _Chicago Pizza-Seminar: Synthetic Differential Geometry_ ([pdf](http://www.math.uchicago.edu/~shulman/exposition/sdg/pizza-seminar.pdf))
 
 *  [John Bell], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
 
-# Discussion #
+
+## Discussion
 
 +-- {: .query}
 
