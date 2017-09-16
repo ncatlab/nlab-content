@@ -22,7 +22,7 @@
 
 ## Combinatorics ##
 
-* [[graph theory]]
+* [graph theory](http://ncatlab.org/nlab/revision/graph+theory+%3E+history/9)
 
 ## Computation ##
 
