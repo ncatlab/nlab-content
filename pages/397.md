@@ -65,6 +65,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Marc Olschok]]
 * [[Mathieu Dupont]]
 * [[Matthew Kahle]]
+* [[Mikael Vejdemo Johansson]]
 * [[Mike Shulman]]
 * [[Mike Stay]]
 * [[MPichler]]
