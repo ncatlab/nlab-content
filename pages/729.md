@@ -1,3 +1,3 @@
 See [[AnonymousCoward]].
 
-category: redirect
+category: delete
