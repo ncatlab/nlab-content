@@ -126,3 +126,5 @@ For their interpretation in the more general context of [[(infinity,1)-category 
 
 *  [[Jacob Lurie]], [[Higher Topos Theory]] .
 
+
+[[!redirects simplicial presheaves]]
