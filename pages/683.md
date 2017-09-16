@@ -342,3 +342,5 @@ Perhaps some of the more classical referencs, Vogt, Bousfield-Kan etc. might be 
 [[Mike Shulman|Mike]]: Yes, certainly; my paper referenced above deals with the case when $D$ is enriched as well.  There are cofibrancy technicalities, of course.  I'm not against including the classical references, although I find them fairly impenetrable myself.
 
 =--
+
+[[!redirects homotopy limits]]
