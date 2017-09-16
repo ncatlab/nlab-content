@@ -7,7 +7,7 @@ A specification of a system of _local epimorphisms_
 is equivalent to giving a [[Grothendieck topology]]
 and hence the structure of a [[site]] on $S$.
 
-Moreover the [[local isomorphism]]s among the local epimorphisms constitute a [[multiplicative system]] which eqips $[S^{op}, Set]$ with the structure of a [[category with weak equivalences]]. The corresponding [[homotopy category]] is the category of [[sheaf|sheaves]] on the site $S$.
+Moreover the [[local isomorphism]]s among the local epimorphisms constitute a [[multiplicative system]] which equips $[S^{op}, Set]$ with the structure of a [[category with weak equivalences]]. The corresponding [[homotopy category]] is the category of [[sheaf|sheaves]] on the site $S$.
 
 #Definition#
 
@@ -19,7 +19,7 @@ Let $S$ be a [[category]]. A system of **local epimorphisms** on the [[presheaf]
 
 **LE3** if the composite $A_1 \stackrel{u}{\to} A_2 \stackrel{v}{\to} A_3$ is a local epimorphism, then so is $v$;
 
-**LE4** a morphism $U : A \to B$ is a local epimorphism precisely if for all $U \in S$ and morphisms $Y(U) \to B$ the [[pullback]] morphism $A \times_B U \to U$ is a local epimorphism.
+**LE4** a morphism $u : A \to B$ is a local epimorphism precisely if for all $U \in S$ and morphisms $y: U \to B$ the [[pullback]] morphism $A \times_B U \to U$ is a local epimorphism.
 
 #Relation to sieves#
 
@@ -57,7 +57,7 @@ is a local epimorphism as above.
 
 Conversely, assume a system of local epimorphisms is given. 
 
-Declare a [[sieve]] $F$ at $U$ to be a covering sieve precisely if the inclusion morphism $F \hookrightarrow U$ is a local epimorphism. Then this defines  Grothendieck topology enoced by the collection of local epimorphisms
+Declare a [[sieve]] $F$ at $U$ to be a covering sieve precisely if the inclusion morphism $F \hookrightarrow U$ is a local epimorphism. Then this defines a Grothendieck topology encoded by the collection of local epimorphisms.
 
 
 
