@@ -7,3 +7,5 @@ This product is typically neither associative nor unital, although it can be (an
 Some interesting subclasses are [[Lie algebra]], [[Jordan algebra]], [[alternative algebra]], [[associative unital algebra]], ...
 
 Mathematicians working in the field of nonassociative algebras often say simply 'algebra' meaning a nonassociative algebra.
+
+[[!redirects nonassociative algebras]]
