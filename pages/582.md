@@ -4,9 +4,9 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
 
 # Examples #
 
-* In [[Set]], or more generally in any [[pretopos]], every monic is regular.
+* In [[Set]], or more generally in any [[pretopos]], every monomorphism is regular.
 
-* In [[Top]], the monics are the injective functions, while the regular monics are the embeddings (that is, injective functions whose source has the topology induced from their target).
+* In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[weak topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
 
   +-- {: .query}
   _Tom_: [Wikipedia claims that it's the extremal monics that are the embeddings](http://en.wikipedia.org/wiki/Category_of_topological_spaces#Other_properties), and I have a simple proof which seems valid.  Can we clarify this?
@@ -14,15 +14,11 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
   _Toby_:  Wikipedia also claims (in the very next line) that every extremal mono is regular (and the converse is automatic), so they are actually in agreement with us.
 
   _Tom_: You're right; in the very next sentence no less!  But I get the impression it's the "extremality" that causes it to be an embedding, and the "regularness" equivalence is just accidental.  In anycase, for people with (very) limited understanding like me I think it would be helpful to have a clarification here.
+
+  _Toby_:  Well, this is the article about regular monomorphisms, so that\'s what we stress here.  You could certainly add the fact to [[extremal monomorphism]] as well, however.
   =--
 
-* In [[Grp]], the monics are (up to isomorphism) the inclusions of subgroups, while the regular monics are the inclusions of _normal_ subgroups.
-
-  +--{.query}
-  Should we be able to see this in terms of the expressivity of [[regular logic]]?
-
-  I don't think so... regular logic is, so far as I know, about regular _epimorphisms_ and _ordinary_ monomorphisms.
-  =--
+* In [[Grp]], the monics are (up to isomorphism) the inclusions of [[subgroup]]s, while the regular monics are the inclusions of _[[normal subgroup|normal]]_ subgroups.
 
 * In [[Ab]], or more generally any [[abelian category]], every monomorphism is regular.
 
