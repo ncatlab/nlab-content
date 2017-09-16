@@ -70,9 +70,7 @@ with all maps the evident inclusions, all actions by conjugation, and $h : M \ti
 If we replace each group in the algebraic example by a simplicial group, we would have a simplicial crossed square, now apply the connected component functor to that and you get a crossed square, and in fact any crossed square can be constructed up to isomorphism in this way.
 
 If we start with a simplicial group, $G$, using the [[decalage]] functor we can construct a simplicial group and two normal subgroups and thus get to the previous situation. The result can be interpreted in terms of the [[Moore complex]] as follows:
-
-
-$$\array{& NG_2/{d_0(NG_3)& {\to} & Ker d_1 & \\
+$$\array{& \frac{NG_2}{d_0(NG_3)}& {\to} & Ker d_1 & \\
           & \downarrow &&\downarrow & \\
           &Ker d_2 & {\to}& G_1 & \\
 }$$
