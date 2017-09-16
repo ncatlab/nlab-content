@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 ## 2009-08-24
 
+* [[Andrew Stacey]] pondered the format of [[database of categories]].
+
+   By the way, it would still be really useful if people could take a look at the migrated n-lab.  The __main__ question I want to know is whether the pages look right.  The migration involved a step or two that were pretty much guesswork and I want to know whether I guessed right or not.  If a page looks horribly wrong, or something doesn't work how it ought, please let me know.  The best ways to let me know are either by email or by commenting over at the forum.
+
 * [[David Roberts]]: trivial comment at [[synthetic differential geometry]] in response to Mike.
 
 ## 2009-08-23
