@@ -1,4 +1,12 @@
-A **homotopy equivalence** is a continuous map $f:X\to Y$ between [[topological space]]s such that there exists a continuous map $g:Y\to X$ and [[homotopy|homotopies]] $g f \sim 1_X$ and $f g \sim 1_Y$. Note the similarity with the notion of [[equivalence of categories]]. If there exists a homotopy equivalence between $X$ and $Y$ we say that $X$ and $Y$ are **homotopy equivalent** or that they have the same **homotopy type** (although often when speaking of a [[homotopy type]] one actually means a [[weak homotopy equivalence|weak]] homotopy type).  Being homotopy equivalent is evidently an [[equivalence relation]].
+# Definition #
+
+A **homotopy equivalence** is a continuous map $f:X\to Y$ between [[topological space]]s such that there exists a continuous map $g:Y\to X$ and [[homotopy|homotopies]] $g \circ f \sim 1_X$ and $f \circ g \sim 1_Y$. (Note the similarity with the strict notion of [[equivalence of categories]].)
+
+If there exists a homotopy equivalence between $X$ and $Y$ we say that $X$ and $Y$ are **homotopy equivalent** or that they have the same **[[homotopy type]]**.  Being homotopy equivalent is evidently an [[equivalence relation]].
+
+For many purposes, one wants instead [[weak homotopy equivalence]]s.  Often when speaking of a homotopy equivalence or a homotopy type, one actually means the weak version.  (This is especially likely on this wiki, due to the relationship to $\infty$-[[infinity-groupoid]]s suggested by the [[homotopy hypothesis]].)
+
+# Properties #
 
 Any homotopy equivalence is also a [[weak homotopy equivalence]].  Conversely, any weak homotopy equivalence between [[m-cofibrant space]]s (spaces that are homotopy equivalent to [[CW complex]]es) is a homotopy equivalence.
 
