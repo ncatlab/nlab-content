@@ -372,7 +372,7 @@ in the [[functor category]], i.e. the set of [[natural transformation]]s from th
 ###### Covariant Hom commutes with limits
 
 For $C$ a [[locally small]] category,
-for $F : D^{op} \to C$ a functor and writing $C(c, F(-)) : C \to Set$, we have
+for $F : D^{op} \to C$ a functor and writing $C(c, F(-)) : CD^{op} \to Set$, we have
 $$
   C(c, lim F) \simeq lim C(c, F(-))
   \,.
@@ -438,3 +438,36 @@ $$
 
 Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
 =--
+
+
++-- {: .un_prop}
+###### Proposition -- limits are equalizers of products
+
+The limit of $F : D^{op} \to C$ is, if it exists, a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
+
+$$
+  \prod_{d \in Obj(D)}
+  F(d)
+  \stackrel{\prod_{f \in Mor(d)} (F(f) \circ p_{t(f)}) }{\to}  
+  \prod_{f \in Mor(D)}
+  F(s(f))
+$$
+
+and
+
+$$
+  \prod_{d \in Obj(D)}
+  F(d)
+  \stackrel{\prod_{f \in Mor(d)} (p_{s(f)}) }{\to}  
+  \prod_{f \in Mor(D)}
+  F(s(f))  
+  \,.
+$$
+
+In particular therefore, a category has all limits already if it has all products and equalizers.
+
+=--
+
+See [[limits and colimits by example]] for what this formula says for instance for the special case $C =$ [[Set]].
+
+
