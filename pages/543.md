@@ -93,3 +93,5 @@ If one understands $A_\infty$-category as "operadically defined higher category"
 
 * Eugenia Cheng, _Comparing operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
 
+
+[[!redirects A-infinity category]]
