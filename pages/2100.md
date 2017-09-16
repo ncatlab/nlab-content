@@ -1,4 +1,3 @@
-
 # Idea #
 
 This entry list details on concrete constructions for examples of [[geometric function theory|geometric function theories]], or closely related structures.
@@ -332,3 +331,8 @@ Now pullback is left adjoint and push-forward is right adjoint.
 The choice $C(X) =$ the [[stable (∞,1)-category]] of [[quasicoherent sheaf|quasicoherent sheaves]] on a [[derived stack]] $X$ is discussed at 
 
 * [[geometric ∞-function theory]].
+
+
+[[!redirects examples for geometric function objects]]
+[[!redirects example for geometric function objects]]
+[[!redirects geometric function objects]]
