@@ -1,3 +1,2 @@
-See [[SimpAb]].
-
-category: redirect
+&lt; [[SAb]]
+[[!redirects SAb -- history]]
