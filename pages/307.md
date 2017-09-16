@@ -7,7 +7,7 @@ A terminal object may also be viewed as a [[limit]] over the empty [[diagram]]. 
 For any object $x$ in a category with terminal object $1$, the categorical [[product]] $x\times 1$ and the [[exponential object]] $x^1$ both exist and are canonically isomorphic to $x$.
 
 Some examples of terminal objects in notable categories follow:
-* The terminal object of a [[poset]] is its greatest element, if it exists.
+* The terminal object of a [[partial order|poset]] is its [[top]] element, if it exists.
 * Any one-element set is a terminal object in the category [[Set]].
 * The trivial [[group]] is the terminal object of [[Grp]] and, as an [[abelian group]], of [[Ab]].
 * The terminal object of [[Ring]] is the zero ring.  (Note however that if [[ring|rings]] have unities and ring [[homomorphism|homomorphisms]] must preserve them, then the zero ring is not a [[zero object]] of [[Ring]].)
