@@ -1,3 +1,3 @@
-darn. see [[On the Classification of Topological Field Theories]]
+See [[On the Classification of Topological Field Theories]].
 
-category: redirect
+category: delete
