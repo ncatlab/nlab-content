@@ -29,6 +29,12 @@ Eric: Hi Rafael. I like what you wrote, but I also like these nontechnical parag
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
 #Branches of category theory#
+A good, but  imperfect perspective of category theory can be obtained from the MSC subject classification (18-XX) (but remember the current one is from 2000 and reflects ideas of a year or two before that).  The subject has exploded into many new areas since.
++--{: .query}
+[[Tim]]: it may be worth linking to a copy of that here.  How can one do that?
+=--
+
+
 A probably incomplete list is:
 
 * Pure category theory (vaguely category theory without the use of any other branches of mathematics except essential concepts from them).
