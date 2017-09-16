@@ -92,4 +92,6 @@ The proof that [[simplicial object|simplicial]] [[algebra]]s are Quillen equival
 * Stefan Schwede, Brooke Shipley, Equivalences of monoidal model categories, Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342)) .
 
 
+[[!redirects derived stacks]]
 [[!redirects derived infinity-stack]]
+[[!redirects derived infinity-stacks]]
