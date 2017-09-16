@@ -41,6 +41,14 @@ How consistent are different authors in this convention?  Should we include a wa
 [[Finn Lawler|Finn]]:  I don't know myself, but back in [May](http://ncatlab.org/nlab/show/2009+May+changes) (see end of page) Jonas Frey said 'Johnstone in the elephant and Gurski in his PhD-thesis for example use an other orientation than Leinster and Borceux in their books'.  The one above is Leinster's.  I haven't seen any of the other references.
 
 _Toby_:  OK, I just checked the Elephant, and it is reverse.
+
+_Todd_: My own impression is that Leinster and Borceux are in the minority here, and that a bigger warning may be warranted. I think for instance that Johnstone is on the side of most Australians, who after all have done the most work in this area.
+
+My own convention is that of Street: the arrow orientations in a product of [[parity complex]]es is to follow the usual sign conventions for chain complexes. For example, if I write $\alpha \otimes f$ instead of $\alpha_f$, and $\partial^-$ for 'source' and $\partial^+$ for 'target', and interpreting '+' as union, then for $\varepsilon \in \{-1, 1\}$ we would have 
+
+$$\partial^{\varepsilon}(\alpha \otimes f) = \partial^{\varepsilon}(\alpha) \otimes f + \alpha \otimes (-1)^{dim(\alpha)} \partial^\varepsilon f$$ 
+
+so accordingly, since $dim(\alpha) = 1$, the set of source cells of $\alpha \otimes f$ would be $\{F \otimes f, \alpha \otimes G\}$, if you follow my drift. Street's rule of thumb then is that 'lax' would follow this "normal" order, and 'colax' the opposite. 
 =--
 
 The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and [[modification]]s between them.
