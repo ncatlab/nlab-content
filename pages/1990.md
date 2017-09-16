@@ -26,7 +26,7 @@ This is a very simple-looking statement. The reason is the [[topos]]-theoretic l
 
 There are also cubical variants of the above definition
 
-* Anders Kock, _Cubical version of combinatorial differential forms_ ([pdf](http://www.springerlink.com/content/87tj80l51h138177/fulltext.pdf))
+* Anders Kock, _Cubical version of combinatorial differential forms_ ([pdf for fee](http://www.springerlink.com/content/87tj80l51h138177/fulltext.pdf))
 
 
 See also section 4.1 of
