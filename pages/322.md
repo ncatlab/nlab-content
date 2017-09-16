@@ -151,3 +151,5 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 ### The monad attached to an operad ### 
 
 ...
+
+[[!redirects operads]]
