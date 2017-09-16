@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-11
+
+* [[Toby Bartels]]:
+  * Linked to [[Pursuing Stacks]] from [[infinity-stack]] so it won\'t be an orphan.  People more familiar with _Pursuing Stacks_ than I am may want to link to it in other ways.
+  * Reverted Andrew\'s edit to [[HowTo]]. I\'ll explain why on the [Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/), since it would be confusing to place the explanation there (and out of place here).
+
 # 2009-02-10
 
 * [[Urs Schreiber|Urs]]
