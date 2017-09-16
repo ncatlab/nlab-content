@@ -85,67 +85,67 @@ Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose o
 
 If the linear map $F:U\to V$ has a left inverse, i.e.
 
-$$F_L^{-1}\circ F = 1_U,$$
+$$F^*\circ F = 1_U,$$
 
-then we can construct a functor 
+where $F^*$ is the [[preimage]], then we can construct a functor 
 
-$$F:\mathbf{B} End(U)\to\mathbf{B} End(V)$$
+$$F_*:\mathbf{B} End(U)\to\mathbf{B} End(V)$$
 
 by defining its action on objects by
 
-$$F(U) = F U$$
+$$F_*(U) = F_* U$$
 
-and its action on endomorphisms by
+where $F_*$ on the right-hand side is the [[image]] and its action on endomorphisms by
 
-$$F(f) = F f F_L^{-1}.$$
+$$F_*(f) = F f F^*.$$
 
 Composition follows immediately
 
-$$F(f g) = F f g F_L^{-1} = F f F_L^{-1} F g F_L^{-1} = F(f) F(g).$$
+$$F_*(f g) = F f g F^* = F f F^* F g F^* = F_*(f) F_*(g).$$
 
-Identity morphisms are preserved since for any vector $y$ in $F(U)\subset V$, then 
+Identity morphisms are preserved since for any vector $y$ in $F_*U\subset V$, then 
 
 $$y = F x$$
 
 for some vector $x$ in $U$ and we have
 
-$$F(1_U)y = F\circ F_L^{-1}y = F\circ F_L^{-1}\circ F x = F x = y$$
+$$F_*(1_U)y = F\circ F^* y = F\circ F^*\circ F x = F x = y$$
 
 so that
 
-$$F(1_U) = 1_{F(U)}$$
+$$F_*(1_U) = 1_{F_*(U)}$$
 
-as required. Hence, $F$ is a functor.
+as required. Hence, $F_*$ is a functor.
 
 ###Right Inverses###
 
 If the linear map $F:U\to V$ has a right inverse, i.e.
 
-$$F\circ F_R^{-1} = 1_V,$$
+$$F\circ F^* = 1_V,$$
 
-then we can construct a functor 
+where $F^*$ is the preimage, then we can construct a functor 
 
 $$F^*:\mathbf{B} End(V)\to\mathbf{B} End(U)$$
 
 by defining its action on objects by
 
-$$F^*(V) = F_R^{-1}(V)$$
+$$F^*(V) = F^*V$$
 
-and its action on endomorphisms by
+where $F^*$ on the right-hand side is preimage, and its action on endomorphisms by
 
-$$F^*(f) = F_R^{-1} f F.$$
+$$F^*(f) = F^* f F.$$
 
 Composition follows immediately
 
-$$F^*(f g) = F_R^{-1} f g F = F_R^{-1} f F F_R^{-1} g F = F^*(f) F^*(g).$$
+$$F^*(f g) = F^* f g F = F^* f F F^* g F = F^*(f) F^*(g).$$
 
-Identity morphisms are preserved since for any vector $x$ in $F_R^{-1}(V)\subset U$, then 
+Identity morphisms are preserved since for any vector $x$ in $F^*V\subset U$, then 
 
-$$x = F_R^{-1}y$$
+$$x = F^*y$$
 
 for some vector $y$ in $V$ and we have
 
-$$F^*(1_V)x = F_R^{-1}\circ F x = F_R^{-1}\circ F \circ F_R^{-1} y = F_R^{-1} y = x$$
+$$F^*(1_V)x = F^*\circ F x = F^*\circ F \circ F^* y = F^* y = x$$
 
 so that
 
