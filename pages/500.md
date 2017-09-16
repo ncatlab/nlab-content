@@ -66,11 +66,18 @@ This generalized module theory can be pursued much further.
 
 # Examples # 
 
-* Relative coherence theorem for symmetric monoidal categories: if $V$ is symmetric monoidal, then the monoid of endomorphisms on the $n$-fold tensor functor 
++-- {: .un_theorem}
+###### Relative coherence theorem for symmetric monoidal categories
+
+If $V$ is symmetric monoidal, then the monoid of endomorphisms on the $n$-fold tensor functor 
 $$\bigotimes^n: V^{\otimes n} \to V$$ 
 is in bijection with the monoid of endomorphisms on the unit object $I$. 
+=--
 
-Proof: By fully and faithfully embedding $V$ (as a symmetric monoidal category) into $Set^{V^{op}}$, we may without loss of generality suppose $V$ is complete, cocomplete, symmetric monoidal closed. 
++-- {: .un_proof}
+###### Proof
+
+By fully and faithfully embedding $V$ (as a symmetric monoidal category) into $Set^{V^{op}}$, we may without loss of generality suppose $V$ is complete, cocomplete, symmetric monoidal closed. 
 
 The result is by induction on $n$: observe that a map 
 
@@ -89,6 +96,7 @@ where the end exists and is isomorphic to
 $$x_1 \otimes \ldots \otimes x_{n-1} \otimes I \cong x_1 \otimes \ldots \otimes x_{n-1}$$ 
 
 by Yoneda reduction. This completes the induction. 
+=--
 
 (It's been ages since I've thought about this. I need to think through the argument carefully again.) 
 
