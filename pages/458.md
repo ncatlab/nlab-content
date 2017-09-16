@@ -10,7 +10,7 @@ Another advantage of locales is that they are better-behaved than topological sp
 
 # Definition #
 
-A **frame** $A$ is a [[poset]] with all [[join|joins]] and all finite [[meet|meets]] which satisfies the _infinite distributive law_:
+A **frame** $A$ is a [[partial order|poset]] with all [[join|joins]] and all finite [[meet|meets]] which satisfies the _infinite distributive law_:
 $$ x \wedge (\bigvee_i y_i) = \bigvee_i (x\wedge y_i).$$
 A **frame homomorphism** $\ph: A\to B$ is a function which preserves finite meets and arbitrary joins.
 
