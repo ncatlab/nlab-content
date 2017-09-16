@@ -30,7 +30,7 @@ Under [[colimits]]:
 * arbitrary (but small) [[coproducts]]
 * [[coequalisers]]
 * [[pushouts]]
-* [[cofibred coproducts]]
+* [[cofibered coproduct|cofibred coproducts]]
 
 Other constructions:
 
