@@ -117,3 +117,11 @@ chapter 2 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects fibrations of simplicial sets]]
+[[!redirects left Kan fibration]]
+[[!redirects inner Kan fibration]]
+[[!redirects right Kan fibration]]
+[[!redirects weak Kan fibration]]
+[[!redirects left fibration]]
+[[!redirects inner fibration]]
+[[!redirects right fibration]]
+[[!redirects weak fibration]]
