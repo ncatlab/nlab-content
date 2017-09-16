@@ -6,7 +6,7 @@ In the sense of [[space and quantity]] the [[duality|concrete dual]] notion obta
 We call a _model for $(\infty,1)$-quantities_ a category of cosimplicial copresheaves
 
 $$
-  [[C,[\Delta, Set]]]
+  [C,[\Delta, Set]]
   \,.
 $$
 
@@ -138,6 +138,7 @@ $$
      CE(g)
   }
 $$
+
 
 [[!redirects (infinity,1) quantity]]
 [[!redirects (∞,1)-quantity]]
