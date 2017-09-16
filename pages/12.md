@@ -9,11 +9,9 @@ If i had started a little later when nLab existed i would write in nLab from the
 
 Rafael: I am just learning the nLab wiki syntax and rules. A preview when you edit an entry would be of enormous help. If i just cut and paste i have no idea how the wikipedia syntax will be interpreted. Hence i expect a lot of work. It is also a little more work than just cut and paste: the links must be changed/renamed to make more sense. If you know how to automate the copying process or any good idea how to efficiently migrate please help me out. It sounds like you know an easy way Urs.
 
-_Toby_:  The theory behind Instiki\'s lack of preview is that you preview by submitting and then editing again.  It\'s not as bad as that would be on Wikipedia, because successive edits signed by the same person within half an hour are counted as one.  And the reward is that you never lose anything because you thought that you submitted it but really only previewed it or because your browser/OS/computer/power crashes in the middle.  (Not everyone agrees that this way is better, of course.)
+I only included a start since i did this late by night with a problem how to start a new entry, a new syntax and a lot of waiting.
 
-Also, note another difference from Wikipedia: page titles are case sensitive even in the first letter.  Like Wikipedia, we tend to prefer lower case in our titles; unlike Wikipedia, this means that you must write something like `[[category|Category]]` when you do capitalise (unless there\'s a [[redirect]] ---those also work very differently in Instiki).
-
-I\'ll probably work a bit on transferring the timeline too.
+That nLab works very slowly don't help. At least it is so on my computer and i think the fault is not at my end.
 =--
 
 #Timeline#
