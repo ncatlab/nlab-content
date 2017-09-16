@@ -10,6 +10,8 @@ Philosophical interest in <i>n</i>-categories may be characterised as belonging 
 
 ##Metaphysical##
 
+* Higher category theory provides a new [[foundations|foundation]] for mathematics.
+
 * Higher category theory refines the notion of sameness to allow more subtle variants.
 
 * There ought to be a categorified logic, or 2-logic. There are some suggestions that existing work on modal logic is relevant. Blog discussion: [I](http://golem.ph.utexas.edu/category/2007/11/concrete_groups_and_axiomatic_1.html), [II](http://golem.ph.utexas.edu/category/2008/02/2galois_and_2logic.html), [III](http://golem.ph.utexas.edu/category/2008/03/worrying_about_2logic.html), [IV](http://golem.ph.utexas.edu/category/2008/11/the_internal_language_of_a_2to.html). Mike Shulman's project: [2-categorical logic](http://ncatlab.org/michaelshulman/show/2-categorical+logic).
