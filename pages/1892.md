@@ -16,7 +16,7 @@ The following gives you a quick idea of how to proceed.
 If you feel you want more details, there is more information on the main [[HowTo]] page.
 
 
-## Don't worry, just go ahead and add your material ##
+## Don't worry, just do it ##
 
 First a remark on what **not to worry** about.
 
