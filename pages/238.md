@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman|Mike]]:
 
+  * Split [[nice category of spaces]] from [[nice topological space]] and fixed all the links I could find.
+
   * Wrote [[universe in a topos]] by way of responding to the query at [[Grothendieck universe]].
 
   * Focused [[adjunction]] on the internal version in a 2-category, to distinguish it from [[adjoint functor]], which I reorganized and added a definition to.  (The zig-zag identities are crying out for SVG!)
