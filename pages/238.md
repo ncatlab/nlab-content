@@ -14,6 +14,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-30 #
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[Eilenberg-MacLane object]] prompted by the blog discussion [here](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c024902)
+
+  * replied at [[homotopy]]
+
+
 *  [[Toby Bartels]]:
    *  Responded to [[Ronnie Brown]] at [[groupoid]].
    *  Noted an incomplete thought at [[simplicial homotopy]].
