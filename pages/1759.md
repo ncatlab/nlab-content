@@ -35,6 +35,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Requested a PDF copy of Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html)) at [[free cocompletion]]. This reference appears several places and those without the ability to read DVIs could use a PDF copy. Instructions on how to upload files to the nLab are given [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads). Once we have a PDF copy, I can go around and update links to this reference to make the PDF available.
 
+  * Added some very pedestrian stuff (to help me understand it) to the Decategorified Theorem section of [[free cocompletion]].
+
 * [[John Baez]]
 
   * wrote a lot more on [[free cocompletion]].  I hope other students of category theory, not just Mike Stay and David Corfield, ask questions or do some of the exercises!
