@@ -53,10 +53,4 @@ A __noncommutative space__ $X$ is a small [[triangulated category]] $C_X$ which 
 
 =--
 
-
-#References#
-
-* L. Katzarkov, [[Maxim Kontsevich|M. Kontsevich]], T. Pantev, _Hodge theoretic aspects of mirror symmetry, [arxiv:0806.0107](http://arxiv.org/abs/math/0806.0107).
-
-
 [[!redirects derived noncommutative algebraic geometry]]
