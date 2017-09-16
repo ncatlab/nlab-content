@@ -28,6 +28,15 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 =--
 
 
+## 2009-07-20
+
+*  [[Toby Bartels]]:  Answered an anonymous question at [[regular monomorphism]].
+
+* [[Eric]]
+
+  * Added a small status update to efforts at [[An Exercise in Kantization]]
+
+
 ## 2009-07-19
 
 *  [[Toby Bartels]]:
@@ -47,7 +56,6 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 * [[Eric]]
 
   * Wonders aloud at [[An Exercise in Kantization]] about reformulating things on a [[double category]] and relating it to a [Feynman checkerboard](http://en.wikipedia.org/wiki/Feynman_checkerboard) somehow. Maybe even getting back to relating it to [[Position, Velocity, and Acceleration]].
-  * Added a small status update to efforts at [[An Exercise in Kantization]]
 
 ## 2009-07-18
 
