@@ -40,7 +40,7 @@ $$
 
 such that the left adjoint $f^*:F \to E$ preserves finite [[limits]].
 
-
+If moreover the [[inverse image]] $f^*$ has also a [[left adjoint]] $f_! : F \to E$, then $f$ is an [[essential geometric morphism]].
 
 ## Remarks
 
