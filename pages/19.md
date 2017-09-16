@@ -411,6 +411,10 @@ _Rafael_: Since no one wants to reply, this discussion can be deleted?
 _Rafael_: Urs, Do you regard CW-complexes as a generalization of simplicial complexes?
 
 Then, why is nobody using the term topological complex for the geometric realization of a simplicial complex. And analogously topological CW-complex for what the majority regard as a CW-complex. It would be so much easier to understand the logic and consistency then.
+
+_[[John Baez]]_: yes, Rafael, a CW complex is a generalization of a simplicial complex.  It sounds like you're having trouble finding the standard definition of CW complex.  There is a standard definition, and you can find it on <a href = "http://www.math.cornell.edu/~hatcher/AT/ATch0.pdf#page=5">page 5</a> of Chapter 0 of Allen Hatcher's free online topology book.  By the way, this book is a good way to learn algebraic topology.
+
+By the way, Urs, a [[simplicial complex]] is most elegantly defined as a set $S$ equipped with a collection of finite nonempty subsets such that if $X$ is in the collection and $Y \subseteq X$ is nonempty, then $Y$ is in the collection.  We think of $S$ as the set of vertices and any $(n+1)$-element set $X$ in the collection as an $n$-simplex.  Unlike a simplicial set, these simplices do not have an <i>ordered</i> set of vertices!   This concept is less useful than that of a simplicial set, but still very useful for many reasons.
 =--
 
 
