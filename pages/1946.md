@@ -1,6 +1,10 @@
 # Idea #
 
-Given a [[Reedy category]] $R$ and a [[model category]] $C$ the **Reedy model structure** is a [[model category]] structure on the [[functor category]] $[R,C] = Func(R,C)$.
+A _Reedy model structure_ is a [[global model structure on functors]]:
+
+given a [[Reedy category]] $R$ and a [[model category]] $C$ the **Reedy model structure** is a [[model category]] structure on the [[functor category]] $[R,C] = Func(R,C)$.
+
+As opposed to the [[global model structure on functors|projective and injective model structure]] on functors this doe snot require any further structure on $C$, but instead makes a strong assumption on $R$.
 
 There is a refinement to a notion of $V$-[[enriched Reedy category]] such that if $C$ is a $V$-[[enriched model category]] -- in particular when it is a [[simplicial model category]] for $V = $ [[SSet]] -- the [[enriched functor category]] $[R,C]$ is itself a $V$-[[enriched model category]]. (Reference _Ang_ below.)
 
