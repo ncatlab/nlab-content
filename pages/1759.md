@@ -18,8 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:  Noticed the many wanted links at [[differential form]] and started filling them out; a lot of basic stuff in differential topology.  Many will be stubs, and many will be capable of unreported generalisation, internalisation, and categorification.  So far:
 
-   *  [[exterior algebra]]
+   *  [[derivation]]
+   *  [[skew-commutative algebra]] (definitely needs more)
    *  [[cotangent bundle]] (and [[tangent bundle]] to go with it)
+   *  [[exterior algebra]]
 
 *  [[Rafael Borowiecki]] has figured out how categories are spaces at [[category theory]].  (I don\'t think that Rafael reads this page, so copy comments there.)
 
