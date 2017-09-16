@@ -2,12 +2,14 @@ A **complete lattice** is a [[partial order|poset]] which has all [[join|joins]]
 
 # Examples
 * Any [[power set]];
+* Any finite inhabited [[total order|toset]];
 * The ordered set of [[real number]]s, if a [[top]] element $\infty$ and a [[bottom]] element $-\infty$ are added;
-* Any finite [[toset]];
 * The [[unit interval]] $[0,1]$.
 
-Of these example, only power sets are complete [[constructive mathematics|constructively]].
+Complete lattices are harder to come by in [[constructive mathematics]] and nearly impossible in [[predicative mathematics]].  In particular, one must use the Mac Neille reals (and be a bit careful about infinity) for the analytic examples to work constructively.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Aren't some versions of the reals complete constructively?  Like the MacNeille reals?
+
+_Toby_:  Good point.  I tend to think of the Mac Neille reals as not the *real* reals, but of course that depends on what you think is important.  I\'ve decided not to be terribly precise in the statement now.
 =--
