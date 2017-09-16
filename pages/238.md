@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-29 #
 
+*  [[Toby Bartels]] fleshed out [[discrete fibration]] a bit.
+
+*  [[Eric Forgy]] created [[interval category]].
+
 * [[Zoran Škoda]]: created [[discrete fibration]], [[quasideterminant]] and made additions (please check for correctness) to [[orthogonal factorization system]], added Duskin's reference to [[gerbe (general idea)]] (btw it emphasises on internal point of view to gerbes -- as "bouquets", missing in division of gerbe entries in nlab).
 
 * [[Urs Schreiber]]
