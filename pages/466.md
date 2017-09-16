@@ -41,10 +41,37 @@ The Yoneda lemma states that the functor $Y$ has good properties which make this
 Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$, then
 
 $$
-  [C^op,Set](C(-c),X) \simeq X(c)
+  [C^op,Set](C(-,c),X) \simeq X(c)
 $$
 
 naturally for all $c \in C$.
+
+## Proof ##
+
+The crucial point is that the naturality condition on any [[natural transformation]] $\eta : C(-,c) \Rightarrow X$ is sufficient to ensure that $\eta$ is already entirely fixed by the value $\eta_c(Id_c) \in F(c)$ of its component $\eta_c : C(c,c) \to X(c)$ on the [[identity]] $Id_c$.
+And every such value extends to a natural transformation $\eta$.
+
+
+More in detail, the bijection is established by the map
+
+$$
+  [C^{op}, Set](C(-,c),X)
+  \stackrel{|_{c}}{\to}
+  Set(C(c,c), X(c))
+  \stackrel{ev_{Id_c}}{\to}
+  X(c)
+$$
+
+where the first step is taking the component of a [[natural transformation]] at $c \in C$ and the second step is evaluation at $Id_c \in C(c,c)$. 
+
+The inverse of this map takes $f \in X(c)$ to the natural transformation $\eta^f$ with components
+$$
+  \eta^f_d := X(-)(f) : C(d,c) \to X(d)
+  \,.
+$$
+
+
+
 
 ##Remarks##
 
