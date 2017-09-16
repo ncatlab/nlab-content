@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-13
 
+* [[Mike Shulman|Mike]]:
+
+  * Incorporated the reference Tim suggested at [[homotopy limit]].
+
+  * Replied at [[strict 2-limit]] and [[comma category]].
+
 * [[Tim Porter|Tim]]: 
 
   *  Added something to [[homotopy limit]] in part to provide a possible 'old' reference in reply to Urs and Mike below.
