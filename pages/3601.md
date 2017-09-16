@@ -40,6 +40,8 @@ Brief synopsis of teleportation, entanglement swapping, BB84, E91, Deutsch-Jozsa
 [[Ian Durham]]: Should we maybe somehow link the quantum mechanics section to this?  Teleportation and entanglement, to me, are quantum phenomena that transcend their use in quantum information theory (the others, I agree, are purely information-theoretical).
 
 [[Aleks Kissinger]]: Entanglement I agree with, though the description of teleportation as a protocol (as opposed to a phenomenon) probably belongs here.
+
+[[Ian Durham]]: Yes, I'd agree with that.  It's description is usually in terms of a protocol.  Actually, I suppose it's status as a "phenomenon" is somewhat debatable.
 =--
 
 ## Categorical formulation
