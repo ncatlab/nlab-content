@@ -47,7 +47,7 @@ The [[vertical categorification|categorification]] of the notion of _space_ is t
 
 Here we discuss the notion [[duality|dual]] to the notion $\infty$-space/$\infty$-stack/simplicial presheaf in the sense of [[space and quantity]]: that of _$\infty$-quantity_ .
 
-This is such that for instance in the smooth context of [[smooth infinity-stack|smooth ∞-stack]] -- i.e. a [[Lie infinity-groupoid|Lie ∞-groupoid]] -- the $\infty$-quantity $C^\infty(A)$ dual to a [[Lie infinity-groupoid|Lie ∞-groupoid]] $A$ is the cosimplicial algebra of smooth functions on neighbourhoods of identities in $A$ which turns out to be the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of the corresponding  [[Lie infinity-algebroid|Lie ∞-algebroid]]. 
+This is such that for instance in the smooth context of [[smooth infinity-stack|smooth ∞-stack]] -- i.e. a [[Lie infinity-groupoid|Lie ∞-groupoid]] -- the $\infty$-quantity $C^\infty(A)$ dual to a [[Lie infinity-groupoid|Lie ∞-groupoid]] $A$ is the [[cosimplicial algebra]] of smooth functions on neighbourhoods of identities in $A$ which turns out to be the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of the corresponding  [[Lie infinity-algebroid|Lie ∞-algebroid]]. 
 
 For instance 
 
@@ -130,6 +130,8 @@ for the category of **cosimplicial cosheaves** on $C$, the [[simplicial object|c
 We regard $CoSCoSh(C)$ as a [[category with weak equivalences|category with weak equivalences]] by declaring a morphism to be a weak equivalence if it induces an [[isomorphism]] on [[cohomotopy]] groups. (...explain...)
 
 =--
+
+Under the [[stuff, structure, property|forgetful functor]] from [[generalized smooth algebra]]s to the underlying [[algebra]]s, these cosimplicial cosheaves map to [[cosimplicial algebra]]s.
 
 +-- {: .un_remark}
 ###### Remark (model structure on cosimplicial algebras)
@@ -224,9 +226,15 @@ The monoidal structure induced in $C^\infty(\Pi(X))$ under the [[monoidal Dold-K
 
 Let $G$ be a [[Lie group]] and let $\mathbf{B}G$ be its [[delooping]] regarded as a [[Kan complex]] valued [[simplicial presheaf]] (on [[Diff]] or [[CartSp]] or the like). The cosimplicial smooth algebra $C^\infty(\mathbf{B}G)$ has in degree $k$ the smooth algebra of $\mathbb{R}$-valued functions on $G^{\times_k}$. The differential of the corresponding dual [[Moore complex]] $N^\bullet(C^\infty(\mathbf{B}G))$ is the one that computes smooth [[group cohomology]] on $G$ with coefficients in $\mathbb{R}$ with the trivial module structure.
 
+For more on this see
+
+* [[Chevalley-Eilenberg algebra in synthetic differential geometry]].
 
 ## Differential forms {#differentialforms}
 
+See also 
+
+* [[differential forms in synthetic differential geometry]].
 
 Consider again the example of [[singular cohomology]] of a [[smooth space]] $X$ above. In the sense of [[synthetic differential geometry]] we have a natural restriction map
 
