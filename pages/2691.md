@@ -7,14 +7,14 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Idea 
 
 By the dual [[Dold-Kan correspondence]] cochain complexes in non-negative degree are equivalent to [[cosimplicial object|cosimplicial]] abelian groups. Moreover, the [[monoidal Dold-Kan correspondence]] maps [[cosimplicial algebra]]s to [[dg-algebra]]s, but this is no longer an equivalence of ordinary categories. It should, however, be an equivalence of the full [[(∞,1)-category|(∞,1)-categories]] of these objects. This, in turn, should be modeled by a [[model category]] structures.
 
 The model structure on dg-algebras is such a model.
 
 
-## Definition ##
+## Definition 
 
 Write $dgAlg$ for the [[category]] of [[dg-algebra]]s over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
 
@@ -56,7 +56,7 @@ Evidently every object in $dgAlg$ and in $C dgAlg$ is cofibrant. Therefore these
 The nature of the cofibrations is discussed below.
 
 
-## Cofibrations: Sullivan algebras ##
+## Cofibrations: Sullivan algebras {#SullivanAlgebras}
 
 In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras. Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
 
@@ -200,7 +200,7 @@ are sets of generating cofibrations and acyclic cofibrations, respectively, exhi
 =--
 
 
-## Commutative vs. non-commutative dg-algebras ##
+## Commutative vs. non-commutative dg-algebras
 
 +-- {: .un_prop }
 ###### Observation
@@ -258,7 +258,7 @@ This is in II.1.5 of
 
 
 
-## References ##
+## References
 
 
 
