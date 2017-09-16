@@ -21,7 +21,7 @@ Notice that such categories are models for [[stable (∞,1)-category|stable (∞
 
 The tools and constructions used and the questions asked in noncommutative algebraic geometry are not unrelated to but do differ significantly from those in the subject of [[noncommutative geometry]] as developed by [[Alain Connes]]. 
 
-In noncommutative algebraic geometriy the algebras in question are ordinary associative unital $k$-algebras, while in Connes' [[noncommutativ geometry]] the algebras in question are crucially equipped with a [[topology]] and are [[C-star algebra]]s. On the other hand, in Connes' approach noncommutative spaces are always represented by algebras that are to be thought of as algebras of _global sections_ of function [[sheaf|sheaves]] on the space. In contrast to that the methods of [[algebraic geometry]] are designed to work more locally. 
+In noncommutative algebraic geometriy the algebras in question are ordinary associative unital $k$-algebras, while in Connes' [[noncommutative geometry]] the algebras in question are crucially equipped with a [[topology]] and are [[C-star algebra]]s. On the other hand, in Connes' approach noncommutative spaces are always represented by algebras that are to be thought of as algebras of _global sections_ of function [[sheaf|sheaves]] on the space. In contrast to that the methods of [[algebraic geometry]] are designed to work more locally. 
 
 
 # History #
