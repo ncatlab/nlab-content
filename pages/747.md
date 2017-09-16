@@ -257,3 +257,7 @@ See _Jardine07_ [page 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#p
 * **DHI04** Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
 * **DI02** D. Dugger, D. Isaksen, _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
+
+* [proposition 6.5.2.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528) of 
+
+  * [[Jacob Lurie]], [[Higher Topos Theory]]
