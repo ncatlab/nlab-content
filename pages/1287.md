@@ -45,7 +45,8 @@ on a manifold then there is naturally a local system that encodes valuable infor
 
 (I tend to not use the word representation when functor is meant and I would discourage saying that a local system IS a locally constant sheaf of whatever, as they are very different types of stuff (I almost get the 'I spy evil' reaction when I see that!). 
 
-
+[[Zoran Skoda]]: Keep both definitions, and say when they are equivalent, sheaf theoretic and fundamental group one. 
+Why I favour the sheaf theoretic definition as primary is its generality: it works over a site, it is related to combinatorial versions (local system of cohomological coefficients on a simplicial complex or on a poset), as well as local systems on stratified spaces: I do not know how the fundamental group is defined in those cases to yield the same notion; and as aside issue I also do not know if there is a usage of local systems on topological spaces which are not linearly connected. Besides, representations of fundamental group in f.d. vector spaces have also another name: monodromies (monodromy representations).  
 =--
 
 #Examples#
