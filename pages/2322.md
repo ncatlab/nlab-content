@@ -139,33 +139,9 @@ David Corfield: What are the object classifiers for [[Top]]?
 
 [[Urs Schreiber]]: now more details on "relative $\kappa$-compact" morphisms above in the "Details"-section.
 
-[[Urs Schreiber]]: from what we said elsewhere before, such as at [[stuff, structure, property]], it would seem that the classifying object in $\infty Grpd$ should be $\infty Grpd_{\leq \kappa}$ as Mike says, and the universal morphisms to it should be $\Delta[0] \to \infty Grpd_{\leq \kappa}$ picking the terminal $\infty$-groupoid. Then any $\infty$-pullback
+[[Urs Schreiber]]: so the [[universal fibration of (infinity,1)-categories|universal fibration of (infinity,1)-groupoids]] $(Z_{grpd_{\leq \kappa}}^op) \to \infty Grpd_{\leq \kappa}$ would seem to classify just [[left fibration]]s over objects, but in fact every $\infty$-functor between $\infty$-groupoids should be a left fibration, up to equivalence:
 
-$$
-  \array{
-    E &\to& *
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    X &\to& \infty Grpd_{\leq \kappa}
-  }
-$$
-
-would be computed (as in the examples at [[homotopy pullback]] and notably [[generalized universal bundle]]) by the ordinary pullback
-
-$$
-  \array{
-    E &\to& (\infty Grpd_{\leq \kappa})_*
-    \\
-    \downarrow && \downarrow
-    \\
-    X &\to& \infty Grpd_{\leq \kappa}
-  }
-$$
-
-of the $\infty$-groupoid of pointed $\kappa$-compact $\infty$-groupoids.
-
-By the [[(∞,1)-Grothendieck construction]] morphisms $X \to \infty Grpd_{\leq \kappa}$ classify [[left fibration]]s $E \to X$. But since $X$ is itself an $\infty$-groupoid, actually _every_ [[(∞,1)-functor]] $E \to X$ is, up to equivalence, a left fibration: this follows explicitly from HTT, prop 3.3.1.8, recalled at [[Cartesian fibration]].
+this follows explicitly from HTT, prop 3.3.1.8, recalled at [[Cartesian fibration]].
 
 
 
