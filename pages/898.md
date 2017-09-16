@@ -19,7 +19,7 @@ More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-filtered
 
 * Every category with a [[terminal object]] is filtered.
 
-* Every category which has finite [[colimits]] is filtered.
+* Every category which has finite [[colimit]]s is filtered.
 
 * A [[product]] of filtered categories is filtered.
 
