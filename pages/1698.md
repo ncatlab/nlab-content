@@ -1,6 +1,10 @@
 #Idea#
 
-A _fibration sequence_ is a "long right-exaxt sequence" (or left-exact, I keep ,mixing that up) in an [[(infinity,1)-category]].
+A _fibration sequence_ is a "long right-exaxt sequence" (or left-exact, I keep mixing that up) in an [[(infinity,1)-category]].
+
+Traditionally fibration sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] wich [[presentable (infinity,1)-category|present]] the [[(infinity,1)-category]] in question. In particular, classically this was considered for [[Top]] itself.
+
+
 
 #Definition#
 
