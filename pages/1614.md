@@ -1,3 +1,9 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
 A **topological quantum field theory** is a [[quantum field theory]] which is a [[FQFT|functorial quantum field theory]] is a functor on the [[(infinity,n)-category of cobordisms]] $Bord_n$ that do not carry any further structure.
 
 For more on the general idea and its development, see [[FQFT]] and [[extended topological quantum field theory]]. For the central structural result in [[TQFT]], the [[cobordism hypothesis]] see
@@ -15,9 +21,9 @@ In constrast to topological QFTs, non-topological quantum field theries in the [
 
 * $S =$ conformal structure $\to$ [[conformal field theory]]
 
-* $S =$ Riemannian structure $\to$ "euclidean QFT"
+* $S =$ [[Riemannian manifold|Riemannian structure]] $\to$ "euclidean QFT"
 
-* $S =$ pseudo-Riemannian structure $\to$ "relativistic QFT"
+* $S =$ [[pseudo-Riemannian metric|pseudo-Riemannian structure]] $\to$ "relativistic QFT"
 
 #Examples#
 
