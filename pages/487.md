@@ -19,7 +19,7 @@ A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] 
 
 * The category of rings is not balanced; $Z\hookrightarrow Q$ is monic and epic but not an isomorphism.
 
-* Topological categories are rarely balanced; in [[Top]], for example, the monic epics are the continuous bijections.  However, the category of compact Hausdorff spaces is balanced.
+* Topological categories are rarely balanced; in [[Top]], for example, the monic epimorphisms are the continuous bijections.  However, the category of compact Hausdorff spaces is balanced.
 
 * In a [[poset]] or a [[quiver]], _every_ morphism is both monic and epic; thus such categories are "as far as possible from being balanced."
 
