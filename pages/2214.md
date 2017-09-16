@@ -29,6 +29,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created [[derived algebraic geometry]]
+
+  * wrote a bit of summary at [[A Survey of Elliptic Cohomology]]
+
   * started [[elliptic cohomology]]
 
     so far with quick stubs for [[line bundle]], [[cohomology ring]]
