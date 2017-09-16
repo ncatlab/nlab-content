@@ -167,7 +167,7 @@ $$
 $$
 is discussed there in definition 14.7.8 on p. 269. 
 
-* the $V$-enriched hom-category $[K,V]$ which on $V$-functors $S,T$ is the [[end and coend]] $[K,V](S,T) = \int_{k \in K} V(S(k), T(k))$ appears as $hom^K(S,T)$ in definition 18.3.1 (see bottom of the page).
+* the $V$-enriched hom-category $[K,V]$ which on $V$-functors $S,T$ is the [[end]] $[K,V](S,T) = \int_{k \in K} V(S(k), T(k))$ appears as $hom^K(S,T)$ in definition 18.3.1 (see bottom of the page).
 
 * for $V = $[[SSet]] the above definition of homotopy limit appears in example 18.3.6 (2).
 
