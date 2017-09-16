@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-18
 
+* [[David Corfield|David]]:
+
+  * Added a reference in response to one of Mike's questions at [[fundamental group of a topos]].
+
 * [[Mike Shulman|Mike]]:
 
   * Created [[quantale]], [[adjoint functor theorem]], and [[total category]].
