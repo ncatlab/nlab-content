@@ -56,6 +56,31 @@ $$
 
 Compare this with the construction at [[generalized universal bundle]] and with the definition of [[loop space object]]. 
 
+Alternatively, the comma category is the "lax pullback" -- or rather the [[comma object]] (see the discussion at [[2-limit]]) of the pullback diagram, 
+
+$$
+  \array{
+    && C
+    \\
+    && \downarrow^f
+    \\
+    D &\stackrel{g}{\to}& E
+  }
+$$
+
+
+i.e. the universal cone that commutes up to a natural transformation
+
+$$
+  \array{
+    (f,g) &\to& C
+    \\
+    \downarrow &\Downarrow& \downarrow^f
+    \\
+    D &\stackrel{g}{\to}& E
+  }
+$$
+
 In terms of the imagery of loop spaces objects, the comma category is the category of [[interval object|directed paths]] in $E$ which start in the image of $f$ and end in the image of $g$.
 
 
