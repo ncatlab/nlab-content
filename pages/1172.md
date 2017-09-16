@@ -12,9 +12,9 @@ Any [[metric space]] is a Cauchy space: $F$ is Cauchy if it has elements of arbi
 
 Every Cauchy space is a [[convergence space]]; $F \to x$ if the intersection of $F$ with the principal ultrafilter $F_x$ is Cauchy.  Note that any convergent proper filter must be Cauchy.  Conversely, if every Cauchy filter is convergent, then the Cauchy space is called __complete__.
 
-A Cauchy space $S$ is __totally bounded__ (or __precompact__) if every proper filter is contained in a Cauchy filter.  Equivalently (assuming the Boolean prime ideal theorem), $S$ is totally bounded iff every ultrafilter is Cauchy.
+A Cauchy space $S$ is __totally bounded__ (or __precompact__) if every proper filter is contained in a Cauchy filter.  Equivalently (assuming the [[ultrafilter theorem]], a weak form of the [[axiom of choice]]), $S$ is totally bounded iff every ultrafilter is Cauchy.
 
-A Cauchy space is compact (as a convergence space) if and only if it is both complete and totally bounded.
+A Cauchy space is [[compact space|compact]] (as a convergence space) if and only if it is both complete and totally bounded.
 
 # References #
 
