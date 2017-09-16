@@ -15,7 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-13
 
-*  [[Toby Bartels]]:  Created [[opposite relation]], quite brief.
+*  [[Toby Bartels]]:
+   *  Comments on [[Timeline of category theory and related mathematics]].
+   *  Created [[opposite relation]], quite brief.
 
 * [[David Roberts]]: Posted kernel of an idea at [[microbundle]] that has been sitting at the back of mind for a while, in the hope someone might be able to use it or do something interesting with it.
 
