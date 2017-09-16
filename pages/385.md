@@ -2,6 +2,10 @@ The _Crans-Gray tensor product_ is a [[tensor product]] on the category of [[str
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Is it really true that the Crans-Gray tensor product reduces to the (lax) Gray tensor product when applied to 2-categories?  It seems to me that if the "lax transformations" involved are lax in all dimensions, which the informal discussion below suggests that they are, then the Crans-Gray tensor product of two 2-categories will not, in general, even be a 2-category any more.  Then the most you could expect is that the reflection from strict $\omega$-categories to strict 2-categories would take the Crans-Gray tensor product to the Gray tensor product.
+
+[[Ronnie Brown|Ronnie]]: The tensor product of strict globular 2-categories is really a strict globular 4-category. However there is a _cotruncation_ from dimension $n$ to lower dimension $m$ which at dimension $m$ imposes some additional relations. I know how to write this down in the crossed complex case but am not so sure in the globular and category case. 
+
+It also seems that the monoidal closed structure on strict globular omega categories in the third paper below gives "higher order lax transformations". What else?  In the crossed complesx case, you get higher order left homotopies. 
 =--
 
 The Crans-Gray tensor product can be understood as arising as follows:
