@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[topological T-duality]]
+
   * created [[homotopy pullback]]
 
   * created [[weak equivalence]]
