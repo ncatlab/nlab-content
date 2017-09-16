@@ -43,7 +43,7 @@ When we do this, we are soon led to contemplate a slight generalization of parti
 
 ### Monotone functions ###
 
-The morphisms of partially ordered sets are [[monotone functions]]; a __monotone function__ $f$ from a poset $S$ to a poset $T$ is a [[function]] from $S$ to $T$ (seen as seen as structured sets) that preserves $\leq$:
+The morphisms of partially ordered sets are [[monotone functions]]; a __monotone function__ $f$ from a poset $S$ to a poset $T$ is a [[function]] from $S$ to $T$ (seen as seen as [[structured sets]]) that preserves $\leq$:
 $$ x \leq y \;\Rightarrow\; f(x) \leq f(y) .$$
 Equivalently, it is a [[functor]] from $S$ to $T$ (seen as certain categories).
 
