@@ -1,8 +1,31 @@
 [[!include contents]]
 
-Unsurprisingly, **category theory** is the theory of [[category|categories]].
+#What is category theory?#
+**Category theory** is so useful because it can be seen from so many perspectives.
 
-But maybe surprisingly, category theory turns out to be much more than the study of a particular mathematical structure. The degree to which category theory for instance is more encompassing than [[group theory]] is more drastic than the simple straightforward generalization from the mathematical structure [[group]] to the mathematical structure [[category]] might suggest. This is one of the main reasons for interest in category theory: it seems to provide a unified language for mathematics.
+* The theory of [[category|categories]] as algebraic structures with several objects and a relation (morphism) algebra on these objects. Structures in abstract algebra have only one object.
+* The theory of categories as primitive mathematical universes or spaces (nothing as fancy as a topos).
+* A unifying tool and language in mathematics.
+* A foundation of mathematics (that is structural).
+* An abstarction of an abstarction of an abstarction of ... The first level is sets and is as concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more properly 2-categories. This can be iterated to n-categories and indefinitely. This could be called the theory of abstractions.
+* A generalized theory of representations.
+* The theory of combinatorial directed multigraphs with a composition law (and loops).
+
+#Branches of category theory#
+A probably incomplete list is:
+
+* Pure category theory (vaguely category theory without the use of any other branches of mathematics except essential concepts from them).
+* Categorical abstract algebra, including [[representation theory]] of abstract algebraic structures and [[universal algebra]].
+* [[Homological algebra]].
+* [[Homotopical algebra]].
+* Topology using categories. It includes [[algebraic topology]],[[categorical topology]],[[quantum topology]],[[low dimensional topology]].
+* [[internal logic|Categorical logic]] and set theory in the categorical context such as [[algebraic set theory]].
+* Foundations of mathematics building on categories, for instance [[topos theory]].
+* Abstract geometry, including [[algebraic geometry]] on the level of schemes and above, [[categorical noncommutative geometry]], different categorifications of differential geometry, etc. 
+* [[Categorical quantization]] (in mathematics).
+* [[Applied category theory]]. Especially to mathematical physics, computer science and dynamical systems ([[categorical dynamics]]).
+
+Most of these include some higher dimensional category theory. Some would regard category theory as the human activity of [[category theorists]].
 
 #category theory entries#
 * [[(-1)-category]]
