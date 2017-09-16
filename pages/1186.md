@@ -13,14 +13,7 @@ An [[(infinity,1)-category]] $C$ is **presentable** it it satisfies the followin
 
 * $C$ is [[accessible (infinity,1)-category|accesible]] and admits small [[limit in quasi-categories|colimits]];
 
-* there exists a small $\infty$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(infinity,1)-presheaves]] to $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]]
-
-+-- {: .query}
-Should this be  $f: PSh(D) \to C$?
-
-[[Urs Schreiber|Urs]]: Yes, i have corrected it now. Thanks
-
-=--
+* there exists a small $\infty$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(infinity,1)-category of (infinity,1)-presheaves]] on $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
 
   * (if in addition $f$ is left [[exact functor|exact]] then $C$ is an [[(infinity,1)-category of (infinity,1)-sheaves]] on $C$)
