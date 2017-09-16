@@ -34,6 +34,16 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
   * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds).
 
++-- {: .query}
+
+[[Urs Schreiber]]: there is an inconsistency here with what it says at [[locally compact space]]: there it says that every topological manifold is locally compact and that the long line is a topological manifold. Here it says that every locally compact space is paracompact, but that the long line is not.
+
+Apparently the same inconsistency is in the relevant Wikipedia entries. 
+
+Or am I missing something?
+
+=--
+
 
 # Properties #
 
