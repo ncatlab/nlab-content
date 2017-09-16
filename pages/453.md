@@ -51,3 +51,8 @@ Further desirable exactness properties can be phrased in the language of [[Galoi
 $$\langle (f, g); h \rangle \in coeq \qquad iff \qquad h f = h g$$
 
 [to be continued...]
+
+An application of the regularity condition is found in the paper
+*Tensor envelopes of regular categories, by F. Knop.   [arXiv:math/0610552v2](http://arxiv.org/abs/math/0610552)
+
+Knop's condition for regularity is slightly different from that presented here; he works with categories that when augmented by an absolutely initial object are regular in the terminology here.  In the paper, Knop generalizes a construction of Deligne by showing how to construct a symmetric pseudo-abelian [[tensor category]] out of a regular category through the calculus of relations.
