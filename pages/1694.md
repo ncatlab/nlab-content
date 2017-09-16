@@ -68,6 +68,15 @@ This means that we can now simply insert links like [[(∞,1)-categories]] and b
 
 The $\infty$ symbol included in the link is not obtained via the itex syntax <nowiki>\infty.</nowiki> To actually include non-ASCII symbols in links, you either need to be an expert at unicode OR simply find the $\infty$ symbol already displayed somewhere, copy it, and paste the symbol into the edit box. To see what I mean, you can edit this page to look at the source code for the link: [[(∞,1)-categories]].
 
+#Undoing a Redirect#
+
+Occasionally you may come across a situation where a redirect exists for a link that you'd like to create a separate entry for. For example, [[Cauchy colimit]] is currently redirected to [[Cauchy complete category]]. If you'd prefer to have a separate entry for Cauchy colimit, you can simply edit [[Cauchy complete category]] and remove the lines (likely at the bottom of the edit box) 
+
+<nowiki>[[!redirects Cauchy colimit]]</nowiki>
+<nowiki>[[!redirects Cauchy colimits]]</nowiki>
+
+Now you can create Cauchy colimit as usual and any pages that had previous been redirected from Cauchy colimit to Cauchy complete category, will now point to your new entry on Cauchy colimits.
+
 ***
 
 See also [the official Instiki guidelines](http://golem.ph.utexas.edu/instiki/show/Syntax#redirecting) on redirects.
