@@ -96,17 +96,24 @@ If anyone can post instructions for other operating systems, or other programs (
 
 ##How to use a Wiki##
 
-Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.
+Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.  They key point is that links to other pages are placed in `[[double brackets]]`.
 
-**Creating a new page** is done by 
+There is no feature to preview your edits.  Instead, submit them and then edit again.  Two successive submissions with the same signature and made within 30 minutes of each other count as one in the record, so don\'t worry about cluttering up the database with multiple submissions in a row.
 
- * first creating a preliminary link (represented by a question mark) by entering double square brackets;
 
- * then clicking on the question mark and following the instructions.
+## How to start a new page
+{#newpage}
+
+You do this in two steps, the first of which may have already been done:
+
+1. Create a preliminary link (represented by a question mark) by editing a current page and putting the name of the new page in double square brackets.  (You can do this in the [[Sandbox]] if there is no better place, but probably you want to do this in context on a relevant page that should link to your new page.)
+
+2. Clicking on the question mark to begin editing the new page.  (It will not actually be created until you hit Submit.)
 
 _Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (`[[like this|Like this]]`.) We loosely agreed to try to follow that and some other naming conventions; see below.
 
 However, this is less of an issue now that we have [[redirects]].
+
 
 ##Note to new contributors##
 
