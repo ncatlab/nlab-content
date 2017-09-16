@@ -14,11 +14,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-30 #
 
+* [[Urs Schreiber|Urs]]
+
+  * fixed (hopefully) the nonsense paragraph (due to me) that [[Toby Bartels|Toby]] had pointed out at [[sieve]]
+
 * [[Tim Porter|Tim]]: 
    
   * I have pointed out at [[simplicial homotopy]] that the combinatorial description has much greater validity than claimed there before. It works for simplicial objects in any finitely cocomplete category. (I think that is in Duskin's Memoir volume, but is not difficult to check directly.) It depends on having the [[copower]] with $\Delta[1]$, which brings me to 
 
    * We have two notations for simplices in $SSet$. We use both $\Delta[n]$ and $\Delta^n$.  I do not like the second one.  I have started a query on this at [[simplicial set]].
+
+     * [[Urs Schreiber|Urs]] that $\Delta^n$ is due to me -- I'll try to change it back to $\Delta[n]$ (same for horns) where I see it
 
 * [[Urs Schreiber|Urs]]
 
