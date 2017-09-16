@@ -4,6 +4,8 @@ An important sub-2-category of $Cat/C$ is the 2-category of [[fibered categories
 
 +--{: .query}
 [[Mike Shulman]]: Is that really a 2-fibration?  You can pull back along $Cat/C \to Cat/D$ along a functor $f\colon D\to C$, but can you do anything with a natural transformation $f\to f'$?
+
+Zoran: sorry there is indeed an error there, but I will not yet erase it, as there is (in my memory) a partial repair of the statement for which I need to sit down to formulate precisely. 
 =--
 
 Its restriction to the sub-2-category $Fib$ of fibered categories is then also a Grothendieck 2-fibration $Fib\to Cat$ which has been studied by [[Claudio Hermida]]. 
