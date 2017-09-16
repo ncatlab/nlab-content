@@ -108,6 +108,12 @@ This is described in great detail in the reference by Schreiber--Waldorf below.
 ...
 
 
+# Generalizations#
+
+## superconnections ##
+
+Generalizing the parallel transport definition from ordinary manifolds to [[supermanifold]]s yields the notion of [[superconnection]].
+
 #References#
 
 The description of connections as smooth functors on the [[path groupoid]] has a long history in its restriction to _based loops_ . This is recalled at
@@ -129,3 +135,4 @@ A proposal for the full proper generalization of the functorial notion of connec
 For more links, more history and further pointers see
 
 * [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]] .
+
