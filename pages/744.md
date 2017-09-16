@@ -104,4 +104,8 @@ If about the _n_-Lab then try the [n-Forum](http://www.math.ntnu.no/~stacey/Vani
 
 If about something mathematical then try to convince [[John Baez|John]], [[Urs Schreiber|Urs]], or [[David Corfield|David]] to start a blog entry on the _n_-Category Caf&eacute; about it.
 
+### How can I get a personal section of the nLab?
+
+Some users have personal areas of the _n_-Lab where they can have password protected pages and do work without fitting it into the rest of _n_-Lab.  If you would like to have such an area, email [[Urs Schreiber|Urs]].
+
 category:meta
