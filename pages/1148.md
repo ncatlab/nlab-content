@@ -220,7 +220,10 @@ $$
 
 ##Examples##
 
-...
+* [[Deligne cohomology]]
+
+* [[etale cohomology]]
+
 
 ##References##
 
