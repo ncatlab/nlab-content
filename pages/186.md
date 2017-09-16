@@ -10,14 +10,23 @@ Another obvious question to ask is what tools and techniques can be extrapolated
 
 #Examples#
 
-1. [[Chen space|Chen spaces]] (called _differentiable spaces_ in Chen's works).
-2. [[diffeological space|Diffeological spaces]]
-3. [[Froelicher space|Frölicher spaces]]
-4. [[differential module|Differential modules]]
-5. [[Smith space|Smith spaces]]
-6. [[stratifold|Stratifolds]]
-7. [[orbifold|Orbifolds]]
-8. [[polyfold|Polyfolds]]
+* [[smooth space|Smooth spaces]]
+
+  * [[Chen space|Chen spaces]] (called _differentiable spaces_ in Chen's works).
+  * [[diffeological space|Diffeological spaces]]
+  * [[Froelicher space|Frölicher spaces]]
+  * [[smooth infinity-stack|Smooth infinity-stacks]]
+    * [[differentiable stack|Differentiable stacks]]
+    * [[orbifold|Orbifolds]]
+
+* [[structured generalized space|Structured generalized smooth spaces]]
+
+  * [[differential module|Differential modules]]
+  * [[Smith space|Smith spaces]]
+  * [[stratifold|Stratifolds]]
+  * [[polyfold|Polyfolds]]
+  * [[derived smooth manifold|Derived smooth manifolds]]
+
 
 The relationships between (some) of the categories can be sumarised by the following diagram.
 
@@ -54,6 +63,10 @@ Eventually the following will be a _commented_ list -- promised.
 * Andrew Stacey, _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
 
 There are also Hofer's [[polyfold|polyfolds]].
+
+Concerning [[smooth infinity-stack]]s there is useful material in 
+
+* Daniel Dugger, _Sheaves and homotopy theory_ ([web](http://math.uoregon.edu/~ddugger/cech.html))
 
 #Remarks#
 
