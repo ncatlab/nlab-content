@@ -35,7 +35,7 @@ For homotopy 3-types, the algebraic model of [[crossed square]]s is more explici
 * P. I. Booth, _An explicit classification of three-stage Postnikov towers_, Homology, homotopy and applications 8 (2006), No. 2, 133--155
 * G. Ellis and R. Mikhailov, _A colimit of classifying spaces_, [arXiv:0804.3581](http://www.arxiv.org/abs/0804.3581).
 
-A pedagogical introduction to Postnikov systems with an eye towards their [[infinity-groupoid]]-incarnation under the correspondence given by the [[homotopy hypothesis]] is in
+A pedagogical introduction to Postnikov systems with an eye towards their $\infty$-[[infinity-groupoid|groupoid]] incarnation under the correspondence given by the [[homotopy hypothesis]] is in
 
 * [[John Baez]], [[Mike Shulman]], [[Lectures on n-Categories and Cohomology]]
 
