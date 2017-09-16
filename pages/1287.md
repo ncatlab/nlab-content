@@ -241,7 +241,7 @@ Can someone tell me how old the term 'monodromy' is?  I know that Ehresmann used
 
 The main aim should be to have a clear description of the idea and a definition or definitions with some discussion of their interrelationships.
 
-
+[[Zoran Skoda]]: so how will you do the local system on a site ? For a general site with a terminal object it is hard to have a satisfactory notion of fundamental group (though it works for topoi -- with regular epi topology assumed) while locally free sheaf still makes sense: you can use a cover of terminal object. The word monodromy is usually associated to  the case of ordinary differential equations and Riemann-Hilbert problem, so I believe that it existed around 1900, though I may be wrong.  
 =--
 
 
