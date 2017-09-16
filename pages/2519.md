@@ -122,6 +122,10 @@ But since [[scheme]]s alone will never form a [[topos]], and smooth topos axioma
 
 A similar comment of course applies to the "well-adapted models" mentioned above: into these ordinary [[manifold]]s only embed, they contain "smooth space"s much more general than manifolds (such as [[diffeological space]]s) but also possibly "pathological" ones, from some perspective or other.
 
+See also
+
+* [[synthetic differential geometry applied to algebraic geometry]].
+
 ## warning on preservation of (co)limits ##
 
 Most of the examples above provided [[topos]]es into which a [[category]] $NiceSpaces$ of nicely behaved [[space]]s, such as [[manifold]]s or [[scheme]]s embeds [[full and faithful functor|full and faithfully]].
