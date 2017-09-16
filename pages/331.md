@@ -19,6 +19,7 @@
 * [[negation]]
 * [[Peirce's law]]
 * [[predicate]]
+* [[predicate logic]]
 * [[predicative mathematics]]
 * [[propositional logic]]
 * [[relation]]
