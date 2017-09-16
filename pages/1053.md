@@ -30,7 +30,7 @@ Lynn, I can\'t believe that you shied away from the punchline!  ---Toby
 
 [[Finn Lawler]]: (Who's Lynn?)  I thought I'd be subtle, but maybe I was a bit too subtle!
 
-_Toby_:  Sorry, Finn!  You weren\'t so subtle that I didn\'t get it, obviously; we just have different styles of humour, I guess.
+_Toby_:  Sorry: Finn!  You weren\'t so subtle that I didn\'t get it, obviously; we just have different styles of humour, I guess.
 =--
 
 Linear logic was introduced in \[1\].  Although it is
