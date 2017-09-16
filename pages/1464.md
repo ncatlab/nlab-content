@@ -1,10 +1,17 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 In general, [[limit]]s and [[colimit]]s do not commute. 
 
 It is therefore of interest to list the special conditions under which certain limits do commute with certain colimits. 
 
 This page lists some of these.
 
-## Filtered colimits commute with finite limits ##
+## Filtered colimits commute with finite limits 
 
 For $C$ a small [[filtered category]], the functor $colim_C : [C,Set] \to Set$ commutes with finite limits.
 
@@ -57,7 +64,7 @@ All colimits are stable under base change in for instance
 
 * $C =$ [[Set]];
 * hence for $C =$ a [[presheaf]] category $[S^{op},Set]$ (since colimits in such $C$ are computed objectwise in $Set$), see [[limits and colimits by example]]);
-* more generally, any [[topos];
+* more generally, any [[topos]];
 
 but not in for instance
 
