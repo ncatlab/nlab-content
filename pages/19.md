@@ -100,10 +100,32 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
   I'd think we need to hear back from Rafael a comment describing a bit more in words what the _intention_ of the above paragraph is. Then I would feel free to implement my suggestion for how one could phrase it.
 
+  _Rafael_: Toby, a graph would be a too strange space. There are no rules how you can go (travel) between points in that space.
+
+  Urs, i am not thinking of a simplicial sets as topological spaces. Just to start, what is an open subset of a simplicial set? To turn it into a set and then a topological space would require to apply the geometric realization functor |.|. Up to categorical equivalence nothing is lost in passing to the nerve which is a category and a special simplicial set (not a topological space). Further, the description is so short so there is no reason to refer to the nerve page. If someone has a better "definition" of a category as a space i would be happy to hear it.
+
+  This point in the list is very important, it tells that categories have a geometry. You may think of them as geometric objects and not only algebraic objects.
+Oversimplified, you can draw a category on paper instead of dealing with sets of objects, morphism, etc.
+
+  This is what i mean by a primitive space. A collection of points with paths between the points on which you can move between the points in the primitive space. Since motion is directed the paths will be directed. I hope this helps. You might add that to this point in the list if you like.
+
+  You also talk about identifying, this could mena many things. Identical in all respects, there exist a bijection, there exist an invertible functor,... 
+
+  This reminds me of identifying (by bijection) points of sets with functions. I could accept it but it is like saying that i can use the fundamental forces of nature instead of my arms and legs just because both happen to be 4. I can then induce everything else on the forces from my arms and legs afterwards but it don't make sense. Something (everything) got lost in the translation. To end, i still claim that identifying the nerve of a category with a category is good enough (for small categories). No one seem to have objected to identify categories with for instance presheaves (i will work more on that).
+
+  David, you do have a point there, this nerve only works for small categories. I don't know how to fix it to work with large categories yet. Is it an unsolved problem?
+
+  I have taken the liberty to reformulate what you have written, hope you like it. It is more stright on.
+Now i only wish i knew more about fundamental localizers to write more.
+
+  Regarding Grothendieck universes. A Grothendieck universe contains what may be called the small sets in a set theory such as ZFC. Having an axiom that forces every set to be an element of some Grothendieck universe eliminate such sets as the set of all sets and the following paradoxes. Grothendieck was the first to see and formulate this in SGA in 1972. But i am no expert on this. I have not read the whole aricle on Grothendick universes. I wonder what Urs had in mind.
+
+  References are: first part of first chapter of first volume of "Handbook of categorical algebra" - Borceux and "One universe as a foundation for category theory" - Mac Lane 1969. "Categories and sheaves" - Kashivara-Schapira do also mention briefly universes at the beginning.
+
   =--
 
 
-* The category of small categories as models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
+* A theory of models for homotopy types. Only the small categories are models so far. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 
 
 * A unifying tool and language in [[mathematics]].
@@ -111,15 +133,19 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
 * A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
-* The theory of [[directed graph|directed graphs]] with a [[composition]] law. This has given rise to the heavy use of diagrams in category theory.
+* The theory of [[directed multigraph|directed multigraphs]] with a [[composition]] law and loops. This has given rise to the heavy use of diagrams in category theory.
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 * A theory of [[presheaves]] with some properties on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$.
-  +-- {: .query}
+
++-- {: .query}
+
   _Rafael_: I don't like this definition but maby others do. How do i edit multiple arrows, they are supposed to be on top of each other. And the numbers are supposed to be in square brackets that don't show! Anyone remembering the properties?
+* A theory of Cat, the 2-category of categories. This is axiomatized in Lawvere's [[ETAC]].
 
   _Toby_:  Put math between dollar signs!  The iTeX here is rather more like real LaTeX than the texvc at Wikipedia.  (That takes care of the brackets; for the arrows, learn to love `\overset` and `\underset`.)
-  =--
+
+=--
 
 Some would define category theory as the human activity of [category theorists](http://ncatlab.org/nlab/list/people).
 
