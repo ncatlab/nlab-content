@@ -425,6 +425,89 @@ The easy way to visualize the values of these graphical expressions is just to n
 
 </table>
 
+Laying out the arrows on the augmented venn diagram, one gets a picture of a _differential vector field_.
+
+<center>
+<img alt="Venn Diagram PQ Difference Conj" src="/nlab/files/Venn_Diagram_PQ_Difference_Conj.jpg" width="500" />
+</center>
+
+The Figure shows the points of the extended universe $\mathop{E}X = P \;\times\; Q \;\times\; \mathop{d}P \;\times\; \mathop{d}Q$ that are indicated by the difference map $\mathop{D}f : \mathop{E}X \to \mathbb{B}$, namely, the following six points or singular propositions:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\arrayopts{\colalign{right center}}
+1. &amp;
+p &amp; q &amp; \mathop{d}p &amp; \mathop{d}q
+\\
+2. &amp;
+p &amp; q &amp; \mathop{d}p &amp; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+3. &amp;
+p &amp; q &amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;} &amp; \mathop{d}q
+\\
+4. &amp;
+p &amp; \text{&#x2997;} q \text{&#x2998;} &amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;} &amp; \mathop{d}q
+\\
+5. &amp;
+\text{&#x2997;} p \text{&#x2998;} &amp; q &amp; \mathop{d}p &amp; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+6. &amp;
+\text{&#x2997;} p \text{&#x2998;} &amp; \text{&#x2997;} q \text{&#x2998;} &amp; \mathop{d}p &amp; \mathop{d}q
+}$$
+</font></div>
+
+The information borne by $\mathop{D}f$ should be clear enough from a survey of these six points --- they tell you what you have to do from each point of $X$ in order to change the value borne by $f(p, q)$, that is, the move you have to make in order to reach a point where the value of the proposition $f(p, q)$ is different from what it is where you started.
+
+We have been studying the action of the difference operator $\mathop{D}$ on propositions of the form $f : P \;\times\; Q \to \mathbb{B}$, as illustrated by the example $f(p, q) = p q$ that is known in logic as the conjunction of $p$ and $q$.  The resulting difference map $\mathop{D}f$ is a (first order) differential proposition, that is, a proposition of the form $\mathop{D}f : P \;\times\; Q \;\times\; \mathop{d}P \;\times\; \mathop{d}Q \to \mathbb{B}$.
+
+Abstracting from the augmented venn diagram that shows how the _models_ or _satisfying interpretations_ of $\mathop{D}f$ distribute over the extended universe of discourse $\mathop{E}X = P \;\times\; Q \;\times\; \mathop{d}P \;\times\; \mathop{d}Q$, the difference map $\mathop{D}f$ can be represented in the form of a _digraph_ or _directed graph_, one whose points are labeled with the elements of $X =  P \;\times\; Q$ and whose arcs are labeled with the elements of $\mathop{d}X = \mathop{d}P \;\times\; \mathop{d}Q$, as shown in the following Figure.
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<tr>
+<td style="border:none">
+<img alt="Directed Graph PQ Difference Conj" src="/nlab/files/Directed_Graph_PQ_Difference_Conj.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none"><font size="+1">
+$\array{\arrayopts{\colalign{right center}}
+f &amp; = &amp; p &amp; \cdot &amp; q
+\\
+\mathop{D}f
+&amp; = &amp;
+p
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+\\
+&amp; + &amp;
+p
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\; \text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q \;\;
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\;\; \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;} \;
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\;\; \mathop{d}p \;\; \mathop{d}q \;
+}$
+</font></td></tr>
+
+</table>
+
+Any proposition worth its salt can be analyzed from many different points of view, any one of which has the potential to reveal an unsuspected aspect of the proposition's meaning.  We will encounter more and more of these alternative readings as we go.
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -448,10 +531,6 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Venn_Diagram_PQ_Difference_Conj.jpg|Venn Diagram PQ Difference Conj:pic]]
-
-[[Directed_Graph_PQ_Difference_Conj.jpg|Directed Graph PQ Difference Conj:pic]]
 
 [[Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg|Cactus Graph Ef = (P,dP)(Q,dQ):pic]]
 
