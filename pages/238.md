@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[twisted cohomology]]
+
+  * created [[n-group]]
+
   * created [[group cohomology]]
 
     * the point of view adopted there is _almost_ fully explicit in Brown-Higgins-Sivera's book _Nonabelian algebraic topology_ , only that one needs to notice in addition that the morphisms out of free resolutions of crossed complexes discusses there are the [[anafunctor]]s that compute the morphisms in the corresponding homotopy category. Has this been made fully explicit anywhere in the existing literature?
