@@ -29,5 +29,6 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 # References #
 
-* <span id="Johnstone" markdown="1">Peter Johnstone; Stone Spaces</span>
-[Johnstone]: #Johnstone
+* <span id="Johnstone"></span>
+  Peter Johnstone; Stone Spaces
+  [Johnstone]: #Johnstone
