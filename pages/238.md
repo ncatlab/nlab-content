@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-13 #
+
+*  [[Toby Bartels]]:  I think that the (unordered) notion of _category with inverses_ at [[partially ordered category]] should be the same as that of _[[dagger category]]_.
+
 # 2009-06-12 #
 
 *  [[Victor Porton]]:  Some other newer terms added (notably [[partially ordered category]]) to [[Categories and Sheaves]].
