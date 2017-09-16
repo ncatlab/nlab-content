@@ -94,7 +94,7 @@ of an [[abelian category]] $C$ is **homotopically injective** if for every $X \i
 [[quasi-isomorphism|quasi-isomorphic]] to $0$
 we have
 $$
-  Hom_{K(C)}(X,I) = \{0\}
+  Hom_{K(C)}(X,I) \simeq 0
   \,.
 $$
 
