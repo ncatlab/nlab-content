@@ -1,9 +1,17 @@
 
+#Contents#
+* automatic table of contents
+{:toc}
+
+## Idea
+
+A Sweedler [[coring]] is an algebraic structure that is roughly the [[duality|formal dual]] of the [[Cech nerve]] of a [[cover]].
+
 ## Definition
 
-Let $f : R\to S$ be the extension of $k$-[[algebra]]s (where $k$ is a commutative unital [[ring]]). 
+Let $f : R \hookrightarrow S$ be the extension of $k$-[[algebra]]s (where $k$ is a commutative unital [[ring]]). 
 
-The corresponding __canonical coring__ or __Sweedler coring__ is the $R$-[[coring]] 
+The corresponding __canonical coring__ or __Sweedler coring__ is the $S$-[[coring]] 
 
 $$
   C = S\otimes_R S
@@ -12,7 +20,7 @@ $$
 with coproduct 
 
 $$
-  \Delta : C\to C\otimes_R C \cong S\otimes_R S\otimes_R S
+  \Delta : C\to C\otimes_S C \cong S\otimes_R S\otimes_R S
 $$ 
 
 given by
@@ -24,7 +32,7 @@ $$
 and counit 
 
 $$
-  \epsilon : C\to R
+  \epsilon : C\to S
 $$ 
 
 given by 
@@ -34,15 +42,250 @@ $$
  \,.
 $$  
 
+### Geometric interpretation {#GeomInterpretationOfCoring}
+
+We give a dual geometric interpretation of the Sweedler coring. 
+
+Suppose a context of spaces and function algebras on spaces that satisfies the basic axioms of [[geometric function theory]], in that the algebra of functions $C(Y_1 \times_X Y_2)$ on a [[fiber product]] 
+
+$$
+  \array{
+    Y_1 \times_X Y_2 &\to& Y_2
+    \\
+    \downarrow && \downarrow
+    \\
+    Y_1 &\to& X
+  }
+$$
+
+is the [[tensor product]] of the functions on the factors:
+
+$$
+  C(Y_1 \times_X Y_2) = C(Y_1) \otimes_{C(X)} C(Y_2)
+  \,.
+$$
+
+Then let $\pi : Y \to X$ be a morphism of spaces and set
+
+$$
+  R := C(X)
+$$
+
+and
+
+$$
+  S = C(Y)
+$$
+
+and
+
+$$
+  (R \hookrightarrow S) := \pi^* : C(X) \to C(Y)
+  \,.
+$$
+
+The morphism $\pi$ induces its augmented [[Cech nerve]]
+
+$$
+  \left(
+     \cdots
+     \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+     Y \times_X Y \times_X Y
+     \stackrel{\to}{\stackrel{\to}{\to}}
+     Y \times_X Y \stackrel{\to}{\to}
+     Y
+     \stackrel{\pi}{\to}
+     X
+  \right)
+  \,.
+$$
+
+Taking function algebras of this yields, by the above, 
+
+$$
+  \left(
+     \cdots
+     \stackrel{\leftarrow}{\stackrel{\leftarrow}{\stackrel{\leftarrow}{\leftarrow}}}
+     S \otimes_R S \otimes_R S
+     \stackrel{\leftarrow}{\stackrel{\leftarrow}{\leftarrow}}
+     S \otimes_R S 
+     \stackrel{\leftarrow}{\leftarrow}
+     S
+     \stackrel{\pi^*}{\leftarrow}
+     R
+  \right)
+  \,.
+$$
+
+Writing again $C = S \otimes_R S$ for the Sweedler coring, this is 
+
+$$
+  \left(
+     \cdots
+     \stackrel{\leftarrow}{\stackrel{\leftarrow}{\stackrel{\leftarrow}{\leftarrow}}}
+     C \otimes_S C
+     \stackrel{\leftarrow}{\stackrel{\leftarrow}{\leftarrow}}
+     C 
+     \stackrel{\leftarrow}{\leftarrow}
+     S
+     \stackrel{\pi^*}{\leftarrow}
+     R
+  \right)
+  \,.
+$$
+
+
+
 ## Relation to descent
 
 The category of [[descent]] data $\mathrm{Desc}(S/R)$ for the categories of right modules along $k$-algebra extension $R\to S$ can be expressed solely in terms of the canonical coring $(C,\Delta,\epsilon)$ as the category of right $C$-[[comodule]]s.
 
-In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(M,\alpha)$ where $M$ is a right $S$-module, and $\alpha: M\to M\otimes_R S$ is a right $A$-module morphism and if we write $\alpha(m) = \sum_i m_i \otimes s_i$ then
+In other words, the objects of $\mathrm{Desc}(S/R)$ are the pairs $(N,\alpha)$ where $N$ is a right $S$-[[module]], and $\alpha: N\to N\otimes_R S$ is a right $S$-module morphism and if we write $\alpha(m) = \sum_i m_i \otimes s_i$ then
 
 * $\sum_i \alpha(m_i)\otimes s_i = \sum_i m_i\otimes 1\otimes s_i$,
 
 * $\sum_i m_i s_i = m$.
+
+
+### Geometric interpretation {#GeomInterpretationOfDescent}
+
+Assuming again a suitable geometric context as above, we may identify a [[module]] over $R = C(X)$ with (the collection of [[section]]s of) a [[vector bundle]] (or rather a suitable generalization of that: a  [[coherent sheaf]]) over $X$. Similarly for $Y$. So we write
+
+$$
+  Vec(X) := R Mod
+$$
+
+and
+
+$$
+  Vect(Y) := S Mod
+$$
+
+for the corresponding [[category|categories]] of [[module]]s. The assignment of such categories to spaces
+
+$$
+  Vec : Z \mapsto Vec(Z)
+$$
+
+extends to a contravariant [[pseudofunctor]]
+
+$$
+  Vec : Spaces^{op} \to Cat
+$$
+
+by assigning to a morphism $f : Y \to X$ of spaces the corresponding [[functor]]
+
+$$
+  Vec(X) \simeq C(X) Mod \stackrel{- \otimes_{f} C(Y)}{\to} C(Y) Mod \simeq Vec(Y)
+  \,.
+$$
+
+This way $Vec$ becomes a [[stack|prestack]] of categories on our category of spaces. 
+
+If this prestack satisfies [[descent]] along suitable [[cover]]s, it is a [[stack]].
+
+Geometrically this is the case if for each morphism $\pi : Y\to X$ that is regarded as a [[cover]], the category $Desc(Y,Vec)$ whose objects are tuples consisting of
+
+* an [[object]] $a \in Vec(Y)$
+
+* an [[isomorphism]] $g : \pi_^* a \to \pi_2^* a$
+
+* such that 
+
+  $$  
+    \array{
+       && \pi_2^* a
+       \\
+       & {}^{\mathllap{\pi_{12}^* g}}\nearrow && \searrow^{\mathrlap{\pi_{23}^* g}}
+       \\
+       \pi_1^* a &&\stackrel{\pi_{13}^*}{\to}&& \pi_3^*
+    }
+  $$
+
+  commutes.
+
+Morphism are defined similarly (see [[stack]] and [[descent]] for details).
+
+To get the geometric pucture that underlies, by duality, the above comodule definition of descent, we need to reformulate this just a little bit more:
+
+every ordinary [[vector bundle]] $E \to X$ (of finite rank) is the [[associated bundle]] $E \simeq P \times_{O(n)} V$ of an [[orthogonal group|O(n)]]-[[principal bundle]] $P \to X$, and as such its [[section]]s may be identified with $O(n)$-equivariant functions $P \to V \simeq \mathbb{R}^n$ on the total space of $P$. 
+
+Using this we may think of the $C(X)$-module of sections of $E$ as a submodule of the $C(X)$-module of all functions on $P$
+
+$$
+  \Gamma(E) \subset C(P)
+  \,.
+$$
+
+We now reformulate the geometric descent for [[vector bundle]]s in terms of geometric descent for their underlying [[principal bundle]]s, and then take functions on everything in sight to obtain the comodule definition of descent that we want to describe:
+
+A descent datum (transition function) for a [[principal bundle]] $Q \to Y$ may be thought of as the the morphism $g$ in the double [[pullback]] diagram
+
+$$
+  \array{
+    &&Y\times_X Y \times_Y Q &\to& Q
+    \\
+    &&\downarrow && \downarrow
+    \\
+    &{}^{\mathllap{g}}\swarrow&Y \times_X Y &\to& Y
+    \\
+    &&\downarrow && \downarrow^{\mathrlap{\pi}}
+    \\
+    Q &\to& Y &\stackrel{\pi}{\to}& X
+  }
+  \,.
+$$
+
+Because here $Y \times_X \times_Y \times Q$ is the space whose points consist of a point in a double overlap of the cover and a point in the fiber of $Q$ over that with respect to one patch, and the morphism identifies this with a point in the fiber of $Q$ regarded as sitting over the other patch. Analogously, there is a cocycle condition on $g$ on triple overlaps.
+
+Now, blindly applying our functor that takes functions of spaces to the above diagram yields the double [[pushout]] diagram
+
+$$
+  \array{
+    &&C(Y\times_X Y \times_Y Q) &\leftarrow& C(Q)
+    \\
+    &&\uparrow && \uparrow
+    \\
+    &{}^{\mathllap{g}^*}\nearrow&C(Y \times_X Y) &\leftarrow& C(Y)
+    \\
+    &&\uparrow && \uparrow^{\mathrlap{\pi^*}}
+    \\
+    C(Q) &\leftarrow& C(Y) &\stackrel{\pi^*}{\leftarrow}& C(X)
+  }
+  \,.
+$$
+
+We may restrict to $N := \Gamma(E) \subset C(Q)$ as just discussed and switch to the notation from above to get
+
+$$
+  \array{
+    &&N \otimes_{S} C &\leftarrow& N
+    \\
+    &&\uparrow && \uparrow
+    \\
+    &{}^{\mathllap{g}^*}\nearrow& C &\leftarrow& S
+    \\
+    &&\uparrow && \uparrow^{\mathrlap{\pi^*}}
+    \\
+    N &\leftarrow& S &\stackrel{\pi^*}{\leftarrow}& R
+  }
+  \,.
+$$
+
+The morphism
+
+$$
+  \alpha := g^* : N \to N \otimes_S C
+$$
+
+obtained this way is the co-action morphism from the above algebraic definition. 
+
+The further cocycle condition on $g$ similarly translates into the condition that $\alpha$ really satisfies the [[comodule]] property.
+
+
+### Relation to monadic descent
+
+This [[coring]]-formulation of [[descent]] may be understood as special case of [[monadic descent]]. See also the discussion at [[Benabou-Roubaud theorem]].
 
 ## Relation to ring extensions
 
