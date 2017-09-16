@@ -42,6 +42,8 @@ The following is going to be an exposition of this partial result:
 
   * [[bordism categories following Stolz-Teichner]]
 
+  * [[(2,1)-dimensional Euclidean field theories]]
+
 #References#
 
 The program was initiated in 
