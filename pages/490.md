@@ -15,7 +15,7 @@ As an axiom, this has important consequences for algebra; there, one often uses 
 
 Another important consequence is the axiom of [[dependent choice]], and thus also of [[countable choice]]. To prove dependent choice (over a set $A$) from COSHEP, take the usual diagram for the universal property of a [[natural numbers object]] and interpret the arrows as [[entire relation]]s rather than functions. Take a projective resolution $P \to A$, note that a surjective function is the reverse of an entire relation, and replace entire relations out of the projective sets $1$ and $P$ with functions. This gives us (by [[recursion]]) the required function $N \to P \to X$.
 
-COSHEP also implies several weaker forms of choice, such as the [[axiom of multiple choice]] and [[SOSHWIS]].  In [[predicative mathematics]], it can be combined with the existence of [[function sets]] to show the [[subset collection]] axiom.
+COSHEP also implies several weaker forms of choice, such as the [[axiom of multiple choice]] and [[WISC]].  In [[predicative mathematics]], it can be combined with the existence of [[function sets]] to show the [[subset collection]] axiom.
 
 
 ## Justification
