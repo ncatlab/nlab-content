@@ -36,3 +36,5 @@ This can always be made to work by brute force, but sometimes there is something
 ##Generalizations#
 
 * [[reflective (infinity,1)-subcategory]]
+
+[[!redirects reflector]]
