@@ -161,6 +161,10 @@ $$x_1\wedge \ldots \wedge x_p = \varepsilon(\sigma)x_{\sigma(1)} \wedge \ldots \
 
 in $\bigwedge(x_1, \ldots, x_p )$. We note that although we write $\varepsilon(\sigma)$, $\sigma$ does not suffice to define it as it depends also on the degrees of the various $x_i$.
 
+###Terminology
+
+Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. 
+
 {:myproof: .proof style="margin-left:2em;"}
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
