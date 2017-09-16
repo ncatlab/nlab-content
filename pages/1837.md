@@ -48,3 +48,88 @@ There are various models that realize gravity also as a gauge theory.
 # Anomalies #
 
 Even in the absence of chiral fermions, the standard would-be action functional for higher gauge theories may be ill-defined. The [[Green-Schwarz mechanism]] is a famous phenomenon in [[differential cohomology]] by which such a [[quantum anomaly]] cancels against that given by chiral fermions.
+
+# list of gauge fields and their models #
+
+The following tries to give an overview of some collection of gauge fields in physics, their models by [[differential cohomology]] and further details.
+
+* [[Yang-Mills field]]
+
+  * cocycle in lowest degree [[schreiber:Differential Nonabelian Cohomology|nonabelian differential cohomology]]  
+
+    * originally realized in terms of differential [[Cech cohomology|Cech cocycle]]
+      $$
+        \hat F \in \mathbf{H}(X, \bar \mathbf{B} G)
+      $$
+       
+      then traditionally in terms of [[vector bundle]]s [[connection on a bundle|with connection]]
+
+  * [[field strength]] depending on the [[group]] $G$ we have
+  
+    * $G = U(1)$ - [[electromagnetism]] (see below)
+
+    * $G = SU(2)\times U(1)$ - electroweak force field strength
+
+    * $G = SU(3)$ - strong nuclear force field
+
+  * [[parallel transport]]: [[Wilson line]]s
+
+* [[electromagnetic field]]
+
+  * cocycle in degree 2 [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
+
+    * naturally/historically realized in terms of Maxwell-Dirac presentation as a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne cocycle]]
+      $$
+        \hat F \in \mathbf{H}(X,\bar \mathbf{B} U(1))
+      $$
+
+  * [[field strength]]: the electric field $E$ and magnetic field $B$, locally at a point $x \in X$
+    $$
+      F = E \wedge d t + \star_3 B 
+    $$
+
+  * on $X = \mathbb{R}^3\backslash \{0\}$: underlying class in integral cohomology $cl(\hat F) \in H(X,\mathbf{B} U(1)) \simeq H^2(X,\mathbb{Z})$ is the [[magnetic charge]]
+
+  * [[parallel transport]]: gauge interaction piece of [[path integral|action functional]] of the electrically charged quantum 1-particle
+
+
+* [[Kalb-Ramond field]]
+
+  * cocycle in degree 3 [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
+
+    * naturally/historically realized in terms of 
+
+      * a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne cocycle]]
+        $$
+          \hat H \in \mathbf{H}(X,\bar \mathbf{B}^2 U(1))
+        $$
+
+      * a [[bundle gerbe]] with connection
+
+  * [[field strength]]: $H \in \Omega^3(X)$ the "$H$-field" -- on a D-[[brane]] this is the [[magnetic current]] for the  [[Yang-Mills field]] on the [[brane]]
+
+  * [[parallel transport]]: gauge interaction piece of [[path integral|action functional]] of the electrically charged quantum 2-particle (the [[string theory|string]]).
+
+
+* [[supergravity C-field]]
+
+  * cocycle in degree 4 [[Eilenberg-MacLane spectrum|ordinary]] [[differential cohomology]]
+
+    * naturally/historically realized in terms of as a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology|Deligne cocycle]]
+      $$
+        \hat H \in \mathbf{H}(X,\bar \mathbf{B}^3 U(1))
+      $$
+
+  * [[field strength]]: $H \in \Omega^4(X)$ the "$G$-field" -- in heterotic [[supergravity]] this is the 5-brane [[magnetic current]] for the  [[twisted cohomology|twisted]] [[Kalb-Ramond field]]
+ 
+  * [[parallel transport]]: gauge interaction piece of [[path integral|action functional]] of the electrically charged quantum 3-particle (the [[membrane]]).
+
+
+* [[RR field]]
+
+  * cocycle in [[differential K-theory]]
+
+    * in presence of nontrivial [[Kalb-Ramond field]]: cocycle in differential [[twisted K-theory]]
+
+  * [[field strength]]: RR-forms
+
