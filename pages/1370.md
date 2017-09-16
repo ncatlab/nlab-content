@@ -35,3 +35,5 @@ category: people
 
 [[!redirects André Joyal]]
 [[!redirects joyal]]
+[[!redirects André]]
+[[!redirects Andre]]
