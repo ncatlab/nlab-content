@@ -1,6 +1,6 @@
 # Idea #
 
-A _homotopy $n$-type_ is like a [[topological space]], but we only consider properties contained in the [[homotopy group]]s up to $\pi_n$; information recorded by the homotopy groups in higher dimensions is ignored.
+To consider a _homotopy $n$-type_ is like looking at a [[topological space]], but where we only observe properties contained in the [[homotopy group]]s up to $\pi_n$; information recorded by the homotopy groups in higher dimensions is ignored.
 
 One way to define a homotopy $n$-type is as a space that _has_ no information above $\pi_n$; that is, one where $\pi_k(X)=0$ for $k\gt n$.  However, the usual language used better fits the idea that homotopy $n$-types are the equivalence classes of an [[equivalence relation]] imposed on topological spaces.  Thus, we say that two spaces 'have the same homotopy $n$-type' if they agree up to $\pi_n$, and 'a homotopy $n$-type' can equally well be represented by any space having that $n$-type.  This is analogous to the definition of 'a [[real number]]' as an equivalence class of Cauchy sequences.
 
