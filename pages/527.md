@@ -23,15 +23,15 @@ We need a good category-friendly definition of an $n$-diamond. Here's a first st
 #References#
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
-* Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88 - 100.
+* Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88--100.
 * Tim Porter, _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
-* Fajstrup, Rosicky, _A convenient category for directed homotopy_, [arXiv](http://arxiv.org/abs/0708.3937)
-* Dan Christensen, and Louis Crane, _Causal sites as quantum geometry_, ([arXiv](http://arxiv.org/abs/gr-qc/0410104))
+* Fajstrup, Rosicky, _A convenient category for directed homotopy_ ([arXiv](http://arxiv.org/abs/0708.3937))
+* Dan Christensen, and Louis Crane, _Causal sites as quantum geometry_ ([arXiv](http://arxiv.org/abs/gr-qc/0410104))
 +--{.query}
 [[Eric]]: They use the word "diamond". I hope that catches on.
 =--
-* Louis Crane, _Model categories and quantum gravity_,[arXiv](http://arxiv.org/abs/0810.4492)
+* Louis Crane, _Model categories and quantum gravity_ ([arXiv](http://arxiv.org/abs/0810.4492))
 * Bombelli, Henson, Sorkin, _Discreteness without symmetry breaking: a theorem_ ([arXiv](http://arxiv.org/abs/gr-qc/0605006))
 
 ***
