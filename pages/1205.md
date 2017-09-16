@@ -1,6 +1,6 @@
 Given two [[bialgebra]]s $A$ and $B$ in Hopf pairing $\lt, \gt$ (i.e. making comultiplication on one transposed to multiplication to another and viceversa), one define a left [[Hopf action]] $\triangleright$ of $B$ on $A$ by formulas
 $$
-b\triangleright a = \sum \lt b, a_{(2)}\gt a_{(1)}= (\lt,\gt \otimes \id)(b\otimes \Delta_A(a))
+b\triangleright a = \sum \lt b, a_{(2)}\gt a_{(1)}= (\lt,\gt \otimes \id)(b\otimes \tau\Delta_A(a))
 $$
 one forms the __Heisenberg double__ corresponding to these data as the crossed product algebra ("smash product") $A\sharp B$ associated to the Hopf action $\triangleright$. 
 
