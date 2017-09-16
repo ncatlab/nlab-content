@@ -11,3 +11,6 @@ The converse is a little more complicated.  If $S$ is [[inhabited set|inhabited]
 Using [[excluded middle]], we can say that, if $T$ is inhabited, then any constant function from $S$ to $T$ is constant at some (possibly not unique) value, but this theorem fails in [[constructive mathematics]].
 
 See also [[constant morphism]].
+
+
+[[!redirects constant functions]]
