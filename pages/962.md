@@ -5,7 +5,7 @@
 
 ## Idea
 
-By the logic of [[space]], one may think of a [[topos]] as being (the [[category of sheaves]] on) some generalization of a [[topological space]]. The construction of the first [[fundamental group]] of a topological happens to generalize to an arbitrary topos, even without a predefined notion of path or [[interval object]]. Instead, by the logic of [[Grothendieck's Galois theory]], the homotopy groups can be detected from the behaviour off [[locally constant sheaf|locally constant sheaves]].
+By the logic of [[space]], one may think of a [[topos]] as being (the [[category of sheaves]] on) some generalization of a [[topological space]]. The construction of the first [[fundamental group]] of a topological space happens to generalize to an arbitrary topos, even without a predefined notion of path or [[interval object]]. Instead, by the logic of [[Grothendieck's Galois theory]], the homotopy groups can be detected from the behaviour of [[locally constant sheaf|locally constant sheaves]].
 
 ### More details
 
