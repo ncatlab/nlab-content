@@ -74,7 +74,7 @@ Every locally finitely presentable category $A$ is equivalent to the category of
 
 Let $Lex$ denote the [[2-category]] of small finitely complete categories, finitely continuous (i.e., finite limit preserving) functors, and [[natural transformation]]s between them. 
 
-Let $LFP$ denote the 2-category of locally presentable categories, [[right adjoint]] functors which preserve [[filtered colimit]]s, and natural transformations between them. 
+Let $LFP$ denote the 2-category of locally finitely presentable categories, [[right adjoint]] functors which preserve [[filtered colimit]]s, and natural transformations between them. 
 
 +-- {: .un_prop} 
 
