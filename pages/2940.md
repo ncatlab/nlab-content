@@ -1,6 +1,21 @@
 <svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='600' height='500'>
 <g transform='translate(-66.000000, -5.000000)'>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
+<ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='475' cy='181' rx='5.24125' ry='5.24125' />
+<ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='427' cy='258' rx='5.24125' ry='5.24125' />
+<ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='523' cy='210' rx='5.24125' ry='5.24125' />
+<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='252.293,258.491 318.875,84.178 252.293,84.178 ' />
+<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='318.875,84.178 144.562,84.178 144.562,17.5962 ' />
+<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='144.562,191.91 144.562,17.5962 77.98,191.91 ' />
+<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='252.293,258.491 252.293,191.91 77.98,191.91 ' />
+<polygon stroke='none' fill-rule='evenodd' fill='rgb(88.0003%,100%,88.0003%)' points='144.562,191.91 144.562,84.178 252.293,84.178 252.293,191.91 ' />
+<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='252.293,258.491 252.293,84.178 ' />
+<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='144.562,84.178 318.875,84.178 144.562,17.5962 ' />
+<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='144.562,191.91 144.562,17.5962 77.98,191.91 ' />
+<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='252.293,191.91 77.98,191.91 252.293,258.491 ' />
+<polyline fill='none' stroke-width='0.5px' stroke='rgb(0%,0%,0%)' points='308.001,262.801 263.168,262.801 ' />
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
 <polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,100%)' points='426.607,150.76 318.875,84.178 534.338,84.178 426.607,150.76 426.607,366.223 534.338,432.805 318.875,432.805 426.607,366.223 ' />
 <polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,100%)' points='534.338,84.178 600.92,258.491 426.607,150.76 ' />
 <polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,100%)' points='318.875,432.805 252.293,258.491 426.607,366.223 ' />
@@ -118,22 +133,6 @@
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 427.091428, 179.397867)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(100%,0%,0%)'>90&#x2013;&#x03b1;</text>
-</g>
-<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
-<ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='475' cy='181' rx='5.24125' ry='5.24125' />
-<ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='427' cy='258' rx='5.24125' ry='5.24125' />
-<ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='523' cy='210' rx='5.24125' ry='5.24125' />
-<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='252.293,258.491 318.875,84.178 252.293,84.178 ' />
-<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='318.875,84.178 144.562,84.178 144.562,17.5962 ' />
-<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='144.562,191.91 144.562,17.5962 77.98,191.91 ' />
-<polygon stroke='none' fill-rule='evenodd' fill='rgb(100%,0%,0%)' points='252.293,258.491 252.293,191.91 77.98,191.91 ' />
-<polygon stroke='none' fill-rule='evenodd' fill='rgb(88.0003%,100%,88.0003%)' points='144.562,191.91 144.562,84.178 252.293,84.178 252.293,191.91 ' />
-<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='318.875,258.491 252.293,258.491 318.875,84.178 318.875,258.491 ' />
-<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='252.293,258.491 252.293,84.178 ' />
-<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='144.562,84.178 318.875,84.178 144.562,17.5962 ' />
-<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='144.562,191.91 144.562,17.5962 77.98,191.91 ' />
-<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='252.293,191.91 77.98,191.91 252.293,258.491 ' />
-<polyline fill='none' stroke-width='0.5px' stroke='rgb(0%,0%,0%)' points='308.001,262.801 263.168,262.801 ' />
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
 <polygon stroke='none' fill-rule='evenodd' fill='rgb(0%,0%,0%)' points='306.895,259.648 307.071,260.007 307.455,260.867 307.659,261.384 307.836,261.906 307.959,262.391 308.001,262.801 307.959,263.171 307.836,263.65 307.659,264.189 307.455,264.74 307.071,265.68 306.895,266.079 318.875,262.801 306.895,259.648 ' />
