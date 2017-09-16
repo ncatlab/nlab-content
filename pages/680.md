@@ -1,3 +1,53 @@
+#Idea#
+
+The _Dold-Kan correspondence_ asserts that certain [[infinity-category|infinity-categories]] are equivalently encoded as [[chain complex]]es. 
+
+This allows 
+
+* on the one hand to understand the true conceptual home of many construction with [[chain complex]]es in [[homological algebra]];
+
+* on the other to efficiently compute with certain higher categorical structures.
+
+The classical Dold-Kan correspondence states the equivalence of
+
+$$
+  simplicial abelian groups
+  \;\;
+  \simeq
+  \;\;
+  non-negatively graded chain complexes of abelian groups
+  \,.
+$$
+
+Since every simplicial abelian group is a [[Kan complex]], one can equivalently read this more suggestively as 
+
+$$
+  \infty-groupoids internal to abelian groups
+  \;\;
+  \simeq
+  \;\;
+   chain complexes_+ internal to abelian groups
+  \,.
+$$
+
+The fact that this involves _abelian_ groups is essential for the correspondence. However, a similar correspondence
+still holds in a slightly more nonabelian context:
+
+in a series of articles by Brown and Higgins, based on old work by Whitehead, the above was generalized to
+
+$$
+  strict \infty-groupoids
+  \;\;
+  \simeq
+  \;\;
+  crossed complexes
+$$
+
+See [[strict omega-groupoid]] and [[crossed complex]].
+
+
+#Details#
+
 The _Dold-Kan correspondence_ is the name of the [[equivalence of categories|equivalence]] of 
 
 * the category [[SimpAb]] of [[simplicial set|simplicial]] abelian groups;
