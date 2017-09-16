@@ -985,3 +985,1271 @@ $$\array{
 }$$
 
 </font></div>
+
+In a contextual, implicit, or paraphrastic definition of this sort, the _definiendum_ is the symbol to be defined, in this case, &ldquo;$\mathop{T}$&rdquo;, and the _definiens_ is the entire rest of the context, in this case, the frame &ldquo;$y(xz) = x(y(z\underline{\phantom{T}}))$&rdquo;, that ostensibly defines, or as one says, is _supposed to define_ the symbol &ldquo;$\mathop{T}$&rdquo; that we find in its slot.  More loosely speaking, the side of the equation with the more known symbols may be called its _defining_ side.
+
+In order to find a minimal generic typing, start with the defining side of the equation, freely assigning types in such a way that the successive applications make sense, but without introducing unnecessary complications or creating unduly specialized applications.  Then work out what the type of the defined operator $\mathop{T}$ has to be, in order to function properly in the standard context, in this case, &ldquo;$y(xz) = x(y(z\underline{\phantom{T}}))$&rdquo;.
+
+Again, this gives:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+(x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+(y \overset{ }{\underset{B}{\text{&#8659;}}} \;
+(z \overset{A}{\underset{B \Rightarrow C}{\text{&#8659;}}} \;
+ T \overset{A \Rightarrow (B \Rightarrow C)}{\underset{B \Rightarrow (A \Rightarrow C)}{\text{&#8659;}}}
+ ) \overset{B}{\underset{A \Rightarrow C}{\text{&#8659;}}}
+ ) \overset{A}{\underset{C}{\text{&#8659;}}}
+ ) \overset{ }{\underset{C}{\text{&#8659;}}}
+\\ \\
+=
+\\ \\
+(y \overset{ }{\underset{B}{\text{&#8659;}}} \;
+(x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+ z \overset{A}{\underset{B \Rightarrow C}{\text{&#8659;}}}
+ ) \overset{B}{\underset{C}{\text{&#8659;}}}
+ ) \overset{ }{\underset{C}{\text{&#8659;}}}
+}$$
+
+</font></div>
+
+Thus we have $\mathop{T} : (A \Rightarrow (B \Rightarrow C)) \Rightarrow (B \Rightarrow (A \Rightarrow C))$, whose type, read as a proposition, is a theorem of intuitionistic propositional calculus.
+
+## Step 3 (Optional) ##
+
+At this juncture we might want to verify that the proposition corresponding to the type of $\mathop{T}$ is actually a theorem of classical propositional calculus.  Since nothing can be a theorem of intuitionistic propositional calculus wihout also being a theorem of classical propositional calculus, this is a necessary condition of our work being correct up to this point.  Although it is not a sufficient condition, classical theoremhood is easier to test and so provides a quick and useful check on our work.
+
+In existential graph format, $\mathop{T}$ has the following generic typing:
+
+<table align="center" style="font-weight:bold"><td><pre>
+o-------------------------------------------------o
+|                                                 |
+|                B  C     A  C                    |
+|                o--o     o--o                    |
+|             A  |     B  |                       |
+|             o--o     o--o                       |
+|             |        |                          |
+|             o--------o                          |
+|             |                                   |
+|         T : @                                   |
+|                                                 |
+o-------------------------------------------------o
+                                                   
+</pre></td></table>
+
+And here is a classical logic proof of the type proposition:
+
+<table align="center" style="font-weight:bold"><td><pre>
+o-------------------------------------------------o
+|                                                 |
+|                B  C     A  C                    |
+|                o--o     o--o                    |
+|             A  |     B  |                       |
+|             o--o     o--o                       |
+|             |        |                          |
+|             o--------o                          |
+|             |                                   |
+|             @                                   |
+|                                                 |
+o=================================================o
+|                                                 |
+|            AB  C    AB  C                       |
+|             o--o     o--o                       |
+|             |        |                          |
+|             o--------o                          |
+|             |                                   |
+|             @                                   |
+|                                                 |
+o=================================================o
+|                                                 |
+|             X        X                          |
+|             o--------o                          |
+|             |                                   |
+|             @                                   |
+|                                                 |
+o=================================================o
+|                                                 |
+|             @                                   |
+|                                                 |
+o-------------------------------------------------o
+                                                   
+</pre></td></table>
+
+## Step 4 ##
+
+The construction of the term $\mathop{T}$ of the appropriate type in terms of the primitive typed combinators of the forms $\mathop{K}$ and $\mathop{S}$ is analogous to the proof of the corresponding proposition from the intuitionistic axiom schemes attached to those forms.
+
+Incidentally, note the inobtrusive appearance of renaming strategies in the progress of this work.  Renaming is the natural operation that substitution is the reverse of.  With these humble beginnings we have reached a birthplace, a native ground, of the [[sign relation]], an irreducible three-place relationship among what is indicated, what happens to indicate it, and all of the equivalent or associated indications that we may find or make in reference to it.
+
+For example, let the interposed interpretant &ldquo;$\mathop{G}$&rdquo; denote the supposed object, namely, whatever it is that the occurrent sign &ldquo;$(\mathop{F}((\mathop{S}\mathop{K})\mathop{S}))$&rdquo; denotes.
+
+Consider the following data:
+
+* The parse tree for the term $\mathop{T} = ((\mathop{K}\mathop{K})(((\mathop{S}((\mathop{K}\mathop{K})\mathop{S}))((\mathop{S}\mathop{K})\mathop{S}))\mathop{S}))$.
+
+* The type marker of the term $\mathop{T} : (A \Rightarrow (B \Rightarrow C)) \Rightarrow (B \Rightarrow (A \Rightarrow C))$.
+
+<table align="center" style="font-weight:bold"><td><pre>
+o-------------------------------------------------o
+|                                                 |
+|                K   K                            |
+|                o   o                            |
+|                 \ /  S   S   K                  |
+|                 (o)  o   o   o                  |
+|                S  \ /     \ /  S                |
+|                o  (o)     (o)  o                |
+|                 \ /         \ /                 |
+|                 (o)         (o)                 |
+|                   \         /                   |
+|                    \       /                    |
+|                     \     /                     |
+|                      \   /                      |
+|                K   K  \ /  S                    |
+|                o   o  (o)  o                    |
+|                 \ /     \ /                     |
+|                 (o)     (o)                     |
+|                   \     /                       |
+|                    \   /                        |
+|                     \ /                         |
+|                     (o)                         |
+|                                                 |
+|           (A=>(B=>C))=>(B=>(A=>C))              |
+|                                                 |
+o-------------------------------------------------o
+                                                   
+</pre></td></table>
+
+Can proofs be developed by tracing the stepwise articulation or explication of the untyped proof hint, typing each term as we go?
+
+For example, we might begin as follows:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+(y \overset{ }{\underset{B}{\text{&#8659;}}} \;
+(x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+ z \overset{A}{\underset{B \Rightarrow C}{\text{&#8659;}}}
+ ) \overset{B}{\underset{C}{\text{&#8659;}}}
+ ) \overset{ }{\underset{C}{\text{&#8659;}}}
+\\ \\
+=
+\\ \\
+((x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+ (y \overset{ }{\underset{B}{\text{&#8659;}}} \;
+  K \overset{B}{\underset{A \Rightarrow B}{\text{&#8659;}}}
+  ) \overset{A}{\underset{B}{\text{&#8659;}}}
+  ) \overset{ }{\underset{B}{\text{&#8659;}}} \;
+ (x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+  z \overset{A}{\underset{B \Rightarrow C}{\text{&#8659;}}}
+  ) \overset{B}{\underset{C}{\text{&#8659;}}}
+  ) \overset{ }{\underset{C}{\text{&#8659;}}}
+\\ \\
+=
+\\ \\
+ (x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+((y \overset{ }{\underset{B}{\text{&#8659;}}} \;
+  K \overset{B}{\underset{A \Rightarrow B}{\text{&#8659;}}} 
+  ) \overset{A}{\underset{B}{\text{&#8659;}}} \;
+ (z \overset{A}{\underset{B \Rightarrow C}{\text{&#8659;}}} \;
+  S \overset{A \Rightarrow (B \Rightarrow C)}{\underset{(A \Rightarrow B) \Rightarrow (A \Rightarrow C)}{\text{&#8659;}}}
+  ) \overset{A \Rightarrow B}{\underset{A \Rightarrow C}{\text{&#8659;}}}
+  ) \overset{A}{\underset{C}{\text{&#8659;}}}
+  ) \overset{ }{\underset{C}{\text{&#8659;}}}
+\\ \\
+=
+\\ \\
+\ldots
+}$$
+
+</font></div>
+
+If this strategy is successful it suggests that the proof tree can be grown in a stepwise equational fashion from a seed term of the appropriate species, in other words, from a contextual, embedded, or paraphrastic specification of the desired term.
+
+Thus, these developments culminate in the rather striking and possibly disconcerting consequence that the apparent flow of information or reasoning in the proof tree is something of a put-up job, a snapshot likeness or a likely story that calls to mind the anatomy of a justification, but fails to reconstruct the true embryology or living physiology of discovery involved.
+
+Repeat the development in Step&nbsp;1, but this time articulating the type information as we go.
+
+<table align="center" style="font-weight:bold"><td><pre>
+o---------------------------------------------------------------------o
+|                                                                     |
+|                   x       z A                                       |
+|                   o A     o======>                                  |
+|                    \     /  B=>C                                    |
+|                     \   /                                           |
+|               y      \ / B                                          |
+|               o B    (o)===>                                        |
+|                \     /   C                                          |
+|                 \   /                                               |
+|                  \ /                                                |
+|                  (o)C                                               |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|          y       K B                                                |
+|          o B     o======>                                           |
+|           \     /  A=>B                                             |
+|            \   /                                                    |
+|      x      \ / A      x       z A                                  |
+|      o A    (o)===>    o A     o======>                             |
+|       \     /   B       \     /  B=>C                               |
+|        \   /             \   /                                      |
+|         \ /               \ / B                                     |
+|         (o)B              (o)===>                                   |
+|           \               /   C                                     |
+|            \             /                                          |
+|             \           /                                           |
+|              \         /                                            |
+|               \       /                                             |
+|                \     /                                              |
+|                 \   /                                               |
+|                  \ /                                                |
+|                  (o)C                                               |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|        y         K B       z A       S A=>(B=>C)                    |
+|        o B       o=====>   o=====>   o==============>               |
+|         \       /  A=>B     \B=>C   / (A=>B)=>(A=>C)                |
+|          \     /             \     /                                |
+|           \   /               \   /                                 |
+|            \ / A               \ / A=>B                             |
+|            (o)===>             (o)=====>                            |
+|              \ B               /   A=>C                             |
+|               \               /                                     |
+|                \             /                                      |
+|                 \           /                                       |
+|                  \         /                                        |
+|                   \       /                                         |
+|                    \     /                                          |
+|                     \   /                                           |
+|               x      \ / A                                          |
+|               o A    (o)===>                                        |
+|                \     /   C                                          |
+|                 \   /                                               |
+|                  \ /                                                |
+|                  (o)C                                               |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                  A    z       S A=>(B=>C)                           |
+|                 =====>o       o==============>                      |
+|                  B=>C  \     / (A=>B)=>(A=>C)                       |
+|                         \   /                                       |
+|                     A=>B \ /      K (A=>B)=>(A=>C)                  |
+|                    =====>(o)      o====================>            |
+|                     B=>C   \     /  B=>((A=>B)=>(A=>C))             |
+|                             \   /                                   |
+|     y       K B       y      \ / B                                  |
+|     o B     o=====>   o B    (o)==============>                     |
+|      \     /  A=>B     \     /  (A=>B)=>(A=>C)                      |
+|       \   /             \   /                                       |
+|        \ / A             \ / A=>B                                   |
+|        (o)===>           (o)=====>                                  |
+|          \ B             /   A=>C                                   |
+|           \             /                                           |
+|            \           /                                            |
+|             \         /                                             |
+|              \       /                                              |
+|               \     /                                               |
+|                \   /                                                |
+|          x      \ / A                                               |
+|          o A    (o)===>                                             |
+|           \     /   C                                               |
+|            \   /                                                    |
+|             \ /                                                     |
+|             (o)C                                                    |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|         A    z       S A=>(B=>C)                                    |
+|        =====>o       o==============>                               |
+|         B=>C  \     / (A=>B)=>(A=>C)                                |
+|                \   /                                                |
+|            A=>B \ /      K (A=>B)=>(A=>C)                           |
+|           =====>(o)      o=====================>                    |
+|            A=>C   \     /   B=>((A=>B)=>(A=>C))                     |
+|                    \   /                                            |
+|       B             \ /      S B=>((A=>B)=>(A=>C))                  |
+|     ===============>(o)      o========================>             |
+|      (A=>B)=>(A=>C)   \     / (B=>(A=>B))=>(B=>(A=>C))              |
+|                        \   /                                        |
+|             B    K      \ / B=>(A=>B)                               |
+|            =====>o      (o)==========>                              |
+|             A=>B  \     /   B=>(A=>C)                               |
+|                    \   /                                            |
+|              y      \ / B                                           |
+|              o B    (o)=====>                                       |
+|               \     /   A=>C                                        |
+|                \   /                                                |
+|          x      \ / A                                               |
+|          o A    (o)===>                                             |
+|           \     /   C                                               |
+|            \   /                                                    |
+|             \ /                                                     |
+|             (o)C                                                    |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                                           (A=>B)=>(A=>C)            |
+|                                          ======================>    |
+|           (A=>B)=>(A=>C)       K       K   B=>((A=>B)=>(A=>C))      |
+|          =====================>o       o=======================>    |
+|            B=>((A=>B)=>(A=>C)) |      /    A=>(B=>C)                |
+|                                |     /   ======================>    |
+|   A    z   S  A=>(B=>C)        |    /      (A=>B)=>(A=>C)           |
+|  =====>o   o===============>   |   /      =====================>    |
+|   B=>C  \  | (A=>B)=>(A=>C)    |  /         B=>((A=>B)=>(A=>C))     |
+|          \ |                   | /                                  |
+|      A=>B \|       z A         |/ A=>(B=>C)                         |
+|     =====>(o)      o=====>    (o)======================>            |
+|      A=>C   \       \B=>C     /    (A=>B)=>(A=>C)                   |
+|              \       \       /    =====================>            |
+|               \       \     /       B=>((A=>B)=>(A=>C))             |
+|                \       \   /                                        |
+|                 \       \ /(A=>B)=>(A=>C)                           |
+|                  \      (o)====================>                    |
+|                   \     /   B=>((A=>B)=>(A=>C))                     |
+|                    \   /                                            |
+|       B             \ /      S  B=>((A=>B)=>(A=>C))                 |
+|     ===============>(o)      o=========================>            |
+|      (A=>B)=>(A=>C)   \     /  (B=>(A=>B))=>(B=>(A=>C))             |
+|                        \   /                                        |
+|             B    K      \ / B=>(A=>B)                               |
+|            =====>o      (o)==========>                              |
+|             A=>B  \     /   B=>(A=>C)                               |
+|                    \   /                                            |
+|              y      \ / B                                           |
+|              o B    (o)=====>                                       |
+|               \     /   A=>C                                        |
+|                \   /                                                |
+|          x      \ / A                                               |
+|          o A    (o)===>                                             |
+|           \     /   C                                               |
+|            \   /                                                    |
+|             \ /                                                     |
+|             (o)C                                                    |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                    K       K    A=>(B=>C)                           |
+|                    o       o   ======================>              |
+|                     \     /      (A=>B)=>(A=>C)                     |
+|                      \   /      =====================>              |
+|   A=>(B=>C)           \ /    S    B=>((A=>B)=>(A=>C))               |
+|  ====================>(o)    o===================================>  |
+|    (A=>B)=>(A=>C)       \    |  (A=>(B=>C))=>((A=>B)=>(A=>C))       |
+|   =====================> \   | ==================================>  |
+|     B=>((A=>B)=>(A=>C))   \  |  (A=>(B=>C))=>(B=>((A=>B)=>(A=>C)))  |
+|                            \ |                                      |
+|        A=>(B=>C)     S      \| (A=>(B=>C))=>((A=>B)=>(A=>C))        |
+|      ===============>o      (o)==================================>  |
+|       (A=>B)=>(A=>C)  \     /  (A=>(B=>C))=>(B=>((A=>B)=>(A=>C)))   |
+|                        \   /                                        |
+|             A    z      \ / A=>(B=>C)                               |
+|            =====>o      (o)====================>                    |
+|             B=>C  \     /   B=>((A=>B)=>(A=>C))                     |
+|                    \   /                                            |
+|       B             \ /      S  B=>((A=>B)=>(A=>C))                 |
+|     ===============>(o)      o=========================>            |
+|      (A=>B)=>(A=>C)   \     /  (B=>(A=>B))=>(B=>(A=>C))             |
+|                        \   /                                        |
+|             B    K      \ / B=>(A=>B)                               |
+|            =====>o      (o)==========>                              |
+|             A=>B  \     /   B=>(A=>C)                               |
+|                    \   /                                            |
+|              y      \ / B                                           |
+|              o B    (o)=====>                                       |
+|               \     /   A=>C                                        |
+|                \   /                                                |
+|          x      \ / A                                               |
+|          o A    (o)===>                                             |
+|           \     /   C                                               |
+|            \   /                                                    |
+|             \ /                                                     |
+|             (o)C                                                    |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                                          B=>((A=>B)=>(A=>C))        |
+|                                        ==========================>  |
+|    B=>((A=>B)=>(A=>C))     S         K  (B=>(A=>B))=>(B=>(A=>C))    |
+|  =========================>o         o===========================>  |
+|   (B=>(A=>B))=>(B=>(A=>C))  \        |   A=>(B=>C)                  |
+|                              \       | ==========================>  |
+|                    K   K      \      |    B=>((A=>B)=>(A=>C))       |
+|                    o   o       \     |  =========================>  |
+|                     \ /  S      \    |   (B=>(A=>B))=>(B=>(A=>C))   |
+|                     (o)  o       \   |                              |
+|                    S  \ /         \  |                              |
+|                    o  (o)          \ |                              |
+|           A    z    \ /   A    z    \|  A=>(B=>C)                   |
+|          =====>o    (o)  =====>o    (o)==========================>  |
+|           B=>C  \    |    B=>C  \    |    B=>((A=>B)=>(A=>C))       |
+|                  \   |           \   |  =========================>  |
+|                   \  |            \  |   (B=>(A=>B))=>(B=>(A=>C))   |
+|                    \ |             \ |                              |
+|       B             \|              \|  B=>((A=>B)=>(A=>C))         |
+|     ===============>(o)             (o)========================>    |
+|      (A=>B)=>(A=>C)   \             /  (B=>(A=>B))=>(B=>(A=>C))     |
+|                        \           /                                |
+|                         \         /                                 |
+|                          \       /                                  |
+|                           \     /                                   |
+|                            \   /                                    |
+|                 B    K      \ / B=>(A=>B)                           |
+|                =====>o      (o)==========>                          |
+|                 A=>B  \     /   B=>(A=>C)                           |
+|                        \   /                                        |
+|                  y      \ / B                                       |
+|                  o B    (o)=====>                                   |
+|                   \     /   A=>C                                    |
+|                    \   /                                            |
+|              x      \ / A                                           |
+|              o A    (o)===>                                         |
+|               \     /   C                                           |
+|                \   /                                                |
+|                 \ /                                                 |
+|                 (o)C                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| Define the following abbreviations:                                 |
+|                                                                     |
+| L  =   M=>N                                                         |
+|                                                                     |
+| M  =   B=>((A=>B)=>(A=>C))                                          |
+|                                                                     |
+| N  =  (B=>(A=>B))=>(B=>(A=>C))                                      |
+|                                                                     |
+|                                                                     |
+|                       S       K  L                                  |
+|                       o L     o===============>                     |
+|                        \     /  (A=>(B=>C))=>L                      |
+|                         \   /                                       |
+|                A=>(B=>C) \ /                S (A=>(B=>C))=>L        |
+|               ==========>(o)                o================>      |
+|                L           \               /   (A=>(B=>C))=>M       |
+|                             \             /   ===============>      |
+|                      K   K   \           /     (A=>(B=>C))=>N       |
+|                       \ /  S  \         /                           |
+|                       (o)  o   \       /                            |
+|                      S  \ /     \     /                             |
+|                      o  (o)      \   /                              |
+|            A=>(B=>C)  \ /         \ / (A=>(B=>C))=>M                |
+|           ===========>(o)         (o)===============>               |
+|            M            \         /   (A=>(B=>C))=>N                |
+|                          \       /                                  |
+|                           \     /                                   |
+|                            \   /                                    |
+|                 A    z      \ / A=>(B=>C)                           |
+|                =====>o      (o)========================>            |
+|                 B=>C  \     /  (B=>(A=>B))=>(B=>(A=>C))             |
+|                        \   /                                        |
+|             B    K      \ / B=>(A=>B)                               |
+|            =====>o      (o)==========>                              |
+|             A=>B  \     /   B=>(A=>C)                               |
+|                    \   /                                            |
+|              y      \ / B                                           |
+|              o B    (o)=====>                                       |
+|               \     /   A=>C                                        |
+|                \   /                                                |
+|          x      \ / A                                               |
+|          o A    (o)===>                                             |
+|           \     /   C                                               |
+|            \   /                                                    |
+|             \ /                                                     |
+|             (o)C                                                    |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                               K   K                                 |
+|                               o   o                                 |
+|                                \ /  S   S   K                       |
+|                                (o)  o   o   o                       |
+|                               S  \ /     \ /  S                     |
+|                               o  (o)     (o)  o                     |
+|   B    K     K B=>(A=>B)       \ /         \ /                      |
+|  =====>o     o===========>     (o)         (o)                      |
+|   A=>B  \    |  A=>(B=>C)        \         /                        |
+|          \   | ==========>        \       /                         |
+|           \  |  B=>(A=>B)          \     /                          |
+|            \ |                      \   /                           |
+|    A    z   \|  A=>(B=>C)   z A      \ / A=>(B=>C)                  |
+|   =====>o   (o)==========>  o=====>  (o)========================>   |
+|    B=>C  \   |  B=>(A=>B)    \B=>C   /  (B=>(A=>B))=>(B=>(A=>C))    |
+|           \  |                \     /                               |
+|            \ |                 \   /                                |
+|        B    \|                  \ / B=>(A=>B)                       |
+|       =====>(o)                 (o)==========>                      |
+|        A=>B   \                 /   B=>(A=>C)                       |
+|                \               /                                    |
+|                 \             /                                     |
+|                  \           /                                      |
+|                   \         /                                       |
+|                    \       /                                        |
+|                     \     /                                         |
+|                      \   /                                          |
+|                y      \ / B                                         |
+|                o B    (o)=====>                                     |
+|                 \     /   A=>C                                      |
+|                  \   /                                              |
+|            x      \ / A                                             |
+|            o A    (o)===>                                           |
+|             \     /   C                                             |
+|              \   /                                                  |
+|               \ /                                                   |
+|               (o)C                                                  |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                      K   K                                          |
+|                      o   o                                          |
+|                       \ /  S   S   K                                |
+|                       (o)  o   o   o                                |
+|                      S  \ /     \ /  S                              |
+|                      o  (o)     (o)  o                              |
+|                       \ /         \ /                               |
+|                       (o)         (o)                               |
+|                         \         /                                 |
+|                          \       /                                  |
+|                           \     /         A=>(B=>C)                 |
+|                            \   /        =========================>  |
+|     A=>(B=>C)               \ /       S  (B=>(A=>B))=>(B=>(A=>C))   |
+|   =========================>(o)       o==========================>  |
+|    (B=>(A=>B))=>(B=>(A=>C))  |       /   (A=>(B=>C))=>(B=>(A=>B))   |
+|                              |      /   =========================>  |
+|    B    K    K B=>(A=>B)     |     /     (A=>(B=>C))=>(B=>(A=>C))   |
+|   =====>o    o===========>   |    /                                 |
+|    A=>B  \   |  A=>(B=>C)    |   /                                  |
+|           \  | ==========>   |  /                                   |
+|            \ |  B=>(A=>B)    | /                                    |
+|   A=>(B=>C) \|               |/ (A=>(B=>C))=>(B=>(A=>B))            |
+|  ==========>(o)             (o)=========================>           |
+|   B=>(A=>B)   \             /   (A=>(B=>C))=>(B=>(A=>C))            |
+|                \           /                                        |
+|                 \         /                                         |
+|                  \       /                                          |
+|                   \     /                                           |
+|                    \   /                                            |
+|         A    z      \T/ A=>(B=>C)                                   |
+|        =====>o      (o)==========>                                  |
+|         B=>C  \     /   B=>(A=>C)                                   |
+|                \   /                                                |
+|          y      \ / B                                               |
+|          o B    (o)=====>                                           |
+|           \     /   A=>C                                            |
+|            \   /                                                    |
+|      x      \ / A                                                   |
+|      o A    (o)===>                                                 |
+|       \     /   C                                                   |
+|        \   /                                                        |
+|         \ /                                                         |
+|         (o)C                                                        |
+|                                                                     |
+o---------------------------------------------------------------------o
+                                                                       
+</pre></td></table>
+
+## Step 5 ##
+
+Rewrite the final proof tree in existential graph format, implementing structure sharing among application triples by overlaying the type propositions that attach to terms.
+
+<table align="center" style="font-weight:bold"><td><pre>
+o---------------------------------------------------------------------o
+|                                                                     |
+|                                                       A  B  A  C    |
+|                                                       o--o  o--o    |
+|                                                       |     |       |
+|                   A  B  A  C           A  B  A  C     |     |       |
+|                   o--o  o--o           o--o  o--o     o-----o       |
+|                   |     |              |     |        |             |
+|    A  B  A  C     |     |        B  C  |     |     B  |             |
+|    o--o  o--o     o-----o        o--o  o-----o     o--o             |
+|    |     |        |              |     |           |                |
+|    |     |     B  |           A  |     |           |                |
+|    o-----o     o--o           o--o     o-----------o                |
+|    |           |              |        |                            |
+|    |           |              |        |                            |
+|    o-----------o              o--------o                            |
+|    |                          |                                     |
+|    | K                        | KK                                  |
+|    o-------------------------[1]                                    |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+o---------------------------------------------------------------------o
+|                                                                     |
+|                                             A  B  A  C              |
+|                                             o--o  o--o              |
+|                                             |     |                 |
+|             B  C  A  B  A  C     B  C       |     |                 |
+|             o--o  o--o  o--o     o--o       o-----o                 |
+|             |     |     |        |          |                       |
+|          A  |     |     |     A  |       B  |                       |
+|          o--o     o-----o     o--o       o--o                       |
+|          |        |           |          |                          |
+|          |        |           |          |                          |
+|          o--------o           o----------o                          |
+|          |                    |                                     |
+|          | S                  | S((KK)S)                            |
+|          o-------------------[2]                                    |
+|          |                                                          |
+|      KK  | (KK)S                                                    |
+|   [1]----o                                                          |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o---------------------------------------------------------------------o
+|                                                                     |
+|                                           A  B  A  C   A  B   A  C  |
+|                                           o--o  o--o   o--o   o--o  |
+|                                           |     |      |      |     |
+|       A  B  A  C   A  B   A  C            |     |   B  |   B  |     |
+|       o--o  o--o   o--o   o--o            o-----o   o--o   o--o     |
+|       |     |      |      |               |         |      |        |
+|       |     |   B  |   B  |      B  C  B  |         |      |        |
+|       o-----o   o--o   o--o      o--o  o--o         o------o        |
+|       |         |      |         |     |            |               |
+|    B  |         |      |      A  |     |            |               |
+|    o--o         o------o      o--o     o------------o               |
+|    |            |             |        |                            |
+|    |            |             |        |                            |
+|    o------------o             o--------o                            |
+|    |                          |                                     |
+|    | S                        | SK                                  |
+|    o-------------------------[3]                                    |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+o---------------------------------------------------------------------o
+|                                                                     |
+|                                        A  B     A  C                |
+|                                        o--o     o--o                |
+|                                        |        |                   |
+|                               B  C  B  |     B  |                   |
+|                               o--o  o--o     o--o                   |
+|                               |     |        |                      |
+|                            A  |     |        |                      |
+|                            o--o     o--------o                      |
+|                            |        |                               |
+|                            |        |                               |
+|                            o--------o                               |
+|                            |                                        |
+|                  S((KK)S)  | (S((KK)S))((SK)S)                      |
+|               [2]---------[4]                                       |
+|                |                                                    |
+|      SK        | (SK)S                                              |
+|   [3]----------o                                                    |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o---------------------------------------------------------------------o
+|                                                                     |
+|                B  C     A  B                                        |
+|                o--o     o--o                                        |
+|                |        |                                           |
+|       A  B  A  |     B  |                                           |
+|       o--o  o--o     o--o                                           |
+|       |     |        |                                              |
+|    B  |     |        |                                              |
+|    o--o     o--------o                                              |
+|    |        |                                                       |
+|    | K      | KK                                                    |
+|    o-------[5]                                                      |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+o---------------------------------------------------------------------o
+|                                                                     |
+|    T  =  (KK)(((S((KK)S))((SK)S))S)                                 |
+|                                                                     |
+|                                                 B  C     A  C       |
+|                                                 o--o     o--o       |
+|                                                 |        |          |
+|                                              A  |     B  |          |
+|                                              o--o     o--o          |
+|                                              |        |             |
+|                                              |        |             |
+|                                              o--------o             |
+|                                              |                      |
+|                           KK                 | T                    |
+|                        [5]------------------[o]                     |
+|                         |                                           |
+|      (S((KK)S))((SK)S)  | ((S((KK)S))((SK)S))S                      |
+|   [4]-------------------o                                           |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o---------------------------------------------------------------------o
+                                                                       
+</pre></td></table>
+
+Graphic Conventions
+
+* Square bracketed nodes mark subtrees to be pruned from one tree and grafted into another at the indicated site, tantamount to recycling _Facts_ as _Cases_.
+
+* Square brackets are also used to indicate the final result.
+
+## Step 5 (Extended) ##
+
+Redo the development of the proof tree in existential graph format.
+
+Each frame of the developmental scheme that follows is divided by a dotted line, with terms that contribute to the main term under development being shown above it and the main term itself being shown below it.
+
+<table align="center" style="font-weight:bold"><td><pre>
+o---------------------------------------------------------------------o
+| Hypotheses:  x : A,  y : B,  z : A=>(B=>C)                          |
+o---------------------------------------------------------------------o
+|                                                                     |
+| y(xz)                                                               |
+|                                                                     |
+|    A x                                                              |
+|   [1]                                                               |
+|                                                                     |
+|    B y                                                              |
+|   [2]                                                               |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|        B   C y(xz)                                                  |
+|       [2]--o                                                        |
+|        |                                                            |
+|    A   | xz                                                         |
+|   [1]--o                                                            |
+|    |                                                                |
+|    | z                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| (x(yK))(xz)                                                         |
+|                                                                     |
+|        A   B x(yK)                                                  |
+|        o--[3]                                                       |
+|        |                                                            |
+|    B   | yK                                                         |
+|    o---o                                                            |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|        B   C (x(yK))(xz)                                            |
+|       [3]--o                                                        |
+|        |                                                            |
+|    A   | xz                                                         |
+|    o---o                                                            |
+|    |                                                                |
+|    | z                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x((yK)(zS))                                                         |
+|                                                                     |
+|        A   B                                                        |
+|        o---o                                                        |
+|        |                                                            |
+|    B   | yK                                                         |
+|    o--[4]                                                           |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|        B   C   A   B   A   C x((yK)(zS))                            |
+|        o---o   o---o   o---o                                        |
+|        |       |       |                                            |
+|    A   |       | yK    | (yK)(zS)                                   |
+|    o---o      [4]------o                                            |
+|    |           |                                                    |
+|    | z         | zS                                                 |
+|    o-----------o                                                    |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x((yK)(y((zS)K)))                                                   |
+|                                                                     |
+|        A   B                                                        |
+|        o---o                                                        |
+|        |                                                            |
+|    B   | yK                                                         |
+|    o--[4]                                                           |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+|        B   C   A   B   A   C                                        |
+|        o---o   o---o   o---o                                        |
+|        |       |       |                                            |
+|    A   |       |       |                                            |
+|    o---o       o-------o                                            |
+|    |           |                                                    |
+|    | z         | zS                                                 |
+|    o----------[5]                                                   |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|                        A   B   A   C x((yK)(y((zS)K)))              |
+|                        o---o   o---o                                |
+|                        |       |                                    |
+|    A   B   A   C       | yK    | (yK)(y((zS)K))                     |
+|    o---o   o---o      [4]------o                                    |
+|    |       |           |                                            |
+|    |       |       B   | y((zS)K)                                   |
+|    o-------o       o---o                                            |
+|    |               |                                                |
+|    | zS            | (zS)K                                          |
+|   [5]--------------o                                                |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y(K(((zS)K)S)))                                                   |
+|                                                                     |
+|        B   C   A   B   A   C                                        |
+|        o---o   o---o   o---o                                        |
+|        |       |       |                                            |
+|    A   |       |       |                                            |
+|    o---o       o-------o                                            |
+|    |           |                                                    |
+|    | z         | zS                                                 |
+|    o----------[5]                                                   |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+|                        A   B   A   C                                |
+|                        o---o   o---o                                |
+|                        |       |                                    |
+|    A   B   A   C       |       |                                    |
+|    o---o   o---o       o-------o                                    |
+|    |       |           |                                            |
+|    |       |       B   |                                            |
+|    o-------o       o---o                                            |
+|    |               |                                                |
+|    | zS            | (zS)K                                          |
+|   [5]-------------[6]                                               |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|        A   B   A   C      A   B      A   C x(y(K(((zS)K)S)))        |
+|        o---o   o---o      o---o      o---o                          |
+|        |       |          |          |                              |
+|        |       |      B   |      B   | y(K(((zS)K)S))               |
+|        o-------o      o---o      o---o                              |
+|        |              |          |                                  |
+|    B   |              | K        | K(((zS)K)S)                      |
+|    o---o              o----------o                                  |
+|    |                  |                                             |
+|    | (zS)K            | ((zS)K)S                                    |
+|   [6]-----------------o                                             |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y(K(((zS)(z(KK)))S)))                                             |
+|                                                                     |
+|       B  C  A  B  A  C                                              |
+|       o--o  o--o  o--o                                              |
+|       |     |     |                                                 |
+|    A  |     |     |                                                 |
+|    o--o     o-----o                                                 |
+|    |        |                                                       |
+|    | z      | zS                                                    |
+|    o-------[5]                                                      |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+|                                                       A  B  A  C    |
+|                                                       o--o  o--o    |
+|                                                       |     |       |
+|                   A  B  A  C           A  B  A  C     |     |       |
+|                   o--o  o--o           o--o  o--o     o-----o       |
+|                   |     |              |     |        |             |
+|    A  B  A  C     |     |        B  C  |     |     B  |             |
+|    o--o  o--o     o-----o        o--o  o-----o     o--o             |
+|    |     |        |              |     |           |                |
+|    |     |     B  |           A  |     | zS        | (zS)(z(KK))    |
+|    o-----o     o--o           o--o    [5]---------[7]               |
+|    |           |              |        |                            |
+|    |           |              | z      | z(KK)                      |
+|    o-----------o              o--------o                            |
+|    |                          |                                     |
+|    | K                        | KK                                  |
+|    o--------------------------o                                     |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|       A  B  A  C      A  B      A  C                                |
+|       o--o  o--o      o--o      o--o x(y(K(((zS)(z(KK)))S)))        |
+|       |     |         |         |                                   |
+|       |     |      B  |      B  | y(K(((zS)(z(KK)))S))              |
+|       o-----o      o--o      o--o                                   |
+|       |            |         |                                      |
+|    B  |            | K       | K(((zS)(z(KK)))S)                    |
+|    o--o            o---------o                                      |
+|    |               |                                                |
+|    | (zS)(z(KK))   | ((zS)(z(KK)))S                                 |
+|   [7]--------------o                                                |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y(K((z(S((KK)S)))S)))                                             |
+|                                                                     |
+|                                                       A  B  A  C    |
+|                                                       o--o  o--o    |
+|                                                       |     |       |
+|                   A  B  A  C           A  B  A  C     |     |       |
+|                   o--o  o--o           o--o  o--o     o-----o       |
+|                   |     |              |     |        |             |
+|    A  B  A  C     |     |        B  C  |     |     B  |             |
+|    o--o  o--o     o-----o        o--o  o-----o     o--o             |
+|    |     |        |              |     |           |                |
+|    |     |     B  |           A  |     |           |                |
+|    o-----o     o--o           o--o     o-----------o                |
+|    |           |              |        |                            |
+|    |           |              |        |                            |
+|    o-----------o              o--------o                            |
+|    |                          |                                     |
+|    | K                        | KK                                  |
+|    o-------------------------[8]                                    |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+|                      A B  A C                         A B  A C      |
+|                      o-o  o-o                         o-o  o-o      |
+|                      |    |                           |    |        |
+|           A B  A C   |    |     B C  A B  A C   B C   |    |        |
+|           o-o  o-o   o----o     o-o  o-o  o-o   o-o   o----o        |
+|           |    |     |          |    |    |     |     |             |
+|      B C  |    |   B |        A |    |    |   A |   B |             |
+|      o-o  o----o   o-o        o-o    o----o   o-o   o-o             |
+|      |    |        |          |      |        |     |               |
+|    A |    |        |          |      |        | z   | z(S((KK)S))   |
+|    o-o    o--------o          o------o        o----[9]              |
+|    |      |                   |               |                     |
+|    |      |                   | S             | S((KK)S)            |
+|    o------o                   o---------------o                     |
+|    |                          |                                     |
+|    | KK                       | (KK)S                               |
+|   [8]-------------------------o                                     |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|       A  B  A  C      A  B     A  C x(y(K((z(S((KK)S)))S)))         |
+|       o--o  o--o      o--o     o--o                                 |
+|       |     |         |        |                                    |
+|       |     |      B  |     B  | y(K((z(S((KK)S)))S))               |
+|       o-----o      o--o     o--o                                    |
+|       |            |        |                                       |
+|    B  |            | K      | K((z(S((KK)S)))S)                     |
+|    o--o            o--------o                                       |
+|    |               |                                                |
+|    | z(S((KK)S))   | (z(S((KK)S)))S                                 |
+|   [9]--------------o                                                |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y(K((z(S((KK)S)))(z(SK)))))                                       |
+|                                                                     |
+|                                                       A  B  A  C    |
+|                                                       o--o  o--o    |
+|                                                       |     |       |
+|                   A  B  A  C           A  B  A  C     |     |       |
+|                   o--o  o--o           o--o  o--o     o-----o       |
+|                   |     |              |     |        |             |
+|    A  B  A  C     |     |        B  C  |     |     B  |             |
+|    o--o  o--o     o-----o        o--o  o-----o     o--o             |
+|    |     |        |              |     |           |                |
+|    |     |     B  |           A  |     |           |                |
+|    o-----o     o--o           o--o     o-----------o                |
+|    |           |              |        |                            |
+|    |           |              |        |                            |
+|    o-----------o              o--------o                            |
+|    |                          |                                     |
+|    | K                        | KK                                  |
+|    o-------------------------[8]                                    |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+|                      A B  A C                         A B  A C      |
+|                      o-o  o-o                         o-o  o-o      |
+|                      |    |                           |    |        |
+|           A B  A C   |    |     B C  A B  A C   B C   |    |        |
+|           o-o  o-o   o----o     o-o  o-o  o-o   o-o   o----o        |
+|           |    |     |          |    |    |     |     |             |
+|      B C  |    |   B |        A |    |    |   A |   B |             |
+|      o-o  o----o   o-o        o-o    o----o   o-o   o-o             |
+|      |    |        |          |      |        |     |               |
+|    A |    |        |          |      |        | z   | z(S((KK)S))   |
+|    o-o    o--------o          o------o        o----[9]              |
+|    |      |                   |               |                     |
+|    |      |                   | S             | S((KK)S)            |
+|    o------o                   o---------------o                     |
+|    |                          |                                     |
+|    | KK                       | (KK)S                               |
+|   [8]-------------------------o                                     |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|                                       x(y(K((z(S((KK)S)))(z(SK))))) |
+|                                                 ^                   |
+|                               A B A C  A B  A C |                   |
+|                               o-o o-o  o-o  o-o                     |
+|                               |   |    |    |                       |
+|      A B A C  A B  A C        |   |  B |  B |                       |
+|      o-o o-o  o-o  o-o        o---o  o-o  o-o                       |
+|      |   |    |    |          |      |    |                         |
+|      |   |  B |  B |    B C B |      | K  | K((z(S((KK)S)))(z(SK))) |
+|      o---o  o-o  o-o    o-o o-o      o----o                         |
+|      |      |    |      |   |        |                              |
+|    B |      |    |    A |   |        | (z(S((KK)S)))(z(SK))         |
+|    o-o      o----o    o-o  [9]-------o                              |
+|    |        |         |     |                                       |
+|    |        |         | z   | z(SK)                                 |
+|    o--------o         o-----o                                       |
+|    |                  |                                             |
+|    | S                | SK                                          |
+|    o------------------o                                             |
+|    |                                                                |
+|    | K                                                              |
+|    @                       [9] = z(S((KK)S))                        |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y(K(z((S((KK)S))((SK)S)))))                                       |
+|                                                                     |
+|                                                       A  B  A  C    |
+|                                                       o--o  o--o    |
+|                                                       |     |       |
+|                   A  B  A  C           A  B  A  C     |     |       |
+|                   o--o  o--o           o--o  o--o     o-----o       |
+|                   |     |              |     |        |             |
+|    A  B  A  C     |     |        B  C  |     |     B  |             |
+|    o--o  o--o     o-----o        o--o  o-----o     o--o             |
+|    |     |        |              |     |           |                |
+|    |     |     B  |           A  |     |           |                |
+|    o-----o     o--o           o--o     o-----------o                |
+|    |           |              |        |                            |
+|    |           |              |        |                            |
+|    o-----------o              o--------o                            |
+|    |                          |                                     |
+|    | K                        | KK                                  |
+|    o-------------------------[8]                                    |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+|                      A B  A C                         A B  A C      |
+|                      o-o  o-o                         o-o  o-o      |
+|                      |    |                           |    |        |
+|           A B  A C   |    |     B C  A B  A C   B C   |    |        |
+|           o-o  o-o   o----o     o-o  o-o  o-o   o-o   o----o        |
+|           |    |     |          |    |    |     |     |             |
+|      B C  |    |   B |        A |    |    |   A |   B |             |
+|      o-o  o----o   o-o        o-o    o----o   o-o   o-o             |
+|      |    |        |          |      |        |     |               |
+|    A |    |        |          |      |        |     |               |
+|    o-o    o--------o          o------o        o-----o               |
+|    |      |                   |               |                     |
+|    |      |                   | S             | S((KK)S)            |
+|    o------o                   o-------------[10]                    |
+|    |                          |                                     |
+|    | KK                       | (KK)S                               |
+|   [8]-------------------------o                                     |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+|                               A B A C  A B  A C                     |
+|                               o-o o-o  o-o  o-o                     |
+|                               |   |    |    |                       |
+|      A B A C  A B  A C        |   |  B |  B |                       |
+|      o-o o-o  o-o  o-o        o---o  o-o  o-o                       |
+|      |   |    |    |          |      |    |                         |
+|      |   |  B |  B |    B C B |      |    |                         |
+|      o---o  o-o  o-o    o-o o-o      o----o                         |
+|      |      |    |      |   |        |                              |
+|    B |      |    |    A |   |        |                              |
+|    o-o      o----o    o-o   o--------o                              |
+|    |        |         |     |                                       |
+|    |        |         |     |                                       |
+|    o--------o         o-----o                                       |
+|    |                  |                                             |
+|    | S                | SK                                          |
+|    o----------------[11]                                            |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|            A B A C  A B  A C     A B A C      A B  A C x(y(K(zG)))  |
+|            o-o o-o  o-o  o-o     o-o o-o      o-o  o-o              |
+|            |   |    |    |       |   |        |    |                |
+|            |   |  B |  B |  B C  |   |  B C B |  B | y(K(zG))       |
+|            o---o  o-o  o-o  o-o  o---o  o-o o-o  o-o                |
+|            |      |    |    |    |      |   |    |                  |
+|      B C B |      |    |  A |  B |    A |   | K  | K(zG)            |
+|      o-o o-o      o----o  o-o  o-o    o-o   o----o                  |
+|      |   |        |       |    |      |     |                       |
+|    A |   |        |       |    |      | z   | zG                    |
+|    o-o   o--------o       o----o      o-----o                       |
+|    |     |                |           |                             |
+|    |     |                | F         | G                           |
+|    o-----o               [10]---------o                             |
+|    |                      |                                         |
+|    | SK                   | (SK)S                                   |
+|   [11]--------------------o                                         |
+|    |                                                                |
+|    | S                      F = S((KK)S)                            |
+|    @                        G = F((SK)S) = (S((KK)S))((SK)S)        |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y((z(KK))(z((S((KK)S))((SK)S)))))                                 |
+|                                                                     |
+|                    B   C       A   B                                |
+|                    o---o       o---o                                |
+|                    |           |                                    |
+|        A   B   A   |       B   |                                    |
+|        o---o   o---o       o---o                                    |
+|        |       |           |                                        |
+|    B   |       | z         | z(KK)                                  |
+|    o---o       o---------[12]                                       |
+|    |           |                                                    |
+|    | K         | KK                                                 |
+|    o-----------o                                                    |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|                                                   x(y((z(KK))(zG))) |
+|                                                        ^            |
+|            A B A C  A B  A C     A B A C      A B  A C |            |
+|            o-o o-o  o-o  o-o     o-o o-o      o-o  o-o              |
+|            |   |    |    |       |   |        |    |                |
+|            |   |  B |  B |  B C  |   |  B C B |  B | y((z(KK))(zG)) |
+|            o---o  o-o  o-o  o-o  o---o  o-o o-o  o-o                |
+|            |      |    |    |    |      |   |    |                  |
+|      B C B |      |    |  A |  B |    A |   |    | (z(KK))(zG)      |
+|      o-o o-o      o----o  o-o  o-o    o-o  [12]--o                  |
+|      |   |        |       |    |      |     |                       |
+|    A |   |        |       |    |      | z   | zG                    |
+|    o-o   o--------o       o----o      o-----o                       |
+|    |     |                |           |                             |
+|    |     |                | F         | G                           |
+|    o-----o                o-----------o                             |
+|    |                      |                                         |
+|    | SK                   | (SK)S                                   |
+|    o----------------------o                                         |
+|    |                                                                |
+|    | S                      F = S((KK)S)                            |
+|    @                        G = F((SK)S) = (S((KK)S))((SK)S)        |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y(z((KK)(((S((KK)S))((SK)S))S))))                                 |
+|                                                                     |
+|                    B   C       A   B                                |
+|                    o---o       o---o                                |
+|                    |           |                                    |
+|        A   B   A   |       B   |                                    |
+|        o---o   o---o       o---o                                    |
+|        |       |           |                                        |
+|    B   |       |           |                                        |
+|    o---o       o-----------o                                        |
+|    |           |                                                    |
+|    | K         | KK                                                 |
+|    o---------[13]                                                   |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+|            A B A C   A B   A C        A B A C         A B   A C     |
+|            o-o o-o   o-o   o-o        o-o o-o         o-o   o-o     |
+|            |   |     |     |          |   |           |     |       |
+|            |   |   B |   B |    B C   |   |     B C B |   B |       |
+|            o---o   o-o   o-o    o-o   o---o     o-o o-o   o-o       |
+|            |       |     |      |     |         |   |     |         |
+|      B C B |       |     |    A |   B |       A |   |     |         |
+|      o-o o-o       o-----o    o-o   o-o       o-o   o-----o         |
+|      |   |         |          |     |         |     |               |
+|    A |   |         |          |     |         |     |               |
+|    o-o   o---------o          o-----o         o-----o               |
+|    |     |                    |               |                     |
+|    |     |                    | S((KK)S)      | (S((KK)S))((SK)S)   |
+|    o-----o                    o-------------[14]                    |
+|    |                          |                                     |
+|    | SK                       | (SK)S                               |
+|    o--------------------------o                                     |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . |
+|                                                                     |
+|                A  B     A  C     B  C     A  B     B  C     A  C    |
+|                o--o     o--o     o--o     o--o     o--o     o--o    |
+|                |        |        |        |        |        |       |
+|       B  C  B  |     B  |     A  |     B  |     A  |     B  |       |
+|       o--o  o--o     o--o     o--o     o--o     o--o     o--o       |
+|       |     |        |        |        |        |        |          |
+|    A  |     |        |        |        |        |        |          |
+|    o--o     o--------o        o--------o        o--------o          |
+|    |        |                 |                 |                   |
+|    |        |                 | KK              | T                 |
+|    o--------o                [13]--------------[o]                  |
+|    |                          |                                     |
+|    | (S((KK)S))((SK)S)        | ((S((KK)S))((SK)S))S                |
+|   [14]------------------------o                                     |
+|    |                                                                |
+|    | S                                                              |
+|    @                            T = (KK)(((S((KK)S))((SK)S))S)      |
+|                                                                     |
+o---------------------------------------------------------------------o
+                                                                       
+</pre></td></table>
