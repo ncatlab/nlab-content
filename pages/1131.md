@@ -4,7 +4,7 @@
 
 ## Idea
 
-A _differential graded Lie algebra_ is a [[Lie algebra]] [[internalization|internal to]] [[chain complex]]es. If these are taken innon-negative degree, then this is as _strict_ [[L-infinity-algebra]], i.e.an $L_\infty$-algebra in which only the unary and the binary brackets may be nontrivial.
+A _differential graded Lie algebra_ is a [[Lie algebra]] [[internalization|internal to]] [[chain complex]]es. If these are taken in non-negative degree, then this is as _strict_ [[L-infinity-algebra]], i.e.an $L_\infty$-algebra in which only the unary and the binary brackets may be nontrivial.
 
 
 ##Differential graded Lie algebras
