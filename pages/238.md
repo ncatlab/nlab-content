@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-21 #
 
-*  [[Toby Bartels]]:  Some additions to [[Vect]], [[Hilb]], and [[measurable space]].  (I plan to do more on the latter, then move to [[measure space]].)
+*  [[Toby Bartels]]:
+   *  Over at [[An Exercise in Kantization]], [[Eric Forgy]] and [[Daniel de França MTd2]] would like confirmation or correction from somebody that understands the paper (Alm\'s _[[Kantization09May27.pdf:file]]_) better than I do.
+   *  Some additions to [[Vect]], [[Hilb]], and [[measurable space]].  (I plan to do more on the last, then move to [[measure space]].)
 
 * [[Todd Trimble|Todd]]: 
 
