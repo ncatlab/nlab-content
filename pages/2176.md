@@ -1934,7 +1934,12 @@ In relation to the center cell indicated by the conjunction $p q r$, the region 
 
 More generally speaking, in a $k$-dimensional universe of discourse that is based on the _alphabet_ of features $\mathcal{X} = \{ x_1, \ldots, x_k \}$, the same form of boundary relationship is manifested for any cell of origin that one chooses to indicate.  One way to indicate a cell is by forming a logical conjunction of positive and negative basis features, that is, by constructing an expression of the form $e_1 \cdot \ldots \cdot e_k$, where $e_j = x_j \:\text{or}\: e_j = \text{&#x2997;} x_j \text{&#x2998;}$, for $j = 1 \:\text{to}\: k$.  The proposition $\text{&#x2997;} e_1, \ldots, e_k \text{&#x2998;}$ indicates the disjunctive region consisting of the cells that are just next door to $e_1 \cdot \ldots \cdot e_k$.
 
-# External Links #
+# Related Topics #
+
+* [[cactus language]]
+* [[minimal negation operator]]
+
+# Links #
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
 
