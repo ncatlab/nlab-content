@@ -3,7 +3,7 @@
 
 # Rosetta Stone #
 
-## Tablets from the Unicode Data Bank ##
+## Tablets from the Unicodex ##
 
 __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [Online Integer:Hex:Character Conversion Tool](http://www.sql-und-xml.de/unicode-database/online-tools/)
 
