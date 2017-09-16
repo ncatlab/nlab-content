@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * almost missed [[Tim Porter]]'s addition about the [[Dwyer-Kan loop groupoid]] to [[simplicial homotopy group]] -- that sounds very good, I'd be happy if we make this the default point of view at that entry and derive the more traditional description only as a special case from that
+
   * added the example of the bar construction of a group $G$ as the nerve of $\mathbf{B} G$ to [[nerve]]
 
   * added illustration to [[Kan fibration]]
