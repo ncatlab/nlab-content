@@ -1,6 +1,6 @@
 #Idea#
 
-For $X$ and $Y$ [[topological space]]s, a continuous map $X \to Y$ induces (in particular) two [[functor]]s
+For $X$ and $Y$ [[topological spaces]], a continuous map $X \to Y$ induces (in particular) two [[functors]]
 
 * the [[direct image]] $f_* : Sh(X) \to Sh(Y)$
 
@@ -11,21 +11,21 @@ between the corresponding  [[Grothendieck topos|Grothendieck topoi]] of [[sheaf|
 
 * $f^*$ is [[adjoint functor|left adjoint]] to $f_*$
 
-* $f^*$ is [[exact functor|left exact]] in that it preserves finite [[limit]]s.
+* $f^*$ is [[exact functor|left exact]] in that it preserves finite [[limits]].
 
 Morever, if $X$ and $Y$ are 
-[[sober space|sober]] [[topological space]]s
+[[sober space|sober]] [[topological spaces]]
 every pair of functors with these properties comes uniquely from a continuous map $X \to Y$ (see the theorem below).
 
 A _geometric morphism_ between arbitrary [[topos|topoi]] is the direct generalization of this situation.
 
-Another motivation of the concept comes from the the fact that a [[functor]] such as $f^*$ that preserves finite [[limit]]s and arbitrary [[colimit]]s (since it is a [[adjoint functor|left adjoint]]) necessarily preserves all constructions in [[geometric logic]].  See also [[classifying topos]].
+Another motivation of the concept comes from the the fact that a [[functor]] such as $f^*$ that preserves finite [[limits]] and arbitrary [[colimits]] (since it is a [[adjoint functor|left adjoint]]) necessarily preserves all constructions in [[geometric logic]].  See also [[classifying topos]].
 
 
 
 #Definition#
 
-If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functor]]s $(f^*,f_*)$
+If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functors]] $(f^*,f_*)$
 $$
   f_* : E \to F
 $$
@@ -34,7 +34,7 @@ $$
   \,,
 $$
 
-such that the left adjoint $f^*:F \to E$ preserves finite [[limit]]s.
+such that the left adjoint $f^*:F \to E$ preserves finite [[limits]].
 
 
 
@@ -92,7 +92,7 @@ For $X$ a [[topological space]], write $Sh(X) := Sh(Op(X))$ as usual for the [[t
 +-- {: .un_lemma}
 ###### Lemma
 
-For every continuous map $f : X \to Y$ of [[Hausdorff space|Hausdorff]] [[topological space]]s with the induced [[functor]] $f^{-1} : Op(Y) \to Op(X)$ of [[site]]s, the [[direct image]]
+For every continuous map $f : X \to Y$ of [[Hausdorff space|Hausdorff]] [[topological spaces]] with the induced [[functor]] $f^{-1} : Op(Y) \to Op(X)$ of [[sites]], the [[direct image]]
 
 $$
   f_* : Sh(X) \to Sh(Y)
@@ -129,7 +129,7 @@ One reconstructs the continuous map $f : X \to Y$ from a geometric morphism $f :
 
 Write ${*} = Y \in Sh(Y)$ for the sheaf on $Op(Y)$ constant on the singleton set, the [[terminal object]] in $Sh(Y)$.
 
-Notice that since the [[inverse image]] $f^*$ preserves finite [[limit]]s, every [[subobject]] $U_Y \hookrightarrow {*}$ is taken by $f^*$ to a subobject $U_X \hookrightarrow X$, obtained by applying $f^*$ to the [[pullback]] diagram 
+Notice that since the [[inverse image]] $f^*$ preserves finite [[limits]], every [[subobject]] $U_Y \hookrightarrow {*}$ is taken by $f^*$ to a subobject $U_X \hookrightarrow X$, obtained by applying $f^*$ to the [[pullback]] diagram 
 
 $$
   \array{
