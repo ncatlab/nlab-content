@@ -1,6 +1,3 @@
-[[!redirects profunctor]]
-
-
 Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **distributor** or **profunctor** or **[[bimodule|(bi)module]]** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
 
 $$
@@ -143,3 +140,6 @@ _Todd_: There is an inevitable debate here about whether one should use $C^{op} 
 
 [[Mike Shulman|Mike]]: My convention is $D^{op}\otimes C$.  I agree with your reasoning for why $D$ should be contravariant; I like to put it first because in the hom-functor $C(-,-)$ the contravariant variable appears first.
 =--
+
+
+[[!redirects profunctor]]
