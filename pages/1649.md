@@ -4,7 +4,8 @@
 
 We illustrate the technique with two examples. 
 
-###### Example 1.
++-- {: .num_example}
+###### Example
 
 Consider first the problem of showing that restrictions of polynomials to $[-1, 1]$ are dense in $L^p([-1, 1])$ (under Lebesgue [[measure space|measure]]). The idea is to take the formula 
 
@@ -29,8 +30,10 @@ Intuitively, the idea is that $ f - (f * p_n) = f * (\delta - p_n) $ and that (b
 $$\|f * (\delta - p_n)\|_p \leq \|f\|_p \|\delta - p_n\|_1 \to 0$$ 
 
 as $n \to \infty$. For a more careful proof, see theorem 9.6 in Wheeden and Zygmund (referenced below). 
+=--
 
-###### Example 2.
++-- {: .num_example}
+###### Example
 
 For a second example, consider how to prove that the functions $z^n$, with $n$ ranging over integers, forms an orthonormal basis of the [[Hilbert space]] $L^2(S^1)$ where $S^1$ is the unit circle in the complex plane, where the inner product is given by 
 
@@ -56,3 +59,4 @@ $$ (e_n * f)(w) = \frac1{2\pi i}\int_{S^1} (w/z)^n f(z) \frac{d z}{z} = e_n(w)\l
 It follows from all this that the Laurent polynomials on $S^1$ are dense in $L^2(S^1)$. 
 
 A similar technique applies to any compact Hausdorff abelian group $G$ equipped with its normalized Haar measure $d\mu$, in place of the measure space $(S^1, \frac1{2\pi i}\frac{d z}{z})$, and shows that the characters on the group span a dense subspace in $L^2$ norm. In other words, the characters form an orthonormal basis of $L^2(G, d\mu)$. 
+=--
