@@ -40,13 +40,13 @@ However $\mathcal{B}C$ is in this case defined by a nerve construction which gen
 
 So I spent 9 years trying to construct a _strict_ homotopy double groupoid of a space, yet Phip Higgins and I did this overnight in 1974 when we tried the simplest relative example we could think of. Then the filtered case took another 4 years or so to complete. 
 
-Then Loday constructed a cat$^n$-group from an n-cube of spaces, published in 1982. 
+Then Loday constructed a [[cat-n-group]] from an n-cube of spaces, published in 1982. Its multi-nerve  is an $(n+1)$-simplicial set, whose realisation is $(n+1)$-filtered. 
 
 A strict homotopy double groupoid of a Hausdorff space has been constructed but this needs a subtle notion of [[thin]] homotopy. 
 
-Of course the filtration for a group is not so apparent, but it is more clear that a groupoid carries structure in dimension 0 and 1, and hence is useful for representing non connected homotopy 1-types. 
+Of course the filtration for a group is not so apparent, but it is more clear that  [[groupoid]]s  carry structure in dimension 0 and 1, and hence are useful for representing non connected homotopy 1-types, and their identifications in dimension 0, as explained in the first edition (1968) of my Topology book.   
 
-The intuition for the [[van Kampen theorem]] is that you need structure in dimensions 0 to n to get colimit theorems in dimension n, because in homotopy, low dimensional identifications, even in dimension 0,  usually effect high dimensional homotopy information. 
+The intuition for the [[higher homotopy van Kampen theorem]] is that you need _structure in all  dimensions from 0 to n _to get colimit theorems in dimension n, because in homotopy, low dimensional identifications, even in dimension 0,  usually effect high dimensional homotopy information. In effect, the [[higher homotopy van Kampen theorem]] is about gluing [[homotopy n-type]]s. 
 =--
 
 Some such constructions arise from generalisations of the [[Dold-Kan correspondence]], with values in [[simplicial set]]s. For example, from a [[crossed complex]] $C$ one obtains a simplicial  set $Nerve(C)$ which in dimension $n$ is $Crs(\Pi(\Delta^n_*),C)$. The geometric realisation $\mathcal{B}C$ of this is canonically filtered by the skeleta of $C$, so $\mathcal{B}$ is really a functor to [[filtered space]]s. This ties in with the functor $\Pi$ which goes in the opposite direction. But note that there is a different filtration of the space $\mathcal{B}C$ since it is a CW-complex, and so $\Pi$ of this filtration gives a free crossed complex. 
