@@ -2,9 +2,9 @@ A **simplicial homotopy** is a [[homotopy]] in the classical [[model structure o
 
 #Definition via cylinder#
 
-[[SSet]] has a [[cylinder functor]] given by [[cartesian monoidal category|cartesian]] product with the standard 1-[[simplex]] $I := \Delta^1$. In fact, one can define cylinder $X\times\Delta^1$ more generally, for example for $X$ being a simplicial object in an [[abelian category]] $A$. 
+[[SSet]] has a [[cylinder functor]] given by [[cartesian monoidal category|cartesian]] product with the standard 1-[[simplex]] $I := \Delta^1$. (In fact, one can define simplicial  cylinders, $\Delta^1\odot X$, more generally, for example for $X$ being a simplicial object in an [[cocomplete category]] $C$,(see below).) 
 
-Therefore for $f,g : X \to Y$ two morphisms of [[simplicial set]]s, or of simplicials object in an abelian category $A$, a [[homotopy]] $\eta : f \Rightarrow g$ is a morphism $\eta : X \times \Delta^1 \to Y$ such that the diagram
+Therefore for $f,g : X \to Y$ two morphisms of [[simplicial set]]s, a [[homotopy]] $\eta : f \Rightarrow g$ is a morphism $\eta : X \times \Delta^1 \to Y$ such that the diagram
 
 $$
   \array{
@@ -41,8 +41,16 @@ $$ s_i h_j = \left\lbrace\array{
 \eta_j s_{i-1}, & i\gt j.
 }\right.$$
 
-One can prove that the combinatorial definition of homotopy agrees with the one via cylinder both for simplicial sets and for simplicial obejct in an abelian category $C  = A$.
+**Commentary**
+It is fairly easy to prove that the combinatorial definition of homotopy agrees with the one via the cylinder both for simplicial sets and for simplicial objects in any [[finitely cocomplete category]], $C$.  This uses the fact that the category of simplicial objects in a cocomplete category, $C$, has [[copower|copowers]] with finite simplicial sets and hence in articular with $\Delta[1]$. (As there are explicit formulae for the construction of [[copower|copowers]
+
+
 In the case of the category of (not necessarily abelian) groups, the combinatorial definition equals the one via cylinder only if the role of "cylinder" for a group $G$ is played by a simplicial object in the category of groups which in degree $n$ equals the free product of $(n+2)$ copies of $G$, indexed by the set $(\Delta^1)_n$ (noted by Swan and quoted in exercise 8.3.5 of Weibel: _Homological algebra_).
++--{:.query}
+[[Tim Porter}:  I do not understand the above as $(\Delta^1)_n$ is not a set. Perhaps we need an explicit description of [[copower|copowers]] in simplicial objects also. I pointed out in an edit above that the combinatorial description is much more general than just for  simplicial objects in an abelian category. 
+
+Can specific references to Swan be given, anyone?
+=--
 
 #Properties#
 
@@ -158,3 +166,8 @@ Let $A$ be an abelian category and $f,g : X\to Y$ homotopic morphisms in $A$. Th
 #References#
 
 * Goerss, Jardine, _Simplicial homotopy theory_ ([ps](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi))
+
+Cylinder based homotopy is also discussed extensively in
+
+* K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_, World 
+Scientific Publishing Co. Inc., River Edge, NJ.
