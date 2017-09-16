@@ -30,6 +30,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-22
 
+*  [[Toby Bartels]]:  Copied to [[(n,k)-transformation]] a question that was sent to me by email, and partially answered it.  (Urs could probably answer the rest.)
+
 * [[Urs Schreiber]]:
 
   * added references and links to [[vertex operator algebra]]
