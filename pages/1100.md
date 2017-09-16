@@ -50,8 +50,7 @@ A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X
 
 * $X$ is an [[(∞,1)-category of (∞,1)-sheaves]] (meaning: of [[∞-stack]]s): 
 
-  there exists a small [[(∞,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(∞,1)-functor]] $\bar {(-)} : PSh(S) \to X$
-from [[(∞,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
+  * there exists a small [[(∞,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(∞,1)-functor]] $\bar {(-)} : PSh(S) \to X$ from [[(∞,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
 * $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
   * $X$ is [[presentable (infinity,1)-category|presentable]];
