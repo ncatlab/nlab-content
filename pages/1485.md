@@ -32,9 +32,9 @@ We can think of a $G$-manifold as a space which is _locally modeled_ on $X$ acco
 
 An atlas is _not_ considered an essential part of the structure of a manifold: two different atlases may yield the same manifold structure. Here are the relevant definitions: 
 
-A **morphism** of $G$-manifolds $f: M \to N$ (defined by chosen atlas structures) is a continuous function $f$ such that 
+An **isomorphism** of $G$-manifolds $f: M \to N$ (defined by chosen atlas structures) is a homoeomorphism $f$ such that 
 $$\phi(U \cap f^{-1}(V)) \overset{\phi^{-1}}{\to} U \cap f^{-1}(V) \overset{f}{\to} f(U) \cap V \overset{\psi}{\to} \psi(f(U) \cap V)$$ 
-is a morphism of $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, and $(V, \psi)$ is a coordinate chart of $f(x) \in N$. If $M_1$ and $M_2$ are two $G$-manifold structures on the same topological space $M$, then $M_1$ and $M_2$ are considered **equal** as $G$-manifolds if $id: M \to M$ is a morphism from $M_1$ to $M_2$ and from $M_2$ to $M_1$ (so an isomorphism of manifolds). 
+is in $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, and $(V, \psi)$ is a coordinate chart of $f(x) \in N$. If $M_1$ and $M_2$ are two $G$-manifold structures on the same topological space $M$, then $M_1$ and $M_2$ are considered **equal** as $G$-manifolds if $id: M \to M$ is an isomorphism from $M_1$ to $M_2$ (and hence also from $M_2$ to $M_1$). 
 
 * Alternatively, atlases are ordered by inclusion, and two atlases define the same manifold structure on $M$ if they have a common upper bound. Equivalently, two atlases define the same manifold structure if each chart of one is compatible with each chart of the other. Or, one could extend any atlas to the (unique) maximal atlas containing it, which consists of all charts compatible with each of the charts in the original atlas, and simply identify a manifold structure with a maximal atlas. 
 
@@ -42,6 +42,8 @@ is a morphism of $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, an
 _Todd_: I think I'd want to hold off on calling these morphisms (where one uses a general continuous $f: M \to N$), because it may give rise to later confusion when one settles down to define categories of manifolds (in the usual way, with manifolds of varying dimensions). For example, even between manifolds of the same dimension, we'd want constant maps as part of that category, but constant maps are (almost) never morphisms in the sense here. I just think we're asking for trouble here. 
 
 [In fact, it seems to me that the pseudogroup approach may be a bit limiting: really we should be reformulating the definitions so that the pseudogroups (for varying $X$, like $X = \mathbb{R}^n$) are part of a larger category, e.g., the category of open maps in Euclidean space and smooth maps between them, so that it becomes easier to say what we mean by a map between manifolds of the same type (i.e., real, complex, PL, etc.). But I've not seen this actually carried out, and it looks like this would involve some original research which I haven't had time to, um, research yet.] 
+
+_Toby_:  Ah yes, I forgot that the morphisms of $G$ are invertible; I was imagining that all smooth maps (between the relevant objects) were in $G$.  It seems like this *should* be doable, but I haven\'t seen it either.
 =-- 
 
 ## Examples 
