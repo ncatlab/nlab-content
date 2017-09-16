@@ -150,7 +150,13 @@ A discussion of the relation between extended _FQFT_ and [[AQFT]] with further r
 
 * Urs Schreiber, _AQFT from $n$-functorial QFT_ ([arXiv](http://arxiv.org/abs/0806.1079)).
 
+## Super QFT
 
+See 
+
+* [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+* [[(2,1)-dimensional Euclidean field theories and tmf]]
 
 ## homological FQFT (and TCFT) ##
 
