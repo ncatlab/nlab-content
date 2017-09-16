@@ -13,6 +13,8 @@ So should we merge this with [[PRO]] now?  ---Toby
 Yes.  However, not knowing what is standard and what isn't, I'm not sure I could do that merge.  The stuff on this page is what I want to know about so I don't want to lose any of it in the merge. ---Andrew
 
 Understood.  I\'m not sure how to do it either, but I\'ll think about it.  ---Toby
+
+I should say that if any of this _doesn't_ fit in the merge then I'm happy for it to find a home elsewhere.  My main purpose in scribbling this lot is to find out what is and isn't known so I don't have to reprove the known stuff just to make use of it. ---Andrew
 =--
 
 
