@@ -1,4 +1,8 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 One of the most important observations of [[category theory]] is that large parts of mathematics can be [[internalization|internalized]] in any [[category]] with sufficient structure.  The most basic examples of this involve algebraic structures; for instance, a [[group]] can be defined in any category with finite products, and an [[internal category]] can be defined in any ambient category with [[pullback]]s. For such [[algebraic theory|algebraic]] (or even [[essentially algebraic theory|essentially algebraic]]) structures, which are defined by _operations_ with _equational axioms_ imposed, it suffices for the ambient category to have (usually finite) limits.
 
@@ -7,7 +11,7 @@ However, it turns out that if we assume some additional structure on the ambient
 (There are other sorts of internalization that do not fit in this general framework.  For example, a [[monoid]] internal to a [[monoidal category]] is not an example of the sort of internalization discussed here; the framework we consider here can only deal with monoids in [[cartesian monoidal category|cartesian monoidal categories]], or at least cartesian [[multicategory|multicategories]].   However, [[linear logic]] holds out the hope of some reconciliation between the two.  See [[internalization]] for a discussion of the more  general notion in the context of [[doctrine]]s.)
 
 
-# Internal first-order logic #
+## Internal first-order logic 
 
 It turns out that there is a hierarchy of types of logical theories, each of which corresponds to a type of category in which such theories can be internalized.
 
@@ -88,7 +92,7 @@ $$x:G,y:G,z:G | \top \vdash m(m(x,y),z) = m(x,m(y,z))$$
  means that the [[equalizer]] of the two morphisms $G\times G\times G \to G$ must be all of $G\times G\times G$, or equivalently that those two morphisms must be equal.  The same happens in most other cases.
 
 
-# Soundness and internal reasoning #
+## Soundness and internal reasoning 
 
 Internal logic is not just a way to concisely describe internal structures in a category, but also gives us a way to _prove_ things about them by "internal reasoning."  We simply need to verify that the "usual" methods of logical reasoning (for example, from $\varphi\vdash \psi$ and $\psi\vdash \chi$ deduce $\varphi\vdash\chi$) are _internally valid_, in the sense that if the premises are satisfied in some model $C$ (in the example, if $[\varphi]\le [\psi]$ and $[\psi]\le [\chi]$) then so is the conclusion (in the example, $[\varphi]\le [\chi]$).  This is called the _Soundness Theorem_.
 
@@ -103,7 +107,7 @@ The second, more important, caveat is that the internal logic of all these categ
 The third caveat is that one must take care to distinguish the _internal_ logic of a category from what is _externally_ true about it.  In general, internal validity is "local" truth, meaning things which become true "after passing to a [[cover]]."  This is particularly important for formulas involving _disjunction_ and _existence_.  For example, an object's being [[projective object|projective]] in the category $C$ is a different statement from its being _internally_ projective, meaning that "$X$ is projective" is true in the internal logic.  Another good example can be found in the different notions of [[finite object]] in a topos.  This problem goes away if the ambient category is [[well-pointed topos|well-pointed]], but well-pointed categories are even rarer than Boolean ones satisfying choice; the only well-pointed Grothendieck topos is [[Set]] itself.
 
 
-# Completeness, syntactic categories, and Morita equivalence # {#syntactic_categories}
+## Completeness, syntactic categories, and Morita equivalence # {#syntactic_categories}
 
 The converse of the Soundness Theorem is called the _Completeness Theorem_, and states that if a sequent $\varphi\vdash\psi$ is valid in every model of a theory, then it is _provable_ from that theory.  This is noticeably less trivial.  In classical first-order logic, where the only models considered are set-valued ones, the completeness theorem is usually proven using [[ultraproduct]]s.  However, in categorical logic there is a more elegant approach (which additionally no longer depends on any form of the [[axiom of choice]]).  From any theory $T$ we can construct a category, called its **syntactic category** $C_T$, containing a "generic" model of the theory, in which the valid sequents are precisely those provable from the theory.  It turns out that $C_T$ is precisely the category of [[context]]s described on the page [[context]].  Therefore, if a sequent is valid in all models, it is also valid in the generic model in $C_T$, and hence provable from $T$.
 
@@ -118,19 +122,236 @@ A morphism $T\to T'$ between theories, in this sense, induces a functor from $T'
 By first applying various "completion" processes to syntactic categories before asking about equivalence, we obtain coarser notions of equivalence, which only induce equivalences of models in more restricted sorts of categories.  For instance, if we compare the [[exact completion]]s of syntactic categories of regular theories, we obtain a notion of equivalence that induces equivalences of categories of models in all exact categories (not necessarily all regular ones).  Likewise for coherent theories and [[pretopos]]es, and for geometric theories and infinitary pretoposes.  Note, though, that the infinitary-pretopos completion of a (small) geometric theory is in fact already a (Grothendieck) topos, and coincides with the classifying topos considered above.  Thus, passage to classifying toposes is also an instance of this construction, and an equivalence of classifying toposes means that two theories have equivalent categories of models in all toposes.  (This is still much stronger than just having equivalent categories of models in $Set$.)
 
 
-# Kripke-Joyal semantics #
+## Kripke-Joyal semantics
 
 (to be written...)
 
 
-# Higher-order logic #
+## Higher-order logic 
 
 (to be written...)
 
 But see [[Mitchell–Bénabou language]] for the version in a [[topos]].
 
 
-# References #
+## Examples
+
+### Internal logic in $Set$ {#LogicOfSet}
+
+The [[topos]] [[Set]] of course has as its internal logic the "ordinary" logic. This is reproduced by following the abstract nonsense as follows:
+
+the [[terminal object]] of [[Set]] is [[generalized the|the]] one-element set ${*}$, the [[subobject classifier]] in [[Set]] is the two-element set $\Omega = \{true, false\}$ equipped with the map
+
+$$
+  T : {*} \to \Omega
+$$
+
+that picks the element $true$ in $\Omega$. The [[Heyting algebra]] of [[subobject]]s of the [[terminal object]] is the [[poset]]
+
+$$
+  L = \{  \emptyset \hookrightarrow {*} \}
+$$
+
+consisting only of the two trivial subobjects of $*$, the point itself and the empty set, and the unique inclusion morphism between them. These are classified, respectively, by the [[truth value]]s ${*} \stackrel{false}{\to} \Omega$ and ${*} \stackrel{true}{\to} \Omega$, so that we can also write our [[poset]] of [[subobject]]s of the [[terminal object]] as
+
+$$
+  L = \{  false \to true \}
+  \,.
+$$
+
+The logical operation $\wedge = AND$ is the [[product]] in the [[poset]] $L$. Indeed we find pullback diagrams in $L$
+
+$$
+  \array{
+    true \times \true = true &\to& true
+    \\
+    \downarrow
+    \\
+    true
+  }
+  \;\;\;
+  \;\;\;
+  \;\;\;
+  \array{
+    true \times false = false &\to& false
+    \\
+    \downarrow
+    \\
+    true
+  }
+  \;\;\;
+  \;\;\;
+  \;\;\;
+  \array{
+    false \times false = false &\to& false
+    \\
+    \downarrow
+    \\
+    false
+  }
+  \,.
+$$
+
+The logical operation $\vee = OR$ is the [[coproduct]] in the [[poset]] $L$. Indeed we find [[pushout]] diagrams in $L$
+
+$$
+  \array{
+    && true
+    \\
+    && \downarrow
+    \\
+    true
+    &\to&
+    true \coprod \true = true   
+  }
+  \;\;\;\;
+  \;\;\;
+  \;\;\;
+   \array{
+    && false
+    \\
+    && \downarrow
+    \\
+    true
+    &\to&
+    true \coprod false = true
+  }
+  \;\;\;\;
+  \;\;\;
+  \;\;\;
+   \array{
+    && false
+    \\
+    && \downarrow
+    \\
+    false
+    &\to&
+    false \coprod false = false
+  }
+ \,.
+$$
+
+The logical operation $\not = NOT$ is given by the [[internal hom]] into the [[initial object]] in $L$:
+
+$$
+  \not = hom(-, false) : L^{op} \to L
+  \,.
+$$
+
+We find the value of the [[internal hom]] by its defining [[adjunction]]. For $hom(true,false)$ we have
+
+$$
+  Hom_L(true, hom(true,false)) \simeq Hom_L{true \times true, false} = Hom_L(true, false) = \emptyset
+$$
+
+and
+
+$$
+  Hom_L(false, hom(true,false)) \simeq Hom_L{false \times true, false} = Hom_L(false, false) = {*}
+$$
+
+from which we deduce that
+
+$$
+  hom(true,false) = false\,.
+$$
+
+Similarly for $hom(false,false)$ we have
+
+$$
+  Hom_L(true, hom(false,false)) \simeq 
+  Hom_L(true \times false, false)
+  = Hom_L(false, false) = {*}
+$$
+
+and
+
+$$
+  Hom_L(false, hom(false,false)) \simeq 
+  Hom_L(false \times false, false)
+  = Hom_L(false, false) = {*}
+$$
+
+from which we deduce that 
+
+$$
+  hom(false,false) = true
+  \,.
+$$
+
+This way all the familiar logical operations are recovered from the internal logic of the [[topos]] [[Set]].
+
+
+
+### Internal logic in a presheaf topos on open subsets {#LogicOfPresheaves}
+
+Let $X$ be a [[topological space]] and $Op(X)$ its [[category of open subsets]] and $Psh(Op(X)) = Func(Op(X)^{op}, Set)$ the [[Grothendieck topos]] of [[presheaf|presheaves]] on $X$.
+
+The [[terminal object]] is the presheaf [[representable functor|represented by]] $X$: the one that is constant on the one-element set
+
+$$
+  X : U \mapsto {*}
+  \,.
+$$
+
+The [[subobject]]s of this object are the [[representable functor|representable presheaves]]
+
+$$
+  hom(-,V) : U \mapsto
+  \left\{
+    \array{
+      {*} & | if U \subset V
+      \\
+      \emptyset & otherwise
+    }
+  \right.
+$$
+
+for $V \in Op(X)$. The [[poset]] of [[subobject]]s formed by these is just the [[category of open subsets]] itself:
+
+$$
+  L = Op(X)
+  \,.
+$$
+
+* The logical operation $AND$ is the [[product]] in $Op(X)$: this is the **intersection** of open subsets.
+
+* The logical operation $OR$ is the [[coproduct]] in $Op(X)$: this is the **union** of open subsets.
+
+* The [[internal hom]] in $Op(X)$ is given by
+
+  $$
+    hom(U,V) = (U^c \vee V)^\circ
+  $$
+
+  (the interior of the union of the complement of $U$ 
+  with V).
+
+  So **negation** is given by sending an open subset 
+  to the interior of its complement:
+ 
+  $$
+    \not U = hom(U,\emptyset)
+    = (U^c \vee \emptyset)^\circ = (U^c)^\circ
+    \,.
+  $$
+
+So in particular we find that in the internal logic of $PSh(X)$ we do not have that 
+
+$$
+  (\not U) \vee U = true
+$$
+
+because $\not U \vee U = (U^c)^\circ \cup U = X \backslash {boundary of U}$
+
+is the total space $X$ without the boundary of $U$. 
+
+So the internal logic of a [[Grothendieck topos|presheaf topos]] is [[intuitionistic logic]].
+
+
+
+
+## References 
 
 * Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
 
