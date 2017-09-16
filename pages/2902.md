@@ -71,13 +71,21 @@ square where the two red rectangles overlap, and that has area $4b^2$.
 Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
 thanks to the fact that $\Phi=1+1/\Phi$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
 
-The middle section of this proof is, essentially, a geometric proof of the identity:
+##An identity in the golden ratio##
+
+The middle section of the preceding proof is, essentially, a geometric proof of the identity:
 
 $$\Phi^2+\frac{1}{\Phi^2}=3$$
 
 which can also be verified algebraically from the defining equation for $\Phi$.  We can see this identity a bit more clearly if we remove the leftmost rectangle from the construction, slide the rightmost one down to eliminate the overlap, and take out the overall factor of $t$ from all the sides.  We then have:
 
 [[!include pentagon decagon hexagon identity/golden ratio identity]]
+
+We can also construct a diagram that explicitly shows that the square of the diagonal of a rectangle of dimensions $\Phi$ by $\frac{1}{\Phi}$ is $3$.
+
+[[!include pentagon decagon hexagon identity/golden ratio identity pythagorean]]
+
+Here each red triangle has area $\frac{1}{2}$, so along with the light green unit square the total area is $3$.
 
 #Proof using the icosahedron#
 
@@ -132,11 +140,11 @@ $$\frac{x+1}{x}=x$$
 
 This is just the defining equation for the golden ratio, $\Phi$.  If our icosahedron is regular, the pentagonal pyramid that sits on the pentagon will be made up of equilateral triangles, and its base will be planar.  So we can only get a regular icosahedron if we set $x=\Phi$.
 
-Of course if we're sceptical about the very _existence_ of a regular icosahedron, we need to do a bit more work and confirm that this choice of $x$ actually makes the variable edge length in our generic icosahedron equal to the other edge length that's fixed by the short side of the rectangles (and which we've set at 1).  The squared length is:
+Of course if we're sceptical about the very _existence_ of a regular icosahedron, we need to do a bit more work and confirm that this choice of $x$ actually makes the variable edge length in our generic icosahedron equal to the other edge length that's fixed by the short side of the rectangles (which we've set at $1$ for the sake of simplicity).
 
-$$\frac{\Phi^2+(\Phi-1)^2+1}{4}=\frac{\Phi^2+\frac{1}{\Phi^2}+1}{4}=\frac{3+1}{4}=1$$
+[[!include pentagon decagon hexagon identity/pythagorean icosahedron]]
 
-Here the first step comes directly from the defining equation for $\Phi$, and the second uses the identity we proved earlier, $\Phi^2+\frac{1}{\Phi^2}=3$.
+If we take an edge that projects onto $A Q$ in the diagram above as our example of the variable edge length, we can easily see that the square of $A Q$ itself is $\frac{3}{4}$:  the light green square has area $\frac{1}{4}$, and each red triangle has area $\frac{1}{2} \times \frac{\Phi}{2} \times \frac{1}{2 \Phi} = \frac{1}{8}$.  By construction, both vertices that project onto $Q$ are a distance of $\frac{1}{2}$ from the plane, so the total length of either edge that projects to $A Q$ is $1$.  All the variable edges are congruent, so all $30$ edges are now shown to have a length of $1$.
 
 #References#
 
