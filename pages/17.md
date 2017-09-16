@@ -8,6 +8,13 @@ The following provides more details.
 
 See also the [[FAQ]].
 
+# Software required to use the $n$Lab #
+
+The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML). Most web-browsers -- notably Firefox -- know how to display this. 
+
+But for InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free. 
+
+
 #How to use a Wiki#
 
 Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.
