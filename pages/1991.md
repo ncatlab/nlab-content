@@ -1,3 +1,6 @@
-see 
+See [[schreiber:∞-quantity]].
 
-* [[schreiber:∞-quantity]]
+
+category: redirect
+
+[[!redirects ∞-quantity]]
