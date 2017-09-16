@@ -31,6 +31,7 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 ## 2009-07-19
 
 *  [[Toby Bartels]]:
+   *  Replied to Rafael Borowiecki at [[category theory]] and [[Segal category]].
    *  Linked a blog comment from [[cartesian monad]].
    *  Comments to Eric at [[Note on Formatting]].
    *  Generalised [[refinement of a cover]] to [[refinement]].
