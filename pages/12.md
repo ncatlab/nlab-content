@@ -4,6 +4,14 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ****
 
+Let's try a redirect
+
+[[nitwits]]
+
+It works! Let's try a second redirect to the same page
+
+[[nincompoops]]
+
 \emph{Can we emphasize text?}
 
 *Yes, we can emphasize text.*
