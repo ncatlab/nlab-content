@@ -12,7 +12,7 @@ X^{S^1} & \underset{X^{pt}}{\to} & X^1
 
 (using [[exponential object|exponentials]] to denote internal homs in $Top$), in other words the [[function set|function space]] of basepoint-preserving maps $S^1 \to X$, whose basepoint is the constant map $S^1 \to X$ at the basepoint of $X$.  
 
-The category $Top_*$ is [[symmetric monoidal closed category|symmetric monoidal closed]]; its monoidal product is called the **[[smash product]]**, often denoted $\wedge$. In particular, the loop space functor 
+The category $Top_*$ is [[symmetric monoidal category|symmetric]] monoidal [[monoidal closed category|closed]]; its monoidal product is called the **[[smash product]]**, often denoted $\wedge$. In particular, the loop space functor 
 
 $$\Omega = hom((S^1, pt), -): Top_* \to Top_*$$ 
 
@@ -40,7 +40,7 @@ which follows straight from the adjunction $S \dashv \Omega$ plus the fact that 
 
 The modern study of the question "when can an H-space be delooped?" was inaugurated by [[Jim Stasheff]]. The basic theorem is as follows (all spaces assumed to be CW-complexes): 
 
-+-- {: .query}
++-- {: .un_theorem}
 ###### Theorem
 
 An H-space $X$ admits a delooping if and only if the monoid $\pi_0(X)$ induced from the H-space structure is a group, and the H-space $X$ structure can be extended to a structure of algebra over the [[Stasheff operad]] $K$. 
