@@ -1,3 +1,5 @@
+[[!redirects property-like structure]]
+
 #Idea#
 
 [[category theory|Category theory]] frequently allows to give precise and useful formalized meanings to "everyday" terms, at least terms used everyday by practicing mathematicians. 
