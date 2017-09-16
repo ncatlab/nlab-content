@@ -513,7 +513,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  More new pages:  [[Freudenthal suspension theorem]], [[replete subcategory]], [[strictly full subcategory]].
 
-* [[Zoran Škoda]]: much expanded [[orbifold]], created [[Lie group]], [[compact Lie group, [[orbispace]].
+* [[Zoran Škoda]]: much expanded [[orbifold]], created [[Lie group]], [[compact Lie group]], [[orbispace]].
 
 * [[Urs Schreiber|Urs]] 
 
