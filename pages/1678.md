@@ -5,7 +5,7 @@ coherent $2$-cell.
 
 ## Definitions ##
 
-Given [[bicategories]] $C,D$ and (possibly [[lax functor|lax]]) $2$-[[2-functor|functors]]
+Given (possibly weak) [[2-categories]] $C,D$ and (possibly [[lax functor|lax]]) $2$-[[2-functor|functors]]
 $F,G:C\to D$, a _lax natural transformation_ $\alpha:F\Rightarrow G$
 is given by
 
@@ -33,7 +33,7 @@ $\alpha_f$ is [[isomorphism|invertible]], a _strict_ one if each is
 an [[identity morphism|identity]].  An _oplax_ transformation is as above, only
 with all 2-cells reversed.  As usual, nothing significant
 changes if the definitions of _lax_ and _oplax_ are
-swapped; it is a matter of convention.  (For example, we are following Leinster below, but the [[Elephant]] uses the reverse convention.)
+swapped; it is a matter of convention.  (For example, we are following Leinster, but the [[Elephant]] uses the reverse convention.)
 
 +-- {: .query}
 How consistent are different authors in this convention?  Should we include a warning ---or for that matter, a reassurance?  ---Toby
@@ -51,6 +51,13 @@ $$\partial^{\varepsilon}(\alpha \otimes f) = \partial^{\varepsilon}(\alpha) \oti
 so accordingly, since $dim(\alpha) = 1$, the set of source cells of $\alpha \otimes f$ would be $\{F \otimes f, \alpha \otimes G\}$, if you follow my drift. Street's rule of thumb then is that 'lax' would follow this "normal" order, and 'colax' the opposite. 
 
 _Toby_:  I didn\'t want to say anything before, but my own intuition follows Todd\'s logic.
+
+[[Mike Shulman]]: Actually, my impression is that Leinster and Borceaux (specifically, the convention $\alpha_f: G(f) \circ
+\alpha_A \Rightarrow \alpha_B \circ F(f)$) are on the side of the Australians.  See for instance p189 of Kelly, "On Clubs and Doctrines" in the Sydney Category Seminar reports.  It's also the one originally used by Benabou.  And the acronymic derivation of the word [[icon]] depends on using this convention.
+
+I also think there is a very good reason to use that convention. Namely, given a small 2-category $C$, there is a [[2-monad]], say $T$, on $Cat^{ob(C)}$, whose algebras are functors $C\to Cat$ and such that a lax $T$-morphism, in the general sense of 2-monad theory, is a lax natural transformation with this convention.  Ideally there would be a general rule which we could apply in any given situation to decide which direction should be called "lax" and which "oplax;" this doesn't quite seem to be the case, but 2-monad theory covers the vast majority of cases, so I think we should stick to it whenever possible.
+
+This isn't just for consistency and predictability, but so that we can apply _theorems_ of 2-monad theory without having to worry about the words being swapped around on us.  For example, [[doctrinal adjunction]] says that given a 2-monad $T$ on a 2-category $K$, two $T$-algebras $A$ and $B$, and an adjunction $f:A\leftrightarrows B:g$ in $K$, to give the left adjoint $f$ the structure of a colax $T$-morphism is the equivalent to giving the right adjoint $g$ the structure of a lax $T$-morphism.  This is one of those insufficiently-well-known facts that is frequently rediscovered in special cases.  For instance, given an adjunction between monoidal categories, to make the left adjoint a colax monoidal functor is the same as to make the right adjoint a lax monoidal functor.  And if I have a lax natural transformation $\alpha:F\to G$ such that each component $\alpha_A$ has a left adjoint, then those left adjoints automatically form an oplax natural transformation.  I think this would be unutterably confusing if "lax natural transformations" were the _oplax_ $T$-morphisms.
 =--
 
 The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and [[modification]]s between them.
@@ -92,6 +99,8 @@ See Gray for the case [[strict 2-categories]] and strict 2-functors.
 [[Finn Lawler|Finn]]:  I don't know how natural this is in $F$ and $A$, but I'll try to figure it out.
 
 Also, if you reverse the definitions of lax and oplax transformations, then you should do the same for functors, and I think in that case $I\dashv J$.
+
+[[Mike Shulman]]: Please don't try to reverse the definitions of lax and oplax functors!  As far as I know everyone is consistent about those, regardless of the choices they make about lax and oplax transformations, so let's not create _additional_ confusion.  Lax functors have comparison maps that go $F g \circ F f\to F(g\circ f)$.
 =--
 
 
