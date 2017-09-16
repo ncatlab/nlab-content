@@ -59,81 +59,52 @@ One postscript to this is that although the category of co-$V$-algebra objects i
 
 * If $V$ is the theory of [[abelian group|abelian groups]], than a $V$-algebra is an abelian group, and the corresponding sort of Tall--Wraith $V$-monoid is a [[ring]].
 
-  To understand the last example, we need to think about _co-abelian group objects in the category of abelian groups_.  Abstractly, such a thing is an abelian group object [[internalization|internal to]] $AbGp^{op}$. Concretely, such a thing is an abelian group $A$ together with group homomorphisms
+  To understand the last example, we need to think about _co-abelian group objects in the category of abelian groups_.  Abstractly, such a thing is an abelian group object [[internalization|internal to]] $AbGp^{op}$ (though this picture gets the morphisms the wrong way around; in full abstraction then the category of co-abelian group objects in $AbGrp$ is the _opposite_ category of the category of abelian group objects in $AbGrp^{op}$). Concretely, such a thing is an abelian group $A$ together with group homomorphisms
 
   $$
-  \Delta : A \to A \coprod A, $$
-  $$\epsilon : A \to I $$
+  \begin{aligned}
+  \mu &: A \to A \coprod A, \\
+  \epsilon &: A \to I \\
+  \iota &: A \to A
+  $$
 
   where $I$ is the initial object in the category of abelian groups.  These homomorphisms must satisfy certain laws: just the abelian group axioms written out diagrammatically, with all the arrows turned around.
 
   In fact, $I = \{0\}$.  Thus $\epsilon$ is forced to be the map that sends everything to $0$: we have no choice here.
 
   We also have that $A \coprod A = A \oplus A$.
-That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  Now, one of the laws says that $\epsilon$ is a counit for $\Delta$. This means that $(\epsilon \oplus 1) \Delta = 1$ and similarly for $1 \oplus \epsilon$. Thus $a_1 = a_2 = a$ and $\Delta$ is the diagonal map.  So, we have no choice here either.
+That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  Now, one of the laws says that $\epsilon$ is a counit for $\mu$. This means that $(\epsilon \oplus 1) \mu = 1$ and similarly for $1 \oplus \epsilon$. Thus $a_1 = a_2 = a$ and $\mu$ is the diagonal map.  So, we have no choice here either.
 
-  Indeed, it is easy to show that the triple $(A, \Delta, \epsilon)$ with $\Delta$ the diagonal map and $\epsilon$ the zero map _is_ a co-abelian group object in the category of abelian groups.  Thus the category of co-abelian group objects in the category of abelian groups is isomorphic, via the obvious forgetful functor, to the category of abelian group objects.
+  The diagram for $\iota$ (representing the inverse map) is a little more complicated.  As $I$ is the initial object in $AbGrp$, there is a unique morphism $I \to A$ (inclusion of the zero).  Composing this with $\epsilon$ yields a morphism $A \to A$ which maps every element to the zero in $A$.  Using $\mu$ and $\iota$ we can construct another morphism $A \to A$ as
 
-  (Indeed, our argument here has shown more generally that if $X$ is a category with finite products, the category of comonoid objects in $X$ is equivalent to $X$.  Something about $AbGp$ is making these comonoid objects be co-abelian group objects.)
+  $$
+  A \xrightarrow{\mu} A \coprod A \xrightarrow{1 \coprod \iota} A \coprod A \xrightarrow{\Delta^c} A
+  $$
+
+  where $\Delta^c$ is the co-diagonal.  The relations for abelian groups say that this morphism must be the same as the zero morphism $A \to A$.  Using the fact that $A \coprod A \cong A \oplus A$ and that $\mu$ is the diagonal, this says that $a + \iota(a) = 0$.  Hence, by the uniqueness of inverses for abelian groups, $\iota(a) = -a$.
+
+  Thus _if_ $(A, \mu, \iota, \epsilon)$ is a co-abelian group object in $AbGrp$ then $\mu$ is the diagonal, $\iota$ the inverse from abelian groups, and $\epsilon$ the zero morphism.
+
+  However, that is still not quite the same as saying that $(A, \mu, \iota, \epsilon)$ is a co-abelian group object in $AbGrp$.  Certainly, $(A, \mu, \epsilon)$ is a co-commutative co-monoid object in $AbGrp$ since $\mu$ is the diagonal, which is automatically co-commutative and co-associative, and $\epsilon$ the zero map, which is the co-unit for the diagonal.  What remains is to fit $\iota$ into the structure.
+
+  The first issue is that $\iota$ is not _automatically_ a morphism in $AbGrp$.  That is to say, when defining an algebraic theory then the operations are defined on the underlying objects.  It is a consequence of the relations of abelian groups that the operations lift to morphisms of abelian groups (algebraic theories where this happens for all operations are sometimes called _commutative_).  Thus $\iota$ is a morphism of abelian groups and so $(A, \mu, \iota, \epsilon)$ is a co-commutative co-monoid with an extra unary co-operation.  In fact, it is an involution from the relations for abelian groups.
+
+  The final relation is that $\iota$ is the inverse for $\mu$.  The relation that $\iota$ is the inverse for addition (let us write it as, say, $\alpha$) is that
+
+  $$
+  A \xrightarrow{\Delta} A \times A \xrightarrow{1 \times \iota} A \times A \xrightarrow{\alpha} A
+  $$
+
+  is the zero map $A \to I \to A$.  This is precisely the relation that $\iota$ is the inverse for $\mu$ since we have the following identifications: $\mu = \Delta$, $A \coprod A = A \times A$, and $\Delta^c = \alpha$.  Also, $\epsilon = 0$ and $\eta : I \to A$ is the initial morphism in $AbGrp$.
+
+  Thus the fact that $\iota$ is the inverse for the diagonal+zero co-monoidal structure is due to the fact that $\iota$ is the inverse for $(\alpha,\eta)$ and $\alpha : A \oplus A \to A$ is the co-diagonal in $AbGrp$ and $\eta : I \to A$ is the unit.
 
   +-- {: .query}
-  [[Andrew Stacey]]: I missed the inclusion of the above paragraph first time round.  History ascribes it to John, am I reading that right?
+  [[Andrew Stacey]]: I've deleted the original query boxes.  The above now contains the all the details, but I suspect that there may be neater ways of putting it and other ways to see it.  If so, these are certainly worth discussing but I think that the above is a new launching point for discussion.  If anyone is interested in the discussion that led up to that point then they can look in the history but I don't think that that is necessary to discuss the above.
 
-  [[John Baez]]: Yup.  It's a standard and very useful piece of wisdom that if $X$ is a category with finite products, the category of comonoid objects in $X$ is equivalent to $X$.  So, I couldn't resist pointing out that you'd proved that here.  Ultimately this very general fact should be moved somewhere else.  For example, this fact explains why people talk a lot about 'monoids' in the category of sets, but never 'comonoids'.
-
-  [[Andrew Stacey]]: Expanding your statement, then the above shows that the category of comonoid objects in $(X,\times,1)$ (where $1$ is a terminal object) is equivalent to $X$.  The "[s]omething about $AbGrp$" is that in $AbGrp$ then finite coproducts are the same as finite products.  Thus a monoid object in $(AbGrp^{op},\times^{op},1^{op})$ is the same as a comonoid object in $(AbGrp,\coprod,0)$ which is the same as a comonoid object in $(AbGrp,\prod,1)$.  I guess we implicitly use the fact that monoids (and thus comonoids) can be specified by finitary operations and relations.
-
-  [[John Baez]]:  That's not the "something about $AbGrp$" that I was hinting at.  I was taking it for granted that finite products and finite coproducts are the same in $AbGrp$.   
-
-  You were trying to show that co-abelian group objects in the category of abelian groups are the same as abelian groups.  
-
-  A general argument shows that comonoid objects in a category with finite products are the same as objects.  
-
-  So we see comonoid objects in $AbGrp$ are the same as abelian groups. 
-
-  But we still need to see that _**comonoid** objects in $AbGrp$ are the same as **co-abelian group** objects in $AbGrp$_.
-
-  The quickest way to see this seems to be a little calculation --- as you say, it's "easy to show".  But I still think "there's something about $AbGrp$" that makes this calculation work --- some general fact.  Something about morphisms having negatives, I think.  So I bet it's true in any abelian category $X$, that comonoid objects in $X$ are the same as co-abelian group objects in $X$.
-  
-  But never mind... 
-
-  [[Andrew Stacey]]: Ah, now I see.  It's the difference between "abelian group" and "monoid" that you're interested in.  Okay, I'll think about that.
-
-  By the way, I'm not clear about how to interpret your hints.  Do you already know the answer to this and are trying to teach me some category theory by leading me through it, or do you not know and are hoping that, polymath-style, we'll figure it out without either of us having to expend too much energy?  Either is fine by me (I need to learn some more Cat. Th. so any help is helpful!), I just like to know which track I'm on.
-
-  [[John Baez]]: I guess I'm just trying to figure it out. From the very start I knew _some_ answer to why comonoid objects in $AbGp$ are co-abelian group objects: namely, when you check, you see it's true.  But I like to understand these things using general principles, so I was wondering what general principle was at work here.  My current best guess is not very profound: it's "every comonoid object in an abelian category is a co-abelian group object", or if you prefer, "every object in an abelian category becomes a co-abelian group object in a unique way" - a variation on the well-trodden theme of "every object in a category with finite products becomes a cocommutative comonoid in a unique way".
-
-  [[Andrew Stacey]]: It's getting late here so I'll be brief, but I was thinking about it while cycling home today.  There are two pieces: the missing operation and the extra relations.  The missing operation comes from the fact that the missing one is a _unary_ operation and so the original operation of inverses from the structure of abelian groups is at least a candidate for the operation of inverse in the co-abelian group structure.  To show that it works, one first has to lift it from a morphism of sets (which is what it is as part of the structure of the category of abelian groups) to one of abelian groups.  This relies on the fact that the category of abelian groups has the special structure that all of its operations commute (lift from $Set$ to $AbGrp$).  Then one has to show that all the relations are satisfied.  This again follows from this commutativity propery.  The relations for abelian groups (at least, most of them) correspond to this commutativity relation.  Thus since comonoids in $AbGrp$ is isomorphic to $AbGrp$, any morphism of $AbGrp$ is also a morphism of comonoids in $AbGrp$ and thus all the operations commute.
-
-  I'm not sure how comprehensive that was so let me summarise: the special structure that you are looking for is that in abelian groups, all operations commute; or equivalently, all operations lift to morphisms of abelian groups.  This is needed both in the category $AbGrp$ to get the missing operation, and in the algebraic theory $AbGrp$ to see that the operations for the comonoid structure (plus the missing one) satisfy the relations for an abelian group.
+  And remember what Tony Blair said: _Indentation, Indentation, Indentation_.
   =--
-
-+-- {: .query}
-[[Andrew Stacey]]: PS Don't forget to indent paragraphs in this query box.
-
- [[John Baez]]: Huh, wow, it really makes a big difference.
-
-[[Andrew Stacey]]: can't tell if you're being sarcastic here.  If so, try leaving a comment with _absolutely no_ indent and see what chaos ensues.
-
-[[John Baez]]: No, I wasn't being sarcastic.  I tried it and saw what chaos ensued.  But further down the page we're having a boxed discussion without these darned indents, and it's working fine.  So why bother with indents in the first place?
-
-_Toby_: The purpose of the indentation is to keep the query box with the appropriate entry in the unnumbered list.  Besides the obvious (and obviously small) aesthetic advantage, this does two things when it happens in the middle of a list:
-*  it helps the diff mechanism tell when a query box is inserted or removed with no other change to the list;
-*  it keeps the numbering in a numbered list correct.
-
-[[Lab Elf]]: Actually, it does more than that.  Without the indentation then the parser gets really confused as to where the list ends.  It tries to end the list before the comment ends, but that would lead to malformed XHTML so somewhere the offending section gets removed.  Have a go at removing the indentation of a comment and see what happens.
-
-The thing to remember is that indentation _means_ something and so should only be added or removed by experienced Lab Elves who have undergone rigorous training in how to safely remove indentation without risking danger to the public.
-
-The rule is: the _contents_ of a query box (or other box: theorems, proofs, all come under this heading) should have the same indentation (or more) as the opening demarkation.
-
-_Toby_:  But none of that terrible XHTML-destroying stuff will happen if you consistently indent *nothing* in the query box, which is what John asked about.  Just for kicks, I have removed all indentation from this box; it destroys the list structure, but leaves perfectly good XHTML.
-
-[[Andrew Stacey]]: Yes, but you cheated by un-indenting the query box.  So this complies with the rule that the wise and sagacious lab elf outlined and so does not produce malformed XHTML to be cleaned up by the sanitiser.  However, it does muck up the list and makes what appears below look like it is not part of the example.  If no-one beats me to it, I'll add something to the FAQ or HowTo about it.
-
-_Toby_:  I didn\'t cheat, I did what John was suggesting when he asked 'So why bother with indents in the first place?'.  The answer to that is what I said: it mucks up the list otherwise.  If you indent only partially, *then* you muck up the query box too (and I\'ll accept, although I haven\'t checked, that you get bad XHTML), but John\'s already learned that lesson.  (Or maybe I\'m misinterpreting what he said.)
-=-- 
-
+ 
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
 
   Thus a Tall--Wraith monoid for abelian groups is actually an ordinary monoid in the category of abelian groups: in other words, a [[ring]]!
@@ -221,8 +192,22 @@ That's my rant over
 
 _Toby_:  Just stepping in to clear the air about what Jim Dolan actually does.  Here is an example, not as he would write it, but using symbols as he would write them on a blackboard:
 > Let $C$ be a category.  Let $C_0$ and $C_1$ be objects of $C$.  Let $C_2$ be a morphism from $C_0$ to $C_1$.  ...
+
+[[Andrew Stacey]]: John, I completely agree with your points but I think that you're being a bit pessimistic.  Yes, 99% of mathematicians will misuse a new feature to make their presentations or articles dire.  But they would have been dire without those new features.  The remaining 1% should be encouraged to use the new features to make their already-excellent stuff even better.  The great thing about the wiki-format is that _someone else_ can go along later putting in those notational footnotes.  Indeed, it is _better_ if it is someone else because it is clearer to the non-author where they should be.  After all, I know what $VV^c$ means when I write it so I don't need reminding.  You, or someone else, aren't so familiar with the notation so can - and should - put in the little reminders.  What makes this easiest is if I have _already_ put a little notational summary at the bottom of the page so that all you have to do is add the correct link wherever you think it necessary.
+
+Of course none of this excuses me explaining the terms correctly and thinking carefully about what notation I ought to use.  But just because it has the potential to be horribly misused doesn't mean that we should shun it if it also has the potential to make stuff much better.
+
+The fact that this stuff is on the web should make a difference.  Otherwise we may as well just have a load of PDFs of LaTeX documents.  The big addition of the web is the ability to link documents and to navigate back and forth between those links.  We should be experimenting with this and trying out different ways to implement it.
+
+Which has gotten us a long way from the argument as to whether or not $\mathcal{V}$ is a category or not!
+
+My principle, which I'm quite happy to take to any extreme, is: whatever aids comprehension is Good, whatever hinders it is Bad.  Careful choice of notation is Good, "fancy fonts for fancy gizmos" is _by itself_ Bad.
+
+On the issue as to whether or not we should use $\mathcal{A}$ and so forth, I'm less inclined to be kind to our Dear Readers.  We already insist that they be able to read MathML.  That puts a fairly high barrier on entry, I don't think that requiring the fonts puts that much higher.  If you do want to impose this rule, then someone needs to do some extensive testing to find out what is and isn't allowed.
 =--
 
 
 [[!redirects Tall--Wraith monoid]]
 [[!redirects Tall–Wraith monoid]]
+[[!redirects Tall--Wraith monoids]]
+[[!redirects Tall–Wraith monoids]]
