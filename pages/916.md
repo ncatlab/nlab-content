@@ -22,8 +22,18 @@ We consider two partial functions (with the same given source and target) to be 
 
 # Examples #
 
-In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in a more sophisticated analysis (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
+In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in a more sophisticated analyses (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
 
-In analysis, one often considers partial functions whose domains are required to be intervals (in the real line) or regions (in the complex plane).
+In analysis, one often considers partial functions whose domains are required to be intervals in the real line, regions of the complex plane, or dense subsets of a Banach space.
 
 In a [[field]], the multiplicative [[inverse]] is a partial function whose domain is the set of non-zero elements of the field.
+
+# The category of partial functions #
+
+The [[category]] $Set_part$ of sets and partial functions between them is important for understanding computation.  However, one often replaces this with an [[equivalence of categories|equivalent]] category of sets and total functions.
+
+Specifically, replace each set $S$ with the set $S_\bot$ of all [[subset]]s of $S$ with at most one element.  In this context, we identify an element $x$ of $S$ with the subset $\{x\}$ and write the [[empty set|empty]] subset as $\bot$.  Then a partial functon $S \to T$ becomes a total function $S_\bot \to T_\bot$ such that [[inhabited set|inhabited]] subsets of $T$ are assigned only to inhabited subsets of $S$.  Then $Set_part$ is equivalent to the category $Set_\bot$ of such sets and functions.
+
+Classically, $S_\bot \cong S \amalg \{\bot\}$, although this is not true [[constructive mathematics|constructively]].  Then the category $Set_part$ becomes equivalent to the category $Set_*$ of [[pointed set]]s and total point-preserving functions.  Traditionally, one uses the notation of $Set_\bot$ but (unless one is a constructivist) thinks of this as simply different notation for $Set_*$.
+
+For a more sophisticated analysis of computation, $Set_\bot$ can be replaced with a suitable category of domains, such as [[direction|directed]] [[complete lattice|complete]] [[partial order|partially ordered]] sets (DCPOs).  The requirement that $\bot$ be preserved can then be removed to model lazy computation, but now we are hardly talking about partial functions anymore.
