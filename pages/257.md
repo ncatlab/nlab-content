@@ -14,7 +14,7 @@
 
 #Idea#
 
-A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing homotopy theory.    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
+A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing [[homotopy theory]].    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
 
 So, what is a model category?  Roughly speaking, it is 
 a [[category with weak equivalences]] that is equipped with extra structure which  facilitates the computation and handling of its [[simplicial localization]].  This simplicial localization is an [[(∞,1)-category]]: it keeps track of objects in the model category, morphisms between objects, homotopies between maps, homotopies between homotopies, and so on, _ad infinitum_.  We say this [[(∞,1)-category]] is _modeled_ by the model category.
