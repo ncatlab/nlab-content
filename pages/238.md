@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * further developed the section "In terms of geometric embedding" at [[sheaf]], but will continue later. I am lacking (at least) one argument in one of the proofs currently...
+
   * created [[Bertrand Toën]] (and [[Bertrand Toen]] as a redirect)
 
 # 2009-05-24 #
