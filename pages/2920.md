@@ -186,7 +186,7 @@ $$
 
 is a weak equivalence of simplicial sets. 
 This is described in detail at 
-[enriched homs from cofibrants to fibrants](http://ncatlab.org/nlab/show/(infinity%2C1)-categorical+hom-space#EnrichedHomsCofToFib).
+[enriched homs from cofibrants to fibrants](http://ncatlab.org/nlab/show/%28infinity%2C1%29-categorical+hom-space#EnrichedHomsCofToFib).
 
 =--
 
