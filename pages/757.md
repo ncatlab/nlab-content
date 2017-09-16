@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 To the extent that a [[model category]] is a [[presentable (infinity,1)-category|presentation]] of an [[(infinity,1)-category]], the [[localization]] of a model category is a presentation for the [[localization of an (infinity,1)-category]].
