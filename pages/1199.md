@@ -12,7 +12,11 @@ Note that this is precisely what is necessary to validate induction over $\prec$
 
 Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f: S \to T$ is a __morphism__ of sets so equipped if
 *  $f(x) \prec f(y)$ if and only if $x \prec y$ and
-*  $f$ induces a [[bijection]] between $\{t \;|\; t \in x\}$ and $\{t \;|\; t \in f(x)\}$.
+*  $f$ induces a [[bijection]] between $\{t \;|\; t \prec x\}$ and $\{t \;|\; t \prec f(x)\}$.
+
++--{: .query}
+[[Mike Shulman|Mike]]: The notion of morphism between well-founded relations that seems most important to me is a **simulation**: a function $f:S\to T$ which preserves $\prec$ and such that for all $s$ and $t\prec f(s)$, there exists $s'\prec s$ with $f(s)=t$.  For instance, these are the morphisms that model subset inclusions when reconstructing pure sets in structural set theory.
+=--
 
 ## Examples ##
 
@@ -35,12 +39,6 @@ While the definition above follows how a well-founded relation is generally *use
 1. The relation $\prec$ is well-founded if and only if every [[inhabited set|inhabited]] subset $A$ of $S$ has a member $x \in A$ such no $t \in A$ satisfies $t \prec x$.  (Such an $x$ is called a _$\prec$-minimal_ element of $A$.)
 
 Lemma (1) is essentially Fermat\'s method of _infinite descent_.  Lemma (2) is traditionally used to state the [[axiom of foundation]], since then it may be expressed as a single axiom (rather than a schema) that doesn\'t really on infinity (as infinite descent does).  Either may be seen in the literature as simpler than our definition above.
-
-+--{: .query}
-[[Mike Shulman|Mike]]: Why is Lemma (2) not higher-order?  It still involves a quantifier over subsets.
-
-_Toby_:  Sorry, I was thinking about the [[axiom of foundation]], but that\'s a special circumstance.  I\'ll rephrase.
-=--
 
 However, neither of these is acceptable in [[constructive mathematics]], since both lemmas require the principle of [[excluded middle]] to prove one direction.  The nonexistence of infinite descending sequences is too weak to allow proofs by induction (except for special forms of $A$), although it is sufficient to establish the [[Burali-Forti paradox]].  On the other hand, the requirement that every inhabited subset have a minimal element is too strong to ever be established (except for degenerate cases of $S$).  When necessary, we call a relation with the property of Lemma (2) **classically well-founded**.
 
