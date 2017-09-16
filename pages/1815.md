@@ -18,3 +18,10 @@ But should this page, mentioning Eilenberg-Steenrod, be about generalized _stabl
 ##Reference##
 
 * Hans Baues, Algebraic Homotopy, Cambridge University Press, 1989, p. 117
+
+
+[[!redirects generalized (Eilenberg--Steenrod) homotopy]]
+[[!redirects generalized (Eilenberg–Steenrod) homotopy]]
+[[!redirects generalized (Eilenberg-Steenrod) homotopy theory]]
+[[!redirects generalized (Eilenberg--Steenrod) homotopy theory]]
+[[!redirects generalized (Eilenberg–Steenrod) homotopy theory]]
