@@ -252,6 +252,8 @@ A nicely helpful introduction and survey is provided in the notes
 
 * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://math.uoregon.edu/~ddugger/cech.dvi))
 
+This in particular gives a detailed account on the relation and difference between the "Cech model structure" (section 3) which localizes (only) at Cech [[cover]]s, and the Jardine model structure (section 4), which localizes at all [[stalk]]wise weak equivalences ([[hypercover]]s). The latter is what in [[Higher Topos Theory|HTT]] is called the _hypercompletion_ .
+
 The standard, but somewhat more terse, lecture notes are
 
 * **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
