@@ -6,6 +6,10 @@
 [[!include (infinity,1)-topos - contents]]
 </div>
 
+#Contents#
+* tic
+{:toc}
+
 
 There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. It turns out that all of them are subsumed in the following general definition.
 
