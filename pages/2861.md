@@ -31,9 +31,11 @@ There is a [[cartesian closed category|cartesian closed]] [[category with weak e
 
   $-1$-groupoids are spaces which are either empty or contractible.  $-2$-groupoids are spaces which are contractible.  So $k=-2$ is the completely trivial case; it's included for completeness.  -- Charles
 
-  I do know what a $(-2,0)$-category is, a triviality as you say.  But for $n \gt 0$, an $(n-2,n)$-category is the same as an $(n-2,n-1)$-category as far as I can see.  (Note: I say this *without* having worked through Rezk\'s version, but just thinking about what $(n,r)$-categories should be, as at [[(n,r)-category]].)  ---Toby
+  I do know what a $(-2,0)$-category is, a triviality as you say.  But for $n \gt 0$, an $(n-2,n)$-category is the same as an $(n-2,n-1)$-category as far as I can see.  (Note: I say this *without* having worked through your version, but just thinking about what $(n,r)$-categories should be, as at [[(n,r)-category]].)  ---Toby
 
   I would say: $(n-2,n)$-category is a trivial concept, for every $n$, though $(n-2,n-1)$ isn't.  An $(n+1+k,n+1)$-category should amount to a category enriched over $(n+k,n)$-categories.  An $(-2,0)$-category is trivial (a point); an $(-1,1)$-category is a category enriched over the point, and so equivalent to the terminal category; an $(0,2$-category is a category enriched over categories which are equivalent to the terminal category (and so equivalent to the terminal $2$-category, etc.) -- Charles R.
+
+  H\'m, that is a good argument.  (Sorry for not noticing before that you *are* Charles Rezk; for some reason I though of [[Charles Wells]].)  ---Toby
   =--
 
 as the [[category of fibrant objects]] in a [[model category]] $\Theta_n Sp_k$. The underlying [[category]] of this is the category $SPSh(\Theta_n)$ on a certain category $\Theta_n$, equipped with a model structure obtained as a left [[Bousfield localization]] of the global injective [[model structure on simplicial presheaves]].
