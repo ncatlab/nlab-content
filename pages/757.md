@@ -102,6 +102,10 @@ This is theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067))
 
 =--
 
+> In _ModLoc_ this is stated for left propoer [[cellular model category|cellular model categories]]. Need to say something about the relation...
+
+
+
 This statement is generalized to the context of [[enriched model category]] theory by the following result:
 
 +-- {: .un_theorem }
