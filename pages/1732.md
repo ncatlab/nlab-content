@@ -1,8 +1,8 @@
-This entry is about a book whose title has not been determined --- something like this:
+[[!redirects Approaching Higher Category Theory]]
+This is a book on higher categories:
 
-* [[John Baez]], [[Peter May]], _Approaching Higher Category Theory_, Institute for Mathematics and its Applications, to appear.
+* [[John Baez]] and [[Peter May]], [_Towards Higher Categories_](http://ncatlab.org/johnbaez/show/Towards+Higher+Categories), Institute for Mathematics and Its Applications, to appear.
 
-The information about this book has been moved to [John Baez's personal web](http://ncatlab.org/johnbaez/show/Approaching+Higher+Categories), so please go there.
 
 ***
 
