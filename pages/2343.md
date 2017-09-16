@@ -55,3 +55,7 @@ Similarly, one can express the descent properties of higher stacks via the usual
 * [[Jacob Lurie]], [[Deformation Theory]], ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091))
 
 * S. Schwede, _Spectra in model categories and applications to the algebraic cotangent complex_, J. Pure Appl. Alg. __120__, 77--104 (1997) (<a href="http://dx.doi.org/10.1016/S0022-4049(96)00058-8">doi</a>)
+
+A short exposition (from the point of view of [[formal schemes]]) is in
+
+* chapter 5 (5.29-5.31) in Luc Illusie, _Grothendieck's existence theorem in formal geometry_, in [[FGA explained]] (179--233) MR2223409; (draft version [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes)) 
