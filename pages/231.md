@@ -119,7 +119,20 @@ Selinger discusses autonomous, balanced, braided, compact closed, pivotal, ribbo
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
 
-In fact a *strict* monoidal category is just a [[monoid]] internal to the category [[Cat]].  Unfortunately this definition is circular, since to define a monoid internal to [[Cat]], we need to use the fact that [[Cat]] is a monoidal category!  Furthermore, hardly any of the monoidal categories in nature are strict. So, we need to weaken the definition of monoidal category, and this is where the subtleties come in: we need the associator, left unitor, and right unitor to satisfy some 'coherence laws' --- e.g. the pentagon identity.  
+In fact a *strict* monoidal category is just a [[monoid]] internal to the category [[Cat]].  Unfortunately this definition is circular, since to define a monoid internal to [[Cat]], we need to use the fact that [[Cat]] is a monoidal category!  Furthermore, hardly any of the monoidal categories in nature are strict. 
+
++--{.query}
+
+ [[Ronnie Brown]]
+I entirely understand that most monoidal categories in nature are not strict, and CWM gives an example to show that you cannot even get strictness for the cartesian product. On the other hand, for the cartesian product we get coherence properties directly from the universal property. 
+
+Now the tensor product in many monoidal categories in nature comes from the cartesian product, but with more elaborate morphisms. Thus the tensor product of vector spaces comes from bilinear maps. The associativity of this tensor product comes from looking at trilinear maps, and so derives from the associativity of the cartesian product. In a sense, this tensor product is as coherently  associative as the cartesian product, which could means that in a rough and ready way we do not need to worry. 
+
+My query is whether there is a study of  this kind of argument in categorical generality? 
+
+=--
+
+So, we need to weaken the definition of monoidal category, and this is where the subtleties come in: we need the associator, left unitor, and right unitor to satisfy some 'coherence laws' --- e.g. the pentagon identity.  
 
 But _where do the coherence laws come from?_  
 
