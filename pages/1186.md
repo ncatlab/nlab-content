@@ -57,17 +57,19 @@ This means that it is desireable to get hold of presentable $(\infty,1)$-categor
 
 An [[(∞,1)-category]] $C$ is **presentable** precisely 
 
-* if there exists a combinatorial [[simplicial model category]] $A$ and an equivalence $ C \simeq N(A^\circ)$,
-where $A^\circ$ is the full [[SSet]]-subcategory of $A$ on fibrant-cofibrant objects and where $N(A^\circ)$ is the [[quasi-category]] arising as the simplicial nerve of $A^\circ$.
+* if there exists a [[combinatorial simplicial model category]] $A$ and an equivalence $ C \simeq N(A^\circ)$.
 
+
+  Here $A^\circ$ is the full [[SSet]]-subcategory of $A$ on fibrant-cofibrant objects and where $N(A^\circ)$ is the [[quasi-category]] arising as the [[homotopy coherent nerve]] of $A^\circ$.
 
 This is equivalent to all of the following equivalent statements.
 
 
 * $C$ is [[accessible (infinity,1)-category|accessible]] and admits small [[limit in quasi-categories|colimits]];
 
-* there exists a small $(\infty,1)$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(∞,1)-category of (∞,1)-presheaves]] on $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
+* $C$ is the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]]:
 
+  there exists a small $(\infty,1)$-category $D$ and a functor $f: PSh(D) \to C$ from the [[(infinity,1)-presheaf|(∞,1)-category of (∞,1)-presheaves]] on $D$ with a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
   * (if in addition $f$ is left [[exact functor|exact]] then $C$ is an [[(∞,1)-category of (∞,1)-sheaves]] on $C$)
 
@@ -87,7 +89,7 @@ This is equivalent to all of the following equivalent statements.
 
 See
 
-* [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
+* [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
 
 # References #
 
@@ -95,11 +97,11 @@ This is the topic of section 5 and section A.3.7 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-The long list of equivalent statements above is theorem 5.5.1.1., which is originally due to Carlos Simpson.
+The long list of equivalent statements above is theorem 5.5.1.1., which is originally due to [[Carlos Simpson]].
 
 
 The characterization in terms of 
-[[combinatorial simplicial model category|combinatorial simplicial model categories]] is proposition A.3.7.6.
+[[combinatorial simplicial model category|combinatorial simplicial model categories]] is [[Higher Topos Theory|HTT, prop A.3.7.6]].
 
 [[!redirects presentable (infinity,1)-categories]]
 [[!redirects presentable (∞,1)-category]]
