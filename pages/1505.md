@@ -17,6 +17,7 @@ Bertrand To&euml;n is a mathematician at the University of Toulouse. He works on
 
 * [[higher topos theory]]
 
-category: biography
+
+category: people
 
 [[!redirects Bertrand Toen]]
