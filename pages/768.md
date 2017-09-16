@@ -66,3 +66,5 @@ The simplicial sets here are playing the role of 'topological data'.
 #Moduli spaces#
 
 The notion of **[[moduli space]]** is closely related to that of classifying space, but has some subtle differences. See there for more on this.
+
+[[!redirects classifying spaces]]
