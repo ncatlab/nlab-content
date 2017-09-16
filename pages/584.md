@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 #Idea#
 
 $n$-Dimensional [[manifolds]] (possibly and usually equipped with certain structure, notably for instance with orientation) should naturally form an [[(∞,n)-category]] of [[extended cobordisms]] whose
