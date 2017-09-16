@@ -1,22 +1,26 @@
 # Idea #
 
-Algebraic K-theory is the study of [[K-theory]] of categories more general than that of [[vector bundle]]s on a [[topological space]], which is the topic of [[topological K-theory]].
+Algebraic K-theory is the study of [[K-theory]] of categories more general than that of (bounded [[chain complex]]es of) [[vector bundle]]s on a [[topological space]], which is the topic of [[topological K-theory]].
 
-In __algebraic $K$-theory__ one studies generalizations where the category of vector bundles is replaced by some other sufficiently nice [[category]] that presents a [[stable (infinity,1)-category]] in some way.
+In its simple form _algebraic K-theory_ provides tools for computing the [[Grothendieck group]] of suitable categories. In its more refined form it studies the [[K-theory spectrum]] assigned to these categories. Crucuial tools for this go by the name [[Q-construction]] and [[Waldhausen S-construction]].
 
-For instance 
+Types of categories for which a theory of algebraic K-theory exist include notable the notions
+
+* [[Quillen exact category]] 
+
+* [[abelian category]]
+
+* [[Waldhausen category]], 
+
+* [[triangulated category]].
+
+Concrete examples of interest include for instance
 
 * the category of finitely generated [[projective object]]s over a unital $k$-[[associative unital algebra|algebra]], 
 
 * the category of [[coherent sheaf|coherent sheaves]] over a [[noetherian ring|noetherian]] [[scheme]],
 
 * the category of locally free sheaves over a scheme, 
-
-* a [[triangulated category]], 
-
-* a [[Waldhausen category]], 
-
-* a [[Quillen exact category]] 
 
 and the like. 
 
