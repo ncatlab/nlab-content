@@ -36,7 +36,7 @@
 
 * [[Models for Smooth Infinitesimal Analysis]]
 
-  * [[smooth algebra]] ($C^\infty$-ring)
+  * [[smooth algebra]] (C-∞-ring)
 
   * [[smooth loci]]
 
