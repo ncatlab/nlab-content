@@ -9,15 +9,17 @@ for related entries see
 #Idea#
 
 The concept _gerbe_ is a [[vertical categorification|categorification]]
-of the concept [[principal bundle]].
+of the concept of [[principal bundle]], together with a generalisation analogous to that from bundles to [[sheaf|sheave]]s.
 
-Recall that a [[principal bundle]] is a space $P$
+Recall that a $G$-[[principal bundle]] (for $G$ a [[group]]) is a space $P$
 equipped with a map $P \to X$ to a base space $X$,
-such that each [[fiber]] of $P$ looks like the group $G$
+such that each [[fiber]] of $P$ looks like $G$
 in a nice way.
 
-A _gerbe_ is similarly a space $P \to X$ such that
+A _$G$-gerbe_ is similarly a space $P \to X$ such that
 each fiber looks like $\mathbf{B}G$ in a nice way.
+We can also replace $G$ with a sheaf of groups,
+or even with a $2$-[[2-group|group]].
 
 Here "space" may mean ordinary [[topological space]]. In that case
 $\mathbf{B} G$ is the [[classifying space]] of the group $G$
@@ -46,12 +48,10 @@ gerbes are traditionally, originally by Giraud,
 introduced as 1-[[stack]]s with extra
 [[stuff, structure, property|properties]], one need not mention
 any details of stacks for describing the concept and behaviour
-of gerbes, all one needs is to remember that $\infty$-stacks are general notions of spaces, for which there is the familiar toolbox from [[homotopy theory]] of spaces, notably notions if [[homotopy limit|homotopy pullback]] and [[fibration sequence]]. This makes transparent the relation between
+of gerbes, all one needs is to remember that $\infty$-stacks are general notions of spaces, for which there is the familiar toolbox from [[homotopy theory]] of spaces, notably notions of [[homotopy limit|homotopy pullback]] and [[fibration sequence]]. This makes transparent the relation between
 
 * gerbes
-
-* Stasheff-Wirth fibrations  
-
+* Stasheff--Wirth fibrations  
 * nonabelian group extensions.
 
 All of these are the same structure implemented in different contexts of generalized spaces.
@@ -60,16 +60,16 @@ For instance the last item here interprets extensions $G \to H \to K$ of a [[gro
 
 
 
-When the [[group]] $G$
-in question is abelian, the theory of gerbes is
+When the group $G$
+in question is [[abelian group|abelian]], the theory of gerbes is
 very straightforwardly the generalization of that of [[principal bundle]]s,
 because in this case the one-object [[groupoid]] $\mathbf{B}G$ 
 obtained by shifting $G$ in categorical degree (see the discussion at [[group]]) 
 still has itself a 
-group-structure: t is a [[2-group]]. Much of what makes 
+group-structure: it is a [[2-group]]. Much of what makes 
 the discussion of nonabelian gerbes less than obvious is due to the
 fact that when $G$ is not abelian then the way in which $\mathbf{B}G$
-still relates to a group-like structure is slightly more involved and proceeds via the [[2-group|automorphism 2-group]] $AUT(G)$ of $G$.
+still relates to a group-like structure is slightly more involved and proceeds via the [[automorphism 2-group]] $AUT(G)$ of $G$.
 
 Recall that an ordinary $G$-[[principal bundle]] $P \to X$
 is a fibration of (generalized) spaces for which there is a 
@@ -91,7 +91,7 @@ choice of point ${*} \to X$ of $X$ to the left to a fibration sequence
 $G \to P \to X \to \mathbf{B}G$. This says that the fiber of $P \to X$ over each
 point looks like the group $G$. General nonsense implies then
 that the action of $G$ on itself induces an action of $G$ on all of $P$
-and that this action is indeed [[principal bundle|bundle]].
+and that this action is indeed [[principal bundle|principal]].
 
 When $G$ is an abelian group, so that $\mathbf{B}G$ itself has a group
 structure, the object $\mathbf{B}\mathbf{B}G$ exists and the above
@@ -135,7 +135,7 @@ $$
 in the [[homotopy category of an (infinity,1)-category|homotopy category]] of our generalized spaces, it is a tautology that these $G$-gerbes are classified by $H^2(X,G)$. 
 
 Notice in particular that for $G = U(1)$ we have $H^2(X, U(1)) \simeq H^3(X, \mathbb{Z})$, so that $U(1)$-gerbes in the above sense are classified by third integral cohomology.
-This classification statement was the main motivatoin for the study of the relaization of the notion of gerbe that goes by the name [[bundle gerbe]].
+This classification statement was the main motivatoin for the study of the realization of the notion of gerbe that goes by the name [[bundle gerbe]].
 
 
 In this fashion, for $G$ abelian, the entire concept of 
@@ -154,8 +154,9 @@ $$
 $$
 
 Accordingly, such $(n-1)$-gerbes for $G$ abelian are classified in [[cohomology]] by $H^{n+2}(X,G)$.
+(Another way to see why this is possible for $G$ an abelian group is that not only is $\mathbf{B}G$ a $2$-group, but $\mathbf{B}^n G$ is an $(n-1)$-[[n-group|group]], which is what we need in general for an $n$-gerbe.)
 
-Moreover, for $A$ any connected generalized space (any parameterized $\infty$-groupoid
+Moreover, for $A$ any pointed connected generalized space (any parameterized $\infty$-groupoid
 with a single object),
 we may say that $A$-principal $\infty$-bundles are fibrations $P \to X$
 classified in this way by classifying morphisms $X \to A$
@@ -173,23 +174,23 @@ The fiber of such an $\infty$-bundle is the [[loop space object]] $\Omega A$.
 The classifying morphism $X \to A$ is then called a cocycle in
 [[nonabelian cohomology]].
 
-In particular, for $G_{(2)}$ any [[2-group]] (not necessarily of the
-form $G_{(2)} = \mathbf{B}G$ for $G$ an abelian group as above) a $G$-[[principal 2-bundle]] is a fibration in this sense classified
-by a morphism $X \to \mathbf{B} G_{(2)}$. The typical fiber of
-such a 2-bundle looks like $G_{(2)}$.
+In particular, for $H$ any [[2-group]] (not necessarily of the
+form $H = \mathbf{B}G$ for $G$ an abelian group as above) an $H$-[[principal 2-bundle]] is a fibration in this sense classified
+by a morphism $X \to \mathbf{B} H$. The typical fiber of
+such a $2$-bundle looks like $H$.
 
 Now, a $G$-gerbe for $G$ nonabelian is supposed to be a fibration
 whose typical fiber is $\mathbf{B}G$. Since this is not a [[2-group]],
 one has to say what one wants to mean by this.
 
 This now is the crucial fact that translates between the
-straightfoirward definition of $G_{(2)}$-[[principal 2-bundle]]s
+straightfoirward definition of $H$-[[principal 2-bundle]]s
 as above and the notion of $G$-gerbe:
 
 For every group $G$, there is the [[2-group]] $AUT(G)$, defined equivalently
 as follows:
 
-* $AUT(G)$ is the automorphism 2-group of the [[groupoid]] $\mathbf{B}G$, i.e. 
+* $AUT(G)$ is the automorphism $2$-group of the [[groupoid]] $\mathbf{B}G$, i.e. 
   $$
     AUT(G) = Aut_{Grpd}(\mathbf{B}G)
     \,;
@@ -229,8 +230,8 @@ This is the general nonsense underlying the concept of gerbe.
 See also
 
 * [[gerbe (as a stack)]]
-
 * [[bundle gerbe]].
+
 
 #References#
 
