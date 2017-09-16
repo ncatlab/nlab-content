@@ -14,7 +14,22 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-24 #
 
-* [[Urs Schreiber|Urs]]: made the comma category explicit on which a [[simplicial local system]] is a functor
+* [[Urs Schreiber|Urs]]: 
+
+  * added to [[generalized universal bundle]] the remark that it is a means to compute the "lax pullback" (really: [[comma object]]) of a point.
+
+  * added at [[category of elements]] the equivalent definition in terms of comma category and in terms of pullbacks of the universal Set-bundle -- and in terms of "lax pullback" (comma object) of the point
+
+    * added a link to [[category of elements]] at [[ind-object]] where we recently had a discussion about this point
+
+  * added the discussion and diagram at [[comma category]] characterizing it as a [[comma object]] 
+
+    * (and notice that [[comma object]] seems to be lacking the intended diagram)
+
+    * added link and remark to [[comma object]] and [[comma category]] at [[co-Yoneda lemma]]
+
+  * made the comma category explicit on which a [[simplicial local system]] is a functor
+
 
 *  [[Tim Porter|Tim]]: I have created a few entries relating to the interaction of [[local system]] with ideas from rational homotopy theory, especially algebras of differential forms on simplicial sets, based on Sullivan and further back Thom and Whitney. These included [[simplicial local system]], see Urs comment below, to which I have started replying. Perhaps I will be able to add more shortly. These entries are not yet finished and do not yet deal with the Sullivan-Thom-Whitney stuff.
 
