@@ -83,7 +83,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
    * [[Jon Awbrey]]:  It looks like you have to start your headings with single #'s and use a flush left tag something like this:
 
-         * tic
+         * tic (any old list item will do the trick here)
          {:toc}
 
 * [[Urs Schreiber]] 
