@@ -14,7 +14,11 @@ Here "non-trivial" means: anything that any other contributor might be intereste
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
+## 2009-08-10
 
+* [[Andrew Stacey]] marked his return with a small but significant observation about extensions of the category of smooth manifolds: if the inclusion of manifolds into an extension category preserves limits and colimits then the extension category _cannot_ be locally cartesian closed.  At the moment, this is contained in a remark at the end of the third example of a [[Froelicher space]] - please check my reasoning!
+
+  (I'd like to be able to say that I figured this out whilst flying over Damascus, but I think it was actually Novosibirsk.)
 
 ## 2009-08-09
 
