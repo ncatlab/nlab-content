@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-03 #
 
+*  [[Toby Bartels]]:
+   *  Rewrote [[equivalence of categories]], moving one paragraph to [[Cat]] and otherwise expanding.
+   *  Urs and I would like some advice from [[Tim Porter]] at [[simplicial nerve]].
+
 * [[Urs Schreiber|Urs]]: 
 
   * further expanded section 2 of [[geometric infinity-function theory]], which I am to "report" on next Monday in our Journal Club. 
