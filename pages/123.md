@@ -191,5 +191,9 @@ Urs: now you are looking for the notion [[cograph of a functor]] (you should mak
 
 [[Eric]]: **Gulp!** Ok. But is there a term for the (small) category $C = A\cup B$ where $C_0 = A_0\cup B_0$ and $C_1 = A_1\cup B_1$?
 
+_Toby_:  You could just call that the _union_ of the two categories.  But it\'s not really a meaningful concept unless you already have $A$ and $B$ as [[subcategory|subcategories]] of some ambient category $D$, or something like that.  To ask whether an element of $A_0$ matches an element an element of $B_0$ (and similarly for $A_1$ and $B_1$) is [[evil]].
+
+Alternatively, you could take it as understood that the sets $A_0$ and $B_0$ are disjoint, (and similarly for $A_1$ and $B_1$).  Then you get the _disjiont union_ of the two categories, and that is an important concept; it is the [[coproduct]] in [[Cat]].  And that is one of the ingredients of the [[cograph of a functor]], so probably it\'s what you want.
+
 
 [[!redirects functors]]
