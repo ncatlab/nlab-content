@@ -23,7 +23,7 @@ In particular, with $X$ a [[topological space]], the $\infty$-stack _constant_ o
 
 This is because 
 
-* the $\infty$-stack represented by regards $X$ as a [[discrete category|categorically discrete]] topological groupoid;
+* the $\infty$-stack represented by $X$ regards $X$ as a [[discrete category|categorically discrete]] topological groupoid;
 
 * while the $\infty$-stack constant on $X$ regards $X$ as a topologically discrete groupoid which however may have nontrivial morphisms.
 
