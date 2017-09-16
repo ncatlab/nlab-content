@@ -66,6 +66,23 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[John Francis]], [[Francis.ps:file]], talk notes by [[Alex Hoffnung]]
 
+
+##Christoph Wockel##
+
+* [[Christoph Wockel]], [[Wockel.pdf:file]], talk summary by [[Christoph Wockel]]
+
+##Gabriel Drummond-Cole##
++-- {: .query}
+Can someone who has these notes or wants to write a summary put something here please?
+=--
+
+
+#Conference Talks#
+
++-- {: .query}
+I (Alex) am back in California.  It would be great if someone passed on notes of some sort from the conference.
+=--
+
 ### related $n$Lab entries ###
 
 * [[FQFT]]
