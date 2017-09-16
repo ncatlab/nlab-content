@@ -23,7 +23,7 @@ A _quotient_ for a relation is a [[colimit]] for the diagram consisting of all t
 
 For example:
 
-* If $|I|=1$, an equivalence relation is the same as the ordinary internal notion of [[equivalence relation]].  In this case [[quotient]]s and [[kernel pair|kernels]] reduce to the usual notions.
+* If $|I|=1$, an equivalence relation is the same as the ordinary internal notion of [[equivalence relation]].  In this case [[quotient object|quotient]]s and [[kernel pair|kernels]] reduce to the usual notions.
 
 * If $|I|=0$, an equivalence relation or sink contains no data.  The empty equivalence relation is, trivially, the kernel of the empty sink, and a quotient for the empty equivalence relation is an [[initial object]].
 
