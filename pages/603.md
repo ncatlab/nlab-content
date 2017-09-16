@@ -129,7 +129,7 @@ $$
 
 For this to work out as desired, we would of course have to concentrate on planar multispans and disallow identification of multispans that can be turned into each other by reflections at lines in the plane. 
 
-
+_Mike_: It seems as though restricting to planar multispans would be quite a serious thing to do.
 
 =--
 
@@ -506,6 +506,8 @@ I am thinking of the difference between the above "flabby" version and the non-f
 
 [[Urs Schreiber|Urs]]: But we have these higher filling conditions here automatically, too: if there are two different multispans which glue two given ones, they share these two given ones and can be glued along them. This should say that any two fillers are themselves connected by a filler.
 
+_Mike_: It seems as though if you're considering two multispans to be equivalent if they can be connected by a filler, and your horn-filling conditions stipulate that all fillers exist, then your structure is fairly trivial: everything is equivalent to everything else.
+
 =--
 
 ### Bordism hyperstructure ###
@@ -548,6 +550,14 @@ But in the particular case at hand, it feels that this smallest hyperstructure s
 3. then continue with 1. .
 
 
+_Mike_: In general, there are two ways to construct the smallest sub-widget of $X$ such that (blah):
+
+* Take the intersection of all sub-widgets of $X$ such that (blah).
+* Start with (blah) and close it up, iteratively, under all the operations that define a sub-widget.
+
+Usually, if one works the the other does too.  Occasionally one fails where the other succeeds due to set-theoretic technicalities.  But here I think the problem is intrinsic and will rear its head wearing a different mask in either case.
+
+It definitely does not feel to me as though the smallest hyperstructure should exist.  The problem with your proposal is when you say "form all composites."  Since composites are not an _operation_, this can't mean "for any $x$ and $y$ already in our sub-hyperstructure, add in _the_ composite of $x$ and $y$."  If we just arbitrarily pick some particular composite of $x$ and $y$ to add, then there might be other sub-hyperstructure that chose a different composite, so what we end up with won't be the smallest (in the "minim<i>um</i>" sense) sub-hyperstructure such that (blah).  We might be able to construct a minim<i>al</i> sub-hyperstructure, but it wouldn't be uniquely determined, so we couldn't talk about [[generalized the|the]] hyperstructure of extended cobordisms.
 
 =--
 
