@@ -24,8 +24,56 @@ Before rushing into the creation of **CatLab**, it is the purpose of this page t
 
 ##Discussion
 
-...
+## Definition
 
+A _category_ $C$ consists of 
+
+* a [[set]] $C_0$ of _objects_;
+
+* for each pair of objects $a,b\in C_0$, a set $C(a,b)$ of _morphisms_ (or _arrows_) $a\to b$; when the context is clear, we write $f:a\to b$ to indicate that $f\in C(a,b)$;
+
+* for each triples of objects $a,b,c\in C_0$, a composition law
+$C(b,c)\times C(a,b)\to C(a,c)$; when the context is clear, we write
+ $g f:a\to c$ for the composite of $f:a\to b$ with $g:b\to c$;
+
+* for each objet $a\in C_0$, an arrow $1_a:a\to a$ called the _unit_ or the
+_identity_ of $a$.
+
+
+* such that the following properties are satisfied:
+
+  * ( _associativity law_) $h (g f)=(h g) f$ for every triple of arrows $f:a\to b$, $g:b\to c$ and $h:c\to d$;
+
+  * (the _left and right unit laws_) $1_b f=f 1_a =f$ for every arrow $f:a\to b$.
+
+## Notation
+
+The set $C_0$ of objects of a category $C$ is often denoted $Ob(C)$.
+But we shall often write $a\in C$ instead of writing $a\in Ob(C)$;
+
+## Size issues 
+
+The sets involved in the definition of a category can be [[small]] or 
+[[large]]. A category $C$ is said to be _locally small_ if the set 
+$C(a,b)$ is small for every pair of objects $a,b\in C$. 
+A category $C$ is said to be _small_ if it is locally small and its set of objects $Ob(C)$ is small.
+A category is said to be _large_ if it is not small. 
+
+## Examples
+
+* We shall denote by $Set$ the _category of small sets_: an object of this
+category is a small set $S$ and an arrow $S\to T$ is a map $f:S\to T$;
+Composition of arrows is defined by composing the maps, and the units
+arrows are the identity maps. The category $Set$ is large but locally small.
+
+
+* Let $R$ be a ring. We shall denote by $Mat(R)$ the 
+_category of matrices with coefficients in_ $R$; an object of this category is a natural number $n\geq 0$ and a morphism $m\to n$
+is a $n\times m$ matrix with coefficients in $R$; the composite of
+a matrix $A:m\to n$ with a matrix $B:n\to p$ is their product $B A:m\to p$;
+the unit of $n$ is the $n\times n$ unit matrix. The category $Mat(R)$
+is small.
+ 
 ##Reference
 
 * [[HowTo]]
