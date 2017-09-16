@@ -20,7 +20,7 @@ $$
   A(X) 
   \stackrel{\simeq}{\to} 
    Desc(Y_\bullet \to X, A) 
-   := lim^\Delta A(U^\bullet)
+   := lim^\Delta A(Y_\bullet)
   \,.
 $$ 
 
@@ -166,7 +166,8 @@ $$
   \,.
 $$
 
-If $S$ is a [[Verdier site]] then every such hypercover $Y \to X$ has a refinement by a hypercover which is cofibrant with respect to the projective global [[model structure on simplicial presheaves]]. We shall from now on make the assumption that the hypercovers $Y \to X$ we discuss are cofibrant in this sense. (This is true in most cases that arise in practice, see the discussion after [DHI, def. 9.1](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=29) .
+If $S$ is a [[Verdier site]] then every such hypercover $Y \to X$ has a refinement by a hypercover which is cofibrant with respect to the projective global [[model structure on simplicial presheaves]]. We shall from now on make the assumption that the hypercovers $Y \to X$ we discuss are cofibrant in this sense. These are called _split hypercovers_. (This works in many cases that arise in practice, see the discussion after [DHI, def. 9.1](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=29).)
+
 
 
 **Proposition**
@@ -184,7 +185,20 @@ is a [[model structure on simplicial sets|weak equivalence of simplicial sets]].
 Proof. This is [DHI, thm 1.3](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=3) formulated in the light of [DHI, lemma 4.4 ii)](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=9).
 
 
-Notice that by the [[co-Yoneda lemma]] every simplicial presheaf $F : S^{op} \to SSet$, which we may regard as a presheaf $F : \Delta^{op}\times S^{op} \to Set$, is isomorphic to the [[weighted limit|weighted colimit]] $F \simeq lim^\Delta F_\bullet$, where $F_n$ is the Set-valued presheaf of $n$-cells of $F$ regarded as an $SSet$-valued presheaf under the inclusion $Set \hookrigtharrow SSet$, and
+Notice that by the [[co-Yoneda lemma]] every simplicial presheaf $F : S^{op} \to SSet$, which we may regard as a presheaf $F : \Delta^{op}\times S^{op} \to Set$, is isomorphic to the [[weighted limit|weighted colimit]] 
+
+$$
+    F \simeq colim^\Delta F_\bullet
+$$
+
+which is equivalently the [[coend]]
+
+$$
+  F \simeq \int^{[n] \in \Delta} \Delta^n \cdot F_n
+  \,,
+$$ 
+
+where $F_n$ is the Set-valued presheaf of $n$-cells of $F$ regarded as an $SSet$-valued presheaf under the inclusion $Set \hookrightarrow SSet$, and
 where the [[SSet]]-weight is the canonical cosimplicial simplicial set $\Delta$, i.e. for all $X \in S$
 
 $$
