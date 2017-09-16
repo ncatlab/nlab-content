@@ -10,14 +10,13 @@ ZFC is a form of **material set theory** (the term used by [[Steve Awodey]]) in 
 
 Another approach to set-theoretic foundations is **structural set theory** (the term used by [[Mike Shulman]]), which looks more like [[type theory]].  Here, the elements of sets have no structure (and in particular are not themselves sets), and elements of different sets cannot be compared by default.  Among category theorists, it\'s popular to specify elementary properties of [[Set|the category of sets]]; the orthodoxy here (to the extent that there is one) is probably Bill Lawvere\'s [[ETCS]].  It is weaker than ZFC and must be supplemented to handle some esoteric parts of modern mathematics, although it suffices for most everyday uses.
 
-Both pure set theory and structural set theory are **foundational set theories**; it is also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]].  In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _[[tobybartels:preset|presets]]_ (sets without [[equality]]); then a set may be defined as a preset equipped with an [[equivalence relation]].  In [[computer science]], a foundation based on the [[lambda-calculus]]s is sometimes seen; in these terms, the concept of _[[list]]_ is more natural than set, with the difference being that sets have a coarser notion of equality.
+Both pure set theory and structural set theory are **foundational set theories**; it is also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]].  In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _[[tobybartels:preset|presets]]_ (sets without [[equality]]); then a set may be defined as a preset equipped with an [[equivalence relation]] (the term [[setoid]] is also used for such a gadget).  In [[computer science]], a foundation based on the [[lambda-calculus]]s is sometimes seen; in these terms, the concept of _[[list]]_ is more natural than set, with the difference being that sets have a coarser notion of equality.
 
 Category theory can provide a common [[model theory]] to compare all of these notions.  Although only structural set theories like ETCS treat the elementary properties of the category $Set$ of sets as fundamental, one can ask for any set theory what properties $Set$ satisfies and compare them in those terms.  At the very least, $Set$ should be a [[pretopos]].
 
+# Remarks #
 
-#Remarks#
-
-* There is also [[algebraic set theory]].
+* There is also [[algebraic set theory]], in which a material set theory (such as ZFC) is interpreted in the [[internal logic]] of some [[ambient category]], often called a "category of classes."
 
 
 [[!redirects material set theory]]
