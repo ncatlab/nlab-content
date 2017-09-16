@@ -14,7 +14,7 @@ The spaces $X^{\Delta^k_{diff}}$ of infinitesimal $k$-simplices arrange to form 
 
 The functions on the space of infinitesimal $k$-simplices form a [[generalized smooth algebra]] $C^\infty(X^{\Delta^k_{inf}})$.
 
-A **differential $k$-form** on $X$ is an element in this function algebra that has the property that it vanishes on degenerate infinitesimal simplices.
+A **differential $k$-form** (oftent called simplicial $k$-form or, les accurately, **combinatorial $k$-form** to distinguish it from similar but cubical definitions) on $X$ is an element in this function algebra that has the property that it vanishes on degenerate infinitesimal simplices.
 
 See definition 3.1.1 in 
 
