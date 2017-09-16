@@ -14,9 +14,9 @@ Notice that differentiable stacks are equivalent to Lie groupoids modulo [[homot
 
 ## Literature
 
-Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Chenchang Zhu](http://chenchangzhu.blogspot.com/) and collaborators.
+Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [[Chenchang Zhu]] and collaborators.
 
-* [Chenchang Zhu](http://www.crcg.de/wiki/Chenchang_Zhu), _n-Groupoids and Stacky Groupoids_, 2008, International Mathematics Research Notices (2009) 2009:4087-4141; (http://arxiv.org/abs/0801.2057 arXiv:0801.2057). DOI: (http://dx.doi.org/10.1093/imrn/rnp080 10.1093/imrn/rnp080).
+* [[Chenchang Zhu]], _n-Groupoids and Stacky Groupoids_, 2008, International Mathematics Research Notices (2009) 2009:4087-4141; (http://arxiv.org/abs/0801.2057 arXiv:0801.2057). DOI: (http://dx.doi.org/10.1093/imrn/rnp080 10.1093/imrn/rnp080).
 
 * C.Z., _Lie $n$-groupoids and stacky Lie groupoids_ ([arXiv](http://arxiv.org/abs/math/0609420))
 
@@ -24,7 +24,7 @@ Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Ch
 
 * C. Z. _Lie II theorem_ ([pdf slides](http://cib.epfl.ch/hosted/programs/poisson2008/cms/fileadmin/misc/lie2talk2.pdf))
 
-* Henrique Bursztyn, C.Z., _Morita equivalence of Poisson manifold via stack groupoids_ ([arXiv](http://arxiv.org/abs/0707.2175))
+* [[Henrique Bursztyn]], C.Z., _Morita equivalence of Poisson manifold via stack groupoids_ ([arXiv](http://arxiv.org/abs/0707.2175))
 
 
 
