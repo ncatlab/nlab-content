@@ -83,7 +83,10 @@ It is easily checked by induction that these maps define a cone from $x$ to the 
 
 +--{.query}
 _Todd_: I noticed under "algebra" that it wasn't so easy to find a page for algebras of an endofunctor. It might help to have something like "Algebra (disambiguation)" for this and other entries with multiple meanings. 
+
+_Mike_: Seconded.
 =--
+
 ##Differential graded coalgebras
 
 These are explored briefly in the lexicon style entry [[differential graded coalgebra]].  (At present this is 'bare bones' with little or no motivation or discussion.)
