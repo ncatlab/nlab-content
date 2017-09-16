@@ -114,6 +114,12 @@ That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$
   _Toby_: The purpose of the indentation is to keep the query box with the appropriate entry in the unnumbered list.  Besides the obvious (and obviously small) aesthetic advantage, this does two things when it happens in the middle of a list:
   *  it helps the diff mechanism tell when a query box is inserted or removed with no other change to the list;
   *  it keeps the numbering in a numbered list correct.
+
+  [[Lab Elf]]: Actually, it does more than that.  Without the indentation then the parser gets really confused as to where the list ends.  It tries to end the list before the comment ends, but that would lead to malformed XHTML so somewhere the offending section gets removed.  Have a go at removing the indentation of a comment and see what happens.
+
+  The thing to remember is that indentation _means_ something and so should only be added or removed by experienced Lab Elves who have undergone rigorous training in how to safely remove indentation without risking danger to the public.
+
+  The rule is: the _contents_ of a query box (or other box: theorems, proofs, all come under this heading) should have the same indentation (or more) as the opening demarkation.
   =-- 
 
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
