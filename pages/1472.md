@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include physicscontents]]
+</div>
 
 
 This entry lists and discusses applications and occurences of [[higher category theory]] in [[physics]].
@@ -87,7 +89,7 @@ In particular the Moore--Segal paper should be seen in the light of this develop
 
 
 
-* [[Hopf algebraic renormalization]]
+* [[Hopf-algebraic renormalization]]
 
 
 
