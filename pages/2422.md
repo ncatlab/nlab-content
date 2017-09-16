@@ -16,6 +16,8 @@ A candidate for $\mathbf{2}$ is clearly $P\mathbf{1}$, but we need to show it ha
 [[Mike Shulman]]: If you don't want to use powersets, then I'm pretty sure you'll need an axiom of coproducts.  Unless I'm mistaken, the collection of [[subsingleton]] sets satisfies Axioms 0, 1, and 2.
 
 [[David Roberts]]: Actually what I probably mean is not use the result that $Set$ is a topos. I think you are correct on the subsingleton front, because it looks like we have no way of obtaining sets with more than one element without more axioms.
+
+_Toby_:  If you want to be cute, you can make the existence of $\mathbf{2}$ an axiom and then get arbitrary binary coproducts using Collection.  On the other hand, if you\'re happy using power sets, then don\'t bother proving that $P\mathbf{1} = \mathbf{2}$ (which won\'t generalise to the intuitionistic case anyway); instead use Separation to carve out $\{ x \in P\mathbf{1} \;|\; x = \empty \;\vee\; x = \mathbf{1} \}$.  Then $\mathbf{3}$ is a subset of $P\mathbf{2}$, etc; or make $\mathbf{3}$ and $\mathbf{4}$ both subsets of $P\mathbf{2}$, with the general rule going logarithmically.
 =--
 
 ## Three and many ##
