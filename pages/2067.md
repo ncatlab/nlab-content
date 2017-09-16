@@ -5,7 +5,7 @@
 
 ## Idea 
 
-Given a [[functor]] $p : X \to Y$ between categories one may ask for each [[morphism]] $f : y_1 \to y_2$ if given a lift of its target
+Given a [[functor]] $p\colon  X \to Y$ between categories one may ask for each [[morphism]] $f\colon  y_1 \to y_2$ if given a lift of its target
 $$
   \array{
     X &&& && \hat y_2
@@ -29,7 +29,7 @@ $$
   \,.
 $$
 
-There may also be other lifts of $f$, but the universal one is essentially unique, as usual for anything having a universal property.  Specifically, $\hat f$ in $X$ is essentially uniquely determined by its source $\hat y_1$ and its image $f = p(\hat f)$ in $Y$, and is called a _cartesian morphism_ .
+There may also be other lifts of $f$, but the universal one is essentially unique, as usual for anything having a universal property.  Specifically, $\hat f$ in $X$ is essentially uniquely determined by its source $\hat y_1$ and its image $f = p(\hat f)$ in $Y$, and is called a __cartesian morphism__.  A morphism which is cartesian relative to $p^{op}\colon X^{op}\to Y^{op}$ is called __opcartesian__ or __cocartesian__.
 
 If there are enough cartesian morphisms in $Y$, they may be used to define [[functor]]s
 
@@ -187,3 +187,7 @@ The $(\infty,1)$-categorical version is in section 2.4 of
 
 [[!redirects Cartesian morphism]]
 [[!redirects cartesian morphisms]]
+[[!redirects opcartesian morphism]]
+[[!redirects opcartesian morphisms]]
+[[!redirects cocartesian morphism]]
+[[!redirects cocartesian morphisms]]
