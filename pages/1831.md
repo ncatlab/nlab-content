@@ -5,6 +5,8 @@
 
 ## Idea
 
+Cartesian fibrations are one of the types of [[fibrations of quasi-categories]].
+
 A _Cartesian fibration_ of [[simplicial set]]s is a morphism between [[simplicial sets]] that generalizes the notion of [[Grothendieck fibration]] from [[category|categories]] to [[quasi-category|quasi-categories]].
 
 This means that precisely if an [[∞-functor]] $p : C \to D$ if a Cartesian fibration is it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[∞-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
