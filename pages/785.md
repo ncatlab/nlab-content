@@ -1,9 +1,14 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-A **homotopy pullback** is the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. They model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentable (infinity,1)-category|presented]] by a given [[homotopical category]].  It is a special case of the notion of [[homotopy limit]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
+## Idea 
 
+A **homotopy pullback** is a special kind of [[homotopy limit]]: the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. Homotopy pullback model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentable (infinity,1)-category|presented]] by a given [[homotopical category]].  It is a special case of the notion of [[homotopy limit]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
 
-# Definition #
+For more details see [[homotopy limit]].
+
+## Definition 
 
 As with all homotopy limits, there is both a _local_ and a _global_ notion of homotopy pullback.
 
@@ -38,7 +43,7 @@ In good situations, such as when $X,Y,Z$ are [[fibrant object|fibrant]] in a [[m
 Note that in both cases, there is a canonical map from the actual pullback $X\times_Z Y$ to the homotopy pullback $X\times_Z^h Y$.  In the global case this comes by the definition of a derived functor; in the local case it comes because a commutative square is, in particular, a homotopy commutative one.
 
 
-# Concrete construction
+## Concrete construction
 
 Suppose now that $Z$ has a [[path object]] $Z^I$ that represents homotopies into $Z$.  (For instance, this is often the case when $C$ is a [[closed monoidal homotopical category]] with an [[interval object]] $I$.)  Then we can consider the (ordinary) [[limit]]
 $$
@@ -91,8 +96,10 @@ $$
 $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
 
-# Fibration sequences #
+## Fibration sequences 
 
-Of particular interest are
+Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fibration sequence]]s and [[loop object]]s.
+
+
 
 [[!redirects homotopy pullbacks]]
