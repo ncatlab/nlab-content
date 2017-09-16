@@ -22,7 +22,7 @@ D-modules are closely related to
 
 * Bernstein's [notes](http://www.math.uchicago.edu/~arinkin/langlands/Bernstein/Bernstein-dmod.pdf)
 * Schneiders' [notes](http://www.analg.ulg.ac.be/jps/rec/idm.pdf)
-* Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/dmodules.pdf)
+* Mili&#269;i&#263;'s [notes](http://www.math.utah.edu/~milicic/Eprints/dmodules.pdf)
 
 #Blog discussion#
 
