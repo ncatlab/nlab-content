@@ -18,6 +18,10 @@ Here the context on the left side is the **empty context**, consisting of no ass
 
 However, the previous versions of these assertions work in weaker logics.  In fact, these assertions make sense (and the valid one may be proved) in the [[internal logic]] of a group object in a [[cartesian monoidal category|cartesian]] [[multicategory]].  Accordingly, they can be interpreted (and the valid one is true) as statements about any group object in any cartesian multicategory, exactly as they do for groups (which are group objects in the cartesian multicategory [[Set]]).
 
++--{: .query}
+[[Mike Shulman|Mike]]: What is a cartesian multicategory, and how do I interpret the theory of groups in one?  I can guess what it would mean for a multicategory to have finite products.  But if I interpret the multiplication as a morphism $G\times G\to G$, then I'm not using the multicategory structure, so we might as well just be in a category with finite products.  And if I interpret the multiplication as a multimap $(G;G)\to G$, then I don't know how to interpret the axiom of inverses, since there is no 'diagonal' $G\to (G;G)$ or 'projection' $G\to ()$.
+=--
+
 Even if one is completely uninterested in [[internalization]] or weak logics, a basic familiarity with contexts may help drive home a point that is important throughout reasoning: **What you can state and prove depends on your assumptions.**
 
 # The category of contexts
