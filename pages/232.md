@@ -87,8 +87,23 @@ $$
   }
 $$
 
-this says that composition is _unital_.
+this says that composition is _unital_. 
 
+#### Enrichment through lax monoidal functors #### 
+
+If $V$ is a monoidal category, then an alternative way of defining an $V$-category is as a set $X$ together with a [[lax monoidal functor]] of the form 
+
+$$M^{op} \to Set^{X \times X}$$ 
+
+where the codomain is identified with the monoidal category of endomorphisms on $X$, $\hom(X, X)$ in the [[bicategory]] of [[span]]s of sets. Given an $M$-category $(X, d: X \times X \to M)$, the corresponding lax monoidal functor $\Phi$ takes an object $m$ of $M^{op}$ to the span 
+
+$$\Phi(m)_{x, y} := \hom_M(m, d(x, y))$$ 
+
+Under the composition law, we get a natural map 
+
+$$\hom(m, d(x, y)) \times \hom(m', d(y, z)) \to \hom(m \otimes m', d(x, y) \otimes d(y, z)) \stackrel{\hom(1, comp)}{\to} \hom(m \otimes m', d(x, z))$$ 
+
+which gives the tensorial constraint $\Phi(m) \circ \Phi(m') \to \Phi(m \otimes m')$ for a lax monoidal functor; the identity law similarly gives the unit constraint. By using a Yoneda-style argument, such a lax monoidal functor conversely induces an $M$-enrichment on $X$, and the two notions are equivalent. 
 
 ##Passage between ordinary categories and enriched categories##
 
