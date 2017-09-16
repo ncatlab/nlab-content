@@ -11,6 +11,9 @@ The last statement means that in such a case $C^T$ is, up to equivalence a full 
 
 In the language of [[stuff, structure, property]], an idempotent monad may be said to equip its algebras with _properties only_ (since $C^T\to C$ is fully faithful), unlike an arbitrary monad, which equips its algebras with _at most structure_ (since $C^T\to C$ is, in general, faithful but not full).  Note that no functor which forgets stuff can be monadic.
 
++--{+ .query}
+[[Zoran Skoda]]: what do you mean ? The canonical monadic projection functor from EM category by definition forgets the action. 
+=--
 
 # References#
 
