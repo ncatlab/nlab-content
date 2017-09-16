@@ -7,7 +7,14 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Idea ##
+
+By the dual [[Dold-Kan correspondence]] cochain complexes in non-negative degree are equivalent to [[cosimplicial object|cosimplicial]] abelian groups. Moreover, the [[monoidal Dold-Kan correspondence]] maps [[cosimplicial algebra]]s to [[dg-algebra]]s, but this is no longer an equivalence of ordinary categories. It should, however, be an equivalence of the full [[(∞,1)-category|(∞,1)-categories]] of these objects. This, in turn, should be modeled by a [[model category]] structures.
+
+The model structure on dg-algebras is such a model.
+
+
+## Definition ##
 
 Write $dgRing$ for the [[category]] of [[monoid]]s in the category of [[cochain complex]]es of abelian groups.
 
@@ -44,13 +51,14 @@ See the references below.
 +-- {: .query}
 
 [[Urs Schreiber]]: what is known about the invariant characterization of (graded) _commutative_ dg-algebras within all dg-algebras: what are the elements in the weak-equivalence class of a commutative dg-algebra when regarded in the model category of all dg-algebras?
-
 Conversely, when is a non-commutative dg-algebra weakly equivalent to a commutative one?
+
+Do we have a Quillen functor inclusion of commutative into all dg-algebras, whose adjoint is a localization? Or something similar?
 
 =--
 
 
-#References#
+## References ##
 
 
 
