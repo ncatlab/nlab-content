@@ -13,21 +13,22 @@ about models of [[smooth topos]]es for [[synthetic differential geometry]] that 
 * automatic table of contents goes here
 {:toc}
 
-# Summary #
+## Summary 
 
 The book discusses the construction and the properties of [[smooth topos]]es $(\mathcal{T},R)$ that model the axioms of [[synthetic differential geometry]] and are _well-adapted_ to [[differential geometry]] in that there is a [[full and faithful functor]] $Diff \to \mathcal{T}$ embedding the [[category]] [[Diff]] of smooth [[manifold]]s into the more general category $\mathcal{T}$.
 
 All models are obtained as [[category of sheaves|categories of sheaves]] on [[site]]s whose underlying category is a [[subcategory]] of that of [[smooth loci]].
 
-#Models#
+
+## Models {#Models}
 
 The following tabulates various models for [[smooth topos]]es and lists their properties.
 
-## the topos $\mathcal{G}$ ##
+### the topos $\mathcal{G}$ 
 
-## the topos $\mathcal{F}$ ##
+### the topos $\mathcal{F}$ 
 
-## the topos $\mathcal{Z}$ ##
+### the topos $\mathcal{Z}$ 
 
 The [[smooth topos]] $\mathcal{Z}$ is that of [[sheaf|sheaves]] on the category $\mathbb{L}$ of [[smooth loci]] with respect to the [[Grothendieck topology]] given by _finite_ open covers of smooth loci.
 
@@ -162,7 +163,7 @@ For the [[topos]] $\mathcal{Z}$ the following is true.
 
 
 
-## the topos $\mathcal{B}$ ##
+### the topos $\mathcal{B}$
 
 The [[smooth topos]] $\mathcal{B}$ may be motivated as a slight
 refinement of the topos $\mathcal{Z}$ designed such that in the [[internal logic]] of $\mathcal{B}$ it does become true that for $\mathbb{I}$ the object of invertible infinitesimals, we have $\exists x : x \in \mathbb{I}$, internally.
