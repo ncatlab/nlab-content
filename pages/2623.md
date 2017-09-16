@@ -1,0 +1,1 @@
+Quantum electrodynamics associates an integral to each Feynman diagram; usually these integrals are infinite.  Regularization adds a parameter to the integrals so they result in a Laurent series that's singular at the point of interest.  Renormalization throws away the polar part of the Laurent series, leaving a Taylor series that's finite at the point of interest.
