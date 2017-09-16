@@ -5,7 +5,9 @@ The axioms of a _semi-abelian_ category are supposed to capture the properties o
 +--{: .query}
 [[Mike Shulman|Mike]]: Why only rings without units (that is, rngs)?  Intuitively, what important properties do the above listed examples share that are not shared by rings with units?
 
-[[Zoran Skoda]]: I want to know the answer as well. It might be something in the self-dual axioms. For unital rings artinian implies noetherian but not other way around; though the definitions of the two notions are dual. 
+[[Zoran Skoda]]: I want to know the answer as well. It might be something in the self-dual axioms. For unital rings artinian implies noetherian but not other way around; though the definitions of the two notions are dual.
+
+_Toby_:  The category of unital rings and unitary ring homomorphisms has no zero object.
 =--
 
 
