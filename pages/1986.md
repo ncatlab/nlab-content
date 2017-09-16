@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
+* [[Jon Awbrey]] added content to [[relation theory]].  Incidentally, does anyone know how to get an @ symbol in a math context?
+
 * [[John Baez]]:
 
  * Added another theorem to [[cartesian monoidal category]] and moved examples of semicartesian monoidal categories to a new page [[semicartesian monoidal category]].
