@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+</div>
+
+
 # Loop space objects
 * tic
 {: toc}
