@@ -1,11 +1,7 @@
 [[!include differential graded objects - contents]]
 
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon entry on
+
 ##Bar  and cobar constructions
 
 * There is a brief entry at [[bar construction]] together with a blog link
@@ -14,11 +10,9 @@
 
 * There is some discussion of the bar-cobar adjointness as it related to [[twisting cochain|twisting cochains]], at that entry.
 
-Here we will concentrate on the bar-cobar adjointness itself and start exploring the links with other parts of differential algebra.
+* Here we will concentrate on the bar-cobar adjointness itself and start exploring the links with other parts of differential algebra.
 
 
-(The previous entry in this lexicon can be found at [[differential graded Hopf algebra]].) 
-=--
 One of the earliest examples of a pair of [[adjoint functor|adjoint functors]] studied in algebraic topology was that giving the relationship between the functors for [[reduced suspension]] and [[loop space object|based loop space]]. If we take a pointed connected space $(X,x_0)$, then its [[reduced suspension]] $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) This can also be thought of as forming $S^1\wedge X$ the  [[smash product]] of the circle with $X$. 
 
 Adjoint to $\Sigma$ is the loop space functor: $\Omega Y$ is the space of pointed maps from $S^1$ to $Y$. This has a monoid structure (up to homotopy) given by concatenation of loops.  (Back in $S^1$, we have a comonoid structure with respect to the pointed coproduct $S^1\to S^1\vee S^1$ as described at [[interval object]]. This in some sense  is _'subdivision as an inverse for composition'_.)
@@ -180,14 +174,6 @@ This was augmented with material from
 H. J. Baues, _Geometry of loop spaces and the cobar construction_, Mem. Amer.
 Math. Soc. 25 (230) (1980) ix+171.
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon links onwards:
-
-[[Tim Porter|Tim]]:  The lexicon  continues on a new entry that goes from  [[differential graded algebras and differential graded Lie alg|Differential graded algebras to differential graded Lie algebras and back]].  
-=--
 
 
 category: lexicon
