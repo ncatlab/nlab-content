@@ -13,7 +13,7 @@ The most familiar of these possible shapes are
 
 * [[cube|cubes]]. 
 
-* [[tree]]s.
+* [[trees]].
 
 There are corresponding categories whose 
 
@@ -36,17 +36,17 @@ The resulting categories of basic cellular shapes are
 
 A higher structure based on these geometric sheapes is a [[presheaf]] on one of these categories. These are called
 
-* [[globular set]]s;
+* [[globular sets]];
 
-* [[simplicial set]]s;
+* [[simplicial sets]];
 
-* [[cubical set]]s,
+* [[cubical sets]],
 
 * [[dendroidal set]]
 
 respectively. 
 
-Other notions of geometric shape which have been found useful in higher order category theory include [[opetope]]s (based on [[operad]] theory, and invented by Baez-Dolan), [[multitope]]s (due to Hermida-Makkai-Power), and the shapes encapsulated in Joyal's [[disk category]] $\Theta$ (which include globes and simplices as special cases). 
+Other notions of geometric shape which have been found useful in higher order category theory include [[opetopes]] (based on [[operad]] theory, and invented by Baez-Dolan), [[multitope|multitopes]] (due to Hermida-Makkai-Power), and the shapes encapsulated in Joyal's [[disk category]] $\Theta$ (which include globes and simplices as special cases). 
 
 In many definitions of [[higher category theory|higher categories]] an [[infinity-category]] is one of these presheaves
 
@@ -54,7 +54,7 @@ In many definitions of [[higher category theory|higher categories]] an [[infinit
 
 * or equipped with _extra structure_ in the [[algebraic definition of higher category|algebraic definition of higher categories]]. 
 
-For instance [[omega-category|omega-categories]] are based on [[globular set]]s and [[n-fold category|n-fold categories]] on [[cubical set]]s, while most [[geometric definition of higher category|geometrically defined]] higher categories such as [[quasi-category|quasi-categories]] are based on the [[simplicial set]]s, thought of as a [[nerve]].
+For instance [[omega-category|omega-categories]] are based on [[globular sets]] and [[n-fold category|n-fold categories]] on [[cubical sets]], while most [[geometric definition of higher category|geometrically defined]] higher categories such as [[quasi-category|quasi-categories]] are based on the [[simplicial sets]], thought of as a [[nerve]].
 
 However, [[Ronnie Brown]] writes: For the work on higher homotopy groupoids and their applications to higher homotopy van Kampen theorems we found cubical methods essential. In the first of the following papers, we use a higher homotopy cubical $\omega$-groupoid with connections of a filtered space, while the second paper uses a fundamental cat$^n$-group of an $n$-cube of pointed spaces, giving an $n$-fold groupoid in the category of groups. The setting up of these structures is non-trivial,  highly geometric and essential for the homotopical applications. The paper with Loday also uses multisimplicial techniques. 
 
