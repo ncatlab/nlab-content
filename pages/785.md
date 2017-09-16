@@ -7,7 +7,7 @@ A **homotopy pullback** is the appropriate notion of [[pullback]] in the context
 
 As with all homotopy limits, there is both a _local_ and a _global_ notion of homotopy pullback.
 
-The _global_ definition says that the homotopy pullback of a a [[co-span|cospan]] $X \to Z \leftarrow Y$ in a [[category with weak equivalences]] $C$ is its image under the right [[derived functor]] of the pullback functor $pb: C^{\to \leftarrow} \to C$.
+The _global_ definition says that the homotopy pullback of a a [[co-span|cospan]] $X \to Z \leftarrow Y$ in a [[category with weak equivalences]] $C$ is its image under the right [[derived functor]] of the [[base change]] functor $pb: C^{\to \leftarrow} \to C$.
 
 The _local_ definition says that the homotopy pullback of $X \to Z \leftarrow Y$ in a category with a notion of [[homotopy]] consists of a square
 $$
