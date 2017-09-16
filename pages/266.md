@@ -30,24 +30,30 @@ The following are three equivalent definitions
 
 The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
 $$
-  p^* : [C',D] \to [C,D]
+  p_*: G\mapsto G\circ p  : [C',D] \to [C,D]
   \,.
 $$
 
 The [[left adjoint]] to $p^*$ is **left Kan extension** of functors
 $$
-  Lan : [C,D] \to [C',D]
+  Lan = Lan_p : [C,D] \to [C',D]
   \,,
 $$
-and the [[right adjoint]] is **right Kan extension** of functors
+along $p$, and the [[right adjoint]] is **right Kan extension** of functors
 $$
-  Ran : [C,D] \to [C',D]
+  Ran = Ran_p: [C,D] \to [C',D]
   \,.
 $$
+along $p$.
+More generally, it is possible that these adjoints do not exist, but may be partially defined. Namely, for some functor $F\in [C,D]$ there exist a functor $Lan_p\,F:C'\to D$, *the left Kan extension of $F$ along $p$*,  and a natural isomorphism 
+$$
+Hom_{[C,D]}(F,p_*(-))\cong Hom_{[C',D]}(Lan\,F,-),
+$$
+i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
 
 ## In terms of universal natural transformations ##
 
-The left Kan extension $Lan F$ of $F : C \to D$ is the functor $Lan F : C' \to D$ such that there exists a [[natural transformation]] $\eta_F : F \Rightarrow p^* Lan F$
+The left Kan extension $Lan_p F$ of $F : C \to D$ is the functor $Lan F : C' \to D$ such that there exists a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
 
 $$
   \array{
@@ -60,7 +66,7 @@ $$
 $$
 
 with the property that every other natural transformation
-$F \Rightarrow p^* G$ factors uniquely through $\eta_F$ as
+$F \Rightarrow p_* G$ factors uniquely through $\eta_F$ as
 
 $$
   \array{
