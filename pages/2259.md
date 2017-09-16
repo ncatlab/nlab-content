@@ -1,4 +1,7 @@
-* [wikipedia entry](http://www.math.uu.nl/people/moerdijk/)
+* [English Wikipedia entry](https://secure.wikimedia.org/wikipedia/en/wiki/Saunders_Mac_Lane)
+
+* [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/MacLane.html)
+
 
 ##indexed books on the $n$Lab ##
 
@@ -10,4 +13,7 @@
 
   on [[sheaf and topos theory]]
 
-category: people
+
+category: biography
+
+[[!redirects Sauders MacLane]]
