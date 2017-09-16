@@ -17,10 +17,19 @@ For $x \in B$ a [[generalized element]] of $B$, the [[fiber]] $E_x$ of the bundl
 
 One generally considers bundles with extra properties or structure:
 
-* [[fiber bundle|fiber bundles]],
-* [[principal bundles]]
-* [[vector bundle|vector bundles]],
-* bundles with [[connection on a bundle|connection]],
+
+* [[fiber bundle]],
+
+* [[microbundle]]
+
+* [[principal bundle]]
+
+* [[vector bundle]],
+
+* [[connection on a bundle|bundle with connection]]
+
+  * [[Simons-Sullivan structured bundle]]
+
 * etc.
 
 ## The collection of all bundles
