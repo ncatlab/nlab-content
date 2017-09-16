@@ -18,7 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
-  touched [[combinatorial spectrum]]: replied to [[Mike Shulman|Mike]], added a list of examples and have further questions
+  * added a few links to examples at [[space and quantity]] (we have a general problem that many entries created eraly on don't currently point to entries created more recently which de facto they should point to)
+
+  * touched [[combinatorial spectrum]]: replied to [[Mike Shulman|Mike]], added a list of examples and have further questions
 
 * [[Tim Porter|Tim]]: 
 
