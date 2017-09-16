@@ -8,27 +8,26 @@ Note that the 'linear functions' of elementary algebra ---the total functions wh
 # Definitions #
 
 This can be made precise in various (equivalent) ways:
-*  An affine space is simply a vector space, but with different morphisms; an affine linear map is a function that is the difference between a linear map and a [[constant function]].
+*  An affine space is simply a vector space, but with different morphisms; an affine linear map is a function that is the difference between a linear map and a [[constant function]].nPlaces
 *  An affine space is a [[set]] equipped with an equivalence class of vector space structures, where two vector space structures are considered equivalent if the [[identity function]] is affine linear as a map from one structure to the other; whether a map between affine spaces is affine linear is independent of the representative vector space structures.
 *  An affine space is a set $A$ together with a vector space $V$ and an [[action]] of (the additive group of) $V$ on $A$ that makes $A$ into a $V$-[[torsor]] (over the point); an affine linear map is a $V$-equivariant map. For this point of view, see also [[zoranskoda:affine space]].
 *  An affine space is a [[heap]] whose automorphism group is equipped with structure making it the additive group of a vector space; an affine linear map a heap morphism.
 *  An affine space is a set $A$ together with a vector space $V$ and a function $A \times A \to V$ (thought of as subtraction) that satisfies some equations; an affine linear map $A \to A'$ is a function equipped with a linear map $V \to V'$ relative to which it preserves subtraction.
 *  An affine space over the [[ground field]] $k$ is an [[inhabited set]] $A$ together with functions $A \times A \times A \to A$ (thought of as $x,y,z \mapsto x - y + z$) and $k \times A \times A \to A$ (thought of as $r,x,y \mapsto x - r x + r y$) that satisfy some equations; an affine linear map is a function that preserves these operations.
-   +--{: .query}
-   [[Mike Shulman]]: I changed $r x - r y + y$ to $r x + (1-r) y$ because I think the latter conveys a better intuition (a weighted average).  Speak up if you object.
-
-   _Toby_:  I object, because there is another intuition, just as valid, that we should invite the reader to take, which is that $r x - r y + y = r (x - y) + y$ involves using subtraction to move to the vector space $V$, doing scalar multiplication there, and then moving back to the affine space.  Only an unparenthesised expression with the $- r y$ term in the middle allows both.  However, I rearranged the terms (and swapped the variables) since otherwise your version is not very inviting (so now the reader will naturally think of either $(1 - r) x + r y$ or $x - r (x - y)$, both of which work better than $r x + (- r + 1) y$).
-   =--
 *  Assuming that $2$ is invertible in the field $k$ (i.e. the [[characteristic]] of $k$ is not $2$), an affine space over $k$ is an inhabited set $A$ together with a function $k \times A \times A \to A$ that satisfies some equations; an affine linear map is a function that preserves these operations.
 *  An affine space over the field $k$ is an inhabited set $A$ together with, for every [[natural number]] $n\ge 0$ and every $(n+1)$-tuple $(r_0,\dots,r_n)$ of elements of $k$ such that $r_0+\dots+r_n=1$, a function $A^{n+1}\to A$, satisfying some equations; an affine linear map is a function that preserves these operations.  We think of (and write) the function corresponding to $(r_0,\dots,r_n)$ as $(x_0,\dots,x_n)\mapsto r_0x_0+\dots+r_n x_n$.
 
 +-- {: .query}
 There should be another characterisation, which I don\'t quite see how to phrase, at least when $k = \mathbb{R}$, which is that an affine space is a manifold (perhaps Riemannian) that is sufficiently flat and unbounded in some sense.  ---Toby
+
+[[Mike Shulman]]: It'd have to be at least Riemannian, otherwise you don't have enough structure.  I don't suppose it's enough to say that a (finitely generated) affine space is a Riemannian manifold isometric to some $\mathbb{R}^n$?
 =--
 
 Clearly every vector space has an underlying affine space (and every linear map is affine linear), giving a [[forgetful functor]] $U:Vect \to Aff$.  Conversely, any affine space gives rise to a canonical vector space, sometimes called its space of _displacements_.  This is obvious from the definitions that involve a vector space as part of the structure, but a vector space can also be reconstructed from the other definitions as well, analogously to how a group can be reconstructed from a [[heap]].  This gives a functor $D:Aff\to Vect$ in the other direction.  One can verify that $D(U(V))\cong V$ and $U(D(A))\cong A$; the first isomorphism is [[natural isomorphism|natural]], but the second is not (otherwise $Vect$ and $Aff$ would be [[equivalent categories]], which they are not).
 
-The category of affine spaces is almost a [[variety of algebras]], as can be seen from the last few definitions, except for the requirement that an affine space be inhabited.  To rectify this, sometimes one allows the [[empty set]] to be an affine, although it does not have any particular vector space of displacements.
+The category of affine spaces is almost a [[variety of algebras]], as can be seen from the last few definitions, except for the requirement that an affine space be inhabited.  To rectify this, sometimes one allows the [[empty set]] to be an affine space, although it does not have any particular vector space of displacements.
+
+Note that there are a few different ways to think about the operations involved in the final three definitions (those not explicitly involving a vector space).  The operation $(x,y,z)\mapsto x - y + z$ is the same as the [[Mal'cev operation]] (i.e. [[heap]] structure) of the additive group of a vector space.  It can be viewed as the point completing a parallelogram with given vertices $x,y,z$, or equivalently as the result of adding $x$ and $z$, relative to a choice of $y$ as the origin.  The operation $(r,x,y)\mapsto x - r x + r y$ can be viewed as either a weighted average of $x$ and $y$ (i.e. as $(1-r)x + r y$) or as the result of multiplying the "displacement vector" $y-x$ by $r$, relative to the origin $x$ (i.e. as $x + r(y-x)$).
 
 
 # Comparing definitions
@@ -81,6 +80,8 @@ $$4x_0 - 6x_1 - 2x_2 + 5x_3 = \big((4x_0 - 3y) - y + (-6x_1+7y)\big) - y + \big(
 for any $y$ at all.
 
 _Toby_:  Right.  But I find an affine module of a *rig* to be a trickier concept.
+
+[[Mike Shulman]]: Quite so.  Perhaps first one should look for a version of a [[heap]] corresponding to a [[monoid]]?
 =--
 
 
