@@ -1,3 +1,2 @@
-See [[faithful functor]].
-
-category: redirect
+&lt; [[faithful]]
+[[!redirects faithful -- history]]
