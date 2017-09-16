@@ -121,7 +121,7 @@ $$
 
 ## References
 
-The use of the Weil algebra in the calculation of the equivariant deRham cohomology of manifolds acted on by a compact group goes at least back to two papers by H. Cartan from 1950. These papers are reprinted, explained and put in a modern context in the book
+The use of the Weil algebra in the calculation of the equivariant [[deRham cohomology]] of manifolds acted on by a compact group goes at least back to two papers by H. Cartan from 1950. These papers are reprinted, explained and put in a modern context in the book
 
 * Victor Guillemin, Shlomo Sternberg, _Supersymmetry and Equivariant de Rham Theory_, Springer, 1999.
 
@@ -129,23 +129,3 @@ The use of the Weil algebra in the calculation of the equivariant deRham cohomol
 For the role played by the Weil algebra in the general context of higher [[Lie theory]] see
 
 * Hisham Sati, Urs Schreiber, Jim Stasheff, _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ ([arXiv](http://arxiv.org/abs/0801.3480))
-
-## Discussion
-
-A previous version of this entry led to this discussion:
-
-+-- {: .query}
-Warning: the X in the Idea section is not the X in this definition. I suggest calling it M and saying that M is the manifold with algebra of functions the degree zero part of $CE(\mathfrak{g})$.  ---Maarten
-
-What if anything is the relationship between the $\mathbf{X}$ above and the $X$ (or $M$) here?  (Sorry, I don\'t know anything about this stuff.)  ---Toby
-
-$CE(\mathfrak{g})$ is the graded supercommutative ring of functions on the NQ-supermanifold X and M is ordinary manifold with functions the degree 0 part of $CE(\mathfrak{g})$. X maps to M, but is much bigger. ---Maarten
-
-[[Urs Schreiber]]: I renamed now the $X$ in the definition into an $X_0$ and said explicitly that this is the underlying manifold.
-
-That looks much better, thanks. Should we delete the discussion, or how does that work?
----Maarten
-
-Yes, when a discussion is closed and does not contain material that is of interest independently for posteriority, we should eventually remove it. As soon as you see this here, feel free to delete the box. -- [[Urs Schreiber|Urs]]
-
-=--
