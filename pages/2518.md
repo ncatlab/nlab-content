@@ -13,7 +13,7 @@ AN: Yes, I know. But the latter is not captured by your formal definition below.
 
 Your use of ''material'' and ''structural'' is an inappropriate, intuitively misleading use of language, 
 
-There is nothing material about the assertion that <a href="http://ncatlab.org/nlab/show/set+theory">currently</a> characterizes your term ''material set theory'', namely that the same element can be in two distinct sets.
+There is nothing material about the assertion that [[set theory|currently]] characterizes your term ''material set theory'', namely that the same element can be in two distinct sets.
 
 There is also nothing structural in a set theory that eliminates all structure from sets. What you call ''structural set theory'' deserves to be called a ''theory of structureless sets'', which means essentially the opposite of the name you chose. What you call ''structurally presented'' is much more naturally called ''structureless''. For it is a condition for the absence of structure, rather than one for a structural presentation.
 
@@ -31,6 +31,12 @@ But it provides a widely accepted, exceptionally clean framework for structural 
 Mathematics as practiced is both structural and material, no matter into which formal framework it is forced.
 
 To introduce an artificial split, and to introduce it with notions whose formal meaning flies in the face of the informal reading of the words is no service to mathematics.
+
+_Toby_:  I can only speak for myself, but I\'m beyond caring what you think is of service to mathematics.  However, I still have a pathological urge to explain, so ...
+
+What you say about a 'theory of structureless sets' is quite right, as far as it goes.  (I would say that they are not quite structureless, since they have an equality relation, but they\'re close!)  So what\'s structural about a theory of structureless sets?  It\'s that structural set theory thinks of sets in the same way as most mathematicians think about groups, topological spaces, and other abstract structures: up to isomorphism.  Or to put it another way, we only care what the category of sets is like, just as pure group theorists (not that anybody is purely a group theorist) only care what the category of groups is like, not what the structures of the individual groups\' individual elements are.  Most of the structures that people study have a lot of structure; that\'s why they\'re called 'structures'.  Abstract sets, on the other hand, don\'t have very much structure at all; in a sense, they have the least structure possible.  But in structural set theory, we still think of them *as structures*.
+
+I\'m pretty sure that something like that is the origin of the phrase, although I didn\'t invent it and don\'t know for certain.  Whether it is the best phrase to use is another matter.
 =--
 
 When viewed as a [[foundations|foundation]] for mathematics, the idea of structural set theory is that sets (together with other attendant concepts such as [[element]]s, [[functions]], and [[relations]]) are the "raw material" from which mathematical structures are built.  The elements of a set thus have no "structure" until it is given to them by means of functions and relations.
