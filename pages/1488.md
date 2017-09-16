@@ -1,3 +1,3 @@
-[[!redirects infinity-category]]
+See [[infinity-category]].
 
-category: redirect
+category: delete
