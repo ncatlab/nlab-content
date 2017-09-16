@@ -1,1 +1,1 @@
-see [[infinitesimal singular simplicial complex]]
+&lt; [[infinitesimal singular simplicial complex]]
