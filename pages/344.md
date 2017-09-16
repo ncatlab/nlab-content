@@ -3,7 +3,7 @@
 An __finitely extensive category__ (which is the usual meaning of __extensive category__) is a category $E$ with finite [[coproduct|coproducts]] such that one, hence all, of the following equivalent conditions holds:
 
  1. Finite coproducts are [[disjoint coproduct|disjoint]] and [[pullback stability|stable under pullback]].
- 1. For any objects $a,b$ the coproduct functor $E/a \times E/b \to E/(a+b)$ is an [[equivalence]] of categories.
+ 1. For any objects $a,b$ the coproduct functor $E/a \times E/b \to E/(a+b)$ is an [[equivalence of categories]].
  1. In any commutative diagram
  $$\array{x & \to & z & \leftarrow & y\\
    \downarrow  & &   \downarrow  &  &  \downarrow \\
