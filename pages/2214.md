@@ -37,7 +37,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     (any volunteers for similar floating tables of contents such as [[topos theory - contents]], [[enriched category theory - contents]]?)
 
 
-* [[Jon Awbrey]] started a subsection on categorical precursors in [[category theory]], but that's already such a huge article that people may prefer to spin off a new page if it goes past a few links.
+* [[Jon Awbrey]] added a subsection on categorical precursors to the References Section of [[category theory]], but that's already such a huge article that people may prefer to spin off a new page if it goes past a few links.
 
 * [[Urs Schreiber]]: 
 
