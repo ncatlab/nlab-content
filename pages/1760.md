@@ -44,7 +44,7 @@ and we say that $\mathbf{B} A$ is the **delooping** of $A$.
 
 #Remarks#
 
-If $\mathbf{B}$ is even a [[stable (∞,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **suspension** of $A$.
+If $\mathbf{B}$ is even a [[stable (∞,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **[[suspension]]** of $A$.
 
 
 #Characterization of deloopable objects#
