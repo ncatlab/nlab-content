@@ -1,0 +1,1 @@
+A topological space X is compactly generated if a subspace A of X is closed if and only if its intersection with any compact subspace K of X is closed in K. Given A, this is enough to check for those K which belong to a given cover of X by compact sets.
