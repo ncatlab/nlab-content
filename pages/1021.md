@@ -9,7 +9,7 @@ The concept generalises immediately to [[enriched category|enriched categories]]
 
 ## Definitions
 
-Given [[partial order|posets]] (or [[preorder|proset]]s) $C$ and $D$ and a monotone function $U: C \to D$, a __right adjoint__ of $U$ is a monotone function $G: D \to C$ such that
+Given [[partial order|posets]] (or [[preorder|prosets]]) $C$ and $D$ and a monotone function $U: C \to D$, a __right adjoint__ of $U$ is a monotone function $G: D \to C$ such that
 $$ U(x) \leq y \;\Leftrightarrow\; x \leq G(y) $$
 for all $x$ in $D$ and $y$ in $C$.
 
@@ -19,7 +19,7 @@ $$ Hom_D(F(-),-), Hom_C(-,U(-)): D^op \times C \to Set .$$
 Given $V$-enriched categories $C$ and $D$ and a $V$-[[enriched functor]] $U: C \to D$, a __left adjoint__ of $U$ is a $V$-enriched functor $F: D \to C$ with a $V$-[[enriched natural transformation|enriched natural isomorphism]] between the [[hom-object]] functors
 $$ Hom_C(F(-),-), Hom_D(-,U(-)): C^op \times D \to Set .$$
 
-Given categories $C$ and $D$ and a functor $U: C \to D$, a __right adjoint__ of $U$ is a functor $G: D \to C$ with [[natural transformation]]s
+Given categories $C$ and $D$ and a functor $U: C \to D$, a __right adjoint__ of $U$ is a functor $G: D \to C$ with [[natural transformations]]
 $$ \iota: id_C \to U ; G,\; \epsilon: G ; U \to id_D $$
 satisfying certain [[triangle identities]].
 
@@ -38,5 +38,5 @@ Whenever $G$ is a right adjoint of $U$, we have that $U$ is a [[left adjoint]] o
 *  See [[adjunction]] for right adjionts in $2$-categories.
 *  See [[examples of adjoint functors]] for examples.
 
-
+[[!redirects right adjoints]]
 [[!redirects right adjoint -- history]]
