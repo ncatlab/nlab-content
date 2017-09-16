@@ -1,3 +1,7 @@
+[[!redirects *-autonomous category]]
+[[!redirects *-autonomous categories]]
+
+
 ## Definition ##
 
 A $*$-autonomous category \[1\] is a [[symmetric monoidal
