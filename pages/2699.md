@@ -65,7 +65,7 @@ The point is to prove the following due to Lurie.
 #$\mathbf{G}$-Equivariant $A$-cohomology#
 
 ##The Strategy##
-1. Define $A_{S^1} (*}$;
+1. Define $A_{S^1 } (*)$;
 
 1. Extend to $A_{S^1} (X)$ where $X$ is a trivial $S^1$-space;
 
