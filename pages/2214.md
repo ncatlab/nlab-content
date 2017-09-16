@@ -25,6 +25,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-09-14
+
+* [[Urs Schreiber]]: joined the discussion at [[graph of a function]]. I am thinking that this is best understood as a special case of a more general concept, for wich  I created now entries
+
+  * [[graph of a functor]]
+
+  * [[cograph of a functor]]
+
+  This has some nice applications. For instance one has that two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if they have the same cograph, up to reversal of arrows. Notice that, because the notion of cograph immediately generalizes to functors between higher categories, this is the basis for a definition of [[adjoint (infinity,1)-functor]].
+
+  I have expanded the material at [[graph of a function]] accordingly. Also I made [[cograph of a function]] redirect to that.
+
 ## 2009-09-13
 
 *  [[Toby Bartels]]:  Not done at [[graph of a function]], Eric!
