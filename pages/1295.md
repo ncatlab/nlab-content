@@ -18,12 +18,12 @@ For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ m
 
 #Remarks#
 
-The dual concept is the _dependent coproduct_ (more often called the _dependent sum_), which is the [[left adjoint]] $\coprod_k : C/A \to C/I$ (or $\Sigma_k$) to $f^* : C/I \to C/A$.
+Note that the *left* adjoint to the base-change functor, the _dependent coproduct_ or _dependent sum_ $\sum_f: C/A \to C/I$, is much simpler.  It is simply given by [[composition]] with $f$, so it always exists when it makes sense (that is when $f$ has all pullbacks).
 
 +-- {: .un_prop }
 ###### Proposition
 
-For $C$ a [[topos]] and $f : A \to I$ any morphism in $C$, both the left adjoint $\coprod_k : C/A \to C/I$ as well as the right adjoint $\prod_f: C/A \to C/I$ to $f^*: C/I \to C/A$ exist. 
+For $C$ a [[topos]] and $f : A \to I$ any morphism in $C$, both the left adjoint $\sum_f : C/A \to C/I$ as well as the right adjoint $\prod_f: C/A \to C/I$ to $f^*: C/I \to C/A$ exist. 
 
 Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
 
