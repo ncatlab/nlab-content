@@ -238,7 +238,9 @@ This is for instance proposition 8.4.3 in the lecture notes cited below.
 
 A useful discussion of of the model structure on dendroidal sets is section 8 of
 
-* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , notes typed by Javier Guiti&eacute;rrez on lectures given at the Barcelona workshop on _Homotopy theory and higher categories_ (2008) (to appear in print soon)
+* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , lectures given at the Barcelona workshop on _[Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)_ (2008) ([preliminary writeup](http://www.crm.cat/HigherCategories/hc1.pdf))
+
+An expanded and polished version has meanwhile been written up by Javier Guiti&eacute;rrez and should appear in print soon. An electronic copy is probably available on request.
 
 The model structure was originally given in 
 
