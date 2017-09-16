@@ -33,10 +33,13 @@ The vast majority of existing work on infinitesimals and infinitesimal neighbour
 
 Similar infinitesimal thickenings also appear in the [[noncommutative geometry]] of Kapranov, and in the language of [[abelian category|abelian categories]] of [[quasicoherent sheaf|quasicoherent sheaves]] in the work of Lunts and Rosenberg on regular [[differential operator]]s in the content of [[noncommutative geometry]], which strongly takes into account [[tensor product]]s.
 
-## the special case of infinitesimals in nonstandard analysis ##
+## comparison to infinitesimals in nonstandard analysis ##
 
-Another notion of infinitesimals has been has arisen in the context of [[nonstandard analysis]]. The infinitesimal quantities considered there differ from the general ones in [[synthetic differential geometry]] in that they are all _invertible_ . But it can be shown that these invertible infinitesimals of [[nonstandard analysis]] may be understood in terms of models of [[synthetic differential geometry]], too (for instance [[Models for Smooth Infinitesimal Analysis|MSIA, chapter 6]]).
+Another notion of infinitesimals has been has arisen in the context of [[nonstandard analysis]]. The infinitesimal quantities considered there differ from the general ones in [[synthetic differential geometry]] in that they are all _invertible_ (their inverses being "infinitely large").   Nevertheless, one can construct models of [[synthetic differential geometry]] which, in addition to nilpotent infinitesimals, contain invertible infinitesimals; see for instance [[Models for Smooth Infinitesimal Analysis|MSIA, chapters VI and VII]].  Such invertible infinitesimals can be applied in some of the same ways as the infinitesimals of nonstandard analysis.
 
+However, as pointed out in MSIA (intro. to Chapter VII), "there are some obvious differences."  The primary tool used in nonstandard analysis is a completely general [[transfer principle]], saying that any statement in the ordinary world is also true in the nonstandard world.  In particular, this implies that the infinitesimal and infinitely large quantities in nonstandard analysis obey all the same rules of arithmetic and analysis as do the standard ones.  By contrast, a limited sort of transfer principle relating a pair of specific models for SDG is proven in MSIA, but it applies only to statements of a certain logical form.  Moreover, the arithmetic of invertible infinitesimals in SDG has some unfamiliar aspects: for instance, mathematical induction is only valid for statements of a certain logical form, and the axiom of finite choice fails.
+
+The construction of models for nonstandard analysis does, however, have a topos-theoretic description, using [[filterpowers]].
 
 
 # Definition #
