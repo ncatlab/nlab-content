@@ -9,7 +9,7 @@
 
 * A category is a [[directed graph]] with a rule saying how to _compose_ two edges that fit together to get a new edge.  Furthermore, each vertex has an edge starting and ending at that vertex, which acts as an identity for this composition.
 
-* A category is a combinatorial model for a [[directed space]].  It has "points", called _objects_, and also directed "paths", or "processes" connecting these points, called _morphisms_.  There is a rule for how to compose paths; and for each object there is an identity path that starts and ends there.
+* A category is a combinatorial model for a [[directed space]] -- a "directed [[homotopy n-type|homotopy 1-type]]" in some sense.  It has "points", called _objects_, and also directed "paths", or "processes" connecting these points, called _morphisms_.  There is a rule for how to compose paths; and for each object there is an identity path that starts and ends there.
 
 * More precisely, a category consists of a collections of [[object|objects]] and
 a collection of [[morphism|morphisms]].  Every morphism 
@@ -19,6 +19,10 @@ $$f : x \to y$$
 and we say that $f$ is a morphism from $x$ to $y$.  In a category, we can [[composition|compose]] a morphism $g : x \to y$ and a morphism $f : y \to z$ to get a morphism $f \circ g : x \to z$.  Composition is associative and satisfies the left and right unit laws.
 
 The example to keep in mind is the category [[Set]], in which the objects are sets and a morphism $f : x \to y$ is a function from the set $x$ to the set $y$.  Here composition is the usual composition of functions.
+
+For more background on and context for categories see
+
+* [[category theory]].
 
 #Definition#
 
