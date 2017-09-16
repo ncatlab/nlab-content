@@ -50,7 +50,7 @@ This is _natural_ in $c$ and $X$, i.e. there is in fact an [[isomorphism]] in th
 
 ## Proof ##
 
-The crucial point is that the naturality condition on any [[natural transformation]] $\eta : C(-,c) \Rightarrow X$ is sufficient to ensure that $\eta$ is already entirely fixed by the value $\eta_c(Id_c) \in F(c)$ of its component $\eta_c : C(c,c) \to X(c)$ on the [[identity]] $Id_c$.
+The crucial point is that the naturality condition on any [[natural transformation]] $\eta : C(-,c) \Rightarrow X$ is sufficient to ensure that $\eta$ is already entirely fixed by the value $\eta_c(Id_c) \in F(c)$ of its component $\eta_c : C(c,c) \to X(c)$ on the [[identity morphism]] $Id_c$.
 And every such value extends to a natural transformation $\eta$.
 
 
