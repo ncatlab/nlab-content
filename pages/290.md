@@ -2,6 +2,7 @@
 [[!include physicscontents]]
 </div>
 
+[[!redirects quantum field theories]]
 
 #Higher categories in quantum field theory#
 
