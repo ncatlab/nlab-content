@@ -231,7 +231,7 @@ define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be ope
 $$
 f^{-1}G = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{V\hookrightarrow f^{-1}W} G(W)) = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{(V\downarrow f^{-1})} G)
 $$ 
-which is a sheaf and one can analyze this construction to show that $f^{-1}$ is a right adjoint to $f_*$. This usage of left Kan extension persists in the more general case of Grothendieck topologies. 
+which is a sheaf, and one can analyze this construction to show that $f^{-1}$ is a left adjoint to $f_*$. This usage of left Kan extension persists in the more general case of Grothendieck topologies. 
 
 
 
