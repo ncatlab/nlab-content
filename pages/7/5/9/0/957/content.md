@@ -15,7 +15,7 @@
 
 ## Idea and terminology
 
-A **direction** on a set $S$ is a [[preorder]] on $S$ in which any finite subset has an [[upper bound]].  A **directed set** is a [[set]] equipped with a direction.  A **directed poset** is a directed set whose preorder is a [[partial order]] (so _directed proset_ might be a better term than _directed set_).
+A **direction** on a set $S$ is a [[preorder]] on $S$ in which any finite subset has an [[upper bound]].  A **directed set** is a [[set]] equipped with a direction.  A **directed poset** is a directed set whose preorder is a [[partial order]] (so _directed proset_ might be a better term than _directed set_). Note that many authors by directed set mean directed poset.
 
 Directedness is an asymmetric condition.  Sometimes a direction as defined here is called **upward-directed**; a preorder whose [[opposite category|opposite]] is upward-directed is called **downward-directed** or **codirected**.
 
