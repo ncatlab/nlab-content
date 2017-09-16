@@ -33,7 +33,7 @@ The following statements are all consequences of SVC.
 SVC holds in all "ordinary" [[permutation model|permutation]] and [[symmetric model]]s of (material) [[set theory]], as well as in hereditarily-ordinal-definable and [[constructible universe|relatively-constructible]] submodels.  However, it can fail in permutation models over [[proper classes]].
 
 +--{: .query}
-[[Mike Shulman]]: I wonder whether SVC holds internally in all [[Grothendieck toposes]] constructed from a base topos satisfying AC.  The above facts make it sound at least plausible.
+[[Mike Shulman]]: The above facts make it sound plausible that SVC might hold internally in all [[Grothendieck toposes]] constructed from a base topos satisfying AC, but Makkai claims that it does not (although its consequence, the (local) [[axiom of small cardinality selection]], does).
 =--
 
 
