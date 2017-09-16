@@ -46,19 +46,19 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         1.  [[directed poset]], [[directed join]]
         2.  (none)
         3.  [[complete lattice]]
-        4.  [[complete Boolean algebra]]; $Semi Lat$ is algebraic
-        5.  $Comp Semi Lat$ is algebraic
-        6.  $Lat$ is algebraic
-        7.  $Comp Lat$ is not algebraic
-        8.  $Dist Lat$ is algebraic
-        9.  $Bool Alg$ is algebraic
-        10. $Comp Bool Alg$ is not algebraic
-        11. $Heyt Alg$ is algebraic
+        4.  [[complete Boolean algebra]]; $Semi Lat$ is monadic
+        5.  $Comp Semi Lat$ is monadic
+        6.  $Lat$ is monadic
+        7.  $Comp Lat$ is not monadic
+        8.  $Dist Lat$ is monadic
+        9.  $Bool Alg$ is monadic
+        10. $Comp Bool Alg$ is not monadic
+        11. $Heyt Alg$ is monadic
 2.  Introduction to locales
 
     1.  Frames and locales
         1.  [[frame]], [[locale]], [[subframe]]
-        2.  $Frm$ is algebraic
+        2.  $Frm$ is monadic
         3.  [[point]] (of a locale), [[completely prime filter]], [[prime element]]
         4.  adjunction between $Loc$ and $Top$
         5.  [[atom]], [[spatial locale]]
@@ -119,8 +119,8 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         1.  [[ultrafilter]]
         2.  [[filter]] (on a set), [[neighbourhood filter]], [[convergence|limit]] (of a filter)
         3.  (none)
-        4.  \* $Comp Haus Top$ is algebraic
-        5.  \* $Comp Haus Top A$ is algebraic for $A$ a variety of algebras
+        4.  \* $Comp Haus Top$ is monadic
+        5.  \* $Comp Haus Top A$ is monadic for $A$ a variety of algebras
     3.  [[Gleason theorem|Gleason's Theorem]]
         1.  [[projective object]]
         2.  (none)
