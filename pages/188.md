@@ -112,3 +112,5 @@ $$
 $$
 
 In summary, it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identified should be, for instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives.
+
+[[!redirects monoids]]
