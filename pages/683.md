@@ -10,7 +10,7 @@
 * automatic table of contents goes here
 {:toc}
 
-# Idea #
+## Idea 
 
 In great generality, a _homotopy limit_ is a way of constructing appropriate sorts of [[limit]]s in a [[higher category theory|(weak) higher category]] using some "presentation" of that higher category by a stricter structure.  The general study of such presentations is [[homotopy theory]].
 
@@ -19,7 +19,7 @@ In classical homotopy theory, the presentation is given by a [[category with wea
 In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it presents an "enriched $(\infty,1)$-category."  Here the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which is expected to construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category."  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
 
-#Definitions #
+## Definitions 
 
 As for ordinary [[limit]]s,
 there are two ways to define homotopy limits:
@@ -31,7 +31,7 @@ there are two ways to define homotopy limits:
 One of the central theorems of the subject is that in good cases, the two give equivalent results; see below.
 
 
-## Global definition ##
+### Global definition 
 
 Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
 
@@ -43,7 +43,7 @@ $$
 In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
 
 
-## Local definition ##
+### Local definition 
 
 The local definition requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram. 
 
@@ -58,7 +58,7 @@ $$ Map(X,L) \simeq HoCones(X,F)$$
 of [[hom-objects]] (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
 
 
-## Global versus local ##
+### Global versus local
 
 The global definition is formulated in terms of [[weak equivalence|weak equivalences]] only, while the local definition is formulated in terms of [[homotopy|homotopies]] only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
 
@@ -75,7 +75,7 @@ An abstract version in modern language, with proof, can be found in
 * Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
 
 
-### Strictness ###
+#### Strictness 
 
 Another notable difference between the local and global definitions is that the global definition can only ever define the homotopy limit up to weak equivalence (isomorphism in the homotopy category), while in the local definition we _could_ require, if we wanted to, an actual isomorphism
 $$ Map(X,L) \cong HoCones(X,F)$$
@@ -86,7 +86,7 @@ Frequently a strict homotopy limit does in fact exist, and can be constructed as
 When a strict homotopy limit exists, an arbitrary homotopy limit may be defined as an object which is (weakly) equivalent to the strict homotopy limit.
 
 
-# Homotopy limits versus higher categorical limits
+## Homotopy limits versus higher categorical limits
 
 As a special case of enriched homotopy theory, we may consider model categories or homotopical categories that are enriched over a notion of $n$-category as presentations for $(n+1)$-categories.  (Here we allow $n$ to also be of the form [[(n,r)-category|(n,r)]], with the obvious convention that $(n,r)+1 = (n+1,r+1)$ and $\infty+1=\infty$.)  For example:
 
@@ -103,9 +103,178 @@ Since higher categorical limits are generally defined as representing objects fo
 On the other hand, we may also consider a category $C$ enriched over $n$-categories with a _larger_ class of weak equivalences than just the $n$-categorical equivalences.  Then $C$ presents an $n$-category (its "homotopy $n$-category") obtained by formally turing these weak equivalences into $n$-categorical equivalences.  Homotopy limits in $C$ with this homotopical structure should then present $n$-limits in its homotopy $n$-category.  In the case $n=(\infty,1)$ this is also essentially in Lurie's book; for other values of $n$ it may not be in the literature.
 
 
-# Examples #
+## Examples 
 
-## Homotopy pullbacks ##
+### General weighted colimit formula for homotopy colimits {#WeightedColimitFormula}
+
+Let 
+
+* $C$ be a [[combinatorial model category|combinatorial]] [[simplicial model category|simplicial]] [[model category]] 
+
+* let $D$ be a [[small category|small]] [[simplicially enriched category]] 
+
+  (possibly an ordinary [[locally small category]] regarded as a [[SSet]]-[[enriched category]] in the tautological way) 
+
+* and let $F : D \to C$ be an [[SSet]]-[[enriched functor]].
+
+There is a general formula for the homotopy colimit over $F$ in terms of a [[coend]] or [[weighted colimit]] in $C$, using the following ingredients:
+
+#### Ingredients 
+
+for $C$ a [[combinatorial simplicial model category]] as above and for $D$ any [[simplicially enriched category]] there is the projective and the injective [[global model structure on functors]] on the [[enriched functor category]] $[D,C]$.
+
+* In the projective model structure $[D,C]_{proj}$ the fibrations and the local equivalences are objectwise those of $C$
+
+* In the injective model structure $[D,C]_{inj}$ the cofibrations and the local equivalences are objectwise those of $C$.
+
+Each of these is itself a [[combinatorial simplicial model category]], so in particular the [[small object argument]] applies in these using which one obtains cofibrant replacement functors
+
+$$
+  Q_{proj} : [D, C] \to [D, C]
+$$
+
+and
+
+$$
+  Q_{inj} : [D, C] \to [D, C]
+  \,.
+$$
+
+That $C$ is a [[simplicial model category]] implies in particular that it is [[copower|tensored]] over [[SSet]] and that the tensoring functor
+
+$$
+  \otimes : C \times SSet \to C
+$$
+
+is a left [[Quillen bifunctor]]. By the properties of Quillenn befunctors discussed there, it follows that the [[coend]]s over the [[copower|tensor]] in the form
+
+$$
+  \int^D (-) \otimes (-) : [D^{op},SSet]_{proj} \times [D,C]_{inj} \to C
+$$
+
+and in the form
+
+$$
+  \int^D (-) \otimes (-) : [D^{op},SSet]_{inj} \times [D,C]_{proj} \to C
+$$
+
+both themselves left [[Quillen bifunctor]]s. 
+
+Write
+
+$$
+  {*} : D \to SSet
+$$
+
+for the functor that sends everything to the identity on the singleton set. This is both the tensor unit in the [[monoidal category]] $[D,SSet]$.
+
+
+#### General formula
+
++-- {: .un_theorem }
+###### Theorem
+
+With the above assumptions and ingredients, the homotopy colimit over $F : D \to S$ is given either by 
+
+$$
+  hocolim F = \int^D Q_{proj}({*}) \otimes Q_{inj}(F) 
+$$
+
+or by
+
+$$
+  hocolim F = \int^D Q_{inj}({*}) \otimes Q_{proj}(F) 
+  \,.
+$$
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is disucssed for instance in section 4 of
+
+* [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
+
+=--
+
+#### Examples
+
+##### Homotopy colimits over simplicial diagrams
+
+Let $D = \Delta^{op}$ be the [[opposite category]] of the [[simplex category]]. 
+
++-- {: .un_prop }
+###### Proposition
+
+A cofibrant replacement of the [[terminal object]] ${*}$ in the projective [[global model structure on functors]] $[\Delta, SSet]$ is the functor that assigns to $[n]$ the [[nerve]] of [[opposite category]] of the [[undercategory]] of $\Delta$ under $[n]$
+
+$$
+  N(-/\Delta)^{op} : \Delta \to SSet
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For instance prop 14.8.8 in 
+
+* Hirschhorn, _Model categories and their localization_ 
+
+=--
+
+Notice that if $F : \Delta^{op} \to C$ takes values in cofibrant objects of $C$, then it is itself cofibrant as an object of $[\Delta^{op},C]_{inj}$. In that case no further cofibrant replacement of $F$ is necessary and it therefore follows with the general formula and the above proposition that the homotopy colimit over $F$ is given by the formulas
+
+$$
+  hocolim F = \int^{[n] \in \Delta} N([n]/\Delta)^{op} \otimes F(n)
+  \,.
+$$
+
+This is famously the formula introduced and used by Bousfield and Kan (but there originally missing the necessary condition that $F$ be objectwise cofibrant). See [[Bousfield-Kan map]].
+
+##### Homotopy pushout
+
+Let in the above general formula $D = \{a \leftarrow c to b\}$ be the walking [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushout**.
+
+In this simple case, we have the following simple observation:
+
++-- {: .un_lemma }
+###### Observation
+
+For $D$ as above, the terminal functor ${*} : D \to SSet$ is already cofibrant in $[D,SSet]_{inj}$.
+
+=--
+
+Moreover
+
++-- {: .un_lemma }
+###### Observation
+
+For $D$ as above, a functor $F : D \to C$ is cofibrant in $[D,C]_{proj}$ if 
+
+* it sends both morphisms $c \to a$ and $c \to b$ to cofibrations 
+
+* it sends $c$ (and hence also $a$ and $b$) to cofibrant objects in $C$.
+
+=--
+
+Since a coend $\int {* } \otimes F$ over a tensor product where the first factor in the integrand in the tensor unit is just an ordinary [[colimit]] over the remaining $F$, it follows that if $F$ is of the form of the above observation, then the ordinary colimit over $F$ already computes the homotopy pushout:
+
+$$
+  hocolim F = \lim_\to F
+  \,.
+$$
+
+The dual version of this statement (for homotopy limits and homotopy pullbacks) is discussed in more detail in the examples below.
+ 
+
+### Homotopy pullbacks 
+
+Here we consider special cases of homotopy pullback in more detail.
 
 Let $D = \{ 1\to 0 \leftarrow 2\}$ be the pullback [[diagram]], so that limits over it compute [[pullback]]s, and assume that $F : D \to C$ is such that
 $$
@@ -123,7 +292,7 @@ then
 Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be computed by finding a natural transformation $F \Rightarrow R F$ whose component morphisms are weak equivalences and such that $R F$ satisfies the above conditions.
 
 
-## Based loop objects ##
+#### Based loop objects 
 
 Let $C$ be a [[category of fibrant objects]]. Then for $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ we have
 
@@ -150,7 +319,7 @@ $$
 with all vertical morphisms weak equivalences and with the left bottom horizontal morphism a fibration.
 
 
-## Homotopy pullback of a point over a group / universal bundles ##
+#### Homotopy pullback of a point over a group / universal bundles
 
 As a special case of the above general example we get the following.
 
@@ -213,7 +382,7 @@ $$
 $$
 This example is important in the context of [[groupoidification]] and [[geometric function theory]], as described there.
 
-## Homotopy pullback of a subgroup over a group ##
+#### Homotopy pullback of a subgroup over a group 
 
 The above example generalizes straightforwardly
 to the case where the trivial 
@@ -318,16 +487,63 @@ This example, too, is important at [[geometric function theory]].
 
 
 
-## Homotopy span traces ##
+#### Homotopy span traces
 
 * see the homotopy span traces discussed at 
   [[span trace]] for more examples of homotopy pullbacks
 
-## Descent objects ##
+### Descent objects
 
 _Descent objects_ as they appear in [[descent|descent and codescent]] are naturally conceived as homotopy limits. See also [[infinity-stack]].
 
-# References #
+### Homotopy (co)limits of simplicial pre(sheaves) {#SimpSheaves}
+
+The local [[model structure on simplicial presheaves]] $SPSh(C)_{proj/inj}^{loc}$ over a [[site]] $C$  serve as [[models for ∞-stack (∞,1)-toposes]]. 
+
+Here we discuss some properties of homotopy limits and colimits in such model categories of simplicial presheaves.
+
+#### Preservation of homotopy pullback by inverse images
+
+For $C, C'$ two [[site]]s, a [[geometric morphism]] $Sh(C) \stackrel{\leftarrow}{\to} Sh(C')$  of [[Grothendieck topos|sheaf topos]]es induces correspondingly an [[adjunction]]
+
+$$
+  SSh(C) \stackrel{\leftarrow}{\to} SSh(C')
+$$
+
+of simplicial (pre)sheaves. One would like this to extend to a [[Quillen adjunction]] that recalls the fact that it came from a geometric morphism by the fact that the [[left adjoint]] [[inverse image]] functor $SSh(C') \to SSh(C)$ preserves finite homotopy limits.
+
+In particular, if $C$ and $C'$ have the same underlying category but $C'$ the trivial [[coverage]], then the [[geometric morphism]] in question is the inclusion of a [[reflective subcategory]] which typically induces a [[Bousfield localization]] of model categories that models the injection of a [[reflective (∞,1)-subcategory]] of [[∞-stack]]s into $\infty$-presheaves. Here the morphism $SPSh(C') \to SPSh(C)$ is $\infty$-stackification and should preserve finite homotopy limits.
+
+The following result says that a strong version of this statement is true, at least for the preservation of homotopy pullbacks.
+
+
++-- {: .un_theorem }
+###### Theorem
+
+Let $p : Sh(C) \to Sh(C')$ be a [[geometric morphism]] of [[Grothendieck topos]]es. Let $p^* : Sh(C') \to Sh(C)$ be the corresponding [[inverse image]] functor and let $s p^* : SSh(C') \to SSh(C)$ be its degreewise extension to functor of [[simplicial presheaf|simplicial sheaf]] categories.
+
+Regarded as a functor between the corresponding [[local model structure on simplicial sheaves|local injective model structures on simplicial sheaves]] on both sides
+
+$$
+  s p^* : SSh(C')_{inj}^{loc} \to SSh(C)_{inj}^{loc}
+$$
+
+this functor preserves homotopy pullbacks.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as theorem 1.5 in
+
+* [[Charles Rezk]], _Fibrations and homotopy colimits of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/math/9811038))
+
+=--
+
+
+
+## References 
 
 * A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.  Springer LNM 304.  The classical reference; see in particular chapter XI.
 
