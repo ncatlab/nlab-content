@@ -114,7 +114,7 @@ The coequalizer of this pair provides a canonical augmentation of the two-sided 
 
 $$\overline{Path}(B) \otimes_{\Pi_1(B)} F$$ 
 
-(the seemingly opposite placement of the two tensor factors, as compared against the span constructions above, is simply an artifact of the discrepancy between diagrammatic order of composition, and the traditional order in which right actions are covariant and left actions contravariant).  
+(the seemingly opposite placement of the two tensor factors, as compared against the span constructions above, is simply an artifact of the discrepancy between [[diagrammatic order]] of composition, and the traditional order in which right actions are covariant and left actions contravariant).  
 
 As a span from $1$ to $B$, that is as a bundle over $B$, this tensor product is indeed a covering space over $B$, assuming that $B$ is locally connected and semi-locally simply connected. Finally, the functor 
 
