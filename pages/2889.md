@@ -211,5 +211,9 @@ This is discussed in [lecture 14](http://www.math.rutgers.edu/~weibel/MVWnotes/p
 
 * [[Vladimir Voevodsky]], [[Pierre Deligne]], _Lectures on motivic cohomology 2000/2001_ ([web](http://www.math.uiuc.edu/K-theory/0527/))
 
+For a discussion of the relation betwen [[motive]]s and motivic cohomology, see for instance section 0.1.8 of
+
+* [[Spencer Bloch]], _Lectures on Mixed Motives_ ([ps](http://www.math.uchicago.edu/~bloch/motive.ps))
+
 [[!redirects motivic complex]]
 [[!redirects motivic complexes]]
