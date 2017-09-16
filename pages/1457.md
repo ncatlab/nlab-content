@@ -1,10 +1,3 @@
-[[!redirects metric]]
-[[!redirects pseudometric]]
-[[!redirects pseudometric space]]
-[[!redirects quasimetric]]
-[[!redirects quasimetric space]]
-
-
 ## Idea
 
 A **metric space** is a set which comes equipped with a function which measures distance between points, called a _metric_. The metric can be used to generate a topology on the set, and a topological space whose topology comes from some metric is said to be _metrizable_. 
@@ -68,3 +61,15 @@ In [[constructive mathematics]], it works better to use $\lt$:
 $$ x \lt y \;\Leftrightarrow\; d(x,y) \gt 0 ;$$
 then the symmetry axiom implies that this is an [[apartness relation]], which (for quasimetric spaces) we can also define directly:
 $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
+
+[[!redirects metric spaces]]
+[[!redirects metric]]
+[[!redirects pseudometric]]
+[[!redirects pseudometric space]]
+[[!redirects quasimetric]]
+[[!redirects quasimetric space]]
+[[!redirects metrics]]
+[[!redirects pseudometrics]]
+[[!redirects pseudometric spaces]]
+[[!redirects quasimetrics]]
+[[!redirects quasimetric spaces]]
