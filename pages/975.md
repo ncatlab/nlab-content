@@ -222,6 +222,8 @@ For a pedagogical motivation of the general topic under consideration here see
 
 * [[exact functor]]
 
+  * [[flat functor]]
+
 
 #4 Tensor Categories#
 
@@ -250,15 +252,33 @@ For a pedagogical motivation of the general topic under consideration here see
 
   * [[compact object]]
 
-#7 Localization#
 
-* [[localization]]
+
+#7 Localization#
 
 * [[homotopical category]]
 
-* [[homotopy category]]
+  * [[category with weak equivalences]]
 
-* [[derived functor]]
+  * [[category of fibrant objects]]
+
+  * [[Waldhausen category]]
+
+  * [[model category]]
+
+* [[localization]]
+
+  * [[calculus of fractions]]
+   
+    * [[multiplicative system]]
+
+    * [[category of fractions]]
+
+  * [[geometric embedding]]
+
+  * [[homotopy category]]
+
+  * [[derived functor]]
 
 
 
