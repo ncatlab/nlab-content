@@ -6,11 +6,7 @@
 
 Every [[operad]] defines and is defined by a [[category]] - its _category of operators_ , whose
 
-* [[object]]s are sequences consisting of colors of the operad and one new color;
-
-+--{: .query}
-[[Mike Shulman]]: What do you mean by "one new color"?  I don't see that in the definition.
-=--
+* [[object]]s are sequences consisting of colors of the operad; 
 
 * [[morphism]]s are tuples consisting of maps of sets between these sequences of colors, and a $k$-ary operation of the operad for each collection of $k$ source colors that are mapped to the same target color.
 
