@@ -4,4 +4,50 @@
 * [JA](http://planetphysics.org/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.org/)
 * [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
 
+## Notes ##
+
+## Pages ##
+
+### Algebra ###
+
+* [[multigrade operator]]
+* [[parametric operator]]
+
+### Arithmetic ###
+
+* [[riffs & rotes]]
+
+### Combinatorics ##
+
+* [[graph]]
+
+### Inquiry ###
+
+* [[inquiry driven system]]
+* [[Peirce's logic of information]]
+
+### Logic ###
+
+* [[boolean domain]]
+* [[boolean function]]
+* [[boolean-valued function]]
+* [[cactus language]]
+* [[differential logic]]
+* [[continuous predicate]]
+* [[hypostatic abstraction]]
+* [[logical graph]]
+* [[minimal negation operator]]
+* [[Peirce's law]]
+* [[praeclarum theorema]]
+* [[propositional equation reasoning system]]
+* [[relation theory]]
+* [[sign relation]]
+* [[triadic relation]]
+
+### Miscellaneous ###
+
+* [[Charles Sanders Peirce]]
+
+***
+
 category: people
