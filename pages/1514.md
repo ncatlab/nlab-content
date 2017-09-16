@@ -30,22 +30,18 @@ which says that
   * notably: the fact that quantum mechanics assigns a (Hilbert) space of sections of a vector bundle to codimension 1 is to be regarded as due to a _summing operation_ in the sense of the path integral, too: the space of sections of a vector bundle is the continuum equivalent of the direct sum of its fibers
 
 
-More recently, one sees attempts to formalize this observation of Freed's, notably in the context of the [[generalized tangle hypothesis]]:
-
+More recently, one sees attempts to formalize this observation of Freed's, notably in the context of the [[cobordism hypothesis]]:
 
 * [[geometric infinity-function theory]] is used to compute at least something like a path integral in codimension 1 and 2 in the context of [[sigma-model]] QFT;
 
-* something not unsimilar is [[schreiber:Nonabelian cocycles and their sigma model QFTs|here]], the underlying idea of which for a toy example is spelled out at [[An Exercise in Groupoidification]];
+* something not unsimilar is [[schreiber:Nonabelian cocycles and their sigma model QFTs|here]], the underlying idea of which for a toy example is spelled out at
 
-* and something similar is indicated in section 3 of
+  *[[exercise in groupoidification - the path integral]];
+
+* and something similar or is indicated in section 3 and section 6 of
 
   * Freed, Hopkins, Lurie, Teleman, _Topological QFT from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731))
 
-* Last not least, there is a proposal to realize [The n-Cafe Quantum Conjecture](http://golem.ph.utexas.edu/category/2007/06/the_ncaf_quantum_conjecture.html) -- which says that the the path integral is the push-forward of the action functional regarded as a functor --
-
-  * [[Johan Alm]], [[Quantization as a Kan Extension]]
-
->[[Urs Schreiber|Urs]]: there would be a lot to say and discuss how these more or less different approaches all relate and hang together. Maybe we can eventually use this place here to do so. One observation that might relate the [[schreiber:Nonabelian cocycles and their sigma model QFTs|pull-push]] with Johan Alm's [[Kan extension]] is described at [[Kanpull.pdf:file]] 
-
+based on material (on categories of "families") in _[[On the Classification of Topological Field Theories]]_ . 
 
 
