@@ -16,13 +16,13 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 * A. Joyal, M. Tierney, _Strong stacks and classifying spaces_,  Category theory (Como, 1990),  213--236, Lecture Notes in Math. __1488__, Springer 1991. 
 
-* A. Joyal, R. Street, _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991. 
+* A. Joyal, [[Ross Street|R. Street]], _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991 ([pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)).
 
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); _Braided tensor categories_, Adv. Math. __102__ (1993),  no. 1, 20--78, [doi](http://dx.doi.org/10.1006/aima.1993.1055).
 
 * A. Joyal, R. Street, D. Verity, _Traced monoidal categories_.  Math. Proc. Cambridge Philos. Soc.  __119__  (1996),  no. 3, 447--468. 
 
-* A. Joyal, I. Moerdijk, _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press 1995. viii+123 pp. ISBN: 0-521-55830-1
+* A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press 1995. viii+123 pp. ISBN: 0-521-55830-1
 
 * A. Joyal, _The theory of quasi-categories and its applications_, lectures at CRM Barcelona February 2008, draft [hc2.pdf](http://www.crm.cat/HigherCategories/hc2.pdf)
 
