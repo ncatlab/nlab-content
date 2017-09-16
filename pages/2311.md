@@ -1,7 +1,7 @@
-A [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $E$ is called _even_ if its [[cohomology ring]] is trivial in all even degrees:
+A [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $E$ is called _even_ if its [[cohomology ring]] is trivial in all odd degrees:
 
 $$
-  E^{2k}(X) = 0
+  E^{2k+1}(X) = 0
   \,.
 $$
 
