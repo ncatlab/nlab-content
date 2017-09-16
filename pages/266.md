@@ -179,7 +179,7 @@ In that sense one would denote this functor by $p^*$ and call the (left or right
 
 On the other hand, a crucial application of Kan extensions is to [[presheaf]] categories, i.e. to situations where $C = S^{op}$ and $S' = C'^{op}$ with $S$ and $S'$ both being [[site]]s.
 
-In these cases the [[site]] may be thought of as representing a topological space. In particular $S$ may be the [[poset]] $Open(X)$ of open subsets of a topological space $X$ and inclusions and simlarly for $S'$. In that case, morphisms of sites
+In these cases the [[site]] may be thought of as representing a topological space. In particular $S$ may be the [[partial order|poset]] $Open(X)$ of open subsets of a topological space $X$ and inclusions and simlarly for $S'$. In that case, morphisms of sites
 
 $$
   Open(X)^{op} \to Open(X')^{op}
@@ -200,7 +200,7 @@ of open subsets. This means that when a functor $O(X)^{op} \to Set$ is thought o
 
 It is however noteworthy that also the opposite perspective does occur in geometrically motivated examples. For instance 
 
-* if $C$ is the [[discrete category]] on smooth space and $D = U(1)$ is the discrete category on the smooth space $X$ underlying the Lie group $U(1)$, then smooth functors (i.e. functors [[internal category|internal to]] [[generalized smooth spaces|smooth spaces]]) $F : C \to D$ can be identified with smooth $U(1)$-valued functions on $X$, and the functor on these functor categories induced by a smooth functor $p : C \to C'$ does correspond to the familiar notion of _pullback_ of functions;
+* if $C$ is the [[discrete category]] on smooth space and $D = U(1)$ is the discrete category on the smooth space $X$ underlying the Lie group $U(1)$, then smooth functors (i.e. functors [[internal category|internal to]] [[generalized smooth space|smooth spaces]]) $F : C \to D$ can be identified with smooth $U(1)$-valued functions on $X$, and the functor on these functor categories induced by a smooth functor $p : C \to C'$ does correspond to the familiar notion of _pullback_ of functions;
 
 * and similar in higher degrees: if $C = P_1(X)$ is the smooth path groupoid of a smooth space and $D = \mathbf{B} U(1)$ the smooth [[group]] $U(1)$ regarded as a one-object [[Lie groupoid]], then smooth functors $C \to D$ correspond to smooth 1-forms $\in \Omega^1(X)$ on $X$, and precomposition with a smooth functor $p : P_1(X) \to P_1(X')$ corresponds to the familiar notion of _pullback_ of 
 1-forms.
