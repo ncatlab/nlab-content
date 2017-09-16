@@ -49,9 +49,12 @@ We should now see that some instances of categories of [[descent]] data are cano
 
 ## Examples
 
-### Monadic descent for codomain fibrations {#ForCodomainFibs}
 
-One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s. Accordingly, monadic descent applied to codomain fibrations archetypically exhibits the nature of monadic descent. We therefore spell out this example is some detail.
+### Monadic descent of bundles {#ForCodomainFibs}
+
+One of the most basic examples of [[bifibration]]s are [[codomain fibration]]s $cod : [I,C] \to C$. Accordingly, monadic descent applied to codomain fibrations archetypically exhibits the nature of monadic descent. We therefore spell out this example is some detail.
+
+An object in a [[codomain fibration]] over $Y \in C$ is a morphism $P \to Y$, hence a [[bundle]] in $C$, in the most general sense of bundle. Therefore monadic descent with respect to codomain fibrations encodes [[descent]] of bundles.
 
 Other examples of monadic descent often find a useful interpretation when relating them back to monadic descent for codomain fibrations. For instance (co)monadic descent for [[Sweedler coring]]s, discussed below, finds a natural geometric interpretion this way (as discussed in detail there).
 
@@ -98,6 +101,7 @@ is nothing but the [[monad]] associated to $f : X \to Z$ with respect to the [[c
 
 So by regarding principal bundles $P \to X$ more generally as just objects in the [[overcategory]] $Top/X$ we make the tools of monadic descent applicable to them.
 
+
 #### The monad
 
 Let $C$ be a [[category]] with [[pullback]]s. Then the [[codomain fibration]]
@@ -132,9 +136,10 @@ $$
 
 for the [[monad]] built from these two [[adjoint functor]]s.
 
-#### The bar construction
 
-The action of this [[monad]] is usefully studied by looking at the [[bar construction]] that it induces.
+#### The algebras over the monad: geometric descent data
+
+We spell out in detail the data of an algebra over the above monad, nad show that this encodes precisely the familiar geometric [[descent]] datum for a [[bundle]].
 
 To that end, let $(P, \rho)$
 
@@ -151,9 +156,9 @@ $$
   }
 $$
 
-be an [[monad|algebra over]] our monad. We spell out the [[bar construction]] for this:
+be an [[monad|algebra over]] our monad. In components this is an object $T P$ equipped with a morphism $\rho_P : T P \to P$.
 
-In first degree we find that applying our monad once yield the object $T P$ which is given by
+The object $T P \in [I,C]_Y$ is given by
 
 * first pushing $P \to Y$ forward along $\pi : Y \to X$ to the object $P \to Y \to X$.
 
@@ -203,19 +208,7 @@ In first degree we find that applying our monad once yield the object $T P$ whic
     \,.
   $$
   
-Therefore the action 
-
-$$
-  \rho : T A \to A
-$$
-
-+--{.query}
-WHAT IS A ?
-=--
-
-of our [[monad]] on $P$ is a morphism
-
-is given in $C$ by a morphism
+Therefore the action $\rho_T : T P \to P$ of our [[monad]] on $P$ is given in $C$ by a morphism
 
 $$
   \array{
@@ -237,45 +230,109 @@ $$
 
 and thus maps the trivial $G$-bundle over $U_j$ on the intersection with the trivial $G$-bundle over $U_i$. So it is a _transition function_. If this is a $G$-equivariant, it may be part of the  [[descent]] datum for the $G$-[[principal bundle]].
 
-...
 
-####Comparing the two monads for principal bundles
 
-(tentative section, please check)
+### Monadic descent _along_ principal bundles {#AlongPrincipalBundle}
 
-Let us work in a category $C$ with pullbacks; let $G$ be an internal group in $C$.
+#### Idea
 
-Let $\nu: P\times G\to P$ be a right principal action and $p:P\times G\to P$ the projection. Let $\pi:P\to X$ be the coequalizer of $\nu$ and $p$. The principality says $P\times G \to P\times_X P$ given by $(p,g)\mapsto (p,pg)$ is an isomorphism. We do not assume $P$ to be trivial. 
+In the [above section](#ForCodomainFibs) we considered monadic descent _of_ [[bundle]]s $P \to Y$ _along_ morphisms $f : Y \to X$. 
+
+Now we consider monadic descent _along_ morphisms $f : P \to X$ that happen to be $G$-[[principal bundle]]s, for some [[group object]] $G$. When considered with respect to the [[codomain fibration]] this describes the situation where we ask for a bundle $L \to P$ that sits over the total space of another (principal) bundle to descend down along that bundle map to $X$. So beware of the two different roles that bundles play here.
+
+#### Setup
+
+Let $C$ be a [[category]] with [[pullback]]s and et $G$ be an internal group in $C$.
+
+Let $\nu: P\times G\to P$ be a right principal [[action]] and $p:P\times G\to P$ the projection. Let $\pi:P\to X$ be the [[coequalizer]] of $\nu$ and $p$. The [[principal bundle|principality condition]] says that $P\times G \to P\times_X P$ given by $(p,g)\mapsto (p,pg)$ is an [[isomorphism]]. 
 
 $$
 P\times G \overset{\nu}\underset{p}\rightrightarrows P \overset{\pi}\to X
 $$
 
-We have also 
+We do not assume $P$ to be trivial. We have also the two projections
 
 $$
 P\times_X P \overset{p_1}\underset{p_2}\rightrightarrows P \overset{\pi}\to X
 $$
 
-where $p_1,p_2$ make a kernel pair of $\pi$. Thus the principality is equivalent to saying that $\nu,p$ make also a kernel pair of its own coequalizer. The two diagrams above are truncations of augmented simplicial objects in $C$. We want to relate these objects to monads.
+out of the [[pullback]], where $p_1,p_2$ make a [[kernel pair]] of $\pi$. Thus the principality condition is equivalent to saying that $\nu,p$ make also a [[kernel pair]] of its own [[coequalizer]]. The two diagrams above are truncations of augmented [[simplicial object]]s in $C$. We want to relate these objects to [[monad]]s.
 
-For this let us suppose we work in codomain fibration. Then we have two monads in $C/P$ whose underlying functors are $p_! \nu^*$ and $\pi^* \pi_!$.
-The second monad is induced by a pair of adjoint functors, while the first is also easy to define. Namely to construct the component $\mu_l$ of the transformation $\mu: p_! \nu^* p_!\nu^*\to p_!\nu^*$ where $h: L\to P$, by the universal property of the pullback there is an obvious map $\nu^* p_! \nu^* h$ to $p_* \nu^* h$ which can be interpreted as a map $p_!\nu^* p_! \nu^* h\to p_* \nu^* h$ because the domains of the maps $p_!\nu^* p_! \nu^* h$ and $\nu^* p_! \nu^* h$ are the same by the definition and the commuting triangles can be checked easily. 
+#### The two different monads
 
-The principality $P\times G \cong P\times_X P$ now induces the isomorphisms 
+We now describe the monadic descent along the morphism $\pi : P \to X$ from above for the [[codomain fibration]] $cod : [I,C] \to C$.
+
+There are two monads acting on the [[overcategory]] $C/P$ whose underlying functors are 
+
+1. $T := \pi^* \pi_!$.
+
+1. $\tilde T := p_! \nu^*$ 
+
+
+The first monad, $T$ is the usual one for monadic descent along $\pi$ induced from a pair of [[adjoint functor]]s. 
+
+The second one, $\tilde T$, exists due to the principality of $P \to X$ and is defined as follows: 
+
+to construct the component $\mu_h$ of the transformation $\mu: p_! \nu^* p_!\nu^*\to p_!\nu^*$ where $h: L\to P$, by the universal property of the pullback there is an obvious map $\nu^* p_! \nu^* h$ to $p_! \nu^* h$ 
+
+$$
+  \array{
+    \nu^* p_! \nu^* L
+    \\
+    & \searrow^{\mathrlap{\mu_h}}
+    \\
+    &&\nu^* L &\to& L
+    \\
+    &&
+    \downarrow && \downarrow
+    \\
+    &&
+    P &\stackrel{\stackrel{p}{\to}}{\underset{\to}{\nu}}& 
+    X
+  }
+  \,,
+$$
+
+which can be interpreted as a map $p_!\nu^* p_! \nu^* h\to p_* \nu^* h$ because the domains of the maps $p_!\nu^* p_! \nu^* h$ and $\nu^* p_! \nu^* h$ are the same by the definition and the commuting triangles can be checked easily. 
+
+The [[principal bundle|principality]] $P\times G \cong P\times_X P$ now induces the [[isomorphism]]
 
 $$p_! \nu^* h \cong \pi^* \pi_! h$$
 
-natural in  $h:L\to P$. This rule extends to an isomorphism of monads. 
-As a corollary, the Eilenberg-Moore categories of the two monads are equivalent. Notice that the actions over the monad $p_! \nu^* $ are certain maps $p_!\nu^*h\to h$, hence $\nu^* h\to p^* h$ by adjointness. This matches one of the definitions for an [[equivariant sheaf]].
+[[natural isomorphism|natural]] in  $h:L\to P$, read off from the double [[pullback]] diagram
 
-$P\to X$ is an effective descent morphism with respect to codomain fibration if the comparison functor for any of the two above isomorphic monads above is an equivalence of categories.  
+$$
+  \array{
+   p_! \nu^* L &\stackrel{\simeq}{\to}& \pi^* \pi_! L &\to& L
+   \\
+   \downarrow && \downarrow && \downarrow^{\mathrlap{h}}
+   \\
+   P \times G &\stackrel{\simeq}{\to}& P \times_X P &\to& P
+   \\
+   && \downarrow && \downarrow^{\mathrlap{\pi}}
+   \\
+   && P &\to& X
+  }
+  \,.
+$$
 
-### Comomadic descent for modules, using Sweedler corings
+
+This rule extends to an isomorphism of monads 
+
+$$
+  T \simeq \tilde T
+  \,.
+$$
+
+As a corollary, the [[Eilenberg-Moore category|Eilenberg-Moore categories]] of the two monads are [[equivalence of categories|equivalent]]. Notice that the actions over the monad $p_! \nu^* $ are certain maps $p_!\nu^*h\to h$, hence $\nu^* h\to p^* h$ by adjointness. This matches one of the definitions for an [[equivariant sheaf]].
+
+The map $ \pi : P\to X$ of the principal bundle is an **effective descent morphism** with respect to codomain fibration if the comparison functor for any of the two above isomorphic monads above is an equivalence of categories.  
+
+### Monadic descent of modules
 
 There is a [[bifibration]] $Mod \to Rings$ from the category of modules over any ring, mapping each module to the ring that it is a module over. This models, dually,  an algebraic version of [[vector bundle]]s over [[affine scheme]]s.
 
-Comonadic descent for this bifibration is the same as descent for a [[Sweedler coring]] See there for more details and geometric interpretations. 
+Comonadic descent for this bifibration (equivalently monadic descent for its formal dual, $Mod^{op} \to Rings^{op}$) is the same as descent for a [[Sweedler coring]]. See there for details and geometric interpretations. 
 
 
 ### Gluing categories from localizations
