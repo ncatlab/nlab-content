@@ -2,7 +2,7 @@
 
 [[!include contents ]]
 
-I work on $n$-categories and physics.  I've written papers on the interface between these subjects, and wasted vast amounts of time trying to popularize higher-dimensional algebra.  You see a bit here, and a lot more on my [website](http://math.ucr.edu/home/baez/).
+I work on $n$-categories and physics.  I've spent a lot of time explaining these subjects on the web.   Here's a sampling.  For more, see my [website](http://math.ucr.edu/home/baez/).
 
 #Expository Stuff
 
@@ -100,8 +100,7 @@ geometry and the classical string]((http://arXiv.org/abs/0808.0246), with Alex H
 spaces](http://arxiv.org/abs/0812.4969), with Aristide Baratin, Laurent Freidel and Derek Wise.
 
 [Physics, topology, logic and computation:
-a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf), with Mike Stay, to appear in <i>New
-Structures in Physics</i>, ed. Bob Coecke.  <b>Draft version.</b>
+a Rosetta Stone](http://arxiv.org/abs/0903.0340), with Mike Stay, to appear in <i>New Structures in Physics</i>, ed. Bob Coecke. 
 
 [A history of n-categorical physics](http://math.ucr.edu/home/baez/history.pdf),
 with Aaron Lauda, to appear in proceedings of 
