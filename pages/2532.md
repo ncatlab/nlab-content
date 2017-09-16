@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include synthetic differential geometry - contents]]
+</div>
+
+
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
 
 #Idea#
 
