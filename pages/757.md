@@ -11,7 +11,29 @@
 
 To the extent that a [[model category]] is a [[presentable (infinity,1)-category|presentation]] of an [[(∞,1)-category]], the [[localization]] of a model category is a presentation for the [[localization of an (∞,1)-category]].
 
+More specifically this means that 
+
+* for a class of [[morphism]]s $S \subset Mor(C)$ of a [[model category]] $C$ 
+
+* with an object $X \in C$ called an $S$-[[local object]] if for all $f \in S$ the [[(∞,1)-categorical hom-space]] $\mathbf{R}Hom_C(f,X) \in Mor(SSet)$ is a weak equivalence
+
+the left Bousfield localization of $C$ at $S$ is the model category of $S$-local objects in $C$.
+
+More generally this may be considered for any [[enriched model category]] $C$ or even [[enriched homotopical category]] with [[SSet]] replaced by the corresoponding enriched [[monoidal model category]]: one speaks of _enriched Bousfield localization_ ([Bar08](http://arxiv.org/abs/0708.2067)).
+
+More in detail, the left Bousfield localization of $C$ is realized as a new [[model category]] structure on the same underlying category $C$ with 
+
+* more weak equivalences thrown in, namely all $S$-[[local object|local weak equivalences]], that reduce the number of weak equivalence classes of objects to just the $S$-[[local object]]s
+
+* the cofibrations being precisely the original cofibrations.
+
+* this specifies the new fibrations, even though a precise characterization may be hard to come by (frequently, though, some of them are [[homotopy pullback]]s of of fibrations between $S$-[[local object]]s in $C$)
+
+* except that the fibrant objects betwen the $S$-[[local object]]s that are fibrant in $C$.
+
+
 See also [[localization of a simplicial model category]].
+
 
 
 ## Definition in model categories ##
