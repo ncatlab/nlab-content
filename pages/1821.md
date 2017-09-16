@@ -84,8 +84,8 @@ chain complexes into [[∞-groupoids]], for any chain complexes $X_\bullet$, $A_
   $$
 
   whose 
-  * objects are the $A$-valued cocycles on $X$;
-  * morphisms are the coboundaries between these cocycles;
+  * objects are the $A$-valued [[cocycle]]s on $X$;
+  * morphisms are the coboundaries between these [[cocycle]]s;
   * 2-morphisms are the coboundaries between coboundaries
   * etc.
   and where the elements of $\pi_0 \mathbf{H}(X_\bullet,A_\bullet)$ are the cohomology classes
