@@ -11,3 +11,8 @@ such that $i$ is a [[monomorphism]], $p$ is an [[epimorphism]], and the [[image]
 A **split exact sequence** is a short exact sequence in which $i$ is a [[split monomorphism]], or (equivalently) in which $p$ is a [[split epimorphism]].  In this case, $B$ may be decomposed as the [[biproduct]] $A \oplus C$ (with $i$ and $p$ the usual biproduct inclusion and projection); this sense in which $B$ is 'split' into $A$ and $C$ is the origin of the general terms 'split (mono/epi)morphism'.
 
 The above works in any [[abelian category]], and possible more generally.
+
+
+[[!redirects long exact sequence]]
+[[!redirects short exact sequence]]
+[[!redirects split exact sequence]]
