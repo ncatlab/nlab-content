@@ -27,7 +27,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Created [[universal covering space]], but it's still pretty much a stub.
   * Added some remarks to [[covering space]], but they will probably need to move to [[universal covering space]].
 
-
 *  [[Toby Bartels]]
    *  Started [[discrete space]].
    *  There seems to be a link missing from the [[HowTo]] on CSS in personal webs.
@@ -36,7 +35,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  New pages:
    *  [[Mike Shulman]] wrote [[2-monad]].
-   *  Besides asking people question, [[Todd Trimble]] also started [[covering space]]!
+   *  Besides asking people questions, [[Todd Trimble]] also started [[covering space]].
 
 * [[Urs Schreiber]]: created [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]], linked to from [this](http://golem.ph.utexas.edu/category/2009/06/strings_fields_topology_in_obe.html) blog entry (am hoping to get around to add lots of further keyword links to existing $n$Lab entries, but maybe won't)
 
