@@ -1,7 +1,19 @@
-Given a [[ringed site]] $(X,O_X)$ a __quasicoherent sheaf of $O_X$-modules__ is a sheaf $\mathcal{M}$ of $O_X$-modules such that there is a cover $\{U_\alpha\}_{\alpha\in A}$ of $X$ by open sets such that for every $\alpha$ there exist $I_\alpha$ and $J_\alpha$ and an exact sequence of sheaves of $O_X$-modules of the form
+Given a [[ringed space]] $(X,O_X)$ a __quasicoherent sheaf of $O_X$-modules__ is a sheaf $\mathcal{M}$ of $O_X$-modules such that there is a cover $\{U_\alpha\}_{\alpha\in A}$ of $X$ by open sets such that for every $\alpha$ there exist $I_\alpha$ and $J_\alpha$ and an exact sequence of sheaves of $O_X$-modules of the form
 $$
 O_X^{I_\alpha}|_{U_\alpha}\to
 O_X^{J_\alpha}|_{U_\alpha}\to
 \mathcal{M}|_{U_\alpha}\to 0,
 $$
-which should be viewed as a local presentation of $\mathcal{M}$.
+which should be viewed as a local presentation of $\mathcal{M}$. If $I_\alpha, J_\alpha$ can be chosen finite one talks about __coherent sheaves__ however the latter are ill-behaved for a general ringed space, and even general scheme; they behave well on Noetherian schemes. 
+
+Replacing covers by open sets, by covers of a terminal object in a site, the definition extends to [[ringed site]]s with a terminal object; the restrictions of $O_X$-modules should be replaced by pullbacks.
+There are generalizations for [[algebraic stack]]s, ind-schemes and so on. 
+
+Given an affine scheme $X=\mathrm{Spec}R$ (where $R$ is a commutative unital ring), the affine Serre theorem establishes the equivalence of the category $Qcoh_{\mathrm{Spec}R}$ of quasicoherent sheaves (in Zariski topology) and the category of $R$-modules. Similarly on a projective scheme of the type $Proj(A)$ where
+$A$ is a nonnegatively graded ring, the (projective) Serre theorem establishes the equivalence of $Qcoh(\mathrm{Proj}(A))$ and 
+the localization of the category of graded $A$-modules module the modules of finite length (and similarly, of coherent sheaves and graded $A$-modules of finite type modulo finite-length). This theorems are among basic motivating theorems for [[noncommutative algebraic geometry]]. 
+
+In the case of general (commutative) schemes, every presheaf of $O_X$-modules which is quasicoherent in the sense of having local presentation as above, is in fact a sheaf. It is known that the category of quasicoherent sheaves of $O_X$-modules over any [[quasicompact]] quasiseparated scheme is a [[Grothendieck category]] and in particular has enough [[injective object]]s.
+The [[fibered category]] of $O_X$-modules can be replaced by a more general fibered category $\pi: \mathcal{F}\to\mathcal{B}$. Then the __category of quasicoherent modules in__ this __fibered category__ is the category opposite to the category of cartesian sections of $\pi$. This viewpoint is used by Rosenberg-Kontsevich in their preprint on noncommutative stacks. 
+
+Given a category $\mathrm{Aff}$ of affine schemes (opposite to the category of rings) equipped with some [[subcanonical pretopology]] one considers the stack of $O$-modules over $\mathrm{Aff}$: the fiber over a ring $R$, it assigns the category $Qcoh_{\mathrm{Spec}\,R}$. Now given any stack on a subcanonical site, one defines the fiber over a sheaf on it so that the fiber over a representable sheaf is equivalent to the fiber over its representing object. There is a canonical way to do this (will write later about it -- Zoran); this is in particular a source of a definition $Qcoh$ on an ind-scheme. On ind-schemes Beilinson and Drinfel'd consider two variants: less important variant of quasicoherent $O_X^p$-modules (existing in bigger generality) and more delicate variant of quasicoherent $O^!_X$-modules defined for "reasonable ind-schemes"; one of the differences is which functors play the role of pullbacks.  In particular, these notions apply for a rather general variant of the category of formal schemes.
