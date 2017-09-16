@@ -26,7 +26,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-08
 
-* [[Urs Schreiber]] started [[rational topological space]]
+* [[Urs Schreiber]] 
+
+  * added to [[CW complex]] link to [[geometric realization]] 
+ 
+  * started [[rational topological space]]
 
 * [[Jon Awbrey]] added content to [[semiotic equivalence relation]].
 
