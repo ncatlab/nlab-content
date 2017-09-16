@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Defintion#
+#Definition#
 
 Write $Ring^\Delta$ for the [[category]] of [[cosimplicial object]]s in the category of [[ring]]s.
 
