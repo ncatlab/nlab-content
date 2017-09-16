@@ -98,3 +98,4 @@ What we call $n$-symplectic manifold here is called $\Sigma_n$-manifold there.
 A discussion of aspects of how [[multisymplectic geometry]] related to $n$-symplectic manifolds is in 
 
 * [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_ ([pdf](http://math.ucr.edu/~chris/2plectic-algebroid_DRAFT.pdf))
+<a href="http://front.math.ucdavis.edu/1001.0040">arXiv:1001.0040v1 [math-ph]</a>
