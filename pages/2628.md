@@ -183,18 +183,18 @@ The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\
 +-- {: .proof}
 ###### Proof
 
-The problem is entirely controlled by the [[bisimplicial object]] $([p],[q]) \mapsto (X_p)^{\Delta^q_{inf}}$.
+The problem is entirely controlled by the [[bisimplicial object]] $([p],[q]) \mapsto (X_p)^{(\Delta^q_{inf})}$.
 We know that 
 
 * for fixed $p$, the normalized [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_p)^{\Delta^\bullet_{inf}},R)$ is the [[deRham complex]] of $X_p$ -- this is the statement about combinatorial [[differential forms in synthetic differential geometry]].
 
-* for fixed $q$ the [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_\bullet)^{\Delta^q_{inf}}, R)$ is the complex of functions on simplices whose differential is the alternating sum of pullbacks along face maps -- by the very definition of the [[Moore complex]].
+* for fixed $q$ the [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_\bullet)^{(\Delta^q_{inf})}, R)$ is the complex of functions on simplices whose differential is the alternating sum of pullbacks along face maps -- by the very definition of the [[Moore complex]].
 
 This means that the simplicial deRham complex is (quasi-isomorphic to) the total complex of the bi-cosimplicial algebra
 
 $$
   \mathcal{A}(X_\bullet) \simeq
-  Tot(Hom((X_\bullet)^{\Delta^\bullet_{inf}}, R))
+  Tot(Hom((X_\bullet)^{(\Delta^\bullet_{inf})}, R))
   \,.
 $$
 
@@ -203,11 +203,11 @@ So it remains to show that this total complex is also (quasi-isomorphic to) the 
 $$
   d((X_\bullet)^{\Delta^\bullet_{inf}})
   \simeq
-  \int^{[n]} \Delta^n \cdot (X_n)^{\Delta^\bullet_{inf}}
+  \int^{[n]} \Delta^n \cdot (X_n)^{(\Delta^\bullet_{inf})}
   \,.
 $$
 
-This implies that the [[Moore complex]] of $Hom(\Pi^{inf}(X_\bullet),R)$ is the Moore complex of the diagonal of the bisimplicial algebra $Hom(\Pi^{inf}(X_\bullet),R)$.
+This implies that the [[Moore complex]] of $Hom(\Pi^{inf}(X_\bullet),R)$ is the Moore complex of the diagonal of the bisimplicial algebra $Hom(X_\bullet^{(\Delta^\bullet_{inf})}),R)$.
 
 This way the desired statement recudes to the quasi-isomorphism 
 
