@@ -1,6 +1,3 @@
-[[!redirects symmetric monoidal (infinity,1)-category of presentable (inf]]
-
-
 #Idea#
 
 Recall that a [[presentable (infinity,1)-category]] is a [[localization]] of a [[(infinity,1)-category of (infinity,1)-presheaves]]. In particular it has all small [[colimit]]s. An [[(infinity,1)-functor]] $C \times D \to E$ from the cartesian product of two presentable $(\infty,1)$-categories is _bilinear_ if it respects colimits in both variables.
@@ -54,4 +51,6 @@ That this is in fact a symmetric monoidal structure is discussed in section 6 of
 
 see proposition 6.14 and remark 6.18.
 
+
 [[!redirects symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
+[[!redirects symmetric monoidal (infinity,1)-category of presentable (inf]]
