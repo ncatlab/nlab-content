@@ -60,3 +60,6 @@ On this last example we had some blog discussion at
 _[[Eric Forgy|Eric]] says_: I thought this sounded familiar. Is an under category the same thing as what Urs calls a <a href="http://golem.ph.utexas.edu/category/2007/07/tangent_categories.html">tangent category</a>?
 
 _[[Eric Forgy|Eric]] says_: Found it, but I'll leave my question here in case it inspires anything that can be included. I see on <a href="http://www.math.uni-hamburg.de/home/schreiber/tangcat.pdf">page 3</a> Urs says that a tangent category is a co-slice category.
+
+
+[[!redirects coslice category]]
