@@ -88,7 +88,7 @@ For more on this idea, see [[internal logic]].
 
 For various applications one uses toposes that have [[stuff, structure, property|extra structure or properties]].
 
-* In [[synthetic differential geometry]] one studies [[smooth topos]]es as context for axiomatic [[differential geometry]].
+* In [[synthetic differential geometry]] one studies [[smooth topos]]es as a context for axiomatic [[differential geometry]].
 
 * In the [[foundations]] of mathematics, one often studies [[well-pointed toposes]], especially models of [[ETCS]] as potential replacements for the category [[Set]].
 
