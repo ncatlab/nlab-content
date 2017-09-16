@@ -1,7 +1,11 @@
 There are a number of different types of [[morphism]] bearing the name **fibration**, which are all connected to each other at least by a zigzag of relationships.
 
 
-# Classical homotopy theory #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Classical homotopy theory 
 
 In classical [[homotopy theory]], a fibration $p:E\to B$ is a continuous map between [[topological space]]s that has a certain lifting property.  The most basic property is that given a point $e\in E$ and a path in $B$ starting at $p(e)$, the path can be lifted to a path in $E$ starting at $e$.  One generally also assumes the lifting of additional structures (including "higher homotopies") in $B$ which, in particular, imply that the path lifting is unique up to homotopy. Different choices of what can be lifted give rise to different notions of fibration, for example:
 
@@ -16,7 +20,7 @@ All three of these definitions give rise to a long exact sequence in homotopy.  
 * A [[quasifibration]] (not to be confused with the completely different notion related to quasicategories below) is a map which induces a long exact sequence of homotopy groups.  Equivalently, it is a map each of whose fibers is weakly homotopy equivalent to the corresponding homotopy fiber.
 
 
-# Abstract homotopy theory #
+## Abstract homotopy theory 
 
 Inspired by the role of fibrations in algebraic topology, part of the structure of a [[model category]] or a [[category of fibrant objects]] is a class of maps called "fibrations," which also possess a lifting property relating them to the rest of the structure (cofibrations and weak equivalences).  Examples include:
 
@@ -29,7 +33,7 @@ Inspired by the role of fibrations in algebraic topology, part of the structure 
 Fibrations have many good properties in homotopy theory.  For example, usually the [[pullback]] of a fibration is already a [[homotopy pullback]].  Generally every map can be replaced by a weakly equivalent fibration, which gives one way to compute a homotopy pullback.
 
 
-# Transports and classifying spaces #
+## Transports and classifying spaces 
 
 There is a classical thorem that [[covering space]]s $p:E\to B$ (which have _unique_ path lifting) are equivalent to functors $\Pi(B)\to Set$ from the [[fundamental groupoid]] of $B$ to [[Set]].  The functor corresponding to $p:E\to B$ takes a point $b\in B$ to its fiber $p^{-1}(b)$, and a path $\alpha$ from $b$ to $b'$ to the function $p^{-1}(b) \to p^{-1}(b')$ defined by "the endpoint of the lift of $\alpha$."
 
@@ -40,7 +44,7 @@ More generally, one can consider fibrations in which the fibers are equipped wit
 If we replace the groupoid $\mathbf{B}G$  by its [[classifying space]] $\mathcal{B}G$-- which is the [[geometric realization]] of the [[nerve]] of $\mathbf{B}G$ -- then passing to $\pi_0$ recovers the classical fact that "classifying spaces classify": there is a bijection between $G$-bundles over a space $X$ and homotopy classes of maps $X\to \mathcal{B}G$.  This bijection is realized by pulling back to $X$ the "universal $G$-bundle" $\mathcal{E}G \to \mathcal{B}G$ over the space $\mathcal{B}G$.  There are also classifying spaces for more general types of fibrations, constructed from the relevant subcategories of $Top$.
 
 
-# Fibrations in category theory #
+## Fibrations in category theory 
 
 It is common in category theory to consider the objects of a [[over category|slice category]] $C/X$ as "objects of $C$ varying over $X$."  For example, an object $A\to X$ of $Set/X$ can be identified with an $X$-indexed family $\{A_x\}_{x\in X}$ of sets, where $A_x$ is the [[fiber]] of $A\to X$ over $x\in X$.  Likewise, if $X$ is a [[topological space]], we can regard an object of $Top/X$ as a family of spaces (the fibers) "varying continuously" over $X$.  But as we have seen, in the topological case, in order to make this varying into a "functor" $X\to Top$ we need the map to be a fibration.
 
@@ -51,7 +55,7 @@ Categorical fibrations also have a "lifting" property, but the liftings must sat
 A __[[discrete fibration]]__ is one in which we use [[Set]] instead of [[Cat]] as the classifying space.
 
 
-# Discussion #
+## Discussion 
 
 The following discussion was prompted by an earlier version of this page.
 
