@@ -46,7 +46,7 @@ Another, perhaps even less obvious, morphism $\Delta \to \Gamma$ is
 $$ a := a^2,\; b := a^3 .$$
 Not only does this ignore that $(a b)^2 = a^2 b^2$; it also ignores the very existence of $b$ in $\Delta$.  (It also uses the existence of $a$ more than once.  Ignoring and reusing information like this is not always allowed in substructural logics such as [[linear logic]].)
 
-That we can interpret $E$ in $\Delta$ without renaming variables is essentially the meaning of the judgement (eq:valid) above.  That is, we get a morphism form $\Delta$ to $\Epsilon$ by performing the substitution
+That we can interpret $E$ in $\Delta$ without renaming variables is essentially the meaning of the judgement (eq:valid) above.  That is, we get a morphism from $\Delta$ to $E$ by performing the substitution
 $$ a := a,\; b := b $$
 and then inserting a proof of (eq:valid).  As it happens, the argument in such a proof is reversible, so you should expect that $\Delta$ and $E$ are also isomorphic.
 
