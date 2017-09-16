@@ -7,7 +7,58 @@ $$
   \,.
 $$
 
-[[Fivebrane group]] to [[string group]] to **spin group** to [[special orthogonal group]] to [[orthogonal group]].
+[[fivebrane group]] to [[string group]] to **spin group** to [[special orthogonal group]] to [[orthogonal group]].
+
+The [[homotopy group]]s of $O(n)$ are for $k \in \mathbb{N}$ and for sufficiently large $n$
+
+$$
+  \array{
+     \pi_{8k+0}(O) & = \mathbb{Z}_2
+     \\
+     \pi_{8k+1}(O) & = \mathbb{Z}_2
+     \\
+     \pi_{8k+2}(O) & = 0
+     \\
+     \pi_{8k+3}(O) & = \mathbb{Z}
+     \\
+     \pi_{8k+4}(O) & = 0
+     \\
+     \pi_{8k+5}(O) & = 0
+     \\
+     \pi_{8k+6}(O) & = 0
+     \\
+     \pi_{8k+7}(O) & = \mathbb{Z}
+  }
+  \,.
+$$
+
+By [[Whitehead tower|co-killing]] these groups step by step one gets
+
+$$
+  \array{
+     cokill this &&&& to get
+     \\
+     \\
+     \pi_{0}(O) & = \mathbb{Z}_2 &&& SO
+     \\
+     \pi_{1}(O) & = \mathbb{Z}_2 &&& Spin
+     \\
+     \pi_{2}(O) & = 0
+     \\
+     \pi_{3}(O) & = \mathbb{Z} &&& String
+     \\
+     \pi_{4}(O) & = 0
+     \\
+     \pi_{5}(O) & = 0
+     \\
+     \pi_{6}(O) & = 0
+     \\
+     \pi_{7}(O) & = \mathbb{Z} &&& Fivebrane
+  }
+  \,.
+$$
+
+
 
 #Spin group in physics#
 
