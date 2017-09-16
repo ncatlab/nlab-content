@@ -34,6 +34,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[forgetful functor]]
 * [[foundations]]
 * [[full functor]]
+* [[full subcategory]]
 * [[function]]
 * [[functor]]
 * [[functor category]]
