@@ -21,7 +21,7 @@ In the limit $k \to \infty$, this gives:
 The $n$-category $n Cob$ of cobordisms is the free stable $n$-category with duals on one object (the point).
 =--
 
-In [[FQFT|extended toplogical quantum field theory]], which is really the representation theory of these cobordism $n$-categories, we expect:
+In [[FQFT|extended toplogical quantum field theory]], which is really the [[representation theory]] of these cobordism $n$-categories, we expect:
 +-- {: .un_prop}
 ###### Extended TQFT Hypothesis
 
