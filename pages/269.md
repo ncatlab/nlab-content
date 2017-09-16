@@ -107,6 +107,16 @@ $$
 
 If the cubical set has this additional property, one calls it a [[connection on a cubical set|cubical set with connection]].
 
++-- {: .query}
+[[David Corfield]]: Is this cubical set the same as Pratt is talking about on p. 13 [here](http://boole.stanford.edu/pub/es.pdf)?
+
+"...the duality of bipointed sets, sets with two distinguished elements, and Boolean algebras without top or bottom. Contemplation of this duality, which Bill Lawvere suggested to me in a phone conversation as a simple construction of the theory of cubical sets". 
+
+If so, given that the real interval is a final coalgebra on bipointed sets, is there some dual to it in cubical sets?
+
+Also shouldn't we have something on this page about Grandis's use of cubical sets in [directed algebraic topology](http://www.dima.unige.it/~grandis/DAT.Intro.pdf), e.g., p. 3 ?
+=--
+
 # Cubical sets in homotopy theory #
 
 [[Daniel Kan]]'s early work on [[homotopy theory]] used cubical sets instead of [[simplicial set]]s. But then a bit later it was found that plain cubical sets suffer from three disadvantages when it comes to modelling [[homotopy type|homotopy n-type]]s:
