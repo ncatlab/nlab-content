@@ -34,6 +34,11 @@ whenever this makes sense. For instance in the context of
 may be taken to be the fibration classified by $\chi_f : C \times D^{op} \to (\infty,0)$
 as described at  [[universal fibration of (infinity,1)-categories]].
 
++--{: .query}
+[[Mike Shulman]]: Why are we using "weak pullback" here?  The page [[weak pullback]] is basically a disambiguation page, so I think that elsewhere we should instead use precise terminology and links.  In this case what is meant is a [[comma object]], yes?
+=--
+
+
 # Definition #
 
 For $0 \leq n \leq \infty$ let $(n-1) Cat$ and $n Cat$ be a realization of the 
@@ -54,6 +59,10 @@ $$
 
 The **graph** of $f$ is the fibration $Graph(f) \to C^{op} \times D$ classified
 by $\chi_f$.
+
++--{: .query}
+[[Mike Shulman]]: It's not obvious to me that this is the best thing to call the graph of a functor; there are lots of other graphy things one can construct from a functor that all reduce to the usual notion of the graph of a function.  To start with, there is of course also the induced opfibration oven $C\times D^{op}$, would you call that the "opgraph"?  But actually, the two-sided fibration $D \leftarrow P \to C$ (an opfibration over $C$ and a fibration over $D$) looks to me more like a graph.  And then there is of course the *other* profunctor induced by $f$, which gives a fibration over $C\times D^{op}$, an opfibration over $C^{op}\times D$, and a two-sided fibration from $C$ to $D$.
+=--
 
 
 # Examples #
