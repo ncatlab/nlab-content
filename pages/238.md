@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+#2009-04-08
+
+* [[David Corfield|David]]: Created [[Coyoneda lemma]]. What does it mean?
+
 #2009-04-07
 
 * [[Mike Shulman|Mike]]: Created [[subsequential space]] with a bit of propaganda.
