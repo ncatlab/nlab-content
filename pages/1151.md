@@ -443,18 +443,26 @@ Several familiar "cohomology theories" are not so much genuine cohomology theori
 Zoran: I am not happy with this assertion. First of all the notion of the derived functor is fundamental and it makes sense even in setups when the injective resolutions do not exist. Abelian sheaf cohomology IS a derived functor of the global sections functor, not a specific technique to computing it. On the other hand, the injective resolutions ARE a specific technique to compute the derived functor. It is also not clear in this entry if it is about sheaves on topological spaces or on sites or some more general setup. 
 =--
 
-#### Motivic cohomology
-
-For the moment see
-
-* [[motivic cohomology]]
 
 #### Hochschild cohomology
 
-For the moment see
+[[Hochschild cohomology]] as well as [[cyclic cohomology]]
+is the cohomology $\mathbf{H}(\mathcal{L}X , C)$ of 
+[[free loop space object]]s in a [[derived stack]]
+[[(∞,1)-topos]] $\mathbf{H}$ with coefficients in 
+[[quasicoherent ∞-stack|quasicoherent ∞-stacks of modules]] $C$.
 
-* [[Hochschild cohomology]]
+See [[Hochschild cohomology]] for details.
 
+
+
+#### Motivic cohomology
+
+[[motivic cohomology|Motivic cohomology]] is the cohomology of
+the [[(∞,1)-topos]] of [[∞-stack]] on the [[Nisnevich site]],
+usually restricted to coefficient objects that are 
+[[spectrum object|stable]] and [[A1-homotopy theory|A1-homotopy]]
+invariant.
 
 
 ## Tools for computing cohomology
