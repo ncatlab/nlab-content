@@ -1,5 +1,3 @@
-
-
 #Definition#
 
 Let $C$ be a [[category]] with [[finitely complete category|finite limit]]s. A **power object** of an object $c \in C$ is 
@@ -47,3 +45,5 @@ If $C$ may lack some finite limits, then we may weaken that condition as follows
 * A category with finite [[limit]]s and power objects for all objects is precisely a [[topos]].
 
 * See [[Trimble on ETCS I]] for the axiom of power sets in the elementary theory of the category of sets.
+
+[[!redirects power objects]]
