@@ -6,9 +6,9 @@
 
 
 #Contents#
-
-* tic
+* automatic table of contents goes here
 {:toc}
+
 
 #Idea#
 
@@ -65,11 +65,15 @@ To emphasize that one considers $\infty$-stacks on higher categorical sites one 
 
 The search for $\infty$-stacks probably began with [[Alexander Grothendieck]] in _[[Pursuing Stacks]]_.
 
-The notion of $\infty$-stacks can be set up in various notions of $\infty$-categories. Jardine, [[Bertrand Toen]] and others have developed the theory of $\infty$-stacks in the context of [[simplicial presheaf|simplicial presheaves]] and [[Segal category|Segal categories]]. A review is
+The notion of $\infty$-stacks can be set up in various notions of $\infty$-categories. [[Andre Joyal]], Jardine, [[Bertrand Toen]] and others have developed the theory of $\infty$-stacks in the context of [[simplicial presheaf|simplicial presheaves]] and [[Segal category|Segal categories]]. A review is
 
 * [[Bertrand Toen]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504)).
 
-The explicit descent condition formulated above appears there on [page 12](http://arxiv.org/PS_cache/math/pdf/0604/0604504v3.pdf#page=12).
+In terms of explicit [[descent]] conditions $n$-stacks and $\infty$-stacks have been discussed in
+
+* [[Andre Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs_ ([arXiv](http://arxiv.org/abs/math/9807049))
+
+
 
 All this has been embedded into a coherent global theory in
 
