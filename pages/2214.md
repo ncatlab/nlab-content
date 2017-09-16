@@ -27,9 +27,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+*  [[Toby Bartels]]:  Now, you know it\'s not September for another half hour, right?  (^_^)
+
 * [[Urs Schreiber]]
 
   * moved the accumulated latest changes of last month to [[2009 August changes]] (by renaming the last "latest changes" and then creating a new one)
+
 
 ***
 
@@ -40,5 +43,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 category: meta
 
-
 [[!redirects recently revised]]
+
+
+[[!redirects 2009 September changes]]
