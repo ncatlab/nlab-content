@@ -2,7 +2,11 @@
 
 [[!include contents ]]
 
-I work on $n$-categories and physics.  I've spent a lot of time explaining these subjects on the web.   Here's a sampling.  For more, see my [website](http://math.ucr.edu/home/baez/).
+I work on mathematical physics --- which I interpret broadly as 'math that could be of interest in physics, and physics that could be of interest in mathematics'.  I'm especially interested in $n$-categories and their applications.  I've spent a lot of time explaining these subjects on the web.   
+
+Here's a sampling.  For a lot more stuff, see my [website](http://math.ucr.edu/home/baez/).
+
+<br/><br/><br/><br/><br/>
 
 #Expository Stuff
 
@@ -96,11 +100,15 @@ proceedings of the 2007 Abel Symposium, eds. Nils Baas <i>et al</i>.
 [Categorified symplectic
 geometry and the classical string]((http://arXiv.org/abs/0808.0246), with Alex Hoffnung and Chris Rogers.
 
+[Categorified symplectic geometry and the string Lie 2-algebra](http://arxiv.org/abs/0901.4721), with Christopher L. Rogers. 
+
 [Representations of 2-groups on higher Hilbert
 spaces](http://arxiv.org/abs/0812.4969), with Aristide Baratin, Laurent Freidel and Derek Wise.
 
 [Physics, topology, logic and computation:
 a Rosetta Stone](http://arxiv.org/abs/0903.0340), with Mike Stay, to appear in <i>New Structures in Physics</i>, ed. Bob Coecke. 
+
+[Groupoidification made easy](http://arxiv.org/abs/0812.4864), with Alexander E. Hoffnung and Christopher D. Walker. 
 
 [A history of n-categorical physics](http://math.ucr.edu/home/baez/history.pdf),
 with Aaron Lauda, to appear in proceedings of 
