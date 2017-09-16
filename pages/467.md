@@ -39,7 +39,7 @@ So let
 
 ##Remark##
 
-From this $V$-enriched perspective it is natural to generalize to the case where the site $S$ is not just locally small, i.e. enriched over $Sets$, but is enriched over $V$ itself. If one does this one speaks of [[derived infinity-stack]]s.
+From this $V$-enriched perspective it is natural to generalize to the case where the site $S$ is not just locally small, i.e. enriched over $Sets$, but is enriched over $V$ itself. If one does this one speaks of [[derived stack|derived]] $\infty$-stacks.
 
 ***
 
