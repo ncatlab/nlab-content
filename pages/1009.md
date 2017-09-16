@@ -22,7 +22,7 @@ target space would instead be represented by a [[Lie ∞-groupoid]]. In a comple
 
 The original reference is 
 
-* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], A. Schwarz, O. Zaborosnky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405-1429, 1997
+* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], A. Schwarz, O. Zaborosnky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
 
 Dmitry Roytenberg's useful review of the original work:
 
