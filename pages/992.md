@@ -112,7 +112,7 @@ $$
   \,.
 $$
 
-For $C =$ [[Top]] the $(\infty,1)$-category of topological spaces, $Sp(Top)$ is the familiar category of [[spectrum|spectra]] used in stable homotopy theory (which gives stable $(\infty,1)$-categories their name).
+For $C =$ [[Top]] the $(\infty,1)$-category of topological spaces, $Sp(Top)$ is the familiar [[stable (infinity,1)-category of spectra]] used in stable homotopy theory (which gives stable $(\infty,1)$-categories their name).
 
 Moreover, every [[derived category]] of an [[abelian category]] is the triangulated homotopy category of a stable $(\infty,1)$-category. 
 
@@ -128,13 +128,15 @@ Stable $(\infty,1)$-categories are equivalent to
 
 The following three concepts are equivalent to each other and special cases of the above models, or equivalent in characteristic 0.
 
-* [[pre-triangulated dg-category]]
+* [[pretriangulated dg-category]]
 
 * [[Frobenius category]]
 
 A [[triangulated category]] linear over a field $k$ can canonically be refined to 
 
-* a pre-triangulated [[dg-category]];
+* an [[enhanced triangulated category]]:
+
+  * a [[pretriangulated dg-category|pretriangulated]] [[dg-category]];
 
 * an [[A-infinity-category]];
 
