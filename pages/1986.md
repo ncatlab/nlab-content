@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-11
 
+* [[Urs Schreiber]]: added to [[pullback stability]] that of right lifting property and hence that of fibrations -- restructured a bit.
+
 *  [[Toby Bartels]]:
    *  Added a note that there also other kinds of [[pullback stability]]; for example, the sense in which monomorphisms are stable under pullback.
    *  Some rephrasing and refactoring at [[pretopos]] too.
