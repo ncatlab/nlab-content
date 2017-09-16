@@ -58,6 +58,8 @@ This is theorem 3.3.19 in _ModLoc_ .
 
   _Rafael_: Could it be the Bousfield localization of a model category of spectra?
 
+  [[Urs Schreiber]]: could you give me a concrete reference that spells out what you are thinking of when saying "Bousfield localization of spectra"? Then I can try to look at it and see if I can answer your question. I would guess, that, yes, it must refer to the Bousfield localization of a model category o spectra.
+
 =--
 
 #Bousfield localization in triangulated categories#
