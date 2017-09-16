@@ -356,7 +356,21 @@ $$\array{F(c) \;\times\; G(c) & \stackrel{F(f) \;\times\; G(c)}{\leftarrow} & F(
 
 and the colimit of all these is the "integral" above.
 
-I'll try to write more on the proof in a little while.
+If I do a "search and replace" on the decategorified proofs, I get this:
+
+"**Proof.** The proof here is easy.   Objects of $\widehat{A}$ are colimits of objects of $Y(A) = hom(-, A)$, like
+
+$$ x = \int_{a \in A} x(a) \;\times\; hom(-, a) $$
+
+with some "coefficients" $x(a).$  So, $\widehat{F}$ is determined by the fact that it preserves colimits and acts like $F$ on guys in $hom(-, A)$:
+
+$$\widehat{F}(x) = \widehat{F} (\int_{a \in A} x(a) \;\times\; hom(-, a)) =
+\int x(a) \;\times\; \widehat{F}(hom(-, a)) = \int_{a in A} x(a) \;\times\; F(hom(-, a))  $$
+
+Lo and behold --- now we have a _formula_ for $\widehat{F}$.  So, we just need to check some stuff.  Check that $\widehat{F}$ is well-defined.  Check that it preserves colimits.  Check that it makes the diagram commute up to natural isomorphism.  Check that it's unique up to natural isomorphism.  All this is follow-your-nose stuff."
+
+But I bet you want me to actually follow my nose this time.
+
 
 # A Reference #
 
