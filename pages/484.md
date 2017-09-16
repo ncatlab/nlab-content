@@ -3,6 +3,8 @@
 [[!redirects partition]]
 [[!redirects partitions]]
 [[!redirects setoid]]
+[[!redirects preset]]
+[[!redirects pre-set]]
 
 An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S$ that is:
 * [[reflexive relation|reflexive]]: $x \equiv x$ for all $x: S$;
