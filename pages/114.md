@@ -8,3 +8,5 @@ Generalising this, given an [[internal category]] $C$ with object of objects $C_
 
 
 [[!redirects codomain]]
+[[!redirects target object]]
+[[!redirects targets]]
