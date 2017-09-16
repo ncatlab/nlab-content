@@ -261,7 +261,9 @@ Precursors
 
 +-- {: .query}
 
-[[Todd Trimble]]: Can I ask what you mean when you call these "precursors"? 
+[[Todd Trimble]]: Can I ask what you mean when you call these "precursors"?
+
+[[JA]]:  Anticipations, 4-runners, 4-shadowings, philosophical underpinnings &hellip;
 
 =--
 
