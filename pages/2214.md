@@ -27,6 +27,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+* [[Urs Schreiber]]: replied in the discussion at the bottom of [[category theory]] -- and have a question
+
+* [[Urs Schreiber]]  WATCH OUT WITH LONG ENTRY NAMES -- see the $n$forum discussion. Some long entry names got truncated in the migration. the entry "Chevalley-eilenberg algebra in synthetic differential geometry" for instance is now called [[Chevalley-Eilenberg algebra in synthetic differential geomet]]
+
+ See "all pages" to find out the truncated entry name of an entry that you know should be there but is missing. 
+
+
 * [[Rafael Borowiecki]]: To [[Andrew Stacey]]. The whole bottom part of the page [[Timeline of category theory and related mathematics]] is abruptly missing. Which is a lot, not only my question. Since i have the full version loaded in a browser i could try to reconstruct it but i would prefer if you did a rollback if you can.
 
 * [[Jon Awbrey]] added content to [[hypostatic abstraction]].
