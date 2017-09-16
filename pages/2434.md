@@ -203,7 +203,7 @@ of [[symmetric monoidal category|symmetric monoidal]] [[fibered category|fibered
 
 **Definition** (roughly) $TV^{sfam}$ is the category of families of topological vector spaces parameterized by [[complex supermanifold]]s.
 
-Recall that the ordinary category $TV$ is the catgeory of complete [[Hausdorff space|Hausdorff]], locally convex [[topological vector space]].
+Recall that the ordinary category $TV$ is the category of complete [[Hausdorff space|Hausdorff]], locally convex [[topological vector space]].
 
 define the [[projective tensor product]] of two such $V, W \in TV$. This is a certain completion of the algebraic tensor product $V \otimes_{alg} W$ with respect to the projective topology on $V \otimes_{alg} W$.
 
