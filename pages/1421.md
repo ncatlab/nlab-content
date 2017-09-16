@@ -69,3 +69,8 @@ For a derived stack $X$ with affine diagonal, the following are equivalent:
 The concept of a _perfect stack_ in the context of [[(infinity,1)-category|(infinity,1)-categories]] was introduced in
 
 * [[David Ben-Zvi|Ben-Zvi]], Francis and Nadler, _Integral transforms and Drinfeld centers in derived algebraic geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
+
+
+[[!redirects perfect infinity-stacks]]
+[[!redirects perfect ∞-stack]]
+[[!redirects perfect ∞-stacks]]
