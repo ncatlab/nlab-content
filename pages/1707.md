@@ -66,11 +66,239 @@ The various notions of **group cohomology** are special cases of this:
 
   $$
     H_{Grp}^n(G,(K,\rho)) =
-    \pi_o \mathbf{H}^\rho(\mathbf{B}G, \matbf{B}^n K)
+    \pi_o \mathbf{H}^\rho(\mathbf{B}G, \mathbf{B}^n K)
     \,.
   $$
 
   This is an example of general [[twisted cohomology]].
+
+#Examples#
+
+We spell out in detail how the above reproduces the ordinary definition of group cohomology.
+
+For the case of ordinary abelian group cohomology, the context of [[strict omega-groupoid]]s is in priinciple fully sufficient, since the domain object $\mathbf{B}G$ in that case ism being a 1-[[groupoid]], clearly a strict [[infinity-groupoid]], as are the abelian coefficient $n$-groupoids $\mathbf{B}^n K$, manifestly so as images of [[crossed complex]]es under the equivalence of crossed complexes with [[strict omega-groupoid]]s.
+
+So one possibility is to model $Ho_{\infty Grpd}$ in this case as the [[homotopy category]] induced by the [[model structure on strict omega-groupoid]]s.
+
+This is, more or less implicitly, the route taken in chapter 12 of
+
+* R. Brown, P. Higgins, R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
+
+Since every $\infty$-groupoid is fibrant, this model category category of strict $\infty$-groupoids is in fact a [[category of fibrant objects]] and hence the [[hom-set]]s in its [[homotopy category]] may be computed as [[colimit]]s over $\infty$-[[anafunctor]]s, namely 
+
+$$
+  H(\mathbf{B}G, \mathbf{B}^n K)
+  =
+  colim_{Y \stackrel{\simeq}{\to}\gt \mathbf{B}G} Hom(Y,\mathbf{B}^n K)
+$$
+
+where the colimit is over all strict $\omega$-groupoids $Y$ with $Y  \to \mathbf{B}G$ an acyclic fibration, which here is a [[k-surjective functor]] for all $k$.
+
+On the other hand, since also the full model structure is around, this colimit localizes on the cofibrant replacement $Y = F(N(\mathbf{B}G))$ of $\mathbf{B}G$. But this is nothing but the free strict $\omega$-groupoid on the [[nerve]] of $\mathbf{B}G$, which is the usual bar resolution of $G$ (see the discusson at [[nerve]]):
+
+$$
+  N (\mathbf{B}G) = 
+  \left(
+    \cdots \to G \times G \times G
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    G  \times G
+    \stackrel{\to}{\to}
+    G
+    \to 
+    {*}
+  \right)
+$$
+
+This is of course nothing but the incarnation of $\mathbf{B}G$ as an object in the category of _weak_ [[infinity-groupoid]]s modeled as [[Kan complex]]es.
+
+For instance the 2-cells in $N(\mathbf{B}G)$ are of the form
+
+$$
+  N(\mathbf{B}G)_2 
+  =
+  \left\{
+  \left.
+  \array{
+    && {*}
+    \\
+    & {}^{g_1}\nearrow && \searrow^{g_2}
+    \\
+    {*}
+    &&\stackrel{g_1 g_2}{\to}&&
+  }
+  \right|
+  g_1, g_2 \in G
+  \right\}
+  \,,
+$$
+
+where the diagram indicates what the face maps on $N (\mathbf{B}G) = G \time G$ are.
+
+Accordingl, the 3-cells look like
+
+$$
+  N(\mathbf{B}G)_3
+  =
+  \left\{
+  \left.
+  \array{
+    {*} &&\stackrel{g_2}{\to}&& {*}
+    \\
+    \uparrow^{g_1} &&{}^{g_1 g_2}\nearrow&& \downarrow^{g_3}
+    \\
+    {*}
+    &&\stackrel{g_1 g_2 g_3}{\to}&&
+  }
+  \;\;\;\;
+  \Rightarrow
+  \;\;\;\;   
+  \array{
+    {*} &&\stackrel{g_2}{\to}&& {*}
+    \\
+    \uparrow^{g_1} &&\searrow^{g_2 g_3}&& \downarrow^{g_3}
+    \\
+    {*}
+    &&\stackrel{g_1 g_2 g_3}{\to}&&
+  }
+  \right|
+  g_1, g_2, g_3 \in G
+  \right\}
+  \,.
+$$
+
+The free strict $\omega$-groupoid on $N(\mathbf{B}G)$ has as $n$-morphisms the free $n$-groupoids generated from one $n$-[[oriental]] per such $n$-simplex in $N(\mathbf{B}G)$. 
+
+In chapter 12 of Brown-Higgins-Sivera group cocycles are computed as morphisms out of this cofibrant replacement $F(N(\mathbf{B}G))$ of the ordinary 1-groupoid $\mathbf{B}G$ in the category of [[strict omega-groupoid]]s. (Or rather, there the equivalent [[crossed complex]]es) are used.
+
+Alternatively, we can pass along the inclusion 
+$$
+  Str \omega Grpd \hookrightarrow \infty Grpd \hookrightarrow SSet
+$$
+of strict $\infty$-groupoids into all $\infty$-groupoids modeled as [[Kan complex]]es and compute the homotopy classes of morphisms there. Every [[Kan complex]] is already cofibrant (while of course still also being fibrant), so once the situation is interpreted in [[SSet]] we can compute group cohomology in terms of ordinary morphisms $N(\mathbf{B}G) \to N(\mathbf{B}^n K)$ without having to resolve further, without having to resort to [[anafunctor]]s etc. Of course it is the [[nerve]] operation involved both in forming the cofibrant replacement in $Str \infty Grpd$ as well as in passing to $SSet$ that accomplishes the required resolutions in either case.
+
+The upshot of all this is just that the following illustrative pictures may be interpreted either in $Strct \infty Grpod$ or in $SSet$:
+
+## degree 1 group cohomology ##
+
+A degree one group cocycl $c$, $[c] \in H^1_{Grp}(G,K)$
+is just a [[functor]] $c : \mathbf{B}G \to \mathbf{B}K$. This is a group homomorphism $G \to K$.
+
+## degree 2 group cohomology ##
+
+A degree-2 group cocycl $c$, $[c] \in H^2_{Grp}(G,K)$
+is on 2-cells a map
+
+
+$$
+  c_2
+  \;\;
+  :
+  \;\; 
+  \left(
+  \array{
+    && {*}
+    \\
+    & {}^{g_1}\nearrow && \searrow^{g_2}
+    \\
+    {*}
+    &&\stackrel{g_2 g_1}{\to}&&
+  }
+  \right)
+  \;\;\;
+  \mapsto
+  \;\;\;
+  \left(
+  \array{
+    && {*}
+    \\
+    & {}^{{*}}\nearrow &\Downarrow^{c(g_1,g_2)}& \searrow^{{*}}
+    \\
+    {*}
+    &&\stackrel{{*}}{\to}&&
+  }
+  \right)
+$$
+
+
+i.e. a map $c : G \times G \to K$ such that it extends to a morphism on 3-cells:
+
+$$
+  \begin{aligned}
+  c_3
+  \;\;\;
+  &:
+  \;\;\;
+  \left(
+  \array{
+    {*} &&\stackrel{g_2}{\to}&& {*}
+    \\
+    \uparrow^{g_1} &&{}^{g_2 g_1}\nearrow&& \downarrow^{g_3}
+    \\
+    {*}
+    &&\stackrel{g_3 g_2 g_1}{\to}&&
+  }
+  \;\;\;\;
+  \Rightarrow
+  \;\;\;\;   
+  \array{
+    {*} &&\stackrel{g_2}{\to}&& {*}
+    \\
+    \uparrow^{g_1} &&\searrow^{g_3 g_2}&& \downarrow^{g_3}
+    \\
+    {*}
+    &&\stackrel{g_3 g_2 g_1}{\to}&&
+  }
+  \right)
+  \\
+  & \mapsto
+  \left(
+  \array{
+    {*} &&\stackrel{{*}}{\to}&& {*}
+    \\
+    \uparrow^{{*}} &\Downarrow^{c(g_1,g_2)}
+    &{}^{{*}}\nearrow&\Downarrow^{c(g_2,g_3)}& 
+    \downarrow^{{*}}
+    \\
+    {*}
+    &&\stackrel{{*}}{\to}&&
+  }
+  \;\;\;\;
+  \stackrel{Id}{\Rightarrow}
+  \;\;\;\;   
+  \array{
+    {*} &&\stackrel{{*}}{\to}&& {*}
+    \\
+    \uparrow^{{*}} &\Downarrow^{c(g_1,g_2 g_3)}
+    &\searrow^{{*}}&\Downarrow^{c(g_2, g_3)}& \downarrow^{{*}}
+    \\
+    {*}
+    &&\stackrel{{*}}{\to}&&
+  }
+  \right)
+  \end{aligned}  
+  \,.
+$$
+
+Since there are no non-identity 3-morphisms in $\mathbf{B}^2 K$ (non-degenerate 3-cells in $N(\mathbf{B}^2 K)$) the 3-cell on the right is required to be the identity. Since the composition of the 2-cells on the right is their addition (group multiplication in the abelian group $K$) this says that the assignment $c_2 : G \times G \to G$ has to be such that
+
+$$
+  c(g_1, g_2)
+  -
+  c(g_1, g_2 \cdot g_3)
+  +
+  c(g_1 \cdot g_2, g_3)
+  - 
+  c(g_2, g_3)
+  = 
+  0
+$$
+
+This expresses the commutativity of the above tetrahedra. And it is indeed the ordinary formula for a cocycle in degree-2 [[group cohomology]].
+
+
+## degree 3 group cohomology ##
+
+similarly...
 
 # References #
 
