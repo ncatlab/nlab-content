@@ -21,7 +21,7 @@ In this representation, a pure set is a _rigid rooted directed tree_, possibly a
 *  Every directed graph (simple or not) generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __tree__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
 *  The __full subtree__ of a tree rooted at a node $i$ consists of all of the nodes with a path (necessarily unique) to $i$.
-*  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph automorphism of the tree must be the identity function.
+*  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph [[automorphism]] of the tree must be the identity function.
 *  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that every branch in the tree is of finite length.
 
 These subsidiary notions are also needed:
