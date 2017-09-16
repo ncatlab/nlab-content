@@ -6,8 +6,12 @@ The combinatorics of hypersimplices extends the combinatorics of distinguished t
 
 * I. M. Gelfand, [[Mikhail Kapranov|M. Kapranov]], [[Andrei Zelevinsky|A. Zelevinsky]], _Discriminants, resultants, and multidimensional determinants_, 1994.
 
-* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp. 2nd corrected ed. 2002.
+* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp.; 2nd corrected ed. 2002.
 
 * Fred J. Rispoli, _The graph of the hypersimplex_, [arxiv/0811.2981](http://arxiv.org/abs/0811.2981)
 
 * T. Lam, A. Postnikov, _Alcoved polytopes I_, [math.CO/0501246](http://arxiv.org/abs/math/0501246)
+
+* Yu. Bespalov, V. Lyubashenko, O. Manzyuk, _Pretriangulated $A_\infty$-categories_, Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 598 ([ps.gz](http://www.math.ksu.edu/~lub/cmcMonad.gz))
+
+* [[Jacob Lurie]], _Derived Algebraic Geometry I: Stable $\infty$-Categories_, ([arXiv](http://www.arXiv.org/abs/math.CT/0608228), [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
