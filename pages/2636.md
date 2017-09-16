@@ -9,7 +9,7 @@ where $L$ is the [[Lagrangean]] of the system.  More generally, we can say that 
 
 If $L$ takes the form $\frac{1}{2} \sum_i m_i \dot{q}_i^2 - U(q_1,\ldots,q_n)$, then we have $p_i = m_i \dot{q}_i$.  Thus, the __linear momentum__ of a point particle in Newtonian mechanics is traditionally *defined* as the intrinsic [[mass]] $m$ times the [[velocity]] $\vec{\dot{q}}$.  However, this breaks down in some situations:
 
-*  Relativistically, the velocity factor is more complicated (tending to $\infty$ as velocity tends to the [[speed of light]]).
+*  Relativistically, the velocity factor is more complicated (tending to $\infty$ as velocity tends to the [[speed of light]]).  However, it is possible to keep $p = m v$ using a velocity-dependent relativistic mass (especially since the mass may depend on other dynamical considerations).
 
    +-- {: .query}
    Zoran: still with rescaled mass the space-components of the momentum are mass times velocity. Of course one can talk about 4-momentum as well but this is a different issue. 
@@ -17,6 +17,8 @@ If $L$ takes the form $\frac{1}{2} \sum_i m_i \dot{q}_i^2 - U(q_1,\ldots,q_n)$, 
    _Toby_:  True, but the modern use of 'mass' is for the *intrinsic* property of a particle, so this is not true.  The rescaled ('relativistic') mass varies with speed, so we don\'t capture the dependence of momentum on velocity by saying that they are proportional.
 
     Zoran: well for the trivial purposes like the tables of particles of course zero-velocity mass is used. But if we are talking about the laws of MECHANICS and basics of these notions than the the mass does really depend on the dynamics, not only in relativity but even for quasiparticles in condensed matter physics. If you call by modern textbooks for cooks it may be true, but among us theoretical physicists, the mass is defined by the peculiarities of the dynamics, it is subject to renormalization, which will in QFT in general depend even on the temperature. 
+
+   _Toby_:  OK, what do you think about it now?
    =--
 
 *  In the presence of velocity-dependent forces (notably those produced by a [[magnetic field]]), there is an additional position-dependent term.
