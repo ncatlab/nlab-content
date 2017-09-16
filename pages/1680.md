@@ -52,8 +52,14 @@ $$
 its name.
 
 
-[[!redirects Eilenberg-Mac Lane spectrum]]
+[[!redirects Eilenberg-MacLane spectrum]]
 [[!redirects Eilenberg--MacLane spectrum]]
 [[!redirects Eilenberg--Mac Lane spectrum]]
 [[!redirects Eilenberg–MacLane spectrum]]
 [[!redirects Eilenberg–Mac Lane spectrum]]
+[[!redirects Eilenberg-MacLane spectra]]
+[[!redirects Eilenberg-Mac Lane spectra]]
+[[!redirects Eilenberg--MacLane spectra]]
+[[!redirects Eilenberg--Mac Lane spectra]]
+[[!redirects Eilenberg–MacLane spectra]]
+[[!redirects Eilenberg–Mac Lane spectra]]
