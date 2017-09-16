@@ -31,4 +31,6 @@ We consider the periodic table of $k$-tuply monoidal $n$-categories described he
 
 From poking around a bit it seems that having these ideas down we are supposed now start thinking about Hopf algebras.
 
-Gotta go eat and for a walk...be back soon.
+Gotta go eat and for a walk...be back soon.  I had a meatball sub, tea, orange juice and now I am back.
+
+Braided Hopf algebras provide solutions to the braid equation.  The Drinfel'd quantum double construction is a way to get our hands on these starting with finite dimensional Hopf algebras with invertible antipodes.
