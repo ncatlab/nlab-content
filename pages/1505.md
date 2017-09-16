@@ -7,9 +7,7 @@ Bertrand To&euml;n is a mathematician at the University of Toulouse. He works on
 
 #Related $n$Lab entries#
 
-* [[infinity-stack]]
-
-* [[derived stack]]
+* [[infinity-stack]], [[derived stack]]
 
 * [[model structure on SSet-enriched presheaves]]
 
@@ -17,6 +15,7 @@ Bertrand To&euml;n is a mathematician at the University of Toulouse. He works on
 
 * [[Northwestern TFT Conference 2009]]
 
+* [[higher topos theory]]
 
 category: biography
 
