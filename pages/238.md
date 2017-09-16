@@ -14,7 +14,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-17
 
-* [[Tim Porter|Tim]]: I have been trying to give an adequate categorical treatment of [[profinite group]].
+* [[Tim Porter|Tim]]: I have been trying to give an adequate categorical treatment of [[profinite completion of a group]].
 
 * [[Urs Schreiber|Urs]]: 
 
