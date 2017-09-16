@@ -1,3 +1,2 @@
-See [[higher algebra]].
-
-category: redirect
+&lt; [[Higher Algebra]]
+[[!redirects Higher Algebra -- history]]
