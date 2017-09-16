@@ -22,4 +22,6 @@ I have added a series of entries on differential algebra to the nLab.  This is n
 
 See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), where I have put a link to a recent version of the first 7 chapters of the Menagerie.
 
+Other goodies there include parts of a draft monograph on profinite homotopical algebra, and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems.
+
 category: people
