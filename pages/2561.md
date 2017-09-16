@@ -16,7 +16,7 @@ This $[a,b]$ is the __copairing__ of $a$ and $b$.
 
 When convenient, it is nice to write it vertically; all of the following are seen:
 $$ \left({a \atop b}\right) ,\quad \left[{a \atop b}\right] ,\quad \left\{{a \atop b}\right\} .$$
-The vertical notation can be combined with [[pairing]] to create a [[matrix]] notation for morphisms from a coproduct to a product.  This works best when products and coproducts are the same, as described at [[matrix calculus]].
+The vertical notation can be combined with [[pairing]] to create a [[matrix calculus]] for morphisms from a coproduct to a product.  This works best when products and coproducts are the same, as described at [[matrix calculus]].
 
 
 # Examples
