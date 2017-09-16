@@ -13,9 +13,9 @@ $$
   \,.
 $$
 
-This term comes from thinking of $A$ and $B$ as [[bundle]]s over $C$; then the fibre of $A \times_C B$ over a [[generalized element]] $x$ of $C$ is the [[product]] of the fibres of $A$ and $B$ over $x$.  In other words, the fibre product is the product taken fibre-wise.
+This term comes from thinking of $A$ and $B$ as [[bundle]]s over $C$; then the fiber of $A \times_C B$ over a [[generalized element]] $x$ of $C$ is the [[product]] of the fibers of $A$ and $B$ over $x$.  In other words, the fiber product is the product taken fiber-wise.
 
-Of course, the fibre of $A$ at the generalized element $x: I \to C$ is itself a pullback $I \times_C A$; the terminology depends on your point of view.
+Of course, the fiber of $A$ at the generalized element $x: I \to C$ is itself a pullback $I \times_C A$; the terminology depends on your point of view.
 
 #Examples#
 
