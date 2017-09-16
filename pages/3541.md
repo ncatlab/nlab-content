@@ -1,4 +1,12 @@
-A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is the family of operators on $\mathcal{H}_{i}$.  
+A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathcal{H}_{A}) \to L(\mathcal{H}_{B})$, where $L(\mathcal{H}_{i})$ is the family of operators on $\mathcal{H}_{i}$. 
+
++--{: .query} 
+
+[[Todd Trimble]]: Hi, Ian. I hope I can give some constructive advice. First, it's good form to specify your terms, e.g., "given a [[Hilbert space]] $H$, let $L(H)$ denote the space ... (please specify exactly: the space of all bounded linear operators $\Psi: H \to H$, or of such operators that are completely positive trace-preserving, or what?)". Terms such as "completely positive operator" or "trace-preserving operator" should be placed between double brackets so that readers can follow a link either to an existing page or to a to-be-created page, like so: [[completely positive operator]]. Then, you also need to specify how you are considering this thing $L(H)$: if you are considering it as a [[C-star algebra]], then say so. If you don't do that, the reader has no sense of what "mapping" should mean here (should it mean a morphism in the category of Banach spaces, or a morphism in the category of $C^\star$-algebras, or what?). Finally, I think I would find the following formulation less confusing: "A _quantum channel_ between Hilbert spaces $H_A$, $H_B$ (any particular reason why $H_A$ and $H_B$, as opposed to $H_1$, $H_2$ or $H$, $H'$?) is a $C^\star$-algebra mapping (or whatever kind of mapping it is) $\Phi: L(H_A) \to L(H_B)$." The way you have it, it looks as though you're suggesting that $L(H_A)$, $L(H_B)$ are the Hilbert spaces, and I don't think that's what you mean. 
+
+Ideally, the nLab is a place where a newcomer (relative to some area) could go and not be confused by unstated context. That's perhaps the first lesson of category theory: a category is a _context_, a specification of the way we consider the objects before us (whether as vector spaces or Banach spaces or $C^\star$-algebras or what have you). Being very careful to specify the context or category in which one is working at any given moment is a fundamental precept in our business and promotes clarity of thinking. 
+
+=--
 
 +--{: .query}
 [[David Roberts]]: Can we write this as:
