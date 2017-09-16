@@ -53,7 +53,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
     I have expanded the material at [[graph of a function]] accordingly. Also I made [[cograph of a function]] redirect to that.
 
-* [[Jon Awbrey]] added an epigraph at [[relation theory]].  Exercise for the Reader:  Show that every functional graph factors into an epigraph and a monograph.
+* [[Jon Awbrey]] added an epigraph to [[relation theory]].  Exercise for the Reader:  Show that every functional graph factors into an epigraph and a monograph.
 
 ## 2009-09-13
 
