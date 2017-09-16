@@ -247,5 +247,8 @@ Here are some useful specifics:
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
 * [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
 
+## survey of available math typesetting commands ##
+
+* [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html)
 
 category: meta
