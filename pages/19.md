@@ -357,7 +357,7 @@ As for extending this correspondence to embrace other properties/structures/stuf
 
 _Toby_:  (Aside: Since the left adjoint returns the original category up to [[isomorphism of categories|isomorphism]], even some evil things can be so transported.)
 
-_Rafael_: Todd, i thought it was obvious that i was not talking about presheaves on $\Delta$ but about presheaves on a full subcategory of $\Delta$, and the presheaves satisfying some conditions. The thing is that it is a bit long to be spelled out precisely all the time. I would actually be glad if someone could write these conditions down, or at least give a reference where they are wrtten down.
+_Rafael_: Todd, i thought it was obvious that i was not talking about presheaves on $\Delta$ but about presheaves on a full subcategory of $\Delta$, and the presheaves satisfying some conditions. The thing is that it is a bit long to be spelled out precisely all the time. I would actually be glad if someone could write these conditions down, or at least give a reference where they are written down.
 
 Now, unless the nerve functor defined on this specific symplectic full subcategory of $\Delta$ has an inverse the equivalence between these presheaves and categories break down. This equivalence was what i was really asking for, if it exist. If it don't exist i still don't see how these presheaves can be categories, since there must exist a 1-1 correspondence preserving categorical properties and categorical notions between Cat and these set valued presheaves on this simplicial cateory! Such as an equivalence of categories, no less. Perhaps one of the functors mentioned abowe can be modified so they become inverses. [[simplicial category]] think there is no such equivalence.
 
@@ -379,6 +379,21 @@ $$X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$$
 to the $n$-fold pullback is an isomorphism. Third, as to "By the way this functor needs a name", I thought I did (for the purpose of this discussion) give it the uninspired name "categorization"; if anyone knows the standard name for it, I should like to know. Fourth, as to "You are suggesting that simplicial sets are these special Set valued presheaves on $\Delta$!", I'm not sure what you mean, but I will echo David Roberts and note that many authors define a simplicial object to be a presheaf on $\Delta$ (not a special one), and anyway that's saying the _exact same thing_ in different words as the standard definition which invokes simplicial identities. There's really hardly anything to prove there; it's basically a tautology, and has nothing to do with Yoneda particularly. 
 
 Why then think of a simplicial set as a presheaf on $\Delta$? Basically, I'd say because a lot of very elegant general constructions and arguments can be made at the level of presheaf categories (e.g., the clear conceptual picture of geometric realization as a Kan or weighted colimit construction), and also an awful lot is known about the domain category $\Delta$, so that it is an advantage to think in functorial terms. Category theory has this amazing ability to compress large quantities of mathematics into tight conceptual packages, and raises one's mathematical vision to a higher level as a result; the sort of piecemeal description of simplicial sets via simplicial identities is certainly good for concrete detailed calculations, but one deprives oneself of conceptual insight if one always thinks in those terms. 
+
+_Rafael_: Please don't see me as complaining and opposing almost everything you write. I just like to get to the bottom of problems using logic. Which may involve often skipped details. Just because i write something it don't mean i am against the opposite of what i wrote. When i ask something i have usually tried to figure it out first, and in general it feels like there are many things in fairly basic category theory not written down or written out (explicitly as they should be).
+
+Is this a good replacement for the sentence at the top of the page that started this discussion?
+
+**suggestion**
+
+A theory of enlarged [[simplicial set|simplicial sets]] (in the sense of enlarging sets to classes) presented by Set-valued [[presheaf|presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$ (where $\Delta$ also contains large simplicies). The enlarged simplicial sets must also satisfy the condition: X an enlarged simplicial set $\Rightarrow$ the Segal maps $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$. The correspondence constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor constructing a categorys nerve is the generalized nerve functor (generalization of the nerve functor to have enlarged simplicial sets as its codomain).
+
+**end suggestion**
+
+I recall this condition on the simplicial sets Todd gave. I did't put it this way but i was asking for it in terms of these presheaves. It feels funny starting with simplicial sets as sets, then see them as presheaves, and then see them as sets again. 
+
+And i still wonder how the composition of a category looks like in this presheaf language.
+
 =--
 
 +--{.query}
