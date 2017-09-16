@@ -32,8 +32,8 @@
   * [[Froelicher space]], [[diffeological space]], [[smooth space]]
 * [[space and quantity]]
 
-There are many entries on [[sheaf]], [[stack]], [[site]] and [[topos]] theory including
+There are many entries on [[sheaf]], [[stack]], [[site]], [[locale]] and [[topos]] theory including
 
-* [[germ]], [[etale space]], [[soft sheaf]], [[flabby sheaf]], [[fine sheaf]], [[Grothendieck topos]], [[Grothendieck topology]], [[(infinity,1)-topos]], [[(infinity,1)-category of (infinity,1)-sheaves]], [[cover]], [[hypercover]], [[local object]], [[local isomorphism]], [[coverage]], [[local epimorphism]], [[hypercompletion]], [[sieve]], [[Verdier site]], [[Grothendieck fibration]]... 
+* [[germ]], [[etale space]], [[soft sheaf]], [[flabby sheaf]], [[fine sheaf]], [[Grothendieck topos]], [[Grothendieck topology]], [[(infinity,1)-topos]], [[smooth topos]], [[(infinity,1)-category of (infinity,1)-sheaves]], [[cover]], [[hypercover]], [[local object]], [[local isomorphism]], [[coverage]], [[local epimorphism]], [[hypercompletion]], [[sieve]], [[Verdier site]], [[Grothendieck fibration]], [[Pierce spectrum]], [[Stone duality]], [[point of a topos]], [[geometric morphism]]... 
 
 and pages on various [[cohomology|cohomologies]], including [[sheaf cohomology]], [[nonabelian cohomology]], [[differential cohomology]], [[Deligne cohomology]], [[Bredon cohomology]] and their cocycle classes including [[torsors]], [[gerbes]], [[principal 2-bundles]] as well as the related picture of the [[descent]] theory (cf. [[oriental]], [[descent for simplicial presheaves]]...).
