@@ -1,5 +1,5 @@
 In [[constructive mathematics]], a [[set]] $X$ has __decidable equality__ if any two elements of $X$ are either [[equality|equal]] or [[negation|not]] equal.  Equivalently, $X$ has decidable equality if its [[equality]] relation is a [[decidable subset]] of $X \times X$.  Sometimes one says that such a set $X$ is _discrete_, although of course this term has many meanings.
 
-Of course, in classical mathematics, every set has decidable equality.  But the concept generalises in [[sheaf and topos theory|topos theory]] to the notion of [[decidable object]].
+Of course, in [[classical mathematics]], every set has decidable equality.  But the concept generalises in [[sheaf and topos theory|topos theory]] to the notion of [[decidable object]].
 
 Working with decidable subsets of sets with decidable equality makes constructive mathematics very much like classical mathematics.  This is why constructivism has few consequences for basic combinatorics and algebra (although it does have important consequences for more advanced topics in those fields).  In analysis, in contrast, constructivism matters right away, because the set of [[real number]]s may have very few decidable subsets.
