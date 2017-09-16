@@ -20,7 +20,7 @@ A residue field is a Heyting field if and only if it is a [[local ring]]. Furthe
 Counterexamples were remarked above, but to be explicit: The (Dedekind) real numbers form a Heyting field which need not be discrete. The MacNeille real numbers form a residue field which need not be Heyting; see section D4.7 of _Sketches of an Elephant_.
 
 
-### Discussion ###
+## Discussion ##
 
 This discussion was originally at [[vector space]], but most of it is really about fields.
 
