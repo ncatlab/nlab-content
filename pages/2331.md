@@ -197,3 +197,8 @@ __253__, n. 1, 25--62 (2006) [doi:10.1007/s00209-005-0875-9](http://dx.doi.org/1
 * W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
 
 * [[Yan Soibelman]], _Lectures on deformation theory and mirror symmetry_ ([ps](http://www.math.ksu.edu/~soibel/ipam-final.ps))
+
+* B. Mazur, _Perturbations, Deformations, and Variations (and "Near-misses") in Geometry, Physics, and Number Theory_, [BAMS 41(3), 307-336](http://www.ams.org/bull/2004-41-03/S0273-0979-04-01024-9/S0273-0979-04-01024-9.pdf)
+
+* C. Doran, [Deformation Theory: An Historical Annotated
+Bibliography](http://www.math.columbia.edu/~doran/Hist%20Ann%20Bib.pdf)
