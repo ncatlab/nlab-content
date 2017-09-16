@@ -27,6 +27,8 @@ This page contains material related to the event
 
 * [[David Ben-Zvi]], [[DBZLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
 
+* [[David Ben-Zvi]], [[DBZLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
+
 ### related $n$Lab entries ###
 
 * [[geometric infinity-function theory]]
@@ -47,6 +49,10 @@ This page contains material related to the event
 
 * [[Bertrand Toen]], [[ToenLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
 
+
+##Orit Davidovich on Modular Tensor Categories ##
+
+* [[Orit Davidovich]], [[Davidovich.ps:file]], talk notes by [[Alex Hoffnung]]
 
 ### related $n$Lab entries ###
 
