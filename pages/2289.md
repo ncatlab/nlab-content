@@ -1,16 +1,85 @@
 
++-- {: .standout}
+
 This entry is about the text
 
 * [[Jacob Lurie]], _A Survey of Elliptic Cohomology_ ([pdf](http://www-math.mit.edu/~lurie/papers/survey.pdf))
 
+=--
 
-#Summary#
+#Table of Contents#
 
-The text starts with showing or recalling that the collection of all [[elliptic cohomology]] theories and the gluing of their representing [[spectrum|spectra]] into the single [[tmf]] spectrum is best understood in terms of global sections of the structure sheaf of functions on the refinement of the moduli [[space]] of all elliptic curves to a [[structured (∞,1)-topos]].
+1. [Summary](#Summary)
 
-Then it uses this [[higher topos theory|higher topos theoretic]] perspective to analyze further properties of [[elliptic cohomology]] theories, in particular their refinements to [[equivariant cohomology]].
+   1. [gluing all elliptic cohomology theories to the tmf spectrum](#gluingallellipticcohomologytheoriestothetmfspectrum)
 
-## gluing all elliptic cohomology theories to the tmf spectrum ##
+   1. [interpretation in terms of higher topos theory](#interpretationintermsofhighertopostheory)
+
+1. [Contents](#contents)
+
+   1. [Elliptic Cohomology](#EllipticCohomology)
+
+      1. [Cohomology Theories](#CohomologyTheories)
+
+      1. [Formal Groups from Cohomology Theories](#FormalgroupsFromCohomologyTheories)
+
+      1. [Elliptic Cohomology](#EllipticCohomology)
+
+   1. [Derived Algebraic geometry](#DerivedAlgebraicCohomology)
+
+      1. [E-infinity rings]()
+
+      1. [Derived Schemes]()
+
+   1. [Derived Group Schemes and Orientations]()
+
+       1. [Orientations of the Multiplicative Group]()
+
+       1. [Orientations of the Additive Group]()
+
+       1. [The Geometry of Preorientations]()
+
+       1. [Equuivariant A-Cohomology for Abelian Groups]()
+
+       1. [The Nonabelian Case]()
+
+   1. Oriented Elliptic Curves
+
+      1. Construction of the Moduli Stack
+
+      1. The Proof of Theorem 4.4: The Local Case
+
+      1. Elliptic Cohomology near $\infty$
+
+   1. Applications
+
+      1. 2-Equivariant Elliptic Cohomology
+
+      1. Loop Group Representations
+
+      1. String Orientation
+
+      1. Higher Equivariance
+
+
+   1. Elliptic Cohomology and Geometry
+
+
+
+#Summary {#Summary}
+
+The text starts with showing or recalling that 
+
+* the collection of all [[elliptic cohomology]] theories 
+and 
+
+* the gluing of their representing [[spectrum|spectra]] into the single [[tmf]] spectrum 
+
+is best understood in terms of global sections of the structure sheaf of functions on the refinement of the moduli [[space]] of all elliptic curves to a [[structured (∞,1)-topos]].
+
+Then it uses this [[higher topos theory|higher topos theoretic]] [[derived algebraic geometry]] perspective to analyze further properties of [[elliptic cohomology]] theories, in particular their refinements to [[equivariant cohomology]].
+
+## gluing all elliptic cohomology theories to the tmf spectrum {#gluingallellipticcohomologytheoriestothetmfspectrum}
 
 The triple of [[generalized (Eilenberg-Steenrod) cohomology]] theories
 
@@ -105,7 +174,7 @@ As indicated, this problem does turn out to have a solution: Goerss, [[Mike Hopk
 
 Accordingly, one can then obtain the [[tmf]] spectrum as the [[homotopy limit]] of this sheaf of [[E-∞ ring]]s $O_{M^{der}}$. Recall from the discussion at [[limit in a quasi-category]] that such a homotopy limit computes global sections. It is an $\infty$-version of computing sections in a [[Grothendieck construction]], really, as described there.
 
-## interpretatioin in terms of higher topos theory ##
+## interpretation in terms of higher topos theory {#interpretationintermsofhighertopostheory}
 
 What is noteworthy about the above construction is that, as the notation above suggests, sheaves of [[E-infinity ring]]s generalize sheaves of rings as thery are familiar from the theory of [[ringed space]]s, where they are called **structure sheaves**.
 
@@ -113,23 +182,112 @@ Accordingly, the morphism $O_{M^{der}}$ makes the moduli [[space]] of elliptic c
 
 This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]] spectrum as an application into the general context of [[higher topos theory]] and [[derived algebraic geometry]]. 
 
-## equivariant elliptic cohomology ##
+## equivariant elliptic cohomology {#equivariantellipticcohomology}
 
 
 ...
 
 
 
-##related entries ##
+# Contents {#Contents}
 
-* [[generalized (Eilenberg-Steenrod) cohomology]]
 
-* [[spectrum]]
+## 1. Elliptic Cohomology {#EllipticCohomology}
+
+### 1.1 Cohomology Theories {#CohomologyTheories}
+
+
+* [[cohomology]]
+
+  * [[generalized (Eilenberg-Steenrod) cohomology]]
+
+  * [[integral cohomology]]
+
+  * [[K-theory]]
+
+  * [[elliptic cohomology]]
+
+* [[multiplicative cohomology theory]]
+
+* [[periodic cohomology theory]]
+
+* [[topological modular form]]
+
+### 1.2 Formal Groups from Cohomology Theories {#FormalgroupsFromCohomologyTheories} 
+
+* [[formal group]]
+
+### 1.3 Elliptic Cohomolohy {#EllipticCohomology}
+
+* [[elliptic curve]]
 
 * [[elliptic cohomology]]
 
-  * [[elliptic curve]]
+* [[E-∞ ring]]
 
-* [[tmf]]
 
-  * [[topological modular form]]
+## 2 Derived Algebraic geometry {#DerivedAlgebraicCohomology}
+
+* [[derived algebraic geometry]]
+
+  * [[higher topos theory]]
+
+  * [[higher algebra]]
+
+
+
+### 2.1 $E_\infty$ rings
+
+* [[commutative algebra in an (∞,1)-category]]
+
+* [[E-∞ ring]]
+
+* [[commutative ring spectrum]]
+
+### 2.2 Derived Schemes
+
+* [[structured (∞,1)-topos]]
+
+* [[derived scheme]]
+
+## 3 Derived Group Schemes and Orientations
+
+* [[group scheme]]
+
+### 3.1 Orientations of the Multiplicative Group
+
+### 3.2 Orientations of the Additive Group
+
+### 3.3 The Geometry of Preorientations
+
+### 3.4 Equuivariant $A$-Cohomology for Abelian Groups
+
+### 3.5 The Nonabelian Case
+
+## 4 Oriented Elliptic Curves
+
+### 4.1 Construction of the Moduli Stack
+
+### 4.2 The Proof of Theorem 4.4: The Local Case
+
+### 4.3 Elliptic Cohomology near $\infty$
+
+## 5 Applications
+
+
+### 5.1 2-Equivariant Elliptic Cohomology
+
+
+### 5.2 Loop Group Representations
+
+* [[loop group]]
+
+### 5.3 String Orientation
+
+* [[string structure]]
+
+### 5.4 Higher Equivariance
+
+
+### 5.5 Elliptic Cohomology and Geometry
+
