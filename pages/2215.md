@@ -10,6 +10,6 @@ The following is an extended exposition of the concept in Peirce's own words:
 
 : A predicate which can thus be analyzed into parts all homogeneous with the whole I call a _continuous predicate_.  It is very important in logical analysis, because a continuous predicate obviously cannot be a _compound_ except of continuous predicates, and thus when we have carried analysis so far as to leave only a continuous predicate, we have carried it to its ultimate elements.  (Peirce 1908/1966, pp. 396--397).
 
-## References ##
+# References #
 
 * Peirce, Charles Sanders (1908/1966), Letter of 14 December 1908, "Letters to Lady Welby", pp. 380--432 in _Charles S. Peirce : Selected Writings (Values in a Universe of Chance)_, Philip P. Wiener (ed.), Dover Publications, New York, NY, 1966.
