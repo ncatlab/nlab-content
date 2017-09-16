@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-29 #
 
+* [[Zoran Škoda]]: created [[discrete fibration]], [[quasideterminant]] and made additions (please check for correctness) to [[orthogonal factorization system]], added Duskin's reference to [[gerbe (general idea)]] (btw it emphasises on internal point of view to gerbes -- as "bouquets", missing in division of gerbe entries in nlab).
+
 * [[Urs Schreiber]]
 
   * created reference entry [[Lectures on n-Categories and Cohomology]] in order to collect the existing $n$Lab entries on topics discussed there
@@ -511,7 +513,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  More new pages:  [[Freudenthal suspension theorem]], [[replete subcategory]], [[strictly full subcategory]].
 
-* [[Zoran Škoda]]: much expanded [[orbifold]], created [[Lie group]], [[compact Lie group]], [[orbispace]].
+* [[Zoran Škoda]]: much expanded [[orbifold]], created [[Lie group]], [[compact Lie group, [[orbispace]].
 
 * [[Urs Schreiber|Urs]] 
 
