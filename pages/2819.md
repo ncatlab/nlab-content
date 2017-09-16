@@ -25,7 +25,7 @@ Instead of checking the homotopy lifting property, one can instead solve a unive
 
 ## Appearance in a model structure ##
 
-There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are [[Hurewicz cofibration]]s and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
+There is a [[Quillen model category]] structure on [[Top]] where fibrations are Hurewicz fibrations, cofibrations are closed [[Hurewicz cofibration]]s and weak equivalences are [[homotopy equivalences]]; see [[model structure on topological spaces]] and [[Strøm's model category]]. There is a version of Hurewicz fibrations for [[pointed spaces]], as well as in the [[slice category]] $Top/B_0$ where $B_0$ is a fixed base.
 
 ##References
 
@@ -34,3 +34,6 @@ The historical paper of Hurewicz is
 * Witold Hurewitz, _On the concept of fiber space_, Proc. Nat. Acad. Sci. USA __41__ (1955) 956--961; MR0073987 (17,519e) [PNAS,pdf](http://www.pnas.org/content/41/11/956.full.pdf).
 
 Hurewicz fibrations are nowdays a standard topic in textbooks of algebraic topology (Whitehead, Spanier, Hatcher...). 
+
+
+[[!redirects Hurewicz fibrations]]
