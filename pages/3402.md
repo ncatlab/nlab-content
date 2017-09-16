@@ -1,4 +1,4 @@
-A __complete Boolean algebra__ is a [[complete lattice]] that is also a [[Boolean algebra]].  Since lattice homomorphisms of Boolean algebras automatically prefer the Boolean structure, the complete Boolean algebras form a [[full subcategory]] of the category of complete lattices.
+A __complete Boolean algebra__ is a [[complete lattice]] that is also a [[Boolean algebra]].  Since lattice homomorphisms of Boolean algebras automatically prefer the Boolean structure, the complete Boolean algebras form a [[full subcategory]] [[CompBoolAlg]] of [[CompLat]].
 
 Assuming [[excluded middle]], complete *[[atom]]ic* Boolean algebras are (up to [[isomorphism]]) precisely [[power sets]].  These abstract representations of power sets are important enough to have their own abbreviation: 'CABA'.
 
@@ -10,6 +10,24 @@ had proved that the power set functor (i mean the power object) is a contravaria
 =--
 
 
+[[!redirects complete Boolean algebra]]
+[[!redirects complete boolean algebra]]
+[[!redirects complete Boolean algebras]]
+[[!redirects complete boolean algebras]]
+[[!redirects complete Boolean lattice]]
+[[!redirects complete boolean lattice]]
+[[!redirects complete Boolean lattices]]
+[[!redirects complete boolean lattices]]
+[[!redirects complete Boolean ring]]
+[[!redirects complete boolean ring]]
+[[!redirects complete Boolean rings]]
+[[!redirects complete boolean rings]]
+
 [[!redirects complete atomic Boolean algebra]]
+[[!redirects complete atomic boolean algebra]]
+[[!redirects complete atomic Boolean lattice]]
+[[!redirects complete atomic boolean lattice]]
+[[!redirects complete atomic Boolean ring]]
+[[!redirects complete atomic boolean ring]]
 [[!redirects caba]]
 [[!redirects CABA]]
