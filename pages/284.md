@@ -1,3 +1,6 @@
+[[!redirects (∞,1)-category]]
+
+
 #Idea#
 
 According to the general pattern on [[(n,r)-category]], an $(\infty,1)$-category is a (weak) [[infinity-category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalence]]s.
