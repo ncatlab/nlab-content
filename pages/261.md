@@ -209,6 +209,10 @@ Over at [[geometric ∞-function theory]] I am asking for an entry titled [[simp
 
 * The adjunction $- \times X: \SimpSet \leftrightarrow \SimpSet :(-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $\Simp\Set$ into a [[cartesian closed category]].
 
+#Related concepts#
+
+* [[dendroidal set]]
+
 #References#
 
 A pedagogical introduction to simplicial sets is
