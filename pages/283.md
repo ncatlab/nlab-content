@@ -8,8 +8,10 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos)
 
 This story has been realized in detail for the [[(infinity,1)-category|(infinity,1)-categorical]] case of [[(infinity,1)-topos|(infinity,1)-topoi]]. Indeed, the [[(infinity,1)-category]] of [[infinity-groupoid]]s is the archetypical example of an $(\infty,1)$-topos.
 
-For larger values of $r$ in [[(n,r)-category|(n,r)-topos]] the situation is currently less clear. For some remarks about this see * [[michaelshulman:n-topos for large n|n-topos for large n]]. 
+For larger values of $r$ in [[(n,r)-category|(n,r)-topos]] the situation is currently less clear. For some remarks about this see
 
+* [[michaelshulman:What is a 2-topos|What is a 2-topos]] (part of [[michaelshulman:2-categorical logic|2-categorical logic]])
+* [[michaelshulman:n-topos for large n|n-topos for large n]].
 
 
 #Literature#
