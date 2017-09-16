@@ -28,9 +28,9 @@ $*$-autonomous category.  The dualizing object $\bot$ is then defined as $I^*$.
 
 ## Examples ##
 
-The standard example of a $*$-autonomous category is the category of finite-dimensional [[vector space]]s over some field $k$.  In this case $k$ itself plays the role of the dualizing object, so that for an f.d. vector space $V$, $V^*$ is the usual dual space of linear maps into $k$.
+* A simple example of a $*$-autonomous category is the category of finite-dimensional [[vector space]]s over some field $k$.  In this case $k$ itself plays the role of the dualizing object, so that for an f.d. vector space $V$, $V^*$ is the usual dual space of linear maps into $k$.
 
-More generally, any [[compact closed category]] is $*$-autonomous with the unit $I$ as the dualizing object.
+* More generally, any [[compact closed category]] is $*$-autonomous with the unit $I$ as the dualizing object.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Can someone fill in some examples of $*$-autonomous categories that are not compact closed?
@@ -45,6 +45,10 @@ $*$-autonomous but not compact.  I don't know enough topology to make
 much sense of it, though.
 
 =--
+
+* A more interesting example of a $*$-autonomous category is the category of [[sup-lattice]]s and sup-preserving maps (= left adjoints). Clearly the poset of sup-preserving maps $hom(A, B)$ is itself a sup-lattice, so this category is closed. The free sup-lattice on a poset $X$ is the internal hom of posets $[X^{op}, \Omega]$; in particular the poset of truth values $\Omega$ is a unit for the closed structure. Define a duality $ (-)^* $ on sup-lattices, where $ X^* = X^{op} $ is the opposite poset (inf-lattices are sup-lattices), and where $ f^*: Y^* \to X^* $ is the left adjoint of $f^{op}: X^{op} \to Y^{op}$. In particular, take as dualizing object $D = \Omega^{op}$. Some simple calculations show that under the tensor product defined by the formula $ (X \multimap Y^*)^* $, the category of sup-lattices becomes a $*$-autonomous category. 
+
+* The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories. 
 
 Models of [[linear logic]] are based on $*$-autonomous categories.
 
