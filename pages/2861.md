@@ -26,6 +26,8 @@ There is a [[cartesian closed category|cartesian closed]] [[category with weak e
   I would have started $k$ at $-1$.  What does Rezk\'s notion do with $k = -2$?  ---Toby
 
   $-1$-groupoids are spaces which are either empty or contractible.  $-2$-groupoids are spaces which are contractible.  So $k=-2$ is the completely trivial case; it's included for completeness.  -- Charles
+
+  I do know what a $(-2,0)$-category is, a triviality as you say.  But for $n \gt 0$, an $(n-2,n)$-category is the same as an $(n-2,n-1)$-category as far as I can see.  (Note: I say this *without* having worked through Rezk\'s version, but just thinking about what $(n,r)$-categories should be, as at [[(n,r)-category]].)  ---Toby
   =--
 
 as the [[category of fibrant objects]] in a [[model category]] $\Theta_n Sp_k$. The underlying [[category]] of this is the category $SPSh(\Theta_n)$ on a certain category $\Theta_n$, equipped with a model structure obtained as a left [[Bousfield localization]] of the global injective [[model structure on simplicial presheaves]].
