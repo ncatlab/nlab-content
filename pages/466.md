@@ -160,7 +160,13 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * [[co-Yoneda lemma]]
 
-#References#
+## Applications
+
+* The Yoneda lemma is the or a central ingredient in various [[reconstruction theorem]]s, such as those of [[Tannaka duality]].
+
+* In its incarnations as [[Yoneda reduction]] the Yoneda lemma governs the algebra of [[end]]s and [[coend]]s and hence that of [[bimodule]]s and [[profunctor]]s.
+
+## References
 
 * [[Tom Leinster]], _[[LeinsterYoneda.ps:file]]_
 
