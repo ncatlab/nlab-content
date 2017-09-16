@@ -1,4 +1,17 @@
 
+_Generalized complex geometry_ was propsoed by [[Nigel Hitchin]] as a formalism in [[differential geometry]] that would be suited to capture the phenomena that physicists encountered in the study of [[T-duality]].
+
+It was later and is still developed by his students, notably Gualtieri and Cavalcanti.
+
+Generalized complex geometry generalizes and unifies both
+
+* [[complex geometry]]
+
+and
+
+* [[symplectic geometry]].
+
+The basic idea is to study not just the [[tangent bundle]] $T X$ or cotangent bundle $T^* X$ of a [[manifold]], but a certain [[Courant algebroid]] whose underlying [[vector bundle]] is the [[direct sum]] $T X \oplus T^* X$. 
 
 #References#
 
