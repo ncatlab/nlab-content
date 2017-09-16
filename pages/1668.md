@@ -10,3 +10,10 @@ The operations that commute with a given set of operations in an algebraic theor
 If $f_1,\ldots , f_n$ are homomorphisms $A \to B$ of models (algebras) of a commutative algebraic theory, and $\omega$ is an n-ary operation of it, then the function $A \to B$ given by sending $a \in A$ to $\omega(f_1(a),\ldots ,f_n(a)) \in B$ is again a homomorphism, which is naturally called $\omega(f_1,\ldots ,f_n)$. In this way $Hom(A,B)$ is enriched as a model of the algebraic theory, and we have a [[closed category]] of models and homorphisms. Furthermore, this internal $Hom$ has a left adjoint $\otimes$ for which the free model on one generator is a unit, so we have a [[closed monoidal category]].
 
 The notion of commutative algebraic theory was formulated in terms of [[monad]]s by Anders Kock.
+
+
+### References ###
+
++-- {: .query}
+Can we have some please!  This is something I want to use soon so it'd be nice to know where the details were originally worked out. ---Andrew
+=--
