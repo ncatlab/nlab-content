@@ -5,7 +5,7 @@
 
 ## Idea
 
-The MacNeille or Dedekind--MacNeille (*not* 'Mac Neille') [[completion]] of a [[lattice]] (or even [[poset]]) $L$ is the [[universal construction|universal]] [[complete lattice]] containing $L$.
+The MacNeille or Dedekind--MacNeille (*not* 'Mac Neille') [[completion]] of a [[lattice]] (or even [[poset]]) $L$ is the [[universal construction|universal]] [[complete lattice]] containing $L$. In [[Pos]], the MacNeille completion of an object is its [[injective hull]].
 
 
 ## Definition
@@ -29,6 +29,7 @@ When applied to the ordered set of [[rational number]]s, the construction descri
 ##References##
 * [MacNeille completions and canonical extensions](http://www.math.nmsu.edu/mgehrke/gehharven.pdf)
 * [Encyclopedia of Mathematics](http://eom.springer.de/c/c024070.htm)
+* Section 21H of [The Joy of Cats](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
 
 [[!redirects Mac Neille completion]]
