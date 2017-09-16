@@ -2,10 +2,13 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-# Idea #
+## Idea ##
 
-Given a [[stable (infinity,1)-category]] $C$, its [[decategorification]]  $\infty$
+Given a [[stable (∞,1)-category]] $C$, its [[decategorification]]
 
 $$
   K_0(C) = \{equivalence \,classes\; [c]\; of \,objects \,c \in C\}
@@ -38,7 +41,7 @@ The "K" is chosen by Grothendieck for the German word _Klasse_ for "class". The 
 
 K-theory starts with the study of these K-groups and their higher analogues. Sometimes the K-groups themseles are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
 
-More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal infinity-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$ of which $K(C)$ is the set of [[simplicial homotopy group|connected components]]
+More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal ∞-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$ of which $K(C)$ is the set of [[simplicial homotopy group|connected components]]
 
 $$
   C \mapsto \mathbf{K}(C) \to \pi_0 \mathbf{K}(C) = K(C)
@@ -53,15 +56,16 @@ This is also called the **Waldhausen K-theory** of $C$.
 
 Much of the literature on K-theory discusses constructions that _model_ the above abstract setup in terms of [[model category|model categories]], or just their [[homotopy category|homotopy categories]], often of the [[derived category|derived catgeories]] type and then often expressed in terms of the [[abelian category]] or more generally [[Quillen exact category]] from which the derived category is derived.
 
-Only a subset of the structure on a [[model category]] is necessary in order to conveniently extract the K-groups of the [[presentable (infinity,1)-category|presented]] [[stable (infinity,1)-category]]. For that reason the axioms of a [[Waldhausen category]] have been devised to provide just the necessary convenient prerequesites to compute the K-groups of the [[(infinity,1)-category]] [[presentable (infinity,1)-category|presented]] by the underlying [[homotopical category]].
+Only a subset of the structure on a [[model category]] is necessary in order to conveniently extract the K-groups of the [[presentable (infinity,1)-category|presented]] [[stable (∞,1)-category]]. For that reason the axioms of a [[Waldhausen category]] have been devised to provide just the necessary convenient prerequesites to compute the K-groups of the [[(∞,1)-category]] [[presentable (infinity,1)-category|presented]] by the underlying [[homotopical category]].
 
-* In particular, the K-group associated to the [[stable (infinity,1)-category]] $Ch^b(A)$ of _bounded_ [[chain complex]]es in an [[abelian category]] or [[exact category]] $A$ is often called the K-group of $A$ itself and just denoted
+* In particular, the K-group associated to the [[stable (∞,1)-category]] $Ch^b(A)$ of _bounded_ [[chain complex]]es in an [[abelian category]] or [[exact category]] $A$ is often called the K-group of $A$ itself and just denoted
+
   $$
     K(A) := K(Ch^b(A))
     \,.
   $$
 
-  Most explicit constructions of K-theory spectra start with the data of an [[exact category]], such as notably Quillen's [[Q-construction]] and Waldhausen's [[Waldhausen category|S-construction]].
+  Most explicit constructions of K-theory spectra start with the data of an [[exact category]], such as notably Quillen's [[Q-construction]] and the [[Waldhausen S-construction]].
 
 * In particular if the exact category $A$ is that of [[vector bundle]]s on a [[topological space]] $X$
 
@@ -71,9 +75,9 @@ Only a subset of the structure on a [[model category]] is necessary in order to 
 
   the corresponding K-group is degree 0 [[topological K-theory]]. This was the original of the notion and the term K-theory.
 
-# Definition # 
+## Definition ##
 
-Recall that given a [[(infinity,1)-category]] $C$, we may regard it as a [[complete Segal space]] $C_{\bullet,\bullet}$, a bisimplicial set. For instance if $C$ is originally given as a [[quasicategory]] then
+Recall that given a [[(∞,1)-category]] $C$, we may regard it as a [[complete Segal space]] $C_{\bullet,\bullet}$, a [[bisimplicial object|bisimplicial set]]. For instance if $C$ is originally given as a [[quasicategory]] then
 
 $$
   C_{\bullet,\bullet} : [n],[m] \mapsto
@@ -81,13 +85,13 @@ $$
   \,,
 $$
 
-where $Core(Func(\Delta^n,C))$ denotes the maximal [[Kan complex]] inside the [[(infinity,1)-category of (infinity,1)-functors]] from $\Delta^n$ to $C$.
+where $Core(Func(\Delta^n,C))$ denotes the maximal [[Kan complex]] inside the [[(∞,1)-category of (∞,1)-functors]] from $\Delta^n$ to $C$.
 
 
 +-- {: .un_defn}
 ###### Definition 
 
-Let $C$ be a [[stable (infinity,1)-category]]. Then its **Waldhausen K-theory $\mathbf{K}(C)$ is given by the the diagonal simplicial set
+Let $C$ be a [[stable (∞,1)-category]]. Then its **Waldhausen K-theory $\mathbf{K}(C)$ is given by the the diagonal simplicial set
 
 $$
   \mathbf{K}(C) = diag C_{\bullet, \bullet}
@@ -114,7 +118,7 @@ $$
 
 
 
-# Related entries #
+## Related entries ##
  
 * [[Grothendieck group]]
 
@@ -133,20 +137,20 @@ $$
 * [[K-theory and physics]]
 
 
-# References #
+## References ##
 
 It was in 
 
 * [[Bertrand Toen]], Gabriele Vezzosi, _A remark on K-theory and $S$-categories_ ([arXiv](http://arxiv.org/PS_cache/math/pdf/0210/0210125v2.pdf)).
 
-that it was proven that the the [[Waldhausen S-construction]] of the [[K-theory spectrum]] depends precisely on the [[simplicial localization]] of the [[Waldhausen category]], i.e. of the [[(infinity,1)-category]] that it presents.
+that it was proven that the the [[Waldhausen S-construction]] of the [[K-theory spectrum]] depends precisely on the [[simplicial localization]] of the [[Waldhausen category]], i.e. of the [[(∞,1)-category]] that it presents.
 
 In view of this remark 11.4 in
 
-* [[Jacob Lurie]], [[stable (infinity,1)-category|Stable Infinity-Categories]] .
+* [[Jacob Lurie]], [[stable (infinity,1)-category|Stable ∞-Categories]] .
 
 interprets the construction of the K-theory spectrum as a natural operation of 
-[[stable (infinity,1)-category|stable (infinity,1)-categories]], as described above.
+[[stable (infinity,1)-category|stable (∞,1)-categories]], as described above.
 
 
 The standard constructions of K-theory spectra from [[Quillen exact categories]] are discussed in detail in chapter 1 of
