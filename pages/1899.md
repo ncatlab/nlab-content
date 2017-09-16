@@ -10,22 +10,22 @@ Given an [[algebraic theory]] $V$, a $V$-algebra is a model of $V$ in the catego
 Let $V$ be an [[algebraic theory]] and let $V Alg$ be the category of models of this theory in $Set$.  Then a **Tall--Wraith $V$-monoid** is a [[monoid|monoid object]] in the category of co-$V$-objects in $V Alg$.   
 =--
 
-To see why these are _what acts on $V$-algebras_ one needs to understand what a co-$V$-object in $V-Alg$ actually is.
-A co-$V$-object in some category $D$ is a [[representable functor|representable covariant functor]] from $D$ to $V-Alg$.
-To give a particular $D$-object, $d$, the structure of a co-$V$-object is to give a lift of the $Set$-valued $Hom$-functor $D(d,-)$ to $V-Alg$.
-Thus a co-$V$-object in $V-Alg$ is a representable covariant functor from $V-Alg$ to itself.
+To see why these are _what acts on $V$-algebras_ one needs to understand what a co-$V$-object in $V Alg$ actually is.
+A co-$V$-object in some category $D$ is a [[representable functor|representable covariant functor]] from $D$ to $V Alg$.
+To give a particular $D$-object, $d$, the structure of a co-$V$-object is to give a lift of the $Set$-valued $Hom$-functor $D(d,-)$ to $V Alg$.
+Thus a co-$V$-object in $V Alg$ is a representable covariant functor from $V Alg$ to itself.
 
 One can therefore consider composition of such representable covariant functors.
 The main result of this can be simply stated:
 
 +-- {: .num_proposition #repcomp}
 ###### Proposition
-The composition of representable covariant functors $V-Alg \to V-Alg$ is again representable.
+The composition of representable covariant functors $V Alg \to V Alg$ is again representable.
 =--
 
 This is a basic result in general algebra, and is not stated here in its full generality.
 
-An almost corollary of this is that the category of representable covariant functors from $V-Alg$ to itself is monoidal (the "almost" refers to the fact that you have to show that the identity functor is representable, but this is not hard).
+An almost corollary of this is that the category of representable covariant functors from $V Alg$ to itself is monoidal (the "almost" refers to the fact that you have to show that the identity functor is representable, but this is not hard).
 
 Thus for two co-$V$-algebra objects in $V$, say $R_1$ and $R_2$, there is a product $R_1 \odot R_2$ and a natural isomorphism
 
@@ -35,21 +35,21 @@ $$
 
 for any $V$-algebra, $A$.
 
-A Tall-Wraith $V$-monoid is thus a triple $(P,\mu,\eta)$ with $\mu : P \odot P \to P$ and $\eta : I \to P$ (where $I$ is the free $V$-algebra on one element - this represents the identity functor), satisfying the obvious coherence diagrams.
+A Tall--Wraith $V$-monoid is thus a triple $(P,\mu,\eta)$ with $\mu : P \odot P \to P$ and $\eta : I \to P$ (where $I$ is the free $V$-algebra on one element --- this represents the identity functor), satisfying the obvious coherence diagrams.
 An action of $P$ on a $V$-algebra, say $A$, is then a morphism $\rho : P \odot A \to A$ again satisfying certain coherence diagrams.
 
 Ah, but I have not told you what $P \odot A$ is!
-At the moment, one can take the "product" of two co-$V$-algebra objects in $V-Alg$ but now I want to take the product of a co-$V$-algebra object with a $V$-algebra.
+At the moment, one can take the "product" of two co-$V$-algebra objects in $V Alg$ but now I want to take the product of a co-$V$-algebra object with a $V$-algebra.
 How do I do this?
-I do this by observing that a $V$-algebra is a _co-$Set$-algebra object in $V-Alg$!
-That's a complicated way of saying that $V$ represents a covariant functor $V-Alg \to Set$.
-Precomposing this with the functor represented by $P$ yields again a covariant functor $V-Alg \to Set$.
+I do this by observing that a $V$-algebra is a _co-$Set$-algebra object in $V Alg$_!
+That's a complicated way of saying that $V$ represents a covariant functor $V Alg \to Set$.
+Precomposing this with the functor represented by $P$ yields again a covariant functor $V Alg \to Set$.
 This is again representable and we write its representing object $P \odot A$.
 
 As an aside, we note that this defines a bifunctor $VV^c \times V \to V$ which is an action of the monoidal category $VV^c$ on $V$.
 This can be extended to an action of $VV^c$ on the categories of $V$-algebra and co-$V$-algebra objects in a reasonably arbitrary base category.
 
-One postscript to this is that although the category of co-$V$-algebra objects in $V-Alg$ is not a variety of algebras, for a specific Tall-Wraith $V$-monoid $P$, the category of $P$-modules _is_ a variety of algebras.
+One postscript to this is that although the category of co-$V$-algebra objects in $V Alg$ is not a variety of algebras, for a specific Tall--Wraith $V$-monoid $P$, the category of $P$-modules _is_ a variety of algebras.
 
 
 
@@ -86,7 +86,7 @@ It is part of the general theory that the category of co-$V$-objects in $V$ is m
 For details on this (for the moment) see _The Hunting of the Hopf Ring_.
 This monoidal structure for abelian groups turns out to be the tensor product.
 
-Thus a _Tall-Wraith monoid_ for abelian groups is actually an ordinary monoid in the category of abelian groups; in other words, a [[ring]].
+Thus a _Tall--Wraith monoid_ for abelian groups is actually an ordinary monoid in the category of abelian groups; in other words, a [[ring]].
 
 # References #
 
@@ -97,7 +97,7 @@ Thus a _Tall-Wraith monoid_ for abelian groups is actually an ordinary monoid in
 * _The Hunting of the Hopf Ring_, [[Andrew Stacey|A. Stacey]] and S. Whitehouse, [arXiv:0711:3722](http://arxiv.org/abs/0711.3722)
 
 
-+-- {: .standout}
++-- {: .query}
 [[John Baez]]: The above material is tentative, based on things I heard [on the $n$-Cafe](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025550), but may not have understood. 
 
 [[Andrew Stacey]]: looks okay to me.  I put in lots of "commutative"s in the examples because the original papers in both cases dealt with commutative cases and I thought it best that the examples were as close as possible to the originals.  I also changed the $V$ to $\mathcal{V}$ in line with the notation from _The Hunting of the Hopf Ring_.  Should there be a lab standard on fonts for categories, objects, functors, and the like?
@@ -115,7 +115,6 @@ $$
 $$
 
 but, frankly, wouldn't you rather we didn't?
-
 =--
 
 
