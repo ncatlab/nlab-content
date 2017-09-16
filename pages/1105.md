@@ -18,6 +18,12 @@ to the [[subcategory]] $i : Sh(E) \hookrightarrow E$ of objects local with respe
 
 In the case that $E = PSh(S)$ and the Lawvere-Tierney topology is that corresponding to a Grothendieck topology on $S$, the two notions of [[sheafification]] coincide.
 
++--{: .query}
+[[Mike Shulman|Mike]]: Why shouldn't all of this just be at [[Lawvere-Tierney topology]]?
+
+Is "Lawvere-Tierney topos" supposed to mean "elementary topos?"  I've never heard that term before.
+=--
+
 
 #References#
 
