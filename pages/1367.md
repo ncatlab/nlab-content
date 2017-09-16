@@ -20,6 +20,8 @@ $Fun(C,D)$ is indeed a [[quasi-category]].
 
 * In fact, $Fun(C,D)$ is already a [[quasi-category]] if only $D$ is a [[quasi-category]], where $C$ may be any [[simplicial set]]. This is is useful for instance in the context of the [[(infinity,1)-category of (infinity,1)-presheaves]], as that makes sense already over a domain which is an arbitrary [[simplicial set]].
 
+* For definition of $(\infty,1)$-functors in other models for $(\infty,1)$-categories see [[(infinity,1)-functor]].
+
 #Reference#
 
 section 1.2.7 of
