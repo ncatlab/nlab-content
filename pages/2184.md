@@ -133,4 +133,7 @@ A graph is a set with a symmetric irreflexive binary relation.
 
 In each case this yields the correct definition of morphism and isomorphism
 
+_Toby_:  But what is the definition of morphism for a set equipped with an irreflexive relation?  In many more structured examples (such as [[linear orders]] and [[apartness relations]]), at least, it is a function that *reflects* the relation instead of one that *preserves* the relation.
+
+
 [[!redirects undirected graph]]
