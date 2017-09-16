@@ -1169,3 +1169,5 @@ John Francis' work on $E_n$-actions on $(\infty,1)$-categories is here
 
 
 For more related material see [[Northwestern TFT Conference 2009]].
+
+[[!redirects geometric ∞-function theory]]
