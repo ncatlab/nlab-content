@@ -16,7 +16,7 @@ That is, the set of Cauchy filters is a filter of proper filters that contains a
 Notice that by this definition, there are two Cauchy structures on the [[empty set]] (or rather, one for each [[truth value]]), depending on whether the improper filter is Cauchy; on an [[inhabited set]], the improper filter must be Cauchy.  Often one sees a definition where Cauchy filters are required to be proper instead.
 
 
-The definition can also be phrased in terms of [[net]]s; a __Cauchy net__ is a net whose eventuality filter is Cauchy.  In particular, a __Cauchy sequence__ is a [[sequence]] whose eventuality filter is Cauchy.
+The definition can also be phrased in terms of [[net]]s; a __Cauchy net__ is a net whose eventuality filter is Cauchy.  In particular, a __[[Cauchy sequence]]__ is a [[sequence]] whose eventuality filter is Cauchy.
 
 
 The morphisms of Cauchy spaces are the Cauchy-continuous functions; a function $f$ between Cauchy spaces is __Cauchy-continuous__ if $f(F)$ is a (base of a) Cauchy filter whenever $F$ is.  In this way, Cauchy spaces form a category $Cau$.
@@ -44,3 +44,10 @@ A Cauchy space $S$ is __precompact__ (or __totally bounded__) if every filter is
 # References #
 
 Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
+
+
+[[!redirects Cauchy filter]]
+[[!redirects Cauchy continuous map]]
+[[!redirects Cauchy continuous function]]
+[[!redirects Cauchy-continuous map]]
+[[!redirects Cauchy-continuous function]]
