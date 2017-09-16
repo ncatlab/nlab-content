@@ -39,7 +39,7 @@ The $\ne$-_closure_ $\bar{A}$ of a subset $A$ is the complement of its complemen
 
 The _antigraph_ of a function $f: S \to T$ is
 $$\{(x,y) | x: S, y: T | f(x) \ne y\}.$$
-Recall that in ordinary topology, a function between Hausdorff spaces is continuous iff its [[graph of a function|graph]] is closed. Similarly, a function $f: S \to T$ is strongly extensional iff its antigraph is open. (Then the graph of $f$ is the complement of the antigraph.)
+Recall that in ordinary topology, a function between [[Hausdorff space]]s is continuous iff its [[graph of a function|graph]] is closed. Similarly, a function $f: S \to T$ is strongly extensional iff its antigraph is open. (Then the graph of $f$ is the complement of the antigraph.)
 
 One important topological concept that doesn\'t appear classically is locatedness; in an inequality space, a subset $A$ is _located_ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood of $x$ (not necessarily $U$) is contained in $\tilde A$. Note that every point is located. (For an example of a set that need not be located, consider $\{x: S | p\}$, where $p$ is an arbitrary truth value. In an inhabited space, this set is located iff $p$ is true or false.)
 
