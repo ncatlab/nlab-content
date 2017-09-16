@@ -9,6 +9,10 @@ Because enriched category theory doesn't know anything about the 2-categorical n
 
 By a **limit** we will mean the fully 2-categorical notion described at [[2-limit]], in which cones commute up to isomorphism and the universal property is expressed by an equivalence of categories.
 
++-- {: .query}
+It just occured to me that 'strict initial object' conflicts with this.  But unlike 'weak limit', that doesn't generalise very far.
+=--
+
 * A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may be [[evil]].  (cf. [[red herring principle]].)
 
 * A **pseudo limit** (or _strict pseudo limit_ if it is necessary to emphasize the strictness) is a limit whose cones commute up to coherent 2-cell isomorphism, but whose universal property can still be expressed by an _isomorphism_ of categories.  For any weight $W$, there is another weight $W'$ (a [[cofibrant replacement]] of $W$) such that pseudo $W$-weighted limits are equivalent to strict $W'$-weighted ones.  The idea is that $W'$ includes explicitly all the extra isomorphisms in a pseudo $W$-cone.  Since any isomorphism of categories is _a fortiori_ an equivalence of categories, any pseudo limit is also a limit.
