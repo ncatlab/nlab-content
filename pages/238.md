@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-09
 
+* [[Toby Bartels]]: Wrote [[entire relation]] and [[functional relation]] (but not yet [[relation]]!).
+
 * [[Urs Schreiber|Urs]]
 
   * added Berger-Moerdijk's definition to [[interval object]]
