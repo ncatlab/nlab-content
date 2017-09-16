@@ -417,6 +417,6 @@ We now
 
   * unwrap the above abstract nonsense and use the above results to find [SchrSchwWal](http://arxiv.org/abs/hep-th/0512283) and the bosonic part of [DiFrMo](http://arxiv.org/abs/0906.0795)
 
+***
 
-
-
+[[Oberwolfach Workshop, June 2009 -- Wednesday, June 10|Previous day]] --- [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Main workshop page]] --- [[Oberwolfach Workshop, June 2009 -- Friday, June 12|Next day]]
