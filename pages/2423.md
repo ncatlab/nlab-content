@@ -43,7 +43,8 @@ see also
 
 # Contents #
 
- {:toc}
+* tic
+{:toc}
 
 * [Part 1 (topological) bordism category](#topological)
 
