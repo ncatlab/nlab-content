@@ -1,3 +1,5 @@
+[[!redirects sign relations]]
+
 A __sign relation__ is a special type of [[triadic relation]] that arises in the use of signs to connote meanings and denote objects.  If this sounds reminiscent of what we do in applying logic and reasoning to the world, actual and ideal, it is no accident.  Indeed, the polymathematician [[Charles Sanders Peirce]] famously defined _logic_ as "formal semiotic", that is, the formal theory of signs.
 
 ## History ##
