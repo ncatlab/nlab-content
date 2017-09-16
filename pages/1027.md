@@ -120,3 +120,8 @@ fiber products of derived spaces.
 [[!redirects fibered product]]
 [[!redirects fibred product]]
 [[!redirects wide pullback]]
+[[!redirects fiber products]]
+[[!redirects fibre products]]
+[[!redirects fibered products]]
+[[!redirects fibred products]]
+[[!redirects wide pullbacks]]
