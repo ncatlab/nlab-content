@@ -7,3 +7,4 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 
 [[!redirects parallel morphism]]
 [[!redirects parallel pair]]
+[[!redirects parallel pairs]]
