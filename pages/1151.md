@@ -100,7 +100,7 @@ Several familiar "cohomology theories" are not so much genuine cohomology theori
 
 #History and reference#
 
-This general perspective on cohomology established 35 years ago in
+This general perspective on cohomology was established 35 years ago in
 
 * Kenneth Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]] 
 
