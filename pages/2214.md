@@ -24,9 +24,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-09-13
 
+*  [[Toby Bartels]]:  Added [[diagonal morphism]] and two ways to look at it in $Set$: [[diagonal subset]] and [[diagonal function]].
+
 * [[Jon Awbrey]] added a bibliography on relations and related subjects to [[relation theory]].
+
 
 ## 2009-09-12
 
