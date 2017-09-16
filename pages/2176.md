@@ -690,45 +690,128 @@ $$\array{
 \frame{solid}
 \collines{solid}
 \rowlines{none solid none solid none none none none none none none solid none}}
-\mathcal{L}_1 & \mathcal{L}_2 & \mathcal{L}_3 & \mathcal{L}_4 & \mathcal{L}_5 & \mathcal{L}_6
+\mathcal{L}_1 & \mathcal{L}_2 & \mathcal{L}_3 &
+\mathcal{L}_4 & \mathcal{L}_5 & \mathcal{L}_6
 \\
-\text{Binary} & \text{Decimal} & \text{Bit Vector} & \text{Cactus} & \text{English} & \text{Ordinary}
+\text{Decimal Index} & \text{Binary Index} &
+\text{Function Values} & \text{Cactus Expression} &
+\text{English Paraphrase} & \text{Conventional Notation}
 \\
-& \cellopts{\colalign{right}} p: & 1\,1\,0\,0 & & &
+& \cellopts{\colalign{right}} p: & 1\:1\:0\:0 & & &
 \\
-& \cellopts{\colalign{right}} q: & 1\,0\,1\,0 & & &
+& \cellopts{\colalign{right}} q: & 1\:0\:1\:0 & & &
 \\
-f_{0}  & f_{0000} & 0\,0\,0\,0 & 04 & 05 & 06
+f_{0}
+& f_{0000}
+& 0\:0\:0\:0
+& (\:)
+& \mathop{false}
+& 0
 \\
-f_{1}  & f_{0001} & 0\,0\,0\,1 & 14 & 15 & 16
+f_{1}
+& f_{0001}
+& 0\:0\:0\:1
+& (p)(q)
+& \mathop{neither}\: p \:\mathop{nor}\: q
+& \not p \:\wedge\: \not q
 \\
-f_{2}  & f_{0010} & 0\,0\,1\,0 & 24 & 25 & 26
+f_{2}
+& f_{0010}
+& 0\:0\:1\:0
+& (p)\:q
+& q \:\mathop{without}\: p
+& \not p \:\wedge\: q
 \\
-f_{3}  & f_{0011} & 0\,0\,1\,1 & 34 & 35 & 36
+f_{3}
+& f_{0011}
+& 0\:0\:1\:1
+& (p)
+& \mathop{not}\: p
+& \not p
 \\
-f_{4}  & f_{0100} & 0\,1\,0\,0 & 44 & 45 & 46
+f_{4}
+& f_{0100}
+& 0\:1\:0\:0
+& p\:(q)
+& p \:\mathop{without}\: q
+& p \:\wedge\: (q)
 \\
-f_{5}  & f_{0101} & 0\,1\,0\,1 & 54 & 55 & 56
+f_{5}
+& f_{0101}
+& 0\:1\:0\:1
+& (q)
+& \mathop{not}\: q
+& \not q
 \\
-f_{6}  & f_{0110} & 0\,1\,1\,0 & 64 & 65 & 66
+f_{6}
+& f_{0110}
+& 0\:1\:1\:0
+& (p,\:q)
+& p \:\mathop{not equal to}\: q
+& p \ne q
 \\
-f_{7}  & f_{0111} & 0\,1\,1\,1 & 74 & 75 & 76
+f_{7}
+& f_{0111}
+& 0\:1\:1\:1
+& (p\:\:q)
+& \mathop{not both}\: p \:\mathop{and}\: q
+& \not p \:\vee\: \not q
 \\
-f_{8}  & f_{1000} & 1\,0\,0\,0 & 84 & 85 & 86
+f_{8}
+& f_{1000}
+& 1\:0\:0\:0
+& p \: q
+& p \:\mathop{and}\: q
+& p \:\wedge\: q
 \\
-f_{9}  & f_{1001} & 1\,0\,0\,1 & 94 & 95 & 96
+f_{9}
+& f_{1001}
+& 1\:0\:0\:1
+& ((p,\:q))
+& p \:\mathop{equal to}\: q
+& p = q
 \\
-f_{10} & f_{1010} & 1\,0\,1\,0 & a4 & a5 & a6
+f_{10}
+& f_{1010}
+& 1\:0\:1\:0
+& q
+& q
+& q
 \\
-f_{11} & f_{1011} & 1\,0\,1\,1 & b4 & b5 & b6
+f_{11}
+& f_{1011}
+& 1\:0\:1\:1
+& (p\:(q))
+& \mathop{not}\: p \:\mathop{without}\: q
+& p \Rightarrow q
 \\
-f_{12} & f_{1100} & 1\,1\,0\,0 & c4 & c5 & c6
+f_{12}
+& f_{1100}
+& 1\:1\:0\:0
+& p
+& p
+& p
 \\
-f_{13} & f_{1101} & 1\,1\,0\,1 & d4 & d5 & d6
+f_{13}
+& f_{1101}
+& 1\:1\:0\:1
+& ((p)\:q)
+& \mathop{not}\: q \:\mathop{without}\: p
+& p \Leftarrow q
 \\
-f_{14} & f_{1110} & 1\,1\,1\,0 & e4 & e5 & e6
+f_{14}
+& f_{1110}
+& 1\:1\:1\:0
+& ((p)(q))
+& p \:\mathop{or}\: q
+& p \:\vee\: q
 \\
-f_{15} & f_{1111} & 1\,1\,1\,1 & f4 & f5 & f6
+f_{15}
+& f_{1111}
+& 1\:1\:1\:1
+& ((\:))
+& \mathop{true}
+& 1
 }
 }$$
 
