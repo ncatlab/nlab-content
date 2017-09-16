@@ -17,4 +17,10 @@ I think that I thought that minimal logic did not have $\neg$ or $\bot$ at all; 
 [[Mike Shulman|Mike]]: I've definitely seen "minimal logic" used to mean logic that has $\bot$ and $\neg$ but no rule $\bot\vdash A$.
 
 _Toby_:  Possibly I was just thinking of the wrong thing when I created the links here; it doesn\'t seem so interesting anymore.  (^_^)  Well, no point changing it now.
+
+_Finn_: I too have seen minimal logic presented using $\neg$ and $\bot$.  I don't have my van Heijenoort with me, but I think Hilbert gave a definition of such a system in the early 1920s.  Johansson was the first to call it 'minimal logic', although I can't remember whether he included negation or $\bot$.
+
+I think the two approaches, with and without $\bot$, are equivalent anyway, in the absence of _ex falso quodlibet_, because '$\bot$', if it's included, is just another proposition.  The only reason I would include it is for continuity with presentations of classical or intuitionistic logic.  Then the difference between them seems to be in how they handle $\bot$.
+
+(That said, I would take the sequent-calculus presentations to be canonical, because they make it more obvious that the differences are structural, rather than logical.  But I don't know how to draw inference rules on the wiki.)
 =--
