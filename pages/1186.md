@@ -85,7 +85,7 @@ This is equivalent to all of the following equivalent statements.
 
 
 
-# The (infinity,1)-category of presentable $(\infty,1)$-categories #
+# The $(\infty,1)$-category of presentable $(\infty,1)$-categories #
 
 See
 
@@ -102,6 +102,7 @@ The long list of equivalent statements above is theorem 5.5.1.1., which is origi
 
 The characterization in terms of 
 [[combinatorial simplicial model category|combinatorial simplicial model categories]] is [[Higher Topos Theory|HTT, prop A.3.7.6]].
+
 
 [[!redirects presentable (infinity,1)-categories]]
 [[!redirects presentable (∞,1)-category]]
