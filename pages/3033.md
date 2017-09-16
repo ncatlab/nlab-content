@@ -40,7 +40,7 @@ I enjoy exchanging thoughts on topics of interest for my research and always fel
 
 # beta versions {#betaversions}
 
-Here is where I develop revisions of nLab entries which (from my point of view) deserve consistent revision. As revision is complete I'll post them on the nLab. Everything you find here is work in progress: please, edit it!
+Here is where I develop revisions of nLab entries which (from my point of view) deserve consistent revision. By this I do not mean these entries  are wrong (in any sense you can give to this word); what I mean is that there are a few entries which have been edited severla times and have suffered an excess of stratification (add a line today, add another tomorrow...). So it could be not a bad idea to clean up thema a bit. As revision is complete I'll post them on the nLab. Everything you find here is work in progress: please, edit it!
 
 Currently revising:
 
