@@ -1,0 +1,4 @@
+__Otto Schreier__ (1901-1929) was a German algebraist born in Vienna famous for his work in combinatorial group theory 
+(Nielsen-Schreier method and HNN-extensions). His 1926 article on extensions of groups contains ideas of nonabelian cohomology and pseudofunctors; nowdays this is called the Schreier's theory of (nonabelian) extensions. The work has been completed by Eilenberg and MacLane in a series of 3 papers in late 1940-s. Higher analogues of Schreier's theory were studied by L. Breen. 
+
+See biographical and some mathematical data at <a href="http://www-history.mcs.st-and.ac.uk/history/Biographies/Schreier.html">Otto Schreier</a>.
