@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * have two questions on examples at [[semi-abelian category]]
+
+  * created [[dependent product]] just to satisfy the link from [[universe in a topos]]
+
+  * added a list with a handful of general properties to [[adjoint functor]]
+ 
   * moved the old discussion at [[representable functor]] to the bottom of the page
 
 * [[Zoran Škoda]]: I have made [[D-module]] and [[local system]] somewhat more precise; actually I have put lots of more precise statements; the subtleties on wheather we work over a complex manifold, variety, variety in char zero, or nonsingular variety in char 0, may affect some of the statements. To suplement this I was forced to create a comprehensive entry [[regular differential operator]]. I see that for some reason people continue talking connections and 
