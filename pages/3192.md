@@ -3,6 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Definition
 
 A continuous linear operator $F:B_1\to B_2$ between [[Banach spaces]] is **Fredholm** if it has finite dimensional [[kernel]] and finite dimensional [[cokernel]]. It follows that its image (range) is closed. The difference between the dimensions of the kernel and the cokernel is called the **index** of the Fredholm operator
@@ -10,6 +11,7 @@ A continuous linear operator $F:B_1\to B_2$ between [[Banach spaces]] is **Fredh
 $$
 ind F = dim ker F - dim coker F = dim ker F - codim im F
 $$
+
 
 ## Properties
 
@@ -21,7 +23,8 @@ $$
 
   In other words, given a Fredholm operator $F$, there exists $\epsilon\gt 0$ such that every bounded linear operator $G$ satisfying $\| G-F\|\lt \epsilon$ is Fredholm. Fredholm operators on a fixed separable Hilbert space $H = B_1 = B_2$ form a [[semigroup]] with respect to the composition and the index is a morphism of semigroups: $ind F G = ind F + ind G$. 
 
-* The space $Fred$ of all Fredhol operators is a model for the classiying space of degree-0 [[topological K-theory]].
+* The space $Fred$ of all Fredholm operators is a model for the classiying space of degree-0 [[topological K-theory]].
+
 
 ## Generalizations
 
