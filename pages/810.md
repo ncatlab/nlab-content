@@ -1,4 +1,4 @@
-The cubical singular complex $KX$, or $S^\square X$, of a topological space $X$ has an additional structure of compositions. 
+The [[cubical set|cubical singular complex]] $K X$, or $S^\square X$, of a topological space $X$ has an additional structure of compositions. 
 
 Let $(m) = (m_1, \ldots\, , m_n)$ be an $n$-tuple of positive integers
 and
@@ -92,7 +92,7 @@ $-_j(a+_j b)  = (-_j  b)+_j(-_j a)$  and  $ -_j (-_j a) =a$.
 
 
 
-If further $K$ is a [[cubical set with connections]] then we also require  
+If further $K$ is a cubical set with [[connection on a cubical set|connections]] then we also require  
      
 
 $$    \Gamma^\alpha _i (a+_j b) = \begin{cases}
@@ -147,7 +147,7 @@ Notice also that in the singular cubical complex of a space, the interchange and
 
 
 
-We also get a notion of (strict) [[cubical omega-category]] with connections by assuming that  all compositions $+_i$ give a category structure with source and target maps $\partial^-_i, \partial^+_i:K_n \to K_{n-1}$ and identity maps $\varepsilon_i: K_{n-1} \to K_n$, and also for all $a$ 
+We also get a (strict) notion of [[cubical omega-category]] with connections by assuming that  all compositions $+_i$ give a category structure with source and target maps $\partial^-_i, \partial^+_i:K_n \to K_{n-1}$ and identity maps $\varepsilon_i: K_{n-1} \to K_n$, and also for all $a$ 
 
 $$\Gamma^+_i a \circ_i\Gamma^-_i a = \varepsilon _{i+1} a, \quad
 \Gamma^+_i a \circ_{i+1}\Gamma^-_i a = \varepsilon_{i}a.  $$
