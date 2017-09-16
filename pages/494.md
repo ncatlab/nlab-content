@@ -21,7 +21,7 @@ and
 
 of the pair.
 
-For either $L$ or $R$ given, the corresponding right or left adjoint, respectively is, if it exists, unique up to unique isomorphism.
+For either $L$ or $R$ given, the corresponding right or left adjoint, respectively, is, if it exists, [[generalized the|unique up to unique isomorphism]].
 
 #Definition in terms of representable functors#
 
@@ -49,7 +49,7 @@ $$
   \,.
 $$
 
-Then $L \vdah R$.
+Then $L \vdash R$.
 
 
 #Definition in terms of Hom isomorphism#
