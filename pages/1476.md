@@ -1,6 +1,6 @@
 Centipede mathematics (as defined by [[James Dolan]] and quoted in [TWF 145](http://math.ucr.edu/home/baez/week145.html)) is where you take a mathematical concept and strip away parts of it to see if it can still function. In other words, you see how many legs you can pull off before the centipede can no longer walk.
 
-For example, you can start with the concept of [[abeilan group]] and try removing some things:
+For example, you can start with the concept of [[abelian group]] and try removing some things:
 * remove commutativity to get [[group]]s;
 * then remove inverses to get [[monoid]]s;
 * or remove associativity instead of inverses to get [[loop]]s;
@@ -10,4 +10,4 @@ What still works?  Abelian groups form an [[abelian category]], while groups onl
 
 Centipede mathematics in the context of [[foundations]] is often called __reverse mathematics__.  Here we remove axioms from [[set theory]] (or some other form of foundations) and consider what theorems can still be proved, which can be proved if reformulated into (obviously) classically equivalent forms, and which are lost entirely (ideally provably so).  On the Lab, some of us like to do this for [[constructive mathematics]], but it is also important for [[internalization]].  (Mainstream reverse mathematics has more to do with [[predicative mathematics]] than with either of these.)
 
-Like '[[abstract nonsense]]', the term 'centipede mathematics' can vary from tongue-in-cheek to derogatory.  Certainly there is little value in proving isolated theorems like 'Hemidemisemicontinous functions are Leibniz-integrable.' (both terms here are made up, to avoid insulting the creators of any real-life useless theorems) when one never really needs to integrate such general functions in such a restrictive way.  But sometimes thinking about what is really necessary points the way to really fruitful generalisations; like every judgement in mathematics, good taste is required.
+Like '[[general abstract nonsense]]', the term 'centipede mathematics' can vary from tongue-in-cheek to derogatory.  Certainly there is little value in proving isolated theorems like 'Hemidemisemicontinous functions are Leibniz-integrable.' (both terms here are made up, to avoid insulting the creators of any real-life useless theorems) when one never really needs to integrate such general functions in such a restrictive way.  But sometimes thinking about what is really necessary points the way to really fruitful generalisations; like every judgement in mathematics, good taste is required.
