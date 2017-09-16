@@ -1,8 +1,8 @@
-An $\infty$-groupoid -- equivalently an [[(infinity,0)-category]] is an $\infty$-[[infinity-category|category]] in which all morphisms are [[equivalence|equivalences]].
+An $\infty$-groupoid -- equivalently an [[(∞,0)-category]] is an [[∞-category]] in which all morphisms are [[equivalences]].
 
 #Models#
 
-Familiar models for the catgeory [[Infinity-Grpd]] of _weak_ $\infty$-groupoids are 
+Familiar models for the catgeory [[∞Grpd]] of _weak_ $\infty$-groupoids are 
 
 * [[simplicial set]]s equipped with the standard [[model structure on simplicial sets]];
 
