@@ -31,7 +31,23 @@ I think the picture expresses what I'm trying to do, but maybe I'm converting th
 
 [[Eric]]: The idea is that by requiring every such square to commute, you automatically get $F(g\circ f) = F(g)\circ F(f)$ and $F(Id_x) = Id_{F(x)}$. Or so I think...
 
-[[Eric]]: Not to mention, this _looks_ more like a natural transformation, so a pattern is more apparent.
+[[Eric]]: Not to mention, this _looks_ more like a natural transformation, so a pattern is more apparent. 
+
+[[Todd Trimble|Todd]]: What I was saying is that wherever these $\alpha_x$ are supposed to live, it's can't be in $A \sqcup B$, because in $A \sqcup B$, there simply are no morphisms of that form. 
+
+Your picture suggests that you have in mind some category $C$ into which $A$ and $B$ embed; it can't be $A \sqcup B$ since your $\alpha_x$ simply don't exist there. But it's some $C$ in which such morphisms $\alpha_x$ exist, let's say. Then it looks like your notion of functor involves the following things: 
+
+* Embeddings (full embeddings?) $i_A: A \to C$, $i_B: B \to C$ into some category $C$. 
+
+* A rule which assigns to each object $x$ of $A$ an object $F(x)$ of $B$, and to each morphism $f: x \to y$ of $A$ a morphism $F(f): F(x) \to F(y)$ of $B$. In other words, a map $F: A \to B$ between the underlying directed graphs of $A$ and $B$. 
+
+* A rule which assigns to each object $x$ of $A$ a morphism $\alpha_x: i_A(x) \to i_B(F(x)$, making that square commute. 
+
+Okay, so far these conditions don't ensure functoriality: that $F(g \circ f) = F(g) \circ F(f)$ and $F(1_x) = 1_{F(x)}$. You're going to have to add more conditions to make that inference. For example, suppose $C$ has just one morphism from each object $i_A(a)$ to each object of $i_B(b)$. Then commutativity of those squares is automatic, for any directed graph morphism $F: A \to B$. Insofar as not all graph morphisms are functorial, you can't infer functoriality. 
+
+You could ask that all the $\alpha_x$ be isomorphisms. Then commutativity plus that condition would give functoriality, and your concept amounts to that of ordinary functor $F$ together with an ordinary natural transformation $i_A \to i_B \circ F$. 
+
+But the trouble with all this is that I have no idea what $C$ is supposed to be! It can't be $A \sqcup B$. Would it be something constructed in terms of $A$ and $B$ (and if so, what)? If it's just _any_ old category into which $A$ and $B$ embed and for which such isos $\alpha_x$ exist (and compatible with the $F(f)$ via commutative diagrams), then I have problems with that too. 
 
 ##Discussion##
 
