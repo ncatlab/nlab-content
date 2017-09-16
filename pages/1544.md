@@ -1,3 +1,9 @@
+
+A connection on a [[bundle]] can be introduced in several very different but equivalent formalisms: as a __parallel transport__ functor, as a rule for __[[covariant derivative]]__, as a __distribution (field) of horizontal subspaces__ (see [[Ehresmann connection]]) and via a __connection $1$-form__ which annihilates the distribution of horizontal subspaces. The connection in that sense induces a smooth version of [[Hurewicz connection]]. The usual textbook convention is to say just connection for the distribution of horizontal subspaces, and the objects of the other three approaches one calls more specifically covariant derivative, connection $1$-form and parallel transport.
+
+The following article mostly deals with parallel transport.
+
+
 #Idea#
 
 Given a smooth [[bundle]] $P \to X$, for instance a $G$-[[principal bundle]] or a [[vector bundle]], a _connection_ on $P$ is a prescription to associate with each path
@@ -136,3 +142,5 @@ For more links, more history and further pointers see
 
 * [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]] .
 
+
+[[!redirects parallel transport]]
