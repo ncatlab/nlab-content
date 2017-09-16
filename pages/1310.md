@@ -1,18 +1,16 @@
-
-This entry discusses the conceptual notion of [[representation]]s 
-of [[Lie infinity-algebroid]]s and their realization in terms of
-**modules for [[differential graded algebra]]s**
-and of modules of [[differential graded coalgebra]]s. 
+This entry discusses the conceptual notion of [[representations]] of [[Lie ∞-algebroids]] and their realization in terms of
+**modules for [[differential graded algebras]]**
+and of modules of [[differential graded coalgebras]]. 
 See the remarks at [[rational homotopy theory]] and
 [[Lie theory]] for background on the Lie-theoretic interpretation
 differential graded (co)algebra.
 
 #Idea#
 
-Recall that an [[Lie infinity-algebroid|L-infinity-algebroid]] is both a
+Recall that an [[Lie infinity-algebroid|L-∞-algebroid]] is both a
 [[horizontal categorification]] as well as a 
 [[vertical categorification]] of a Lie algebra: it is
-to Lie algebras as [[Lie infinity-groupoid]]s are to Lie groups.
+to Lie algebras as [[Lie ∞-groupoids]] are to Lie groups.
 
 Accordingly, the notion of _representation of a Lie-$\infty$-algebroid_
 is a horizontal and vertical categorification of the ordinary notion of
@@ -21,7 +19,7 @@ the notion of representation of a Lie group.
 
 In view of this notice that 
 there are essentially two fundamental ways to express the notion of
-[[representation]] of a [[group]] or [[infinity-groupoid]] $Gr$:
+[[representation]] of a [[group]] or [[∞-groupoid]] $Gr$:
 
 1. as a morphism out of $Gr$: the [[action]];
 
@@ -95,9 +93,9 @@ nothing but a $G$-equivariant
 vector bundle over the point, or equivalently a vector bundle on the
 [[orbifold]] $\bullet//G$.
 So from this perspective the notion "[[representation]]" is not a primitive
-notion, but just a particular perspective on [[fibration sequence]]s.
+notion, but just a particular perspective on [[fibration sequences]].
 
-The definition of Lie-infinity algebroid representation below is in this
+The definition of Lie-$\infty$ algebroid representation below is in this
 [[fibration sequence]]/[[fibration]]-theoretic/[[action groupoid]] spirit. 
 The expected alternative definition in terms of
 action morphisms has been considered (and is well known) apparently only
@@ -108,16 +106,16 @@ for special cases.
 #Definition#
 
 
-Recall that we take, by definition, [[Lie infinity-algebroid]]s to be 
+Recall that we take, by definition, [[Lie ∞-algebroids]] to be 
 [[duality|dual]] to non-negatively-graded,  graded-commutative 
-[[differential graded algebra|differential algebra]]s, which are
+[[differential graded algebra|differential algebras]], which are
 free as graded-commutative algebras (qDGCAs): we write
 $CE_A(g)$ for the qDGCA whose underlying graded-commutative algebra
 is the free (over the algebra $A$) graded commutative algebra
 $\wedge^\bullet g^*$ for $g$ a non-postively graded cochain complex of
 $A$-modules and $g^*$ its degree-wise dual over $A$, to remind us
 that this is to be thought of as the Chevalley-Eilenberg algebra
-of the [[Lie infinity-algebroid]] $g$ whose space of objects is characterized
+of the [[Lie ∞-algebroid]] $g$ whose space of objects is characterized
 dually by the algebra $A$.
 
 The category DGCAs is naturally equipped with the 
@@ -172,14 +170,14 @@ a **twisting map** $\rho^* : V \to (\wedge^\bullet V) \wedge (g^*) \wedge (\wedg
 
 which may be thought of as the dual of the representation morphism (see the examples below).
 
-# DG-category of Lie-infinity-algebroid representations #
+# DG-category of Lie-$\infty$-algebroid representations #
 
 In 
 
 * Jonathan Block, _Duality and equivalence of module categories in noncommutative geometry I_
 ([arXiv]())
 
-the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-infinity-algebroid
+the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-$\infty$-algebroid
 $(g,A)$ in the above sense -- called dg-algebra modules there -- is defined.
 
 **Definition**
@@ -233,7 +231,7 @@ The objects of $Rep(T_{hol} X)$ are literally complexes of smooth vector bundles
 
 For $(g,A) = T X$ the tangent Lie algebroid of a smooth manifold $X$, it should be true,
 up to technicalities to be spelled out here eventually, that $Ho Rep(T X)$ is equivelent
-to the derived category of [[D-module]]s on $X$, or the like.
+to the derived category of [[D-modules]] on $X$, or the like.
 
 
 #Coalgebraic formulation #
@@ -246,7 +244,7 @@ to the derived category of [[D-module]]s on $X$, or the like.
 
 * flat connections on bundles
 
-* [[adjoint representation]] of [[L-infinity algebra]]s
+* [[adjoint representation]] of [[L-∞ algebras]]
 
 
 #References#
@@ -261,15 +259,15 @@ in
 
 A blog discussion of this is at
 
-* Urs Schreiber,  [Block on L-infinity Module Categories](http://golem.ph.utexas.edu/category/2008/06/block_on_loo_module_categories.html)
+* Urs Schreiber,  [Block on L-∞ Module Categories](http://golem.ph.utexas.edu/category/2008/06/block_on_loo_module_categories.html)
 
 The same definition, up to inessential technical details, appears also in
 
 * Camilo Arias Abad, Marius Crainic, _Representations up to homotopy of Lie algebroids_ ([arXiv](http://arxiv.org/abs/0901.0319))
 
 
-Some further discussion and examples of Lie-infinity-algebroid representations is at
+Some further discussion and examples of Lie-$\infty$-algebroid representations is at
 
-* Urs Schreiber, [On Lie-infinity theory](http://golem.ph.utexas.edu/category/2008/05/action_lie_infinityalgebroids.html)
+* Urs Schreiber, [On Lie-∞ theory](http://golem.ph.utexas.edu/category/2008/05/action_lie_infinityalgebroids.html)
 
 * Hisham Sati, Urs Schreiber, Jim Stasheff, _Twisted differential String- and Fivebrane structures_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf))
