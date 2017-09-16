@@ -41,6 +41,5 @@ D-modules are closely related to
 
 * The Everything Seminar [D-module Basics I](http://cornellmath.wordpress.com/2007/09/06/d-module-basics-i/), [D-Module Basics II](http://cornellmath.wordpress.com/2007/09/09/d-module-basics-ii/).
 
-[[Note on Formatting|✄]]
 
 [[!redirects D-modules]]
