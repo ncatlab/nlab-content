@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include synthetic differential geometry - contents]]
+</div>
+
+
 This entry is about the book
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _Models for Smooth Infinitesimal Analysis_ Springer (1991)
