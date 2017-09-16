@@ -35,7 +35,7 @@ Recall the classical [[model structure on simplicial sets]]. Let $X$ be a fibran
 Define
 
 
-* the **$0$th simplicial homotopy groupoid** $\Pi_0(X)$ to be the [[discrete category|discrete groupoid]] on the _set_ $(X_0/X_1)$ of connected components of $X$, i.e. on the set oof equivalence classes of 0-cells under [[simplicial homotopy]];
+* the **$0$th simplicial homotopy groupoid** $\Pi_0(X)$ to be the [[discrete category|discrete groupoid]] on the _set_ $(X_0/X_1)$ of connected components of $X$, i.e. on the set of equivalence classes of 0-cells under [[simplicial homotopy]];
 
   * for each vertex, $x \in X_0$, the [[pointed set]] $\pi(X,x)$ to be the set $(X_0/X_1)$ with point the connected component $[x]$ of $x \in X_0$; this is actually a special case of the following definition, until the group structure.
 
