@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-14 #
 
+*  [[Tim Porter|Tim]]: I have had a go at [[homotopy coherent nerve]].  Still more to add though.
+
 * [[Urs Schreiber|Urs]]
 
   * added more details on the sheaf-case to [[point of a topos]] and created [[skyscraper sheaf]]
