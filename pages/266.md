@@ -12,47 +12,46 @@ $$
  }
 $$
 
-is, if it exists, a "best approximation" to extending the domain of $F$ through $p$ from $C$ to $C'$.
-+-- {: .query}
-[[Tim Porter|Tim]]:  Strictly speaking the above idea does not correspond to the first of the definitions below. A particular Kan extension of one functor along another can exist without there being an adjoint to the functor induced by composition with $p$, which would imply that the extension exists for all $F$.
-=--
+is, if it exists, a "best approximation" to 
+the problem of finding a functor $C' \to C$ such that 
+$$
+  \array{
+     C &\stackrel{F}{\to}& D
+     \\
+     \downarrow^p & \nearrow
+     \\
+     C'
+  }
+  \,,
+$$
+i.e. to extending the domain of $F$ through $p$ from $C$ to $C'$.
+
+## Local and global definition ##
+
+As for the definition of [[limit]] (and [[homotopy limit]]) and induced from the _local_ definition of [[adjoint functor]]s, there is a _local_ definition of what Kan extension meas, which applies to every single functor, and there is a _global_ definition, which applies to the category of all functors. If the local Kan extension of every single functor exists for some category, then both definitions coincide. 
+
+In particular, the _global_ definition of Kan extension is a direct generalization of the _global_ definition of [[limit]].
+
+
 
 #Definition#
 
-The following are three equivalent definitions
+We give the following three definitions, which are equivalent in good situations
 
-* Kan extension as the adjoint to pullback of functor categories;
+* local definitions
 
-* Kan extension in terms of a universal natural transformation;
+  * Kan extension in terms of a universal natural transformation;
 
-* Kan extension in terms of weighted (co)limits.
+  * Kan extension in terms of weighted (co)limits.
+
+* global definition
+
+  * Kan extension as the adjoint to pullback of functor categories;
 
 
-## As adjoint to pullback of functor categories ##
 
-The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
-$$
-  p_*: G\mapsto G\circ p  : [C',D] \to [C,D]
-  \,.
-$$
 
-The [[adjoint functor|left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
-$$
-  Lan = Lan_p : [C,D] \to [C',D]
-  \,,
-$$
-and the [[adjoint functor|right adjoint]] is **right Kan extension** along $p$ of functors
-$$
-  Ran = Ran_p: [C,D] \to [C',D]
-  \,.
-$$
-More generally, it is possible that these adjoints do not exist, but may be partially defined. Namely, for some functor $F\in [C,D]$ there exist a functor $Lan_p\,F:C'\to D$, *the left Kan extension of $F$ along $p$*,  and a natural isomorphism 
-$$
-Hom_{[C,D]}(F,p_*(-))\cong Hom_{[C',D]}(Lan\,F,-),
-$$
-i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
-
-## In terms of universal natural transformations ##
+## Local definition: in terms of universal natural transformations ##
 
 [[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
 
@@ -104,13 +103,83 @@ $$
 $$
 It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p_* = K(p,D):K(C',D)\to K(C,D)$. 
 
-## In terms of weighted (co)limits ##
+## Local definition: in terms of weighted (co)limits ##
 
-(...)
+
+Whenever the [[limit]] on the right hand side of the following 
+equivalence exists, the right Kan extension on the 
+left exists and is specified by this expression:
+
+$$
+  (Ran_p F)(c') \simeq \lim_{c' \to p(c) \in (c'/p)}
+  F(c)
+  \,.
+$$
+
+Here 
+$$
+  (c',p)
+  = 
+  \left\{
+    \array{
+      && c'
+      \\
+      & \swarrow && \searrow
+      \\
+      p(c) &&\stackrel{p(f)}{\to} && p(c')
+    }
+  \right\}
+$$ 
+is the [[comma category]].
+
+Similarly if the following [[colimit]] exists, it 
+computes the left Kan extension
+
+$$
+  (Lan_p F)(c') \simeq co\lim_{p(c) \to c' \in (p/c')}
+  F(c)
+  \,.
+$$
+
+It follows in particular that the (right/left) Kan extension exists when $D$ admits [[limit]]s/[[colimit]]s indexed by $C$.
+
+
+These statements have an elegant fomulation in terms of [[end]]s and [[coend]]s (...)
+
+
+## Global definition: adjoint to pullback of functor categories ##
+
+The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
+$$
+  p_*: G\mapsto G\circ p  : [C',D] \to [C,D]
+  \,.
+$$
+
+The [[adjoint functor|left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
+$$
+  Lan = Lan_p : [C,D] \to [C',D]
+  \,,
+$$
+and the [[adjoint functor|right adjoint]] is **right Kan extension** along $p$ of functors
+$$
+  Ran = Ran_p: [C,D] \to [C',D]
+  \,.
+$$
+
+
+As discussed at [[adjoint functor]], it is possible that these adjoints do not exist, but may still be partially defined. Namely, for some functor $F\in [C,D]$ there exist a functor $Lan_p\,F:C'\to D$, *the left Kan extension of $F$ along $p$*,  and a natural isomorphism 
+$$
+Hom_{[C,D]}(F,p_*(-))\cong Hom_{[C',D]}(Lan\,F,-),
+$$
+i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
+
+
 
 # Definition in $(\infty,1)$-categories #
 
-See [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215) of [[Higher Topos Theory]].
+The global definition of Kan extensions for
+$(\infty,1)$-functors is discussed in
+[section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215) of Lurie's [[Higher Topos Theory]].
 
 
 #Examples#
@@ -118,6 +187,47 @@ See [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#
 * For $C' = $ the [[point]], the right Kan extension of $F$ is the [[limit]] of $F$, $Ran F \simeq \lim F$ and the left Kan extension is the [[colimit]] $Lan F \simeq colim F$.
 
 
+#Remark on terminology: pushforward vs. pullback#
+
+Generally, for $p : C \to C'$ a [[functor]], the induced functor on [[functor category|functor categories]]
+$$
+  [C', D] \stackrel{- \circ p}{\to}
+  [C,D]
+$$
+
+_pulls back_ a functor on $C'$ to a functor on $C$, as this goes in the direction opposite to that of $p$ itself.
+
+In that sense one would denote this functor by $p^*$ and call the (left or right) Kan exension along $p$, which goes the other way, the _push forward_ of functors from $C$ to functors on $C'$.
+
+On the other hand, a crucial application of Kan extensions is to [[presheaf]] categories, i.e. to situations where $C = S^{op}$ and $S' = C'^{op}$ with $S$ and $S'$ both being [[site]]s.
+
+In these cases the [[site]] may be thought of as representing a topological space. In particular $S$ may be the [[poset]] $Op(X)$ of open subsets of a topological space $X$ and simlarly for $S'$. In that case morphisms of sites
+
+$$
+  O(X)^{op} \to O(X')^{op}
+$$ 
+come from morphisms of topological spaces going the other way
+$$
+  X \leftarrow X' : f
+  \,,
+$$
+because a continuous maps $f : X' \to X$ of topological spaces induces a pullback 
+$$
+  f^{-1} : O(X)^{op} \to O(X')^{op}
+$$
+$$
+  U \mapsto f^{-1}(U)
+$$
+of open subsets. This means that when a functor $O(X)^{op} \to Set$ is thought of as a presheaf on a site, then what looks like a pullback of functors along $p = f^{-1}$ corresponds geometrically to a _push-forward_ of pre-sheaves. Therefor in [[presheaf]] literature (such as [[Categories and Sheaves]])  the functor induced by $p$ is usually denoted $p_*$ and not $p^*$.
+
+It is however noteworthy that also the opposite perspective does occur in geometrically motivated examples. For instance 
+
+* if $C$ is the [[discrete category]] on smooth space and $D = U(1)$ is the discrete category on the smooth space $X$ underlying the Lie group $U(1)$, then smooth functors (i.e. functors [[internal category|internal to]] [[generalized smooth spaces|smooth spaces]]) $F : C \to D$ can be identified with smooth $U(1)$-valued functions on $X$, and the functor on these functor categories induced by a smooth functor $p : C \to C'$ does correspond to the familiar notion of _pullback_ of functions;
+
+* and similar in higher degrees: if $C = P_1(X)$ is the smooth path groupoid of a smooth space and $D = \mathbf{B} U(1)$ the smooth [[group]] $U(1)$ regarded as a one-object [[Lie groupoid]], then smooth functors $C \to D$ correspond to smooth 1-forms $\in \Omega^1(X)$ on $X$, and precomposition with a smooth functor $p : P_1(X) \to P_1(X')$ corresponds to the familiar notion of _pullback_ of 
+1-forms.
+
+This means that wether or not Kan extension corresponds geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
 
 
 #References#
@@ -139,6 +249,6 @@ chapter 4 of
  Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in:
 Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
-The $(\infty,1)$-categorical discussion is in 
+The $(\infty,1)$-categorical discussion is in section 4.3 
 
 * J. Lurie, [[Higher Topos Theory]]
