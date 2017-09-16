@@ -12,7 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-07-06
+
+*  [[Toby Bartels]]:  A question at [[cogroup]] about what we really want there.  (Surely more than just the empty set?)
 
 * [[Urs Schreiber|Urs]] 
 
@@ -37,6 +40,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * created [[groupoid object in an (infinity,1)-category]]
 
     * added a discussion of this at [[delooping]], a brief reference to it at [[quotient object]] and a link to it in the fourth $\inft$-Giraud-axiom at [[(infinity,1)-topos]]
+
 
 ## 2009-07-05
 
