@@ -10,6 +10,14 @@ There are various generalizations of this result from the [[Top]] to more genera
 The [[Eilenberg-Steenrod axioms]] were written down in an effort to axiomatize the notion of [[cohomology]] on [[topological space]]s by extrapolating crucial properties of ordinary [[integral cohomology]].
 The classical Brown representability theorem and its generalizations show that these complicated axioms have a very simple repackaging. The theorem is one of the crucial ingredients that motivate the _definition_ of cohomology in terms of maps into certain coefficient objects. This general notion of cohomology is described at [[cohomology]].
 
+#Classical Brown representability#
+
+Axiom of sum: For any family $\{X_\alpha\}_{\alpha\in A}$ of pointed CW-complexes the morphism $(i_\beta)_*:F(\vee_\alpha X_\alpha)\to \prod_\alpha F(X_\alpha)$ induced by the inclusion $i_\beta:X_\beta\to \vee_\alpha X_\alpha$ is a bijection.
+
+Mayer-Vietoris axiom: For every triad $(X; A_1, A_2)$ of CW-spaces (with $A_1\cup A_2 = X$) and any elements $x_1\in F(A_1)$, $x_2\in F(A_2)$, such that $x_1|A_1\cap A_2 = x_2|A_1\cap A_2$ there is $y\in F(X)$ such that $y|A_1 = x_1$ and $y|A_2 = x_2$. 
+
+Brown representability theorem: A contravariant functor $F:CW^{op}_*\to Set_*$ from pointed CW-complexes to pointed sets which satisfies the axiom of sum and axiom of Mayer-Vietoris is representable. In other words, there is a pointed CW-complex $(Y,y_0)$ and a universal element $u\in F(Y,y_0)$ such that $T_u:[-;Y,y_0]\to F$ is a natural equivalence. 
+
 #Details#
 
 ## version for ordinary (model) categories ##
