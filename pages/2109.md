@@ -132,7 +132,7 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 
 A blog post surveying ideas in equipments is
 
-* [[Mike Shulman]], _Equipments_ ([blog](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029531))
+* [[Mike Shulman]], _Equipments_ ([blog](http://golem.ph.utexas.edu/category/2009/11/equipments.html))
 
 
 [[!redirects equipments]]
