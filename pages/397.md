@@ -42,6 +42,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Jon Awbrey]]
 * [[Jonas Frey]]
 * [[Josep Elgueta]]
+* [[Kareem|Kareem Carr]]
 * [[Kevin Lin]]
 * [[Konrad Waldorf]]
 * [[lieven lebruyn|Lieven Le Bruyn]]
