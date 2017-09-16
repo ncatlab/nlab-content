@@ -108,3 +108,4 @@ _Toby_:  You don\'t need 'smallest' here; adding to $G$ will either add objects 
 
 [[!redirects digraph]]
 [[!redirects directed graphs]]
+[[!redirects directed pseudograph]]
