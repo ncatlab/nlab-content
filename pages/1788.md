@@ -46,38 +46,27 @@ Can I use them in math and \text frames?
 
 ***
 
-Cactus Graphs Local, Other Images Remote ---
-
 <table align="center" border="1" cellpadding="8" cellspacing="0" markdown="1" style="text-align:center; width:90%">
+
 <caption><font size="+2">$\text{Table 1.  Syntax and Semantics of a Calculus for Propositional Logic}$</font></caption>
 
 <tr style="background:#f0f0ff">
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/c/f/8/cf8355a1bf9b6821ed2c15658060d349.png" alt="\text{Graph}\!" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/0/2/b/02ba04972afebb8d123c4e920909b8fb.png" alt="\text{Expression}\!" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/a/8/6/a8654d8844fc34a58809af813c22919a.png" alt="\text{Interpretation}\!" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/5/3/f/53f0ee60a3ccd002629b474070df9e53.png" alt="\text{Other Notations}\!" /></td></tr>
+<td><font size="+2">$\text{Graph}$</font></td>
+<td><font size="+2">$\text{Expression}$</font></td>
+<td><font size="+2">$\text{Interpretation}$</font></td>
+<td><font size="+2">$\text{Other Notations}$</font></td></tr>
 
 <tr>
 <td height="100px"><img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/4/c/7/4c761f170e016836ff84498202b99827.png" alt="~" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/a/9/8/a98f0f208c522b8d25f88110dfa5be3a.png" alt="\operatorname{true}" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/3/3/f/33f7ec109298779a887aff2887ff9c7c.png" alt="1\!" /></td></tr>
+<td>&nbsp;</td>
+<td><font size="+1">$\mathop{true}$</font></td>
+<td><font size="+1">$1$</font></td></tr>
 
 <tr>
 <td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/3/7/f/37f1dfde729312575b502e8b80c4f1b1.png" alt="\texttt{(~)}" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/8/5/5/855c491bdfa6847adb8adea57c8a78f4.png" alt="\operatorname{false}" /></td>
-
-<td><img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" /></td></tr></table>
+<td><font size="+1">$\text{&#x2997;&nbsp;&#x2998;}$</font></td>
+<td><font size="+1">$\mathop{false}$</font></td>
+<td><font size="+1">$0$</font></td></tr></table>
 
 ***
 
