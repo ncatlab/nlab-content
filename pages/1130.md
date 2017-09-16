@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include differential graded objects - contents]]
+</div>
 
 
 ##Differential graded coalgebras
