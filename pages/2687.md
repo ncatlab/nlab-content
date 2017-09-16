@@ -37,6 +37,8 @@
 
 * [[proper model category]]
 
+* [[stable model category]]
+
 ## presentation of $(\infty,1)$-categories ##
 
 * [[(∞,1)-category]]
