@@ -52,17 +52,10 @@ Examples of such constructions exist, but are rarely thought of (or even recogni
 ###Examples###
 
 *  classes of special cases of homotopies with their own entries include (create page if you think it might work)
-
-  * group homotopy
-
-  * [[generalized (Eilenberg-Steenrod) homotopy]]
-
-  * abelian cosheaf homotopy
-
-  * nonabelian homotopy
-
-  * [[Cech homotopy]]
-
-  * differential homotopy
-
-  * twisted homotopy
+   * group homotopy
+   * [[generalized (Eilenberg-Steenrod) homotopy]]
+   * abelian cosheaf homotopy
+   * nonabelian homotopy
+   * [[Cech homotopy]]
+   * differential homotopy
+   * twisted homotopy
