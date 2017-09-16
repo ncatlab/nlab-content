@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added a few more details to [[generalized smooth algebra]] -- and have a question on that on the blog [here](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023762)
+
   * added a few bits and pieces to [[derived stack]], [[ind-object in an (infinity,1)-category]], [[perfect infinity-stack]]
 
 * [[David Corfield|David]]
