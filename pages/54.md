@@ -4,13 +4,7 @@
 
 * [public website](http://www.math.uni-hamburg.de/home/schreiber/)
 
-* [private $n$Lab area](http://ncatlab.org/schreiber/show/HomePage)
-
-+--{.query}
-
-If you find the private web password protected but desire access, send me an email.
-
-=--
+* [personal $n$Lab area](http://ncatlab.org/schreiber/show/HomePage)
 
 category: people
 
