@@ -24,7 +24,7 @@ The dual concept is that of a [[regular epimorphism]].
 
 * Similarly, in [[Ab]], and more generally any [[abelian category]], every monomorphism is regular.
 
-* In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular, though this is more difficult to prove than in the preceding cases.  (See exercise 7H of Adamek, Herrlich, Strecker, _Abstract and Concrete Categories_.)
+* In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular, though this is more difficult to prove than in the preceding cases.  (See exercise 7H of Adamek, Herrlich, Strecker, _Abstract and Concrete Categories_.)  In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
 
 * In [[Top]], the monics are the injective functions, while the regular monos are the embeddings (that is, the injective functions whose sources have the [[weak topology|topologies induced]] from their targets); these are in fact all of the [[extremal monomorphism]]s.
 
