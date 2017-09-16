@@ -18,7 +18,7 @@ So at least for the case of chain complexes of abelian groups we have the slogan
 
 =--
 
-Of course historically the development of concepts was precisely the oppposite: chain homology is an old fundamental concept in [[homological algebra]] that is simpler to deal with than [[simplicial homotopy group]]. The computational simplification for chain complexes is what makes the [[Dold-Kan correspondence]] useful after all.
+Of course historically the development of concepts was precisely the oppposite: chain homology is an old fundamental concept in [[homological algebra]] that is simpler to deal with than [[simplicial homotopy groups]]. The computational simplification for chain complexes is what makes the [[Dold-Kan correspondence]] useful after all.
 
 But conceptually it is useful to understand homology as a special kind of [[homotopy]]. This is maybe most vivid in the [[duality|dual]] picture: [[cohomology]] derives its name from that fact that [[chain homology and cohomology]] are dual concepts. But later generalizations of [[cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] and further to [[nonabelian cohomology]] showed that the restricted notion of homology is an insufficient dual model for cohomology: what cohomology is really dual to is the more general concept of [[homotopy]].  More on this is at [[cohomotopy]] and [[Eckmann-Hilton duality]].
 
