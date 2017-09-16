@@ -9,4 +9,4 @@ There is a sequence of extra [[stuff, structure, property|structure and property
   an [[additive category]] that admits [[kernel]]s and  [[cokernel]]s (equivalently, a pre-additive category with all finite limits and colimits);
 
 1. **[[abelian category]]**:
-  a [[pre-abelian category]] such that every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]].
+  a [[pre-abelian category]] such that every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]] (and many other equivalent definitions).
