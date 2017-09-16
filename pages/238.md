@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-05
+
+* [[Andrew Stacey]]:
+
+  * Continued debate on what to call "[[generalized object|generalised object]]" since there seem to be some generalised objections (sorry).
+
 # 2009-03-03
 
 * [[Andrew Stacey]]:
