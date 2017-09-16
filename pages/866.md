@@ -26,7 +26,7 @@ If $A$ and $B$ are each sets equipped with a relation, then what makes a [[funct
 
 There are really two ways to do this, shown below.  (We will write these as if each set is equipped with a binary relation $\sim$, but any fixed arity would work.)
 *  $f$ __preserves__ the relation if $x \sim y \;\Rightarrow\; f(x) \sim f(y)$ always;
-*  *f* __reflects__ the relatin if $x \sim y \;\Leftarrow\; f(x) \sim f(y)$ always.
+*  *f* __reflects__ the relation if $x \sim y \;\Leftarrow\; f(x) \sim f(y)$ always.
 
 Now, if $f$ is a [[bijection]], then it preserves the relation if and only if its inverse reflects it, so clearly an [[isomorphism]] of relation-equipped sets should do both.  What about a mere morphism?
 
