@@ -326,11 +326,11 @@ $$c = \int_{a \in A} c(a) \; \times \; hom(-, a)$$
 
 maps to
 
-$$G(x) = \int_{a \in A} \left(\int_{b \in B} G(a)(b) \; \times \; hom(a, b) \right) \; \times \; c(a) \; \times \; hom(-, a)$$
+$$G(c) = \int_{a \in A} \left(\int_{b \in B} G(a)(b) \; \times \; hom(a, b) \right) \; \times \; c(a) \; \times \; hom(-, a)$$
 
 which simplifies to
 
-$$G(x) = \int_{b \in B} \int_{a \in A} G(a)(b) \; \times \; c(a) \; \times \; hom(-, b)$$
+$$G(c) = \int_{b \in B} \int_{a \in A} G(a)(b) \; \times \; c(a) \; \times \; hom(-, b)$$
 
 by taking $a$ as the midpoint between $-$ and $b$.  So $G$ is completely determined (up to isomorphism) by its values on the embedding of $A$.
 
@@ -365,7 +365,7 @@ $$ x = \int_{a \in A} x(a) \;\times\; hom(-, a) $$
 with some "coefficients" $x(a).$  So, $\widehat{F}$ is determined by the fact that it preserves colimits and acts like $F$ on guys in $hom(-, A)$:
 
 $$\widehat{F}(x) = \widehat{F} (\int_{a \in A} x(a) \;\times\; hom(-, a)) =
-\int x(a) \;\times\; \widehat{F}(hom(-, a)) = \int_{a \in A} x(a) \;\times\; F(hom(-, a))  $$
+\int_{a \in A} x(a) \;\times\; \widehat{F}(hom(-, a)) = \int_{a \in A} x(a) \;\times\; F(hom(-, a))  $$
 
 Lo and behold --- now we have a _formula_ for $\widehat{F}$.  So, we just need to check some stuff.  Check that $\widehat{F}$ is well-defined.  Check that it preserves colimits.  Check that it makes the diagram commute up to natural isomorphism.  Check that it's unique up to natural isomorphism.  All this is follow-your-nose stuff."
 
