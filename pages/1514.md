@@ -4,7 +4,7 @@
 
 #Path integral in quantum mechanics#
 
-A simple form of the path integral is realized in [[quantum mechanics]], where it was originally dreamed up by [[Richard Feynman]] and then made precise using the [[Feynman-Kac formula]].
+A simple form of the path integral is realized in [[quantum mechanics]], where it was originally dreamed up by [[Richard Feynman]] and then made precise using the [[Feynman-Kac formula]].  Most calculations in practice are still done using [[perturbation theory]].
 
 The [[Schrodinger equation|Schrödinger equation]] says that the rate at which the phase of an energy eigenvector rotates is proportional to its energy:
 \[ i \hbar \frac{d}{dt} \psi = H \psi. \]
