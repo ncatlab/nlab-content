@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-15 #
 
+* [[Urs Schreiber]]:
+
+  * added a bit more to [[string structure]] (discussion of description in terms of class on total space, also some references, but very incomplete) - but still not done
+
+  * split off remaining Friday session [[Oberwolfach Workshop, June 2009 -- Friday, June 12]] for [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] following [[Toby Bartels|Toby]]
+
 *  [[Todd Trimble]] created [[connected space]].
 
 *  [[Toby Bartels]]:  [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] was getting too long for me to handle, so I removed the duplication of abstracts and broke the rest up by day.
