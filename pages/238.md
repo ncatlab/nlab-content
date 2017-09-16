@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[Quantization as a Kan Extension]]
+
   * created [[plus construction]] -- the material that should go there is currently at [[sheaf]]; should be extracted from there eventually
 
   * added a link to the great Catsters video material to [[limits and colimits by example]] and created [[The Catsters]] and [[Eugenia Cheng]]
