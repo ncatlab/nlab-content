@@ -5,6 +5,7 @@
 * [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]]
 * [[fibre bundle]], [[principal bundle]]
 * [[connection]] (and links therein)
+* [[Morse function]], [[Morse lemma]]
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
 * [[derived algebraic geometry]], [[derived smooth manifold]]
 * [[noncommutative geometry]]
@@ -22,8 +23,8 @@
 * [[flag variety]], [[geometric quantization]], [[coherent state]], [[orbit]], [[coadjoint orbit]]
 * [[Lie group]], [[Lie groupoid]], [[Lie algebroid]], [[Courant algebroid]]
 * [[Lie theory]], [[Lie's three theorems]], [[Erlangen program]]
-* [[ringed space]], [[ringed site]]
-* [[synthetic differential geometry]], [[infinitesimal object]] 
+* [[ringed space]], [[ringed site]], [[ringed topos]], [[lined topos]]
+* [[synthetic differential geometry]], [[infinitesimal object]], [[smooth topos]], [[Kock-Lawvere axiom]]
  
   * book entry [[Models for Smooth Infinitesimal Analysis]]
 * [[generalized smooth space]]: 
