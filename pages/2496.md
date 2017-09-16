@@ -623,6 +623,8 @@ There are $2^{16} = 65536$ measures of the form $m : (\mathbb{B}^2 \to \mathbb{B
 
 # Umpire operators #
 
+We now examine measures at the high end of the standard ordering.  Instrumental to this purpose we define a couple of higher order operators, $\Upsilon_1 : (\langle u, v \rangle \to \mathbb{B}) \to \mathbb{B}$ and $\Upsilon : (\langle u, v \rangle \to \mathbb{B})^2 \to \mathbb{B}$, both symbolized by cursive upsilon characters and referred to as the absolute and relative _umpire operators_, respectively.  If either one of these operators is defined in terms of more primitive notions then the remaining operator can be defined in terms of the one first established.
+
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # Functional conception of quantification theory #
