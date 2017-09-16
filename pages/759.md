@@ -4,7 +4,7 @@ A **retraction** of a [[morphism]] $f : A \to B$ is a one-sided inverse: a [[mor
 $$
   A \stackrel{f}{\to} B \stackrel{\rho}{\to} A
 $$
-is the [[identity]] on $A$.
+equals the [[identity morphism]] on $A$.
 
 In this case, $f$ may also be called a [[section]] of $\rho$, $A$ may be called a [[retract]] of $B$, and the entire situation is said to split the [[idempotent]]
 $$
