@@ -120,3 +120,5 @@ some related blog discussion is at
 
 
 [[!redirects Atiyah Lie-groupoid]]
+[[!redirects Atiyah Lie-algebroid]]
+[[!redirects Atiyah Lie algebroid]]
