@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-08
 
+* [[Urs Schreiber|Urs]]:
+
+  attempted a (long-winded) reply to [[David Corfield|David]]s question "What does it mean" at [[Coyoneda lemma]] (and would anyone mind if we renamed that to [[coYoneda lemma]]?)
+
 * [[Mike Shulman|Mike]]: 
 
   * Following Toby's suggestion, moved [[subsequential space]] to [[sequential convergence space]].  Split [[convergence space]] and [[Cauchy space]] off from [[filter]], and added some stuff about pseudotopological spaces to [[convergence space]].
