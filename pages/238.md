@@ -13,6 +13,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
+* [[Tim Porter|Tim]]:
+
+  * I created the next entry in the rational homotopy lexicon series with the ungainly title [[differential graded algebras and differential graded Lie algebras-relationships]]. 
+
+  * I added another viewpoint to [[rational homotopy theory]] which is more in keeping with Quillen's 1969 paper.
+
+
 * [[Urs Schreiber|Urs]]:
 
   * created [[GUT]] and [[induced representation]] as places for collection of material currently discussed on the blog
