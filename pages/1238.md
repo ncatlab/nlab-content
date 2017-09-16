@@ -165,3 +165,10 @@ Proposition
 $L_*$ is an isomorphism between $DGLA_{fq}$ and $f-CDGA$_0$.
 
 (WORK IN PROGRESS!)
+
+
++-- {: .query}
+
+ [[Urs Schreiber|Urs]]: eventually it would be nice if we could put these very detailed discussions in context with existing entries such as [[L-infinity-algebra]] and [[NQ-supermanifold]] which do mention closely related things. Or, in as far as these existing entries are to be regarded as not so good in the light of the present discussiion, we should point out what's amiss and eventually improve things.
+
+=--
