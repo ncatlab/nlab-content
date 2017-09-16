@@ -51,3 +51,7 @@ Fancier versions of this basic recursive construction may involve "colored trees
 In fact, this type of recursivity is at the root (pun perhaps intended) of the [[cumulative hierarchy]] conception of sets in a traditional set theory like [[ZFC set theory]]: all sets are collections of sets $\{x_1, \ldots, x_n\}$, and all sets are formed in this way. In order to found this conception on trees in a coherent way, one needs the axiom of foundation, which corresponds to well-founded trees. A tree (pictured as a free category on a digraph, i.e., as a certain poset $P$) is **well-founded** if every object of $P^{op}$ is bounded above by a maximal element, or equivalently if there are no infinite chains $x_0 \lt x_1 \lt \ldots$ in $P^{op}$ starting from the root $x_0$. (Chains starting from the root are also called **branches**.) 
 
 [To be continued...]
+
++-- {: .query}
+Very nice! Is there a similar story worth telling for possibly infinite trees, corecursion, etc. 
+=--
