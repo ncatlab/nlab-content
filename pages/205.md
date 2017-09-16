@@ -1,3 +1,2 @@
-See [[Alg]].
-
-category: redirect
+&lt; [[Algebras]]
+[[!redirects Algebras -- history]]
