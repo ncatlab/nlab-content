@@ -33,9 +33,9 @@ A useful survey with more pointers to the literature is
 
 Another useful survey is
 
-* D. Leites, _Lie superalgebras_ , J. Soviet Math. 30 (1985), 2481-2512 [web](http://dx.doi.org/10.1007/BF02249121)
+* D. Leites, _Lie superalgebras_, J. Soviet Math. 30 (1985), 2481--2512 ([web](http://dx.doi.org/10.1007/BF02249121))
 
-* M. Scheunert, _The theory of Lie superalgebras. An introduction_ , Lect. Notes Math. 716 (1979) 
+* M. Scheunert, _The theory of Lie superalgebras. An introduction_, Lect. Notes Math. 716 (1979) 
 
 
 
