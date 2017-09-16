@@ -86,7 +86,7 @@ If any experts happen to wonder by, Daniel would appreciate any clarification on
    [[Urs Schreiber|Urs]]: I am not sure that I understand
    what this means
 
-   Forget about that. The fact that Kan extension filters all natural transofrmations of a given kind, means that a matrix is invertible. The unitarity is ad hock, but it seems that operations involving the proof of unitarity, involving Kan exenting, will involve speaking about the filtering of natural transformations.
+   _Daniel_:Forget about that. The fact that Kan extension filters all natural transofrmations of a given kind, means that a matrix is invertible. The unitarity is ad hock, but it seems that operations involving the proof of unitarity, involving Kan exenting, will involve speaking about the filtering of natural transformations.
 
   =--
 
