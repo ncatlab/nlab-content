@@ -491,3 +491,4 @@ $$
 
 But this is manifestly the right (being both: from the right and correct :-) [[action]] $\rho : P \times G \to G$ of $G$ on $P$.
 
+[[!redirects principal bundles]]
