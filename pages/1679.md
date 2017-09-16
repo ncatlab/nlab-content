@@ -99,6 +99,21 @@ _Finn_: Probably tiros like me shouldn't have a say in this sort of thing, but I
 
 _Todd_: I'm not crazy about it either, but I agree it's a small price. I'll note (in case it helps) that in the general theory of Crans-Gray tensor products, both variations in $n$ and $k$ come up, about equally often (e.g., the tensor of a 1-category and an $n$-category is an $(n+1)$-category). 
 
+[[Urs Schreiber|Urs]]: yes, so to summarize what I think the main points are
+
+* there is a systematic notion of "transformation of depth k between n-functors" for [[geometric definition of higher category]] in terms of simplicial sets;
+
+* the corresponding notion in the (strict) globular context is formalized by Crans' construction;
+
+* unwrapping what this says, it yields in particular that a transformation of depth $k$ between strict globular $n$-categories $X$ and $Y$ is an $(n-k)$-functor from the truncation $X{\leq k}$ of $X$ to an $(n-k)$-category (throwing all higher cells away) to the $(n-k)$-category of $k$-globes in $Y$ (also truncated)
+$$
+  \eta : X_{\leq k} \to [G^k, Y]|_{\leq k}
+$$
+satisfying certain naturality conditions (which ensure precisely that $\eta$ extends uniquely to an $n$-functor
+$
+  \eta : X \to [G^k,Y]
+$). 
+
 =--
 
 
