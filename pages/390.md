@@ -12,7 +12,7 @@ An **orthogonal factorization system** can be defined as a [[weak factorization 
 * $M$ is precisely the class of morphisms that are right [[orthogonality|orthogonal]] to every morphism in $E$.
 
 OFS's are traditionally called just **factorization systems**.
-See the [[joyalscatlab:Factorization systems|CatLab]] for the theory. 
+See the [[joyalscatlab:Factorization systems|Catlab]] for the theory. 
 An orthogonal factorization system is called **proper** if every morphism in $E$ is an [[epimorphism]] and every morphism in $M$ is a [[monomorphism]].
 
 
@@ -44,4 +44,4 @@ Several classical examples of OFS $(E,M)$:
 * if $F\to C$ is a [[fibered category]] in the sense of Grothendieck, then $F$ admits a factorization system $(E,M)$ where $E$ = arrows whose projection to $C$ is invertible, $M$ = cartesian arrows in $F$
 
 
-* See the [[joyalscatlab:Factorization systems|CatLab]] for more examples. 
+* See the [[joyalscatlab:Factorization systems|Catlab]] for more examples. 
