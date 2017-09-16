@@ -25,9 +25,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Zoran Škoda|Zoran]]: Created [[Loday-Pirashvili category]], [[dense functor]] and [[equivariant object]]. There are two different notions of dense subcategory, first of which has two different definitions and is related to colimits and nerve functor, and second which is related to pro-objects. In the entry [[Bousfield localization]] I added a paragraph on Bousfield localization for triangulated categories; made changes to [[nerve]] (more to be done: one needs to clarify the example of geometric realization etc.). 
 
 * [[Tim Porter|Tim]]: 
-  * I have put a request on [[Loday-Pirashvili category]] for some discussion of the links between the ideas here and those in [[2-vector-space]], as there is overlap.
+  * I have put a request on [[Loday-Pirashvili category]] for some discussion of the links between the ideas here and those in [[2-vector space]], as there is overlap.
   * I have started a discussion on the exposition of [[dg-algebra]]. My preferred approach is via graded object,  differential algebra and  chain complex. The present approach I find a bit confusing.
-  * In [[profinite completion]], I have pointed out a difference in the use of the term [[profinite group]], that may need discussion.
+  * In [[profinite completion of a group]], I have pointed out a difference in the use of the term [[profinite group]], that may need discussion.
 
 # 2009-03-15
 
