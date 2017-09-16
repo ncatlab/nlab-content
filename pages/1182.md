@@ -846,7 +846,16 @@ and in particular David Ben-Zvi's comments to that.
 
 #### constructions of perfect stacks ####
 
-### tensor products and integral transforms ###
+### 4. Tensor products and integral transforms ###
+
+Classical algebra is all about constructions in the category {\bf Ab} of abelian groups. A ring $R$ in the usual sense is
+an object $R \in {\bf Ab}$ together with multiplication and unit morphisms $m: R \otimes R \rightarrow R$ and $\eta: \mathbb{Z} \rightarrow R$ so that we have commutativity of appropriate diagrams expressing associativity and unity. Likewise, a right module $M$ over $R$ in the usual sense is an object $M \in {\bf Ab}$ together with an action morphism $a: M \otimes R \rightarrow M$ such that appropriate diagrams commute, and similarly for left modules.
+
+Brave new algebra is about constructions in the $\infty$-category of spectra $S_{\infty}$ of spectra, which, like {\bf Ab}, is closed symmetric monoidal (under smash product) and (co)complete. This means that we can consider algebra objects $R$ and commutative algebra objects $A$ in $S_{\infty}$, as well as modules over them.
+Even more generally, one can develop a sort-of fearless new algebra in which we consider some closed symemtric monoidal and (co)complete $\infty$-category $C$ and algebras
+and commutative algebras in it. 
+
+
 
 #### tensor products of $\infty$-categories ####
 
