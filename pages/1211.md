@@ -45,6 +45,8 @@ Strongly extensional quotients are even easier to construct.  It is easy to see 
 [[Mike Shulman|Mike]]: I don't think this is the right notion of morphism.  It's not really clear to me that there is a notion that deserves to be called a "morphism of extensional relations," but if I had to pick one it would be a simulation (see my comment at [[well-founded relation]]).  For instance, strong extensionality for $S$ is equivalent to saying that any two simulations $T \;\rightrightarrows\; S$ are equal, and also to saying that any simulation $S\to T$ is an injection.
 
 _Toby_:  I think that we can just say that my definitions (both of 'extensional' in the general context and of 'morphism' here) are simply wrong.  Unless you think that they have pedagogical value, we can even delete them.
+
+[[Mike Shulman|Mike]]: Okay, I think your definition of morphism can be deleted.  But I think there is some pedagogical value in the discussion of Finsler-extensionality, since it is an easy notion to come up with (as you did) and it's not necessarily obvious why (or even that) it might need to be replaced with the more complicated notion using bisimulations.  But maybe it should be demoted to a pedagogical discussion rather than an candidate definition?  I'll leave that decision up to you.
 =--
 
 Let $S$ and $T$ be sets, each equipped with an extensional relation $\prec$.  Then a [[function]] $f: S \to T$ is a __morphism__ of sets so equipped if it always induces [[isomorphism]]s (of sets equipped with an arbitrary binary [[relation]] on each) from $S_x$ to $S_{f(x)}$.
