@@ -9,7 +9,7 @@
 
 ## Definition
 
-A _differentiable stack_ is a [[stack]] on the [[site]] [[Diff]] of manifolds which is [[presented stack|presented]] by a [[Lie groupoid]].
+A _differentiable stack_ is a [[geometric stack]] on the [[site]] [[Diff]] of manifolds: a stack which is represented by a [[Lie groupoid]].
 
 ##Remarks##
 
