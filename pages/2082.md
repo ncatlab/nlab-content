@@ -39,3 +39,6 @@ Springer 1995.
 * V. Chari, A. Pressley, _A guide to quantum groups_, Camb. Univ. Press 1994 
 
 * C. Kassel, _Quantum groups_
+
+
+[[!redirects quantum groups]]
