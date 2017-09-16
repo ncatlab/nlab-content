@@ -11,22 +11,22 @@ $$X\stackrel{f}{\to} Y$$
 in $C$, we have the obvious morphism
 
 
-$$(x\in X)\stackrel{f}{\to} (y\in Y)$$
+$$(x\in X)\stackrel{f_x}{\to} (y\in Y)$$
 
 
 in $Explode(C)$.
 
 ##Example: Action Groupoid##
 
-Given a vector space $V$, a group $G$, and a representation $\rho$, define a category
+Given a vector space $V$, a group $G$, and a [[representation]] 
+
+$$\rho:\mathbf{BG}\to Vect,$$
+
+denote the image of $\rho$ by
 
 $$V\nearrow G.$$
 
-There is one object $V$ in $V\nearrow G$ and one morphism 
-
-$$g:V\to V$$ 
-
-for each element in $G$. This has a nice pictorial depiction via
+This has a nice pictorial depiction via
 
 $$V\bullet\righttoleftarrow G.$$
 
