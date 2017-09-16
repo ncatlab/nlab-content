@@ -25,7 +25,7 @@ Several different realizations of this hypothetical cohomology theory have been 
 
    This is described in the section [Homtopy stabilization of the (∞,1)-topos on Nis](#InfStackDef) below.
 
-1. Another proposal has been put forward by Voevodski. More on this in the section [Voevodsky's definition](#VoevodskysDef) below.
+1. Another proposal has been put forward by Voevodsky. More on this in the section [Voevodsky's definition](#VoevodskysDef) below.
 
 
 ## Homotopy stabilization of the $(\infty,1)$-topos on $Nis$ {#InfStackDef}
@@ -46,7 +46,7 @@ Write
 
 Then motivic [[cohomology]], and motivic [[homotopy]] are given by connected components of [[derived hom space|(∞,1)-categorical hom-space]]s in $Stab(\mathbf{H}_{Nis}^I)$.
 
-There is a standard way to _present_ all this structure:
+There is a standard way to _[[presentable (∞,1)-category|present]]_ all this structure:
 
 * as described at [[models for ∞-stack (∞,1)-toposes]], the standard way to [[presentable (∞,1)-category|present]] $\mathbf{H}_{Nis}$ is in terms of the [[model structure on simplicial presheaves]] on $Nis$
 
