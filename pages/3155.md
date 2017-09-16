@@ -10,5 +10,9 @@ He is one of the pioneers of the modern emerging framework which unites in a cat
 
 * V. A. Lunts, D. O. Orlov, _Uniqueness of enhancement for triangulated categories_, [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
 
+* Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, _Deformation theory of objects in homotopy and derived categories_ 
+   * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
+   * _II: pro-representability of the deformation functor_ [arXiv:math/0702839](http://arxiv.org/abs/math/0702839);
+   * _III: abelian categories_ [arXiv:math/0702840](http://arxiv.org/abs/math/0702840)
 
 category: people
