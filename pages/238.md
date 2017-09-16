@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[infinity-stackification]]
+
+  * added a section "Idea" to [[abelian sheaf]]
+
   * added a section "Idea" to [[Dold-Kan correspondence]]
 
   * created [[injective object]]
