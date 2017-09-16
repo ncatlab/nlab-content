@@ -3,7 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#efinition#
+#Definition#
 
 A **Riemannian metric** on a smooth [[manifold]] $M$ is defined as a covariant symmetric 2-tensor $(., .)_p, p \in M$ -- a section of the symmetrized second tensor power of the [[tangent bundle]] -- such that $(v,v)_p \gt 0$ for all $v \in T_p(M)$.  For convenience, we will write $(v,w)$ for $(v,w)_p$.  In other words, a Riemannian metric is a collection of (positive) inner products on each of the [[tangent space]]s $T_p(M)$ such that if $X,Y$ are (smooth) [[vector field]]s, the function $(X,Y): M \to \mathbb{R}$ defined by taking the inner product at each point, is smooth.  A [[manifold]] together with a Riemannian metric is called a [[Riemannian manifold]].
  
