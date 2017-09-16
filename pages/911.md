@@ -25,3 +25,9 @@ $$\array{ (\int_C P)^{op} &\to& * \\ \downarrow^{\pi_P^{op}} &\Downarrow& \downa
 #Properties#
 
 * The category of elements is naturally equipped with a _projection functor_ $\pi_P:\int_C P \to C$ given by $(c,x)\mapsto c$ and $u\mapsto u$.  This projection is a [[Grothendieck fibration|discrete fibration]] and can be viewed also as a $C$-indexed family of sets.
+
++--{.query}
+
+[[Eric Forgy|Eric]]: This seems like the gadget I'm trying to describe at [[Exploding a Category]] (I may remove that material once I understand what's going on). I understand the concept (I think!), but why the notation $\int_C P$?
+
+=--
