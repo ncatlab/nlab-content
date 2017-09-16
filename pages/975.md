@@ -1,6 +1,6 @@
 This entry is about the book
 
-* M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer, 2000
+* M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer (2000)
 
 For general information on "categories and sheaves" see the entries
 
@@ -27,7 +27,7 @@ In fact, the organization and emphasis of the book (for instance the conception 
 
 * J. Lurie, [[Higher Topos Theory]]
 
-and of triangulated categories, i.e. [[stable infinity-category|stable infinity-categories]], in 
+and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infinity-categories]], in 
 
 * J. Lurie, [[Stable Infinity-Categories]]
 
