@@ -27,7 +27,7 @@ In this vein, Anders Kock, in a long series of articles, reformulates large part
 
   * [[differential forms in synthetic differential geometry]]
 
-  * [[Chevalley-Eilenberg algebra in synthetic differential geometry]]
+  * [[Chevalley-Eilenberg algebra in synthetic differential geomet|Chevalley-Eilenberg algebra in synthetic differential geometry]]
 
 # References #
 
