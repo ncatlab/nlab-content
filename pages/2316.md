@@ -1,9 +1,14 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-A rational topological space is a [[topological space]] 
+
+## Idea
+
+A **rational topological space** is a [[topological space]] 
 all whose (reduced) [[integral cohomology|integral homology]] groups are [[vector space]]s over the rational numbers $\mathbb{Q}$. 
 
-Every simply connected [[topological space]] has a rationalization
+Every simply connected [[topological space]] has a [[rationalization]]
 and passing to that rationalization amounts to forgetting all
 [[torsion]] information in the homology groups and the 
 [[homotopy group]]s of that space. So rational spaces are a 
@@ -16,7 +21,7 @@ rational spaces are modeled by graded commutative
 [[differential graded algebra|differential graded cochain algebra]]s.
 This is the topic of [[rational homotopy theory]].
 
-#Definition#
+## Definition
 
 A [[topological space]] is called _rational_ if 
 
@@ -34,7 +39,7 @@ equivalent conditions are satisfied
 
 
 A morphism $\ell : X \to Y$ of simply connected [[topological space]] is
-called a **rationalization** of $X$ if $Y$ is a rational topological space
+called a **[[rationalization]]** of $X$ if $Y$ is a rational topological space
 and if $\ell$ induces an [[isomorphism]] in rational homology
 
 $$
