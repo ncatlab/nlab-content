@@ -208,7 +208,7 @@ This uses
 
 * the fact that pasting compositites of homotopy pullbacks are again homtopy pullbacks.
 
-* the fact that the homotopy pullback of the point to itself produces the loop space, e.g.
+* the fact that the homotopy pullback of the point to itself produces the [[loop space object]], e.g.
   $$
     \array{
       \Omega B Spin(n) \simeq Spin(n) &\to& {*}
