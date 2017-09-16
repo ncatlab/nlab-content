@@ -1,3 +1,7 @@
+[[!redirects pseudotopological spaces]]
+[[!redirects Choquet space]]
+[[!redirects Choquet spaces]]
+
 A **pseudotopological space** or **Choquet space** is a [[set]] $S$ together with a [[relation]] $\to$ from $\mathcal{F}S$ to $S$, where $\mathcal{F}S$ is the set of [[filter]]s on $S$; if $F \to x$, we say that $F$ __converges__ to $x$.  This must satisfy some axioms:
 1. Centred: The principal ultrafilter $F_x = \{ A \;|\; x \in A \}$ at $x$ converges to $x$;
 1. Isotone: If $F \subseteq G$ and $F \to x$, then $G \to x$;
