@@ -101,9 +101,11 @@ This is the starting point for the definition at [[ind-object in an (infinity,1)
 
 #References#
 
-Ind-categories are discussed in section 6 of
+Ind-categories are discussed in
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* Kashiwara-Schapira, [[Categories and Sheaves]], section 6
+
+* Grothendieck et al. SGA4.I.6 <a href="http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu">djvu file</a>
 
 See also the remarks at the beginning of section 5.3 of
 
