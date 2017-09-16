@@ -74,4 +74,10 @@ The good news is that, looking at your definition of a cyclically reflexive noti
 According to [Berger-Moerdijk](http://arxiv.org/abs/0809.3341)'s characterization of the cycle category (Example 2.7), I think the $0$-cycle is not terminal.  They describe it as the "total category" of a certain "crossed $\Delta$-group" which is a presheaf $n\mapsto G_n$ of groups on $\Delta$ with certain extra structure; in this case the relevant presheaf sends each set $[n] = \{0,1,\dots,n\}$ to $C_n$, the cyclic group on $n$ letters.  The total category of a crossed $\Delta$-group has the same objects as $\Delta$, and the morphisms $[m]\to [n]$ are pairs $(\alpha,g)$ where $\alpha:[m]\to [n]$ in $\Delta$ and $g\in G_m$.  Thus, in particular, the morphisms $[m]\to [0]$ in $\Lambda$ can be identified with elements $g\in C_m$, so there is more than one of them.
 
 I think I have just lost whatever geometric intuition I used to think I had for the cycle category.
+
+[[David Corfield]]: I think I understood it [once](http://golem.ph.utexas.edu/category/2007/06/cohomology_and_computation_wee_6.html#c010094) as "$\Lambda$ is the category whose objects $[n]$ are circles marked by the sets of $n$ th roots of unity. Maps are degree 1 mappings between circles which send marked points to marked points, and are increasing. This is quite like $\Delta$ but where you are allowed to cycle round the domain before you choose an order-preserving map."
+
+It's good to see how the morphisms are counted.
+
+So $\Lambda$ is a kind of [product](http://golem.ph.utexas.edu/category/2006/10/euler_characteristic_of_a_cate.html#c010304) between $\Delta$ and the groupoid which is a union of one copy of each finite cyclic group.
 =--
