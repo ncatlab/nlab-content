@@ -20,6 +20,69 @@ Since every [[simplicial group]] is a [[Kan complex]], one can equivalently read
 
 The fact that this involves _[[abelian group|abelian]]_ groups is essential for the correspondence. However, a similar correspondence still holds in a slightly more nonabelian context:
 
+There are various generalizations of this, described below.
+
+
+#Details#
+
+We now spell out technical details of the Dold-Kan correspondence.
+
++-- {: .num_theorem }
+###### Theorem (Dold-Puppe)
+
+For $A$ an [[abelian category]] 
+there is an [[adjoint equivalence]]
+
+$$
+  N : [\Delta^{op},A] 
+      \stackrel{\leftarrow}{\to} Ch_+(A) : \Xi
+$$
+
+between 
+
+* the category $[\Delta^{op},A]$ of [[simplicial object]]s in $A;
+
+* the [[category of chain complexes]] in $A$ that are 0 in negative degree,
+
+where
+
+* $N$ is the normalized [[Moore complex]] functor;
+
+These functors respect the standard weak equivalences with respect to the standard [[model structure on simplicial sets]] [[model structure on chain complexes|and on chain complexes]] in that they induce isomorphisms between [[simplicial homotopy group]]s and [[homology]] groups.
+
+=--
+
+
+
+
++-- {: .num_theorem }
+###### Theorem (Kan)
+
+For the case that $A$ is the category of abelian groups, the functor $\Xi$ is is the [[nerve]] functor on chain complexes that is induced from the [[simplicial object|cosimplicial chain complex]]
+
+$$
+  Ch_* := N F_\mathbb{Z}(-): \Delta \to Ch_+(Ab)
+$$
+
+that sends the standard $n$-[[simplex]] to the normalized [[Moore complex]] of the free simplicial abelian group $F_{\mathbb{Z}}(\Delta^n)$ on the [[simplicial set]] $\Delta^n$, i.e.
+
+$$
+    \Xi(C)_n= Hom_{Ch_*(Ab)}(C_*(\Delta^n), C)
+    \,.
+$$
+
+=--
+
+
+
+
+# Generalizations #
+
+There are various generalizations of the standard
+Dold-Kan correspondence.
+
+## Nonabelian versions ##
+
 In a series of articles by Brown and Higgins, based on old work by Whitehead, the above was generalized to
 
 : strict $\infty$-groupoids $\;\simeq\;$ crossed complexes.
@@ -28,10 +91,16 @@ Here on the left we have [[strict omega-groupoid]]s and on the right [[crossed c
 
 : crossed complexes $\supset$ chain complexes$_+$ internal of abelian groups
 
+There is a discussion of some of these and extensions to them to the non-Abelian case, in the entry on [[Moore complex]].
+
+
 Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
 
 Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is apparently no 
 full analysis as yet of the actual form of this monad.
+
+
+## Versions for monoids in abelian categories ##
 
 In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and [[dg-algebra]]s in nonnegative degrees, as well as between cosimplicial algebras and dg-algebras in nonpositive degrees, which is rather a [[Quillen equivalence]] (thus the two adjoint functors constructed in that case are inverses up to a [[quasi-isomorphism]] of dg-algebras):
 
@@ -40,9 +109,14 @@ Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure 
 
 * Stefan Schwede, Brooke Shipley, Equivalences of monoidal model categories, Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 
+
+## Version for Lie algebras ## 
+
 In rational homotopy theory, Quillen proved and used an analogous statement for Lie algebras: Quillen equivalence between the reduced rational dg Lie algebras and reduced rational simplicial Lie algebras:
 
 * D. G. Quillen, Rational homotopy theory, Ann. Math. 90 (1969), 204--265.
+
+
 
 ## Parameterized version ##
 
@@ -68,8 +142,7 @@ and the weak equivalences in $Sh(X, Ch_+(Ab))$ are the
 preserves these weak equivalences.
 This sheaf version of the Dold--Kan correspondence 
 allows to understand [[abelian sheaf cohomology]]
-as a special case of [[nonabelian cohomology]] and
-[[generalized sheaf cohomology]].
+as a special case of [[nonabelian cohomology]].
 
 See page 9,10 of 
 
@@ -93,29 +166,7 @@ This is [theorem 12.8, p. 50](http://math.mit.edu/~lurie/topoibook/DAGI.pdf) of
 * [[Jacob Lurie]], [[Stable Infinity-Categories]] 
 
 
-#Details#
-
-The _Dold--Kan correspondence_ is the name of the [[equivalence of categories|equivalence]] between
-
-* the category [[SimpAb]] of [[simplicial set|simplicial]] abelian groups;
-
-and
-
-* the category $Ch_+(Ab)$ of non-negatively graded chain complexes of abelian groups.
-
-There is an [[adjoint equivalence]]
-
-$$
-  N : \Simp\Ab \stackrel{\leftarrow}{\to} Ch_+(Ab) : \Xi
-$$
-
-where $N$ is the normalized chains functor, also called the [[Moore complex]].
-
-A nice expression of the functor $\Xi$ (this was the light Kan shed on the work of Dold!) is that
-
- $$\Xi(C)_n= Chn(C_*(\Delta^n), C)$$
-
- where $C_*(\Delta^n)$ is the normalised chains of the simplicial set $\Delta^n$, and $Chn$ denotes the abelian group of chain mappings. 
+## Related [[nerve]] constructions ## 
 
 This gives a pattern for constructing simplicial structures, often called the _simplicial [[nerve]]_,  from algebraic structures. 
 
@@ -134,11 +185,6 @@ This includes the case when $C$ is a [[crossed module]] (of groupoids) regarded 
 
 An obvious analogue gives cubical or globular nerves. 
 
-#Remarks#
-
-* There is a whole list of generalizations of this by Brown and Higgins, showing equivalences of various strict infinity-categories [[internal category|internal to]] $Ab$ with $Ch_+(Ab)$. 
-
-*  There is a discussion of some of these and extensions to them to the non-Abelian case, in the entry on [[Moore complex]]
 
 
 #References#
