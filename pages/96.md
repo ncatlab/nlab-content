@@ -8,7 +8,7 @@ One would expect some relation of this to the [[BV theory|Lagrangian BV formalis
 
 #References#
 
-* Alan Weinstein, _The volume of a differentiable stack_ ([arXiv](http://arxiv.org/abs/0809.2130))
+* [[Alan Weinstein]], _The volume of a differentiable stack_ ([arXiv](http://arxiv.org/abs/0809.2130))
 
 * Richard Hepworth, _2-Vector Bundles and the Volume of a Differentiable Stack ([pdf](http://www.hepworth.staff.shef.ac.uk/files/2VB.pdf))
 
