@@ -23,23 +23,21 @@ A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
 
 From these, one can prove additional closure properties of $U$, including the usual codings in pure set theory of [[function set]]s and the [[cartesian product]] and [[disjoint union]] of sets.
 
++-- {: .query}
+
+ [[Urs Schreiber|Urs]]: actually, could you indicate how 
+the statement about function sets follows? (I understand that the power set $P(u)$ is the function set $2^u$.) 
+
+=--
+
+
+
 Some authors (for instance [[Categories and Sheaves|Kashiwara-Shapira]]) add
 * $\emptyset \in U$ (it\'s enough to say that there exists some $u \in U$);
 * $\mathbb{N} \in U$ (it\'s enough to say that some [[infinite set]] belongs to $U$).
 
 Certainly the examples that we\'re interested in have these properties, but often it\'s nice to leave them out, so that $\emptyset$ and $\mathbb{N}$ themselves become examples of Grothendieck universes.  ($\emptyset$ is arguable, but seeing $\mathbb{N}$ as a universe shows how the axiom of infinity is but the first in a series of large-cardinal axioms.)
 
-+-- {: .query}
-[[Urs Schreiber|Urs]]: ??
-
-_Toby_: Have I handled these question marks, Urs?
-
- 
-_Urs_: Yes, thanks a lot. Also for your other modifications. Very helpful. Maybe one more question: Kashiwara-Shapira demand just $(u \in U) \Rightarrow (\{u \} \in U)$. The above however is taken from Wikipedia, 
-$(u, v  \in U) \Rightarrow (\{u, v\} \in U)$. What's the point of that, given 4?
-
-_Toby_:  I suppose that it\'s just to more closely follow the usual axioms of ZFC, to show that a Grothendieck universe (at least as K-S define it) is a model of ZFC.  I think that it\'s actually simpler to use the singleton, so I\'ll change it.
-=--
 
 Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-large**.  Technically, every $U$-small set is $U$-large (by requirement 1), but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.
 
@@ -96,7 +94,26 @@ Note that $U Set$ itself is $U$-large and locally $U$-small.
 
 ##Presheaf categories##
 
-Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-large and locally $U$-small, but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[point]].)
+Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-large... 
+
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: Let me see if I follow this in detail: an upper bound for the size of $Obj([C^{op},U Set])$ is the size of $\{ F : Obj(C)\times Mor(C) \to U Set\}$ where both $Obj(C)$ and $Mor(C)$ are in $U Set$. How do I see that this is $U$-large?
+
+=--
+
+...and locally $U$-small...
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: okay, I see this: an upper bound for the size of the set of morphisms between two functors $F,G : C^{op} \to U Set$ is the disjoint union indexed by the objects $c$ of $C$ over the $U$-sets $G(c)^{F(c)}$. Now $G(c)^{F(c)} \in U$ since it is a function set and $\cup_{c \in Obj(C)} G(c)^{F(c)}$ by the assumption that unions stay in $U$. 
+
+=--
+
+
+
+...but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[point]].)
 
 Now let $C$ be a $U$-large category (and not small).  Then the category of $U$-presheaves on $C$ is not even locally $U$-small, nor is it even $U$-large (it is 'too large to be large').  However, it is locally $U$-large.  Also, it is quite possible, if $C$ is a $U$-[[large site]], that the category of $U$-[[sheaf|sheaves]] on $C$ is $U$-large and locally $U$-small.
 
