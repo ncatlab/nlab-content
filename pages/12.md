@@ -41,6 +41,8 @@ $$\array{\arrayopts{\rowalign{center}}\begin{svg}
 \end{svg}& \equiv \left({U(k)}^{n_1},\{v_i\}\right)}$$
 
 
+\[ \sum_i \left( \frac{whoaj}{{stuff}_i} \right) \]
+
 | Function name | Description                    |http://ncatlab.org/nlab/cancel_edit/Sandbox
 | ------------- | ------------------------------ |
 | `help()`      | Display the help window.       |
