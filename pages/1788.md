@@ -399,6 +399,11 @@ $\mathcal{abcdefghijklmnopqrstuvwxyz}$
 
 [[Note on Formatting]]
 
+
+&#9752;
+&#9816;
+&#9784;
+
 ***
 
 category: meta
