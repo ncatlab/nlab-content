@@ -22,7 +22,7 @@ For any class $E$ of morphisms in $C$, we write $E^\perp$ for the class of all m
 
 In general, $(-)^\perp$ and ${}^\perp(-)$ form a [[Galois connection]] on the [[poset]] of classes of morphisms in $C$.  A pair $(E,M)$ such that $E= {}^\perp M$ and $M= E^\perp$ is sometimes called a **prefactorization system**.  Note that by generalities about Galois connections, for any class $A$ of maps we have prefactorization systems $({}^\perp(A^\perp),A^\perp)$ and $({}^\perp A, ({}^\perp A)^\perp)$.  We call these *generated* and *cogenerated* by $A$, respectively.
 
-If $C$ is a [[locally presentable category]], then for any *set* of maps $A$, the prefactorization system $({}^\perp(A^\perp),A^\perp)$ is actually a factorization system.  The argument is by a transfinite construction similar to the [[small object argument]].
+If $C$ is a [[locally presentable category]], then for any *small set* of maps $A$, the prefactorization system $({}^\perp(A^\perp),A^\perp)$ is actually a factorization system.  The argument is by a transfinite construction similar to the [[small object argument]].
 
 
 ## Examples #
