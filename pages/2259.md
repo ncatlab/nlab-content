@@ -1,0 +1,13 @@
+* [wikipedia entry](http://www.math.uu.nl/people/moerdijk/)
+
+##indexed books on the $n$Lab ##
+
+* [[Categories Work|Categories for the Working Mathematician]]
+
+  on [[category theory]]
+
+* (with [[Ieke Moerdijk]]) [[Sheaves in Geometry and Logic]]
+
+  on [[sheaf and topos theory]]
+
+category: people
