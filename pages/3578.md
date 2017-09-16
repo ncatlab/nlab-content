@@ -52,7 +52,7 @@ This is a [[Kan complex]]-enriched category and as such an incarnation of the **
 It is modeled by the [[model structure for left fibrations|model structure for right fibrations]]. For details on this see the discussion at [[(∞,1)-Grothendieck construction]].
 
 
-## Motivation: ordinary fibrations in groupoids are left fibrations
+## Motivation: ordinary fibrations in groupoids are right Kan fibrations {#GrothGrpdFibsAreRightKanFibs}
 
 Ordinary [[fibration fibered in groupoids|categories fibered in groupoids]] have a simple characterization in terms of their [[nerve]]s. Let $N : Cat \to sSet$ be the [[nerve]] functor and for $p : E \to B$ a morphism in [[Cat]] (a [[functor]]), let $N(p) : N(E) \to B(N)$ be the corresponding morphism in [[sSet]].
 
@@ -61,49 +61,47 @@ Then
 +-- {: .un_prop }
 ###### Proposition
 
-The functor $p : E \to B$ is an  [[fibration fibered in groupoids|op-fibration in groupoids]] precisely if the morphism $N(p) : N(E) \to N(B)$ is a left Kan fibration of simplicial sets, i.e. precisely if for all [[horn]] inclusion 
+The functor $p : E \to B$ is an  [[fibration fibered in groupoids|fibration in groupoids]] precisely if the morphism $N(p) : N(E) \to N(B)$ is a right Kan fibration of simplicial sets
+=--
 
-$$
-  \Lambda[n]_i \hookrightarrow \Delta[n]
-$$
+To see this, first notice the following facts:
 
-for all $n \in \mathbb{N}$ and all $i$ _smaller_ than $n$ -- $0 \leq i \lt n$, we have that every commuting diagram
++-- {: .un_lemma }
+###### Lemma 1
 
-$$
-  \array{
-    \Lambda[n]_i &\to& N(E)
-    \\
-    \downarrow && \downarrow^{\mathrlap{N(p)}}
-    \\
-    \Delta[n] &\to& N(B)
-  }
-$$
-
-has a lift
+For $C$ a [[category]], the [[nerve]] $N(C)$ is [[coskeletal|2-coskeletal]]. In particular all $n$-spheres for $n \geq 3$ have unique fillers
 
 $$
   \array{
-    \Lambda[n]_i &\to& N(E)
+    \partial \Delta[n] &\stackrel{\forall}{\to}& N(C)
     \\
-    \downarrow &\nearrow& \downarrow^{\mathrlap{N(p)}}
+    \downarrow & \nearrow_{\mathrlap{\exists !}}
     \\
-    \Delta[n] &\to& N(B)
+    \Delta[n]
   }
+    \;\;\;\;\;
+    (n \geq 3)
+$$
+
+and (implied by that) all $n$-horns for $n \gt 3$ have fillers
+
+$$
+  \array{
+    \partial \Lambda[n] &\stackrel{\forall}{\to}& N(C)
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists }}
+    \\
+    \Delta[n]
+  }
+  \;\;\;\;\;
+  (n \gt 3)
   \,.
 $$
 
 
 =--
 
-To prove this, first notice the following lemmas
-
-+-- {: .un_lemma }
-###### Lemma 1
-
-For $C$ a [[category]], the [[nerve]] $N(C)$ has _unique_ fillers for all horns $\Lambda[n]_i \to N(C)$ with $n \gt 3$.
-
-=--
-
+This is discussed at [[nerve]].
 
 +-- {: .un_lemma }
 ###### Lemma 2
@@ -112,28 +110,25 @@ If $p : E \to B$ is an ordinary [[functor]], then $N(f) : N(E) \to N(B)$ is an [
 
 =--
 
-+-- {: .proof}
-###### Proof of lemma 2
-
 This is discussed at [[inner fibration]].
-
-=--
 
 +-- {: .proof}
 ###### Proof of the proposition
 
-This is  [[Higher Topos Theory|HTT, prop. 2.1.1.3]].
+From the above lemmas it follows that $N(p) : N(E) \to N(B)$ is a right fibration already precisely if it has the right lifting property with respect only to the three horn inclusions 
 
-From the above lemmas it follows that $N(p) : N(E) \to N(B)$ is a left fibration already precisely if it has the right lifting property with respect to only the three horn inclusions $\{\Lambda[n]_0 \hookrightarrow \Delta[n]|n = 1,2,3\}$. These are the only three filling conditions that are not already satisfied on general grounds.
+$$
+  \{  \Lambda[n]_n \hookrightarrow \Delta[n] | n = 1,2,3\}
+  \,.
+$$
 
-We now check explicitly what these three conditions are
+So we check explicitly what these three conditions amount to
 
-
-* -- $n=1$ -- The existence of all fillers
+* $n=1$ -- The existence of all fillers
 
   $$
     \array{
-      \Delta^{\{0\}} &\stackrel{e}{\to}& N(E)
+      \Lambda[1]_1 = \Delta^{\{1\}} &\stackrel{e}{\to}& N(E)
       \\
       \downarrow & {}^{{\hat f}}\nearrow  & \downarrow^{\mathrlap{N(p)}}
       \\
@@ -141,17 +136,79 @@ We now check explicitly what these three conditions are
     }
   $$
 
-  means that for all objects $e \in E$ and morphism $f : p(e) \to b$ in $B$, there exists a morphism $\hat f : e \to \hat b$ in $E$ such that $p(\hat f) = f$.
+  means that for all objects $e \in E$ and morphism $f : b \to p(e) $ in $B$, there exists a morphism $\hat f : \hat b \to e$ in $E$ such that $p(\hat f) = f$.
 
-* -- $n=2$ -- ...
+* $n=2$ -- The existence of fillers
+
+  $$
+    \array{
+      \Lambda[2]_2 &\stackrel{e}{\to}& N(E)
+      \\
+      \downarrow & {}^{{\hat f}}\nearrow  & \downarrow^{\mathrlap{N(p)}}
+      \\
+      \Delta[2] &\stackrel{f}{\to}& N(B)
+    }
+  $$
+
+  means that for all diagrams
+
+  $$
+    \array{
+       && e_1 
+       \\
+       &&& \searrow^{\mathrlap{\epsilon_{12}}}
+       \\
+       e_0 &&\stackrel{\epsilon_{02}}{\to}&& e_2
+    }
+  $$
   
+  in $E$ and commuting triangles
 
-* -- $n=3$ -- ...
+  $$
+    \array{
+       && p(e_1) 
+       \\
+       & {}^{\mathllap{f}}\nearrow&& \searrow^{\mathrlap{p(\epsilon_{12}})}
+       \\
+       p(e_0) &&\stackrel{p(\epsilon_{02})}{\to}&& p(e_2)
+    }
+  $$
+ 
+  in $B$, there is a commuting triangle
 
+  $$
+    \array{
+       && e_1 
+       \\
+       &{}^{\mathllap{\hat f}}\nearrow&& \searrow^{\mathrlap{\epsilon_{12}}}
+       \\
+       e_0 &&\stackrel{\epsilon_{02}}{\to}&& e_2
+    }
+  $$
+
+  in $E$, such that $p(\hat f ) = f$.
+
+* $n=3$ -- ...
+
+  Consider first the case of degenrate 3-simplices on $N(B)$, 
+  on 2-simplices as above. 
+
+  Suppose in the above situation two lifts $(\hat f)_1$ and $(\hat f)_2$
+  are found. Together these yield a $\Lambda[3]_3$-horn in $N(E)$.
+  The filler condition says this can be filled, which implies 
+  that $(\hat f)_1 = (\hat f)_2$.
+
+  So the $n=3$-condition implies that the lift 
+  whose existence is guaranteed by the 
+  $n=2$-condition is unique.
+
+  By similar reasoning one sees that this is all the $n=3$-condition yields.
+
+In total, these three lifting conditions are precisely those
+for a Grothendieck fibration in groupoids.
 
 =--
 
--
 
 ## Properties
 
@@ -337,5 +394,6 @@ This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.
 
 
 [[!redirects left fibration]]
+[[!redirects left Kan fibration]]
 [[!redirects right fibration]]
 [[!redirects right Kan fibration]]
