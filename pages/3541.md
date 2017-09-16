@@ -13,6 +13,9 @@ A __quantum channel__ is a mapping between [[Hilbert spaces]], $\Phi : L(\mathca
 >several people commented on it and said it should be the way I wrote it here. 
 
 to which I reply they probably weren't category theorists :)
+
+[[Ian Durham]]: And you would probably be right.  It's amazing how many mathematicians have no clue about category theory.  I expect it of my fellow physicists, but mathematicians?  Well, anyway, I digress.  Categories.  It's like the old saying about the turtles - it's categories all the way down (or up).  I will take a look at the Yoneda lemma.  Since we're on the topic, let me explain my justification for originally going with Cayley's theorem.  In quantum mechanics we like unitaries because they correspond to physical things like beamsplitters, phase shifters, butter knives, etc.  If I start with a monoid (a single-object category with all the arrows isomorphisms), I have a group.  Via Cayley's theorem I can then find an isomorphism to a permutation group.  If that permutation group is finite, then it has a representation in terms of unitaries.  That would be ideal.  But, on a more general note, I also want this to be useful to others (hence nLab) so categories seems the way to go.  (Thanks for all the help, by the way.  This is why I came to nLab.  In case you're interested, I'm attempting to resolve the quantum version of Bikrhoff's theorem using categories which is where this all came from.)
+
 =--
 In general, we are interested in completely positive trace-preserving (CPTP) maps.  
 
@@ -26,6 +29,8 @@ The operator spaces can be interpreted as $C^{*}$-[[C-star algebra|algebras]] an
 
 +--{: .query}
 [[David Roberts]]: This would constitute, continuing the remark above, another category, where the objects are Hilbert spaces and the morphisms are pairs $(X,\Phi: L(\mathcal{H}_{A}) \otimes C(X) \to L(\mathcal{H}_{B}))$. Not sure if this is the case, though, as the proof below doesn't seem to relate very well.
+
+[[Ian Durham]]: Any suggestions on how to restructure the proof so that it works for categories?
 =--
 
 In other words, whether or not classical information is processed by the channel, it (the channel) is a mapping between $C^{*}$-algebras.  
@@ -38,7 +43,9 @@ In other words, whether or not classical information is processed by the channel
 
 >[[Ian Durham]]: I would be fine with that.  My only point is that, it had always been my understanding that the use of the word "channel" in this context can be traced back to Shannon and von Neumann using it in an information theoretic context.  I've honestly never heard it used otherwise (caveat: obviously I am aware of its use in geography and elsewhere, I simply meant I'd never seen it used in physics in any other context).
 
-[[David Roberts]]: I was thinking more the analogy with biology, with channels passing various chemicals in and out of cells (cf particles in and out of atoms)
+> [[David Roberts]]: I was thinking more the analogy with biology, with channels passing various chemicals in and out of cells (cf particles in and out of atoms)
+
+> [[Ian Durham]]: Doh!  Completely forgot about that use.  Well, apparently I am very much mistaken in this regard.  In any case, I definitely would be fine with a general discussion of channels with a pointer here.
 
 Note, however, that these are not necessarily the same $C^{*}$-algebras.  Since the channels are represented by square matrices, the input and output $C^{*}$-algebras must have the same dimension, $d$.  Thus we can consider them both subsets of some $d$-dimensional $C^{*}$-algebra, $C$, i.e. $A \subset C$ and $B \subset C$. Thus a quantum channel is a mapping from $C$ to itself.
 
