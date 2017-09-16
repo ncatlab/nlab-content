@@ -68,7 +68,13 @@ $$
 
 ## As string diagrams
 
->Please draw these!
+In [[string diagrams]], the identities appear as the action of "pulling zigzags straight" (hence the name):
+
+[[adjunction-up-string.png:pic]], [[adjunction-down-string.png:pic]].
+
+With labels left implicit, this notation becomes very economical:
+
+[[adjunction-up-string-minimal.png:pic]], [[adjunction-down-string-minimal.png:pic]].
 
 
 [[!redirects zigzag identities]]
