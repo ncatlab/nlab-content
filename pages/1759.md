@@ -30,6 +30,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]
 
+  * after discussion with [[Zoran Skoda]] I split off [[homotopy image]] from [[essential image]], reserving the latter for the essential image of a functor of categories -- I haven't touched the content of [[essential image]] otherwise
+
   * updated link list at [[Higher Topos Theory]] (mostly under Appendix/Category Theory). For what that's worth, the appendix is now getting pretty close to being fully indexed.
 
   * added reference to Richard Garner's _Understanding the small object argument_ to [[small object argument]]
