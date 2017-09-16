@@ -80,6 +80,8 @@ Does a topos have a fundamental groupoid?  A fundamental $i$-groupoid?  A fundam
 
 http://arxiv.org/abs/0706.1771
 
+[[David Corfield|David]]: The paper [Higher Monodromy](http://lanl.arxiv.org/abs/math/0407507) shows what the fundamental 2-groupoid classifies.
+
 
 =--
 
