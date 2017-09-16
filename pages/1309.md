@@ -51,6 +51,8 @@ _Toby_:  The problem is that the $0$-cycle (unlike the $[0]$-simplex) should not
 _Todd_: I'm sorry -- I must be making some embarrassingly stupid mistake -- but I still don't follow. What loop? For the 1-element set {t}, there are only two ternary relations. The relation consisting of the point (t, t, t) cannot be a cyclic order by irreflexivity. So the only cyclic order is the empty one (which seems to be vacuously allowed by the axioms). And it seems that the condition that the unique map f: C --> {t} is monotone [by Mike's definition], for any cyclically ordered set C, is vacuously satisfied. 
 
 Trust me -- I want you guys to be right, because I think that the definition of $\Lambda$ I attempted two years ago is (in classical logic) equivalent to yours (although I should check that carefully) -- and I was disappointed when I thought it failed. 
+
+_Toby_:  It\'s also possible that I\'m making an embarrassingly stupid mistake, but if you\'re making one, then it\'s probably missing my word 'should'.  I agree with you that there is a unique cyclic order (as defined here) on the $1$-element set and that this gives the terminal cyclically ordered set.  What I\'m not certain about is that I understand what the cycle category is supposed to be, but is it right that the $1$-element cycle (the $0$-cycle) *should* have a nontrivial loop?  Because if so, then I understand what your objection is!
 =--
 
 # Remarks #
