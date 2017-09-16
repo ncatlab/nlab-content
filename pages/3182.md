@@ -10,23 +10,28 @@ A _[[Top|topological]] [[∞-groupoid]]_ is an [[internal ∞-groupoid]] in [[To
 
 ## Homotopy invariance and topological spaces
 
-A central result about the [[(∞,1)-topos]] $Sh_{(\infty,1)}(Top)$ [[∞-stack]]s on [[Top]] is that the [[homotopy localization]] is equivalent to [[Top]] itself
+The sub-[[(∞,1)-category]] [[∞-stack]]s on [[Top]] (even on [[Diff]]) that are homotopy invariant is equivalent to plain [[∞Grpd]]. 
+
+
+### Idea
+
+A central result about the [[(∞,1)-topos]] $Sh_{(\infty,1)}(Top)$ of [[∞-stack]]s on [[Top]] is that the [[homotopy localization]] is equivalent to [[Top]] itself
 
 $$
   Sh_{(\infty,1)}(Top)^I \simeq Top
   \,.
 $$
 
-A discussion of this is in (nice but not quite finished)
+A discussion of this is in (the nice but not quite finished)
 
-* Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 In fact, this is true even for [[Lie ∞-groupoid]]s, i.e. [[∞-stack]]s on [[Diff]]: the homotopy invariant ones model plain [[topological space]]s.
 
-This provides a useful resolutions of topological spaces that often helps to disentangle the twoo different roles played by a topological space: on the one hand as a model for an [[∞-groupoid]], in the other as a [[locale]].
+This provides a useful resolution of [[topological space]]s that often helps to disentangle the twoo different roles played by a topological space: on the one hand as a model for an [[∞-groupoid]], in the other as a [[locale]].
 
 
-Here are the details.
+### Details
 
 Let $SPSh(Diff)^{loc}$ be the local [[model structure on simplicial presheaves]] obtained by left [[Bousfield localization of model categories|Bousfield localization]] at the [[Cech nerve]]s of 
 [[Cech cover]]s with respect to the standard [[Grothendieck topology]] on [[Diff]]. This is a [[models for ∞-stack (∞,1)-toposes|model for ∞-stacks]] on [[Diff]].
@@ -47,9 +52,11 @@ set, and where evaluates a simplicial presheaf on the manifold that is the [[poi
 
 **Theorem (Dugger)**
 
-This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the  standard [[model structure on simplicial sets]] on the left and the above model structure $SPSh(Diff)^{loc}_I$ on the right.
+This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the  standard [[model structure on simplicial sets]] on the left and the above model structure $SPSh(Diff)_{loc}^I$ on the right.
 
+## References
 
+* [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 
 [[!redirects topological ∞-groupoid]]
