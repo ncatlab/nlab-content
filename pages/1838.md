@@ -16,8 +16,108 @@ In the presence of magnetic charge the electromagnetic field is modeled by a coy
 
 In the following we describe how the abstract definition of the electromagnetic field as a differential cocycle encodes the physical observables of electromagnetism.
 
-... connection 1-form locally on Minkwoski space ... decomposition in standard coordinates ... splitting of field strength into electric and magnetic parts ... 
+In modern notation what Maxwell discovered in the 1860s is that locally, when physical spacetime is well approximated by a patch of its tangent space, i.e. by a patch of 4-dimensional Minowski space $U \subset (\mathbb{R}^4, g = diag(-1,1,1,1))$,
 
+* the electric field, encoded in a 1-parameter-family of vector fields 
+  $$
+    E : \mathbb{R} \to T \mathbb{R}^3
+  $$
+
+* the magnetic field, encoded in a 1-parameter-family of vector fields 
+  $$
+    B : \mathbb{R} \to T \mathbb{R}^3
+  $$
+
+* the electric charge density
+  $$
+    \ro : \mathbb{R} \to C^\infty(\mathbb{R}^3)
+  $$
+
+* the electric current vector field
+  $$
+    j : \mathbb{R} \to T \mathbb{R}^3
+  $$
+
+combine to a differential 2-form
+
+$$
+  \begin{aligned}
+    F & := E \wedge d t + \star_3 B
+      \\
+      &:= 
+        E_1 d x^1 \wedge d t + 
+        E_2 d x^2 \wedge d t + 
+        E_3 d x^3 \wedge d t  
+     \\
+      & +
+        B_1 d x^2 \wedge d x^3 +
+        B_2 d x^3 \wedge d x^1 +
+        B_3 d x^1 \wedge d x^2
+  \end{aligned}
+$$
+
+in $\Omega^2(U)$
+
+and a differential 3-form
+
+$$
+  \begin{aligned}
+    j_{el} & := \star j
+     \\
+     & = 
+        j_1 d x^2 \wedge d x^3 \wedge d t +
+        j_2 d x^3 \wedge d x^1 \wedge d t +
+        j_3 d x^1 \wedge d x^2 \wedge d t
+        +
+        \rho \; d x^1 \wedge d x^2 \wedge d x^3
+   \end{aligned}
+$$
+
+in $\Omega^3(U)$
+
+such that the following two equations are of differential forms are satisfied
+
+$$
+  \begin{aligned}
+    d F = 0
+    \\
+    d \star F  = j_{el}
+  \end{aligned}
+  \,.
+$$
+
+This are a bunch of equations on the components involved -- called Maxwell's equations.
+
+## global continuation of Maxwell's original equatons ##
+
+Maxwell's original equations determine what the 
+electromagnetic field is _locally_. After a while it was dicovered that globally the situation is more complicated.
+
+* First Einstein figured out that in the presence of a gravitational field spacetime is not in general globally given by Minkowski space, but may be given by a more general pseudo-Riemannian manifold.
+
+With the differential geometry sorted out, there is an obvious generalizaton of Maxwell's equations from Minkowski space to an arbitrary pseudo-Riemanian manifold. 
+In the modern notation
+$$
+  \begin{aligned}
+    d F = 0
+    \\
+    d \star F  = j_{el}
+  \end{aligned}
+$$
+already holds unmodified in this case, too.
+
+But this still turns out to be too naive. While 
+it is true that the equations do generalize in this way in princple, another physical effect discovered later may prevent them from generalizing this way in every case.
+
+This happens when the manifold in question has nontrivial topology, or if there is magnetic charge around.
+
+* Dirac discovered that the existence of electrically charged quantum mechanical particles implies that
+
+  * a) the electromagnetic field strength 2-form $F$ is required to have integral cycles (in some normalization);
+
+  * b) moreover, the electromagnetic field is not just encoded in $F$, but in a degree 2 [[differential cohomology|differential refinement]] of integral cohomology -- for instance thought of as a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]], of which $F$ is only the image in deRham cohomology (the curvature 2-form).
+
+The reasoning underlying Dirac's argument is described in the next subsection.
 
 
 # The old Dirac argument from a modern perspective #
