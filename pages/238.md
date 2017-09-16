@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-10
+
+* [[Urs Schreiber|Urs]]
+
+  * created [[Courant Lie algebroid]]
+
+  * reacted to [[Toby Bartels|Toby]]'s remark at [[n-fold category]] by incorporating it and removing the query box
+
 # 2009-02-09
 
 * [[Mike Shulman|Mike]]:
