@@ -1,1 +1,1 @@
-see [[monoidal functor]]
+&lt; [[monoidal functor]]
