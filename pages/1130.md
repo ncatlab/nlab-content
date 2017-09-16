@@ -116,7 +116,7 @@ In particular $\#(C,\partial)= (Hom(C,k),D)$  defines a functor from $pre-CDGC$ 
 
 ##Coalgebra filtrations
 
-Let $(C,\partial)$ be a pre-dgc. A _coalgebra filtration_ (resp. _differential coalgebra filratation_) of $(C,\partial)$ is a family of subspaces $F_pC$, $p\in \mathbb{Z}$ such that 
+Let $(C,\partial)$ be a pre-dgc. A _coalgebra filtration_ (resp. _differential coalgebra filratation_) of $(C,\partial)$ is a family of subspaces $F_p C$, $p\in \mathbb{Z}$ such that 
 
 $$F_p C\subseteq F_{p+1} C, \quad \Delta F_p C \subseteq \sum_k F_k C\otimes F_{p-k} C, \quad (resp.\quad and \quad \partial F_p C\subseteq F_p C).$$
 
@@ -129,7 +129,7 @@ The iteration of $\bar{\Delta}$ is defined by
  
 $$\bar{\Delta}^1 = \bar{\Delta}; \quad \bar{\Delta}^p = (\bar{\Delta}\otimes \bar{C} \otimes \ldots \bar{C}) \otimes \bar{\Delta}^{(p-1)}.$$
 
-The (increasing) filtration of the primitives is $F_pC = Ker\bar{\Delta}^p$, $p\geq 1$. It is a graded coalgebra filtration.
+The (increasing) filtration of the primitives is $F_p C = Ker\bar{\Delta}^p$, $p\geq 1$. It is a graded coalgebra filtration.
 
 If $(C,\partial, \eta)$ is a coaugmented pre-dgc, each $F_p C$ is stable under the differential and, in particular, $F_1 = P(C)$.  $P$ thus defines a functor from $pre-\eta CDGC$ to $pre-DGVS$.  
 
@@ -190,5 +190,5 @@ $$F_p T^\prime(V) = T^{\leq p}(V) = \bigoplus_{k\leq p} T^k(V).$$
 +-- {: goal}
 ###### Lexicon links onwards:
 
-[[Tim Porter|Tim]]:  The lexicon will continue on a new entry on [[differential graded Lie algebra|differential graded Lie algebras]].  
+[[Tim Porter|Tim]]:  The lexicon  continues on a new entry on [[differential graded Lie algebra|differential graded Lie algebras]].  
 =--
