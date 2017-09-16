@@ -12,10 +12,17 @@ hold. If $k=\mathbb{Z}$ then we say (internal) __Lie ring__, and if $k$ is a fie
 
 Alternatively, Lie algebras are the algebras over certain quadratic operad, called the Lie algebra [[operad]]. The Koszul dual of this operad is the commutative algebra operad.  
 
++--{.query}
+
+[[Eric]]: Is it possible to turn the previous paragraph around? Instead saying Lie algebras are certain quadratic operads and pointing out their Koszul dual is a commutative algebra operad, could you instead say something like 
+
+<i>Alternatively, Lie algebras are algebras over the Koszul dual of a commutative algebra operad.</i>
+
+=--
+
 A Lie algebra is a special case of an [[L-infinity algebra]] with generators only in lowest degree.
 
 For the classically phrased definitions over a field see 
 [Wikipedia: Lie algebra](http://en.wikipedia.org/wiki/Lie_algebra)
-
 
 [[!redirects Lie algebras]]
