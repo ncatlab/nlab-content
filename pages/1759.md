@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-30
 
+* [[Urs Schreiber]] added some clauses to [[Grothendieck group]] and have some comments in a query box: I am thinking what the entry tries to define should be discussed at [[algebraic K-theory]] while "Grothendieck group" should be the definition of a group structure on $A \times A$ for a monoid $A$
+
 *  [[Toby Bartels]]:
    *  A question at [[category with weak equivalences]].
    *  A complaint at [[(infinity,1)-categorical hom-space]].
