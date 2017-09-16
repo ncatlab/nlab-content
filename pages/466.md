@@ -2,6 +2,12 @@
 [[!include category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+#Idea#
 
 The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]] and [[universal construction]]. 
 
@@ -142,7 +148,7 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * In the context of [[module]]s (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
 
-* In the context of [[infinity-category|infinity-categories]] the Yoneda lemma becomes the [[descent]] condition on [[infinity-stack]]s. This is described in [[infinity-stack homotopically]].
+* There is an [[Yoneda lemma for (infinity,1)-categories]].
 
 * In [[functional programming]], the Yoneda embedding is the [[continuation passing style]] transform.
 
