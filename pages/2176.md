@@ -173,6 +173,32 @@ The cactus formula $\text{&#x2997;} p \text{&#xFE50;} \mathop{d}p \text{&#x2998;
 <img alt="Cactus Graph (P,dP)" src="/nlab/files/Cactus_Graph_lPcdPr.jpg" width="500" />
 </center>
 
+Next question:  What is the difference between the value of the proposition $p \; q$ over there, at a distance of $\mathop{d}p$ and $\mathop{d}q$, and the value of the proposition $p \; q$ where you are standing, all expressed in the form of a general formula, of course?  Here is the appropriate formulation:
+
+<center>
+<img alt="Cactus Graph ((P,dP)(Q,dQ),PQ)" src="/nlab/files/Cactus_Graph_llPcdPrlQcdQrcPQr.jpg" width="500" />
+</center>
+
+Last question, for now:  What is the value of this expression from your current standpoint, that is, evaluated at the point where $p \; q$ is true?  Well, substituting $1$ for $p$ and $1$ for $q$ in the graph amounts to erasing the labels $p$ and $q$, as shown here:
+
+<center>
+<img alt="Cactus Graph (( ,dP)( ,dQ), )" src="/nlab/files/Cactus_Graph_ll_cdPrl_cdQrc_r.jpg" width="500" />
+</center>
+
+And this is equivalent to the following graph:
+
+<center>
+<img alt="Cactus Graph ((dP)(dQ))" src="/nlab/files/Cactus_Graph_lldPrldQrr.jpg" width="500" />
+</center>
+
+We have just met with the fact that the difference of the __$\mathop{and}$__ is the __$\mathop{or}$__ of the differences.
+
+<center>
+<img alt="Cactus Graph PQ Diff ((dP)(dQ))" src="/nlab/files/Cactus_Graph_PQ_Diff_lldPrldQrr.jpg" width="500" />
+</center>
+
+It will be necessary to develop a more refined analysis of that statement directly, but that is roughly the nub of it.
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -197,10 +223,4 @@ Templates ---
 
 Upload Queue ---
 
-[[Cactus_Graph_llPcdPrlQcdQrcPQr.jpg|Cactus Graph ((P,dP)(Q,dQ),PQ):pic]]
-
-[[Cactus_Graph_ll_cdPrl_cdQrc_r.jpg|Cactus Graph (( ,dP)( ,dQ), ):pic]]
-
-[[Cactus_Graph_lldPrldQrr.jpg|Cactus Graph ((dP)(dQ)):pic]]
-
-[[Cactus_Graph_PQ_Diff_lldPrldQrr.jpg|Cactus Graph PQ Diff ((dP)(dQ)):pic]]
+* {empty --- for now}
