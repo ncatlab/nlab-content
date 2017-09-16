@@ -1,5 +1,9 @@
 A [[sheaf]] on a [[small category|large category]] will itself be a large object.
 
++--{: .query}
+While that is true in one sense, a "large sheaf" could also mean a _sheaf of large sets_ on a site of whatever size.  Since this page is really about how to deal with large sites, how about we call it [[large site]]?
+=--
+
 While the definition of a [[sheaf]] doesn't require the underlying [[site]] to be a small category, many of the good properties of sheaves depend on such smallness.  To begin with, even the category of sheaves may have to be extra-large, but there are other issues, such as:
 
 * the existence of sheafification,
