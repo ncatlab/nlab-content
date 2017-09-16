@@ -118,6 +118,18 @@ Hence stable homotopy theory and homological algebra are both special cases of t
 
 # Alternative models # 
 
+Stable $(\infty,1)$-categories are equivalent to
+
+* $\Leftrightarrow$ [[stable model category]]
+
+* $\Leftrightarrow$ [[pre-triangulated spectral category]]
+
+The following three concepts are equivalent to each other and special cases of the above models, or equivalent in characteristic 0.
+
+* [[pre-triangulated dg-category]]
+
+* [[Frobenius category]]
+
 A [[triangulated category]] linear over a field $k$ can canonically be refined to 
 
 * a pre-triangulated [[dg-category]];
@@ -132,3 +144,20 @@ If $k$ has characteristic 0, then all these three concepts become equivalent.
 # Warning on terminology #
 
 A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  A connection between the terms is that the $(\infty,1)$-category of [[spectrum|spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or $E_\infty$-[[E_infinity-spaces|spaces]].
+
+
+#References#
+
+The canonical reference is of course
+
+* [[Jacob Lurie]], [[Stable Infinity-Categories]]
+
+This claims that
+
+>most of the results presented here are well-known to experts
+
+but is certainly the only comprehensive source for these results.
+
+A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each are these seminar notes:
+
+* S. Schwede, _Enhancements of triangulated categories_ ([pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf))
