@@ -1,4 +1,8 @@
-# Idea
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 Just as ordinary [[category theory]] provides a framework in which one can do "formal mathematics," one of the (many) purposes of [[higher category theory]] is to provide a framework in which one can do "formal category theory."  In particular, many concepts in ordinary category theory can be interpreted internally in a [[2-category]], in a way which specializes to the original concept in [[Cat]].  Examples of such concepts include [[adjunctions]], [[monads]], [[Grothendieck fibrations]], [[Kan extensions]], and [[fully faithful morphisms]].
 
@@ -10,7 +14,7 @@ What is missing is that the 2-category $V Cat$ doesn't natively supply any infor
 
 There are several not-quite-equivalent ways to describe this extra structure.  One due to Street and Walters, called a [[Yoneda structure]], involves assigning to each object $A$ a "presheaf object" $P A$ and a "Yoneda arrow" $A\to P A$; a profunctor $A\to B$ is then identified with an arrow $B \to P A$.  The notion of *equipment*, due to Wood, instead postulates an additional bicategory of "proarrows" and specifies their relationship to the ordinary arrows.  One can then define fully faithful morphisms, pointwise Kan extensions, weighted limits, etc. relative to this structure, in a way which specializes to the correct notions in $V Cat$.
 
-# Definition #
+## Definition ##
 
 An **equipment** (or *proarrow equipment*) consists of:
 
@@ -28,7 +32,7 @@ With this example in mind, we sometimes use $B(1,f)$ and $B(f,1)$ (or $hom_B(1,f
 The other most common sort of generalized category, namely [[internal categories]] in some category $S$, also form an equipment called $Cat(S)$.  In this case, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions. See "virtual equipments," below, for a context which avoids these restrictions on $V$ and $S$.
 
 
-# Category theory in an equipment
+## Category theory in an equipment ##
 
 We give here a few examples of how to do category theory internal to an equipment.
 
@@ -39,14 +43,14 @@ If $f:A\to C$ is an arrow and $J:K\to A$ is a proarrow, then a **$J$-weighted co
 If $j:A\to K$ is an arrow, then $j^\bullet$-weighted colimits are called **pointwise left extensions along $j$**.  It is easy to show that these are, in particular, left extensions in the 2-category of arrows, and that in $V Cat$ they reproduce the usual notion of pointwise left Kan extension.
 
 
-# Discrete fibrations and codiscrete cofibrations
+## Discrete fibrations and codiscrete cofibrations ##
 
 As noted above, in the case of ordinary categories, the profunctors can in fact be recovered from the 2-category $Cat$.  Specifically, profunctors $A\to B$ can be identified with two-sided discrete fibrations from $B$ to $A$ (that is, spans $B \leftarrow C \to A$ such that $C \to B$ is a [[Grothendieck fibration|(Grothendieck) fibration]], $C\to A$ is an opfibration, the two structures are compatible, and each fiber of $C\to B\times A$ is discrete).  The same is true for internal categories, but not for enriched categories.
 
 However, for a cosmos $V$, the $V$-profunctors $A\to B$ can _also_ be recovered from the 2-category $V Cat$ in a different, and in fact dual, way: they are the two-sided _codiscrete cofibrations_ from $B$ to $A$, i.e. two-sided discrete fibrations in $(V Cat)^{op}$.  This was first noticed by Street and subsequently expanded on by other authors; one can write down axioms on a 2-category guaranteeing that its codiscrete cofibrations can be used to construct an equipment.
 
 
-# Equipments and double categories
+## Equipments and double categories ##
 
 Given an equipment, we can construct a [[double category]] with the same objects, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
 $$\array{A & \overset{H}{\to} & C \\
@@ -58,7 +62,7 @@ are the 2-cells $g_\bullet H \to K f_\bullet$.  Note that if the arrows form a s
 Double categories constructed in this way have the special property that every vertical 1-cell $f$ has both a [[companion]] (namely $f_\bullet$) and a [[conjoint]] (namely $f^\bullet)$.  Conversely, from any double category with this property, one can construct an equipment in the obvious way.  In this way equipments can be shown to be equivalent to a certain class of double categories.  While the definition given above is perhaps simpler, for some purposes it is preferable to *define* equipments to be certain double categories, for instance when one wants to collect them into a 2-category or 3-category---basically the only way to define transformations between functors of equipments is to view them as double categories, explicitly or implicitly.
 
 
-# Virtual equipments
+## Virtual equipments ##
 
 One can formulate a generalized notion of equipment which includes $V Cat$ for _any_ monoidal category $V$ (and in fact, any [[multicategory]]), and $Cat(S)$ for any category $S$ with pullbacks.  The precise definition is complicated, but the basic idea is not: we start from the double-category definition, and instead of composites of the horizontal (pro)arrows, we allow the squares to have domains that are arbitrary composable strings, like so:
 $$\array{ & \to \to \dots \to &\\
@@ -67,7 +71,7 @@ $$\array{ & \to \to \dots \to &\\
 So far this is analogous to the generalization from monoidal categories to multicategories, and gives the notion of [[fc-multicategory]] (aka "virtual double category").  We then impose a condition analogous to the existence of companions and conjoints to obtain the notion of **virtual equipment** (see references).  Most of  category theory can be done in a virtual equipment just as well as in an equipment.
 
 
-# Categories enriched in an equipment
+## Categories enriched in an equipment ##
 
 For any equipment $W$ one can define a notion of **$W$-enriched category**.  This consists of
 
@@ -107,7 +111,7 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 * For a suitably nice category $S$ (such as a [[Grothendieck topos]]) there is an equipment $Ab(S)$ whose objects and arrows are those of $S$, and whose proarrows $A\to B$ are internal abelian group objects in $S/(B\times A)$.  An $Ab(S)$-enriched category with one object can be regarded as an "internal [[Ab-enriched category]]" in $S$.
 
 
-# References
+## References ##
 
 * R.J. Wood, "Abstract Proarrows I" and "Proarrows II" (the original definitions)
 
