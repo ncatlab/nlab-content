@@ -6,7 +6,7 @@ In the form of an NNO, the axiom of infinity generalises to the existence of [[i
 
 # Alternatives #
 
-Broadly speaking [[finite mathematics]] is mathematics that does not use or need the axiom of infinity; a finitist is an extreme breed of [[constructive mathematician|constructivist]] that believes that mathematics is better without the axiom of infinity, or even that this axiom is false.
+Broadly speaking [[finite mathematics]] is mathematics that does not use or need the axiom of infinity; a finitist is an extreme breed of [[constructive mathematics|constructivist]] that believes that mathematics is better without the axiom of infinity, or even that this axiom is false.
 
 A more extreme case is to *deny* the axiom of infninty with an __axiom of finiteness__: every set is [[finite set|finite]].  There is one of these for every definition of 'finite' given on that page; here is the strongest stated directly in terms of [[set theory]] as an axiom of [[induction]]:
 
