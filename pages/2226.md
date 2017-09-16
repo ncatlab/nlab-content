@@ -54,6 +54,42 @@ Introducing a few abbreviations for use in considering the present Example, we h
 
 In the present Example, $S$ = $I$ = Syntactic Domain.
 
+The next two Tables give the sign relations associated with the interpreters $\mathrm{A}$ and $\mathrm{B}$, respectively, putting them in the form of relational databases.  Thus, the rows of each Table list the ordered triples of the form $(o, s, i)$ that make up the corresponding sign relations, $L_{\mathrm{A}}, L_{\mathrm{B}} \subseteq O \:\times\: S \:\times\: I$.  It is often tempting to use the same names for objects and for relations involving these objects, but it is best to avoid this in a first approach, taking up the issues that this practice raises after the less problematic features of these relations have been treated.
+
+$$
+\array{
+\array{
+\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{3}} L_{\mathrm{A}} = \text{Sign Relation of Interpreter A} \\
+Object & Sign & Interpretant \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime  }
+&
+\array{
+\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{3}} L_{\mathrm{B}} = \text{Sign Relation of Interpreter B} \\
+Object & Sign & Interpretant \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime  }
+}
+$$
+
+These Tables codify a rudimentary level of interpretive practice for the agents $\mathrm{A}$ and $\mathrm{B}$, and provide a basis for formalizing the initial semantics that is appropriate to their common syntactic domain.  Each row of a Table names an object and two co-referent signs, making up an ordered triple of the form $(o, s, i)$ that is called an _elementary sign relation_, that is, one element of the relation's set-theoretic extension.
+
+Already in this elementary context, there are several different meanings that might attach to the project of a _formal semiotics_, or a formal theory of meaning for signs.  In the process of discussing these alternatives, it is useful to introduce a few terms that are occasionally used in the philosophy of language to point out the needed distinctions.
+
 ## Dyadic aspects of sign relations ##
 
 ### Connotation ###
