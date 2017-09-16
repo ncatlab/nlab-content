@@ -57,6 +57,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[lieven lebruyn|Lieven Le Bruyn]]
 * [[Marc Olschok]]
 * [[Mathieu Dupont]]
+* [[Matthew Kahle]]
 * [[Mike Shulman]]
 * [[Mike Stay]]
 * [[Omar Antolín-Camarena]]
