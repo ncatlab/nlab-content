@@ -1,3 +1,2 @@
-See [[dg-algebra]].
-
-category: delete
+&lt; [[chain algebra]]
+[[!redirects chain algebra -- history]]
