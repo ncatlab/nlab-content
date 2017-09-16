@@ -80,7 +80,7 @@ In this context Dan Freed is picking up again his old work on higher algebraic s
 
 * Daniel S. Freed, _Quantum Groups from Path Integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
 
-* Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([http://arxiv.org/abs/hep-th/9212115])
+* Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115]))
 
 where he argued that and how the path integral should assign $n$-categorical objects to domains of codimension $n$, and is re-expressing this in the $\infty$-functorial context.  (Freed speaks of _multi-tiered_ QFT instead of extended QFT.) 
 
@@ -96,13 +96,24 @@ There are indications that a complete picture of this involves [[groupoidificati
 
 * Jeffrey Morton, _Extended TQFTs and Quantum Gravity_ ([arXiv](http://arxiv.org/abs/0710.0032))
 
-A formalization of these idea of obtaining an extended FQFT from a higher categorical background field in the context of [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is proposed in 
+and, more generally [[geometric function theory]]:
+
+a big advancement in the understaing of extended $\sigma$-model QFTs is the discussion in
+
+* David Ben-Zvi, John Francis, David Nadler,
+_Integral Transforms and Drinfeld Centers in Derived Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
+
+which realizes $\sigma$-models by homming [[cobordism]] [[cospan]]s into the total spaces (realized as [[infinity-stack homotopically|infinity-stack]]) of background fields and regarding the resulting [[span]]s as pull-push operators on suitable [[geometric function theory|geometric functions]].  
+
+A related discussion concerning obtaining an extended FQFT from a higher categorical background field in the context of [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is proposed in 
 
 * [[schreiber:Nonabelian cocycles and their sigma model QFTs]]. 
 
 A discussion of the relation between extended _FQFT_ and [[AQFT]] with further references is in
 
 * Urs Schreiber, _AQFT from $n$-functorial QFT_ ([arXiv](http://arxiv.org/abs/0806.1079)).
+
+
 
 ## homological FQFT (and TCFT) ##
 
