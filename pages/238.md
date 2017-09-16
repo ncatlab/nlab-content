@@ -17,6 +17,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[category of simplices]]
+
+  * following [[Toby Bartels|Toby]]'s suggestion I moved [[descent and codescent]] to [[descent]] -- then I entriely rewrote it! Now it starts with very general nonsense on localization of $(\infty,1)$-presheaves and then derives descent conditions as concrete realizations of that localization. Currently where it ends I am planning to add discussion about how to further get from descent to gluing conditions (i.e. to $\Delta$- and oriental-weighted limits) following discussion that I am having with [[Mike Shulman|Mike]] on the blog [here](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023460)
+
   * added more details to [[ind-object]], relating the two different definitions
 
   * added standard examples of presheaves on open subsets to [[inverse image]]
