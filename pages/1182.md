@@ -22,6 +22,26 @@ The idea is to
 
 =--
 
+#Basic idea in three words#
+
+Geometric $\infty$-function theory is about the [[vertical categorification|infinity-categorification]] of the following basic fact of [[matrix calculus]]: for $X$ and $Y$ finite sets, for $k$ a field and for $C(X)$ and $C(Y)$ the $k$-vector spaces of $k$-valued functions on $X$ and $Y$, respectively, we have natural isomorphisms
+
+$$
+  C(X) \otimes C(Y)
+  \simeq
+  C(X \times Y)
+  \simeq
+  LinMap(C(X), C(Y))
+  \simeq
+  C(X)^* \otimes C(Y)
+$$
+
+of finite-dimensional vector spaces.
+
+In geometric $\infty$-function theory one replaced the finite sets here with generalized spaces called [[perfect infinity-stack|perfect]] [[derived stack]]s, and $k$-valued functions by something like $k$-vector bundles on these.
+
+That's it, essentially. The point is that this simple statement then turns out to be a powerful organization and unification tool for lots of structures appearing in [[representation theory]] and [[FQFT|functorial quantum field theory]].
+
 # Timeline #
 
 We will try to proceed as follows: we go through the sections of the two articles, step by step, possibly several steps for one section. Each week on Monday, one of us produces a "report" on the section he or she was assigned to read. 
@@ -103,7 +123,7 @@ $$
 
 generalizing the analogous operation as described as [[groupoidification]].
 
-As described as [[geometric function theory]], such pull-push operations can naturally be regarded as vast generalization of familiar [[matrix calculus]], including in particular operations like Fourier--Mukai transformations.
+As described at [[geometric function theory]], such pull-push operations can naturally be regarded as vast generalization of familiar [[matrix calculus]], including in particular operations like Fourier--Mukai transformations.
 
 
 ## Summary ##
