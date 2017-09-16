@@ -102,7 +102,7 @@ If you like [[negative thinking]], then instead of saying that categorification 
 
 In particular, while two [[elements]] of a set simply may (or may not) be equal, two [[objects]] of a [[groupoid]] may be [[isomorphic]] in many different ways. And while two [[parallel morphisms|parallel isomorphisms]] in a groupoid may be equal, two parallel [[equivalences]] in a $2$-groupoid may be isomorphic in many different ways. Or while one element $x$ of a [[poset]] may precede an element $y$, there may be many different [[morphisms]] from one object $x$ of a category to an object $y$.
 
-As you can see from these examples, one can distinguish the "allowing of higher morphisms" from the possibility of adding noninvertible arrows.  We may call the latter [[laxification]].  Often "categorification" includes both operations, but fairly often it only includes the first.
+As you can see from these examples, one can distinguish the "allowing of higher morphisms" from the possibility of adding noninvertible arrows.  We may call the latter [[laxification]].  Often "categorification" includes both operations, but fairly often it only includes the first; we may call that 'groupoidification' or 'categorification proper' (or a better word if somebody thinks of one, since [[groupoidification]] already means something more specific and there\'s nothing 'improper' about doing both at once).
 
 
 
