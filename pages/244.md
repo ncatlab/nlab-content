@@ -121,3 +121,5 @@ For an elementary introduction to symmetric monoidal categories using string dia
 * John Baez and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
 
 Eventually we should include all these definitions and diagrams here!  I don't know a good way to do this yet.
+
+[[!redirects symmetric monoidal categories]]
