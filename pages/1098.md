@@ -32,3 +32,4 @@ Section 5.1 of
 
 [[!redirects (∞,1)-presheaf]]
 [[!redirects (∞,1)-presheaves]]
+[[!redirects (infinity,1)-presheaves]]
