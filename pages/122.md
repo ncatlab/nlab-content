@@ -155,6 +155,8 @@ For functors between [[n-category|higher categories]], see [[lax natural transfo
 
 A transformation which is natural only relative to [[isomorphisms]] may be called a [[canonical transformation]].
 
+For functors with more complicated shapes than $C \rightrightarrows D$, see [[extranatural transformation]] and [[dinatural transformation]].
+
 
 ## Discussion 
 
