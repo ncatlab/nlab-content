@@ -30,4 +30,4 @@ arbitrary (but small) [[coproducts]]
 
 #### Cofibred Products
 
-[[cofibred coproducts]]
+[[cofibered coproduct|cofibred coproducts]]
