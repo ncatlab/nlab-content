@@ -682,131 +682,55 @@ To broaden our experience with simple examples, let us examine the sixteen funct
 
 Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two variables, giving equivalent expressions for each function in several different systems of notation.
 
-<table align="center" border="1" cellpadding="4" markdown="1" style="text-align:center; width:90%">
-<caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
-
-<tr style="background:#f0f0ff">
-<td><p>$\mathcal{L}_1$</p><p>$\text{Decimal}$</p></td>
-<td><p>$\mathcal{L}_2$</p><p>$\text{Binary}$</p></td>
-<td><p>$\mathcal{L}_3$</p><p>$\text{Vector}$</p></td>
-<td><p>$\mathcal{L}_4$</p><p>$\text{Cactus}$</p></td>
-<td><p>$\mathcal{L}_5$</p><p>$\text{English}$</p></td>
-<td><p>$\mathcal{L}_6$</p><p>$\text{Ordinary}$</p></td>
-</tr>
-
-<tr style="background:#f0f0ff">
-<td>&nbsp;</td>
-<td align="right">$p:$</td>
-<td>$1\;1\;0\;0$</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td></tr>
-
-<tr style="background:#f0f0ff">
-<td>&nbsp;</td>
-<td align="right">$q:$</td>
-<td>$1\;0\;1\;0$</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td></tr>
-
-<tr>
-<td>$\array{
-f_0 \\ f_1 \\ f_2 \\ f_3 \\
-f_4 \\ f_5 \\ f_6 \\ f_7 }$</td>
-<td>$\array{
-f_{0000} \\ f_{0001} \\ f_{0010} \\ f_{0011} \\
-f_{0100} \\ f_{0101} \\ f_{0110} \\ f_{0111} }$</td>
-<td>$\array{
-0\;0\;0\;0 {}_{\,} \\ 0\;0\;0\;1 {}_{\,} \\ 0\;0\;1\;0 {}_{\,} \\ 0\;0\;1\;1 {}_{\,} \\
-0\;1\;0\;0 {}_{\,} \\ 0\;1\;0\;1 {}_{\,} \\ 0\;1\;1\;0 {}_{\,} \\ 0\;1\;1\;1 {}_{\,} }$</td>
-<td>$\array{
-(\;) \\ (p)(q) \\ (p)\;q\; \\ (p)\;\;\; \\
-\;p\;(q) \\ \;\;\;(q) \\ (p,\;q) \\ (p\;\;q) }$</td>
-<td>$\array{
-\text{false}
+$$\array{
+\text{Table A1.  Propositional Forms on Two Variables}
 \\
-\text{neither}\; p \;\text{nor}\; q
+\array{
+\arrayopts{
+\frame{solid}
+\collines{solid}
+\rowlines{none solid none solid none none none none none none none solid none}}
+\mathcal{L}_1 & \mathcal{L}_2 & \mathcal{L}_3 & \mathcal{L}_4 & \mathcal{L}_5 & \mathcal{L}_6
 \\
-q \;\text{without}\; p
+\text{Binary} & \text{Decimal} & \text{Bit Vector} & \text{Cactus} & \text{English} & \text{Ordinary}
 \\
-\text{not}\; p
+& \cellopts{\colalign{right}} p: & 1\,1\,0\,0 & & &
 \\
-p \;\text{without}\; q
+& \cellopts{\colalign{right}} q: & 1\,0\,1\,0 & & &
 \\
-\text{not}\; q
+f_{0}  & f_{0000} & 0\,0\,0\,0 & 04 & 05 & 06
 \\
-p \;\text{not equal to}\; q
+f_{1}  & f_{0001} & 0\,0\,0\,1 & 14 & 15 & 16
 \\
-\text{not both}\; p \;\text{and}\; q
-}$</td>
-<td>$\array{
-0
+f_{2}  & f_{0010} & 0\,0\,1\,0 & 24 & 25 & 26
 \\
-\not p \wedge \not q
+f_{3}  & f_{0011} & 0\,0\,1\,1 & 34 & 35 & 36
 \\
-\not p \wedge q
+f_{4}  & f_{0100} & 0\,1\,0\,0 & 44 & 45 & 46
 \\
-\not p
+f_{5}  & f_{0101} & 0\,1\,0\,1 & 54 & 55 & 56
 \\
-p \wedge \not q
+f_{6}  & f_{0110} & 0\,1\,1\,0 & 64 & 65 & 66
 \\
-\not q
+f_{7}  & f_{0111} & 0\,1\,1\,1 & 74 & 75 & 76
 \\
-p \ne q
+f_{8}  & f_{1000} & 1\,0\,0\,0 & 84 & 85 & 86
 \\
-\not p \vee \not q
-}$</td></tr>
-
-<tr>
-<td>$\array{
-f_8    \\ f_9    \\ f_{10} \\ f_{11} \\
-f_{12} \\ f_{13} \\ f_{14} \\ f_{15} }$</td>
-<td>$\array{
-f_{1000} \\ f_{1001} \\ f_{1010} \\ f_{1011} \\
-f_{1100} \\ f_{1101} \\ f_{1110} \\ f_{1111} }$</td>
-<td>$\array{
-1\;0\;0\;0 \\ 1\;0\;0\;1 \\ 1\;0\;1\;0 \\ 1\;0\;1\;1 \\
-1\;1\;0\;0 \\ 1\;1\;0\;1 \\ 1\;1\;1\;0 \\ 1\;1\;1\;1 }$</td>
-<td>$\array{
-\;\;p\;\;q\;\; \\ ((p,\;q)) \\ \;\;\;\;\;q\;\; \\ \;(p\;(q)) \\
-\;\;p\;\;\;\;\; \\ ((p)\;q)\; \\ ((p)(q)) \\ ((\;)) }$</td>
-<td>$\array{
-p \;\text{and}\; q
+f_{9}  & f_{1001} & 1\,0\,0\,1 & 94 & 95 & 96
 \\
-p \;\text{equal to}\; q
+f_{10} & f_{1010} & 1\,0\,1\,0 & a4 & a5 & a6
 \\
-q
+f_{11} & f_{1011} & 1\,0\,1\,1 & b4 & b5 & b6
 \\
-\text{not}\; p \;\text{without}\; q
+f_{12} & f_{1100} & 1\,1\,0\,0 & c4 & c5 & c6
 \\
-p
+f_{13} & f_{1101} & 1\,1\,0\,1 & d4 & d5 & d6
 \\
-\text{not}\; q \;\text{without}\; p
+f_{14} & f_{1110} & 1\,1\,1\,0 & e4 & e5 & e6
 \\
-p \;\text{or}\; q
-\\
-\text{true}
-}$</td>
-<td>$\array{
-p \wedge q
-\\
-p = q
-\\
-q
-\\
-p \Rightarrow q
-\\
-p
-\\
-p \Leftarrow q
-\\
-p \vee q
-\\
-1
-}$</td></tr>
-
-</table>
+f_{15} & f_{1111} & 1\,1\,1\,1 & f4 & f5 & f6
+}
+}$$
 
 ## External links ##
 
