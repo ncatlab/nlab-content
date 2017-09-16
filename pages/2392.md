@@ -34,9 +34,9 @@ Here are two blog entries on talks on this stuff:
 
 In this approach an $(\infty,1)$-operad $C^\otimes$ is regarded as an [[(∞,1)-category]] $C$ -- the unary part of the $(\infty,1)$-operad to be described-- with extra structure that determines [[(∞,1)-functor]]s $C^{\times n} \to C$.
 
-This and the conditions on these are encoded in requiring that $C^\otimes$ is a [[coCartesian fibration]] $C^\otimes \to \Gamma$ over [[Segal's category]] $\Gamma$ of pointed finite sets, satisfying some further conditions.
+This and the conditions on these are encoded in requiring that $C^\otimes$ is an $(\infty,1)$-functor $C^\otimes \to \Gamma$ over [[Segal's category]] $\Gamma$ of pointed finite sets, satisfying some conditions.
 
-In particular, any [[symmetric monoidal (∞,1)-category]] yields an example of an $(\infty,1)$-operad in this sense. (For the moment, see [[monoidal (infinity,1)-category]] for more comments and references on higher operads in this context.)
+In particular, any [[symmetric monoidal (∞,1)-category]] yields an example of an $(\infty,1)$-operad in this sense.  In fact, symmetric monoidal $(\infty,1)$-categories can be *defined* as $(\infty,1)$-operads such that the functor $C^\otimes \to \Gamma$ is a [[coCartesian fibration]].  (For the moment, see [[monoidal (infinity,1)-category]] for more comments and references on higher operads in this context.)
 
 This is the approach described in (the new version of !)
 
