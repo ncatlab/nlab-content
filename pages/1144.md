@@ -2,17 +2,22 @@
 
 #Idea#
 
-As with many other parts of homotopy theory we can view rational homotopy theory in two ways. Either we can see that  looks at a subcategory of topological spaces for which a particular homotopy functor gives exceptionally good results, or alternatively it looks at fairly arbitrary nice spaces, but collects up and uses only the information available using some particular type of homotopy functor.
+As with many other parts of [[homotopy theory]] one can view _rational homotopy theory_ in two ways:
+
+* either one looks at a subcategory of [[topological space]]s for which a particular [[homotopy functor]] gives exceptionally good results;
+
+* or alternatively one looks at fairly arbitrary nice spaces, but collects up and uses only the information available using some particular type of [[homotopy functor]].
 
 
-Fronm the first viewpoint, rational homotopy theory studies special [[topological space]]s called **rational spaces**. The point of this is that
+From the first viewpoint, rational homotopy theory studies special [[topological space]]s called **rational spaces**. 
+
+The point of this is that
 
 * every (simply connected) topological space can be _approximated_ by a rational space;
 
 * rational topological spaces are entirely encoded in terms of [[differential graded algebra]].
 
-Alternatively, looking at simply connected spaces, we can concentrate on what happens if we tensor their homotopy groups with the field of rationals. What information can be gleaned from these homotopy functors? The answer is 'an incredible amount' and results in a _very rich theory_.
-
+Alternatively, looking at simply connected spaces, we can concentrate on what happens if we tensor their homotopy groups with the field of rationals. What information can be gleaned from these homotopy functors? The answer is 'an incredible amount' -- namely all non-[[torsion subgroup|torsion]] information -- and results in a _very rich theory_.
 
 In these ways, rational homotopy theory connects and unifies two large areas of mathematics, [[homotopy theory]] and [[differential graded algebra]]. Akin to the [[Dold-Kan correspondence]], the [[Sullivan construction]] in rational homotopy theory connects the conceptually powerful perspective of [[homotopy theory]] with the computationally powerful perspective of [[differential graded algebra]]. 
 
