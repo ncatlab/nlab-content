@@ -1,8 +1,8 @@
-## External links ##
+Peirce's law is a [[proposition]] that involves only [[conditionals]] that is valid in [[classical logic]] but not [[intuitionistic logic]]:
 
-* [Peirce's Law @ Google Knol](http://knol.google.com/k/jon-awbrey/peirces-law/3fkwvf69kridz/10)
+$$ ((p \Rightarrow q) \Rightarrow p) \Rightarrow p $$
 
-* [Peirce's Law @ PlanetMath](http://planetmath.org/encyclopedia/PeircesLaw.html)
+It is named after [[Charles Sanders Peirce]].
 
 
 [[!redirects Peirce's axiom]]
