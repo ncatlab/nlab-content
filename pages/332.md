@@ -1,17 +1,18 @@
 #some of the entries related to geometry#
 
-* [[differential geometry]], [[differential topology]], [[Diff]]
+* [[differential geometry]], [[differential topology]], [[Diff]], [[cobordism]]
 * [[differential form]], [[tangent space]]
 * [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]]
 * [[fibre bundle]], [[principal bundle]]
 * [[connection]] (and links therein)
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
-* [[derived smooth manifold]], [[cobordism]], [[Deligne cohomology]]
+* [[derived algebraic geometry]], [[derived smooth manifold]]
 * [[noncommutative geometry]]
 * [[noncommutative algebraic geometry]], [[noncommutative scheme]]
 * [[algebraic geometry]], [[analytic geometry]], book entry [[EGA]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
-* [[open subscheme]], [[closed subscheme]], [[formal scheme]], [[formal group scheme]], [[algebraic group]]
+* [[open subscheme]], [[closed subscheme]]
+* [[formal scheme]], [[formal group scheme]], [[formal group law]], [[algebraic group]]
 * [[spectrum (geometry)]]
 * [[algebraic variety]], [[normal variety]], [[Kähler manifold]], [[hyperplane line bundle]]
 * [[algebraic space]], [[algebraic stack]], [[diffiety]]
@@ -23,10 +24,11 @@
 * [[Lie theory]], [[Lie's three theorems]], [[Erlangen program]]
 * [[ringed space]], [[ringed site]]
 * [[synthetic differential geometry]], [[infinitesimal object]] 
+ 
+  * book entry [[Models for Smooth Infinitesimal Analysis]]
 * [[generalized smooth space]]: 
 
   * [[Froelicher space]], [[diffeological space]], [[smooth space]]
-  * book entry [[Models for Smooth Infinitesimal Analysis]]
 * [[space and quantity]]
 
 There are many entries on [[sheaf]], [[stack]], [[site]] and [[topos]] theory including
