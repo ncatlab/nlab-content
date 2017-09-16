@@ -2,7 +2,7 @@ Let $G$ be a [[group object|group]] in some category $C$ of spaces. We assume th
 
 Consider a $G$-space $X$ with action $\rho: G\times X\to X$ and projection $p: G\times X\to X$.  These data give rise to an [[action groupoid]] in the category of spaces, denoted by $[X/G]$ or sometimes $X//G$.  This groupoid can also be identified with its [[nerve]], which is a simplicial object in spaces.
 
-An __equivariant sheaf__ over a $G$-space $X$ is a $G$-[[equivariant object]] in $F_G$. In other words, it is a sheaf $x$ over $X$ together with an isomorphism $\theta : p^* x \to \rho^* x$ of sheaves over $G\times X$ satisfying the usual cocycle condition on $G\times G\times X$. All equivariant sheaves form the equivariant fiber $F_X^G$ of $F$ over $X$. The equivariant fiber over $X$ is thought of as a fiber over the simplicial object $[X/G]$.
+An __equivariant sheaf__ over a $G$-space $X$ is a $G$-[[equivariant object]] in $F_X$. In other words, it is a sheaf $x$ over $X$ together with an isomorphism $\theta : p^* x \to \rho^* x$ of sheaves over $G\times X$ satisfying the usual cocycle condition on $G\times G\times X$. All equivariant sheaves form the equivariant fiber $F_X^G$ of $F$ over $X$. The equivariant fiber over $X$ is thought of as a fiber over the simplicial object $[X/G]$.
 
 If the fibered category $F$ is a [[stack]] for some [[subcanonical topology|subcanonical Grothendieck topology]] on $C$ and $X$ a $G$-[[torsor]] over some true base space $X/G$ in $C$ then there is a descent along torsor: the equivariant fiber $F_X^G$ is canonically equivalent to the usual fiber over $X/G$. In other words the fibers over $[X/G]$ and $X/G$ are equivalent. 
 
