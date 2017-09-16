@@ -17,6 +17,8 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
   * any [[second-countable topological space|second-countable]] [[locally compact space|locally compact]] Hausdorff space is paracompact;
 
+  * in particular every [[second-countable topological space|second countable]] finite-dimensional [[manifold]] is paracompact .
+
 * metric spaces
 
   * every [[separable space|separable]] [[metric space]] is paracompact;
@@ -43,6 +45,9 @@ Or am I missing something?
 
 _Zoran_ Sometimes people do consider nonparacompacts manifolds, but it is standard to assume that we work with paracompact ones. 
 
+[[Urs Schreiber]]: Probably my mistake was that I missed the "second countable" clause above. 
+
+So every second countable fin-dim manifold is paracompact. 
 =--
 
 
