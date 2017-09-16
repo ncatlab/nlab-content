@@ -4,9 +4,9 @@ The notion of _ind-object_ and _ind-category_ in an [[(infinity,1)-category]] is
 
 #Definition#
 
-The different equivalent defintions of ordinary [[ind-object]]s have their analog for [[(infinity,1)-category|(infinity,1)-categories]].
+The different equivalent definitions of ordinary [[ind-object]]s have their analog for [[(infinity,1)-category|(infinity,1)-categories]].
 
-Let $C$ be a small [[(infinity,1)-category]]. Write for $\kappa$ a [[cardinal number|regular cardinal]] write $ind_\kappa \text{-}C$ for the full sub-[[(infinity,1)-category]] of $[[(infinity,1)-presheaf|(infinity,1)-presheaves]]$ on those $(\infty,1)$-presheaves
+Let $C$ be a small [[(infinity,1)-category]]. Write for $\kappa$ a [[cardinal number|regular cardinal]] write $ind_\kappa \text{-}C$ for the full sub-[[(infinity,1)-category]] of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on those $(\infty,1)$-presheaves
 
 $$
   F : C^{op} \to TOp
