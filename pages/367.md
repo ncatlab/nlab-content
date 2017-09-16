@@ -7,7 +7,7 @@ A simplicial object $X$ in a [[category]] $C$ is a collection $\{X_n\}_{n \in \m
 
 A **simplicial object** in a category $C$ is a [[functor]] $\Delta^{op} \to C$, where $\Delta$ is the [[simplex category|simplicial indexing category]].
 
-A **cosimplicial object** in $C$ is simimarly a fuunctor out of the [[opposite category]], $\Delta \to C$.
+A **cosimplicial object** in $C$ is similarly a functor out of the [[opposite category]], $\Delta \to C$.
 
 Accordingly, simplicial and cosimplicial objects in $C$ themselves form a [[category]] in an obvious way, namely the [[functor category]] $[\Delta^{op},C]$ and $[\Delta,C]$, respectively.
 
