@@ -27,6 +27,8 @@ meaning that _two_ slices of cake yield $A$.  Disallowing contraction then corre
 
 +--{: .query}
 Lynn, I can\'t believe that you shied away from the punchline!  ---Toby
+
+[[Finn Lawler]]: (Who's Lynn?)  I thought I'd be subtle, but maybe I was a bit too subtle!
 =--
 
 Linear logic was introduced in \[1\].  Although it is
