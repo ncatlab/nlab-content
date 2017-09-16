@@ -9,7 +9,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-24
 
-* [[Urs Schreiber]] created [[Waldhausen S-construction]] and edited [[Waldhausen category]] a bit, but needs still more work -- help is appreciated, I am not sure yet if I found the best literature
+* [[Urs Schreiber]] 
+
+  * created [[K-theory spectrum]]
+
+  * created [[Waldhausen S-construction]] and edited [[Waldhausen category]] a bit, but needs still more work -- help is appreciated, I am not sure yet if I found the best literature
 
 * [[Eric]]: 
 
