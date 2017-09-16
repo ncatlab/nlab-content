@@ -11,4 +11,6 @@
 
 * [[Chern-Simons theory]]
 
+* [[Topological Quantum Field Theories from Compact Lie Groups]]
+
 category: people
