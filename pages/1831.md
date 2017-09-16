@@ -24,7 +24,7 @@ As described at [[generalized universal bundle]], this pullback construction is 
 
 # Definition #
 
-A Cartesian fibration is an inner fibration of simplicial sets $p : X \to S$ such that for every edge $f : X \to Y$ of $S$ and every lift $\tilde{y}$ of $y$ (that is, $p(\tilde{y})=y$), there is a [[cartesian morphism|Cartesian edge]] $\tilde{f} : \tilde{x} \to \tilde{y}$ in $X$ lifting $f$.
+A Cartesian fibration is an [[inner fibration]] of simplicial sets $p : X \to S$ such that for every edge $f : X \to Y$ of $S$ and every lift $\tilde{y}$ of $y$ (that is, $p(\tilde{y})=y$), there is a [[cartesian morphism|Cartesian edge]] $\tilde{f} : \tilde{x} \to \tilde{y}$ in $X$ lifting $f$.
 
 # Properties #
 
