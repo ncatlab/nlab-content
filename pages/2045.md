@@ -1,0 +1,3 @@
+An object $X$ in an [[abelian category]] $A$ is said to be __semisimple__ if it is a coproduct (direct sum) of [[simple objects]]. An example are semisimple left $R$-modules where $R$ is a ring. A semisimple module is __isotypic__ if it is a direct sum of isomorphic simple modules (the isomorphism class of simple modules is called its _type_).
+
+Sometimes this notion is considered in a bit more general setup then abelian (where it is most often used); sometimes with subtle variants. For Lie algebras, it is a bit different by convention: a nontrivial Lie algebra is semisimple if it is a direct sum of nonabelian simple Lie algebras; though a 1-dimensional abelian Lie algebra is simple in the categorical (an in common) sense. 
