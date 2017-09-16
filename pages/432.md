@@ -1,3 +1,2 @@
-See [[predicative mathematics]].
-
-category: redirect
+&lt; [[predicativism]]
+[[!redirects predicativism -- history]]
