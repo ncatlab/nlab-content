@@ -1,5 +1,10 @@
 <div class="rightHandSide toc">
 [[!include supergeometry - contents]]
+
+***
+
+[[!include synthetic differential geometry - contents]]
+
 </div>
 
 
