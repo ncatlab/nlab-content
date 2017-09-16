@@ -17,7 +17,9 @@ The objects on the left are not difficult to define for schemes (at least naivel
 
 The reason Galois's name is attached to this theory is that in the case of the scheme $Spec(k)$, the objects corresponding to the covering spaces are simply [[field extension]]s $Spec(k')$. The fundamental group of schemes defined in this way is the [[algebraic fundamental group]], and is a [[profinite group]].
 
-The basic idea of Grothendieck's Galois theory may be extended to objects in an [[topos]] and then to objects in any [[(∞,1)-topos]]. For more on this see [[homotopy group of an ∞-stack]].
+### Generalizations
+
+The basic idea of Grothendieck's Galois theory may be extended to objects in an [[topos]] -- leading to a notion of [[fundamental group of a topos]] --  and then further to objects in any [[(∞,1)-topos]]. For more on this see [[homotopy group of an ∞-stack]].
 
 ## Details
 
