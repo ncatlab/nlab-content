@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * slightly edited and updated links at [[geometric function theory]] -- one of them now points to the new [[examples for geometric function objects]], which however is still to be written, but I have to interrupt for a moment
+
   * created entry for [[Michael Batanin]]
 
   * created stub for [[Batanin omega-category]]
