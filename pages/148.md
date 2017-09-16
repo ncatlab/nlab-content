@@ -1,3 +1,2 @@
-See [[generalized smooth algebra]].
-
-category: redirect
+&lt; [[generalized smooth algebras]]
+[[!redirects generalized smooth algebras -- history]]
