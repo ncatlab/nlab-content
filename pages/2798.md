@@ -215,8 +215,7 @@ This is in section 8.4 of the lecture notes cited below.
 
 
 +-- {: .un_proposition }
-###### Proposition
-**(compatibility with the Joyal model structure)**
+###### Proposition (compatibility with the Joyal model structure)
 
 Let $|$ be the tree with a single leaf and no vertex. Then the [[overcategory]] $dSet/\Omega[|]$ is canonically isomorphic to [[SSet]].
 
