@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The term "local system" originally meant and means a _local system of coefficients for [[cohomology]]_. In that context a local system is a connective [[spectrum]] or some other coefficient [[topological space]] $A$ equipped with an [[action]] of the first [[fundamental group]] $\pi_1(X)$ of a given connected base space  $X$. The corresponding [[fibration sequence]] $A \to A//\pi_1(X) \to \mathbf{B}\pi_1(X)$ together with the canonical $\pi_1(X)$-cocycle $c : X \to \mathbf{B}\pi_1(X)$ on $X$ that classified the [[universal cover]] of $X$ define a notion of [[twisted cohomology]] with twist $[c]$. This is the "$A$-cohomology with local coefficients" for the given action. See [[twisted cohomology]] for details.
 
@@ -79,14 +84,14 @@ $$
 
 maybe addressed as a derived category of local systems, or the like. More on this is at [[geometric infinity-function theory]] (under "basic ideas related to $\infty$-stacks") and at [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]].
 
-#Definitions#
+## Definitions
 
 The notion of *local system* exists in several different forms, each trying to capture some basic intuition in an appropriate language  for the applications that are being considered. For the moment we will not enquire too deeply as to the exact relationships between them 
 
 
 We start with a 'geometric' definition and then give the [[sheaf]]-theoretic one.
 
-## geometric definition ##
+### Geometric definition ##
 
 A **local system** on a topological space $X$ with coefficients in a category $A$ is a functor
 
@@ -102,7 +107,7 @@ $$
   \,.
 $$
 
-## history ##
+### History ##
 
 In a paper
 
@@ -122,7 +127,7 @@ on page 58 :
 
 Some of the relationships with cohomology and sheaves are explored in various parts of the book.
 
-### higher categorical geometric definition ###
+#### Higher categorical geometric definition
 
 For any notion of [[fundamental infinity-groupoid]] there is a corresponding notion of higher local system.
 
@@ -152,7 +157,7 @@ There is an another direction of categorifications of local systems (where rough
 =--
 There is a very close relationship between this notion and sheaf theory. Locally constant sheaves play the role of locally trivial fibre bundles in the algebraic-geometric context, so the term 'local system' is used in this context in the following sense:
 
-## sheaf-theoretic definition ##
+### Sheaf-theoretic definition
 
 
 +-- {: .un_defn}
@@ -169,11 +174,11 @@ $D_X$-[[D-module|modules]] and local systems on $X$.
 =--
 
 
-#Examples#
+##Examples
 
 ...
 
-#Related entries#
+## Related entries
 
 * [[simplicial local system]]: within Sullivan's (1977) theory of _Infinitesimal computations in topology_, he refers to 'local systems' several times. This seems to be simplicial in nature. [[simplicial local system|This]] entry explores some of the uses of that notion based on Halperin's lecture notes on minimal models
 
@@ -188,7 +193,7 @@ $D_X$-[[D-module|modules]] and local systems on $X$.
 
 
 
-#Expositions#
+## Expositions
 
 A blog exposition of some aspects of local system is developed here:
 
@@ -205,7 +210,7 @@ A blog exposition of some aspects of local system is developed here:
 
 ***
 
-#Discussion#
+## Discussion
 
 I ([[Urs Schreiber|Urs]]) moved the discussion here, not (at all) to indicate that it is over, but in order that we better see the structure of the entry that we are developing here.
 
