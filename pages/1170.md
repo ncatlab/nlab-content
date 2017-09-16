@@ -47,6 +47,8 @@ I\'m inclined to call such a thing a 'sequential [[filter|convergence space]]'. 
 I added some remarks addressing the relationship to convergence spaces.  I also like convergence spaces (and their friends, like pseudotopological spaces) very much, and I'm sure they are important in some contexts, such as analysis or more point-set-y topology.   However, I think that probably sequential convergence spaces are a better choice for homotopy theory, for the reasons I gave above.
 
 _Toby_:  Ha, now I\'ve realised that 'sequential convergence space' is really not correct, since the last clause of the definition makes it a pseudotopological space!  So it should be 'sequential pseudotopological space', and now 'subsequential space' is looking nicer than ever.
+
+[[Mike Shulman|Mike]]: Okay.  I didn't realize at first that a "convergence space" is not the same as a pseudotopological space, since pseudotopological spaces seem to me the most natural notion of convergence for filters.  (Are there natural convergence spaces that are not pseudotopological?)  Move it back to [[subsequential space]] if you want.
 =--
 
 
