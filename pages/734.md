@@ -46,3 +46,5 @@ Note, though, that not _all_ homotopy limits produce weak limits in the homotopy
 Weak limits in homotopy categories play an important role in the [[Brown representability theorem]].
 
 [[!redirects weak pullback]]
+[[!redirects weak finite limits]]
+[[!redirects weak limits]]
