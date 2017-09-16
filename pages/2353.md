@@ -41,6 +41,10 @@ and $f(x) = y$.
 What [[Bill Lawvere]] called the [[cograph of a function]] is the connected components
 $\pi_0(Cograph(f))$ of this category.
 
++--{: .query}
+[[Mike Shulman]]: Same question about [[weak pullback]] as at [[graph of a functor]].
+=--
+
 ## cographs of functors between 1-categories ##
 
 For $f : C \to D$ an ordinary  [[functor]], 
@@ -62,16 +66,17 @@ As emphasized in the beginning of section 5.2 there, cographs of functors may be
 +-- {: .un_prop }
 ###### Proposition
 
-Two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functor]]s precisely
-if they have the same cographs up to the obvious  passage to [[opposite category|opposite categories]]:
+Two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functor]]s precisely if their cographs (modulo the obvious passage to [[opposite categories]]) are isomorphic under $C$ and $D$:
 
 $$
   (L \dashv R) \Leftrightarrow 
-  (cograph(L) = cograph(R^{op})^{op})
-  \,.
+  (cograph(L) \cong cograph(R^{op})^{op})
 $$
 
+where the isomorphism is in the co-slice category $(C\sqcup D)/Cat$.
 =--
+
+More precisely, there is a bijection between adjunctions $L\dashv R$ and isomorphisms as above.
 
 +-- {: .proof}
 ###### Proof
@@ -110,18 +115,18 @@ $$
   \right.
 $$ 
 
-Evidently these categories are equivalent (even equal) precisely if for all $x \in C, y \in D$ we have
+Evidently these categories are isomorphic precisely if for all $x \in C, y \in D$ we have
 
 $$
-  Hom_D(L(x),y) \simeq Hom_C(x,R(y))
+  Hom_D(L(x),y) \cong Hom_C(x,R(y))
   \,.
 $$
 
-This is precisely the condition that $L$ and $R$ are [[adjoint functor]]s.
+Such a natural isomorphism is precisely the structure of an adjunction $L\dashv R$.  (It is natural because the isomorphism is an isomorphism of categories, and the functoriality of $Hom_D(L(-),-)$ and $Hom_C(-,R(-))$ is encoded by composition in the cograph.)
 
 =--
 
-
+Note that under the identification of [[profunctors]] with *codiscrete cofibrations* in $Cat$, the cograph of a functor is the profunctor associated to it (and the cograph $cograph(R^{op})^{op}$ is the *other* profunctor associated to it).
 
 
 ## cographs of functors between $(\infty,1)$-categories ##
