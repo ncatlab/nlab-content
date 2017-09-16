@@ -43,7 +43,7 @@ is an isomorphism.
 ### Local objects 
 
 +-- {: .un_defn}
-###### Definition [5.5.4.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=383) in [[Higher Topos Theory|HTT]]
+###### Definition [5.5.4.1](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=383) in [[Higher Topos Theory|HTT]]
 
 Let $C$ be an [[(∞,1)-category]] and $S$ a collection of morphisms in $C$. Then an [[object]] $c \in C$ is **$S$-local** if the [[hom-functor]]
 $$
