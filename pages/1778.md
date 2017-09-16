@@ -341,7 +341,7 @@ $$
 =--
 
 
-## Nonabelian 1-cocycles: gerbes and principal 2-bundles ##
+## Nonabelian 2-cocycles: gerbes and principal 2-bundles ##
 
 
 In one degree higher the general [[homotopy n-type|homotopy 2-type]] coefficient object is modeled using a strict [[2-group]] $H$ coming from a [[crossed module]]
