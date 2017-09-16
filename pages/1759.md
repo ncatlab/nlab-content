@@ -9,6 +9,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-26
 
+*  [[Toby Bartels]]:
+   *  Tricked up John\'s picture at [[centipede mathematics]], based on code found at [[Jacques Distler]].
+   *  Objected to the charge of centipede mathematics at [[measurable space]], on the grounds of historical inaccuracy.
+
 *  [[John Baez]] 
 
    *  asked a question about notation near the top of [[Tall-Wraith monoid]], and tried to polish the proof that a Tall-Wraith monoid in abelian groups is just a ring, and enjoyed bickering a bit more with Andrew Stacey in the big green box near the bottom.
