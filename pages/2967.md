@@ -14,7 +14,7 @@ A _standard Courant Lie algebroid_ of a [[manifold]] $X$ is a type of [[Courant 
 
 Recall from the discussion at [[Courant algebroid]] that there are the following two equivalent definitions of Courant algebroids: 
 
-* as a vector bundle equipped with a bracket and a bilinear form on its space of sections, satisfying various identities;
+* as a [[vector bundle]] equipped with a bracket and a bilinear form on its space of sections, satisfying various identities;
 
 * as a [[L-infinity algebroid|Lie 2-algebroid]] equivalently encoded in its [[Chevalley-Eilenberg algebra]], equivalently the function algebra on a certain type of [[NQ-supermanifold]].
 
@@ -141,6 +141,11 @@ $$
   d_{\mathfrak{c}(X)} : \theta_i = p_i
 $$
 
+$$
+  d_{\mathfrak{c}(X)} : p_i = 0
+  \,
+$$
+
 
 where $\{x^i\}_{i=1}^n$ are the canonical coordinate functions on $\mathbb{R}^n$.
 
@@ -191,7 +196,7 @@ $$
      &&& \downarrow^{\mathrlap{\sigma^*}}
      \\
      q_{i j} d x^j &\stackrel{d_{dR}}{\mapsto}&
-     \partial_k q_{i j} d x^k \wedge d x^j
+     (\partial_k q_{i j}) d x^k \wedge d x^j
      = &
      s^*(p_i)  
   }
@@ -212,7 +217,7 @@ $$
 
 If the symmetric part happens to be non-degenerate, it may be regarded as a (possibly [[pseudo-Riemannian metric|pseudo]]-)[[Riemannian metric]]. In this case the combination $q = g + b$ is called a **generalized Riemannian metric** in [[generalized complex geometry]].
 
-### Canonical Lie algebroid 3-cocycle
+### Canonical $\infty$-Lie algebroid 3-cocycle
 
 The standard Courant albebroid $\mathfrak{c}(X)$ is canonically equipped with the [[Lie ∞-algebroid cohomology|Lie ∞-algebroid 3-cocycle]] $\mu \in CE(\mathfrak{c}(X))$ that is on a local patch $\mathbb{R}^n \simeq U \to X$ given by
 
