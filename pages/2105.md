@@ -143,3 +143,5 @@ even though each of these is a subvariety of the next.
 
 [[!redirects word problem]]
 [[!redirects quasivariety of algebras]]
+[[!redirects varieties of algebras]]
+[[!redirects quasivarieties of algebras]]
