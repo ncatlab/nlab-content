@@ -1,4 +1,4 @@
-An object $X$ of a well-behaved category (such as a [[topos]]) is __decidable__ if its diagonal $X\to X\times X$ is complemented, as a subobject of $X\times X$.
+An object $X$ of a well-behaved category (such as a [[topos]]) is __decidable__ if its [[equality relation]] $X\to X\times X$ is complemented, as a subobject of $X\times X$.
 
 This means that in the [[internal logic]] of the category, it is true that "for any $x,y\in X$, either $x=y$ or $x\neq y$."  Of course, in a [[Boolean category]], every object is decidable.
 
