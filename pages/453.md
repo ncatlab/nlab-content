@@ -2,7 +2,11 @@
 * toc
 {: toc}
 
+
+## Idea
+
 A _regular category_ is a [[finitely complete category]] which admits a good notion of [[image]] factorization. A primary _raison d'etre_ behind regular categories $C$ is to have a decently behaved _calculus of [[relation]]s_ in $C$.  Regular categories are also the natural setting for [[internal logic|regular logic]].
+
 
 ## Definition
 
@@ -86,7 +90,7 @@ Regular categories of the form $C_{reg/lex}$ for a lex category $C$ can be chara
 When the reg/lex completion is followed by the [[ex/reg completion]] which completes a regular category into an [[exact category|exact one]], the result is unsurprisingly the [[ex/lex completion]].  See [[regular and exact completions]] for more about all of these operations.
 
 
-## Related Articles
+## Related articles
 
 Regular categories were introduced by Barr in
 _Exact categories_, by M. Barr, Lecture Notes in Mathematics, Springer-Verlag 1971
@@ -99,6 +103,7 @@ An application of the regularity condition is found in the paper
 _Tensor envelopes of regular categories_, by F. Knop.   [arXiv:math/0610552v2](http://arxiv.org/abs/math/0610552)
 
 Knop's condition for regularity is slightly different from that presented here; he works with categories that when augmented by an absolutely initial object are regular in the terminology here.  In the paper, Knop generalizes a construction of Deligne by showing how to construct a symmetric pseudo-abelian [[tensor category]] out of a regular category through the calculus of relations.
+
 
 [[!redirects regular categories]]
 [[!redirects regular topology]]
