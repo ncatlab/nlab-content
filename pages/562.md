@@ -31,7 +31,7 @@ Grothendieck originally called these "cofibered categories," but that term has f
 
 A square
 $$\array{E' & \to & E \\ \downarrow && \downarrow \\ B' &\to  & B}$$
-is a **morphism of fibrations** if the top arrow takes cartesian arrows to cartesian arrows.  Most frequently when considering morphisms of fibrations, the bottom arrow $B'\to B$ is an identity.  A 2-cell between morphisms of fibrations is a pair of 2-cells, one lying over the other.  Again frequently the bottom one is an identity, so that the condition is just that the top 2-cell is "vertical" (its components lie in fibers).
+is a **cartesian morphism** or *morphism of fibrations* if the top arrow takes cartesian arrows to cartesian arrows.  Most frequently when considering morphisms of fibrations, the bottom arrow $B'\to B$ is an identity.  A 2-cell between morphisms of fibrations is a pair of 2-cells, one lying over the other.  If the bottom arrow is an identity, this means that the top 2-cell is "vertical" (its components lie in fibers).
 
 Given a fibration $p:E\to B$, we obtain a pseudofunctor $B^{op}\to Cat$ by sending each $b\in B$ to the category $E_b = p^{-1}(b)$ of objects mapping onto $b$ and morphisms mapping onto $1_b$.  To obtain the action on morphisms, given an $f:a\to b$ in $B$ and an object $e\in E_b$, we choose a cartesian arrow $\phi:e'\to e$ over $f$ and call its [[source]] $f^*(e)$.  The universal factorization property of cartesian arrows then makes $f^*$ into a functor $E_b \to E_a$, and it is easy to verify that it is a pseudofunctor.  The construction in the other direction is left as an exercise for the reader (or future contributor to this page).
 
