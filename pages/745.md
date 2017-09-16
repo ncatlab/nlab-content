@@ -165,6 +165,8 @@ _Toby_: I can handle that, but after thinking about it more, I\'ve realised that
 
 Anyway, that just to say: i like $(f/g)$, find it less cumbersome than $(f\downarrow g)$ and apologize for having written  $(f,g)$ so often.
 
+_Toby_:  I find $(f \downarrow g)$ more self explanatory, but $(f/g)$ is cool.  $(f,g)$ was reasonable, but we now have better options.
+
 =--
 
 # Further reading #
