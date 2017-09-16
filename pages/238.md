@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * started creating [[string structure]] but had to quit before fully finished -- will continue tomorrow
+
   * created [[point of a topos]] and [[stalk]]
 
   * created [[Oberwolfach]]
