@@ -66,6 +66,8 @@ So, using categories enriched over $Vect_k$ with $k$ having characteristic zero 
 
 [[Todd Trimble]]: Could be! 
 
+[[John Baez]]: By the way, I believe one upshot from the blog discussion so far is that the Schur functors we know and love _do_ work in characteristic $p$... but only if we define them using coinvariants, not invariants!
+
 =-- 
 
 Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum of matrix algebras 
