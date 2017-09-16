@@ -26,3 +26,6 @@ The concept of base change generalises from this case to other [[fibered categor
 #Remarks#
 
 * The [[duality|dual]] concept is [[cobase change]].
+
+
+[[!redirects change of base]]
