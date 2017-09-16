@@ -175,6 +175,6 @@ The **action property** of $\rho$, which is nothing but the functoriality of $\r
 
 Abstractly this says that
 
-* a (small) [[category]] is a [[monad]] in [[span]]s in [[Set]];
+* a (small) [[category]] is a [[monad]] in [[span|spans]] in [[Set]];
 
 * the [[action]] of a [[category]] on a [[set]] is an [[algebra]] for this [[monad]].
