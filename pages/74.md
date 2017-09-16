@@ -1,7 +1,23 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 Usurprisingly, _enriched category theory_ studies [[enriched category|enriched categories]].
 
 But maybe surprisingly, enriched category theory proves to be more that just the study of a given mathematical structures. Compare [[category theory]].
 
+## as a tool in higher category theory ##
+
+The combination of enriched category theory with [[model category]] theory -- in particular where they meet in the form of [[enriched homotopical category|enriched homotopical categories]] such as [[enriched model category|enriched model categories]], notably [[simplicial model category|simplicially enriched model categories]] -- are a major tool for [[presentable (infinity,1)-category|presenting]] [[(infinity,1)-category|(infinity,1)-categories]].
+
+In this combined toolkit 
+
+* the enrichment itself models the existence of higher [[k-morphism]]s
+
+* while the homotopical structure takes care of the right notion of equivalences.
+
+See also [[homotopy coherent category theory]].
 
 ##Literature##
 
