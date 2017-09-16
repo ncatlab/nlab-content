@@ -114,7 +114,7 @@ A **segment** object $I$ in a [[monoidal model category]] $V$ is
   its _absorbing_ element, and for which 
   $\epsilon$ is a counit.
 
-If $V$ is equipped with the structure of a [[model catgeory]] then aa segment object is an **interval** in $V$ if 
+If $V$ is equipped with the structure of a [[model category]] then a segment object is an **interval** in $V$ if 
 
 $$
   [0, 1]\colon pt \amalg pt \to I
