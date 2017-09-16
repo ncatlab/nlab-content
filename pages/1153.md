@@ -9,4 +9,13 @@ But maybe a full formalization of this idea has not appeared yet (?)
 
 +--{: .query}
 [[Mike Shulman|Mike]]: While the general study of sheaves of spectra is certainly an important topic, I'm not sure I agree that they should be called "stable $(\infty,1)$-toposes."  They're not very topos-like; they're much more like, say, [[Ab]].
+
+[[Urs Schreiber|Urs]]: okay, right. We should remove this entry then, or do something to it. But let's see why I created it, that may indicate a question I have which would be nice to answer in some form:
+
+over at [[cohomology]] I said something like: see, in every $(\infty,1)$-category $H$ which behaves roughly like [[Top]] does, we are entitled to think of the hom-spaces $H(X,A)$ as computing cohomology of the source object $X$ with coefficients in the target object $A$;
+
+if the objects of $H$ moreover are stable, then this reproduces abelian cohomology.
+
+so I wanted to put this together and say: if it looks stable and homs in it can be thought of as computing cohomology, then it should be called  stable $(\infty,1)$-topos. Now, I see, that may be a wrong idea. But don't we want to say _something_ like that? Or should we think of the hom spaces of _every_ possible $(\infty,1)$-category as some kind of cohomology? That seems wrong, too. (?)
+
 =--
