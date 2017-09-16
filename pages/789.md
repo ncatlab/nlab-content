@@ -13,6 +13,8 @@ One finds (as described at [[standard Courant algebroid]]) that
 
 * choices of [[section]]s of the canonical morphism $\mathfrak{c}(X) \to T X$ to the [[tangent Lie algebroid]]s encode **generalized Riemannian metrics**: pairs consisting of a (possibly [[pseudo-Riemannian metric|pseudo]]-)[[Riemannian metric]] and a [[differential form|2-form]].
 
+  In applications in [[string theory]] , this encodes the field of [[gravity]] and the [[Kalb-Ramond field]], respectively. (There are also proposals for how the [[dilaton]] field appears in this context.)
+
 In components these are structures found on the [[vector bundle]]
 
 $$
