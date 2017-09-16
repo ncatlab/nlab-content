@@ -35,7 +35,7 @@ $$
   \array{
      A &\stackrel{F}{\to}& B
      \\
-     \downarrow_F & \nearrow_{\widehat{F}}
+     \downarrow^Y & \nearrow_{\widehat{F}}
      \\
      \widehat{A}
   }
@@ -45,24 +45,35 @@ Moreover, $\widehat{F}$ is unique up to natural isomorphism.
 
 Our job is to understand how to construct this $\widehat{F}$.  But before we do that:
 
-* **Why do we care?**  We want to convert between two equivalent descriptions of profunctors.  We can think of a profunctor from a category $A$ to a category $B$ as a functor
+####Why do we care?####
+
+We want to convert between two equivalent descriptions of profunctors from a category $A$ to a category $B$.  On the one hand, they are functors
 
 $$ G : A \to \widehat{B}$$
 
-or as a cocontinuous functor I'll call
+On the other hand, they are cocontinuous functors
 
 $$ \widehat{G} : \widehat{A} \to \widehat{B} $$
 
-Getting from $G$ to $\widehat{G}$ here is a special case of the above Theorem.  Getting from $\widehat{G}$ to $G$ is vastly easier, so I'll leave that as a little exercise.
+Getting from $G$ to $\widehat{G}$ here is a special case of the above Theorem.  Getting from $\widehat{G}$ to $G$ is vastly easier, so I'll leave that as a little exercise:
 
-* **How should we think about this, intuitively?**  When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in colimits (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a decategorified analogue:
+**Exercise.**  Given a cocontinuous functor $\widehat{A} \to \widehat{B}$, explain how to get a functor $A \to \widehat{B}$.
 
-**Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$.   If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \hat{A} \to B$ making this triangle commute:
+**Exercise.**  Using the Theorem, show that going from 
+a functor $A \to \widehat{B}$ to a cocontinuous functor
+$\widehat{A} \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.  Also show that going from a cocontinuous functor
+$\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.
+
+####How should we think about this, intuitively?####
+  
+When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in colimits (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a decategorified analogue:
+
+**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \hat{A} \to B$ making this triangle commute:
 $$
   \array{
      A &\stackrel{F}{\to}& B
      \\
-     \downarrow_F & \nearrow_{\tilde{F}}
+     \downarrow^y & \nearrow_{\tilde{F}}
      \\
      \tilde{A}
   }
@@ -71,6 +82,11 @@ $$
 Moreover, $\tilde{F}$ is unique up to natural isomorphism.
 
 The proof here is easy: elements of $\tilde{A}$ are formal sums of elements of $A$.  So, we define $\tilde{F}$ of a formal sum of elements of $A$ by applying $F$ to each of those elements and then adding the results in $B$.  Check that $\tilde{F}$ is a monoid homomorphism.  Check that it makes the diagram commute.  Check that it's unique.
+
+When colimits become as intuitive as sums, the Theorem should seem as intuitive as the Decategorified Theorem. 
+But we also need to see how the Theorem is actually proved.
+
+####A reference####
 
 [[Urs Schreiber]]: By the way, there is a pretty good pedagogical and intuitive explanation of this from page 7 on of
 
