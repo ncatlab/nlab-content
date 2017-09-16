@@ -1,4 +1,9 @@
-#Idea#
+# Coalgebra
+* tic
+{: toc}
+
+
+## Idea
 
 In the [most familiar sense](http://en.wikipedia.org/wiki/Coalgebra), a coalgebra is just like an associative algebra, but with all the maps 'turned around'.   More precisely, fix a [[ground field]] $k$.    An **algebra** $A$ is a vector space equipped with a multiplication
 
@@ -32,26 +37,22 @@ More generally:
 
 * a general **coassociative coalgebra** is a coalgebra over a comonad, dual to the concept of an [[algebra over a monad]].
 
-##Examples##
+
+## Examples
 
 * For $R$ a commutative ring, if the endofunction $F : C \to C$ is $F : R Mod \to R Mod$ given by $F : N \mapsto N \otimes N$, then $F$-coalgebras are precisely non-coassociative coalgebras in the specific sense of non-associative monoids in $R Mod^{op}$. (See [[Tom Leinster]]'s comment [here](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020741)).
 
 * $L_\infty$-[[L-infinity-algebra|algebra]]s are [[CoDGCA|cocommutative comonoids]] in the category of chain complexes.
 
+* See also [[measure coalgebra]].
 
-+--{.query}
-_Todd_: I noticed under "algebra" that it wasn't so easy to find a page for algebras of an endofunctor. It might help to have something like "Algebra (disambiguation)" for this and other entries with multiple meanings. 
 
-_Mike_: Seconded.
-
-_Toby_:  The page [[algebra]] is already basically a disambiguation page; the problem is that some links to it should go to different pages, and [[algebra for an endofunctor]] really ought to be created (which I just did).
-=--
-
-##Differential graded coalgebras
+## Differential graded coalgebras
 
 These are explored briefly in the lexicon style entry [[differential graded coalgebra]].  (At present this is 'bare bones' with little or no motivation or discussion.)
 
-##Cocommutative Coassociative Coalgebras
+
+## Cocommutative coassociative coalgebras
 
 These, in most cases, form a complete cocomplete Cartesian Closed Category, $Coalg$ over which the category, $Alg$, of commutative associative algebras is enriched, tensored and cotensored. The exegesis is much the same whether we consider coalgebras over a field $k$, or graded $k$-coalgebras, or differential graded coalgebras, etc. In each case we need a notion of finiteness: finite $k$-dimension of the underlying $k$-vector space, finite dimension in each grade, etc. We denote by $Alg_f$ the category of (commutative associative) algebras that are finite. 
 
