@@ -1,5 +1,7 @@
 
+<div class="rightHandSide toc">
 [[!include differential graded objects - contents]]
+</div>
 
 
 ##Simplicial local systems
