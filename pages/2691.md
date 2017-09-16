@@ -43,22 +43,20 @@ See the references below.
 
 
 
-The cofibrantly generated model structure on commutative cochain [[dg-algebra]]s induced from the forgetful functor to cochain complexes is discussed for instance on p. 6 of 
+The cofibrantly generated model structure on **commutative** cochain [[dg-algebra]]s induced from the forgetful functor to cochain complexes is surveyed for instance on p. 6 of 
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+
+A standard textbook reference is section V.3 of
+
+* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_, Springer
 
 For commutative dg-rings see also
 
 * A. Bousfield, V. Gugenheim, _On PL deRham theory and rational homotopy type_ Memoirs of the AMS 179 (1976)
 
 
-The model structure on general dg-algebras is discussed for instance in
-
-section V.3 of
-
-* [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_, Springer
-
-Also
+For general **non-commutative** (or rather: not necessarily graded-commutative) dg-algebras a model structure is given in
 
 * J.F. Jardine, _[[JardineModelDG.pdf:file]]_ , Cyclic Cohomology and Noncommutative Geometry, Fields Institute Communications, Vol. 17, AMS (1997), 55-58. 
 
