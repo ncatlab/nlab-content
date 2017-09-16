@@ -25,12 +25,12 @@ Is there a way to make this (or something similar) precise? In particular: does 
 
 =--
 
-$A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity algebra]]. As such they are to [[A-infinity algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich-Soibelman reference below.
+$A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity-algebra]]. As such they are to [[A-infinity-algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich-Soibelman reference below.
 
 
 ## more general $A_\infty$-categories
 
-In the widest sense, "$A_\infty$-category" may be used as a term for a category in which the [[composition]] operation constitute an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
+In the widest sense, "$A_\infty$-category" may be used as a term for a category in which the [[composition]] operation constitutes an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
 
 One should be aware, though, that this use of the term is not understood by default in the large body of literature concerned with the above linear notion.
 
