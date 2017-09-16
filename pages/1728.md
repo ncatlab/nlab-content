@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Recall that an $n$-dimensional [[FQFT]] is a [[symmetric monoidal functor|symmetric monoidal]] $(\infty,n)$-[[n-functor|functor]] from the [[(infinity,n)-category of cobordisms]]. 
