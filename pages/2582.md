@@ -23,7 +23,7 @@ In traditional models this construction is highly non-[[functor]]ial, except for
 
 ## Construction by co-killing of homotopy groups ##
 
-The whitehead tower may be constructed by iteratively [[co-killing homotopy groups]]:
+The whitehead tower may be constructed by iteratively [[co-killing]] homotopy groups:
 
 start with the map
 
