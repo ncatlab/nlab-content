@@ -26,6 +26,6 @@ X
 
 A $k$-dimensional boolean coordinate system for $X$ is a set of $k$ coordinate projections $x_j : X \to \mathbb{B}$ for $j = 1 \:\mathop{to}\: k$ that collectively define a map $\kappa = (x_1, \ldots, x_k) : X \to \mathbb{B}^k$.
 
-## Remarks ##
+# Remarks #
 
 Assuming the law of [[excluded middle]], the boolean-valued functions on $X$ correspond precisely to the [[subsets]] of $X$; even in [[constructive mathematics]], they corresond to the [[decidable subsets]] of $X$.  See also [[characteristic function]].
