@@ -65,6 +65,20 @@ So it is good that there are many model structures on simplicial (pre)sheaves, a
 
 $$
   \array{
+     &&
+       (\infty,1)Sh(C)
+     &&&
+       (\infty,1)PSh(C)
+     &&&
+       (\infty,1)Sh(C)
+     \\
+     && 
+       \uparrow^{presentation}
+     &&&
+       \uparrow^{presentation}
+     &&& 
+       \uparrow^{presentation}
+     \\
      SSh(C)^{l loc}_{inj} & 
      \stackrel{\stackrel{sheafification}{\leftarrow}}
        {\stackrel{embedding}{\to}}& 
@@ -132,6 +146,14 @@ These are related by a [[Quillen adjunction]] given by the usual [[geometric emb
 
 The characteristic of the _left_ Bousfield localizations is that for them the fibrant objects are those that satisfy
 [[descent]]: see [[descent for simplicial presheaves]].
+
+In either case 
+
+* the global model structures [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category of (infinity,1)-presheaves]]
+
+while
+
+* the local model structures [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category of (infinity,1)-sheaves]] (i.e. [[infinity-stack]]s).
 
 
 
