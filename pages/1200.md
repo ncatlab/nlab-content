@@ -36,3 +36,6 @@ The class of ordinals is itself [[well-order|well-ordered]].  There are many equ
 Every ordinal $\alpha$ has a **[[successor]]** $\alpha^+$, which in the von Neumann definition is simply $\alpha^+ = \alpha \cup \{\alpha\}$.  A **limit ordinal** is any ordinal which is not a successor of any other ordinal.
 
 In the presence of the [[axiom of choice]], a [[cardinal number]] can be defined as a special ordinal number, specifically an ordinal which is not equipollent (isomorphic as a [[set]]) to any smaller ordinal.
+
+
+[[!redirects ordinal]]
