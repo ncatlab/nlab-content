@@ -139,7 +139,7 @@ And please correct me if I'm wrong, but I believe the interval as final coalgebr
 
 It was then realized that none of these problems is shared by [[simplicial set]]:
 
-1. Eilenberg and Mac Lane proved a normalisation theorem which may be found in Mac Lane's book `Homology'. 
+1. Eilenberg and Mac Lane proved a normalisation theorem which may be found in Mac Lane's book 'Homology'. 
 
 1. every [[simplicial group]] is necessarily a [[Kan complex]] and therefore fibrant in the standard [[model structure on simplicial sets]]
 
