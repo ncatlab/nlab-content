@@ -54,6 +54,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
    [[Mike Shulman|Mike]]: If we have a page on [[category|categories]], we can certainly have a page on lax natural transformations!
    =--
 
+   +--{: .query}
+   [[Jonas Frey]]: The problem about lax natural transformations is that there is no consensus about the orientation of constraints in the literature. Johnstone in the elephant and Gurski in his PhD-thesis for example use an other orientation than Leinster and Borceux in their books.
+   =--
 
 * [[Urs Schreiber|Urs]]
 
