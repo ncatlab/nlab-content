@@ -14,7 +14,7 @@ The notion of superdifferential form is the generalization of the notion of [[di
 
 ## Definition {#Definition}
 
-ordinare [[differential form]]s on a [[manifold]] $X$ may be regarded as the functions on the [[supermanifold]] called the [[shifted tangent bundle]]
+Ordinary [[differential form]]s on a [[manifold]] $X$ may be regarded as the functions on the [[supermanifold]] called the [[shifted tangent bundle]]
 
 $$
   \Omega^\bullet(X) = C^\infty(T[1] X)
