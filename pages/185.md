@@ -4,6 +4,8 @@ In as far as a  [[generalized smooth space]] is a (pre)sheaf on smooth test doma
 
 Product preserving co-presheaves on [[CartSp]] form a generalized notion of smooth algebras with very nice structural properties, such as required in [[geometric function theory]].
 
+These generalized smooth algebras, usually called **$C^\infty$-rings** are examples of [[locally modeled monoid]]s.
+
 #Motivating example#
 
 For $X$ a smooth manifold, the assignment
@@ -220,8 +222,12 @@ This definition was introduced in
 
 * **MoerRey** Ieke Moerdijk and Gonzalo E. Reyes, _Models for Smooth Infinitesimal Analysis_ Springer (1991)
 
+see also
+
+* Lawvere, _Categorical dynamics_ in _Topos theoretic methods in geometry_, volume 30 of _Various Publ. Ser._, pages 1-28, Aarhus Univ. (1997)
+
 The definition itself appears on p. 16.
 
-#Further resources#
+A brief but useful review is also on p. 3 of
 
-With smooth function algebras generalized to $C^\infty$-algebras, one may wonder what the corresponding generalization of [[NQ-supermanifold|NQ-supermanifolds]] and hence of $L_\infty$-[[Lie infinity-algebroid|algebroids]] are, which are defined in terms of smooth function algebras and smooth _modules_ over these function algebras. In particular, one expects that higher [[Lie theory]] should relate $\infty$-[[infinity-groupoid|groupoids]] [[internalization|internal to]] $Spaces := Sh(CartSp)$ to $L_\infty$-[[Lie infinity-algebroid|algebroids]] with [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebras]] [[internalization|internal to]] $Quantities := MonoidalCoPreSh(CartSp)$. This idea is further developed at [[schreiber:generalized smooth L-infinity algebroid]].
+* David Spivak, _Quasi-Smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf))
