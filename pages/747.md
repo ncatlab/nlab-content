@@ -1,8 +1,8 @@
-There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]], the two extremal ones are 
+There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]]; the two extremal ones are 
 
 * the _projective_ or _global_ model structure (weak equivalences and fibrations are defined objectwise);
 
-* the _injective_ or local model structure (weak equivalences and fibrations are defined to be locally those with respect to the standard [[model structure on simplicial sets]]).
+* the _injective_ or _local_ model structure (weak equivalences and fibrations are defined to be locally those with respect to the standard [[model structure on simplicial sets]]).
 
 In between these two structures there are many other model structures sometimes called "local projective" model structures.
 
@@ -12,8 +12,8 @@ In the following let $S$ be a small [[site]] and denote by $SimpPr(S)$ be the ca
 
 #Global or projective model structure#
 
-For $S^{op}$ any small category and $V$ a model category there is a model structure on $S^{op}$-[[diagram]]s in $V$, i.e. on the [[functor category]] $[S^{op},V]$ due to Bousfield and Kan in which the weak equivalences and the fibrations are those natural transformations which on each object of $S$ arel, respectively, weak equivalences or fibrations in $V$. 
-(... insert general discussioin by Crans et al...)
+For $S^{op}$ any small category and $V$ a model category there is a model structure on $S^{op}$-[[diagram]]s in $V$, i.e. on the [[functor category]] $[S^{op},V]$ due to Bousfield and Kan in which the weak equivalences and the fibrations are those natural transformations which on each object of $S$ are, respectively, weak equivalences or fibrations in $V$. 
+(... insert general discussion by Crans et al...)
 This is also called the **projective** model structure on diagrams. 
 
 
