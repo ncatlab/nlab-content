@@ -1,5 +1,5 @@
 <div class="rightHandSide toc">
-[[!include homotopy theory - contents]]
+[[!include homotopy - contents]]
 
 ***
 
