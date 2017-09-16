@@ -56,7 +56,7 @@ $$
 
 #Definitions#
 
-+-- {: .un_defn}
+ {: .un_defn}
 ###### Definition
 
 [[CartSp]] is the full subcategory of [[Diff]]
@@ -191,7 +191,7 @@ This makes $A(\mathbb{R})$ an $\mathbb{R}$-algebra.
 
 
 +-- {: .un_prop}
-###### Proposition ( [[Models for Smooth Infinitesimal Analysis|MSIA]] , prop. 1.1)
+###### Proposition ([[Models for Smooth Infinitesimal Analysis|MSIA]], prop. 1.1)
 
 $C^\infty(\mathbb{R})$ is the free smooth algebra
 on $n$ generators, in that for every $n \in \mathbb{N}$ 
@@ -229,7 +229,7 @@ In the context of [[geometric function theory]] the corresponding general statem
 
 
 +-- {: .un_prop}
-###### Proposition ([[Models for Smooth Infinitesimal Analysis|MSIA]] prop. 2.5, 2.6 )
+###### Proposition ([[Models for Smooth Infinitesimal Analysis|MSIA]], prop. 2.5, 2.6 )
 
 Let $f : X \to Z$ and $g : Y \to Z$ be  [[transversal maps]] of smooth [[manifold]]s. Then the functor $C^\infty(-)$ sends the [[pullback]]
 
@@ -288,7 +288,7 @@ Turning this inclusion into an equivalence is usually called a _completion_ of t
 In summary this yields the following characterization of smooth function algebras on manifolds.
 
 +-- {: .un_theorem}
-###### Theorem ([[Models for Smooth Infinitesimal Analysis|MSIA]] , theorem 2.8)
+###### Theorem ([[Models for Smooth Infinitesimal Analysis|MSIA]], theorem 2.8)
 
 The functor $C^\infty(-) = Hom_{Diff}(-,-) : Diff \to C^\infty Alg$ 
 
@@ -331,6 +331,4 @@ A brief but useful review is also on p. 3 of
 
 
 [[!redirects generalized smooth algebras]]
-
-
-
+[[!redirects C-infinity-ring]]
