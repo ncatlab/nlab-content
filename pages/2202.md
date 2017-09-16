@@ -1,14 +1,18 @@
-A [[monoidal category]] is **semicartesian** if the unit for the tensor product is terminal.  This a weakening of the concept of [[cartesian monoidal category]], which would seem like pointless [[centipede mathematics]] were it not for the existence of many interesting examples.  
+A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]].  This a weakening of the concept of [[cartesian monoidal category]], which might seem like pointless [[centipede mathematics]] were it not for the existence of many interesting examples.  
 
 Some examples of semicartesian monoidal categories that are not cartesian include:
 
-* the category of Poisson manifolds with the usual product of Poisson manifolds as its tensor product, 
+* the category of [[Poisson manifold]]s with the usual product of Poisson manifolds as its tensor product, 
 
-* the opposite of the category of associative algebras over a field $k$ with its usual tensor product $A \otimes B$, 
+* the opposite of the category of [[associative algebra]]s over a given [[base field]] $k$ with its usual tensor product $A \otimes B$, 
 
-* the category of affine spaces made into a monoidal category where the corresponding internal hom has $hom(x,y)$ being the set of affine maps from $x$ to $y$, made into an affine space via pointwise operations,
+* the category of [[affine space]]s made into a [[closed monoidal category]] where the [[internal hom]] has $hom(x,y)$ being the set of affine maps from $x$ to $y$, made into an affine space via pointwise operations,
 
-* the category of convex sets, made into a monoidal category where the corresponding internal hom has $hom(x,y)$ being the set of convex maps from $x$ to $y$, made into an convex space via pointwise operations.
+* the category of [[convex set]]s, made into a closed monoidal category where the internal hom has $hom(x,y)$ being the set of convex maps from $x$ to $y$, made into an convex space via pointwise operations.
+
++-- {: .query}
+Which meaning of 'convex set' are you using here?
+=--
 
 In a semicartesian monoidal category, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
 $$ p_x : x \otimes y  \to x $$
