@@ -5,21 +5,33 @@ The original _tangle hypothesis_ was formulated in
 * [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002)) 
 
 as follows:
++-- {: .un_prop}
+###### Tangle Hypothesis
 
-* **Tangle Hypothesis.** The $n$-category of framed $n$-tangles in $n+k$ dimensions is $(n+k)$-equivalent
+The $n$-category of framed $n$-tangles in $n+k$ dimensions is $(n+k)$-equivalent
 to the free weak $k$-tuply monoidal $n$-category with duals on one object.
+=--
 
 In the limit $k \to \infty$, this gives:
++-- {: .un_prop}
+###### [[cobordism hypothesis|Cobordism Hypothesis]]
 
-* **Cobordism Hypothesis.** The $n$-category $n Cob$ of cobordisms is the free stable $n$-category with duals on one object (the point).
+The $n$-category $n Cob$ of cobordisms is the free stable $n$-category with duals on one object (the point).
+=--
 
 In [[FQFT|extended toplogical quantum field theory]], which is really the representation theory of these cobordism $n$-categories, we expect:
++-- {: .un_prop}
+###### Extended TQFT Hypothesis
 
-* **Extended TQFT Hypothesis.** An $n$-dimensional unitary extended TQFT is a weak $n$-functor, preserving all levels of duality, from the $n$-category $n Cob$ of cobordisms to $n Hilb$, the $n$-category of $n$-Hilbert spaces.
+An $n$-dimensional unitary extended TQFT is a weak $n$-[[n-functor|functor]], preserving all levels of duality, from the $n$-category $n Cob$ of cobordisms to $n Hilb$, the $n$-category of $n$-[[n-Hilbert space|Hilbert spaces]].
+=--
 
 Putting the extended TQFT hypothesis and the cobordism hypothesis together, we obtain:
++-- {: .un_prop}
+###### The primacy of the point
 
-* **The primacy of the point.** An $n$-dimensional unitary extended TQFT is completely described by the $n$-Hilbert space it assigns to a point.
+An $n$-dimensional unitary extended TQFT is completely described by the $n$-Hilbert space it assigns to a point.
+=--
 
 Further discussion can be found here: 
 
