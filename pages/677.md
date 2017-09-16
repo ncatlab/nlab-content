@@ -1,3 +1,3 @@
 See [[simplicial presheaf]].
 
-category: redirect
+category: delete
