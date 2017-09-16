@@ -1,36 +1,41 @@
 [[!redirects JA]]
 
+* "repent harlequin!" said the tic toc man
+{:toc}
+
+# Niches #
+
 * [JA](http://mywikibiz.com/Directory:Jon_Awbrey) @ [MyWikiBiz](http://mywikibiz.com/)
 * [JA](http://knol.google.com/k/jon-awbrey/jon-awbrey/3fkwvf69kridz/1) @ [Google Knol](http://knol.google.com/)
 * [JA](http://planetmath.org/?op=getuser&id=15246) @ [PlanetMath](http://planetmath.org/)
 * [JA](http://planetphysics.org/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.org/)
 * [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
 
-## Notes ##
+# Notes #
 
-## Pages ##
+# Pages #
 
-### Algebra ###
+## Algebra ##
 
 * [[multigrade operator]]
 * [[parametric operator]]
 
-### Arithmetic ###
+## Arithmetic ##
 
 * [[riffs & rotes]]
 
-### Combinatorics ##
+## Combinatorics ##
 
 * [[graph theory]]
 
-### Inquiry ###
+## Inquiry ##
 
 * [[inquiry]]
 * [[inquiry driven system]]
 * [[Peirce's logic of information]]
 * [[semiotic information]]
 
-### Logic ###
+## Logic ##
 
 * [[boolean domain]]
 * [[boolean function]]
@@ -53,10 +58,14 @@
 * [[triadic relation]]
 * [[universe of discourse]]
 
-### Miscellaneous ###
+## Miscellaneous ##
 
 * [[Charles Sanders Peirce]]
 * [[precursors]]
+
+## Utilities ##
+
+* [[Symbol Sandbox]]
 
 ***
 
