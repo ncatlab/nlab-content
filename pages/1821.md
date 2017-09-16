@@ -5,19 +5,15 @@
 >entry left in unfinished state as I have to run now, please feel free to polish
 
 
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
+
+We describe the notion of cohomology of a [[chain complex]], the cochain cohomology of its dual [[cochain complex]], from the [[nPOV]] on [[cohomology]], as discussed there.
 
 A [[chain complex]] in non-negative degree is, under the [[Dold-Kan correspondence]] a [[homological algebra]] model for a particularly nice [[topological space]] or [[∞-groupoid]]: namely one with an abelian group structure on it.
-+--{: .query}
-[[David Roberts]]: Should this be _of the homotopy type of an abelian topological group_? Or an $E_\infty$-algebra?
-
-[[Urs Schreiber|Urs]]: I thought the statement (at least the strictest version of what that statement can be) of the [[Dold-Kan correspondence]] is that non-negatively graded chain complexes of abelian groups are equivalent to simplicial sets internal to abelian groups. Since these are necessarily Kan complexes, I phrased this as "$\infty$-groupoids with abelian group structure" (strict abelian group structure, that is). 
-
-So these in particular have the homotopy type of an abelian group, and in particular are special cases of $E_\infty$-spaces, but are much more restrictive, in that there is on the nose a strict abelian group structure around.
-
-That's what I am thinking. But let me know if I am mixed up. And please feel free to improve on the presentation here as you see the need. I don't have time for this entry right now, will try to come back to it later.
-
-=--
 Accordingly, an unbounded (arbitrary) [[chain complex]] is a model for a [[spectrum]] with abelian group structure. 
 
 One consequence of this embedding
@@ -38,11 +34,11 @@ The main statement is that
 
 * the na&iuml;ve cohomology groups of a cochain complex are really the abstract [[cohomology groups]] of the dual [[chain complex]].
 
-# Preliminaries #
+## Preliminaries 
 
 Before discussing chain homology and cohomology, we fix some terms and notation.
 
-## Eilenberg-MacLane objects ##
+### Eilenberg-MacLane objects 
 
 In a given [[(∞,1)-topos]] there is a notion of [[homotopy]] and [[cohomology]] for every (co-)coefficient object $A$ ($B$).
 
@@ -72,7 +68,7 @@ for the $n$th [[Eilenberg-MacLane object]].
 Notice that this is often also denoted $k[n]$ or $k[-n]$ or $K(k,n)$.
 
 
-## Homotopy and cohomology ##
+### Homotopy and cohomology 
 
 With the [[Dold-Kan correspondence]] understood, embedding
 chain complexes into [[∞-groupoids]], for any chain complexes $X_\bullet$, $A_\bullet$ and $B_\bullet$ we obtain 
@@ -104,7 +100,7 @@ chain complexes into [[∞-groupoids]], for any chain complexes $X_\bullet$, $A_
   and where the elements of $\pi_0 \mathbf{H}(B_\bullet,X_\bullet)$ are the homotopy classes
 
 
-# Chain homology as homotopy #
+## Chain homology as homotopy 
 
 For $X_\bullet := V_\bullet$ any [[chain complex]] 
 and $H_n(V_\bullet)$ its ordinary chain [[homology]] in degree $n$, we have
@@ -184,7 +180,7 @@ such that $c' = c + \partial \lambda$.
 ...
 
 
-# Cohomology of cochain complexes #
+## Cohomology of cochain complexes 
 
 The ordinary notion of cohomology of a [[chain complex|cochain complex]]
 is the special case of cohomology in the 
@@ -295,11 +291,30 @@ Comparing with the general definition of cocycles and coboudnaries from above, o
 
 * etc.
 
-# References #
+## References 
 
 * [[John Baez]] and [[Mike Shulman]], _Lectures on $n$-Categories and Cohomology_ ([pdf](http://math.ucr.edu/home/baez/cohomology.pdf), [[Lectures on n-Categories and Cohomology|nLab]])
 
   * See, in particular, the discussion beginning at the bottom of page 24.
+
+
+> [[Urs Schreiber]]: this is a nice reference, but does it really help on the above discussion?
+
+## Discussion
+
++--{: .query}
+
+> concerning the statement at the very beginning, there was once this exchange here:
+
+[[David Roberts]]: Should this be _of the homotopy type of an abelian topological group_? Or an $E_\infty$-algebra?
+
+[[Urs Schreiber|Urs]]: I thought the statement (at least the strictest version of what that statement can be) of the [[Dold-Kan correspondence]] is that non-negatively graded chain complexes of abelian groups are equivalent to simplicial sets internal to abelian groups. Since these are necessarily Kan complexes, I phrased this as "$\infty$-groupoids with abelian group structure" (strict abelian group structure, that is). 
+
+So these in particular have the homotopy type of an abelian group, and in particular are special cases of $E_\infty$-spaces, but are much more restrictive, in that there is on the nose a strict abelian group structure around.
+
+That's what I am thinking. But let me know if I am mixed up. And please feel free to improve on the presentation here as you see the need. I don't have time for this entry right now, will try to come back to it later.
+
+=--
 
 
 [[!redirects chain homology]]
