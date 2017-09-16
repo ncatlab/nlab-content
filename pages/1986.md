@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-21:
 
+* [[David Roberts]]: question at [[topological T-duality]]. No mention has been made of the Adelaide school's treatement there!
+
 *  [[Toby Bartels]]:
    *  Started [[singular cohomology]] by copying the definition from [[cup product]].
    *  An important reference at [[database of categories]].  We\'re already using Instiki\'s category system here!
