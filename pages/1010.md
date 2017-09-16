@@ -53,7 +53,7 @@ This way whenever any operation leads one outside of a given Grothendieck univer
 
 An equivalent (at least for our purposes) concept can also be defined in structural set theories (like [[ETCS]]).  The important point is the [[cardinal number|cardinality]] $|U|$ of the Grothendieck universe $U$; it must be a _strongly inaccessible cardinal_.  In the arithmetic of cardinal numbers, this means that $\sum_{i: I} \kappa_i \lt |U|$ whenever $|I| \lt |U|$ and $\kappa_i \lt |U|$ for each $i: I$.  (Traditionally one also requires an inaccessible cardinal to be uncountable, but this is just to rule out $\mathbb{N}$ again.)  Turned back into the language of sets, this says that a [[disjoint union]] of $U$-small sets indexed by a $U$-small set must be $U$-small.  From this perspective, the last axiom (which uses a set-theoretic [[union]] instead of a disjoint union, but that\'s not significant) is the important one; the rest is bookkeeping.
 
-We still need to formalise the idea that a set might 'belong' to $U$.  We can do this by equipping $U$ with a family $(S_u)_{u: U}$ of sets indexed by $U$; if you like, you can formalise this is a [[bundle]] over $U$.  Then we can define a **Grothendieck universe** in terms of this family of sets as follows:
+We still need to formalise the idea that a set might 'belong' to $U$.  We can do this by equipping $U$ with a family $(S_u)_{u: U}$ of sets indexed by $U$; if you like, you can formalise this as a [[bundle]] over $U$.  Then we can define a **Grothendieck universe** in terms of this family of sets as follows:
 1. for all $u$ in $U$, if $X$ is a [[subset]] of $S_u$ (in the sense that there exists an [[injection]] $X \embedsin S_u$), then there is a $v$ in $U$ such that $X \cong S_v$;
 1. for all $u$, there is a $v$ such that $S_v$ is a singleton;
 1. for all $u$, there is a $v$ such that $P(S_u) \cong S_v$, where $P(S)$ is the [[power set]] of the set $S$;
@@ -105,12 +105,15 @@ Now let $C$ be a $U$-large category (and not small).  Then the category of $U$-p
 [[Zoran Skoda]] But starting with a $U$-small category one can look at the category of $U$-small presheaves instead of all presheaves.
 This has been useful in hmotopy theory, there is for example
 a paper by Chorny and Dwyer using it. Look also at the paper by Day and Lack on limits of small functors.
-www.maths.usyd.edu.au/u/stevel/papers/small.pdf 
+[www.maths.usyd.edu.au/u/stevel/papers/small.pdf](www.maths.usyd.edu.au/u/stevel/papers/small.pdf) 
  I once listened a talk by Chorny in Barcelona where he was convincing that in practice we should use small Yoneda lemma rather than the usual Yoneda, he had arguments that a number of things are more natural, but I have not being taking notes and he never wrote those things in a paper as far as I know (I do not see them in his other papers in which he uses small presheaves but without some of that discussion).
 See anyway
-http://wwwmaths.anu.edu.au/~chorny/personal/research/
+[http://wwwmaths.anu.edu.au/~chorny/personal/research/](http://wwwmaths.anu.edu.au/~chorny/personal/research/)
 and also earlier minipreprint version
-http://www.math.uwo.ca/~bchorny2/research/smalldiag.ps
+[http://www.math.uwo.ca/~bchorny2/research/smalldiag.ps](http://www.math.uwo.ca/~bchorny2/research/smalldiag.ps)
 the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by Rosicky in Accessible categories and homotopy theory
-www.math.yorku.ca/~tholen/HB07Rosicky.pdf
+[www.math.yorku.ca/~tholen/HB07Rosicky.pdf](www.math.yorku.ca/~tholen/HB07Rosicky.pdf)
+
+[[Urs Schreiber|Urs]]: above we are talking about "$U$-presheaves", i.e. the functor categories $[C^{op}, U Set]$. Isn't that the same as "$U$-small presheaves"?
+
 =--
