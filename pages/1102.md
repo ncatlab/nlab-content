@@ -7,7 +7,7 @@ functor
 $$
   h F_0 : h C_0 \to h D_0
 $$ 
-of ordinary categories is essentially surjective
+of ordinary categories is [[essentially surjective functor|essentially surjective]]
 
 #Remarks#
 
