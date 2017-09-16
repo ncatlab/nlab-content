@@ -1,3 +1,3 @@
-see [[identity assigning morphism]]
+See [[identity assigning morphism]].
 
-category: redirect
+category: delete
