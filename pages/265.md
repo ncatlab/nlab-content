@@ -50,6 +50,8 @@ _Zoran_ Cartan-Eilenberg book has the whole chapter on satelites. If you have de
 [[Mike Shulman|Mike]]: Thanks!  Looking at the definition in Cartan-Eilenberg, it seems that the left satellites of an additive functor $F:A\to B$ are the homology of $F$ applied to a projective resolution, and the right satellites are the homology of $F$ applied to an injective resolution.  These make sense and are homotopy invariant for any additive functor $F$, and apparently if $F$ is 'half exact' (preserves exactness in the middle of short exact sequences) then its left and right satellites fit together into a bi-infinite long exact sequence, generalizing the more familiar cases of left and right derived functors.
 
 Now there are two (well, more than that, but two that seem most relevant) model structures on the category of chain complexes: the projective one, where projective resolutions are cofibrant and every object is fibrant, and the injective one, which is dual (although harder to construct, because of the non-duality between cofibrant generation and fibrant generation).  Thus, it seems that the left (right) satellites are the homology of the generalized derived functor with respect to the projective (injective) model structure, which turns out to actually be a left (right) derived functor since every object is fibrant (cofibrant).  Does that make sense?
+
+_Toby_:  Excuse me, but maybe this discussion could use a link: [[satellite]].
 =--
 
 
