@@ -11,6 +11,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * edited [[algebraic K-theory]] a bit
+
+  * created [[K-theory]] -- as opposed to my previous take on this which was then moved to the "Idea" section at [[topological K-theory]] this time this is aiming for the fully general bird's eye picture with indications how that produces all the special realizations in special cases
+
+  * created [[decategorification]] -- evidently much more can be said here, but it's a start
+
   * expanded the "Idea" section at [[spectrum]] and effectively rewrote it -- added a link to [[combinatorial spectrum]] at the end, which probably should be thought of as a concrete realization of the idea of $\mathbb{Z}$-category -- accordingly I changed the title of the last section from "Conjectures" to "Combinatorial models".
 
   * added a reference to Weibel's online book to [[algebraic K-theory]]
