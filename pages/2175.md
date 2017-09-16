@@ -7,35 +7,31 @@
 * [JA](http://planetphysics.org/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.org/)
 * [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
 
-# Notes #
-
-# Pages #
-
-## Algebra ##
+# Algebra #
 
 * [[multigrade operator]]
 * [[parametric operator]]
 
-## Arithmetic ##
+# Arithmetic #
 
 * [[riffs & rotes]]
 
-## Combinatorics ##
+# Combinatorics #
 
 * [graph theory](http://ncatlab.org/nlab/revision/graph+theory+%3E+history/9)
 
-## Computation ##
+# Computation #
 
 * [[propositions as types in combinatory algebra]]
 
-## Inquiry ##
+# Inquiry #
 
 * [[inquiry]]
 * [[inquiry driven system]]
 * [[Peirce's logic of information]]
 * [[semiotic information]]
 
-## Logic ##
+# Logic #
 
 * [[boolean domain]]
 * [[boolean function]]
@@ -52,21 +48,21 @@
 * [[praeclarum theorema]]
 * [[propositional calculus]]
 * [[propositional equation reasoning system]]
-* [[relation theory]]
+* [relation theory](http://ncatlab.org/nlab/revision/relation+theory+%3E+history/35)
 * [[semiotic equivalence relation]]
 * [[sign relation]]
 * [triadic relation](http://ncatlab.org/nlab/revision/ternary+relation/17)
-* [[universe of discourse]]
+* [universe of discourse](http://ncatlab.org/nlab/revision/type/3)
 
-## Miscellaneous ##
+# Miscellaneous #
 
 * [[Charles Sanders Peirce]]
 * [[precursors]]
-* [[syntax, semantics, pragmatics]]
+* [syntax, semantics, pragmatics](http://ncatlab.org/nlab/revision/syntax%2C+semantics%2C+pragmatics/1)
 
-## Utilities ##
+# Utilities #
 
-* [[Symbol Sandbox]]
+* [Symbol Sandbox](http://ncatlab.org/nlab/revision/Symbol+Sandbox+%3E+history/12)
 
 # Gallery #
 
