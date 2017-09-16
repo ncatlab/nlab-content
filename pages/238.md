@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-09
 
+* [[Urs Schreiber|Urs]]
+
+  * added Berger-Moerdijk's definition to [[interval object]]
+
 * [[Toby Bartels]]: Talked to Mike at [[directed set]], [[weak limit]], and [[internal logic]].
 
 * [[Mike Shulman|Mike]]:
