@@ -1,4 +1,7 @@
 A [[category]] $C$ is **presentable** if
++-- {: .query}
+Do you mean __*locally* presentable__?  Or are you following Lurie now?  Should we change the terminology below?
+=--
 
 * $C$ is [[locally small category]]
 
