@@ -1,3 +1,14 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
+A _loop space_ is a [[loop space object]] in [[Top]].
+
+
+#Definition#
+
 Let $Top$ be a [[nice category of spaces|nice category of topological spaces]], in particular one which is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[cartesian closed category|cartesian closed]]. Let $(S^1, pt)$ be the [[circle]], i.e., 1-dimensional [[sphere]], with chosen basepoint, and let $(X, *)$ be a space with a chosen [[pointed set|basepoint]]. Then the **loop space** of $X$ (at $*$) is an [[internal hom]] 
 
 $$\Omega X = hom((S^1, pt), (X, *))$$
@@ -26,7 +37,7 @@ $$\array{
 
 with basepoint provided by the right vertical arrow. 
 
-## Structure of loop spaces
+# Structure on loop spaces #
 
 A loop space is an example of a [[homotopy-associative space]], or H-space. In fact, loop spaces admit a rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
 
