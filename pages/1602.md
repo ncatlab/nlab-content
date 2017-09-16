@@ -1,7 +1,10 @@
 [[!redirects Green–Schwarz mechanism]]
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea
 
 Recall from the discussion at [[quantum anomaly]] the following situation:
 
@@ -32,3 +35,4 @@ $$
 Further details for the moment at
 
 * [Charges and Twisted Bundles, IV: Anomaly Cancellation](http://golem.ph.utexas.edu/category/2008/04/charges_and_twisted_bundles_iv.html)
+
