@@ -1,3 +1,6 @@
+[[!redirects monoidal categories]]
+[[!redirects strict monoidal category]]
+
 ##The Idea##
 
 A 'monoidal category' is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f' : V' \to W'$, we get a linear map
