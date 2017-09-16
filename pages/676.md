@@ -31,7 +31,7 @@
 
   * [[path integral|path integral quantization]]
 
-* **[[quantum information theory|Quantum Information Theory]]**
+* **[[quantum mechanics|Quantum Mechanics]]**
 
   * [[quantum channels]]
 
