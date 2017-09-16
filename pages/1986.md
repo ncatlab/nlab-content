@@ -20,11 +20,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[John Baez]]: 
 
-  * added material to [[database of categories]] --- more on Rel and SimpSet --- and replied to Toby's and Rafael's comments there.  What we want --- I think --- is not a massive list of all the categories we know (I could make up 5 a minute for the rest of my life), but a list of categories _including their basic categorical properties_.  I don't want to worry too much about the format of this list until it's gotten a lot longer.  
+   * added material to [[database of categories]] --- more on Rel and SimpSet --- and replied to Toby's and Rafael's comments there.  What we want --- I think --- is not a massive list of all the categories we know (I could make up 5 a minute for the rest of my life), but a list of categories _including their basic categorical properties_.  I don't want to worry too much about the format of this list until it's gotten a lot longer.  
 
-   tried to get Rafael to visit 'latest changes' page (and the corresonding pages for many previous months), log his changes here and interact with us a bit more.
+    tried to get Rafael to visit 'latest changes' page (and the corresonding pages for many previous months), log his changes here and interact with us a bit more.
 
-  * replied to David's and Toby's comments on [[symmetric function]].
+   * replied to David's and Toby's comments on [[symmetric function]].
 
 *  [[Toby Bartels]]:  Slight edits to [[space]].
 
