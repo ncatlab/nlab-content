@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-27 #
+
+* [[Urs Schreiber]]
+
+  * split off [[n-fold complete Segal space]] from [[(infinity,n)-category]]
+
+  * created [[(infinity,2)-category]]
+
 # 2009-06-26 #
 
 *  [[Toby Bartels]]:
