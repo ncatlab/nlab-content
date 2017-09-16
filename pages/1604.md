@@ -118,6 +118,3 @@ Let $A=[1,\Omega)$.  Then $\stackrel{\circ}A = [2,\Omega)$, $(\stackrel{\circ}A)
 Note that an interior is open, and a closure is closed.  Indeed, the open sets in $S$ form a topological structure on $S$, giving the usual meanings of interior, closure, and closed set.  This topological structure does *not* (in general) give the original pretopology on $S$; instead, this makes $Top$ a [[reflective subcategory]] of $Pre Top$.
 
 In the definition of pretopology, the neighbourhoods of each point may be given completely independently of any other point.  So the notion of topological space may also be seen as requiring some coherence between the neighbourhoods of nearby points.
-
-
-[[!redirects pretopology]]
