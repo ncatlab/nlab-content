@@ -29,9 +29,14 @@ $$
 $$
 
 
-#Examples#
+# Models #
 
-* The best developed example is the Brown-Joyal-Jardine construction of $(\infty,1)$-categories of sheaves in terms of [[model structure on simplicial presheaves|model categories]] of [[simplicial presheaf|simplicial presheaves]], which turns out to be a _hypercompletion_ of an $(\infty,1)$-category of $(\infty,1)$-sheaves.
+
+The [[hypercompletion|hypercomplete]] $(\infty,1)$-sheaf toposes are [[presentable (infinity,1)-category|presented]] by the [[model structure on simplicial presheaves]].
+
+Detailed discussion of this [[model category]] presentation is at 
+
+* [[models for infinity-stack (infinity,1)-toposes|models for (infinity,1)-category of (infinity,1)-sheaves]] .
 
 #References#
 
