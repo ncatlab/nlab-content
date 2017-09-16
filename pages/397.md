@@ -62,6 +62,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Konrad Waldorf]]
 * [[Lars Kindler]]
 * [[lieven lebruyn|Lieven Le Bruyn]]
+* [[Maarten Bergvelt|Maarten]] [[MaartenBergvelt|Bergvelt]]
 * [[Marc Olschok]]
 * [[Mathieu Dupont]]
 * [[Matthew Kahle]]
