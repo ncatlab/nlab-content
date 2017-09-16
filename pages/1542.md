@@ -14,6 +14,12 @@ For $X$ set, the **codiscrete groupoid** of $X$ is the groupoid $Codisc(X)$ with
 
 This definition makes sense also [[internal category|internally]], for $X$ an object in any category with finite [[limit]]s.
 
++--{.query}
+
+[[Eric Forgy|Eric]]: If true, is it worth pointing out that the underlying [[directed graph]] is complete?
+
+=--
+
 #Remarks#
 
 * Every codiscrete groupoid is [[equivalence of caategories|equivalent]] to the [[point]].
