@@ -3,7 +3,7 @@ The commonly accepted standard [[foundation of mathematics]] today is a material
 
 ## History
 
-The first version was developed by [[Ernst Zermelo]] in 1908; in 1922, [[Abraham Fraenkel]] and [[Thoralf Skolem]] independently proposed a precise first-order version with the [[axiom of replacement]]; finally, Zermelo added the [[axiom of foundation]] in 1930.  All of these versions included the axiom of choice, but this was considered controversial for some time; one has merely $ZF$ if it is taken out.
+The first version was developed by [[Ernst Zermelo]] in 1908; in 1922, [[Abraham Fraenkel]] and [[Thoralf Skolem]] independently proposed a precise first-order version with the [[axiom of replacement]]; von Neumann added the [[axiom of foundation]] in 1925.  All of these versions included the axiom of choice, but this was considered controversial for some time; one has merely $ZF$ if it is taken out.
 
 $ZFC$ is similar to the [[class]] theories $NBG$ (due to [[John von Neumann]], [[Paul Bernays]], and [[Kurt Godel|Kurt Gödel]]) and $MK$ (due to [[Anthony Morse]] and [[John Kelley]]).  The former is a conservative, finitely axiomatisable extension of $ZFC$, while the latter is stronger and cannot be finitely axiomatised (without introducing meta-classes or something).
 
