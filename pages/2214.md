@@ -26,6 +26,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-15
 
+* [[Urs Schreiber]]: 
+
+  * created [[category theory - contents]] and began adding it as a "floating" table of contents to some relevant entries.
+
+  * following [this blog discussion](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) I added a paragraph "Terminology" to [[category theory]]
+
+    I also tried to incorporate the content of the query box that used to be in the paragraph on "Abstract Nonsense" by [[Zoran Skoda]] and [[Todd Trimble]]. I moved that discussion box to the bottom of the entry now. But if you think more discussion is needed, we'll revive it.
+
 * [[Mike Shulman]]: Thanks Urs.  I expanded [[2-pullback]] a bit.  Weirdly, the direct URL for [weak pullback](http://ncatlab.org/nlab/show/weak+pullback) currently takes me to the *old* disambiguation page, which doesn't seem to exist any more.  Ordinary links like [[weak pullback]] are correctly redirected to [[weak limit]] however.
 
 * [[Urs Schreiber]]
