@@ -125,5 +125,6 @@ Nostrand, {New   York}. Reprints in Theory and Applications of Categories, 7 (20
 
 * John Baez, [TWF 249](http://math.ucr.edu/home/baez/week249.html)
 
-
+[[!redirects action groupoids]]
 [[!redirects action group]]
+[[!redirects action groups]]
