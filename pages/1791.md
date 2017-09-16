@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 
 The [[model category|model structure]] $SPSh(C)$ on [[SSet]]-[[enriched functor category|enriched presheaves]] is supposed to be a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] on an $SSet$-enriched [[site]] $C$.
@@ -7,7 +11,7 @@ It generalizes the [[model structure on simplicial presheaves]] which is the spe
 
 This means that in as far as the [[model structure on simplicial presheaves]] models [[infinity-stack]]s, the model structure on [[SSet]]-[[enriched category|enriched categories]] models [[derived stack]]s.
 
-# Definition #
+## Definition 
 
 The construction of the model structure on [[SSet]]-[[enriched category|enriched categories]] closely follows the discussion of the [[model structure on simplicial presheaves]], only that everything now takes place in [[enriched category theory]].
 
@@ -40,11 +44,11 @@ of $SPSh(C)_{proj}$ at the following set of morphisms (...see [TV page 14](http:
 
 It seems that the claim is that, indeed, in the special case that $C$ happens to be an ordinary category, the model structure on $SPSh(C)_{proj}^{l loc}$ reproduces the projective [[local model structure on simplicial presheaves]].
 
-#References#
+## References
 
 The theory of model structures on SSet-enriched presheaf categories was developed in
 
-* [[Bertrand Toen]], Gabriele Vezzozi, _Topos Theory_ ([arXiv](http://arxiv.org/abs/math/0207028))
+* [[Bertrand Toen]], [[Gabriele Vezzozi]], _Topos Theory_ ([arXiv](http://arxiv.org/abs/math/0207028))
 
 
 [[!redirects model structure on SimpSet-enriched presheaves]]
