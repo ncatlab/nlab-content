@@ -48,6 +48,10 @@ Loday proved in
 
 that the homotopy category of [[cat-n-group]]s is equivalent to that of pointed connected homotopy $n$-types.
 
+Regis Pellissier produces in his 2003 thesis a Quillen equivalence between Segal groupoids and Topological Spaces:
+
+* [arXiv](http://arxiv.org/abs/math/0308246)
+
 For reviews see for instance
 
 * Ronald Brown, _Computing Homotopy Types Using Crossed $N$-Cubes of Groups_ ([arXiv](http://arxiv.org/abs/math/0109091))
