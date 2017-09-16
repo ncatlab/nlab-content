@@ -41,9 +41,10 @@ The set of proper Cauchy filters on a Cauchy space has a natural Cauchy structur
 A Cauchy space $S$ is __precompact__ (or __totally bounded__) if every filter is contained in a Cauchy filter.  Equivalently (assuming the [[ultrafilter theorem]], a weak form of the [[axiom of choice]]), $S$ is precompact iff every ultrafilter is Cauchy.  A Cauchy space is [[compact space|compact]] (as a convergence space) if and only if it is both complete and precompact.  Conversely, it is precompact iff its completion is compact.
 
 
-# References #
+## References ##
 
 Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
+
 
 [[!redirects Cauchy spaces]]
 [[!redirects Cauchy filter]]
