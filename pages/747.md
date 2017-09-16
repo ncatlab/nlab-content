@@ -268,6 +268,12 @@ A detailed study of [[descent]] for simplicial presheaves is given in
 
 * **DI02** D. Dugger, D. Isaksen, _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
 
+Further variants of this can be found at
+
+* Benjamin Blander, _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
+
+* Daniel Isaksen, _Flasque model structure for simplicial presheaves_  ([web](http://www.math.uiuc.edu/K-theory/0679/) [pdf](http://www.math.uiuc.edu/K-theory/0679/flasque.pdf))
+
 The characterization of the model category of simplicial presheaves as the canonical [[presentable (infinity,1)-category|presentation]] of the (hypercompletion of) the [[(infinity,1)-category of (infinity,1)-sheaves]] on a site is in
 
 * [proposition 6.5.2.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528) of 
