@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-29 #
 
+* [[Urs Schreiber]] continued filling in propositions and detailed proofs at [[category of fibrant objects]]
+
 *  [[Toby Bartels]] fleshed out [[discrete fibration]] a bit.
 
 *  [[Eric Forgy]] created [[interval category]].
