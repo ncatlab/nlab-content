@@ -37,16 +37,16 @@ and the **triangle**:
 
 $$
   \array{
-     & (X \otimes I) \otimes Y &\stackrel{a_{X,I,Y}}{\longrightarrow} & X \otimes (I \otimes Y)
+     & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
       \\
       
-      & {}_{r_X \otimes 1_Y}\searrow
+      & {}_{\rho_x \otimes 1_y}\searrow
        
-       && \swarrow_{1_X \otimes r_Y}
+       && \swarrow_{1_x \otimes \lambda_y}
       & 
      \\
      &&
-     X \otimes Y
+     x \otimes y
      &&
      
   }
