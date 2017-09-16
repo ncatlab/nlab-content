@@ -14,8 +14,15 @@
 
 A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing [[homotopy theory]].    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
 
-So, what is a model category?  Roughly speaking, it is 
-a [[category with weak equivalences]] that is equipped with extra structure which  facilitates the computation and handling of its [[simplicial localization]].  This simplicial localization is an [[(∞,1)-category]]: it keeps track of objects in the model category, morphisms between objects, homotopies between maps, homotopies between homotopies, and so on, _ad infinitum_.  We say this [[(∞,1)-category]] is _modeled_ by the model category, and that the objects of the model category are _models_ for the objects of this $(\infty,1)$-category.
+So, what is a model category?  For starters, it is a category equipped with three classes of morphisms, each closed under composition: [[weak equivalences]], [[fibrations]] and [[cofibration|cofibrations]]:
+
+* The weak equivalences play the role of 'homotopy equivalences' or something a bit more general.  Already in the case of [[topological space|topological spaces]], it is useful to say that two spaces have the same [[homotopy type]] if there is a map from one to the other that induces isomorphisms on homotopy groups for any choice of basepoint in the first spaces.  These maps are more general than homotopy equivalences, and they are called 'weak equivalences'.
+
+* The fibrations play the role of 'nice surjections'.  For example, in the category of [[topological spaces]] with its usual model structure, a locally trivial fiber bundle is typically a fibration.
+
+* The cofibrations play the role of 'nice inclusions'.  For example, in the category of [[topological spaces]] with its usual model structure, an [[NDR pair]] is typically a cofibration.  
+
+A bit more technically: we can define an [[(∞,1)-category]] starting from any [[category with weak equivalences]].  The idea is that this (∞,1)-category keeps track of objects in our original category, morphisms between objects, homotopies between maps, homotopies between homotopies, and so on, _ad infinitum_.  However, the extra structure of a model category makes it easier to work with this (∞,1)-category   We can obtain this (∞,1)-category in various ways, including [[simplicial localization]].    We say this [[(∞,1)-category]] is _modeled_ by the model category, and that the objects of the model category are _models_ for the objects of this $(\infty,1)$-category.
 
 In this sense model categories are 'models for [[homotopy theory]]' or 'categories of models for homotopy theory'.  (The latter sense was the one intended by Quillen, but the former is also a useful way to think.)
 
