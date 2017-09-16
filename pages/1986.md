@@ -27,6 +27,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
+* [[Urs Schreiber]]
+
+  * created an _Idea_ section at [[space and quantity]], mainly to list some links. 
+
+    Given the pivotal role that this entry is playing I am unhappy with its rough appearance. Hope we can eventually improve on that.
+
+  * replied to Toby at [[infinitesimal object]] by agreeing that, yes, now that you mention it, it sounds like a good idea to rename that entry into [[infinitesimal space]] and create a parallel entry [[infinitesimal quantity]].
+
+  * thanks to Toby for the rephrasing, it's much better now, yes
+
 *  [[Toby Bartels]]:
    *  Rephrased (and tightened) the second warning above to what I think is the important point.
    *  Cross linked [[relation]] and [[relation theory]].
