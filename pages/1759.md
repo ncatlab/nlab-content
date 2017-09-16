@@ -17,6 +17,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created [[twisted K-theory]] presenting it as a special case of the discussion at [[twisted cohomology]] -- feeling slightly uneasy about making this public, though, maybe later I get scared and remove that content again, or move it to my private web. Or else, you tell me how obvious and well-known this is, then I can leave it there without further worries.
+
+  * created [[twisted bundle]] and [[bundle gerbe module]]
+
   * added at [[homology]] an "Idea" section that introduces the concept as the image of homotopy under the Dold-Kan correspondence. Also added as an example explicitly the ordinary case of homology in chain complexes of abelian groups
 
   * yes, the duality mentioned at [[cohomotopy]] is the one called [[Eckmann-Hilton duality]], at leat when the $(\infty,1)$-topos in question is [[Top]]. I have made that explicit now at [[cohomotopy]]. 
