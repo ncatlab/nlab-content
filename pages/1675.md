@@ -1,0 +1,1 @@
+If $A$ and $B$ are algebraic theories, the algebraic theory $A\otimes B$ is characterized by the fact that its models can be identified with $A$-models in $B-mod$, or equivalently as $B$-models in $A-mod$. There are maps of theories $A\to A\otimes B$, $B\to A\otimes B$ which are universal for maps of theories $A\to ?$, $B\to ?$ whose images commute.
