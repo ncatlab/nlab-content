@@ -1,3 +1,2 @@
-See [[identity-assigning morphism]].
-
-category: delete
+&lt; [[|identity assigning morphism]]
+[[!redirects |identity assigning morphism -- history]]
