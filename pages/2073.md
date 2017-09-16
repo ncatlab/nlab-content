@@ -5,7 +5,7 @@
 
 ## Idea
 
-Marked simplicial sets are [[simplicial set]]s with a little bit of extra [[stuff, structure, property|structure]] that allows to model [[Cartesian fibration]]s of [[simplicial set]]s precisely as the fibrations in the [[model structure on marked simplicial over-sets]].
+Marked simplicial sets are [[simplicial set]]s with a little bit of extra [[stuff, structure, property|structure]] that allows to model [[Cartesian fibration]]s of [[simplicial set]]s precisely as the fibrations in the [[model structure on marked simplicial over-sets]]: the marked edges in a (fibrant) marked simplicial set are the [[Cartesian morphism]]s in the coprresponding [[(∞,1)-category]].
 
 
 ## Definition 
