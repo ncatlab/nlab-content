@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * expanded and restructured [[Grothendieck topos]]
+
   * added what should be a detailed proof to [[geometric embedding]] that for every geometric embedding $f_* : F \hookrightarrow E$ the category $F$ is equivalent to the localization of $E$ at the morphisms that are sent by $f^*$ to isos 
 
     * there are two possibilities here: either I am mixed up or this is somewhere in the literature. If the latter, can anyone give me a pointer to a reference that mentions this explicitly?
