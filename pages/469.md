@@ -11,7 +11,7 @@ $$
 naturally in all three arguments,
 where $\otimes = \times$ is the standard [[cartesian monoidal category|cartesian]] [[product]] of sets.
 
-This can be read as a characterization of the Hom-object $Hom(b,c)$ and is the basis for the following definition.
+This can be read as a characterization of the [[internal hom]] $Hom(b,c)$ and is the basis for the following definition.
 
 
 ## Definition #
