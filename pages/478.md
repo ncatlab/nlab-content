@@ -3,3 +3,6 @@ In natural language, the definite article ('the' in English) is generally used o
 In mathematics, and especially in category theory, it is common to use "the" more generally for something which is characterized uniquely up to unique canonical [[isomorphism]].  Thus, for instance, we speak (assuming that any exists) of "the" [[terminal object]] of a category, "the" [[product]] of two objects, "the" [[adjoint functor|left adjoint]] of a functor, and so on.  Outside of pure category theory we have examples such as "the" field of real numbers.
 
 In [[higher category theory]], we extend this usage to objects that are characterized uniquely up to unique canonical [[equivalence]].  Of course, by "unique equivalence" we mean "unique up to 2-equivalence," and so on.  A more [[homotopy theory|homotopy-theoretic]] way to say this is that _the space of all such objects is [[contractible space|contractible]]_.
+
+
+[[!redirects the]]
