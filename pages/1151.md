@@ -67,6 +67,8 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
   * [[nonabelian cohomology]]
 
+  * [[Cech cohomology]]
+
   * [[twisted cohomology]]
 
 
