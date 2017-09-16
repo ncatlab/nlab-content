@@ -10,7 +10,7 @@
 
 ## Idea 
 
-A _combinatorial model catgeory_ is a particularly tractable [[model category]] structure. (Notice however that there is also the, closely related, technical notion of a [[tractable model category]]).
+A _combinatorial model category_ is a particularly tractable [[model category]] structure. (Notice however that there is also the, closely related, technical notion of a [[tractable model category]]).
 
 Being combinatorial means that there is very strong control over the cofibrations in these model structures: there is a [[set]] (meaning small set, not proper [[class]]) of [[cofibrantly generated model category|generating (acyclic) cofibrations]], and all objects, in particular the domains and codomains of these cofibrations, are [[small object]]s.
 
@@ -236,7 +236,7 @@ And the converse statement is immediate: by definition $J \subset cof(I) \cap W$
 
 In total we have indeed $cof(J) = cof(I) \cap W$ which shows that the $I$ and $W$ given to determine a combinatorial model category.
 
-To see the converse, that every combinatorial model structure arises this way, it is sufficient to show that for every combinatorial model category the ctegory $Arr_W(C) \subset Arr(C)$ is an [[accessible category]]. 
+To see the converse, that every combinatorial model structure arises this way, it is sufficient to show that for every combinatorial model category the category $Arr_W(C) \subset Arr(C)$ is an [[accessible category]]. 
 
 
 =--
