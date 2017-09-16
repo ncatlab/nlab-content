@@ -54,3 +54,8 @@ Similarly, there are "pretopos completions" analogous to the [[ex/reg completion
 [[!redirects coherent topology]]
 [[!redirects coherent coverage]]
 [[!redirects geometric category]]
+[[!redirects infinitary coherent category]]
+[[!redirects coherent topologies]]
+[[!redirects coherent coverages]]
+[[!redirects geometric categories]]
+[[!redirects infinitary coherent categories]]
