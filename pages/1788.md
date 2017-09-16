@@ -2,18 +2,14 @@ You cannot see me: I\'m invisible!
 
 [[!include contents]]
 
+# Contents #
+
+* dummy line for automatically generated table of contents
+{:toc}
+
 ***
 
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
-
-***
-
-# Contents
-
-* a table of contents that contains itself
-{: toc}
-
-## Content
 
 ***
 
@@ -35,6 +31,34 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [O
 1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
 1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
 1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
+1.  [Arrows](http://www.sql-und-xml.de/unicode-database/arrows.html)
+
+***
+
+# Type Spec #
+
+Assign types in the following specification:
+
+$$\array{
+\arrayopts{\colalign{left}}
+((x \overset{ }{\underset{A}{\Downarrow}} \;
+  y \overset{A}{\underset{B}{\Downarrow}}
+  ) \overset{ }{\underset{B}{\Downarrow}} \;
+  z \overset{B}{\underset{C}{\Downarrow}}
+  ) \overset{ }{\underset{C}{\Downarrow}}
+\\ \\
+=
+\\ \\
+(x \overset{ }{\underset{A}{\Downarrow}} \;
+(y \overset{A}{\underset{B}{\Downarrow}} \;
+(z \overset{B}{\underset{C}{\Downarrow}} \;
+ P \overset{B \Rightarrow C}{\underset{(A \Rightarrow B) \Rightarrow (A \Rightarrow C)}{\Downarrow}}
+ ) \overset{A \Rightarrow B}{\underset{A \Rightarrow C}{\Downarrow}}
+ ) \overset{A}{\underset{C}{\Downarrow}}
+ ) \overset{ }{\underset{C}{\Downarrow}}
+}$$
+
+Here, a notation of the form $x \underset{A}{\Downarrow}$ means that $x$ is of the type $A$, while a notation of the form $x \overset{A}{\underset{B}{\Downarrow}}$ means that $x$ is of the type $A \Rightarrow B$.
 
 ***
 
