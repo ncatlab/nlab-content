@@ -2,9 +2,9 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+#Summary#
 
-The Tietze extension theorem says that smooth functions on _closed_ subdomains may always be extended.
+The Tietze extension theorem says that continuous functions extend from closed subsets of a [[normal space]] $X$ to the whole space $X$. There is another less well-known variant: smooth functions on _closed_ subdomains of a smooth manifold may always be extended.
 
 # Statement #
 
