@@ -13,6 +13,8 @@ $$
   \,.
 $$
 
+This function $g$ is also called a **Hadamard quotient**.
+
 It follows that $g(0) = f'(0)$ is the derivative of $f$ at 0. By applying this repeatedly the lemma says that $f$ has a partial Taylor expansion whose remainder $h$ is a smooth function:
 
 $$
@@ -30,7 +32,7 @@ $$
 So at the origin these smooth functions compute the partial derivatives of $f$
 
 $$
-  g_i(0) = \frac{\partial f}{\partial x^i}(0)
+  g_i(0) = \frac{\partial f}{\partial x_i}(0)
   \,.
 $$
 
@@ -45,3 +47,4 @@ $$
 
 
 [[!redirects Hadamard's lemma]]
+[[!redirects Hadamard quotient]]
