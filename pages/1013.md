@@ -46,7 +46,7 @@ So the above says for a functor $F : C \to D$:
 | essentially $(k \geq 3)$-surjective | may forget everything     | may remember nothing                   |
 
 
-It is noteworthy how this formalism captures the heuristic way in which "stuff", "structure" and "properties" are expected to be related:
+It is worth noting that this formalism captures the intuition of how "stuff", "structure", and "properties" are expected to be related:
 * stuff may be equipped with structure;
 * structure may have (be equipped with) properties.
 
@@ -58,7 +58,7 @@ The $3$-way breakdown looks like this:
 | essentially $(k \ne 1)$-surjective | forgets purely structure | remembers at least stuff and properties     |
 | essentially $(k \ne 2)$-surjective | forgets purely stuff     | remembers at least structure and properties |
 
-This formalism does *not* capture the heuristic so well, and in fact the 'properties' (and 'structure') remembered by a functor that forgets purely structure (or purely stuff) may not match one\'s intuition.
+This formalism does *not* capture the intuition so well, and in fact the 'properties' (and 'structure') remembered by a functor that forgets purely structure (or purely stuff) may not match what one expects.
 
 See also the examples below.
 
