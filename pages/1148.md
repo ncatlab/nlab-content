@@ -1,3 +1,6 @@
+[[!include cohomology - contents]]
+
+
 #Idea#
 
 The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf]] of abelian groups $F$ was originally defined as the value of the right [[derived functor]] of the global section functor.
