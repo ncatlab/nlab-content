@@ -11,12 +11,15 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
-# 2009-04-16 #
 
-Im Westens nicht neues
+# 2009-04-17 #
+
+*  [[Toby Bartels]]:
+   *  More details about how to model [[pure set]]s in structural set theory.
+   *  Wrote [[Cantor's theorem]], including a constructive version from Paul Taylor.
 
 # 2009-04-16 #
-* [[Zoran Škoda]]: created [[Tohoku]], [[quasi-pointed object]], made changes to [[sheafification]],[[additive and abelian categories]], [[torsion]], [[torsion subgroup]]
+* [[Zoran Škoda]]: created [[Tohoku]], [[quasi-pointed category]], made changes to [[sheafification]],[[additive and abelian categories]], [[torsion]], [[torsion subgroup]]
 
 * [[Mathieu Dupont|Mathieu]]:
 
