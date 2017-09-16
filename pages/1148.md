@@ -39,16 +39,47 @@ of sheaves with values in [[combinatorial spectrum|combinatorial spectra]]
 internal to abelian groups.
 
 
-(...)
+Let how $F \in Sh(X,Ab)$ be a [[sheaf]] on a [[site]] $X$ with vlues in the category [[Ab]] of abelian groups.
 
+For $n \in \mathbb{N}$ write $B^n F \in Sh(X, Ch_+(Ab))$ for the [[complex]] of [[sheaf|sheaves]] with values in abelian groups which is trivial everywhere except in degree $n$, where it is given by $F$.
+
+By the [[Dold-Kan correspondence]] we can regard $B^n F$ equivalently as a complex of sheaves of abelian groups as well as sheaf with values in [[infinity-groupoid]]s.
+
+Write $H$ for the [[(infinity,1)-category]] of [[simplicial presheaf|simplicial sheaves]] on $X$ and $H_{ab}$ for the 
+[[(infinity,1)-category]] of complexes of [[abelian sheaf|abelian sheaves]] on $X$. 
+
+Write $X$ for the terminal sheaf of $X$, i.e. for the [[sheaf]] that corresponds to the space $X$ itself. 
+
+Then
 
 $$
-  \begin{aligned}
-    H^q(X,F)
-    & \simeq
-    [X, \mathbf{B}^q F]
-  \end{aligned}
+  H^n(X,A) := \pi_0 H(X,\mathbf{B}^n F)
 $$
+
+is the degree $n$ [[cohomology]] class of $X$ with values in $F$, regarded as computed in [[nonabelian cohomology]].
+
+Now write $\mathbb{Z}[X]$ for the free abelianization of the sheaf $X$. This is the sheaf constant on the abelian group $\mathbb{Z}$ of integers. Then the above cohomology set, which of course happens to be a cohomology group here, due to the abelianness of $F$, is canonically isomorphic to the cohomology set
+
+$$
+  \cdots \simeq \pi_0 H_{ab}(\mathbb{Z}[X], \mathbf{B}^n F)
+$$
+
+which can be regarded as the [[hom-set]] in the [[derived category]] of [[complex]]es of [[abelian sheaf|abelian sheaves]]. This, in turn, is the same as the traditional expression
+
+$$
+  \cdots \simeq R^n \Gamma(X,F)
+$$
+
+giving the $n$th [[derived functor]] of the [[global section functor]] of the [[abelian sheaf]] $F$. 
+
+This, finally, is the same group as obtained by choosing any [[complex]] $I_F$ of [[abelian sheaf|abelian sheaves]] that is [[injective]] and [[quasi-isomorphism|quasi-isomorphic]] to $F$ regarded as a complex concentrated in degree 0 and then computing the $n$ [[homology]] group of the complex $\Gamma(X,I_F)$ of global sections of $F$:
+
+$$
+  \cdots \simeq H_n(\Gamma(X,I_F))
+  \,.
+$$ 
+
+Historically the development of abelian sheaf cohomology was precisely in reverse order to this derivation from the general [[(infinity-1)-categorical]] [[cohomology]].
 
 #Examples#
 
@@ -56,16 +87,14 @@ $$
 
 #References#
 
-For a discussion of that and how abelian sheaf cohomology is 
-embedded into [[generalized sheaf cohomology]] and
+For a discussion of that and how abelian sheaf cohomology is  embedded into [[cohomology|generalized sheaf cohomology]] and
 [[nonabelian cohomology]] see 
 
 * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
 The reformulation of abelian sheaf cohomology in terms
-of hom-spaces $[X,A]$ is in the list of observations on p. 9,
-culminating in the sequence of identities of
+of hom-spaces $H(X,A)$ is in the list of observations on p. 9, culminating in the sequence of identities of
 cohomologies and hom-spaces in the proof of theorem
 2 on the bottom of page 10.
 
-
+In this old article Ken Brown of ccourse uses a [[model category|1-categorical model]] for the [[(infinity,1)-category|(infinity,1)-categories]] $H$ and $H_{ab}$, namely a [[category of fibrant objects]].
