@@ -53,3 +53,5 @@ There may also be extra structure induced more idirectly on $K(C)$. For instance
 
 
 ...
+
+[[!redirects isomorphism class]]
