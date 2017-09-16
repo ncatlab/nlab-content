@@ -32,7 +32,10 @@ It appears as [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/math/pdf/06
 * J. Lurie, _Higher topos theory_ ([pdf](http://arxiv.org/abs/math.CT/0608040))
 
 
+[[!redirects colimit in a quasi-category]]
+[[!redirects limit in quasi-categories]]
 [[!redirects limits in quasi-categories]]
 [[!redirects colimit in quasi-categories]]
+[[!redirects colimits in quasi-categories]]
 [[!redirects (infinity,1)-limit]]
 [[!redirects (infinity,1)-colimit]]
