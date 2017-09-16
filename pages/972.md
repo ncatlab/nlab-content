@@ -1,6 +1,6 @@
 A **complete lattice** is a [[partial order|poset]] which has all [[join|joins]] and [[meet|meets]].  In particular, it is a [[lattice]].  By the [[adjoint functor theorem]] for posets, having either all joins or all meets is sufficient for the other.  However, a [[suplattice]] morphism may preserve only joins, while dually an [[inflattice]] morphism may preserve only meets.  Furthermore, a *large* poset with all *small* joins or meets need not have the other.
 
-Complete lattices and complete lattice homomorphisms form a [[concrete category]] [[Comp Lat]].
+Complete lattices and complete lattice homomorphisms form a [[concrete category]] [[CompLat]].
 
 
 ## Examples
