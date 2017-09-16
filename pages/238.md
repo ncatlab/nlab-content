@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-15 #
 
+*  [[Todd Trimble]] created [[connected space]].
+
 *  [[Toby Bartels]]:  [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] was getting too long for me to handle, so I removed the duplication of abstracts and broke the rest up by day.
 
 # 2009-06-14 #
