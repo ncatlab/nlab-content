@@ -146,6 +146,7 @@ Other articles with content relating to constructive mathematics:
 *  [[sober space]]
 *  [[topological space]]
 *  [[Tychonoff theorem]]
+*  [[uniform space]]
 *  [[well-founded relation]]
 *  [[well-order]]
 *  [[well-ordering theorem]]
