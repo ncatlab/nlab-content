@@ -12,4 +12,6 @@ There are [weekly workshops](http://www.mfo.de/programme/workshops) in Oberwolfa
 
 * [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
 
+  * [[Oberwolfach 2009 - Abstracts|List of Abstract]]
+
 category: place
