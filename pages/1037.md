@@ -222,7 +222,9 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ##3 The $\infty$-Category of $\infty$-Categories
 
-* [[(∞,1)-category of (∞,1)-categories]]
+* the [[(∞,2)-category]] [[(∞,1)Cat]]
+
+* the [[(∞,1)-category of (∞,1)-categories]]
 
 * [[Grothendieck construction]]
 
