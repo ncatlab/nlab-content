@@ -1,6 +1,18 @@
+"Bundle gerbes" are special realizations of [[gerbe]]s in [[differential geometry]].
+
+See also
+
+* [[gerbe (as a stack)]]
+
+* [[gerbe (general idea)]]
+
+
+
+***
+
 ##General idea##
 
-A _bundle gerbe_ is a categorification of a transition function of a [[fiber bundle]]. For that reason, it is sometimes also addressed as a _transition bundle_.
+A _bundle gerbe_ is a categorification of a transition function of a [[principal bundle]]. For that reason, it is sometimes also addressed as a _transition bundle_.
 
 Despite its name, a bundle gerbe is not a [[gerbe]]. A gerbe is rather a categorification of the [[sheaf of sections]] of a fiber bundle.
 
