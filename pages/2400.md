@@ -1,6 +1,3 @@
-[[!redirects basic ideas of moduli stacks of curves and Gromov-Witten theory]]
-
-
 
 +-- {: .standout}
 
@@ -369,9 +366,12 @@ $$
   g^{a b} = (g_{a b})^{-1}
 $$
 
-so this diagram above says that this satisfies the [[sewing law]]s that defines a [[quantum field theroy]]
+so this diagram above says that this satisfies the [[sewing law]]s that defines a [[quantum field theory]]
 
 
 #References#
 
 * [[Yuri Manin]], _Frobenius manifolds, quantum cohomology and moduli spaces_, Amer. Math. Soc., Providence, RI, 1999, 
+
+
+[[!redirects basic ideas of moduli stacks of curves and Gromov-Witten theory]]
