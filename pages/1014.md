@@ -63,17 +63,21 @@ In this representation, a pure set is a _rigid rooted directed tree_, possibly a
 
    _Toby_:  For purposes of formalisation in $\mathbf{SEAR}$, take (b) for all that comes below.  But to get a model of $\mathbf{ZFC}$, you need a model of $\mathbf{SEARC}$ to start with.  In this model, you have a set $M$ whose elements model sets of $\mathbf{SEAR}$; out of $M$ you can (whether your metatheory is material or structural) build a set whose elements model directed graphs in the sense of (a).  (The set whose elements model sets of $\mathbf{ZFC}$ will be a subquotient.)
 
-AN: You shift the burden illegitimately to the metatheory. 
-I never before heard that in order to build a model of the natural numbers in ZF one first needs a model of ZF to start with. This would make model theory impossible, requiring an infinite regress on models.
+   AN: You shift the burden illegitimately to the metatheory. 
+   I never before heard that in order to build a model of the natural numbers in ZF one first needs a model of ZF to start with. This would make model theory impossible, requiring an infinite regress on models.
 
-If you need a model of SEARC in a language X to be able to give a model of ZFC then you modelled ZFC in X but not in 
-SEARC. Thus you are passing the buck from SEARC to X.
-In fact, this introduces implicit material set theory 
-since you now have an X set of SEARC sets that allows to compare and intersect in X any two SEARC sets.
+   If you need a model of SEARC in a language X to be able to give a model of ZFC then you modelled ZFC in X but not in 
+   SEARC. Thus you are passing the buck from SEARC to X.
+   In fact, this introduces implicit material set theory 
+   since you now have an X set of SEARC sets that allows to compare and intersect in X any two SEARC sets.
 
-Thus the proposed reflection of ZFC in X does not avoid comparing SEARC sets, and hence nullifies your structural efforts from the point of view of foundations. (I think the same holds for ETCS, for which this page was written.)
+   Thus the proposed reflection of ZFC in X does not avoid comparing SEARC sets, and hence nullifies your structural efforts from the point of view of foundations. (I think the same holds for ETCS, for which this page was written.)
 
-[[Mike Shulman]]: Building a model of the natural numbers is not a valid comparison.  A valid comparison is building a model of ZF+CH.  You cannot (if ZF is consistent) build a model of ZF+CH **in** ZF, since then ZF would prove Con(ZF+CH) and hence Con(ZF), violating the incompleteness theorem.  Rather, one starts with a model of ZF in some metatheory (which can be *significantly weaker* than ZF, although what this metatheory is is rarely made formal), and constructs in that metatheory a model of ZF+CH.  The same is true here.
+   [[Mike Shulman]]: Building a model of the natural numbers is not a valid comparison.  A valid comparison is building a model of ZF+CH.  You cannot (if ZF is consistent) build a model of ZF+CH **in** ZF, since then ZF would prove Con(ZF+CH) and hence Con(ZF), violating the incompleteness theorem.  Rather, one starts with a model of ZF in some metatheory (which can be *significantly weaker* than ZF, although what this metatheory is is rarely made formal), and constructs in that metatheory a model of ZF+CH.  The same is true here.
+
+   _Toby_:  I really don\'t understand what your concern is, AN.  You cannot construct a model of $\mathbf{ZFC}$ in $\mathbf{SEARC}$, any more than you can construct a model of $\mathbf{ZFC}$ in $\mathbf{ZFC}$.  You *can* build a model of the natural numbers, if you mean a model of something like $\mathbf{PA}$ (Peano arithmetic) in $\mathbf{SEARC}$, of course; you can do it the same way as you do it in $\mathbf{ZFC}$, since the hierarchical classification of sets plays no role in this (once you have the set of natural number in hand).  But I don\'t think that this can be what you\'re asking about.
+
+   The natural numbers also appear below as the example $\omega$.  But there is no difficulty at all in constructing that particular example in $\mathbf{SEARC}$.
    =--
 *  Every directed graph generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __[[tree]]__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
@@ -97,10 +101,12 @@ These subsidiary notions are also needed:
 
    _Toby_:  The purpose for this is to point out that this notion will be used, 
 
-AN: I still don't understand. Why not use the notion isomorphic, which says (by definition) exactly the same?
+   AN: I still don't understand. Why not use the notion isomorphic, which says (by definition) exactly the same?
 
-_Toby_ continues :
-and that it (not something weaker) is the desired notion of equivalence (anticipating that we must want one to model equality of pure sets).  Actually, that is *wrong* in the ill-founded case, depending on what you take to be the [[axiom of extensionality]] for ill-founded sets, which is what I need to fix here; we *do* want something weaker.  (Or better, replace rigidity with a stricter condition that follows from rigidity when the tree is well-founded.  That is what I\'d really like to do, but I haven\'t found a simple way to express it.  For purposes of $\mathbf{ZFC}$ including the axiom of foundation, however, this should all be correct as it is.)
+   *  _Toby_:  You mean, why not use the term 'isomorphic'?  Because that is a term of art from category theory (or at least algebra), and I want to use a term appropriate to talking about pure sets.  One normally says that sets are 'equal', in fact, but I avoided that since it could lead to confusion and used its weaker cousin 'equivalent'.  One doesn\'s normally say that sets are 'isomorphic' (unless one means that they are equipollent, which is definitely not what we want here), so I didn\'t want to use that word.  It is trees (or generally graphs) that are called 'isomorphic'.  That is, isomorphic well-founded rigid trees are interpreted as equivalent well-founded pure sets.
+
+   _Toby_ continues :
+   and that it (not something weaker) is the desired notion of equivalence (anticipating that we must want one to model equality of pure sets).  Actually, that is *wrong* in the ill-founded case, depending on what you take to be the [[axiom of extensionality]] for ill-founded sets, which is what I need to fix here; we *do* want something weaker.  (Or better, replace rigidity with a stricter condition that follows from rigidity when the tree is well-founded.  That is what I\'d really like to do, but I haven\'t found a simple way to express it.  For purposes of $\mathbf{ZFC}$ including the axiom of foundation, however, this should all be correct as it is.)
    =--
 *  A tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; for rigid trees, this can again happen only in one way.
 
@@ -122,7 +128,11 @@ This definition needs to be fixed; it gives only Scott-[[extensional relation|ex
 AN: Thus you'd say ''seems to hold'' in place of ''holds'' 
 since at present you know only this much.
 
+*  _Toby_:  Actually, I know what the definition should be; I just don\'t know how to express it in a nice way.  If nothing else, one could go through the wrapped picture below, which is correct as written (well, barring errors that I\'ve missed!).  Even this version is correct for the well-founded case, which is all that we need to get $\mathbf{ZFC}$.
+
 Also, a reference to why it works for the well-founded case should be provided that gives enough details to merit being called a proof.
+
+_Toby_:  I\'m not sure what you mean by 'should' here.  Do you mean that it would be nice if somebody writes one?  Then I agree!  Do you mean that a paper claiming that $\mathbf{SEARC}$ and $\mathbf{ZFC}$ are equivalent theories should contain such a proof?  Then you\'re probably correct, except that probably much of what is needed could just be cited from the literature by making a detour through $\mathbf{ETCS}$.  Possibly a proof of Collection would be new; I have not gone through that myself and have to trust Mike on it.  If you mean that these details need to be there for you to believe that sets in the style of material set theory can be constructed out of sets in the style of structural set theory at all, then I suggest that you look at Mac Lane & Moerdijk (or perhaps Mike knows a better reference), since that will have pointers to the established literature on this matter.
 =--
 
 
@@ -221,6 +231,8 @@ Only directed paths are finite.
 _Toby_:  By 'branch', I think that I meant only a directed one.  Even so, can you describe the infinite branch in $\omega + 1$?; I don\'t see it.
 
 AN: The branch (immediate subtree) whose root node is $\omega$ is infinite. [You could replace everywhere in the main text the term ''immediate subtree'' by branch]
+
+_Toby_:  Ah, no, that is not what I mean by 'branch'.  Possibly 'path' would be better, except that this term was already defined to mean *finite* path, and the whole point here is whether the path might be infinite.  I would never read 'branch' as immediate subtree, but I agree that it might not work well to mean possibly infinite path either.
 =--
 here is $\omega_N$, the set of von Neumann [[natural numbers]]:
 $$ \array {
