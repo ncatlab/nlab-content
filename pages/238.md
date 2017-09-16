@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-03-12
 
 *  [[Toby Bartels]]:
+   *  Broke [[undirected object]] off of [[directed object]] as planned.  Discussion stayed at [[directed object]], even though it discusses both concepts (and that of a [[directed space]]).
    *  Finally wrote [[full subcategory]] and directed links to it.
    *  I\'ve continued the conversation that [[Eric Forgy]] started at [[preorder]].
    *  I have my own terminological question at [[linear relation]].
