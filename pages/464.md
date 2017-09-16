@@ -1,3 +1,2 @@
-See [[regular epimorphism]].
-
-category: delete
+&lt; [[regular epi]]
+[[!redirects regular epi -- history]]
