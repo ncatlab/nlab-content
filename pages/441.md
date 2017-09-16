@@ -22,7 +22,7 @@ Since $SimpSet$  is a presheaf topos, unions of subobjects make sense, they are 
 
 
 
-The horn $\Lambda^k[n]$ is an **outer horn** if $k = 0$ or $k = n$.
+The horn $\Lambda^k[n]$ is an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **inner horn**.
 
 ##Examples##
 
