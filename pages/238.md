@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-30
 
+* [[Urs Schreiber|Urs]]: 
+
+  * created [[local epimorphism]]
+
+  * created [[multiplicative system]]
+
 * [[David Roberts]]
 
   * Uploaded notes on anafunctors to my [web](http://ncatlab.org/davidroberts/show/HomePage). Comments welcome and wanted.
