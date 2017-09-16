@@ -1,3 +1,2 @@
-See [[contractible space]].
-
-category: redirect
+&lt; [[contractible]]
+[[!redirects contractible -- history]]
