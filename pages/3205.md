@@ -28,12 +28,11 @@ Before rushing into the creation of **CatLab**, it is the purpose of this page t
 
 A _category_ $C$ consists of 
 
-* a [[set]] $C_0$ of _objects_;
+* a [[set]] $C_0$ of _[[objects]]_;
 
-* for each pair of objects $a,b\in C_0$, a set $C(a,b)$ of _morphisms_ (or _arrows_) $a\to b$; when the context is clear, we write $f:a\to b$ to indicate that $f\in C(a,b)$;
+* for each pair of objects $a,b\in C_0$, a set $C(a,b)$ of _[[morphisms]]_ (or _arrows_) $a\to b$; when the context is clear, we write $f:a\to b$ to indicate that $f\in C(a,b)$;
 
-* for each triples of objects $a,b,c\in C_0$, a composition law
-$C(b,c)\times C(a,b)\to C(a,c)$; when the context is clear, we write
+* for each triples of objects $a,b,c\in C_0$, a [[composition|composition law]] $C(b,c)\times C(a,b)\to C(a,c)$; when the context is clear, we write
  $g f:a\to c$ for the composite of $f:a\to b$ with $g:b\to c$;
 
 * for each objet $a\in C_0$, an arrow $1_a:a\to a$ called the _unit_ or the
@@ -53,17 +52,15 @@ But we shall often write $a\in C$ instead of writing $a\in Ob(C)$;
 
 ## Size issues 
 
-The sets involved in the definition of a category can be [[small]] or 
-[[large]]. A category $C$ is said to be _locally small_ if the set 
+The sets involved in the definition of a category can be small or 
+large. A category $C$ is said to be _[[locally small category|locally small]]_ if the set 
 $C(a,b)$ is small for every pair of objects $a,b\in C$. 
-A category $C$ is said to be _small_ if it is locally small and its set of objects $Ob(C)$ is small.
-A category is said to be _large_ if it is not small. 
+A category $C$ is said to be _[[small category|small]]_ if it is locally small and its set of objects $Ob(C)$ is small.
+A category is said to be _[[large category|large]]_ if it is not small. 
 
 ## Examples
 
-* We shall denote by $Set$ the _category of small sets_: an object of this
-category is a small set $S$ and an arrow $S\to T$ is a map $f:S\to T$;
-Composition of arrows is defined by composing the maps, and the units
+* We shall denote by $Set$ the _[[Set|category of small sets]]_: an object of this category is a small set $S$ and an arrow $S\to T$ is a map $f:S\to T$; Composition of arrows is defined by composing the maps, and the units
 arrows are the identity maps. The category $Set$ is large but locally small.
 
 
