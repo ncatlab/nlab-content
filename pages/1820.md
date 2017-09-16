@@ -18,7 +18,7 @@ A [[model category]] $C$ is **combinatorial** if
 
 * it is a [[presentable category]]
 
-* it has a [[set]] (not a proper [class]]) $I$ of generating cofibrations and and a set of trivial generating cofibrations, meaning that
+* it has a [[set]] (not a proper [[class]]) $I$ of generating cofibrations and and a set of trivial generating cofibrations, meaning that
 
   $$ 
     cof = llp(rlp(I))
