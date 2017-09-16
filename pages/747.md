@@ -426,7 +426,7 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 
 This is in the proof of lemma 2.7 in section 9 of
 
-  * [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
+* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
 =--
 
