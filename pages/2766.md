@@ -33,6 +33,27 @@ commute.
 [[Finn Lawler]]:  I should point out that a natural transformation $\alpha: \Delta c \Rightarrow \Delta c'$ is very nearly exactly the same thing as a morphism $\phi: c \to c'$ (it's $\phi$ in each component, which you'll see if you draw $\alpha$'s naturality square, so it's $\Delta \phi$ for some $\phi$).  Now look at the triangle above, write $\Delta \phi : \Delta c \to \Delta c'$ instead of $\phi$ and erase the $j$s and you have the morphism in the comma category.
 
 I hope this helps.  If it's done the opposite, apologies.  I've a habit of trying the one and accomplishing the other.
+
+[[Eric]]: Hmm. I'm probably confused, but when I draw the naturality square for $\alpha:\Delta(c)\to\Delta(c')$, I get
+\[ 
+  \array{ 
+    c 
+    & 
+    \stackrel{Id_c}{\to} 
+    & 
+    c 
+    \\ 
+    \alpha_j\downarrow 
+    && 
+    \downarrow \alpha_{k} 
+    \\ c' 
+    & 
+    \stackrel{Id_{c'}}{\to} & c' 
+  }
+  \,. 
+\] 
+for every $j,k\in J$.
+
 =--
 
 **The following material is very tentative**
