@@ -50,7 +50,7 @@ $$
   }
 $$
 
-In fact, the pullback is the [[universal property|universal]] solution to finding a [[commutative square]] like this.  In other words, given _any_ commutative square 
+In fact, the pushout is the [[universal property|universal]] solution to finding a [[commutative square]] like this.  In other words, given _any_ commutative square 
 
 $$
   \array{
@@ -82,7 +82,7 @@ there is a unique function $h: Y \to X$ such that
 $$ h j_A = i_A $$
 and
 $$ h j_A = i_B .$$
-Since this universal property expresses the concept of pullback purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[colimit]].  
+Since this universal property expresses the concept of pushout purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[colimit]].  
 
 #Definition
 
