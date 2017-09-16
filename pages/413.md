@@ -14,7 +14,7 @@ In [[supergeometry]] the idea is to define everything in sight in terms of the a
 let $C^\infty(U)$ be the algebra of functions on patch $U$ of your supermanifold. Then the corresponding deRham complex over $U$ is the [[Lie infinity-algebroid|qDGCA]] which as a free graded-commutative algebra is generated over $C^\infty(U)$ by $C^\infty(U)[1]$. 
 
 +-- {: .query}
-I think the notation $C^\infty(U)[1]$ is very unusual here. If we have a complex or graded space then $C[1]$ is the complex or space with degree shifted by 1. In this case $C^\infty(U)[1]$ not something that differs from $C^\infty(U)$ just by a degree shift, it is a module over $C^\infty(U)$ of rank p|q if we are dealing with a supermanifold of dimension p|q. Instead of $C^\infty(U)[1]$
+I think the notation $C^\infty(U)[1]$ is very unusual here. If we have a complex or graded space then $C[1]$ is the complex or space with degree shifted by $1$. In this case $C^\infty(U)[1]$ not something that differs from $C^\infty(U)$ just by a degree shift, it is a module over $C^\infty(U)$ of rank $p|q$ if we are dealing with a supermanifold of dimension $p|q$. Instead of $C^\infty(U)[1]$
 I would suggest just using $\Omega_1(U)$.
 =--
 
