@@ -21,7 +21,7 @@ So $\omega$ is a closed nondegenerate [[super differential form]] that respects 
 
 ## in $\infty$-Lie algebroid language ##
 
-An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped with a choice of binary degree $(n+2)$ [[invariant polynomial]] $\omega \in inv(\mathcal{a})$.
+An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped with a choice of binary degree $(n+2)$ [[invariant polynomial]] $\omega \in inv(\mathcal{a})$. More on this is at [[schreiber:symplectic ∞-Lie algebroid]].
 
 
 
