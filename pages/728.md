@@ -1,3 +1,2 @@
-See [[Tim Porter]].
-
-category: delete
+&lt; [[Tim Portr]]
+[[!redirects Tim Portr -- history]]
