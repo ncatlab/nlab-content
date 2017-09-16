@@ -49,4 +49,8 @@ _Mike_: Okay, there's a fine distinction between what's on [[loset]] and what's 
 
 I admit that having both preorder and poset is not completely uniform terminology, but I draw a fine distinction between nonuniformity and inconsistency.  (-:O  However, if you really want uniform terminology, I would be okay with putting everything on [[preorder]], [[partial order]], [[total order]], etc. with [[proset]], [[poset]], [[toset]], etc. as redirects.
 
+_Toby_:  The way I envision someone reading [[linear order]] but not [[loset]] (the converse is unlikely) is if they\'re reading about some subject on the wiki and someone remarks that such and such is a linear order.  They don\'t know what that is, or just want to review the definition, so they read [[linear order]], read the definition, learn that classically they can think of it as the same as a total order, etc.  Obviously the definition of [[loset]] is there (with a link if they want more), but they don\'t need to see examples or learn about morphisms between them, since they\'ve already got an example on the referring page, and that\'s the only that\'s relevant.
+
+I can see the other side too, however.  Just put it all on one page and let people read whichever sections they want.  Given the links and pages on the wiki when I decided to write all of this, it was most natural to write things separately, but if you\'re convinced that it\'s better to have them combined, then I can accept that too.
+
 =--
