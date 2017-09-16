@@ -4,6 +4,82 @@
 Given a [[group]] $G$ with subgroup $H \hookrightarrow G$ and a [[representation]] of $H$, there is canonically induced a representation of $G$: the _induced representation_.
 
 
+#Explanation#
+
+
+We start with a Lie group $G$ acting smoothly and transitively on a smooth manifold $M$.  The stabilizer of your favorite point $x \in M$ will be a Lie subgroup $H \subseteq G$, and we have
+
+$$ M \cong G/H $$
+
+Starting from this, there's a process that takes any representation $s$ of $H$ on a vector space $V$ and turns it into a vector bundle $E$ over $M$ --- the so-called 'induced bundle'.  Even better, the group $G$ acts on this bundle, and the projection 
+
+$$ \pi : E \to M $$
+
+gets along with the action of $G$:
+
+$$ \pi(g e) = g \pi(e) .$$
+
+So, we say the $E$ is a **$G$-equivariant** vector bundle over $M$.
+
+The 'process' described is actually a [[functor]].  
+
+There's a category 
+
+$$Rep(H)$$
+
+of linear representations of $H$, and a category 
+
+$$Vect(M,G)$$
+
+of $G$-equivariant vector bundles over $M$.  The induced bundle construction gives a functor
+
+$$L: Rep(H) \to Vect(M,G) $$
+
+But, if you think about it, you'll notice there's also a functor going back the other way:
+
+$$R: Vect(M,G) \to Rep(H) $$
+
+If you give me a $G$-equivariant vector bundle $E$ over $M$, I can take its fiber over your favorite point $x$, and I get a vector space --- and this becomes a representation of the stabilizer group $H$, thanks to how $G$ acts on $E$.
+
+This functor is <i>simpler</i> than the induced bundle construction!
+
+Whenever we have functors going both ways between two categories, we should suspect that they're [[adjoint functor|adjoints]].   The simpler functor often amounts to 'forgetting' something.  This forgetful functor is usually the <i>right</i> adjoint.  It's partner going the other way, the <i>left</i> adjoint, usually involves 'constructing' something instead of 'forgetting' something.   
+
+And indeed, that's what's happening here!
+Technically, this is to say that
+
+$$hom(L V, F) \cong hom(V, R F)$$
+
+Here $V$ is a representation of $H$ --- note abuse of notation in calling it $V$, which is the name for the vector space on which $G$ acts, instead of the more pedantic full name for a representation, which is something like $s: G \to GL(V)$.   
+
+Similarly, $F$ is a $G$-equivariant vector bundle over $M$ --- and this should be something like $\pi : F \to M$, or something even more long-winded that gives a name to how $G$ acts on $F$ and $M$.
+
+$L V$ is the induced bundle corresponding to $V$.
+
+$R F$ is the fiber of $F$ over your favorite point $x$, which becomes a representation of $G$.
+
+And this: 
+
+$$hom(L V, F) \cong hom(V, R F)$$
+
+says that $G$-equivariant vector bundle maps from $L V$ to $F$ are in natural 1-1 correspondence with intertwining operators from $V$ to $R F$.  
+
+Now, whenever you see any sort of 'forgetful' process, you should wonder if it has a left adjoint, a construction which in some loose sense is the 'reverse' of forgetting.  Why?  Because these left adjoints tend to be important.  
+
+Endowed with this heuristic, as soon as you see there's a rather obvious 'forgetful' process that takes a $G$-equivariant vector bundle over $M$ and gives a representation of $H$ on the fiber over $x \in M$, you will seek the 'reverse' process --- and then you'll rediscover the induced bundle construction!
+
+And why is this so great?  Well, there's also a process that takes any representation of $G$ and restricts it to a representation of $H$:
+
+$$R': Rep(G) \to Rep(H) $$
+
+And this too, has a left adjoint:
+
+$$L' : Rep(H) \to Rep(G) $$
+
+which is called the <b>induced representation</b> trick.
+
+
+
 #Detailed description#
 
 
@@ -38,12 +114,21 @@ We get a representation $r$ of $G$ on the vector space $\Gamma(E)$ of sections o
 $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 
 
+
+#Related issues#
+
+[[Bill Lawvere]] noted a structural similarity between induced representations and quantification. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
+
+
+
 #References#
 
 This blog entry contains related discussion:
 
 * John Baez, [Unitary Representations of the Poincare Group](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#comments)
 
-The above text is taken from this comment by Greg Egan
+The above text is taken from these comments
 
 * Greg Egan _[Induced representations](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023252)_
+
+* John Baez _[Reply](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023258)_
