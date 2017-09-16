@@ -209,6 +209,46 @@ $$\begin{aligned}
   \cong& DFib(X)(1_X, B^A)
 \end{aligned}$$
 
+{:test: style="background:#ffccaa"}
+
+{:testproof: .test .proof}
+
+{:test1: style="background:#f6fff3"}
+
+{:test2: style="border:\"solid #ce9\""}
+
++-- 
+Basic query box
+=--
+{: .query style="background:#888888"}
+
++--
+Testing modifying styles: test
+=--
+{:test}
+
++--
+Testing modifying styles: testproof
+=--
+{:testproof}
+
++--
+Testing modifying styles: test1
+=--
+{:test1}
+
++--
+Testing modifying styles: test2
+=--
+{:test2}
+
+{:response: style="color:#930; font-size:0.9em;margin-left:2em;"}
+
++--
+**Not a chance**. That would be a *completely unacceptable* security risk.
+=--
+{:response}
+
 ****
 
 category: meta
