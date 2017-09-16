@@ -4,7 +4,7 @@
 
 # Idea #
 
-In any context it is of interest to ask which kind of [[morphism]]s $p : C \to D$ arise as [[pullback]]s along a classifying morphism $S_p : D \to U$ to some universal object $U$ of some universal morphism $p_{univ} : \hat U \to U$.
+In any context it is of interest to ask which kind of [[morphisms]] $p : C \to D$ arise as [[pullbacks]] along a classifying morphism $S_p : D \to U$ to some universal object $U$ of some universal morphism $p_{univ} : \hat U \to U$.
 
 The Grothendieck construction describes this in the context of [[Cat]]: a morphism $p : C \to D$ of [[category|categories]] -- i.e. a [[functor]] -- is called a [[fibered category]] or [[Grothendieck fibration]] if it is encoded in a [[pseudofunctor]] $S_p : D \to Cat$.
 
@@ -12,9 +12,9 @@ The reconstruction of $p$ from the pseudofunctor $S_p$ is the Grothendieck const
 
 # Definition #
 
-Let for the time being [[Grpd]] be the 1-category of [[groupoid]]s and [[functor]]s between them.
+Let for the time being [[Grpd]] be the 1-category of [[groupoids]] and [[functors]] between them.
 
-Recall from [[generalized universal bundle]] that the "universal [[Grpd]]-[[bundle]]" is $Grpd_* \to Grpd$, where $Grpd_*$ is the category of [[pointed object|pointed]] [[groupoid]]s.
+Recall from [[generalized universal bundle]] that the "universal [[Grpd]]-[[bundle]]" is $Grpd_* \to Grpd$, where $Grpd_*$ is the category of [[pointed object|pointed]] [[groupoids]].
 
 Then for $F : C \to Grpd$ a [[functor]], the Grothendieck construction for $F$ is the [[pullback]] $\int F \to C$ of $Grpd_* \to Grpd$ along $F$:
 
@@ -58,7 +58,7 @@ The analog of the Grothendieck construction one categorical dimension down is th
 
 The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-categories]] is described at [[Cartesian fibration]] and at [[universal fibration of (∞,1)-categories]]. 
 
-The correspondence between $(\infty,1)$-categorical [[cartesian fibration]]s $E \to C$ and [[(infinity,1)-presheaf|(∞,1)-presheaves]] $C \to (\infty,1)Cat^{op}$ is [[model category|modeled]] by the [[Quillen equivalence]] between the [[model structure on marked simplicial over-sets]] and the projective [[global model structure on simplicial presheaves]].
+The correspondence between $(\infty,1)$-categorical [[cartesian fibrations]] $E \to C$ and [[(infinity,1)-presheaf|(∞,1)-presheaves]] $C \to (\infty,1)Cat^{op}$ is [[model category|modeled]] by the [[Quillen equivalence]] between the [[model structure on marked simplicial over-sets]] and the projective [[global model structure on simplicial presheaves]].
 
 
 ## Warning on terminology ##
