@@ -1,3 +1,9 @@
-Just a couple of links for now ...
+[[!redirects Peirce's axiom]]
+[[!redirects Peirce's Axiom]]
+[[!redirects Peirce's Law]]
+
+## External links ##
+
 * [Peirce's Law @ Google Knol](http://knol.google.com/k/jon-awbrey/peirces-law/3fkwvf69kridz/10)
+
 * [Peirce's Law @ PlanetMath](http://planetmath.org/encyclopedia/PeircesLaw.html)
