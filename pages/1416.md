@@ -6,6 +6,10 @@ If $C$ is a [[finitely complete category]] (a category with all [[finite limit]]
 
 A [[functor]] $F: C \rightarrow D$ is __flat__ if each for each object $d \in D$, the [[comma category]] $(d / F)$ is [[filtered category|filtered]].
 
+### Remarks ###
+
+* Some authors call this precisely an [[exact functor|left exact functor]], see the definition there.
+
 ## Properties ##
 
 If $F$ is flat, then it preserves any finite limits that exist in $C$.  A partial converse holds: if $C$ has enough finite limits and $F$ preserves these, then $F$ is flat.
