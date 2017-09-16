@@ -1,4 +1,4 @@
-An $n$-poset is any of several concepts that generalize [[poset|posets]] in [[higher category theory]].  In fact, $n$-posets are the same as $(n-1,n)$-[[(n,r)-category|categories]].
+An $n$-poset is any of several concepts that generalize [[partial order|posets]] in [[higher category theory]].  In fact, $n$-posets are the same as $(n-1,n)$-[[(n,r)-category|categories]].
 
 # Definition
 
@@ -7,7 +7,7 @@ Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict
 # Special cases
 * The concept of $(-1)$-[[(-1)-poset|poset]] is trivial.
 * A $0$-[[0-poset|poset]] is a [[truth value]].
-* A $1$-[[1-poset|poset]] is simply a [[poset]].
+* A $1$-[[1-poset|poset]] is simply a [[partial order|poset]].
 * A $2$-[[2-poset|poset]] is a [[locally posetal 2-category]].
 * In general, an $n$-poset is an $n$-[[n-category|category]] in which all parallel pairs of $n$-morphisms are equal.
 * An $\infty$-poset is the same thing as an $\infty$-[[infinity-category|category]].
