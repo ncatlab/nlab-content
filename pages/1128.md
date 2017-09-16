@@ -19,3 +19,6 @@ is the [[zero morphism]].
 * A complex in the category $Gr(A)$ of [[graded object]]s in an additive category $C$ is called a [[chain complex]].
 
 * For $d_X : X \to T X$ a complex, the shifted [[differential object]] $ d_{T X} : T X \stackrel{-T(d_X)}{\to}  T T X$ is again a complex.
+
+
+[[!redirects complexes]]
