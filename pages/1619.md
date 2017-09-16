@@ -1,5 +1,19 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
 
-A _string structure_ on a [[manifold]] is a higher version of a [[spin structure]]. A tring structure on a [[manifold]]  with [[spin structure]] is a lift of the structure [[group]] of its [[tangent bundle]] through the  third nontrivial step $\mathcal{B}String(n) \to \mathcal{B}String(n)$ in the [[Whitehead tower]] of $O(n)$.
+
+A _string structure_ on a [[manifold]] is a higher version of a [[spin structure]]. A string structure on a [[manifold]]  with [[spin structure]] is a lift $\hat g$ of the classifying map $g : X \to \mathcal{B} Spin(n)$ of its [[tangent bundle]] through the  third nontrivial step $\mathcal{B}String(n) \to \mathcal{B}String(n)$ in the [[Whitehead tower]] of $O(n)$.
+
+$$
+  \array{
+    && \mathcal{B}String(n)
+    \\
+    & {}^{\hat g}\nearrow & \downarrow
+    \\
+    X &\stackrel{g}{\to}& \mathcal{B}Spin(n)
+  }
+$$
 
 A lift one further step through the Whitehead tower is a [[Fivebrane structure]].
 
