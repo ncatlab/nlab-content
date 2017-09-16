@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Idea#
 
 Recall the following familiar 1-categorical statement:
@@ -60,10 +65,21 @@ A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X
 
 The equivalence of these two characterizations is one of the main theorems of [[Higher Topos Theory|HTT]].
 
+The second characterization is derived from the following equivalent one:
+
+an [[(∞,1)-topos]] is
+
+* a [[presentable (∞,1)-category]]
+
+* with [[universal colimits]]
+
+* and with [[object classifier]]s.
+
+
 # Models #
 
 Another main theorem about $(\infty,1)$-toposes is that
-[[models for infinity-stack (infinity,1)-toposes]] are given by the [[model structure on simplicial presheaves]].
+[[models for ∞-stack (∞,1)-toposes]] are given by the [[model structure on simplicial presheaves]].
 
 
 #References#
