@@ -74,6 +74,9 @@ _Toby_ says:  If it were up to me, I wouldn\'t bother with these underlying $X$s
 
 * [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
 
+* [An Overview of the Applications of
+Multisets](http://www.emis.de/journals/NSJOM/Papers/37_2/NSJOM_37_2_073_092.pdf), D. Singh, A. M. Ibrahim, T. Yohanna and J. N. Singh
+
 +-- {: .query}
 Is there a reason that you moved these references up here?  We need them especially for the stuff about morphisms below.  ---Toby
 =--
