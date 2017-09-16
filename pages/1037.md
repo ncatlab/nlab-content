@@ -1,6 +1,8 @@
 <div class="rightHandSide toc">
 [[!include mathematicscontents]]
 ***
+[[!include higher category theory - contents]]
+***
 [[!include (infinity,1)-topos - contents]]
 </div>
 
@@ -11,6 +13,12 @@ This entry is about the book
 * [[Jacob Lurie]], _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040), [published version](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf))
 
 which discusses the [[higher category theory]] of [[(∞,1)-categories]] in general and that of [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-categories of (∞,1)-sheaves]] (i.e. of [[∞-stack]]s) -- called (Grothendieck-Rezk-Lurie) [[(∞,1)-topos]]es -- in particular.
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Related entries#
 
 For general information on higher category and higher topos theory see also
 
@@ -238,11 +246,11 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ##5 Presentable and Accessible $\infty$-Categories##
 
-## 5.1 $(\infty,1)$-categories of presheaves ##
+### 5.1 $(\infty,1)$-categories of presheaves ###
 
 * [[(∞,1)-category of (∞,1)-presheaves]]
 
-## 5.2 adjoint $(\infty,1)$-functors ##
+### 5.2 adjoint $(\infty,1)$-functors ###
 
 * [[adjoint (∞,1)-functor]]
 
@@ -252,7 +260,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[adjoint functor theorem]]
 
-## 5.3 $(\infty,1)$-categories of inductive limits ##
+### 5.3 $(\infty,1)$-categories of inductive limits ###
 
 * [[ind-object in an (∞,1)-category]]
 
@@ -266,11 +274,11 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[presentable (∞,1)-category]]
 
-## 5.4 accessible $(\infty,1)$-categories ##
+### 5.4 accessible $(\infty,1)$-categories ###
 
 * [[accessible (∞,1)-category]]
 
-## 5.5 presentable $(\infty,1)$-categories ##
+### 5.5 presentable $(\infty,1)$-categories ###
 
 * [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
 
@@ -282,9 +290,11 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[local equivalence]]
 
+* [[n-truncated object of an (∞,1)-category]]
 
 ##6 $\infty$-Topoi##
 
+### 6.1 Definitions and characterizations ###
 
 * [[∞-topos]]
 
@@ -298,7 +308,20 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[object classifier]]
 
-* [[n-localic (∞,1)-topos]]
+* [[groupoid object in an (∞,1)-category]]
+
+  * [[Cech nerve]]
+
+  * [[effective epimorphism]]
+
+  * [[simplicial resolution]]
+
+  * [[delooping]]
+
+    * [[quotient object]]
+
+
+### 6.2 Constructions of $(\infty,1)$-toposes ###
 
 * [[(∞,1)-category of (∞,1)-sheaves]]
 
@@ -318,7 +341,6 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[hypercompletion]]
 
-
 * [[models for ∞-stack (∞,1)-toposes]]
 
 * [[model structure on simplicial presheaves]]
@@ -333,17 +355,16 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[descent for simplicial presheaves]]
 
-* [[groupoid object in an (∞,1)-category]]
+### 6.4 $n$-Topoi ###
 
-  * [[Cech nerve]]
+* [[n-localic (∞,1)-topos]]
 
-  * [[effective epimorphism]]
+### 6.5 Homotopy theory in an $(\infty,1)$-topos ###
 
-  * [[simplicial resolution]]
+* [[homotopy group (of an ∞-stack)]]
 
-  * [[delooping]]
+  * [[n-truncated object of an (∞,1)-topos]]
 
-    * [[quotient object]]
 
 * [[cohomology]]
 
@@ -363,9 +384,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
       * [[principal 2-bundle]]
 
-* [[homotopy group (of an ∞-stack)]]
 
-  * [[n-truncated object of an (∞,1)-topos]]
+
      
 ##7 Higher Topos Theory in Topology
 
