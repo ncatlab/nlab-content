@@ -139,3 +139,4 @@ Zoran: I am not quite sure what you mean, Baues has introduced several axiomatic
 
 
 [[!redirects Homotopy Theory]]
+[[!redirects homotopy theories]]
