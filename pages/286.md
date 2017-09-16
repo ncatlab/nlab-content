@@ -2,6 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
 In [[category theory]], a concept is (half-jokingly) said to be _evil_ if it involves equations between [[object|objects]], or more generally if it distinguishes between [[isomorphism|isomorphic]] objects.  More precisely:
@@ -36,9 +37,10 @@ It is evil to state that two morphisms in a $2$-[[2-category|category]] are equa
 
 Defining higher categorial structures using such evil equalities tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[Gray-category]] and [[model category]] for examples of this in action.
 
+
 ## Evil in quantum theory
 
-The concept of [[dagger category|dagger-category]] is important in topological quantum field theory and quantum computation.  A **dagger-category** is a category $C$ with a functor
+The concept of [[dagger-category|†-category]] is important in topological quantum field theory and quantum computation.  A **$\dagger$-category** is a category $C$ with a functor
 
 $$F: C \to C^{op} $$
 
@@ -48,6 +50,15 @@ This definition is evil: it imposes equations between objects, so we cannot tran
 Often evil concepts (like the concept of "strict monoidal category") have non-evil counterparts (like the concept of "monoidal category").  But in this particular case there appears to be no known way to express the idea without equations between objects.  Both [[Hilb]] and [[nCob]] are dagger-categories.  This fact is important.  Try saying it in a non-evil way!  
 
 It is possible that this problem will force a change in thinking in either the concept of evil or our thinking in quantum theory.
+
++-- {: .query}
+By default, there is a non-evil way to say it:
+
+Given a category $C$, a __non-evil $\dagger$-category structure__ on $C$ consists of a $\dagger$-category $C'$ and an equivalence $F\colon C \to C'$ of categories.
+
+So one question is whether there is a less long-winded way to say that.  Another question (which logically comes before the first question) is what is the right notion of equivalence of such structures.
+=--
+
 
 ## Discussion
 
