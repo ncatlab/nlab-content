@@ -1,4 +1,3 @@
-> **under construction**
 
 
 <div class="rightHandSide toc">
@@ -18,6 +17,8 @@
 </div>
 
 
+>**Abstract** We sketch some basic ideas ([[Jacob Lurie]]'s ideas, that is) about [[higher geometry]] motivated from the [[higher category theory|higher]] version of the [[moduli stack]] of [[elliptic curve]]s: the derived moduli stack of [[derived elliptic curve]]s. We survey aspects of the theory of [[generalized scheme]]s and then sketch how the derived moduli stack of derived elliptic curves is an example of a generalized scheme modeled on the formal dual of [[E-∞ ring]]s.
+
 
 +-- {: .standout}
 
@@ -28,11 +29,6 @@ This is a sub-entry of
 see there for background and context.
 
 =--
-
-
-
->**Abstract** We sketch some basic ideas ([[Jacob Lurie]]'s ideas, that is) about [[higher geometry]] and the higher-geomety version of the [[moduli stack]] of [[elliptic curve]]s: the derived moduli stack of [[derived elliptic curve]]s. We survey aspects of the theory of [[generalized scheme]]s and then sketch how the derived moduli stack of derived elliptic curves is an example of a generalized scheme modeled on the formal dual of [[E-∞ ring]]s.
-
 
 For fully appreciating the details of  the main theorem here the material discussed in the previous sessions (and a little bit more) is necessary, but our exposition of [[generalized scheme]]s is meant to be relatively self-contained (albeit necessarily superficial).
 
@@ -55,9 +51,6 @@ This are the entries on the previous sessions:
 * [[A Survey of Elliptic Cohomology - A-equivariant cohomology]]
 
 ***
-
-> **under construction**
-
 
 
 # the derived moduli stack of derived elliptic curves #
@@ -126,15 +119,12 @@ and isn't available yet. On the other hand, the general theory of [[E-∞ ring]]
 * [[Jacob Lurie]], [[higher algebra|Commutative geometry]].
 
 
-## higher geometry ##
+## notions of space  ##
 
 The statement that we are after really lives in the context of [[higher geometry]] (often called "derived geometry"). Here is an outline of the central aspects. 
 
-### notions of space  ###
 
-The general story of [[higher geometry]] is this:
-
-We fix some [[(∞,1)-category]] $\mathcal{G}$ whose objects we think of as _model spaces_ : the simplest objects exhibiting the geometric structures that we mean to consider.
+The **central ingredient** which we choose at the beginning to get a theory of [[higher geometry]] going is an [[(∞,1)-category]] $\mathcal{G}$ whose objects we think of as **model spaces** : the simplest objects exhibiting the geometric structures that we mean to consider.
 
 +-- {: .standout}
 
@@ -205,7 +195,7 @@ $$
 We explain what this means from right to left.
 
 
-#### spaces probeable by model spaces: $\infty$-stacks ####
+### spaces probeable by model spaces: $\infty$-stacks ###
 
 An object $X$ _probeable_ by objects of $\mathcal{G}$ should come with an assignment
 
@@ -269,7 +259,7 @@ This discussion here is glossing over all set-theoretic size issues. See [[Struc
 
 =--
 
-#### concrete spaces co-probeable by model spaces: structured $(\infty,1)$-toposes ####
+### concrete spaces co-probeable by model spaces: structured $(\infty,1)$-toposes ###
 
 Spaces probeable by $\mathcal{G}$ in the above sense can be very general. They need not even have a _concrete underlying space_ , even for general definitions of what _that_ might mean.
 
@@ -327,7 +317,7 @@ In summary:
 
 +-- {: .standout}
 
-A **concrete space $X$ modeled on $\mathcal{G}$** is 
+A **concrete [[∞-stack]] $X$ modeled on $\mathcal{G}$** is 
 
 * an [[(∞,1)-topos]] $\mathcal{X}$ ("of $\infty$-stacks on $X$")
 
@@ -340,7 +330,7 @@ are provided by the objects of $\mathcal{G}$ themselves, which are canonically e
 
 +-- {: .un_theorem}
 ###### Theorem
-**[[Structured Spaces|StSp, thm. 2.1.1]])**
+**([[Structured Spaces|StSp, thm. 2.1.1]])**
 
 Let $f : \mathcal{G} \to \mathcal{G}'$ be a morphism of [[geometry (for structured (infinity,1)-toposes)|geometries], 
 then the obvious [[(∞,1)-functor]] $f^* : \mathcal{L}Top(\mathcal{G}) \to \mathcal{L}Top(\mathcal{G}')$ admits a [[left adjoint]]
@@ -376,9 +366,9 @@ $$
 
 +-- {: .un_def}
 ###### Definition
-**[[Structured Spaces|StSp, def. 2.1.2]])**
+**([[Structured Spaces|StSp, def. 2.1.2]])**
 
-The comosite [[(∞,1)-functor]]
+The composite [[(∞,1)-functor]]
 
 $$
   Spec^{\mathcal{G}}
@@ -394,20 +384,20 @@ we call the **absolute spectrum functor**
 
 =--
 
-There is a more concrete expression for what $Spec^{\mathcal{G}} U$ is like:
+This abstract nonsense is reassuring, but we want a more concrete definition of what such $Spec^{\mathcal{G}} U$ is like:
 
 +-- {: .un_def}
 ###### Definition
-**[[Structured Spaces|StSp, def. 2.2.9]])**
+**([[Structured Spaces|StSp, def. 2.2.9]])**
 
-For every $U \in \mathcal{G}$ there is naturally induced a [[coverage|topology]] on the [[over category]] $Pro(\mathcal{G})/U$. Let
+For every $U \in \mathcal{G}$ there is naturally induced a [[coverage|topology]] on the [[over category]] $Pro(\mathcal{G})/U$. Define the [[(∞,1)-topos]]
 
 $$
   Spec U := Sh_{(\infty,1)}(Pro(\mathcal{G})/U)
   \,,
 $$
 
-naturally to be thought of as the [[(∞,1)-topos]] of [[∞-stack]]s on $U$.
+naturally to be thought of as the [[(∞,1)-topos]] of [[∞-stack]]s _on $U$_ .
 
 This is canonically equipped with a [[(∞,1)-functor]]
 
@@ -420,7 +410,7 @@ $$
 
 =--
 
-And this is indeed the concrete underlying space produced by the absolute spectrum functor
+And this is indeed the concrete underlying space produced by the absolute spectrum functor:
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -435,61 +425,64 @@ For every $U \in \mathcal{G}$ the pair $(Spec U, \mathcal{O}_{Spec U})$ is indee
 
 
 
-#### spaces locally like model spaces: generalized schemes ####
+### spaces locally like model spaces: generalized schemes ###
 
+We have seen that $\mathcal{G}$-[[structured (∞,1)-topos]]es are those general spaces modeled on $\mathcal{G}$ that are well-behaved in that at least they do have an "underlying topological structure" in the form of an underlying [[(∞,1)-topos]]. But such concrete spaces may still be very different from the model objects in $\mathcal{G}$.
 
-a $\mathcal{G}$-[[structured (∞,1)-topos]] such that there is $U_i \in \mathcal{G}$ and an [[effective epimorphism]] $\coprod_i U_i \to \mathcal{X}$.
+In parts this is desireable: many objects that one would naturally build out of the objects in $\mathcal{G}$, such as mapping spaces $[\Sigma,X]$, are much more general than objects in $\mathcal{G}$ but do live happily in $\mathcal{L}Top(\mathcal{G})^{op}$.
 
-+-- {: .un_proposition}
-###### Proposition
+But in many situations one would like to regard $\mathcal{G}$-[[structured (∞,1)-topos]]es that are not globally but _locally_ equivalent to objects in $\mathcal{G}$. This is supposed to be captured by the following definition.
 
-The inclusion of $\mathcal{G}$-[[generalized scheme]] into $PSh_\infty(Pro(\mathcal{G}))$ 
++-- {: .un_def}
+###### Definition
+**[[Structured Spaces|StSp, def. 2.3.9]]
 
-* does factor through $Sh(Pro(\mathcal{G})) \hookrightarrow PSh(Pro(\mathcal{G}))$;
+A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$-generalized scheme** if
 
-* and as such is a [[full and faithful (infinity,1)-functor]] $Sch(\mathcal{G})$.
+* there exists a collection $\{V_i \in \mathcal{X}\}$
 
-=--
+* such that
 
-+-- {: .proof}
-###### Proof
+  * this covers $\mathcal{X}$ in that the canonical morphism
 
-The second statement is theorem 2.4.1 in [[Structured Spaces]], the first one is lemma 2.4.13
+    $$ 
+      (\coprod_i V_i) \to {*}_{\mathcal{X}}
+    $$
+
+    to the [[terminal object]] in $\mathcal{X}$ 
+    is an [[effective epimorphism]]
+
+  * the [[structured (∞,1)-topos]]es     
+    $(\mathcal{X}/V_i, \mathcal{O}|_{V_i})$ induced by
+    the $V_i$ are model spaces in that there exists 
+    $\{U_i \in \mathcal{G}\}$ and equivalences
+
+    $$
+      (\mathcal{X}/V_i, \mathcal{O}|_{V_i})
+      \simeq
+      Spec^{\mathcal{G}} U_i
+    $$
 
 =--
 
 **examples**
 
-* ordinary smooth [[manifold]] are 0-localic [[Diff]]-[[generalized scheme]]s
+* ordinary smooth [[manifold]]s are [[n-localic (infinity,1)-topos|0-localic]] [[Diff]]-[[generalized scheme]]s ([Structured Spaces|StSp, ex. 4.5.2]])
 
-* ordinary [[schemes]] are 0-localic $(CRing^{fin})^{op}$-[[generalized scheme]]s
+* ordinary [[schemes]] are those $(CRing^{fin})^{op}$-[[generalized scheme]]s whose underlying [[(∞,1)-topos]] is
+[[n-localic (infinity,1)-topos|0-localic]] and whose [[structure sheaf]] is [[n-truncated object of an (infinity,1)-category|0-truncated]]  ([Structured Spaces|StSp, prop. 4.2.9]])
 
-* [[Deligne-Mumford stack]]s are 1-localic $(CRing^{fin})^{op}$-[[generalized scheme]]s
+* [[Deligne-Mumford stack]]s are 1-localic $(CRing^{fin})_{et}^{op}$-[[generalized scheme]]s ([Structured Spaces|StSp, prop. 4.2.9]])
 
+* This last statement is then the basis for calling a general $(CRing^{fin})_{et}^{op}$-[[generalized scheme]] a **derived Deligne-Mumford stack
 
-### sheaves on $(\infty,1)$-toposes ###
-
-
-In this approach we entirely switch from thinking about a space to thinking about an [[(∞,1)-topos]] thought of as the collection of [[∞-stack]]s on that space.
-
-But we also want to be talking about generalized sheaves _on_ our generalized spaces. This is actually easy: for $\mathcal{C}$ any [[(∞,1)-category]] with finite limits, 
-a $\mathcal{C}$-valued sheaf on  $(\mathcal{X}, \mathcal{O})$ is a small limit preserving functor $\mathcal{X}^{op} \to \mathcal{C}$. 
-
-If we think of $\mathcal{X} = Sh(C)$ as being the [[∞-stack]] [[(∞,1)-topos]] on a [[site]] $C$, then
-by the [[nLab:Yoneda lemma for (∞,1)-categories]] every object in the [[(∞,1)-topos]] $\mathcal{X}$ is a [[colimit]] of [[representable functor|representables]], which means that such a sheaf is fixed by its value on representables, i.e. on objects in $C$, as one would expect.
+* Finally, to make contact with the application to the derived moduli stack of derived elliptic curves, it seems that in [[Spectral Schemes]] a derived Deligne-Mumford stack (with derived in the sense of having replaced ordinary commutative rings by [[E-∞ ring]]s) is gonna be a 1-localic  $(E_\infty Ring^{fin})^{op}$-[[generalized scheme]].
 
 
-In particular, every object of $\mathcal{X}$ gives a sheaf on $\mathcal{X}$ this way.
+> **warning** these statement pertain to pregeometries, not geometries. for the moment this here is glossing over the difference between the two. See [[geometry (for structured (∞,1)-toposes)]] for the details.
 
-### spaces with $E_\infty$-ring valued structure sheaves ###
 
-For the applications to [[elliptic cohomology]] and [[derived elliptic curve]]s our [[geometry (for structured (∞,1)-toposes)|geometry]] $\mathcal{G}$ is the opposite [[(∞,1)-category]] of [[E-∞ ring]]s.
 
-This case hasn't been fully spelled out yet, it is supposed to be the content of
-
-* [[Jacob Lurie]], [[Spectral Schemes]].
-
-But heuristically it is clear that everything works "as for ordinary rings, but up to homotopy". So we proceed with fingers crossed.
 
 
 ## the derived moduli space of elliptic curves ##
@@ -532,7 +525,7 @@ $$
 Let $\mathcal{M}_{1,1}$ be the ordinary [[moduli stack]] of [[elliptic curve]]s. 
 
 
-Using constructions in [[nLab:elliptic cohomology]] we may associate to each [[nLab:elliptic curve]] over $R$, i.e. each morphism $\phi : Spec R \to \mathcal{X}$, an [[nLab:E-infinity ring]] $E_\phi$ -- the multiplicative spectrum that represents the elliptic cohomology theory given by $T$.
+Using constructions in [[elliptic cohomology]] we may associate to each [[elliptic curve]] over $R$, i.e. each morphism $\phi : Spec R \to \mathcal{X}$, an [[E-infinity ring]] $E_\phi$ -- the multiplicative spectrum that represents the elliptic cohomology theory given by $T$.
 
 This gives an $E_\infty$-ring valued structure sheaf
 
@@ -582,7 +575,7 @@ naturally in $A$.
 +-- {: .proof}
 ###### Proof
 
-We proceed in these steps:
+Jacob Lurie writes that the proof proceeds alonmg these steps. Details will be discussed in the next session.
 
 1. consider the presheaf of preoriented ellitptic curves $E'(A)$ first
 
@@ -609,3 +602,5 @@ We proceed in these steps:
 1. notice that this implies the desired statement
 
 =--
+
+
