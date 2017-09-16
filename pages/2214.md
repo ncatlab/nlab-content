@@ -27,6 +27,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-14
 
+* [[Urs Schreiber]]: 
+
+  * from more seminar notes filled in more material at
+
+    * [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
+
+    and started
+
+    * [[A Survey of Elliptic Cohomology - E-infinity rings and derived schemes]] (not complete yet).
+
+  * many thanks to [[Zoran Skoda]] for fixing some nonsense that I committed in the "Idea" section at [[formal scheme]]
+
 * [[Jon Awbrey]] added some stuff about finite dimensional boolean coordinate systems to [[boolean-valued function]].
 
 * [[Toby Bartels]]:  A little more explanation of terminological variations at [[direct limit]] and [[inverse limit]]; also [[projective limit]] and [[inductive limit]].
