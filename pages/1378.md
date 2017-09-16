@@ -110,3 +110,4 @@ See also
 * [[model category]]
 
 
+[[!redirects Higher Algebra]]
