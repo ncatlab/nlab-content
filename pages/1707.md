@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include cohomology - contents]]
+</div>
 
 #Idea#
 
