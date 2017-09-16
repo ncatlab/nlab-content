@@ -76,3 +76,6 @@ Other topological notions:  A set $F$ is __closed__ if $F$ meets every neighbour
 ## References ##
 
 * Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
+
+
+[[!redirects convergence spaces]]
