@@ -199,7 +199,7 @@ Finally the unit axioms says that the identity element of $R$ acts as the identi
 
 Saying the same fully in terms of [[enriched category theory]]:
 
-Write $\mathbf{B}R$ for the [[An]]-[[enriched category]] with a single object and $R = \mathbf{B}A(\bullet, \bullet)$.
+Write $\mathbf{B}R$ for the [[Ab-enriched category]] with a single object and $R = \mathbf{B}A(\bullet, \bullet)$.
 A module $N$ is an $Ab$-functor 
 $$   
   N : \mathbf{B}R \to Ab 
