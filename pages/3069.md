@@ -36,6 +36,8 @@ $$\array{ & \overset{f}{\leftarrow} & \\
   & \underset{h}{\leftarrow} & }$$
 in the base category.  In this case one also says that this commutative square "downstairs" has the Beck-Chevalley property.  Frequently this property holds for all [[pullback]] squares in the base category.  Note that since the transpose of a pullback square is a pullback square, in this case there is no left/right ambiguity.
 
+According to the [[Benabou-Roubaud theorem]], the Beck-Chevalley condition  is crucial for establishing the connection between the descent in the sense of fibered categories and the [[monadic descent]].
+
 ### Examples
 
 * The [[codomain fibration]] of any [[category]] with [[pullbacks]] is a bifibration, and satisfies the Beck-Chevalley condition at every pullback square.
