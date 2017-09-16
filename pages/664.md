@@ -51,10 +51,10 @@ groups:  $\Pi  'X_{*}$   is simply  the crossed $n$-cube of
 groups equivalent to the cat$^n$-group  $\Pi X_{*}$. It is easier
 to identify  $\Pi '$  in classical terms in the case $X_{*}$   is
 the $n$-cube  of spaces arising from a pointed  $(n +
-1)$-ad  ${\cal X}  = (X;X_1,\ldots ,X_n)$. That is, let  $X_{
+1)$-ad  $\mathcal{X}  = (X;X_1,\ldots ,X_n)$. That is, let  $X_{
 \langle n \rangle } = X$  and for  $A$  properly contained in
 $\langle n \rangle$ let   $X_A = \bigcap _{i \not\in A}  X_i$. Then
-$M = \Pi '{\cal X}$   is given as follows (Ellis and Steiner, 1987):
+$M = \Pi '\mathcal{X}$   is given as follows (Ellis and Steiner, 1987):
 $M_{\emptyset}  = \pi_1(X_\emptyset )$; if  $A = {i_1,\ldots ,i_r}$,
 in the right order, then $M$ is the homotopy  $(r + 1)$-ad group
 $\pi _{r+1}(X _A;X_A \cap X_{i_1} ,\ldots ,X_A   \cap  X_{i_r} )$;
@@ -65,13 +65,15 @@ considered previously, the aim of this theory is to consider the
 whole structure, despite its apparent complications. The equivalence of categories is a convincing reason for supposing that the axioms for a crossed $n$-cube of groups are a complete axiomatisation of this homotopical structure, as was not previously known. 
 
 # Algebraic example#
-Let us put a bit of flesh on the example given in the introduction.  Suppose that  $G$ is a group and $N_1, N_2, .., N_n$ are $n$-normal subgroups of $G$ (there may be repeats).
+Let us put a bit of flesh on the example given in the introduction.  Suppose that  $G$ is a group and $N_1, N_2, .., N_n$ are $n$-[[normal subgroup]]s of $G$ (there may be repeats).
 
-Now define for $A \subseteq  \langle n \rangle$, $M_A = \bigcap\{N_i\mid i \in A\}$, and for $A\in M_A$, $b\in M_B$, $h(a,b) = [a,b]$, the commutator of $a$ and $b$ in $G$.  The result is a crossed $n$-cube (sometimes called the _inclusion crossed $n$-cube determined by the normal $n$-ad of subgroups.
+Now define for $A \subseteq  \langle n \rangle$, $M_A = \bigcap\{N_i\mid i \in A\}$, and for $A\in M_A$, $b\in M_B$, $h(a,b) = [a,b]$, the [[commutator]] of $a$ and $b$ in $G$.  The result is a crossed $n$-cube (sometimes called the _inclusion crossed $n$-cube_ determined by the normal $n$-ad of subgroups.
 
 
 #Simplicial example#
 If instead of a space you start with a [[simplicial group]] $G$, as model for a connected homotopy type, then there is a crossed $n$-cube generalising the [[crossed square]] given in terms of the [[Moore complex]].
+
+
 #References#
 
 * G. J. Ellis and R.Steiner, _Higher dimensional crossed modules and the homotopy groups of 
