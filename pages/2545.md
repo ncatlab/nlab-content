@@ -3,14 +3,6 @@
 
 ***
 
-[[!include higher category theory - contents]]
-
-
-***
-
-[[!include higher geometry - contents]]
-
-***
 
 [[!include higher algebra - contents]]
 
@@ -31,7 +23,7 @@ and
 
 see there for background and context.
 
-This entry contains a basic introduction to [[elliptic curve]]s and their [[moduli space]]s.
+This entry considers [[equivariant cohomology]] from the perspective of algebraic geometry.
 
 
 =--
