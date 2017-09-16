@@ -3,7 +3,8 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition ##
+
+## Abstract definition ##
 
 A **directed colimit** is a [[colimit]] $\lim_\to F$ of a functor $F : J \to C$ whose [[source]] [[category]] $J$ is an (upward)-[[direction|directed set]].  
 
@@ -17,7 +18,8 @@ Note that the terminology varies.  Especially in algebra, a directed colimit may
 
 Directed (co)limits were studied in algebra (as inductive and projective limits) before the general notion of limit in category theory.  The elementary definition still seen there follows.
 
-## Definition ##
+
+## Concrete definition ##
 
 Let $C$ be a [[category]].
 
@@ -36,6 +38,7 @@ Notice that an inductive system in $C$ consists precisely of a directed set $I$ 
 
 As with other colimits, an inductive limit, if any exists at all, is unique up to a given isomorphism, so we speak of [[generalized the|the]] inductive limit of a given inductive system.
 
+
 ## Applications ##
 
 ### In algebra ###
@@ -47,6 +50,7 @@ for some $k$.  Here it is important that $C$ is a [[concrete category]] and that
 ### In accessible category theory ###
 
 The objects of an [[accessible category]] and of a [[presentable category]] are $\kappa$-directed limits over a given set of generators. 
+
 
 ## Examples ##
 
