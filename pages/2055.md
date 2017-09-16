@@ -84,6 +84,8 @@
 
 * [Mathematics Under the Microscope](http://micromath.wordpress.com)
 
+* [mathlight](http://mathlight.wordpress.com) (just started, by an $n$lab regular)
+
 * [Mathlog](http://www.scienceblogs.de/mathlog)
 
 * [Maxwell's Demon](http://www.maxwelldemon.com) (Edmund Harriss)
