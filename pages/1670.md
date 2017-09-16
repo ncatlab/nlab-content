@@ -78,3 +78,8 @@ Indeed, Moore closures on $X$ are precisely monads on $\mathcal{P}X$.  The prope
 ## References
 
 *  _[[HAF]]_, 4.1--4.12
+
+
+[[!redirects Moore collection]]
+[[!redirects closure]]
+[[!redirects closure operator]]
