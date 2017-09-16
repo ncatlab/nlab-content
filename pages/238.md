@@ -12,6 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-30 #
+
+
+* [[Urs Schreiber|Urs]]
+
+  * created a stub for [[simplicial skeleton]] -- much more to be said here eventually
+
 # 2009-06-29 #
 
 *  [[Toby Bartels]]:  People keep linking to [[left adjoint]] and [[right adjoint]] when talking about [[adjoint functor]]s, even though these redirect to the general concept of [[adjunction]].  This is very natural, so I\'ve now created those as pages in their own right.  They consist of the definitions in a variety of contexts and then refer you to the other pages for more detail.  While I was creating pages that collected information from other pages, I also wrote [[triangle identities]] and [[weak inverse]].  A picture in string diagrams would be very welcome at the former.
