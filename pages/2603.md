@@ -1,4 +1,4 @@
-A [[multiset]] $\mathcal{X} = \langle X,\mu_X\rangle$ consists of a set $X$ and a function $\mu_X:U\to\mathbb{N}$, where $U$ is a universal set and $\mu_X(e) = 0$ if $e\notin X$.
+A [[multiset]] $\mathcal{X} = \langle X,\mu_X\rangle$ consists of a set $X$ and a function $\mu_X:U\to\mathbb{N}$, where $U$ is a universal set and $\mu_X(e) \gt 0$ if and only if $e\in X$.
 
 We can add two multisets $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = \langle Y,\mu_Y\rangle$ to get
 
@@ -36,3 +36,4 @@ When $\mathcal{X}$ and $\mathcal{Y}$ are simply sets, the angle between them is 
 
 $$cos\theta_{{\mathcal{X}},{\mathcal{Y}}} = \frac{|X\cap Y|}{\sqrt{|X||Y|}}.$$
 
+With this notion of addition, the collection of multisets in $U$ becomes the $\mathbb{N}$-[[module]] (that is [[abelian group]]) $\mathbb{N}^U$; this inner product makes it an [[inner product space]] analogous to the Banach space $\mathbb{R}^n$.
