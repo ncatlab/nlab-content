@@ -17,6 +17,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+* [[Urs Schreiber]] 
+
+  * replied a bit at [[effective epimorphism]] -- but don't trust me, it's way beyond my bed time -- see you tomorrow :-)
+
+  * moved [[Jim Stasheff]]'s insertion at [[cohomology]] one paragraph further down not to have it tear apart the main definition -- this should eventually be merged more with the rest of the entry, it overlaps in parts.
+
 *  [[Toby Bartels]]:  More discussion at [[Tall-Wraith monoid]] (not actually about math) and [[effective epimorphism]] (actually about math!).
 
 * [[Urs Schreiber]]: added to [[effective epimorphism]] a remark on how the 1-categorical case is a special case of the $(\infty,1)$-categorical case and replied to the discussion
