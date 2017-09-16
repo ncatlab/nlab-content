@@ -37,6 +37,10 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [O
 
 ***
 
+![Venn Diagram 4 Dimensions Version 1](/nlab/files/Venn_Diagram_4_Dimensions_Version_1.jpg)
+
+***
+
 # Type Spec #
 
 __Version 0__
