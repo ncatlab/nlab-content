@@ -9,23 +9,27 @@
 
 #Idea#
 
-A _category with [[weak equivalence]]s_ is an ordinary [[category]] with a class of morphisms called 'weak equivalences' that include isomorphisms, but also typically other morphisms.  Such a category should be thought of as the truncation of an [[(∞,1)-category]] where the only information kept is which of its morphisms are _equivalences_ in the full [[(∞,1)-category]].
+A _category with [[weak equivalence]]s_ is an ordinary [[category]] with a class of morphisms called 'weak equivalences' that include the isomorphisms, but also typically other morphisms.  Such a category can be thought of as a presentation of an [[(∞,1)-category]] that gives only the 1-morphisms and the information about which of these 1morphisms should become _equivalences_ in the full [[(∞,1)-category]].
 
-The [[(∞,1)-category]] is recovered from the category with weak equivalences by [[simplicial localization]]. The corresponding [[homotopy category of an (∞,1)-category]] is often computed directly as the [[homotopy category]] of the category with weak equivalences.
+The desired $(\infty,1)$-category in question can be constructed from such a "presentation" by "freely adjoining inverse equivalences" to the weak equivalences, in a suitable $(\infty,1)$-categorical sense.  One way to make this precise is [[simplicial localization]].  A given $(\infty,1)$-category can admit many such presentations.  It is not entirely clear whether *every* $(\infty,1)$-category admits at least one such presentation, although it seems not unlikely.
+
+Note that the category with weak equivalences which presents a given $(\infty,1)$-category will not, in general, be the [[homotopy category of an (∞,1)-category|homotopy category]] of this $(\infty,1)$-category; more "flab" must be built into it.  However, the homotopy category of an $(\infty,1)$-category can be recovered directly from any presentation of it, by freely adjoining inverse *isomorphisms* to the weak equivalences, resulting in the [[homotopy category]] of the category with weak equivalences.
 
 +-- {: .query}
 Surely you don\'t mean to suggest (with '*The* $(\infty,1)$-category is recovered [...]') that the composite
 $$ (\infty,1) Cat \to Cat \to (\infty,1) Cat $$
 is equivalent to the identity, do you?
+
+[[Mike Shulman]]: I've tried to clarify the statements being made.
 =--
 
 Often categories with weak equivalences are equipped with further extra structure that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
 
 * In a [[homotopical category]] the condition on the weak equivalences is slightly stronger.
 
-* In a [[category of fibrant objects]] there are additional auxialry morphisms called fibrations.
+* In a [[category of fibrant objects]] there are additional auxiliary morphisms called fibrations.
 
-* In a [[Waldhausen category]] there are additional auxialry morphisms called cofibrations.
+* In a [[Waldhausen category]] there are additional auxiliary morphisms called cofibrations.
 
 * In a [[model category]] there are both of these additional auxiliary classes of morphisms with special interrelation between them.
 
@@ -56,3 +60,6 @@ $.
 * Sometimes it is useful to ask further closure properties of the weak equivalences.  One such is the "2-out-of-6" property (if $g f$ and $h g$ are weak equivalences, then so are $f$, $g$, $h$, and $h g f$) in which case one speaks of a [[homotopical category]].  Another such is closure under [[retract|retracts]] in the [[arrow category]] of $C$.  Both are satisfied automatically by any [[model category]].
 
 * Many categories with weak equivalences can be equipped with the further structure of a [[model category]]. On the other hand, some categories with weak equivalences can _not_ be equipped with a useful structure of a model category.  In particular, categories of diagrams in a model category do not always inherit a useful model structure.  Several concepts exist that weaken the axioms of a model category in order to still obtain useful results in such a case -- for instance a [[category of fibrant objects]].
+
+[[!redirects 2-out-of-3 property]]
+[[!redirects two-out-of-three property]]
