@@ -116,4 +116,6 @@ $$
 
 where $K/k$ is the [[over category]] of $K$ over $k \in K$ and $N(-)$ is the [[nerve]]. I am thinking that the $W$-weighted limit $lim^W F$ might be a reasonable way to encode a homotopy coherent limit over $F$. How wrong is this? If not so wrong, this will have been discussed somewhere. Where?
 
+[[Mike Shulman|Mike]]: That's exactly right (modulo fibrancy/cofibrancy conditions if there is a model structure hanging around).  This is a very classical way of defining homotopy limits, see Bousfield-Kan or Hirschhorn's book.  It's also mentioned in my own paper on homotopy limits.  Note that $N(K/k)$ can also be identified with the [[bar construction]] $B(K(-,k),K,*)$, making the connection with another way to define homotopy limits.
+
 =--
