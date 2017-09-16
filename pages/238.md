@@ -24,6 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * if I noticed correctly, [[Mike Shulman|Mike]] had changed my original notation $p^* := - \circ p : [C',D] \to [C,D]$ for precomposition with a functor $p : C \to C'$ (pullback notation) at [[Kan extension]] to $p_*$ (pushforward notation). I have now added a section _Remark on terminology: pushforward vs. pullback_ which is supposed to clarify this terminology issue.
 
+    +--{: .query}
+    [[Mike Shulman|Mike]]: That wasn't me.  I'm not sure that such a discussion belongs at [[Kan extension]]; it might belong somewhere but I would rather than the page [[Kan extension]] just pick one notation and possibly link to a discussion.
+    =--
+
   * addressed [[Zoran Skoda|Zoran]]'s and [[Tim Porter|Tim]]'s remarks at [[Kan extension]]: I have added now to [[Kan extension]] as well as to [[limit]] -- in analogy to what we already had at [[homotopy limit]] -- an explicit discussion of the difference between _local_ and _global_ definitions of the universal constructions
 
   * created [[universal construction]] -- but filled in just a question/query
