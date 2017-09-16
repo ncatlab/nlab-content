@@ -1,3 +1,2 @@
-See [[subsequential space]].
-
-category: redirect
+&lt; [[sequential convergence space]]
+[[!redirects sequential convergence space -- history]]
