@@ -1,3 +1,2 @@
-See [[tight relation]].
-
-category: redirect
+&lt; [[linear relation]]
+[[!redirects linear relation -- history]]
