@@ -32,7 +32,7 @@ to the inclusion $Mono(C)/d \hookrightarrow C/d$.
 
 ## as an equalizer ##
 
-If the category $C$ admits finite [[limit]]s and [[colimit]]s, then the image $Im f$ of a morphism $f : c \to d$ my be expressed as 
+If the category $C$ admits finite [[limits]] and [[colimits]], then the image $Im f$ of a morphism $f : c \to d$ my be expressed as 
 
 $$
   Im f \simeq lim (d \stackrel{\to}{\to} d \sqcup_c d)
