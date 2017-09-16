@@ -9,4 +9,24 @@ A dg-category $\mathbf{B}A$ with a single object is a _differential graded [[alg
 +--{.query}
 [[Tim Porter|Tim]] : Is there an nLab policy on the meaning of chain complexes and dg-algebras?  Are the differentials of degree +1 or -1?
 
+[[Urs Schreiber|Urs]]: to me it seems that one should stick to
+
+$$
+  \array{
+    & \mathbf{name of differential} & \mathbf{degree of differential}
+    \\
+    chain complex & boundary operator & -1
+    \\
+    cochain complex & coboundary operator & +1
+  }
+$$
+
+if one runs into a differential that feels like it 
+ought to be called
+a "boundary operator" but which still raises degree 
+instead of lowering it one should be prepared to 
+admit that one should choose the other overall sign
+convention for the grading.
+
+
 =--
