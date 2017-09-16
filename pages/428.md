@@ -6,7 +6,7 @@
 
 ## Idea
 
-The **bar construction** takes [[monad]] $(T, \mu, \epsilon)$ equipped with an algebra-over-a-monad $(A, \rho)$ to the (augmented) [[simplicial object]]
+The **bar construction** takes a [[monad]] $(T, \mu, \epsilon)$ equipped with an algebra-over-a-monad $(A, \rho)$ to the (augmented) [[simplicial object]]
 
 $$
   \cdots
