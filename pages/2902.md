@@ -12,7 +12,7 @@ This means that the edges of a pentagon, decagon and hexagon of identical radii 
 
 #Euclid's proof#
 
-Euclid gave a proof of this identity in his <i>Elements</i>, as Proposition 10 of Book XIII.  The essence of this proof can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.
+Euclid gave a proof of this identity in his <i>Elements</i>, as Euclid as [Proposition 10](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) of Book XIII.  The essence of this proof can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.
 
 [[!include pentagon decagon hexagon identity/Euclid]]
 
@@ -49,7 +49,7 @@ $$1+\frac{t}{r}=\frac{r}{t}$$
 
 By the definition of the golden ratio, $\frac{r}{t}=\Phi$.
 
-This lemma was given by Euclid as Proposition 9 of Book XIII of the <i>Elements</i>.
+This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII9.html).
 
 ##Proof from an identity for the golden ratio##
 
