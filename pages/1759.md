@@ -39,13 +39,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * added a pointer to some notes by Daniel Dugger to the discussion of free cocompletion at [[presheaf]] -- Dugger gives a nice pedagogical description 
 
-    * would it make sense to move this discussion of free cocompletion to the entry [[free cocompletion]]?
-
   * added material about infinite-dimensional manifolds to [[paracompact space]], taken from private email discussion that [[David Roberts]] kindly provided -- but I notice that I still have a question, see there
 
 * [[John Baez]]: 
 
-  * started a pedagogical discussion of free cocompletion at [[presheaf]]
+  * started a pedagogical discussion of free cocompletion at [[presheaf]], then followed Urs' suggestion and moved it to the entry [[free cocompletion]]
 
   * added remark and question at [[field]]
 
