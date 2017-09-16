@@ -50,6 +50,7 @@ Notice that **you don't need to know any MathML**. Only your browser does. You w
 
 =--
 
+The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
 
 
 category: meta
