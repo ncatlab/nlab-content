@@ -2,13 +2,13 @@
 * automatic table of contents goes here
 {:toc}
 
-#The Idea#
+## Idea
 
 Just as we can convolve [[function|functions]] $f : M \to \mathbb{C}$ where $M$ is a [[group]], or more generally a [[monoid]], we can convolve [[functor|functors]] $f: M \to Set$ where $M$ is a [[monoidal category]].  So, for any monoidal category $M$, the [[functor category]] $Set^M$ becomes a monoidal category in its own right.  The tensor product in $Set^M$ is called **Day convolution**, named after [[Brian Day]].
 
 We can generalize this idea by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that the tensor product $u \otimes v$ must preserve colimits in the separate arguments $u$ and $v$; that is, that the functors $u \otimes -$ and $- \otimes v$ must preserve colimits. This occurs when for instance $V$ is symmetric monoidal closed (so that these functors are left adjoints). 
 
-#Definition#
+## Definition
 
 For $(C, \otimes)$ a [[monoidal category]] and $F, G : C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[end|coend]]
 
@@ -22,7 +22,7 @@ $$
 
 
 
-#Examples#
+## Examples
 
 * Let $C$ be a [[discrete category]] over a set, which is hence a [[monoid]] (for instance a [[group]]) with product $\cdot$. 
 
@@ -46,7 +46,7 @@ $$
   \end{aligned}
 $$
 
-This uses in particula that for every object $c \in C$ the functor
+This uses in particular that for every object $c \in C$ the functor
 
 $$
   Hom_C(c,-) = \delta_c
@@ -65,11 +65,11 @@ $$
 
 * There is an obvious monoidal structure on the [[cube category]]. By Day convolution this induces a monoidal structure on [[cubical set|cubical sets]]. This in turn induces a monoidal structure on [[strict omega-category|strict omega-categories]].
 
-#Blog resources#
+## Blog resources
 
 * [[Todd Trimble]] on Day convolution [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365)
 
-#Discussion#
+## Discussion
 
 _[[Eric Forgy|Eric]] says_: When I see "convolution", I think "Fourier transform". Is Day convolution somehow related to a categorified version of Fourier transforms?
 
