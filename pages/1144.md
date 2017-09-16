@@ -194,6 +194,33 @@ of
 > for the moment, see the section on [Sullivan algebras](http://ncatlab.org/nlab/show/model+structure+on+dg-algebras#SullivanAlgebras) at [[model structure on dg-algebras]].
 
 
+
++-- {: .un_theorem }
+###### Theorem
+
+[[rational space|Rational homotopy types]] of simply connected spaces $X$ are in bijective corespondence with minimal [[Sullivan model]]s $(\wedge^\bullet V,d)$
+
+$$
+  (\wedge^\bullet V , d) \stackrel{\simeq}{\to}
+  \Omega^\bullet_{Sullivan}(X)
+  \,.
+$$
+
+And homotopy classes of morphisms on both sides are in bijection.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears for instance as corollary 1.26 in 
+
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+
+
+=--
+
+
 ### Quillen approach
 
 The following sequence of six consecutive functors, each of which is a [[Quillen equivalence]], take one from a [[n-connected space|1-connected]] rational space $X$ to a [[dg-Lie algebra]].
