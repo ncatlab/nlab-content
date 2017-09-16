@@ -26,7 +26,7 @@ So $\omega$ is a closed nondegenerate [[super differential form]] that respects 
 
 ## in $\infty$-Lie algebroid language ##
 
-An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped with a choice of binary degree $(n+2)$ invariant polynomial $\omega \in inv(\mathcal{a})$.
+An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped with a choice of binary degree $(n+2)$ [[invariant polynomial]] $\omega \in inv(\mathcal{a})$.
 
 
 
@@ -66,3 +66,5 @@ What we call $n$-symplectic manifold here is called $\Sigma_n$-manifold there.
 > [[Urs Schreiber]]: I find $\Sigma_n$ too undescriptive. But logically I should then be speaking of _$n$-Poisson manifolds_ so that for $n=1$ we get the ordinary version, not for $n=0$. But I find _symplectic_ still much nicer descriptive than "Poisson", so the above choice of terminology follows aesthetics a little bit more than established terminology. But only slightly. Only by a difference of 1.
 
 > _Toby_:  What if you changed the numbering by $1$?  Must your $n$ match the $n$ in $\Sigma_n$?
+
+> Urs: I thought of that, but then I found it weird to have a numbering system that claims that ordinary Poisson geometry is a "2-" and hence supposed a categorified thing. In $\Sigma_n$-terminology the $n$ is indeed the degree of the Lie n-algebroid. That seems worthwhile to keep.
