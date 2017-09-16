@@ -144,6 +144,8 @@ $$cod: \Pi_1(B) \to |B|$$
 [[David Roberts]]: shouldn't such a discrete fibration then give rise to a functor $|B| \to Set$? If you mean $Mor(\Pi_1(B))$, then this could probably be described as the total tangent groupoid, which is the action groupoid for the action of $\Pi_1(B)$ on itself. 
 
 [[Todd Trimble]]: I didn't make myself clear then. Recall that if $C$ is an internal category in a category $E$ (with $E = Set$ in this discussion), then one defines $E^C$ by taking its objects to be internal discrete fibrations, defined as arrows $F \to C_0$ equipped with the data of an action by the internal category $C$, considered as a monoid in spans from $C_0$ to $C_0$. (This is a standard usage of the term "discrete fibration"; see Johnstone's Topos Theory for instance.) Looking over this again, I guess I really should have had $F = Mor(\Pi_1(B))$, and $|B|$ here means the underlying set of $B$. But hopefully my meaning is now clear. 
+
+[[David Roberts]]: Yes, I see now.
 =--
 
 (as a span from $1$ to $|B|$) equipped with the obvious (covariant) action of the monad $\Pi_1(B)$ (as a span from $|B|$ to $|B|$). This is essentially the "regular representation" of the fundamental groupoid. The tensor product of the previous section, 
@@ -216,6 +218,8 @@ in $Top/B$, where one arrow is projection and the other is given by the action o
 
 +-- {: .query}
 [[David Roberts]]: I think, though, due to the lifting theorems for covering spaces, that given a map $f:B \to B'$ and basepoint sets $S \subset |B|$, $S' \subset |B'|$ that are not necessarily preserved by $f$, there should be a unique lift of $B^{(1)}\langle S\rangle \to B'$ to $B'^{(1)}\langle S'\rangle$ anyway. This would also make this construction independent, up isomorphism, of the choice of basepoints and probably also functorial.
+
+[[David Roberts]]: It won't be functorial - the lift referred to isn't unique. The up-to-isomorphism is a non-canonical isomorphism.
 =--
 
 
