@@ -1,3 +1,8 @@
+
+#Idea#
+* autmatic table of contents goes here
+{:toc}
+
 A [[finite object]] in a [[category]] is a generalisation of the notion of [[finite set]] in [[Set|the category of sets]].
 
 As there are already at least five distinct notions of finite set in [[constructive mathematics]], so there must be at least five distinct notions of finite object internal to a topos.  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions.  Only some are mentioned below.
@@ -20,7 +25,9 @@ The decidable $K$-finite objects in any topos also form a Boolean topos whose su
 
 * In a [[presheaf]] topos $[C^{op},Set]$, the finite cardinals are the finite-set-valued functors which are constant on each connected component.  In particular, if $C$ is a [[group]], then the topos of finite cardinals is equivalent to [[FinSet]].
 
-* Likewise, in the topos $Sh(X)$ of [[sheaf|sheaves]] on a space $X$, the finite cardinals are the locally constant functions $X\to N$.  So if $X$ is connected, the topos of finite cardinals in $Sh(X)$ is also equivalent to $FinSet$.
+* Likewise, in the [[Grothendieck topos]] $Sh(X)$ of [[sheaf|sheaves]] on a space $X$, the finite cardinals are the locally constant functions $X\to N$.  So if $X$ is connected, the topos of finite cardinals in $Sh(X)$ is also equivalent to $FinSet$.
+
+* Examples of such are [[tiny object]]s and [[infinitesimal object]]s in sheaf toposes.
 
 * By contrast, the $K$-finite objects in $[C^{op},Set]$ are the finite-set-valued functors each of whose transition functions is surjective, and the _decidable_ K-finite objects are the finite-set-valued functors each of whose transition functions is bijective.
 
@@ -36,3 +43,5 @@ By the way, do I understand you correctly that 'finite object' in topos theory b
 _Mike_: Okay (to the move).  To the question, I'm realizing more and more that I don't really have the background to be able to say what "topos theorists" say.  My only source for this material is the Elephant (and what I've been able to deduce on my own, which of course tells us nothing about terminology).  The Elephant never says "finite object" unqualified; only "finite cardinal" or "K-finite object" or "decidable K-finite object" or "$\tilde{K}$-finite object."  If "projective" means "externally projective," and likewise for "choice" and (maybe) "inhabited," then "finite object" should mean "finite cardinal," but I wouldn't use it that way myself out of fear of ambiguity and since "finite cardinal" means the same thing.  I don't see any objection to "internally finite object" meaning "decidable K-finite object," though.
 
 =--
+
+
