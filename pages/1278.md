@@ -2,8 +2,12 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+
+## Idea
 
 Differential cohomology is a refinement of ordinary [[cohomology]] such that a differential cocycle is to its underlying ordinary cocycle as a bundle with connection is to its underlying bundle.
 
@@ -13,7 +17,7 @@ The best known version of differential cohomology is a differential refinement o
 
 A differential refinement of non-stable, i.e. [[nonabelian cohomology]] is developed [[schreiber:Differential Nonabelian Cohomology|here]].
 
-# Differential stable cohomology #
+## Differential stable cohomology 
 
 A standard definition of differential cohomology is in terms of a homtopy fiber product of a generalized Eilenberg-Steenrod cohomology theory with the complex of differential forms over real cohomology:
 
@@ -40,7 +44,7 @@ where $\Omega^\bullet(-,\mathbb{R})$ is the complex underlying deRham cohomology
 
 There are variations of this definition, with some technical differences in the assumptions. See the description below.
 
-##Examples##
+## Examples
 
 * Differential integral cohomology $\bar H^\bullet(-,\mathbb{Z})$ is modeled by 
 
@@ -74,7 +78,7 @@ For $c \in \bar \Gamma^\bullet(X)$ a differentia cocycle representing a gauge, o
 * its image $cl(c)$ in non-differential cohomology is the "topological twist" of the [[gauge theory|gauge field]]. In special cases this can be identified with [[magnetic charge]].
 
 
-#Differential cohomology following Bunke-Schick#
+## Differential cohomology following Bunke-Schick
 
 The following theory of differential cohomology
 (also called **smooth cohomology**) is developed and used
@@ -292,34 +296,34 @@ are "exotic" abelian group structures on $\hat K^1$
 
 
 
-#References#
+## References
 
 A detailed discussion of the axiomatization of differential stable cohomology is
 
-* M. Hopkins and I. Singer, _Quadratic functions in geometry, topology,and M-theory_ ([arXiv](http://arxiv.org/abs/math/0211216))
+* [[Mike Hopkins]] and I. Singer, _Quadratic functions in geometry, topology,and M-theory_ ([arXiv](http://arxiv.org/abs/math/0211216))
 
 Based on this Dan Freed interpreted large classes of gauge fields in [[physics]] in terms of differential stable cohomology in 
 
-* D. Freed, _Dirac Charge Quantization and Generalized Differential Cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
+* [[Dan Freed]], _Dirac Charge Quantization and Generalized Differential Cohomology_ ([arXiv](http://arxiv.org/abs/hep-th/0011220))
 
 The differential refinement of K-theory was and is studied in a series of articles by Bunke and Schick. See for instance
 
-* U. Bunke, _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
+* [[Ulrich Bunke]], _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
 
 and many more...
 
 
 ## talk notes ##
 
-* the talks by Freed, Schick, Bunke and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
+* the talks by [[Dan Freed]], Schick, [[Ulrich Bunke] and Schreiber at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]. Much of the above material is taken from Thomas Schick's lecture there.
 
 
 
-## blog discussion ##
+## blog discussion
 
 * [(Generalized) Differential Cohomology and Lie Infinity-Connections](http://golem.ph.utexas.edu/category/2008/02/lie_infinityconnections_and_ge.html)
 
 
-# Differential non-abelian cohomology #
+## Differential non-abelian cohomology
 
 for the moment, see [[schreiber:Differential Nonabelian Cohomology]]
