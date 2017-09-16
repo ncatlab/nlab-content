@@ -1,7 +1,7 @@
 
 +-- {: .standout}
 
-This entry consists of research material.
+This entry contains research material.
 
 =--
 
@@ -113,6 +113,139 @@ $$
 
 * Notice that compared to the previous [[fibration sequence]] arising in the obstruction problem, the [[homotopy limit]] in the above definition replaces the trivial cocycle $const_{*}$ by the prescribed $G$-cocycle $c$.
 
+# Relation to other definitions #
+
+For the special case that $G$ in the above is the [[delooping]] $\mathbf{B} G$ of an ordinary  [[group]] $G$, $A$ is a [[spectrum]] (an arbitrarily [[delooping|deloopable]] object, for the present purpose) and given an [[action]] of $G$ on $A$, there is an established definition of [[generalized (Eilenberg-Steenrod) cohomology]] with coefficients $A$ twisted by a $G$-[[principal bundle]].
+
+Namely given the $G$-[[principal bundle]] $P \to X$ form the associated $A$-bundle $P \times_G A$. Then define a twisted $A$-cocycle on $X$ to be a [[section]] $X \to P \times_G A$ of this associated bundle.
+
+This is the definition of twisted cohomology as it appears for instance essentially as definition 22.1.1 of
+
+* May, Sigurdsson, _Parametrized homotopy theory_
+
+(When comparing with their definition take their $G$ to be the trivial group and identify their $\Gamma$ and $\Pi$ with our $G$).
+
+We now discuss how this is a special case of the above definition of twisted cohomology.
+
+A pair consisting of an abelian thing $A$ acted on by a nonabelian thing $G$ can be equivalently thought of as one single nonabelian thing: the homotopy quotient of $A$ by $G$, a concrete realization of which is the Borel construction $\mathbf{E}G \times_G A$. This is not a spectrum anymore, but is a space.
+
+Once we place ourselves in a context where both $G$ and $A$ live, this is best thought of as a game with [[fibration sequence]]s
+
+So for instance the fact that some $G$ acts on some $A$ is witnessed by the existence of a left-long fibration sequence
+
+$$
+  \cdots \to A \to A//G \to \mathbf{B}G \to S
+$$
+
+where in language used among nonabelian cohomologists, as it were, we have
+
+$\mathbf{B}G \to S$ is the [[action]]
+
+and 
+
+$A//G$ is the [[action groupoid]] .
+
+For our general nonsense purposes we don't need to care here what exactly $S$ is, as long as the action on it induces this sequence, but in concrete realizations that'll be of interest. So we can just as well assume that $S = \mathbf{B}A$, which will be useful in the following.
+
+So we look at the remaining fibration sequence, which sits by definition in a homotopy pullback square
+
+$$
+  \array{
+     A &\to& {*}
+     \\
+     \downarrow && \downarrow
+     \\
+     A//G &\to& \mathbf{B}G
+  }
+$$
+
+The universal property of this homotopy pullback says precisely that:
+
+- the obstruction to lifting a ("nonabelian" or "twisted") $A//G$-cocycle
+  $X \to A//G$ to an $A$-cocycle $X \to A$ is its image in first $G$-cohomology under the above horizontal map. That's the twist.
+
+Read the other way round it says:
+
+$A$-cocycles are precisely those $G$-twisted $A$-cocycles whose twist vanishes.
+
+More formally, but without adding any genuine new information, since cohomology is just connected components of the Hom in our context, we know that for any $X$ we have a fibration sequence
+
+$$
+  \array{
+     \mathbf{H}(X,A) &\to& {*}
+     \\
+     \downarrow && \downarrow^{{*} \mapsto {*}}
+     \\
+     \mathbf{H}(X,A//G) &\to& \mathbf{H}(X,\mathbf{B}G)
+  }
+  \,.
+$$
+
+So if we fix the twist in $\mathbf{H}(X, \mathbf{B}G)$ (which you'd want to write as $H^1(X,G)$) to some $c \in \mathbf{H}(X, \mathbf{B}G)$ then the $c$-twisted $A$-cohomology is precisely that bit of $\mathbf{H}(X,A//G)$ that sits in the homotopy fiber over $c$.
+
+Therefore we may say that the $c$-<a href="http://ncatlab.org/nlab/show/twisted+cohomology">twisted cohomology</a> is the homotopy pullback
+$\mathbf{H}^c(X,A)$ in 
+
+$$
+  \array{
+     \mathbf{H}^c(X,A) &\to& {*}
+     \\
+     \downarrow && \downarrow^{{*} \mapsto c}
+     \\
+     \mathbf{H}(X,A//G) &\to& \mathbf{H}(X,\mathbf{B}G)
+  }
+  \,.
+$$
+
+To see that this does indeed reproduce the description in terms of sections of associated bundles, 
+
+look at the long fibration sequence one step down the row, where it reads
+
+$$
+  \array{
+    A//G \simeq \mathbf{E}G\times_G A &\to& {*}
+     \\
+     \downarrow && \downarrow
+     \\ 
+     \mathbf{B}G  &\stackrel{\rho}{\to}& \mathbf{B}A
+  }
+$$
+
+and exhibts $A//G$ as the bundle with fiber $A$ $\rho$-associated to the universal $G$-bundle.
+
+For the given $G$-cocycle $X \to \mathbf{B}G$ the corresponding associated bundle with fiber $A$ over $X$ is the further homotopy pullback $P$ in
+
+$$
+  \array{
+    P &\to&
+    A//G \simeq \mathbf{E}G\times_G A &\to& {*}
+     \\
+     \downarrow &&
+     \downarrow && \downarrow
+     \\ 
+     X &\to&
+     \mathbf{B}G  &\stackrel{\rho}{\to}& \mathbf{B}A
+  }
+$$
+
+
+
+And again it is precisely the universal property of the homotopy pullback that asserts that sections $X \to P$ of this bundle are in bijection, up to homotopy, with those maps $X \to A//G$ whose projection to $X \to \mathbf{B}G$ reproduces the prescribed twist.
+
+
+
+We may summarize this by a 
+
+**Principle**
+
+* Higher [[nonabelian cohomology]] disguises as twisted higher abelian cohomology;
+
+* conversely: twisted higher abelian cohomology is really nonabelian cohomology
+
+
+
+
+
 # Examples #
 
 Some somewhat trivial examples of this appear in various context. For instance [[group cohomology]] on a group with coefficients in a nontrivial module can be regarded as an example of twisted cohomology. See there for more details.
@@ -131,19 +264,19 @@ and contains examples that are of interest in the wider context of [[string theo
 
 * fibration sequence: $\mathbf{B}U(n) \to \mathbf{B} PU(n) \to \mathbf{B}^2 U(1)$
 
-  * twisting cocycle: lifting gerbe;
+  * twisting cocycle: lifting [[gerbe]] / [[magnetic charge]] / [[Kalb-Ramond field]];
 
-  * twisted cocycle: twisted bundles / gerbe modules
+  * twisted cocycle: [[twisted bundle]]s / gerbe modules
 
   * twisted Bianchi identity: $d F_\nabla = H_3$
 
-  * occurence: Freed-Witten anomaly cancellation on [[nLab:brane|D-brane]]
+  * occurence: Freed-Witten [[gauge anomaly|anomaly]] cancellation on [[nLab:brane|D-brane]]
 
 * fibration sequence: $\mathbf{B}String(n) \to \mathbf{B} Spin(n) \stackrel{\frac{1}{2}p_1}{\to} \mathbf{B}^3 U(1)$
 
-  * twisting cocycle: Chern-Simons 2-gerbe;
+  * twisting cocycle: Chern-Simons 2-gerbe / [[supergravity C-field]];
 
-  * twisted cocycle: twisted nonabelian String-gerbe with conection
+  * twisted cocycle: twisted nonabelian [[string structure|String]]-gerbe with conection
 
   * twisted Bianchi identity: 
     $d H_3 \propto \langle F_\nabla \wedge F_\nabla \rangle$
@@ -184,5 +317,10 @@ and contains examples that are of interest in the wider context of [[string theo
   * unwrap the above abstract nonsense and use the above results to find [SchrSchwWal](http://arxiv.org/abs/hep-th/0512283) and the bosonic part of [DiFrMo](http://arxiv.org/abs/0906.0795)
 
 
+# References #
+
+For the special case of [[generalized (Eilenberg-Steenrod) cohomology]] twisted by a $G$-[[principal bundle]] see section 22.1 of
+
+* May, Sigurdsson, _Parametrized homotopy theory_
 
 
