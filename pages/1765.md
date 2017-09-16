@@ -188,7 +188,7 @@ Geometrically this is the case if for each morphism $\pi : Y\to X$ that is regar
 
 * an [[object]] $a \in Vec(Y)$
 
-* an [[isomorphism]] $g : \pi_^* a \to \pi_2^* a$
+* an [[isomorphism]] $g : \pi_1^* a \to \pi_2^* a$
 
 * such that 
 
