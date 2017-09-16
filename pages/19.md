@@ -291,6 +291,18 @@ See also:
 1. Aristotle's "[Paradeigma](http://mywikibiz.com/Inquiry#Analogy)", or reasoning by analogy.  Analogies and metaphors are kissing cousins to morphisms.
 1. Peirce's "[Pragmatic Maxim](http://knol.google.com/k/jon-awbrey/pragmatic-maxim/3fkwvf69kridz/6)", which has to do with clarifying concepts by translating them into their operational meanings.
 
+_Todd_: Ah, thanks for drawing attention to this! Now the argument becomes rather more interesting for me. 
+
+In particular, the diagram you drew in your wiki under 'analogy' (speaking to an example from Aristotle) is a perfect concrete illustration of the mathematical notion of [[span]]; even better, you've drawn a _morphism_ of spans (from A to B). Now it happens that a category can be defined as a monoid in the bicategory of spans; if $C_0$ denotes the collection of objects and $C_1$ the collection of morphisms of a category $C$, then the span has the shape 
+
+$$\array{
+& C_1 & \\
+ dom \swarrow & & \searrow cod\\
+C_0 & & C_0
+}$$ 
+
+I'll also mention that the connection between analogies and spans has come up in discussion on the blog; our good friend Jim Dolan has drawn attention to this. See Toby's comment [here](http://golem.ph.utexas.edu/category/2006/11/a_categorical_manifesto.html#c006085) and the ensuing discussion. 
+
 =--
 
 #Discussion#
