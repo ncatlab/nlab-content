@@ -57,6 +57,8 @@ By the way, I hear around certain students of Kan talking "the category of simpl
 I don't have a problem with people saying "category of simplices" for $\Delta$, but I prefer to say "simplex category" myself as it is slightly more precise.
 =--
 
+The cyclic category is a [[generalized Reedy category]], as explained [here](http://arxiv.org/abs/0809.3341).
+
 Blog [discussion](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html) 
 
 Literature:
