@@ -37,7 +37,25 @@ where
 
 * $S \star K$ is the [[join of simplicial sets]] of $S$ with $K$;
 
-* the Hom-set on the right is the subset of morphism $f : S \star K \to C$ such that $f|_K = F$.
+* the [[hom-set]] on the right is the subset of morphism $f : S \star K \to C$ such that $f|_K = F$.
+
+Concretely, the underlying simplicial set of $C_{/F}$is given by 
+
+$$
+  (C_{/F})_n = Hom_F(\Delta^n \star K, C)
+  \,,
+$$
+
+where $Hom_F(...)$ denotes the subset off morphisms of simplicial sets that restricts to $F$ on $K$.
+
+## Properties
+
+* The simplicial set $C_{/F}$ is indeed again a [[quasi-category]].  
+
+* If $q : C \to D$ is a [[model structure for quasi-categories|categorical equivalence]] then so is the induced morphism $C_{/F} \to C_{q F}$.
+
+* For $C$ (the [[nerve]] of) an ordinary [[category]] this construction coincides with the ordinary notion of [[overcategory]].
+
 
 ## References
 
