@@ -147,3 +147,6 @@ If $p:E \to B$ is a fibration then there is an operation of the paths on the bas
 At Hull, Phil and I were amused by the fact that the unit interval $I=[0,1]$ is a cogroupoid up to homotopy  where homotopy is defined using $I$!. This led to his thesis work on fibrations, getting away from the base point approach of the loops on the base operates on the fibre. Maybe effort should be put in to defining and constructing an $\infty$-cogroupoid (up to homotopy)! 
 
 =--
+
+
+[[!redirects fibrations]]
