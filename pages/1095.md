@@ -54,6 +54,6 @@ J. Lurie, [[Higher Topos Theory]].
 
 * the definition of $(\infty,1)$-topoi of $(\infty,1)$-sheaves is then definition 6.1.0.4 in section 6.1;
 
-* the characterization of $(\infty,1)$-sheaves in terms of [[descent]] is in section 6.1.3 
+* the characterization of $(\infty,1)$-sheaves in terms of [[descent and codescent]] is in section 6.1.3 
 
 * the relation between the Brown-Joyal-Jardine model and the general story is discussed at length in section 6.5.4
