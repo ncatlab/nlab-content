@@ -1,4 +1,4 @@
-In [[constructive mathematics]], a [[subset]] $A$ of a set $X$ is called __decidable__ if it is classified by a function from $X$ to the [[Boolean domain]] $\mathbf{2} = \{\bot, \top\}$ of classical [[truth value]]s.  Of course, in classical mathematics, $\mathbf{2}$ is the set of *all* truth values, so there every subset is decidable.
+In [[constructive mathematics]], a [[subset]] $A$ of a set $X$ is called __decidable__ if it is classified by a function from $X$ to the [[Boolean domain]] $\mathbf{2} = \{\bot, \top\}$ of classical [[truth value]]s.  Of course, in [[classical mathematics]], $\mathbf{2}$ is the set of *all* truth values, so there every subset is decidable.
 
 Equivalently, $A$ is a decidable subset of $X$ if every element of $X$ either does or does not belong to $A$.
 
