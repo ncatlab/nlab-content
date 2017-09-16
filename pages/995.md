@@ -33,7 +33,7 @@ A filter $F$ is __proper__ if there exists an element $A$ of $L$ such that $A \n
 
 Filters are often assumed to be proper by default in analysis and topology, where proper filters correspond to [[nets]].  However, we will try to remember to include the adjective 'proper'.
 
-If the complement of a filter is an ideal, then we say that the filter is __prime__ (and equivalently that the ideal is prime).  A prime filter is necessarily proper; a proper filter in a lattice is prime iff, whenever $A \cup B \in F$, either $A \in F$ or $B \in F$.  In other words, $F: L \to TV$ must be a homomorphism of lattices.
+If the complement of a filter is an ideal, then we say that the filter is __prime__ (and equivalently that the ideal is prime).  A prime filter is necessarily proper; a proper filter in a lattice is prime iff, whenever $A \vee B \in F$, either $A \in F$ or $B \in F$.  In other words, $F: L \to TV$ must be a homomorphism of lattices.  The generalisation to arbitrary joins gives a [[completely prime filter]].
 
 A filter is an __[[ultrafilter]]__, or __maximal filter__, if it is maximal among the proper filters.  (See that article for alternative formulations and applications.)  In a distributive lattice, every ultrafilter is prime; the converse holds in a [[Boolean algebra|Boolean lattice]].  In this case, we can say that $F: L \to TV$ is a homomorphism of Boolean lattices.
 
