@@ -23,7 +23,7 @@
 
   * [[universal algebra|Universal Algebra]]
 
-  * [[Higher Algebra]]
+  * [[higher algebra|Higher Algebra]]
 
   * [[group theory|Group Theory]]
 
