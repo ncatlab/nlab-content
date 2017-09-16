@@ -45,22 +45,12 @@ Such an object usually has the interpretation of a [[principal ∞-bundle]]. Spe
 
 * Notice that this definition is in a way the very point of the notion of [[(∞,1)-topos]]: an [[(∞,1)-topos]] is supposed to be an [[(∞,1)-category]] which behaves structurally exactly like the [[(∞,1)-category]] [[Top]] of [[topological spaces]]. Since cohomology of topological spaces is nothing but homotopy classes of maps between topological spaces, the analogous statement should be true in a general [[(∞,1)-topos]]. This is what the above definition asserts.
 
-
 ## Abelian (stable) cohomology ##
 
 Analogous to the above, but with $H$ now
 a [[stable (∞,1)-category]]. 
 
-+--{.query}
-
-[[Eric]]: Could someone explain how this relates to the version of <a href="http://en.wikipedia.org/wiki/Cohomology">cohomology I am familiar with</a>? Where is the coboundary?
-
-[[Urs Schreiber|Urs]]: I have moved the discussion of the answer to this case now to [[chain homology and cohomology]].
-
-=--
-
-
-
+See also [[chain homology and cohomology]].
 
 #Remarks#
 
