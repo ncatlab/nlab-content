@@ -2,6 +2,10 @@
 
 A _directed space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions: instead these $k$-dimensional _paths_ may have a _direction_ .
 
++--{.query}
+[[Eric]]: What does it mean for a $k$-cell to be _traversable_?
+=--
+
 For $r \in \mathbb{N}$, an _$r$-directed space_ is a directed space in which all $k$-cells for $k \gt r$ are reversible, but not necessarily those for $0 \leq k \leq r$.
 
 A $0$-directed space is an ordinary [[topological space]]. By the [[homotopy hypothesis]] these are to be identified with [[infinity-groupoid]]s, which in turn are to be thought of as [[(infinity,0)-category|(infinity,0)-categories]].
