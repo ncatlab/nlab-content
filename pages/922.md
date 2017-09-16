@@ -35,6 +35,7 @@ that one (which is not the central). Brown's paper on twisting cochains, is much
 
 [[Urs Schreiber|Urs]]: concerning the "either give a fairly balanced view to all applications or not list anything", I can see where you are coming from, Zoran, but I would still prefer here to have a little bit of material than to have none. The $n$Lb is imperfect almost everywhere, we'll have to improve it incrementally as we find time, leisure and energy. But it's good that you point out further aspects in a query box, so that we remember to fill them in later.
 
+Zoran Skoda]] My experience is that correcting a rambling and unbalanced entries takes more time than writing a new one at a stage when you really work on it. Plus all the communication explaining to others who made original entry which is hastily written. When it beomces very random and biased I stoped enjoying it at all to work on it.
 =--
 
 #References# 
