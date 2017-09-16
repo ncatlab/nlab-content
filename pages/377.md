@@ -1,39 +1,36 @@
-The category [[Top]] of [[topological space|topological spaces]] lacks many good categorical properties.  It is [[complete category|complete]] and [[cocomplete category|cocomplete]], but:
+[[topological space|Topological spaces]] are very useful, but also admit many pathologies.  (Although it should be admitted that often, one person's pathology is another's primary example.)  Over the years, topologists have accumulated many different conditions to impose on topological spaces to exclude various spaces considered "pathological;" here we list some of the most important of these conditions.
 
-* not [[cartesian closed category|cartesian closed]] or [[locally cartesian closed category|locally cartesian closed]],
-* not [[locally presentable category|locally presentable]], and
-* not a [[topos]] or even a [[quasitopos]].
+Sometimes one also imposes these conditions to ensure better behavior of the resulting _category_ of spaces; see [[nice category of spaces]] for more details, and also [[dichotomy between nice objects and nice categories]].  In many cases, a category of nice spaces will be [[reflective subcategory|reflective]] or coreflective.
 
-The lack of cartesian closure and, to a lesser extent, local presentability, is especially problematic for [[homotopy theory]].  Many different solutions have been proposed, generally involving either restricting to a subcategory of [[Top]] (usually [[reflective subcategory|reflective]] or coreflective, so that it inherits completeness and cocompleteness), enlarging it to a supercategory, or some combination thereof.  Most involve restricting the topologies to those that can be specified on "small" (and in particular, compact) subsets.  Here are some examples.
+* There is a whole slew of _separation conditions_, of which the most common is the [[Hausdorff space|Hausdorff]] condition (any two points can be separated by disjoint opens).  Hausdorff is also called $T_2$ and fits in a hierarchy ranging from $T_0$ through $T_4$.
 
-* The most common approach among algebraic topologists today is to use the subcategory of [[compactly generated space|compactly generated spaces]], which is cartesian closed, but not locally cartesian closed.  It is a coreflective subcategory of a reflective subcategory of $Top$.
+* [[sober space|Sobriety]] is a separation condition living in between $T_0$ and $T_2$ (but incomparable with $T_1$), which guarantees a good relationship with [[locale]]s.
 
-* The subcategory of [[Delta-generated space]]s, recently proposed by J. H. Smith, is both cartesian closed and locally presentable.
+* A space is [[compact space|compact]] if any open cover of it has a finite subcover.  Variations include locally compact, countably compact, sequentially compact, etc.
 
-* An approach of mainly historical interest is to use [[quasitopological space|quasitopological spaces]], an enlargement of $Top$ which is cartesian closed.
+* _Locally compact Hausdorff_ spaces deserve special mention since they are [[exponentiable object|exponentiable]] in [[Top]].
 
-* The category $PsTop$ of [[pseudotopological space|pseudotopological spaces]] (also called Choquet spaces) is a quasitopos containing $Top$ as a full reflective subcategory.  In particular, $PsTop$ is [[locally cartesian closed category|locally cartesian closed]] (but not locally presentable).
+* A [[compactly generated space]] is, essentially, one whose topology is determined by its restriction to compact subspaces.  These are notable because the category of compactly generated spaces is [[cartesian closed category|cartesian closed]].
 
-* In his paper _On a topological topos_, Peter Johnstone described a [[Grothendieck topos]] $E$ which contains the category of [[sequential space|sequential]] topological spaces as a full reflective subcategory which is closed under many colimits (including all those used to define [[CW complex|CW complexes]].  Since $E$ is a Grothendieck topos, it is locally presentable and locally cartesian closed.  Moreover, the [[geometric realization]] and [[singular complex]] functors form a [[geometric morphism]] between $E$ and the category of [[simplicial set|simplicial sets]].
+* A _metrizable_ space is one whose topology can be defined by a [[metric space|metric]].  We also have pseudometric spaces, quasimetric spaces, uniformizable spaces, etc.
 
-* One can just forget topological spaces and use the category of [[simplicial set]]s as the subject of homotopy theory.  The fact that every topological space has a simplicial set as its [[singularization]] then becomes an application of the homotopy theory of simplicial sets to the study of topological spaces, rather than a way to use simplicial sets to study the homotopy theory of topological spaces.
+* A [[sequential space]] is one whose topology is determined by convergence of sequences.  Note that any topology is determined by convergence of [[net]]s or [[filter]]s.
 
-#References#
+* A [[CW complex]] is a space built out of nothing by progressively attaching cells of higher and higher dimension.  More generally, a [[cell complex]] is a space built by attaching cells, without regard to dimension (that is, lower-dimensional cells may be attached to higher-dimensional ones), and an [[m-cofibrant space]] is one that is [[homotopy equivalence|homotopy equivalent]] to a CW complex (or equivalently a cell complex).  These types of spaces are important for [[homotopy theory]] because they turn [[weak homotopy equivalence]]s into [[homotopy equivalence]]s.
 
-* J. P. May, _A Concise Course in Algebraic Topology_ (Chapter 5, for compactly generated spaces)
+* A (topological) [[manifold]] is a space that is locally homeomorphic to $\mathbb{R}^n$ for some $n$.
 
-* O. Wyler, _Convenient categories for topology_
+* (add your favorite!)
 
-* L. Fajstrup and J. Rosicky, _A convenient category for directed homotopy_ (for Delta-generated spaces)
 
-* E. Spanier, _Quasi-topologies_ (for quasi-topological spaces)
+# References #
 
-* O. Wyler, _Lecture notes on topoi and quasitopoi_ (for pseudotopological spaces)
+* Steen and Seebach, _Counterexamples in topology_.
 
-* P. Johnstone, _On a topological topos_
 
 #Discussion#
 
+The following discussion has been acted upon by separating this page from [[nice category of spaces]].
 
 +-- {: .query}
 [[Tim Porter|Tim]]: As I read the entry on nice topological spaces, it really refers to 'nice categories' rather than 'nice spaces'! I have always thought of spaces such as CW-complexes and polyhedra as being 'locally nice', but the corresponding categories are certainly not 'nice' in the sense of  [[nice topological space]]. Perhaps we need to adjust that other entry in some way.
