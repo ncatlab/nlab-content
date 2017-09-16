@@ -288,7 +288,7 @@ indeed _classified_ by their corresponding cocycles:
 one of the axioms says that every 
 [[groupoid object in an (∞,1)-category|groupoid object]] in $\mathbf{H}$
 is [[quotient object|effective]], in that the morphism to its
-[[homotopy colimit]] is an [[effcetive epimorphism]].
+[[homotopy colimit]] is an [[effective epimorphism]].
 
 But this means that starting with the $G$-action on $P$, 
 passing to the [[cocycle]] $g$ obtained from the quotient
