@@ -25,9 +25,9 @@ These cases describe non-topological quantum field theories. Here the formalizat
 
 ## Topological $\sigma$-models ##
 
-* Dijkgraaf--Witten theory is the (2+1)-dimensioanl $\sigma$-model induced from an abelian 2-gerbe on $\mathbf{B} G$, for $G$ a finite group.
+* [[Dijkgraaf-Witten theory]] is the (2+1)-dimensioanl $\sigma$-model induced from an abelian 2-gerbe on $\mathbf{B} G$, for $G$ a finite group.
 
-* Chern--Simons theory is supposed to be analogously the $\sigma$-model induced from an abelian 2-gerbe with connection on $\mathbf{B}G$, but now for $G$ a Lie group.
+* [[Chern-Simons theory]] is supposed to be analogously the $\sigma$-model induced from an abelian 2-gerbe with connection on $\mathbf{B}G$, but now for $G$ a Lie group.
 
 * Rozansky--Witten theory is essentially the $\sigma$-model for $X$ a smooth projective variety.
 
