@@ -75,8 +75,9 @@ Finally, a **[[double bicategory]]** is one way to define a double category whic
 
 ## References ##
 
-* [[Ronnie Brown]] and C.B. Spencer, Double groupoids and crossed
-modules, Cah.  Top. G\'{e}om. Diff. 17 (1976) 343--362.
+* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed
+modules, Cah.  Top. G\'{e}om. Diff. 17 (1976)
+343--362](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0)
 
 * Jeffrey C. Morton, [Double Bicategories and Double Cospans](http://arxiv.org/abs/math/0611930)
 
