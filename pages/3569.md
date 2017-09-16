@@ -23,7 +23,15 @@ So...
 
 > (...please fill in what comes next, if you have an idea...)
 
-First we need equivalents for 1, the terminal object, and 2, the subobject classifier. Can the terminal $\infty$-groupoid work as a generator?
+First we need equivalents for 1, the terminal object. That is [[generalized the|the]] terminal $\infty$-groupoid $*$: any [[contractible]] [[Kan complex]].
+
+> [[David Corfield]]: Can the terminal $\infty$-groupoid work as a generator?
+
+> [[Urs Schreiber]]: every small $\infty$-groupoid is a colimit over a small diagram consisting only of copies of the terminal $\infty$-groupoid.
+
+Then we need the analog of the [[subobject classifier]]. This will be an [[object classifier]].
+
+...
 
 ## References
 
