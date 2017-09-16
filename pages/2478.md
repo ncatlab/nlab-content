@@ -23,10 +23,10 @@ More precisely:
 +-- {: .un_prop }
 ###### Proposition ([[Structured Spaces|StSp]], 4.2.9)
 
-Let $Sch_{\leq 0}^{\leq 0}(\mathcal{G}_{Zar}) \subset Sch(\mathcal{G}_{Zar})$ be the full subcategory of all derived schemes on the [[n-truncated structured (infinity,1)-topos|0-trucated]] and [[n-localic (infinity,1)-topos|0-localic]] ones. This is canonically equivalent to the ordinary category $Sch(k)$ of [[scheme]]s over $k$:
+Let $Sch_{\leq 0}^{\leq 0}(\mathcal{G}_{Zar}(k)) \subset Sch(\mathcal{G}_{Zar}(k))$ be the full subcategory of all derived schemes on the [[n-truncated structured (infinity,1)-topos|0-trucated]] and [[n-localic (infinity,1)-topos|0-localic]] ones. This is canonically equivalent to the ordinary category $Sch(k)$ of [[scheme]]s over $k$:
 
 $$
-  Sch_{\leq 0}^{\leq 0}(\mathcal{G}_{Zar})
+  Sch_{\leq 0}^{\leq 0}(\mathcal{G}_{Zar}(k))
   \simeq
   Sch(k)
   \,.
