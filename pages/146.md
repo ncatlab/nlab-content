@@ -22,7 +22,7 @@ from the [[opposite category]] $S^{op}$ to $C$.
 #Properties of presheaves#
 
 
-Every presheaf is a [[colimit]] of [[representable|representable functor]]. 
+Every presheaf is a [[colimit]] of a [[representable functor]].
 
 An elegant way to express this for any preaheaf $F : C^{op} \to Set$ is as the [[end|coend]] identity
 $$
