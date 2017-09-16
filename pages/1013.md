@@ -139,6 +139,20 @@ $$
 $$
 So a pair of abelian groups (from the perspective of the underlying set of the first one) consists of the *property* that the set is inhabited, then the *structure* of an abelian group on that set, and finally extra *stuff* consisting of the entire second group.
 
+# Logical interpretation #
+
+In [[logic]] a property is given by a [[predicate]], which we may think of as an operation that takes a thing $x$ to the [[truth value]] of the statement that $x$ has the property.  Note that a truth value is a $(-1)$-[[(-1)-groupoid|groupoid]]; we get structure and stuff by replacing this with a [[set]] (a $0$-[[0-groupoid|groupoid]] or a [[groupoid]] (a $1$-[[1-groupoid|groupoid]]) and we get $n$-stuff by replacing this with an $n$-[[n-groupoid|groupoid]].
+
+Now, if a non-[[evil]] property of objects of a category $C$ holds for some object $x$, then it must hold for any object [[isomorphism|isomorphic]] to $x$.  That is, the predicate defining that property is actually a [[functor]] from the [[core]] $C_iso$ of $C$ to the groupoid $TV_iso$ of truth values.  Given such a predicate functor $P$, it\'s immediate how to define a [[full subcategory]] $C_P$ of $C$ consisting of those objects with the property; the [[inclusion functor]] $C_P \hookleftarrow C$ is fully faithful, as it should be for extra property.  Conversely, given a fully faithful functor $F: D \to C$, define a non-evil property of objects of $C$ as follows: and object $x$ of $C$ has the property if there is some object $a$ of $D$ such that $x \cong F(a)$.  If you apply this to $C_P \hookleftarrow C$, then you get the predicate $P$ back; if you start with an arbitrary fully faithful $F: D \to C$, define a predicate $P$, and then form $C_F$, you\'ll find that $C_F$ and $D$ are [[equivalence of categories|equivalent]], even as [[bundle]]s over $C$.
+
+Similarly, any non-evil structure on objects of $C$ is given by a functor from $C_iso$ to the groupoid $Set_iso$ of sets.  Given such a functor $P$, let $C_P$ be the [[category of elements]] of $P$, which comes with a faithful functor from $C_P$ to $C$.  Conversely, given any faithful functor $F: D \to C$ and an object $x$ of $C$, let $P(x)$ be the [[essential fiber]] of $F$ over $x$, which (because $F$ is faithful) is a [[discrete category]] and hence (equivalent to) a set.  These operations are also invertible, up to equivalence.
+
+Next, any non-evil stuff on objects of $C$ is given by a functor from $C_iso$ to $Grpd_iso$.  Here $Grpd_iso$ should be taken to be the $2$-[[2-groupoid|groupoid]] whose objects are groupoids, whose morphisms are equivalences, and whose $2$-morphisms are [[natural isomorphism]]s; similarly, the functor $P: C_iso \to Grpd_iso$ should be taken in the weakest sense (often called a [[pseudofunctor]]).  Then the [[Grothendieck construction]] turns $P$ into a category $C_P$ equipped with a functor to $C$; again, the essential fiber converts any functor $F: D \to C$ into such a $P$ (although really you must take the core of the essential fiber to get a groupoid).
+
+If $C$ is a mere $1$-[[1-category|category]], then any $P: C_iso \to 2 Grpd_iso$ is equivalent to some $P: C_iso \to Grpd_iso$, but in general we need to consider $P: C_iso \to n Grpd_iso$ or $P: C_iso \to \infty Grpd_iso$ to study higher forms of $n$-stuff.
+
+Lest we forget, to be even more simple than an extra property, the groupoid of $(-2)$-[[(-2)-groupoid|groupoid]]s is the [[point]] $pt$, and there is exactly one functor $P$ from any $C_iso$ to $pt$, corresponding to the unique (up to equivalence) category equivalent to $C$.
+
 #References#
 
 * [original UseNet discussion](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html) on `sci.physics.research` in 1998;
