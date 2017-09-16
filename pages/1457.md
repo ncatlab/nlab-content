@@ -16,7 +16,7 @@ Given a metric space $(X, d)$ and a point $x \in X$, the _open ball_ centered at
 $$B_r(x) = \{y \in X: d(x, y) \lt r\}$$ 
 and it may be shown that the open balls form a basis for a [[topological space|topology]] on $X$. In fact, metric spaces are examples of [[uniform space]]s, and much of the general theory of metric spaces, including for example the notion of completion of a metric space, can be extrapolated to uniform spaces and even [[Cauchy space]]s.
 
-As topological spaces, metric spaces enjoy a number of separation properties: they are Hausdorff, regular, and even normal. They are also paracompact. 
+As topological spaces, metric spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], regular, and even normal. They are also paracompact. 
 
 ## Variations
 
