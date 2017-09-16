@@ -1,3 +1,6 @@
+[[!redirects $n$-category]]
+
+
 $n$-categories are the main subject of [[higher category theory]], and give its name to the $n$-[[About|Lab]].
 
 #Idea#
