@@ -290,6 +290,70 @@ Also prop. A.3.7.3 in [[Higher Topos Theory|HTT]].
 =--
 
 
+## Relation to presentable $(\infty,1)$-categories ##
+
+As described at [[presentable (∞,1)-category]], an [[(∞,1)-category]] $\mathbf{C}$ is presentable precisely if, as an [[simplicially enriched category]], it arises as the full subcategory of fibrant-cofibrant objects of a [[combinatorial simplicial model category]].
+
+The _proof_ of this proceeds via Bousfield localization, and effectively exhibits Bousfield localization as the procedure that models [[localization of an (∞,1)-category]] when $(\infty,1)$-categories are modeled by model categories.
+
+For notice that 
+
+1. a presentable $(\infty,1)$-category $\mathbf{C}$ is one arising as the [[localization of an (∞,1)-category|localization]] 
+
+   $$
+     \mathbf{C} \simeq S^{-1} Funct(K,\infty Grpd) = S^{-1}PSh_{(\infty,1)}(K)
+   $$
+
+   of an [[(∞,1)-category of (∞,1)-presheaves]]
+
+1. every [[(∞,1)-category of (∞,1)-presheaves]]  arises    
+   $PSh_{(\infty,1)}(K)  \simeq ([K,SSet]_{inj})^\circ$ as
+   the subcategory of fibrant-cofibrant objects of the 
+   globale [[model structure on simplicial presheaves]];
+
+1. in terms of the [[simplicial model category]] 
+   $[K,SSet]_{inj}$ the prescription for 
+   [[localization of an (∞,1)-category|localization as an (∞,1)-category]] and passing to the subcategory of fibrant-cofibrant objects of the Bousfield localization $L_S [K,SSet]_{inj}$ is literally the same.
+
+Moreover, by [Dugger's theorem on combinatorial model categories](http://ncatlab.org/nlab/show/combinatorial+model+category#duggers_theorem_13) every [[combinatorial simplicial model category]] arises this way.
+
+This is the argument of [[Higher Topos Theory|HTT, prop A.3.7.6]]. 
+
+This gives a good conceptual interpretation of Bousfield localization, since the [[localization of an (∞,1)-category]] is nothing but an adjunction
+
+$$
+  \mathbf{C} \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
+  \mathbf{D}
+$$
+
+that exhibits $\mathbf{C}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{D}$.
+
+So we find the diagram
+
+$$
+  \array{
+      Sh_{(\infty,1)}(K) 
+     &\stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
+     &
+     PSh_{(\infty,1)}(K) 
+     &&&
+     abstract\;nonsense\;def
+     \\
+     \uparrow^{\simeq}
+     &&
+     \uparrow^{\simeq}
+     \\
+     ([K,SSet]_{inj}^{loc})^\circ
+     &\stackrel{\stackrel{Bousfield\;loc.}{\leftarrow}}
+     {\to}&
+     ([K,SSet]_{inj})^\circ
+     &&&
+     concrete\;realization
+  }
+  \,.
+$$
+
+(Here $(-)^\circ$ denotes passing to the full subcategory of fibrant-cofibrant objects.)
 
 ## Examples and Applications ##
 
