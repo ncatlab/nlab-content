@@ -39,19 +39,19 @@ Previous:
 
 
 
-## rough notes from a talk##
-
 >the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention, meaning: **somebody should go through this and polish**
 
 
 
-## contents ##
+# contents #
 
-* automatic TOC goes here
-{:toc}
+* table of contents
+{: toc}
 
 
-## part 1 ###
+
+
+# part 1 -- the sheaf of elliptic cohomology ring spectra #
 
 
 We will talk about a lifting problem that will lead to the formulation of [[tmf]]. This requires [[E-infinity ring]]s and [[derived algebraic geometry]].
@@ -167,7 +167,7 @@ The [[spectrum]] [[tmf]] is obtained in the same manner by replacing $M_{1,1}$ b
 
 
 
-## part 2 ##
+# part 2 - the stable symmetric monoidal $(\infty,1)$-category of spectra#
 
 
 
@@ -443,6 +443,48 @@ $E_\infty$-rings themselves form an [[(infinity,1)-category]]. And this has all 
 
 
 
-## part 3 ##
+# part 3 - brave new schemes #
 
-Now the theory of [[scheme]]s and [[derived scheme]]s.
+Now the theory of [[scheme]]s and [[derived scheme]]s, but not over [[simplicial commutative ring]]s, but over [[E-infinity ring]]s.
+
+So we are trying to guess the content of the not-yet-existsting
+
+* [[Jacob Lurie]], [[Spectral Schemes]].
+
+Let $A$ be an [[E-infinity ring]]. 
+
+Define its [[spectrum of an E-infinity ring]] $Spec A$ as  the [[ringed space]] $(|Spec A|, \mathcal{O}_{Spec A})$ whose underlying [[topological space]] is the ordinary spectrum of the degroo-0 ring
+
+$$
+  |Spec A| := Spec \pi_0 A
+$$
+ 
+and where $\mathcal{O}_{Spec A}$ is given on Zariski-opens $D(f)$ for any $f \in \pi_0 A$ by
+
+$$
+  \mathcal{O}_{Spec A}(D(f))
+  :=
+  A[f^{-1}]
+  \,.
+$$
+
+Here $A \to A[f^{-1}]$ is characterized by the following equivalent ways:
+
+1. $\pi_\bullet A \to \pi_*(A[f^{-1}])$ identify $\pi_{\bullet}(A[f^{-1}])$ with $\pi_\bullet$
+
+1. $\forall$ $E_\infty$-rings the induced map 
+   $Hom(A[f^{-1}],B) \to Hom(A,B)$ is a [[homotopy equivalence]] of the left hand side with the subspace of the right hand side which takes $f \in \pi_0 A$ to an invertible element of $\pi_0 B$.
+
+This geometry over [[E-infinity ring]]s is in [[spectral algebraic geometry]]/[[brave new algebraic geometry]].
+
+The analog for [[simplicial commutative ring]]s instead of  is what is discussed at [[derived scheme]].
+
+**theorem** ([[Jacob Lurie]])
+
+If $X$ s a space and $\mathcal{O}$ a sheaf of [[E-infinity ring]]s then $(X,\pi_0 \mathcal{O}_X)$ is a classical [[scheme]] and $\pi_n \mathcal{O}_X$ is a quasicoherent $\pi_0 \mathcal{O}_X$-[[module]].
+
+**theorem** there exists a [[derived Deligne-Mumford stack]] $(M_{1,1}, \mathcal{O}^{der}_{M_{1,1}})$ such that $(M_{1,1}, \pi_0 \mathcal{O}^{der}_{M_{1,1}})$ is the ordinary [[Deligne-Mumford stack|DM-]] [[moduli stack]] of [[elliptic curve]]s.
+
+#References#
+
+* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
