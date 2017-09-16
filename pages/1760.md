@@ -47,7 +47,49 @@ and we say that $\mathbf{B} A$ is the **delooping** of $A$.
 If $\mathbf{B}$ is even a [[stable (∞,1)-category]] then all deloopings exist and are then also denoted $\Sigma A$ and called the **suspension** of $A$.
 
 
+#Characterization of deloopable objects#
+
+In section 6.1.3 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+a definition of 
+[[groupoid object in an (infinity,1)-category]] $\mathbf{C}$ is given
+as a homotopy simplicial objects, i.e. a [[(infinity,1)-functor]]
+
+$$
+  C  : \Delta^{op} \to \mathbf{C}
+$$
+$$
+  \cdots
+  C_2 \stackrel{\to}{\stackrel{\to}{\to}}
+  C_1 
+  \stackrel{\to}{\to} 
+ C_0
+$$
+
+satisfying certain conditions (prop. 6.1.2.6) which are such that if $C_0 = {*}$ is the [[point]] we have an internal _group_ in a homtopical sense, given by an object $C_1$ equipped with a coherently associative multiplication operation  $C_1 \times C_1 \to C_1$ generalizing that of [[Jim Stasheff|Stasheff]] [[H-space]] from the $(\infty,1)$-catgeory [[Top]] to arbitrary $(\infty,1)$-categories.
+
+Lurie calls the groupoid object $C$ an 
+_effective_ [[groupoid object in an (infinity,1)-category]] precisely if it arises as the delooping, in the above sense, of some object $\mathbf{B}C$.
+
+One of the characterizing properties of an [[(infinity,1)-topos]] is that _every_ groupoid object in it is effective.
+
+This is the analog of [[Jim Stasheff|Stasheff]]'s classical result about [[H-space]]s.
+
+See the remark at the very end of section 6.1.2 in [[Higher Topos Theory|HTT]].
+
+
+
+
 #Examples#
+
+
+## topological loop spaces ##
+
+For $C = $ [[Top]] the [[(infinity,1)-category]]
+of [[topological space]]s, a space is deloopable if it is an [[H-space]] and hence homotopy equivalent to a [[loop space]].
+
 
 ## delooping of a group to a groupoid ##
 
