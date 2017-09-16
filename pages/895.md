@@ -7,7 +7,7 @@ The notion of _cofibration category_ was introduced by Baues (see references bel
 
 1. _The axioms should be as weak (and as simple) as possible, so that the constructions of homotopy theory are available in as many contexts as possible._
 
-He also introduces the notion of a [[I-category]] being a category with a natural cyclinder functor.
+He also introduces the notion of a [[I-category]] being a category with a natural cyclinder functor satisfying a set of good properties.
 
 
 #Definition
