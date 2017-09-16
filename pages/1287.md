@@ -22,7 +22,15 @@ $$ [X, \mathcal{B}C] \cong [\Pi X_* ,C] $$
 
 where $X_*$ is the skeletal filtration of the CW-complex $X$, $C$ is a crossed complex, and $\mathcal{B}C$ is the classifying space of $C$,  thus includes the local coefficient version of the classical Eilenberg-Mac Lane theory. 
 
+[[Tim Porter|Tim]]:  Quoting an exercise in Spanier (1966) on page 58: 
 
+_A local system on a space $X$ is a covariant functor from the fundamental groupoid of $X$ to some category._
+
+A reference is given to a paper by Steenrod: _Homology with local coefficients_, Annals 44 (1943) pp. 610 - 627.
+
+Perhaps the entry could reflect the origins of the idea. The current one seems to me to be much too restrictive. There are other applications of the idea than the ones at present indicated, although of course those are important at the moment. Reference to vector bundles is not on the horizon in Spanier!!!!.
+
+Local systems with other codomains than vector spaces are used in rational homotopy theory.
 
 =--
 
