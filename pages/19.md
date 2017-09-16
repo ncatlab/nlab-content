@@ -92,7 +92,12 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
   That would be a suggestion. I must say I don't feel that the sentence "The theory of categories as primitive mathematical universes or spaces (nothing as fancy as a topos)." tells me anything. I'd suggest to either remove it completely or figure out what it means to say and then say it in somewhat different words.
 
+  [[David Roberts]]: I think the constrast needs to be made between small categories, which are models for homotopy types, and categories which are to be considered ambient categories, like topoi, [[exact category|Barr-exact categories]], $(\infty,1)$-categories and so on. This is probably what Rafael means, but the juxtaposition in the sentence is slightly confusing. In fact, I've put a bit in about Grothendieck's views on small categories.
+
   =--
+
+
+* The category of small categories as models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 
 
 * A unifying tool and language in [[mathematics]].
