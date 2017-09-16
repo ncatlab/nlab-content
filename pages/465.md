@@ -7,4 +7,9 @@ In [[Set|the category of sets]], every epimorphism is regular. Thus, it can be h
 As another example, in the category of monoids, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism, even though it is far from a [[surjection]].  But in this or any other [[algebraic category]] (a category of models of an [[algebraic theory]]), the morphisms whose underlying function is surjective are precisely the regular epimorphisms.
 
 
+## In higher context
+
+Comparing the above to the defintion of [[effective epimorphism]], we propose the following definition in an arbitrary $(\infty,1)$-[[(infinity,1)-category|category]]:  A __regular epimorphism__ is any morphism with a [[simplicial resolution]].
+
+
 [[!redirects regular epi]]
