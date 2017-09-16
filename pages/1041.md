@@ -8,7 +8,11 @@ simple. Let $f: A\to B$. The canonical map $\coker(\ker f)\to \ker (\coker f)$ e
 that the canonical map must be isomorphism because it is the unique iso between the two decompositions of $f$: one in which you take epi followed by (the composition of) two monics and another in which you have (the composition of) two epis followed by one monic. Right ?
 
 Now do this for $f$ a monic and you get a decomposition into iso iso kernel and for $f$ an epi and you get 
-the cokernel iso iso as required. 
+the cokernel iso iso as required.
+
+[[Mike Shulman|Mike]]: Why is the canonical comparison map mono and epi?  It's late for me too right now, but I think that maybe a counterexample is the "multiplication by 2" map $\mathbb{Z}\to \mathbb{Z}$ in the  category of torsion-free abelian groups.
+
+However, if you assume explicitly that that comparison map is always an isomorphism, then I believe it for the reasons that you gave.
 =--
 
 Equivalently, an abelian category is a category enriched over the category [[Ab]] of abelian groups, with a [[zero object|null object]], binary [[biproduct]]s, kernels, cokernels and such that
