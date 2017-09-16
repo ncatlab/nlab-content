@@ -22,6 +22,15 @@ The other approach is to define a lattice, as above, to require a top and a bott
 From an algebraic point of view, requiring top and bottom is quite natural, a special case of preferring [[monoids]] to more general [[semigroups]].  In any case, one can formally adjoin a top and a bottom if required.  On the other hand, many examples, especially from analysis, do not come with a top or a bottom, and adjoining them would break the other structure.  For example, adjoining top ($\infty$) and bottom ($-\infty$) to the [[real line]] makes it no longer a [[field]] (addition is especially problematic); more generally, a [[Banach lattice]] need not (and, except in one degenerate case, cannot) have a top or a bottom.
 
 
+## Lattice homomorphisms
+
+A lattice homomorphism $f$ from a lattice $A$ to a lattice $B$ is a [[function]] from $A$ to $B$ (seen as sets) that preserves $\wedge$ and $\vee$ (and $\top$ and $\bot$, if these are required):
+$$ f(x \wedge y) = f(x) \wedge f(y),\; f(\top) = \top,\; f(x \vee y) = f(x) \vee f(y),\; f(\bot) = \bot .$$
+Note that such a homomorphism is necessarily a [[monotone function]], but the converse fails.
+
+Thus, a lattice is a poset (or even a semilattice) with [[property-like structure]].
+
+
 [[!redirects lattices]]
 [[!redirects bisemilattice]]
 [[!redirects bounded lattice]]
