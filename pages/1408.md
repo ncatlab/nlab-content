@@ -6,10 +6,13 @@
 
 #Idea#
 
-A _structured [[(infinity,1)-topos]] -- or
-_structured generalized space_ in the case of a [[petit topos]] -- is a generalization of a [[ringed space]] or rather of a [[ringed site]]: a generalized space equipped with a _structure [[sheaf]]_ taking values in generalized quantities. 
+A _structured [[(∞,1)-topos]] is a generalization of a [[ringed space]] or rather of a [[ringed site]]: 
+a generalized [[space]] equipped with a _[[structure sheaf]]_ taking values in generalized [[quantity|quantities]]. 
 
-At the bottom of it, a structured generalized space is a ($\infty$-)functor
+A structured $(\infty,1)$-topos that is constrained to locally look like an object in a prescribed category of _test spaces_ is a [[generalized scheme]].
+
+At the bottom of it, a structured $(\infty,1)$-topos is a
+[[(∞,1)-functor]]
 
 $$
   X : S^{op}\times R \to V
@@ -24,11 +27,11 @@ where
 
 Here the generalizaton is in the sense described at [[space and quantity]]:
 
-* _spaces_ modeled on test spaces in some category $S$ are [[presheaf|presheaves]] $X$ on $S$: $X(U)$ is the collection of probes of $X$ by $U \in S$.
+* _[[space]]s_ modeled on test spaces in some category $S$ are [[presheaf|presheaves]] $X$ on $S$: $X(U)$ is the collection of probes of $X$ by $U \in S$.
 
-* _quantities_ (meaning: function algebras) modeled on value spaces in some category $S$ are [[presheaf|co-presheaves]] $A$ on $S$: $A(U)$ is the collection of the quantities with values  in $U \in S$.
+* _[[quantity|quantities]]_ (meaning: function algebras) modeled on value spaces in some category $S$ are [[presheaf|co-presheaves]] $A$ on $S$: $A(U)$ is the collection of the quantities with values  in $U \in S$.
 
-In the context of structured $(\infty,1)$-toposes $S$ is called a [[geometry (for structured (infinity,1)-toposes)|geometry]].
+In the context of structured $(\infty,1)$-toposes $S$ is called a [[geometry (for structured (∞,1)-toposes)]].
 
 Combined, this allows to give an analogous general way to think of the notion of a _space equipped with a structure sheaf_. A _structured generalized space_ is such a generalization.
 
