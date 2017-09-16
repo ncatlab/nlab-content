@@ -8,7 +8,7 @@ Recall that for [[presheaf|presheaves]] on a [[site]] $X$ with values in a categ
 | $(f^t)^\dagger : PSh(Y,A) \to PSh(X,A)$  | left adjoint to direct image  |
 | $(f^t)^\ddagger : PSh(Y,A) \to PSh(X,A)$ | right adjoint to direct image |
 
-Recall moreover that for $f : X \to Y$ any [[site|morphism of sites]], the  right adjoint to [[direct image]] followed by [[sheafification]] $\var {{-}}$ is the [[inverse image]] map of sheaves:
+Recall moreover that for $f : X \to Y$ any [[site|morphism of sites]], the  right adjoint to [[direct image]] followed by [[sheafification]] $\bar{(-)}$ is the [[inverse image]] map of sheaves:
 
 $$
   f^{-1} : Sh(Y,A) \to Sh(X,A)
@@ -19,7 +19,7 @@ Now, if the morphism of sites $f$ happens to be restriction to a sub-site  $f : 
 
 * the direct image is called **restriction** of sheaves;
 
-* the left adjoint takes sheaves to sheaves and is called **extension** of sheaves.
+* the right adjoint takes sheaves to sheaves and is called **extension** of sheaves.
 
 
 #Definition#
