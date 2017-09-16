@@ -6,7 +6,7 @@ It was noted that all the calculations of Vietoris homology gave the same answer
 
 First some abstraction:
 
-We take the set $X$ and the open cover $\mathcal{U}, together with the relation $x\in U$, i.e. an element $x4 will be considered to be _related to_ the set $U$ in the cover $\mathcal{U}$, if it is an element of it!
+We take the set $X$ and the open cover $\mathcal{U}$, together with the relation $x\in U$, i.e. an element $x$ will be considered to be _related to_ the set $U$ in the cover $\mathcal{U}$, if it is an element of it!
 
 We replace this by an abstract setting of a set $X$, another set $Y$ and a relation $R\subseteq X\times Y$, from $X$ to $Y$. 
 
