@@ -1,3 +1,9 @@
+
+#Contents#
+
+{:toc}
+
+
 #Idea#
 
 A _category of fibrant objects_ is a [[category with weak equivalences]] equipped with extra structure somewhat weaker than that of a [[model category]]. 
