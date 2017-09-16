@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-28 #
 
+* [[Mike Shulman|Mike]]: 
+
+  * I have a question about [[biproduct]]s.
+
 * [[Urs Schreiber|Urs]]:
 
   * created [[Bousfield-Kan map]]
