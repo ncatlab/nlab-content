@@ -1,10 +1,10 @@
 #Idea#
 
 For $S$ a [[category]], a 
-specification of _local epimorphisms_ 
-of [[presheaf|presheaves]] on $S$
-is one way of 
-encoding a [[Grothendieck topology]]
+system of _local epimorphisms_ is a system of [[morphism]]s in the [[presheaf]] category $[S^{op}, Set]$ that have the closure properties expected of [[epimorphism]]s under [[composition]] and under [[pullback]].
+
+A specification of a system of _local epimorphisms_ 
+is equivalent to giving a [[Grothendieck topology]]
 and hence the structure of a [[site]] on $S$.
 
 A collection of local epimorphisms 
@@ -12,6 +12,9 @@ form a [[multiplicative system]]
 of morphisms in the [[presheaf]] category
 and the corresponding [[homotopy category]]
 is the corresponding category of [[sheaf|sheaves]].
+
+One useful aspect of local epimorphisms is that the [[local isomorphism]]s among them form a [[mutliplicative system]]. This allows to characterize the category of [[sheaf|sheaves]] on $S$ as the [[homotopy category]] with respect to local isomorphisms.
+
 
 #Definition#
 
@@ -38,10 +41,6 @@ every $Y(V) \to B$ the morphism
 $A \times_{Y(U)} Y(V) \to Y(V)$
 is a local epimorphism as above.
 
-#Remarks#
-
-* Local epimorphisms form a left [[multiplicative system]]
-in $[S^{op}, Set]$.
 
 #References#
 
