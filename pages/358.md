@@ -16,6 +16,14 @@ A $0$-tuply monoidal $n$-category is simply a pointed $n$-category, that is an $
 
 A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category.  Although the general definition above won\'t give it, there is a notion of stably monoidal $\infty$-category, basically an $\infty$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way.  (See also [[spectrum]].)  Stably monoidal $n$-categories are also called __symmetric monoidal__, since the monoidal operation is maximally commutative.
 
++--{: .query}
+
+[[Mike Shulman]]: I would like to suggest that we switch to using _symmetric monoidal_ rather than _stably monoidal_, and especially avoid calling these just _stable_.  One advantage of "symmetric monoidal" is that it has a well-established meaning in low-dimensions; if I say "symmetric monoidal $n$-category" then people who are familiar with symmetric monoidal 1-categories are more likely to have an intuitive understanding of what I mean than if I say "stably monoidal $n$-category."
+
+Use of the word "stable" here also creates confusion with its other meanings (see [here](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html#c021217) and [here](http://golem.ph.utexas.edu/category/2009/01/categories_logic_and_physics_i_2.html#c021205)).  Algebraic topologists often use "stable" to mean "related to [[spectrum|spectra]]," and spectra are related to, but distinct from, symmetric monoidal $\infty$-groupoids.  (<i>Connective</i> spectra can be identified with symmetric _groupal_ $\infty$-groupoids.)  Lurie is also using "stable $(\infty,1)$-category" to mean "an $(\infty,1)$-category which behaves like the $(\infty,1)$-category of spectra."  One might not like this, but it is not original with him; several other algebraic topologists use "stable model category" in the same sense.  And since we have the perfectly good alternative term "symmetric monoidal" to use here, which has other things to recommend it as well, why create needless confusion?
+
+=--
+
 # The periodic table
 
 There is a [[periodic table]] of $k$-tuply monoidal $n$-categories:
