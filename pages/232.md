@@ -141,8 +141,8 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A [[group torsor]] (over a group $G$) can be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
 
-#References#
 
+#References#
 
 The standard reference on enriched categories is
 
@@ -156,3 +156,5 @@ The standard reference on enriched categories is
 
 
 [[!redirects enriched categories]]
+[[!redirects category enriched]]
+[[!redirects categories enriched]]
