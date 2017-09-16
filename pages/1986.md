@@ -16,6 +16,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-08-22:
+
+*  [[Toby Bartels]]:  Thanks to [[Rafael Borowiecki]], I added a link at [[Higher Topos Theory]] to the published version on Lurie\'s MIT website.
+
+
 ## 2009-08-21:
 
 * [[Vaughan Pratt]]: changed "category: categories" to "category: category" for Chu construction.  (Rationale: The plural form was just my misremembering the name of that category, I didn't mean to start a new category.  Chu(V,k) is a category and therefore should be findable as such, but it would take a while to write a separate page for every pair (V,k).)  (I also edited "Editing latest changes" but presumably that goes without saying. :)  -vp)
