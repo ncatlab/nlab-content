@@ -220,3 +220,4 @@ For the [[(∞,1)-topos]] [[∞-Grpd]] of [[∞-groupoid]]s the analog of the su
 [[!redirects n-stuff]]
 [[!redirects property-like structure]]
 [[!redirects property, structure, stuff]]
+[[!redirects structure]]
