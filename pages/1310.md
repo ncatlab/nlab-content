@@ -249,7 +249,7 @@ to the derived category of [[D-modules]] on $X$, or the like.
 
 #Examples#
 
-* ordinary representation of a Lie algebra on a vector space: CH_\rho(g,V) is essentially the Chevalley-Eilenberg complex that computes the cohomology of $g$ with coefficients in $V$.
+* ordinary representation of a Lie algebra on a vector space: $CE_\rho(g,V)$ is essentially the Chevalley-Eilenberg complex that computes the cohomology of $g$ with coefficients in $V$.
 
 * flat connections on bundles
 
