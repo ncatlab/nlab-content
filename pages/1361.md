@@ -20,7 +20,13 @@ A **$V$-enriched model category** is
 
 * and such that this fibration is an acyclic fibration whenever either $i$ or $p$ are acyclic.
 
+The last two conditions here are equivalent to the fact that the [[copower]]
 
+$$
+  \otimes : C \times V \to X
+$$
+
+is a [[Quillen bifunctor]].
 
 #Remarks#
 
