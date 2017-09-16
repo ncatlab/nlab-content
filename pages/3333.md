@@ -56,7 +56,7 @@ $$
 $$
 
 
-### Models by homotopy pullbacks
+### Models by homotopy pullbacks {#HomPullModel}
 
 To see what this amounts to in more detail, assume that the [[(∞,1)-category]] is modeled by a [[homotopical category]], say for simplicity a [[category of fibrant objects]], for instance the full subcategory on fibrant objects of a [[model category]]. 
 
@@ -122,7 +122,52 @@ which builds based loops on $X$ from two consecutive paths, the first starting a
 
 ### Categorical circle action
 
-If in addition $C$ has $(\infty,1)$-pushouts, then a point $x : {*} \to \mathcal{L}X$ is (by definition of limit) the same thing as a map from the pushout ${*} \leftarrow {*}\coprod{*}\to{*}$ to $X$. The latter is a model for the pushout of ${*}//\mathbb{Z}$, i.e., of the [[classifying space]] $\mathbf{B}\mathbb{Z}$ in $C$. Since in [[Top]] all these objects are represented by $S^1$, it is reasonable to call them the circle object of the $(\infty,1)$-category $C$, and it's worth denoting them by the symbol $S^1_{C}$. Then, adopting the [[functor of points]] point of view, the free loop space $\mathcal{L}X$ is identified with $Maps_C(S^1_{C},X)$, and the natural action of $S^1_{C}$ on itself induces the categorical circle action on $\mathcal{L}X$. When $C=Top$ this action is the usual 'rotation of the loops' in $X$.
+If in addition $C$ has $(\infty,1)$-[[pushout]]s, then a [[point]] $x : {*} \to \mathcal{L}X$ of the free loop space object is (by definition of limit) the same thing as a map from the [[pushout]] ${*} \leftarrow {*}\coprod{*}\to{*}$ to $X$. 
+
+$$
+  S^1_{C} := \lim_\to \left( 
+   {*} \leftarrow {*}\coprod{*}\to{*} \right)
+  \,.
+$$
+
+A map $S^1_C \to X$ out of this is, by the nature of [[homotopy pullback|homotopy pushout]]s, two points $x_1 , x_2 : {*} \to X$ and two(!) homotopies 
+
+$$
+  \left(
+  \array{
+    & \nearrow \searrow^{\simeq}
+    \\
+    x_1 && x_2
+    \\
+    & \searrow \nearrow_{\simeq}
+  }
+  \right)
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \in C
+$$
+
+which may be thought of as forming a circle. So $S^1_C$ behaves like a cellular model for the circle with two vertices and two semi-circles. Compare this to the discussion of the nature of $\mathcal{L}X$ [above](#HomPullModel).
+This is isomorphic to ${*}//\mathbb{Z}$, i.e., the [[classifying space]]/[[delooping]] $\mathbf{B}\mathbb{Z}$ in $C$. 
+
+Since in [[Top]] all these objects are represented by $S^1$, it is reasonable to call them the **circle object** of the $(\infty,1)$-category $C$. Using the [[Yoneda lemma for (∞,1)-categories]] this means that the free loop space $\mathcal{L}X$ represents the [[(∞,1)-presheaf]]
+
+$$
+  Maps_C(S^1_{C},X) : U \mapsto C(S^1_C \times U, X)
+$$
+
+on $C$. The natural [[action]] of $S^1_{C}$ on itself induces the **categorical circle action**
+
+$$
+  S^1_C \times Maps_C(S^1_{C},X) \to Maps_C(S^1_{C},X)
+$$
+
+which again by Yoneda gives an action
+
+$$
+  S^1_C \times \mathcal{L}X \to \mathcal{L}X
+$$
+
+on $\mathcal{L}X$. When $C=$ [[Top]] this action is the usual _rotation of the loops_ in $X$.
 
 
 ### Hochschild cohomology and cyclic cohomology
@@ -265,7 +310,7 @@ $$
   \array{
     \bullet & \stackrel{(g,e)}{\to} & \bullet
     \\
-    {}^{\mathllap{k}}\downarrow && \downarrow^{mathrlap{k}}
+    {}^{\mathllap{k}}\downarrow && \downarrow^{\mathrlap{k}}
     \\
     \bullet & \stackrel{(Ad_k g,e)}{\to} & \bullet    
   }
