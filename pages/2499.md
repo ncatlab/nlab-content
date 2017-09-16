@@ -122,13 +122,13 @@ $$
   A
 $$
 
-together with a constraint that imposes the respect of the morphism for the differentials on $CE(\mathfrak{g})$ and on $\Omega^\bullet(X)$. Such a morphism of graded vector spaces in canonically identified with a $\mathfrak{g}$-valued differential form (recall that $\mathfrak{g}$ is a  [[graded vector space]])
+together with a constraint that the morphism respect the differentials on $CE(\mathfrak{g})$ and on $\Omega^\bullet(X)$. Such a morphism of graded vector spaces in canonically identified with a $\mathfrak{g}$-valued differential form (recall that $\mathfrak{g}$ is a  [[graded vector space]])
 
 $$ 
   \omega \in \Omega^\bullet(X,\mathfrak{g})
 $$
 
-and the remaining constraint is precisely the Maurer-Cartan-like equation that is known from left-invariant 1-forms on a [[Lie group]]. In fact, for $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ there is a canonical morphism
+and the aforementioned constraint is precisely the Maurer-Cartan-like equation that is known from left-invariant 1-forms on a [[Lie group]]. In fact, for $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ there is a canonical morphism
 
 $$
   \Omega^\bullet(G)
