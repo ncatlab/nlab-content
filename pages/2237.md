@@ -3,6 +3,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 We first state the [[category theory|general nonsense]] definition of _equivariant cohomology_ and then derive from it the more concrete formulations that are traditionally given in the literature.
