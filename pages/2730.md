@@ -47,5 +47,6 @@ If you'd like to stay focused on multisets and shelve the project of doing some 
 
 If you did want to continue, then I think we could use $\mathbb{N}$-sets as a running example, since a lot (not all, but a lot) of the general phenomena associated with $M$-sets are already illustrated in this case, and we have clear mental pictures for this case. We could go on for instance to understand finite products (pretty easy), and then more general limits and colimits, and move on from there. 
 
+* [[Understanding Categories]]
 
 category: reference
