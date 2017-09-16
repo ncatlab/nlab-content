@@ -15,7 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-05-07 #
 
 *  [[Toby Bartels]]:  Reply to Andrew below:
-   *  Yeah, that\'s pretty much how to do it.  Except that you mark the old page as `category: redirect` rather than as `category: delete`, since it contains edit history that we want to preserve.  (Instiki has no cool page-move feature like MediaWiki does.)  Also, I usually don\'t change links from meta pages like [[2009 April changes]] and [[General Discussion]] (much as you didn\'t change them in discussion), although that\'s a matter for some discretion.
+   *  Yeah, that\'s pretty much how to do it.  Except that you mark the old page as `category: redirect` rather than as `category: delete`, since it contains edit history that we want to preserve.  (Instiki has no cool page-move feature like MediaWiki does.)  As you did, I also usually decline to change links from discussion.
    *  I would move [[heuristic introduction to sheaves, cohomology and higher stacks]] to [[motivation for sheaves, cohomology and higher stacks]], since Urs doesn\'t like [[introduction to sheaves, cohomology and higher stacks]].
 
 * [[Andrew Stacey|Andrew]]
