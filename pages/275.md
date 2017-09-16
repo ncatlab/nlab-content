@@ -1,3 +1,2 @@
-See [[nonabelian algebraic topology]].
-  
-category: redirect
+&lt; [[Nonabelian algebraic topology]]
+[[!redirects Nonabelian algebraic topology -- history]]
