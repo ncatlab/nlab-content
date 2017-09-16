@@ -38,7 +38,7 @@ a **localization** of $C$.
 
 #References#
 
-[definition 5.2.7.2](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=296) of
+[definition 5.2.7.2](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=296) of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
