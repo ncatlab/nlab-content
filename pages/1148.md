@@ -2,8 +2,11 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+##Idea##
 
 The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf]] of abelian groups $F$ was originally defined as the value of the right [[derived functor]] of the global section functor.
 
@@ -23,7 +26,7 @@ The relation of this more conceptual and more general point of view on abelian s
 
 With the modern understanding of the [[model structure on simplicial presheaves]] as a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] this says that ordinary abelian sheaf cohomology in fact computes the isomorphism classes of the [[infinity-stackification]] of a sheaf with values in complexes of abelian groups.
 
-## more details on this idea ##
+### more details on this idea ###
 
 Using the [[Dold-Kan correspondence]] in [[Higher Topos Theory|higher topos theory]], [[complex]]es of [[abelian sheaf|abelian sheaves]] can be understood as a generalization of [[topological space]]s, in a precise sense recalled below. 
 This induces a notion of cohomology of [[complex]]es of [[abelian sheaf|abelian sheaves]] from the familiar notion of cohomology of spaces.
@@ -41,7 +44,7 @@ In the 1-categorical [[model category|model theoretic models]] these hom-spaces 
 This, then, is the definition of sheaf cohomology as usually presented: the cohomology of the complex $R \Gamma(X,A)$.
 
 
-#Brown's theorem: abelian sheaf cohomology as a special case of nonabelian cohomology#
+##Brown's theorem: abelian sheaf cohomology as a special case of nonabelian cohomology##
 
 Under the [[Dold-Kan correspondence]] we have the following
 identification of sheaves taking values in [[chain complex]]es
@@ -215,11 +218,11 @@ $$
 
 =--
 
-#Examples#
+##Examples##
 
 ...
 
-#References#
+##References##
 
 The ordinary definition of sheaf cohomology in terms of the right derived global section functor can be found recalled for instance in these notes:
 
