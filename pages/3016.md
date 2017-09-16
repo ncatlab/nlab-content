@@ -23,6 +23,19 @@ As recalled in parts on the page on [[category theory]], category theorists have
 In particular, there have been dramatic developments since the 1960s. Back then promoting category theory may have been as visionary as the invention of [[complex numbers]] was in the 16th century. But just as the early rejections of the complex numbers appear strangely out of place from today's perspective, where their ubiquity proves their reality to the point that it is hard to imagine how life must have been before their conception, so developments of category theory and its applications in the last years have in many areas brought it to the point that rejecting its prevalence amounts (we believe) to rejecting the obvious and ubiquitous. But also mathematics as a whole has drastically grown since then, and while category theory has become an entirely obvious ingredient in areas such as [[homotopy theory]], [[homological algebra]], [[algebraic geometry]] and even fields like [[topological quantum field theory]], its similar role to be played in many other areas has often not found wide recognition yet. But this is gradually changing. 
 
 
++-- {: .standout}
+
+Similar to the statement that
+
+> [Nothing in biology makes sense except in the light of evolution](http://en.wikipedia.org/wiki/Nothing_in_Biology_Makes_Sense_Except_in_the_Light_of_Evolution)
+
+the nPOV asserts that
+
+> Nothing in mathematics makes sense except in the light of [[higher category theory]].
+
+=--
+
+
 ## Examples
 
 ### In geometry
@@ -37,6 +50,10 @@ In all notions of [[generalized smooth space]]s all pullbacks do exist. But they
 
 Recent developments in [[higher category theory]], such as the concept of higher [[Structured Spaces]] based on [[Higher Topos Theory]], put all these notions of generalized geometries into a unified picture of [[higher geometry]] that realizes old ideas about how category theory provides a languge for [[space and quantity]] in great detail and powerful generality and sheds new light on old [[classical mathematics|classical]] problems such the description of the [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli stack of derived elliptic curves]] and the construction of the [[tmf]] [[spectrum]] from it.
 This construction is probably literally _unthinkable_ without adopting the $n$-point of view when approaching it. Using this point of view, the general strategy for approaching it however becomes naturally evident.
+
+### In cohomology
+
+Thousands of definitions of notions of cohomology and its variants. From the nPOV, just a single concept: an [[derived hom space|∞-categorical hom-space]]. See [[cohomology]].
 
 ### In logic
 
