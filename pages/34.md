@@ -99,7 +99,7 @@ Higher categories with special properties reproduce a multitude of concepts. One
 
 There are two major _1-categorical_ tools for _implicitly_ handling higher categories: 
 
-* [[homotopy theory]] using [[model category|model catgeories]] and similar structures;
+* [[homotopy theory]] using [[model category|model categories]] and similar structures;
 
 * [[enriched category theory]] for the case that the category enriched over is itself a model for higher structures, such as [[Top|topological spaces]] or [[simplicial set|simplicial sets]].
 
