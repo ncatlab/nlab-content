@@ -28,7 +28,7 @@ Moreover, ind-categories allow to handle "big things in terms of small things" a
 
 # Definition #
 
-There are several equivalrnt ways to define ind-objects
+There are several equivalent ways to define ind-objects
 
 
 ## as diagrams ##
