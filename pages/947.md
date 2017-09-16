@@ -13,3 +13,6 @@ More generally, the __pseudocomplement__ of an element $S$ of a [[Heyting algebr
 In another direction, the __complement__ of a [[complemented subobject]] $S$ of an object $X$ in a [[coherent category]] is the unique subobject $\tilde{S}$ such that $S \cap \tilde{S}$ is the [[initial object]] and $S \cup \tilde{S} = X$.
 
 The complement of a [[truth value]] (seen as a subset of the [[point]]) is called its _[[negation]]_.
+
+
+[[!redirects complements]]
