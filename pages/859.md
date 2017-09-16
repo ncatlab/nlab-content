@@ -1,3 +1,9 @@
+# Semidirect products
+* tic
+{: toc}
+
+
+## Definitions
 
 If a group $G$ [[action|acts]] on a group $\Gamma$ on the left, then there is a
 [[semidirect product]] group whose underlying set is $\Gamma \times  G$
@@ -6,7 +12,7 @@ but whose multiplication is
 $$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g)$$
 
 for $\delta, \gamma \in \Gamma,\; h,g \in G$. This is called in
-group theory the semidirect product (see for example the wikipedia entry) and written $\Gamma \rtimes \, G$.
+group theory the semidirect product (see for example the [Wikipedia entry](http://en.wikipedia.org/wiki/Semi-direct_product)) and written $\Gamma \rtimes \, G$.
 There is a projection morphism $p:\Gamma \rtimes \, G \to G$ ,
 $(\gamma, g) \to g$. A section $s$ of this can be identified with a
 derivation $d$, i.e. $d$  satisfies $d(h g)= (d h) \,^h (d g)$.
@@ -46,7 +52,8 @@ where $N$ is the normal closure in $\Gamma \rtimes \, G$ of all
 elements $(1_x,g)$. Details are in the book reference below (but the
 conventions are not quite the same).
 
-##REFERENCES##
+
+##References##
 
 * R. Brown, "Topology and groupoids", Booksurge 2006.
 
@@ -56,3 +63,4 @@ conventions are not quite the same).
   962  (1982) 115--122.
 
 
+[[!redirects semi-direct product]]
