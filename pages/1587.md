@@ -47,11 +47,11 @@ Path(B) & \to & B^I & \\
 |B| \times B & \overset{id \times id}{\to} & B \times B & 
 }$$ 
 
-The key tautological construction is $\overline{Path}(B)$, the quotient of $Path(B)$ by the equivalence relation "homotopy rel boundary". The underlying set $\overline{Path}(B)$ can be thought of as 
+The key tautological construction is $\overline{Path}(B)$, the quotient of $Path(B)$ by the equivalence relation "homotopy rel boundary". The underlying set of $\overline{Path}(B)$ can be thought of as 
 
 $$\sum_{b \in B} \Pi_1(B, b)$$ 
 
-fibered in the obvious way over $|B|$ (the set of all basepoints $b$), where $\Pi_1(B, b)$ is the object set of the "tangent groupoid" at the point $b \in B$ (as it is called by Roberts and Schreiber; it is by definition the cocomma category $b/ \Pi_1(B)$ of the fundamental groupoid). An object of $\Pi_1(B, b)$ can be thought of as an element $e$ in the universal covering space that lies over the connected component of a basepoint $b$. 
+fibered in the obvious way over $|B|$ (the set of all basepoints $b$), where $\Pi_1(B, b)$ here denotes the object set of the "tangent groupoid" at the point $b \in B$ (as it is called by Roberts and Schreiber; the tangent groupoid at $b$ is by definition the coslice category $b/ \Pi_1(B)$ of the fundamental groupoid). An object of $\Pi_1(B, b)$ can be thought of as an element $e$ in the universal covering space that lies over the connected component of a basepoint $b$. 
 
 Hence, we have a span
 
@@ -69,13 +69,13 @@ $$\array{
 |B| & & & &  |B|
 }$$ 
 
-with a monad structure. The action gives a map 
+with a monad structure in the bicategory of spans. The action gives a map 
 
 $$comp: \Pi_1(B) \times_{|B|} \overline{Path}(B) \to \overline{Path}(B),$$ 
 
 of spans from $|B|$ to $B$. 
 
-Now suppose given an object $F$ of $Set^{\Pi_1(B)}$, i.e., a covariant action of the fundamental groupoid, that is to say a span $F: 1 \to |B|$ equipped with an action $\alpha$ of the monad $\Pi_(B): |B| \to |B|$ in $Span(Top)$. The data of a right-handed action $comp$ and the left-handed action gives rise to a two-sided [[bar construction]], which is a simplicial object in the category of spans from $1$ to $B$, whose two face maps from degree 1 to degree 0 take the form: 
+Now suppose given an object $F$ of $Set^{\Pi_1(B)}$, i.e., a covariant action of the fundamental groupoid, that is to say a span $F: 1 \to |B|$ equipped with an action $\alpha$ of the monad $\Pi_1(B): |B| \to |B|$ in $Span(Top)$. The data of a right-handed action $comp$ and the left-handed action gives rise to a two-sided [[bar construction]] $B(\overline{Path}(B), \Pi_1(B), F)$, which here is a simplicial object in the category of spans from $1$ to $B$, whose two face maps from degree 1 to degree 0 take the form: 
 
 $$\array{
 & F \times_{|B|} \Pi_1(B) \times_{|B|} \overline{Path}(B) & \\ 
