@@ -57,3 +57,5 @@ such that $A$ carries collapsing morphisms in $FinSet_*$ to coCartesian morphism
 the above definition is definition 1.19 in
 
 * [[Jacob Lurie]], [[higher algebra|Commutative algebra]]
+
+[[!redirects commutative algebra in an (∞,1)-category]]
