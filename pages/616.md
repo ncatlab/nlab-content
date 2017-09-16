@@ -21,7 +21,7 @@ Marco Grandis' work on the area is listed amongst his publications at his ([home
 +--{: .query}
 [[David Roberts]]: Marco Grandis has come out with a book \'Directed Algebraic Topology\', published by CUP. Haven't checked details on it, but presumably it contains material from the above papers
 
-Zoran: I have not held the book in my hands yet but some info from the web is incorporated into new book entry [[Directed Homotopy Theory]].
+Zoran: I have not held the book in my hands yet but some info from the web is incorporated into new book entry [[Directed Algebraic Topology]].
 
 [[Urs Schreiber]]: hey, you forgot to reference the book here. I did  it for you below:
 
