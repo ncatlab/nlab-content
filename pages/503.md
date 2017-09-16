@@ -15,9 +15,17 @@ $$C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$$
 
 $$hom_{Set^{C^{op}}}(F, -): Set^{C^{op}} \to Set$$ 
 
-preserves small coproducts and coequalizers. All of these concepts generalize straightforwardly to the context of general $V$-[[enriched category theory|enriched categories]], where $V$ is a [[complete category|complete]], [[cocomplete category|cocomplete]], [[symmetric monoidal category|symmetric]] [[monoidal closed category]]. 
+preserves small coproducts and coequalizers.
 
-Lawvere defines a **point** of the Cauchy completion of a small $V$-category $C$ to be a $V$-enriched [[bimodule]] $p: \mathbf{1} \to C$ (in other words, a $V$-functor $\mathbf{1} \to V^{C^{op}}$) for which there is a bimodule $q: C \to \mathbf{1}$ right adjoint to $p$ (in the [[bicategory]] of enriched bimodules (see [[profunctor]])), where $\mathbf{1}$ is the unit $V$-category. Thus points of the Cauchy completion are certain $V$-enriched presheaves $p: C^{op} \to V$, and together form a $V$-category whose [[hom-object|hom]]s are the presheaf homs. We work through a few examples in the following section. 
++--{: .query}
+[[Mike Shulman]]: I raised this at latest changes, but it's contentful so it should probably be here.  I don't think the word "projective" is appropriate here, because preserving coequalizers is different from preserving (even regular) epimorphisms.  The object $\mathbb{Z}$ is [[projective object|projective]] in $Ab$ in the usual sense that $hom(\mathbb{Z},-)$ preserves epis (all of which are regular, since $Ab$ is [[abelian category|abelian]]), but $hom(\mathbb{Z},-)$ is also equivalent to the "underlying-set" functor $Ab\to Set$ which does *not* preserve all coequalizers.
+=--
+
+All of these concepts generalize straightforwardly to the context of general $V$-[[enriched category theory|enriched categories]], where $V$ is a [[complete category|complete]], [[cocomplete category|cocomplete]], [[symmetric monoidal category|symmetric]] [[monoidal closed category]].  We simply replace $Set$ by $V$ to obtain the free $V$-cocompletion $C\hookrightarrow V^{C^{op}}$, and let $\bar{C}$ consist of the tiny objects in $V^{C^{op}}$.  This can equivalently be described as the free (co)completion of $C$ under absolute [[weighted limits]].  It is important to note that the notion of Cauchy completion depends greatly on $V$.
+
+An alternate viewpoint is to consider a presheaf $F\in V^{C^{op}}$ as a $V$-enriched [[bimodule]] (or [[profunctor]]) $p: \mathbf{1} \to C$, where $\mathbf{1}$ is the unit $V$-category.  One can then show that $F$ is tiny if and only if $p$ has a right adjoint $q: C \to \mathbf{1}$ in the [[bicategory]] of enriched bimodules.  For this reason, Lawvere defines a **point** of the Cauchy completion of a small $V$-category $C$ to be such a bimodule.  In this way we recover the points of the Cauchy completion as certain $V$-enriched presheaves $p: C^{op} \to V$ (the tiny ones), and together they form a $V$-category whose [[hom-object|hom]]s are the presheaf homs.
+
+We work through a few examples in the following section.
 
 ## Examples 
 
@@ -39,7 +47,7 @@ for all $x, y$ in $X$ (again, preservation of composition and of identities is s
 
 $$0 \geq d_Y(f(x), g(x))$$ 
 
-for all $x$ in $X$. If $f, g$ are valued in $[0, \infty]$, this just means $f(x) \geq g(x)$ for all $x$. 
+for all $x$ in $X$ (and hence $d_Y(f(x),g(x))=0$).  If $f, g$ are valued in $[0, \infty]$, this just means $f(x) \geq g(x)$ for all $x$. 
 
 A point of the Cauchy completion is an $X$-module $p: \mathbf{1} \to X$, i.e., an enriched functor or contractive map 
 
