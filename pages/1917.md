@@ -5,12 +5,12 @@ Fix an integer $n \geq 0$ and a field, $K$. All vector spaces will be tacitly as
 
 ###A Bit of History###
 
-HQFTs were introduced in 1999 by [[Vladimir Turaev]] for 2-dimensional [manifold]]s.  He extended them to 3-dimensional ones the following year. At about the same time, Brightwell and Turner (1999) looked at what they called the [[homotopy]] surface category and its [[representation]]s. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying [[manifold]]s given by [[TQFT]]s, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces in the sense of [[sigma-model]]s.
+HQFTs were introduced in 1999 by [[Vladimir Turaev]] for 2-dimensional [[manifold]]s.  He extended them to 3-dimensional ones the following year. At about the same time, Brightwell and Turner (1999) looked at what they called the [[homotopy]] surface category and its [[representation]]s. There are two viewpoints which interact and complement each other. Turaev's seems to be to see HQFTs as an extension of the tool kit for studying [[manifold]]s given by [[TQFT]]s, whilst in Brightwell and Turner's,  it is the 'background space', which is probed by the surfaces in the sense of [[sigma-model]]s.
 
 ###Idea###
 The idea of Turaev was to extend the basic ideas of [[TQFTs]] from $n$-dimensional manifolds and [[cobordism]]s between them, to manifolds with a simple bit of [[stuff, structure, property|extra structure]] given by a continuous map to a [[sigma-model|background space]], $B$.
 
-The [[category]] of $B$-[[manifold]]s and $B$-[[cobordism]]s}
+The [[category]] of $B$-[[manifold]]s and $B$-[[cobordism]]s:
 The basic objects on which an $(n+1)$-homotopy quantum field theory is built are [[compact space|compact]], oriented $n$-manifolds together with  maps to the 'background' space, $B$.  This space $B$ will  be path connected with a fixed base point, $\ast$.  More precisely:
 
 
