@@ -46,7 +46,7 @@ It is common in category theory to consider the objects of a [[slice category]] 
 
 In category theory, there is analogous notion of when a functor $p:E\to B$ is a _fibration_, which is exactly what is needed to make the assignment $b \mapsto p^{-1}(b)$ into a pseudo-functor $B\to Cat$.  (Actually, there are two such notions, since a functor on a non-groupoid can be either covariant or contravariant.)  Thus, in this case $Cat$ is the analogue of the "classifying space," and there is a "universal fibration" $Cat_* \to Cat$ of which every other fibration is a pullback (modulo size issues).
 
-Categorical fibrations also have a "lifting" property, but the liftings must satisfy an extra "universality" condition.  For this reason, they are not the fibrations in any model structure on $Cat$.  However, fibrations of this sort between groupoids are the same as isofibrations, and thus are the fibrations in the [[folk model structure]] on $Gpd$.  See [[Grothendieck fibration]] for more details.
+Categorical fibrations also have a "lifting" property, but the liftings must satisfy an extra "universality" condition.  For this reason, they are not the fibrations in any model structure on $Cat$.  However, fibrations of this sort between groupoids are the same as isofibrations, and thus are the fibrations in the [[folk model structure]] on $Grpd$.  See [[Grothendieck fibration]] for more details.
 
 
 
