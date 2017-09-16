@@ -24,9 +24,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-## 2009-09-03 What day is it?
+
+## 2009-09-03
+
+*  [[Toby Bartels]]:  In answer to Jon Awbrey\'s question,
+   >What day is it?
+   it\'s still September 2 UTC, but for some reason the Lab is now on UTC+4, which makes it September 3.  Hopefully we can get it back to UTC, which is the standard for international sites; but if not, then I\'ll probably just edit the 'UTC' up above to 'UTC+4' and leave it at that.
 
 * [[Jon Awbrey]] has finished eye-texing [[triadic relation]] --- and will now proceed to drop his eye-balls in cold water.
+
 
 ## 2009-09-02
 
