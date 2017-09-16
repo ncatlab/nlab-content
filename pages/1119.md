@@ -2,8 +2,10 @@
 
 Archive of changes made during March 2009.
 The substantive content of this page should **not** be altered.
+For past versions of this page beyond its own history, start [here](http://ncatlab.org/nlab/revision/2009+June+changes/459) and work backwards.
 
 ***
+
 
 # 2009-03-31
 
@@ -12,7 +14,6 @@ The substantive content of this page should **not** be altered.
   * started adding comments on embeddings at [[geometric morphism]], but ran out of time
 
   * following [[Mike Shulman|Mike]]'s suggestion I moved the material that was at [[sheafification in a Lawvere-Tierney topos]] over to [[Lawvere-Tierney topology]]
-
 
   * have (started) a discussion with [[David Roberts]] on the relation between internal [[anafunctor]]s and localization in higher sheaf categories over at his private area [[davidroberts:comments on chapter 2]]
 
@@ -145,8 +146,6 @@ The substantive content of this page should **not** be altered.
 * [[Finn Lawler]]: Uploaded PNG images of the zig-zag identities and added them to [[adjunction]].  They're probably a bit too small, but what do people think of this approach as a work-around until there's an easy way to convert TeX to SVG?  Any other suggestions?
 (Note: I tried converting these diagrams to SVG as described [here](http://meta.wikimedia.org/wiki/Help:Displaying_a_formula#Commutative_diagrams) but the resulting files were huge and didn't display anyway when inserted into the markdown source.  Instead I used `pdfcrop` and `convert` on the `pdflatex` output.)
 
-
-
 # 2009-03-28
 
 * [[Finn Lawler]]:
@@ -247,7 +246,6 @@ The substantive content of this page should **not** be altered.
 
   * Commented about property-like structure at [[stuff, structure, property]].  It would be nice to move the examples earlier on this page.
 
-
 * [[David Corfield|David]]
 
   * created [[algebraic set theory]]
@@ -332,7 +330,6 @@ The substantive content of this page should **not** be altered.
   * followed [[Mike Shulman|Mike]]'s remark and moved the previous content in [[stable infinity-category]] to [[stable (infinity,1)-category]], keeping just a general nonsense statement at [[stable infinity-category]]
 
   * added a remark on this and a link at [[spectrum]]
-
 
 * [[Zoran Škoda]]: moved the earlier material from entry algebra to new entry [[associative unital algebra]], and put new material into [[algebra]]; one should have separate entry for any framework for algebras, and general entry [[algebra]] should have pointers to the major classes (like [[algebra over operad]]). Thanks Toby, we continue together on that: now there is an entry [[nonassociative algebra]] and so on. I have also addressed concerns of Mike in [[Connes' cyclic category]] which now has I hope correct definitions, plus more foundational issues and relevant literature and link to just uploaded file  [[krasauskas.pdf:file]]
 
@@ -443,7 +440,6 @@ The substantive content of this page should **not** be altered.
 
   * created [[I-category]] which includes an alternative axiomatisation of [[cylinder functor]].  This is needed for Baues' version of abstract homotopy theory. Some results and examples will need to be added later.
 
-
 # 2009-03-14
 
 * [[Bruce Bartlett]] has created [[nInsights]].
@@ -488,13 +484,11 @@ The substantive content of this page should **not** be altered.
 
 # 2009-03-10
 
-
 * [[Tim Porter]]:  
 
   * Eventually we probably need a summary of some of the theory of algebraic homotopy that Baues has developed as if impinges on the [[homotopy hypothesis]] and on [[homotopical cohomology theory]].  To this end I have created a sort of historical entry on [[algebraic homotopy]].  
 
   *  Created [[cofibration category]] as the first of the 'Bauesian' detailed entries.
-
 
 * [[Toby Bartels]]:  I\'ve written several more articles on very basic topics, such as those that used to be '?'-links below.  You can see them on Recently Revised; I don\'t think that anything merits great attention.
 
@@ -538,6 +532,7 @@ The substantive content of this page should **not** be altered.
    *  Slightly revised [[Tim Porter]]\'s new introduction to [[homotopy 2-type]] and copied it (with appropriate changes) to [[homotopy 1-type]] and [[homotopy 3-type]].  Also combined it with what was already at [[homotopy n-type]], so that has the most complete discussion of the issues.
    *  Created a bunch of articles on specific notions of $n$-category, especially for $n \leq 3$: [[3-poset]], [[3-groupoid]], [[n-poset]], [[2-poset]], [[locally posetal 2-category]], [[2-groupoid]], [[1-category]], [[1-poset]], [[1-groupoid]], [[(-2)-groupoid]], [[(-1)-poset]].  Similarly, I moved some material from [[(-1)-groupoid]] to [[truth value]] to fit the purposes of the former page (as explained in old discussion that was also moved).
    *  Spun [[simplicial groupoid]] off of [[simplicially enriched category]].  Experts please check that the definitions there (based somewhat on a remark in [[Dwyer-Kan loop groupoid]]) are correct.
+
 
 ***
 
