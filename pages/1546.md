@@ -28,6 +28,8 @@ where
 
 +-- {: .query}
 What is all of this $diag$ stuff?  I don\'t understand either $(P \times P)/_{diag} G$ or $(P_x \times P_x)_{diag} G$.  ---Toby
+
+[[David Roberts]]: It's to do with the diagonal action of $G$ on $P\times P$ as opposed to the antidiagonal (if $G$ is abelian) or the action on only one factor. I agree that it's a bad notation.
 =--
 
 Notice that a splitting (a [[section]])
