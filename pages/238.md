@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added standard examples of presheaves on open subsets to [[inverse image]]
+
   * started adding a list "properties" to [[colimit]] analogous to the one at [[limit]]
 
 *  [[Toby Bartels]]:
