@@ -16,12 +16,12 @@ Let $P$ be a [[rig]] equipped with a [[partial order]] such that $0 \leq x$ hold
 
 An element $x$ of $R$ is __infinitesimal__ if ${|n i|} \leq 1$ for every [[natural number]] $n$.  (Recall that every natural number, including $1$, may be interpreted as an element of any given rig, since $\mathbb{N}$ is the [[initial object|initial]] rig.  Multiplication by natural numbers is always commutative, so there is no need to distinguish between left and right infinitesimals.)
 
-According to this definition, $0$ is always infinitesimal.  Traditionally, one adds to the definition the requirement that $i \neq 0$, but this leads to a less useful notion of the space of all infinitesimals.  We allow $0$ to be infinitesimal for much the same reasons that we allow it to be a [[natural number]].
+According to this definition, $0$ is always infinitesimal.  Traditionally, one adds to the definition the requirement that $i \neq 0$, but this leads to a less useful notion of the space of all infinitesimals.  We allow $0$ to be infinitesimal for some of the same reasons that we allow it to be a [[natural number]].  (Although the argument is even stronger here, since it's always [[decidable set|decidable]] whether a given natural number is zero, but it may not be decidable whether a given infinitesimal is zero.  This is especially important in [[synthetic differential geometry]], where the logic is unavoidably [[constructive mathematics|constructive]].)
 
 In the usual systems of numbers (real, natural, complex, cardinal, etc), $0$ is the *only* infinitesimal number.  So the interesting question is how to get other infinitesimals.
 
 
-## Free infinitisemals
+## Free infinitesimals
 
 The simplest way to add an infinitesimal to an [[ordered ring]] (or rig) is [[free object|freely]].  For example, if we start with the field $\mathbb{R}$ of real numbers, then form the [[polynomial ring]] $\mathbb{R}[x]$, we may make $x$ (and every nonconstant polynomial) infinitesimal by defining $x \leq c$ for every positive real number $c$ and generating the rest of $\leq$ by requiring that $\mathbb{R}[x]$ be an ordered ring.  (This amounts to defining $f \leq g$ to mean that $f(x) \leq g(x)$ for sufficiently small positive values of $x$.)
 
@@ -50,7 +50,7 @@ Another approach is to focus only on what we want to do with infinitesimals in a
 
 ## Other approaches
 
-The [[surreal number]]s have infinitesimals, and subsume both the real numbers and the cardinal numbers.  They are not much good for calculus, however.
+The [[surreal number]]s have infinitesimals, and include both the real numbers and the [[ordinal numbers]].  But they are not much good for ordinary calculus, although there are some indications that they might have applications in asymptotics.
 
 There is also an interpretation of pre-Cauchy calculus in which infinitesimals are interpreted as [[infinite sequences]] that converge to $0$.  I don\'t know much about this.
 
