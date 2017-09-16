@@ -1,3 +1,2 @@
-See [[action groupoid]].
-
-category: delete
+&lt; [[action group]]
+[[!redirects action group -- history]]
