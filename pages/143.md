@@ -163,7 +163,6 @@ $$
 
 is an [[isomorphism]]. This we call the [[descent]] condition on presheaves (saying that a presheaf "descends" along $p$ from $Y$ "down to" $X$). Our task is therefore to identify the category $W$, show how it determines and is determed by a [[Grothendieck topology]] on $S$ -- equipping $S$ with the structure of a  [[site]] -- and characterize the $W$-[[local object]]s. These are (up to equivalence of categories) the objects of $Sh$, i.e. the sheaves with respect to the given [[Grothendieck topology]].
 
-...
 
 +-- {: .un_lemma}
 ###### Lemma
