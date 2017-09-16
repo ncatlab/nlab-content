@@ -4,3 +4,5 @@ I don't have a homepage yet but i will put up a domain from my home soon, dedica
 
 To make it short i am a platonist, perspectivist, realist, minimalist, idealist and optimist. It might also be fun to know that i am a cosmopolit and i am learning to meditate.
 
+
+category: people
