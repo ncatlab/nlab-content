@@ -15,12 +15,14 @@ i \downarrow & & \downarrow t\\
 X & \overset{\chi_i}{\to} & \Omega
 }$$
 
-## Examples ## 
+## Examples ##
+
 * Any [[topos]] is a quasitopos. 
 * The category of [[separated presheaf|separated presheaves]] with respect to a [[site]] is a quasitopos. 
 * The category of [[simplicial complex]]es is a quasitopos. 
 * The category of [[diffeological space]]s is a quasitopos. 
-* Any [[Heyting algebra]] is a quasitopos. 
+* Any [[Heyting algebra]] is a quasitopos.
+* The category of [[pseudotopological spaces]] is a quasitopos, as is the category of [[subsequential spaces]].  The category of [[topological spaces]] fails only to be locally cartesian closed.
 
 ## References ## 
 
