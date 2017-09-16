@@ -17,33 +17,37 @@ There is an obvious [[anafunctor]] from $Clique(C)$ into $C$, through which ever
 
 Unsurprisingly, cliques provide a useful technical device for describing strictifications of [[monoidal category|monoidal categories]]. 
 
-It is relevant first to recall the original form of Mac Lane's [[coherence theorems|coherence theorem]]: the free monoidal category on one generator, $F[1]$, is monoidally equivalent to the discrete monoidal category $(\mathbb{N}, +, 0)$. Thus each connected component $C_n$ of $F[1]$ is an indiscrete category whose objects are the possible $n$-fold tensor products of the generator, possibly with instances of the unit object folded in; the indiscreteness says that "all diagrams commute". 
+It is relevant first to recall the original form of Mac Lane's [[coherence theorems|coherence theorem]]: the free monoidal category on one generator, $F[1]$, is monoidally equivalent to the discrete monoidal category $(\mathbb{N}, +, 0)$. Thus each connected component $C_n$ of $F[1]$ is an indiscrete category whose objects are the possible $n$-fold tensor products of the generator, possibly with instances of the unit object folded in; the indiscreteness says that "all diagrams built from associativity and unit constraints commute". 
 
-Now suppose given a monoidal category $(M, \otimes, I, \alpha, \lambda, \rho)$. Then 
+One canonical way to strictify a monoidal category $M$ is by considering cliques in $M$ where the domains are the $C_n$ and the functors model associativity and unit constraints, in the following precise sense: 
 
-1. We may form a monoidal category $Op(M)$ whose objects are functors 
+1. We may form a monoidal category $Oper(M)$ whose objects are functors 
 $$F: M^j \to M$$ 
-and whose morphisms are natural transformations between such functors. The tensor product of $F: M^j \to M$ and $G: M^k \to M$ in $Op(M)$ is the composite 
+and whose morphisms are natural transformations between such functors. The tensor product of $F: M^j \to M$ and $G: M^k \to M$ in $Oper(M)$ is the composite 
 $$M^{j+k} \cong M^j \times M^k \stackrel{F \times G}{\to} M \times M \stackrel{\otimes}{\to} M$$ 
-and the rest of the monoidal structure on $Op(M)$ is inherited from the monoidal structure on $M$. 
+and the rest of the monoidal structure on $Oper(M)$ is inherited from the monoidal structure on $M$. 
 
-1. Next, we then have a (strict) monoidal functor 
-$$\kappa: F[1] \to Op(M)$$ 
+1. By freeness of $F[1]$, we have a (strict) monoidal functor 
+$$\kappa: F[1] \to Oper(M)$$ 
 uniquely determined as the one which sends the generator $1$ of $F[1]$ to $Id_M$. On each connected component $C_n$ of $F[1]$, this restricts to a functor 
 $$C_n \stackrel{\kappa|}{\to} Cat(M^n, M)$$ 
 
-1. Thus, for each $n$-tuple of objects $(x_1, \ldots, x_n)$ of objects of $M$, there is an associated clique $\kappa_{x_1, \ldots, x_n}$ in $M$: 
+1. Then, for each $n$-tuple of objects $(x_1, \ldots, x_n)$ of objects of $M$, there is an associated clique $\kappa_{x_1, \ldots, x_n}$ in $M$: 
 $$C_n \stackrel{\kappa|}{\to} Cat(M^n, M) \stackrel{eval_{(x_1, \ldots, x_n)}}{\to} M$$
 
-1. Now we describe the strictification $M^{st}$. The objects of $M^{st}$ are $n$-tuples $(x_1, \ldots, x_n)$ of objects of $M$. A morphism 
+1. Finally, the objects of the strictification $M^{st}$ are $n$-tuples $(x_1, \ldots, x_n)$ of objects of $M$. A morphism 
 $$(x_1, \ldots, x_m) \to (y_1, \ldots, y_n)$$ 
-is precisely a clique morphism $\kappa_{x_1, \ldots, x_m} \to \kappa_{y_1, \ldots, y_n}$. There is an evident strict monoidal category structure on $M^{st}$ which at the object level is just concatenation of tuples. 
+is by definition a clique morphism $\kappa_{x_1, \ldots, x_m} \to \kappa_{y_1, \ldots, y_n}$. There is an evident strict monoidal category structure on $M^{st}$ which at the object level is just concatenation of tuples. 
 
 It is straightforward to check that the natural inclusion 
 
 $$i: M \to M^{st},$$ 
 
-which interprets each object as a 1-tuple and each morphism as an evident clique morphism, is a monoidal equivalence. 
+which interprets each object as a 1-tuple and each morphism as an evident clique morphism, is a monoidal equivalence. The essential idea is that there is a canonical clique isomorphism 
+
+$$(x_1, x_2, \ldots, x_n) \to i(Bracketing(x_1 \otimes \ldots \otimes x_n))$$ 
+
+for every choice of bracketing the tensor product on the right in $M$ (possibly with units thrown in). 
 
 ## Etymology and relation to graph theory ## 
 
