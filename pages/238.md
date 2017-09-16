@@ -17,7 +17,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
-  * created [[reflective (infinity,1)-subcategory]] and [[localization of an (infinity,1)-category]]
+  * created [[reflective (infinity,1)-subcategory]] and [[localization of an (infinity,1)-category]] and [[local object]]
 
   * created [[hypercompletion]] and [[descent for simplicial presheaves]]
 
