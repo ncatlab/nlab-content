@@ -1,6 +1,6 @@
 #Idea#
 
-Klein 2-geometry is an attempt to [[vertical categorification|categorify]] Klein's Erlangen program by replacing groups with [[2-group|2-groups]], which are like groups but categories instead of sets.  
+Klein 2-geometry is an attempt to [[vertical categorification|categorify]] Klein's [[Erlangen program]] by replacing groups with [[2-group|2-groups]], which are like groups but categories instead of sets.  
 
 The idea of Klein's original Erlangen program is to study geometries that have some group of symmetries, $G$.  If this group acts transitively on some kind of geometrical figure - e.g. points, lines, etc. - the space of figures of this kind is $G/H$, where $H \subseteq G$ is the stabilizer of such a figure: that is, the subgroup of symmetries that preserve it.
 
