@@ -1,3 +1,7 @@
+[[!redirects filters]]
+[[!redirects filterbase]]
+[[!redirects filterbases]]
+
 A _filter_ is [[duality|dual]] to an [[ideal]].
 
 # Definitions
