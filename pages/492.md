@@ -183,8 +183,10 @@ This weakened condition then says that _composition_ of cells may be lifted thro
 
 * Kan fibrations and quasi-fibrations are fibrations in two common [[model structure on simplicial sets|model structures on simplicial sets]].
 
-* Recall that the [[horn]] $\Lambda^k[n]$ is the boundary of the $n$-[[simplex]] $\Delta^n$ with one face removed. If in the above definiion one replaces horns with the full boundaries of simplices, one obtaines the definition of a [[hypercover]], the acyclic fibrations in the classical [[model structure on simplicial sets]].
+* Recall that the [[horn]] $\Lambda^k[n]$ is the boundary of the $n$-[[simplex]] $\Delta^n$ with one face removed. If in the above definition one replaces horns with the full boundaries of simplices, one obtaines the definition of a [[hypercover]], the acyclic fibrations in the classical [[model structure on simplicial sets]].
 
-* A simplicial set $X$ for which the unique morphism $X \o pt$ to the [[terminal object|terminal simplicial set]] is a Kan fibration is called a [[Kan complex]].
+* A simplicial set $X$ for which the unique morphism $X \to pt$ to the [[terminal object|terminal simplicial set]] is a Kan fibration is called a [[Kan complex]].
 
 * A simplicial set $X$ for which the unique morphism $X \to pt$ to the [[terminal object|terminal simplicial set]] is a quasi-fibration/weak Kan fibration is called a [[quasi-category]].
+
+* Just as the underlying simplicial set of a [[simplicial group]] is a [[Kan complex]] (see algorithm at [[simplicial group]]), so also given any simplicial morphism $f : G\to H$ of simplicial groups for which in each dimension, $n$, the homomorphism $f_n : G_n \to H_n$ is an [[epimorphism]], then the underlying simplicial map of simplicial sets is a Kan fibration. (Apart from a careful choice of section in each dimension, the proof can be constructed from the algorithm given in [[simplicial group]].)
