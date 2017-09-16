@@ -1,3 +1,2 @@
-See [[epimorphism]].
-
-category: redirect
+&lt; [[epimorphisms]]
+[[!redirects epimorphisms -- history]]
