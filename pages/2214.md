@@ -49,6 +49,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ##2009-09-24
 
+* [[Ivo]] created [[free groupoid]] and [[Urs Schreiber]] went over it and added links, and typeset math.
+
 * [[Mike Shulman]]: A different viewpoint on universes in [[SEAR]].
 
 * [[Rafael Borowiecki]]: Replied at [[category theory]]. Now i understand less than i did before.
