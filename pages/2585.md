@@ -2,7 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 In the [[(∞,1)-topos]] [[Top]] to every object -- every [[topological space]] -- $X$ is associated 
 the set $\pi_0(X)$ of connected components and the [[homotopy group]]s $\pi_n(X,x)$ for $n \in \mathbb{N}$, $n\gt 0$.
@@ -11,7 +11,7 @@ This consruction of homotopy groups
 has an analogue for objects in an arbitrary [[∞-stack]]
 [[(∞,1)-topos]].
 
-#Definition#
+## Definition
 
 Every [[∞-stack]] [[(∞,1)-topos]] $\mathbf{H}$ is naturally
 [[power]]ed over [[∞Grpd]] ([[Higher Topos Theory|HTT, remark 5.5.2.6]]):
@@ -51,10 +51,12 @@ As in classical [[homotopy theory]], for $n \geq 1$ the object $\pi_n(X)$ is equ
 
 
 
-#References#
+## References
 
 section 6.5.1 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-[[!redirects homotopy group (of an infinity-stack)]]
+[[!redirects homotopy groups (of an infinity-stack)]]
+[[!redirects homotopy group (of an ∞-stack)]]
+[[!redirects homotopy groups (of an ∞-stack)]]
