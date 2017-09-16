@@ -408,3 +408,5 @@ Rafael: Why not splitting?  The table will grow larger and a split will be neces
 I might shorten some of the entries though: the longer ones seem to be on topics that Rafael knows more about, so their length doesn't seem proportional to their importance.  I also don't think there need to be 5 entries devoted to my first paper with Jim Dolan!
 
 Someday someone (maybe Andrew Stacey) will create an easy way for us to dump bibliographical information into the $n$Lab, and then maybe we can grow an enormous 'literature list' without doing too much work.  
+
+Rafael: I actually had the idea to collect John's first paper in a separate entry. If i don't find a way to do line breaks a separate page is needed for it. The same goes for pursuing stacks! I am very interesting to hear what you have in mind to add!
