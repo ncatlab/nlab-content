@@ -86,3 +86,5 @@ Note that any cartesian closed category with finite coproducts must be distribut
 [[!redirects exponential objects]]
 [[!redirects exponentiable object]]
 [[!redirects exponentiable objects]]
+[[!redirects exponentiable morphism]]
+[[!redirects exponentiable morphisms]]
