@@ -81,7 +81,13 @@ $$
   \,.
 $$
 
-The generator of this group is called the **fractional first Pontryagin class** and denoted $\frac{1}{2}p_1 : \mathcal{B} Spin(n) \to \mathcal{B}^4 \mathbb{Z} \simeq K(\mathb{Z},4)$ because for $p_1 : \mathcal{B} SO(n) \to K(\mathbb{Z},4)$ the ordinary first [[Pontryagin class]] it fits into a diagram
+The generator of this group is called the **fractional first Pontryagin class** and denoted 
+
+$$
+  \frac{1}{2}p_1 : \mathcal{B} Spin(n) \to \mathcal{B}^4 \mathbb{Z} \simeq K(\mathbb{Z},4)
+$$ 
+
+because the ordinary first [[Pontryagin class]] $p_1 : \mathcal{B} SO(n) \to K(\mathbb{Z},4)$ fits into a diagram
 
 $$
   \array{
@@ -98,7 +104,7 @@ $$
 
 where the right vertical morphism comes from multiplication by 2 in $\mathbb{Z}$.
 
-This says that _after being pulled back_ to $\mathcal{B} Spin(n)$ the first Pontryagin class becomes is 2 times the generator of the degree 4 [[intgeral cohomology]] group of $\mathcal{B}Spin(n)$ and hence that generator is called one half of $p_1$, denoted $\frac{1}{2}p_1$ (by slight abuse of notation). 
+This says that _after being pulled back_ to $\mathcal{B} Spin(n)$ the first [[Pontryagin class]] is 2 times the generator of the degree 4 [[integral cohomology]] group of $\mathcal{B}Spin(n)$ and hence that generator is called one half of $p_1$, denoted $\frac{1}{2}p_1$ (by slight abuse of notation). 
 
 The [[delooping]] of the String-group as a [[topological group]] is the [[homotopy fiber]] of this fractional Pontyagin class, i.e. the [[homotopy pullback]]
 
@@ -128,7 +134,7 @@ There is a model due to Stolz and Teichner in 'What is an elliptic object?'...
 
 ## as a smooth 2-group ##
 
-While $Spin(n)$ in not just a [[topological group]] but a (finite dimensional) [Lie group]], $String(n)$ cannot have the structure of a finite dimensional [[Lie group]], due to the fact that the third [[homotopy group]] is nontrivial for every (finite dimensional) Lie group, while for $\pi_3(String(n)) = 0$ by the very definition of $String(n)$.
+While $Spin(n)$ in not just a [[topological group]] but a (finite dimensional) [[Lie group]], $String(n)$ cannot have the structure of a finite dimensional [[Lie group]], due to the fact that the third [[homotopy group]] is nontrivial for every (finite dimensional) Lie group, while for $\pi_3(String(n)) = 0$ by the very definition of $String(n)$.
 
 +--{: .query}
 [[David Roberts]]: This raises an interesting question: is there an infinite dimensional Lie group which is a 3-connected cover? This seems very hard to do.
