@@ -40,6 +40,8 @@
 
   * [[homological algebra]]
 
+* mathematical [[analysis]]; [[nonstandard analysis]]
+
 * discrete mathematics: 
 
   * [[set theory]], [[category theory]]
