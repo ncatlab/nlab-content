@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include supergeometry - contents]]
+</div>
+
+
 #Definition#
 
 Recall that an ordinary [[algebra]] (a [[vector space]] with a linear and associative and unital product operation) is a [[monoid]] in the [[category]] [[Vect]] of [[vector spaces]].
