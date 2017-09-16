@@ -45,10 +45,8 @@ Before rushing into the creation of **CatLab**, it is the purpose of this page t
 
 [[Eric]]: No worries and no rush. It's great to see how this material springing here and I'm sure **CatLab** will be ready for launch very soon. If you have questions, feel free to ask them either here or the forum. Since we're getting the hang of the wiki, my suggestion is to ask technical questions here. The answers will likely end up being added to [[HowTo]] and the [[FAQ]]. Cheers!
 
-[[!include contents]]
-
 <div class="rightHandSide toc">
-[[!include mathematicscontents]]
+[[!include categorytheorycontents]]
 </div>
 
 
