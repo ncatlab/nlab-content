@@ -13,8 +13,8 @@ $$
 
 If $p$ is a [[forgetful functor]], then being an isofibration says that whatever stuff $p$ forgets can be "transported along isomorphisms."
 
-Isofibrations have a number of good properties.  For example, any strict [[pullback]] of an isofibration is also a [[2-categorical limit|bicategorical pullback]].  Any [[Grothendieck fibration]] or opfibration is an isofibration, but not conversely (unless $B$ is a [[groupoid]]).
+Isofibrations have a number of good properties.  For example, any [[strict 2-limit|strict pullback]] of an isofibration is also a [[2-limit|weak pullback]].  Any [[Grothendieck fibration]] or opfibration is an isofibration, but not conversely (unless $B$ is a [[groupoid]]).
 
 The isofibrations are the _fibrations_ in the [[folk model structure]] on [[Cat]].  More generally, the fibrations in folk model structures on various types of higher categories are usually some generalization of isofibrations.  For example, the fibrations in the Lack model structure on 2-Cat have "equivalence lifting" and "local isomorphism lifting," and the fibrations in the Joyal model structure for [[quasi-category|quasicategories]] have "equivalence lifting" at all levels.
 
-The definition of isofibration is [[evil]] where it demands that $p(\psi)=\phi$; if it only demanded $p(\psi)\cong\phi$, of course, any functor would qualify.
+This definition of isofibration is [[evil]] where it demands that $p(\psi)=\phi$; if it only demanded $p(\psi)\cong\phi$, of course, any functor would qualify.
