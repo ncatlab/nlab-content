@@ -6,6 +6,7 @@
 ##Bar  and cobar constructions
 
 * There is a brief entry at [[bar construction]] together with a blog link
+
    * [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
 
 * There is some discussion of the bar-cobar adjointness as it related to [[twisted cohain|twisted cochains]], at that entry.
