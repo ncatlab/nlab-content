@@ -15,4 +15,6 @@ _Toby_:  I don\'t think that there is.  Sometimes people write it $K_d$, $const_
 [[Mike Shulman]]: $\Delta d$ is fairly common too, I think.
 
 [[Eric]]: As a notational convention, which is most common, $\Delta(d)$ or $\Delta d$? There were a couple instances of $Fj$ that I converted to $F(j)$. Any preference?
+
+_Toby_:  I prefer $F(j)$ (the application of functor $F$ to the object $j$) and $\Delta d$ (not an application of a functor to the object $d$).  But it\'s no big deal.
 =--
