@@ -1,0 +1,1 @@
+Topologist and author of _Algebraic Homotopy_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989). [Home page](http://www.mpim-bonn.mpg.de/Research/People/Senior+Researchers/Baues,+H.-J./)
