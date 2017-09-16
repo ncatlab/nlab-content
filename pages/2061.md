@@ -10,7 +10,7 @@ $$
   }
   \,.
 $$
-Geometers prefer to say "stable under base change".
+Geometers prefer to say "stable under [[base change]]".
 
 ## Examples
 
