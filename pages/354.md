@@ -188,4 +188,5 @@ The [[infinity-groupoid]] represented by the Kan complex $\Pi(X)$ is the [[funda
 
 This example is the universal one: up to [[model structure on simplicial sets|weak equivalence of Kan complexes]] every Kan complex is the fundamental $\infty$-groupoid of a (compactly generated, weakly Hausdorff) [[topological space]].
 
+
 This is the statement of the [[homotopy hypothesis]] (which is a theorem for $\infty$-groupoids modeled as Kan complexes.
