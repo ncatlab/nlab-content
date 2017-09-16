@@ -1,4 +1,4 @@
-Let $A,B$ be [[abelian category|abelian categories]], $R\subset \mathrm{Ob}A$ a class of objects in $A$ and $F:A\to B$ an additive functor.
+Let $A,B$ be [[abelian category|abelian categories]], $R\subset \mathrm{Ob}A$ a class of objects in $A$ and $F:A\to B$ an [[additive functor]].
 
 If $F$ is left [[exact functor]] we say that $R$ is a **class of objects adapted to** $F$ if $F$ sends bounded below [[cochain complex|cochain complexes]] to acyclic complexes (= having trivial cohomology), and every object in $A$ is a [[subobject]] of an object from $R$. 
 
