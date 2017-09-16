@@ -50,4 +50,4 @@ $$
 
 #Remarks#
 
-* If $H^n(V) \simeq 0$ then one says that the complex $V$ is [[exact]] in degree $n$.
+* If $H^n(V) \simeq 0$ then one says that the complex $V$ is [[exact sequence|exact]] in degree $n$.
