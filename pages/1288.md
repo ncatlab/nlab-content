@@ -9,7 +9,13 @@ Given a commutative unital ring $R$, a filtration $M_n$ ($n\geq -1$) on a $R$-$R
 __Regular differential operators__, as defined by Grothendieck, are the elements of the differential part $Diff(R,R)$ of $Hom(R,R)$ i.e. a maximal differential subbimodule in  $Hom(R,R)$. The operators in $Diff(R,R)_n$ are called the differential operators of degree $\leq n$. 
 If $R\to B$ is a ring morphism, then the differential part of $B$ via its natural $R$-$R$-bimodule structure is also an object of $R\backslash \mathrm{Ring}$; in particular $Diff(R,R)$ is a ring and $R\hookrightarrow Diff(R,R)$ is an embedding of rings.
 
-More generally (and in the affine case equivalently), for a $S$-scheme $X$, let $P_{X/S}^n$ denote the closed subscheme of $X \times_S X$ given by the ideal sheaf $I^{n+1}$, where $I$ is the ideal sheaf of the diagonal. For $O_X$-modules $E,F$,  $Diff_S(F,E)_n$ is defined to be $Hom_{O_X}(P_{X/S}^n\otimes_{O_X} F, E)$. Note that $P^n_{X/S}$ has two canonical structures as $O_X$-module given by the projections $p_i: X \times_S X\rightarrow X$. The tensor product $P_{X/S}^n \otimes_{O_X} F$ is understood to be constructed via $p_1$ and considered as an $O_X$-module via $p_0$.
+More generally (and in the affine case equivalently), for a $S$-scheme $X$, let $P_{X/S}^n$ denote the closed subscheme of $X \times_S X$ given by the ideal sheaf $I^{n+1}$, where $I$ is the ideal sheaf of the diagonal. 
+
++--{.query}
+Zoran: is here silent assumption of separatedness of $X$ over $S$ important ?
+=--
+
+For $O_X$-modules $E,F$,  $Diff_S(F,E)_n$ is defined to be $Hom_{O_X}(P_{X/S}^n\otimes_{O_X} F, E)$. Note that $P^n_{X/S}$ has two canonical structures as $O_X$-module given by the projections $p_i: X \times_S X\rightarrow X$. The tensor product $P_{X/S}^n \otimes_{O_X} F$ is understood to be constructed via $p_1$ and considered as an $O_X$-module via $p_0$.
 
 In the affine case, and in characteristics zero, the sheaf of regular differential operators is locally isomorphic to the [[Weyl algebra]]. For that simple case, a good reference is 
 
