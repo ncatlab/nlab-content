@@ -1,6 +1,7 @@
 <div class="rightHandSide toc">
 
 #Physics Contents
+* [[classical physics]]
 
 *  [[quantum field theory|Quantum Field Theory]]
 
@@ -33,7 +34,7 @@
       * [[integrable systems]]
 *  [[string theory|String Theory]]
 
-   *  [[brane|Branes]]
+   *  [[brane|Branes]], [[BPS-state]]
 
 *  [[gnarly problems in physics|Gnarly problems in physics]]
 
