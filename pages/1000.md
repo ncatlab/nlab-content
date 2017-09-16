@@ -1,0 +1,3 @@
+A [[monad]] $(T,\mu,i)$ on the category of sets, is an __algebraic monad__ if the underlying endofunctor $T:\mathrm{Set}\to\mathrm{Set}$ commutes with filtered colimits. In other words, an algebraic monad is a monoid in the category of algebraic endofunctors on $\mathrm{Set}$.
+
+Algebraic monad $(T,\mu,i)$ is completely determined by its value on all finite ordinals $n\in\mathbb{N}_0$ considered as standard finite sets. $T(n)$ is then the set of $n$-ary operations. The notion of algebraic monad is hence equivalent to the notion of a nonsymmetric [[operad]] in $\mathrm{Set}$.
