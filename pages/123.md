@@ -230,4 +230,25 @@ Note that a map $F:A\to B$ is a functor if the map $\alpha:i_A\Rightarrow i_B\ci
 
 Urs: to be frank, I don't get it! Also: what is it you are really after? The concept of a functor is entirely non-mysterious, it seems. What are you dissatisfied with, with the standard definition?
 
+[[Eric]]: I enjoyed fiddling with [[natural transformations]] recently. I hadn't thought about them much. The introduction of "components" was kind of interesting. I also liked that "sheet transformation", which I now think of as a some kind of 3-morphism. So I was wondering if we could introduce "components" to define functors (which I now think of as 2-morphisms). Then I wondered if we could continue a pattern downward all the way to (-2)-categories.
+
+The _pattern_ natural transformation $\to$ functor $\to$ morphism is not 100% clear to me. Each individually "makes sense", but I'd like to see a clearer pattern how they're related.
+
+Basically, I'm trying to understand
+
+* (-2)-morphisms
+* (-1)-morphisms
+* 0-morphisms
+* 1-morphisms (morphisms)
+* 2-morphisms (functors?)
+* 3-morphisms (natural transformations? sheet transformations?)
+* Etc.
+
+in some consistent way.
+
+For example, with categories $A$ and $B$ we have a [[functor category]] $[A,B]$ which is related to (if not equal to) a 2-category. How about sets $A$ and $B$ thought of as 0-categories? We could form a "morphism category" $[A,B]$ that is related (if not equal to) a 1-category. Then I can imagine a "truth category" $[True,True]$ that is related (if not equal) to a 0-category. Etc etc. This is all pretty elementary stuff I'm sure.
+
+In a nutshell, I'm not saying there is anything wrong the definitions there, but I'm trying to understand them in a different way if possible.
+
+
 [[!redirects functors]]
