@@ -31,4 +31,6 @@ an abstract shape category $\mathrm{Sh}(C,D)$ which has the same objects as $C$,
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Would it be possible to have one page about dense subcategories in the canonical-colimit sense, and a different page about dense subcategories in the shape-theory sense, which only refer to each other briefly as a different meaning of the word?  If one never talks about a dense functor in shape theory, then maybe all the shape-theoretic stuff could be on the page [[dense subcategory]] and the canonical-colimit stuff on this page.  Or we could be like Wikipedia and have [[dense subcategory (shape theory)]] and, uh, the other one.
+
+_Toby_:  What about [[adequate subcategory]]?  Or is that outdated?
 =--
