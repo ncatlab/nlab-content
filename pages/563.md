@@ -9,6 +9,8 @@ _Toby_:  As you suggest, the two versions are equivalent, so in a way it doesn\'
 
 
 [[Tim]]: I have been using (for the Menagerie) the idea that there are pseudofunctors presented in two equivalent flavours lax pseudofunctor and oplax ones. 
+
+[[Mike Shulman|Mike]]: Well, the natural comparison maps that you get in a [[Grothendieck fibration]] go in the "lax" direction $F(g) F(f) \to F(gf)$, since they are induced by the universal property of cartesian arrows.  In particular, if you have a functor with "weakly cartesian" liftings that don't compose, then it is a lax functor.  Not a very strong argument, but if we just want _some_ convention it might be a reason to pick lax.  I think that making too big a deal out of the difference would be misleading, though.
 =--
 
 
