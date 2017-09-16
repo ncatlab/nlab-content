@@ -92,7 +92,8 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
   [[David Roberts]]: I think the constrast needs to be made between small categories, which are models for homotopy types, and categories which are to be considered ambient categories, like topoi, [[exact category|Barr-exact categories]], $(\infty,1)$-categories and so on. This is probably what Rafael means, but the juxtaposition in the sentence is slightly confusing. In fact, I've put a bit in about Grothendieck's views on small categories.
 
-  [[Urs Schreiber]]: concerning homotopy types: yes, so that's what I tried to say: while a category _models_ a homotopy type, it can't really be identified with that. Many different categories model a given homotopy type. In fact, already all [[poset]]s model all homotopy types in this sense (namely in the sense that all homotopy types are obtained as [[geometric realization]]s of [[nerve]]s of them). 
+  [[Urs Schreiber]]: concerning homotopy types: yes, so that's what I tried to say: while a category _models_ a homotopy type, it can't really be identified with that. 
+Many different categories model a given homotopy type. In fact, already all [[poset]]s model all homotopy types in this sense (namely in the sense that all homotopy types are obtained as [[geometric realization]]s of [[nerve]]s of them). 
 
   On David's other comment: tt is a good point that for practical purposes we may want to distinguish on which level of self-reflection of category theory we are speaking. Do we have a single $\infty$-category that happens to be used as a model for a homotopy type, or do we happen to consider an $\infty$-category of "all" $\infty$-categories of such sorts (or do we go even further).
 
@@ -124,9 +125,12 @@ Now i only wish i knew more about fundamental localizers to write more.
 
   If you have a specific reference, with page number, for your vision of a category as a space, I would like to see it.  I mean, I\'ve read Borceux, but I don\'t remember anything like this (I\'ll check again).  Is it just a matter of visualisation?, or something more rigorous?  If the former, then I think that I understand what you mean, but I\'m not getting the latter.
 
-  _Rafael_: So you made a category into a space, now any topology on it will make it into a topological space. But the point was to still have a category and not a set with a topology. Anyway, i forgot two fundamental points. The points must all be of the same type! and the paths between two points must form a set (so there are not too many ways to move from one point to another) and nothing bigger. I did see it as a visualization but i am convinced it can, at least for smal categories, be made rigorous. And technically for smal categories it is nothing wrong to pass to their nerve. While others may prefer it as a characterization. I have a vague memory of one reference: The tale of n-categories, but quickly searching there for space gave nothing. It is there that i read that the Hom's must not be larger than sets.
+  _Rafael_: So you made a category into a set, now any topology on it will make it into a topological space. But the point was to still have a category and not a set with a topology. Anyway, i forgot two fundamental points. The points must all be of the same type! and the paths between two points must form a set (so there are not too many ways to move from one point to another) and nothing bigger. I did see it as a visualization but i am convinced it can, at least for smal categories, be made rigorous. And technically for smal categories it is nothing wrong to pass to their nerve. While others may prefer it as a characterization. I have a vague memory of one reference: The tale of n-categories, but quickly searching there for space gave nothing. It is there that i read that the Hom's must not be larger than sets.
 
   _Toby_:  I still don\'t know what you\'re talking about, but the construction that I mentioned comes with a topology (just do it in $Top$, or better in $Comp Met$).
+
+  _Rafael_: You left out the topology, that's all. Then, at least Urs mentioned that you can't reconstruct a category from its homotopy type. I mentioned many things, you have to be specific what you don't know i am talking about.
+If it is abiut the two points, it was with regard to what a primitive space is.
   =--
 * A theory of models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 * A unifying tool and language in [[mathematics]].
@@ -173,7 +177,7 @@ For the theorem accepted as the fundamental theorem of category theory see the [
 #Contrast with set theory#
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
-No one of these is more fundamental than the other. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). Lawvere pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
+No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). In fact the definition of a category depend on sets. To get rid of this dependence categories have to be internalized and enriched, which is enriched internal category theory.
 
 |Set theory| |Category theory|
 |----------|-|---------------|
@@ -185,6 +189,8 @@ No one of these is more fundamental than the other. Category theory is a holisti
 |equations between elements| |isomorphisms between objects|
 |equations between sets| |equivalences between categories|
 |equations between functions| |natural transformations between functors|
+
+Lawvere pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
 
 The process of going from sets to categories is called categorification and is a functor $Set \rightarrow Cat$, and the reverse process is called decategorification.
 
@@ -200,13 +206,19 @@ These are often seen as a part of category theory even if they are only related 
 
 +-- {: .query}
 I don\'t know what you mean here, Rafael.  An allegory *is* a category with extra bells and whistles.  Why do you put this here but not [[monoidal categories]] or $\infty$-[[infinity-category|categories]]?  ---Toby
+
+_Rafael_: Yes, i see that, i was thinking in another way. It should be removed but there must be other examples in the same way that semigroups, quasigroups, monoids, groupoids etc. are related to groups as group like structures.
+
+As a possible suggestion, what would happen if associativity or identities in a category would be given up?
+
+I am also thinking about a chapter "Higher category theory". So far i am thinking what it should contain.
 =--
 
 #Applied category theory#
 
 Here are some fields to which category theory has been applied; ultimately we should have articles on all of them.
 
-* [[physics]] (ex: categorical spacetime in quantum gravity, the category of elementary particles and particle interactions)
+* [[physics]] (ex: categorical spacetime in quantum gravity, the category of elementary particles and particle interactions, QFT and quantization)
 * [[computer science]] (ex: data types, artificial intelligence)
 * [[categorical dynamics]]
 * [[neural network]]s
