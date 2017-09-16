@@ -30,3 +30,7 @@ The [[K-theory space]] of a Waldhausen construction is
 given by formula $\Omega\mathrm{hocolim}_{\Delta^{\mathrm{op}}}([n]\mapsto N_\bullet(w.e.(S_n C)))$, where $\Omega$ is the loop space functor, $N$ is the simplicial nerve, w.e. takes the (simplicial) subcategory of weak equivalence and $[n]\in\Delta$. This construction can be improved (using iterated $S$-construction) to the K-theory $\Omega$-spectrum of $C$; the K-theory space will be just the one-space of the K-theory spectrum. 
 
 Then the K-groups are the homotopy groups of the K-theory space.
+
+#Remarks#
+
+* The axioms of a Waldhausen category $C$ are very similar to the axioms of a [[category of fibrant objects]] on the [[opposite category]] $C^{op}$ in which the initial object is also terminal. The difference is in axiom W3, whose analog in a [[category of fibrant objects]] is the axioms that every object has a [[path object]]. It still follows that one has fibration sequences in a [[category of fibrant objects]].
