@@ -11,7 +11,6 @@ gives an algebraic model of such an $n$-[[homotopy n-type|type]]. Advantages of
 algebraic models are that algebraic constructions can be made on
 them, such as forming [[limit]]s or colimits. The various [[higher
 homotopy van Kampen theorem]]s are useful in the latter case. For
-
 example, it may be difficult or well nigh impossible to write down a
 determination of the Postnikov invariant of a pushout of crossed
 modules, even if the pushout consists of finite groups.
@@ -34,6 +33,7 @@ For homotopy 3-types, the algebraic model of [[crossed square]]s is more explici
 * George Whitehead, _Elements of homotopy theory_, chapter 9
 * Donald W. Kahn, _The spectral sequence of a Postnikov system_, Comm. Math. Helv. 40, n.1, 169--198, 1965 [doi](http://dx.doi.org/10.1007/BF02564370)
 * P. I. Booth, _An explicit classification of three-stage Postnikov towers_, Homology, homotopy and applications 8 (2006), No. 2, 133--155
-* G. Ellis and R. Mikhailov, _A colimit of classifying spaces_, arXiv:0804.3581.
+* G. Ellis and R. Mikhailov, _A colimit of classifying spaces_, [arXiv:0804.3581](http://www.arxiv.org/abs/0804.3581).
+
 
 [[!redirects Postnikov tower]]
