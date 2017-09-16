@@ -13,7 +13,10 @@ _Eric_: Oh! Oh! Can we do a redirect to an anchor??? For example, have [[Goldbla
 _Toby_:  Not with the current software.  But we can add redirect commands (not just anchors) to each entry and then trust that, when people click on 'Goldblatt1984' and arrive at this page, they\'ll have the sense to search the page for 'Goldblatt1984'.  (Also, check out the [Sandbox](http://ncatlab.org/nlab/show/Sandbox#bibtest) now.)
 
 _Eric_: Nice. I like what you did in the [Sandbox](http://ncatlab.org/nlab/show/Sandbox#bibtest). Now all we need is a standardized bib reference and can think about encouraging others to use this method.
-  
+
+_Toby_:  Yes, for instance we need to decide whether the standard has a space or not.  (I like a space, although it\'s true that it makes hand-crafted URIs trickier.  Although we might be able to get Jacques to fix that.)
+
+
 #Bibliography#
 
 These are just incomplete examples in need of formatting adjustments, etc:
@@ -327,6 +330,7 @@ $\omega$-category theory. Part II: nerves of complicial Gray-categories.
 
 _Eric_: There is probably a better solution, but the asterisks below are to ensure that this page is long enough that links to specific references work, e.g. if the reference is at the bottom of the page, the anchor may not work as desired.
 
+_Toby_:  Some browsers do this right; they put extra space at the bottom if needed.
 =--
 * 
 
