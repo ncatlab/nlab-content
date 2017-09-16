@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 When regarding a [[sheaf]] as a [[space and quantity|generalized space]] defined by how it is probed by test spaces, a _concrete sheaf_ is a generalized space that has (at least) an _underlying [[set]] of points_ out of which it is built.
 
@@ -12,11 +16,11 @@ $$
 
 where $S$ is a [[set]] and $|U|$ is the [[set]] $|U| := Hom_C({*}, U)$ of points underlying the object $U$ in the [[concrete site]] $C$.
 
-#Remarks#
+## Remarks
 
 * While the [[category of sheaves|category of all sheaves]] $Sh(C)$ on $C$ is a [[topos]] (a [[Grothendieck topos]]), a category of concrete sheaves $CSh(C)$ is a [[quasitopos]].
 
-# References #
+## References 
 
 Categories of concrete sheaves, with special attention to sheaves on [[Diff]], i.e. to [[diffeological space]]s, are discussed in detail in 
 
