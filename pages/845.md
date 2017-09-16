@@ -6,7 +6,7 @@ The _join_ of two categories $C$ and $C'$ is obtained from the disjoint union of
 
 The **join** of [[category|categories]] $C$ and $C'$ is the category with
 
-* objects $Obj(C \star C') := Obj(C) \cup Obj(C')$;
+* objects $Obj(C \star C') := Obj(C) \amalg Obj(C')$;
 
 * morphisms given by
 $$
