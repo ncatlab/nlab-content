@@ -28,3 +28,7 @@ See also [here](http://home.imf.au.dk/kock/SFMM.pdf).
 Recently [[Nikolai Durov]] rediscovered that notion for the purposes of geometry (under the name __commutative algebraic monad__), constructed their spectra (generalizing the [[spectrum (geometry)|spectrum]] of Grothendieck) and theory of [[generalized scheme after Durov|generalized schemes on this basis]]. There is a generalized version of the [[Eckmann–Hilton argument]] concerning commutative finitary monads. Much detail including many examples and further constructions are in his thesis
 
 * Nikolai Durov, _New approach to Arakelov geometry_, [arXiv:0704.2030](http://arXiv.org/math/abs/0704.2030)
+
+
+[[!redirects commutative monad]]
+[[!redirects commutative algebraic monad]]
