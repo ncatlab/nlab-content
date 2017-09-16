@@ -32,7 +32,13 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]:
 
-  replied and reacted at [[locally presentable category]]
+  * worked on the _Idea_ section at [[category theory]]: I reformatted a bit the existing material, included lots of hyperlinks and filled in various  further bits, such as a paragraph that lists the fundamental classes of examples and the quote from Barry Mitchell that Todd just mentioned on the blog
+
+    * I was surprised to find the entry in a much more developed and pleasant state than I remembered it -- maybe I missed the announcement here, or could it be that there was a major edit to the entry that wasn't logged here at Latest Changes? Please remember to alert us here.
+
+    * I am now hopeful that eventually we'll be able to turn what should be the pivotal $n$Lab entry into something decent, too: that on [[higher category theory]]. At the moment that one is not a good advertisement of the $n$Lab project.
+
+  * replied and reacted at [[locally presentable category]]
 
 * [[Eric]]: Asked, "What is a 'component of a cocone'?" on [[An Exercise in Kantization]].
 
