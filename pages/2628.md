@@ -117,11 +117,34 @@ $$
 
 +-- {: .query}
 
-[[Urs Schreiber]]: here is something I am thinking about -- handle with care
+[[Urs Schreiber]]: This section is supposed to provide a useful reformulation of the simplicial deRham complex in the context described at [[schreiber:∞-Lie theory]].
+
+The statement is supposed to be:
+
 
 =--
 
-Recall from the discussion at [[differential forms in synthetic differential geometry]] that if we pass from [[Diff]] to a [[smooth topos]] $(\mathcal{T},R)$ that models the axioms of [[synthetic differential geometry]], then for sufficiently well-behaved objects $X \in \mathcal{T}$ there is the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{inf}} : \Delta^{op} \to \mathcal{T}$, the [[simplicial object]] that in degree $k$ is the [[space]] of [[infinitesimal object|infinitesimal]] $k$-[[simplex|simplices]] in $X$.
++-- {: .un_prop}
+###### Proposition
+
+Let $(\mathcal{T} = Sh(C),R)$ be a [[Models for Smooth Infinitesimal Analysis|well adapted]] [[smooth topos]]. Regard the simplicial manifold $X_\bullet$ accordingly as an object $X$ in the corresponding [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]] $\mathbf{H}$. Let $\Pi^{inf}(X)$ be its [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]]. Then
+
+* $\Pi^{inf}(X)$ is an [[schreiber:∞-Lie algebroid|∞-Lie algebroid]]
+
+* its [[schreiber:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial deRham complex
+
+  $$
+    CE( \Pi^{inf}(X)) \simeq \mathcal{A}(X_\bullet)
+    \,.
+  $$
+
+=--
+
+The following discussion breaks this down and then means to prove it.
+
+> but check
+
+As a preparation, recall from the discussion at [[differential forms in synthetic differential geometry]] that if we pass from [[Diff]] to a [[smooth topos]] $(\mathcal{T},R)$ that models the axioms of [[synthetic differential geometry]], then for sufficiently well-behaved objects $X \in \mathcal{T}$ there is the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{inf}} : \Delta^{op} \to \mathcal{T}$, the [[simplicial object]] that in degree $k$ is the [[space]] of [[infinitesimal object|infinitesimal]] $k$-[[simplex|simplices]] in $X$.
 
 As discussed there, this is such that under the [[Dold-Kan correspondence]] the [[cosimplicial algebra]] $Hom( X^{\Delta^\bullet_{inf}}, R )$ maps to the [[deRham complex]] (and under the [[monoidal Dold-Kan correspondence]] to the full [[deRham dg-algebra]]):
 
@@ -150,19 +173,60 @@ where
 
 * the integral sign denotes the [[coend]].
 
-Then it would seem to [[Urs Schreiber|me]] -- but I should maybe check in more detail -- that the image of the cosimplicial algebra
+
+The above proposition now reads in pedestrian terms:
+
++-- {: .un_prop}
+###### supposed Proposition
+
+The [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(\Pi^{inf}(X_\bullet)) := Hom_{\mathcal{T}}(\Pi^{inf}(X_\bullet),R)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial deRham complex of $X_\bullet$.
+
+=--
+
+
++-- {: .proof}
+###### supposed Proof
+
+The problem is entirely controlled by the bisimplicial object $([p],[q]) \mapsto (X_p)^{\Delta^q_{inf}}$.
+We know that 
+
+* for fixed $p$, the normalized [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_p)^{\Delta^\bullet_{inf}},R)$ is the [[deRham complex]] of $X_p$ -- this is the statement about combinatorial [[differential forms in synthetic differential geometry]].
+
+* for fixed $q$ the [[Moore complex]] of the [[cosimplicial algebra]] $Hom((X_\bullet)^{\Delta^q_{inf}}, R)$ is the complex of functions on simplices whose differential is the alternating sum of pullbacks along face maps -- by the very definition of the [[Moore complex]].
+
+This means that the simplicial deRham complex is (quasi-isomorphic to) the total complex of the bi-cosimplicial algebra
 
 $$
-  Hom_{\mathcal{T}}(\int^{[n] \in \Delta}
-    \Delta[n] \cdot X_n^{\Delta^{\bullet}_{inf}}, R
-  )
+  \mathcal{A}(X_\bullet) \simeq
+  Tot(Hom((X_\bullet)^{\Delta^\bullet_{inf}}, R))
+  \,.
+$$
+
+So it remains to show that this total complex is also (quasi-isomorphic to) the [[Moore complex]] of $Hom(\Pi^{inf}(X_\bullet),R)$. For this use [exercise 1.6 here](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) which says (transported from [[Set]] to $\mathcal{T}$) that this is the diagonal [[simplicial object]] of our [[bisimplicial object]]
+
+$$
+  d((X_\bullet)^{\Delta^\bullet_{inf}})
   \simeq
-  \int_{n} Hom(\Delta[n] \cdot X^{\Delta^{\bullet}_{inf}}, R)
+  \int^{[n]} \Delta^n \cdot (X_n)^{\Delta^\bullet_{inf}}
+  \,.
 $$
 
-under the [[Dold-Kan correspondence]] is the simplicial deRham complex of $X_\bullet$ in its first version above.
+This implies that the [[Moore complex]] of $Hom(\Pi^{inf}(X_\bullet),R)$ is the Moore complex of the diagonal of the bisimplicial algebra $Hom(\Pi^{inf}(X_\bullet),R)$.
 
+This way the desired statement recudes to the quasi-isomorphism 
 
+$$
+  diag (Hom(\Pi^{inf}(X_\bullet),R)
+  \simeq
+  Tot (Hom(\Pi^{inf}(X_\bullet),R)
+  \,.
+$$
+
+But this (even their chain-homotopy equivalence) is the content of the generalized [[Eilenberg-Zilber theorem]].
+
+=--
+
+> check
 
 #References#
 
