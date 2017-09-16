@@ -1,6 +1,6 @@
 A __Segal category__ is a [[simplicial space]] $X$ such that $X_0$ (the set of points) is a discrete [[simplicial set]] such that the [[Segal map]]
 $$ \phi_k: X_k \to X_1 \times_{X_0} \cdots \times_{X_0} X_1 $$
-(induced by $X(\alpha_i): X_k \to X_1$) assigned to $X$ is a [[weak equivalence]] of simplicial sets for $k geq 2$.
+(induced by $X(\alpha_i): X_k \to X_1$) assigned to $X$ is a [[weak equivalence]] of simplicial sets for $k \ge 2$.
 
 Segal categories comprise one model for $(\infty,1)$-[[(infinity,1)-category|categories]].
 
