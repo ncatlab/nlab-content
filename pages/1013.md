@@ -202,6 +202,8 @@ Lest we forget, to be even more simple than an extra property, the groupoid of $
 _Toby_:  Urs, are we stuck with this numbering system yet?  Because I would very much like it if a $1$-subobject could be the same thing as a subobject, just as $1$-stuff is the same thing as stuff, a $1$-group is the same thing as a group, etc.
 
 [[Mike Shulman|Mike]]: I agree with Toby; that's the numbering system  we settled on at [[subcategory]] as well.
+
+Urs: sure.
 =--
 
 
