@@ -27,12 +27,14 @@ We say that the functor $U$ is monadic or more informally that $A$ is monadic ov
 
 The main theorem is Beck's [[monadicity theorem]].
 
-Given a Grothendieck bifibration $p:E\to B$ and a morphism $f:b\to b'$ in the base category $B$, one can choose a direct image $f_!:E_b\to E_{b'}$ and a inverse image functor $f^*:E_{b'}\to E_b$ which form an adjunction $f_!\dashv f^*$. Under some conditions (see [[Benabou-Roubaud theorem]]), the morphism $f$ is an effective descent morphism (with respect to $p$ as a [[fibered category]]) iff the comparison functor for the monad induced by the adjunction $f_!\dashv f^*$ is monadic. 
+Given a Grothendieck [[bifibration]] $p:E\to B$ and a morphism $f:b\to b'$ in the base category $B$, one can choose a [[direct image]] $f_!:E_b\to E_{b'}$ and an [[inverse image]] functor $f^*:E_{b'}\to E_b$ which form an [[adjunction]] $f_!\dashv f^*$. Under some conditions (see [[Benabou-Roubaud theorem]]), the morphism $f$ is an effective descent morphism (with respect to $p$ as a [[fibered category]]) iff the comparison functor for the [[monad]] induced by the adjunction $f_!\dashv f^*$ is monadic. 
 
-We should now see that some instances of categories of descent data are canonically equivalent to and can be reexpressed via Eilenberg-Moore categories of monads, or dually comonads. 
+We should now see that some instances of categories of [[descent]] data are canonically equivalent to and can be reexpressed via [[Eilenberg-Moore category|Eilenberg-Moore categories]] of monads, or dually comonads. 
 
 ## Examples
 
-Descent for a [[Sweedler coring]] is comonadic descent. See there for more details and geometric interpretations. Another example is in [[zoranskoda:gluing categories from localizations|gluing categories from localizations]]. 
+* Descent for a [[Sweedler coring]] is comonadic descent. See there for more details and geometric interpretations. 
+
+* Another example is in [[zoranskoda:gluing categories from localizations|gluing categories from localizations]]. 
 
 [[!redirects comonadic descent]]
