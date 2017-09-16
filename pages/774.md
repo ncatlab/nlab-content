@@ -1,3 +1,2 @@
-See [[coequalizer]].
-
-category: redirect
+&lt; [[coequaliser]]
+[[!redirects coequaliser -- history]]
