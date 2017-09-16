@@ -12,17 +12,19 @@ For $X$ set, the **codiscrete groupoid** of $X$ is the groupoid $Codisc(X)$ with
 
 * $Mor(X) = X \times X$.
 
-This definition makes sense also [[internal category|internally]], for $X$ an object in any category with finite [[limit]]s.
+This definition makes sense also [[internal category|internally]], for $X$ an object in any category with finite [[limit]]s. 
 
 +--{.query}
 
-[[Eric Forgy|Eric]]: If true, is it worth pointing out that the underlying [[directed graph]] is complete?
+[[Eric Forgy|Eric]]: If true, is it worth pointing out that the underlying [[directed graph]] is complete? 
+
+[[Todd Trimble|Todd]]: I know what you're saying, and it's the correct picture, but 'complete' here refers to a definition of directed graph which is not the one used [[directed graph|here]], where there can be multiple edges from a given source to given target. Graph theorists who speak of 'complete' intend digraph to mean at most one edge from given source to given target. In different language, given by an incidence matrix with 0's and 1's. Equivalently, given by a binary relation on the set of nodes. 
 
 =--
 
 #Remarks#
 
-* Every codiscrete groupoid is [[equivalence of caategories|equivalent]] to the [[point]].
+* Every codiscrete groupoid is [[equivalence of caategories|equivalent]] to the [[point]]. Equivalently, they are nonempty sets with [[equivalence relation]]s but with just one equivalence class. 
 
 * The codiscrete groupoid is also sometimes called the _chaotic groupoid_ on $X$. The intuition is probably that "everything being connected with everything else sound pretty chaotic", but one can argue that the term "chaotic groupoid" exactly misses the true intrinsic nature of codiscrete groupoids: since these are all just "puffed up versions of the point" they are "maximally homogenous" things. Which space would be less chaotic than the point?
 
