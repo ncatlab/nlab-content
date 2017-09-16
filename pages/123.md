@@ -2,6 +2,9 @@
 [[!include category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ##Idea##
 
@@ -224,5 +227,7 @@ It follows that $i_A$ and $i_B$ are functors.
 Note that a map $F:A\to B$ is a functor if the map $\alpha:i_A\Rightarrow i_B\circ F$ is a natural transformation.
 
 ***
+
+Urs: to be frank, I don't get it! Also: what is it you are really after? The concept of a functor is entirely non-mysterious, it seems. What are you dissatisfied with, with the standard definition?
 
 [[!redirects functors]]
