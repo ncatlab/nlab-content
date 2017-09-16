@@ -1,7 +1,13 @@
 <div class="rightHandSide toc">
+
+***
 [[!include category theory - contents]]
 </div>
 
+
+#Contents#
+* tic
+{:toc}
 
 #Idea#
 
@@ -506,3 +512,4 @@ In general limits do not commute with colimits. But under a number of special co
 
 
 [[!redirects limits]]
+
