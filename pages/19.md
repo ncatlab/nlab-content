@@ -1,5 +1,9 @@
 [[!include contents]]
 
+Unsurprisingly, **category theory** is the theory of [[category|categories]].
+
+But maybe surprisingly, category theory turns out to be much more than the study of a particular mathematical structure. The degree to which category theory for instance is more encompassing than [[group theory]] is more drastic than the simple straightforward generalization from the mathematical structure [[group]] to the mathematical structure [[category]] might suggest. This is one of the main reasons for interest in category theory: it seems to provide a unified language for mathematics.
+
 #What is category theory?#
 **Category theory** is so useful because it can be seen from so many perspectives.
 
