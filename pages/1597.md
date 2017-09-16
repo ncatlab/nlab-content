@@ -1,0 +1,1 @@
+A subcategory is **strictly full** if it is [[full subcategory|full]] and closed under isomorphisms (i.e. [[replete subcategory]]). 
