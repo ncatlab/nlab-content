@@ -7,3 +7,5 @@ The functor $u^*$ may be called either the *inverse image functor* along $u$, or
 The direct image functors corresponding to varying morphisms in $B$ together form a [[pseudofunctor]].  The inverse [[Grothendieck construction]] produces a cloven fibration from a pseudofunctor, setting up an equivalence of 2-categories.
 
 [[!redirects pseudo-splitting]]
+[[!redirects split fibration]]
+[[!redirects cloven fibration]]
