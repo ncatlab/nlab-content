@@ -19,7 +19,7 @@ Analogous statements apply to the category of unbounded chain complexes and the 
 
 Of course the above description of categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
 
-While the homotopical treatment of weak equivalences of chain complexes ([[quasi-isomorphism]]) of chain complexes is at the beginning of all studies of higher categories and a "folk theorem" ever since
+While the homotopical treatment of weak equivalences of chain complexes ([[quasi-isomorphism]]s) in [[homological algebra]] is at the beginning of all studies of higher categories and a "folk theorem" ever since
 
 * A. Joyal, Letter to Alexander Grothendieck. April 11, 1984
 
