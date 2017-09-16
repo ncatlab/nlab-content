@@ -7,13 +7,27 @@
 
   * [[category theory]]
 
+    * [[Categories and Sheaves]]
+
+    * [[topos theory]]
+
+      * [[Sheaves in Geometry and Logic]]
+
   * [[higher category theory]]
 
-  * [[Categories and Sheaves]]
+    * [[higher topos theory]]
 
-  * [[Sheaves in Geometry and Logic]]
+      * [[Higher Topos Theory|(∞,1)-topos theory]]
 
-  * [[Higher Topos Theory]]
+        * [[models for ∞-stack (∞,1)-toposes]]
+
+        * [[cohomology]]
+
+    * [[homotopy theory]]
+
+      * [[stable homotopy theory]]
+  
+      * [[rational homotopy theory]]
 
 * [[topology and geometry|Topology and Geometry]]
 
@@ -21,12 +35,6 @@
 
   * [[general topology]]
   
-  * [[homotopy theory]]
-
-    * [[stable homotopy theory]]
-  
-    * [[rational homotopy theory]]
-
   * [[differential geometry]]
 
      * [[synthetic differential geometry]]
@@ -59,6 +67,8 @@
 
   * [[nonstandard analysis]]
 
-  * [[functional analysis]], [[operator algebras]]
+  * [[functional analysis]]
+
+    * [[operator algebras]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
