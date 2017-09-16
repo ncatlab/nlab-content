@@ -6,7 +6,7 @@ Modular forms appear as
 
 * as the [[cohomology ring]] over the point in the [[cohomology theory]] called [[tmf]] -- "tmf" stands for "topological modular forms";
  
-* as the [[partition function]]s of certain 2-dimensional [[quantum field theor|quantum field theories]].
+* as the [[partition functions]] of certain 2-dimensional [[quantum field theories]].
 
 
 **definition** An **(integral) [[modular form]]** of weight $w$ is a [[holomorphic function]] on the [[upper half plane]]
@@ -34,7 +34,7 @@ such that
 
 1. **integrality** $\tilde f(q) = \sum_{k = -N}^\infty a_k \cdot q^k$ then $a_k \in \mathbb{Z}$
 
-by this definition, modular forms are not relly functions on the upper half plane, but function on a [[moduli space]] of [[torus|tori]]. 
+by this definition, modular forms are not really functions on the upper half plane, but function on a [[moduli space]] of [[torus|tori]]. 
 
 
 
