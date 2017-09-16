@@ -5,7 +5,7 @@ An ordinary (commutative) [[ring]] is a (commutative) [[monoid]] or [[algebra]] 
 
 The role that [[Ab]] plays among ordinary [[category|categories]] is played by the [[stable (infinity,1)-category of spectra]] $Sp$ among [[(infinity,1)-category|(infinity,1)-categories]].
 
-A _commutative ring spectrum_ or [[E-infinity ring]] is accordingly a [[commutative algebra in an (infinity,1)-category]].
+A _commutative ring spectrum_, or _[[E-infinity ring]]_, is accordingly a [[commutative algebra in an (infinity,1)-category]].
 
 
 
