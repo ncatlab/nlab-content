@@ -24,7 +24,11 @@ $$
   \,.
 $$
 
-For $T \in \Omega$ a tree, write $\Omega[T] := \Omega(-,T)$ for the dendroidal set that it [[representable functor|represents]].
+Some terminology and notation:
+
+* For $T \in \Omega$ a tree, write $\Omega[T] := \Omega(-,T)$ for the dendroidal set that it [[representable functor|represents]].
+
+* For $X$ a dendroidal set and $T$ a tress, the set $dSet(T,X) \simeq X(T)$ (using the [[Yoneda lemma]]) is the set o $T$-shaped **dendrices** in $X$. One of its elements is called a $T$-shaped **dendrex**, analogous to a [[simplex]] in a [[simplicial set]].
 
 ## Relation to simplicial sets ##
 
@@ -204,6 +208,22 @@ $$
   \right)
 $$
 
++-- {: .un_lemma }
+###### Lemma
+**(face maps are the monomorphisms)**
+
+The inner and outer face morphisms $\partial_e$ and $\partial v$ are precisely the [[monomorphism]]s in the [[tree category]] $\Omega$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Lemma 3.1 in [MoeWei07](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314).
+
+=--
+
+
 The **boundary of a tree** is the union of all its face dendroidal sets
 
 $$
@@ -239,6 +259,14 @@ $$
   \Lambda^\alpha \Omega[T] \to \Omega[T]
   \,.
 $$
+
++-- {: .un_defn}
+###### Definition/Proposition
+**(normal monomorphisms)**
+
+The class of morphisms in $dSet$ generated from the boundary inclusions under [[pushout]] and [[transfinite composition]] is called the class of **normal monomorphisms**.
+
+=--
 
 
 ## Structure on $dSet$ ##
