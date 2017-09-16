@@ -91,6 +91,7 @@ bimodules sitting on this circle, and taking the alternating sum of this
 as a collection of such circles with $(n-1)$ marked points.
  
 A fully geometric understanding of these was given by Ben-Zvi/Nadler/Francis in their work on [[geometric ∞-function theory]]. This we unify now with our [[nPOV]]-perspective on [[cohomology]] in order to give the following [[nPOV]]-perspective on Hochschild cohomology, proper. 
+
  
 ### The $n$POV on Hochschild cohomology {#nPOV}
 
@@ -242,6 +243,15 @@ $$
   \,.
 $$
 
+### Differential forms and Hochschild (co)homolology
+
+The above identifies Hochschild homology objects of function algebras with function algebras on a [[free loop space object]]. If one adds to this the observation that for a sufficiently wel behaved ordinary space regarded as [[derived stack]] its free loop space object is essentially its [[de Rham space]], one recovers from a [[higher geometry]] picture the stamenet of the Hochschild-Kostant-Rosenberg theorem mentioned above. Details are in
+
+* [[Bertrand Toen]] [[Gabriele Vezzosi]], _$S^1$-Equivariant simplicial algebras and de Rham theory_ ([arXiv:0904.3256](http://arxiv.org/abs/0904.3256))
+
+
+
+
 
 ## Details {#Details}
 
@@ -271,100 +281,3 @@ The $(\infty,1)$-categorical picture with its relation to
   _[[geometric infinity-function theory|Integral transforms and Drinfeld centers in derived algebraic geometry]]_ ([arXiv:0805.0157])
  
  
----
-## Hochschild cohomology
-
-[MathSciNet](http://www.ams.org/mathscinet/search/publications.html?pg4=AUCN&s4=&co4=AND&pg5=TI&s5=&co5=AND&pg6=PC&s6=&co6=AND&pg7=ALLF&s7=%22Hochschild+cohomology%22&co7=AND&Submit=Search&dr=all&yrop=eq&arg3=&yearRangeFirst=&yearRangeSecond=&pg8=ET&s8=All)
-
-[Google Scholar](http://scholar.google.co.uk/scholar?q=%22Hochschild+cohomology%22&hl=en&lr=&btnG=Search)
-
-[Google](http://www.google.com/search?hl=en&q=%22Hochschild+cohomology%22&btnG=Search)
-
-[arXiv: Experimental full text search](http://search.arxiv.org:8081/?query=%22Hochschild+cohomology%22&in=)
-
-[arXiv: Abstract search](http://front.math.ucdavis.edu/search?a=&t=&q=%22Hochschild+cohomology%22&c=&n=25&s=Abstracts)
-
-category: Search results
----
-## Hochschild cohomology
-
-NCG (Algebra and noncommutative geometry)
-
-category: World [private]
----
-## Hochschild cohomology
-
-This can be regarded as an instance of [[Monad cohomology]].
-
-For Hochschild cohomology of Segal cats and model cats, see Toen: Homotopical and higher categorical structures in algebraic geometry. File Toen web unpubl hab.pdf. Idea: Hochschild cohom should be the space of endomorphisms of an identity functor.
-
-For Hochschild cohom of DG-categories, see Toen: Lecture on DG-categories. File Toen web unpubl swisk.pdf. Treats basic theory, localization, relation to model cats, functorial cones, K-theory and Hochschild cohomology, and descent problems.
-
-category: Definition
----
-## Hochschild cohomology
-
-Short exposition of Hochschild cohomology (for associative algebras) in Ch 11 of Pierce (el), under Algebras.
-
-For cohomology of algebras, see Cartan-Eilenberg, and maybe MacLane: Homology.
-
-Course notes from Grojnowski's lectures in Cambridge.
-
-category: Paper References
----
-## Hochschild cohomology
-
-Brief intro in Caldararu's notes on Derived categories of sheaves, in Homol alg folder or on arXiv.
-
-Schuhmacher: Hochschild cohomology of complex spaces and noetherian schemes, HHA vol 6
-
-Yekutieli: The continuous Hochschild cochain complex of a scheme, Can J Math Vol 54 (6).
-
-category: Online References
----
-## Hochschild cohomology
-
-<http://www.math.uiuc.edu/K-theory/0190>
-
-[arXiv:1102.5756](http://front.math.ucdavis.edu/1102.5756) Cohomology of exact categories and (non-)additive sheaves
-from arXiv Front: math.KT by Dmitry Kaledin, Wendy Lowen
-We use (non-)additive sheaves to introduce an (absolute) notion of Hochschild
-cohomology for exact categories as Ext's in a suitable bisheaf category. We
-compare our approach to various definitions present in the literature.
-
-Various things by Toen on Hochschild stuff in abstract settings.
-
-[arXiv:1001.5379](http://front.math.ucdavis.edu/1001.5379) The homology of digraphs as a generalisation of Hochschild homology
-from arXiv Front: math.KT by Paul Turner, Emmanuel Wagner
-J. Przytycki has established a connection between the Hochschild homology of
-an algebra $A$ and the chromatic graph homology of a polygon graph with
-coefficients in $A$. In general the chromatic graph homology is not defined in
-the case where the coefficient ring is a non-commutative algebra. In this paper
-we define a new homology theory for directed graphs which takes coefficients in
-an arbitrary $A-A$ bimodule, for $A$ possibly non-commutative, which on
-polygons agrees with Hochschild homology through a range of dimensions.
-
-Toen: Algebres simplicicales etc, file Toen web prepr rhamloop.pdf. Comparison between functions on derived loop spaces and de Rham theory. Take a smooth k-algebra, k aof char zero. Then (roughly) the de Rham algebra of A and the simplical algebra $S^1 \otimes A$ determine each other (functorial equivalence). Consequence: For a smooth k-scheme $X$, the algebraic de Rham cohomology is identified with $S^1$-equivariant functions on the derived loop space of $X$. Conjecturally this should follow from a more general comparison between functions on the derived loop space and cyclic homology. Also functorial and multiplicative versions of HKR type thms on decompositions of Hochschild cohomology, for any separated k-scheme.
-
-Title: Operads of natural operations I: Lattice paths, braces and Hochschild
- cochains.
-Authors: Michael Batanin, Clemens Berger and Martin Markl.
-In this first paper of a series we study various operads of natural
-operations on Hochschild cochains and relationships between them.
-<http://arxiv.org/abs/0906.4097>
-
-category: Some Research Articles
----
-## Hochschild cohomology
-
-<http://mathoverflow.net/questions/28472/book-on-hochschild-cohomology>
-
-<http://mathoverflow.net/questions/33877/hochschild-cohomology-of-a-and-of-mod-a>
-
-<http://mathoverflow.net/questions/11081/hochschild-cohomology-of-fukaya-categories-and-quantum-cohomology>
-
-<http://mathoverflow.net/questions/108463/when-do-hochschild-homology-and-cohomology-agree-ambidexterity>
-
-category: Other Information
-
-nLab page on [[nlab:Hochschild cohomology]]
