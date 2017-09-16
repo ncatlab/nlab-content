@@ -120,7 +120,7 @@ See also [[gerbe|nonabelian gerbe]].
 * [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
 
 
-Carlos Simpson has studied nonabelian versions of [[Hodge theory]].
+Carlos Simpson has studied [[nonabelian Hodge theory]].
 
 * [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9604005))
 
@@ -128,6 +128,6 @@ Carlos Simpson has studied nonabelian versions of [[Hodge theory]].
 
 * [[Carlos Simpson]], _Algebraic aspects of higher nonabelian Hodge theory_ ([arXiv](http://arxiv.org/abs/math/9902067))
 
-* [[Carlos Simpson]], [[Tony Pantev]], [[udmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
+* [[Carlos Simpson]], [[Tony Pantev]], [[Ludmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
 
 Some links and references can be found at Alsani's descent and category theory [page](http://north.ecc.edu/alsani/descent.html).
