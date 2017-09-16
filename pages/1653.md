@@ -15,7 +15,7 @@ Given a [[set]] $X$, the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] und
 
 A __measurable space__, by the usual modern defintion, is simply a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are the __measurable sets__ in $X$ (or properly, in $(X,\Sigma)$).
 
-If your happy with this, then feel free to skip the long version below.
+If you are happy with this, then feel free to skip the long version below.
 
 
 ### Long version ###
