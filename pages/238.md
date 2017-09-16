@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-13
 
+* [[Mike Shulman|Mike]]: Did some massaging of [[well-order]], [[well-ordering theorem]], [[well-founded relation]], [[choice object]], and [[axiom of choice]], and created [[extensional relation]].
+
 * [[Zoran Škoda]]: completed the definition of [[congruence]].
 
 #2009-04-12
