@@ -8,6 +8,9 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 
 1. $C$ has all small [[limit|limits]] and [[colimit|colimits]], the category $C_{fp}$ is [[essentially small category|essentially small]], and any object in $C$ is a [[filtered category|filtered]] colimit of the canonical diagram of finitely presentable objects mapping into it.
 1. $C$ is the category of models for an [[essentially algebraic theory]].
+   +-- {: .query}
+   Does this essentially algebraic theory also have to be finitary?; that is, if it\'s an [[algebraic theory]], then it\'s a [[Lawvere theory]]?  ---Toby
+   =--
 1. $C$ is equivalent to the category of finite-limit-preserving functors $D \to Set$ for some small category $D$ with finite limits.
 1. $C_{fp}$ has finite colimits, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{fp}^{op},Set]$ identifies $C$ with the category of finite-limit-preserving functors $C_{fp}^{op} \to Set$.
 1. $C$ is the category of models for a finite limit [[sketch]].
