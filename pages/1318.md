@@ -1,9 +1,8 @@
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon entry on
-##simplicial local systems
+
+[[!include differential graded objects - contents]]
+
+
+##Simplicial local systems
 
 * NB. There is an entry at [[local system|local systems]] together with a blog link to David Speyer: _Three ways of looking at a local system_
 
@@ -11,11 +10,8 @@
 
 Here we will concentrate on the combinatorial and simplicial version of local systems.
 
-As usual in these entries, I am writing this very much _as is_, more or less from the sources mentioned. (Mistakes by me are of course possible!) My hope is that by reactions additions, etc.  I (and others) will get to understand the relations of this with other 'stuff' in the lab, so, as usual, help is required.
 
-(The previous entry in this lexicon can be found at [[differential forms on simplices]].) 
 
-=--
 ##Local Systems in a simplicial context
 
 By the category of **$n$-graded spaces**, we mean the category whose objects are the $n$-graded vector spaces
