@@ -372,8 +372,7 @@ Using the fact that $dSet$ is a [[closed monoidal category]] with [[internal hom
 
 ### Model category structure ###
 
-The category $dSet$ also carries the Cisinski-Moerdijk [[model structure on dendroidal sets]]. This structure is compatible with the above structures in that it makes $dSet$
-into a [[simplicial model category]] and a [[monoidal model category]], respectively.
+The category $dSet$ also carries the Cisinski-Moerdijk [[model structure on dendroidal sets]]. 
 
 
 ## References ##
