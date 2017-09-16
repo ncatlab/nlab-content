@@ -18,11 +18,14 @@ Category theory was invented by Samuel Eilenberg and Saunders Mac Lane in the 19
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
 #Branches of category theory#
+
+An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
+
 A probably incomplete list is:
 
 * Pure category theory (vaguely category theory without the use of any other branches of mathematics except essential concepts from them).
 * Categorical abstract algebra, including [[representation theory]] of abstract algebraic structures and [[universal algebra]].
-* [[homologica algebra|Homological algebra]].
+* [[homological algebra|Homological algebra]].
 * [[homotopical algebra|Homotopical algebra]].
 * Topology using categories. It includes [[algebraic topology]], [[categorical topology]] (see [[topological concrete category]] for a bit of this), [[quantum topology]], [[low-dimensional topology]].
 * [[internal logic|Categorical logic]] and [[set theory]] in the category-theoretic context such as [[algebraic set theory]].
