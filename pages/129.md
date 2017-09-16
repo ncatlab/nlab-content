@@ -5,8 +5,6 @@
 
 [[An Exercise in Groupoidification]]
 
-[[Teststss]]
-
 category: people
 
 
