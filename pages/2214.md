@@ -20,12 +20,14 @@ Logging changes here is the way to allow collaboration on the $n$Lab without eve
 
 Contributions that are not logged here are likely to be missed and ignored. And that can't be the point of making a contribution. 
 
-These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
+These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in **UTC** (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
 
 
 ## 2009-09-01
+
+*  [[Toby Bartels]]:  Happy September!!!
 
 *  [[Toby Bartels]]:  Now, you know it\'s not September for another half hour, right?  (^_^)
 
