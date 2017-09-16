@@ -1,4 +1,4 @@
-This entry collects material on the June 2009 workshop on [[string theory|strings]], fields, and [[topology]] at [[Oberwolfach]].
+This entry collects material on the June 2009 workshop on [[string theory|strings]], [[quantum field theory|fields]], and [[topology]] at [[Oberwolfach]].
 
 * Title:      Strings, Fields and Topology
 * Organisers: 
