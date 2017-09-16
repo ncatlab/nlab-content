@@ -1,4 +1,9 @@
-##Idea##
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
 
 Spaces can be characterized by their [[algebra|algebras]] of functions. Using this [[duality]] between [[space and quantity]] one can define generalized spaces in terms of generalizations of their algebras of functions.
 
@@ -8,8 +13,22 @@ More generally, __noncommutative geometry__ means replacing the space by some st
 The entity may be for example a function, vector bundle, coherent sheaf, a complex of sheaves and KK-theory class. Objects organize into [[associative algebras]], [[operator algebras]],
 [[categories]], higher categories ($k$-linear or not) and so on. [[reconstruction|Reconstruction]] theorems say that can reconstruct a genuine (say topological) "underlying" space.  Spectral theories are procedures (sometimes functors, often not) which recover some form of underlying space called [[spectrum (geometry)|spectrum]], often just partially or under strong assumptions on (the data determining) the noncommutative space.
 
+# Connes's noncommutative geometry #
 
-##Very early sources and schools##
+A particular realization of the program of noncommutative geometry has beeninitiated by [[Alain Connes]]. This has been so successful that it is usually implicitly understood by "noncommutative geometry". Notice that it is related to but differs in its tools, constructions and aims from [[noncommutative algebraic geometry]].
+
+Then central ingredient in Connes' noncommutative geometry is 
+
+1. the idea to characterize a (noncommutative) space by a [[C-star algebra]] $A$, to be thought of as the $C^*$-algebra of global functions on that space;
+
+1. the idea to encode the noncommutative analog of the structure of a [[Riemannian manifold]] in terms of generalized [[Dirac operator]]s $D$ acting on a representation space of the algebra $A$. Metric information on the space is then encoded in the spectrum of $D$.
+
+   For that reason Connes' noncommutative geoemetry is well described as **spectral geometry**.
+
+
+(...details should eventually go here...)
+
+#Very early sources and schools#
 
 There are many sources of noncommutative spaces, e.g. [[quantization]] in [[physics]] (Snyder studied an interesting noncommutative space in the late 1940s). It has been often noticed, since Gel'fand--Neimark's work (see [[Gelfand spectrum]]), that many geometric notions for commutative [[Banach algebra]]s are interesting in the noncommutative case; among early enthusiasts one could mention [[Irving Segal]]; Semadeni's monograph on Banach spaces of continuous maps also predates the sudden expansion of the field in the late 1970s when [[Alain Connes]] ([web site](http://www.alainconnes.org/)) brought about a whole revolution in mathematics using the framework of noncommutative geometry based on [[operator algebra]]s, and boosted by the discovery of cyclic (co)homology by Connes and Boris Tsygan and its connection to [[K-theory]]. 
 
