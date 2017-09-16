@@ -8,11 +8,11 @@ $Comp Lat$ is given by a [[variety of algebras]], or equivalently by an [[algebr
 
 ## In weak foundations
 
-For all practical purposes, $Comp Lat$ is not available in [[predicative mathematics]].  The definition goes through, but we cannot prove that $Comp Lat$ is not the [[trivial category]].  (More precisely, if there exists a small complete lattice with two unequal elements, then the class of [[truth values]] is small.)  Generally speaking, predicative mathematics treats complete lattices only as [[proper class|large]] objects.
+For all practical purposes, $Comp Lat$ is not available in [[predicative mathematics]].  The definition goes through, but we cannot prove that $Comp Lat$ has any [[infinite set|infinite]] objects.  (More precisely, the [[power class]] of a nontrivial small complete boolean algebra must also be small.)  Generally speaking, predicative mathematics treats infinite complete lattices only as [[proper class|large]] objects.
 
-In impredicative [[constructive mathematics]], it no longer holds that the free complete lattice on a set with at most $2$ elements equals the free lattice on that set.  In particular, the free complete lattice on a [[singleton]] is the set of [[truth values]], while the free lattice on a singleton is the set $\{\bot, \top\}$ of decidable truth values.  (I\'m not sure whether the free complete lattice on $2$ elements is even small, although my intuition says yes.)
+In impredicative [[constructive mathematics]], it no longer holds that the free complete lattice on a set with at most $2$ elements equals the free lattice on that set.  In particular, the free complete lattice on the [[empty set]] is the set of [[truth values]], while the free lattice on the empty set is the set $\{\bot, \top\}$ of decidable truth values.  (I\'m not sure whether the free complete lattice on $1$ or $2$ elements is even small.)
 
-In predicative constructive mathematics, even the free complete lattice on a singleton is a proper class.
+In predicative constructive mathematics, even the free complete lattice on the empty set is a proper class.
 
 
 category: category
