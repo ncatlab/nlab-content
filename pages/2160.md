@@ -4,7 +4,7 @@ $$
 Li_2(x) = \sum_{n=1}^\infty \frac{x^n}{n^2}
 $$
 
-Dilogarithm is a special case of the _polylogarithm_ $Li_n$ (see [wikipedia](http://en.wikipedia.org/wiki/Polylogarithm)). Dilogarithm has remarkable relations to many areas of mathematics and mathematical physics including scissors congruence, Reidemeister's torsion, regulators in higher K-theory, Bloch group, CFT, Liouville's gravity, hyperbolic geometry and cluster transformations.  
+The dilogarithm is a special case of the _polylogarithm_ $Li_n$ (see [wikipedia](http://en.wikipedia.org/wiki/Polylogarithm)). The dilogarithm has remarkable relations to many areas of mathematics and mathematical physics including scissors congruence, Reidemeister's torsion, regulators in higher K-theory, the Bloch group, CFT, Liouville's gravity, hyperbolic geometry and cluster transformations.  
 
 See also [[quantum dilogarithm]], the references at [mathworld](http://mathworld.wolfram.com/Dilogarithm.html)
 and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html). 
