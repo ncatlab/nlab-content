@@ -6,9 +6,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-07-24
 
+*  [[Toby Bartels]]:  Answered Eric\'s first question; I\'m not ready to think about the second one yet.
+
 * [[Eric]]: Asked some questions on [[measure space]].
+
 
 ## 2009-07-23
 
