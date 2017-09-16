@@ -107,7 +107,7 @@ But by the remark above, $\pi_0(C(U)) \to X$ is actually the [[local isomorphism
 
 See also for instance lemma 3.4.9 in
 
-* Daniel Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
+* Daniel Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 =--
 
