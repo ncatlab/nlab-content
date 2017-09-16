@@ -31,6 +31,10 @@
 
   * [[path integral|path integral quantization]]
 
+* **[[quantum information theory|Quantum Information Theory]]**
+
+  * [[quantum channels]]
+
 * **[[quantum field theory|Quantum Field Theory]]**
 
   * Axiomatizations
