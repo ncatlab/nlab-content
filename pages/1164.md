@@ -2,7 +2,7 @@ Given a [[topological group]] $G$ the __orbit category__ $\mathrm{Or}\, G$ (deno
 
 More generally, given a family $F$ of subgroups of $G$ which is closed under conjugation and taking subgroups one looks at the full subcategory $\mathrm{Or}_F\,G \subset \mathrm{Or}\,G$ whose objects are those $G/H$ for which $H\in F$.
 
-Orbit categories are used often in the treatment of [[Mackey functor]]s from the theory of locally compact groups and in the definition of [[Bredon cohomology]]. 
+Orbit categories are used often in the treatment of [[Mackey functor]]s from the theory of [[locally compact group]]s and in the definition of [[Bredon cohomology]]. 
 
 # Warning #
 
