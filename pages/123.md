@@ -185,4 +185,8 @@ If so, it has a certain beauty that appeals to me. Thanks!
 
 Urs: that diagram seems to be meaningful only if $A = B$, right? In that case, this is a functor $F : A \to A$ together with a natural transformation from the identity functor on $A$ into $F$.
 
+[[Eric]]: Yeah. It needs some work. Of course I don't want $A=B$, but I would like to be able to introduce morphisms from $A$ to $B$. Could I form some kind of category union or something? The picture is kind of neat. Each diagram in $A$ "hovers" above a diagram in $B$. If it can be ironed out, it might be an efficient definition.
+
+
+
 [[!redirects functors]]
