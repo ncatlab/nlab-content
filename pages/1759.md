@@ -28,6 +28,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 =--
 ## 2009-07-21
 
+* [[Andrew Stacey]] took the hint and started incorporating the discussion into the main thread at [[paracompact space]].
+
 * [[Urs Schreiber]]
 
   * added Jeff Smith's theorem to [[combinatorial model category]] and made [[Smith's theorem]] redirect to that
