@@ -70,7 +70,7 @@ Every geometric morphism $f:E\to F$ factors, uniquely up to equivalence, as a su
 
 #Examples#
 
-* For $E$ any [[topos]] and $k : B \to A$ any morphism in $E$ there is the change-of-base functor of [[over category|over categories]] 
+* For $E$ any [[topos]] and $k : B \to A$ any morphism in $E$ there is the [[base change|change-of-base]] functor of [[over category|over categories]] 
 
 $$
   k^* (E/A) \to (E/B)
