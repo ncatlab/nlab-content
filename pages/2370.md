@@ -1,0 +1,49 @@
+#Idea#
+
+For various constructions in [[stable homotopy theory]] -- such as notably that of the
+[[symmetric monoidal smash product of spectra]] -- it is necessary to use a model
+for objects in the [[stable (infinity,1)-category of spectra]]
+and the [[stable homotopy category]] more refined than that given by 
+$\Omega$-[[spectrum|spectra]]. The notion of _coordinate-free spectrum_ is such
+a refinement.
+
+Where an $\Omega$-spectrum is a collection of [[topological space]]s indexed by 
+the integers $\mathbb{Z}$, a coordinate free spectrum is a collection of
+[[topological space]]s index by all finite dimensional subspaces of
+a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
+
+#Definition#
+
+Let $U$ be a real inner product [[vector space]] isomorphic to the [[direct sum]]
+$\mathbb{R}^\infty$ of countably many copies of the real [[line]] $\mathbb{R}$.
+
+For $V \subset U$ a finite-dimensional subspace, write $S^V$ for its
+[[one-point compactification]] (an $n$-dimensional [[sphere]] if $V$ is $n$-dimensional)
+and for $X$ any [[pointed object|based]] [[topological space]] 
+write $\Omega^V X := Maps(S^V,X)$ for the [[topological space]] of basepoint-preserving
+continuous maps.
+
+For $V \subset W$ an inclusion of finite dimensional subspaces $V,W \subset U$
+write $W-V$ for the orthogonal complement of $V$ in $W$.
+
+**Definition**
+
+A **coordinate-free spectrum** $E$ modeled on the "universe" $U$ is
+
+* for each finite-dimensional subspace $V \subset U$ a [[pointed object|pointed]]
+[[topological space]] $E_V$;
+
+* for each inclusion $V \subset W$ of finite dimensional subspaces $V,W \subset U$
+a [[homeomorphism]] of pointed [[topological space]]s
+  
+  $$
+    \tilde \sigma_{V,W} : E_V \stackrel{\simeq}{\to} \Omega^{W-V} E_W
+    \,.
+  $$
+
+
+  
+# References #
+
+* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ 
+([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
