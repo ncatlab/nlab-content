@@ -7,7 +7,7 @@
 
 A filtered category is a [[categorification]] of the concept of [[directed set]].  In addition to having an upper bound (but not necessarily a [[coproduct]]) for every pair of objects, there must also be an upper bound (but not necessarily a [[coequaliser]]) for every pair of parallel morphisms.
 
-A colimit of a functor $F:D\to C$ where $D$ is a filtered category is called a **[[filtered colimit]]**.
+A [[diagram]] $F:D\to C$ where $D$ is a filtered category is called a **filtered diagram**.  A colimit of a filtered diagram is called a **[[filtered colimit]]**.
 
 A category whose opposite is filtered is called **cofiltered**.
 
@@ -43,3 +43,4 @@ More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-filtered
 [[!redirects cofiltered categories]]
 [[!redirects filtrant category]]
 [[!redirects filtrant categories]]
+[[!redirects filtered diagram]]
