@@ -101,12 +101,13 @@ $$
 
 **theorem** There exists a [[symmetric monoidal category|symmetric monoidal]] [[model category]] $StTop$ of [[spectrum|spectra]] such that the  [[homotopy category]] is the [[stable homotopy category]] as a symmetric monoidal category.
 
-**Remark** $S$.modules and symmetric $S$-spectra etc work here.
+**Remark** Let $S$ be the [[sphere spectrum]]. Then $S$-modules and symmetric $S$-spectra etc work here.
 
-**Definition** An [[A-infinity ring]] is a [[monoid]] up to homotopy in $StTop$ and an [[E-infinity ring]] is a commutative monoid up to homotopy in.
+**Definition** An [[A-infinity ring]] is an ordinary [[monoid]] in $StTop$ and an [[E-infinity ring]] is an ordinray commutative monoid there.
 
 So an $E_\infty$-ring is an honest [[monoid]] with respect to the funny smash product that makes spectra a symmetric monoidal category, but it is just a monoid up to homotopy with respect to the ordinary product of spaces.
 
+For more on this see (for the time being) the literature referenced at [[stable homotopy theory]].
 
 **proposition**
 
