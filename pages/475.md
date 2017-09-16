@@ -22,11 +22,11 @@ The original source is
 
 This was refined in the thesis
 
-* Nick Gurski, _An algebraic theory of tricategories_ ([pdf](http://www.math.yale.edu/~mg622/tricats.pdf))
+* [[Nick Gurski]], _An algebraic theory of tricategories_ ([pdf](http://www.math.yale.edu/~mg622/tricats.pdf))
 
 which is probably the best current starting point to read about tricategories and from where to take pointers to the original work by Gordon-Power-Street.
 
-* Richard Garner, Nick Gurski, _The low-dimensional structures that tricategories form_ ([arXiv](http://arxiv.org/abs/0711.1761))
+* [[Richard Garner]], [[Nick Gurski]], _The low-dimensional structures that tricategories form_ ([arXiv](http://arxiv.org/abs/0711.1761))
 
 
 [[!redirects tricategories]]
