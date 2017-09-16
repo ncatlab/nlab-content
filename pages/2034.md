@@ -1,8 +1,8 @@
-Given a commutative unital ring $R$, an __Azumaya $R$-algebra__ is a (noncommutative in general) $R$-algebra $A$ which is finitely generated faithful projective as an $R$-module and the canonical morphism $A\otimes_R A^{op}\to End_R(A)$ is an isomorphism. This definition extends the notion of a central simple algebra over a field. 
+Given a commutative unital ring $R$, an __Azumaya $R$-algebra__ is a (noncommutative in general) $R$-algebra $A$ which is finitely generated faithful [[projective object|projective]] as an $R$-module and the canonical morphism $A\otimes_R A^{op}\to End_R(A)$ is an isomorphism. This definition extends the notion of a [[central simple algebra]] over a [[field]]. 
 
-More generally, Grothendieck defines an Azumaya algebra over a scheme $X$ as a sheaf $\mathcal{A}$ of $\mathcal{O}_X$-algebras such that for each point $x\in X$, the corresponding stalk $\mathcal{A}_x$ is an Azumaya $\mathcal{O}_{X,x}$-algebra. 
+More generally, Grothendieck defines an Azumaya algebra over a [[scheme]] $X$ as a [[sheaf]] $\mathcal{A}$ of $\mathcal{O}_X$-algebras such that for each point $x\in X$, the corresponding stalk $\mathcal{A}_x$ is an Azumaya $\mathcal{O}_{X,x}$-algebra. 
 
-Brower group $Br(X)$ classifies Azumaya algebras over $X$ up to suitably defined equivalence relation. It can be reexpressed in terms of second nonabelian cohomology; indeed a sheaf of Azumaya algebras over $X$ determines an $\mathcal{O}_X^*$-gerbe. 
+[[Brower group]] $Br(X)$ classifies Azumaya algebras over $X$ up to suitably defined equivalence relation: $\mathcal{A}\sim\mathcal{B}$ if $\mathcal{A}\otimes \mathbf{End}(\mathcal{E}) \cong \mathcal{A}\otimes\mathbf{End}(\mathcal{F})$ for some locally free sheaves of $\mathcal{O}_X$-modules $\matghcal{E}$ and $\mathcal{F}$ of finite rank.  The group operation o $Br(X)$ is induced by the tensor product. Brower group can be reexpressed in terms of second nonabelian cohomology; indeed a sheaf of Azumaya algebras over $X$ determines an $\mathcal{O}_X^*$-gerbe (or $U(1)$-gerbe in manifold context).  
 
 Brower groups and Azumaya algebras are closely related to Morita theory and they make sense in the context of algebras and bimodules in the context of braided monoidal categories. 
 
