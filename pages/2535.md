@@ -2,21 +2,27 @@
 
 ## Axiomatics ##
 
+* [[lined topos]]
+
+  * [[interval object]]
+
 * [[smooth topos]]
 
   * [[infinitesimal space]]
 
+    * [[infinitesimal interval object]]
+
   * [[Kock-Lawvere axiom]]
 
   * [[integration axiom]]
+
+* [[super smooth topos]]
 
 * [[infinitesimal path ∞-groupoid in a lined topos|infinitesimal path ∞-groupoid]]
 
   * [[microlinear space]]
 
   * [[tangent bundle]]
-
-  * [[infinitesimal neighbour]]
 
   * [[differential forms in synthetic differential geometry|differential forms]]
 
