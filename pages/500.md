@@ -26,7 +26,7 @@ $$F(-) \cong \int_d F(d)^{C(d, -)} \qquad (2)$$
 
 and this isomorphism is $V$-natural in $F$. 
 
-We pause to give an instance of the Yoneda lemma which is both familiar and which serves to inform much of the module-theoretic terminology in the discussion below. Let $V = Ab$; let $R$ be a ring (conceived as an $Ab$-enriched category with exactly one object $\bullet$). Then $Ab^{R^{op}}$ is the ($Ab$-enriched) category of right $R$-modules, or equivalently, left $R^{op}$-modules). The presheaf $\hom_R(-, \bullet)$ is just the underlying abelian group of $R$ seen as a right module over the ring $R$, also known as the _regular representation_. 
+We pause to give an instance of the Yoneda lemma which is both familiar and which serves to inform much of the module-theoretic terminology in the discussion below. Let $V = Ab$; let $R$ be a ring (conceived as an $Ab$-enriched category with exactly one object $\bullet$). Then $Ab^{R^{op}}$ is the ($Ab$-enriched) category of right $R$-modules, or equivalently, left $R^{op}$-modules). The presheaf $\hom_R(-, \bullet)$ is just the underlying abelian group of $R$ seen as a right module over the ring $R$, also known as the _[[regular representation]]_. 
 
 The first formulation (1) of the Yoneda lemma would simply say that at the level of _abelian groups_, we have for any right $R$-module $M$
 
