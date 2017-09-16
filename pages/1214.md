@@ -1,1 +1,1 @@
-A __Mal'cev category__ is a [[left exact category]] in which any reflexive relation is an [[congruence|equivalence relation]]. 
+A __Mal'cev category__ is a [[finitely complete category|left exact category]] in which any reflexive relation is an [[congruence|equivalence relation]].
