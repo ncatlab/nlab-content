@@ -2,6 +2,10 @@ This entry is about the article
 
 * [[Jacob Lurie]], _On the Classification of Topological Field Theories_ ([arXiv](http://arxiv.org/abs/0905.0465))
 
+whose main content is a formalization and proof of the
+
+* [[cobordism hypothesis]].
+
 #Content#
 
 ## Topological Field Theories and Higher Categories ##
@@ -24,7 +28,9 @@ This entry is about the article
 
 * [[(infinity,n)-category of cobordisms]]
 
-* [[generalized tangle hypothesis]]
+* [[cobordism hypothesis]]
+
+  * [[generalized tangle hypothesis]]
 
 ## Proof of the Cobordism Hypothesis
 
