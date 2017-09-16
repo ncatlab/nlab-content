@@ -7,6 +7,8 @@ $$
 $$
 is an equivalence. This is the _descent condition_.
 
+[[John Baez]]: What does the 'greater than' sign mean above in the expression "$Y^\bullet \stackrel{\simeq}{\to}\gt X$"?  Or is this just a typo?  If not, some explanation would be nice.
+
 ## Realizations ##
 
 $\infty$-Stacks have a well-developed nice realization in the context of [[(∞,1)-categories]]. The entire theory of the [[category of sheaves]] has a direct $(\infty,1)$-analog [[(∞,1)-category of (∞,1)-sheaves]].
