@@ -1,3 +1,2 @@
-See [[generalized smooth space]].
-
-category: redirect
+&lt; [[generalized smooth spaces]]
+[[!redirects generalized smooth spaces -- history]]
