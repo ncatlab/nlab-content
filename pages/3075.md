@@ -121,4 +121,16 @@ In the category [[Top]] of [[topological space]]s, let $G$ be group and $\mathca
     \,.
   $$
 
+## Note on terminology {#Terminology}
+
+Whitehead complained about the term _cocone_ back in the old days, because of the seeming (though false) double dualization, so he used _mapping path space_ . This practice was followed by his school (in most of US for example). But he himself was not confident in that terminology. For example there is a table in his book where he lists the dual notions and at the place where mapping cocone/mapping path space should fit he puts just the symbol for the construction while on the dual side he puts the whole name. Similarily for the mapping cocylinder.
+
+Somebody -- maybe [[Samuel Eilenberg]] -- (-- check --) suggested to Whitehead to use _ne_ insteaad of _cocone_ , jokingly cancelling one _co_ against the other, as if both expressed abstract [[duality]].
+
+Postnikov uses the term _mapping cocylinder_ , while for on Whitehead's complaint he comments: 
+
+> we do not see a particular criminal in the cocone terminology, but will anyway not use it.
+
+
 [[!redirects mapping cocylinder]]
+[[!redirects mapping path space]]
