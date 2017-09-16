@@ -1,3 +1,2 @@
-See [[k-surjective functor]].
-
-category: redirect
+&lt; [[k-surjectivity]]
+[[!redirects k-surjectivity -- history]]
