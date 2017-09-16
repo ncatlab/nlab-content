@@ -4,7 +4,9 @@ One striking difference between [[set theory]] and [[category theory]] is that, 
 
 #Definition#
 
-If a category $C$ has a [[terminal object]] $1$, a **global element** of another object $x$ is a morphism $1 \to x$.
+If a category $C$ has a [[terminal object]] $1$, a **global element** of another object $x$ is a morphism $1 \to x$-
+
+So a global element is a [[generalized element]] at "stage of definition" $1$.
 
 For example:
 * In [[Set]], global elements are just elements: a function from a one-element set into $x$ picks out a single element of $x$.
