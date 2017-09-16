@@ -1,0 +1,15 @@
+
+* [website](http://www.math.uu.nl/people/moerdijk/)
+
+## indexed books on the $n$Lab ##
+
+* (with [[Sauders MacLane]]) [[Sheaves in Geometry and Logic]]
+
+  on [[sheaf and topos theory]]
+
+* (with [[Gonzalo Reyes]]) [[Models for Smooth Infinitesimal Analysis]]
+
+  on [[synthetic differential geometry]]
+
+category: people
+
