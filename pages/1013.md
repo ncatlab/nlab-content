@@ -84,7 +84,13 @@ Hence indeed, by the above yoga, they forget this extra structure but remember t
 
 ## More examples ##
 
-...
+
+The embedding of abelian groups into all groups, $F :$ [[Ab]] $\to$ [[Grp]] is faithful and full, but not essentially surjective. Hence it should remember stff and structure but forget property. Indeed, the property it forgets is the property "is abelian" which is a property of the group _structure_ sitting on the underlying set of a group. Hence the sequence of functors
+$$
+  Ab \to Grp \to Set \to Pt
+$$
+(with [[point|Pt]] the terminal category) successively forgets first a property (being abelian) then a structure (group structure on a set) then stuff (the underlying set).
+
 
 
 
