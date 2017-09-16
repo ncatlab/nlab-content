@@ -27,7 +27,16 @@ The homotopy equivalences are the [[weak equivalence]]s in the Str&oslash;m [[mo
 
 Sometimes an apparently stronger form of homotopy equivalence is needed.  These seem to have been first noticed by [[Richard Lashof]] in 1970 in work on triangulation and smoothing. The point is one of the interaction between the two homotopies, which are not made explicit in the definition above. Let us set this up slightly differently:
 
-In a homotopy equivalence there are the two maps $f: X\to Y$ and $g: Y\to X$
+In a homotopy equivalence there are the two maps $f: X\to Y$ and $g: Y\to X$, then two [[homotopy|homotopies]]
+
+$$H : X\times I \to X,   H:g \circ f \sim 1_X$$
+
+and 
+
+$$K: Y\times I \to Y,   K : f \circ g \sim 1_Y.$$
+ 
+The [[whiskering]] actions of maps on homotopies (and more generally in any [[(∞,1)-category]] or category with a [[cylinder functor]]) gives
+two homotopies $f\circ g \circ f \sim f$, namely $f_*H = f\circ H : X\times I \to Y$ and $f^*K = K\circ (f\times I)$.  Similarly, of course, there are two homotopies $g\circ f \circ g \sim g$, namely $g_*K$ and $g^*H$.  In the usual definition of homotopy equivalence, there is no coherence required between these. That is handled precisely by the notion of **stong homotopy equivalence**. More precisely Lashof defined
 
 
  
