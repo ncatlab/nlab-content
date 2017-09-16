@@ -440,6 +440,7 @@ Raphael, remind me: for which part ofthe entry here is this discussion relevant.
 
 [[Mike Shulman]]: I agree that simplicial complexes and simplicial sets _give rise to_ CW complexes after geometric realization.
 
+[[Todd Trimble]]: I'm sorry, Urs, that I didn't make clear that I was criticizing the **WP article** (not you) over the sentiment that simplicial sets are more abstract than simplicial complexes. 
 =--
 
 
