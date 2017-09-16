@@ -7,7 +7,11 @@
 
 #General case
 ##Basic data
-Let $X\to Y$ be a [[groupoid scheme]] where both schemes are of finite type.  Then we can make two constructions from this scheme:
+Let $X\to Y$ be a [[groupoid scheme]] where both schemes are of finite type.
++--{: .query}
+[[David Roberts]]: meaning $X\rightrightarrows Y$, so that $X$ is the scheme of arrows and $Y$ the scheme of  objects? Also below you discuss a groupoid of finite sets. This terminology is ambiguous, but I presume you mean a groupoid in $FinSet$. Then the simplicial scheme you mention would I suppose be the nerve of $X\rightrightarrows Y$.
+=--
+Then we can make two constructions from this scheme:
 
 * The $\mathbb{F}_p$-points $X(\mathbb{F}_p)\to Y(\mathbb{F}_p)$ form a groupoid of finite sets.
 * There is a simplicial scheme $X/Y$ sending $\Delta^n$ to $X\times_Y X\times_Y\cdots  \times_Y X$, with the obvious face and degeneracy maps.
