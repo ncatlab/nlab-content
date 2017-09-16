@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:  In reply to the last point in what Urs has said immediately below, if you want to put in something that you *expect* to be controversial, and hesitate for that reason, then put it in and just *label* it as controversial.  Put in a [[HowTo|query box]] asking 'Is this right?' or saying 'This is my new definition.' or whatever.  Or put it in a new section at the bottom of the page, marked '## Uncertain material' or whatever.  The point is, get it down one way or another, and we will be very happy!
 
-* [[Urs Schreiber|Urs]]: I have a comment and appeal an [[nInsights]]
+* [[Urs Schreiber|Urs]]: I have a comment and appeal at [[nInsights]]
 
   * in this context I also want to ask again everybody:
 
@@ -195,7 +195,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-07 #
 
-* [[John Baez|John]]: I created myself a [[John Baez:HomePage|new personal web]] since I lost the password for my old one --- and besides, the name of my old one was nonstandard.  So far the only thrilling feature of this new web is the introduction to a paper I'm writing with [[James Dolan]], tentatively titlded 'Doctrines of Algebraic Geometry'.
+* [[John Baez|John]]: I created myself a [[John Baez:HomePage|new personal web]] since I lost the password for my old one --- and besides, the name of my old one was nonstandard.  So far the only thrilling feature of this new web is the introduction to a paper I'm writing with [[James Dolan]], tentatively titled 'Doctrines of Algebraic Geometry'.
 
 * [[Mike Shulman|Mike]]: Tried to distill a bit of the [cafe discussion](http://golem.ph.utexas.edu/category/2009/06/mathematical_principles.html#c024277) about the [[empty space]].
 
