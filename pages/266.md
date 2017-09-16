@@ -52,7 +52,7 @@ i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, rig
 
 ## In terms of universal natural transformations ##
 
-[[generalized the|The]] left Kan extension $Lan_p F$ of $F : C \to D$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
+[[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
 
 $$
   \array{
@@ -100,6 +100,7 @@ $$
     E
   }
 $$
+It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p_* = K(p,D):K(C',D)\to K(C,D)$. 
 
 ## In terms of weighted (co)limits ##
 
