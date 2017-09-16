@@ -1,5 +1,6 @@
 Here is a list of people who have contributed content to the nLab. 
 
+* [[Alex Hoffnung]]
 * [[Andrew Stacey]]
 * [[Bruce Bartlett]]
 * [[David Corfield]]
