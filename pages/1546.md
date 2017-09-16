@@ -152,6 +152,12 @@ One can describe non-flat connections without leaving the context of Lie algebro
 
 ## Relation to differential nonabelian cohomology {#RelationToDiffNonabCohomology}
 
++-- {: .standout}
+
+The following is not in the literature. -- [[Urs Schreiber|Urs]]
+
+=--
+
 We discuss the Atiyah Lie groupoid along the lines of [[nonabelian groupoid cohomology]] of the [[path n-groupoid]] of the base [[manifold]] $X$.
 
 Write $\mathbf{B}G$ for the [[delooping]] of $G$.
@@ -186,31 +192,248 @@ $$
 
 where we have added the morphism $INN(G) \to AUT(G)$ into the [[automorphism 2-group]].
 
-The Atiyah Lie groupoid, regarded as a groupoid over $\Pi(X)$, is classified by $F$: it is the [[homotopy fiber]] of $F$, in that there is a [[homotopy pullback]] diagram
+The [[action groupoid]] $(P \times_{G} Aut(G))//At(P)$ of the  Atiyah Lie groupoid acting on the [[associated bundle]] $(P \times_G Aut(G))$, regarded as a groupoid over $\Pi(X)$, is classified by $F$: it is the [[homotopy fiber]] of $F$, in that there is a [[homotopy pullback]] diagram
 
 $$
   \array{
     \array{
-       At(P) &\to& {*}
+       (P \times_{G} Aut(G) )//At(P) &\to& {*}
        \\
        \downarrow && \downarrow
        \\
        \Pi(X) &\stackrel{F}{\to}& \mathbf{B} AUT(G)
     }
   }
+  \,.
 $$
+
+The Atiyah Lie groupoid itself is the corresponding quotient
+
+$$
+  (P \times_G Aut(G)) \to (P \times_{G} Aut(G))//At(P)
+  \to At(P)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+**Setup**
+
+Choose to model all [[∞-Lie groupoid]]s in terms of the local projective [[model structure on simplicial presheaves]] on the [[site]] [[CartSp]] of cartesian spaces. 
+
+All the Lie $2$-groupoids appearing here are represented by [[Kan complex]] valued sheaves. They satisfy [[descent]] on contractible domains, hence on all representables, hence are fibrant in the local projective model structure.
+
+As discussed in the subsection on [cofibrant objects](http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#CofibrantObjects), a cofibrant replacement for the [[manifold]] $X$ is given by the [[Cech nerve]] $Y := C(\coprod U_i)$ of any good cover $\{U_i \to X\}$. So fix any such good cover of $X$.
+
+Accordingly, a cofibrant version of the [[path ∞-groupoid]] is given by the [[coend]] $\Pi(Y) = \int^{U \in C} \Pi(U) \cdot Y(U)$. This is the $n$-groupoid generated in degree $k$ from 
+
+* points in $(k+1)$-fold intersections;
+
+* paths in $k$-fold intersections
+
+* surfaces in $(k-1)$-fold intersections,
+
+etc.
+
+**The bundle $P \times_G Aut(G)$**
+
+The bundle $P \times_G Aut(G)$ is, by definition, 
+the one classified by the morphism
+
+$$
+  Ad(g) : X \stackrel{g}{\to} \mathbf{B}G \stackrel{Ad}{\to} 
+  \mathbf{B}Aut(G)
+$$
+
+represented by a morphism
+
+$$  
+  X \stackrel{\simeq}{\leftarrow}Y \to \mathbf{B}Aut(G)
+$$
+
+in $SPSh(CartSp)_{proj}^{loc}$.
+
+We compute the [[homotopy pullback]]
+
+$$
+  \array{
+    P \times_G Aut(G) &\to& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{Ad(g)}{\to}& \mathbf{B}Aut(G)
+  }
+$$
+
+as usual in terms of an ordinary [[pullback]] 
+
+$$
+  \array{
+    P \times_G Aut(G) &\to& \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    Y &\stackrel{Ad(g)}{\to}& \mathbf{B}Aut(G)
+  }
+$$
+
+
+along the representing cocycle 
+of the [[generalized universal bundle|universal bundle]] $\mathbf{E}Aut(G) \to \mathbf{B} Aut(G)$, which is the [[groupoid]]
+
+$$
+  \mathbf{E}Aut(G) = 
+  \left\{
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{\alpha}}\swarrow && \searrow^{\mathrlap{\beta}}
+       \\
+       \bullet &&\stackrel{\gamma}{\to}&& \bullet
+    }
+  \right\}
+$$
+
+whose morphisms are commuting trianfles in $\mathbf{B}Aut(G)$, with the projection to $\mathb{B}Aut(G)$ being the projection onto the horizontal 
+component.
+
+So the objects of $P \times_G Aut(G)$ are pairs $((x,i), \alpha)$ consisting of a point $x \in X$ in a patch $U_i$, together with an element $\alpha \in Aut(G)$, and a morphism $((x,i), \alpha) \to ((y,j)\beta)$ exists iff $x = y$ and is then given by
+
+$$
+  \left\{
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{\alpha}}\swarrow && \searrow^{\mathrlap{\beta}}
+       \\
+       \bullet &&\stackrel{Ad(g_{i j}(x))}{\to}&& \bullet 
+       \\
+       \\
+       (x,i) &&\to&& (x,j)
+    }
+  \right\}
+  \,.
+$$
+
+
+
+**The groupoid $(P \times_G Aut(G)) // At(P)$ **
+
+We compute now the [[homotopy pullback]]
+
+$$
+  \array{
+    Q &\to& &\to& {*}
+    \\
+    \downarrow &&&& \downarrow
+    \\
+    \Pi(X) &\to& \mathbf{B}INN(G) &\to& \mathbf{B}AUT(G) 
+  }
+$$
+
+for $\Pi(X) \to \mathbf{B} INN(G)$ coming from the choice of any [[connection on a bundle|connection]] on $P$, in terms of the ordinary  [[pullback]] 
+
+$$
+  \array{
+    Q &\to& \mathbf{E}AUT(G)
+    \\
+    \downarrow && \downarrow
+    \\
+    \Pi(Y) &\to& \mathbf{B}AUT(G) 
+  }
+$$
+
+along the representing cocycle $\Pi(Y) \to \mathbf{B}AUT(G)$ of the [[generalized universal bundle]] $\mathbf{E}AUT(G)$ of the [[automorphism 2-group]] $AUT(G)$.
+
+The computation is (apart from the fact that it takes place in a smooth context which is taken care of by the abstract nonsense) entirely analogous as that of the 2-cocycles discussed at [[nonabelian group cohomology]], the only difference being that the domain is here not a one-object groupoid that is the [[delooping]] of a group, but the genuine many-object groupoid $\Pi(Y)$.
+
+As there, we ventually make use of the translation between [[strict 2-group]]s and [[crossed module]]s - as described at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) -- in order to translate some of the diagrams to follow into formulas.
+We follow the **convention LB**, as described there, in order to do so.
+
+In $\mathbf{E}AUT(G)$ 
+
+* an object is an automorphism $\alpha \in Aut(G)$
+
+* a morphism $(\gamma, b) :  \alpha \to \beta$ is a triangle
+
+  $$
+    \array{
+      && \bullet
+      \\
+      & {}^{\mathllap{\alpha}}\swarrow 
+      & {}^{\mathllap{b}}\swArrow& 
+     \searrow^{\mathrlap{\beta}}
+     \\
+     \bullet &&\stackrel{\gamma}{\to}&& \bullet
+    }
+  $$
+
+* a 2-cell $k : (\gamma_1, b_1) \cdots (\gamma_2, b_2) \Rightarrow (\gamma_3, b_3)$ 
+  
+  is a 2-cell
+
+  $$
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{\gamma_1}}\swarrow 
+       & {}^{\mathllap{k}}\swArrow& 
+       \searrow^{\mathrlap{\gamma_2}}
+       \\
+       \bullet &&\stackrel{\gamma_3}{\to}&& \bullet
+    }
+  $$
+  
+  in $\mathbf{B}AUT(G)$ such that
+
+  $$
+    \array{
+      && \bullet
+      \\
+      ^ \swarrow &{}^{\mathllap{b_3}}\swArrow& \searrow
+      \\
+      \bullet &&\to&& \bullet
+    }
+    \;\;\;
+    =
+    \;\;\;
+    \array{
+      && \bullet
+      \\
+      &\swarrow& \downarrow & \searrow
+      \\
+      \downarrow 
+      &
+        {}^{\mathllap{b_1}}\swArrow
+      & 
+        \bullet 
+       &
+      {}^{\mathllap{b_2}}\swArrow& \downarrow
+      \\
+      \downarrow 
+      & \nearrow &\Downarrow^{\mathrlap{k}}
+      & \searrow & \downarrow
+      \\
+      \bullet && \stackrel{}{\to}
+      &&
+      \bullet
+    }
+    \,.
+  $$
+
+
+** And so on**
+
+...
 
 =--
 
 
 
-## References
 
-...
-
-some related blog discussion is at
-
-* [n-Transport and Higher Schreier Theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html)
 
 
 
