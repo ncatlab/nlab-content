@@ -16,4 +16,6 @@ Discussion on a previous version of this entry:
 
 [[Urs Schreiber|Urs]]: okay, I changed it. Let me know if this is good now.
 
+_Toby_:  But what about 'globular $\omega$-category' and things like that?  Doesn\'t 'simplicial $\omega$-category' fit right into that framework?  This page title sounds like an entire framework for defining $\omega$-category rather than a single $\omega$-category simplicially defined.
+
 =--
