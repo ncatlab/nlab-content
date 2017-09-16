@@ -1,12 +1,12 @@
 
 
-The _simplicial nerve_ is a [[nerve]] operation of [[simplicially enriched category|simplicially enriched categories]] which sends an [[SSet]]-[[enriched category]] to a [[simplicial set]].
+The _simplicial nerve_ is a [[nerve]] operation of [[simplicially enriched category|simplicially enriched categories]] which sends an [[SimpSet|SSet]]-[[enriched category]] to a [[simplicial set]].
 
 ...
 
 #Remarks#
 
-* The simplicial nerve, together with its [[left adjoint]] serves to relate the two models of [[(infinity,1)-category|(infinity,1)-categories]] given by [[quasi-category|quasi-categories]] and [[simplicially enriched category|simplicially enriched categories]].
+* The simplicial nerve, together with its [[adjoint functor|left adjoint]], serves to relate the two models of [[(infinity,1)-category|(infinity,1)-categories]] given by [[quasi-category|quasi-categories]] and [[simplicially enriched category|simplicially enriched categories]].
 
 #References#
 
