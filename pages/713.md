@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -36,6 +35,8 @@ $$\hat{F}(X) = X \otimes_S F = \int^{s: S} X(s) \cdot F(s)$$
 where $S \cdot d$ is notation for [[power|copowering]] (or tensoring) an object $d$ of $D$ by a set $S$ (in this case, a coproduct of an $S$-indexed set of copies of $D$). This formula recurs frequently throughout this wiki; see also [[nerve]], [[Day convolution]]. 
 
 This "free cocompletion" property generalizes to [[enriched category]] theory. If $V$ is complete, cocomplete, symmetric monoidal closed, and $S$ is a small $V$-enriched category, then the enriched presheaf category $V^{S^{op}}$ is a free $V$-cocompletion of $S$. The explicit meaning is analogous to the case where $V = Set$, where all ordinary category concepts are replaced by their $V$-enriched analogues; in particular, the notion of "$V$-cocontinuous functor" referes to preservation of enriched weighted colimits (not just ordinary conical colimits). 
+
+If $C$ is not small, then its free cocompletion still exists, but it is not the category of all presheaves on $C$.  Rather, it is the category of [[small presheaves]] on $C$, i.e. presheaves that are small colimits of representables.
 
 
 # Gentle explanation #
