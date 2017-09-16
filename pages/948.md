@@ -218,6 +218,14 @@ I have been trying for some time to figure out the "categorical meaning" of the 
 
 _Toby_: OK, forget I said anything about constructibilty.
 
+_Harry_: Could we work this quote:
+
+>"Taking the principle of excluded middle from the mathematician would be the same, say, as proscribing the telescope to the astronomer or to the boxer the use of his fists. To prohibit existence statements and the principle of excluded middle is tantamount to relinquishing the science of mathematics altogether." - D. Hilbert
+
+into the text somewhere?  It's too good a quote to pass up. I also love:
+
+>"No one will drive us from the paradise which Cantor created for us." - D. Hilbert
+
 =--
 
 
