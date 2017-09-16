@@ -1,0 +1,19 @@
+Recall that the [[diagonal subset|diagonal]] of a [[set]] is a [[subset]] of its [[cartesian product|cartesian square]] $X^2$.  If $X$ is now an object in some [[cartesian monoidal category]] $C$, then the diagonal of $X$ is now a [[subobject]] of its [[product|categorial square]] $X^2$.  (Actually, $C$ need not be cartesian monoidal, as long as the product $X \times X$ exists.)
+
+Specifically, the __diagonal morphism__ of $X$ is a morphism $\Delta_X: X \to X^2$ given (using the universal property of the product) by the [[identity morphism]] from $X$ to itself, taken twice.  That is, $\Delta_X$ is the universal solution to
+$$ \array {
+                            &          & X \\
+                            & \swarrow & \downarrow _ { \Delta _ X } & \searrow \\
+   X                        &          & X ^ 2                       &          & X \\
+   \downarrow _ { \id _ X } & \swarrow &                             & \searrow & \downarrow _ { \id _ X } \\
+   X                        &          &                             &          & X
+} $$
+If $C$ is $Set$ (the [[category of sets]]), then this diagonal morphism is precisely the [[diagonal function]] of $X$.
+
+The diagonal morphism is always a [[regular monomorphism]], since it is the [[equaliser]] of the two projection maps $X^2 \to X$.  Thus, it makes $X$ into a regular [[subobject]] of $X^2$, the __diagonal subobject__.  When $C$ is the $Set$, this recovers the original notion of the [[diagonal subset]] of $X^2$.
+
+In the category [[Top]] of [[topological spaces]], an object $X$ is a [[Hausdorff space]] if and only if its diagonal subobject is a [[closed subspace]] of $X^2$; this fact can be generalised to other notions of [[space]].
+
+
+[[!redirects diagonal subobject]]
+[[!redirects diagonal morphisms]]
