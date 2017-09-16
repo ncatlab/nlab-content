@@ -1,4 +1,4 @@
-This entry collects material on the Oberwolfach workshop
+This entry collects material on the [[Oberwolfach]] workshop
 
 * Title:      Strings, Fields and Topology
 
@@ -155,7 +155,7 @@ We have the following resources on these talks:
   * Dmitry Pavlov's zipped file of notes from the talks [[[oberwolfach_june2009_pavlov.pdf:file]
 
 
-* typed notes by [[Gabriel Drummond-Cole]]: on [Drummond-Coles website](http://www.math.sunysb.edu/~blafard/notes/)
+* typed notes by [[Gabriel Drummond-Cole]]: on [Drummond-Cole's website](http://www.math.sunysb.edu/~blafard/notes/)
 
 * typed notes by [[Urs Schreiber]]: the following
 
@@ -2187,4 +2187,4 @@ is given by the bimodule called $L^2(A)$
 this comes from the following: if $X$ is a measure space and $A$ arises as 
 $L^\infty(X)$ then $L^2(A)$ is $L^2(X)$.
 
-the general $
+the gene
