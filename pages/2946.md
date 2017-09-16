@@ -3,7 +3,8 @@
 * automatic toc goes here
 {:toc}
 
-## Definition
+
+## Definitions
 
 A __filtered colimit__ or **finitely filtered colimit** is a [[colimit]] of a [[functor]] $F\colon D \to C$ where $D$ is a [[filtered category]].  
 
@@ -12,6 +13,8 @@ For $\kappa$ a [[cardinal number|regular cardinal]] a **$\kappa$-filtered colimi
 
 Similarly, a __cofiltered limit__ is a [[limit]] of a functor $F\colon D \to C$ where $D$ is a [[cofiltered category]], or equivalently of a [[contravariant functor]] $F\colon D \to C$ (that is a functor $F\colon D^{op} \to C$) where $D$ is a filtered category.  A cofiltered limit may also be called a __filtered limit__ (although this can be unclear); the respective terms __filtered [[direct limit]]__ and __filtered [[inverse limit]]__ are also popular.
 
+
+A [[functor]] that preserves all finitely filtered colimits is called [[finitary functor|finitary]].
 
 
 ## Properties {#properties}
