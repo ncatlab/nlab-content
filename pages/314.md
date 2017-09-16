@@ -2,7 +2,8 @@
 
 In [[category theory]] a limit of a [[diagram]] $F : D \to C$ in a [[category]] $C$ is an [[object]] $lim F$ of $C$ equipped with morphisms to the objects $F(d)$ for all $d \in D$, such that everything in sight commutes. Moreover, the limit $lim F$ is the _universal_ object with this property, i.e. the "most optimized solution" to the problem of finding such an object.
 
-The limit construction has a wealth of applications throughout category theory and mathematics in general. On heuristic grounds it is possibly best thought of in the context of [[representable functor]]s as a **classifying space** for maps into a diagram. So in some sense the limit object $lim F$ "subsumes" the entire diagram $F(D)$ into a single object.
+The limit construction has a wealth of applications throughout category theory and mathematics in general. On heuristic grounds it is possibly best thought of in the context of [[representable functor]]s as a **classifying space** for maps into a diagram. So in some sense the limit object $lim F$ "subsumes" the entire diagram $F(D)$ into a single object, as far as morphisms _into_ it are concerned.
+The corresponding universal object for morphisms _out_ of the diagram is the [[colimit]].
 
 In some cases the category theoretic notion of limit does reproduce notions of limit as known from analysis. See the examples below.
 
@@ -11,6 +12,49 @@ In some cases the category theoretic notion of limit does reproduce notions of l
 Another equivalent term for limit is [[projective limit]]. Texts that say projective limit instead of just limit will use the symbol $\stackrel{lim}{\leftarrow}$ instead of just $lim$. Correspondingly, these text will write [[inductive limit]] for [[colimit]]. 
 
 # Definition in terms of representable functors #
+
+Let $D$ be a [[small category]] and [[Set]] the category of sets (possibly realized as the category $U Set$ of $U$-small sets with respect to a given [[Grothendieck universe]].) 
+
+## Limit of a Set-valued functors ##
+
+Then: the **limit of a Set-valued functor** $F : D^{op} \to Set$ is the [[hom-set]] 
+$$
+  lim F := Hom_{[D^{op}, Set]}(pt, F)
+$$
+in the [[functor category]] $[D^{op}, Set]$ (the [[presheaf]] category), where
+
+$$
+  pt : D^{op} \to Set
+$$
+$$
+  pt : d \mapsto \{*\}
+$$
+is the functor constant on the [[point]], i.e. the [[terminal object|terminal]] diagram.
+
+The set $lim F$ is equivalently called 
+
+* the set of _global sections_ of $F$;
+
+* the set of [[generalized element]]s of $F$.
+
+The set $lim F$ can be equivalently expressed as an [[equalizer]] of a [[product]], explicitly:
+
+$$
+  lim F \simeq
+  \left\lbrace
+    (x_d)_{d \in D}
+    \in
+    \prod_{d \in D}
+    F(d)
+    |
+    \forall (d_i \stackrel{\alpha}{\to} d_j) \in D :
+    F(\alpha)(x_{d_j}) = x_{d_i}
+  \right\rbrace
+$$
+
+In particular, the limit of a set-valued functor always exists. 
+
+## Limit of an arbitrary functor ##
 
 ...
 
