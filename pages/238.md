@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-17
 
+* [[Andrew Stacey|Andrew]]: Shifted [[generalized object|generalised object]] to [[Isbell envelope]] in line with the comments from the categories mailing list.  Mainly just altered the terminology in line with this nomenclature, but added a small section on how it relates to profunctors as well.
+
 * [[Zoran Škoda]] created [[Waldhausen category]] and made a remark into entry [[cofibration category]]. 
 
 * [[Toby Bartels]]:  I created [[symmetric set]] out of material that [[Zoran Škoda]] added to [[FinSet]].
