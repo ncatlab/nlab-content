@@ -29,6 +29,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
+* [[Urs Schreiber]]: there was some funny behaviour by the software ater I had restarted the server a few minutes ago, which resulted in the Lab-Elf announcement below to disappear for some mysterious reason. I have rolled back now, but that, too, involved some funny effects. It should all be restored now, but if anyone wonders where his or her comment disappeared to, it may have been eaten by the software in this process (but I don't think anything is lost, but let me know).
+
+* [[Urs Schreiber]]
+
+  * added to [[differential forms in synthetic differential geometry]] references by Breen-Messing and by Kock with a few lines of remarks. Am hoping to eventually expand and polish this entry.
+
+  * slightly edited the first paragraphs of [[infinitesimal object]] and [[nonstandard analysis]] and inserted links back and forth
+
+* [[Lab Elf|Lab Elf (public relations)]]: the migration will happen this week.  I had hoped to get everything done before the semester started at the Cobblers School, but was not able to do so, which means it has to fit in around my schedule.  What I don't want to do is do the migration, then go off for another violin lesson, and come back a few hours later to find that you've all crashed the site again.
+
+  Once that has been done, then the technical department can get on with figuring out how to improve things around here.  However, whinging on this page is pretty pointless.  If there's some feature you'd like implemented then you could bug the [[Jacques Distler|Chief Lab Elf]] himself (though rumour has it that he's quite busy at the moment) or [[Andrew Stacey|one of]] [[Toby Bartels|the minions]], but a __much better idea__ would be to start a discussion about it over on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Treat it as a _lab elf notice board_.  If there's something you want __all__ denizens of the lab to see, put it here, but if it's primarily for the lab elves, put it on the forum.
+
+  (Note: the high honour of being a Lab Elf is one that anyone can have.  There are various sub-departments, all with different roles and skills.)
+
 * [[Urs Schreiber]]: replied to [[Rafael Borowiecki]] at [[category theory]] 
 
   following various suggestions I didn't quite delete the big discussion box there yet, but instead moved it to the very end of the entry, so that it doesn't interrupt the reading flow anymore where it used to be (since we reached agreement there).  
