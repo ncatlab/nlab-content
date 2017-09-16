@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created a stub for [[quantization]]
+
   * renamed [[Jim Stasheff]]'s entry [[Larmore]] into [[Larmore twisted cohomology]] and edited it; linked to it from the reference section at [[twisted cohomology]]
 
   * made [[Chu space]] a redirect to [[Chu construction]]
