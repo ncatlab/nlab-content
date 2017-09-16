@@ -1,5 +1,3 @@
-
-
 # Idea #
 
 A configuration of the electromagnetic field on a space $X$ in the _absence_ of magnetic charge is modeled by a cocycle in degree 2 ordinary [[differential cohomology]].
@@ -346,7 +344,11 @@ Dirac's quantization argument appeared in
 
 #Discussion#
 
-+-- {: .query}
++--{.query}
+
+[[Eric]]: Once a query box gets more than a few lines long, it becomes difficult to read, so I'm removing the query box. Hope that's alright.
+
+=--
 
 [[Eric]]: I remember the first time I saw you discuss EM theory in this context. It, at first, seems like a good motivation for more general concepts, but then, as now, a second wave of doubt crossed my mind. Throughout this article, there is no mention of any physical question as to the existence of magnetic charges. Do we just take their existence for granted? If magnetic charges do not exist, is this a good motivating example for more general concepts? If we were paranoid, we could then start asking if we were on a wild goose chase.
 
@@ -362,7 +364,7 @@ There has got to be something interesting category theory can say about this. Pe
 
 Another thing that might be worth mentioning is the geometric character of material properties. After all, we all sit in a bath of electromagnetic radiation, both man made and natural. This radiation permeates our bodies which are made up of dielectric, magnetic, and conducting materials, i.e. body tissue. I always found it interesting that just as geometry is encoded in the metric and manifests itself via the Hodge star, so too do the constitutive equations. For example, in linear media we have the simple constitutive equations
 
-$$D = \epsilon E \;and\; B = \mu H.$$
+$$D = \epsilon E \quad\text{and}\quad B = \mu H.$$
 
 In 4d, we have
 
@@ -374,12 +376,11 @@ $$G = \star F,$$
 
 which under assumptions of linearity gives
 
-$$\star F = -\eta(D-H\wedge dt).$$
+$$\star F = -\eta(D-H\wedge dt),$$
 
-For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
+where $\eta = \sqrt{\frac{\mu}{\epsilon}}$. For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
 
 What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star.
 
 It would be nice to see the importance of the Hodge star amplified a bit.
 
-=--
