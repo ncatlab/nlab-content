@@ -18,12 +18,15 @@ We need a good category-friendly definition of an $n$-diamond. Here's a first st
 
 **(Tentative/Incomplete) Definition:** An $n$-diamond complex is a [[directed n-graph]] in which each node has exactly $n$ edges directed into it and exactly $n$ nodes directed away from it _and each ??? has fillers_.
 
-**Example:** $Z^n$ with the obvious direction assigned to edges is an $n$-diamond.
+**Example:** $\mathbb{Z}^n$ with the obvious direction assigned to edges is an $n$-diamond.
 
 ***
 #Discussion#
 _Note: Topics will be separated by lines and each topic is presented in reverse chronological order._
 
+[[Eric]]: I wonder if $n$-diamonds should be more closely related to [[n-fold categories]] rather than [[posets]]?
+
+***
 (From nCafe: <a href="http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021347">Authorship</a>)
 
 _[[Urs Schreiber|Urs]] says_: I think Eric wants a [[partial order|poset]] of sorts.
