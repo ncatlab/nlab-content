@@ -9,7 +9,7 @@ Please log all your non-trivial changes to the $n$Lab here!
 
 =--
 
-Here "non-trivial" means: anything that any other contributor might be interested in taking notice of. If you fix a trivial typo in the text somewhere, that is highly appreciated but unlikely to be controversial and hence need not be logged here. But already if you fix a typo in some formula, it may be of interest. Generally: the more you log your activity here, the better. Even when in doubt whether anyone else might be interested in changes you made, drop a note here on what you did.
+Here "non-trivial" means: anything that any other contributor might be interested in taking notice of. If you fix a trivial typo in the text somewhere, that is highly appreciated but unlikely to be controversial and hence need not be logged here. But already if you fix a typo in some _formula_, it may be of interest. Generally: the more you log your activity here, the better. Even when in doubt whether anyone else might be interested in changes you made, drop a note here on what you did.
 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
@@ -27,7 +27,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * created [[differential forms in synthetic differential geometry]] with two purposes: it reviews the definition found in the literature and then proposes a -- supposedly nicer -- reformulation
 
-* [[Zoran Škoda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 deaced before Ginzburg's lectures. Maybe we should look into classical sources.
+* [[Zoran Škoda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 decades before Ginzburg's lectures. Maybe we should look into classical sources.
 * [[John Baez]]: 
 
    * Added theorem characterizing categories of $R$-modules to [[compact object]].
