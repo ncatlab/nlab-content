@@ -2,6 +2,7 @@ The **Anonymous Coward** is the default username for editing this wiki. So if so
 
 However, people who *really* want to be anonymous should know that every editor\'s IP address is listed at [RecentlyRevised](http://ncatlab.org/nlab/recently_revised).  (Well, usually.  [[Urs Schreiber]] ---or for all we know, possibly somebody impersonating him (^_^)--- has managed to keep his IP address out sometimes.)
 
+
 #Discussion#
 
 _Eric_: Can we change this? I am not anonymous, but I also do not want my IP listed (since it resolves to my employer, which I think should be private.) I guess I can always just not post from work, but small distractions now and then are nice.
@@ -16,7 +17,9 @@ _Eric_: I don't mind if administrators can see my IP for security reasons, but i
 
 _Toby_:  That creates a hierarchy (of information if not power, but one leads to the other) where administrators are above everybody else.  The wiki way gives the same information to everybody.
 
+
 category: meta
 
 [[!redirects AnotherAnonymousCoward]]
 [[!redirects Anonymous Hero]]
+[[!redirects InterestedAnonymousCoward]]
