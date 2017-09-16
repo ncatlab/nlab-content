@@ -1,6 +1,6 @@
 For a [[category]] $C$ and [[endofunctor]] $F$, an __algebra__ of $F$ is an object $X$ in $C$ and a map $\alpha: F(X) \to X$. ($X$ is called the __carrier__ of the algebra)
 
-A morphism between two algebras $(X, \alpha)$ and $(Y, \beta)$ of $F$ corresponds to a morphism $m : X \to Y$ in $C$ such that the following square commutes:
+A morphism between two algebras $(X, \alpha)$ and $(Y, \beta)$ of $F$ is a morphism $m : X \to Y$ in $C$ such that the following square commutes:
 $$ 
   \array{ 
     F(X) 
