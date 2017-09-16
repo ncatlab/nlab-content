@@ -29,6 +29,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created [[cosimplicial algebra]] (redirecting also [[cosimplicial ring]])
+
   * created [[Chevalley-Eilenberg algebra in synthetic differential geometry]] where I aim to derive the [[Chevalley-Eilenberg algebra]] of a Lie group $G$ in terms of functions on the infinitesimal neighbourhood of the identity in a manner entirely analogous to how the deRham dgca is obtained at [[differential forms in synthetic differential geometry]]
 
   * created [[infinitesimal singular simplicial complex]] --  it reiterates things said at [[differential forms in synthetic differential geometry]] but the motivation for creating it was to accomodate a reference that [[Zoran Skoda]] provided which gives a version of this notion in [[nonstandard analysis]]
