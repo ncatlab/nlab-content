@@ -11,14 +11,16 @@ This entry collects material on the Oberwolfach workshop
 
 * ID:         0924
 
-Here are some scanned notes of talks from Bruce (not always complete!):
-
-* Christoph Schweigert, Monday morning 9.15. CFT and algebra in braided tensor categories I. [[talk1.pdf:file]]
 
 
 #Monday, June 8#
 
 ## Schweigert: CFT and algebra in braided tensor categories, I##
+
+Here are some scanned notes of talks from Bruce (not always complete!):
+
+* Christoph Schweigert, Monday morning 9.15. CFT and algebra in braided tensor categories I. [[talk1.pdf:file]]
+
 
 ### 1. Modular tensor categories and rational CFT ###
 
@@ -978,7 +980,7 @@ has notes?)
 
 alternative to yesterday's axioms:
 
-replace $M(M)$ by $Embeddings(\bar D^n, M)$
+replace $B(M)$ by $Embeddings(\bar D^n, M)$
 
 and replace $B_n(M)$ by
 
