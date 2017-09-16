@@ -34,7 +34,9 @@ $$
 
 =--
  
+For more comments on this see also 
 
+* [[scheme as locally affine structured (infinity,1)-topos]].
 
 # related concepts #
 
