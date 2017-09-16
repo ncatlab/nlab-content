@@ -152,6 +152,7 @@ One can probably rewrite everything in a way that avoids all material issues, bu
 (i) it hasn't be done, and 
 (ii) it would read quite different from what Lang actually writes.
 
+[[Mike Shulman]]: I think the claim is not that existing mathematics doesn't use the *language* of material set theory (after all, for decades that was the only language there was), but rather that its *essence* does not.  Show me a result using the fact that a subgroup is a group literally contained in another group, but which would not work just as well for any injective group homomorphism.
 
 =--
 
