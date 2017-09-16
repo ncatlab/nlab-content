@@ -40,11 +40,12 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
 * The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often adressed as [[generalized cohomology]], since it generalizes the enties specified by the Eilenberg-Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology".
 
-* Objects in general nonabelian cohomology are usually called [[infinity-stack]]s are [[(infinity,1)-sheaf|(infinity,1)-sheaves]], since every Grothendieck-Rezk-Lurie [[(infinity,1)-topos]] arises as a [[(infinity,1)-category of (infinity,1)-sheaves]].
+* Objects in general nonabelian cohomology are usually called [[infinity-stack]]s are 
+[[(infinity,1)-sheaf|(infinity,1)-sheaves]], since every Grothendieck-Rezk-Lurie [[(infinity,1)-topos]] arises as a [[(infinity,1)-category of (infinity,1)-sheaves]].
 
-* [[abelian sheaf cohomology|Abelian sheaf cohomolohy]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(infinity-1)-topos]] of $\infty$-stacks which take values in [[infinity-groupoid]]s which, under the [[Dold-Kan correspondence]] come from [[chain complex]]es.
+* [[abelian sheaf cohomology|Abelian sheaf cohomolohy]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(infinity,1)-topos]] of $\infty$-stacks which take values in [[infinity-groupoid]]s which, under the [[Dold-Kan correspondence]] come from [[chain complex]]es.
 
-* [[abelian sheaf cohomology|Abelian sheaf cohomolohy]] for unbounded complexes of sheaves is stable cohomology of the [stable (infinity-1)-topos]] of [[spectrum]]-valued [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
+* [[abelian sheaf cohomology|Abelian sheaf cohomolohy]] for unbounded complexes of sheaves is stable cohomology of the [stable (infinity,1)-topos]] of [[spectrum]]-valued [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
 
 Several familiar "cohomlogy theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(infinity,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model category|model categories]], [[derived cagtegory|derived categories]] and the like.
 
