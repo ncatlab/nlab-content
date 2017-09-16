@@ -9,7 +9,7 @@ A **small category structure** on a category $C$ is an [[essentially surjective 
 If [[Grothendieck universe]]s are being used, then for $U$ a fixed Grothendieck universe, a category $C$ is **$U$-small** if its collection of objects and collection of morphisms are both elements of $U$.  $C$ is **essentially $U$-small** if there is a [[bijection]] from its set of morphisms to an element of $U$ (the same for the set of objects follows); this condition is non-evil.
 
 So let $U\Set$ be the category of $U$-small sets. Then
-* a $U$-category (a [[locally small|locally U-small]])-category is a category [[enriched category|enriched over]] $U Set$;
+* a $U$-category (a [[locally small category|locally U-small]])-category is a category [[enriched category|enriched over]] $U Set$;
 * a $U$-small category is a category [[internal category|internal to]] $U Set$.
 
 Note that in this context, 'large' is used more strictly than in general category theory.  A category is **$U$-large** if its set of objects and set of morphisms are both subsets of $U$; usually one does not count $U$-small categories as $U$-large.  However, some categories (such as the category of $U$-large categories) are 'too large to be large'.
