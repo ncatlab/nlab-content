@@ -1,8 +1,13 @@
-#Idea#
+#Contents#
+* automatic table of contents 
+{:toc}
+
+
+## Idea
 
 Intuitively speaking, a braided monoidal category is a category with a tensor product and an isomorphism called the 'braiding' which lets us 'switch' two objects in a tensor product like $x \otimes y$.
 
-#Definition#
+## Definition
 
 A **braided monoidal category** is a [[monoidal category]] $V$ equipped with a natural isomorphism
 $$ B_{x,y} : x \otimes y \to y \otimes x $$
@@ -50,7 +55,9 @@ commutes.
 
 More tersely, we could define a braided monoidal category to be a [[tricategory]] with one object and one 1-cell.  However, unlike the definition of a monoidal category as a [[bicategory]] with one object, this identification is not trivial; a doubly-degenerate tricategory is literally a category with two monoidal structures that interchange up to isomorphism.  It requires the [[Eckmann-Hilton argument]] to deduce an equivalence with braided monoidal categories.
 
-#Basic Facts#
+If the braiding squares to the identity, then the braided monoidal category is a [[symmetric monoidal category]].
+
+## Basic Facts
 
 There is a [[strict 2-category]] BrMonCat with:
 
@@ -69,6 +76,14 @@ For an elementary introduction to braided monoidal categories using string diagr
 +--{.query}
 Eventually we should include all these diagrams here!  Can anyone help out?
 =--
+
+## Alternative characterizations
+
+A braided monoidal category is equivalently a category that is equipped with the structure of an [[algebra over an operad|algebra over]] the [[little cubes operad|little 2-cubes operad]].
+
+Details are in example 1.2.4 of
+
+* [[Jacob Lurie]], [[E-k-Algebras]]
 
 
 [[!redirects braided monoidal categories]]
