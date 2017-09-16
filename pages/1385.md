@@ -1,3 +1,4 @@
+[[!redirects symmetric monoidal (infinity,1)-category of presentable (inf]]
 
 
 #Idea#
