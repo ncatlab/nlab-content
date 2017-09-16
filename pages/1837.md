@@ -2,13 +2,15 @@
 [[!include physicscontents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-
-# Idea #
+## Idea 
 
 A _gauge theory_ is a [[quantum field theory]] whose field configurations are cocycles in [[differential cohomology]].
 
-## ordinary gauge theories
+### Ordinary gauge theories
 
 An _ordinary gauge theory_ is a [[quantum field theory]] whose field configurations are [[vector bundle]]s 
 [[connection on a bundle|with connection]].
@@ -23,7 +25,7 @@ Other examples include formal physical models.
 
 * [[Dijkgraaf-Witten theory]] is a gauge theory whose field configurations are $G$-[[principal bundle]]s for $G$ a finite group (these come with a unique [[connection on a bundle|connection]], so that in this simple case the connection is no extra datum).
 
-## higher and generalized gauge theories ##
+### Higher and generalized gauge theories 
 
 The above examples of gauge fields consisted of cocycles in degree 1 [[differential cohomology]].
 
@@ -43,7 +45,7 @@ But a whoe tower of higher and generalized gauge theories became visible with th
 * The [[RR-field]] is a cocycle in [[differential K-theory]].
 
 
-## gravity as a gauge theory ##
+### Gravity as a gauge theory
 
 There are various models that realize gravity also as a gauge theory.
 
@@ -51,11 +53,11 @@ There are various models that realize gravity also as a gauge theory.
 
 In particular [[supergravity]] theories have interpretations as higher gauge theories as described at [[D'Auria-Fre formulation of supergravity]].
 
-# Anomalies #
+## Anomalies 
 
 In the presence of [[magnetic charge]] (and then even in the absence of [[chiral fermion anomaly|chiral fermion anomalies]]) the standard would-be action functional for higher gauge theories may be ill-defined. The [[Green-Schwarz mechanism]] is a famous phenomenon in [[differential cohomology]] by which such a [[quantum anomaly]] cancels against that given by chiral fermions.
 
-# list of gauge fields and their models #
+## List of gauge fields and their models
 
 The following tries to give an overview of some collection of gauge fields in physics, their models by [[differential cohomology]] and further details.
 
