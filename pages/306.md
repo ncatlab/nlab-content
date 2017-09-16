@@ -1,3 +1,8 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A _subobject classifier_ in a [[topos]] is a morphism 
@@ -45,7 +50,7 @@ The subobject classifier always comes with the structure of an internal [[partia
 
 In fact, this internal poset is an internal [[Heyting algebra]]; it\'s an internal [[Boolean algebra]] if and only if the topos is Boolean.
 
-#Generalizations#
+#Generalizations: object classifier#
 
 In higher topoi the the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
 
@@ -67,7 +72,9 @@ In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] subobject cla
 
 * [[Jacob Lurie]], [[Higher Topos Theory]].
 
-As pointed out there, it is not so much a _subobject_ classifier that matters in [[higher topos theory]], but an [[object classifier]].
+As pointed out there, it is not so much a _subobject_ classifier that matters in [[higher topos theory]], but an 
+
+* [[object classifier]].
 
 
 #References#
