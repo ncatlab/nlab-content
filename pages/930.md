@@ -1,0 +1,14 @@
+##Definition##
+Let $H$ be a $k$-[[bialgebra|bialgebra]] $H$ and $E$, say, a right $H$-comodule algebra (i.e. a monoid in the category of right $H$-comodules) with coaction $\rho:E\to E\otimes H$. 
+
+The subalgebra $U = E^{\mathrm{co}H}$ of $H$-coinvariants in $E$ is the subalgebra consisting of all $u\in E$ such that $\rho(u)=u\otimes 1$. 
+
+The $k$-algebra extension $U\hookrightarrow E$ is $H$-Hopf-Galois if the natural map $E\otimes_U E\to E\otimes H$ given by the $k$-linear extension of the formula $e\otimes e'\mapsto (e\otimes_k 1)\rho(e')$ is a bijection (hence a $k$-module isomorphism). 
+
+##Classical Galois extensions as a special case##
+
+If $k\subset U=E^G$, $E$ is a field, $G$ a finite group and $H = (kG)^*$ is the dual [[Hopf algebra|Hopf algebra]] to the group algebra of $H$, then $E^G\hookrightarrow E$ is (classically) a Galois extension iff it is a $H$-Hopf-Galois extension, where the coaction of $H$ is induced by the action of $kG$, hence of $G$. One uses the Dedekind lemma on independence of automorphisms to prove this equivalence. It is possible however that $E^G\subset E$ is not (classically) Galois, but it is $K$-Hopf-Galois for some Hopf algebra $K\neq (kG)^*$. 
+
+##Role in geometry##
+
+In algebraic geometry, given an affine algebraic $k$-group scheme $G$, the algebra $E$ of regular functions over the total scheme $X$ of an affine $G$-[[torsor|torsor]] $X\to Y$, whose base $Y$ also happens to be affine is a commutative $H$-Hopf-Galois extension of the algebra of regular functions $U$ on the base $Y\cong X/G$, where $H$ is the $k$-Hopf algebra of global regular functions on $G$. In algebraic topology generalization to spectra (with smash product of spectra in role of tensor product) were studied by Rognes and others. In noncommutative geometry, Hopf-Galois extensions are studied as noncommutative affine torsors, with interesting theorems involving descent theorems for [[Hopf module|Hopf modules]] generalizing Schneider's theorem. 
