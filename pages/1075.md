@@ -67,3 +67,5 @@ Declare a [[sieve]] $F$ at $U$ to be a covering sieve precisely if the inclusion
 Section 16 of
 
 * Kashiwara-Schapira,  [[Categories and Sheaves]]
+
+[[!redirects local epimorphisms]]
