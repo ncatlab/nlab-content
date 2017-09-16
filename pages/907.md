@@ -1,3 +1,2 @@
-See [[Zoran Škoda]].
-
-category: redirect
+&lt; [[Zoran Skoda]]
+[[!redirects Zoran Skoda -- history]]
