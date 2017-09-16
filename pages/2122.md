@@ -34,10 +34,14 @@ This has the following properties:
 
 * [[Vect]] - [[vector space]]s as objects, linear maps as morphisms.  This is actually many different categories, depending on a choice of [[field]].  Since any one of these categories consists of models of a [[Lawvere theory]], it has all small [[limit|limits]] and [[colimit|colimits]].
 
-  +-- {: .query}
++-- {: .query}
 Rafael Borowiecki: I could add something of the order 100 categories here, but i know very little of their properties. Should i add them anyway?
 
-  It would also be helpful to have a list of properties to fill in for each category to make it a real database. As a start i suggest: size, concrete, complete, enrichment, topos. This list could also get very large resulting in an even larger table (written as a list). For instance one could also add cartesian closedness, monoidality, model structure.
+It would also be helpful to have a list of properties to fill in for each category to make it a real database. As a start i suggest: size, concrete, complete, enrichment, topos. This list could also get very large resulting in an even larger table (written as a list). For instance one could also add cartesian closedness, monoidality, model structure.
 
-  I don't know where to put this request but the logging of changes should be automated. Simply add a smaller box one might fill in if one wishes below the editing box and hope that not every edit will also edit this changes box. It could be limited to size.
-  =--
+I don't know where to put this request but the logging of changes should be automated. Simply add a smaller box one might fill in if one wishes below the editing box and hope that not every edit will also edit this changes box. It could be limited to size.
+
+_Toby_:  I also could add hundreds of categories.  At this stage, I\'m inclined to add only categories that we have pages for.  On the other hand, often people only create pages because there are links to them, so perhaps people should also add categories that they think are important and conspicuously missing?  As long as the page isn\'t flooded with a huge list, it will be manageable.  And maybe we could even manage a huge list?  I\'d like to hear what [[John Baez|John]] thinks.  (Sorry to be so indecisive!)
+
+Automatic logging is not an option with Instiki, which is why we use [[latest changes]] instead.  You could request that it be added as a feature to [Instiki](http://www.instiki.org/show/HowToContribute), but (unless you can program it) don\'t hold your breath.  *However*, not that there is a page [Recently Revised](http://ncatlab.org/nlab/recently_revised); it\'s disabled now, but that should be temporary.  (Try [this one](http://ncatlab.org/tobybartels/recently_revised) to see how it\'s supposed to work.)  When it comes back, it will take care of much of the need for automatic logging, requiring people only to report major changes that others need to know about.
+=--
