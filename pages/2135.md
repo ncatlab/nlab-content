@@ -6,4 +6,6 @@ Often one restricts to [[nice topological spaces]] or to a [[nice category of sp
 
 As [[space and quantity|space is dual to quantity]], space and quantity can be [[categorification|categorified]] together; see $\infty$-[[infinity-space|space]] and compare $\infty$-[[infinity-quantity|quantity]].  More abstract categorified spaces include [[Grothendieck toposes]] and [[stacks]] (or ever their $\infty$-versions).
 
+>[[Urs Schreiber]]: wait, the point of [[infinity-space]] is that this is precisely another way to look at what an [[infinity-stack]]. Can we reword the above sentence?
+
 There is also a fair amount to be said about [[generalized smooth spaces]].
