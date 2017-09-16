@@ -14,6 +14,8 @@ I don\'t like this term, (for reasons other than using the word 'categorical' ^_
 
 How can we say this better?
 
+_Toby_:  Well, I also thought of 'hom-$\infty$-groupoid' and 'hom-simplicial set' (at which point the hyphen in 'hom-object' looks worse and worse), but these struck me as too specific, although they match what you\'re saying here.
+
 =--
 
 
@@ -45,7 +47,7 @@ Suppose now that $Q : C \to C$ is a [[cofibrant replacement functor]] and $R : C
 
 
 +-- {: .un_theorem }
-###### Theorem (Dwyer-Kan)
+###### Theorem (Dwyer--Kan)
 
 There are natural weak equivalences between the following equivalent realizations of this [[SSet]] [[hom-object]]:
 
