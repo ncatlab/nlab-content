@@ -13,7 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-18
 
-* [[Urs Schreiber|Urs]]: in reaction to [[Toby Bartels|Toby]]'s discussion at [[large category]] I created entries for [[accessible category]], [[locally presentable category]] and [[sketch]]. But very incomplete.
+* [[Urs Schreiber|Urs]]: 
+
+  * created an entry on the book [[Categories and Sheaves]]
+
+  * in reaction to [[Toby Bartels|Toby]]'s discussion at [[large category]] I created entries for [[accessible category]], [[locally presentable category]] and [[sketch]]. But very incomplete.
 
 *  [[Toby Bartels]]:  Started a discussion about [[large category]].
 
