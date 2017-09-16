@@ -79,15 +79,11 @@ Moreover, $\widehat{F}$ is unique up to natural isomorphism.
 
 Our job is to understand how to construct this $\widehat{F}$.  
 
-+--{.query}
-[[Eric]]: Will this also help us understand [[An Exercise in Kantization]]?
-=--
-
 But before we do that:
 
 ####Why do we care?####
 
-We want to convert between two equivalent descriptions of [[distributor|profunctors]] from a category $A$ to a category $B$.  On the one hand, we can think of them as [[functor|functors]]
+There are many reasons why this theorem is important.  Mike Stay needs it to convert between two equivalent descriptions of [[distributor|profunctors]] from a category $A$ to a category $B$.  On the one hand, we can think of them as [[functor|functors]]
 
 $$ G : A \to \widehat{B}$$
 
@@ -130,7 +126,6 @@ $$
   }
   
 $$
-Moreover, $\tilde{F}$ is unique up to natural isomorphism.
 
 **Proof.** The proof here is easy.   Elements of $\tilde{A}$ are formal sums of elements of $A$, like
 
@@ -149,9 +144,40 @@ Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to 
 
 [[David Corfield]]: Oh I see. Though I wonder if prettier category theory would have you talk about the underlying sets of $\tilde{A}$ and $B$, and of commutative monoid morphism.
 
+[[John Baez]]: Sure, in some gold-plated treatment it would be good to carefully distinguish between commutative monoids and their underlying categories, or cocomplete categories and their underlying categories.  That would be especially nice if we wanted to see 'free cocompletion' as some sort of [[monad]].  But I'm going for a lowbrow approach here; we can gold-plate it later.
+
+####But really: why should we care?####
+
+[[Eric]]: Will this also help us understand [[An Exercise in Kantization]]?
+
+[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions or coends, you should find this Theorem helpful.  And if you're the sort of guy who understands vector spaces better than commutative monoids, you may prefer to understand this Theorem as a souped-up analogue of _this_:
+
+**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the vector space with elements of $A$ as its basis, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a vector space, given any function $F : A \to B$, there is a linear operator $\tilde{F} : \hat{A} \to B$ making this triangle commute:
+$$
+  \array{
+     A &\stackrel{F}{\to}& B
+     \\
+     \downarrow^y & \nearrow_{\tilde{F}}
+     \\
+     \tilde{A}
+  }
+  
+$$
+
+**Proof.** The proof here is easy.   Elements of $\tilde{A}$ are linear combinations of elements of $A$, like
+
+$$ x = \sum c_i a_i $$
+
+with some coefficients $c_i$.  So, $\tilde{F}$ is determined by the fact that it's linear and acts like $F$ on guys in $A$:
+
+$$\tilde{F}(x) = \tilde{F} (\sum c_i a_i) =
+\sum c_i \tilde{F}(a_i) = \sum c_i F(a_i)  $$
+
+Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to check some stuff.  Check that $\tilde{F}$ is well-defined.  Check that it's linear.  Check that it makes the diagram commute.  Check that it's unique.  All this is follow-your-nose stuff.
+
 ####Back to proving the theorem###
 
-Okay, now let's try to prove the actual Theorem:
+Okay, let's stop fiddling around and try to prove the bloody Theorem:
 
 +-- {: .un_theorem}
 ###### Theorem
