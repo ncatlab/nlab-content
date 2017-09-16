@@ -235,4 +235,8 @@ Other projects:
 
 If anyone wants to talk about the first item that would be great.  I guess this is my new recruiting station to get people to talk to me about math.
 =--
+
+
 category: people
+
+[[!redirects Alexander Hoffnung]]
