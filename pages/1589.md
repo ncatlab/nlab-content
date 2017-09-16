@@ -72,7 +72,8 @@ $$
  fact_U := tft_C(\Sigma_{U,U^*} \to \Sigma)
 $$
 we have 
-* $$
+* 
+$$
    \oplus_{i \in I} fact_{U_i} 
    : 
    \oplus_{i \in I} tft_C(\Sigma_{U,U^*})
