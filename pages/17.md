@@ -13,6 +13,8 @@ Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm 
 
 _Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (`[[like this|Like this]]`.) We loosely agreed to try to follow that and some other naming conventions; see below.
 
+However, this is less of an issue now that we have [[redirects]].
+
 #Note to new contributors#
 
 When you edit a page, you can (and should) put your name (with normal capitalisation and spacing) in the box after 'Submit as'. If you don\'t, then your contribution will be credited to the [[AnonymousCoward]].
