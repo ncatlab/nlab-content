@@ -76,6 +76,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Peter Arndt]]
 * [[Peter LeFanu Lumsdaine]]
 * [[Rafael Borowiecki]]
+* [[Rasmus Bentmann]]
 * [[Reid Barton]]
 * [[Riccardo Nicoletti]]
 * [[Richard Body]]
