@@ -70,6 +70,29 @@ This is theorem 3.3.19 in _ModLoc_ .
 
   Again there are different answers for what something is.
   I will stop complaining now. Good luck Urs.
+
+[[Urs Schreiber]]: okay, thanks. So I looked at [def 10, page 10](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.4299v1.pdf#page=10) of   [On K(1)-local SU-bordism](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.4299v1.pdf)
+
+This, yes, is a special case of what is decribed here. But just notice the two shades of the use of the word localization here:
+
+let me recall: given a model category $C$ we may choose a set of morphisms $S = \{f : X \to Y\}$ and then say that an object $Z$ is an $S$-[[local object]] if homming $f$ into $Z$ produces isomorphisms.
+
+Then:
+
+* the Boudsfield localization of the entire category $C$ is (if it exists) a new model category structure on $C$ where the weak equivalences now are the $S$-[[local equivalence]]
+
+* in as far as the Bousfield localization is a model for a [[localization of an (infinity,1)-category]] every object $Z$ will be weakly equivalent to an $S$-local one $Z_E$, in that there is a morphism $Z \to Z_E$ which is a weak equivalence. Since $Z_E$ is $S$-local in the sense of the definition just recalled, this may be thought of as being the "localization" of the object $Z$.
+
+So what they call localization is there is what happens to the _objects_ as we apply Bousfield localization to the category that they live in, essentially.
+
+It may help to think of this in the example where $C$ is a category of [[simplicial presheaf|simplicial presheaves]] and the Bousfield localization is at those weak equivalences that induce the local [[model structure on simplicial presheaves]]. Then the Bousfield localization
+
+$$
+  SimpPSh_{glob} \to SimpPSh_{loc}
+$$
+
+is [[infinity-stackification]]. In this case the "localizaton morphism on object" $Z \to Z_E$ the morphism that make a pre-stack $Z$ weakly equivalent to ist $\infty$-stackification $Z_E$. So here localization=stackification and in terms of that the general kind of situation here may be more familiar.
+ 
 =--
 
 #Bousfield localization in triangulated categories#
