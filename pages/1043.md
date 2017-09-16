@@ -13,3 +13,5 @@ I am hoping that, among other things, we can give a helpful overview discussion 
 * [[Kan extension]]
 
 In good cases every single one of these is a special case of every other, so somehow one single concept here comes to us with many different faces. There should be a good way to think of this. 
+
+_Toby_:  I haven\'t written this since I don\'t feel that I know what to say either.  But I\'ll let people know that there also a lot of links to [[universal property]], so you can think about whether you\'d like to write that instead (as well as whether these should be separate pages are if one should redirect to the other, but that can probably wait until there\'s content).
