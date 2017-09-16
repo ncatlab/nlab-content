@@ -33,6 +33,8 @@ Perhaps the most important consequence of local compactness for categorical topo
 
 [[Todd Trimble]]: I think this claim for locally compact spaces as defined above is false; locally compact spaces are exponentiable if instead they are defined to be spaces which have a neighborhood base of compact neighborhoods. I don't quite see how the additional hypothesis of $T_0$ would change that. 
 
+_Toby_:  That\'s a good definition too.  The page [[exponential law for spaces]] suggests that _core_-compactness is the deciding feature.  All of these definitions are equivalent for Hausdorff spaces, and they\'re hard to untangle in the literature.  Do we know enough to be Bourbaki and decide which is best?
+
 =--
 
 As noted above, locally compact spaces form a finitely complete [[full subcategory]] of $Top$. It is not true that arbitrary products of locally compact spaces are locally compact. However, some important examples of locally compact spaces are constructed as restricted direct products, as follows. 
