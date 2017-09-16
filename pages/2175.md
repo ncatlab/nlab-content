@@ -66,6 +66,32 @@
 
 * [[Symbol Sandbox]]
 
+# Gallery #
+
+__NB.__ I'll be using this area to test remote images and upload local images that I use in articles.
+
+Templates ---
+
+    [[mypic.jpg|alt text:pic]]
+
+    ![alt text](/nlab/files/mypic.jpg)
+
+    http://ncatlab.org/nlab/files/mypic.jpg
+
+    <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
+
+Upload Queue ---
+
+<center>
+[[Higher_Order_Venn_Diagram.gif|Higher Order Venn Diagram:pic]]
+</center>
+
+<center>
+<img alt="Higher Order Venn Diagram" src="/nlab/files/Higher_Order_Venn_Diagram.gif" width="900" />
+</center>
+
+$\varnothing$
+
 ***
 
 category: people
