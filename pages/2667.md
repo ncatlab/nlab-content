@@ -1,8 +1,8 @@
-Classically, a **Schur functor** is a just a functor $Vect_{fd} \to Vect_{fd}$ on the category of finite-dimensional complex vector spaces. 
+Classically, a **Schur functor** is a just a [[functor]] $Vect_{fd} \to Vect_{fd}$ on the category of finite-dimensional complex [[vector spaces]]. 
 +--{.query} 
 Literally any functor? Something seems peculiar to me about that. 
 =--
-In more modern treatments, a Schur functor is a functor defined on modules over more general commutative ring $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
+In more modern treatments, a Schur functor is a functor defined (in a [[polymorphism|polymorphic]] way) on [[modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
 
 $$F_R: Mod_R \to Mod_R$$ 
 
@@ -14,17 +14,17 @@ The first thing that should be understood from the beginning is that a general S
 
 $$hom(V, W) \to hom(F(V), F(W))$$ 
 
-is not assumed to respect linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite biproduct of the 1-dimensional space $\mathbb{C}$, and because linear functors preserve finite biproducts, it turns out that every linear Schur functor $F$ is representable as $hom(X, -)$ where $X = F(\mathbb{C})$. The category of linear Schur functors is equivalent to $Vect_{fd}$. 
+is not assumed to respect linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[biproduct]] of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor]]s preserve finite biproducts, it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$. The category of linear Schur functors is equivalent to $Vect_{fd}$. 
 
 Rather more representative examples of Schur functors include: 
 
-* For each $k \geq 0$, the $k^{th}$ tensor power $V \mapsto V^{\otimes k}$ is a Schur functor. 
+* For each $k \geq 0$, the $k^{th}$ [[tensor power]] $V \mapsto V^{\otimes k}$ is a Schur functor. 
 
-* For each $k \geq 0$, the $k^{th}$ symmetric power $V \mapsto Sym^k(V)$ is a Schur functor. 
+* For each $k \geq 0$, the $k^{th}$ [[symmetric power]] $V \mapsto Sym^k(V)$ is a Schur functor. 
 
-* For each $k \geq 0$, the $k^{th}$ alternating power $V \mapsto Alt^k(V)$ is a Schur functor. 
+* For each $k \geq 0$, the $k^{th}$ [[alternating power]] $V \mapsto Alt^k(V)$ is a Schur functor. 
 
-Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a linear category, so we can talk about irreducible objects and decompositions and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
+Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object]]s, decompositions into [[direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these irreducible $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
 +--{.query} 
 I took this statement about decompositions from the blog discussion, but what's the precise statement? I have a hard time believing that it's a finite decomposition in general. I'm hoping the situation is analogous to analytic functors in the case of species, but I'm not at all sure what the precise statement should be. 
@@ -34,29 +34,29 @@ Even if it is something analogous to analytic functors, I am reminded that analy
 
 ## Schur functors associated with Young diagrams 
 
-Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $Vect_{\mathbb{C}}$. Indeed, let $C$ be any symmetric monoidal abelian category whose hom-objects are $\mathbb{Q}$-vector spaces. 
+Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $Vect_{\mathbb{C}}$. Indeed, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] whose hom-objects are $\mathbb{Q}$-vector spaces. 
 
 +--{.query}
 I wimped out and chose rational vector spaces as the base of enrichment. There is a good chance that everything works over abelian groups instead, but there may be subtleties that I am not prepared to tackle just yet. Mainly I want things like Maschke's theorem and honest-to-god idempotent projections around as a security blanket. 
 =-- 
 
-Recall that the group algebra $\mathbb{Q}[S_n]$ decomposes as a direct sum 
+Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum 
 
 $$\sum_{\lambda} V_{\lambda}$$ 
 
-where $\lambda$ ranges over isomorphism classes of partitions of a set of size $n$, also known as Young diagrams, and $V_\lambda$ represents the isomorphism class of irreducible $S_n$-representations attached to $\lambda$.  
+where $\lambda$ ranges over isomorphism classes of [[partition]]s of a set of size $n$, also known as [[Young diagram]]s, and $V_\lambda$ represents the isomorphism class of irreducible $S_n$-representations attached to $\lambda$.  
 
-The group algebra lives as a monoid in the symmetric monoidal category of finite-dimensional rational spaces $Vect_{fd}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
+The group algebra lives as a [[monoid object|monoid]] in the symmetric monoidal category of finite-dimensional rational spaces $Vect_{fd}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
 
 $$Sk \to C: \mathbb{Q}^n \mapsto I^n$$ 
 
-where $I^n$ is the $n$-fold coproduct of the monoidal unit $I$ of $C$. By left Kan extension along the inclusion $Sk \hookrightarrow Vect_{fd}$, we therefore obtain a canonical change of base functor 
+where $I^n$ is the $n$-fold coproduct of the monoidal unit $I$ of $C$. By left Kan extension along the inclusion $Sk \hookrightarrow Vect_{fd}$, we therefore obtain a canonical [[base change|change of base]] functor 
 
 $$i: Vect_{fd} \to C$$ 
 
-which is in fact symmetric monoidal. It maps the group algebra $\mathbb{Q}[S_n]$ to a monoid in $C$, denoted $\mathbb{Q}[S_n]$ by abuse of notation, and each of the representations $V_\lambda$ to a corresponding module over that monoid in $C$, denoted again as $V_\lambda$. 
+which is in fact [[symmetric monoidal functor|symmetric monoidal]]. It maps the group algebra $\mathbb{Q}[S_n]$ to a monoid in $C$, denoted $\mathbb{Q}[S_n]$ by abuse of notation, and each of the representations $V_\lambda$ to a corresponding module over that monoid in $C$, denoted again as $V_\lambda$. 
 
-If $X$ is an object of $C$, the symmetric group action 
+If $X$ is an object of $C$, the symmetric group [[action]] 
 
 $$S_n \to hom(X^{\otimes n}, X^{\otimes n})$$ 
 
@@ -84,7 +84,7 @@ which can be viewed either as invariants (equalizer of $e$ and the identity) or 
 
 ## (Tentative) High-level description of Schur functors 
 
-As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pretty wide contexts, and the formula for the $S_\lambda$ is in some sense "polymorphic". The question arises as to the right way to give sense to such polymorphism, or in other words the compatibility between these Schur functors across the various structured categories where they are defined. Here is a very general expression of that compatibility proposed by John Baez. 
+As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pretty wide contexts, and the formula for the $S_\lambda$ is in some sense "polymorphic". The question arises as to the right way to give sense to such [[polymorphism]], or in other words the compatibility between these Schur functors across the various structured categories where they are defined. Here is a very general expression of that compatibility proposed by [[John Baez]]. 
 
 The general idea is that Schur functors such as the $S_\lambda$ defined above on individual categories commute with suitable change-of-base functors between these categories, and we would like a clean and high-level description of this sort of naturality. 
 
