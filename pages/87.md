@@ -32,7 +32,7 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 * every cover is the quotient of its kernel pair (equivalently, every cover is a [[regular epimorphism]]).
 
 +--{: .query}
-_David R_ says: aren't these two conditions  only equivalent if the category has pullbacks? That is what it says at [[regular epimorphism]].
+_David R_ says: aren't these two conditions  only equivalent if the category has pullbacks? That is what it says at [[regular epimorphism]]. A map being the quotient of its kernel pair is an effective epimorphism, is it not?
 =--
 
 Note that these are precisely the axioms saying that the singleton families $\{p:V\to U\}$ where $p$ is a cover form a [[subcanonical coverage|subcanonical]] [[Grothendieck pretopology]].  One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.
@@ -53,7 +53,7 @@ If $C\leftarrow F \to D$ and $C\leftarrow G \to D$ are internal anafunctors, we 
 * Identity maps must be covers in order to have identity anafunctors (and more generally, for every functor to give rise to an anafunctor).
 * To compose anafunctors by pullback, the pullbacks of covers must exist and be covers, and covers must be closed under composition.
 * To define $F\times_C G$ and obtain a notion of natural transformation, we again need covers to have pullbacks.
-* To define composition of natural transformations between anafunctors, we need covers to be regular epis; see [HGT I][].
+* To define composition of natural transformations between anafunctors, we need covers to be regular epis (David R says: see comment above!); see [HGT I][].
 
 In [HGT I][] the following additional axiom was assumed on the class of covers,
 
@@ -61,22 +61,6 @@ In [HGT I][] the following additional axiom was assumed on the class of covers,
 
 This is used in the section on descent and its relation to (2-)bundles.
 
-
-+-- {: .query}
-
-David Roberts says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
-
-DR says: Well I suppose we could follow Makkai's philosophy twice and have a composition anafunctor (in the original sense) for composing anafunctors (in the internal sense) and end up with an anabicategory.
-
-_Mike_: Yes, presumably it won't depend on the fillers chosen; I haven't checked the details, though.  "Grothendieck coverage" means the same as "Grothendieck topology" and thus includes closure under lots of things, including composition and containing identities.
-
-_David R_: I noticed the adjective Grothendieck in the preceeding sentence half-way through asking the question, but I think my point still holds for general coverages, without the closure properties.
-
-_Mike_: Well, as you pointed out, you need at least identity maps to be covers to have identity anafunctors, and you need covers to be stable under composition, as well as pullback, in order to define composition of anafunctors.  An arbitrary coverage might not satisfy those, although pretty much any coverage arising in practice does.  The other point that a choice has to be made unless you have honest pullback-stability is certainly true.  So probably the most natural-feeling context in which to work is a (possibly singleton) [[Grothendieck pretopology]].  I would be happy for this page to ignore the case where covers don't have pullbacks; I did some rewriting above to reflect this discussion.  I think this discussion could now be deleted; feel free to do so if you agree.
-
-_David R_: After some thought, one could do without _the_ identity map, and be satisfied with a anafunctor (external!) giving the identity $1 \to Ana(X,X)$. I think I should move this discussion to a section of its own, and develop these ideas there. I think I saw an example of a non-Grothendieck coverage in [[John and Alex's [[generalized smooth space|smooth spaces]] paper.
-
-=--
 
 
 
@@ -116,6 +100,27 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 
 
 =--
+##Discussion##
+
+The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors. 
+
++-- {: .query}
+
+David Roberts says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
+
+DR says: Well I suppose we could follow Makkai's philosophy twice and have a composition anafunctor (in the original sense) for composing anafunctors (in the internal sense) and end up with an anabicategory.
+
+_Mike_: Yes, presumably it won't depend on the fillers chosen; I haven't checked the details, though.  "Grothendieck coverage" means the same as "Grothendieck topology" and thus includes closure under lots of things, including composition and containing identities.
+
+_David R_: I noticed the adjective Grothendieck in the preceeding sentence half-way through asking the question, but I think my point still holds for general coverages, without the closure properties.
+
+_Mike_: Well, as you pointed out, you need at least identity maps to be covers to have identity anafunctors, and you need covers to be stable under composition, as well as pullback, in order to define composition of anafunctors.  An arbitrary coverage might not satisfy those, although pretty much any coverage arising in practice does.  The other point that a choice has to be made unless you have honest pullback-stability is certainly true.  So probably the most natural-feeling context in which to work is a (possibly singleton) [[Grothendieck pretopology]].  I would be happy for this page to ignore the case where covers don't have pullbacks; I did some rewriting above to reflect this discussion.  I think this discussion could now be deleted; feel free to do so if you agree.
+
+_David R_: After some thought, one could do without _the_ identity anafunctor, and be satisfied with a anafunctor (of the external variety) giving the identity: $1 \to Ana(X,X)$. I think I should move this discussion to a section of its own, and develop these ideas there. As an aside, I think I saw an example of a non-Grothendieck coverage in John and Alex's [[generalized smooth space|smooth spaces]] paper.
+
+=--
+
+
 
 
 ## References
