@@ -35,9 +35,13 @@ One of the major mathematical projects around Chern-Simons theory has therefore 
 
 A closed 3-manifold $M$ $\mapsto$ the path integral given above (a number).
 
-A closed 2-manifold $\Sigma$ $\mapsto$ the space of sections of the line bundle over the moduli space of flat [[connection on a bundle|connection]]s on $\Sigma$ (a finite-dimensional [[vector space]]).
+A closed 2-manifold $\Sigma$ $\mapsto$ the space of sections of the line bundle over the moduli space of flat [[connection on a bundle|connection]]s on $\Sigma$ (a finite-dimensional [[vector space]]).  (Reshetikhin and Turaev give an alternate quantum-groupy description of this space).
 
 A circle $S^1$ $\mapsto$ the [[category]] of [[positive-energy representation]]s of the [[loop group]] $\Omega_k (G)$ at level $k$ (a [[linear category]]).
+
++-- {: .query}
+The R-T construction sticks on the circle the [[modular tensor category]] of representations of a [[quantum group]] at a root of unity, modulo "unphysical representations."  Are these supposed to be the same?  Is this just the Kazhdan-Lusztig equivalence?
+=--
 
 The 2-category assigned to the point is the most interesting piece of data since in principle all the other invariants can be derived from it using the gluing law. In the paper _Topological quantum field theories from Compact Lie Groups_, it is proposed that
 
@@ -45,6 +49,8 @@ A point $\mapsto$ the category of skyscraper sheaves on ---, thought of as a 2-c
 
 +-- {: .query}
 Bruce: I've run out of time here and I can't precisely fill in those blanks above.  Any help?
+
+[[Ben Webster]]: My understandin is that nobody is quite sure how to fill in those blanks.  One line of thinking is that it should be an object in a 3-category with is **not** 2Cat.
 =--
 
 Other groups have conceptualized this differently (but most likely equivalently at the end of the day as)
@@ -124,3 +130,8 @@ In other words, once express the Chern-Simons path integral for a knot into its 
 Bruce: Urs, I'm talking about how when you explained to me how the "trace" appearing in the path integral should be interpreted in terms of holonomy, and that 1 dimension higher, we need to take the trace over a surface, like in your paper with Konrad. 
 =--
 
+##Chern-Simons theory and knot homology
+
+One question that's been bugging me (Ben Webster) recently is what fills in the analogy "[[Jones polynomial]] is to Chern-Simons theory as [[Khovanov homology]] is to ??"
+
+Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?_  I'm inclined to think there must be one, as it seems that all of the knot homologies associated by Chern-Simons theory to representations have categorifications (I have a [mostly finished paper](http://math.mit.edu/~bwebster/KI-HRT.pdf) on this).  Presumably these all glue together into something, possibly by a similar trick to the Reshetikhin-Turaev construction of 3-manifold invariants, but it's not so easy for me to see how.
