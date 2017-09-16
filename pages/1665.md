@@ -24,7 +24,7 @@ satisfying the universal property: given any pair $(g: A \to B, \eta: p \circ g 
 
 $$\zeta: g \Rightarrow \widetilde{f}$$ 
 
-such that $\varepsilon \bullet (p \circ \zeta) = \eta$. (Here $\circ$ refers to composition across a 0-cell, and $\bullet to composition across a 1-cell.) As with any universal description, the pair $(Rift_p f, \varepsilon)$ is unique up to unique 2-cell isomorphism. 
+such that $\varepsilon \bullet (p \circ \zeta) = \eta$. (Here $\circ$ refers to composition across a 0-cell, and $\bullet$ to composition across a 1-cell.) As with any universal description, the pair $(Rift_p f, \varepsilon)$ is unique up to unique 2-cell isomorphism. 
 
 A **left Kan lift** of $f$ through $p$, denoted $Lift_p f$, is a 1-cell $\widetilde{f}: A \to B$ equipped with a 2-cell 
 
@@ -62,7 +62,7 @@ This is the easier, more conceptual way to remember right Kan lifts: in a global
 ## Examples ## 
 
 * Let $Mod$ denote the [[framed bicategory]] of small categories $C$, bimodules $r: C \to D$ (i.e., functors $r: D^{op} \times C \to Set$), and transformations between such bimodules. Then global right Kan lifts exist (as do global right Kan extensions). These may be computed as [[weighted limit]]s or via [[end]] formulas, e.g., 
-$$(Rift_r s)(b, c) = \int_{d: D} hom(r(d, c), s(d, b)$$
+$$(Rift_r s)(b, c) = \int_{d: D} hom(r(d, c), s(d, b))$$
 
 Examples of this construction abound in mathematics, especially when generalized to the [[enriched category theory]] context. For example, in the bicategory $Rel$, which corresponds to enrichment in $\mathbf{2}$, the right Kan lift is essentially a universally quantified predicate of the form 
 
