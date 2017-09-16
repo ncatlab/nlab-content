@@ -1,5 +1,5 @@
 +--{: .standout}
-This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  In particular, if you have suggestions for a better name than SEAR, or if you've seen a similar theory somewhere else, please mention it!  -- [[Mike Shulman]]
+This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  -- [[Mike Shulman]]
 =--
 
 * a table of contents
@@ -390,6 +390,8 @@ _Toby_:  I was going to call my version 'SEAPS' until I realised that the 'A' wa
 [[David Roberts]]: How about SER and SEPS? And then SER-C and SEPS-C.
 
 [[Mike Shulman]]: I like SEAR better than SER, but SEPS isn't too bad.  Although I'd also still rather not make a big deal about the difference between the two.
+
+[[Mike Shulman]]: And actually, Subsets are just unary Relations.  So the version with subsets and products is also a theory of "sets, elements, and relations"---it's just that since it only uses unary relations, it also needs product operations on its sets and elements.
 =--
 
 An alternate formulation of the theory, suggested by Toby, has four primitive notions: sets, elements, subsets, and a pairing operation.  Sets and elements are as before.  A *subset* is, like an element, attached to a certain set; it is always a subset *of* some set.  Thus we have a typing declaration $S\subseteq A$.  We also have a primitive notion of when an element $x\in A$ *belongs to* a subset $S\subseteq A$; thus now we have $x\in S$ as a possible assertion of the theory (analogous to $R(x,y)$ before).  We allow a typed equality predicate for subsets.  Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$.
