@@ -7,11 +7,11 @@ For $X$ and $Y$ [[topological spaces]], a continuous map $X \to Y$ induces (in p
 
 * the [[inverse image]] $f^* : Sh(Y) \to Sh(X)$
 
-between the corresponding  [[Grothendieck topos|Grothendieck topoi]] of [[sheaf|sheaves]] on $X$ and $Y$. These are such that
+between the corresponding  [[Grothendieck topos|Grothendieck topoi]] of [[sheaf|sheaves]] on $X$ and $Y$. These are such that:
 
-* $f^*$ is [[adjoint functor|left adjoint]] to $f_*$
+* $f^*$ is [[adjoint functor|left adjoint]] to $f_*$, so $f^*$ preserves all small [[colimits]] and $f_*$ preserves all small [[limits]].
 
-* $f^*$ is [[exact functor|left exact]] in that it preserves finite [[limits]].
+* furthermore, $f^*$ is [[exact functor|left exact]] in that it preserves finite [[limits]].
 
 Morever, if $X$ and $Y$ are 
 [[sober space|sober]] [[topological spaces]]
@@ -40,7 +40,7 @@ such that the left adjoint $f^*:F \to E$ preserves finite [[limits]].
 
 #Remarks#
 
-* Since [[Grothendieck topos]]es satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small colimits must have a right adjoint.  Therefore, a geometric morphism between Grothendieck toposes could equivalently be defined as a functor preserving finite limits and all small colimits.
+* Since [[Grothendieck topos|Grothendieck toposes]] satisfy the (dual) hypotheses of Freyd's special [[adjoint functor theorem]], any functor $f^*$ between Grothendieck toposes which preserves all small colimits must have a right adjoint.  Therefore, a geometric morphism between Grothendieck toposes could equivalently be defined as a functor preserving finite limits and all small colimits.
 
 
 #Surjections and embeddings#
@@ -49,7 +49,7 @@ A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful fu
 
 +--{: .un_prop}
 ###### Proposition
-Up to equivalence, every [[geometric embedding|embedding]] of topoi is of the form 
+Up to equivalence, every [[geometric embedding|embedding]] of toposes is of the form 
 $$
   Sh_j(E) \to E
   \,,
@@ -71,13 +71,10 @@ Every geometric morphism $f:E\to F$ factors, uniquely up to equivalence, as a su
 #Examples#
 
 * For $E$ any [[topos]] and $k : B \to A$ any morphism in $E$ there is the [[base change|change-of-base]] functor of [[over category|over categories]] 
-
 $$
   k^* (E/A) \to (E/B)
 $$
-
 by [[pullback]]. As described at [[dependent product]] this functor has both a [[left adjoint]] $\coprod_k : E/B \to E/A$ as well as a [[right adjoint]] $\prod_k : E/A \to E/B$.  Therefore
-
 $$
   (\Pi_k, k^*) : E/B \leftrightarrow E/B
 $$
@@ -191,9 +188,9 @@ The points $x \in X$ of the topological space $X$ are in canonical bijection wit
 
 #References#
 
-Geoemtric morphisms are the topic of section VII of
+Geometric morphisms are the topic of section VII of
 
-* MacLan-Moerdijk, [[Sheaves in Geometry and Logic]].
+* Saunders MacLane and Ieke Moerdijk, [[Sheaves in Geometry and Logic]].
 
 Embeddings and surjections are discussed in section VII.4.
 
