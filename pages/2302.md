@@ -14,4 +14,8 @@ This entry provides hyperlinks for central keywords of the text
 
     * [[derived algebraic geometry]]
 
-  * [[derived smooth manifold]]
+      * [[derived scheme]]
+
+      * [[derived Deligne-Mumford stack]]
+
+    * [[derived smooth manifold]]
