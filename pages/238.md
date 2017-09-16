@@ -14,6 +14,29 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-07 #
 
+* [[Andrew Stacey|Andrew]]
+
+  * Heuristically altered records containing the word "heuristic".  The original list of records matching the search term "heuristic" is below (so anyone worried can check what I've done).  Most actually were references to [[heuristic introduction to sheaves, cohomology and higher stacks]] which obviously needs to be renamed before the other pages are changed (what's the best way to rename a page?  Is it: create a new one, copy over the content, put in a redirect, change all referring pages, mark old one for delete?  Or is there a simpler way?).  In a couple of the others the word was used in a discussion so I didn't change those.  One I even left as I thought it was (almost) correctly used!
+
+    * [[2009 April changes]]
+    * [[Categories and Sheaves]]
+    * [[General Discussion]]
+    * [[Grothendieck's Galois theory]]
+    * [[cohomology]]
+    * [[full functor]]
+    * [[geometric infinity-function theory]]
+    * [[heuristic introduction to sheaves, cohomology and higher stacks]]
+    * [[hyperstructure]]
+    * [[induced representation]]
+    * [[limit]]
+    * [[local system]]
+    * [[sheaf]]
+    * [[sheaf cohomology]]
+    * [[space and quantity]]
+    * [[stuff, structure, property]]
+    * [[weighted limit]]
+    * [[why (infinity,1)-categories?]]
+
 * [[Urs Schreiber|Urs]]
 
   * as a reaction to the discussion taking place there I expanded the text at [[simplicial model for weak omega-categories]] -- also added references
