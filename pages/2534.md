@@ -29,12 +29,6 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
    $$\mathcal{X}\cap\mathcal{Y} = \langle X\cap Y, \min(\mu_X,\mu_Y)\rangle.$$
 
-+--{.query}
-
-[[Eric]]: Moved this query and Toby's response to [[ericforgy:inner product of multisets]].
-
-=--
-
 *  The __[[union]]__ of multisets is the multiset whose cardinality is given by the [[supremum]] operation on cardinal numbers.
 
    $$\mathcal{X}\cup\mathcal{Y} = \langle X\cup Y, \max(\mu_X,\mu_Y)\rangle.$$
