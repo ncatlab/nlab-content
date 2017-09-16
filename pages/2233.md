@@ -10,11 +10,13 @@ _Extended quantum field theory_ (or _many-tiered quantum field theory_) is the [
 
 whereas 
 
-* [[category theory|1-categorical]] [[TQFT]] may be regarded as a rule that allows one to compute topological invariants $Z(\Sigma)$ assigned to $n$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $n$-dimensional composable [[cobordism]]s with $(n-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
+* [[category theory|1-categorical]] [[TQFT]] may be regarded as a rule that allows one to compute topological invariants $Z(\Sigma)$ assigned to $d$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $d$-dimensional composable [[cobordism]]s with $(d-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
 
 we have that
 
-* in extended [[TQFT]] $Z(\Sigma)$ may be computed by decomposing $\Sigma$ into pieces of arbitrary codimension $d$, i.e. into $(n-d)$-dimensional pieces.
+* in extended [[TQFT]] $Z(\Sigma)$ may be computed by decomposing $\Sigma$ into $d$-dimensional pieces with piecewise smooth boundaries, whose boundary strata are of arbitrary codimension $k$.
+
+
 
 For that reason extended QFT is also sometimes called **local** or **localized** QFT. In fact, the notion of locality in [[quantum field theory]] is precisely this notion of locality. And, as also discussed at [[FQFT]], this higher dimensional version of locality is naturally encoded in terms of [[higher category theory|n-functoriality]] of $Z$ regarded as a functor on a [[higher category theory|higher category]] of [[cobordism]]s.
 
