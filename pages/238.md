@@ -13,9 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-15
 
-[[Tim Porter|Tim]]: 
+* [[Mike Shulman|Mike]]: Created [[homotopy equivalence]] and [[weak homotopy equivalence]].
 
-* created [[I-category]] which includes an alternative axiomatisation of [[cylinder functor]].  This is needed for Baues' version of abstract homotopy theory. Some results and examples will need to be added later.
+* [[Tim Porter|Tim]]: 
+
+  * created [[I-category]] which includes an alternative axiomatisation of [[cylinder functor]].  This is needed for Baues' version of abstract homotopy theory. Some results and examples will need to be added later.
 
 
 # 2009-03-14
