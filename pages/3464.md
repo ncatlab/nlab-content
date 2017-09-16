@@ -27,4 +27,4 @@ which is one of the overall historical heights of the (quality content of the) p
 
 ...
 
-About the geographic place see wikipedia: [Como](http://en.wikipedia.org/wiki/Como).
+About the geographic place see wikipedia: [Como](http://en.wikipedia.org/wiki/Como) and the conference centre : [Villa Olmo](http://en.wikipedia.org/wiki/Villa_Olmo).
