@@ -2,7 +2,7 @@
 
 
 
-Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the integer [[group ring]]. Let $\epsilon:\mathbb{Z}F\to\mathbb{Z}$ be the map given by $\epsilon:x_i\mapsto 1$. Differentiation or [[derivation on a group|derivation]], $D$ in this context is defined using a sort of nonsymmetric analogue of the Leibniz rule: it is an additive map $D:\mathbb{Z}F\to\mathbb{Z}F$ such that for all $u,v\in F$, 
+Let $F$ be a [[free group]] with basis $X = \{ x_i\}_{i\in I}$ and $\mathbb{Z}F$ the integer [[group ring]]. Let $\epsilon:\mathbb{Z}F\to\mathbb{Z}$ be the map given by $\epsilon:x_i\mapsto 1$. Differentiation or [[derivation on a group|derivation]], $D$, in this context is defined using a sort of nonsymmetric analogue of the Leibniz rule: it is an additive map $D:\mathbb{Z}F\to\mathbb{Z}F$ such that for all $u,v\in F$, 
 
 $$D(u v) = D(u) + u D(v). $$ 
 
@@ -28,7 +28,7 @@ $$
 D(u)=\sum_{i\in I} \frac{\partial u }{\partial x_i} D(x_i)
 $$ 
 
-This is a finite sum since $u$ will only involve finitely many of the generators.) In particular the differentiation $u\mapsto u-\epsilon(u) 1_F$ (where $\epsilon:\mathbb{Z}F\to\mathbb{Z}$ is defined above) satisfies
+(This is a finite sum since $u$ will only involve finitely many of the generators.) In particular the differentiation $u\mapsto u-\epsilon(u) 1_F$ (where $\epsilon:\mathbb{Z}F\to\mathbb{Z}$ is defined above) satisfies
 
 $$
 u - \epsilon(u) 1_F = \sum_i \frac{\partial u }{\partial x_i} (x_i -1)
@@ -48,3 +48,5 @@ This construction is important in [[combinatorial group theory]], particularly i
 
 * R. Lindon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
 
+
+[[!redirects Fox derivatives]]
