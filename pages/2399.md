@@ -8,3 +8,6 @@ For the moment, all we have here is an expository piece:
 #References #
 
 * [[Yuri Manin]], _Frobenius manifolds, quantum cohomology and moduli spaces_, Amer. Math. Soc., Providence, RI, 1999, 
+
+[[!redirects Gromov-Witten theory]]
+[[!redirects Gromov-Witten invariant]]
