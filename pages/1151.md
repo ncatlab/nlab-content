@@ -514,15 +514,15 @@ Zoran: I am not happy with this assertion. First of all the notion of the derive
 =--
 
 
-#### Hochschild cohomology
+#### Hochschild and cyclic cohomology
 
-[[Hochschild cohomology]] as well as [[cyclic cohomology]]
+[[Hochschild cohomology]] 
 is the cohomology $\mathbf{H}(\mathcal{L}X , C)$ of 
-[[free loop space object]]s in a [[derived stack]]
+[[free loop space object]]s $\mathcal{L}X$ in a [[derived stack]]
 [[(∞,1)-topos]] $\mathbf{H}$ with coefficients in 
 [[quasicoherent ∞-stack|quasicoherent ∞-stacks of modules]] $C$.
-
-See [[Hochschild cohomology]] for details.
+There is a natural [[action]] of the circle $S^1$ on 
+the [[free loop space object]] $\mathcal{L}X$ and the corresponding $S^1$-[[equivariant cohomology]] is [[cyclic cohomology]].
 
 
 
