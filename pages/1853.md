@@ -26,9 +26,7 @@ Often in the literature by _cup product_ is meant specifically the realization o
 
 For $X$ a [[topological space]], let $\Pi(X)_\bullet := X^{\Delta_{Top}^\bullet}$ be the [[simplicial set]] of $n$-[[simplex|simplices]] in $X$ -- the [[fundamental ∞-groupoid]] of $X$.
 
-For $R$ some [[ring]], let $Maps(\Pi(X),R)^{\bullet}$ be the [[simplicial object|simplicial ring]] of $R$-valued functions on the spaces of $n$-simplices. The corresponding [[Moore complex|Moore cochain complex]] $C^\bullet(X)$ is the cochain complex whose [[chain homology and cohomology|cochain cohomology]] is the [[singular cohomology]] of the space $X$:
-
-a homogeneous element $\omega_p \in C^p(X)$ is a function on $p$-simplices in $X$.
+For $R$ some [[ring]], let $Maps(\Pi(X),R)^{\bullet}$ be the [[simplicial object|simplicial ring]] of $R$-valued functions on the spaces of $n$-simplices. The corresponding [[Moore complex|Moore cochain complex]] $C^\bullet(X)$ is the cochain complex whose [[chain homology and cohomology|cochain cohomology]] is the [[singular cohomology]] of the space $X$: a homogeneous element $\omega_p \in C^p(X)$ is a function on $p$-simplices in $X$.
 
 Write, as usual, for $p \in \mathbb{N}$, $[p] = \{0 \lt 1 \lt \cdots \lt p\}$ for the [[poset|totally ordered set]] with $p+1$ elements. For $\mu : [p] \to [p+q]$ an injective order preserving map and $K$ some [[simplicial object|cosimplicial object]], write $d_\mu^* K : K^p \to K^{p+q}$ for the image of this map under $K$.
 
