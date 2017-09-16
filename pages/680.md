@@ -28,7 +28,7 @@ $$Nerve(G)_n= Gpd(\pi_1(\Delta^n,\Delta^n_0) , G).$$
 
 where $\Delta^n_0$ denotes the set of vertices of $\Delta^n$. 
 
-A filtered space $X_*$ has a fundamental crossed complex $\Pi X_*$, and a geometric simplex $\Delta^n$ has a filtration $\Delta^n_*$ by skeleta. The nerve of a [[crossed complex]] $C$ is then the simplicial set given in dimension $n$ by 
+A [[filtered space]] $X_*$ has a fundamental crossed complex $\Pi X_*$, and a geometric simplex $\Delta^n$ has a filtration $\Delta^n_*$ by skeleta. The nerve of a [[crossed complex]] $C$ is then the simplicial set given in dimension $n$ by 
 
 $$Nerve(C)_n= Crs(\Pi(\Delta^n_*, C).$$
 
