@@ -36,8 +36,13 @@ Relevant topics in a full account will include
 
 * [[Maxwell equation]] 
 
-* [[unitary representations of the real line|Stone's theorem]] 
+* [[Stone's theorem]] 
 
 * [[Mackey theory]]
 
 Much lies ahead... 
+
+
+[[!redirects unitary irreps of the Poincare group]]
+[[!redirects unitary irrep of the Poincaré group]]
+[[!redirects unitary irreps of the Poincaré group]]
