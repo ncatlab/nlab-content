@@ -24,7 +24,7 @@ The archetypical example of a category is the category [[Set]] of [[set]]s and f
 
 The classical examples of categories are [[concrete category|concrete categories]] whose [[object]]s are [[stuff, structure, property|sets with extra structure]] and whose [[morphism]]s are structure preserving functions of sets, such as [[Top]], [[Grp]], [[Vect]].  These are the examples from which the term _category_ derives: these categories literally _categorize_ mathematical structures by packing structures of the same _type_ (same category) and structure preserving mappings between them into a single whole structure, a category.
 
-But by far not all categories are of this type and categories are much more versatile than these classical examples suggest. After all, a [[category]] is just a [[directed graph]] with a notion of composition of its edges. As such it generalizes the concept of [[monoid]]. If the category is a [[groupoid]] it generalizes the concept of [[group]] (in a sense called [[horizontal categorification]]). 
+But by far not all categories are of this type and categories are much more versatile than these classical examples suggest. After all, a [[category]] is just a [[directed graph]] with a notion of composition of its edges. As such it generalizes the concepts of [[monoid]] and [[poset]]. If the category is a [[groupoid]] it generalizes the concept of [[group]] (in a sense called [[horizontal categorification]]).  Thinking of a category as a generalized poset is particularly useful when studying [[limits]] and [[adjoint functors|adjunctions]].
 
 Archetypical examples of non-[[concrete category|concrete]] categories are the [[fundamental groupoid]] of a [[topological space]] and the [[fundamental category]] of a [[directed space]]. 
 =--
@@ -181,7 +181,7 @@ An imperfect perspective of category theory (for the purpose of classifying arti
 #Main principle of category theory#
 Category theory has a main principle:
 
-_In any category it is unnatural and undesirable to speak about equality of two objects_.
+_In any category it is unnatural and undesirable to speak about equality of two objects_.  See [[evil]].
 
 For the theorem accepted as the fundamental theorem of category theory see the [[Yoneda lemma]].
 
@@ -265,7 +265,7 @@ I am also thinking about a chapter "Higher category theory". So far i am thinkin
 Here are some fields to which category theory has been applied; ultimately we should have articles on all of them.
 
 * [[physics]] (ex: categorical spacetime in quantum gravity, the category of elementary particles and particle interactions, QFT and quantization)
-* [[computer science]] (ex: data types, artificial intelligence)
+* [[computer science]] (ex: data types, artificial intelligence, programming language semantics)
 * [[categorical dynamics]]
 * [[neural network]]s
 * [[psychology]] (ex: perception, cognition, consciousness, teaching, knowledge)
