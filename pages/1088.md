@@ -34,7 +34,7 @@ The following indicates how choices of systems of local isomorphisms are equival
 
 ## Local epimorphisms from local isomorphisms ##
 
-A system of [[local epimorphism]]s is defined from a system of local isomorphisms by declaring that $f : Y \to X$ is a [[local epimorphism]] precisely if $im(f) \to B$ is a local isomorphism.
+A system of [[local epimorphism]]s is defined from a system of local isomorphisms by declaring that $f : Y \to X$ is a [[local epimorphism]] precisely if $im(f) \to X$ is a local isomorphism.
  
 
 ## Local isomorphisms from local epimorphisms ##
