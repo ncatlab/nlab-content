@@ -53,12 +53,12 @@ A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(infinity,1)-category
  
 
 * $X$ is an [[(infinity,1)-category of (infinity,1)-sheaves]]: in other words, there exists a small [[(infinity,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(infinity,1)-functor]] $\bar {(-)} : PSh(S) \to X$
-from [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]].
+from [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
 * $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
-  * $X$ is [[presentable category|presentable]];
-  * [[(infinity,1)-colimit]]s in $X$ are universal;
-  * [[coproduct]]s in $X$ are [[disjoint coproducts|disjoint]];
+  * $X$ is [[presentable (infinity,1)-category|presentable]];
+  * [[limit in quasi-categories|(infinity,1)-colimit]]s in $X$ are universal;
+  * [[coproduct]]s in $X$ are [[disjoint coproduct|disjoint]];
   * every [[groupoid object]] in $X$ is [[quotient object|effective]]. 
 
 #References#
