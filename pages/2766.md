@@ -20,6 +20,10 @@ c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
 $$
 commute.
 
+## Terminology
+
+Given a cone morphism $\Delta(\phi):\Delta(c)\to\Delta(c')$, often the component $\phi:c\to c'$ itself is referred to as the cone morphism.
+
 +--{.query}
 [[Eric]]: What is the "component free" way to say that?
 
