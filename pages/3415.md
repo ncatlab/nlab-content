@@ -18,6 +18,7 @@ There is a [[model category]] structure on the category [[SSet]] --  the **[[And
 > for the moment, see the corresponding section at [[model structure on simplicial sets]]
 
 [[!redirects Joyal model structure]]
+[[!redirects Joyal model structure on simplicial sets]]
 [[!redirects model structure on quasicategories]]
 [[!redirects model structure on quasi-categories]]
 [[!redirects model structure for quasicategories]]
