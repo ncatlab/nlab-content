@@ -5,7 +5,7 @@ In a [[quasi-category]] the notion of [[terminal object]] in an ordinary [[categ
 
 #Definition#
 
-Let $C$ be a [[quasi-category]] and $c \in C$ one of its [[object]]s (a vertex in the corresponding [[simplicial set]]). The object $c$ is a **terminal object** in $C$ if the either of following equivalence conditions hold:
+Let $C$ be a [[quasi-category]] and $c \in C$ one of its [[object]]s (a vertex in the corresponding [[simplicial set]]). The object $c$ is a **terminal object** in $C$ if the following equivalent conditions hold:
 
 * The projection from the [[over quasi-category|over category]] $C_{/c} \to C$ is a [[model structure on simplicial sets|trivial fibration of simplicial sets]].
 
