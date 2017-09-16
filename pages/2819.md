@@ -7,7 +7,19 @@
 
 A **Hurewicz fibration** $p:E\to B$ is a [[continuous map]] of [[topological spaces]] that satisfies the [[right lifting property]] with respect to maps $\sigma_0:X\cong X\times\{0\}\hookrightarrow X\times I$ for *all* topological spaces $X$. 
 
-This right lifting property is in this context called the **homotopy lifting property**, because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $\tilde{f}:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $\tilde{F}_0=\tilde{f}$ and $F=p\circ\tilde{F}$. 
+This right lifting property is in this context called the [[homotopy lifting property]], because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $f:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $f =\tilde{F}
+\circ\sigma_0 :=\tilde{F}_0$ and $F=p\circ\tilde{F}$: 
+
+$$
+  \array{
+    X &\stackrel{f}\to& E
+    \\
+    \downarrow^{\sigma_0} &{}^{\tilde{F}}\nearrow&  \downarrow^p
+    \\
+    X\times I &\stackrel{F}{\to}& B
+  }
+  \,.
+$$
 
 Instead of checking the homotopy lifting property, one can instead solve a universal problem, see [[Hurewicz connection]].
 
