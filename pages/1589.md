@@ -11,7 +11,7 @@ This entry collects material on the [[Oberwolfach]] workshop
 
 * ID:         0924
 
-## Talks
+## Talks [[Oberwolfach 2009 - Abstracts]]
 
 * **Thomas Schick**, _Smooth cohomology theories_.
 
@@ -2185,6 +2185,4 @@ $$
 is given by the bimodule called $L^2(A)$
 
 this comes from the following: if $X$ is a measure space and $A$ arises as 
-$L^\infty(X)$ then $L^2(A)$ is $L^2(X)$.
-
-th
+$L^\infty(X
