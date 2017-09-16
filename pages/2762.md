@@ -158,6 +158,17 @@ Using this, we have a general and a specific notion of spaces modeled on $\mathc
       \,.
     $$
 
+**fact** (roughly) 
+
+the inclusion of geometric spaces into all $\infty$-presheaves does land in the $\infty$-shaves, hence in the general spaces, and as such is a [[full and faithful functor]] 
+
+**proof**
+
+the second statement is theorem 2.4.1, the first one is lemma 2.4.13 in 
+
+* [[Jacob Lurie]], [[Structured Spaces]]
+
+
 
 ## sheaves on $(\infty,1)$-toposes ##
 
@@ -193,7 +204,25 @@ With the above machinery for [[higher geometry]] in hand, we now set out to desc
 
 * [[derived elliptic curve]]
 
+$$
+  A \mapsto E(A)
+$$
+
 ## the derived moduli stack ##
+
+Here is in words what this is all about:
+
++-- {: .standout}
+
+We do have a generalized space of derived ellictpic curves $E$. 
+
+**Question**: is this a geometric space?
+
+**Answer** Yes. It is represented by a derived scheme.
+
+=--
+
+
 
 Let $\mathcal{M}_{1,1}$ be the ordinary [[moduli stack]] of [[elliptic curve]]s. 
 
