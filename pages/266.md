@@ -154,7 +154,7 @@ Kan extensions that are computed by limits and colimits are sometimes called **p
 
 The basic example for left Kan extensions using the above formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
 On the other hand, given a presheaf $G$ over $Y$ we can not
-define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be open in general (unless $f$ is an open map). For Grothendieck sites such $f(V)$ would not make even sense. But one can consider pproximating from above by $G(W)$ for all $W\supset f(V)$ which are open and take a colimit of this diagram of inclusions (all $W$ are bigger, so getting down to the lower bound means going reverse to the direction of inclusions). But inclusion $f(V)\subset W$ implies $V\subset f^{-1}(f(V))\subset f^{-1}(W)$. The latter identity $V\subset f^{-1}(W)$ involves _only open sets_. Thus we take a colimit over the comma category $(V\downarrow f^{-1})$ of $G$. If $G$ is a sheaf, the colimit $G(V)$ understood as a rule $V\mapsto G(V)$ is still not a sheaf, we need to sheafify. The result is sheaf-theoretic pullback 
+define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be open in general (unless $f$ is an open map). For Grothendieck sites such $f(V)$ would not make even sense. But one can consider approximating from above by $G(W)$ for all $W\supset f(V)$ which are open and take a colimit of this diagram of inclusions (all $W$ are bigger, so getting down to the lower bound means going reverse to the direction of inclusions). But inclusion $f(V)\subset W$ implies $V\subset f^{-1}(f(V))\subset f^{-1}(W)$. The latter identity $V\subset f^{-1}(W)$ involves _only open sets_. Thus we take a colimit over the comma category $(V\downarrow f^{-1})$ of $G$. If $G$ is a sheaf, the colimit $G(V)$ understood as a rule $V\mapsto G(V)$ is still not a sheaf, we need to sheafify. The result is sheaf-theoretic pullback 
 $$
 f^{-1}G = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{V\hookrightarrow f^{-1}W} G(W)) = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{(V\downarrow f^{-1})} G)
 $$ 
@@ -230,7 +230,7 @@ $$
 $$
   U \mapsto f^{-1}(U)
 $$
-of open subsets. This means that when a functor $O(X)^{op} \to Set$ is thought of as a presheaf on a site, then what looks like a pullback of functors along $p = f^{-1}$ corresponds geometrically to a _push-forward_ of pre-sheaves. Therefor in [[presheaf]] literature (such as [[Categories and Sheaves]])  the functor induced by $p$ is usually denoted $p_*$ and not $p^*$.
+of open subsets. This means that when a functor $O(X)^{op} \to Set$ is thought of as a presheaf on a site, then what looks like a pullback of functors along $p = f^{-1}$ corresponds geometrically to a _push-forward_ of pre-sheaves. Therefore in [[presheaf]] literature (such as [[Categories and Sheaves]])  the functor induced by $p$ is usually denoted $p_*$ and not $p^*$.
 
 It is however noteworthy that also the opposite perspective does occur in geometrically motivated examples. For instance 
 
