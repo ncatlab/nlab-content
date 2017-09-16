@@ -15,7 +15,11 @@ As for ordinary homotopy groups, an $n$th simplicial homotopy 'group' is really 
 
 So if one were to strictly follow the perspective of the above paragraph, the concept would become a bit empty.
 
-In contrast to that I think that for simplicial homotopy groups the point really is to have them as groups and not as groupoids, for here they are a tool and means to characterize $\infty$-groupoids and in particular their weak equivalence classes.
+In contrast to that I think that for simplicial homotopy groups the point really is to have them as groups and not as groupoids, for here they are a tool and means to characterize $\infty$-groupoids and in particular their weak equivalence classes.\
+
+[[Tim Porter|Tim]]:  I sort of agree. The point may be that the Kan complex $\infty$-groupoid is quite difficult to analyse and the homotopy groups provide a good first step in that process.  Here we are at the interface between the interests of infinity category theory and homotopy theory. The tools of algebraic topology such as the homotopy groups tell us only a tiny bit about the overall infinity category structure, but they do tell us something, and I believe one good thing to come out of the Lab may be to provide some ways of interpreting between the two areas. I disagree however that the homotopy groups are somehow better than groupoids except that the *family* of all n-th homotopy groups of $X$ can either be thought of as a family or as the disjoint union groupoid of its members! I am thinking ahead to the operation of the fundamental groupoid on that family. WHich should be prefered, homotopy groups as family, homotopy groups as groupoids or homotopy groups as modules over the fundamental groupoid!  I do not know.
+
+Eventually I have wanted to bridge the gap between simplicial groups / inifity groupoids etc., and the Pi algebras studied by David Blanc and others.  These consist of the homotopy groups plus the actions of the fundamental group(oid) and the primary homotopy operations. I do not yet know how to link up each of those structures with the infinity cat viewpoint.
 
 =--
 
