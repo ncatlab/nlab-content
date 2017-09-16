@@ -57,6 +57,7 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[2-morphism]]
 * $(\infty,1)$-[[(infinity,1)-category]]
 * $\infty$-[[infinity-stack|stack]]
+* [[adjunction]]
 * [[bicategory]]
 * [[category]]
 * [[Crans-Gray tensor product]]
