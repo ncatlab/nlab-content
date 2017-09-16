@@ -6,9 +6,13 @@ Their Generalizations: Quantum and Infinite-Dimensional Methods_, _Proc. Sympos.
 
 There is also a more abstract characterization of such categories, described here:
 
-* Martin Neuchl, [_Representation Theory of Hopf Categories_]({http://math.ucr.edu/home/baez/neuchl.ps),
+* Martin Neuchl, [_Representation Theory of Hopf Categories_](http://math.ucr.edu/home/baez/neuchl.ps),
 Ph.D. dissertation, University of Munich, 1997.
 
 * David Yetter, [Categorical linear algebra---a setting for questions from physics and low-dimensional topology](http://math.ucr.edu/home/baez/yetter.pdf), Kansas State University preprint.
 
 [[!redirects Kapranov-Voevodsky 2-vector spaces]]
+[[!redirects Kapranov--Voevodsky 2-vector space]]
+[[!redirects Kapranov–Voevodsky 2-vector space]]
+[[!redirects Kapranov--Voevodsky 2-vector spaces]]
+[[!redirects Kapranov–Voevodsky 2-vector spaces]]
