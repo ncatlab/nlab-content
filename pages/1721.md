@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include cohomology - contents]]
+</div>
 
 What is called generalized Eilenberg-Steenrod cohomology is really the general _fully abelian_ subcase of [[cohomology]]. 
 
