@@ -27,3 +27,5 @@ $Fun(C,D)$ is indeed a [[quasi-category]].
 section 1.2.7 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects (∞,1)-category of (∞,1)-functors]]
