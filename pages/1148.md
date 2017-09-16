@@ -98,4 +98,4 @@ of hom-spaces $H(X,A)$ is in the list of observations on p. 9, culminating in th
 cohomologies and hom-spaces in the proof of theorem
 2 on the bottom of page 10.
 
-In this old article Ken Brown of ccourse uses a [[model category|1-categorical model]] for the [[(infinity,1)-category|(infinity,1)-categories]] $H$ and $H_{ab}$, namely a [[category of fibrant objects]].
+In this old article Ken Brown of course uses a [[model category|1-categorical model]] for the [[(infinity,1)-category|(infinity,1)-categories]] $H$ and $H_{ab}$, namely a [[category of fibrant objects]].
