@@ -44,7 +44,7 @@ A useful place to start reading about Courant algebroids its
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
 
-This proceeds from the perspective of [[n-symplectic manifold]]s and derives the fact that 2 2-symplectic manifold encodes and is encoded by a Courant algebroid.
+This proceeds from the perspective of [[n-symplectic manifold]]s and derives the fact that a 2-symplectic manifold encodes and is encoded by a Courant algebroid.
 
 Another useful summary of the theory of Courant algebroids is in [section 3](http://arxiv.org/PS_cache/math/pdf/0401/0401221v1.pdf#page=19) of
 
