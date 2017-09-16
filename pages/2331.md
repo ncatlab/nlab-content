@@ -1,5 +1,27 @@
 
-Related entries: [[cotangent complex]], [[Maurer-Cartan equation]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. Deformation problems are often phrased in terms of [[differential graded Lie algebra]]s.
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+...
+
+## Related entries
+
+* [[cotangent complex]]
+
+* [[Maurer-Cartan equation]]
+
+* [[derived algebraic geometry]]
+
+* [[formal scheme]]
+
+* [[formal smoothness]]. 
+
+Deformation problems are often phrased in terms of [[differential graded Lie algebra]]s.
+
+## References
 
 * Alexander I. Efimov, Valery A. Lunts, Dmitri O. Orlov, _Deformation theory of objects in homotopy and derived categories_ 
    * _I: general theory_ [arXiv:math/0702838](http://arxiv.org/abs/math/0702838);
@@ -9,7 +31,7 @@ Related entries: [[cotangent complex]], [[Maurer-Cartan equation]], [[derived al
 * E. Sernesi, _Deformations of algebraic schemes_
 Grundlehren der Math. Wiss. __334__, Springer 2006. xii+339 pp. MR2247603 (2008e:14011)
 
-* M. Kontsevich, Y. Soibelman, _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241)
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241)
 
 * Wikipedia: [deformation theory](http://en.wikipedia.org/wiki/Deformation_theory), [cotangent complex] (http://en.wikipedia.org/wiki/Cotangent_complex)
 
@@ -28,6 +50,6 @@ __253__, n. 1, 25--62 (2006) [doi:10.1007/s00209-005-0875-9](http://dx.doi.org/1
 
 * M. Doubek, M. Markl, P. Zima, _Deformation theory (lecture notes)_, Archivum mathematicum __43__ (5), 2007, 333--371, [arXiv:0705.3719](http://arxiv.org/abs/0705.3719)
 
-* J. Lurie, _Derived algebraic geometry IV: deformation theory_, [arXiv:0709.3091](http://arxiv.org/abs/0709.3091)
+* [[Jacob Lurie]], [[Deformation Theory]] ([arXiv:0709.3091](http://arxiv.org/abs/0709.3091))
 
 * W. Lowen, M. Van den Bergh, _Deformation theory of abelian categories_, Trans. Amer. Math. Soc. __358__  (2006),  no. 12, 5441--5483; [arXiv:math.CT/0405226](http://arxiv.org/abs/math/0405226).
