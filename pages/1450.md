@@ -19,6 +19,8 @@ In this vein, Anders Kock, in a long series of articles, reformulates large part
 
 *  Online first edition of [Synthetic Differential Geometry](http://home.imf.au.dk/kock/sdg99.pdf) by [[Anders Kock]]
 
+*  A preprint of [[Anders Kock]]'s new book _Synthetic Geometry of Manifolds_ is available at his [homepage](http://home.imf.au.dk/kock/).
+
 
 ###Exposition###
 
