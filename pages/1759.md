@@ -13,6 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-07-29
+
+* [[David Roberts]]: cleaning up the [links](http://en.wiktionary.org/wiki/links#English) is clearly the job of the golf department
 
 ## 2009-07-28
 
