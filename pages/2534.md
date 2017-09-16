@@ -55,6 +55,12 @@ wreath products.
 
 [[Mike Shulman]]: Huh.  So his definition takes a multiset to assign a *set* to every element, rather than a *cardinality* to every element, so that the multisubsets of $U$ are exactly objects of $Set/U$.  I'm surprised, though, that with his definition the only functions $\{1,1\} \to \{2,3\}$ are constant; why can't I send the two copies of $1$ to different places?
 
+_Toby_:  If you could, then $\{1,1\}$ and $\{2,3\}$ would be isomorphic in this category, and we\'d just have $Set$ back again.
+
+I find _Mathematics of Multisets_ especially interesting for its distinction between multisets with *distinguishable* objects and 'pure' multisets with *indistinguishable* objects.  The definition above involving cardinal numbers gives us 'pure' multisets, unlike the objects of the category $MSet$ above.
+
+Normally, one only needs multisubsets of a given set, and one is not interested in functions between them.  But if one wants to make a category of abstract multisets, then the pure and impure versions are different!
+
 ## Examples
 
 ...
