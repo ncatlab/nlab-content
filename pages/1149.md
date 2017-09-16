@@ -1,4 +1,4 @@
-The following is (supposed to be) a pedagogical motivation of the concepts [[sheaf]], [[stack]], [[infinity-stack]] and [[Higher Topos Theory|higher topos theory]]. It assumes only that the reader has a heuristic knowledge of [[topological space]]s and aims to provide from that a heuristic but useful idea of the relevance of the circle of ideas of [[Categories and Sheaves|categories and sheaves]], [[nonabelian cohomology]], [[sheaf cohomology]] and a bit of [[Higher Topos Theory|higher topos theory]].
+The following is (supposed to be) a pedagogical motivation of the concepts [[sheaf]], [[stack]], [[infinity-stack]] and [[Higher Topos Theory|higher topos theory]]. It assumes only that the reader has a working knowledge of [[topological space]]s and aims to provide from that an intuitive but useful idea of the relevance of the circle of ideas of [[Categories and Sheaves|categories and sheaves]], [[nonabelian cohomology]], [[sheaf cohomology]] and a bit of [[Higher Topos Theory|higher topos theory]].
 
 # Motivation: maps between topological spaces #
 
@@ -49,7 +49,7 @@ $$
 * the generalization of the notion of _space_ which does
  accomplish this: the notion of a [[sheaf]]
 
-  * (there is a very general abstract nonsense way to understand [[sheaf|sheaves]] as generalized spaces in the context of a very general abstract [[duality]] between the notions of  [[space and quantity]]. The following is a heuristic way to understand this).
+  * (there is a very general abstract nonsense way to understand [[sheaf|sheaves]] as generalized spaces in the context of a very general abstract [[duality]] between the notions of  [[space and quantity]]. The following is an informal way to understand this).
 
 
 # the basic idea of sheaves #
