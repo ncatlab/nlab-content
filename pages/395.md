@@ -62,7 +62,32 @@ This data has to satisfy the following properties:
 
     * the category of [[strict omega-groupoid]]s using the [[model structure on strict omega-groupoids]]
 
-  Concerning the first example, notice that [[SSet]] is also a _category of co-fibrant objects_ (i.e. $SSet^{op}$ is a category of fibrant objects) so that [[Kan complex]]es are in fact cofibrant and fibrant. That makes much of the technology discussed below superfluous, since it means that the right notion of $\infty$-morphism between Kan complexes is already the ordinary notion. 
++-- {: .un_prop}
+###### Proposition
+
+[[nLab:Kan complex|Kan complexes]] form a [[nLab:category of fibrant objects|Brown category of fibrant objects]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[path object]] of any $X$ can be chosen to be the [[nLab:internal hom|internal hom]]
+
+$$
+  X^I = [\Delta^1, X]
+$$
+
+in with respect to the [[closed monoidal structure on presheaves|closed monoidal structure on]] [[SSet]] with the simplicial 1-[[simplex]] $\Delta^1$.
+
+The stability of fibrations and acyclic fibrations
+follows from the above fact that both are characterized
+by a [[nLab:weak factorization system|right lifting property]] (as described a [[model structure on simplicial sets]]).
+
+=--
+
+
+  Concerning the example of [[Kan complex]]es, notice that [[SSet]] is also a _category of co-fibrant objects_ (i.e. $SSet^{op}$ is a category of fibrant objects) so that [[Kan complex]]es are in fact cofibrant and fibrant. That makes much of the technology discussed below superfluous, since it means that the right notion of $\infty$-morphism between Kan complexes is already the ordinary notion. 
 
   But then, often it is useful to model Kan complexes using the [[Dold-Kan correspondence]], and then the second example becomes relevant, where no longer ever object is cofibrant.
 
