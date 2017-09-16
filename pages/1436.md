@@ -64,3 +64,5 @@ and
 
 [[!redirects Fuks duality]]
 [[!redirects Fuchs duality]]
+[[!redirects Eckmann–Hilton duality]]
+[[!redirects Eckmann--Hilton duality]]
