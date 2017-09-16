@@ -1,6 +1,6 @@
 #Idea#
 
-Nonstandard analysis is a formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s.
+Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated; moreover not only the field of real numbers, but more general algebraic structures can be extended, essentially via a construction of ultraproducts; also general sets can be extended to contain nonstandard elements (see [[internal set]]). 
 
 ##Motivation##
 
@@ -52,3 +52,5 @@ In this model of nonstandard analysis a version of the transfer principle (in te
 #References#
 
 * Sergio Albeverio, Jens Erik Fenstad, Raphael Hoegh-Krohn, _Nonstandard methods in stochastic analysis and mathematical physics_, Academic Press 1986 (there is also a Dover 2009 edition and a 1990 Russian translation)
+
+* Jerome Keisler, _Elementary calculus: an infinitesimal approach_, [online](http://www.math.wisc.edu/~keisler/calc.html) undergraduate textbook.
