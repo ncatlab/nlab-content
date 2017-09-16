@@ -29,4 +29,6 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 * [[Kan extension]]
 * etc
 
++--{.On page 3, he writes: "Usually, one has a classical `action' of some kind definedned for manifolds with some extra structure, e.g. a riemannian metric, a symplectic form, a principalbundle, or etc. Quantization is what happens when one tries to assign that same action to a manifold that does not have that structure!" So, what is a manifold without that structure, a topological one? Or less than that? Or is the minimum structure non quantum structure?}
+
 category: reference
