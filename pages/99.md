@@ -8,6 +8,8 @@ In as far as a [[Chevalley-Eilenberg algebra]] of an $L_\infty$-[[Lie infinity-a
 Warning: the X in the Idea section is not the X in this definition. I suggest calling it M and saying that M is the manifold with algebra of functions the degree zero part of $CE(\mathfrak{g})$.  ---Maarten
 
 What if anything is the relationship between the $\mathbf{X}$ above and the $X$ (or $M$) here?  (Sorry, I don\'t know anything about this stuff.)  ---Toby
+
+$CE(\mathfrak{g})$ is the graded supercommutative ring of functions on the NQ-supermanifold X and M is ordinary manifold with functions the degree 0 part of $CE(\mathfrak{g})$. X maps to M, but is much bigger. ---Maarten
 =--
 
 For $CE(\mathfrak{g}) = \wedge^\bullet_{C^\infty(X)} \mathfrak{g}^*$ the Chevalley-Eilenberg algebra of a $L_\infty$-[[Lie infinity-algebroid|algebroid]] $g$ over $X$, the corresponding Weil algebra is
