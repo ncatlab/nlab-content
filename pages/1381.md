@@ -51,6 +51,12 @@ such that
 
 * There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal (infinity,1)-category]] _underlying_ a symmetric monoidal $(\infty,1)$-category $p : C^\otimes \to N(FinSet_*)$ is the [[(infinity,1)-pullback]] of $p$ along $\varphi$.
 
+#Examples#
+
+* [[stable (infinity,1)-category of spectra]]
+
+* [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
+
 #References#
 
 The defintion of symmetric monoidal quasi-category is definition 1.2 in 
