@@ -12,3 +12,6 @@ Frequently one also considers $\mathbb{N}$-graded (or _nonnegatively graded_) ch
 
 Note that in particular, a chain complex is a [[graded object]] with extra structure.  This extra structure can be codified as a map of graded objects $d:V\to T V$, where $T$ is the 'shift' endofunctor of the category $Gr(V)$ of graded objects in $C$, such that $T(d) \circ d = 0$.  More generally, in any pre-additive category $G$ [[category with translation|with translation]] $T : G \to G$, we can define a **chain complex** to be a [[differential object]] $d_V : V \to T V$ such that $V \stackrel{d_V}{\to} T V \stackrel{T(d_V)}{\to} T T V$ is the [[zero morphism]].  When $G= Gr(C)$ this recovers the original definition.
 
+###Terminology
+
+When discussing chain or cochain complexes within the area of [[differential algebra]], the terminology [[differential graded vector space]] is used, since this is then consistent with other terminology such as [[differential graded algebra]]. 
