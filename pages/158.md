@@ -2,7 +2,7 @@ An $\infty$-groupoid -- equivalently an [[(∞,0)-category]] is an [[∞-categor
 
 #Models#
 
-Familiar models for the catgeory [[∞Grpd]] of _weak_ $\infty$-groupoids are 
+Familiar models for the catgeory [[∞-Grpd]] of _weak_ $\infty$-groupoids are 
 
 * [[simplicial set]]s equipped with the standard [[model structure on simplicial sets]];
 
@@ -13,6 +13,7 @@ Familiar models for the catgeory [[∞Grpd]] of _weak_ $\infty$-groupoids are
 #Strict $\infinity$-groupoids#
 
 Entirely strict $\infty$-groupoids, usually called $\omega$-groupoids or [[strict omega-groupoid|strict omega-groupoids]], are equivalent to [[crossed complex|crossed complexes]].
+
 
 [[!redirects ∞-groupoid]]
 [[!redirects ∞-groupoids]]
