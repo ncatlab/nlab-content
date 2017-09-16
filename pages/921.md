@@ -1,3 +1,5 @@
+[[!redirects real numbers]]
+
 # Idea #
 
 A real number is an approximation of a rational number.  (This is if you use the usual ordering of rational numbers; others will give the idea of $p$-[[p-adic number|adic numbers]].)
