@@ -221,9 +221,16 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 ##6 $\infty$-Topoi##
 
+
 * [[∞-topos]]
 
   * [[(∞,1)-topos]]
+
+* [[Giraud's axioms]]
+
+  * [[[[groupoid object in an (∞,1)-category]]]]
+
+  * [[universal colimits]]
 
 * [[(∞,1)-category of (∞,1)-sheaves]]
 
