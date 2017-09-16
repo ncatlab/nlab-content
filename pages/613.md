@@ -5,6 +5,10 @@ The fundamental $\infty$-groupoid of a topological space $X$ is supposed to be t
 * In the context of $\infty$-groupoids modeled as [[Kan complex]]es, the fundamental $\infty$-groupoid is simply the [[simplicial set]] familiar as the _singlular simplicial complex_ $S(X)$ of a space, where $S(X)^n = Top(\Delta^n, X)$
 with $\Delta^n$ denoting the standard topological $n$-[[simplex]] (familiar from [[geometric realization]]).
 
+
+* [[Ronnie Brown|Ronnie]] One can also take a cubical approach, and suggest that the "obvious" notion of $k$-dimensional path in $X$ is a map $I^n \to X$ where $I^n$ is the $n$-cube. The cubical singular complex $S^\square X$ has the nice properties of a  [[compositions in cubical sets]] including inverses and connections, as well as being a cubical [[Kan complex]]. All these properties are exploited in the work on [[higher homotopy van Kampen theorem]]s, using the fundamental homotopy omega-groupoid of a filtered space. 
+
+
 * The definition of [[Trimble n-category]] has the concept of fundamental $n$-groupoid built right into it.
 
 * (... Batanin's weak fundamental $\omega$-groupoid)
