@@ -139,8 +139,9 @@ Modern Physics Letters A, 5 7, 487--494
 
 
 
+#Related entries#
 
-
+* [[homotopy BV algebra]]
 
 #Further discussion#
 
