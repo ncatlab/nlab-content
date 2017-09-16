@@ -44,20 +44,13 @@ $$
 
 There is another way to characterize $({}_\perp C)_\perp$.
 
-+-- {: .un_defn}
-###### Definition
-
-A collection $S \subset Mor(C)$ of morphisms is called 
-**closed under pushout, retract and transfinite composition** if ...
-=--
-
 +-- {: .un_prop}
 ###### Proposition
 
 If $C$ is [[presentable category|presentable]], and $C_0$ is any set
 of morphisms, then $({}_\perp C_0)_\perp$ is 
 the smallest collection containing $C_0$ that is closed under 
-pushout, retracts and transfinite composition.
+[[pushout]], [[retract]]s and [[transfinite composition]].
 =--
 
 +-- {: .proof}
