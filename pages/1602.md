@@ -15,7 +15,7 @@ Recall from the discussion at [[quantum anomaly]] the following situation:
 
     * this is a section of the Pfaffian line bundle for the Dirac operator
 
-  * the action functional for [[differential cohomology|differential cocycles]] (higher connection, higher gauge theory) in the presence of electric and magnetic charges: 
+  * the action functional for [[differential cohomology|differential cocycles]] (higher connection, higher [[gauge theory]]) in the presence of electric and magnetic charges: 
 
     * this is a section of the transgression of the line bundle arising as the cup product of the electric and magnetic differential cocycles
 
