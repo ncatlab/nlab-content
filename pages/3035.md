@@ -18,7 +18,7 @@
 * [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]]
 
 
-## $\infty$-Lie groupoids
+## ∞-Lie groupoids
 
 * [[schreiber:∞-Lie groupoid|∞-Lie groupoid]]
 
@@ -51,7 +51,7 @@
   * [[path n-groupoid]]
 
 
-## $\infty$-Lie algebroids
+## ∞-Lie algebroids
 
 * [[Lie-∞-algebroid]]
 
