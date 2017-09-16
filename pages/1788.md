@@ -401,8 +401,16 @@ $\mathcal{abcdefghijklmnopqrstuvwxyz}$
 
 
 &#9752;
+
 &#9816;
+
 &#9784;
+
+&#9988;
+
+&#9997;
+
+&#9998;
 
 ***
 
