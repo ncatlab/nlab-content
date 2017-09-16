@@ -25,9 +25,9 @@ $$i: C \to \bar{C}$$
 
 and we say the $V$-category $C$ is **Cauchy-complete** if this emebedding is an equivalence. We work through a few examples in the following section. 
 
-## Examples 
+# Examples #
 
-#### Example of metric spaces 
+## metric spaces ##
 
 We consider first the classical case of [[metric space]]s, but as redefined by Lawvere to mean a category enriched in the [[poset]] $V = ([0, \infty], \geq)$, with [[tensor product]] given by addition. So, to say $X$ is a [[Lawvere metric space]] means that with the set $X$ there is a distance function 
 
@@ -97,15 +97,15 @@ $$d(p, p') = \int_{x \in X} \sigma d(p(x), p'(x)) = \sup_{x \in X} |p(x) - p'(x)
 
 In other words, the completion $\bar{X}$ of a symmetric metric space $X$ as a general (Lawvere) metric space is not necessarily the same as its completion $\sigma\bar{X}$ as a symmetric metric space, but $\sigma\bar{X}$ is the symmetrisation of $\bar{X}$.
 
-#### Example of ordinary ($Set$-enriched) categories
+## ordinary ($Set$-enriched) categories ##
 
-The analysis of Cauchy complete Lawvere metric spaces contains some of the seeds of what happens in other enriched category contexts; the case of ordinary small categories, where the enrichment is no longer in a mere poset but in $Set$, reflects still more of the phenomena generally associated with Cauchy completions. 
+The analysis of Cauchy complete Lawvere metric spaces contains some of the seeds of what happens in other [[enriched category]] contexts; the case of ordinary [[small category|small categories]], where the enrichment is no longer in a mere [[poset]] but in [[Set]], reflects still more of the phenomena generally associated with Cauchy completions. 
 
-Let $C$ be a small category and let the module $p: \mathbf{1} \to C$ be a point of $\bar{C}$, with module $q: C \to \mathbf{1}$ as its right adjoint in the bicategory of modules. As functors, 
+Let $C$ be a [[small category]] and let the [[module]] $p: \mathbf{1} \to C$ be a point of $\bar{C}$, with module $q: C \to \mathbf{1}$ as its [[right adjoint]] in the [[bicategory]] of modules. As [[functor]]s, 
 
 $$p: C^{op} \to Set, \, q: C \to Set$$ 
 
-and the structure of the adjunction is given by unit and counit maps:  
+and the structure of the [[adjunction]] is given by unit and counit maps:  
 
 $$\eta: 1 \to \int^{c \in Ob(C)} q(c) \times p(c), \qquad \varepsilon_{c, d}: p(c) \times q(d) \to C(c, d)$$ 
 
@@ -113,11 +113,11 @@ As we said in the case of metric spaces, $p(c)$ and $q(c)$ measure "distances" =
 
 $$p(c) \cong Set^{C^{op}}(C(-, c), p), \qquad q(c) \cong Set^{C^{op}}(p, C(-, c))$$ 
 
-The first isomorphism is an instance of the Yoneda lemma, and the second can be seen as follows. The set $q(c)$ is the bimodule composite 
+The first [[isomorphism]] is an instance of the [[Yoneda lemma]], and the second can be seen as follows. The set $q(c)$ is the [[bimodule]] composite 
 
 $$(\mathbf{1} \overset{c}{\to} C \overset{q}{\to} \mathbf{1})$$ 
 
-where $c$ is shorthand for the module $C(-, c): C^{op} \to Set$; this is just an instance of the Yoneda lemma: 
+where $c$ is shorthand for the module $C(-, c): C^{op} \to Set$; this is just an instance of the [[Yoneda lemma]]: 
 
 $$q \circ_C C(-, c) \overset{def}{=} \int^{d \in C} q(d) \times C(d, c) \overset{Yoneda}{\cong} q(c).$$ 
 
@@ -135,11 +135,11 @@ With these identifications of $q(c)$ and $p(c)$, the unit of the adjunction $p \
 
 $$\eta: 1 \to \int^{c} Set^{C^{op}}(p, C(-, c)) \times Set^{C^{op}}(C(-, c), p)$$ 
 
-The coend above is a quotient of 
+The [[coend]] above is a quotient of 
 
 $$\sum_c Set^{C^{op}}(p, C(-, c)) \times Set^{C^{op}}(C(-, c), p)$$ 
 
-and hence the unit element $\eta$ is represented by a pair of transformations 
+and hence the unit element $\eta$ is represented by a pair of [[natural transformation|transformation]]s 
 
 $$i: p \to C(-, c), \qquad \pi: C(-, c) \to p$$ 
 
@@ -159,15 +159,15 @@ $$C(-, c) \overset{\pi}{\to} p \overset{i}{\to} C(-, c)$$
 
 is an [[idempotent]] represented by a morphism $e: c \to c$ in $C$ (by the Yoneda lemma), and this factorization through $p$ [[split idempotent|splits]] the idempotent $C(-, e)$ in $Set^{C^{op}}$. 
 
-Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion are precisely those presheaves on $C$ which arise as retracts of representables in $Set^{C^{op}}$, or in other words may be identified with objects of the idempotent-splitting completion of $C$ (aka the _[[Karoubi envelope]]_ of $C$). Therefore, in the $Set$-enriched case, the Cauchy completion _is_ the idempotent-splitting completion. In particular, representables themselves are points of the Cauchy completion. 
+Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion are precisely those presheaves on $C$ which arise as [[retract]]s of [[representable functor|representable]]s in $Set^{C^{op}}$, or in other words may be identified with objects of the idempotent-splitting completion of $C$ (aka the _[[Karoubi envelope]]_ of $C$). Therefore, in the $Set$-enriched case, the Cauchy completion _is_ the idempotent-splitting completion. In particular, representables themselves are points of the Cauchy completion. 
 
-Notice that in a finitely complete category (such as $Set$ or a presheaf category), idempotents $e: c \to c$ split automatically: just take the equalizer of the pair 
+Notice that in a finitely complete category (such as $Set$ or a [[presheaf]] category), idempotents $e: c \to c$ split automatically: just take the equalizer of the pair 
 
 $$c \stackrel{\overset{e}{\to}}{\underset{1}{\to}} c$$ 
 
-For that matter, in any finitely cocomplete category, taking the coequalizer of the above pair would also split the idempotent. Indeed, we can say that idempotents split in a category iff all equalizers of such pairs exist, iff all coequalizers of such pairs exist. 
+For that matter, in any finitely cocomplete category, taking the [[coequalizer]] of the above pair would also split the idempotent. Indeed, we can say that idempotents split in a category iff all equalizers of such pairs exist, iff all coequalizers of such pairs exist. 
 
-Notice that if $C$ and $D$ are categories, then any functor $F: C \to D$ preserves retracts and therefore splittings of idempotents. Thus, the equalizers above are the sort of limits which are preserved by _any_ functor $F$ whatsoever. They are called **absolute limits** for that reason. For the same reason, the coequalizers above are **absolute colimits**: they are precisely the colimits preserved by any functor whatsoever. 
+Notice that if $C$ and $D$ are categories, then any functor $F: C \to D$ preserves [[retract]]s and therefore splittings of idempotents. Thus, the equalizers above are the sort of limits which are preserved by _any_ functor $F$ whatsoever. They are called **absolute limits** for that reason. For the same reason, the coequalizers above are **absolute colimits**: they are precisely the colimits preserved by any functor whatsoever. 
 
 Pursuing this a bit further: if $F: C^{op} \to Set$ is any functor, then (because idempotents split in $Set$) there is a unique extension $\bar{F}: \bar{C}^{op} \to Set$ of $F$. Therefore we have an equivalence 
 
@@ -175,7 +175,7 @@ $$Set^{C^{op}} \simeq Set^{\bar{C}^{op}}$$
 
 and we say that $C$ and $\bar{C}$ are **Morita equivalent**. 
 
-## Discussion 
+# Discussion #
 
 _David_: Concerning the result that on Set the terminal F-coalgebra is the Cauchy completion of the initial F-algebra, for certain F, I wonder if we have to factor completions through the metric space completion, as Barr does in <a href="ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/trmclg.pdf">Terminal coalgebras for endofunctors on sets</a>. Perhaps Adamek's work on <a href="http://citeseer.ist.psu.edu/cache/papers/cs/21985/http:zSzzSzwww.iti.cs.tu-bs.dezSzTI-INFOzSzadamekzSzPaper2000-4.pdf/final-coalgebras-are-ideal.pdf">Final Algebras are Ideal Completions of Initial Algebras</a> is more natural.
 
