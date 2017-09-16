@@ -1,3 +1,15 @@
+
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Definition#
+
 +-- {: .un_defn}
 ###### Definition
 (Jeff Smith)
