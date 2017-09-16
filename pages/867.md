@@ -2,15 +2,22 @@
 [[!include category theory - contents]]
 </div>
 
+#Contents#
+* automatic toc goes here
+{:toc}
 
-# Idea #
+
+
+## Idea ##
 
 A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.
 
 
-# Definitions #
+## Definitions ##
 
-## As a set with [[extra structure]]
+### As a set with extra structure ###
+
+A poset can be understood as a [[set]] with [[extra structure]].
 
 Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
 * [[reflexive relation|reflexivity]]: $x \leq x$ always;
@@ -20,7 +27,9 @@ Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq
 A __poset__ is a set equipped with a partial order.
 
 
-## As a category with [[extra properties]] #
+### As a category with extra properties ###
+
+A poset can be understood as a [[category]] with [[extra property]].
 
 A __poset__ is a [[category]] such that:
 
@@ -32,7 +41,7 @@ Equivalently, we may define a poset to be a [[skeleton|skeletal category]] [[enr
 When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain sense.  (On the other hand, it is not evil if taken as a *definition* of [[equality]].)
 
 
-## Monotone functions
+### Monotone functions ###
 
 The morphisms of partially ordered sets are [[monotone functions]]; a __monotone function__ $f$ from a poset $S$ to a poset $T$ is a [[function]] from $S$ to $T$ (seen as seen as structured sets) that preserves $\leq$:
 $$ x \leq y \;\Rightarrow\; f(x) \leq f(y) .$$
@@ -41,7 +50,7 @@ Equivalently, it is a [[functor]] from $S$ to $T$ (seen as certain categories).
 In this way, posets form a [[category]] [[Pos]].
 
 
-#Intervals#
+## Intervals ##
 
 A (closed bounded) **[[interval]]** in a poset $C$ is a set of the form
 $$[x,y] = \{r\in C|x\le r\le y\}.$$
@@ -49,7 +58,7 @@ $$[x,y] = \{r\in C|x\le r\le y\}.$$
 A poset is **[[locally finite poset|locally finite]]** if every closed bounded interval is finite.
 
 
-#Kinds of posets
+## Kinds of posets ##
 
 A poset with a [[top element]] and [[bottom element]] is called __bounded__.  (But note that a *subset* of a poset may be bounded without being a bounded poset itself.)
 
@@ -60,12 +69,11 @@ A poset in which every finite set has an upper bound (but perhaps not a *least* 
 As remarked above, a poset in which each interval $[x,y]$ is a [[finite set]] is called __locally finite__ or a __[[causet]]__.
 
 
-# Higher versions
+## In higher category theory ##
 
-See [[n-poset]].
+An poset can be understood as a [[(0,1)-category]]. The fundamental notion in [[order theory]]. This suggests an obvious [[vertical categorification]] of the notion of poset to that of [[n-poset]].
 
-
-#References#
+## References ##
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
 * Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88--100.
