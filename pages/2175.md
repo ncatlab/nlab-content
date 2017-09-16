@@ -43,6 +43,7 @@
 * [[minimal negation operator]]
 * [[Peirce's law]]
 * [[praeclarum theorema]]
+* [[propositional calculus]]
 * [[propositional equation reasoning system]]
 * [[relation theory]]
 * [[semiotic equivalence relation]]
