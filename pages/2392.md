@@ -8,6 +8,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The notion of _$(\infty,1)$-operad_ is to that of [[(∞,1)-category]] as [[operad]] is to [[category]].
