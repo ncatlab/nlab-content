@@ -133,7 +133,4 @@ As described there, $V//G \to \mathbf{B}G$ is the [[groupoid]] incarnation of th
 
 ##References##
 
->[[Urs Schreiber|Urs]]: I am not so happy with the term "exploding a category". 
-
-
 * [Exploding a Category](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html#c017574)
