@@ -44,7 +44,7 @@ The **idea** of weighted limits is to
 
 2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts.
 
-Heuristically, the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ from something with just a tip from which morphisms are emanating down to $F$ to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limit]]s discussed below with $V = $[[SSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
+Heuristically, the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ from something with just a tip from which morphisms are emanating down to $F$ to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limit]]s discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
 
 #Definition#
 
@@ -131,10 +131,10 @@ $$
 
 For $V$ some category of higher structures, the _local_ definition of [[homotopy limit]] over a diagram $F : K \to C$ replaces the ordinary notion of [[cone]] over $F$ by a higher cone in which all triangles of 1-morphisms are filled by 2-cells, all tetrahedra by 3-cells, etc. 
 
-One can convince oneself that for the choise $V =$ [[SSet]] this is realized in terms of the weighted limit $lim^W F$ with the weight $W$ taken to be
+One can convince oneself that for the choice of [[SimpSet]] for $V$ this is realized in terms of the weighted limit $lim^W F$ with the weight $W$ taken to be
 
 $$
-  W : K \to SSet
+  W : K \to \Simp\Set
 $$
 $$
   W : k \mapsto N(K/k)
@@ -143,7 +143,7 @@ $$
 
 where $K/k$ denotes the [[over category]] of $K$ over $k$ and $N(K/k)$ denotes its [[nerve]].
 
-This leads to the classical definition of homotopy limits in [[SSet]]-enriched categories due to
+This leads to the classical definition of homotopy limits in $\Simp\Set$-enriched categories due to
 
 * A.K. Bousfield and D.M. Kan, _Homotopy limits, completions, and localizations_
 
@@ -167,7 +167,7 @@ $$
 $$
 and $W(r \to t) : \{r\} \to \{r \to t \leftarrow s\}$ injects the vertex $r$ into $\{r \to t \leftarrow s\}$ and similarly for $W(s \to t)$.
 
-This implies that for $F : K \to C$ a pullback diagram in the [[SSet]]-eriched category $C$, a $W$-weighted [[cone]] over $F$ with tip some object $c  \in C$, i.e. a natural transformation
+This implies that for $F : K \to C$ a pullback diagram in the [[SimpSet]]-eriched category $C$, a $W$-weighted [[cone]] over $F$ with tip some object $c  \in C$, i.e. a natural transformation
 
 $$
   W \Rightarrow C(c, F(-))
@@ -223,7 +223,7 @@ is discussed there in definition 14.7.8 on p. 269.
 
 * the $V$-enriched hom-category $[K,V]$ which on $V$-functors $S,T$ is the [[end]] $[K,V](S,T) = \int_{k \in K} V(S(k), T(k))$ appears as $hom^K(S,T)$ in definition 18.3.1 (see bottom of the page).
 
-* for $V = $[[SSet]] the above definition of homotopy limit appears in example 18.3.6 (2).
+* for $V$ set to [[SimpSet]] the above definition of homotopy limit appears in example 18.3.6 (2).
 
 
 
