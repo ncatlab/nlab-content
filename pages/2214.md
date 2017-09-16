@@ -50,6 +50,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-26
 
+* [[David Corfield]]
+
+  * a couple of queries at [[cubical set]].
+
 * [[Urs Schreiber]] 
 
   * added a remark on Connes' program to [[noncommutative geometry]], but still no genuine content
