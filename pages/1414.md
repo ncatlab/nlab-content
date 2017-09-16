@@ -53,4 +53,11 @@ FWIW, I have sometimes seen the "simplicial nerve of simplicial categories" call
 [[Urs Schreiber|Urs]]: true, I actually know that not every notion of nerve is simplicial, should have thought before typing. 
 
 Now that you mention it, maybe [[Tim Porter]] also said he favored "homotopy coherent nerve"? I'll send him an email.
+
+[[Tim Porter|Tim]]:  Back from a short absence: the term 'homotopy coherent nerve' is probably a good one only when it fairly directly relates to homotopy coherence. 
+
+Any 2-category can be thought of as a simplicially enriched category and the Duskin nerve of a bicategory specialises to the same construction on 2-categories. Various people use the term 'geometric nerve' for this. (It is interesting to compare the 'simplicial nerve' of a simplicial group (as SSet-enriched category) with Wbar of the same thing.) I am trying to write something for the Menagerie that looks at the h.c. nerve with these aspects accentuated and also with links with Behrang Noohi's weak maps of crossed modules. I may put some of this on nLab when I see more clearly how it all fits together.  
+
+In the meantime, I suggest we keep the term h.c. nerve although it is probably not 'best possible'.
+I agree that 'simplicial nerve'  is probably not a good term.
 =--
