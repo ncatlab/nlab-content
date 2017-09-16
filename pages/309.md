@@ -5,7 +5,7 @@ There are several well known reductions of this concept to classes of special li
 * It has a [[terminal object]] and admits all binary [[product|products]] and [[equalizer|equalizers]]; or
 * It has a [[terminal object]] and admits all binary [[pullback|pullbacks]].
 
-An appropriate notion of morphism between finitely complete categories $C$, $D$ is a _left exact_ functor, or a functor that preserves finite limits (also called a _lex_ functor or a _cartesian_ functor). A functor preserves finite limits if and only if:
+An appropriate notion of morphism between finitely complete categories $C$, $D$ is a left [[exact functor]], or a functor that preserves finite limits (also called a _lex_ functor, a _cartesian_ functor, or a _finitely continuous_ functor). A functor preserves finite limits if and only if:
 
 * it preserves terminal objects, binary products, and equalizers; or
 * it preserves terminal objects and binary pullbacks.
