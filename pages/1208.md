@@ -1,0 +1,1 @@
+Given a [[bimonoid]] $B$ and a [[monoid]] $A$ in a [[symmetric monoidal category]] $C$, a right [[coaction]] $\rho: A\to A\otimes B$ is a __right Hopf coaction__ if $\rho$ is a morphism of monoids where $A\otimes B$ has the standard structure of a tensor product of monoids in the symmetric monoidal category $C$.
