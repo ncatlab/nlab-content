@@ -103,6 +103,11 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
      1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
      1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
 
+   * __NB.__  On Windows + Firefox at any rate, most of the less ordinary symbols look better if you enclose them in a TeX + \text wrapper.  Cf and Contrast:
+     1. HTML : &amp;weierp; &rarr; &weierp;
+     1. Unicode : &amp;#x2118; &rarr; &#x2118;
+     1. TeX + \text : \text{&amp;#x2118;} &rarr; $\text{&#x2118;}$
+
 ## _n_-Lab Specifics
 
 1.  _Why did my page get redirected?_
