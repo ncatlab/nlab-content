@@ -31,10 +31,11 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 
 The notion of symplectic geometry may be understood as the mathematical structure that underlies the physics of [[Hamiltonian mechanics]]. A classical monograph that emphasizes this point of view is
 
-* [[Vladimir Arnold]], _Mathemtical Methods of Classical Mechanics_ Springer.
+* [[Vladimir Arnold]], _Mathematical methods of classical mechanics_ Springer.
 
-For more on this see [[Hamiltonian mechanics]].
+For more on this see [[Hamiltonian mechanics]]. Symplectic geometry is also involved in [[geometric optics]] and the study of oscillatory integrals and [[microlocal analysis]]. For a book concentrating on these topics which is free online see
 
+* V. Guillemin, S. Sternberg, _Geometric asymptotics_, [online](http://www.ams.org/online_bks/surv14)
 
 #Applications#
 
