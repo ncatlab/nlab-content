@@ -37,3 +37,5 @@ Examples of connected filtered spaces are:
 1. The filtration $(BC)_*$ of the classifying space of a crossed complex, filtered using skeleta of $C$. 
 
 This condition occurs in the [[higher homotopy van Kampen theorem]] for [[crossed complex]]es.
+
+[[!redirects filtered spaces]]
