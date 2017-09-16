@@ -137,9 +137,9 @@ And please correct me if I'm wrong, but I believe the interval as final coalgebr
 
    for instance the geometric realization of the cubical set $I \times I$ has non-trivial [[homotopy group]]s and hence does not model the [[topological space]] given by the standard square, which is contractible
 
-It was then realized that none of these problems is shared by [[simplicicial set]]:
+It was then realized that none of these problems is shared by [[simplicial set]]:
 
-1. (to be filled in)
+1. Eilenberg and Mac Lane proved a normalisation theorem which may be found in Mac Lane's book `Homology'. 
 
 1. every [[simplicial group]] is necessarily a [[Kan complex]] and therefore fibrant in the standard [[model structure on simplicial sets]]
 
