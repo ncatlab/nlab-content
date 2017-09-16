@@ -11,7 +11,7 @@ In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 * $C/x$ - See [[over category]] a.k.a. slice category
 * $x\darr C$ - See [[under category]] a.k.a. coslice category
 * $x/C$ - See [[under category]] a.k.a. coslice category
-* $x\C$ - See [[under category]] a.k.a. coslice category
+* $x\backslash C$ - See [[under category]] a.k.a. coslice category
 
 #Discussion#
 
