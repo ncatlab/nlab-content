@@ -123,7 +123,11 @@ See for instance section 2.3 in
 
 * Kashiwara and Shapira, [[Categories and Sheaves]]
 
-MacLane's book *Categories for working mathematicians* has a famous treatment of Kan extensions with a statement "everything (in category theory) is (an example of) Kan extension". 
+MacLane's book 
+
+* MacLane, [[Categories Work|Categories for the working mathematician]] 
+
+has a famous treatment of Kan extensions with a statement "everything (in category theory) is (an example of) Kan extension". 
 
 For the context of [[enriched category theory]] see 
 chapter 4 of
