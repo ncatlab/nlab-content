@@ -205,3 +205,7 @@ This is the original Markdown list:
 | a table  |      |
 
 category: meta
+
+[A pic](http://www.bangor.ac.uk/r.brown/fig6_10c2.jpg)
+
+[[fig6_10c2.jpg:pic]]
