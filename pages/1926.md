@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher geometry - contents]]
+</div>
+
+
 # Idea #
 
 In the general sense of [[space and quantity]]
@@ -113,12 +118,12 @@ such that
 
 The general theory is developed in
 
-* **StrSh** [[Jacob Lurie]], _Structured spaces_ ([arXiv](http://arxiv.org/abs/0905.0459))
+* **StrSh** [[Jacob Lurie]], [[Structured Spaces]]
 
 The special case of "smoothly structured spaces" called [[derived smooth manifold]] is 
 discussed in 
 
-* David Spivak, _Derived smooth manifolds_ PhD thesis ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
+* [[David Spivak]], _Derived smooth manifolds_ PhD thesis ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
 
 Apart from looking at the special case this article also contains useful introduction
 and details on the general case.
@@ -126,3 +131,6 @@ and details on the general case.
 In the version of this that is available on the arXiv ([arXiv](http://arxiv.org/abs/0810.5174))
 the point of view is more on bi-presheaves, a useful discussion to the relation
 to structured morphisms here is in section 10.1. there.
+
+
+[[!redirects geometry (for structured (∞,1)-toposes)]]
