@@ -1,6 +1,11 @@
+# Compact spaces
+* tic
+{: toc}
+
+
 ## Idea
 
-A [[topological space]] (or more generally [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "closed and bounded": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locale]]s.
+A [[topological space]] (or more generally [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "closed and bounded": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
 
 
 ## Definitions 
@@ -8,7 +13,7 @@ A [[topological space]] (or more generally [[convergence space]]) is _compact_ i
 There are many ways to say that a space $X$ is compact. The first is perhaps the most common: 
 +-- {: .num_defn #hb}
 ###### Definition
-For every collection of open sets whose [[union]] is $X$ (which _[[cover]]s_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$.
+For every collection of open sets whose [[union]] is $X$ (which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$.
 =--
 If [[excluded middle]] is assumed, this is easily equivalent to: 
 +-- {: .num_defn #fip}
@@ -71,13 +76,13 @@ A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 ## Standard Results
 
-* Assuming the axiom of choice, the category of compact spaces admits all small [[limit]]s. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
+* Assuming the axiom of choice, the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
 
 * The direct [[image]] of a compact subspace under a continuous map is compact. Thus any topological space becomes a [[bornological space]] by taking the bounded sets to be compact subspaces.
 
 * A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
 
-One often wishes to study [[compact Hausdorff space]]s.  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ as above) since regularity is easier to formulate and handle than Hausdorffness.
+One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ as above) since regularity is easier to formulate and handle than Hausdorffness.
 
 
 ## Terminology
@@ -92,3 +97,7 @@ Another term in usage is 'compactum' to mean a compact Hausdorff space (even whe
 [[!redirects compact topological space]]
 [[!redirects compact convergence space]]
 [[!redirects compact locale]]
+[[!redirects compact spaces]]
+[[!redirects compact topological spaces]]
+[[!redirects compact convergence spaces]]
+[[!redirects compact locales]]
