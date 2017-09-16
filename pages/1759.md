@@ -26,7 +26,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 +-- {: .standout}
 Remember, _please_ do not visit **Recently Revised**. This innocuous action will bring the nLab to its knees for everyone. To search for something, Google is better anyway. 
 =--
+## 2009-07-21
 
+* [[David Roberts]]:
+
+  * fixing up some statements at [[paracompact space]]. Added comment about existence partitions of unity being dependent on the category these will be constructed in.
 
 ## 2009-07-20
 
