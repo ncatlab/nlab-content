@@ -43,6 +43,8 @@ One would like to say that imposing the symmetry axiom gives us [[enriched group
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Perhaps it would be more accurate to say that the symmetry axiom gives us enriched $\dagger$-[[dagger category|categories]]?
+
+_Toby_:  Yeah, that could work.  I was thinking of arguing that it makes sense to enrich groupoids in any monoidal poset, cartesian or otherwise, since we can write down the operations and all equations are trivial in a poset.  But maybe it makes more sense to call those enriched $\dagger$-categories.
 =--
 
 
