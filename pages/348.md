@@ -22,7 +22,9 @@ A _sieve_ $S$ (Fr. _crible_) on an object $c \in C$ is a subset $S \subset Ob(C/
 =--
 
 
-**Remark.** Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up or saturate it, to obtain a sieve on $c$. 
+Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up or saturate it, to obtain a sieve on $c$. 
+
+# Relation to subfunctors #
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
 
@@ -42,7 +44,7 @@ Given a sieve $S$ on $c$, the **subfunctor** $F_S \hookrightarrow Y(c)$ **define
 
 Given a subfunctor $F \hookrightarrow Y(c)$, the **sieve defined by the subfunctor** is given by
 
-* $S_F := \{(d \to c) \in Mor(C) | (Y(d) \to Y(c)) factors as (Y(d)  \to F \to Y(c))\}$
+* $S_F := \{g: d \to c \in Mor(C) | Y(d) \stackrel{Y(g)}\to Y(c) = Y(d)  \to F \to Y(c) \}$
 
 or equivalently
 
@@ -71,28 +73,26 @@ $$
 =--
 
 
-**Remarks.** 
-
-* The construction of $S_F$ makes sense for every morphism of presheaves $F \to Y(c)$. The sieve is sensitive precisely to the [[image]] of this map, 
+The construction of $S_F$ makes sense for every morphism of presheaves $F \to Y(c)$. The sieve is sensitive precisely to the [[image]] of this map, 
 $$
   S_{F} = S_{im (F \to Y(c))}
   \,.
 $$
 
-*  In the presence of a [[Grothendieck topology]] a morphism $F \to Y(c)$ is sometimes called a [[local epimorphism]] if the sieve $S_F$ is a covering sieve. If $F \to Y(c)$ is actually a subfunctor, then it is called a [[dense monomorphism]].
+In the presence of a [[Grothendieck topology]] a morphism $F \to Y(c)$ is sometimes called a [[local epimorphism]] if the sieve $S_F$ is a covering sieve. If $F \to Y(c)$ is actually a subfunctor, then it is called a [[dense monomorphism]].
 
 
-* The [[pullback]] of a subfunctor $i: F \hookrightarrow Y(c) = \hom(-, c)$ along any morphism $\hom(-, g): \hom(-, d) \to \hom(-, c)$ is again a subfunctor $g^* F$ of $d$, hence sieves are closed under pulling back. Concretely, 
+The [[pullback]] of a subfunctor $i: F \hookrightarrow Y(c) = \hom(-, c)$ along any morphism $\hom(-, g): \hom(-, d) \to \hom(-, c)$ is again a subfunctor $g^* F$ of $d$, hence sieves are closed under pulling back. Concretely, 
 $$g^* F = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in F\}
 \,.$$
 
-* A sieve $S_F$ on $c$, for $i: F \hookrightarrow \hom(-, c)$ a subfunctor, may be described as a function which assigns to each object $d$ a collection of morphisms $f: d \to c$ into $c$. Naturality of the inclusion $i$ means that whenever $f: d \to c$ belongs to the sieve and $g: e \to d$ is any morphism, then $f g: e \to c$ also belongs to the sieve. 
+A sieve $S_F$ on $c$, for $i: F \hookrightarrow \hom(-, c)$ a subfunctor, may be described as a function which assigns to each object $d$ a collection of morphisms $f: d \to c$ into $c$. Naturality of the inclusion $i$ means that whenever $f: d \to c$ belongs to the sieve and $g: e \to d$ is any morphism, then $f g: e \to c$ also belongs to the sieve. 
 
 
 
 #Examples#
 
-* For $X$ a [[topological space]] let $Op(X)$ be the [[category of open subsets]] of $X$ and consider presheaves $PSh(X) := [Op(X)^{op}, Set]$ on $X$. For any open subset $c = V \in Op(X)$ let $\{d_i\} = \{U_i\}$ be a cover of $V$ by open subsets $U_i$ in the ordinary sense (i.e. each $U_i$ is an open subset of $V$ and their joint union is $V$, $\cup_i U_i = V$), then  $\pi : (\sqcup_i Y(U_i)) \stackrel{\sqcup_i U_i \hookrightarrow_i X}{\to} Y(V)$ (with $Y$ the [[Yoneda embedding]]) is a [[local epimorphism]] of presheaves on $V$ and its [[image]] -- or equivalently its [[coimage]] -- is the subfunctor $(F := \cup_i Y(U_i)) \hookrightarrow Y(V)$ that sends each $W \in Op(X)$ to the set of maps $W \to V$ that factor through one of the $U_i$. The collection of all such maps for all choice of $W$ is the corresponding _covering sieve_ $\{ f : W \to V  | f \in Mor(S), f factors through one of $U_i \to V$  \}$.
+* For $X$ a [[topological space]] let $Op(X)$ be the [[category of open subsets]] of $X$ and consider presheaves $PSh(X) := [Op(X)^{op}, Set]$ on $X$. For any open subset $c = V \in Op(X)$ let $\{d_i\} = \{U_i\}$ be a cover of $V$ by open subsets $U_i$ in the ordinary sense (i.e. each $U_i$ is an open subset of $V$ and their joint union is $V$, $\bigcup_i U_i = V$), then  $\pi : (\coprod_i Y(U_i)) \stackrel{\coprod_i U_i \hookrightarrow_i X}{\to} Y(V)$ (with $Y$ the [[Yoneda embedding]]) is a [[local epimorphism]] of presheaves on $V$ and its [[image]] -- or equivalently its [[coimage]] -- is the subfunctor $(F := \bigcup_i Y(U_i)) \hookrightarrow Y(V)$ that sends each $W \in Op(X)$ to the set of maps $W \to V$ that factor through one of the $U_i$. The collection of all such maps for all choice of $W$ is the corresponding _covering sieve_ $\{ f : W \to V  \in Mor(S) \;|\; f = W \to U_i \to V  \}$.
 
 * The situation for more general [[site]]s $S$ other than $Op(X)$ is literally the same as above, with $U_i, W, V$ etc. objects of $S$.
 
@@ -100,29 +100,29 @@ $$g^* F = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in F\}
 
 # Recovering the sheaf condition from morphisms out of the sieve#
 
-We now show that $F$ is the _right_ sieve incarnation of the cover by demonstrating that using it the usual [[sheaf|sheaf condition]] on a presheaf with respect to the cover $\sqcup_i U_i$ is reproduced:
+We now show that $F$ is the _right_ sieve incarnation of the cover by demonstrating that using it the usual [[sheaf|sheaf condition]] on a presheaf with respect to the cover $\coprod_i U_i$ is reproduced:
 
 First notice that $F$ is precisely the [[coequalizer]] of the obvious pair of morphisms
 
 $$
-  \sqcup_{i, j} \hom(-, U_i \cap U_j)
+  \coprod_{i, j} \hom(-, U_i \cap U_j)
     \stackrel{\to}{\to}
-  \sqcup_i hom(-, U_i)
+  \coprod_i hom(-, U_i)
 $$
 
 where the domain of this parallel pair is the [[pullback]] of the evident map
-$\sqcup_i hom(-, U_i) \to hom(-,X)$  
+$\coprod_i hom(-, U_i) \to hom(-,X)$  
 along itself, and the two parallel arrows are the projection maps out of this pullback:
 
 $$
   \array{
-     \sqcup_{i,j} hom(-,U_i \cap U_j)
+     \coprod_{i,j} hom(-,U_i \cap U_j)
      &\to&
-     \sqcup_i hom(-, U_j)
+     \coprod_i hom(-, U_j)
      \\
      \downarrow && \downarrow
      \\
-     \sqcup_i hom(-, U_i)
+     \coprod_i hom(-, U_i)
      &\to&
      hom(-,X)
   }
@@ -130,13 +130,13 @@ $$
  
 Thus for $G$ any [[presheaf]],
 maps $F \to G$ are precisely the same as maps
-$\sqcup_i \hom(-, U_i) \to G$
+$\coprod_i \hom(-, U_i) \to G$
 which coequalize the parallel pair. Applying $Hom_{Set^{C^{op}}}(-,G)$ to the colimit diagram
 
 $$
-  \sqcup_{i, j} \hom(-, U_i \cap U_j)
+  \coprod_{i, j} \hom(-, U_i \cap U_j)
     \stackrel{\to}{\to}
-  \sqcup_i hom(-, U_i)
+  \coprod_i hom(-, U_i)
   \to
   F
 $$
@@ -146,9 +146,9 @@ yields the limit diagram
 $$
   Hom(F, G)
   \to 
-  Hom(\sqcup_i hom(-, U_i), G)
+  Hom(\coprod_i hom(-, U_i), G)
   \stackrel{\to}{\to}
-  Hom(\sqcup_{i, j} \hom(-, U_i \cap U_j), G)
+  Hom(\coprod_{i, j} \hom(-, U_i \cap U_j), G)
 $$
 
 which using [[Yoneda lemma|Yoneda]] is the equalizer diagram
@@ -161,12 +161,12 @@ $$
 
 and hence identifies $Hom(F,G)$ indeed as the set of [[descent]] data for the [[sheaf]] condition on $G$. 
 
-### Interpretation in terms of higher descent and codescent ###
+# Interpretation in terms of higher descent and codescent #
 
 
 This description contains in it the seed of its generalization from the context of [[sheaf|sheaves]] to that of [[descent]] for [[infinity-stack]]s: 
 
-for $Y := \sqcup_i U_i$ a cover, there is a [[simplicial presheaf]] $ Y_\bullet $ that in degree $n$ is the $(n+1)$-fold [[fiber product]] $Y_n = Y^{[n+1]} = Y \times_X Y \times_X \cdots \times_X Y$.
+for $Y := \coprod_i U_i$ a cover, there is a [[simplicial presheaf]] $ Y_\bullet $ that in degree $n$ is the $(n+1)$-fold [[fiber product]] $Y_n = Y^{[n+1]} = Y \times_X Y \times_X \cdots \times_X Y$.
 
 This may be regarded as an [[infinity-groupoid]] valued presheaf.
 
