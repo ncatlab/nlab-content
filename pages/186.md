@@ -1552,6 +1552,8 @@ I subtracted $20$ from the $x$-coordinates on the names in the diagram so that t
 Anyway, if anybody finds that this version is worse than the previous one, then change it back to the previous one and chalk it up to an error in my browser.  ---Toby
 
 Thanks, Toby.  I was just heading over to see if I could fix it myself but you beat me to it.  There seem to be a few subtleties over how Instiki imports SVG and I'm learning them by trial and error (and by bugging Jacques!).  The picture in the Sandbox now looks right and, thanks to you, so does this one.  Text boxes seems to be the trickiest to get right when doing TikZ-to-SVG conversion.  ---Andrew
+
+It it helps any, I think that the problem was that the alphabetic text (but not the dates) *began* where it ought to have been *centred*.  ---Toby
 =--
 
 #Literature#
