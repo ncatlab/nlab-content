@@ -59,3 +59,5 @@ with further discussion in section 6.2.
 
 
 [[!redirects monomorphism in an (∞,1)-category]]
+[[!redirects monomorphisms in an (∞,1)-category]]
+[[!redirects monomorphisms in an (infinity,1)-category]]
