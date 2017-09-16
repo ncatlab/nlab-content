@@ -21,7 +21,7 @@ $$
     &\stackrel{f}{\to} &
     x_1  
     \\
-    \downarrow^{\mathllap{\alpha_0}\;}
+    {}^\mathllap{\alpha_0}\downarrow
     &\Downarrow^{\mathrlap{\phi}}&
     \downarrow^{\mathrlap{\alpha_1}}
     \\
