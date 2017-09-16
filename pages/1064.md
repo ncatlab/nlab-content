@@ -20,11 +20,21 @@ Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categori
 
 * AB4: an (AB3) category in which coproducts of monomorphisms are monic and products of epimorphisms are epic;
 
-* AB5: an (AB3) category in which [[filtered limit|filtered colimits and cofiltered limit]]s of [[exact sequence]]s are exact;
+* AB5: an (AB3) category in which [[filtered category|filtered colimits and cofiltered limit]]s of [[exact sequence]]s are exact;
 
-* AB6: ... (not in Wikipedia for some reason).
+* AB6: an AB3 category such that
+
+  * for every object $A$ in $C$ and any family $B^j$ with $j \in J$ of directed families $B^j = B^j_i$ with $i in I_j$ the interesections of [[subobject]]s  over $j$ commute with direct summes over j.
+
+  * Notice that this implies that inf for any family of subobjects exists.
 
 The concepts (AB3--6) can also be split into independent colimit-like and limit-like parts.
+
+There are further refinements along these lines. In particular
+
+* [[Grothendieck category]]: an AB5 category with a [[generator]].
+
+
 
 #Further refinements#
 
@@ -36,7 +46,7 @@ Various further axiom structures are considered and of relevance on additive and
 
 * [[Quillen exact category]]
 
-* [[Grothendieck category]]
+* [[Grothendieck category]]:  an AB5-category with a [[generator]]
 
 # Generalizations #
 
