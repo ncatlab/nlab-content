@@ -64,11 +64,13 @@ Topping off these, the Moore collections on $X$ form a Moore collection on $\mat
 
 ## Generalisations
 
-The definition of Moore collection really makes sense in any [[inflattice]]; even better, the definition of closure operator makes sense in any [[partial order|poset]].  Here\'s an example:
+The definition of Moore collection really makes sense in any [[inflattice]]; even better, the definition of closure operator makes sense in any [[partial order|poset]].  Here are some examples:
 
-*  Let $f \dashv g$ be a [[Galois connection]] between [[partial order|posets]] $A$ and $B$.  Call an element of $A$ _normal_ if $g(f(a)) \leq a$ (the reverse is always true).  Then $g \circ f$ is a closure operator.
+*  Instead of $\mathcal{P}X$, work in the [[opposite category|opposite poset]] $\mathcal{P}^{op}X$.  Then the open sets in a [[topological space]] $X$ form a Moore collection whose closure operator is the usual interior operation.  Now we can define a topological space as a set equipped with a Moore closure operator on $\mathcal{P}^{op}X$ that preserves [[join]]s (which here are [[intersection]]s); this definition is even valid constructively.
 
-But since Galois connections are simply [[adjunction]]s between posets, the concept of Moore closure cries out for [[categorification]].  And in fact, the answer is well known in category theory: it is a [[monad]].
+*  Let $f \dashv g$ be a [[Galois connection]] between [[partial order|posets]] $A$ and $B$.  Call an element of $A$ _normal_ if $g(f(a)) \leq a$ (the reverse is always true).  Then $g \circ f$ is a closure operator.  This generalises the case of the normal subgroups of $G$ when $G$ is the [[Galois group]] of an extension of [[field]]s.
+
+Since Galois connections are simply [[adjunction]]s between posets, the concept of Moore closure cries out for [[categorification]].  And in fact, the answer is well known in category theory: it is a [[monad]].
 
 Indeed, Moore closures on $X$ are precisely monads on $\mathcal{P}X$.  The property (1) of a closure operator corresponds the action of the monad on morphisms, while (2,3) are the multiplication and unit of the monad.  (The rest of the requirements of a monad are trivial in a poset, since they state the equality of various morphisms with common source and target.)
 
