@@ -303,4 +303,5 @@ Comparing with the general definition of cocycles and coboudnaries from above, o
 
 [[Eric]]: I added the reference to page 24 because the question seemed to be the same as the one that prompted this page. I could only vaguely see the intended picture, so if the reference is not appropriate or should be changed, then someone who understands it better than me should feel free to improve it.
 
+PS: I duplpicated this reference on [[generalized (Eilenberg-Steenrod) cohomology]].
 =--
