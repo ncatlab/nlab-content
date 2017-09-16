@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+
+***
+
+[[!include higher geometry - contents]]
+</div>
+
+
 
 +-- {: .standout}
 
@@ -7,7 +16,7 @@ This is a sub-entry of
 
 see there for background and context.
 
-This entry reviews basics of periodic multplicative cohomology theories and their relation to formal group laws.
+This entry reviews basics of [[periodic cohomology theory|periodic]] [[multiplicative cohomology theory|multiplicative]] [[cohomology theory|cohomology theories]] and their relation to formal group laws.
 
 =--
 
@@ -104,7 +113,6 @@ $$
 
 
 
->**[[reduced cohomology]]** of $E$ for pointed spaces is on $X$ the [[kernel]] of the map $E(X) \to E({*})$ induced from the point inclusion ${*} \to X$.
 
 notice that since $\mathbb{C}P^\infty $ is [[homotopy equivalence|homotopy equivalent]] to the [[classifying space]] $\mathcal{B}U(1)$ (which is a topological group) it has a product on it
 
@@ -166,14 +174,14 @@ $$
   \,.
 $$
 
-**remark** the formal group law is not canomnically associated to the cohomology theory, only up to a choice of rescaling of the elements $x$. But the underlying [[formal group]] is independent of this choice and well defined.
+**remark** the formal group law is not canonically associated to the cohomology theory, only up to a choice of rescaling of the elements $x$. But the underlying [[formal group]] is independent of this choice and well defined.
 
 For any ring $S$ with formal group law $g(x,y) \in power series in x,y with coefficients in S$ there is a unique morphism $L \to S$ that sends $\ell$ to $g$.
 
 **remark** Quillen's theorem says that the Lazard ring is the ring of complex cobordisms
 
 
-**some universal cohomology theories** $M U$ is the [[spectrum]] for complex [[cobordism cohomology]]. The corresponding [[spectrum]] is in degree $2 n$ given by
+**some universal cohomology theories** $M U$ is the [[spectrum]] for [[complex cobordism cohomology theory]]. The corresponding [[spectrum]] is in degree $2 n$ given by
 
 $$
   M U(2n) = Thom
@@ -185,13 +193,13 @@ $$
   \right)
 $$
 
-periodic complex cobordism is given by
+periodic [[complex cobordism cohomology theory]] is given by
 
 $$
   M P = \vee_{n \in \mathbb{Z}} \Sigma^{2 n} M U
 $$
 
-we get a canonical orientation from
+we get a canonical [[oriented cohomology theory|orientation]] from
 
 $$
   \omega : \mathbb{C}P^\infty \stackrel{\simeq}{\to}
@@ -202,7 +210,7 @@ $$
 
 this is the universal even periodic cohomology theory with orientation
 
-**Theorem (Quillen)** the [[cohomology ring]] $M P(*)$ together with its formal group law is naturally isomorphic to the universal Lazard ring with its formal group law $(L,\ell)$
+**Theorem (Quillen)** the [[cohomology ring]] $M P(*)$ of periodic [[complex cobordism cohomology theory]] over the point together with its [[formal group law]] is naturally isomorphic to the universal  [[Lazard ring]] with its [[formal group law]] $(L,\ell)$
 
 how one might make a [[formal group law]] $(R,f(x,y))$ into a cohomology theory
 
@@ -214,3 +222,5 @@ $$
 $$ 
 
 this construction could however break the left exactness condition. However, $E$ built this way will be left exact of the ring morphism $M P{{*}) \to R$ is a flat morphism. This is the [[Landweber exactness]] condition (or maybe slightly stronger).
+
+[[!redirects A Survey of Eilliptic Cohomology - cohomology theories]]
