@@ -7,7 +7,7 @@ To some extent an $(\infty,1)$-category can be thought of as a [[enriched catego
 For a discussion of the motivation and purpose of $(\infty,1)$-categories see [[why (infinity,1)-categories?]].
 
 
-#Definition#
+#Definitions#
 
 ## quasi-categories ##
 
@@ -60,9 +60,9 @@ This indeed turns out to be true: there is a precise sense in which every [[mode
 
 * given a model category $A$;
 
-* it bcomes canonically an [[SSet]]-[[enriched category]] making it a [[simplicial model category]] $\mathbf{A}$;
+* it bcomes canonically an [[SimpSet|SSet]]-[[enriched category]] making it a [[simplicial model category]] $\mathbf{A}$;
 
-* the full [[SSet]]-[[subcategory]] $\mathbf{A}^\circ$ on the fibrant-cofibrant objects of $\mathbf{A}$ happens to be [[Kan complex]]-[[enriched category|enriched]];
+* the full [[SimpSet|SSet]]-[[subcategory]] $\mathbf{A}^\circ$ on the fibrant-cofibrant objects of $\mathbf{A}$ happens to be [[Kan complex]]-[[enriched category|enriched]];
 
 * the [[simplicial nerve]] $N(\mathbf{A}^\circ)$ of $\mathbf{A}^\circ$ is the [[quasi-category]] _presented_ by $A$.
 
@@ -101,7 +101,7 @@ As discussed at  [[homotopy hypothesis]] there is a Quillen equivalence of the [
 
 In fact, this is also equivalent to
 
-* the [[model structure on simplicial sets|standard model structure]] on the category [[SSet]] of [[simplicial set]]s.
+* the [[model structure on simplicial sets|standard model structure]] on the category [[SimpSet|SSet]] of [[simplicial set]]s.
 
 If we takes a [[Kan complex]] to most manifestly be an incarnation of the idea "[[infinity-groupoid]]", then under these equivalences one should think of
 
@@ -117,7 +117,7 @@ If we takes a [[Kan complex]] to most manifestly be an incarnation of the idea "
   
   * etc.
   
-With this interpretation understood (i.e. with these model structures understood), [[SSet]]-enriched categories do model $(\infty,1)$-categories. 
+With this interpretation understood (i.e. with these model structures understood), [[SimpSet|SSet]]-enriched categories do model $(\infty,1)$-categories. 
 
 For more see
 
@@ -136,7 +136,7 @@ Other models for $(\infty,1)$-categories are
 A complete Segal space may be thought of as a category which is
 _weakly_ enriched in topological spaces/simplicial sets/Kan complexes,
 where the definition of "weak" makes use of the notion of [[homotopy]]
-and [[homotopy limit]] in [[Top]] or [[SSet]].
+and [[homotopy limit]] in [[Top]] or [[SimpSet|SSet]].
 
 This construction principle in particular lends itself
 to iteration and hence to an inductive definition of 
