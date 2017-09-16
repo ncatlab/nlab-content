@@ -28,6 +28,22 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * added some links to the entry on [[Peter May]]
+
+  * created [[stable homotopy theory - contents]] and added it as a "floating" table of contents to some relevant entries
+
+  * rewrote [[A-infinity ring]] and [[E-infinity ring]]
+
+  * created [[higher algebra - contents]] and added is as a "floating" table of contents to some relevant entries
+
+  * created [[higher category theory - contents]] and added it as a "floating" table of contents to some relevant entries
+
+  * moved to [[monoidal (infinity,1)-category]] material that had long been sitting at [[geometric infinity-function theory]] on operadic definitions of higher monoidal structures
+
+  * [[Zoran Skoda]] alerts me that he has added corrections and caveats related to [[formal scheme]] and [[formal spectrum]] at [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
+
+  * reacted to [[Mike Shulman]]'s remarks at [[graph of a functor]], [[cograph of a functor]] and at what used to be [[weak limit]] and is now renamed [[2-limit]] by trying to implement the suggested changes. Mike should please have a look and check if it looks better now. I have to admit that I had forgotten that "weak limit" meant something else than [[2-limit]] or other higher limits.
+
   * added the link to [[stable homotopy theory]] to the main [[mathematicscontents|Mathematics Contents]]
 
   * created [[coordinate-free spectrum]] and linked to it from [[spectrum]] (whose "Definition" section I slightly reorganized)
