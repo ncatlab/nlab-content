@@ -96,7 +96,7 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 ## Monads in higher category theory
 
 
-There is a [[vertical categorification]] of mondas  to [[(∞,1)-category|(∞,1)-categories]]. See [[(infinity,1)-monad|(∞,1)-monad]].
+There is a [[vertical categorification]] of monads  to [[(∞,1)-category|(∞,1)-categories]]. See [[(infinity,1)-monad|(∞,1)-monad]].
 
 in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
@@ -120,11 +120,11 @@ Five short videotaped lectures:
 
 Introductory slides:
 
-* [[John Baez]], [Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf).
+* [[John Baez]], _[Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf): .
 
 Book (recall that monads are also called 'triples'):
 
-* [[Michael Barr]] and [[Charles Wells]], [Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html).
+* [[Michael Barr]] and [[Charles Wells]], _[Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)_.
 
 
 [[!redirects algebra of a monad]]
