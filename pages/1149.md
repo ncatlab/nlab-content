@@ -21,7 +21,7 @@ from $X$ to this space $B U(1)$ characterize the following useful information:
 
 * they correspond to equivalence classes of circle [[bundle]]s over $X$: that is, to spaces $P$ equipped with a map to $X$ such that over 
 a contractible open subset $U \subset X$ the space $P$ looks like
-the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such that the identification respects the action of the [[grouo]] $U(1)$ on the circle). One says that $B U(1)$ is the [[classifying space]] for circle [[bundle]]s.
+the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such that the identification respects the action of the [[group]] $U(1)$ on the circle). One says that $B U(1)$ is the [[classifying space]] for circle [[bundle]]s.
 
   * A famous such circle bundle you may have seen is the [Hopf bundle](http://en.wikipedia.org/wiki/Hopf_bundle), which is a way to map the 3-dimensional sphere $S^3$ to the familiar 2-dimensional sphere $S^2$, such that over small parts $U \subset S^2$ of the 2-sphere the 3-sphere looks like the product space $U \times S^1$.
 
@@ -250,7 +250,7 @@ general context.
 one: before arriving at the full picture of higher topos theory as 
 described here, people had a pretty good guess about some aspects of
 this story, and this aspect they called 
-[[abelian sheaf cohomolohy|sheaf cohomology]]. It turns out that 
+[[abelian sheaf cohomology|sheaf cohomology]]. It turns out that 
 sheaf cohomology is precisely the _abelian_ part of general cohomology.
 So now general cohomology is sometimes called [[nonabelian cohomology]]
 to distinguish it from the more traditional cohomology theory. 
@@ -285,7 +285,7 @@ case of abelian sheaves a wealth of particular computational
 techniques are used to compute these mapping spaces
 (such as [[derived category|derived categories]] and 
 [[derived functor|derived functors]]) which are not available in the
-fully general case. This whealth of computational machinery
+fully general case. This wealth of computational machinery
 employed, useful as it is, sometimes hides the simple conceptual
 reasoning underlying everything.
   
