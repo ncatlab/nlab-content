@@ -64,7 +64,39 @@ satisfying the simplicial identities.
 
 ###Remark###
 
-There is an obvious way of assigning a small category to a simplicial set in which the simplices are the objects and the face and degeneracy maps generate the morphisms.  A simplicial local system is then just a functor from that category to $\mathcal{C}$.
+There is an obvious way of assigning a small category to a simplicial set in which the simplices are the objects and the face and degeneracy maps generate the morphisms:
+
+regarding the [[simplicial set]] as a [[functor]] 
+
+$$
+  K : \Delta^{op} \to Set
+$$
+
+on the [[simplex category]], its category of cells is the [[comma category]]
+
+$$
+  (Y, const_K) =
+  \left\{
+    \array{
+       Y(\Delta^n) &&\stackrel{}{\to}&& Y(\Delta^{n'})
+       \\
+       & {}_c\searrow && \swarrow_{c'}
+       \\
+       && K
+    }
+  \right\}
+$$
+
+where $Y : \Delta \to [\Delta^{op}, Set]$ is the [[Yoneda embedding]] for which $Y(\Delta^n)$ is the standard simplicial $n$-[[simplex]], so that $c : Y(\Delta^n) \to K$ is an $n$-simplex $c \in K_n$ of the simplicial set $n$.
+
+
+A simplicial local system is then just a functor 
+
+$$
+  F : (Y,const_K) \to \mathcal{C}
+$$
+
+from that category to $\mathcal{C}$.
 
 +-- {: .query}
 
