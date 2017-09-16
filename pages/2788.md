@@ -67,7 +67,19 @@ I guess, my plan of attack now is to see how we can define functor via cograph. 
 
 [[Eric]]: By the way, here is something I wrote on my personal web [[ericforgy:Natural Transformation]]:
 
-[[Urs Schreiber]]: at [[cograph]] it is indicated how that concept encodes the notion of [[profunctor]] which is a bit more general than that of [[functor]]. 
+>[[Urs Schreiber]]: at [[cograph]] it is indicated how that concept encodes the notion of [[profunctor]] which is a bit more general than that of [[functor]]. 
+
+>[[Eric]]: Oh! That is pretty! Thanks. I like this diagram
+$$
+  \array{
+    R &\to& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    X \times Y &\stackrel{\chi_R}{\to}& \{0,1\}
+  }
+$$
+>I need to think about it, but a vale of fog has been lifted. More fog remains, but thanks!
 
 ***
 
