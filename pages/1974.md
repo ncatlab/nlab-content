@@ -35,4 +35,6 @@ So in summary my feeling is: the entry in its current form actually tries to def
 
 But maybe I am mixed up. Let me know what you think.
 
+_Toby_:  Well, I\'ll say this: I always understood 'Grothendieck group' in the article text above, and I never understood 'K-theory'.  That may have been my fault, of course, and it may be telling that I was John\'s student.
+
 =--
