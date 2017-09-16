@@ -47,7 +47,7 @@ Then using their usual encodings in set theory:
 * the nullary cartesian product $\star$ is $P(\empty)$ as in the previous proof;
 * the binary cartesian product $u \times v$ is a subset of $P(P(u \cup v))$;
 * the general cartesian product $\prod_{i: I} u_i$ is a subset of $P(I \times \bigcup_{i: I} u_i)$;
-* the the nullary disjoint union is $\empty$;
+* the nullary disjoint union is $\empty$;
 * the binary disjoint union $u \uplus v$ is a subset of $2 \times (u \cup v)$;
 * the general disjoint union $\biguplus_{i: I} u_i$ is a subset of $I \times \bigcup_{i: I} u_i$;
 * the set of functions $u \to v$ is a subset of $P(u \times v)$.
