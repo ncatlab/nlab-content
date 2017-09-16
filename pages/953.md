@@ -1,7 +1,7 @@
 
 # Idea #
 
-A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows to regard it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] $\mathbf{K}(C)$ of $C$.
+A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows to regard it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] [[Grothendieck group]] $\mathbf{K}(C)$ of $C$.
 
 Notably a Waldhausen category provides the notion of co[[fibration sequence]]s, which are crucial structures controlling $\mathbf{K}(C)$. Dual to the discussion at [[homotopy limit]] and [[homotopy pullback]], ordinary [[pushout]]s in Waldhausen categories of the form
 
@@ -58,3 +58,29 @@ Then the K-groups are the [[homotopy group]]s of the K-theory space.
 #Remarks#
 
 * The axioms of a Waldhausen category $C$ are very similar to the axioms of a [[category of fibrant objects]] on the [[opposite category]] $C^{op}$ in which the initial object is also terminal. The difference is in axiom W3, whose analog in a [[category of fibrant objects]] is the axioms that every object has a [[path object]]. It still follows that one has fibration sequences in a [[category of fibrant objects]].
+
+
+# Examples #
+
+## Waldhausen category of a small abelian category ##
+
+For $C$ a [[small category|small]] [[abelian category]] the [[category of chain complexes|category of bounded chain complexes]] $Ch^b(C)$ becomes a Waldhausen category by taking
+
+* a [[weak equivalence]] is a [[quasi-isomorphism]] of chain complexes;
+
+* a cofibration $f : A_\bullet \to X_\bullet$ is a chain morphism that is a [[monomorphism]] in $C$ in each degree $f_n : A_n \to X_n$.
+
+
+## Waldhausen category of a small exact category ##
+
+For $C$ just a [[Quillen exact category]] with ambient [[abelian category]] $\hat C$ there is an anlogous, slightly more sophisticated construction of a Waldhausen category structure on $Ch^b(C)$:
+
+* weak equivalences are the morphisms that are [[quasi-isomorphism]]s when regarded as morphisms in $\hat C$;
+
+* the cofibrations are the degreewise _admissable morphisms_, i.e. those morphisms $A \to X$ such that the pushout $A \to X \to A/X$ computed in the ambiend [[abelian category]] $\hat C$ is in $C$.
+
+# References #
+
+Waldhausen categories are discussed with an eye towards their application in the computation of [[Grothendieck group]]s in [chapter 2](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.II.pdf) of
+
+* Charles Weibel, _The K-book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
