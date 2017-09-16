@@ -55,5 +55,9 @@ Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
  *  [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k).
 
 *For higher analogues see 
- * (within the discussion of commutative algebraic monads) N. Durov, New approach to Arakelov geometry, [arXiv:0704.2030](http://arxiv.org/abs/0704.2030)
+ * (within the discussion of commutative algebraic monads) [[Nikolai Durov]], New approach to Arakelov geometry, [arXiv:0704.2030](http://arxiv.org/abs/0704.2030)
  * M. A. Batanin, The Eckmann-Hilton argument and higher operads,  Adv. Math.  217  (2008),  no. 1, 334--385; [arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281)
+
+
+[[!redirects Eckmann–Hilton argument]]
+[[!redirects Eckmann--Hilton argument]]
