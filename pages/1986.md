@@ -18,6 +18,23 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-11
 
+* [[Urs Schreiber]]: 
+
+  * expanded [[universal fibration of (infinity,1)-categories]]
+
+  * added a section "Idea" and a section "Generalization" to [[Grothendieck construction]]
+
+  * added an "Idea" section and started a section "Properties" at [[Cartesian fibration]]
+
+  * added some links to K-theoretic issues that have meanwhile come into existence at [[Grothendieck construction]]. 
+
+    Concerning the comment there: my feeling is that people pretty consistently use the term "Grothendieck construction" for the reconstruction of a fibration from a pseudofunctor, whereas for the K-theoretic aspect they say "Grothendieck group".
+
+
+  * added pointers to the entry [[Cartesian fibration]] at [[fibered category]] and [[Grothendieck fibration]]
+
+  * added to the discussion on universal fibrations at [[stuff, structure, property]] (in the section on logic) a comment about and pointer to the [[universal fibration of (∞,1)-categories]].
+
 *  [[Toby Bartels]]:
    *  I also put up quite the stub at [[trivial bundle]].
    *  OK, now [[fiber bundle]] exists.
