@@ -12,6 +12,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-22 #
+
+* [[Urs Schreiber|Urs]]
+
+  * added references to Goerss-Jardine's _Simplicial homotopy theory_ to [[Dold-Kan correspondence]] and [[Moore complex]]
+
+  * reacted a bit at [[An Exercise in Kantization]] -- behind the scenes this is being developed further, I'd be happy to provide more detailed replies in a while, when things have stabilized a bit more
+
+  * added a mention of and a link to [[Kan lift]] to the "Idea" section of [[Kan extension]]
+
+  * replied to the discussion about pullback notation at [[Kan extension]]: I originally had "$p^*$" there. After somebody changed that to "$p_*$" I wrote the section "note on terminology". I'd be happy to have the $p^*$ reinstalled. 
+
 # 2009-06-21 #
 
 *  [[Toby Bartels]]:
