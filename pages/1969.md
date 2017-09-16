@@ -302,3 +302,4 @@ The definition in terms of simplicial and fibrant/cofibrant resolutions is descr
 [[!redirects (∞,1)-categorial hom-space]]
 [[!redirects (infinity,1)-categorial hom space]]
 [[!redirects (∞,1)-categorial hom space]]
+[[!redirects derived hom space]]
