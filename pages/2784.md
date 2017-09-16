@@ -18,6 +18,7 @@
 
 * [[Khovanov homology]]
 * [[Kazhdan-Lusztig theory]]
+* [[categorification via groupoid schemes]]
 * The [[geometric Langlands]] program
 :* [[geometric Satake]] 
 
