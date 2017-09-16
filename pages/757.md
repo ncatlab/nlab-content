@@ -4,19 +4,55 @@ To the extent that a [[model category]] is a [[presentable (infinity,1)-category
 
 See also [[localization of a simplicial model category]].
 
+
 #Definition in model categories#
 
 Let $C$ be a category equipped with a [[model category]] structure and let $S$ be a class of morphisms in $C$. 
 
 The **left Bousfield localization** of $C$ with respect to $S$ is, if it exists, a [[model category]] structure $L_S C$ on $C$ such that
 
-* the class of weak equivalenced of $L_S C$ equals the class of $S$-[[local equivalence]]s of $C$;
+* the class of weak equivalences of $L_S C$ equals the class of $S$-[[local equivalence]]s of $C$;
 
 * the class of cofibrations of $L_S C$ equals that of $C$;
 
-* the fibrations of $L_S C$ are precisely the morphisms with the right lifting property with respect to the $S$-[[local cofibration]]s of $C$.
+* the fibrations of $L_S C$ are precisely the morphisms with the right lifting property with respect to the $S$-[[local equivalence|local cofibration]]s of $C$.
 
 Analogously the **right Bousfield localization** is defined as above, with the role of fibrations and cofibrations exchanged throughout.
+
+
++-- {: .un_prop }
+###### Proposition
+
+If the left Bousfield localization exists, i.e. of $L_S C$ is indeed a [[model category]] with the above definitions of cofibrations and weak equivalences, then it is indeed a [[localization of a model category]] in that
+
+there is a _left Quillen functor_
+
+$$
+  j : C \to L_S C
+$$
+
+(i.e. $j$ preserves cofibrations and trivial cofibrations and has a [[right adjoint]])
+
+such that the total left [[derived functor]]
+
+$$
+  L j : Ho C \to Ho L_S C
+$$
+
+takes the images of $S \subset Mor(C)$ in $Ho(C)$ to [[isomorphism]]s
+
+and every other left Quillen functor with this property factors by a unique left Quillen functor through $j$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 3.3.19 in _ModLoc_ .
+
+=--
+
 
 #Bousfield localization in triangulated categories#
 
@@ -28,4 +64,8 @@ In that case, the Verdier quotient $B/A$  has the property that the only objects
 
 Bousfield localization appears as definition 3.3.1 in
 
-* Hirschhorn, _Model categories and their localization_ 
+* **ModLoc** Hirschhorn, _Model categories and their localization_ 
+
+and as proposition A.3.7.3 in
+
+* [[Jacob Lurie]], [[Higher Topos Theory]] .
