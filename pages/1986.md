@@ -15,6 +15,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-08-13
+
+* [[Urs Schreiber]]
+
+  * started adding details on the relation between $(\infty,1)$[[Cartesian fibration]]s and [[(infinity,1)-presheaves]] to [[universal fibration of (infinity,1)-categories]] -- not sure yet where this material should ultimately go: this is really the $(\infty,1)$-Grothendieck construction. Maybe it should be at [[Cartesian fibration]].
 
 ## 2009-08-12
 
