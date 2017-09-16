@@ -10,3 +10,6 @@ Without choice, the existence and uniqueness of algebraic closures may fail; see
 *  _[Algebraic closure of Q](http://cs.nyu.edu/pipermail/fom/2006-May/010531.html)_, a thread on FOM started by [[Timothy Chow]]; be sure to check for improperly replied posts with the same subject in that and the next two months
 *  possibly _[Algebraic closure without choice](http://doi.wiley.com/10.1002/malq.19920380136)_, a paper by somebody that I can\'t read
 *  _[The fundamental theorem of algebra: a constructive development without choice](http://math.fau.edu/Richman/HTML/DOCS.HTM)_ by [[Fred Richman]]
+
+
+[[!redirects algebraic closure]]
