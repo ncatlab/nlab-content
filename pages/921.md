@@ -1,6 +1,6 @@
 ## Idea ##
 
-A real number is an approximation of a [[rational number]].  (This is if you use the usual ordering of rational numbers; others will give the idea of $p$-[[p-adic number|adic numbers]].)
+A real number is an approximation of a [[rational number]].  (This is if you use the usual ordering of rational numbers; others will give the idea of $p$-[[adic number|adic numbers]].)
 
 The original idea of a real number came from [[geometry]]; one thinks of a real number as specifying a point on a line.  (More precisely, given two distinct points on the line, called $0$ and $1$, you get a [[bijection]] between the points and the real numbers.)  [[Euclid]] (citing [[Eudoxus]]) dealt with ratios of geometric magnitudes, which give positive real numbers; an arbitrary real number is then a difference of ratios of magnitudes.  (But the Greeks did not think of such ratios as numbers.)
 
