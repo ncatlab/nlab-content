@@ -1,7 +1,7 @@
 [[!include contents]]
 
 #Idea#
-Category theory was invented by Samuel Eilenberg and Saunders Mac Lane in the 1945 paper **General theory of natural equivalences**. The reason was to introduce functors, and the reason to introduced functors was to introduce natural transformations (more specifically natural equivalences) to define what natural means in mathematics. Another reason was the need to find a common language that would unify and simplify many advances in the 1930's. It was a clash of ideas from abstract algebra (Mac Lane) and topology (Eilenberg). The paper was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a foundation of mathematics.
+Category theory was invented by Samuel Eilenberg and Saunders Mac Lane in the 1945 paper **General theory of natural equivalences**. The reason was to introduce functors, and the reason to introduced functors was to introduce natural transformations (more specifically natural equivalences) to define what natural means in mathematics. So the idea is to shift from the study of objects to the study of functions between objects (more precisely morphisms). Another reason was the need to find a common language that would unify and simplify many advances in the 1930's. Considering how many different categories there are one can now do things once and for all in general instead of in each category separately. The paper was a clash of ideas from abstract algebra (Mac Lane) and topology (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a foundation of mathematics. Category theory is very abstract but of course it is not abstract nonsense as some joke about it.
 
 #What is category theory?#
 **Category theory** is so useful because it can be seen from so many perspectives.
@@ -13,7 +13,7 @@ Category theory was invented by Samuel Eilenberg and Saunders Mac Lane in the 19
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
 * A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
-* The theory of combinatorial [[directed graph|directed multipseudographs]] with a [[composition]] law.
+* The theory of combinatorial [[directed graph|directed multipseudographs]] with a [[composition]] law. This have given rise to the heavy use of a "diagramatic language" in category theory.
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
@@ -32,6 +32,9 @@ A probably incomplete list is:
 * [[applied category theory|Applied category theory]]. Especially to mathematical [[physics]], [[computer science]] and [[dynamic system]]s (categorical dynamics).
 
 Most of these include some [[higher category theory]]. Some would define category theory as the human activity of [[category theorists]].
+
+#Contrast with set theory#
+...
 
 #Category theory entries#
 * [[(-1)-category]]
