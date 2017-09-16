@@ -1,6 +1,6 @@
 The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by Bill Lawvere in his influential paper "Metric spaces, generalized logic, and closed categories". It is now seen by category theorists as a concept of [[enriched category]] theory, with close ties to the concept of [[Morita equivalence]] in the theory of modules. 
 
-The basic idea is that the Cauchy completion of a category is the closure of a category under what are called "absolute limits", i.e., limits that are preserved by any functor whatsoever. Equivalently, the Cauchy completion is the closure with respect to absolute colimits. If $C$ is small, the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "free cocompletion", aka presheaf category
+The basic idea is that the Cauchy completion of a category is the closure of a category under what are called "absolute limits", i.e., limits that are preserved by any functor whatsoever. Equivalently, the Cauchy completion is the closure with respect to absolute colimits. If $C$ is small, the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "[[free cocompletion]]", aka [[presheaf]] category
 
 $$C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$$ 
 
