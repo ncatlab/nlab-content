@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -21,7 +26,7 @@ But for the notion of fibration sequence to make sense, we do not need to assume
 
 Now let $f : A \to B$ be a morphism in $C$.
 
-The **homotopy fiber** or **homotopy kernel** of $f$ is [[generalized the|the]] [[pullback]] (which in our $(\infty,1)$-categorical context means [[homotopy limit|homotopy pullback]]) of the point along $f$:
+The **homotopy fiber** or **homotopy kernel** or **[[mapping cocone]]** of $f$ is [[generalized the|the]] [[pullback]] (which in our $(\infty,1)$-categorical context means [[homotopy limit|homotopy pullback]]) of the point along $f$:
 
 $$
   \array{
@@ -33,6 +38,15 @@ $$
   }
   \,.
 $$
+
+
+## Long fibration sequences
+
+A crucial difference between $\infty$-categorical fibration sequences
+and ordinary 1-categorical sequences is that the former are always _long_ : in contrast to the ordinary kernel of a kernel, wich is necessarily trivial, the homotopy kernel of a homotopy kernel is typically far from trivial, but is a [[loop space object]]. Due to that, each fibration sequence extend to the left by as many steps (times 3) as the objects involved have nontrivial [[homotopy group]]s.
+
+
+### Kernel of a kernel: loop objects
 
 In particular the homotopy fiber of the point ${*} \to B$ is the [[loop space object]] $\Omega B$ of $B$ (by definition):
 
@@ -96,6 +110,8 @@ $$
 
 are (homotopy) pullback squares.
 
+### Long fibration sequences
+
 Continuing this way to the left, we obtain a long sequence of morphisms to the left
 
 $$
@@ -127,7 +143,9 @@ $$
 
 Again, all squares and all pasting squares appearing here are homtopy pullback squares. If I had labeled to two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
 
-Anyway.
+
+### Long sequences in cohomology
+
 
 Usually, when looking at fibration sequences in 1-categorical contexts of the [[homotopy category of an (∞,1)-category]], one doesn't see these long fibration squences directly, but only "in cohomology".
 
