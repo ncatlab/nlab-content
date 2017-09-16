@@ -6,15 +6,16 @@ It was indeed introduced originally in order to formalize the use of the notion 
 
 #Definition (for groupoids)#
 
-Let $C$ and $D$ be [[groupoid]]s, and let $F: C \to D$ be a [[functor]].  By fiat, declare $F$ to be a [[forgetful functor]].  Then 
+Let $C$ and $D$ be [[groupoid]]s, and let $F: C \to D$ be a [[functor]].  By fiat, declare $F$ to be a [[forgetful functor]].  Then
+* $F$ **forgets nothing** if it is an [[equivalence of categories]];
+* $F$ **forgets only property** if $F$ is [[full and faithful functor|fully faithful]];
+* $F$ **forgets at most structure** if $F$ is [[faithful functor|faithful]];
+* $F$ **forgets at most stuff** regardless.
 
-* $F$ **forgets nothing** if it is an [[equivalence of categories]]; 
-
-* $F$ **forgets only property** if $F$ is [[full and faithful functor|fully faithful]]; 
-
-* $F$ **forgets at most structure** if $F$ is [[faithful functor|faithful]]; 
-
-* $F$ **forgets at most stuff** regardless.  
+Another way to break down the possibilities (used in a $3$-way [[factorization system|factorisation system]]) is as follows:
+* $F$ **forgets only property** if $F$ is [[full functor|full]] and faithful;
+* $F$ **forgets purely structure** if $F$ is [[essentially surjective functor|essentially surjective]] (on objects) and faithful;
+* $F$ **forgets purely stuff** if $F$ is essentially surjective and full.
 
 ## Interpretation in terms of k-surjectivity##
 
@@ -23,9 +24,7 @@ The pattern here is best understood in terms of the notion of [[k-surjective fun
 Recall that for a functor between ordinary categories (1-categories)
 
 * essentially surjective $\simeq$ essentially 0-surjective
-
 * full $\simeq$ essentially 1-surjective
-
 * faithful $\simeq$ essentially 2-surjective
 
 and that every 1-functor is essentially $k$-surjective for all $k \geq 3$.
@@ -41,10 +40,18 @@ So the above says for a functor $F : C \to D$:
 
 
 It is noteworthy how this formalism captures the heuristic way in which "stuff", "structure" and "property" are expected to be related:
-
 * stuff may be equipped with structure;
-
 * structure may have (be equipped with) properties.
+
+The $3$-way breakdown looks like this:
+
+| If it is ...                       | then it ...              | but it ...                                |
+| ---------------------------------- | ------------------------ | ----------------------------------------- |
+| essentially $(k \ne 0)$-surjective | forgets only property    | remembers at least stuff and structure    |
+| essentially $(k \ne 1)$-surjective | forgets purely structure | remembers at least stuff and property     |
+| essentially $(k \ne 2)$-surjective | forgets purely stuff     | remembers at least structure and property |
+
+This formalism does *not* capture the heuristic so well, and in fact the 'property' (and 'structure') remembered by a functor that forgets purely structure (or purely stuff) may not match one\'s intuition.
 
 See also the examples below.
 
@@ -66,6 +73,25 @@ A third option is to define a new notion: a functor **forgets at most property-l
 
 Property-like structure becomes much more prevalent for higher categories.  For example, the forgetful functor from the 2-category of categories-with-[[product]]s (and product-preserving functors) to $Cat$ is essentially $(k\ge 2)$-surjective, and its induced functor between 2-groupoids is essentially $(k\ge 1)$-surjective; thus it forgets property-like structure.  See also [[lax-idempotent 2-monad]].
 
+# A factorisation system #
+
+Just as the category [[Set]] has the best known $2$-way [[factorization system|factorisation system]], in which every [[function]] is factored into a [[surjection]] followed by an [[injection]], so the [[2-category]] [[Cat]] has a $3$-way factorisation system, in which every functor is factored into parts which forget 'purely' stuff, structure, and property.
+
+Specifically, given a functor $F: C \to D$, let the __$1$-[[image]]__ $1im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $F(x) \to F(y)$ in $D$; let the __$2$-image__ $2im F$ of $F$ be the category whose objects are objects of $C$ and whose morphisms $x \to y$ are morphisms $b: F(x) \to F(y)$ in $D$ such that $b = F(a)$ for some $a: x \to y$ in $C$.  (So the only difference bewteen $2im F$ and $C$ itself is equality of morphisms.)  If you want to be complete, call $C$ itself the __$3$-image__ of $F$ and $D$ the __$0$-image__.
+
+The situation looks like this:
+
+| This category ... | gets objects from ... | and morphisms from ... | and equality of morphisms from ... |
+| ----------------- | --------------------- | ---------------------- | ---------------------------------- |
+| $C$               | $C$                   | $C$                    | $C$                                |
+| $2im F$           | $C$                   | $C$                    | $D$                                |
+| $1im F$           | $C$                   | $D$                    | $D$                                |
+| $D$               | $D$                   | $D$                    | $D$                                |
+
+Then $F$ can be factored into functors
+$$ C \to^{F_2} 2im F \to^{F_1} 1im F \to^{F_0} D ,$$
+where $F_2$ forgets purely stuff, $F_1$ forgets purely structure, and $F_0$ forgets only property.
+
 
 #Examples#
 
@@ -75,7 +101,6 @@ Property-like structure becomes much more prevalent for higher categories.  For 
 The classical examples are the forgetful functors to [[Set]]  that define the classical categories such as [[Top]], [[Grp]], [[Vect]], etc. All these categories are categories of <em>sets equipped with extra structure</em> (e.g. with a topology, with a group structure, etc). Accordingly the obvious functors to [[Set]] are 
 
 * faithful
-
 * not full.
 
 Hence indeed, by the above yoga, they forget this extra structure but remember the stuff in question (the underlying set).
