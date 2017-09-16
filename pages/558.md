@@ -1,8 +1,25 @@
 # Idea #
 
-The _homotopy hypothesis_ states that $n$-groupoids model homotopy $n$-types. As a slogan:
+The _homotopy hypothesis_ states that [[n-groupoid]]s are combinatorial models for [[homotopy n-type]]s. As a slogan:
 
-* $\infty$-groupoids are combinatorial models for spaces.
+* [[∞-groupoid]]s are combinatorial models for [[topological space]]s.
+
+At least when [[∞-groupoid]]s are modeled by [[Kan complex]]es the homotopy hypothesis is a _theorem_ .
+
++-- {: .num_theorem}
+###### Theorem
+
+There is a [[Quillen equivalence]]
+
+$$
+  \Pi(-) : Top \leftrightarrow SSet : |-|
+$$
+
+between the [[model structure on topological spaces]] and the [[model structure on simplicial sets]]. This is given by forming [[geometric realization]] $|-|$ and the [[fundamental ∞-groupoid]] $\Pi(-)$, respectively.
+
+This induces an equivalence of the [[presentable (infinity,1)-category|presented]] [[(infinity,1)-categories|(∞,1)-category]] [[Top]] and [[∞-Grpd]] and hence in particular between [[CW-complex]]es (the fibrant-cofibrant objects in [[Top]]) and [[Kan complex]]es (the fibrant-cofibrant objects in [[SSet]].)
+
+=--
 
 To some extent the homotopy hypothesis is not a hypothesis but a _requirement_ on the definition of [[infinity-groupoid]]: for every "good" definition of $\infty$-groupoid there should be an "obvious" pair of functors relating the collection of all $\infty$-groupoids to the collection of (well behaved) topological spaces which form an [[equivalence]] in a "suitable" sense.  The functor from spaces to $\infty$-groupoids is generally called the [[fundamental infinity-groupoid]], and its inverse equivalence may be thought of as a form of [[geometric realization]].
 
