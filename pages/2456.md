@@ -30,6 +30,8 @@ I\'m not *certain* that a nonextensional global choice operator won\'t imply exc
 _Toby_:  Yeah, I really did mean to say 'excluded middle'; remembering that comment, I assume that the real question is whether the thing is OK for a constructivist.  I just argued $\mathbf{ITT} + EM \vDash CO$, and I know the result $\mathbf{ITT} + EM \not\vDash AC$, so I conclude $\mathbf{ITT} + CO \not\vDash AC$; but I don\'t know $\mathbf{ITT} + CO \not\vDash EM$ for certain.  I certainly don\'t have $\mathbf{ITT} + CO$ conservative over $\mathbf{ITT}$, nor with any other theory (other than those that already model $CO$, obviously).
 
 [[Mike Shulman]]: Where should I look for a proof that $\mathbf{ITT} + EM$ doesn't imply AC?
+
+_Toby_:  I\'m not sure, it\'s part of my folk knowledge now.  Probably Michael J. Beeson\'s _Foundations of Constructive Mathematics_ is the best bet.  I\'ll try to get a look in there myself next week; I can see that it\'s not exactly obvious, and perhaps my memory is wrong now that I think about it.
 =--
 
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\epsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
