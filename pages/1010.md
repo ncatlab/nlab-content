@@ -141,8 +141,10 @@ the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by 
 
 [[Mike Shulman|Mike]]: I agree with Urs.
 
+[[Zoran Skoda]]: No it is not the same in general. For example you argue above that the category of $U$-presheaves on $U$-small category is $U$-large, while this is not true for category of $U$-small presheaves.  Not every $U$-presheaf in your sense is a $U$-small colimit of representables. 
+
 =--
 
 # Alternative approaches #
 
-* A different, potentially much more elegant and natural proposal for solviung the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].
+* A different, potentially much more elegant and natural proposal for solving the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].
