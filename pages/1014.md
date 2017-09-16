@@ -38,8 +38,7 @@ The basic theoretical idea is that the class of well-founded sets is the [[initi
 
 In this representation, a pure set is a _rigid rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
 
-* A __[[graph|directed graph]]__ (technically, a _directed loop-graph_) consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; a node $i$ is called a __child__ of a node $j$ if $i \to j$.
-
+*  A __[[graph|directed graph]]__ (technically, a _directed loop-graph_) consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; a node $i$ is called a __child__ of a node $j$ if $i \to j$.
    +--{: .query}
    AN: Here and later, I have difficulties clearly understanding the 
    meaning of "consists of"; the same holds later for "equipped with"
