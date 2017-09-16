@@ -14,9 +14,13 @@ independently and earlier Gerasimov. In fact when one restricts the Cohn localiz
 
 [[Mike Shulman|Mike]]: The thing that is confusing to me is when one extends the use of "localization" beyond the context of localization of things like modules and sheaves.  I do not see any "locality" involved in the process of inverting an arbitrary class of morphisms in a category.  Of course there is just one concept here, but I do not like the choice of the word "localization" to describe it.
 
-[[Tim Porter|Tim]]:  Might I suggest that a little historical note tracing the origin of the term (including local ring, as well) might be a good point.  Sometimes such a look back to the origins of a term can show old light on new concepts and help one `create' good new concepts or to view the concepts in  a new light.
+[[Tim Porter|Tim]]:  Might I suggest that a little historical note tracing the origin of the term (including local ring, as well) might be a good point.  Sometimes such a look back to the origins of a term can show old light on new concepts and help one 'create' good new concepts or to view the concepts in  a new light.
 
 [[Mike Shulman|Mike]]: Just to clarify, I do definitely see the reason why inverting a multiplicative system on a ring is called "localization."  I still might prefer it if people had chosen a word that describes what happens to the ring itself, rather than its spectrum, but I understand the motivation behind the term.
+
+[[Tim Porter|Tim]]:  My point was just that others (i.e. more 'debutant' in the area) might benefit from a few lines on the geometric origin of the term.  
+
+Actually I agree with what you, Mike, sort of imply namely  that some 'local' example would be good to see. Is there something in the geometric function theory area that would provide a nice example say of a naturally occurring 'prestack' where the passage to the corresponding stack is clearly restricting to 'germs' of the categories involved?  I have never thought about that point,  any ideas?? It may be easy, I just don't know.
 =--
 
 If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
