@@ -8,7 +8,7 @@
 Essentially, the totally convex spaces are what you get if you try to build an [[algebraic theory]] of [[Banach spaces]].
 
 
-## Definition
+## Definitions
 
 +-- {: .num_defn #slick}
 ###### Abstract definition
