@@ -52,7 +52,23 @@ $$\langle (f, g); h \rangle \in coeq \qquad iff \qquad h f = h g$$
 
 [to be continued...]
 
-##Related Articles
+
+## Making categories regular
+
+Any category $C$ with [[finite limits]] has a **reg/lex completion** $C_{reg/lex}$ with the following properties:
+
+* There is a [[full and faithful functor]] $C\hookrightarrow C_{reg/lex}$
+* Each object of $C$ becomes [[projective object|projective]] in $C_{reg/lex}$
+* Each left-exact functor $C\to D$, where $D$ is regular, extends to an essentially unique regular functor $C_{reg/lex}\to D$.
+
+In particular, the reg/lex completion is a left adjoint to the [[forgetful functor]] from regular categories to lex categories (categories with finite limits).  The reg/lex completion can be obtained by "formally adding images" for all morphisms in $C$, or by "closing up" $C$ under images in its [[presheaf category]] $[C^{op},Set]$.  In general, even if $C$ is regular, $C_{reg/lex}$ is larger than $C$ (that is, it is a [[free cocompletion]] rather than merely a [[completion]]), although if $C$ satisfies the [[axiom of choice]] (in the sense that all [[regular epimorphisms]] are split), then $C\simeq C_{reg/lex}$.
+
+Regular categories of the form $C_{reg/lex}$ for a lex category $C$ can be characterized as those regular categories in which every object admits both a regular epi from a projective object and a monomorphism into a projective object, and the projective objects are closed under finite limits.  In this case $C$ can be recovered as the subcategory of projective objects.  In fact, the construction of $C_{reg/lex}$ can be extended to categories having only [[weak finite limits]], and the regular categories of the form $C_{reg/lex}$ for a "weakly lex" category $C$ are those satisfying the first two conditions but not the third.
+
+When the reg/lex completion is followed by the [[ex/reg completion]] which completes a regular category into an [[exact category|exact one]], the result is unsurprisingly the [[ex/lex completion]].
+
+
+## Related Articles
 
 Regular categories were introduced by Barr in
 _Exact categories_, by M. Barr, Lecture Notes in Mathematics, Springer-Verlag 1971
