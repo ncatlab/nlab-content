@@ -1,8 +1,15 @@
+# Finite sets
+* table of contents
+{: toc}
+
+
+## Definition
+
 A **finite set** is a set $A$ for which there exists a [[bijection]] between $A$ and the set $\{k\in N | k\lt n\}$ for some $n\in N$, where $N$ is the natural numbers.
 
 Classically, the finite sets are the [[finitely presentable object|finitely presentable objects]] in [[Set]].
 
-The category [[FinSet]] of finite sets and functions between them is essentially the subject matter of [[combinatorics]]; it\'s fundamental in the subject of [[structure type]]s.
+The category [[FinSet]] of finite sets and functions between them is essentially the subject matter of [[combinatorics]]; it\'s fundamental in the subject of [[structure types]].
 
 
 ## Finiteness constructively and internally
@@ -15,7 +22,7 @@ In [[constructive mathematics]], and internally to a [[topos]], a number of clas
 
 * A set is **subfinitely indexed** (also called **$\tilde{K}$-finite**) if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set; that is, it is a [[subquotient set]] of a finite set.
 
-* A set is **Dedekind-finite** if any injection from it to itself must be a bijection.  In contrast to the previous three notions, Dedekind-finite [[infinite set]]s can coexist with [[excluded middle|PEM]], although [[countable choice]] suffices to banish them.
+* A set is **Dedekind-finite** if any injection from it to itself must be a bijection.  In contrast to the previous three notions, Dedekind-finite [[infinite sets]] can coexist with [[excluded middle|PEM]], although [[countable choice]] suffices to banish them.
 
 In constructive mathematics, one is usually interested in the finite sets, although the finitely indexed sets are also sometimes useful. Note that a finitely indexed set with [[decidable object|decidable equality]] must actually be finite.
 
@@ -43,3 +50,10 @@ In a topos, there are both "external" and "internal" versions of all the above n
 
 
 [[!redirects finite sets]]
+[[!redirects K-finite set]]
+[[!redirects Kuratowski finite set]]
+[[!redirects finitely indexed set]]
+[[!redirects subfinite set]]
+[[!redirects subfinitely indexed set]]
+[[!redirects Dedekind-finite set]]
+[[!redirects Dedekind finite set]]
