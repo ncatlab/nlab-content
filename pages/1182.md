@@ -142,6 +142,218 @@ The following is supposed to going to be a list of linked keywords corresponding
 
   * [[ind-object in an (infinity,1)-category]]
 
+#### basic ideas related to $\infty$-stacks ####
+
+We place ourselves in the context of an [[(infinity,1)-category]]
+$H$ of (possibly [[derived stack|derived]]) $\infty$-stacks, i.e. of [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
+
+Recall what this means:
+
+The fundamental datum that we fix once and for all and which determines
+what $H$ is like is a choice of [[category]] $S$ equipped with the
+structure of a [[site]]. $H$ is going to be the $(\infty,1)$-category
+of generalized spaces which may be probed by objects of $S$ in a way
+that is consistent with the way one glues objects in $S$ using its 
+structure of a [[site]]. More generally, $S$ itself may be an 
+$(\infty,1)$-category.
+
+It is actually not hard to say this in a precise and fairly
+explicit way.
+
+First the precise way.
+
+* the first datum is: $S$ a [[small (infinity,1)-category]];
+
+* let then $PSh(S) := Funct(S^{op}, \infty\text{-}Grpd)$ be the $(\infty,1)$-category
+of [[(infinity,1)-functor]]s from the [[opposite (infinity,1)-category]] $S^{op}$
+to the $(\infty,1)$-category of $\infty$-groupoids.
+
+* the second datum is: $i : H \hookrightarrow PSh(S)$ a 
+[[full and faithful (infinity,1)-functor|full (infinity,1)-subcategory]] of $PSh(S)$
+such that the inclusion is a [[geometric morphism]] of  
+[[(infinity,1)-topos|(infinity,1)-topoi]], i.e. such that $i$ has
+a [[exact (infinity,1)-functor|left exact]] [[adjoint (infinity,1)-functor|left adjoint]]
+$(-)^* : PSh(S) \to H$.
+
+The same in one sentence: $H$ is a sub-[[(infinity,1)-topos]] of the [[(infinity,1)-topos]]
+of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $S$.
+
+Or equivalently: $H$ is an [[(infinity,1)-category of (infinity,1)-sheaves]] on $S$.
+
+
+Now the fairly explicit way:
+
+There are various different but equivalent explicit realizations, or models,
+for [[(infinity,1)-category|(infinity,1)-categories]]. 
+Of these consider [[quasi-category|quasi-categories]], which are  
+[[simplicial set]]s that are [[Kan fibration|weak Kan complex]]es,
+and [[SSet]]-[[enriched category|enriched categories]]. 
+These are related by the 
+[[simplicial nerve of simplicial categories]]-functor: 
+
+$$ 
+  N : SSet\text{-}Cat \to SSet
+$$
+
+which has a [[left adjoint]]
+
+$$ 
+  F : SSet \to SSet\text{-}Cat
+$$
+
+that sends every simplicial set to the [[SSet]]-[[enriched category]] 
+freely generated from it. One can think for $S$ a [[quasi-category]] of $F(S)$
+as a semi-strictification of it, in which composition of morphisms along
+0-cells is strictly associative.
+
+It is convenient and usual to switch back and forth between these two
+models. Quasi-categories tend to give rise to conceptually more transparent
+definitions, while [[SSet]]-categories tend to be more convenient
+for many explicit computations. 
+
+To get back to our [[(infinity,1)-category of (infinity,1)-sheaves]] $H$,
+we describe it in terms of these models as follows.
+
+* $S$ is some small [[simplicial set]] which we can assume to be a [[weak Kan complex]];
+
+* $\infty\text{-}Grpd := N(Kan)$ is the [[simplicial set]] which is the image under
+the [[simplicial nerve of simplicial categories]]-functor of the full [[SSet]]-subcategory
+of [[SSet]] on [[Kan complex]]es;
+
+* $PSh(S) = SSet(S^{op},\infty\text{-}Grpd)$ is just the simplicial set of
+simplicial maps between the simplicial sets $S^{op}$ and $\infty\text{-}Grpd)$.
+
+For explicitly constructing $H$ as a full sub-$(\infty,1)$-category of $PSh(S)$ 
+in practice one usually switches from the [[quasi-category]] picture to 
+the [[SSet]]-[[enriched category]] picture. So assume $H$ explicitly 
+to be an [[SSet]]-[[enriched category]] and $i : H \to F(PSh(S))$
+the suitable inclusion [[SSet]]-functor. 
+
+Notice that its left adjoint $(-)^* : PSh(S) \to N(H)$ is 
+[[(infinity,1)-sheafification]]: it sends every [[(infinity,1)-presheaf]]
+to the corresponding [[(infinity,1)-sheaf]]. In other words, this is
+_$\infty$-stackification_. Describing the full $\infty$-stackification of
+a given $(\infty,1)$-presheaf explicitly is usually hard. Moreover, it is
+usually much more than one wants to actually know. 
+
+Therefore a common approach to constructing $H$ is as an [[SSet]]-[[enriched category]]
+which has precisely the same objects as $F(PSh(S))$ has, but where
+every object is $(\infty,1)$-equivalent to its $(\infty,1)$-sheafification.
+This is in particular what happens in the most developed explicit model
+for $H$, due to K. Brown, A. Joyal, J. Jardine and others, in which (for $S$ an
+ordinary 1-category) $H$ is constructed as the canonical [[SSet]]-enrichment
+of the [[model structure on simplicial presheaves|model category structure on]]
+$Funct(S^{op}, SSet)$. 
+
+For such a model of $H$, let $A$ be an object, i.e. an $(\infty,1)$-presheaf
+which need not be an $(\infty,1)$-sheaf/$\infty$-stack, and let $X$ be
+any other object, then the simplicial set
+
+$$
+  H(X,A)
+$$
+
+(which, if it is not [[Kan complex|Kan]] already, we are to think of as representing
+the $\infty$-groupoid obtained from its [[Kan fibration|Kan-fibration]] replacement)
+
+is _equivalent_ to $H(X,\bar A)$, where $\bar A$ is the $\infty$-stackification of $A$.
+ 
+This is most familiar in detail, if maybe not conceptually, in 
+the context of [[abelian sheaf cohomology]]: an (ordinary) [[sheaf]] $A$ with
+values in non-negatively graded chain complexes is, by the [[Dold-Kan correspondence]],
+a special case of an $(\infty,1)$-presheaf with values in $\infty\text{-}Grpd$.
+Computing the [[abelian sheaf cohomology]] of $A$ on $X$ can be understood
+as being the computation of the $\infty$-stackification of $A$ evaluated on $X$.
+
+Moreover, for a fixed $(\infty,1)$-presheaf $A$, homming into it yields a functor
+
+$$
+  H(-, A) : H^{op} \to SSet
+$$
+
+which, being $SSet$-valued, we are entitled to call an $(\infty,1)$-presheaf on $H$. 
+In as far as $H$ is thought of as an $(\infty,1)$-category of $\infty$-stacks, this
+is an $(\infty,1)$-presheaf or $\infty$-prestack on $\infty$-stacks.
+
+It is natural, suggestive and common to  write $A(X) := H(X,A)$, following
+the guide of the [[Yoneda lemma]], even if $X$ is far from being representable.
+
+Let for instance $Vect_\infty \in H$ be an $(\infty,1)$-presheaf
+which assigns to each test domain $U \in S$ an $\infty$-groupoid $Vect_\infty(U)$
+of some kind of $\infty$-vector bundles on $U$. Then $Vect_\infty$ is,
+regarded as a generalized space modeled on $X$, the 
+[[classifiying space]] of $\infty$-vector bundles, essentially by definition.
+
+So for $X \in H$ any other $\infty$-stack/generalized space,
+
+$$
+  Vect_\infty(X) := H(X, Vect_\infty)
+$$ 
+
+is the (simplicial set whose Kan-fibrant replacement is) the $\infty$-groupoid of 
+(some kind of) $\infty$-vector bundles of on $X$.
+
+If the $X$ here is an $\infty$-groupoid valued presheaf which really takes
+values in higher groupoids and not just in sets, then $X$ is actually 
+to be regarded as a generalized $\infty$-groupoid itself, of course. One
+often thinks of such $X$ as [[orbifold]]s. If we write $X_0 \hookrightarrow X$ for the
+presheaf of objects in $X$, then 
+
+* $Vect_\infty(X_0)$ is the $\infty$-groupoid of $\infty$-vector bundles on $X_0$
+
+* $Vect_\infty(X)$ is the $\infty$-groupoid of _equivariant_ $\infty$-vector bundles on $X_0$,
+
+where the equivariance in question is that encoded by the inclusion $X_0 \hookrightarrow X$.
+
+This is notably relevant for the [[fundamental infinity-groupoid]]:
+
+assume that our [[site]] $S$ is 
+[[monoidal category|monoidal]] and
+equipped with a cosimplicial object, i.e. a functor 
+$\Delta_S : \Delta \to S$ from the [[simplex category]], 
+such that $\Delta_S[0]$ is a [[generators]] of $S$,
+then there is canonically the functor
+
+$$
+  \Pi : S \to H
+$$
+
+which sends each test object $X_0$ to the $(\infty,1)$-presheaf that sends
+each domain $V$ to the $V$-family version of the singular simplicial complex of $U$:
+
+$$
+  \Pi(X_0) : U \mapsto S(V \otimes \Delta^\bullet, X_0)
+  \,.
+$$
+
+The inclusion of the space of objects in $\Pi(X_0)$ is just $X_0 \hookrigtharrow \Pi(X_0)$.
+From the above we now have
+
+* $H(X_0, Vect_\infty) =: Vect_\infty(X_0)$ is the $\infty$-groupoid of $\infty$-vector bundles on $X_0$
+
+* $H(\Pi(X_0),Vect_\infty)$ =: $Vect_\infty(\Pi(X))$ is the $\infty$-groupoid of $\Pi$-equivariant $\infty$-vector bundles on $X_0$.
+
+By unwrapping what "$\Pi$-equivariance" means, one finds that this may equivalently be stated as
+
+* $H(\Pi(X_0),Vect_\infty)$ =: $Vect_\infty(\Pi(X))$ is the $\infty$-groupoid of flat
+$\infty$-vector bundles with connection on $X_0$.
+
+It should be noted here that we can combine different levels of equivariance:
+
+we may left [[Kan extension|Kan extend]] $\Pi : S \to H$ along the inclusion $S \hookrightarrow H$
+to a functor $\Pi : H \to H$, so that 
+for $X$ itself n $\infty$-orbifold of sorts, $\Pi(X)$ is the fundamental $\infty$-groupoid
+of that. We still have a canonical inclusion $X \hookrightarrow \Pi(X)$.
+If moreover $X_0 \hookrightarrow X$ is the inclusion from above, we have
+
+* $H(X_0, Vect_\infty) =: Vect_\infty(X_0)$ is the $\infty$-groupoid of $\infty$-vector bundles on $X_0$
+
+* $H(X, Vect_\infty) =: Vect_\infty(X)$ is the $\infty$-groupoid of equivariant $\infty$-vector bundles on $X_0$;
+
+* $H(\Pi(X),Vect_\infty)$ =: $Vect_\infty(\Pi(X))$ is the $\infty$-groupoid of equivariant $\infty$-vector bundles on $X_0$ with flat connection.
+
+
+
 #### monoidal $\infty$-categories ####
 
 #### derived algebraic geometry ####
