@@ -88,7 +88,7 @@ The standard *transfer theorem* for [[model category|model structures]] states t
 1. $U$ has a left adjoint $F$,
 1. $U$ is [[accessible functor|accessible]], i.e. preserves $\kappa$-[[filtered colimits]] for sufficiently large $\kappa$,
 1. $X$ has a cofibrantly generated model structure, and
-1. A sufficiently large [[transfinite composition]] of [[pushouts]] of images under $F$ of generating acyclic cofibrations in $X$ becomes a weak equivalence under applying $U$ (the *acyclicity condition*),
+1. [[Transfinite composites]] of [[pushouts]] of images under $F$ of generating acyclic cofibrations in $X$ become weak equivalences after applying $U$ (the *acyclicity condition*),
 
 then $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.  Using an argument of [[Thomas Nikolaus]] we can show:
 
@@ -96,15 +96,15 @@ then $A$ has a cofibrantly generated model structure in which the weak equivalen
 ###### Theorem
 Let $U\colon A\to X$ be an accessible solid functor, and assume that $X$ has a cofibrantly generated model structure and the following acyclicity condition:
 
-* If $U(a) \to x$ is an acyclic cofibration in $X$, then its semifinal lift $x\to U(b)$ is also an acyclic cofibration.
+* If $F\colon D\to A$ is a [[filtered diagram]] and $U(F(d_i)) \to x$ is a cocone under $U\circ F$, each of whose legs is an acyclic cofibration in $X$, then the semifinal lift $x\to U(b)$ of this $U$-structured sink is also an acyclic cofibration.
 
 Then the transfer theorem applies, so that $A$ has a cofibrantly generated model structure in which the weak equivalences and fibrations are created by $U$.
 =--
 +-- {: .proof}
 ###### Proof
-We have remarked above that $U$ has a left adjoint, and we assumed it to be accessible, so it remains to show that the given acyclicity condition implies the standard one.  Accessibility implies that $U$ preserves sufficiently large transfinite composites, and therefore since acyclic cofibrations in $X$ are closed under transfinite composition, it suffices to verify that pushouts in $A$ of images under $F$ of generating acyclic cofibrations become acyclic cofibrations upon applying $U$.
+We have remarked above that $U$ has a left adjoint, and we assumed it to be accessible, so it remains to show that the given acyclicity condition implies the standard one.
 
-Let $i\colon x\to y$ be a generating acyclic cofibration, and
+We first show that pushouts in $A$ of images under $F$ of generating acyclic cofibrations become acyclic cofibrations (not just weak equivalences) upon applying $U$.  Let $i\colon x\to y$ be a generating acyclic cofibration, and
 $$\array{F(x) & \overset{f}{\to} & a\\
   ^{F (i)}\downarrow \\
   F(y)}$$
@@ -116,7 +116,8 @@ Since $X$ is a model category, $g$ is an acyclic cofibration.  Therefore, if $U(
 $$\array{F(x) & \overset{f}{\to} & a\\
   ^{F(i)}\downarrow && \downarrow\\
   F(y) & \underset{\bar{h}}{\to} & b.}$$
-This completes the proof.
+
+If $U$ is not just accessible but [[finitary functor|finitary]], then it preserves all transfinite composites, so any transfinite composite of such pushouts in $A$ maps to a transfinite composite in $X$, and we know that transfinite composites of acyclic cofibrations in $X$ are acyclic cofibrations, so the desired acyclicity condition follows.  In general, we can argue as follows: given a transfinite sequence $a_0\to a_1\to\dots$ in $A$ of such pushouts, its colimit (= composition) can be constructed as above by forgetting down to $X$, taking the colimit there, and then taking the semifinal lift.  But since acyclic cofibrations in $X$ are closed under transfinite composites, the legs of the colimiting cocone in $X$ are acyclic cofibrations.  Hence by the assumed acyclicity condition, so is the semifinal lift, and hence (by composition) so are the images in $X$ of the legs of the colimiting cone in $A$.  This completes the proof.
 =--
 
 
