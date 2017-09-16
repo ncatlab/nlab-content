@@ -17,6 +17,8 @@ Urs, do you know where the need for orientation comes in here?  I don\'t follow 
 [[Eric]]: I'm probably confused, but if $\sigma_n$ is a morphism in $P_n(X)$, then (unless $X$ is a [[directed space]]), the opposite $\sigma_n^{-1}$ is also in $P_n(X)$ and I think $\omega(\sigma_n) = -\omega(\sigma_n^{-1})$.
 
 _Toby_:  Between Eric\'s comment here and Urs\'s at [[latest changes]], I\'m happy to remove this query box.
+
+[[Eric]]: I think it is a good question. Maybe we should keep the query box here until the answer is incorporated in the page.
 =--
 Note that an $n$-morphism in $P_n(X)$ is an oriented $n$-dimensional submanifold of $X$.
 
