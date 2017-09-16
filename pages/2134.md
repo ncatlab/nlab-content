@@ -1,3 +1,4 @@
+
 Two related basic facts in [[representation theory]] bear the name of Schur: one general about categories of modules, and another specific to the case of complex numbers. If $G$ is a [[group]], a __$G$-module__ is any $k$-[[module]] with an [[action]] of $G$, where $k$ is a fixed commutative unital [[ground ring]]. 
 
 1. Given a group $G$ and a linear map $\phi : M\to N$ between two irreducible (= [[simple object|simple]]) $G$-modules (linear maps intertwining the actions) then $\phi$ is either the [[zero morphism]] or an [[isomorphism]]. It follows that the [[endomorphism]]s of simple irreducible $G$-module form a [[division ring]].
