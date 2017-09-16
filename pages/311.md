@@ -39,7 +39,7 @@ I would normally say 'equipped with' (or just 'with'), and I think that you, Zor
 [[Mike Shulman|Mike]]: Perhaps unsurprisingly, I disagree.  In all the working mathematics I have ever seen, types and propositions are not the same.  The set of all $X$s is not the same as the property of existence of $X$s; the latter is the [[image]] of the former.  It's fine and fun to view your types as propositions and propositions as types and there are real insights to be gained in that way, but I think that when applied to ordinary mathematics, one should use a type theory in which propositions (aka (-1)-types) are distinguished from types (aka 0-types).
 =--
 
-Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjunction]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
+Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
 # Definition #
 
