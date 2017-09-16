@@ -24,8 +24,7 @@ The development of differential logic is greatly facilitated by having a concept
 <img alt="Cactus Graph Node Connective" src="/nlab/files/Cactus_Graph_Node_Connective.jpg" width="500" />
 </center>
 
-All other propositional connectives can be obtained through combinations of these two forms.  Strictly speaking, the parenthesized form is sufficient to define the concatenated form, making the latter formally dispensable, but it is convenient to maintain it as a concise way of expressing more complicated combinations of parenthesized forms.  While working with expressions solely in propositional calculus, it is easiest to use plain parentheses for logical connectives.  In contexts where ordinary parentheses are needed for other purposes an alternate typeface --- e.g. $\text{&#x2997;} \text{&#xFE50;} \text{
-&#x2998;}$ --- may be used for logical operators.
+All other propositional connectives can be obtained through combinations of these two forms.  Strictly speaking, the parenthesized form is sufficient to define the concatenated form, making the latter formally dispensable, but it is convenient to maintain it as a concise way of expressing more complicated combinations of parenthesized forms.  While working with expressions solely in propositional calculus, it is easiest to use plain parentheses for logical connectives.  In contexts where ordinary parentheses are needed for other purposes an alternate typeface --- e.g. $\text{&#x2997;} \text{&#xFE50;} \text{&#x2998;}$ --- may be used for logical operators.
 
 Table&nbsp;1 collects a sample of basic propositional forms as expressed in terms of cactus connectives.
 
@@ -128,9 +127,9 @@ $$\array{a + b & = & \text{&#x2997;} a \text{&#xFE50;} b \text{&#x2998;}}$$
 
 $$\array{
 a + b + c
-& = &
+&amp; = &amp;
 \text{&#x2997;} a \text{&#xFE50;&#x2997;} b \text{&#xFE50;} c \text{&#x2998;&#x2998;}
-& = &
+&amp; = &amp;
 \text{&#x2997;&#x2997;} a \text{&#xFE50;} b \text{&#x2998;&#xFE50;} c \text{&#x2998;}
 }$$
 </font></div>
@@ -218,9 +217,9 @@ Let us run through the initial example again, this time attempting to interpret 
 
 A function like this has an abstract type and a concrete type.  The abstract type is what we invoke when we write things like $f : \mathbb{B} \;\times\; \mathbb{B} \to \mathbb{B}$ or $f : \mathbb{B}^2 \to \mathbb{B}$.  The concrete type takes into account the qualitative dimensions or the "units" of the case, which can be explained as follows.
 
-* Let $P$ be the set of values $\{ \text{&#x2997;} p \text{&#x2998;}, \; p \} \;=\; \{ \mathop{not}\; p, \; p \} \;\cong\; \mathbb{B}$.
+* Let $P$ be the set of values $\{ \text{&#x2997;} p \text{&#x2998;}, \; p \} \;=\; \{ \not p, \; p \} \;\cong\; \mathbb{B}$.
 
-* Let $Q$ be the set of values $\{ \text{&#x2997;} q \text{&#x2998;}, \; q \} \;=\; \{ \mathop{not}\; q, \; q \} \;\cong\; \mathbb{B}$.
+* Let $Q$ be the set of values $\{ \text{&#x2997;} q \text{&#x2998;}, \; q \} \;=\; \{ \not q, \; q \} \;\cong\; \mathbb{B}$.
 
 Then interpret the usual propositions about $p, q$ as functions of the concrete type $f : P \;\times\; Q \to \mathbb{B}$.
 
@@ -236,23 +235,26 @@ These days, $\mathop{E}$ is more often called the _shift operator_.
 
 In order to describe the universe in which these operators operate, it is necessary to enlarge the original universe of discourse.  Starting from the initial space $X = P \;\times\; Q$, its _(first order) differential extension_ $\mathop{E}X$ is constructed according to the following specifications:
 
-$$\array{
-\arrayopts{\colalign{right center center}}
-\mathop{E}X & = & X \;\times\; \mathop{d}X
+<div markdown="1"><font size="+1">
+$$\array{\arrayopts{\colalign{right center center}}
+\mathop{E}X &amp; = &amp; X \;\times\; \mathop{d}X
 }$$
+</font></div>
 
 where:
 
+<div markdown="1"><font size="+1">
 $$\array{
 \arrayopts{\colalign{right center center}}
-X & = & P \;\times\; Q
+X &amp; = &amp; P \;\times\; Q
 \\
-\mathop{d}X & = & \mathop{d}P \;\times\; \mathop{d}Q
+\mathop{d}X &amp; = &amp; \mathop{d}P \;\times\; \mathop{d}Q
 \\
-\mathop{d}P & = & \{ \text{&#x2997;} \mathop{d}p \text{&#x2998;}, \; \mathop{d}p \}
+\mathop{d}P &amp; = &amp; \{ \text{&#x2997;} \mathop{d}p \text{&#x2998;}, \; \mathop{d}p \}
 \\
-\mathop{d}Q & = & \{ \text{&#x2997;} \mathop{d}q \text{&#x2998;}, \; \mathop{d}q \}
+\mathop{d}Q &amp; = &amp; \{ \text{&#x2997;} \mathop{d}q \text{&#x2998;}, \; \mathop{d}q \}
 }$$
+</font></div>
 
 The interpretations of these new symbols can be diverse, but the easiest option for now is just to say that $\mathop{d}p$ means &ldquo;$\mathop{change}\; p$&rdquo; and $\mathop{d}q$ means &ldquo;$\mathop{change}\; q$&rdquo;.
 
@@ -267,13 +269,107 @@ Propositions are formed on differential variables, or any combination of ordinar
 Given the proposition $f(p, q)$ over the space $X = P \;\times\; Q$, the _(first order) enlargement_ of $f$ is the proposition $\mathop{E}f$ over the differential extension $\mathop{E}X$ that is defined by the
 following formula:
 
+<div markdown="1"><font size="+1">
 $$\array{
 \mathop{E}f(p, q, \mathop{d}p, \mathop{d}q)
-& = & 
+&amp; = &amp;
 f(p + \mathop{d}p, \; q + \mathop{d}q)
-& = &
+&amp; = &amp;
 f( \; \text{&#x2997;} p, \mathop{d}p \text{&#x2998;}, \; \text{&#x2997;} q, \mathop{d}q \text{&#x2998;} \; )
 }$$
+</font></div>
+
+In the example $f(p, q) = p q$, the enlargement $\mathop{E}f$ is computed as follows:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\mathop{E}f(p, q, \mathop{d}p, \mathop{d}q)
+&amp; = &amp; 
+(p + \mathop{d}p)(q + \mathop{d}q)
+&amp; = &amp;
+\text{&#x2997;} p, \mathop{d}p \text{&#x2998;&#x2997;} q, \mathop{d}q \text{&#x2998;}
+}$$
+</font></div>
+
+<br>
+
+<center>
+<img alt="Cactus Graph Ef = (P,dP)(Q,dQ)" src="/nlab/files/Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg" width="500" />
+</center>
+
+Given the proposition $f(p, q)$ over $X = P \;\times\; Q$, the _(first order) difference_ of $f$ is the proposition $\mathop{D}f$ over $\mathop{E}X$ that is defined by the formula $\mathop{D}f = \mathop{E}f - f$, or, written out in full:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none"><font size="+1">
+<td style="border:none">
+$\mathop{D}f(p, q, \mathop{d}p, \mathop{d}q)
+\; = \;
+f(p + \mathop{d}p, \; q + \mathop{d}q) - f(p, q)
+\; = \;
+\text{&#x2997;} f( \; \text{&#x2997;} p, \mathop{d}p \text{&#x2998;}, \; \text{&#x2997;} q, \mathop{d}q \text{&#x2998;} \; ), \; f(p, q) \text{&#x2998;}$</td>
+</font></table>
+
+In the example $f(p, q) = p q$, the difference $\mathop{D}f$ is computed as follows:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none"><font size="+1">
+<td style="border:none">
+$\mathop{D}f(p, q, \mathop{d}p, \mathop{d}q)
+\; = \;
+(p + \mathop{d}p)(q + \mathop{d}q) - p q
+\; = \;
+\text{&#x2997;&#x2997;} p, \mathop{d}p \text{&#x2998;&#x2997;} q, \mathop{d}q \text{&#x2998;}, p q \text{&#x2998;}$</td>
+</font></table>
+
+<br>
+
+<center>
+<img alt="Cactus Graph Df = ((P,dP)(Q,dQ),PQ)" src="/nlab/files/Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg" width="500" />
+</center>
+
+We did not yet go through the trouble to interpret this (first order) _difference of conjunction_ fully, but were happy simply to evaluate it with respect to a single location in the universe of discourse, namely, at the point picked out by the singular proposition $p q$, that is, at the place where $p = 1$ and $q = 1$.  This evaluation is written in the form $\mathop{D}f|_{p q}$ or $\mathop{D}f|_{(1, 1)}$, and we arrived at the locally applicable law that is stated and illustrated as follows:
+
+<div markdown="1"><font size="+1">
+$$\array{
+f(p, q)
+&amp; = &amp;
+p q
+&amp; = &amp;
+p \;\mathop{and}\; q
+\\
+&amp; &amp; \Downarrow
+\\
+\mathop{D}f|_{p q}
+&amp; = &amp;
+\text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+&amp; = &amp;
+\mathop{d}p \;\mathop{or}\; \mathop{d}q
+}$$
+</font></div>
+
+<br>
+
+<center>
+<img alt="Venn Diagram PQ Difference Conj At Conj" src="/nlab/files/Venn_Diagram_PQ_Difference_Conj_At_Conj.jpg" width="500" />
+</center>
+
+<br>
+
+<center>
+<img alt="Cactus Graph PQ Difference Conj At Conj" src="/nlab/files/Cactus_Graph_PQ_Difference_Conj_At_Conj.jpg" width="500" />
+</center>
+
+The venn diagram shows the analysis of the inclusive disjunction $\text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}$ into the following exclusive disjunction:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; + &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q
+&amp; + &amp;
+\mathop{d}p \; \mathop{d}q
+}$$
+</font></div>
+
+The differential proposition that results may be interpreted to say "change $p$ or change $q$ or both".  And this can be recognized as just what you need to do if you happen to find yourself in the center cell and require a complete and detailed description of ways to escape it.
 
 ## External links ##
 
@@ -298,14 +394,6 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg|Cactus Graph Ef = (P,dP)(Q,dQ):pic]]
-
-[[Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg|Cactus Graph Df = ((P,dP)(Q,dQ),PQ):pic]]
-
-[[Venn_Diagram_PQ_Difference_Conj_At_Conj.jpg|Venn Diagram PQ Difference Conj At Conj:pic]]
-
-[[Cactus_Graph_PQ_Difference_Conj_At_Conj.jpg|Cactus Graph PQ Difference Conj At Conj:pic]]
 
 [[Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg|Cactus Graph Df = ((P,dP)(Q,dQ),PQ):pic]]
 
