@@ -27,6 +27,8 @@ Lie's three theorems establish the following properties of this functor.
 +-- {: .query}
 [[Andrew Stacey]]:
 Is $diff$ a standard name for this functor?  It seems a little prone to being confused with the diffeomorphism group of $G$ as a smooth manifold.
+
+_Toby_:  I would call the latter functor $Diff$, but I agree that it\'s rather similar.  The problem is that the standard name for $diff$, as far as I can tell, is `\mathfrak{\lowercase{`$-$`}}`, if you see what I mean, and that\'s an even less convenient name.
 =--
 
 ##Remarks##
