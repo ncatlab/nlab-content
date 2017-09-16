@@ -73,25 +73,31 @@ The following auxiliary definitions are useful for analyzing Bousfield localizat
 ###### Definition
 **($S$-localization of an object)**
 
-
+(...)
 
 =--
 
 ## Existence of Bousfield localizations ##
 
-There are various results stating that under suitable conditions the left Bozusfield localization does exist.
-
 +-- {: .un_theorem }
 ###### Theorem
-**(Jeff Smith)**
 
-If $C$ is a [[proper model category|left proper]] [[combinatorial model category]] and $S \subset Mor(C)$ is a small [[set]] of [[homotopy]]-classes of morphisms, then the left Bousfield localization $L_S C$ does exist.
+If $C$ is a 
+
+* [[proper model category|left proper]] 
+
+* [[combinatorial model category]] 
+
+* and $S \subset Mor(C)$ is a small [[set]] of morphisms, 
+
+then the left Bousfield localization $L_S C$ does exist as a [[combinatorial model category]].
 
 Moreover, it satisfies the following conditions:
 
-* it is a left [[proper model category]]
+* the fibrant objects of $L_S C$ are precisely the $S$-[[local object]]s of $C$ that are fibrant in $C$;
 
-* it is a [[combinatorial model category]]
+* $LS C$ is a left [[proper model category]]
+
 
 =--
 
@@ -102,7 +108,9 @@ A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.
 as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and 
 as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
 
-Using Smith's recognition theorem, for establishing the combinatorial model category structure, it is sufficient to 
+**existence of the combinatorial model category structure**
+
+Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#smiths_theorem_6), for establishing the [[combinatorial model category]] structure, it is sufficient to 
 
 * exhibit a [[set]] $I$ of cofibrations of $L_S C$ such that $inj(I) \subset W_{L_S C}$ and such that $cof(I) \cap W_{L_S C}$ is closed under [[pushout]] and [[transfinite composition]].
 
@@ -113,9 +121,15 @@ Then $inj(I) = inj(I_C) = fib_C \cap W_C \subset W_C \subset W_{L_S C}$.
 
 It remains to demonstrate closure of $cof(I) \cap W_{L_S C} = cof_C \cap W_{L_S C}$ under pushout and transfinite composition.
 
-One elegant way to see this, following [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf), is to notic that the relevant ordinary colimits happen to be homotopy colits. 
+One elegant way to see this, following [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf), is to notice that the relevant ordinary [[colimit]]s all happen to be [[homotopy colimit]]s:
 
-Because notice that $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy colimit]]: for $K \stackrel{}{\to}L$ an $S$-local morphism -- a morphism in $W_{L_S C}$ -- and for
+* all [[pushout]]s along cofibrations in a left [[proper model category]] are homotopy pushouts (details are [here](http://ncatlab.org/nlab/show/proper+model+category#homotopy_colimits_in_proper_model_categories_9));
+
+* all [[transfinite composition]] colimits in a [[combinatorial model category]] are homotopy colimits (details are [here](http://ncatlab.org/nlab/show/combinatorial+model+category#properties_17))
+
+And by their definition in terms of the [[derived hom space]] functor, $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy colimit]]s: 
+
+for $K \stackrel{}{\to}L$ an $S$-local morphism -- a morphism in $W_{L_S C}$ -- and for
 
 $$
   \array{
@@ -144,17 +158,54 @@ $$
 
 of $\infty$-groupoids. where the bottom morphism is a weak equivalence by assumption of $S$-locality of $Z$ and $(K \to L)$. But then also the top horizontal morphism is a weak equivalence for all $S$-local $Z$ and therefore $K' \to L'$ is in $W_{L_S C}$.
 
-Then notice that 
+Similarly for transfinite composition colimits.
 
-* the [[proper model category|left properness]] of $C$ implies that all ordinary pushouts of $(K \to L) \in cof_C \cap W_{L_S C}$ are homotopy pushouts 
+Therefore, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
 
-* and, generally, that all $\kappa$-[[filtered category|filtered colimit]]s are homotopy colimits for sufficienly large $\kappa$.
 
-With the above observation this implies that, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
+**fibrants in $L_S C$ are the $S$-local fibrants in $C$**
 
-Alternatively, following [[Higher Topos Theory|HTT]], we can make use of the fact that $S$-local weak equivalences that are also cofibrations are already characterized by the stronger property that mapping them into an $S$-[[local object]] yields an acyclic Kan fibration (this statement is described at [properties of local ojects in a model category](http://ncatlab.org/nlab/show/local+object#properties_10) ). Since acyclic Kan fibrations are preserved under ordinary pullbacks, this similarly allows to deduce the closure under pushouts.
+To see that the fibrant objects in $L_S C$ are precisely the $S$-local fibrant objects of $C$, use the fact (details are [here](http://ncatlab.org/nlab/show/local+object#properties_12)) that a cofibration $i : A \hookrightarrow B$ is an $S$-local weak equivalence precisely if for every fibrant $S$-local object $X$ the [[derived hom space]] functor $\mathbf{R}Hom(X,A) \to \mathbf{R}Hom(X,B)$ is an acyclic Kan fibration.
 
-...
+Since the $S$-local weak equivalence contain all original weak equivalences, we may assume without restriction that $S$ contains all generating acyclic cofibrations $J$. 
+
+Moreover, for every morphism $f : A \to B$ in $S$ the morphism $A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n \to B \cdot \Delta^n$ is an $S$-local weak equivalence, and hence may be assumed without restriction to be contained in $S$.
+
+To see this, notice that homming out of the corresponding pushout diagram into an $S$-[[local object]] $X$ produces the [[pullback]] diagram
+
+$$
+  \array{
+    [\partial \Delta^n,[A,X]]
+    &\stackrel{\in W}{\leftarrow}&
+    [\partial \Delta^n, [B,X]]
+    \\
+    \uparrow^{\mathrlap{\in fib}} && 
+    \uparrow
+    \\
+    [\Delta^n,[A,X]]
+    &&\stackrel{\in W}{\leftarrow}
+    [A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n, X]
+    \\
+    &{}_{\in W}\nwarrow&& \nwarrow
+    \\
+    &&&& [\Delta^n,[B,X]]
+  }
+$$ 
+
+in [[SSet]], where the top and bottommost morphisms are weak equivalences by the fact that $[B,X] \to [A,X]$ is an acyclic Kan fibration by the above and the fact that [[SSet]] is an [[SSet]]-[[enriched model category]], similarly for the fibration on the left, which implies by right [[proper model category|properness]] that the bottom horizontal morphism is a weak equivalence, which finally implies by [[category with weak equivalences|2-out-of-3]] that the morphism in question is a weak equivalence.
+
+So assume that $S$ contains these two kinds of morphisms.
+
+Then it follows that an object $X$ that has the extension property with respect to $S$ has it in particular with respect to $J$ and hence is fibrant. And it in particular has it with respect to 
+$A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n$, which means that $[B,X] \to [A,X]$ is an acyclic Kan fibration. So such an $X$ is $S$-local by the above. Conversely, if $X$ is fibrant and $S$-local, then for all $A \to B$ in $S$ the map $[B,X] \to [A,X]$ is in particular a surjection, so $X$ has the extension property.
+
+Next notice that we may assume that $S$ contains only cofibrations, the one of the lemma "localization at cofibrations is sufficient" below.
+
+A fibrant object of $L_S W$ has the extension property with respect to $cof_C \cap W_S$, hence in particular with respect to $S$ hence is $S$-local and fibrant in $C$.
+
+Conversely, if it is $S$-local and fibrant in $C$; it has the extension property with respect to $cof_C \cap W_S$, as we have just seen.  
+
+
 
 =--
 
@@ -166,8 +217,7 @@ This statement is generalized to the context of [[enriched model category]] theo
 
 +-- {: .un_theorem }
 ###### Theorem
-**(Clark Barwick)**
-
+**(existence of enriched Bousfield localization)**
 
 Let 
 
@@ -232,6 +282,29 @@ $$
 The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, which follows directly from the following proposition.
 
 =--
+
++-- {: .un_lemmaa }
+###### Lemma
+**(localization at cofibrations is sufficient)**
+
+Every combinatorial localization $B = L_{R} A$ of $A$ is already of the form $L_{S}A $ for $S$ a set of just cofibrations.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+See [[Higher Topos Theory|HTT, prop. A.3.7.4]]
+
+We demonstrate that $S := J_B$ does the trick.
+
+
+...
+
+=--
+
+
+
 
 The following further statements about fibrantions, cofibrations and weak equivalences in a Bousfield localization hold.
 
