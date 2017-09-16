@@ -19,7 +19,7 @@
 
 * [[small object argument]]
 
-* [[Bousfield localization]]
+* [[Bousfield localization of model categories|Bousfield localization]]
 
 ## refinements ##
 
