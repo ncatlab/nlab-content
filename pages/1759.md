@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-07-31
+
+*  [[Toby Bartels]]:  Additions to [[regular space]], [[separation axiom]], and [[Hausdorff space]].
+
+
 ## 2009-07-30
 
 * [[Urs Schreiber]]: 
