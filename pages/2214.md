@@ -27,6 +27,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-06
 
+* [[Mike Shulman]]:
+
+  * Created [[single-sorted definition of a category]] and [[collection]].  Afterwards I had the thought that perhaps the former should be called something more like "category (single-sorted definition)" -- any thoughts?  Do we have a convention for this sort of thing yet?
+  * Asked a question at [[Categories Work]].
+
 * [[Todd Trimble]]: responded to something Rafael wrote at [[category theory]], and asked a question at the bottom of the timeline page. 
 
 * [[Urs Schreiber]]
