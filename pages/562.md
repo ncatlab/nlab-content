@@ -1,3 +1,5 @@
+[[!redirects Grothendieck fibrations]]
+
 # Idea #
 
 A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or [[fibered category]] or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
