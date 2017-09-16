@@ -26,10 +26,12 @@ Most of set theory works without the axiom of foundation, but not the deep study
 
 Alternatively, one can adopt the __axiom of anti-foundation__, which says something like:
 
-* given any binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ such that $(U,\in)$ is [[isomorphism|isomorphic]] to $(S,\prec)$.
+* Given any binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ such that $(U,\in)$ is [[isomorphism|isomorphic]] to $(S,\prec)$.
 
-Note that the axiom of foundation is precisely the converse of this for a [[well-founded relation]] $\prec$.
+(This might be wrong, so somebody should fix it.  There might also be several versions or equivalent forms.)
 
-(This might be wrong, so somebody should fix it.  There might also be several versions.)
+Note that the converse of this is obvious.  If you include the hypothesis that $\prec$ be [[well-founded relation|well-founded]], then the statement is a theorem but the converse is the axiom of foundation.
+
+If you adopt the axiom of anti-foundation instead of foundation, then the univere of [[pure set]]s becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
 
 category: foundational axiom
