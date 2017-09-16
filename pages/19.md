@@ -57,13 +57,15 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 **Category theory** is so useful because it can be seen from so many perspectives.
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
+
 * Categories may be regarded as 1-dimensional [[directed space]]s. One precise way to say this is that a category is a [[simplicial set]] such that the [[Segal map]]s are isomorphisms. (When distinguishing the category itself from the simplicial set that it corresponds to one says that the simplicial set is the [[nerve]] of the category.)
 
-+--{: .query}
-[[David Roberts]]: At the risk of inflaming discussion on this point again, I would like to point out that this analogy is a little loose, as there are no points of this directed space \'half-way along'\ an arrow. This idea very much smacks of Ronnie Brown's philosophy of choosing an appropriate set of basepoints for the fundamental groupoid. In this instance we are taking a one-dimensional directed space then choosing basepoints for the fundamental category at places where the space is not locally euclidean. Then the original category embeds as a subcategory of the whole fundamental category. In this somewhat loose sense one could think of a category being embedded in a one-dimensional directed space - but please note this is only a heuristic.
-=--
+  +--{: .query}
+  [[David Roberts]]: At the risk of inflaming discussion on this point again, I would like to point out that this analogy is a little loose, as there are no points of this directed space \'half-way along'\ an arrow. This idea very much smacks of Ronnie Brown's philosophy of choosing an appropriate set of basepoints for the fundamental groupoid. In this instance we are taking a one-dimensional directed space then choosing basepoints for the fundamental category at places where the space is not locally euclidean. Then the original category embeds as a subcategory of the whole fundamental category. In this somewhat loose sense one could think of a category being embedded in a one-dimensional directed space - but please note this is only a heuristic.
+  =--
 
 * Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of $Set$, a category is a **[[universe]]** inside which mathematics may take place.
+
   +-- {: .query}
 
   >the following discussion originated from an earlier version of the above two items. The new form of the above items is supposed to be a result and wrap-up of the discussion below. But if it is not regarded as such by everyone, we need to continue discussing.  
@@ -100,7 +102,7 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
   [[David Roberts]]: I think the constrast needs to be made between small categories, which are models for homotopy types, and categories which are to be considered ambient categories, like topoi, [[exact category|Barr-exact categories]], $(\infty,1)$-categories and so on. This is probably what Rafael means, but the juxtaposition in the sentence is slightly confusing. In fact, I've put a bit in about Grothendieck's views on small categories.
 
   [[Urs Schreiber]]: concerning homotopy types: yes, so that's what I tried to say: while a category _models_ a homotopy type, it can't really be identified with that. 
-Many different categories model a given homotopy type. In fact, already all [[poset]]s model all homotopy types in this sense (namely in the sense that all homotopy types are obtained as [[geometric realization]]s of [[nerve]]s of them). 
+  Many different categories model a given homotopy type. In fact, already all [[poset]]s model all homotopy types in this sense (namely in the sense that all homotopy types are obtained as [[geometric realization]]s of [[nerve]]s of them). 
 
   On David's other comment: tt is a good point that for practical purposes we may want to distinguish on which level of self-reflection of category theory we are speaking. Do we have a single $\infty$-category that happens to be used as a model for a homotopy type, or do we happen to consider an $\infty$-category of "all" $\infty$-categories of such sorts (or do we go even further).
 
@@ -208,18 +210,31 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
 
   _Toby_:  OK, I\'m doing this.
   =--
+
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
+
 * A unifying tool and language in [[mathematics]].
+
 * An organizational tool in [[mathematics]].
+
 * A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets.
+
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
+
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
+
 * A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
+
 * The theory of [[directed graph|directed multipseudographs]] with a [[composition]] law and identity loops. This has given rise to the heavy use of diagrams in category theory.
+
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
+
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
+
 * A theory of [[presheaves]] with some properties on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$.
+
 * A theory of [[Cat]], the $2$-[[2-category|category]] of categories. This is axiomatized in Lawvere\'s [[ETAC]].
+
 
 Some would define category theory as the human activity of [category theorists](http://ncatlab.org/nlab/list/people).
 
