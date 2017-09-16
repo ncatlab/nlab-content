@@ -31,7 +31,7 @@ A well developed theory exists for $\infty$-stacks that are sheaves with values 
 
 The currently most complete picture of [[(infinity,1)-sheaf|(∞,1)-sheaves]] appears in
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 but is based on a long development by other authors, some of which is indicated in the list of references below. 
 
@@ -59,10 +59,14 @@ Notice that an $\infty$-stack is a [[(∞,1)-presheaf]] for which not only the c
 
 To emphasize that one considers $\infty$-stacks on higher categorical sites one speaks of [[derived stacks]].
 
+
 ### Higher $\infty$-stacks 
 
 The above concerns $\infty$-stacks with values in [[∞-groupoids]], i.e, [[(∞,0)-category|(∞,0)-categories]]. More generally there should be notions of $\infty$-stacks with values in  [[(n,r)-category|(n,r)-categories]]. These are expected to be modeled by the [[model structure on homotopical presheaves]] with values in the category of [[Theta spaces]].
 
+### Quasicoherent $\infty$-stacks
+
+An archetypical class of examples of $\infty$-stacks are [[quasicoherent ∞-stack]]s of [[module]]s, being the [[vertical categorification|categorification]] of the notion of [[quasicoherent sheaf]]. By their nature these are really $(\infty,1)$-stacks in that they take valus not in [[∞-groupoid]]s but in [[(∞,1)-categories]], but often onyl their [[∞-groupoid]]al [[core]] is considered.
 
 ## References
 
@@ -72,9 +76,9 @@ The search for $\infty$-stacks probably began with [[Alexander Grothendieck]] in
 
 The notion of $\infty$-stacks can be set up in various notions of $\infty$-categories. [[Andre Joyal]], Jardine, [[Bertrand Toen]] and others have developed the theory of $\infty$-stacks in the context of [[simplicial presheaf|simplicial presheaves]] and also in [[Segal category|Segal categories]].
 
-* [[Bertrand Toën]], G. Vezzosi; _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005), no. 2, 257--372, [doi](http://dx.doi.org/10.1016/j.aim.2004.05.004), _Homotopical Algebraic Geometry II: geometric stacks and applications_, [math.AG/0404373](http://front.math.ucdavis.edu/0404.5373)
+* [[Bertrand Toën]], [[Gabriele Vezzosi]]; _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005), no. 2, 257--372, [doi](http://dx.doi.org/10.1016/j.aim.2004.05.004), _Homotopical Algebraic Geometry II: geometric stacks and applications_, [math.AG/0404373](http://front.math.ucdavis.edu/0404.5373)
 
-* [[Bertrand Toën]], G. Vezzosi; _Segal topoi and stacks over Segal categories_, [math.AG/0212330](http://arxiv.org/abs/math.AG/0212330). 
+* [[Bertrand Toën]], [[Gabriele Vezzosi]]; _Segal topoi and stacks over Segal categories_, [math.AG/0212330](http://arxiv.org/abs/math.AG/0212330). 
 
 * [[Bertrand Toën]]; _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504)).
 
