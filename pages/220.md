@@ -24,6 +24,9 @@ Some remaining issues:
 * Etc.
 
 The easy thing to do is to Edit this page, copy the text to your favorite editor, find/replace, paste text back here.
+
+* [[Jon Awbrey]]: I think I took care of all the remaining formatting issues, but a 2nd or 3rd pair of eyes would be good.
+
 =--
 
 ## ETCS : Internalizing the logic ##
