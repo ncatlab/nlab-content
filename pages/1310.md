@@ -135,10 +135,11 @@ $$
 in DGCAs, i.e. a homotopy pushout
 
 $$
-  \xymatrix{
+  \array{
     \wedge^\bullet V &\leftarrow& CE_\rho(g)
     \\
     \downarrow && \downarrow
+    \\
     0 &\leftarrow & CE_A(g)
   }
   \,.
