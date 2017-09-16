@@ -110,7 +110,11 @@ That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$
   [[Andrew Stacey]]: can't tell if you're being sarcastic here.  If so, try leaving a comment with _absolutely no_ indent and see what chaos ensues.
 
   [[John Baez]]: No, I wasn't being sarcastic.  I tried it and saw what chaos ensued.  But further down the page we're having a boxed discussion without these darned indents, and it's working fine.  So why bother with indents in the first place?
-   =-- 
+
+  _Toby_: The purpose of the indentation is to keep the query box with the appropriate entry in the unnumbered list.  Besides the obvious (and obviously small) aesthetic advantage, this does two things when it happens in the middle of a list:
+  *  it helps the diff mechanism tell when a query box is inserted or removed with no other change to the list;
+  *  it keeps the numbering in a numbered list correct.
+  =-- 
 
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
 
@@ -196,7 +200,11 @@ Anyway, I think I'm starting to repeat myself, so I'll stop.
 [[David Roberts]]: I find myself writing $X$ for a topological groupoid as well as a space, as the latter is one of the former, and I want to replace spaces with groupoids anyway. Ditto with functors (and eventually anafunctors, but that is a little trickier). The move to replace spaces by stacks, which is a good thing, seems to have that psychological barrier of people obeying the urge to call a stack a symbol in an unreadable font. Many-folds were once tricky... 
 
 That's my rant over
+
+_Toby_:  Just stepping in to clear the air about what Jim Dolan actually does.  Here is an example, not as he would write it, but using symbols as he would write them on a blackboard:
+> Let $C$ be a category.  Let $C_0$ and $C_1$ be objects of $C$.  Let $C_2$ be a morphism from $C_0$ to $C_1$.  ...
 =--
+
 
 [[!redirects Tall--Wraith monoid]]
 [[!redirects Tall–Wraith monoid]]
