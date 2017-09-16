@@ -28,6 +28,10 @@ _Toby_:  I don\'t know, but lately I\'ve thought that we link names too little. 
 Rafael: I did find a way of automating the process. Here is an automated transfer. OK, something weird is happening to the table, as if it is too long.
 
 _Toby_:  You\'re putting stuff in the table that Instiki\'s primitive table handling can\'t do.  I\'m fixing it a bit, but it\'s a kludge just to make things readable.  All in all, this would probably work better as a list; you can do all of this stuff in a list here, and it\'s easy to enough to separate out year and person with dashes.  I\'ll write the first three entries in that style so you can look at it.  (PS: You\'re Fotino?)
+
+Rafael: I am very much for the table as everything blends otherwise. Yes i am Fotino.
+
+The problem seem to be that Instiki interprets Def: and Definition: wrongly. Is there a way to temporary turn it off such as nowiki?
 =--
 
 #Idea#
@@ -43,13 +47,11 @@ On the contrary, I think that we should keep entries in the table short and save
 =--
 
 #Timeline#
-
-*  1890 --- [[David Hilbert]] --- [[resolution of modules|Resolution]] and free resolution of modules
-*  1890 --- [[David Hilbert]] --- [[Hilbert syzygy theorem]]
-*  1893 --- [[David Hilbert]] --- [[nullstellensatz|Fundamental theorem of algebraic geometry]] also called Hilbert Nullstellensatz. It was later reformulated to: the category of [[affine variety|affine varieties]] over a field $k$ is equivalent to the [[opposite category|dual]] of the category of reduced finitely generated (commutative) $k$-[[associative unital algebra|algebras]]
-
 |Year| |Contributors     | |Event|
 |----|-|-----------------|-|-----|
+|1890| |[[David Hilbert]]| |[[resolution of modules|Resolution]] and free resolution of modules|
+|1890| |[[David Hilbert]]| |[[Hilbert syzygy theorem]]|
+|1893| |[[David Hilbert]]| |[[nullstellensatz|Fundamental theorem of algebraic geometry]] also called Hilbert Nullstellensatz. It was later reformulated to: the category of [[affine variety|affine varieties]] over a field $k$ is equivalent to the [[opposite category|dual]] of the category of reduced finitely generated (commutative) $k$-[[associative unital algebra|algebras]]|
 |1894| |[[Henri Poincaré]]| |[[Fundamental group]] of a topological space|
 |1895| |[[Henri Poincaré]]| |[[Simplicial homology]]|
 |1895| |[[Henri Poincaré]]| |Fundamental work [[Analysis situs (book)|analysis situs]], the beginning of [[algebraic topology]]|
