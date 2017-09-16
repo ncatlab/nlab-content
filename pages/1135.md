@@ -3,7 +3,7 @@
 The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[group]]s, [[ring]]s without unit, [[algebra]]s without unit, Lie algebras, as nicely as the axioms of an [[abelian category]] captures the properties of the category of abelian groups and of modules.
 
 +--{: .query}
-[[Mike Shulman|Mike]]: Why only rings without units (that is, rngs)?  What important properties do the above listed examples share that are not shared by rings with units?
+[[Mike Shulman|Mike]]: Why only rings without units (that is, rngs)?  Intuitively, what important properties do the above listed examples share that are not shared by rings with units?
 =--
 
 
@@ -11,33 +11,46 @@ The axioms of a _semi-abelian_ category are supposed to capture the properties o
 
 A [[category]] $C$ is **semi-abelian** if it
 
+* is [[exact category|Barr-exact]] (hence [[regular category|regular]] and in particular has finite [[limit]]s);
+
 * has a [[zero object]];
 
-* has finite [[coproduct]]s
-
-* is [[exact category|Barr-exact]];
+* has finite [[coproduct]]s; and
 
 * is [[Bourn-protomodular category|Bourn-protomodular]].
 
 +--{: .query}
-[[Mike Shulman|Mike]]: Can someone explain more about why those are equivalent?  How does the second set of axioms imply the existence of finite limits and finite coproducts?
+[[Mike Shulman|Mike]]: I was about to create the link to Bourn-protomodular category, but then I wondered whether we should just say "protomodular"---is there a reason to disambiguate it with the prefix "Bourn-"?  We (sometimes) say "Barr-exact" to avoid confusion with [[Quillen exact category|Quillen-exact]]; is there any ambiguity for "protomodular?"
+=--
 
-[[Mathieu Dupont|Mathieu]]: The second definition (which I removed and pasted below in the discussion) is not equivalent to the first.  For example, the category of pointed sets satisfies the following conditions but is not semi-abelian (because in a semi-abelian category every regular epimorphism is the cokernel of its kernel, but this is not true for pointed sets).
+Equivalently, $C$ is semi-abelian if:
 
-* it has a [[zero object]];
+* it has finite products and coproducts and a [[zero object]];
 
-* it has [[pullback]]s of (split) [[monomorphism]]s;
+* it has [[pullback]]s of [[monomorphism]]s (or even only of [[split monomorphism]]s);
 
 * it has [[coequalizer]]s of [[kernel pair]]s;
 
 * [[regular epimorphism]]s are stable under [[pullback]];
 
-* [[congruence|equivalence relations]] are effective.
+* [[congruence|equivalence relations]] are effective; and
 
-[[Urs Schreiber|Urs]]: the statement about the two equivalent defintions was taken directly from the reference given below -- maybe I copied it incorrectly, but then we should keep the corrected version of the second definition here
+* the _Split Short Five Lemma_ holds: given a commutative diagram
+$$\array{L & \overset{l}{\to} & F & \overset{q}{\to} & C\\
+  ^u\downarrow && \downarrow^w && \downarrow^v \\
+  K & \underset{k}{\to} & E& \underset{p}{\to} & B}$$
+where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]]s, if $u$ and $v$ are [[isomorphism]]s then so is $w$.
 
-[[Mike Shulman|Mike]]: It seems that $Set_*$ is Barr-exact and has a zero object and finite coproducts, so it must fail at being Bourn-protomodular.  Could someone fill in a definition for what that means?
-=--
+To see that the second list of axioms implies the existence of finite limits, observe that the pullback
+$$\array{P & \to & A\\
+  \downarrow && \downarrow^f\\
+  B& \underset{g}{\to} & C}$$
+can be computed as the pullback
+$$\array{P & \to & A\times B\\
+  \downarrow && \downarrow^{(1,1,f)}\\
+  A\times B& \underset{(1,1,g)}{\to} & A\times B\times C}$$
+in which both legs are split monics.  Filling in one of the equivalent definitions of Barr-exactness, the equivalence of the two lists of axioms reduces to showing that in a Barr-exact category with coproducts and a zero object, protomodularity is equivalent to the Split Short Five Lemma; see the paper referenced below for a proof.
+
 
 #Remarks#
 
@@ -46,10 +59,11 @@ A [[category]] $C$ is **semi-abelian** if it
 
 #Examples#
 
-* Every [[abelian category]] is semi-abelian.
+* Every [[abelian category]] is semi-abelian.  Conversely, a semi-abelian category is abelian if and only if it is [[additive category|additive]], and if and only if its opposite is semi-abelian.
 
-* The category [[Grp]] of [[group]]s (not just abelian groups) is semi-abelian but not [[abelian category|abelian]].
+* The category [[Grp]] of not-necessarily-abelian [[group]]s is semi-abelian but not [[abelian category|abelian]].
 
+* The category of [[pointed set]]s is Barr-exact with finite coproducts and a zero object, but is not semi-abelian: protomodularity and the Split Short Five Lemma fail to hold.
 
 
 #References#
