@@ -1,8 +1,10 @@
 
 > this entry needs to be merged/harmonized with [[derived hom space]]
 
+#Simplicial localisation
 * a table of contents that doesn't contain itself
 {:toc}
+
 
 ## Idea 
 
