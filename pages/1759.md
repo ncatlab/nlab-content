@@ -30,6 +30,16 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-20
 
+* [[Urs Schreiber]]:
+
+  * created [[presentable category]] for questionable reasons
+
+  * added to [[locally presentable category]] the explicit charascterization
+
+  * created [[cofibrantly generated model category]]
+
+  * started adding an "Application" section to [[models for infinity-stack (infinity,1)-toposes]]
+
 *  [[David Corfield]]: imported Patrick Schultz's cafe comment on cartesian monads to [[cartesian monad]], but now have doubts as to whether it ought to appear there first under 'Idea'. Are there other uses for cartesian monads? And anyway similar material appears at [[multicategory]].
 
 *  [[Toby Bartels]]:  Answered an anonymous question at [[regular monomorphism]].
