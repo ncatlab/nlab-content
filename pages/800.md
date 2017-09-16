@@ -92,6 +92,7 @@ For example, assuming choice, a [[strict 2-functor]] between strict $2$-categori
 
 [[!redirects equivalent category]]
 [[!redirects equivalent categories]]
+[[!redirects equivalences of categories]]
 [[!redirects isomorphism of categories]]
 [[!redirects equivalence of 2-categories]]
 [[!redirects equivalence of bicategories]]
