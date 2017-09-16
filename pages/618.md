@@ -2,6 +2,10 @@
 
 A **coverage** on a category $C$ is a collection of families of coterminal morphisms $\{f_i:U_i\to U\}_{i\in I}$ to be thought of as [[cover|covering families]].  The essential characteristic of these covering families is that they be "stable under pullback."  A number of other "saturation" conditions are frequently also imposed for convenience.  A category equipped with a coverage is called a [[site]].
 
++-- {: .query}
+_Bruce_: What does 'coterminal morphism' mean? Bruce from 10 minutes into the future: I think it means "a collection of morphisms is coterminal if they have the same target". In that case, I'm thinking "coterminal" introduces needless terminological complexity. Can't it be left out?
+=--
+
 One of the main purposes of a coverage is that it provides the minimum structure necessary to define a notion of [[sheaf]] (or more generally [[stack]]) on $C$.  A [[Grothendieck topos]] is defined to be the category of sheaves (of sets) on a small site.  From this perspective, the example to keep in mind is the [[partial order|poset]] $O(X)$ of open sets in some [[topological space]] (or [[locale]]) $X$, where a morphism is an inclusion, and a family of inclusions $\{U_i \hookrightarrow U\}$ is a covering family iff $U = \bigcup_i U_i$.
 
 Another perspective on a coverage is that the covering families are "postulated well-behaved quotients."  That is, saying that $\{f_i:U_i\to U\}_{i\in I}$ is a covering family means that we want to think of $U$ as a well-behaved quotient (i.e. colimit) of the $U_i$.  Here "well-behaved" means primarily "stable under pullback."  In general, $U$ may or may not _actually_ be a colimit of the $U_i$; if it always is we call the site _subcanonical_.  From this perspective, the embedding of $C$ into its category of sheaves is "the free cocompletion of $C$ that takes covering families to well-behaved quotients"; compare how the [[Yoneda embedding]] of an arbitrary category $C$ into its category of [[presheaf|presheaves]] is its [[free cocompletion]], period.
