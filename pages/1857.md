@@ -52,4 +52,20 @@ is an artifact from the time when we did not have [[redirects]].
 
 In time, we hope to eliminate the legacy plural links with the "s" split from the singular link.
 
+Another reason we might change these plural links is to make the general linkage of the nLab more robust. Changing a link from 
+
+    [[groupoid]]s
+
+to 
+
+    [[groupoids]]
+
+reveals whether the page [[groupoid]] has a redirect for [[groupoids]]. If the link 
+
+    [[groupoids]]
+
+is broken, we fix it by inserting a redirect on [[groupoid]].
+
+Human error aside, any format change should not result in broken links.
+
 [[!redirects Note on formatting]]
