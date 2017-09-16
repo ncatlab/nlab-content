@@ -13,3 +13,5 @@ A _derived smooth manifold_ is a [[structured generalized space]] given by a man
 Derived smooth manifolds were defined in
 
 * David Spivak, _Quasi-smooth derived manifolds_, PhD thesis, Berkeley (2007) ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf#page=36))
+
+[[!redirects derived smooth manifolds]]
