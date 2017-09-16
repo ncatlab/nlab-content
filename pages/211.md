@@ -25,3 +25,4 @@ category: meta
 [[!redirects Anonymous Hero]]
 [[!redirects AnotherAnonymousCoward]]
 [[!redirects InterestedAnonymousCoward]]
+[[!redirects NeedNotBeConcrete]]
