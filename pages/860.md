@@ -25,5 +25,7 @@ Perhaps also I should create an entry on pro-objects which would link with profi
 
 Your other point about separate pages needs thought.  My view would be that we need to think both of the main users (i.e. us an co!) and external users since as we make reference to the nLab more and more people are likely to use it as one entry point for definitions etc. 
 
+[[Mike Shulman|Mike]]: Toby, I wasn't saying you pulled "proset" out of thin air; I've never seen it in the literature but clearly I read different literature than you do.  (-:  My point was rather about what terminology we should use here on the nLab.  I think having "proset" be a disambiguation page is a good idea, but since there is potential ambiguity I would prefer that we avoid its use elsewhere on the nLab.
 
+I'm all in favor of having lots of pages, but I'm not really in favor of duplicating _content_.  I'd rather have [[toset]] just link to [[total order]], which in turn mentions that "toset" is a sometimes-used terminology for "totally ordered set."
 =--
