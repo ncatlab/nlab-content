@@ -49,9 +49,20 @@ be $\infty$-[[differentiable stack]]s if one considers
 
 #Definition#
 
-A Grothendieck-Rezk-Lurie **$(\infty,1)$-topos** is an [[(infinity,1)-category]] satisfying the following equivalent coditions:
+A Grothendieck-Rezk-Lurie **$(\infty,1)$-topos** is an [[(infinity,1)-category]] $X$ satisfying the following equivalent coditions:
  
 
-* an **$(\infty,1)$-topos** $X$ is an [[(infinity,1)-category of (infinity,1)-sheaves]]: in other words, there exists a small [[(infinity,1)-category]] $S$ and an accessible left [[(infinity,1)-exact functor|exact]] [[(infinity,1)-functor]] $\bar {(-)} : PSh(S) \to X$
+* $X$ is an [[(infinity,1)-category of (infinity,1)-sheaves]]: in other words, there exists a small [[(infinity,1)-category]] $S$ and an accessible left [[(infinity,1)-exact functor|exact]] [[(infinity,1)-functor]] $\bar {(-)} : PSh(S) \to X$
 from [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[(infinity,1)-adjoint functor|right adjoint]].
 
+* $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
+  * $X$ is presentable;
+  * [[(infinity,1)-colimit]]s in $X$ are universal;
+  * coproducts in $X$ are disjoint;
+  * every groupoid object in $X$ is effective. 
+
+#References#
+
+Section 6.1 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
