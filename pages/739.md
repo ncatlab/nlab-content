@@ -14,7 +14,7 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 
 #Developments from the concept#
 
-* The category of profinite groups has nice 'exactness' properties. The projective limit of a systems of profinite groups is an exact functor, unlike its behaviour on groups themselves. To extend this behaviour beyond (pro)finite groups sometimes pro-localic groups have been used.
+* The category of profinite groups has nice 'exactness' properties. The projective limit of a system of profinite groups is an exact functor, unlike its behaviour on groups themselves. To extend this behaviour beyond (pro)finite groups sometimes pro-localic groups have been used.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: The three remarks below don't really seem to belong here; maybe they should go on something like [[profinite homotopy type]].
