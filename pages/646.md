@@ -68,3 +68,6 @@ Crossed complexes capture operations of the fundamental groupoid, but not quadra
 *(Conjecture) double crossed complexes capture the quadratic information on homotopy types, triple crossed complexes capture the cubic information, etc., etc. 
 
 This has the possibility of leading to computations, by applying [[van Kampen theorem]]s to specific levels.
+
+
+[[!redirects n-type]]
