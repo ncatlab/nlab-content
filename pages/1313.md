@@ -16,17 +16,21 @@ As with other [[universal construction]]s, an exponential object, if any exists,
 
 # Related notions #
 
-Let $C$ be a category with finite products and $X,Y\in C$.
+Let $C$ be a category and $X,Y\in C$.  Usually one assumes that $C$ is a [[cartesian monoidal category]], although this is not necessary for the concepts to make sense.
+
++--{: .query}
+Mike, you keep insisting that $C$ must have finite products, but $Y$ can be exponentiable as long as all products with *it* exist.  For an example (where $C$ is a slice category), every display morphism (which I haven\'t yet written about at [[context]]) is exponentiable in a dependent type theory with dependent products but (to prevent finite products) without identity types, even though (since not every morphism is display) the relevant slice category lacks some products (since the category of contexts lacks some pullbacks).  ---[[Toby Bartels]]
+=--
 
 * If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$ or that $Y$ is __exponentiable__ by $X$.
 
-* If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__.  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if  every object is exponentiable.
+* If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__.  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable.
 
 * More generally, a morphism $Y \to A$ is __exponentiable__ when it is exponentiable in the [[over category]] $C/A$.  Then $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ if every morphism is exponentiable.
 
-* Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ __exponentiates__.  Again, $C$ is __cartesian closed__ if every object is exponentiates.
+* Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ __exponentiates__.  Again, $C$ is __cartesian closed__ if it has a terminal object and every object exponentiates.
 
-If $C$ instead has finite _coproducts_, then a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian closed category]]__ has all of these.
+Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian closed category]]__ has all of these (and an [[initial object]]).
 
 
 # Examples #
@@ -39,11 +43,13 @@ Of course, in any cartesian closed category every object is exponentiable and ex
 
 * In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable.  This is  analogous to how in material [[set theory] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
 
-However, exponentiating objects do exist.
+* In a [[type theory]] with [[dependent product]]s, every display morphism is exponentiable in the category of [[context]]s ---even in a type theory without identity types, so that not every morphism is display and the relevant slice category need not have all products.
 
-* In [Abstract Stone Duality](http://www.paultaylor.eu/ASD/), Sierpinski space exponentiates.
+However, exponentiating objects do matter sometimes.
 
-* [[Toby Bartels]] has argued that predicative mathematics can have a set of truth values as long as this set doesn\'t exponentiate (or even exponentiates only finite sets).
+* In [Abstract Stone Duality](http://www.paultaylor.eu/ASD/), [[Sierpinski space]] exponentiates.
+
+* [[Toby Bartels]] has [argued](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023187) that [[predicative mathematics]] can have a set of [[truth value]]s as long as this set doesn\'t exponentiate (or even exponentiates only [[finite set]]s).
 
 
 # Properties #
