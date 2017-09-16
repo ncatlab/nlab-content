@@ -80,6 +80,6 @@ Rafael, I don\'t know if you\'ve been checking [[latest changes]], but I often l
 
 _Rafael_: I am sorry to have missed the logging but i only recently by accident noticed that you also log at Latest Changes. I thought that all changes were in Recently Revised. Since Toby is logging for me, thanks Toby, i will try to remember to do it myself so others don't have to do it for me.
 
-
+_John_: Sorry, I meant [[latest changes]].  It's a good way to discuss what's going on with various new entries.
   
 =--
