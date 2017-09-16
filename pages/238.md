@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-29 #
+
+* [[Urs Schreiber]]
+
+  * created reference entry [[Lectures on n-Categories and Cohomology]] in order to collect the existing $n$Lab entries on topics discussed there
+
 # 2009-06-28 #
 
 *  [[Toby Bartels]] responded to Todd below.
