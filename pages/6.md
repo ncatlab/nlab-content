@@ -1,3 +1,2 @@
-See [[physics]].
-
-category: redirect
+&lt; [[Physics]]
+[[!redirects Physics -- history]]
