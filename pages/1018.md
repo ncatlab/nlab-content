@@ -1,5 +1,6 @@
 A **contravariant functor** $F$ from a [[category]] $C$ to a category $D$ is simply a [[functor]] from the [[opposite category]] $C^op$ to $D$.
 
+
 To emphasize that one means a functor $C \to D$ as stated and _not_ as a functor $C^{op} \to D$ one sometimes says **covariant functor** for non-contravariant, for emphasis. 
 
 Equivalently, a contravariant functor from $C$ to $D$ may be thought of as a functor from $C$ to $D^op$, but the version above generalises better to functors of many variables. 
