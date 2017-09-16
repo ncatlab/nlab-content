@@ -1,4 +1,4 @@
-A binary [[relation]] from a [[set]] $X$ to a set $Y$ is called **functional** if every element of $X$ is related to at most one element of $Y$.  Notice that this is the same thing as a **partial function**, which is often called simply a **function** in secondary-school mathematics.  A total [[function]], however, is precisely a relation that is both functional and [[entire relation|entire]].
+A binary [[relation]] from a [[set]] $X$ to a set $Y$ is called **functional** if every element of $X$ is related to at most one element of $Y$.  Notice that this is the same thing as a [[partial function]], seen from a different point of view.  A (total) [[function]] is precisely a relation that is both functional and [[entire relation|entire]].
 
 Like any relation, a functional relation $r$ can be viewed as a [[span]]
 $$ \array {
