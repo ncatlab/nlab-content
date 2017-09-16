@@ -15,7 +15,7 @@ The idea of **topological T-duality** is to disregard the Riemannian metric.
 
 While the idea of [[T-duality]] originates in [[string theory]], topological T-duality has become a field of study in pure mathematics in its own right. Its formalization originates in _BunkeSchick05_ and _BunkeRumpfSchick08_
 
-In the language of [[bi-brane]]s a topological T-duality transformation is a bi-brane of a special kind between the two gerbes involved. The induced pull-push operation (in [[groupoidification]] and [[geometric function theory]]) on (sheaves of sections of, or K-classes of) (twisted) vector bundles is essentially the Fourier-Moukai transformation. More on the bi-brane interpretation of (topological and non-topological) T-duality is in _SarkissianSchweigert08_.
+In the language of [[bi-brane]]s a topological T-duality transformation is a bi-brane of a special kind between the two gerbes involved. The induced pull-push operation (in [[groupoidification]] and [[geometric function theory]]) on (sheaves of sections of, or K-classes of) (twisted) vector bundles is essentially the Fourier-Mukai transformation. More on the bi-brane interpretation of (topological and non-topological) T-duality is in _SarkissianSchweigert08_.
 
 
 #Definition#
