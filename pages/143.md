@@ -112,24 +112,24 @@ We now describe the derivation and the detailed description of various aspects o
 
 Here we start by assuming that a [[geometric embedding]] into a [[presheaf]] category is given and derive the consequences.
 
-So let $S$ be a [[small category]] and write $PSh(S) = [S^{op}, Set]$ for the corresponding [[topos]] of [[presheaf|presheaves]].
+So let $S$ be a [[small category]] and write $PSh(S) = PSh_S = [S^{op}, Set]$ for the corresponding [[topos]] of [[presheaf|presheaves]].
 
-Assume then that another topos $Sh$ is given together with a [[geometric embedding]]
+Assume then that another topos $Sh(S) = Sh_S$ is given together with a [[geometric embedding]]
 
 $$
-  f : Sh \to PSh(S)
+  f : Sh(S) \to PSh(S)
 $$
 
 i.e. with a [[full and faithful functor]]
 
 $$
-  f_* : Sh \to PSh(S)
+  f_* : Sh(S) \to PSh(S)
 $$
 
 and a left [[exact functor]]
 
 $$
-  f^* : PSh(S) \to Sh
+  f^* : PSh(S) \to Sh(S)
 $$
 
 Such that both form a pair of [[adjoint functor]]s
@@ -149,23 +149,23 @@ $$
 consisting of all those morphisms in $PSh(S)$ that are sent to [[isomorphism]]s under $f^*$.
 
 $$
-  W = (f^*)^{-1}(Core(Sh))
+  W = (f^*)^{-1}(Core(Sh_S))
   \,.
 $$
 
-From the discussion at [[geometric embedding]] we know that $Sh$ is equivalent to the full [[subcategory]] of $PSh(S)$ on all $W$-[[local object]]s.
+From the discussion at [[geometric embedding]] we know that $Sh(S)$ is equivalent to the full [[subcategory]] of $PSh(S)$ on all $W$-[[local object]]s.
 
 Recall that an object $A \in PSh(S)$ is called a $W$-[[local object]] if for all $p : Y \to X$ in $W$ the morphism
 
 $$
-  p^* : PSh(S)(X,A) \to PSh(S)(Y,A)
+  p^* : PSh_S(X,A) \to PSh_S(Y,A)
 $$
 
 is an [[isomorphism]]. This we call the [[descent]] condition on presheaves (saying that a presheaf "descends" along $p$ from $Y$ "down to" $X$). Our task is therefore to identify the category $W$, show how it determines and is determed by a [[Grothendieck topology]] on $S$ -- equipping $S$ with the structure of a  [[site]] -- and characterize the $W$-[[local object]]s. These are (up to equivalence of categories) the objects of $Sh$, i.e. the sheaves with respect to the given [[Grothendieck topology]].
 
 ...
 
-+-- {: .un_theorem}
++-- {: .un_lemma}
 ###### Lemma
 
 A morphism $Y \to X$ is in $W$ if and only if for every [[representable functor|representable presheaf]] $U$ and every morphism $U\to X$ the pullback $Y \times_X U \to U$ is in $W$
@@ -173,7 +173,7 @@ $$
   \array{
      Y \times_X U &\to& Y
      \\
-     \downarrow^{\in W} && \downarrow^{\Leftrigtharroow \in W}
+     \downarrow^{\in W} && \downarrow^{\Leftrightarrow \in W}
      \\
      U &\to& X
   }
@@ -181,43 +181,158 @@ $$
 $$
 =--
 
+
+
 +-- {: .proof}
 ###### Proof
 
-One direction is obvious; the other follows because in $PSh(S)$ [[commutativity of limits and colimits|colimits are stable under base change]].
+Since $W$ is stable under [[pullback]] (as described at [[geometric embedding]]: simply because $f^*$ preserves finite limits) it is clear that $Y \times_X U \to U$ is in $W$ if $Y \to X$ is.
+
+To get the other direction, use the [[co-Yoneda lemma]] to write $X$ as a [[colimit]] of [[representable functor|representables]] over the [[comma category]] $(Y/const_X)$ (with $Y$ the [[Yoneda embedding]]):
+
+$$
+  X \simeq colim_{U_i \to X} U_i
+  \,.
+$$
+
+Then pull back $Y \to colim_{U_i \to X} U$ over the entire colimiting cone, so that over each component we have
+
+$$
+  \array{
+    Y \times_X U_i &\to& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    U_i &\to& X
+  }
+  \,.
+$$
+
+Using that in $PSh(S)$ [[commutativity of limits and colimits|colimits are stable under base change]] we get
+
+$$
+  colim_i (Y \times_X U_i) \simeq (colim_i U_i) \times_X Y
+  \,.
+$$
+
+But since $X \simeq colim_i U_i$ the right hand is $X \times_X Y$, which is just $Y$. So $Y = colim_i (Y \times_X U_i)$ and we find that $Y \to X$ is a morphism of colimits. But under $f^*$ the two respective diagrams become isomorphic, since $Y \times_X U_i \to U_i$ is in $W$. That means that the corresponding morphism of colimits $f^*(Y \to X)$ (since $f^*$ preserves colimits) is an isomorphism, which finally means that $Y \to X$ is in $W$.. 
+
 =--
 
-+-- {: .un_theorem}
++-- {: .un_lemma}
 ###### Lemma
 
-Every morphism in $W$ factors as an epimorphism followed by a monomorphism in $W$.
+Every morphism $Y \to X$ in $W$ factors as an epimorphism followed by a monomorphism in $W$.
 =--
 
 +-- {: .proof}
 ###### Proof
 
 Use factorization through [[image]] and [[coimage]], use exactness of $f^*$ to deduce that the factorization exists not only in $PSh(S)$ but even in $W$.
+
+More in detail, given $Y \to X$ we get the diagram
+
+$$
+  \array{
+    Y \times_X Y &&\to&& Y
+    \\
+     &&& \swarrow
+    \\
+    \downarrow &&Y \sqcup_{Y \times_X Y} Y && \downarrow
+    \\
+    & \nearrow && \searrow
+    \\
+    Y && \to && X
+  }
+  \,.
+$$
+
+Because $f^*$ is exact, the pullbacks and pushouts in this diagram remain such under $f^*$. But since $f^*(Y \to X)$ is an isomorphism by assumption, the all these are pullbacks and pushouts along isomorphisms in $Sh(S)$, so all morphisms in the above diagram map to isomorphisms in $Sh(S)$, hence the entire diagram in $PSh(S)$ is in $W$.
+
+Since the morphism $Y \sqcup_{Y \times_X Y} Y  \to X$ out of the [[coimage]] is at the same time the [[equalizer|equalizing]] morphism into the [[image]] $lim(X \stackrel{\to}{\to} X \sqcup_Y X)$, it is a [[monomorphism]].
+
 =--
 
 +-- {: .un_theorem}
 ###### Corollary
 
-A presheaf $A$ is $W$-local, i.e. a sheaf, already if it is local (satisfies descent) with respect to all [[monomorphism]]s in $W$.
+A presheaf $A$ is $W$-local, i.e. a sheaf, already if it is local (satisfies descent) with respect to all [[monomorphism]]s in $W$ with codomain a [[representable functor|representable]], i.e. for all [[dense monomorphism]]s.
 =--
 
-+-- {: .un_theorem}
++-- {: .proof}
+###### Proof
+
+I want to argue as follows, but this needs refinement:
+
+By the first of the above lemmas it follows that it is sufficient to test descent on morphisms whose codomain is a representable. So let $X$ be representable and consider a morphism $Y \to X$ in $W$. By the other lemma above this factors as
+
+$$
+  Y \to Y'  \to X
+$$
+
+with $Y' \to X$ a monomorphism. So $Y \to X$ is in $W$ if both $Y \to Y'$ and $Y' \to X$ are. The latter condition amonts to checking that $Y' \to X$ is in $W$, hence is a [[dense monomorphism]]. For $Y \to Y'$ it suffices to look at all pullbacks to representables $U$ along all maps $U \to Y'$. 
+
+Then factor again through monomorphism, etc.
+
+But this needs an argument for why this recursive procedure terminates...
+
+
+=--
+
+
+Now we use the standard
+
++-- {: .un_lemma}
 ###### Lemma
 
 Monomorphisms in $PSh(S)$ are canonically in bijection with [[sieve]]s.
+
 =--
+
+to finally conclude
 
 +-- {: .un_theorem}
 ###### Corollaries
 
 We have:
-* Systems $W$ of weak equivalences defined by choice of [[geometric embedding]] $Sh \to PSh(S)$ is in canonical bijection with choice of [[Grothendieck topology]].
+* Systems $W$ of weak equivalences defined by choice of [[geometric embedding]] $Sh(S) \to PSh(S)$ is in canonical bijection with choice of [[Grothendieck topology]]. (Well, the above so far would just show that any such geometric embedding yields a Grothendieck topology).
 * A presheaf $A$ is $W$-local, i.e. local with respect to all [[local isomorphism]]s, if and only if it is local already with respect to all local isomorphisms which are monomorphisms, i.e. all [[dense monomorphism]], i.e. if and only if it satisfies sheaf condition for all covering [[sieve]]s.
 =--
+
+**Remark: covers versus hypercovers**
+
+Notice that for checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, which are [[hypercover]]s. 
+
+Sheafification is given by colimit over hypercovers:
+
+$$
+  \bar A : X \mapsto  colim_{(Y \to X) \in W } A(Y)
+  \,.
+$$
+
+If one takes the colimit only over dense monomorphisms, then this is called the **plus-construction**
+
+$$
+  A^+ : X \mapsto  colim_{(Y \hookrightarrow X) \in W } A(Y)
+$$
+
+and in general does not yield a sheaf. ut doing it twice does
+
+$$
+  (A^+)^+ = \bar A
+$$
+
+because in the context of sheaves all hypercovers are already of the form
+
+$$
+  colim(Z \stackrel{\to}{\to} Y)
+$$
+
+for $Z \to Y \times_X Y$ a cover. For higher [[stack]]s the hypercover is in general a longer simplicial object of covers and accordingly if one restricts to covers instead of using hypercovers one will need to use the plus-construction more and more often.
+
+
+>[[Urs Schreiber|Urs]]: will polish this later...
+
 
 ## In terms of sieves ##
 
