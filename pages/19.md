@@ -55,22 +55,14 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
 **Category theory** is so useful because it can be seen from so many perspectives.
 
-* The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid]]s, have only one object. This theory also include [[functor]]s between categories and [[natural transformation]]s.
+* The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
 * The theory of categories as primitive mathematical [[universe]]s or [[space]]s (nothing as fancy as a [[topos]]).
-  +--{.query}
-  Rafael: Preferrably as some 1D CW-complex that i am trying to figure out. Can someone fill that in.
-
-  [[Urs Schreiber]]: could you give more details? I don't see yet what you mean here.
-
-  [[John Baez]]: since a 1d CW complex is just a graph, I bet he's noting that categories are just graphs with extra structure.  But be a little careful: categories are [[directed graph|directed]] graphs with extra structure, while 1d CD complexes are undirected graphs.
-
-  =--
 * A unifying tool and language in [[mathematics]].
-* A top-down [[foundations|foundation of mathematics]] (that is structural and more than just type theories).
+* A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets.
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
 * A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
-* The theory of combinatorial [[directed graph|directed multipseudographs]] with a [[composition]] law. This have given rise to the heavy use of a "diagramatic language" in category theory.
+* The theory of [[directed graph|directed graphs]] with a [[composition]] law. This has given rise to the heavy use of diagrams in category theory.
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
