@@ -22,7 +22,7 @@ I have my PhD in [[mathematics|math]] from the University of Pisa. Have been a p
 
 I'm principally interested in categorical constructions arising from theoretical [[physics]]. Something like a personal research wiki with more information is beginning to develop at
 
-* [my personal web within the nLab] (I have to ask for this).
+* [my personal web within the nLab]() (I have to ask for this).
 
 My **research interest**: detalis to be added
 
@@ -34,7 +34,7 @@ I enjoy exchanging thoughts on topics of interest for my research and always fel
 
 * work on the wiki [The nLab](http://ncatlab.org/nlab/show/HomePage) (this wiki here).
 
-* [my personal web within the nLab] (still missing). 
+* [my personal web within the nLab]() (still missing). 
 
 
 
