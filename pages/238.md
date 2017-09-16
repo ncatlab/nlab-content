@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-21 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * moved the old discussion at [[representable functor]] to the bottom of the page
+
 * [[Zoran Škoda]]: I have made [[D-module]] and [[local system]] somewhat more precise; actually I have put lots of more precise statements; the subtleties on wheather we work over a complex manifold, variety, variety in char zero, or nonsingular variety in char 0, may affect some of the statements. To suplement this I was forced to create a comprehensive entry [[regular differential operator}]. I see that for some reason people continue talking connections and 
 avoid going down to sheaves, resolutions of diagonal, de Rham site and regular differential operators, which are all necessary to cover this subject properly in my view; there are missing related items like [[holonomic D-module]], treatment of costratification, crystals and so on. I created [[coreflective subcategory]], just giving the definition and saying that the rest of abstract preoprteis are dual to [[reflective subcategory]] where more is written. But one should write specific examples which call specifically for coreflective subcategories. Created [[topologizing subcategory]], [[thick subcategory]] and [[Gabriel multiplication]] in the generality of abelian categories (one should add the proper discussion of thick, topologizing in triangulated and suspended categories, and Gabriel mult. for filters, but I run out of energy for today); one needs to add entry on Serre subcategory which is easy in module and Grothendieck categories, but more subtle in general abelian categories. There is a query under [[fibered n category]], I think we should have both entry [[fibered n category]] and [[n-fibration]]; the first entry dedicated to STRICT n-categories and consequently strict universal properties and the name due Grothendieck, Gabriel, Gray and Hermida; and the latter in weak version and with homotopy style nomenclature accordingly. My praise for creative expansion to Mike.  
 
