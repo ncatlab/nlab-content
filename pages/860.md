@@ -53,4 +53,6 @@ _Toby_:  The way I envision someone reading [[linear order]] but not [[loset]] (
 
 I can see the other side too, however.  Just put it all on one page and let people read whichever sections they want.  Given the links and pages on the wiki when I decided to write all of this, it was most natural to write things separately, but if you\'re convinced that it\'s better to have them combined, then I can accept that too.
 
+_Mike_: I do think it's better to have them combined.  It might be nice if we could get a third opinion, but apparently no one else is paying much attention to our petty disputes.  (-:
+
 =--
