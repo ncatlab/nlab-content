@@ -20,7 +20,7 @@ Directions on the real line are quite interesting; there\'s a textbook that does
 Unfortunately, I cannot find these now.  ---Toby
 =--
 
-As a partially ordered set is a special kind of [[category]], so a (finitely) directed set is such a category in which all finite diagrams admit a cocone.  If the category actually has finite coproducts (equivalently, all finite colimits), then it is a [[join]]-semi[[lattice]].  (In particular, every join-semilattice is a directed set.)
+As a partially ordered set is a special kind of [[category]], so a (finitely) directed set is such a category in which all finite diagrams admit a cocone.  If the category actually has finite coproducts (equivalently, all finite colimits), then it has all [[join]]s and so is a join-[[semilattice]].  (In particular, every join-semilattice is a directed set.)
 
 Directed sets are heavily used in point-set topology and analysis, where they serve as index sets for [[net|nets]] (aka Moore--Smith sequences).  In this application, it is important that a direction need not be a partial order, since a net need not preserve the preorder in any way but by default still preserves equality.  (But in principle, one could force a directed set to be a poset by allowing a net to be a [[multi-valued function]]; this has practical consequences for the meaning of [[sequence]] in the absence of [[countable choice]].)
 
