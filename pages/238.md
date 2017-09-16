@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[organization of the nLab]] -- please see there for what this is about (or in fact, see the corresponding [nForum thread](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=36&page=1#Item_2) that is being linked to there)
+
   * added references to Goerss-Jardine's _Simplicial homotopy theory_ to [[Dold-Kan correspondence]] and [[Moore complex]]
 
   * reacted a bit at [[An Exercise in Kantization]] -- behind the scenes this is being developed further, I'd be happy to provide more detailed replies in a while, when things have stabilized a bit more
