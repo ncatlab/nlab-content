@@ -16,6 +16,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-08-30
+
+*  [[Toby Bartels]]:  Edited [[nonstandard analysis]] a bit.  Grammatically, I changed 'infinitesimally small' to 'infinitesimal', which already means 'infinitely small' (in absolute value).
+
+
 ## 2009-08-29
 
 *  [[Toby Bartels]]:
