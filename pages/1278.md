@@ -344,7 +344,7 @@ are "exotic" abelian group structures on $\hat K^1$.
 
 A detailed discussion of the axiomatization of differential stable cohomology is
 
-* [[Mike Hopkins]] and I. Singer, _Quadratic functions in geometry, topology,and M-theory_ ([arXiv](http://arxiv.org/abs/math/0211216))
+* [[Mike Hopkins]] and I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_ ([arXiv](http://arxiv.org/abs/math/0211216))
 
 Based on this Dan Freed interpreted large classes of gauge fields in [[physics]] in terms of differential stable cohomology in 
 
