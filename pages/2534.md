@@ -41,6 +41,8 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
    $$\mathcal{X}\mathcal{Y} = \langle X\cap Y, \mu_X\mu_Y\rangle.$$
 
+   Note that if $\mathcal{X}$ is a set, then $\mathcal{X}\mathcal{X} = \mathcal{X}.$
+
 *  The [[inner product of multisets]] is given by
 
    $$\langle\mathcal{X},\mathcal{Y}\rangle = \sum_{e\in{X\cap Y}} \mu_X(e) \mu_Y(e).$$
