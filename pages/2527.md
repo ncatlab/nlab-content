@@ -1,5 +1,7 @@
 +-- {: .standout}
 To the extent that the contents of this page are precise at all, they are speculative.  As far as I know, nobody has formulated, much less proved, the logical consistency and independence results that would formally justify its claims.
+
+If you are content with set-theoretic foundations for category theory, you may ignore the adjective 'strict' in 'strict category'; in 'strict functor' it basically means 'non-[[anafunctor|ana]]' (the usual default, but not necessarily the best concept).  If you are content with set-theoretic foundations using the full strength of the global [[axiom of choice]], then you can even ignore the 'non-ana' bit.
 =--
 
 
