@@ -6,6 +6,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ##Idea##
 
 * A functor is what goes between [[category|categories]].
@@ -14,17 +15,17 @@
 
 * A functor between (small) categories is a morphism of the underlying graphs that respects the composition of edges.
 
+
 ##Definition##
 
-A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphisms]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$.  such that
+A _functor_ $F$ from a [[category]] $C$ to a category $D$ is a map sending each [[object]] $x \in C$ to an object $F(x) \in D$ and each [[morphism]] $f : x \to y$ in $C$ to morphism $F(f) : F(x) \to F(y)$ in $D$, such that
 
-* $F$ preserves [[composition]]: $F(f g) = F(f) F(g)$ whenever either side is well-defined.
+* $F$ preserves [[composition]]: $F(f g) = F(f) F(g)$ whenever the left-hand side is well-defined,
 
-* $F$ preserves [[identity]] morphisms: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
+* $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
 
-Functors are [[morphism]]s in the [[category]] [[Cat]].
+The functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$, whose morphisms are [[natural transformations]]. Equipped with these functor categories as [[hom-object]]s, we have a $2$-[[2-category|category]] [[Cat]] of categories, functors and natural transformations.  In other words, functors are [[morphisms]] in $Cat$.
 
-Functors between two categories $C$ and $D$ form themselves a category, the [[functor category]] $[C,D]$. Equipped with these functor categories as [[hom-object]]s [[Cat]] becomes the [[2-catgeory]] of categories, functors and [[natural transformation]]s.
 
 ## Special properties ##
 
@@ -40,9 +41,10 @@ Functors with special properties are important in applications. See for instance
 
 And for more background on this see [[stuff, structure, property]].
 
+
 ##Internal definition##
 
-[[internalization|Internal to]] an ambient category $A$, a functor $F : C \to D$ is 
+Suppose now that $C$ and $D$ are [[internal categories]] in some ambient category $A$.  Then an __internal functor__ $F : C \to D$ is 
 
 * a morphism of objects $F_0 : C_0 \to D_0$ in $A$;
 
@@ -101,7 +103,8 @@ $;
   }  
 $.
 
-However, see [[anafunctor]] for a different approach.
+In many cases, this notion is too restrictive, and we should use internal [[anafunctors]] instead.
+
 
 ##Examples ## 
 
@@ -122,6 +125,7 @@ $$
 
 are canonically in bijection with group homomorphisms $G \to H$.
 
+
 ### Representations ###
 
 With $\mathbf{B}G$ as above, functors on $\mathbf{B}G$ with values in [[Vect]] are the same as linear [[representation]]s of the [[group]] $G$. In fact, we have a canonical isomorphism of categories
@@ -132,9 +136,11 @@ $$
 
 of the [[functor category]] with the representation category.
 
+
 ###Linear Maps###
 
 Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose objects are each finite-dimensional vector space and whose morphisms are all of the linear [[endomorphism]]s on that space, i.e. one-object [[full subcategory|full subcategories]] of $Fin Vect$.
+
 
 ####Left Inverses####
 
@@ -172,6 +178,7 @@ $$F_*(1_U) = 1_{F_*(U)}$$
 
 as required. Hence, $F_*$ is a functor.
 
+
 ####Right Inverses####
 
 If the linear map $F:U\to V$ has a right inverse, i.e.
@@ -208,6 +215,7 @@ $$F^*(1_V) = 1_{F^*(V)}$$
 
 as required. Hence, $F^*$ is a functor.
 
+
 ### Presheaves ###
 
 Functors $F : C \to Set$ with values in [[Set]] are also called [[presheaf|presheaves]]. As such one calls them presheaves on the [[opposite category]] $C^{op}$ of $C$. See [[presheaf]] for more on this.
@@ -231,7 +239,7 @@ In [[higher category theory]] there are corresponding higher notions of functor,
 * [[(∞,1)-functor]]
 
 
+* See also [[Eric Forgy]]\'s [[experimental alternative definition of functor]].
 
-* See also an [[experimental alternative definition of functor]].
 
 [[!redirects functors]]
