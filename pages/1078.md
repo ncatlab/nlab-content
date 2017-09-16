@@ -34,9 +34,11 @@ $$
   \right.
   \,
 $$
-where $0_{ij}$ is the zero morphism from $A_i$ to $A_j$.  (In [[constructive mathematics]], this definition of $r$ requires that the index set $I$ have [[decidable equality]], which is the case in most applications of interest.)
+where $0_{ij}$ is the zero morphism from $A_i$ to $A_j$.
 
 Then if $C$ is a [[regular category]] or otherwise has a good concept of [[image]], we define the __direct sum__ $\bigoplus_i A_i$ to be the image of the map $r$.
+
+In [[constructive mathematics]], the definition of $r$ requires that the index set $I$ have [[decidable equality]], which is the case in most applications of interest.  An arbitrary index set will still work if $C$ is enriched over the category of sets and [[partial function]]s; this may be embedded as a [[full subcategory]] of the category of pointed sets, but the embedding is an [[equivalence of categories]] if and only if the law of [[excluded middle]] holds.  But the usual examples of $C$ are not (constructively) so enriched.
 
 ## Weak direct product ##
 
@@ -46,6 +48,12 @@ as $F$ varies over the [[finite set|finite subsets]] of the index set $I$.  (In 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Are there categories that have finitely-indexed products?  I don't see how one could construct them even in $Set$.
+
+_Toby_:  If they don\'t exist, then that\'s no big deal; we only want them if $F$ is a subset of $I$, and $F$ will have decidable equality (and therefore be finite in the strictest sense) whenever $I$ does (which it must already have to define direct sums in general).  I put in that bit about Kuratowski-finiteness just to be fair in case $I$ is not decidable and may in fact have very subsets with decidable equality.
+
+However, $Set$ certainly has finitely-indexed products; it has *all* (small) products, after all.  For example, consider the quotient set $I$ of $2$ given by the truth value $p$ and a constant $I$-indexed family of sets with the value $A$.  Then the product of this family is the set of functions from $I$ to $A$.  If $p$ is true, then the product is $A$, and if $p$ is false, then the product is $A^2$; in general, the product is a subset of $A^2$:
+$$ \{ a , b : A \;|\; p \;\Rightarrow\; a = b \} .$$
+See?
 =--
 
 These finite products form a [[directed limit|direct system]] indexed by the [[direction|directed set]] $\mathcal{P}_{fin}I$ of finite subsets of $I$ (ordered by inclusion) with the map
