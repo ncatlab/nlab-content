@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-21:
 
+* [[Omar Antolín-Camarena]]: added a definition to [[accessible category]], could use checking by someone who knows.
+
+* [[Omar Antolín-Camarena]]: created [[small object]], whose definition was missing from [[locally presentable category]].
+
 * [[John Baez]]: started a [[database of categories]].  This is very preliminary, but it could be very useful if we keep working on it.  The idea is to list lots of categories and their categorical properties.  If this list becomes long we can try to organize it somehow.
 
 * [[David Roberts]]: question at [[topological T-duality]]. No mention has been made of the Adelaide school's treatement there!
