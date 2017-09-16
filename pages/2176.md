@@ -682,138 +682,138 @@ To broaden our experience with simple examples, let us examine the sixteen funct
 
 Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two variables, giving equivalent expressions for each function in several different systems of notation.
 
-$$\array{
-\text{Table A1.  Propositional Forms on Two Variables}
-\\
-\array{
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
+<caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
+<td>
+$\array{
 \arrayopts{
-\frame{solid}
 \collines{solid}
 \rowlines{none solid none solid none none none none none none none solid none}}
-\mathcal{L}_1 & \mathcal{L}_2 & \mathcal{L}_3 &
-\mathcal{L}_4 & \mathcal{L}_5 & \mathcal{L}_6
+\mathcal{L}_1 &amp; \mathcal{L}_2 &amp; \mathcal{L}_3 &amp;
+\mathcal{L}_4 &amp; \mathcal{L}_5 &amp; \mathcal{L}_6
 \\
-\text{Decimal Index} & \text{Binary Index} &
-\text{Function Values} & \text{Cactus Expression} &
-\text{English Paraphrase} & \text{Conventional Notation}
+\text{Decimal Index} &amp; \text{Binary Index} &amp;
+\text{Truth Table} &amp; \text{Cactus Expression} &amp;
+\text{English Paraphrase} &amp; \text{Conventional Notation}
 \\
-& \cellopts{\colalign{right}} p: & 1\:1\:0\:0 & & &
+&amp; \cellopts{\colalign{right}} p: &amp; 1\:1\:0\:0 &amp; &amp; &amp;
 \\
-& \cellopts{\colalign{right}} q: & 1\:0\:1\:0 & & &
+&amp; \cellopts{\colalign{right}} q: &amp; 1\:0\:1\:0 &amp; &amp; &amp;
 \\
 f_{0}
-& f_{0000}
-& 0\:0\:0\:0
-& (\:)
-& \mathop{false}
-& 0
+&amp; f_{0000}
+&amp; 0\:0\:0\:0
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \mathop{false}
+&amp; 0
 \\
 f_{1}
-& f_{0001}
-& 0\:0\:0\:1
-& (p)(q)
-& \mathop{neither}\: p \:\mathop{nor}\: q
-& \not p \:\wedge\: \not q
+&amp; f_{0001}
+&amp; 0\:0\:0\:1
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \mathop{neither}\: p \:\mathop{nor}\: q
+&amp; \not p \:\wedge\: \not q
 \\
 f_{2}
-& f_{0010}
-& 0\:0\:1\:0
-& (p)\:q
-& q \:\mathop{without}\: p
-& \not p \:\wedge\: q
+&amp; f_{0010}
+&amp; 0\:0\:1\:0
+&amp; \text{&#x2997;} p\text{&#x2998;} \: q
+&amp; q \:\mathop{without}\: p
+&amp; \not p \:\wedge\: q
 \\
 f_{3}
-& f_{0011}
-& 0\:0\:1\:1
-& (p)
-& \mathop{not}\: p
-& \not p
+&amp; f_{0011}
+&amp; 0\:0\:1\:1
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \mathop{not}\: p
+&amp; \not p
 \\
 f_{4}
-& f_{0100}
-& 0\:1\:0\:0
-& p\:(q)
-& p \:\mathop{without}\: q
-& p \:\wedge\: (q)
+&amp; f_{0100}
+&amp; 0\:1\:0\:0
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; p \:\mathop{without}\: q
+&amp; p \:\wedge\: \not q
 \\
 f_{5}
-& f_{0101}
-& 0\:1\:0\:1
-& (q)
-& \mathop{not}\: q
-& \not q
+&amp; f_{0101}
+&amp; 0\:1\:0\:1
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; \mathop{not}\: q
+&amp; \not q
 \\
 f_{6}
-& f_{0110}
-& 0\:1\:1\:0
-& (p,\:q)
-& p \:\mathop{not equal to}\: q
-& p \ne q
+&amp; f_{0110}
+&amp; 0\:1\:1\:0
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; p \:\mathop{not equal to}\: q
+&amp; p \ne q
 \\
 f_{7}
-& f_{0111}
-& 0\:1\:1\:1
-& (p\:\:q)
-& \mathop{not both}\: p \:\mathop{and}\: q
-& \not p \:\vee\: \not q
+&amp; f_{0111}
+&amp; 0\:1\:1\:1
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \mathop{not both}\: p \:\mathop{and}\: q
+&amp; \not p \:\vee\: \not q
 \\
 f_{8}
-& f_{1000}
-& 1\:0\:0\:0
-& p \: q
-& p \:\mathop{and}\: q
-& p \:\wedge\: q
+&amp; f_{1000}
+&amp; 1\:0\:0\:0
+&amp; p \: q
+&amp; p \:\mathop{and}\: q
+&amp; p \:\wedge\: q
 \\
 f_{9}
-& f_{1001}
-& 1\:0\:0\:1
-& ((p,\:q))
-& p \:\mathop{equal to}\: q
-& p = q
+&amp; f_{1001}
+&amp; 1\:0\:0\:1
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; p \:\mathop{equal to}\: q
+&amp; p = q
 \\
 f_{10}
-& f_{1010}
-& 1\:0\:1\:0
-& q
-& q
-& q
+&amp; f_{1010}
+&amp; 1\:0\:1\:0
+&amp; q
+&amp; q
+&amp; q
 \\
 f_{11}
-& f_{1011}
-& 1\:0\:1\:1
-& (p\:(q))
-& \mathop{not}\: p \:\mathop{without}\: q
-& p \Rightarrow q
+&amp; f_{1011}
+&amp; 1\:0\:1\:1
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \mathop{not}\: p \:\mathop{without}\: q
+&amp; p \Rightarrow q
 \\
 f_{12}
-& f_{1100}
-& 1\:1\:0\:0
-& p
-& p
-& p
+&amp; f_{1100}
+&amp; 1\:1\:0\:0
+&amp; p
+&amp; p
+&amp; p
 \\
 f_{13}
-& f_{1101}
-& 1\:1\:0\:1
-& ((p)\:q)
-& \mathop{not}\: q \:\mathop{without}\: p
-& p \Leftarrow q
+&amp; f_{1101}
+&amp; 1\:1\:0\:1
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \mathop{not}\: q \:\mathop{without}\: p
+&amp; p \Leftarrow q
 \\
 f_{14}
-& f_{1110}
-& 1\:1\:1\:0
-& ((p)(q))
-& p \:\mathop{or}\: q
-& p \:\vee\: q
+&amp; f_{1110}
+&amp; 1\:1\:1\:0
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; p \:\mathop{or}\: q
+&amp; p \:\vee\: q
 \\
 f_{15}
-& f_{1111}
-& 1\:1\:1\:1
-& ((\:))
-& \mathop{true}
-& 1
-}
-}$$
+&amp; f_{1111}
+&amp; 1\:1\:1\:1
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \mathop{true}
+&amp; 1
+}$
+</td>
+</table>
 
 ## External links ##
 
