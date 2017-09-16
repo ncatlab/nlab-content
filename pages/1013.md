@@ -35,16 +35,28 @@ So the above says for a functor $F : C \to D$:
 $$
   \array{
      essentially (k \geq 0)-surjective & forgets & nothing
+     & remembers & stuff, structure, property
      \\
-     essentially (k \geq 1)-surjective & forgets at most & property
+     essentially (k \geq 1)-surjective & forgets at most & property 
+     & remembers & stuff, structure
      \\
      essentially (k \geq 2)-surjective & forgets at most & structure
+    & remembers & stuff
      \\
      essentially (k \geq 3)-surjective & forgets & stuff
+    &
+    remembers & nothing
   }
 $$
 
 
+It is noteworthy how this formalism captures the heuristic way in which "stuff", "structure" and "property" are expected to be related:
+
+* stuff may be equipped with structure;
+
+* structure may have (be equipped with) properties.
+
+See also the examples below.
 
 ## Generalization to higher groupoids##
 
@@ -56,6 +68,25 @@ The formulation in terms of $k$-surjectivity induces an immediate generalization
 ##Generalization to categories and higher categories##
 
 The theory is easiest when restricted to groupoids as above; for [[category|categories]], there are two ways to go.  One is to keep the definition as phrased above; the other is to look at the functor between the underlying groupoids of the categories.  To tell the difference, ask yourself whether the difference between a [[monoid]] and a [[semigroup]] is the *structure* of being equipped with an [[identity]] element or only the *property* that an identity element exists.  (Note that an identity element, if it exists, must be unique and must be preserved by semigroup isomorphisms and by monoid homomorphisms but not by semigroup homomorphisms.)
+
+#Examples#
+
+
+## The classical categories of sets with extra structure ##
+
+The classical examples are the forgetful functors to [[Set]]  that define the classical categories such as [[Top]], [[Grp]], [[Vect]], etc. All these categories are categories of <em>sets equipped with extra structure</em> (e.g. with a topology, with a group structure, etc). Accordingly the obvious functors to [[Set]] are 
+
+* faithful
+
+* not full.
+
+Hence indeed, by the above yoga, they forget this extra structure but remember the stuff in question (the underlying set).
+
+## More examples ##
+
+...
+
+
 
 #References#
 
