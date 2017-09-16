@@ -2,7 +2,9 @@ See also: [[homotopy theory]].
 
 #Idea#
 
-A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a [[category]] equipped with extra structure which allows one to treat it as a presentation for an $(\infty,1)$-[[(infinity,1)-category|category]], i.e. as a model for [[homotopy theory]].
+A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a [[category]] equipped with extra structure which allows one to treat it as a [[presentable (infinity,1)-category|presentation]] for an $(\infty,1)$-[[(infinity,1)-category|category]], i.e. as a model for [[homotopy theory]].
+
+In particular a [[combinatorial simplicial model category]] $\mathbf{A}$ presents the [[(infinity,1)-category]] $\mathbf{A}^\circ$ in the form of a [[simplicially enriched category]] given by the full [[SSet]]-[[enriched category|enriched subcategory]] on objects that are both fibrant and cofibrant.
 
 The idea of model categories is to work just with 1-morphisms instead of with $n$-morphisms for all $n$, but to carry around extra information to remember which 1-morphisms should become [[equivalence|equivalences]] in the full $(\infty,1)$-category, along with additional data which allows us to perform many $(\infty,1)$-categorical constructions at the level of the model category.
 
@@ -28,12 +30,23 @@ A **model category** is a complete and cocomplete category $K$ with a model stru
 
 Historically, the most important examples have been the following.
 
-* [[model structure on simplicial sets]]
 * [[model structure on topological spaces]]
 * [[model structure on chain complexes]]
+* [[model structure on simplicial sets]]
 
-Other model structures which at the moment we have entries for are
+  * the standard structure that models [[infinity-groupoid]]s  in terms of [[Kan complex]]es and is [[Quillen equivalence|Quillen equivalent]] to (nice) topological spaces, 
 
+  * and the Joyal structure which models [[(infinity,1)-catgeory|(infinity,1)-categories]] in terms of [[quasi-category|quasi-categories]].
+
+The parameterized version of the model structure on simplicial sets is
+
+* [[model structure on simplicial presheaves]]
+
+which serves as a [[models for infinity-stack (infinity,1)-toposes|model for infinity-stack (infinity,1)-toposes]].
+
+Many notions of [[higher category theory|higher categories]] come equipped with model structures, witnessing the fact that when retaining only invertible transformations between $n$-categories they should form an [[(infinity,1)]]-category. 
+
+* [[model structure on simplicially enriched categories]]
 * [[folk model structure|model structure on omega categories]]
 * [[folk model structure|model structure on omega-groupoids]]
 
