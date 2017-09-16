@@ -119,7 +119,7 @@ This results in a [Link to the n-Cafe](http://golem.ph.utexas.edu/category/2009/
 
 ### Log your changes ###
 
-In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).
+In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  Click on "Start a new discussion," enter a descriptive title, and then describe the changes you made.  Please include a link to the page(s) you edited; the same link syntax `[[page name]]` to nlab pages works on the "latest changes" forum.  You'll have to either create an account at the forum, or reply to a captcha in order to post as a guest.
 
 
 ### Pat yourself on the back ###
