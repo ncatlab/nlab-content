@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * added missing links back and forth between [[Yoneda extension]] and [[free cocompletion]]
+
   * added to [[generalized universal bundle]] the remark that it is a means to compute the "lax pullback" (really: [[comma object]]) of a point.
 
   * added at [[category of elements]] the equivalent definition in terms of comma category and in terms of pullbacks of the universal Set-bundle -- and in terms of "lax pullback" (comma object) of the point
