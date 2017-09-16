@@ -6,11 +6,10 @@ It starts with very elementary and simple examples and eventually passes to more
 
 In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
 
-* cartesian product of sets
-
-* disjoint union of sets
-
-* sets of equivalence classes.
+* [[cartesian product]] of sets
+* [[disjoint union]] of sets
+* [[subset]]s defined by equations
+* [[quotient set]]s of equivalence classes.
 
 Conversely, [[limit]]s and [[colimit]]s in other categories may be regarded as generalizations of these concepts to things other than plain sets.
 
