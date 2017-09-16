@@ -7,7 +7,7 @@
 
 [[Jim Stasheff]] has spent much of his work on identifying and studying _cohomological_ (as in: [[homological algebra]]) and _homotopical_ (as in: [[homotopy theory]]) structures in [[physics]]. 
 
-This includes notably the invention and study of homotopy-coherent structures such as [[A-infinity operad]]s, [[A-infinity algebra]]s and [[L-infinity-algebra]]s and their application to [[BV theory]], [[String field theory]]  (longer list of links should eventually go here). 
+This includes notably the invention and study of homotopy-coherent structures such as [[A-infinity operad]]s, [[A-infinity algebra]]s and [[L-infinity-algebra]]s and their application to [[BV theory]], [[string field theory]]  (longer list of links should eventually go here). 
 
 The above survey lists key concepts and collects references to further literature.
 
