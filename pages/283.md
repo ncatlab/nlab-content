@@ -23,3 +23,6 @@ For $(\infty,1)$-topoi the standard reference is
 
 
 [[!redirects infinity topos]]
+[[!redirects infinity-topoi]]
+[[!redirects ∞-topos]]
+[[!redirects ∞-topoi]]
