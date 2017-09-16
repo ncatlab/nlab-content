@@ -112,7 +112,7 @@ A **geometry** on an [[(∞,1)-category]] $\mathcal{G}$ is a [[Grothendieck topo
 
 If only all finite [[product]]s exist we speak of a pre-geopmetry. Every pregeometry $\mathcal{T}$ extends uniquely $\mathcal{T} \hookrightarrow \mathcal{G}$ to an _enveloping geometry_ $\mathcal{G}$. 
 
-When the objects of the geopmetry $\mathcal{G}$ are thought of as test spaces (affine schemes), the objects of the pregeometry $\mathcal{T} \hookrightarrow \mathcal{G}$ are to be thought of as the [[affine space]]s. This distinction is used to encode [[smoothness]] of maps between test spaces: a morphism in $\mathcal{G}$ is smooth if it locally factors through admissible maps between objects in $\mathcal{T}$. 
+When the objects of the geopmetry $\mathcal{G}$ are thought of as test spaces (affine schemes), the objects of the pregeometry $\mathcal{T} \hookrightarrow \mathcal{G}$ are to be thought of as the [[affine space]]s. This distinction is used to encode [[smooth map|smoothness]] of maps between test spaces: a morphism in $\mathcal{G}$ is smooth if it locally factors through admissible maps between objects in $\mathcal{T}$. 
 
 =--
 
@@ -196,8 +196,7 @@ such that
 ###### Remark 
 
 
-So a geometry differs from a pregeometry in that it is 
-[[idempotent complete]] and closed not
+So a geometry differs from a pregeometry in that it is [[idempotent complete category|idempotent complete]] and closed not
 only under [[products]] but under all finite [[limit]]s.
 
 Various concepts for geometries have immediate analogues for
