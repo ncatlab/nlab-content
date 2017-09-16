@@ -31,9 +31,13 @@
 
   * [[noncommutative geometry]] (general flavour)
 
+  * [[higher geometry]]
+
 * [[algebra|Algebra]]:
 
   * [[universal algebra]]
+  
+  * [[higher algebra]]
 
   * [[group theory]] (including generalizations)
 
@@ -41,9 +45,11 @@
 
   * [[algebraic approaches to differential calculus]]
 
-  * [[homological algebra]]
+  * [[homological algebra]] 
 
-* mathematical [[analysis]]; [[nonstandard analysis]]
+* mathematical [[analysis]] 
+
+  * [[nonstandard analysis]], [[functional analysis]], [[operator algebras]]
 
 * discrete mathematics: 
 
