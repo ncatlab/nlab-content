@@ -1,3 +1,8 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 Recall that the [[graph of a functor]] $f : C \to D$ between [[n-category|n-categories]] is the fibration 
 classified by the [[profunctor]] correspondence $\chi_f : C^{op}\times D \to (n-1)Cat$. 
 
@@ -21,7 +26,7 @@ But $f$ also determines a morphism $\bar f : I \to n Cat$. The **cograph** of $f
 
 # Examples #
 
-## cographs of functors between 0-categories ##
+## Cographs of functors between 0-categories ##
 
 In the case that $C, D$ are [[0-category|0-categories]], i.e. [[set]]s, a functor $f : C \to D$
 is just a [[function]] between sets. The cograph [[2-pullback]] 
@@ -58,7 +63,7 @@ What [[Bill Lawvere]] called the [[cograph of a function]] is the connected comp
 $\pi_0(Cograph(f))$ of this category.
 
 
-## cographs of functors between 1-categories ##
+## Cographs of functors between 1-categories ##
 
 For $f : C \to D$ an ordinary  [[functor]], 
 the full category $cograph(f)$ is what is denoted $C \star^f D$ in section 2.3.1
@@ -71,7 +76,7 @@ and where it serves as a motivation for the study of cographs of
 functors between [[(∞,1)-category|(∞,1)-categories]] discussed
 below.
 
-### adjoint functors in terms of cographs ###
+### Adjoint functors in terms of cographs ###
 
 As emphasized in the beginning of section 5.2 there, cographs of functors may be used to characterize
 [[adjoint functor]]s.
@@ -142,7 +147,7 @@ Such a natural isomorphism is precisely the structure of an adjunction $L\dashv 
 Note that under the identification of [[profunctors]] with *codiscrete cofibrations* in $Cat$, the cograph of a functor is the profunctor associated to it (and the cograph $cograph(R^{op})^{op}$ is the *other* profunctor associated to it).
 
 
-## cographs of functors between $(\infty,1)$-categories ##
+## Cographs of functors between $(\infty,1)$-categories ##
 
 In the context of [[(∞,1)-category]] theory there is a good theory of [[Cartesian fibration]]s $X \to S$ and of their classification by [[(∞,1)-functor]]s $S^{op} \to (\infty,1)Cat$ to the [[(∞,1)-category of (∞,1)-categories]] as described at [[universal fibration of (∞,1)-categories]].
 
@@ -161,7 +166,7 @@ in the [[(∞,1)-category of (∞,1)-categories]], it **cograph** is the [[Carte
 
 $$
   \array{
-    cograph(f) &\to& Z^{op}
+    cograph(f) &\to& S^{op}
     \\
     \downarrow && \downarrow
     \\
