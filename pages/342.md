@@ -76,6 +76,12 @@ Then, indeed, we have for instance that
 
 * etc.
 
++--{: .query}
+[[Mike Shulman]]: I am not convinced that the homotopy hypothesis applies to anything directed.  I'll believe that maybe an $r$-directed $n$-type (whatever that means) should *have* a fundamental $(n,r)$-category, and that this operation has a left adjoint that geometrically realizes an $(n,r)$-category as an $r$-directed $n$-type.  But I don't see why to expect this adjunction to be an equivalence in the directed world, unless all of your $r$-directed $n$-types come equipped with a chosen CW-complex-like $n$-skeleton which you restrict your fundamental categories to.
+
+More concretely: take the [[interval category]].  Realize it as a directed space; presumably you get a directed topological interval $[0,1]$.  Now take the fundamental category of this space: you get the ordered set $[0,1]$ considered as a category---quite different from the interval category!  In order to get back the interval category, you need to do something like remember the endpoints of the directed topological interval, and only use these chosen points as the objects of your fundamental category.  Perhaps everyone talking about identifying directed homotopy types with higher categories has some fix like this in mind, but if so I think it should be stressed.  (Alternately, maybe someone can tell me why I'm completely wrong.)
+=--
+
 
 # Special cases
 
