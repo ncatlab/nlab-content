@@ -74,6 +74,12 @@ ETAC is not a theory of sets.
 * An extra axiom for the existence of an universe must be added to the set theory used.
 
 Perhaps i should contrast category theory with logic.
+
+_Toby_:  Well, it\'s really [[ETCS]] that\'s a theory of sets.  ETAC is a theory of something a bit more, but it includes sets as the discrete categories.
+
+By material set theory, I also mean a set theory in the style of ZFC (as opposed to the style of ETCS).  And category theory may be done using such a set theory as foundations by saying 'A category is a tuple consisting of a set $O$, a set $M$, functions $s, t: M \to O$, [...]' and so on, the way that it usually introduced to people that grew up on set theory, not by ETAC which is supposed to be an alternative foundation of its own.
+
+(It\'s true that you should add a little something to ZFC to really do all of category theory, such as the language of classes ---replacing 'set' with 'class' in my quotation above--- or the axiom that an [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist.  But you still have a material set theory after having done so.)
 =--
 
 #Literature#
