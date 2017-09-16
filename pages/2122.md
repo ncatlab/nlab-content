@@ -16,9 +16,11 @@ We can import new entries by looking at [category:category](http://ncatlab.org/n
 
 * [[Grp]] - [[group]]s as objects, homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]].
 
-* [[Rel]] - [[sets]] as objects, [[relation|relations]] as morphisms.  This is an [[allegory]].
+* [[Rel]] - [[sets]] as objects, [[relation|relations]] as morphisms.  This is an [[allegory]] and therefore a [[dagger category]].   The empty set is an [[initial|initial object]] and [[terminal|terminal object]] object, and disjoint union plays the role of [[biproduct]].   This category does not have [[equalizer|equalizers]] or [[coequalizer|coequalizers]].
 
 * [[Ring]] - [[ring|rings]] as objects, ring homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]].
+
+* [[SimpSet]] - [[simplicial sets]] as objects, simplicial maps as morphisms.  This is a [[presheaf]] [[topos]].
 
 * [[Set]] - [[sets]] as objects, [[functions]] as morphisms.
 This has the following properties:
@@ -46,5 +48,26 @@ _Toby_:  I also could add hundreds of categories.  At this stage, I\'m inclined 
 Automatic logging is not an option with Instiki, which is why we use [[latest changes]] instead.  You could request that it be added as a feature to [Instiki](http://www.instiki.org/show/HowToContribute), but (unless you can program it) don\'t hold your breath.  *However*, note that there is a page [Recently Revised](http://ncatlab.org/nlab/recently_revised); it\'s disabled now, but that should be temporary.  (Try [this one](http://ncatlab.org/tobybartels/recently_revised) to see how it\'s supposed to work.)  When it comes back, it will take care of much of the need for automatic logging, requiring people only to report major changes that others need to know about.
 
 _Rafael_: I was wondering what happened to Recently Revised. Now i know it is not improved to Latest changes and will be back. Thx for the information.
+
+_[[John Baez]]_: I don't see any use of listing categories here unless one includes information about their basic categorical properties: for starters, which sorts of limits and/or colimits they have:
+
+* binary products
+* binary coproducts
+* terminal object
+* initial object
+* pullbacks
+* pushouts
+* equalizers
+* coequalizers
+* finite limits
+* finite colimits
+* small limits
+* small colimits
+
+whether they admit interesting monoidal structures, whether they are cartesian (or monoidal) closed, and whether they are topoi, quasitopoi or allegories.  In short: the basic properties one instantly wants to know about any category one meets.
+
+My idea is that this article should be a quick place to look up basic categorical properties of categories, including categories that may not have their own entry yet.   The entries here should not become full-fledged articles on the categories involved, since we already have or can create those.
+ 
+By the way: people have been talking to Rafael on [Recently Revised](http://ncatlab.org/nlab/recently_revised) for many weeks now, but he doesn't seem to reply to their comments there, which is making some people annoyed.
 
 =--
