@@ -8,7 +8,7 @@
 
 #Definition#
 
-The cohomology of a [[Lie algebra]] $\mathfrak{g}$ is the [[chain homology and cohomology|cochain cohomology]] of its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$.
+The abelian cohomology of a [[Lie algebra]] $\mathfrak{g}$ is the [[chain homology and cohomology|cochain cohomology]] of its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$.
 
 The degree $n$ Lie algebra cohomology computes the [[homotopy (as an operation)|homotopy]] classes of [[L-∞ algebra]] morphisms
 
