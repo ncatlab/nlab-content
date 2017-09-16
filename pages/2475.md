@@ -98,12 +98,16 @@ Okay, second try.  Define **constructive SEAR** to use [[intuitionistic logic]] 
 * The existence of [[disjoint unions]] (i.e. now $Set$ is a [[pretopos]])
 * The existence of [[dependent products]] (i.e. now $Set$ is a $\Pi$-[[Π-pretopos|pretopos]]).
 
-Now modify it as above, removing basic equality and adding a basic notion of "operation," to obtain **CSEAR+$\varepsilon$**.  The same argument as above should show that CSEAR+$\varepsilon$ is conservative over CSEAR+COSHEP.  (Just as Bounded SEAR is equivalent to ETCS, CSEAR+COSHEP is equivalent to Palmgren's CETCS.)  However, the converse argument above fails since we cannot define $\equiv_A$ by quantifying over relations (note that avoiding this requires not only throwing out powersets, but restricting axiom 1 to bounded quantification).
+Now modify it as above, removing basic equality and adding a basic notion of "operation," to obtain **CSEAR+$\varepsilon$**.  Note that the axiom of quotient sets becomes redundant, given the definition of "set" as a preset with an equivalence prerelation.
+
+The same argument as above should show that CSEAR+$\varepsilon$ is conservative over CSEAR+COSHEP.  (Just as Bounded SEAR is equivalent to ETCS, CSEAR+COSHEP is equivalent to Palmgren's CETCS.)  However, the converse argument above fails since we cannot define $\equiv_A$ by quantifying over relations (note that avoiding this requires not only throwing out powersets, but restricting axiom 1 to bounded quantification).
 
 Now: is CSEAR+$\varepsilon$ conservative over CSEAR?
 
 +-- {: .query}
 I changed this from 'PSEAR' to 'CSEAR' and noted that we need intuitionistic logic (since disjoint unions give us $\mathbf{2}$ and dependent products over $\mathbf{2}$ gives us classical power sets).  By the usual terminology in set theory, removing excluded middle adds 'I', while removing excluded middle and power sets adds 'C'.  Although I don\'t know a general rule for adding 'P', I\'d be inclined to remove dependent products as well as power sets (excluded middle optional), to get something [[predicative mathematics|predicative in the classical sense]].  ---Toby
+
+[[Mike Shulman]]: Okay, I'll play along.  But I don't like how predicativists (especially set theorists) tend to usurp (in my view) the word "constructive," which I think should apply just as much to impredicative "intuitionistic" mathematics.
 =--
 
 
