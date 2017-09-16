@@ -3,30 +3,28 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Definition ##
 
-An **initial object** in a [[category]] $C$ is an [[object]] $\emptyset$ such that for any object $x$ of $C$, there is a unique [[morphism]] $!:\emptyset\to C$.  
+An **initial object** in a [[category]] $C$ is an [[object]] $\emptyset$ such that for any object $x$ of $C$, there is a unique [[morphism]] $!:\emptyset\to C$.  An initial object, if it exists, is unique up to unique [[isomorphism]], so we speak of [[the]] initial object.
 
-The initial object, if it exists, is unique up to unique [[isomorphism]]. An initial object is sometimes called a universal initial object or simply a universal object. 
+An initial object may also be called _coterminal_, _universal initial_, _co-universal_, or simply _universal_.
 
-Initial objects are the [[duality|dual]] concept to [[terminal object]]s: an initial object in $C$ is the same as a terminal object in $C^{op}$.
-
-
-If the initial objects is also a [[terminal object|terminal]], it is called a [[zero object]].
+Initial objects are the [[duality|dual]] concept to [[terminal object]]s: an initial object in $C$ is the same as a terminal object in $C^{op}$.  An object that is both initial and terminal is called a [[zero object]].
 
 
 ## Examples ##
 
-* The empty set is an initial object in [[Set]].
-
 * An initial object in a [[partial order|poset]] is a [[bottom]] element.
 
+* The [[empty set]] is an initial object in [[Set]].
 
 * Likewise, the empty category is an initial object in [[Cat]], the empty space is an initial object in [[Top]], and so on.
 
 * The trivial group is the initial object (in fact, the zero object) of [[Grp]] and [[Ab]].
 
 * The integers are the initial object of [[Ring]].
+
 
 ## Strict initial objects
 
