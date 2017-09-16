@@ -38,7 +38,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         3.  posets as categories
         4.  [[adjoint functors]], [[free functor]], [[reflective subcategory]], [[equivalence of categories]], [[opposite category]]
         5.  [[limit]], [[diagram]], [[small category]], [[colimit]], [[regular monomorphism]], [[complete category]], [[finitely complete category]]
-        6.  [[monad]], [[algebra for a monad]], [[monadic adjunction]], [[comparison functor]]
+        6.  [[monad]], [[algebra for a monad]], [[monadic adjunction]]
         7.  [[variety of algebras]]
         8.  [[algebraic category]], [[equationally presentable category]]
         9.  [[filtered category]], [[filtered colimit]], [[finitary functor]]
