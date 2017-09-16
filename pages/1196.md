@@ -1,9 +1,9 @@
 Intuitionistic logic was introduced by Heyting as a
 formalism intended to encode Brouwer's [[constructive mathematics|constructivism]].
 It is most easily described as [[classical logic]] without
-the principle of the excluded middle $\vdash A\vee\not A$
-or the double-negation rule $\not\not A\vdash A$.  It
-may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic and restricting to sequents  $\Gamma\vdash\Delta$ where $\Delta$ may contain _at most one_ formula.
+the principle of the [[excluded middle]] $\vdash A \vee \neg{A}$
+or the double-[[negation]] rule $\neg\neg{A} \vdash A$.  It
+may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic (with $\neg$ but not $\bot$) and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ may contain *at most one* formula, or by starting with sequent calculus with $\bot$ and restricting to such sequents where $\Delta$ must contain *exactly one* formula.
 
 ## Properties ##
 
