@@ -1,6 +1,8 @@
 #Idea#
 
-A _formal scheme_ is a [[scheme]] that is close to being an [[affine scheme]] but differs by having further [[infinitesimal space|infinitesimal]] extension.
+A _formal scheme_ is a [[scheme]] that looks like a closed subscheme $Y \hookrightarrow X$ together with the [[infinitesimal space|infinitesimal]] neighbourhood of $Y$ in $X$. This infinitesimal neighbourhood is also called the _formal neighbourhood_ or the $\infty$-jet bundle normal to $Y$ (is that last one correct?).
+
+A formal for which $Y$ is an [[affine scheme]] is a [[formal spectrum]].
 
 #Motivation#
 
