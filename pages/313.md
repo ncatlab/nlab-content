@@ -10,6 +10,6 @@ For example:
 * A pair of [[parallel morphisms]] is a diagram whose shape is a category with two objects and two morphisms from one to the other.
 * A [[span]] is a diagram whose shape is a category with just three objects and single morphisms from one of the objects to the other two; dually, a [[cospan]] is a diagram whose shape is [[opposite category|opposite]] to the shape of a span.
 
-See also [[limit]], [[limit|colimit]]. 
+See also [[limit]], [[colimit]]. 
 
 [[!redirects diagrams]]
