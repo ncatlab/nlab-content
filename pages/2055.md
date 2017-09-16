@@ -94,7 +94,7 @@
 
 * [Rigorous Trivialities](http://rigtriv.wordpress.com)
 
-* [Secret Blogging Seminar](http://sbseminar.wordpress.com)
+* [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
 
 * [Sketches of Topology](http://sketchesoftopology.wordpress.com)
 
