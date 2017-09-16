@@ -23,7 +23,7 @@ A [[terminal object]] is a universal cone over the empty diagram. In this sectio
 Any [[singleton]] (a one-element set) is a [[terminal object]] in $Set$.
 =--
 
-To demonstrate, first note that a cone over an empty diagram is just an set and a corresponding cone function is just a function. Therefore, we are looking for a "universal set" $\bullet$ such that for an other set $C$, there is a unique function 
+To demonstrate, first note that a cone over an empty diagram is just a set and a corresponding cone function is just a function. Therefore, we are looking for a "universal set" $\bullet$ such that for an other set $C$, there is a unique function 
 
 $$f:C\to\bullet.$$
 
@@ -85,8 +85,6 @@ Therefore, we are looking for a universal cone $Eq$ such that for any other cone
 
 $$f:T\to Eq.$$
 
-**Is it a cone?**
-
 Let's first define the set
 $$Eq = \left\{x\in X|f(x)=g(x)\right\}$$
 with two functions $Eq_X:Eq\to X$ and $Eq_Y:Eq\to Y$ defined by
@@ -95,27 +93,13 @@ and verify that it is indeed a cone. The only thing we need to check is that
 $$g\circ Eq_X = Eq_Y$$
 which amounts to showing that $f(x) = g(x)$ for all $x\in Eq$, but that is the definition of $Eq$, so we do have a cone.
 
-**What is a cone function?**
-
-Let $T$ be any set and $\phi:T\to Eq$ a function such that
-
-$$T_X = Eq_X\circ \phi\quad\text{and}\quad T_Y = Eq_Y\circ \phi.$$
-
-It follows that
-$$f\circ T_X = f\circ Eq_X\circ \phi = Eq_Y\circ \phi = T_Y$$
-and
-$$g\circ T_X = g\circ Eq_X\circ \phi = Eq_Y\circ \phi = T_Y.$$
-showing that $T$ is also a cone and $\phi$ is a cone function.
-
-**Is the cone function unique?**
-
-Let $\phi,\psi: T\to Eq$ be two cone functions. For any element $t\in T$, we have
+Now let $\phi,\psi: T\to Eq$ be two cone functions. For any element $t\in T$, we have
 
 $$T_X(t) = Eq_X\circ\phi(t) = Eq_X\circ\psi(t)\implies \phi(t)=\psi(t)$$
 
 so that $\phi = \psi$ and the cone function is unique.
 
-Since every cone function $\phi:T\to Eq$ is unique, it follows that $Eq$ is a universal cone and $Eq$ together with $Eq_X:Eq\to X$ and $Eq_Y:Eq\to Y$ is an equalizer.
+Since every cone function $\phi:T\to Eq$ is unique, it follows that $Eq$ together with $Eq_X:Eq\to X$ and $Eq_Y:Eq\to Y$ is a universal cone, i.e. $Eq$ is an equalizer.
 
 #### Pullbacks
 
