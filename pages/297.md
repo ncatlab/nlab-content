@@ -46,6 +46,10 @@ and a review of much of the existing material in the literature is in
 
 * Bruce H. Bartlett, _Categorical Aspects of Topological Quantum Field Theories_ ([arXiv](http://arxiv.org/abs/math/0512103)).
 
+The influential work by Moore and Segal on 2d TFTs is available as
+
+* [[Greg Moore]], [[Graeme Segal]], _D-branes and K-theory in 2D topological field theory_ ([arXiv](http://arxiv.org/abs/hep-th/0609042))
+
 ##Non-topological FQFTs (especially conformal)## 
 
 This mostly concentrates on [[TQFT|topological quantum field theories]], those where the path integral depends only on the diffeomorphism class of the domain it is evaluated on. This is the simplest and by far best understood case. But the idea of functorial FQFT is not restricted to this case.
