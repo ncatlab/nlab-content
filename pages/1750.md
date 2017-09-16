@@ -1,6 +1,6 @@
 [[!redirects ?]]
 Recall the notion of a [[Grothendieck fibration]].
-It [[Grothendieck fibration|generalizes]] to the notion of a fibration in a 2-category using [[Grothendieck fibration|Grothendieck fibrations]] themselves, using [[generalized element|generalized elements]]. We here give an alternative, yet equivalent, 2-categorical definition, trying to explain how it specializes to Grothendieck fibrations. The definition is due to the Australian school, probably Ross Street, and is recalled in Mark Weber's paper _Yoneda Structure from 2-toposes_, the main source for this page.
+It [[Grothendieck fibration|generalizes]] to the notion of a fibration in a 2-category using [[Grothendieck fibration|Grothendieck fibrations]] themselves, using [[generalized element|generalized elements]]. We here give an alternative, yet equivalent, 2-categorical definition, trying to explain how it specializes to Grothendieck fibrations. The definition is due to the Australian school, probably Ross Street, and is recalled in Mark Weber's paper [[Bibliography|Yoneda Structure from 2-toposes]], the main source for this page.
 
 Fix a 2-category $\mathcal{K}$. For any two morphisms
 $f: A \to C$ and $c: B \to C$, let $f/g$ be the corresponding [[comma object]] and let $f/=g$ be their [[pullback]].
