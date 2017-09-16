@@ -33,3 +33,4 @@ An initial object $\emptyset$ is called **strict** if any morphism $x\to \emptys
 
 [[!redirects initial]]
 [[!redirects coterminal object]]
+[[!redirects strict initial object]]
