@@ -16,3 +16,11 @@ Now, if you really thought of quantales as quantum locales, then you would defin
 
 _Toby_:  That explains it then, thanks.
 =--
+
+##### Example #####
+
+Quantales are a surprisingly commonplace structure in computer science. A very simple example is the powerset of strings (i.e., the powerset of the free monoid over some set of characters $\Sigma$). The order is the inclusion order on sets, and meet and join are just intersection and union, respectively. Taking $\epsilon$ to be empty string, and $a \cdot b$ to the join of two string, the quantalic operations are then:
+
+* $1 = \{\epsilon\}$
+* $L \otimes M = \{ l\cdot m \;|\; l \in L, m \in M \}$
+
