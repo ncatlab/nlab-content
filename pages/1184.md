@@ -63,3 +63,4 @@ This need not exist; in particular, $S_a$ may be empty.  What do we really want 
 [[!redirects well ordering]]
 [[!redirects well-ordered set]]
 [[!redirects well-ordering]]
+[[!redirects woset]]
