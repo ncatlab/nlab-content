@@ -19,3 +19,6 @@ $$
   * In their dual formulation [[L-infinity-algebra]]s and more generall [[Lie infinity-algebroid]]s are encoded by such monoids in cochain complexes.
 
 * By the dual [[Dold-Kan correspondence]] cochain complexes in non-negative degree are equivalent to [[simplicial object|cosimplicial]] abelian groups.
+
+
+[[!redirects cochain complexes]]
