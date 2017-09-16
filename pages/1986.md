@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-14
 
+*  [[Toby Bartels]]:
+   *  Added some stuff on morphisms to [[partial order]], [[semilattice]], and [[lattice]].
+   *  Wrote [[monotone function]], with a question on terminology, the sort that could be answered through the literature for once!
+
 *  [[Rafael Borowiecki]]:
    *  wants more details for Zoran\'s entries at [[Timeline of category theory and related mathematics]].
    *  added some definitions to [[A-infinity-category]].
