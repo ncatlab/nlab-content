@@ -17,7 +17,7 @@ This is a universal construction: the category of operators is the free [[semica
 
 ### For symmetric colored operads
 
-Let $FinSet_{*}$ be the category of finite [[pointed object|pointed]] [[set]]s. Write $\langle n \rangle = \{*, 1,2, \cdots, n\}$ for [[generalized the|the]] pointed set with $n+1$ elements. 
+Let $FinSet_{*}$ be the category of [[finite set|finite]] [[pointed set]]s. Write $\langle n \rangle = \{*, 1,2, \cdots, n\}$ for [[generalized the|the]] pointed set with $n+1$ elements. 
 
 Let $A$ be a symmetric colored [[operad]]. Its **category of operators** is the [[category]]
 
@@ -70,7 +70,7 @@ $$
 
 which is an [[isomorphism]] that identifies $A_n$ with the $n$-fold cartesian [[product]] of the category $A_1$ with itself.
 
-The morphisms $h \in Hom_A((c_1, \cdots, c_n), d)$ of $A$ are recovered as the collection of morphisms in $C_A$ from $(c_1, \cdots, c_n)$ \to $(d)$ that cover the morphism $\langle n\rangle \to \langle 1\rangle$ in $FinSet_*$ whose preimage of the point contains just the point.
+The morphisms $h \in Hom_A((c_1, \cdots, c_n), d)$ of $A$ are recovered as the collection of morphisms in $C_A$ from $(c_1, \cdots, c_n)$ to $(d)$ that cover the morphism $\langle n\rangle \to \langle 1\rangle$ in $FinSet_*$ whose [[preimage]] of the point contains just the point.
 
 
 ## References
