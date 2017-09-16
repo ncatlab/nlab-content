@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * started expanding [[sheaf]] -- my goal is (as now indicated) to give a full derivation of how a geometric morphism into a presheaf category defines a Grothendieck topology and sheaves with respect to that -- but my machine's battery runs low and will leave me offline any minute now, so will have to continue later (darn technology...)
+
+  * many thanks to [[Bruce Bartlett|Bruce]] for expanding [[fusion category]] and creating the relevant further entries
+
   * created a stub for [[fusion category]]
 
   * created a stub for [[String field theory]]
