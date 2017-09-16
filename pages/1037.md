@@ -380,6 +380,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[∞-stackification]]
 
+  * [[topological localization]]
+
   * [[hypercompletion]]
 
 * [[models for ∞-stack (∞,1)-toposes]]
