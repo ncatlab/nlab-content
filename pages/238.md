@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-15 #
 
+*  [[Tim Porter|Tim]]: I have continued at [[homotopy coherent nerve]].  This ended up with several new links to not-yet-existing pages!
+
+
+
 * [[Urs Schreiber]]:
 
   * created [[homeomorphism]] and [[local homeomorphism]] just to satisfy links
