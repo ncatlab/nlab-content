@@ -100,6 +100,10 @@ These three diagrams are testing re-use of SVG code.  The arrowheads are reused 
 
 (removed; see [revision 12](http://ncatlab.org/nlab/revision/SVG+Sandbox/12)) 
 
+[[Alma Myers]]
+
+May I suggest using [custom research papers](http://www.besttermpaper.com) for this study. Hope my snippet helps. 
+
 Given that inclusions and references seem to work fine, it seems a reasonable idea to have a list of "standard" arrowheads.  Here's one such, loosely based on the types of arrowhead that the xy package considers as standard.
 
 ###### Date stamp: 5th June 2009
