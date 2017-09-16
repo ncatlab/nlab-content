@@ -25,7 +25,7 @@ $$\tilde{f}(x,0) = f'(x)$$
 
 So, the function $\tilde{f}$ knows about the derivative of $f$!
 
-Fermat noted this for $f$ a polynomial; Hadamard generalized it to smooth $f$.   The function $\tilde{f}$ is also called a **Hadamard quotient**.    
+Fermat noted this for $f$ a polynomial; Hadamard generalized it to smooth $f$.   The function $\tilde{f}$ is also called a **Hadamard quotient**.  See [[Hadamard lemma]].  
 
 If we take $\tilde{f}(x,0) = f'(x)$ as a _definition_ of the derivative, we can derive many of the basic rules for derivatives from the formula
 
