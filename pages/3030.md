@@ -115,6 +115,18 @@ And so on.
 
 ## Details
 
+We work out in detail what nonabelian group cocycles, such as morphisms
+
+$$
+  \mathbf{B}G \to \mathbf{B}AUT(K)
+$$
+
+correspond to in terms of claassical group data, using the relation between [[strict 2-group]]s and [[crossed module]]s that is spelled out in detail at [strict 2-group - in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules).
+
+For making the translation we follow the **convention LB** there.
+
+> Or we will, soon, right now the formulas below are slightly inconsistent in terms of which convention they follow...
+
 ### Degree 2 cocycles
 
 +-- {: .un_prop}
