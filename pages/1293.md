@@ -1,0 +1,1 @@
+[Greg Egan](http://www.gregegan.net)
