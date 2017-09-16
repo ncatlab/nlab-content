@@ -6,6 +6,10 @@
 * [JA](http://planetphysics.org/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.org/)
 * [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
 
++-- {: .query}
+Jon, what\'s the best way to reach you by email?  Or write me at `8cb3d5c7@tobybartels.name` if you prefer.  ---Toby
+=--
+
 # Notes #
 
 # Pages #
