@@ -19,4 +19,6 @@ What is the difference between a discrete category and a [[0-category]]? - [[Eri
 
 Well, depending on your definition, a 0-category might _be_ a set (rather than the discrete category _on_ a set), or a discrete category, or a category that is _equivalent_ to a discrete category, or an $\omega$-category that is equivalent to a discrete one.  But morally, there is little difference.  - [[Mike Shulman|Mike]]
 
+What is the difference between a set and a discrete category on a set? :) - [[Eric Forgy|Eric]]
+
 =--
