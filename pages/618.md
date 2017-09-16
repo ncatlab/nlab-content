@@ -98,7 +98,7 @@ Frequently, though, these covering families will satisfy at least some of the sa
 
 * Any category has a _canonical coverage_, defined to be the largest subcanonical one.  (Hence the name "subcanonical" = "contained in the canonical coverage.")  The covering sieves for the canonical coverage are precisely those which are **universally effective-epimorphic**, meaning that their target is their colimit and this colimit is preserved by pullback.
 
-* The canonical coverage on a [[Grothendieck topos]] coincides with its geometric coverage, and moreover every sheaf for this coverage is representable.  That is, a Grothendieck topos is a (large) site which is equivalent to its own category of sheaves.
+* The canonical coverage on a [[Grothendieck topos]] coincides with its geometric coverage, and moreover every sheaf for this coverage is representable.  That is, a Grothendieck topos is a ([[large site|large]]) site which is equivalent to its own category of sheaves.
 
 
 # Applications #
