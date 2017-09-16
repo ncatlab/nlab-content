@@ -31,18 +31,22 @@ If this morphism $r$ is an [[isomorphism]], then the isomorphic objects $c_1 \ti
 
 The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set of these objects need not have [[decidable equality]]).  The [[zero object]] is itself the biproduct of no objects.
 
-# Enriched structure #
+# Biproducts imply enrichment #
 
 A category with all finite biproducts is automatically [[enriched category|enriched]] over the [[monoidal category]] of abelian [[monoid]]s with the usual [[tensor product]], as follows.
 
 Given two morphisms $f, g: a \to b$ in $C$, let their sum $f + g: a \to b$ be
 $$ a \to a \times a \cong a \oplus a \to^{f \oplus g} b \oplus b \cong b \sqcup b \to b .$$
-One proves that $+$ is associative and commutative.
-
-Of course, the zero morphism $0: a \to b$ is the usual [[zero morphism]] given by the zero object:
+One proves that $+$ is associative and commutative. Of course, the zero morphism $0: a \to b$ is the usual [[zero morphism]] given by the zero object:
 $$ a \to 1 \cong 0 \to b .$$
 One proves that $0$ is the neutral element for $+$.
 
 If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of abelian [[group]]s and is therefore (precisely) an _[[additive category]]_.
 
 If, on the other hand, the addition of morphisms is idempotent ($f+f=f$), then $C$ is enriched over the category $SLat$ of [[semilattice]]s (and is therefore a kind of [[2-poset]]).
+
+# Biproducts as enriched Cauchy colimits #
+
+Conversely, if $C$ is already known to be enriched over abelian monoids, then a binary biproduct may be defined purely diagrammatically as an object $c_1\oplus c_2$ together with injections $n_i:c_i\to c_1\oplus c_2$ and projections $p_i:c_1\oplus c_2 \to c_i$ such that $p_j n_i = \delta_{i j}$ (the [[Kronecker delta]]) and $n_1 p_1 + n_2 p_2 = 1_{c_1\oplus c_2}$.  It is easy to check that makes $c_1\oplus c_2$ a biproduct, and that any binary biproduct must be of this form.  Similarly, an object $z$ of such a category is a zero object precisely when $1_z= 0_z$, its identity is equal to the zero morphism. It follows that functors enriched over abelian monoids must automatically preserve finite biproducts, so that finite biproducts are a type of [[Cauchy colimit]].  Moreover, any product _or_ coproduct in a category enriched over abelian monoids is actually a biproduct.
+
+For categories enriched over [[suplattice]]s, this extends to all small biproducts, with the condition $n_1 p_1 + n_2 p_2 = 1_{c_1\oplus c_2}$ replaced by $\bigvee_{i} n_i p_i = 1_{\bigoplus_i c_i}$.  In particular, the category of suplattices has all small biproducts.
