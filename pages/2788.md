@@ -53,6 +53,13 @@ But the trouble with all this is that I have no idea what $C$ is supposed to be!
 
 [[Urs Schreiber]]: concerning the nature of $C$: as I suggested before, it does make sense to take this to be the [[cograph of a functor]]. And indeed, in some situations it is useful to _define_ the notion of functor in terms of the notion of cograph. In [[Higher Topos Theory]] the notion of [[adjoint (infinity,1)-functor]] is defined entirely in terms of cographs of functors.
 
+[[Eric]]: Thanks Urs. Now I just need to parse what you say into something I can understand, but it is encouraging. In fact, quoting myself from earlier in the discussion:
+
+>It seems like maybe I am trying to work backwards, i.e. define a functor via a cograph.
+
+When I tried to grok "cograph" on my personal web [[ericforgy:Natural Transformation]], I stripped out the line including the functor and with Toby's help, realized what I (think I) was talking about was the disjoint union of categories.
+
+I guess, my plan of attack now is to see how we can define functor via cograph. For some reason, that makes sense to me.
 
 ##Discussion##
 
