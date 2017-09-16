@@ -1,0 +1,3 @@
+A smooth real valued function $f:M\to\mathbb{R}$ on a smooth [[manifold]] $M$ is called a **Morse function** if every critical point of $f$ is regular, i.e. its Hessian matrix is nondegenerate. A choice of a Morse function on a compact manifold is often used to study topology of the manifold. This is called the Morse theory.  
+
+Cf. wikipedia: [Morse theory](http://en.wikipedia.org/wiki/Morse_theory)
