@@ -116,7 +116,7 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
 
 * _Plethystic algebra_, J. Borger and B. Wieland, Adv. Math, 2005
 
-* _The Hunting of the Hopf Ring_, [[Andrew Stacey|A. Stacey]] and S. Whitehouse, [arXiv:0711:3722](http://arxiv.org/abs/0711.3722)
+* _The Hunting of the Hopf Ring_, [[Andrew Stacey|A. Stacey]] and S. Whitehouse,  Homology, Homotopy and Applications, Volume 11(2), 2009, p75-132, [online copy](http://intlpress.com/HHA/v11/n2/a6/).  Also available as [arXiv:0711:3722](http://arxiv.org/abs/0711.3722).
 
 +-- {: .query}
 
