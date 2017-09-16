@@ -26,7 +26,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-07
 
-* [[Urs Schreiber]]: wrote a somewhat revisionist "Idea" section at [[Grothendieck connection]]. Notice that it is in particular the Breen-Messing reference cited and discussed at [[infinitesimal singular simplicial complex]] that allows me to do that! (meaning: I am not making this up, but just putting the pieces together)
+* [[Urs Schreiber]]: 
+
+  * started turning some talk notes of a seminar into entries, but requires polishing: 
+
+    the full raw material is at [[A Survey of Elliptic Cohomology - cohomology theories]]. Using this I have so far split off [[cohomology theory]], [[Lazard ring]], [[complex cobordism cohomology theory]] and [[reduced cohomology]]
+
+  * wrote a somewhat revisionist "Idea" section at [[Grothendieck connection]]. Notice that it is in particular the Breen-Messing reference cited and discussed at [[infinitesimal singular simplicial complex]] that allows me to do that! (meaning: I am not making this up, but just putting the pieces together)
 
 * [[Jon Awbrey]] added a page on [[graph theory]].  The page on [[graph]] has become too baroque to fix, but there needs to be a place to record the basic definitions of graph theory that are actually used by the larger schools of math folks who actually dare to call themselves graph theorists.  This is stuff that is more in the back of my mind than the forefront of my attention, so I'll add to it over time as other work recurs to it.
 
