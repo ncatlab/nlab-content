@@ -317,7 +317,7 @@ Every entry should include:
 
 For historians and people writing bibliographies, it will be very helpful if there exists a _reference_ to any paper or book in which a concept or result was introduced.  However, we can put this information in the page for that concept or result.
 
-+-- {: .query}
+#Discussion#
 
 If you look back in the history of this page, you'll see that Rafael had written some rather different guidelines, including:
 
@@ -370,10 +370,9 @@ Segal categories were defined one year later implicitly by [[Graeme Segal]]. The
 
 
 Rafael: It's not the best solution but it works. I hope no information is lost (can't check now, nLab returns blank pages). The pattern is that i avoided defining what was defined in wikipedia unless i could contribute to the definition, and i was on my way to define or say something about the rest as i learn it. That depend upon what i could find on internet.
-=--
 
-#Discussion#
-+-- {: .query}
+***
+
 This is a test to migrate the timeline of category theory and related mathematics from Wikipedia to nLab.
 
 Reason: No one really contributes to it at wikipedia
@@ -413,10 +412,8 @@ _Toby_:  No, it\'s not the definitions; it\'s the line breaks.  (Also vertical b
 I don\'t understand what you mean by 'everything blends'.  But I\'m not going to worry about that now.
 
 Rafael: I simply mean that the text in the different cells melts together when the boundaries are invisible. An esthetic thing, but i like beautiful math.
-=--
 
-
-+-- {: .query}
+***
 
 [[Urs Schreiber|Urs]]: I am very fond of the aim of this entry. I suggest, though (and might start implementing that when I find time), that we try to split, for the reader's convenience, a list of true generally accepted _milestone_ constributions that indicate the big stepts forward, from a a list that rather aims to give a somewhat complete list of all contributions of some relevance.
 
@@ -431,5 +428,3 @@ Rafael: Why not splitting?  The table will grow larger and a split will be neces
 [[John Baez|John]]: I've deleted the entry on 'quantum topos', since in fact most experts are very doubtful that a correct definition has been found for this notion, and they're even uncertain such a notion deserves to exist. Let's stick to concepts that are fairly widely considered to be fruitful.
 
 [[Urs Schreiber|Urs]]: that sounds good. Maybe I was thinking that "timeline of category theory" sounds like it shouldn't contain just every little bit. So maybe if and when we split, is there any majority for keeping this title here for the _short_ list and another title for the long list, maybe _literature list of category theory_ or the like?
-
-=--
