@@ -32,7 +32,7 @@ Archetypical examples of non-[[concrete category|concrete]] categories are the [
 +-- {: .un_remark}
 ###### Category theory pointing beyond itself
 
-These latter examples already pave the way to the [[homotopy hypothesis]], to the unification between category theory and [[homotopy theory]] in [[Higher Topos Theory|(infinity,1)-category theory]] and thereby to [[higher category theory]]. 
+These latter examples already pave the way to the [[homotopy hypothesis]], to the unification between category theory and [[homotopy theory]] in [[Higher Topos Theory|(∞,1)-category theory]] and thereby to [[higher category theory]]. 
 =--
 
 +-- {: .un_remark}
@@ -58,10 +58,19 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
 
-* Categories may be regarded as 1-dimensional [[directed space]]s. One precise way to say this is that a category is a [[simplicial set]] such that the [[Segal map]]s are isomorphisms. (When distinguishing the category itself from the simplicial set that it corresponds to one says that the simplicial set is the [[nerve]] of the category.)
+* Categories may be regarded as 1-dimensional [[directed space]]s. 
+
+  A precise version of this statement is obtained in the sense of the [[homotopy hypothesis]]: this asserts that [[infinity-groupoid|∞-groupoids]] are the same as (nice) [[topological space|space]]s. It is in this sense that [[(infinity,1)-category|(∞,1)-categories]] are like (nice) [[directed space]]s. (One may take this as the _definition_ of nice directed space.) An ordinary category is precisely an [[(∞,1)-category]] in which all [[k-morphism]]s of dimension $k \gt 1$ are trivial in some precise manner. So it is in this sense that categories are precisely the 1-dimensional (nice) directed spaces.
+
+  More concretely, if one thinks of an [[(∞,1)-category]] as being realized as a [[quasi-category]] given by a [[simplicial set]], the above turns into the maybe more familiar statement that categories may be identified with precisely those [[simplicial set]]s whose [[Segal map]]s are isomorphisms. 
+
+  When distinguishing the category itself from the simplicial set that it corresponds to one says that the simplicial set is the [[nerve]] of the category. See there for more on this.
 
   +--{: .query}
   [[David Roberts]]: At the risk of inflaming discussion on this point again, I would like to point out that this analogy is a little loose, as there are no points of this directed space \'half-way along'\ an arrow. This idea very much smacks of Ronnie Brown's philosophy of choosing an appropriate set of basepoints for the fundamental groupoid. In this instance we are taking a one-dimensional directed space then choosing basepoints for the fundamental category at places where the space is not locally euclidean. Then the original category embeds as a subcategory of the whole fundamental category. In this somewhat loose sense one could think of a category being embedded in a one-dimensional directed space - but please note this is only a heuristic.
+
+  [[Urs Schreiber]]: I have expanded the above item now, indicating one way in which the statement "a category is a 1-dimensional directed space" is precise and correct.
+
   =--
 
 * Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of $Set$, a category is a **[[universe]]** inside which mathematics may take place.
@@ -212,6 +221,7 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
   =--
 
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
+
 
 * A unifying tool and language in [[mathematics]].
 
