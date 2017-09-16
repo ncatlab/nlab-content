@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[complex]]
+
+  * created [[Grothendieck category]] -- it feels like this should make me say something about that axiom list at [[additive and abelian categories]]...
+
   * tried to resolve/incorporate parts of the discussion at [[localization]] by reworking the entry a bit -- also left a comment there
 
   * noticed that we have considerable overlap now between [[multiplicative system]] and [[category of fractions]]. Left a comment there to remind us. Somebody who knows the precise status of these two terms in the math community should please go ahead and merge the material in one entry, keeping a redirect page for the respective other term
