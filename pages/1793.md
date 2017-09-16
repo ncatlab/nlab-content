@@ -1,3 +1,11 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 Under the [[Dold–Kan correspondence]] there is an [[equivalence of categories]] relating non-negatively graded [[chain complex]]es in an [[abelian category]] $A$ to [[simplicial object]]s in $A$.
