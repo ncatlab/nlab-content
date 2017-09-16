@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added explicitly the description in terms of weighted (co)limits and in terms of (co)ends to [[Kan extension]]; also reorganized the existing material somewhat.
+
   * added the definition of composition to [[enriched functor category]];
 
   * thanks to [[Andrew Stacey|Andrew]] for the thing about "heuristic". I'll be aware of that in the future.
