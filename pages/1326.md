@@ -1,6 +1,6 @@
 A **cochain complex** $V^\bullet$ in an [[Ab-enriched category]] $C$ is nothing but a [[chain complex]] in $C$, but with the sign of the $\mathbb{Z}$-grading reversed.
 
-This means that for a cochain complex $(V^\bullet,d)$ the differential _increases_ the degree
+This means that for a cochain complex $(V^\bullet,d)$ the differential (or *coboundary*) $d$ _increases_ the degree
 
 $$
   d : V^{k} \to V^{k+1}
