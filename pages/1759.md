@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+*  [[Toby Bartels]]:  More discussion at [[Tall-Wraith monoid]] (not actually about math) and [[effective epimorphism]] (actually about math!).
+
 * [[Urs Schreiber]]: added to [[effective epimorphism]] a remark on how the 1-categorical case is a special case of the $(\infty,1)$-categorical case and replied to the discussion
 
 *  [[Toby Bartels]]:
