@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
-
+* [[Zoran Škoda]]: added a query in [[compact object]]: the stated characterization of categories of $R$-modules is known at least about 3 deaced before Ginzburg's lectures. Maybe we should look into classical sources.
 * [[John Baez]]: 
 
    * Added theorem characterizing categories of $R$-modules to [[compact object]].
