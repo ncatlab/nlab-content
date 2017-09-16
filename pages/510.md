@@ -6,7 +6,7 @@ The collection of grouplike stably monoidal $\infty$-groupoids is a sub-$(\infty
 
 # Definition #
 
-There are many "models" for spectra, all of which present the same homotopy theory (and in fact, nearly all of them are [[Quillen equivalence|Quillen equivalent]] [[model category|model categories]]).  One fairly simple, and quite useful, approach is to define a spectrum $E$ to be a sequence of [[pointed object|based]] spaces $E_n$, for all natural numbers $n$, together with isomorphisms $E_n \cong \Omega E_{n+1}$, where $\Omega$ denotes the based [[loop space]].  The idea is that $E_0$ contains the information of $E$ in dimensions $k\ge 0$, $E_1$ contains the information of $E$ in $k\ge -1$ (but shifted up by one, so that it is modeled by the $\ge 0$ information in the space $E_1$), and so on.
+There are many "models" for spectra, all of which present the same homotopy theory (and in fact, nearly all of them are [[Quillen equivalence|Quillen equivalent]] [[model category|model categories]]).  One fairly simple, and quite useful, approach is to define a spectrum $E$ to be a [[sequence]] of [[pointed object|based]] spaces $E_n$, for all natural numbers $n$, together with isomorphisms $E_n \cong \Omega E_{n+1}$, where $\Omega$ denotes the based [[loop space]].  The idea is that $E_0$ contains the information of $E$ in dimensions $k\ge 0$, $E_1$ contains the information of $E$ in $k\ge -1$ (but shifted up by one, so that it is modeled by the $\ge 0$ information in the space $E_1$), and so on.
 
 # Conjectures #
 
