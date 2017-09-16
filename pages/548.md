@@ -1,16 +1,24 @@
+
+#Contents#
+
+* automatic table of contents goes here
+{:toc} 
+
+#Idea#
+
 A $2$-group is a [[vertical categorification]] of the idea of [[group]]. 
 
 It is the special case of an [[n-group]] for $n=2$.
 
 
-## Definition
+# Definition #
 
 A __$2$-group__ is a groupal [[groupoid]], that is a groupoid whose objects have been made into a [[group]].  Equivalently, it is a [[monoidal category]] in which each every [[object]] and [[morphism]] is invertible.  Also equivalently, it is a $2$-[[2-groupoid|groupoid]] with one object, a very basic case of a $k$-[[k-tuply groupal n-groupoid]] $n$-[[n-groupoid|groupoid]].
 
 Like other notions of [[higher category theory]], $2$-groups come in weak and strict forms, depending on how you interpret the above.
 
 
-## Strict $2$-groups
+## Strict $2$-groups ##
 
 The earliest version studied is that of [[strict 2-group]]s.
 
@@ -43,7 +51,7 @@ such that the composites $s\cdot i$ and $t\cdot i$ are the identity morphisms on
 See [[strict 2-group]] for further discussion and examples.
 
 
-## Weak $2$-groups
+## Weak $2$-groups ##
 
 A __weak $2$-group__, or simply __$2$-group__, is a (weak) [[monoidal category]] *such that*:
 
@@ -57,7 +65,23 @@ A theorem in HDA5 shows that every weak $2$-group may be made coherent.  For pur
 
 We can also write this out in detail ... later.
 
+# Examples #
 
-## Referenes
+Since strict 2-groupss are equivalent to [[crossed module]]s, see also the examples listed there.
+
+## automorphism 2-group ##
+
+For $C$ any [[2-category]] and $c \in C$ any object of it, the category $Aut_C(c) \subset Hom_C(c,c)$ of auto-equivalences of $c$ and invertible 2-morphisms between these is naturally a 2-group, whose group product comes from the horizontal composition in $C$.
+
+If $C = Grp_2 \subset Grpd$ is the 2-category of [[group]] obtained by regarding groups as one-object [[groupoid]]s, then for $H \in Grp$ a group, its automorphism 2-group obtained this way is the strict 2-group
+
+$$
+  AUT(H) := Aut_{Grp_2}(H)
+$$
+
+corresponding to the [[crossed module]] $(H \stackrel{Ad}{\to} Aut(H))$, where $Aut(H)$ is the ordinary [[automorphism]] group of $H$.
+
+
+# Referenes #
 
 *  John Baez and Aaron Lauda, _HDA V: 2-Groups_ ([arXiv](http://arxiv.org/abs/math.QA/0307200)).
