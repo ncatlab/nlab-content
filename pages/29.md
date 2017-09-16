@@ -21,9 +21,10 @@ In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s
 
 ## Examples
 
-*  A [[bijection]] is an isomorphism in [[Set]].
-*  A [[homeomorphism]] is an isomorphism in [[Top]].
-*  A [[diffeomorphism]] is an isomorphism in [[Diff]].
+Normally, an isomorphism is just called an __isomorphism__; indeed, this terminology was used in algebra before the advent of category theory.  However, other terminology is used in some fields:
+*  A __[[bijection]]__ is an isomorphism in [[Set]].
+*  A __[[homeomorphism]]__ is an isomorphism in [[Top]].
+*  A __[[diffeomorphism]]__ is an isomorphism in [[Diff]].
 
 
 [[!redirects isomorphic]]
