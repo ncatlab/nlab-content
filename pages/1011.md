@@ -87,3 +87,15 @@ There is also the notion of free 2-category generated from a 2-computad, and thi
 I'm not sure if this is quite what you were thinking of with "a category with non-commuting paths [i.e. a category that isn't a preorder] is secretly a non-trivial 2-category somehow", but it's not true that you can make a 2-category out of a category by putting a 2-cell between any two unequal parallel arrows.  For one, there would be no identity 2-cells (since an arrow *is* equal to itself), and for two, you can't compose inequalities; if $f\neq g$ and $g\neq h$ it can still be that $f=h$.
 
 [[David Roberts]]: I like the idea about the fundamental category of a 2-computad - I have some examples of things up my sleeve that I think this (and the next level up - the fundamental bicategory of a 3-computad) would very accurately describe. One of which is the localisation of a (small) category. Even more interesting for me would be the comparison with [[directed homotopy]], especially if the 2-cells are not invertible.
+
+[[Eric]]: Thank you Todd and Mike! This is all very neat. That sounds interesting too David. I was also thinking about directed homotopy. I'm sure you guys are right and it is more natural to specify which diagrams commute rather than which diagrams don't commute, but my motivation was curvature. If there is no curvature, then parallel transporting a particle along either path doesn't matter. However, if there is curvature, then a particle will end up "rotated" depending on which path you take. In this analogy, it is the "absence" of curvature that makes the paths commute. It seemed natural that specifying a non-identity 2-edge was like specifying a non-zero curvature.
+
+I like the idea of computads. I thought about that as well (although I didn't know they were called computads), but I think you really can get away with just directed $n$-graphs. Instead of a single directed edge as I drew in the picture which is more like a morphism between paths of length 2, we could have two 2-edges:
+
+$$F_1: L\to T\quad\text{and}\quad F_2:B\to R.$$
+
+Then
+
+$$F:BL\to RT$$
+
+is some kind of horizontal composition.
