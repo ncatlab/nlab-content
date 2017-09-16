@@ -9,11 +9,17 @@
 
 ## Contents ##
 
+* [notions of space](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+the+derived+moduli+stack+of+derived+elliptic+curves#NotionsOfSpace)
+
 * [[(∞,1)-topos]]
 
   * [[∞-space]]
 
   * [[∞-stack]]
+
+  * [[internal ∞-groupoid]]
+
+    * [[∞-Lie groupoid]]
 
 * [[structured (∞,1)-topos]]
 
