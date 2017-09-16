@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-21 #
+
+* [[David Roberts]]:
+
+  * Added examples to [[semi-abelian category]] - the opposite of the category of pointed objects in a topos, and the category of crossed modules.
+
 # 2009-04-20 #
 
 * [[Urs Schreiber|Urs]]: 
