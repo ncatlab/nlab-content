@@ -25,7 +25,7 @@ A [[topos]] $T$ modelling the axioms of synthetic differential geometry is calle
 
 A standard model for well adapted syntehtic toposes is obtained in terms of sheaves on diuals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook [[Models for Smooth Infinitesimal Analysis]]. 
 
-The conception and discussion of these well adapted toposes goes back to E. Dubuc, who studied them in a long series of articles. He [asks](http://north.ecc.edu/alsani/ct99-00(8-12)/msg00218.html) people to refer it this topos as the **Dubuc topos**. 
+The conception and discussion of these well adapted toposes goes back to E. Dubuc, who studied them in a long series of articles. He <a href="http://north.ecc.edu/alsani/ct99-00(8-12)/msg00218.html">asks</a> people to refer it this topos as the **[[Dubuc topos]]**. 
 
 
 
