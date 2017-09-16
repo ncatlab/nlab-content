@@ -222,3 +222,72 @@ $$
   \,.
 $$
 
+#Examples#
+
+Fibration sequences are familiar from the context of [[principal bundle]]s.
+
+Let $G$ be a [[group]] and let $\mathbf{B}G$ denote the corresponding one-object [[groupoid]] (in the world of [[infinity-groupoid]]s) or else the [[classifying space]] $B G$.
+
+Notice that 
+
+$$
+  G \simeq \Omega \mathbf{B} G
+  \,.
+$$
+
+Then that a $G$-[[principal bundle]] $P \to X$ is classified by morphism $X \to \mathbf{B}G$ means that it is the homotopy fiber of this morphism.
+
+Indeed, as indicated at [[generalized universal bundle]] and at [[homotopy limit]], we may compute the homotopy pullback
+
+$$
+  \array{
+  P &\to& {*}
+  \\
+  \downarrow && \downarrow
+  \\
+  X &\to& \mathbf{B}G
+ }
+$$
+
+by first forming the standard _fibrant replacement_ of the diagram $X \to \mathbf{B}G \leftarrow {*}$. That is given by
+the diagram
+
+$$
+  X \to \mathbf{B}G \leftarrow \mathbf{E}G  
+  \,,
+$$
+
+where $\mathbf{E}G \simeq {*}$ is the total "space" (or 2-groupoid) of the universal $G$-bundle. Once we have done this weakly equivalent replacement, the [[homotopy pullback]] may be computed as the _ordinary_ pullback
+
+$$
+  \array{
+   P &\to & \mathbf{E}G
+   \\
+   \downarrow && \downarrow
+   \\
+   \hat X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,, 
+$$
+
+in the ordinary 1-category of $n$-groupoids/ spaces, using a $\hat X \stackrel{\simeq}{\to}\gt X$ of $X$ (for instance the Cech-groupoid associated with an open cover of $X$). 
+
+One recognizes the usual statement that principal $G$-bundles all arises as pullbacks of the universal $G$-principal bundle. 
+
+The fact that such pullbacks really are bundles whose fiber is $G$ is the statement of the long fibration sequence induced by $g$ which says that picking any point ${*} \to X$ of $X$ and then pulling back $P$ to that point (i.e. restricting it to that point) yields $\Omega \mathbf{B}G = G$:
+
+$$
+  \array{
+   G \simeq
+   \Omega \mathbf{B}G
+   &\to&
+   P &\to & \mathbf{E}G
+   \\
+   \downarrow && \downarrow && \downarrow
+   \\
+   {*}&\stackrel{x}{\to}& \hat X &\stackrel{g}{\to}& \mathbf{B}G
+  }
+  \,, 
+$$
+
+The same logic -- even the same diagrams -- work for [[principal 2-bundle]]s and generally for [[principal infinity-bundle]]s.
