@@ -59,7 +59,8 @@ Among higher-category theorists, it's tempting to suggest that this is the most 
 [[Mike Shulman]]: I like $T$ as the name for a monad.  (I also think that as a matter of exposition, this page should start out with monads in $Cat$ and introduce the more general version later, but I don't have time to implement that right now.)
 
 [[Peter LeFanu Lumsdaine]]: I'd been thinking the same; so I've re-organised things as you suggest, and added an "idea" section.  I think that probably goes into too much detail now, especially since "generalised algebraic theory" is only one of many ideas of what a monad is, but someone else can probably cut it down more dispassionately than I can :-)
- 
+
+[[Mike Shulman]]: I don't think it needs any cutting down.  If anything, one could add more description of all the other things that a monad is.
 =--
 
 ##Remarks##
@@ -80,7 +81,7 @@ An [[internalization|internal]] monad on the [[subobject classifier]] of a [[top
 
 ##Algebras/modules over a monad##
 
-Given that a monad in $B$ is nothing but a [[monoid]] in a hom-category $B(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a monoidal category, however, since it need not live in $B(a,a)$ but can be in $B(b,a)$ (for left modules) or $B(a,c)$ (for right modules).
+Given that a monad in a bicategory $\mathcal{B}$ is nothing but a [[monoid]] in a hom-category $\mathcal{B}(a,a)$, it is natural to consider a [[module]] over this monoid: a [[module for a monad]].  This notion of module is more general than a module in a monoidal category, however, since it need not live in $\mathcal{B}(a,a)$ but can be in $\mathcal{B}(b,a)$ (for left modules) or $\mathcal{B}(a,c)$ (for right modules).
 
 In a $Cat$-like bicategory, left modules over a monad are usually called _algebras over the monad_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].
 
