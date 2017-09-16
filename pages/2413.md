@@ -36,3 +36,5 @@ After the original sketch in terms of extended [[FQFT]] subsequent work concentr
 This latest development on this is in 
 
 * [[Stephan Stolz]], [[Peter Teichner]], _Super symmetric field theories and integral modular forms_ ([pdf](http://www.nd.edu/~stolz/SusyQFT.pdf))
+
+> **warning** [[Urs Schreiber|I]] am being told that this is by now outdated and to be replaced by an improved version, wich however is apparently not available yet
