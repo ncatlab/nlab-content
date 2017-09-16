@@ -14,6 +14,8 @@ _[[Toby Bartels|Toby]] replies_: I mean something more neutral: It\'s strange th
 _Toby_:  Maybe I\'m thinking of less sophisticated references than you are, but it seems to me that when people just dash off a definition of category, trying to make sure that it\'s correct but otherwise not giving much thought to foundations, that they almost invariably adopt the set/class distinction of NGB set theory.  And this is equivalent to ZFC, weaker than ZFC plus one uncountable Grothendieck universe.  Someone taking more care with foundations might well prefer to assume an uncountable Grothendieck universe (or equivalently an uncountable inaccessible cardinal), which makes things easier to work with, but I don\'t see it otherwise.  (I suppose that now we should hunt down specific references to make our respective points.)
 
 _Mike_: I don't really think I ought to spend the time hunting up (or down) references on such a not-very-consequential point.  Now that I think about it, you're right that many people do think of large categories as proper classes.  But I think there are also enough of people who like to think of at least one universe (and usually need no more than one).  Maybe we could leave it at "some do, some don't"?
+
+_Toby_:  I\'ll agree to that, although I stand by the 'not' that modifies 'widely adopted' in this case.  If you think that you know how you\'d like to phrase it, please go ahead.
 =--
 
 
