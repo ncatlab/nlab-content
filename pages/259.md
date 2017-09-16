@@ -24,7 +24,7 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[limit in quasi-categories]]
 
-* [[over-category in quasi-categories]]
+* [[over quasi-category]]
 
 * [[terminal object in a quasi-category]]
 
