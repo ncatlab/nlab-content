@@ -337,7 +337,7 @@ $$
 $$
 which sends every diagram to its [[limit]]. The Hom-isomorphisms of these [[adjunction]]s state precisely the universal property of [[limit]] and [[colimit]] given above.
 
-
+From this perspective, a limit is a special case of a [[Kan extension]], as described there.
 
 
 #Examples#
