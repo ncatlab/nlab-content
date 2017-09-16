@@ -49,6 +49,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman]]: Thanks Urs.  I expanded [[2-pullback]] a bit.  Weirdly, the direct URL for [weak pullback](http://ncatlab.org/nlab/show/weak+pullback) currently takes me to the *old* disambiguation page, which doesn't seem to exist any more.  Ordinary links like [[weak pullback]] are correctly redirected to [[weak limit]] however.
 
+  [[Lab Elf|Lab Elf (financial department)]]: weak pullback was still cached so a direct call got the cached page without a check to see if there was a corresponding page in the database.  I've removed the cached page and it looks like it's correct now.
+
 * [[Urs Schreiber]]
 
   * added some links to the entry on [[Peter May]]
