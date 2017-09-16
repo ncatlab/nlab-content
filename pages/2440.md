@@ -31,4 +31,12 @@ A useful survey with more pointers to the literature is
 
 * L. Frappat, A. Sciarrino, P. Sorba, _Dictionary on Lie Superalgebras_ ([arXiv](http://arxiv.org/abs/hep-th/9607161))
 
+Another useful survey is
+
+* D. Leites, _Lie superalgebras_ , J. Soviet Math. 30 (1985), 2481-2512 [web](http://dx.doi.org/10.1007/BF02249121)
+
+* M. Scheunert, _The theory of Lie superalgebras. An introduction_ , Lect. Notes Math. 716 (1979) 
+
+
+
 [[!redirects Lie superalgebra]]
