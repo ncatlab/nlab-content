@@ -13,6 +13,10 @@
 
 * [[descent]]
 
+* [[nonabelian cohomology]]
+
+* [[infinity-stack]]
+
 #Simpson on descent#
 
 In January 2009 Carlos Simpson wrote the following short note
