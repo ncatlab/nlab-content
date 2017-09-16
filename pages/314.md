@@ -77,8 +77,6 @@ $$
 where $Hom(S, F(-)) : D^{op} \to Set$.
 
 
-
-
 ## Limit of a functor with values in an arbitrary category ##
 
 The above formula generalizes straightforwardly to
@@ -170,6 +168,16 @@ $$
 $$
 
 naturally in $c \in C$.
+
+## Relation to continuous functors ##
+
+The very definition of limit as above asserts
+that the covariant [[hom-functor]] 
+$Hom(c,-) : C \to Set$
+commutes with
+forming limits. Indeed, the definition is equivalent
+to saying that the [[hom-functor]] is a 
+[[continuous functor]].
 
 
 # Definition in terms of universal cones #
@@ -346,4 +354,5 @@ Here are some important examples of limits, classified by the shape of the diagr
 ## Familiar concepts that are examples of limits ##
 
 * A limit over a [[subcategory|sub-poset]] $F : D \hookrightarrow C$ of a [[poset]] is, if it exists, the **supremum** of $D$ in $C$. Similarly, the limit over $F^{op} : D^{op} \to C^{op}$ is, if it exists, the **infimum** of $D$ in $C$.
+
 
