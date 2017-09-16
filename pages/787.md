@@ -7,9 +7,16 @@
 
 A **Courant algebroid** is a Lie-algebriac structure encoding a [[n-symplectic manifold|2-symplectic manifold]].
 
-By the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
+Various different incarnations of this data are considered in the literature. Following Roytenberg's analysis (see below) we may identify a Courant algebroid as a [[Lie infinity-algebroid|Lie 2-algebroid]] that generalizes the notion of [[Poisson Lie algebroid]] to one degree higher:
 
-Also, every Courant algebroid induces a [[L-infinity-algebra|Lie 3-algebra]] which is the [[string Lie 2-algebra]] if the base space is a point.
+on its defining [[Chevalley-Eilenberg algebra]] $CE(\Theta)$ exists a graded Poisson bracket $\{-,-\}$ of degree $-2$ and in it a degree 3 element $\Theta$ -- the higher analog of the [[Poisson Lie algebroid|Poisson bivector]] $\pi$ -- such that the differential on $CE(\theta)$ is
+
+$$
+  d_{CE(\theta)} = \{\Theta, - \}
+  \,.
+$$
+
+In the literature, this Lie 2-algebroid perspective on Courant algebroids is not usually considered. Instead, by the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is tought of as a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
 
 The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was studied by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
 
