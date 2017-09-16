@@ -1,3 +1,8 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 A *solid functor* (also called a *semi-topological functor*) is a [[forgetful functor]] $U\colon A\to X$ for which the structure of an $A$-object can be universally lifted along [[sinks]].  One can also say that $U$ has not just a left adjoint but all possible "relative" left adjoints.
