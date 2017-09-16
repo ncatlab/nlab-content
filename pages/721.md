@@ -1,3 +1,5 @@
+> **Note:** "pretopology" redirects here.  For a generalization of topological spaces based on neighborhoods, see [[pretopological space]].
+
 A Grothendieck pretopology is a collection of families of maps in a category which can be considered as [[cover|covers]].  It is sometimes known as a ''basis for a [[Grothendieck topology]]'', as a pretopology generates a Grothendieck topology.  Note that different pretopologies can generate the same Grothendieck topology.
 
 An even weaker notion than a Grothendieck pretopology, which also generates a Grothendieck toplogy, is a [[coverage]].  A Grothendieck pretopology can be defined as a coverage that also satisfies a couple of extra saturation conditions.
@@ -15,7 +17,7 @@ A$, the pullbacks $B \times_A U_i$ exist and $\{B \times_A U_i \to
 B\}_{i\in I}$ is a covering family,
 
 * Given a covering family $\{U_i \to A\}_{i\in I}$ and for each $i \in
-I$ a covering family $\{V_ij \to U_i\}_{j\in J_i}$, then $\{V_ij \to
+I$ a covering family $\{V_{i j} \to U_i\}_{j\in J_i}$, then $\{V_{i j} \to
 A\}_{j\in J_i,i\in I}$ is a covering family.
 
 If we drop the first and third conditions, we obtain the notion of a [[coverage]]; conversely every coverage generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies.
@@ -36,3 +38,6 @@ An example for the category [[Diff]] of manifolds is the pretopology of [[surjec
 Most of the examples of [[coverage|coverages]] are in fact Grothendieck pretopologies.
 
 (Other examples ..)
+
+
+[[!redirects pretopology]]
