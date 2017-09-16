@@ -97,7 +97,7 @@ This equation is known as the **Peiffer rule** in the literature.
     and if $a$ is a loop in $E$
 based at $f_0$, and $b$ a loop in $F$ based at $f_0$, then the composite path
 corresponding to $a b a^{-1}$ is [[homotopy|homotopic]] to one wholly within $F$.  To see
-this, note that $p(a b a^{-1})$ is [[null homotopic]].  Pick a [[homotopy]] in $B$
+this, note that $p(a b a^{-1})$ is [[null homotopic loop|null homotopic]].  Pick a [[homotopy]] in $B$
 between it and the constant map, then lift that homotopy back up to $E$ to one 
 starting at $a b a^{-1}$.  This homotopy is the required one and its other end
 gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and 
