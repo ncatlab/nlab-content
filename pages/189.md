@@ -4,7 +4,7 @@ A _quiver_ is a free category on a [[directed graph]]. Given a directed graph $G
 
 
 
-Here we taking advantage of the [[adjunction]] between [[Cat]] (the category of small categories) and [[DiGraph]] (the category of directed graphs).  Namely, any category has an underlying directed graph:
+Here we taking advantage of the [[adjoint functor|adjunction]] between [[Cat]] (the category of small categories) and [[DiGraph]] (the category of directed graphs).  Namely, any category has an underlying directed graph:
 
 $$U : Cat \to DiGraph $$
 
