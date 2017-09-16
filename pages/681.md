@@ -1,3 +1,2 @@
-See [[Dold-Kan correspondence]].
-
-category: delete
+&lt; [[Dold-Kan theorem]]
+[[!redirects Dold-Kan theorem -- history]]
