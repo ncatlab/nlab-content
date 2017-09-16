@@ -27,7 +27,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
+* [[Andrew Stacey]] is seriously considering finding The Doctor and borrowing the Tardis to go back and have a Serious Word with the designers of sqlite3.  (Anyone who gets the reference, I have a great photograph of a bus seen here in Trondheim that proves that The Doctor's greatest enemies are sneakily planning their next invasion from Norway.  But I digress.)  The problem with the timeline is the same as that with the long page names (and with an old problem in the testing stage with stylesheets).  It's down to a fundamental difference in design between sqlite3 (the old, slow database backend) and mysql (the newer, snappier model).  Basically, while both allow you to declare certain entries to be a certain type, sqlite3 then proceeds to __ignore that type__.  Mysql (and just about every other database) enforces it.  So when Instiki says "page names should be at most 60 chars long", Mysql truncates them to 60 chars while sqlite3 merrily accepts page names as long as Lanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch and back again.  Twice.  Similarly, where MySQL has a limit on lengths of rows in its database (happens to be 65535 bytes), sqlite3 merrily goes on accepting data as long as it gets it.
+
+  You can see where this is going, can't you.  Yup, timeline hit that latter limit.  It's currently over 80000 _characters_, and some of those are unicode so I've no idea how many actual bytes it is!
+
+  Before anyone suggests going back to sqlite3, let me point out that we can't scale up with sqlite3.  So that's a non-starter.  There are complicated possibilities in which we have more than one row for a page, but the absolute simplest would be to split long pages into smaller ones and then include them from the main one.  So we could split the timeline into, say, decades and then an extra bit for the discussion and simply include them all on the main timeline page.  That would also make editing the page a bit slicker and quicker.
+
+  If that is acceptable, then I can load up the timeline in two segments for someone to carve up into more sensible pieces.  It'll be tomorrow now before I get round to doing this (sorry).
+
+  I'll also have to figure out whether any more pages are affected by this.  I'm afraid that I'll have to roll these back to how they were when the lab was migrated (but presumably no-one's actually tried to edit one of these truncated pages, otherwise there'd've been more bugs noted here).
+
 * [[Todd Trimble]] added a teeny bit to [[locally convex topological vector space]]. I hope to be more in nLab editor mode soon. Congratulations on a successful migration (with big thanks to [[Andrew Stacey]]). 
+
+  [[Andrew Stacey]]: I'd hold off on the champagne for a little bit ...
 
 * [[Zoran Škoda]]: query in [[category theory]]: I think that blaming the terminology *abstract nonsense* to predominantly non-likers is misleading and that the wikipedia is this time more correct than nlab. 
 
@@ -55,6 +67,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * added some remarks on right vs. left duals on [[rigid monoidal category]];
 
   * noted that the $n$Lab crashed a couple of times while I was doing this.  Unfortunately I did not get a screenshot of the fancy error message.
+
+    [[Andrew Stacey]]: Yes, we hit our memory ceiling a couple of times.  I've lowered a couple of settings to try to ensure that we don't do this again but it's a bit experimental as to what the best settings are.  It's all a bit of a learning experience for me!  (Perhaps I shouldn't admit to that ...)
 
 * [[Zoran Škoda]]: I restarted the system and now IE renders [[normal subgroup]] correctly. This is strange as it had problems only with new entries [[normal subgroup]] and [[normal closure]] (even after many reloads) and rendered correctly the other entries. Now after reboot even they appear correct. 
 
