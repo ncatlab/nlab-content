@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-06-30 #
 
 
+* [[David Corfield|David]]
+
+  * added to [[Eckmann-Hilton duality]]
+
 * [[Urs Schreiber|Urs]]
 
   * continued polishing and adding statements and proofs to [[category of fibrant objects]]
