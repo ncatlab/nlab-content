@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Recall that the [[homotopy category]] $Ho_C$ of a [[category with weak equivalences]] $C$ or of a [[homotopical category]] is the best 1-categorical approximation to the [[(infinity,1)-category]] in which the weak equivalences of $C$ are literally [[equivalence]]s.
