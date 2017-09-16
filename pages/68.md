@@ -1,4 +1,13 @@
-#Definition#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 A _differentiable stack_ is a [[stack]] on the [[site]] [[Diff]] of manifolds which is [[presented stack|presented]] by a [[Lie groupoid]].
 
@@ -13,7 +22,7 @@ Notice that the stack [[presented stack|presented]] by a (Lie) groupoid $G$ is r
 Just as two algebras are Morita equivalent if their categories of modules are equivalent, two groupoids are Morita equivalent if their stacks of torsors are equivalent.
 
 
-#Literature#
+## Literature
 
 * Kai Behrend, Ping Xu, _Differentiable Stacks and Gerbes_
 ([arXiv](http://arxiv.org/abs/arXiv:math/0605694))
