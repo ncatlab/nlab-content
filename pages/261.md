@@ -5,8 +5,7 @@ A _simplicial set_ is like a combinatorial space built up out of gluing abstract
 More concretely, a simplicial set $S$ is a collection of [[set]]s $S_n$ for $n \in \mathbb{N}$, so that elements in $S_n$ are to be thought of as one $n$-[[simplex|simplices]], equipped with a rule that says:
 
 * which $(n-1)$-simplices in $S_{n-1}$ are faces of which elements of $S_n$;
-
-* which $(n+1)$-simplices are "thin" in that they are really just $n$-simplices regarded as "flat" $(n+1)$-simplices.
+* which $(n+1)$-simplices are [[thin element|thin]] in that they are really just $n$-simplices regarded as degenerate $(n+1)$-simplices.
 
 One of the main uses of simplicial sets is as combinatorial _models_ for [[topological space]]s. They can also be taken as models for [[infinity-groupoid]]s. This is encoded in the [[model structure on simplicial sets]].
 
@@ -16,7 +15,7 @@ A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, th
 
 This is, of course, a [[simplicial object]] in the category [[Set]] of sets.
 
-With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial sets form the category [[SSet]].
+With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial sets form the category [[SimpSet]] (also called $SSet$ or $sSet$).
 
 #Remarks#
 
@@ -51,7 +50,7 @@ called the **simplicial singular complex** of $X$. This simplicial set is always
 
 #The category of simplicial sets#
 
-Like all categories of [[presheaf|presheaves]] on a [[small category]], the [[category]] [[SSet]] of simplicial sets is complete and cocomplete (with [[limit]]s and [[colimit]]s constructed levelwise) and [[cartesian closed category|cartesian closed]]. In fact, like all [[presheaf|presheaf categories]], it is a [[topos]]. 
+Like all categories of [[presheaf|presheaves]] on a [[small category]], the [[category]] [[SimpSet]] of simplicial sets is complete and cocomplete (with [[limit]]s and [[colimit]]s constructed levelwise) and [[cartesian closed category|cartesian closed]]. In fact, like all [[presheaf|presheaf categories]], it is a [[topos]]. 
 
 ### monoidal structure ##
 
