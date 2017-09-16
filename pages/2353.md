@@ -52,7 +52,7 @@ _Correspondences_ in
 
 where it is understood as a generalization of the [[join of simplicial sets]]
 and where it serves as a motivation for the study of cographs of 
-functors between [[(8,1)-category|(infinity,1)-categories]] discussed
+functors between [[(∞,1)-category|(∞,1)-categories]] discussed
 below.
 
 ### adjoint functors in terms of cographs ###
@@ -128,20 +128,20 @@ Note that under the identification of [[profunctors]] with *codiscrete cofibrati
 
 ## cographs of functors between $(\infty,1)$-categories ##
 
-In the context of [[(8,1)-category]] theory there is a good theory of [[Cartesian fibration]]s $X \to S$ and of their classification by [[(8,1)-functor]]s $S^{op} \to (\infty,1)Cat$ to the [[(8,1)-category of (8,1)-categories]] as described at [[universal fibration of (8,1)-categories]].
+In the context of [[(∞,1)-category]] theory there is a good theory of [[Cartesian fibration]]s $X \to S$ and of their classification by [[(∞,1)-functor]]s $S^{op} \to (\infty,1)Cat$ to the [[(∞,1)-category of (∞,1)-categories]] as described at [[universal fibration of (∞,1)-categories]].
 
-Accordingly, the above notion of cograph of a functor has a direct generalization to [[(8,1)-functor]]s:
+Accordingly, the above notion of cograph of a functor has a direct generalization to [[(∞,1)-functor]]s:
 
 +-- {: .un_defn}
 ###### Definition
 
-For $f : C \to D$ an [[(8,1)-functor]], identified with a morphism
+For $f : C \to D$ an [[(∞,1)-functor]], identified with a morphism
 
 $$
   \bar f : I \to (\infty,1)Cat
 $$
 
-in the [[(8,1)-category of (8,1)-categories]], it **cograph** is the [[Cartesian fibration]] $cograph(f) \to I$ classified by it. In terms of the [[universal fibration of (8,1)-categories]] this is the [[homotopy pullback]]
+in the [[(∞,1)-category of (∞,1)-categories]], it **cograph** is the [[Cartesian fibration]] $cograph(f) \to I$ classified by it. In terms of the [[universal fibration of (∞,1)-categories]] this is the [[homotopy pullback]]
 
 $$
   \array{
