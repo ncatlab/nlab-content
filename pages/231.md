@@ -40,6 +40,19 @@ There is a [[strict 2-category]] MonCat with:
 
 One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
 
+##Related notions##
+
+* [[braided monoidal category]]
+
+  * [[symmetric monoidal category]]
+
+* [[closed monoidal category]]
+
+  * [[cartesian closed category]] 
+ 
+
+* [[monoidal (infinity,1)-category]] -- see also the discussion below
+
 ##References##
 
 The definition of monoidal category can be found on [John Armstrong's blog](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [Wikipedia](http://en.wikipedia.org/wiki/Monoidal_category).
@@ -87,6 +100,8 @@ However, if we temporarily ignore the unitors and focus on the associator, we ma
 ##Relation to lax functors, orientals and descent##
 
 One can understand the structure of a monoidal category as a special simple case of the general notion of "lax $\infty$-functor", also known -- up to the issue of invertible versus non-invertible structure morphisms -- as the notion of $\infty$-categorical [[descent]] and as the notion of [[anafunctor|infinity-anafunctor]].
+
+The discussion to follow now notably links the definition of monoidal category as above with that of [[monoidal (infinity,1)-category]].
 
 This may be familiar from the special simple case of a _monoid_ in any bicategory $C$, which can be identified with a lax functor 
 
