@@ -17,13 +17,15 @@ Comma objects, however, are never the same as lax pullbacks, except of course in
 
 Zoran: giving in some version of 2-categories the same vertex (of 2-limit) or not, it is principal difference that it is not in the definition of 2-cones of such diagrams to force that the arrow to $C$ is the same as the composition $P\to A\to C$ as Toby states. The arrow to $C$ if it were the 2-limit to that diagram would disagree with $P\to A\to C$ by a 2-cell. Thus the arrow $P\to C$ is a separate datum to include in that case. So the definitions are different. Now, depending on weather we have pseudo, lax, colax, or bilimit this may have or may have not repercussions on the outcome for the vertex of the 2-limit, but this is less important. 
 
-_Toby_:  Please note my 'without loss of generality'.  The two definitions (the simplified one below, and the general limit-based one) are equivalent; specifically, each (universal) limit cone is uniquely isomorphic to one in which the arrow to $C$ is $P\to A\to C$.
+_Toby_:  Please note my 'without loss of generality'.  The two definitions (the simplified one below, and the general limit-based one) are equivalent; specifically, each (universal) limit cone is uniquely isomorphic to the one in which the arrow to $C$ is taken to be $P\to A\to C$.
 =--
 
 
 ## Definition
 
-Explicitly, a 2-pullback in a [[2-category]] is a square
+We can give a simplified explicit definition.
+
+A __$2$-pullback__ in a [[2-category]] is a square
 $$\array{P & \overset{p}{\to} &A \\
   ^q\downarrow & \cong & \downarrow^f\\
   B& \underset{g}{\to} &C }$$
