@@ -11,6 +11,8 @@ In this article we give a definition of cograph which generalizes this poset pic
 
 (Anyway, that's the basic idea; it could be made even more reader-friendly I'm sure.) 
 
+_Toby_:  Note that much of what Todd writes is already at [[cograph]].  (And what isn\'t can go there!)
+
 =--
 
 But $f$ also determines a morphism $\bar f : I \to n Cat$. The **cograph** of $f$ is the fibration classified by $\bar f$.
