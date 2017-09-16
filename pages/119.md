@@ -1,16 +1,16 @@
 #The Idea 
 
-A preorder is like a partially ordered set (or [[poset]] for short), but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  The reason is that if we think of a poset as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preorder, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
+A preorder is like a [[partial order]], but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  The reason is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preorder, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
 
 #Definition
 
-A **preorder** is a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the category of [[truth value]]s.
+A set equipped with a **preorder** is a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the category of [[truth value]]s.
 
-People who call a partially ordered set a '[[poset]]' and a totally ordered set a '[[toset]]' may enjoy calling a preorder a '[[proset]]'.  While nonstandard, this term is occasionally used here on the $n$Lab.
+People who call a partially ordered set a '[[poset]]' and a totally ordered set a '[[toset]]' may enjoy calling a preordered set a '[[proset]]'.  While nonstandard, this term is occasionally used here on the $n$Lab.
 
 #Fact
 
-Any preorder is [[equivalence|equivalent]] to a [[poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
+Any preordered set is [[equivalence|equivalent]] to a [[poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
 
 #Discussion
 
