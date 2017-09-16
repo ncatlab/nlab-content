@@ -29,7 +29,9 @@ $$
 $$
 
 the **extension** of sheaves on $U$ to sheaves on $X$.
-
++--{+.query}
+the same notation as restriction ?? what about existence 
+=--
 #Remarks#
 
 Notice the difference to the [[inverse image]] operation
