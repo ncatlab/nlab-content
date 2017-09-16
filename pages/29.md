@@ -19,6 +19,13 @@ A [[groupoid]] is precisely a [[category]] in which every morphism is isic.  Mor
 In [[n-category|higher categories]], isomorphisms generalise to [[equivalence]]s, which we expect to have only [[weak inverse]]s.
 
 
+## Examples
+
+*  A [[bijection]] is an isomorphism in [[Set]].
+*  A [[homeomorphism]] is an isomorphism in [[Top]].
+*  A [[diffeomorphism]] is an isomorphism in [[Diff]].
+
+
 [[!redirects isomorphic]]
 [[!redirects isomorphisms]]
 [[!redirects iso]]
