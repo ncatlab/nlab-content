@@ -39,7 +39,7 @@ $$
 
 in the obvious way.
 
-When $Y = \sqcup_i U_i$ comes form an an open [[cover]] $\{U_i \to X\}$ the above almost manifestly reproduces the explicit description of [[twisted bundle]]s given there. 
+When $Y = \coprod_i U_i$ comes form an an open [[cover]] $\{U_i \to X\}$ the above almost manifestly reproduces the explicit description of [[twisted bundle]]s given there. 
 
 
 # References #
