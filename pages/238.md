@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added to [[weak factorization system]] the full details of the (elementary) proof that morphisms defined by a right lifting property are stable under pullback -- 
+
   * added the theorem to [[Kan fibration]] that Kan fibrations between Kan complexes that are also weak equivalences are precisely those with the right lifting property with respect to simplex boundary inclusions
 
   * added example of fundamental $\infty$-groupoid = singular simplicial complex to [[Kan complex]]
