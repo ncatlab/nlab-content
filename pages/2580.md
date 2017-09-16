@@ -1,3 +1,9 @@
+#Contents
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 In functional analysis, a distribution (or generalized function) is a functional on a space of functions which typically is not representable by a function itself. They are often used to give a notion of derivative of a function which has no derivative in the classical sense, and to give an abstract framework in which one can describe fundamental solutions to partial differential equations. 
 
 ## Definitions 
@@ -117,3 +123,14 @@ $$S = \sum_{\alpha \in A} \partial^\alpha g_\alpha$$
 ## Applications 
 
 (Anyone want to give some?) 
+
+
+## in synthetic differential geometry 
+
+The theory of distributions may be formulated axiomatically in [[smooth topos]]es that model the axioms of [[synthetic differential geometry]] and support a suitable notion of invertible [[infinitesimal object]]s and infinitely large integers.
+
+This is discussed in chapter VII, section 3 of
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
+
+Models supporting these axioms are the toposes $\mathcal{Z}$ and $\mathcal{B}$ described there.
