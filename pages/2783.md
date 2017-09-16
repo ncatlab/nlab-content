@@ -11,7 +11,7 @@ The forgetful 2-functors
 
 have left adjoints, and in fact are [[monadic adjunction|(2-)monadic]].  Their left adjoints are called (free) regular or exact completions.
 
-In the third case the monad is [[idempotent monad|idempotent]], so the left adjoint can properly be called a [[completion]], while in the first two cases, the monad is only [[lax-idempotent monad|lax-idempotent]], so the left adjoint should technically be called a [[free completion]].  However, the phrases *regular completion* and *exact completion* are also commonly used for the first two cases.  To disambiguate the second and third cases the phrases *ex/lex completion* and *ex/reg completion* are also used, and so by analogy the first case is called *reg/lex completion*.
+In the third case the 2-monad is [[idempotent monad|idempotent]], so the left adjoint can properly be called a [[completion]], while in the first two cases, the 2-monad is only [[lax-idempotent monad|lax-idempotent]], so the left adjoint should technically be called a [[free completion]].  However, the phrases *regular completion* and *exact completion* are also commonly used for the first two cases.  To disambiguate the second and third cases the phrases *ex/lex completion* and *ex/reg completion* are also used, and so by analogy the first case is called *reg/lex completion*.
 
 In fact, the reg/lex and ex/lex completion can be applied to a category that merely has [[weak finite limits]], although in this case the sense in which the construction is "free" is more complicated.
 
@@ -146,6 +146,10 @@ On the other hand, some properties are *not* preserved by the completions.
 # Examples
 
 (to be written...)
+
+* The category $TF$ of [[torsion|torsion-free]] [[abelian groups]] is regular, but not exact.  For instance, the [[congruence]] $\{ (a,b) | a \equiv b \mod 2 \} \subseteq \mathbb{Z}\times\mathbb{Z}$ is not a kernel in $TF$.  Unsurprisingly, the ex/reg completion of $TF$ is equivalent to the category $Ab$ of all abelian groups.
+
+  Note that although $TF$ is not exact, its inclusion into $Ab$ does have a left adjoint (quotient by torsion), and thus $TF$ is cocomplete.  Herein lies a subtle trap for the unwary: since the ex/reg completion monad is idempotent, it is in particular lax-idempotent, which means that any left adjoint to the unit $C \hookrightarrow C_{ex/reg}$ is in fact a (pseudo) algebra structure; but since the monad is actually idempotent, any algebra structure is an equivalence.  Of course, the reflection $Ab \to TF$ is *not* an equivalence, which doesn't contract the general facts because this left adjoint is not a regular functor, and hence not an adjunction in the 2-category on which the monad $(-)_{ex/reg}$ lives.  In fact, it is not hard to check that $C \hookrightarrow C_{ex/reg}$ has a left adjoint in $Cat$ if and only if $C$ has [[coequalizers]] of [[congruences]] (while if it has a left adjoint in $Reg$ then it must be an equivalence).
 
 
 # References
