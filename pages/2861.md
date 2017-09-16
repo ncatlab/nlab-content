@@ -24,6 +24,8 @@ There is a [[cartesian closed category|cartesian closed]] [[category with weak e
 * $-2 \leq k \leq \infty$
   +-- {: .query}
   I would have started $k$ at $-1$.  What does Rezk\'s notion do with $k = -2$?  ---Toby
+
+  $-1$-groupoids are spaces which are either empty or contractible.  $-2$-groupoids are spaces which are contractible.  So $k=-2$ is the completely trivial case; it's included for completeness.  -- Charles
   =--
 
 as the [[category of fibrant objects]] in a [[model category]] $\Theta_n Sp_k$. The underlying [[category]] of this is the category $SPSh(\Theta_n)$ on a certain category $\Theta_n$, equipped with a model structure obtained as a left [[Bousfield localization]] of the global injective [[model structure on simplicial presheaves]].
