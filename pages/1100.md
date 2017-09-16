@@ -21,43 +21,39 @@ One can think of
 $(\infty,1)$-topoi as
 the generalization of the above situation
 from $1$ to $(\infty,1)$ 
-(recall the notion of [[(n,r)-category]] and see the general discussion at [[infinity-topos]]):
+(recall the notion of [[(n,r)-category]] and see the general discussion at [[∞-topos]]):
 
-* Working in the $(\infty,1)$-[[(infinity,1)-category|category]] 
-[[Infinity-Grpd]]
-of $(infinity,0)$-[[infinity-groupoid|categories]] 
+* Working in the [[(∞,1)-category]] 
+[[∞Grpd]]
+of [[infinity-groupoid|(∞,0)-categories]] 
 is the same as 
 doing [[topology]]. The point of 
-[[infinity-stack]]s
-is to pass to _parameterized_ 
-$(infinity,0)$-[[infinity-groupoid|categories]], 
+[[∞-stacks]]
+is to pass to _parameterized_ [[infinity-groupoid|(∞,0)-categories]], 
 namely 
-[[(infinity,1)-presheaf]] categories: 
-these [[(infinity,1)-topos|(infinity,1)-topoi]]
+[[(∞,1)-presheaf]] categories: 
+these [[(∞,1)-topoi]]
 behave much like the $(\infty,1)$-category 
-[[Infinity-Grpd]]
+[[∞Grpd]]
 but their objects are generalized 
 [[space and quantity|spaces]] 
-with higher [[homotopy|homotopies]]
+with higher [[homotopies]]
 that may carry 
 more structure, for instance they may
-be $\infty$-[[differentiable stack]]s if one considers
-[[infinity-stack]]s on [[Diff]].
-
-
-
+be $\infty$-[[differentiable stacks]] if one considers
+[[∞-stacks]] on [[Diff]].
 
 #Definition#
 
-A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(infinity,1)-category]] $X$ satisfying the following equivalent conditions:
+A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(∞,1)-category]] $X$ satisfying the following equivalent conditions:
  
 
-* $X$ is an [[(infinity,1)-category of (infinity,1)-sheaves]]: in other words, there exists a small [[(infinity,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(infinity,1)-functor]] $\bar {(-)} : PSh(S) \to X$
-from [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
+* $X$ is an [[(∞,1)-category of (∞,1)-sheaves]]: in other words, there exists a small [[(∞,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(∞,1)-functor]] $\bar {(-)} : PSh(S) \to X$
+from [[(∞,1)-presheaves]] on $X$, which has a [[(infinity,1)-fully faithful functor|fully faithful]] [[right adjoint]].
 
 * $X$ satisfies the $(\infty,1)$-categorical analogs of [[Giraud's axioms]]:
   * $X$ is [[presentable (infinity,1)-category|presentable]];
-  * [[limit in quasi-categories|(infinity,1)-colimit]]s in $X$ are universal;
+  * [[limit in quasi-categories|(∞,1)-colimits]] in $X$ are universal;
   * [[coproduct]]s in $X$ are [[disjoint coproduct|disjoint]];
   * every [[groupoid object in an (infinity,1)-category|groupoid object]] in $X$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
 
