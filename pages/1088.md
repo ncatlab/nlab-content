@@ -57,7 +57,7 @@ the [[dense monomorphism]]s are precisely the local isomorphisms which are also 
 
 #Properties#
 
-* Local isomorphisms form a left saturated [[multiplicative system]].
+* Local isomorphisms admit a left saturated [[calculus of fractions]].
 
 
 # Sheafification #
