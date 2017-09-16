@@ -1,5 +1,3 @@
-See [[monadic functor]].
-
-category: delete
-
+&lt; [[monadic]]
 [[!redirects history: monadic]]
+[[!redirects monadic -- history]]
