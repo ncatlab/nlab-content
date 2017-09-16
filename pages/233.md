@@ -64,4 +64,7 @@ The category $R Mod$ has $R$-modules as objects and $R$-module homomorphisms as 
 
 [[Sridhar Ramesh|Sridhar]]: Given that left modules on rings are the covariant functors while right modules on rings are the contravariant functors, why does the above definition of a module on a monoid make the left modules the contravariant functors and the right modules the covariant functors? Is this actually the conflicting convention?
 
+_Toby_:  One problem is that this mixes with the conventions that one adopts for [[composition]].  What one person thinks is left multiplication, another will think is right multiplication.  I would rather talk about left/right modules for monoids or rings, then talk about covariant/contravariant functors from categories or additive categories.
+
+
 [[!redirects modules]]
