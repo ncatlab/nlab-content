@@ -11,3 +11,7 @@ People DO say "let's use elements in the abelian category for this proof", but t
 
 Sorry, I understand.  I thought that this was just a grammar error, like leaving out 'an'.  Now that I look at it again, it\'s obviously 'in', and can\'t imagine why I thought that it should be 'of'.  I\'ll fix it.  ---Toby
 =--
+
+
+[[!redirects element of an abelian category]]
+[[!redirects element in abelian category]]
