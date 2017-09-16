@@ -244,7 +244,10 @@ $$
 More explicitly, if $\hat X_n = \coprod_{i_n} U_{i_n}$ so that $\hat X = \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} U_{i_n}\right)$ such that all $U_{i_n}$ are connected, then $\Pi(X)$ is the simplicial set
 
 $$
-  \Pi(X) = \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} *\right)
+  \Pi : X
+  \mapsto \hat X =  \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} U_{i_n}\right)
+   \mapsto 
+   \int^{[n] \in \Delta} \Delta^n \left( \coprod_{i_n} *\right)
   \,.
 $$
 
@@ -254,6 +257,9 @@ This is, slightly generalized, the construction discussed on page 18 of
 
 > For this to give the right answer, we will need to assume moreover that $Sh_{(\infty,1)}(C)$ is a [[locally contractible (∞,1)-topos]], where each representable $U_{i_n}$ above is not only connected, but contractible in that $\Pi(U_{i_n}) \simeq *$. More on that later. See the examples on this below, in particular the Artin-Mazur theorem.
 
+For the case $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ this construction of $\Pi$ is described for instance on p. 25 of
+
+* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
 
 
