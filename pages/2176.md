@@ -30,7 +30,9 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" markdown="1" style="text-align:center; width:90%">
 
-<caption><font size="+2">$\text{Table 1.  Syntax and Semantics of a Calculus for Propositional Logic}$</font></caption>
+<caption><font size="+2">
+$\text{Table 1.} \quad \text{Syntax and Semantics of a Calculus for Propositional Logic}$
+</font></caption>
 
 <tr style="background:#f0f0ff">
 <td><font size="+2">$\text{Graph}$</font></td>
@@ -684,7 +686,7 @@ Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two
 
 <table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
 <caption><font size="+2">
-$\text{Table A1.  Propositional Forms on Two Variables}$
+$\text{Table A1.} \quad \text{Propositional Forms on Two Variables}$
 </font></caption>
 <td>
 $\array{
@@ -822,7 +824,7 @@ f_{15}
 
 <table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
 <caption><font size="+2">
-$\text{Table A2.  Boolean Functions of Two Variables by Group Orbits}$
+$\text{Table A2.} \quad \text{Boolean Functions of Two Variables by Group Orbits}$
 </font></caption>
 <td>
 $\array{
@@ -958,21 +960,22 @@ f_{15}
 
 ## Transforms Expanded over Differential Features ##
 
-The next four Tables expand the expressions of $\mathop{E}f$ and $\mathop{D}f$ in two different ways, for each of the sixteen functions $f$ of abstract type $\mathbb{B} \:\times\: \mathbb{B} \to \mathbb{B}$.  Notice that the functions are arranged according to their $G$-orbits under the action of the group $G = \{ \mathop{T}_{00}, \mathop{T}_{01}, \mathop{T}_{10}, \mathop{T}_{11} \} \cong V_4$.
+The next four Tables expand the expressions of $\mathop{E}f$ and $\mathop{D}f$ in two different ways, for each of the sixteen functions $f : \mathbb{B} \:\times\: \mathbb{B} \to \mathbb{B}$.  Notice that the functions are arranged by their $G$-orbits under the action of the group $G = \{ \mathop{T}_{00}, \mathop{T}_{01}, \mathop{T}_{10}, \mathop{T}_{11} \} \cong V_4$.
 
 <table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1" style="text-align:center">
 <caption><font size="+2">
-$\text{Table A3.}\: \mathop{E}f \:\text{Expanded Over Differential Features}\; \{ \mathop{d}p, \mathop{d}q \}$
+$\text{Table A3.} \quad \mathop{E}f \:\text{Expanded Over Differential Features}\: \{ \mathop{d}p, \mathop{d}q \}$
 </font></caption>
 <td>
 $\array{
 \arrayopts{
 \collines{solid}
 \rowlines{solid solid none none none solid none solid none solid none solid none none none solid}}
-&amp; \phantom{xxxx} f \phantom{xxxxx}
+&amp;
+\phantom{xxxx} f \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\array{\mathop{T}_{11} f \\ \mathop{E} f|_{\mathop{d}p \: \mathop{d}q}}
+\array{\mathop{T}_{11} f \\ \mathop{E} f|_{\mathop{d}p \: \mathop{d}q} }
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
@@ -984,7 +987,7 @@ $\array{
 \phantom{xxxx}
 &amp;
 \phantom{xxxx}
-\array{\mathop{T}_{00} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2997;}} }
+\array{\mathop{T}_{00} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}} }
 \phantom{xxxx}
 \\
 f_{0}
@@ -1010,7 +1013,7 @@ f_{2}
 \\
 f_{4}
 &amp; p \: \text{&#x2997;} q \text{&#x2998;}
-&amp; \text{&#x2997;} p \text{&#x2998} q
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
 &amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
 &amp; p \: q
 &amp; p \: \text{&#x2997;} q \text{&#x2998;}
@@ -1024,72 +1027,72 @@ f_{8}
 \\
 f_{3}
 &amp; \text{&#x2997;} p \text{&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; p
+&amp; p
+&amp; \text{&#x2997;} p \text{&#x2998;}
 &amp; \text{&#x2997;} p \text{&#x2998;}
 \\
 f_{12}
 &amp; p
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; p
 &amp; p
 \\
 f_{6}
 &amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
 \\
 f_{9}
 &amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
 &amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
 \\
 f_{5}
 &amp; \text{&#x2997;} q \text{&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
 &amp; \text{&#x2997;} q \text{&#x2998;}
 \\
 f_{10}
 &amp; q
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
 &amp; q
 \\
 f_{7}
 &amp; \text{&#x2997;} p \: q \text{&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;} p \: q \text{&#x2998;}
 \\
 f_{11}
 &amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
 &amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
 \\
 f_{13}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
 \\
 f_{14}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
 \\
 f_{15}
@@ -1098,6 +1101,12 @@ f_{15}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+\\
+\cellopts{\colspan{2}} \text{Fixed Point Total}
+&amp;  4
+&amp;  4
+&amp;  4
+&amp; 16
 }$
 </td>
 </table>
