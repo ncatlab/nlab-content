@@ -1,4 +1,4 @@
-An $n$-Lie algebra is defined to be an algebraic structure which
+An **$n$-Lie algebra** is defined to be an algebraic structure which
 
 * looks formally like the special case of an [[L-infinity-algebra]] for which only the $n$-ary bracket $D_n$ is non-vanishing (see there);
 
@@ -27,8 +27,12 @@ which sparked a tremendous amount of [activity](http://people.physik.hu-berlin.d
 
 * [Lie 3-Algebras on the Membrane](http://golem.ph.utexas.edu/category/2008/11/linfinity_algebras_on_the_memb.html)
 
-for further details and links.
+for further details and links. And see this blog discussion
 
-Further re-inventions of the concept in this context are appearing. The latest is 
+* [3-Algebra and Chern-Simons terms](http://golem.ph.utexas.edu/category/2009/03/twisted_differential_string_an.html#c022696)
+
+for discussion about the relation to proper $L_\infty$-algebraic formalism.
+
+Further re-inventions of the concept of $n$-Lie algebras in this context are appearing. For instance in 
 
 * Tamar Friedman, _Orbifold singularities, the LATKe, and Yang-Mills with Matter_ ([arXiv](http://arxiv.org/abs/0806.0024))
