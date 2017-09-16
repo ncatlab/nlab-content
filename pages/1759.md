@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-04
 
+*  [[Toby Bartels]]:
+   *  Put some stuff at [[equality]], but there is much more that could and should be said there.
+   *  Added some pretty broad examples to [[evil]].
+
 * [[Tim]]: I have added new references to [[distributor]] and [[Grothendieck fibration]].
 
 *  [[Toby Bartels]] added a bit to the scandalously short page [[isomorphism]].
