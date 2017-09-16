@@ -15,6 +15,10 @@ The term _2-category_ implicitly refers to a [[geometric shapes for higher struc
 [[Eric]]: Is it possible to think of a strict globular 2-category to be a special case of a strict [[n-fold category|2-fold category]]? In other words, is a strict globular n-category a degenerate strict $n$-fold category?
 =--
 
+Notice that _[[double category]]_ is another term for _[[n-fold category|2-fold category]]_ : strict 2-categories may be identified with those strict 2-fold/double categories whose category of vertical morphisms is trivial.
+
+(And similarly, strict globular [[n-category|n-categories]] may be identified with those [[n-fold category|n-fold categories]] for which all cube faces "in one direction" are trivial. A similar statement for weak $n$-categories is to be expected, but little seems to be known about this.)
+
 ##Definition
 
 A _strict 2-category_, often called simply a _2-category_, is a [[enriched category|category enriched over]] [[Cat]], where $Cat$ is treated as the [[1-category]] of [[strict categories]]. 
