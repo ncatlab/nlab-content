@@ -73,7 +73,7 @@ More details on the [[Nisnevich site]], the [[model structure on simplicial pres
 
 The [[(∞,1)-topos]] $\mathbf{H} = Sh_{(\infty,1)}(Nis)$ naturally is a [[lined topos]] with line object $\mathbb{A}^1$ that considered in [[A1-homotopy theory]].
  
-Accordingly, by the general reasoning discussed at [Cohomology -- Gradings](http://ncatlab.org/nlab/show/cohomology#Grading), in $\mathbf{H}$ there are two kinds of 1-spheres
+Accordingly, by the general reasoning discussed at [Cohomology -- Gradings](http://ncatlab.org/nlab/show/cohomology#Grading), in $\mathbf{H}$ there are two kinds of 1-[[spheres]]
 
 * the **categorical 1-sphere** $S^1 = \Delta^1/\partial \Delta^1$;
 
