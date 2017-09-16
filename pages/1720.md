@@ -18,7 +18,7 @@ $$
   \array{
     A \times_C B &\to& A
     \\
-    \;\;\downarrow^{\Rightarrow h^* f \in W} && \downarrow^{f \in W}
+    \;\;\downarrow^{\mathrlap{\Rightarrow h^* f \in W}} && \downarrow^{\mathrlap{f \in W}}
     \\
     C &\stackrel{h \in F}{\to}& B
   }
