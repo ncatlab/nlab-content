@@ -85,7 +85,7 @@ This story generalizes straightforwardly from [[presheaf|presheaves]] with value
 
 * A pedagogical discussion of generalized spaces (from this perspective) is at
 
-  * [[heuristic introduction to sheaves, cohomology and higher stacks]]
+  * [[motivation for sheaves, cohomology and higher stacks]]
 
 * The idea of a _space equipped with a structure sheaf_ generalizes in the above sense to a mix of a copresheaf and a presheaf, see [[structured generalized space]].
 
