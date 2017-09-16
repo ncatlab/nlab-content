@@ -26,4 +26,4 @@ A collection of articles by Sjoerd Crans is here:
 * [[model structure on presheaves of simplicial groupoids]]
 
 
-category: biography
+category: people
