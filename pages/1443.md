@@ -1,6 +1,6 @@
 #Idea#
 
-A _category of local models_ is a category whose objects play the role of particularly well-controled test spaces in the sense of [[space and quantity]]. The major notions of spaces, such as topological spaces, algebraic spaces, smooth manifolds, are spaces modeled on a _category of local models in the sense of [[structured generalized space]]s.
+A _category of local models_ is a category whose objects play the role of particularly well-controled test spaces in the sense of [[space and quantity]]. The major notions of spaces, such as [[topological space]]s, [[algebraic space]]s, smooth [[manifold]]s, are spaces modeled on a _category of local models in the sense of [[structured generalized space]]s.
 
 #Definition#
 
