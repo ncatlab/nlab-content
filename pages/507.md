@@ -195,6 +195,10 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[Grothendieck topos]]
 
+  * [[Giraud's theorem]]
+
+
+
 ### C3 Classes of geometric morphisms
 
 #### C3.3 Locally connected morphisms
