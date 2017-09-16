@@ -1,3 +1,2 @@
-See [[dg-category]].
-
-category: delete
+&lt; [[differential graded category]]
+[[!redirects differential graded category -- history]]
