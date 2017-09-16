@@ -18,10 +18,12 @@ The third  paper below sets up an equivalence between globular $\omega$-categori
 
 A detailed discussion is in
 
-* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([web](http://crans.fol.nl/papers/thten.html))
+* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
 
 +--{: .query}
 [[Mike Shulman|Mike]]: The above link appears to be broken.
+
+_Toby_:  Found a copy.
 =--
 
 * R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1-33.
