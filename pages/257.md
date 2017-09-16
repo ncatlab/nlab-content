@@ -14,13 +14,16 @@
 
 #Idea#
 
-A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a [[category with weak equivalences]] that is equipped with extra structure which  facilitates the computation and handling of its [[simplicial localization]] that yields the [[(∞,1)-category]] _modeled_ by the model category.
+A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing homotopy theory.    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
 
-In this sense model categories are _models for [[homotopy theory]]_ .
+So, what is a model category?  Roughly speaking, it is 
+a [[category with weak equivalences]] that is equipped with extra structure which  facilitates the computation and handling of its [[simplicial localization]].  This simplicial localization is an [[(∞,1)-category]]: it keeps track of objects in the model category, morphisms between objects, homotopies between maps, homotopies between homotopies, and so on, _ad infinitum_.  We say this [[(∞,1)-category]] is _modeled_ by the model category.
+
+In this sense model categories are 'models for [[homotopy theory]]'.
 
 Recall that the idea of [[category with weak equivalences|categories with weak equivalences]] is to work just with 1-morphisms instead of with $n$-morphisms for all $n$, but to carry around extra information to remember which 1-morphisms are really [[equivalence|equivalences]] in the full [[(∞,1)-category]], i.e. [[isomorphism]]s in the corresponding [[homotopy category]].
 
-In a model category the data of weak equivalences is accompanied by further auxiliary data that helps to compute the [[(∞,1)-categorical hom-space]], the [[homotopy category]] and [[derived functor]]s. See [[homotopy theory]] for more on that.
+In a model category the data of weak equivalences is accompanied by further auxiliary data that helps to compute the [[(∞,1)-categorical hom-space]], the [[homotopy category]] and [[derived functor|derived functors]]. See [[homotopy theory]] for more on that.
 
 If the model category happens to be a [[combinatorial simplicial model category]] $\mathbf{A}$ it [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category|category]] $\mathbf{A}^\circ$ in the form of a [[simplicially enriched category]] given by the full [[SSet]]-[[enriched category|enriched subcategory]] on objects that are both fibrant and cofibrant.
 
@@ -29,7 +32,7 @@ If the model category happens to be a [[combinatorial simplicial model category]
 
 A **model structure** on a category $K$ consists of three distinguished classes of morphisms - the **cofibrations** $C$, the **fibrations** $F$, and the **weak equivalences** $W$ - satisfying the following two properties.
 
-(i) $W$ is closed under retracts in the arrow category makes $K$ a [[category with weak equivalences]] in that it is closed under **2-out-of-3** : given a composable pair of morphisms $f,g$ if two of three of $f, g, g f$ are in $W$, so is the third. 
+(i) $W$ is closed under retracts in the arrow category, and it makes $K$ a [[category with weak equivalences]] meaning that it is closed under **2-out-of-3**: given a composable pair of morphisms $f,g$ if two of three of $f, g, g f$ are in $W$, so is the third. 
 
 (ii) $(C, F \cap W)$ and $(C \cap W, F)$ are two [[weak factorization system|weak factorization systems]] on $K$.
 
