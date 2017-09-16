@@ -1,3 +1,2 @@
-See [[infinity-stack]].
-
-category: redirect
+&lt; [[infinity stack]]
+[[!redirects infinity stack -- history]]
