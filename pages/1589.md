@@ -11,6 +11,11 @@ This entry collects material on the Oberwolfach workshop
 
 * ID:         0924
 
+Here are some scanned notes of talks from Bruce (not always complete!):
+
+* Christoph Schweigert, Monday morning 9.15. CFT and algebra in braided tensor categories I. [[talk1.pdf:file]]
+* Ingo Runkel, Monday morning 11.15. CFT and algebra in braided tensor categories II. [[talk2.pdf:file]]
+
 
 #Monday, June 8#
 
