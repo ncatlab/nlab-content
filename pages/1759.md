@@ -14,6 +14,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-01
 
+* [[Urs Schreiber|Urs]]
+
+  * proudly presenting what is now the widest (horizontally speaking) $n$Lab entry as yet: at [[model structure on simplicial presheaves]] I added a section "Map" where I draw a big diagram that indicates at least part of the collection of model structures, their interrelation, definition and authors
+
+  * replied at [[delooping]], at [[group]], added a bit at [[Notation]]
+
+  * moved the key statement of [[Toby Bartels|Toby]]'s remark to the very beginning of [[group]] 
+
+
 *  [[Toby Bartels]]:
    *  [[Andrew Stacey]] may be interested to see how I\'ve changed the formatting of the goal box at [[Froelicher space]].
    *  Incorporated Zoran\'s new references at [[principal 2-bundle]] into the text.
