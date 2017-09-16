@@ -121,7 +121,7 @@ $$
   \mathbf{B}G \to \mathbf{B}AUT(K)
 $$
 
-correspond to in terms of claassical group data, using the relation between [[strict 2-group]]s and [[crossed module]]s that is spelled out in detail at [strict 2-group - in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules).
+correspond to in terms of claassical group data, using the relation between [[strict 2-group]]s and [[crossed module]]s that is spelled out in detail at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules).
 
 For making the translation we follow the **convention LB** there.
 
@@ -159,7 +159,7 @@ Degree 2 cocycles of nonabelian group cohomology on $G$ with coefficients in $K$
 +-- {: .proof}
 ###### Proof
 
-Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $(A \stackrel{Ad}{\to} Aut(K))$ in the _convention L B_ as described at [strict 2-group - in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) to translate the relevant diagrams -- which are of the sort spelled out in great detail at [[group cohomology]]: the first three items of the above describe the maps
+Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $(A \stackrel{Ad}{\to} Aut(K))$ in the _convention L B_ as described at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) to translate the relevant diagrams -- which are of the sort spelled out in great detail at [[group cohomology]]: the first three items of the above describe the maps
 
 $$
   (\psi, \chi) : 
@@ -405,6 +405,9 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
     \,.
   $$
 
-Translating these diagrams into forumas using the _convention LB_ as described at [strict 2-group - in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) yields the given formulas.
+Translating these diagrams into forumas using the _convention LB_ as described at [strict 2-group -- in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) yields the given formulas.
 
 =--
+
+
+[[!redirects nonabelian group cohmology]]
