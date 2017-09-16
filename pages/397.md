@@ -42,6 +42,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Reid Barton]]
 * [[Richard Body]]
 * [[Ronnie Brown]]
+* [[Sebastian Thomas]]
 * [[Simon Willerton]]
 * [[Stefan Forcey]]
 * [[Thomas Nikolaus]]
