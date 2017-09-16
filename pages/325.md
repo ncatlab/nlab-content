@@ -53,3 +53,5 @@ for the definition in enriched category theory see page 12 of
 
 
 [[!redirects opposite categories]]
+[[!redirects dual category]]
+[[!redirects dual categories]]
