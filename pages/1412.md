@@ -23,7 +23,7 @@ the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such tha
 of $X$ for every natural number $n$: the $(n+1)$st 
 _integral cohomology group_ of $X$ -- and all these groups are naturally
 realized in terms of homotopy classes of maps from $X$ into 
-some topological space -- called $K(\mathbb{Z}, n+1)$ or $\mathcal{B}^{n} U(1)$ -- and again each element in these groups can be identified with a certain geometric structure living over $X$, called a circle $n$-bundle or $(n-1)$-[[gerbe]]: $[X, \mathcal{B}^{n} U(1)] = \{ $circle $n$-bundles on $X \}/{\sim}$.
+some topological space -- called the [[Eilenberg-MacLane space]]s $K(\mathbb{Z}, n+1)$ or $\mathcal{B}^{n} U(1)$ -- and again each element in these groups can be identified with a certain geometric structure living over $X$, called a circle $n$-bundle or $(n-1)$-[[gerbe]]: $[X, \mathcal{B}^{n} U(1)] = \{ $circle $n$-bundles on $X \}/{\sim}$.
 
 So these cohomology groups encode a lot of interesting information about topological spaces; but there is some useful information about a space, which is not
 encoded in maps from it to another topological space: 
@@ -42,12 +42,13 @@ $$
   }
 $$
 
-  * this is the point where these considerations become of interest for [[physics]]: there bundles with connection, and then $n$-bundles, or $(n-1)$-gerbes, with connection encode _gauge fields_ such as the electromagnetic field.
+  * this is the point where these considerations become of interest for [[physics]]: there [[bundle]]s with [[connection on a bundle|connection]], and then [[principal infinity-bundle|n-bundles]], or $(n-1)$-[[gerbe]]s, with connection encode _gauge fields_ such as the electromagnetic field.
 
-  * you might guess that there is a smooth manifold classifying smooth circle bundles with connection -- but there is not, not unless one stretches the meaning of _manifold_ and of _space_ in general a bit and come up  maybe we just need a slightly more flexible notion of what "space" should mean.
+  * you might guess that there is a smooth manifold classifying smooth circle bundles with connection -- but there is not, not unless one stretches the meaning of _manifold_ and of _space_ in general a bit 
+
+  * so maybe we just need a slightly more flexible notion of what "space" should mean.
  
-* the generalization of the notion of _space_ which does
- accomplish this: the notion of a [[sheaf]]
+* the generalization of the notion of [[space and quantity|space]] which does accomplish this: the notion of a [[sheaf]]
 
   * (there is a very general abstract nonsense way to understand [[sheaf|sheaves]] as generalized spaces in the context of a very general abstract [[duality]] between the notions of  [[space and quantity]]. The following is an informal way to understand this).
 
