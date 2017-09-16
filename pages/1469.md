@@ -39,6 +39,7 @@ Zoran: We are still not sure if this is true (you keep saying this) but I am not
 
 [[Urs Schreiber]]: this is prop 4.2.9 in [[Structured Spaces]], currently recalled on the page [[derived scheme]].
 
+Zoran: Good point, but not entirely satisfactory. This proposition just says there is an embedding of categories. But this embedding does not respect limits (what is a good point for derived algebraic geometry!); thus it implies a different geometric picture. Thus in that full sense it is not true that classical AG of schemes and algebraic spaces is a subset of derived AG in strong sense. 
 =--
 
 
@@ -51,6 +52,8 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 Zoran: so what is SGA IV about ?
 
 [[Urs Schreiber]]: please write a paragraph on what it is about. 
+
+Zoran: I am not competent enough in topos theory. 
 =--
 
  leading to an unfortunate and unnecessary gap between for instance the fields of algebraic geometry and [[differential geometry]].
