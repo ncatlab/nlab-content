@@ -2,8 +2,12 @@
 [[!include (infinity,1)-topos - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+
+## Idea
 
 A _group object_ in an [[(∞,1)-category]] generalizes and unifies two familiar concepts:
 
@@ -51,7 +55,7 @@ Therefore groupoid objects in an $(\infty,1)$-category play a central role in th
 Notice that one of the four characterizing properties of an [[(∞,1)-topos]] is that every groupoid object is effective. 
 
 
-#Details#
+## Details
 
 
 In section 6.1.2 of
