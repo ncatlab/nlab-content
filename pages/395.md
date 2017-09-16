@@ -360,7 +360,7 @@ Where the
 
   * and that the colimit is over a [[filtered category]] 
 
-  * and that filtered colimits commute with finite limits;
+  * and that [[limits and colimits by example|filtered colimits commute with finite limits]];
 
 * the sixth step uses that the set $\Delta([k],[1])\times \Delta([k],[n])$ is finite, hence a [[compact object]] so that the colimit can be taken into the hom;
 
