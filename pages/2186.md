@@ -100,11 +100,17 @@ In this context, the [[transfer principle]] is the fact that the functor $^*(-)$
 A different topos-theoretic construction is to consider the topos of sheaves on a category of filters.  This topos models the [[internal set]] theory of Nelson, a more axiomatic approach to nonstandard analysis.
 
 
-### in Synthetic Differential Geometry {#ToposModels}
+### In Synthetic Differential Geometry {#ToposModels}
 
-A few aspects of nonstandard analysis can be realized in some models of [[synthetic differential geometry]].  Most of the infinitesimals considered there are nilpotent, hence not invertible, but there are some models that do contain invertible infinitesimals and hence also 'infinite' numbers.  The transfer principle is not, in general, valid, but in some cases a version of it can be proven applying only to statements of a very limit form, and a few of the ideas of nonstandard analysis can sometimes be carried over.
+A few aspects of nonstandard analysis can be realized in some models of [[synthetic differential geometry]].  Most of the infinitesimals considered there are nilpotent, hence not invertible, but there are some models that do contain invertible infinitesimals and hence also 'infinite' numbers.  The transfer principle is not, in general, valid, but in some cases a version of it can be proven applying only to statements of a very limited form, and a few of the ideas of nonstandard analysis can sometimes be carried over.
 
-An intuitive idea for the relationship is indicated at [[smooth natural numbers]].  Namely, in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized elements]] $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
+Two models with invertible infinitesimals are the [[smooth topos]]es called $\mathcal{Z}$ and $\mathcal{B}$ in
+
+* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
+
+These are related to the smooth topos called $\mathcal{G}$ there, which has nilpotent but no invertible infinintesimal, by a transfer theorem (chapter VII, section 4) valid for all [[coherent formula]]s.
+
+An idea for the relationship at the level of models is indicated at [[smooth natural numbers]].  Namely, in a [[topos]] $\mathcal{T}$ with a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$, the object $R \in \mathcal{T}$ which is the image of  $\mathbb{R}$ under this embedding has [[generalized elements]] $\rho \in R$ defined on the "domain of definition" $\mathbb{N}$, namely morphisms $\mathbb{N} \to R$.  These are sequences of real numbers as above.
 
 Very roughly, this is the mechanism by which aspects of nonstandard analysis are realized in such [[topos]]es.
 
@@ -120,11 +126,7 @@ The _generic non-standard natural number_ is the [[generalized element]] of $N$ 
 The ring $C^\infty(\mathbb{N})/NullTail$ here is a quotient ring of sequences as above, where two sequences are identified if they agree above some integer. So $\ell C^\infty(\mathbb{N})/NullTail$ is the [[smooth locus]] whose function algebra is similar to a nonstandard extension of $\mathbb{R}$.
 
 
-For details see chapter VI of
-
-* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
-
-The generic non-standard natural number is discussed on page 252.
+The generic non-standard natural number is discussed on page 252 of the above book.
 
 #References#
 
