@@ -26,9 +26,9 @@ Given any point $a$ and neighbourhood $U$ of $a$, there exist a neighbourhood $W
 =--
 +-- {: .proof}
 ###### Proof of equivalence
-Find $V$ and $G$ as above.  Now apply the regularity axiom to $x$ and the interior $Int(V)$ of $V$ to get $W$ and $H$.  We have $W \cap H = \empty$, so $Cl(W) \cap H = \empty$ since $H$ is open.  Since $Int(V) \cup H = X$, we get $Cl(W) \subseteq Int(V)$.  Meanwhile, $V \cap G = \empty$, so $Int(V) \cap Cl(G) = \empty$.  Therefore, $Cl(W) \cap Cl(G) = \empty$.  (We already have that $U \cup G = X$.)
+Find $V$ and $G$ as above.  Now apply the regularity axiom to $a$ and the interior $Int(V)$ of $V$ to get $W$ (and $H$).
 =--
-In terms of the classical language of separation axioms, this says that $x$ and $F$ are separated by *closed* neighbourhoods.
+In terms of the classical language of separation axioms, this says that $a$ and $F$ are separated by *closed* neighbourhoods.
 
 Sometimes one includes in the definition that a regular space must be $T_0$:
 +-- {: .un_defn}
@@ -44,19 +44,15 @@ Every $T_3$ space is [[Hausdorff space|Hausdorff]].
 =--
 +-- {: .proof}
 ###### Proof
-...
+Suppose every neighbourhood of $a$ meets every neighbourhood of $b$; by $T_0$ (and symmetry), it\'s enough to show that each neighbourhood $U$ of $a$ is a neighbourhood of $b$.  Use regularity to get $V$ and $G$.  Then $G$ cannot be a neighbourhood of $b$, so $U$ is.
 =--
-In light of this, a less ambiguous term for a $T_3$ space is a __regular Hausdorff space__.
+Since every Hausdorff space is $T_0$, a less ambiguous term for a $T_3$ space is a __regular Hausdorff space__.
 
 
-It is possible to describe the regularity condition fairly simply entirely in terms of the algebra of open sets.  First notice the relevance above of the condition that $Cl(A) \subset B$ (for open $A, B$); we write $A \subset\subset B$ in that case and say that $A$ is __well inside__ $B$.  We now rewrite this condition in terms of open sets and regularity in terms of this condition.
+It is possible to describe the regularity condition fairly simply entirely in terms of the algebra of open sets.  First notice the relevance above of the condition that $Cl(V) \subset U$; we write $V \subset\subset U$ in that case and say that $V$ is __well inside__ $U$.  We now rewrite this condition in terms of open sets and regularity in terms of this condition.
 +-- {: .num_defn #locale}
 ###### Definition
-Given open sets $A, B$, $A \subset\subset B$ iff there exists an open set $C$ such that $A \cap C = \empty$ but $B \cap C = X$.  Then $X$ is regular iff, given any open set $U$, $U$ is the union of all of the open sets that are well inside $U$.
-=--
-+-- {: .proof}
-###### Proof of equivalence
-...
+Given sets $U, V$, $V \subset\subset U$ iff there exists an open set $G$ such that $V \cap G = \empty$ but $U \cup G = X$.  Then $X$ is regular iff, given any open set $U$, $U$ is the union of all of the open sets that are well inside $U$.
 =--
 This definition is suitable for [[locales]].  As the definition of a Hausdroff locale is rather more complicated, one often speaks of compact regular locales where classically one would have spoken of [[compact Hausdorff space]]s.  (The theorem that compact regular $T_0$ spaces and compact Hausdorff spaces are the same works also for locales, and every locale is $T_0$, so compact regular locales and compact Hausdorff locales are the same.)
 
@@ -67,10 +63,6 @@ This is enough to characterise regular spaces, as follows:
 +-- {: .num_defn #basis}
 ###### Definition
 Given a neighbourhood $U$ of $x$, there is a closed neighbourhood of $x$ that is contained in $U$.  Equivalently, $x$ has a regular open neighbourhood contained in $U$.  In other words, the closed neighbourhoods of $x$, or equivalently the regular open neighbourhoods of $x$, form a local base (a base of the [[neighbourhood filter]]) at $x$.
-=--
-+-- {: .proof}
-###### Proof of equivalence
-...
 =--
 
 This suggests a slightly weaker condition, that of a __semiregular space__:
