@@ -12,8 +12,8 @@ A **zero object**, or **null object**, is an [[object]] of a [[category]] that i
 
 * For every category $C$ with a [[terminal object]] $pt$ the [[over category|under category]] $pt \downarrow C$ of [[pointed object]]s in $C$ has a zero object: the morphism $Id_{pt}$.
 
-* In a category with a zero object 0, there is always a canonical morphism from any object $A$ to any other object $B$ called the _[[zero morphism]]_, given by the composite $A\to 0 \to B$. Thus, such a category becomes [[enriched category|enriched]] over pointed sets.
+* In any category [[enriched category|enriched]] over pointed sets or abelian groups, any initial _or_ terminal object is automatically a zero object.  This is a special case of a [[Cauchy limit]].
 
-* Conversely, in any category [[enriched category|enriched]] over pointed sets or abelian groups, any initial _or_ terminal object is automatically a zero object.  This is a special case of a [[Cauchy limit]].
+# Consequences #
 
-
+In a category with a zero object 0, there is always a canonical morphism from any object $A$ to any other object $B$ called the _[[zero morphism]]_, given by the composite $A\to 0 \to B$. Thus, such a category becomes [[enriched category|enriched]] over pointed sets, a partial converse to the last example above.
