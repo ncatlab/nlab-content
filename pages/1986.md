@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-19
 
+* [[Lab Elf|Lab Elf (golf department)]]: added an entry at the [[HowTo| How To]] on how to put parentheses (and other "unsafe" characters) in links.
+
 * [[David Roberts]]: comment at [[category theory]] - nothing substantial, just adding my voice to Toby's comment.
 
 *  [[Omar Antolín-Camarena]]: added a section to [[adjoint functor theorem]] about the version for presentable (∞,1)-categories.
