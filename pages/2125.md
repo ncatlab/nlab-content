@@ -119,6 +119,8 @@ This article shows that the inverse $\Xi$ from chain complexes to simplicial abe
 
 +-- {: .standout}
 
+[[Urs Schreiber]]:
+
 We claim to show that the [[Moore complex|Moore cochain complex functor]]
 
 $$
