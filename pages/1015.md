@@ -26,7 +26,7 @@ theory__:  set theory as [[foundations]] for all of mathematics.  This
 is what Frege proposed (although he failed through inconsistency);
 Ernst Zermelo is credited with the first consistent foundational
 set-theory.  A variation of Zermelo\'s system (developed by Fraenkel
-and Skolem and called Zermelo--Fraenkel set theory or ZFC) is the
+and Skolem and called Zermelo--Fraenkel set theory or [[ZFC]]) is the
 orthodox foundations today, although it needs to be supplemented by
 [[Grothendieck universes]] (or something along those lines) to handle
 modern [[category theory]].
@@ -161,7 +161,7 @@ Thus, elements of different sets cannot be compared (by default).  Among categor
 it\'s popular to state the axioms of a structural set theory by
 specifying elementary properties of [[Set|the category of sets]]; the
 orthodoxy here (to the extent that there is one) is probably Bill
-Lawvere\'s [[ETCS]].  It is weaker than ZFC and must be supplemented
+Lawvere\'s [[ETCS]].  It is weaker than [[ZFC]] and must be supplemented
 to handle some esoteric parts of modern mathematics, although it
 suffices for most everyday uses.  Another structural set theory, which
 is stronger than ETCS and less closely tied to category theory, is
@@ -220,7 +220,7 @@ should be a [[pretopos]].
 # Remarks #
 
 * There is also [[algebraic set theory]], in which a material set
-theory (such as ZFC) is interpreted in the [[internal logic]] of some
+theory is interpreted in the [[internal logic]] of some
 [[ambient category]], often called a "category of classes".
 
 
