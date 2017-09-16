@@ -6,6 +6,7 @@ The standard stuff:
 
 * [[stuff, structure, property]]
 
+
 #Generalization to $\infty$-categories#
 
 ## $k$-surjectivity##
@@ -48,22 +49,28 @@ $$
 $$
 (which commutes due to the functoriality axioms of $f$) is an [[epimorphism]].
 
+If you interpret $C_k$ and $P_k$ as sets and take 'epimorphim' in a strict sense (the sense in [[Set]], a [[surjection]]), then you have a __strictly $k$-surjective functor__.  But if you interpret $C_k$ and $P_k$ as $\infty$-categories or $\infty$-groupoids and take 'epimorphism' in a weak sense (the [[homotopy limit|homotopy]] sense from $\infty$-[[infinity-Grpd|Grpd]]), then you have an __essentially $k$-surjective functor__; equivalently, project $C_k$ and $P_k$ to $\omega$-[[equivalence]]-classes before testing surjectivity.  A functor is essentially $k$-surjective if and only if it is equivalent to some strictly $k$-surjective functor, so essential $k$-surjectivity is the non-[[evil]] notion.
 
 
-**Proposition** For $C$ and $D$ 1-categories we have
++-- {: .un_prop}
+###### Proposition
 
- 1. ($f$ is 0-surjective) $\Leftrightarrow$
-    ($f$ is surjective on objects)
+For $C$ and $D$ [[categories]] we have
 
- 2. ($f$ is 1-surjective) $\Leftrightarrow$ ($f$ is [[full functor|full]])
-
- 3. ($f$ is 2-surjective) $\Leftrightarrow$ ($f$ is [[faithful functor|faithful]])
+ 1. $f$ is (essentially) $0$-surjective $\Leftrightarrow$
+    $f$ is [[essentially surjective functor|(essentially) surjective on objects]];
+ 2. $f$ is (essentially) $1$-surjective $\Leftrightarrow$ $f$ is [[full functor|full]];
+ 3. $f$ is (essentially) $2$-surjective $\Leftrightarrow$ $f$ is [[faithful functor|faithful]];
+ 4. $f$ is always $3$-surjective.
+=--
 
 
 ## In terms of lifting diagrams ##
 
++-- {: .un_prop}
+###### Proposition
 
-**Proposition** An $\omega$-functor $f : C \to D$ is $k$-surjective for $k \in \mathbb{N}$ precisely if it has the right [[weak factorization system|lifting property]] with respect to the inclusion $\partial G_{k} \to G_k$ of the boundary of the $k$-[[globe]] into the $k$-[[globe]].
+An $\omega$-functor $f : C \to D$ is $k$-surjective for $k \in \mathbb{N}$ precisely if it has the right [[weak factorization system|lifting property]] with respect to the inclusion $\partial G_{k} \to G_k$ of the boundary of the $k$-[[globe]] into the $k$-[[globe]].
 
 $$
   \array{
@@ -75,6 +82,7 @@ $$
   }
   \,.
 $$
+=--
 
 
 One recognizes the similarity to situation for [[geometric definition of higher category]]. A morphism $f : C \to D$ of [[simplicial set]]s is an acyclic fibration with respect to the [[model structure on simplicial sets]] if it all diagrams
@@ -104,25 +112,17 @@ $$
 for all $k$, where now $\Delta[k]$ is the $k$-[[simplex]].
 
 
-## Essential $k$-surjectivity##
-
-An $\omega$-functor is _essentially $k$-surjective_
-if the morphism $C_k \to P_k$ from above becomes
-epi after projecting further to $\omega$-[[equivalence]]-classes.
-
-
-
-
 ## Weak equivalences, acyclic fibrations and hypercovers##
 
-**Definition.** With respect to the [[folk model structure]]  on $\omega$-categories an $\omega$-functor is 
+With respect to the [[folk model structure]]  on $\omega$-categories an $\omega$-functor is 
 
 * an [[acyclic fibration]] if it is $k$-surjective for all $k \in \mathbb{N}$;
 
 * a [[weak equivalence]] if it is essentially $k$-surjective for all $k \in \mathbb{N}$.
 See also [[equivalence of categories]].
 
-###Remarks###
+
+##Remarks##
 
 All this has close analogs in other models of higher structures, in particular in the context of simplicial sets. Simplicial maps which are $k$-surjective for all $k$ are called [[hypercover]]s.
 
