@@ -4,9 +4,9 @@
 
 ## Definition ##
 
-A **double category** is an [[n-fold category]] for $n=2$, i.e., an [[internal category]] in [[Cat]].  Similarly, a **double groupoid** is an internal [[groupoid]] in [[Grpd]].
+A **double category** $D$ is an [[internal category]] in [[Cat]].   Similarly, a **double groupoid** is an internal [[groupoid]] in [[Grpd]].
 
-However, these definitions obscure the essential symmetry of the definition.  We think of a double category $D_1 \rightrightarrows D_0$ as having
+However, these definitions obscure the essential symmetry of the concepts.  We think of a double category $D_1 \rightrightarrows D_0$ as having
 
 * *objects*: the objects  of $D_0$
 * *vertical arrows*: the morphisms of $D_0$
@@ -34,13 +34,13 @@ $$
 
 Here $x_i,y_i$ are objects, $f$ and $g$ are horizontal arrows, $\alpha_i$ are vertical arrows and $\phi$ is the 2-cell itself.  This makes it clear why $\phi$ is called a 'square'.
 
-The vertical and horizontal arrows both form categories (the "edge categories"), and the squares have two category structures which respect the edge category structures.  
+The vertical and horizontal arrows form categories (called **edge categories**), and the squares have two category structures which respect the edge category structures.  
 
 Horizontal composition of these squares is given by the compositon in the ordinary [[category|categories]] $D_0$ and $D_1$, while vertical composition is given by the composition operation specified on $D_1 \stackrel{\to}{\to} D_0$ by virtue of it being a [[category]] [[internalization|internal to]] [[Cat]].
 
+In particular, the **transpose** of a double category, which switches the vertical and horizontal arrows, is again a double category.
 
-In particular, the *transpose* of a double category, which switches the vertical and horizontal arrows, is again a double category.
-
+A double category is an important special case of an [[n-fold category]], namely the case where $n = 2$.
 
 ## Examples ##
 
@@ -67,7 +67,7 @@ In particular, the *transpose* of a double category, which switches the vertical
 
 ## Weakenings ##
 
-An internal category in the 1-category $Cat$ is a *strict* double category, all of whose composition operations are strictly associative and unital.  However, since a double category is a 2-dimensional structure, it makes sense to allow these compositions to be weak as well.
+An internal category in the 1-category $Cat$ might more properly be called a *strict* double category, since all its composition operations are strictly associative and unital.  Since a double category is a 2-dimensional structure, it makes sense to allow these compositions to be weak as well.
 
 A **pseudo double category** is a weakly internal category in the 2-category $Cat$.  Here "weakly internal category" in a 2-category is interpreted as being associative and unital up to coherent isomorphism, just as a [[bicategory]] is a "weakly enriched category."  This makes the composition in one direction weak, but the composition in the other direction remains strict (it is the composition in the objects of $Cat$ that make up the pseudo double category).  Many naturally occurring examples, such as $Prof$, are pseudo double categories.  
 
