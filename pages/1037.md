@@ -261,6 +261,10 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[Cech nerve]]
 
+  * [[effective epimorphism]]
+
+  * [[simplicial resolution]]
+
   * [[delooping]]
 
     * [[quotient object]]
