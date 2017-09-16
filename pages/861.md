@@ -1,3 +1,2 @@
-See [[total order]].
-
-category: redirect
+&lt; [[toset]]
+[[!redirects toset -- history]]
