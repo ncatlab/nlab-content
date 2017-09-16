@@ -39,20 +39,19 @@ Previous:
 
 
 
-
 ## rough notes from a talk##
 
 >the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention, meaning: **somebody should go through this and polish**
 
 
 
-## contents
+## contents ##
 
-* [part 1](#part1)
+* automatic TOC goes here
+{:toc}
 
-* [part 2](#part2)
 
-## part 1 {#part1}
+## part 1 ###
 
 
 We will talk about a lifting problem that will lead to the formulation of [[tmf]]. This requires [[E-infinity ring]]s and [[derived algebraic geometry]].
@@ -168,7 +167,7 @@ The [[spectrum]] [[tmf]] is obtained in the same manner by replacing $M_{1,1}$ b
 
 
 
-## part 2 {#part2}
+## part 2 ##
 
 
 
@@ -441,3 +440,9 @@ The monoid object itself is the image of $\langle 1 \rangle$ under $s$, $A = s(\
 
 $E_\infty$-rings themselves form an [[(infinity,1)-category]]. And this has all [[limit]]s and [[colimit]]s (see DAG III 2.1, 2.7), so we can talk about sheaves of $E_\infty$ rings!
 
+
+
+
+## part 3 ##
+
+Now the theory of [[scheme]]s and [[derived scheme]]s.
