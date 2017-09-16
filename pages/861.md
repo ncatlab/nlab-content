@@ -7,4 +7,4 @@ Equivalently, and to avoid reference to the irreflexive relation $\lt$, demand t
 * $x \le y$
 * $x \ge y$
 
-The latter definition is the one to use in [[constructivism|constructive mathematics]].  However, many posets that are classically totally ordered are still not totally ordered constructively, and one must instead work with a [[loset]].
+The latter definition is the one to use in [[constructive mathematics|constructive mathematics]].  However, many posets that are classically totally ordered are still not totally ordered constructively, and one must instead work with a [[loset]].
