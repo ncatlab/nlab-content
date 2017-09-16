@@ -30,14 +30,14 @@ restriction.
 * **Notice:** there is no assumption that $G$ and hence the $N G_n$ are Abelian. But often in the literature the Moore complex is considered only in the special case of the above where all groups involved are Abelian.
 
 
-So a homogeneous (not the sum of several elements in $G_1$) degree 1 element $g \in N G_1$ is a 1-disk
+So an element in degree 1 element $g \in N G_1$ is a 1-disk
 
 $$
   1 \stackrel{g}{\to} \partial g
   \,,
 $$
 
-a homogeneous 2-cell $h \im N G_2$ is a 2-disk
+an element $h \im N G_2$ is a 2-disk
 
 $$
   \array{
@@ -52,7 +52,7 @@ $$
   \,,
 $$
 
-a 2-cell in the kernel of the boundary map is such a 2-disk that is closed to a 2-spehere
+a degree 2 element in the kernel of the boundary map is such a 2-disk that is closed to a 2-spehere
 
 $$
   \array{
