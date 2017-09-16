@@ -1,6 +1,6 @@
 ## Idea
 
-A differential form is a geometrical object on a [[manifold]] that can be integrated. A differential form $\omega$ is a section of the exterior algebra on a cotangent bundle $\Lambda^* T^* M$, what makes sense also in many other contexts (e.g. [[algebraic varieties]], analytic spaces...). 
+A differential form is a geometrical object on a [[manifold]] that can be integrated. A differential form $\omega$ is a [[section]] of the [[exterior algebra]] $\Lambda^* T^* X$ of a [[cotangent bundle]], which makes sense in many contexts (e.g. [[manifolds]], [[algebraic varieties]], [[analytic space]]s, ...). 
 
 
 ## Abstract version ##
@@ -230,7 +230,10 @@ One often sees the definition of integration given for *parametrised* submanifol
 _Toby_:  Possibly that should go at [[differential forms on supermanifolds]]?
 
 [[Zoran Škoda]]: By no means. Ordinary differential forms on ORDINARY manifolds are the same as functions on odd tangent bundle. I did not want to say anything about the generalization of differential forms on  supermanifolds. So it is NOT a different notion, but a different way to define it. If going to toposes hence synthetic framework is not separated why would be separated the equality which involves a parity trick...
+
+_Toby_:  Ah, I see; your $M$ above need not be super, and it still works.  Then yes, that should be mentioned here too.
 =--
+
 
 ## Cohomology of forms
 
