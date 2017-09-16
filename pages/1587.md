@@ -65,7 +65,13 @@ $$\Pi_1(B)^{op} \to Cov/B$$
 
 that sends each object $b$ of $\Pi_1(B)$ to a universal covering space $\tilde{B}_b$ over the path-component of $b$. 
 
-Here are the details: given a space $B$, let $|B|$ be $B$ retopologized with the discrete topology, and consider the pullback in $Top$ 
+We now spell out the details. 
+
+
+
+### In terms of a bar-construction
+
+Given a space $B$, let $|B|$ be $B$ retopologized with the discrete topology, and consider the pullback in $Top$ 
 
 $$\array{
 Path(B) & \to & B^I & \\
@@ -79,7 +85,7 @@ $$\sum_{b \in B} \tilde{B}_b,$$
 
 fibered in the obvious way over $|B|$ (the set of all basepoints $b$), where $\tilde{B}_b$ is the space of paths in $B$ which begin at $b$, modulo homotopy-rel-boundary. The space $\tilde{B}_b$ can be thought of the universal covering space over the connected component of a point $b \in B$, considered as a space based at $b$. 
 
-We have a span
+We have a [[span]]
 
 $$\array{
 & & \overline{Path}(B) & & \\
@@ -95,7 +101,7 @@ $$\array{
 |B| & & & &  |B|
 }$$ 
 
-with a monad structure in the bicategory of spans. The action gives a map 
+with a [[monad]] structure in the [[bicategory]] of [[span]]s. The [[action]] gives a map 
 
 $$comp: \Pi_1(B) \times_{|B|} \overline{Path}(B) \to \overline{Path}(B),$$ 
 
@@ -105,12 +111,17 @@ Now suppose given an object $F$ of $Set^{\Pi_1(B)}$, i.e., a covariant action of
 
 $$B(\overline{Path}(B), \Pi_1(B), F),$$ 
 
-which here is a simplicial object in the category of spans from $1$ to $B$, whose two face maps from degree 1 to degree 0 take the form: 
+which here is a [[simplicial object]] in the category of spans from $1$ to $B$, whose two face maps from degree 1 to degree 0 take the form: 
 
 $$\array{
-& F \times_{|B|} \Pi_1(B) \times_{|B|} \overline{Path}(B) & \\ 
-F \times_{|B|} comp & \downarrow \downarrow & \alpha \times_{|B|} \overline{Path}(B) \\ 
-& F \times_{|B|} \overline{Path}(B) & 
+  & F \times_{|B|} \Pi_1(B) \times_{|B|} \overline{Path}(B) & 
+  \\ 
+  & 
+  {}^{\mathllap{F \times_{|B|} comp}}\downarrow \downarrow^{\mathrlap{\alpha \times_{|B|} \overline{Path}(B)}} 
+  &  
+  \\ 
+  & 
+  F \times_{|B|} \overline{Path}(B) & 
 }$$ 
 
 The coequalizer of this pair provides a canonical augmentation of the two-sided bar construction, and may be called the tensor product 
@@ -137,7 +148,7 @@ $$Fiber(p: E \to B)(b) = (Cov/B)(\tilde{B}_b, p)$$
 and this forces its left adjoint to be given by the tensor product construction described above. 
 =--
 
-## Special case: the universal covering space 
+#### Special case: the universal covering space 
 
 As a special case, consider the [[permutation representation]] $\Pi_1(B) \to Set$ given by the discrete fibration 
 
@@ -267,12 +278,110 @@ $$
 or equivalently the slice $Obj(G)\downarrow id_G$ for an internal groupoid $G$ (internal in $Top$, but extensions to other categories work too). The tangent groupoid at a point $g$ is just the subgroupoid of this gotten by pulling back $TG \to Obj(G)$ along the inclusion $\{g\} \to Obj(G)$. I hadn't thought about applying this construction to my personal universal covering space recipe, so maybe we need to take the discrete topology on $Obj(G)$. That's what your pullback square above seems to indicate. Urs' and my paper [arXiv:0708.1741] has stuff on tangent groupoids for anyone who interested in pitching in.
 =--
 
+
+
+
+### In terms of homotopy fibers {#HomotopyFibs}
+
+We want to describe here how the universal covering space of $X$ is the [[homotopy fiber]] of the canonical morphism $X \to \Pi_1(X)$, hence the $\Pi_1(X)$-[[principal bundle]] classified by this [[cocycle]].
+
+We place ourselves in the context of [[topological ∞-groupoid]]s and regard both the space $X$ as well as its [[schreiber:path ∞-groupoid]] $\Pi(X)$ and its truncation to the [[fundamental groupoid]] $\Pi_1(X)$ as objects in there.
+
+The canonical morphism $X \to \Pi(X)$ hence $X \to \Pi_1(X)$ given by the inclusion of contant paths may be regarded as a [[cocycle]] for a $\Pi(X)$-[[principal ∞-bundle]], respectively for a $\Pi_1(X)$-principal bundle.
+
+Let $\pi_0(X)$ be the set of connected components of $X$, regarded as a topological $\infty$-groupoid, and choose any [[section]]  $\pi_0(X) \to \Pi(X)$ of the projection $\Pi(X) \to \pi_0(X)$.
+
+Then the $\Pi(X)$-principal $\infty$-bundle classified by the [[cocycle]] $X \to \Pi(X)$ is its [[homotopy fiber]], i.e. the [[homotopy pullback]]
+
+$$
+  \array{
+    UCov(X) &\to& \pi_0(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\to& \Pi(X)
+  }
+  \,.
+$$
+
+We think of this topological $\infty$-groupoid $UCov(X)$ as the **universal covering $\infty$-groupoid** of $X$. To break this down, we check that its [[decategorification]] gives the ordinary universal covering space: 
+
+for this we compute the [[homotopy pullback]]
+
+$$
+  \array{
+    UCov_1(X) &\to& {*}
+    \\
+    \downarrow && \downarrow^{\mathrlap{x}}
+    \\
+    X &\to& \Pi_1(X)
+  }
+  \,,
+$$
+
+where we assume $X$ to be connected with chosen baspoint $x$ just to shorten the exposition a little. By the laws of [[homotopy pullback]]s in general and [[homotopy fiber]]s in particular, we may compute this as the ordinary [[pullback]] of a weakly equivalent diagram, where the point $*$ is resolved to the [[generalized universal bundle|universal]] $\Pi_1(X)$-principal bundle
+
+$$
+  \mathbf{E}_x \Pi_1(X) = T_x \Pi_1(X)
+  \,.
+$$
+
+> (More in detail, what we do behind the scenes is this: we regard the diagram as a diagram in the _global_ [[model structure on simplicial presheaves]] on [[Top]]. In there all our topological groupoids are fibrant, hence all we have to ensure is that one of the morphisms of the diagram becomes a fibration, which is what the passage to $\mathbf{E}_x \Pi_1(X)$ achieves. Then the ordinary pullback in the category of simplicial presheaves is the homotopy pullback in $\infty$-prestacks. Then by left exactness of $\infty$-stackification, the image of that in $\infty$-stacks is still a homotopy pullback. )
+
+The topological groupoid $\mathbf{E}_x \Pi_1(X)$ has as objects homotopy classes rel endpoints of paths in $X$  starting at $x$ and as morphisms $\kappa : \gamma \to \gamma'$ it has commuting triangles
+
+$$
+  \array{
+    && x
+    \\
+    &{}^{\mathllap{\gamma}}\swarrow && \searrow^{\mathrlap{\gamma'}}
+    \\
+    y &&\stackrel{\kappa}{\to}&& y'
+  }
+$$
+
+in $\Pi_1(X)$. The topology on this can be deduced from thinking of this as the [[pullback]]
+
+
+$$
+  \array{
+   \mathbf{E}_x \Pi_1(X) &\to& {*}
+   \\
+   \downarrow && \downarrow^{\mathrlap{x}}
+   \\
+   \Pi_1(X)^I &\stackrel{d_0}{\to}& \Pi_1(X)
+  }
+$$
+
+in simplicial presheaves on [[Top]]. Unwinding what this means we find that the open sets in $Mor(\mathbf{E}_x \Pi_1(X))$ are those where the endpoint evaluation produces an open set in $X$.
+
+Now it is immediate to read off the homotopy pullback as the ordinary pullback
+
+$$
+  \array{
+    UCov_1(X) &\to& \mathbf{E}_x \Pi_1(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\to& \Pi_1(X)
+    \,.
+  }
+$$
+
+Since $X$ is categorically discrete, this simply produces the space of objects of $\mathbf{E}_x \Pi_1(X)$ over the points of $X$, which is just the space of all paths in $X$ starting at $x$ with the projection $UCov_1(X) \to X$ being endpoint evaluation. 
+
+This indeed is then the usual construction of the universal covering space in terms of paths, as described for instance in 
+
+* [[Karl Dahlke]], _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
+
+
+
 ## Reference
+
 
 An account of the traditional way to think of the construction of the universal covering space is 
 
-* [[Karl Dahlke]], _Covering spaces, Building a universal cover_ , [Math Reference Project](http://www.mathreference.com/) ([webpage](http://www.mathreference.com/at-cov,build.html))
-
+* [[Karl Dahlke]], _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
 
 
 [[!redirects covering spaces]]
