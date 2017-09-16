@@ -20,3 +20,8 @@ where $C(-,-)$ is the $V$-valued hom of $C$ and $V(-,-)$ is the internal-hom of 
 * Powers are a special sort of [[weighted limit]].  Conversely, all weighted limits can be constructed from powers together with [[conical limit]]s.  The dual colimit notion of a power is a [[copower]].
 
 * Powers are frequently called _cotensors_ and a $V$-category having all powers is called _cotensored_, while the word "power" is reserved for the case $V=Set$.  However, there seems to be no good reason for making this distinction.  Moreover, the word "tensor" is fairly overused, and unfortunate since a tensor (= a [[copower]]) is a colimit, while a cotensor (= power) is a limit.
+
+[[!redirects cotensor]]
+[[!redirects powers]]
+[[!redirects cotensors]]
+[[!redirects cotensored category]]
