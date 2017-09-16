@@ -375,6 +375,9 @@ _Rafael_: It is not a good thing to change the meaning of set or class. Then oth
 _Toby_:  What do you mean, 'change the meaning'?  You seem to be writing as if it was handed down from on high that all sets are small, and that a large category has a proper class of objects but not a set of objects.  This is only one way of thinking about things, probably the most common, but not the only way.  And in fact, it is not the way that the founder of category theory, Saunders Mac Lane, thinks about them.  Someone here (Mike? Todd? I forget) didn\'t even agree with me the last time that I said that sets and classes was the most common way of dealing with size issues, so there may be entire schools that take it for granted that all categories have a set of objects but only some sets are small.
 
 I need to write an article on [[size issues]] to explain all of this.
+
+_Rafael_: I give up, now i don't understand what you mean. Sure, there are different set theories and theories for classes, which is ok, but that is probably not what you mean either. Only multisets, ordered sets, posets and sets with other ordering relations come to mind right now, but they are not even mentioned in any definition of a category that i know of. Reading the above, posets are not equivalent to categories, even in the large case i think. But you are talking about entire other schools! In the last sentence i don't even know what set mean. How about some references to all these alternaives?
+
 =--
 
 
