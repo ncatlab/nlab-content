@@ -238,7 +238,7 @@ $$
   Hom(pt, Hom(\lim F, F(-)))
   \,,
 $$
-where the first morphism picks the [[identity]] morphism
+where the first morphism picks the [[identity morphism]]
 on $\lim F$ and the second one is the defining
 bijection of a limit as above.
 
