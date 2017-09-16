@@ -1,3 +1,2 @@
-See [[cocomplete category]].
-
-category: redirect
+&lt; [[|cocomplete category]]
+[[!redirects |cocomplete category -- history]]
