@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * added a reference (and minor comments on references) to [[model structure on simplicial presheaves]]
+
   * added an opinion to [[simplicial homotopy group]]
 
     * will add the definition of the group structure later today  
