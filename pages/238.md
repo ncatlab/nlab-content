@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-05-20 #
+* [[Chris Brav|Chris]] started work on section 5 of BZFN
+for the journal club on geometric $\infty$-function theory.
 
 * [[Todd Trimble|Todd]] wrote a longish reply to a query of David Roberts over at [[nice topological space]]. 
 
