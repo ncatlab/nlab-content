@@ -1,8 +1,8 @@
 The **Moore space** $M(G, n)$, where $G$ is an abelian group and $n \geq 1$, is a space which has non-trivial (reduced) [[homology]] group $G$ only in dimension $n$. There is also a cohomology analogue known as a **co-Moore space**, but this is not defined for all abelian $G$. [[sphere|Spheres]] are both Moore and co-Moore spaces for $G = \mathbb{Z}$.
 
-Co-Moore spaces are the [[Eckmann-Hilton duality|Eckmann-Hilton duals]] of [[Eilenberg-MacLane space|Eilenberg-MacLane spaces]]. 
+Co-Moore spaces are the [[Eckmann-Hilton duality|Eckmann-Hilton duals]] of [[Eilenberg-MacLane spaces]]. 
 
-Just as there is a [[Postnikov tower|Postnikov decomposition]] of a space as a tower of fibrations, so there is a Moore decomposition as a tower of cofibrations.
+Just as there is a [[Postnikov decomposition]] of a space as a tower of fibrations, so there is a [[Moore decomposition]] as a tower of cofibrations.
 
 ###References###
 
