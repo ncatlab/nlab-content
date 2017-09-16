@@ -491,4 +491,9 @@ $$
 
 But this is manifestly the right (being both: from the right and correct :-) [[action]] $\rho : P \times G \to G$ of $G$ on $P$.
 
+
 [[!redirects principal bundles]]
+[[!redirects principal fiber bundle]]
+[[!redirects principal fiber bundles]]
+[[!redirects principal fibre bundle]]
+[[!redirects principal fibre bundles]]
