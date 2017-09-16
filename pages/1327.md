@@ -41,6 +41,7 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 (image from the [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Polytope_K3.svg))
 =--
 
+
   A template which can be cut out and assembled into a $K_5$ can be found [here](http://cheng.staff.shef.ac.uk/cutout/).
 
 * Rotatable illustrations of some Stasheff polyhedra can be found at 
@@ -48,6 +49,16 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
   * [Les polytopes de Stasheff](http://math.univ-lyon1.fr/~chapoton/stasheff.html)
 
   * This is part of a larger website [Petites pages sur divers sujets](http://math.univ-lyon1.fr/~chapoton/petitespages.html) which contains illusrations of other polyedra, too.
+
+
+## Relation to orientals ##
+
+The above list shows that the first few Stasheff polytopes are nothing but the first few [[oriental]]s. This doesn't remain true as $n$ increases.
+The orientals are free **strict** [[omega-category|omega-categories]] on [[simplex]]es as parity complexes. This means that certain interchange cells (e.g., Gray tensorators) show up as thin in the oriental description. 
+
+The first place this happens is the sixth oriental: where there are three tensorator squares and six pentagons in Stasheff's $K_6$, the corresponding tensorator squares coming from $O(6)$ are collapsed. 
+
+It was when [[Todd Trimble]] this point to Ross Street that Street began to think about using associahedra to define weak [[n-category|n-categories]].
 
 
 
