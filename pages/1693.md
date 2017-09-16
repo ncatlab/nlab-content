@@ -1,0 +1,1 @@
+As a [[Boolean ring]] is a [[ring]] in which multiplication is [[idempotent]], so a __Boolean rig__ is a [[rig]] in which multiplication is idempotent.
