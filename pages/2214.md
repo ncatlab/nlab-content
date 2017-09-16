@@ -1,6 +1,6 @@
 [[!include all changes]]
 
-A list of all recently edited entries can be seen at [Recently Revised].  But that list tends to contain lots of minor changes: it's not easy to spot the important ones.  So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
+A list of all recently edited entries can be seen at [Recently Revised](http://ncatlab.org/nlab/recently_revised).  But that list tends to contain lots of minor changes: it's not easy to spot the important ones.  So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
 
 +-- {: .standout}
 
