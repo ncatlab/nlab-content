@@ -22,6 +22,5 @@ A connection is __flat__ iff its curvature vanishes.
 
 [[Urs Schreiber]]: i think this is the concept that is described at [[Lie infinity-algebroid representation]]. It is the same (up to very minor technical differences) that Jonathan Block calls a superconnection in [this](http://arxiv.org/abs/math/0509284) article. 
 
-
-
+_Zoran_ Historically I do not know, it is certainly  several decades old in this form. But things always depend on the context. For example if one takes the noncommutative differential forms of Karoubi for $\Omega^\bullet A$ (what is not quite semi-free -- there is a small kernel determined by the augmentation map) then one has a definition of connection of Connes and Karoubi in nc differential geometry, used in that context from early 1980s. Flat connections for semi-free dgas are used also often when studying deformation theory problems via semi-free resolutions...Term superconnection is from Quillen. Does Block use it differently from Quillen ?
 =--
