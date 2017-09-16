@@ -30,7 +30,10 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-20
 
+*  [[Toby Bartels]]:  Added quite a bit to [[free monoid]].
+
 *  [[David Corfield]]:
+
    *  Carried out some tentative dualising at [[group homotopy]].
 
 *  [[Toby Bartels]]:
