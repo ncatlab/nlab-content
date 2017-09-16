@@ -110,12 +110,14 @@ See the discussion in
 To obtain the required structure of well defined compositions in this globular $\omega$-groupoid it has been found necessary to use the known structure in the cubical cases, and their relation with the globular case. 
 
 
-[[!redirects globes]]
 [[!redirects n-globe]]
 [[!redirects 1-globe]]
 [[!redirects 2-globe]]
 [[!redirects 3-globe]]
+[[!redirects glob]]
+[[!redirects globes]]
 [[!redirects n-globes]]
 [[!redirects 1-globes]]
 [[!redirects 2-globes]]
 [[!redirects 3-globes]]
+[[!redirects globs]]
