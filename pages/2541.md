@@ -1,2 +1,1 @@
-
-> the point made by this entry is now discussed at [[interval object]] in the section on geometric $\infty$-categories there. The point is just that every [[lined topos]] canonically yiels an [[interval object]] and hence induces this construction. Tomorrow when I am more awake I'll remove this entry here and redirect the links currently pointing here.
+&lt; [[simplex in a lined topos]]
