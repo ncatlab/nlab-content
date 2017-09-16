@@ -7,3 +7,6 @@
 * Arkady Berenstein, Andrei Zelevinsky, _Quantum cluster algebras_, [math.QA/0404446](http://arxiv.org/abs/math/0404446)
 
 * A. Zelevinsky's [homepage](http://www.math.neu.edu/zelevinsky/andrei.html)
+
+
+category: people
