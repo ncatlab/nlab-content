@@ -54,6 +54,8 @@ _Toby_:  For me, an anafunctor involves a surjective submersion rather than an o
 [[David Roberts]]: I'm not what I was thinking at the time, but you are pretty much right: the definition of anafunctors depends on a choice of a subcanonical singleton [[Grothendieck pretopology]], so it was remiss of me to demand the use of open covers :) As for the definition of Morita morphism, I now can't remember if that referred to the span which is an arrow in the localised 2-category or the arrow in the unlocalised 2-category that is sent to an equivalence under localisation. At least for me, the terminology Morita morphism evokes the generalisation from a Morita equivalence (a span of weak equivalences) to a more general morphism in that setting.
 
 _Toby_:  I think that a Morita morphism should be a span, although now I\'m not sure that this is what the text says, is it?  I should check a reference and then change it.
+
+[[David Roberts]]: I'm fairly sure I've heard Lie groupoid people (Ping Xu springs immediately to mind) speak about a Morita morphism as being a fully faithful, essentially surjective (in the appropriate sense) internal functor, but I disagree with their usage. If this is indeed the case, we could note the terminological discrepancies
 =--
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
