@@ -100,7 +100,7 @@ Also, if you reverse the definitions of lax and oplax transformations, then you 
 * Gray, [[Gray-adjointness-for-2-categories|Adjointness For
 2-Categories]]
 
-* Leinster, _Basic bicategories_,
+* [[Tom Leinster]], _Basic bicategories_,
 [arXiv](http://arxiv.org/abs/math/9810017).
 
 Note that both of these use somewhat outdated terminology.
