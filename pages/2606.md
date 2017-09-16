@@ -834,6 +834,7 @@ Observe that $y(xz)$ matches $(xy)(xz)$ on the right, and that we can express $y
 <div markdown="1"><font size="+1">
 
 $$\array{
+\arrayopts{\colalign{center center left}}
 y(xz)
 &amp; = &amp;
 (x(y\mathop{K}))(xz)
@@ -853,6 +854,7 @@ Notice that:
 <div markdown="1"><font size="+1">
 
 $$\array{
+\arrayopts{\colalign{center center left}}
 (y\mathop{K})(z\mathop{S})
 &amp; = &amp;
 (y\mathop{K})(y((z\mathop{S})\mathop{K}))
@@ -870,6 +872,7 @@ Next, work on $\mathop{K}(((z\mathop{S})\mathop{K})\mathop{S})$ to extract $z$, 
 <div markdown="1"><font size="+1">
 
 $$\array{
+\arrayopts{\colalign{center center left}}
 (z\mathop{S})\mathop{K}
 &amp; = &amp;
 (z\mathop{S})(z(\mathop{K}\mathop{K}))
@@ -887,6 +890,7 @@ Continue with $\mathop{K}((z\mathop{F})\mathop{S})$, to extract $z$, as follows:
 <div markdown="1"><font size="+1">
 
 $$\array{
+\arrayopts{\colalign{center center left}}
 (z\mathop{F})\mathop{S}
 &amp; = &amp;
 (z\mathop{F})(z(\mathop{S}\mathop{K}))
@@ -904,6 +908,7 @@ Continue with $\mathop{K}(z\mathop{G})$, to extract $z$, as follows:
 <div markdown="1"><font size="+1">
 
 $$\array{
+\arrayopts{\colalign{center center left}}
 \mathop{K}(z\mathop{G})
 &amp; = &amp;
 (z(\mathop{K}\mathop{K}))(z\mathop{G})
@@ -919,6 +924,7 @@ Filling in the abbreviations:
 <div markdown="1"><font size="+1">
 
 $$\array{
+\arrayopts{\colalign{center center left}}
 y(xz)
 &amp; = &amp;
 x(y(z((\mathop{K}\mathop{K})(\mathop{G}\mathop{S}))\;))
@@ -940,6 +946,42 @@ $$\array{
 \mathop{T}
 &amp; = &amp;
 (\mathop{K}\mathop{K})(((\mathop{S}((\mathop{K}\mathop{K})\mathop{S}))((\mathop{S}\mathop{K})\mathop{S}))\mathop{S})
+}$$
+
+</font></div>
+
+## Step 2 ##
+
+Using the contextual definition of the transposer $\mathop{T}$,
+
+<div markdown="1"><font size="+1">
+
+$$\array{x(y(z\mathop{T})) &amp; = &amp; y(xz)}$$
+
+</font></div>
+
+find a minimal generic typing (simplest non-degenerate typing) of each term in the specification that makes all of the applications on each side of the equation go through.
+
+For example, here is one such typing:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+(y \overset{ }{\underset{B}{\text{&#8659;}}} \;
+(x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+ z \overset{A}{\underset{B \Rightarrow C}{\text{&#8659;}}}
+ ) \overset{B}{\underset{C}{\text{&#8659;}}}
+ ) \overset{ }{\underset{C}{\text{&#8659;}}}
+\\ \\
+=
+\\ \\
+(x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+(y \overset{ }{\underset{B}{\text{&#8659;}}} \;
+(z \overset{A}{\underset{B \Rightarrow C}{\text{&#8659;}}} \;
+ T \overset{A \Rightarrow (B \Rightarrow C)}{\underset{B \Rightarrow (A \Rightarrow C)}{\text{&#8659;}}}
+ ) \overset{B}{\underset{A \Rightarrow C}{\text{&#8659;}}}
+ ) \overset{A}{\underset{C}{\text{&#8659;}}}
+ ) \overset{ }{\underset{C}{\text{&#8659;}}}
 }$$
 
 </font></div>
