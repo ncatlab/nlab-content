@@ -1,3 +1,10 @@
+# Sequences
+* tic
+{: toc}
+
+
+## Definitions
+
 A __sequence__ is [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbf{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbf{Z}$ of integers).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbf{Z}$.)
 
 Up to [[bijection]], the only possible sources are those of the form
@@ -6,7 +13,8 @@ for $n = 0, 1, 2, \ldots, \infty$; other domains are used for notational conveni
 
 One normally writes the value of the sequence $a$ at the argument $i$ as $a_i$ rather than $a(i)$.  Similarly, given a term $a[i]$ with the free variable $i$, one often defines a sequence whose values equal those terms as $(a[i])_{i \lt n}$, $\{a[i]\}_i$, or the like.  In fact, one even often says literally 'Let $(a_i)$ be a sequence.' even though 'Let $a$ be a sequence.' would work be less of an abuse of notation.  This is all because notation for sequences arose before [[functions]] were considered in their full generality, and one distinguished a 'sequence' (whose domain was a set of integers) from a 'function' (whose domain was an interval in the real line or a region in the complex plane).  Early mathematicians also often conflated the sequence (the function itself) with its range (a subset of the function\'s [[target]]); hence the use of curly braces.
 
-# Generalisations #
+
+## Generalisations
 
 Infinite sequences are often used in topology, but for topology in general, one needs to generalise to [[nets]], also called _Moore--Smith sequences_.  Here one replaces the domain $\mathbf{N}$ by any arbitrary [[direction|directed set]].
 
@@ -25,7 +33,10 @@ There is a bit of related stuff at [[net]] too, by the way.  I ought to get my o
 =--
 
 
-# References #
+## References
+
 * Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. Available from [Fred Richman's Documents](http://www.math.fau.edu/Richman/HTML/DOCS.HTM).
 
+
 [[!redirects sequences]]
+[[!redirects infinite sequence]]
