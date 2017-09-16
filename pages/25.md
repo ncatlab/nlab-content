@@ -64,3 +64,5 @@ Related $n$-Caf&eacute;-discussion is in
 
 [[!redirects Oidification]]
 [[!redirects oidification]]
+[[!redirects oidifications]]
+[[!redirects horizontal categorifications]]
