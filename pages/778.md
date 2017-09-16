@@ -1,4 +1,4 @@
-A **dg-category** or **differential graded category** is a category [[enriched category|enriched]] over a [[symmetric monoidal category]] of chain complexes, usually taken to be that of chain complexes of $k$-vector spaces for some field $k$: $dgCat := Ch(Mod_k)-Cat$.
+A **dg-category** or **differential graded category** is a category [[enriched category|enriched]] over a [[symmetric monoidal category]] of chain complexes, usually taken to be that of chain complexes of $k$-vector spaces for some field $k$: $dgCat := Ch(Mod_k)\Cat$.
 
 A dg-category $\mathbf{B}A$ with a single object is a _differential graded [[algebra]]_ $A$.
 
