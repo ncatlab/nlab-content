@@ -50,3 +50,6 @@ As a crossed module give rise to an internal groupoid in the category of groups 
 ## Homotopy $2$-types as $2$-groupoids ##
 
 ...
+
+
+[[!redirects 2-type]]
