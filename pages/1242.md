@@ -1,0 +1,1 @@
+An **exact sequence** is a [[chain complex]] with vanishing [[homology]].
