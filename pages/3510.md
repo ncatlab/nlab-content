@@ -37,6 +37,50 @@ The fibrant objects in the structure are precisely the [[complete Segal space]]s
 
 =--
 
+## Relation to quasi-categories {#RelQCat}
+
+
+There are the following two [[Quillen equivalence]]s between the model structure for complete Segal spaces and the [[model structure for quasi-categories]].
+
+One is 
+
+$$
+  (p_1^* \dashv i_1^*)
+  :
+  [\Delta^{op}, Set]
+  \stackrel{\overset{i_1^*}{\leftarrow}}{\overset{p_1^*}{\to}}
+  [\Delta^{op} \times \Delta^{op}, Set]
+$$
+
+where $i_1^*$ sends a bisimplicial set to the simplicial set of its first row
+
+$$
+  i_1^* : X_{\bullet,\bullet} \mapsto X_{\bullet, 0}
+  \,.
+$$
+
+The other is
+
+$$
+  (t_! \dashv t^!)
+  :
+  [\Delta^{op} \times \Delta^{op}, Set]
+  \stackrel{\overset{t^!}{\leftarrow}}{\overset{t_!}{\to}}
+  [\Delta^{op}, Set]
+$$
+
+where $t_!$ assigns the total simplicial set to a bisimplicial set, and where $t^!$ forms in each degree the mapping space
+
+$$
+  t^! : X_\bullet \mapsto ([m,n] \mapsto 
+    Hom_{sSet}( \Delta[m] \times Ex^{\infty} \Delta[n], X)
+  )
+  \,,
+$$
+
+where $Ex^\infty$ is the [[Kan fibrant replacement]] functor.
+
+
 ## References
 
 Complete Segal spaces were originally defined in 
