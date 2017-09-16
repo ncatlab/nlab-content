@@ -1,16 +1,5 @@
 A **group** is a [[monoid]] in which every element has an [[inverse]].
 
-
-#Weakened version#
-
-Following the practice of [[centipede mathematics]], we can remove certain properties from this definition and see what we get:
-* remove inverses to get [[monoids]], then remove the identity to get [[semigroups]];
-* or remove associativity [[loop(algebra)|loops]], then remove the identity to get [[quasigroups]];
-* or remove all of the above to get [[magma|magmas]];
-* or instead allow (in a certain way) for the binary operation to be partial to get [[groupoids]], then remove inverses to get [[categories]];
-* etc.
-
-
 #Delooping#
 
 To some extent, a group "is" a [[groupoid]] with a single object, or more precisely a [[pointed object|pointed]] groupoid with a single object.
@@ -65,5 +54,15 @@ For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [
 
 A group object in [[Grp]] is the same thing as an abelian group (see [[Eckmann-Hilton argument]]), and a group object in [[Cat]] is the same thing as an [[internal category]] in [[Grp]], both being equivalent to the notion of [[crossed module]]. 
 
+#Weakened versions#
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
+
+Following the practice of [[centipede mathematics]], we can remove certain properties from the definition of group and see what we get:
+* remove inverses to get [[monoids]], then remove the identity to get [[semigroups]];
+* or remove associativity to get [[loop(algebra)|loops]], then remove the identity to get [[quasigroups]];
+* or remove all of the above to get [[magma|magmas]];
+* or instead allow (in a certain way) for the binary operation to be partial to get [[groupoids]], then remove inverses to get [[categories]], and then remove identities to get [[semicategory|semicategories]]
+* etc.
 
 [[!redirects groups]]
