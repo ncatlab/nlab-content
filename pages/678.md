@@ -100,7 +100,7 @@ $$
 $$
 =--
 
-Notice that these kinds of computations are in particular often used when checking/computing [[descent and codescent]] along a [[cover]] or [[hypercover]]. For more on that in the context of simplicial presheaves see [[descent for simplicial presheaves]].
+Notice that these kinds of computations are in particular often used when checking/computing [[descent|descent and codescent]] along a [[cover]] or [[hypercover]]. For more on that in the context of simplicial presheaves see [[descent for simplicial presheaves]].
 
 
 #Related entries#
