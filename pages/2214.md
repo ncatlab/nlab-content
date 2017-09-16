@@ -26,6 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-01
+* [[Zoran Škoda]]: Thanks, Andrew a lot for all you are doing. Good night! I am loggin here another concern about terminology abstract nonsense. I am moving much in (predominantly noncommutative and algebraic) geometric
+community and my exprience is that when somebody says they proved a fact by abstract nonsense it is NOT confined to categorical methods only but to any CLEAN and GENERAL methods "from the book" as opposed to specific unclean improvizations tailored to a very specific circumstance in question. 
+
 * [[Andrew Stacey]]: My eyes are beginning to cross when reading the MySQL manual.  I may have been misreading a couple of things to do with data storage and it may be possible to get around the timeline problem.  However, I still think that long pages could be better split up.
 
   I sincerely hope that the lab survives the night, but I'm going offline now so please be patient with it!
