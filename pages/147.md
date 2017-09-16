@@ -120,3 +120,5 @@ as well as in section VII. 10 of
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]] 
 
 (in terms of covering [[sieve]]s), where also the relation to [[geometric morphism]]s is discussed.
+
+[[!redirects sites]]
