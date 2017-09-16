@@ -67,6 +67,12 @@ Which bit of "generalised object" (and note that it really ought to be "generali
 
 I am not enthusiastic about this. But it has at least the advantage that everybody who knows both terms can immediately guess what is  meant. 
 
+[[Andrew Stacey|Andrew]]: I didn't miss it, but I forgot to comment on it; sorry.  The problem with that is that the Frolicher condition is an extreme example of this sort of situation.  I do want to consider cases where there are conditions on the objects, as these can lead to categories of presheaves, sheaves, copresheaves, cosheaves, Frolicher spaces, and Isbell dual things (amongst others).  You get all the categories of generalised smooth objects.  So putting the word "Frolicher" in from the beginning is not something I'm happy with.
+
+I guess this is one of the problems with allowing _research_ in the nLab.  Every now and then someone is going to want to define something new and needs to come up with a name for it.  "Working" names are not always the best and it can take a few iterations to get the "right" one.  But it's a bit more public on a wiki!
+
+I wonder how easy it would be to change something like this after the fact.  De facto standards are not always the best (witness the qwerty keyboard).
+
 =--
 
 ## Concrete Generalised $\mathcal{T}$-Objects
