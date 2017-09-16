@@ -389,7 +389,7 @@ For a pedagogical motivation of the general topic under consideration here see
 #15 Indization and Derivation of Abelian Categories#
 
 
-#16 Grothedieck Topologies#
+#16 Grothendieck Topologies#
 
 * [[coverage]]
 
