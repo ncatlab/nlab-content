@@ -52,6 +52,10 @@ Of course, if $f$ and $g$ are given as $g: b \to c$ and $f: a \to b$, then we ca
 Can you say everything that you want to say about (higher) categories while avoiding evil throughout?  That will always be an open question, as people think of new things to say about them.  But I think that it is a fruiful attitude to take that one should try.  ---[[Toby Bartels]]
 
 [[Mike Shulman]]: I'm not convinced by "composing along isomorphisms," because what does it mean for an isomorphism $h$ to be "between" $\dom g$ and $\cod f$?  It means that $\dom h = \cod f$ and $\cod h = \dom g$.
+
+_Toby_:  But you already told us how to phrase things above: "let $a,b,c$ be objects of $C$ and let $g : b \to c$,$f: a \to b$ be morphisms".  So now we take a case where $dom g$ and $cod f$ are not definitionally/syntactically equal, as so:
+> Let $a,b,c,d$ be objects and let $g: c \to d,\; f: a \to b$ be morphisms.
+Then we can form the composite $g \circ f$ relative to any isomophism $h: b \to c$.  (Of course, the notation $g \circ f$ suppresses $h$, so it\'s more proper to write $g \circ_h f$, or just $g \circ h \circ f$ as a normal person would.)
 =--
 
 _Mirrors and copulation are abominable,_ <br>
