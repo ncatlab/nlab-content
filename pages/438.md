@@ -35,3 +35,4 @@ category: people
 [[!redirects Tim Porrter]]
 [[!redirects Tim Portr]]
 [[!redirects Tim  Porter]]
+[[!redirects Tim porter]]
