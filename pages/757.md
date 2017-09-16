@@ -38,7 +38,19 @@ See also [[localization of a simplicial model category]].
 
 ## Definition in model categories ##
 
-Let $C$ be a category equipped with a [[model category]] structure and let $S$ be a class of morphisms in $C$. 
+Let $C$ be a category equipped with a [[model category]] structure and let 
+
+$$
+  S \subset Mor(C)
+$$ 
+
+be a [[class]] of morphisms in $C$. 
+
+An $S$-[[local object]] $X$ is one such that the [[(infinity,1)-categorical hom-space|derived hom-space functor]] $\mathbf{R}Hom(-,X)$ sends morphisms in $S$ to weak equivalences. An $S$-local morphism $f$ is one such that $\mathbf{R}Hom(f,-)$ sends local objects to weak equivalences.
+
++-- {: .un_def }
+###### Definition
+**(Bousfield localization)**
 
 The **left Bousfield localization** of $C$ with respect to $S$ is, if it exists, a [[model category]] structure $L_S C$ on $C$ such that
 
@@ -50,8 +62,79 @@ The **left Bousfield localization** of $C$ with respect to $S$ is, if it exists,
 
 Analogously the **right Bousfield localization** is defined as above, with the role of fibrations and cofibrations exchanged throughout.
 
+=--
 
-## Properties ##
+Below it is discussed that this model category structure is, when it exists, indeed a [[localization of a model category]].
+
+The following auxiliary definitions are useful for analyzing Bousfield localizations
+
+
++-- {: .un_def }
+###### Definition
+**($S$-localization of an object)**
+
+
+
+=--
+
+## Existence of Bousfield localizations ##
+
+There are various results stating that under suitable conditions the left Bozusfield localization does exist.
+
++-- {: .un_theorem }
+###### Theorem
+**(Jeff Smith)**
+
+If (with respect to a given [[Grothendieck universe]]) $C$ is a [[combinatorial model category]] and $S \subset Mor(C)$ is a small [[set]] of [[homotopy]]-classes of morphisms, then the left Bousfield localization $L_S C$ does exist.
+
+Moreover, it satisfies the following conditions:
+
+* it is a left [[proper model category]]
+
+* it is a [[combinatorial model category]]
+
+* the fibrant objectss are the fibrant $S$-[[local object]]s of $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067))
+
+=--
+
+This statement is generalized to the context of [[enriched model category]] theory by the following result:
+
++-- {: .un_theorem }
+###### Theorem
+**(Clark Barwick)**
+
+
+Let 
+
+* $V$ be a [[tractable model category|tractable]] [[symmetric monoidal category|symmetric]] [[monoidal model category]];
+
+* $C$ a [[tractable model category|tractable]] [[proper model category|left proper]] $V$-[[enriched model category]]
+
+* $S \subset Mor(C)$ a small set
+
+(all with respect to a fixed [[Grothendieck universe]]).
+
+Then the left enriched Bousfield localization $L_{S/V} C$ does exist and is [[proper model category|left proper]] and [[tractable model category|tractable]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 4.46 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf))
+
+=--
+
+
+
+## Properties of Bousfield localization ##
 
 +-- {: .un_prop }
 ###### Proposition
@@ -110,6 +193,7 @@ Let $L_S C$ is a left Bousfield localization of $C$ then
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
@@ -118,62 +202,31 @@ This is prop 3.3.3 in _ModLoc_ .
 =--
 
 
+At leat when the [[model category]] $C$ is sufficiently nice, Bousfield localization at $S$ indeed produces a model for the subcategory of $S$-[[local object]]s:
 
++-- {: .un_prop }
+###### Proposition
+**(Bousfield localization as model for $S$-local obects)**
 
-## Existence of Bousfield localizations ##
+Let $C$ be a left [[proper model category|proper]] [[combinatorial simplicial model category]] and $S$ a set of morphisms. Then the Bousfield localization $L_S C$, which exists by the above theorem, has the following properties:
 
-There are various results stating that under suitable conditions the left Bozusfield localization does exist.
+* it inherits the structure of a [[combinatorial simplicial model category]];
 
-+-- {: .un_theorem }
-###### Theorem
-**(Jeff Smith)**
+* it is left [[proper model category|proper]];
 
-If (with respect to a given [[Grothendieck universe]]) $C$ is a [[combinatorial model category]] and $S \subset Mor(C)$ is a small [[set]] of [[homotopy]]-classes of morphisms, then the left Bousfield localization $L_S C$ does exist.
-
-Moreover, it satisfies the following conditions:
-
-* it is a left [[proper model category]]
-
-* it is a [[combinatorial model category]]
-
-* the fibrant objectss are the fibrant $S$-[[local object]]s of $C$.
+* the fibrant objects in $L_S C$ are precisely the fibrant $S$-[[local object]]s in $C$.
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
 
-This is theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067))
+This is prop. A.3.7.3 in [[Higher Topos Theory|HTT]].
 
 =--
 
-This statement is generalized to the context of [[enriched model category]] theory by the following result:
 
-+-- {: .un_theorem }
-###### Theorem
-**(Clark Barwick)**
-
-
-Let 
-
-* $V$ be a [[tractable model category|tractable]] [[symmetric monoidal category|symmetric]] [[monoidal model category]];
-
-* $C$ a [[tractable model category|tractable]] [[proper model category|left proper]] $V$-[[enriched model category]]
-
-* $S \subset Mor(C)$ a small set
-
-(all with respect to a fixed [[Grothendieck universe]]).
-
-Then the left enriched Bousfield localization $L_{S/V} C$ does exist and is [[proper model category|left proper]] and [[tractable model category|tractable]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is theorem 4.46 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf))
-
-=--
 
 ## Applications ##
 
