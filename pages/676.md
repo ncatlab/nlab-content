@@ -1,6 +1,8 @@
-<div class="rightHandSide toc">
 
-#Physics Contents
+**[[physics]]**
+
+##Contents
+
 * [[classical physics]]
 
 *  [[quantum field theory|Quantum Field Theory]]
@@ -40,4 +42,3 @@
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
 
-</div>
