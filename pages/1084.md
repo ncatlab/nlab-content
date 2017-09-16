@@ -1,8 +1,122 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
-The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$.
+The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a particular [[model category]] representative of the [[homotopy fiber|homotopy cofiber]] of $f$, also called the homotopy cokernel of $f$ or _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$. 
 
-#In additive categories with translation#
+
+#Definition#
+
+In an [[(∞,1)-category]] the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the homotopy pushout
+
+$$
+  \array{
+     X &\stackrel{}{\to}& {*}
+     \\
+     \downarrow^f && \downarrow
+     \\
+     Y &\to& coker(f)
+  }
+  \,.
+$$
+
+When the [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by a [[model category]], this may be computed on a suitable representative of $f$ by the ordinary [[colimit]] 
+
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{i_1} && \downarrow
+    \\
+    X &\stackrel{i_0}{\to}& Cyl(X)
+    \\
+    \downarrow && && \downarrow
+    \\
+    {*} &\to& &\to& coker(f) 
+  }
+$$
+
+using a [[cylinder object]] $Cyl(X)$ for $X$, that models the [[left homotopy]] filling the original homotopy pushout diagram. This colimit, in turn, may be computed in two stages by two consecutive [[pushout]]s as
+
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{i_1} && \downarrow
+    \\
+    X &\stackrel{i_0}{\to}& Cyl(X)
+    \\
+    \downarrow && \downarrow 
+    \\
+    {*} &\to& cone(X) &\to& coker(f) 
+  }
+  \,.
+$$
+
+The first [[pushout]] here 
+
+$$
+  \array{
+     X &\stackrel{i_0}{\to}& Cyl(X)
+     \\
+     \downarrow && \downarrow
+     \\
+     {*} &\to& cone(X)
+  }
+$$
+
+is  the **cone** over $X$: the result of taking the [[cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[point]].
+
+The remaining [[pushout]]
+
+$$
+  \array{
+    X &\stackrel{f}{\to}& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    cone(X) &\to& coker(f) & =: cone(f)
+  }
+$$
+
+is the **mapping cone** of $f$:
+
+this is the result of taking that _other_ remaming end of the cyclinder and gluing that to $Y$, using the identification given by $f$.
+
+The geometric intuition behind this is best seen in the archetypical example of the [[model category]] [[Top]]. See the examples below.
+
+
+#Examples#
+
+##In Top##
+
+The construction is geometrically most obvious in the category [[Top]] of [[topological space]]s.
+
+Here for $I = [0,1]$ the standard [[interval object]] we may take the [[cylinder object]] to be $Cyl(X) = X \times I$, literally the cylinder over $X$. 
+
+Given a continuous map $f:X\to Y$, the 
+[[topological space]] $cone(f)$ is
+
+$$
+  X\times I \cup_{f} Y
+$$
+
+(here for all $x\in X$, $(x,1)$ is identified with $f(x)$) modulo the contraction of $X\times \{0\}$ to a point. 
+
+When 
+
+Singular chain complex functor from [[Top]] to the 
+[[category of chain complexes]] of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
+
+
+##In additive categories with translation##
 
 Let $C$ be an [[additive category]] [[category with translation|with translation]] $T=[1] : C \to C$. Let $X$ and $Y$ be two [[differential object]]s in $(C,T)$ and $f : X \to Y$ any [[morphism]] in $C$. 
 
@@ -65,13 +179,3 @@ $$ A\to Cyl(u)\to Cone(u)\to A[1]$$
 
 for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly induced by $u$. 
 
-#In Top#
-
-A more geometric version of the mapping cone construction exists in the category [[Top]] of [[topological space]]s.
-
-Given a continuous map $f:X\to Y$, define the 
-[[topological space]] $Cone(f)$ as the mapping cylinder which is the amalgamated sum $X\times I \cup_{f} Y$
-(here for all $x\in X$, $(x,1)$ is identified with $f(x)$) modulo the contraction of $X\times \{0\}$ to a point. 
-
-Singular chain complex functor from [[Top]] to the 
-[[category of chain complexes]] of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
