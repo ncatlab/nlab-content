@@ -11,21 +11,36 @@ Barring opinions whether zero should be a natural number, in SEAR we have sets $
 
 ## Two and above ##
 
-Now assume we have defined a set $\mathbf{n}$ with $n$ elements, $1,\ldots,n$. Denote by $\underline{1},\ldots,\underline{n}$ the corresponding subsets each with one element. From axiom 3 we have a power set $P\mathbf{n}$. Let $\phi_{n+1}:\mathbf{1} \looparrowright P\mathbf{n}$ be a relation such that $\phi_{n+1}(*,\underline{i})$ for $i=1,\ldots,n$ and $\phi(*,\mathbf{n})$ where are are blurring the line between subsets of $\mathbf{n}$ and elements of $P\mathbf{n}$ (DR: someone tell me either that this is ok, or how to phrase it better).
+To define $\mathbf{2}$ we consider $P\mathbf{1}$. In a classical setting, this would be a two-element set, but not so for intuitionistic SEAR. We know that $\mathbf{1}$ has at least two subsets, namely $\empty$ and $\mathbf{1}$, so we let $\mathbf{2}$ be the subset of $P\mathbf{1}$ consisting of the corresponding elements. Continuing to higher numbers, we know that $\mathbf{n}$ has $n$ elements, so $n$ one-element subsets. Together with another \'obvious\' subset, this gives a set with $n+1$ elements.
+
+More formally, let $\phi_2:\mathbf{1} \looparrowright P\mathbf{1}$ be the relation such that $\phi_2(*,empty)$ and $\phi_2(*,\mathbf{1})$. Then a tabulation $|\phi_2|$ has two elements. Let us fix one of these and call it $\mathbf{2}$.
+
+Now assume we have defined a set $\mathbf{n}$ with $n$ elements, $1,\ldots,n$, where $n \geq 2$.  From axiom 3 we have a power set $P\mathbf{n}$. Let $\phi_{n+1}:\mathbf{1} \looparrowright P\mathbf{n}$ be a relation such that $\phi_{n+1}(*,u)$  whenever the subset $\{ i | \epsilon(i,u)\}$ of $\mathbf{n}$ has either exactly one element or is equal to all of $\mathbf{n}$.
 
 +--{: .query}
-[[Mike Shulman]]: I think it's fine, though AN might object.  A more formal thing to say would be that $\phi_{n+1}(*,u)$ whenever the subset $\{ i | \epsilon(i,u)\}$ of $\mathbf{n}$ has either exactly one element or is equal to all of $\mathbf{n}$.
+[[Mike Shulman]]: I think it's fine, though AN might object.  A more formal thing to say would be that $\phi_{n+1}(*,u)$ whenever the subset $\{ i | \epsilon(i,u)\}$ of $\mathbf{n}$ has either exactly one element or is equal to all of $\mathbf{n}$. 
 
 However, I don't think your definition works when $n=1$, since in that case, $\underline{1} = \mathbf{1}$!  Perhaps instead of $\phi(*,\mathbf{n})$ you want $\phi(*,\emptyset)$?
+
+[[David Roberts]]: I've fixed the problem with $\mathbf{2}$, using Toby's original suggestion, incorporated the more formal suggestion you made for $\phi_{n+1}$ and added a new definition below.
 =--
 
 Then a tabulation of $\phi_{n+1}$ will have $n+1$ elements and we fix one of these as $\mathbf{n+1}$.
 
 The construction on $\mathbf{1},\mathbf{2},\ldots$ only requires a fragment of SEAR, namely axioms 0,1,2 and 3, and even holds in the analogous fragment of bounded SEAR.
 
-## Alternative approach ##
+### Alternative definition ###
 
-As suggested by Toby one could take as an axiom the existence of $\mathbf{2}$, together with axioms 0,1 and 2 of SEAR, instead of powersets. Then Collection gives binary coproducts, so we could define $\mathbf{n}$ as $\mathbf{1}\coprod(\mathbf{1} \coprod ( \ldots\coprod \mathbf{1})\ldots)$ ($n$ times). (DR: this needs spelling out better, with tabulations, but that's the general idea).
+To avoid having to treat $\mathbf{2}$ as a special case, we can use another definition, again starting from $\mathbf{0},\mathbf{1}$ as before.
+
+Assume we have defined $\mathbf{n}$ for $n \geq 1$. Then let $\psi_{n+1}:\mathbf{1} \looparrowright P\mathbf{n}$ be the relation such that $\psi_{n+1}(*,u)$ whenever the subset $\{ i | \epsilon(i,u)\}$ of $\mathbf{n}$ has either exactly one element or no elements. A tabulation $|\psi_{n+1}|$ has $n+1$ elements, and fixing one of these we denote it by $\mathbf{n+1}$.
+
+This definition holds in the same fragment of (bounded) SEAR as described above.
+
+
+## Replacing the power set axiom by something else ##
+
+As suggested by Toby, one could take as an axiom the existence of $\mathbf{2}$, together with axioms 0,1,2 and 5 of SEAR, instead of powersets (axiom 3). From Collection we get binary coproducts, so we could define $\mathbf{n}$ as $\mathbf{1}\coprod(\mathbf{1} \coprod ( \ldots\coprod \mathbf{1})\ldots)$ ($n$ times). (DR: this needs spelling out better, with tabulations, but that's the general idea).
 
 
 ## Discussion ##
