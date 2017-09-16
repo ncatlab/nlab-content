@@ -16,3 +16,5 @@ However, one of the important insights of category theory is that in arbitrary c
 * For $C = [D^{op}, Set]$  a [[presheaf]] category and for $I = \Delta_{pt} = (d \mapsto \{\bullet\})$ the presheaf constant on the singleton set, the generalized elements of a presheaf $F$ are the _global sections_ of this presheaf, equivalently these are the elements in the [[limit]] set over $F$.
 
 * Again for $C = [D^{op}, Set]$ and $I=D(-,d)$ a [[representable functor|representable]] presheaf, the generalized elements of $F$ at stage $d$ are precisely the elements of the set $F(d)$, by the [[Yoneda lemma]].
+
+* An [[element of an abelian category]] is an equiavalence class of generalised elements.
