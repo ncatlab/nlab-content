@@ -12,6 +12,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-27
+
+*  [[Toby Bartels]]:
+   *  If people don\'t like having several entries in one day per Mike\'s request, another option (hopefully good enough for Mike) is to move your entire list up to the top when you add to it (being sure to add to the top of your list too).
+   *  Finn has nothing to apologise for at [[context]].
+   *  Zoran and I are discussing terminology at [[projective limit]].
+   *  Zoran and Mike are discussing terminology at [[representable functor]] (I only made a more philosophical comment).
+   *  Compare [[nice category of spaces]] with [[convenient category of topological spaces]].
+   *  I accept Mike\'s terminology at [[set theory]].
+   *  I refactored [[kernel]] to use primarily the equaliser definition in any pointed-enriched category.
+
 # 2009-03-26
 
 * [[Mike Shulman|Mike]]:
