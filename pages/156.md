@@ -39,7 +39,7 @@ For convenience we add:
 
 ## Uniqueness of constructions
 
-It is well-known that objects defined by [[universal properties]] in a category, such as [[limits]] and [[colimits]], are not unique on the nose, but only unique up to unique canonical isomorphism.  It can be tempting to suppose that in a *skeletal* category, where any two isomorphic objects are equal, such objects will in fact be unique on the nose.  However, under the most appropriate definition of "unique," this is *not* true (in general), because of the presence of automorphisms.
+It is well-known that objects defined by [[universal property|universal properties]] in a category, such as [[limits]] and [[colimits]], are not unique on the nose, but only unique up to unique canonical isomorphism.  It can be tempting to suppose that in a *skeletal* category, where any two isomorphic objects are equal, such objects will in fact be unique on the nose.  However, under the most appropriate definition of "unique," this is *not* true (in general), because of the presence of automorphisms.
 
 More explicitly, consider the notion [[cartesian product]] in a category.  Although we colloquially speak of "a product" of objects $A$ and $B$ as being the *object* $A\times B$, strictly speaking a product consists of the object $A\times B$ *together with* the projections $A\times B\to A$ and $A\times B\to B$ which exhibit its universal property.  Thus, even if the category in question is skeletal, so that there can be only one object $A\times B$ that is a product of $A$ and $B$, in general this object can still "be the product of $A$ and $B$" in many different ways.
 
