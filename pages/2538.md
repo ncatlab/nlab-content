@@ -69,3 +69,6 @@ the concept originates in ...
 A comprehensive textbook discussion is in chapter II, section 1 of 
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]].
+
+
+[[!redirects smooth loci]]
