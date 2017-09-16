@@ -3,13 +3,13 @@
 Recall that a [[Kan complex]] is a special [[simplicial set]] that [[homotopy hypothesis|behaves like]] a combinatorial model for a [[topological space]].
 
 
-The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|pointed]]* Kan complex) are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological sphere modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. Of course, they only tell you something about the connected component of the Kan complex that contains the base point, so sometimes it is assumed that $X$ is connected, but see below!
+The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|pointed]]* Kan complex) are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological sphere modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. Of course, they only tell you something about the connected component of the Kan complex that contains the base vertex, so sometimes it is assumed that $X$ is connected, but see below!
 
 Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of ordinary [[homotopy group]]s.  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
 
-As for ordinary homotopy groups, an $n$th simplicial homotopy 'group' is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] $0$-[[0-groupoid|groupoid]].  That is, for $n = 0$, it is not a group at all but rather a [[pointed set]]; for $n = 1$, it is a [[group]]; and for $n \geq 2$, it is an [[abelian group]]. 
+As for ordinary homotopy groups, an $n$th simplicial homotopy 'group' is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] $0$-[[0-groupoid|groupoid]].  That is, for $n = 0$, it is not a group at all but rather a [[pointed set]]; for $n = 1$, it is a [[group]]; and for $n \geq 2$, it is an [[abelian group]].  On the other hand, we could drop the base vertex and move to the $n$th simplicial homotopy 'groupoid', which is really an $n$-[[n-groupoid|groupoid]].  By a special case of the [[delooping hypothesis]] (a case known to be true for many if not all practical definitions of $n$-groupoid), every pointed (that is, $0$-tuply groupal) $n$-groupoid has an $n$-tuply groupal $0$-groupoid, which gives the connection between these.
 
-The case $n = 0$ is a bit of an anomaly as if we restrict to $X$ being connected and pointed, $\pi_0(X)$ will just a single point, the connected component of the base point. If we allow a pointed $X$ which is not connected then we only get information on that one connected component. There are various ways out of this dilemma, and going towards a groupoid based definition is a good one in our context. We can chose a basepoint in each component for instance and obtain a groupoid which is a disjoint union of groups. We could choose all of $X_0$ and include the fundamental groupoid information on change of basepoints along 1-simplices, and there are various intermediate and other alternative forms. Few give us groups, but we will still, perhaps, stubbornly, often use the terminology of homotopy 'groups', so as not to confuse things too much. Which version you need, depends on the use it is being put to.
+If we restrict to $X$ being connected (and pointed), then $\pi_0(X)$ will be just a single point. If we allow a pointed $X$ which is not connected, then $\pi_0$ will tell us how many connected components there are, but $\pi_n$ for $n \gt 0$ will only give information about the connected component of the base vertex. There are various ways out of this dilemma, and going towards a groupoid-based definition is a good one in our context. Most basically, we can chose a base vertex in each component and obtain (for every $n$, even $n = 0$) a [[groupoid]] which is a disjoint union of groups. Or we could choose all vertices at once and include the [[fundamental groupoid]] information on change of base vertices along edges ($1$-simplices), and there are various intermediate and other alternative forms. Few give us groups, but we will still, perhaps, stubbornly use the terminology of homotopy 'groups', so as not to confuse things too much. Which version you need, depends on the use it is being put to.
 
 
 #Definition# 
@@ -107,13 +107,17 @@ But okay, I am not dogmatic about issues at that fine-grained level of pedantery
 One shows as in the case for topological spaces that 
 there is naturally the structure of a group on $\pi_n(X,x)$ for all $x \in X_0$, $n \geq 1$ that this is an abelian group for all $n \geq 2$.
 
-**Definition (group structure on $\pi_n(X,x)$)**
++-- {: .un_defn}
+###### Definition (group structure on $\pi_n(X,x)$)
   
 ...
+=--
 
-**Lemma**
++-- {: un_lemma}
+###### Lemma
 
 For $n \geq 2$ all the groups $\pi_n(X,x)$ are abelian.
+=--
 
 
 # Weak homotopy equivalences of Kan simplicial sets#
@@ -130,21 +134,23 @@ $$
   f_* : \pi_n(X,x) \to \pi_n(Y,f(x))
 $$
 
-are [[isomorphism]]s for all choices of base point $x \in X_0$.
+are [[isomorphism]]s for all choices of base vertex $x \in X_0$.
 
 
 
 #Homotopy groups via Kan's loop group construction#
 
-Another way to get the group structure on the homotopy groups of  a Kan complex, $X$, is via its [[Dwyer-Kan loop groupoid]] and the [[Moore complex]]. This gives a [[simplicial groupoid|simplicially enriched groupoid]] $G(X)$, or if we restricted to the pointed case, and just look at the loops at the base point, a simplicial group. (We will assume for the sake of simplicity $X$ is _reduced_, that is to say, $X_0$ is a singleton, and thus that $G(X)$ is a simplicial group.)
+Another way to get the group structure on the homotopy groups of  a Kan complex, $X$, is via its [[Dwyer-Kan loop groupoid]] and the [[Moore complex]]. This gives a [[simplicial groupoid|simplicially enriched groupoid]] $G(X)$, or if we restricted to the pointed case, and just look at the loops at the base vertex, a simplicial group. (We will assume for the sake of simplicity that $X$ is _reduced_, that is to say, $X_0$ is a singleton, and thus that $G(X)$ is a simplicial group.)
 
 The construction of $G(X)$ is then given by  the free group functor on the various levels, shifted by 1, and with a twist in the zeroth face map (see [[Dwyer-Kan loop groupoid]] and simplify to the reduced case.) 
 
 
 
-**Proposition**
-There is an isomorphism between $\pi_n(X)$ as defined above and $H_{n-1}(NG(X))$, the $n-1$th homology group of the [[Moore complex]] of the simplicial group, $G(X)$.
++-- {: .un_prop}
+###### Proposition
 
+There is an isomorphism between $\pi_n(X)$ as defined above and $H_{n-1}(\mathcal{N}G(X))$, the $(n-1)$th homology group of the [[Moore complex]] of the simplicial group, $G(X)$.
+=--
 
 +-- {: .query}
 The fact that the n-1th homology of $NG(X)$ is $\pi_n(X)$ in the reduced case is, for me, a strong argument to **define** the type of object that should be studied to be $H_{n-1}(NG(X))$ in general, that is to take ALL the base points at once and to consider the result as a groupoid which is the disjoint union of the homotopy groups at the various base points. That leads to a neat theory when you look for models of homotopy n-types.  If 'properly' done the $\pi_1$ is then the fundamental groupoid, and you get all the change of base point actions in the same set of machinery. What do you all think?  _ Tim
