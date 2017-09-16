@@ -1,10 +1,14 @@
-[[!redirects $n$-category]]
-[[!redirects n-categories]]
-[[!redirects weak n-category]]
-[[!redirects weak n-categories]]
+
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
 
 
 $n$-categories are the main subject of [[higher category theory]], and give their name to the $n$-[[About|Lab]].
+
+#Contents#
+* automatic toc goes here
+{:toc}
 
 #Idea#
 
@@ -99,3 +103,8 @@ Someone should add some more references!
 +--{: .query}
 Please add any other comparisons you are aware of!
 =--
+
+[[!redirects $n$-category]]
+[[!redirects n-categories]]
+[[!redirects weak n-category]]
+[[!redirects weak n-categories]]
