@@ -7,7 +7,7 @@ Type theory is a branch of mathematical [[logic]] which studies elements of vary
 
 # An introduction for category-theorists
 
-One way to look at type theory, from the point of view of a category theorist, is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.
+One way to look at type theory, from the point of view of a category theorist, is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  Note that this type of semantics is only relevant to *extensional* type theory; see the section on intensional vs. extensional type theory below.
 
 ## Categorical semantics of type theory
 
@@ -126,17 +126,31 @@ This works, but the model we get (though small, even countable, and concrete) is
 The slicker categorial approach described above using categories of [[contexts]] does produce a really canonical model, but only with an expanded notion of "model": instead of each $[A]$ being a set, we take it to be an object of some fixed category $\mathcal{S}$ with enough structure.  We can then build a much more "tautological" model because we have the freedom to build the category $\mathcal{S}$ along with the model.  In the resulting model, the true statements are *precisely* the statements provable in the theory, and it's even initial among all models of the theory in the appropriate sort of category.
 
 
-# Type theory versus set theory
+## Type theory versus set theory
 
 Blog discussions about the difference between type theory and set theory:
 
 * [one](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026984)
 * [two](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c028459)
 
+# Intensional vs Extensional
+
+(to be written...)
 
 # Formal definitions
 
 (It might be nice to actually *define* a type theory, at least in some easy restricted case.)
+
+# Particular type theories
+
+Some particular type theories which have or deserve pages of their own:
+
+* [[Martin-Löf dependent type theory]]
+* [[pure type system]]
+* the [[calculus of constructions]]
+* the [[internal logic]] of various kinds of categories
+* the [[internal logic of a 2-topos]]
+* the [[internal logic of an (∞,1)-topos]]
 
 
 [[!redirects dependent type theory]]
