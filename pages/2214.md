@@ -24,7 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-09-04
+
+*  [[Toby Bartels]]:  I have some opinions on the [[Timeline of category theory and related mathematics]], which I will put *there* where they belong.
 
 * [[Zoran Skoda]]: created an entry on [[Maxim Kontsevich]] as his name is quoted in timeline and some other places in nlab.
 
@@ -34,7 +37,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Rafael Borowiecki]]: Zoran, the migration will ultimately depend on if i am able to do the linking. I could completely not care about the nLab timeline but i want it to look good. The long entries will be as short/long as they are now. I will try not to loose anything and discuss the entries i would remove. [AST](http://ncatlab.org/nlab/show/algebraic+set+theory) alteady exist as do pages for the other long entries. Regarding Cayley i have seen the paper long before and have it on my computer. Cayley calculates invariant theory in coordinates. The paper do not define any categorical concept or prove a categorical theorem. Nor do it introduce any method used later in category theory, it is just polynomial algebra. I would say it don't start homological algebra. You could put it as that it anticipated homological algebra but i don't think cayley thought about this paper that abstractly.
 
 * [[Zoran Škoda]]: Rafael, when you opened timeline in nlab you did NOT tell us, the conditions/plan of syncing, which is fundamentally incompatible with nlab and wikipedia as each of them has limitations AND advantages. For example, we like book entries in nlab; timeline has some entries in the tabel very short, some hugely long: e.g. the wikipedia has huge entry of about alf a page on a book of Joyal and Moerdijk on algebraic sets. Why not have a separate entry in nlab for that book with all the material and in nlab entry for that book just say book  algebraic sets, yeas and that's it. Second new migration would take tens of hours of time to make links compatible with entries in nlab, some of which can not be automatic. How Cayley's paper benefited category theory ? Jee, you have tens of etries on homological algebra; including the Hilbert's which are about the SAME stuff, just much later. How do you expect a collaboration on an entry if you are going to just decide out of your taste what is important ? Even if we talk about papers which wree anticipating developments in other works by over half a century ? You are concerned about syncing and difficulties. There is a wikipedia and there is nlab. When it is easy to borrow and coopearte why not. When it is difficult and creates problem just the heck with it, let's develop aturally two versions. No sync...
-
 
 * [[Rafael Borowiecki]]: Replied at the timeline of category theory. Zoran, my original plan was to have the timelines synced to optimize both timelines and i will try to do so. I will also try to have good links. Right now the wikipedia timeline contains almost all entries and information in the nLab timeline and very much more. So at the moment it would be nLab that benefits most. I will look into your changes once again and try to keep them. It is easier to only copy the links than to find them. You have not seen the new version but, as for Cayley i just don't see how his calculation benefited category theory so i removed it, but this is a discussion for the timeline page. I also recall removing the deRham theorem since it don't really fit with the structure of the timeline. I have not included dualities. But this one i can change back since it was a very important discovery about cohomology and there are no rules to follow any structure. I will check more now. Then i wish people added so much to the timelines it would be impractical to sync them. Now that nLab is fast enough it should go much better to edit the links.
 
@@ -101,6 +103,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Jon Awbrey]] made a first pass at formatting [[Trimble on ETCS II]], but it will need to be checked.
 
   * [[Urs Schreiber]]: thanks! That's very useful. i was hoping somebody would find the time to do that eventually. Great that you did it.
+
 
 ## 2009-09-03
 
