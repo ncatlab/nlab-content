@@ -1,3 +1,2 @@
-See [[A-infinity-algebra]].
-
-category: redirect
+&lt; [[A-infinity algebra]]
+[[!redirects A-infinity algebra -- history]]
