@@ -70,6 +70,7 @@ I removed my comments about triangles commuting; go ahead and write about the re
 
 [[Mike Shulman|Mike]]: I added a new embedding of $Top$ in $QGau$, which seems to me more likely to be (co)reflective.
 
+_Toby_:  Ah yes, I think that that\'s the good one that I wasn\'t finding.
 =--
 
 ## Reflections
