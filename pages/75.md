@@ -93,6 +93,8 @@ If we want to found mathematics in ETCC we want to work on nice categories rathe
 Mike, I spent about two weeks trying to figure out how to get around Toby's objection 'topology' and now you chuck four more examples at me.  My gut feeling is that the category of directed graphs is found by taking the skeleton of CAT, that metric locales are regular locales with some extra condition to ensure a finite basis, that Toby can make semigraphs etc.
 
 Since the world of categories (about 50 years old) is currently less familiar than the world of sets (about 150 years old) ETCS is bound to be easier in the short term.  However, if we didn't want a new perspective on existing maths, we wouldn't be investigating alternative foundations.  To my mind, ETCC offers better chances of revealing something in an unexpected new light.
+
+_Toby_:  Ah well, I agree that one should do locale theory!  OK, if your point is that, however convenient ETCS may be as a foundation of *existing* mathematics, working in ETCC is likely to be convenient for useful *future* mathematics, then you may be right!
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
