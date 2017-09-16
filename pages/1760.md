@@ -119,6 +119,17 @@ And notice that in every other context, you wouldn't hesitate to use several cop
 
 Remarkably, I should add that I had this discussion before with professional pure mathematicians. Once they stopped a talk I gave when I wrote $\bullet \stackrel{g}{\to} \bullet$ to the board, complaining that Ii drew two copies of that bullet. If it's just about saying quickly what $\mathbf{B}G$ is like that's fine with me, but for doing anything nontrivial with it it becomes useless. Try drawing $\mathbf{B}G$ for $G$ a 2-group or a 3-group! Not to speak of drawing the transformations between functors between these.
 
+_[[Eric]]_: Here is an attempt to convert one of your diagrams above to a single $\bullet$ version.
+
+[[delooping1.jpg:pic]]
+
+I'm not saying one way is better than the other. I'm just making a statement about my inability to process some of the diagrams. Some diagrams are not even amenable to these "3d projections", but for those that can be, it would help me to convert them.
+
+_[[Eric]]_: Here is another attempt in case that one is not quite right...
+
+[[delooping2.jpg:pic]]
+
+
 ***
 
 _Eric_: Is there a difference between $Hom$ and $hom$? For example, [[hom-set]] says $hom$, but [[internal hom]] has $Hom$, $hom$, and $HOM$.
