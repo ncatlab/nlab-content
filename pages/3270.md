@@ -42,5 +42,6 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * M. C. N. Cheng, E. P. Verlinde, _Wall crossing, discrete attractor flow and Borcherds algebra_, SIGMA 4 (2008), 068, 33 pages, [pdf](http://www.emis.de/journals/SIGMA/2008/068/sigma08-068.pdf)
 
+* Masahito Yamazaki, _Crystal melting and wall crossing phenomena_, Ph.D. thesis, [arxiv/1002.1709](http://arxiv.org/abs/1002.1709)
 
 Related entries [[BPS state]], [[D-module]], [[cluster algebra]], [[quiver]], [[representation theory]].
