@@ -104,6 +104,10 @@ Some people just say 'oidification' for horizontal categorification, in which ca
 
 * In **directed categorification**, which may also be called **directification** or **laxification**, we allow morphisms that were previously required to be invertible to instead be noninvertible (i.e. "directed").
 
++-- {: .query}
+This all looks good, with one complaint: I don\'t think anyone would consider laxification (passage from sets to posets, groupoids to categories, categories to $2$-posets, etc) to be 'categorification'.  That is, the term 'directed categorification' works best for the *combination* of groupoidal categorification followed by laxification.  Do you agree, Mike?  ---Toby
+=--
+
 If you like [[negative thinking]], then instead of saying that categorification 'replaces [[sets]] by [[categories]]' (to quote Wikipedia), you can say that we replace [[truth values]] by sets, especially the truth values of [[equality|equations]].  That is, we acknowledge that there may be many different ways in which something may be true, and in particular many different ways in which two things may be the same.  And then it is meaningful to ask whether two ways in which these things are the same are the same way (and if so, whether two ways that *they* are the same are the same way, etc).
 
 However, when we apply "replace truth values by sets" to the truth values of the equality relation of a set, we end up with a groupoid, since the equality of a set is symmetric.  Thus, while two [[elements]] of a set simply may (or may not) be equal, two [[objects]] of a [[groupoid]] may be [[isomorphic]] in many different ways. And while two [[parallel morphisms|parallel isomorphisms]] in a groupoid may be equal, two parallel [[equivalences]] in a $2$-groupoid may be isomorphic in many different ways.  Thus, this gives us groupoidal categorification, or homotopification. 
