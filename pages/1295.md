@@ -38,3 +38,4 @@ This is theorem 2 in section IV, 7 of
 * the dependent product plays a role in the definition of [[universe in a topos]].
 
 [[!redirects dependent products]]
+[[!redirects dependent sum]]
