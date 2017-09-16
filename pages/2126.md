@@ -5,6 +5,11 @@ _[[RonnieBrown]]_ Query: Why is the notation $\Pi(X)$ used here? The old notatio
 
 There should also be some analysis of why globular or simplicial constructions are used rather than cubical ones. 
 The case needs to be made, as this analysis of aims is useful. 
+
+[[Urs Schreiber]]: I believe that [[Toby Bartels|Toby]] copied material which I typed elsewhere, so this is my fault. But I have adopted the habit of writing $\Pi(X)$ instead of $S(X)$, because the singular complex $S(X)$ _is_ the fundamental $\infty$-groupoid in its Kan complex incarnation. I find it conceptually very useful to make that explicit and I felt like here on the $n$Lab I can allow myself to do this. But I am prepared to be outvoted. In any case, we should certainly have a discussion of the notation and certainly of the different models: globular, simplicial, cubical. 
+
+I'd do it myself if I had the time right now, but I have to run. Sorry.
+
 =--
 
 
