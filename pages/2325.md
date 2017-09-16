@@ -4,6 +4,31 @@
 The generalizatoin of the notion of [[localic topos]]
 to the context of [[(∞,1)-topos]]es.
 
+recall from somewhere that for $X$ an [[(infinity,1)-topos]]
+the symbols $\tau_{n-1} X$ denote the essential image of the truncation
+functor $\tau_{n-1} : X \to X$. Recall from the warning remark
+6.4.5.10 and the discussion above it that this should really be thought of
+as $\tau_n X$ if we think of $X$ as a [[topological space]].
+
+Definition (n-localic $(\infinity,1)$-topos)
+
+def 6.4.5.8 in [[Higher Topos Theory]]
+
+For $X,Y$ $(\infty,1)$-toposes, 
+let $Geom(X,Y) \subset Fun(X,Y)$ denote the subcategory of the [[(infinity,1)-category of (infinity,1)-functors]] $X \to Y$
+that are [[geometric morphism]]s of $(\infty,1)$-toposes.
+
+An [[(infinity,1)-topos]] $X$ is $n$-localic if for any other
+$(\infty,1)$-topos $Y$ the canonical map
+
+$$
+  Geom(X,Y) \to Geom(\tau_{n-1}X, \tau_{n-1}Y)
+$$
+
+is an equivalence.
+
+
+
 #References#
 
 section 6.4.5 of 
