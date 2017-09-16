@@ -14,6 +14,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-09
 
+* [[Zoran Skoda]] 
+
+  * I STRONGLY disagree with creation of spurios PLURAL items when they are of NO use. Namely like Eric just created new version of [[bialgebra cocycle]] to say that it redirects [[bialgebra cocycles]], while it is simpler and better from memory point of view to write [[bialgebra cocycle]]s. Why having whole page archived and one more page to browse in history just to distiguish if s is before or after the brackets ?? Dear Eric we have thousands of items to enter and there will be thousands of new pages in future and why to increase entropy and spend yuor valuable time on this -- please take some book and help us entering something NEW and not messing with plurals and creating new versions for nothing. I have hard time browsing history when something is messed up and if I am going to spend it on such a nonsense than I will leave the idea to enter new items myself.  
+
+  * created [[bialgebra cocycle]], [[Drinfel'd twist]]
+
+  * by the way how does one download the source of a previous version ? I sometimes create a page and then there are changes after and I want to have my file for other purposes with what I wrote and I do not know how to access it. 
+
 * [[John Baez|John]] 
 
   * I did some work on the [[Timeline of category theory and related mathematics]], and proposed some new guidelines for how it should look. 
