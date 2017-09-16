@@ -4,7 +4,7 @@ A **von Neumann algebra** is a unital $*$-subalgebra of the algebra of bounded o
 
 #Relevance#
 
-The [[Gel'fand-Neumark theorem]] states that there is a contravariant [[equivalence of categories|equivalence]] between the category of commutative von Neumann algebras and the category of localizable [[measurable space|measurable spaces]]; that is, the [[opposite category]] of one is equivalent to the other. General von Neumann algebras are seen then as a 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].
+The [[Gel'fand-Naimark theorem]] states that there is a contravariant [[equivalence of categories|equivalence]] between the category of commutative von Neumann algebras and the category of localizable [[measurable space|measurable spaces]]; that is, the [[opposite category]] of one is equivalent to the other. General von Neumann algebras are seen then as a 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].
 
 The importance of von Neumann algebras for ([[higher category theory|higher]]) [[category theory]] and topology lays in the evidence that von Neumann algebras are deeply connected with the low dimensional [[quantum field theory]] (2d CFT, TQFT in low dimensions, inclusions of factors, quantum groups and knot theory; elliptic [[cohomology]]: works of Wenzl, Vaughan Jones, Anthony Wasserman, Kerler, Kawahigashi, Ocneanu, Szlachanyi etc.). 
 
