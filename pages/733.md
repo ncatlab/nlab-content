@@ -1,3 +1,2 @@
-See [[direction]].
-
-category: redirect
+&lt; [[directed set]]
+[[!redirects directed set -- history]]
