@@ -193,7 +193,9 @@ This is actually somewhat subtle and gets into some transfinite combinatorics, f
 
 A [[combinatorial model category]] is a [[model category]] that is in particular a locally presentable category.
 
+### Orthogonal subcategory problem ### 
 
+Given a class of morphisms $\Sigma$ in a locally presentable category, the answer to the [[orthogonal subcategory problem]] for $\Sigma^\perp$ is affirmative if $\Sigma$ is small, and is affirmative for any class $\Sigma$ assuming the large cardinal axiom known as [[Vopenka's principle]]. 
 
 ## References ##
 
