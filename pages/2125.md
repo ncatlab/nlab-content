@@ -2,7 +2,7 @@
 
 The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)simplicial groups and (co)chain complexes.
 
-Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monmoidal structure, either strictly or in their suitable [[higher category theory|higher categorical]] sense.
+Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monoidal structure, either strictly or in their suitable [[higher category theory|higher categorical]] sense.
 
 # General discussion #
 
