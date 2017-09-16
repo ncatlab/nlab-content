@@ -49,7 +49,7 @@ A locally $(\kappa = \aleph_0)$-presentable category is called a **locally finit
 There are various equivalent statements of this definition.
 
 +-- {: .un_prop}
-###### Proposition (as finite limit sketches)
+###### Proposition (as limit sketches)
 
 Locally presentable categories are precisely the categories of [[sketch|models of limit-sketches]].
 
@@ -62,7 +62,39 @@ This is theorem _xyz_ in _AdRo_ .
 
 =--
 
+This proposition extrapolates part of the Gabriel-Ulmer duality (see below), which concerns locally finitely presentable categories: 
 
++-- {: un_prop} 
+
+###### Proposition (as finite limit sketches) 
+
+Every locally finitely presentable category $A$ is equivalent to the category of finite limit preserving functors $C \to Set$, for some small finitely complete category $C$. 
+
+=--
+
+### Gabriel-Ulmer duality 
+
+Let $Lex$ denote the 2-category of small finitely complete categories, finitely continuous (i.e., finite limit preserving) functors, and natural transformations between them. 
+
+Let $LFP$ denote the 2-category of locally presentable categories, right adjoint functors which preserve filtered colimits, and natural transformations between them. 
+
++-- {: .un_prop} 
+
+###### Theorem (Gabriel-Ulmer duality) 
+
+There is a contravariant biequivalence 
+
+$$Lex^{op} \sim LFP$$ 
+
+which sends a finitely complete category $C$ to the category of models of $C$, i.e., the category of left exact functors $C \to Set$. 
+
+=-- 
+
++--{.query} 
+
+This deserves much further expansion, as it is a basic starting point for the more general study of locally presentable categories. 
+
+=--
 
 ### Variations ###
 
@@ -93,21 +125,23 @@ The locally $\kappa$-presentable categories for $\kappa = \aleph_0$.
 
   * a set $S \in Set$ is a $\kappa$-[[compact object]] precisely if it has cardinality $|S| \lt \kappa$. So all finite sets are $\aleph_0$-compact. 
 
+* More generally, by Gabriel-Ulmer duality, $Set^C$ is locally finitely presentable if $C$ is small. For, the finite limit completion of $C$, $Lex(C)$, is also small, and $Set^C$ is equivalent to the category of finitely continuous functors $Lex(C) \to Set$. 
+
+* More generally still, if $A$ is locally finitely presentable and $C$ is small, then $A^C$ is locally finitely presentable. 
+
 +--{.query} 
 
-_Todd_: Isn't any functor category $Set^C$, $C$ small, locally finitely presentable? It is equivalent to the category of finite-limit-preserving functors $Lex(C) \to Set$, where $Lex(C)$ is the free finite limit completion of $C$; then use the theorem cited above from Adamek-Rosicky. 
-
-This subsumes three of the four examples under locally presentable category. 
+Citation: paper by Lack and Power. Will follow up on this at some point. 
 
 =--
 
-* Analogously categories such as [[Grp]] are locally finitely presentable. 
+* The category of algebras of a Lawvere theory, for example [[Grp]], is locally finitely presentable. A $T$-algebra $A$ is finitely presented if and only if the hom-functor $Alg_T(A, -)$ preserves filtered colimits, and any $T$-algebra can be expressed as a filtered colimit of finitely presented algebras. 
 
 +--{.query} 
 
-_Todd_: More precisely, it should be noted that any category of algebras of a Lawvere theory $T$ is locally finitely presentable, being equivalent to the category of finite-limit-preserving functors $C \to Set$ where $C$ is opposite to the category of finitely presented $T$-algebras. 
+This deserves to be expanded upon. 
 
-=-- 
+=--
 
 * The category of coalgebras over a field $k$ is locally finitely presentable; similarly the category of commutative coalgebras over $k$ is locally finitely presentable. 
 
@@ -119,11 +153,15 @@ _Todd_: More precisely, it should be noted that any category of algebras of a La
 * the category [[FinSet]] of _finite_ sets is not locally finitely presentable, as it does not have all countable colimits.
 
 * [[Top]] is not locally finitely presentable.
+
+* The opposite of a locally presentable category (in particular, a locally finitely presentable category) is _never_ locally presentable, unless it is a poset. 
 =--
 
 ### Locally presentable categories
 
-* A [[poset]], considered as a category, is locally presentable precisely if it is a complete [[lattice]].
+* A [[poset]], considered as a category, is locally presentable precisely if it is a complete [[lattice]]. 
+
+The following three examples, being presheaf categories, are locally finitely presentable, thus _a fortiori_ locally presentable. They are important for the general study of $(\infty, 1)$-categories. 
 
 * the category [[SSet]] of [[simplicial set]]s;
 
@@ -131,9 +169,15 @@ _Todd_: More precisely, it should be noted that any category of algebras of a La
 
 * for $C$ a [[small category]] the [[functor category]] $Funct(C,SSet)$ of [[simplicial presheaf|simplicial presheaves]]. 
 
+More generally, we have the following stability theorems: 
+
+* If $A$ is locally presentable and $C$ is small, then $A^C$ is locally presentable. 
+
+* If $T$ is an accessible monad (a monad whose underlying functor is an [[accessible category|accessible functor]]) on a locally presentable category $A$, then the category of algebras $A^T$ is locally presentable. In particular, if $A$ is locally presentable and $i: B \to A$ is a reflective subcategory, then $B$ is locally presentable if $i$ is accessible.  
+
 +--{.query} 
 
-_Todd_: See also the first of the two query boxes above. Some questions: is true (or even obvious) that if $A$ is locally presentable and $C$ is small, then $A^C$ is locally presentable? Similar question, replacing "locally presentable" by "locally finitely presentable". Finally, if $B$ is locally presentable and if $i: A \to B$ is a reflective subcategory, is $A$ also locally presentable? Some of this may be addressed in Adamek-Rosicky, but I don't have that book and have never read it (this will be rectified soon), so I'm going off the seat of my pants in some of these queries. 
+This is actually somewhat subtle and gets into some transfinite combinatorics, from what I can gather. 
 
 =--
 
