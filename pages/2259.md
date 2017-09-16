@@ -17,3 +17,4 @@
 category: biography
 
 [[!redirects Sauders MacLane]]
+[[!redirects Saunders MacLane]]
