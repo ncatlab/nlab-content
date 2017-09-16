@@ -242,7 +242,7 @@ Clearly every element of $\widehat{\mathcal{A}}$ contains one of $\mathcal{A}$.
 The intersections of $\mathcal{A}$ and $\widehat{\mathcal{A}}$ are, however, the same.
 To see this, let $x \in X$.
 As $\mathcal{A}$ has empty intersection, there must be some $\phi \in F(\mathbb{R})$ for which $\phi(x) \ne \alpha(\phi)$.
-By stretching $\phi$ if necessary, we can assume that $|\phi(x) - \alpha(\phi)| > 1$ and thus that $x \notin \bigcap \widehat{\mathcal{A}}$.
+By stretching $\phi$ if necessary, we can assume that $|\phi(x) - \alpha(\phi)| \gt 1$ and thus that $x \notin \bigcap \widehat{\mathcal{A}}$.
 
 
 +-- {: .query}
