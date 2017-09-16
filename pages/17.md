@@ -70,7 +70,8 @@ Currently, the following stylish themes are available:
 * [nLab Stylish theme](http://userstyles.org/styles/17934) by [[Bruce Bartlett]].  This nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience!
 * [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
 
-## How to Download a Local Copy of the n-Lab ##
+
+## How to Download a Local Copy of the n-Lab {#download}
 
 The inbuilt export features of the n-Lab have been switched off.  However, it is still possible to get a local version of the n-Lab.  This is a _static_ version in that you cannot edit pages, but is complete and all the links correctly point to the pages on the local version.
 
