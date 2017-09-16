@@ -1,6 +1,6 @@
 ## Idea
 
-A Banach space is both a [[vector space]] and a [[metric space]], in a compatible way.  The finite-dimensional examples are all of the form $\mathbb{R}^n$, which is quite familiar; the tricky bit is to let the dimension be infinite.  Examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
+A Banach space is both a [[vector space]] and a [[metric space]], in a compatible way.  In finite dimensions, every $n$-dimensional real Banach space is linearly homeomorphic (though not linearly isometric!) to $\mathbb{R}^n$, which is quite familiar; difficulties and interest arise either when we consider finite-dimensional Banach spaces up to (near-)isometry, or when we look at infinite-dimensional examples.  Examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
 
 ## Definitions
 
