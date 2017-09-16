@@ -1,9 +1,13 @@
 
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 Twisted K-theory is a [[twisted cohomology]] version of [[K-theory]], where the twist is given by a cocycle in degree 3 [[Eilenberg-MacLane spectrum|ordinary cohomology]].
 
-# Definition #
+## Definition ##
 
 Let $Vectr$ be the stack of [[vectorial bundle]]s. (If we just take [[vector bundle]]s we get a notion of twisted K-theory that only allows twists that are finite order elements in their [[cohomology group]]).
 
@@ -62,7 +66,7 @@ This entry contains research ideas.
 
 =--
 
-# References #
+## References ##
 
 The basic idea underlying this description of twisted bundles as homotopies from the gerbe to the trivial gerbe but inside a category of "2-vector bundles" was (apparently first?) presented around secton 3.2 of
 
