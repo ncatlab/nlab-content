@@ -32,6 +32,4 @@ Locally compact spaces are closed under [[coproduct]]s in $Top$. They do not adm
 
 # Further properties #
 
-Locally compact spaces are in particular also
-
-* [[paracompact space]]s . 
+Locally compact spaces are [[paracompact space|paracompact]] whenever they are also Hausdorff and [[second countable space|second countable]].
