@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-11 #
 
+* [[David Corfield|David]]
+
+  * began [[Eckmann-Hilton duality]]. Referred to it from [[duality]], but maybe that page needs some adjustment. By the way, I still don't think I have answers to questions posed [here](http://golem.ph.utexas.edu/category/2009/04/cohomology.html#c023057) and below.
+
 * [[Urs Schreiber|Urs]]
 
   * added the coherence diagrams to [[braided monoidal category]]
