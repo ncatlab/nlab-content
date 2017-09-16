@@ -10,3 +10,5 @@ Since the most common dependent type theories include [[dependent product types]
 Sometimes all maps are display maps.  This happens particularly in extensional type theory, such as versions of the [[internal logic]] of categories that include dependent types.
 
 [[!redirects display maps]]
+[[!redirects display morphism]]
+[[!redirects display morphisms]]
