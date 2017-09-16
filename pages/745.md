@@ -128,6 +128,9 @@ The comma category $(f/g)$ comes with a canonical 2-cell in the square
 =--
 which is universal in the [[2-category]] [[Cat]]; that is, it is an example of a [[2-limit]] (in fact, it is a [[strict 2-limit]]).  Squares with the same universal property in an arbitrary 2-category are called _comma squares_ and their top left vertex is called a [[comma object]].
 
+# Further properties #
+
+* [[functors and comma categories]]
 
 # Discussion about terminology #
 
