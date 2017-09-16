@@ -11,34 +11,34 @@ Here standard smooth test spaces may be taken to be smooth [[manifolds]]. But si
 The category of **smooth space**s is the [[sheaf]] [[topos]]
 
 $$
-  SmoothSpaces := Sh(Diff)
+  SmoothSp := Sh(Diff)
 $$
 
-of [[sheaf|sheaves]] on a small version of the [[site]] [[Diff]] of smooth manifolds equipped with its standard [[coverage]] ([[Grothendieck topology]]) given by open covers of manifolds.
+of [[sheaf|sheaves]] on the [[site]] [[Diff]] of smooth manifolds equipped with its standard [[coverage]] ([[Grothendieck topology]]) given by open covers of manifolds.
 
-One may for instance take $Diff$ to be the category of [[manifolds]] _embedded_ into $\mathbb{R}^\infty$. This makes $Diff$ a [[small category]].
+Since $Diff$ is [[equivalence of categories|equivalent]] to the category of [[manifolds]] _embedded_ into $\mathbb{R}^\infty$, $Diff$ is an [[essentially small category]], so there are no size issues involved in this definition.
 
-But since manifolds themselves are defined in terms of gluing conditons, the [[Grothendieck topos]] $SmoothSpaces$ depends on much less than all of $Diff$.
+But since manifolds themselves are defined in terms of gluing conditons, the [[Grothendieck topos]] $SmoothSp$ depends on much less than all of $Diff$.
 
 Let
 
 $$
-  Balls := \{ (D^n_{int} \to D^m_{int}) \in Diff | n,m \in \mathbb{N}\}
+  Ball := \{ (D^n_{int} \to D^m_{int}) \in Diff | n,m \in \mathbb{N}\}
 $$
 
 and
 
 $$
-  CartesianSpaces := \{ (\mathbb{R}^n \to \mathbb{R}^m) \in Diff  | n,m \in \mathbb{N}\}
+  CartSp := \{ (\mathbb{R}^n \to \mathbb{R}^m) \in Diff  | n,m \in \mathbb{N}\}
 $$
 
-be the full [[subcategory|subcategories]] of $Diff$ on open balls and on cartesian manifolds, respectively. Then the corresponding [[sheaf]] [[topos]]s are still those of smooth spaces:
+be the full [[subcategory|subcategories]] $Ball$ and [[CartSp]] of $Diff$ on open balls and on cartesian spaces, respectively. Then the corresponding [[sheaf]] [[topos]]es are still those of smooth spaces:
 
 $$
   \begin{aligned}
-    SmoothSpaces &\simeq Sh(Balls)
+    SmoothSp &\simeq Sh(Ball)
     \\
-     & \simeq Sh(CartesianSpaces)
+     & \simeq Sh(CartSp)
   \end{aligned}
   \,.
 $$
@@ -48,7 +48,7 @@ $$
 * The category of ordinary [[manifolds]] is a
   full subcategory of smooth spaces:
   $$
-    Diff \hookrightarrow SmoothSpaces 
+    Diff \hookrightarrow SmoothSp 
     \,.
   $$
   When one regards smooth spaces concretely as sheaves
@@ -57,7 +57,7 @@ $$
 
 * The full [[subcategory]] 
   $$
-    DiffeologicalSpaces \subset SmoothSpaces
+    DiffSp \subset SmoothSp
   $$
   on [[concrete sheaf|concrete sheaves]] is 
   called the
@@ -66,11 +66,11 @@ $$
   * The standard class of examples of smooth spaces that motivate their use even in cases where one starts out being intersted just in smooth [[manifolds]] are **mapping spaces**: for $X$ and $\Sigma$ two smooth spaces (possibly just ordinary smooth manifolds), by the [[closed monoidal structure on presheaves]] the **mapping space** $[\Sigma,X]$, i.e. the space of smooth maps $\Sigma \to X$ exists again naturally as a smooth. By the general formula it is given as a [[sheaf]] by the assignment
 
     $$
-      [\Sigma,X] : U \mapsto SmoothSpaces(\Sigma \times U, X)
+      [\Sigma,X] : U \mapsto SmoothSp(\Sigma \times U, X)
      \,.
     $$
 
-    If $X$ and $\Sigma$ are ordinary manifolds, then the [[hom-set]] on the right sits inside that of the underlying sets $SmoothSpaces(\Sigma \times U , X) \subset Set(|\Sigma| \times |U|, |X| )$ so that [[Sigma,X]] is a [[diffeological space]].
+    If $X$ and $\Sigma$ are ordinary manifolds, then the [[hom-set]] on the right sits inside that of the underlying sets $SmoothSp(\Sigma \times U , X) \subset Set(|\Sigma| \times |U|, |X| )$ so that $[\Sigma,X]$ is a [[diffeological space]].
 
     The above formula says that a $U$-parameterized family of maps $\Sigma \to X$ is smooth as a map into the smooth space $[\Sigma,X ]$ precisely if the corresponding map of sets $U \times \Sigma \to X$ is an ordinary morphism of smooth manifolds.
 
@@ -84,8 +84,8 @@ $$
 
 * The category 
   $$
-    SimpSmoothSpaces :=
-    SmoothSpaces^{\Delta^{op}}
+    SimpSmoothSp :=
+    SmoothSp^{\Delta^{op}}
   $$
   equivalently that of sheaves on $Diff$ with
   values in [[simplicial sets]]
@@ -115,11 +115,11 @@ For every $n \in N$ there is a
 $$
   D^n : Set \stackrel{\stackrel{(D^n)^*}{\leftarrow}}
     {\stackrel{D^n_*}{\to}}
-    SmoothSpaces
+    SmoothSp
 $$
 
 where the [[inverse image]] morphism -- the [[stalk]] --
-is given on $A \in SmoothSpaces$ by
+is given on $A \in SmoothSp$ by
 
 $$
   (D^n)^* A :=
@@ -135,7 +135,7 @@ origin in $\mathbb{R}^n$.
 +-- {: .un_lemma }
 ###### Lemma
 
-SmoothSpaces has [[point of a topos|enough points]]:
+SmoothSp has [[point of a topos|enough points]]:
 they are given by the
 $D^n$ for $n \in \mathbb{N}$.
 
@@ -146,7 +146,7 @@ $D^n$ for $n \in \mathbb{N}$.
 
 #References#
 
-The category $SmoothSpaces := Sh(Diff)$ is discussed with an eye towards its generalization to [[smooth ∞-stacks]]  in section 3.4, from page 29 on in
+The category $SmoothSp := Sh(Diff)$ is discussed with an eye towards its generalization to [[smooth ∞-stacks]]  in section 3.4, from page 29 on in
 
 * Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
 
