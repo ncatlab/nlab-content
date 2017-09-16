@@ -32,3 +32,4 @@ Every [[abelian category]] must be binormal; this is one of the axioms in a comm
 [[!redirects normal category]]
 [[!redirects conormal category]]
 [[!redirects binormal category]]
+[[!redirects normal monomorphisms]]
