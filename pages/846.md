@@ -55,7 +55,7 @@ $$
   \,.
 $$
 
-This operation extends to give the **ordinal sum** structure of a [[monoidal category]] on $\Delta_a$ (for details see the discussion in the entry[[simplex category]]) whose product operation is
+This operation extends to give the **ordinal sum** structure of a [[monoidal category]] on $\Delta_a$ (for details see the discussion in the entry [[simplex category]]) whose product operation is
 
 $$
   \otimes_{join}: \Delta_a \times \Delta_a \to \Delta_a
@@ -112,14 +112,14 @@ for the definition of the [[join of quasi-categories]].
 
 (please augment this?)
 
-The join operatoin was studied by P. J. Ehlers, in his thesis
+The join operation was studied by P. J. Ehlers, in his thesis
 
 * _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
 University of Wales Bangor, (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
 
-but was there ascribed to [[Jack Duskin]] and [[Don van Osdol]] in some unpublished notes.  The main ideas were derived there from earlier work by [[Bill Lawvere]].
+but was there ascribed to [[Jack Duskin]] and [[Don van Osdol]] in some unpublished notes.  The main ideas were derived there from earlier work of [[Bill Lawvere]].
 
-A useful reference is
+A useful published reference is
 
 * P. J. Ehlers and [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44
 ([arXiv](http://arxiv.org/abs/math.CT/9904039)) .
