@@ -30,25 +30,26 @@ Notice that the summands on the right-hand side are "of different length".
 
 The lemma given in [[derivation on a group]] allows the following alternative form of the above definition to be given:
 
-###Definition:
++-- {: .un_defn}
+###### Definition
 
 For each $x \in X$, let 
 $$\frac{\partial}{\partial x} : F \to \mathbb{Z}F$$
 be defined by
 
-(i) for $y \in X$, 
+1. for $y \in X$, 
 
-$$\frac{\partial y}{\partial x} = 1 if  x = y and =
-0  if  y \neq x;
-.$$
+   $$\frac{\partial y}{\partial x} = 1 if  x = y and =
+   0  if  y \neq x;
+   .$$
 
 
-(ii) for any words, $w_1,w_2 \in F$,
+2. for any words, $w_1,w_2 \in F$,
 
-$$\frac{\partial}{\partial x}(w_1w_2) = \frac{\partial}{\partial x}w_1 + w_1\frac{\partial}{\partial x}w_2.$$
+   $$\frac{\partial}{\partial x}(w_1w_2) = \frac{\partial}{\partial x}w_1 + w_1\frac{\partial}{\partial x}w_2.$$
 
 Then these uniquely determine the Fox derivative of $F$ with respect to $x$.
-
+=--
 
 
 The Fox derivatives give a way of expanding any derivation / differentiation defined on $F$. For every differentiation 
