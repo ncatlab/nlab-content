@@ -166,7 +166,7 @@ This means that
 for $f : \mathcal{T} \to \mathcal{G}$ [[generalized the|the]]  geometric envelope and
 for $\mathcal{O}'_{\mathcal{X}}$
 [[generalized the|the]] $\mathcal{G}$-structure on $\mathcal{X}$ such that
-$\mathcal{O}_{\mathcal{X}} \simeq \magthcal{O}'_{\mathcal{X}} \circ f$, we have
+$\mathcal{O}_{\mathcal{X}} \simeq \mathcal{O}'_{\mathcal{X}} \circ f$, we have
 that $(\mathcal{X}, \mathcal{O}'_{\mathcal{X}})$ is a $\mathcal{G}$-scheme.
 
 =--
@@ -193,7 +193,11 @@ With an envelope $\Tau \hookrightarrow \mathcal{G}$ fixed, a $\mathcal{G}$-schem
 
 #### ordinary schemes ####
 
+See the discussion at [[derived scheme]] for how ordinary [[scheme]]s are special cases of [[generalized scheme]]s.
+
 #### ordinary Deligne-Mumford stacks ####
+
+See the discussion at [[derived Deligne-Mumford stack]] for how ordinary [[Deligne-Mumford stack]]s are special cases of [[derived Deligne-Mumford stack]]s.
 
 #### derived schemes ####
 
@@ -202,7 +206,7 @@ With an envelope $\Tau \hookrightarrow \mathcal{G}$ fixed, a $\mathcal{G}$-schem
 
 Let $k$ be a commutative ring. Recall the pregoemtry $\mathcal{T}_{Zar}(k)$.
 
-A **derived scheme** over $k$ is a $\mathcal{T}_{Zar}(k)$-scheme.
+A **[[derived scheme]]** over $k$ is a $\mathcal{T}_{Zar}(k)$-scheme.
 
 =--
 
@@ -214,7 +218,7 @@ A **derived scheme** over $k$ is a $\mathcal{T}_{Zar}(k)$-scheme.
 
 Let $k$ be a commutative ring. Recall the pregeometry $\mathcal{T}_{et}(k)$
 
-A **derived Deligne-Mumford stack** over $k$ is a $\mathcal{T}_{et}(k)$-scheme.
+A **[[derived Deligne-Mumford stack]]** over $k$ is a $\mathcal{T}_{et}(k)$-scheme.
 
 =--
 
@@ -222,6 +226,10 @@ A **derived Deligne-Mumford stack** over $k$ is a $\mathcal{T}_{et}(k)$-scheme.
 #### derived smooth manifolds ####
 
 ...A $\mathcal{T}_{diff}$-scheme...
+
+See
+
+* [[derived smooth manifold]].
 
 ### References ###
 
