@@ -133,7 +133,7 @@ When pairing equivariant cohomology with other variants of cohomology such as [[
 
 A refinement of Borel equivariant cohomology. For the moment see
 
-* [Equivariant multiplicative cohomology](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+A-equivariant+cohomology#equivariant_cohomology_3)
+* [Equivariant multiplicative cohomology](http://ncatlab.org/nlab/show/A+Survey+of+Elliptic+Cohomology+-+A-equivariant+cohomology#equivariant)
 
 
 
