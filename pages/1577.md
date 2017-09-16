@@ -1,3 +1,2 @@
+category: delete
 [[!redirects bink]]
-
-This is some page.
