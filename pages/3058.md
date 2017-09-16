@@ -4,9 +4,9 @@ Gabriel assisted [[Grothendieck]] in reformulating the [[pseudofunctor]] version
 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 
 
-With Zisman he introduced a general localization method in homotopy theory (see also [[calculus of fractions]]): 
+With Zisman he introduced a general localization method in homotopy theory (see also [[calculus of fractions]] and [[Gabriel-Zisman]]): 
 
-* P. Gabriel, M. Zisman, Calculus of Fractions and Homotopy Theory, Springer 1967. Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35.
+* P. Gabriel, M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer 1967. Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35.
 
 In later part of his mathematical career, Gabriel worked on representation theory of finite-dimensional associative algebras and quivers, where he found some of the basic theorems. 
 
