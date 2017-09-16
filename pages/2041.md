@@ -1,0 +1,1 @@
+A **germ** is an element in a **stalk**.
