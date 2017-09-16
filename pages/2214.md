@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-16
 
+* [[Jon Awbrey]] added articles or began content development at [[differential logic]], [[differential propositional calculus]], and [[universe of discourse]].
+
 * [[Urs Schreiber]]: wrote a long bit at [[higher category theory]]. Rearranged some existing material in the process.
 
   * [[David Corfield]]: Seeing "comparative $\infty$-categoriology" there, does anyone have thoughts on Borisov's [work](http://uk.arxiv.org/abs/0909.2534)? Perhaps we need to wait for the sequel.
