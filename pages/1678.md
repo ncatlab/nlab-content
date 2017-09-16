@@ -37,6 +37,8 @@ swapped; it is a matter of convention.
 
 +-- {: .query}
 How consistent are different authors in this convention?  Should we include a warning ---or for that matter, a reassurance?  ---Toby
+
+[[Finn Lawler|Finn]]:  I don't know myself, but back in [May](http://ncatlab.org/nlab/show/2009+May+changes) (see end of page) Jonas Frey said 'Johnstone in the elephant and Gurski in his PhD-thesis for example use an other orientation than Leinster and Borceux in their books'.  The one above is Leinster's.  I haven't seen any of the other references.
 =--
 
 The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and [[modification]]s between them.
