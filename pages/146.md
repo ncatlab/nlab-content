@@ -93,5 +93,7 @@ $$
 $$
 Since this holds for all $B$, the claim follows, again using [[Yoneda lemma|Yoneda]].
 
+
 [[!redirects presheaves]]
 [[!redirects presheaf category]]
+[[!redirects presheaf categories]]
