@@ -19,7 +19,7 @@ Here are some initial questions we hope to better understand:
 
 As [[Todd Trimble]] said
 
->We can go on from there to discuss general limits and colimits in $M-Set$, cartesian closure, the subobject classifier, and so on. This could be fun and a very good learning experience, and there are people right here who know this material rather well.
+>We can go on from there to discuss general limits and colimits in $M&#x2011;Set$, cartesian closure, the subobject classifier, and so on. This could be fun and a very good learning experience, and there are people right here who know this material rather well.
 
 So let's do it! 
 
@@ -39,10 +39,13 @@ _Todd_: Right! Very good. So an $\mathbb{N}$-set is tantamount to a set $X$ equi
 
 And you've sort of answered as well the question about the two senses of $M$. One sense is that $M$ as monoid is a set equipped with a monoid multiplication; the other is to think of $M$ as a one-object category. Here in the nLab we often use $B M$ for the latter, to keep the two senses distinguished. So, to be pedantic, we really ought to say: 
 
-$$M-Set \simeq Set^{B M}$$ 
+$$M&#x2011;Set \simeq Set^{B M}$$ 
 
 although I think I'll just elide over the $B$ and let the context dictate the appropriate sense. 
 
 If you'd like to stay focused on multisets and shelve the project of doing some topos theory here, that would be fine. I'll leave it up to you. Of course, now that you've started it, other people might wander by and want to continue this discussion... 
 
 If you did want to continue, then I think we could use $\mathbb{N}$-sets as a running example, since a lot (not all, but a lot) of the general phenomena associated with $M$-sets are already illustrated in this case, and we have clear mental pictures for this case. We could go on for instance to understand finite products (pretty easy), and then more general limits and colimits, and move on from there. 
+
+
+category: reference
