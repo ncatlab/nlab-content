@@ -3,19 +3,27 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
-If you take two non-coplanar  line segments in $\mathbb{R}^3$, then join every point in one to every point in the other, you get a 3-simplex. You can think of this as being the union of all the cones on the first segment, with cone points on the second one. We have the join $\Delta[1]\star \Delta[1]$ is $\Delta[3]$.
-
 The **join** $S \star T$ of two [[simplicial set]]s $S$ and $T$ is a new simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. 
-
-Notably when $S = \Delta^0$ is the [[point]], this join is a genuine [[cone]] over $T$. Or if $S = 2$ is the two-point space, the join is the [[suspension]] of $T$.
 
 If the simplicial sets in question are [[quasi-categories]] the notion of join on them produces the notion of [[join of quasi-categories]] that underlies many constructions in [[higher category theory]] such as the definition of [[limit in a quasi-category]].
 
 The join of [[simplicial set]]s extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance the description and discussion in [[Spanier|Spanier's classical text]] (page 109 and then pages 114 -116). 
 
 The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category, $\Delta_a$, of finite ordinals (including the empty one).  
+
+
+## Motivating examples
+
+When $S = \Delta^0$ is the [[point]], then the join $S \star T$ is a genuine [[cone]] over $T$. Or if $S = 2$ is the discrete two-point space, the join is the [[suspension]] of $T$.
+
+If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and $C D$ in the picture below), then join every point in one to every point in the other, you get a 3-simplex (the tetrahedron in the picture). You can think of this as being the union of all the cones on the first segment, with cone points on the second one. We have that the join $\Delta[1]\star \Delta[1]$ is $\Delta[3]$.
+
+![Picture](http://upload.wikimedia.org/wikipedia/commons/b/bc/SKT20093SimplexABCD.png)
+
+<small markdown="1">[Picture from Wikimedia Commons](http://commons.wikimedia.org/wiki/File:SKT20093SimplexABCD.png)</small>
 
 
 ## Definition
