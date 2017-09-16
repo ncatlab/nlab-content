@@ -8,8 +8,15 @@ notes on
 * automatic table of contents goes here
 {:toc}
 
+## Idea
 
-## Grouplike monoid objects {#GrouplikeMonoid}
+Using the definition of the notion [[(∞,1)-operad]] in terms of a [[vertical categorification]] of the notion of [[category of operators]], the article discusses the $(\infty,1)$-version $\mathbb{E}_k$ of the [[little cubes operad]]s.
+
+A major application in the second part of the article is the study of [[topological chiral homology]].
+
+## Definitions and results
+
+### Grouplike monoid objects {#GrouplikeMonoid}
 
 Let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and $X : Ass \to \mathcal{X}$ be a monoid object in $\mathcal{X}$.  Say that $X$ is _grouplike_ if the composite
 
@@ -32,7 +39,7 @@ $$
 
 for the [[(∞,1)-category]] of grouplike $\mathbb{E}[k]$-monoid objects.
 
-## Main result {#MainResult}
+### Main result: $k$-fold delooping, monoidalness and $\mathbb{E}_k$-action {#MainResult}
 
 
 The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for [[∞-stack]]s -- the general statement that $k$-fold [[delooping]] provides a correspondence betwen [[n-category|n-categories]] that have trivial [[k-morphism|r-morphism]]s for $r \lt k$ and  [[k-tuply monoidal n-category|k-tuply monoidal n-categories]].
@@ -71,7 +78,7 @@ Theorem 1.3.16.
 
 =--
 
-### Related literature
+#### Related literature
 
 Lurie's proof of the equivalence of $n$-connected objects with grouplike $E[k]$-objects is entirely at the level of [[(∞,1)-category|(∞,1)-categories]]. One would hope that in addition there is a model for this equivalence at the level of [[model category|model categories]].
 
@@ -80,17 +87,21 @@ There is a model category structure on the category $Top_*$ of pointed topologic
 * J. Aldana, J. Paricio, M. Rodriguez, _A closed model category for $(n-1)$-connected spaces_ ([pdf](http://www.ams.org/proc/1996-124-11/S0002-9939-96-03606-4/S0002-9939-96-03606-4.pdf))
 
 
-## Stabilization hypothesis {#StabilizationHypothesis}
+### Stabilization hypothesis {#StabilizationHypothesis}
 
 A proof of the [[stabilization hypothesis]] for [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] is a byproduct of corollary 1.1.10, stated as example 1.2.3
 
-## contents  
+### Additivity theorem {#AdditivityTheorem}
 
-* [[(infinity,1)-operad]]
+It has been long conjectured that it should be true that when suitably defined, there is a tensor product of $\infty$-operads such that 
 
-* [[little cubes operad]]
+$$
+  \mathbb{E}_k \otimes \mathbb{E}_{k'} \simeq \mathbb{E}_{k + k'}
+  \,.
+$$
 
-* [[topological chiral homology]]
+This is discussed and realized in section 1.2. The tensor product is defined in appendix B.7.
+
 
 
 [[!redirects E-k-Algebras]]
