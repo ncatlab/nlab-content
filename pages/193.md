@@ -68,3 +68,4 @@ Essentially everything that makes category theory nontrivial and interesting can
 
 
 [[!redirects adjoint pair]]
+[[!redirects adjunctions]]
