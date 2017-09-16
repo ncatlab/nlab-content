@@ -27,7 +27,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
-* [[Jon Awbrey]] is spending the remains of the day formatting [[continuous predicate]].
+* [[Jon Awbrey]]:
+  * "A [[continuous predicate]], as described by [[Charles Sanders Peirce]], is a special type of relational predicate that arises as the limit of an iterated process of [[hypostatic abstraction]]."
+  * It's true, $\infinity$-cat, Charley is your father.
 
 *  [[Rafael Borowiecki]]:
   * Posed a question at [[Timeline of category theory and related mathematics]] regarding a new migration: How do i handle to update most of 1500 links!?
