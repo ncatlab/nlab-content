@@ -128,21 +128,7 @@ $$
 
 This diagram identifies $K$ with a ring of the form $R \oplus ker(p)$ in which for $r \in R$ and $n \in ker(p)$ we have $r\cdot n \in ker(p)$. 
 
-The cartesian product in the overcategory then amounts to addition of this extra summand, so that the group operation yields a morphism
-
-$$
-  \array{
-     (R \oplus N \oplus N) &&\to&& (R \oplus N)
-     \\
-     & \searrow && \swarrow^{\mathrlap{p}}
-     \\
-     && R
-  }
-  \,.
-$$
-
-This makes...
-
+Furthermore...
 
 ## Examples
 
@@ -208,6 +194,25 @@ $$
 
 The category $R Mod$ has $R$-modules as objects and $R$-module homomorphisms as morphisms.  More abstractly, this is the [[Ab]]-[[enriched functor category]] $[\mathbf{B}R,Ab]$.
 
+### $G$-sets {#GSets}
+
+Classically the notion of module is always regarded internal to [[Ab]], so that a module is always an abelian group with extra structure. But noticing that such abelian ring modules are just enriched presheaves in [[Ab]]-[[enriched category theory]], it makes sense to consider enriched presheaves in general $V$-enriched category theory as a natural generalization of the notion of module.
+
+For that generalization the case of [[Set]]-[[enriched category theory]] plays a special basic role:
+
+a [[group]] $G$ (with no extra structre, i.e. just a [[set]] with group structure) is a monoid in [[Set]]. A module over $G$ in the sense of [[Set]]-[[enriched functor]] (just an ordinary [[functor]])
+
+$$
+  \mathbf{B}G \to Set
+$$
+
+is nothing but a **$G$-set**: a [[set]] equipped with a $G$-action:
+
+$\mathbf{B}G$ is the [[small category]] that is the [[delooping]] [[groupoid]] of $G$, which has a single object and $Hom_{\mathbf{B}G}(\bullet,\bullet) = G$. The functor $\mathbf{B}G \to Set$ takes the single object to some set $S$ and takes each morphism $(\bullet \stackrel{g}{\to} \bullet)$ to an [[automorphism]] $\rho(g) : S \to S$ of that set, such that composition is respected. This is just a [[representation]] of $G$ on the set $S$.
+
+Of course for this story to work, $G$ need not be a group, but could be any [[monoid]].
+ 
+
 
 ### Modules over simplicial rings {#SimpRings}
 
@@ -253,6 +258,28 @@ $$
 By the above discussion, this procedure yieelds the expected notions of modules in particular for the choice $C = (sAlg_k)^{op}$ of simplicial algebras over a ground ring of characteristic 0. The theory of quasicoherent sheaves of modules in this case is discussed in great detail at [[geometric ∞-function theory]]. Some more general remarks along these lines are at [[schreiber:∞-vector bundle]].
 
 
+
+
+## References
+
+### On modules as enriched presheaves
+
+See also the references at [[enriched category theory]] and at [[profunctor]].
+
+
+### On modules as stabilized overcategories
+
+The observation that the category of modules over a ring $R$ is equivalent to the category of abelian group objects in the overcategory $CRing/R$ is originally due to Quillen:
+
+* Quillen, _..._, (...)
+
+...more classical references go here...
+
+The fully abstract higher categorical concept in terms of [[stabilization|stabilized]] [[overcategory|overcategories]] and the [[tangent (∞,1)-category]] appears in 
+
+* [[Jacob Lurie]], _[[Deformation Theory]]_
+
+
 ##Discussion##
 
 +-- {: .query}
@@ -268,13 +295,6 @@ By the above discussion, this procedure yieelds the expected notions of modules 
 _Toby_:  One problem is that this mixes with the conventions that one adopts for [[composition]].  What one person thinks is left multiplication, another will think is right multiplication.  I would rather talk about left/right modules for monoids or rings, then talk about covariant/contravariant functors from categories or additive categories.
 
 =--
-
-
-## References
-
-The observation that the category of modules over a ring $R$ is equivalent to the category of abelian group objects in the overcategory $CRing/R$ is originally due to Quillen:
-
-* Quillen, _..._, (...)
 
 
 [[!redirects modules]]
