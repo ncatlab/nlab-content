@@ -57,3 +57,5 @@ Examples of categories in which every morphism is strict include
 * the category $PSh(C) = [C^{op},Set]$ of [[presheaf|presheaves]] on any [[small category]] $C$;
 * any [[abelian category]];
 * any [[topos]].
+
+[[!redirects strict morphisms]]
