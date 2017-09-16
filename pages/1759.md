@@ -13,6 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-07-30
+
+* [[David Roberts]]: added comment to discussion at [[category theory]] - possibly Rafael means homotopy types when he says spaces. Added point about Grothendieck's view on Cat as a category of models. Also a stub: [[the homotopy theory of Grothendieck]].
 
 ## 2009-07-29
 
