@@ -14,8 +14,7 @@ The _infinitesimal singular simplicial complex_ of a [[space]] $X$ in a [[smooth
 
 There are several ways to make the notion of "infinitesimal $k$-simplex in $X$" precise. Here we describe a notion promoted by [[Anders Kock]], where an "infinitesimal $k$-simplex" in $X$ for $X$ a suitably _locally linear space_ , is a $(k+1)$-tuple $(x_0,\cdots, x_k) \in X^{\times^{k+1}}$ of points in $X$ that are pairwise _infinitesimal neighbours_ in $X$. 
 
-A similar but different notion is described at [[infinitesimal interval object]].
-
+One central application of the singular simplicial complex is in the definition of [[differential forms in synthetic differential geometry]].
 
 
 ## Definition 
