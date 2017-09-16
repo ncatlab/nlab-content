@@ -4,7 +4,7 @@ A _sieve_ is a way to encode a morphism of [[presheaf|presheaves]] that behaves 
 
 _Sieves_ are an equivalent way to encode [[subobject]]s of [[representable functor]]s in a [[presheaf]] category in terms of the total sets of _elements_ of such a subfunctor.
 
-The notion of _sieve_ is usually used when certain such subobjects are singled out as [[cover]]s of a [[Grothendieck topology]]: the singled out subobjects then correspond to _covering sieves_.
+The notion of _sieve_ is usually used when certain such subobjects are singled out as [[cover]]s of a (sifted) [[coverage]]: the singled out subobjects then correspond to _covering sieves_.
 
 +-- {: .query}
 Urs, I changed 'coverage' back to 'Grothendieck topology' above, since it\'s specifically Grothendieck topologies that deal with covering sieves; coverages deal with arbitrary covering families (generally not sieves and generally not all of them), which is part of why coverages both can be more useful and are less canonical.
@@ -15,6 +15,11 @@ So, in conclusion, I am thinking that the point of using more general coverages 
 
 But maybe not. This is just so you know what I am thinking. :-)
 
+_Toby_:  Ah, now I see what you\'re saying!
+
+The problem is that the difference between a Grothendieck topology and a coverage is twofold: first, each individual covering family that appears in a Grothendieck topology is saturated (and so becomes a sieve); second, subject to the restriction that only sieves may appear, the class of covering families is saturated.  (I should write something about this at [[coverage]].)  You are thinking of dropping the second without changing the first.
+
+I know just the term for that: 'sifted coverage' (which may be found in the [[Elephant]]).
 =--
 
 A choice of collections of morphism $d \to c$ into an object $c \in C$  for each $d \in C$ reminds one of the [[representable functor]] [[presheaf]]
@@ -33,7 +38,7 @@ A _sieve_ $S$ (Fr. _crible_) on an object $c \in C$ is a subset $S \subset Ob(C/
 
 Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up or saturate it, to obtain a sieve on $c$. 
 
-This is probably called a _sieve_ because it "sieves out" the 'special' maps into $c$ from the set of _all_ maps into $c$.
+This is probably called a _sieve_ because it "sifts out" the 'special' maps into $c$ from the set of _all_ maps into $c$.  (Note that 'sieve' is the noun, while 'sift' is the verb.)
 
 
 # Relation to subfunctors #
@@ -76,10 +81,9 @@ The point is really, as described in some detail at [[sheaf]], that we want to c
 Should we say this here again? Maybe. But It is already described in some detail at [[sheaf]].
 
 But of course you are right to "prefer" sieves in a way: they are the explicit hand-on realization of some abstract nonsense. That's why one useses them. As a tool. But their raison d'etre is the abstract nonsense that they are a manifestation of.
-
 =--
 
- {: .un_lemma}
++-- {: .un_lemma}
 ###### Lemma
 
 These two definitions establish a bijection between sieves on $c$ and subobjects of $Y(c)$.
@@ -197,7 +201,11 @@ $$
   \,.
 $$
 
-Notice the distincion between this union in of the two open subsets in $X$, and the potential notion of _disjoint union_ $U_1 \sqcup U_2$ interpreted as the [[coproduct]] of $U_1$ and $U_2$ in some category. 
+Notice the distincion between this union in of the two open subsets in $X$, and the potential notion of _disjoint union_ $U_1 \amalg U_2$ interpreted as the [[coproduct]] of $U_1$ and $U_2$ in some category. 
+
++-- {: .query}
+I don\'t get it; the union *is* the coproduct in the [[category of open subsets]] of $X$.  (Although it\'s not a [[disjoint coproduct]], which coproducts in sheaf categories are.)  ---Toby
+=--
 
 What does exist in $Op(X)$ is the [[fiber product]] of $U_1$ with $U_2$ over $V$: this is the intersection $U_1 \cap U_2$ sitting in the [[pullback]] diagram
 
@@ -236,31 +244,31 @@ As a result, the above discussion goes through equivalently for the [[presheaf|p
 Let's go through this in detail. First of all notice that in $PSh(S)$ all limits and colimits do exist (see [[limits and colimits by example]] for more on that), so that for instance the coproduct 
 
 $$
-  Y(U_1) \sqcup Y(U_2)
+  Y(U_1) \amalg Y(U_2)
 $$
 
-does always exist (as opposed to its would-be cousin $U_1 \sqcup U_2$). Here $Y$ denotes the [[Yoneda embedding]] which we here indicate explicitly, even though often and elsewhere, notably elsewhere in this entry here, it is notationally suppressed.
+does always exist (as opposed to its would-be cousin $U_1 \amalg U_2$). Here $Y$ denotes the [[Yoneda embedding]] which we here indicate explicitly, even though often and elsewhere, notably elsewhere in this entry here, it is notationally suppressed.
 
-For the following it is helpful to say explicitly what the presheaf $Y(U_1) \sqcup Y(U_2)$ is like. Since, as described at [[limits and colimits by example]], colimits of presheaves are computed objectwise, we know that this presheaf evaluated on any open set $W \subset X$ yields the set
+For the following it is helpful to say explicitly what the presheaf $Y(U_1) \amalg Y(U_2)$ is like. Since, as described at [[limits and colimits by example]], colimits of presheaves are computed objectwise, we know that this presheaf evaluated on any open set $W \subset X$ yields the set
 
 $$
   \begin{aligned}
-   (Y(U_1) \sqcup Y(U_2))(W) 
+   (Y(U_1) \amalg Y(U_2))(W) 
    &= 
-    Y(U_1)(W) \sqcup Y(U_2)(W)
+    Y(U_1)(W) \amalg Y(U_2)(W)
    \\
    &=
-   Hom(W,U_1) \sqcup Hom(W, U_2)
+   Hom(W,U_1) \amalg Hom(W, U_2)
   \end{aligned}
   \,,
 $$
 
 where the coproducts on the right are just those in [[Set]] which are just ordinary disjoint unions of sets.
 
-So this says that $Y(U_1) \sqcup Y(U_2)$ is the presheaf that assigns to any open set $W$ the dijoint union of the collections of maps from $W$ to $U_1$ and those from $W$ to $U_2$ in $X$. (Since $Op(X)$ is a [[poset]] there is either none or one such map in each case, but it is helpful to speak generally of "sets of all maps", since that is the general intuition useful for presheaf categories. $Op(X)$ just happens to be a particularly simple example.)
+So this says that $Y(U_1) \amalg Y(U_2)$ is the presheaf that assigns to any open set $W$ the dijoint union of the collections of maps from $W$ to $U_1$ and those from $W$ to $U_2$ in $X$. (Since $Op(X)$ is a [[poset]] there is either none or one such map in each case, but it is helpful to speak generally of "sets of all maps", since that is the general intuition useful for presheaf categories. $Op(X)$ just happens to be a particularly simple example.)
 
 Notice that in particular a given map $W \to V$ which factors both through $U_1 \to V$ as well as through $U_2 \to V$ will appear as two distinct elements in the set 
-$(Y(U_1) \sqcup Y(U_2))(W)$. This we'll come back to in a minute.
+$(Y(U_1) \amalg Y(U_2))(W)$. This we'll come back to in a minute.
 
 But first consider the fiber product from before, now after having applied the [[Yoneda embedding]]. Since we know from general nonsense that this preserves fiber products, we know that the [[pullback]] presheaf $Y(U_1) \times_{Y(V)} Y(U_2)$ in
 
@@ -373,7 +381,7 @@ out in words:
 
 > The set $(Y(U_1) \coprod_{Y(U_1 \times_V U_2)} Y(U_2))(W)$ is the quotient of the disjoint union of the collection of maps from $W$ into $U_1$ and those from $W$ into $U_2$, by the equivalence relation which identifies two such maps $W \to U_1$  and $W \to U_2$ if they both factor through a map $W \to U_1 \times_X U_2$, i.e. if they both land in the intersection $U_1 \cap U_2$ and coincide there.
 
-But this just means that contrary to the plain coproduct $Y(U_1) \sqcup Y(U_2)$, two maps $W \to U_1$ and $W \to U_2$ that coincide as maps $W \to X$ are no longer regarded as different elements of our set given by the pushout presheaf, but are regarded as being the same.
+But this just means that contrary to the plain coproduct $Y(U_1) \amalg Y(U_2)$, two maps $W \to U_1$ and $W \to U_2$ that coincide as maps $W \to X$ are no longer regarded as different elements of our set given by the pushout presheaf, but are regarded as being the same.
 
 So this means we find that
 
@@ -402,7 +410,7 @@ Given that we made it to this point, we should go one small step further that wi
 
 In the present simple example we worked with a cover given by just two objects $U_1$ and $U_2$. Of course in general the cover will consist of more than just two objects. Then the above kind of notation becomes a bit cumbersome.  But there is a simple reformulation that makes everything look nice again.
 
-Namely, let's come back to the observation that the coproduct $Y(U_1) \sqcup Y(U_2)$ does exist. Let's just call this presheaf $\mathbf{U}$. (not in general a [[representable functor|representable]]!).
+Namely, let's come back to the observation that the coproduct $Y(U_1) \amalg Y(U_2)$ does exist. Let's just call this presheaf $\mathbf{U}$. (not in general a [[representable functor|representable]]!).
 
 Then it is easy to see by the same kind of objectwise reasoning that the colimiting presheaf that we are after is equivalently the colimit over the pair of [[parallel morphism]]s
 
