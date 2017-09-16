@@ -3,7 +3,7 @@
 
 Tetracategories are the [[algebraic definition of higher category]] for the most general (i.e. weak) [[n-category|4-categories]].
 
-The structure of a tetracatgeories was given by [[Todd Trimble]].
+The structure of a tetracategories was given by [[Todd Trimble]].
 
 * Todd Trimble [Notes on Tetracategories](http://math.ucr.edu/home/baez/trimble/tetracategories.html)
 
@@ -14,7 +14,7 @@ The structure of a tetracatgeories was given by [[Todd Trimble]].
 
   * [[U52unitcondition.pdf:file]]
 
-  * [[U53unitconditionA.pdf:file]]
+  * [[U53unitcondition.pdf:file]]
 
   * [[U54unitcondition.pdf:file]]
 
