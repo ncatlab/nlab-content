@@ -23,6 +23,8 @@
 
 * [[abelian sheaf cohomology]]
 
+  * [[Deligne cohomology]]
+
 * [[nonabelian cohomology]]
 
 * [[Cech cohomology]]
