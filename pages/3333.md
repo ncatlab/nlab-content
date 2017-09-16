@@ -192,6 +192,10 @@ $$
   (\bullet \stackrel{k}{\to} \bullet) \mapsto (\bullet \stackrel{n \cdot k}{\to} \bullet).
 $$
 
++--{: .query}
+[[David Roberts]]: Multiplication by $n$ isn't a group automorphism (except for $n=1,-1$) as $\mathbb{Z}$ isn't divisible. $AUT(\mathbf{B}\mathbb{Z})$ should then be $\mathbf{B}\mathbb{Z}\coprod \mathbf{B}\mathbb{Z}$.
+=--
+
 Natural transformations between two such automorphisms are given by a component $\ell \in \mathbb{Z}$ such that all diagrams
 
 $$
@@ -228,6 +232,10 @@ $$
 as depicting the unit loop around the circle (on the left, say) and the result of translating its basepoint $\ell$-times around the circle (the rest of the diagram). Of course since we are using a model of $S^1_C$ with a single object here, every rotation of the loop is a full circle rotation, which is a bit hard to see.
 
 > Exercise: spell out the above discussion analogously for the equivalent model given by the [[fundamental groupoid]] $\Pi_1(S^1)$ of the standard circle. The is the groupoid with $S^1_{Top}$ as its set of objects homotopy classes of paths in the circle as morphisms. In this model things look more like one might expect from a circle action. Notice that $\mathbf{B}\mathbb{Z}$ is the [[skeleton]] of $\Pi_1(S^1)$.
+
++--{: .query}
+[[David Roberts]]: I presume that the 2-categories of groupoids and 1-types are equivalent (for the latter I'm taking a subcategory of the usual 2-category of CW complexes, with classes of homotopies as 2-arrows), giving us the conjectural result that the 2-group $AUT(\Pi_1(S^1))$ should be equivalent to the 2-group $AUT_{Ho}(S^1)$ with objects the self-homotopy equivalences of $S^1$ and morphisms the (homotopy classes of) homotopies between them. At the very least, without the above equivalence of 2-categories there should be a faithful functor $AUT_{Ho}(S^1) \to AUT(\Pi_1(S^1))$ which is also injective on objects. A simple exercise should show that it is full. 
+=--
 
 Consider for instance $X = \mathbf{B}G$ such that $\mathcal{L}X = G//_{Ad}G$ (as discussed in detail below). Then a morphism $(g \stackrel{h}{\to} Ad_h a)$ in $G//G$ corresponds to a natural transformation
 
