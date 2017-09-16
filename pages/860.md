@@ -18,4 +18,12 @@ But don\'t let this matter be conflated with the weighty question of whether thi
 I am not that worried about this, but do feel that we are hitting 'Disambiguation' problems at various points and may need a discussion on how we should handle those technically see the Wikipedia page on Disambiguation, which you all probably know well.
 
 _Toby_:  [[simplicial category]] is pretty much a disambiguation page, although with some content too.  There a couple of others like it.
+
+[[Tim Porter|Tim]]:  I had noticed that as a good example of how one might proceed. We don't necessarily need a single way of doing this Disambiguation, but rather one or two examples of what we collectively think of as 'good practice'. 
+
+Perhaps also I should create an entry on pro-objects which would link with profinite groups. (More work!)
+
+Your other point about separate pages needs thought.  My view would be that we need to think both of the main users (i.e. us an co!) and external users since as we make reference to the nLab more and more people are likely to use it as one entry point for definitions etc. 
+
+
 =--
