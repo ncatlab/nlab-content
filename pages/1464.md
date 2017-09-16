@@ -1,6 +1,6 @@
 In general, [[limit]]s and [[colimit]]s do not commute. 
 
-It is therefore of interest to list the special conditons under which certain limits do commute with certain colimits. 
+It is therefore of interest to list the special conditions under which certain limits do commute with certain colimits. 
 
 This page lists some of these.
 
