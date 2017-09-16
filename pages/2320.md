@@ -1,5 +1,6 @@
 * [website](http://www.mathematik.uni-regensburg.de/Bunke/)
 
+
 #related $n$Lab entries#
 
 * [[differential cohomology]]
@@ -8,4 +9,5 @@
 
 * [[quantum anomaly]]
 
-category: people
+
+category: biography
