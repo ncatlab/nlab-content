@@ -62,7 +62,7 @@ $$
   Aut(\mathbb{G}_m) \simeq \mathbb{Z}/2\mathbb{Z}
 $$
 
-given by inversion (by sending any element to its [[inverse]] element).
+which is the [[inversion involution]] (given by sending any element to its [[inverse]] element).
 
 ## Properties
 
