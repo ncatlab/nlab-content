@@ -61,7 +61,7 @@ $$
 
 where $f_* : T\Sigma \to T\Sigma$ is the canonical map induced on the [[tangent bundle]] (see at _[[derivative]]_).
 
-Say that two metrics $g_1, g_2$ are [[gauge transformation|gauge equivalent]] if there is a diffeomorphism $f$ such that $g_2 = f^* g_1$. This is an [[equivalence relation]]. Write $Riem(\Sigma)/Diff(\Sigma)$ for the corresponding set of [[equivalence classes]]. 
+Say that two metrics $g_1, g_2$ are [[gauge transformation|gauge equivalent]] if there is a diffeomorphism $f$ such that $g_2 = f^* g_1$.  This is an [[equivalence relation]]. Write $Riem(\Sigma)/Diff(\Sigma)$ for the corresponding set of [[equivalence classes]]. 
 
 The statement of _general covariance_ is that the distinct configurations of the gravitational field form the set $Riem(\Sigma)/Diff(\Sigma)$. In particular, if $\Sigma$ is [[compact topological space|compact]], then the [[Einstein-Hilbert action]] functional which a-prior is defined on $Riem(\Sigma)$ descends to $Riem(\Sigma)/Diff(\Sigma)$
 
@@ -400,18 +400,63 @@ $$
 
 We now spell out the example of ordinary [[Einstein]]-[[gravity]] in this language. Plenty of further examples work analogously.
 
-For pure [[gravity]], we chooce $\mathbf{H} = $ [[Smooth∞Grpd]] and  the fields are [[orthogonal structures]] ([[Riemannian metrics]]) on a [[smooth manifold]] $\Sigma \in $ [[SmoothMfd]] $\hookrightarrow \mathbf{H}$ of [[dimension]] $n$. As discussed at _[[orthogonal structure]]_ and _[[vielbein]]_, we are to regard $\Sigma$ in the [[context]] of the [[delooping]] of the [[general linear group]] $GL(n) \in Grp(\mathbf{H})$ via its [[tangent bundle]]
+For pure [[gravity]], we choose $\mathbf{H} = $ [[Smooth∞Grpd]] or $=$[[SynthDiff∞Grpd]].
+
+If we denote by $D^n \in $ [[SynthDiff∞Grpd]] the first order [[infinitesimal object|infinitesimal neighbourhood]] of the origin in the [[Cartesian space]] $\mathbb{R}^n$, then 
 
 $$
-  (\Sigma \stackrel{T \Sigma}{\to} \mathbf{B} GL(n))
-  \in
-  \mathbf{H}_{/\mathbf{B} GL(n)}
+  GL(n) = \mathbf{Aut}(D^n)
+$$ 
+
+is the [[automorphism ∞-group]] of $D^n$. Accordingly we write the unique term of the [[delooping]] $\mathbf{B}GL(n)$ as
+
+$$
+  \vdash D^n : \mathbf{B}GL(n)
   \,.
 $$
 
-(A detailed exposition of this and the following, with further pointers, is in ([Schreiber, ESI lectures](#SchreiberLectures)).)
 
-Write
+
+The fields of Einstein gravity are [[orthogonal structures]] ([[Riemannian metrics]]) on a [[smooth manifold]] $\Sigma \in $ [[SmoothMfd]] $\hookrightarrow \mathbf{H}$ of [[dimension]] $n$. 
+As discussed at _[[orthogonal structure]]_ and _[[vielbein]]_, we are to regard $\Sigma$ in the [[context]] of the [[delooping]] of the [[general linear group]] $GL(n) \in Grp(\mathbf{H})$ via its [[tangent bundle]] $T \Sigma \to \Sigma$, by which we always mean here the $GL(n)$-[[principal bundle]] to which the tangent bundle is [[associated bundle|associated]].
+
+By the discussion at _[[principal ∞-bundle]]_ this is modulated by a morphism
+
+$$
+  (\Sigma \stackrel{\vdash T \Sigma}{\to} \mathbf{B} GL(n))
+  \in
+  \mathbf{H}_{/\mathbf{B} GL(n)}
+$$
+
+to the [[delooping]] $\mathbf{B}GL(n)$ of $GL(n)$ (the [[moduli stack]] of $GL(n)$-[[principal bundles]]) in that we have a [[fiber sequence]]
+
+$$
+  \array{
+    T \Sigma &\to& \Sigma
+    \\
+    && \downarrow^{\mathrlap{\vdash T \Sigma}}
+    \\
+    && \mathbf{B}GL(n) 
+  }
+$$
+
+in $\mathbf{H}$. (A detailed exposition of this and the following, with further pointers, is in ([Schreiber, ESI lectures](#SchreiberLectures)).)
+
+Therefore the [[syntax]] of the tangent bundle as a [[dependent type]] is
+
+$$
+  D^n : \mathbf{B}GL(n) \vdash T \Sigma(D^n) : Type
+$$
+
+and since $D^n$ is essentially unique we will notationally suppress it in the [[succedent]] on the right and just write
+
+
+$$
+  D^n : \mathbf{B}GL(n) \vdash T \Sigma : Type
+  \,.
+$$
+
+Let then
 
 $$
   (\mathbf{B} O(n) \stackrel{\mathbf{orth}}{\to} \mathbf{B} GL(n)) 
@@ -419,34 +464,70 @@ $$
   \mathbf{H}_{/\mathbf{B}GL(n)}
 $$
 
-for the delooping of the inclusion of the [[maximal compact subgroup]], the [[orthogonal group]] $O(n)$. Then the [[moduli stack]] of [[vielbein]] fields /  [[Riemannian metrics]] on $\Sigma$ is
+be the [[delooping]] of the inclusion $O(n) \to GL(n)$ of the [[maximal compact subgroup]] of $GL(n)$, the [[orthogonal group]] $O(n)$, regarded as an [[object]] in the [[slice-(∞,1)-topos]] over $\mathbf{B}GL(n)$. Since this sits in the [[homotopy fiber sequence]]
 
 $$
-  \vdash \prod_{* : \mathbf{B}GL(n)} T \Sigma \to \mathbf{orth} : Type
+  \array{
+    GL(n)/O(n) &\to& \mathbf{B}O(n)
+    \\
+    && \downarrow^{\mathrlap{orth}}  
+    \\
+    && \mathbf{B}GL(n)
+  }
+$$
+
+with the [[coset]] [[smooth space]] $GL(n)/O(n)$, the [[syntax]] of this object is the [[dependent type]]
+
+$$
+  D^n : \mathbf{B}GL(n) \vdash GL(n)/O(n) : Type
   \,.
 $$
 
-This is still the naive space of fields, not generally covariant. So we next pass again to the general covariant $\mathbf{B}\mathbf{Aut}(\Sigma)$-[[context]] and form the correct generally covariant space of fields, being the [[type in context]] $\mathbf{B} \mathbf{Aut}(T \Sigma)$ given by
+In view of the [[equivalence of (∞,1)-categories]]
 
 $$
-  T \Sigma : \mathbf{B} \mathbf{Aut}(T \Sigma)
-  \vdash 
-  T \Sigma \sslash \mathbf{Aut}(T \Sigma)
-  \to 
-  \mathbf{orth} : Type
+  \mathbf{H}_{/\mathbf{B}GL(n)} \simeq Act_{\mathbf{H}}(GL(n))
+$$
+
+this expresses the canonical $GL(n)$-[[∞-action|action]] on the coset $GL(n)/O(n)$ (by mutliplication from the "other side").
+
+The [[syntax]] of the [[moduli stack]] of [[vielbein]] fields /  [[Riemannian metrics]] on $\Sigma$ is
+
+$$
+  \vdash \prod_{D^n : \mathbf{B}GL(n)} T \Sigma \to GL(n)/O(n) : Type
   \,.
 $$
 
-By the above general fact this yields the configuration space
+This almost verbatim expresses the familiar statement:
+
+> A [[vielbein]] on $\Sigma$ is a $GL(n)$-equivariant map from $T \Sigma$ to the coset $GL(n)/O(n)$.
+
+The [[categorical semantics]] of such a [[vielbein]] $e$ is as a diagram
+
+$$
+  \array{
+    \Sigma && \stackrel{}{\to}&& \mathbf{B}O(n)
+    \\
+    & \searrow &\swArrow_{e}& \swarrow_{\mathrlap{orth}}
+    \\
+    && \mathbf{B}GL(n)
+  }
+  \,.
+$$
+
+This in turn almost verbatim expresses the familar equivalent statement
+
+> A vielbeing is a [[reduction of the structure group]] of the $GL(n)$-[[principal bundle]] $T \Sigma$ along $O(n) \to GL(n)$.
+
+This is still the naive space of fields, not yet generally covariant. So we next pass to the general covariant $\mathbf{B}\mathbf{Aut}(T\Sigma)$-[[context]] and form the correct generally covariant space of fields, being the [[type in context]] $\mathbf{B} \mathbf{Aut}(T \Sigma)$ given by
 
 $$
   \mathbf{Conf}
   \coloneqq
   \vdash
-   \sum_{\Sigma : \mathbf{B}\mathbf{Aut}(\Sigma)}
-   \prod_{* : \mathbf{B}GL(n)}
-   T \Sigma \to \mathbf{orth}
-   : Type
+   \prod_{D^n : \mathbf{B}GL(n)}
+   \sum_{T\Sigma : \mathbf{B}\mathbf{Aut}(T\Sigma)}
+   T \Sigma \to GL(n)/O(n)   : Type
   \,,
 $$
 
@@ -459,6 +540,91 @@ which is the integrated [[BRST complex]] of Einstein gravity field configuration
   1. orthogonal frame transformations of the fibers of the tangent bundle;
 
   1. general diffeomorphisms of the base $\Sigma$.
+
+We unwind this a bit more. 
+
+A slight subtlety in interpreting the above expression is that in 
+
+$$
+  D^n : \mathbf{B}GL(n) \vdash \mathbf{B}Aut(T \Sigma) : Type
+$$
+
+the [[automorphism ∞-group]] of the tangent bundle it to be formed in the [[context]] of $\mathbf{B}GL(n)$. By the discussion at _[[automorphism ∞-group]]_ the [[delooping]] $\mathbf{B}Aut(T \Sigma)$ is the [[∞-image]] of the name
+
+$$
+  (* \stackrel{}{\to} Type) \in \mathbf{H}_{/\mathbf{B}GL(n)}
+$$
+
+of $(\Sigma \to \mathbf{B}GL(n))$ in the slice. By the discussion at [slice-(∞,1)-topos -- Object classifier](over-%28infinity%2C1%29-topos#ObjectClassifier) the [[object classifier]] in the slice is the [[projection]] $(Type \times \mathbf{B}GL(n) \to \mathbf{B}GL(n))$. 
+
+So the name and its pullback are given by a diagram of the form
+
+$$
+  \array{
+    \Sigma &&\to&& \widehat{Type} \times \mathbf{B}GL(n)
+    \\
+    {}^{\mathllap{}}\downarrow &&\swArrow&& \downarrow
+    \\
+    \mathbf{B}GL(n) &&\stackrel{(\vdash \Sigma, id)}{\to}&& Type \times \mathbf{B}GL(n)
+    \\ 
+    & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}GL(n)
+  }
+$$
+
+in $\mathbf{H}$. Here the [[∞-image]] is directly read off to be the factorization in the second column from the right of
+
+$$
+  \array{
+    T \Sigma
+    &\to&
+    \Sigma 
+     &\to&  
+      (T \Sigma \sslash \mathbf{Aut}(T\Sigma)) \times \mathbf{B}GL(n)
+     &\to& 
+    \widehat{Type} \times \mathbf{B}GL(n)
+    \\
+    \downarrow 
+    &&
+    {}^{\mathllap{}}\downarrow && \downarrow
+     && \downarrow
+    \\
+    * &\to& 
+       \mathbf{B}GL(n) 
+       &\stackrel{}{\to}& 
+       \mathbf{B}\mathbf{Aut}(T \Sigma) \times \mathbf{B}GL(n)
+       &\to& 
+       Type \times \mathbf{B}GL(n)
+    \\ 
+    && & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow
+    \\
+    && && \mathbf{B}GL(n)
+  }
+  \,,
+$$
+
+where each square and hence each rectangle is an [[(∞,1)-pullback]] in $\mathbf{H}$. This shows that the automorphism $\infty$-group of $T \Sigma$ in the context of $\mathbf{B}GL(n)$ is just the absolute automorphism $\infty$-group freely [[context extension|context extended]]. The [[categorical semantics]] of the [[dependent type]]
+
+$$
+  D^n :\mathbf{B}GL(n), T \Sigma : \mathbf{B}\mathbf{Aut}(T \Sigma)
+  : 
+  T \Sigma : Type
+$$
+
+is the third column from the right in the above diagram. This means that the dependent sum in 
+
+$$
+  \mathbf{Conf}
+  \coloneqq
+  \vdash
+   \prod_{D^n : \mathbf{B}GL(n)}
+   \sum_{T\Sigma : \mathbf{B}\mathbf{Aut}(T\Sigma)}
+   T \Sigma \to GL(n)/O(n)   : Type
+  \,,
+$$
+
+Forms the internal hom in $\mathbf{H}_{/\mathbf{B}GL(n)}$ between the homotopy fiber of that third column formed in $\mathbf{H}_{/\mathbf{B}GL(n)}$, which is the second column (and therefore now does rememeber the $GL(n)$-action on $T \Sigma$) with $\mathbf{orth}$, rememeberting that the result has an $\mathbf{Aut}(T\Sigma)$-action by precomposition.
 
 
 
