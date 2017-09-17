@@ -1193,7 +1193,7 @@ The [[Poisson Lie n-algebra]] over an [[n-plectic manifold]], which by prop. \re
 
 Most further statements here will appear in 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Chris Rogers]], ...
+* [[Domenico Fiorenza]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
  {#FiorenzaRogersSchreiber}
 
 
