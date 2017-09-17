@@ -26,19 +26,15 @@ Type theory is a branch of mathematical [[logic]] which studies elements of vary
 
 One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the construction of [[objects]] and [[morphisms]] in a category_.  (An introduction and historical background is for instance in [Taylor](#Taylor) [section 2](http://www.paultaylor.eu/ASD/foufct/cattype.html).) 
 
-This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories:
+This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories 
 
-$$ 
-  Con 
-  : 
+([[category of contexts]] $\dashv$ [[internal language]]) $ :  (Con \dashv Lan) :
   TypeTheories 
-    \rightleftarrows 
+    \stackrel{\overset{Lan}{\leftarrow}}{\underset{Con}{\to}}
   Categories 
-  : 
-  Lan 
-$$
+$.
 
-There are many different versions of this adjunction, depending on what kind of type theory we consider and what structure we impose on the categories in question.  In each case
+There are many different versions of this adjunction, depending on what kind of type theory we consider (e.g. [[dependent type theory|dependent]], with [[identity types]], etc.) and what structure we impose on the categories in question.  In each case
 
 * the [[left adjoint]] $Con$ assigns to a type theory $T$ the *[[category of contexts]]* of $T$ (a review is for instance in [Taylor](#Taylor) [section 2.8](www.paultaylor.eu/ASD/foufct/cattype.html)), which has structure (such as [[limits]], [[colimits]], etc.) derived from the operations in the type theory, 
 
@@ -523,7 +519,7 @@ Discussion of type theory in the context of programming languages includes
 
 Discussion aimed at [[foundations]] include
 
-* [[Paul Taylor]], _Practical Foundations of Mathematics_ Number 59 in Cambridge Studies in Advanced Mathematics. Cambridge University Press (1999) ([webpage](http://www.cs.man.ac.uk/~pt/Practical_Foundations/html/))
+* [[Paul Taylor]], _[[Practical Foundations of Mathematics]]_, Number 59 in Cambridge Studies in Advanced Mathematics. Cambridge University Press (1999) ([webpage](http://www.cs.man.ac.uk/~pt/Practical_Foundations/html/))
  {#Taylor99}
 
 * [[Paul Taylor]], _Foundations for computable topology_ ([web](http://www.paultaylor.eu/ASD/foufct/abstract.html))
