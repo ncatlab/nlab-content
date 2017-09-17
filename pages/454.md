@@ -62,6 +62,8 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
 * [[modular lattice]]
 
+* [[continuous lattice]]
+
 * [[frame]]
 
 [[!redirects lattices]]
