@@ -31,7 +31,7 @@ The term derives from the word _membrane_ that was originally used to describe 2
 
 There are two fundamentally different concrete realizations of this somewhat vague notion.
 
-1. **D-branes** and other boundary conditions
+1. **[[D-brane]]s** and other boundary conditions
 
 1. **fundamental** or $\sigma$-model branes
 
@@ -99,9 +99,9 @@ In this case it turns out that branes for the sigma model on $X$ are given in th
 
 More generally, one finds that the geometric data that corresponds to the branes in the algebraically defined 2d QFT is given by cocycles in the twisted [[differential K-theory]] of $G$. These may be quite far from having a direct interpretation as submanifolds of $G$.
 
-The case of rational 2d CFT considered so far is only the best understood of a long sequence of other examples. Here the collection of all D-branes -- identified with the colleciton of all intermal modules over an internal frobenius algebra, forms an ordinary [[category]].
+The case of rational 2d CFT considered so far is only the best understood of a long sequence of other examples. Here the collection of all [[D-branes]] -- identified with the colleciton of all internal modules over an internal frobenius algebra, forms an ordinary [[category]].
 
-More generally, at least for 2-dimensional [[TQFT]]s analogous considerations yield not just categories but [[stable (∞,1)-categories]] of boundary condition objects. For instance for what is called the [[B-model]] 2-d [[TQFT]] the category of D-branes is the [[derived category]] of [[coherent sheaves]] on some Calabi-Yau space.
+More generally, at least for 2-dimensional [[TQFT]]s analogous considerations yield not just categories but [[stable (∞,1)-categories]] of boundary condition objects. For instance for what is called the [[B-model]] 2-d [[TQFT]] the category of [[D-branes]] is the [[derived category]] of [[coherent sheaves]] on some Calabi-Yau space.
 
 Starting with Kontsevich's [[homological algebra]] reformulation of [[homological mirror symmetry|mirror symmetry]] the study of (derived) D-brane categories has become a field in its own right in pure mathematics.
 
@@ -110,7 +110,7 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 ### Fundamental or $\sigma$-model branes
 
-In [[string theory]] one speak apart from the D-branes also about **fundamental branes** . These are the objects $\Sigma$ in the $n$-dimensional [[sigma model]] themselves.
+In [[string theory]] one speaks apart from the [[D-branes]] also about **fundamental branes** . These are the objects $\Sigma$ in the $n$-dimensional [[sigma model]] themselves.
 
 * For $n=0$ this describes the ordinary quantum mechanics of a point particles on $X$. And such point particles are the _fundamental particles_ for instance of the [[standard model of particle physics]].
 
@@ -130,10 +130,29 @@ The corresponding table has been called the **brane scan**
 
 [[branescan.gif:pic]]
 
+## Related concepts
+
+* [[sigma-model]]
+
+* [[particle]], [[superparticle]]
+
+* [[string]] 
+
+* [[membrane]], [[M2-brane]], [[M5-brane]]
+
+* [[NS5-brane]]
+
+* [[D-brane]]
+
+
 
 ## References 
 
 ### Boundary conditions / D-branes
+
+(...)
+
+See [[D-brane]].
 
 For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the references given at 
 
@@ -142,7 +161,7 @@ For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the ref
 
 A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
 
-* [[Paul Aspinwall], _D-Branes on Calabi-Yau Manifolds_ ([arXiv](http://arxiv.org/abs/hep-th/0403166)) 
+* [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv](http://arxiv.org/abs/hep-th/0403166)) 
 
 This can to a large extent be read as a dictionary from [[homological algebra]] terminology to that of D-brane physics.
 
@@ -170,22 +189,6 @@ More along these lines is in
 See also [[division algebras and supersymmetry]].
 
 
-## Related concepts
-
-* [[sigma-model]]
-
-* [[particle]], [[superparticle]]
-
-* [[string]] 
-
-* [[membrane]]
-
-  * [[M2-brane]], 
-
-* [[NS5-brane]]
-
-
-## References
 
 
 [[!redirects branes]]
@@ -199,5 +202,3 @@ See also [[division algebras and supersymmetry]].
 [[!redirects NS-fivebrane]]
 [[!redirects NS-fivebranes]]
 
-[[!redirects D-brane]]
-[[!redirects D-branes]]
