@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Ricci flow_ is the [[gradient flow]] of the the [[action functional]] of [[dilaton gravity]]: the [[Einstein-Hilbert action]] coupled to a [[dilaton field]]. 
+
+(Equivalently: it isthe [[renormalization group flow]] of the [[string]] [[sigma-model]] for [[background gauge field|background fields]] containing [[gravity]] and [[dilaton]].)
+
+## References
+
+The identification of Ricci flow as a gradient flow of gravity+dilaton is due to 
+
+* Perelman, ...
+
+and was a key step in his completion of Hamilton's program for how to prove the [[Poincare conjecture]].
+
+A quick survey is in the slides
+
+* Annibale Magni, _Perelman's dilaton_ ([pdf](http://www.sissa.it/fa/difftop2010/dwnld/Magni.pdf)).
+
+A detailed survey is in 
+
+* [[Terry Tao]], _Ricci flow as a gradient flow, log-Sobolev inequalities, and Perelman entropy_ ([blog post](http://terrytao.wordpress.com/2008/04/24/285a-lecture-8-ricci-flow-as-a-gradient-flow-log-sobolev-inequalities-and-perelman-entropy/))
+
