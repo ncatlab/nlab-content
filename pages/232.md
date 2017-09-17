@@ -243,7 +243,10 @@ The standard reference on enriched categories is
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
+Vista of some modern generalizations is in
 
+* [[Tom Leinster]], _Generalized enrichement for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
+* [[Tom Leinster]], _Generalized enrichement of categories_, Journal of Pure and Applied Algebra __168__ (2002), no. 2-3, 391-406, [math.CT/0204279](http://arxiv.org/abs/math.CT/0204279)
 
 ## Blog entries
 
