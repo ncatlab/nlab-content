@@ -1310,11 +1310,31 @@ and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$
 
 An object $\mathbb{A}^1 \in \mathbf{H}$ is called 
 a **line object exhibiting the cohesion of $\mathbf{H}$**
-if $\Pi : \mathbf{H} \to \infty Grpd$
+if the [[shape modality]] $&#643;$ (hence the reflector $\Pi : \mathbf{H} \to \infty Grpd$)
 exhibits the [[localization of an (∞,1)-category]] of $\mathbf{H}$
 at the class of morphisms $\{ X \times \mathbb{A}^1 \to X \}_{X \in \mathbf{H}}$.
 
 =--
+
++-- {: .num_example}
+###### Example
+
+The cohesion of [[Smooth∞Grpd]] is exhibited by the [[real line]]
+(the standard [[continuum]]) under the canonical embedding
+$\mathbb{R} \in $ [[SmoothMfd]] $\hookrightarrow $ [[Smooth∞Grpd]].
+
+=--
+
+This is ([dcct, 3.9.1](#dcct)). 
+
++-- {: .num_remark}
+###### Remark
+
+The analogous notion in [[infinitesimal cohesion]]
+is discussed in [infinitesimal cohesion -- infinitesimal A1-homotopy](#cohesive+(infinity%2C1)-topos+--+infinitesimal+cohesion#InfinitesimalA1Homotopy).
+
+=--
+
 
 See also at 
 
@@ -3876,11 +3896,12 @@ For general references on [[cohesive (∞,1)-toposes]] see there.
 
 The above list of structures in any cohesive $(\infty,1)$-topos is the topic of section 2.3 of
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_  
+ {#dcct}
 
 ### Formulation in homotopy type theory
 
-For formalizations of some structures in cohesive $(\infty,1)$-toposes in terms of [[homotopy type theory]] see _[[cohesive homotopy type theory]].
+For formalizations of some structures in cohesive $(\infty,1)$-toposes in terms of [[homotopy type theory]] see _[[cohesive homotopy type theory]]_.
 
 
 
