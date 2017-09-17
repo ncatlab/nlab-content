@@ -52,7 +52,7 @@ Note that the model of $SEAR+\varepsilon$ we've just constructed also satisfies 
 
 Now [[Toby Bartels|I]] step in to say: $\mathbf{SEAR} + \varepsilon \vDash COSHEP$.
 
-The reason is that every preset *does* admit an identity prerelation as in the last paragraph above; let $x \equiv_A y$ if $x \sim_R y$ for every reflexive prerelation $R: A \looparrowright A$ (or even for every equivalence prerelation).  This will work also in $\mathbf{ETCS} - AC + \varepsilon$ by quantifying over prefunctions $f: A \to \mathcal{P}1$ and using the kernel of $f$ (relative to the standard equality on truth values) as the equivalence relation.  (Of course, $\mathbf{SEAR}$ is capable of using this method too.)  It will still work in versions with intuitionistic logic, but not (as far as I can see) in $\mathbf{CETCS} - COSHEP + \varepsilon$ (following [Palmgren](http://www.math.uu.se/~palmgren/cetcs.pdf)), where one cannot take power sets or quantify over subsets.
+The reason is that every preset *does* admit an identity prerelation as in the last paragraph above; let $x \equiv_A y$ if $x \sim_R y$ for every reflexive prerelation $R: A \looparrowright A$ (or even for every equivalence prerelation).  This will work also in $\mathbf{ETCS} - AC + \varepsilon$ by [[quantification|quantifying]] over prefunctions $f: A \to \mathcal{P}1$ and using the kernel of $f$ (relative to the standard equality on truth values) as the equivalence relation.  (Of course, $\mathbf{SEAR}$ is capable of using this method too.)  It will still work in versions with intuitionistic logic, but not (as far as I can see) in $\mathbf{CETCS} - COSHEP + \varepsilon$ (following [Palmgren](http://www.math.uu.se/~palmgren/cetcs.pdf)), where one cannot take power sets or quantify over subsets.
 
 [[Mike Shulman]]: Ah, you're right.  I actually thought of that briefly, but then I didn't immediately see how to prove the following.
 
@@ -100,7 +100,7 @@ Okay, second try.  Define **constructive SEAR** to use [[intuitionistic logic]] 
 
 Now modify it as above, removing basic equality and adding a basic notion of "operation," to obtain **CSEAR+$\varepsilon$**.  Note that the axiom of quotient sets becomes redundant, given the definition of "set" as a preset with an equivalence prerelation.
 
-The same argument as above should show that CSEAR+$\varepsilon$ is conservative over CSEAR+COSHEP.  (Just as Bounded SEAR is equivalent to ETCS, CSEAR+COSHEP is equivalent to Palmgren's CETCS.)  However, the converse argument above fails since we cannot define $\equiv_A$ by quantifying over relations (note that avoiding this requires not only throwing out powersets, but restricting axiom 1 to bounded quantification).
+The same argument as above should show that CSEAR+$\varepsilon$ is conservative over CSEAR+COSHEP.  (Just as Bounded SEAR is equivalent to ETCS, CSEAR+COSHEP is equivalent to Palmgren's CETCS.)  However, the converse argument above fails since we cannot define $\equiv_A$ by quantifying over relations (note that avoiding this requires not only throwing out powersets, but restricting axiom 1 to [[bounded quantification]]).
 
 Now: is CSEAR+$\varepsilon$ conservative over CSEAR?
 
