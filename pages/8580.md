@@ -8268,7 +8268,7 @@ Before we discuss technical details starting in the [next chapter](#Fields) here
  {#IngredientsOfFundamentalPhysics}
 
 Ever since [[Issac Newton]], [[theories of physics]] are formulated in the language of [[mathematics]]. Modern physics is formulated in terms of modern mathematics in the most intimate way.
-We aim to give here an account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed above in _[geometry of physics - Geometry](geomery+of+physics#GEOMETRY)_. 
+We aim to give here an account at least of central parts of modern physics naturally formulated in the mathematics of _[[higher geometry]]_ that we discussed in _[geometry of physics - Geometry](geometry+of+physics#GEOMETRY)_. 
 
 The physics that we are concerned with is _fundamental_ physics,
 that part of the large subject of physics which is concerned with elementary  processes and phenomena of physics from which all others are thought to _emerge_ as approximations to collective effects of complex configurations of the elementary 
@@ -8324,20 +8324,11 @@ We briefly indicate what this means, a formal discussion of these notions will b
 
    A gauge theory in the original sense specifically has a groupoid of [[principal connections]] as its configurations. (Notice that gauge transformations are not in general just a redundancy of the description of the theory, but are genuine data: there are in general non-trivial gauge [[automorphisms]] of a field and the stack of gauge field configurations is not in general equivalent to a plain [[sheaf]].)
 
-* A **[[Lagrangian]]** theory is one which is specified by a [[smooth function]] on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] $L$ on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
+* A **[[Lagrangian]]** theory is one which is specified by a function on the space of all its configurations, called the (exponentiated) _[[action functional]]_ $\exp(i S)$. This function is assumed to be the [[integration of differential forms|integral]] of a [[differential form]] $L$ on [[spacetime]] that itself is a function of the field configurations and called the [[Lagrangian]] of the theory. 
 
   $$
     \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\right)\left(x\right) \right) 
   $$
-
-
-* A **[[local quantum field theory|local]]** theory has a Lagrangian form which at each point of spacetime only depends on the values of the fields at that point, and of finitely many derivatives of the fields at that point.
-
-  $$
-    \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\left(x\right), \nabla \phi\left(x\right)\right)\right) 
-  $$
-
-  This means that a _[[local Lagrangian]]_ is a [[variational bicomplex|horizontal form on]] the [[jet bundle]] of the field bundle of which the fields are sections.
 
   The [[critical locus]]
 
@@ -8348,7 +8339,15 @@ We briefly indicate what this means, a formal discussion of these notions will b
 	  \right\}
   $$
 
-  of the local action functional is called the _[[phase space]]_ of the theory, a point of this is said to be a solution to the _[[equations of motion]]_ of the theory.
+  of the action functional is called the _[[phase space]]_ of the theory, a point of this is said to be a solution to the _[[equations of motion]]_ of the theory.
+
+* A **[[local quantum field theory|local]]** theory has a Lagrangian form which at each point of spacetime only depends on the values of the fields at that point, and of finitely many derivatives of the fields at that point.
+
+  $$
+    \exp(i S(\phi)) = \exp\left(i \int_X L\left(\phi\left(x\right), \nabla \phi\left(x\right)\right)\right) 
+  $$
+
+  This means that a _[[local Lagrangian]]_ is a horizontal form on the [[jet bundle]] of the field bundle of which the fields are sections.
 
 * A **[[topological field theory|topological]]** theory finally is one where the field bundle is naturally associated to every smooth manifold, typically of some fixed dimension and possibly equipped with  topological [[G-structure]] such as an orientation, but not equipped with any further geometric structure: all geometric structure such as metrics on spacetime are themselves regarded as parts of the field content in a topological theory.
 
@@ -8361,7 +8360,7 @@ _[[topological field theory|topological]] [[local  Lagrangian]] [[gauge field th
 
 In the 1980s attention turned to _other_ topological local Lagrangian gauge field theories than that governing the standard model: it turns out that there are many such  [[theories of physics]] that share crucial properties with the standard model but which  otherwise predict, if considered as phenomenological models, physics  radically different from that
 which we actually observe experimentally. For instance there are respectable theories of fundamental 
-pyhsics which describe physics in dimensions other than the three spatial and one time dimension which we clearly observe, theories that contain no force of gravity, others that contain only the force of gravity, theories that contain mirror partners of every species of matter or contain no matter at all, etc.
+physics which describe physics in dimensions other than the three spatial and one time dimension which we clearly observe, theories that contain no force of gravity, others that contain only the force of gravity, theories that contain mirror partners of every species of matter or contain no matter at all, etc.
 
 In short, it was gradually realized, and realized to be important, that, in the platonic world of mathematics and of theoretical physics, there is a whole space of field theories, in which the one underlying the standard model of observed physics is only one single point, even if regarded with its free parameters.
 
@@ -8427,7 +8426,7 @@ $$
   \Sigma_k \mapsto Z(\Sigma_k) \in (n-k)\mathrm{Vect}
 $$
 
-That something like this should work was hypothetized by [[Dan Freed]] (in _[[Higher Algebraic Structures and Quantization]]_), the precise formulation was later given by [[Jacob Lurie]] (in _[[On the Classification of Topological Field Theories]]_). In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tieres" of the theory). 
+That something like this should work was hypothetized by [[Dan Freed]] (in _[[Higher Algebraic Structures and Quantization]]_), the precise formulation was later given by [[Jacob Lurie]] (in _[[On the Classification of Topological Field Theories]]_). In the literature the resulting axiomatization is called _[[extended topological field theory]]_ (with "extended" referring to extending the axioms from [[codimension]] 1 to higher codimension) or _[[multi-tiered field theory]]_ (thinking of the data in higher [[codimension]] as being higher "tiers" of the theory). 
 
 But in the [[physics]]-community, at least in the [[algebraic quantum field theory]]-community, there is also the well-established term of _[[local quantum field theory]]_ which refers broadly to what the axioms of "extended TQFT" capture. Hence we should think of this as formalizing _topological local field theory_.
 
@@ -8737,16 +8736,16 @@ $$
 
 An element in here is a [[universal characteristic class]] of $G$-[[principal bundles]]. In Chern-Simons theory this is going to be what traditionally is called the [[level (Chern-Simons theory)|level]] of the theory.
 
-We writ
+We write
 
 $$
   c : B G \to  B^3 U(1) \simeq K(\mathbb{Z},4)
 $$
 
-for a represenative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. 
+for a representative [[universal characteristic map]] of the corresponding degree-4 [[universal characteristic class]]. 
 
 
-Under [[geometric realization of cohesive ∞-groupoids|geoetric realization]] as just [recalled](#IntermezzoElementsOfHigherCohesiveGeometry) this has an essentially unique lift to _smooth cohomology_, hence to a morphism of [[moduli ∞-stacks]]
+Under [[geometric realization of cohesive ∞-groupoids|geometric realization]] as just [recalled](#IntermezzoElementsOfHigherCohesiveGeometry) this has an essentially unique lift to _smooth cohomology_, hence to a morphism of [[moduli ∞-stacks]]
 
 $$
   \mathbf{c}
@@ -8821,7 +8820,7 @@ $$
   \,.
 $$
 
-The smooth and differential refinement of the [[first Chern class]] itself $c_1 \;\colon\; B U(1) \to B U(1) K(\mathbb{Z},2) $ is tautological: this is simply the identity 
+The smooth and differential refinement of the [[first Chern class]] itself $c_1 \;\colon\; B U(1) \to B U(1) \simeq K(\mathbb{Z},2) $ is tautological: this is simply the identity 
 
 $$
   \widehat \mathbf{c}_1 \coloneqq id 
@@ -9106,7 +9105,6 @@ As a hint to the answer of this question, here is a list of names examples of [[
   * [[string field theory]]
 
 The last example here brings us back full circle to where we started this motivation with [above](#IngredientsOfFundamentalPhysics): by the central property of [[string theory]], the action functional for [[string field theory]] (or some [[KK-reduction]] thereof) contains [[Einstein-Yang-Mills theory]].
-
 
 ## **Fields**
  {#Fields}
@@ -10175,6 +10173,8 @@ In particular the moduli stacks $\mathbf{B}G$ here are typically all differentia
 
    1. [Kalb-Ramond B-field](#KalbRamondBField)
 
+   1. [Supergeometric B-Field](#KalbRamondBField)
+
    1. [Supergravity C-field](#SupergravityCField)
 
 1. [Matter fields](#MatterFields)
@@ -10808,6 +10808,7 @@ $$
 
 These are precisely the [[instanton sectors]] of the fields of [[Green-Schwarz mechanism|Green-Schwarz anomaly free]] [[heterotic supergravity]], discussed further below in _[Anomaly-free heterotic supergravity fields](#HeteroticStringBackgroundField)_. ([SSS](#SSS))
 
+
 ###### **I b)** Gauge fields
  {#GaugeFields}
 
@@ -10923,7 +10924,94 @@ gauge field known as the _[[B-field]]_ or the _[[Kalb-Ramond field]]_.
 ####### Supergeometric $B$-field
  {#KalbRamondBField}
 
-(...)
+The [[B-field]] appears both in [[bosonic string theory]] as well as in [[type II superstring theory]]. In ([Distler-Freed-Moore](#Precis)) it was pointed out that for the [[superstring]] the plain formulation [above](#KalbRamondBField) needs to be refined. We discuss here the natural  formulation of this observation in [[smooth super infinity-groupoid|higher supergeometry]] as in ([FSS CSIntroAndSurvey, section 4.3](#FiorenzaSatiSchreiberCSIntroAndSurvey)).
+
+Generally instead of the [[circle group]] $U(1)$ one can consider the [[multiplicative group]] $\mathbb{C}^\times$ of non-zero [[complex numbers]]. The canonical [[subgroup]] inclusion $U(1) \hookrightarrow \mathbb{C}^\times$ induces for each $n \in \mathbb{N}$ a canonical morphism of [[moduli ∞-stacks]]
+
+$$
+  \mathbf{B}^n U(1) \to \mathbf{B}^n \mathbb{C}^\times
+  \,.
+$$
+
+This is not quite an [[equivalence]] of [[∞-stacks]] but it is a [[shape modality]]-equivalence in that [[geometric realization of cohesive ∞-groupoids]] sends it to an equivalence as
+
+$$
+  {\vert \mathbf{B}^n U(1)\vert}
+  \simeq
+  {\vert \mathbf{B}^n \mathbb{C}^\times\vert}
+  \simeq
+  K(\mathbb{Z}, n+1)
+  \,.
+$$
+
+For instance smooth $U(1)$-[[principal bundles]] and $\mathbb{C}^\times$-[[principal bundles]] are both classified by the universal [[Chern class]] in $H^2(-, \mathbb{Z})$ but the [[gauge transformation|gauge]] [[automorphisms]] of the trivial $U(1)$-principal bundle form $C^\infty(-,U(1))$, while that of the trivial $\mathbb{C}^\times$-principal bundle form the larger $C^\infty(-,\mathbb{C}^\times)$.
+
+Both versions of the moduli $n$-stack of $n$-bundles have their use. The version $\mathbf{B}^n \mathbb{C}^\times$ has the advantage that it is actually equivalent to the moduli $n$-stack of complex line $n$-bundles.
+
+$$
+  \mathbf{B}^n \mathbb{C}^\times \simeq n Line_\mathbb{C}
+  \,.
+$$
+
+Specifically for $n = 2$ it is equivalent to the moduli 2-stack of [[line 2-bundles]]
+
+$$
+  \mathbf{B}^2 \mathbb{C}^\times \simeq 2 Line_\mathbb{C}
+  \,.
+$$
+
+But now in [[supergeometry]] [complex super-line 2-bundle](http://ncatlab.org/nlab/show/line%202-bundle#SuperLine2BundlesAndTwistedK) have a richer classification that plain [[line 2-bundle]]. 
+Explicitly, let now $\mathbf{H} \colon $ [[SmoothSuper∞Grpd]] be the ambient [[cohesive (∞,1)-topos]] for higher [[supergeometry]] and write
+
+$$
+  2\mathbf{sLine}_{\mathbb{C}}
+  \in 
+  \mathbf{H}
+$$
+
+for the 2-stack of [complex super-line 2-bundle](http://ncatlab.org/nlab/show/line%202-bundle#SuperLine2BundlesAndTwistedK). 
+
+This has [[categorical homotopy groups in an (infinity,1)-topos|homotopy sheaves]] 
+
+| $k$  | $\pi_k( 2 \mathbf{sLine})$ |
+|--|--|
+| 0 | $\mathbb{Z}_2$  |  
+| 1 | $\mathbb{Z}_2$ |
+| 3 | $\mathbb{C}^\times$ |
+
+in the [[topos]] over [[supermanifolds]]. The $\pi_0(2 \mathbf{sLine}) \simeq \mathbb{Z}_2$ says that locally there is not just one super line 2-bundle, namely the standard line 2-bundle, but also its odd "superpartner". 
+
+Under [[geometric realization of cohesive infinity-groupoids|geometric realization]] ${\vert-\vert} \;\colon\; \mathbf{H} \to \infty Grpd \simeq L_{whe} Top$ we have the [[homotopy type]] ${\vert 2 \mathbf{sLine}\vert}$ with [[homotopy groups]]
+
+| $k$  | $\pi_k({\vert 2 \mathbf{sLine}\vert})$ |
+|--|--|
+| 0 | $\mathbb{Z}_2$  |  
+| 1 | $\mathbb{Z}_2$ |
+| 3 | $0$ |
+| 4 | $\mathbb{Z}$ |
+
+Since $2 \mathbf{sLine}$ is the [[Picard 3-group]] of the monoidal 2-stack $2 \mathbf{sVect}$ of super [[2-vector bundles]] it is a supergeometric [[3-group]]. Therefore there is the further [[delooping]] $\mathbf{B}2\mathbf{sLine}$ and hence the differential refinement $2\mathbf{sLine}_{conn}$ in the [[(∞,1)-pullback]] diagram
+
+$$
+  \array{
+    2\mathbf{sLine}_{conn} &\to& \Omega^3_{cl}
+    \\
+    \downarrow && \downarrow
+    \\
+    2 \mathbf{sLine} &\stackrel{curv}{\to}& \flat_{dR} \mathbf{B}2 \mathbf{sLine}
+  }
+  \,.
+$$
+
+This is now the moduli 2-stack
+
+$$
+  \mathbf{Fields} \coloneqq 2\mathbf{2Line}_{conn}
+  \;\;
+  \in SmoothSuper\infty Grpd
+$$
+
+for the [[B-field]] in [[type II string theory]].
 
 
 ####### Supergravity $C$-field
