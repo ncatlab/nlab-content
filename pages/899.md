@@ -3,9 +3,48 @@
 {:toc}
 
 ## Idea
+
+A topological group is a topological space with a continuous group structure. 
+
+## Definition
+
 A **topological group** is an [[internalization|internal]] [[group object]] in the category of [[topological space|topological spaces]].
 
 More explicitly, it is a group equipped with a topology such that the multiplication and inversion maps are continuous.
+
+## Uniform structure
+
+A topological group $G$ carries two canonical [[uniform space|uniformities]]: a right and left uniformity. The **left uniformity** consists of entourages $\sim_{l, U}$ where $x \sim_U y$ if $x y^{-1} \in U$; here $U$ ranges over neighborhoods of the identity that are symmetric: $g \in U \Leftrightarrow g^{-1} \in U$. The **right uniformity** similarly consists of entourages $\sim_{r, U}$ where $x \sim_{r, U} y$ if $x^{-1} y \in U$. The uniform topology for either coincides with the topology of $G$. 
+
+Obviously when $G$ is commutative, the left and right uniformities coincide. They also coincide if $G$ is compact Hausdorff, since in that case there is only one uniformity whose uniform topology reproduces the given topology. 
+
+Let $G$, $H$ be topological groups, and equip each with their left uniformities. Let $f: G \to H$ be a group homomorphism. 
+
++-- {: .un_prop}
+######Proposition
+The following are equivalent: 
+
+* The map $f$ is continuous at a point of $G$; 
+
+* The map $f$ is continuous; 
+
+* The map $f$ is uniformly continuous. 
+
+=-- 
+
++-- {: .proof} 
+######Proof
+Suppose $f$ is continuous at $g \in G$. Since neighborhoods of a point $x$ are $x$-translates of neighborhoods of the identity $e$, continuity at $g$ means that for all neighborhoods $V$ of $e \in H$, there exists a neighborhood $U$ of $e \in G$ such that 
+
+$$f(g U) \subseteq f(g) V$$
+
+Since $f$ is a homomorphism, it follows immediately from cancellation that $f(U) \subseteq V$. Therefore, for every neighborhood $V$ of $e \in H$, there exists a neighborhood $U$ of $e \in G$ such that 
+
+$$x y^{-1} \in U \Rightarrow f(x) f(y)^{-1} = f(x y^{-1}) \in V$$ 
+
+which is to say $x \sim_U y \Rightarrow f(x) \sim_V f(y)$. Hence $f$ is uniformly continuous with respect to the left uniformities. By similar reasoning, $f$ is uniformly continuous with respect to the right uniformities.
+=--
+
 
 ## Unitary representation on Hilbert spaces
 
