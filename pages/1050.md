@@ -182,6 +182,7 @@ The properties of corollary \ref{ExactFunctorPreservesExactSequences} explain th
 
 *  [[exact (∞,1)-functor]]
 
+* [[satellite]]
 
 ## References
 
