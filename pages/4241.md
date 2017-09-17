@@ -72,7 +72,7 @@ which are consequences of the definition(s) given earlier.
 
 ## References ##
 
-* Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
+* (popular) Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
 * Sam Nelson, [Quandle theory](http://www.esotericka.org/pomona/quandles.html). link not working!
 
