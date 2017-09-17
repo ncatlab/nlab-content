@@ -2076,3 +2076,6 @@ Interesting wishlists for treatments of Hochschild cohomology are in [this](http
 
 [[!redirects Hochschild homology]]
 [[!redirects Hochschild complex]]
+[[!redirects hochschild homology]]
+[[!redirects hochschild cohomology]]
+[[!redirects hochschild complex]]
