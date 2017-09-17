@@ -56,11 +56,7 @@ Examples of categories which are _not_ regular include [[Cat]], [[Pos]], and [[T
 
 If a regular category additionally has the property that every [[congruence]] is a kernel pair (and hence has a quotient), then it is called a (Barr-) [[exact category]].  Note that while regularity implies the existence of some coequalizers, and exactness implies the existence of more, an exact category need not have all coequalizers (only coequalizers of congruences), whereas a regular category can be [[cocomplete category|cocomplete]] without being exact.
 
-Regularity and exactness can also be phrased in the language of [[Galois connection]]s.  For each object $d$, consider the following relation $coeq$ between the class of parallel pairs $f, g: e \stackrel{\to}{\to} d$) and maps $h: d \to c$: 
-
-$$\langle (f, g); h \rangle \in coeq \qquad iff \qquad h f = h g$$
-
-[to be continued...]
+Regularity and exactness can also be phrased in the language of [[Galois connection]]s, as a special case of the notion of [[generalized kernels]].
 
 
 ### Higher arity
