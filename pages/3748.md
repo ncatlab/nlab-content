@@ -12,7 +12,19 @@ $$F(C) \cong F(1) \int C$$
 Examples of this phenomenon include the monad for [[monoidal categories]], [[symmetric monoidal categories]], [[braided monoidal categories]], categories with finite [[product]]s, [[closed category|closed symmetric monoidal categories]], and many others.
 
 +--{: .query}
-[[Mike Shulman]]: How do you get *closed* symmetric monoidal categories?  I thought that was one of the ones that Kelly couldn't handle because it involves extranatural transformations.
+[[Mike Shulman]]: How do you get *closed* symmetric monoidal categories?  I thought that was one of the ones that Kelly couldn't handle because it involves extranatural transformations. 
+
+[[Todd Trimble]]: You can get them, but there are points to watch. The real trouble to watch out in doctrines of "mixed variance" is the possibility of producing loops or "islands" in the process of composing extranaturals, but as it happens this doesn't occur in free smc categories. They do occur for compact closed categories, and that's fatal. The classical example is trace in compact closed categories, where the composite
+
+$$1 \stackrel{\eta}{\to} c^* \otimes c \stackrel{\varepsilon}{\to} 1$$ 
+
+is not a well-defined extranatural since it depends on $c$. 
+
+Here are some details on clubs of mixed variance, which I was going to get to but here is a first pass. First, as you might expect, one replaces $\mathbf{P}$ below by a category $\mathbf{G}$ enriched in pointed sets whose objects are finite signed sets and whose non-basepoint morphisms are oriented 1-cobordisms. Let's say that two morphisms in $\mathbf{G}$ have a "defined" composition if no islands are produced, else their composition is taken to be the basepoint. Now let $F(1)$ be the free smc category on one generator. There is a "graph functor" $\Gamma: F(1) \to \mathbf{G}$ which takes a morphism  of $F(1)$ to its extranaturality graph. The crucial observation (and it's a bit nontrivial; the proof relies on a cut-elimination theorem) is that no basepoint morphism lies in the image of $\Gamma$, i.e., no islands can occur in formal compositions for this doctrine.
+
+In cases like that, the basic club idea will work. Given a category $C$, the free smc category $F(C)$ has the expected objects given by formal iterated applications of hom and tensor to objects of $C$. A morphism is given by a morphism of $F(1)$ together with a labeling of the oriented edges of its underlying graph (an oriented 1-cobordism) by morphisms of $C$. Then, you compose morphisms of this "wreath product" in the obvious way, composing the morphism-labels of edges in 1-cobordisms as they get pasted together. 
+
+It should also be mentioned (I'm sure you know this) that in such mixed variance cases, even if there are no islands in formal compositions, the result is merely a monad on $Cat$, not a 2-monad. On the other hand, you do get a 2-monad if you restict to categories, functors, and natural isomorphisms.
 =--
 
 Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]].  In fact, most types of clubs are a special case of [[generalized multicategories|generalized operads]].
