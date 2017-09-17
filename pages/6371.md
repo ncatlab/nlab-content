@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,7 +23,7 @@
 A [[field]] (as an [[associative algebra|algebraic structure]]) equipped with a [[metric]] is **complete** if the operations are [[continuous function|continuous]] with respect to the induced [[topology]] and it is a [[complete metric space]]. 
 
 
-The most important case is the case of [[valued fields]].
+The most important case is the case of [[valued fields]] (i.e. multiplicatively [[normed fields]]).
 
 Given a multiplicative [[discrete valuation]] on a field $k$, there is a [[topology]] on $k$ induced by the metrics induced by the [[valuation]]. A complete valued field is a field complete with respect to the valuation metric. 
 
@@ -18,8 +33,8 @@ One of [[Ostrowski's theorems]] says that for $k$ a field [[complete field|compl
 
 ## Related concepts
 
-* [[archimedean field]]
+* [[archimedean field]], [[archimedean valued field]]
 
-* [[archimedean valued field]]
+[[!include analytic geometry ingredients -- table]]
 
 [[!redirects complete fields]]
