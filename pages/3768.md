@@ -6,6 +6,18 @@
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 =--
 =--
 
@@ -30,22 +42,29 @@ This we discuss below in the section
 
 Notice here that the sub-moduli space of _[[stable vector bundles|stable]]_ $GL$-principal bundles is related via the [[Narasimhan-Seshadri theorem]] to that of [[flat connection|flat]] $GL$-[[principal connections]] which is the [[phase space]] of $G$-[[Chern-Simons theory]] and via the [[holographic principle|holographic]] relation of that to the [[WZW model]] an ingredient of the [[modular functor]] and of [[equivariant elliptic cohomology]] etc. This relation serves to explain to some extent why this object is of such interest.
 
-Now the double quotient description is noteworthy because in this incarnation the moduli stack has, via the [[function field analogy]], an immediate analog in [[algebraic geometry]] and in fact in [[arithmetric geometry]] over any [[number field]]. This we discuss below in the section 
+Now the double quotient description is noteworthy because in this incarnation the moduli stack has, via the [[function field analogy]], an immediate analog in [[algebraic geometry]] and in fact in [[arithmetic geometry]] over any [[number field]]. This we discuss below in the section 
 
 * [Over algebraic curves](#OverAlgebraicCurves). 
 
 This parallel or analogy between the moduli stack of $G$-bundles over curves in analytic geometry and in arithmetic geometry is the underlying reason for the parallel between the [[number theory|number theoretic]] [[Langlands correspondence]] and the [[geometric Langlands correspondence]] (review includes [Frenkel 05, section 3.2](#Frenkel05)). It is also at the heart of the [[Weil conjecture on Tamagawa numbers]].
 
+In summary/preview, the analogy is this:
+
+[[!include function field analogy -- table]]
 
 #### Over complex curves 
  {#OverComplexCurves}
 
+(...)
 
+[Frenkel 05, section 3.2](#Frenkel05)
 
+(...)
 
 #### Over algebraic curves
  {#OverAlgebraicCurves}
 
+(...)
 
 
 ## Related concepts
