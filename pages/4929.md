@@ -1,3 +1,4 @@
+[[!redirects transition systems]]
 
 # Contents
 * automatic table of contents goes here
@@ -53,8 +54,8 @@ In the above, we have used the notation $L$ to stand for the set of _events_ and
 +--{: . un-definition}
 ##Definition##
 
- A _labeled transition system_ consists of a transition 
-system $T = (S, i, E, Tran)$ together with a set $L$ of _labels_, a function $l : E \to L$.  We denote it by $(T,L,l)$.
+ A _labelled transition system_ consists of a transition 
+system $T = (S, i, E, Tran)$ together with a set $L$ of _labels_, and a function $l : E \to L$.  We denote it by $(T,L,l)$.
  
 A _morphism_, $(\sigma, \tau , \lambda) : (T_1 , L_1 , l_1) \to (T_2 , L_2 , l_2 )$ between labeled transition 
 systems consists of a morphism $(\sigma, \tau) : T_1 \to T_2$ between the underlying transition 
@@ -62,6 +63,9 @@ systems together with a [[partial function]] $\lambda : L_1 \to L_2$ such that $
 =--
 We 
 write $LTS$ for the category of labeled transition systems.
+
+##LTSs as relational structures##
+We can view a transition system as a [[relational structure]].
 
 
 ##References##
