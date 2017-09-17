@@ -28,4 +28,9 @@ A detailed review is in sections 9 and 10 of
 
 * [[Hans Halvorson]], _Algebraic quantum field theory_ ([pdf](http://www.princeton.edu/~hhalvors/aqft.pdf))
 
+A purely [[category theory|category theoretic]] construction of the field-net analog of the [[DHR category]] is given in 
+
+* [[Michael Müger]], _Galois Theory for Braided Tensor Categories
+and the Modular Closure_, Adv. Math. 150, 151-201 (2000) ([arXiv:math.CT/9812040](http://arxiv.org/abs/math.CT/9812040))
+
 [[!redirects field nets]]
