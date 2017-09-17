@@ -29,9 +29,9 @@ Some [[philosophy|philosophers]], notably [[Charles Peirce]], considered there t
 
 Deductive logic is the best developed of the branches. For centuries, treatments of the [[syllogism]] were at the forefront of the discipline. In the nineteenth century, however, spurred largely by the needs of [[mathematics]], in particular the need to handle [[relations]] and [[quantifiers]], a new logic emerged, known today as [[predicate logic]]. 
 
-As we said above, logic is traditionally concerned with *correct* methods of reasoning, and philosophers (and others) have had much to say *prescriptively* about logic.  However, one can also study logic *descriptively*, taking it to be the study of methods of reasoning, without attempting to determine whether these methods are correct.
+As we said above, logic is traditionally concerned with *correct* methods of reasoning, and philosophers (and others) have had much to say *prescriptively* about logic.  However, one can also study logic *descriptively*, taking it to be the study of methods of reasoning, without attempting to determine whether these methods are correct. One may study [[constructive logic]], or a [[substructural logic]], without saying that it should be adopted. Also psychologists study how people actually reason rapidly in situations without full information, such as by the [fast and frugal](http://fastandfrugal.com/) approach.
 
-A __logic__ is a specific method of reasoning.  There are several ways to formalise this as a [[mathematics|mathematical]] object; see at _[[mathematical logic]]_.
+A __logic__ is a specific method of reasoning.  There are several ways to formalise a logic as a [[mathematics|mathematical]] object; see at _[[mathematical logic]]_.
 
 
 
