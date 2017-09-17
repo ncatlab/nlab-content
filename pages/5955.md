@@ -44,6 +44,10 @@ is equivalentl to the category of $R$-module spectra.
 
 This is ([Lurie, cor. 1.5.15](#Lurie)).
 
+## Related concepts
+
+* [[ring spectrum]], [[algebra spectrum]]
+
 ## References
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_ 
