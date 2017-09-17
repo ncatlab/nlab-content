@@ -257,6 +257,20 @@ $$
 
 This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
 
+### Colimits in a slice
+
+The forgetful functor $\mathcal{C}_{/X} \to \mathcal{C}$ out of a slice ([[dependent sum]]) [[reflected limit|reflects]] [[(∞,1)-colimits]]:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f \colon K \to \mathcal{C}_{/X}$ be a [[diagram]] in the slice of an [[(∞,1)-category]] $\mathcal{C}$ over an object $X \in \mathcal{C}$. Then if the composite $K \stackrel{f}{\to} \mathcal{C}_{/X} \to \mathcal{C}$ has an [[(∞,1)-colimit]], then so does $f$ itself and the projection $\mathcal{C}_{/q} \to \mathcal{C}$ takes the latter to the former. Conversely, a cocone $K \star \Delta^0  \to \mathcal{C}_{/X}$ under $f$ is an [[(∞,1)-colimit]] of $f$ precisely if the composite $K \star \Delta^0 \to \mathcal{C}_{/X} \to \mathcal{C}$ is an $(\infty,1)$-colimit of the projection of $f$.
+
+=--
+
+This appears as ([Lurie, prop. 1.2.13.8](#Lurie)).
+
+
 ## Related concepts
 
 * [[arrow category]]
@@ -283,6 +297,7 @@ This is [[Higher Topos Theory|HTT, prop. 5.5.5.12]].
 Section 1.2.9 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+ {#Lurie}
 
 [[!redirects over-category in quasi-categories]]
 [[!redirects over quasi-categories]]
