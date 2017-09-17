@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -55,6 +69,8 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 
 * [[Poincaré line bundle]]
 
+* [[Albanese variety]]
+
 [[!include moduli of higher lines -- table]]
 
 
@@ -77,4 +93,3 @@ category: algebraic geometry
 
 [[!redirects Picard stack]]
 [[!redirects Picard stacks]]
-
