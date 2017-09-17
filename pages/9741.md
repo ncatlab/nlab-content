@@ -23,7 +23,7 @@ Often one considers [[flat connections]] only, see at _[[moduli space of flat co
 
 ### Compactness
 
-If $\Sigma$ is a [[compact topological space|compact]] [[smooth manifold]], then the moduli psace of flat connections over $\Sigma$ is compact. 
+If $\Sigma$ is a [[compact topological space|compact]] [[smooth manifold]], then the moduli space of flat connections over $\Sigma$ is compact. 
 
 ### Complex structure
 
