@@ -274,6 +274,15 @@ that is homotopic to our $C(X,f)$. Therefore this is also a weak equivalence.
 
 =--
 
+## Related concepts
+
+* [[hom-set]]
+
+* [[hom-object]]
+
+* [[hom-space]]
+
+* **derived hom-space**
 
 
 
