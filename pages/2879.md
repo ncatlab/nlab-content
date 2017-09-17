@@ -56,7 +56,14 @@ form a _[[Steenrod algebra]]_. See there for details and citations.
 
 ### Scalar extension Hopf algebroids
 
-Given a Hopf algebra $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. 
+Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the category of Yetter-Drinfeld modules over $B$, the smash product algebra $B\sharp A$ is the total algebra of a Hopf algebroid over $A$. 
+
+### Generalized Steenrod algebra
+
+For $E$ a suitable [[spectrum]], its [[homotopy groups]]
+$\pi_\bullet(E)$ and [[generalized homology]] $E_\bullet(E)$
+form a Hopf algebroid of [[spectra]], the generalized [[Steenrod algebra]].
+See at _[Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)_.
 
 ## References
 
