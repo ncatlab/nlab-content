@@ -3092,7 +3092,7 @@ the claim follows.
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This is essentially the short exact sequence whose form is familiar from the traditional definition of [[ordinary differential cohomology]] only up to the following slight nuances in notation:
@@ -3120,10 +3120,139 @@ For a detailed discussion of the relation to [[ordinary differential cohomology]
 
 =--
 
+In view of the second of these points one can make a _choice_ of cover in order to present the twisting cocycles functorially. To that end, let
+
+$$
+  \Omega^{n+1}_{cl}(-,A) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}A
+$$
+
+denote a choice of [[effective epimorphism in an (∞,1)-category|effective epimorphism]] out of a [[0-truncated]] object which we suggestively denote by $\Omega^{n+1}_{cl}(-,A)$.
+
++-- {: .num_defn }
+###### Definition
+
+With a choice $\Omega^{n+1}_{cl}(-,A) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}A$ 
+fixed, we say an object $X \in \mathbf{H}$ is **dR-[[projective object|projective]]** if the induced morphism
+
+$$
+  \mathbf{H}(X, \Omega^{n+1}_{cl}(-,A))
+  \to 
+  \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^{n+1}A)
+$$
+
+is itself an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] (of [[∞-groupoid]])s.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+A morphism of $\infty$-groupoids is an effective epimorphism precisely if it is surjective on $\pi_0$ (see [here](http://ncatlab.org/nlab/show/effective+epimorphism+in+an+%28infinity%2C1%29-category#EffectiveEpisOfInfinityGroupoids)). Since $\Omega^{n+1}_{cl}(-,A)$ is assumed to be [[0-truncated]], also 
+
+$$
+  \Omega^{n+1}_{cl}(X,A) := \mathbf{H}(X, \Omega^{n+1}_{cl}(-,A))
+$$ 
+
+is 0-truncated. Hence $X$ is dR-projective precisely if the set $\Omega^{n+1}_{cl}(X,A)$ contains representatives of all intrinsic de Rham cohomology classes of $X$.
+
+In terms of [[hypercohomology]] this may be thought of as saying that $X$ is dR-projective if every de Rham hypercohomology class on $X$ has a representative by a globally defined differential form. In models of cohesion we typically have that [[manifolds]] are dR-projective, but nontrivial [[orbifold]]s are not.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write $\mathbf{B}^n A_{conn}$ for the $\infty$-pullback
+
+$$
+  \array{
+  \mathbf{B}^n A_{conn}
+  &
+  \stackrel{}{\to}
+  &
+  \Omega^{n+1}_{cl}(-,A)
+  \\ 
+  \downarrow && \downarrow
+  \\
+  \mathbf{B}^n A
+  &
+  \stackrel{curv}{\to}
+  &
+  \mathbf{\flat}_{dR}\mathbf{B}^{n+1}A
+  }
+  \,.
+$$
+
+We say that this is the **differential coefficient object** of $\mathbf{B}^n A$.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For every dR-projective $X \in \mathbf{H}$ there is a canonical 
+[[monomorphism in an (∞,1)-category|monomorphism]]
+
+$$
+  \mathbf{H}_{diff}(X,\mathbf{B}^n A)
+  \to 
+  \mathbf{H}(X, \mathbf{B}^n A_{conn})
+  \,,
+$$
 
 
 
-### Chern-Weil homomorphism and $\infty$-connections {#ChernWeilTheory}
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the diagram
+
+$$
+  \array{
+    \mathbf{H}(X, \mathbf{B}^n A_{\mathrm{conn}})
+    &
+    \stackrel{}{\to}
+    &
+    \Omega^{n+1}_{cl}(-,A)
+    \\ 
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}_{diff}(X,\mathbf{B}^n A)
+    &
+     \stackrel{}{\to}
+    &
+    H_{dR}^{n+1}(X,A)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}(X, \mathbf{B}^n A)   
+    &
+    \stackrel{}{\to}
+    &
+    \mathbf{H}(X, \mathbf{\flat}_{dR}\mathbf{B}^{n+1}A)
+  }
+  \,.
+$$
+
+The bottom square is an [[∞-pullback]] by definition. 
+A morphism as in the top right exists by assumption that
+$X$ is dR-prohective. Let also the
+top square be an $\infty$-pullback. Then by the [[pasting law]]
+so is the total rectangle, which identifies the top left object 
+as indicated, since $\mathbf{H}(X,-)$ preserves $\infty$-pullbacks.
+
+Since the top right morphism is in injection of sets, it is a 
+monomorphism of $\infty$-groupoids. These are stable under $\infty$-pullback,
+which proves the claim.
+
+=--
+
+
+### Chern-Weil homomorphism and $\infty$-connections 
+ {#ChernWeilTheory}
 
 Induced by the [intrinsic differential cohomology](#DifferentialCohomology) in any [[∞-connected (∞,1)-topos|∞-connected]] and [[locally ∞-connected (∞,1)-topos]] is an intrinsic notion of [[Chern-Weil homomorphism]].
 
@@ -3257,6 +3386,38 @@ $(\infty,1)$-pullbacks for the $\mathbf{H}_{diff}(X, \mathbf{B}^{n_i}A)$.
 
 =--
 
+As before for abelian coefficients, we introduce differential 
+coefficient objects $\mathbf{B}G_{conn}$ that represent these differential cohomology classes 
+over dR-projective objects
+
+$$
+  \array{
+    \mathbf{\flat}\mathbf{B}G
+    &
+    \stackrel{\mathbf{\flat}\mathbf{c}}{\to}
+    &
+    \mathbf{\flat}\mathbf{B}^{n+1} A
+    \\
+    \downarrow 
+    &&
+    \downarrow
+    \\
+    \mathbf{B}G_{conn}
+    &
+    \stackrel{\hat {\mathbf{c}}}{\to}
+    &
+    \mathbf{B}^{n+1}A_{conn}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}G
+    &\stackrel{\mathbf{c}}{\to}&
+    \mathbf{B}^{n+1}A
+  }
+  \,.
+$$
+
+(...)
 
 ### Higher holonomy and Chern-Simons functional 
   {#ChernSimonsTheory}
