@@ -38,9 +38,9 @@ $$
 
 using that $I \otimes X \simeq X$ by definition of the tensor unit.
 
-Here "closed" in "[[closed monoidal category]]" is in the sense that forming "hom-sets" does not lead "out of the category". In fact the internal hom of a [[cartesian monoidal category]] is indeed the hom as see in the _[[internal logic]]_ of that category (the _[[function type]]_).
+Here "closed" in "[[closed monoidal category]]" is in the sense that forming "hom-sets" does not lead "out of the category". In fact the internal hom of a [[cartesian monoidal category]] is indeed the hom as seen in the _[[internal logic]]_ of that category (the _[[function type]]_).
 
-More generally, one can consider objects that satisfy some basic [[universal properties]] that an internal hom should satisfy even in the absense of a [[monoidal category|monoidal structure]]. If such exists one speaks therefore just of a _[[closed category]]_. Every [[closed category]] may be seen as a category [[enriched category|enriched]] over itself.  Accordingly, an internal hom is after all a special case of a [[hom-object]], for the special case of this enrichment over itself.
+More generally, one can consider objects that satisfy some basic [[universal properties]] that an internal hom should satisfy even in the absence of a [[monoidal category|monoidal structure]]. If such objects exist one speaks therefore just of a _[[closed category]]_. Every [[closed category]] may be seen as a category [[enriched category|enriched]] over itself.  Accordingly, an internal hom is after all a special case of a [[hom-object]], for the special case of this enrichment over itself.
 
 ## Definition
 
