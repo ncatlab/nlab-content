@@ -128,7 +128,7 @@ Notice that these kinds of computations are in particular often used when checki
 
 * [[descent for simplicial presheaves]]
 
-* [[infinity-stack homotopically]]
+* [[presheaf of spectra]]
 
 Applications appear for instance at
 
