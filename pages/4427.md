@@ -3,9 +3,20 @@
 [[!include infinity-Lie theory - contents]]
 </div>
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-In **$\infty$-Lie theory** one studies [[∞-Lie groupoid]]s and [[∞-Lie algebroid]]s and their relation. See also [[Lie theory]].
+_Higher Lie theore_ is the refinement of [[Lie theory]] to [[higher geometry]].  It studies [[smooth ∞-groupoids]] and [[L-∞ algebroids]] and their relation. 
+
+## Related concepts
+
+* [[higher differential geometry]]
+
+  * [[motivation for higher differential geometry]]
 
 [[!redirects ∞-Lie theory]]
+
+[[!redirects higher Lie theory]]
