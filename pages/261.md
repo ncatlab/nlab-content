@@ -151,7 +151,7 @@ $$
 $$
 where the product on the right is the cartesian product in [[Set]].
 
-One cental reason why simplicial sets are useful and important is that this simple monoidal structure ("disturbingly simple minded" in the words of [Friedman08, p. 24](http://arxiv.org/PS_cache/arxiv/pdf/0809/0809.4221v1.pdf#page=24)) actually does fully capture the standard monoidal structure on [[topological spaces]] under [[geometric realization]] $|\cdot| : SSet \to Top$
+One central reason why simplicial sets are useful and important is that this simple monoidal structure ("disturbingly simple minded" in the words of [Friedman08, p. 24](http://arxiv.org/PS_cache/arxiv/pdf/0809/0809.4221v1.pdf#page=24)) actually does fully capture the standard monoidal structure on [[topological spaces]] under [[geometric realization]] $|\cdot| : SSet \to Top$
 
 +-- {: .un_prop}
 ###### Proposition
@@ -189,7 +189,7 @@ Here are some examples:
 
 * Let $E = \Cat$ and $F$ be the functor $[n] \mapsto [n]$ (the inclusion of posets into categories). The right adjoint is the nerve functor $N$ described above. The left adjoint ${\tau}_1$ takes a simplicial set to its **fundamental category**. 
 
-* Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}_n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **geometric realization**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}_n$.
+* Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}_n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **geometric realization**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}^n$.
 
 * (Barycentric) subdivision and extension $\sd: \Simp\Set \leftrightarrow \Simp\Set :\ex$.
 
