@@ -15,6 +15,9 @@ A **bialgebra** is a [[monoid]] [[internalization|in]] the category of [[coalgeb
 
 More generally, a **[[bimonoid]]** in a monoidal category $M$ is a monoid in the category of comonoids in $M$ --- or equivalently, a comonoid in the category of monoids in $M$.  So, a bialgebra is a bimonoid in $Vect$.
 
+## Related concepts
+
+* [[Gerstenhaber-Schack cohomology]], [[bialgebra cocycle]]
 
 [[!redirects bialgebra]]
 [[!redirects bialgebras]]
