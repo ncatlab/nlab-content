@@ -13,6 +13,14 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A [[continuous map]] $f : X \to Y$ between [[topological spaces]] is called a _local homeomorphism_ if restricted to a [[neighbourhood]] of every point in its [[domain]] it becomes a [[homeomorphism]].
+
+One also says that this exhibits $X$ as an [[étale space]] over $Y$.
+
+Notice that, despite the similarity of terms, local homeomorphisms are, in general, _not_ [[local isomorphisms]] in any natural way. See the [examples](#Examples) below.
+
 ## Definition
 
 A **local homeomorphism**  is a [[continuous map]] $p : E \to B$ between [[topological space]]s (a [[morphism]] in [[Top]]) such that
@@ -24,6 +32,34 @@ or equivalently
 * for every $e \in E$, there is a [[neighbourhood]] $U$ of $e$ such that the image $p_*(U)$ is a neighbourhood of $p(e)$ and $p|_U: U \to p_*(U)$ is a homeomorphism.
 
 See also [[etale space]].
+
+## Examples
+ {#Examples}
+
+For $Y$ any [[topological space]] and  for $S$ any [[set]] regarded as a [[discrete space]], the [[projection]]
+
+$$
+  X \times S \to X
+$$
+
+is a local homeomorphism.
+
+For $\{U_i \to Y\}$ an [[open cover]], let 
+
+$$
+  X := \coprod_i U_i
+$$
+
+be the [[disjoint union]] space of all the pathches. Equipped with the canonical projection
+
+$$
+  \coprod_i U_i \to Y
+$$
+
+this is a local homeomorphism.
+
+In general, for every [[sheaf]] $A$ of sets on $Y$; there is a local homeomorphism $X \to Y$ such that over any open $U \hookrightarrow X$ the set $A(U)$ is naturally identified with the set of [[sections]] of $Y \to X$. See [[étale space]] for more on this.
+
 
 
 ## Related concepts
