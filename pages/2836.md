@@ -122,7 +122,7 @@ Hence $\Omega (X\wedge {\mathbf{B}}G)$ has the universal property of the tensor 
 
 +-- {: .proof}
 ###### Proof
-Present, in the complete Segal style (see the definition at [[groupoid object in an (∞,1)-category]]), a group object as a simplicial object such that its object of 0-simplexes is contractible and which satisfies some coherence conditions. Then, for $H$ a group object, we have $Grp(\mathcal{H})({\mathbb{Z}},H) \simeq H_1 \simeq \Omega {\mathbf{B}} H$. Hence, there are the following natural equivalences:
+Present, in the complete Segal style (see the definition at [[groupoid object in an (∞,1)-category]]), a group object as a simplicial object such that its object of 0-simplexes is contractible and which satisfies some coherence conditions. Then, by the effectiveness of group(oid) objects in a Grothendieck (∞,1)-topos, for $H$ a group object, we have $Grp(\mathcal{H})({\mathbb{Z}},H) \simeq {\mathcal{H}}_*({\mathbb{Z}}_1,H_1) \simeq H_1\simeq\Omega {\mathbf{B}} H$. Hence, there are the following natural equivalences:
 $$
   \begin{aligned}
     Grp({\mathcal{H}})(F[X], H)
