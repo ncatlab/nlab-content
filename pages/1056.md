@@ -72,4 +72,4 @@ A useful review of the Thomason model structure and a generalization of the mode
 
 The analog of the Thomason model structure for the _stable_ case -- an equivalence between connective [[stable homotopy theory]] and [[nerve]]s of [[symmetric monoidal categories]] -- is discussed in 
 
-* R. Thomason, _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
+* [[Robert Thomason]], _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
