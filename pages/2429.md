@@ -1,22 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -39,9 +38,11 @@ An __isometry__ $f\colon (X,g) \to (X',g')$ between Riemannian manifolds is a mo
 
 Global isometries are the [[isomorphisms]] of metric spaces or Riemannian manifolds.  An isometry is __global__ if it is a [[bijection]] whose inverse is also an isometry.  Bewteen metric spaces, isometries are necessarily [[injections]] and bijective isometries necessarily have isometries as inverses, so global isometries between metric spaces are also called _[[surjection|surjective]] isometries_; this does not work for Riemannian manifolds (where the inverse of an isometry need not be a morphism of manifolds), nor does it work for [[pseudometric spaces]] (where an isometry need not be injective).
 
+
 ## Infinitesimal isometries
 
 see [[Killing vector field]]
+
 
 ## Isometries on normed vector spaces 
 
@@ -50,12 +51,12 @@ In practice, isometries $E \to F$ between [[normed vector space|normed vector sp
 A norm on a vector space is **strictly convex** if, whenever ${\|u\|} = 1 = {\|v\|}$, we have ${\|t u + (1-t)v\|} \lt 1$ for some (hence all!) $t$ in the range $0 \lt t \lt 1$. In brief, no sphere contains a line segment. Examples of strictly convex spaces include spaces of type $L^p$ for $1 \lt p \lt \infty$. 
 
 +-- {: .un_thm} 
-######Theorem 
+###### Theorem 
 Let $f \colon E \to F$ an isometry between normed vector spaces, and suppose $F$ is strictly convex. Then $f$ is affine. 
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 To say that $f \colon E \to F$ is affine means that $f$ preserves linear combinations of the form $t x + (1-t)y$. It suffices to consider only the case where $0 \lt t \lt 1$ and, by continuity considerations, only the case of dyadic rationals between $0$ and $1$. Continuing this train of thought, it suffices to prove that $f(\frac1{2}(x + y)) = \frac1{2}(f(x) + f(y))$ for all $x, y$. 
 
 In the case of strict convexity, midpoints $\frac1{2}(u+v)$ are determined in terms of the norm, as the unique point $w$ such that 
@@ -71,8 +72,13 @@ If $F$ is not strictly convex, then isometries need not be affine. For example, 
 
 If however $f$ is a _surjective_ isometry between normed vector spaces, then $f$ is affine, by the [[Mazur-Ulam theorem]]. 
 
+
 ## Related concepts
 
 * [[isometry group]]
 
+
+[[!redirects isometry]]
 [[!redirects isometries]]
+[[!redirects global isometry]]
+[[!redirects global isometries]]
