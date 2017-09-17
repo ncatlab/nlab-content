@@ -28,6 +28,8 @@ While the idea has been around (as witnessed by the references at _[[Lie integra
 
 ## Related concepts
 
+* [[geometric integration theory]]
+
 * [[geometric quantization by push-forward]]
 
 
