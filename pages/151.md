@@ -35,12 +35,6 @@ A _duality_ or _[[dual equivalence]]_ is an [[equivalence of categories|equivale
 
 * Often two categories are not related by a dual equivalence, but just by a [[dual adjunction]]: an [[adjoint functor|adjunction]] between $C^{op}$ and $C$. But every dual adjunction induces a _maximal dual equivalence_ between subcategories of $C$ and $D$, as described below.
 
-
-#Maximal dualities inside dual adjunctions#
-
-...
-
-
 #Dualizing objects#
 
 Of particular interest are concrete dualities between concrete categories $C, D$, i.e. categories equipped with a faithful functor 
@@ -49,11 +43,10 @@ to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the 
 
 #References#
 
-* H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
-
-* David Corfield: [More on duality](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html) (blog discussion)
-
+* H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) [pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf)
+* David Corfield: [More on duality](http://golem.ph.utexas.edu/category/2007/01/more_on_duality.html) (blog)
 * wikipedia [duality (mathematics)](http://en.wikipedia.org/wiki/Duality_%28mathematics%29)
 * MathOverflow: [the-concept-of-duality](http://mathoverflow.net/questions/73711/the-concept-of-duality)
-
+* W. G. Dwyer, J. P. C. Greenlees, S. Iyengar, _Duality in algebra and topology_, [Hopf archive](http://hopf.math.purdue.edu/cgi-bin/generate?/Dwyer-Greenlees-Iyengar/duality)
+    
 [[!redirects dualities]]
