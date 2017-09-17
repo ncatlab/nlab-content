@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Birch and Swinnerton-Dyer conjecture_ is a [[conjecture]] about the form of the first non-vanishing [[derivative]] of the [[Hasse-Weil L-function]] of an [[elliptic curve]] at $s= 1$, expressed in terms of a [[higher regulator]], analogous to the [[class number formula]] for a [[Dedekind zeta function]].
+
+This is hence a conjecture about [[special values of L-functions]]. It influenced the more far-reaching [[Beilinson conjectures]].
+
+## References
+
+* Wikipedia, _[Birch and Swinnerton-Dyer conjecture](http://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture)_
