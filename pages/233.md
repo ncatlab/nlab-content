@@ -38,7 +38,7 @@ A classical situation where this correspondence holds precisely is [[topology]],
 
 1. the [[Gelfand duality]] theorem says that sending a [[compact topological space]] $X$ to its [[C-star algebra]] $C(X,\mathbb{C})$ of [[continuous functions]] with values in the [[complex numbers]] constitutes an [[equivalence of categories]] between compact topological spaces and the [[opposite category]] of commutative $C^\ast$-alegebras;
 
-1. the [[Serre-Swan theorem]] says that sending a [[Hausdorff topological space|Hausdorff]] topological complex [[vector bundle]] $E \to X$ over a compact topological space to the $C(X,\mathbb{C})$-module of its continuoues [[sections]] establishes an equivalence of categories between that of topological complex vector bundles over $X$ and that of finitely [[generators and relations|generated]] [[projective modules]] over $C(X,\mathbb{R})$.
+1. the [[Serre-Swan theorem]] says that sending a [[Hausdorff topological space|Hausdorff]] topological complex [[vector bundle]] $E \to X$ over a compact topological space to the $C(X,\mathbb{C})$-module of its continuous [[sections]] establishes an equivalence of categories between that of topological complex vector bundles over $X$ and that of finitely [[generators and relations|generated]] [[projective modules]] over $C(X,\mathbb{C})$.
 
 In fact, as this example already shows, modules faithfully subsume vector bundles, but are in fact more general. In many contexts one regard modules as the canonical generalization of the notion of vector bundles, with better formal properties.
 
@@ -150,6 +150,7 @@ $$
 and a unit element
 
 $$
+
   e : I \to A
 $$
 
