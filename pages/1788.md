@@ -11,7 +11,9 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 # Another section
 
-***
+*** 
+
+$$\underset{\circlearrowleft}{\bullet} \underset{}{\leftrightarrow} \underset{\circlearrowleft}{\bullet}$$ 
 
 
 |  | [[type theory]] | [[category theory]] |
