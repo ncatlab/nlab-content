@@ -1,0 +1,12 @@
+
+
+
++-- {: .num_theorem }
+###### Theorem
+
+A [[coherent topos]] has [[enough points]].
+
+=--
+
+As a corollary of the [[Deligne-Lurie completeness theorem]] this appears as ([[Spectral Schemes|Lurie SpecSchm, corollary 4.2]]).
+
