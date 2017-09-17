@@ -42,7 +42,7 @@ because $[n]$ is itself the $(n+1)^{st}$ monoidal power of the 1-element ordinal
 
 ## Cubulation
 
-A **cubulation** of a [[topological space]] $Y$ is a [[cubical set]] $C$ together with a [[homeomorphism]] $h: R_{cub}C \to Y$ where $R_{cub}$ denotes the realization functor for [[cubical set]]s $Set^{\Box^{op}}$. Explicitly, $R_{cub}C$ is given by a [[coend]] formula
+A **[[cubulation]]** of a [[topological space]] $Y$ is a [[cubical set]] $C$ together with a [[homeomorphism]] $h: R_{cub}C \to Y$ where $R_{cub}$ denotes the realization functor for [[cubical set]]s $Set^{\Box^{op}}$. Explicitly, $R_{cub}C$ is given by a [[coend]] formula
 
 $$R_{cub}C = \int^{m \in Cube} C(m) \cdot \Box(m)$$
 
@@ -117,5 +117,4 @@ $$\Box_{\delta}: Cube \to Set^{\Delta^{op}}$$
 Finally, because $R: Set^{\Delta^{op}} \to Top$ is product-preserving and preserves the interval objects, the isomorphism (2) obtains by the universal property of $Cube$.
 
 
-[[!redirects cubulation]]
 [[!redirects triangulations]]
