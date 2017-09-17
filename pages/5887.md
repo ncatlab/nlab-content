@@ -13,6 +13,9 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition
 
@@ -29,7 +32,13 @@ $$
   Id : [X,Y] \to [X,Y]
 $$
 
-is the **evaluation morphism** for the [[internal hom]] $[X,Y]$.  This is the semantical side of [[function application]] from a categorical perspective.
+is the **evaluation morphism** for the [[internal hom]] $[X,Y]$.  
+
+## Properties
+
+### Syntax and semantics
+
+The evaluation map is the [[semantics|semantical side]] of [[function application]] from a [[categorical semantics|categorical perspective]].
 
 [[!redirects evaluation]]
 [[!redirects evaluation maps]]
