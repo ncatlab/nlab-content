@@ -130,8 +130,104 @@ This is [[Higher Topos Theory|HTT, prop. 6.3.5.1]].
 The $(\infty,1)$-topos $\mathbf{H}_{/X}$ could be called the [[gros topos]] of $X$. A [[geometric morphism]] $\mathbf{K} \to \mathbf{H}$ that factors as $\mathbf{K} \to \mathbf{H}_{/X} \stackrel{\pi}{\to} \mathbf{H}$ is called an [[etale geometric morphism]].
 
 
+## $(\infty,1)$-Category of $(\infty,1)$-toposes {#ToposesCat}
 
-## $(\infty,1)$-topos theory {#ToposTheory}
+The subcatergory of the [[(∞,1)-category of (∞,1)-categories]] on $(\infty,1)$-toposes and [[geometric morphism]]s between them is the _$(\infty,1)$-category of $(\infty,1)$-toposes_ .
+
+### Definition
+
++-- {: .un_def}
+###### Defintion
+**(geometric morphism)**
+
+For $\mathbf{H}$, $\mathbf{K}$ two $(\infty,1)$-toposes, an [[(∞,1)-functor]]
+
+$$
+  f_* : \mathbf{H} \to \mathbf{K}
+$$
+
+is called a **[[geometric morphisms]]** if it is the [[right adjoint]] of a pair of [[adjoint (∞,1)-functor]]s $(f^* \dashv f*)$ such that the [[left adjoint]] $f^*$ preserves finite [[(∞,1)-limit]]s (is a left [[exact functor]]).
+
+Write
+
+$$
+  (\infty,1)Topos \subset \widehat{(\infty,1)Cat}
+$$
+
+for the [[sub-(∞,1)-category]] of tje [[(∞,1)-category of (∞,1)-categories]] on $(\infty,1)$-toposes and geometric morphisms.
+
+=--
+
+### Properties
+
+
++-- {: .un_prop}
+###### Proposition
+
+The $(\infty,1)$-category $(\infty,1)Topos$ has all small $(\infty,1)$-colimits and the inclusion
+
+$$
+  (\infty,1)Topos \hookrightarrow (\infty,1)Cat
+$$
+
+preserves these.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.3.2.3]].
+
+
++-- {: .un_prop}
+###### Propoisition
+
+The $(\infty,1)$-category $(\infty,1)Topos$ has all small $(\infty,1)$-colimits and the inclusion
+
+$$
+  (\infty,1)Topos^{op} \hookrightarrow (\infty,1)Cat
+$$
+
+sends limits to limits.
+
+=--
+
+
++-- {: .un_prop}
+###### Propoisition
+
+The $(\infty,1)$-category $(\infty,1)Topos$ has [[filtered (infinity,1)-category|filtered]] $(\infty,1)$-limits and the inclusion
+
+$$
+  (\infty,1)Topos \hookrightarrow (\infty,1)Cat
+$$
+
+preserves these.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.3.3.1]].
+
++-- {: .un_prop}
+###### Propoisition
+
+The $(\infty,1)$-category $(\infty,1)Topos$ has all small [[(∞,1)-limit]]s.
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.3.4.7]].
+
++-- {: .un_remark}
+###### Remark
+
+The $(\infty,1)$-limits in $(\infty,1)Topos$ coincide actually with the proper $(\infty,2)$-limits.
+
+=--
+
+This is [[Higher Topos Theory|HTT, remark 6.3.4.10]].
+
+
+
+## $(\infty,1)$-Topos theory {#ToposTheory}
 
 Most of the standard constructions in [[topos theory]] have or should have  immediate generalizations to the context of $(\infty,1)$-toposes, since all notions of [[category theory]] exist for [[(∞,1)-categories]].
 
