@@ -37,8 +37,15 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 
 ## References
 
-* J. Milnor, J. Stasheff, _Characteristic classes_, Princeton Univ. Press
+* J. Milnor, [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press
+
+A classical textbook reference is
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+
 * Paul Bressler, _The first Pontryagin class_, [math.AT/0509563](http://arxiv.org/abs/math/0509563)
+
 * Ivan Panin, Charles Walter, _Quaternionic Grassmannians and Pontryagin classes in algebraic geometry_, [arxiv/1011.0649](http://arxiv.org/abs/1011.0649)
 
 [[!redirects Pontryagin classes]]
