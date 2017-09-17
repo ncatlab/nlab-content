@@ -6,8 +6,14 @@
 +-- {: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
 =--
 =--
+=--
+
+
 
 # Contents
 * table of contents
