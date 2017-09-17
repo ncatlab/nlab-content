@@ -38,6 +38,8 @@ In this article we mostly consider the categorical view on "theory".
 
 ## Examples 
 
+### Classes of theories
+
 There are many different kinds of "theory" depending on the strength of the "logic": a by-no-means complete list includes equational logic, Horn logic, essentially algebraic logic, geometric logic, regular logic, exact logic, extensive logic, coherent logic, first-order (aka pretopos) logic, and corresponding theories for these logics. 
 
 Interestingly, one form of logic which made an early appearance but is not ordinarily thought of as logic at all is the logic of abelian categories, which is characterized by certain exactness properties. Here a small abelian category $A$ can be thought of as a syntactic site for some "abelian theory"; models of the theory are exact additive functors with domain $A$. The classical models would in fact be exact additive functors $A \to Ab$, or exact additive functors to a category of modules. A "Freyd-Heron-Lubkin-Mitchell" embedding theorem is then a completeness theorem with respect to the classical models, and assures us that a statement in the language of abelian category theory is provable if and only if it is true when interpreted in any module category. 
@@ -57,6 +59,20 @@ Here is a list of examples of theories that have their own $n$Lab entries:
 
 * [[geometric theory]]
 
+
+### Specific examples
+
+* the theories 
+
+  * $Th(Cat)$ of [[categories]]
+
+  * $Th(Lex)$ of [[finitely complete categories]]
+
+  * $Th(Topos)$ of [[elementary toposes]]
+
+  * $Th(ETCS)$ of [[set]]s ([[ETCS]])
+
+  are discussed at [[fully formal ETCS]].
 
 
 ## Models for a theory
