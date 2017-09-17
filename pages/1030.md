@@ -45,6 +45,10 @@ for any $c,d$.  Thus, the existence of zero morphisms can be regarded as a [[stu
 
 See [[zero object]] for examples.
 
+## Related concepts
+
+* [[null homotopy]]
+
 
 [[!redirects zero morphisms]]
 [[!redirects zero map]]
