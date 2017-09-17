@@ -1,0 +1,3 @@
+The aim of analytic Langlands program is to find a theory of analytic motives that gives a full correspondence between all (not only algebraic) automorphic representations and all analytic motives.
+
+There are many interesting automorphic representation that have nothing very clear to do with algebraic varieties (Mass forms, etc...). They should however be related to natural analytic motivic coefficients.
