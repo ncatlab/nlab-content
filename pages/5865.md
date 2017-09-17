@@ -1105,49 +1105,6 @@ where on the left we have the simplicially constant object on the vertices of $\
 =--
 
 
-### Transgression
- {#Transgression}
-
-We discuss a general abstract notion of [[transgression]] in [[cohomology]].
-
-
-+-- {: .num_defn #CohomologicalDimension}
-###### Definition
-
-We say an object $\Sigma \in \mathbf{H}$ has **[[cohomological dimension]]** $\leq n \in \mathbb{N}$ if for all $n$-[[connected]] and $(n+1)$-[[truncated]] objects $\mathbf{B}^{n+1}A$ the corresponding [[cohomology]] on $\Sigma$ is trivial
-
-$$
-  H(\Sigma, \mathbf{B}^{n+1}A ) \simeq *
-  \,.
-$$
-
-Let $dim(\Sigma)$ be the maximum $n$ for which this is true.
-
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-For $\mathbf{c} : X \to \mathbf{B}^n A$ a representative of a [[characteristic class]] in $H^n(X,A)$ and $\Sigma$ of [[cohomology dimension]] $\leq n$, the **transgression** of $\mathbf{c}$ is the composite
-
-$$
-  \tau_\Sigma \mathbf{c}
-    :
-  [\Sigma, X] 
-   \stackrel{[\Sigma,\mathbf{c}]}{\to}
-  [\Sigma, \mathbf{B}^n A]
-   \stackrel{}{\to}
-  \tau_{n - \dim \Sigma} [\Sigma, \mathbf{B}^n A]
-  \,,
-$$
-
-where
-
-* $[-,-]$ denotes the <a href="http://nlab.mathforge.org/nlab/show/%28infinity,1%29-topos#ClosedMonoidalStructure">cartesian internal hom</a>;
-
-* $conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A] \stackrel{}{\to} \tau_{n - \dim \Sigma} conc_{n-dim \Sigma} [\Sigma, \mathbf{B}^n A]$ is the [[truncated|truncation projection]] in the same degree.
-
-=--
 
 
 ### Concordance 
@@ -3510,9 +3467,23 @@ $$
 The notion of [intrinsic ∞-connections](#ChernWeilTheory) in a 
 cohesive $(\infty,1)$-topos induces a notion of [[higher parallel transport|higher holonomy]] 
 
++-- {: .num_defn #CohomologicalDimension}
+###### Definition
+
+We say an object $\Sigma \in \mathbf{H}$ has **[[cohomological dimension]]** $\leq n \in \mathbb{N}$ if for all $n$-[[connected]] and $(n+1)$-[[truncated]] objects $\mathbf{B}^{n+1}A$ the corresponding [[cohomology]] on $\Sigma$ is trivial
+
+$$
+  H(\Sigma, \mathbf{B}^{n+1}A ) \simeq *
+  \,.
+$$
+
+Let $dim(\Sigma)$ be the maximum $n$ for which this is true.
+
+=--
 
 
-We shall define [[higher holonomy]] over $\Sigma \to X$ effectively as the value of the [[transgression]], in a slight refinement of the [above sense](#Transgression), of the given differential cocycle on $X$ to $[\Sigma,X]$.
+
+
 
 +-- {: .num_prop}
 ###### Observation
@@ -3624,7 +3595,7 @@ $$
 $$
 
 
-The **[[higher parallel transport|holonomomy]]** of $\nabla$ over $\sigma$ is the flat holonomy of $\phi^* \nabla$
+The **[[higher parallel transport|holonomy]]** of $\nabla$ over $\sigma$ is the flat holonomy of $\phi^* \nabla$
 
 $$
   \int_\phi \nabla := \int_{\Sigma} \phi^* \nabla
@@ -3633,7 +3604,70 @@ $$
 
 =--
 
+### Transgression in differential cohomology
+ {#Transgression}
 
+We discuss an intrinsic notion of 
+[[transgression]]/[[fiber integration in ordinary differential cohomology]]
+internal to any cohesive $(\infty,1)$-topos. This generalizes the notion
+of [[higher holonomy]] discussed above.
+
+Fix $A$ an abelian group object as above and $\mathbf{B}^n A_{conn}$
+a corresponding differential coefficient object. Then for
+$\Sigma \in \mathbf{H}$ of [[cohomological dimension]]
+$k \leq n$ consider the map
+
+$$
+  [\Sigma, \mathbf{B}^n A_{conn}]
+  \stackrel{conk_k \circ \tau_{n-k}}{\to}
+  conk_{n-k} \tau_{n-k}
+  [\Sigma, \mathbf{B}^n A_{conn}]
+  \,.
+$$
+
+
+* $[-,-]$ denotes the <a href="http://nlab.mathforge.org/nlab/show/%28infinity,1%29-topos#ClosedMonoidalStructure">cartesian internal hom</a>;
+
+* $\tau_{n-k}$ denotes [[truncated object in an (infinity,1)-category|truncation]] in degree $n-k$;
+
+* $conk_{n-k}$ denotes [concretification](#ConcreteObjects) in degree $(n-k)$.
+
+
+In typical models we have an equivalence
+
+$$
+  conk_k \tau_{n-k}
+  [\Sigma, \mathbf{B}^n A_{conn}]
+  \simeq
+  \mathbf{B}^{n-1} A_{conn}
+  \,.
+$$
+
+In this case we say that for 
+
+$$
+  \hat \mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^n A_{conn}
+$$
+
+a differential characteristic map, that the composite
+
+$$
+  \exp(i \int_{\Sigma}(-))
+  : 
+  [\Sigma, \mathbf{B} G_{conn}]
+  \to 
+  [\Sigma, \mathbf{B}^n A_{conn}]
+  \to
+  \mathbf{B}^{n-k}A_{conn}
+$$
+
+is the **transgression** of $\hat \mathbf{c}$ to the 
+[[mapping space]] $[\Sigma, \mathbf{B} G_{conn}]$.
+
+For $k = n$ the reproduces, on the underlying $\infty$-groupoids,
+the [[higher holonomy]] discussed above.
+
+(...)
 
 ### Chern-Simons functional 
   {#ChernSimonsTheory}
