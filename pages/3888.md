@@ -1,0 +1,25 @@
+
+**Mathematical Reviews** is an indexing service provided by the [American Mathematical Society](http://www.ams.org), giving the publication data of mathematics publications which are most often (but not always) accompanied with a short or a featured review "article" or with the original abstract. Its online version is called **MathSciNet**:
+
+* web: [http://www.ams.org/mathscinet](http://www.ams.org/mathscinet/), European MPI Bonn [mirror](http://mathscinet.mpim-bonn.mpg.de/mathscinet/)
+
+It requires subscription, but some of its services, most notably the so called **Relay Station** does not. Relay Station gives the full reference (and sometimes a link to the journal) called by the MR number of the review, but does not provide the abstract or the review unless one has a subscription. 
+
+MR numbers have two formats. Relay station accepts both formats. To link from $n$lab, the URL is of the following form:
+
+**http://www.ams.org/mathscinet-getitem?mr=FORMAT
+
+where FORMAT includes the code after the MR. So MR92a:81191 has 
+
+**http://www.ams.org/mathscinet-getitem?mr=92a:81191
+
+and MR1289330 has the URL
+
+**http://www.ams.org/mathscinet-getitem?mr=1289330
+ 
+The links should work: [MR92a:81191](http://www.ams.org/mathscinet-getitem?mr=92a:81191), [MR1289330](http://www.ams.org/mathscinet-getitem?mr=1289330)
+
+A short redirect to this page is MR (i.e. <nowiki>[[MR]]</nowiki>).
+
+[[!redirects MathSciNet]]
+[[!redirects MR]]
