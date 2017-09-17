@@ -58,9 +58,9 @@ Given a [[pointed space]] $(X,a)$, its first [[homology group]] with coefficient
 $$ H^1(X,\mathbb{Z}) \cong \pi_1(X,a)^{ab} .$$
 This is a [[natural isomorphism]] filling the following diagram of [[functors]]:
 $$ \array {
-   Top_* & \overset{\pi_1} & Grp \\
+   Top_* & \overset{\pi_1}\longrightarrow & Grp \\
    \llap{U}\downarrow & & \downarrow\rlap{ab} \\
-   Top & \overset{H^1({-},\mathbb{Z}) & Ab Grp
+   Top & \underset{H^1({-},\mathbb{Z})}\longrightarrow & Ab Grp
 } $$
 (where $U$ [[forgetful functor|forgets]] the point).
 
@@ -107,7 +107,7 @@ We can even form abelianisations of [[semigroups]] or [[magmas]].
 
 ## Lie algebras
 
-Lie algebras are not monoid objects in any category, but one still considers [[abelian Lie algebra]]s.
+Lie algebras are not monoid objects in any category, but one still considers [[abelian Lie algebras]], which may be identified with their underlying [[vector spaces]].  These are so called because they correspond to abelian [[Lie groups]].  Lie algebras also can be abelianised.
 
 
 [[!redirects abelianization]]
