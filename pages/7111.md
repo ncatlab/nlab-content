@@ -94,9 +94,11 @@ A $k$-analytic space $X$ is called _locally embeddable in a smooth space_ if eac
 
 Every $k$-analytic space which is locally embeddable in a smooth space, def. \ref{LocallyEmbeddableInASmoothSpace}, is a [[locally contractible space]].
 
+More precisely, every point of a locally smooth $k$-analytic space has an open neighbourhood $U$ which is contractible, and which is a union $U = \coprod_{i = 1}^\infty U_i$ of analytic domains.
+
 =--
 
-This is [Berkovich (1999), theorem 9.1](#BerkovichContractible).
+The local contractibility is [Berkovich (1999), theorem 9.1](#BerkovichContractible). The refinement by inductive systems on analytic domains is in [Berkovich (2004)](#BerkovichContractibleII).
 
 ## References
 
@@ -138,6 +140,7 @@ Discussion of local contractibility of smooth $k$-analytic spaces is in
  {#BerkovichContractible}
 
 * [[Vladimir Berkovich]], _Smooth p-adic analytic spaces are locally contractible. II_, in Geometric Aspects of Dwork Theory, Walter de Gruyter & Co., Berlin, (2004), 293-370. ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Dworkvol_2004_contraII.pdf))
+ {#BerkovichContractibleII}
 
 See also
 
