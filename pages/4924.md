@@ -13,7 +13,26 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 _2Cat_ is the [[3-category]] of [[2-categories]].
+
+
+## Related concepts
+
+* [[Cat]]
+
+* **$2Cat$**
+
+* [[(∞,1)Cat]]
+
+* [[(∞,n)Cat]]
+
+
 
 category: category
 
