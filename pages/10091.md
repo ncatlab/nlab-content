@@ -81,3 +81,6 @@ The following articles specifically identify closed string tachyon condensation 
 
 [[!redirects tachyon field]]
 [[!redirects tachyon fields]]
+
+[[!redirects tachyon condensation]]
+[[!redirects tachyon condensations]]
