@@ -1,8 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Categories of simplices
 * table of contents
 {: toc}
 
 ## Definition
+
+### Category of simplices
 
 The **category of simplices** of a [[simplicial set]] $X_\bullet : \Delta^{op} \to Set$ is the [[category of elements]] of the [[presheaf]] $X_\bullet$. 
 
@@ -21,9 +34,22 @@ $$
   \,.
 $$
 
+### Category of nondegenerate simplices
+
+An $n$-[[simplex]] $x\in X_n$ is said to be *nondegenerate* if it is not in the image of any degeneracy map.  When $x$ is regarded, via the 
+[[Yoneda lemma]], as a morphism $\Delta^n \to X$, this means that this morphism is a [[monomorphism]] of simplicial sets.
+
+Therefore, the [[full subcategory]] $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ on the nondegenerate simplices consists of the monomorphisms $\Delta^n \hookrightarrow X$.  Note that the morphisms in this subcategory are only the coface maps.
+
+Now the [[presheaf topos]] [[sSet]] has [[image]] factorization, and the image of a map $x\colon \Delta^n \to X$ is the map $\Delta^k \to X$ that represents the unique nondegenerate simplex of which $x$ is a degeneracy.  It follows that this factorization is a [[left adjoint]] to the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$, so that $(\Delta\downarrow X)_{nondeg}$ is a [[reflective subcategory]].
+
+In particular, the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ is a [[final functor]], in fact even a [[homotopy final functor]].  Thus, the above colimits that compute cocontinuous functors on $SSet$ work equally well using only the category of nondegenerate simplices.
+
 ## Properties
 
 * The category of simplices is a [[Reedy category]].
+
+* The [[full subcategory]] inclusion of the non-degenerate simplices is a [[homotopy cofinal functor]] (see there).
 
 ## Applications
 
@@ -38,15 +64,7 @@ Examples abound:
 * the left adjoint to the [[nerve]] functor $N:Cat \to SSet$
 * the category of simplices itself, as a functor $SSet \to Cat$; see [here](/nlab/show/category+of+elements#ColimitPreserving).
 
-## Categories of nondegenerate simplices
 
-An $n$-simplex $x\in X_n$ is said to be *nondegenerate* if it is not in the image of any degeneracy map.  When $x$ is regarded, via the Yoneda lemma, as a morphism $\Delta^n \to X$, this means that this morphism is a [[monomorphism]] of simplicial sets.
-
-Therefore, the full subcategory $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ on the nondegenerate simplices consists of the monomorphisms $\Delta^n \hookrightarrow X$.  Note that the morphisms in this subcategory are only the coface maps.
-
-Now the [[presheaf topos]] $SSet$ has [[image]] factorization, and the image of a map $x\colon \Delta^n \to X$ is the map $\Delta^k \to X$ that represents the unique nondegenerate simplex of which $x$ is a degeneracy.  It follows that this factorization is a [[left adjoint]] to the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$, so that $(\Delta\downarrow X)_{nondeg}$ is a [[reflective subcategory]].
-
-In particular, the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ is a [[final functor]].  Thus, the above colimits that compute cocontinuous functors on $SSet$ work equally well using only the category of nondegenerate simplices.
 
 ## The nerve and the subdivision
 
