@@ -1,0 +1,14 @@
+
+This page collects links related to the article
+
+* [[William Lawvere]], 
+
+  _Unity and Identity of Opposites in Calculus and Physics_, 
+
+  Proceedings of ECCT 1994 Tours Conference, 
+
+  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
+
+on formalization of [[unity of opposites]] in [[calculus]] and [[physics]].
+
+category: reference
