@@ -11,7 +11,7 @@ This terminology may seem strange at first, it simply follows the logic of $n$-[
 
 For example, there should be a $1$-category of $0$-categories; this is the [[Set|category of sets]]. Then a [[enriched category|category enriched]] over this is a $1$-category (more precisely, a [[locally small category]]). Furthermore, an enriched groupoid is a [[groupoid]] (or $1$-groupoid), so a $0$-category is the same as a [[0-groupoid]].
 
-To some extent, one can continue to define a [[(-1)-category]] to be a [[truth value]] and a [[(-2)-category]] to be a triviality (that is, there is exactly one). These don\'t fit the pattern perfectly; but the concepts of [[(-1)-groupoid]] and [[(-2)-groupoid]] for them do work perfectly, as does the concept of [[0-poset]] for a truth value.
+To some extent, one can continue to define a [[(−1)-category]] to be a [[truth value]] and a [[(−2)-category]] to be a triviality (that is, there is exactly one). These don\'t fit the pattern perfectly; but the concepts of [[(−1)-groupoid]] and [[(−2)-groupoid]] for them do work perfectly, as does the concept of [[0-poset]] for a truth value.
 
 
 [[!redirects (0,0)-category]]
