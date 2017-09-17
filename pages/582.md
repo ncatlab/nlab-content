@@ -16,6 +16,30 @@ From the defining universal property of the [[limit]] it follows directly that a
 
 The dual concept is that of a [[regular epimorphism]].
 
+### Relation to effective monomorphisms 
+
+Recall that a monomorphism $i: A \to B$ is [[effective monomorphism|effective]] if the pushout 
+
+$$\array{
+A & \stackrel{i}{\to} & B \\
+i \downarrow & & \downarrow i_1 \\
+B & \underset{i_2}{\to} & B +_A B
+}$$ 
+
+exists and $i$ is the equalizer of the pair of coprojections $i_1, i_2: B \stackrel{\to}{\to} B +_A B$. Obviously effective monomorphisms are regular. 
+
++-- {: .un_prop} 
+######Proposition
+In a category with [[finite limit]]s and [[finite colimit]]s, every regular monomorphism $i: A \to B$ is effective. 
+=-- 
+
++-- {: .proof} 
+######Proof 
+With notation as above, let $j: E \to B$ be the equalizer of the pair of coprojections $i_1, i_2$. Since $f \circ i = g \circ i$, there exists a unique map $\phi: B +_A B \to C$ such that $\phi \circ i_1 = f$ and $\phi \circ i_2 = g$. Then, since 
+$$f \circ j = \phi i_1 j = \phi i_2 j = g j$$ 
+and since $i: A \to B$ is the equalizer of the pair $(f, g)$, there is a unique map $k: E \to A$ such that $j = i k$. Since $i_1 i = i_2 i$, there is a unique map $l: A \to E$ such that $i = j l$. The maps $k$, $l$ are mutually inverse. 
+=-- 
+
 ## Examples
 
 * In [[Set]], or more generally in any [[pretopos]], every [[monomorphism]] is regular.
