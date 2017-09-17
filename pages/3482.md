@@ -37,7 +37,7 @@ Precisely, $WISC$ is the statement that for any [[set]] $X$, the [[full subcateg
 
 * WISC implies that the category of [[anafunctors]] between any two [[small categories]] is [[essentially small category|essentially small]]; see [here](/nlab/show/anafunctor#SizeQuestions), or below.
 
-* WISC implies (in [[ZF]]) that there exist arbitrarily large [[regular cardinals]].  Therefore, WISC is not provable in ZF.
+* WISC implies (in [[ZF]]) that there exist arbitrarily large [[regular cardinals]].  Therefore, WISC is not provable in ZF. A proof without large cardinals was given by  [Karagila](#Karagila).
 
 
 ## Relation to local smallness of anafunctor categories
@@ -102,12 +102,11 @@ To consider an _internal_ version of WISC, which doesn't refer to an external no
 
 In 
 
-* [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
- {#vdBerg}
+* [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959)){#vdBerg}
 
 WISC is called the "axiom of multiple choice".
 
-* Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).
+* Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).{#Karagila}
 
 category: foundational axiom
 
