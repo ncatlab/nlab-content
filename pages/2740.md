@@ -123,7 +123,7 @@ $$
   \,.
 $$
 
-**Proof** One checks that the following is a **Chern-Simons element** exhibiting the transgression
+**Proof** One checks that the following is a **[[Chern-Simons element]]** (see there for more) exhibiting the transgression
 
 $$
   cs_\pi = \pi^{i j} \partial_i  \wedge \partial_j 
