@@ -218,3 +218,6 @@ and
 
 [[!redirects vector measure]]
 [[!redirects vector measures]]
+
+[[!redirects norm isomorphism]]
+[[!redirects norm isomorphic]]
