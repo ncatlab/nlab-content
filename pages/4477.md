@@ -130,9 +130,12 @@ If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division rin
 
 ## References
 
-For instance section 2.2 of 
+For instance section 2.2 of the textbook
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
+Lecture notes include
+
+* _Projective modules, Presentatins and resolutions_ ([pdf](http://livetoad.org/Courses/Documents/8875/Notes/presentations_and_resolutions.pdf))
 
 [[!redirects projective modules]]
