@@ -43,6 +43,10 @@ In circumstances like these more sophisticated methods are appropriate, such as 
 
 An improvement on this relevant to the [[van Kampen theorem]] for computing the fundamental group or groupoid is to take $\Pi_1(X,A)$, defined to be the full subgroupoid of $\Pi_1(X)$ on a set $A$ of base points, chosen according to the geometry at hand. Thus if $X$ is the union of two open sets $U,V$ with intersection $W$ then we can take $A$ large enough to meet each path-component of $U,V,W$. If $X$ has an action of a group $G$ then $G$ acts on $\Pi_1(X,A)$ if $A$ is a union of orbits of the action.
 
+[[Ronnie Brown]] is a big booster of $\Pi_1(X,A)$, which is fundamental to his development of [[homotopy theory]] in _Elements of Modern Topology_ (1968).
+
+Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{a\})$ is the [[delooping]] of the [[fundamental group]] $\pi_1(X,a)$.
+
 ## Higher categorical connections
 
 The fundamental groupoid and its higher generalizations play a fundamental role in the definition of [[Trimble n-category]].  Conversely, following Trimble's definition, it is possible to generalize the notion of fundamental $n$-groupoids from [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]] using the concept of categories with [[interval object]].
