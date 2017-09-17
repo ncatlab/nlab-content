@@ -383,6 +383,8 @@ See also
 
   * [[topological modular form]]
 
+* [[elliptic fibration]]
+
 * [[elliptic cohomology]], [[tmf]]
 
 
@@ -401,6 +403,10 @@ Introductory lecture notes for elliptic curves over the complex numbers include
 and for the general case
 
 * {#QuickIntro} _A quick introduction to elliptic curves_ ([pdf](http://people.reed.edu/~jerry/311/ecintro.pdf))
+
+In the context of [[elliptic fibrations]]:
+
+* [[Rick Miranda]], _The basic theory of elliptic surfaces_, lecture notes 1988 ([pdf](http://www.math.colostate.edu/~miranda/BTES-Miranda.pdf))
 
 A general textbook account is
 
