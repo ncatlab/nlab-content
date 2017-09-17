@@ -1,1 +1,3 @@
-category: empty
+[[!redirects empty 02]]
+[[!redirects empty 2]]
+category:empty
