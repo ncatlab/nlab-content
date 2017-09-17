@@ -18,9 +18,7 @@
 
 To some extent, [[quantum mechanics]] and [[quantum field theory]] are a [[deformation theory|deformation]] of [[classical mechanics]] and [[classical field theory]], with the deformation parameterized by [[Planck's constant]] $\hbar$. The _semiclassical approximation_ or _quasiclassical approximation_ to quantum mechanics is the restriction of this deformation to just first order in $\hbar$.
 
-| [[classical mechanics]] | [[semiclassical approximation]] |  ... | [[formal deformation quantization]] | [[quantum mechanics]] |
-|--|--|--|--|--|
-| $\mathcal{O}(\hbar^0)$ | $\mathcal{O}(\hbar^1)$ | $\mathcal{O}(\hbar^n)$ | $\mathcal{O}(\hbar^\infty)$  |  |
+[[!include lassical-to-quantum notions - table]]
 
 Applied to [[path integral]] [[quantization]], the semiclassical approximation is meant to approximate the [[path integral]] 
 $\int_{\phi \in \mathbf{Fields}} D\phi\; F(\phi) e^{iS(\phi)/\hbar}$ by an expansion in $\hbar$ about the [[critical points]] of the [[action functional]] $S$ (hence the solutions of the [[Euler-Lagrange equations]], hence to the classical trajectories of the system). As usual for the [[path integral]] in [[physics]], this often requires work to make precise, but at a heuristic level the idea is famous as the _[[rotating phase approximation]]_: the idea is that in regions of [[field (physics)|field]]-space where $S$ varies fast as measured in units of [[Planck's constant]], the [[complex number|complex phases]] of the integrand $\exp(i S / \hbar )$ tend to cancel each other in the integral so that substantial contributions to the integral come only from the vicininity of critical points of $S$ (classical [[trajectories]]).
