@@ -20,14 +20,7 @@ There is a lot of interesting stuff to be said about _equality_ in [[logic]], [[
 ## Different kinds of equality
  {#DifferentKinds}
 
-Here are some important distinctions between different notions of _equality_ , where possibly all the following pairs of notion are, in turn, "the same", just expressed in terms of different terminologies:
-
-*  the difference between axiomatic and defined equality;
-*  the difference between identity and equality,
-*  the difference between intensional and extensional equality,
-*  the difference between equality and [[isomorphism]],
-*  the difference between equality and [[equivalence]],
-*  the possibility of operations that might not preserve equality.
+### In type theory
 
 In a formal language such as [[type theory]], one distinguishes various different notions of _equality_ or _equivalence_ of the terms of the language. The most basic one is _definitional equality_ or _intensional equality_.
 
@@ -39,11 +32,23 @@ on p. 60:
 
 > ... intensional (sameness of meaning) ...
 
-So for instance the symbols "$2$" and $s(s(0))$ are definitionally/extensionally equal. But the symbols "$2 + 2$" and "$4$" are not. They are (only) _extensionally_ equal. 
+For instance the symbols "$2$" and "$s(s(0))$" (successor of the succesor of 0) are definitionally/extensionally equal terms (of type the [[natural numbers]]): the first is an abbreviation for the second.
 
-In type theory, this extensional equality is a [[judgement]], not itself yet a [[proposition]]. One says that _propositional equality_ of two terms is what is exhibited by their [[identity type]]/[[proposition]]. For instand $Id_{\mathbb{N}}(2+2,4)$ the the type/proposition that $2+2$ is propositionally equal to $4$.
+But the symbols "$2 + 2$" and "$4$" are not definitionally/intensionally equal, not equal _by definition_. They are (only) _extensionally_ equal. An actual computation/manipulation is necessary to bring them into a form that makes them intensionally equal: it is not a definition but a little lemma that $2 + 2 = 4$.
+
+In type theory, this extensional equality is a [[judgement]] (an assertion of truth in the meta-language), not itself yet a [[proposition]] (an item in the formal system itself). One says that _propositional equality_ of two terms is what is exhibited by their [[identity type]]/[[proposition]]. For instance $Id_{\mathbb{N}}(2+2,4)$ is the [[propositions as types|type/proposition]] that $2+2$ is propositionally equal to $4$. Exhibiting a term of this type is exhibiting a propositonal identity between the two.
 
 
+### Elsewhere
+
+Here is a list of distinctions between different notions of _equality_ , in different contexts, where possibly all the following pairs of notions are, in turn, "the same", just expressed in terms of different terminologies:
+
+*  the difference between axiomatic and defined equality;
+*  the difference between identity and equality,
+*  the difference between intensional and extensional equality,
+*  the difference between equality and [[isomorphism]],
+*  the difference between equality and [[equivalence]],
+*  the possibility of operations that might not preserve equality.
 
 
 
