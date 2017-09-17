@@ -13,18 +13,40 @@ An object in an [[(∞,1)-topos]] $\mathbf{H}$ over an [[(∞,1)-site]] $C$ may 
 If $\mathbf{H}$ is equipped with an [[adjoint (∞,1)-functor|adjunction]]
 
 $$
-  \mathbf{H} \stackrel{\overset{\mathcal{O}}{\to}}{\overset{Spec}{\leftarrow}}
   \mathbf{L}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  \mathbf{H} 
 $$
 
 the [[(∞,1)-functor]] $\mathcal{O}$ acts like $\infty$-Lie differentiation. Combined with the canonical adjunction
 
 $$
-  \mathbf{H} \stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}
+  \mathbf{H} 
+   \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
   \infty Grpd
 $$
 
-this induces a notion of Lie theory on bare $\infty$-groupoids. For suitable choices of $\mathbf{H}$ and $\mathcal{O}$, this turns out to be essentially [[rational homotopy theory]].
+this induces a notion of Lie theory on bare $\infty$-groupoids. 
+
+$$
+  \mathbf{L}
+   \stackrel{
+     \overset{\Omega_{SL}}{\leftarrow}}
+     {\underset{|-|}{\to}}
+  \infty Grpd
+  \;\;\;
+  :=
+  \;\;\;
+  \mathbf{L}
+  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\to}}
+  \mathbf{H} 
+   \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
+  \infty Grpd
+  \,.
+$$
+
+
+For suitable choices of $\mathbf{H}$ and $\mathcal{O}$, this turns out to be essentially [[rational homotopy theory]].
 
 ## Definition
 
@@ -88,10 +110,31 @@ $$
 
 Let $C = (Alg_k)^{op}$ with the [[fpqc-topology]] and $\mathbf{H} = Sh_{(\infty,1)}(C) = (sPSh(C)_{loc})^\circ$. Write $k \in sPSh(C)_{loc}$ for the line object. 
 
+
++-- {: .un_def }
+###### Definition
+
+Define [[sSet]]-[[enriched functor]]s
+
+$$
+  \mathcal{O} := Hom_{sPsh(C)}(-,k) : sPSh(C) \to (Alg_k^{\Delta})^{op}
+$$ 
+
+and 
+
+$$
+  Spec : A \mapsto (Alg_k^\Delta)^{op}(\mathcal{O}(-),A)
+  \,.
+$$ 
+
+=--
+
+This is considered in [To06, section 2.2](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=42).
+
 +-- {: .un_prop }
 ###### Proposition
 
-The functors $\mathcal{O} := Hom_{sPsh(C)}(-,k) : sPSh(C) \to (Alg_k^{\Delta})^{op}$ and $Spec : A \mapsto (Alg_k^\Delta)^{op}(\mathcal{O}(-),A)$ form an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]]
+These form an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]]
 
 $$
   (\mathcal{O} \dashv Spec) : sPSh(C)^{inj}_{loc} \stackrel{\leftarrow}{\to}
@@ -101,7 +144,7 @@ $$
 
 =--
 
-This appears as [To, prop. 2.2.2](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=44).
+This appears as [To06, prop. 2.2.2](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=44).
 
 +-- {: .proof}
 ###### Proof
@@ -132,6 +175,43 @@ This proof works very generally whenever hypercovers $Y \to U$ over representabl
 
 =--
 
++-- {: .un_prop }
+###### Proposition
+
+The counit of the adjunction is an isomorphism
+
+$$
+  \mathcal{O} Spec A \stackrel{\simeq}{\leftarrow}
+  A
+  \,.
+$$
+
+=--
+
+This appears as [To06, lemma. 2.2.1](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=43).
+
+
++-- {: .proof}
+###### Proof
+
+If we think of presheaves over $(Alg^\Delta)^{op}$ then this is just the [[Yoneda lemma]].
+
+=--
+
++-- {: .un_cor }
+###### Corollary
+
+The right [[derived functor]] 
+
+$$
+  Spec : \mathbf{L} \stackrel{\leftarrow}{\hookrightarrow} \mathbf{H}
+$$
+
+exhibts $\mathbf{L}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{H}$..
+
+=--
+
+This appears as [To06, cor 2.2.3](http://arxiv.org/PS_cache/math/pdf/0012/0012219v6.pdf#page=44).
 
 
 +-- {: .un_prop }
