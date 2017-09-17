@@ -1,17 +1,46 @@
 
-**[[index theory]]**
+**[[index theory]], [[KK-theory]]**
 
-[[topological index]], [[analytical index]]
+[[noncommutative topology]], [[noncommutative geometry]]
 
-[[Atiyah-Singer index theorem]]
+[[noncommutative stable homotopy theory]]
 
-**[[differential operator]]**
 
-* [[symbol of a differential operator]]
+## Definitions
+
+**[[operator K-theory]]**
+
+* [[C*-algebra]]
+
+* [[Hilbert module]]
+
+**[[K-homology]]**
+
+* [[Fredholm operator]]
+
+* [[differential operator]], [[pseudodifferential operator]]
+
+  * [[symbol of a differential operator]]
 
   * [[elliptic operator]], [[elliptic complex]]
 
-* [[index of a differential operator]]
+  * [[index of a differential operator]]
 
 * [[Dirac operator]]
+
+
+## Index theorems
+
+* [[topological index]], [[analytical index]]
+
+* [[Atiyah-Singer index theorem]]
+  
+  * [[Gauss-Bonnet theorem]]
+
+  * [[Hirzebruch-Riemann-Roch theorem]]
+
+  * [[Hirzebruch signature theorem]]
+
+* [[Mishchenko-Fomenko index theorem]]
+
 
