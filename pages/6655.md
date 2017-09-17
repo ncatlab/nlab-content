@@ -249,6 +249,9 @@ The original reference is
 
 * [[Per Martin-Löf]], _Intuitionistic type theory_ (1984)
 
+* [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
+
 An introduction and survey (with an eye towards [[homotopy type theory]]) is in chapter 1 of
 
 * [[Michael Warren]], _Homotopy theoretic aspects of constructive type theory_, PhD thesis (2008) ([pdf](http://www.andrew.cmu.edu/user/awodey/students/warren.pdf))
