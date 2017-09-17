@@ -126,7 +126,11 @@ Every [[cohesive (∞,1)-topos]] is in particular globally and locally $\infty$-
 ### Local prequantum field theory
  {#LocalPrequantumFieldTheory}
 
-We consider first 
+After sketching out the general 
+
+* _[Idea](#PrequantumFieldTheoryIdea)_
+
+we formulate first 
 
 * _[Bulk field theory](#BulkFieldTheory)_
 
@@ -141,9 +145,209 @@ But plain boundaries are just the first example of a general phenomenon known as
 * _[Corner field theory](#CornerFieldTheory)
 
 
+#### Idea
+ {#PrequantumFieldTheoryIdea}
+
+A _prequantum field theory_ is, at its heart, an assignment that sends a piece of [[worldvolume]]/[[spacetime]] $\Sigma$ -- technically a [[cobordism]] with [[boundary]] and [[corners]] -- to the 
+
+1. [[space]] of [[physical field|field configurations]] over incoming and outgoing pieces of worldvolume/spacetime;
+
+1. the space of field configurations over the bulk worldvolume/spacetime -- the [[trajectories]] of fields;
+
+1. an [[action functional]] that assigns to all these field configurations [[phases]] in a compatible manner. 
+
+These field configurations and spaces of [[trajectories]] between them are represented by [[spans]]/[[correspondences]] of ([[moduli space|moduli]]-)spaces of fields ([[moduli stacks]], really), hence [[diagrams]] of the form
+
+$$
+  \mathbf{Fields}_{in}
+  \leftarrow
+  \mathbf{Fields}
+  \rightarrow
+  \mathbf{Fields}_{out}
+  \,.
+$$
+
+Here $\mathbf{Fields}_{in}$ is to be thought of as the space of incoming fields, $\mathbf{Fields}_{out}$ that of outgoing fields, and $\mathbf{Fields}$ the space of all fields on some [[cobordism]] connecting the incoming and the outgoing pieces of [[worldvolume]]/[[spacetime]]. The left map sends such a trajectory to its starting configuration, and the right one sends it to its end configuration.
+
+Given two such spans/corespondences, that share a common field configuration as in 
+
+$$
+  \array{
+    && \mathbf{Fields}_1 && && \mathbf{Fields}_2
+    \\
+    & \swarrow && \searrow && \swarrow && \searrow
+    \\
+    \mathbf{Fields}_{in_1}
+    && &&
+    \mathbf{Fields}_{out_1} = \mathbf{Fields}_{in_2}
+    && &&
+    \mathbf{Fields}_{out_2}
+  }
+$$ 
+
+can be [[composition|composed]], by forming consecutive trajectories from all pairs of trajectories that mathch in the middle. The space of these composed trajectories is the [[fiber product]] 
+$\mathbf{Fields}_1 \underset{{\mathbf{Fields}_{out_1}} \atop {=\mathbf{Fields}_{in_2}}}{\times} \mathbf{Fields}_2$ which sits in a new [[span]]/[[correspondence]]
+
+$$
+  \mathbf{Fields}_{in_1}
+  \leftarrow
+  \mathbf{Fields}_1 \underset{{\mathbf{Fields}_{out_1}} \atop {=\mathbf{Fields}_{in_2}}}{\times} \mathbf{Fields}_2
+  \rightarrow
+  \mathbf{Fields}_{out_2}
+$$
+
+exhibiting the composite of the previous two. This way, spaces of fields with spans/correspondences between them form a [[category]], which we denote $Span_1(\mathbf{H})$ if $\mathbf{H}$ denotes the ambient context (a [[topos]]) in which the spaces of fields live. 
+
+If two cobordisms run in parallel, then the fiedl configurations on their union are pairs of the original field configurations, which are elements in the [[cartesian product]] of spaces of fields. Hence the operations
+
+$$
+  \left(
+  \mathbf{Fields}_{in}
+  \leftarrow
+  \mathbf{Fields}
+  \rightarrow
+  \mathbf{Fields}_{out}
+  \right)
+  \otimes
+  \left(
+  \tilde \mathbf{Fields}_{in}
+  \leftarrow
+  \tilde \mathbf{Fields}
+  \rightarrow
+  \tilde\mathbf{Fields}_{out}
+  \right)  
+  \;\;\coloneqq\;\;
+  \left(
+    \mathbf{Fields}_{in} \times \tilde\mathbf{Fields}_{in}
+    \leftarrow
+    \mathbf{Fields} \times \tilde\mathbf{Fields}
+    \to
+    \mathbf{Fields}_{out} \times \tilde\mathbf{Fields}_{out}    
+  \right)
+$$
+
+make this category of fields and corespondence into a [[monoidal category]]. 
+
+Then a choice of field configurations for a (not yet localized) field theory in dimension $n \in \mathbb{N}$ is a [[monoidal functor]] from a [[category of cobordisms]] of dimension $n$ to such a category of [[spans]]/[[correspondences]]
+
+$$
+  \mathbf{Fields} \colon Bord_n^\otimes \to Span_1(\mathbf{H})^\otimes
+  \,,
+$$
+
+namely a consistend assignment that to each [[closed manifold]] $\Sigma_{n-1}$ of dimension $(n-1)$ assigns a space of field configurations $\mathbf{Fields}(\Sigma_{n-1})$ and which two each [[cobordism]]
+
+$$
+  \Sigma_{in} \to \Sigma \leftarrow \Sigma_{out}
+$$
+
+assigns a [[span]]/[[correspondence]] of spaces of field configurations and trajectories
+
+$$
+  \mathbf{Fields}(\Sigma_{in})
+  \leftarrow
+  \mathbf{Fields}(\Sigma)
+  \rightarrow
+  \mathbf{Fields}_{\Sigma_{out}}
+  \,.
+$$
+
+Apart from the field configurations themselves, prequantum field theory assigns to each [[trajectory]] a "[[phase]]" -- an element in the [[circle group]] $U(1)$ -- by a map called the (exponentiated) [[action functional]]. In order to nicely relate that to the expression of spaces of trajectories as [[spans]]/[[correspondences]] as above, it is useful to think of the [[circle group]] here as being the [[automorphisms]] of something. This is universally accomplished by taking it to be the automorphsims of the unique point in the [[delooping]] [[groupoid]] $\mathbf{B}U(1)$.
+
+$$
+  \array{
+    && \mathbf{Fields}
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbf{Fields}_{in}
+    && \swArrow &&
+    \mathbf{Fields}_{out}
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+    \\
+    && \mathbf{B}U(1)
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \array{
+    && \mathbf{Fields}
+    \\
+    && \downarrow
+    \\
+    && U(1)
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow && \ast
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}U(1)
+  }
+  \,.
+$$
+
+We write $\mathrm{Span}_1(\mathbf{H}, \mathbf{B}U(1))$ for the category of spans/correspondences as before, but now equipped with maps to and transformations over $\mathbf{B}U(1)$ as in the above diagram. 
+
+Then an [[action functional]] for a choice of field configurations that itself is given as a [[monoidal functor]] $\mathbf{Fields} \colon Bord_n^\otimes \to Span_1(\mathbf{H})$ as above is a monoidal functor
+
+$$
+  S \colon Bord_n^\otimes \to Span_1(\mathbf{H}, \mathbf{B}U(1))
+$$
+
+such that the spans of spaces of fields are those specified before, hence such that it fits as a lift into the diagram
+
+$$
+  \array{
+     && Span_1(\mathbf{H}, \mathbf{B}U(1))
+     \\
+     & {}^{\mathllap{S}}\nearrow & \downarrow 
+     \\
+     Bord_n &\underset{\mathbf{Fields}}{\to}& Span_1(\mathbf{H})
+  }
+  \,,
+$$
+
+where the right vertical functor [[forgetful functor|forgets]] the phase assignsments and just remembers the correspondences of field trajectories.
+
+
+So far this is a non-local (or: not-neccessarily local) preqauntum field theory, since it assigns data only to entire $n$-dimensional cobordisms and $(n-1)$-dimensional [[closed manifolds]], but is not guaranteed to be obtained by integrating up local data over little pieces of these manifolds. The latter possibility is however the characteristic property of [[local quantum field theory]], which in turn is the flavor of quantum field theory that seems to matter in nature, and fundamentally.
+
+In order to formaliz this localization, we allow the cobordisms to contain higher-[[codimension]] pieces that are [[manifolds with corners]]. These then form not just a [[category of cobordisms]], but an [[(∞,n)-category]] of cobordisms, which we will still denote $Bord_n^\otimes$. If we now have a cobordism with [[codimension]]-2 [[corners]], then the field configurations over it now form a span-of-spans
+
+$$
+  \array{
+    \mathbf{Fields}_{ii} &\leftarrow& \mathbf{Fields}_{ic} &\to& \mathbf{Fields}_{io}
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    \mathbf{Fields}_{ci} &\leftarrow& \mathbf{Fields}_{cc} &\to& \mathbf{Fields}_{co}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbf{Fields}_{oi} &\leftarrow& \mathbf{Fields}_{oc} &\to& \mathbf{Fields}_{oo}
+  }
+  \,.
+$$
+
+Generally, for $n$-dimensional cobordism that are "localized" all the way to [[corners]] in codimension $n$, their field configurations and trajectories-of-trajectories etc. form $n$-dimensional cubes of spans-of-spans this way. We write $Span_n(\mathbf{H})$ for the resulting [[(∞,n)-category of spans]].
+
+In order to still have an [[action functional]] on trajectories is [[codimension]]-0 associated with this in the above fashion, we need to [[delooping|deloop]] $U(1)$ $n$-times to the [[n-groupoid]] $\mathbf{B}^n U(1)$ (the [[circle n-group|circle (n+1)-group]]). Accordinly a local prequantum field theory in dimension $n$ is given by a [[monoidal (∞,n)-functor]]
+
+$$
+  S \colon Bord_n^\otimes \to Span_n(\mathbf{H}, \mathbf{B}^n U(1))
+  \,.
+$$
+
+This we now describe more formally.
+
 #### Bulk field theory
  {#BulkFieldTheory}
 
+We now first consider the formalization of prequantum field theory
+in the absence of any data such as [[boundary conditions]], [[domain walls]], [[branes]], [[QFT with defects|defects]], etc. This describes either field theories in which no such phenomena are taken to be present, or else it describes that part of those field theories where such phenomena are present in principle, but restricted to the "[[bulk]]" of [[worldvolume]]/[[spacetime]] where they are not. Therefore it makes sense to speak of _bulk field theory_ in this case.
 
 +-- {: .num_defn}
 ###### Definition
@@ -337,7 +541,7 @@ $$
   \mathbf{Fields}
   \colon
   \Sigma_k
-  \maspto
+  \mapsto
   [\Pi(\Sigma_k), \mathbf{Fields}]
   \,.
 $$
