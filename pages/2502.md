@@ -31,7 +31,9 @@ By the general discussion at [[Chevalley-Eilenberg algebra]], we may characteriz
 +-- {: .num_defn #CEAlgebraOfSuperPoincare}
 ###### Definition
 
-The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}(d-1,1))$ is generated on 
+Let $N$ be a real ([[Majorana spinor|Majorana]]) [[spin representation]] of the [[spin group]] $Spin(D-1,1)$. Write $\{\omega_a{}^b\}_{a,b}$ for the canonical basis of the [[special orthogonal Lie algebra|special orthogonal]] [[matrix Lie algebra]] $\mathfrak{so}(D-1,1)$ and write $\{\psi_\alpha\}_\alpha$ for a corresponding [[basis]] of the [[spin representation]] $N$.
+
+The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}_N(d-1,1))$ is generated on 
 
 * elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
 
@@ -52,9 +54,17 @@ $$
   \,.
 $$
 
-Removing the terms involving $\omega$ here this is the [[super translation algebra]].
 
 =--
+
++-- {: .num_remark }
+###### Remark
+
+
+Removing all terms involving $\omega$ here yields the [[Chevalley-Eilenberg algebra]] of the [[super translation algebra]] $\mathbbf{R}^{D;N}$.
+
+=--
+
 
 +-- {: .num_remark }
 ###### Remark
@@ -160,7 +170,7 @@ Some standard exposition is for instance in
 
 * [[Daniel Freed]], _Lecture 4 of [[Five lectures on supersymmetry]]_
 
-* [[Veeravalli Varadarajan]], section 7 of _Supersymmetry for mathematicians: An introduction_
+* [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_
 
 
 See also
