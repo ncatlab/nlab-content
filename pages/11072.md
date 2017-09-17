@@ -38,6 +38,8 @@ As any [[comonad]], the !-modality may be realized as induced from an [[adjuncti
 
 * [[multiplicative conjunction]]
 
+* [[linear implication]]
+
 ## References
 
 ### General
