@@ -15,10 +15,16 @@
 
 ## Idea
 
+The _configuration space_ of a physical system is the [[space]] of all possible states of a physical system. For a [[classical mechanics|classical mechanical]] system with $n$-degrees of freedom it is a manifold of dimension $n$. 
 
-A system of [[physics]] has a [[space]] of possible _configurations_ or _histories_ or _trajectories_. This is called the _configuration space_ .
+For some purposes, like in relativistic field theory it is convenient to consider not space of states at the point in time, but rather the space 
+of _histories_ or _trajectories_.
 
-More specifically, for a system described by an [[action functional]] the configuration space is the domain space of that functional.
+In mathematics, one often talks about the configuration space of $N$ distinct points in a manifold $M$, see [[Fadell's configuration space]]. 
+
+#### Idea of histories variant
+
+For a system described by an [[action functional]] the configuration space is the domain space of that functional.
 
 More precisely, let $\mathbf{H}$ be the ambient [[(∞,1)-topos]] with a [[natural numbers object]] and equipped with a [[line object]] $\mathbb{A}^1$. Then an [[action functional]] is a morphism
 
