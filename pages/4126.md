@@ -155,13 +155,19 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
   * [[Harding-Döring-Hamhalter theorem]]
 
+* [[Bell's theorem]]
+
 * [[Wigner theorem]]
+
+* [[Bub-Clifton theorem]]
 
 ## Related concepts
 
 * [[Bohr topos]]
 
-* [[hidden variable theory]]
+* [[interpretation of quantum mechanics]]
+
+  * [[hidden variable theory]]
 
 * [[Bell's inequalities]]
 
