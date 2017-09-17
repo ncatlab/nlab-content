@@ -92,7 +92,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 ## Subtopics
 
-* string theory
+* **string theory**
 
   * [[sigma model]], [[string]], [[CFT]]
 
@@ -117,6 +117,12 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
   * [[RR-field]]
 
 * [[landscape of string theory vacua]]
+
+* [[string field theory]]
+
+* [[11-dimensional supergravity]]
+
+  * [[Hořava-Witten theory]]
 
 ...
 
