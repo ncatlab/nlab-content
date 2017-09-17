@@ -29,5 +29,6 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.2](#HuybrechtsLehn96))
 
 ## References
 
+This appeared in the Grothendieck's FGA in order to treat the moduli problems leading to [[Quot scheme]]s. See Nitsure's contribution at [[FGA explained]] for a modern remake. 
 
 * {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Mafred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
