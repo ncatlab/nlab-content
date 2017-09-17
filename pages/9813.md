@@ -59,6 +59,7 @@ $$
 
 The relation between Chow motives and [[noncommutative Chow motives]] is recalled as theorem 4.6 in ([Tabuada 11](#Tabuada11)).
 
+This relation is best understood via _[[K-motives]]_, see there.
 
 ### Relation to KK-theory
 
