@@ -88,6 +88,7 @@ Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$
 =--
 
 ### For $(\infty,1)$-module bundles
+ {#ForInfinityModuleBundles}
 
 We discuss the Thom spectrum construction for general [[(∞,1)-module bundle]]s.
 
