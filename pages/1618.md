@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 # The points of a topos #
 * tic
 {: toc}
@@ -5,18 +17,28 @@
 
 ## Definition ##
 
++-- {: .un_defn}
+###### Definition
+
 A **point $x$ of a [[topos]] $E$** is a [[geometric morphism]]
+
 $$
-  x : Set \to E
-  \,.
+  x : Set \stackrel{\overset{x^*}{\leftarrow}}{\underset{x_*}{\to}} E
 $$
 
-That is, it\'s a [[global element]] of the topos.
+from the base topos [[Set]] to $\mathcal{E}$. 
 
-+--{.query}
-[[Zoran Škoda]]: following Mike I moved the still going on discussion of 1-categorical nature of the presheaf of categories of geometric morphisms into [[zoranskoda:discussion from point of a topos|my part of the nlab]].
+For $A \in \mathcal{E}$ an object, its [[inverse image]] $x^* A \in Set$ under such a point is called the [[stalk]] of $A$ at $x$.
+
 =--
 
++-- {: .un_remark}
+###### Remark
+
+
+Since $Set$ is the [[terminal object]] in the category [[Topos|GrothendieckTopos]] of [[Grothendieck topos]]es, for $\mathcal{E}$ a [[sheaf topos]] this isa [[global element]] of the topos.
+
+=--
 
 ### In sheaf topoi ###
 
@@ -103,10 +125,15 @@ A Grothendieck topos has enough points precisely when it underlies a bounded [[i
 
 ## References ##
 
-section 7.5 of 
+A general discussion is in section 7.5 of 
 
 * MacLane Moerdijk, [[Sheaves in Geometry and Logic]]
 
+In 
+
+* Carsten Butz, _Logical and cohomological aspects of the space of points of a topos_ ([ps](http://www.itu.dk/~butz/research/thesis0.ps.gz))
+
+is how for every topos with enough points there is a topological space whose [[cohomology]] is related to the intrinsic cohomology of the topos.
 
 [[!redirects point of topos]]
 [[!redirects topos with enough points]]
