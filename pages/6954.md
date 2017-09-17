@@ -270,7 +270,7 @@ $$\array{
  & = & \langle a f(x) + b f(y), u_i \rangle_W
 }$$ 
 
-for each $u_i$, whence $f(a x + b y) = a f(x) + b f(y)$. Thus $f$ is a linear map, and a linear isomorphism onto the subspace $W$ because it carries a basis $e_i$ of $V$ to a basis $u_i$. 
+for each $u_i$, whence $f(a x + b y) = a f(x) + b f(y)$. Thus $f$ is a linear map, and a linear isomorphism onto the subspace $W$ because it carries a basis $e_i$ of $V$ to a basis $u_i$ of $W$. 
 
 Summarizing, any isometry $f \colon V \to V$ is of the form 
 
