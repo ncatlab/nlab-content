@@ -202,12 +202,16 @@ for the given cohesive $(\infty,1)$-topos. Its objects $X,A \in \mathbf{H}$ we a
 
 * $\Gamma(X)$ is the _underlying $\infty$-groupoid_ of the cohesive $\infty$-groupoid $X$ (for instance an $\infty$-Lie groupoid with its smooth structure forgotten);
 
+  if $X = \mathbf{B}G$ is the [[delooping]] of a [[group object]] $G$ in $\mathbf{H}$, then $\Gamma \mathbf{B}G = K(\Gamma(G),1)$ is the [[Eilenberg-MacLane space]] with the underlying [[discrete group]] $\Gamma(G)$ in degree 1.
+
 * $\Pi(X)$ is the fundamental [[path ∞-groupoid]] of $X$: its [[k-morphism]]s are generated from $k$-dimensional smooth paths in $X$ and the $k$-morphisms of $X$ itself. Under the equivalence of $(\infty,1)$-toposes 
 
   $|-| :$  [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] 
 
 
   we may think of $|\Pi(X)|$ as the _geometric realization_ of $X$. For instance if $X \in \infty LieGrpd$ is a [[paracompact manifold]], then $|\Pi(X)|$ is, up to [[weak homotopy equivalence]] its underlying topological space.
+
+  If again $X = \mathbf{B}G$, then $\mathcal{B}G = |\Pi(\mathbf{B}G)|$ is the [[classifying space]] for the group $G$.
 
 Write 
 
@@ -233,16 +237,17 @@ Then unit and counit of the [[adjunction]]s give canonical natural morphisms
 
    $(X \to \mathbf{\flat}A) \leftrightarrow (\mathbf{\Pi}(X) \to A)$ to the underlying $A$-bundle.
 
-  If $A = \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] object, then we may think of $\mathbf{\flat} \mathbf{B}G$ or rather the corresponding  $Disc(\mathbf{B}G)$ as being $K(G,1)$: the classifying object for $G$-principal bundles where all cohesive structure on $G$ has been forgotten.
+  If $A = \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] object, then we may think of $\mathbf{\flat} \mathbf{B}G$ or rather the corresponding  $\Gamma\mathbf{B}G$ as being $K(G,1)$: the classifying object for $G$-principal bundles where all cohesive structure on $G$ has been forgotten.
 
   Accordingly, the canonical map
 
   $$
-    Disc(\mathbf{B}G) \to \Pi \mathbf{B}G
+    \Gamma \mathbf{B}G \to \Pi \mathbf{B}G
   $$
 
-  that apppears in the second clause of the definition of cohesive topos is the inclusion of the topologist's $K(G,1)$ into the topological [[classifying space]] $\mathcal{B}G$. Again, on [[cocycle]]s this is the map from flat bundles to the underlying bundles.
+  that apppears in the second clause of the definition of cohesive topos is the inclusion of the [[Eilenberg-MacLane space]] $K(G,1)$ into the topological [[classifying space]] $\mathcal{B}G$. Again, on [[cocycle]]s this is the map from flat bundles to the underlying bundles.
 
+  If for all $U \in C$ in the [[(∞,1)-cohesive site]] $C$ we have that $\Gamma(U)$ is not empty, then this is supposed to be a [[regular epimorphism in an (∞,1)-category]]. This expresses the fact that every $G$-principal $\infty$-bundle on the contractible $U$ may be equipped with a flat connection.
 
 
 
