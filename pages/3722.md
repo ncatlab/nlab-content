@@ -33,7 +33,7 @@ For a point-based notion of space such as a [[topological space]], a closed subs
 
 A subset is closed precisely if
 
-* it contains all its [[limit points]].
+* it contains all its [[limit points]] (in either sense).
 
 
 ### Locales
