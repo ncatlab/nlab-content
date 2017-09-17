@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -165,6 +165,10 @@ One says for $\omega \in \mathbf{H}(X,A)$ a cocycle, that the object **classifie
 
 This homotopy fiber may be thought of as the internal [[principal ∞-bundle]] in $\mathbf{H}$ with classifying map $\omega$.
 
+
+## Related concepts
+
+[[!include chains and cochains - table]]
 
 
 [[!redirects cocycles]]
