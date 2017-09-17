@@ -16,19 +16,19 @@
 
 ## Idea
 
-A _hyperdoctrine_ for a given notion of [[logic]] $L$ is a [[functor]]
+A _hyperdoctrine_ is a way of enriching a given category with a given kind of logic.  Specifically, a hyperdoctrine for a given notion of [[logic]] $L$ is a [[functor]]
 
 $$
-  P : T^{op} \to \mathbf{C}
+  P \colon T^{op} \to \mathbf{C}
 $$
 
-to some [[2-category]] (or even [[higher category]]) $\mathbf{C}$ af categories whose [[internal logic]] corresponds to $L$, such that for every morphism $f : A \to B$ the morphism $P(f)$ has both a [[left adjoint]] as well as a [[right adjoint]].
+to some [[2-category]] (or even [[higher category]]) $\mathbf{C}$, whose objects are categories whose [[internal logic]] corresponds to $L$.  Thus, each object $A$ of $T$ is assigned an "$L$-logic" (the internal logic of $P(A)$.
 
-A canonical class of example is where $P$ sends $X \in T$ to the [[poset of subobjects]] $Sub_T(X)$ of $X$. 
+In the most classical case, $L$ is [[propositional logic]], and $\mathbf{C}$ is a 2-category of posets (e.g. [[lattices]], [[Heyting algebras]], or [[frames]]).  A hyperdoctrine is then an incarnation of first-order [[predicate logic]].  A canonical class of examples of this case is where $P$ sends $A \in T$ to the [[poset of subobjects]] $Sub_T(A)$ of $A$.  The predicate logic we obtain in this way is the usual sort of [[internal logic]] of $T$.
 
-Moreover, the left adjoint is typically required to satisfy  [[Frobenius reciprocity]] and the [[Beck-Chevalley condition]].
+We generally require also that for every morphism $f \colon A \to B$ the morphism $P(f)$ has both a [[left adjoint]] as well as a [[right adjoint]], typically required to satisfy [[Frobenius reciprocity]] and the [[Beck-Chevalley condition]].  These adjoints are regarded as the action of [[quantifiers]] along $f$.  Thus, a hyperdoctrine can also be regarded as a way of "adding quantifiers" to a given kind of logic.
 
-Here one thinks of 
+More precisely, one thinks of 
 
 * $T$ as a category of [[types]] or rather [[contexts]];
 
@@ -36,13 +36,15 @@ Here one thinks of
 
   * to each context $X \in T$ the [[lattice]] of [[propositions]] in this context;
 
-  * to each morphsm $f : X \to Y$ in $T$ the operation of  "substitution of variables" / "extension of contexts" for propositions $P(Y) \to P(X)$;
+  * to each morphism $f \colon X \to Y$ in $T$ the operation of  "substitution of variables" / "extension of contexts" for propositions $P(Y) \to P(X)$;
 
-* the images of a proposition under the required left adjoints being the application of the [[existential quantifier]];
+* the left adjoint to $P(f)$ gives the application of the [[existential quantifier]];
  
-* the images of a proposition under the right adjoints being the [[universal quantifier]] (see there for the interpretation of quantifiers in terms of adjoints).
+* the right adjoint to $P(f)$ gives the application of the [[universal quantifier]] (see there for the interpretation of quantifiers in terms of adjoints).
 
-In this interpretation, the Beck-Chevalley condition ensures that quantification interacts with substitution of variables as expects, and Frobenius reciprocity expresses the derivation rules.
+* The Beck-Chevalley condition ensures that quantification interacts with substitution of variables as expected
+
+* Frobenius reciprocity expresses the derivation rules.
 
 So, in particular, a hyperdoctrine is a kind of [[indexed category]] or [[Grothendieck fibration|fibered category]].
 
