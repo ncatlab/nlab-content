@@ -52,11 +52,9 @@ Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] 
 
 ## Examples
 
-* [[profinite group]]
+* [[profinite set]], [[profinite space]]
 
-* [[progroup]]
-
-* [[profinite space]]
+* [[profinite group]], [[progroup]]
 
 * [[pro-étale morphism of schemes]], [[pro-étale site]]
 
