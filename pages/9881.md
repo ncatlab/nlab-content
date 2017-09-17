@@ -74,6 +74,10 @@ The scattering amplitudes in [[twistor string theory]] induce the MHV amplitudes
 ## References
  {#References}
 
+### Higher order corrections
+
+* [[Christopher Pope]],  _Higher-order corrrections in String and M-theory and Generalized Holonomies_, December 2006 ([pdf](http://www.luth.obspm.fr/IHP06/workshops/cosmo/slides/Pope.pdf))
+
 ### On finiteness
  {#ReferencesOnFiniteness}
 
@@ -84,6 +88,7 @@ Here is a commented list of references on the degreewise [finiteness of string s
 Introductory lecture notes include
 
 * Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_, Lecture notes based on lectures given at the fifth Modave School on Mathematical Physics (August 2009) ([arXiv:1011.0456](http://arxiv.org/abs/1011.0456))
+ {#StaessensVernocke10}
 
 Discussion of the term-wise finiteness of the bosonic string scattering amplitudes is in
 
@@ -95,11 +100,15 @@ There are also arguments in
 
 #### Superstring
 
-A general discussion of the problem is in 
+A review is in the last section of ([Staessens-Vernocke 10](#StaessensVernocke10)). A general discussion of the problem of superstring amplitudes is in 
 
 * [[Eric D'Hoker]] [[Duong Phong]], _Loop amplitudes for the fermionic string_, Nucl. Phys. B 278 (1986) 225;
 
 * [[Greg Moore]], P. Nelson, [[Joseph Polchinski]], _Strings and supermoduli_, Phys. Lett. B 169 (1986) 47-53.
+
+Finiteness of heterotic and type II superstring $n$-point functions in flat spacetime is argued for in
+
+* Joseph Atick, [[Gregory Moore]], [[Ashoke Sen]], _Catoptrick tadpoles_, Nucl.Phys. B307 (1988) 221 ([spire](http://inspirehep.net/record/252598?ln=en))
 
 General finiteness of superstring amplitudes is discussed in 
 
