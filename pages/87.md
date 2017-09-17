@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -120,7 +119,7 @@ In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
   We say that $y$ is a __value__ of $F$ at $x$ if $y$ is isomorphic (in $D$) to some specified value of $F$ at $x$; we write $F(x) \cong y$. (There is no notion of *the* value of $F$ at $x$, except in the up-to-isomorphism sense of the [[generalised the]], and $F(x) = y$ is a meaningless statement.);
 * for each $s, t\colon |F|$ and morphism $f\colon \sigma(s) \to \sigma(t)$ in $C$, a morphism
   $$ F_{s,t}(f)\colon F_s(x) \to F_t(y) $$
-  in $D$, where $x \coloneqq \sigma(s)$ and $y \coloneqq \tau(s)$. Similarly to the above, we can define whether a given morphism $g$ in $D$ is a __specified value__ of $F$ at a given morphism $f$ in $C$ or whether $g$ is (merely) a __value__ of $F$ at $f$. (Again, there is no notion of *the* value of $F$ at $f$.);
+  in $D$, where $x \coloneqq \sigma(s)$ and $y \coloneqq \sigma(t)$. Similarly to the above, we can define whether a given morphism $g$ in $D$ is a __specified value__ of $F$ at a given morphism $f$ in $C$ or whether $g$ is (merely) a __value__ of $F$ at $f$. (Again, there is no notion of *the* value of $F$ at $f$.);
 * $\sigma$ is a [[surjective function]]. Thus, $F$ has *some* value at any given object or morphism of $C$. (In the [[internalization|internalized]] case, this requirement can become quite complicated; for example, internal to [[Diff]], one requires a [[surjective submersion]].);
 * $F$ preserves [[identity morphism|identities]]. That is, given $s\colon |F|$, the value of $F$ specified by $s$ and $s$ at the identity of $\sigma(s)$ is the identity of $\tau(s)$, or (in symbols) $F_{s,s}(\id_{\sigma(s)}) = \id_{\tau(s)}$, or (whenever this makes sense)
   $$ F_{s,s}(\id_x) = \id_{F_s(x)} ;$$
@@ -172,6 +171,7 @@ The role of the assumptions about covers is:
 Note: in Section 1.1.5 of [HGT1](#HGT1), the following additional axiom was assumed on the class of covers:
 
 * every [[congruence]] involving a cover has a quotient object which is a cover.
+
 
 This is not needed for anafunctors but is used to relate descent to bundles (and then to $2$-bundles).
 
