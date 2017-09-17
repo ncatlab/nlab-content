@@ -1,6 +1,30 @@
-As for ordinary [[sheafification]], _$(\infty,1)$-sheafification_ is the left exact left adjoint to the inclusion of [[(∞,1)-sheaves]] into [[(∞,1)-presheaves]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+As for ordinary [[sheafification]], _$(\infty,1)$-sheafification_ is the [[exact (∞,1)-functor|left exact]] [[left adjoint|left]] [[adjoint (∞,1)-functor]] to the inclusion of [[(∞,1)-sheaves]] into [[(∞,1)-presheaves]].
 
 For more details see [[(∞,1)-category of (∞,1)-sheaves]].
+
+
+## Related concepts
+
+* [[sheafification]]
+
+* **(∞,1)-sheafification** / [[∞-stackification]]
 
 [[!redirects (infinity,1)-sheafifications]]
 [[!redirects (∞,1)-sheafification]]
