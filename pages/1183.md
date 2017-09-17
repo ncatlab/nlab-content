@@ -84,7 +84,7 @@ More in detail, this is meant to describe the following situation:
 
   * $\vec v := \dot \gamma \in Hom(T \Sigma, T X)$ for the [[derivative]] of $\gamma$; think of this as the [[velocity]] of the particle; and
 
-  * $\vec a := \ddot \gamma$ for the second [[derivative]], the [[acceleration]] of the particle.
+  * $\vec a := \ddot \gamma$ for the second [[derivative]], the [[acceleration]] of the particle (strictly speaking this is the [[covariant derivative]] with respect to the trivial [[connection on a bundle|connection]] on the (canonically trivialized) [[tangent bundle]] on $\mathbb{R}^3$, see [below](RelativisticParticle) for the fully fledged discussion).
 
 We call then the collection of all [[smooth function]]s
 
@@ -134,48 +134,46 @@ A cautionary note is in order. While the Newtonian particle may serve as an intr
  {#RelativisticParticle}
 
 
-The Newtonian particle propagating on $\mathbb{R}^3$, discussed [above](#ExpositionNewtonianParticle) is a special and limiting case of a particle propagating on a 4-dimensional [[pseudo-Riemannian manifold]]: [[spacetime]]. For historical reasons (the same that led to the theory of [[gravity]] being called a theory of [[general relativity|relativity]]) this is called the [[relativistic particle]].
+The Newtonian particle propagating on $\mathbb{R}^3$, discussed [above](#ExpositionNewtonianParticle), is a special and limiting case of a particle propagating on a 4-dimensional [[pseudo-Riemannian manifold]]: [[spacetime]]. For historical reasons (the same that led to the theory of [[gravity]] being called a theory of _[[general relativity|relativity]]_ ) this is called the _[[relativistic particle]]_ .
 
 The $\sigma$-model describing the relativistic particle is the following.
 
 * [[target space|Target space]] is a  [[pseudo-Riemannian manifold]] $(X,g)$, thought of as [[spacetime]].
 
-* Parameter space $\Sigma = \mathbb{R}$ is the [[real line]], thought of as the abstract [[worldline]] of a [[relavistic particle]].
+* Parameter space $\Sigma = \mathbb{R}$ is the [[real line]], thought of as the abstract [[worldline]] of the particle.
 
-* The [[background gauge field]] is given by a smooth [[differential form|1-form]] $A \in \Omega^1(X)$, whose [[exterior derivative]] $F := d A$ is the [[field strength]] of an [[electromagnetic field]]. 
+* The [[background gauge field]] is given by a [[circle n-bundle with connection|circle bundle with connection]], which for the moment we shall assume to be topologically trivial and hence be equivalently given by a smooth [[differential form|1-form]] $A \in \Omega^1(X)$. Its [[curvature]] [[exterior derivative]] $F := d A$ is the [[field strength]] of an [[electromagnetic field]] on $X$. 
 
-The [[configuration space]] is the [[quotient]]
+* The [[configuration space]] is the [[quotient]]
 
-$$
-  Conf = C^\infty(\mathbb{R}, X)//Diff(\mathbb{R})
-  \,,
-$$
+  $$
+    Conf = C^\infty(\mathbb{R}, X)//Diff(\mathbb{R})
+    \,,
+  $$
 
-of [[smooth function]]s $\Sigma \to X$ by [[diffeomorphism]]s $\Sigma \to \Sigma$. Each point in cofiguration space is a trajectory of a particle in spacetime.
+  of [[smooth function]]s $\Sigma \to X$ by [[diffeomorphism]]s $\Sigma \stackrel{\simeq}{\to} \Sigma$. Each point in cofiguration space is a trajectory of a particle in spacetime.
 
-The [[covariant phase space]] -- the subspace of the configuration space of those configurations that satisfy the [[equations of motion]] -- is defined to be
+* The [[covariant phase space]] -- the subspace of the configuration space of those configurations that satisfy the [[equations of motion]] -- is defined to be
 
-$$
-  P =
-  \{ [\gamma] \in Conf
-   |
-  g(\nabla_{\dot \gamma} \dot \gamma,-) =  \frac{q}{m}\iota_{\dot \gamma} F
-  \}
-  \subset Conf
-  \,,
-$$
+  $$
+    P =
+    \{ [\gamma] \in Conf
+     |\;\;
+    m g(\nabla_{\dot \gamma} \dot \gamma,-) =  q\iota_{\dot \gamma} F
+    \;\; \}
+    \subset Conf
+    \,,
+  $$
 
-where 
+  where 
 
-* $\nabla$ denotes the [[covariant derivative]] of the [[Levi-Civita connection]] of the background metric $g$ on the [[tangent bundle]] $T X$ of $X$Here in the equation of motion;
+  * $\nabla$ denotes the [[covariant derivative]] of the [[Levi-Civita connection]] of the background metric $g$ on the [[tangent bundle]] $T X$ of $X$;
 
-* $g(\nabla_{\dot \gamma} \dot \gamma,-)$ is the 1-form given by evaluating the covariant acceleration in the metric tensor;
+  * $g(\nabla_{\dot \gamma} \dot \gamma,-)$ is the 1-form given by evaluating the covariant acceleration in the metric tensor;
 
-* $\frac{q}{m}\iota_{\dot \gamma} F$ is the 1-form given by evaluation the [[field strength]] 2-form on the covariant velocity,
+  * $\frac{q}{m}\iota_{\dot \gamma} F$ is the 1-form given by evaluation the [[field strength]] 2-form on the covariant velocity,
 
-  (This is the [[Lorentz force]] excerted by the background electromagnetic field on the relativistic particle of charge $q$);
-
-* the equation is taken to holt in each [[cotangent space]] $T^*_{\gamma(\tau)} X$ for each $\tau \in \mathbb{R}$.
+  * the equation is taken to hold in each [[cotangent space]] $T^*_{\gamma(\tau)} X$ for each $\tau \in \mathbb{R}$.
 
 To see what this means, consider some special cases. First regard the case that the background field strenght vanishes, $F = 0$. Then the equations of motion reduce to
 
@@ -184,14 +182,14 @@ $$
   \,.
 $$
 
-This says that the trajectory $\gamma$ exhibits [[parallel transport]] of its tangent vectors (their covariant velocities) with respect to the [[Levi-Civita connection]] of the background metric.
+This says that the trajectory $\gamma$ exhibits [[parallel transport]] of its tangent vectors with respect to the [[Levi-Civita connection]] of the background metric. These curves are precisely the _[[geodesics]]_ of the background geometry. This models motion under the [[force]] exerted by the field of [[gravity]] on our particle.
 
 In the even more special case that $X$ is [[Minkowski spacetime]], where we may find a global [[coordinate chart]] $(\mathbb{R}^4, \eta) \simeq (X,g)$, this are exactly the straight lines in $\mathbb{R}^4$. Given any such, there is precisely one representative in the diffeomorphism class for which $\mathbb{R} \stackrel{\gamma}{\to} \mathbb{R}^4 \stackrel{x^0}{\to} \mathbb{R}$ is the identity, hence for which the [[worldline]] parameter coincides precisely with the chosen global time coordinate $t := x^0$ on $\mathbb{R}^4$. For those the equations of motions are again those of the free Newtonian particle $\vec a = 0$.
 
 Remaining in the case that $X$ is [[Minkowski space]] but allowing now a nontrivial background field, notice that we may write the 2-form $F$ always as
 
 $$
-  F = \vec E_i \cdot d x^i \wedge d t + \vec B_i \epsilon_{i j k} d x^j \edge d x^j
+  F = \vec E_i \cdot d x^i \wedge d t + \vec B^i \epsilon_{i j k} d x^j \wedge d x^j
   \,,
 $$
 
@@ -202,7 +200,7 @@ $$
   \,,
 $$
 
-where in the second term we have the [[cross product]] of vectors in $\mathbb{R}^3$. This is the form in which the [[Lorentz force]] law appears in many textbooks.
+where in the second term we have the [[cross product]] of vectors in $\mathbb{R}^3$. The [[force]] on the right is the _[[Lorentz force]]_ excerted by an electromagnetic field on a charged particle.
 
 Notice that the equations of motion imply, generally, that the [[norm]] of $\dot \gamma$ is constant along the trajectory
 
@@ -222,13 +220,14 @@ $$
    \,.
 $$
 
-Therefore a trajectory that solves the equations of motion and whose tangent vector is [[timelike]] or [[spacelike]] or [[lightlike]], respectively at any instant is so throughout.
+Therefore a trajectory that solves the equations of motion and whose tangent vector is [[timelike]] or [[spacelike]] or [[lightlike]], respectively at any instant is so throughout. In particular, no choice of gravitational and electromagnetic background field strength can accelerate a physical particle from being timelike to being light-like.
 
+Experiments around the second half of the 19th and the beginning of the 20th century established that this covariant phase space correctly describes the dynamics of gravitationally and electromagnetically charged relativistic particles,. But also formally this phase space is not a randomly chosen space; instead, it is the [[critical locus]] of a (mathematically) natural [[action functional]].
 
 The points in the [[covariant phase space]]
 
 $$
-  P = \{ [\gamma] \in Conf | 
+  P := \{ [\gamma] \in Conf | 
    g(\nabla_{\dot \gamma} \dot \gamma,-) =  \frac{q}{m}\iota_{\dot \gamma} F
     \}
   \subset Conf 
@@ -237,39 +236,76 @@ $$
 happen to be the local critical points of the [[functional]]
 
 $$
-  S : Cont \to \mathbb{R}
+  S : Conf \to \mathbb{R}
 $$
 
 given by
 
 $$
-  S([\gamma]) 
-   := 
-  m \int_\Sigma dvol(\gamma^*g)  + q \int_\Sigma \gamma^* A
-  \,.
+  \begin{aligned}
+    S([\gamma]) 
+     & := 
+     S_{kin}([\gamma])
+     +
+     S_{gauge}([\gamma])
+     \\
+     & 
+     := 
+     m \int_\Sigma dvol(\gamma^*g)  + q \int_\Sigma \gamma^* A
+  \end{aligned}
+  \,,
 $$
 
-This is the [[action functional]] of the relativistic particle $\sigma$-model. The first summan is called the _kinetic action_ , the second is calle the _gauge coupling_  action. Typically one characterizes the models in terms of such action functionals, from which the [[covariant phase space]] then derives. This typically yields a simpler and deeper description of the model. 
+where on the left we have the integral of the [[volume form]] of the pullback $\gamma^* g \in Sym^2 T^* \Sigma$ of the metric on target space to the [[worldline]].
 
-For instance for the above action functional has an evident generalization to the case where the background [[electromagnetic field]] is not given by a globally defined 1-form, but more generally by a [[circle n-bundle with connection|cicle bundle with connection]] $\nabla$: if we pass to the exponentiated action
+This is called the _[[action functional]]_ of the relativistic particle $\sigma$-model. The first summand is called the _kinetic action_ , the second is calle the _gauge coupling_  action. 
+
+Typically one characterizes $\sigma$-models in terms of such action functionals, so that the [[covariant phase space]] is then given as their [[critical locus]]. This usually yields a simpler and deeper description of the model. 
+
+Notably the above action functional has an evident generalization to the case where the background [[electromagnetic field]] is not given by a globally defined 1-form, but more generally by a [[circle n-bundle with connection|cicle bundle with connection]] $\nabla$: if we pass to the exponentiated action functional
+
+$$
+  \exp(i S(-)) : Conf \to U(1)
+$$
 
 $$
   \exp(i S(\gamma)) = 
-  \exp(i \int_\Sigma dvol(\gamma^*g) ) 
+  \exp(S_{kin}(\gamma))
+   \;\;
   \exp(i q \int_\Sigma \gamma^* A)
 $$
 
-the second factor is evidently the [[holonomy]] of the connection over the worldline. Hence for general electromagnetic background gauge fields the action functional is (assuming for simplicity now closed curves with $\Sigma = S^1$)
+the second factor is precisely the [[holonomy]] of $\nabla$ over the worldline. Hence for general electromagnetic background gauge fields the action functional is (assuming for simplicity now closed curves with $\Sigma = S^1$)
 
 $$
   \exp(i S(\gamma))   
   = 
-  \exp(i \int_\Sigma dvol(\gamma^*g) ) 
+  \exp(S_{kin}(\gamma))
+   \;\;
   hol(\nabla, \gamma)
   \,.
 $$
 
+This is the beginning of an important pattern: most $\sigma$-models are determined by a kind of higher [[gauge field]] $\nabla$ on [[target space]] (a cocycle in the [[differential cohomology]] of [[target space]]) and their dynamics is determined by an [[action functional]] that is the [[higher parallel transport|higher holonomy]] functional of this gauge field. 
 
+At the same time the kinetic action functional factor is usually to be understood as part of the [[measure]] on [[configuration space]] $Conf$. For the particle this has been made precise: the [[path integral]] 
+
+$$
+ \int_{\gamma \in Conf} hol(\nabla,\gamma) \;\;\exp(i S_{kin}(\gamma)) [d \gamma]
+  :=
+ \int_{\gamma \in Conf} hol(\nabla,\gamma) d \mu_{Wien}
+$$
+
+can be interpreted as the [[integral]] with respect to the [[Wiener measure]] on path space (after [[Wick rotation, at least]]). The kinetic part of the action functional is then absorbed into the Wiener measure $d \mu_{Wien}$
+
+$$
+  \exp(i S_{kin}(\gamma)) [d\gamma] := d \mu_{Wien}
+  \,;
+$$
+
+and the path integral is just the "expectation value" (after Wick rotation) of the holonomy, taken over all trajectories.
+
+Since there is a good general abstract theory of higher gauge fields and their higher holonomies (see [[differential cohomology]] and [[cohesive (infinity,1)-topos|differential cohomology in a cohesive topos]]), this suggests that there should be a general abstract theory of $\sigma$-models. Aspects of this are discussed [below](Exposition).
 
 
 ### The relativistic string
