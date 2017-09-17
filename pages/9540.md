@@ -5,7 +5,7 @@
 
 ## Idea
 
-The notion of _Hilber $C^\ast$-bimodule_ adapts the notion of [[bimodules]] over [[associative algebras]] to [[operator algebra]]/[[C-star-algebra]] theory.
+The notion of _Hilbert $C^\ast$-bimodule_ adapts the notion of [[bimodules]] over [[associative algebras]] to [[operator algebra]]/[[C-star-algebra]] theory.
 
 For $A,B$ two [[C-star algebras]], an $(A,B)$-*Hilbert $C^\ast$-bimodule* (or just _Hilbert bimodule_, for short) is 
 
