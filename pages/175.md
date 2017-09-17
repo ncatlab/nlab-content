@@ -20,6 +20,7 @@
 * [[group]] 
 * [[Grp]]
 * [[abelian group]], [[Hopfian group]]
+* [[combinatorial group theory]]
 * [[action]] and [[representation theory]]
 * [[higher group character|Higher Group Characters]]
 * [[Erlangen program]] and [[Klein 2-geometry]]
@@ -29,3 +30,5 @@
 There are many generalizations and related structures; for example the vertical categorifications of groups like [[2-group]]s, horizontal categorifications as [[groupoids]], groups with structure, like [[topological group]]s, [[Lie group]]s, thus also [[Lie groupoids]], [[Lie infinity-groupoids]]; and noncommutative generalizations like [[quantum groups]]. Lie and algebraic group(oid)s have their infinitesimal precursors like formal groups, local Lie groups, tangent [[Lie algebras]], tangent [[Lie algebroids]] etc. In the smooth context the relation between Lie groupoids and Lie algebroids is the subject of [[Lie theory]]. 
 
 [[!redirects Group theory]]
+
+category: group theory
