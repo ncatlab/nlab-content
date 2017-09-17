@@ -108,6 +108,9 @@ The perspective of Bohmian mechanics is to regard this equivalent rewriting of t
 
 The bulk of the discussion of Bohmian mechanics in the literature revolves around [[philosophy|philosophical]] implications of this perspective, e.g. ([Stanford Enc. Philosph](#SEP)).
 
+## Related concepts
+
+* [[interpretation of quantum mechanics]]
 
 ## References
 
