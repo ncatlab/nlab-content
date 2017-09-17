@@ -1,3 +1,4 @@
+[[!redirects algebra over an endomorphism]]
 ## Definition
 
 If $K$ is a [[bicategory]] and $f \colon a \to a$ is an [[endomorphism]] in $K$, then a (**left**) $f$-**algebra** or $f$-**module** is given by a 1-cell $x \colon b \to a$ together with a 2-cell $\lambda \colon f x \Rightarrow x$.
