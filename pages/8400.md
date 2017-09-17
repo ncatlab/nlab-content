@@ -1,0 +1,30 @@
+Kleene's second algebra is a [[partial combinatory algebra]] based on [[Baire space]]. 
+
+Let $\mathbb{N}$ be the set of natural numbers equipped with the discrete topology, so that the [[exponential object|function space]] $\mathbb{N}^\mathbb{N}$ is a countable product of copies of $\mathbb{N}$. By means of [[continued fractions]], this space is homeomorphic to the Baire space $B$ of irrational numbers between $0$ and $1$. 
+
+To define Kleene's second algebra, we need several ingredients: 
+
+1. There is a function $p \colon B \to 1 + \mathbb{N}$ which takes the constant function at $0$ to $\ast \in 1$, and any other function $\alpha \colon \mathbb{N} \to \mathbb{N}$ to the predecessor of the first non-zero $\alpha(k)$. 
+
+1. Each irrational number $\beta \in B$ releases a stream of rational approximants $q_1(\beta), q_2(\beta), \ldots$ by successive truncations of the continued fraction of $\beta$. By coding rational numbers by natural numbers, we get a corresponding stream of natural numbers $(\beta_1, \beta_2, \ldots) \in \mathbb{N}^\mathbb{N}$. The map 
+$$\phi \colon B \to B$$ 
+that sends $\beta$ to $(\beta_1, \beta_2, \ldots)$ is continuous. 
+
+1. $B$ is the [[terminal coalgebra]] of the endofunctor $- \times \mathbb{N}$ on $Top$, so there is an isomorphism $\xi \colon B \to B \times \mathbb{N}$ whose inverse is denoted $prefix$. 
+
+1. Composition of functions $\mathbb{N} \to \mathbb{N}$ defines a map $comp \colon B \times B \to B$. 
+
+Now consider the composite 
+
+$$B \times B \times \mathbb{N} \stackrel{1_B \times prefix}{\to} B \times B \stackrel{1_B \times \phi}{\to} B \times B \stackrel{comp}{\to} B \stackrel{p}{\to} 1 + \mathbb{N}$$ 
+
+and curry this to a map $\psi \colon B \times B \to (1 + \mathbb{N})^\mathbb{N}$. Let $i \colon \mathbb{N} \to 1 + \mathbb{N}$ be the inclusion map. 
+
+**Kleene's second algebra** is the applicative structure or partial binary operation on $B$ defined by the pullback 
+
+$$\array{
+D & \to & \mathbb{N}^\mathbb{N} \\
+\downarrow & & \downarrow^\mathrlap{i^\mathbb{N}} \\ 
+B \times B & \underset{\psi}{\to} & (1 + \mathbb{N})^\mathbb{N}
+}$$ 
+
