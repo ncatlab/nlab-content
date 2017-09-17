@@ -16,7 +16,7 @@ This is in particular the case when the [[spectrum]] $E$ [[Brown representabilit
 
 ## Related concepts
 
-* [[Thom isomorpism]]
+* [[Thom isomorphism]]
 
 * [[orientation in generalized cohomology]]
 
