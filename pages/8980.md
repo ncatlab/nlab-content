@@ -21,7 +21,7 @@
 
 ## Definition
 
-Given a [[type theory]] equipped with a [[closure operator]] [[modality]] $\Diamond$ ([[monad|monadic]]) or $\Box$ ([[comonad|comonadic]]) a [[type]] $X$ is _modal_ with respect to $\Diamond$/$\Box$ if 
+Given a [[modal type theory]], hence [[type theory]] equipped with a [[closure operator]] [[modality]] $\Diamond$ ([[monad|monadic]]) or $\Box$ ([[comonad|comonadic]]), the a [[type]] $X$ is _modal_ with respect to $\Diamond$/$\Box$ if 
 
 * the [[unit of an adjunction|unit]] $\eta \colon X \to \Diamond X$
 
@@ -30,6 +30,8 @@ Given a [[type theory]] equipped with a [[closure operator]] [[modality]] $\Diam
 is an [[equivalence]]. 
 
 The collection of modal types forms the _closure_ of the given closure operator. 
+
+Under [[propositions as types]] a [[proposition]] that is modal is also called a _[[stable proposition]]_.
 
 ## Related concepts
 
