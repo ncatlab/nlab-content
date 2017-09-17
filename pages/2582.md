@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -25,13 +24,14 @@ $$
 
 that are obtained from right to left by _removing [[homotopy groups]] from below_, hence such that 
 
-* each $X^{(n)}$ is $(n-1)$-[[connected object in an (infinity,1)-topos|connected]] 
+* each $X^{(n)}$ is $(n-1)$-[[n-simply connected space|connected]] 
 
 * and each [[morphism]] $X^{(n+1)} \to X^{(n)}$ induces an [[isomorphism]] on all [[homotopy groups]] in degree $k \geq (n+1)$ (and the inclusion $1 \to \pi_n(X^{(n)})$ in degree $n$ as well as the identity $1 = 1$ in degree $k \lt n$).
 
 The notion of Whitehead tower is [[duality|dual]] to the notion of _[[Postnikov tower]]_, which instead is a factorization of the terminal morphism $X \to *$ into a tower, where homotopy groups are _added_ from right to left.
 
-In fact, the Whitehead tower may be constructed by taking each stage $X^{(n+1)} \to X^(n)$ to be the _[[homotopy fiber]]_ of the corresponding map into the $(n+1)$st stage of the [[Postnikov tower]].
+In fact, the Whitehead tower may be constructed by taking each stage $X^{(n+1)} \to X^{(n)}$ to be the _[[homotopy fiber]]_ of the corresponding map into the $(n+1)$st stage of the [[Postnikov tower]].
+
 
 ## Definition
 
@@ -75,7 +75,7 @@ $$
 \ldots \to X\langle n\rangle \to \ldots \to X\langle 1 \rangle \to X\langle 0 \rangle \to X
 $$
 
-where each $X\langle n\rangle \to X\langle n-1 \rangle$ induces isomorphisms on [[homotopy group]]s $\pi_i$ for $i\gt n$ and such that $X\langle n\rangle$ is $n$-[[connected]] (has trivial [[homotopy group]]s $\pi_i$ for $i \leq n$).
+where each $X\langle n\rangle \to X\langle n-1 \rangle$ induces isomorphisms on [[homotopy group]]s $\pi_i$ for $i\gt n$ and such that $X\langle n\rangle$ is $n$-[[n-connected|connected]] (has trivial [[homotopy group]]s $\pi_i$ for $i \leq n$).
 The homotopy long exact sequence then shows that the fiber of $X\langle n\rangle \to X\langle n-1 \rangle$ is a $K(\pi_{n-1}(X,x),n-1)$ [[Eilenberg-Mac Lane space]]. One has a model for $K(\pi_{n-1}(X,x),n-1)$ which is an abelian topological group; this has a remarkable consequence when $(X,x)=(G,e)$ is a [[topological group]]. Indeed, in this case one sees inductively that $G\langle n\rangle$ has a model which is a topological group, which is an abelian group extension:
 
 $$
@@ -102,7 +102,7 @@ The construction proceeds as follows (using modern terminology). Given a pointed
 
 * Form the $\infty$-connected cover of $X_n$, i.e. the [[path fibration]] $P X_n$. This is a [[Hurewicz fibration]].
 
-* Pull this back to $X$, to get $p:X\langle n\rangle \to X$, which is still a fibration. The induced maps on long exact sequences in homotopy can be compared, and show that $p$ has the desired properties. 
+* Pull this back to $X$, to get $p\colon X\langle n\rangle \to X$, which is still a fibration. The induced maps on long exact sequences in homotopy can be compared, and show that $p$ has the desired properties. 
 
 This gives us a single $n$-connected cover, but by considering the [[Postnikov tower]]
 $$
@@ -110,15 +110,17 @@ X \to (\ldots \to X_n \to X_{n-1} \to \ldots \to X_1 \to X_0)
 $$
 of $X$, where each map $X \to X_n$ is the inclusion of a closed subspace, it is simple to see there are induced maps $X\langle n\rangle \to X\langle n-1\rangle$ over $X$ for all $n$.
 
-One way of obtaining a Postnikov section as above is to choose representatives $\phi_g:S^{n+1} \to X$ of generators $g$ of $\pi_{n+1}(X,x)$ and attaching cells: $X(1) := B^{n+2} \cup_{\{\phi_g\}} X$. We then choose representatives for the generators of $\pi_{n+2}(X(1),x)$ and attach cells and so on. The colimit $\lim_{\to n} X(n)$ is then a Postnikov section with the properties we require.
+One way of obtaining a Postnikov section as above is to choose representatives $\phi_g\colon S^{n+1} \to X$ of generators $g$ of $\pi_{n+1}(X,x)$ and attaching cells: $X(1)\coloneqq B^{n+2} \cup_{\{\phi_g\}} X$. We then choose representatives for the generators of $\pi_{n+2}(X(1),x)$ and attach cells and so on. The colimit $\lim_{\to n} X(n)$ is then a Postnikov section with the properties we require.
 
 Understandably, this process is unbelievably non-canonical, and so we are generally reduced to existence theorems using this method -- unless there is a functorial way to construct Postnikov sections. Strictly speaking we can only say _an_ $n$-connected cover (except in special cases, like when $n=1$ and $X$ is a [[well-connected space]]).
+
 
 ### Functorial constructions 
 
 The $n$th stage of the Whitehead tower of $X$ is the [[homotopy fiber]] of the map from $X$ to the $n$th (or so) stage of its [[Postnikov tower]], so one can use a functorial construction of the Postnikov tower plus a functorial construction of the homotopy fiber (such as the usual one using the [[path object|path space]] of the target).
 
 The $n$th stage of the Whitehead tower of $X$ is also the cofibrant replacement for $X$ in the right [[Bousfield localization]] of [[Top]] with respect to the object $S^n$ (or so). Since [[Top]] is right proper and cellular this localization exists by the result of chapter 5 of Hirschhorn's book on [[localization]]s of [[model category|model categories]]. 
+
 
 ## Examples 
 
@@ -260,6 +262,7 @@ A good notion of geometric [[homotopy groups in an (∞,1)-topos]] exist in a [[
 
 * [[Whitehead tower in an (∞,1)-topos]].
 
+
 ## References 
 
 The original reference is 
@@ -276,5 +279,5 @@ A more detailed useful discussion happens to be in section 2.A, starting on p. 1
 * [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_ Memoirs of the American Mathematical Society number 752 ([web](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false)) also ([arXiv] (http://arxiv.org/abs/math/0109133))
 
 
+[[!redirects Whitehead tower]]
 [[!redirects Whitehead towers]]
- 
