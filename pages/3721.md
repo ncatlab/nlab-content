@@ -6,7 +6,9 @@ In [[locale]] theory, every open $U$ in the locale defines an open subspace whic
 $$ j_{U}\colon V \mapsto U \Rightarrow V .$$
 The idea is that this subspace is the part of $X$ which involves only $U$, and we may identify $V$ with $U \Rightarrow V$ when we are looking only at $U$.
 
-(There is a lot more to say, about convergence spaces, smooth spaces, etc.)
+The __interior__ of any subspace $A$ is the largest open subspace contained in $A$, that is the [[union]] of all open subspaces of $A$.  The interior of $A$ is variously denoted $Int(A)$, $Int_X(A)$, $A^\circ$, $\overset{\circ}A$, etc.
+
+(There is a lot more to say, about [[convergence spaces]], [[smooth spaces]], [[schemes]], etc.)
 
 
 [[!redirects open subspace]]
@@ -15,6 +17,9 @@ The idea is that this subspace is the part of $X$ which involves only $U$, and w
 [[!redirects open subsets]]
 [[!redirects open set]]
 [[!redirects open sets]]
+
+[[!redirects topological interior]]
+[[!redirects topological interiors]]
 
 [[!redirects open sublocale]]
 [[!redirects open sublocales]]
