@@ -1,4 +1,8 @@
 
+> There are two different concepts called _Weil algebra_ . This entry is about the notion of Weil algebra in [[Lie theory]]. For the other notion see [[infinitesimally thickened point]].
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
