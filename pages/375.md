@@ -153,7 +153,7 @@ Let $a$ and $b$ be objects of $C[c]$. Claim: the product $a \times b$ in $C$, co
 
 $$\array{
 \underline{z \to a \qquad z \to b} & C[c] \\
-\underline{c \times z \to a, c \times x \to b} & C \\
+\underline{c \times z \to a, c \times z \to b} & C \\
 \underline{c \times z \to a \times b} & C \\
 z \to a \times b & C[c] 
 }$$ 
