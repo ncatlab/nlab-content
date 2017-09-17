@@ -43,6 +43,12 @@
 
   * [[U-duality]]
 
+  * [[open/closed string duality]]
+
+    * [[AdS/CFT correspondence]], [[holographic principle]]
+
+    * [[KLT relations]]
+
 * [[11-dimensional supergravity]], [[M-theory]]
 
   * [[Hořava-Witten theory]]
