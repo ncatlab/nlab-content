@@ -456,6 +456,7 @@ Euler characteristics of groups:
 
 * [[Kenneth Brown]], _Euler characteristics, in Cohomology of Groups_ , Graduate Texts in Mathematics 182, Springer, 1982, pp. 230-272. 
 
+* O. Y. Viro, _Some integral calculus based on Euler characteristic_, in Topology and Geometry -- Rohlin Seminar, Springer Lec. Notes in Math. __1346__, 127--138 (1988) [doi](http://dx.doi.org/10.1007/BFb0082775)
 
 Complex cardinalities:
 
