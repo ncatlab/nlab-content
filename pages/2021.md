@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -13,7 +13,16 @@ Coherent modules behave well over noetherian rings.
 
 A geometric globalization of a notion of coherent module is a notion of a [[coherent sheaf]] of $\mathcal{O}$-modules for a ringed space $(X,\mathcal{O})$.   
 
+## Related concepts
 
-##References##
+* [[quasicoherent module]]
+
+
+## References
+
+* [[James Milne]], section 6 of _[[Lectures on Étale Cohomology]]_
 
 * B. Kaup, _Coherent D-modules_, pp. 109--270 in "Algebraic D-modules", A. Borel ed., Academic Press.
+
+[[!redirects sheaf of coherent modules]]
+[[!redirects sheafs of coherent modules]]
