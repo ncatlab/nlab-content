@@ -1,0 +1,18 @@
+
+**[[philosophy]]**
+
+### Of logic
+
+[[Science of Logic]]
+
+* [[being]], [[becoming]]
+
+### Of mathematics
+
+(...)
+
+### Of physics
+
+(...)
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/philosophy+-+contents)</div>
