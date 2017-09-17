@@ -1,6 +1,6 @@
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Definition
@@ -28,7 +28,8 @@ $$
   \,.
 $$
 
-If this power series converges to $f$, then we say that $f$ is _[[analytic function|analytic]]_.
+If this power series [[convergence|converges]] to $f$, then we say that $f$ is _[[analytic function|analytic]]_.
 
 
 [[!redirects power series]]
+[[!redirects formal power series]]
