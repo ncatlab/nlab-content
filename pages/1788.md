@@ -26,6 +26,11 @@ $$
 
 (of symbols, that it).
 
+### [Quasi, Meta]Categories
+
+CAT is the [quasi, meta]category whose objects are all 
+categories and whose morphisms are all functors between those
+categories.
 
 ### Numbered lists
 
