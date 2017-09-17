@@ -1,0 +1,14 @@
+The Brouwer-Heyting-Kolmogorov interpretation of [[intuitionistic logic]] is a description of proofs of formulas in intuitionistic logic as functions, often computable functions, where it is also called the realizability interpretation. 
+
+## References 
+
+* [Wikipedia article](http://en.wikipedia.org/wiki/BHK_interpretation) 
+
+* J.-Y. Girard, Proofs and Types 
+
+* A. Troelstra, History of Constructivism in the Twentieth Century (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf))
+
+[[!redirects BHK interpretation]] 
+[[!redirects Brouwer Heyting Kolmogorov interpretation]] 
+[[!redirects realizability interpretation]] 
+[[!redirects realisability interpretation]] 
