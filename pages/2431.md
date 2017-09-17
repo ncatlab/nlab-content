@@ -40,6 +40,7 @@ Brown representability theorem: A contravariant functor $F:CW^{op}_*\to Set_*$ f
 ## Details
 
 ### Version for ordinary (model) categories 
+ {VersionForModelCategories}
 
 +-- {: .un_theorem}
 ###### Theorem (Jardine)
@@ -103,6 +104,7 @@ Notice that
 
 
 ### Version for simplicially enriched (model) categories
+ {#VersionForSimplicialModelCategories}
 
 (...)
 
