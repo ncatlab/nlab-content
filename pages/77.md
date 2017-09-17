@@ -146,7 +146,10 @@ Notions of Lie algebras with extra [[stuff, structure, property]] includes
 
 ## References
 
-For instance chapter IV in vol III of 
+* [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes 2010 ([pdf](http://www.math.toronto.edu/mein/teaching/lie.pdf))
+
+Discussion with a view towards [[Chern-Weil theory]] is in 
+chapter IV in vol III of 
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
