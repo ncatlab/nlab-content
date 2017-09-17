@@ -30,10 +30,25 @@ This quasitriangular structure in some infinite-dimensional versions of the cons
 
 ## Properties
 
-### Category of modules
+### Relation to Yetter-Drinfeld modules
 
-The [[category of modules]] over a quantum double of a Hopf algebra $H$ is equivalent to the category of [[Yetter-Drinfeld modules]] of $H$, and also equivalent to the [[center]] of the monoidal category of the usual $H$-modules. In the case of an orbifold the Yetter-Drinfeld modules correspond to certain equivariant sheaves under a conjugation action.  ([Hinich 05](#Hinich))
 
+The [[category of modules]] over a quantum double of a Hopf algebra $H$ is equivalent to the category of [[Yetter-Drinfeld modules]] of $H$-
+
+### Relation to Drinfeld center
+
+For $H$ a [[Hopf algebra]] arising as the [[groupoid convolution algebra]] of a finite [[groupoid]], the [[category of modules]] of its Drinfeld double is equivalently the [[Drinfeld center]] of the category of modules of the original algebra.
+
+More generally, the analog of this statement holds for [[orbifolds]] ([Hinich 05](#Hinich)).
+
+[[!include structure on algebras and their module categories - table]]
+
+
+## Related concepts
+
+* [[inertia orbifold]]
+
+* [[Drinfeld center]]
 
 ## References
 
@@ -75,7 +90,7 @@ A characterization of the (quasi-)Hopf algebras arising this way is in
 
 * Sonia Natale, _On group theoretical Hopf algebras and exact factorization of finite groups_ ([arXiv:math/0208054](http://arxiv.org/abs/math/0208054))
 
-See also
+The equivalence of modules over the Drinfeld double for the case of [[orbifolds]], hence representations of the [[inertia orbifold]], with the [[Drinfeld center]] of the category of representations of the original orbifold is discussed in
 
 * [[Vladimir Hinich]], _Drinfeld double for orbifolds_, [math.QA/0511476](http://arxiv.org/abs/math/0511476)
  {#Hinich}
