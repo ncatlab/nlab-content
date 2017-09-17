@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
 
 ## Idea
 
-The _unitalization of a  non-unital [[algebra]] is a unital algebra with a unit [[free construction|freely]] adjoined.
+The _unitalization of a  non-unital [[algebra]] is a unital algebra with a "unit" (an [[identity]] element) [[free construction|freely]] adjoined.
 
 
 ## Definition
@@ -26,6 +37,13 @@ We often write $(a, r)$ as $a + r$ or $a \oplus r$, which makes the above formul
 
 If $A$ is an [[associative algebra]], then $A^+$ will also be associative; if $A$ is a [[commutative algebra]], then $A^+$ will also be commutative.
 
+### For other (special) cases
+
+See 
+
+* _[[unitisation of rings]]_;
+
+* _[[unitisation of C*-algebras]]_.
 
 ## Related concepts
 
@@ -34,8 +52,14 @@ If $A$ is an [[associative algebra]], then $A^+$ will also be associative; if $A
 * [[unitality]]
 
 
+
 [[!redirects unitalization]]
 [[!redirects unitalizations]]
 [[!redirects unitalisation]]
 [[!redirects unitalisations]]
+
 [[!redirects unitization]]
+[[!redirects unitizations]]
+
+[[!redirects unitisation]]
+[[!redirects unitisations]]
