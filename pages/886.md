@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Relations
++-- {: .hide}
+[[!include relations - contents]]
+=--
+=--
+=--
+
+
+
 A (binary) [[relation]] $\sim$ on a set $A$ is __total__ if any two elements that are related in one order or the other:
 $$\forall (x, y: A),\; x \sim y \;\vee\; y \sim x$$
 
