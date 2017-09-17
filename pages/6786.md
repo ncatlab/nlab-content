@@ -27,7 +27,7 @@ In fact, an analogous factorization system exists in any regular 2-category and 
 
 * The factorization of a functor in this factorization system is the construction of its [[full image]].
 
-* More on this for the case of functors between [[groipoids]] is at _[infinity-image --  Of Functors between groupoids](infinity-image#NImagesOf1FunctorsBetweenGroupoids)_.
+* More on this for the case of functors between [[groupoids]] is at _[infinity-image --  Of Functors between groupoids](infinity-image#NImagesOf1FunctorsBetweenGroupoids)_.
 
 
 ## Related concepts
@@ -36,6 +36,8 @@ In fact, an analogous factorization system exists in any regular 2-category and 
 
 * **(eso, fully faithful)-factorization system**
 * [[(eso+full, faithful) factorization system]]
+
+* [[ternary factorization system]]
 
 [[!redirects essentially surjective/fully faithful factorization system]]
 [[!redirects essentially surjective-fully faithful factorization system]]
