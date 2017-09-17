@@ -60,6 +60,8 @@ For instance all in the standard [[model structure on simplicial sets]], or the 
 
 
 [[!redirects geometric definition of higher categories]]
+[[!redirects geometric definitions of higher categories]]
+
 [[!redirects geometric definition of higher category]]
 [[!redirects geometric model of higher categories]]
 [[!redirects geometric model of higher category]]
