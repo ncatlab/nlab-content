@@ -250,6 +250,7 @@ In ([Dolgushev 1109, theorem 6.2](#Dolgushev1109), [Dolgushev 1111, theorem 3.1]
 
 Aspects of the generalization of this statement to more general spaces then $\mathbb{R}^n$ are discussed in [Dolgushev-Rogers-Willwacher 12](#DolgushevRogersWillwacher12).
 
+For discussion of [[motive|motivic structures]] in [[geometric quantization]] see at _[[motivic quantization]]_.
 
 ## Examples
 
