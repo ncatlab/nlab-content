@@ -1,0 +1,34 @@
+[[!redirects spectra with G-action]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $G$ a [[topological group]], a _spectrum with $G$-action_ is a [[spectrum object]] in the [[category]] of [[topological G-spaces]] ([e.g. Carlsson 92, def. 3.1](#Carlsson92)). The [[stable homotopy theory]] of spectra with $G$-action is part of the subject of [[equivariant stable homotopy theory]]. But there one typically considers a richer concept of _[[G-spectra]]_.
+
+## Properties
+
+### Relation to $G$-spectra
+
+(e.g. [Carlsson 92, p. 14](#Carlsson92))
+
+## References
+
+* {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
+
