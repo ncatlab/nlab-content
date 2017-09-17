@@ -2,8 +2,12 @@
 [[!include category theory - contents]]
 </div>
 
+# Sets
 
 The concept of _set_ appears in several different guises in [[mathematics]], and particularly in [[category theory]].
+
+* table of contents
+{: toc}
 
 
 ## What should a set be?
@@ -32,4 +36,5 @@ That a set is [[small category|small]] allows there to be a collection of 'all' 
 That a set is [[skeletal category|skeletal]] is arguably the least important requirement; in fact, it is [[evil]] in a technical sense.  A category that is merely small and discrete may be called a _[[setoid]]_ instead.  However, if you forbid yourself from referring to [[equality]] of elements of the setoid (which are the objects of the small discrete category), then you cannot distinguish the setoid from a set; each is merely a (small) collection of elements with an equivalence relation (called 'equivalence' in the setoid and 'equality' in the set, in both cases corresponding to isomorphism in a small discrete category).  While size issues are real and cannot be ignored completely, it is possible to adopt foundations (either [[type theory|type-theoretic]] or $\infty$-[[infinity-groupoid|groupoid-theoretic]]) in which this issue does not appear.
 
 
+[[!redirects set]]
 [[!redirects sets]]
