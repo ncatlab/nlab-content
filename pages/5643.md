@@ -166,4 +166,8 @@ See the references at [[super ∞-groupoid]].
 
 [[!redirects smooth super ∞-groupoid]]
 
+[[!redirects smooth super infinity-groupoids]]
+[[!redirects smooth super ∞-groupoids]]
+
 [[!redirects SuperSmooth∞Grpd]]
+[[!redirects SmoothSuper∞Grpd]]
