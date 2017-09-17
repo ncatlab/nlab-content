@@ -150,7 +150,7 @@ On the right, the objects are morphism $X \to \hat B$ equipped with equivalences
 
 ### Twisted cohomology with trivial twisting cocycle
 
-Let  ${*} \to B$ is a [[pointed object]]. Then
+Let  ${*} \to B$ be a [[pointed object]]. Then
 
 * we say that the [[cocycle]] 
 
@@ -450,7 +450,7 @@ Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-tw
 
 * [[relative cohomology]]
 
-* . <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
+* <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#TwistedCohomology">twisted cohomology</a> in [[cohesive (∞,1)-topos -- structures]]
 
 ## References 
 
