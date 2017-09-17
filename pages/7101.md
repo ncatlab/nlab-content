@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $G$ a [[topological group]] there is a notion of $G$-[[principal bundles]] $P \to X$ over any [[topological space]] $X$. Under [[continuous maps]] $f : Y \to Y$ there is a notion of [[pullback]] of principal bundles $f^* : G Bund(Y) \to G Bund(X)$.
+
+A **universal $G$-principal bundle** is a $G$-principal bundle -- then denoted $E G \to B G$ -- is a $G$-principal bundle such that for every [[CW-complex]] $X$ the map
+
+$$
+  [X, B G] \to G Bund(X)/_\sim
+$$
+
+from [[homotopy]] classes of [[continuous functions]] $X \to B G$ given by $[f] \mapsto f^* E G$, is an [[isomorphism]].
+
+In this case one calls $B G$ a [[classifying space]] for $G$-principal bundles.
+
+The universal principal bundle is characterized, up to equivalence, by its total space $E G$ being [[contractible]].
+
+## Related concepts
+
+* [[classifying space]]
+
+* [[universal principal infinity-bundle]].
+
+## References
+
+A review is for instance in
+
+* Stephen Mitchell, _Universal principal bundles and classifying spaces_ ([pdf](http://www-math.mit.edu/~mbehrens/18.906/prin.pdf))
+
+[[!redirects universal principal bundles]]
