@@ -167,7 +167,7 @@ One can of course state the other two characterizations of "$T$-local space" fro
 
 ## Properties
 
-### Relation to completion
+### Relation to formal completion
  {#RelationToCompletion}
 
 +-- {: .num_remark #RelationToCompletion}
@@ -195,10 +195,10 @@ In terms of [[arithmetic geometry]] this may be understood as follows:
 
 1. $\mathbb{Z}_p$ is the functions on the [[formal neighbourhood]] of $(p)$.
 
-1. $\mathbb{Z}_{(p)}$ is the ring of functions defined _not_ on any point $(p^\prime)$ with $p^\prime \neq p$, hence on the complement of the complement of $(p)$;
+1. $\mathbb{Z}_{(p)}$ is the ring of functions defined on the open complement of the complement of $(p)$, hence on an [[open neighbourhood]].
 
 
-So...
+So the localization at the EM-spectrum of one of these rings localizes to the formal neighbourhood of their support. For $\mathbb{F}_p$ the support is the closed point, and so the localization there is infinitesimally bigger than that, as given by the $p$-adic completion. On the other hand the support of $\mathbb{Z}_{(p)}$ is open and hence contains its own formal neighbourhood, so localizing here just gives the plain localization.
 
 =--
 
