@@ -77,14 +77,26 @@ In other words, universal $G$-equivariant elliptic cohomology (meaning: we vary 
 
 But observe that actually it is a bit more: a [[modular functor]] assigns just an abstract vector space to a surface, which however is meant to be obtained by the process of [[quantization]] of [[3d Chern-Simons theory]], explicitly as the space of holomorphic sections of the [[prequantum line bundle]] (over [[phase space]], which here is the [[moduli space of flat connections]] $M_G$ on the given elliptic curve). Equivariant elliptic cohomology/tmf actually remembers this [[quantization]] process and not just the resulting [[space of quantum states]] in that it actually assigns to an [[elliptic curve]] $C$ and suitable [[Lie group]] $G$ that [[prequantum line bundle]] over the [[moduli space of elliptic curves]] (or equivalently its [[sheaf]] of sections). Notice that this [[local prequantum field theory|pre-quantum]] information is criucial for deep aspects in the context of [[3d Chern-Simons theory]] and the 2d [[Wess-Zumino-Witten model]]: the [[holographic principle|holographic relation]] that identifies the latter as the [[boundary field theory]] of the former (explicitly so by the [[FRS-theorem on rational 2d CFT]]) needs as input not just the quantized Chern-Simons [[3d TQFT]], which will assign an "abstract" vector space to a surface, but needs to know how this space arose via [[quantization]] by choosing [[polarizations]] in the form of [[conformal structures]] on the elliptic curves, such as to be actually identified with a space of [[conformal blocks]]. (In the context of the [[Reshetikhin-Turaev construction]] of the Chern-Simons [[3d TQFT]] this information is in a choice of [[equivalence of categories|equivalence]] of the given [[modular tensor category]] with the [[category of representations]] of a rational [[vertex operator algebra]]).
 
-In summary we have as a slogan that: _$G$-Equivariant $tmf$ over the point is essentially an incarnation of the [[local prequantum field theory|pre-quantum]] [[modular functor]]_ of [[3d Chern-Simons theory|3d G-Chern-Simons theory]] over [[genus of a surface|genus]]-1 surfaces/[[elliptic curves]]_ , together with the [[quantization]]-process of that to the actual [[modular functor]]_ .
+In summary we have as a **slogan** that: 
+
+* _$G$-Equivariant $tmf$ over the point is essentially an incarnation of the [[local prequantum field theory|pre-quantum]] [[modular functor]]_ of [[3d Chern-Simons theory|3d G-Chern-Simons theory]] over [[genus of a surface|genus]]-1 surfaces/[[elliptic curves]]_ , together with the [[quantization]]-process of that to the actual [[modular functor]]_ .
 
 
-By the above reasoning via ([Ando 07](#Ando07)) and using the [[AdS3-CFT2 and CS-WZW correspondence|3dCS/2dWZW holographic correspondence]] we also have the interpretation of $G$-equivariant tmf (universal $G$-equivariant elliptic cohomology) over a more general space $X$: the space of [[conformal blocks]] of a bundle of [[parameterized WZW models]] over $X$, regarded pointwise as the gauge coupling part of the twisted [[Witten genus]].
+Moreover, by the above reasoning via ([Ando 07](#Ando07)) and using the [[AdS3-CFT2 and CS-WZW correspondence|3dCS/2dWZW holographic correspondence]] we also have the interpretation of $G$-equivariant tmf (universal $G$-equivariant elliptic cohomology) over a more general space $X$: the space of [[conformal blocks]] of a bundle of [[parameterized WZW models]] over $X$, regarded pointwise as the gauge coupling part of the twisted [[Witten genus]].
 
 Here all the statements on the QFT/string theory side involve a parameter called the "level", which is the [[characteristic class]] of the [[universal Chern-Simons circle 3-bundle]] that is the [[prequantum n-bundle|prequantum 3-bundle]] governing the [[3d Chern-Simons theory]] (whose [[transgression]] to the [[moduli space of flat connections]] is the "theta"-[[prequantum line bundle]] there). On the cohomological side this corresponds to a [[twisted cohomology|twist]] of the cohomology theory.
 
-> A formal systematic discussion of this story in [[schreiber:Quantization via Linear homotopy types|cohomological quantization]] is going to be in ([Nuiten-S.](#NS)). It essentially amounts to the discussion of diagram ([0.0.4 b)](#ESI14)).
+Now with equivariant $tmf$ identified with the [[quantization of Chern-Simons theory]] in [[dimension]] 2 this way (the [[modular functor]] together with its pre-quantum origin via [[geometric quantization]]), the physical desireability of [[local quantum field theory]] ("[[extended TQFT]]") suggests to ask for a refinement of this also to dimensions 1 and 0, such that the higher dimensional data arises by "tracing"/[[transgression]]. There is such a [[local prequantum field theory]] refinement of 3d Chern-Simons theory, governed in dimension 0 by the [[universal Chern-Simons circle 3-bundle]] regarded as a [[prequantum n-bundle|prequantum 3-bundle]]. Indeed, the [[transgression]] of that to the [[moduli space of flat connections]] is precisely the [[prequantum bundle]] over $M_G$ that appears in the above discussion (e.g. [[schreiber:Extended higher cup-product Chern-Simons theories|FSS 12]], [[schreiber:A higher stacky perspective on Chern-Simons theory|FSS 13]]).
+
+Now that [[universal Chern-Simons circle 3-bundle]] in turn is modulated by the geometric refinement of the universal [[second Chern class]]/[[first fractional Pontryagin class]] given by a map of [[smooth infinity-stacks]] of the form $\mathbf{B}G \to \mathbf{B}^3 U(1)$. This exhibits a homomorphism of [[smooth infinity-group]] $G \to \mathbf{B}^2 U(1)$ (to the [[circle n-group|circle 3-group]]) and so one might wonder if there is a way to "globalize" the equivariance of equivariant elliptic cohomology (in the sense of "[[global equivariant homotopy theory]]") such that it may be evaluated also on [[n-group|3-groups]] such as $\mathbf{B}^2 U(1)$ and such that the homomorphism above then _induces_ the previous 1-equivariant data by transgression.
+
+Such a "localization" of equivariant elliptic cohomology seems to be just what is being vaguely hinted at in ([Lurie, section 5.1](#Lurie)) under the name "[2-equivariant elliptic cohomology](#2EquivariantEllipticCohomology)", we discuss this in more detail [below](#2EquivariantEllipticCohomology). 
+
+Hence we arrive at a refinement of the above **slogan**: 
+
+* _2-Equivariant $tmf$ over the point should be [[3d Chern-Simons theory]] in dimension 2 (hence the [[modular functor]]) [[extended TQFT|localized]] to dimensions 1 and 0 as a [[local prequantum field theory]] and including its [[higher geometric quantization]] in these dimensions 0,1, and 2_. 
+
+> A formal systematic discussion of this story in [[schreiber:Quantization via Linear homotopy types|cohomological quantization]] is going to be in ([Nuiten-S.](#NS)). It essentially amounts to the discussion of diagram ([0.0.4 b)](#ESI14).
 
 
 
@@ -306,6 +318,7 @@ $$
   \mathbf{B}[E, \mathbb{G}_m]
   \,.
 $$
+
 
 Then since $\mathbb{C}^\times = \mathbb{G}_m$ is the [[multiplicative group]] in this context, we have now (and there is a subtlety here...) that maps 
 
