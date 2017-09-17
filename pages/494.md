@@ -7,6 +7,7 @@
 {:toc}
 
 
+
 ## Definition 
 
 We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformations]] $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
@@ -21,7 +22,7 @@ We say that $L$ is the __[[left adjoint]]__ of $R$ and that $R$ is the __[[right
 In the case of [[Cat]], there are a number of equivalent characterizations of an adjunction, some of which are given below.
 
 
-## Definition in terms of Hom isomorphism
+### In terms of Hom isomorphism
 
 An adjunction $L\dashv R$ is equivalently given by a [[natural transformation|natural isomorphism]] of [[hom-functors]] $C^{op} \times D \to Set$
 
@@ -41,7 +42,7 @@ naturally in $c$ and $d$.  This isomorphism is the **adjunction isomorphism** an
 Given such an adjunction isomorphism, $\eta$ and $\epsilon$ can be recovered as the adjuncts of identity morphisms.  The [[Yoneda lemma]] ensures that the entire adjunction isomorphism can be recovered from them by composition: the adjunct of $f:L(c)\to d$ is $R(f) \eta$, and the adjunct of $g:c \to R(d)$ is $\epsilon L(g)$.  The triangle identities are precisely what is necessary to ensure that this _is_ an isomorphism.
 
 
-## Definition in terms of representable functors
+### In terms of representable functors
 
 A functor $L:C\to D$ has a right adjoint if and only if for all $d$, the [[presheaf]] $Hom_D(L(-),d):D^{op}\to Set$ is [[representable functor|representable]], i.e. there exists an object $R(d)$ and a natural isomorphism
 $$Hom_D(L(-),d) \cong Hom_C(-,R(d)).$$
@@ -69,7 +70,7 @@ $$
   \,.
 $$
 
-### Local definition 
+#### Local definition 
 
 This definition has the advantage that it yields useful information even if the adjoint functor $R$ does not exist globally, i.e. as a functor on all of $D$:
 
@@ -87,18 +88,70 @@ This _global_ versus _local_ evaluation of adjoint functors induces the global/l
 
 as discussed there.
 
-## Definition in terms of universal arrows 
 
-Given $R:D\to C$, and $c\in C$, a _universal arrow_ from $c$ to $R$ is an initial object of the [[comma category]] $(c/R)$.  That is, it consists of an object $L(c)\in D$ and an arrow $\eta:c\to R(L(c))$ such that for any $d\in D$, any arrow $g:c\to R(d)$ factors as $R(f) \eta$ for a unique $f:L(c)\to d$.  In particular, we have a bijection
-$$Hom_C(c,R(d)) \cong Hom_D(L(c),d)$$
-which it is easy to see is natural in $d$.  Again, in this case there is a unique way to make $L$ into a functor so that this isomorphism is natural in $c$ as well.
+### In terms of universal arrows / universal factorization through unit and counit {#UniversalArrows}
+
+Given $R : D\to C$, and $c\in C$, a _universal arrow_ from $c$ to $R$ is an [[initial object]] of the [[comma category]] $(c/R)$.  That is, it consists of an object $L(c)\in D$ and a morphism $i_c : :c\to R(L(c))$ -- the unit -- such that for any $d\in D$, any morphism $f : c\to R(d)$ factors through the unit $i_c$ as 
+
+$$
+  f : c \stackrel{i_c}{\to} R L c \stackrel{R(\tilde f)}{\to} R d
+$$ 
+
+for a unique $\tilde f:L(c)\to d$ -- the [[adjunct]] of $f$.  
+
+In particular, we have a bijection
+
+$$
+  Hom_C(c,R(d)) \cong Hom_D(L(c),d)
+$$
+
+which it is easy to see is [[natural isomorphism|natural]] in $d$.  Again, in this case there is a unique way to make $L$ into a functor so that this isomorphism is natural in $c$ as well.
 
 Note that this definition is simply obtained by applying the [[Yoneda lemma]] to the definition in terms of representable functors.
 
 
-## Definition in terms of correspondences 
+To derive this characterization starting with a natural hom-isomorphism $Hom_{C}(L(-),-) \stackrel{\simeq}{\to} Hom_D(-,R(-))$ let $\tilde f : L c \to d$ be the image of $f : c \to R d$ under the bijection $Hom_C(c, R d) \stackrel{\simeq}{\to} Hom_D(L c, d)$ and consider the naturality square
 
-Every [[distributor]]
+$$
+  \array{
+    c , L c &&&& Hom_D(L c, L c) &\stackrel{\simeq}{\to}& Hom_C(c, R L c)
+    \\
+    \uparrow^{\mathrlap{Id}}, \downarrow^\mathrlap{\tilde f} 
+    &&&&
+    \downarrow && \downarrow^{\mathrlap{R (\tilde f)\circ(-) }}
+    \\
+    c, d
+    &&&&
+    Hom_D(L c, d) &\stackrel{\simeq}{\to}& Hom_C(c, R d)
+  }
+  \,.
+$$
+
+Let also the unit $i_c : c \to R L c$ be the image of the [[identity]] $Id_{L c}$ under the hom-isomorphism and chase this identity through the commuting diagram to obtain
+
+$$
+  \array{
+    (L c \stackrel{Id_{L c}}{\to} L c) &\mapsto& 
+     (c \stackrel{i_x}{\to} R L c)
+    \\
+    \downarrow && \downarrow
+    \\
+    (L c \stackrel{\tilde f}{\to} d) &\mapsto& 
+    (f : c \stackrel{i_c}{\to} R L c \stackrel{R \tilde f}{\to} R d) 
+  }
+  \,.
+$$
+
+**Example** This definition in terms of universal factorizations through the unit and counit is of particular interest in the case that $R$ is a [[full and faithful functor]] exhibiting $D$ as a [[reflective subcategory]] of $C$. In this case we may think of $L$ as a [[localization]] and of objects in the essental image of $R$ as **local objects**. Then the above says that:
+
+* every morphism $c \to R d$ from $c$ into a local object factors throught the localization of  $c$.
+
+
+
+
+### In terms of cographs/correspondences 
+
+Every [[profunctor]]
 
 $$
   k : C^{op} \times D \to S
@@ -131,25 +184,25 @@ $$
   \,.
 $$
 
-Now, every functor $L : C \to D$ induces a [[distributor]]
+Now, every functor $L : C \to D$ induces a [[profunctor]]
 
 $$
   k_f(X,Y) = Hom_D(f(X), Y)
 $$
 
-and every functor $R : D \to C$ induces a [[distributor]]
+and every functor $R : D \to C$ induces a [[profunctor]]
 
 $$
   k_g(X,Y) = Hom_C(X, R(Y))
   \,.
 $$
 
-The functors $L$ and $R$ are adjoint precisely if the [[distributors]] that they define in the above way are equal. This in turn is the case if
+The functors $L$ and $R$ are adjoint precisely if the [[profunctors]] that they define in the above way are equal. This in turn is the case if
 $C \star^L D \simeq (D^{op} \star^{R^{op}} C^{op})^{op}$.
 
 We say that $C \star^k D$ is the [[cograph of a functor|cograph of the functor]] $k$. See there for more on this.
 
-## Definition for $(\infty,1)$-functors 
+### For $(\infty,1)$-functors 
 
 
 The above characterization of adjoint functors in terms of categories over the interval is used in section 5.2.2 of
@@ -183,12 +236,11 @@ For more on this see
 * [[adjoint (∞,1)-functor]].
 
 
-## Examples
-
-* see [[examples of adjoint functors]].
 
 
 ## Properties
+
+
 
 Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
@@ -206,6 +258,26 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
   * $R$ is an [[equivalence of categories|equivalence]].
 
 * $L$ [[preserved limit|preserves]] all [[colimits]] that may exist in $C$, while $R$ preserves all [[limits]] in $D$.  For a partial converse, see the [[adjoint functor theorem]].
+
+
+
+
+
+## Examples {#Examples}
+
+### Particular examples
+
+* see [[examples of adjoint functors]].
+
+### Classes of examples
+
+* A pair of adjoint functors $(L \dashv R)$ where $R$ is a [[full and faithful functor]] exhibits a [[reflective subcategory]]. 
+
+  In this case $L$ may be regarded as a [[localization]]. The fact that the adjunction provides universal factorization through unit and counit in this case means that every morphism $f : c \to R d$ into a local object factors through the localization of $c$.
+
+* A pair of adjoint functors that is also an [[equivalence of categories]] is called an [[adjoint equivalence]].
+
+* A pair of adjoint functors where $C$ and $D$ have finite [[limit]]s and $L$ preserves these finite limits is a [[geometric morphism]]. These are one kind of morphisms between [[topos]]es. If in addition $R$ is full and faithful, then this is a [[geometric embedding]].
 
 
 ## References
