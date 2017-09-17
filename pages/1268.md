@@ -6,7 +6,7 @@
 
 ### In terms of differential operators
 
-A _D-module_ is a [[abelian sheaf|sheaf]] of [[modules]] over the [[sheaf]] $D_X$ of [[regular differential operators]] on a 'variety' $X$ (the latter notion depends on whether we work over a [[scheme]], [[manifold]], analytic complex manifold etc.). As $O_X$ is a subsheaf of $D_X$ consisting of the zeroth-order differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module.  Moreover, the (quasi)coherence of $D_X$-modules implies the (quasi)coherence of a $D_X$-module regarded as an $O_X$-module (but not vice versa). 
+A _D-module_ (introduced by [[Mikio Sato]]) is a [[abelian sheaf|sheaf]] of [[modules]] over the [[sheaf]] $D_X$ of [[regular differential operators]] on a 'variety' $X$ (the latter notion depends on whether we work over a [[scheme]], [[manifold]], analytic complex manifold etc.). As $O_X$ is a subsheaf of $D_X$ consisting of the zeroth-order differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module.  Moreover, the (quasi)coherence of $D_X$-modules implies the (quasi)coherence of a $D_X$-module regarded as an $O_X$-module (but not vice versa). 
 
 ### In terms of sheaves on the deRham space
 
@@ -41,7 +41,7 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 ## References and related entries
 
-Related $n$lab entries include [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]], [[crystal]].
+Related $n$lab entries include [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]], [[crystal]], [[algebraic analysis]]. 
 
 * A. Beilinson, I. N. Bernstein, _A proof of Jantzen conjecture_, Adv. in Soviet Math. 16, Part 1 (1993), 1-50. MR95a:22022
 * S. C. Coutinho, _A primer of algebraic D-modules_, London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. xii+207 pp.
