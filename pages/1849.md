@@ -188,7 +188,7 @@ in [[∞Grpd]].
 
 (Recall from the discussion there that if desired one may pass to the canonical presentation of this by the [[model structure on simplicial presheaves]] over [[CartSp]] and that in this explicit presentation we may replace $H^4_{dR}(Y)$ with the more familiar $\Omega^4_{cl}(Y)$. )
 
-We consider now the analog of this definition for the universal curvature form on $\mathbf{B}^3 U(1)$ replaced by the difference of the differentially refined second [[Chern class]] of [[E8]] and the first fractional [[Pontryagin class]] of the [[spin group]]. The resulting $(\infty,1)$-pullback we tentatively call $C Field(Y)$.
+We consider now the analog of this definition for the universal curvature form on $\mathbf{B}^3 U(1)$ replaced by the difference of the differentially refined second [[Chern class]] of [[E8]] and the first fractional [[Pontryagin class]] of the [[spin group]]. The resulting $(\infty,1)$-pullback we tentatively call $C Field(Y)$, though we shall have to discuss to which extend this faithfully models the $C$-field, and which aspects of it.
 
 +-- {: .num_defn #AbstractDefOfCField}
 ###### Definition
@@ -273,6 +273,7 @@ The differential cocycle $\hat \chi(C)$ has all the general properties that make
 
 =--
 
+The following proposition describes the first two [[homotopy group]]s of the [[3-groupoid]] $C Field(Y)$.
 
 +-- {: .num_prop #HomotopyGroupsOfCField}
 ###### Proposition
@@ -293,7 +294,7 @@ $$
 and an [[isomorphism]]
 
 $$
-  H^0(Y, E_8) \times_{\cdots} H^2(Y, U(1)) 
+  H^0(Y, E_8) \times H^2_{dR}(Y) 
    \stackrel{\simeq}{\to} \pi_1 C Field(Y)_{P_{Spin}}
   \,.
 $$
@@ -395,26 +396,14 @@ $$
 
 $$
   \array{
-    (\Omega C Field_{\omega(\hat \chi(-)) = 0}(Y))_{P_{E_8}} 
-     &\to&
-    \Omega C Field_{\omega(\hat \chi(-)) = 0}(Y) 
-     &\to& 
-    \mathbf{H}(Y, \mathbf{\flat} \mathbf{B}^2 U(1)) &\to& {*}
-    \\
-    \downarrow && \downarrow && \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{0}} 
-    \\
-    \Omega C Field(Y)_{P_{E_8,Spin}} 
-     &\to&
     \Omega C Field(Y)_{P_{Spin}} 
      &\stackrel{\Omega \hat \chi}{\to}& 
     \mathbf{H}_{flat}(Y, \mathbf{B}^2 U(1))
      &\stackrel{\omega}{\to}&
      *
     \\
-    \downarrow && \downarrow && \downarrow
+   \downarrow && \downarrow && \downarrow
    \\
-   *
-   &\to&
    \mathbf{H}(Y, E_8)
     &\stackrel{2\Omega \mathbf{c}_2}{\to}&
    \mathbf{H}(Y, \mathbf{B}^2 U(1))
@@ -424,14 +413,42 @@ $$
   \,.
 $$
 
-Observe that $E_8$ here is a smooth but [[0-truncated]] object, so that
+Observe that $E_8$ here is a smooth but [[0-truncated]] object: so that 
 
 $$
   \mathbf{H}(Y, E_8) \simeq H^0(Y, E_8) = C^\infty(Y, E_8)
+$$
+
+is the set of smooth functions $Y \to E_8$ (to be thought of as the the set of [[gauge transformation]]s from the trivial $E_8$-[[principal bundle]] on $Y$ to itself). 
+
+This implies that the [[loop space object]] of $C Field(Y)$ is over each such function the [[homotopy fiber]] of $* \to \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^3 U(1))$ over $curv(\Omega \mathbf{c}_2)$. But each of these is equivalent to the loop space object
+
+$$
+  \Omega \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^3 U(1))
+  \simeq 
+  \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))
   \,.
 $$
 
-The map from there to $H^2(Y, U(1))$ is onot (...)
+Therefore
+
+$$
+  \Omega C Field(Y) \simeq 
+   C^\infty(Y, E_8) 
+  \times \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))
+  \,.
+$$
+
+The connected components of this are
+
+$$
+  \pi_0 \Omega C Field(Y)
+  =
+  \pi_1 C Field(Y)
+  \simeq
+  C^\infty(Y, E_8) \times H^2_{dR}(Y)
+$$
+
 
 =--
 
@@ -690,5 +707,5 @@ The state-of-the-art in the literature concerning attempts to find the correct m
 
 The discussion from the point of view of the $\infty$-Chern-Weil homomorphism is part of
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differemtial $Spin^c$-structures_
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differential $Spin^c$-structures_
  {#FiSaSc}
