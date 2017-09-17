@@ -193,11 +193,16 @@ Discussion of Berkovich09cohomology of Berkovich analytic spaces includes
 
 Discussion of local contractibility of smooth $k$-analytic spaces is in 
 
-* [[Vladimir Berkovich]], _Smooth $p$-adic analytic spaces are locally contractible_, Invent. Math. 137 1-84 (1999) ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Inven_1999_137_contra.pdf))
- {#BerkovichContractible}
+* {#BerkovichContractible} [[Vladimir Berkovich]], _Smooth $p$-adic analytic spaces are locally contractible_, Invent. Math. 137 1-84 (1999) ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Inven_1999_137_contra.pdf))
+ 
 
-* [[Vladimir Berkovich]], _Smooth p-adic analytic spaces are locally contractible. II_, in Geometric Aspects of Dwork Theory, Walter de Gruyter & Co., Berlin, (2004), 293-370. ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Dworkvol_2004_contraII.pdf))
- {#BerkovichContractibleII}
+* {#BerkovichContractibleII} [[Vladimir Berkovich]], _Smooth p-adic analytic spaces are locally contractible. II_, in Geometric Aspects of Dwork Theory, Walter de Gruyter & Co., Berlin, (2004), 293-370. ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Dworkvol_2004_contraII.pdf))
+ 
+and more generally in
+
+* {#HrushovskiLoeser10} [[Ehud Hrushovski]], [[François Loeser]], _Non-archimedean tame topology and stably dominated types_ ([arXiv:1009.0252](http://arxiv.org/abs/1009.0252))
+
+* [[Ehud Hrushovski]], [[François Loeser]], [[Bjorn Poonen]], _Berkovich spaces embed in Euclidean spaces_ ([arXiv:1210.6485](http://arxiv.org/abs/1210.6485)) 
 
 ### Relation to other topics
 
