@@ -52,3 +52,12 @@ This is the topic of section 5.4.1 of
 
 
 [[!redirects essentially small (∞,1)-category]]
+
+[[!redirects essentially small (∞,1)-categories]]
+[[!redirects essentially small (infinity,1)-categories]]
+
+[[!redirects small (∞,1)-category]]
+[[!redirects small (infinity,1)-category]]
+
+[[!redirects small (∞,1)-categories]]
+[[!redirects small (infinity,1)-categories]]
