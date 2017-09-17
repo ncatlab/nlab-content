@@ -95,8 +95,19 @@ represent the same germ if $f^\prime | A = f^{\prime\prime}|A$ for some cofinal 
 There is also a homotopy category $Ho(Proper_\infty)$
 
 +--{.query}
-The end space $e(X)$ is a Stone space so is $Max(R)$ for some Boolean algebra $R$ (Stone duality) In the 1960s someone (Gooldman?) looked at a ring, $R$, of 'almost continuous functions' from $X$ to $\mathbb{Z}/2\mathbb{Z}$, that gave the right $e(X)$.  Can this idea help integrate better the ideas of proper homotopy etc. with modern methods of algebraic geometry?
+The end space $e(X)$ is a Stone space so is $Max(R)$ for some Boolean algebra $R$ (Stone duality) In the 1960s someone (Goldman?) looked at a ring, $R$, of 'almost continuous functions' from $X$ to $\mathbb{Z}/2\mathbb{Z}$, that gave the right $e(X)$.  Can this idea help integrate better the ideas of proper homotopy etc. with modern methods of algebraic geometry?
 =--
+##Proper analogues of the fundamental group.##
+The end space behaves a bit like a $\pi_0$ and usually spaces will have many ends, so are not 'connected at infinity'.  If we try to do a fundamental group or groupoid analogue, this means life will get more complicated.  We will try with the assumption of a space having a single end for simplicity!  We will also assume $X$ is $\sigma$-compact.
+
+###First attempt###
+We could try defining $\pi_1(\varepsilon(X))$ as a progroup, then taking its limit.  For this we would take $\{K_n\}$ an exhausting increasing sequence of compact subsets and setting $U_i = X\setminus K_i$, pick a base point $x_i$ in each $U_i$, and we will get groups $\pi_1(U_i,x_i)$.  We however need induced homomorphisms $\pi_1(U_{i+1},x_{i+1})\to \pi_1(U_i,x_i)$, and for this we have to choose an arc in $U_i$ from $x_{i+1}$ to $x_i$.  We can combine these to get a _base ray_, rather than a _base point_,  that is, we need a proper map, $\alpha : [0,\infty)\to X$.  With that we do get an inverse sequence of groups, but there are problems.  What is the dependence of the inverse system on the choice of $\alpha$?
+
+ 
+
+
+
+
 ##References##
 
 Survey article:
