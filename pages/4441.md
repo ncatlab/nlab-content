@@ -17,7 +17,7 @@
 
 _Diaconescu's theorem_ asserts that any [[presheaf topos]] is the [[classifying topos]] for [[internally flat functors]] on its [[site]].
 
-Often a special case of this is considered, which assrts that for every [[topological space]] $X$ and [[discrete group]] $G$ there is an [[equivalence of categories]]
+Often a special case of this is considered, which asserts that for every [[topological space]] $X$ and [[discrete group]] $G$ there is an [[equivalence of categories]]
  
 $$
   Topos(Sh(X),[\mathbf{B}G, Set]) \simeq G Tors(X)
