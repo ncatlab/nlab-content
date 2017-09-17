@@ -5,7 +5,7 @@
 
 ## Definition
 
-A **local field** is a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] (non-discrete) [[topological space|topological]] [[field]]. 
+(This refers to the term as it arises in algebra, particularly in algebraic number theory.) A **local field** is a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] (non-discrete) [[topological space|topological]] [[field]]. 
 
 ## Properties
 
@@ -19,11 +19,27 @@ Any local field is one of the following types:
 
 * Characteristic $p \gt 1$. In this case local fields are fields of Laurent series $\mathbb{F}_q((t))$ over a finite field $\mathbb{F}_q$ of cardinality $q = p^n$; here $\|f(t)\| = q^{-n}$ where $f(t) = a_n t^n + a_{n+1}t^{n+1} + \ldots$. The valuation is nonarchimedean. 
 
-Local fields are technically useful in modern number theory; for example in formulating local-to-global principles, and in formulations of class field theory following Tate's thesis. Part of the technical convenience resides in the fact that one can effectively do Fourier analysis on them; as additive topological groups, they are self-dual locally compact abelian groups (in the sense of [[Pontryagin duality]]). 
+Local fields are technically useful in modern number theory; for example in formulating local-to-global principles, and in formulations of class field theory following Tate's thesis. Part of the technical convenience resides in the fact that one can effectively do Fourier analysis on them; as additive topological groups, they are self-dual locally compact abelian groups (in the sense of [[Pontrjagin dual|Pontryagin duality]]). 
  
 
-## Relation to local rings
+## Relation to local rings (warning)
 
-There's not much relation. One can say that the $p$-adic local fields have [[local ring]]s in them: the elements of norm 1 or less, where the maximal ideal is the set of elements of norm less than 1. 
+It is possible to misconstrue "local field" in several different ways, to wit: 
 
-In general, given a local ring $(R, m)$, it's possible to complete it by taking an inverse [[limit]] of the quotient rings $R/m^n$, and the $p$-adic local fields arise as fields of fractions of completions of localizations of rings of integers in number fields. But those local rings coming from number field are a tiny fraction of local rings in general.
+* As meaning "field of fractions of an integral domain that is a local ring". 
+
+* As meaning "field of fractions of an integral domain that arises as the completion of a local ring with respect to its canonical valuation". 
+
+The first misinterpretation is relatively easy to rule out, since it would imply that $\mathbb{Q}$ is a "local field" (being the field of fractions of the localization of $\mathbb{Z}$ with respect to any prime). 
+
+The second misinterpretation is a little more subtle; it is quite true that the _nonarchimedean_ local fields as defined above are prominent examples of such a construction (where the local ring in question is either the localization of a number field with respect to a prime ideal (characteristic zero case), or the localization of $\mathbb{F}_q[t]$ at a prime (characteristic $p \gt 1$ case)). Two points against that: 
+
+* The archimedean local fields $\mathbb{R}$, $\mathbb{C}$ do _not_ arise this way; 
+
+* Under the $m$-[[adic topology]], the completion of a local ring $R$ with maximal ideal $m$, i.e., the inverse [[limit]] of the [[diagram]] 
+$$\ldots R/m^{n+1} \stackrel{proj}{\to} R/m^n \to \ldots \to R/m$$
+is typically not compact (and its field of fractions is not locally compact). It is of course compact if each $R/m^n$ is finite with the discrete topology, and we remark that finite local rings are precisely of the form $\mathcal{O}/p^n$ where $p$ is a prime in a number field $\mathcal{O}$, or of the form $\mathbb{F}_q[t]/t^n$. (Hm, is that right?)
+
+Both points indicate that the provenance of "local" in "local field" (the terminology is due to Weil, I believe) is probably the local compactness of the topology; the fact that the nonarchimedean local fields do arise as completions with respect to discrete valuations tied to local ring structure (in the algebraic sense) can be seen as a happy coincidence between two senses of "local". (Or unhappy, depending on one's point of view!) 
+
+There is a functor from the category of nonarchimedean local fields to the category of local rings, which assigns the maximal compact subring to a local field $k$. This is a local ring $\mathcal{O}$ whose field of fractions is $k$ again. We reiterate, however, that this construction does not apply to archimedean local fields (isomorphic to $\mathbb{R}$ or $\mathbb{C}$). 
