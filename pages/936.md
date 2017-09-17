@@ -75,7 +75,11 @@ Note, though, that the coherence supplied by Vogt's lemma is not required to con
 
 Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coherent diagram]]s).
 
+## Related notions
+
+* [[weak homotopy equivalence]]
+
+* [[homotopy equivalence of toposes]].
+
 [[!redirects homotopy equivalences]]
-
-
 [[!redirects homotopy equivalent]]
