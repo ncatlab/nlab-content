@@ -37,10 +37,12 @@ With the notation as used there, the basic constructions that higher geometric q
 
 | higher [[geometric quantization]]  | [[cohesive homotopy type theory]] |[[twisted cohomology]] | 
 |--|--|--|
-| [[n-plectic ∞-groupoid]]  | $X \stackrel{\omega}{\to} \flat_{dR} \mathbf{B}^{n+1}\mathbb{G}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[de Rham cohomology]] |
-| [[prequantum circle n-bundle]] | $X \stackrel{\mathbf{c}_{conn}}{\to} \mathbf{B}^n \mathbb{G}_{conn}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[ordinary differential cohomology|differential cohomology]] |
+| [[n-plectic ∞-groupoid]]  | $X \stackrel{\omega}{\to} \Omega^{n+1}_{cl}(-,\mathbb{G})$ | [[twisted cohomology|twisting]] [[cocycle]] in [[de Rham cohomology]] |
+| [[symplectomorphism group]] | $\mathbf{Aut}_{/\Omega^{n+1}(-,\mathbb{G})}(\omega) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\omega}}\searrow && \swarrow_{\mathrlap{\omega}} \\ && \Omega^{n+1}_{cl}(-,\mathbb{G})  } \right\}$ |   |
+| [[prequantum circle n-bundle]] | $\array{ && \mathbf{B}^n \mathbb{G}_{conn} \\ & {}^{\mathllap{\mathbf{c}_{conn}}}\nearrow & \downarrow^{\mathrlap{curv}} \\ X &\stackrel{\omega}{\to}& \Omega^{n+1}(-,\mathbb{G})}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[ordinary differential cohomology|differential cohomology]] |
 | [[quantomorphism group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
-| universal [[associated ∞-bundle]] / [[local coefficient bundle]] | $\array{ V &\to& V//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
+| [[Hamiltonian]] [[quantum operator (in geometric quantization)|quantum observables]] | $Lie(\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}))$  | [[infinitesimal cohesion|infinitesimal]] twist automorphisms |
+| [[∞-representation]] of $\mathbf{B}^{n-1}\mathbb{G}$ | $\array{ V &\to& V//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow^{\mathbf{p}} \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
 |[[prequantum space of states]] | $\mathbf{\Gamma}_X(E) := [\mathbf{c},\mathbf{p}]_{/\mathbf{B}^n \mathbb{conn}} = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ && \mathbf{B}^n \mathbb{G} } \right\} $ | [[cocycles]] in $[\mathbf{c}]$-[[twisted cohomology|twisted V-cohomology]] |
 | [[prequantum operator]] | $\widehat{(-)} : \mathbf{\Gamma}_X(E) \times \mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{\Gamma}_X(E)$ | [[∞-action]] of twist automorphisms on twisted cocycles |
 
