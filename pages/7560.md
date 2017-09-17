@@ -61,6 +61,29 @@ $$
   \,.
 $$
 
+## Ordinal sum of categories
+
+In "Ordinal Sums and Equational Doctrines", Lawvere defines the **ordinal sum $A +_\sigma B$ of two categories** $A$ and $B$ as the [[pushout]]
+
+$$
+ \array{
+ A \times |2| \times B &\to& A \times 2 \times B \\
+ \downarrow & & \downarrow \\
+ A + B &\to & A +_\sigma B
+ }
+$$
+
+where $A+B$ is the [[coproduct]] of $A$ and $B$, 2 is the [[interval category]], $|2|$ is its underlying discrete category of objects, and the left vertical arrow is defined by
+
+$$
+\lang a,i,b\rang = \begin{cases}a & i = 0 \\ b & i = 1\end{cases}
+$$
+
+Concretely, $A +_\sigma B$ may be described as the category $A + B$ together with exactly one arrow $a \to b$ adjoined for every object $a \in A, b \in B$ (in other words, as the [[cograph of a profunctor|collage]] of $A$ and $B$ along the terminal profunctor).
+
+## References
+
+* [[William Lawvere]], Ordinal sums and equational doctrines. In ''Seminar on Triples and Categorical Homology Theory'', LNM 80 (1969), pp. 141-155.
 
 [[!redirects ordinal sum]]
 [[!redirects ordinal sums]]
