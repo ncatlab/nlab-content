@@ -17,5 +17,7 @@ For $A$ a [[C-star algebra]], an _odd Fredholm module_ over $A$ is a [[represent
 
 * [[KK-theory]]
 
+* [[Dirac operator]]
+
 [[!redirects Fredholm modules]]
 
