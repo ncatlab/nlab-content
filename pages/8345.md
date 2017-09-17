@@ -1,0 +1,10 @@
+(Beware there are two possible interpretations of this term. One is handled in the entry on [[profinite completion of a group]], being profinite completion of the homotopy type of a space. The entry  here treats another more purely topological concept.)
+
+##Idea
+
+The profinite completion functor (on spaces) is the left adjoint to the inclusion of the category of  [[profinite spaces]] into that of all spaces. It is particualrly useful when applied to discrete topological spaces (i.e. really sets!).
+
+##Definition:
+
+Let $X$ be a space.  A *profinite completion* of $X$ is a profinite space, $\hat{X}$, together with a continuous map, $\eta_X : X \to \hat{X}$, such that,
+if given any profinite space, $Y$, and a continuous map, $g : X \to Y$, there is a unique continuous map $\psi : \hat{X}\to Y$ with $\psi \eta_X = g$
