@@ -1,3 +1,9 @@
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+##Transition systems.##
 Transition systems are a well established semantic model for both sequential and concurrent systems.
 +--{: . un-definition}
 ##Definition##
@@ -37,11 +43,30 @@ This way we get a category, $TS$, of transition systems.
 
 =--
 
-The notions of transition system and of morphisms between them is clearly related to (low dimensional) cubical sets / labelled directed graphs, but we need to consider labelled  cubical sets.
+The notions of transition system and of morphisms between them is clearly related to (low dimensional) cubical sets / labelled directed graphs,/labelled transition systems, but we will need to consider labelled  cubical sets.
 
+
+##Labeled transition systems.##
+
+In the above, we have used the notation $L$ to stand for the set of _events_ and the set of _labels_ for those events. It is sometimes useful to make a distinction between the events themselves and their labels and to explicitly give a labelling as a function.  This is important, for instance, in treating 'relabelling' which leads to [[fibration|fibrational situations]] (see the paper by Winskel and Nielsen, cited below.) In order to make the distinction clearer, we will replace $L$ by $E$ and refer to its elements as 'events' in what follows.
+
++--{: . un-definition}
+##Definition##
+
+ A _labeled transition system_ consists of a transition 
+system $T = (S, i, E, Tran)$ together with a set $L$ of _labels_, a function $l : E \to L$.  We denote it by $(T,L,l)$.
+ 
+A _morphism_, $(\sigma, \tau , \lambda) : (T_1 , L_1 , l_1) \to (T_2 , L_2 , l_2 )$ between labeled transition 
+systems consists of a morphism $(\sigma, \tau) : T_1 \to T_2$ between the underlying transition 
+systems together with a [[partial function]] $\lambda : L_1 \to L_2$ such that $l_2 \circ \tau = \lambda \circ l_1$. 
+=--
+We 
+write $LTS$ for the category of labeled transition systems.
 
 
 ##References##
 
 
 * G. Winskel and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
+
+*   [[Eric Goubault]] and [[Samuel Mimram]], [Formal Relationships Between Geometrical and Classical Models for Concurrency](http://fr.arxiv.org/abs/1004.2818)
