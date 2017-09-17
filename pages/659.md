@@ -1,4 +1,23 @@
-#Idea#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A [[crossed module]] is a bit like a [[normal subgroup]] ... without being a [[subgroup]]. In fact if a crossed module has a boundary map which is a monomorphism then it is isomorphic to the inclusion crossed module of a normal subgroup.
 
@@ -7,7 +26,7 @@ Crossed modules model all connected [[homotopy 2-type]]s.  _Crossed squares_ mod
 (The definition that follows is that given by Guin-Valery and Loday in their paper (see references).  Another definition can be given that is just the case $n = 2$ of that of [[crossed n-cube]], for which see that entry.
  
 
-#Definition#
+## Definition
 
 A **crossed square** 
 
@@ -43,7 +62,7 @@ $$\overline{\mu} : M/\lambda L \to P/\nu N,$$
 and this is a crossed module, as is the kernal crossed module of this (horizontal) morphism.
 
  
-#Homotopical example#
+## Homotopical example
 
 The classical homotopical example $\Pi(X;A,B)$ is determined by a pointed [[triad]] $(X; A,B)$ where $A,B \subseteq X$, and $P = \pi_1(A \cap B)$, $M = \pi_2(A, A \cap B), N = \pi_2(B, A \cap B)$ and $L=\pi_3(X; A,B)$. The operations of $P$ are the standard ones and  $h$ is the generalised [[Whitehead product]]. (The conventions may be slightly different from the standard ones in homotopy theory.)  This can be generalised to a functor $\Pi$ from squares of pointed spaces to crossed squares.
 
@@ -65,7 +84,7 @@ $$\array{& M\cap N & {\to}^\lambda & M & \\
 
 with all maps the evident inclusions, all actions by conjugation, and $h : M \times N \to M\cap N$ given by $h(m,n) = [m,n]$.
 
-#Simplicial group example#
+## Simplicial group example
 
 If we replace each group in the algebraic example by a simplicial group, we would have a simplicial crossed square, now apply the connected component functor to that and you get a crossed square, and in fact any crossed square can be constructed up to isomorphism in this way.
 
@@ -82,7 +101,7 @@ T. Porter, _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (19
 which also contains the discussion of the generalisation to [[crossed n-cube|crossed n-cubes]]
 
 
-#Relation to $cat^2$-groups#
+## Relation to $cat^2$-groups
 
 A crossed module $\mu: M \to P$ determines a $cat^1$-structure on the [[semidirect product]] group $M \rtimes P$. Thus to say that the above crossed square is a _crossed module of crossed modules_ suggests that we should ask for $L \rtimes N \to M \rtimes P$ to be a crossed module, so that there is an action which allows the _big group_ $G = (L \rtimes N) \rtimes (M \rtimes P)$ to be a $cat^1$-group. Then $G$ becomes a _$cat^2$-[[cat-2-group|group]]_. The $h$-map of the crossed square derives from a commutator in $G$.
 
