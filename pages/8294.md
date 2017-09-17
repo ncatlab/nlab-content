@@ -34,13 +34,13 @@ $$
 two [[terms]] of some [[type]] $Z$ [[dependent type|dependent]] on [[variables]] $x$ of type $X$ and $y$ of type $Y$, respectively, the equation asserting that these two formulas are [[equality|equal]] is as a [[proposition]] the [[bracket type]] 
 
 $$
-\vdash [\phi(x) = \psi(y)] : Type
+ x : X, y : Y \vdash [\phi(x) = \psi(y)] : Type
 $$
 
 and as a not-neccessarily [[(-1)-truncated object|(-1)-truncated]] type just the [[identity type]]
 
 $$
-\vdash (\phi(x) = \psi(y)) : Type
+ x : X, y : Y \vdash (\phi(x) = \psi(y)) : Type
 $$
 
 itself.
