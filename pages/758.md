@@ -1,3 +1,19 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
 # $k$-tuply monoidal $(n,r)$-categories
 * table of contents
 {: toc}
@@ -35,6 +51,9 @@ A $k$-tuply monoidal $(n,n)$-category is simply a $k$-tuply monoidal $n$-categor
 
 A __stably monoidal $(n,r)$-category__, or __symmetric monoidal $(n,r)$-category__, is an $(n+2)$-tuply monoidal $(n,r)$-category. Although the general definition above won\'t give it, there is a notion of stably monoidal $(\infty,r)$-category, basically an $(\infty,r)$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way.
 
+## Related concepts
+
+* [[stabilization hypothesis]]
 
 [[!redirects k-tuply monoidal (n,r)-category]]
 [[!redirects k-tuply monoidal (n,r)-categories]]
