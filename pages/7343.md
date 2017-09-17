@@ -68,6 +68,10 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 
 * [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
 
+* [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
+ {#Moore}
+
+
 ### Lifts to M-theory
 
 Seiberg-Witten theory ([Seiberg-Witten](SeibergWitten94)) for $N=2$, $D=4$ SYM has a nice geometrical description in terms of [[M5-brane]] compactifications, discussed in 
