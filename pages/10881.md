@@ -73,7 +73,7 @@ This is originally due to [[Grothendieck]], whence the name. Refined accounts ar
 
 ### Quasicoherent sheaves in $E_\infty$-geometry
 
-Generalization of this to [[E-∞ geometry]] is in ([Lurie, prop. 2.5.12](#Lurie)).
+Generalization of the pull-push [[adjoint triple]] to [[E-∞ geometry]] is in ([LurieQC, prop. 2.5.12](#LurieQC)) and the [[projection formula]] for this is in ([LurieProp, remark 1.3.14](#LurieProper)).
 
 ## Related concepts
 
@@ -103,10 +103,14 @@ Discussion of [[integral transforms]] in Grothendieck contexts is in
 * [[Alexander Polishchuk]], _Kernel algebras and generalized Fourier-Mukai transforms_ ([arXiv:0810.1542](http://arxiv.org/abs/0810.1542))
  {#Polishchuk}
 
-Generalization to [[E-∞ geometry]] is in 
+Generalization of the pull-push [[adjoint triple]] to [[E-∞ geometry]] is in 
 
-* [[Jacob Lurie]], section 2.5 of _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
- {#Lurie}
+* {#LurieQC} [[Jacob Lurie]], section 2.5 of _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+ 
+
+and the [[projection formula]] for this triple appears as remark 1.3.14 of 
+
+* {#LurieProper} [[Jacob Lurie]], _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
 
 A clear discussion of axioms of [[six operations]], their specialization to Grothendieck context and [[Wirthmüller context]] and their consequences is in 
 
