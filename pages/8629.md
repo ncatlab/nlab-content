@@ -21,7 +21,7 @@
 
 The _coherence theorem for [[monoidal bicategories]]_, like many [[coherence theorems]], has several forms (or, alternatively, refers to several different theorems):
 
-1. Every diagram of constraint 2-cells in a free [[monoidal bicategory]] commutes.
+1. Every diagram of constraint 2-cells in a free [[monoidal bicategory]] commutes; in other words, any two parallel composites of constraint 2-cells are equal.  Moreover, any two parallel composites of constraint 1-cells are uniquely isomorphic.
 
 1. Every monoidal bicategory is equivalent to a [[Gray-monoid]].
 
