@@ -47,11 +47,11 @@ Clauses (2--4) hold of all infinite cardinals, while clauses (2&4) together forc
 
 Thinking of a regular cardinal *as* a cardinal number makes the most sense using the [[axiom of choice]].  Otherwise, we probably want to think of it as a *collection* of cardinals, or equivalently think of it as the category $Set_{\lt\kappa}$.
 
-From this perspective, a regular cardinal is a [[full subcategory]] of $Set$ that is closed under taking [[quotient objects]] and satisfies the condition on $Set_{\lt\kappa}$ above.  We can then recover $\kappa$ as the largest (smallest? -[[David Roberts|DR]]) cardinal number greater than every cardinal in $Set_{\lt\kappa}$, if we accept the axiom of choice.
+From this perspective, a regular cardinal is a [[full subcategory]] of $Set$ that is closed under taking [[quotient objects]] and satisfies the condition on $Set_{\lt\kappa}$ above.  We can then recover $\kappa$ as the smallest cardinal number greater than every cardinal in $Set_{\lt\kappa}$, if we accept the axiom of choice.
 
 Note that if we require only conditions (1&4) on $Set_{\lt\kappa}$, then (even classically), $\{1\}$ is an acceptable (and finite) regular collection of cardinals, even though it is not actually of the form $Set_{\lt\kappa}$ for any cardinal number $\kappa$.
 
-In the absence of the axiom of choice, it is not clear that there exist arbitrarily large regular cardinals.  Thus in weaker foundations, regular cardinals (or "regular sets of cardinals") can be regarded as a [[large cardinal]] property.  The statement that *there exist arbitrarily large regular cardinals* is sometimes called the *Regular Extension Axiom*.
+In the absence of the axiom of choice, it is not clear that there exist arbitrarily large regular cardinals.  Thus in weaker foundations, regular cardinals (or "regular sets of cardinals") can be regarded as a [[large cardinal]] property.  The statement that *there exist arbitrarily large regular cardinals* is sometimes called the __Regular Extension Axiom__.
 
 
 ## Examples
@@ -67,13 +67,37 @@ In the absence of the axiom of choice, it is not clear that there exist arbitrar
 
 * $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and ${|\mathbb{N}|} = \aleph_0 \lt\aleph_\omega$.
 
-* More generally, any limit cardinal that can be "written down by hand" must be singular, since if it were regular then it would be [[weakly inaccessible cardinal|weakly inaccessible]], and the existence of weakly inaccessible cardinals cannot be proven in [[ZFC]] (if ZFC is consistent).
+* More generally, any limit cardinal that can be "written down by hand" must be singular, since if it were regular then it would be [[weakly inaccessible cardinal|weakly inaccessible]], and the existence of weakly inaccessible cardinals cannot be proven in [[ZFC]] (if $ZFC$ is consistent).
+
+  +-- {: .query}
+  Is this really true?  Is it possible that one can 'write down by hand' a cardinal such that it is undecidable in $ZFC$ whether it is regular?  ---Toby
+  =--
 
 
 [[!redirects regular cardinal]]
 [[!redirects regular cardinals]]
+[[!redirects regular cardinal number]]
+[[!redirects regular cardinal numbers]]
+[[!redirects regular collection of cardinal numbers]]
+[[!redirects regular collections of cardinal numbers]]
+[[!redirects regular set of cardinal numbers]]
+[[!redirects regular sets of cardinal numbers]]
+[[!redirects regular class of cardinal numbers]]
+[[!redirects regular classes of cardinal numbers]]
+
 [[!redirects singular cardinal]]
 [[!redirects singular cardinals]]
+[[!redirects singular cardinal number]]
+[[!redirects singular cardinal numbers]]
+[[!redirects singular collection of cardinal numbers]]
+[[!redirects singular collections of cardinal numbers]]
+[[!redirects singular set of cardinal numbers]]
+[[!redirects singular sets of cardinal numbers]]
+[[!redirects singular class of cardinal numbers]]
+[[!redirects singular classes of cardinal numbers]]
+
 [[!redirects regular extension axiom]]
 [[!redirects Regular Extension Axiom]]
 [[!redirects REA]]
+
+category: foundational axiom
