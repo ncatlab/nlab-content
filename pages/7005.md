@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
 =--
 =--
 
