@@ -241,7 +241,7 @@ This is in ([Moerdijk, section 8.4](#Moerdijk)).
 
 We state a list of lemmas to establish theorem \ref{TheModelStructureExistenceAndBasicProperties}.
 
-The **strategy** is the following: we [[over topos|slice]] $dSet$ over a normal [[resolution]] $E_\infty$ (a model of the [[E-∞ operad]]) of the terminal object. Since over a normal object all morphisms are normal, we have a chance to establish a _[[Cisinski model structure]]_ on $dSet_{/E_\infty}$. This indeed exsis, prop. \ref{ModelStructureOnSlices} below, and the model structure on $dSet$ itself can then be [[transferred model structure|transferred]] along the [[inverse image]] of the [[etale geometric morphism]] $dSet_{/E_\infty} \to dSet$, prop. \ref{TransferOfTheModelStructure}.
+The **strategy** is the following: we [[over topos|slice]] $dSet$ over a normal [[resolution]] $E_\infty$ (a model of the [[E-∞ operad]]) of the terminal object. Since over a normal object all morphisms are normal, we have a chance to establish a _[[Cisinski model structure]]_ on $dSet_{/E_\infty}$. This indeed exists, prop. \ref{ModelStructureOnSlices} below, and the model structure on $dSet$ itself can then be [[transferred model structure|transferred]] along the [[inverse image]] of the [[etale geometric morphism]] $dSet_{/E_\infty} \to dSet$, prop. \ref{TransferOfTheModelStructure}.
 
 +-- {: .num_prop }
 ###### Proposition 
