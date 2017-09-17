@@ -20,11 +20,13 @@
 ## Idea
 
 
-A _spectral triple_ is algebraic data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] and generalizes it to [[noncommutative geometry]]. It consists of
+A _spectral triple_ is algebraic data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] and generalizes it to [[noncommutative geometry]]. It is effectively a [[Fredholm module]] refined by the specification of a [[dense subalgebra]] of the [[C-star-algebra]] of bounded operators on that module.
 
-1. An [[associative algebra]] $A$, to be thought of as the algebra of [[smooth function]]s on $X$;
+It consists of
 
-1. a $\mathbb{Z}_2$-graded [[Hilbert space]] $\mathcal{H}$, to be thought of as the space of (square integrable) [[section]]s of the [[spinor bundle]] of $X$;
+1. a $\mathbb{Z}_2$-graded [[Hilbert space]] $\mathcal{H}$, to be thought of as the space of (square integrable) [[sections]] of the [[spinor bundle]] of $X$;
+
+1. An [[associative algebra]] $A$ with a [[dense subalgebra|dense embedding]] $A \hookrightarrow B(H)$ into the [[C-star-algebra]] of [[bounded operators]] on $H$, to be thought of as the algebra of [[smooth function]]s on $X$;
 
    These two items encode the [[topology]] and [[smooth structure]].
 
@@ -114,13 +116,14 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 
 ## Related concepts
 
+* [[KK-theory]]
+
 * [[spectral action]]
 
 * [[higher category theory and physics]]: <a href="http://ncatlab.org/nlab/show/higher+category+theory+and+physics#SpecStandModAndGravity">Spectral standard model and gravity</a>
 
 * [[(1,1)-dimensional Euclidean field theories and K-theory]]
   
-
 * [[2-spectral triple]]
 
 
@@ -179,6 +182,10 @@ One variation uses [[von Neumann algebra]]s instead of [[C-star algebra]]s.
 * M-T. Benameur, T. Fack, _On von Neumann spectral triples_ ([web](http://adsabs.harvard.edu/abs/2000math.....12233B)) 
 
 * [[Alain Connes]], [[Henri Moscovici]], _Type III and spectral triples_ ([arXiv:math/0609703](http://arxiv.org/abs/math/0609703))
+
+### Relation to K-theory
+
+(...)
 
 [[!redirects spectral triples]]
 [[!redirects graph field theory]]
