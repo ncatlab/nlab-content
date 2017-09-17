@@ -170,6 +170,7 @@ It was in particular motivated by the observation that this provides a natural f
 
 * [[exceptional generalized complex geometry]]
 
+* [[Bn-geometry]]
 
 ## References
 
