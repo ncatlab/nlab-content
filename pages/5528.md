@@ -19,7 +19,7 @@
 +-- {: .un_defn}
 ###### Definition
 
-For $n \in \mathbb{N}$ a [[natural number]], write $\mathbb{R}^n$ for the [[Cartesian space]] of [[dimension]] $n$. The **Euclidean topology** is the [[topology]] on $\mazthbb{R}^n$ characterized by the following equivalent statements
+For $n \in \mathbb{N}$ a [[natural number]], write $\mathbb{R}^n$ for the [[Cartesian space]] of [[dimension]] $n$. The **Euclidean topology** is the [[topology]] on $\mathbb{R}^n$ characterized by the following equivalent statements
 
 * it is the [[metric space|metric topology]] induced from the canonical structure of a [[metric space]] on $\mathbb{R}^n$ with [[distance]] function given by $d(x,y) = \sqrt{\sum_{i = 1}^n (x_i-y_i)^2}$;
 
