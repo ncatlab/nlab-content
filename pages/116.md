@@ -209,5 +209,15 @@ For more see [[counterexamples in algebra]].
 
 * [[ring]], [[ring object]]
 
+* [[automorphism group]], [[automorphism 2-group]], [[automorphism ∞-group]],
+
+* [[center]], [[center of an ∞-group]],
+
+* [[inner automorphism group]]
+
+* [[outer automorphism group]], [[outer automorphism ∞-group]]
+
+
+
 
 [[!redirects groups]]
