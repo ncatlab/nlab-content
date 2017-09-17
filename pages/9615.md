@@ -1,0 +1,26 @@
+## Definitions 
+
+A ($q$-ary) **linear code** is a finite-dimensional subspace over a [[finite set|finite]] [[field]] $\mathbb{F}_q$ with $q$ elements. A principal application is in the construction of [[error-correcting code]]s, which are certain algorithms for encoding messages with some added redundancy, that allow for automatic corrections of transmitted messages over noisy channels without the need for retransmission. 
+
+A **(binary linear) code** is a finite-dimensional [[vector space]] over the [[field]] $\mathbb{F}_2$ of two elements. A bilinear linear code is usually construed as a subspace of a finite power set $P(\Omega)$, consider as an $\mathbb{F}_2$-space whose addition is given by taking the symmetric difference of sets. 
+
+Let ${|C|}$ denote the [[cardinality]] of a set $C$; we let $n = {|\Omega|} = \dim(P(\Omega))$. On the Boolean ring $P(\Omega)$ there is a canonical nondegenerate symmetric $\mathbb{F}_2$-bilinear pairing given by 
+
+$$\langle -, - \rangle \colon P(\Omega) \times P(\Omega) \to \mathbb{F}_2: (S, T) \mapsto {|S \cap T|} \pmod 2$$ 
+
+and to each code $\mathcal{C} \subset P(\Omega)$ there is a **dual code** $\mathcal{C}^\perp$: 
+
+$$\mathcal{C}^\perp = \{S \in P(\Omega): \langle S, T \rangle = 0 \forall T \in \mathcal{C}\}.$$ 
+
+Notice that $\dim(\mathcal{C}^\perp) = n - \dim(\mathcal{C})$. A code $\mathcal{C}$ is **self-dual** if $\mathcal{C} = \mathcal{C}^\perp$. In this case $n$ is even and $\dim(\mathcal{C}) = n/2$. 
+
+In the sequel (which follows [FLM](#FLM)), we suppose $\Omega$ is a set with an even number of elements, say $n$. Let ${|C|}$ denote the cardinality of a set $C$. A linear code $\mathcal{C} \subset P(\Omega)$ is of **type I** if 
+
+* ${|C|}$ is even for every $C \in \mathcal{C}$ and $\Omega \in \mathcal{C}$ 
+
+and of **type II** if 
+
+* ${|C|} \cong 0 \pmod 4$ for every $C \in \mathcal{C}$ and $\Omega \in \mathcal{C}$. 
+
+(TO BE CONTINUED)
+
