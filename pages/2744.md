@@ -402,6 +402,11 @@ A comprehensive source on covariant field theory with plenty of further referenc
 
 Much of the material in the [section on covariant field theory](#extended phase space) is based on this.
 
+The relation to [[covariant phase space]] methods is discussed in 
+
+* [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_ ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
+  {#Helein}
+
 Other texts include
 
 * [[Carlo Rovelli]], _Covariant hamiltonian formalism for field theory: Hamilton-Jacobi equation on the space $\mathcal{G}$_ ([arXiv:gr-qc/0207043](http://arxiv.org/abs/gr-qc/0207043))
