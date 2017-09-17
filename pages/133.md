@@ -15,9 +15,9 @@
 
 ## Statement
 
-In its modern form, the axiom of choice in an [[internalization|ambient category]] $A$ says that
+In its modern form, the _axiom of choice_ says that in the [[internal logic]] of a given [[internalization|ambient category]] the following statement holds
 
-* _Every [[epimorphism]] in $A$ splits._
+* _Every [[epimorphism]] in $A$ [[split epimorphism|splits]]._
 
 This means: for every [[epimorphism]] $f : A \to B$ there is a morphism $\sigma : B \to A$ (a [[section]]), such that
 $$
@@ -27,7 +27,7 @@ $$
   \,.
 $$
 
-If the ambient category is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace "epimorphism" by [[regular epimorphism]].
+If the ambient category is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]].
 
 If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of choice for $A$ may be taken to say that, given any [[cover]]ing family $(p_i: U_i \to X)_i$, there is an appropriate section $X \to \coprod_i U_i$.
 
@@ -74,6 +74,7 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * A still weaker axiom along the lines of "AC fails in only a small way," which is implied by AMC, is [[WISC]], i.e. that for any set $X$, the full subcategory of $Set/X$ consisting of the surjections has a [[weakly initial set]] (under COSHEP it has a single weakly initial object, namely a projective cover of $X$).  Two similar assertions are that the [[free exact completion]] $Set_{ex/lex}$ of $Set$ is a [[topos]] (i.e. that $Set$ has a [[generic proof]]), and that $Set_{ex/lex}$ is [[well-powered category|well-powered]]; both of these imply WISC.
 
+
 The axiom of choice can also be strengthened in a few ways.
 
 * While the ordinary axiom of choice says that any surjection of sets is split, the *axiom of global choice* says that this is also true for any surjection of [[proper classes]].  (Making this precise requires a bit of work.)  It is equivalent to the existence of a well-ordering of the class of all sets.
@@ -87,6 +88,12 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 * The [[axiom of determinacy]] is a natural statement in [[game theory]] that is consistent with dependent choice; in fact, it implies dependent choices in certain models, such as in the constructible (in the sense of Goedel) closure of the set of reals. However, determinacy contradicts the full AC (for example, it implies that all sets of reals are Lebesgue measurable and have the Baire property, as in the previous entry). 
 
 * Any of the varieties of [[constructive mathematics]] that contradict excluded middle necessarily contradict choice, but they tend to be consistent with COSHEP.
+
+### In dependent type theory
+ {#InDependentTypeTheory}
+
+In [[dependent type theory]] there is a somewhat different perspective on the axiom of choice. See at _[[Martin-Löf dependent type theory]]_ the section _[Axiom of choice](nlab/show/Martin-L%C3%B6f+dependent+type+theory#AxiomOfChoice)_.
+
 
 
 ## References
