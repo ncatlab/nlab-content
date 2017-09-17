@@ -23,6 +23,8 @@
 
 * [[vector bundle]], [[(∞,1)-vector bundle]]
 
+  * [[complex vector bundle]], [[stable vector bundle]]
+
 ## Universal bundles
 
 * [[universal principal ∞-bundle]]
