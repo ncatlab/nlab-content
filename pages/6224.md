@@ -1,0 +1,8 @@
+A [[group]] is __nilpotent__ if its [[lower central series]] terminates with the trivial subgroup after finitely many steps. Cf. [[nilpotent Lie algebra]]. 
+
+Every nilpotent group is an example of a [[solvable group]] (indeed, the groups in the [[lower central series]] of any group can be term-wise included into its [[derived series]]).
+
+* eom [nilpotent group](http://eom.springer.de/n/n066720.htm)
+* wikipedia [nilpotent group](http://en.wikipedia.org/wiki/Nilpotent_group)
+
+[[!redirects nilpotent groups]]
