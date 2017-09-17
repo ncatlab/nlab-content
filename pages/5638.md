@@ -67,7 +67,11 @@ $$
 
 * The [[Lie integration]] (see there) of $b^{n-1}\mathbb{R}$ is the <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">line Lie n-group</a> $\mathbf{B}^{n-1}\mathbb{R}$.
 
+## Related concepts
 
+* [[translation Lie algebra]]
+
+* [[super translation Lie algebra]]
 
 [[!redirects line Lie n-algebras]]
 
