@@ -72,7 +72,13 @@ There are various other variations, too.
 
 * [[technicolor]]
 
+* [[Grand Unified Theory]]
+
 * [[MSSM]]
+
+  * [[G2-MSSM]]
+
+* [[standard model of cosmology]]
 
 ## References
 
