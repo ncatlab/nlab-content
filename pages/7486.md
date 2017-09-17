@@ -1,16 +1,19 @@
 
 **[[étale morphism]]** ([[submersion]], [[immersion]])
 
+generally in **[[differential cohesion]]**
+
+* [[reduction modality]] $\dashv$ [[infinitesimal shape modality]]
+
 * [[formally étale morphism|formally étale]] ([[formally smooth morphism|formally smooth]], [[formally unramified morphism|formally unramified]])
 
 * [[étale topos]]
 
+* [[étale homotopy]]
+
+* [[étale cohomology]]
+
 * [[étale ∞-groupoid]]
-
-axiomatization in **[[differential cohesion]]**
-
-* [[reduction modality]] $\dashv$ [[infinitesimal shape modality]]
-
 
 in **[[topology]]**
 
@@ -32,5 +35,4 @@ in **[[algebraic geometry]]**
 
 * [[Deligne-Mumford stack]]
 
-* [[étale cohomology]], [[pro-étale cohomology]], [[ℓ-adic cohomology]]
-
+* [[ℓ-adic cohomology]]
