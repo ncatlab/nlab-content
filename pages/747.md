@@ -385,7 +385,7 @@ $$
 
 
 
-## Fibrant and cofibrant objects 
+## Fibrant and cofibrant objects {#FibAndCofibObjects}
 
 
 ### Fibrant objects
