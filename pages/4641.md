@@ -89,9 +89,19 @@ for more see [[Lawvere theory]] for the moment
 
 * [[algebra over a monad]]
 
-* **algebra over an algebraic theory** / [[homotopy T-algebra]]
+  [[∞-algebra over an (∞,1)-monad]] 
 
-* [[algebra over an operad]] / [[∞-algebra over an (∞,1)-operad]]
+* **algebra over an algebraic theory** 
+
+  [[∞-algebra over an (∞,1)-algebraic theory]]
+
+  * [[homotopy T-algebra]] / [[model structure on simplicial T-algebras]]
+
+* [[algebra over an operad]] 
+
+   [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
 
 
 
