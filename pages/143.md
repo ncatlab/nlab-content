@@ -685,7 +685,7 @@ The book by Kashiwara and Shapira discusses sheaves with motivation from [[homol
 
 * Kashiwara, Shapira, [[Categories and Sheaves]], Springer
 
-A quick pedagogical introduction with an eye towrds the generalization to [[(∞,1)-sheaves]] is in 
+A quick pedagogical introduction with an eye towards the generalization to [[(∞,1)-sheaves]] is in 
 
 * [[Dan Dugger]], Sheaves and Homotopy Theory ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
