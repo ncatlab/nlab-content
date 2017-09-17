@@ -31,7 +31,7 @@ This generalizes the [[van Kampen theorem]], which only deals with the underlyin
 Let $X$ be a [[topological space]], write $Op(X)$ for its [[category of open subsets]] and let
 
 $$
-  \chi : C \to Op(C)
+  \chi : C \to Op(X)
 $$
 
 be a [[functor]] out of a [[small category]] $C$ such that
