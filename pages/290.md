@@ -92,7 +92,9 @@ Ours is the age to figure this out.
 
 * [[perturbation theory]] 
 
-  * [[Feynman diagram]]
+  * [[Feynman diagram]], 
+
+  * [[Feynman rule]], [[worldline formalism]]
 
   * [[renormalization]]
 
