@@ -181,7 +181,7 @@ Original articles include
 Math. Soc. __14__ (1982), 1-15.
 
 * [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology, Vol 23, No. 1 (1984) ([pdf](https://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
- {#AtiyahBott}
+  {#AtiyahBott84}
 
 Further developments are in
 
