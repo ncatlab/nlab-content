@@ -170,8 +170,13 @@ With the explicit choice for $\Gamma N \stackrel{\simeq}{\to} Id$ is [above](Exp
 
 This is for instance exercise 8.4.2 in [Weibel](#Weilbel).
 
-It should be true that also $(N \dashv \Gamma)$.
 
++-- {: .un_remark }
+###### Remark
+
+It follows that with the inverse structure maps, we also have an [[adjunction]] the other way round: $(N \dashv \Gamma)$.
+
+=--
 
 
 ### Quillen equivalence of model categories {#ModelCatVersion}
@@ -182,7 +187,7 @@ Both $Ch_\bullet^+(A)$ and $A^{\Delta^{op}}$ are [[categories with weak equivale
 
 * the weak equivalences of chain complexes are the [[quasi-isomorphisms]]: the morphisms that induces isomorphisms on all [[chain homology]] groups.
 
-+-- {: .num_prop }
++-- {: .un_prop }
 ###### Proposition
 
 These functors $N$ and $\Gamma$ both respect all weak equivalences 
@@ -197,7 +202,7 @@ The structures of categories with weak equivalences have standard refinements to
 
 * the _[[model structure on simplicial T-algebras|model structure on simplicial abelian groups]]_ has as weak equivalences and fibrations those of the underlying morphisms in [[sSet]] with respect to the standard [[model structure on simplicial sets]].
 
-+-- {: .num_prop }
++-- {: .un_prop }
 ###### Proposition
 
 Both 
@@ -221,7 +226,7 @@ are [[Quillen equivalence]]s with respect to these model structures.
 This is discussed for instance in [section 4.1](http://www.math.uic.edu/~bshipley/monoidalequi.final.pdf#page=17) of [SchwedeShipley](#SchwedeShipley)
 
 
-+-- {: .num_remark }
++-- {: .un_remark }
 ###### Remark
 
 The category $Ab^{\Delta^{op}}$ is -- being a [[category of simplicial objects]] of a category with colimits -- naturally an [[sSet]]-[[enriched category]] and with the model structure this makes it a [[simplicial model category]].
@@ -229,6 +234,31 @@ The category $Ab^{\Delta^{op}}$ is -- being a [[category of simplicial objects]]
 Since the DK-correspondence is even an [[equivalence of categories]], this induces accordingly the structure of a simplicial model category also on $Ch_\bullet^+$. Therefore the above Quillen equivalence is even an [[sSet]]-Quillen equivalence of simplicial model categories.
 
 =--
+
++-- {: .un_remark }
+###### Remark
+
+The [[free functor|free]]/[[stuff, structure, property|forgetful]] [[adjunction]] $(F \dashv U) : Ab \stackrel{\leftarrow}{\to} Set$ prolongs to [[simplicial object]]s
+
+$$
+  (F\dashv U) : sAb \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  sSet
+$$
+
+as an [[sSet]]-[[enriched functor|enriched]] adjunction. Moreover, by the above the right adjoint $U$ is a right Quillen functor to the standard [[model structure on simplicial sets]].
+
+This means we have a [[simplicial Quillen adjunction]]
+
+$$
+  ( \Gamma F \dashv U N) : Ch_\bullet^+ \stackrel{\overset{}{\leftarrow}}{\underset{U N}{\to}}
+  \,.
+$$
+
+This manifestly [[presentable (infinity,1)-category|presents]] connective chain complexes as models for certain [[∞-groupoid]]s.
+
+
+=--
+
 
 ## Statement (general nonabelian case) {#StatementGeneral}
 
