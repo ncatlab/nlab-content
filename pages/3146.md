@@ -14,19 +14,6 @@
 =--
 
 
-* [[∞-Lie algebroid valued differential forms]]
-
-* [[connection on an ∞-bundle]]
-
-* **curvature**
-
-* [[Bianchi identity]]
-
-* [[curvature characteristic form]]
-
-* [[Chern-Simons form]]
-
-***
 
 
 #Contents#
@@ -447,6 +434,22 @@ is the corresponding [[curvature characteristic form]].
 ## Curved dg-algebras
 
 (TO ADD: Something about curved $A_\infty$ algebras and curved dg algebras.)
+
+
+## Related concepts
+
+* [[∞-Lie algebroid valued differential forms]]
+
+* [[connection on an ∞-bundle]]
+
+* **curvature**
+
+* [[Bianchi identity]]
+
+* [[curvature characteristic form]]
+
+* [[Chern-Simons form]]
+
 
 
 ## References
