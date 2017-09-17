@@ -80,10 +80,10 @@ In other words, $A$ is equipped with an equivalence with a [[coreflective subcat
 A __[[morphism]] of Q-categories__ from 
 $\mathbb{A} : (u^* \dashv u_*) :  \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ to $\mathbb{B} : (v^* \dashv v_*) :  \bar B \stackrel{\overset{v^*}{\leftarrow}}{\underset{v_*}{\to}} B$ is a triple $(\Phi,\bar{\Phi},\phi)$ where $\Phi : A\to B$, $\bar{\Phi}:\bar{A}\to\bar{B}$ are functors and $\phi:\Phi u_*\Rightarrow v_*\bar{\Phi}$ is a [[natural isomorphism]] of functors. The composition is given by
 $$
-(\Phi,\bar{\Phi},\phi)\circ(\Phi',\bar{\Phi}',\phi') = (\Phi'\Phi,\bar{\Phi}\bar{\Phi}, \bar{\Phi}'\phi\circ\phi'\Phi)
+(\Phi,\bar{\Phi},\phi)\circ(\Phi',\bar{\Phi}',\phi') = (\Phi\Phi',\bar{\Phi}\bar{\Phi}', \bar{\Phi}\phi'\circ\phi\Phi')
 $$
 
-A __transformation of morphisms of Q-categories__ is a pair $(\alpha,\bar{\alpha}):(\Phi,\bar{\Phi},\phi)\to (\Psi,\bar{Psi},\psi)$ of [[natural transformation]]s $\alpha:\Phi\to\Psi$ and $\bar{\alpha}:\bar{\Phi}\to\bar{\Psi}$ such that the diagram
+A __transformation of morphisms of Q-categories__ is a pair $(\alpha,\bar{\alpha}):(\Phi,\bar{\Phi},\phi)\to (\Psi,\bar{\Psi},\psi)$ of [[natural transformation]]s $\alpha:\Phi\to\Psi$ and $\bar{\alpha}:\bar{\Phi}\to\bar{\Psi}$ such that the diagram
 $$\array{
 \Phi u_* & \stackrel{\phi}\longrightarrow & v_* \bar{\Psi}\\
 \alpha u_*\downarrow && \downarrow v_*\bar{\alpha}\\
@@ -279,7 +279,7 @@ where the extra [[right adjoint]] is given by precomposition with the domain eva
 
 ### Q-category of cones
 
-Let $C$ be a category and $LC$ be the category whose objects are [[cones]] $\alpha: x\to d$ over (small) diagrams $d: D\to C$ where $D$ are variable small categories; and the morphisms from $x\stackrel{\alpha}\to d$ to $x'\stackrel{\alpha'}\to d'$ are triples of the form $(f,\rho,\bar{f})$ where $f:x\to x'$ is a morphism in $C$, $\rho : D\to D'$ is a diagram (= functor), and $\bar{f}:d\circ\rho\to d'$ is a morphism of diagrams (= natural transformation) such that 
+Let $C$ be a category and $LC$ be the category whose objects are [[cones]] $\alpha: x\to d$ over (small) diagrams $d: D\to C$ where $D$ are variable small categories; and the morphisms from $x\stackrel{\alpha}\to d$ to $x'\stackrel{\alpha'}\to d'$ are triples of the form $(f,\rho,\bar{f})$ where $f:x\to x'$ is a morphism in $C$, $\rho : D'\to D$ is a diagram (= functor), and $\bar{f}:d\circ\rho\to d'$ is a morphism of diagrams (= natural transformation) such that 
 $$\array{
 x & \stackrel{f}\to & x'\\
 \alpha\star\rho\downarrow && \downarrow\alpha'\\
@@ -290,7 +290,7 @@ commutes and $\alpha\star \rho$ denotes the horizontal (= Godement) composition 
 Then one defines composition of morphisms by the formula
 $$
 (f_1, \rho_1,\bar{f_1})\circ(f_2, \rho_2,\bar{f_2})
-\stackrel{def}{=}(f_1\circ f_2, \bar{f_1}\rho_2\circ\rho_1\f_2, \bar{f_1}\circ\bar{f_2}).
+\stackrel{def}{=}(f_1\circ f_2, \rho_2\circ\rho_1, \bar{f_1}\circ\bar{f_2}\rho1).
 $$
 
 There is a fully faithful functor $Q_C:C\to LC$ that to any $x\in C$ assigns the trivial cone $id_x :x\to x$ and to any morphism the corresponding morphism of trivial cones. Its right adjoint is the morphism $I_C:LC\to C$ defined by sending the cone $\alpha: x\to d$ over a diagram $d:D\to C$ its vertex $x$ and to a cone morphism $(f,\rho,\bar{f})$, the morphism of vertices $f$. Then $I_C\circ Q_C = Id_C$. The identity transformation can be thus taken as the unit of the adjunction. The counit of the adjunction $\epsilon: Q_C\circ I_C \to Id_{LC}$ is constructed as follows: to a cone $\alpha:x\to d$ assign the morphism $(1_x, const, \alpha)$ where $const: D\to C$ is the constant diagram which is the unique diagram from $D = dom(d)$ to the final category $1=\{\star\}$. One can check that these data indeed define an adjoint pair $Q_C\dashv I_C$ of functors. 
@@ -303,7 +303,7 @@ A __semicosite__ (or semicositus pl. semicositi) is a Q-category of the form $C\
 
 (i) $id_x\in Ob(\bar{C})$ whenever $x\in Ob(C)$.
 
-(ii) $\{x\stackrel{\phi_i}\to x_i\}_{i\in I}\in Ob(\bar{C})$ and $\{x_i\stackrel{\phi_{ij}}\to x_{ij}\}_{j\in J_i}\in Ob(\bar{C})$ then $\{x\stackrel{\phi_{ij}\circ\phi_i}\to x_{ij}\}\in Ob(\bar{A})$
+(ii) $\{x\stackrel{\phi_i}\to x_i\}_{i\in I}\in Ob(\bar{C})$ and $\{x_i\stackrel{\phi_{ij}}\to x_{ij}\}_{j\in J_i}\in Ob(\bar{C})$ then $\{x\stackrel{\phi_{ij}\circ\phi_i}\to x_{ij}\}\in Ob(\bar{C})$
 
 (iii) $\{x\to x_i\}_{i\in I}\in Ob(\bar{C})$ and $g\in C(x,y)$, then the family of pushouts $\{y\mapsto x_i\coprod_x y\}_{i\in I}$ exists and belongs to $Ob(\bar{C})$.
 
@@ -333,7 +333,7 @@ Any fully faithful functor among small categories $F: A\to B$ factors canonicall
 +-- {: .num_defn #QuasiCoSite}
 ###### Definition
 
-Let $A$ be a [[category]] and $\mathcal{T}$ a map that assigns to every [[object]] a collection of co[[sieve]]s on that object ([[subfunctor]]s of $A(x,-)$).
+Let $A$ be a [[category]] and $\mathcal{T}$ a map that assigns to every [[object]] a collection of co[[sieve]]s on that object ([[subfunctor]]s of $A(x,-)$), which includes maximal cosieve (functor $A(x,-)$).
 
 Write $\bar A_{\mathcal{T}}$ for the category whose objects are co[[sieve]]s on $A$, and whose morphisms are morphisms in $A$ that respect the corresponding cosieves. This yields a Q-category
 
@@ -520,7 +520,7 @@ $$
   u^! (x)
 $$
 
-is an [[isomorphism]] in $\bar A$. It is a monopresheaf precisely if this is a [[monomorphism]].
+is an [[isomorphism]] in $\bar A$. 
 
 =--
 
@@ -535,7 +535,7 @@ Using the $(u_* \dashv u^!)$-[[adjunction]]-[[isomorphism]] we have that the can
 
 $$
   \phi : \bar A(y, u^* x) \to A(u_* y, x) \stackrel{\simeq}{\to}
-   \bar A(y, u^! y)
+   \bar A(y, u^! x)
   \,,
 $$
 
