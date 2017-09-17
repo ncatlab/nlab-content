@@ -7,4 +7,5 @@ category: people
 
 [[!redirects JDS Jones]]
 [[!redirects J.D.S. Jones]]
+[[!redirects John D.S. Jones]]
 [[!redirects John Jones]]
