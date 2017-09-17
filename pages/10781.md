@@ -7,15 +7,25 @@ A contemporary thesis in this area:
 
 * Matteo Capelletti, _The non-associative Lambek calculus_, Logic, Linguistic and Computational Properties, thesis, Bologna, [pdf](http://amsdottorato.cib.unibo.it/321/1/TesiBo.pdf)
 
-* wikipedia: [categorial grammar](http://en.wikipedia.org/wiki/Categorial_grammar), [combinatorial categorial grammar](http://en.wikipedia.org/wiki/Combinatory_categorial_grammar)
+* [SEP](plato.stanford.edu/entries/typelogical-grammar/) 
 
-Related $n$Lab items: [[type theory]], [[context-free grammar]], [[lambda calculus]]
+* Wikipedia: [categorial grammar](http://en.wikipedia.org/wiki/Categorial_grammar), [combinatory categorial grammar](http://en.wikipedia.org/wiki/Combinatory_categorial_grammar)
+
 
 * Mati Pentus, _Lambek calculus and formal grammars_, Amer. Math. Soc. Transl. 1997
 
 * Michael Moortgat, _Categorial type logics_, [pdf](http://www.let.uu.nl/~Michael.Moortgat/personal/Courses/CG08/Docs/lola-ch2.pdf) (ch. 2 in _Handbook of logic and language_, Elsevier 1997)
 
+##Related Concepts
+
+* [[linguistics]]
+* [[type theory]]
+* [[context-free grammar]]
+* [[lambda calculus]]
 
 [[!redirects categorial grammar]]
+[[!redirects categorial grammars]]
+[[!redirects Categorial grammar]]
+[[!redirects categorical grammars]]
 [[!redirects categorical grammar]]
 [[!redirects Lambek calculus]]
