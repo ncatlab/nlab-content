@@ -581,7 +581,7 @@ and in section 3.3 of
 
 Discussion that relates the geometric quantization of $G$-Chern-Simons theory to the [[Reshetikhin-Turaev construction]] of a 3d-[[TQFT]] from the [[modular tensor category]] induced by $G$ is in 
 
-* [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](arxiv.org/abs/1206.2785))
+* [[Jørgen Andersen]], _A geometric formula for the Witten-Reshetikhin-Turaev Quantum Invariants and some applications_ ([arXiv:1206.2785](http://arxiv.org/abs/1206.2785))
  {#Andersen}
 
 and references cited there.
