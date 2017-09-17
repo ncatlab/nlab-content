@@ -1,7 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-One way to define a _connection_ on a [[vector bundle]] $E \to X$ is as a [[principal connection]] of the $GL(n)$-[[principal bundle]] that the vector bundle is an [[associated bundle]] to.
+One way to define a _connection_ on a [[vector bundle]] $E \to X$ is as a [[principal connection]] of the $GL(n)$-[[principal bundle]] that the vector bundle is an [[associated bundle]] to. Another is as a [[covariant derivative]] on the space of [[sections]] of the vector bundle.
+
+## Examples
+
+* [[Bott connection]]
+
+(...)
 
 ## References
 
