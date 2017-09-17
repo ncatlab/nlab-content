@@ -46,6 +46,8 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 ## Related concepts
 
+* [[Poisson tensor]]
+
 * [[Poisson geometry]]
 
 * [[isotropic submanifold]], [[coisotropic submanifold]]
