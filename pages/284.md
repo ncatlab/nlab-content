@@ -215,6 +215,28 @@ to iteration and hence to an inductive definition of
 An $A_\infty$-[[A-infinity category|category]] can also be thought of as a category "weakly enriched" in spaces (i.e. $\infty$-groupoids), except that in contrast to the Segal approaches the "weakness" is specified [[algebraic definition of higher category|algebraically]] and parametrized by an [[operad]].  This approach can be generalized to the [[Trimble n-category|Trimble]] definition of $n$-category or $(\infty,n)$-category.
 
 
+## Related concepts
+
+* [[0-category]], [[(0,1)-category]]
+
+* [[category]]
+
+* [[2-category]]
+
+* [[3-category]]
+
+* [[n-category]]
+
+* [[(∞,0)-category]]
+
+* **(∞,1)-category**
+
+* [[(∞,2)-category]]
+
+* [[(∞,n)-category]]
+
+* [[(n,r)-category]]
+
 ## References
 
 For several years [[Andre Joyal]] -- who was the one to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
