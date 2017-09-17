@@ -54,9 +54,9 @@ An __almost quotient category__, or a __$Q$-category__ is
     \,,
   $$
 
-  with $Q$ the [[left adjoint]];
+  with $u^*$ the [[left adjoint]];
 
-* such that $Q$ is [[full and faithful functor|full and faithful]] 
+* such that $u^*$ is [[full and faithful functor|full and faithful]] 
 
 In other words, $A$ is equipped with an equivalence with a [[coreflective subcategory]] of $\bar{A}$. 
 
@@ -69,8 +69,26 @@ In other words, $A$ is equipped with an equivalence with a [[coreflective subcat
 
 * The definition \ref{QCategory} is nothing but the definition of a [[coreflective subcategory]]. However the term _$Q$-category_ is used when the pair is used in a specific meaning useful to constructions in (generalized) sheaf theory (similarly like presheaf of objects in $D$ and contravariant functor to $D$ are synonyms, but a different word refers to a different context and intuition).
 
+* One sometimes write the above data as $\bar A \stackrel{\overset{u}{\leftarrow}}{\to} A$. 
+
 =--
 
+A __morphism of Q-categories__ from 
+$\mathbb{A} : (u^* \dashv u_*) :  \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ to $\mathbb{B} : (v^* \dashv v_*) :  \bar B \stackrel{\overset{v^*}{\leftarrow}}{\underset{v_*}{\to}} B$ is a triple $(\Phi,\bar{\Phi},\phi)$ where $\Phi : A\to B$, $\bar{\Phi}:\bar{A}\to\bar{B}$ are functors and $\phi:\Phi u_*\Rightarrow v_*\bar{\Phi}$ is a natural isomorphism of functors. The composition is given by
+$$
+(\Phi,\bar{\Phi},\phi)\circ(\Phi',\bar{\Phi}',\phi') = (\Phi'\Phi,\bar{\Phi}\bar{\Phi}, \bar{\Phi}'\phi\circ\phi'\Phi)
+$$
+
+A __transformation of morphisms of Q-categories__ is a pair $(\alpha,\bar{\alpha}):(\Phi,\bar{\Phi},\phi)\to (\Psi,\bar{Psi},\psi)$ of natural transformations $\alpha:\Phi\to\Psi$ and $\bar{\alpha}:\bar{\Phi}\to\bar{\Psi}$ such that the diagram
+$$\array{
+\Phi u_* & \stackrel{\phi}\longrightarrow & v_* \bar{\Psi}\\
+\alpha u_*\downarrow && \downarrow v_*\bar{\alpha}\\
+\Psi u_* &\stackrel{\psi}\longrightarrow& v_* \bar{\Psi}
+
+}$$
+commutes.
+
+Small Q-categories, morphisms of Q-categories and natural transformations of morphisms form a 2-category of small Q-categories.
 
 +-- {: .num_defn #QopCategory}
 ###### Definition
@@ -112,20 +130,22 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The $(C^R \dashv C^L)$-[[unit of an adjunction|unit]] is the dual $C^\eta$  of the original counit $\eta$
+The $(C^R \dashv C^L)$-[[unit of an adjunction|unit]] is $C^\eta$  induced by the original unit $\eta: 1_A\to R L$
 
 $$
-  C^{\eta} : Id_{C^A} \to C^L \circ C^R = C^{L R}
+  C^{\eta} : Id_{C^A} \to C^L \circ C^R = C^{R L}
 $$ 
 
-and the counit is the dual of the original unit
+and the counit $C^\epsilon$ is induced by the original counit $\epsilon: L R\to 1_{\bar{A}}$
 
 $$
-  C^\epsilon : C^R\circ C^L = C^{R L}\to Id_{C^{\bar{A}}}
+  C^\epsilon : C^R\circ C^L = C^{L R}\to Id_{C^{\bar{A}}}
   \,.
 $$ 
 
-Since the [[left adjoint]] being a [[full and faithful functor]] is equivalent to the unit of the [[adjunction]] being an [[isomorphism]], it follows from $L$ being full and faithful that $C^R$ is full and faithful.
+The only thing is who is adjoint -- now $C^R$ is the left adjoint. It is clear that $C^\eta$ and $C^\epsilon$ satisfy the triangle identities and that if $\eta$ is iso then the composition with $\eta$ is also iso. Thus we obtain a $Q$-categories.
+
+In other words, since the [[left adjoint]] being a [[full and faithful functor]] is equivalent to the unit of the [[adjunction]] being an [[isomorphism]], it follows from $L$ being full and faithful that $C^R$ is full and faithful.
 
 =--
 
