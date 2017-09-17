@@ -164,7 +164,7 @@ The [[internal logic|internal language]] of a topos is called [[Mitchell-Bénabo
 
 * For $E$ a topos and $X \in E$ any [[object]], also the [[overcategory]] or [[slice category]] $E/X$ is again a topos. ([[Elephant]], A.2.3.2). See also [[over-topos]]. 
 
-* If $E$ is a topos and $j \colon E \to E$ is a [[exact functor|lex]] idempotent monad, the category of $j$-algebras is a topos. Each such $j$ corresponds to a [[Lawvere-Tierney topology]] in $E$, and the category of $j$-algebras is equivalent to the category of sheaves for this topology. An example is the [[double-negation topology]]. 
+* If $E$ is a topos and $j \colon E \to E$ is a [[exact functor|lex]] idempotent monad, the category of $j$-algebras is a topos. Each such $j$ corresponds to a [[Lawvere-Tierney topology]] in $E$, and the category of $j$-algebras is equivalent to the category of sheaves for this topology. An example is the [[double negation|double-negation topology]]. 
 
 * If $G$ is a [[topological group]], then the category $Cont(G)$ of sets with a *continuous* action of $G$ (that is, the action map $G\times X\to X$ is [[continuous map|continuous]], where $X$ has the [[discrete topology]]) is a topos, and in fact a Grothendieck topos (though this may not be obvious).  More generally, $G$ may be a [[topological groupoid]], or even a [[localic groupoid]].  In fact, it is a theorem that every Grothendieck topos can be presented as the topos of "continuous sheaves" on a localic groupoid.
 
