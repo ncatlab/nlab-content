@@ -279,6 +279,9 @@ $$
 
 * [[Brauer ∞-group]]
 
+[[!include moduli of higher lines -- table]]
+
+
 
 ## References
 
