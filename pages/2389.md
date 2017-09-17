@@ -7,6 +7,8 @@ The superposition can stretch over infinite families of waves, then the sum pass
 In some special circumstances, the waves can preserve their features in nonlinear situations even asymptotically after collisions, in that case we talk about [[soliton]]s. Solitons and multisolitons 
 are especially well-known in gauge theories (including the 4d case localized in time, so called instantons) and in many [[integrable systems]] like the sine-gordon, KdV and the nonlinear Schroedinger equation. The inverse scattering method in those cases can be interpreted as the existence of a certain nonlinear analogue of the Fourier transform (the spectral transform) for the nonlinear wave solutions. 
 
-The [[quantum mechanics]], when described mathematically via the solutions of a time-dependent Schroedinger equation is a wave mechanics where the modulus square of the amplitude is interpreted as a density of probability to find the particle in that position. Linear superposition is thus one of the basic features of quantum mechanics. 
+The [[quantum mechanics]], when described mathematically via the solutions of a time-dependent Schroedinger equation, is a wave mechanics where the modulus square of the amplitude is interpreted as the density of probability to find the particle in the corresponding position. Linear superposition is thus one of the basic features of quantum mechanics. 
+
+Related entries: [[oscillation]], [[semiclassical approximation]], [[geometrical optics]], [[soliton]], [[Stokes phenomenon]], [[Berry's phase]].
 
 [[!redirects waves]]
