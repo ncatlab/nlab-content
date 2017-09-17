@@ -90,3 +90,6 @@ $$
 [[!redirects simplicial site]]
 [[!redirects SSet-sites]]
 [[!redirects simplicial sites]]
+
+[[!redirects simplicially enriched site]]
+[[!redirects simplicially enriched sites]]
