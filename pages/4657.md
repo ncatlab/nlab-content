@@ -67,6 +67,9 @@ $$
 
 are also called [[anafunctor]]s from $X$ to $\mathbf{B}G$. They correspond to smooth $G$-[[principal bundle]]s on $X$.
 
+## Related concepts
+
+* [[Cech nerve]]
 
 [[!redirects Cech groupoid]]
 [[!redirects Cech groupoids]]
