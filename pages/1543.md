@@ -769,7 +769,11 @@ In fact, the history of the development of the theory of principal bundles and [
 
 * **principal bundle** / [[torsor]] / [[groupoid principal bundle]] / [[associated bundle]]
   
-  [[universal principal bundle]]
+  * [[universal principal bundle]]
+
+  * [[bibundle]]
+
+  * [[groupoid principal bundle]]
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
