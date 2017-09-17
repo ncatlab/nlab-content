@@ -39,11 +39,11 @@ These two model structures are Quillen equivalent
 (*DHI04* [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=5) with the Quillen equivalence given by the identity functor). They can be defined on any domain category $S$, not necessarily a [[site]]. If we do have a structure of a [[site]] on $S$ then there is a  notion of _local weak equivalences_ of simplicial presheaves on $S$, defined below.
 One gets _local_ projective and _local_ injective model structures by applying left [[Bousfield localization]] of the above model structures at local weak equivalences (see [p. 6](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=6) of *DHI04*)
 
-* the  **local projective** model structure (weak equivalences are locally (usually stalkwise) and fibrations are objectwise those of simplicial sets);
+* the  **local projective** model structure (weak equivalences are locally (usually stalkwise) and cofibrations are those that have the left [[lifting property]] against objectwise acyclic fibrations);
 
-* the **local injective** (weak equivalences are locally (usually stalkwise) and cofibrations are objectwise those of SimpSet).
+* the **local injective** (weak equivalences are locally (usually stalkwise) and fibrations are those that have the right [[lifting property]] against the objectwise acyclic cofibrations).
 
-**Warning** Since the (homtopy classes) of weak equivalences do not form a small set, the existence theorem recalled at [[Bousfield localization]] does not apply. The existence of the Bousfield localization has to be shown by hand. For the injective structure this is what Joyal and Jardine accomplished.
+**Warning** Since the (homtopy classes) of weak equivalences do not form a [[small set]], the general existence theorem recalled at [[Bousfield localization of model categories]] does not apply. The existence of the Bousfield localization has to be shown by hand. For the injective structure this is what Joyal and Jardine accomplished.
 
 
 Again, the injective and projective local model structures are Quillen equivalent by the identity functors between the underlying categories and hence provide projective and injective versions of the corresponding homotopy theory of [[infinity-stack homotopically|infinity-stacks]].
