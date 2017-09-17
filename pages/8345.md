@@ -2,7 +2,7 @@
 
 ##Idea
 
-The profinite completion functor (on spaces) is the left adjoint to the inclusion of the category of  [[profinite spaces]] into that of all spaces. It is particualrly useful when applied to discrete topological spaces (i.e. really sets!).
+The profinite completion functor (on spaces) is the left adjoint to the inclusion of the category of  [[profinite spaces]] into that of all spaces. It is particularly useful when applied to discrete topological spaces (i.e. really sets!).
 
 ##Definition:
 
