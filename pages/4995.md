@@ -3626,7 +3626,7 @@ $$
   \mathbf{\Pi}_{inf}(X) \to \mathbf{\Pi}(X)
 $$
 
-That factors the infinitesimal and the finite path inclusion
+that factors the infinitesimal and the finite path inclusion
 
 $$
   \array{
@@ -3644,7 +3644,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is just the formula for the unit of the compotise adjunction
+This is the formula for the unit of the composite adjunction
 $\mathbf{H}_{th} \stackrel{\overset{\Pi_{inf}}{\to}}{\underset{Disc_{inf}}{\leftarrow}} \mathbf{H} \stackrel{\overset{\Pi}{\to}}{\underset{Disc}{\leftarrow}} \infty Grpd$:
 
 $$
@@ -3664,15 +3664,20 @@ $$
   {#StrucInfinitesimalLocalSystem}
 
 
+We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat cohomology</a> in an infinitesimal neighbourhood.
+
 +-- {: .un_def}
 ###### Definition
+
+For $X, A \in \mathbf{H}_{th}$ we say that
 
 $$
   H_{infflat}(X,A) := \pi_0 \mathbf{H}(\mathbf{\Pi}_{inf}(X), A)
    \simeq
    \pi_0 \mathbf{H}(X, \mathbf{\flat}_{inf}A)
-  \,.
 $$
+
+is the **infinitesimal flat cohomology** of $X$ with coefficient in $A$.
 
 =--
 
@@ -3680,7 +3685,10 @@ By the [above observation](#InclusionOfConstantIntoInfinitesimalIntoAllPaths)
 we have canonical morphisms
 
 $$
-  \mathbf{H}_{flat}(X,A) \to  \mathbf{H}_{infflat}(X,A)
+  \mathbf{H}_{flat}(X,A) 
+    \to  
+  \mathbf{H}_{infflat}(X,A)
+    \to
   \mathbf{H}(X,A)
 $$
 
