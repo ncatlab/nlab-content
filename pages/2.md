@@ -2,7 +2,7 @@
 
 **[[HomePage|nLab]]**
 
-##Contents##
+* [[About]]
 
 * [[Content|Content]]
 
@@ -12,17 +12,16 @@
 
 * [[Community]]
 
-  * [[HomePage|Home]]
-  * [[Contributors]]
-  * [[HowTo|HowTo]]
-  * [[FAQ|FAQ]]
   * [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/)
 
     * [Latest Changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+  * [[HowTo|HowTo]]
+  * [[FAQ|FAQ]]
+  * [[Contributors]]
   * [[inbound citations|Inbound Citations]]
   * [[Sandbox|Sandbox]]
 
-* [[About]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
 
