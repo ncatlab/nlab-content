@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
 #### Higher category theory
 +--{: .hide}
 [[!include higher category theory - contents]]
@@ -173,6 +177,8 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 * [[vector space]]
 
 * **2-vector space**, [[2-representation]]
+
+  * _[[TwoVect]]_ is a Mathematica software package for computer algebra with 2-vector spaces
 
 * [[n-vector space]]
 
