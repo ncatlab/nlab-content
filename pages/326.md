@@ -79,13 +79,13 @@ $$
   h^c: C \to Set
 $$
 
-given by $h^c = hom(c,-)$ and a functor
+given by $h^c\coloneqq hom(c,-)$ and a functor
 
 $$
   h_c : C^{op} \to Set
 $$
 
-given by $h_c = hom(-,c)$, i.e. by fixing one of the arguments of $hom: C^{op} \times C \to Set$ to be $c$. 
+given by $h_c\coloneqq hom(-,c)$, i.e. by fixing one of the arguments of $hom: C^{op} \times C \to Set$ to be $c$. 
 
 Formally this is
 
