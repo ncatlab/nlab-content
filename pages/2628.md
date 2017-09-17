@@ -12,7 +12,7 @@ and then to realize that by way of the standard [[model structure on simplicial 
 
 +-- {: .standout}
 
-**Slogan**. The simplicial de Rham complex is the complex of differential forms on a [[Lie ∞-groupoid]] or differentiable [[∞-stack]].
+**Slogan**. The simplicial de Rham complex is the complex of differential forms on a geometric [[∞-Lie groupoid]].
 
 =--
 
