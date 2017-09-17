@@ -31,6 +31,8 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 ## Related concepts
 
+* [[computability]]
+
 * [[programs as proofs]]
 
 * [[computational type theory]]
@@ -43,7 +45,9 @@ A [[program]]. A construction of a [[term]] of some [[type]]. The topic of [[com
 
 * [[programming language]]
 
-* [[quantum computation]]
+* [[quantum computation]], [[computable physics]]
+
+* [[hypercomputation]]
 
 [[!include computable mathematics -- table]]
 
