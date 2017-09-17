@@ -10,6 +10,7 @@
 =--
 =--
 
+
 This entry is about the article
 
 * [[Mike Hopkins]], [[Isadore Singer]], _Quadratic Functions in Geometry, Topology,and M-Theory_  J. Differential Geom. Volume 70, Number 3 (2005), 329-452.  ([journal](http://projecteuclid.org/euclid.jdg/1143642908), [arXiv](http://arxiv.org/abs/math.AT/0211216))
@@ -46,7 +47,7 @@ To this date generalized [[differential cohomology]] theories keep being studied
 
   * [[differential Thom class]]
 
-* [[fiber integration in differential cohomology]]
+* [[fiber integration in ordinary differential cohomology]]
 
   * [[fiber integration in ordinary differential cohomology]]
 
