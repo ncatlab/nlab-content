@@ -697,7 +697,7 @@ $$
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #RightDerivedFunctorOfLeftExactFunctor}
 ###### Definition
 
 Let 
@@ -772,6 +772,58 @@ $$
   (L^n F)(X_\bullet) \coloneqq H_n(F(Q(X)_\bullet))
   \,.
 $$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Let $F : \mathcal{A} \to \mathcal{B}$ be a [[left exact functor]] between [[abelian categories]] and let
+
+$$
+  0 \to A \to B \to C \to 0
+$$
+
+be a [[short exact sequence]] in $\mathcal{A}$.  Then there is a [[long exact sequence]] of images of these objects under the right derived functors $R^\bullet F(-)$ of def. \ref{RightDerivedFunctorOfLeftExactFunctor}
+
+$$
+  0 \to R^0F (A) = F(A) \to R^0 F(B) = F(B) \to R^0 F(C) 
+   \stackrel{\delta_0}{\to} 
+  R^1 F(A) \to R^1 F(B) \to R^1F(C)
+   \stackrel{\delta_1}{\to}
+  R^2 F(A) \to \cdots
+$$
+
+in $\mathcal{B}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} we can find a sequence of chain complexes of injective resolutions $A^\bullet \to B^\bullet \to C^\bullet$ which is [[quasiisomorphism|quasi-isomorphic]] to the original sequence
+
+$$
+  \array{
+    0 &\to& A &\to& B &\to& C &\to& 0
+    \\
+    \downarrow^{\mathrlap{\simeq_{qi}}} && \downarrow^{\mathrlap{\simeq_{qi}}} && \downarrow^{\mathrlap{\simeq_{qi}}} && \downarrow^{\mathrlap{\simeq_{qi}}}
+    \\
+    0 &\to& A^\bullet &\to& C^\bullet &\to& 0
+  }
+  \,.
+$$
+
+By construction now for each $n \in \mathbb{N}$ the component sequence 
+
+$$
+  0 \to A^n \to B^n \to C^n \to 0
+$$
+
+(...)
+
+
+
 
 =--
 
