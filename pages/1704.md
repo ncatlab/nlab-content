@@ -747,6 +747,15 @@ A more comprehensive conceptual account is in
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- models and general theory]]_
 
+The [[classifying spaces]] for a large class of principal $\infty$-bundles are discussed in
+
+* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
+ {#RobertsStevenson}
+
+* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
+ {#Stevenson}
+
+
 [[!redirects principal infinity-bundles]]
 [[!redirects principal ∞-bundle]]
 [[!redirects principal ∞-bundles]]
