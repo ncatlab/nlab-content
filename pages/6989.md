@@ -1,3 +1,4 @@
+[[!redirects sub-(infinity,1)-catgeory - internal formulation]]
 [[!redirects sub-(∞,1)-catgeory - internal formulation]]
 
 > under construction
