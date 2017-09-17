@@ -68,6 +68,10 @@ exhibits $f$ as a retract of $e$ in $Arr(C)$, whence $f\in L_1$ since $L_1$ is c
 
   For instance, the above factorization system on $Top$ is induced in this way via the [[forgetful functor]] $Top\to Set$ from the (epi,mono) factorization system on [[Set]].
 
+* A similar example is given by a [[span]] $A \overset{p}{\leftarrow} E \overset{q}{\to} B$ of categories where $p$ is a [[fibration]] whose cartesian morphisms are $q$-vertical and $q$ is an [[opfibration]] whose opcartesian morphisms are $p$-vertical (that is, the span $(p,q)$ is both a left and a right fibration in the sense of Street).  Then the two factorization systems on $E$ given by the $q$-opcartesian and $q$-vertical morphisms on the one hand, and the $p$-vertical and $p$-cartesian morphisms on the other, satisfy the $L_1 \subseteq L_2$ condition above, so that every morphism in $E$ factors as a $q$-opcartesian morphism followed by a morphism that is both $p$- and $q$-vertical, followed by a $p$-cartesian morphism.
+
+  Such a span is a [[two-sided fibration]] if $L_1R_2 \subseteq R_2L_1$, that is if the three-way factorization of the composite of a $p$-cartesian morphism followed by a $q$-opcartesian one has its middle term an isomorphism.
+
 
 ## Related concepts
 
