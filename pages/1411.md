@@ -40,3 +40,5 @@ Similarly, a __unit law__ is the statement that a given operation has an identit
 [[!redirects unit laws]]
 [[!redirects uniticity]]
 [[!redirects unitality]]
+
+[[!redirects unital]]
