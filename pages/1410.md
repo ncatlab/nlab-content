@@ -9,3 +9,9 @@ This generalises the **identity-assigning function** of a [[small category]] $C$
 [[!redirects |identity assigning morphism]]
 [[!redirects identity assigning map]]
 [[!redirects identity-assigning map]]
+[[!redirects identity-assigning morphisms]]
+[[!redirects identity assigning morphisms]]
+[[!redirects |identity assigning morphisms]]
+[[!redirects identity assigning maps]]
+[[!redirects identity-assigning maps]]
+
