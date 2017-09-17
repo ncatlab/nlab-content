@@ -144,6 +144,7 @@ where the [[groups of units]] $\mathbb{C}^\times$ and $\mathbb{R}^\times$ are re
 This is recalled for instance in ([Freed 12, (1.38)](#Freed12)).
 
 ### The homotopy type of the 2-stack of super 2-lines
+ {#HomtopyTypeOfSuper2Lines}
 
 Now we can analyse the super 2-stack $2\mathbf{sLine}$ of super 2-line 2-bundles.
 
