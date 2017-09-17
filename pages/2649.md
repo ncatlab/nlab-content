@@ -20,12 +20,15 @@ A connected object is a generalisation of the concept of [[connected space]] fro
 
 ## Definitions
 
-Let $\mathcal{C}$ be an [[extensive category]].
+Let $C$ be an [[extensive category]].
 
 +-- {: .num_defn #ConnectedObject}
 ###### Definition
 
-An [[object]] $X \in \mathcal{C}$ is **connected** if the [[representable functor]] $$ hom(X, -): \mathcal{C} \to Set $$
+An [[object]] $X$ of $C$ is **connected** if the [[representable functor]] 
+
+$$ hom(X, -) \colon C \to Set $$
+
 [[preserved limit|preserves]] all [[coproducts]]. 
 
 =--
@@ -33,7 +36,7 @@ An [[object]] $X \in \mathcal{C}$ is **connected** if the [[representable functo
 +-- {: .num_remark}
 ###### Remark
 
-By definition, $hom(X,-)$ preserves binary coproducts if the canonically defined morphism $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z)$$
+By definition, $hom(X,-)$ preserves binary coproducts if the canonically defined morphism $hom(X,Y) + hom(X,Z) \to hom(X,Y + Z)$
 is always a [[bijection]].
 
 =--
@@ -41,14 +44,14 @@ is always a [[bijection]].
 +-- {: .num_remark}
 ###### Remark
 
-By this definition, the [[initial object]] of $\$ is *not* in general connected (except for degenerate cases of $\mathcal{C}$); it is [[too simple to be simple]].  This matches the notion that the [[empty space]] should not be considered connected, discussed at [[connected space]].
+By this definition, the [[initial object]] of $C$ is *not* in general connected (except for degenerate cases of $C$); it is [[too simple to be simple]].  This matches the notion that the [[empty space]] should not be considered connected, discussed at [[connected space]].
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-If $\mathcal{C}$ is a [[infinitary extensive category]] then for $X \in \marhcal{C}$ to be connected it is enough to require that $hom(X,-)$ it preserves *binary* coproducts. This is theorem \ref{RespectForBinaryCoproductsIsSufficient} below.
+If $C$ is a [[infinitary extensive category]] then for $X \in Ob(C)$ to be connected it is enough to require that $hom(X,-)$ it preserves *binary* coproducts. This is theorem \ref{RespectForBinaryCoproductsIsSufficient} below.
 
 =--
 
@@ -56,12 +59,12 @@ If $\mathcal{C}$ is a [[infinitary extensive category]] then for $X \in \marhcal
 
 ### Characterization in terms of coproducts
 
-Let $\mathcal{C}$ be an infinitary [[extensive category]].
+Let $C$ be an infinitary [[extensive category]].
 
 +-- {: .num_theorem #RespectForBinaryCoproductsIsSufficient}
 ###### Theorem 
 
- Then an [[object]] $X$ of $\mathcal{C}$ is connected, def. \ref{ConnectedObject}, if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
+ Then an [[object]] $X$ of $C$ is connected, def. \ref{ConnectedObject}, if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
 
 =-- 
 
@@ -69,7 +72,10 @@ Let $\mathcal{C}$ be an infinitary [[extensive category]].
 ###### Proof 
 The "only if" is clear, so we just prove the "if". 
 
-We first show that $\hom(X, -)$ preserves the [[initial object]] $0$. Indeed, if $\hom(X, -)$ preserves the binary product $X + 0 = X$, then the canonical map $\hom(X, X) + \hom(X, 0) \to \hom(X, X)$  
+We first show that $\hom(X, -)$ preserves the [[initial object]] $0$. Indeed, if $\hom(X, -)$ preserves the binary product $X + 0 = X$, then the canonical map 
+
+$$\hom(X, X) + \hom(X, 0) \to \hom(X, X)$$ 
+
 is a bijection of sets, where the restriction to $\hom(X, X)$ is also a bijection of sets $id: \hom(X, X) \to \hom(X, X)$. This forces the set $\hom(X, 0)$ to be empty. 
 
 Now let $\{Y_\alpha: \alpha \in A\}$ be a set of objects of $C$. We are required to show that each map 
@@ -111,7 +117,7 @@ If $X$ is connected and $X = U + V$ is a coproduct decomposition, then the arrow
 Turning now to the if direction, suppose $f \colon X \to Y + Z$ is a map, and put $U = f^\ast(i_Y)$, $V = f^\ast(i_Z)$. By extensivity, we have a coproduct decomposition $X = U + V$. One of $U$, $V$ is initial, say $V$, and then we have $X = U$, meaning that $f$ factors through $Y$, and uniquely so since $i_Y$ is monic. Hence $f$ belongs to (exactly) one of the two subsets $\hom(X, Y) \hookrightarrow \hom(X, Y + Z)$, $\hom(X, Z) \hookrightarrow \hom(X, Y + Z)$. 
 =--  
 
-### General
+### General properties 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -130,7 +136,7 @@ Because coproducts in $Set$ commute with _limits_ of connected diagrams.
 +-- {: .num_prop}
 ###### Proposition
 
-If $X \in \mathcal{C}$ is connected and $X \to Y$ is an [[epimorphism]], then $Y$ is connected. 
+If $X \in Ob(C)$ is connected and $X \to Y$ is an [[epimorphism]], then $Y$ is connected. 
 
 =--
 
@@ -155,7 +161,7 @@ We do have the following partial result, generalizing the case of $Top$.
 ######Theorem 
 
 Suppose $C$ is a cocomplete $\infty$-[[extensive category]] with 
-[[finite products]]. Assume that the [[terminal object]] is a [[separator]], and that [[Cartesian product]] functors $X \times (-) : \mathcal{C} \to \mathcal{C}$ preserve [[epimorphisms]]. Then a product of finitely many connected objects is itself connected. 
+[[finite products]]. Assume that the [[terminal object]] is a [[separator]], and that [[Cartesian product]] functors $X \times (-) : C \to C$ preserve [[epimorphisms]]. Then a product of finitely many connected objects is itself connected. 
 
 =-- 
 
