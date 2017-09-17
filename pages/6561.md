@@ -46,6 +46,8 @@ The _[[AGT correspondence]]_ relates  the [[partition function]] of $SU(2)^{n+3g
 
 ## Related entries
 
+* [[2d (2,0)-superconformal QFT]]
+
 [[!include gauge theory from AdS-CFT -- table]]
 
 
