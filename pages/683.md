@@ -441,7 +441,7 @@ This is famously the formula introduced and used by Bousfield and Kan (but there
 
 ##### Homotopy pushouts
 
-Let in the above general formula $D = \{a \leftarrow c to b\}$ be the [[walking]] [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushouts**.
+Let in the above general formula $D = \{a \leftarrow c \to b\}$ be the [[walking]] [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushouts**.
 
 In this simple case, we have the following simple observation:
 
@@ -588,7 +588,7 @@ $$
   G
   \,.
 $$
-To see this, we compute using the above prescription by finding a weakly equivalent pullback diagram such that one of its morphisms is a fibration. This is achived in particular by the [[generalized universal bundle]]
+To see this, we compute using the above prescription by finding a weakly equivalent pullback diagram such that one of its morphisms is a fibration. This is achieved in particular by the [[generalized universal bundle]]
 $pt \stackrel{\simeq}{\to} \mathbf{E}G \to\gt \mathbf{B}G$, where $\mathbf{E}G$ is the [[action groupoid]] $G//G$ of $G$ 
 acting on itself by multiplication from one side. So we have a weak equivalence of pullback diagrams
 $$
@@ -1013,9 +1013,15 @@ This appears as theorem 1.5 in
 
 ### General
 
-The classical reference is 
+The classical references are 
 
-* A. K. Bousfield and [[Dan Kan]], _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI).
+* A. K. Bousfield and [[Dan Kan]], _Homotopy limits, completions, and localizations_, Springer LNM __304__, (see in particular chapter XI)
+
+and 
+
+*  [[R. M. Vogt]], _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52.
+
+More recently one has:
 
 * [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
   [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
