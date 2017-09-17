@@ -63,4 +63,5 @@ Genuine [[PDE]] theory is discusse din
 [[!redirects Einstein equations]]
 [[!redirects Einstein's equations]]
 
-
+[[!redirects Einstein equation of motion]]
+[[!redirects Einstein equations of motion]]
