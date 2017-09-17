@@ -93,7 +93,7 @@ $p$-adic [[differential equations]] are discussed in
 
 * [[Gilles Cristol]], _Exposants $p$-adiques et solutions dans les couronnes_ ([pdf](http://www.math.jussieu.fr/~christol/exposants.pdf))
 
-[[!redirects p-adic integer]]
+
 [[!redirects p-adic]]
 [[!redirects p-adic numbers]]
 [[!redirects p-adic field]]
