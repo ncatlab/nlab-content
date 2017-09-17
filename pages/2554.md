@@ -5,17 +5,15 @@
 
 * [[proper homotopy theory]]
 
+* [[directed homotopy theory]]
+
 ## Definitions
 
 * [[homotopy]]
 
-* [[homotopy group]]
+* [[Pi-algebra]], [[spherical object and Pi(A)-algebra]]
 
-* [[Pi-algebra]]
-
-* [[spherical object and Pi(A)-algebra]]
-
-* * [[homotopy coherent category theory]]
+* [[homotopy coherent category theory]]
 
   * [[homotopical category]]
 
@@ -32,8 +30,6 @@
 * [[(∞,1)-category]]
 
   * [[homotopy category of an (∞,1)-category]]
-
-* [[Brown-Grossman homotopy group]]
 
 ## Paths and cylinders ##
 
@@ -53,17 +49,43 @@
 
 * [[interval object]]
 
-  * [[schreiber:path ∞-groupoid|path ∞-groupoid]]
-
   * [[homotopy localization]]
 
-* [[infinitesimal interval object]]
+  * [[infinitesimal interval object]]
 
-  * [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]]
+## Homotopy groups
+
+* [[homotopy group]]
+
+  * [[fundamental group]]
+
+    * [[fundamental group of a topos]]
+
+  * [[Brown-Grossman homotopy group]]
+
+  * [[categorical homotopy groups in an (∞,1)-topos]]
+
+  * [[geometric homotopy groups in an (∞,1)-topos]]
+
+* [[fundamental ∞-groupoid]]
+
+  * [[fundamental groupoid]]
+
+    * [[path groupoid]]
+
+  * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
+
+  * [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos]]
+
+* [[fundamental (∞,1)-category]]
+
+  * [[fundamental category]]
 
 ## Theorems
 
 * [[homotopy hypothesis]]-theorem
+
+* [[Galois theory]]
 
 * [[higher homotopy van Kampen theorem]]
 
