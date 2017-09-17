@@ -50,6 +50,11 @@ an [[adjunction]] with [[right adjoint]] $U$. Say a morphism in $D$ is a fibrato
 
 ...
 
++--{: .query}
+[[Mike Shulman]]: In addition to lots of examples, I think it would be also nice to include here a *non* example, of a case where the putative transferred model structure provably *doesn't* exist.
+=--
+
+
 ## References
 
 The study of transfer of model structures in this sense is apperently originally due to 
