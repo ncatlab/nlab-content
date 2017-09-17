@@ -87,7 +87,12 @@ This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](
 
 * [[Hamiltonian action]]
 
+* [[quantomorphism n-group]]
+
 * [[Heisenberg n-group]]
+
+[[!include higher Atiyah groupoid - table]]
+
 
 ## References
  {#References}
