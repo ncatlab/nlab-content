@@ -912,7 +912,7 @@ such that this is compatible with coordinate transformations:
 1. changing plots along two consecutive coordinate transformations $f_1 \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ and $f_2 \colon \mathbb{R}^{n_2} \to \mathbb{R}^{n_3}$ is the same as changing them along the [[composition|composite]] coordinate transformation $f_2 \circ f_1$:
 
    $$
-     X(f_2)\circ X(f_1) = X(f_2 \circ f_1)
+     X(f_1) \circ X(f_2)  = X(f_2 \circ f_1)
      \,.
    $$
    
