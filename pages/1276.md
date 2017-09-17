@@ -205,19 +205,15 @@ A module is flat if and only if it is a [[filtered colimit]] of [[free modules]]
 
 * [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
 
-  * [[projective module]]
-
 * [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
   * [[injective module]]
 
 * [[free object]], [[free resolution]]
  
-  * [[free module]]
-
 * flat object, [[flat resolution]]
 
-  * **flat module**
+* [[free module]] $\Rightarrow$ [[projective module]] $\Rightarrow$ **flat module** $\Rightarrow$ [[torsion-free module]]
 
 
 
