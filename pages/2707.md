@@ -214,6 +214,7 @@ Explicit discussion of the relation to [[Hodge theory]] is in
 
 See also at _[[motivic multiple zeta values]]_.
 
+category: algebraic geometry
 [[!redirects motif]]
 [[!redirects motive]]
 [[!redirects motives]]
