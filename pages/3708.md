@@ -109,7 +109,7 @@ where we first forget the abelian group object structure and then project onto t
 
 ## Examples
 
-### Modules as tangents to rings
+### Modules as tangents to rings {#OrdinaryModules}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -195,8 +195,69 @@ So in particular for $S = \Delta$ the [[simplex category]] we have that [[simpli
 
 The statement was suggested at some point by [[Thomas Nikolaus]] in discussion with [[Urs Schreiber]], who then asked [[Herman Stel]] to prove it. A writeup is in ([Stel](#Stel)).
 
-(...)
+The crucial property underlying the statement is that the [[Lawvere theory]] $T =$  [[CartSp]] over wich smooth algebras are $T$-algebras is in fact a [[Fermat theory]] in that [[Hadamard's lemma]] holds for [[smooth function]]s in particular on [[Cartesian space]]s.
 
+This implies in particular that for every $k \in \mathbb{N}$ and every smooth function $f : \mathbb{R}^k \to \mathbb{R}$ there are [[smooth function]]s $\{h_{i,j} \in C^\infty(\mathbb{R}^k \times \mathbb{R}^k, \mathbb{R})\}_{i,j = 1}^n$ such that such that the function
+
+$$
+  f \circ + : \mathbb{R}^k \times \mathbb{R}^k \to \mathbb{R}
+$$
+
+has an expansion given for all $p, w \in \mathbb{R}^k$ by
+
+$$
+  f(p+w) = f(p) + \sum_{l = 1}^k w_l \cdot \frac{\partial f}{\partial x_l}(p)
+  + 
+  \sum_{i,j}
+   w_i \cdot w_j h_{i,j}(p,w)
+  \,.
+$$
+
+
+We now use that any [[smooth algebra]] $A$ regarded as a product-preserving functor $A : CartSp \to Set$ reflects these relations in that for all $r, e \in A(k) = U(A)^k$ we have that
+
+$$
+  A(f)(r+e) 
+  = 
+  A(f)(r) + 
+  \sum_{l = 1}^k w_l \cdot A\left(\frac{\partial f}{\partial x_l}\right)(r)
+  + 
+  \sum_{i,j}
+   e_i \cdot e_j A(h_{i,j})(r,e)
+  \,.
+$$
+
+Now if $R \in SmoothAlg$  and $A$ is an object in $Ab(SmoothAlgebra/R)$ then in particular its underlying ring will be an object in $Ab(Ring/U(R))$. By the [above theorem](#OrdinaryModules) this means that the underlying ring is a square-zero-extension $U(R) \oplus N$ by some $N \in U(R) Mod$.
+
+So it follows every element of $A(1)$ is of the form $(r, \epsilon)$ with $\epsilon \in N$ and we can always write it as 
+
+$$
+  (r,0) + (0, \epsilon) 
+  \,.
+$$
+
+Moreover, since $A$ is by assumption a group object over $R$, it follows that for all $f \in C^\infty(\mathbb{R}^k , \mathbb{R})$ and for all $r \in R(1)$ we have
+
+$$
+  A(f)(r) = R(f)(r)
+  \,.
+$$
+
+So we only need to know how $A$ acts on mixed terms. The point this is that the above Hadamard-quotient formula reduces the action of any smooth function to just operations of this form $A(f)(r)$ and to ordinary multiplication and addition, so it actually fixes $A(f)$ from the restriction of $A(f)$ to elements of the form $(r,0)$ and the module structure on $N$:
+
+$$
+  A(f)(r +\epsilon)
+  =
+  A(f)(r) + 
+  \sum_{l = 1}^k w_l \cdot A\left(\frac{\partial f}{\partial x_l}\right)(r)
+  + 
+  \sum_{i,j}
+   e_i \cdot e_j A(h_{i,j})(r,e)
+  
+$$
+
+
+(...)
 
 =--
 
