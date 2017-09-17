@@ -1,4 +1,11 @@
-The Cantor-Schroeder-Bernstein theorem says that the order relation on cardinalities of [[set]]s is antisymmetric. In other words, define an order on sets by $X \leq Y$ if there exists a monomorphism $f: X \to Y$. Then, if both $X \leq Y$ and $Y \leq X$, there exists an [[isomorphism]] of sets $X \cong Y$. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+The Cantor-Schroeder-Bernstein theorem says that the order relation on [[cardinalities]] of [[set]]s is antisymmetric. In other words, define an order on sets by $X \leq Y$ if there exists a [[monomorphism]] $f: X \to Y$. Then, if both $X \leq Y$ and $Y \leq X$, there exists an [[isomorphism]] of sets $X \cong Y$. 
 
 ## Proof 
 
