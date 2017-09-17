@@ -31,9 +31,9 @@ A **crossed complex** $C$ is
     \array{
       \cdots &\to& C_3 &\stackrel{\delta}{\to}& C_2
       &\stackrel{\delta}{\to}&
-      C_1
+      C_1 &
      \stackrel{\overset{\delta_t}{\to}}{\underset{\delta_s}
-{\to}} 
+{\to}} &
      C_0
      \\
      && \downarrow && \downarrow && \downarrow^{\mathrlap{\delta_s}}
