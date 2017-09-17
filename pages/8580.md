@@ -129,18 +129,19 @@ The flavor of _[[type theory]] with [[propositional equality]]_ for which this i
 But there is then a compatibility issue, for now we have a notion of equivalence between things, but we also have a notion of _maps/[[functions]]_ between things as a special case of the [[dependent product types]]
 
 $$
-  f \colon X \to A \coloneqq \prod_{x \colon X} A
+  f \colon \left(X \to A\right) \coloneqq \prod_{x \colon X} A
   \,.
 $$
 
 Suppose then that we have such a map between collections of gauge fields $\phi \colon [X, \mathbf{B}G_{conn}] \to [Y, \mathbf{B}H_{conn}]$ on two possibly different spacetimes with two different [[gauge groups]]. (For instance we might be looking at [[Montonen-Olive duality]] or [[Seiberg duality]] of [[super Yang-Mills theory]].) Then we should call $\phi$ an equivalence (in the physics literature often: a "duality") if, while not necessarily being a "[[bijection]]", it is such that the preimage $\phi^{-1}(\nabla) \in [X,\mathbf{B}G_{conn}]$ of a gauge field $\nabla \in [Y, \mathbf{B}H_{conn}]$ consists of gauge fields that are all gauge equivalent to each other, with the gauge equivalences exhibiting this equivalence themselves all being gauge equivalent to each other, etc. If this is the case one says that all [[homotopy fibers]] ("gauge pre-images") of $\phi$ are [[contractible]] ("gauge equivalent to a single gauge field") and that $\phi$ is a _[[weak homotopy equivalence]]_.
 
-For consistency we should demand that the notion of equivalence is such that the notion of equivalence is such that the space of direct equivalences 
-$[X, \mathbf{B}G_{conn}] \simeq [Y, \mathbf{B}H_{conn}]$ is itself equivalent to the space of such weak homotopy equivalences $[X, \mathbf{B}G_{conn}] \stackrel{\simeq}{\to} [Y, \mathbf{B}H_{conn}]$. 
+For consistency we should demand that the notion of equivalence is such that the space of direct equivalences 
+$[X, \mathbf{B}G_{conn}] \simeq [Y, \mathbf{B}H_{conn}]$ is itself equivalent to the space of such  weak homotopy equivalences ("dualities") $[X, \mathbf{B}G_{conn}] \stackrel{\simeq}{\to} [Y, \mathbf{B}H_{conn}]$. 
 
-This statement is called the _[[univalence]] [[axiom]]_. The [[intensional type theory]]-language considers so far equipped with this axiom is called _[[homotopy type theory]]_.
+This requirement is called the _[[univalence]] [[axiom]]_. 
+The [[intensional type theory]]-language considered so far equipped with this axiom is called _[[homotopy type theory]]_.
 
-We indicate now some central judgements that are expressible in homotopy type theory. ... This involves [[group theory]] and [[representation theory]], two of the pillars of modern [[quantum theory]]/[[quantum field theory]]...
+We indicate now some central judgements that are expressible in homotopy type theory. (...) This involves [[group theory]] and [[representation theory]], two of the pillars of modern [[quantum theory]]/[[quantum field theory]] (...)
 
 
 **Structures expressible in [[homotopy type theory]]**:
@@ -161,6 +162,8 @@ Dynamics in physics says how things _move_, hence how they trace out [[trajector
 (...)
 
 adding the [[modal logic|modalities]] $(\flat \vdash \sharp)$ to [[homotopy type theory]] yields _[[cohesive homotopy type theory]]_.
+
+(...)
 
 **Structures expressible in [[cohesive homotopy type theory]]**, 
 
