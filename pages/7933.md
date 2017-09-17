@@ -90,6 +90,12 @@ The basic constructions that higher geometric quantization is concerned with are
     }
   $$
 
+### Of non-integral 2-forms
+
+While only integral [[presymplectic forms]] have a [[prequantization]] to a prequantum [[circle bundle with connection]], hence to a $(\mathbb{Z} \to \mathbb{R})$-[[principal 2-bundle]], a general 2-form has a higer prequantization given by a [[connection on a 2-bundle]] on a [[principal 2-bundle]] with structure-[[2-group]] that coming from the [[crossed module]] $(\Gamma \hookrightarrow \mathbb{R})$, where $\Gamma$ is the [[discrete group]] of [[periods]] of the 2-form.
+
+This is discussed further at _[[prequantization of non-integral 2-forms]]_.
+
 ### Of 2-plectic $\infty$-groupoids
 
 #### In codimension 2
