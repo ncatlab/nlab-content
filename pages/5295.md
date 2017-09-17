@@ -95,7 +95,7 @@ General reviews include
 _
 Reviews with further developments include for instance
 
-* [[Frank Waaldijk]], _On the foundations of constructive mathematics -- especially to the theory of continuous functions_  ([pdf](http://www.fwaaldijk.nl/foundations+of+constructive+mathematics.pdf))
+* [[Frank Waaldijk]], _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_  ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
 
   (with a focus on [[constructive analysis]]).
 
