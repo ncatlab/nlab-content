@@ -304,4 +304,9 @@ c1.from.part[1].generic_member.in = c1.from.part[1]; c1.from.part[2].generic_mem
 
 The END.
 
+
 category: people
+
+[[!redirects Rod Mc Guire]]
+[[!redirects Rod McGuire]]
+[[!redirects RodMcGuire]]
