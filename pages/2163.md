@@ -161,6 +161,8 @@ The [[Thom group]] $\mathcal{N}_*$ of cobordism classes of unoriented compact sm
 
   * [[(∞,n)-category of cobordisms]]
 
+* [[conformal cobordism category]]
+
 * [[cobordism hypothesis]]
 
 
