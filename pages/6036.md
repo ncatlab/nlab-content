@@ -115,6 +115,13 @@ and the appearance of the [[string Lie 2-algebra]] as the [[Heisenberg Lie 2-alg
 [[!redirects strings]]
 [[!redirects F1-brane]]
 
+[[!redirects fundamental string]]
+[[!redirects fundamental strings]]
+[[!redirects F-string]]
+[[!redirects F1-brane]]
+[[!redirects F-strings]]
+[[!redirects F1-branes]]
+
 [[!redirects bosonic string]]
 [[!redirects bosonic strings]]
 
