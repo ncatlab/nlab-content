@@ -107,7 +107,7 @@ there is a distinguished triangle $X \to Y \to Z$ where $Z \in N$
 admits calculi of both left and right fractions. 
 
 * For $S$ a [[site]], the collection of [[local epimorphism]]s
-in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$ admits a calculus of right fractions.  In this case the localization is the category of [[sheaf|sheaves]] on $S$.
+in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$ admits a calculus of right fractions.  In this case the localization is the [[category of sheaves]] on $S$.
 
 
 ## References ##
