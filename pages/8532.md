@@ -1,20 +1,16 @@
 # `TwoVect`: a Mathematica Package for 2-Vector Spaces #
 
-_Under construction!_
-
 ### What is TwoVect? ###
 
 `TwoVect` is a Mathematica package for working with finite-dimensional complex [[2-vector spaces]]. It implements all the basic operations of a skeletal version of **2Vect**, the symmetric monoidal bicategory of finite-dimensional 2-vector spaces.
 
-2-vector space are categories with many of the same properties as ordinary vector spaces. There are two main types of 2-vector spaces; the sort we are concerned with here are known as ''Kapranov-Voevodsky'' 2-vector spaces. They have a range of applications in quantum algebra, representation theory, topological quantum field theory and quantum information. This package can help with calculations in these areas.
+2-vector space are categories with many of the same properties as ordinary vector spaces. There are two main types of 2-vector spaces; the sort we are concerned with here are Kapranov-Voevodsky 2-vector spaces. They have a range of applications in quantum algebra, representation theory, topological quantum field theory and quantum information. This package can help with calculations in these areas.
 
 `TwoVect` was first developed by [Dan Roberts](http://ctpweb.lns.mit.edu/personnel.html) in 2011 as part of an MSc dissertation, with assistance from [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary). If you've got any questions, please get in touch.
 
 ### How can I get it? ###
 
-Here are download links for the package and the user guide.
-
-_Available very soon!_
+Here are download links for the [packages](http://www.cs.ox.ac.uk/people/jamie.vicary/twovect/guide.pdf) and the [user guide](http://www.cs.ox.ac.uk/people/jamie.vicary/twovect/twovect.zip).
 
 ### What's it for? ###
 
