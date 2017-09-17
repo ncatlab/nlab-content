@@ -39,7 +39,7 @@ If $A$ is an [[abelian category]] then the category of $A$-presheaves on $\Lambd
 3. Any morphism $f$ in $\Lambda([n],[m])$ can be uniquely written as a composition $f = \phi\circ g$ where $\phi\in\Delta([n],[m])$ and $g\in\Aut_\Lambda([n])$.
 =--
 
-The generalizations of this theorem are the starting point of the theory of skew-simplicial sets of Krasausukas or equivalently crossed simplicial groups of Loday and Fiedorowicz.
+The generalizations of this theorem are the starting point of the theory of [[skew-simplicial set]]s of Krasausukas or equivalently crossed simplicial groups of Loday and Fiedorowicz.
 
 The cyclic category is a [[generalized Reedy category]], as explained [here](http://arxiv.org/abs/0809.3341).
 
@@ -52,22 +52,22 @@ Literature:
 
 * [[J.-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. 301, Springer 2nd ed.
 
-* [[V. Drinfeld]], On the notion of geometric realization, [arXiv:math.CT/0304064](http://front.math.ucdavis.edu/0304.5064)
+* [[V. Drinfeld]], _On the notion of geometric realization_, [arXiv:math.CT/0304064](http://front.math.ucdavis.edu/0304.5064)
 
-* [[Alain Connes]], Noncommutative geometry, Academic Press 1994
-(also at <http://www.alainconnes.org/>)
+* [[Alain Connes]], _Noncommutative geometry_, Academic Press 1994
+(also at <http://www.alainconnes.org>)
 
-* R. Krasauskas, Skew-simplicial groups. (Russian)  Litovsk. Mat. Sb.  27  (1987),  no. 1, 89--99. (English transl. [[krasauskas.pdf:file]])
+* R. Krasauskas, _Skew-simplicial groups_, (Russian)  Litovsk. Mat. Sb.  __27__ (1987),  no. 1, 89--99, [MR88m:18022](http://www.ams.org/mathscinet-getitem?mr=88m:18022) (English transl. [[krasauskas.pdf:file]])
 
 * W. G. Dwyer, D. M. Kan, 
-Normalizing the cyclic modules of Connes,
+_Normalizing the cyclic modules of Connes_,
 Comment. Math. Helv. 60 (1985), no. 4, 582--600. 
 
 * W. G. Dwyer, M. J. Hopkins, D. M. Kan, 
-The homotopy theory of cyclic sets,
+_The homotopy theory of cyclic sets_,
 Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289. 
 
-* Z. Fiedorowicz, Jean-Louis Loday, Crossed simplicial groups and their associated homology,  Trans. Amer. Math. Soc.  326  (1991),  no. 1, 57--87.
+* Z. Fiedorowicz, Jean-Louis Loday, _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855)
 
 
 ## Discussion
@@ -124,7 +124,7 @@ I don't have a problem with people saying "category of simplices" for $\Delta$, 
 [[Mike Shulman|Mike]]: You do, however, have a good point that when writing in English we should not try to distinguish in _meaning_ between "cycle category" and "category of cycles," since when translating into many other languages they will become the same.  I would still prefer that we name the page "cycle category" here on the nLab, since it accords better with our existing terminology for similar categories, but I think you should feel free to use "category of cycles."
 =--
 
-
+[[!redirects cyclic category]]
 [[!redirects Connes' cyclic category]]
 [[!redirects category of cycles]]
 
