@@ -9,14 +9,18 @@
 =--
 =--
 
+# Paradoxes
 
 ## Idea
 
-A _paradox_ is or [[implication|implies]] a [[contradiction]]. Such as
+A _paradox_ is an example of reasoning that seems perfectly valid but which results in a [[contradiction]] or [[inconsistency]]. For example:
 
 > The following statement is false.
 
 > The previous statement is true.
+
+Either sentence alone seems perfectly reasonable, and could meaningfully be said in another context; but together they form a paradox.  It is not just that the sentences contradict each other (in which case one or both might simply be false); but the *existence* of the sentences contradicts the assumption that they are meaningful at all (at least using [[classical logic]]).
+
 
 ## Examples
 
@@ -26,4 +30,6 @@ A _paradox_ is or [[implication|implies]] a [[contradiction]]. Such as
 
 * [[Cantor's paradox]]
 
+
+[[!redirects paradox]]
 [[!redirects paradoxes]]
