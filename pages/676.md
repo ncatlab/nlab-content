@@ -168,6 +168,8 @@
       * [[gauge fixing]]
       * examples
         * [[electromagnetic field]]
+          * [[electric charge]]
+          * [[magnetic charge]]
         * [[Yang-Mills field]]
 
           * [[Yang-Mills theory]]
