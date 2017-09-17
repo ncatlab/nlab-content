@@ -18,7 +18,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -129,6 +129,14 @@ This is prop 1.8 4 in
 
 
 =--
+
+
+## Coherent $(\infty,1)$-operads
+
+See 
+
+* [[coherent (∞,1)-operad]].
+
 
 ## Relation between the two definitions {#relation}
 
@@ -334,8 +342,11 @@ Hence $C_f$ is a weak equivalence.
 
 * [[monad]] / [[(∞,1)-monad]]
 
-* [[operad]] / **$(\infty,1)$-operad**
+* [[operad]] / **$(\infty,1)$-operad**, [[model structure on operads]]
 
+  * [[algebra over an (∞,1)-operad]], [[model structure on algebras over an operad]]
+
+    * [[module over an algebra over an (∞,1)-operad]], [[model structure on modules over an algebra over an operad]]
 
 
 ## References
@@ -355,12 +366,16 @@ Here are two blog entries on talks on this stuff:
 
 The formulation in terms of an $(\infty,1)$-version of the [[category of operators]] is introduced in
 
-* [[Jacob Lurie]], _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
+* [[Jacob Lurie]], _[[Commutative Algebra]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
 {#LurieCommutative}
 
 and further discussed in
 
-* [[Jacob Lurie]], _[[Ek-Algebras]]_ .
+* _[[Ek-Algebras]]_ .
+
+Now in section 2 of the textbook
+
+* _[[Higher Algebra]]_
 
 
 [[!redirects (∞,1)-operad]]
