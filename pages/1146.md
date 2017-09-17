@@ -237,3 +237,6 @@ from which a series of others follow:
 [[!redirects bi-complex]]
 [[!redirects bi-complexes]]
 
+[[!redirects double chain complex]]
+[[!redirects double chain complexes]]
+
