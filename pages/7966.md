@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[presymplectic manifold]] $(X,\omega)$, the [[quotient]] (if it exists suitably) by the [[flow]] of the [[kernel]] of the [[presymplectic form]] $\omega : T X \to T^* X$ is the [[symplectic manifold]] obtained by _gauge reduction_.
+Given a [[presymplectic manifold]] $(X,\omega)$, the [[quotient]] (if it exists suitably) by the [[flow]] of the [[kernel]] of the [[presymplectic form]] $\omega : T X \to T^* X$ is the [[symplectic manifold]] obtained by _gauge reduction_. Also called _[[presymplectic reduction]]_
 
 In the interpretation in [[physics]] this takes one from a [[covariant phase space]] to a _[[reduced phase space]]_.
 
