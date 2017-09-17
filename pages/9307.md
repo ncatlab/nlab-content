@@ -52,6 +52,8 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 
 * [[higher prequantum geometry]]
 
+* [[higher complex analytic geometry]]
+
 ## References
  {#References}
 
