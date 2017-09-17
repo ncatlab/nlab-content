@@ -59,3 +59,5 @@ Zoran: I am not competent enough in topos theory.
 >Maybe we can change this by talking about [[synthetic differential geometry applied to algebraic geometry]].
 
 See also [[contributors to algebraic geometry]]. 
+
+[[!redirects algebraic geometer]]
