@@ -54,7 +54,7 @@ Discussion from the point of view of [[homological algebra]] of [[abelian sheave
 
 The notion of symplectic geometry may be understood as the mathematical structure that underlies the physics of [[Hamiltonian mechanics]]. A classical monograph that emphasizes this point of view is
 
-* [[Vladimir Arnold]], _Mathematical methods of classical mechanics_ Springer.
+* [[Vladimir Arnold]], _[[Mathematical methods of classical mechanics]]_ 
 
 For more on this see [[Hamiltonian mechanics]]. 
 
