@@ -72,6 +72,22 @@ This definition has an obvious generalization to [[compact object in an (infinit
 One has to be careful about the following variations on this theme
 
 
+### Finitely presentable objects {#FinitelyPresentableObject}
+
+Sometimes the notion _compact object_  is called **finitely presentable object** or **object of finite presentation** (see the [references](references) below.)
+
++--{: .query}
+
+[[Mike Shulman]]: If $C$ is a [[concrete category]] and its [[forgetful functor]] $F : C \to $ [[Set]] preserves [[filtered colimit]]s (is "finitary"), then I believe that an object of $C$ is compact/finitely presentable in this sense iff it is a [[finitely generated object]].  Possibly there is more generality in which this is true.
+
+There is also an abstract notion of "finitely generated object" meaning that $hom(X,-)$ preserves directed colimits of monomorphisms, which in the finitary-over-$Set$ case I think should be equivalent to the more concrete version.
+
+=--
+
+
+
+
+
 ### Compactness in additive categories 
 
 When $C$ is an [[additive category]] (often a [[triangulated category]]), an object $x$ in $C$ is called **compact** if for every set $S$ of objects of $C$ such that the coproduct $\coprod_{s\in S} s$ exists, the canonical map
@@ -165,7 +181,13 @@ Hovey wants this result in view of a small object argument on the way to proving
 
 
 
-## References
+## References {#references}
+
+Compact objects are discussed under the term "finitely presentable" or "finitely-presentable" objects for instance in
+
+* Kashiwara, Schapira, [[Categories and Sheaves]], Definition 6.3.2;
+
+* [[Peter Johnstone]], [[Stone Spaces]], Definition VI.1.8.
 
 For the pages quoted in the context of the discussion of compact objects in [[Top]] see
 
@@ -176,4 +198,16 @@ For the general definition with an eye towards the definition of [[compact objec
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
+
+
+
+
+
 [[!redirects compact object"]]
+[[!redirects compact objects]]
+
+[[!redirects finitely presentable object]]
+[[!redirects finitely presentable objects]]
+
+[[!redirects finitely-presentable object]]
+[[!redirects finitely-presentable objects]]
