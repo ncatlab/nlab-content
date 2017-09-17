@@ -8,3 +8,5 @@
 category:people
 
 [[!redirects MatanP]]
+
+[[!redirects Matan Prasma]]
