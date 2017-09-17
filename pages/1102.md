@@ -1,6 +1,20 @@
 
 
-#Definition#
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 An $(\infty,1)$-[[(infinity,1)-functor|functor]] $F : C \to D$ is **essentially surjective** if, when modeled as a functor of [[simplicially enriched category|simplicially enriched categories]], the [[homotopy category of an (infinity,1)-category|induced]]
 functor 
@@ -9,11 +23,17 @@ $$
 $$ 
 of ordinary categories is [[essentially surjective functor|essentially surjective]]
 
+## Properties
 
-#Remarks#
+An [[(∞,1)-functor]] which is both essentially surjective as well as [[full and faithful (∞,1)-functor]] is precisely an [[equivalence of (∞,1)-categories]].
 
-* See also [[fully faithful (infinity,1)-functor]].
+## Related concepts
 
+* [[essentially surjective functor]]
+
+* [[full and faithful (∞,1)-functor]] / [[fully faithful (infinity,1)-functor]]
+
+* [[equivalence of (∞,1)-categories]]
 
 [[!redirects (∞,1)-essentially surjective functor]]
 [[!redirects (infinity,1)-essentially surjective functor]]
