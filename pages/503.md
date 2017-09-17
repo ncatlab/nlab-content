@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Idempotents
++-- {: .hide}
+[[!include idempotents - contents]]
+=--
 #### Category theory
 +--{: .hide}
 [[!include category theory - contents]]
@@ -17,7 +21,7 @@
 
 ## Idea 
 
-The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by [[Bill Lawvere]] in his influential paper _[Metric spaces, generalized logic, and closed categories](#Lawvere)_. It is now seen by [[category theory|category theorists]] as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[module]]s. 
+The concept of _Cauchy completeness_, ordinarily thought of as applying to [[metric spaces]], was vastly generalized by [[Bill Lawvere]] in his influential paper _[Metric spaces, generalized logic, and closed categories](#Lawvere)_. It is now seen by [[category theory|category theorists]] as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[modules]]. In category theory one also speaks of _[[idempotent]] completeness_.
 
 The basic idea is that the Cauchy [[completion]] of a [[category]] is the closure of a category under what are called "[[absolute limit]]s", i.e., those [[limit]]s that are preserved by any [[functor]] whatsoever. Equivalently, the Cauchy completion is the closure with respect to [[absolute colimit]]s. If $C$ is [[small category|small]], the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "[[free cocompletion]]", aka [[presheaf category]]
 
@@ -641,3 +645,6 @@ Cauchy completion of [[internalization|internal]] [[prosets]] is discussed in
 
 [[!redirects Cauchy completion]]
 [[!redirects Cauchy completions]]
+
+[[!redirects idempotent complete category]]
+[[!redirects idempotent complete categories]]
