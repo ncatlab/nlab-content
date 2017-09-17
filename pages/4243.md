@@ -51,6 +51,7 @@ On coisotropic [[brane]]s in symplectic target manifolds that arise by complexif
 and
 
 * [[holographic principle]].
+
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
@@ -67,6 +68,7 @@ and
 
       * [[Chern-Simons theory]]
 
+  * [[topological membrane]]
 
 
 
