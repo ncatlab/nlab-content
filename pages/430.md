@@ -12,11 +12,27 @@ Fields are not as well-behaved categorically as most other common algebraic stru
 The words 'field' and 'field theory' are also used in mathematical physics and geometry with a completely different meaning denoting a quantity over some space, thus [[vector field]]s, classical [[scalar field]]s, classical [[tangent vector field]]s, [[quantum field]]s and so on.  Probably these should be summarised at something like [[physical field]].
 
 
+## Accessibility and sketchability {#AccSketch}
+
+The [[category]] of fields and field homomorphisms (a full subcategory of the category of [[rings]]) is not complete or cocomplete.  In particular, it lacks a terminal object and also lacks an initial object (though it has a [[weakly initial set]], namely the set of [[prime field]]s).  In particular, it is therefore not [[algebraic category|algebraic]] or [[locally presentable category|locally presentable]].
+
+It is, however, [[accessible category|accessible]], even *finitely* accessible, and therefore can be presented as the category of models of a mixed limit-colimit [[sketch]].  It is moreover straightforward to write down such a sketch.  We suppose as given to start with a limit sketch whose models are commutative rings, with $F$ denoting the ring.  We can construct via limit constructions a subobject $I\hookrightarrow F$ consisting of the invertible elements, as the equalizer of the two maps
+$$ F \times F \;\rightrightarrows\; F,$$
+the first being given by multiplication and the second by the composite $F\times F \to   \overset{1}{\to} F$.  We now assert that if we take the pullback
+$$\array{P & \overset{}{\to} &  \\
+  \downarrow && \downarrow^0\\
+  I& \hookrightarrow & F,}$$
+then the object $P$ is initial (i.e. $0$ is not invertible, or equivalently not equal to $1$), and moreover the pullback is also a pushout (i.e. every element of $F$ is either $0$ or invertible).  Of course, in making these last two assertions we use the fact that we are allowing ourselves a limit-colimit sketch instead of just a limit sketch.
+
+
+
 ## Constructive notions ##
 
 For the same reason, in [[constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
 
 * If we replace "an element is invertible iff it is nonzero" by "an element is invertible xor (exclusive or) it equals zero" (which is classically equivalent but constructively stronger), we obtain the notion of **discrete field**. Such a field $F$ is discrete in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]]; a disadvantage is that it is not satisfied (constructively) by the ring of real numbers (however defined), although it is satisfied by the ring of rational (or even algebraic) numbers and by the finite fields as usual.
+
+  The internal discrete fields in any [[coherent category]] can also be identified with the models in that category of the limit-colimit sketch described above.  The other constructive notions of field below can also be described as models for different limit-colimit sketches.
 
 * If, alternatively, we interpret 'nonzero' in this clause as a reference to an [[apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have extra structure, the apartness relation is definable from the algebra: $x # y$ iff $x - y$ is invertible.) This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field.'  An advantage is that the real numbers (in the located Dedekind sense) form a Heyting field, although (for example) the MacNeille real numbers (a less located version of the Dedekind reals) need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
 
@@ -59,7 +75,7 @@ _[[John Baez|John]] says_: Unlike the category of fields, the category of vector
 
 I have a question.  This article says the category of fields is 'accessible', and it says that an accessible category is the category of models of a [[sketch]].  What sort of sketch does the job for fields.  They're not models of a finite limits theory, so I assume we also need some colimits in our sketch.  How does this work?   Which  constructive definition(s) of field do we use?
 
-_[[Gonçalo Marques]]_:  The [[sketch]] for fields is described on page 248 of "Category theory for computing science" by Michael Barr and Charles Wells (3rd edition). They use what they call "finite discrete sketches". It does involve a cocone. 
+_[[Gon�alo Marques]]_:  The [[sketch]] for fields is described on page 248 of "Category theory for computing science" by Michael Barr and Charles Wells (3rd edition). They use what they call "finite discrete sketches". It does involve a cocone. 
 
 
 [[!redirects fields]]
