@@ -1,4 +1,14 @@
 
 * [webpage](http://iml.univ-mrs.fr/~girard/)
 
+## Writings
+
+* [[Lectures on Logic]]
+
+## Related entries
+
+* [[linear logic]]
+
 category: people
+
+[[!redirects Girard]]
