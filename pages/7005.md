@@ -42,11 +42,11 @@ We state univalence first in ([[intensional type theory|intensional]]) [[type th
 
 ### In the type theory
 
-Let $X$ and $Y$ be [[types]].  There is a canonically defined map from the [[identity type]] $(X = Y)$ of paths (in [[Type]]) between them to the [[function type]] $(X \simeq Y)$ of [[equivalences]] between them.  It can be defined by *path induction*, i.e. the eliminator for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$.
+Let $X$ and $Y$ be [[types]].  There is a canonically defined map from the [[identity type]] $(X = Y)$ of paths (in [[Type]]) between them to the [[function type]] $(X \stackrel{\simeq}{\to} Y)$ of [[equivalences in homotopy type theory]] between them.  It can be defined by *[path induction](inductive%20type#PathInduction)*, i.e. the [[term elimination rule|eliminator]] for the identity types, by specifying that it takes the identity path $1_X \colon (X=X)$ to the identity equivalence of $X$.
 
-**Univalence:** _For any two [[types]] $X,Y$, this map $(X=Y)\to (X\simeq Y)$ is an equivalence._
+**Univalence:** _For any two [[types]] $X,Y$, this map $(X=Y)\to (X\simeq Y)$ is an [[equivalence in homotopy type theory|equivalence]]._
 
-Univalence is a commonly assumed axiom in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (the _Univalent Foundations Project_.)
+Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (the _Univalent Foundations Project_.)
 
 ### In categorical semantics
  {#InCategoricalSemantics}
