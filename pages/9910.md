@@ -25,6 +25,11 @@ This universally arises as the hom-spectra in the [[(∞,1)-category of noncommu
 
 A review and further discussion is in ([Blumberg-Gepner-Tabuada 10, section 9](BlumbergGepnerTabuada10)).
 
+## Related concepts
+
+[[!include noncommutative motives - table]]
+
+
 ## References
 
 The characterization of non-connective algebraic K-theory via [[noncommutative motives]] is due to 
