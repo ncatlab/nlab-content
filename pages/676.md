@@ -79,13 +79,21 @@
 
     * [[AQFT|algebraic QFT]]
 
-      * [[operator algebra]]
-
-      * [[local net]]
-
       * [[Wightman axioms]]
 
+      * [[Haag-Kastler axioms]]
+
+        * [[operator algebra]]
+
+        * [[local net]]
+
       * [[Osterwalder-Schrader theorem]]
+
+      * [[PCT theorem]]
+
+      * [[Bisognano-Wichmann theorem]]
+
+        * [[modular theory]]
 
       * [[spin-statistics theorem]]
 
