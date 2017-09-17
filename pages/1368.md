@@ -117,8 +117,6 @@ This is [[Higher Topos Theory|HTT, theorem 5.1.5.6]].
 
 =--
 
-+-- {: .un_remark}
-###### Remark
 
 In terms of the model given by the [[model structure on simplicial presheaves]], this is statement made in 
 
@@ -126,7 +124,76 @@ In terms of the model given by the [[model structure on simplicial presheaves]],
 
 which gives that article its name.
 
++-- {: .un_def}
+###### Definition
+
+Let $A$ and $B$ be [[model categories]], $D$ a plain [[category]] and
+
+$$
+  \array{
+    D &\stackrel{r}{\to}& A
+    \\
+    & \searrow_\gamma 
+    \\
+    && B
+  }
+$$
+
+two plain [[functor]]s. Say that a **model-category theoretic factorization** of $\gamma$ through $A$ is 
+
+1. a [[Quillen adjunction]] $(L \dashv R) : A \stackrel{\overset{L}{\to}}{\underset{R}{\leftarrow}} B$
+
+1. a [[natural transformation|natural]] weak equivalence $\eta  : L \circ r \to \gamma$
+
+   $$
+     \array{
+       D &&\stackrel{r}{\to}&& A
+       \\
+       & \searrow_\gamma &{}^\eta\swArrow& \swarrow_L
+       \\
+       && B
+     }
+     \,.
+   $$
+
+Let the [[category]] of such factorizations have morphisms $((L \dashv R), \eta ) \to ((L' \dashv R'), \eta' )$ given by [[natural transformation]]s $L \to L'$ such that for all all objects $d \in D$ the diagrams
+
+$$
+  \array{
+     L\circ r(d) &&\to&& L'\circ r(d)
+     \\
+     & {}_{\eta_{d}}\searrow && \swarrow_{\eta'_{d}}
+     \\
+     &&
+     \gamma()
+  }
+$$
+
+commutes.
+
 =--
+
+Notice that the [[(∞,1)-category]] presented by a [[model category]] -- at least by a [[combinatorial model category]] -- has all [[limit in a quasi-category|(∞,1)-categorical colimits]], and that the Quillen left adjoint functor $L$ presents, via its [[derived functor]], a left [[adjoint (∞,1)-functor]] that preserves $(\infty,1)$-categorical colimits. So the notion of factorization as above is really about factorizations through colimit-preserving $(\infty,1)$-functors into $(\infty,1)$-categories that have all colimits.
+
++-- {: .un_theorem}
+###### Theorem
+**(model category presentation of free $(\infty,1)$-cocompletion)**
+
+For $C$ a [[small category]], the projective global [[model structure on simplicial presheaves]] $[C^{op}, sSet]_{proj}$ on $C$ is universal with respect to such factorizations of functors out of $C$:
+
+every functor $C \to B$ to any [[model category]] $B$ has a factorization through $[C^{op}, sSet]_{proj}$ as above, and the category of such factorizations is [[contractible]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 1.1 in
+
+* [[Dan Dugger]], _[[Universal homotopy theories]]_
+
+=--
+
 
 
 +-- {: .un_cor}
