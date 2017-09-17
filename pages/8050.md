@@ -31,14 +31,31 @@ Some equivalent characterisations ([[constructive mathematics|constructively]] v
 *  Even constructively, a measurable set is null iff its measurable complement (the complement in the algebraic structure of complemented pairs in a Cheng measurable space) is full, and a measurable set is full iff its measurable complement is null.
 
 
-## In untraditional measurable spaces
+### In untraditional measurable spaces
 
 ...
 
 
-## In topological manifolds
+### In topological manifolds
 
 ...
+
+
+## Logic of full/null sets
+
+A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be considered modulo null sets.  We say that the property $\phi$ is true __almost everywhere__ if it is true on some full set, that is if $\{X | \phi}$ is full.  Dually, we say that $\phi$ is true __almost nowhere__ if $\{X | \phi\}$ is null.  It is better to use the [[negation]] of 'almost nowhere', although the terminology for this is not really standard; say that $\phi$ is true __somewhere significant__ if $\{X | \phi\}$ is non-null.
+
+Note that being true almost everywhere is a weakening of being true everywhere (given by the [[universal quantifier]] $\forall$), while being true somewhere significant is a strengthening of being true somewhere (given by the [[particular quantifier]] $\exists$).  Indeed we can build a logic out of these.  Use $\ess\forall i, \phi[i]$ or $\ess\forall \phi$ to mean that a [[predicate]] $\phi$ on $X$ is true almost everywhere, and use $\ess\exists i, \phi[i]$ or $\ess\exists \phi$ to mean that $\phi$ is true somewhere significant.  Then we have:
+$$\forall \phi \;\Rightarrow\; \ess\forall \phi$$
+$$\ess\exists \phi \;\Rightarrow\; \exists \phi$$
+$$\ess\forall (\phi \wedge \psi) \;\Leftrightarrow\; \ess\forall \phi \wedge \ess\forall \psi$$
+$$\ess\exists (\phi \wedge \psi) \;\Rightarrow\; \ess\exists \phi \wedge \ess\exists \psi$$
+$$\ess\forall (\phi \vee \psi) \;\Leftarrow\; \ess\forall \phi \wedge \ess\forall \psi$$
+$$\ess\exists (\phi \vee \psi) \;\Leftrightarrow\; \ess\exists \phi \vee \ess\exists \psi$$
+$$\ess\forall \neg{\phi} \;\Leftrightarrow\; \neg\ess\exists \phi$$
+and other analogues of theorems from [[predicate logic]].  Note that the last item listed requires [[excluded middle]] even though its analogue from ordinary predicate logic does not.
+
+A similar logic is satisfied by '[[eventually]]' and its dual ('frequently') in [[filters]] and [[nets]].
 
 
 [[!redirects null set]]
@@ -60,3 +77,7 @@ Some equivalent characterisations ([[constructive mathematics|constructively]] v
 [[!redirects sets of full measure]]
 [[!redirects subset of full measure]]
 [[!redirects subsets of full measure]]
+
+[[!redirects almost everywhere]]
+[[!redirects almost nowhere]]
+[[!redirects somewhere significant]]
