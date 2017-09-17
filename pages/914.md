@@ -14,15 +14,15 @@ Although $A$, being a directed set, is equipped with a [[preorder]], the net is 
 
 ### Subnet
 
-Given a net $(x_{\alpha})$ with index set $A$, a **subnet** is a net $(y_{\beta})$ with an index set $B$ and a function
+Given a net $(x_{\alpha})$ with index set $A$, a **subnet** is a net $(y_{\beta})$ with an index set $B$ and a monotone function
 $$
   f: B \to A
 $$
-such that $f$ is order preserving in the sense that
+such that 
 $$
-   y_{f(\beta)} = x_{\alpha}
+   y_{\beta} = x_{f(\beta)}
 $$
-and for every $\alpha \in A$ there is a $\beta \in B$ such that $f(\beta) \ge \alpha$.
+and which is cofinal: for every $\alpha \in A$ there is a $\beta \in B$ such that $f(\beta) \ge \alpha$.
  
 ## Logic of nets 
 
