@@ -68,7 +68,7 @@ Further remarks on this are in
 
 * G. Mukherjee, N. Pandey, _Equivariant cohomology with local coefficients_ ([pdf](http://www.ams.org/proc/2002-130-01/S0002-9939-01-06377-8/S0002-9939-01-06377-8.pdf))
 
-* H. Honkasalo, _Sheaves on fixed point sets and quivariant cohomology_, Math. Scand. __78__ (1996), 37--55 ([pdf](http://www.mscand.dk/article.php?id=1099))
+* H. Honkasalo, _Sheaves on fixed point sets and equivariant cohomology_, Math. Scand. __78__ (1996), 37--55 ([pdf](http://www.mscand.dk/article.php?id=1099))
 
 * H. Honkasalo, _A sheaf-theoretic approach to the equivariant Serre spectral sequence_, J. Math. Sci. Univ. Tokyo
 4 (1997), 53--65 ([pdf](http://journal.ms.u-tokyo.ac.jp/pdf/jms040103.pdf))
