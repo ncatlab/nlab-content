@@ -796,7 +796,7 @@ $$
   \,,
 $$
 
-where the bottom morphism is the $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]]. We say that $c_{\mathbf{\Pi}} f$ is the **$\mathbf{\Pi}$-closure** of $f$, and that $f$ is **$\mathbf{\Pi}$-closed** if $X \simeq c_{\mathbf{\Pi}} f$.
+where the bottom morphism is the $(\Pi \dashv Disc)$-[[unit of an adjunction|unit]]. We say that $c_{\mathbf{\Pi}} f$ is the **$\mathbf{\Pi}$-closure** of $f$, and that $f$ is **$\mathbf{\Pi}$[[Pi-closed morphism|-closed]]** if $X \simeq c_{\mathbf{\Pi}} f$.
 
 =--
 
