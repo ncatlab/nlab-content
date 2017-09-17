@@ -132,7 +132,7 @@ $$
   \begin{aligned}
     Bun_\Sigma(GL_n)
       & \simeq
-    [X-\{x\}, GL_n] \;\backslash \;[D-\{x\}, GL_n] \;/\; [D,GL_n]
+    [\Sigma-\{x\}, GL_n] \;\backslash \;[D-\{x\}, GL_n] \;/\; [D,GL_n]
       \\
        & =
     \mathbb{O}_{\Sigma}[(z-x)^{-1}]  \;\backslash\; GL_n(\mathbb{C}((z-x))) \;/\; GL_n(\mathbb{C}[ [(z-x)] ])
