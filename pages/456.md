@@ -60,7 +60,7 @@ We say that
 
 * $f^*$ is the [[inverse image]]
 
-of the geometric morpphism.
+of the geometric morphism.
 
 =--
 
