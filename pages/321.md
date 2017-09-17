@@ -160,7 +160,7 @@ More generally, every [[van Kampen colimit]] in $\mathcal{C}$ is a (co)limit in 
 ### Relation to relations
  {#RelationToRelations}
 
-Correspondences may be seen as generlaizations of [[relations]]. A relation is a [[correspondence]] which is [[(-1)-truncated]] as a [[morphism]] into the [[cartesian product]]. See at _[[relation]]_ and at _[[Rel]]_ for more on this.
+Correspondences may be seen as generalizations of [[relations]]. A relation is a [[correspondence]] which is [[(-1)-truncated]] as a [[morphism]] into the [[cartesian product]]. See at _[[relation]]_ and at _[[Rel]]_ for more on this.
 
 ## Examples
 
