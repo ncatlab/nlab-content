@@ -200,7 +200,14 @@ This is ([Lurie, corollary 5.1.2.3](#Lurie)).
 
 ### Equivalences
 
-A morphism $\alpha$ in $Func(D,C)$ (that is, a natural transformation) is an [[equivalence in an (infinity,1)-category|equivalence]] if and only if each component $\alpha_d$ is an equivalence in $C$.  This is ([Joyal, Chapter 5, Theorem C](#Joyal)).
++-- {: .num_prop }
+###### Proposition
+
+A morphism $\alpha$ in $Func(D,C)$ (that is, a [[natural transformation]]) is an [[equivalence in an (infinity,1)-category|equivalence]] if and only if each component $\alpha_d$ is an equivalence in $C$.  
+
+=--
+
+This is due to ([Joyal, Chapter 5, Theorem C](#Joyal)).
 
 
 ## Examples
@@ -232,7 +239,7 @@ The discussion of [[model category]] models is in A.3.4.
 
 The theorem about equivalences is in
 
-* [[Andre Joyal]], _The Theory of Quasi-Categories and its Applications_
+* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at _[Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/)_, ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
  {#Joyal}
 
 
