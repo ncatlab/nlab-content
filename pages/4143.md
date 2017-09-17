@@ -1,4 +1,11 @@
-A projective representation of a group $G$ is a group homomorphism $G\to PGL(V)$, where $V$ is a $\mathbb{K}$-vector space. Via the projection $GL(V)\to PGL(V)=GL(V)/\mathbb{K}^*$, every linear representation of $G$ induces a projective representation. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _projective representation_ of a [[group]] $G$ is a [[representation]] up to a central term: a group homomorphism $G\to PGL(V)$, where $V$ is a $\mathbb{K}$-vector space. Via the projection $GL(V)\to PGL(V)=GL(V)/\mathbb{K}^*$, every linear representation of $G$ induces a projective representation. 
 
 By the fibration sequence
 $$
@@ -11,3 +18,9 @@ $$
 the obstruction to lift a projective representation of $G$ to a linear representation is represented by an element $c_\rho$ in $H^2(G,\mathbb{K}^*)$.
 
 A refinement of this idea consists in looking at the 2-groupoid $\mathbf{B}GL(V)//\mathbf{K}^*$. Then a functor $(\rho,\lambda):\mathbb{B}G\to \mathbf{B}GL(V)//\mathbf{K}^*$ consists of two maps $\rho:G\to GL(V)$ and $\lambda:G\times G\to \mathbb{K}^*$ such that $\rho(g)\rho(h)=\lambda(g,h)\rho(g h)$, and $\lambda$ is a 2-cocycle on $G$ with values in $\mathbb{K}^*$ representing the cohomology class $c_\rho$.
+
+## Related concepts
+
+* [[projectively flat connection]] 
+
+[[!redirects projective representations]]
