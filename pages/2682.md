@@ -170,4 +170,6 @@ Summaries of this line of thinking include
 The String Landscape, the Cosmological
 Constant, and the Arrow of Time_, 2011 ([pdf](http://www.ctc.cam.ac.uk/stephen70/talks/swh70_bousso.pdf))
 
+For more on this see the references at _[[eternal inflation]]_.
+
 
