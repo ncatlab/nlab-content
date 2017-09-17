@@ -19,6 +19,10 @@
 
 A [[bundle]] of [[spectra]].
 
+Specifically, for $X$ an [[∞-groupoid]] a spectrum parameterized over $X$ is an [[(∞,1)-functor]] $X \to Spec$ from $X$ to the [[stable (∞,1)-category of spectra]].
+
+The collection of all parameterized spectra for all $\infty$-groupoids $X$ should form the [[tangent (∞,1)-category]] of [[∞Grpd]]. 
+
 ## Applications 
 
 In [[twisted cohomology]].
