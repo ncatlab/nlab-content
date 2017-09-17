@@ -22,9 +22,9 @@
 
 In [[Type Two Theory of Effectivity]] for [[computable analysis]] (see [Weihrauch 00](#Weihrauch00)) one considers the following definition:
 
-A _representation_ of a $T_0$-[[topological space]] $X$ is a presentation of it as a [[quotient space]] of a [[subspace]] $B$ of [[Baire space]] (the underlying space of [[Kleene's second algebra]]). Such a representation is called _admissible_ if the quotient map $B \to X$ it has the [[right lifting property]] again [[continuous functions]] out of other subspaces $B'$ of Baire space.
+A _representation_ of a $T_0$-[[topological space]] $X$ is a presentation of it as a [[quotient space]] of a [[subspace]] $B$ of [[irrational number|Baire space]] (the underlying space of [[Kleene's second algebra]]). Such a representation is called _admissible_ if the quotient map $B \to X$ it has the [[right lifting property]] again [[continuous functions]] out of other subspaces $B'$ of Baire space.
 
-Given representations of $X$ and $X'$ in this way, then a [[function]] $f \colon X \to X'$ is called _contrinuously realizable_ if there exists a [[continuous function]] $\phi \colon B \to B'$ between the corresponding subspaces of Baire space such that the eviden [[commuting diagram|diagram commutes]].
+Given representations of $X$ and $X'$ in this way, then a [[function]] $f \colon X \to X'$ is called _continuously realizable_ if there exists a [[continuous function]] $\phi \colon B \to B'$ between the corresponding subspaces of Baire space such that the evident [[commuting diagram|diagram commutes]].
 
 For admissible representations a function $X\to X'$ is continuously realizable precisely if it is already continuous.
 
