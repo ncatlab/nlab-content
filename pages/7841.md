@@ -10,7 +10,7 @@ The assignation $W:k\to W(k)$ of a commutative ring to its Witt ring is a [[func
 ## Definition
 
 +-- {: .num_defn}
-####### Definition and Theorem
+###### Definition and Theorem
 Let $k$ be a commutaive ring.
 
 If the characteristic of $k$ is $0$ then the Witt ring $W(k)$ of $k$ is defined defined by the addition
