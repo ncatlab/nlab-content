@@ -101,7 +101,7 @@ See at _[[linear logic]]_, _[[linear type theory]]_, _[[quantum computing]]_.
 
 The linearity of the logic, hence the absence of a [[diagonal]] in its [[categorical semantics]], corresponds to the [[no-cloning theorem]] of [[quantum physics]]
 
-### Topos theoretic approaches to quantum mechanics
+### Bohr toposes
 
 See at _[[Bohr topos]]_ for more.
 
@@ -208,7 +208,6 @@ The proposal that the [[internal logic]] of [[Bohr toposes]] is a good notion of
 
 * [[Steve Vickers]], slides from Midland Grad. School 2010, quantum topos theory, [web](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010), most relevant part IV: [pdf](http://www.cs.bham.ac.uk/~sjv/teaching/MGS2010/slides4.pdf)
 
-* [pdf](http://www.vub.ac.be/CLWF/SS/BethPaper_Final.pdf)
 
 See also
 
