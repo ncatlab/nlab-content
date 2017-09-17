@@ -93,7 +93,7 @@ An **admissiblility structure** on an $(\infty,1)$-category $V$ is
       }
     $$
 
-    with $X \to Z$ and $Y \to Z$ admissible, also $X \to Y$ is admissible ([[category with weak equivalences|2-out-of-3 property]]).
+    with $X \to Z$ and $Y \to Z$ admissible, also $X \to Y$ is admissible.
 
 * a [[Grothendieck topology]] on $V$ which has the property that it is generated from a [[coverage]] consisting of admissible morphisms.
 
