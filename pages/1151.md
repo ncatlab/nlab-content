@@ -14,7 +14,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -239,30 +239,6 @@ $$
 $$
 
 This means that all the non-positive degree cohomology identifies with the [[simplicial homotopy group|homotopy group]]s of the [[∞-groupoid]] $\mathbf{H}(X,A)$. 
-
-##### Bigrading {#BiGrading}
-
-If the underlying [[topos]] of $\mathbf{H}$ is a [[lined topos]], the line object $I$ canonically has the structure of an [[interval object]] and induces a [[cosimplicial object]] $\Delta_I : \Delta \to \mathbf{H}$ of _geometric_ $n$-simplices in addition to the _categorical_ standard cellular simplices. Accordingly there are then two differnt loop objects, 
-
-* the **categorical 1-sphere** (or simplicial loop ) $S^1 = \Delta^1/\partial \Delta^1$;
-
-* the **geometric 1-sphere** $S^1_I = \Delta_I^1/ \partial \Delta_I^1$.
-
-> (Warning: one has to be careful with different ways how to interpret $\Delta_I^1/ \partial \Delta_I^1$. More later. See the example of [[motivic cohomology]].)
-
-The notion of [[loop space object]] and of [[delooping]] have _geometric_ analogs in this case and so a second integer grading is induced on cohomology, now coming from the geometric loops.
-Both gradings may be considered at once, which makes the cohomology theory bigraded:
-
-$$
-  H^{-p,-q}(X,A) := \pi_0 \mathbf{H}(X, \Omega^p \Omega^q_I A)
-  \,.
-$$
-
-This bigrading is traditionally considered in [[motivic cohomology]] where the line object is that of [[A1-homotopy theory]], but the general construction depends only on the presence and choice of an [[interval object]].
-
-+--{.query}
-Marc: I am confused about the origin of the bigrading in motivic cohomology: despite the warning, I don't see how the geometric 1-sphere $\mathbb{G}_m$ is given by $S^1_I = \Delta_I^1/ \partial \Delta_I^1$. I'd interpret the latter as being the sheaf $\mathbb{A}^1/\{0,1\}$ which is equivalent to the _categorical_ sphere $S^1$, not to the geometric one. In fact I believe that in any site with interval that the two families of spheres given above coincide after I-localization, and that this explains why any sheaf of simplicial sets becomes equivalent to a sheaf of sets. Am I wrong?
-=--
 
 ##### Exotic grading
 
