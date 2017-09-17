@@ -48,6 +48,8 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 ## Related concepts
 
+* [[monoidal (2,1)-category]]
+
 * [[monoidal category]]
 
 * [[module 2-category]]
