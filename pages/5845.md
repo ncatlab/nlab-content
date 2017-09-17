@@ -97,7 +97,7 @@ Finally, by a standard fact about [[adjoint functor]]s (for instance ([Elephant,
 
 =--
 
-The preceeding proposition is [[folklore]]; perhaps its earliest appearance in print is ([DT, Lemma 1.3](#DyckhoffTholen)).  A slightly shorter proof is in ([KL, Prop. 2.3](#KellyLawvere)).  Both proofs explicitly exhibit an inverse to the counit $G H \to Id$ or the unit $Id \to G F$ given an inverse to the other (which could be extracted by [[beta-reduction|beta-reducing]] the above, slightly more abstract argument). It also appears in (MM, [Lemma 7.4.1](#MacLaneMoerdijk)).
+The preceeding proposition is [[folklore]]; perhaps its earliest appearance in print is ([DT, Lemma 1.3](#DyckhoffTholen)).  A slightly shorter proof is in ([KL, Prop. 2.3](#KellyLawvere)).  Both proofs explicitly exhibit an inverse to the counit $G H \to Id$ or the unit $Id \to G F$ given an inverse to the other (which could be extracted by [[beta-reduction|beta-reducing]] the above, slightly more abstract argument). It also appears in ([MM, Lemma 7.4.1](#MacLaneMoerdijk)).
 
 In the situation of Proposition \ref{FullyFaithful}, we say that $F\dashv G \dashv H$ is a **fully faithful adjoint triple**.  This is often the case when $D$ is a category of "spaces" structured over $C$, where $F$ and $H$ construct "discrete" and "codiscrete" spaces respectively.
 
