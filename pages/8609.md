@@ -1,0 +1,110 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _dependent sum_ is a [[universal construction]] in [[category theory]]. It generalizes the [[Cartesian product]] to the situation where one factor may _depend_ on the other. It is the [[left adjoint]] to the [[base change]] functor between [[slice categories]].
+
+The [[duality|dual]] notion is that of _[[dependent product]]_. 
+
+## Definition
+
+
+Let $\mathcal{C}$ be a [[category]] and $f \colon A \to I$ a [[morphism]] in $\mathcal{C}$ such that [[pullbacks]] along $f$ exist in $\mathcal{C}$. These then constitute a [[base change]] [[functor]]
+
+$$
+  f^* \colon \mathcal{C}_{/I} \to \mathcal{C}_{/A}
+$$
+
+between the corresponding [[slice categories]].
+
+
++-- {: .num_defn}
+###### Definition
+
+The **dependent sum** or **dependent coproduct** along the morphism $f$ is the [[left adjoint]] $\sum_f \colon \mathcal{C}_{/A} \to \mathcal{C}_{/I}$ of the base change functor
+
+$$
+  (\sum_f \vdash f^* )
+  \colon
+  \mathcal{C}_{/A}
+   \stackrel{\overset{\sum_f}{\to}}{\underset{f^*}{\leftarrow}}
+  \mathcal{C}_{/I}
+  \,.
+$$
+
+=--
+
+This is directly seen to be equivalent to the following.
+
++-- {: .num_defn}
+###### Definition
+
+The **dependent sum** along $f \colon A \to I$ is the [[functor]]
+
+$$
+  \sum_f \coloneqq f\circ (-) \colon \mathcal{C}_{/A} \to \mathcal{C}_{/I}
+$$
+
+given by [[composition]] with $f$.
+
+=--
+
+## Properties
+
+### Relation to the product
+
+Assume that the [[category]] $\mathcal{C}$ has a [[terminal object]] $* \in \mathcal{C}$. Let $X \in \mathcal{C}$ be any [[object]] and assume that the terminal morphism $f \colon X \to *$ admits all [[pullbacks]] along it. 
+
+Notice that a [[pullback]] of some $A \to *$ along $X \to *$ is simply the [[product]] $X \times A$, equipped with its [[projection]] morphism $X \times A \to X$. But if we regard this as the image of the [[base change]] functor $f^* \colon \mathcal{C}_{/*} \to \mathcal{C}_{/X}$ then it is not quite just the product in $\mathcal{C}$. Instead we have:
+
++-- {: .num_prop}
+###### Proposition
+
+The [[product]] $X \times A \in \mathcal{C}$ is, if it exists, equivalently the dependent sum of the base change of $A \to *$ along $X \to *$:
+
+$$
+  \sum_{X} X^* A \simeq X \times A \in \mathcal{C}
+  \,.
+$$
+
+=--
+
+Here we write "$X$" also for the morphism $X \to *$.
+
+### Relation to type theory
+
+Under the [[relation between category theory and type theory]] the dependent is the [[categorical semantics]] of [[dependent sum types]] .
+
+Notce that under the identification of [[propositions as types]],  [[dependent sum types]] (or rather their [[bracket types]]) correspond to  [[existential quantification]] $\exists x\colon X, P x$.  
+
+The following table shows how the [[natural deduction]] rules for dependent sum types correspond to their [[categorical semantics]] given by the dependent sum universal construction.
+
+[[!include dependent sum natural deduction - table]]
+
+
+## Related concepts
+
+* [[dependent product]]
+
+* [[dependent sum type]]
+
+[[!redirects dependent sum]]
+[[!redirects dependent coproduct]]
+[[!redirects dependent coproducts]]
