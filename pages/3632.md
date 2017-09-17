@@ -123,6 +123,10 @@ Discussion of this can be found for instance in
 
 ...
 
+### In $E_\infty$-rings
+
+The Postnikov tower of a connective [[E-∞ ring]] is a sequence of [[square-zero extensions]]. [Lurie "Higher Algebra", section 8.4](#LurieAlgebra).
+
 ## Properties
 
 ### Criteria for convergence
@@ -151,8 +155,11 @@ This is ([Lurie, prop. 7.2.1.10](#Lurie)).
 
 Section 6.5...
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
+For $E_\infty$-rings:  section 8.4 of
+
+* {#LurieAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
 
 [[!redirects Postnikov tower in an (∞,1)-category]]
 [[!redirects Postnikov system in an (∞,1)-category]]
