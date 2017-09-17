@@ -1,0 +1,37 @@
+[[!redirects Gaussian probability distributions]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[probability distribution]] on a [[Cartesian space]] $\mathbb{R}^n$ is called **Gaussian** if it is given by the canonical [[volume form]] $\mu$ times a Gaussian function 
+
+$$
+  \mu_S \;\colon\; \vec x \mapsto \frac{(2\pi)^{n/2}}{\sqrt{det A}} 
+  \exp\left(-\tfrac{1}{2} \left\langle \vec x , A \vec x\right\rangle\right)
+  d x^1 \wedge \cdots d x^n
+  \,.
+$$
+
+Here $A$ is some $n \times n$ [[matrix]], $\det A$ is its [[determinant]] and $\langle -,-\rangle$ is the canonical [[bilinear form]] on $\mathbb{R}^n$.
+
+## Related concepts
+
+* [[Feynman diagram]]
+
+[[!redirects Gaussian probability measure]]
+[[!redirects Gaussian probability measures]]
