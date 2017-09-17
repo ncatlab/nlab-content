@@ -21,6 +21,8 @@ The typical [[model (physics)|model]] of cosmic inflation adds to a standard [[F
 
 Simple as it is, this model has proven to successfully match the observations that it was designed to match (the large-scale homogeneity of the [[observable universe]], notably). But of course people are trying all kinds of variants, too. A central conceptual problem of most of these models is that it is unclear what the field $\phi$ should be in terms of [[particle physics]] or other known phyisics. In some variants it is identified with the [[Higgs field]], in other it is a scalar moduli field of some [[Kaluza-Klein compactification]], but all of this is speculative. 
 
+More recent experiments ([[BICEP2]]) seem to favor the variant known as [[chaotic inflation]].
+
 ## Variants
 
 ### Old inflation
