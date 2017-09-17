@@ -54,6 +54,8 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[self-adjoint operator]], [[positive operator]]
 
+* [[linear subspace]]
+
 [[!redirects linear map]]
 [[!redirects linear maps]]
 [[!redirects linear mapping]]
