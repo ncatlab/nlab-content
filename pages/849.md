@@ -141,6 +141,10 @@ The internal hom is the [[categorical semantics]] of what in [[type theory]] are
 
 [[!include function type natural deduction - table]]
 
+### Induced monad (state monad)
+
+For each object $S$ the (internal hom $\dashv$ [[tensor product]])-[[adjunction]] induces a [[monad]] $[S, S \otimes (-)]$. In [[computer science]] this [[monad (in computer science)]] is called the _[[state monad]]_.
+
 ## Examples
  {#Examples}
 
