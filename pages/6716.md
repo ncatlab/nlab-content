@@ -316,7 +316,7 @@ $$
   \mathbf{B}Spin^c 
    \to 
   \mathbf{B} SO
-   \stackrel{\mathbf{W}_2}{\to}
+   \stackrel{\mathbf{W}_3}{\to}
   \mathbf{B}^2 U(1)
   \,,
 $$
