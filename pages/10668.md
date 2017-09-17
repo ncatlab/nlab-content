@@ -34,15 +34,17 @@ The basic definitions are in
 * [[Jacob Lurie]], _[[Spectral Schemes]]_
  {#Lurie}
 
-Further properties are discussed in 
+Fundamental properties of $E_\infty$-geometry are discussed in
 
 * [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
+* [[Jacob Lurie]], _[[Closed Immersions]]_
+
+* [[Jacob Lurie]], _[[Descent Theorems]]_
 
 * [[Jacob Lurie]], _[[Proper Morphisms, Completions,
 and the Grothendieck Existence Theorem]]_
 
-* [[Jacob Lurie]], _[[Descent Theorems]]_
-
-* [[Jacob Lurie]], _[[Representability theorems]]_
+* [[Jacob Lurie]], _[[Representability Theorems]]_
 
 [[!redirects E-infinity geometry]]
