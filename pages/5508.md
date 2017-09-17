@@ -19,7 +19,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-An [[(∞,1)-topos]] $\mathcal{X}$ has **homotopy dimension** $\leq n \in \mathbb{N}$ if every $(n-1)$-[[connected]] object $A$ has a [[global element]], a [[morphism]]  $* \to A$ from the 
+An [[(∞,1)-topos]] $\mathcal{X}$ has **homotopy dimension** $\leq n \in \mathbb{N}$ if every [[n-connected|(n-1)-connected]] [[object]] $A$ has a [[global element]], a [[morphism]]  $* \to A$ from the 
 [[terminal object in an (∞,1)-category|terminal object]] into it.
 
 =--
@@ -123,7 +123,7 @@ $$
   \mathbf{H} \to \infty Grpd
 $$
 
-be [[generalized the|the]] terminal geometric morphism of the local $(\infty,1)$-topos, with $\nabla$ being the extra [[right adjoint]] to the [[global section]] [[(∞,1)-geometric morphism]] functor that characterizes locality. 
+be [[generalized the|the]] [[global section geometric morphism|terminal geometric morphism]] of the local $(\infty,1)$-topos, with $\nabla$ being the extra [[right adjoint]] to the [[global section]] [[(∞,1)-geometric morphism]] functor that characterizes locality. 
 
 By prop \ref{RecognitionByGlobalSections} it is sufficient to show that $\Gamma$ send [[(-1)-connected]] morphisms to (-1)-connected morphisms, hence [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] to effective epimorphisms.
 
