@@ -7,7 +7,7 @@
 
 An **element** of a [[set]] is a thing which "belongs to," or "is an element of," that set.
 
-The circularity of this definition is unavoidable in foundational [[set theories]] in which "set" is an undefined term.  In "definitional" set theories, where "set" is defined in terms of something else, elements are likewise defined in terms of the same "something else."
+The circularity of this definition is unavoidable in [[foundations of mathematics|foundational]] [[set theories]] in which "set" is an undefined term.  In "definitional" set theories, where "set" is defined in terms of something else, elements are likewise defined in terms of the same "something else."
 
 If sets (or [[setoids]]) are regarded as the [[semantics]] of some [[type theory]], then an element of a set is the interpretation of a [[term]] of some [[type]].
 
