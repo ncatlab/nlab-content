@@ -33,7 +33,7 @@ A **(finitely) filtered category**  is a [[category]] $C$ in which every finite 
 
 =--
 
-That is, for any finite category $D$ and any [[functor]] $F:D\to C$, there exists an object $c\in C$ and a [[natural transformation]] $F\to \Delta c$ where $\Delta c:D\to C$ is the constant diagram at $c$.
+That is, for any finite category $D$ and any [[functor]] $F:D\to C$, there exists an object $c\in C$ and a [[natural transformation]] $F\to \Delta c$ where $\Delta c:D\to C$ is the constant diagram at $c$. If $D^+$ is the result of freely adjoining a terminal object to a category $D$, then the condition is the same as that any functor $F: D \to C$ with finite domain admits an extension $\tilde{F}: D^+ \to C$. 
 
 Equivalently, filtered categories can be characterized as those categories where, for every finite diagram $J$, the diagonal functor $\Delta : C \to C^J$ is [[final functor|final]]. This point of view can be generalized to other kinds of categories whose colimits are well-behaved with respect to a type of limit, such as [[sifted colimit|sifted]] categories.
 
@@ -49,7 +49,9 @@ In constructive mathematics, the elementary rephrasing above is equivalent to ev
 
 ### Higher filteredness
 
-More generally, if $\kappa$ is an infinite [[regular cardinal]] (or an [[arity class]]), then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone where $D$ has $\lt \kappa$ arrows.  The usual filtered categories are then the case $\kappa = \omega$.  Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[direction|directed]] as a preorder. 
+More generally, if $\kappa$ is an infinite [[regular cardinal]] (or an [[arity class]]), then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone where $D$ has $\lt \kappa$ arrows, or equivalently that any functor $F: D \to C$ whose domain has fewer than $\kappa$ morphisms admits an extension $\tilde{F}: D^+ \to C$. The usual filtered categories are then the case $\kappa = \omega$, i.e., where the $D$ have fewer than $\omega$ morphisms (in other words are finite).  (We could also say in this case "$\aleph_0$-filtered", but $\omega$-filtered is more usual in the literature.) 
+
+Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[direction|directed]] as a preorder. 
 
 ### Generalized filteredness
 
