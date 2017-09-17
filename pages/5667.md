@@ -696,7 +696,7 @@ Introductions and surveys include
 * _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
  {#Introduction}
 
-* Heath Emerson, [[R. Meyer]] (notes taken by S. Hong), _KK-theory and Baum-Connes conjecture_, Lectures at _Summer school on operator algebras and noncommutative geometry_ (June 2010) ([pdf](http://www.pims.math.ca/files/EM_%20KK-theory_BC_Conjecture.pdf))
+* [[Heath Emerson]], [[R. Meyer]] (notes taken by S. Hong), _KK-theory and Baum-Connes conjecture_, Lectures at _Summer school on operator algebras and noncommutative geometry_ (June 2010) ([pdf](http://www.pims.math.ca/files/EM_%20KK-theory_BC_Conjecture.pdf))
 
 * [[R. Meyer]], _How analysis and topology interact in bivariant K-theory_, 2006 ([pdf](http://mate.dm.uba.ar/~gcorti/article.pdf))
  {#Meyer06}
