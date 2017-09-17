@@ -1,9 +1,35 @@
-Two operations, $\alpha$ and $\beta$, of an [[algebraic theory]] are said to __commute__ if for any matrix $M$ of elements, with the number of rows given by the arity of $\alpha$ and the number of columns by the arity of $\beta$, one gets the same result whether one
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An _[[algebraic theory]]_ is said to be _commutative_ if the order of elements in its operations is irrelevant, in generalization to the familiar case of the theory of [[commutative rings]].
+
+A more general notion is that of _[[monoidal monads]]_.
+
+
+## Definition
+
+Two operations, $\alpha$ and $\beta$, of an [[algebraic theory]] are said to __commute__ if for any [[matrix]] $M$ of elements, with the number of rows given by the arity of $\alpha$ and the number of columns by the arity of $\beta$, one gets the same result whether one
 
 1. applies $\alpha$ to each column of $M$ and then $\beta$ to the resulting row, or
 1. applies $\beta$ to each row of $M$ and then $\alpha$ to the resulting column.
 
-(It is left as an exercise to the reader to formulate this notion in an element-free way.) Note that an operation of arity $0$ or $1$ always commutes with itself; this is not necessarily the case for higher arities. Commuting nullary operations are necessarily equal.
+(It is left as an exercise to the reader to formulate this notion in an element-free way.) 
+
+Note that an operation of arity $0$ or $1$ always commutes with itself; this is not necessarily the case for higher arities. Commuting nullary operations are necessarily equal.
 
 +-- {: #svgcommute style="text-align:center" }
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:se="http://svg-edit.googlecode.com">
@@ -794,35 +820,38 @@ x_{m 1} &amp; x_{m 2} &amp; \dots &amp; x_{m n}
 </svg>
 =--
 
-The operations that commute with a given set of operations in an algebraic theory form a subtheory. The __centre__ of an algebraic theory is given by the operations that commute with all the operations of the theory. An algebraic theory is __commutative__ if every pair of its operations commute. Another way of describing the centre is to say that it consists of those operations which are also homomorphisms; an algebraic theory is commutative if all of its operations are homomorphisms.
+The operations that commute with a given set of operations in an algebraic theory form a subtheory. The __centre__ of an algebraic theory is given by the operations that commute with all the operations of the theory. An algebraic theory is __commutative__ if every pair of its operations commute. Another way of describing the centre is to say that it consists of those operations which are also [[homomorphisms]]; an algebraic theory is commutative if all of its operations are homomorphisms.
 
-If $f_1,\ldots , f_n$ are homomorphisms $A \to B$ of models (algebras) of a commutative algebraic theory, and $\omega$ is an n-ary operation of it, then the function $A \to B$ given by sending $a \in A$ to $\omega(f_1(a),\ldots ,f_n(a)) \in B$ is again a homomorphism, which is naturally called $\omega(f_1,\ldots ,f_n)$. In this way $Hom(A,B)$ is enriched as a model of the algebraic theory, and we have a [[closed category]] of models and homorphisms. Furthermore, this internal $Hom$ has a left adjoint $\otimes$ for which the free model on one generator is a unit, so we have a [[closed monoidal category]].
+## Properties
 
-The notion of commutative algebraic theory was formulated in terms of [[monad]]s by Anders Kock.
+### Closed monoidal structure on algebras
+
+If $f_1,\ldots , f_n$ are homomorphisms $A \to B$ of models (algebras) of a commutative algebraic theory, and $\omega$ is an $n$-ary operation of it, then the function $A \to B$ given by sending $a \in A$ to $\omega(f_1(a),\ldots ,f_n(a)) \in B$ is again a homomorphism, which is naturally called $\omega(f_1,\ldots ,f_n)$. In this way $Hom(A,B)$ is enriched as a model of the algebraic theory, and we have a [[closed category]] of models and homorphisms. Furthermore, this internal $Hom$ has a left adjoint $\otimes$ for which the free model on one generator is a unit, so we have a [[closed monoidal category]].
 
 
-### References ###
 
-+-- {: .query}
-Can we have some please!  This is something I want to use soon so it'd be nice to know where the details were originally worked out. ---Andrew 
+## References
 
-_Mike_: We should really have a separate page on [[monoidal monads]] since that notion is more general than its restriction to the case of algebraic theories.
-=--
+The notion of commutative algebraic theory was formulated in terms of [[monads]] by [[Anders Kock]].
 
-* Anders Kock, _Monads on symmetric monoidal closed categories_, Arch. Math. 21 (1970), 1--10. 
+* [[Anders Kock]], _Monads on symmetric monoidal closed categories_, Arch. Math. 21 (1970), 1--10. 
 
-* Anders Kock, _Strong functors and monoidal monads_, Arhus Universitet, Various Publications Series No. 11 (1970).  [PDF](http://home.imf.au.dk/kock/SFMM.pdf).
+* [[Anders Kock]], _Strong functors and monoidal monads_, Arhus Universitet, Various Publications Series No. 11 (1970).  [PDF](http://home.imf.au.dk/kock/SFMM.pdf).
 
-* Anders Kock, _Closed categories generated by commutative monads_
+* [[Anders Kock]], _Closed categories generated by commutative monads_
 
 * William Keigher, _Symmetric monoidal closed categories generated by commutative adjoint monads_
 
 Recently [[Nikolai Durov]] rediscovered that notion for the purposes of geometry (under the name __commutative algebraic monad__), constructed their spectra (generalizing the [[spectrum (geometry)|spectrum]] of Grothendieck) and theory of [[generalized scheme after Durov|generalized schemes on this basis]]. There is a generalized version of the [[Eckmann–Hilton argument]] concerning commutative finitary monads. Much detail including many examples and further constructions are in his thesis
 
-* Nikolai Durov, _New approach to Arakelov geometry_, [arXiv:0704.2030](http://arXiv.org/math/abs/0704.2030)
+* [[Nikolai Durov]], _New approach to Arakelov geometry_, [arXiv:0704.2030](http://arXiv.org/math/abs/0704.2030)
 
 
 [[!redirects commutative algebraic theories]]
+
+[[!redirects commutative theory]]
+[[!redirects commutative theories]]
+
 [[!redirects commutative monad]]
 [[!redirects commutative algebraic monad]]
 [[!redirects monoidal monad]]
