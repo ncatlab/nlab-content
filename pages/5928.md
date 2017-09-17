@@ -101,9 +101,9 @@ Section VIII.6 of
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
  {#MacLaneMoerdijk}
 
+category: algebraic geometry
 [[!redirects Zariski topology]]
 [[!redirects Zariski topos]]
 [[!redirects big Zariski topos]]
-
 [[!redirects theory of local rings]]
 [[!redirects geometric theory of local rings]]
