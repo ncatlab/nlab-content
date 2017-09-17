@@ -265,6 +265,39 @@ In this sense a [[Cartesian fibration]] is a generalization of a [[right fibrati
 
 =--
 
+
++-- {: .un_prop}
+###### Proposition
+
+If $p : X \to Y$ is an [[inner fibration]] of [[quasi-categories]] then a morphism $f : x \to y$ in $X$ is $p$-Cartesian precisely if
+for all objects $a$ in $C$ the diagram
+
+  $$
+    \array{
+      Hom_X(a,x) &\stackrel{Hom_X(a,f)}{\to}& Hom_X(a,y)
+      \\
+      \downarrow && \downarrow
+      \\
+      Hom_Y(p(a), p(x)) &\stackrel{Hom_Y(p(a), p(f))}{\to}& 
+      Hom_Y(p(a), p(y))
+    }
+  $$
+
+  of [[hom-objects in a quasi-category]] is 
+  a [[homotopy pullback]] square in [[sSet]] equipped with its [[model structure on simplicial sets|standard model structure]].
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 2.4.4.3]].
+
+=--
+
+
 #### In $sSet$-categories
 
 Let $C$ and $D$ be [[simplicially enriched categories]] and $F : C \to D$ an [[sSet]]-[[enriched functor]].
@@ -289,7 +322,7 @@ If $C$ and $D$ are enriched in [[Kan complex]]es and if $F$ is hom-wise a [[Kan 
 
 * $N(F) : N(C) \to N(D)$ is an [[inner fibration]];
 
-* a morphism $f :x \to y$ in $N(C)$ is an $N(F)$-cartesian morphism precisely if the diagram
+* a morphism $f :x \to y$ in $N(C)$ is an $N(F)$-cartesian morphism precisely if for all objects $a$ in $C$ the diagram
 
   $$
     \array{
