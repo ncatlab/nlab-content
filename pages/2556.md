@@ -293,9 +293,9 @@ Let  $X$ be a micorlinear space.
 We want to show that the morphism of simplicial sets
 
 $$
-  Hom(U \times D, X^{(\Delta_\inf)^\bullet})
+  [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf)^\bullet})
   \to
-  Hom(U , X^{(\Delta_\inf)^\bullet})
+  [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf)^\bullet})
 $$
 
 induced by pullback along $U \simeq U \times * \to U \times D$
@@ -303,18 +303,32 @@ is a [[weak homotopy equivalence]].
 
 ...
 
-
-Let $f : U \times D \to X$ be a morphism. Then 
+First consider the case that $U$ itself has no infinitesimal 
+directions in that $Hom(U,D) = *$. Then we claim that the morphism
+$
+  [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf)^\bullet})
+  \to
+  [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf)^\bullet})
+$
+is an acyclic Kan fibration in that all squares
 
 $$
   \array{
-    && U \times D
+    \partial \Delta^n &\to& [\Delta^{op},\mathcal{T}](U \times D, X^{(\Delta_\inf)^\bullet})
     \\
-    &{}^{\mathllap{f(-,*)}}\swarrow& \downarrow & \searrow^{\mathrlap{f}}
+    \downarrow && \downarrow
     \\
-    X &\underset{p_{T X} p_1}{\leftarrow}& X^D \times D &\underset{ev}{\to}& X
+    [\Delta^{op},\mathcal{T}](U , X^{(\Delta_\inf)^\bullet})
   }
-  \,,
 $$
 
-where the vertical morphism is $(u, \epsilon) \mapsto (f(u,-),\epsilon)$, so that the left diagonal morphism is $(u,\epsilon) \mapsto f(u,*)$ exhibits a homotopy in $Hom(U\times D, X^{(\Delta^\bullet_{inf})})$ from $f : U \times D \to X$ to $U \times D \to U \times * \simeq U \to X$.
+have lifts.
+
+For $n = 0$ this says that the map is surjective on vertices, which it is, since any $U \to X$ is in the image of $U \times D \to U \times * \simeq U \to X$.
+
+For $n=1$ we need to check that every homotopy $U \to X^D \times D$ downstairs with fixed lifts $U \times D \to X$ over the endpoints may be lifted. But by assumption $U \to D$ factors through the points, so that
+the homotopy $U \to X^D \times D \stackrel{\to}{\to} X$ has the same source as target $f : U \to X$. This means the two lifts of its endpoints are morphisms $(u,\epsilon) \mapsto (f(u) + \epsilon \nu_i(u)$ for $i=1,2$.
+A homotopy between these is given by a map $U \times D \to X^D \times D$
+defined by $(u,\epsilon) \mapsto (f(u)+ (-)\nu_1(u) + (\epsilon-(-))\nu_2(u), \epsilon)$.
+
+Finally, for $n \geq 2$ we have unique flllers, because by construction every morphism $\Delta[n]\cdot Y \to X^{(\Delta^\bullet_{inf})}$ is uniquely fixed by the restriction $\partial \Delta[n] \to \Delta[n]\cdot Y \to X^{(\Delta^\bullet_{inf})}$ to its boundary.
