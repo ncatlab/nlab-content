@@ -107,6 +107,68 @@ For the moment see ([Joyal](#Joyal)).
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+A [[weak factorization system]] $(L,R)$ is an orthogonal factorization system precisely if $L \perp R$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+For the moment see ([Joyal](#Joyal)).
+
+(...)
+
+=--
+
++-- {: .num_prop #IsomorphismsAreIntersection}
+###### Proposition
+
+For $(L,R)$ an orthogonal factorization system
+in a category $C$, the intersection $L \cap R$ is precisely the class of [[isomorphisms]] in $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If is clear that every isomorphism is in $L \cap R$.
+Conversely, let $f : A \to B$ be a morphism in $L \cap R$. This implies that the two trivial factorizations
+
+$$
+  f = A \stackrel{id_A}{\to} A \stackrel{f}{\to} B
+$$
+
+and
+
+$$
+  f = A \stackrel{f}{\to} B \stackrel{id_B}{\to} B
+$$
+
+are both $(L,R)$-factorization. Therefore there is a unique morphism $\tilde f$ in the [[commuting diagram]]
+
+$$
+  \array{
+    A &\stackrel{id_A}{\to}& A
+    \\
+    \downarrow^{\mathrlap{f}}
+     &\nearrow_{\bar f}&
+    \downarrow^{\mathrlap{f}}
+    \\
+    B &\stackrel{id_B}{\to}& B
+  }
+  \,.
+$$
+
+This says precisely that $\bar f$ is a left and right [[inverse]] of $f$.
+
+=--
+
+
 ### Cancellation properties
  {#CancellationProperties}
 
@@ -141,7 +203,42 @@ be two composable morphisms. Then
 +-- {: .proof}
 ###### Proof
 
-(...)
+Consider the first case. The second is directly analogous.
+
+Choose an $(L,R)$-factorization of $g$
+
+$$
+  g : Y \stackrel{\ell}{\to} I \stackrel{r}{\to} Z
+  \,.
+$$
+
+With this we have lifting diagrams of the form
+
+$$
+  \array{
+    X &\stackrel{g \circ f}{\to}& Z
+    \\
+    \downarrow^{\mathrlap{f}} &&  \downarrow^{id_Z}
+    \\
+    Y & \nearrow_r&
+    \\
+    \downarrow^{\mathrlap{\ell}} && \downarrow^{id_Z}
+    \\
+    I &\stackrel{r}{\to}& Z
+  }
+  \,\,\,\,\,
+  \array{
+    X &\stackrel{f}{\to}& Y &\stackrel{\ell}{\to}& I
+    \\
+    {}^{\mathllap{g \circ f}}\downarrow
+     & & \nearrow_{r^{-1}}& &
+    \downarrow^{\mathrlap{r}}
+    \\
+    Z &\underset{id_Z}{\to}& &\underset{id_Z}{\to}& Z 
+  }
+$$
+
+exhibiting an inverse of $r$. Therefore $r$ is an isomorphism, hence is in $L$, by prop. \ref{IsomorphismsAreIntersection}, hence so is the composite $f = r \circ \ell$.
 
 =--
 
@@ -194,7 +291,7 @@ Several classical examples of OFS $(E,M)$:
 
 ## References
 
-* [joyalscatlab:Home|Joyal's CatLab], _[[joyalscatlab:Factorization systems]]_
+* [[André Joyal]] _[[joyalscatlab:Factorization systems]]_
  {#Joyal}
 
 
