@@ -190,7 +190,7 @@ Now any ordinary functor $F:\mathcal{A} \to \mathcal{B}$ between [[abelian categ
 Suppose $F$ is a [[left exact functor]], then $Ch_\bullet(F)$ is right Quillen. What in the homological algebra literature is called the derived functor 
 
 $$
-  R^p F : \mathcal{A} \to \mathcal{A}
+  R^p F : \mathcal{A} \to \mathcal{B}
 $$
 
 is the composite
@@ -200,7 +200,7 @@ $$
   \stackrel{\mathbb{R} Ch_\bullet(F)}{\to}
   Ch_\bullet(\mathcal{B})
   \stackrel{H^0(-)}{\to}
-  \mathcal{A}
+  \mathcal{B}
   \,,
 $$
 
