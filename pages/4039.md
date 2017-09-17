@@ -33,7 +33,6 @@ This applies to, and is largely motivated from, the study of [[action functional
 
 There are strong [[cohomology|cohomological]] tools for studying variational calculus, such as the [[variational bicomplex]] and [[BV-BRST formalism]].
 
-
 ## In terms of smooth spaces
  {#InTermsOfSmoothSpaces}
 
@@ -42,7 +41,7 @@ We discuss some basics of variational calculus in terms of [[smooth spaces]] and
 ### Smooth functionals
 
 Let $X$ be a [[smooth manifold]].
-Let $\Sigma$ be a [[smooth manifold|smooth]] [[manifold with boundary]] $\partial \Sigma$. 
+Let $\Sigma$ be a [[smooth manifold|smooth]] [[manifold with boundary]] $\partial \Sigma \hookrightarrow \Sigma$. 
 
 Write 
 
@@ -58,16 +57,45 @@ $$
 $$
 
 
-+-- {: .num_defn}
++-- {: .num_defn #MappingSpaceWithNonVaryingBoundary}
 ###### Definition
 
 Write
 
 $$
-  [\Sigma, X]_{\partial \Sigma} \hookrightarrow [\Sigma,X]
+  [\Sigma, X]_{\partial \Sigma}
+  \coloneqq
+  [\Sigma, X] \times_{[\partial \Sigma,X]} \flat [\partial \Sigma,X]
 $$
 
-for the [[subobject]] on those plots $\phi \colon U \times \Sigma \to X$ for which there is an [[open neighbourhood]] $B \subset \Sigma$ of $\partial \Sigma$ in $\Sigma$ such that for all $s \in B$,  $\phi(-,s) \colon U \to X$ is constant.
+for the [[pullback]] in smooth spaces
+
+$$
+  \array{
+    [\Sigma,X]_{\partial \Sigma}
+    &\to&
+    \flat [\partial \Sigma, X]
+    \\
+    \downarrow && \downarrow
+    \\
+    [\Sigma,X] &\stackrel{(-)|_{\partial \Sigma}}{\to}& [\partial \Sigma,X]
+  }
+  \,,
+$$
+
+where
+
+* the bottom morphism is the restriction $[\partial \Sigma \hookrightarrow \Sigma, X]$ of configurations to the boundary;
+
+* the right vertical morphism is the [[counit of an adjunction|counit]] of the $(Disc \dashv \Gamma)$-[[adjunction]] on smooth spaces.
+
+=--
+
++-- {: .num_prop #PlotsOfMappingSpaceWithNonVaryingBoundary}
+###### Proposition
+
+The [[smooth space]] $[\Sigma, X]_{\partial \Sigma}$ is a [[diffeological space]] whose underlying set it $C^\infty(\Sigma,X)$ and whose $U$-plots for $U \in $ [[CartSp]] are smooth functions
+$\phi \colon U \times \Sigma \to X$ such that $\phi(-,s) \colon U \to X$ is the constant function for all $s \in \partial \Sigma \hookrightarrow \Sigma$.
 
 =--
 
@@ -241,7 +269,7 @@ $$
   \end{aligned}
 $$
 
-since by definition the plots $\gamma_u(-)$ are such that $\gamma_{(-)}(1)$ and $\gamma_{(-)}(0)$ are constant.
+since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$ and $\gamma_{(-)}(0)$ are constant.
 
 =--
 
