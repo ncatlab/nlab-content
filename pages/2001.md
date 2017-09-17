@@ -39,6 +39,9 @@ The standard reference is [[EGA IV]]. See also [[flat morphism in derived geomet
 [[!redirects flat topology]]
 [[!redirects flat morphism of schemes]]
 
+[[!redirects faithfully flat]]
+
+
 [[!redirects faithfully flat morphism]]
 [[!redirects faithfully flat morphisms]]
 
