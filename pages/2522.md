@@ -161,6 +161,8 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 * [[unitary representation of the super Poincaré group]]
 
+* [[Haag–Lopuszanski–Sohnius theorem]]
+
 * [[extended supersymmetry]]
 
 * [[supergravity]], [[superstring theory]]
