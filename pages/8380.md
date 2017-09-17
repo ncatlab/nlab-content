@@ -6,7 +6,7 @@
 
 ## Idea
 
-In [[programming theory]] a _monad_ $T$ is an operation on the [[types]] that
+In [[computer science]] a _monad_ $T$ is an operation on the [[types]] that
 
 1. sends each [[type]] $A$ to some new type $T(A)$;
 
@@ -30,7 +30,7 @@ Accordingly, the fundamental relevance of monads in category theory is the same 
 
 There are many, many references of and expositions of monads in programming theory. Somebody who knows a _good_ reference, please add it here.
 
-
+[[!redirects monads (in computer science)]]
 
 [[!redirects monads (in programming theory)]]
-
+[[!redirects monad (in programming theory)]]
