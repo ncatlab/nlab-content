@@ -711,9 +711,13 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
   * [[abelian sheaf]], [[sheaf of abelian groups]], [[sheaf of modules]], [[quasicoherent sheaf]], [[sheaf of meromorphic functions]]
 
+  * [[locally constant sheaf]], [[constructible sheaf]]
+
 * [[2-sheaf]] / [[stack]]
 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
+
+  * [[sheaf of spectra]]
 
 * [[(∞,2)-sheaf]]
 
