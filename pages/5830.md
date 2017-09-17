@@ -36,12 +36,10 @@ This forms the basis of  the _Univalent Foundations_ program ([Voevodsky](#Voevo
 
 See the [code page](http://homotopytypetheory.org/coq/) at the [HoTT site](#HoTTSite) for more.
 
-### Dictionary to $(\infty,1)$-category theory
+### Dictionary to homotopy theory
  {#DictionaryToCoq}
 
-> This section is experimental. Don't trust it yet before the experts have looked over it.
-
-The following list displays some keywords defined in the [[Coq]]-implementation of homotopy type theory together with their meaning in the [[(∞,1)-category theory]] that they describe.
+The following list displays some keywords defined in the [[Coq]]-implementation of homotopy type theory together with their meaning in the [[homotopy theory]]/[[(∞,1)-category theory]] that they describe.
 
 Let $C$ be a given ambient [[(∞,1)-category]]. 
 
@@ -51,15 +49,19 @@ denotes $Core(C)$, the [[core]] of $C$, hence the maximal [[∞-groupoid]] insid
 
     X : Type
 
-An [[object]] in the $(\infty,1)$-category $C$. Equivalently an [[(∞,1)-functor]] $X : * \to C$.
+denotes an [[object]] in the $(\infty,1)$-category $C$; equivalently an [[(∞,1)-functor]] $X : * \to C$.
 
-    X (y : Y) : Type
+    P (x : X) : Type
 
-A [[bundle]] $X \to Y$ in $C$. In a presentation of $C$ by a [[category of fibrant objects]]: a [[fibration]].
+denotes a [[bundle]] $P \to X$ in $C$. In a presentation of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
 
-    Term f : forall x : X, (Y x)
+    forall x : X, P x
 
-a [[section]] of this bundle
+denotes the object of [[homotopy]] [[section]]s of this bundle (the _[[dependent product]]_ of the bundle, see the section _[relation to spaces of sections](http://ncatlab.org/nlab/show/dependent+product#RelationToSpacesOfSections)_ there).
+
+    f : forall x : X, P x
+
+denotes therefore a particular [[section]] of this bundle
 
 $$
   \array{
@@ -72,13 +74,17 @@ $$
   \,.
 $$
 
+    \exists x : X , P x
+
+denotes the total space $P$ of this bundle (the _[[dependent sum]]_ of the bundle).
+
     a ~~> b
 
 or
 
     Id (a b : X) : Type
 
-for $a,b$ of type $X$ is the object of paths from $a$ to $b$ in $X$, hence the [[homotopy pullback]] of the form
+for $a,b$ of type $X$ denotes the [[path space object]] from $a$ to $b$ in $X$, hence the [[homotopy pullback]] of the form
 
 $$
   \array{
@@ -91,7 +97,6 @@ $$
   \,.
 $$
 
-(...)
 
 ## Related concepts
 
