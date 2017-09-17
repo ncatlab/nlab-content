@@ -178,10 +178,11 @@ $$
 
 ## References
 
+* [[eom]]: [Weil algebra of a Lie algebra](http://eom.springer.de/W/w130050.htm)
+
 The use of the Weil algebra in the calculation of the equivariant [[de Rham cohomology]] of manifolds acted on by a compact group goes at least back to two papers by H. Cartan from 1950. These papers are reprinted, explained and put in a modern context in the book
 
-* Victor Guillemin, Shlomo Sternberg, _Supersymmetry and Equivariant de Rham Theory_, Springer, 1999.
-
+* Victor Guillemin, Shlomo Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
 
 For the role played by the Weil algebra in the general context of higher [[Lie theory]] see
 
