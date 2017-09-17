@@ -2,35 +2,40 @@
 [[!include physicscontents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-_Algebraic Quantum Field Theory_ or _Axiomatic Quantum Field Theory_.
+## Idea
 
-#Idea#
+**Algebraic Quantum Field Theory** or **Axiomatic Quantum Field Theory** or **AQFT** for short is a formalization of [[quantum field theory]] that axiomatizes the assignment of _algebras of observables_ to patches of parameter space that one expects a quantum field theory to provide.
 
-AQFT axiomatises the _Heisenberg picture_ of [[quantum field theory]] as [[FQFT]] axiomatizes the _Schr&ouml;dinger picture_.
+As such, the approach of AQFT is roughly dual to that of [[FQFT]], where instead _spaces of states_ are assigned to boundaries of [[cobordism]]s and propagation maps between state spaces to cobordisms themselves.
 
-The assignment of an _algebra of observables_ to a region of spacetime by a quantum field theory is formalized by the [[Haag-Kastler axioms]]: from the [[nPOV]] we may think of these as concerning co-flabby co-[[presheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
+One may roughly think of AQFT as being a formalization of what in basic [[quantum mechanics]] textbooks is called the **Heisenberg picture** of quantum mechanics. On the other hand [[FQFT]] axiomatizes the _Schr&ouml;dinger picture_ .
+
+The axioms of traditional AQFT are called the [[Haag-Kastler axioms]]. They are one of the oldest systems of axioms that seriously attempt to put [[quantum field theory]] on a solid conceptual footing. 
+
+From the [[nPOV]] we may think of these axioms as postulating that a quantum field theory is encoded in a co-flabby [[presheaf|copresheaf]] of [[algebra|algebras]] on spacetime which satisfies a certain _locality_ axiom with respect to the Lorentzian structure of spacetime: 
 
 * locality: algebras assigned to spacelike separated regions commute with each other when embedded into any joint superalgebra.
 
-Such a local co-flabby co-presheaf of algebra is called a [[local net]]. 
-There exist the following variations of the axioms for such a situation, depending on whether one talks about QFT proper on Lorentian manifolds, or on their "Euclidean" version, sometimes identified with statistical field theory.
+This is traditionally formulated (implicitly) as a structure in ordinary [[category theory]]. More recently, with the proof of the [[cobordism hypothesis]] and the corresponding [[(∞,n)-category]]-formulation of [[FQFT]] also [[higher category theory|higher categorical]] versions of systems of local algebras of observables are being put forward and studied. Three structures are cuurently being studied, that are all conceptually very similar and similar to the Haag-Kastler axioms:
 
-* Lorentzian signature
 
-  * The [[Haag-Kastler axioms]] of a [[local net]] of observables
+* [[factorization algebra]]s
 
-* Euclidean signature
+* [[topological chiral homology]]
 
-  * the Euclidean version of the Haag-Kastler axioms
+* [[blob homology]].
 
-  * [[factorization algebra]]s
+On the other hand, all three of these encode what in phyics are called _Eudlidean_ quantum field theories, whereas only the notion of [[local net]] so far really incorporates crucially the fact that the underlying spacetime of a quantum field theory is a [[smooth Lorentzian space]].
 
 In the context of the Haag-Kastler axioms there is a precise theorem, the [[Osterwalder-Schrader theorem]], relating the Euclidean to the Lorentzian formulation: this is the operation known as [[Wick rotation]].
 
 --- much information to be filled in ---
 
-#References#
+## References
 
 A good account of the mathematical axiomatics of Haag-Kastler AQFT is
 
