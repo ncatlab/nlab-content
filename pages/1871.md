@@ -92,6 +92,8 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
   * [[confinement]]
 
+* [[asymptotic freedom]]
+
 ## References
 
 ### General
