@@ -20,6 +20,8 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 * [Hopf archive](http://hopf.math.purdue.edu) topology and K-theory
 
+* [K-theory](http://www.math.uiuc.edu/K-theory) archive
+
 * [ICM archive](http://www.mathunion.org/ICM) past ICM proceedings
 
 * *huge* MPIM list of [electronic journals](http://rzblx1.uni-regensburg.de/ezeit/fl.phtml?bibid=MPIMA&colors=3&lang=en&notation=SA-SP) -- most are  available only locally, but many free ones listed as well
