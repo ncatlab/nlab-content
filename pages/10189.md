@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The [[core]] of [[FinSet]], hence the [[category]] of [[finite sets]] and [[bijections]] ([[permutations]]) between them, is sometimes called the _permutation category_ and sometimes denoted $\mathbb{P}$.
+
+## Related concept
+
+* [[FinSet]]
+
+* [[braid category]]
+
+[[!redirects permuation categories]]
