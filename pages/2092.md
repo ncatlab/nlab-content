@@ -10,28 +10,32 @@ Special class of $C^*$-algebras are __[[von Neumann algebra|von Neumann]]__ or $
 Operator algebras play major roles in [[functional analysis]], [[representation theory]], [[noncommutative geometry]] and [[quantum field theory]]. 
 
 ## Topics of interest for the understanding of AQFT
-This paragraph will collect some facts of interest for the aspects of [[AQFT]] in the nLab.
+This paragraph will collect some facts of interest for the aspects of [[AQFT]] in the nLab. Unless stated otherwise all operator algebras will be assumed to be unital, i.e. having an identiy denoted by $\mathbb{1}$.
 
 ###States {#statesOfOperatorAlgebras}
 The Heisenberg picture is sometimes formalized by describing the observables of a quantum system by an operator algebra, and the state of the system as a state of the algebra. The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited it's name from the physical concept.
 
-* Definition: A linear functional is **positive** if $A \ge 0$, that is A is a positive operator resp. is an element of the positive cone, implies that  $\rho(A) \ge 0$.
+* Definition: An operator A is called **positive** if it's spectrum is contained in $[0, \infinity)$ (which implies that A is selfadjoint). We write $A \ge 0$ and say that the set of all positive operators is the positive cone (of a given operator algebra).
 
-* Definition: A **state** of an operator algebra is linear functional $\rho$ such that $\rho$ is positive and $\rho(\mathbb{1}) = 1$.
+* Definition: A linear functional $\rho$ of an operator algebra is **positive** if $A \ge 0$ implies that  $\rho(A) \ge 0$.
+
+* Definition: A **state** of an unital operator algebra is linear functional $\rho$ such that $\rho$ is positive and $\rho(\mathbb{1}) = 1$.
 
 Though the mathematical notion of state is already close to what physicists have in mind, they usually restrict the set of states further and consider normal states only. We let $\mathcal{R}$ be an operator algebra and $\pi$ an representation of $\mathcal{R}$ on a Hilbert space $\mathcal{H}$.
  
-A **normal state** $\rho$ is a state that satisfies one of the following equivalent conditions:
+Combined definition and theorem: A **normal state** $\rho$ is a state that satisfies one of the following equivalent conditions (this list is not complete, i.e. there are more equivalent characterizations of normal states):
 
-* $\rho$ is weak-operator coninuous on the unit ball of $\pi(\mathcal{R})$.
+* $\rho$ is weak-operator continuous on the unit ball of $\pi(\mathcal{R})$.
 
-* $\rho$ is strong-operator coninuous on the unit ball $\pi(\mathcal{R})$.
+* $\rho$ is strong-operator continuous on the unit ball $\pi(\mathcal{R})$.
 
-* $\rho$ is ultra-weak coninuous.
+* $\rho$ is ultra-weak continuous.
 
 * There is an operator A of trace class of $\mathcal{H}$ with tr(A) = 1 such that $\rho(\pi(R)) = tr(A \pi(R))$ for all $R \in \mathcal{R}$.
 
-The last one is most frequently used by physicists, in that context the operator $A$ is also called a density matrix.
+The last one is most frequently used by physicists, in that context the operator $A$ is also called a density matrix or density operator.
+
+Reference: Kadison and Ringrose, definition 7.1.11 and theorem 7.1.12.
 
 Sometimes the observables of a system are described by an abstract operator algebra, in this case an important notion is the folium:
 
@@ -41,11 +45,11 @@ Sometimes the observables of a system are described by an abstract operator alge
 
 * Theorem: Normal states are vector states if $\mathcal{R}$ is a von Neumann algebra with a seperating vector. More precisely: Let $\mathcal{R}$ be a von Neumman algebra acting on a Hilbert space $\mathcal{H}$, let $\rho$ be a normal state of $\mathcal{R}$ and $x \in \mathcal{H}$ be a separating vector for $\mathcal{R}$, then there is a $y \in \mathcal{H}$ such that $\rho(R) = \langle Ry, y \rangle$ for all $R \in \mathcal{R}$.
 
-Reference: This is theorem 7.2.3 in the book of Kadison and Ringrose, see references.
+Reference: This is theorem 7.2.3 in the book of Kadison and Ringrose.
 
 The set of states of an operator algebra is sometimes called the **state space**.
 
-The state space is convex and weak$^*$-compact, so it has extreme points. By the [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem) it is the weak$^*$-closure of it's extreme points.
+The state space is non-empty (define a state on the subalgebra $\mathbb{C} \mathbb{1}$ and extend it to the whole operator algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem) it is the weak$^*$-closure of it's extreme points.
 
 * Definition: A **pure state** is a state that is an extreme point of the state space.
 
