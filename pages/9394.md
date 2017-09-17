@@ -1,0 +1,6 @@
+
+* [webpage](http://fisteo.uv.es/directori.php3?unom=azcarrag)
+
+category: people
+
+[[!redirects Jose de Azcarraga]]
