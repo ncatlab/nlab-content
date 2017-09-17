@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include index theory - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 =--
 =--
 
@@ -32,3 +36,6 @@ This index does not the depend of the [[Sobolev space]] used to get a [[bounded 
   * [[Atiyah-Singer index theorem]]
 
 [[!redirects analytical indices]]
+[[!redirects analytic index]]
+[[!redirects analytic indices]]
+
