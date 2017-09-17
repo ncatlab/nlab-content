@@ -8,7 +8,7 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 $one \tensor{\prod}{_three} two$
 
-$\righttoleftarrow$ $\lefttorightarrow$
+$\righttoleftarrow$ $\lefttorightarrow$ $\leftsquigarrow$
 
 ***
 
