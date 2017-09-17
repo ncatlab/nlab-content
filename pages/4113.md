@@ -1,9 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 >David Roberts: I need to clarify point finiteness vs local finiteness of a partition of unity.
+
+## Idea
+
+A _partition of unity_ is a decomposition of the unit function on a [[topological space]] into a sum of continuous functions that are each non-zero only on small parts of the space.
 
 ## Definition
 
@@ -20,11 +34,22 @@ Given a [[cover]] $\mathcal{U} = \{U_j\}_{j\in J}$ of a [[topological space]] (o
 $$
 \overline{u_j^{-1}(0,1]} \subset U_j.
 $$
+
 +-- {: .query}
 [[David Roberts]]: I know this is standard usage, but it is a bit strange, because then $\{u_j\}$ is not subordinate to $\{u_j^{-1}(0,1]\}$, the open cover it defines. I know the definition is used so that the cover $\mathcal{U}$ doesn't need to be open, but it is a slight failing in my opinion.
 =--
 
-## From a non-point finite partition of unity to a partition of unity
+
+
+## Properties
+
+[[Paracompact spaces]] have the property that every [[open cover]] has a subordinate partition of unity.
+
+[[Normal spaces]] have the property that every [[locally finite cover]] has a subordinate partition of unity. (apparently - need to check this)
+
+The last two are actually characterisations of paracompact resp. normal spaces (reference Bourbaki, Topology Generale I think)
+
+### From a non-point finite partition of unity to a partition of unity
 
 > (Need some write up here D.R.)
 
@@ -34,21 +59,86 @@ $$
 
 This implies that (loc. finite) [[numerable covers]] are cofinal in induced covers arising from collections of functions as in the definition. In particular, given the [[Milnor classifying space]] $\mathcal{B}^M G$ of a [[topological group]] $G$, which comes with a countable family of 'coordinate functions' $\mathcal{B}^M G \to [0,1]$, has a numerable cover. This is shown by Dold to be a trivialising cover for the universal bundle constructed by Milnor, and so the universal bundle is [[numerable bundle|numerable]].
 
+
 ## Applications 
+
+### Maps to geometric realizations
 
 Partitions of unity can be used in constructing maps from spaces to [[geometric realization]]s of [[simplicial spaces]] (incl. simplicial sets) - for example a [[classifying map]] for a $G$-[[bundle]] where $G$ is a [[Lie group]].
 
-[[Paracompact spaces]] have the property that every open cover has a subordinate partition of unity.
 
-[[Normal spaces]] have the property that every [[locally finite cover]] has a subordinate partition of unity. (apparently - need to check this)
+### Coboundaries for Cech cocycles
 
-The last two are actually characterisations of paracompact resp. normal spaces (reference Bourbaki, Topology Generale I think)
+Partitions of unity can be used to give explicit coboundaries for the cocycles of the complex of functions on a cover.
+
+Let $\{U_i \to X\}$ be a [[open cover]] and $\{\rho_i \in C(X,\mathbb{R})\}$ a collection of functions with
+
+* $(x not \in U_i) \Rightarrow \rho_i(x) = 0$
+
+* $\sum_i \rho_i = const_1$.
+
+Write $C(\{U_i\}) : \Delta^{op} \to Top$ for the [[Cech nerve]] of the cover and $C(C(\{U_i\}), \mathbb{R})$ for the [[cosimplicial ring]] of functions on this [[simplicial object|simplicial]] topological space; and $(C_\bullet(C(\{U_i\}), \mathbb{R}), \delta)$ for the corresponding (normalized) [[Moore complex|cochain complex]]: its differential is the alternating sum of the pullbacks of functions along the face maps, i.e. along the restriction maps
+
+$$
+  \delta = \sum_k (-1)^k \delta_{k}^*
+  \,.
+$$
+
+For instance for $f = \{f_{i_1, i_2, \cdots, i_n} \in C(U_{i_1} \cap \cdots \cap U_{i_{n+1}})\}$ a collection of functions in degree $n$, we have
+
+$$
+  (\delta f)_{i_0 \cdots i_n i_{n+1}} =
+  \sum_{k = 0}^{n+1} (-1)^k f_{i_0 \cdots i_{k-1} i_{k+1} \cdots i_{n+1}}
+  \,.
+$$ 
+
+This cochain complex has vanishing [[cochain cohomology]] in positive degree. We can explicitly construct corresponding coboundaries using the partion of unity:
+
+assume that with the above notation $f$ is a cocycle in positive degree, in that $\delta f  = 0$. Then define the $(n-1)$-cochain
+
+$$
+  \lambda_{i_1 \cdots i_n}
+  :=
+  \sum_{i_0} \rho_{i_0} f_{i_0 i_1 \cdots i_n}
+  \,.
+$$
+
+Here in the summands on the right the product is defined on $U_{i_0} \cap U_{i_1} \cap \cdots \cap U_{i_n}$ and extended as 0 to all of $U_{i_1} \cap \cdots \cap U_{i_n}$.
+
+With this definition we have
+
+$$
+  \delta \lambda = f
+  \,.
+$$
+
+To see this we compute
+
+$$
+  \begin{aligned}
+    (\delta \lambda)_{i_1 \cdots i_{n+1}}
+    & :=
+    \sum_{i_0} \rho_{i_0} \sum_{k=1}^n (-1)^k f_{i_0 i_1 \cdots i_{k-1} i_{k+1} \cdots i_{n+1}}
+    \\
+    & =
+    \pm 
+    \sum_{i_0} \rho_{i_0} 
+    f_{i_1 \cdots i_{n+1}}
+    \\
+    & = f_{i_1 \cdots i_{n+1}}
+  \end{aligned}
+  \,,
+$$
+
+where in the second step we used the condition $\delta f = 0$ and in the last step we used the property of the partition of unity.
+
+This construction is used a lot in [[Cech cohomology]]. For instance it can be used to show in Chech cocycles that every [[principal bundle]] admits a [[connection on a bundle]] (see there for the details).
 
 ## References
 
-A. Dold, _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
+* A. Dold, _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
 
-M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
+* M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
 
 [[!redirects partitions of unity]]
 [[!redirects Partitions of unity]]
