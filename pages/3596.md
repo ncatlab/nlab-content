@@ -24,7 +24,7 @@ In *[[extensional type theory|extensional]]* type theory, such as that modeled i
 ## Definition
  {#Definition}
 
-The definition of identity types was originally given in explicit form by Martin-Lof, in terms of introduction and elimination rules.  Later, it was realized that this was a special case of the general notion of [[inductive type]].  We will discuss both formulations.
+The definition of identity types was originally given in explicit form by [[Per Martin-Löf|Martin-Löf]], in terms of introduction and elimination rules.  Later, it was realized that this was a special case of the general notion of [[inductive type]].  We will discuss both formulations.
 
 * [with introduction and elimination rules](#ExplicitDefinition).
 
