@@ -365,6 +365,12 @@ The J-homomorphism was introduced in
 
 The analysis of its image is due to 
 
+* [[John Adams]], _On the groups $J(X)$ I_, Topology 2 (3) (1963)
+
+* [[John Adams]], _On the groups $J(X)$ II_, Topology 3 (2) (1965)
+
+* [[John Adams]], _On the groups $J(X)$ III_, Topology 3 (3) (1965
+
 * [[John Adams]], _On the groups $J(X)$ IV_, Topology 5: 21,(1966)  _Correction_, Topology 7 (3): 331 (1968)
  {#Adams66}
 
@@ -414,4 +420,3 @@ Discussion in the modern perspective of [[higher algebra]] is for instance in
 [[!redirects image of J]]
 [[!redirects image of J-homomorphism]]
 [[!redirects image of the J-homomorphism]]
-
