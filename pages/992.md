@@ -277,6 +277,9 @@ See at _[[sheaf of spectra]]_ and _[[model structure on presheaves of spectra]]_
 In terms of ([[stable model category|stable]]) [[model category|model categories]], something like an analog of this statement is 
 ([Schwede-Shipley, theorem 3.3.3](#SchwedeShipley)).  
 
+### Dold-Kan correspondence
+
+* [[infinity-Dold-Kan correspondence]]
 
 ## Examples
 
