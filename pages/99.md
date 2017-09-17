@@ -260,9 +260,8 @@ The [[cochain cohomology]] of $F(\mathfrak{g})$ vanishes.
 
 =--
 
-An elementary way to see this is to observe that a $d_{F}$-closed element is one in the shifted copy $\wedge^\bullet (\mathfrak{g}^*[1])$, and a coboundary for it is obtained by shifting in each summand in a sum decomposition into homogenous elements one of the factors down.
 
-More formally, let $K := \sigma^{-1} : F(\mathfrak{g}) \to F(\mathfrak{g})$ be the degree down-shift isomorphism $\mathfrak{g}^*[1] \to \mathfrak{g}^*$ extended as a graded derivation of degree -1, then 
+To see this, let $K := \sigma^{-1} : F(\mathfrak{g}) \to F(\mathfrak{g})$ be the degree down-shift isomorphism $\mathfrak{g}^*[1] \to \mathfrak{g}^*$ extended as a graded derivation of degree -1, then 
 
 $$
   [d_{F(\mathfrak{g})}, K] = Id : F(\mathfrak{g}) \to F(\mathfrak{g})
