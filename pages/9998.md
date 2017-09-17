@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[super Yang-Mills theory]] on a 4-[[dimension|dimensional]] [[spacetime]] with $N = 1$ [[supersymmetry]].
+
+## References
+
+Construction by [[Kaluza-Klein mechanism|KK-reduction]] of the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]] on a [[Riemann surface]] is in
+
+* Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
+
+For more along these lines see at _[[N=2 D=4 super Yang-Mills theory]]_.
