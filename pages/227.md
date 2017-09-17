@@ -231,9 +231,11 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[w-contractible ring]]
 
-* [[affine scheme]]
-
 * [[ideal]]
+
+* [[spectrum of a commutative ring]]
+
+  * [[affine scheme]], [[affine scheme]], [[spectral topological space]]
 
 * [[nilradical]]
 
