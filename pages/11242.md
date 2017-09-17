@@ -3,7 +3,7 @@
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Constructivism, Realizability, Computability
@@ -13,20 +13,20 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-
 A kind of [[topological space]] about which one can reason "effectively", hence [[constructive mathematics|constructively]]. Used in [[computable analysis]], see at _[[computable function (analysis)]]_.
+
 
 ## Related concepts
 
-* [[formal topology]] Every effective topological space $X$ defines a formal space. If 
-$X$ is `constructively complete`, then the formal points of $X$ coincide with its effective points; see [Spreen10](#Spreen10).
+* [[formal topology]] Every effective topological space $X$ defines a formal space. If $X$ is 'constructively complete', then the formal points of $X$ coincide with its effective points; see [Spreen10](#Spreen10).
 * [[equilogical space]]
+
 
 ## References
 
