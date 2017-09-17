@@ -168,7 +168,7 @@ Factorization algebras have some similarity with
 
 * [[Hochschild homology]];
 
-* [[blob homology]];
+* [[blob homology]], [[factorization homology]], [[topological chiral homology]];
 
 * [[local net]]s in [[AQFT]].
 
