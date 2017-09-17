@@ -41,7 +41,8 @@ An important class of simplicial complexes is provided by the notion of [[buildi
 
 Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]], but only 'in some sense'. To get from a simplicial complex to a fairly small simplicial set, you  pick a [[total order]] on the set of vertices. Without an order on the vertices, you cannot speak of the $k^{th}$ face of a simplex, which is an essential feature of a simplicial set! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$. (If you do not pick an order then you can still form a simplicial set where to each $n$-simplex of the original simplicial complex will correspond to $(n+1)!$ simplices of that associated simplicial set. The result is unwealdy to say the least, but can be useful under some circumstances.)
 
-Simplicial sets are essentially (that is, up to equivalence) [[presheaves]] on the [[simplex category]] of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. This works as follows: given a simplicial set $K = (V(K), S(K))$, define a presheaf $K^\sim: Fin_{inj}^{op} \to Set$ whose values are sets of injections $\phi$: 
+##Simplicial complexes as sheaves on a site##
+Simplicial sets are essentially (that is, up to equivalence) [[presheaves]] on the [[simplex category]] of finite nonempty totally ordered sets, whereas simplicial complexes may be regarded as certain types of presheaves on the category $Fin_{inj}$ of finite nonempty sets and injections between them. This works as follows: given a simplicial complex, $K = (V(K), S(K))$, define a presheaf $K^\sim: Fin_{inj}^{op} \to Set$ whose values are sets of injections $\phi$: 
 
 $$K^\sim(B) \stackrel{def}{=} \{\phi: B \hookrightarrow V(K)| \phi(B) \in S(K)\}, \qquad K^\sim(i: A \to B)(\phi) \stackrel{def}{=} \phi \circ i$$ 
 
@@ -98,7 +99,7 @@ Note that if $s \subseteq t$ is an inclusion of simplices in $K$, then there is 
 
 * **Warning:** The geometric realization of a simplicial complex does not preserve products. Indeed, the product of two intervals in the category of simplicial complexes is the tetrahedron! 
 
-### Triangulable spaces
+## Triangulable spaces
 
 If a topological space can be described up to homeomorphism as the geometric realization of a simplicial complex, we say it is **triangulable**, and a **triangulation** of a space $X$ is a simplicial complex $K$ together with a homeomorphism $h: |K| \to X$. (This is discussed in a bit more detail in the entry on [[classical triangulation]]. 
 
