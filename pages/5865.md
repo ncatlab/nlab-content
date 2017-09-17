@@ -856,7 +856,7 @@ Now choose any point $x : {*} \to X$ of the base space as on the left of the dia
 
 For the moment see the discussion at _[[∞-gerbe]]_ . 
 
-### Twisted cohomology
+### Twisted cohomology and section
  {#TwistedCohomology}
 
 
@@ -1105,8 +1105,13 @@ where on the left we have the simplicially constant object on the vertices of $\
 =--
 
 
+### $\infty$-Group representations and associated $\infty$-bundles
+ {#GroupRepresentations}
 
+The material to go here is at 
+[[schreiber:differential cohomology in a cohesive topos|Schreiber, section 2.3.7]].
 
+(...)
 ### Concordance 
   {#Concordance}
 
