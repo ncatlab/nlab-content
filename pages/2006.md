@@ -23,7 +23,7 @@
 ## Idea
 
 The __Kleisli category__ of a [[monad]] is the [[category]] of its 
-[[free construction|free]] [[algebra for a monad|modules]] inside the [[Eilenberg–Moore category]].
+[[free construction|free]] [[algebra for a monad|algebras]] (aka free [[modules]]) inside the [[Eilenberg–Moore category]].
 
 
 ## Definition
@@ -31,12 +31,12 @@ The __Kleisli category__ of a [[monad]] is the [[category]] of its
 Let $\mathbf{T}=(T,\mu,\eta)$ be a [[monad]] in [[Cat]], where $T:C\to C$ is an [[endofunctor]] with multiplication $\mu:T T\to T$ and unit $\eta:Id_C\to T$.
 
 
-### In terms of free modules
+### In terms of free algebras
 
 +-- {: .num_defn}
 ###### Definition
 
-A __free $\mathbf{T}$-[[algebra over a monad|module]]__ (or free $\mathbf{T}$-algebra) is a $\mathbf{T}$-module (algebra) of the form $(T(M),\mu_M)$, where the [[action]] is the component of multiplication transformation $\mu_M : T(T(M))\to T(M)$. 
+A __free $\mathbf{T}$-[[algebra|algebra over a monad|]]__ (or free $\mathbf{T}$-module) is a $\mathbf{T}$-algebra (module) of the form $(T(M),\mu_M)$, where the [[action]] is the component of multiplication transformation $\mu_M : T(T(M))\to T(M)$. 
 
 =--
 
@@ -63,7 +63,7 @@ As another way of looking at this, we can keep the same objects as in $C$ but re
 +-- {: .num_defn}
 ###### Definition
 
-The **Kleisli category** $C_{\mathbf{T}}$ has as objects the objects of $C$ and [[morphisms]] $M\to N$ are the elements of the [[hom-set]] $C(M,T(N))$, hence are [[morphisms]] of the form $M \to T(N)$ in $C$, called **Kleisli morphisms**.
+The **Kleisli category** $C_{\mathbf{T}}$ has as objects the objects of $C$, and as [[morphisms]] $M\to N$ the elements of the [[hom-set]] $C(M,T(N))$, in other words [[morphisms]] of the form $M \to T(N)$ in $C$, called **Kleisli morphisms**.
 
 Composition is given by the **Kleisli composition** rule $g\circ_{Kleisli} f = \mu_P\circ T(g)\circ f$
 (as in the [[Grothendieck construction]] (here $M\stackrel{f}\to N\stackrel{g}\to P$).
@@ -88,7 +88,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This Kleisli composition plays a central role in [[computer science]], the at [[monad (in computer science)]].
+This Kleisli composition plays an important role in [[computer science]]; for this, see the article at [[monad (in computer science)]].
 
 =--
 
