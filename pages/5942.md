@@ -14,9 +14,13 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A [[homomorphism]] between [[schemes]] is said to be _(locally) of finite type_ it it behaves like a [[finite number|finite]] [[covering space]].
+
 ## For schemes
 
-A morphism $f : X \to Y$ of [[scheme]]s is **locally of finite type** if
+A morphism $f : X \to Y$ of [[schemes]] is **locally of finite type** if
 
 * for every [[open cover]] $\{U_i \to Y\}$ by [[affine scheme]]s, $U_i \simeq Spec B_i$;
 
@@ -41,6 +45,13 @@ If for fixed $i$ the $j_i$ range only over a [[finite set]], then the morphism i
 ## Related concepts
 
 * [[morphism of finite presentation]]
+
+## References
+
+Introductory disucssoon over the [[complex numbers]] (with an eye towards [[GAGA]]) is in 
+
+* {#Neeman07} [[Amnon Neeman]], section 3.10 _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, 2007 ([publisher](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry))
+
 
 [[!redirects locally of finite type]]
 [[!redirects finite type]]
