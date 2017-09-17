@@ -87,7 +87,7 @@ The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[d
 The central idea of the [[Langlands correspondence]] (see for instance ([Frenkel 05](#Frenkel05)) for a review of the basic aspects that we refer to) is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
 
 $$
-  GL_n(K) \;\backslash\; GL_n(\mathbb{A}_{K}) \;/\; GL_n(\mathcal{O}_K)
+  GL_n(K) \;\backslash\; GL_n(\mathbb{A}_{K}) \;/\; GL_n(\mathbb{O}_K)
   \,,
 $$
 
@@ -148,7 +148,7 @@ This is analogous to the [[group of ideles|idelic]] structure of the [[Langlands
     \mathbb{Z}_p = \{ a_0 + a_1 p + a_2 p^2 + \cdots \}
   $$
 
-  is analogous to the [[ring of functions]] on the [[formal disk]] $D$ at $x$, namley the [[power series]] ring
+  is analogous to the [[ring of functions]] on the [[formal disk]] $D$ at $x$, namely the [[power series]] ring
 
   $$
     \mathbb{C}[ [ (z-x) ] ] = \{ a_0 + a_1 (z-x) + a_2 (z-x)^2 + \cdots \}
