@@ -15,7 +15,7 @@
 
 ## Definition
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 An [[(∞,1)-category]] is **sifted** if a [[quasi-category]] $K \in sSet$ modelling it has the property that
@@ -28,33 +28,53 @@ An [[(∞,1)-category]] is **sifted** if a [[quasi-category]] $K \in sSet$ model
 
 ## Properties
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
+Let $C$ be an [[(∞,1)-category]] such that [[products]] preserve [[sifted (∞,1)-colimits]] (for instance an [[(∞,1)-topos]], see [[universal colimits]]).
 
-In a category of commutative monoids in a symmetric monoidal $(\infty,1)$-category, sifted colimits are computed as sifted colimits in the underlying $(\infty,1)$-category. See [[commutative monoid in a symmetric monoidal (∞,1)-category]] for details.
+Then [[sifted (∞,1)-colimits]] preserve finite products.
 
 =--
 
-+-- {: .un_prop }
-###### Proposition
+This is ([Lurie, lemma 5.5.8.11](#Lurie)).
 
-Let $K$ be a sifted $(\infty,1)$-category and let $C$ be an [[(∞,1)-category]] with $K$-shaped [[(∞,1)-colimit]]s and finite [[(∞,1)-products]] such that [[(∞,1)-colimit]]s of shape $K$ are preserved by finite [[(∞,1)-product]]s.
 
-Then $K$-shaped [[(∞,1)-colimit]]s in $C$ commute with finite products. 
 
-=--
-
-This is [[Higher Topos Theory|HTT, lemma 5.5.8.1]].
 
 ## Examples
 
-+-- {: .un_prop }
+### General
+
++-- {: .num_prop }
 ###### Proposition
 
 The [[opposite category]] $\Delta^{op}$ of the [[simplex category]] is a sifted $(\infty,1)$-category.
 
 =--
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[filtered (∞,1)-category]] is sifted.
+
+=--
+
+This appears as ([Lurie, prop. 5.3.1.20](#Lurie)).
+
+### In categories of commutative monoids
+
++-- {: .num_prop }
+###### Proposition
+
+
+In a category of commutative monoids in a symmetric monoidal $(\infty,1)$-category, sifted colimits are computed as sifted colimits in the underlying $(\infty,1)$-category. 
+
+=--
+
+See [[commutative monoid in a symmetric monoidal (∞,1)-category]] for details.
+
+
 
 ## Related concepts
 
@@ -67,6 +87,7 @@ The [[opposite category]] $\Delta^{op}$ of the [[simplex category]] is a sifted 
 Section 5.5.8 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+  {#Lurie}
 
 [[!redirects sifted (infinity,1)-categories]]
 [[!redirects sifted (∞,1)-category]]
