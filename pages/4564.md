@@ -22,7 +22,8 @@ A [[geometric morphism]] $f\colon E\to F$ between [[topoi]] is called **hypercon
 
 * If $g\colon C\to D$ is a [[functor]] between [[small categories]] which is both [[essentially surjective functor|essentially surjective]] and [[full functor|full]], then the induced geometric morphism $Set^C\to Set^D$ is hyperconnected.  In fact, instead of essentially surjective it suffices for $g$ to be [[Cauchy surjective functor|Cauchy surjective]], i.e. $D$ is the closure of $g(C)$ under retracts.
 
-* In particular, the [[global sections]] geometric morphism $Set^C\to Set$ is hyperconnected for any [[inhabited set|inhabited]] small category $C$.  This includes the case when $C=G$ is a [[group]] and $Set^C$ is the topos of [[group action|G-sets]].
+* In particular, the [[global sections]] geometric morphism $Set^C\to Set$ is hyperconnected 
+iff $C$ is strongly connected (see Elephant, A4.6.9), i.e., inhabitated and for any two objects $A,B$ there exist morphisms $f:A\to B$ and $g:B\to A$. This includes the case when $C=M$ is a [[monoid]], and the topos of [[simplicial set|simplicial sets]].
 
 
 ## Remarks
