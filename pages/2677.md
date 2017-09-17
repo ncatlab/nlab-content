@@ -52,8 +52,7 @@ A survey of the various competing theories is
 
 * [[Alain Connes]], _Fun with $\mathbf{F}_1$_, 5 min. [video](http://www.dailymotion.com/video/x6xe0g_article-alain-connes_tech)
 
-* [[Lieven Le Bruyn]], _The field with one element_, 3 lectures at the Seminar of Algebra and Geometry group at Antwerp, pdfs: [1](http://matrix.cmi.ua.ac.be/fun/DATA/halloweennotes.pdf), [2](http://matrix.cmi.ua.ac.be/fun/DATA/nov21.pdf), [3](http://matrix.cmi.ua.ac.be/DATA2/f120maart.pdf)
-* [[Vladimir Berkovich]], _Algebraic geometry over $\mathbf{F}_1$_, [video](http://www.diffusion.ens.fr/index.php?res=conf&idconf=2843)
+* [[Lieven Le Bruyn]], _The field with one element_, seminar notes 2008 ([web](http://win.ua.ac.be/~lebruyn/b2hd-LeBruyn2008d.html))
 
 * {#Lorscheid14} [[Oliver Lorscheid]], _Lectures on $\mathbb{F}_1$_, 2014 ([pdf](http://www.impa.br/~lorschei/Lectures_on_F1.pdf))
 
