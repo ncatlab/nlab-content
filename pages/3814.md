@@ -10,18 +10,18 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-The **standard model of particle physics** is a [[quantum field theory]] that describes the _[[fundamental particles]]_ currently experimentally known, containing 
+The **standard model of particle physics** is a [[model (in particle physics)]]: a [[quantum field theory]] that describes the _[[fundamental particles]]_ currently experimentally known, containing 
 
-* electrons, neutrinos, quarks and other [[fermion]]s, 
+* [[electrons]], [[neutrinos]], [[quarks]] and other [[fermions]], 
 
 as well as three of the four _fundamental [[forces]]_ as currently known, which, somewhat roughly, are
 
-* the force of [[electromagnetism]], the weak and the strong nuclear force.
+* the force of [[electromagnetism]], the [[weak nuclear force|weak]] and the [[strong nuclear force]].
 
 The main ingredient missing from the standard model is the [[quantum physics|quantum]] version of the field of [[gravity]]. For decades, a large part of theoretical physics has been absorbed with attempts to understand how this last of the known fundamental forces might fit into the picture.
 
