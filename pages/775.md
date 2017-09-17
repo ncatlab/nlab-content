@@ -1,19 +1,18 @@
 # Commutative squares
-* tic
+* table of contents
 {: toc}
-
 
 ## Definition and notation
 
-Let $C$ be a [[category]]. A **square** of morphisms of $C$  consists of objects $X,Y,Z,W$ of $C$ and morphisms $x:X \to Z, y: X \to Y, x': Y \to W, y': Z \to W$. This is often pictured as a square 
-$$\array{& X & {\to}^x & Z & \\
-          y & \downarrow &&\downarrow & y'\\
-          &Y & {\to}_{x'}& W & \\
+Let $C$ be a [[category]]. A **square** of morphisms of $C$  consists of objects $X,Y,Z,W$ of $C$ and morphisms $f\colon X \to Z$, $g\colon X \to Y$, $f'\colon Y \to W$, and $g'\colon Z \to W$. This is often pictured as a square 
+$$\array{& X & \overset{f}\rightarrow & Z & \\
+          g & \downarrow &&\downarrow & g'\\
+          &Y & \underset{f'}\rightarrow& W & \\
 }$$
 
-The square is **[[commutative diagram|commutative]]** if $y'x=x'y$.
+The square is **[[commutative diagram|commutative]]** if $y' \circ f = f' \circ g$.
 
-The class of commutative  squares in $C$ is written $\square C$.
+The class of commutative squares in $C$ is written $\square C$.
 
 
 ## Structure
@@ -49,4 +48,5 @@ which thus states that the category of (small if you like!) categories is [[cart
 The commutative squares serve as the morphisms in the [[arrow category]] of $C$, which is the functor category $CAT(2,C)$.
 
 
+[[!redirects commutative square]]
 [[!redirects commutative squares]]
