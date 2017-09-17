@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
