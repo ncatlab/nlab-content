@@ -96,7 +96,7 @@ Under the [[function field analogy]], a [[global field]] $K_X$ such as a [[funct
 
 * accordingly $G(\mathbb{A}_X)$ is the group of $G$-valued such functions;
 
-* the quotient $K\backslash \mathbb{A}_K$ is hence the quotient of such functions on punctured formal disks around finitely many points by the functions on $\Sigma$ with these finitely many points removed; and similarly $G(K_X)\backslash G(\mathbb{A}_X)$ is the quotient of group-valued such function;
+* the quotient $K_X\backslash \mathbb{A}_X$ is hence the quotient of such functions on punctured formal disks around finitely many points by the functions on $\Sigma$ with these finitely many points removed; and similarly $G(K_X)\backslash G(\mathbb{A}_X)$ is the quotient of group-valued such function;
 
 * the ring $\mathcal{O}$ is the ring of functions on all formal disks in $\Sigma$;
 
