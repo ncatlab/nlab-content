@@ -1,27 +1,26 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]=--
 =--
 =--
 =--
 =--
 
-
 # Anafunctors
 * automatic table of contents goes here
 {:toc}
 
-
 ## Idea
 
-An _anafunctor_ $F : C \to D$ is a generalized [[functor]].
+An _anafunctor_ $F\colon C \to D$ is a generalized [[functor]].
 
 A basic fact in ordinary [[category theory]] is that a [[functor]] $f\colon C \to D$ is an [[equivalence of categories]] -- in that there is a functor $g\colon D \to C$ and natural isomorphisms $f \circ g \simeq Id_D$ and $g \circ f \simeq Id_C$ -- if and only if it is a [[essentially surjective functor|essentially surjective]] and [[full and faithful functor|fully faithful]].  However, the "if" part of this statement depends crucially on the [[axiom of choice]]: the functor $g$ is obtained by _choosing_  for each [[object]] $d \in D$ an object $c \in C$ such that $f(c) \simeq d$.  In fact, the statement that "every fully faithful and essentially surjective functor is an equivalence of categories" is equivalent to the axiom of choice.
 
@@ -113,25 +112,25 @@ Given categories $C$ and $D$, an __anafunctor__ $F\colon C \to D$ may be rather 
 ### Explicit set-theoretic definition
 
 In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
-* a set $|F|$ of __specifications__ of $F$ (which corresponds to the set of objects of $\overline{F}$);
-* maps $\sigma\colon |F| \to C$ and $\tau\colon |F| \to D$ (taking values in objects). Given $x\colon C$ and $y\colon D$, we say that $y$ is a __specified value__ of $F$ at $x$ if, for some $s\colon |F|$, $x = \sigma(s)$ and $y = \tau(s)$; in this case, $s$ __specifies__ $y$ as a value of $F$ at $x$, and we write $F_s(x) = y$.  That is,
+* a set ${|F|}$ of __specifications__ of $F$ (which corresponds to the set of objects of $\overline{F}$);
+* maps $\sigma\colon {|F|} \to C$ and $\tau\colon {|F|} \to D$ (taking values in objects). Given $x\colon C$ and $y\colon D$, we say that $y$ is a __specified value__ of $F$ at $x$ if, for some $s\colon {|F|}$, $x = \sigma(s)$ and $y = \tau(s)$; in this case, $s$ __specifies__ $y$ as a value of $F$ at $x$, and we write $F_s(x) = y$.  That is,
   $$ F_s(x) \coloneqq \tau(s) .$$
   We say that $y$ is a __value__ of $F$ at $x$ if $y$ is isomorphic (in $D$) to some specified value of $F$ at $x$; we write $F(x) \cong y$. (There is no notion of *the* value of $F$ at $x$, except in the up-to-isomorphism sense of the [[generalised the]], and $F(x) = y$ is a meaningless statement.);
-* for each $s, t\colon |F|$ and morphism $f\colon \sigma(s) \to \sigma(t)$ in $C$, a morphism
+* for each $s, t\colon {|F|}$ and morphism $f\colon \sigma(s) \to \sigma(t)$ in $C$, a morphism
   $$ F_{s,t}(f)\colon F_s(x) \to F_t(y) $$
   in $D$, where $x \coloneqq \sigma(s)$ and $y \coloneqq \sigma(t)$. Similarly to the above, we can define whether a given morphism $g$ in $D$ is a __specified value__ of $F$ at a given morphism $f$ in $C$ or whether $g$ is (merely) a __value__ of $F$ at $f$. (Again, there is no notion of *the* value of $F$ at $f$.);
 * $\sigma$ is a [[surjective function]]. Thus, $F$ has *some* value at any given object or morphism of $C$. (In the [[internalization|internalized]] case, this requirement can become quite complicated; for example, internal to [[Diff]], one requires a [[surjective submersion]].);
-* $F$ preserves [[identity morphism|identities]]. That is, given $s\colon |F|$, the value of $F$ specified by $s$ and $s$ at the identity of $\sigma(s)$ is the identity of $\tau(s)$, or (in symbols) $F_{s,s}(\id_{\sigma(s)}) = \id_{\tau(s)}$, or (whenever this makes sense)
+* $F$ preserves [[identity morphism|identities]]. That is, given $s\colon {|F|}$, the value of $F$ specified by $s$ and $s$ at the identity of $\sigma(s)$ is the identity of $\tau(s)$, or (in symbols) $F_{s,s}(\id_{\sigma(s)}) = \id_{\tau(s)}$, or (whenever this makes sense)
   $$ F_{s,s}(\id_x) = \id_{F_s(x)} ;$$
-* $F$ preserves [[composition]]. That is, given $s, t, u\colon |F|$, $f\colon \sigma(s) \to \sigma(t)$, and $g\colon \sigma(t) \to \sigma(u)$,
+* $F$ preserves [[composition]]. That is, given $s, t, u\colon {|F|}$, $f\colon \sigma(s) \to \sigma(t)$, and $g\colon \sigma(t) \to \sigma(u)$,
   $$ F_{s,u}(f;g) = F_{s,t}(f);F_{t,u}(g) .$$
   (Here the semicolon indicates composition in the anti-Leibniz order.).
 
-From the above explicit data, the category $\overline{F}$ is constructed as follows: the objects of $\overline{F}$ are the elements of $|F|$, while a morphism $s \to t$ in $\overline{F}$ is simply a morphism $\sigma(s) \to \sigma(t)$ in $C$.  Then $\sigma$ extends to a surjective faithful functor from $\overline{F}$ to $C$ (acting as the identity on morphisms), and $\tau$ extends to a functor from $\overline{F}$ to $D$ (mapping the morphism $f\colon s \to t$ in $\overline{F}$ to $F_{s,t}(f)\colon \tau(s) \to \tau(t)$ in $D$).
+From the above explicit data, the category $\overline{F}$ is constructed as follows: the objects of $\overline{F}$ are the elements of ${|F|}$, while a morphism $s \to t$ in $\overline{F}$ is simply a morphism $\sigma(s) \to \sigma(t)$ in $C$.  Then $\sigma$ extends to a surjective faithful functor from $\overline{F}$ to $C$ (acting as the identity on morphisms), and $\tau$ extends to a functor from $\overline{F}$ to $D$ (mapping the morphism $f\colon s \to t$ in $\overline{F}$ to $F_{s,t}(f)\colon \tau(s) \to \tau(t)$ in $D$).
 
 An anafunctor $F$ is __saturated__ if, whenever $F(x) \cong y$, $F_s(x) = y$ for some unique specification $s$, where the unicity of $s$ depends not only on $x$ and $y$ but also on how $y$ is a value of $F$ at $x$. To be precise: if $g\colon y' \to y$ is an isomorphism in $D$ and $F_{s'}(x) = y'$ for some specification $s'$, then there is a unique specification $s$ such that $F_{s',s}(\id_x) = g$ (where in particular, $\sigma(s) = x$ and $F_s(x) = y$). Every anafunctor $F\colon C \to D$ has a _saturation_ $\overline{F}$; $\overline{F}$ is a saturated anafunctor and $F \cong \overline{F}$ in the category of anafunctors from $C$ to $D$. In fact, the inclusion of the saturated anafunctors into the anafunctors (as a full subcategory) is an equivalence of categories (given fixed $C$ and $D$).
 
-Categories, anafunctors, and a suitably defined notion of [[ananatural transformation]] between them form a [[bicategory]] $Cat_{ana}$; an internal [[equivalence]] in this 2-category is called an **anaequivalence**.  Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be (the set of objects in) $C$ itself and $\sigma$ the [[identity functor]].  Indeed, there is a [[2-functor]] to $Cat_{ana}$ from the [[strict 2-category]] $Str Cat$ of categories, functors and natural transformations; this functor is an [[equivalence of categories|equivalence]] if and only if the [[axiom of choice]] holds.  Thus, most mathematicians will identify $Cat_{ana}$ and $Str Cat$ as simply [[Cat]], the $2$-category of categories; however, mathematicians who doubt the axiom of choice will distinguish them.  While anafunctors exist in any case, there is an ideological statement that may be implied by their use: that $Cat$ is *really* $Cat_{ana}$ rather than $Str Cat$.
+Categories, anafunctors, and a suitably defined notion of [[ananatural transformation]] between them form a [[bicategory]] $Cat_{ana}$; an internal [[equivalence]] in this 2-category is called an **anaequivalence**.  Every functor may be interpreted as an anafunctor, with ${|F|}$ always taken to be (the set of objects in) $C$ itself and $\sigma$ the [[identity functor]].  Indeed, there is a [[2-functor]] to $Cat_{ana}$ from the [[strict 2-category]] $Str Cat$ of categories, functors and natural transformations; this functor is an [[equivalence of categories|equivalence]] if and only if the [[axiom of choice]] holds.  Thus, most mathematicians will identify $Cat_{ana}$ and $Str Cat$ as simply [[Cat]], the $2$-category of categories; however, mathematicians who doubt the axiom of choice will distinguish them.  While anafunctors exist in any case, there is an ideological statement that may be implied by their use: that $Cat$ is *really* $Cat_{ana}$ rather than $Str Cat$.
 
 In any case, (modulo "size issues" which one may want to impose) the inclusion of $Str Cat$ into $Cat_{ana}$ has a right adjoint, described using [[clique]]s. Accordingly, we can instead define anafunctors by means of clique categories, taking an anafunctor from $C$ into $D$ to be a genuine functor from $C$ into $Clique(D)$ (and the 2-category of anafunctors as the Kleisli category for the $Clique(-)$ 2-monad (in particular, natural transformations between anafunctors into $D$ are simply natural transformations of the corresponding genuine functors into $Clique(D)$)).
 
@@ -254,7 +253,6 @@ Closely related, still a bit more general, are the considerations in
 The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors.
 
 +-- {: .query}
-
 [[David Roberts]] says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
 
 DR says: Well I suppose we could follow Makkai's philosophy twice and have a composition anafunctor (in the original sense) for composing anafunctors (in the internal sense) and end up with an anabicategory.
@@ -270,8 +268,8 @@ _David R_: After some thought, one could do without _the_ identity anafunctor, a
 _Toby_: You only get an anabicategory anyway, because of the choice of pullbacks (unless the structure of the coverage fixes these, as can be done in $Set$).
 
 Anafunctors really should make sense in any [[site]] whatsoever (as long as we can compose ananatural transformations, which I guess we can if the site is subcanonical).  The trick of getting away with single maps (as one can do, for example, in a superextensive site) is not really necessary.  In fact, using a coverage makes the definitions, while more complicated, really look more natural in topological categories.
-
 =--
 
 
+[[!redirects anafunctor]]
 [[!redirects anafunctors]]
