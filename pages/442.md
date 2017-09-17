@@ -19,7 +19,9 @@ A **[[model]]** of $T$ is a product-preserving functor $T \to Set$, and _homomor
 
 ## Examples
 
-As a running example, let us consider the theory of [[group]]s (defined however you like). To get the corresponding Lawvere theory $T$, let $F(n)$ (for any natural number $n \geq 0$) be a free group on $n$ generators, and define the Lawvere theory $T_{Grp}$ to be the category [[opposite category|opposite]] to the category of free groups $F(n)$ and group homomorphisms. The generic object $x$ of $T_{Grp}$ is taken to be $F(1)$. 
+### The theory of groups
+
+We consider here the theory of [[group]]s (defined however you like). To get the corresponding Lawvere theory $T$, let $F(n)$ (for any natural number $n \geq 0$) be a free group on $n$ generators, and define the Lawvere theory $T_{Grp}$ to be the category [[opposite category|opposite]] to the category of free groups $F(n)$ and group homomorphisms. The generic object $x$ of $T_{Grp}$ is taken to be $F(1)$. 
 
 The category of free groups has finite coproducts since $F(m) + F(n) \cong F(m+n)$ (in other words, the inclusion 
 
@@ -68,6 +70,8 @@ All of the discussion above for the case of groups generalizes to any finitary [
 * The free algebras are retrieved as the representable functors $T \to Set$. 
 
 As discussed in the article on [[operad|operads]], the notion of Lawvere theory may also be formulated in terms of operads relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
+
+### Other examples
 
 
 ## Remarks
