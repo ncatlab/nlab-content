@@ -23,7 +23,7 @@
 
 There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic.  Most, if not all, of these notions of cohomology are special cases of --- and in many instances special concrete _models_ for --- the following general idea:
 
-Cohomology is something associated to a given [[(∞,1)-topos]] $\mathbf{H}$. For $X, A$ two objects of $\mathbf{H}$, the **(degree-0) cohomology of $X$ with coefficients in $A$** is the set of connected components of the [[derived hom-space|hom ∞-groupoid]] of morphisms from $X$ to $A$ in $\mathbf{H}$:
+Cohomology is something associated to a given [[(∞,1)-topos]] $\mathbf{H}$. For $X, A$ two objects of $\mathbf{H}$, the **(degree-0) cohomology of $X$ with coefficients in $A$** is the set of connected components of the [[derived hom-space|hom ∞-groupoid]], hence of [[homotopy classes]] of [[morphisms]] from $X$ to $A$ in $\mathbf{H}$:
 
 $$
   H(X;A) = H^0(X;A) \coloneqq \pi_0 \mathbf{H}(X,A)
