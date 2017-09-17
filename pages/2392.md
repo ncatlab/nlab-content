@@ -1,11 +1,27 @@
-<div class="rightHandSide toc">
-[[!include higher category theory - contents]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / **$(\infty,1)$-operad**
 
 ***
 
-[[!include higher algebra - contents]]
-
-</div>
 
 
 #Contents#
