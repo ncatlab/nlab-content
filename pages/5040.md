@@ -37,6 +37,8 @@ and the weight $T\to Cat$ is the diagram
 $$\array{ & \to \\ 1 & \Downarrow & Inv\\ & \to } $$
 where $1$ is the [[terminal category]] and $Inv$ is the walking [[isomorphism]].  Since $Inv$ is equivalent to $1$, this weight is equivalent to the terminal weight, and thus an inverter (but not a strict inverter) can also be defined simply as a [[conical limit|conical]] 2-limit over a diagram of shape $T$.
 
+An inverter in $K^{op}$ (see [[opposite 2-category]]) is called a **coinverter** in $K$.  Coinverters in [[Cat]] are also called [[localizations]].
+
 ## Properties
 
 * The above description makes it clear that any inverter is in particular a [[fully faithful morphism]].
@@ -56,3 +58,7 @@ inverters appear in B1.1.4. The inverter of a transformation between [[geometric
 [[!redirects inverters]]
 [[!redirects strict inverter]]
 [[!redirects strict inverters]]
+[[!redirects coinverter]]
+[[!redirects coinverters]]
+[[!redirects strict coinverter]]
+[[!redirects strict coinverters]]
