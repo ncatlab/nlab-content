@@ -1,18 +1,19 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -37,6 +38,7 @@ $$
 
 Its [[boundary]] is the $(n-1)$-[[sphere]].
 
+
 ## Properties {#Properties}
 
 ### Closed balls 
@@ -44,12 +46,12 @@ Its [[boundary]] is the $(n-1)$-[[sphere]].
 A simple result on the _homeomorphism_ type of _closed_ balls is the following:  
 
 +-- {: .un_thm}
-######Theorem 
-A [[compact]] [[convex]] [[subset]] $D$ in $\mathbb{R}^n$ with [[nonempty]] [[interior]] is [[homeomorphic]] to $D^n$. 
+###### Theorem 
+A [[compact]] [[convex subset|convex]] [[subset]] $D$ in $\mathbb{R}^n$ with [[nonempty]] [[interior]] is [[homeomorphic]] to $D^n$. 
 =-- 
 
 +-- {: .proof}
-######Proof
+###### Proof
 Without loss of generality we may suppose the origin is an interior point of $D$. We claim that the map $\phi: v \mapsto v/\|v\|$ maps the boundary $\partial D$ homeomorphically onto $S^{n-1}$. By convexity, $D$ is homeomorphic to the cone on $\partial D$, and therefore to the cone on $S^{n-1}$ which is $D^n$. 
 
 The claim reduces to the following three steps. 
@@ -66,14 +68,15 @@ So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ be
 By slightly modifying this argument, we can prove that the closure of any open [[star-shaped]] region is homeomorphic to the $n$-disk iff it is compact. For, we may assume every point in the closure is connected to the origin by a line segment in the closure. Steps 1 and 2 above hold without modification, and as for step 3, for any open neighborhood of the line segment between the origin and $w$, any convex open subneighborhood of the segment contains $v$ as an interior point. 
 
 +-- {: .un_cor}
-######Corollary
+###### Corollary
 Any compact convex set $D$ of $\mathbb{R}^n$ is homeomorphic to a disk. 
 =-- 
 
 +-- {: .proof} 
-######Proof
+###### Proof
 $D$ has nonempty interior relative to its affine span which is some $k$-plane, and then $D$ is homeomorphic to $D^k$ by the theorem. 
 =--
+
 
 ### Open Balls
 
@@ -188,9 +191,11 @@ $$
 
 (Thanks to [[Todd Trimble]].)
 
+
 ### Good covers by balls
 
 One central application of balls is as building blocks for [[covering]]s. See [[good open cover]] for some statements.
+
 
 ## References {#References}
 
@@ -237,22 +242,29 @@ For a discussion of diffeomorphisms between geodesically convex regions and open
 
 See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
 
+
+[[!redirects ball]]
+[[!redirects balls]]
 [[!redirects  balls]]
+[[!redirects n-ball]]
+[[!redirects n-balls]]
 
 [[!redirects open ball]]
 [[!redirects open balls]]
-
 [[!redirects open n-ball]]
 [[!redirects open n-balls]]
 
 [[!redirects closed ball]]
 [[!redirects closed balls]]
-
 [[!redirects closed n-ball]]
 [[!redirects closed n-balls]]
 
 [[!redirects disk]]
 [[!redirects disks]]
+[[!redirects disc]]
+[[!redirects discs]]
 
 [[!redirects n-disk]]
 [[!redirects n-disks]]
+[[!redirects n-disc]]
+[[!redirects n-discs]]
