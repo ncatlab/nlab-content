@@ -139,7 +139,7 @@ As a corollary, we deduce that the classical model structure on $sSet$ is the sm
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\pi_0 : sSet \to Set$ be the connected components functor, i.e. the left adjoint of the functor $(-)_0 : sSet \to Set$. A morphism $f : Z \to W$ in $sSet$ is a weak homotopy equivalence if and only if the induced map
+Let $\pi_0 : sSet \to Set$ be the connected components functor, i.e. the left adjoint of the constant functor $cst : Set \to sSet$. A morphism $f : Z \to W$ in $sSet$ is a weak homotopy equivalence if and only if the induced map
 $$\pi_0 K^f : \pi_0 K^W \to \pi_0 K^Z$$
 is a bijection for all _Kan complexes_ $K$.
 
