@@ -1,4 +1,4 @@
-An __entourage__ (aka __vicinity__) is a [[binary relation]] of 'approximate equality' on a [[space]].  Just as a [[topological space]] is given by its [[underlying set]] of points and an appropriate collection of [[open subsets]], so a [[uniform space]] is given by its underlying set of points and an appropriate collection of entourages.  If the intuition behind open subsets is that you can wiggle any point in an open subset a little ways and get a point in the open subset, then the intuition behind entourages is that you can wiggle any two points related by an entourage a little ways and get two points related by the entourage.
+An __entourage__ (aka __vicinity__) is a [[binary relation]] of 'approximate equality' on a [[space]].  Just as a [[topological space]] is given by its [[underlying set]] of points and an appropriate collection of [[open subsets]], so a [[uniform space]] is given by its underlying set of points and an appropriate collection of entourages.  If the intuition behind open subsets is that you can take a point in an open subset, move it a small distance, and get a point in the open subset; then the intuition behind entourages is that you can take any two points related by an entourage, move them anywhere in the space as long as each is only moved a small distance relative to the other, and get two points related by the entourage.
 
 
 ## Examples
@@ -20,3 +20,5 @@ Note that in both cases, there are additional entourages besides these basic one
 
 [[!redirects entourage]]
 [[!redirects entourages]]
+[[!redirects vicinity]]
+[[!redirects vicinities]]
