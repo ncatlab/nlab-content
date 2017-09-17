@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include topology - contents]]
 =--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
 =--
 =--
 
@@ -54,9 +58,16 @@ The standard equivalence of the two definitions is given by the map $\mathbb{R} 
 
 ## Properties
 
-The circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]], but its higher [[homotopy groups]] $\pi_n(S^1)$, $n \gt 1$ vanish (and so is a 1-type). The circle is a model for the [[classifying space]] for the group $\mathbb{Z}$, the integers.
+The circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]], but its higher [[homotopy groups]] $\pi_n(S^1)$, $n \gt 1$ vanish (and so is a [[homotopy type|homotopy 1-type]]). The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s.
 
+The [[product]] of the circle with itself is the [[torus]]
 
+$$
+  T = S^1 \times S^1
+  \,.
+$$
+
+Generally, the $n$-torus is $(S^1)^n$.
 [[!redirects circle]]
 [[!redirects circles]]
 [[!redirects Circle]]
