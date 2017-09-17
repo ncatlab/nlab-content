@@ -41,6 +41,9 @@ More generally, for $S \in $ [[Set]] $\hookrightarrow$ [[Cat]] any [[discrete ca
 
 * [[product of simplices]]
 
+## Related concepts
+
+* [[product type]]
 
 [[!redirects product]]
 [[!redirects products]]
