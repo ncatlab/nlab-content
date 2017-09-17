@@ -67,7 +67,7 @@ We now define a **covering uniformity** on $X$ to be a collection of covers, cal
 
 If $X$ is a uniform space defined in terms of entourages, we give it a covering uniformity by declaring a cover to be uniform if it is refined by $\{ U[x] \;|\; x \in X\}$ for some entourage $U$, where $U[x] \coloneqq \{ y \;|\; x \approx_U y \}$.  Note that this does not mean that a uniform cover "consists of $U$-sized sets" but only that it contains a subcover consisting of sets "no smaller than $U$".
 
-Conversely, given a covering uniformity, we define a base of entourages to consist of sets of the form $\bigcup \{ A \times A \;|\; A \in C\}$ for $C$ a uniform cover.  This defines a bijection between entourage uniformities and covering uniformities.
+Conversely, given a covering uniformity, we define a base of entourages to consist of sets of the form $\bigcup \{ A \times A \;|\; A \in C\}$ for $C$ a uniform cover.  That is, for each cover $C$, we have a basic entourage $\approx_C$ such that $x \approx_C y$ iff $x, y \in A$ for some $A \in C$.  This defines a bijection between entourage uniformities and covering uniformities.
 
 +-- {: .query}
 What is the covering-uniformity version of the constructive axiom (0)?
