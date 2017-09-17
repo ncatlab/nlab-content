@@ -10,3 +10,5 @@
 * [[conformal field theory]]
 
 category: people
+
+[[!redirects Michael Mueger]]
