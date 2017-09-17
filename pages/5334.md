@@ -1,0 +1,34 @@
+
+# Errett Bishop
+
+Errett Bishop (1928--1983) was responsible for reviving interest in [[constructive mathematics]] as a branch of [[mathematics]].  Before this, he had an ordinary career in [[approximation theory]].
+
+* table of contents
+{: toc}
+
+
+## Successes
+
+While [[Brouwer]] had insisted that mathematics was primary to [[logic]], the [[intuitionism|intuitionists]] who followed him went more into intuitionistic [[foundations]] and [[philosophy]] than into mathematics as such.  The [[Russian constructivism|Russian school]] of constructivism focussed on [[recursion theory]] and was far removed from modern [[Bourbaki]]-style mathematics.  There was a pervasive feeling that constructive mathematics, particularly constructive [[analysis]], was simply unworkable; Bishop attacked this idea, not by arguing against it, but by simply demonstrating how constructive analysis could be done.
+
+Bishop\'s important works in constructive mathematics include:
+*  _[[Foundations of Constructive Analysis]]_ (1967), the work which made him famous;
+*  "Schizophrenia in contemporary mathematics" (1973), a philosophical attack on nonconstructive mathematics;
+*  _Constructive Measure Theory_ (1972, with [[Henry Cheng]]), featuring a better [[measure theory]] than in _FCA_;
+*  _Constructive Analysis_ (1985, with [[Douglas Bridges]]), a revised version of _FCA_, incorporating the measure theory of _CMT_.
+
+Bishop\'s constructive mathematics was weakly [[predicative mathematics|predicative]] and can be formulated within any [[locally cartesian closed category|locally cartesian closed]] [[pretopos]] with a [[natural numbers object]] and [[dependent choice]].  (The measure theory from _FCA_, before the revised version from _CMT_, is an exception; it can be formulated in any [[topos]] with an NNO.)
+
+Bishop\'s work was primarily in [[analysis]], because constructive mathematics is more difficult at an elementary level there.  Bishop\'s style was extended to constructive [[algebra]] by his disciple [[Fred Richman]].
+
+
+## Inadequacies
+
+There is some confusion about the notion of [[continuous function]] (from $\mathbb{R}$ to $\mathbb{R}$) in Bishop\'s work, diagnosed by [[Frank Waaldijk]] in _[On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/mathematics.html)_ (2001).  In particular, _FCA_ and _CA_ use different definitions.  These can be reconciled using the [[fan theorem]] (which Bishop rejected).  There is a similar problem with the notion of [[locally compact space]].
+
+More generally, Bishop worked with [[metric spaces]] but rejected more general [[topological spaces]] as unnecessary for mathematics.  From the perspective of modern constructive mathematics, Bishop may be praised for reviving the discipline, but much of his work must be rejected as inadequate in favour of [[locale]] theory.  In particular, the definition of continuous function on the [[locale of real numbers]] agrees with neither of Bishop\'s books; the same goes for locally compact spaces and measure theory.
+
+Summarising, Bishop studied pointwise analysis, but constructive pointwise analysis appears to be unworkable after all (without the fan theorem).  Although Bishop went farther with it than previously thought possible, one can go farther yet with a localic approach.
+
+
+category: people
