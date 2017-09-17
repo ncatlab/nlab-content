@@ -12,7 +12,7 @@ When a monoidal category has a [[fiber functor]] to a category of vector spaces 
 
 ## Definition
 
-Given a unital (possibly noncommutative) ring $R$ an __$R$-bialgebroid__ is an $R$-$R$-bimodule $H$ (object of ${}_R \mathcal{M}_R$) equipped with a structure of a comonoid in ${}_R \mathcal{M}_R$ (i.e. an $R$-coring) and of a monoid in ${}_{R^e}\mathcal{M}_{R^e}$ (i.e. an $R^e$-ring), where $R^e = R^{op}\otimes R$ is the enveloping ring of $R$; and the structures of a monoid and a comonoid satisfy certain compatibility conditions. These compatibility conditions are equivalent to the fact that the monad ${}_\otimes_{R^e} H : \mathcal{M}_{R^e}\to \mathcal{M}_{R^e}$ is [[opmonoidal monad|opmonoidal]]. The category of $R$-comodules is by the definition the category of comodules over the underlying $R$-coring. 
+Given a unital (possibly noncommutative) ring $R$ an __$R$-bialgebroid__ is an $R$-$R$-bimodule $H$ (object of ${}_R \mathcal{M}_R$) equipped with a structure of a comonoid in ${}_R \mathcal{M}_R$ (i.e. an $R$-coring) and of a monoid in ${}_{R^e}\mathcal{M}_{R^e}$ (i.e. an $R^e$-ring), where $R^e = R^{op}\otimes R$ is the enveloping ring of $R$; and the structures of a monoid and a comonoid satisfy certain compatibility conditions. These compatibility conditions are equivalent to the fact that the monad ${}_\otimes_{R^e} H : \mathcal{M}_{R^e}\to \mathcal{M}_{R^e}$ is [[opmonoidal monad|opmonoidal]]. The category of $R$-comodules is by definition the category of comodules over the underlying $R$-coring. 
 
 ## Literature
 
