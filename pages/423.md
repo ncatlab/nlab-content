@@ -23,7 +23,7 @@ This page is about topology as a **field of [[mathematics]]**.  For topology as 
 
 __Topology__ is one of the basic fields of [[mathematics]].  The term is also used for a particular structure in a [[topological space]]; see [[topological structure]] for that.
 
-The subject of topology deals with the expressions of continuity and boundary, and studying the geometric properties of spaces and relations of subspaces, which do not change under continuous deformations, regardless to the changes in metric properties. Topology as a structure enables one to model continuity and convergence locally. In metric spaces, recently topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
+The subject of topology deals with the expressions of [[continuous map|continuity]] and [[boundary]], and studying the geometric properties of (originally, metric) spaces and relations of subspaces, which do not change under continuous deformations, regardless to the changes in their metric properties. Topology as a structure enables one to model continuity and convergence locally. In metric spaces, recently topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
 
 There are many cousins of topological spaces, e.g. sites, locales, topoi, higher topoi, uniform spaces and so on which specialize or generalize some aspect or structure usually found in [[Top]]. 
 One of the tools of topology, [[homotopy theory]], has long since crossed the boundaries of topology and applies to many other areas, thanks to many examples and motivations as well as of abstract categorical frameworks for homotopy like Quillen [[model categories]], Brown's [[category of fibrant objects|categories of fibrant objects]] and so on.
@@ -31,11 +31,11 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 ## Related entries
 
 * [[Top]], [[spectrum]], [[CW-complex]], [[general topology]]
-* [[induced topology]], [[subspace]]
+* [[induced topology]], [[subspace]], [[interior]], [[boundary]], [[closure]]
 * [[topological space]], [[continuous map]], [[homeomorphism]], [[neighborhood]]
 * [[sphere]], [[Sierpinski space]]
 * [[pointed space]], [[contractible space]], [[connected space]], [[second countable space]]
-* [[convergence space]], [[pretopological space]], [[pseudotopological space]]
+* [[convergence space]], [[pretopological space]], [[pseudotopological space]], [[coarse topology]]
 * [[metric space]], [[filtered space]], [[connected filtered space]], [[complete space]], [[net]], [[Polish space]]
 * [[separation axioms]], [[Hausdorff space]], [[regular space]], [[normal space]]
 * [[noetherian topological space]], [[irreducible topological space]], [[ringed space]], [[site]], [[cover]], [[locale]]
@@ -88,6 +88,8 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 ## References
 
 (...)
+
+For a compilation of examples important in algebraic topology see manuscript 
 
 * [[Neil Strickland]], _A bestiary of topological objects_ ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/bestiary/bestiary.pdf))
 
