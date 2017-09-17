@@ -1,17 +1,30 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 
 ## Definition
 
-A __cartesian monoidal category__ is a [[monoidal category]] whose monoidal structure is given by the category-theoretic [[product]] (and so whose unit is a [[terminal object]]).  
+A __cartesian monoidal category__ or just **cartesian category** for short, is a [[monoidal category]] whose monoidal structure is given by the category-theoretic [[product]] (and so whose unit is a [[terminal object]]).  
 
-A cartesian monoidal category which is also [[closed monoidal category|closed]] is called a [[cartesian closed category]].
+A cartesian monoidal category which is also [[closed monoidal category|closed]] is called a [[cartesian closed category]]. 
+
+A [[strong monoidal functor]] between cartesian categories is called a [[cartesian functor]].
 
 Any category with finite products can be considered as a cartesian monoidal category (as long as we have either (1) a specified product for each pair of objects, (2) a global [[axiom of choice]], or (3) we allow the monoidal product to be an [[anafunctor]]).
 
