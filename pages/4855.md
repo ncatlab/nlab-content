@@ -70,13 +70,12 @@ For $X$ a topological space equipped with the structure of a [[poset]] on its un
 +-- {: .un_example}
 ###### Example
 **(directed geometric simplex)**
+{#DirectedSimplex}
 
-
-For $\Delta^k_{Top}$ the standard topological $k$-[[simplex]] its _standard directed paths_ are order-preserving maps into its 1-[[simplicial skeleton|skeleton]] (the union of the 1-faces equipped with the evident [[poset]]-structure induced from that on the vertices).
+For $\Delta^k_{Top}$ the standard topological $k$-[[simplex]] its _standard directed paths_ are order-preserving maps into its 1-[[simplicial skeleton|skeleton]] (the union of the 1-faces equipped with the evident [[poset]]-structure induced from that on the vertices), such that the endpoints land on vertices.
 
 =--
 
-{#DirectedSimplex}
 
 
 +-- {: .un_example}
@@ -94,7 +93,7 @@ $$
   |C|
 $$
 
-while preserving the canonical order.
+while preserving the canonical order and so that the endpoints land on vertices.
 
 =--
 
@@ -147,7 +146,7 @@ If $X$ is undirected in that _all_ paths are labeled as directed -- $D = X^{[0,1
 
 =--
 
-## References ##
+## References 
 
 The above definition, evident as it may be, does not seem to be in the literature. Articles that do discuss proposals for aspects of fundamental higher categories of directed spaces include
 
@@ -160,4 +159,4 @@ dipaths. A discussion document and overview of some techniques_ ([pdf](http://dr
 
 The [[simplicially enriched categories]] obtained from a directed space according to the latter have as morphisms directed paths, and as 2-morphisms _directed homotopies_  (paths of directed paths). This is in contrast to the above definition, where the 2-cells away from their boundary are unconstrained.
 
-Accordingly it seems that the definitio by Porter produces indeed not a Kan-complex enriched category (a model for an $(\infty,1)$-category) but a quasi-category-enriched category, hence actually a model for an [[(∞,2)-categories]], a candidate for the _fundamental $(\infty,2)$-category_ of a space. Generaly, in the fundamental [[(∞,n)-category]] the $(k \leq n)$-cells should be directed maps, and the $k \gt n$-cells be otherwise unconstrained.
+Accordingly it seems that the definitio by Porter produces indeed not a Kan-complex enriched category (a model for an $(\infty,1)$-category) but a quasi-category-enriched category, hence actually a model for an [[(∞,2)-categories]], a candidate for the _fundamental $(\infty,2)$-category_ of a space. Generally, in the fundamental [[(∞,n)-category]] the $(k \leq n)$-cells should be directed maps, and the $k \gt n$-cells be otherwise unconstrained.
