@@ -28,7 +28,7 @@ All of [[physics]] has two aspects: a local or even [[infinitesimal object|infin
 
 For instance the [[gauge fields]] in [[Yang-Mills theory]], hence in [[electromagnetism]], in [[QED]] and in [[QCD]], hence in the [[standard model of particle physics|standard model of the known universe]], are not really just the local [[differential 1-forms]] "$A_\mu^a$" known from so many textbooks, but are _globally_ really [[connections on principal bundles]] (or their [[associated bundles]]) and this is all-important once one passes to [[non-perturbative field theory|non-perturbative]] [[Yang-Mills theory]], hence to the full story, instead of its infinitesimal or local approximation.
 
-Notably what is called a _[[Yang-Mills instanton]]_ in general and the _[[QCD instanton]]_ in particular is nothing but the underlying nontrivial class of the principal bundle underlying the Yang-Mills [[gauge field]. Specifically, what physicists call the _[[instanton number]]_ for [[special unitary group|SU(2)]]-[[gauge field theory]] in 4-dimensions is precisely what mathematically is called the [[Chern class|second Chern-class]], a "[[characteristic class]]" of these gauge bundles.
+Notably what is called a _[[Yang-Mills instanton]]_ in general and the _[[QCD instanton]]_ in particular is nothing but the underlying nontrivial class of the principal bundle underlying the Yang-Mills [[gauge field]]. Specifically, what physicists call the _[[instanton number]]_ for [[special unitary group|SU(2)]]-[[gauge field theory]] in 4-dimensions is precisely what mathematically is called the [[Chern class|second Chern-class]], a "[[characteristic class]]" of these gauge bundles.
 
 > _YM Instanton = class of principal bundle underlying the non-perturbative gauge field_
 
