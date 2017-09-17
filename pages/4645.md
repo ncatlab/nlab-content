@@ -2160,42 +2160,81 @@ In the main entry [[∞-Chern-Weil theory]] we discuss how this dg-algebraic con
 
 > material needs polishing, also subsequent sections repeat some of this...
 
-The following observation on [[Lie integration]] is classical, even though maybe not reflected in the standard textbook literature to the extent it deserves to be:
+For $G$ a Lie group, above we have described connections on $G$-principal bundles in terms of cocycles with coefficients in the Lie-[[groupoid of Lie-algebra valued forms]] $\mathbf{B}G_{conn}$
 
 $$
-  \mathbf{B}G  : 
-  U \mapsto
+  \array{
+  && \mathbf{B}G_{conn} &&& connection
+  \\
+  & {}^{\mathllap{\nabla}}\nearrow & \downarrow
+  \\
+  && \mathbf{B}G_{diff} &&& pseudo-connection
+  \\
+  & {}^{\mathllap{\nabla_{ps}}}\nearrow & \downarrow^{\mathrlap{\simeq}} 
+  \\
+  C(U) &\stackrel{g}{\to}& \mathbf{B}G &&& transition\;function
+  }
+  \,.
+$$
+
+Above we had _derived_ Lie algebra valued forms from the [[parallel transport]] description $\mathbf{B}G_{conn} = [\mathbf{P}_1(-), \mathbf{B}G]$. We now turn this around and use [[Lie integration]] to construct parallel transport from Lie-algebra valued forms. The construction is such that it generalizes verbatim to [[∞-Lie algebra valued forms]].
+
+The following observation on [[Lie integration]] (see there for details) is classical, even if maybe not reflected in the standard textbook literature to the extent it deserves to be:
+
++-- {: .un_proposition}
+###### Proposition
+
+
+For $\mathfrak{g}$ a (finite-dimensonal) [[Lie algebra]], $G$ the [[simply-connected]] [[Lie group]] that integrates it according to [[Lie's three theorems]], $\mathbf{B}G \in [CartSp^{op}, Grpd]$ its [[delooping]] [[Lie groupoid]] regarded as a [[groupoid]]-valued [[presheaf]] on [[CartSp]], we have an [[isomorphism]]
+
+$$
+  \mathbf{B}G  
+  =
   \tau_1
-  ([k] \mapsto 
+  \left(
+  \exp(\mathfrak{g})
+  :
+  ((U,[k]) \mapsto 
     \{ 
        \Omega^\bullet_{vert}(U \times \Delta^k) 
        \leftarrow
        CE(\mathfrak{g})
     \}
    )
-  \,.
+   )
+  \right)
 $$
 
-Here $\Omega^\bullet_{vert}(U \times \Delta^k)$ denotes the [[dg-algebra]] of [[vertical differential form]]s on the [[bundle]] $U \times\Delta^k \to U$.
+of $\mathbf{B}G$ with the presheaf that to $U \in CartSp$ assigns the groupoid that is the 1-truncation of the [[simplicial set]] of [[dg-algebra]] [[homomorphism]]s from the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ to the dg-algebra of [[vertical differential form]]s on the bundle $U \times \Delta^\bullet \to U$.
+
+=--
+
+Unwinding a bit what this means, notice that dg-algebra-morphisms $CE(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with [[Lie algebra valued 1-forms]] $A \in \Omega^1(X, \mathfrak{g})$, whose [[curvature]] 2-form vanishes, $F_A = 0$: the 1-form itself determines precisely a morphism of the underlying [[graded algebra]]s, and the respect for the differentials is exactly the flatness condition.
+
+So the presheaf $\exp(\mathfrak{g})$ has a 1-morphisms $U$-parameterized families of $\mathfrak{g}$-valued 1-forms on the interval, and as 2-morphisms $U$-parameterized families of _flat_ 1-forms on the disk, interpolating between these. By identifying these 1-forms with the pullback of the [[Maurer-Cartan form]] on $G$, we may equivalently think of the 1-morphisms as based smooth paths in $G$ and 2-morphisms smooth [[homotopies]] relative endpoints between them. Since $G$ is [[simply-connected]] this means that after dividing out 2-morphisms only the endpoints of these paths remain, which identify with the points in $G$. 
+
+Another classical dg-algebra associated with $\mathfrak{g}$ is its [[Weil algebra]] $W(\mathfrak{g})$. This is precisely characterized by the fact that dg-algebra homomorphisms $W(\mathfrak{g}) \to \Omega^\bullet(X)$ are in natural bijection with arbitrary, not-necessarily flat, $\mathfrak{g}$-valued forms.
+
+Using this, we can express also the presheaf $\mathbf{B}G_{diff}$ from above in this fashion.
 
 +-- {: .un_lemma}
 ###### Observation
 
 $$
   \mathbf{B}G_{diff}  : 
-  U \mapsto
   \tau_1
-  ([k] \mapsto 
+  \exp(\mathfrak{g})_{diff}
+  ((U,[k]) \mapsto 
     \left\{ 
       \array{
         \Omega^\bullet_{vert}(U \times \Delta^k) 
-        &\leftarrow&
+        &\stackrel{A_{vert}}{\leftarrow}&
         CE(\mathfrak{g})
         \\
         \uparrow && \uparrow
         \\
         \Omega^\bullet(U \times \Delta^k)
-        &\leftarrow&
+        &\stackrel{A}{\leftarrow}&
         W(\mathfrak{g})
       }
     \right\}
@@ -2204,6 +2243,13 @@ $$
 $$
 
 =--
+
+Here over a given $U$ the bottom morphism in such a diagram is an arbitrary $\mathfrak{g}$-valued 1-form $A$ on $U \times \Delta^k$. This we can decompose as $A = A_U + A_{vert}$, where $A_U$ vanishes on tangents to $\Delta^k$ and $A_{vert}$ on tangents to $U$. The commutativity of the diagram asserts that $A_{vert}$ has to be such that the  curvature 2-form $F_{A_{vert}}$ vanishes when both its arguments are tangent to $Delta^k$.
+
+We will see that it is not a coincidence that this is reminiscent to the first condition on an [[Ehresmann connection]] on a $G$-principal bundle, which asserts that restricted to the fibers a connection 1-form on the total space of the bundle has to be flat.
+
+On the other hand, there is in the above no further constraint on $A_U$. Accordingly, as we pass to the 1-truncation of $\exp(\mathfrak{g})_{diff}$ we find that morphisms are of the form $(A_U)_1 \stackrel{g}{\to} (A_U)_2$ with $(A_U)^i$ arbitrary. This is the definition of $\mathbf{B}G_{diff}$.
+
 
 We want to ignore the truncation issue for a moment to come back to it later and consider these simplicial presheaves untruncated. For that we write
 
@@ -3054,10 +3100,6 @@ The [[universal principal ∞-bundle|universal principal 2-bundle]] $\mathbf{E}G
 
 For more see [[principal 2-bundle]].
 
-The description of the refined Chern-Weil homomorphisms in terms of Cech-Deligne cohomology was discussed in
-
-* [[Jean-Luc Brylinski]], Dennis MacLaughlin, _Cech cocycles for characteristic classes_ , Communications in Mathematical Phiysics, Volume 178, Number 1 (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">web</a>)
-{#BrylinskiMacLaughlin}
 
 The algebraic aspects of $\infty$-Lie valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
 
@@ -3071,6 +3113,12 @@ The algebraic aspects of $\infty$-Lie valued connections and the $\infty$-Chern-
 The Lie integration of this data to $\infty$-stacks of $\infty$-connections and the construction of the [[Chern-Simons circle 3-bundle]] as an example of $\infty$-Chern-Weil homomorphism is in 
 
 * [[Domenico Fiorenza]], U.S., [[Jim Stasheff]], _The Chern-Simons circle 3-bundle_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#FSS">web</a>)
+
+This reproduces the description of the refined Chern-Weil homomorphisms in terms of Cech-Deligne cohomology as discussed in
+
+* [[Jean-Luc Brylinski]], Dennis MacLaughlin, _Cech cocycles for characteristic classes_ , Communications in Mathematical Phiysics, Volume 178, Number 1 (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">web</a>)
+{#BrylinskiMacLaughlin}
+
 
 A commented list of further references is at 
 
