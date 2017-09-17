@@ -4,7 +4,7 @@
 
 ## Idea
 
-A normed division algebra is a generalisation of the [[real numbers]], [[complex numbers]], [[quaternion]]s, and [[octonion]]s.  Amazingly, there are no other examples!
+A normed division algebra is a generalisation of the [[real numbers]], [[complex numbers]], [[quaternions]], and [[octonions]].  Amazingly, there are no other examples!
 
 
 ## Definition
@@ -20,10 +20,10 @@ The [[generalized the|only]] normed division algebra over the [[complex numbers]
 
 *  $\mathbb{R}$, the algebra of [[real numbers]],
 *  $\mathbb{C}$, the algebra of [[complex numbers]],
-*  $\mathbb{H}$, the algebra of [[quaternion]]s,
-*  $\mathbb{O}$, the algebra of [[octonion]]s.
+*  $\mathbb{H}$, the algebra of [[quaternions]],
+*  $\mathbb{O}$, the algebra of [[octonions]].
 
-Each of these is produced from the previous one by the [[Cayley–Dickson construction]]; when applied to $\mathbb{O}$, this construction produces the algebra of [[sedenion]]s, which do *not* form a division algebra.
+Each of these is produced from the previous one by the [[Cayley–Dickson construction]]; when applied to $\mathbb{O}$, this construction produces the algebra of [[sedenions]], which do *not* form a division algebra.
 
 The Cayley--Dickson construction applies to an algebra with [[involution]]; by the abstract nonsense of that construction, we can see that the four normed division algebras above have these properties:
 
