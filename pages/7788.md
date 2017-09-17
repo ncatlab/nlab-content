@@ -35,7 +35,7 @@ $E_{11}$ is conjectured ([West 01](#West01)) to be the [[U-duality]] group (see 
 
 ### General 
 
-* [[Hermann Nicolai]], Thomas Fischbacher, _Hermann Nicolai, Thomas Fischbacher_ ([arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017))
+* [[Hermann Nicolai]], Thomas Fischbacher, _Low Level Representations for E10 and E11_ ([arXiv:hep-th/0301017](http://arxiv.org/abs/hep-th/0301017))
 
 * H. Mkrtchyan, R. Mkrtchyan, _$E_{11},K_{11}$ and $EE_{11}$_ ([arXiv:hep-th/0407148](http://arxiv.org/abs/hep-th/0407148))
 
@@ -61,4 +61,3 @@ Original articles include
 * [[Fabio Riccioni]], Duncan Steele, [[Peter West]], _The E(11) origin of all maximal supergravities - the hierarchy of field-strengths_, 	JHEP 0909:095 (2009) ([arXiv:0906.1177](http://arxiv.org/abs/0906.1177))
 
 * E. Bergshoeff, I. De Baetselier, T. Nutma, _E(11) and the Embedding Tensor_ ([arXiv:0705.1304](http://arxiv.org/abs/0705.1304), [poster](http://mms.technologynetworks.net/posters/0364.pdf))
-
