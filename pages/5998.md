@@ -58,6 +58,8 @@ In good situations, lambda-calculus reduction is *[[confluent category|confluent
 
 In the pure "untyped" lambda calculus, there is only one kind of variable and one kind of term, and the only construction used to form expressions is *application* of a function $f$ to an argument $t$, generally denoted simply $f t$.  In particular, all variables and terms "represent functions", and can be applied to any other variable or term.
 
+From the point of view of [[type theory]], it is more appropriate to call this "single-typed" or "unityped" lambda-calculus rather than "untyped" --- there is a single type which all terms belong to.
+
 As an example of the sort of freedom this allows, any term can always be applied to itself.  We can then form the term $\lambda x. x x$ which applies its argument to itself.  The self-application of this term:
 
 $$ (\lambda x. x x) (\lambda x. x x) $$
