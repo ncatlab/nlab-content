@@ -1,7 +1,7 @@
 
 The term "phase" appears in different contexts:
 
-* the phase of a [[complex number]] $c$ is the real number $\phi$ in the decomposition $c = {\vert c \vert} e^{i \phi}$;
+* the [[complex phase]] of a [[complex number]] $c$ is the real number $\phi$ in the decomposition $c = {\vert c \vert} e^{i \phi}$;
 
 * the phase of a [[wave function]] in [[physics]] is just this complex phase, the wave function being (locally) a function with values in the complex numbers;
 
