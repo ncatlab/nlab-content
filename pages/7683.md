@@ -48,7 +48,7 @@ This appears for instance as ([Polishuk, (10.1.11)](#Polishchuk)).
 +-- {: .num_prop}
 ###### Proposition
 
-Cartier duality is indeed a duality in that for any $G$ as above there is an [[isomrophism]]
+Cartier duality is indeed a duality in that for any $G$ as above there is an [[isomorphism]]
 
 $$
   \widehat{\widehat{G}} \simeq G
@@ -58,7 +58,7 @@ of the double Cartier dual with the original group scheme.
 
 =--
 
-over ([Polishuk, right above (10.1.11)](#Polishchuk))
+(e.g. [Polishuk, right above (10.1.11)](#Polishchuk))
 
 
 ## References
