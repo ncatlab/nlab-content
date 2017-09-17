@@ -8,6 +8,8 @@
 
 * [[bicategory]]
 
+* [[enriched bicategory]]
+
 ## Transfors between 2-categories
 
 * [[2-functor]]
