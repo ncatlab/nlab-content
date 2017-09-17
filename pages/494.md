@@ -327,13 +327,13 @@ Let $L \dashv R$ be a pair of adjoint functors. Then the following holds.
   (exhibits a [[reflective subcategory]])
   precisely if
   the [[unit of an adjunction|counit]] is a [[natural isomorphism]] 
-  $\eta : L \circ R \stackrel{\simeq}{\to} Id_D$
+  $\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$
 
 * $L$ is [[full and faithful functor|full and faithful]]
   (exhibits a [[coreflective subcategory]]) precisely if
   the [[unit of an adjunction|unit]] 
   is a natural isomorphism 
-  $\epsilon : Id_C \stackrel{\simeq}{\to} R \circ L$.
+  $\eta : Id_C \stackrel{\simeq}{\to} R \circ L$.
 
 * The following are equivalent:
 
