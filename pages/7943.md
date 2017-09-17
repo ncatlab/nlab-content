@@ -1,0 +1,23 @@
+[[!redirects 2-representations]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _2-representation_ of a [[2-group]] $G$ is an [[infinity-action]] of $G$ on a [[2-vector space]] $V$. The higher analog of the [[representation]] of a [[group]].
+
+## Related concepts
+
+* [[representation]], [[infinity-representation]]
