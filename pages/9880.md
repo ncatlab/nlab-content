@@ -1,11 +1,42 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An effect in [[non-perturbative quantum field theory]] as opposed to [[perturbation theory]].
+An effect in [[non-perturbative quantum field theory]] that cannot be seen in [[perturbation theory]].
+
+More in detail, [[theory (physics)|theories]] with [[instantons]] [[field (physics)|field]] configurations (such as in [[Yang-Mills theory]], hence in [[QCD]] and [[QED]]) or [[branes]] (such as in [[string theory]]), etc., are expected to have a  [[path integral]] which as a [[function]] of the [[coupling constant]] $g$ schematically looks like
+
+$$
+  Z(g)
+  = 
+  \sum_n a_n g^n
+  + 
+  e^{-A/g}
+  \sum_n a_n^{(1)} g^n
+  + 
+  \mathcal{O}(e^{-2A/g})
+  \,,
+$$
+
+where the first sum is the [[perturbation series]] itself and where the terms with a prefactor of the form $\exp(-A/g)$ are the contributions of the [[instantons]] ($A$ is the contribution of the [[instanton]] [[action functional]]). Since all the [[derivatives]] of the function $g \mapsto e^{-1/g}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the path integral does not appear in [[perturbation series]], even though it is present. Therefore this is called a _non-perturbative effect_.
+
+See at _[perturbation theory -- Divergence/convergence](perturbation+theory#DivergenceConvergence)_ for more.
+
+
 
 ## Related concepts
 
@@ -13,11 +44,19 @@ An effect in [[non-perturbative quantum field theory]] as opposed to [[perturbat
 
 * [[lattice gauge theory]]
 
+* [perturbation theory -- convergence/divergence](perturbation+theory#DivergenceConvergence)
+
 * [string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)
 
 ## References
 
+Discussion of non-perturbative effects in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string theory]] is in
+
 * Marcos Marino, _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
+
+A review specifically in [[type II string theory]] is in 
+
+* Hugo Looyestijn, _Non-perturbative effects in type IIA string theory_, Master Thesis 2006 ([pdf](http://testweb.science.uu.nl/ITF/teaching/2006/Looyestijn.pdf))
 
 [[!redirects non-perturbative effects]]
 
