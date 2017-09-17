@@ -8,6 +8,8 @@
 
 A **femtometer** (abbreviated $fm$) is the [[length]] of one $10^{15}$th of a [[meter]].
 
+The [[radius]] of the [[proton]] is about $0.8 fm$.
+
 ## References
 
 * Wikiedia, _[Femtometre](http://en.wikipedia.org/wiki/Femtometre)_
