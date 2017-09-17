@@ -10,13 +10,13 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea
 
-A _derived smooth manifold_ is the generalization of a [[smooth manifold]] in the [[derived geometry]] over the [[Lawvere theory]] for [[smooth algebra]]s ($C^\infty$-rings):
+A _derived smooth manifold_ is the generalization of a [[smooth manifold]] in [[derived differential geometry]]: the [[derived geometry]] over the [[Lawvere theory]] for [[smooth algebra]]s ($C^\infty$-rings):
 
 it is a [[structured (∞,1)-topos]] whose [[structure sheaf]] of functions is a [[smooth (∞,1)-algebra]].
 
@@ -148,5 +148,13 @@ A detailed construction and discjussion in terms of the [[model category]] [[pre
 Something roughly related is discussed in
 
 * [[Dominic Joyce]], _D-orbifolds, Kuranishi spaces, and polyfolds_ talk notes (Jan 2010) ([pdf](http://people.maths.ox.ac.uk/joyce/dmtalk.pdf))
+
+There is also
+
+* Dennis Borisov, Justin Noel, _Simplicial approach to derived differential manifolds_ ([arXiv:1112.0033](http://arxiv.org/abs/1112.0033))
+
+Seminar notes on differential [[derived geometry]] in general and derived smooth manifolds in particular are in 
+
+* [[Urs Schreiber]], _[[schreiber:Seminar on derived differential geometry]]_
 
 [[!redirects derived smooth manifolds]]
