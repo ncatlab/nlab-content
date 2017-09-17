@@ -1149,7 +1149,12 @@ of the $G$-[[Hamiltonian action]] is element in $Rep(G)$ a [[space of quantum st
 ##### Quantization of Lie-Poisson structures -- The universal orbit method
  {#QuantizationOfLiePoissonStructure}
 
-(...) [[Lie-Poisson structure]] (...) [[orbit method]] (...)
+A particularly interesting case of [[geometric quantization]] of [[symplectic manifolds]] is the quantization of [[coadjoint orbits]] of suitable [[Lie groups]]. Physically this is the quantization of the "internal degrees of freedom" of [[Wilson loop]] [[QFT with defects|defect]] in [[Chern-Simons theory]] (see at _[orbit method -- Nonabelian charged particle trajectories](orbit+method#GaugeAndGravityWilsonLoops)_). Mathematically this is a process that yields all the [[irreducible representations]] of these Lie groups, as such called the _[[orbit method]]_.
+
+By the [above](#GeometricQuantizationOfSymplecticManifolds) discussion of the motivic holographic quantization of [[symplectic manifolds]], the geometric quantization of any single [[coadjoint orbit]] is naturally described by motivic quantization. But moreover, we discuss now how each such orbit boundary theory is naturally related by a [[QFT with defects|defect]] to the [[2d Chern-Simons theory]] which is given by the dual Lie algebra regarded as a [[Poisson manifold]] with its [[Lie-Poisson structure]]. The motivic quantization of this defect reproduces a map in [[twisted K-theory|twisted]] [[equivariant K-theory]] that appeared as ([Freed-Hopkins-Teleman, part II, theorem 1.28](#FHT)): it is in the quantization language used here a "quantum operator" that sends boundary states of the $\mathfrak{g}^\ast//G$-[[2d Chern-Simons theory]] to states of the coadjoint orbit, respecting the action of the $G$-[[quantum observables]]. As such the quantization of the defects of the $\mathfrak{g}^\ast//G$-2d CS theory is a "universal [[orbit method]]" for $G$ in that it contains the quantization of each [[coadjoint orbit]] to each representation as the quantization of one of its defects.
+
+
+$\,$
 
 Let $\mathfrak{g}$ be a Lie algebra. Write $\mathfrak{g}^\ast$ for its dual vector space regarded as a [[Poisson manifold]] by its canonical [[Lie-Poisson structure]]. The corresponding [[symplectic groupoid]] is the [[action groupoid]] $\mathfrak{g}^\ast //G$ for the [[coadjoint action]]. 
 
@@ -1186,19 +1191,22 @@ where $\xi$ is a circle bundle with connection, the corresponding "[[prequantum 
 
 Assume now that $\mathfrak{g}$ is semisimple with [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$. Let $\lambda \in \mathfrak{g}$ be a regular weight and $\mathcal{O}_\lambda \hookrightarrow \mathfrak{g}^\ast$ the corresponding [[coadjoint orbit]].
 
-Then the previous boundary condition for the [[2d Chern-Simons theory]] of $\mathfrak{g}^\ast//F$ extends to a [[QFT with defects|defect]] to the 2d CS theory of $\ast //G$ with in turn is the [[symplectic manifold]] $\mathcal{O}_\lambda$ as its [[brane]]. This is exhibited by the diagram
+Then the previous boundary condition for the [[2d Chern-Simons theory]] of $\mathfrak{g}^\ast//G$ extends to a [[QFT with defects|defect]] to the 2d CS theory of $\ast //G$ with in turn is the [[symplectic manifold]] $\mathcal{O}_\lambda$ as its [[brane]]. This is exhibited by the diagram
 
 $$
   \array{
-    \ast &\leftarrow& \ast &\to& \ast
+    \ast &\leftarrow& \ast &\to& \ast && trivial\,theory
     \\
     \uparrow && \uparrow && \uparrow
     \\
-    \mathcal{O}_\lambda//G &\leftarrow& \mathcal{O}_\lambda &\hookrightarrow& \mathfrak{g}^\ast
+    \mathcal{O}_\lambda//G &\leftarrow& \mathcal{O}_\lambda &\hookrightarrow& \mathfrak{g}^\ast && boundary
     \\
     \downarrow && \downarrow && \downarrow
     \\
-    \ast//G &\leftarrow& \mathcal{O}_\lambda // G &\hookrightarrow& \mathfrak{g}^\ast//G
+    \ast//G &\leftarrow& \mathcal{O}_\lambda // G &\hookrightarrow& \mathfrak{g}^\ast//G  && 2d CS 
+    \\
+    \\
+    2d CS && defect && 2d CS
   }
 $$
 
@@ -1223,15 +1231,33 @@ $$
 
 Where $\xi$ now is a $G$-equivariant [[prequantum bundle]] exhibiting a [[moment map]] for a [[Hamiltonian action]] of $G$.
 
-It motivic quantization yields the map in [[equivariant K-theory]]
+The motivic quantization yields the map in [[equivariant K-theory]]
 
 $$
   i_! \colon K_G(\mathcal{O}_\lambda) \to R(G)
 $$
 
-to the [[representation ring]] of $G$, which sends the prequantum bundle + Hamiltonian action $\xi$ to the $G$-representation $i_! \xi$. This is the cohomological formulation of the [[orbit method]].
+to the [[representation ring]] of $G$, which sends the prequantum bundle + Hamiltonian action $\xi$ to the $G$-representation $i_! \xi$. This is the cohomological formulation of the [[orbit method]] for a fixed orbit. 
+
+On the other hand the motivic quantization horizontally of the bottom correspondence of [[2d Chern-Simons theories]] in the above diagram, which is
+
+$$
+  \array{
+  \ast//G &\leftarrow& \mathcal{O}_\lambda // G &\hookrightarrow& \mathfrak{g}^\ast//G
+   }
+  \,,
+$$
+
+yields a quantum map
 
 (...)
+
+
+Comparison shows that this is precisely the construction ([Freed-Hopkins-Teleman, part II (1.26)](#FHT)).
+
+(...)
+
+
 
 
 #### The charged particle at the boundary of the open superstring
@@ -1468,8 +1494,17 @@ and in
 
 ### On aspects of quantization
 
+#### General
+
 * [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology, Vol 23, No. 1 (1984) ([pdf](https://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
   {#AtiyahBott84}
+
+#### Orbit method
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], part II of _[[Loop Groups and Twisted K-Theory]]_
+ {#FHT}
+
+
 
 
 ### On aspects of generalized cohomology
