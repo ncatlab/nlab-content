@@ -7,7 +7,7 @@ Errett Bishop (1928--1983) was responsible for reviving interest in [[constructi
 {: toc}
 
 
-## Successes
+## Successes in constructive mathematics 
 
 While [[Brouwer]] had insisted that mathematics was primary to [[logic]], the [[intuitionism|intuitionists]] who followed him went more into intuitionistic [[foundations]] and [[philosophy]] than into mathematics as such.  The [[Russian constructivism|Russian school]] of constructivism focussed on [[recursion theory]] and was far removed from modern [[Bourbaki]]-style mathematics.  There was a pervasive feeling that constructive mathematics, particularly constructive [[analysis]], was simply unworkable; Bishop attacked this idea, not by arguing against it, but by simply demonstrating how constructive analysis could be done.
 
@@ -22,7 +22,7 @@ Bishop\'s constructive mathematics was weakly [[predicative mathematics|predicat
 Bishop\'s work was primarily in [[analysis]], because constructive mathematics is more difficult at an elementary level there.  Bishop\'s style was extended to constructive [[algebra]] by his disciple [[Fred Richman]].
 
 
-## Inadequacies
+## Inadequacies for constructive mathematics 
 
 There is some confusion about the notion of [[continuous function]] (from $\mathbb{R}$ to $\mathbb{R}$) in Bishop\'s work, diagnosed by [[Frank Waaldijk]] in _[On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/mathematics.html)_ (2001).  In particular, _FCA_ and _CA_ use different definitions.  These can be reconciled using the [[fan theorem]] (which Bishop rejected).  There is a similar problem with the notion of [[locally compact space]].
 
