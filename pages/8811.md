@@ -34,7 +34,7 @@ $$
 
 (where $\pi \colon T^* X \to X$ is the [[cotangent bundle]]) is an [[exact sequence]].
 
-For a single differetial operator $P$ this says that $0 \to \pi^* E_1 \stackrel{\sigma(P)}{\to} \pi^* E_0 \to 0$ is exact, which means that $\sigma(P)$ is an [[isomorphism]], hence that $P$ is an [[elliptic operator]].
+For a single differential operator $P$ this says that $0 \to \pi^* E_1 \stackrel{\sigma(P)}{\to} \pi^* E_0 \to 0$ is exact, which means that $\sigma(P)$ is an [[isomorphism]], hence that $P$ is an [[elliptic operator]].
 
 [[!redirects elliptic chain complexes]]
 [[!redirects elliptic complex]]
