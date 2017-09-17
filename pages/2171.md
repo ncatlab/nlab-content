@@ -334,7 +334,7 @@ This then has presentation
 
 $$\mathcal{P} = ( u,v : r \equiv u v u v^{-1} u^{-1} v^{-1}).$$
 
-It is also the 'trefoil group', i.e., the fundamental group of the complement of a trefoil [[knot]]. 
+It is also the 'trefoil group', i.e., the fundamental group of the complement of a [[trefoil knot]]. 
 =--
 
 +-- {: .un_example}
