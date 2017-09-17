@@ -39,7 +39,7 @@ where the sum is over [[isomorphism]] classes of [[object]]s of $X$ and $|Aut(x)
 
 If this sum diverges, we say $|X| = \infty$. If the sum converges, we say $X$ is **tame**.
 
-### $\infty$-Groupoid cardinality
+### $\infty$-Groupoid cardinality {#InfingroupoidCardinality}
 
 This is the special case of a more general definition:
 
