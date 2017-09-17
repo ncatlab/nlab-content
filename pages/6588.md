@@ -1,8 +1,36 @@
-Suppose we are given a commutative unital ring $k$ and a module $M$ over $k$ equipped with a skew-symmetric form $\omega: M\otimes_k M\to k$ (Typically, one requires the non-degeneracy, but it is not needed for the definitions.). The __Heisenberg Lie algebra__ corresponding to $(M,\omega)$ is the $k$-module $M\oplus k$ together with the unit $k \hookrightarrow M\oplus k$, $s\mapsto (0,s) =: s 1$ and Lie $k$-algebra bracket
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
+Suppose we are given a commutative unital [[ring]] $k$ and a [[module]] $M$ over $k$ equipped with a skew-symmetric form $\omega: M\otimes_k M\to k$ (Typically, one requires the non-degeneracy, but it is not needed for the definitions.). 
+
+The __Heisenberg Lie algebra__ corresponding to $(M,\omega)$ is the [[Lie algebra]] given by the $k$-module $M\oplus k$ together with the unit $k \hookrightarrow M\oplus k$, $s\mapsto (0,s) =: s 1$ and Lie $k$-algebra bracket
 
 $$
-[(m,s),(m',s')] = \omega(m,m')1
+  [(m,s),(m',s')] = (0, \omega(m,m')1)
 $$
 
- 
+## Related concepts
+
+* [[Heisenberg group]]
+
+## References
+
+A [[categorification]] of the Heisenberg algebra appears in 
+
+* [[Mikhail Khovanov]], _Heisenberg algebra and a graphical calculus_ ([arXiv:1009.3295](http://arxiv.org/abs/1009.3295))
 
