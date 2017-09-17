@@ -94,6 +94,8 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 ## Related concepts
 
+* [[Bell's inequalities]]
+
 * [[superposition]]
 
 * [[quantum interference]]
