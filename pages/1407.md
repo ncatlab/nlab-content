@@ -188,6 +188,14 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[G2-MSSM]]
 
+### String theory results applied elsewhere
+
+Beyond the speculative hypothetized role of string theory as a theory behind observed [[particle physics]], the theory has shed light on many aspects of [[quantum field theory]], both on the conceptual structure of quantum field theory as such as well as on concrete theories and their concrete properties. Some of these string theory results enter crucially in computations that are used to interpret particle physics experiments such as the [[LHC]].
+
+For more see
+
+* [[string theory results applied elsewhere]]
+
 ## References
 
 A large body of references is organized at the
