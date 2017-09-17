@@ -33,7 +33,7 @@ This page is to list example of how [[higher differential geometry]] helps to un
 1. [[Lie integration]] of anything more general than a finite-dimensional [[Lie algebra]] in general goes out of the real of [[Lie groups]]. Local brackets = [[Lie algebroids]] integrate to [[Lie groupoids]] and 
 [[infinite-dimensional Lie algebras]] in general to [[Lie 2-groups]].
 
-1. [[derived differential geometry]] allos to resolve many otherwise singular limit/intersection constructions. Modern [[variational calculus]] in terms of [[jet bundle]] ("[[D-geometry]]") is formulated this way, as is [[symplectic reduction]] and the unification of both in the [[BV-BRST formalism]].
+1. [[derived differential geometry]] allows to resolve many otherwise singular limit/intersection constructions. Modern [[variational calculus]] in terms of [[jet bundle]] ("[[D-geometry]]") is formulated this way, as is [[symplectic reduction]] and the unification of both in the [[BV-BRST formalism]].
 
 ## Related pages
 
