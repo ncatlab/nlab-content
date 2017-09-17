@@ -651,7 +651,7 @@ $$
   \;\;\;\;
   \left(
     \array{  
-       t^a =& C^a{}_{b c} t^b \wedge t^c + r^a
+       d t^a =& C^a{}_{b c} t^b \wedge t^c + r^a
        \\
        h = & d b + cs + c     
        \\
