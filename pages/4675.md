@@ -153,20 +153,56 @@ $$
 
 in the projective [[model structure on simplicial presheaves]] that models the morphism $\frac{1}{2}\mathbf{p}_1$, for that allows to compute the [[homotopy pullback]] in questions (as described there) by an ordinary pullback along $[CartSp^{op}, sSet](C(U), \hat \mathbf{B}G) \to [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})$.
 
+
+### The twisted $\mathfrak{string}$-Lie 2-algebra
+
 To that end, we replace the [[Lie algebra]] $\mathfrak{g}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)).
+
+In all of the following we take
+
+* $\mathfrak{g} = \mathfrak{so}$
+
+  the [[special orthogonal Lie algebra]] (the Lie algebra of the [[spin group]]);
+
+* $\langle -,-\rangle \in W(\mathfrak{g})$ is the [[Killing form]] [[invariant polynomial]], regarded as an element of the [[Weil algebra]];
+
+* $\mu = \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the degree 3 [[Lie algebra cohomology|Lie algebra cocycle]], identified with a morphism
+
+  $$
+    CE(\mathfrak{g}) \leftarrow CE(b^2 \mathbb{R}) : \mu
+  $$
+
+  of [[Chevalley-Eilenberg algebra]]s; and normalized such that its continuation to a 3-form on $Spin$ is the image in de Rham cohomology of a generator of $H^3(Spin,\mathbb{Z}) \simeq \mathbb{Z}$;
+
+* $cs \in W(\mathfrak{g})$ is a Chern-Simons element interpolating between the two; exhibited by the commuting diagram
+
+  $$
+    \array{
+       CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}&
+       CE(b^2 \mathbb{R})
+       \\
+       \uparrow && \uparrow
+       \\
+       W(\mathfrak{g})
+       &\stackrel{(cs,\langle -,-\rangle)}{\leftarrow}&
+       W(b^2 \mathbb{R})
+    }
+  $$
+
+* $\mathfrak{g}_\mu := \mathfrak{string}$ the [[string Lie 2-algebra]];
 
 +-- {: .un_def }
 ###### Definition
 
-Let $\hat \mathfrak{g}$ be the $\infty$-Lie algebra defined by the fact that its [[Chevalley-Eilenberg algebra]] is
+Let $(b\mathbb{R} \to \mathfrak{g}_\mu)$ denote the $\infty$-Lie algebra defined by the fact that its [[Chevalley-Eilenberg algebra]] is
 
 $$
-  CE(\hat \mathfrak{g}) = 
-  (\wedge^\bullet(  \mathfrak{g}^* \oplus \langle b\rangle \oplus \langle c \rangle ), d)
+  CE(b\mathbb{R} \to \mathfrak{g}_\mu) = 
+  (\wedge^\bullet(  \mathfrak{g}^* \oplus \langle b\rangle \oplus \langle k \rangle ), d)
   \,,
 $$
 
-with $b$ a generator in degree 2, and $c$ a generator in degree 3, and with differential
+with $b$ a generator in degree 2, and $k$ a generator in degree 3, and with differential
 
 $$
   d|_{\mathfrak{g}^*} = [-,-]^*
@@ -174,17 +210,32 @@ $$
 $$
 
 $$
-  d : b \mapsto \langle - , [-,-]\rangle + c
+  d : b \mapsto \mu - k
 $$
 
 $$
-  d : c \mapsto 0
+  d : k \mapsto 0
   \,.
 $$
 
 =--
 
-There is a canonical inclusion 
+
++-- {: .un_remark }
+###### Remark
+
+This is a thickening of $\mathfrak{g}$ in that the canonical morphism
+
+$$
+  \array{
+    CE(b\mathbb{R} \to \mathfrak{g}_\mu) 
+    \\
+    \uparrow^{\mathrlap{\simeq}}
+    \\
+    CE(\mathfrak{g})
+$$
+
+that is the identity on $\mathfrak{g}^*$ and sends $b$ to $0$ and $c $ to $\mu$ is a weak equivalence. It is adapted to computing the obstructions to string-lifts in that there is a canonical inclusion 
 
 $$
   CE(\hat \mathfrak{g})
@@ -193,6 +244,8 @@ $$
 $$
 
 which includes the generator $c$.
+
+=--
 
 
 
@@ -203,7 +256,7 @@ Composition with $CE(\hat \mathfrak{g}) \leftarrow CE(b^2 \mathbb{R})$ induces a
 
 $$
   \array{
-    \mathbf{cosk}_3\exp(\hat \mathfrak{g})
+    \mathbf{cosk}_3\exp(b\mathbb{R} \to \mathfrak{g}_\mu)
     &\to&
     \mathbf{B}^3 U(1)
     \\
@@ -220,7 +273,7 @@ in $[CartSp^{op}, sSet]_{proj}$.
 +-- {: .proof}
 ###### Proof
 
-A 3-morphism in $\mathbf{cosk}_3 \exp(\hat \mathfrak{g})$ is a based 3-ball $\phi : \Delta^3 \to G$ together with a 2-form $B \in \Omega^2(D^3)$, all with sitting instants at the boundaries. The morphism sends this to the number 
+A 3-morphism in $\mathbf{cosk}_3 \exp(b\mathbb{R} \to \mathfrak{g}_\mu)$ is a based 3-ball $\phi : \Delta^3 \to G$ together with a 2-form $B \in \Omega^2(D^3)$, all with sitting instants at the boundaries. The morphism sends this to the number 
 
 $$
   \int_{\Delta^3} (\phi^* \langle \theta\wedge [\theta\wedge \theta]\rangle + d B) \;\; \in \mathbb{R}\;\; mod \;\; \mathbb{Z}
@@ -250,8 +303,203 @@ All other lifting problems are trivial, hence we have for each $U \in $ [[CartSp
 
 =--
 
+We may now straightforwardly extend this to differential coefficients.
 
-With this observation we can read off the cocycles in $String_{diff,tw}(X)$ from the diagrams of dg-algebras in SSSIII.
+Write $\hat \mathbf{B}G_{diff}$ for the 3-[[coskeleton]] of the simplicial presheaf
+
+$$
+  U,[n]
+  \mapsto
+  \left\{
+    \array{
+      C^\infty(U)\otimes\Omega^\bullet(\Delta^n)
+      &\leftarrow& CE(b\mathbb{R} \to \mathfrak{g}_\mu)
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+      &\leftarrow&
+      W(b \mathbb{R} \to \mathfrak{g}_\mu)
+    }
+  \right\}
+$$
+
+according to the definition of <a href="">∞-connections</a>.
+
+The canonical [[pasting]] composite
+
+$$
+  \array{
+    C^\infty(U)\otimes\Omega^\bullet(\Delta^n)
+    &\leftarrow& 
+    CE(b\mathbb{R} \to \mathfrak{g}_\mu)
+    &\leftarrow&
+    CE(b^2 \mathbb{R})
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^n)
+    &\leftarrow&
+    W(b\mathbb{R} \to \mathfrak{g}_\mu)
+    &\leftarrow&
+    W(b^2 \mathbb{R})
+  }
+$$
+
+induces a morphism
+
+$$
+  \array{
+    \hat \mathbf{B}G_{diff}  
+    &\to&
+    \mathbf{B}^3 U(1)_{diff}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}G
+  }
+$$
+
+in $[CartSp^{op}, sSet]$.
+
+
++-- {: .un_corollary }
+###### Corollary
+
+This is again a fibration in $[CartSp^{op}, sSet]_{proj}$
+
+=--
+
+Before reading off the fibers of this morphism [below](#ExplicitCocycles) it shall be useful to reorganize this slightly by passing to an [[isomorphism|isomorphic]] copy of the [[Weil algebra]].
+
+### The Chern-Simons Lie 3-algebra
+
+Notice that the [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ is given by
+
+* $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
+
+* $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
+
+* $d b = \mu + c - k$;
+
+* $d c = l - \sigma \mu$;
+
+* $d k = l$ .
+
++-- {: .un_def }
+###### Definition
+
+Define $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ by
+
+* $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
+
+* $d r^a  = - C^a{}_{b c} t^b \wedge r^a$;
+
+* $d b = cs + c - k$;
+
+* $d c = l - \langle -,-\rangle$;
+
+* $d k = l$ .
+
+=--
+
+This is like the Weil algebra, but where the former has the 3-cocycle $\mu$ this has the Chern-Simons element $cs$. The result is that $d c$ cleanly picks up the [[invariant polynomial]] $\langle - ,-\rangle$.
+
++-- {: .un_lemma }
+###### Lemma
+
+There is an [[isomorphism]]
+
+$$
+  W(b\mathbb{R} \to \mathfrak{g}_\mu)
+  \to 
+  \tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)
+$$
+
+that is the identity on all generators except on $c$, where it is given by
+
+$$
+  c \mapsto c' + (cs-\mu)
+  \,.
+$$
+
+=--
+
++-- {: .un_remark }
+###### Remark
+
+That shift $cs-\mu$ is precisely the shift that shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus making it well-adapted to genuine (as opposed to pseudo-)connections.
+
+=--
+
+
+### Explicit cocycles {#ExplicitCocycles}
+
+With these observations we can read off the cocycles in $String_{diff,tw}(X)$ from the diagrams of dg-algebras in ([SSSIII](#SSSIII)).
+
+A cocycle representing a twisted differential string structure is on a cover $\{U_i \to X\}$ given by a morphism
+
+$$
+  \hat \nabla : C(U) \to \hat \mathbf{B}G_{diff}
+$$
+
+in $[CartSp^{op}, sSet]$ subject to various constraints. On patches $U_i$ this is a morphism
+
+$$
+  \Omega^\bullet(U_i)
+  \leftarrow
+  \tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)
+  \,.
+$$
+
+This, in turn, is in components given of the form
+
+$$
+  \left(
+    \array{ 
+      H_3 =& \nabla B = d B + C_3 - CS(A)
+      \\
+      d H_3 =& \mathcal{G}_4 - \langle F_A \wedge F_A\rangle
+      \\
+      d \mathcal{G}_4 =& 0
+    }
+  \right)
+  \;\;\;\;
+  \stackrel{
+    \array{
+       t^a & \mapsto A^a
+       \\
+       r^a & \mapsto F^a_A
+       \\
+       b & \mapsto B
+       \\
+       c & \mapsto \nabla  B
+       \\
+       k & \mapsto C_3
+       \\
+       l & \mapsto \mathcal{G}_4
+    }
+  }{\leftarrow}|
+  \;\;\;\;
+  \left(
+    \array{  
+       t^a =& C^a{}_{b c} t^b \wedge t^c + r^a
+       \\
+       d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
+       \\
+       d b =& cs + c - k
+       \\
+       d c =& l - \langle -,-\rangle
+       \\
+       d k =& l
+    }
+  \right)
+  \,.
+$$
+
+The constraint is such that $C_3$ is the local connection 3-form on the [[circle n-bundle with connection|circle 3-bundle with connection]] over which the homotopy-pullback is computed (the _twist_ of the twisted differential string structure) and $\mathcal{G}_4$ and $\mathcal{G}_4$ is its [[curvature]] 4-form. 
+
+In physics this is the curvature data familiar from the [[Green-Schwarz mechanism]]. $C_3$ is the [[supergravity C-field]].
 
 (...)
 
