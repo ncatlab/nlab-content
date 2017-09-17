@@ -82,9 +82,13 @@ If $X$ is cofibrant and $Y$ is fibrant, then every generalized morphism from $X$
 
 Quillen also introduced a highly structured notion of equivalence between model categories, now called a [[Quillen equivalence]], which among other things ensures that they present the same $(\infty,1)$-category.  Quillen equivalences are now being used to compare different definitions of higher categories.
 
-## Related concepts ##
+## Related concepts 
 
 * [[simplicial homotopy theory]]
+
+* [[stable homotopy theory]]
+
+* [[parameterized homotopy theory]]
 
 * [[equivariant homotopy theory]], [[global equivariant homotopy theory]]
 
