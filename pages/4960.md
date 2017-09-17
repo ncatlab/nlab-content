@@ -160,7 +160,7 @@ $$
   (\mathbf{\Pi}_0 \dashv \mathbf{\flat} \dashv \mathbf{#})
   : 
   \mathcal{E}
-   \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+   \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
   \mathcal{S}
   \stackrel{\overset{Disc}{\to}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}}
   \mathcal{E} 
@@ -170,6 +170,7 @@ $$
 These endofunctors play a role in the internal characterization of cohesion.
 
 =--
+
 
 ### Further axioms
   {#FurtherAxioms}
@@ -1222,9 +1223,40 @@ Sufficient condition for $\mathcal{E}/X$ to be a [[local topos]] is that
 
 =--
 
-### Infinitesimal thickening and formal smoothness
 
-See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSmoothness">Formal smoothness</a> at [[Q-category]].
+
+### Infinitesimal thickening and formal smoothness
+ {#InfinitesimalThickening}
+
+See at _[[differential cohesion]]_. Examples include the _[[Cahiers topos]]_
+
++-- {: .num_example }
+###### Example
+
+Consider a [[full subcategory]] inclusion
+
+$$ 
+  Disc^{\mathcal{P}} \;\colon\; \mathcal{S} \hookrightarrow \mathcal{P}
+$$
+
+which has a [[left adjoint]] $\Pi_0^{\mathcal{P}}$ and a [[right adjoint]] $\Gamma^{\mathcal{P}}$ that coincide with each other
+
+$$
+  \Pi_0^{\mathcal{P}} \simeq \Gamma^{\mathcal{P}}
+  \,.
+$$
+
+In ([Lawvere 07, def. 1](#LawvereAxiomatic)) this situation is said to exhibit $\mathcal{E}$ as a _quality type_ over $\mathcal{S}$.
+
+It follows that there is an infinite sequence of adjoints, in particular that there is $coDisc^{\mathcal{P}} \coloneqq Disc^{\mathcal{P}}$ [[right adjoint]] to $\Gamma^{\mathcal{P}}$, which by the discussion at [[adjoint triple]] is also a [[full and faithful functor]], and that $\Pi_0^{\mathcal{P}}$ preserves [[finite products]] (in fact all [[limits]]). 
+
+So the above adjoints makes $\mathcal{P}$ be a cohesive topos over the [[base topos]] $\mathcal{E}$ with the special property that $\Pi_0^{\mathcal{P}} \simeq \Gamma^{\mathcal{P}}$. In words this says that in $\mathcal{P}$ every cohesive neighbourhood contains precisely one point. This is a characteristic of [[infinitesimally thickened points]].
+
+See at _[[infinitesimal cohesion]]_ for more on this.
+
+=--
+
+
 
 ### Counter-examples {#CounterExamples}
 
