@@ -47,7 +47,7 @@ In terms of [[semantics]] (as for example topos-theoretic semantics; see the nex
 As observed by [[Lawvere]], we are not particularly constrained to product projections; we can pull back along any map $f \colon B \to A$. (Often we have a class of [[display maps]] and require $f$ to be one of these.) Alternatively, any pullback functor $f^\ast\colon Set/A \to Set/B$ can be construed as pulling back along an object $X = (f \colon B \to A)$, i.e., along the unique map $!\colon X \to 1$ corresponding to an object $X$ in the slice $Set/A$, since we have the identification $Set/B \simeq (Set/A)/X$. 
 
 
-## In topos theory
+## In topos theory / in terms of adjunctions
 
 In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$, 
 
@@ -103,6 +103,8 @@ $$
 Dually, the extra [[left adjoint]] $\exists_X$, obtained from the dependent sum $X_!$ by pre- and post-composition with the truncation adjunctions, expresses the [[existential quantifier]].  (The situation with the universal quantifier is somewhat simpler than for the existential one, since the dependent product automatically preserves $(-1)$-truncated objects (= subterminal objects), whereas the dependent sum does not.)
 
 The same makes sense, verbatim, also in the [[(∞,1)-logic]] of any [[(∞,1)-topos]].
+
+This interpretation of universal quantification as the right adjoint to context extension is also used in the notion of _[[hyperdoctrine]]_.
 
 
 ## Examples
