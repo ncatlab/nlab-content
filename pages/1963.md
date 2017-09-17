@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * automatic table of contents goes here
 {:toc}
@@ -63,6 +74,47 @@ If you think about it, you should be able to figure out the definition of an __a
 
 There are many further extensions, for examples derivations with values in an $A$-[[bimodule]] $M$ forming $Der_k(A,M) \subset Hom_k(A,M)$ (see also [[double derivation]]), skew-derivations in ring theory (with a twist in the Leibniz rule given by an endomorphism of a ring) and the dual notion of a [[coderivation]] of a coalgebra.  The latter plays role in Koszul-dual definitions of $A_\infty$-[[A-infinity-algebra|algebras]] and $L_\infty$-[[L-infinity-algebra|algebras]].  See also [[derivation on a group]], which uses a modified Leibniz rule: $d(a b) = d(a) + a d(b)$.
 
+
+### Derivations on algebras over a dg-operad
+ {#OfAlgebrasOverADGOperad}
+
+More generally, there is a notion of derivation for every kind of [[algebra over an operad]] over a [[dg-operad]] (at least).
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathcal{O}$ be a [[dg-operad]] (a [[chain complex]]-enriched [[operad]]). For $A$ an $\mathcal{O}$-[[algebra over an operad]] and $N$ a [[module over an algebra over an operad|module over that algebra]] a **derivation** on $A$ with values in $N$ is a morphism
+
+$$
+  v : A \to N
+$$
+
+in the underlying category of [[graded vector space]]s, such that for each $n \gt 0$ we have a [[commuting diagram]]
+
+$$
+  \array{
+     \mathcal{O}(n) \otimes A^{\otimes n}
+     &\stackrel{}{\to}&
+     A
+     \\
+     {}^{\mathllap{\sum_{a+b=n-1} id \otimes id^{\otimes a} \otimes v  \otimes id^{\otimes b}}}\downarrow 
+     && \downarrow^{\mathrlap{v}}
+     \\ 
+     \oplus_{a+ b = n-1} \mathcal{O}(n) \otimes A^{\otimes a}
+      \otimes N \otimes A^{\otimes b}
+     &\to&
+     N
+  }
+  \,,
+$$
+
+where the top horizontal morphism is that given by the $\mathcal{O}$-algebra structure of $A$ and the bottom that given by the $A$-module structure of $N$.
+
+=--
+
+This appears as ([Hinich, def. 7.2.1](#Hinich)).
+
+The theory of [[tangent complex]]es, [[Kähler differential]]s, etc. exists in this generality for derivations on algebras over an operad. 
 
 ### Generalization to arbitrary $(\infty,1)$-categories {#Infty1Version}
 
@@ -216,6 +268,14 @@ $$
   \,.
 $$
 =--
+
+## Referemces
+
+Derivations on [[infinity-algebra over an (infinity,1)-operad|algebras]] over a [[dg-operad]] are discussed in section 7 of
+
+* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+ {#Hinich}
+ 
 
 
 [[!redirects derivation]]
