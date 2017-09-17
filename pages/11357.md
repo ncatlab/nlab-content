@@ -1,0 +1,14 @@
+
+
+A procedure for producing ([[Lagrangians]] for) [[topological quantum field theories]] from non-topological  ( but [[supersymmetry|supersymmetric]]) [[QFT|QFTs]].
+
+The general mechanism is explained a bit at _[[topologically twisted D=4 super Yang-Mills theory]]_.
+
+See also at 
+
+* [[topological string]]
+
+* [[2d (2,0)-superconformal QFT]]
+
+[[!redirects topological twists]]
+
