@@ -174,6 +174,10 @@ A more detailed reference is:
 
 * William Fulton, _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997.
 
+A connection to algebraic geometry:
+
+* C. de Concini, D. Eisenbud, C. Procesi, _Young diagrams and determinantal
+varieties_, Invent. Math. __56__ (1980), 129-165.
 
 [[!redirects Young diagram]]
 [[!redirects Young diagrams]]
