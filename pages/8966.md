@@ -1,0 +1,8 @@
+
+## Related concepts
+
+* [[realizability topos]]
+
+## References
+
+* [[Steven Awodey]], [[Andrej Bauer]], _Sheaf toposes for realizability_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stfr.pdf))
