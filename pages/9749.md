@@ -86,6 +86,11 @@ Apart from Giry's paper, there are similar developments in
 * category cafe related to Giry monad: [category theoretic probability](http://golem.ph.utexas.edu/category/2007/02/category_theoretic_probability.html), [coalgebraic modal logic](http://golem.ph.utexas.edu/category/2009/09/coalgebraic_modal_logic.html) 
 * Abramsky et al. _Nuclear and trace ideals in tensored &#8727;-Categories_,[arxiv/math/9805102](http://arxiv.org/abs/math/9805102), on the representation of probability theory through monads, which looks to work Giry's monad into a context even more closely resembling the category of relations. 
 
+There is also relation with work of Jacobs et al. 
+
+* Robert Furber, [[Bart Jacobs]], _Towards a categorical account of conditional probability_, [arxiv/1306.0831](http://arxiv.org/abs/1306.0831)
+
+
 To do:
 
 * Relate to [convex spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html)
