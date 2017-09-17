@@ -32,7 +32,7 @@ There are two _equivalent_ ways of defining the [[judgement]] rules for inductiv
 
 * [Induction: dependent elimination, computation](#InductionRules).
 
-The second describes elimanation on absolute types. This is the formalization of the notion of [[recursion]], and discussed below
+The second describes elimination on absolute types. This is the formalization of the notion of [[recursion]], and discussed below
 
 * [Recursion: elimination, computation](#RecursionRules)
 
