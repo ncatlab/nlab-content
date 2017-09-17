@@ -228,6 +228,7 @@ the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manife
 
 +-- {: .num_cor #ExtramuralIso}
 ###### Corollary
+**(extramural isomorphisms)**
 
 If the rows of a double complex are exact at the domain and codomain of a horizontal morphism $\partial^{hor} : A \to B$, hence if  $A^{hor} = 0$ and $B^{hor} = 0$, then the extramural map of lemma \ref{Extramural}
 
@@ -253,10 +254,11 @@ This says that the map in the middle has vanishing [[kernel]] and [[cokernel]] a
 
 =--
 
-+-- {: .num_cor}
++-- {: .num_cor #IntramuralIsos}
 ###### Corollary
+**(intramural isomorphisms)**
 
-In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ is [[exact sequence|exact]] at $B$, then the two intramural maps, lemma \ref{Intramural}, shown above the diagram are [[ismorphisms]]:
+In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ is [[exact sequence|exact]] at $B$, then the two intramural maps, lemma \ref{Intramural}, shown above the diagram are [[isomorphisms]]:
 
 $$
   \array{
@@ -266,8 +268,9 @@ $$
     \\
     0 &\hookrightarrow& B &\stackrel{ker = 0}{\to}& \cdots
   }
-  \;\;\;
+  \;\;\;\;\;\;\;\;\;\;\;\;
   \Rightarrow
+  \;\;\;\;\;\;\;\;\;\;\;\;
   \array{
     {}^\Box A &\stackrel{\simeq}{\to}& A^{hor}
     \\
@@ -284,7 +287,7 @@ This appears as ([Bergman, cor. 2.2](#Bergman)).
 +-- {: .proof}
 ###### Proof
 
-Applying cor. \ref{ExtramuralIso} to $0 \to B$ yields ${}^\Box B \imeq 0_\Box = 0$. Therefore the exact sequence of the Salamander lemma \ref{SalamanderLemma} corresponding to 
+Applying cor. \ref{ExtramuralIso} to $0 \to B$ yields ${}^\Box B \simeq 0_\Box = 0$. Therefore the exact sequence of the Salamander lemma \ref{SalamanderLemma} corresponding to 
 
 $$
   \array{
@@ -330,7 +333,83 @@ which gives the second isomorphism.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} are also readily checked directly, without recourse to the Salamander lemma. But together with the Salamander lemma they will prove to be useful for the following derivations of the fundamental lemmas of homological algebra, and so it's the Salamander lemma that guides the use of these corollaries.
+
+=--
+
+### The sharp $3 \times 3$-lemma
+
+We discuss an elegant proof of the [[sharp 3x3 lemma]] from the Salamander lemma.
+
++-- {: .num_prop}
+###### Proposition
+
+In in a [[diagram]] of the form
+
+$$
+  \array{
+    && 0 && 0 && 0
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& A' &\to& B' &\to& C'
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& A &\to& B &\to& C
+    \\
+    && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& A'' &\to& B'' &\to& C''
+  }
+$$
+
+all columns and the second and third row are [[exact sequence|exact]], 
+then also the first row is exact.
+
+=--
+
+The following proof is that given in ([Bergman, lemma 2.3](#Bergman)).
+
++-- {: .proof}
+###### Proof
+
+First of all one notices that the diagram is a [[double complex]]: by column-exactness the first row includes as [[subobjects]] into the second, so the horizontal maps of the first row are restrictions of the [[differentials]] of the second and so at least the first row is a [[chain complex]].
+
+Then with the exactness assumptions, corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} yield isomorphisms
+
+$$
+  {A'}^{hor} \simeq A'_{\Box} \simeq A'^{vert} \simeq 0
+$$
+
+and
+
+$$
+  {B'}^{hor} \simeq {B'}_{\Box}\simeq {}^{\Box}B \simeq A_{\Box} \simeq A^{vert} \simeq 0
+$$
+
+and
+
+$$
+  {C'}^\hor \simeq \cdots.
+$$
+
+The vanishing of the terms on the left in these three expressions is the exactness of the first row, to be shown
+
+=--
+
+
 ### The snake lemma
+
+We discuss an elegant proof of the [[snake lemma]] from the Salamander lemma.
+
+
+(...)
+
+### Long exact sequences
 
 (...)
 
