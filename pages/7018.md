@@ -44,6 +44,17 @@ A theorem should be contrasted with a [[tautology]]: a proposition that is [[tru
 
 *  Lemmas do the work in mathematics: Theorems, like management, just take the credit.  ---[[Paul Taylor]]
 
+## Related concepts
+
+* [[theory]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
+
+* **theorem**, [[axiom]]
+
+
 
 ## References
 
