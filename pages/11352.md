@@ -23,6 +23,7 @@
 
 
 ## Idea
+
 The [[supersymmetry|supersymmetric]] version of a [[vertex operator algebra]]; the local data of a [[2d SCFT]].
 
 ## Related concepts
@@ -31,7 +32,17 @@ The [[supersymmetry|supersymmetric]] version of a [[vertex operator algebra]]; t
 
 ## References
 
+
+In relation to the [[Witten genus]]:
+
 * Hirotaka Tamanoi, _Elliptic Genera and Vertex Operator Super-Algebras_, 1999
+
+* {#DLM02} Chongying Dong, [[Kefeng Liu]], Xiaonan Ma, _Elliptic genus and vertex operator algebras_ ([arXiv:math/0201135](http://arxiv.org/abs/math/0201135))
+
+
+* Pokman Cheung, _The Witten genus and vertex algebras_ ([arXiv:0811.1418](http://arxiv.org/abs/0811.1418))
+
+
 
 [[!redirects super vertex operator algebras]]
 
