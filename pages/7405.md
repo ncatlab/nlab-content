@@ -143,7 +143,7 @@ Reviews include
 * Mai Gehrke, Jacob Vosmaer, _A view of canonical extension_ ([arXiv:1009.2803](http://arxiv.org/abs/1009.2803))
  {#GehrkeVosmaer}
 
-* Dion Coumans, _Generalizing canonical extensions to the categorical setting_
+* Dion Coumans, _Generalizing canonical extensions to the categorical setting_, [pdf](http://www.math.ru.nl/~coumans/Generalisingcanonicalextensiontothecategoricalsetting-DionCoumans-vs2.pdf), to appear in Annals of Pure and Applied Logic
  {#Coumans}
 
 [[!redirects canonical extensions]]
