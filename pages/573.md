@@ -1066,6 +1066,8 @@ and extra [[properties]] that it may enjoy.
 
 * **(∞,n)-category**
 
+  * [[n-category object in an (∞,1)-category]]
+
 * [[(n,r)-category]]
 
 
