@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -180,8 +191,12 @@ The Kontsevich and Soibelman references below are also good.
 
 ## Related entries 
 
-Related $n$lab entries include [[cotangent complex]], [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]. 
 
+* [[tangent complex]], [[André-Quillen cohomology]], [[Hochschild cohomology]]
+
+* [[cotangent complex]], [[André-Quillen homology]], [[Hochschild homology]]
+
+[[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]
 
 ## References
 
