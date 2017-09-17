@@ -1,4 +1,5 @@
-The French mathematician __Alexandre Grothendieck__, (in English usually Alexander Grothendieck), has created a very influential body of work foundational for ([[algebraic geometry|algebraic]]) [[geometry]] but also for modern [[mathematics]] more generally. He is widely regarded as a singularly important figure of 20th century mathematics and his ideas continue to be flourishing in the 21st century. 
+
+The French mathematician __Alexander Grothendieck__ (in French sometimes Alexandre Grothendieck), has created a very influential body of work foundational for ([[algebraic geometry|algebraic]]) [[geometry]] but also for modern [[mathematics]] more generally. He is widely regarded as a singularly important figure of 20th century mathematics and his ideas continue to be flourishing in the 21st century. 
 
 * [Wikiedia article](http://en.wikipedia.org/wiki/Alexander_Grothendieck)
 
@@ -29,8 +30,10 @@ The video of a talk by W. Scharlau on his life can be seen [here](http://www.dai
 
 A  recent article in French on Grothendieck is to be found [here](http://images.math.cnrs.fr/Alexandre-Grothendieck.html).
 
+
 category: people
 
-[[!redirects A. Grothendieck]]
 [[!redirects Grothendieck]]
+[[!redirects A. Grothendieck]]
+[[!redirects Alexander Grothendieck]]
 [[!redirects Alexandre Grothendieck]]
