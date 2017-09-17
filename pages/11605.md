@@ -1,5 +1,9 @@
 
 
+## Related concepts
+
+[[!include moduli of higher lines -- table]]
+
 ## References
 
 * Wikipedia, _[Intermediate Jacobian](http://en.wikipedia.org/wiki/Intermediate_Jacobian)_
