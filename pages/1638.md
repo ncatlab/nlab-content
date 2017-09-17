@@ -1,10 +1,11 @@
-#Contents#
+
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
-## Idea ##
+## Idea
 
-A *computad* is a formal device (due to [[Ross Street]], 1976) for describing "generators" of [[higher category theory|higher categories]], and in particular for $n$-[[n-category|categories]].  They generalize [[directed graph]]s, which describe generators of ordinary (1-)[[categories]].  In a sense, $n$-computads are the "most general" structure from which one can generate a free $n$-category; they allow the free adjoining of $k$-cells whose [[source]] and [[target]] are arbitrary [[composites]] of previously adjoined $(k-1)$-cells.
+A *computad* is a formal device (due to [[Ross Street]], 1976) for describing "generators" of [[higher category theory|higher categories]], and in particular for $n$-[[n-category|categories]].  They generalize [[quivers]] ([[directed graphs]]), which describe generators of ordinary (1-)[[categories]].  In a sense, $n$-computads are the "most general" structure from which one can generate a free $n$-category; they allow the free adjoining of $k$-cells whose [[source]] and [[target]] are arbitrary [[composites]] of previously adjoined $(k-1)$-cells.
 
 Originally the $n$-categories under consideration were [[strict n-category|strict]], but more recently the concept of $n$-computad has been expanded to take into account weak $n$-categories and other higher-categorical structures.  The notion is tied to [[algebraic definition of higher category|algebraic]] senses of higher categories, but computads can also be used as the input for [[geometric definition of higher category|geometric]] senses as well, and may aid in a comparison between the two approaches.
 
