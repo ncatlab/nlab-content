@@ -1,4 +1,4 @@
-The french mathematician __Alexandre Grothendieck__, (in English usually Alexander Grothendieck), has created a work whose influence has shown him to be the greatest pure mathematician of the 20th century; and  his ideas continue to be developed in this century. 
+The French mathematician __Alexandre Grothendieck__, (in English usually Alexander Grothendieck), has created a very influential body of work foundational for ([[algebraic geometry|algebraic]]) [[geometry]] but also for modern [[mathematics]] more generally. He is widely regarded as a singularly important figure of 20th century mathematics and his ideas continue to be flourishing in the 21st century. 
 
 * [Wikiedia article](http://en.wikipedia.org/wiki/Alexander_Grothendieck)
 
