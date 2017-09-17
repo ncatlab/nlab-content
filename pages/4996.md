@@ -143,9 +143,9 @@ The fact that $\lim_\to C(U) \simeq *$ follows from the [[nerve theorem]], using
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $C$ be an $\infty$-cohesive site. Then the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_{(\infty,1)}(C)$ over $C$ is a [[cohesive (∞,1)-topos]]. 
+Let $C$ be an $\infty$-cohesive site. Then the [[(∞,1)-sheaf (∞,1)-topos]] $Sh_{(\infty,1)}(C)$ over $C$ is a [[cohesive (∞,1)-topos]] that satisfies the axiom "discrete objects are concrete" .
 
-If for all objects $U$ of $C$ we have that $C(*,U)$ is not empty, then _pieces have points_ in the cohesive $(\infty,1)$-topos.
+If moreover for all objects $U$ of $C$ we have that $C(*,U)$ is [[inhabited set|inhabited]], then als the axiom "pieces have points" holds.
 
 =--
 
@@ -164,11 +164,11 @@ To prove this, we need to show that
 
   This follows with the discussion at [[∞-connected site]].
 
-1. $Sh_{(\infty,1)}(C)$ is a [[loal (∞,1)-topos]]. 
+1. $Sh_{(\infty,1)}(C)$ is a [[local (∞,1)-topos]]. 
 
    This follows with the discussion at [[∞-local site]].
 
-1. The [[fundamental ∞-groupoid (∞,1)-functor in a locally ∞-connected (∞,1)-topos]] $\Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ preserves finite [[(∞,1)-products]]. 
+1. The [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] $\Pi : Sh_{(\infty,1)}(C) \to \infty Grpd$ preserves finite [[(∞,1)-products]]. 
 
 1. If $\Gamma(U)$ is not empty for all $U \in C$, then _pieces have points_ in $Sh_{(\infty,1)}(C)$.
 
@@ -189,7 +189,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the discussion at [[∞-connected siite]] we have that $\Pi$ is given by the [[(∞,1)-colimit]] $\lim_\to : PSh_{(\infty,1)}(C) \to \infty Grpd$. By the assumption that $C$ is a [[cosifted (∞,1)-category]], it follows that this operation preserves finite products.
+By the discussion at [[∞-connected site]] we have that $\Pi$ is given by the [[(∞,1)-colimit]] $\lim_\to : PSh_{(\infty,1)}(C) \to \infty Grpd$. By the assumption that $C$ is a [[cosifted (∞,1)-category]], it follows that this operation preserves finite products.
 
 =--
 
@@ -276,7 +276,48 @@ $$
 
 =--
 
+Finally we prove that _pieces have points_ in $Sh_{(\infty,1)}(C)$ if all objects of $C$ have points.
 
++-- {: .proof}
+###### Proof
+
+By the above discussion both $\Gamma$ and $\Pi$ are presented by left Quillen functors on the projective model structure $[C^{op}, sSet]_{proj,loc}$. By Dugger's cofibrant replacement theorem (see [[model structure on simplicial presheaves]]) we have for $X$ any simplicial presheaf that a cofibrant replacement is given by an object that in the lowest two degrees is
+
+
+$$
+  \cdots
+  \stackrel{\to}{\stackrel{\to}{\to}}
+  \coprod_{U_0 \to U_1 \to X_1} U
+   \stackrel{\to}{\to}
+   \coprod_{U \to X_0} U
+  \,,
+$$
+
+where the coproduct is over all morphisms out of representable presheaves $U_i$ as indicated. 
+
+The model for $\Gamma$ sends this to
+
+$$
+  \cdots
+  \stackrel{\to}{\stackrel{\to}{\to}}\coprod_{U_0 \to U_1 \to X_0} C(*,U_0)
+   \stackrel{\to}{\to}
+   \coprod_{U \to X_0} C(*,U)
+  \,,
+$$
+
+whereas the model for $\Pi$ sends this to
+
+$$
+  \cdots
+  \stackrel{\to}{\stackrel{\to}{\to}}\coprod_{U_0 \to U_1 \to X_0} *
+   \stackrel{\to}{\to}
+   \coprod_{U \to X_0} *
+  \,.
+$$
+
+The morphism from the first to the latter is the evident one that componentwise sends $C(*,U)$ to the point. Since by assumption each $C(*,U)$ is nonempty, this is componentwise an epi. Hence the whole morphism is an epi on $\pi_0$.
+
+=--
 
 
 
