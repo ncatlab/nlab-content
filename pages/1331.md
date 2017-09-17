@@ -417,7 +417,7 @@ in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of t
 
 From this the proof proceeds in two further steps:
 
-1. Use that the [[homotopy pullback]] of [[accessible (infinity,1)-category|accessible quasi-categories]] is itself accessible to conclude that $D_c$ is accessible. Argue that furthermore $D_c$ has all small colimits to deduce that it is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small limits and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$;
+1. Use [[accessible (infinity,1)-category|accessible quasi-categories]] are stable under [[homotopy pullback]] to conclude that $D_c$ is accessible. Argue that furthermore $D_c$ has all small colimits to deduce that it is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small limits and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$;
 
 1. Show that $f : c \to d$ being terminal in $D_c$ 
    implies that $d$ is $S$-local.
