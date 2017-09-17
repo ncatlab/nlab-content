@@ -65,7 +65,7 @@ If you make any edits to the $n$Lab, please inform the rest of the $n$Lab commun
 ## Using the $n$Lab
  {#TermsOfUse}
 
-One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice:
+One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice: <a style="text-align: right;color: white" href="http://www.forfait-mobile.info" rel="dofollow" title="forfait mobile">comparateur forfait mobile</a>
 
 * Using content obtained from the $n$Lab in your publications is free and encouraged if you acknowledge the source, as usual. Because $n$Lab pages can change, in citing a page you should point to a specific version of it.  You can find a list of all the versions of a page by clicking on the **History** link at the bottom of the page itself.
 
