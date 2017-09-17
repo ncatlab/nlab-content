@@ -154,7 +154,7 @@ This is a groupoid-valued [[sheaf]] on the [[site]] [[CartSp]]${}_{smooth}$ and 
 
 For $X$ a [[paracompact space|paracompact]] [[smooth manifold]], we may also regard it as a [[(2,1)-sheaf]] on [[CartSp]] in an evident way.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The groupoid $G Bund(X)$ of $G$-[[principal bundle]]s on $X$ is equivalent to the hom-groupoid
@@ -193,7 +193,7 @@ $$
 
 that forgets the 1-forms on each object $U$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(connection)**
 
@@ -244,9 +244,12 @@ holds, where on the right we have the pullback $g^* \theta$ of the [[Maurer-Cart
 
 
 
-## Properties {#Properties}
+## Properties 
+ {#Properties}
 
-+-- {: .un_defn}
+### Existence of connections
+
++-- {: .num_defn}
 ###### Definition
 **(existence of connections)**
 
