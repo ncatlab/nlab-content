@@ -37,6 +37,46 @@ $$
 
 is an [[(∞,2)-topos]], the [[homotopy theory]]-generalization of a [[2-topos]] of [[2-sheaves]].
 
+## Examples
+
+### Codomain fibration / canonical $(\infty,2)$-sheaf
+ {#CodomainFibration}
+
+Let $\mathcal{X}$ be an [[(∞,1)-topos]], regarded as a ([[large site|large]]) [[(∞,1)-site]] equipped with the [[canonical topology]]. Then an [[(∞,1)-functor]]
+
+$$
+  A : \mathcal{X}^{op} \to CAT_{(\infty,1)}
+$$
+
+is an $(\infty,2)$-sheaf precisely if it preserves [[(∞,1)-limits]] (takes [[(∞,1)-colimits]] in $\mathcal{X}$ to [[(∞,1)-limits]] in [[(∞,1)Cat]]).
+
++-- {: .num_prop }
+###### Propositon
+
+For $\mathcal{X}$ an $(\infty,1)$-topos, the functor
+
+$$
+  Cod : \mathcal{X}^{op} \to CAT_{(\infty,1)}
+$$
+
+$$
+  Cod : A \mapsto \mathcal{X}_{/A}
+$$
+
+is a ([[universe enlargement|large]]) $(\infty,2)$-sheaf on $\mathcal{X}$ , regarded as a [[(∞,1)-site]] equipped with the [[canonical topology]]. Here $\mathcal{X}_{/A}$ is the [[slice (∞,1)-topos]] over $A$.
+
+=--
+
+This is a special case of ([Lurie, lemma 6.1.3.7](#Lurie)). 
+
++-- {: .num_remark }
+###### Remark
+
+The functor $Cod$ [[(∞,1)-Grothendieck construction|classifies]] the [[codomain fibration]]. Its fiberwise [[stabilization]] to the [[tangent (∞,1)-category]] is the $(\infty,2)$-sheaf of [[quasicoherent sheaves]] on $\mathcal{X}$.
+
+=--
+
+
 
 ## Related concepts
 
@@ -45,6 +85,13 @@ is an [[(∞,2)-topos]], the [[homotopy theory]]-generalization of a [[2-topos]]
 * [[2-sheaf]], [[(2,1)-sheaf]]
 
 * [[(∞,1)-sheaf]] / [[∞-stack]]
+
+## References
+
+Section 6.1.3 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 [[!redirects (∞,2)-sheaf]]
 [[!redirects (∞,2)-sheaves]]
