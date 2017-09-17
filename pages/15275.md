@@ -1,8 +1,14 @@
-The**volume conjecture** states that a certain limit of the colored [[Jones
-polynomial]] of a knot gives the simplicial volume of its complement in the 3-sphere.
+The **volume conjecture** states that a certain limit of the [[colored Jones
+polynomial]] of a knot $K$ gives the simplicial volume of its complement in the 3-sphere.
 
 $$
-lim_{N \to \infty}\left(\frac{2 \pi log |\langle K \rangle_N|}{N}\right) = vol(K).
+lim_{N \to \infty}\left(\frac{2 \pi log |V_N(K; q = e^{\frac{2 \pi i}{N}})|}{N}\right) = vol(K).
+$$
+
+Here $V_N(K; q)$ is the ratio of the values of the $N$-colored Jones polynomial of $K$ and of the unknot
+
+$$
+V_N(K; q) = \frac{J_N(K; q)}{J_N(\bigcirc; q)}.
 $$
 
 The simplicial volume of a knot complement can be found via its unique **torus** decomposition  into hyperbolic pieces and Seifert fibered pieces by a system of tori. The simplicial volume is then the sum of the hyperbolic volumes of the hyperbolic pieces of the decomposition.
@@ -17,6 +23,8 @@ The simplicial volume of a knot complement can be found via its unique **torus**
 ## References
 
 Original articles include
+
+* Tudor Dimofte, Sergei Gukov, _Quantum Field Theory and the Volume Conjecture_, ([arxiv:1003.4808](http://arxiv.org/abs/1003.4808))
 
 * R. M. Kashaev, _The Hyperbolic Volume Of Knots From The Quantum Dilogarithm_ Lett. Math. Phys. 39 (1997) 269-275.
 
@@ -34,6 +42,6 @@ Review includes
 
 * {#Witten14} [[Edward Witten]], pp. 4 of _Two Lectures On The Jones Polynomial And Khovanov Homology_ ([arXiv:1401.6996](http://arxiv.org/abs/1401.6996))
 
-* Wikipedia, _[Volume conjecture](
+* Wikipedia, _[Volume conjecture](http://en.wikipedia.org/wiki/Volume_conjecture)
 
 * H. Murakami, Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot, Internat. J. Math. 15 (2004) 547-555.
