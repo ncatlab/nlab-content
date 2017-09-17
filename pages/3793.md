@@ -19,6 +19,8 @@
 
 * [[sub-quasi-category]]
 
+  * [[reflective (∞,1)-subcategory|reflective sub-quasi-category]]
+
 * [[opposite quasi-category]]
 
 * [[over quasi-category]]
