@@ -37,6 +37,8 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $T \mathbf{H}$ its [[tangent (∞,1)-t
 
 ## Related concepts
 
+* [[linear type theory]]
+
 * [[modal homotopy type]]
 
 * [[geometric homotopy type]], [[cohesive homotopy type]]
