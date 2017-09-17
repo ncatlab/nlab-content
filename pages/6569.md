@@ -13,8 +13,25 @@ For $V$ a [[vector space]], a _bivector_ in $V$ is an element $b \in \wedge^2 V$
 
 This is canonically identified with an element of degree 2 in the [[Grassmann algebra]] $\wedge^\bullet V$.
 
+## Properties
+
+### Clifford algebra and rotations
+
 If $V$ is equipped with a non-degenerate [[inner product]] then the space of bivectors is also canonically identified with a subspace of the [[Clifford algebra]] $Cl(V)$.
+
+If we write $\gamma_v \in Cl(V)$ for the CLifford algebra element corresponding to a vector $v \in V$, then this identification is given by the map
+
+$$
+  v \wedge w \mapsto \gamma_{v} \cdot \gamma_w - \gamma_w \cdot \gamma_v
+  \,.
+$$
+
+Under the [[commutator]] in the Clifford algebra bivectors go to bivectors and hence form a [[Lie algebra]]. This Lie algebra is the [[special orthogonal Lie algebra]] $\mathfrak{so}(V)$ of $V$.
+
+
 
 ## References
 
 * wikipedia, [bivector](http://en.wikipedia.org/wiki/Bivector)
+
+[[!redirects bivectors]]
