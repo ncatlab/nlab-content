@@ -65,6 +65,10 @@ An exposition from the point of view of modern [[gauge theory]] is in
 
 * {#Freedman93} [[Daniel Freedman]], _Some beautiful equations of mathematical physics_, Dirac Prize lecture, November 1993 ([arXiv:hep-th/9408175](http://arxiv.org/abs/hep-th/9408175))
 
+Some observations from the point of view of [[string theory]] are in
+
+* [[Gregory Moore]], _[[Physical Mathematics and the Future]]_ (2014)
+
 For an extensive list of literature see
 
 * [[books and reviews in mathematical physics]]
