@@ -71,11 +71,11 @@ More in detail, we may also remember the [[groupoid]] of 2-framings and the smoo
 +-- {: .num_defn}
 ###### Definition
 
-The [[moduli stack]] $2\mathbf{Frame}$ is the [[homotopy pullback]] in 
+The [[moduli stack]] $At2\mathbf{Frame}$ is the [[homotopy pullback]] in 
 
 $$
   \array{
-    2\mathbf{Frame} &\to& *
+    At2\mathbf{Frame} &\to& *
     \\
     \downarrow && \downarrow
     \\
@@ -92,7 +92,7 @@ In terms of this a 2-framing on $X$ with [[orientation]] $\mathbf{o} \colon X \t
 
 $$
   \array{
-    && 2 \mathbf{Frame}
+    && At 2 \mathbf{Frame}
     \\
     & {}^{\mathllap{\hat {\mathbf{o}}}}\nearrow & \downarrow
     \\
@@ -122,6 +122,8 @@ $$
 $$
 
 This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, slide 5](#Freed)).
+
+
 
 ## Related concepts
 
