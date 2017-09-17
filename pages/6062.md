@@ -69,6 +69,19 @@ On the other hand, if one considered chain complexes in non-negative degree (for
 
 =--
 
++-- {: .num_remark #NonWeakMaps}
+###### Remark/Warning
+
+Some of the model structures below are on the category of $L_\infty$-algebras with "strict" morphisms between them, namely for those morphisms which are morphisms of [[algebras over an operad]] for an $L_\infty$-algebra regarded as an algebra over a [[cofibrant resolution]] of the [[Lie operad]]. We write
+
+$$
+  L_\infty Alg_{str} \to L_\infty Alg
+$$
+
+for the [[wide subcategory]] on the strict $L_\infty$-morphisms.
+
+=--
+
 ## Definition as algebras over an operad
 
 As their name indicates, [[L-∞ algebras]] are the [[homotopy algebras]] [[algebra over an operad|over]] the [[Lie operad]] (in a [[category of chain complexes]]). As such, the general theory of [[model structures on algebras over an operad]] provides a [[model category]] structure on the category of $L_\infty$-algebras. 
@@ -93,10 +106,10 @@ Hence in particular $(F \vdash U)$ is [[Quillen adjunction]] between these model
 
 ([Hinich97, theorem 4.1.1](#Hinich97))
 
-So this is in particular true for $\mathcal{O} = \widehat Lie$ the standard [[cofibrant resolution]] of the [[Lie operad]]. In this case $Alg(\widehat Lie) \simeq L_\infty Alg$ is the category of (unbounded) $L_\infty$-algebras and hence is equipped with a [[transferred model structure]] this way
+So this is in particular true for $\mathcal{O} = \widehat Lie$ the standard [[cofibrant resolution]] of the [[Lie operad]]. In this case $Alg(\widehat Lie) \simeq L_\infty Alg_{str}$ is the category of (unbounded) $L_\infty$-algebras (with strict $L_\infty$-maps between them as in remark \ref{NonWeakMaps} above) and hence is equipped with a [[transferred model structure]] this way
 
 $$
-  L_\infty Alg(k)
+  L_\infty Alg_{str}(k)
   \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
   Ch_\bullet(k)
   \,.
@@ -105,7 +118,7 @@ $$
 Moreover, by the rectification result discussed at _[[model structure on dg-algebras over an operad]]_, the resolution map $\widehat Lie \stackrel{\simeq}{\to} Lie$ induces a [[Quillen equivalence]]
 
 $$
-  L_\infty Alg(k) \stackrel{\simeq}{\to} dgLieAlg(k)
+  L_\infty Alg_{str}(k) \stackrel{\simeq}{\to} dgLieAlg(k)
 $$
 
 with the [[model structure on dg-Lie algebras]], similarly [[transferred model structure|transferred]] from the [[model structure on chain complexes]].
