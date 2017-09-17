@@ -22,7 +22,7 @@ It is an environment for [[higher-order logic|higher order]] [[recursion]] theor
 
 It can be specified as the [[realizability topos]] for [[Kleene's first algebra]]. 
 
-The effective topos construction alluded in the above paragraph can be performed more generally, in every topos $E$ with a natural numbers object, replacing [[Set]]. To every such topos one constructs the corresponding "external" effective topos $e E$ and the correspondence $E \mapsto e E$ extends to a functor admitting a [[full and faithful functor|fully faithful]] [[right adjoint]].  Kleene's first algebra can also be replaced by any [[partial combinatory algebra]], or even some more general types of gadgets; toposes obtained in this way are called [[realizability toposes]].
+The effective topos construction alluded in the above paragraph can be performed more generally, in every topos $E$ with a natural numbers object, replacing [[Set]]. To every such topos one constructs the corresponding "external" effective topos $e E$ and the correspondence $E \mapsto e E$ extends to a functor admitting a [[full and faithful functor|fully faithful]] [[right adjoint]].  Kleene's first algebra can also be replaced by any [[partial combinatory algebra]], or even some more general types of gadgets; toposes obtained in this way are called [[realizability topos]]es.
 
 ## References
 
