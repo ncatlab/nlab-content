@@ -5,8 +5,15 @@
 
 ## Idea
 
-The _genus_ of a [[surface]] is an [[integer]] that classifies the surface's [[homeomorphism]] class
+The _genus_ of a [[surface]] is an [[integer]] that classifies the surface's [[homeomorphism]] class.
+
+## Related concepts
+
+* [[arithmetic genus]]
+
+* [[genus]]
+
 
 ## References
 
-* wikipedia, _[genus](http://en.wikipedia.org/wiki/Genus_%28mathematics%29)_
+* Wikipedia, _[Genus](http://en.wikipedia.org/wiki/Genus_%28mathematics%29)_
