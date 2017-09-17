@@ -577,3 +577,5 @@ The $(\infty,1)$-categorical picture of [[derived stack|derived]] [[free loop sp
 Interesting wishlists for treatments of Hochschild cohomology are in [this](http://mathoverflow.net/questions/28472/book-on-hochschild-cohomology) MO discussion.
 
 [[!redirects Hochschild homology]]
+
+[[!redirects Hochschild complex]]
