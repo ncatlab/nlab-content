@@ -13,7 +13,9 @@ In the case of non-archimedean ground field, the topology of the affine space is
 
 ## Related entries
 
-* [[analytic geometry]]
+* [[analytic geometry]], 
+
+  * [[complex analytic space]], [[Berkovich space]]
 
 * [[Banach analytic space]]
 
