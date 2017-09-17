@@ -172,3 +172,4 @@ Also, it would be good to arrange the points that [[Zoran Skoda|Zoran]] mentions
 =--
 
 [[!redirects localizations]]
+[[!redirects localization functor]]
