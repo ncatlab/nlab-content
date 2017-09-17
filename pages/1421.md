@@ -31,7 +31,7 @@ Let $k$ be a [[field]] of [[characteristic]] 0. Let $T$ be the [[Lawvere theory]
 
 * [[model structure on simplicial T-algebras]];
 
-* [[model structure on dg-algebras]] (over $k$, in non-positive deree, with positively graded differential).
+* [[model structure on dg-algebras]] (over $k$, in non-positive degree, with positively graded differential).
 
 The [[higher geometry]]/[[derived geometry]] over formal duals of these algebras is sometimes called [[dg-geometry]]: a general space in this context is given by an [[∞-stack]] over a full sub-[[(∞,1)-site]] 
 
@@ -143,7 +143,7 @@ A morphism $X \rightarrow Y$ is said to be **perfect morphism** if its fibers $X
 
 ## Properties
 
-The following proposition establishes that the concept of 'perfect stack' is robust in that various other roads would have led to the same destination.
+### Equivalent reformulations
 
 +-- {: .un_def}
 ###### Definition
@@ -168,6 +168,20 @@ For a [[∞-stack]] $X \in Sh_{(\infty,1)}(C)$ with affine diagonal, the followi
 
 =--
 
+
+### Geometric $\infty$-function theory
+
+The assigmnent 
+
+$$
+  QC : X \mapsto QC(X)
+$$
+
+of the $(\infty,2)$-algebras  $QC(X)$ of 
+[[quasicoherent ∞-stack]]s to perfect $$\infty$-stacks $X$ constitutes a 
+[[geometric ∞-function theory]]: this assignment commutes with [[(∞,1)-pullback]]s and admits a ggood pull-push theory of [[integral transforms on sheaves]].
+
+([Ben-ZviFrancisNadler](#Ben-ZviFrancisNadler)
 
 ## Examples
 
