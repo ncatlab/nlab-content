@@ -27,6 +27,7 @@ In contrast, [[(n,1)-topos|(2,1)-toposes]] are much better understood.
 
 A _Grothendieck 2-topos_ is a [[2-category]] of [[2-sheaves]] over a [[2-site]].
 
+A _Grothendieck (2,1)-topos_ is a [[(2,1)-category]] of [[(2,1)-sheaves]] over a [[(2,1)-site]].
 
 See also [[higher topos theory]].
 
