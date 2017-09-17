@@ -215,7 +215,32 @@ A bicategory of relations has a unit $1$ in the sense of allegories:
 
 A bicategory of relations is also pretabular, for the maximal element in $\hom(X, Y)$ is tabulated as $(\pi_X)_* \pi_Y$, where $\pi_X$, $\pi_Y$ are the product projections for $X \times Y$. 
 
-In the other direction, suppose $\mathbf{A}$ is a unitary pretabular allegory. _To be continued_
+In the other direction, suppose $\mathbf{A}$ is a unitary pretabular allegory.  By theorem 1.6 of Carboni--Walters, $\mathbf{A}$ is a [[Cartesian bicategory]] if:
+
+* $Map(\mathbf{A})$ has finite products.
+
+* $\mathbf{A}$ has local finite products, and $id_I$ is the top element of $\mathbf{A}(I,I)$.
+
+* The tensor product defined as
+$$ R \otimes S =  (p R p_*) \cap (p' S p'_*) $$
+is functorial, where $p$ and $p'$ are the appropriate product projections.
+
+For the first condition, the existence of a unit $I$ implies that $I$ is terminal in $Map(\mathbf{A})$, and the tabulation of the top element of $\mathbf{A}(X,Y)$ is the product cone $X \leftarrow X \times Y \to Y$.  For the second, local meets are given as part of the allegory structure, and the definition of a unit object gives top elements and the second part of the condition.
+
+The third condition is a little trickier.  For identity morphisms, it says that $p p_* \cap p' p'_* = 1$, which follows because $(p,p')$ tabulates the top element of the relevant hom set.  Now suppose that $R, S \colon X \to Y$ and $R', S' \colon Y \to Z$.  The composition condition for the tensor product requires that
+$$ p R R' p_* \cap p' S S' p'_*
+   = (p R p_* \cap p' S p'_*) (p R' p_* \cap p' S' p'_*) $$
+We may interpret the LHS as
+$$ (\exists y. R x y \wedge R' y z) \wedge (\exists y'. S x' y' \wedge S' y' z')
+$$
+and the right as
+$$
+\exists y, y'. (R x y \wedge S x' y') \wedge (R' y z \wedge S' y' z')
+$$
+where applications of pullback functors have been left implicit.  But recall from [[allegory]] that existential formulas may be interpreted equally as either compositions or more complicated morphisms involving product projections and diagonals.  Applying this to the morphisms above, the proof we are after follows by two uses of [[Frobenius reciprocity]] and some [[Beck-Chevalley conditions]].
+
+_TODO: Frobenius condition_
+
 =--
 
 
