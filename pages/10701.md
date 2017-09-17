@@ -189,6 +189,8 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 ## Lecture 21 _Lubin-Tate theory_
 
+* [[Lubin-Tate formal group]]
+
 * [[Lubin-Tate theory]]
 
 ## Lecture 22 _Morava E-theory and Morava K-theory_ 
@@ -224,6 +226,10 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 * [[telescopic localization]]
 
 ## Lecture 29 _Telescopic vs $E_n$-localization_ 
+
+* [[smashing localization]]
+
+* [[chromatic tower]]
 
 ## Lecture 30 _Localizations and the Adams-Novikov spectral sequence_ 
 
