@@ -43,6 +43,9 @@ The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Mor
 * strict pseudo-limits together with splitting of idempotents
 * strict pseudo-limits together with splitting of idempotent equivalences
 
+## Related pages
+
+* [[coherence theorem for bicategories with finite limits]]
 
 ## References
 
