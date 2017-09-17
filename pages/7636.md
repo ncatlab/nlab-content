@@ -412,9 +412,20 @@ The suggestion that with [[univalence]] this is refined to [[(∞,1)-topos theor
 * [[Steve Awodey]], _Type theory and homotopy_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf))
  {#Awodey}
 
+Details on this higher categorical semantics of [[homotopy type theory]] are in 
+
+* [[Mike Shulman]], section2 of _Univalence for inverse diagrams and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+
+with lecture notes in 
+
+* [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
+
+* [[Andre Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/2014_IAS.pdf))
+
 A precise definition of [[elementary (infinity,1)-topos]] inspired by giving a natural equivalence to [[homotopy type theory]] with [[univalence]] was then proposed in 
 
 * [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
+
 
 A discussion of the correspondence between type theories and categories of various sorts, from lex categories to toposes is in
 
