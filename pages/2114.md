@@ -38,14 +38,16 @@ Given an [[algebraically closed field]] $k$, an __algebraic $k$-variety__ means 
 
 Morphisms between varieties are so-called [[regular maps]].  
 
-Sometimes a smooth algebraic variety may also be called __algebraic manifold__. Some modern algebraic geometers mean, by varieties, objects of certain slightly bigger categories of relative $S$-schemes of finite type (where $S$ is not necessarily $Spec\,k$ for $k$ a field); typically they are required to be separated [[reduced scheme|reduced]] $S$-schemes of finite type.
+Sometimes a smooth algebraic variety may also be called __algebraic manifold__. 
 
 
-## Properties
+## Relation to schemes
 
-There is an [[equivalence of categories]] between the [[category]] of [[integral schemes]] of finite type over $Spec\,k$, where $k$ is an [[algebraically closed field]], and the category of algebraic $k$-varieties. 
+There is an [[equivalence of categories]] between the [[category]] of [[integral schemes]] of finite type over $Spec\,k$, where $k$ is an [[algebraically closed field]], and the category of (irreducible) algebraic $k$-varieties. 
 
-Of course, the corresponding [[scheme]] and variety have different sets of points; the points in common are the closed points of the scheme. The remaining points are the generic points of subvarieties. Generic points were often used, without proper foundations, in other language, already in the works of the Italian school. 
+Of course, given a variety the corresponding [[scheme]] and variety have different sets of points; the points in common are the closed points of the scheme. The remaining points are the generic points of subvarieties. Generic points were often used, without proper foundations, in other language, already in the works of the Italian school. 
+
+Some modern algebraic geometers mean, by varieties, objects of certain slightly bigger categories of relative $S$-schemes of finite type (where $S$ is not necessarily $Spec\,k$ for $k$ a field); typically they are required to be [[separated scheme|separated]] [[reduced scheme|reduced]] $S$-[[relative scheme|schemes]] [[morphism of finite type|of finite type]].
 
 ## References
 
