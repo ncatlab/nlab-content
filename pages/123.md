@@ -355,6 +355,8 @@ which provides an alternative expression of the functoriality condition as simpl
 
 ## Related concepts
 
+* [[endofunctor]]
+
 * [[bifunctor]]
 
 * [[profunctor]]
