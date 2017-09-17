@@ -16,7 +16,7 @@
 
 ## Idea
 
-Hodge cohomology is a variant of [[de Rham cohomology]] for [[complex varieties]] induced by a canonical [[Hodge filtration]] on [[differential forms]].
+([[absolute cohomology|Absolute]]) Hodge cohomology is a variant of [[de Rham cohomology]] for [[complex varieties]] induced by a canonical [[Hodge filtration]] on [[differential forms]].
 
 ## Related concepts
 
