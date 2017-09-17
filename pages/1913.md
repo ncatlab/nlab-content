@@ -280,6 +280,8 @@ where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is als
 
 * [[absolute differential form]], [[cogerm differential form]]
 
+* [[differential form with logarithmic singularities]]
+
 ## References
 
 A standard reference is
