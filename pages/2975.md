@@ -11,7 +11,7 @@
 
 Algebraic cobordism is the [[universal]] **oriented Borel--Moore homology theory**, where 'oriented' stands for the existence of the [[proper]] [[direct image]] homomorphisms. The fact that $\mathbb{A}^1$-homotopy theory is not used ---that is, the constructions are more direct--- is an advantage. 
 
-On the other hand a universal oriented motivic cohomology theory is not the algebraic cobordism of Morel and Levine but rather the cohomology associated to the [[motivic spectrum]] $MGL$ of Voevodsky, which is different and also may be called a theory of algebaric cobordism. An early different approach to some sort of algebraic cobordism is from late 1970-s work of [[Victor Snaith]], discussed in [[Victor Snaith|that entry]].
+On the other hand a universal oriented motivic cohomology theory is not the algebraic cobordism of Morel and Levine but rather the cohomology associated to the [[motivic spectrum]] $MGL$ of Voevodsky, which is different and also may be called a theory of algebraic cobordism. An early different approach to some sort of algebraic cobordism is from late 1970-s work of [[Victor Snaith]], discussed in [[Victor Snaith|that entry]].
 
 ## Related concepts
 
