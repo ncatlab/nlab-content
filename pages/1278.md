@@ -365,6 +365,10 @@ A model for a multiplicative differential refinement of [[complex cobordism coho
 
 See [[differential cobordism cohomology theory]]
 
+## Related concepts
+
+* [[differential orientation]]
+
 ## References {#References}
 
 A detailed discussion of the axiomatization of differential stable cohomology is
