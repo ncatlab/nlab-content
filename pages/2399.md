@@ -94,6 +94,18 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
 * Oliver Fabert, _Floer theory, Frobenius manifolds and integrable systems_
 [arxiv/1206.1564](http://arxiv.org/abs/1206.1564)
 
+A generalization is discussed in 
+
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Instantons beyond topological theory I_ ([arXiv:hep-th/0610149](http://arxiv.org/abs/hep-th/0610149))
+
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Instantons beyond topological theory II_ ([arXiv:hep-th/0610149](http://arxiv.org/abs/0803.3302))
+
+Expositions and summaries of this are in 
+
+* [[Edward Frenkel]], A. Losev, [[Nikita Nekrasov]], _Notes on instantons in topological field theory and beyond_ ([arXiv:hep-th/0702137](http://arxiv.org/abs/hep-th/0702137))
+
+* [[Jacques Distler]], _Localized_ (2006) ([blog](Localized))
+
 [[!redirects Gromov-Witten invariant]]
 [[!redirects Gromov-Witten invariants]]
 [[!redirects Gromov–Witten invariant]]
