@@ -1,4 +1,8 @@
 
+> under construction
+
+> for the moment this here are rough notes taken in a talk
+
 
 #Contents#
 * automatic table of contents goes here
@@ -220,3 +224,143 @@ $$
 
 Thomas Krogh has an [[orientation]] theory for 2-vector bundles which says that $j(\nu)$
 is not orientable.
+
+
+## 2K-theory of bimonoidal categories {#2K-theory}
+
+Let $(R, \oplus, \otimes, 0,1, c_{\oplus})$
+ be a [[bimonoidal category]], i.e. a [[categorification|categorified]] [[rig]].
+
+
+This can be borken down as
+
+1. $(R, \oplus, 0 , c_{\oplus})$ a permutative category, a catgorified abelian [[monoid]];
+
+
+1. $(R , \otimes, 1)$ is a  [[monoidal category]], assumed to be _strict_ monidal in the following;
+
+1. a distributivity law.
+
+**Examples**
+
+1. $E = Core$[[FinSet]], 
+   the [[core]] of the 
+   category of finite sets and morphisms only between sets of the
+   same cardinality.
+
+   In the [[skeleton]], objects are [[natural number]]s $n \in \mathb{N}$,
+   $\oplus$ and $\otimes$ is addition and multiplication on $\mathbb{N}$,
+   respectively. Here $c_{\oplus}$ is the evident natural [[isomorphism]]
+   between direct sums of finite sets.
+
+1. $V = Core$[[Vect]] the [[core]]
+   of the category of finite dim vector spaces, with morphisms only between
+   those of the same dimension. 
+
+1. ...
+
+**Definition** For $R$ a bimonoidal category, write $Mat_n(R)$
+for the $n \times n$ matrices with entries morphisms in $R$. Then matrix multiplication is defined using the bimonoidal structure on $R$. This gives a weak [[monoid]] structure.
+
+
+Let $Gl_n(R)$ be the category of weakly invertible such matrices. This is the [[full subcategory]] of $Mat_n(R)$. We get a diagram of [[pullback]] squares
+
+$$
+  \array{
+    Gl_n(R) &\hookrightarrow& Mat_n(R)
+    \\
+    \downarrow && \downarrow
+    \\
+    Gl_n(\pi_0(R))&\to& Mat_n(\pi_0(R))
+    \\
+    \downarrow && \downarrow
+    \\
+    Gl_n(Gr(\pi_0(R)))&\to& Mat_n(Gr(\pi_0(R)))
+  }
+  \,,
+$$
+
+where $Gr(-)$ denotes [[Grothendieck group]]-completion.
+
+**Definition** (Baas-Dundas-Rognes, 2004)
+
+For $R$ a [[bimonoidal category]], the **2K-theory** of $R$ is 
+
+$$
+  \mathcal{K}(R) :=  \Omega B \coprod_{n \geq 0} | B Gl_n(R) |
+$$
+
+where the $\Omega$ is forming [[loop space]], the leftmost $B$ is forming classifying space of a category and the inner $B$ is a flabby version of classifying space of a category.
+
+This can also be written
+
+$$
+  \cdots \simeq \mathbb{Z} \times |B Gl_n(R)|^+
+  \,.
+$$
+
+Here $B_q Gl_n(R)$ is a [[simplicial category]]
+
+...
+
+
+**Theorem** (Baas-Dundas-Rognes)
+
+Let $R$ be a [[small category|small]] [[Top]]-[[enriched category|enriched]] [[bimonoidal category]]
+ such that 
+
+1. $R$ is a [[groupoid]];
+
+1. for all $X \in R$ we have that $X \oplus (-)$ is [[faithful functor|faithful]].
+
+Then $\mathcal{K}(R) \simeq K(H R)$ is the ordinary [[algebraic K-theory]] of the [[ring spectrum]] $H R$.
+
+Notice that for $H R$ to be a spectrum we only need the additive structure $(R, \oplus, 0, c_{\oplus})$.  The point is that the other monoidal structure $\otimes$ indeed makes this a [[ring spectrum]]. This is a not completely trivial statement due to a bunch of people, involving [[Peter May]] and Elmendorf-Mandell (2006).
+
+**Examples**
+
+1. For the category $R := E = Core(FinSet)$ 
+   of finite sets as above we have that $H E$ is 
+   the [[sphere spectrum]].
+
+1. For $R := V = Core(FinVect)$ the core of complex finite dim
+   vector spaces we have $H V$ is the complex 
+   [[K-theory spectrum]].
+
+1. For $V_{\mathbb{R}}$ analogously we get the real K-theory spectrum.
+
+So by the above theorem
+
+1. $\mathcal{K}(E) \simeq K(S) \simeq A(*)$
+
+1. $\mathcal{K}(V) \simeq K(ku)$;
+
+1. etc.
+
+
+**Remarks** 
+
+1. A. Osono: The equivalence $\mathcal{K}(R) \simeq K(H R)$ of [[topological space]]s is even an equivalence of [[infinity loop space]]s;
+
+1. Application of that: 
+
+   a) for $E$ a [[ring spectrum]]: find a model 
+
+   $$
+     E \simeq H R(R)
+   $$
+
+   and use the equivalence $\mathbb{K}(R) \simeq K(H R E)$ to understand
+   _arithmetic_ properties of $E$.
+
+   b) Often one knows $K(H(R))$ via calculations. here $\mathcal{K}(R)$ might
+   help to get some deeper understanding.
+
+   c) Theorem ([[Birgit Richter]]): for $R$ a bimonoidal category with
+   anti-involution, then you get an involution of $\mathcal{K}(R)$.
+
+
+## References
+
+* [[Nils Baas]], Dundas,  [[John Rognes]], ...
+
