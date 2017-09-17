@@ -435,3 +435,6 @@ The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Carta
 
 [[!redirects Green-Schwarz strings]]
 [[!redirects Green-Schwarz superstrings]]
+
+[[!redirects super p-brane]]
+[[!redirects super p-branes]]
