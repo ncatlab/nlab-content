@@ -17,7 +17,10 @@ Note that we don\'t expect to have additive inverses; by the same argument as in
 
 5.  Finally, a __$2$-ring__ is a monoidal [[abelian category]].
 
-Note that (2) is a special case of both (1) and (3), which are independent.  (4) is a special case of (3), by a theorem.  (5) is a special case of (2), of course.
+Note that (2) is a special case of both (1) and (3), which are independent.  (4) is a special case of (3), by the [[adjoint functor theorem]].  (5) is a special case of (2), of course.
 
 
+[[!redirects 2-rig]]
+[[!redirects 2-rigs]]
 [[!redirects 2-ring]]
+[[!redirects 2-rings]]
