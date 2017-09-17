@@ -66,7 +66,11 @@ where
 
 * **Einstein-Yang-Mills theory**
 
-* [[Einsetin-Maxwell-Yang-Mills-Dirac-Higgs theory]]
+* [[Eistein-Yang-Mills-Dirac theory]]
+
+* [[Einstein-Yang-Mills-Dirac theory]]
+
+* [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
 * [[standard model of particle physics]]
 
