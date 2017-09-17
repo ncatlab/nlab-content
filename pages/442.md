@@ -133,11 +133,10 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 ### Coequalizers of $T$-algebras
 
 +-- {: .un_def}
-###### Definition
-**(congruence)**
+###### Definition (congruence)
 {#congruence}
 
-Let $T$ be a Lawvere theory and $A$ a $T$-algebra. A **congruence**  on $A$  is an [[equivalence relation]] on the set $A(1)$ such that whenever for all $n \on \mathbb{N}$ whenever any $(a_i \in A(1))_{i=1}^n$ and $(b_i \in A(1))_{i=1}^n$ are pairwise eqivalent, $a_i \sim b_i$, then also for every operation $f \in T(n,1)$ the results are equivalent: $f(a_1, \cdot, a_n) \sim f(b_1, \cdots , b_n)$.
+Let $T$ be a Lawvere theory and $A$ a $T$-algebra. A **[[congruence]]**  on $A$  is an [[equivalence relation]] on the set $A(1)$ such that whenever for all $n \in \mathbb{N}$ whenever any $(a_i \in A(1))_{i=1}^n$ and $(b_i \in A(1))_{i=1}^n$ are pairwise eqivalent, $a_i \sim b_i$, then also for every operation $f \in T(n,1)$ the results are equivalent: $f(a_1, \cdot, a_n) \sim f(b_1, \cdots , b_n)$.
 
 =--
 
