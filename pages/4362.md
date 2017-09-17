@@ -32,7 +32,7 @@ This discusses how [[differential cohomology]] -- specifically [[ordinary differ
   
     * [[electromagnetism]], [[B-field]], [[C-field]]
 
-  * [[differential K-theory]]
+  * [[differential K-theory]], [[twisted K-theory]], [[twisted differential K-theory]]
     
     * [[RR-fields]]
 
