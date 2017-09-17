@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### 2-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include 2-category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -23,22 +23,27 @@ A **flexible limit** is a [[strict 2-limit]] whose [[weighted limit|weight]] is 
 
 Furthermore, all [[PIE-limits]] and therefore all [[strict pseudo-limits]] are flexible; thus any [[strict 2-category]] which admits all flexible limits also admits all non-strict 2-limits.  A number of [[strict 2-categories]] admit all flexible limits, but not all strict 2-limits, and this is a convenient way to show that they admit all non-strict 2-limits.
 
+
 ## Definition
 
-Let $D$ be a small [[strict 2-category]].  Write $[D,Cat]$ for the strict 2-category of [[strict 2-functors]], [[strict 2-natural transformations]], and [[modifications]], and $Ps(D,Cat)$ for the strict 2-category of strict 2-functors, [[pseudonatural transformations]], and modifications.  The inclusion
+Let $D$ be a small [[strict 2-category]].  Write $[D,Cat]$ for the strict 2-category of [[strict 2-functors]], [[strict 2-natural transformation|strict 2-natural transformations]], and [[modifications]], and $Ps(D,Cat)$ for the strict 2-category of strict 2-functors, [[pseudonatural transformations]], and modifications.  The inclusion
 $$ [D,Cat] \to Ps(D,Cat) $$
 (as a [[wide subcategory]]) has a strict [[left adjoint]] $Q$, which is the [[pseudo morphism classifier]] for an appropriate [[strict 2-monad]].  Therefore, for any functor $\Phi \colon D\to Cat$, we have $Q\Phi \colon D\to Cat$ such that pseudonatural transformations $\Phi \to \Psi$ are in natural bijection with strict 2-natural transformations $Q\Phi \to \Psi$.
 
 The [[counit of an adjunction|counit]] of this adjunction is a canonical strict 2-natural transformation $q\colon Q\Phi \to \Phi$.  We say that $\Phi$ is **flexible** if this transformation has a [[section]] in $[D,Cat]$.
 
+
 ## Examples
 
-All [[PIE-limits]] are flexible.  This includes [[products]], [[inserters]], [[equifiers]] by definition, and also [[descent objects]], [[iso-inserters]], [[comma objects]], and so on.  In fact, PIE-limits have a characterization similar to the definition above of flexible limits: they are the coalgebras for $Q$ regarded as a 2-[[comonad]].
+All [[PIE-limits]] are flexible.  This includes [[products]], [[inserters]], [[equifiers]] by definition, and also [[descent object|descent objects]], [[iso-inserters]], [[comma objects]], and so on.  In fact, PIE-limits have a characterization similar to the definition above of flexible limits: they are the coalgebras for $Q$ regarded as a 2-[[comonad]].
 
 The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Moreover, in a certain sense it is the "only" such, since flexible limits are generated, as a class of weights, by the PIE-limits together with splitting of idempotents (and also by PIE-limits together with splitting of idempotent equivalences).
+
 
 ## References
 
 * G. J. Bird, G. M. Kelly, A. J. Power, R. H. Street, _Flexible limits for 2-categories_, <a href="http://dx.doi.org/10.1016/0022-4049(89)90065-0">doi</a>
 
+
+[[!redirects flexible limit]]
 [[!redirects flexible limits]]
