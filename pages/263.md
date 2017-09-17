@@ -99,6 +99,10 @@ It also cannot, in general, be the underlying 1-category of a simplicially enric
 
 ## Related concepts
 
+* [[localizer]]
+
+* [[localizing subcategory]]
+
 * [[relative category]]
 
 [[!redirects categories with weak equivalences]]
