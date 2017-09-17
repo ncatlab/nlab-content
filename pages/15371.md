@@ -24,7 +24,7 @@ A Banach ring is a [[complete space|complete]] [[normed ring]], hence a [[commut
 
 If not just in complete normed groups but in complete [[normed vector spaces]] ([[Banach spaces]]), then this is a [[Banach algebra]].
 
-The [[Berkovich spectrum]] of a Banach ring $R$ is the set of multiplicative [[seminorms]] on $R$ that are bounded by the norm on $R$.
+The [[Berkovich spectrum]] of a Banach ring $R$ is the [[topological space]] of multiplicative [[seminorms]] on $R$ that are bounded by the norm on $R$.
 
 
 ## Examples
