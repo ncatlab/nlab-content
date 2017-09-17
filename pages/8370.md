@@ -72,10 +72,12 @@ See also at _[History of categorical semantics of linear type theory](linear+typ
 
 A exposition of the relation between the three concepts is in
 
-* [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
- {#Harper}
+* {#Harper} [[Robert Harper]], _The Holy Trinity_ (2011) ([web](http://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/)) 
+ 
 
-An exposition that also suggests some connections to [[physics]] is in
+* {#Harper14} [[Robert Harper]], _Computational trinitarianism_, talk, Feb 2014 ([prezi slides](http://prezi.com/fnz-4wzsygiq/computational-trinitarianism/))
+
+An exposition with emphasis on [[linear logic]]/[[quantum logic]] and the relation to [[physics]] is in
 
 * [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_, Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-174 ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
 
