@@ -61,6 +61,49 @@ $$f_{n+1} = F(f_n) \circ \eta$$
 It is easily checked by induction that these maps define a cone from $x$ to the diagram (1), and so we get a map $f: x \to L$. (More later)
 =--
 
+## Categorified example: Trees 
+
+The notion of terminal coalgebra may be categorified. For example, given a 2-category $C$ and a (pseudo) functor $F: C \to C$, one may speak of a 2-terminal (pseudo) coalgebra. 
+
+A theoretically important example is the [[tree|category of trees]], seen as a 2-terminal coalgebra for the endofunctor on $Cat$ which takes a locally small category $C$ to its small-coproduct cocompletion. Further discussion of this point is given at [[pure set]]. 
+
+The small-coproduct cocompletion of $C$ is given by a comma category construction: objects are pairs $(X, F: X_d \to C)$ where $X$ is a set and $F$ is a functor whose domain is the discrete category on $X$, denoted $X_d$. A morphism from $(X, F)$ to $(Y, G)$ is a pair $(f, \Phi)$ where $f: X \to Y$ is a function and $\Phi: F \to G \circ f_d$ is a natural transformation. This category is denoted $Set \int C$; it is called a "wreath product" (see also the discussion at [[club]]). 
+
+Adamek's theorem may be adapted to this 2-categorical situation. The iterated wreath product $(Set \int)^n 1$ may be identified with the category of $n$-stage trees: 
+
+$$(Set \int)^n 1 = Set^{[n]^{op}}$$ 
+
+where $[n]$ is the linear order $1 \leq 2 \leq \ldots \leq n$. Or, what is the same, the category of presheaves $T: [n+1]^{op} \to Set$ with the property that $T(0) = 1$ is terminal; the element of $T(0)$ is considered to be the root of the tree. 
+
+Indeed, we realize an explicit equivalence 
+
+$$\Sigma: Set \int Set^{[n]^{op}} \simeq Set^{[n+1]^{op}}$$ 
+
+by defining $\Sigma(X, F: X \to Set^{[n]^{op}})$ to be the functor $T: [n+1]^{op} \to Set$ that on the object level takes $1$ to $X$, and $i+1$ to 
+
+$$\sum_{x \in X} F(x)(i).$$ 
+
+On the morphism level, $T(i+1 \to i)$ is the coproduct of morphisms 
+
+$$\sum_{x \in X} F(x)(i \to i-1)$$ 
+
+(and this makes sense for all $1 \leq i \leq n$ if we include the definition $F(0) = 1$). 
+
+The morphism 
+
+$$(Set \int)^n !: (Set \int)^n Set \to (Set \int)^n 1$$ 
+
+used in Adamek's theorem is identified with the restriction functor 
+
+$$Set^{[n+1]^{op}} \to Set^{[n]^{op}}$$ 
+
+which restricts presheaves along the inclusion $[n] \hookrightarrow [n+1]$. 
+
+The 2-limit of the diagram in Adamek's theorem is then 
+
+$$Set^{\omega^{op}},$$ 
+
+aka the [[tree|category of trees]], where $\omega$ is the colimit of the finite ordinals $[n]$. The statement that the category of trees is equivalent to its small-coproduct cocompletion says that the category of trees is equivalent to the category of forests. 
 
 [[!redirects terminal coalgebra]]
 [[!redirects final coalgebra]]
