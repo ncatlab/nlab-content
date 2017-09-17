@@ -7,7 +7,10 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 ***
 
 +-- {: .num_prop #Quark
+}
 ###### Proposition
+
+Quark
 
 }
 
