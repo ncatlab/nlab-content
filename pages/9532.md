@@ -12,4 +12,18 @@ This entry collects some links related to the textbook
 
 on [[noncommutative geometry]].
 
+## Related entries 
+
+* [[noncommutative topology]]
+
+* [[C*-algebra]]
+
+* [[groupoid convolution algebra]]
+
+* [[Hilbert module]], [[KK-theory]]
+
+* [[spectral triple]]
+
+
+
 category: reference
