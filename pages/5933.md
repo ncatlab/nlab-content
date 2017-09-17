@@ -18,7 +18,11 @@ This entry is about the article
 
 * [[Bill Lawvere]], _Some Thoughts on the Future of Category Theory_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
 
-about (implicitly) the notion of [[cohesive topos]]es. (See there for further references and other background material).
+about (implicitly) the notion of [[cohesive toposes]]. (See there for further references and other background material).
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Exegesis
 
@@ -75,5 +79,9 @@ What follows on page 9 are thoughts which it seems Lawvere has not formalized fu
 Again, the meaning of this becomes more pronounced in the context of [[cohesive (∞,1)-topos]]es: there objects $X$ for which $\Gamma X \simeq * \simeq \Pi X$ have the interpretation of being _[[∞-Lie algebroid|formal ∞-groupoid]]s_ , for instance [[Lie integration|formally exponentiated]] [[L-∞ algebra]]s. And so there is [[∞-Lie theory]] canonically in every cohesive $\infty$-topos.
 
 More discussion of all this is at [[schreiber:differential cohomology in a cohesive topos]].
+
+## Related entries
+
+18 years later at the same place, Lawvere gives a lecture series on this topic: _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_.
 
 category: reference
