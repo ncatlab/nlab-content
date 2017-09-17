@@ -58,8 +58,9 @@ For $\mathfrak{g}$ an [[∞-Lie algebra]] and $n \in \mathbb{N}$, a [[cocycle]] 
 
 $$
   \mu : \mathfrak{g} \to b^{n-1}\mathbb{R}
-  \,.
 $$
+
+to the [[line Lie n-algebra]].
 
 Dually this is a [[dg-algebra]] morphism
 
