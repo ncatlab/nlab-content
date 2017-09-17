@@ -39,7 +39,7 @@ $$
   X \to &#643;_{inf}X
 $$
 
-is a [[1-epimorphism]].
+is a [[1-epimorphism]]. This is equivalent to the essentialy unique morphims $X \to *$ to the [[terminal object]] being a [[formally smooth morphism]].
 
 ## Examples
 
