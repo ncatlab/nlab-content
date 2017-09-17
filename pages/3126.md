@@ -48,7 +48,7 @@ $$
   \Omega : C \to T_C
 $$
 
-to the domain projection $dom : T_C \to C$ turns out to send each $A$ to its [[cotangent complex]] $\Omega(A)$, to be thought of as the module of [[Kähler differential]]s on the space that $A$ is functions on.
+to the domain projection $dom : T_C \to C$ turns out to send each $A$ to its [[cotangent complex]] $\Omega(A)$, to be thought of as the module of [[Kähler differentials]] on the space that $A$ is functions on.
 
 A [[category theory|1-categorical]] approximation to the notion of tangent $(\infty,1)$-category is that of [[tangent category]].
 
@@ -275,7 +275,7 @@ This $\Omega$ is the **cotangent complex $(\infty,1)$-functor** : for $A \in C$ 
 =--
 
 
-This is ([Lurie, def. 1.1.2, remark 1.2.3](#Lurie)).
+This is ([Lurie, def. 1.2.2, remark 1.2.3](#Lurie)).
 
 In more detail this adjunction is the composite 
 
@@ -554,6 +554,7 @@ $$
 Again since $L$ is a [[left exact (∞,1)-functor]] this composite $L \Pi$ preserves finite [[(∞,1)-products]].
 
 So it follows in conclusion that if $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then its tangent $(\infty,1)$-category $T \mathbf{H}$ is itself a [[cohesive (∞,1)-topos]] over the tangent $(\infty,1)$-category  $T \infty Grpd$ of the [[base (∞,1)-topos]], which is an [[extension]] of the cohesion of the $\infty$-topos $\mathbf{H}$ over $\infty Grpd$ by the cohesion of the stable $\infty$-category $Stab(\mathbf{H})$ over $Stab(\infty Grpd) \simeq Spec$:
+
 
 $$
   \array{
