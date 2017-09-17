@@ -59,7 +59,9 @@ The [[sequence space]] $l^1$ is a $C^*$-coalgebra, whose dual $W^*$-algebra is t
 
 Although $l^\infty$ is a Banach coalgebra (under 'coconvolution'), it is *not* a $C^*$-coalgebra (at least not under coconvolution).
 
-((added 2012-08-26 by YC who can't remember how to use comment boxes) the TVS-isomorphism class of the predual of a $W^*$-algebra is very restricted (let alone its isomorphism class in Bang). In particular $\ell^\infty$ doesn't have a snowball's chance in Texas of being a $C^*$-coalgebra under any kind of choice of comultiplication, because it's the wrong kind of Banach space.)
++-- {: .query}
+(YC) Moreover, the TVS-isomorphism class of the predual of a $W^*$-algebra is very restricted (let alone its isomorphism class in Bang). In particular $\ell^\infty$ doesn't have a snowball's chance in Texas of being a $C^*$-coalgebra under any kind of choice of comultiplication, because it's the wrong kind of Banach space.)
+=--
 
 
 Although the dual of the [[Lebesgue space]] $L^1$ (on the [[real line]] $\mathbb{R}$ with [[Lebesgue measure]]) is the $W^*$-algebra $L^\infty$, $L^1$ is *not* a $C^*$-coalgebra, nor even a Banach coalgebra (at least not in the obvious way).  Essentially, this is because the [[diagonal subset|diagonal]] in $\mathbb{R}^2$ has [[null set|measure zero]] (so $\Delta$ takes an element of $L^1(\mathbb{R})$, interpreted as an [[absolutely continuous measure]] on $\mathbb{R}$, to a measure on $\mathbb{R} \times \mathbb{R}$ that is *not* absolutely continuous and so cannot be reinterpreted as an element of $L^1(\mathbb{R} \times \mathbb{R}) \cong L^1(\mathbb{R}) {\displaystyle\hat{\otimes}_\pi} L^1(\mathbb{R})$).
