@@ -22,7 +22,7 @@ This is the general notion of [[algebraic stack]]. But often the latter term is 
 
 ## References
 
-Artin stacks are named after [[Emil Artin]].
+Artin stacks are named after [[Michael Artin]].
 
 See for instance
 
