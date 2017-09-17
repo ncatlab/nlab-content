@@ -108,10 +108,6 @@ See also
 
 * Springer Online Encyclopeadia of Mathematics: [homological algebra](http://eom.springer.de/H/h047710.htm)
 
-A discussion in the context of [[constructive mathematics]] is in 
-
-* Julio Rubio, Francis Sergeraert, _Constructive homological algebra and applications_ ([arXiv:1208.3816](http://arxiv.org/abs/1208.3816))
-
 
 ### Lecture notes and course notes
  {#LectureNotes}
@@ -127,6 +123,18 @@ A discussion in the context of [[constructive mathematics]] is in
  {#May}
 
 * [[Pierre Schapira]], _Categories and homological algebra_, lecture notes (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+
+### In constructive mathematics
+
+Discussion of homological algebra in [[constructive mathematics]] is in 
+
+* Julio Rubio, Francis Sergeraert, _Constructive homological algebra and applications_ ([arXiv:1208.3816](http://arxiv.org/abs/1208.3816))
+
+Discussion of a formalization in [[type theory]] is in 
+
+* [[Thierry Coquand]], [[Arnaud Spiwack]], _Towards constructive homological algebra in type theory_ ([pdf](http://assert-false.net/arnaud/papers/Towards%20constructive%20homological%20algebra%20in%20type%20theory.pdf))
+ {#CoquandSpiwack}
+
 
 
 ### History
