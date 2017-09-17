@@ -3,7 +3,7 @@
 * [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/MacLane.html)
 
 
-##indexed books on the $n$Lab ##
+##"indexed" books on the $n$Lab ##
 
 * [[Categories Work|Categories for the Working Mathematician]]
 
@@ -18,3 +18,4 @@ category: people
 
 [[!redirects Sauders MacLane]]
 [[!redirects Saunders MacLane]]
+[[!redirects S. MacLane]]
