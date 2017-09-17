@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $\Delta$ the [[simplex category]] the [[functor category]] $sSet^{\Delta}$ is that of [[cosimplicial object]]s in [[simplicial set]].
+
+There are various [[model structure on functors]] on this category. The injective structure is discussed in ([Jardine](#Jardine)).
+
+
+
+## References
+
+* A. K. Bousfield and D. M. Kan. _Homotopy limits, completions and localizations_ Springer-Verlag, Berlin, 1972. Lecture Notes in Mathematics, Vol. 304.
+ {#BousfieldKan}
+
+* [[Rick Jardine]], _Cosimplicial spaces and cocycles_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/cosimp3.pdf))
+ {#Jardine}
+ 
