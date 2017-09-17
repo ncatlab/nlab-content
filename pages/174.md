@@ -2,8 +2,11 @@
 [[!include physicscontents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-# Idea #
+## Idea 
 
 The term _brane_ referes in formal high energy [[physics]] and in particular in [[string theory]] to entities that one thinks of as physical objects that generalize the notion point particles to higher dimensional objects.
 
@@ -44,18 +47,18 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 ... lots of further things to say ...
 
-# References #
+## References 
 
 ... lots of references going here ...
 
 A classical text describing how the physics way to think of D-branes leads to seeing that they are objects in derived categories is
 
-* Paul S. Aspinwall, _D-Branes on Calabi-Yau Manifolds_ ([arXiv](http://arxiv.org/abs/hep-th/0403166)) 
+* [[Paul Aspinwall]9, _D-Branes on Calabi-Yau Manifolds_ ([arXiv](http://arxiv.org/abs/hep-th/0403166)) 
 
 This can to a large extent be read as a dictionary from [[homological algebra]] terminology to that of D-brane physics.
 
 More recent similar material with the emphasis on the [[K-theory]] aspects is
 
-* R. Szabo [[Szabo09.pdf:file]]
+* [[Richard Szabo]], _[[Szabo09.pdf:file]]_
 
 [[!redirects branes]]
