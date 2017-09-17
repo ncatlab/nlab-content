@@ -1,7 +1,8 @@
-Let $\mathfrak{F}(A)$ and $\mathfrak{F}(B)$ are the [[reverse lattice of filters]] for sets $A$ and $B$.
 
-Then by definition a funcoid from $A$ to $B$ is the quadruple $(A;B;\alpha;\beta)$ where $\alpha\in\mathfrak{F}(B)^{\mathfrak{F}(A)}$ and $\beta\in\mathfrak{F}(A)^{\mathfrak{F}(B)}$ such that
+Let $\mathfrak{F}(A)$ and $\mathfrak{F}(B)$ be the [[reverse lattices of filters]] for the [[sets]] $A$ and $B$.
+
+Then a __funcoid__ from $A$ to $B$ consists of [[functions]] $\alpha\colon \mathfrak{F}(A) \to \mathfrak{F}(B)$ and $\beta\colon \mathfrak{F}(B) \to \mathfrak{F}(A)$ such that
 
 $$\forall\mathcal{X}\in\mathfrak{F}(A),\mathcal{Y}\in\mathfrak{F}(B): \mathcal{Y}\sqcap\alpha \mathcal{X} \ne 0^{\mathfrak{F}(A)} \Leftrightarrow \mathcal{X}\sqcap\beta \mathcal{Y} \ne 0^{\mathfrak{F}(B)}.$$
 
-Funcoids have only been studied by Victor Porton, who invented them and claims that this work should win him the Abel prize.
+Funcoids have only been studied by [[Victor Porton]], who invented them as an approach to [[general topology]] and claims that this work should win him the Abel prize.
