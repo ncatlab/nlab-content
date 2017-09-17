@@ -1,0 +1,10 @@
+
+## Related concepts
+
+* [[non-perturbative effect]]
+
+## References
+
+* M. Beneke, _Renormalons_, Phys.Rept. 317 (1999) 1-142 ([arXiv:hep-ph/9807443](http://arxiv.org/abs/hep-ph/9807443))
+
+[[!redirects renormalons]]
