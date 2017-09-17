@@ -18,7 +18,7 @@ In 1950, Olum extended Eilenberg's [[obstruction]] theory to the non-simple case
 
 In the 1960s and early 1970s, there were several papers addressing operations on cohomology with local coefficients:
 
-* 1963, Gitler (Steenrod mod $p$), _Cohomology operations with twisted coefficients_, AJM 85 (1963)156--188
+* 1963, [[Sam Gitler]] (Steenrod mod $p$), _Cohomology operations with twisted coefficients_, AJM 85 (1963)156--188
 
 * 1966, McClendon, thesis -- summarized in
 
