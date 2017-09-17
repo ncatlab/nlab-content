@@ -3,6 +3,13 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+* [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
+
+* [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
+
+
 ## Definition 
 
 An **effective epimorphism** is a [[morphism]] $f : c \to d$ (in a given [[category]]) that has a [[kernel pair]] $c \times_d c$ and is the [[quotient object]] of this kernel pair in that 
