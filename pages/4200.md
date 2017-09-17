@@ -25,7 +25,7 @@ A poset with such a relation is called a **causal index set**.
 ## Examples ##
 One example is explained in the Idea section.
 
-Let $I$ be the final subspaces of an infinite dimensional, separable [[Hilbert space]]. Define $\perp$ by orthogonality of subspaces, then $(I, \perp)$ is a causal index set.
+Let $I$ be the finite subspaces of an infinite dimensional, separable [[Hilbert space]]. Define $\perp$ by orthogonality of subspaces, then $(I, \perp)$ is a causal index set.
 
 Let $X$ be an arbitrary set and $I$ be its [[power set]]. Set $M \perp N$ iff $M \cap N = \emptyset$, then this defines a causal disjointness relation. This is an example of a [[causal complement]].
  
