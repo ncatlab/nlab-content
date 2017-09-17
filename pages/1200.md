@@ -58,6 +58,8 @@ In the presence of the [[axiom of choice]], a [[cardinal number]] can be defined
 
 * [[cardinal]]
 
+* [[plump ordinal]]
+
 One important use of ordinals is to index transfinite constructions, such as:
 
 * [[transfinite composition]]
