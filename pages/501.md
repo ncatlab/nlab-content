@@ -1,7 +1,7 @@
+
 # Finite sets
 * table of contents
 {: toc}
-
 
 ## Definition
 
@@ -49,12 +49,25 @@ _Toby_: Can you think of a way to define these notions of finite without a set o
 In a topos, there are both "external" and "internal" versions of all the above notions of finiteness, depending on whether we interpret their meaning "globally" or in the [[internal logic]] of the topos.  See [[finite object]].
 
 
+[[!redirects finite set]]
 [[!redirects finite sets]]
+
 [[!redirects K-finite set]]
+[[!redirects K-finite sets]]
 [[!redirects Kuratowski-finite set]]
+[[!redirects Kuratowski-finite sets]]
 [[!redirects Kuratowski finite set]]
+[[!redirects Kuratowski finite sets]]
 [[!redirects finitely indexed set]]
+[[!redirects finitely indexed sets]]
+
 [[!redirects subfinite set]]
+[[!redirects subfinite sets]]
+
 [[!redirects subfinitely indexed set]]
+[[!redirects subfinitely indexed sets]]
+
 [[!redirects Dedekind-finite set]]
+[[!redirects Dedekind-finite sets]]
 [[!redirects Dedekind finite set]]
+[[!redirects Dedekind finite sets]]
