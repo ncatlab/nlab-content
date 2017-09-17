@@ -252,4 +252,5 @@ By the [[universal property]], the rigidification is exactly $Pic_X$, so in this
 
 * Matthieu Romagny, _Group Actions on Stacks and Applications_, Michigan Math. J. Volume 53, Issue 1 (2005), 209-236 ([Project Euclid](http://projecteuclid.org/euclid.mmj/1114021093)).
 
+category: algebraic geometry
 [[!redirects rigidification]]
