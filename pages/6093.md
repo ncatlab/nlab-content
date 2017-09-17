@@ -76,9 +76,15 @@ This is [Lurie, 4.2.11](#Lurie).
 
 This is closely related to the description of [[TCFT]]s ([Lurie, theorem 4.2.13](#Lurie)).
 
+## Related concepts
+
+* [[Calabi-Yau category]]
+
 ## References
 
 Section 4.2 of 
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
  {#Lurie}
+
+[[!redirects Calabi-Yau objects]]
