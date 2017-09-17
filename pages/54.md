@@ -1,5 +1,7 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" /></div>
 
+
+
 #contents#
 * table of contents
 {:toc}
@@ -33,6 +35,7 @@ See maybe the exposition at
 
 This is the kind of stuff that I am working on.
 
+
 ## publications, talks, teaching and students
 
 A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, talks, students, teaching and other activity is here:
@@ -45,9 +48,15 @@ See specifically:
 
 * [talks](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References);
 
+  Here is the video recording of a sample research talk that I have given recently:
+
+  _[[differential cohesion and idelic structure|Fractures, Ideles and the Differential Hexagon]]_, talk at [ CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html), New York, August  2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1806/))
+
 * [teaching lecture notes](http://ncatlab.org/schreiber/show/HomePage#Teaching);
 
 * [students](http://ncatlab.org/schreiber/show/HomePage#students).
+
+
 
 ## $n$Lab
 
