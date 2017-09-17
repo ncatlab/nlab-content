@@ -72,13 +72,15 @@ There are vrious extra properties of a geometric moprhisms that are relevant.
 
   * [[connected geometric morphism]]
 
+* [[etale geometric morphism]]
+
+* [[open geometric morphism]]
+
 * [[local geometric morphism]]
 
 * [[bounded geometric morphism]]
 
 * [[base change]]
-
-* [[etale geometric morphism]]
 
 * [[localic geometric morphism]]
 
