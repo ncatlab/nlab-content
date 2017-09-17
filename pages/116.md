@@ -9,16 +9,8 @@
 =--
 =--
 
-* **group**
-
-* [[2-group]]
-
-* [[n-group]]
-
-* [[∞-group]]
 
 
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -107,8 +99,6 @@ Notice that the relation between group objects and deloopable objects becomes mo
 
 ### Weakened axioms
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
-
 Following the practice of [[centipede mathematics]], we can remove certain properties from the definition of group and see what we get:
 * remove inverses to get [[monoids]], then remove the identity to get [[semigroups]];
 * or remove associativity to get [[loop (algebra)|loops]], then remove the identity to get [[quasigroups]];
@@ -129,6 +119,10 @@ Following the practice of [[centipede mathematics]], we can remove certain prope
   * [[sporadic finite simple groups]]
 
 * [[topological group]]
+
+  * [[discrete group]]
+
+* [[progroup]]
 
 * [[Lie group]]
 
@@ -194,6 +188,15 @@ For more see [[counterexamples in algebra]].
    G = \langle (a c)(b d), (e g)(f h), (i k)(j l), (m o)(n p), (a c)(e g)(i k), (a b)(c d)(m o), (e f)(g h)(m n)(o p), (i j)(k l)\rangle \subseteq S_{16}
    $$
 
+## Related concepts
+
+* **group**
+
+* [[2-group]]
+
+* [[n-group]]
+
+* [[∞-group]]
 
 
 [[!redirects groups]]
