@@ -21,7 +21,7 @@
 
 ## Idea
 
-A _complete Segal space_ is a model for an [[internal category in an (∞,1)-category]] in [[∞Grpd]], with the latter [[presentable (∞,1)-category|presented]] by [[sSet]]/[[Top]]. So complete Segal spaces present [[(∞,1)-categories]].
+A _complete Segal space_ is a model for an [[internal category in an (∞,1)-category]] in [[∞Grpd]], with the latter [[presentable (∞,1)-category|presented]] by [[sSet]]/[[Top]]. So complete Segal spaces present [[(∞,1)-categories]].  They are also called _Rezk categories_ after [[Charles Rezk]].
 
 More in detail, a complete Segal space $X$ is
 
@@ -457,3 +457,5 @@ The groupoidal version of complete Segal spaces (that modelling just [[groupoid 
 * [[Julia Bergner]], _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, vol. 10(1) 2008 ([pdf](http://www.math.ucr.edu/~jbergner/Groupoid.pdf))
 
 [[!redirects complete Segal spaces]]
+[[!redirects Rezk category]]
+[[!redirects Rezk categories]]
