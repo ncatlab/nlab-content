@@ -801,7 +801,7 @@ $$
   \array{
      ChainCplx &\hookrightarrow& CrsCpl &\hookrightarrow& KanCplx
      \\
-     \downarrow && \downarrow && \downarrow
+     \downarrow^{\mathrlap{simeq}} && \downarrow^{\mathrlap{simeq}} && \downarrow^{\mathrlap{simeq}}
      \\
      StrAb Str\infty Grpd &\hookrightarrow&
      Str \infty Grpd
@@ -816,7 +816,7 @@ Among the special tools for handling $\infty$-stacks on $C$ that factor at some 
 
 * **restriction to abelian sheaf cohomology** -- Using the fact that the objects of $Sh_{(\infty,1)}(C)$ are modeled by [[simplicial presheaves]] symmetric monoidal $\infty$-Lie groupoids are identified under the [[Dold-Kan correspondence]] with $\mathbb{N}$-graded [[chain complex|chain complexes]] of sheaves. To these the rich set of tools for [[abelian sheaf cohomology]] apply. 
 
-* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory pf [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]] in [Verity09](#Verity).
+* **descent for strict $\infty$-groupoid valued sheaves** -- There is a good theory of [[descent]] for (presheaves) with values in strict $\infty$-groupoids (more restrictive than the fully general theory but more general than [[abelian sheaf cohomology]]). This goes back to [[Ross Street]] and its relation to the full theory has been clarified by [[Dominic Verity]] in [Verity09](#Verity).
 
 
 We state a useful theorem for the computation of [[descent]] for presheaves with values in [[strict ∞-groupoid]]s. Recall the standard terminology for [[descent]], i.e. for the $(\infty,1)$-categorical [[sheaf]]-condition:
@@ -830,7 +830,7 @@ $$
   [C^{op}, sSet](Y,A)
 $$
 
-is a weak equivalence. Here the first equality is the enriched [[Yoneda lemma]]. By the [[co-Yoneda lemma]] we may decompose $Y$ into itsw cells as
+is a weak equivalence. Here the first equality is the enriched [[Yoneda lemma]]. By the [[co-Yoneda lemma]] we may decompose $Y$ into its cells as
 
 $$
   Y = \int^{[n] \in \Delta} \Delta[n] \cdot Y_n
