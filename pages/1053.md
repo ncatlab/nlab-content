@@ -171,9 +171,9 @@ We can also restrict attention to sequents with one term on either side as follo
 We can even restrict attention to sequents with no term on the left side and one term on the right; $A \vdash B$ is valid if and only if $\vdash A \multimap B$ is valid, where $A \multimap B \coloneqq A^\perp \parr B$.  In this way, it\'s possible to ignore sequents entirely and speak only of propositions and valid propositions, eliminating half of the logical rules in the process.  However, this approach is not as beautifully symmetric as the full sequent calculus.
 
 
-## Fragments
+## Variants
 
-The logic described above is full classical linear logic.  There are many important fragments of linear logic, such as multiplicative linear logic, intuitionistic linear logic (in which $\multimap$ is a primitive operation), etc.
+The logic described above is full classical linear logic.  There are many important fragments and variants of linear logic, such as multiplicative linear logic, intuitionistic linear logic (in which $\multimap$ is a primitive operation), full intuitionistic linear logic (where multiplicatives and additives connectives are all independent of each other), non-commutative linear logics (braided or not), light linear logics, etc.
 
 
 ## Categorial semantics
@@ -325,7 +325,7 @@ Reviews include
 * [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
  {#Girard11}
 
-The [[categorical semantics]] of linear logic in [[star-autonomous categories]] is due to 
+The [[categorical semantics]] of linear logic in [[star-autonomous categories]] originally appeared in
 
 *  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
  {#Seely}
