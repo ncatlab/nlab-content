@@ -91,7 +91,7 @@ $$
 
 ### Over general rings
 
-(e.g [Hill-Lawson 13, section 3.6](#HillLawson13))
+(e.g [Ando 00, section 1.4](#Ando00), [Ando-Hopkins-Strickland 02, section 15.2](#AndoHopkinsStrickland02), [Hill-Lawson 13, section 3.6](#HillLawson13))
 
 
 ## Properties
@@ -104,6 +104,14 @@ For [[elliptic curves]] over the [[complex numbers]] ([[complex manifold|complex
 In detail, the elliptic curve $\Sigma$, being [[framed manifold|framed]] has a canonical [[spin structure]]  given by the trivial [[double cover]]. The space of all spin structures is a [[torsor]] over $H^1(\Sigma, \mathbb{Z}/2\mathbb{Z}) \simeq [\pi_1(\sigma), \mathbb{Z}/2\mathbb{Z}] \simeq [\mathbb{Z} \times \mathbb{Z}, \mathbb{Z}/2\mathbb{Z}] \simeq (\mathbb{Z}/2\mathbb{Z})^2$. In terms of this action the canonical one is labeled $(0,0)$ and then there are three more, labeled $(1,0)$, $(0,1)$ and $(1,1)$. The [[modular group]] acts on these via the quotient map $p_2 \;\colon\;  SL_2(\mathbb{Z}) \to SL_{2}(\mathbb{Z}/2\mathbb{Z})$. Hence it preserves $(0,0)$ and mixes the other three spin structures. Precisely $\Gamma_0(2)$ preserves $(1,0)$ (and an isomorphic subgroup of course preserves $(0,1)$). The principal congruence subgroup $\Gamma(2)$ is the one which preserves all four spin structures jointly.
 
 In terms of [[type II string theory]] the spin structure $(1,0)$ is called the "NS-R boundary condition" for the spinors. The [[partition function]] of the [[type II superstring]] "in the NS-R sector" is therefore (at best, indeed it is, being the universal Ochanine [[elliptic genus]]) a [[modular form]] not for the full [[modular group]], but for $\Gamma_0(2)$ ([Witten 87a, below (13)](Witten87a)). For more on this see at _[Witten genus -- Modularity -- For the type II string](Witten+genus#ModularityForTypeIISuperstring)_.
+
+
+## Properties
+
+### Topological modular forms with level structure
+
+The construction of [[topological modular forms]] ([[tmf]]) may be generalized to curves with level structure ([Mahowald-Rezk 09](#MahowaldRezk09)). A systematic kind of "[[modular equivariant elliptic cohomology]]" in this sense is discussed in ([Hill-Lawson 13](#HillLawson13)).
+
 
 ## References
 
@@ -122,16 +130,33 @@ The relation of $\Gamma_1(2)$ to [[spin structures]] is discussed for instance i
 
 ### Over general base rings
 
-* {#Greicius09} [[Aaron Greicius]], _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
+The concept of level structure on an elliptic curve is due to
 
+* Nicholas M. Katz, [[Barry Mazur]], _Arithmetic moduli of elliptic curves_, Princeton University Press, Princeton, NJ, 1985
+
+
+General discussion is in 
+
+* {#Greicius09} [[Aaron Greicius]], _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
 
 * David Zywina, _Elliptic curves with maximal Galois action on their torsion points_ ([arXiv:0809.3482](http://arxiv.org/abs/0809.3482))
 
+Discussion of the corresponding [[moduli stack]] and its [[tmf]]$(n)$-spectrum is in 
+
+* {#Ando00} [[Matthew Ando]], section 1.4 of _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
+Mathematical Society 352, 2000, pp. 5619-5666. ([JSTOR](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
+
+* {#AndoHopkinsStrickland02} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], part 3 of _The sigma orientation is an H-infinity map_ ([arXiv:math/0204053](http://arxiv.org/abs/math/0204053))
+
 * {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
 
-* {#Stojanoska11} [[Vesna Stojanoska]], Duality for Topological Modular Forms ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
-
 * {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_ ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394))
+
+Specifically Level-2 structure in this context is discussed in 
+
+* {#Stojanoska11} [[Vesna Stojanoska]], _Duality for Topological Modular Forms_ ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
+
+* {#Behrens05} [[Mark Behrens]], section 1.3 of _A modular description of the K(2)-local sphere at the prime 3_ ([arXiv:math/0507184](http://arxiv.org/abs/math/0507184))
 
 [[!redirects level structures on an elliptic curve]]
 
