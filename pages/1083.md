@@ -18,17 +18,61 @@
 
 Let  $\mathcal{A}$ be an [[additive category]]. 
 
-Recall the notion of [[chain complex]], of [[chain map]] and of [[chain homotopy]] in $\mathcal{A}$.
+Recall the notion of _[[chain complex]]_, of _[[chain map]]_ between chain complexes and of _[[chain homotopy]]_ between chain maps in $\mathcal{A}$.
 
+Call a [[chain complex]] $C_\bullet$
+
+* **bounded below** if there is $k \in \mathbb{N}$ such that $C_{n \leq k} = 0$;
+
+* **bounded above** if there is $k \in \mathbb{N}$ such that $C_{n \geq k} = 0$;
+
+* **bounded** if it is bounded below and bounded above.
 We have 
 
-* $C(A)$, the category of chain complexes and chain chomplex homomorphisms in $C$;
++-- {: .num_defn }
+###### Definition
 
-* $K(A)$, the category obtained from $C(A)$ by identifying homotopic chain homomorphisms.
+Write $Ch_\bullet(\mathcal{A})$ for the [[category]] whose [[objects]] are [[chain complexes]] in $\mathcal{A}$ and whose [[morphisms]] are [[chain maps]] between these.
 
-If $A$ is moreover [[abelian category|abelian]], then we also have
+This is the **category of chain complexes** in $\mathcal{A}$.
 
-* $D(A)$, the [[derived category]] obtained from $C(A)$ (or $K(A)$) by inverting all [[quasi-isomorphism]]s.
+=--
+
+Several variants of this category are of relevance.
+
++-- {: .num_defn }
+###### Definition
+
+Write $Ch_\bullet^{+,-,b}(\mathcal{A}) \hookrightarrow Ch_\bullet(\mathcal{A})$ for the [[full subcategory]] on the chain complexes which are, respectively, bounded above, bounded below or bounded.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write $K(\mathcal{A})$ for the category obtained from $Ch_\bullet(\mathcal{A})$ by identifying [[chain homotopy|homotopic]] chain maps.
+
+$$
+  K(\mathcal{A})(C_\bullet, D_\bullet)
+  \coloneqq
+  Ch_\bullet(C_\bullet, D_\bullet)/chain-homotopy
+  \,.
+$$
+
+Accordingly $K^{+,-,b}(\mathcal{A}) \hookrightarrow K(\mathcal{A})$ denotes the [[full subcategory]] on the chain complexes bounded above, bounded below or bounded, respectively.
+
+=--
+
+This is sometimes called the _[[homotopy category of chain complexes]]_. But see the warning on terminology there, as this term is also appropriate for the category in the following remark.
+
++-- {: .num_remark }
+###### Remark
+
+If $\mathcal{A}$ is moreover an [[abelian category]], then 
+there is also the **[[derived category]]**
+$D(\mathcal{A})$, obtained from $Ch_\bullet(\mathcal{A})$ or $K(\mathcal{A})$ by [[localization|universally inverting]] all [[quasi-isomorphisms]]. See at _[[derived category]]_ for more on this.
+
+=--
 
 ## Properties
 
