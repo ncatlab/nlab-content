@@ -30,7 +30,7 @@ of freedom in a special case.
 
 ## Properties
 
-In some situations stacks of M2-branes are accurately described by [[ABJM theory]].
+In some situations stacks of M2-branes are accurately described by [[ABJM theory]] of the [[BLG model]].
 
 ## Related concepts
 
