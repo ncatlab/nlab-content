@@ -14,7 +14,7 @@ where $h$ is a hypothesis and $e$ is evidence.
 
 The idea here is that when $e$ is observed, one's degree of belief in $h$ should be changed from $P(h)$ to $P(h|e)$. This is known as **conditionalizing**. If $P(h|e) \gt P(h)$, we say that $e$ has provided **confirmation** for $h$.
 
-Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning', where examples from mathematics are widely used. This surprises many, it being thought that mathematicians relied solely on [[deduction]].
+Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning', where examples from mathematics are widely used. This surprises many, it being thought that mathematicians rely solely on [[deduction]].
 
 ###References###
 
