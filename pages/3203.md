@@ -59,3 +59,6 @@ category: analysis
 [[!redirects bounded linear functions]]
 [[!redirects bounded linear map]]
 [[!redirects bounded linear maps]]
+
+[[!redirects algebra of bounded operators]]
+[[!redirects algebras of bounded operators]]
