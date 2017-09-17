@@ -3,7 +3,6 @@
 * automatic table of contents goes here
 {:toc}
 
-
 ## Idea
 
 In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]].
@@ -24,20 +23,24 @@ In traditional forms of [[set theory]], one can also take the target of $f$ to b
 
 ## Special cases 
 
-Given sets $A$ and $B$, the cartesian product of the binary family $(A,B)$ is written $A \times B$; its elements $(a,b)$ are called __ordered pairs__.  (In [[set theory]], one often makes a special definition for this case, defining
+Given sets $A$ and $B$, the cartesian product of the binary family $(A,B)$ is written $A \times B$; its elements $(a,b)$ are called __[[ordered pairs]]__.  (In [[set theory]], one often makes a special definition for this case, defining
 $$ (a,b) = \{\{a\},\{a,b\}\} $$
 rather than as a function so that ordered pairs can then be used in the definition of function.  From a structural perspective, however, this is unnecessary.)
 
-Given sets $A_1$ through $A_n$, the cartesian product of the $n$-ary family $(A_1,\ldots,A_n)$ is written $\prod_{i=1}^n A_i$; its elements $(a_1,\ldots,a_n)$ are called __ordered $n$-tuples__.
+Given sets $A_1$ through $A_n$, the cartesian product of the $n$-ary family $(A_1,\ldots,A_n)$ is written $\prod_{i=1}^n A_i$; its elements $(a_1,\ldots,a_n)$ are called __ordered $n$-[[tuples]]__.
 
 Given sets $A_1$, $A_2$, etc, the cartesian product of the countably infinitary family $(A_1,A_2,\ldots)$ is written $\prod_{i=1}^\infty A_i$; its elements $(a_1,a_2,\ldots,)$ are called __infinite [[sequences]]__.
 
-Given a set $A$, the cartesian product of the unary family $(A)$ may be identified with $A$ itself; that is, we identify the __ordered singleton__ $(a)$ with $a$.
+Given a set $A$, the cartesian product of the unary family $(A)$ may be identified with $A$ itself; that is, we identify the __ordered [[singleton]]__ $(a)$ with $a$.
 
-The cartesian product of the empty family $()$ is the [[point]], a set whose only element is the __empty tuple__ $()$; we often call this set $1$ (or $\pt$, when we\'re Urs) and write its element as $*$.
+The cartesian product of the empty family $()$ is the [[point]], a set whose only element is the __[[empty list]]__ $()$; we often call this set $1$ (or $\pt$, when we\'re Urs) and write its element as $*$.
 
 
 [[!redirects cartesian product]]
 [[!redirects cartesian products]]
 [[!redirects Cartesian product]]
 [[!redirects Cartesian products]]
+[[!redirects product set]]
+[[!redirects product sets]]
+[[!redirects product of sets]]
+[[!redirects products of sets]]
