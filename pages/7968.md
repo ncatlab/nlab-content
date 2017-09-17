@@ -122,9 +122,24 @@ $$
 
 See at _[[higher geometric quantization]]_ for more on this.
 
+
+## As a physical constant 
+
+Planck's constant $h$ is a quantum of action. It may be illustrated in the case of the [[electromagnetic field]] by the fact that each of its [[quanta]] -- a [[photon]] -- carries an [[energy]] $E$ that is fixed by the frequency (cycles per second) $\nu$ according to the relation $E = h\nu$. Thus, the energy emitted by a laser beam of fixed frequency $\nu$ is an integer multiple $n h \nu$ of a packet of energy $h\nu$, where $n$ is the number of photons emitted. 
+
+As a fundamental physical constant, $h$ has dimension $(mass)(length)^2(time)^{-1}$. In meter-kilogram-second (MKS) units, its value is 
+
+$$h \sim 6.62606957 \cdot 10^{-34} m^2 kg / s$$ 
+
+with an uncertainty of up to 29 in the last two digits. 
+
+The reduced Planck constant $\hbar = h/2\pi$ is the proportionality constant that relates energy (of a photon) to angular frequency $\omega$ (radians per second as opposed to cycles per second), so that $E = \hbar \omega$. 
+
+
 ## Related concepts
 
 * [[theory (physics)]]
+
 
 ## References
 
