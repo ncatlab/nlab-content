@@ -73,6 +73,12 @@ $$\ni_B \colon P(B) \to B$$
 
 and we have the [[comprehension axiom]] that to each $r \colon A \to B$ there is a map $\chi_r \colon A \to P(B)$ such that $r = \ni_B \circ \chi_r$. 
 
++-- {: .num_theorem} 
+###### Theorem 
+A power allegory is a division allegory. 
+=-- 
+
+
 In other language, a power allegory is a division allegory which associates to each object $B$ a morphism $\ni_B \colon P(B) \to B$ such that for all $r \colon A \to B$
 
 * $1_A \leq (r \backslash \ni_B) \circ (\ni_B \backslash r)$ 
