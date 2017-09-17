@@ -69,6 +69,8 @@ The [[bar construction]] of the corresponding [[monad]] is the corresponding [[A
 
     * [[descent in noncommutative algebraic geometry]]
 
+  * [[descent spectral sequence]]
+
 * [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
 
 
@@ -92,6 +94,10 @@ A comprehensive treatment in the context of [[(∞,1)-category]]-theory,  genera
 
 * [[Jacob Lurie]], _Derived algebraic geometry II: Noncommutative algebra_, [math.CT/0702299](http://arxiv.org/abs/math/0702299), Section 3.
 
+later absorned as
+
+* [[Jacob Lurie]], section 6.2.4 of _[[Higher Algebra]]_
+
 Unfortunately, [[Maxim Kontsevich|Kontsevich]]'s [[monadicity theorem]] (July 2004) which is in the setup of [[A-infinity category|A-∞-categories]], still remains unpublished. The [[triangulated category|triangulated]] version is in Rosenberg's lectures
 
 * [[Alexander Rosenberg|A. L. Rosenberg]], _Topics in noncommutative algebraic geometry, homological algebra and K-theory_, preprint MPIM Bonn 2008-57 [pdf](http://www.mpim-bonn.mpg.de/preblob/3589), page 36-37.
@@ -102,7 +108,13 @@ See also, for another point of view,
 
 * [[Paul Balmer]], _Descent in triangulated categories_, [pdf](http://www.math.ucla.edu/~balmer/research/Pubfile/Descent.pdf)
 
-A proposal for a formulation of monadic descent for [[simplicially enriched category|simplicially enriched categories]] is in
+Discussion of monadic descent for [[simplicially enriched category|simplicially enriched categories]] is in
 
 * [[Kathryn Hess]], _A general framework for homotopic descent and codescent_, [arXiv/1001.1556](http://arxiv.org/abs/1001.1556)
  {#Hess10}
+
+and for [[quasi-categories]] in 
+
+* [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
+ {#RiehlVerity13}
+
