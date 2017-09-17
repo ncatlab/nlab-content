@@ -44,7 +44,15 @@ on [[continuous functions]] $f\colon X \to \mathbb{C}$.) One can generalize this
 Let $C_n$ be a cyclic group of order $n\geq 2$ and look at the Banach algebra (in the "strict" sense of a monoid object in $Ban$) that is obtained by equipping the Banach space $\ell^1(C_n)$ with the natural convolution product: $\delta_x * \delta_y = \delta_{x+y}$. There is a "short" homomorphism from $\ell^1(C_n)$ into the ground field which is just the unique linear extension of the group homomorphism $C_n \to \{1\}$ (by the free property of the $\ell^1$-functor) and we let $J$ be the kernel of this homomorphism. ($J$ is the so-called "augmentation ideal".) Now $J$ is a semigroup object in $Ban$ and as an algebra it has an identity element $p$, but a calculation/hindsight shows that $\delta_e-p$ must be the constant function $C_n \to \{1/n\}$, so that $p$ has norm $(1-1/n)+(n-1)/n = 2-2/n$.
 
 ## Arens products
-If $A$ is a Banach algebra, its bidual $A^{**}$ has two naturally induced Banach algebra structures on it: these are the so-called Arens products on the second dual. These correspond to the left and right [[tensorial strength]]s for the bidual monad on the category of Banach spaces (whether with [[short linear operators]] as [[morphisms]], or all bounded linear operators). They are named for Richard Arens, who has a 1955 paper which studies this construction in a more general setting . One can see Arens's "phyla" -- with hindsight and Whig history -- as a precursor of symmetric closed monoidal categories.
+If $A$ is a Banach algebra, its bidual $A^{**}$ has two naturally induced Banach algebra structures on it: these are the so-called Arens products on the second dual. These correspond to the left and right [[tensorial strength]]s for the bidual monad on the category of Banach spaces (whether with [[short linear operators]] as [[morphisms]], or all bounded linear operators). In different language, the two Arens multiplications arise from natural transformations 
+
+$$\alpha_{A B}: A^{\ast\ast} \otimes B^{\ast\ast} \to (A \otimes B)^{\ast\ast}$$ 
+
+$$\,$$ 
+
+$$\beta_{A B}: A^{\ast\ast} \otimes B^{\ast\ast} \to (A \otimes B)^{\ast\ast}$$ 
+
+described at [[monoidal monad]]; putting $A = B$ and post-composing with $m^{\ast\ast}: (A \otimes A)^{\ast\ast} \to A^{\ast\ast}$ produces the two Arens products. They are named for Richard Arens, who has a 1955 paper which studies this construction in a more general setting . One can see Arens's "phyla" -- with hindsight and Whig history -- as a precursor of symmetric closed monoidal categories.
 
 [Link to talk by F. E. J. Linton on Arens products](http://tlvp.net/~fej.math.wes/CMS-June2010/Arens01.htm)
 
