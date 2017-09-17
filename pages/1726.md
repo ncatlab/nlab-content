@@ -69,3 +69,6 @@ A more detailed discussion of $(\infty,n)$-categories in terms of $n$-fold compl
 A construction very close in spirit to $n$-fold complete Segal spaces are [[Charles Rezk]]'s [[Theta space]]s.
 
 [[!redirects n-fold Segal space]]
+
+[[!redirects n-fold complete Segal spaces]]
+[[!redirects n-fold Segal spaces]]
