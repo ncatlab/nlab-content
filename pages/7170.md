@@ -234,7 +234,7 @@ In ([Witten 1996](#Witten)) it is discussed that the space of [[states]] of this
 
 The original reference is 
 
-* Wu, _On Pontrjagin classes: II_ Sientia Sinica 4 (1955) 455-490
+* [[Wen-Tsun Wu]], _On Pontrjagin classes: II_ Sientia Sinica 4 (1955) 455-490
 
 See also around p. 228 of
 
