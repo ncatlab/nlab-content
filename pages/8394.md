@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 #### Category theory
 +-- {: .hide}
 [[!include category theory - contents]]
@@ -60,6 +64,8 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * [[computational topology]]
 * [[list of mathematics software]]
+
+* [[domain specific programming language]], [[domain specific embedded programming language]]
 
 ## References
 
