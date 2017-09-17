@@ -6,6 +6,8 @@ These moves were given in the book by Reidemeister (Knotentheorie, Ergebnisse de
 In manipulating a link diagram, the changes obtained by elongating part of the diagram, rotating it, etc., are not counted as changing the structure of the diagram provided they do not change any crossing,and so they may be done without comment.  The 'moves' outlined here do change things locally near crossings.
 
 ##R1
+The two local configurations
+
 <svg width="297" height="69" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="7559">
  <metadata id="metadata7">image/svg+xml</metadata>
  <g>
@@ -17,6 +19,7 @@ In manipulating a link diagram, the changes obtained by elongating part of the d
  </g>
 </svg>
 
+are interchangable, (plus another with the opposite twist);
 ##R2
 
 
