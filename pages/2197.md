@@ -12,7 +12,7 @@ The collections of functionals on a LCTVS is used in a way analogous to the coll
 In one respect, a locally convex TVS is a [[nice space]] in that there are enough co-probes by maps to the base field.
 
 
-
+[[!redirects locally convex]]
 [[!redirects locally convex spaces]]
 [[!redirects locally convex vector space]]
 [[!redirects locally convex vector spaces]]
