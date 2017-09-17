@@ -21,6 +21,8 @@ A [[section]] of a spinor bundle is called a **spinor**.
 
 ## Related concepts
 
+* [[spinor]], [[spin representation]]
+
 A [[Dirac operator]] acts on [[section]]s of a spinor bundle.
 
 In [[physics]] sections of spinor bundles model matter [[relativistic particle|particle]]s: [[fermion]]. See [[spinors in Yang-Mills theory]].
