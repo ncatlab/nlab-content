@@ -25,6 +25,7 @@ There one typically considers a richer concept of _[[G-spectra]]_. In that conte
 
 ## Properties
 
+
 ### Relation to $G$-spectra
 
 For $U$ a universe of $G$-[[representations]] in the sense of [[genuine G-spectra]], there is the inclusion
@@ -42,6 +43,46 @@ $$
 has [[unit]] and [[counit]] which are [[equivalences]] on the underlying bare [[spectra]].
 
 (e.g. [Carlsson 92, p. 14](#Carlsson92), [Greenlees May, p. 16](#GreenleesMay))
+
+### Homotopy fixed points and homotopy quotients
+
+Write
+
+$$
+  (-)^G \;\colon\; Spectra(G Top) \longrightarrow Spectra
+  \,.
+$$
+
+for the [[fixed point]] ([[invariants]]) fucntor and
+
+$$
+  (-)/Q \;\colon\; Spectra(G Top) \longrightarrow Spectra
+$$
+
+for the [[quotient]] ([[coinvariants]]) functor.
+
+Write $E G$, as usual, for a [[contractible topological space|contractible]] [[topological G-space]] whose $G$-[[action]] is [[free action|free]]. Write $E G_+$ for this regarded as apointed $G$-space with a point freely adjoined.
+
+Then there are two functor
+
+$$
+  EG_+ \wedge (-) , [EG_+,-] \;\colon\;  Spectra(G Top) \to Spectra(G Top)
+$$
+
+given by forming [[smash product]] with $E G_+$ and formin the [[internal hom]] out of $E G_+$.
+
+Then the [[homotopy fixed point]] functor is
+
+$$
+  (-)^{h g} \coloneqq [E G_+, -]^G \;\colon\; Spectra(G Top) \longrightarrow Spectra
+$$
+
+and the [[homotopy quotient]] functor is
+
+$$
+  (-)//G \coloneqq (-)_{h G} \coloneqq (E G_+ \wedge (-))/G
+  \;\colon\; Spectra(G Top) \longrightarrow Spectra
+$$
 
 ### Relation to equivariant cohomology
  {#RelationToEquivariantCohomology}
