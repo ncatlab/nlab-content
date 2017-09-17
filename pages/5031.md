@@ -26,7 +26,7 @@ By __$Topos$__ (or __$Toposes$__) is denoted the [[category]] of [[topos]]es. Us
 
 * [[morphism]]s are [[geometric morphism]]s of toposes.
 
-This naturally a [[2-category]], with the [[2-morphism]]s being [[natural transformation]]s between the [[inverse image]] parts of geometric morphisms.  That is, a 2-morphism $f\to g$ is a natural transformation $f^* \to g^*$ (which is, by [[mate]] calculus, equivalent to a natural transformation $g_* \to f_*$).  Thus, $Toposes$ is equivalent to both of
+This naturally a [[2-category]], with the [[2-morphism]]s being [[natural transformation]]s between the [[inverse image]] parts of geometric morphisms.  That is, a 2-morphism $f\to g$ is a natural transformation $f^* \to g^*$ (which is, by [[mate]] calculus, equivalent to a natural transformation $g_* \to f_*$ between [[direct image]]s).  Thus, $Toposes$ is equivalent to both of
 
 * the (non-full) [[sub-2-category]] of $Cat^{op}$ on categories that are toposes and morphisms that are the inverse image parts of geometric morphisms, and
 * the (non-full) sub-2-category of $Cat^{co}$ on categories that are toposes and morphisms that are the direct image parts of geometric morphisms.
@@ -71,9 +71,59 @@ There are similar full embeddings $ShTopos \hookrightarrow Sh 2 Topos$ and $ShTo
 
 
 
-### Limits and colimits
+### Limits and colimits {#Limits}
 
 The 2-category $Topos$ is not all that well-endowed with [[limit]]s, but its [[slice categories]] are finitely complete [[2-limit|as 2-categories]], and $ShTopos$ is closed under finite limits in $Topos/Set$.  In particular, the [[terminal object]] in $ShToposes$ is the topos [[Set]] $\simeq Sh(*)$.
+
+The supply with colimits is better:
+
+{#ColimitsByInverseImageLimits}
++-- {: .un_prop}
+###### Proposition
+All small (indexed) [[2-colimit]]s in $ShTopos$ exists and are computed as (indexed) [[2-limit]]s in [[Cat]] of the underlying [[inverse image]] functors.
+
+=--
+
+This appears as ([Moerdijk, theorem 2.5](#Moerdijk))
+
++-- {: .un_prop}
+###### Proposition
+
+Let 
+
+$$
+  \array{
+    \mathcal{F} &\stackrel{p_2}{\to}& \mathcal{E}_2
+    \\
+    {}^{\mathllap{p_1}}\downarrow &\swArrow& \downarrow^{\mathrlap{f_2}}
+    \\
+    \mathcal{E}_1 &\underset{f_1}{\to}& \mathcal{E}
+  }
+$$
+
+be a [[2-pullback]] in $Topos$ such that
+
+* $f_1, f_2$ are both [[pseudomonic morphism]]s
+
+* $\mathcal{E}_1 \coprod \mathcal{E}_2 \to \mathcal{E}$ is an [[effective epimorphism]];
+
+then the diagram of [[inverse image]] functors
+
+$$
+  \array{
+    \mathcal{F} &\stackrel{p_2^*}{\leftarrow}& \mathcal{E}_2
+    \\
+    {}^{\mathllap{p_1^*}}\uparrow &\swArrow& \uparrow^{\mathrlap{f_2^*}}
+    \\
+    \mathcal{E}_1 &\underset{f_1^*}{\leftarrow}& \mathcal{E}
+  }
+$$
+
+is a 2-pullback in [[Cat]] and so by the [above](#ColimitsByInverseImageLimits) the original square is also a 2-pushout.
+
+=--
+
+This appears as theorem 5.1 in ([BungeLack](#BungeLack))
 
 +-- {: .un_prop}
 ###### Proposition
@@ -86,10 +136,19 @@ The 2-category $Topos$ is an [[extensive category]]. Same for toposes bounded ov
 This is in ([BungeLack, proposition 4.3](#BungeLack)).
 
 
+## Related concepts
 
+* **Topos**
+
+* [[(∞,1)Topos]]
 
 
 ## References
+
+The characterization of colimits in $Topos$ is in
+
+* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid. I_ Transaction of the American mathematical society Volume 310, Number 2, (1988)
+{#Moerdijk}
 
 The fact that $Topos$ is extensive is in
 
