@@ -231,16 +231,15 @@ $$
 
 See at _[∞-Group of units -- Augmented definition](#infinity-group+of+units#AugmentedDefinition)_.
 
-By ([Sagave 11, theorem 12 and example 4.10](#Sagave11)) and comparing to the above discussion we have a [[homotopy equivalence]]
+By ([Sagave 11, theorem 12 and example 4.10](#Sagave11)) and comparing to the above discussion we have an inclusion
 
 $$
   {\vert 2\mathbf{sLine}\vert}
-  \simeq
+  \hookrightarrow
   bgl_1^\ast(KU)
-  \,.
 $$
 
-This is what in ([Freed-Distler-Moore](#Precis), [Freed](#Freed)) is written $R^{-1}$.
+hitting the Donovan-Karoubi twists of K-theory. This is what in ([Freed-Distler-Moore](#Precis), [Freed](#Freed)) is written $R^{-1}$.
 
 (...)
 
