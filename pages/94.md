@@ -59,7 +59,7 @@ of degree -1, that satisfy a generalized [[Jacobi identity]] of the form
   \,,
 \]
 
-for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[unshuffle]]s $\sigma$ and where $sgn(\sigma)$ is the [[signature]] of the [[permutation]] $\sigma$.
+for all elements $(v_i) \in V^{\otimes n}$, where the inner sum runs over all $(i,j)$-[[unshuffle]]s $\sigma$ and where $(-1)^{sgn(\sigma)}$ is the Koszul-[[signature]] of the [[permutation]] $\sigma$: the sign picked up by "unshuffling" $t^{a_1} \wedge \cdots \wedge t^{a_{k+l-1}}$ according to $\sigma$.
 
 In this form this appears for instance as ([CattaneoSchaetz, (1)](#CattaneoSchaetz)). Notice that there are different conventions on the gradings possible, which lead to similar formulas with different sign factors.
 
@@ -265,7 +265,7 @@ $$
   \,.
 $$
 
-Here the wedge product on the right projects the nested bracket onto its graded-symmetric components. This is produced by summing over all [[permutation]]s $\sigma \in \Sigma_{k+l-1}$ weighted by the [[signature]] of the permutation:
+Here the wedge product on the right projects the nested bracket onto its graded-symmetric components. This is produced by summing over all [[permutation]]s $\sigma \in \Sigma_{k+l-1}$ weighted by the Koszul-[[signature]] of the permutation:
 
 $$
   \cdots = 
@@ -440,6 +440,10 @@ Volume 23, Issue 6, (1995) _Strongly homotopy Lie algebras_ ([arXiv](http://arxi
 A quick web entry is:
 
 * Marilyn Daily, [$L_\infty$-structures](http://www.aei.mpg.de/~md/hl.html).
+
+See also
+
+* Klaus Bering, [[Tom Lada]], _Examples of Homotopy Lie Algebras_ Archivum Mathematicum ([arXiv:0903.5433](http://arxiv.org/abs/0903.5433))
 
 A discussion in terms of [[resolutions]] of the [[Lie operad]] is for instance in
 
