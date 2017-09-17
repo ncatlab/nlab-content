@@ -300,9 +300,12 @@ Discussion in the special case of [[2d CFT]] ([[worldsheet]] [[string theory]]) 
 
 * {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
 
-[[!redirects zeta functions of elliptic differential operators]]
 
+[[!redirects zeta functions of elliptic differential operators]]
 
 [[!redirects functional determinant]]
 [[!redirects functional determinants]]
+
+[[!redirects zeta function regularization]]
+[[!redirects zeta function regularizations]]
 
