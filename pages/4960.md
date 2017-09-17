@@ -151,13 +151,13 @@ $$
   \,.
 $$
 
-+-- {: .num_remark #AdjointTriple}
-###### Remark
++-- {: .num_defn #AdjointTriple}
+###### Definition
 
 The above [[adjoint quadruple]] canonically induces an [[adjoint triple]] of endofunctors on $\mathcal{E}$
 
 $$
-  (\mathbf{\Pi}_0 \dashv \mathbf{\flat} \dashv \mathbf{#})
+  (&#643; \dashv \flat \dashv \sharp)
   : 
   \mathcal{E}
    \stackrel{\overset{\Pi_0}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}}}
@@ -167,9 +167,71 @@ $$
   \,.
 $$
 
-These endofunctors play a role in the internal characterization of cohesion.
+Being [[idempotent monads]] on $\mathcal{E}$, there are [[modalities]] in the [[type theory]] ([[internal logic]]) of $\mathcal{E}$. As such we call them:
+the
+
+* _[[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]_.
+
 
 =--
+
+### The transformation from points to pieces
+ {#CanonicalComparison}
+
+Notice the existence of the following canonical [[natural transformations]] induced from the structure of a cohesive topos.
+
++-- {: .num_defn #TransformationFromPointsToPieces}
+###### Definition
+
+Given a cohesive topos $\mathcal{E}$ with ($&#643; \dashv \flat$) its ([[shape modality]] $\dashv$ [[flat modality]])-[[adjunction]] of def. \ref{AdjointTriple}, then the [[natural transformation]]
+
+$$
+  \flat X \longrightarrow X \longrightarrow &#643; X 
+$$
+
+(given by the [[composition]] of the $\flat$-[[counit of a comonad|counit]] followed by the $&#643;$-[[unit of a monad|unit]]) may be called the transformation **from points to their pieces** or the **points-to-pieces-transformation**, for short.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The $(f^\ast \dashv f_\ast)$-[[adjunct]] of the transformation from pieces to points, def. \ref{TransformationFromPointsToPieces},
+
+$$
+  \flat X \longrightarrow X \longrightarrow &#643; X
+$$
+
+is (by the rule of forming right [[adjuncts]] by first applying the [[right adjoint]] functor and then precomposing with the [[unit of an adjunction|unit]] and by the fact that the [[adjunct]] of a [[unit of an adjunction|unit]] is the [[identity]]) the map
+
+$$
+  (f_\ast X \longrightarrow f_! X)
+  \coloneqq
+  \left(
+  f_\ast X \longrightarrow f_\ast f^\ast f_! X \stackrel{\simeq}{\longrightarrow} f_!X
+  \right)
+  \,.
+$$
+
+Observe that going backwards by applying $f^\ast$ to this and postcomposing with the $(f^\ast \dashv f_\ast)$-[[counit of an adjunction|counit]] is equivalent to just applying $f^\ast$, since by [[idempotent monad|idempotency]] of $\flat$ the counit is an [[isomorphism]] on the [[discrete object]] $f^\ast f_! X$. Therefore the points-to-pieces transformation and its adjunct are related by
+
+$$
+  \left(
+    \flat X \longrightarrow X \longrightarrow &#643; X
+  \right)
+  = 
+  f^\ast \left(
+    f_\ast X \longrightarrow f_! X
+  \right).
+$$
+
+Observe then finally that since $f^\ast$ is a [[full and faithful functor|full and faithful]] [[left adjoint|left]] and [[right adjoint]], the points-to-pieces transform is an [[epimorphism]]/[[isomorphism]]/[[monomorphism]] precisely if its [[adjunct]] $f_\ast X \longrightarrow f_! X$ is, respectively.
+
+=--
+
+Below in [Further axioms](#FurtherAxioms) we discuss further axioms that one may want to impose on the points-to-pieces transform.
+
+Below in [Properties -- Adjoint quadruples](#AdjointQuadruples) we discuss further properties of the points-top-pieces transformation
 
 
 ### Further axioms
@@ -177,10 +239,11 @@ These endofunctors play a role in the internal characterization of cohesion.
 
 In addition to the fundamental axioms of cohesion above, there are several further axioms that one may (or may not) want to impose in order to formalize the concept of cohesion.
 
+
 +-- {: .num_defn #PiecesHavePoints}
 ###### Definition
 
-For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
+For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points** in $\mathcal{E}$ if the points-to-pieces [[natural transformation]] from def. \ref{TransformationFromPointsToPieces}
 
 $$
   f_* X \stackrel{}{\longrightarrow} f_* f^* f_! X \stackrel{\simeq}{\longrightarrow} f_! X 
@@ -189,6 +252,8 @@ $$
 is an [[epimorphism]] for all $X \in \mathcal{E}$.
 
 =--
+
+
 
 This is equivalent to the following condition (see the [proposition below](PiecesHavePointsEquivalentToDiscreteObjectsAreConcrete)):
 
@@ -296,10 +361,10 @@ For a long list of further structures that are canonically present in a cohesive
 
 * [[cohesive (∞,1)-topos -- infinitesimal cohesion]] .
 
-### Adjoint quadruples
+### Adjoint quadruples and points-to-pieces
   {#AdjointQuadruples}
 
-Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup.
+Let $(p_! \dashv p^* \dashv p_*\dashv p^!) : \mathcal{E} \to \mathcal{S}$ be an  [[adjoint quadruple]] of [[adjoint functor]]s such that $p^*$ and $p^!$ are [[full and faithful functor]]s. We record some general properties of such a setup, in particular concerning the induced points-to-pieces transforms, def. \ref{TransformationFromPointsToPieces}.
 
 We write 
 
@@ -318,7 +383,7 @@ etc. for counits.
 +-- {: .num_prop #TheCanonicalMorphisms}
 ###### Proposition/Definition
 
-We have [[commuting diagram]]s, [[natural transformation|natural]] in $X \in \mathcal{E}$, $S \in \mathcal{S}$
+We have [[commuting diagrams]], [[natural transformation|natural]] in $X \in \mathcal{E}$, $S \in \mathcal{S}$
 
 $$
   \array{
@@ -352,7 +417,7 @@ $$
   \theta_X : p_* X \to p_! X
 $$
 
-and 
+(the points-to-pieces transform, def. \ref{TransformationFromPointsToPieces}) and 
 
 $$
   \phi_S : p^* S \to p^! S
