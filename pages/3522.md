@@ -13,6 +13,10 @@ This is what Goodwillie calculus studies.
 
 ## References
 
+An introductory article is
+
+* [[Brian Munson]], _Introduction to the manifold calculus of Goodwillie-Weiss_ ([arXiv:1005.1698](http://uk.arxiv.org/abs/1005.1698))
+
 Original articles include
 
 * Thomas G. Goodwillie, _Calculus. I. The first derivative of pseudoisotopy theory_, K-Theory __4__ (1990), no. 1, 1-27. MR 1076523 (92m:57027);
@@ -27,4 +31,4 @@ Geom. Topol. 7 (2003), 645--711 [journal](http://www.msp.warwick.ac.uk/gt/2003/0
 
 A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
 
-* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus_, [section 5](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf#page=159)
+* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_, [section 5](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf#page=159)
