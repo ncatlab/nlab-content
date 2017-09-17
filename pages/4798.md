@@ -97,6 +97,8 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[general covariance]]
 
+[[!include gauge field - table]]
+
 [[!redirects gauge transformations]]
 [[!redirects gauge symmetry]]
 
