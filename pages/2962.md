@@ -337,7 +337,7 @@ in bijection to the nonabelian coccles.
 
 It remains to show that the homotopies map to coboundaries. For that
 we may take in $\infty Lie$ the standard [[cylinder object]] of some
-$\mathfrak{CE}(\mathfrak{g})$ to be
+$CE(\mathfrak{g})$ to be
 
 $$
   CE(\mathfrak{g})\otimes CE(\mathfrak{g})
@@ -384,7 +384,7 @@ along the above lines.
 
 +-- {: .query}
 
-There is a slight gap here, concerning the fact that $CE(Der(\mathfrak{k}))$ may not be a Sullivan algebra, and hence not cofibrant in the [[model structure on dg-algebras]]: while it is of course a [[semifree dga]], it need not satisfy that addition nilpotency condition. I'll try to think what to do about that... -[[Urs Schreiber|Urs]]
+There is a slight gap here, concerning the fact that $CE(Der(\mathfrak{k}))$ may not be a Sullivan algebra, and hence not cofibrant in the [[model structure on dg-algebras]]: while it is of course a [[semifree dga]], it need not satisfy that additional nilpotency condition. I'll try to think what to do about that... -[[Urs Schreiber|Urs]]
 
 =--
 
