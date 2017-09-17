@@ -1,14 +1,26 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Rngs
 * table of contents
 {: toc}
 
 ## Idea
 
-A rng is a [[ring]] 'without identity' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but we usually require our rings to have identities.
+A _rng_ (terminology due to [Jacobson](#Jacobson)) is a [[ring]] 'without identity' (hence the missing 'i' in the name, get it?).  By the [[red herring principle]], we sometimes speak of a __nonunital ring__.  Note that classically, the word 'ring' originally meant a rng, but we usually require our rings to have identities.
 
+## Definition
 
-## Explicit definition
+### Explicit definition
 
 Specifically, a __rng__ is a [[set]] $R$ with operations of addition and multiplication, such that
 *  $R$ is a [[semigroup]] under multiplication;
@@ -16,11 +28,45 @@ Specifically, a __rng__ is a [[set]] $R$ with operations of addition and multipl
 *  multiplication distributes over addition.
 
 
-## Fancy definition
+### Fancy definition
 
 More sophisticatedly, we can say that, just as a ring is a [[monoid object]] in [[Ab]], so a rng is a [[semigroup]] object in $Ab$.
+
+## Related concepts
+
+* [[unitisation of C*-algebras]]
+
+* [[rig]]
+
+## References
+ {#References}
+
+### Nonunital ring theory
+
+A survey of commutative rng-theory is in 
+
+* D. Anderson, _Commutative rngs_, in J. Brewer et al. (eds.) _Multiplicative ideal theory in Commutative Algebra_, 2006
+
+### Terminology
+
+The notation "rng" originates in
+
+* {#Jacobson} Nathan Jacobson _Basic Algebra_,  
+
+where the term is attributed to Louis Rowen.
+
+([[Bourbaki|Bourbaki 6, chapter 1]]) uses the term "pseudo-ring" instead, which however has not caught on and even if more sane, will be understood less than "rng".
 
 
 [[!redirects rng]]
 [[!redirects rngs]]
+
 [[!redirects nonunital ring]]
+[[!redirects nonunital rings]]
+
+[[!redirects non-unital ring]]
+[[!redirects non-unital rings]]
+
+[[!redirects non-unital ring]]
+[[!redirects non-unital rings]]
+
