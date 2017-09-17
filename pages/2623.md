@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 One way to make sense of the [[path integral]] used for [[quantization]] of [[classical field theory]] to [[quantum field theory]] is to _define_ it as a resummation of the the [[Feynmann perturbation series]] of [[Feynman diagram]]s. 
 
@@ -17,9 +17,9 @@ A well-developed method for renormalization, described in more detail below, exp
 
 The precise way in which this Laurent series is constructed has recently been understood to have an elegant desciption in terms of [[Hopf algebra]] and is now known as _Hopf algebraic renormalization_ .
 
-# Hopf-algebraic renormalization #
+## Hopf-algebraic renormalization 
 
-## the phenomenon ##
+### The phenomenon 
 
 In the study of [[perturbative quantum field theory]] one is concerned with functions -- called _amplitudes_ -- that take a collection of graphs -- called [[Feynman graph]]s -- to [[Laurent polynomial]]s in a complex variable $z$ -- called the **(dimensional) regularization parameter** --
 
@@ -33,7 +33,7 @@ A prescription -- called **renormalization scheme** -- for adding to a given amp
 
 This procedure justifies itself mainly through the remarkable fact that the numbers obtained from it match certain numbers measured in particle accelerators to fantastic accuracy.
 
-## its combinatorial Hopf-algebraic interpretation ##
+### Its combinatorial Hopf-algebraic interpretation 
 
 The combinatorial Hopf algebraic approach to perturbative quantum field theory, see for instance
 
@@ -49,7 +49,7 @@ starts with the observation that the BPHZ-procedure can be understood
 
 The Hopf algebra structure on the vector space whose basis consists of graphs can be understood most conceptually in terms of [[pre-Lie algebra|pre-Lie algebras]].
 
-## the Connes-Kreimer theorem ##
+### The Connes-Kreimer theorem 
 
 A [[Birkhoff decomposition]] of a loop $\phi : S^1 \to G$ in a complex group $G$ is a continuation of the loop to 
 
@@ -112,7 +112,7 @@ The proof is given in
 
 
 
-## the Hopf-algebra perspective on QFT
+### The Hopf-algebra perspective on QFT
 
 This result first of all makes [[Hopf algebra]] an organizational principle for (re-)expressing familiar operations in [[quantum field theory]].
 
@@ -127,7 +127,7 @@ where the product is the group product on characters, hence the [[convolution pr
 
 Every elegant reformulation has in it the potential of going beyond mere reformulation by allowing to see structures invisible in a less natural formulation. For instance [[Dirk Kreimer]] [claims](http://golem.ph.utexas.edu/category/2007/03/recent_developments_in_quantum.html#c010903) that the Hopf algebra language allows him to see patterns in perturbative quantum gravity previously missed.
 
-## gauge theory and BV-BRST with Hopf algebra ##
+### Gauge theory and BV-BRST with Hopf algebra
 
 Walter von Suijlekom is thinking about the Hopf-algebraic formulation of [[BV theory|BRST-BV methods]] in nonabelian [[gauge theory]] 
 
@@ -148,3 +148,18 @@ As a payoff, he obtains a very transparent way to prove the generalization of **
 In the context of [[BV theory|BRST-BV quantization]] these statements are subsumed, he says, by the structure encoded in the Hopf ideal which corresponds to imposing the BV-master equation.  See also
 
 * W. van Suijlekom: _Representing Feynman graphs on BV-algebras_ , ([arXiv](http://arxiv.org/abs/0807.0999))
+
+## References {#References}
+
+An introduction and review to the Hopf-algebraic description of renormalization is in 
+
+* Christian Brouder, _Quantum field theory meets Hopf algebra_ ([arxiv:hep-th/0611153](http://de.arxiv.org/abs/hep-th/0611153))
+
+A textbook treatment is
+
+* [[Dirk Kreimer]], _Knots and Fenyman diagrams_ , Cambridge Lecture Notes in Physics. 13. Cambridge: Cambridge University Press.
+
+Some heavywheight automated computations using this formalism are discussed in 
+
+* Broadhurst, [[Dirk Kreimer]], _Renormalization automated by Hopf algebra_ ([arXiv:hep-th/9810087](http://arxiv.org/abs/hep-th/9810087)
+
