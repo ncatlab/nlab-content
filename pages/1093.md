@@ -17,40 +17,78 @@
 
 ## Idea
 
-This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$ -- a [[Grothendieck topos]]. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. 
+This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$ -- a [[Grothendieck topos]]. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more details [[sheaf|sheaves]] themselves see there. 
 
 ## Definition
 
-Consider a [[site]] $S$, i.e. a [[category]] $S$ equipped with a [[coverage]], a [[Grothendieck topology]].  Think of this topology equivalently as encoded in a system of [[local isomorphism]]s (see there) on the [[presheaf]] category $PSh(S) := [S^{op}, Set]$.
+Let $(C,J)$ be a [[site]]: a [[category]] equipped with a [[coverage]].
 
-Then
++-- {: .un_prop}
+###### Definition
 
-* a [[sheaf]] on $S$ is precisely a [[presheaf]] $F \in [S^{op}, Set]$ such that $Hom_{PSh(S)}(-, F)$ sends all [[local isomorphism]]s to [[isomorphism]]s;
+The **category of sheaves** on $(C,J)$ is the [[full subcategory]] of the [[category of presheaves]] 
 
-* the category $Sh(S)$ of [[sheaf|sheaves]] on $S$ is the full [[subcategory]] of the [[category of presheaves]] $PSh(S)$ on sheaves;
+$$
+  i : Sh_J(C) \hookrightarrow
+  PSh(C)
+$$
 
-* the [[stuff, structure, property|fully faithful forgetful]] inclusion functor $i : Sh(S) \hookrightarrow PSh(S)$ has an [[adjoint functor|left adjoint]] $\bar{(-)} : PSh(S) \to Sh(S)$ -- [[sheafification]] -- which is [[exact functor|exact]] -- hence the inclusion is a [[geometric morphism]]:
+on those presheaves which are [[sheaves]] with respect to $J$.
 
-  $$
-    Sh(C) \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow} PSh(C)
-    \,;
-  $$
+=--
 
-* the functor $L := i \circ \bar{(-)}: PSh(S) \to PSh(S)$ whose [[image]] is $Sh(S)$ has the property that $L(A_1 \to A_2)$ is an [[isomorphism]] if and only if $A_1 \to A_2$ is a [[local isomorphism]];
++-- {: .un_prop}
+###### Proposition
 
-* the category of sheaves is equivalent to the [[homotopy category]] of the [[category with weak equivalences]] $PSh(C)$ with the weak equivalences given by $W = $[[local isomorphism]]s
+Every category of sheaves is a [[reflective subcategory]]
+
+$$
+  (L \dashv i) : Sh_J(C) \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
+  Psh(C)
+  \,,
+$$
+
+hence a [[subtopos]] of the [[presheaf topos]]. And every such subtoposes arises this way: there is a [[bijection]] between [[Grothendieck topologies]] on $C$ and equivalence classes of [[geometric embedding]]s into $PSh(C)$.
+
+=--
+
+This appears for instance as ([Johnstone, corollary 2.1.11])(#Johnstone).
+
++-- {: .proof}
+###### Proof
+
+Details on the first statement are at [[sheafification]]. A full proof for the second statement is at [[(∞,1)-category of (∞,1)-sheaves]] (there proven in [[(∞,1)-category theory]], but the proof is verbatim the same in [[category theory]]).
+
+
+=--
+
+
+
+
+
+
+## Properties
+
+
+### As localizations
+
++-- {: .un_prop}
+###### Proposition
+
+The category of sheaves is equivalent to the [[homotopy category]] of the [[category with weak equivalences]] $PSh(C)$ with the weak equivalences given by $W = $[[local isomorphism]]s
 
 $$
   Sh(S) \simeq Ho_{PSh(S)} = PSh(C)[local isomorphisms]^{-1}
   \,.
 $$
 
-* also the converse is true: for every [[exact functor|left exaxt]] functor $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[adjoint functor|left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology 
+* also the converse is true: for every [[exact functor|left exaxt]] functor $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[adjoint functor|left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology.
 
-* Categories of sheaves are examples of [[category|categories]] that are [[topos]]es: they are the [[Grothendieck topos]]es characterized among all toposes as those satisfying [[Grothendieck topos|Giraud's axioms]].
+=--
 
+### As toposes
 
-In [[topos]]-theoretic language we therefore have that
+Categories of sheaves are examples of [[categories]] that are [[topos]]es: they are the [[Grothendieck topos]]es characterized among all toposes as those satisfying [[Grothendieck topos|Giraud's axioms]].
 
 +-- {: .standout}
 
@@ -58,7 +96,99 @@ In [[topos]]-theoretic language we therefore have that
 
 =--
 
-## Properties
+This appears for instance as 
+([Johnstone, corollary 2.1.11](#Johnstone)).
+
+
+### Dependence on the site
+
++-- {: .un_prop}
+###### Definition
+
+For $(L \dashv i) : \mathcal{E} \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}$ a category of sheaves and $(C,J)$ a [[site]] such that we have an equivalence of categories $\mathcal{E} \simeq Sh_J(C)$ we say that $C$ is a **site of definition** for the [[topos]] $\mathcal{E}$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+There are always different [[site]]s $(C,J)$ whose categories of sheaves are [[equivalence of categories|equivalent]]. First of all for fixed $C$ and given a [[coverage]] $J$, the category of sheaves depends only on the [[Grothendieck topology]] generated by $J$. But there may be site structures also on inequivalent categories $C$ that have equivalent categories of sheaves.
+
+=--
+
++-- {: .un_prop #InducedCoverage}
+###### Definition
+
+For $(C,J)$ a [[site]] with [[coverage]] $J$ and $D \to C$ any [[subcategory]], the **induced coverage** $J_D$ on $D$ has as [[covering]] [[sieve]]s the intersections of the covering sieves of $C$ with the morphisms in $D$.
+
+=--
+
++-- {: .un_prop #DenseSubSite}
+###### Definition
+
+Let $(C,J)$ be a [[site]] (possibly [[large site|large]]). A [[subcategory]] $D \to C$ (not necessarily full) is called a **[[dense sub-site]]** with the [induced coverage](#InducedCoverage) $J_D$ if
+
+1. every object $U \in C$ has a [[covering]] $\{U_i \to U\}$ in $J$ with all $U_i$ in $D$;
+
+1. for every morphism $f : U \to d$ in $C$ with $d \in D$ there is a [[covering]] family $\{f_i : U_i \to U\}$ such that the composites $f \circ f_i$ are in $D$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+If $D$ is a [[full subcategory]] then the second condition is automatic.
+
+=--
+
++-- {: .un_theorem}
+###### Theorem
+**(comparison lemma)**
+
+Let $(C,J)$ be a (possibly [[large site|large]]) [[site]] with $C$ a [[locally small category]] and let $f : D \to C$ be a [[small category|small]] [dense sub-site](#DenseSubSite). Then pair of [[adjoint functor]]s
+
+$$
+  (f^* \dashv f_*) 
+    : 
+  PSh(D)
+    \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}  
+   PSh(C)
+$$
+
+with $f^*$ given by precomposition with $f$ and $f_*$ given by right [[Kan extension]] induces an [[equivalence of categories]] between the categories of sheaves
+
+$$
+  (f_* \dashv f^*) : 
+  Sh_{J_D}(D)
+  \underoverset
+    {\underset{f_*}{\to}}{\overset{f^*}
+    {\leftarrow}}
+    {\simeq}
+  Sh_J{C}
+  \,.
+$$
+
+
+=--
+
+This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
+
++-- {: .un_examples}
+###### Examples
+
+
+* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage (\{U_i \to U\} covers if the [[join]] of the $U_i$ us $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
+
+  * For $X$ a [[locally contractible space]], $Op(X)$ its [[category of open subsets]] and $cOp(X)$ the full subcategory of [[contractible]] open subsets, we have that $cOp(X)$ is a dense sub-site.
+
+* For $C = TopManifold$  the category of all [[paracompact topological space|paracompact]] [[topological manifold]]s equipped with the [[open cover]] coverage, the category [[CartSp]]${}_{top}$ is a dense sub-site: every paracompact manifold has a [[good open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]].
+
+* Similaryl for $C = $ [[Diff]] the category of [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site.
+
+=--
+
+
+### Epi- mono- and isomorphisms
 
 
 Let $Sh(C)$ be a category of sheaves.
@@ -82,28 +212,28 @@ for all $U \in C$ there is a [[covering]] $\{p_i : U_i \to U\}_{i \in I}$ such t
 =--
 
 
-## In higher category theory
 
-The notion of _category of sheaves_ has analogs in [[higher category theory]].
+## Related concepts
 
-For [[(∞,1)-category]] theory see [[(∞,1)-category of (∞,1)-sheaves]].
+
+* **category of sheaves**
+
+* [[(∞,1)-category of (∞,1)-sheaves]].
 
 
 
 ## References
 
-For some standard references see the list of references at [[sheaf]] and [[topos]].
+Secton A.4 and C.2 in
 
-The characterization of sheaf toposes and Grothendieck topologiws in terms of left exact [[reflective subcategory|reflective subcategories]] of a presheaf category is in
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
+
+
+The characterization of sheaf toposes and Grothendieck topologies in terms of left exact [[reflective subcategory|reflective subcategories]] of a presheaf category is also in
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
 where it is implied by the combination of Corollary VII 4.7 and theorem V.4.1.
-
-The statement is also theorem A.4.4.8 in
-
-* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
-
 
 
 The characterization of $Sh(S)$ as the [[homotopy category]] of $PSh(S)$ with respect to local isomorphisms is emphasized at the beginning of the text
@@ -122,17 +252,6 @@ It's a bit odd that the full final statement does not seem to be stated there ex
 
 * using this corollary 7.2.2 says that $Sh(S) \simeq Ho_{PSh(S)}$ with the [[homotopy category]] $Ho_{PSh(S)}$ formed using [[local isomorphism]]s as weak equivalences.
 
-
-
-The entirely analogous story in the wider context of [[(infinity,1)-category|(infinity,1)-categories]] is in
-
-* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
-
-and
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
-
-For more on this see [[(∞,1)-category of (∞,1)-sheaves]] and [[models for ∞-stack (∞,1)-toposes]].
 
 
 [[!redirects sheaf category]]
