@@ -118,7 +118,7 @@ To which extent this perspective is genuinely useful is maybe still to be establ
 
 One potential such statement has been suggested in ([Nuiten](#Nuiten)) after discussion with [[Bas Spitters|Spitters]]: 
 
-in the formalization of [[quantum field theory]] by the [[Haag-Kastler axioms]]s -- called [[AQFT]] -- every quantum field theory is entirely encoded in terms of its [[local net of observables]] over [[spacetime]] $X$. This is a [[copresheaf]] of [[C-star algebra]]s
+in the formalization of [[quantum field theory]] by the [[Haag-Kastler axioms]] -- called [[AQFT]] -- every quantum field theory is entirely encoded in terms of its [[local net of observables]] over [[spacetime]] $X$. This is a [[copresheaf]] of [[C-star algebra]]s
 
 $$
   A : Op(X) \to C^\ast Alg
