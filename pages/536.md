@@ -1,7 +1,8 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher algebra
+#### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
@@ -9,7 +10,7 @@
 =--
 
 # Algebraic theories
-* tic
+* table of contents
 {: toc}
 
 
@@ -152,7 +153,9 @@ where the second functor $C' \to C$ is an equivalence, so we may as well work wi
 
 ### Commutative theories
 
-_[[commutative algebraic theory|Commutative algebraic theories]]_ are (single-sorted) algebraic theories for which each operation is an algebra homomorphism. These form an important subclass. Their categories of models are closed: the Hom sets have a natural model-structure, and the enriched Hom-functor has a left adjoint, _tensor-product_. The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
+_[[commutative algebraic theory|Commutative algebraic theories]]_ are (single-sorted) algebraic theories for which each operation is an algebra homomorphism. These form an important subclass. Their categories of models are [[closed monoidal category|closed]]: the [[hom sets]] have a natural model-structure (algebra-structure), and the enriched Hom-functor has a [[left adjoint]], _[[tensor product]]_. 
+
+The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
 
 ## Equivalence between monads and theories 
 
