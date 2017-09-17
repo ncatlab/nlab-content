@@ -63,6 +63,10 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
   * [[vector bundle]]
 
+    * [[line bundle]]
+
+    * [[stable vector bundle]]
+
   * [[equivariant bundle]]
 
   * [[bundle of spectra]]
