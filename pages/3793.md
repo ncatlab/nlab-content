@@ -46,4 +46,18 @@
 
 * [[(infinity,1)-Grothendieck construction|Grothendieck construction]]
 
+## Relation to other concepts
+
+* [[relation between quasi-categories and simplicial categories|relation to simplicial categories]]
+
+  * [[homotopy coherent nerve]]
+
+  * [[simplicial model category]]
+
+  * [[presentable (∞,1)-category|presentable quasi-category]]
+
+* [[Kan complex]]
+
+  * [[model structure on simplicial sets]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/quasi-category+theory+contents)</div>
