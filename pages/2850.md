@@ -25,11 +25,7 @@ Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riem
 
 ## Related concepts
 
-  local model           |     global geometry
-------------------------|--------------------------
- [[Euclidean geometry]] | [[Riemannian geometry]]
-  [[Klein geometry]]    |    [[Cartan geometry]]
-
+[[!include local and global geometry - table]]
 
 ## References
 
