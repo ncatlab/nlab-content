@@ -22,6 +22,8 @@ A description of the [[worldline]] dynamics of interacting  [[D0-brane]]s. In th
 
 * [[IKKT matrix model]]
 
+* [[membrane matrix model]]
+
 
 ## References
 
