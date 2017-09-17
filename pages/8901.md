@@ -1,0 +1,6 @@
+GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory. 
+
+
+###Link
+
+* [GAP Homepage](http://www.gap-system.org/)
