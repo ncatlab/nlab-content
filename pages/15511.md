@@ -1,3 +1,3 @@
-Erk, Iqram? Macam mana ni? Aku dah segan dengan dia ni.
- <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=513" >nike air Jordan RCVR II yellow</a>
-[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=513]nike air Jordan RCVR II yellow[/url]
+Tidurku tersentak. Aku bangkit. Suara garau itu kembali. Nyaring percakapannya, butiran maksud yang aku tidak fahami kerana aku masih kecil lagi. Aku tidak memahami maksud percakapan orang dewasa. Yang aku tahu hanya menangis, sakit dan takut. Itulah perasaan aku kini.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2378" >nike air Jordan SC-3 Premium gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2378]nike air Jordan SC-3 Premium gold[/url]
