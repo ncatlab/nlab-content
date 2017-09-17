@@ -10,14 +10,7 @@ An _archimedean field_ is an [[ordered field]] in which every element is bounded
 So an archimedan field has no infinite elements (and thus no non-zero [[infinitesimal object|infinitesimal]] elements).
 
 
-## Properties
-
-### Complete fields
-
-Any [[field]] $k$ equipped with an [[absolute value]] ${\vert -\vert}$ which is a [[complete field]] with respect to the corresponding [[metric]] is archimedean of ${\vert -\vert}$ is archimedean as an [[absolute value]], in which case it is either the [[real numbers]] or the [[complex numbers]], or the absolute value is non-archimedean and then so is the field.
-
-
-## Non-archimedean field
+## Non-archimedean fields
 
 For $k$ a non-archimedean field for some non-archimedean [[absolute value]] ${\vert -\vert}$ one defines
 
