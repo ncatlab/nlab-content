@@ -5,4 +5,6 @@
 
 * [[Cartesian fibration of dendroidal sets]]
 
+* [[model structure for dendroidal Cartesian fibrations]] 
+
 category: people
