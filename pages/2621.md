@@ -15,13 +15,15 @@
 
 ## Idea
 
+### General
+
 _Perturbation theory_ is a general method of finding (or even defining) the solution of equations of mathematical physics by expanding them with respect to a small parameter in the vicinity of known, defined or well-understood solution (for which the small parameter is $0$). It is used in the study of PDEs involving operators depending on small parameter, in classical and celestical mechanics, in quantum mechanics, and in the statistical and quantum field theory. 
 
 One of the varieties of perturbation theory provides a method to make sense of and handle the [[path integral]] involved in the [[quantization]] of [[classical field theory]] to [[quantum field theory]].
 
 It is based on the observation that the [[quantization]] of free [[classical field theory|classical field theories]], whose [[action functional]] contains only the kinetic term, is well understood; therefore, the quantization of a functional consisting of a kinetic term and polynomial interaction terms may be expanded like a [[Taylor series]] in the interaction terms, thus yielding what looks like a series of [[correlator]]s in a free field theory.  If the **coupling constant** -- the parameter in front of the interaction terms -- is small enough, one says one is in the _weakly coupled regime_ of the theory and expects this perturbation series to approximate the desired answer. Usually, even for that to work the [[action functional]] first has to be subjected to [[renormalization]].
 
-## More details
+### More details
 
 Suppose we're working with a quantum system that's nearly a [[quantum harmonic oscillator]], but not quite; that is, the quadratic potential $V_0 = \frac{1}{2}k x^2 - \frac{1}{2}$ is only a good local approximation to the real potential $V_0 + \lambda V$.  Then we can write the [[Hamiltonian]] as $H = H_0 + \lambda V,$ where $V$ is a function of the [[position]] $x$ and the [[momentum]] $p$ (or equivalently, of $z = \frac{p+i x}{\sqrt{2}}$ and $\frac{d}{dz}$) and $\lambda$ is small.
 
@@ -47,6 +49,36 @@ The lines represent evolving under the free Hamiltonian $H_0$, while the dots ar
 
 As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \frac{1}{\sqrt{2}}$ so that $\lambda V = p.$  When $V$ acts on a state $\psi = z^n,$ we get $V \psi = z^{n+1} + nz^{n-1}.$  So at each interaction, the system either gains a photon or changes phase and loses a photon.
 
+## Properties
+
+### Divergence/Convergence
+ {#DivergenceConvergence}
+
+Despite what one might naively expect, the [[perturbation series]] of natural [[quantum field theories]] have a vanishing [[radius of convergence]]. 
+
+Roughly this can be understood as follows: since the pertrubation is in the [[coupling constant]] about vanishing coupling, a non-zero [[radius of convergence]] would imply that the theory is finite also for _negative_ coupling (where "things fly apart"), which will not happen in realistic theories. 
+
+More in detail, [[theory (physics)|theories]] with [[non-perturbative effects]] such as [[instantons]] [[field (physics)|field]] configurations (such as [[Yang-Mills theory]], hence [[QCD]], [[QED]]), [[branes]] (such as [[string theory]]), etc., are expected to have a  [[path integral]] which as a [[function]] of the [[coupling constant]] $g$ schematically looks like
+
+$$
+  Z(g)
+  = 
+  \sum_n a_n g^n
+  + 
+  e^{-A/g}
+  \sum_n a_n^{(1)} g^n
+  + 
+  \mathcal{O}(e^{-2A/g})
+  \,,
+$$
+
+where the first sum is the [[perturbation series]] itself and where the terms with a prefactor of the form $\exp(-A/g)$ are the contributions of the [[instantons]] ($A$ is the contribution of the [[instanton]] [[action functional]]). Since all the [[derivatives]] of the function $g \mapsto e^{-1/g}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the path integral does not appear in [[perturbation series]], even though it is present. Therefore this is called a _[[non-perturbative effect]]_.
+
+See the [references below](#ReferencesDivergenceConvergence) for details.
+
+(See also at _[string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)_.)
+
+
 ## Related concepts
 
 * **perturbation theory**
@@ -54,6 +86,8 @@ As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \fr
 * [[renormalization]]
 
 * [[Feynman diagram]]
+
+* [[scattering amplitude]], [[string scattering amplitude]]
 
 * [[non-perturbative quantum field theory]]
 
@@ -70,6 +104,18 @@ A solid mathematical formulation of perturbation theory has been given in
 * K. Hepp.: _Th&eacute;orie de la Renormalisation_ Lect. Notes in Phys. Springer (1969)
 
 * O. Steinmann, _Perturbation expansion in axiomatic field theory_ Lect. Notes in Phys. 11, Springer (1971)
+
+### On Divergence/Convergence and Non-perturbative effects
+ {#ReferencesDivergenceConvergence}
+
+A general introduction on divergence of perturbation theory, asymptotic series and [[non-perturbative effects]] is for instance on the first pages of
+
+* Marcos Marino, _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
+
+Further discussion is for instance in
+
+* Physics.Stack exchange discussion, _[Is QCD free from all divergences?](http://physics.stackexchange.com/questions/30105/is-qcd-free-from-all-divergences)_
+
 
 ### In AQFT
  {#ReferencesInAQFT}
