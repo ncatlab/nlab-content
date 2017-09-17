@@ -190,7 +190,7 @@ One way to explain linear logic to a category theorist is to say that its models
 
 Firstly, there is a monoidal '[[tensor product|tensor]]' connective
 $A \otimes B$.  [[negation|Negation]] $A^\bot$ is modelled by the duality
-involution $(-)^*$, while linear implication $A\multimap B$
+involution $(-)^*$, while [[linear implication]] $A\multimap B$
 corresponds to the [[internal hom]], which can be defined as
 $(A\otimes B^\bot)^\bot$.  There is a [[de Morgan dual]] of the
 tensor called 'par', with $A \parr B = (A^\bot\otimes B^\bot)^\bot$.  Tensor and par are the
