@@ -32,21 +32,24 @@ $$
 
 where $W_3$ is the _third [[integral Stiefel-Whitney class]]_ . 
 
-An [[oriented]] manifold $X$ **has $Spin^c$-structure** if the class $[W_3(X)] \in H^3(X, \mathbb{Z})$
+An [[oriented]] manifold $X$ **has $Spin^c$-structure** if the [[characteristic class]] $[W_3(X)] \in H^3(X, \mathbb{Z})$
 
 $$
-  W_3(X) := W_3(T X) : X \stackrel{T X}{\to} B SO(n) \stackrel{W_3}{\to} B^2 U(1) \simeq K(\mathbb{Z},3)
+  W_3(X) \coloneqq W_3(T X) 
+  \;\colon\;
+  X \stackrel{T X}{\to} B SO(n) \stackrel{W_3}{\to} B^2 U(1) \simeq K(\mathbb{Z},3)
 $$
 
-is trivial. This is the class of the [[circle n-bundle|circle 2-bundle]]/[[bundle gerbe]] that obstructs the existence of a $Spin^c$-[[principal bundle]].
-A given **equipped with $Spin^c$-structure** $\eta$ if it is equipped with a choice of trivializaton 
+is trivial. This is the [[Dixmier-Douady class]] of the [[circle n-bundle|circle 2-bundle]]/[[bundle gerbe]] that [[obstruction|obstructs]] the existence of a $Spin^c$-[[principal bundle]] [[lift of structure group|lifting]] the given [[tangent bundle]].
+
+A manifold $X$ is **equipped with $Spin^c$-structure** $\eta$ if it is equipped with a choice of trivializaton 
 
 $$
   \eta : 1 \stackrel{\simeq}{\to} W_3(T X)
   \,.
 $$
 
-The [[space]]/[[∞-groupoid]] of $Spin^c$-structures on $X$ is the [[homotopy fiber]] $W_3 Struc(T X)$ in the [[pasting diagram]] of [[homotopy pullback]]s
+The [[homotopy type]]/[[∞-groupoid]] of $Spin^c$-structures on $X$ is the [[homotopy fiber]] $W_3 Struc(T X)$ in the [[pasting diagram]] of [[homotopy pullback]]s
 
 $$
   \array{
@@ -108,7 +111,7 @@ In parallel to the existence of [higher spin structures](spin+structure#Higher) 
 +-- {: .num_defn}
 ###### Definition
 
-The group $Spin^c$ is
+The group $Spin^c$ is the [[fiber product]]
 
 $$
   \begin{aligned}
@@ -232,6 +235,37 @@ which is the original definition.
 
 =--
 
+This factors the above characterization of $\mathbf{B}Spin^c$ as the homotopy fiber of $\mathbf{W}_3$:
+
++-- {: .num_prop }
+###### Proposition
+
+We have a [[pasting diagram]] of [[homotopy pullbacks]] of [[smooth infinity-groupoids]] of the form
+
+$$
+  \array{
+    \mathbf{B} Spin^c &\to& \mathbf{B}U(1) &\to& \ast
+    \\
+    \downarrow && \downarrow^{\mathrlap{c_1 \, mod\, 2}}
+    && \downarrow
+    \\
+   \mathbf{B}SO &\stackrel{\mathbf{w}_2}{\to}&
+   \mathbf{B}^2 \mathbb{Z}_2
+   \stackrel{\mathbf{\beta}_2}{\to}
+   \mathbf{B}^2 U(1)
+  }
+  \,.
+$$
+
+=--
+
+
+This is discussed at _[Spin^c -- Properties -- As the homotopy fiber of smooth w3](spin%5Ec#AsHomotopyFiberOfSmoothW3)_.
+
+### As $KU$-orientation
+
+For $X$ an [[orientation|oriented]] [[manifold]], the map $X \to \ast$ is [[orientation in generalized cohomology|generalized oriented]] in [[periodic complex K-theory]] precisely if $X$ has a $Spin^c$-structure.
+
 ## Examples
 
 ### From almost complex structures
@@ -248,7 +282,9 @@ $$
   \array{
     \mathbf{B}U(n) &\to& \mathbf{B}U(1)
     \\
-    \downarrow && \downarrow^{\mathrlap{\mathbf{c_1} mod 2}}
+    \downarrow 
+     &\swArrow& 
+    \downarrow^{\mathrlap{\mathbf{c_1} mod 2}}
     \\
     \mathbf{B}SO(2n) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}_2
   }
@@ -266,13 +302,24 @@ By the general relation between $c_1$ of an [[almost complex structure]] and $w_
 
 =--
 
-By prop. \ref{SpinCAsHomotopyFiberProductW2C1} this induces a canonical morphism
++-- {: .num_remark}
+###### Remark
+
+
+By prop. \ref{SpinCAsHomotopyFiberProductW2C1} and the [[universal property]] of the [[homotopy pullback]] this induces a canonical morphism
 
 $$  
   k \colon \mathbf{B}U(n) \to \mathbf{B}Spin^c
+  \,.
 $$
 
+=--
+
 and this is the universal morphism from almost complex structures:
+
++-- {: .num_defn}
+###### Definition
+
 
 For $c \colon X \to \mathbf{B}U(n)$ modulating an [[almost complex structure]]/[[complex vector bundle]] over $X$, the composite
 
@@ -281,6 +328,8 @@ $$
 $$
 
 is the corresponding $Spin^c$-structure.
+
+=--
 
 ## Related concepts
 
@@ -321,7 +370,7 @@ Other accounts include
 
 * _Stable complex and $Spin^c$-structures_ ([[StableComplexSpinC.pdf:file]])
 
-### As anomaly cancellation in type II string theory
+### As $KU$-orientation/anomaly cancellation in type II string theory
 
 That the $U(1)$-[[gauge field]] on a [[D-brane]] in [[type II string theory]] in the absense of a [[B-field]] is rather to be regarded as part of a $spin^c$-structure was maybe first observed in 
 
