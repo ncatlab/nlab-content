@@ -1,20 +1,36 @@
 
+Michael Hopkins is a mathematician at Harvard University.
+
 * [website](http://www.harvardscience.harvard.edu/directory/researchers/michael-j-hopkins)
 
-## related $n$Lab entries
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_J._Hopkins)
 
-(huge number should go here, but for the moment there is)
+Hopkins is a world leading researcher in [[algebraic topology]] and ([[stable homotopy theory|stable]]-)[[homotopy theory]].
+
+Among his notable achievements are his work on the [[Ravenel conjectures]], the introduction and discussion of the [[generalized cohomology theory]] _[[tmf]]_  and its [[string orientation of tmf|string orientation]], a formalization and construction of [[differential cohomology]], the proof of the [[Kervaire invariant]] problem.  More recently via [[Jacob Lurie]]'s work on the [[cobordism hypothesis]] Hopkins participates in work related to the foundations of [[quantum field theory]].
+
+## some writings
 
 * _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
 
 * _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+
+* _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+
+
+## related $n$Lab entries
+
+(huge number should go here, but for the moment there is the following)
 
 * [[A Survey of Elliptic Cohomology]]
 
 * [[Hopkins-Miller theorem]]  
 
 
+
 category: people
 
 [[!redirects Michael Hopkins]]
 [[!redirects M. Hopkins]]
+[[!redirects Hopkins]]
+[[!redirects Mike Hopkins]]
