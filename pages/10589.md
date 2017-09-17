@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -21,6 +31,8 @@ Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory i
 
 
 ## Related concepts
+
+* [[number theory]]
 
 * [[Riemann zeta function]]
 
