@@ -244,13 +244,7 @@ The claim then follows with lemma \ref{RelativelyCompactInInfinityGroupods}.
 
 ### Object classifier in presheaf $(\infty,1)$-toposes
 
-Let $C$ be an [[(∞,1)-category]] and
-
-$$
-  \mathbf{H} = PSh_{\infty}(C)
-$$
-
-the [[(∞,1)-category of (∞,1)-presheaves]] over $C$.
+Let $C$ be an [[(∞,1)-category]] and $\mathbf{H} = PSh_{\infty}(C)$ the [[(∞,1)-category of (∞,1)-presheaves]] over $C$.
 
 
 
@@ -258,7 +252,7 @@ By the [[(∞,1)-Yoneda lemma]],
 the $\kappa$-compact object classifier here should be
 the presheaf which assigns to $U \in C$ the 
 $\infty$-groupoid of relatively $\kappa$-compact
-morphisms $X \to U$ in $\infty Grpd$.
+morphisms $X \to U$ in $PSh_\infty(C).
 
 ## Related concepts
 
