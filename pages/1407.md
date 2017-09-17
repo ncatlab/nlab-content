@@ -22,6 +22,10 @@
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
 =--
 =--
 
