@@ -22,16 +22,25 @@ The _analytic topology_ on an complex [[analytic space]] is the one given by [[c
 
 ## Properties
 
+### Riemann existence theorem
+
+* [[Riemann existence theorem]]
+
+### Comparison theorem
+
 The [[comparison theorem (étale cohomology)]] relates the [[étale cohomology]] of a [[complex variety]] with the [[ordinary cohomology]] of its complex analytic topological space.
 
 ## Related concepts
 
 * [[étale topology]]
 
+* [[complex analytic space]]
 
 ## References
 
 * [[Brian Osserman]], _Complex varieties and the analytic topology_ ([pdf](http://www.math.ucdavis.edu/~osserman/math/analytic.pdf))
+
+* [[James Milne]], section 21 of _[[Lectures on Étale Cohomology]]_
 
 [[!redirects analytic topology]]
 
