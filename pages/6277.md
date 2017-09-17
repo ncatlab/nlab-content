@@ -5,25 +5,22 @@
 
 ## Motivation
 
-In Lie theory, Bernoulli numbers appear as coefficients 
-in the linear part of the [[Hausdorff series]] (and recursive
-relation for the Dynkin Lie polynomials appearing in Hausdorff series); this has consequences in [[deformation theory]]. 
-(Determinant of the square root of) inverse of its generating function appears (for variable in adjoint representation) in an expression for the [[Duflo isomorphism]] in Lie theory and in its generalizations in knot theory etc. 
+In [[Lie theory]], _Bernoulli numbers_ appear as [[coefficients]] 
+in the linear part of the [[Hausdorff series]] (and the [[recursion|recursive]]
+relation for the Dynkin Lie polynomials appearing in the Hausdorff series); this has consequences in [[deformation theory]]. 
+The (determinant of the square root of the) inverse of its generating function appears (for variables in an [[adjoint representation]]) in an expression for the [[Duflo isomorphism]] in Lie theory and in its generalizations in [[knot theory]] etc. 
 
-In algebraic topology Bernoulli numbers (or equivalently, 
-their generating function) appear 
-in the expression for the [[Todd class]] 
-and as the order of some groups 
-in the [[image of the J-homomorphism]] 
+In [[algebraic topology]] Bernoulli numbers (or equivalently, their [[generating functions]]) appear  in the expression for the [[Todd class]] 
+and as the order of some groups in the [[image of the J-homomorphism]] 
 (cf. [Adams 65, section 2](#Adams65)).
 
-It also has applications in analysis ([[Euler-MacLaurin formula]], with applications in numerical analysis).
+They also have applications in analysis ([[Euler-MacLaurin formula]], with applications in numerical analysis).
 
-Bernoulli numbers appear also in [[umbral calculus]]. There are generalizations, for example, Bernoulli polynomials. 
+Bernoulli numbers appear also in [[umbral calculus]]. There are generalizations, for example, [[Bernoulli polynomials]]. 
 
 ## Definition
 
-Bernoulli numbers $B_k$ are rational numbers given by their [[generating function]], i.e. by the [[equation]] of [[functions]]/[[power series]] $x \mapsto f(x)$
+The Bernoulli numbers $B_k$ are [[rational numbers]] given by their [[generating function]], i.e. by the [[equation]] of [[functions]]/[[power series]] $x \mapsto f(x)$
 
 $$
   \frac{x}{
@@ -66,6 +63,6 @@ the unknot_, [q-alg/9703025](http://arxiv.org/abs/q-alg/9703025)
 
 ### Analysis
 
-* T. Tao's blog: [The Euler-Maclaurin formula, Bernoulli numbers, the zeta function, and real-variable analytic continuation](http://terrytao.wordpress.com/2010/04/10/the-euler-maclaurin-formula-bernoulli-numbers-the-zeta-function-and-real-variable-analytic-continuation)
+* [[Terence Tao]]'s blog: [The Euler-Maclaurin formula, Bernoulli numbers, the zeta function, and real-variable analytic continuation](http://terrytao.wordpress.com/2010/04/10/the-euler-maclaurin-formula-bernoulli-numbers-the-zeta-function-and-real-variable-analytic-continuation)
 
 [[!redirects Bernoulli numbers]]
