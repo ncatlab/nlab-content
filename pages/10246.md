@@ -24,6 +24,8 @@ The term _moduli_ refers to
 
 ## Related concepts
 
+* [[moduli problem]]
+
 * [[dilaton]]
 
 * [[landscape of string theory vacua]]
