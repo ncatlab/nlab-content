@@ -19,8 +19,9 @@
 
 ## Idea
 
-The (expected) phenomenon in [[Yang-Mills theory]]/[[QCD]] that [[quark]]-excitations must form [[bound state|bound states]] which are neutral under the color charge -- such as the [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]) and [[meson|mesons]].
+Confinement (e.g [Espiru 94](#Espiru94)) is the (expected) phenomenon in [[Yang-Mills theory]]/[[QCD]] that [[quark]]-excitations must form [[bound state|bound states]] which are neutral under the color charge -- such as the [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]) and [[meson|mesons]].
 
+Confinement is a [[non-perturbative effect]] (e.g [Espiru 94](#Espiru94)).
 ## Formalizations
 
 ### In $N=2$ supersymmetric Yang-Mills theory
@@ -40,6 +41,11 @@ The idea is indicated in
 * Wikipedia, _[Color confinement](http://en.wikipedia.org/wiki/Color_confinement)_
 
 ### In Yang-Mills theory
+
+Introductions and surveys include
+
+
+* {#Espiru94} D. Espriu, section 7 of _Perturbative QCD_ ([arXiv:hep-ph/9410287](http://arxiv.org/abs/hep-ph/9410287))
 
 A formulation of confinement as an open problem of mathematical physics, together with many references, is in 
 
