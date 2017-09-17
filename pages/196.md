@@ -62,6 +62,8 @@ See the MathOverflow: [what-are-maps-between-proper-classes](http://mathoverflow
 
 ## Related concepts
 
+* [[function set]]
+
 * [[continuous function]], [[smooth function]]
 
 * [[fixed point]]
