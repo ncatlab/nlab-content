@@ -286,7 +286,8 @@ We discuss <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-
 
 
 
-#### Lie groups {#LieGroups}
+#### Lie groups 
+ {#LieGroups}
 
 Let $G$ be a [[Lie group]]. Under the [embedding](#SmoothManifoldEmbeds) 
 $SmoothMfd \hookrightarrow Smooth \infty Grpd$ this is canonically identifed as a  [[0-truncated]] [[∞-group]] object in $Smooth \infty Grpd$.
@@ -1056,7 +1057,7 @@ The last statement follows then from the observation ([Brylinski](#Brylinski)) t
 +-- {: .un_prop}
 ###### Proposition
 
-Let $G$ be a [[Lie group]] and $\mathbf{B}G \in \mathbf{H} := \infty LieGrpd$ its [[delooping]] as discussed above. Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]]. Then
+Let $G$ be a [[Lie group]] and $\mathbf{B}G \in \mathbf{H} := \infty LieGrpd$ its [[delooping]] as discussed [above](LieGroups). Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]]. Then
 
 $$
   \mathbf{H}(X,\mathbf{B}G)
@@ -1068,18 +1069,10 @@ $$
 is equivalent to the groupoid of smooth $G$-[[principal bundle]]s on $X$. In particular
 
 $$
-  H^1(X,G) \simeq \pi_0 \mathbf{H}(X,\mathbf{B}G)
+  H^1_{Smooth}(X,G) \simeq \pi_0 \mathbf{H}(X,\mathbf{B}G)
 $$
 
-is the [[nonabelian cohomology]] of $X$ with coefficients in $G$. 
-
-If $K$ is any other group with a smooth [[action]] on $X$ and $X//K$ the corresponding Lie [[action groupoid]], then 
-
-$$
-  \mathbf{H}(X//K, \mathbf{B}G) \simeq G Bund^K(X)
-$$
-
-is the groupoid of $K$-[[equivariant bundle|equivariant]] $G$-[[principal bundle]]s. In particular
+is the [[nonabelian cohomology|nonabelian]] smooth [[Cech cohomology]] of $X$ with coefficients in $G$. 
 
 Analogously, let $G$ be a strict [[Lie 2-group]] such that $\pi_0 G$ is a [[smooth manifold]] and $G_0 \to \pi_0 G$ is a [[submersion]]. Then we have that
 
