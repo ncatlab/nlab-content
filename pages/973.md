@@ -94,7 +94,7 @@ An overview of the theory is given in
 An extensive treatment of the links between theories, sketches and models can be found in 
 
 * [[Michael Makkai]], [[Robert Paré]], _Accessible categories: The foundations of categorical model theory_ Contemporary Mathematics 104. American Mathematical
-Society, Rhode Island, 1989.1989. 
+Society, Rhode Island, 1989. 
 {#MakkaiPare}
 
 * [[Michael Barr]], [[Charles Wells]], _[[Toposes, Triples, and Theories]]_, Originally published by:
