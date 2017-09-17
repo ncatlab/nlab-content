@@ -162,6 +162,7 @@ Terminology: [[EGA]] says prescheme, for what we call algebraic scheme, and says
 
 MathOverflow: [arbitrary-products-of-schemes-dont-exist](http://mathoverflow.net/questions/9134/arbitrary-products-of-schemes-dont-exist-do-they), [model-of-a-scheme-regular-over-the-generic-point](http://mathoverflow.net/questions/32196/model-of-a-scheme-regular-over-the-generic-point), [categorical-construction-of-the-category-of-schemes](http://mathoverflow.net/questions/26506/categorical-construction-of-the-category-of-schemes), [when-is-an-algebraic-space-a-scheme](http://mathoverflow.net/questions/4573/when-is-an-algebraic-space-a-scheme), [is-an-algebraic-space-group-always-a-scheme](http://mathoverflow.net/questions/8918/is-an-algebraic-space-group-always-a-scheme), [connections-between-various-generalized-algebraic-geometries-toen-vaquie-durov](http://mathoverflow.net/questions/89475/connections-between-various-generalized-algebraic-geometries-toen-vaquie-durov)
 
+category: algebraic geometry
 [[!redirects schemes]]
 [[!redirects algebraic scheme]]
 [[!redirects algebraic schemes]]
