@@ -375,7 +375,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-There is, in general, a decisive difference between the homology of the associated graded complex $H_{p+q}(G_p C_\bullet)$ and the associated graded piece of the genuine homology $G_p H_{p+q}(C_\bullet)$: in the former the differentials of cycles are required to vanish only up to terms in lower degree, but in the latter they are requird to vanish genuinely. The latter expression is instead the value of the spectral sequence for $r \to \infty$, see prop. \ref{ConvergingToGenuineHomology} below.
+There is, in general, a decisive difference between the homology of the associated graded complex $H_{p+q}(G_p C_\bullet)$ and the associated graded piece of the genuine homology $G_p H_{p+q}(C_\bullet)$: in the former the differentials of cycles are required to vanish only up to terms in lower degree, but in the latter they are required to vanish genuinely. The latter expression is instead the value of the spectral sequence for $r \to \infty$, see prop. \ref{ConvergingToGenuineHomology} below.
 
 =--
 
