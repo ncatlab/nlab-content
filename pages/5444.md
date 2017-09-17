@@ -18,9 +18,9 @@
 +-- {: .un_def}
 ######Definition 
 
-An **(finitary) essentially algebraic $(\infty,1)$-theory** is an [[(∞,1)-category]] $T$ with finite [[(∞,1)-limit]]s.
+An **(finitary) essentially algebraic $(\infty,1)$-theory** is an [[(∞,1)-category]] $T$ with (finite) [[(∞,1)-limit]]s.
 
-An **algebra** over an essentially algebraic $(\infty,1)$-theory in some [[(∞,1)-topos]] $\mathcal{X}$ is a finite-limit preserving [[(∞,1)-functor]]
+An **algebra** over an essentially algebraic $(\infty,1)$-theory in some [[(∞,1)-topos]] $\mathcal{X}$ is a (finite) $(\infty,1)$-limit preserving [[(∞,1)-functor]]
 
 $$
   A : T \to \mathcal{X}
