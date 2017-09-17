@@ -2,7 +2,7 @@
 
 **[[cohomology]]**
 
-* [[cocycle]]
+* [[cocycle]], [[coboundary]]
 
 * [[characteristic class]], [[secondary characteristic class]]
 
