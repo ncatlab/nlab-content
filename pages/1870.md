@@ -153,6 +153,13 @@ $$
 After unwrapping what this means, the result of ([Gomi](#Gomi))
 shows that [[concordance]] classes in $\mathbf{H}^c(X,Vectr)$ yield twisted K-theory.
 
+## Twists
+
+By the general discussion of [[twisted cohomology]] the [[moduli space]] for the twists of [[periodic complex K-theory]] $KU$ is the [[Picard ∞-group]] in $KU Mod$. The "geometric" twists among these have as moduli space the non-connected delooping $bgl_1^\ast(KU)$ of the [[∞-group of units]] of $KU$.
+
+A model for this in 4-truncation is given by [[super line 2-bundles]]. For the moment see there for further discussion and further references.
+
+
 
 ## Related concepts
 
