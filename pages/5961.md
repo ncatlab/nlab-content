@@ -31,6 +31,12 @@ The collection of all Lagrangian subspaces of a given space is called its [[Lagr
 
 ## Related concepts
 
+* [[Lagrangian Grassmannian]]
+
+* [[Lagrangian submanifold]]
+
+* [[Maslov index]]
+
 [[!include (co)isotropic subspaces - table]]
 
 
