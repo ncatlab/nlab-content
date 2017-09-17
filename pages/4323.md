@@ -399,7 +399,7 @@ It turns out that a sufficient condition is that $X$ a closed [[smooth manifold]
 
 Using this one shows that the [[trace]] of the identity on $\Sigma^\infty_+ X$ in $Ho(Spec)$ -- the categorical [[dimension]] of $\Sigma^\infty_+ X$ -- is the [[Euler characteristic]] of $X$.
 
-This appears as ([PontoShulman, example 3.7](#PontoShulman)).
+This characterization is due to Dold.  It is mentioned as an example of traces in the expository ([PontoShulman, example 3.7](#PontoShulman)).
 
 
 ## Cohomology
@@ -435,8 +435,7 @@ The generalized notion of Thom spectra is discussed in
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
-The relation of Thom spectra to dualizable objects in the stable homotopy catregory is discussed as example 3.7 in
+The relation of Thom spectra to dualizable objects in the stable homotopy catregory is mentioned as example 3.7 in the expository
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_ ([pdf](http://www.math.ucsd.edu/~mshulman/papers/traces_sym.pdf), [slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf)).
  {#PontoShulman}
-
