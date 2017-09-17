@@ -59,7 +59,7 @@ Although intuitionstic mathematics does not accept all [[function sets]] (much l
 
 ## Related concepts
 
-* [[intuitionistic type theory]]
+* [[intuitionistic type theory]], [[homotopy type theory]]
 
 [[!redirects intuitionistic mathematics]]
 [[!redirects intuitionism]]
