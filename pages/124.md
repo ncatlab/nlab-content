@@ -7,7 +7,7 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
-#### Categeory Theory
+#### Category Theory
 +--{: .hide}
 [[!include category theory - contents]]
 =--
