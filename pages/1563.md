@@ -19,6 +19,10 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 
   (on [[algebraic theories]], now also called [[Lawvere theories]])
 
+* _Metric spaces, generalized logic and closed categories_ Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
+
+  (on [[Cauchy complete categories]])
+
 * _Extensive and intensive quantities_ Workshop on Categorical Methods in Geometry, Aaerhus (1983)
 
   (a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "extensive quantities" and [[cohomology]]-like "intensive quantities")
