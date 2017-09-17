@@ -278,5 +278,7 @@ __253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9);
 
 * [[Kai Behrend]], [[Barbara Fantechi|B. Fantechi]], _The intrinsic normal cone_, Invent. Math. __128__ (1997), no. 1, 45--88, [MR98e:14022](http://www.ams.org/mathscinet-getitem?mr=98e:14022) [arXiv:alg-geom/9601010](http://arxiv.org/abs/alg-geom/9601010)
 
+* [[Dennis Gaitsgory]], _Lie theory from the point of view of derived algebraic geometry_, Lecture notes from a mini-course, Nantes, 2014, [web](http://www.math.harvard.edu/~gaitsgde/Nantes14/).
+
 [[!redirects deformation]]
 [[!redirects deformations]]
