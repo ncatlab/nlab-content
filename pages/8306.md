@@ -181,7 +181,42 @@ $$
 
 for the [[fiber product]] in [[sSet]].
 
-Moreover, for $\mathcal{C}^\otimes \to Tens^\otimes_S$ a [[fibration]] in the [[model structure for quasi-categories]] which exhibits $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], write
+=--
+
+([Lurie, notation 4.3.4.15](#Lurie))
+
++-- {: .num_prop}
+###### Proposition
+
+We have 
+
+* $Tens^\otimes_{[0]} \simeq Assoc^\otimes$, the [[associative operad]];
+
+* $Tens^\otimes_{[1]} \simeq BM^\otimes$ the [[operad for bimodules]].
+
+* $Tens^\otimes_{[k]} 
+    \simeq 
+   Tens^\otimes_{\{0,1\}} 
+    \underset{Tens^\otimes_{\{1\}}}{\coprod} 
+   Tens^\otimes_{\{1,2\}} 
+     \underset{Tens^\otimes_{\{2\}}}{\coprod} 
+     \cdots 
+     \underset{Tens^\otimes_{\{k-1\}}}{\coprod} 
+   Tens^\otimes_{\{k-1,k\}} 
+  $
+
+  as an [[(∞,1)-colimit]] in the [[(∞,1)-category]] of [[(∞,1)-operads]] (a dual _[[Segal condition]]_)
+
+
+=--
+
+([Lurie, example 4.3.4.6, 4.3.4.7, prop. 4.3.4.11](#Lurie))
+
++-- {: .num_defn #NotationForAlS}
+###### Definition (Notation)
+
+
+For $\mathcal{C}^\otimes \to Tens^\otimes_S$ a [[fibration]] in the [[model structure for quasi-categories]] which exhibits $\mathcal{C}^\otimes$ as an $S$-[[family of (∞,1)-operads]], write
 
 $$
   Alg_S(\mathcal{C}) \hookrightarrow Fun_{Tens^\otimes_S}(Step_S, \mathcal{C}^\otimes)
@@ -192,6 +227,8 @@ for the full [[sub-(∞,1)-category]] on those [[(∞,1)-functors]] which send i
 =--
 
 ([Lurie, notation 4.3.4.15](#Lurie))
+
+
 
 
 +-- {: .num_prop }
@@ -271,7 +308,7 @@ An extension of $(\gamma_0, \gamma_1)$ through the correspondence hence to a map
 
 ## References
 
-In the context of [[higher algebra]]/[[(∞,1)-category theory]] bilinear maps are discussed in section 4.3.4 of 
+In the context of [[higher algebra]]/[[(∞,1)-category theory]] [[bilinear maps in an (∞,1)-category]] are discussed in section 4.3.4 of 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
