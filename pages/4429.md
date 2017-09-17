@@ -22,10 +22,10 @@
 For $G$ a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, a $G$-[[principal bundle]] $P \to X$ on a [[smooth manifold]] $X$ induces a collection of classes in the [[de Rham cohomology]] of $X$: the classes of the [[curvature characteristic form]]s 
 
 $$
-  P(F_A) \in \Omega^{2n}_{closed}(X)
+  \langle F_A \wedge \cdots F_A \rangle \in \Omega^{2n}_{closed}(X)
 $$ 
 
-of the [[curvature]] 2-form $F_A \in \Omega^2(P, \mathfrak{g})$ of any [[connection on a bundle|connection]] on $P$, and for each [[invariant polynomial]] $P$ of arity $n$ on $\mathfrak{g}$.
+of the [[curvature]] 2-form $F_A \in \Omega^2(P, \mathfrak{g})$ of any [[connection on a bundle|connection]] on $P$, and for each [[invariant polynomial]] $\langle -\rangle$ of arity $n$ on $\mathfrak{g}$.
 
 This is a map from the first [[nonabelian cohomology]] of $X$ with coefficients in $G$ to the [[de Rham cohomology]] of $X$
 
@@ -51,7 +51,7 @@ We describe the _refined_ Chern-Weil homomorphism (which associates a class in [
 
 * and $B G := {\lim_\to}_n B^{(n)}G$ for the [[colimit]], a smooth model of the [[classifying space]] of $G$.
 
-* Write $\nala_{univ}$ for the [[universal connection]] on $E G \to B G$.
+* Write $\nabla_{univ}$ for the [[universal connection]] on $E G \to B G$.
 
 * Let $[c] \in H^k(B G, \mathbb{Z})$ be a [[characteristic class]] 
 
