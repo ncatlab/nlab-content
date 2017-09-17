@@ -64,7 +64,25 @@ This appears famously in the formulation of [[Chern-Simons theory]] [with Wilson
 
 A [[symplectic manifold]] regarded as a [[symplectic Lie n-algebroid]] with $n = 0$ induces a 1d Chern-Simons theory whose [[Chern-Simons form]] is a Liouville form of the symplectic form. 
 
-This case is discussed in 
+This case is discussed in ...
+
+## Related concepts
+
+* [[higher dimensional Chern-Simons theory]]
+
+  * **1d Chern-Simons theory**
+
+  * [[Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+  * [[AKSZ sigma-models]]
+
+  * [[string field theory]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
 
 ## References
 
@@ -91,3 +109,6 @@ A 1d Chern-Simons theory with target a [[cotangent bundle]] is discussed in
   {#GradyGwilliam}
 
 [[!redirects 1-dimensional Chern-Simons theories]]
+
+[[!redirects 1d Chern-Simons theory]]
+[[!redirects 1d Chern-Simons theories]]
