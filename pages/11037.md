@@ -53,7 +53,9 @@ $$
   A \vdash A
 $$
 
-Typically, a cut-elimination theorem will also eliminate the identity rule, *except* when applied to basic propositional variables (so for example, $p \wedge q \vdash p \wedge q$ may be proved using $p \vdash p$ and $q \vdash q$, in addition to the rules for $\wedge$, but $p \vdash p$ itself must be adopted as an axiom).
+Typically, a cut-elimination algorithm goes hand-in-hand with an algorithm which eliminates the identity rule, or rather which pushes back identities as far as possible, down to identities for basic propositional variables (so for example, $p \wedge q \vdash p \wedge q$ may be proved using $p \vdash p$ and $q \vdash q$, in addition to the rules for $\wedge$, but $p \vdash p$ itself must be adopted as an axiom). 
+
+In fact, there is a sense in which elimination of cuts is seen as _dual_ to elimination of identities, analogous to the sense in which [[beta reduction]] is seen as dual to [[eta expansion]]. Very typically, a normalization scheme on terms first applies eta expansions are far as they will go, and then applies beta reductions as far as they will go, so as to at last reach a normal form. The same goes for rewrite systems on sequent deductions, which first eliminate identities, then eliminate cuts.  
 
 
 ## References
