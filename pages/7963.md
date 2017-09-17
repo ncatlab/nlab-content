@@ -1,3 +1,17 @@
-The _Higgs particle_ is a [[boson]] hypothesized to be the quantum of the [[Higgs field]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Higgs particle_ is a [[boson]] hypothesized to be the quantum of the [[Higgs field]]. See there for more.
+
+## Related concepts
+
+* [[Higgs mechanism]], [[electroweak symmetry breaking]]
+
+[[!include fields and quanta - table]]
+
 
 [[!redirects Higgs bosons]]
