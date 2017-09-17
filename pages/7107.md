@@ -49,3 +49,5 @@ Traditionally, one requires a regular ordinal or cardinal to be [[infinite set|i
 
 [[!redirects cardinal cofinality]]
 [[!redirects cardinal cofinalities]]
+
+[[!redirects confinality]]
