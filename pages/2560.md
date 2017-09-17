@@ -44,7 +44,7 @@ The above notion generalizes to [[dendroidal set]]s
 ###### Definition
 
 
-The **spine** of a [[tree]] $T$ is the [[union]] over its corollas
+The **spine** of a [[tree]] $T$ is the [[union]] over its [[corollas]]
 
 $$
   Sp(T) = \bigcup_{C_{k} \to T} C_k
