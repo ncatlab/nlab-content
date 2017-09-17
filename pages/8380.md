@@ -88,17 +88,19 @@ The monads arising this way in computer science are usually required also to int
 
 * Other monads may be supplied "axiomatically" by the programming language, such as the [[IO monad]] in [[Haskell]].
 
-* Equipping [[homotopy type theory]] (say implemented as a programming language concretely in [[Coq]] or [[Agda]]) with two axiomatic [[idempotent monads]], denoted $\sharp$ and $\Pi$, with some additional data and relations, turns it into _[[cohesive homotopy type theory]]_.
+* Equipping [[homotopy type theory]] (say implemented as a programming language concretely in [[Coq]] or [[Agda]]) with two axiomatic [[idempotent monads]], denoted $\sharp$ and $\Pi$, with some additional data and relations, turns it into _[[cohesive homotopy type theory]]_. See also _[[modal type theory]]_.
+
+## Related concepts
+
+Examples of (co)monads in [[type theory]] appear in 
+
+* [[modal type theory]].
 
 ## References
 
-The technical definition can be found in...
-
-> ...where? There are many, many references of and expositions of monads in computer science. Somebody who knows a _good_ reference, please add it here. We may assume that the reader knows monads, and knows type systems. We need a reference that gives a crisp precise definition: "A monad in a typed functional programming language is ..."
-
 The original reference for monads as 'notions of computation' is
 
-* Eugenio Moggi, Notions of computation and monads. Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
+* [[Eugenio Moggi]], _Notions of computation and monads_ Information And Computation, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
 
 Expositions are in
 
