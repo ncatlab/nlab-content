@@ -1,31 +1,40 @@
+
+# Integrals
+* table of contents
+{: toc}
+
 ## Idea
 
-A sum $\sum_{s \in S} a_s$ is defined over a range $S$ which is, as a rule, a __discrete__ set. This set is also typically fixed in the sense that no subdivision is assumed in its definition, except sometimes for convergence purposes. Thus a general sum takes two arguments: a set $S$ and a function on $S$ and ouputs a value. In the case of sum of an infinite series the order may matter as the limiting procedure is taken into account.
+A __sum__ $\sum_{s \in S} a_s$ is defined over a domain $S$ which is, as a rule, a _discrete_ set. This set is also typically fixed in the sense that no subdivision is assumed in its definition, except sometimes for convergence purposes. Thus a general sum takes two arguments: a set $S$ and a function on $S$ and ouputs a value. In the case of sum of an infinite series the order may matter as the limiting procedure is taken into account.
 
-An __integral__ is a generalization of a sum where the range is typically not a discrete set, but some mathematical object, which may be (typically not in a single fixed way, but in many possible ways) approximated or split into pieces.
+An __integral__ is a generalization of a sum where the domain is typically not a discrete set, but some mathematical object, which may be (typically not in a single fixed way, but in many possible ways) approximated or split into pieces.
 The function to be integrated over the range, is some objects which is thought of
 as living over the range, some sort of a cocycle or a distribution. 
 The basic property from the integral is that it should behave nicely (typically additively in some sense) with respect to combining its values on pieces in the range and that, for a reasonable set of subdivisions the result should be the same (sometimes after passing to a limit). 
 
 For a fixed range, integral is typically an operator/functional on a set/space of allowed objects over the range.  
 
+
 ## Zoo of integrals 
 
 See also [[integration]] and [[measure theory]]. 
 
-Basic kinds of integrals in (super)analysis: [[Danielli integral]], [[Riemann integral]], Lebesgue integral, [[Berezin integral]], [[line integral]] 
+Basic kinds of integrals in (super)analysis: the [[Danielli integral]], the [[Riemann integral]], the [[Lebesgue integral]], the [[Berezin integral]], [[line integrals]].
 
-Special examples of the above include  
-[[Batalin-Vilkovisky integral]], [[Kontsevich integral]], [[Selberg integral]],[[elliptic Selberg integral]]
+Special examples of the above include the [[Batalin-Vilkovisky integral]], the [[Kontsevich integral]], the [[Selberg integral]],the [[elliptic Selberg integral]].
 
-Integration is involved in [[integral transform]]s, [[integral transforms on sheaves]], in various formulas for pairings, e.g. of chains and cochains...
+Integration is involved in [[integral transform]]s, [[integral transforms on sheaves]], in various formulas for pairings, e.g. of chains and cochains .... 
+Some statements involving integrals include the [[Stokes theorem]].
 
-A special topic are some infinite-dimensional versions including well-defined [[Wiener integral]] and, more problematic, [[path integral]], cf. also
 
-[[exercise in groupoidification - the path integral]], [[fermionic path integral]], [[path integral as a pull-push transform]],
+A special topic includes some infinite-dimensional versions including the well-defined [[Wiener integral]] and the more problematic [[path integral]], cf. also
 
-The basic problem with path integral is coming from the fact that there is no translation invariant Lebesgue measure on an infinite-dimensional real vector space with a finite nonzero value on the unit ball. 
+* [[exercise in groupoidification - the path integral]],
+* [[fermionic path integral]],
+* [[path integral as a pull-push transform]].
 
-Some statements involving integrals include [[Stokes theorem]]
+The basic problem with the path integral comes from the fact that there is no translation-invariant [[Lebesgue measure]] on an infinite-dimensional real vector space with a finite nonzero value on the unit ball.
 
+
+[[!redirects integral]]
 [[!redirects integrals]]
