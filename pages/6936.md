@@ -220,4 +220,8 @@ Expositions include
 
 * [[Egbert Rijke]], [[Bas Spitters]], _Higher inductive types_, talk notes (May 2013) ([pdf](http://www.cs.ru.nl/~spitters/presentation_HITs.pdf))
 
+Details are in 
+
+* [[Mike Shulman]], [[Peter LeFanu Lumsdaine]], _Semantics of higher inductive types_, 2012 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semantics.pdf/410646692/semantics.pdf))
+
 [[!redirects higher inductive types]]
