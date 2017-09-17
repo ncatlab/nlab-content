@@ -165,6 +165,10 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
 * [[extended supersymmetry]]
 
+* [[superconformal field theory]], [[2d SCFT]]
+
+  * [[super vertex operator algebra]]
+
 * [[supergravity]], [[superstring theory]]
 
   * [[supersymmetry and Calabi-Yau manifolds]]
