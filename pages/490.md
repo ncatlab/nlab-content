@@ -21,14 +21,15 @@ As an axiom, this has important consequences for algebra; there, one often uses 
 
 +-- {: .un_prop}
 ######Proposition
-In the presence of COSHEP, the following three axioms on [[Set]] are equivalent: 
+In the presence of COSHEP (and the base assumption that $Set$ forms a [[W-pretopos]]), the following three axioms on [[Set]] are equivalent: 
 
-1. The axiom of [[dependent choice]], 
+1. The axiom of [[dependent choice]] (DC), 
 
-1. The axiom of [[countable choice]], 
+2. The axiom of [[countable choice]] (CC), 
 
-1. Projectivity of the [[singleton]] (the [[terminal object]]) $1$. 
+3. Projectivity of the [[singleton]] (the [[terminal object]]) $1$. 
 
+Note that we normally assume (3), which is always true *[[internalization|internally]]* in any pretopos, so one normally says that DC and CC simply follow from COSHEP.  (Equivalently, internal DC and internal CC follow from internal COSHEP.)
 =-- 
 
 +-- {: .proof}
