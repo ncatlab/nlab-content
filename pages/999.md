@@ -63,7 +63,7 @@ $K$-[[finite object|finite]].
 
 ### In $Top$
 
-Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. The an open subset $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].
+Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].
 
 
 
