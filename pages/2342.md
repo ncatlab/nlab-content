@@ -53,21 +53,21 @@ More concretely there are various explicit and standard [[coordinates|coordinaza
 +-- {: .num_defn #EllipticCurve}
 ###### Definition
 
-An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group scheme]] (a [[group object]] in the [[category]] of [[schemes]]) over $Spec(R)$ that is a relative 1-dimensional, [[smooth scheme|smooth curve]], [[proper scheme|proper]] curve over $R$. 
+An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group scheme]] (a [[group object]] in the [[category]] of [[schemes]]) over $Spec(R)$ that is a relative 1-dimensional, [[smooth scheme|smooth]], [[proper scheme|proper]] curve over $R$. 
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This implies that an elliptic curve has [[arithmetic genus|arithmetic]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
+This implies that an elliptic curve has [[arithmetic genus]] $1$ (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-An elliptic curve over a [[field]] of [[positive number|positive]] [[characteristic]] whose [[formal group law]] has [[height of a formal group]] equal to 2 is called a _[[supersingular elliptic curve]]_. Otherwise the height equals 1 and the elliptic curve is called _ordinary_.
+An elliptic curve over a [[field]] of [[positive number|positive]] [[characteristic]] whose [[formal group law]] has [[height of a formal group|height]] equal to 2 is called a _[[supersingular elliptic curve]]_. Otherwise the height equals 1 and the elliptic curve is called _ordinary_.
 
 =--
 
