@@ -1,4 +1,11 @@
-[[!redirects barrelled topological vector space]]
+
+
+<div class="rightHandSide toc">
+[[!include functional analysis - contents]]
+</div>
+
+
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
@@ -66,3 +73,5 @@ The definition of quasibarreled is from
 [[!redirects Quasibarreled topological vector spaces]]
 [[!redirects Quasibarreled spaces]]
 [[!redirects quasibarreled spaces]]
+
+[[!redirects barrelled topological vector space]]
