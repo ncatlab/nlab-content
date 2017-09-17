@@ -16,12 +16,24 @@
 
 ## Idea
 
-According to _[[Science of Logic]]_ the [[unity of opposites|opposite]] of [[nothing]].
+According to _[[Science of Logic]]_ _pure being_ is the [[unity of opposites|opposite]] of [[nothing]] whose unity is pure [[becoming]]. 
 
 
 | |  | [[Dasein]] | |  |
 |--|--|--|--|--|
 | [[becoming]] : | [[nothing]] | $\;\;\;\dashv$ | [[being]] | : [[ceasing]] |
+
+In the formalization of this ([Lawvere 91](#Lawvere91)) this is described by the [[adjoint modality]]
+
+$$
+  (\emptyset \dashv \ast)
+$$
+
+of the [[idempotent monad]] constant on a [[terminal object]] $\ast$ and its [[left adjoint]] $\emptyset$.
+
+In this interpretation any other [[adjoint modality]] of the form $(\Box \dashv \bigcirc)$ characterizes a more "determinate" form of being ( _Dasein_ in the terminology of ([Hegel 12](#Hegel12))).
+
+A [[category]] equipped with such a notion of being is, naturally, called a _[[category of being]]_.
 
 ## Related concepts
 
@@ -29,11 +41,17 @@ According to _[[Science of Logic]]_ the [[unity of opposites|opposite]] of [[not
 
 * [[category of being]]
 
+* [[modality]]
+
 ## References
 
 * [[Hegel]], _[[Science of Logic]]_, Volume One: _The Objective Logic_, Book One, _The Doctrine of Being_, Chapter 1 _Being_
+ {#Hegel12}
 
-* [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_
+* [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ (1991)
+  {#Lawvere}
+
+* German Wikipedia, _[Sein](http://de.wikipedia.org/wiki/Sein)_
 
 [[!redirects Sein]]
 [[!redirects sein]]
