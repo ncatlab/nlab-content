@@ -44,9 +44,11 @@ Notice that the factorization axioms of a [[model category]] ensure that such re
 
 Of course for the notion of fibrant resolution to make sense, also the ambient structure of a [[category of fibrant objects]] works. For cofibrant resolutions a [[Waldhausen category]] does the job, etc.
 
+## Examples
 
+### In chain complexes
 
-## In chain complexes
+We consider the case of the one of the standard [[model structure on chain complexes]].
 
 If $C$ is a category of [[chain complex]]es in a suitable (possibly structured) [[abelian category]] or [[semiabelian category]] $A$ then one can in particular consider resolutions of ordinary objects of $A$ -- regarded as a chain complex concentrated in degree 0 - by chain complexes of $A$.
 
@@ -56,6 +58,10 @@ If each object $P_n$ is a [[projective object]] then  $P_\cdot \to M$ is a **pro
 
 There are further generalizations like unbounded resolutions etc.
 
+### In (co)simplicial objects in a model category
+
+(...)
+
 [[!redirects fibrant resolution]]
 [[!redirects cofibrant resolution]]
 
@@ -64,3 +70,8 @@ There are further generalizations like unbounded resolutions etc.
 [[!redirects injective resolution]]
 [[!redirects resolutions]]
 
+[[!redirects cofibrant replacement functor]]
+[[!redirects fibrant replacement functor]]
+
+[[!redirects cosimplicial resolution functor]]
+[[!redirects simplicial resolution functor]]
