@@ -228,31 +228,16 @@ Then
 This is [[Higher Topos Theory|HTT, prop 5.5.4.2]]. The reasoning is entirely analogous to the 1-categorical case (see for instance [[localization]], [[reflective subcategory]] and [[geometric embedding]]).
 
 
-First notice the following general statements about the unit $i : Id_C \to Loc$.
-Recall that by the assumption that $D \hookrightarrow C$ is a [[full and faithful (∞,1)-functor]] we have that the counit $L R \to Id_D$ is an equivalence. 
-
-From this it follows by repeatedly using the 
-hom-equivalence defining [[adjoint (∞,1)-functor]]s that for $z,x \in C$ 
-we have an equivalence
+First notice that because $D \hookrightarrow C$ is a [[full and faithful (∞,1)-functor]] we have that the counit $L R \stackrel{\simeq}{\to} Id_D$ is an equivalence. From this it follows that precomposition with the unit $i_z : z \to Loc z$ of morphisms in the image of $L$ is a weak equivalence: for all $z,x \in C$ we have
 
 $$
-  \begin{aligned}
+    Hom_C(i, Loc z)
+    :
     Hom_C(Loc z, Loc x)
-    &=
-    Hom_C(R L z, R L x)
-    \\
-    & \simeq
-    Hom_D(L R L z, L x)
-    \\
-    & \simeq
-    Hom_D(L z, L x)
-    \\
-    & \simeq
+    \simeq
     Hom_C(z, Loc x)
-  \end{aligned}
+  \,.
 $$
-
-which in total is given by precomposition with the unit $i_z : z \to Loc z $ of the adjunction.
 
 If $z$ is itself in the image of $Loc$, then this means that precomposition with the unit $z \to Loc z$ is an isomorphism on [[hom-set]]s in the [[homotopy category of an (infinity,1)-category|homotopy category]] of $Loc C$, hence by the [[Yoneda lemma]] is itself an isomorphism in the homotopy category, hence $i_z : z \to Loc z$ is a weak equivalence if $z$ is itself in the image of $Loc$.
 
