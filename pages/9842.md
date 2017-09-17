@@ -26,6 +26,8 @@ One could thus say, partly in jest, that Euclid was the ancient Hellenistic vers
 
 * Online article on Euclid ([web](http://www.mathopenref.com/euclid.html)) 
 
+* [St. Andrews history article](http://www-groups.dcs.st-and.ac.uk/history/Biographies/Euclid.html)
+
 category: people
 
 [[!redirects Euclid]]
