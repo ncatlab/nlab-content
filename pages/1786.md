@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents
 {:toc}
@@ -45,7 +46,9 @@ There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-
 
 The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$, which however is naturall even an [[A-infinity space]]. 
 
-The main example of an $H$-cogroup in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
+(The main example of an [[co-H-space|H-cogroup]] in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. )
+
+An example of an H-space that does not lift to an [[A-infinity space]] is the 7-[[sphere]] $S^7$. It can't be delooped because its [[delooping]] would have [[cohomology group]] a [[polynomial ring]] on a generator in degree 8, and this is impossible by mod $p$ [[Steenrod operations]] for any odd $p$.
 
 If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ has a natural group structure in the strict sense; analogously if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
 
