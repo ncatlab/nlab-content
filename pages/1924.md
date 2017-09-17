@@ -6,20 +6,32 @@
 
 ...
 
-#Related entries#
+## Related entries
 
-*  Measure theory:
-   *  [[measurable space]]
-   *  [[measure space]]
+* in measure theory:
 
-*  Differential geometry:
-   *  [[differential form]]
-   *  [[integration over supermanifolds]]
+  * [[measurable space]]
+   
+  * [[measure space]]
+
+* in [[differential geometry]]
+
+  *  [[differential form]]
+
+  *  [[integration over supermanifolds]]
+
+*  in [[supergeometry]]
+
+   * [[Berezin integral]]
+  
+   * [[integration over supermanifolds]]
 
 * [[Lie integration]]
 
 
 ## References
+
+(...)
 
 A proof of the [[Riesz representation theorem]] in [[constructive mathematics]] is given in
 
