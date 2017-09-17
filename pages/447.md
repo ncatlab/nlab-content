@@ -271,3 +271,6 @@ R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \
 
 
 [[!redirects geometric realisation]]
+
+[[!redirects geometric realizations]]
+
