@@ -15,9 +15,9 @@
 
 ## Definition
 
-For $V$ a  [[space]], $G$ a [[group]] and $\rho : G\times V \to V$ a  [[action]] of $G$ on $V$, we have the corresponding [[action groupoid]]. If everything is sufficiently smooth, this is a [[Lie groupoid]] denoted $V//_\rhoG$.
+For $V$ a  [[space]], $G$ a [[group]] and $\rho : G\times V \to V$ a  [[action]] of $G$ on $V$, we have the corresponding [[action groupoid]]. If everything is sufficiently smooth, this is a [[Lie groupoid]] denoted $V//_\rho G$.
 
-The _action Lie algebroid_ of $\rho$ is the [[Lie algebroid]] that corresponds to this Lie Lie groupoid (under [[Lie integration]]).
+The _action Lie algebroid_ of $\rho$ is the [[Lie algebroid]] that corresponds to this Lie groupoid (under [[Lie integration]]).
 
 The [[Chevalley-Eilenberg algebra]] of an action Lie algebroid is in [[physics]] known as a [[BRST complex]].
 
