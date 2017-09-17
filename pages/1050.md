@@ -51,6 +51,8 @@ Specifically, [[Ab]]-[[enriched functor]]s between [[abelian categories]] are ex
 
 ### Characterisations
 
+#### General
+
 +-- {: .num_prop}
 ###### Proposition
 * A [[functor]] $F : C \to D$ between finitely cocomplete categories is right exact if and only if for all [[objects]] $d \in D$ the [[comma category]] $F/d$ is [[filtered category|filtered]].
@@ -97,6 +99,9 @@ Left exact functors correspond to [[pro-representable functors]], provided some 
 
 =--
 
+#### Between categories of modules
+
+Right exact functors between [[categories of modules]] are characterized by the _[[Eilenberg-Watts theorem]]_. See there for more details.
 
 ### On abelian categories / in homological algebra
  {#OnAbelianCategories}
