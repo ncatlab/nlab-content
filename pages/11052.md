@@ -1,0 +1,16 @@
+##Idea
+
+A group $G$ is *finitely presented* if it has a *finite presentation*, i.e., there is a [[group presentation]], $\langle X: R\rangle$, for $G$ with both its set, $X$, of generators and its set, $R$, of relations being finite sets.
+
+
+
+## References
+
+
+Useful elementary or introductory texts, include
+
+* D. L. Johnson, Presentations of Groups (London Mathematical Society Student Texts 15) 1990, Cambridge Univ. Press,
+
+and the earlier:
+
+* D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press.
