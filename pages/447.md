@@ -114,7 +114,7 @@ $$E \stackrel{i}{\to} X \stackrel{\overset{f}{\to}}{\underset{g}{\to}} Y$$
 is an equalizer diagram in $Set^{\Delta^{op}}$, then $|i|$ is the equalizer of the pair $|f|$, $|g|$, because the underlying function $U(|i|)$ is the equalizer of $U(|f|)$, $U(|g|)$ on the underlying set level by the preceding theorem, and because $|i|$ is a (closed) subspace inclusion by the lemma. But this $Top$-equalizer $|i|: |E| \to |X|$ lives in the full subcategory $Space$, and therefore $R(i) = |i|$ is the equalizer of the pair $R(f) = |f|$, $R(g) = |g|$. 
 =-- 
 
-As the proof indicates, that realization preserves equalizers is not at all sensitive to whether we use $Top$ or a convenient category of spaces $Space$. However, the following result _is_ sensitive to such issues, and in fact uses cartesian closure of $Space$ in an essential way. 
+As the proof indicates, that realization preserves equalizers is not at all sensitive to whether we use $Top$ or a convenient category of spaces $Space$. However, the following theorem _is_ sensitive to such issues, and in fact uses cartesian closure of $Space$ in an essential way. 
 
 First, a small technical result about simplicial sets. 
 
