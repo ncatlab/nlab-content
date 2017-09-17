@@ -1,12 +1,13 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
+### In mathematics
 
-Consider a complex projective Calabi-Yau 3-manifold $X$ with volume form $vol_X$. R. Thomas considered in his 1997 thesis a holomorphic version of the [[Casson invariant]] which may be defined using the holomorphic Chern-Simons functional. 
+Consider a complex projective Calabi-Yau 3-manifold $X$ with volume form $vol_X$. R. Thomas considered in his 1997 thesis a holomorphic version of the [[Casson invariant]] which may be defined using the holomorphic [[Chern-Simons theory|Chern-Simons functional]]. 
 
 For a holomorphic connection $A = A_0 +\alpha$, the holomorphic Chern-Simons functional is given by 
 
@@ -16,7 +17,11 @@ Its critical points are holomorphically flat connections: $F^{0,2}_A = 0$. One w
 
 Under the [[mirror symmetry]], the holomorphic bundles correspond to the [[Lagrangian submanifold]]s in the mirror, and the stability condition restricts the attention to the [[special Lagrangian submanifold]]s in the mirror. 
 
-## Motivic DT invariants {#Motivic}
+### In physics
+
+for the moment see [this comment](http://mathoverflow.net/questions/75482/donaldson-thomas-invariants-in-physics/75493#75493)
+
+### Motivic DT invariants {#Motivic}
 
 A more general setup of [[motive|motivic]] Donaldson-Thomas invariants is given by [[Dominic Joyce]] and by [[Maxim Kontsevich]] and [[Yan Soibelman]], see the references below. 
 
