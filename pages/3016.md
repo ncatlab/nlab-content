@@ -115,7 +115,15 @@ Recently, this problem was fully solved and homotopy theory fully understood as 
 ... The study of [[rational homotopy theory]] and is naturally understood as the study of the [[localization of an (∞,1)-category|localizations]] of [[(∞,1)-topos]]es at morphism that induce equivalences in [[cohomology]] with certain line-object coefficients. See [[rational homotopy theory in an (∞,1)-topos]]. ...
 
 
+### In K-theory
 
+In full generality, ([[algebraic K-theory|algebraic]]) [[K-theory]] is a universal assignment of [[spectra]] to [[stable (∞,1)-categories]].
+
+...
+
+### In Tannaka duality
+
+... see [[Tannaka duality]] ...
 
 
 ### In deformation theory {#DeformationTheory}
