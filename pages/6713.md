@@ -259,6 +259,8 @@ The idea that the physics of D-branes is described by [[K-theory]] originates in
 
 * [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
 
+* {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], _On Ramond-Ramond fields and K-theory_, JHEP 0005 (2000) 044 ([arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027))
+
 Reviews include
 
 * [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
@@ -299,7 +301,7 @@ More on this, with more explicit relation to [[noncommutative motives]], is in
 
 For exhaustive details on D-branes in 2-dimensional rational [[CFT]] see the references given at 
 
-* [[FFRS-formalism
+* [[FFRS-formalism]]
 
 ### Branes within branes
 
