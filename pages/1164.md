@@ -1,7 +1,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -23,6 +23,8 @@ More generally, given a family $F$ of subgroups of $G$ which is closed under con
 Orbit categories are used often in the treatment of [[Mackey functor]]s from the theory of [[locally compact group]]s and in the definition of [[Bredon cohomology]]. 
 
 It appears in [[equivariant stable homotopy theory]], where the $H$-fixed [[homotopy group]]s of a space form a [[presheaf]] on the [[homotopy category]] of the orbit category (e.g. [page 8, 9 here](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf#page=8)).
+
+See also at _[[global equivariant stable homotopy theory]]_.
 
 ## Warning 
 
