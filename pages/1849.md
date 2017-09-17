@@ -73,7 +73,7 @@ for the [[nLab:groupoid]] whose
   * $c \in \Omega^3(X)$ is a degree-3 [[nLab:differential form]] on $X$.
 
 * [[nLab:morphism]]s $\omega : (P, \nabla_1, c_1) \to (P, \nabla_2, c_2)$
-  are parameterized by their source and target triples together with a [[nLab:cocycle]] $\omega \in H_diff{X}$ in the [[nLab:ordinary differential cohomology]] of $X$, subject to the condition that
+  are parameterized by their source and target triples together with a closed 3-form  $\omega \in \Omega^3_{\mathbb{Z}}(X)$ with integral [[period]]s, subject to the condition that
 
   $$
     c_2 -c_1 = CS(\nabla_1,\nabla_2) + F_\omega
