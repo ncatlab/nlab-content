@@ -1,0 +1,67 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohesion
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a context of [[synthetic differential geometry]]/[[differential cohesion]] a _reduced object_ is one whose [[infinitesimal space|infinitesimal paths]] are entirely determined by its finite paths.
+
+
+## Definition
+
+A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
+
+$$
+  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+  \,,
+$$
+
+where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] adn $&#643;_{inf}$ is an [[idempotent monad]].
+
+A **reduced object** or **reduced type** is one in the [[full subcategory]] defined by the leftmost modality $Red$. 
+
+## Examples
+
+* An object $D$ whose reduced reflection is the [[terminal object]], $Red(D) \simeq * $ is an _[[infinitesimally thickened point]]_.
+
+* A [[smooth manifold]] is a reduced [[formal smooth manifold]].
+
+* A [[reduced scheme]] is one all whose local [[rings]] of functions have no non-zero nilpotent elements.
+
+## Related concepts
+
+* [[infinitesimal space]], [[infinitesimally thickened point]]
+
+[[!include cohesion - table]]
+
+* [[formally smooth morphism]], [[formally etale morphism]], [[formally unramified morphism]]
+
+
+[[!redirects reduced objects]]
+
+[[!redirects reduced type]]
+[[!redirects reduced types]]
+
+[[!redirects reduced space]]
+[[!redirects reduced spaces]]
