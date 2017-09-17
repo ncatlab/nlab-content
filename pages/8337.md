@@ -19,6 +19,7 @@
   * [[axiom of union]]
 
 * [[axioms of choice]]:
+  * [[axiom of choice]]
   * [[axiom of countable choice]]
   * [[axiom of dependent choice]]
   * [[axiom of excluded middle]]
