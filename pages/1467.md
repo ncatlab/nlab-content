@@ -114,6 +114,8 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 
 * [[paracompact topological space]], [[strongly compact topological space]]
 
+* [[closed manifold]]
+
 * [[compact topos]]
 
 * [[compactly supported cohomology]]
