@@ -65,7 +65,7 @@ for the composite functors. Often by slight abuse of notation we suppress the bo
 these in turn form an [[adjunction]]
 
 $$
-  (\mathbf{cosk}_n \dashv \mathbf{sk}_n)
+  ( \mathbf{sk}_n \dashv \mathbf{cosk}_n)
   \;\;
   :
   \;\;
