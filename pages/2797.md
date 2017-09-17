@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
+
 ## Idea ##
 
 A _braided monoidal 2-category_ is a [[2-category]] $C$ equipped with a [[tensor product]] $\otimes : C \times C \to C$ [[2-functor]] which satisfies the first in a hierarchy of conditions for being commutative up to equivalence: in the language of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] a braided monoidal 2-category is a **doubly monoidal 2-category*.
