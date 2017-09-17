@@ -46,4 +46,10 @@ which apparently does the [[hypercover]] [[descent]] and without assuming $V$ to
 
 Much of this was kindly pointed out by [[Denis-Charles Cisinski]] in discussion [here](http://mathoverflow.net/questions/5808/local-joyal-simplicial-presheaves).
 
+## Related concepts
+
+* [[enriched Reedy category]]
+
+* [[model structure on sSet-presheaves]]
+
 [[!redirects model structures on homotopical presheaves]]
