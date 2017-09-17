@@ -31,9 +31,11 @@ For $n \in \mathbb{N}$,  a **Poisson $n$-algebra** $A$ is a [[Poisson algebra]] 
 
 ### Relation to $E_n$-algebras
 
-The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
+The [[homology]] of an [[E-n algebra]] for $n \geq 2$ is a Poisson $n$-algebra. 
 
 Moreover, in [[chain complexes]] over a [[field]] of [[characteristic]] 0 the [[E-n operad]] is [[formal dg-algebra|formal]], hence equivalent to its homology, and so in this context $E_n$-algebras are equivalent to Poisson $n$-algebras.
+
+See also tho _[MO discussion](#MODiscussion) linked to below_.
 
 ### Relation to $L_\infty$-algebras
  {#RelationToLInfinityAlgebras}
@@ -81,6 +83,11 @@ For discussion in the context of [[perturbation theory|perturbative]] [[quantum 
 
 
 and for further references along these lines see at _[[factorization algebra]]_.
+
+For general discusison of the relation to [[E-n algebas]] see
+
+* MO discussion, _[Poisson algebras as deformations vs. Poisson algebras in algebraic topology](http://mathoverflow.net/questions/74405/poisson-algebras-as-deformations-vs-poisson-algebras-in-algebraic-topology/75194#75194)_
+ {#MODiscussion}
 
 [[!redirects Poisson n-algebras]]
 
