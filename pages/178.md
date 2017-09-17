@@ -2905,13 +2905,14 @@ For the [circle n-groupoid](#BnU1) $\mathbf{B}^{n}U(1)$ we have now obtained two
 There is an evident degreewise map
 
 $$
-  \int_{\Delta^k} :
+  (-1)^{\bullet+1}
+  \int_{\Delta^\bullet} :
   \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}
   \to  
   \mathbf{\flat}_{dR}^{chn} \mathbf{B}^n \mathbb{R}
 $$
 
-that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^n)$ to its [[fiber integration]] $\int_{\Delta^k} \omega$.
+that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^k)$ to $(-1)^{k+1}$ times  its [[fiber integration]] $\int_{\Delta^k} \omega$.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -2945,7 +2946,7 @@ Conversely, first integrating over the simplex and then applying the de Rham dif
 
 $$
   \begin{aligned}
-     \omega \mapsto d_U \int_{\Delta^k} \omega
+     \omega \mapsto (-1)^{k+1} d_U \int_{\Delta^k} \omega
       &= 
       - \int_{\Delta^k} d_U \omega
       \\
@@ -2953,6 +2954,7 @@ $$
       \\
       & =  \int_{\partial \Delta^k} \omega
   \end{aligned}
+  \,,
 $$
 
 where we first used that $\omega$ is closed, so that $d_{dR} \omega = (d_U + d_{\Delta^k}) \omega = 0$, and then [[Stokes' theorem]].
