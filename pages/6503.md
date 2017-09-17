@@ -41,4 +41,6 @@ Given a $G$-[[representation]] $V$ and a $G$-principal connection, it induces a 
 
   * [[higher parallel transport]]
 
+[[!include higher Atiyah groupoid - table]]
+
 [[!redirects principal connections]]
