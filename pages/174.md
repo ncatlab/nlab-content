@@ -162,6 +162,8 @@ The corresponding table has been called the **[[brane scan]]**
 
 * [[D-brane]]
 
+* [[electric eigenbrane]]. [[magnetic eigenbrane]]
+
 [[!include field theory with boundaries and defects - table]]
 
 
