@@ -3,3 +3,6 @@ A research program at [IAS](http://www.ias.edu/) in 2012 on [[homotopy type theo
 
 * [Webpage](http://uf-ias-2012.wikispaces.com/)
 
+## Related pages
+
+* _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
