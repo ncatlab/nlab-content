@@ -55,7 +55,7 @@ And
 
 * [[Top]]${}_{Haus}$ for the category of [[Hausdorff topological spaces]]
 
-* $Top_{cpt}$ for the [[full subcategory]] of [[Top]]_{Haus} on the [[compact topological spaces]];
+* $Top_{cpt}$ for the [[full subcategory]] of [[Top]]${}_{Haus}$ on the [[compact topological spaces]];
 
 * $*/Top_{cpt}$ for the category of [[pointed objects]] in $Top_{cpt}$;
 
@@ -95,10 +95,10 @@ for the functor that sends $(X,x_0)$ to the algebra of [[continuous function]]s 
 Write
 
 $$
-  sp : C^ast Alg_{com}^{op} \to Top_{cpt}
+  sp : C^\ast Alg_{com}^{op} \to Top_{cpt}
 $$
 
-for the [[Gelfand spectrum]] functor: it sends a commutative $C^\ast$-algebra $A$ to the set of of _[[character]]s_ -- non-vanishing $C^\ast$-algebra [[homomorphisms]] $x : A \to \mathbb{C}$ -- equipped with the [[spectral topology]].
+for the [[Gelfand spectrum]] functor: it sends a commutative $C^\ast$-algebra $A$ to the set of _[[character]]s_ -- non-vanishing $C^\ast$-algebra [[homomorphisms]] $x : A \to \mathbb{C}$ -- equipped with the [[spectral topology]].
 
 Similarly write 
 
