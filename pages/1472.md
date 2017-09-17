@@ -328,7 +328,7 @@ For the ordinary Poincare group this yields the [[Palatini action]] expression f
 
 In contrast to the $\infty$-Chern-Simons theory discussed above, the general abstract nature, if any, of the action functional for gravity remains somewhat inconclusive and subject of a plethora of speculations. If one passes from connections to their associated [[Dirac operator]]s and interprets these as parts of a [[spectral triple]] there is the [[spectral action]] functional on the space of spectral triples. This we discuss in more detail [below](SpecStandModAndGravity).
 
-There are various higher [[group extension]]s of the Poincare group and the orthonromal group that lead accordingly to higher order variations of gravity.
+There are various higher [[group extension]]s of the Poincare group and the orthonormal group that lead accordingly to higher order variations of gravity.
 
 * lifting $S O$-connections through the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#SmoothWhitehead">smooth Whitehead tower</a>
 
