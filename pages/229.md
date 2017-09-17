@@ -84,6 +84,8 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 * [[Ab-enriched category]], [[abelian category]]
 
+* [[abelian ∞-group]]
+
 
 
 [[!redirects abelian groups]]
