@@ -94,7 +94,7 @@ For $D$ any [[nLab:locally small category|locally small category]], the **nerve*
 $$
   N(D) : \Delta^{op} 
      \hookrightarrow
-     Cat
+     Cat^{op}
     \stackrel{Cat(-,D)}{\to}
     Set
   \,,
