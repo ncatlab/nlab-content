@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include mathematicscontents]]
 </div>
@@ -15,6 +14,10 @@
 ## Idea ##
 
 Probability theory is concerned with mathematical models of random phenomena. 
+
++--{: .query}
+[[Ian Durham]]: At the risk of starting another argument, I would just like to point out that there are theoretical physicists for whom the phenomena described by probability theory are not random.  Specifically, both the epistemic and consistent histories approaches to quantum theory do not view the quantum processes that are described by probability theory as being random.  Their view is that we use probability theory simply due to a lack of knowledge on our part, i.e. some things, which are perfectly non-random, are nevertheless unknowable.  Just my two cents.
+=--
 
 Its central mathematical model is based mostly on [[measure theory]]. So from a pure mathematical viewpoint probability theory today could be characterized as the study of [[measurable space]]s with a finite volume normalized to $1$. 
 
