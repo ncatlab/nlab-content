@@ -1,0 +1,9 @@
+
+## Idea
+
+_Automath_ was the hiostorically first [[logical framework]].
+The goal of the Automath project was to provide a tool for the
+formalization of [[mathematics]] without [[foundations|foundational]] prejudice.
+
+## References
+
