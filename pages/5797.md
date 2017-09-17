@@ -59,6 +59,8 @@ and its super-$L_\infty$-extensions to the
 
 * [[supergravity Lie 6-algebra]]
 
+* [[type II supergravity Lie 2-algebra]]
+
 play a central role. Their exceptional [[infinity-Lie algebra cohomology]] governs the consistent [[Green-Schwarz action functionals]] for super-$p$-[[branes]]. (See the discusson of the _[brane scan](Green-Schwarz+action+functional#BraneScan)_) there.
 
 Moreover, the [[BRST complex]] of the [[superstring]] might form a super $L_\infty$-algebra whose brackets give the [[n-point function]] of the string, in analogy to what happens for the bosonic string in Zwiebach's [[string field theory]]. (...)
