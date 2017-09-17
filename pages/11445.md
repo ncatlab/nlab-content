@@ -1,3 +1,4 @@
+[[!redirects real-oriented cohomology theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
