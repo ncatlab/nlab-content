@@ -17,7 +17,7 @@ The _translation group_ in [[dimension]] $n$ is the [[Cartesian space]] $\mathbb
 
 * [[rotation group]]
 
-* [[Galileo group]], [[Poincare group]]
+* [[Galilei group]], [[Poincare group]]
 
 [[!redirects translation groups]]
 
