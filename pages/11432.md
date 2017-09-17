@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Max_Planck)
+
+## related $n$Lab entries
+
+* [[quantum mechanics]]
+
+* [[Planck's constant]]
+
+category: people
