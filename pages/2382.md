@@ -69,6 +69,8 @@
 
   * [[local geometric morphism]]
 
+  * [[bounded geometric morphism]]
+
   * [[base change]]
 
   * [[etale geometric morphism]]
@@ -77,9 +79,11 @@
 
   * [[hyperconnected geometric morphism]]
 
+  * [[cohesive topos|cohesive morphism]]
+
+
 * [[logical morphism]]
 
-* [[cohesive topos|cohesive morphism]]
 
 ## Extra stuff, structure, properties
 
