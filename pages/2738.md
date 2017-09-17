@@ -328,6 +328,14 @@ This is prop 1.4 in [CisMoer09](http://arxiv.org/abs/0902.1954).
 
 =--
 
+### Boardman-Vogt tensor product
+ {#BoardmanVogtTensorProduct}
+
+As any [[category of presheaves]], $dSet$ is a [[cartesian monoidal category]]. However, the cartesian [[tensor product]] is not the natural one with respect to the inclusion of [[operads]] into dendroidal sets. The natural monoidal structure on [[Operad]] is rather a generalization of the [[Boardman-Vogt tensor product]].
+
+(...)
+
+Also with respect to this tensor product is $dSet$ a [[closed monoidal category]]. This is discussed [below](#ClosedMonoidalStructure).
 
 
 ## Properties
@@ -594,7 +602,8 @@ and hence (see the properties of [[adjoint functors]])
 ## Structure on $dSet$ ##
 
 
-### Closed symmetric monoidal structure ###
+### Closed symmetric monoidal structure
+ {#ClosedMonoidalStructure}
 
 The category $dSet$ of dendroidal sets carries the structure of a [[symmetric monoidal category]], defined as follows:
 
@@ -612,7 +621,7 @@ $$
 
 between [[operad]]s and dendroidal sets. 
 
-The category $Operad$ carries the [[Boardman-Vogt tensor product]] $\otimes_{BV}$ and the symmetric monoidal structure on $dSet$ is taken to be the unique one 
+The category [[Operad]] carries the [[Boardman-Vogt tensor product]] $\otimes_{BV}$ and the symmetric monoidal structure on $dSet$ is taken to be the unique one 
 
 * that makes $\tau_d$ a [[symmetric monoidal functor]];
 
