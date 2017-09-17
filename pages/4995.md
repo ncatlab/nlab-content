@@ -3263,7 +3263,8 @@ This implies that also $i_*$ is a [[full and faithful (∞,1)-functor]].
 +-- {: .proof}
 ###### Proof
 
-By the characterizaton of full and faithful [[adjoint (∞,1)-functor]]s this is equivalent to $i^* i_! \simeq Id$. Since $(i^* i_! \dashv i^* i_*)$ it follows by essential uniqueness of [[adjoint (∞,1)-functor]]s that also $i^* i_* \simeq Id$.
+By the characterizaton of full and faithful [[adjoint (∞,1)-functor]]s 
+the condition on $i_!$ is equivalent to $i^* i_! \simeq Id$. Since $(i^* i_! \dashv i^* i_*)$ it follows by essential uniqueness of [[adjoint (∞,1)-functor]]s that also $i^* i_* \simeq Id$.
 
 =--
 
@@ -3331,17 +3332,17 @@ that preserves the [[terminal object]]. Therefore
 
 $$
   \begin{aligned}
-    \Gamma_{\mathbf{H}}( i_* X )
+    \Gamma_{\mathbf{H}_{th}}( i_* X )
     & 
     \simeq
     \mathbf{H}_{th}(*, i_* X)
     \\
-    & \simeq \mathbf{H}_{th}(i^* *, X)
+    & \simeq \mathbf{H}(i^* *, X)
     \\
     & 
-    \simeq \mathbf{H}_{th}(*, X)
+    \simeq \mathbf{H}(*, X)
     \\
-    & \simeq \Gamma_{\mathbf{H}_{th}}(X)
+    & \simeq \Gamma_{\mathbf{H}}(X)
   \end{aligned}
   \,.
 $$
