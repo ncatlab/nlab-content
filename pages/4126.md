@@ -4,7 +4,7 @@
 
 ## Idea
 
-In [[quantum mechanics]], the _Kochen-Specker theorem_ -- developed in 1967 by [[Simon Kochen]] and [[Ernst Specker]] -- is a [[no-go theorem]] that places limits on the types of [[hidden variable theories]] that may be used to explain the apparent randomness of quantum mechanics in a causal way.  It roughly asserts that it is impossible to assign values to all physical quantities while simultaneously preserving the functional relations between them.  It is a complement to [[Bell's theorem]], developed by [[John Bell]] in 1964, and is related to [[Gleason's theorem]], developed in 1957 by [[Andrew Gleason]] (who incidentally is the person who communicated the original Kochen-Specker paper to the _Journal of Mathematics and Mechanics_ ).  [[Christopher Isham]] has recently shown that the Kochen-Specker theorem is equivalent to the statement that the spectral [[presheaf]] has no global elements.
+In [[quantum mechanics]], the _Kochen-Specker theorem_ -- developed in 1967 by [[Simon Kochen]] and [[Ernst Specker]] -- is a no-go theorem that places limits on the types of [[hidden variable theories]] that may be used to explain the apparent randomness of quantum mechanics in a causal way.  It roughly asserts that it is impossible to assign values to all physical quantities while simultaneously preserving the functional relations between them.  It is a complement to [[Bell's theorem]], developed by [[John Bell]] in 1964, and is related to [[Gleason's theorem]], developed in 1957 by [[Andrew Gleason]] (who incidentally is the person who communicated the original Kochen-Specker paper to the _Journal of Mathematics and Mechanics_ ).  [[Christopher Isham]] has recently shown that the Kochen-Specker theorem is equivalent to the statement that the spectral [[presheaf]] has no global elements.
 
 ## Kochen-Specker theorem
 
@@ -45,7 +45,7 @@ Now we have:
 
 +-- {: .un_theorem}
 ###### Theorem 
-**(Kochen-Specker)*
+**(Kochen-Specker)**
 
 No valuations on $B(\mathcal{H})$ exist if dim($\mathcal{H}$)>2.
 
@@ -116,17 +116,9 @@ The Kochen-Specker theorem is equivalent to the statement that in the presheaf [
 
 ## References
 
-The original Kochen-Specker paper:
+The original article is
 
-* S. Kochen and E.P. Specker, "The problem of hidden variables in quantum mechanics," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/dfulltext.php?year=1968&volume=17&artid=17004).
-
-The original paper outlining Bell's theorem:
-
-* J. S. Bell, "On the Einstein Podolsky Rosen Paradox," Physics, [pdf](http://www.drchinese.com/David/Bell_Compact.pdf).
-
-The original paper outlining Gleason's theorem:
-
-* A.M. Gleason "Measures on the closed subspaces of a Hilbert space," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
+* [[Simon Kochen]] and [[Ernst Specker]], _The problem of hidden variables in quantum mechanics_ , Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/dfulltext.php?year=1968&volume=17&artid=17004).
 
 The sheaf-theoretic interpretation of the theorem was proposed in
 
@@ -135,5 +127,16 @@ The sheaf-theoretic interpretation of the theorem was proposed in
 The formulation in terms of presheaves on the category of commutative sub-algebra of $B(\mathcal{H})$ was proposed in 
 
 * J. Hamilton, [[Chris Isham]], [[Jeremy Butterfield]], _A Topos Perspective on the Kochen-Specker Theorem: III. Von Neumann Algebras as the Base Category_ ([arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020))
+
+
+The original paper outlining [[Bell's theorem]] is
+
+* J. S. Bell, _On the Einstein Podolsky Rosen Paradox_ , Physics, [pdf](http://www.drchinese.com/David/Bell_Compact.pdf).
+
+The original paper outlining [[Gleason's theorem]] is
+
+* A.M. Gleason, _Measures on the closed subspaces of a Hilbert space_ , Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
+
+
 
 ## Discussion
