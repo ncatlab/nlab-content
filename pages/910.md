@@ -34,7 +34,7 @@ is a homeomorphism (not just a $k$-homeomorphism).
 =--
 
 The topology on $k\Top(X,Y)$ that is used here is the test-open
-topology, which has the subbase of sets $M(t,U)$ for a given $t: C
+topology, which has the [[subbase]] of sets $M(t,U)$ for a given $t: C
 \to X$ and $U$ open in $Y$ of all $k$-continuous functions $f:X \to
 Y$ such that $f(t(C))\subseteq U$.
 
