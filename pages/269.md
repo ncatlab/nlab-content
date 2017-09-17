@@ -198,7 +198,7 @@ $$
  X  \to Ex X \to Ex^2 X  \to \cdots
 $$
 
-Let $Ex^\infty X$ be the unioun of the latter maps (similar to simplicial $Ex^\infty$).
+Let $Ex^\infty X$ be the union of the latter maps (similar to simplicial $Ex^\infty$).
 
 **question**: Is $Ex^\infty X$  a fibrant cubical set for any cubical set $X$?. 
 
