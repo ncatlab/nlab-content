@@ -210,6 +210,8 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
 
   This is a non-finite commuting diagram.
 
+* [[tower diagram]]
+
 ## Related concepts
 
 * [[commuting diagram]]
