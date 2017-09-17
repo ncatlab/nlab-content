@@ -197,31 +197,6 @@ Can we refer to \ref{first} or \ref{second}?
 
 ***
 
-Trying xypic:
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f/g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
-
-$f\otimes g$
-
-$f\otimes{}g$
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(f\otimes g)\ar[r]\ar[d]%26A\ar[d]^f\ar[dl]^\alpha\\B\ar[r]_g%26C}" />
-
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26v=u\otimes w\ar[dl]_{\beta}\ar[dr]^{\gamma}\ar@{}[dd]|*++[o][F]{1}\\v'\ar@{-->}[dr]\ar@{.>}[dd]\ar@{}[ddr]|*++[o][F]{2}%26%26v''\ar@{-->}[dl]\ar@{.>}[dd]\ar@{}[ddl]|*++[o][F]{3}\\%26z\ar@{.>}[d]\\w_n\ar@{}[r]|{=}%26w_n\ar@{}[r]|{=}%26w_n}" />
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26v=u\otimes w\ar[dl]_{\beta}\ar[dr]^{\gamma}\ar@{}[dd]|*%2B%2B[o][F]{1}\\v'\ar@{-->}[dr]\ar@{.>}[dd]\ar@{}[ddr]|*%2B%2B[o][F]{2}%26%26v''\ar@{-->}[dl]\ar@{.>}[dd]\ar@{}[ddl]|*%2B%2B[o][F]{3}\\%26z\ar@{.>}[d]^\\w_n\ar@{}[r]|{=}%26w_n\ar@{}[r]|{=}%26w_n}" />
-
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26v=u\otimes w\ar[dl]_{\beta}\ar[dr]^{\gamma}\ar@{}[dd]|%2A%2B%2B[o][F]{1}\\v'\ar@{-->}[dr]\ar@{.>}[dd]\ar@{}[ddr]|%2A%2B%2B[o][F]{2}%26%26v''\ar@{-->}[dl]\ar@{.>}[dd]\ar@{}[ddl]|%2A%2B%2B[o][F]{3}\\%26z\ar@{.>}[d]\\w_n\ar@{}[r]|{=}%26w_n\ar@{}[r]|{=}%26w_n}" />
-
-<img src="http://latex.codecogs.com/gif.latex?\LARGE \xymatrix{%26v=u\otimes w\ar[dl]_{\beta}\ar[dr]^{\gamma}\ar@{}[dd]|%2A%2B%2B[o][F]{1}\\v'\ar@{-->}[dr]\ar@{.>}[dd]\ar@{}[ddr]|%2A%2B%2B[o][F]{2}%26%26v''\ar@{-->}[dl]\ar@{.>}[dd]\ar@{}[ddl]|%2A%2B%2B[o][F]{3}\\%26z\ar@{.>}[d]\\w_n\ar@{}[r]|{=}%26w_n\ar@{}[r]|{=}%26w_n}" title="\LARGE \xymatrix{%26v=u\otimes w\ar[dl]_{\beta}\ar[dr]^{\gamma}\ar@{}[dd]|%2A%2B%2B[o][F]{1}\\v'\ar@{-->}[dr]\ar@{.>}[dd]\ar@{}[ddr]|%2A%2B%2B[o][F]{2}%26%26v''\ar@{-->}[dl]\ar@{.>}[dd]\ar@{}[ddl]|%2A%2B%2B[o][F]{3}\\%26z\ar@{.>}[d]\\w_n\ar@{}[r]|{=}%26w_n\ar@{}[r]|{=}%26w_n}" />
-
-
-I give up :(
-
-***
-
 category: meta
 
 [[!redirects sandbox]]
