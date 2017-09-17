@@ -284,3 +284,5 @@ $$f(x) = M x + b$$
 
 where $M$ is a linear injection and $b$ is a vector. 
 =-- 
+
+For information on related results, see [[isometry]] and [[Mazur-Ulam theorem]]. 
