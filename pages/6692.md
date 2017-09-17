@@ -1,7 +1,7 @@
 
 Here are abstracts of a few papers of mine that connect to higher category theory, with links to the full texts. I will be glad to discuss this material. 
 
-## 1. Twisted Deformation Quantization of Algebraic Varieties ##
+### 1. Twisted Deformation Quantization of Algebraic Varieties ###
 
 Let X be a smooth algebraic variety over a field K containing the real numbers. We introduce the notion of twisted associative (resp. Poisson) deformation of the structure sheaf of X. These are stack-like versions of usual deformations. We prove that there is a twisted quantization map from twisted Poisson deformations to twisted associative deformations, which is canonical and bijective on gauge equivalence classes. This result extends work of Kontsevich, and our own earlier work, on deformation quantization of algebraic varieties. 
 
@@ -9,7 +9,7 @@ Let X be a smooth algebraic variety over a field K containing the real numbers. 
 [survey](http://arxiv.org/abs/0801.3233)
 
 
-## 2. Nonabelian Multiplicative Integration on Surfaces ##
+### 2. Nonabelian Multiplicative Integration on Surfaces ###
 
 We construct a 2-dimensional twisted nonabelian multiplicative
 integral. This is done in the context of a Lie crossed module
@@ -40,12 +40,13 @@ differential graded algebras. The 2-dimensional multiplicative
 integral gives rise, in that situation, to a nonabelian
 2-cochain; and the 3-dimensional Stokes Theorem shows that
 this cochain is a twisted 2-cocycle.
+(This was superseded by a simpler approach; see below.)
 
 
 [eprint](http://arxiv.org/abs/1007.1250)
 
 
-## 3. Combinatorial Descent Data for Gerbes ##
+### 3. Combinatorial Descent Data for Gerbes ###
 
 We consider descent data in cosimplicial crossed groupoids.
 This is a combinatorial abstraction of the descent data for gerbes in
