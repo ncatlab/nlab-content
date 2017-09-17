@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+This page is meant to be useful for readers who are interested in [[homotopy theory]] but not (necessarily) in [[homotopy type theory]] as such (its role as a [[symbolic logic]], etc.) but who do care learning about whatever new methods that make them be better homotopy theorists, any new insights into homotopy theory itself that could be gained by applying methods that originate in homotopy type theory. In other words, this page is meant to help answer the question:
+
+> I am a homotopy theorist; what can homotopy type theory do for me?
+
+Since homotopy theory takes place in [[model categories]] and similar categorical structures, the input from homotopy type is via its [[categorical semantics]]. In this sense the question which this page is meant to help to answer is
+
+> I am a homotopy theorist; which methods can I learn from the [[categorical semantics of homotopy type theory]]?
+
+For the moment this page will mostly list pointers with brief comments to other entries where details are given. You should maybe read it like an instructional exercise list and follow the pointers for help.
+
+
+1. From the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
+
+   ([[dependent sum]] $\dashv$ [[base change]] $\dashv$ [[dependent product]])
+   = $(\sum_f \dashv f^* \dashv \prod_f) : \mathcal{C}_{/X} \to \mathcal{C}_{/Y}$.
+
+  Many familiar constructions are usefully expressed entirely in terms of these adjoint triples. For instance the [[internal hom]] in a slice category. 
+
+1. the [[(-1)-truncated|(-1)-truncation]] of an object $X$ is naturally expressed by the [[isContr]]-operation  
+
+   $$
+     \tau_{-1}X = isContr(X) = \sum_{x : X} \prod_{y : X} (x = Y)
+     \,.
+   $$
+
+1. The [[homotopy pullback]] of two morphisms $f : A \to C$, $g : B \to C$ including the [[factorization lemma]] used to compute it for [[fibrant objects]], is naturally by the base change operation expressed by the formula
+
+   $$
+     f \times_C^h g \simeq \{ a : A, b : B | (f(a) = g(b)) \}
+   $$
+
+1. The [[free loop space object]] of an object $X$ is expressed by the formula
+
+   $$
+     \mathcal{L}X = \{x,y : X | (x = y) and (x = y) \} = \{x,y: X | (x,x) = (y,y)\}
+     \,.
+   $$
+
+(...)
