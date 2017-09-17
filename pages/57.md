@@ -92,11 +92,11 @@ This is (up to fine-tuning of the nature of the differential forms on the simpli
 
 For $\mathfrak{a}$ a [[infinity-Lie algebroid|Lie n-algebroid]] (an $n$-[[truncated]] $\infty$-Lie algebroid) this construction will not yield in general an $n$-[[truncated]] [[∞-groupoid]] $\exp(\mathfrak{a})$. 
 
-To see this, consder the example (discussed in detail [below](#LieAlgebrasToLieGroups)) that $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]]. Then $\exp(\mathfrak{g})_n$ is canonically identified with the set of smooth based maps $\Delta^n \to G$ into the simply connected [[Lie group]] that integrates $\mathfrak{g}$ in ordinary [[Lie theory]]. This means that the simplicial [[homotopy group]]s of $\exp(\mathfrak{g})$ are the topological homotopy groups of $G$, which in general (say for $G$ the [[ortogonal group]] or [[unitary group]]) will be non-trivial in arbitrarily higher degree, even though $\mathfrak{g}$ is just a Lie 1-algebra. This phenomenon is well familiar from [[rational homotopy theory]], where a classical theorem asserts that the rational homotopy groups of $\exp(\mathfrak{g})$ are generated from the generators in a [[minimal Sullivan model]] resolution of $\mathfrak{g}$. 
+To see this, consder the example (discussed in detail [below](#LieAlgebrasToLieGroups)) that $\mathfrak{a} = \mathfrak{g}$ is an ordinary [[Lie algebra]]. Then $\exp(\mathfrak{g})_n$ is canonically identified with the set of smooth based maps $\Delta^n \to G$ into the simply connected [[Lie group]] that integrates $\mathfrak{g}$ in ordinary [[Lie theory]]. This means that the simplicial [[homotopy group]]s of $\exp(\mathfrak{g})$ are the topological homotopy groups of $G$, which in general (say for $G$ the [[orthogonal group]] or [[unitary group]]) will be non-trivial in arbitrarily higher degree, even though $\mathfrak{g}$ is just a Lie 1-algebra. This phenomenon is well familiar from [[rational homotopy theory]], where a classical theorem asserts that the rational homotopy groups of $\exp(\mathfrak{g})$ are generated from the generators in a [[minimal Sullivan model]] resolution of $\mathfrak{g}$. 
 
 =--
 
-For the purposes of $\infty$-Lie theory thereforee instead one wants to [[truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
+For the purposes of $\infty$-Lie theory thereforee instead one wants to [[trucated|truncate]] $\exp(\mathfrak{g})$ to its $(n+1)$-[[coskeleton]]
 
 $$
   \mathbf{cosk}_{n+1}\exp(\mathfrak{a})_{bare}  
