@@ -87,7 +87,7 @@ A public talk announcing the conjecture that the [[non-perturbative field theory
 
 The term "M-theory" occurs somewhere around
 
-* [[Mike Duff]], _M-Theory (the Theory Formerly Known as Strings)_, 	Int.J.Mod.Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+* [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
 For more original references see also at _[[M2-brane]]_.
 
