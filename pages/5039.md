@@ -54,7 +54,7 @@ Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively
 
 1. We say a set $\Sigma$ of formulae is true at state $w\in W$ of a model $\mathfrak{M}$, written $\mathfrak{M},w \models \Sigma$, if all members of $\Sigma$ are satisfied as $w$.
 
-1. It is convenient to extend the valuation $V$ to arbitrary formulae by setting $V(\phi) := \{w \mid \mathfrak{M},w \models \phi\}$.
+1. It is convenient to extend the valuation $V$ to arbitrary formulae by setting $V(\phi) := \{w \mid \mathfrak{M},w \models \phi\}$. We then get useful interpretations such as: if for all worlds $v$, $\mathfrak{M},v \models  (\phi\to \psi)$ and _modus ponens_ holds, (i.e. we have a logic as such in which we are working,  then $V(\phi)\subseteq V(\psi)$. (This comment is deliberately slightly vague, but indicates a common type of argument that will be behind many results, where more precision is available, so think of it as a template for a result rather than a result as such.)
 
 ###What is a valuation?###
 In the definition of a Kripke model the valuation is all important.  It is what puts meaning onto the frame. It is very useful to push this idea around through a couple of adjunctions and reinterpretations. The process is fairly intuitive, but it pays to do things reasonably formally:
