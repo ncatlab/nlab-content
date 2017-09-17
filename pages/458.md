@@ -40,7 +40,7 @@ Note: By the [[adjoint functor theorem]] (AFT) for posets, a frame also has all 
 
 By definition, the [[category]] [[Locale]] of **locales** is the [[opposite category|opposite]] of the category of frames
 $$
-  Loc \coloneqq Frm^{op}
+  Locale \coloneqq Frm^{op}
   \,.
 $$
 That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open subspaces of $X$", and a **[[continuous map]]** $f\colon X \to Y$ of locales is a frame homomorphism $f^*\colon O(Y) \to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
@@ -147,7 +147,7 @@ Conversely, if $X$ is any locale, we define a **[[point]]** of $X$ to be a [[con
 
 The elements of $O(X)$ induce a [[topological structure|topology]] on the set of points of $X$ in an obvious way, thereby giving rise to a topological space $X_P$.  Any continuous map $f\colon X \to Y$ of locales induces a continuous map $f_P\colon X_P \to Y_P$ of spaces, so we have another functor 
 
-$(-)_P\colon Loc \to Top$.
+$(-)_P\colon Locale \to Top$.
 
 One finds that $(-)_L$ is [[left adjoint]] to $(-)_P$.
 
@@ -165,7 +165,7 @@ $$
   \colon
   Top
     \stackrel{\overset{(-)_L}{\rightarrow}}{\underset{(-)_P}{\leftarrow}}
-  Loc
+  Locale
   \,.
 $$
 =--
@@ -280,13 +280,13 @@ This appears for instance as [MacLaneMoerdijk, section IX.5 prop 2](#MacLaneMoer
 +-- {: .num_defn}
 ###### Definition
 
-A topos in the [[image]] of $Sh(-)\colon Loc \to Topos$ is called a _[[localic topos]]_.
+A topos in the [[image]] of $Sh(-)\colon Locale \to Topos$ is called a _[[localic topos]]_.
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-The functor $Sh(-)\colon Loc \to Topos$ has a [[left adjoint]] 
+The functor $Sh(-)\colon Locale \to Topos$ has a [[left adjoint]] 
 $$
   L\colon Topos \to Locale
 $$
