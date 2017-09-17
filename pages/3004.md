@@ -165,7 +165,9 @@ deducible from it in [[constructive mathematics]].
 
 ## Related concepts
 
-* [[homotopy type theory]]+[[univalence]]+[[higher inductive types]]
+* [[geometric type theory]]
+
+* [[geometric homotopy type theory]]
 
 
 [[!redirects geometric theory]]
