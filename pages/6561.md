@@ -55,6 +55,8 @@ The 5d $(2,0)$-[[SCFT]] has tensionless 1-[[brane]] configurations. From the poi
 Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www-conference.slu.se/strings2011/presentations/3%20Wednesday/930_Moore.pdf))
   {#Moore}
 
+* [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf))
+
 See also the references and discussion at _[[M5-brane]]_.
 
 ### Models and special properties
