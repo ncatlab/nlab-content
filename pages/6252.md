@@ -41,7 +41,7 @@ An (unbounded) operator is __essentially self-adjoint__ if it is symmetric and i
 
 A __Hermitean__ (or __hermitian__) operator is the same as a self-adjoint operator, though some authors prefer that terminology for bounded self-adjoint operators.
 
-For a bounded operator $A: H\to K$ between Hilbert spaces define the Hermitean conjugate operator $A^*: K\to H$ by $(Ax|y)_H = (x|A^*y)_K$, for all $x\in K$, $y\in H$. Distinguish it from the concept of the [[transposed operator]] $A^T: K^*\to H^*$ between the dual spaces. 
+For a bounded operator $A: H\to K$ between Hilbert spaces define the Hermitean conjugate operator $A^*: K\to H$ by $(Ax|y)_H = (x|A^*y)_K$, for all $x\in K$, $y\in H$. Distinguish it from the concept of the [[transposed operator]] $A^T: K^*\to H^*$ between the [[dual vector space|dual spaces]]. 
 
 
 ## Related concepts
