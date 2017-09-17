@@ -47,7 +47,9 @@ In more generality, it is also possible to index using any [[ordered group|order
 
 * [[spectral sequence of a filtered complex]]
 
-* [[spectral sequence of a filtered stable homotopy type]]
+* [[filtered object in an (infinity,1)-category]]
+
+  * [[spectral sequence of a filtered stable homotopy type]]
 
 
 [[!redirects filtered objects]]
