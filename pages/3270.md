@@ -1,5 +1,5 @@
 
-> This entry is about discontinuities in parameter dependence of solutions of [[differential equations]] and similar phenomena in [[physics]]. For the notion of the same name in [[Morse theory]] see at _[[Cerf wall crossing]]_.
+> This entry is about discontinuities in parameter dependence of (often asymptotic) solutions of [[differential equations]] and similar phenomena with stability parameters (and their stability slopes) in [[algebraic geometry]] which are often interpreted as crossing the walls of marginal stability in [[physics]]. For the notion of the same name in [[Morse theory]] see at _[[Cerf wall crossing]]_ and for the (Weyl chamber wall) crossing functors in representation theory see [[wall crossing functor]]. 
 
 # Contents
 * table of contents
@@ -21,10 +21,6 @@ In [[super Yang-Mills theory]] the number of [[BPS states]] is locally constant 
 Another example are the moduli spaces of [[Higgs bundles]], studied by [[Carlos Simpson]] and others, which have special cases with interpretations both in geometry and in the gauge theory (instantons). It appears that sometimes they can be linked to the geometric picture. [[Riemann-Hilbert correspondence]], spectral transform and similar correspondences again play a major role. 
 
 Surely, one often works at the derived level. An adaptation of the  notion of stability into the setup of [[triangulated categories]] has been introduced by Bridgeland. Bridgeland stability for the derived categories of (boundary conditions of) D-branes (B-model) are relevant for string theory.
-
-### In representation theory
-
-We should also mention the related wall crossing in [[representation theory]]. Symmetries related to Weyl groups, Weyl chambers and chamber walls are involved (what is sometimes also in BPS setup above, see the paper by Cheng and Verlinde below). A priori wall crossing functors in representation theory (introduced in 1970s by Russian school, Gelfand, Bernstein etc.) are about certain functors which in take as input an infinite-dimensional representation, tensor it with finite-dimensional and look for certain pieces in the decomposition, where the business of chamber walls is crucial. Cf. A. [[Beilinson]], [[Victor Ginzburg|V. Ginzburg]], _Wall-crossing functors and $D$-modules_, Representation Theory __3__ (electronic), 1--31 (1999) [pdf](http://www.ams.org/ert/1999-003-01/S1088-4165-99-00063-1/S1088-4165-99-00063-1.pdf).
 
 ## References and links
 
