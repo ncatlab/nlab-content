@@ -132,6 +132,21 @@ Finally, we write $\Omega^\bullet(U \times \Delta^n)_{vert}$ for the dg-algebra 
 
 =--
 
++-- {: .un_example}
+###### Example
+
+Let $X$ be a [[smooth manifold]], $\omega \in \Omega^\bullet(X)$ be a smooth differential form. Let 
+
+$$
+  \phi : \Delta^n \to X
+$$
+
+be a [[smooth function]] that has [[sitting instant]]s as a function: towards any $k$-face of $\Delta^n$ it eventually becomes perpendicularly constant.
+
+Then the pullback form $\phi^* \omega \in \Omega^\bullet(\Delta^n)$ is a form with sitting instants.
+
+=--
+
 +-- {: .un_remark}
 ###### Remark
 
