@@ -27,9 +27,17 @@ In consequence people also speak for instance of _brave new Hopf algebroids_ whe
 
 ## References
 
-* A. Elmendorf, [[Igor Kriz]], [[Peter May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+Introductions and expositions include
 
-* A. Elmendorf, [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], *Rings, modules and algebras in stable homotopy theory* (aka "EKMM")
+* Martin Stolz, _"Brave new rings"_ ([pdf](http://folk.uib.no/hus001/data/BraveNewRings.pdf))
+
+* [[John Greenlees]], _First steps in brave new commutative algebra_ ([arXiv:math/0609453](http://arxiv.org/abs/math/0609453))
+
+Monographs on the technical core of "brave new algebra" in terms of [[symmetric monoidal categories of spectra]] include
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+* {#EKMM} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May|P. May]], _Rings, modules and algebras in stable homotopy theory_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
 [[!redirects brave new algebras]]
 
