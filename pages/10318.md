@@ -764,7 +764,7 @@ $$
   \,.
 $$
 
-Then given a [[trajectory]] $\gamma \colon [0,1] \longrightarrow X$ which satisfies [[Hamilton's equation]] for a standard [[kinetic energy]] term, then $p (\mathbf{d})q(\dot\gamma)$ is this [[kinetic energy]] of the [[particle]] which traces out this [[trajectory]].
+Then given a [[trajectory]] $\gamma \colon [0,1] \longrightarrow X$ which satisfies [[Hamilton's equation]] for a standard [[kinetic energy]] term, then $(p \mathbf{d}q)(\dot\gamma)$ is this [[kinetic energy]] of the [[particle]] which traces out this [[trajectory]].
 
 =--
 
