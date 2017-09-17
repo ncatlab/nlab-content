@@ -95,4 +95,7 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[gauge theory]] and [[QED]])
 
+
+
 [[!redirects Feynman perturbation series]]
+[[!redirects perturbation series]]
