@@ -19,7 +19,10 @@
 
 ## Idea
 
-A _Landau-Ginzburg model_ (LG-model) is a 2-[[dimension]]al [[supersymmetry|supersymmetric]] [[sigma model]] [[QFT]] characterized by the fact that its [[Lagrangian]] contains a potential term: given a [[complex manifold|complex]] [[Riemannian manifold|Riemannian]] [[target space]] $(X,g)$, the [[action functional]] of the LG-model is schematically of the form
+Originally, the _Ginzburg-Laundau model_ is a [[model (physics)|model]] in [[solid state physics]] for [[superconductivity]].
+
+Roughly this type of model has then been used as models for 2d [[quantum field theory]] in [[string theory]].
+There, a _Landau-Ginzburg model_ (LG-model) is a 2-[[dimension|dimensional]] [[supersymmetry|supersymmetric]] [[sigma model]] [[QFT]] characterized by the fact that its [[Lagrangian]] contains a potential term: given a [[complex manifold|complex]] [[Riemannian manifold|Riemannian]] [[target space]] $(X,g)$, the [[action functional]] of the LG-model is schematically of the form
 
 $$
   S_{LB} : (\phi : \Sigma \to X) \mapsto
@@ -53,11 +56,23 @@ As suggested by [[Maxim Kontsevich]] (see [Kapustin-Li, section 7](#KapustinLi))
 
 * [[2d TQFT]], [[TCFT]]
 
+* [[holographic superconductor]]
+
 ## References
+
+### General
+
+Original articles are
+
+* [[Cumrun Vafa]] Nicholas P. Warner, _Catastrophes and the Classification of Conformal Theories_, Phys.Lett. B218 (1989) 51
+
+* [[Brian Greene]], [[Cumrun Vafa]], _Calabi-Yau Manifolds and Renormalization Group Flows_, Nucl.Phys. B324 (1989) 371
+
+* [[Edward Witten]], _Phases of $N=2$ Theories In Two Dimensions_, Nucl.Phys.B403:159-222,1993 ([arXiv:hep-th/9301042](http://arxiv.org/abs/hep-th/9301042))
 
 ### Branes
 
-For instance
+The [[branes]] of the LG-model are discussed for instance in
 
 * [[Anton Kapustin]], Yi Li, _D-Branes in Landau-Ginzburg models and algebraic geometry_, [arXiv:hep-th/0210296](http://arxiv.org/abs/hep-th/0210296)
  {#KapustinLi}
@@ -76,7 +91,7 @@ Discussion of topological Landau-Ginzburg [[B-models]] explicitly as [[TCFT]]s i
 
 * [[Ed Segal]], _The closed state space of affine Landau-Ginzburg B-models_ ([arXiv:0904.1339](http://arxiv.org/abs/0904.1339))
 
-### Solid state physics
+### Relation to Solid state physics
 
 (...)
 
