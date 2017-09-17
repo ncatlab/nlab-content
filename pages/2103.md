@@ -1,3 +1,4 @@
+
 Michael Barr is the Peter Redpath Emeritus Professor of Pure Mathematics at McGill University. Although his earlier work was in [[homological algebra]], his principal research area for a number of years has been [[category theory]]. He is well known to theoretical [[computer science|computer scientists]] for his book
 
 *  _Category Theory for Computing Science_ with [[Charles Wells]],
@@ -13,12 +14,13 @@ are aimed at more specialized audiences.
 
 He is on the editorial boards of Mathematical Structures in Computer Science and the electronic journal Homology, Homotopy and Applications, and is editor of the electronic journal Theory and Applications of Categories. Michael Barr has much advocated the methods of his late student Jon Beck, involving monads, especially monadicity criteria and monadic cohomology. 
 
-#further related $n$Lab entries#
+
+## Further related $n$Lab entries
 
 *  [[Barr-exact category]]
 
 
-#References#
+## References
 
 The above material is based on
 
@@ -26,3 +28,7 @@ The above material is based on
 
 
 category: people
+
+[[!redirects Michael Barr]]
+[[!redirects Mike Barr]]
+[[!redirects Barr]]
