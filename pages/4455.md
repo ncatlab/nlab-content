@@ -3,20 +3,18 @@
 * table of contents
 {: toc}
 
-
 ## Idea
 
 The _Dedekind completion_ of a [[linear order]] $L$ is a new linear order $\widebar{L}$ that contains [[suprema]] for all [[inhabited set|inhabited]] [[bounded subsets]], and such that a supremum in $L$ is still a supremum in $\widebar{L}$. 
 
 While Dedekind completeness was traditionally described in the context of the [[real numbers]], it can be stated for any [[linear order]], although it really works best for [[dense order|dense]] and unbounded (without [[top]] or [[bottom]]) linear orders. Intuitively, a linear order is _Dedekind complete_ if [[Dedekind cuts]] don't give any 'new' elements.
 
-
-## Definitions
-
 +-- {: .standout}
 Any paragraph containing the string 'duiq' is original research (although lower duiqs at least are known in [[domain theory]]).
 =--
 
+
+## Definitions
 
 Let $S$ be a [[set]] with a [[dense order|dense]] [[linear order]] $\lt$ without [[top]] or [[bottom]] elements.
 
@@ -106,7 +104,9 @@ For example, let $X$ be a [[compactum]] and let $S$ be the quasiordered set of [
 *  Page 249&250 of _Continuous Lattices and Domains_ ([Google book](http://books.google.com/books?id=xPF9Hb7DPLgC)) covers lower Dedekind completions of duiqs (although not under that name) in the context of [[domain theory]].
 
 
+[[!redirects Dedekind completion]]
 [[!redirects Dedekind completions]]
+[[!redirects Dedeking completion]]
 
 [[!redirects Dedekind-complete]]
 [[!redirects Dedekind complete]]
