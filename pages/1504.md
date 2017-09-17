@@ -378,6 +378,27 @@ for $A$ a $\mathfrak{g}$-[[infinity-Lie algebroid valued differential form|value
 For the moment see _[[WZW-type superstring field theory]]_ .
 
 
+
+## Related concepts
+
+* [[schreiber:∞-Chern-Simons theory]]
+
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+  * [[Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+  * [[AKSZ sigma-models]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
+
+
+
 ## References
 
 ### General
