@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -32,7 +31,7 @@ The statement "colimits are universal" is then one of [[Giraud's axioms]] that c
 A [[locally presentable (∞,1)-category]] $C$ has **universal colimits** if for every [[morphism]] $f : X \to Y$ in $C$ the induced [[limit in a quasi-category|pullback]]-[[(∞,1)-functor]] on [[over quasi-category|over-(∞,1)-categories]]
 
 $$
-  f^* : C^{/X} \to C^{/Y}
+  f^* : C^{/Y} \to C^{/X}
 $$
 
 preserves all [[colimit in a quasi-category|colimits]].
