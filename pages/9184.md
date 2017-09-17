@@ -31,7 +31,7 @@ A hypothetical type of [[field (physics)|field]]/[[fundamental particle]].
 
 * Wikipedia _[Axion](http://en.wikipedia.org/wiki/Axion)_
 
-### Experimental signatur
+### Experimental signature
 
 * Joseph P. Conlon, M.C. David Marsh, _Searching for a 0.1-1 keV Cosmic Axion Background_ ([arXiv:1305.3603](http://arxiv.org/abs/1305.3603))
 
