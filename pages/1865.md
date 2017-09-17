@@ -127,12 +127,16 @@ The restriction of the cocycles in the Bunke-Schick model to those whose "auxial
 
 ## The Hopkins-Singer model
 
-see
+See at
 
-* [[differential function complex]]
+* _[[differential function complex]]_
 
-...
+* _[differential cohomology diagram -- Hopkins-Singer differential KU](differential+cohomology+diagram#HSDifferentialKU)_
 
+
+## More models in smooth spectra
+
+See at _[Differential cohomology diagram -- Differential K-theory](differential+cohomology+diagram#DifferentialKTheory)_.
 
 ## Examples 
 
