@@ -1,8 +1,14 @@
+
+# Indexed monoidal categories
+* table of contents
+{: toc}
+
 ## Definition
 
 An **indexed monoidal category** is a kind of [[indexed category]], consisting of a category $S$ and a [[pseudofunctor]] $S^{op} \to MonCat$, which we write as $A\mapsto (C^A, \otimes_A, I_A)$.  By the usual [[Grothendieck construction]], this pseudofunctor can be regarded as a [[fibration]].  And if $S$ has [[finite products]], then the "fiberwise" monoidal structures $\otimes_A$ can also be "Grothendieckified" into an "external product"
 $$ \boxtimes\colon C^A \times C^B \to C^{A\times B}$$
 defined by $M\boxtimes N = \pi_2^\ast M \otimes_{A\times B} \pi_1^\ast N$.  This makes the total category of the fibration a monoidal category and the fibration itself a strict monoidal functor (when $S$ has its cartesian monoidal structure); this is called a **[[monoidal fibration]]**.  Moreover, we can recover $\otimes_A$ from $\boxtimes$ via $M\otimes_A N = \Delta_A^\ast (M\boxtimes N)$, so the two structures have the same information.
+
 
 ## Examples
 
@@ -15,6 +21,7 @@ defined by $M\boxtimes N = \pi_2^\ast M \otimes_{A\times B} \pi_1^\ast N$.  This
 
 In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a morphism $f\colon A\to B$ in $S$ all have left adjoints $f_!$.  If these left adjoints satisfy the [[Beck-Chevalley condition]] for all pullback squares in $S$, then the indexed category is traditionally said to have **indexed coproducts**.  For many applications, though, we only need condition for a few pullback squares, which coincidentally (?) happen to be those that are pullbacks in any category with finite products (whether or not it even has all pullbacks).
 
+
 ## References
 
 * [[Mike Shulman]], "Framed bicategories and monoidal fibrations".  *Theory and Applications of Categories* Vol. 20, 2008, No. 18, pp 650-738.  [Free online](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html)
@@ -22,4 +29,5 @@ In many cases, the reindexing functors $f^\ast\colon C^B \to C^A$ induced by a m
 * Kate Ponto and [[Mike Shulman]], Duality and traces in indexed monoidal categories, ([web](http://www.math.ucsd.edu/~mshulman/papers/indexed-color.pdf) and [blog](http://golem.ph.utexas.edu/category/2011/11/traces_in_indexed_monoidal_cat.html))
 
 
+[[!redirects indexed monoidal category]]
 [[!redirects indexed monoidal categories]]
