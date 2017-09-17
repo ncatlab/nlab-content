@@ -139,9 +139,11 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[type II geometry]]
 
-  * [[elliptic ngenus]]
+  * [[elliptic genus]]
 
   * [[Diaconescu-Moore-Witten anomaly]]
+
+* [[little string theory]]
 
 * [[Kaluza-Klein mechanism]]
 
