@@ -461,6 +461,10 @@ where
 
 ([Schommer-Pries](#Schommer-Pries))
 
+### As an automorphism 2-group of fermionic CFT
+
+([Douglas-Henriques](#DouglasHenriques))
+
 
 ## Related concepts
 
@@ -505,6 +509,11 @@ A 2-group model which has a smoothening of the _topological_ [[string group]] in
 A construction explicitly in terms of the "basic" [[bundle gerbe]] on $G$ is discussed in 
 
 * [[Konrad Waldorf]], _A Construction of String 2-Group Models using a Transgression-Regression Technique_ ([arXiv:1201.5052](http://arxiv.org/abs/1201.5052))
+
+Via fermionic nets
+
+* [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
+ {#DouglasHenriques}
 
 [[!redirects String 2-group]]
 [[!redirects String Lie 2-group]]
