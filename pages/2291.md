@@ -68,6 +68,8 @@ The [[product]] of any [[space]] $X$ with the [[moduli stack]] $Pic_X$ of line b
 
 * [[line 2-bundle]]
 
+* [[line n-bundle]]
+
 [[!redirects line bundles]]
 
 [[!redirects complex line bundle]]
