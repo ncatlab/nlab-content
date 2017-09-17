@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
+
 # Definition #
 
 In any [[2-category]] $K$, a morphism $f:A\to B$ is called **eso** if for any [[ff morphism]] $m:C\to D$, the following square is a ([[2-limit|2-categorical]]) [[pullback]] in [[Cat]]:
