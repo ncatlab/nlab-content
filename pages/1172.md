@@ -18,6 +18,7 @@ A __Cauchy space__ is a set $S$ together with a collection of [[proper filters]]
 
 That is, the set of Cauchy filters is a local filter of proper filters that contains all principal ultrafilters (sort of a tongue twister).
 
+
 The definition can also be phrased in terms of [[nets]]; a __[[Cauchy net]]__ is a net whose [[eventuality filter]] is Cauchy.  In particular, a __[[Cauchy sequence]]__ is a [[sequence]] whose eventuality filter is Cauchy.
 
 
@@ -32,15 +33,18 @@ Any [[metric space]] is a Cauchy space: $F$ is a Cauchy filter iff it has elemen
 More generally, any [[uniform space]] is a Cauchy space: $F$ is a Cauchy filter if, given any [[entourage]] $U$, $A \times A \subseteq U$ for some $A \in F$.  This reconstructs the usual definitions of Cauchy net and Cauchy-continuous map for uniform spaces.  (In general, we need nets rather than just sequences here.)  The [[forgetful functor]] from $Unif$ (uniform spaces and [[uniformly continuous maps]]) to $Cau$ is [[faithful functor|faithful]] but still not [[full functor|full]].
 
 
+Assuming the [[ultrafilter principle]] (and [[excluded middle]], which might follow from the ultrafilter principle for all that I know), we may take any collection $U$ of [[free ultrafilters]] and define a proper filter $F$ to be Cauchy if (hence iff) every free ultrafilter that refines $F$ belongs to $U$.
+
+
 ## Properties
 
-Every Cauchy space is a [[convergence space]]; $F \to x$ if the intersection of $F$ with the principal ultrafilter $F_x$ is Cauchy.  Note that any convergent filter must be Cauchy.  Conversely, if every Cauchy filter is convergent, then the Cauchy space is called __[[complete space|complete]]__.
+Every Cauchy space is a [[convergence space]]; $F \to x$ if the intersection of $F$ with the principal ultrafilter $F_x$ is Cauchy.  Note that any convergent proper filter must be Cauchy.  Conversely, if every Cauchy filter is convergent, then the Cauchy space is called __[[complete space|complete]]__.
 
 
 The set of [[Cauchy filters]] on a Cauchy space has a natural Cauchy structure which is complete and (as a convergence space) [[preregular space|preregular]]; we identify the indistinguishable Cauchy filters to get a [[Hausdorff space]], the Hausdorff __[[Cauchy completion|completion]]__ of the original Cauchy space.  The complete Hausdorff Cauchy spaces thus form a [[reflective subcategory]] of $Cau$.  This completion agrees with the completion of a metric or uniform space; that is, Cauchy completion, even of a metric space, is an operation on its Cauchy structure only.
 
 
-A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bounded__) if every filter is contained in a Cauchy filter.  Equivalently (assuming the [[ultrafilter theorem]], a weak form of the [[axiom of choice]]), $S$ is precompact iff every [[ultrafilter]] is Cauchy.  A Cauchy space is [[compact space|compact]] (as a convergence space) iff it is both complete and precompact.  Conversely, it is precompact iff its completion is compact.
+A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bounded__) if every proper filter is contained in a Cauchy filter.  Equivalently (assuming the [[ultrafilter principle]]), $S$ is precompact iff every [[ultrafilter]] is Cauchy.  A Cauchy space is [[compact space|compact]] (as a convergence space) iff it is both complete and precompact.  Conversely, it is precompact iff its completion is compact.
 
 
 ## References
