@@ -6,8 +6,15 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
 =--
 =--
+=--
+
+
+
 
 #Contents#
 * table of contents
@@ -15,7 +22,7 @@
 
 ## Idea
 
-The _photon_ is the [[gauge boson]] of the [[electromagnetic field]], hence of _[[light]]_.
+The _photon_ is the [[gauge boson]] of the [[electromagnetic field]], hence of _[[electromagnetic radiation]]_ and of _[[light]]_.
 
 ## Related concepts
 
