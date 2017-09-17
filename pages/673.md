@@ -19,7 +19,7 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 
 * _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:Con(ZF+notWISC)|webpage]].
 
-* _A bigroupoid's topology_, to appear on the arXiv soon.
+* _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019).
 
 * _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886).
 
@@ -39,6 +39,7 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 ## Talks ##
 
 (To be filled in!)
+
 
 * Some [slides](http://ncatlab.org/davidroberts/files/DMRAustMS09.pdf) from a talk I gave about my thesis at the 2009 Annual Meeting of the Australian Mathematical Society, at the University of South Australia. 30 September 2009
 
