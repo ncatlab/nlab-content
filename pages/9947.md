@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -19,12 +23,12 @@ A _proof assistant_ or _proof management system_ is a kind of [[programming lang
 
 There are two threads of current development in proof systems: foundational and coverage. The foundational work tries to find the best meta-theory to formalize mathematics. Out of that work first came [[dependent type theory|dependent types]] ([[Automath]], in the late 60s), then the [[calculus of constructions]] (early [[Coq]]), and the [[calculus of inductive constructions]] (current [[Coq]]). More recently a new wave of such work is being done in [[homotopy type theory]] as another step in this direction. Coq's library is not that large, except in the area of [[group theory]] where the results of the work on [[Feit-Thompson theorem]] has produce something larger.
 
-The much larger work has happened for decades building [[Mizar]]'s enormous library (Mizar is based on [[Tarski–Grothendieck set theory]] rather than type theory). Its library is a couple of orders of magnitude larger than anyone else's. Also worth a close look is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have decently sized libraries.  (Isabelle can be used with either [[material set theory]], like Mizar, or [[higher-order type theory]], like the others.)
+The much larger work has happened for decades building [[Mizar]]'s enormous library (Mizar is based on [[Tarski–Grothendieck set theory]] rather than [[type theory]]). Its library is a couple of orders of magnitude larger than anyone else's. Also worth a close look is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have decently sized libraries.  (Isabelle can be used with either [[material set theory]], like Mizar, or [[higher-order type theory]], like the others.)
 
 
 ## Examples
 
-* [[NuPRL]], [[Isabelle]], [[HOL]]
+* [[Mizar]], [[NuPRL]], [[Isabelle]], [[HOL]]
 
 * [[Coq]], [[Agda]]
 
@@ -42,7 +46,13 @@ Projects for formalization of mathematics
 
 * Freek Wiedijk, _Digital math by alphabet_ ([web](http://www.cs.ru.nl/~freek/digimath/index.html))
 
-* _[Conference on Intelligent Computer Mathematics](http://www.cicm-conference.org/)_
+* _[Conference Series on Intelligent Computer Mathematics](http://www.cicm-conference.org/)_
+
+  ([2014](http://cicm-conference.org/2014/cicm.php))
+
+* Conference series on Interactive theorem proving
+
+  ([2014](http://www.cs.uwyo.edu/~ruben/itp-2014/))
 
 Parts of the above text are taken from [this MO comment](http://mathoverflow.net/questions/133572/at-which-level-is-it-currently-possible-to-write-formal-proofs/134009#134009) by [[Jacques Carette]].
 
