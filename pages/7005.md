@@ -267,6 +267,14 @@ The computational interpretation of univalence / [[canonicity]] is discussed in
 
 * Simon Huber (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ ([pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf))
 
+* Bruno Barras, [[Thierry Coquand]], Simon Huber, _A Generalization of Takeuti-Gandy Interpretation_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semi.pdf))
+
+
+
+
+
+
+
 Univalence is claimed to be established in all [[(infinity,1)-toposes]], their presentations by [[type-theoretic model categories]] as well as further cases of [[locally cartesian closed (infinity,1)-categories]] in
 
 * [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
