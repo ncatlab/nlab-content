@@ -22,6 +22,8 @@ In principle, any [[interaction]] between two [[physical systems]] is a __measur
 
 ## Related concepts
 
+* [[physical unit]]
+
 * [[quantum measurement]]
 
 * [[experiment]]
