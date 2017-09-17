@@ -1,6 +1,8 @@
 
 [Hilbert's problems](http://en.wikipedia.org/wiki/Hilbert%27s_problems)
 
+* [[Hilbert's third problem]]
+
 * [[Hilbert's fifth problem]]
 
 * [[Hilbert's sixth problem]]
