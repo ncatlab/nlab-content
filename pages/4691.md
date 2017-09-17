@@ -181,6 +181,8 @@ A discussion of entropy with an eye towards the [[presheaf topos]] over the [[si
 
 * [[Mikhail Gromov]], _In a Search for a Structure, Part I: On Entropy_ (2012) ([pdf](http://www.ihes.fr/~gromov/PDF/structres-entropy-june-2012.pdf))
 
+* [[William Lawvere]], _State categories, closed categories, and the existence_ (subtitle: Semi-continuous entropy functions), IMA reprint 86, [pdf](http://www.ima.umn.edu/preprints/Jan84Dec84/86s.pdf)
+
 [[!redirects entropy]]
 [[!redirects entropies]]
 
