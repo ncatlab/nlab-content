@@ -9,13 +9,7 @@
 =--
 =--
 
-* [[special orthogonal Lie algebra]]
 
-* **string Lie 2-algebra**
-
-* [[fivebrane Lie 6-algebra]]
-
-***
 
 
 #Contents#
@@ -237,6 +231,14 @@ $$
 
 For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[super Poincare Lie algebra]] by a [[super Lie algebra]] 4-cocycle.
 
+
+## Related concepts
+
+* [[special orthogonal Lie algebra]]
+
+* **string Lie 2-algebra**
+
+* [[fivebrane Lie 6-algebra]]
 
 
 ## References
