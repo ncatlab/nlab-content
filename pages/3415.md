@@ -100,6 +100,11 @@ The following proposition shows that $(k_! \dashv k^!)$ is indeed a model for $(
 **Proof** This is ([JoTi, prop 1.20](#JoyalTierney))
 
 
+## Related concepts
+
+A similar model for [[(∞,n)-categories]] is disucssed at
+
+* [[model structure on cellular sets]]
 
 ## References
 
