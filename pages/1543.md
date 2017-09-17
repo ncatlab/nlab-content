@@ -824,7 +824,7 @@ Discussion of [[Atiyah Lie groupoids]] associated to principal bundles and the r
 
 Further discussion along these lines is for instance in 
 
-* Iakovos Androulidakis, _Classification of extensions of principal bundles and transitive Lie groupoids with prescribed kernel and cokernel_ ([arXiv:math/0402007](http://arxiv.org/abs/math/0402007))
+* [[Iakovos Androulidakis]], _Classification of extensions of principal bundles and transitive Lie groupoids with prescribed kernel and cokernel_ ([arXiv:math/0402007](http://arxiv.org/abs/math/0402007))
  {#Androulidakis}
 
 ### Examples
