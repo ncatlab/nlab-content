@@ -24,7 +24,7 @@ Given a suitable [[line object]] $\mathbb{A}^1$ in a suitable ambient [[(∞,1)-
 
 In this case the [[right adjoint]] to the reflector typically has the interpretation of producing [[spaces]] which are "affine" in that they are entirely characterized by their [[function algebras on ∞-stacks|function ∞-algebra]] with [[coefficients]] in $\mathbb{A}^1$.
 
-Therefore in this case the [[localization]] [[modality]] derserves to be called the _affine modality_.
+Therefore in this case the [[localization]] [[modality]] deserves to be called the _affine modality_.
 
 ## Examples
 
