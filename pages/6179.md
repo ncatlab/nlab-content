@@ -40,6 +40,8 @@ The term _S-duality_ can mean two different things:
 
 ## Idea
 
+### In (super) Yang-Mills theory
+
 In its original form, S-duality refers to **Montonen-Olive duality** , which is about the following phenomenon:
 
 The [[Lagrangian]] of [[Yang-Mills theory]] has two summands, 
@@ -65,6 +67,45 @@ This is actually not quite true for ordinary Yang-Mills theory, but seems to be 
 
 Moreover, Witten has suggested that this S-duality secretly drives a host of other subtle phenomena, notably that the [[geometric Langlands duality]] is just an aspect of a special case of this.
 
+### In string theory
+
+In [[string theory]], S-duality is supposed to apply to whole string theories and make [[type II string theory]] be S-dual to itself and make  [[heterotic string theory]] be S-dual to [[type I string theory]].
+
+#### Heterotic/type I duality
+
+> Something substantial should go here, for the moment the following is copied from a discussion forum comment by some Olof [here](http://physics.stackexchange.com/a/65546/5603):
+
+For the Het/I relation, the first observation is that the massless spectra of the two models agree. Moreover, if we make the identification
+$$\tag{1}
+G^I_{\mu\nu} = e^{-\Phi_h} G^h_{\mu\nu} , \qquad
+\Phi^I = - \Phi^h , \qquad
+\tilde{F}^I_3 = \tilde{H}^h_3 , \qquad
+A^I_1 = A^h_1
+$$
+the low energy effective supergravity actions of the two models match. Since the string coupling constants $g_s^I$ and $g_s^h$ are given as the expectation values of the exponentials of the dilatons $\exp(\Phi^I)$ and $\exp(\Phi^h)$, respectively, the above equations relates the type-I theory at strong coupling to the heterotic theory at weak coupling:
+$$\tag{2}
+g^I_s = \frac{1}{g^h_s} .
+$$
+From the relative scaling of the metric in (1) we also see that the string length in the two theories are related by
+$$\tag{3}
+l^I_s = l^h_s \sqrt{g^h_s}.
+$$
+
+As a non-perturbative check we can consider the tension of the type-I D1 brane. The brane is a BPS object, so for all values of the coupling $g_s^I$ the tension is given by the same formula
+$$
+T^I_{D1} = \frac{1}{g_s^I} \frac{1}{2\pi\left(l^I_s\right)^2} = \frac{g^h_s}{2\pi\left(l^h_s\sqrt{g^h_s}\right)^2} = \frac{1}{2\pi\left(l^h_s\right)^2}
+$$ 
+where I've used relations (2) and (3). But this is equal to the tension of the fundamental heterotic string
+$$
+T^h_{F1} = \frac{1}{2\pi\left(l^h_s\right)^2}.
+$$
+This indicates that it is sensible to identify the strong coupling limit of the type-I D1 brane with the heterotic string.
+
+#### Type IIB self-duality
+
+In [[type IIB string theory]] S-duality mixes the [[fundamental string]] with the [[D1-brane]].
+
+At least part of the S-duality in [[type II string theory]] can be seen as a system of autoequivalences of the [[super L-infinity algebras]] which defines the [[extended super spacetime]] constituted by the type II superstring ([FSS 13, section 4.3](#FSS13)).
 
 ## Related concepts
 
@@ -104,6 +145,11 @@ The understanding of Montonen-Olive duality as a remnant conformal transformatio
   _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
+
+S-duality in [[type II string theory]] as an operation on the [[extended super spacetime]] [[super L-infinity algebra]] is in section 4.3 of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+  {#FSS13}
 
 See also [[electro-magnetic duality]].
 
