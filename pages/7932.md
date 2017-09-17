@@ -1,0 +1,131 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The generalization of the notion of _[[action]]_ from [[algebra]] to [[higher algebra]]. 
+
+If the action is suitably linear in some sense, this is also referred to as _[[∞-representation]]_.
+
+## Properties
+
+### For $\infty$-groups in an $\infty$-topos 
+ {#PropertiesOfGroupActionsInTopos}
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $G \in Grp(\mathbf{H})$ be an [[∞-group]] in $\mathbf{H}$.
+
+Then every $\infty$-action $\rho : V \times G \to V$ has a classifying morphism $\mathbf{c}_\rho : V//G \to \mathbf{B}G$ in that there is a [[fiber sequence]]
+
+$$
+  \array{
+    V
+    \\
+    \downarrow
+    \\
+    V//G &\stackrel{\mathbf{c}}{\to}& \mathbf{B}G
+  }
+$$
+
+such that $\rho$ is the $G$-action on $V$ regarded as the corresponding $G$-[[principal ∞-bundle]] modulated by $\mathbf{c}_{\rho}$.
+
+## Examples
+
+### Of $\infty$-groups in an $\infty$-topos
+
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $G \in Grp(\mathbf{H})$ be an [[∞-group]] in $\mathbf{H}$. 
+
+The following lists some fundamental classes of examples of $\infty$-actions of $G$, and of other canonical $\infty$-groups. By the discussion [above](#PropertiesOfGroupActionsInTopos) these actions may be given by the classifying morphisms.
+
+#### Fundamental action
+
+The _right $\infty$-action_ of $G$ on itself is given by the fiber sequence
+
+$$
+  \array{
+    G 
+    \\
+    \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+$$
+
+which exhibits $\mathbf{B}G$ as the [[delooping]] of $G$.
+
+$$
+  G//G \simeq *
+  \,.
+$$
+
+#### Adjoint action
+
+The fiber sequence
+
+$$
+  \array{
+    G
+    \\
+    \downarrow
+    \\
+    \mathcal{L} \mathbf{B}G &\stackrel{ev_*}{\to}& \mathbf{B}G
+  }
+$$
+
+given by the [[free loop space object]] $\mathcal{L}\mathbf{B}G$ exhibits the higher [[adjoint action]] of $G$ on itself:
+
+$$
+  G//_{Ad}G \simeq \mathcal{L}\mathbf{B}G
+  \,.
+$$
+
+#### Automorphism action
+
+For $V \in \mathbf{H}$ any object, there is a canonical action of the 
+internal [[automorphism infinity-group]] $\mathbf{Aut}(V)$:
+
+$$
+  \array{
+    V
+    \\
+    \downarrow
+    \\
+    V//\mathbf{Aut}(V) &\to& \mathbf{B} \mathbf{Aut}(V)
+  }
+$$
+
+## Related concepts
+
+* [[action]], **$\infty$-action**
+
+* [[representation]], [[∞-representation]]
+
+* [[associated bundle]], [[associated ∞-bundle]]
+
+
+## References
+
+Actions of [[A-∞ algebras]] in some [[symmetric monoidal (∞,1)-category]] are discussed in section 4.2 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+Aspects of actions of [[∞-groups]] in an [[∞-topos]] in the contect of [[associated ∞-bundles]] are discussed in section I 4.1 of 
+
+* _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
+
+[[!redirects ∞-action]]
+
+[[!redirects infinity-actions]]
+[[!redirects ∞-actions]]
+
