@@ -388,7 +388,7 @@ $$
 
 =--
 
-e.g. ([CPS, 5.2](#CPS))
+e.g. ([CPS 05, 5.2](#CPS05))
 
 ### Pasting law
 
@@ -422,8 +422,8 @@ A fairly comprehensive resource is the appendix of
 
 See also
 
-* [[Wojciech Chacholski]], Wolfgang Pitsch, and [[Jerome Scherer]], _Homotopy pullback squares up to localization_ ([pdf](http://sma.epfl.ch/~jscherer/articles/hopullbacks2.pdf))
- {#CPS}
+* {#CPS05} [[Wojciech Chacholski]], Wolfgang Pitsch, and [[Jerome Scherer]], _Homotopy pullback squares up to localization_ ([arXiv:math/0501250](http://arxiv.org/abs/math/0501250), [pdf](http://sma.epfl.ch/~jscherer/articles/hopullbacks2.pdf))
+ 
 
 ### In terms of homotopy type theory
  {#ReferencesForHoTT}
