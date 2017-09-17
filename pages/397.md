@@ -137,6 +137,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Romie Banerjee]]
 * [[Ronnie Brown]]
 * [[Ryan Grady]]
+* [[SamStaton|Sam Staton]]
 * [[Scott Morrison]]
 * [[Sebastian Thomas]]
 * [[Simon Willerton]]
