@@ -1,19 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
 # Coalgebra
 * table of contents
 {: toc}
-
 
 ## Definition
 
@@ -130,5 +128,11 @@ See also the generalization to [[dg-coalgebra]]s in [Getzler-Goerss](#GetzlerGoe
 * [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
 
 
+[[!redirects coalgebra]]
 [[!redirects coalgebras]]
 
+[[!redirects coassociative coalgebra]]
+[[!redirects coassociative coalgebras]]
+
+[[!redirects cocommutative coalgebra]]
+[[!redirects cocommutative coalgebras]]
