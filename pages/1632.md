@@ -87,6 +87,8 @@ However, this is not a characterization of Arens regularity; Young also observed
 
 ## Related concepts
 
+* [[Banach module]]
+
 [[!include analytic geometry ingredients -- table]]
 
 ## References
