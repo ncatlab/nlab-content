@@ -89,7 +89,7 @@ based on the thesis
 
 and was proven in 
 
-* [[Varghese Mathai]], [[Weiping Zhang]], _Geometric quantization for proper actions_ ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
+* [[Varghese Mathai]], [[Weiping Zhang]], _Geometric quantization for proper actions_, Advances in Mathematics 225:1224-1247 (2010) ([arXiv:0806.3138](http://arxiv.org/abs/0806.3138))
  
 Discussion of push-forward not over manifold but over [[moduli stacks]] as relevant in [[Chern-Simons theory]] is in section 3 of 
 
