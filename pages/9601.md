@@ -1,0 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+There exists the [[model category]] structure on the [[category]] of [[semi-simplicial sets]] which is [[transferred model structure|transferred]] along the [[right adjoint]] of the [[forgetful functor]] from the standard [[model structure on simplicial sets]]. ([van den Berg 13](#vandenBerg))
+
+## References
+
+* [[Benno van den Berg]], _A note on semisimplicial sets_, 2013 ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semisimplicialsets.pdf/421930564/semisimplicialsets.pdf))
+ {#vandenBerg}
