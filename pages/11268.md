@@ -49,7 +49,20 @@ The statement need not hold if "(weakly) point-surjective" is replaced by "epimo
 
 Thus epimorphisms need not be (weakly) point-surjective. Nor are point-surjective maps necessarily epimorphisms; for example, if $U \hookrightarrow V$ is a proper inclusion between proper subobjects of the terminal object $1$ (as may happen in a [[sheaf topos]]), then this is vacuously point-surjective but only rarely an epimorphism. 
 
+Point-surjectivity may seem like an inadequate notion of "epimorphism", but it suffices for many purposes. For example, 
 
++-- {: .num_prop} 
+###### Proposition 
+**(Cantor's theorem in a topos)** 
+For any object $X$, there is an epimorphism $f: X \to \Omega^X$ only if the topos is degenerate. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose there existed such an epi. In a topos, a map $f: X \to Y$ is epi iff the [[image|direct image]] map $\exists_f: \Omega^X \to \Omega^Y$ retracts the [[preimage|inverse image]] map $\Omega^f: \Omega^Y \to \Omega^X$, i.e., $\exists_f \circ \Omega^f = 1_{\Omega^Y}$. Putting $Y = \Omega^X$, the supposition implies that $\exists_f: Y \to \Omega^Y$ is a retraction. But retractions are automatically point-surjective. 
+
+We then conclude from Lawvere's fixed point theorem that every endomorphism on $\Omega$, in particular the negation $\neg: \Omega \to \Omega$, has a fixed point $p: 1 \to \Omega$. Then $0 = p \wedge \neg p = p \wedge p = p$, whence $\neg 0 = 0$, or "true = false": the topos is degenerate. 
+=-- 
 
 ## References
 
