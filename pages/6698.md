@@ -8,6 +8,7 @@ __Pierre de Fermat__ was a 17th-century French mathematician known for:
 * the first rigorous [[probability]] calculations,
 * etc.
 
+See also _[[Fermat theory]]_
 
 category: people
 
