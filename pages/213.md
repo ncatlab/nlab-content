@@ -42,7 +42,7 @@ Some variants of this are of interest:
 
 Along the general lines of [notions of space](http://ncatlab.org/nlab/show/space#NotionsOfSpace) we have the following notions of spaces modeled on $CartSp$.
 
-Consider [[CartSp]] as a [[site]] with the standard notion of [[coverage]] (for instance [[good open cover]]s, using the fact that a [[Cartesian space]] is [[diffeomorphism|diffeomorphic]] to an open ball). This is a [[cohesive site]] and even an [[(∞,1)-cohesive site]].
+Consider [[CartSp]] as a [[site]] with the standard notion of [[coverage]] (for instance [[good open cover]]s, using the fact that a [[Cartesian space]] is [[diffeomorphism|diffeomorphic]] to an [[open ball]]). This is a [[cohesive site]] and even an [[∞-cohesive site]].
 
 
 Then 
