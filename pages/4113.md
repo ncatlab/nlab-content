@@ -54,6 +54,8 @@ Paracompact [[smooth manifolds]] have _smooth_ partitions of unity subordinate t
 
 **Proposition:** (Mather, 1965) Let $\{u_i\}_J$ be a non-point finite partition of unity. Then there is a locally finite partition of unity $\{v_i\}_{i\in J}$ such that the induced cover of the latter is a refinement of the induced cover of the former.
 
+(For a proof, see p.354 of Dold's Lectures on algebraic topology.)
+
 This implies that (loc. finite) [[numerable covers]] are cofinal in induced covers arising from collections of functions as in the definition. In particular, given the [[Milnor classifying space]] $\mathcal{B}^M G$ of a [[topological group]] $G$, which comes with a countable family of 'coordinate functions' $\mathcal{B}^M G \to [0,1]$, has a numerable cover. This is shown by Dold to be a trivialising cover for the universal bundle constructed by Milnor, and so the universal bundle is [[numerable bundle|numerable]].
 
 
@@ -134,6 +136,8 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 ## References
 
 * [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
+
+* [[Albrecht Dold]], _Lecturse on algebraic topology_, Springer Classics in Mathematics (1980), p.354.
 
 * M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
 
