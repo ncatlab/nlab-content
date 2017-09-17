@@ -67,8 +67,12 @@ Notice that the double quotients appearing here are by the [[Weil uniformization
 
 ## References
 
-* wikipedia: en:[Artin reciprocity law](http://en.wikipedia.org/wiki/Artin_reciprocity_law), de:[Artinsches_Reziprozitaetsgesetz](http://de.wikipedia.org/wiki/Artinsches_Reziprozit%C3%A4tsgesetz)
 * [[Serge Lang]], _Algebraic number theory_, GTM 110, Springer 1970, 1986, 1994, 2000
+
+* {#Snyder02} [[Noah Snyder]], section 2.3 of _Artin L-Functions: A Historical Approach_, 2002 ([pdf](http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
+
+* wikipedia: en:[Artin reciprocity law](http://en.wikipedia.org/wiki/Artin_reciprocity_law), de:[Artinsches_Reziprozitaetsgesetz](http://de.wikipedia.org/wiki/Artinsches_Reziprozit%C3%A4tsgesetz)
+
 
 Disucssion with an eye towards [[geometric class field theory]] is in 
 
