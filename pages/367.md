@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea
@@ -26,7 +26,9 @@ A simplicial object $X$ in a [[category]] $C$ is a collection $\{X_n\}_{n \in \m
 
 ## Definition
 
-A **simplicial object** in a category $C$ is a [[functor]] $\Delta^{op} \to C$, where $\Delta$ is the [[simplex category|simplicial indexing category]].
+A **simplicial object** in a [[category]] $C$ is a [[functor]] $\Delta^{op} \to C$, where $\Delta$ is the [[simplex category|simplicial indexing category]].
+
+More generally, a simplicial object in an [[(∞,1)-category]] is an [[(∞,1)-functor]] $\Delta^{op} \to C$.
 
 A **cosimplicial object** in $C$ is similarly a functor out of the [[opposite category]], $\Delta \to C$.
 
