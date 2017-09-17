@@ -36,7 +36,137 @@ $$
  \,.
 $$
 
-## Special case: 2-term filtering
+## Definition
+
+We give the definition 
+
+* [explicitly](#ExplicitDefinition)
+
+and
+
+* [via exact couples](#ViaExactCouples).
+
+### Explicitly
+ {#ExplicitDefinition}
+
+Let 
+
+$$
+  \cdots
+  \hookrightarrow
+  F_{p-1}C_\bullet \hookrightarrow F_p C_\bullet \hookrightarrow
+  \cdots 
+  \hookrightarrow
+  C_\bullet
+$$
+
+be a [[filtered object|filtered]] [[chain complex]] with [[associated graded|associated graded]] complex denoted $G_\bullet C_\bullet$.
+
++-- {: .num_defn #ExplicitForm}
+###### Definition
+
+For $r,p,q \in \mathbb{Z}$ define objects
+
+$$
+  E^r_{p,q}
+   \coloneqq
+  \frac{
+    \left\{
+     x \in F_p C_{p+q} \,|\, \partial x \in F_{p-r} C_{p+q-1}
+    \right\}
+  }
+  {
+    F_{p-1} C_{p+q} + \partial( F_{p+r-1} C_{p+q+1} )
+  }
+$$
+
+and morphisms
+
+$$
+  \partial_r : E^r_{p,q} \to E^r_{p-q, q+r - 1}
+$$
+
+given by $\partial^C$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The group $E^r_{p,q}$ is to be thought of as the _approximate_ chain homology of $C_\bullet$ in degree $p+q$ where the differential is required to vanish only "to order $r$" (is in $F_{p-r}$) and boundaries are similarly modded out only in order $r$.
+
+=--
+
++-- {: .num_prop #ExplicitDefIsIndeedSpectralSequ}
+###### Proposition
+
+Definition \ref{ExplicitForm} indeed gives a [[spectral sequence]] in that
+the $\partial_r$ are well defined and for all $r$ we have that $E^{r+1}_{\bullet, \bullet}$ is indeed the chain homology of $E^r_{\bullet, \bullet}$, i.e.
+
+$$
+  E^r_{p,q} 
+  = 
+ \frac{
+    ker(\partial_r : E^r_{p,q} \to E^r_{p-r, q+r-1})
+  }{
+    im( \partial_r : E^r_{p+r, q-r+1} \to E^r_{p,q} )
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If the filtration of $C_\bullet$ is bounded in each degree, then 
+the spectral sequence of prop. \ref{ExplicitDefIsIndeedSpectralSequ}
+indeed converges to the chain homology of $C_\bullet$
+
+$$
+  E^r_{p,q} \Rightarrow H_{p+q}(C)
+  \,,
+$$
+
+i.e. for sufficiently large $r$ we have
+
+$$
+  E^r_{p,q} = G_p H_{p+q}(C)
+  \,.
+$$
+
+=--
+
+
+### Via exact couples
+ {#ViaExactCouples}
+
+The whole of the spectral sequence can be defined as the [[spectral sequence]] of the [exact couple](spectral+sequence#exact_couples)
+
+$$ D\overset{\varphi}{\to} D \to E \to D $$
+
+where $D = \bigoplus_i H^{\bullet}(F_i)$, where $\varphi$ is the cohomology morphism induced by the inclusion of chain complexes $F_i\to F_{i+1}$ and $E = \bigoplus_i H^\bullet(F_i/F_{i-1})$, the total cohomology of the associated bigraded complex.  (The usual bigrading of the initial term is a bit weird maybe, but we'll get used to that.)
+
+At every stage we have a new family of long exact sequences
+
+#### Convergence, ideally
+
+It is instructive to note that in the $n$th derived exact couple $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$, as it meets $H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
+$$F_{i} D_{(n)} = \frac{\ker(d)\cap F_i}{F_i\cap dF_{i+n}}.$$
+Separating the grades, the exactness of the couple at $E_{(n)}$ then says 
+$$ F_{i} H^j(F_{i+n})\to F_{i+1}H^j(F_{i+n+1}) \to E_{(n)}^{i\dots} \to F_i H^{j+1}(F_{i+n}) \to F_{i+1}H^{j+1}(F_{i+n+1}) $$
+
+One can see this as converging (if it sensibly converges) to either a subquotient of $F_i$ _or_ to a [[module|submodule]] $F_i H^\bullet(C) \lt H^\bullet(C)$.  Taking the latter interpretation, we hope to find in the limiting case exact sequences
+$$ F_i H^j(C)\to F_{i+1} H^j(C) \to E_{(\infty)}^{i\dots} \to F_i H^{j+1}(C) \to F_{i+1} H^{j+1}(C).$$
+At this stage one can check that the morphisms $F_i H^j(C)\to F_{i+1} H^j(C)$ are indeed definable, and in fact injective, so that whatever $E_{(\infty)}$ should be, the morphism $E_{(\infty)}^{i\dots}\to F_i H^{j+1}$ is null; that is, our long-exact sequence breaks up into the 
+[[short exact sequence]]s
+$$ 0\to F_i H^j(C) \to F_{i+1} H^j(C)\to E_{(\infty)}^{i\dots} \to 0 .$$
+
+In summary, if the spectral sequence $E_{(n)}$ converges in a sensible way to the correct thing $E_{(\infty)}$, then that correct thing is also the associated graded [[module]] of the [[filtration]] of $H^\bullet(C)$ induced by the [[filtration]] of $C$.
+
+## Applications
+
+### Special case: 2-term filtering
 
 The special case where the filtering has just length one  is that where we simply have a sub-complex $C^{(1)}_\bullet \hookrightarrow C_\bullet$ and want to compute the homology of $C_\bullet$ from that of $C^{(1)}_\bullet$ and $C_\bullet/C^{(1)}_\bullet$.
 
@@ -82,32 +212,7 @@ $$
 
 (...)
 
-## Definition
 
-The whole of the spectral sequence can be defined as the [[spectral sequence]] of the [exact couple](spectral+sequence#exact_couples)
-
-$$ D\overset{\varphi}{\to} D \to E \to D $$
-
-where $D = \bigoplus_i H^{\bullet}(F_i)$, where $\varphi$ is the cohomology morphism induced by the inclusion of chain complexes $F_i\to F_{i+1}$ and $E = \bigoplus_i H^\bullet(F_i/F_{i-1})$, the total cohomology of the associated bigraded complex.  (The usual bigrading of the initial term is a bit weird maybe, but we'll get used to that.)
-
-At every stage we have a new family of long exact sequences
-
-#### Convergence, ideally
-
-It is instructive to note that in the $n$th derived exact couple $\varphi^n D\to E_{(n)} \to \varphi^n D\to{}$, the hidden part $\varphi^n D$ is the [[module|submodule]] $D_{(n)}$ of $\bigoplus_{i} H(F_{i+n})$, as it meets $H(F_{i+n})$ representable by elements of $F_i$; that is, we may sensibly call it
-$$F_{i} D_{(n)} = \frac{\ker(d)\cap F_i}{F_i\cap dF_{i+n}}.$$
-Separating the grades, the exactness of the couple at $E_{(n)}$ then says 
-$$ F_{i} H^j(F_{i+n})\to F_{i+1}H^j(F_{i+n+1}) \to E_{(n)}^{i\dots} \to F_i H^{j+1}(F_{i+n}) \to F_{i+1}H^{j+1}(F_{i+n+1}) $$
-
-One can see this as converging (if it sensibly converges) to either a subquotient of $F_i$ _or_ to a [[module|submodule]] $F_i H^\bullet(C) \lt H^\bullet(C)$.  Taking the latter interpretation, we hope to find in the limiting case exact sequences
-$$ F_i H^j(C)\to F_{i+1} H^j(C) \to E_{(\infty)}^{i\dots} \to F_i H^{j+1}(C) \to F_{i+1} H^{j+1}(C).$$
-At this stage one can check that the morphisms $F_i H^j(C)\to F_{i+1} H^j(C)$ are indeed definable, and in fact injective, so that whatever $E_{(\infty)}$ should be, the morphism $E_{(\infty)}^{i\dots}\to F_i H^{j+1}$ is null; that is, our long-exact sequence breaks up into the 
-[[short exact sequence]]s
-$$ 0\to F_i H^j(C) \to F_{i+1} H^j(C)\to E_{(\infty)}^{i\dots} \to 0 .$$
-
-In summary, if the spectral sequence $E_{(n)}$ converges in a sensible way to the correct thing $E_{(\infty)}$, then that correct thing is also the associated graded [[module]] of the [[filtration]] of $H^\bullet(C)$ induced by the [[filtration]] of $C$.
-
-## Application
 
 ### Serre's Spectral Sequence for a Fibration
 
