@@ -273,6 +273,52 @@ So far we have seen that for a cartesian bicategory $B$,
 It is clear that 2-product data on $Map(B)$ and local product data on local hom-categories are uniquely determined up to appropriate notions of equivalence, since they are determined by appropriate universal properties. 
 Now we show that these data actually determine the whole of the cartesian structure. We may therefore conclude that a cartesian structure on a bicategory must be essentially unique, if it exists. 
 
+To explain how this works, it helps to consider some simple examples of cartesian bicategories such as $Rel$. First, let us reconstruct 
+
+$$\otimes: B \times B \to B$$ 
+
+from the data above. Suppose given two 1-cells $r: a \to b$, $s: c \to d$ in $B$, e.g., relations between sets, or even just subsets $r \subseteq b$, $s \subseteq d$. The tensor product $r \otimes s$ is intuitively a "rectangle", like $r \times s \subseteq b \times d$ in the case of $Rel$, obtained by "pulling back" $r$ along the projection $\pi_1: b \times d \to b$, pulling back $s$ along the projection $\pi_2: b \times d \to d$, and taking the intersection -- more generally, taking a local product. By formalizing this procedure, we are led to the general formula 
+
+$$r \otimes s \cong (\pi_{1, b, d}^{\ast} r \pi_{1, a, c}) \times_{loc} (\pi_{2, b, d}^{\ast} s \pi_{2, a, c})$$ 
+
+where $r$ and $s$ play the role of mere placeholders. 
+
+It is a theorem (whose proof we defer) is that in a cartesian bicategory, we may reconstruct the functor $- \otimes -$ by the formula 
+
+$$(\pi_{1}^{\ast} (-) \pi_{1}) \times_{loc} (\pi_{2}^{\ast} (-) \pi_{2})$$ 
+
+where each of the displayed data is manifestly part of the 2-product structure on $Map(B)$ or the local cartesian structure. 
+
+The other data we are required to reconstruct are structure cells like $\delta r$, $\pi \langle r, s\rangle$ which pertain to the transformations $\delta$, $\pi$. As an example, consider $\delta r$. This is a 2-cell 
+
+$$\delta r: (\delta b)r \to (r \otimes r)(\delta a)$$ 
+
+which is mated to a 2-cell
+
+$$r \to (\delta b)^\ast (r \otimes r) \delta = r \times_{loc} r.$$ 
+
+This 2-cell is precisely the local diagonal $r \to r \times r$, manifestly part of the local cartesian structure. Thus the structure cells for $\delta$ are uniquely determined, and similarly for the transformations $\pi$ and $\varepsilon$. 
+
+This completes the sketched proof of essential uniqueness. 
+
+## Frobenius conditions 
+
+A major class of examples of cartesian bicategories, including $Rel$, $Span$, and the bicategory of profunctors between groupoids, have the properties that 
+
+* Each object is self-dual (in the sense of compact closed bicategories), 
+
+* The bicategory of maps is locally groupoidal.
+
+These arise as follows. In any cartesian bicategory and for each object $b$, there is a canonical 2-cell 
+
+$$Frob_b: (\delta b)(\delta b)^\ast \to (1_b \otimes \delta b^\ast)(\delta b \otimes 1_b)$$ 
+
+mated to the coassociativity isomorphism for $\delta$. We say the **Frobenius condition** holds if $Frob_b$ is an isomorphism for each $b$. This is equivalent to demanding that a similar canonical 2-cell 
+
+$$Frob_{b}': (\delta b)(\delta b)^\ast \to (\delta b^\ast \otimes 1_b)(1_b \otimes \delta b)$$
+
+be an isomorphism for each $b$. 
+
 
 
 [[!redirects cartesian bicategories]]
