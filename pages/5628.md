@@ -1,23 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Knot theory
-+--{: .hide}
++-- {: .hide}
 [[!include knot theory - contents]]
 =--
 =--
 =--
 
-#The HOMFLY-PT Polynomial#
+# The HOMFLY-PT Polynomial
 * tic
 {: toc}
 
-## Idea ##
+## Idea
 
-## Definition ##
+The HOMFLY-PT polynomial is a [[knot]] and [[link]] [[knot invariants|invariant]].  Confusingly, there are several variants depending on exactly which relationships are used to define it.  All are related by simple substitutions.
 
-The HOMFLY-PT polynomial is a [[knot]] and [[link]] [[knot invariants|invariant]].  Confusingly, there are several variants depending on exactly which relationships are used to define it.  All are related by simple substitutions.  To compute it, one starts from an oriented link diagram and uses the following rules:
+
+## Definition
+
+To compute the HOMFLY-PT polynomial, one starts from an [[oriented link diagram]] and uses the following rules:
 
 1. $P$ is an isotopy invariant (thus, unchanged by [[Reidemeister moves]]).
 1. $P(\text{unknot}) = 1$
@@ -44,7 +47,8 @@ From the rules, one can read off the relationships between the different formula
 1. $a = - i l$, $l = i a$
 1. $z = i m$, $m = - i z$.
 
-## Properties ##
+
+## Properties
 
 The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexander polynomial]] (equivalently, the [[Conway polynomial]]).
 
@@ -66,10 +70,12 @@ The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexan
   1. $\alpha = 1$, $z = q^{1/2} - q^{-1/2}$
   1. $l = i$, $m = i (q^{-1/2} - q^{1/2})$
 
-[[!redirects HOMFLY polynomial]]
+
+[[!redirects HOMFLY-PT polynomial]]
 [[!redirects homfly-pt polynomial]]
+[[!redirects HOMFLY polynomial]]
 [[!redirects homfly polynomial]]
-[[!redirects homfly-pt]]
-[[!redirects homfly]]
 [[!redirects HOMFLY-PT]]
+[[!redirects homfly-pt]]
 [[!redirects HOMFLY]]
+[[!redirects homfly]]
