@@ -31,7 +31,7 @@ $$
   MU_{\bullet}(MU) \simeq L B \coloneqq L \otimes \mathbb{Z}[b_1, b_2, \cdots]
 $$
 
-where on the right we have the [[polynomial ring]] on generators $b_i$ in degree $2_i$. 
+where on the right we have the [[polynomial ring]] on generators $b_i$ in degree $2i$. 
 
 Here $(L, L B)$ carries a natural structure of a [[Hopf algebroid]] (and apparently this example is what made [[Haynes Miller]] introduce Hopf algebroids in the first place). The Landweber-Novikov theorem asserts that 
 this is the [[Hopf algebroid]] structure on the dual [[MU]]-[[Steenrod algebra]] 
