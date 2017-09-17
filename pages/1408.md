@@ -722,7 +722,7 @@ possible. They describe **[[derived smooth manifolds]]** as described in [DerSmo
 
 * [[ringed space]], [[ringed site]], [[ringed topos]]
 
-* [[geometry (for structured (∞,1)-toposes]],  **structured $(\infty,1)$-topos** , [[locally representable structured (∞,1)-topos]]
+* [[geometry (for structured (∞,1)-toposes)]],  **structured $(\infty,1)$-topos** , [[locally representable structured (∞,1)-topos]]
 
 * [[cohesive (∞,1)-topos]]
 
