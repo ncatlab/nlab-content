@@ -20,6 +20,8 @@
 ## Idea
 
 
+### Algebraically
+
 A _spectral triple_ is algebraic data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] and generalizes it to [[noncommutative geometry]]. It is effectively a [[Fredholm module]] refined by the specification of a [[dense subalgebra]] of the [[C-star-algebra]] of bounded operators on that module.
 
 It consists of
@@ -113,6 +115,17 @@ One point of a spectral triple is to take the view of world-line [[quantum mecha
 
 Then with all the ordinary geoemtry re-encoded algebraically this way, in terms of the 1-dimensional [[quantum field theory]] that _probes_ this geometry, one can then use the same formulas to interpret spectral triple geometrically that do _not_ come from an ordinary geometry as in the above example.
 
+## Properties
+
+
+### Metric dimension and KO-dimension
+
+For a space described by a spectral triple there are several notions of [[dimension]] which all coincide when the space is a classical [[smooth manifold]] but which may differ on more general spectral spaces.
+
+Notably there is the [[metric dimension]], which determines the growth of the [[eigenvalues]] of the [[Dirac operator]] ([Connes95, p. 6](#Connes95)).
+
+And then there is the [[KO-dimension]].
+
 
 ## Related concepts
 
@@ -138,6 +151,9 @@ The standard textbook is
 * [[Alain Connes]], _Noncommutative Geometry_ , Academic Press (1994)
 
 See also 
+
+* {#Connes95} [[Alain Connes]], _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+
 
 * [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 10 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
