@@ -124,13 +124,23 @@ If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division rin
 
 ## Related concepts
 
-* [[projective object]], [[projective presentation]], [[projective resolution]]
+* [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
 
   * **projective module**
 
-* [[injective object]], [[injective presentation]], [[injective resolution]]
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
   * [[injective module]]
+
+* [[free object]], [[free resolution]]
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
+
+
 
 ## References
 
