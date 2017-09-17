@@ -66,6 +66,10 @@ $$
 
 is actually a "topos of laws of motion" in the sense of Hamilton-Lagrange-Jacobi [[classical mechanics]]. For more on this see _[[Higher toposes of laws of motion]]_.
 
+## Related concepts
+
+* [[Higher toposes of laws of motion]]
+
 ## References
 
 The notion originates around
