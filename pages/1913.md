@@ -235,6 +235,9 @@ Note that, if $X$ is thought of a submanifold of itself, then it has a natural p
 One often sees the definition of integration given for *parametrised* submanifolds, that is submanifolds where $U$ is an open subset of $\mathbf{R}^p$.  This amounts to a combination of the concepts above, with the two uses of $U$ (as a coordinate patch in $X$ or as the source of a submanifold of $X$) identified.  The theorem that the integral of an $n$-pseudoform on $X$ is independent of the coordinates chosen now becomes a theorem that the integral of a parametrised submanifold is independent of the parametrisation (up to some details about orientation), which in the end returns the result that one can integrate forms over arbitrary submanifolds (given an orientation or pseudoorientation as above).
 
 
+To integrate on *unoriented* submanifolds of arbitrary dimension, use [[absolute differential forms]] (at least once we figure out what those are).
+
+
 +-- {: .query}
 [[Zoran Škoda]]: Should maybe this entry have a discussion on heuristics behind the usual trick in supersymmetry which asserts that the inner hom for supermanifolds, gives the statement that the algebra of smooth differential forms on $M$ is the space of functions on the odd tangent bundle $\Pi T M$? I am not the most competent to do this succinctly enough... 
 
@@ -297,6 +300,12 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 
 [[!redirects integration of forms]]
 
+[[!redirects differential pseudoform]]
+[[!redirects differential pseudoforms]]
+[[!redirects differential pseudo-form]]
+[[!redirects differential pseudo-forms]]
+[[!redirects differential pseudo form]]
+[[!redirects differential pseudo forms]]
 [[!redirects pseudoform]]
 [[!redirects pseudoforms]]
 [[!redirects pseudo-form]]
