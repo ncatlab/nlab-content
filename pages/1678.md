@@ -69,7 +69,7 @@ The choice of which direction to call "lax" and which to call "oplax" is not mad
 
 It is arguably the case that the direction we call "oplax" occurs more commonly in practice.  For instance, [[icons]] are a special sort of oplax transformations (although if "lax" and "oplax" were switched, then the acronymic derivation of the word "icon" would no longer work).  Likewise, when monoidal categories are viewed as one-object 2-categories, [[monoidal natural transformation]]s are special oplax transformations (in fact, they are precisely the icons).
 
-On the other hand, the convention used above (besides having a little more weight of tradition) has the advantage that there is a [[2-monad]] whose algebras are 2-functors, and for which lax and oplax algebra morphisms are precisely lax and oplax transformations, respectively, under this convention.  Thus, for instance, theorems such as [[doctrinal adjunction]] can be applied to lax and oplax transformations without needing to switch back and forth between two different meanings of "lax."
+On the other hand, the convention used above (besides having a little more weight of tradition) has the advantage that there is a [[2-monad]] whose algebras are 2-functors, and for which [[lax morphism|lax and oplax algebra morphisms]] are precisely lax and oplax transformations, respectively, under this convention.  Thus, for instance, theorems such as [[doctrinal adjunction]] can be applied to lax and oplax transformations without needing to switch back and forth between two different meanings of "lax."
 
 +-- {: .query}
 How consistent are different authors in this convention?  Should we include a warning ---or for that matter, a reassurance?  ---Toby
