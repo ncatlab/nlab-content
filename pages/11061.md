@@ -1,0 +1,51 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[formal logic]] _modus ponens_ is the name of the [[deduction]] rule which says that from a [[sequent]]
+
+$$
+  \vdash \psi  \;\;\;\; (\psi \to \phi)
+$$
+
+asserting the [[judgement]] that a [[proposition]] $\psi$ is [[true]], as is the [[implication]] $(\psi \to \phi)$, then the [[judgement]]
+
+$$
+  \vdash \phi
+$$
+
+may be [[deduction|deduced]]. 
+
+On more general [[types]] in [[type theory]] this is [[function application]].
+
+## Properties
+
+The converse to the modus ponents this is a [[deduction theorem]], see also at _[[metalanguage]]_.
+
+The [[categorical semantics]] of the modus ponents in the form
+
+$$
+  \psi,\; (\psi \to \phi) \;\vdash \; \phi
+$$
+
+is the [[evaluation map]] of the ambient ([[locally cartesian closed category|locally]]) [[cartesian closed category]].
+
+
