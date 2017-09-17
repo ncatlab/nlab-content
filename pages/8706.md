@@ -1,0 +1,65 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In general, the [[homology]] of a [[point]] is not trivial but is concentrated in degree 0 on the given [[coefficient]] object. For some applications, though, it is convenient to divide out that contribution such as to have the homology of the point be entirely trivial. This is called _reduced homology_.
+
+## Definition
+
+### Reduced singular homology
+
+We discuss the reduced version of [[singular homology]].
+
+Let $X$ be a [[topological space]]. Write $C_\bullet(X)$ for its [[singular chain complex]].
+
++-- {: .num_defn}
+###### Definition
+
+The **reduced singular homology** of $X$, denoted $\tilde H_\bullet(X)$, is the [[chain homology]] of the [[augmentation|augmented]] chain complex
+
+$$
+  \cdots \to C_2(X) \stackrel{\partial_1}{\to} C_1(X) \stackrel{\partial_0}{\to} C_0(X) \stackrel{\epsilon}{\to}
+  \mathbb{Z} \to 0
+  \,,
+$$
+
+where the **augmentation map** $\epsilon$ adds the [[coefficients]] of all 0-chains:
+
+$$
+  \epsilon \colon \colon \sum_{i} n_i \sigma_i \mapsto \sum_i n_i
+  \,.
+$$
+
+=--
+
+## Properties
+
+(...)
+
+## Related concepts
+
+* [[reduced cohomology]]
+
+
+## References
+
+Reduced singular homology is discussed for instance around p. 119 of 
+
+* [[Alan Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
+
+
+
