@@ -113,7 +113,7 @@ It follows that every abelian category is a _[[balanced category]]_.
 
 In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via prop \ref{DecompositionOfMorphisms} combined with def. \ref{AbelianCategory}.  
 
-Since by remark \ref{RegularEpisAndMonos} every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that $(epi, mono)$ is an [[orthogonal factorization system]] in an abelian category.  
+Since by remark \ref{RegularEpisAndMonos} every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that $(epi, mono)$ is an [[orthogonal factorization system]] in an abelian category; see at _[[(epi, mono) factorization system]]_.
 
 =--
 
