@@ -33,6 +33,28 @@ If we introduce a bit of abstraction we can see the beauty of all this. Let $D=\
 
 ## Examples
 
+
++-- {: .num_theorem #thmAcu}
+###### Theorem
+([III.5](#Demazure), $Acu_k\simeq Tor_V D_kMod$)
+
+(see also [[group scheme]] for more context concerning this theorem)
+
+Let $k$ be a [[perfect field]] of prime characteristic $p$. Since $k$ is perfect Frobenius is an automorphism.
+
+On the left we have the category of [[affine scheme|affine]] commutative [[unipotent group scheme|unipotent group schemes]]. On the right we have the category of all [[Dieudonné ring|D_k]][[Dieudonné module|-modules]] of $V$-torsion. The (contravariant) equivalence is given by
+
+$$M:\begin{cases}
+Acu_k&\to& Tor_V D_kMod
+\\
+G&\mapsto&colim_n Acu_k(G,W_{nk})
+\end{cases}$$
+
+where we recall that $W_n:=coker( T^n:W_k\to W_k)$ where $T:\begin{cases}W_k\to W_k
+\\
+(x_0,x_1,\dots)\mapsto (0,x_0,x_1,\dots)\end{cases}$ is the endomorphism of the [[Witt group]] called *translation* and $T^n$ is the translation iterated $n$-times and $W_n$ is called the *group of [[Witt vectors]] of length $n$*.
+=--
+
 * If $G$ is a [[p-divisible group]], then $D(G)$ is a free $\Lambda$-module of rank the height of $G$. 
 
 
