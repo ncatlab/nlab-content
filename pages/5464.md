@@ -208,6 +208,8 @@ says, roughly, that in the definition of subobject classifier, the fact that
 $1$ is terminal comes for free.
 
 +-- {: .num_fact #fact:one-terminal}
+###### Fact
+
 Let $\mathcal{E}$ be a category and let $T \stackrel{t}{\hookrightarrow} \Omega$ be a mono in $\mathcal{E}$.
 Suppose that for every mono $A \stackrel{m}{\hookrightarrow} X$ in $\mathcal{E}$, there is a unique map
 $\chi\colon X \to \Omega$ such that there is a pullback square
