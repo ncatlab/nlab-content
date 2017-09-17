@@ -208,7 +208,7 @@ The following proposition is  [[duality|formally dual]] to prop. \ref{ExistenceO
 
 Let $\mathcal{A}$ be an [[abelian category]] with [[projective object|enough projectives]] (such as $R$[[Mod]] for some [[ring]] $R$).
 
-Then every object $X \in \mathcal{A}$ has an [[projective resolution]], 
+Then every object $X \in \mathcal{A}$ has a [[projective resolution]], 
 def. \ref{ProjectiveResolution}.
 
 =--
@@ -303,7 +303,7 @@ which completes the [[induction]] step.
 +-- {: .num_lemma #MapsOutOfExactIntoInjectiveAreNullHomotopic}
 ###### Lemma
 
-Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[chain map]] out of an [[exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[chain homotopy]] 
+Let $f^\bullet : X^\bullet \to J^\bullet$ be a [[chain map]] of cochain complexes in non-negative degree, out of an [[exact sequence|exact complex]] $0 \simeq_{qi} X^\bullet$ to a degreewise injective complex $J^\bullet$. Then there is a [[chain homotopy]] 
 
 $$
   \eta : 0 \Rightarrow f^\bullet
@@ -314,10 +314,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition of [[chain homotopy]] we need to construct a sequence of morphisms $(\eta^n : X^{n+1} \to J^{n})_{n \geq 1\in \mathbb{N}}$ such that 
+By definition of [[chain homotopy]] we need to construct a sequence of morphisms $(\eta^{n+1} : X^{n+1} \to J^{n})_{n \in \mathbb{N}}$ such that 
 
 $$
-  f^n = \eta^{n+1} \circ d^n_X + d^{n-1} \circ \eta^n
+  f^n = \eta^{n+1} \circ d^n_X + d^{n-1}_J \circ \eta^n
   \,.
 $$
 
@@ -474,45 +474,19 @@ The total outer diagram now commutes, being built from commuting sub-diagrams, a
 
 =--
 
-### Relation to homotopy equivalences
++-- {: .num_prop}
+###### Proposition
 
-$$
-  f_\bullet : C_\bullet \to D_\bullet
-$$
+The morphism $f_\bullet$ in prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} is the unique one up to [[chain homotopy]] making the given diagram commute.
 
-a [[quasi-isomorphism]] with $D_\bullet$ projective.
+=--
 
-Define
++-- {: .proof}
+###### Proof
 
-$$
-  h_0 : D_0 \to C_0
-$$
+(...)
 
-$$
-  \array{   
-     && C_0
-     \\
-     &{}^{\mathllap{h_0}} \nearrow& \downarrow^{ f}
-     \\
-     D_0 &\to& D_0/im(\partial^D_0) 
-  }
-$$
-
-$$
-  \array{
-    && C_{n+1} &&\stackrel{\partial^C_n}{\to}&& C_n
-    \\
-    &{}^{\mathllap{h_{n+1}}}\nearrow& \downarrow && & {}^{\mathllap{h_n}}\nearrow
-    \\
-    D_{n+1} 
-     &\stackrel{}{\to}& 
-    D_{n+1} /im(\partial_{n+1}) 
-     &\stackrel{\partial^D_n}{\to}& 
-    D_n
-  }
-$$
-
-
+=--
 
 
 
