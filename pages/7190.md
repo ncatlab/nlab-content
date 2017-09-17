@@ -24,9 +24,28 @@ A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called _proper_ if
 (...)
 
 
+## Examples
+
++-- {: .num_prop}
+###### Proposition
+
+An object $X \in \mathcal{T}$ in a topos $\mathcal{T}$ is a [[Kuratowski finite object]] precisely if the [[étale geometric morphism]]
+
+$$
+  \mathcal{T}_{/X} \to \mathcal{T}
+$$
+
+out of the [[slice topos]] is a proper geometric morphism.
+
+=--
+
+([Moerdijk-Vermeulen, examples 1.4](#MoerdijkVermeulen))
+
+
 ## References
 
-* [[Ieke Moerdijk]], J.J.C. Vermeulen, _Proper maps of toposes_, American Mathematical Society (2000)
+* [[Ieke Moerdijk]], J. Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
+  {#MoerdijkVermeulen}
 
 [[!redirects proper maps of toposes]]
 
