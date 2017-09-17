@@ -205,7 +205,7 @@ $$
     }
 $$
 
-under whiskering and composition. For instance whiskering this with $x_1 \to x_2$ yields the 2-morphism
+under [[whiskering]] and composition. For instance [[whiskering]] this with $x_1 \to x_2$ yields the 2-morphism
 
 $$
   \array{
