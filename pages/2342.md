@@ -20,11 +20,15 @@
 
 ## Idea
 
-Classically in [[complex geometry]], an _elliptic curve_ is a connected [[Riemann surface]] (a connected compact 1-dimensional [[complex manifold]]) of [[genus of a surface|genus]] 1. The curious term "elliptic" is a remnant from the 19th century, a back-formation which refers to [[elliptic functions]] (generalizing circular functions, i.e., the classical trigonometric functions) and their natural domains as Riemann surfaces. 
+Classically in [[complex geometry]], an _elliptic curve_ is a connected [[Riemann surface]] (a connected compact 1-dimensional [[complex manifold]]) of [[genus of a surface|genus]] 1, hence it is a [[torus]] equipped with the structure of a [[complex manifold]], or equivalently with [[conformal structure]]. 
 
-In more modern frameworks, an elliptic curve over a [[field]] $k$ may be defined as a complete irreducible non-singular [[algebraic curve]] of [[arithmetic genus]] 1 over $k$, or even as a certain type of algebraic [[group scheme]]. Elliptic curves have many remarkable properties, and their deeper arithmetic study is one of the most profound subjects in present-day mathematics. 
+The curious term "elliptic" is a remnant from the 19th century, a back-formation which refers to [[elliptic functions]] (generalizing circular functions, i.e., the classical trigonometric functions) and their natural domains as Riemann surfaces. 
 
-The [[moduli stack of elliptic curves]] inside the [[moduli stack of formal group laws]] plays a central role in [[chromatic homotopy theory]] at [[chromatic level]] 2, where it serves to parameterize [[elliptic cohomology theories]].
+In more modern frameworks and in the generality of [[algebraic geometry]], an elliptic curve over a [[field]] $k$ or indeed over any [[commutative ring]] may be defined as a complete irreducible non-singular [[algebraic curve]] of [[arithmetic genus]]-1 over $k$, or even as a certain type of algebraic [[group scheme]]. 
+
+Elliptic curves have many remarkable properties, and their deeper arithmetic study is one of the most profound subjects in present-day mathematics. 
+
+The [[moduli stack of elliptic curves]] equipped with its canonical map to the [[moduli stack of formal group laws]] plays a central role in [[chromatic homotopy theory]] at [[chromatic level]] 2, where it serves to parameterize [[elliptic cohomology theories]].
 
 Elliptic curves over the complex numbers are also interpreted as those [[worldsheets]] in [[string theory]] whose [[correlators]] are the [[superstring]]'s [[partition function]], which is the [[Witten genus]]. Via the [[string orientation of tmf]] this connects to to the role of elliptic curves in [[elliptic cohomology theory]].
 
@@ -33,17 +37,29 @@ Elliptic curves over the complex numbers are also interpreted as those [[worldsh
 
 ### Over a general ring
 
+Elliptic curves over a general [[commutative ring]] $R$ are the well-behaved 1-dimensional [[group objects]] parameterized over the [[space]] $Spec(R)$ (the [[prime spectrum of a commutative ring|prime spectrum]] of $R$). (Notice the count of dimension: over the complex numbers a torus is complex 1-dimensional and in this sense one is looking at 1-dimensional group schemes here.) This we discuss below in 
+
+* [Conceptual definition](#OverGeneralRingConceptualDefinition)
+
+More concretely there are various explicit and standard [[coordinates|coordinazations]] of elliptic curves as [[affine schemes]], hence as solution spaces to [[polynomial]] [[equations]]. This we discuss below in 
+
+* [Coordinatized as solutions to cubic equations](#OverGeneralRingAsSolutionsToEquations)
+
+
+#### Conceptual definition
+ {#OverGeneralRingConceptualDefinition}
+
 +-- {: .num_defn #EllipticCurve}
 ###### Definition
 
-An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group object]] in the [[category]] of [[scheme]]s over $R$ that is a relative 1-dimensional, , [[smooth scheme|smooth curve]], [[proper scheme|proper]] curve over $R$. 
+An **elliptic curve** over a  [[commutative ring]] $R$ is a [[group scheme]] (a [[group object]] in the [[category]] of [[schemes]]) over $Spec(R)$ that is a relative 1-dimensional, [[smooth scheme|smooth curve]], [[proper scheme|proper]] curve over $R$. 
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This implies that an elliptic curve has [[genus|genus of a surface]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
+This implies that an elliptic curve has [[arithmetic genus|arithmetic]] 1. (by a direct argument concerning the [[Chern class]] of the [[tangent bundle]].)
 
 =--
 
@@ -54,7 +70,43 @@ An elliptic curve over a [[field]] of [[positive number|positive]] [[characteris
 
 =--
 
-Elliptic curves are examples of solutions to [[Diophantine equations]] of degree 3.
+#### Coordinatized as solutions to cubic equations
+ {#OverGeneralRingAsSolutionsToEquations}
+
+Elliptic curves are examples of solutions to [[Diophantine equations]] of degree 3. We start by giving the equation valied over general rings, which is fairly complicated compared to the special case that it reduces to in the classical case over the [[complex numbers]]. The more elements in the ground ring are invertible, the more the equation may be simplified.
+
+Let $R$ be a [[commutative ring]], then [[Zariski topology|Zariski locally]] over $Spec(R)$ a [[cubic curve]] is a solution to an [[equation]] of the form
+
+$$
+  y^2 + a_1 x y + a_3 y = x^3 + a_2 x^2 + a_4 x + a_6
+$$
+
+for [[coefficients]] $a_1, a_2, a_3, a_4, a_6$. This is the _[[Weierstrass equation]]_.
+
+The [[non-singular algebraic variety|non-singular]] such solutions are the elliptic curves over $R$. 
+
+If $2$ is invertible in $R$, and hence generally over the [[localization fo a ring|localization]] $R[\frac{1}{2}]$ of $R$ at 2, this equation is equivalent to 
+
+$$
+  y^2  = 4 x^3  + b_2 x^2 + 2 b_4 x + b_6
+  \,.
+$$
+
+If moreover $3$ is also invertibel in $R$, hence generally over $R[\frac{1}{2}, \frac{1}{3}]$ then this equation is equivalent to just
+
+$$
+  y^2 = x^3 - p x p q
+ \,.
+$$
+
+Finally if $R= \mathbb{C}$ is the [[complex numbers]], then complex tori are indeed the solutions to this last equation in the form
+
+$$
+  p'(z)^2 + 4 p(z)^3 - g_2 p(z) - g_3
+  \,,
+$$
+
+where $p$ is the [[Weierstrass elliptic function]].
 
 ### Over the complex numbers
 
