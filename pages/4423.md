@@ -90,3 +90,8 @@ $$
 ## References
 
 ...
+
+[[!redirects curvature characteristic forms]]
+
+[[!redirects curvature characteristic class]]
+[[!redirects curvature characteristic classes]]
