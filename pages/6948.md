@@ -46,7 +46,7 @@ In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$,
 
 * a [[truth value]] is a [[(-1)-truncated]] object of $\mathcal{E}$ itself.
 
-Universal quantification is essentially the [[direct image]] [[right adjoint]] of the canonical [[étale geometric morphism]]
+Universal quantification is essentially the restriction of the [[direct image]] [[right adjoint]] of a canonical [[étale geometric morphism]]
 
 $$
     \mathcal{E}/X
@@ -55,9 +55,9 @@ $$
   \,,
 $$
 
-where $(-) \times X$ is the functor that forms the [[product]] with $X$, $\exists$ is the [[dependent sum]] and $\forall$ is the [[dependent product]] operation.
+where $X^\ast$ is the functor that takes an object $A$ to the [[product]] projection $\pi \colon X \times A \to X$, where $X_! = \Sigma_X$ is the [[dependent sum]] (i.e., forgetful functor taking $f \colon A \to X$ to $A$) that is left adjoint to $X^\ast$, and where $X_\ast = \Pi_X$ is the [[dependent product]] operation that is right adjoint to $X^\ast$. 
 
-This operation restricts to [[propositions]] by pre- and postcomposition with the [[truncated|truncation]] [[adjunctions]]
+The dependent product operation restricts to [[propositions]] by pre- and postcomposition with the [[truncated|truncation]] [[adjunctions]]
 
 $$
   \tau_{\leq -1} \mathcal{E}
@@ -65,7 +65,7 @@ $$
   \mathcal{E}
 $$
 
-to give
+to give universal quantification over the domain (or context) $X$: 
 
 $$
   \array{
@@ -82,16 +82,16 @@ $$
     \tau_{\leq_{-1}} 
     \mathcal{E}/X
     &
-     \stackrel{\overset{\exists}{\to}}{\stackrel{\overset{}{\leftarrow}}{\underset{\forall}{\to}}}
+     \stackrel{\overset{\exists_X}{\to}}{\stackrel{\overset{}{\leftarrow}}{\underset{\forall_X}{\to}}}
     &
     \tau_{\leq_{-1}}\mathcal{E}
   }
   \,.
 $$
 
-Dually, the extra [[left adjoint]] $\exists$ expresses the [[existential quantifier]].  (The situation with the universal quantifier is somewhat simpler than for the existential one, since the dependent product automatically preserves $(-1)$-truncated objects, whereas the dependent sum does not.)
+Dually, the extra [[left adjoint]] $\exists_X$, obtained from the dependent sum $X_!$ by pre- and post-composition with the truncation adjunctions, expresses the [[existential quantifier]].  (The situation with the universal quantifier is somewhat simpler than for the existential one, since the dependent product automatically preserves $(-1)$-truncated objects (= subterminal objects), whereas the dependent sum does not.)
 
-The same makes verbatim sense also in the [[(∞,1)-logic]] of any [[(∞,1)-topos]].
+The same makes sense, verbatim, also in the [[(∞,1)-logic]] of any [[(∞,1)-topos]].
 
 
 ## Examples
