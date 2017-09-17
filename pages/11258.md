@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -24,6 +28,8 @@ A project for formalization of parts of [[mathematics]] in formal languages supp
 * [ForMath Website](http://wiki.portal.chalmers.se/cse/pmwiki.php/ForMath/ForMath)
 
 ## Related entries
+
+* [[MathScheme]]
 
 * [[The QED Project]]
 
