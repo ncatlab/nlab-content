@@ -16,7 +16,7 @@ unrelated topics.
 
 Because I don't have funding to do research, I've had no time to develop these ideas. So the best I can do 
 so far is to justify the hypothesis by appealing to various intuitions, and to related
-mathematical and computational phenomena. I've put this material into nLab because I think it's interesting, and may well be important to machine learning: the categorists and machine-learning experts I've asked so far agree. So perhaps other readers can supply technical substantiation for or against this hypothesis. If I can ever get funding then of course I'll do so as well. 
+mathematical and computational phenomena. I've put this material into nLab because I think it's interesting, and may well be important to machine learning: the categorists and machine-learning experts I've asked agree. So perhaps other readers can supply technical substantiation or refutation. If I can ever get funding then of course I'll do so as well. 
 
 ## Potential uses in machine learning ##
 
