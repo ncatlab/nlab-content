@@ -38,7 +38,7 @@ $$
   Loc := R \circ L : C \to C
 $$ 
 
-may be understood as exhibiting a [[localization of an (∞,1)-category]].
+may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to equivalences in $D$.
 
 
 ### Local objects and local morphisms
@@ -71,7 +71,7 @@ Let $S \subset Mor(C)$ be a class of morphisms.
 
 =--
 
-Notice that the class of $S$-equivalences always contains $S$ itself. Hence passing from a collection $S$ to its class $\bar S$ of $S$-equivalences is a kind of saturation procedure. This is formalized by the following definition, whose justification is given by the propositions [below]{#Properties}.
+Notice that the class of $S$-equivalences always contains $S$ itself. Hence passing from a collection $S$ to its class $\bar S$ of $S$-equivalences is a kind of saturation procedure. This is formalized by the following definition, whose justification is given by the propositions [below](#Properties).
 
 +-- {: .un_def}
 ###### Definition
@@ -128,9 +128,67 @@ For each object $c \in C$ let $j(c) : C \to \infty Grpd^{op}$ be the functor [[r
 =--
 
 
-In the following this language of local morphisms is used to characterize reflect $(\infty,1)$-subcategories.
+In the following this language of local morphisms is used to characterize reflective $(\infty,1)$-subcategories.
 
 ## Properties {#Properties}
+
+The following proposition characterizes the _reflectors_ of a reflective $(\infty,1)$-subcategory.
+ 
++-- {: .un_lemma}
+###### Lemma
+
+Let $C$ be an [[(∞,1)-category]] and $D \hookrightarrow C$ a full [[sub-quasi-category|sub (∞,1)-category]]. Then this inclusion has a left [[adjoint (∞,1)-functor]] precisely if 
+
+* for every object $c \in C$ there is a _localization_ or _reflection_ : a morphism $f : c \to d$ such that $d \in D$ and such that for all $e \in D$ we have that 
+
+  $$
+    Hom_C(f,e) : Hom_C(d,e) \to Hom_C(c,e)
+  $$
+
+  is an equivalence (of [[∞-groupoid]]s).
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 5.2.7.8]].
+
+
+Let $K \subset C \times \Delta[1]$ be the full subcategory on those objects $(c,i)$ for which $c \in D$ if $i = 1$. Let $p : K \to \Delta[1]$ be the induced projection.  One checks that this is the correspondence which is <a href="http://ncatlab.org/nlab/show/(infinity,1)-Grothendieck+construction#FibsOverInterval">associated to the inclusion functor</a> $D \hookrightarrow C$. 
+
+Therefore by the properties of [[adjoint (∞,1)-functor]]s, we have that the inclusion functor has a left adjoint precisely if $p$ is not only a [[Cartesian fibration]] but also a [[coCartesian fibration]].
+
+To see that this is the case precisely if every $c$ has a reflection $f : c \to d$, recall the characterization of [[coCartesian morphism]]s $\tilde f : (c,0) \to (d,1)$ as those making the squares
+
+$$
+  \array{
+    Hom_K((d,1),(e,i)) &\stackrel{Hom_K(\tilde f,(e,i))}{\to} & Hom_K((c,0),(e,i))
+    \\
+    \downarrow && \downarrow
+    \\
+    Hom_{\Delta[1]}(1, i)
+    &\stackrel{}{\to}&
+    Hom_{\Delta[1]}(0, i)
+  }
+$$
+
+being [[homotopy pullback]] squares, for all $(e,i) \in K$. Now in $\Delta[1]$ all [[hom-object in a quasi-category|hom-objects]] are either empty or are points, so that the bottom morphism becomes the identity on the point if $i = 1$. Since for $i = 0$ everything becomes entirely trivial we consider the case that $i =1$ and hence $e \in D$.
+
+In that case the homotopy-pullback property is equivalent to the top morphism being an equivalence, hence to
+
+$$
+    Hom_C(d,e) \stackrel{Hom_C(f,e)}{\to}  Hom_C(c,a)
+$$
+
+being an equivalence. This way the reflectors are identified precisely with the coCartesian morphisms in $K \to \Delta[1]$ that exhibit the left [[adjoint (∞,1)-functor]] to the inclusion functor.
+
+
+=--
+
+
+
 
 
 The following proposition asserts that localizations are entirely determined by the corresponding [[local object]]s.
@@ -252,9 +310,9 @@ By the above we know now that the vertical morphisms here are also $S$-local. It
 One can turns this around and define or construct reflective $(\infty,1)$-subcategories by specifying collections of local morphisms.
 
 
-
 +-- {: .un_prop}
 ###### Proposition
+**(localization proposition)**
 
 Let $C$ be a [[presentable (∞,1)-category]] and $S$ a small collection of morphisms of $C$. 
 
@@ -278,15 +336,125 @@ If $L : C \to D$ denotes the left [[adjoint (∞,1)-functor]] of the inclusion, 
 
 =--
 
-+-- {: .proof}
-###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 5.5.4.15]] 
+
+We discuss the proof in [Proof of the localization proposition](#ProofOfLocalization)
+
+### Proof of the localization proposition {#ProofOfLocalization}
 
 
-This is [[Higher Topos Theory|HTT, prop. 5.5.4.15]]
+...
 
+
+## Examples {#Examples}
+
+### Inclusion of the terminal object
+
+If $C$ has a [[terminal object in a quasi-category|terminal object]], then the full subcategory on terminal objects is a reflective subcategory of $C$.
+
+
+### coCartesian fiber over a reflective subcategory
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+let $p : C_1 \to C_0$ be a [[coCartesian fibration]] and $D_0 \stackrel{\leftarrow}{\hookrightarrow} C_0$ a reflective $(\infty,1)$-subcategory of the base. 
+
+The restriction $D_1 \hookrightarrow C_1$ of $C_1$ over $D_0$, i.e. the strict (say in [[sSet]] if everything is modeled by [[quasi-categories]]) pullback
+
+$$
+  \array{
+    D_1 & \stackrel{}{\hookrightarrow} & C_1
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    D_0 &\hookrightarrow& C_0
+  }
+$$
+
+is itself a reflective $(\infty,1)$-subcategory of $C_1$.
 
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By the above proposition on reflectors, it is sufficient to produce for every $c \in C_1$ there is a reflection morphism $f : c \to d$ with $d \in D_1$.
+
+Such $f$ is obtained by choosing any [[coCartesian morphism|coCartesian lift]] of a reflector $p(f) : p(c) \to \bar d$.
+
+To see this, consider for every object $e \in D_1$ the diagram
+
+$$
+  \array{
+    Hom_{C_1}(d,e) 
+     &\stackrel{Hom_{C_1}(f,e)}{\to}&
+     Hom_{C_1}(c,e)
+    \\
+    \downarrow && \downarrow
+    \\
+    Hom_{C_0}(p(d), p(e))
+     &\stackrel{Hom_{C_0}(p(f) ,p(e))}{\to}&
+    Hom_{C_0}(p(c), p(e))
+  }
+  \,.
+$$
+
+By assumption $p(f)$ is a reflector, hence the bottom morphism is an equivalence. By one of the characterizations of [[coCartesian morphism]]s, the fact that $f$ is a coCartesian lift means that this diagram is a (homotopy) pullback diagram.  This means that also the top horizontal morphism is an equivalence.
+
+
+=--
+
+
+### Locally presentable $(\infty,1)$-categories
+
+If $C = PSh_{(\infty,1)}(K)$ is the [[(∞,1)-category of (∞,1)-presheaves]] on some small $(\infty,1)$-category $K$, then _accessibly embedded_ reflective subcategory
+
+$$
+  D \stackrel{\leftarrow}{\hookrightarrow}
+  PSh_{(\infty,1)}(K)
+$$ 
+
+(i.e. one where the inclusion is an [[accessible (∞,1)-functor]]) is a [[locally presentable (∞,1)-category]].
+
+### $(\infty,1)$-Toposes
+
+If $C = PSh_{(\infty,1)}(K)$ is the [[(∞,1)-category of (∞,1)-presheaves]] on some small $(\infty,1)$-category $K$, then an [[accessible (∞,1)-functor|accessibly embedded]] _exact_ reflective subcategory
+
+$$
+  Sh_{(\infty,1)}(K) \stackrel{\overset{L}{\leftarrow}}{\underset{}{\hookrightarrow}}
+  PSh_{(\infty,1)}(K)
+$$
+
+is an [[(∞,1)-category of (∞,1)-sheaves]] on $K$ -- an [[(∞,1)-topos]]. We have:
+
+* the collection of morphism $S = L^{-1}(equiv.)$ that are sent to weak equivalences are the analog of **[[local isomorphism]]s** of ordinary [[sheaf and topos theory|sheaf theory]];
+
+* the $S$-[[local object]]s are the **[[∞-stack]]s** ;
+
+* the localizaton functor $Loc = R \circ L : PSh_{(\infty,1)}(K) \to PSh_{(\infty,1)}(K)$ is **[[∞-stackification]]** .
+
+
+### $\infty$-Lie algebroids inside all $\infty$-Lie groupoids
+
+Let $K = Alg_k^{op}$ be the opposite of the category of $k$-[[associative algebra]]s, regarded as a site with the [[fpqc-topology]]. Then an object in $Sh_{(\infty,1)}(Alg_k^{op})$ may be regarded as an algebraic $\infty$-groupoid. The [[infinitesimal object|infinitesimal]] version is an [[Lie ∞-algebroid]], which may be identified with an object in $(Alg_k^\Delta)^{op} \simeq (dgAlg_k)^{op}$ -- the opposite of the category of [[cosimplicial algebra]]s. The [[simplicial model category|simplicial]] [[model structure on cosimplicial algebras]], [[locally presentable (∞,1)-category|presents]] this as an $(\infty,1)$-category $(Alg_k^\Delta)^\circ$
+
+The [[Yoneda embedding]] induces an inclusion
+
+$$
+  ((Alg_k^\Delta)^{op})^\circ
+  \stackrel{}{\hookrightarrow}
+  Sh_{(\infty,1)}(Alg_k^{op})
+  \,.
+$$
+
+which is a reflective embedding. It exhibits localization at $A^1$-[[cohomology]], where $A^1 = Spec k[x]$ is the algebraic line object.
+
+This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 
 
 [[!redirects reflective (infinity,1)-subcategories]]
