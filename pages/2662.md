@@ -5,7 +5,7 @@
 
 ## Idea
 
-See [[geometric Langlands correspondence]]
+The geometric Langlands program is the analogue of the [[Langlands program]] with [[number field]]s replaced by [[function field]]s. See also [[geometric Langlands correspondence]].
 
 ## Related concepts
 
