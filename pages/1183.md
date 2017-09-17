@@ -683,6 +683,10 @@ The [[quantum field theory]] defined by this action functional is known as _[[Ch
 
 (...)
 
+for the moment see [[schreiber:infinity-Dijkgraaf-Witten theory]]
+
+(...)
+
 ### The Yetter model as a $\sigma$-model
 
 (...)
