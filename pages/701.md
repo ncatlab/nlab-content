@@ -35,7 +35,7 @@ $$
 
 As opposed to the case of linear algebra, in general such a factorization into a projection onto a subobject $A$ need not actually exists for an idempotent $e$ in a generic category. If it exists, one says that $e$ is a _[[split idempotent]]_. 
 
-Accordingly, one is interested in those categories for which every idempotent is split. These are called _[[idempotent complete categories]]_ are _[[Cauchy complete categories]]_. If a category is not yet idempotent complete it can be completed to one that is: its _[[Karoubi envelope]]_ or _[[Cauchy completions]]_.
+Accordingly, one is interested in those categories for which every idempotent is split. These are called _[[idempotent complete categories]]_ or _[[Cauchy complete categories]]_. If a category is not yet idempotent complete it can be completed to one that is: its _[[Karoubi envelope]]_ or _[[Cauchy completion]]_.
 
 
 ## Definition
