@@ -97,6 +97,8 @@ $$ b^i(b_j) = \delta^i_j $$
 
 Since $B$ is a basis of $V$, this formula defines $b^i$ for each index $I$, so $B^*$ exists; but in general there is no reason why $B^*$ should be a basis of $V^*$.  However, if $V$ has [[finite set|finite]] [[dimension]], then $B^*$ is a basis of $V^*$. If $V$ is a [[Hilbert space]], and $B$ is a basis of $V$ in the Hilbert space sense (i.e., $B$ is a linearly independent set whose span is topologically dense in $V$), then also $B^*$ is a basis of the dual Hilbert space $V^*$. 
 
+This is related to but different from the sort of [[dual basis]] applicable generally to [[projective modules]].
+
 
 ## Double duals
 
@@ -129,6 +131,7 @@ See [[Riesz representation theorem]] for examples from [[functional analysis]].
 ## Related concepts
 
 * [[dual space]]
+
 
 [[!redirects dual vector space]]
 [[!redirects dual vector spaces]]
