@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Tullio_Regge)
+
+## Related entries
+
+* [[Regge calculus]]
+
+category: people
