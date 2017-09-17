@@ -24,13 +24,27 @@ This is the dual notion of a _[[projective module]]_. For the moment see there f
 
 ## Related concepts
 
-* [[projective object]], [[projective presentation]], [[projective resolution]]
+
+* [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
 
   * [[projective module]]
 
-* [[injective object]], [[injective presentation]], [[injective resolution]]
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
 
   * **injective module**
+
+* [[free object]], [[free resolution]]
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
+
+
+
+
+
 
 [[!redirects injective modules]]
 
