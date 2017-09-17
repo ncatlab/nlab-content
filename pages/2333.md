@@ -7,46 +7,52 @@
 
 A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
 
+A convex space is a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative monoids are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
+
 Convex spaces may be important in the foundations of [[probability theory]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
 
-The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, an **affine space** may be defined just as a convex space is defined below, but dropping the condition $0 \leq p \leq 1$.
+The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, all **affine spaces** are convex spaces as defined below.
 
+Of particular importance are convex spaces parametrized by the interval $P = [0,1]$.
 
 ## Definition
 
 A __convex space__ is a [[set]] $X$ equipped with:
 
-*  for each [[real number]] $p$ such that $0 \leq p \leq 1$, an operation $c_p: X \times X \to X$,
+* a [[ring]] $P$, so that for each ring element $p \in P$, there exists an operation $c_p: X \times X \to X$,
 
 such that the following identities always hold:
 
-*  $c_0(a,b) = b$,
-*  $c_1(a,b) = a$ (this one is redundant),
-*  $c_p(a,a) = a$,
-*  $c_p(a,b) = c_{1-p}(b,a)$,
-*  $c_p(c_q(a,b),c) = c_{p q}(a,c_r(b,c))$ for $(1 - p q)r = (1 - q)p$.
+*  $c_0(x,y) = x$,
+*  $c_p(x,x) = x$ for all $p \in P$,
+*  $c_p(x,y) = c_{1-p}(y,x)$ for all $p \in P$,
+* $c_p(x, c_q(y,z)) = c_{p q}(c_r(x,y),z)$ for all $p,q,r \in P$ satisfying $p(1 - q) = (1 - p q)r$.
 
-This defines convex spaces as a [[variety of algebras]], with one binary operation for each $p$.
+As a consequence of the first and third axioms, $c_1(x,y) = c_0(y,x) = y$.
 
-The intended interpretation is that $c_p(a,b)$ is the average of $a$ and $b$, with $a$ given the weight $p$ and $b$ given the weight $1 - p$; this is called the __$p$-weighted average__ of $a$ and $b$.  It is also possible to give an '[[bias|unbiased]]' definition, in which the most general operation is an $n$-ary operation parametrised by a list $(p_1,\ldots,p_n)$ such that $0 \leq p_i \leq 1$ for each $i$ and $\sum_{i = 1}^n p_i = 1$.  Such an operation is called a __convex-linear combination__.
+This defines convex spaces as a [[variety of algebras]], with one binary operation for each $p$. 
+
+The intended interpretation is that $c_p(x,y) = x + p(y-x) = (1-p)x + py$. i.e., $c_p(x,y)$ is the $p$-weighted average of $x$ and $y$, where $x$ gets weight $1-p$ and $y$ gets weight $p$. By thinking of $p$ as a continuous parameter, this interpretation has the advantage of "starting" at $x$, then moving toward $y$ at "rate" $p$.
+
+This interpretation is '[[bias|biased]]', in the sense that the centered choice $p=0$ favors $x$. It is also possible to give an '[[bias|unbiased]]' definition, which characterizes to convex-linear combinations of many points. This is an $n$-ary operation parametrised by a list $p := (p_1,\ldots,p_n)$ satisfying $\sum_{i = 1}^n p_i = 1$. If $x := (x^1,\ldots, x^n), then $c_p(x) := \sum_i p_i x^i$.
 
 A [[homomorphism]] of convex spaces may be called a __convex-linear map__ or an __affine linear map__ (since an [[affine space]] is a convex space with extra properties, as in the examples below).  It should probably *not* be called a 'convex map', which (between affine spaces) is something more general.
 
 
 ## Examples
 
-Any real [[vector space]] is a convex space, with $c_p(a,b) = p a + (1 - p) b$.  In the unbiased version, any convex-linear combination is a [[linear combination]].  Note that a convex-linear map between vector spaces may not be a linear map, since it may not preserve the identity; thus, a vector space is a convex space with [[extra structure]].
+Any real [[vector space]] is a convex space, with $c_p(x,y) = x + p(y-x)$.  In the unbiased version, any convex-linear combination is a [[linear combination]].  Note that a convex-linear map between vector spaces may not be a linear map, since it may not preserve the identity; thus, a vector space is a convex space with [[extra structure]].
 
 More generally, any real [[affine space]] is a convex space; since $p + (1 - p) = 1$, the expression for $c_p$ in a vector space is valid in an affine space.  In the unbiased version, any convex-linear combination is an [[affine linear combination]].  Now any convex-linear map between affine spaces is an affine linear map (and conversely); an affine space is a convex space with [[extra properties]].
 
 Still more generally, any [[convex subset]] (that is, one containing the entire line segment between two given points) of a real [[affine space]] is a convex space (again with extra properties, which are described algebraically below).
 
-The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(a,b) = a \vee b = a + b - a b$ whenever $0 \lt p \lt 1$ (with $c_0(a,b) = b$ and $c_1(a,b) = a$ as always); this cannot be realised as a subset of a vector space.  This can be generalised to any (possibly unbounded) [[semilattice]].  (It would be nice to find an example like this that can be defined constructively; this one relies on [[excluded middle]].)
+The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(x,y) = x \vee y = x + y - x y$ whenever $0 \lt p \lt 1$ (with $c_0(x,y) = x$ and $c_1(x,y) = y$ as always); this cannot be realised as a subset of a vector space.  This can be generalised to any (possibly unbounded) [[semilattice]].  (It would be nice to find an example like this that can be defined constructively; this one relies on [[excluded middle]].)
 
 
 ## Abstract convex sets
 
-There is a nice abstract converse to the example of a [[convex subset]] of an affine space.  A convex space is __cancellative__ if $a = b$ whenever $c_p(a,c) = c_p(b,c)$ for some $c$ and $p \gt 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
+There is a nice abstract converse to the example of a [[convex subset]] of an affine space.  A convex space is __cancellative__ if $y = z$ whenever $c_p(x,y) = c_p(x,z)$ for some $c$ and $p \ne 0$.  We may call a cancellative convex space an __abstract convex set__.  The justification for this terminology is this
 
 +-- {: .un_theorem}
 ###### Theorem (Thm 2 in the paper by Stone)
@@ -56,7 +62,7 @@ A convex space is cancellative if and only if it is isomorphic (as a convex spac
 
 Compare this with the theorem that a [[monoid]] is [[cancellative monoid|cancellative]] if and only if it is isomorphic to a submonoid of some [[group]].
 
-Of course, most of the examples given above are cancellative, being manifestly given as convex subsets of real affine space.  However, the last example---a semilattice with $c_p(a,b) = a \vee b$ whenever $0 \lt p \lt 1$---is non-cancellative.
+Of course, most of the examples given above are cancellative, being manifestly given as convex subsets of real affine space.  However, the last example---a semilattice with $c_p(x,y) = x \vee y$ whenever $0 \lt p \lt 1$---is non-cancellative.
 
 
 ## References
