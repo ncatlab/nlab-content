@@ -170,7 +170,7 @@ Toby, what I would call the "$j$-core" is what you get by *discarding* $k$-morph
 
 *  _Toby_:  No, I was just messed up.  It was Eric who wanted to make all $2$-morphisms into equivalences (and indeed identities), so the core is not correct.
 
-[[Eric]]: Sure. Sorry about that. Until a better name is found, I think I'll just call it a free [[n-poset]]. I'm trying to develop some ideas at [[Hasse n-graph]]. Toby and I were discussing this a bit <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=237">here</a>.
+[[Eric]]: Sure. Sorry about that. Until a better name is found, I think I'll just call it a free [[n-poset]]. I'm trying to develop some ideas at [[Hasse n-graph]]. Toby and I were discussing this a bit [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=237).
 
 By the way, I'm not hoping to get _only_ finite categories this way. My only hope is that I can find a way to obtain _any_ finite category this way (or some way similar). 
 
