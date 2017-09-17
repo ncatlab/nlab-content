@@ -220,6 +220,12 @@ For various applications one uses toposes that have [[stuff, structure, property
 
   [[predicative topos]]
 
+  [[boolean topos]]
+
+  [[local topos]], [[locally connected topos]], [[connected topos]], [[cohesive topos]]
+
+  [[monoidal topos]]
+
 * [[(∞,1)-topos]] 
 
   * [[model topos]]
