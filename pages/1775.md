@@ -247,11 +247,11 @@ $$
   (\mathbf{H}^I)_{eff}
 $$
 
-between the $(\infty,1)$-category of groupoid objects in $\mathbf{H}$ and the full [[sub-(∞,1)-category]] of the [[arrow category]] of $\mathbf{H}$ (the [[(∞,1)-functor (∞,1)-category]] $Func(\Delta[1], \mathb{H})$) on the [[effective epimorphism in an (∞,1)-category|effective epimorphisms]].
+between the $(\infty,1)$-category of groupoid objects in $\mathbf{H}$ and the full [[sub-(∞,1)-category]] of the [[arrow category]] of $\mathbf{H}$ (the [[(∞,1)-functor (∞,1)-category]] $Func(\Delta[1], \mathbf{H})$) on the [[effective epimorphism in an (∞,1)-category|effective epimorphisms]].
 
 =--
 
-This appears below [[Higher Topos Theory|HTT, cor. 6.3.2.5]].
+This appears below [[Higher Topos Theory|HTT, cor. 6.2.3.5]].
 
 ### Cech nerves
 
