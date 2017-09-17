@@ -145,7 +145,9 @@ gives rise to a formal power series called its **generating function**:
 $$      \sum_{n \ge 0} \frac{dim(R_n) x^n}{n!}  \, $$
 and this power series is a polynomial precisely when $R$ is a polynomial species.
 
-The category of representations of any groupoid is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], meaning roughly that it has a well-behaved tensor product, direct sums, kernels, and cokernels.   So, the category of $Vect$-valued species is symmetric monoidal abelian, and it is easy to check that the subcategory of polynomial species, and thus $Schur$, inherits this property.  In particular, $Schur$ as two monoidal structures, $\oplus$ and $\otimes$, defined by
+The category of representations of any groupoid has many nice features.  For example, it is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]], by which we mean a symmetric monoidal category that is also abelian, where tensoring with any object is right exact.   So, the category of $Vect$-valued species is symmetric monoidal abelian --- and it is easy to check that the subcategory of polynomial species inherits this structure.  Since $Schur$ is equivalent to the category of polynomial species, it too is symmetric monoidal abelian.  
+
+In particular, $Schur$ has two monoidal structures, $\oplus$ and $\otimes$, defined by
 
 $$ (F \oplus G)(V) = F(V) \oplus G(V) $$
 
@@ -153,9 +155,9 @@ and
 
 $$ (F \otimes G)(V) = F(V) \otimes G(V) $$
 
-Since $\otimes$ distributes over $\oplus$, these make $Schur$ into a [[rig category]].
+Since $\otimes$ distributes over $\oplus$, these make $Schur$ into a [[rig category]].  In the literature on species, the operation $\oplus$ is often called **addition**, and Aguiar and Mahajan call $\otimes$ the [Hadamard product]](http://www.math.tamu.edu/~maguiar/a.pdf#page=236">Hadamard product).  
 
-But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product $\times$ and disjoint union $+$ of finite sets.  Since $\times$ distributes over $+$, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.  The same is true for the subcategory $Schur$.  
+But the category of representations of a groupoid has even more nice features when the groupoid itself has a [[monoidal category|monoidal structure]]: then the representation category acquires a monoidal structure thanks to [[Day convolution]].  The groupoid $\mathbb{P}$ has, in fact, _two_ important monoidal structures, coming from the product $\times$ and disjoint union $+$ of finite sets.  Since $\times$ distributes over $+$, these make $\mathbb{P}$ into a [[rig category]].   Thanks to Day convolution, these give the category of representations of $\mathbb{P}$ two more monoidal structures, making it into a rig category in another way.   The same is true for the subcategory $Schur$.  In the literature on species, the monoidal structure coming from $+$ is often called **multiplication**, while Aguiar and Mahajan call it the [Cauchy product](http://www.math.tamu.edu/~maguiar/a.pdf#page=236).  The monoidal structure coming from $\times$ has no commonly used name.
 
 On top of all this, the composite of Schur functors is again a Schur functor.   This gives $Schur$ yet another monoidal structure, the **plethystic tensor product**.  Unlike the four previous monoidal structures, this one is not symmetric.   
 
