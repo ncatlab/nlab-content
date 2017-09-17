@@ -42,16 +42,19 @@ More generally, even if the entire left adjoint $F$ doesn't exist, a [[free obje
 
 ## Cofree functors
 
-Dually, a __cofree functor__ is a [[right adjoint]] to a forgetful functor; these seem to be less common.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors are sometimes called __fascist functors__.
-
+Dually, a __cofree functor__ is a [[right adjoint]] to a forgetful functor; for the classical functors which forget algebraic structure, cofree functors are less common than free functors.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors have sometimes been called __fascist functors__. Some discussion of this joke may be found at the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1768&Focus=15392#Comment_15392). 
 
 ### Examples
 
-* the cofree coalgebra on a vector space which applies to other coalgebras of a [[PROP]] of an [[operad]]. 
+* The cofree coalgebra on a vector space. More generally, if $M$ is an [[operad]] in a symmetric monoidal category $V$, $Prop(M)$ its associated [[PROP]], and if $C$ is a monoidal $V$-category, then an $M$-coalgebra in $C$ may be identified with a monoidal $V$-functor $Prop(M)^{op} \to C$. Under suitable completeness assumptions on $C$, the forgetful functor $M$-$Coalg_C \to C$ has a right adjoint, and this forgetful functor is comonadic. 
 
-* The right adjoint to the underlying functor $Set^C \to Set/C_0$ (and plenty more where that came from). 
+* If $M$ is a monoid, the forgetful functor $Set^M \to Set$ on (left) $M$-sets has a right adjoint $X \mapsto \hom(M, X)$, where $M$ acts on functions $f: M \to X$ according to the rule $(m f)(m') = f(m' m)$. This forgetful functor is comonadic. Much more generally, the right adjoint to the underlying functor $Set^C \to Set/C_0$ ($C_0$ the set of objects of a category $C$) is comonadic. More generally still, if $V$ is complete and $f: C \to D$ is a functor between small categories, the functor $V^f: V^D \to V^C$ has a right adjoint (although $V^f$ will not normally be comonadic in this generality). 
 
-* [[coreflective subcategories]] 
+* The forgetful functor $Cat \to Set$, taking a small category to its set of objects, has a right adjoint $K$ for which $K X$ is a category whose objects are elements of $X$ and where there is exactly one morphism $x \to y$ for any $x, y \in X$. The category $K X$, which is a groupoid, is known as the chaotic category on $X$, or the indiscrete category on $X$. 
+
+* When $U: C \to Set$ is [[topological concrete category]] over $Set$, as for example the forgetful functor $U: Top \to Set$, it frequently happens that $U$ possesses a right adjoint, assigning to a set an "indiscrete topology". 
+
+* A rich source of examples is [[coreflective subcategories]], which are comonadic over the ambient category. For example, the category of compactly generated spaces is coreflective in the category of all spaces, $Top$.  
 
 [[!redirects free functor]]
 [[!redirects free functors]]
