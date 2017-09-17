@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _causet_ or _causal_ set is essentially the same thing as a [[partial order|poset]], more precisely a _locally finite_ poset.  
 
@@ -21,8 +25,9 @@ $$
 $$
 
 * **relativistic physics**, where every globally hyperbolic Lorentian metric on a manifold equips that manifold naturally with the structure of a causal set: there is a morphism from the point $x$ to the point $y$ in the manifold precisely if $y$ is in the _future_ of $x$, i.e. precisely if there exists a smooth path from $x$ to $y$ whose tangent vector is everywhere non-spacelike with respect to the Lorentyian metric. 
-Moreover, the Lorentyian metric on a manifold can essentially  (need to dig out the details here, see discussion at [[smooth Lorentzian space]]) be reconstructed from this poset structure and from a _measure_. This has led to some attempts to use posets as a foundational concept for relativistic physics. 
+Moreover, the Lorentzian metric on a manifold can essentially  (need to dig out the details here, see discussion at [[smooth Lorentzian space]]) be reconstructed from this poset structure and from a _measure_. This has led to some attempts to use posets as a foundational concept for relativistic physics. 
 
+  For more see [[smooth Lorentzian space]]
 
 The only technical distinction between the notion of posets and that of causal sets is that for a causal set the [[interval|under-over category]]
 $x\darr X\darr y$ for all objects $x$ and $y$ in the poset 
@@ -31,14 +36,14 @@ is required to be _finite_. This means these are required to have a [[finite set
 
 
 
-#Definition#
+## Definition
 
 A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all objects $x,y$ the [[interval]] $[y,x]$ is finite.
 
 
-#References#
+## References
 
-* Timothy Porter, [[PorterDipath.pdf:file]]
+* [[Tim Porter]], _[[PorterDipath.pdf:file]]_
 
 
 [[!redirects causets]]
