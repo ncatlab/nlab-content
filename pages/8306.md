@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -16,12 +26,72 @@ $$
 
 is a [[function]] of the underlying [[sets]] which is linear -- hence is a [[group homomorphism]] -- in each argument separately. 
 
-Equivalently this is a map that factors through the [[tensor product of abelian groups]] $A \otimes B$ as
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In terms of [[elements]] this means that 
+a bilinear map $f : A \times B \to C$ is a function of sets that satisfies for all elements $a_1, a_2 \in A$ and $b_1, b_2 \in B$ the two relations
+
+$$
+  f(a_1 + a_2, b_1) = f(a_1,b_1) + f(a_2, b_2)
+$$
+
+and
+
+$$
+  f(a_1, b_1 + b_2) = f(a_1, b_1) + f(a_1, b_2)
+  \,.
+$$
+
+Notice that this is _not_ a group homomorphism out of the product group.
+The product group $A \times B$ is the group whose elements are pairs $(a,b)$ with $a \in A$ and $b \in B$, and whose group operation is 
+
+$$
+  (a_1, b_1) + (a_2, b_2) = (a_1 + a_2 \;,\; b_1 + b_2)
+  \,.
+$$
+
+A _[[group homomorphism]]_
+
+$$
+  \phi : A \times B \to C
+$$
+
+hence satisfies
+
+$$
+  \phi( a_1+a_2, b_1 + b_2 ) = \phi(a_1,b_1) + \phi(a_2, b_2)
+$$
+
+and hence in particular
+
+$$
+  \phi( a_1+a_2, b_1  ) = \phi(a_1,b_1) + \phi(a_2, 0)
+$$
+
+$$
+  \phi( a_1, b_1 + b_2 ) = \phi(a_1,b_1) + \phi(0, b_2)
+$$
+
+which is (in general) different from the behaviour of a bilinear map.
+
+=--
+
+The definition of [[tensor product of abelian]] groups is such that the following is an equivalent definition of bilinear map
+
++-- {: .num_defn}
+###### Definition
+
+For $A, B, C \in Ab$ a function of sets $f : A \times B \to C$ 
+is a **bilinear map** precisely if it factors through the [[tensor product of abelian groups]] $A \otimes B$ as
 
 $$
   f : A \times B \to A \otimes B \to C
   \,.
 $$
+
 =--
 
 +-- {: .num_remark}
