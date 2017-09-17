@@ -157,6 +157,11 @@ Such KK-compactification of the form _[[M-theory on G2-manifolds]]_ turn out to 
 
 The 1-form gauge field induced by KK-compactification of [[M-theory]] on a circle is the potential of the degree-2 part of the [[RR-field]] of [[type IIA string theory]] which couples to the [[D0-brane]].
 
+Followed by a [[T-duality]] operations these compactifications yields [[type IIB superstring theory]] compactifications and this route is known as _[[F-theory]]_:
+
+[[!include F-theory compactifications -- table]]
+
+
 ### High codimension compactification of $D=10$ super Yang-Mills
 
 The KK-compactification of [[D=10 super Yang-Mills theory]] to $D=1$ is related to what is called the _[[BFSS matrix model]]_. Compactification even further down to $D = 0$ gives the [[IKKT matrix model]].
