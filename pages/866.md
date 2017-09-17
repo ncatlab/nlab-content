@@ -114,6 +114,10 @@ Most of the preceding makes sense in any [[category]] with enough [[products]]; 
 Probably the trickiest bit is the definition of [[composition]] of binary relations, so not every category with [[finite products]] has an [[allegory]] of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional entire relations.
 
 
+## Related concepts
+
+* [[graph]]
+
 [[!redirects relation]]
 [[!redirects relations]]
 [[!redirects relation theory]]
