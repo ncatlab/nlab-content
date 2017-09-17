@@ -1,0 +1,2 @@
+
+[[quantization]] by means of the [[path integral]]
