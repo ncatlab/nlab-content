@@ -19,9 +19,11 @@ and
 
 $$ \sum_{i \lt j} x_i x_j .$$
 
+These basis elementa are called the _[[elementary symmetric functions]]_.
+
 (The homogeneous symmetric functions of degree $0$ are just the constants, as usual.)
 
-There is also a noncommutative analogue: [[noncommutative symmetric function]]s.
+There is also a noncommutative analogue: [[noncommutative symmetric functions]].
 
 
 ## Definitions
