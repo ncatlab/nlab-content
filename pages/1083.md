@@ -36,3 +36,6 @@ If $A$ is moreover [[abelian category|abelian]], then we also have
 category: category
 
 [[!redirects categories of chain complexes]]
+
+[[!redirects category of cochain complexes]]
+[[!redirects categories of cochain complexes]]
