@@ -78,7 +78,7 @@ where the constants $g_2, g_3$ are expressed as certain [[Eisenstein series]] in
 
 $$\tau \mapsto \mathbb{C}/\langle 1, \tau\rangle$$ 
 
-gives a surjection from complex numbers with positive imaginary part to isomorphism classes of smooth elliptic curves. Thus we may restrict attention to lattices of the form $\langle 1, \tau \rangle$. 
+gives a surjection from complex numbers with positive imaginary part to isomorphism classes of smooth elliptic curves. Thus we may restrict attention to lattices of the form $L = \langle 1, \tau \rangle$. 
 
 Of course, $L$ admits more than one such basis $(1, \tau)$, but for any other $(1, \tau')$ there is a [[linear transformation]] $\gamma \in \Gamma \coloneqq PSL_2(\mathbb{Z})$ such that $\gamma(\tau) = \tau'$. In summary, the [[orbit space]] 
 
@@ -87,6 +87,22 @@ $$\{\tau \in \mathbb{C}: Im(\tau) \gt 0\}/\Gamma$$
 is a coarse [[moduli space]] for elliptic curves. In this context, one often says that elliptic curves are paramatrized by the $j$-[[j-invariant|invariant]], a certain [[modular form]] $j(\tau)$ defined on the upper half-plane such that $j(\tau) = j(\tau')$ if and only if $\tau' = \gamma \cdot \tau$ for some $\gamma \in \Gamma$. 
 
 Of course, in some cases there may be more than one $\gamma \in \Gamma$ that fixes a given $\tau$; this is notably the case when $\tau$ is a fourth root of unity or a sixth root of unity. A more refined approach then is to consider, instead of the coarse orbit space, the (compactified) [[moduli stack]] $(H \cup \{\infty\})//\Gamma$ for elliptic curves, as a central geometric object of interest. 
+
+### Abstract structure of modular group 
+
+As an abstract [[group]], $\Gamma = PSL_2(\mathbb{Z})$ is a [[free product]] $\mathbb{Z}/(2) \ast \mathbb{Z}/(3)$; explicitly, we may take the generator of order $2$ to be given by the Moebius transformation $z \mapsto -1/z$, and the generator of order $3$ to be given by $z \mapsto (z-1)/z$. 
+
+This [[concrete group]] and certain of its subgroups, such as [[congruence subgroups]], are fairly ubiquitous; for example the modular group appears in the theory of [rational tangles](http://ncatlab.org/nlab/show/continued+fraction#rational_tangles), and these groups frequently crop up in the theory of buildings (stuff on hyperbolic buildings to be filled in). 
+
+It is also worth pointing out that $\Gamma$ is a quotient of the [[braid group]] $B_3$. Consider the standard Artin presentation of $B_3$, with two generators $\sigma_1$, $\sigma_2$ subject to the relation 
+
+$$\sigma_1 \sigma_2 \sigma_1 = \sigma_2 \sigma_1 \sigma_2.$$ 
+
+Then $z \coloneqq (\sigma_1 \sigma_2)^3$ is a [[center|central element]] of $B_3$, and there is a central extension 
+
+$$1 \to \mathbb{Z} \stackrel{1 \mapsto z}{\to} B_3 \stackrel{q}{\to} \Gamma \to 1$$ 
+
+where $q$ is the unique homomorphism mapping $\sigma_1\sigma_2$ to $\lambda z. (z-1)/z$, and $\sigma_1\sigma_2\sigma_1$ to $\lambda z. \frac{-1}{z}$. 
 
 [[!redirects Moebius transformations]]
 [[!redirects moebius transformation]]
