@@ -1,19 +1,19 @@
+
 # Racks
 * table of contents
 {: toc}
 
-
-##The Idea##
+## Idea
 
 A rack is a set equipped with a binary operation satisfying axioms analogous to the second and third [[Reidemeister moves]] in knot theory.  The most commonly appearing racks in nature are [[quandle|quandles]], which satisfy an additional axiom analogous to the first Reidemeister move.
 
 While mainly used to obtain invariants of framed knots, racks are interesting algebraic structures in their own right: they capture the idea of an algebraic structure where every element acts as an automorphism of that structure.
 
 
-##Definition##
+## Definition
 
 A **rack** may be defined as a set $R$ with a binary operation $\triangleright$ such that
-for every $a, b, c \in R$ the **self-distributive law** holds:
+for every $a, b, c \in R$ the **[[self-distributive law]]** holds:
 
 $$a \triangleright (b \triangleright c) = (a  \triangleright b)\triangleright (a \triangleright  c)$$
 
@@ -47,7 +47,7 @@ Using this idea, a rack may be equivalently defined as a set $R$ with two binary
 It is convenient to say that the element $a \in R$ is **acting from the left** in the expression $a \triangleright b$, and **acting from the right** in the expression $b \triangleleft a$.  The third and fourth rack axioms then say that these left and right actions are inverses of each other.  Using this, we can eliminate either one of these actions from the definition of rack.  If we eliminate the right action and keep the left one, we obtain the terse definition given initially.   However, the longer definition makes it clear that racks are algebras of [[Lawvere theory]].
 
 
-##Notations and Conventions##
+## Notations and Conventions
 
 Many different conventions are used in the literature on racks and quandles.  For example, many authors prefer to work with just the _right_ action.  Furthermore, the use of the symbols $\triangleright$ and $\triangleleft$ is by no means universal: many authors use exponential notation 
 
@@ -70,7 +70,7 @@ $$(c \triangleright b) \triangleleft a = (c \triangleleft a)\triangleright (b \t
 which are consequences of the definition(s) given earlier.
 
 
-## References ##
+## References
 
 * (popular) Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
