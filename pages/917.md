@@ -9,3 +9,4 @@ In [[constructive mathematics]], a strongly extensional function between sets eq
 [[!redirects strongly injective function]]
 [[!redirects injections]]
 [[!redirects one-to-one function]]
+[[!redirects injective]]
