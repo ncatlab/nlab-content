@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
-+--{: .hide}
-[[!include category theory - contents]]
-=--
 #### Enriched category theory
 +--{: .hide}
 [[!include enriched category theory contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
 =--
 =--
 =--
@@ -34,6 +34,9 @@ The dual notion is that of [[power]]ing.
 
 ## Definition 
 
++-- {: .un_defn}
+###### Definition
+
 Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].  In a $V$-[[enriched category]] $C$, the **copower** of an object $x\in C$ by an object $k\in V$ is an object $k\odot x \in C$ with a [[natural isomorphism]]
 
 $$
@@ -42,11 +45,16 @@ $$
 
 where $C(-,-)$ is the $V$-valued [[hom-functor]] of $C$ and $V(-,-)$ is the [[internal hom]] of $V$.
 
-## Terminology
+=--
+
++-- {: .un_remark}
+###### Remark
+
 
 Copowers are frequently called _tensors_ and a $V$-category having all copowers is called _tensored_, while the word "copower" is reserved for the case $V=Set$.  However, there seems to be no good reason for making this distinction.  Moreover, the word "tensor" is fairly overused, and unfortunate since a tensor (= a copower) is a colimit, while a cotensor (= [[power]]) is a limit.
 
 
+=--
 ## Properties
 
 * In the $V$-category $V$, the copower is just the [[tensor product]] of $V$.
@@ -82,11 +90,18 @@ Copowers are frequently called _tensors_ and a $V$-category having all copowers 
 
 
 
-## In higher category theory
+## Related concepts
 
-The notion of copowering has evident analogs in [[higher category theory]].
+* **copower**, [[(∞,1)-copower]]
 
-For the notion of copowering in [[(∞,1)-category theory]] see the section <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">Tensoring</a> at [[limit in a quasi-category]].
+* [[power]]
+
+## References
+
+Section 3.7 of
+
+* [[Max Kelly]], _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
 
 [[!redirects copowers]]
 
