@@ -17,7 +17,7 @@
 
 The standard [[model (in theoretical physics)]] for the observed [[cosmology]]:
 
-an [[FRW spacetime]] with [[cosmological constant]] and cold [[dark matter]].
+an [[cosmic inflation|inflationary]] [[FRW spacetime]] with [[cosmological constant]] and cold [[dark matter]].
 
 ## Related concepts
 
