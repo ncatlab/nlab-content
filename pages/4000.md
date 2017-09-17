@@ -693,3 +693,4 @@ Here are some slides from talks:
 
 [[!redirects Chern-Simons circle 3-bundle with connection]]
 
+[[!redirects universal Chern-Simons circle 3-connection]]
