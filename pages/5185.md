@@ -57,6 +57,7 @@ This is ([BergerMoerdijk, theorem 2.6](#BergerMoerdijk)).
 
     * [[module over an algebra over an (∞,1)-operad]], **model structure on modules over an algebra over an operad**
 
+* [[operad for modules over an algebra]]
 
 ## References
 
