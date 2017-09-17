@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -9,7 +8,9 @@ The **de Rham complex** of a [[smooth manifold]] is the [[cochain complex]] whic
 
 Under the [[wedge product]], the deRham complex becomes a [[differential graded algebra]]. This may be regarded as the [[Chevalley–Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ of $X$.
 
-## For algebraic objcts
+## For algebraic objects
+
+For smooth varieties $X$, algebraic de Rham cohomology is defined to be the [[hypercohomology]] of the de Rham complex $\Omega_X^\bullet$.
 
 De Rham cohomology has a rather subtle generalization for possibly singular algebraic varieties due to Grothendieck. 
 
