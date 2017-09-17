@@ -695,7 +695,7 @@ The basic example is:
 +-- {: .num_example #TheSmoothgAlgebraOfFunctionsOnACartesianSpace}
 ###### Example
 
-For $n \in \mathb{N}$, the [[smooth algebra]] $C^\infty(\mathbb{R}^n)$ 
+For $n \in \mathbb{N}$, the [[smooth algebra]] $C^\infty(\mathbb{R}^n)$ 
 is the functor $CartSp \to Set$ which is [[representable functor|functor corepresented]] by $\mathbb{R}^n \in $ [[CartSp]]. This means that to $\mathbb{R}^k \in CartSp$ it assigns the set
 
 $$
@@ -779,7 +779,7 @@ $$
         +  
        \sum_{j = 1}^{n_2}
        \left(\sum_{i = 1}^{n_1}\frac{\partial f^j}{\partial x^i} v^i\right)
-       \vec e_i  
+       \vec e_j  
     \right)
     \right)
   \end{aligned}
@@ -1717,7 +1717,7 @@ $$
   \left\{
     (p_X \in X(\mathbb{R}^n), p_Y \in Y(\mathbb{R}^n))
     \; |\;
-    X(f)(p_X) = Y(g)(p_Y)
+    f_{\mathbb{R}^n}(p_X) = g_{\mathbb{R}^n}(p_Y)
   \right\}
   \,.
 $$
@@ -1733,7 +1733,7 @@ $$
 +-- {: .num_defn #SmoothFunctionSpace}
 ###### Definition
 
-Let $\Sigma, X \in Smooth0Type$ be two [[smooth spaces]], def. \ref{#SmoothSpace}. Then the **smooth [[mapping space]]** 
+Let $\Sigma, X \in Smooth0Type$ be two [[smooth spaces]], def. \ref{SmoothSpace}. Then the **smooth [[mapping space]]** 
 
 $$
   [\Sigma,X] \in Smooth0Type
@@ -2527,7 +2527,7 @@ If we have a measure of infintesimal displacement on some $\mathbb{R}^n$ and a s
 +-- {: .num_defn #PullbackOfDifferential1FormsOnCartesianSpaces}
 ###### Definition
 
-For $\phi \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$ a [[smooth function]], the **[[pullback of differential forms|pullback of differential 1-forms]]** along $\phi$ is the [[function]]
+For $\phi \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^k$ a [[smooth function]], the **[[pullback of differential forms|pullback of differential 1-forms]]** along $\phi$ is the [[function]]
 
 $$
   \phi^* \colon \Omega^1(\mathbb{R}^{k}) \to \Omega^1(\mathbb{R}^{\tilde k})
@@ -2536,7 +2536,7 @@ $$
 between sets of differential 1-forms, def. \ref{Differential1FormsOnCartesianSpaces}, which is defined on [[basis]]-elements by
 
 $$
-  \phi^* \mathbf{d} x^i \coloneqq \sum_{j = 1}^{\tilde k} \frac{\partial f^i}{\partial \tilde x^j} \mathbf{d}\tilde x^j
+  \phi^* \mathbf{d} x^i \coloneqq \sum_{j = 1}^{\tilde k} \frac{\partial \phi^i}{\partial \tilde x^j} \mathbf{d}\tilde x^j
 $$
 
 and then extended linearly by
@@ -2546,10 +2546,10 @@ $$
     \phi^* \omega & = \phi^* \left( \sum_{i} \omega_i \mathbf{d}x^i \right)
     \\
     & \coloneqq
-     \sum_{i = 1}^k \left(\phi^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+     \sum_{i = 1}^k \left(\phi^* \omega\right)_i \sum_{j = 1}^{\tilde k} \frac{\partial \phi^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
     \\
     & = 
-     \sum_{i = 1}^k  \sum_{j = 1}^{\tilde k} (\omega_i \circ \phi) \cdot \frac{\partial f^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
+     \sum_{i = 1}^k  \sum_{j = 1}^{\tilde k} (\omega_i \circ \phi) \cdot \frac{\partial \phi^i }{\partial \tilde x^j}  \mathbf{d} \tilde x^j 
   \end{aligned}
   \,.
 $$
@@ -2627,7 +2627,7 @@ We write $\Omega^n(\mathbb{R}^k)$ for the sub-module of degree $n$ and call its 
 Explicitly this means that a [[differential n-form]] $\omega \in \Omega^n(\mathbb{R}^k)$ on $\mathbb{R}^k$ is a [[formal linear combination]] over $C^\infty(\mathbb{R}^k)$ of [[basis]] elements of the form $\mathbf{d} x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n}$ for $i_1 \lt i_2 \lt \cdots \lt i_n$:
 
 $$
-  \omega = \sum_{1 \leq i_1 \lt i_2 \lt \cdots \lt i_n \lt n} \omega_{i_1, \cdots, i_n} \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n}
+  \omega = \sum_{1 \leq i_1 \lt i_2 \lt \cdots \lt i_n \lt k} \omega_{i_1, \cdots, i_n} \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n}
   \,.
 $$
 
@@ -2642,7 +2642,7 @@ The [[pullback of differential forms|pullback of differential 1-forms]] of def. 
 $$
   f^* \left(  \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n} \right)
   = 
-  \left(f^* \mathbf{d}x^{i_1} \wedge \cdots \wedge \mathbf{d}x^{i_n} \right)
+  \left(f^* \mathbf{d}x^{i_1} \wedge \cdots \wedge f^* \mathbf{d}x^{i_n} \right)
   \,. 
 $$ 
 
@@ -2763,7 +2763,7 @@ $$
  \,.
 $$
 
-This means that it sends an $n$-form $\omega \in \Omega^n(Y)$ which is modulated by a homomorphism $Y \to \Omega^n$ to the $n$-form $f^* \omega \in \Omega^n(X)$ which is modulated by the [[composition|composite]] $X \stackrel{f}{\to} X \to \Omega^n$.
+This means that it sends an $n$-form $\omega \in \Omega^n(Y)$ which is modulated by a homomorphism $Y \to \Omega^n$ to the $n$-form $f^* \omega \in \Omega^n(X)$ which is modulated by the [[composition|composite]] $X \stackrel{f}{\to} Y \to \Omega^n$.
 
 =--
 
@@ -3025,7 +3025,7 @@ For $n = 0$ we have (for any $X\in Smooth0Type$)
 
 $$
   \begin{aligned}
-    \mathbf{Omega}^0(X) 
+    \mathbf{\Omega}^0(X) 
       & \coloneqq Conc [X, \Omega^1]
     \\
     & \simeq Conc [X, \mathbb{R}]
@@ -3389,11 +3389,11 @@ $$
     \coloneqq
   \mathbf{d}A 
     = 
-   E_1 \mathbf{d}t \wedge \mathbf{d}x^1 
+   E_1 \mathbf{d}x^1 \wedge \mathbf{d}t 
     + 
-   E_2 \mathbf{d}t \wedge \mathbf{d}x^2 
+   E_2 \mathbf{d}x^2 \wedge \mathbf{d}t 
     + 
-   E_3 \mathbf{d}t \wedge \mathbf{d}x^3
+   E_3 \mathbf{d}x^3 \wedge \mathbf{d}t
     + 
     B_1 \mathbf{d}x^2 \wedge \mathbf{d}x^3 
     + 
@@ -3405,7 +3405,7 @@ $$
 with 
 
 $$
-  E_i = \frac{\partial \phi}{\partial x^i}
+  E_i = \frac{\partial \phi}{\partial x^i} - \frac{\partial A_i}{\partial t}
 $$
 
 and
@@ -3480,7 +3480,7 @@ $$
   \,.
 $$
 
-This sends a plot $U \to \flat X$, which by definition of $Disc(-)$ is a point in $\Gamma X$, hence a homomorphism $x \colon * \to X$, to the plot $I \to * \stackrel{x}{\to} X$ of $X$.
+This sends a plot $U \to \flat X$, which by definition of $Disc(-)$ is a point in $\Gamma X$, hence a homomorphism $x \colon * \to X$, to the plot $U \to * \stackrel{x}{\to} X$ of $X$.
 
 =--
 
@@ -3646,7 +3646,7 @@ $$
   \,.
 $$
 
-Then for $U = \mathbb{R}$ and any smooth $U$-parameterized collection $\{\gamma_{u} \colon \Sigma \to X\}_{u \in I}$ the functional derivative takes the value
+Then for $U = \mathbb{R}$ and any smooth $U$-parameterized collection $\{\gamma_{u} \colon \Sigma \to X\}_{u \in U}$ the functional derivative takes the value
 
 $$
   \begin{aligned}
@@ -3665,7 +3665,7 @@ $$
       + 
        \frac{\partial L}{\partial \dot \gamma}(\gamma_u(t), \dot \gamma_u(t))
        \frac{\partial \dot \gamma_u(t)}{\partial u}
-     \right)
+     \right) dt
      \mathbf{d} u
      \\
      & =
@@ -3676,7 +3676,7 @@ $$
       + 
        \frac{\partial L}{\partial \dot \gamma}(\gamma_u(t), \dot \gamma_u(t))
        \frac{\partial }{\partial t}\frac{\partial \gamma_u(t)}{\partial u}
-     \right)
+     \right) dt
      \mathbf{d} u
      \\
      & =
@@ -3686,7 +3686,7 @@ $$
       - 
        \frac{\partial}{\partial t}\frac{\partial L}{\partial \dot \gamma}(\gamma_u(t), \dot \gamma_u(t))
      \right)
-     \frac{\partial \gamma_u(s)}{\partial u}
+     \frac{\partial \gamma_u(t)}{\partial u} dt
      \mathbf{d}u
   \end{aligned}
   \,.
@@ -3768,7 +3768,7 @@ where $V$ is of finite [[dimension]] and such that every element $v \in V \subse
 ###### Example
 
 The smallest smooth Artin algebra is the [[ring of dual numbers]], 
-def. \ref{DualNumbers}, for which $V = \mathb{R}$. 
+def. \ref{DualNumbers}, for which $V = \mathbb{R}$. 
 
 =--
 
@@ -4223,7 +4223,7 @@ If $X, Y \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \stackrel{i_!}{\to} \
 
 Fundamental physics is all based on the _[[gauge principle]]_. This says in particular that it is wrong to think of two different _field configurations_ ([[gauge field]] configurations, as it were) of being [[equality|equal]] or not. Instead it makes sense to ask if there is (or not) a _[[gauge transformation]]_ from one to the other that exibits an gauge [[equivalence]] between the two fields. The simplest example of this is described in detail below in  _[Gauge transformations in electromagnetism](#GaugeTransformationsInElectromagnetism)_.
 
-But this means that the collection of [[gauge fields]] on a [[spacetime]] $X$, which we will write as a [[mapping space]] $[X, \mathbf{B}G_{conn}]$, cannot be a [[smooth space]] as cinsidered above, for if it were such a smooth space, then we could ask if two gauge fields $\nabla_1, \nabla_2 \colon : \to [X,\mathbf{B}G_{conn}]$ were equal or not. 
+But this means that the collection of [[gauge fields]] on a [[spacetime]] $X$, which we will write as a [[mapping space]] $[X, \mathbf{B}G_{conn}]$, cannot be a [[smooth space]] as considered above, for if it were such a smooth space, then we could ask if two gauge fields $\nabla_1, \nabla_2 \colon * \to [X,\mathbf{B}G_{conn}]$ were equal or not. 
 
 Notice that this already applies to a single gauge field: given any $\nabla \colon * \to [X,\mathbf{B}G_{conn}]$ it is certainly equal to itself, but is nevertheless also _gauge equivalent_ to itself, but the latter it may be in several non-equivalent ways: there may be non-trivial auto-gauge transformations $\nabla \to \nabla$. Since these can be composed, are, by definition, invertible, and contain the trivial gauge transformaiton, these form a _[[group]]_, the group of auto-gauge equivalences of $\nabla$. (Groups are discussed in detail below in _[Groups](#Groups)_) If that gauge field $\nabla$ is itself the trivial gauge field, $\nabla = \nabla_0$, then this group of auto-gauge equivalences is the _[[gauge group]]_ of the given [[gauge theory]]:
 
@@ -4234,9 +4234,9 @@ $$
 
 For this reason, the collection of _all_ gauge fields and all gauge transformations between them form something that is a [[group]] over ever fixed element, but which generalizes the notion of a group in that there are not only auto-equivalences, but also equivalences going from one element to another. Such a structure is called a _[[groupoid]]_. Gauge fields form not a [[set]] with smooth structure, a [[smooth space]], but a [[groupoid]] with smooth structure: a _[[smooth groupoid]]_. 
 
-At least ordinary gauge fields do. More generally, the gauge princple goes further: it is in general also a mistake to assume that given two gauge transformations $\lambda_1, \lambda_2 \colon \nabla_1 \to \nabla_2$ between two gauge fields, it makes good sense to ask whether they are equal or not. Again, the gauge prinicle says that we should instead ask if there is a _[[gauge-of-gauge transformation]]_ between them, that exhibits a gauge [[equivalence]] $\rho \colon \lambda_1 \simeq \lambda_2$. If these gauge-of-gauge equivalences are nontrivial it would seem that gauge fields form a generalization of the notion of a [[groupoid]] called a _[[2-groupoid]]_. But in general the gauge principle goes on: we can in general never decide if two $n$-fold gauge-of-gauge transformations are actually equal, all we have is, possibly, an $(n+1)$-fold gauge transformation going between them which exhibits their gauge equivalence, this being so for all $0 \lt n \lt \infty$. One therefore says that gauge fields in general formn an _[[∞-groupoid]]_ whose _[[n-morphisms]]_ are $n$-fold [[gauge-of-gauge transformations]]. These $\infty$-groupoids are also called _[[homotopy types]]_. And since at the same time there is still a notion of gauge fields varying smoothly, these are _[[smooth ∞-groupoids]]_ or _[[smooth homotopy types]]_. This is what we discuss here. 
+At least ordinary gauge fields do. More generally, the gauge princple goes further: it is in general also a mistake to assume that given two gauge transformations $\lambda_1, \lambda_2 \colon \nabla_1 \to \nabla_2$ between two gauge fields, it makes good sense to ask whether they are equal or not. Again, the gauge prinicle says that we should instead ask if there is a _[[gauge-of-gauge transformation]]_ between them, that exhibits a gauge [[equivalence]] $\rho \colon \lambda_1 \simeq \lambda_2$. If these gauge-of-gauge equivalences are nontrivial it would seem that gauge fields form a generalization of the notion of a [[groupoid]] called a _[[2-groupoid]]_. But in general the gauge principle goes on: we can in general never decide if two $n$-fold gauge-of-gauge transformations are actually equal, all we have is, possibly, an $(n+1)$-fold gauge transformation going between them which exhibits their gauge equivalence, this being so for all $0 \lt n \lt \infty$. One therefore says that gauge fields in general form an _[[∞-groupoid]]_ whose _[[n-morphisms]]_ are $n$-fold [[gauge-of-gauge transformations]]. These $\infty$-groupoids are also called _[[homotopy types]]_. And since at the same time there is still a notion of gauge fields varying smoothly, these are _[[smooth ∞-groupoids]]_ or _[[smooth homotopy types]]_. This is what we discuss here. 
 
-Remarkably, the same concept appears in [[constructive mathematics]]: there it is in general wrong to consider an [[equality]] between two [[terms]] $\nabla_1, \nabla_2 \colon [X, \mathbf{B}G_{conn}]$, instead one is to consider an explicit [[proof]] that they are equal, provide an explicit [[equivalence]] between them. Such a proof $\lambda$ is itself a [[term]], of [[identity type]], writte just as before, $\lambda \colon (\nabla_1 \simeq \nabla_2)$. And, in turn, the same applies to these proofs of equivalence themselves: in [[constructive mathematics]] one demands a [[proof]] $\rho$ that two equivalences $\lambda_1, \lambda_2 \colon (\nabla_1 \simeq \nabla_2)$ are equivalent, and hence a term $\rho \colon (\lambda_1 \simeq \lambda_2)$ of a higher [[identity type]]. If this goes ever on, and one speak of _[[intensional type theory]]_ or _[[homotopy type theory]]_.
+Remarkably, the same concept appears in [[constructive mathematics]]: there it is in general wrong to consider an [[equality]] between two [[terms]] $\nabla_1, \nabla_2 \colon [X, \mathbf{B}G_{conn}]$, instead one is to consider an explicit [[proof]] that they are equal, provide an explicit [[equivalence]] between them. Such a proof $\lambda$ is itself a [[term]], of [[identity type]], written just as before, $\lambda \colon (\nabla_1 \simeq \nabla_2)$. And, in turn, the same applies to these proofs of equivalence themselves: in [[constructive mathematics]] one demands a [[proof]] $\rho$ that two equivalences $\lambda_1, \lambda_2 \colon (\nabla_1 \simeq \nabla_2)$ are equivalent, and hence a term $\rho \colon (\lambda_1 \simeq \lambda_2)$ of a higher [[identity type]]. If this goes ever on, and one speak of _[[intensional type theory]]_ or _[[homotopy type theory]]_.
 
 This remarkable matching of [[higher gauge theory]] and [[homotopy type theory]] is what drives the discussion here.  
 
@@ -4344,7 +4344,7 @@ $$
 
 =--
 
-Given such an action of a [[discrete group]] on a [[set]], we might be temoted to form the [[quotient]] set $\Omega^1_{vert}(X\times U)/C^\infty(X \times U, U(1))$. This set contains the gauge [[equivalence classes]] of $U$-parameterized collections of electromagnetic gauge fields on $X$. But it turns out that this is too little information to correctly capture phyisucs. For that instead we need to remember not just that two gauge fields are equivalent, but how they are equivalent. That is, we for $\lambda$ a gauge transformation from $A_1$ to $A_2$, we should have an [[equivalence]] $\lambda \colon A_1 \stackrel{\simeq}{\to} A_2$.
+Given such an action of a [[discrete group]] on a [[set]], we might be demoted to form the [[quotient]] set $\Omega^1_{vert}(X\times U)/C^\infty(X \times U, U(1))$. This set contains the gauge [[equivalence classes]] of $U$-parameterized collections of electromagnetic gauge fields on $X$. But it turns out that this is too little information to correctly capture physics. For that instead we need to remember not just that two gauge fields are equivalent, but how they are equivalent. That is, we for $\lambda$ a gauge transformation from $A_1$ to $A_2$, we should have an [[equivalence]] $\lambda \colon A_1 \stackrel{\simeq}{\to} A_2$.
 
 +-- {: .num_defn #EMGaugeGroupoidOverU}
 ###### Definition
@@ -4352,7 +4352,7 @@ Given such an action of a [[discrete group]] on a [[set]], we might be temoted t
 The [[action groupoid]]
 
 $$
-  \Omega^1_{vert}(X\times U)\sslashC^\infty(X \times U, U(1))
+  \Omega^1_{vert}(X\times U)\sslash C^\infty(X \times U, U(1))
   \coloneqq
   (
     \Omega^1_{vert}(X\times U) \times C^\infty(X \times U, U(1))
@@ -4365,7 +4365,7 @@ is the [[groupoid]] whose
 
 * [[objects]] are $U$-parameterized collections of gauge potentials $A \in \Omega^1_{vert}(X \times U)$;
 
-* [[morphisms]] are pairs $(A,\lambda)$ with $A$ an object and $\lamda \in C^\infty(X \times U, U(1))$, with [[domain]] $A$ and [[codomain]] $A + \mathbf{d}_X \lambda$;
+* [[morphisms]] are pairs $(A,\lambda)$ with $A$ an object and $\lambda \in C^\infty(X \times U, U(1))$, with [[domain]] $A$ and [[codomain]] $A + \mathbf{d}_X \lambda$;
 
 * [[composition]] is given by multiplication of the $\lambda$-labels in the group $C^\infty(X \times U, U(1))$.
 
@@ -4379,7 +4379,7 @@ This is the discrete _gauge groupoid_ for $U$-parameterized collections of field
 Let $A_0 \coloneqq 0 \in \Omega^1_{vert}(X \times U)$ be the trivial gauge field. Then its [[automorphism group]] in the gauge groupoid of def. \ref{EMGaugeGroupoidOverU} is the group of [[circle]]-group valued functions on $U$:
 
 $$
-  \pi_1(\Omega^1_{vert}(X\times U)\sslashC^\infty(X \times U, U(1)), A_0)
+  \pi_1(\Omega^1_{vert}(X\times U)\sslash C^\infty(X \times U, U(1)), A_0)
   =
   Aut(A_0)
   \simeq
@@ -4411,7 +4411,7 @@ $$
 from the product smooth space, def. \ref{ProductOfSmoothSpaces}, of the smooth moduli spaces of 1-forms and 0-forms on $X$, def. \ref{SmoothSpaceOfFormsOnSmoothSpace}, to that of smooth functions, def. \ref{SmoothSpaceOfSmoothFunctions}, whose component over $U \in $ [[CartSp]] is the action 
 
 $$
-  \rho_U \colon (A,\lambda) \maptos  A + \mathbf{d}\lambda
+  \rho_U \colon (A,\lambda) \mapsto  A + \mathbf{d}\lambda
 $$
 
 of def. \ref{ActionOfFunctionsOnForms}.
@@ -4551,7 +4551,7 @@ $$
 an [[action]] then  the [[action groupoid]]
  
 $$
-  X \sslah G \in Smooth1Type
+  X \sslash G \in Smooth1Type
 $$
 
 $$
@@ -4665,7 +4665,7 @@ as well as specifying
 * functions $([n] \hookrightarrow [n+1]) \mapsto (K_{n+1} \to K_n)$
   that send $n+1$-morphisms to their boundary $n$-morphisms;
 
-* functionss $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
+* functions $([n+1] \to [n]) \mapsto (K_{n} \to K_{n+1})$
   that send $n$-morphisms to [[identity]] $(n+1)$-morphisms
   on them.
 
@@ -5248,7 +5248,7 @@ $$
 which sends
 
 $$
-  (g_1 \to g_2) \mapsto (\bullet \stackrel{g_2^{-1} g_1}{\to} \bullet)
+  (g_1 \to g_2) \mapsto (\bullet \stackrel{g_2 g_1^{-1}}{\to} \bullet)
   \,.
 $$
 
