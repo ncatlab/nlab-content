@@ -166,3 +166,4 @@ Models for [[∞-stacks]]/[[(∞,1)-presheaves]] in [[higher geometry]] by local
 [[!redirects ∞-groupoid object]]
 [[!redirects internal Kan complex]]
 [[!redirects internal-infinity groupoids]]
+
