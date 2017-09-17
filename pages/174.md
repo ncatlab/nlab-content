@@ -162,6 +162,11 @@ More along these lines is in
 
 See also [[division algebras and supersymmetry]].
 
+
+## Related concepts
+
+* [[Chan-Paton bundle]]
+
 [[!redirects branes]]
 
 [[!redirects fundamental brane]]
