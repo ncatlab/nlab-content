@@ -50,6 +50,9 @@ The idea that the inflaton field in cosmology might be the [[Higgs field]] from 
 
 * [[big bang]], [[steady state model]]
 
+[[!include fields and quanta - table]]
+
+
 ## References
 
 ### Reviews
