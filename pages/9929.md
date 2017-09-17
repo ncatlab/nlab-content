@@ -178,6 +178,8 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 
 * [[chromatic homotopy theory]]
 
+[[!include chromatic tower examples - table]]
+
 ## References
 
 * [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
