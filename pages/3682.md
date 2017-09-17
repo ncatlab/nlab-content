@@ -103,7 +103,7 @@ and
     \,,
   $$
 
-* $(f^* \dashv f_)$ is a [[Quillen adjunction]] 
+* $(f^* \dashv f_*)$ is a [[Quillen adjunction]] 
   for the injective [[model structure on functors]]
 
   $$
