@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Just as for [[groups]] and their [[Hopf algebras]], there are _two_ ways to assign a Hopf algebroid over a commutative base to a [[groupoid]] $\mathcal{G}_\bullet$: 
 
 1. with **commutative but non-co-commutative total algebra**: Form the [[commutative algebra|commutative]] [[algebras of functions]] $C(\mathcal{G}_1)$ and $C(\mathcal{G}_0)$ and regard the operation induced by the partially defined [[composition]] in $\mathcal{G}_\bullet$ as an in general non-co-commutative [[coalgebra]] structure on $C(\mathcal{G}_1)$ over $C(\mathcal{G}_0)$;
@@ -9,7 +16,7 @@ However in both cases, the base algebra is commutative. For the general case ove
 
 Given an internal [[groupoid]] in the category $Aff_k$ of affine algebraic $k$-[[schemes]], where $k$ is a field, the $k$-algebras of [[global sections]] over the scheme of objects and the scheme of morphisms have an additional structure of a commutative Hopf algebroid. In fact this is an [[dual equivalence|antiequivalence of categories]]. Commutative Hopf algebroids are useful also in a version in [[brave new algebra]] (the work of John Rognes).
 
-### Higher groupoid convolution algebras and n-vector spaces/n-modules
+## Higher groupoid convolution algebras and n-vector spaces/n-modules
 
 > under construction
 
@@ -92,7 +99,7 @@ In summary this means that (for $G$ a finite group)
 
 =--
 
-### References
+## References
 
 The commutative version is classical, and there is an extensive literature. Some of the recent works on commutative case, related to homotopy theory and stacks are
 
@@ -111,3 +118,5 @@ The version in [[brave new algebra]]
 * A. Baker, A. Jeanneret, _Brave new Hopf algebroids and extensions of $M U$-algebras_, Homology Homotopy Appl. __4__:1 (2002), 163-173, [MR1937961](http://www.ams.org/mathscinet-getitem?mr=1937961), [euclid](http://projecteuclid.org/euclid.hha/1139840059)
 
 category: algebra
+
+[[!redirects Hopf algebroids over a commutative base]]
