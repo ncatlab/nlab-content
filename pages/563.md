@@ -1,3 +1,9 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+## Idea
+
 A **pseudofunctor** is a specific algebraic notion of _weak $2$-[[2-functor|functor]]_ between [[bicategory|bicategories]] (including [[strict 2-category|strict 2-categories]]), i.e. a functor which preserves composition and identities only up to coherent specified isomorphism.
 
 +--{: .query}
