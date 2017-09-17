@@ -41,7 +41,7 @@ We discuss that the [[sheaf toposes]] over locally connected sites are [[locally
 +-- {: .num_remark #ConstantPresheavesAreSheaves}
 ###### Remark
 
-If $C$ is locally connected, then every constant presheaf on $C$ is a [[sheaf]].  
+If $C$ is locally connected, then every [[constant presheaf]] on $C$ is a [[sheaf]].  
 
 =--
 
