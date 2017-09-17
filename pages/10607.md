@@ -210,6 +210,15 @@ $$
 
 characteristic of a [[cohesive topos]].
 
+### Formal completion $\dashv$ Torsion approximation
+ {#FormalCompletionAndTorsionApproximation}
+
+For $A$ a [[commutative ring]] and $\mathfrak{a}\subset A$ a suitable ideal, then $\mathfrak{a}$-[[adic completion]] and $\mathfrak{a}$-[[torsion approximation]] form an adjoint modality on $A MMod$ the [[stable (∞,1)-category|stable]] [[(∞,1)-category of modules]] $A Mod_\infty$ over $A$. 
+
+  ($\mathfrak{a}$-adic completion) $\dashv$ ($\mathfrak{a}$-torsion approximation)
+
+See at _[arithmetic fracturing for chain complexes](fracture%20theorem#CompletionAndTorsionOnDerivedCategories)_.
+
 ### Totally distributive categories
 
 For $\mathcal{K}$ a [[totally distributive category]]
@@ -227,7 +236,7 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 
 ### In terms of adjoint triples of (co-)reflections and localizations
 
-In terms of [[adjoint triples]] of [[reflective sub-category|(co-)reflections]] and [[localization of a category|localizations]] the concept appears in 
+In terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] and [[localization of a category|localizations]] the concept appears in 
 
 * [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
  {#Lawvere91}
