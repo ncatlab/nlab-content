@@ -126,9 +126,15 @@ A similar construction is possible for [[bounded geometric morphism|bounded]] to
 
 * [[Peter Johnstone]], [[Ieke Moerdijk]], _Local maps of toposes_  Proc. London Math. Soc.  (1989)   s3-58  (2):  281-305.  ([pdf](http://plms.oxfordjournals.org/content/s3-58/2/281.full.pdf+html))
 
-* Chapter C3.6 in the [[Elephant]]
 
+* [[Peter Johnstone]], _[[Elephant]]_ Chapter C3.6
 
+* [[Steven Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
+
+This is based on part 2 of
+
+* [[Lars Birkedal]], _Developing Theories of Types and
+Computability via Realizability_ PhD Thesis ([pdf](http://itu.dk/people/birkedal/papers/devttc.pdf))
 
 [[!redirects local geometric morphisms]]
 [[!redirects local topos]]
