@@ -82,9 +82,12 @@ There is a relationship: concrete objects generalise [[concrete sheaves]], which
 
 [[!redirects concrete structure]]
 [[!redirects concrete structures]]
-
 [[!redirects abstract structure]]
 [[!redirects abstract structures]]
+[[!redirects concrete or abstract structure]]
+[[!redirects concrete or abstract structures]]
+[[!redirects concrete and abstract structure]]
+[[!redirects concrete and abstract structures]]
 
 [[!redirects concrete group]]
 [[!redirects concrete groups]]
