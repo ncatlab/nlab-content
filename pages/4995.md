@@ -40,7 +40,7 @@ The existence of such a quadruple of adjoint $(\infty,1)$-functors alone implies
 
 Examples of cohesive $(\infty,1)$-toposes include
 
-* the $(\infty,1)$-topos $\mathbf{H} = $ [[ETop∞Grpd]] of [[Eulcidean-topological ∞-groupoids]];
+* the $(\infty,1)$-topos $\mathbf{H} = $ [[ETop∞Grpd]] of [[Euclidean-topological ∞-groupoids]];
 
 * the $(\infty,1)$-topos $\mathbf{H} = $ [[Smooth∞Grpd]] of [[smooth ∞-groupoids]] 
 
@@ -2364,6 +2364,8 @@ $$
 
 ### Infinitesimal cohesion, Lie theory and deformation theory {#LieTheory}
 
+We discuss [[infinitesimal object]]s in a cohesive $(\infty,1)$-topos -- $\infty$-groupoids equipped with _infinitesimal cohesion_ -- identify infinitesimal cohesive [[∞-group]]s with [[∞-Lie algebra]]s and identify the [[tangent Lie algebroid]] or [[de Rham space]] $\mathbf{\Pi}_{inf}(X)$  of any cohesive $\infty$-groupoid.
+
 +-- {: .un_def}
 ###### Definition
 
@@ -2372,7 +2374,7 @@ an **infinitesimal cohesive neighbourhood** of $\mathbf{H}$
 is another cohesive $(\infty,1)$-topos $\mathbf{H}^{th}$
 equipped with a
 [[strongly ∞-connected (∞,1)-topos|strongly ∞-connected]] 
-and [[local (∞,1)-topops|local]]
+and [[local (∞,1)-topos|local]]
 [[(∞,1)-geometric morphism]] 
 
 $$
@@ -2382,8 +2384,7 @@ $$
   \mathbf{H}^{th}
 $$
 
-such that $i_!$ is a
-[[full and faithful (∞,1)-functor|full and faithful]].
+such that $i_!$ is a [[full and faithful (∞,1)-functor]].
 
 =--
 
@@ -2418,6 +2419,8 @@ $$
   \,.
 $$
 
+Moreover $Disc_{inf}$ is necessarily a [[full and faithful (∞,1)-functor]].
+
 =--
 
 +-- {: .proof}
@@ -2445,6 +2448,14 @@ $$
 
 Analogously in the second case.
 
+To see that $Disc_{inf}$ is [[full and faithful (∞,1)-functor|full and faithful]],i observe that $Disc_{\mathbf{H}}$ and $Disc_{\mathbf{H}^{th}}$ are by cohesiveness. Since the [[global section]] [[(∞,1)-geometric morphism]] is essentially unique (see there) if follows that
+
+$$
+  Disc_{\mathbf{H}^{th}} \simeq Disc_{\mathbf{H}} Disc_{inf}
+  \,.
+$$
+
+Since full and faithful functors clearly satisfy 2-out-of-3, it follows that $Disc_{inf}$ is full and faithful.
 =--
 
 +-- {: .un_def}
@@ -2573,7 +2584,7 @@ and has as underlying [[discrete ∞-groupoid]] the point:
 
 * $\Pi X \simeq *$;
 
-* $\Gamma X \simew *$.
+* $\Gamma X \simeq *$.
 
 =--
 
@@ -2581,7 +2592,19 @@ and has as underlying [[discrete ∞-groupoid]] the point:
 ###### Proof
 
 The first follows with the [above proposition](#InfinitesimalNeighbourhoodIsOverInfGroupoid) 
-$\Pi \simeq \Pi_{\mathbf{H}}\circ \Pi_{inf}$ and the defining property $\Pi_{inf} X \simeq *$.
+saying that $Disc_{inf}$ is full and faithful. This implies that 
+with  $\mathbf{\Pi}_{inf} X \simeq *$ already $\Pi_{inf} X \simeq *$, hence 
+
+$$
+  \begin{aligned}
+    \mathbf{\Pi}(X) 
+     & \simeq
+      Disc_{\mathbf{H}^{th}}\Pi_{\mathbf{H}} \Pi_{inf}(X)
+    \\
+    & \simeq *
+  \end{aligned}
+  \,.
+$$
 
 The second property follows by 
 
@@ -3392,9 +3415,9 @@ The [[category theory|category-theoretic]] definition of [[cohesive topos]] was 
 
 The observation that the further left adjoint $\Pi$ in a [[locally ∞-connected (∞,1)-topos]] defines an intrinsic notion of paths and [[geometric homotopy groups in an (∞,1)-topos]] was suggested by [[Richard Williamson]].
 
-The observation that the further right adjoint $Codisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
+The observation that the further right adjoint $coDisc$ in a [[local (∞,1)-topos]] serves to characterize [[concrete sheaf|concrete (∞,1)-sheaves]] was amplified by [[David Carchedi]].
 
-Essentially the [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is discussed in section 3 of 
+The [infinitesimal path ∞-groupoid adjunction](#LieTheory) $(\mathbf{Red} \dashv \mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})$ is essentially discussed in section 3 of 
 
 * [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
 {#SimpsonTeleman}
