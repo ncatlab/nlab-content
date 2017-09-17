@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ##Idea 
 
-The notion of _twisting functions_ is an explicit [[simplicial set|simplicial]] formula for a [[cocycle]] with values in a [[simplicial group]]. The _twisted propduct_ induced from the twisting function is an explicit simplicial formula for the [[principal ∞-bundle]] classified by this cocycle.
+The notion of _twisting functions_ is an explicit [[simplicial set|simplicial]] formula for a [[cocycle]] with values in a [[simplicial group]]. The _twisted propduct_ induced from the twisting function is an explicit simplicial formula for a [[simplicial principal bundle]], a model for a [[discrete ∞-groupoid|discrete]] [[principal ∞-bundle]] classified by this cocycle.
 
 In a fibre [[bundle]] or more generally in a fibration, the fibre 'twists' as one goes around a loop in the base space, (the standard simple example is the [[Möbius band]]). Such fibre bundles are usually restricted to being 'locally trivial', that is locally a product of an open set in the base with the fibre.
 
@@ -42,7 +53,7 @@ Thus the only difference from the usual Cartesian product of simplicial sets is 
 
 ## Properties
 
-* A twisting function $\phi :X_\bullet\to G_\bullet$ corresponds exactly to a simplicial map from $X$ to $\overline{W}(G_\bullet)$ [delooping of the simplicial group](http://ncatlab.org/nlab/show/simplicial+group#Delooping).  There is a universal twisting function $\overline{W}(G_\bullet)_\bullet\to G_\bullet$.  
+* A twisting function $\phi :X_\bullet\to G_\bullet$ corresponds exactly to a simplicial map from $X$ to $\overline{W}(G_\bullet)$ [delooping of the simplicial group](http://ncatlab.org/nlab/show/simplicial+group#Delooping).  There is a universal twisting function $\overline{W}(G_\bullet)_\bullet\to G_\bullet$.  See [[simplicial principal bundle]] for more.
 
 * By the adjunction between $W$-bar and the [[Dwyer-Kan loop groupoid]] functor, a twisting function also corresponds to a morphism of simplicial groupoids $G(X_\bullet)\to G_\bullet$.
 
