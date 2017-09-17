@@ -5,7 +5,7 @@
 
 ## Overview
 
-A **code loop** a certain sort of [[Moufang loop]] constructed as a central extension of certain vector spaces over the [[finite field]] $\mathbb{F}_2$. In particular, such vector spaces are taken to be doubly even binary codes.
+A **code loop** is a certain sort of [[Moufang loop]] constructed as a central extension of certain vector spaces over the [[finite field]] $\mathbb{F}_2$. In particular, such vector spaces are taken to be doubly even [[binary code]]s.
 
 A general result about the existence of code loops is as follows.
 
@@ -13,6 +13,8 @@ A general result about the existence of code loops is as follows.
 ###### Theorem ([Griess](#Griess))
 Every doubly even binary code has a unique extension by a code loop.
 =--
+
+This can be seen as a result about the cohomology used to define code loops, namely that it is isomorphic to $\mathbb{Z}/2$ (one always has the trivial extension, which is just a group).
 
 Code loops were originally defined independently by Robert Griess and Richard Parker. A modern description is in ([Hsu](#Hsu)).
 
