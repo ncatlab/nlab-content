@@ -33,11 +33,18 @@ $$
   \begin{aligned}
     \eta(s) 
      & \coloneqq
-    \underoverset{n = -\infty}{^\infty }{\sum} sgn(\lambda_n) \frac{1}{(\lambda_n)^s}
+    \underoverset{n = -\infty}{^\infty }{\sum} sgn(\lambda_n) \frac{1}{ {\vert \lambda_n\vert}^s}
   \end{aligned}
 $$
 
 expression wherever this [[convergence|converges]], and extended by [[analytic continuation]] from there.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+At the [[special values of L-functions|special value]] $s = 1$ the series in def. \ref{SeriesDefinition} does not converge, but if $D$ is indeed a [[Dirac operator]] then it is the expression of the [[Dirac propagator]]. Indeed the definition of $\eta$ by [[analytic continuation]] at $s = 1$ is the [[zeta regularization]] of the [[Dirac propagator]].
 
 =--
 
@@ -62,7 +69,7 @@ The _eta invariant_ of $D$ is the [[special values of L-functions|special value]
 ###### Remark
 
 Def. \ref{EtaInvariant} means that $\eta_0$ is the
-[[zeta function regularization|regularized]] number of poistive minus negative eigenvalues of $D$.
+[[zeta function regularization|regularized]] number of positive minus negative eigenvalues of $D$.
 
 =--
 
