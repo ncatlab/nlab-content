@@ -9,10 +9,30 @@
 =--
 =--
 
+* **object**
 
-A [[category]] consists of a collection of **objects** together with [[morphisms]] between these objects.  Thus, naively, we may think of objects as the '[[elements]]' of a category.  
+* [[morphism]]
 
-For example
+* [[2-morphism]]
+
+* [[3-morphism]]
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[category]] consists of a collection of **objects** together with [[morphisms]] between these objects.  Thus, naively, we may think of objects 
+as the '[[elements]]' of a category.  
+
+More generally, in [[higher category theory]] the objects of an [[(n,r)-category]] are the 0-dimensional cells of that structure.
+
+
+## Examples
+
 
 * if a [[set]] is regarded as a [[discrete category]] (with no nontrivial morphisms) then the objects of that category are precisely the elements of the set:
 
