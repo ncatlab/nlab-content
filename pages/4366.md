@@ -1,5 +1,5 @@
 
-* [website](http://www.math.uchicago.edu/~fiore/)
+* [website](http://www-personal.umd.umich.edu/~tmfiore/)
 
 category: people
 
