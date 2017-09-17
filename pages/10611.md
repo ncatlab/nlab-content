@@ -6,9 +6,9 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
-#### Category theory
+#### Modalities, Closure and Reflection
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include modalities - contents]]
 =--
 =--
 =--
@@ -63,6 +63,8 @@ This has  a refinement to [[homotopy type theory]], where the [[categorical sema
 * [[n-truncation modality]]
 
 * [[unit type]] modality, [[empty type]] co-modality
+
+* [[!-modality]]
 
 * [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
 
