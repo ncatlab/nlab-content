@@ -56,7 +56,7 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 ###### Definition
 
 A _generalized [[filtered object]]_ in $\mathcal{C}$ is
-simply a sequential diagram $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
+simply a [[sequential diagram]] $X \colon (\mathbb{Z}, \lt) \to \mathcal{C}$
 
 $$
   \cdots
@@ -152,7 +152,7 @@ $$
 The induced [[(∞,1)-functor]]
 
 $$
-  Func((\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq),\mathcal{C})
+  Func(\{\infty\}\cup\mathbb{Z}, \leq) \times (\{\infty\}\cup\mathbb{Z}, \leq)
   \longrightarrow
   Func((\mathbb{Z}, \leq), \mathcal{C})
 $$
