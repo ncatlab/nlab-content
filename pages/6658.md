@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Topos Theory
+#### Descent and locality
 +-- {: .hide}
-[[!include topos theory - contents]]
-=--
-#### Category Theory
-+-- {: .hide}
-[[!include category theory - contents]]
+[[!include descent and locality - contents]]
 =--
 =--
 =--
@@ -19,7 +15,7 @@
 
 ## Definition
 
-Let $C$ be a [[category]] with [[pullbacks]].  For any morphism $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The category of [[descent data]] for $p$ is the category $C^{ker(p)}$ of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
+Let $C$ be a [[category]] with [[pullbacks]].  For any [[morphism]] $p\colon A\to B$, we have an [[internal category]] $ker(p)$ defined by $A\times_B A \rightrightarrows A$ (the [[kernel pair]] of $p$).  The category of [[descent data]] for $p$ is the category $C^{ker(p)}$ (the "[[descent object]]") of internal diagrams on this internal category.  Explicitly, an object of $C^{ker(p)}$ is a morphism $C\to A$ together with an action $A\times_B C \to C$ satisfying suitable axioms.
 
 The evident internal functor $ker(p) \to B$ (viewing $B$ as a [[discrete category|discrete]] internal category) induces a *comparison functor* $C^B \to C^{ker(p)}$.  We say that $p$ is:
 
