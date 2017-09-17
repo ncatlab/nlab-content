@@ -45,6 +45,6 @@ If $\Sigma$ is contractible in $X$, hence if there is a $\hat \Sigma \hookrighta
 * [[electric charge]], [[magnetic charge]]
 
 * **flux**
-
+* [[flux compactification]]
 [[!redirects magnetic flux]]
 [[!redirects electric flux]]
