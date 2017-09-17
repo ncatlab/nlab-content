@@ -24,7 +24,13 @@ In this situation, $r$ is a [[split epimorphism]] and $i$ is a [[split monomorph
 
 ## Properties
 
-Retracts are clearly preserved by any functor. A split epimorphism $r; B \to A$ is the strongest of various notions of epimorphism (e.g., it is a regular epimorphism, in fact an absolute coequalizer, being the coequalizer of a pair $(e, 1_B)$ where $e = i \circ r: B \to B$ is idempotent). Dually, a split monomorphism is the strongest of various notions of monomorphism. 
+* Retracts are clearly preserved by any functor. 
+
+
+* A [[split epimorphism]] $r; B \to A$ is the strongest of various notions of [[epimorphism]] (e.g., it is a [[regular epimorphism]], in fact an [[abolute limit|absolute]] [[coequalizer]], being the coequalizer of a pair $(e, 1_B)$ where $e = i \circ r: B \to B$ is idempotent). Dually, a [[split monomorphism]] is the strongest of various notions of monomorphism. 
+
++-- {: .num_prop}
+###### Proposition
 
 If an object $B$ has the [[left lifting property]] against a morphism $X \to Y$, then so does every of its retracts $A \to B$:
 
@@ -52,6 +58,34 @@ $$
   \right)
 $$
 
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $C$ be a [[category]] with [[split idempotent]]s and write $PSh(C) = [C^{op}, Set]$ for its [[presheaf category]]. Then a retract of a [[representable functor]] $F = PSh(C)$ is itself representable.
+
+=--
+
+This appears as ([Borceux, lemma 6.5.6](#Borceux))
+
+
++-- {: .num_prop #RetractsOfLimits}
+###### Proposition
+
+Let $C$ and $J$ be categories. Let $F : J \to C$ be a [[diagram]] with [[limit]] ${\lim_\leftarrow}_j F_j$, regarded as a diagram 
+$\lim_\leftarrow F : J^{\triangleleft} \to C$. Then if $G : J^{\triangleleft} \to C$ is another such cone diagram and $G \stackrel{i}{\to} F \stackrel{p}{\to} G$ is a retraction, then also $G$ is a limiting diagram 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We check the [[universal property]] of the limit: let $const Q \to G$ be any other [[cone]] over $G$. Then $const Q \to G \stackrel{i}{\to} F$ is a cone over $F$. So there is a unique morphism $const Q \to \lim_\leftarrow F$ and hence a cone morphism $const Q \to \lim_\leftarrow F \to G(*)$. Similarly one sees that this is unique, by the fact that $i$ is a monomorphism.
+
+=--
+
+
 ## Examples
 
 ### Of simplices
@@ -65,6 +99,16 @@ $$\array{X & \to & Z & \to & X\\
   f \downarrow  & & g \downarrow & & \downarrow f\\
   Y & \to & W & \to & Y}$$
 such that the top and bottom rows compose to identities.
+
+## References
+
+In 
+
+* [[Francis Borceux]], _Handbook of categorical algebra I_
+ {#Borceux}
+
+the definition appears as def. 1.7.3. Properties are discussed in section 6.5
+
 
 [[!redirects retracts]]
 
