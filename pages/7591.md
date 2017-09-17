@@ -59,7 +59,7 @@ $$
 
 There is slight refinement of the above definition, which essentially adds one 0-th "grading" homotopy group to $B gl_1(E)$ and thereby makes the $\infty$-group of units of [[E-∞ rings]] be canonically [[augmented ∞-group|augmented]] over the [[sphere spectrum]] ([Sagave 11](#Sagave11)).
 
-+-- {: .num_defn}
++-- {: .num_defn #AugmentedGroupOfUnits}
 ###### Definition
 
 There is a functor
@@ -73,7 +73,7 @@ given by ...
 
 =--
 
-([Sagave 11, def. 3.4](#Sagave11))
+([Sagave 11, def. 3.14](#Sagave11))
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -89,19 +89,8 @@ where on the left we have the ordinary $\infty$-group of units of def. \ref{Plai
 
 =--
 
-Here the existence of the map $gl_1(E) \to gl_1^J(E)$ is ([Sagave 11, lemma 2.12 + lemma 3.16 ](Sagave11)). The fact that the resulting sequence is a homotopy fiber sequence is ([Sagave 11, prop. 4.1](#Sagave11)).
+Here the existence of the map $gl_1(E) \to gl_1^J(E)$ is ([Sagave 11, lemma 2.12 + lemma 3.16 ](#Sagave11)). The fact that the resulting sequence is a homotopy fiber sequence is ([Sagave 11, prop. 4.1](#Sagave11)).
 
-+-- {: .num_remark}
-###### Remark
-
-In particular this means that also the ordinary $\infty$-group of units is canonically augmented/greaded over the [[sphere spectrum]]:
-
-$$
-  gl_1(E) \to \mathbb{S}
-  \,.
-$$
-
-=--
 
 Using this, there is now a modified delooping of the ordinary $\infty$-group of units:
 
@@ -135,6 +124,8 @@ See also at _[twisted cohomology -- by R-module bundles](twisted+cohomology#InfS
  {#Properties}
 
 ### Adjointness to $\infty$-group $\infty$-ring
+
+####  Unaugmented case
 
 +-- {: .num_defn #GroupOfUnitsFunctor} 
 ###### Definition
@@ -186,6 +177,10 @@ which is indeed [[right adjoint]] to forming the ordinary [[group of units]] of 
 We might call $\mathbb{S}[A]$ the *$\infty$-group $\infty$-ring of $A$ over the [[sphere spectrum]].
 
 =--
+
+####  Augmented case
+
+Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOfUnits} has a homotopy right adjoint. ([Sagave 11, theorem 1.8](#Sagave11)).
 
 ## Examples
 
