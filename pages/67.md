@@ -1,4 +1,6 @@
-Eugene Lerman kindly provided the following information on Hofer's theory of _polyfolds_, apparently a certain kind of [[generalized smooth space]]s.
+ kindly provided the following information on Hofer's theory of _polyfolds_ is apparently a certain kind of [[generalized smooth space]]s. The bulk of a theory developed by Hofer generalized approach to Fredholm operator analysis of geometrical origin, which gives a unified framework for [[symplectic field theory]], [[Floer homology]], some constructions in contact geometry etc. It has been developed by Helmut Hofer. 
+
+## References
 
 #Reviews#
 
@@ -9,21 +11,13 @@ Eugene Lerman kindly provided the following information on Hofer's theory of _po
 
 #Articles by Hofer and his collaborators in the arxiv#
 
-* Helmut Hofer, Kris Wysocki, Eduard Zehnder,  _A General Fredholm Theory III: Fredholm Functors and Polyfolds_, [arXiv](http://arxiv.org/abs/0810.0736).
+* Helmut Hofer, _Polyfolds and a general Fredholm theory_, [arXiv/0809.3753](http://arxiv.org/abs/0809.3753).
 
-* Helmut Hofer, _Polyfolds And A General Fredholm Theory_, [arXiv](http://arxiv.org/abs/0809.3753).
+* Helmut Hofer, Kris Wysocki, Eduard Zehnder, _Integration theory for zero sets of polyfold Fredholm sections_, [arXiv/0711.0781](http://arxiv.org/abs/0711.0781). 
 
-* Helmut Hofer, Kris Wysocki, Eduard Zehnder, 
- _Integration Theory for Zero Sets of Polyfold Fredholm Sections_, [arXiv](http://arxiv.org/abs/0711.0781). 
+* Helmut Hofer, Kris Wysocki, Eduard Zehnder, _A general Fredholm theory I: A splicing-based differential geometry_, [arXiv/0612604](http://arxiv.org/abs/math/0612604); _A general Fredholm theory II: implicit function theorems_, [arXiv/0705.1310](http://arxiv.org/abs/0705.1310); _A general Fredholm theory III: Fredholm functors and polyfolds_, [arXiv](http://arxiv.org/abs/0810.0736).
 
-* Helmut Hofer, Kris Wysocki, Eduard Zehnder,
-_A General Fredholm Theory II: Implicit Function Theorems_,
-[arXiv](http://arxiv.org/abs/0705.1310).
+* Helmut H. Hofer,  _A general Fredholm theory and applications_, [arXiv/math/0509366](http://arxiv.org/abs/math/0509366).
 
-
-* Helmut Hofer, Kris Wysocki, Eduard Zehnder, _A General Fredholm Theory I: A Splicing-Based Differential Geometry_, [arXiv](http://arxiv.org/abs/math/0612604).
-
-* Helmut H. Hofer,  _A General Fredholm Theory and Applications_, [arXiv](http://arxiv.org/abs/math/0509366).
-
-
+We thank Eugene Lerman pof some of the information here. 
 [[!redirects polyfolds]]
