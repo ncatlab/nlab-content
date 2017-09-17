@@ -1,4 +1,4 @@
-__Prime spectrum__ of a ring (associative, but not necessarily commutative or unital) is the set of [[prime ideal]]s of the ring. For noncommutative rings however sometimes spectra of [[primitive ideal]]s are more interesting. 
+The __prime spectrum__ of a ring (associative, but not necessarily commutative or unital) is the set of [[prime ideal]]s of the ring. For noncommutative rings however sometimes spectra of [[primitive ideal]]s are more interesting. 
 
 Prime spectrum of a commutative unital ring extends canonically to a contravariant functor $Spec : CRing\to Set$. 
 
