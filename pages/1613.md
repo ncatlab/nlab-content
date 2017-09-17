@@ -47,3 +47,5 @@ and a discussion of the converse, that every rarional 2-d CT is obtained this wa
 * [FFRS on uniqueness of conformal field theory](http://golem.ph.utexas.edu/category/2007/01/ffrs_on_uniqueness_of_conforma.html)
 
 [[!redirects Fuchs-Runkel-Schweigert construction]]
+
+[[!redirects FRS formalism]]
