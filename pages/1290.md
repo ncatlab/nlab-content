@@ -12,6 +12,10 @@ The classes of topologizing subcategories, [[reflective subcategory|reflective]]
 
 The terminology topologizing subcategory is (probably) coming from the related notion of a [[topologizing filter]] from the localization theory of rings. 
 
+#### Literature
+
+Realted entries include [[defining ideal of a topologizing subcategory]], [[neighborhood of a topologizing subcategory]], [[Gabriel multiplication]], [[thick subcategory]], [[Serre subcategory]], [[local abelian category]], [[differential monad]], [[localization of an abelian category]]
+
 * A. L.  Rosenberg, _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9
 
 * V. A. Lunts, A. L. Rosenberg, _Differential calculus in noncommutative algebraic geometry I. D-calculus on noncommutative rings_, MPI 1996-53 [pdf](http://www.mpim-bonn.mpg.de/preblob/3894)
