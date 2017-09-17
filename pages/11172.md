@@ -6,10 +6,6 @@
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
-#### Mathematics
-+-- {: .hide}
-[[!include mathematicscontents]]
-=--
 =--
 =--
 
