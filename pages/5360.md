@@ -36,8 +36,14 @@ fixing the point $a$ and acting as $-1$ on the tangent space of $a$.  This opera
 
 More precisely, a **symmetric pair** is a pair $(G,H)$ where $G$ is a [[Lie group]] and the subgroup $H$ is the set of fixed points of some [[involution]] $\sigma : G \to G$.  Different pairs $(G,H)$, $(G',H')$ can give what is normally considered the same symmetric space $G/H \cong G'/H'$.   In other words, not every morphism of symmetric spaces arises from a morphism of symmetric pairs.
 
-To avoid this problem, we may define a symmetric space more intrinsically to be an involutory [[quandle]] object $Q$ in the category of smooth manifolds, with the property that each point $a \in Q$ is an _isolated_ fixed point of the map $a \triangleright - : Q \to Q$.  
+To avoid this problem, symmetric space is (equivalent to) a smooth manifold $M$ with multiplication $\cdot : M\times M\to M$ which is a smooth map such that for all $x,y,z\in M$ 
 
+1. $x \cdot x = x$
+2. $x \cdot (x\cdot y) = y$
+3. $x\cdot (y \cdot z) = (x \cdot y)\cdot (x \cdot z)$
+4. for every $x$ there is a neighborhood $U\subset M$ such that $x\cdot y = y$ implies $x = y$ for all $z\in U$.
+
+This amounts to an involutory [[quandle]] object $Q$ in the category of smooth manifolds, with the property that each point $a \in Q$ is an _isolated_ fixed point of the map $a \triangleright - : Q \to Q$. 
 
 ## References
 
@@ -45,14 +51,9 @@ The definition in terms of quandles coincides with the classical definition in t
 
 * Wolgang Bertram, _The Geometry of Jordan and Lie Structures_, Lecture Notes in Mathematics **1754**, Springer, Berlin, 2000.
 
-The relation to quandles is given in Theorem I.4.3.  Bertram attributes this result to:
+The relation to quandles is given in Theorem I.4.3.  Bertram attributes this result to part I, chapter II of
 
-* Ottmar Loos, _Symmetric Spaces I_, Chapter II, Benjamin, New York, 1969.
-
-See also 
-
-* Ottmar Loos, _Symmetric Spaces II_, Benjamin, New York, 1969.
-
+* Ottmar Loos, _Symmetric Spaces I, II_, Chapter II, Benjamin, New York, 1969.
 
 [[!redirects symmetric space]]
 [[!redirects symmetric spaces]]
