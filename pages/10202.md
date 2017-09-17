@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Type theory
+#### Constructivism, Realizability, Computability
 +-- {: .hide}
-[[!include type theory - contents]]
+[[!include constructivism - contents]]
 =--
 #### Deduction and induction
 +-- {: .hide}
