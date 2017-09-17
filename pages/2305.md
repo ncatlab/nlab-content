@@ -64,7 +64,7 @@ For [[analytic space]]s
 
 * [[absolute de Rham cohomology]]
 
-* [[Dolbeault complex]]
+* [[Dolbeault complex]], [[Dolbeault cohomology]]
 
 * [[Hodge-de Rham spectral sequence]]
 
