@@ -51,14 +51,9 @@ where $\Lambda_q$ is (the underlying set of) the [[Grassmann algebra]] on $q$ ge
 
 Write $sCartSp$ for the [[internal site]] in $SuperSet \hookrightarrow$ [[Super∞Grpd]] whose
 
-* [[object]]s are the [[product]]s $\mathbb{R}^{}$s for $n \in \mathbb{N}$;
+* [[objects]] are the [[super Cartesian spaces]] $\mathbb{R}^{p|q}$;
 
-* [[morphism]]s are those morphisms of supersets that are smooth with respect to the canonical [[supermanifold]] structure on $\mathbb{R}^n$ (see the section [As manifolds over the base topos on superpoints](#http://nlab.mathforge.org/nlab/show/supermanifold#OverSuperpoints))
-].
-
-* [[coverage]] is given by the internal [[good open cover]]s.
-
-(...)
+* [[morphisms]] are those morphisms of supersets that are smooth with respect to the canonical [[supermanifold]] structure 
 
 =--
 
@@ -182,7 +177,7 @@ The [[Lie integration]] of $\mathfrak{g}$ is ...
 
 For general references see the references at _[[super ∞-groupoid]]_ .
 
-A discussion of smooth super $\infty$-groupoids is in section 3.5 of
+A discussion of smooth super $\infty$-groupoids is in section 4.5 of
 
 * [[Urs Schreiber]], [[schreiber:differential cohomology in a cohesive topos]].
 
