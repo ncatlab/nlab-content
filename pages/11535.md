@@ -24,6 +24,7 @@ It is not hard to see that if $\mathcal{F}$ is flasque, then the maps $\left.\ma
 **Theorem (Flasque):** _When the sheaf $\mathcal{F}$ is flasque, the diagram $(1)$ commutes, i.e., any flasque sheaf $\mathcal{F}$ is a $\mathcal{C}$-module for any flasque sheaf $\mathcal{C}$._
 
 Denote by $\mathcal{G}$ a sheaf of $\mathcal{C}$-modules. $\mathcal{G}$ is locally free if there exists a set $I$ and a subtopos $\mathbf{T}$ such that $\left.\mathcal{G}\right|_{\mathbf{T}}$ is isomorphic to $\bigoplus_{i\in I}\left.\mathcal{C}\right|_{\mathbf{T}}$.
+
 **Definition:** A smooth bundle on $(\mathbf{H},\mathcal{C})$ with fiber $x^{*}\mathbf{H}$ is a smooth $\mathcal{C}^\prime$-topos $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ such that there are morphisms $f:\mathbf{H}^\prime\to\mathbf{H}$ _and_ $f^\prime:\mathcal{C}^\prime\to\mathcal{C}$, where $x$ is a generalized element of $\mathbf{H}$, and $x^{*}\mathbf{H}$ is the pullback.
 
 **Definition:** A section of a smooth bundle $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ over $(\mathbf{H},\mathcal{C})$ is a right inverse of $f$ such that $\mathbf{H}\to\mathbf{H}^\prime\to\mathbf{H}$ and $\mathcal{C}\to\mathcal{C}^\prime\to\mathcal{C}$ are the identity on $\mathbf{H}$ and $\mathcal{C}$.
