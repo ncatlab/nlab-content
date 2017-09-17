@@ -117,6 +117,11 @@ We can also restrict attention to sequents with one term on either side as follo
 We can even restrict attention to sequents with no term on the left side and one term on the right; $A \vdash B$ is valid if and only if $\vdash A \multimap B$ is valid, where $A \multimap B \coloneqq A^\perp \parr B$.  In this way, it\'s possible to ignore sequents entirely and speak only of propositions and valid propositions, eliminating half of the logical rules in the process.  However, this approach is not as beautifully symmetric as the full sequent calculus.
 
 
+## Fragments
+
+The logic described above is full classical linear logic.  There are many important fragments of linear logic, such as multiplicative linear logic, intuitionistic linear logic (in which $\multimap$ is a primitive operation), etc.
+
+
 ## Categorial formulation
 
 Probably the best way to explain linear logic to a category theorist
