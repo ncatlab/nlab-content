@@ -1,11 +1,10 @@
-# Frequently Asked Questions #
-
+# Frequently Asked Questions
 * tic
 {:toc}
 
 Also including questions that should be frequently asked but aren't.  See also [[HowTo]].
 
-## Instiki features and "features" ##
+## Instiki features and "features"
 
 ### How do I put math inside HTML?
 
@@ -135,7 +134,7 @@ Some users have personal areas of the _n_-Lab where they can have password prote
 
 ### I got "Access denied" when editing a page.
 
-The _n_-Lab has a spam filter that checks your IP against a blacklist.  The blacklists used are maintained by [spamcop.net](http://www.spamcop.net/) and [spamhaus.org](http://www.spamhaus.org/).  IPs are added to these lists if they are detected doing things usually associated with computers infected with viruses.  There are instructions on the webpages for finding out if your IP has been added to these lists and what to do to remove your IP from them.  Three things to point our are:
+The _n_-Lab has a spam filter that checks your IP against a blacklist.  The blacklists used are maintained by [spamcop.net](http://www.spamcop.net/) and [spamhaus.org](http://www.spamhaus.org/).  IPs are added to these lists if they are detected doing things usually associated with computers infected with viruses.  There are instructions on the webpages for finding out if your IP has been added to these lists and what to do to remove your IP from them.  Three things to point out are:
 
 1. The _n_-Lab cannot remove your IP from the list, you have to do that yourself.
 2. The _n_-Lab is not going to remove its spam protection.
@@ -146,5 +145,6 @@ The _n_-Lab has a spam filter that checks your IP against a blacklist.  The blac
 Sometimes something doesn't work quite right with the software and it bails out.  If you think that you were doing something that should work, please log the error message at the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  The more information that you log, the easier it is for us to debug.  Useful information is: your IP, the time and date, and the URL that you were trying to access.
 
 There is actually more information contained in the HTML source of the error message ("view source"): some errors can be down to malformed input when editing a page and that can help you fix it yourself.
+
 
 category:meta
