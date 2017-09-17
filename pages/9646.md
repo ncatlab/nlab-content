@@ -1,4 +1,19 @@
-### Outline
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Outline
 
 Scattering is a physical process in which some matter or wave which has stable, say linear trajectory (or wave distribution) in distant past, comes into the area where it interacts with some localized perturbation (or other such waves), which results in different stable state (or distribution of states) in far future.  Examples include light scattering, scattering of matter beams, scatterring of solitons and multisolitons (which preserve their identity after a long while), 
 and scattering in quantum mechanics, including variants like QFT and superstring theory. The condition that the perturbation (interaction) is localized is someties relaxed (for example, in the case of the scattering for Schroedinger operator corresponding to the Coulomb potential, the waves are substantially perturbed even
@@ -14,12 +29,29 @@ when we try to do this literally, calculating the interaction potential from the
 some cases lead to the integrability at classical or at quantized level. Thus
 we have the [[classical inverse scattering method|classical]] and the [[quantum inverse scattering method]] within the subject of [[integrable systems]].
 
-### References
+## Related concepts
+
+* [[scattering amplitude]]
+
+* [[S-matrix]], [[n-point function]], [[correlator]]
+
+* [[Feynman diagram]]
+
+* [[perturbation theory]]
+
+* [[abstract scattering theory]]
+
+
+## References
 
 * wikipedia: [scattering](http://en.wikipedia.org/wiki/Scattering), [scattering theory](http://en.wikipedia.org/wiki/Scattering_theory), [inverse scattering](http://en.wikipedia.org/wiki/Inverse_scattering), [Raman scattering](http://en.wikipedia.org/wiki/Raman_scattering), [Rayleigh scattering](http://en.wikipedia.org/wiki/Rayleigh_scattering),
 
-Related entres: [[abstract scattering theory]], [[scattering amplitude]], [[S-matrix]]
 
 category: physics
 
 [[!redirects scattering theory]]
+
+[[!redirects scattering process]]
+[[!redirects scattering processes]]
+
+
