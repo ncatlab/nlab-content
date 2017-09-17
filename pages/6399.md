@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Green_%28physicist%29)
+
+## related entries
+
+* [[string theory]]
+
+* [[superstring]]
+
+* [[Green-Schwarz mechanism]]
