@@ -302,19 +302,19 @@ where the morphism on the left (which is the identity when restricted to $\mathf
 +-- {: .un_prop #BareFibration}
 ###### Proposition
 
-The image under [[Lie integration]] of this factorization
+The image under [[Lie integration]] of the above factorization is
 
 $$
   \exp(\mu) 
   :
    \mathbf{cosk}_3\exp(\mathfrak{g})
    \to 
-   \mathbf{cosk}_3\exp(b \mathbb{R} \to \mathfrak{g})
+   \mathbf{cosk}_3\exp(b \mathbb{R} \to \mathfrak{g}_\mu)
    \to 
    \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_c
 $$
 
-is a weak equivalence in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj}$, followed by a fibration. 
+where the first morphism is a weak equivalence followed by a fibration in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj}$.
 
 =--
 
@@ -324,7 +324,7 @@ is a weak equivalence in the [[model structure on simplicial presheaves]] $[Cart
 
 
 To see that the left morphism is objectwise a [[weak homotopy equivalence]], notice that 
-a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them simply picks the pairs for which $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
+a $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants perpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the same as those of $\exp(\mathfrak{g})(U)$. The morphism between them is the identity in $f$ and picks $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
 
 We turn now to discussing that the second morphism is a fibration. The nontrivial degrees of the lifting problem
 
@@ -342,12 +342,12 @@ $$
 are $k = 3$ and $k = 4$.
 
 Notice that a $3$-cell of $\mathbf{B}^3 \mathbb{R}/ \mathbb{Z}_c(U)$ is a [[smooth function]] $c : U \to \mathbb{R}/\mathbb{Z}$ and 
-that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \exp(b^2 \mathbb{R})$ sends the pair $(f,B)$ to the [[integral]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle - d B)$. 
+that the morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \exp(b^2 \mathbb{R})$ sends the pair $(f,B)$ to the [[fiber integration]] $\int_{\Delta^3}(f^* \langle \theta \wedge [\theta \wedge \theta]\rangle - d B)$. 
 
 Given our lifting problem in degree 3,
-we have given a function $c : U \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) o$U \times \Lambda^k_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^k_i$.
+we have given a function $c : U \to \mathbb{R}/\mathbb{Z}$ and a smooth function (with sitting instants at the subfaces) $U \times \Lambda^k_i \to Spin$ together with a 2-form $B$ on the [[horn]] $U \times \Lambda^k_i$.
 
-By pullback along the retract $\Delta^3 \to \Lambda^3_i$ which is non-smooth only where $f$ has sitting instants,  we can always extend $f$ to a smooth function $f' : U \times \Delta^3 \to Spin$ with the property that $\int_{\Delta^r} (f')^* \langle \theta \wedge [\theta \wedge \theta]\rangle = 0$. (Following the general discussion at [[Lie integration]].)
+By pullback along the standard [[continuous function|continuous]] [[retract]] $\Delta^3 \to \Lambda^3_i$ which is non-smooth only where $f$ has sitting instants,  we can always extend $f$ to a smooth function $f' : U \times \Delta^3 \to Spin$ with the property that $\int_{\Delta^3} (f')^* \langle \theta \wedge [\theta \wedge \theta]\rangle = 0$. (Following the general discussion at [[Lie integration]].)
 
 In order to find a horn filler for the 2-form component, consider any smooth 2-form with sitting instants and non-vanishing integeral on $\Delta^2$. By multiplying it with a suitable smooth function on $U$ we can obtain an extension $\tilde B \in \Omega^3_{si,vert}(U \times \partial \Delta^3)$ of $B$ to all of $U \times \partial \Delta^3$ with the property that its integral over $\partial \Delta^3$ is the given $c$.
 
@@ -358,10 +358,9 @@ $$
 $$
 
 equals $B$ when restricted to $\Lambda^k_i$ and has the property that its integral over $\Delta^3$ equals $c$.
-
 Together with our extension $f'$, this constitutes a pair that solves the lifting problem.
 
-The extension problem in degree 4 amounts to a similar construction: by coskeletaness the condition is that for a given $c : U \to \mathbb{R}/\mathbb{Z}$ and a given vertical 2-form on $U \times \partial \Delta^3$ such that its integral equals $c$, as well as a function $f : U \times \partial \Delta^3 \to Spin$, we can extend the 2-form and the function to the interior. The latter follows from the fact that $\pi_2 Spin = 0$ which guarantees a continues filler (with sitting instants), and using the [[Steenrod-Wockel approximation theorem]] to make this smooth. We are left with he problem of extending the 2-form, which is the same problem we discussed above after the choice of $\tilde B$.
+The extension problem in degree 4 amounts to a similar construction: by coskeletaness the condition is that for a given $c : U \to \mathbb{R}/\mathbb{Z}$ and a given vertical 2-form on $U \times \partial \Delta^3$ such that its integral equals $c$, as well as a function $f : U \times \partial \Delta^3 \to Spin$, we can extend the 2-form and the functionalong $U \times \partial \Delta^3 \to U \timdes \Delta^3$. The latter follows from the fact that $\pi_2 Spin = 0$ which guarantees a continuous filler (with sitting instants), and using the [[Steenrod-Wockel approximation theorem]] to make this smooth. We are left with the problem of extending the 2-form, which is the same problem we discussed above after the choice of $\tilde B$.
 
 =--
 
@@ -370,7 +369,7 @@ We now proceed to extend this factorization to the <a href="">exponentiated diff
 +-- {: .un_prop }
 ###### Observation
 
-The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfak{g})$ is given on extra shifted generators $\{r^a, ,c, l\}$ by
+The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfrak{g})$ is given on extra shifted generators $\{r^a, ,c, l\}$ by
 
 * $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
 
@@ -450,20 +449,28 @@ of $\exp(\mu,cs)$ in $[CartSp^{op}, sSet]_{proj}$, where the first morphism is a
 +-- {: .proof}
 ###### Proof
 
-We check that the second morphism is a fibration. The only nontrivial [[horn]]-filling condition is in degree 3 and 4.
+We check that the second morphism is a fibration. 
 
 We had already seen [above](#BareFibration) that we can fill the vertical form components.
 To get a full lift to the differential coefficients we need to extend this construction from vertical forms to connection forms.
-For this we use the isomorphic Weil algebra $\tilde W(...)$ from above, which amounts to making a change of variables to simplify the discussion.
+For this we use the isomorphic Weil algebra $\tilde W(...)$ from above, which amounts to making a change of variables well adapted to the horizonatlity condition on the [[curvature]] forms that we need to find.
 
-Given the above, $B$ and $CS(A)$ are fixed on $U \times D^3$ and $K$ is fixed by the extension problem. Then the equation $d B = CS + C - K$ induced by the differential in  $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ may be uniquely solved for $C$ over all of $D^3$. By the very nature of the differential in $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ its differential is guaranteed to be horizontal: it is
+The morphism takes tuples $(f,B,C,K)$ of functions and forms on $U \times \Delta^k$ to the [[fiber integration]] $\int_{\Delta^k} K$.
+
+By forming suitable retracts, using the sitting instants, we can formulate the extension problem in degree 0 to 3 as extensions along cylinders $[0,1]^{k-1} \hookright [0,1]^k$.
+
+So suppose we have given a $(3-k)$-form $K' \in \Omega^{3-k}(U \times [0,1]^{k})$ together with forms $(f,B,C,K)$ on $U \times [0,1]^{k-1}$. We need to extend the latter over the cylinder such that the curvature $d K$ and $d C$ are horizontal and such that the [[fiber integration]] $\int_{[0,1]^k} K = K'$.
+
+There is clearly a smoothing function $h : [0,1] \to [0,s]$ such that $\int_{\Delta^k} (K' \wedge d h) = K'$.  Take then 
 
 $$
-  d C = L - \langle F_A \wedge F_A \rangle
-  \,.
+  K := K' \wedge d h + (d_U K') \wedge h
+  \,,
 $$
 
-The first term $L = d K$ is horizontal because it is so by definition of the extension problem (this is the datum of the 3-cell in $\exp(b^2 \mathbb{R})_{ChW}(U)$). The second term is the pullback along the chosen [[retract]]ion $D^3 \to D^2$ of the Killing form curvature characteristic of the $\mathfrak{g}$-valued form $A$ on $U \times D^2$. Since it is horizontal there by definition, so its its pullback.
+which has $d K = 0$. Then extending $f$, $A$ and $B$ constantly along the cylinder the equation $d B = CS(A) + C - K$ has a unique solution for $C$ and $d C = d K - \langle F_A \wedge F_A\rangle$ is horizontal.
+
+
 
 =--
 
