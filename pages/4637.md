@@ -562,6 +562,7 @@ see [[Tannaka duality for geometric stacks]]
 
 ## References
 
+* Michael Barr, John Kennison, R. Raphael, Isbell Duality, [PDF](http://www.emis.ams.org/journals/TAC/volumes/20/15/20-15.pdf)
 
 Isbell conjugation is reviewed on [page 17](#http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=17) of 
 
