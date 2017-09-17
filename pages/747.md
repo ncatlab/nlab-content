@@ -544,6 +544,12 @@ This is in prop 2.8 of
 * [[Daniel Dugger]], _[[Universal Homotopy Theories]]_  
 
 
+## Local fibrations
+
+If the [[site]] $C$ has [[point of a topos|enough points]], then local fibrations of simplicial presheaves are equivalently those that are  [[stalk]]wise fibrations of simplicial sets.
+
+This is discussed in ([Jardine 96](#Jardine96)).
+
 ## Localization and descent {#Descent}
 
 ### Cech localization at Grothendieck (pre)topologies {#CechLocalization}
@@ -1197,6 +1203,9 @@ Detailed discussion of the injective model structures on simplicial presheaves i
 {#JardineLecture}
 
 * [[Rick Jardine]], _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
+
+* [[Rick Jardine]], _Boolean localization, in practice_ ([web](http://www.math.uni-bielefeld.de/documenta/vol-01/13.html))
+  {#Jardine96}
 
 The projective model sructure is discussed in
 
