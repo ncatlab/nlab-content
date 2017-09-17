@@ -569,6 +569,9 @@ See [[combinatorial simplicial model category]].
 
 * [[Cisinski model structure]]
 
+[[!include locally presentable categories - table]]
+
+
 ## References 
 
 Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]. Apparently Smith will eventually present a book on this subject. To date, however, his ideas and results appear reproduced in articles of other authors.
