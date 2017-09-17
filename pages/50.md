@@ -22,31 +22,38 @@ $$
 $$
 which sends every [[Lie group]] to its [[Lie algebra]] and every homomorphism of Lie groups to the corresponding homomorphism of Lie algebras. 
 
-Lie's three theorems establish the following properties of this functor.
+Lie's three theorems can be understood as establishing salient properties of this functor. More exactly, Lie's theorems provide a foundation establishing an [[equivalence]] between [[local Lie groups]] and Lie algebras; subsequent work by [[Elie Cartan]] and others extended the theorems to give information on (global) Lie groups via the functor $Lie$. 
 
-  1. **Lie's first theorem** is today regarded as lacking a good notion of differentiable [[manifold]] (but see the [Encyclopedia of Math](http://www.encyclopediaofmath.org/index.php/Lie_theorem) for a statement);
+  1. **Lie's first theorem** is purely local; see the [Encyclopedia of Math](http://www.encyclopediaofmath.org/index.php/Lie_theorem) for a statement. (Here one lacks a good notion of differentiable [[manifold]] for extending this to a global result.) 
 
   2. **Lie II** 
-     If $G$ and $H$ are Lie groups 
-     with Lie algebras $\mathfrak{g} = Lie(G)$ and $\mathfrak{h} = Lie(H)$;
-      such that $G$ is simply connected;
-      and if $f : \mathfrak{g} \to \mathfrak{h}$ is a morphism of Lie algebras;
-      then there is a unique morphism $F : G \to H$ of Lie groups lifting $g$, i.e. such that $f = Lie(F)$.  
+     Let $G$ and $H$ be Lie groups 
+     with Lie algebras $\mathfrak{g} = Lie(G)$ and $\mathfrak{h} = Lie(H)$, 
+      such that $G$ is [[simply connected space|simply connected]]. 
+      If $f : \mathfrak{g} \to \mathfrak{h}$ is a morphism of Lie algebras,
+      then there is a unique morphism $F : G \to H$ of Lie groups lifting $f$, i.e. such that $f = Lie(F)$.  
 
-  3. **Lie III** (Cartan-Lie theorem) Functor **$Lie$ is surjective on objects**: to every finite dimensional real Lie algebra  $\mathfrak{g}$ there is a real Lie group $G$ such that $\mathfrak{g} = Lie(G)$. Moreover, there exists such $G$ which is simply connected. Warning: Lie proved only the existence of of a [[local Lie group]], but not the global existence (nor simply connected choice) which were completed few decades later by [[Elie Cartan]]. Hence the full theorem is called the Cartan-Lie theorem, while the third Lie theorem is just the equivalence of categories of finite dimensional real Lie algebras and local Lie groups. The historically incorrect calling "third Lie theorem" for Cartan-Lie theorem is due to the influence of a book of [[J-P. Serre]]. 
+  3. **Lie III** (Cartan-Lie theorem) The functor $Lie$ **is essentially surjective on objects**: for every finite dimensional real Lie algebra  $\mathfrak{g}$ there is a real Lie group $G$ such that $\mathfrak{g} \cong Lie(G)$. Moreover, there exists such $G$ which is simply connected. 
 
-##Restriction to simply connected Lie groups
++-- {: .un_remark} 
+###### Remarks 
+In his third theorem, Lie proved only the existence of of a [[local Lie group]], but not the global existence (nor simply connected choice) which were established a few decades later by [[Elie Cartan]]. Hence the full theorem is properly called the Cartan-Lie theorem. From an [[nPOV]], the third Lie theorem establishes the essential surjectivity of the functor $Lie$ from the category of _local Lie groups_ to the category of finite dimensional real Lie algebras, and similarly the second Lie theorem establishes that this functor is fully faithful (so the two together establish that this functor is an equivalence). The historically incorrect naming of the Cartan-Lie theorem as the "third Lie theorem" is largely due to the influence of a book based on lectures of [[Jean-Pierre Serre]] (Lie algebras and Lie groups, W.A. Benjamin, 1965). 
+=-- 
 
-Let $LieGroups_{simpl}$ be the [[full subcategory]] of $LieGroups$ on simply connected Lie groups. Then the above implies that restricted to $LieGroups_{simpl}$ the functor $diff$ becomes a surjective [[equivalence of categories]]
+## Restriction to simply connected Lie groups
+
+Let $LieGroups_{simpl}$ be the [[full subcategory]] of $LieGroups$ consisting of simply connected Lie groups. Then the above implies that restricted to $LieGroups_{simpl}$, the functor $Lie$ becomes an [[equivalence of categories]]. 
 
 ## Generalization of Lie's theorems to Lie groupoids
 
-The [[horizontal categorification]] of Lie's theorems for Lie groups leads to analogous statements for [[Lie groupoid|Lie groupoids]]: in this case $diff$ becomes the differentiation functor
-from [[Lie groupoid|Lie groupoids]] to [[Lie algebroid|Lie algebroids]]
+The [[horizontal categorification]] of Lie's theorems for Lie groups leads to analogous statements for [[Lie groupoid|Lie groupoids]]. In other words, there are analogous properties for the differentiation functor 
+
 $$
   diff : LieGroupoids \to LieAlgebroids
   \,.
 $$
+
+from [[Lie groupoid|Lie groupoids]] to [[Lie algebroid|Lie algebroids]]. 
 
 In the case of Lie groupoids, the condition of a group being simply connected which plays an important role in the above statements is generalized to the condition that _source fibers_ of the Lie groupoid  (the preimages $s^{-1}(x)$ of the source map $s : C_1 \to C_0$ at every object $x \in C_0$ of the Lie groupoid $C$) are simply connected. One says 
 $$
