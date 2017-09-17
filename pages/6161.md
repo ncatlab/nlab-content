@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 =--
 =--
 
@@ -38,3 +42,5 @@ For more details, see the page on the [[universal coefficient theorem]].
 [[!redirects Kunneth theorem]]
 [[!redirects Kunneth formula]]
 [[!redirects Künneth isomorphism]]
+
+[[!redirects Künneth theorem for complexes]]
