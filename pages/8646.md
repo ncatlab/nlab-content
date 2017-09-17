@@ -25,7 +25,7 @@ Besides the [[forces]] of [[electromagnetism]] and [[gravity]] there are two mor
 
 The _weak nuclear force_ is described by a [[gauge field]] with [[gauge group]] the [[special unitary group]] $SU(2)$ ([[W-boson]], [[Z-boson]]). It controls  aspects of the [[beta decay]].
 
-The _weak nuclear force_ is described by a [[gauge field]] with [[gauge group]] the [[special unitary group]] $SU(3)$ ([[QCD]] ([[gluon]]). It governs the interaction between [[quarks]].
+The _strong nuclear force_ is described by a [[gauge field]] with [[gauge group]] the [[special unitary group]] $SU(3)$ ([[QCD]] ([[gluon]]). It governs the interaction between [[quarks]].
 
 
 ## References
