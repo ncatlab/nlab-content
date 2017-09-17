@@ -1,18 +1,16 @@
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Definition
+## Definitions
 
-A [[function]] $f$ on the [[complex plane|complex line]] $\mathbb{C}$ is _holomorphic_ if it is complex-[[differentiable function|differentiable]]. 
+A [[function]] $f$ between [[complex manifolds]] is __holomorphic__ if it is complex-[[differentiable function|differentiable]], or equivalently complex-[[analytic functions|analytic]].  One may also see definitions referring to the intermediate notions of [[continuously differentiable function|continuous differentiability]] or [[infinitely differentiable function|infinite differentiability]].
 
-## Properties
+The theorem that every continuously complex-differentiable function is analytic is soft and due to [[Augustin Cauchy]]; the theorem that every complex-differentiable function is continuously differentiable is hard and due essentially to [[Édouard Goursat]] (which may be seen as filling in a gap in Cauchy's proof).  See [[Cauchy integral formula]] and [[Goursat theorem]].
 
-It is a famous theorem (due to Cauchy and Goursat) that all holomorphic functions are in fact [[analytic functions|analytic]] and hence [[smooth function|smooth]].
+On infinite-dimensional manifolds, we have several notions of holomorphic function; see [Wikipeda](https://en.wikipedia.org/wiki/Infinite-dimensional_holomorphy).
 
-Similarly for functions on $\mathbb{C}^n$ or any [[complex manifold]].
 
 ## Related concepts
 
