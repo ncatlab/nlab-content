@@ -44,12 +44,16 @@ Frequently it is also felt desirable to add closure under certain types of subsp
 
 At times one might hope that $C$ is closed under open subspace inclusions as well, but this does not hold for all objects in some of the well-known examples of convenient categories. 
 
-It may be well to note that colimits and limits in $C$ need not agree with the corresponding colimits and limits in $Top$, except under certain conditions. For example, because $C$ is a full subcategory of $Top$, the usual sorts of colimits used to present CW complexes are the same whether interpreted in $Top$ or in $C$. Also, if $C$ is closed under closed subspaces, an equalizer of a pair of maps between Hausdorff spaces in $C$ is the same whether computed in $Top$ or in $C$. On the other hand, products of $C$-objects in $Top$ need not land in $C$, so in that situation the product in $Top$ and the product in $C$ do not agree. 
+It may be well to note that colimits and limits in $C$ need not agree with the corresponding colimits and limits in $Top$, except under certain conditions.  Some convenient categories are [[reflective subcategory|reflective]] or coreflective in $Top$, in which case they are closed under limits or colimits respectively.  Moreover, because $C$ is a full subcategory of $Top$ which contains all CW complexes, the usual sorts of colimits used to present CW complexes are the same whether interpreted in $Top$ or in $C$.  Also, if $C$ is closed under closed subspaces, then an equalizer of a pair of maps between Hausdorff spaces in $C$ (being a closed subspace) is the same whether computed in $Top$ or in $C$.
+
+On the other hand, products of $C$-objects in $Top$ need not land in $C$, so in that situation the product in $Top$ and the product in $C$ do not agree.  This is in particular the case for compactly generated spaces.  In fact, the "compactly generated product" is sometimes preferable to the $Top$-product for more explicit reasons: for instance, if $X$ and $Y$ are CW complexes, then $X\times Y$ need not be a CW complex in the usual product topology, but it is in the compactly generated topology.
 
 
 ## Examples
 
-To be written. 
+* [[compactly generated space]]
+
+* others to be written.
 
 
 ## "Nice" versus "convenient" categories of spaces
@@ -57,7 +61,11 @@ To be written.
 
 A related entry is [[nice category of spaces]]. Here we explain the difference between "convenient" and "nice" categories of spaces. 
 
-"A convenient category of topological spaces" is the title of a well-known paper by Norman Steenrod, who emphasized particularly function space constructions (i.e., cartesian closure) as a great convenience for working algebraic topologists, on top of (generally less problematic) completeness and cocompleteness assumptions. A well-known observation is that $Top$ lacks suitable function spaces, but that one can cut down to a suitable full subcategory of spaces which do admit function spaces; this typically involves the subtle and delicate interplay between compactness conditions and openness conditions. This comes at a cost -- that limits and/or colimits in the subcategory might not be computed as they are in $Top$ -- but this is generally considered a very small price to pay in exchange for the great convenience of these assumptions. 
+"A convenient category of topological spaces" is the title of a well-known paper by Norman Steenrod, who emphasized particularly function space constructions (i.e., cartesian closure) as a great convenience for working algebraic topologists, on top of (generally less problematic) completeness and cocompleteness assumptions.
+
+It is well-known that $Top$ is not [[cartesian closed category|cartesian closed]].  One can characterize the [[exponential law for spaces|exponentiable spaces]], which include all [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] spaces, but the naive idea of simply cutting down to some of these does not give a good cartesian closed category either, since firstly it need not be complete and cocomplete, and secondly even if $X$ and $Y$ are exponentiable, the exponential $Y^X$ need not be.
+
+However, one can cut down to *some* full subcategory of spaces which does admit function spaces.  This typically involves the subtle and delicate interplay between compactness conditions and openness conditions.  It comes at a cost -- that limits and/or colimits in the subcategory might not be computed as they are in $Top$ -- but this is generally considered a very small price to pay in exchange for the great convenience of these assumptions. 
 
 That a convenient category of topological spaces contains all the CW complexes was not explicitly declared by Steenrod, but we feel certain that algebraic topologists want these as part of their convenient category. In practice this is a mild assumption, because the usual examples certainly contain all finite topological products of the interval $I$, and are closed under those $Top$-colimits used to present CW complexes, as built inductively from the basic spaces $I^n \cong D^n$. 
 
