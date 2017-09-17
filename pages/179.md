@@ -48,7 +48,7 @@ $$
 
 There is a <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebroids">general abstract definition of ∞-Lie algebroid</a> in infinitesimal cohesive neighbourhoods such as $\Pi_{inf} : SynthDiff\infty Grpd \to Smooth\infty Grpd$. 
 
-+-- {: .num_defn #GeneralAbstractDefinition}
++-- {: .num_defn #TheGeneralAbstractDefinition}
 ###### Definition
 
 An object $X \in SynthDiff\inftfy Grpd$ is an 
@@ -72,25 +72,9 @@ that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunctio
 ### Presentation by Chevalley-Eilenberg algebras
 
 We consider _presentations_ of the 
-[general abstract definition](#GeneralAbstractDefinition) of $\infty$-Lie algebroids by constructing in the standard [[model structure]]-[[presentable (∞,1)-category|presentation]] of $SynthDiff\infty Grpd$ by [[simplicial presheaves]] on [[CartSp]]${}_{synthdiff}$ certain classes of simplicial presheaves in the image of [[semifree dga|semi-free]] [[differential graded algebra]]s under the [[monoidal Dold-Kan correspondence]]. This amounts to identifying the traditional description of of [[Lie algebra]]s, [[Lie algebroid]]s and [[L-∞ algebra]]s by their [[Chevalley-Eilenberg algebra]]s as a convenient characterization of the corresponding [[cosimplicial algebra]]s whose formal dual simplicial presheaves are manifest presentations of infinitesimal [[smooth ∞-groupoid]]s.
+general abstract definition \ref{TheGeneralAbstractDefinition} of $\infty$-Lie algebroids by constructing in the standard [[model structure]]-[[presentable (∞,1)-category|presentation]] of $SynthDiff\infty Grpd$ by [[simplicial presheaves]] on [[CartSp]]${}_{synthdiff}$ certain classes of simplicial presheaves in the image of [[semifree dga|semi-free]] [[differential graded algebra]]s under the [[monoidal Dold-Kan correspondence]]. This amounts to identifying the traditional description of of [[Lie algebra]]s, [[Lie algebroid]]s and [[L-∞ algebra]]s by their [[Chevalley-Eilenberg algebra]]s as a convenient characterization of the corresponding [[cosimplicial algebra]]s whose formal dual simplicial presheaves are manifest presentations of infinitesimal [[smooth ∞-groupoid]]s.
 
 
-
-Let $T := $[[CartSp]]${}_{smooth}$ be the category of [[Cartesian space]]s and [[smooth function]]s between, them, regarded as a [[Lawvere theory]]. Write 
-
-$$
-  SmoothAlg := T Alg
-$$
-
-for its category of [[algebra over a Lawvere theory|algebras]]: these are the [[smooth algebra]]s.
-
-Notice that there is a canonical [[forgetful functor]]
-
-$$
-  U : SmoothAlg \to CAlg_{\mathbb{R}}
-$$
-
-to the category of [[associative algebra|comutative associative algebras]] over the [[real number]]s.
 
 +-- {: .num_defn}
 ###### Definition
@@ -115,7 +99,7 @@ be the [[full subcategory]] on the [[opposite category]] of cochain [[dg-algebra
 
 =--
 
-We call this the category of **$L_\infty$-algebroids$**.
+We call this the category of **$L_\infty$-algebroids**.
 
 =--
 
@@ -179,10 +163,10 @@ $$
   [n]
     \mapsto
   \bigoplus_{i = 0}^{n}
-  CE(\mathfrak{g})_i \otimes \wedge^i \mathbb{R}^n
+  CE(\mathfrak{a})_i \otimes \wedge^i \mathbb{R}^n
 $$
 
-and the product of the underlying $\mathbb{R}$-algebra on the right given on homogeneous elements in the [[tensor product]] by
+and the product of the $\mathbb{R}$-algebra structure on the right is given on homogeneous elements $(\omega,x), (\lambda,y) \in CE(\mathfrak{a})_i \otimes \wedge^i \mathbb{R}^n$ in the [[tensor product]] by
 
 $$
   (\omega , x)\cdot (\lambda ,y) = (\omega \wedge \lambda , x \wedge y)
@@ -193,10 +177,26 @@ $$
 
 Notice that $\Xi \mathfrak{a}$ is indeed a _commutative_ cosimplicial algebra, since $\omega$ and $x$ in $(\omega,x)$ are by definition in the same degree.
 
-+-- {: .num_prop}
+We shall refine the image of $\Xi$ to cosimplicial [[smooth algebra]]s. Let $T := $[[CartSp]]${}_{smooth}$ be the category of [[Cartesian space]]s and [[smooth function]]s between, them, regarded as a [[Lawvere theory]]. Write 
+
+$$
+  SmoothAlg := T Alg
+$$
+
+for its category of [[algebra over a Lawvere theory|algebras]]: these are the [[smooth algebra]]s.
+
+Notice that there is a canonical [[forgetful functor]]
+
+$$
+  U : SmoothAlg \to CAlg_{\mathbb{R}}
+$$
+
+to the category of [[associative algebra|comutative associative algebras]] over the [[real number]]s.
+
++-- {: .num_prop #SmoothMonoidalDoldKan}
 ###### Proposition
 
-There is a unique factorization of $L_\infty Algd \to (CAlg_{\mathbb{R}}^\Delta)^{op}$ through the [[forgetful functor]]
+There is a unique factorization of the functor $\Xi : L_\infty Algd \to (CAlg_{\mathbb{R}}^\Delta)^{op}$ from def. \ref{PresentationByMonoidalDoldKan} through the [[forgetful functor]]
 $(SmoothAlg_{\mathbb{R}}^\Delta)^{op} \to (CAlg_{\mathbb{R}}^\Delta)^{op}$ such that for any $\mathfrak{a}$ over base space $X$ the degree-0 algebra of smooth functions $C^\infty(X)$ lifts to its canonical structure as a [[smooth algebra]]
 
 $$
@@ -215,17 +215,47 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Observe that for each $n$ the algebra $(\Xi \mathfrak{a})_n$ is a nilpotent extension of $C^\infty(X)$. Then use [[Hadamard's lemma]].
+Observe that for each $n$ the algebra $(\Xi \mathfrak{a})_n$ is a finite nilpotent extension of $C^\infty(X)$. The claim then follows with using [[Hadamard's lemma]] to write every smooth function of sums as a finite Taylor expansion with a smooth rest term. See the examples at [[smooth algebra]] for more details on this kind of argument.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write $i : L_\infty Algd \to SynthDiff\infty Grpd$ for the composite [[(∞,1)-functor]]
+
+$$
+  L_\infty Algd 
+     \stackrel{\Xi}{\to} 
+  (SmoothAlg^{\Delta})^{op}
+    \stackrel{j}{\to} 
+  [CartSp_{synthdiff}^{op}, sSet]
+   \stackrel{P Q}{\to}
+  ([CartSp_{synthdiff}^{op}, sSet]_{loc})^\circ
+  \simeq
+  SynthDiff\infty Grpd
+  \,,
+$$
+
+where the first morphism is the [[monoidal Dold-Kan correspondence]] as in prop. \ref{SmoothMonoidalDoldKan}, the second is the external degreewise [[Yoneda embedding]] and $P Q$ is any fibrant-cofibrant [[resolution]] functor in the local [[model structure on simplicial presheaves]]. The last equivalence holds as discussed there and at [[models for ∞-stack (∞,1)-toposes]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We do not consider the standard [[model structure on dg-algebras]] and do not consider $L_\infty Algd$ itself as a [[model category]] and do not consider an [[(∞,1)-category]] spanned by it. Instead, the functor $i : L_\infty Algd \to SynthDiff\infty Grpd$ only serves to exhibit a class of objects in $SynthDiff\infty Grpd$, which below in the seciton [ModelsForTheAbstractAxioms](#ModelsForTheAbstractAxioms) we show are indeed $\infty$-Lie algebroids by the general abstract definition, \def{TheGeneralAbstractDefinition}. All the [[homotopy theory]] of objects in $L_\infty Algd$ we is that of $SynthDiff\infty Grpd$ after this embedding.
 
 =--
 
 
 ## Properties
 
-### Presentation of the abstract axioms
+### As models for the abstract axioms
+ {#ModelsForTheAbstractAxioms}
 
 Above we have given a general abstract definition, 
-def. \ref{GeneralAbstractDefinition} of $\infty$-Lie algebroids, and then a concrete construction in terms of [[dg-algebra]]s, def. \ref{PresentationByMonoidalDoldKan}. Here we discuss that this concrete construction is indeed a presentation for objects satisfying the abstract axioms.
+def. \ref{TheGeneralAbstractDefinition} of $\infty$-Lie algebroids, and then a concrete construction in terms of [[dg-algebra]]s, def. \ref{PresentationByMonoidalDoldKan}. Here we discuss that this concrete construction is indeed a presentation for objects satisfying the abstract axioms.
 
 +-- {: .un_lemma }
 ###### Lemma
