@@ -1,3 +1,4 @@
+[[!redirects MHV amplitudes]]
 
 #Contents#
 * table of contents
@@ -11,4 +12,4 @@ Certain [[scattering amplitudes]] in [[N=4 D=4 super Yang-Mills theory]] and nei
 
 * Gustavo Machado Monteiro, _MHV Tree Amplitudes in Super-Yang-Mills and
 in Superstring Theory_ (2010) ([pdf](http://www.ift.unesp.br/posgrad/gustavo.pdf))
-  {Monteiro}
+  {#Monteiro}
