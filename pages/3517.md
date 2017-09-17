@@ -74,6 +74,8 @@ where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]
 
 * [[3x3 lemma]], [[snake lemma]]
 
+* [[horseshoe lemma]]
+
 ## References
 
 The 5-lemma appears for instance as exercise 1.3.3 in 
