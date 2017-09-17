@@ -271,7 +271,7 @@ This means that the theorem of Jordan, von Neumann and Wigner also classifies th
 +-- {: .un_theorem}
 ###### Theorem
 
-Every pointed homogeneous self-dual regular open convex cones is [[isomorphic]] to a [[direct sum]] of those on this list:
+Every pointed homogeneous self-dual regular open convex cone is [[isomorphic]] to a [[direct sum]] of those on this list:
 
 * the cone of positive elements in $\mathfrak{h}_n(\mathbb{R})$,
 
