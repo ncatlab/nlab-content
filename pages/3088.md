@@ -1,10 +1,20 @@
-<div class="rightHandSide toc">
-[[!include higher geometry - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -133,10 +143,11 @@ Here are some examples of internal $\infty$-groupoids according to the first def
 
 * [[topological infinity-groupoid]]
 
-## Internal strict $\infty$-groupoids {#Strict}
+## Related concepts
 
-...
+* [[groupoid object in an (infinity,1)-category]]
 
+* [[internal (infinity,1)-category]]
 
 [[!redirects Internal infinity-groupoid]]
 [[!redirects Internal ∞-groupoid]]
