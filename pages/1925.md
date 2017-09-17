@@ -1,11 +1,15 @@
-##Idea##
+# Heap
+* table of contents
+{: toc}
+
+## Idea
 
 A heap is an algebraic structure which is basically equivalent to a [[group]] when one forgets about which element is the [[identity element|unit]].  Similar notions are [[affine space]], principal homogeneous space and so on. However, the notion of a heap has a directness and simplicity in the sense that it is formalized as an algebraic structure with only one ternary operation satisfying a short list of axioms. If we start with a group the ternary operation is defined via $(a,b,c)\mapsto a b^{-1}c$.  We can interpret that operation as shifting $a$ by the (right) translation in the group which translates $b$ into $c$.  There is also a dual version, [[quantum heap]].
 
-Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science.  There are also a number of synonyms for the term "heap;" below we consider "torsor" in this light.  In Russian one term for a heap is "gruda" meaning a 'heap of soil'; this is a pun as it is parallel to the russian word "gruppa" meaning a 'group': forgetting the unit element is sort of creating an amorphous version. 
+Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science.  There are also a number of synonyms for the term "heap;" below we consider "torsor" in this light.  In Russian one term for a heap is "gruda" meaning a 'heap of soil'; this is a pun as it is parallel to the russian word "gruppa" meaning a 'group': forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'.
 
 
-##Definition##
+## Definition
 
 A __heap__ $(H,t)$ is a [[inhabited set|nonempty]] set $H$
 equipped with a ternary operation $t : H \times H \times H\to H$ satisfying the relations
@@ -18,7 +22,8 @@ More generally, a ternary operation in some [[variety of algebras]] satisfying t
 
 A **heap homomorphism**, of course, is a function that preserves the ternary operations.  This defines the category [[Heap]] of heaps.
 
-##Automorphism group##
+
+## Automorphism group
 
 As suggested above, if $G$ is a group and we define $t(a,b,c) = a b^{-1} c$, then $G$ becomes a heap.  This construction defines a functor $Prin:Grp\to Heap$.  In fact, up to isomorphism, all heaps arise in this way; to every heap is associated a group $Aut(H)$ called its _automorphism group_, unique up to isomorphism.  There are a number of ways to define $Aut(H)$ from $H$.
 
@@ -65,7 +70,8 @@ The composition laws are also easily seen to agree, so the second two constructi
 
 The second two constructions are clearly functorial, so we have a functor $Aut:Heap\to Grp$.  Note that we have $Aut(Prin(G))\cong G$ for any group $G$, and $Prin(Aut(H))\cong H$ for any heap $H$, but while the first isomorphism is natural, the second is not.  In particular, the categories $Heap$ and $Grp$ are not [[equivalence of categories|equivalent]].
 
-##Heaps and Torsors##
+
+## Heaps and Torsors
 
 Note that $Aut(H)$ comes equipped with a canonical action on $H$ (this is most clear from the third definition).  This action is transitive
 (by $t(a,a,b) = b$) and  free (if $t(a,b,c) = a$ then
@@ -74,7 +80,7 @@ by the previous statement $t(x,b,c) = x$ for each $x$, and in particular $t(b,b,
 In fact, the category $Heap$ is equivalent to the following category $Tors$: its objects are pairs $(G,H)$ consisting of a group $G$ and a $G$-torsor $H$, and its morphisms are pairs $(\phi,f):(G,H)\to (G',H')$ consisting of a group homomorphism $\phi:G\to G'$ and a $\phi$-equivariant map $f:H\to H'$.
 
 
-##References and remarks##
+## References and remarks
 
 * G.M. Bergman, A.O. Hausknecht,
 _Cogroups and co-rings in categories of associative rings_, 
@@ -89,5 +95,7 @@ Ch.IV, paragraph 22, p.95ff  -- Providence, R.I. : AMS 1996.
 There is an oidification ([[horizontal categorification]]) of a heap, sometimes called a _heapoid_. 
 
 
-[[!redirects group torsor]]
+[[!redirects groud]]
+[[!redirects grouds]]
+[[!redirects heap]]
 [[!redirects heaps]]
