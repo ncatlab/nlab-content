@@ -17,7 +17,7 @@
 
 The term  _M-theory_ refers to a conjectured [[non-perturbative quantum field theory|non-perturbative]] [[UV-completion]] of [[11-dimensional supergravity]] whose [[Kaluza-Klein mechanism|dimensional reduction]] yields [[string theory]].
 
-Keeping in mind that already [[string theory]] itself and in fact already [[quantum field theory]] itself have only partially been formulated in a precise way, the conjecture is motivated from the fact that with the available knowledge of these subjects, one can see indications that there is a kind of [[commuting diagram]] of the form
+Keeping in mind that already [[string theory]] itself and in fact already [[quantum field theory]] itself have only partially been formulated in a precise way, the conjecture is motivated from the fact that with the available knowledge of these subjects -- particularly from [[duality in string theory]] -- one can see indications that there is a kind of [[commuting diagram]] of the form
 
 $$
   \array{
