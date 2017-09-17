@@ -46,6 +46,8 @@ For the classical functors which forget algebraic structure, cofree functors are
 
 * the [[free abelian group]] functor $Set \to Ab$
 
+* the [[abelianization]] functor $Grp \to Ab$.
+
 * the [[free category]] functor $Quiv \to Cat$
 
 * the [[free operad]] functor.
