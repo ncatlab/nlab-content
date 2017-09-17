@@ -59,3 +59,9 @@ $$ \bigcup_i U_i = U .$$
 [[!redirects categories of open subsets]]
 [[!redirects category of open subspaces]]
 [[!redirects categories of open subspaces]]
+
+[[!redirects site of open subsets]]
+[[!redirects site of opens]]
+
+[[!redirects sites of open subsets]]
+[[!redirects sites of opens]]
