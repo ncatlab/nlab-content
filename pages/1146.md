@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -13,39 +12,87 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A **double complex** is a [[complex]] in a category of [[complex]]es. Accordingly, a **double chain complex** is a [[chain complex]] in a [[category of chain complexes]]. That being said there are two conflicting traditions of notation; in the first the above is quite literally true, in the second a slight adjustment is performed to facilitate later constructions. We will give both.
+A **double complex** or **bicomplex** is a [[diagram]] of shape $\mathbb{Z}_{\leq} \times \mathbb{Z}_{\leq}$ (in some [[additive category]]):
 
-In the presence of enough [[product]]s and/or [[coproduct]]s, there is a _total complex_ associated to a double complex, and the interest in double complexes is often that in these total complexes.
+$$
+  \array{
+   && \vdots && \vdots
+   \\
+   & & \downarrow^{\mathrlap{\partial^v}} && \downarrow^{\mathrlap{\partial^v}}
+   \\
+    \cdots &\to & 
+    X_{n,m} &\stackrel{\partial^h}{\to}& X_{n-1,m}
+    & \to & \cdots
+   \\
+   & & \downarrow^{\mathrlap{\partial^v}} && \downarrow^{\mathrlap{\partial^v}}
+   \\
+    \cdots &\to & 
+    X_{n,m-1} &\stackrel{\partial^h}{\to}& X_{n-1,m-1}
+    & \to & \cdots
+   \\
+   & & \downarrow^{\mathrlap{\partial^v}} && \downarrow^{\mathrlap{\partial^v}}
+   \\
+   && \vdots && \vdots
+  }
+$$
 
-Double chain complexes usually arise from the application of bifunctors ([[additive functor]]s of two variables) of [[additive category|additive categories]] $C_1, C_2, C_3$
+such that each row and each column is a [[complex]] (the [[differentials]] square to 0: $\partial^v \circ \partial^v = 0$ and $\partial^h \circ \partial^h = 0$) and such that all the [[commuting diagram|squares commute]].
+
+This means that a **double complex** is a [[complex]] in a category of [[complexes]]. 
+
+Accordingly, a **double chain complex** is a [[chain complex]] in a [[category of chain complexes]]. 
+
+$$
+  X_{\bullet, \bullet} = 
+  \left[
+      \cdots \to X_{n,\bullet} \stackrel{\partial^h}{\to} X_{n-1,\bullet} \to \cdots
+  \right]
+  \,.
+$$
+
+
+In the presence of [[direct sums]], there is a _[[total complex]]_ $(Tot X)_\bullet$ associated to a double complex, which in degree $n$ is the direct sum of all terms of _total degree_ $n$
+
+$$
+  (Tot X)_n \coloneqq \oplus_{k+l = n} X_{k,l}
+$$
+
+and the interest in double complexes is often that in these total complexes.
+
+Since the [[differential]] of the total complex is the sum of the horizontal and the vertical differential _made anti-commutative_, one often sees the double complex defined as above from a complex of complexes, but then with the differentials in every second row (or every second column) multiplied by $(-1)$. This is just a different way of sign-bookkeeping, a detailed discussion of this is below.
+
+Double chain complexes usually arise from the application of bifunctors -- [[additive functors]] of two variables -- of [[additive category|additive categories]] $C_1, C_2, C_3$
+
 $$
   F :  C_1 \times C_2 \to C_3
 $$
-to complexes in their two arguments. Combining this with the formation of total complexes then yields bifunctors from  categories of complexes to categories of complexes. 
+
+to complexes in their two arguments. Combining this with the formation of [[total complexes]] then yields bifunctors from  categories of complexes to categories of complexes. 
 
 $$
- \tilde F : Ch(C)^{op} \times Ch(C) \to Ch(C)
+ \tilde F : Ch(C_1) \times Ch(C_2) \to Ch(C_3)
  \,.
 $$
 
-The most important examples of this are induced by the [[hom-functor]] and the [[tensor product]] functor.
+The most important examples of this are induced by the [[hom-functor]] and the [[tensor product]] functor together with their [[derived functors]], [[Ext]] and [[Tor]].
 
-Under the [[Dold-Kan correspondence]] then $\tilde F$ can be understood as the [[internal hom]] between [[infinity-groupoid|higher groupoids]].
+Notice that under the [[Dold-Kan correspondence]] and with sufficient [[resolutions]], such $\tilde F$ can be understood as the internal hom or tensor products, etc., between [[infinity-groupoid|higher groupoids]].
 
+## Definition
 
-## Definition (First tradition)
+### With commuting differentials
 
 
 A double complex, $X$, is a commutative diagram in an additive category in which  the objects are bi-indexed by the integers, 
 
 $$\{ X_{p,q} \mid p,q\in \mathbb{Z} \}$$
 
-and with two classes of 'differentials' or 'boundary morphisms':
+and with two classes of '[[differentials]]' or 'boundary morphisms':
 
 * $d_X^v: X_{p,q}\to X_{p-1,q}$ called the 'vertical boundary morphisms' or 'vertical differentials', with $d_X^v d_X^v = 0$;
 
@@ -53,9 +100,14 @@ and
 
 * $d_X^h: X_{p,q}\to X_{p,q-1}$ called the 'horizontal boundary morphisms' or 'horizontal differentials', with  $d_X^h d_X^h = 0$;
 
-in addition $d_X^h d_X^v = d_X^v d_X^h$. (To state the obvious, this means $d_X^h d_X^v - d_X^v d_X^h=0$, in contrast to the formula in the second version.)
+such that all [[commuting diagram|squares commute]]
+
+* $d_X^h \circ d_X^v = d_X^v \circ d_X^h$. 
+
+(To state the obvious, this means $d_X^h d_X^v - d_X^v d_X^h=0$, in contrast to the formula in the second version [below](#AntiCommutingDifferentials).)
 
 This gives a commutative diagram:
+
 $$
   \array{
    && \vdots && \vdots
@@ -78,7 +130,8 @@ $$
   }
 $$
 
-## Definition (Second tradition)
+### With anti-commuting differentials
+ {#AntiCommutingDifferentials}
 
 
 A double complex, $X$, is an anticommutative diagram in an additive category in which the objects are bi-indexed by the integers, 
@@ -120,7 +173,7 @@ $$
 
 Which is 'better'? 'Commuting squares', i.e., the first version, is convenient if you want to define a double complex as a chain complex in the category of chain complexes. On the other hand, 'anticommuting squares' and version 2 is convenient for defining the total complex (for computing total homology). Does it matter which you use? The following says they are just two views of the same situation.
 
-## Equivalence of the two definitions
+### Equivalence of the two definitions
 
 One makes a double complex $X$ with commutative squares into a double complex with anticommutative squares by using the same vertical differential $d^v$ but taking $\bar{d}^h : X_{p,q} \to X_{p,q-1}$ to be $(-1)^p d^h$. The same trick can be used to make a double complex with anticommutative squares into a double complex with commutative squares.
 
@@ -150,6 +203,12 @@ $$
 Note that these two coincide when the set of non-zero objects $X_{n,m}$ such that $n + m = k$ is finite, for example, when $X$ is a first quadrant double complex.
 
 [[!redirects double complexes]]
+
+[[!redirects bicomplex]]
+[[!redirects bicomplexes]]
+[[!redirects bi-complex]]
+[[!redirects bi-complexes]]
+
 
 [[!redirects total complex]]
 [[!redirects total complexes]]
