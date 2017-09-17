@@ -47,7 +47,7 @@ A [[homomorphism]] of smooth manifolds is a [[smooth function]]s. Smooth manifol
 
 =--
 
-#### As special locally linged spaces
+#### As special locally ringed spaces
 
 
 +-- {: .un_prop}
@@ -225,7 +225,7 @@ Standard references on smooth manifolds include
 
 (...)
 
-The general abstract framework of [[higher geometry]] refereed to above is discussed in 
+The general abstract framework of [[higher geometry]] referred to above is discussed in 
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
 {#StrSp}
