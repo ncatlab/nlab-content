@@ -350,3 +350,6 @@ Discussion of solutions with $N = 1$ global supersymmetry left and their relatio
 [[!redirects U-duality]]
 [[!redirects U-dualities]]
 
+[[!redirects super-gravity]]
+[[!redirects super-gravities]]
+
