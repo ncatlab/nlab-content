@@ -59,6 +59,17 @@ In [[intensional type theory]], where the diagonal is not a display map, we can 
 
 To be written. Presumably there are introduction, elimination, and computation rules. 
 
+## Properties
+
+### Homotopy initiality
+
+Any inductive type $W$ is a homotopy initial F-[[algebra over an endofunctor|algebra]]: 
+the space
+of $F$-[[algebra for an endofunctor|algebra]] maps $W \to X$ is 
+[[contractible]].
+
+([Awodey-Gambino-Sojakova](#AwodeyGambinoSojakova))
+
 ## Examples
 
 ### Natural numbers
@@ -99,8 +110,11 @@ Expositions (with an eye towards [[higher inductive types]]) include
 
 * [[Peter LeFanu Lumsdaine]], _Higher inductive types, a tour of the menageries_ ([blog post](http://homotopytypetheory.org/2011/04/24/higher-inductive-types-a-tour-of-the-menagerie/))
 
+* [[Mike Shulman]], _Inductive and higher inductive types_, talk slides (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
+
 A study of the "homotopy-initiality" of inductive types in [[homotopy type theory]] is in
 
-* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory*, [arXiv](http://arxiv.org/abs/1201.3898)
+* [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Inductive types in homotopy type theory* ([arXiv:1201.3898](http://arxiv.org/abs/1201.3898))
+ {#AwodeyGambinoSojakova}
 
 [[!redirects inductive types]]
