@@ -471,7 +471,17 @@ This is in ([Mandell](#Mandell)).
 Here the model category structures are analogous to those before: for simplicial $E_\infty$-algebras the weak equivalences and fibrations  are those of the underlying simplicial sets, and for connective dg-$E_\infty$-algebras they are the underlying quasi-isomorphisms and the underlying positive degreewise surjections.
 
 
+#### $H \mathbb{Z}$-module spectra and unbounded dg-algebras
 
+An unbounded ("stable") analog of the monoidal Dold-Kan correspondence is:
+
+there is a [[Quillen equivalence]]
+
+$$
+  H \mathbb{Z} Alg \simeq dgAlg_{\mathbb{Z}}
+$$
+
+between the model structure on [[Eilenberg-MacLane spectrum]]-[[algebra spectra]] and the [[model structure on dg-algebras]] (unbounded). See [[algebra spectrum]] for more on this.
 
 ## Cosimplicial algebras and cochain dg-algebras {#cosimplicial}
 
