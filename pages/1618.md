@@ -11,13 +11,13 @@
 
 
 # The points of a topos #
-* tic
+* table of contents
 {: toc}
 
 
 ## Definition ##
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **point $x$ of a [[topos]] $E$** is a [[geometric morphism]]
@@ -34,17 +34,53 @@ If $x$ is given by an [[essential geometric morphism]] we say that it is an **es
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
+Since [[Set]] is the [[terminal object]] in the category [[Topos|GrothendieckTopos]] of [[Grothendieck topos]]es, for $\mathcal{E}$ a [[sheaf topos]] this is a [[global element]] of the topos.
 
-Since $Set$ is the [[terminal object]] in the category [[Topos|GrothendieckTopos]] of [[Grothendieck topos]]es, for $\mathcal{E}$ a [[sheaf topos]] this isa [[global element]] of the topos.
+Since $Set \sime Sh(*)$ is the [[category of sheaves]] on the one-point [[locale]], the notion of point of a topos is indeed the direct analog of a point of a [[locale]] (under [[localic reflection]]).
 
 =--
 
-### In sheaf topoi ###
 
-For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ this notion of point of a topos comes from the ordinary notion of points of $X$.
++-- {: .num_defn}
+###### Definition
+
+A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise, i.e. if the 
+[[inverse image]] functors from all of its points are jointly [[conservative functor|conservative]].
+
+More precisely, $E$ has enough points if for any morphism $f : A \to B$, we have that if for every point $p$ of $E$, the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an [[isomorphism]], then $f$ itself is an isomorphism.
+
+=--
+
+## Properties
+
+### In presheaf toposes
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ a [[small category]], the points of the [[presheaf topos]] $[C^{op}, sSet]$ are the [[flat functor]]s
+$C \to Set$:
+
+there is an [[equivalence of categories]]
+
+$$
+  Topos(Set, [C^{op}, Set])
+  \stackrle{\overset{}{\leftarrow}}{\underset{}{\to}}
+  FlatFunc(C,Set)
+  \,.
+$$
+
+=--
+
+This appears for instance as ([MacLaneMoerdijk, theorem VII 2](#MacLaneMoerdijk)).
+
+
+### In localic sheaf toposes
+
+For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ the notion of topos pointscomes from the ordinary notion of points of $X$.
 
 For notice that
 
@@ -95,24 +131,53 @@ $$
   \,.
 $$
 
+### In sheaf toposes
 
-### In classifying topoi ###
+The following characterization of points in [[sheaf toposes]] a special case of the general statements at [[morphism of sites]].
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ a [[site]], there is an [[equivalence of categories]]
+
+$$
+  Topos(Set, Sh(C))
+  \simeq
+  ConFlatFunc(C,Set)
+  \,.
+$$
+
+=--
+
+This appears for instance as ([MacLaneMoerdijk, corollary VII, 4](#MacLaneMoerdijk)).
+
+
++-- {: .num_prop}
+###### Proposition
+
+If $E$ is a [[Grothendieck topos]], there is a  *[[small set]]* of points of $E$ which are jointly conservative, and therefore a [[geometric morphism]] $Set/X \to E$, for some set $X$, which is [[surjective geometric morphism|surjective]].  
+
+=--
+
+This appears as ([Johnstone, lemma 2.2.11, 2.2.12](#Johnstone)).
+
+(In general, of course, a topos can have a proper class of non-isomorphic points.)
+
++-- {: .num_prop}
+###### Proposition
+
+A Grothendieck topos has enough points precisely when it underlies a bounded [[ionad]].
+
+=--
+
+### In classifying toposes
 
 On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]] $T$, then a point of $E$ is the same as a model of $T$ in [[Set]].
 
 
-## Having enough points ##
 
-A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise, i.e. if the inverse image functors from all of its points are jointly [[conservative functor|conservative]].
-
-More precisely, $E$ has enough points if for any morphism $f : A \to B$, if for every point $p$ of $E$, the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an isomorphism, then $f$ itself is an isomorphism.
-
-If $E$ is a [[Grothendieck topos]], one can prove from this that there in fact exists a *set* of points of $E$ which are jointly conservative, and therefore a geometric morphism $Set/X \to E$, for some set $X$, which is [[surjective geometric morphism|surjective]].  (In general, of course, a topos can have a proper class of non-isomorphic points.)
-
-A Grothendieck topos has enough points precisely when it underlies a bounded [[ionad]].
-
-
-### Examples ###
+## Examples 
 
 * For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
 
@@ -124,21 +189,25 @@ A Grothendieck topos has enough points precisely when it underlies a bounded [[i
 
   in the context of the [[model structure on simplicial presheaves]].
 
-## Examples
-
 * Points of [[over-topos]]es are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
 
 ## References ##
 
-A general discussion is in section 7.5 of 
+Textbook references are section 7.5 of 
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+  {#MacLaneMoerdijk}
+
+as well as sectin C2.2 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
 
 In 
 
 * Carsten Butz, _Logical and cohomological aspects of the space of points of a topos_ ([ps](http://www.itu.dk/~butz/research/thesis0.ps.gz))
 
-is how for every topos with enough points there is a topological space whose [[cohomology]] is related to the intrinsic cohomology of the topos.
+is a discussion of how for every topos with enough points there is a topological space whose [[cohomology]] is related to the intrinsic cohomology of the topos.
 
 [[!redirects point of topos]]
 [[!redirects topos with enough points]]
