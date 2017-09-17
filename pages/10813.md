@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+An [[algebraic cycle]] of [[codimension]] 1.
+
+## References
+
+* [[James Milne]], section 13 of _[[Lectures on Étale Cohomology]]_
+
+[[!redirects Weil divisors]]
