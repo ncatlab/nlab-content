@@ -14,13 +14,9 @@ The curvature $F_\nabla$ of the connection $\nabla$ is the restriction of the co
 
 $$\nabla\circ\nabla|_M : M\to M\otimes_A\Omega^2 A. $$ 
 
-A connection is __flat__ iff its curvature vanishes. 
+A connection is __flat__ (or integrable) iff its curvature vanishes. 
 
-+--{.query}
+See also [[connection in noncommutative geometry]] as some versions are close to this approach. A past query on history of the notion of connection for a dga is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3107&Focus=25779#Comment_25779).
 
-[[Eric]]: I like this algebraic definition. Do you know who it can be traced back to? Koszul? I've come across it via [Dimakis and Muller-Hoissen](http://arxiv.org/abs/gr-qc/9808023).
-
-[[Urs Schreiber]]: i think this is the concept that is described at [[Lie infinity-algebroid representation]]. It is the same (up to very minor technical differences) that Jonathan Block calls a superconnection in [this](http://arxiv.org/abs/math/0509284) article. 
-
-_Zoran_ Historically I do not know, it is certainly  several decades old in this form. But things always depend on the context. For example if one takes the noncommutative differential forms of Karoubi for $\Omega^\bullet A$ (what is not quite semi-free -- there is a small kernel determined by the augmentation map) then one has a definition of connection of Connes and Karoubi in nc differential geometry, used in that context from early 1980s. Flat connections for semi-free dgas are used also often when studying deformation theory problems via semi-free resolutions...Term superconnection is from Quillen. Does Block use it differently from Quillen ?
-=--
+[[!redirects connection for a dga]]
+[[!redirects connections for a differential graded algebra]]
