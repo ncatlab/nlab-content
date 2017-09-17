@@ -1,42 +1,42 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
 ## Definition
-
 
 +-- {: .un_defn}
 ###### Definition
 
 A **Poisson algebra** is
 
-* a [[module]] $A$ over some [[ring]],
+* a [[module]] $A$ over some [[field]] or other [[commutative ring]] $k$,
 
-* equipped with the structure $\cdot : A \otimes_k A \to A$ of an [[associative algebra]];
+* equipped with the structure ${\cdot}\colon A \otimes_k A \to A$ of an [[associative algebra]];
 
-* and equipped with the structure $[-,-] : A \otimes_k A \to A$ of a [[Lie algebra]];
+* and equipped with the structure $[-,-]\colon A \otimes_k A \to A$ of a [[Lie algebra]];
 
-* such that for every $a \in A$ we have that $[a,-] : A \to A$ is a [[derivation]] of $\cdot$.
+* such that for every $a \in A$ we have that $[a,-]\colon A \to A$ is a [[derivation]] of $(A,\cdot)$.
 
 =--
 
+
 ## Related concepts
 
-* A [[smooth manifold]] whose associatve algebra of  [[smooth function]]s with values in $\mathbb{R}$ is equipped with the structure of a Poisson algebra is a [[Poisson manifold]]. 
+*  A __[[Poisson manifold]]__ is a [[smooth manifold]] whose associatve algebra of [[smooth function]]s with values in the [[real line]] $\mathbb{R}$ that is equipped with the structure of a Poisson algebra (over $\mathbb{R}$).
 
-* A graded analog of a Poisson algebra is a [[Gerstenhaber algebra]].
+*  A [[Gerstenhaber algebra]] is a graded analog of a Poisson algebra.
 
+
+[[!redirects Poisson algebra]]
 [[!redirects Poisson algebras]]
