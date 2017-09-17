@@ -418,8 +418,7 @@ The last statement follows from the $(\infty,1)$-category analog of the discussi
 ### Formulation in homotopy type theory
   {#DefinitionInHomotopyTypeTheory}
 
-A formulation of the [internal definition](#InternalDefinition) of a cohesive $(\infty,1)$-topos in the formal language of [[Coq]]-[[homotopy type theory]]
-is being developed. See [these references](ReferencesInHoTT).
+A formulation of the [internal definition](#InternalDefinition) of cohesiveness in the formal language of [[Coq]]-[[homotopy type theory]] is given in ([Shulman](#Shulman))
 
 
 ## Properties
@@ -938,12 +937,14 @@ Expositions and discussion of the formalization of cohesion in [[homotopy type t
 
 * [[Mike Shulman]], _Axiomatic cohesion in HoTT_ ([blog post](http://homotopytypetheory.org/2011/11/02/axiomatic-cohesion-in-hott/))
 
-Some relevant [[Coq]]-code is in 
+The corresponding [[Coq]]-code is in 
 
-* [[Mike Shulman]], _[HoTT/Coq/Cohesive](https://github.com/mikeshulman/HoTT/tree/master/Coq/Cohesive)_
+* [[Mike Shulman]], _[HoTT/Coq/Subcategories](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories)_
+  {#Shulman}
 
-* [[Guillaume Brunerie]], _[HoTT/Coq/Cohesion](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Cohesion)_
+Exposition is at
 
+* [[Mike Shulman]], _Internalizing the External, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
 
 [[!redirects cohesive (∞,1)-topos]]
 
