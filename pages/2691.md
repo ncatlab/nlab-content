@@ -1001,6 +1001,11 @@ There is a [[Quillen equivalence]] between the standard [[model category]] struc
 
 See [[algebra spectrum]] for details.
 
+## Relation to $\mathbb{E}_\infty$-algebras
+
+Commutative dg-algebras 
+over a field $k$ of characteristic 0 constitute a presentation of 
+[[E-infinity algebras]] over $k$ ([Lurie, prop. A.7.1.4.11]).
 
 ## Related concepts
 
@@ -1078,6 +1083,11 @@ The _commutative_ product on the dg-algebra of the higher order Hochschild compl
 
 * [[Grégory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _A Chen model for mapping spaces and the surface product_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.2231v1.pdf))
 {#GinotTradlerZeinalianChenModel}
+
+The relation to [[E-infinity algebras]] is discussed in section 7.1 of 
+
+* [[Jacob Lurie]], _Higher algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/higheralgebra.pdf))
+ {#Lurie}
 
 
 For more see [[model structure on dg-algebras over an operad]].
