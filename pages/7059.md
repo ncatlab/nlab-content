@@ -23,7 +23,7 @@
 ## Idea
 
 _Cohesive homotopy type theory_ is an [[axiom|axiomatic]] [[theory]] of [[higher geometry]], the pairing of [[geometry]] in general and of [[differential geometry]] in particular with [[homotopy theory]].
-The _[[objects]]_ or _[[types]]_ that it describes are _[[cohesive topos|cohesive]] [[homotopy types]]_, hence [[cohesive ∞-groupoids]], such as for instance [[smooth ∞-groupoids]].
+The _[[objects]]_ or _[[types]]_ that it describes are _[[cohesive topos|cohesive]] [[homotopy types]]_, hence [[cohesive ∞-groupoids]], such as for instance [[smooth ∞-groupoids]]. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
 
 To the extent that plain [[homotopy type theory]] is a formalization of [[homotopy theory]] in that it is the [[internal language of an (∞,1)-topos]], _cohesive_ homotopy type theory is the [[internal logic|internal language]] of a _[[cohesive (∞,1)-topos]]_.
 
