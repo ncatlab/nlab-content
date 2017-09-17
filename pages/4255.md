@@ -1,4 +1,4 @@
-**Dusa McDuff** is a mathematician. She had profound results in operator algebras and in [[differential geometry]]. In recent years she was concetrated on [[symplectic geometry|symplectic]] and [[contact geometry]] and [[symplectic topology]].
+**Dusa McDuff** is a English mathematician, who worked in the USA. She has proved profound results in operator algebras and in [[differential geometry]]. In recent years she has concentrated on [[symplectic geometry|symplectic]], [[contact geometry]] and [[symplectic topology]].
 
 * [homepage]; a [biography](http://www.agnesscott.edu/Lriddle/women/mcduff.htm); some [autobiographical notes](http://www.math.sunysb.edu/~tony/visualization/dusa/dusabio.html)
 
