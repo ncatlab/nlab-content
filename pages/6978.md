@@ -16,7 +16,7 @@
 
 ## Definition
 
-A **locally cartesioan closed functor** is a [[functor]] between [[locally cartesian closed categories]] that preserves the locally cartesian closed structure up to coherent [[isomorphism]].
+A **locally cartesian closed functor** is a [[functor]] between [[locally cartesian closed categories]] that preserves the locally cartesian closed structure up to coherent [[isomorphism]].
 
 ## Examples
 
