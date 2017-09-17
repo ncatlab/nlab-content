@@ -9,11 +9,35 @@
 =--
 =--
 
-In [[dependent type theory]], _context extension_ is the special case of [[substitution]] along a [[projection]] morphism. It freely introduces new [[free variables]] into a [[context]].
+#Contents#
+* table of contents
+{:toc}
 
-Explicitly, if $T$ is a [[type]] in the context $\Gamma$, then the __extension__ of $\Gamma$ by (a free variable of type) $T$ is the context
-$$ \Gamma, x\colon T $$
-(where $x$ is a new variable).  We have said 'the' extension of $\Gamma$ by $T$ using the [[generalised the]]; but it may literally be unique using certain conventions for handling [[alpha equivalence]].
+## Idea
+
+
+In [[dependent type theory]], 
+_context extension_ introduces new [[free variables]] into the [[context]].
+
+## Definition
+
+If $T$ is a [[type]] in a [[context]] $\Gamma$, then the __extension__ of $\Gamma$ by (a [[free variable]] of) the [[type]] $T$ is the context denoted
+
+$$ \Gamma, x\colon T $$ 
+
+(where $x$ is a new [[variable]]).  
+
+(We have said 'the' extension of $\Gamma$ by $T$ using the [[generalised the]]; but it may literally be unique using certain conventions for handling [[alpha equivalence]].)
+
+## Categorical semantics
+
+The [[categorical semantics]] of context extension is the [[inverse image]] of the [[base change geometric morphism]] (or its analog for [[hyperdoctrines]]) along the [[projection]] morphism $T \to \Gamma$ in the [[slice topos|slice]] $\mathbf{H}_{/\Gamma}$
+
+$$
+  (\mathbf{H}_{/\Gamma})_{/T}
+    \stackrel{\overset{\prod_{x : T}}{\to}}{\stackrel{\overset{(-)\times T}{\leftarrow}}{\underset{\sum_{x : T}}{\to}}} 
+  \mathbf{H}_{/\Gamma}
+$$
 
 Generally speaking, a [[morphism]] $\Delta \to \Gamma$ in the [[category of contexts]] (an [[interpretation]] of $\Gamma$ in $\Delta$) is a [[display morphism]] iff there is an [[isomorphism]] $\Delta \leftrightarrow \Theta$ where $\Theta$ is an extension of $\Gamma$.  (This might not actually be true in all type theories, or maybe it should be taken as the *definition* of 'display morphism'; I\'m not sure.)
 
