@@ -21,7 +21,7 @@
 
 The [classification](http://ncatlab.org/nlab/show/SCFT#Classification) of [[superconformal field theories]] predicts the existence of such a theory with $(2,0)$-[[supersymmetry]] in [[dimension]] 6, which is such that it contains a [[self-dual higher gauge theory]] whose field configurations are [[connections on a 2-bundle]] (a [[circle n-bundle with connection|circle 2-bundle with connection]] in the abelian case).
 
-It is expected ([Witten](#Witten07)) that such theories arise as the [[worldvolume]] theories of [[M5-brane]]s and that their compactifications are at the heart of the phenomenon that leads to [[S-duality]] and hence [[geometric Langlands duality]] ([Witten](#Witten09)).
+It is expected ([Witten 07](#Witten07)) that such theories arise as the [[worldvolume]] theories of [[M5-brane]]s and that their compactifications are at the heart of the phenomenon that leads to [[S-duality]] and hence [[geometric Langlands duality]] ([Witten 09](#Witten09)).
 
 Due to the [[self-dual higher gauge theory|self-duality]] a characterization of these theories by an [[action functional]] is at best subtle, maybe impossible. Therefore more direct descriptions are still under investigation (for instance [SSW11](#SSW11)). A review of recent developments is in ([Moore11](#Moore)).
 
@@ -78,13 +78,13 @@ See also the references and discussion at _[[M5-brane]]_.
 
 The conformal structure of the 6d theory and its relation under [[Kaluza-Klein mechanism|compactification]] on a [[Riemann surface]] to [[electric-magnetic duality]]/[[S-duality]] in 4-dimensions is discussed in
 
-* [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_ in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
- {#Witten07}
+* {#Witten07} [[Edward Witten]], _[[Conformal field theory in four and six dimensions]]_ in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ LMS Lecture Note Series (2004) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+ 
 
 and the resulting relation to the [[geometric Langlands correspondence]] is disucssed in 
 
-* [[Edward Witten]], _Geometric Langlands From Six Dimensions_ ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
- {#Witten09}.
+* {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, AMS 2010 ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
+ 
 
 For more references on this see at _[[N=2 D=4 super Yang-Mills theory]]_ the section _[References - Constructions from 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)_.
 
