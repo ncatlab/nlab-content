@@ -142,19 +142,30 @@ A standard textbook adopting this perspective is
 * [[Steven Weinberg]] _The Quantum Theory of Fields_ (Cambridge University
 Press,Cambridge,1995). 
 
-whose author describes his goal as: "This is intended
-to be a book on quantum field theory for the era of effective field theory."  Another book which takes the effective-field-theory approach to QFT is
+whose author describes his goal as: "This is intended to be a book on quantum field theory for the era of effective field theory."  Another book which takes the effective-field-theory approach to QFT is
 
 * Anthony Zee, _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
+
 
 Introductory lecture notes are for instance in 
 
 * A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
  {#Pich}
-The theory of [[gravity]] based on the standard [[Einstein-Hilbert action]] may be regarded as just an effective QFT, which makes some of its notorious problems be non-problems:
+
+The point that perturbatively [[renormalization|non-renormalizable]] theories may be regarded as effective field theories at each energy scale was highligted in
+
+* J. Gomis and [[Steven Weinberg]], _Are nonrenormalizable gauge theories renormalizable?_, Nucl. Phys. B 469 (1996) 473.
+
+
+Notably the theory of [[gravity]] based on the standard [[Einstein-Hilbert action]] may be regarded as just an effective QFT, which makes some of its notorious problems be non-problems:
 
 * John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
  {#DonoghueIntroduction}
+
+and in the context of [[perturbative AQFT]]:
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Quantum gravity from the point of view of locally covariant quantum field theory_ ([arXiv:1306.1058](http://arxiv.org/abs/1306.1058))
+
 
 Comments on this point are also in 
 
