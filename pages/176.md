@@ -467,5 +467,5 @@ _ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foun
 
 [[!redirects conformal field theories]]
 
-[[!redurects 2d CFT]]
-[[!redurects 2d CFTs]]
+[[!redirects 2d CFT]]
+[[!redirects 2d CFTs]]
