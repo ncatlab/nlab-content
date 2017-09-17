@@ -1,0 +1,1 @@
+[[!redirects example of compact self-adjoint opertors]]
