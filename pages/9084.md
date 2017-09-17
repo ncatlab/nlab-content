@@ -1,0 +1,36 @@
+
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+
+## Related concepts
+
+* [[weight (in representation theory)]]
+
+* [[maximal torus]], [[Cartan subalgebra]]
+
+## References
+
+* Peter Woit, _Topics in representation theory: Roots and weights_ ([pdf](http://www.math.columbia.edu/~woit/notes6.pdf))
+
+
+
+[[!redirects weight lattice]]
+[[!redirects weight lattices]]
+
