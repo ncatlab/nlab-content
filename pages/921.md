@@ -32,7 +32,18 @@ There are two basic approaches possible: to define what a __real number__ is, as
 
 ### Dedekind cuts
 
-See [[Dedekind cut]].
+Consider two [[inhabited set|inhabited]] subsets, $L$ and $U$, of $\mathbb{Q}$ (the set of [[rational numbers]]) such that:
+
+*  If $b \in L$, then $a \in L$ for some $a \lt b$.
+*  If $a \in U$, then $b \in U$ for some $a \lt b$.
+*  If $a \lt b$ are rational numbers, then $a \in L$ or $b \in U$.  (\*)
+*  If $a \in L$ and $b \in U$, then $a \lt b$.
+
+We may define a __Dedekind real number__ to be such a pair, which is also called a __[[Dedekind cut]]__.
+
+If $x \coloneqq (L,U)$ is a Dedekind cut, then we write $a \lt x$ to mean that $a \in L$ and $x \lt b$ to mean that $b \in U$.  Then we may approximate $x$ as closely as we like by applying (\*) as often as necessary (which will be only finitely often, for any fixed positive level of approximation, given initial upper and lower bounds since $L$ and $U$ are inhabited).
+
+See [[Dedekind cut]] for more.
 
 
 ### Cauchy sequences
@@ -47,9 +58,19 @@ See [[Dedekind cut]].
 
 ### The locale of real numbers
 
-A [[constructive mathematics|constructive]] construction of the real line is discussed at 
+Consider a [[binary relation]] $\sim$ on [[rational numbers]] satisfying these three properties:
 
-* [[locale of real numbers]].
+*  If $a \geq b$ are rational numbers, then $a \sim b$.
+*  If $a \geq b \sim c \geq d$, then $a \sim d$.
+*  If $a \sim b \gt c \sim d$, then $a \sim d$.
+
+These relations form a [[frame]], which we may interpret (by definition) as the __[[locale of real numbers]]__.
+
+We may then define a __localic real number__ to be a [[point of a locale|point]] of this locale.
+
+This agrees with the notion of Dedekind real number, even in very weak ([[predicative mathematics|predicative]] and [[constructive mathematics|constructive]]) [[foundations]].
+
+See [[locale of real numbers]] for more.
 
 
 ### $\mathbb{R}$ as a terminal coalgebra
