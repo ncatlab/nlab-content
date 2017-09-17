@@ -1,5 +1,11 @@
+[[!redirects III.8, Dieudonné modules (p-divisible groups)]]
 [[!redirects III.8, Dieudonne modules (p-divlsible groups)]]
 [[!redirects Dieudonne modules (p-divlsible groups)]]
+
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 +-- {: .num_lemma}
 ###### Lemma
 
