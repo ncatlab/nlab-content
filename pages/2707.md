@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -50,7 +51,7 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 
 ## Related entries##
 
-* [[pure motive]], [[mixed motive]], [[Voevodsky motive]]
+* [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]]
 * [[zeta function]]
 
 ##Extensions##
