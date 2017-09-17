@@ -118,7 +118,7 @@ $$
   \,.
 $$
 
-The non-trivial element in $sBr(\mathbb{R})$ is that presented by the superalgebra $\mathbb{C} \oplus \mathbb{C} u$ of example \ref{ComplexCl1}, with $u \cdot u = 1$.
+The non-trivial element in $sBr(\mathbb{R})$ is that presented by the superalgebra $\mathbb{C} \oplus \mathbb{C} u$ of the example [here](super+algebra#ComplexCl1), with $u \cdot u = 1$.
 
 =--
 
@@ -141,11 +141,11 @@ where the [[groups of units]] $\mathbb{C}^\times$ and $\mathbb{R}^\times$ are re
 
 =--
 
-This appears in ([Freed, (1.38)](#Freed12)).
+This is recalled for instance in ([Freed 12, (1.38)](#Freed12)).
 
 ### The homotopy type of the 2-stack of super 2-lines
 
-Now we can analyse $2\mathbf{sLine}$.
+Now we can analyse the super 2-stack $2\mathbf{sLine}$ of super 2-line 2-bundles.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -170,6 +170,24 @@ With this the statement is a straightforward generalization of the discussion at
 While the invertible ordinary $\mathbb{C}^\infty(\mathbb{R})$-algebras are equivalent to that algebra itself (hence there is only one, up to equivalence); the invertible superalgebras are equivalent either to the ground field or to the complex [[Clifford algebra]] $Cl_1(\mathbb{C})$ (hence there are two, up to equivalence, the two elements in the [[Brauer group]] $\mathbb{Z}_2 = \pi_0(2\mathbf{sLine})$ ). Similarly for the invertible bimodules. Finally the invertible intertwiners are pointwise $\mathbb{C}^\times$.
 
 =--
+
+It follows that
+
++-- {: .num_prop }
+###### Proposition
+
+The [[homotopy groups]] of the [[geometric realization]] of $2\mathbf{sLine}$ is
+
+| | ${\vert 2\mathbf{sLine}_{\mathbb{C}} \vert}$ | ${\vert 2\mathbf{sLine}_{\mathbb{R}} \vert}$ |
+|--|--|--|
+| $\pi_3$ | $\mathbb{Z}$ | $\mathbb{Z}$ |
+| $\pi_2$ | 0 | 0 |
+| $\pi_1$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ |
+| $\pi_0$ | $\mathbb{Z}_2$ | $\mathbb{Z}_8$ |
+
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -203,6 +221,74 @@ $$
 in [[SmoothSuper∞Grpd]]. This observation (formulated in less stacky language) is due to the analysis of [[orientifold]] background fields in ([Precis](#Precis)).
 
 =--
+
++-- {: .num_prop }
+###### Proposition
+
+The first [[k-invariant]] of $\vert 2\mathbf{sLine}\vert$ is the essentially unique nontrivial
+
+$$
+  \mathbb{Z}_2 \to \mathbf{B}^2 \mathbb{Z}_2
+$$
+
+given by the [[Steenrod square]]. This is represented by the [[braided monoidal category|braiding]] equivalence on the [[tensor product]] of $Cl_1^{\mathbb{C}} \simeq \langle 1, e\rangle_{[e^2 = 1]}$ 
+
+$$
+  Cl_1^{\mathbb{C}}
+  \otimes_{\mathbb{C}}
+  Cl_1^{\mathbb{C}}
+  \stackrel{\simeq}{\to}
+  Cl_1^{\mathbb{C}}
+  \otimes_{\mathbb{C}}
+  Cl_1^{\mathbb{C}}
+$$
+
+given by the algebra homomorphism
+
+
+$$
+  \begin{aligned}
+    1 \otimes 1 & \mapsto 1 \otimes 1
+    \\
+    e \otimes e & \mapsto - e \otimes e
+    \\
+    1 \otimes e & \mapsto e \otimes 1
+    \\
+    e \otimes 1 & \mapsto 1 \otimes e
+  \end{aligned}
+$$
+
+(exchange the tensor factors and introduce a sign when exchanging two odd graded ones).
+
+=--
+
+For instance ([Freed 12, 1.42](#Freed12)).
+
++-- {: .num_prop}
+###### Proposition
+
+The second [[k-invariant]]
+
+$$
+  \mathbf{B}\mathbb{Z}_2 \to \mathbf{B}^4 \mathbb{Z}
+$$
+
+is the delooping of that of super lines $\mathbf{sLine}$, being the image under the [[Bockstein homomorphism]] of
+
+$$
+  \mathbf{B}\mathbb{Z}_2 \to \mathbf{B}^3 U(1)
+$$
+
+which sends $\mathbb{Z}_2 \times \mathbb{Z}_2 \times \mathbb{Z}_2 \to \mathbb{Z}_2 \hookrightarrow U(1)$.
+
+
+(...)
+
+
+=--
+
+For instance ([Freed 12, 1.44](#Freed12)).
+
 
 +-- {: .num_remark}
 ###### Remark
