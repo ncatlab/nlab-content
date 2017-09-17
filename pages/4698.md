@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Riemannian geometry
-+--{: .hide}
++-- {: .hide}
 [[!include Riemannian geometry - contents]]
 =--
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea 
 
