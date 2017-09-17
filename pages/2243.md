@@ -114,6 +114,12 @@
 
   * [[transgression]]
 
+### Theorems
+
+* [[de Rham theorem]]
+
+* [[Brown representability theorem]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/cohomology+-+contents)</div>
 
 
