@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _model structure for dendroidal left fibrations_ is an [[operad|operadic]] analog of the _[[model structure for left fibrations]]_. Its fibrant objects are [[A-∞ spaces]].
+The _model structure for dendroidal left fibrations_ is an [[operad|operadic]] analog of the _[[model structure for left fibrations]]_. Its fibrant objects over [[Assoc]] are [[A-∞ spaces]], over [[Comm]] they are [[E-∞ spaces]].
 
 ## Definition
 
