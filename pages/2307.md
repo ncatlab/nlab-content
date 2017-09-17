@@ -104,6 +104,10 @@ with the generator $x_i$ in degree $2i$.
 
 This is due to ([Milnor 60](#Milnor60), [Novikov 60](#Novikov60), [Novikov 62](#Novikov62)). A review is in ([Ravenel, ch. 3, theorem 3.1.5](#Ravenel)).
 
+### Nilpotence theorem
+
+* [[nilpotence theorem]]
+
 ### Snaith's theorem
 
 [[Snaith's theorem]] asserts that the [[periodic complex cobordism spectrum]] is the [[∞-group ∞-ring]] of the [[classifying space]] for stable [[complex vector bundles]] (the classifying space for [[topological K-theory]]) localized at the [[Bott element]] $\beta$:
