@@ -1075,7 +1075,7 @@ $$
   \vert X \vert := \vert \Pi X \vert \in Top
 $$
 
-and call this the [[geometric realization]] of $X$.
+and call this the **topological [[geometric realization]]** of $X$, or just the _geometric realization_ for short.
 
 =--
 
