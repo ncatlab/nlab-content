@@ -2,6 +2,16 @@ Given a pair $L\dashv R$ of adjoint functors, $L:A\to B:R$, with counit $\epsilo
 
 A functor $L:A\to B$ is __comonadic__ if it has a right adjoint $R$ and the corresponding comparison functor $K$ is an equivalence of categories. 
 
-This situation is dual to the situation of a [[monadic functor]].
+Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, observe that for every $\Omega$-comodule $(N,\rho)$, 
+
+<center><img src="http://latex.codecogs.com/gif.latex?
+\xymatrix{
+N\ar[r]_{\rho} %26 Q^* Q_* N \ar@/_1pc/[l]_{\epsilon_N} \ar@%3C.5ex%3E [r]^{Q^* Q_* \rho}\ar@%3C-.5ex%3E[r]_{Q^*\eta_{Q_* N}} %26 Q^* Q_* Q^* Q_* N\ar@/_2pc/[l]_{\epsilon_{Q^*Q_*N}}
+}" />
+</center>
+
+manifestly exhibits a _split equalizer_ sequence.
+
+...
 
 [[!redirects comonadic functor]]
