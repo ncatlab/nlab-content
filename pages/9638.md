@@ -51,6 +51,8 @@ General discussions include
 
 * Wikipedia, _[Quantum computation](http://en.wikipedia.org/wiki/Quantum_computation)_
 
+* [[Scott Aaronson]], Lecture notes _Quantum Computing Since Democritus_ 2006 ([web](http://www.scottaaronson.com/democritus/))
+
 ### As linear logic
 
 Discussion of quantum computation as the [[internal logic|internal]] [[linear logic]]/[[linear type theory]] of [[compact closed categories]] is in
