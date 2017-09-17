@@ -337,9 +337,9 @@ is the $\infty$-groupoid whose objects are $G$-[[principal ∞-bundle]]s on $X$ 
 
 A [[higher homotopy van Kampen theorem|higher]] [[van Kampen theorem]] asserts that passing to [[fundamental ∞-groupoid]]s preserves certain colimits. 
 
-On a cohesive $(\infty,1)$-topos $\mathbf{H}$ the fundamental $\infty$-groupoid functor $\Pi : \mathbf{H} \to \infty Grod$ is a [[left adjoint]] [[(∞,1)-functor]] and hence preserves all [[(∞,1)-colimit]]s of _generalized spaces_ .
+On a cohesive $(\infty,1)$-topos $\mathbf{H}$ the fundamental $\infty$-groupoid functor $\Pi : \mathbf{H} \to \infty Grpd$ is a [[left adjoint]] [[(∞,1)-functor]] and hence preserves all [[(∞,1)-colimit]]s.
 
-More interesting is the question which pushouts of [concrete space](#ConcreteObjects) in  
+More interesting is the question which $(\infty,1)$-colimits of [concrete spaces](#ConcreteObjects) in  
 
 $$
   Conc(\mathbf{H}) 
@@ -347,7 +347,7 @@ $$
   \mathbf{H}
 $$ 
 
-are preserved by $\Pi$ These are computed by first computing them in $\mathbf{H}$ and then applying the concretization functor. So we have
+are preserved by $\Pi \circ inj : Conc(\mathbf{H}) \to \infty Grpd$. These colimits are computed by first computing them in $\mathbf{H}$ and then applying the concretization functor. So we have
 
 +-- {: .un_lemma}
 ###### Observation
@@ -366,6 +366,89 @@ $$
 
 =--
 
+
+In the [Examples](#Examples) we discuss the cohesive $(\infty,1)$-topos $\mathbf{H} = (\infty,1)Sh(TopBall)$. For that case we recover the ordinary [[higher homotopy van Kampen theorem]]:
+
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X, U_1, U_2$ be [[paracompact space|paracompact]] [[topological space]]s and $U_1 \hookrightarrow X$, $U_2 \hookrightarrow X$ two [[embedding]]s such that $X$ is the [[colimit]]
+
+$$
+  \array{
+    U_1 \times_X U_2 &\to& U_2
+    \\
+    \downarrow && \downarrow
+    \\
+    U_1 &\to& X
+  }
+$$
+
+in [[Top]]. 
+
+Then under the [[singular simplicial complex]] functor $Sing : Top \to $ [[sSet]] this becomes a [[homotopy pushout]]
+
+$$
+  \array{
+    Sing(U_1) \times_{Sing(X)} Sing(U_2) &\to& Sing(U_2)
+    \\
+    \downarrow && \downarrow
+    \\
+    Sing(U_1) &\to& Sing(X)
+  }
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Embed the situation under the canonical inclusion (the _external [[Yoneda embedding]]_) $Top \hookrightarrow Sh(TopBalls) \hookrightarrow \mathbf{H} = (\infty,1)Sh(TopBall)$ as 0-[[truncated]] objects into the cohesive $(\infty,1)$-topos of [[topological ∞-groupoid]]s.
+
+Observe that the embedding $Top \hookrightarrow Sh(TopBall)$ of topological spaces into [[concrete sheaves]] on [[open balls]] preserves the above pushout diagram. Since all objects involved are 0-[[truncated]] this diagram is moreover still an $(\infty,1)$-pushout after the embedding $Sh(TopBalls) \hookrightarrow \mathbf{H}$.
+
+This means that the above observation applies and we have that 
+
+$$
+  \array{
+    \Pi(U_1 \times_X U_2) &\to& \Pi(U_2)
+    \\
+    \downarrow && \downarrow
+    \\
+    \Pi(U_1) &\to& \Pi(X)
+  }
+$$
+
+is an [[(∞,1)-colimit]] in [[∞Grpd]]. But by the discussion of _geometric realizaton_ at [[schreiber:path ∞-groupoid]] we have for our paracompact spaces that $\Pi(X)$ etc. is modeled in the [[locally presentable (∞,1)-category|presentation]] of [[∞Grpd]] by the standard [[model structure on simplicial sets]] by $Sing X$ etc.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+More in detail, what hapens in this argument is the following:
+
+we obtain cofibrant [[resolution]]s $Q X $, $Q U_1$ etc. in the
+projective [[model structure on simplicial presheaves]] $[TopBall^{op}, sSet]_{proj,loc}$ by choosing [[good open cover]]s and taking $Q X$ etc.
+to be their [[Cech nerve]]s. Then as described at [[schreiber:path ∞-groupoid]] we have that $\Pi(X)$ etc. is modeled by $\lim_\to Q X$ in $[TopBall^{op}, sSet]$. This sends each representable to a point. By the [[nerve theorem]] the resulting simplicial set is weakly equivalent to $Sing X$, etc. Also, this colimit clearly commutes with the pushout, so that we otain a pushout diagram
+
+$$
+  \array{
+    \lim_\to Q(U_1 \times_X U_2) &\to& \lim_\to Q(U_2)
+    \\
+    \downarrow && \downarrow
+    \\
+    \lim_\to Q U_1 &\to& \lim_\to Q X
+  }
+  \,.
+$$
+
+Since all objects in $sSet_{Quillen}$ are cofibrant and by assumption that $U_i \to X$ are embeddings the left vertical morphism is a monomorphism, hence a cofibration, this is indeed a [[homotopy pushout]] diagram
+
+
+=--
 
 ## Interpretation {#Interpretation}
 
