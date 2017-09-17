@@ -448,16 +448,24 @@ The next proposition asserts that all essential geometric morphisms between Bohr
 +-- {: .num_prop #EssentialGeomMorphismsAndPosetMorphisms}
 ###### Proposition
 
-The [[essential geometric morphism]]s of the underlying toposes $Bohr(A) \to Bohr(B)$ are precisely those in image under the functor $Sh \circ Alex$ of functors $\mathcal{C}(A) \to \mathcal{C}(B)$.
+The [[2-functor]]
+
+$$
+  [-,Set] : Poset \hookrightarrow Topos_{ess}
+$$
+
+is a [[full and faithful 2-functor]].
+
+Analogously, [[essential geometric morphism]]s of the underlying toposes $Bohr(A) \to Bohr(B)$ are precisely those in image under the functor $Sh \circ Alex$ of functors $\mathcal{C}(A) \to \mathcal{C}(B)$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This follows by general abstract properties of [[essential geometric morphisms]] (see there).
+By the discussion in the section _[In terms of essential geometric morphisms](http://ncatlab.org/nlab/show/Cauchy+complete+category#InOrdinaryCatTheoryByEssGeomMorphisms)_ at _[[Cauchy complete category]]_ we have a full and faithful embedding of Cauchy-complete catgeories $[-,Set] : Cat_{Cauchy} \hookrightarrow Topos_{ess}$. But posets are trivially Cauchy, complete, hence this restricts to an embedding $[-,Set] : Poset \hookrightarrow Cat_{Cauchy} \hookrightarrow Topos_{ess}$. 
 
-More concretely: by the discussion of [Alexandrov locales](#http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) (in the entry _[[Alexandrov space]]_ ) we have that the functor $Alex : Poset \to Locale$ takes values precisely on those morphisms of locales whose inverse image has a [[left adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that the [[2-functor]] $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
+In terms of Alexandrov topologies: by the discussion of [Alexandrov locales](#http://ncatlab.org/nlab/show/specialization+topology#AlexandrovLocales) (in the entry _[[Alexandrov space]]_ ) we have that the functor $Alex : Poset \to Locale$ takes values precisely on those morphisms of locales whose inverse image has a [[left adjoint]]. The statement then follows using the properties of [[localic reflection]], which says that the [[2-functor]] $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
 
 =--
 
