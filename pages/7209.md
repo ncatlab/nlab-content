@@ -111,7 +111,18 @@ The following table lists some [[Lie groups]] and their maximal compact Lie subg
 | [[unitary group]] $U(p,q)$ | $U(p) \times U(q)$ |
 | special [[Lorentz group|Lorentz]]/[[anti de Sitter group|AdS]] etc. group $SO(p,q)$ | $SO(p) \times SO(q)$ |
 | Lorentz / AdS [[spin group]] $Spin(q,p)$ | $Spin(q) \times Spin(q) / \{(1,1), (-1,-1)\}$ |
-| [[exceptional Lie group]] | compact form |
+
+The following table lists specifically the maximal compact subgroups of the "$E$-series" of Lie groups culminating in the  [[exceptional Lie groups]] $E_d$.
+
+| $d$ | [[real form]] $E_{d(d)}$ | maximal compact subgroup $H_d$ | $dim(E_{d(d)})$ | $dim(E_{d(d)}/H_d ) $ |
+|---|---|---|---|---|
+| 2 | $SL(2, \mathbb{R}) \times \mathbb{R}$ | $SO(2)$ | 4 | 3 |
+| 3 | $SL(3,\mathbb{R}) \times SL(2,\mathbb{R})$ | $SO(3) \times SO(2)$ | 11 | 7 | 
+| 4 | $SL(5, \mathbb{R})$ | $SO(5)$ | 24 | 14 |
+| 5 | $Spin(5,5)$  | $(Sp(2) \times Sp(2))/\mathbb{Z}_2$ | 45 | 25|
+| 6 | [[E6|E6(6)]] | $Sp(4)/\mathbb{Z}_2$ | 78 | 42 |
+| 7 | [[E7|E7(7)]] | $SU(8)/\mathbb{Z}_2$ | 133 | 70 |
+| 8 | [[E8|E8(8)]] | $Spin(16)/\mathbb{Z}_2$ | 248 | 128 |
 
 ### Counterexamples
 
