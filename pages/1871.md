@@ -46,6 +46,8 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 ## Related concepts
 
+* [[minimal coupling]]
+
 * [[Einstein-Maxwell theory]]
 
 * [[Yang-Mills equation]]
