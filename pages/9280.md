@@ -1,26 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _sesquiunital sesquiagebra_ is an [[algebra objects]] [[internalization|internal]] to the [[2-category]] [[2Mod]] of [[algebras]], [[bimodules]] and [[bimodule intertwiners]]. This means that it is an algebra equipped with an additional associative product and unit which are both exhibited by [[bimodules]]. If these bimodules come from algebra [[homomorphisms]] then the sesquialgebra is a [[bialgebra]].
+A _sesquiunital sesquiagebra_ is an [[algebra object]] [[internalization|internal]] to the [[2-category]] [[2Mod]] of [[algebras]], [[bimodules]] and [[bimodule intertwiners]]. This means that it is an algebra equipped with an additional associative product and unit which are both exhibited by [[bimodules]]. If these bimodules come from algebra [[homomorphisms]] then the sesquialgebra is a [[bialgebra]].
 
-The structure of a sesquialgebra is just so that the [[category of modules]] of the underlying algebra is itself a [[monoidal category]]. In this sense sesquialgebras are a placeholder for [[2-algebras]]. Moreover, in as far as these 2-algebras themselves are regarded as placeholders for _their_ [[2-category]] of [[2-modules]] a sesquialgebra presents a [[3-module]]/[[3-vector space]].
+The structure of a sesquialgebra is just so that the [[category of modules]] of the underlying algebra is itself a [[monoidal category]]. In this sense sesquialgebras are a placeholder for [[2-algebra|2-algebras]]. Moreover, in as far as these 2-algebras themselves are regarded as placeholders for _their_ [[2-category]] of [[2-modules]] a sesquialgebra presents a [[3-module]]/[[3-vector space]].
 
 Sesquialgebras with an extra grouplike-property have been called _[[hopfish algebras]]_.
+
 
 ## Definition
 
@@ -38,6 +38,7 @@ This means that it is an $R$-algebra $A$ equipped with
 satisfying the evident [[associative law]] and [[unit law]].
 
 =--
+
 
 ## Properties
 
@@ -60,9 +61,8 @@ In fact, regarding the [[category of modules]] $Mod_A$ as a [[2-abelian group]],
 See also the references at _[[hopfish algebra]]_.
 
 
+[[!redirects sesquialgebra]]
 [[!redirects sesquialgebras]]
 
 [[!redirects sesquiunital sesquialgebra]]
 [[!redirects sesquiunital sesquialgebras]]
-
-
