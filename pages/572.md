@@ -163,6 +163,13 @@ This condition is equivalent to $X$ being a [[local object]] with respect to the
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The completeness condition may also be thought of as _[[univalence]]_. See there for more.
+
+=--
+
 ### Complete Segal space objects
  {#CompleteSegalSpaceObjects}
 
