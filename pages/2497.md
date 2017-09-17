@@ -11,7 +11,7 @@
 
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -64,8 +64,7 @@ Blob homology has some similarities with
 
 It should be closely related to
 
-* [[topological chiral homology]].
-
+* [[topological chiral homology]]/[[factorization homology]]
 
 ## References
 
