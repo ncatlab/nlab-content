@@ -49,11 +49,104 @@ This means that a simplicial model category is
 
 ## Properties
 
-Let $C$ be a simplicial model category
+### Enrichment, tensoring, and cotensoring 
+ {#EnrichmentTensoringCotensoring}
 
-From the axioms of [[enriched model category]] it follows that for $X \in C$ cofibrant and $A \in C$ fibrant, the simplicial set $C(X,A)$ given by the $sSet$-enrichement is fibrant in the standard model structure on simplicial sets, hence is a [[Kan complex]]. In fact, for $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant replacement, respectively, $C(Q X, P A)$ is the correct [[derived hom-space]] between $X$ and $A$. In particular the full $sSet$-enriched [[subcategory]] on cofibrant fibrant objects is therefore a $sSet$-enriched category which is fibrant in the [[model structure on simplicially enriched categories]]. its [[homotopy coherent nerve]] is a [[quasi-category]]. All this are intrinsic incarnatons of the [[(∞,1)-category]] that is [[presentable (∞,1)-category|presented]] by $C$.
+Let $\mathcal{C}$ be a category equipped with the structure of a [[model category]] and with that of an [[sSet]]-[[enriched category]] with is [[tensoring|tensored]] and [[cotensoring|cotensored]] over [[sSet]].
+
++-- {: .num_prop #EquivalenceOfConditions}
+###### Proposition
+
+The following condition that each make $\mathcal{C}$ into a _simplicial model category_ are equivalent
+
+1. the [[tensoring]] $\otimes : \mathcal{C} \times sSet \to \mathcal{C}$ is a left [[Quillen bifunctor]];
+
+1. for any cofibration $X \to Y$ and fibration $A \to B$ in $\mathcal{C}$, the induced morphism 
+
+   $$
+     \mathcal{C}(Y, A) \to \mathcal{C}(X, A) \times_{\mathcal{C}(X,B)} \mathcal{C}(Y,B)
+   $$
+
+   is a fibration, and is in addition a weak equivalence if either of the two morphisms is;
 
 
+1. for any cofibration $X \to Y$ in $sSet$ and fibration $A \to B$ in $\mathcal{C}$, the induced morphism 
+
+   $$
+     A^Y \to A^X \times_{B^X} B^Y
+   $$
+
+   is a fibration, and is in addition a weak equivalence if either of the two morphisms is.
+
+=--
+
+This follows directly from the defining properties of [[tensoring]] and [[cotensoring]].
+
+We list in the following some implications of these equivalent conditions.
+
+Let $\mathcal{C}$ now be a simplicial model category. 
+
++-- {: .num_cor}
+###### Corollary
+
+If $A \in \mathcal{C}$ is fibrant, and $X \hookrightarrow Y$ is a cofibration in [[sSet]], then 
+
+$$
+  X^Y \to X^A
+$$
+
+is a fibration in $\mathcal{C}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply prop. \ref{EquivalenceOfConditions} to the case
+of the cofibration $X \to Y$ and the fibration $A \to *$, where "$*$" denotes the [[terminal object]]. This yields that
+
+$$
+  A^Y \to A^X \times_{{*}^X} {*}^Y
+$$
+
+is a fibration. But ${*}^Y = {*}^X =  {*}$ and hence the claim follows.
+
+=--
+
+Similarly we have
+
++-- {: .num_cor}
+###### Corollary
+
+If $X \in \mathcal{C}$ is cofibrant and $A \in \mathcal{C}$ is fibrant, then $\mathcal{C}(Y,X)$ is fibrant in [[sSet]], hence is a [[Kan complex]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply prop. \ref{EquivalenceOfConditions} to the cofibration $\emptyset \to X$, where "$\emptyset$" denotes the [[initial object]], and to the fibration $A \to *$ to find that 
+
+$$
+  \mathcal{C}(X, A) \to \mathcal{C}(\emptyset, A) \times_{\mathcal{C}(\emptyset,*)} \mathcal{C}(X,*)
+$$
+
+is a fibration. But since $\emptyset$ is initial and $*$ is terminal, all three simplicial sets in the fiber product on the right are the point, hence this is a fibration
+
+$$
+  \mathcal{C}(X,A) \to *
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant replacement, respectively, $\mathcal{C}(Q X, P A)$ is the correct [[derived hom-space]] between $X$ and $A$. In particular the full $sSet$-enriched [[subcategory]] on cofibrant fibrant objects is therefore an [[simplicially enriched category|sSet-enriched category]] which is fibrant in the [[model structure on simplicially enriched categories]]. Its [[homotopy coherent nerve]] is a [[quasi-category]]. All this are intrinsic incarnatons of the [[(∞,1)-category]] that is [[presentable (∞,1)-category|presented]] by $C$.
+
+=--
 
 
 ## Examples
