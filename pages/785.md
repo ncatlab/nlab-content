@@ -140,22 +140,8 @@ This can be explained in model-categorical terms by the fact that the category o
 
 Due to prop. \ref{HomotopyPullbackByOrdinaryPullback} one typically computes homotopy pullbacks of a diagram by first forming a [[resolution]] of one of the two morphisms by a fibration and then forming an ordinary pullback. 
 
-If all objects involved are already fibrant, then such a resolution is provided by the [[factorization lemma]]. This says that a fibrant resoltuion of $B \to C$ is given by the total composite vertical morphism in 
-
-$$
-  \array{
-    C^I \times_C B &\to& B
-    \\
-    \downarrow && \downarrow
-    \\
-    C^I &\to& C
-    \\
-    \downarrow
-    \\
-    C
-  }
-  \,,
-$$
+If all objects involved are already fibrant, then such a resolution is provided by the [[factorization lemma]]: by [Lemma 3](factorization+lemma#FibrantResolution), there is a canonical fibrant resolution
+  $$ C^I \times_C B \twoheadrightarrow C $$
 
 where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path object]] for the [[fibrant object]] $C$ (For instance, when $C$ is a [[closed monoidal homotopical category]] then this can be taken to be the [[internal hom]] with an [[interval object]] $I$.)
 
@@ -169,33 +155,13 @@ all three objects are [[fibrant objects]], then
 the homotopy pullback of this diagram is presented by the ordinary [[limit]] 
 in 
 
-
 $$
   \array{
-     A \times_{C}^h B
-     &\to&\to& \to& B
-     \\
-     \downarrow
-     &\searrow&&& 
-     \downarrow
-     \\
-     \downarrow
-     &
-     &
-     C^I
-     &\stackrel{d_1}{\to}&
-     C
-     \\
-     \downarrow
-     &
-     &
-     \downarrow^{d_0}
-     \\
-     A
-     &
-     \to
-     &
-     C
+     A\times_C^h B & \to & C^I \times_C B
+    \\
+    \downarrow && \downarrow 
+    \\
+     A & \stackrel{f}{\to} & C
   }
   \,.
 $$
