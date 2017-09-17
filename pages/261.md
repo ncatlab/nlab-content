@@ -256,3 +256,10 @@ Some more facts about homotopical aspects of simplicial sets are discussed in se
 
 [[!redirects cosimplicial set]]
 [[!redirects cosimplicial sets]]
+
+[[!redirects face map]]
+[[!redirects boundary map]]
+[[!redirects face maps]]
+[[!redirects boundary maps]]
+
+
