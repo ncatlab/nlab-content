@@ -11,9 +11,9 @@
 
 ## Idea
 
-The _B-model_ is a 2-dimensional [[topological conformal field theory|topological N=2 superconformal field theory]] attached to a compact [[Calabi-Yau variety]] $X$. In Kontsevich's version, instead of SCFT with Hilbert space, one assembles all the data in terms of [[Calabi-Yau category|Calabi-Yau A-infinity category]]. 
+Witten introduced two topological twists of a supersymmtric nonlinear sigma model, which is a certain N=2 superconformal field theory attached to a compact [[Calabi-Yau variety]] $X$. One of them is the (topological) _B-model_; it is a 2-dimensional [[topological conformal field theory|topological N=1 superconformal field theory]]. In Kontsevich's version, instead of SCFT with Hilbert space, one assembles all the needed data in terms of [[Calabi-Yau category|Calabi-Yau A-infinity category]] which is the A-infinity category of coherent sheaves on the underlying variety. In fact only the structure of a derived category is sufficient (and usually quoted): it is now known (by the results of [[Dmitri Orlov]] and [[Valery Lunts]]) that under mild assumptions on the variety, a derived category of coherent sheaves has a unique [[enhanced triangulated category|enhancement]].
 
-The B-model arose in formal [[physics]] from considerations of [[string theory|superstring]]-propagation on Calabi-Yau varieties: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the supersymmetric [[sigma-model]] with target $X$ and then deforming it such that one of the super-[[Virasoro-algebra|Virasoro]] generators squares to 0. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
+The B-model arose in considerations of [[string theory|superstring]]-propagation on Calabi-Yau varieties: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the N=2 supersymmetric nonlinear [[sigma-model]] with target $X$ and then changing the fields so that one of the super-[[Virasoro-algebra|Virasoro]] generators squares to 0. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
 
 By [[homological mirror symmetry]], the B-model is dual to the  [[A-model]].
 
