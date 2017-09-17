@@ -649,8 +649,7 @@ The [[infinitesimal shape modality]] $\Pi_{inf}$ is naturally thought of as prod
 ###### Remark
 
 In terms of claim \ref{PiInf} then the statement of the [[geometric Langlands correspondence]] is that there is a natural [[correspondence]] between
-
-$\Pi_{inf}[\Sigma, \mathbf{B}G]$ and $[\Pi_{inf}\Sigma, \mathbf{B}G]$.
+$\Pi_{inf}[\Sigma, \mathbf{B}G]$ and $[\Pi_{inf}\Sigma, \mathbf{B}{}^L G]$.
 
 
 =--
