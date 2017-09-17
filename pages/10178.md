@@ -1067,7 +1067,7 @@ A naive infinitesimal [[prequantum observable]] of $X$ is just a smooth function
 $$
   O
   \;\; \colon
-   \;\;
+   \;\;\;\;\;\;
   \array{
     X && \stackrel{\simeq}{\to} && X
     \\
