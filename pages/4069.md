@@ -1,1 +1,10 @@
-&lt; [[finit group]]
+__Spectral category__ is a [[enriched category|category enriched]] in the [[symmetric spectrum|symmetric monoidal category of spectra]]. Pretriangulated spectral categories are a model of stable $(\infty,1)$-categories.
+
+* [[Stefan Schwede]], _Enhancements of triangulated categories_, [pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf)
+* [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology __42__:1 (2003) 103--153, MR2003g:55034
+
+Background material on symmetric spectra is in
+
+* [[Stefan Schwede]], _Symmetric spectra_, book project in progress, beta version [pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf)
+
+[[!redirects spectral categories]]
