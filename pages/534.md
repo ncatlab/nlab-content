@@ -30,6 +30,30 @@ We say that a point $y \in X$ **lies in the future** of a point $x \in X$ if $y 
 
 We say that $(X,\mu)$ has **closed timelike curves** (closed future-directed curves) if there exists a non-constant timelike (future-dierected) curve starting and ending at some point $x$. Spacetimes which do not contain closed timelike curves are called **chronological**, spacetimes which do not contain closed future directed (i.e. non-spacelike) curves are called **causal**. 
 
+
++-- {: .un_def}
+###### Definition
+Given a time orientated spacetime L, the **chronological future** $I^+(p)$ of a point $p \in L$ is the set of events that can be reached by a future directed timelike curve starting from p:
+$$
+I^+(p) := \{ q \in L | \text{there exists a future directed timelike curve} \lambda(t) \text{with} \lambda(0) = p and \lambda(1)=q \}
+$$ 
+
+The **causal future** $J^+(p)$ of $p$ is defined in the same way with future directed timelike replaced by future directed causal aka non-spacelike.
+=--
+
++-- {: .un_def}
+###### Definition
+A subset S of a time orientated spacetime L is said to be **achronal** if no two points in S can be connected by a future directed timelike curve, i.e. for all $p, q \in L$ we have $q \notin I^+(p)$.
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+**boundary of chronological future**
+Let L be a time orientated spacetime and $S \subset L$. Then the boundary of $I^+(S)$ is either empty or an achronal, three-dimensional, embedded, $C^0$-submanifold of L.
+=--
+This is theorem 8.1.3 in the book of Wald.
+
 Examples of non-chronological Lorentzian manifolds are the [[anti de Sitter space]] and the [[Kerr spacetime]]. 
 
 While the former is more of a theoretical interest due to the maximality of the symmetry group, the latter is usually seen as a solution with relevance to actual _physics_, despite the fact that causality does not hold everywhere.
@@ -177,6 +201,10 @@ Then the path $(2,1)$-category $P_1(X)$ is defined as follows:
   There is an evident diffeology and evident composition operations on this. Notice that the generating 2-cells are 2-isomorphisms, but that their source and target morphisms are not generally invertible. 
 
 ## References
+
+A classic reference for general relativity is
+
+* Robert Wald: _General Relativity_
 
 A textbook dedicated to the classical [[differential geometry|diffential geometric]] aspects Lorentzian manifolds is
 
