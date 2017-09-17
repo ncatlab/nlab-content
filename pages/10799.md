@@ -356,6 +356,8 @@ This means for instance that the [[general linear group]] $GL_n(\mathbb{A}_F)$ w
 
 * [[adelic string theory]]
 
+* [[adelic integration]]
+
 ## References
 
 * D. Goldfeld, J. Hundley, chapter 1 of _Automorphic Representations and L-functions for the General Linear Group_, vol. 1, Cambridge University 
