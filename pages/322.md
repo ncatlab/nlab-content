@@ -441,7 +441,11 @@ The [[Boardman-Vogt tensor product]] makes the category of symmetric colored ope
 
 * **operad** / [[(∞,1)-operad]]
 
+  * [[multicategory]], [[polyacategory]]
+
   * [[cooperad]]
+
+* [[PROP]]
 
 * [[cohomology of operads]]
 
