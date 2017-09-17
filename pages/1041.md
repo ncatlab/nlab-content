@@ -1,4 +1,19 @@
-#Abelian categories#
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
@@ -45,7 +60,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 ## Categories of $R$-modules 
 
-There are some interesting results about the extent to which we can pretend any abelian category is a category of left $R$-modules for some ring $R$.  Let us write $R Mod$ for such a category of modules.  
+There are some interesting results about the extent to which we can pretend any abelian category is a category of left $R$-[[module]]s for some [[ring]] $R$.  Let us write $R Mod$ for such a category of modules.  
 
 First of all, it's easy to see that not every abelian category is equivalent to $R Mod$ for some ring $R$.  The reason is that $R Mod$ has all [[small category]] [[limits]] and [[colimits]].  The category of [[finitely generated module|finitely generated]] $R$-modules is an abelian category that lacks these properties.
 
@@ -60,6 +75,8 @@ Every small abelian category admits a [[full functor|full]], [[faithful functor|
 ###### Proof
 This result can be found as Theorem 7.34 on page 150 of Peter Freyd's book [Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3.pdf#page=176).  His terminology is a bit outdated, in that he calls an abelian category "fully abelian" if admits a full and faithful exact functor to a category of $R$-modules.  See also the [Wikipedia article](http://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem) for the idea of the proof.
 =--
+
+See also [[Freyd-Mitchell embedding theorem]].
 
 We can also characterize which abelian categories _are_ equivalent to a category of $R$-modules:
 
