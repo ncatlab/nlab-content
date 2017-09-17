@@ -12,7 +12,7 @@ In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-cate
 
 * a 0-morphism is an [[object]]
 
-* a 1-moprhism is a [[morphism]]
+* a 1-morphism is a [[morphism]]
 
 * next are [[2-morphism]]s
 
