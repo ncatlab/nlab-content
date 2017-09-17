@@ -5,10 +5,10 @@
 |---------------------------------|-----------------------------------|--------------------|
 | [[linear type]] | ([[module spectrum|module]]-)[[spectrum]] |  |
 | [[multiplicative conjunction]] | [[smash product of spectra]] |  [[composite system]] |
-| [[dependent linear type]]           | [[(infinity,1)-module bundle|module spectrum bundle]] |  [[prequantum bundle]] |
+| [[dependent linear type]]           | [[(infinity,1)-module bundle|module spectrum bundle]] |   |
 | [[Frobenius reciprocity]] | [[six operation yoga]] in [[Wirthmüller context]] |  |
 | [[dual object|dual type]] (linear negation) | [[Spanier-Whitehead duality]] |  |
-| [[invertible type]]  | [[twisted generalized cohomology|twist]]  |  |
+| [[invertible type]]  | [[twisted generalized cohomology|twist]]  | [[prequantum line bundle]]  |
 | [[dependent sum]] | [[generalized homology]] [[spectrum]] | [[space of quantum states]] ("[[bra-ket|bra]]") |
 | [[dual type|dual]] of [[dependent sum]] | [[generalized cohomology]] [[spectrum]] | [[space of quantum states]] ("[[bra-ket|ket]]") |
 | [[linear implication]] | [[bivariant cohomology]] | [[quantum operators]] |
