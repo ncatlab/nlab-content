@@ -168,8 +168,8 @@ $$
 
 be the [[pullback]] (of [[simplicial sets]]) of the universal right fibration along this inclusion.
 
-Since [[right fibrations]] are stable under pullback (see [here](ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PreservationByPullback)), this is still a right fibration. Since, up to equivalence, every morphism into a [[Kan complex]] is a 
-right fibration (see [here](ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#OverKanComplex)), and since every
+Since [[right fibrations]] are stable under pullback (see [here](http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#PreservationByPullback)), this is still a right fibration. Since, up to equivalence, every morphism into a [[Kan complex]] is a 
+right fibration (see [here](http://ncatlab.org/nlab/show/right%2Fleft+Kan+fibration#OverKanComplex)), and since every
 morphism out of a Kan complex into $\infty Grpd_\kappa$ factors
 through the core $Type_\kappa$ it follows that
 $Type_\kappa$ classifies all morphisms $X \to Y$ in [[∞Grpd]]
@@ -212,7 +212,7 @@ it follows that $X$ is $\kappa$-compact if $Y$ is.
 
 ## Related concepts
 
-* [[type of propositions]]
+* [[type of propositions]], [[subobject classifier]]
 
 * [[type of types]]
 
