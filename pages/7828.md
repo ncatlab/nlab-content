@@ -123,7 +123,6 @@ As suggested there and by the main ([Lawson-Naumann 12, theorem 1.2](#LawsonNaum
 
 
 
-
 ## Related concepts
 
 * [[real-oriented cohomology theory]]
@@ -157,6 +156,12 @@ The version of $KSC$-theory was introduced in
 The dual concept of KR-homology was defined in
 
 * [[Gennady Kasparov]], _The operator K-functor and extensions of $C^\ast$-algebras,_ Izv. Akad. Nauk. SSSR Ser. Mat. 44, 571-636 (1980).
+
+Discussion in the general context of [[real oriented cohomology theory]] is in 
+
+* {#Kriz01} [[Igor Kriz]], _Real-oriented homotopy theory and an analogue of the
+Adams}Novikov spectral sequence_, Topology 40 (2001) 317-399 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/hukriz.pdf))
+
 
 Further discussion includes
 
@@ -256,3 +261,5 @@ $\,$
 [[!redirects KR-homology]]
 
 [[!redirects KR-theory]]
+
+[[!redirects real K-theory]]
