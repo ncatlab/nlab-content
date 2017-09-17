@@ -132,6 +132,16 @@ This is theorem 5.1 in
 
 > There are more and similar characterizations along these lines. Hopefully we can eventually fill them in here.
 
+## Topologies {#Topologies}
+
+There are alternative topologies on $\mathbb{R}$ sometimes considered. For instance the
+
+* [[K-topology]].
+
+Another variant of $\mathbb{R}$ as topological spaces is the
+
+* [[long line]].
+
 
 ## Generalisations
 
