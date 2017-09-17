@@ -23,7 +23,7 @@ In the context of [[AQFT]] the structure of local nets is used as the very axiom
 
 ## Definition
 
-In the literature there is a certain variance and flexibility of what precisely the axioms on a local net of obserables are, though the core aspects are always the same: it is a [[copresheaf]] of ([[C-star algebra|C-star]] [[associative algebra|algebra]] s) on pieces of [[spacetime]] such that algebras assigned to [[causal locality|causally disconnected]] regions commute inside the algebra assigned to any joint neighbourhood. 
+In the literature there is a certain variance and flexibility of what precisely the axioms on a local net of observables are, though the core aspects are always the same: it is a [[copresheaf]] of ([[C-star algebra|C-star]] [[associative algebra|algebra]] s) on pieces of [[spacetime]] such that algebras assigned to [[causal locality|causally disconnected]] regions commute inside the algebra assigned to any joint neighbourhood. 
 
 Historically this was first formulated for [[Minkowski spacetime]] only, where it is known as the [[Haag-Kastler axioms]]. Later it was pointed out ([BrunettiFredenhagen](#BrunettiFredenhagen)) that the axioms easily and usefully generalize to arbitrary [[spacetime]]s. 
 
