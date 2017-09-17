@@ -42,7 +42,7 @@ A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called **proper** 
 
 A topos is called **strongly compact** if $\Gamma$ commutes even with all [[filtered colimits]].
 
-A geometric morpjhism $f : \mathcal{F} \to \mathcal{E}$ is called **tidy** if it exhibits $\mathcal{F}$ as a strongly compact topos over $\mathcal{E}$.
+A geometric morphism $f : \mathcal{F} \to \mathcal{E}$ is called **tidy** if it exhibits $\mathcal{F}$ as a strongly compact topos over $\mathcal{E}$.
 
 =--
 
