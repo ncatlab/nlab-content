@@ -108,4 +108,10 @@ $$
 * in the context of [[exceptional generalized geometry]] one considers vielbeins arising from reduction along $H_n \to E_n$ for $E_n$ an [[exceptional Lie group]].
 
 
+## References
+
+Section _[Fields](geometry+of+physics#Fields)_ at 
+
+* _[[geometry of physics]]_
+
 [[!redirects generalized vielbeins]]
