@@ -37,3 +37,7 @@ _Toby_:  It means that if a weakly inaccessible cardinal exists, then a strongly
 ## Properties
 
 A cardinal $\kappa$ is inaccessible precisely when the $\kappa$th level $V_\kappa$ of the [[von Neumann hierarchy]] is a [[Grothendieck universe]], and hence in particular itself a model of axiomatic [[set theory]].  For this reason, the existence of inaccessible cardinals cannot be proven in ordinary axiomatic set theory such as [[ZFC]].  The axiom asserting that there exists an inaccessible (which amounts to the existence of a Grothendieck universe) is thus the beginning of the study of [[large cardinal]]s.  If one thinks of $\aleph_0$ as already an inaccessible cardinal, then the [[axiom of infinity]] may be seen as itself the first large cardinal axiom.
+
+[[!redirects inaccessible cardinals]]
+[[!redirects weakly inaccessible cardinal]]
+[[!redirects weakly inaccessible cardinals]]
