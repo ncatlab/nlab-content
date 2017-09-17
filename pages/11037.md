@@ -66,7 +66,7 @@ Typically, a cut-elimination algorithm goes hand-in-hand with an algorithm which
 
 In fact, there is a sense in which elimination of cuts is seen as _dual_ to elimination of identities, analogous to the sense in which [[beta reduction]] is seen as dual to [[eta expansion]]. Very typically, a normalization scheme on terms first applies eta expansions are far as they will go, and then applies beta reductions as far as they will go, so as to at last reach a normal form. The same goes for rewrite systems on sequent deductions, which first eliminate identities, then eliminate cuts. 
 
-## Examples
+## Examples of elimination steps 
 
 The conversion
 
@@ -76,7 +76,13 @@ $$
 \frac{\displaystyle \frac{\Gamma, A \vdash B, \Delta \;\;\; \Pi_1 \vdash A,\Lambda_1}{\Pi_1,\Gamma \vdash \Lambda_1,B,\Delta} \;\;\; \Pi_2,B \vdash \Lambda_2}{\Pi_2,\Pi_1, \Gamma \vdash \Lambda_2, \Lambda_1,\Delta}
 $$
 
-replaces a single cut on the formula $A \multimap B$ with a pair of cuts on the formulas $A$ and $B$, in the process eliminating the use of the logical rules ${\multimap}R$ and ${\multimap}L$.  Likewise, the conversion
+replaces a single cut on the formula $A \multimap B$ with a pair of cuts on the formulas $A$ and $B$, in the process eliminating the use of the logical rules ${\multimap}R$ and ${\multimap}L$. 
+
+Although this step replaces one cut by two, the cuts have been in effect pushed up the proof tree, to formulas of lower complexity. Cuts are finally eliminated when they have been pushed all the way up to identity axioms on propositional variables, by applying conversions of type 
+
+$$\frac{\displaystyle \frac{}{x \vdash x}\; axiom \;\;\;\; \frac{}{x \vdash x}\; axiom}{x \vdash x} \; cut \quad\to\quad \frac{}{x \vdash x}\; axiom.$$ 
+
+Likewise, the conversion
 
 $$A \wedge B \vdash A \wedge B
 \quad\to\quad
