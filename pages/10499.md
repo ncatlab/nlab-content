@@ -81,7 +81,7 @@ Under the [[function field analogy]] we may think of
 
 Under this [[analogy]] the arithmetic fracture square of prop. \ref{ArithmeticFractureSquare} says that the curve $Spec(\mathbb{Z})$ has a [[cover]] whose patches are the complement of the curve by some points, and the formal disks around these points. 
 
-This kind of cover plays a central role in [[number theory]], see for instance thr following discussions:
+This kind of cover plays a central role in [[number theory]], see for instance the following discussions:
 
 * _[Moduli stack of bundles over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_;
 
@@ -116,7 +116,7 @@ of its [[rationalization]] $X_{\mathbb{Q}}$ with its [[p-completion]] $X_p^\wedg
 
 =--
 
-This originates around ([Bousfield-Kan 72, VI.8.1](#BousfieldKan72)). A detailed more modern account is in ([May-Ponto, theorem 13.1.4](#MayPonto)). A quick sruvey is in [Riehl 14, theorem 14.4.14](#Riehl14).
+This originates around ([Bousfield-Kan 72, VI.8.1](#BousfieldKan72)). A detailed more modern account is in ([May-Ponto, theorem 13.1.4](#MayPonto)). A quick survey is in [Riehl 14, theorem 14.4.14](#Riehl14).
 
 Similar statements hold in [[stable homotopy theory]] for [[spectra]], in which case the homotopy pullback squares here are also known as **arithmetic squares** ([Sullivan 05](#Sullivan05), for a review see [Bauer, section 2](#Bauer)).
 
@@ -131,7 +131,7 @@ The impact of prop. \ref{FractureForSpectra} is that it decomposes the study of 
 
 1. [[p-adic homotopy theory]] for each prime $p$.
 
-Both the [[rationalization]] $X_{\mathbb{Q}}$ and the [[p-completion]] $X_{p}^\\wedge$ are typically much easier to analyze than $p$ itself and so the fracture theorem gives a way to decompose the remaining hard part of study of [[homotopy types]] into that of $p$-local/$p$-complete spaces. 
+Both the [[rationalization]] $X_{\mathbb{Q}}$ and the [[p-completion]] $X_{p}^\wedge$ are typically much easier to analyze than $p$ itself and so the fracture theorem gives a way to decompose the remaining hard part of study of [[homotopy types]] into that of $p$-local/$p$-complete spaces. 
 This procedure is known in homotopy theory as working "one prime at a time".
 
 =--
