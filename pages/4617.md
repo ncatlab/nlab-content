@@ -1036,3 +1036,6 @@ For ordinary commutative algebras the generalizaton of Toen's setup to geometry 
 {#BenZviNadler}
 
 [[!redirects function algebras on ∞-stacks]]
+
+[[!redirects rational homotopy theory in an (∞,1)-topos]]
+[[!redirects rational homotopy theory in an (infinity,1)-topos]]
