@@ -16,7 +16,7 @@
 
 ## Idea
 
-Kleene's second algebra is a [[partial combinatory algebra]] based on [[Baire space]]. 
+Kleene's second algebra is a [[partial combinatory algebra]] based on [[irrational number|Baire space]]. 
 
 ## Definition
 
