@@ -24,7 +24,7 @@ The [[stabilization]] of an [[(∞,1)-topos]] $\mathbf{H}$
 $$
   (\Sigma^\infty \dashv \Omega^\infty) : 
   \mathbf{H}
-   \stackrel{\overset{\Omega^\infty}{\leftarrow}}{\underset{\Sigma^\inft}{\to}}
+   \stackrel{\overset{\Omega^\infty}{\leftarrow}}{\underset{\Sigma^\infty}{\to}}
   Stab(\mathbf{H})
 $$
 
@@ -78,8 +78,7 @@ part II of
 
 A [[model category]] structure of presheaves of spectra akin to the [[model structure on simplicial presheaves]] is discussed in 
 
-* [[Rick Jardine]], _Stable homotopy theory of simplicial presheaves_, Canad. J. Math. 39(1987), 733-747 ([pdf]
-(http://cms.math.ca/cjm/v39/cjm1987v39.0733-0747.pdf))
+* [[Rick Jardine]], _Stable homotopy theory of simplicial presheaves_, Canad. J. Math. 39(1987), 733-747 ([pdf](http://cms.math.ca/cjm/v39/cjm1987v39.0733-0747.pdf))
 
 Plenty of further discussion is in
 
