@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[symmetric monoidal category]] (possibly taken to be [[internal category|internal to]] [[Top]]) in which [[associativity]] holds strictly.
+A **permutative category** is a [[symmetric monoidal category]] (possibly taken to be [[internal category|internal to]] [[Top]]) in which [[associativity]] (including [[unitality]]) holds strictly.  Also known as a **symmetric strict monoidal category**.
 
 ## Definition
 
@@ -29,6 +29,8 @@ A [[symmetric monoidal category]] (possibly taken to be [[internal category|inte
 ## Properties
 
 Every [[symmetric monoidal category]] is [[equivalence of categories|equivalent]] to a permutative one ([Isbell](#Isbell)). 
+
+The [[nerve]] of a permutative category is an [[E-infinity space]], and therefore can be infinitely delooped to obtain an [[infinite loop space]] as its [[group completion]].
 
 ## Related concepts
 
@@ -54,3 +56,5 @@ Discussion in the context of [[K-theory of a permutative category]] is in
 
 
 [[!redirects permutative categories]]
+[[!redirects symmetric strict monoidal category]]
+[[!redirects symmetric strict monoidal categories]]
