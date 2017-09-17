@@ -19,8 +19,7 @@
 
 The _local Langlands conjectures_ are certain [[conjectures]] in the context of the [[Langlands program]].
 
-They describe a correspondence between [[representations]] of the [[Weil group]] of a 
-[[local field]] and representations of [[algebraic groups]] over the local field, generalizing 
+They describe a correspondence between [[representations]] of the [[Weil group]] of a  [[local field]] and [[representations]] of [[algebraic groups]] over the local field, generalizing 
 local [[class field theory]] from [[abelian group|abelian]] [[Galois groups]] to non-abelian Galois groups.
 
 ## Related concepts
@@ -43,3 +42,6 @@ See also
 
 [[!redirects local Langlands program]]
 [[!redirects local langlands program]]
+
+[[!redirects local Langlands duality]]
+[[!redirects local Langlands correspondence]]
