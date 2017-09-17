@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 #### Measure and probability theory
@@ -13,29 +13,37 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _classical state_ is a [[state]] of a [[system of classical mechanics]]. 
+A _classical state_ is a [[state]] of a [[system of classical mechanics]].
+
+In principle, a [[pure state]] in classical mechanics specifies completely all information about the state of the system, while a [[mixed state]] is a [[probability measure]] on the space of pure states.  This space of pure states my be identified with the [[state space]] in [[Lagrangian mechanics]] or with the [[phase space]] in [[Hamiltonian mechanics]].
+
 
 ## Definition
 
-For $A$ a commutative unital [[associative algebra]] that encodes a [[system of classical mechanics]] (the associative algebra underlying a [[Poisson algebra]]), a **classical state** is an $\mathbb{R}$-[[linear function]]
+We give a definition in a very general context.
+
+For $A$ a [[commutative algebra|commutative]] unital [[associative algebra]] that encodes a [[system of classical mechanics]] (say, the associative algebra underlying a [[Poisson algebra]]), a **classical state** is an $\mathbb{R}$-[[linear function]]
 
 $$
-  \rho : A \to \mathbb{R}
-$$ 
+  \rho\colon A \to \mathbb{R}
+$$
 
 that satisfies
 
 * **normalization** $\rho(1) = 1$;
 
-* **positivity** for all $a \in A$ we have $\rho(a a ) \geq 0$.
+* **positivity** for all $a \in A$ we have $\rho(a^2) \geq 0$.
 
-This is essentially the definition of [[quantum state]], but formulate for commutative and and over the [[real number]]s
+This is essentially the definition of [[quantum state]], but formulate for commutative algebras and and over the [[real number]]s.
+
+If we take $A$ to be a $*$-[[star-algebra|algebra]] over the [[complex numbers]], then we may take $\rho$ to be a $\mathbb{C}$-linear function from $A$ to $\mathbb{C}$ instead.
+
 
 ## Related concepts
 
@@ -52,4 +60,5 @@ This is essentially the definition of [[quantum state]], but formulate for commu
   * [[GNS construction]]
 
 
-[[!redirects classical state]].
+[[!redirects classical state]]
+[[!redirects classical states]]
