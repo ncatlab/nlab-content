@@ -32,14 +32,14 @@ For $C$ a [[monoidal category]], the **category of [[monoid]]s** $Mon(C)$  in th
 
 ## Remarks
 
-* If $Assoc$ denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
+* If [[Assoc]] denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Assoc$ is the category of [[algebras over an operad]] for $Assoc$.
 
 * Every category of monoids comes with a [[forgetful functor]] $U \colon Mon(C) \to C$ which is [[faithful functor|faithful]] and [[conservative functor|conservative]].  In many cases it is [[monadic functor|monadic]].
 
 
 ## Properties
 
-The properties of the category of monoids $Mon (C)$, especially with respect to colimits, are markedly different according to whether or not the tensor product of $C$ preserves colimits in each variable.  (This is automatically the case if $C$ is [[closed monoidal category|closed]].)
+The properties of the [[category]] of monoids $Mon (C)$, especially with respect to [[colimit]]s, are markedly different according to whether or not the [[tensor product]] of $C$ preserves colimits in each variable.  (This is automatically the case if $C$ is [[closed monoidal category|closed]].)
 
 Most "algebraic" situations have this property, but others do not.  For instance, the category of [[monads]] on a fixed category $A$ is $Mon (C)$, where $C= [A,A]$ is the category of [[endofunctors]] of $A$ with composition as its monoidal structure.  This monoidal product preserves colimits in one variable (since colimits in $[A,A]$ are computed pointwise), but not in the other (since most endofunctors do not preserve colimits).  So far, the material on this page focuses on the case where $\otimes$ does preserve colimits in both variables, although some of the references at the end discuss the more general case.
 
