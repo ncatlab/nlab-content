@@ -1,4 +1,7 @@
-> **Under Construction**
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 
 #Contents#
 * automatic table of contents goes here
@@ -60,7 +63,11 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
 * [[Minkowski spacetime]]
 
-* [[Kerr spacetime]]
+* [[black hole spacetime]]
+
+  * [[Schwarzschild spacetime]]
+
+  * [[Kerr spacetime]] 
 
 ...
 
