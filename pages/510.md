@@ -149,6 +149,7 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[symmetric monoidal smash product of spectra]]
 
+
 ### Closed structure
 
 * [[mapping spectrum]]
@@ -162,6 +163,8 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 * [[sheaf of spectra]], [[parametrized spectrum]]
 
   * [[smooth spectrum]]
+
+* [[spectrum with G-action]], [[G-spectrum]]
 
 * [[ring spectrum]], [[algebra spectrum]], [[module spectrum]]
 
