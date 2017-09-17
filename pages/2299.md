@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -27,7 +26,7 @@ There are two aspects to this, induced from the two aspects of [[big and little 
 
 * A _little $(\infty,1)$-topos_ enocodes itself a [[space]]. Axioms for equipping little $(\infty,1)$-toposes with geometric structure have been given in ([Lurie](#Lurie)) in terms of the notion of [[structured (∞,1)-topos]]es.
 
-* A _big $(\infty,1)$-topos_ is an [[(∞,1)-category]] whose _[[object]]s_ are generalized spaces. Axioms for characterizing big [[topos]]es that encode geometry have been given in ([Lawevere](#Lawevere)). Their generalization to $(\infty,1)$-topos theory is given by the notion of a [[cohesive (∞,1)-topos]].
+* A _big $(\infty,1)$-topos_ is an [[(∞,1)-category]] whose _[[object]]s_ are generalized spaces. Axioms for characterizing big [[topos]]es that encode geometry have been given in ([Lawvere](#Lawvere)). Their generalization to $(\infty,1)$-topos theory is given by the notion of a [[cohesive (∞,1)-topos]].
 
 
 ## Axiomatizations
