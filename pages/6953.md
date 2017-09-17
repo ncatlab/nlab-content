@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 #### Functional analysis
@@ -9,16 +10,15 @@
 =--
 =--
 
-# Type and Cotype in Functional Analysis #
-
+# Type and Cotype in Functional Analysis
 * tic
 {: toc}
 
-## Idea ##
+## Idea
 
 The **type** and **cotype** of a [[Banach space]] measure how far it is from being a [[Hilbert space]].  The definition is based on the observation, due to [[John von Neumann]], that a Banach space is a Hilbert space if and only if it satisfies the [[parallelogram identity]].  Recall that this states that in a Hilbert space,
 $$
-\| x + y\|^2 + \|x - y\|^2 = 2\|x\|^2 + 2\|y\|^2.
+{\|x + y\|^2} + {\|x - y\|^2} = 2{\|x\|^2} + 2{\|y\|^2}.
 $$
 This can be thought of as a way of improving the triangle inequality, which relates $\|x \pm y\|$ to $\|x\|$ and $\|y\|$, by finding an equality relating $\|x \pm y\|$ to $\|x\|$ and $\|y\|$.
 
@@ -30,8 +30,8 @@ To define the type and cotype of a Banach space, we start with a finite family o
 
 $$
 \begin{aligned}
-\Average_\pm \left\|\sum \pm x_i\right\|^2 &\le T_2^2 \sum \|x_i\|^2, \\
-\Average_\pm \left\|\sum \pm x_i\right\|^2 &\ge C_2^{-2} \sum \|x_i\|^2
+\Average_\pm {\left\|\sum \pm x_i\right\|^2} &\le T_2^2 \sum {\|x_i\|^2}, \\
+\Average_\pm {\left\|\sum \pm x_i\right\|^2} &\ge C_2^{-2} \sum {\|x_i\|^2}
 \end{aligned}
 $$
 
