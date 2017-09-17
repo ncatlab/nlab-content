@@ -19,7 +19,7 @@ This is the analog of a [[filtered category]] in the context of [[(∞,1)-catego
 
 The main purpose of considering filtered (∞,1)-categories is to define [[filtered (∞,1)-colimits]], which are the colimits that commute with [[finite (∞,1)-limits]].
 
-## Definition
+## Definition of filtered quasicategory
 
 Let $\kappa$ be a [[regular cardinal]], and let $C\in \sSet$ be an (∞,1)-category, incarnated as a [[quasicategory]].
 
@@ -55,7 +55,7 @@ Section 5.3.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-
+[[!redirects filtered quasicategory]]
 [[!redirects filtered (infinity,1)-categories]]
 [[!redirects filtered (∞,1)-category]]
 [[!redirects filtered (∞,1)-categories]]
