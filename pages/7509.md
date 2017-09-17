@@ -19,10 +19,13 @@ In [[dependent type theory]], a _dependent sum type_ of a [[dependent type]]  $x
 
 In a [[model]] of the type theory in [[categorical semantics]], this is a [[dependent sum]] (indexed disjoint union).  It includes [[product types]] as the special case where $B$ is not dependent on $A$.
 
+## Overview
+
+[[!include dependent sum natural deduction - table]]
 
 ## Definition
 
-Like any type constructor in type theory, the dependent product type is specified by rules saying when we can introduce it as a type, how to construct terms of that type, how to use or "eliminate" terms of that type, and how to compute when we combine the constructors with the eliminators.
+Like any [[type formation|type constructor]] in [[type theory]], the dependent product type is specified by rules saying when we can [[type formation|introduce]] it as a type, how to [[term introduction|construct terms]] of that type, how to use or "[[term elimination|eliminate]]" terms of that type, and how to [[computation rule|compute]] when we combine the constructors with the eliminators.
 
 The presentation of dependent sum type is almost exactly the same as that of [[product types]], with the simple change that $B$ may depend on $A$.  In particular, they can be presented both as a [[negative type]] or as a [[positive type]].  In both cases, the rule for building the dependent sum type is the same:
 
