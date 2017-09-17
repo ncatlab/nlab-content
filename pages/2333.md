@@ -39,7 +39,7 @@ More generally, any real [[affine space]] is a convex space; since $p + (1 - p) 
 
 Still more generally, any convex subset (that is, one containing the entire line segment between two given points) of a real affine space is a convex space (again with extra properties, which are described algebraically below).
 
-The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(a,b) = a \vee b = a + b - a b$ whenever $0 \lt p \lt 1$ (with $c_0(a,b) = b$ and $c_1(a,b) = 0$ as always); this cannot be realised as a subset of a vector space.  This can be generalised to any (possibly unbounded) [[semilattice]].  (It would be nice to find an example like this that can be defined constructively; this one relies on [[excluded middle]].)
+The [[Boolean field]] $\{0,1\}$ is a convex space with $c_p(a,b) = a \vee b = a + b - a b$ whenever $0 \lt p \lt 1$ (with $c_0(a,b) = b$ and $c_1(a,b) = a$ as always); this cannot be realised as a subset of a vector space.  This can be generalised to any (possibly unbounded) [[semilattice]].  (It would be nice to find an example like this that can be defined constructively; this one relies on [[excluded middle]].)
 
 
 ## Abstract convex sets
