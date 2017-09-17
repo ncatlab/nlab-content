@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _$C^\infty$-algebra_ is a [[commutative ring]] where the commutativity is relaxed up to [[coherence|coherent]] higher [[homotopy]].
+A _$C_\infty$-algebra_ is a [[commutative ring]] where the commutativity is relaxed up to [[coherence|coherent]] higher [[homotopy]].
 
 ## Related concepts
 
