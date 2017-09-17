@@ -65,6 +65,7 @@ Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on [[monomo
 * Suppose $E$ is a [[well-powered category]]. Denote by $Sub(X)$ the poset of subobjects of object $X$ in $E$. The correspondence $Sub:X\mapsto Sub(X)$ may be extended to a [[contravariant functor]] $X \to Pos$ (that is a functor $X^op \to Pos$), namely if $f: X\to Y$ is arbitrary and $m:S\hookrightarrow Y$ is a monic, then the pullback $f^*(m):f^*(S)\to X$ of $m$ along $f$ is automatically a monic; the correspondence $m\mapsto f^*(m)$ describes $Sub(f)$ at the level of representatives of subobjects.  
 
 ### Limits and colimits of subobjects
+ {#LimitsAndColimits}
 
 Assume that the ambient category has all [[limit]]s and [[colimit]]s considered in the following.
 
@@ -74,15 +75,32 @@ Assume that the ambient category has all [[limit]]s and [[colimit]]s considered 
 For $X \in C$ an [[object]], $Sub(X)$ the [[poset]] of subobjects and  
 $U_1, U_2 \hookrightarrow X$ two [[subobject]]s, 
 
-*  their [[product]] in $Sub(X)$ is denoted $U_1 \cap U_2$ or $U_1 \wedge U_2$ and called the **[[intersection]]** or **[[meet]]** of the two subobject;
+*  their [[product]] in $Sub(X)$ is denoted $U_1 \cap U_2$ or $U_1 \wedge U_2$ and called the **[[intersection]]** or **[[meet]]** of the two subobjects;
 
 * their [[coproduct]] in $Sub(X)$ is denoted $U_1 \cup U_2$ or $U_1 \vee U_2$ and called the **[[union]]** or **[[join]]** of the two subobjects.
+
+Two subobjects $U_1, U_2 \in Sub_C(X)$ are called **disjoint** if $U_1 \cap U_2 = \emptyset$ is the [[initial object]].
  
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+In a [[topos]], if two subobjects are disjoint, then their [[join]] in $Sub_C(X)$ is given by their [[coproduct]] in $C$.
+
+$$
+  U_1 \cup U_2 = U_1 \coprod U_2
+  \,.
+$$
+
+=--
+
+For instance ([MacLane-Moerdijk, IV.7.6](#MacLaneMoerdijk)). This generalizes as follows:
 
 +-- {: .num_prop #IntersectionAndUnionAsFiberProductAndCoimage}
 ###### Proposition
+
+Let $C$ be a [[topos]].
 
 1. The intersection of two subobjects in $Sub_C(X)$ is their [[fiber product]] in $C$: the [[diagram]]
 
@@ -112,50 +130,16 @@ $U_1, U_2 \hookrightarrow X$ two [[subobject]]s,
   
    is a [[pushout]] diagram.
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-1. Since [[monomorphism]] are (as discussed there) stable under [[pullback]] and composition, the fiber product is a subobject. Its [[universal property]] as a [[limit]] in $C$ then implies its universal property as a [[product]] in $Sub_C(X)$.
-
-1. First observe that the canonical morphism $U_1 \coprod_{U_1 \cap U_2} U_2 \to X$ is a [[monomorphism]] and hence exhibits the pushout as a subobject: (...)
-
-   From this it follows as above that the universal property of the pushout in $C$ implies the universal property of the coproduct in $Sub(X)$.
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-For $U_1, U_2 \hookrightarrow X$ two subobjects in any [[topos]], the [[diagram]]
-
-$$
-  \array{
-    U_1 \cap U_2 &\to& U_2
-    \\
-    \downarrow && \downarrow
-    \\
-    U_1 &\to& U_1 \cup U_2
-  }
-$$
-
-is both a [[pullback]] as well as a [[pushout]] diagram.
+1. This last pushout diagram is also a [[pullback]] diagram.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The pushout property is item 2 of prop. \ref{IntersectionAndUnionAsFiberProductAndCoimage}.
+For the first point: Since [[monomorphism]] are (as discussed there) stable under [[pullback]] and composition, the fiber product is a subobject. Its [[universal property]] as a [[limit]] in $C$ then implies its universal property as a [[product]] in $Sub_C(X)$.
 
-This pushout is equivalent to 
-
-$$
-  U_1 \cap U_2 \stackrel{\to}{\to} U_1 \coprod U_2 \to U_1 \cup U_2
-$$
-
-being a [[coequalizer]] diagram. 
+(...)
 
 =--
 
