@@ -308,6 +308,8 @@ There are important standard functors from $\Delta$ to other categories which _[
 
   * [[globe category]]
 
+  * [[cell category]]
+
 * [[simplicial set]]
 
 * [[augmented simplicial set]]
