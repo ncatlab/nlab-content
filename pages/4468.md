@@ -41,7 +41,7 @@ Any two of these definitions can be shown to be equivalent in the union of the c
 
 * In predicative mathematics with classical logic, one can prove that every preorder has a unique positivity predicate, which must match Definition \ref{preddef}.
 
-* In impredicative constructive mathematics, one can prove that every preorder has a unique positivity predicate, which must match Definition \ref{constdef}.
+* In impredicative constructive mathematics, one can prove that if a preorder admits a positivity predicate, it is given by Definition \ref{constdef}. However, in general Definition \ref{constdef} gives not rise to a positivity predicate in the sense of Definition \ref{predconstdef}.
 
 * In [[classical mathematics]] (with [[classical logic]] and impredicativity), all of the definitions are equivalent.
 
@@ -52,6 +52,8 @@ Every [[power set]] has a positivity predicate: $x$ is positive iff $x$ is [[inh
 
 The positive predicate on a [[locale]] plays a role in the definition of an [[overt space]].  Locale theory is often considered constructively but impredicatively; in predicative constructive mathematics, a positivity predicate is used in the corresponding theory of [[formal topology]].
 
+In impredicative constructive mathematics, a sufficient condition for a complete poset to possess a positivity predicate is that any element is a join of positive elements. To show this, it suffices to prove that for any element $a$, it holds that $a = \bigvee \{ a | a \, positive \}$. The remaining properties can then be easily verified. By assumption, $a = \sup B$ for some set $B$ containing only positive elements. For any $b \in B$, it holds that $b \leq a$, thus that $a$ is positive and thus that $b \leq \bigvee \{ a | a \, positive \}$. Therefore $\sup B \leq \bigvee \{ a | a \, positive \}$ holds as well. The other inequality is trivial.
+
 Every [[atom]] of $L$ is positive, and indeed an atom is precisely a [[minimal element|minimal]] positive element.
 
 
@@ -61,6 +63,9 @@ Although classically trivial, a key property of positivity in the constructive c
 $$ \bigvee A = \bigvee A^+ ,$$
 where $A^+$ is the set of positive elements of $A$.
 
+A similar property is
+$$ a = \bigvee \{ a | a \, positive \} $$
+for any element $a$.
 
 [[!redirects positive element]]
 [[!redirects positive elements]]
