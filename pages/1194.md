@@ -18,7 +18,27 @@
 
 ## Idea
 
-Type theory is a branch of mathematical [[logic]] which studies elements of varying _types_, or _sorts_, rather than elements of a single fixed sort.  Type theory is distinguished particularly by the importance of [[context]] in the specification of [[terms]] and [[formulas]], and has close links to the [[internal logic]] of [[categories]].
+Type theory is a branch of mathematical [[symbolic logic]], which derives its name from the fact that it formalizes not only mathematicsl [[terms]] -- such as a [[variable]] $x$, or a [[function]] $f$ -- and operations on them, but also formalizes the idea that each such term is of some definite _[[type]]_, for instance that the type $\mathbb{N}$ of a [[natural number]] $x : \mathbb{N}$ is different from the type $\mathbb{N} \to \mathbb{N}$ of a [[function]] $f : \mathbb{N} \to \mathbb{N}$ between natural numbers.
+
+Explicitly, type theory is a formal language, essentially a set of rules for rewriting certain strings of symbols, that describes the introduction of types and their terms, and computations with these, in a sensible way.
+
+What may seem like a triviality on first sight turns out to have deep implications: 
+
+1. **foundations of mathematics**. On the one hand, [[logic]] itself is subsumed in the plain idea of operations on terms of types, by observing that any type $X$ may be thought of as the type of terms satisfying some [[proposition]]. Under this _[[propositions as types|propositions are types]]_-paradigm a [[proof]] of the proposition is nothing but a [[term]] of the corresponding type. This identification leads to a very fruitful identification of operations on types with logical operations.
+
+1. **programming language** Since such a proof is [[constructive mathematics|constructive]], the term witnessing it being a concrete implementation, and since type theory strictly works by rewriting rules, one may identify the construction of a term in type theory as a _program_ whose output is a certain type. Under this [[proofs as programs]]-paradigm, type theory is a  universal _programming language_. (For instance _[[Coq]]_ or _[[Agda]]_ are concrete machine implementations of this language. They are used both in computer science as well as in industry, where the typing provides [[certified programming]].)
+
+1. **calculus for category theory** On the other hand, if one regards, as is natural, any [[term]] $t : X$ to exist in a [[context]] $\Gamma$ of other terms $ x : \Gamma$, then $t$ is naturally identified with a "map" $t : \Gamma \to X$, hnce: with a _[[morphism]]_. Viewed this way the [[types]] and [[terms]] of type theory are identified, respectively, with the [[objects]] and [[morphisms]] of [[category theory]]. From this perspective, type theory provides a formal language for speaking about categories. Indeed, from this perspective type theory is formalization along the lines of the _[[ETCS|Elementary Theory of the Category of Sets]]_.
+
+These aspects naturally harmonize, involving, reflecting on, and subsuming [[internal logic]] of categories and [[categorical logic]]/[[categorical semantics]] in categories. 
+
+Moreover, when following the idea of type theory through seriously, it turns out to go well beyond these topics even: If all logical statements are to be witnessed by terms of the type that corresponds to the given proposition, then this should notably be true for what is maybe the most basic logical notion, that of _[[equality]]_. Therefore it makes sense to demand for any two terms $x,y : X$ of a type $X$ the existence of an _[[identity type]]_ $Id_X(x,y)$ which [[propositions as types|represents]] the [[proposition]] that $x$ is [[equality|equal]] to $y$, hence such that a [[term]] $p : Id_X(x,y)$ is a proof of this fact. But this idea necessarily iterates, with the equality of two such proofs in turn being witnessed by a term of a second order identity type, and so on. Reflecting on this shows that the type-theoretic notion of equality resulting this way is not the traditional one, but is the notion of _[[homotopy equivalence]]_ or _[[equivalence in an (∞,1)-category]]_. Type theory with such [[identity types]] properly implemented is thus called _[[homotopy type theory]]_. It is a calculus now for [[(∞,1)-category theory]]. See there for more details on this.
+
+Notice that this is obtained not by adding something to the basic idea of type theory, but by removing something, namely the by hand assumption of definite equality.
+
+Similarly, while plain vanilla type theory formalizes [[intuitionistic logic]]/[[intuitionistic mathematics]], it is possible to add by hand, if necessary for some reason, axioms such as the [[law of excluded middle]] to make type theory also describe [[classical logic]]. But by nature it is more general.
+
+
 
 
 ## As a formal language for category theory 
