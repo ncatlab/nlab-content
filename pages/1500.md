@@ -3,7 +3,7 @@
 </div>
 
 #Contents#
-* automatic tabke of contents goes here
+* automatic table of contents goes here
 {:toc}
 
 
@@ -44,7 +44,10 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 ## References ##
 
 * Math Overflow, [Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting).
-* P. Etingof, D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
-* P. Etingof and D. Calaque, [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
+* [[P. Etingof]], D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
+* [[P. Etingof]] and D. Calaque, [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
 * M. M&uuml;ger, [Tensor categories: A selective guided tour](http://arxiv.org/abs/0804.3587).
 * B. Bartlett, [On unitary 2-representations of finite groups and topological quantum field theory](http://arxiv.org/abs/0901.3975) (chapter 6).
+* [[Pavel Etingof]], D. Nikshych and V. Ostrik, Fusion categories and homotopy theory,  Quantum Topology, 1(2010), 209-273. (Earlier version available as [ArXiv:0909.3140](http://arxiv.org/PS_cache/arxiv/pdf/0909/0909.3140v2.pdf)
+
+[[!redirects fusion categories]]
