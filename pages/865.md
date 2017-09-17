@@ -1,3 +1,4 @@
+
 An **order** on a set $S$ is (usually) a binary [[relation]] that is, at the very least, [[transitive relation|transitive]].
 
 Actually, there are several different notions of order that are each useful in their own ways:
@@ -12,6 +13,10 @@ Actually, there are several different notions of order that are each useful in t
 The closely related notion of a [[cyclic order]] is not actually a binary relation but a ternary relation.
 
 The study of orders is [[order theory]].
+
+A mostly unrelated notion from [[group theory]] is the [[cardinality]] of the [[underlying set]] of a [[group]], especially when this is [[finite set|finite]].  Sometimes one thinks of an [[infinite set|infinite]] group as having order [[zero]].  The orders then have the natural order relation of [[divisibility]].
+
+The term 'order' can also be used fairly generically as a synonym of 'degree' or 'rank', as in [[first-order logic]], the order of a [[differential equation]], etc.  Of course, these various orders form a [[well-order]], so this is not entirely unrelated either.
 
 
 [[!redirects order]]
