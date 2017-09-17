@@ -1039,7 +1039,7 @@ shows that there is a model category structure on the category of unbounded chai
 
 The model structure on unbounded chain complexs with fibrations the degreewise surjections is noted in the remark after theorem 9.3.1 in 
 
-* [[Marc Hovey]], J. Palmieri, [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610.
+* [[Mark Hovey]], J. Palmieri, [[Neil Strickland]], _Axiomatic stable homotopy theory_, Mem. Amer. Math. Soc. 128 (1997), no. 610.
  {#HoveyPalmieriStrickland97}
 
 and noticed as cofibrantly generated model structure on p. 7 of 
