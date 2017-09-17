@@ -1,6 +1,6 @@
 ## Idea
 
-Cartier duality is a generalization of [[Portyagin dual|Pontryagin duality]] form topological groups to schemes.
+Cartier [[duality]] is a generalization of [[Portyagin dual|Pontryagin duality]] form topological groups to schemes.
 
 ## Definition
 
