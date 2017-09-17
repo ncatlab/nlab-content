@@ -2,13 +2,21 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### Higher Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
+=--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
