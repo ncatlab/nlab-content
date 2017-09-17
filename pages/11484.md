@@ -30,11 +30,34 @@ For nodal [[cubic curve]] (over some base) is (see at _[ellitpic curve -- Nodal 
 
 ## Properties of the nodal cubic
 
+
 ### Compactified moduli stack of elliptic curves and the Tate curve
 
 The nodal [[cubic curve]] is not an [[elliptic curve]], as it is singular, but adding it to the [[moduli stack of elliptic curves]] $\mathcal{M}_{ell}$ produces the [[Deligne-Mumford compactification|compactification]] $\mathcal{M}_{\overline{ell}}$ which is often relevant.
 
 The [[formal neighbourhood]] of the nodal curve in $\mathcal{M}_{\overline{ell}}$ is the [[Tate curve]].
+
+### Over the complex numbers
+ {#OverTheComplexNumbers}
+
+Over the [[complex numbers]], the nodal cubic $E_0$ is the [[Riemann sphere]]/complex [[projective space]] $\mathbb{P}^1$ with the pole points 0 and $\infty$ identified (hence is a "[[complex manifold|complex]] [[torus]] with one cycle shrunk away"). Precisely: there is a [[holomorphic function]]
+
+$$
+  \mathcal{P}^1 \to \mathcal{P}^2
+$$
+
+which is onto $E_0 \subset \mathcal{P}_2$, sends the unit of the [[multiplicative group]] $1 \in \mathbb{C}^\times \hookrightarrow \mathbb{P}^1$ to the unit of $E_0$, maps $0,\infty \in \mathbb{P}^1$ both to the nodal singular double point of $E_0$ and is [[injective]] away from these points (e.g. [Hain 08, exercise 47, p. 45](#Hain08))
+
+$$
+  \array{
+     \mathbb{C}^\times &\hookrightarrow& E_0
+     \\
+     \downarrow^\mathrlap{=} && \downarrow
+     \\
+     \mathbb{P}^1-\{0,\infty\} &\longrightarrow& \mathbb{P}^2
+  }
+  \,.
+$$
 
 ### Formal group and height
 
