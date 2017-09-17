@@ -1,3 +1,6 @@
 Frequency is a [[number]] of occurences of a periodic event in [[time]].
 
 For [[waves]]: number of wave crests at a given space point per time. 
+
+
+[[!redirects frequencies]]
