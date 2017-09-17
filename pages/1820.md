@@ -45,8 +45,9 @@ The relevance of combinatorial model categories is given more abstractly by the 
 
 ## Definition 
 
-+-- {: .un_defn}
-###### Definition (Jeff Smith)
++-- {: .num_defn}
+###### Definition 
+**(Jeff Smith)**
 
 A [[model category]] $C$ is **combinatorial** if it is
 
@@ -88,8 +89,9 @@ There are two powerful theorems that characterize combinatorial model categories
 A central theorem about combinatorial model categories is **[[Jeff Smith]]'s theorem** which establishes the existence of combinatorial model category structures from a small amount of input data.
 
 
-+-- {: .num_theorem }
-###### Theorem (Jeff Smith's theorem)
++-- {: .num_theorem}
+###### Theorem 
+**(Jeff Smith's theorem)**
 
 For
 
@@ -119,13 +121,9 @@ Moreover, every combinatorial model category arises in this way.
 
 Here the notation is as described at [[cofibrantly generated model category]], so: $inj(I) = rlp(I)$ and $cof(I) = llp(rlp(I))$.
 
-This statement was announced by [[Jeff Smith]] in 1998 at a conference in Barcelona and appararently first appeared in print as theorem 1.7 in
-
-* [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv:0102087](http://arxiv1.library.cornell.edu/abs/math/0102087))
-
-The above formulation follows prop 2.2 in 
-
-* [[Clark Barwick]], _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
+This statement was announced by [[Jeff Smith]] in 1998 at a conference in Barcelona and appararently first appeared in print as ([Beke, theorem 1.7](#Beke)).
+The above formulation follows ([Barwick, prop 2.2](#Barwick)).
+ 
 
 +-- {: .proof}
 ###### Proof
@@ -247,12 +245,61 @@ To see the converse, that every combinatorial model structure arises this way, i
 
 =--
 
-### Dugger's theorem {#DuggerTheorem} 
+For applications of this theorem, the following auxiliary statements are useful.
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ a combinatorial model category, the full subcategory inclusion
+
+$$
+  Mor(C)_W \hookrightarrow Mor(C)
+$$ 
+
+of the [[arrow category]] on the weak equivalences is an [[accessible functor|accessible inclusion]] of an [[accessible category]].
+
+=--
+
+This is due to Smith. A proof appears as ([Dugger, 7.4](#Dugger)). See also ([Barwick, prop. 1.10](#Barwick)).
+
++-- {: .num_prop}
+###### Proposition
+
+Let 
+
+$$
+  F : Mor(A) \to Mor(B)
+$$
+
+be an [[accessible functor]] between [[arrow categories]]. Let $B$ be equipped with [[category with weak equivalences|weak equivalences]] $W$ such that the [[full subcategory]] inclusion 
+
+$$
+  Mor(W) \hookrightarrow Mor(B)
+$$
+
+on the weak equivalences is an [[accessible functor|accessible embedding]] of an [[accessible category]]. Then so is the full subcategory of $Mor(A)$ on the pre-images $F^{-1}(W)$ in $A$.
+
+=--
+
+([Beke, prop. 1.18](#Beke)).
+
++-- {: .proof}
+###### Proof
+
+By general properties of [[accessible categories]] (see there) the full inverse image along an accessible functor of a full accessible subcategory is again accessible.
+
+=--
+
+
+
+### Dugger's theorem 
+ {#DuggerTheorem} 
 
 The followign theorem is precisely the model-category theory version of the statement that every [[locally presentable (∞,1)-category]] arises as the [[localization of an (∞,1)-category|localization]] of an [[(∞,1)-category of (∞,1)-presheaves]].
 
 +-- {: .num_theorem }
-###### Theorem (Dan Dugger)
+###### Theorem 
+ **(Dan Dugger)**
 
 Every combinatorial model category $C$ is [[Quillen equivalence|Quillen equivalent]] to a left [[Bousfield localization of model categories|Bousfield localization]] $L_S SPSh(K)_{proj}$ of the global projective [[model structure on simplicial presheaves]] $SPSh(K)_{proj}$ on a [[small category]] $K$
 
@@ -339,7 +386,7 @@ are weak equivalences for every fibrant object $b \in B$.
 
 Notice that the theorem just mentions plain combinatorial model categories, not [[simplicial model category|simplicial model categories]]. But of course by basic facts of [[enriched category theory]] $Funct(C^{op}, SSet)$ is an [[SSet]]-[[enriched category]] and its projective [[global model structure on functors]] $Func(C^{op}, SSet)_{proj}$ is compatibly a [[simplicial model category]], as are all its [[Bousfield localization of model categories|Bousfield localizations]]. (See [[model structure on simplicial presheaves]] for more details.) Therefore an immediate but very useful corollary of the above statement is
 
-+-- {: .un_corollary }
++-- {: .num_corollary }
 ###### Corollary 
 
 Every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to one which is
@@ -365,7 +412,7 @@ This are corollaries 2.7 and 2..8 in [Bar](http://www.math.harvard.edu/~clarkbar
 
 ### Homotopy colimits {#hocolims}
 
-+-- {: .un_proposition }
++-- {: .num_prop }
 ###### Proposition
 
 In a combinatorial model category, for every sufficiently large regular [[cardinal number|cardinal]] $\kappa$ the following holds:
@@ -492,7 +539,7 @@ Not every [[cofibrantly generated model category]] is also a combinatorial model
 
 For instance:
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### (Counter)example
 [[Top]] with the standard [[model structure on topological spaces]] is cofibrantly generated, but not combinatorial. But it is [[Quillen equivalence|Quillen equivalent]] to a combinatorial model structure, namely to the standard [[model structure on simplicial sets]] (see [[homotopy hypothesis]]).
 =--
@@ -516,27 +563,33 @@ Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]
 
 After Smith presented his recognition theorem at a conference in Barcelona, its first appearance in a publication is apparently lemma 1.8 in 
 
-* Tibor Beke, _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv.org/abs/math.CT/0102087))
+
+* [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv:0102087](http://arxiv1.library.cornell.edu/abs/math/0102087))
+ {#Beke}
+
 
 The very definition of combinatorial model categories appears also for instance as definition A.2.6.1 in 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]];
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_;
+ {#Lurie}
 
 or definition 1.3 in 
 
-* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv:0708.2067](http://arxiv.org/abs/0708.2067))
+ {#Barwick}
 
-Smith's theorem appears as proposition A.2.6.8  in [[Higher Topos Theory|HTT]], as proposition 2.2 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
+
+Smith's theorem appears as proposition ([Lurie, A.2.6.8](#Lurie))  and as ([Barwick, prop. 1.7](#Barwick)).
 
 Dugger's theorem is in 
 
 * [[Daniel Dugger]], _Combinatorial model categories have presentations_ ([arXiv](http://arxiv.org/abs/math/0007068))
-{#Dugger}
+ {#Dugger}
 
 based on results in
 
 * [[Dan Dugger]], _[[Universal homotopy theories]]_
-{#DuggerUniversalHomotopy}
+ {#DuggerUniversalHomotopy}
 
 [[!redirects Smith's theorem]]
 [[!redirects Smith theorem]]
