@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The syntactic _substitution_ of [[variables]] is one of the basic operations in formal mathematics / symbolic [[logic]] such as given by [[type theories]]. 
+
+For the moment see at _[[category of contexts]]_ for more details.
+
+## Categorical semantics
+
+
+In the [[categorical semantics]] of [[type theory]], variable substitute is interpreted by [[pullback]] / [[base change]] along the morphism that interprets the term in question.
+
+(...)
+
+[[!redirects substitutions]]
+
+[[!redirects variable substitution]]
+[[!redirects variable substitutions]]
+ 
