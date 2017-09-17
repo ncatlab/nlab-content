@@ -24,7 +24,7 @@ The notion of _[[(∞,1)-category]]_ may be formulated [[internalization|interna
 This generalizes the notion of _[[internal category]]_ from [[category theory]] to [[(∞,1)-category theory]]. In fact, an internal category in an $(\infty,1)$-category is automatically, externally, itself an [[(∞,1)-category]].
 
 
-A category internal to some given $(\infty,1)$-category $\mathcal{C}$ is a [[simplicial object]] $A : \Delta^{op} \to \mathcal{C}$ in $\mathcal{C}$, where the object in degree $k$ is to be thought of as "the object of $k$-tuples of composable morphisms" in $A$. This is formalized by requiring the canonical morphisms $A_k \to A_1 \times_{A_0} \cdots \times_{A_0} A_1$ (into the iterated [[(∞,1)-pullback]] over the [[source]] and [[target]] maps) to be an [[equivalence in an (∞,1)-category|equivalence in]] $\mathcal{C}$ (the "[[Segal category|Segal condition]]"). 
+A category internal to some given $(\infty,1)$-category $\mathcal{C}$ is a [[simplicial object in an (∞,1)-category]] $A : \Delta^{op} \to \mathcal{C}$ in $\mathcal{C}$, where the object in degree $k$ is to be thought of as "the object of $k$-tuples of composable morphisms" in $A$. This is formalized by requiring the canonical morphisms $A_k \to A_1 \times_{A_0} \cdots \times_{A_0} A_1$ (into the iterated [[(∞,1)-pullback]] over the [[source]] and [[target]] maps) to be an [[equivalence in an (∞,1)-category|equivalence in]] $\mathcal{C}$ (the "[[Segal category|Segal condition]]"). 
 
 If $\mathcal{C}$ happens to be just a 1-category, then this already makes $A$ an [[internal category]]. Generally, however, $\mathcal{C}$ comes with its own notion of [[homotopy]], and one must ask in addition that the notion of [[equivalence in an (∞,1)-category|equivalence]] in $A$ is compatible with that in $\mathcal{C}$ (the "[[complete Segal space|completeness condition]]").
 
@@ -43,7 +43,7 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]].
 +-- {: .num_defn #GroupoidObject}
 ###### Definition
 
-A _[[groupoid object in an (∞,1)-category|groupoid object]]_ in $\mathcal{C}$ is a [[simplicial object]] 
+A _[[groupoid object in an (∞,1)-category|groupoid object]]_ in $\mathcal{C}$ is a [[simplicial object in an (∞,1)-category]] 
 
 $$
   X : \Delta^{op} \to \mathcal{C}
@@ -56,7 +56,7 @@ $$
   \,.
 $$
 
-Write $Grpd(\mathcal{C})$ for the [[(∞,1)-category]] of groupoid objects in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of [[simplicial objects]] on the groupoid objects.
+Write $Grpd(\mathcal{C})$ for the [[(∞,1)-category]] of groupoid objects in $\mathcal{C}$, the [[full sub-(∞,1)-category]] of [[simplicial object in an (∞,1)-category|simplicial objects]] on the groupoid objects.
 
 =--
 
