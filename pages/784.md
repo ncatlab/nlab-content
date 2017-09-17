@@ -48,6 +48,8 @@ A Segal space for which $X_0$ is a [[discrete space]] is called a _[[Segal categ
 
 * [[reduced Segal space]], [[Segal category]], 
 
+* [[semi-Segal space]]
+
 * [[complete Segal space]], [[model structure for complete Segal spaces]]
 
 
