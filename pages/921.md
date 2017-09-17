@@ -174,12 +174,18 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 
 * [[real numbers object]]
 
+* [[p-adic numbers]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
 ## References
 
-See the references at _[[analysis]]_.
+A formalization of the real numbers in [[homotopy type theory]] is in 
+
+* [[Univalent Foundations Project]], chapter 11 of _[[Homotopy Type Theory – Univalent Foundations of Mathematics]]_
+
+For more see the references at _[[analysis]]_.
 
 
  
