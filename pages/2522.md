@@ -152,9 +152,12 @@ Related $n$Lab entries: [[supermanifold]], [[supergravity]], [[superstring theor
 A decent textbook reference for the general theory is for instance
 
 * V. S. Varadarajan, _Supersymmetry for mathematicians: An introduction _ AMS (2004)
-* P. Deligne, P. Etingof, D.S. Freed, L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and E. Witten, eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-and more of a physical approach in
+A fair bit of detail on supersymmetry and of [[supergravity]] with an eye towards their role in [[string theory]] is in 
+
+* [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+A more of a physical approach in
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
