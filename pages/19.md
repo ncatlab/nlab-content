@@ -270,11 +270,9 @@ The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topolo
 
 #### Basic category theory
 
-Standard category theory textbooks for which the $n$Lab currently provides detailed linked indexes are
+A standard category theory textbook for which the $n$Lab currently provides detailed linked indexes is
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_ .
-
-* [[Ieke Moerdijk]], [[Saunders Mac Lane]], _[[Sheaves in Geometry and Logic]]_
 
 Other standard references include:
 
@@ -288,12 +286,13 @@ Other standard references include:
 
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
-* [[Bodo Pareigis]], _Category theory_, [dvi](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.dvi), [ps](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.ps), [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf) 
+* [[Bodo Pareigis]], _Categories and functors_. 
 
 #### Topos theory
 
 The standard monographs on [[topos theory]] are
 
+* [[Ieke Moerdijk]], [[Saunders Mac Lane]], _[[Sheaves in Geometry and Logic]]_ (for which the $n$Lab currently provides detailed linked indexes)
 * [[Peter Johnstone]], _Topos theory_, 1977.
 * [[Peter Johnstone]], _[[Elephant]]_
 * [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
@@ -324,6 +323,7 @@ Other texts include
 
 * [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
 * [[Tom Leinster]], _[Notes](http://www.maths.gla.ac.uk/~tl/msci) on basic category theory_
+* [[Bodo Pareigis]], _Category theory_, [dvi](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.dvi), [ps](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.ps), [pdf](http://www.mathematik.uni-muenchen.de/~pareigis/Vorlesungen/04SS/Cats1.pdf)
 
 ### Teaching category theory
 
