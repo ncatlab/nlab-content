@@ -131,3 +131,6 @@ In this diagram now
 
 
 [[!redirects differential equations]]
+
+[[!redirects partial differential equation]]
+[[!redirects partial differential equations]]
