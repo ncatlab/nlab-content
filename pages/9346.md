@@ -80,9 +80,9 @@ That is why in string theory instead of adjusting parameters one searches soluti
 In summary: [[model (in theoretical physics)|models]] built in string theory make predictions just as any other [[model (in theoretical physics)|model]] in theoretical physics does. 
 The situation is actually better in that in principle the choice of model in string theory is constrained by the theory. While the [[standard model of particle physics]] is just written to paper, when one reproduces approximations to it in string theory one has to check that various consistency conditions are satisfied which guarantee that the parameters assumed indeed do arise as configurations of the fields in the theory. 
 
-Notice that there is no a priori reason in [[qantum field theory]] that of all of the huge space of possible field theories (all [[local Lagrangians]]) the one that describes our world is a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]] coupled to [[gravity]]. This is not a prediction of QFT but an assumption, and only after this assumption is made, and only after a few dozen further parameters are fixed by hand, does the standard model of particle physics start to make any predictions at all. On  the other hand, string theory does predict this general form of action functionals: the [[effective field theories]] obtained in string theory are generally [[gauge theories]] coupled to [[gravity]]. This fact is what originally led to the strong interest in string theory.
+Notice that there is no a priori reason in [[quantum field theory]] that of all of the huge space of possible field theories (all [[local Lagrangians]]) the one that describes our world is a [[Yang-Mills theory|Yang-Mills]] [[gauge theory]] coupled to [[gravity]]. This is not a prediction of QFT but an assumption, and only after this assumption is made, and only after a few dozen further parameters are fixed by hand, does the standard model of particle physics start to make any predictions at all. On  the other hand, string theory does predict this general form of action functionals: the [[effective field theories]] obtained in string theory are generally [[gauge theories]] coupled to [[gravity]]. This fact is what originally led to the strong interest in string theory.
 
-Nevertheless, despite of this higher predictivity of string theory in principle, in practice it has not yet lead to much insight that would actually affect particle physics models in practice.
+Nevertheless, in spite of this higher predictivity of string theory in principle, in practice it has not yet lead to much insight that would actually affect particle physics models in practice.
 
 
 ## Is string theory testable?
@@ -104,12 +104,12 @@ An example of how string theory is more constrained in its model building than e
 
 On the other hand, no other theoretical framework was equally tested by this astronomical observation. In all other existing theoretical frameworks you simply take a pen and change the sign of the cosmological constant by hand. The theory does not control it, it's a free parameter. So it seems justifiable to say that string theory is actually _more testable_ than other existing theoretical frameworks. Of course to appreciate what this means one has to pay attention to what it means to test a theory by testing all its parameter space of models, as illustarted by the Einstein "biggest blunder"-example.
 
-## Does string theory predict supersmmetry? 
+## Does string theory predict supersymmetry? 
  {#DoesSTPredictSupersymmetry}
 
 Superstring _theory_ asserts "[[local supersymmetry]]", namely [[worldsheet]] and [[spacetime]] [[supergravity]]. But any [[model (physics)]] in string theory may or may not retain [[global supersymmetry]] at some energy scale, after [[spontaneous symmetry breaking]].
 
-In fact the generic model has no reason to preserve any global supersmmetry at at, just as the generic solution of [[Einstein's equations]] does not preserve any [[Lorentz group]] symmetry. The condition that a [[Kaluza-Klein compactification]] of 10-dimensional [[supergravity]] to 4d exhibits precisely one global supersymmetry is equivalent to the compatification space being a [[Calabi-Yau manifold]]. While this is a famous condition that has been extensively studied, nothing in the theory requires compatification on CY manifolds. These are (or were) only considered because for _[[phenomenology|phenomenological]]_ reasons
+In fact the generic model has no reason to preserve any global supersymmetry at at, just as the generic solution of [[Einstein's equations]] does not preserve any [[Lorentz group]] symmetry. The condition that a [[Kaluza-Klein compactification]] of 10-dimensional [[supergravity]] to 4d exhibits precisely one global supersymmetry is equivalent to the compatification space being a [[Calabi-Yau manifold]]. While this is a famous condition that has been extensively studied, nothing in the theory requires compatification on CY manifolds. These are (or were) only considered because for _[[phenomenology|phenomenological]]_ reasons
 it is (or was) expected that our observed world exhibits global low-energy supersymmetry. 
 
 ## How/why does string theory depend on "backgrounds"?
@@ -158,7 +158,7 @@ Since the [[singularity]] involved in back holes is a similar kind of singularit
 ## Isn't it fatal that the string perturbation series does not converge?
  {#NonConvergenceOfPerturbationSeries}
 
-On the contrary, the [[perturbation series]] of any interesting QFT is supposed to have [[radius of converegence]] equal to 0. Because the expansion parameter is the [[coupling constant]] and if the series had a finite radius of convergence, there would be also _negative_ values of the coupling for which the correlators are convergent.
+On the contrary, the [[perturbation series]] of any interesting QFT is supposed to have [[radius of convergence]] equal to 0. Because the expansion parameter is the [[coupling constant]] and if the series had a finite radius of convergence, there would be also _negative_ values of the coupling for which the correlators are convergent.
 
 So the non-convergence of the string perturbation series is just as it should be in QFT. The important point is rather that the string perturbation series is _termwise_ finite (proven so for [[bosonic string theory]] and the first orders of [[superstring theory]]), which means that it is already [[renormalization|renormalized]]: the higher string modes provide the natural counterterms for the renormalization.
 
