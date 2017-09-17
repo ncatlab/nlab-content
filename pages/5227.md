@@ -1,3 +1,4 @@
+[[!redirects Petri nets]]
 # Contents
 * automatic table of contents goes here
 {:toc}
