@@ -330,7 +330,7 @@ $$
 
 and
 
-(...)
+$\pi_0 C Field_{P_{Spin}}(Y)$ is the group of pairs $([c], f) \in H^2(X, U(1)) \times C^\infty(X, E_8)$ where $f$ is a smooth refinement under $E_8 \simeq_{14} B^2 U(1) \simeq K(\mathbb{Z},3)$ of the integral image of $[c]$.
 
 
 =--
@@ -453,35 +453,6 @@ $$
 $$
 
 is the set of smooth functions $Y \to E_8$ (to be thought of as the the set of [[gauge transformation]]s from the trivial $E_8$-[[principal bundle]] on $Y$ to itself). 
-
-This implies that the [[loop space object]] of $C Field(Y)$ is over each such function the [[homotopy fiber]] of $* \to \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^3 U(1))$ over $curv(\Omega \mathbf{c}_2)$. But each of these is equivalent to the loop space object
-
-$$
-  \Omega \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^3 U(1))
-  \simeq 
-  \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))
-  \,.
-$$
-
-Therefore
-
-$$
-  \Omega C Field(Y) \simeq 
-   C^\infty(Y, E_8) 
-  \times \mathbf{H}(Y, \mathbf{\flat}_{dR} \mathbf{B}^2 U(1))
-  \,.
-$$
-
-The connected components of this are
-
-$$
-  \pi_0 \Omega C Field(Y)
-  =
-  \pi_1 C Field(Y)
-  \simeq
-  C^\infty(Y, E_8) \times H^2_{dR}(Y)
-$$
-
 
 =--
 
