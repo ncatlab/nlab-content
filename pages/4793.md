@@ -33,6 +33,10 @@ We have canonical left and right [[module]] structures on $\mathbb{H}^n$, but as
 
 Using the conjugation operation one can define an inner product $\langle q,p\rangle := \overline{q} p$ on $\mathbb{H}^n$ so that the corresponding [[orthogonal group of an inner product space|orthogonal group]] is the [[compact symplectic group]].
 
+## Related concepts
+
+[[!include exceptional spinors and division algebras -- table]]
+
 
 ## References
 
