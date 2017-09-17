@@ -1,3 +1,6 @@
+The __enveloping von Neumann algebra__ of a $C^*$-[[C-star algebra|algebra]] $A$ is the closure, in the [[weak operator topology]], of the image $\pi(A)$ of the [[universal representation of a C-star algebra|universal representation]] $\pi : A\to B(H)$ (which is, by the definition, the direct sum of [[GNS representation]]s of all [[positive functional|positive]] linear functionals)
+in $B(H)$. 
+
 * wikipedia [enveloping von Neumann algebra](http://en.wikipedia.org/wiki/Enveloping_von_Neumann_algebra)
 
-category: operator algebras, noncommutative geometry, analysis
+category: operator algebras
