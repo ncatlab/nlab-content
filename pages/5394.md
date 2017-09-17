@@ -35,7 +35,7 @@ Various authors have proposed ([Butterfield-Hamilton-Isham](#ButterfieldHamilton
 
 ### As a site for noncommutative phase spaces
 
-Specifically, consider the case that the algebra $A = B(\mathcal{H})$ is that of [[bounded operator]]s on a [[Hilbert space]].
+Specifically, consider the case that the algebra $A = B(\mathcal{H})$ is that of [[bounded operator]]s on a [[Hilbert space]]. This is interpreted as an [[algebra of quantum observables]] and the commutative subalgebras are then "[[classical contexts]]".
 
 Applying [[Bohrification]] to this situation (see there for more discussion), one finds that the [[locale]] $\Sigma(A)$ internal to $\mathcal{T}_A$ behaves like the noncommutative [[phase space]] of a system of [[quantum mechanics]], which however internally looks like an ordinary commutative geometry. Various statements about [[operator algebra]] then have geometric analogs in $\mathcal{T}_A$. 
 
