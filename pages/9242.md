@@ -20,3 +20,6 @@ In [[physics]] the part of the [[action functional]] of a [[theory (physics)|the
 ## Related concepts
 
 [[!include action (physics) - table]]
+
+[[!redirects kinetic action functional]]
+[[!redirects kinetic action functionals]]
