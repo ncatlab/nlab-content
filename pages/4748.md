@@ -253,9 +253,6 @@ $$
 Using [[Hadamard's lemma]] and the fact that by constructon $\tau$ has vanishing 0th and 1st order differentials at the origin it follows that this is indeed a [[smooth function]]. 
 
 
-**Remark** Since $Z \subset \mathbb{R}^3$ is a [[closed subset]] we have by the [[Tietze extension theorem]] a smooth extension $g$ to all of $\mathbb{R}^3$. If we later consider derivatives of $g$ at the boundary of $Z$ we think of them as being the corresponding derivatives of this extension. But for ease of notation we shall not make this extension explicit.
-
-
 We want to similarly factor the smooth family of bigons $[0,1]^3 \to 2Mor(\mathbf{P}_2(X))$ given by
 
 $$
