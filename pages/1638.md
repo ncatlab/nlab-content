@@ -32,7 +32,7 @@ where $F_{n-1}: (n-1)Comp \to (n-1)Cat$ is the "free $(n-1)$-category on an $(n-
 
 1. The data must satisfy [[globe|globularity]] conditions: for all $c \in C_n$, the $(n-1)$-cells $s(c)$ and $t(c)$ must share the same source and the same target (as elements in $F_{n-1}(\mathcal{C})_{n-2}$). 
 
-To complete the induction, we need to define $F_n$. Roughly speaking, in dimensions $j \lt n$, the structure agrees with that of $F_{n-1}(\mathcal{C})$. In dimension $n$, the $n$-cells are formal pasting diagrams built from the elements of $C_n$ by formal [[whiskering]]s and formal [[composition]]s across $(n-1)$-cells in $F_{n-1}(\mathcal{C})$. 
+To complete the induction, we need to define $F_n$. Roughly speaking, in dimensions $j \lt n$, the structure agrees with that of $F_{n-1}(\mathcal{C})$. In dimension $n$, the $n$-cells are formal [[pasting diagram|pasting diagrams]] built from the elements of $C_n$ by formal [[whiskering]]s and formal [[composition]]s across $(n-1)$-cells in $F_{n-1}(\mathcal{C})$. 
 
 (Much detail to be filled in...) 
 
