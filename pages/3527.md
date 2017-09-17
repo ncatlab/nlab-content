@@ -13,6 +13,9 @@
 * M. Kashiwara, _D-modules and representation theory of Lie groups_, 
 Annales de l'institut Fourier, 43 no. 5 (1993), p. 1597-1618, [article](http://aif.cedram.org/item?id=AIF_1993__43_5_1597_0), [MR95b:22033](http://www.ams.org/mathscinet-getitem?mr=95b:22033)
 
+* M. Kashiwara, T. Kawai, T. Kimura, _Foundations of algebraic analysis_, Princeton Univ. Press 1986
+
+* M. Kashiwara, _D-modules and microlocal analysis_,  Transl. of math. monographs __217__, Amer. Math. Soc. 2000
 [[!redirects M. Kashiwara]]
 [[!redirects Kashiwara]]
 
