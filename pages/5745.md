@@ -34,15 +34,33 @@ on [[chiral algebra]]s/[[factorization algebra]]s in the language of [[D-scheme]
 
 * [[jet bundle]]
 
+#### 2.3.20 The calculus of variations
+
+* [[variational calculus]]
+
+  * [[Lagrangian]]
+
+  * [[action functional]]
+
 ### 2.4 The space of horizontal sections
 
 ### 2.5 $Lie^\ast$-algebras and algebroids
 
-### 2.6 Coisson algebra
+### 2.6 Coisson algebras
+
+* [[Coisson algebra]]s
+
+
 
 ### 2.7 The Tate extension
 
 ### 2.8 Tate structures and characteristic classes
+
+#### 2.8.11
+
+* [[vertical differential form]]
+
+* [[variational bicomplex]]
 
 ### 2.9 The Harish-Chandra setting and the setting of $c$-stacks
 
