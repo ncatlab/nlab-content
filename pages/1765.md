@@ -344,6 +344,7 @@ The further cocycle condition on $g$ similarly translates into the condition tha
 
 
 ### Relation to generalized cohomology and Adams spectral sequence
+ {#RelationToGeneralizedCohomology}
 
 Applied to [[E-infinity rings]] the Sweedler coring construction
 yields the [[Hopf algebroids]] of dual [[Steenrod algebras]]
