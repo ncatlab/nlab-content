@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
 =--
 =--
 
@@ -22,16 +26,31 @@ A _proper map of toposes_ is the generalization to [[toposes]] of the notion of 
 +-- {: .num_defn}
 ###### Definition
 
-A [[sheaf topos]] $\mathcal{E}$ is called **compact** if the [[direct image]] of the [[global section geometric morphism]] $\Gamma : \mathcal{E} \to Set$ preserves [[directed colimit|directed]] [[joins]] of [[subterminal objects]].
+A [[sheaf topos]] $\mathcal{E}$ is called a **[[compact topos]]** if the [[direct image]] of the [[global section geometric morphism]] $\Gamma : \mathcal{E} \to Set$ preserves [[directed colimit|directed]] [[joins]] of [[subterminal objects]].
+
+It is called **strongly compact** if $\Gamma$ commutes even with all [[filtered colimits]] ([MV, p. 53](#MoerdijkVermeulen)).
 
 =--
 
-A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called _proper_ if it exhibits $\mathcal{F}$ as a [[compact topos]] over $\mathcal{E}$.
+A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is called **proper** if it exhibits $\mathcal{F}$ as a [[compact topos]] over $\mathcal{E}$.
 
-(...)
+It is called **tidy** if it exhibits $\mathcal{F}$ as a strongly compact topos over $\mathcal{E}$.
 
 
 ## Examples
+
++-- {: .num_prop}
+###### Proposition
+
+Examples of strongly compact toposes $\mathcal{E}$ include the following.
+
+1. Every [[coherent topos]] is strongly compact.
+
+1. The [[sheaf topos]] over a [[compact topological space|compact]] [[Hausdorff space|Hausdorff]] [[topological space]] is strongly compact.
+
+=--
+
+([MV, Examples III.1.1](#MoerdijkVermeulen))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -42,11 +61,11 @@ $$
   \mathcal{T}_{/X} \to \mathcal{T}
 $$
 
-out of the [[slice topos]] is a proper geometric morphism.
+out of the [[slice topos]] is a proper geometric morphism. And precisely if $X$ is even _decidable_ is this a tidy geometric morphism.
 
 =--
 
-([Moerdijk-Vermeulen, examples 1.4](#MoerdijkVermeulen))
+([Moerdijk-Vermeulen, examples III 1.4](#MoerdijkVermeulen))
 
 
 ## References
@@ -58,3 +77,5 @@ out of the [[slice topos]] is a proper geometric morphism.
 
 [[!redirects proper geometric morphism]]
 [[!redirects proper geometric morphisms]]
+
+[[!redirects compact topos]]
