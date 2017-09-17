@@ -133,6 +133,8 @@ See
 
 * [[etale groupoid]]
 
+* [[homotopy groups of a Lie groupoid]]
+
 ## References
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
