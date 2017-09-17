@@ -26,7 +26,7 @@ and with a spatial inversion (or parity-reversal) operator
 
 $$(t, x, y, z) \mapsto (t, -x, -y, -z)$$ 
 
-The special Lorentz group may be analyzed further. The subgroup of $SO^+(1, 3)$ that fixes the unit time-like vector 
+The special Lorentz group (also called the **proper, orthochronous** Lorentz group: "orthochronous" here means the forward light cone is mapped to itself, and "proper" means orientation-preserving) may be analyzed further. The subgroup of $SO^+(1, 3)$ that fixes the unit time-like vector 
 
 $$u_t := (1, 0, 0, 0)$$ 
 
