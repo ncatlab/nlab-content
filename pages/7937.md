@@ -18,7 +18,7 @@
 
 ## Idea
 
-In the contect of [[geometric quantization]] a _prequantum operator_ is an [[operator]] that presents an [[observable]] in [[quantum mechanics]]/[[quantum field theory]] once a [[polarization]] is chosen.
+In the contect of [[geometric quantization]] a _prequantum operator_ is a [[linear operator]] that presents an [[observable]] in [[quantum mechanics]]/[[quantum field theory]] once a [[polarization]] is chosen.
 
 More in detail, the [[quantomorphism group]] $\mathbf{Aut}(\mathbf{c}_{conn})$ naturally acts on the space of [[sections]] $\mathbf{\Gamma}_X(E)$ of the [[prequantum line bundle]]. 
 
