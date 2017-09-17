@@ -63,11 +63,31 @@ See ([Johnstone example C.3.6.3 (d) ](#Johnstone)).
 
 ## Related concepts
 
+* [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
+
+  * [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+  * [[strongly connected topos]] / [[strongly ∞-connected (∞,1)-topos]]
+
+  * [[totally connected topos]] / [[totally ∞-connected (∞,1)-topos]]
+
+* [[local topos]] / [[local (∞,1)-topos]].
+
+* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+
+and
+
 * [[locally connected site]] / [[locally ∞-connected site]]
+
+  * [[connected site]] / [[∞-connected site]]
+
+  * [[strongly connected site]] / [[strongly ∞-connected site]]
+
+  * [[totally connected site]] / [[totally ∞-connected site]]
 
 * **local site**
 
-* [[cohesive site]] / [[(∞,1)-cohesive site]]
+* [[cohesive site]], [[(∞,1)-cohesive site]]
 
 ## References
 
