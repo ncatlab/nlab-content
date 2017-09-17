@@ -134,3 +134,5 @@ $$
 =--
 
 [[!redirects cochain homotopy]]
+[[!redirects chain homotopies]]
+[[!redirects cochain homotopies]]
