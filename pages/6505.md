@@ -132,6 +132,25 @@ This is the way it is often written in the literature.
 
 ## Properties
 
+### Relation to conserved quantities
+
+The values of the moment map for each given Lie algebra generator may be regarded as the [[conserved current|conserved currents]] given by a _Hamiltonian [[Noether theorem]]_.
+
+Specifically if $(X,\omega)$ is a [[symplectic manifold]] equipped with a "time evolution" [[Hamiltonian action]] $\mathbb{R} \to \mathfrak{Poisson}(X,\omega)$ given by a [[Hamiltonian]] $G$ and if $\mathfrak{g} \to \mathfrak{Poisson}(X,\omega)$ is some [[Hamiltonian action]] with moment $\Phi(\xi)$ for $\xi \in \mathfrak{g}$ which preserves the Hamiltonian in that the [[Poisson bracket]] vanishes
+
+$$
+  \{\Phi^\xi, H\} = 0
+$$
+
+then of course also the time evolution of the moments vanishes
+
+$$
+  \frac{d}{d t} \Phi^\xi = \{H, \Phi^\xi\} = 0
+  \,.
+$$
+
+See at _[Noether theorem -- In terms of moment maps/Hamiltonian Noether theorem ](Noether%27s+theorem#HamiltonianNoetherTheorem)_.
+
 ### Relation to constrained mechanics
  {#RelationToConstrainedMechanics}
 
@@ -197,9 +216,14 @@ p. 26 of
 
 ### Generalization: group-valued moment maps
 
-* Anton Alekseev, Anton Malkin, Eckhard Meinrenken, _Lie group valued moment maps_, J. Differential Geom. Volume 48, Number 3 (1998), 445-495. [euclid](http://projecteuclid.org/euclid.jdg/1214460860), [MR1638045](http://www.ams.org/mathscinet-getitem?mr=1638045)
-* E. Meinrenken, _Lectures on group-valued moment maps and Verlinde formulas_, 35 pages, January 2012, [pdf](http://www.math.toronto.edu/mein/research/NotreLectures.pdf)
+* [[Anton Alekseev]], Anton Malkin, [[Eckhard Meinrenken]], _Lie group valued moment maps_, J. Differential Geom. Volume 48, Number 3 (1998), 445-495. [euclid](http://projecteuclid.org/euclid.jdg/1214460860), [MR1638045](http://www.ams.org/mathscinet-getitem?mr=1638045)
 
+* [[Eckard Meinrenken]], _Lectures on group-valued moment maps and Verlinde formulas_, 35 pages, January 2012, [pdf](http://www.math.toronto.edu/mein/research/NotreLectures.pdf)
+
+The relation between moment maps and [[conserved currents]]/[[Noether's theorem]] is amplied for instance in
+
+* Huijun Fan, _Lecture 8, Moment map and symplectic reduction_ ([pdf](http://www.math.pku.edu.cn/teachers/fanhj/courses/symp-8.pdf))
+ {#Fan}
 
 [[!redirects moment maps]]
 
