@@ -106,3 +106,7 @@ If the leaf space $B$ is [[Hausdorff space|Hausdorff]] and the projection $X \to
 * Eva Miranda, _From action-angle coordinates to geometric quantization and back_ (2011) ([pdf](http://fdis2011.uni-jena.de/Talks/Eva%20Miranda.pdf))
 
 [[!redirects Bohr-Sommerfeld leaves]]
+
+[[!redirects BS-leaf]]
+[[!redirects BS-leaves]]
+
