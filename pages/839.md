@@ -39,7 +39,9 @@ See also [[n-groupoid]].
 
 A general 3-groupoid is [[geometric definition of higher categories|geometrically modeled]] by a 4-[[simplicial skeleton|coskeletal]] [[Kan complex]]. Equivalently -- via the [[homotopy hypothesis]]-theorem -- by a [[homotopy 3-type]].
 
-It is [[algebraic definition of higher categories|algebraically modeled]] by a [[tricategory]] in which all morphisms are invertible, and by a 3-[[truncated]] [[algebraic Kan complex]]. 
+A small model of this is a 3-[[hypergroupoid]], where all [[horn]]-filelrs in dimension $\geq 4$ are _unique_ .
+
+A 3-groupoid is [[algebraic definition of higher categories|algebraically modeled]] by a [[tricategory]] in which all morphisms are invertible, and by a 3-[[truncated]] [[algebraic Kan complex]]. 
 
 A [[semi-strict infinity-category|semistrict]] [[algebraic definition of higher categories|algebraic model]] for 3-groupoids is provided by the notion of [[Gray-groupoid]]. These in turn are encoded by [[2-crossed module]]s.
 
