@@ -23,7 +23,7 @@
 
 ### Local gauge transformations
 
-In [[physics]] the term local **gauge transformation** means essentially [[isomorphism]]: the configuration [[space]] of a physical theory is typically a [[groupoid]] (an [[orbifold]]) and a _gauge transformation between configurations_ is a [[morphism]] in this groupoid.
+In [[physics]] the term local **gauge transformation** or **gauge equivalence** means essentially [[isomorphism]] or rather [[equivalence in an (infinity,1)-category]]: the configuration [[space]] of a physical theory is typically a [[groupoid]] (an [[orbifold]]) and a _gauge transformation between configurations_ is a [[morphism]] in this groupoid.
 
 More specifically, in physical theories called [[gauge theory]] -- such as describing [[electromagnetism]] and [[Yang-Mills field]]s -- the configuration space is a space of $G$-[[principal bundle]]s (over [[spacetime]] $X$) with [[connection on a bundle|connection]] over a [[Lie group]] $G$ called the **[[gauge group]]**. A _gauge transformation_ in the strict and original sense of the word is a morphism in the groupoid $G Bund_\nabla(X)$ of these bundles with connection.
 
@@ -87,6 +87,10 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 * [[spontaneously broken symmetry]]
 
+* [[principle of equivalence]]
+
+* [[general covariance]]
+
 [[!redirects gauge transformations]]
 [[!redirects gauge symmetry]]
 
@@ -95,3 +99,7 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 [[!redirects global symmetry]]
 [[!redirects local symmetry]]
+
+[[!redirects gauge equivalence]]
+[[!redirects gauge equivalences]]
+
