@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -138,6 +138,8 @@ This is really a special case of the previous class of examples, as $\Omega^\bul
 ## Related concepts
 
 * [[body]]/[[soul]]
+
+* [[Fock space]], [[!-modality]]
 
 ## References
 
