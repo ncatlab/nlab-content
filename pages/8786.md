@@ -1,6 +1,6 @@
 ## Idea
 
-*Concurrency* is a joint property of several (maybe interacting) [[event structure|processes]] proceeding simultaneously. Here the word "simultaneously" indicates that the evolution of the participating processes is indexed along a irreversible [[directed object]].
+*Concurrency* is a joint property of several (maybe interacting) [[event structure|processes]] proceeding simultaneously. Here the word "simultaneously" indicates that the evolution of the participating processes is indexed along an irreversible [[directed object]].
 
 ## Related entries
 
@@ -14,4 +14,6 @@
 
   * [[motivation for directed homotopy]]
 
+
+category:computer science
 [[!redirects concurrency]]
