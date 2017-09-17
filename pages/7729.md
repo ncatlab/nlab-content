@@ -16,7 +16,19 @@ together with a given set $T$ of sentences in $L$, the interpretation in a struc
 
 In [[model theory]], given a language $L$, a structure for $L$ is the same as a [[model]] of $L$ as a [[theory]] with an empty set of axioms. 
 
-There is a generalization of structure for languages/theories with multiple domains, called multi-sorted languages/theories.
+There is a generalization of structure for languages/theories with multiple domains or sorts, called multi-sorted languages/theories. 
+
+## Categorical interpretation 
+
+Every first-order language $L$ gives rise to a [[first-order hyperdoctrine]] with equality freely generated from $L$. Denoting this by $T(L)$, the base category $C_{T(L)}$ consists of sorts (which are products of basic sorts) and functional terms between sorts; the predicates are equivalence classes of relations definable in the language. The construction of $T(L)$ depends to some extent on the logic we wish to impose; for example, we could take the free Boolean hyperdoctrine generated from $L$ if we work in classical logic. 
+
+There is also a "tautological" first order hyperdoctrine whose base category is $Set$, and whose predicates are given by the power set functor 
+
+$$P \colon Set^{op} \to Bool$$ 
+
+and then an interpretation of $L$, as described above, amounts to a morphism of hyperdoctrines $T(L) \to Taut(Set)$. 
+
+This observation opens the door to a widened interpretation of "interpretation", where we might for instance replace $Set$ by a topos $E$, and use instead $Sub \colon E^{op} \to Heyt$ (taking an object of $E$ to its Heyting algebra of subobjects) as the receiver of interpretations. This of course is just one of many possibilities. 
 
 
 [[!redirects structures in model theory]]
