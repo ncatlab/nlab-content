@@ -214,6 +214,24 @@ On the other hand, in theories of [[supergravity]] such as string theory, there 
 
 Since the [[singularity]] involved in back holes is a similar kind of singularity as that involved in the [[big bang]] one might think that some analogous method is useful in the latter case. But if so, it has not surfaced so far.
 
+### What is the relationship between string theory and quantum field theory?
+ {#RelationshipBetweenQuantumFieldTheoryAndStringTheory}
+	
+Recall from some of the previous answers:
+
+1. [[perturbative string theory|Pertubative string theory]] is defined to be the [[asymptotic series|asymptotic]] [[perturbation series]] which are obtained by summing [[correlators]]/[[n-point functions]] of a 2d [[SCFT|superconformal field theory]] of central charge -15 over all genera and moduli of (punctured) [[super Riemann surfaces]].
+
+1. Perturbative quantum field theory is defined to be the [[asymptotic series|asymptotic]] [[perturbation series]] which are obtained by applying the [[Feynman rules]] to a [[local Lagrangian]] -- which equivalently, by **[[worldline formalism]]**, means: obtained by summing the [[correlators]]/[[n-point functions]] of 1d field theories (of particles) over all loop orders of [[Feynman graphs]].
+
+So the two are different. But for any [[perturbation series]] one can ask if there is a non-[[renormalization|renormlizable]] [[local Lagrangian]] such that its [[Feynman rules]] reproduce the given perturbation series at sufficiently low [[energy]]. If so, one says this Lagrangian is the _[[effective field theory]]_ of the theory defined by the original perturbation series (which, if [[renormalization|renormalized]], is conversely then a "[[UV-completion]]" of the given [[effective field theory]]).
+
+Now one can ask which effective quantum field theories arise this way as approximations to string perturbation series. It turns out that only rather special ones do. For instance those that arise all look like [[quantum anomaly]]-free [[Einstein-Yang-Mills-Dirac theory]] (consistent [[quantum gravity]] plus [[Yang-Mills theory|Yang-Mills]] [[gauge fields]] plus [[minimal coupling|minimally-coupled]] [[fermions]]). Not like [[phi^4 theory]], not like the [[Ising model]], etc.
+
+(Sometimes these days it is forgotten that QFT is much more general than the gauge theory plus gravity plus fermions that is seen in what is just the [[standard model of particle physics]]. QFT alone has no reason to single out gauge theories coupled to gravity and spinors in the vast space of all possible anomaly-free local Lagrangians.)
+
+On the other hand now, within the restricted area of [[Einstein-Yang-Mills-Dirac theories]], it currently seems that by choosing suitable [[worldsheet]] [[2d CFTs]] one can obtain a large portion of the possible flavors of these theories in the low energy effective approximation. Lots of kinds of gauge groups, lots of kinds of particle content, lots of kinds of [[coupling constants]]. There are still constraints as to which such QFTs are effective QFTs of a string perturbation series, but they are not well understood. (Sometimes people forget what it takes to defined a full 2d CFT. It's more than just conformal invariance and [[modular invariance]], and even that is often just checked in low order in those "[[landscape of string theory vacua|landscape]]" surveys.) In any case, one can come up with heuristic arguments that exclude some [[Einstein-Yang-Mills-Dirac theories]] as possible candidates for low energy effective quantum field theories approximating a string perturbation series. The space of them has been given a name (before really being understood, in good tradition...) and that name is, for better or worse, the "Swampland".
+
+
 ### Isn't it fatal that the string perturbation series does not converge?
  {#NonConvergenceOfPerturbationSeries}
 
