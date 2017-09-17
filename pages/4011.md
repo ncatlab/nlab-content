@@ -128,4 +128,4 @@ This result can fail if $N$ is not sequentially compact, as shown by the simples
 
 ## Diffeomorphisms ##
 
-The last thing that we wish to note is that diffeomorphisms in $E$ extend to diffeomorphisms in $C^\infty(N,E)$.  That is, for $U, V \subseteq E$ open subsets (in the [[smooth topology|$c^\infty$-topology]]) and a diffeomorphism $\phi \colon U \to V$, we want to show that the induced map $C^\infty(N, U) \to C^\infty(N,V)$ is a diffeomorphism.  This follows from the functorality of the $C^\infty(N,-)$-construction.
+The last thing that we wish to note is that diffeomorphisms in $E$ extend to diffeomorphisms in $C^\infty(N,E)$.  That is, for $U, V \subseteq E$ open subsets (in the $c^\infty$-topology) and a diffeomorphism $\phi \colon U \to V$, we want to show that the induced map $C^\infty(N, U) \to C^\infty(N,V)$ is a diffeomorphism.  This follows from the functorality of the $C^\infty(N,-)$-construction.
