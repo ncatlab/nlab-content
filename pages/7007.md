@@ -5,8 +5,14 @@
 
 ## Writings
 
-An introduction to programming languages in terms of [[type theory]]:
+An introduction to [[program|programming]] languages in terms of [[type theory]]:
 
 * _Practical foundations for programming languages_ ([pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 
+## Related entries
+
+* [[computational trinitarianism]]
+
 category: people
+
+[[!redirects Bob Harper]]
