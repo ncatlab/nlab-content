@@ -484,9 +484,7 @@ Some useful talk notes include
 
 ### $Spin^{\mathbb{C}}$-Quantization
 
-The flavor of [[spin-c quantization]] is explicitly discussed in 
-
-* [[Fabian Meier]], _Geometric quantization -- An introduction to $Spin^{\mathbb{C}}$-quantization and related topics_ ([pdf](http://www.math.uni-bonn.de/people/fmeier/GeomQuan.pdf))
+See the references at _[[geometric quantization by push-forward]]_.
 
 ### Examples
 
