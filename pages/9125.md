@@ -2219,6 +2219,10 @@ $$
 
 in [[supergeometry]] (...)
 
+* [[electron]], [[quark]]
+
+* [[gravitino]] ([[Rarita-Schwinger field]]), [[gluino]]
+
 #### Tensor fields
  {#TensorFields}
 
