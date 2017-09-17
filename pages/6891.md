@@ -19,21 +19,84 @@
 
 ## Definition
 
-For $X$ a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension]]al [[manifold]], write 
+For $X$ a [[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]], write 
 
 $$
   2 T X := T X \oplus T X
 $$
 
-for the fiberwise [[direct sum]] of the [[tangent bundle]] with itself. Via the [[diagonal]] embedding
+for the [[direct sum of vector bundles|fiberwise direct sum]] of the [[tangent bundle]] with itself. Via the [[diagonal]] embedding
 
 $$
   SO(3) \to SO(3) \times SO(3) \hookrightarrow SO(6)
 $$
 
-this naturally induces a [[special orthogonal group|SO(6)]]-[[principal bundle]]. Due to the low dimension, this always lifts to a [[spin group|spin(6)]]-[[principal bundle]].
+this naturally induces a [[special orthogonal group|SO(6)]]-[[principal bundle]]. 
 
-A **2-framing** on $X$ is a [[homotopy]] class of trivializations of this Spin-bundle.
++-- {: .num_prop}
+###### Proposition
+
+The underlying $SO(6)$-principal bundle of $2 T X$ always admits a [[lift of structure group|lift]] to a [[spin group|spin(6)]]-[[principal bundle]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the sum-rule for [[Stiefel-Whitney classes]] (see at [SW class -- Axiomatic definition](Stiefel-Whitney+class#AxiomaticDefinition)) we have that 
+
+$$
+  w_2(2 T X) = 2 w_0(T X) \cup w_2(T X) + w_1(T X) w_1(T X)
+  \,.
+$$
+
+Since $T X$ is assumed [[orientation|oriented]], $w_1(T X) = 0$ (since this is the [[obstruction]] to having an [[orientation]]). So $w_2(2 T X) = 0 \in H^2(X,\mathbb{Z}_2)$ and since this in turn is the further [[obstruction]] to having a [[spin structure]], this does exist.
+
+=--
+
+Therefore the following definition makes sense
+
++-- {: .num_defn}
+###### Definition
+
+A **2-framing** on a[[compact space|compact]], [[connected]], [[orientation|oriented]] 3-[[dimension|dimensional]] [[manifold]] $X$ is the [[homotopy class]] of a trivializations of the [[spin-group]]-[[principal bundle]] underlying [[Whitney sum|twice]] its [[tangent bundle]].
+
+=--
+
+More in detail, we may also remember the [[groupoid]] of 2-framings and the smooth structure on collections of them:
+
++-- {: .num_defn}
+###### Definition
+
+The [[moduli stack]] $2\mathbf{Frame}$ is the [[homotopy pullback]] in 
+
+$$
+  \array{
+    2\mathbf{Frame} &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{B}SO(3) &\stackrel{}{\to}&
+    \mathbf{B} Spin(6)
+  }
+$$
+
+in [[Smooth∞Grpd]].
+
+=--
+
+In terms of this a 2-frmaing on $X$ with [[orientation]] $\mathbf{o} \colon X \to \mathbf{B}SO(3)$ is a lift $\hat {\mathbf{o}}$ in 
+
+$$
+  \array{
+    && 2 \mathbf{Frame}
+    \\
+    & {}^{\mathllap{\hat {\mathbf{o}}}}\nearrow & \downarrow
+    \\
+    X &\stackrel{\mathbf{o}}{\to}& \mathbf{B}SO(3)
+  }
+  \,.
+$$
 
 
 ## Properties
@@ -55,6 +118,27 @@ $$
 $$
 
 This perspective on framings is made explicit in ([Bunke-Naumann, section 2.3](#BunkeNaumann)). It is mentioned for instance also in ([Freed, slide 5](#Freed)).
+
+### Relation to $Spin^c$-structures
+ {#RelationToSpincStructures}
+
+
+We have a [[pasting diagram]] of [[homotopy pullback]] squares,
+
+
+$$
+  \array{
+    2\mathbf{Frame} &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    Q &\to& \mathbf{B}Spin^c(6) &\to& \mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1\;mod\;2}}
+    \\
+    \mathbf{B}SO(3) &\to& \mathbf{B}SO(6) &\stackrel{\mathbf{w}_2}{\to}& \mathbf{B}^2 \mathbb{Z}
+  }
+$$
 
 ## Related concepts
 
