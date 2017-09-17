@@ -325,7 +325,7 @@ $$
 such is cooked up from every Frobenius algebra object $Q$ in $Rep(A \otimes A^{op})$
 (in vN theorists jargon this is a "$Q$-system")
 
-in the 3-cattegory VN3 this $Rep(A)$ can be written as
+in the 3-category VN3 this $Rep(A)$ can be written as
 
 $$
   Rep(A) 
@@ -390,7 +390,7 @@ We now
 
     * (using ([SaScSt I](http://arxiv.org/abs/0801.3480), [SaScSt III](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf)):) compute local differential form data after differentiating smooth $\infty$-groupoids to  [[nLab:Lie infinity-algebroid|L-infinity algebroids]] using the formalism of ([SaScSt I](http://arxiv.org/abs/0801.3480))
 
-  * for aspects of the twisetd case see also
+  * for aspects of the twisted case see also
 
     * [AsJu](http://arxiv.org/abs/hep-th/0409200)
 
