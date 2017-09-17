@@ -78,6 +78,106 @@ The [[higher algebra]] over this ring object is what is called [[superalgebra]].
 
 (...) [[supergeometry]] (...)
 
+## Structures in $Super \infty Grpd$
+
+We discuss the general abstract 
+<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> realized in $Super \infty Grpd$.
+
+### Exponentiated $\infty$-Lie algebras
+
+We discuss <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieAlgebras">Exponentiated ∞-Lie algebras</a> in $Super \infty Grpd$.
+
++-- {: .num_defn #SuperLInfinityAlgebra}
+###### Definition
+
+A **super $L_\infty$-algebra** is an [[L-∞ algebra]] [[internalization|internal to]] [[super vector space]]s. 
+
+The [[category]] of super $L_\infty$-algebras is
+
+$$
+  S L_\infty Alg := (ScdgAlg^+_{sf})^{op} 
+$$
+
+the [[opposite category]]  of [[semi-free dga|semi-free]] [[dg-algebra]]s in [[super vector space]]s: [[commutative monoid]]s in the category of [[cochain complex]]es of [[super vector space]]s whose underlying commutative [[graded algebra]] is free on generators in positive degree.
+
+For $\mathfrak{g}$ a super $L_\infty$-algebra we write $CE(\mathfrak{g})$
+for the corresponding [[dg-algebra]]: its [[Chevalley-Eilenberg algebra]].
+
+=--
+
++-- {: .num_defn #Exp}
+###### Definition
+
+For $\mathfrak{g}$ a super $L_\infty$-algebra, its [[Lie integration]] is the super $\infty$-groupoid presented by the [[simplicial presheaf]] 
+
+$$
+  \exp(\mathfrak{g}) \in [SuperPoint^{op}, sSet]
+$$
+
+on superpoints given by the assignment
+
+$$
+  \exp(\mathfrak{g}) : (\mathbb{R}^{0|q}, [k]) 
+    \mapsto
+   Hom_{dgAlg_k}(
+     CE(\mathfrak{g}, \Omega^\bullet_{vert}(\mathbb{R}^{0|q} \times \Delta^k))
+   )
+  \,.
+$$
+
+Here on the right we have [[vertical differential form]]s with resppect to the projection of [[supermanifold]]s $\mathbb{R}^{0|q} \times \Delta^k \to \mathbb{R}^{0|q}$ and with sitting instants (see [[Lie integration]]).
+
+=--
+
++-- {: .num_note}
+###### Note
+
+For $q \in \mathb{N}$ write $\Lambda_q := C^\infty(\mathbb{R}^{0|q})$ for the [[Grassmann algebra]] on $q$-generators, being the global functions on the [[super point]] $\mathbb{R}^{0|q}$. 
+
+Over $\mathbb{R}^{0|q}$ the super Lie integration from def \ref{Exp} is the ordinary [[Lie integration]] of the ordinary [[L-∞ algebra]] $(\mathfrak{g} \otimes_k \Lambda_q)_{even}$
+
+$$
+  \exp(\mathfrak{q})(\mathbb{R}^{0|q}) 
+    = 
+  \exp( \mathfrak{g}\otimes_k \Lambda_q )
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the standard [[even rules]] mechanism: write $\Lambda^q$ for the [[Grassmann algebra]] of duals on the generators of $\Lambda_q$. Then
+
+$$
+  \begin{aligned}
+    Hom_{dgAlg}(CE(\mathfrak{g}), \Omega^\bullet_{vert}(\mathbb{R}^{0|q} \times \Delta^n))
+    & \simeq
+    Hom_{dgAlg}(
+     CE(\mathfrak{g}), 
+     C^\infty(\mathbb{R}^{0|q}) \otimes \Omega^\bullet_{vert}( \Delta^n)
+    )
+    \\
+    & \simeq 
+    Hom_{dgAlg}(
+      CE(\mathfrak{g}), 
+      \Lambda_q \otimes \Omega^\bullet_{vert}( \Delta^n)
+    )    
+    \\
+    & \subset
+    Hom_{Ch^\bullet(SVect)}(\mathfrak{g}^* , \Lambda_q \otimes \Omega^\bullet_{vert}( \Delta^n))
+    \\
+    & \simeq
+    Hom_{Ch^\bullet(SVect)}(\mathfrak{g}^*\otimes \Lambda^q ,  \Omega^\bullet_{vert}( \Delta^n))
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+
 ## References
  {#References}
 
