@@ -16,7 +16,7 @@
 
 The notion [[duality|dual]] to [[operad]]. 
 
-Cooperads are to operads as [[algebras]] are to [[coalgebras]].
+Cooperads are to operads as [[coalgebras]] are to [[algebras]].
 
 ## References
 
