@@ -45,7 +45,7 @@ $$(f g)' = f' g + f g' $$
 
 $$(f \circ g)' = (f' \circ g) g' $$
 
-All these ideas also work if $f$ is parametrized, that is, a smooth function from $\mathbb{R} \times \mathbb{R}^n$ to $\mathbb{R}$, where the $n$ extra variables serve as [[parameter]]s.
+These ideas continue to work if $f$ is a smooth function from $\mathbb{R}^n$ to $\mathbb{R}$; focussing on one variable and treating the others as [[parameter]]s, we have [[partial derivative|partial differentiation]].
 
 
 ## Definition
