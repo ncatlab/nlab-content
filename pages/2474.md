@@ -219,6 +219,10 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[tensor product of C*-algebras]]
 
+* [[crossed product C*-algebra]]
+
+* [[Cuntz algebra]]
+
 * [[Hilbert C*-module]], [[Hilbert C*-bimodule]]
 
 * [[C*-category]]
