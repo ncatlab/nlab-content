@@ -1,13 +1,13 @@
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 In a restrictive sense, a homomorphism is a [[function]] between (the [[underlying sets]]) of two [[algebras]] that preserves the [[algebraic structure]].
 
-More generally, a homomorphism is a function between [[structured sets]] that preserves whatever structure there is around. Even more generally, 'homomorphism' is just a synonym for '[[morphism]]' in any [[category]], the structured sets being generalised to arbitrary [[object]]s.
+More generally, a homomorphism is a function between [[structured sets]] that preserves whatever [[structure]] there is around. Even more generally, 'homomorphism' is just a synonym for '[[morphism]]' in any [[category]], the structured sets being generalised to arbitrary [[object]]s.
 
 *Note: The word "homomorphism" has also traditionally been used for what we call a (weak) [[2-functor]] between [[bicategories]]*.
 
@@ -61,6 +61,10 @@ More generally, a **homomorphism** between sets equipped with any algebraic stru
 
 Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[morphism]]' in any [[category]], although there is a strong tendency to use 'homomorphism' in the case of 'algebraic' categories: for example, nobody seems to speak of a homomorphism between [[topological space]]s ([[continuous map]]s), or between [[manifold]]s.  Here we put 'algebraic' in scare quotes to indicate the *field* of [[algebra]]; even morphisms in [[algebraic categories]] from other fields (such as the category of [[compacta]]) are not usually called homomorphisms.
 
+
+## Related concepts
+
+* homomorphisms are to [[functions]] as [[logical relations]] are to [[relations]]
 
 [[!redirects homomorphism]]
 [[!redirects homomorphisms]]
