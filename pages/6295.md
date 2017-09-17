@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Quantum physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Jordan-Lie-Banach algebra_ (or _JLB-algebra_ for short) is a [[topology|topological]] [[algebra]] that behaves like a [[Poisson algebra]], only that the commutative product is not required to form an [[associative algebra]], but just a [[Jordan algebra]]. Hence a _JLB-algebra_ is a _nonassociative Poisson algebra_ with topology.
+
+JLB-algebras are the outcome of [[quantization]] of [[Poisson algebra]]s. Often that outcome is regarded to be a non-commutative but associative [[C-star algebra]]. But any such induces a JLB-algebra by letting the Jordan product be the symmetrized product and the Lie bracket the [[commutator]]. There is a condition relating the [[associator]] of the JLB-algebra to the Lie bracket, that characterizes those JLB-algebras that come from non-commutative associative algebras, and in the usual definition of JLB-algebra this condition is required. In that case JLB-algebras are effectively the same as $C^*$-algebras, the only difference being that the single assocative product is explcitly regarded as inducing the two products of a non-associative Poisson algebra.
+
+
+## References
+
+A careful definition is in section 1.1 of 
+
+* [[Hans Halvorson]], _Maximal Beable Subalgebras of
+Quantum-Mechanical Observables_ ([pdf](http://philsci-archive.pitt.edu/65/1/beables.pdf))
+
+A brief remark is on p. 80 of
+
+* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+ {#BatesWeinstein}
+
+
+
+[[!redirects Jordan-Lie-Banach algebras]]
+[[!redirects JLB algebra]]
+[[!redirects JLB algebras]]
+
+[[!redirects Jordan-Lie algebra]]
+[[!redirects Jordan-Lie algebras]]
+[[!redirects JL algebra]]
+[[!redirects JL algebras]]
