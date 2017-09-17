@@ -1,3 +1,10 @@
+[[!redirects II.10, smooth formal groups]]
+
+
+This entry is about a section of the text
+
+* Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+
 +-- {: .num_defn}
 ###### Definition
 A not necesarily commutative connected formal group $G=\Sp f A$ is called *[[smooth formal k-group]] if $A$ is a power-series algebra $k[ [X_1,...X_n] ]$ in $n$ variables
