@@ -97,7 +97,7 @@ On [[quantum field theory]] and [[string theory]]:
 
 * Albert Schwartz, *Quantum field theory and topology*, Grundlehren der Math. Wissen. __307__, Springer 1993. (translated from Russian original)
 
-* Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) 
+* Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) [amazon](http://www.amazon.com/Geometrical-Methods-Mathematical-Physics-Bernard/dp/0521298873), [google](http://books.google.hr/books?id=HAPMB2e643kC&lpg=PP1&dq=schutz%20geometrical%20methods&pg=PP1#v=onepage&q&f=false)
 
 * Howard Georgi: _Lie Algebras in Particle Physics. From isospin to unified theories._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0505.00036&format=complete))
 
