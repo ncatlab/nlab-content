@@ -95,7 +95,7 @@ $$
   D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C
 $$
 
-a [[reflective sub-(∞,1)-category]] that is obtained (as discussed there) by localization at a [[localization of an (∞,1)-category|strongly saturated class]] $\bar S$ of morphisms in $C$.
+a [[reflective sub-(∞,1)-category]]. Write $\bar S = L^{-1}(equiv)$ for the morphisms sent to equivalences by $L$.
 
 If this class $\bar S$ satisfies 
 
@@ -133,55 +133,38 @@ This is [[Higher Topos Theory|HTT, def. 6.2.2.6]]
 
 ## Properties
 
-+-- {: .un_prop }
-###### Proposition
-**sheaves form a topological localization**
+Let throughout $C$ be a [[locally presentable (∞,1)-category]].
 
-Let $C$ be a [[small (∞,1)-category]] with a [[Grothendieck topology]]. Then the inclusion
-
-$$
-  Sh_{(\infty,1)}(C)  \hookrightarrow PSh_{(\infty,1)}(X)
-$$
-
-from above is a topological localization
-
-=--
-
-This is [[Higher Topos Theory|HTT, Lemma 6.2.2.7]].
-
-
-+-- {: .proof}
-###### Proof
-
-...
-
-=--
+### General
 
 +-- {: .un_prop }
 ###### Proposition
-**all topological localizations arise this way**
+**(generation from a small set of morphisms)**
 
-Let $C$ be a [[small (∞,1)-category]]. There is a bijection between [[Grothendieck topology|Grothendieck topologies]] on $X$ and equivalence classes of topological localizations of $PSh_{(\infty,1)}(C)$.
+For every topological localization of $C$ at a strongly saturated class $\bar S$ there exists a [[small set]] of [[monomorphism in an (∞,1)-category|monomorphisms]] that generates $\bar S$. 
 
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.2.1.6]].
+
++-- {: .un_corollary }
+###### Corollary
+
+Every topological localization of $C$ is necessarily accessible and exact.
 
 =--
 
-This is [[Higher Topos Theory|HTT, prop. 6.2.2.9]].
+This is [[Higher Topos Theory|HTT, cor. 6.2.1.7]]
 
 
-+-- {: .proof}
-###### Proof
-
-...
-
-=--
+The following proposition asserts that for the construction of [[(n,1)-topos]]es the notion of topological localization is empty: if colimits commute with products, then already every localization is topological. Accordingly, also the notion of [[hypercompletion]] is relevant only for [[(∞,1)-topos]]es.
 
 
 +-- {: .un_prop }
 ###### Proposition
 **(localizations of presentable $n$-categories are topological)**
 
-Let $C$ be a [[presentable (∞,1)-category|presentable]] [[(n,r)-category|(n,1)-category]] for $n \in \mathbb{N}$ finite with [[universal colimits]]. Then every left exact [[localization of an (∞,1)-category|localization of]] $C$ is a topological localization
+Let $C$ be a [[locally presentable (∞,1)-category|locall presentable]] [[(n,1)-category]] for $n \in \mathbb{N}$ finite with [[universal colimits]]. Then every left exact [[localization of an (∞,1)-category|localization of]] $C$ is a topological localization
 
 =--
 
@@ -201,11 +184,67 @@ This means that every [[(n,1)-topos]] of $n$-sheaves is a localization at [[Cech
 
 * [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
-that a [[simplicial presheaf]] that satisfies [[descent]] on all [[Cech cover]]s already satisfies descent for all _bounded_ hypercovers. If the simplicial presheaf is $n$-truncated for some $n$, then it won't "see" $k$-bounded hypercovers for large enough $k$ anyway, and hence it follows that truncated simplicial presheaces that satisfy Cech descent already satisfy hyperdescent. 
+that a [[simplicial presheaf]] that satisfies [[descent]] on all [[Cech cover]]s already satisfies descent for all _bounded_ hypercovers. If the simplicial presheaf is $n$-truncated for some $n$, then it won't "see" $k$-bounded hypercovers for large enough $k$ anyway, and hence it follows that truncated simplicial presheaves that satisfy Cech descent already satisfy hyperdescent. 
 
 This is in line with the above statement that for $n$-toposes with finite $n$ there is no distinction between Cech descent and hyperdescent. The distinction becomes visible only for untruncated $\infty$-presheaves.
 
+
+
+
+### For $(\infty,1)$-presheaf $(\infty,1)$-categories
+
+Let throughout $K$ be a [[small (∞,1)-category]] and write $PSh_{(\infty,1)}(K)$ for the [[(∞,1)-category of (∞,1)-presheaves]] on $K$.
+
++-- {: .un_prop }
+###### Proposition
+**sheaves form a topological localization**
+
+Then the inclusion
+
+$$
+  Sh_{(\infty,1)}(K)  \hookrightarrow PSh_{(\infty,1)}(K)
+$$
+
+from above is a topological localization.
+
+=--
+
+This is [[Higher Topos Theory|HTT, Lemma 6.2.2.7]].
+
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
+
+
+
++-- {: .un_prop }
+###### Proposition
+**all topological localizations of $PSh_{(\infty,1)}(K)$ arise this way**
+
+There is a bijection between [[Grothendieck topology|Grothendieck topologies]] on $X$ and equivalence classes of topological localizations of $PSh_{(\infty,1)}(K)$.
+
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.2.2.9]].
+
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
+
 ## References
 
+
+Topological localizations are the topic of section 6.2, from def. 6.2.1.5 on, in 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 [[!redirects topological localizations]]
