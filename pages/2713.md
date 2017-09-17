@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Geometry
+#### Noncommutative geometry
 +--{: .hide}
-[[!include higher geometry - contents]]
+[[!include noncommutative geometry - contents]]
 =--
 #### Functorial quantum field theory
 +--{: .hide}
