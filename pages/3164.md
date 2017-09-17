@@ -66,6 +66,8 @@ $$
 
 * [[adelic integration]]
 
+* [[shtuka]]
+
 * [[higher arithmetic geometry]]
 
 * [[E-∞ arithmetic geometry]]
