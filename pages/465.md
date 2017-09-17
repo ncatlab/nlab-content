@@ -12,7 +12,7 @@ $$
   \,.
 $$
 
-The [[duality|dual]] concept is that of [[regular monomorphism]].  A morphism having a [[kernel pair]] (such as any morphism in a category with [[pullback]]s) is a regular epimorphism if and only if it is the [[quotient object]] of its kernel pair (see for instance Lemma 5.6.6 in _[[Practical Foundations]]_); in general, a regular epimorphism with a kernel pair is an __[[effective epimorphism]]__.
+The [[duality|dual]] concept is that of [[regular monomorphism]].  A morphism having a [[kernel pair]] (such as any morphism in a category with [[pullback]]s) is a regular epimorphism if and only if it is the [[quotient object]] of its kernel pair (see for instance Lemma 5.6.6 in _[[Practical Foundations]]_; this also follows from the theory of [[generalized kernels]]).  In general, a regular epimorphism with a kernel pair is an __[[effective epimorphism]]__.
 
 Although the definition doesn\'t state so explicitly, it is true that any regular epimorphism is an [[epimorphism]]. In fact, every regular epimorphism is a [[strong epimorphism]]. On the other hand, every [[split epimorphism]] is regular.
 
