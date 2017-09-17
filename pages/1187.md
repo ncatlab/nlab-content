@@ -92,6 +92,7 @@ General statements seem not to be in the literature yet, but see [this MO discus
 
 * [[relatively k-compact morphism in an (infinity,1)-category]]
 
+* [[compactly generated (∞,1)-category]]
 
 
 ## References
@@ -104,7 +105,7 @@ Compactness in presenting model categories of simplicial sheaves is discussed fo
 
 section 4 of 
 
-* [[Geoffrey Powell]], _The adjunction between $\mathcal{H}(k)$ and $DM^{eff}_-(k)$_ (2001) ([pdf](http://math.univ-angers.fr/~powell/documents/2001/adjoint.pdf))
+* Geoffrey Powell, _The adjunction between $\mathcal{H}(k)$ and $DM^{eff}_-(k)$_ (2001) ([pdf](http://math.univ-angers.fr/~powell/documents/2001/adjoint.pdf))
   {#Powell}
 
 
