@@ -844,9 +844,9 @@ One checks that this is indeed the correct prequantization as considered in ([Wi
 ## References
  {#References}
 
-Introductions and survey include
+Introductions and surveys include
 
-* [[Alexandre Kirillov]], _Lectures on the orbit method_, Graduate Studies in Mathematics, 64, American Mathematical Society, (2004)
+* [[Alexandre Kirillov]], _[[Lectures on the Orbit Method]]_, Graduate Studies in Mathematics, 64, American Mathematical Society, (2004)
 
   [[David Vogan]], _Review of: Lectures on the orbit method_ ([pdf](http://www.ams.org/journals/bull/2005-42-04/S0273-0979-05-01065-7/S0273-0979-05-01065-7.pdf))
 
