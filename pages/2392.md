@@ -669,6 +669,10 @@ Now in section 2 of the textbook
 * _[[Higher Algebra]]_
  {#Lurie}
 
+The equivalence between the [[dendroidal set]]-formulation and the one in terms of $(\infty,1)$-categories of operators is shown in 
+
+* [[Gijs Heuts]], [[Vladimir Hinich]], [[Ieke Moerdijk]], _The equivalence between Lurie's model and the dendroidal model for infinity-operads_ ([arXiv:1305.3658](http://arxiv.org/abs/1305.3658))
+
 
 [[!redirects (∞,1)-operad]]
 [[!redirects (∞,1)-operads]]
