@@ -25,7 +25,9 @@ A _category of fibrant objects_ is a [[category with weak equivalences]] equippe
 
 The extra structure of fibrations _and_ cofibrations in a [[model category]] is, while convenient if it exists, not carried by many [[category with weak equivalences|categories with weak equivalences]] which still admit many constructions in [[homotopy theory]]. These are notably categories of [[presheaf|presheaves]] with values in a [[model category]]. 
 
-A _category of fibrant objects_ is essentially like a [[model category]] but with all axioms concerning the cofibrations dropped, while at the same time assuming that all objectS are fibrant (hence the name). It turns out that this is sufficient for many useful constructions. In particular, it is sufficient for giving a convenient construction of the [[homotopy category]] in terms of [[span]]s of length one. This makes categories of fibrant objects useful in [[homotopical cohomology theory]].
+A _category of fibrant objects_ is essentially like a [[model category]] but with all axioms concerning the cofibrations dropped, while at the same time assuming that all objects are fibrant (hence the name). It turns out that this is sufficient for many useful constructions. In particular, it is sufficient for giving a convenient construction of the [[homotopy category]] in terms of [[span]]s of length one. This makes categories of fibrant objects useful in [[homotopical cohomology theory]].
+
+## Definition
 
 +-- {: .un_defn}
 ###### Definition
@@ -149,7 +151,6 @@ See for instance [section 1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 * Goerss, Jardine, _Simplicial homotopy theory_ .
 
 =--
-
 
   Concerning the example of [[Kan complex]]es, notice that [[SSet]] is also a _category of co-fibrant objects_ (i.e. $SSet^{op}$ is a category of fibrant objects) so that [[Kan complex]]es are in fact cofibrant and fibrant. That makes much of the technology discussed below superfluous, since it means that the right notion of $\infty$-morphism between Kan complexes is already the ordinary notion. 
 
@@ -440,21 +441,11 @@ $$
 
 
 
-### Cats of fib objects from cats of fib objects 
+### Slice categories
 
-The following constructions produce new categories
-of fibrant objects from the data provided from a given one.
+Let $\mathbf{C}$ be a category of fibrant objects, with fibrations $F \subset Mor(\mathbf{C})$ and weak equivalences $W \subset Mor(\mathbf{C})$.
 
-Let $\mathbf{C}$ be a category of fibrant objects.
-With fibrations $F \subset Mor(\mathbf{C})$
-and weak equivalences $W \subset Mor(\mathbf{C})$.
-
-+-- {: .un_lemma}
-###### Lemma
-
-For any object $B$ in $\mathbf{C}$, 
-let $\mathbf{C}_B^F$ be the category of fibrations
-over $B$:
+For any object $B$ in $\mathbf{C}$, let $\mathbf{C}_B^F$ be the category of fibrations over $B$ (a full subcategory of the [[slice category]] $\mathbf{C}/B$):
 
 * objects are fibrations $A \to B$ in $\mathbf{C}$,
 
@@ -470,18 +461,12 @@ over $B$:
   $$
   in $\mathbf{C}$.
 
-There is the obvious forgetful functor 
-$f : \mathbf{C}_B^F \to \mathbf{C}$. This induces
-a notion of weak equivalence and fibration on 
-$\mathbf{C}_B^F$ by. 
+There is an obvious [[forgetful functor]] $\mathbf{C}_B^F \to \mathbf{C}$, which induces notions of weak equivalence and fibration in $\mathbf{C}_B^F$.
 
-With this $\mathbf{C}_B^F$ becomes a category
-of fibrant objects.
-
++-- {: .un_lemma}
+###### Lemma
+With this structure, $\mathbf{C}_B^F$ becomes a category of fibrant objects.
 =--
-
-
-
 +-- {: .proof}
 ###### Proof
 
