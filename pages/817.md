@@ -1,3 +1,9 @@
+
+<div class="rightHandSide toc">
+[[!include enriched category theory contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -119,6 +125,6 @@ commutes. Evidently, this means that the elements $\eta$ of the [[end]] $\int_{c
 See [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)
 of the standard
 
-* Kelly, _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 [[!redirects enriched functor categories]]
