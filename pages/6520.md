@@ -1,25 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $\infty$-Chern-Weil theory
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 In [[Yang-Mills theory]] an _instanton_ is a field configuration with non-vanishing second [[Chern class]] that minimizes the Yang-Mills energy.
+
 
 ## Definition
 
@@ -27,7 +28,7 @@ Let $(X,g)$ be a [[compact space|compact]] [[Riemannian manifold]] of [[dimensio
 
 A [[configuration space|field configuration]] of $G$-[[Yang-Mills theory]] on $(X,g)$ is a $G$-[[principal bundle]] $P \to X$ with [[connection on a bundle|connection]] $\nabla$.
 
-For $G = SU(n)$ the [[special unitary group]], there is canonically an [[associated bundle|associated]] complx [[vector bundle]] $E = P \times_G \mathbb{C}^n$.
+For $G = SU(n)$ the [[special unitary group]], there is canonically an [[associated bundle|associated]] complex [[vector bundle]] $E = P \times_G \mathbb{C}^n$.
 
 Write $F_\nabla \in \Omega^2(X,End(E))$ for the [[curvature]] [[differential form|2-form]] of $\nabla$. 
 
@@ -51,13 +52,13 @@ $$
 
 is called the **instanton number** of $\nabla$.
 
- 
-
 
 ## References
 
-* [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_ Springer-Verlag, (1991) 
+* [[Dan Freed]], [[Karen Uhlenbeck]], _Instantons and four-manifolds_, Springer-Verlag, (1991) 
 
 * [[Robbert Dijkgraaf]], _Topological gauge theories and group cohomology_ ([ps](staff.science.uva.nl/~rhd/papers/group.ps))
 
+
+[[!redirects instanton]]
 [[!redirects instantons]]
