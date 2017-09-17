@@ -24,7 +24,7 @@ These are both orthocomplemented:
 
 * any [[Boolean algebra]], as in [[classical logic]]
 
-* the [[subspaces]] of a [[Hilbert space]], as in Birkhoff--von Neumann [[quantum logic]]
+* the [[subspaces]] of a [[Hilbert space]], as in Birkhoff--von Neumann [[quantum logic]]/[[Hilbert lattice]]
 
 
 ## References
