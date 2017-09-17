@@ -57,6 +57,7 @@ As for binary [[sum types]], it is possible to present the empty type as a [[neg
 
 The two definitions are provably equivalent, but only using the [[contraction rule]] and the [[weakening rule]].  Thus, in [[linear logic]] they become distinct; the positive empty type is "zero" $\mathbf{0}$ and the negative one is "bottom" $\bot$.
 
+
 ## Related concepts
 
 * [[sum type]]
@@ -65,5 +66,7 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 [[!redirects bottom type]]
 [[!redirects bottom types]]
+
 [[!redirects empty type]]
+[[!redirects empty typpe]]
 [[!redirects empty types]]
