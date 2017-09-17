@@ -1,7 +1,3 @@
-category: physics
-
-****
-_This is a stub._
 
 #Contents#
 * automatic table of contents goes here
@@ -16,13 +12,23 @@ In [[quantum mechanics]], the _Kochen-Specker theorem_ -- developed in 1967 by [
 +-- {: .un_defn}
 ###### Definition
 
-Let _A_ be a physical quantity represented by a self-adjoint operator $\hat{A}$ on the Hilbert space $\mathcal{H}$ of the system.  A **valuation** is defined to be a real-valued function $\lambda$ on the set of all bounded, self-adjoint operators.  This function has the following two properties:
+Let $B(\mathcal{H})$ be the algebra of [[bounded operator]]s on some [[Hilbert space]] $\mathcal{H}$. (In physics $\mathcal{H}$ is the space of states of a [[quantum mechanics|quantum mechanical]] system, and the elements $\hat A \in B(\mathcal{H})$ represent quantum observables.) 
 
-1. the value $\lambda(\hat{A})$ belongs to the spectrum of $\hat{A}$; and
+A **valuation** on $B(\mathcal{H})$ is a [[function]] 
 
-2. the [[functional composition principle]] (FUNC) holds, i.e. $\lambda(\hat{B})=h(\lambda(\hat{A}))$, for any pair of self-adjoint operators $\hat{A}$, $\hat{B}$ such that $\hat{B}=h(\hat{A})$ for some real-valued function, _h_.
+$$
+  \lambda : B(\mathcal{H}) \to \mathbb{R}
+$$ 
+
+to the [[real number]]s, satisfying two conditions:
+
+
+1. _value rule_ -- the value $\lambda(\hat{A})$ belongs to the spectrum of $\hat{A}$;
+
+2. _functional composition principle_ (FUNC) -- for any pair of self-adjoint operators $\hat{A}$, $\hat{B}$ such that $\hat{B}=h(\hat{A})$ for some real-valued function $h$ we have $\lambda(\hat{B})=h(\lambda(\hat{A}))$.
 
 =--
+
 
 Note that is $\hat{A}_{1}$ and $\hat{A}_{2}$ commute, it follows from the spectral theorem that there exists an operator $\hat{C}$ and functions $h_{1}$ and $h_{2}$ such that $\hat{A}_{1}=h_{1}(\hat{C})$ and $\hat{A}_{2}=h_{2}(\hat{C})$.  It follows from FUNC that
 
@@ -39,7 +45,7 @@ $$
 +-- {: .un_theorem}
 ###### Kochen-Specker theorem 
 
-No valuations exist if dim($\mathcal{H}$)>2.
+No valuations on $B(\mathcal{H})$ exist if dim($\mathcal{H}$)>2.
 
 =--
 
@@ -49,13 +55,60 @@ If a valuation _did_ exist and was restricted to a commutative sub-algebra of op
 
 ## Sheaf-theoretic interpretation
 
-Isham has shown that the Kochen-Specker theorem is equivalent to the statement that the spectral presheaf has no global elements.  To see how this argument works, let $\mathcal{V}(\mathcal{H})$ denote the collection of all commutative sub-algebras of operators on the Hilbert space $\mathcal{H}$.  This is a [[poset]] with respect to sub-algebra inclusion which means it is also a category whose objects are the commutative sub-algebras of $\mathcal{B}(\mathcal{H})$.  Isham refers to these as the **category of contexts**.
+[[Chris Isham]] and [[Jeremy Butterfield]] gave a [[topos theory|topos theoretic]] reformulation of the Kochen-Specker theorem as follows.
 
++-- {: .un_defn}
+###### Definition
+**(category of contexts)**
+
+Let $\mathcal{V}(\mathcal{H})$ be the [[category]] (a [[poset]]) whose
+
+* [[object]]s are _commutative_ [[von Neumann algebra|von Neumann subalgebras]] $V \subset B(\mathcal{H})$;
+
+* [[morphism]]s $V_1 \to V_2$ are inclusions $V_1 \subset V_2$.
+
+=--
+
+Isham calls this the **category of contexts** of $B(\mathcal{H})$.
 Each commutative algebra is viewed as a context within which to view a quantum system in an essentially classical way in the sense that the physical quantities in any such algebra can be given consistent values (as they can in a classical context).
 
-Let _V_ and _W_ be a pair of commutative sub-algebras such that $V \subseteq W$.  Now let $\underline{\Sigma}_{V}$ be the set of all local valuations on (i.e. the spectrum of) _V_.  The operation $V \mapsto \underline{\Sigma}_{V}$ defines the elements of a [[contravariant functor]], $\underline{\Sigma}$, from the category $\mathcal{V}(\mathcal{H})$ to the category [[Set]].  This means equivalently that it is a covariant functor from $\mathcal{V}(\mathcal{H})^{op}$ to [[Set]].  We may thus form a [[topos]] we call [[Set]]$^{\mathcal{V}(\mathcal{H})^{op}}$.
++-- {: .un_defn}
+###### Definition
+**(spectral presheaf)**
 
-The [[terminal object]], $1_{Set^{\mathcal{V}(\mathcal{H})^{op}}}$, in this topos is the [[presheaf]] that associates a singleton set with each commutative algebra.  Thus the global element $\lambda : 1_{Set^{\mathcal{V}(\mathcal{H})^{op}}} \to \underline{\Sigma}$ of the spectral presheaf, $\underline{\Sigma}$ associates an element of spectrum of an algebra, _V_, to that algebra such that all local valuations are global, i.e. for $V \subseteq W$ valuations on _V_ are local valuations on _W_ but global on _V_.  Thus we can see that the Kochen-Specker theorem is equivalent to the statement that the spectral presheaf has no global elements.
+Let $\Sigma : \mathcal{V}(\mathcal{B})^{op} \to Set$ be the [[presheaf]] on the category of context such that
+
+* to $V \subset B(\mathcal{H})$ it assigned the set underlying the 
+  spectrum of $V$: the set of multiplicative linear [[functional]]s 
+  $\kappa : V \to \mathbb{R}$;
+
+* to an inclusion $i : V_1 \hookrightarrow V_2$ it assigns the corresponding 
+  function $i^* : \Sigma(V_2) \to \Sigma(V_1)$ that sends a functional
+  $V_2 \stackrel{\kappa}{\to} \mathbb{R}$ to its restriction
+  $V_1 \hookrightarrow V_2 \stackrel{\kappa}{\to} \mathbb{R}$.
+
+
+=--
+
+
+Recall that the [[terminal object]], $* = 1_{Set^{\mathcal{V}(\mathcal{H})^{op}}}$ in the [[category of presheaves]] on $\mathcal{V)(\mathcal{H})$ is the presheaf that assigns singleton set to each commutative algebra.  
+
+A [[global element]] of the spectral presheaf $\Sigma$ is a morphism $e : * \to \Sigma$ in the presheaf topos. Being a [[natural transformation]] of functors, such a global element $\lambda : 1_{Set^{\mathcal{V}(\mathcal{H})^{op}}} \to \underline{\Sigma}$ of the spectral presheaf, $\underline{\Sigma}$ would associate an element of the spectrum of an algebra $V$ to that algebra such that all local valuations are global, i.e. for $V \subseteq W$ valuations on $V$ are local valuations on $W$ but global on $V$.  
+
+Because notice that a multiplicative linear functional $\kappa : V \to\mathbb{R}$ ssatisfies the axioms of a valuation when restricted to the self-adjoint elements of $V$.
+
+By the Kochen-Specker theorem these cannot exist, hence a global element of $\Sigma$ cannot exist.
+
++-- {: .un_lemma}
+###### Observation
+(Hamilton, Isham, Butterfly)
+
+The Kochen-Specker theorem is equivalent to the statement that in the presheaf [[topos]] $[\mathcal{V}(\mathcal{H})^{op}, Set]$ the spectral presheaf $\Sigma$ has no [[global element]]s.
+
+=--
+
+
+
 
 ## Contextuality
 
@@ -72,5 +125,13 @@ The original paper outlining Bell's theorem:
 The original paper outlining Gleason's theorem:
 
 * A.M. Gleason "Measures on the closed subspaces of a Hilbert space," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
+
+The sheaf-theoretic interpretation of the theorem was proposed in
+
+* [[Chris Isham]], [[Jeremy Butterfield]], _A topos perspective on the Kochen-Specker theorem: I. Quantum States as Generalized Valuations_ ([arXiv:quant-ph/9803055](http://arxiv.org/abs/quant-ph/9803055))
+
+The formulation in terms of presheaves on the category of commutative sub-algebra of $B(\mathcal{H})$ was proposed in 
+
+* J. Hamilton, [[Chris Isham]], [[Jeremy Butterfield]], _A Topos Perspective on the Kochen-Specker Theorem: III. Von Neumann Algebras as the Base Category_ ([arXiv:quant-ph/9911020](http://arxiv.org/abs/quant-ph/9911020))
 
 ## Discussion
