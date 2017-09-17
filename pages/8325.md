@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Hegel)
+
+category: people
+
+[[!redirects Georg Wilhelm Friedrich Hegel]]
+[[!redirects Georg Wilhelm Hegel]]
+[[!redirects Georg Hegel]]
