@@ -1,7 +1,14 @@
-<div class="rightHandSide toc">
-[[!include infinity-limits - contents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
