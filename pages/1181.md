@@ -86,7 +86,7 @@ for some unique $x$, in fact for $x = f(0)$. Uniqueness is clear since $!: \math
 
 $$\array{ 
 1 & \overset{0}{\to} & \mathbb{N} & \overset{s}{\to} & \mathbb{N} \\ 
- & f(0) \searrow & \downarrow g & & \downarrow g \\ 
+ & ^\mathllap{f(0)} \searrow & \downarrow ^g & & \downarrow ^g \\ 
  & & X & \underset{1_X}{\to} & X
 }$$ 
 
@@ -95,8 +95,9 @@ this diagram commutes, so that $f = f(0) \circ !$ by the uniqueness clause in th
 
 +-- {: .proof}
 ###### Proof of sufficiency
-To be filled in. For a topos in which there is an isomorphism $\alpha: F(X) \to X$, it should be possible to construct a natural numbers object as the intersection of all $F$-subalgebras of $(X, \alpha)$. On the other hand, there are no nontrivial subalgebras of any such algebra satisfying condition 2. 
-=--
+We give a brief outline, referring to [(Johnstone)]({#Johnstone}), section D.5.1, for full details. Let $N$ be an object satisfying the two colimit conditions of Freyd. One first shows that $N$ has no nontrivial $F$-subalgebras. Next, let $A$ be any $F$-algebra, and let $i: B \to N \times A$ be the intersection of all $F$-subalgebras of $N \times A$. One shows that $\pi_1 \circ i: B \to N$ is an ($F$-algebra) isomorphism. Thus we have an $F$-algebra map $f: N \to A$. If $g: N \to A$ is any $F$-algebra map, then the equalizer of $f$ and $g$ is an $F$-subalgebra of $N$, and therefore $N$ itself, which means $f = g$. 
+=--  
+
 
 ## Examples
 
@@ -106,7 +107,7 @@ There are interesting cases in which such sheaf toposes contain objects that loo
 
 ## Properties
 
-Let $f = (f^* \dashv f_*) : E \underoverset{f_*}{f^*}{\leftrightarrows} F$ be a [[geometric morphism]] of toposes. If $N \in F$ is a natural numbers object, then its [[inverse image]] $f^* N$ is a natural numbers object in $E$. ([Johnstone, lemma 4.1.14](#Johnstone)). 
+Let $f = (f^* \dashv f_*) : E \underoverset{f_*}{f^*}{\leftrightarrows} F$ be a [[geometric morphism]] of toposes. If $N \in F$ is a natural numbers object, then its [[inverse image]] $f^* N$ is a natural numbers object in $E$. ([Johnstone, lemma A.4.1.14](#Johnstone)). 
 
 In particular, if $E$ is a [[Grothendieck topos]], then there is a unique [[geometric morphism]] $(E^* \dashv \Gamma): E \underoverset{\Gamma}{E^*}{\leftrightarrows} Set$, the [[global section]] geometric morphism. If $E^*$ is the [[exact functor|left exact]] [[left adjoint]], it follows that 
 
