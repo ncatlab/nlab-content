@@ -2332,7 +2332,7 @@ where on the left we have the [[coadjoint orbit]] of $\langle \lambda , -\rangle
 This implies that if $\nabla = 0$ is the trivial background field, than fields $\phi : X \to \mathbf{Fields}$ are equivalently maps to the coadjoint orbit
 
 $$
-  [X, \mathbf{Fields}]_{\matbf{H}}|_{\Phi_X = 0}
+  [X, \mathbf{Fields}]_{\mathbf{H}}|_{\Phi_X = 0}
   \simeq
   C^\infty(X, \mathcal{O}_\lambda)
   \,.
