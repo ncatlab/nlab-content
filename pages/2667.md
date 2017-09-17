@@ -28,9 +28,9 @@ The first thing that should be understood from the beginning is that a general S
 
 $$hom(V, W) \to hom(F(V), F(W))$$ 
 
-is not assumed to respect linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[biproduct]] of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor]]s preserve finite biproducts, it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$. The category of linear Schur functors is equivalent to $Vect_{fd}$. 
+is not assumed to respect linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[direct sum]] of copies of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor|linear functors]] preserve finite direct sums, it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$.  So, the category of linear Schur functors is equivalent to $FinVect_{\mathbb{C}}$. 
 
-Rather more representative examples of Schur functors include: 
+More representative examples of Schur functors include: 
 
 * For each $k \geq 0$, the $k^{th}$ [[tensor power]] $V \mapsto V^{\otimes k}$ is a Schur functor. 
 
@@ -38,19 +38,13 @@ Rather more representative examples of Schur functors include:
 
 * For each $k \geq 0$, the $k^{th}$ [[alternating power]] $V \mapsto Alt^k(V)$ is a Schur functor. 
 
-Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object]]s, decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
+Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object|irreducible objects]], decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
 +--{.query} 
-[[Todd Trimble]]: I took this statement about decompositions from the blog discussion, but what's the precise statement? I have a hard time believing that it's a finite decomposition in general. I'm hoping the situation is analogous to analytic functors in the case of species, but I'm not at all sure what the precise statement should be. 
 
-Even if it is something analogous to analytic functors, I am reminded that analytic functors on $Set$ aren't just any old functors; they are characterized by certain properties such as weak preservation of pullbacks. Is there something similar that needs to be said for the very general sense of 'Schur functor' given above?
-
-[[John Baez]]: I think we don't need anything more than what we're assuming above.  But let's prove that. 
-
-[[Todd Trimble]]: Scratch the query as stated above then: I see you've edited in an algebraicity hypothesis. We share a hope that the sophisticated machinery of strong natural transformations and modifications will automatically enforce such a thing. That would be nice. 
+We need to lead up to a proof that the above conceptual definition of Schur functor is actually _correct_, i.e., that it matches the usual definition given below. 
 
 =--
-
 # Schur functors associated with Young diagrams #
 
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $Vect_{\mathbb{C}}$. Indeed, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] whose hom-objects are $\mathbb{Q}$-vector spaces. 
