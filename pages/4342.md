@@ -50,7 +50,7 @@ The transportable endomorphisms are the **[[objects]]** of the DHR category $\De
 +-- {: .num_defn}
 ###### Definition
 
-For two transportable endomorphisms the **set of intertwiners** are the **[[morphisms]]**.
+For two transportable endomorphisms the **set of [[intertwiners]]** are the **[[morphisms]]**.
 
 =--
 
@@ -61,7 +61,7 @@ For two transportable endomorphisms the **set of intertwiners** are the **[[morp
 
 It is straightforward to see that $\Delta$ is a [[category]]:
 
-The [[identity]] morphism for each object in $\Delta$ is given by the identiy in $\mathcal{A}$. The [[composition]] of arrows is simply the composition of intertwiners:
+The [[identity]] morphism for each object in $\Delta$ is given by the identiy in $\mathcal{A}$. The [[composition]] of arrows is simply the composition of [[intertwiners]]:
 
 From
 
@@ -91,7 +91,7 @@ $\Delta$ is a $\mathbb{C}-$[[algebroid]].
 +-- {: .un_lemma }
 ###### Lemma
 
-$\Delta$ is a [[dagger-category]] since, if $R$ is an intertwiner of the pair $(\rho_1, \rho_2)$, then $R^*$ is obviously an intertwiner of the pair $(\rho_2, \rho_1)$.
+$\Delta$ is a [[dagger-category]] since, if $R$ is an [[intertwiner]] of the pair $(\rho_1, \rho_2)$, then $R^*$ is obviously an [[intertwiner]] of the pair $(\rho_2, \rho_1)$.
 
 =--
 
