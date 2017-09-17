@@ -1,5 +1,5 @@
 
-An __entire function__ is a function defined and [[holomorphic function|holomorphic]] on the entire (hence the name) [[complex plane]] $\mathbb{C}$. 
+An __entire function__ is a function defined and [[holomorphic function|holomorphic]] on the entire (hence the name) [[complex plane]] $\mathbb{C}$ (as opposed to a [[partial function|partial]] such function, which might be defined only on some [[open subset]]). 
 
 The study of entire functions is a rather nontrivial branch of [[complex analysis]]; of course, with many applications. 
 
