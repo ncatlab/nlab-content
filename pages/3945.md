@@ -54,7 +54,11 @@ One can then prove the axioms of a triangulated category.
 
 ## References
 
-See [[derivator]].
+See [[derivator]] for general references about derivators.  References particularly pertaining to the stable version include:
+
+* [[Alex Heller]], "Stable homotopy theories and stabilization" [MR](http://www.ams.org/mathscinet-getitem?mr=1431157)
+
+* [[Denis-Charles Cisinski]] and Amnon Neeman, "Additivity for derivator K-theory", [MR](http://www.ams.org/mathscinet-getitem?mr=2382732)
 
 [[!redirects stable derivators]]
 [[!redirects triangulated derivator]]
