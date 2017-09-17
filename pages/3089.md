@@ -21,7 +21,7 @@ Dually, a reflexive coequalizer in the [[opposite category]] $C^{op}$ is called 
 
 * Reflexive coequalizers figure in the [[crude monadicity theorem]].
 
-* A theorem of [[Fred Linton]] states that if $T$ is a [[monad]] on a [[cocomplete category]] $C$, then the category $C^T$ of [[Eilenberg-Moore category|Eilenberg–Moore algebras]] is cocomplete if and only if it has reflexive coequalizers.  This is the case particularly if $T$ preserves reflexive coequalizers.
+* A theorem of [[Fred Linton]] states that if $T$ is a [[monad]] on a [[cocomplete category]] $C$, then the category $C^T$ of [[Eilenberg-Moore category|Eilenberg Moore algebras]] is cocomplete if and only if it has reflexive coequalizers.  This is the case particularly if $T$ preserves reflexive coequalizers.
 
 * If $F\colon C\times D\to E$ is a functor of two variables which preserves reflexive coequalizers in each variable separately (that is, $F(c,-)$ and $F(-,d)$ preserve reflexive coequalizers for all $c\in C$ and $d\in D$), then $F$ preserves reflexive coequalizers in both variables together.  (This is emphatically *not* the case for arbitrary coequalizers.)
 
@@ -39,13 +39,19 @@ also preserves reflexive coequalizers.
 
 This has a further consequence which is technically very convenient: 
 
-* If $T$ is a [[finitary monad]] on $Set$, then $T$ preserves reflexive coequalizers. 
-
-**Proof:** We have a coend formula for $T$: 
++-- {: .un_theorem}
+###### Theorem
+If $T$ is a [[finitary monad]] on $Set$, then $T$ preserves reflexive coequalizers.
+=--
++-- {: .proof}
+###### Proof
+We have a coend formula for $T$: 
 
 $$T(-) \cong \int^{n \in Fin} T(n) \times \hom(n, -)$$ 
 
 and since this is a colimit of functors $\hom(n, -)$ which preserve reflexive coequalizers, $T$ must also preserve reflexive coequalizers. 
+=--
+
 
 ## References
 
