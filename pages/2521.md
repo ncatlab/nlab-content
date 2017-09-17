@@ -25,6 +25,8 @@ From the point of view of [[noncommutative geometry]], the supergeometry is a ve
 
 ## Related concepts
 
+* [[signs in supergeometry]]
+
 * [[superpoint]]
 
 * [[super ∞-groupoid]], [[smooth super ∞-groupoid]]
