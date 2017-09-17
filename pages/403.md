@@ -232,13 +232,10 @@ An introduction is also in
 * [[John Baez]], [[Alissa Crans]], _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
 
 
-
-
-
-[[!redirects internal groupoid]]
 [[!redirects internal categories]]
+[[!redirects internal groupoid]]
 [[!redirects internal groupoids]]
 [[!redirects category internal]]
-[[!redirects groupoid internal]]
 [[!redirects categories internal]]
+[[!redirects groupoid internal]]
 [[!redirects groupoids internal]]
