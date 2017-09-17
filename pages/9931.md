@@ -95,6 +95,14 @@ and thus $f$ has height exactly 1.
 
 For instance ([Lurie 10, lecture 12, example 16](#Lurie10)).
 
+## Properties
+
+### Chromatic height filtation
+
+The hight of formal groups induces the [[height filtration]] on the [[moduli stack of formal groups]].
+
+[[!include Lurie spectral sequences -- table]]
+
 
 
 ## Related pages
