@@ -52,6 +52,10 @@ Characterization: a morphism is formally unramified iff the module $\Omega_{Y/X}
 
 * [[EGA]] IV
 
+* [[James Milne]], p. 20 of _[[Lectures on Étale Cohomology]]_
+
 
 [[!redirects unramified morphisms]] 
 [[!redirects unramified]]
+
+[[!redirects unramified morphism of schemes]]
