@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 A **frame** $A$ is a [[partial order|poset]] with all [[join|joins]] and all finite [[meet|meets]] which satisfies the _infinite distributive law_:
 $$ x \wedge (\bigvee_i y_i) \leq \bigvee_i (x\wedge y_i).$$
 (Note that the converse holds in any case, so we have equality.)
