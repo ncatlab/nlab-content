@@ -99,23 +99,14 @@ $$
   \,.
 $$
 
-## In chain complexes
+### In chain complexes
 
 See [[homotopically injective object]] for a relevant generalization to categories of chain complexes, and its relationship to ordinary injectivity.
 
 
 ## Examples
 
-### Existence of enough injectives
-
-* Every [[topos]] has enough injectives.  In fact, every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
-
-* At least assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  Full AC is much more than required, however; [[small violations of choice]] suffices.  The abelian category of [[modules]] over some [[ring]] is similar.
-
-* The category of abelian [[sheaves]] on any small [[site]] also has enough injectives.  This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.
-
-
-### Injective Modules
+### Injective modules
 
 Let $R$ be a [[commutative ring]] and  $C = R Mod$ the category of $R$-[[module]]s.
 
@@ -135,6 +126,15 @@ Using [Baer's criterion](#Baer) one finds that
 So in particular the group of [[rational number]]s $\mathbb{Q}$ is injective in [[Ab]], the additive group underlying any [[vector space]], the quotient of any injective group by any other group.
 
 _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ for $n \gt 1$.
+
+### Existence of enough injectives
+
+* Every [[topos]] has enough injectives.  In fact, every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
+
+* At least assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  Full AC is much more than required, however; [[small violations of choice]] suffices.  The abelian category of [[modules]] over some [[ring]] is similar.
+
+* The category of abelian [[sheaves]] on any small [[site]] also has enough injectives.  This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.
+
 
 ## References
 
