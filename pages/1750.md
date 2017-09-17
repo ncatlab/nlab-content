@@ -55,7 +55,7 @@ A functor $p \colon E \to B$ is a [[cleavage|cloven]] Street fibration if and on
 
 It follows that a morphism $p \colon E \to B$ in any 2-category $K$ is representably a fibration (i.e. satisfies the first definition) if and only if the adjunction $i \dashv r$ exists in $K/B$ (i.e. it satisfies the third condition).
 
-Now we connect the first three conditions with the third.  Because $K$ is finitely complete, we may form the [[tricategory]] $Span(K)$ of [[spans]] in $K$.  In particular, $K/B$ is equivalent to the hom-2-category $Span(K)(B,1)$.  Now [[comma object|recall]] that $B/p$ can be expressed as a pullback or span composite
+Now we connect the first three conditions with the fourth.  Because $K$ is finitely complete, we may form the [[tricategory]] $Span(K)$ of [[spans]] in $K$.  In particular, $K/B$ is equivalent to the hom-2-category $Span(K)(B,1)$.  Now [[comma object|recall]] that $B/p$ can be expressed as a pullback or span composite
 $$
 \array{
   & & & & B/p & & & & \\
