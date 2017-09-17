@@ -10,7 +10,7 @@
 
 ### Lorentzian manifold
 
-A _Lorentzian manifold_ $(X, \eta)$ of dimension $(d+1)$ is a smooth [[manifold]] equipped with a [[pseudo-Riemannian metric]] $\eta$ of signature $[+--\cdots -]$ (but note that the complementary choice $[-++\cdots +]$ is also used in the literature). This equips the [[tangent bundle|tangent space]] $T_x X$ at every point $x \in X$ canonically with the structure of a $(d+1)$-dimensional [[Minkowski space]].  Accordingly, tangent vectors $v \in T_x X$ of $X$ are called _timelike_ , _lightlike_ or _spacelike_ , if their norm-square $\mu_x(v,v)$ is positive, zero or negative, respectively. 
+A _Lorentzian manifold_ $(X, \eta)$ of dimension $(d+1)$ is a [[smooth manifold]] equipped with a [[pseudo-Riemannian metric]] $\eta$ of signature $[+--\cdots -]$ (but note that the complementary choice $[-++\cdots +]$ is also used in the literature). This equips the [[tangent bundle|tangent space]] $T_x X$ at every point $x \in X$ canonically with the structure of a $(d+1)$-dimensional [[Minkowski space]].  Accordingly, tangent vectors $v \in T_x X$ of $X$ are called _timelike_ , _lightlike_ or _spacelike_ , if their norm-square $\mu_x(v,v)$ is positive, zero or negative, respectively. 
 
 
 ### Causal structure
@@ -58,7 +58,7 @@ Examples of non-chronological Lorentzian manifolds are the [[anti de Sitter spac
 
 While the former is more of a theoretical interest due to the maximality of the symmetry group, the latter is usually seen as a solution with relevance to actual _physics_, despite the fact that causality does not hold everywhere.
 
-Note that the property of being chronological is not strong enough to enforce causality as understood in everyday life: Even if there are no _closed_ future-directed curves, there still may be e.g. nonclosed _ergodic_ future-directed curves (they come close to every point they already passed in the "past"). An often used stronger condition that models the everyday notion of causality is that the manifold has to be [[globally hyperbolic manifold|globally hyperbolic]] ([globally hyperbolic] (http://en.wikipedia.org/wiki/Globally_hyperbolic)), which, as already mentioned, excludes certain solutions modelling e.g. black holes. 
+Note that the property of being chronological is not strong enough to enforce causality as understood in everyday life: Even if there are no _closed_ future-directed curves, there still may be e.g. nonclosed _ergodic_ future-directed curves (they come close to every point they already passed in the "past"). An often used stronger condition that models the everyday notion of causality is that the manifold has to be [[globally hyperbolic manifold|globally hyperbolic]] ([Wikipedia](http://en.wikipedia.org/wiki/Globally_hyperbolic)), which, as already mentioned, excludes certain solutions modelling e.g. black holes. 
 
 #### Being causal means being a poset
 
@@ -111,7 +111,7 @@ To put this construction into context, we therefore first recall the story for p
 
 #### Prelude: the path 2-groupoid of an orbifold
 
-To an ordinary smooth [[manifold]] or [[generalized smooth space]] $X$ is associated its [[fundamental groupoid]] $\Pi_1(X)$ and its smooth [[path groupoid]] $P_1(X)$: [[categories]] whose [[object]]s are the points of $X$ and whose [[morphism]]s are certain equivalence classes of smooth paths between these objects.
+To an ordinary [[smooth manifold]] or [[generalized smooth space]] $X$ is associated its [[fundamental groupoid]] $\Pi_1(X)$ and its smooth [[path groupoid]] $P_1(X)$: [[categories]] whose [[object]]s are the points of $X$ and whose [[morphism]]s are certain equivalence classes of smooth paths between these objects.
 
 This construction generalizes from paths in plain spaces, to paths in spaces that are themselves smooth groupoids: notably to [[orbifold]]s $X$. 
 
