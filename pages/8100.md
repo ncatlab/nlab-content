@@ -24,6 +24,10 @@ The [[action functional]] of the [[type II superstring]] [[sigma-model]] for [[o
 
 ... for the moment see the discussion at [[twisted spin^c structure]].
 
+## Related concepts
+
+* [[Green-Schwarz mechanism]]
+
 ## References
 
 The special case where the class of the restriction of the [[B-field]] to the D-brane _equals_ the third [[integral Stiefel-Whitney class]] of the D-brane was discussed in
