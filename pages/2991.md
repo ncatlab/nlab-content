@@ -79,7 +79,7 @@ This result is especially interesting because sheaves and stacks for the extensi
 
 # References
 
-* Chapter 1 of [[David Roberts]]' [[davidroberts:HomePage|thesis]] uses superextensive sites in the study of [[anafunctors]].
+* Chapter 1 of [[David Roberts]]' thesis uses superextensive sites in the study of [[anafunctors]]. The material is covered and updated in the paper _Internal categories, anafunctors and localisations_.
 
 # Discussion
 
