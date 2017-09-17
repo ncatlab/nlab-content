@@ -20,14 +20,14 @@ A cone which is [[universal property|universal]] is a [[limit]].
 
 The dual notion is _[[cocone]]_ .
 
-Thsi definition generalizes to [[higher catergory theory]]. In particular in [[(∞,1)-category theory]] a cone over an [[∞-groupoid]] is essentially a cone in the sense of [[homotopy theory]].
+Thsi definition generalizes to [[higher category theory]]. In particular in [[(∞,1)-category theory]] a cone over an [[∞-groupoid]] is essentially a cone in the sense of [[homotopy theory]].
 
 
 ## Definition
 
 ### As a contracted cylinder
 
-The **cone** over an [[object]] $X$ in a [[category]] with [[pushout]]s, [[terminal object]]  and with [[cylinder object]] $X \times I$ is the [[pushout]] $cone(X) := X\times I \coprod_X *$
+The **cone** over an [[object]] $X$ in a [[category]] with [[pushout]]s, [[terminal object]]  and with [[cylinder object]] $X \times I$ is the [[pushout]] $cone(X) := X\times I \amalg_X *$
 
 $$
   \array{
