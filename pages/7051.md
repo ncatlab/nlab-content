@@ -1,0 +1,5 @@
+Let $G$ be a Lie group, $M$ a manifold and
+$$
+\nu : G\times M\to M
+$$
+a $C^1$-differentiable action on a $C^1$-[[differentiable manifold]].
