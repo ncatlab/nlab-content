@@ -27,7 +27,7 @@ There are two big questions about [[category theory]] and the logical foundation
  1. What foundations are adequate to formulate category theory?
  2. How can category theory provide a foundation for mathematics?
 
-These questions also apply to [[higher category theory]], which also involves the relation between them. (Two-categories as a foundation for categories, for example.)
+These questions also apply to [[higher category theory]], which also involves the relation between them. (2-categories as a foundation for categories, for example.)
 
 +--{.query}
 
