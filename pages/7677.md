@@ -14,6 +14,10 @@ from the category of $S$-[[module|modules]] to that of $R$-modules where
 $$s^*:A\mapsto A\otimes_s S$$
 is called *scalar extension* and $s_*$ is called *scalar restriction*.
 
+## Idea
+
+(Frobenius recognizes [[p-torsion]])
+
 ## Definition
 
 Let $p$ be a prime number, let $k$ be a field of characteristic $p$. For a $k$-ring $A$ we define
@@ -95,6 +99,12 @@ X^p
 }$$
 
 ## Properties
+
+
+Note that the Frobenius $F_p$ is an endomorphism of a field $R$ only if the characteristic of $R$ is $p$. In this case it is automatically a monomorphism, since field homomorphisms always are.
+
+However if we pass from rings to schemes, in general it is not true that Frobenius is a monomorphism. The following proposition gives necessary and sufficient conditions for the Frobenius to be a monomorphism in case of [[formal scheme|formal schemes]].
+
 
 +-- {: .num_prop}
 ###### Proposition
