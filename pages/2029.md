@@ -32,4 +32,6 @@ For instance the dual $Spek k[\epsilon](\epsilon^2)$ of the [[ring of dual numbe
 * [[de Rham space]]
 
 * [[formally smooth scheme]]
+
+category: algebraic geometry
 [[!redirects reduced schemes]]
