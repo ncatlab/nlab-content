@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Phyiscs
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 The process of [[quantization]] is supposed to assign to a [[classical field theory]] a corresponding [[quantum field theory]]. One tends to imagine that in some cases the resulting QFT can itself be regarded as a classical field theory, roughly, and the process of quantization be applied again. One then speaks of _second quantization_ . 
 
-(That paragraph is at best a stub, of course).
+For more see at _[[sigma model]]_ the section <a href="http://www.ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>.
