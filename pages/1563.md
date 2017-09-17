@@ -3,6 +3,8 @@ F. William Lawvere
 
 * ([web site](http://www.acsu.buffalo.edu/~wlawvere/))
 
+* [Wikipedia entry]()
+
 is an influential pure [[category theory|category theorist]].
 
 #Contents#
@@ -11,11 +13,20 @@ is an influential pure [[category theory|category theorist]].
 
 ## Topics
 
-Lawvere introduced [[Lawvere theory|Lawvere theories]] as a category-theoretic way to describe finitary [[algebraic theory|algebraic theories]].  He generalised [[Grothendieck topos]]es to elementary [[topos]]es, revolutionising the [[foundations]] of [[mathematics]]; in this vein, he developed the foundation [[ETCS]].  He also introduced and worked on [[synthetic differential geometry]].  Building on the he recently introduced the notion of [[cohesive topos]]. 
+### General
 
-His motivation for all of this, believe it or not, is to better understand classical [[physics]]. See [[higher category theory and physics]] for more on this.
+Lawvere introduced [[Lawvere theory|Lawvere theories]] as a category-theoretic way to describe finitary [[algebraic theory|algebraic theories]].  He generalised [[Grothendieck toposes]] to [[elementary toposes]], revolutionising the [[foundations]] of [[mathematics]]; in this vein, he developed the foundation [[ETCS]].  He also introduced and worked on [[synthetic differential geometry]].  Building on the he introduced the notion of [[cohesive topos]]. 
 
 
+### Motivation from foundations of physics
+
+Lawvere's fundamental motivation for most of his work is apparently interest in the form  [[foundations]] of [[physics]]. 
+
+From the [Wikipdia entry](http://en.wikipedia.org/wiki/William_Lawvere):
+
+> Lawvere studied [[continuum mechanics]] as an undergraduate with [[Clifford Truesdell]]. He learned of [[category theory]] $[...]$ found it a promising framework for simple rigorous [[axioms]] for the physical ideas of Truesdell and [[Walter Noll]]. $[...]$ meeting on "[[Categories in Continuum Physics]]" in 1982. Clifford Truesdell participated in that meeting, as did several other researchers in the rational [[foundations]] of [[continuum physics]] and in the [[synthetic differential geometry]] which had evolved from the spatial part of Lawvere's categorical dynamics program). Lawvere continues to work on his 50-year quest for a rigorous flexible base for physical ideas, free of unnecessary analytic complications. 
+
+See also at _[[higher category theory and physics]]_ for more on this.
 
 ## Writings and publications
 
@@ -60,7 +71,7 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
 
   (with first remarks on [[cohesive topos|cohesion]])
 
-* _Toposes of laws of motion_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
+* _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
 
   (on the description of [[differential equation]]s in terms of [[synthetic differential geometry]])
 
@@ -100,6 +111,8 @@ comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on
   (on basic category theory, the [[category of sets]] and [[elementary toposes]], and an approach to [[indexed categories]])
 
 
+* with [[Stephen Shanuel]], _[[Categories in Continuum Physics]]_
+
 Many of these writings are influenced to some extent from [[Georg Hegel]]'s _[[Science of Logic]]_.
 
 category: people
@@ -109,4 +122,3 @@ category: people
 [[!redirects F. W. Lawvere]]
 [[!redirects F.W. Lawvere]]
 [[!redirects W. Lawvere]]
-
