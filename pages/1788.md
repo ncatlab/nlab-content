@@ -4,6 +4,36 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 =--
 ***
 
+
++-- {: .num_theorem #thmA}
+###### Theorem ######
+
+Correct behaviour
+=--
+
++-- {: .num_theorem #thmB}
+###### Theorem ######
+
+1. A list, with
+2. Incorrect behaviour
+=--
+
++-- {: .num_theorem #thmC}
+###### Theorem ######
+
++-- {: style="float: right;"}
+A comment to one side
+=--
+
+The theorem
+
+=--
+
++-- {: style="clear: both;"}
+=--
+
+---
+
 <div id="section1"></div>
 
 A link to the [[Sandbox]].
