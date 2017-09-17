@@ -24,3 +24,11 @@ This situation is fairly general: if $T$ is a strict 2-monad for which the compo
 ## Coherence theorems
 
 One way to state a coherence theorem is to say that every pseudoalgebra for a given 2-monad is equivalent to a strict one, perhaps in a structured way.  See [coherence theorems](/nlab/show/coherence+theorem#2monads).
+
+
+[[!redirects pseudoalgebra for a 2-monad]]
+[[!redirects pseudoalgebras for a 2-monad]]
+[[!redirects pseudoalgebras for 2-monads]]
+[[!redirects algebra for a 2-monad]]
+[[!redirects algebras for a 2-monad]]
+[[!redirects algebras for 2-monads]]
