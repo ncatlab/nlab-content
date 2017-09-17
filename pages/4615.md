@@ -29,7 +29,13 @@ As with simplicial objects in general, simplicial spaces may serve to model [[in
 
 ## Related notions
 
-There is a notion of [[geometric realization of simplicial spaces]].
+* **simplicial topological space**, [[nice simplicial topological space]]
+
+* [[simplicial topological group]]
+
+* [[geometric realization of simplicial spaces]]
+
+
 
 ## References
 
