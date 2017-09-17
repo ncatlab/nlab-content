@@ -106,7 +106,9 @@ Notice well the two assumptions that were made to make this argument work:
 
 2. Another situation that makes the above argument break down is if the category of "spaces" that one works with is such that gluing trivial families by nontrivial automorphisms never produces globally nontrivial families. For instance because the category of "spaces" is such that no nontrivial families exist at all. This happens for instance in the case that we take a "space" to be simply a (finite, say) [[set]]. In the category [[Set]] of (finite) sets every fiber bundle $\mathcal{E} \to X$ (i.e. every surjection such that all fibers are isomorphic to a typical fiber $F$ ) are necessarily globally trivial in that they are isomorphic to $F \times X \to X$. And in fact, there _is_ a "fine moduli space" in this context (inside the category of non-necessarily finite sets), namely the set $\mathbb{N}$ of natural numbers: the family $(\mathcal{E} \to X) \in Set$ with typical fiber the $n$-element set is classified by the map that sends all $x \in X$ to $n \in \mathbb{N}$.
 
+## Examples
 
+* [[moduli space of Riemannian metrics]]
 
 ## Related concepts 
 
