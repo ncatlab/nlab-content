@@ -5,12 +5,12 @@
 
 ## Idea
 
-Any [[symmetric bilinear form]] $(-) \cdot (-)$ defines a [[quadratic form]] $(-)^2$.  The polarization identity reconstructs the bilinear form from the quadratic form.  More generally, starting from any [[bilinear form]], the polarization identity reconstructs its symmetrization.  A slight variation applies this also to [[sesquilinear form]]s.  The whole business actually applies to [[bilinear operator]]s, not just forms (that is, taking arbitrary values, not just values in the [[base field]] or some other [[line]]).  The linearity is crucial: polarization doesn\'t work without addition (and subtraction); we must also be able to divide by $2$.
+Any [[symmetric bilinear form]] $(-) \cdot (-)$ defines a [[quadratic form]] $(-)^2$.  The polarization identity reconstructs the bilinear form from the quadratic form.  More generally, starting from any [[bilinear form]], the polarization identity reconstructs its symmetrization.  A slight variation applies this also to [[sesquilinear form]]s.  The whole business actually applies to [[bilinear maps]], not just forms (that is, taking arbitrary values, not just values in the [[base field]] or some other [[line]]).  The linearity is crucial: polarization doesn\'t work without addition (and subtraction); we must also be able to divide by $2$.
 
 
 ## Statement
 
-Let $R$ be a [[commutative ring]].  Let $V$ and $W$ be $R$-[[modules]], and let $m\colon V \times V \to X$ be a [[bilinear operator]]; that is, we have an $R$-module [[homomorphism]] $V \otimes V \to W$.  Let $Q\colon V \to W$ be the [[quadratic operator]] given by $Q(v) = m(v,v)$; this is *not* an $R$-module homomorphism.
+Let $R$ be a [[commutative ring]].  Let $V$ and $W$ be $R$-[[modules]], and let $m\colon V \times V \to X$ be a [[bilinear map]]; that is, we have an $R$-module [[homomorphism]] $V \otimes V \to W$.  Let $Q\colon V \to W$ be the [[quadratic map]] given by $Q(v) = m(v,v)$; this is *not* an $R$-module homomorphism.
 
 Then we have:
 
@@ -29,7 +29,7 @@ The polarization identity also has these alternative forms:
 
 these may derived by adding or subtracting the parallelogram law and the first polarization identity; although the derivation requires cancelling $2$, the alternative polarization identities remain valid regardless of whether $2$ is cancellable in $W$.
 
-Now suppose that $m$ is [[symmetric bilinear operator|symmetric]], so that $x y = y x$.  And suppose that $2 \coloneqq 1 + 1$ is (not merely cancellable but also) invertible in $W$.  Then the polarization identities read:
+Now suppose that $m$ is [[symmetric bilinear map|symmetric]], so that $x y = y x$.  And suppose that $2 \coloneqq 1 + 1$ is (not merely cancellable but also) invertible in $W$.  Then the polarization identities read:
 
 * $x y = \frac{1}{4} (x + y)^2 - \frac{1}{4} (x - y)^2$,
 * $x y = \frac{1}{2} (x + y)^2 - \frac{1}{2} x^2 - \frac{1}{2} y^2$,
@@ -37,7 +37,10 @@ Now suppose that $m$ is [[symmetric bilinear operator|symmetric]], so that $x y 
 
 That is, we may recover $m$ from $Q$ (in any of these ways).  Regardless of the original symmetry of $m$, we may recover its symmetrization $x \circ y = (x y + y x)/2$.
 
-We can go the other direction: given a quadratic operator $Q$, if $2$ is invertible, then any polarization identity defines a symmetric bilinear operator $m$; these all agree if $Q$ obeys the parallelogram law, and then $Q$ may be recovered from this $m$ once more.
+We can go the other direction: given a quadratic map $Q$, if $2$ is invertible, then any polarization identity defines a symmetric bilinear map $m$; these all agree if $Q$ obeys the parallelogram law, and then $Q$ may be recovered from this $m$ once more.
+
+If $R$ is a $*$-[[star-ring|ring]], then $m$ could be conjugate-symmetric ([[Hermitian map|Hermitian]]).  Then $Q$ would satisfy $Q(t x) = t^* t Q(x)$ instead of $Q(t x) = t^2 Q(x)$ as for a quadratic map.  Since everything is still bilinear or quadratic over the [[integers]], the parallelogram identity still follows, as does the polarization identity in its general forms (before assuming that $m$ is symmetric).  We can still recover $m$ from $Q$ if $R$ has an [[imaginary unit]]: an element $i$ such that $i + i^* = 0$ and $i i^* = 1$; we do this as follows:
+$$ x y = \frac{1}{4} Q(x + y) - \frac{1}{4} Q(x - y) + \frac{1}{4} i Q(x + i y) - \frac{1}{4} i Q(x - i y) .$$
 
 
 ## Examples
