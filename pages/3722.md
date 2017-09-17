@@ -6,7 +6,9 @@ In [[locale]] theory, every open $U$ in the locale defines a closed subspace whi
 $$ j_{U'}\colon V \mapsto U \cup V .$$
 The idea is that this subspace is the part of $X$ which does not involve $U$ (hence the notation $U'$, or any other notation for a [[complement]]), and we may identify $V$ with $U \cup V$ when we are looking only away from $U$.
 
-(There is a lot more to say, about convergence spaces, smooth spaces, schemes, etc.)
+The __closure__ of any subspace $A$ is the smallset closed subspace that contains $A$, that is the [[intersection]] of all open subspaces of $A$.  The closure of $A$ is variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc.
+
+(There is a lot more to say, about [[convergence spaces]], [[smooth spaces]], [[schemes]], etc.)
 
 
 [[!redirects closed subspace]]
@@ -15,6 +17,9 @@ The idea is that this subspace is the part of $X$ which does not involve $U$ (he
 [[!redirects closed subspaces]]
 [[!redirects closed subsets]]
 [[!redirects closed sets]]
+
+[[!redirects topological closure]]
+[[!redirects topological closures]]
 
 [[!redirects closed sublocale]]
 [[!redirects closed sublocales]]
