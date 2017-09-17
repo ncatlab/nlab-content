@@ -143,6 +143,8 @@ For $C$ and $D$ [[regular category|regular categories]] equipped with their [[re
 
 #### Injections into tangent categories {#TangentCategories}
 
+We discuss morphisms of sites from a site to its [[tangent category]].
+
 > check
 
 Let $C$ be a category with finite limits and let $T_C \to C$ be its [[tangent category]], the fiberwise abelianization of the [[codomain fibration]]: for $A \in C$ we have $(T_C)_A = Ab(C/A)$, the category of abelian [[group object]]s internal to the [[overcategory]] of $C$ over $A$.
@@ -156,7 +158,7 @@ $$
   \,.
 $$
 
-Assume now that $C^{op}$ is equipped with a [[coverage]].
+Assume now that $C^{op}$ has [[pullback]]s and is equipped with a [[coverage]], hence with the structure of a site.
 
 Equip $(T_C)^{op}$ with the [[coverage]] where $\{f_i : U_i \to U\}$ is a cover in $(T_C)^{op}$ precisely if its image $\{p(f_i) : p(U_i) \to p(U)\}$ is a cover in $C^{op}$.
 
@@ -168,7 +170,7 @@ let $F : K \to C$ be a diagram and $\lim_\to F$ its colimit in $C$. Then let $Q$
 
 So for any coverage on $C^{op}$ and the above induced coverage on $(T_C)^{op}$, the 0-section $i : C^{op} \to (T_C)^{op}$ is a morphism of sites.
 
-Accordingly, we obtain a geometric morphism of sheaf toposes
+Accordingly, we obtain a [[geometric morphism]] of [[category of sheaves|sheaf toposes]]
 
 $$
   Sh((T_C)^{op}) \stackrel{\leftarrow}{\underset{}{\to}}
