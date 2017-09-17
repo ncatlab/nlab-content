@@ -37,6 +37,10 @@ In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinar
 
 ## Related concepts
 
+* [[∞-group of units]]
+
+* [[logarithmic cohomology operation]]
+
 [[!include k-monoidal table]]
 
 
