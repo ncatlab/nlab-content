@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -35,9 +52,10 @@ It appears in [[equivariant stable homotopy theory]], where the $H$-fixed [[homo
 
 [[Elmendorf's theorem]] (see there for details) states that the [[(∞,1)-category of (∞,1)-presheaves]] on the orbit category $Orb_G$ are [[equivalence of (∞,1)-categories|equivalent]] to the [[localization of an (∞,1)-category|localization]] of [[topological spaces]] with $G$-[[action]] at the "fixed point weak equivalences".
 
+### Relation to the category of groups, homomorphisms and conjugations
 
+See at _[[global equivariant homotopy theory]]_.
 
 ## Related concepts
 
 * _[[global equivariant stable homotopy theory]]_.
-
