@@ -138,7 +138,7 @@ which takes $m$ to $I^m$, the direct sum of $m$ copies of the tensor unit $I$. I
 
 $$Mat \to FinVect_k,$$ 
 
-taking $1$ to $k$, is a linear equivalence (exhibiting $Mat$ as a [[skeleton]] of $C$). Thus we could equally well say that there is a linear functor 
+taking $1$ to $k$, is a linear equivalence (exhibiting $Mat$ as a [[skeleton]] of $C$). Because of this equivalence, we could equally well say that there is a linear functor 
 
 $$i: FinVect_k \to C$$ 
 
@@ -158,7 +158,7 @@ $i: FinVect_k \to C$, up to symmetric monoidal linear isomorphism.
 
 The symmetric monoidal functor $i$ therefore maps the group algebra $k[S_n]$, as a [[monoid]] in the monoidal category $FinVect_k$, to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.
 
-How can we intepret the idempotents $p_\lambda \in k[S_n]$ in the category $C$?  The easiest way is to use the category-theoretic treatment of [[element|elements]].  Any element $v$ of a vector space $V$ can be reinterpreted as a morphism from $k$ to $V$, namely the unique map sending $1 \in k$ to $v \in V$.  So, we can think of $p_\lambda$ as a morphism from $k$ to $k[S_n]$.  Applying the functor $i$ to this, we obtain a morphism which we call
+How can we interpret the idempotents $p_\lambda \in k[S_n]$ in the category $C$?  The easiest way is to use the category-theoretic treatment of [[element|elements]].  Any element $v$ of a vector space $V$ can be reinterpreted as a morphism from $k$ to $V$, namely the unique map sending $1 \in k$ to $v \in V$.  So, we can think of $p_\lambda$ as a morphism from $k$ to $k[S_n]$.  Applying the functor $i$ to this, we obtain a morphism which we call
 
 $$f_\lambda : I \to k[S_n]  $$
 
@@ -194,7 +194,7 @@ $$ P_\lambda : X^{\otimes n} \to X^{\otimes n} $$
 
 Note that in fact these morphisms are the components of a natural transformation from the functor $X \mapsto X^{\otimes n}$ to itself.  
 
-A calculation shows that because $p_\lambda$ in the original group algebra $k[S_n]$ is idempotent, so is $P_\lambda$.  (Do it!!!)  Since idempotents split in $C$, we can form the cokernel of this idempotent.  
+A calculation shows that because $p_\lambda$ in the original group algebra $k[S_n]$ is idempotent, so is $P_\lambda$.  (Do it!!!)  Since idempotents split in $C$, we can form the cokernel of the pair $(P_\lambda, id)$.  
 
 +-- {: .un_def}
 ######Definition 
@@ -229,12 +229,17 @@ That is to say: if $G$ is a symmetric monoidal $k$-linear functor $C \to D$, the
 $$\array{
 S_{\lambda, D} (G X) = V_{\lambda, D} \otimes_{S_n} (G X)^{\otimes n} & \cong & V_{\lambda, D} \otimes_{S_n} G(X^{\otimes n}) \\
  & \cong & G(V_{\lambda, C}) \otimes_{S_n} G(X^{\otimes n}) \\
- & \cong & G(V_{\lambda, C} \otimes_{S_n} X^{\otimes n})
+ & \cong & G(V_{\lambda, C} \otimes_{S_n} X^{\otimes n}) \\
+ & \cong & G(S_{\lambda, C}(X))
 }$$ 
 
 where the first isomorphism uses the symmetric monoidal structure of $G$; the second uses the fact that $V_{\lambda, D} \cong G(V_{\lambda, C})$ because there is, up to isomorphism, only one symmetric monoidal linear functor $FinVect_k \to D$; the third uses the symmetric monoidal structure again and preservation of idempotent splittings. 
 
-The same principle holds if $R$ is any representation, obtained as a direct sum of irreducible representations $V_\lambda$ (precisely because $G$ preserves direct sums). In summary, Schur functors $S_R$ transfer "naturally" across change of base functors $G: C \to D$. 
+If $R$ is any representation, then by writing $R$ as a direct sum of irreducible representations $V_\lambda$ and using the fact that $G$ preserves direct sums, we have more generally 
+
+$$S_{R, D} \circ G \cong G \circ S_{R, C}.$$
+
+In summary, Schur functors $S_R$ transfer "naturally" across change of base functors $G: C \to D$. 
 
 ## Conceptual description of Schur functors ##
 
@@ -245,20 +250,20 @@ $$S_R: C \to C$$
 and moreover, if $G: C \to D$ is a symmetric monoidal $k$-linear functor, the Schur functors on $C$ and $D$ are "naturally" compatible, in the sense that the diagram 
 
 $$\array{
-C & \stackrel{S_{R, C}}{\to} & C \\
-G \downarrow & & \downarrow G \\
-D & \underset{S_{R, D}}{\to} & D
+C & \stackrel{G}{\to} & D \\
+S_{R, C} \downarrow & & \downarrow S_{R, D} \\
+C & \underset{G}{\to} & D
 }$$ 
 
 commutes up to a canonical isomorphism $\phi_G: S_{R, D} \circ G \cong G \circ S_{R, C}$, and moreover these $\phi_G$ fit together sensibly when we compose symmetric monoidal linear functors. 
 
-In this highly abstract framework, it may be wondered what is the essential role played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ are a pleasant observation, but surely this is merely some general nonsense in the larger story of Schur functors, which are after all deeply studied and incredibly rich classical constructions? 
+In this abstract framework, it may be wondered what significant role is played by the representations $R$ of the symmetric group. The natural isomorphisms $\phi_G$ which relate the Schur functors across change of base $G: C \to D$ are pleasant to observe, but surely this is just some piddling general nonsense in the larger story of Schur functors $S_R$, which are after all deeply studied and incredibly rich classical constructions? 
 
-Let us put the question another way.  We have seen the Schur functors $S_R$ have a uniform (or "polymorphic") definition across all symmetric monoidal $k$-linear Cauchy complete categories $C$, one which is natural with respect to symmetric monoidal change of base functors $G: C \to D$.  More precisely: not quite natural in a strict sense, but _pseudonatural_ in the sense of making the naturality squares commute up to isomorphism. Now pseudonaturality is a very general phenomenon in 2-category theory.  So the question is: among all such pseudonatural transformations, what is special about the Schur functors? What extra properties pick out exactly the Schur functors from this class? 
+Let us put the question another way.  We have seen the Schur functors $S_R$ are constructed in a uniform (or "polymorphic") way across all symmetric monoidal $k$-linear Cauchy complete categories $C$, and this construction is natural with respect to symmetric monoidal change of base functors $G: C \to D$. Or rather: not natural in a strict sense, but _pseudonatural_ in the sense that naturality squares commute up to isomorphism $\phi_G$. Now pseudonaturality is a very general phenomenon in 2-category theory.  So the question is: among all such pseudonatural transformations $S$, what is special about the Schur functors $S_R$? What extra properties pick out exactly the Schur functors $S_R$ from the class of all pseudonatural transformations $S$? 
 
-The perhaps surprising answer is: no extra properties! That is, the Schur functors are _precisely_ those uniformly defined functors that are pseudonatural with respect to change of base! 
+The perhaps surprising answer is: no extra properties! That is, the Schur functors $S_R$ are _precisely_ those functors that are defined on all symmetric monoidal linearly Cauchy complete $C$ and that are pseudonatural with respect to change of base $G: C \to D$! 
 
-Let us now make this precise. Schur functors $S$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined.   This focuses our attention on the 'forgetful' 2-functor
+Let us now make this precise. Schur functors $S_R$ are defined on certain symmetric monoidal linear categories but respect neither the symmetric monoidal structure nor the linear structure. So, we have to forget some of the structure of the objects on which Schur functors are defined.   This focuses our attention on the 'forgetful' 2-functor
 
 $$U: SymMonLinCauch \to Cat$$ 
 
@@ -275,17 +280,22 @@ where:
 * symmetric monoidal $k$-linear natural transformations as 2-morphisms.
 =--
 
-As we shall see, Schur functors correspond to [[pseudonatural transformations]] from $U$ to itself, and morphisms between Schur functors correspond to [[modifications]] between these pseudonatural transformations.  For the reader unaccustomed to these 2-categorical concepts, recall:
+As we shall see, Schur functors correspond to [[pseudonatural transformations]] from $U$ to itself, and morphisms between Schur functors correspond to [[modifications]] between these pseudonatural transformations.  For the reader unaccustomed to these 2-categorical concepts, we recall:
 
 +-- {: .un_def} 
 ######Definition 
-Given two 2-functors $U, V: S \stackrel{\to}{\to} C$ between 2-categories, a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each 0-cell $s$ of $S$ a 1-cell $\phi(s): U(s) \to V(s)$ of $C$, and to each 1-cell $f: s \to t$ a 2-cell $\phi(f)$:  
+Given two 2-functors $U, V: S \stackrel{\to}{\to} C$ between 2-categories, a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each 0-cell $s$ of $S$ a 1-cell $\phi(s): U(s) \to V(s)$ of $C$, and to each 1-cell $f: r \to s$ of $S$ an invertible 2-cell $\phi(f)$ of $C$:  
 $$\array{
-U(s) & \stackrel{\phi(s)}{\to} & V(s) \\
-U(f) \downarrow & \phi(f) \swArrow & \downarrow V(f) \\
-U(t) & \underset{\phi(t)}{\to} & V(t)
+U(r) & \stackrel{U(f)}{\to} & U(s) \\
+\phi(r) \downarrow & \phi(f) \swArrow & \downarrow \phi(s) \\
+V(r) & \underset{V(f)}{\to} & V(s)
 }$$ 
-such that the following pasting diagram equalities hold (to be filled in). 
+such that the following pasting diagram equalities hold: 
+$$\array{
+U(r) & \stackrel{U(f)}{\to} & U(s) & \stackrel{U(g)}{\to} & U(t) & & U(r) & \stackrel{U(g f)}{\to} & U(t) & & & U(r) & \stackrel{U(1_r)}{\to} & U(r) & & \\
+\phi(r) \downarrow & \phi(f) \swArrow & \downarrow \phi(s) & \phi(g) \swArrow & \downarrow \phi(t) & = & \phi(r) \downarrow & \phi(g f) \swArrow & \downarrow \phi(t) & & & \phi(r) \downarrow & \phi(1_r) \swArrow & \downarrow \phi(r) & = & 1_{\phi(r)}\\
+V(r) & \underset{V(f)}{\to} & V(s) & \underset{V(g)}{\to} & V(t) & & V(r) & \underset{V(g f)}{\to} & V(t) & & & V(r) & \underset{V(1_r)}{\to} & V(r) & & 
+}$$
 =-- 
 
 +-- {: .un_def} 
@@ -297,18 +307,18 @@ We now propose our conceptual definition of Schur functor:
 
 +-- {: .un_def} 
 ######Definition 
-A **Schur functor** is a pseudonatural transformation $U \to U$, where 
+An (abstract) **Schur functor** is a pseudonatural transformation $S: U \to U$, where 
 $$U: SymMonLinCauch \to Cat$$ 
 is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations. 
 =-- 
 
-What this proposed definition makes immediately clear is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections. 
+What this proposed definition makes manifestly obvious is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections. 
 
 However, we must begin by checking that this proposed definition is equivalent to the more familiar one given earlier!
 
 ## Representability ##
 
-To build a bridge from our abstract description of Schur functors as pseudonatural transformations to the more classical descriptions, we start with the following key result. 
+To build a bridge from abstract Schur functors as pseudonatural transformations to the more classical descriptions, we start with the following key result. 
 
 +-- {: .un_thm}
 ######Theorem 
@@ -444,11 +454,11 @@ The category of (abstract) Schur functors is equivalent to the category of polyn
 
 We will accordingly also call such a polynomial $\mathbb{P}^{op} \to FinVect_k$ a **Schur object**, and denote the linear category of polynomials by $Schur$. 
 
-NB: This theorem refers only to the underlying category. In other words, this category certainly has linear tensor category structure as well, but this structure is not respected by Schur functor composition which we consider next. 
+NB: This theorem refers only to the underlying category $U(\overline{k\mathbb{P}})$. In other words, this category certainly has linear tensor category structure as well, but this structure is not respected by Schur functor composition which we consider next. 
 
 ## Composition of Schur functors ##
 
-Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence to a monoidal structure on the underlying category of Schur objects or polynomials $\mathbb{P}^{op} \to FinVect_k$, which we proceed to analyze. 
+Now we consider composition of Schur functors $U \to U$, or equivalently symmetric monoidal linear functors $\widebar{k\mathbb{P}} \to \widebar{k \mathbb{P}}$. Composition endows $[U, U]$ with a monoidal structure, and this monoidal structure transfers across the equivalence of the preceding theorem to a monoidal structure on the underlying category of Schur objects or polynomials $\mathbb{P}^{op} \to FinVect_k$. We proceed to analyze this monoidal structure. 
 
 It may be easier to do this in reverse. Start with a Schur object, i.e., a functor
 
@@ -462,7 +472,7 @@ Here $F^{\otimes m}$ is a Day convolution product of $m$ copies of $F$. Finally,
 
 $$- \otimes_{\mathbb{P}} F^\sim: \overline{k\mathbb{P}} \to \overline{k\mathbb{P}}$$ 
 
-as this manifestly preserves colimits in the blank argument and therefore all colimits needed for the Cauchy completion. (And since the extension to the Cauchy completion is unique, this formula must be correct!) 
+as this manifestly preserves colimits in the blank argument and therefore all colimits needed for the Cauchy completion. (And since the extension to the Cauchy completion is unique, this formula must be correct! The only question is whether this functor is valued in $\overline{k\mathbb{P}}$.) 
 
 In the language of species, this construction is called the _substitution product_, and is denoted $G \circ F$. This is morally correct because it is indeed an appropriate categorification of polynomial composition. However, to avoid overloading the symbol $\circ$ in ways that might be confusing, we will rename it $G \boxtimes F$. Thus, 
 
@@ -470,9 +480,9 @@ $$G \boxtimes F = G \otimes_{\mathbb{P}} F^\sim$$
 
 In notation which looks slightly less abstract, this is the Schur object given by the formula 
 
-$$(G \boxtimes F)(n) = \bigoplus_{k \geq 0} G(k) \otimes_{S_k} F^{\otimes k}(n)$$ 
+$$(G \boxtimes F)(n) = \sum_{k \geq 0} G(k) \otimes_{S_k} F^{\otimes k}(n)$$ 
 
-It should be noted that $(G \boxtimes F)(n)$ is indeed $0$ for large enough $n$, so that $G \boxtimes F$ is indeed polynomial. It is just the polynomial special case of the substitution product which is defined on general (Joyal) _species_ $F, G: \mathbb{P}^{op} \to Vect_k$. 
+It should be noted that $(G \boxtimes F)(n)$ is indeed $0$ for $n \gt (deg G)(deg F)$, so that $G \boxtimes F$ is indeed polynomial. It is just the polynomial special case of the substitution product which is defined on general (Joyal) _species_ $F, G: \mathbb{P}^{op} \to Vect_k$. 
 
 +-- {: .un_prop}
 ######Proposition 
@@ -485,7 +495,7 @@ The following proof is adapted from a similar argument due to Max Kelly: we exhi
 $$F: 1 \to \overline{k\mathbb{P}}$$ 
 is equivalent to the category of symmetric monoidal linear functors 
 $$H: \overline{k\mathbb{P}} \to \overline{k\mathbb{P}}$$ 
-The correspondence in one direction takes $F$ to the symmetric monoidal functor $- \boxtimes F$, and in the other direction composes $H$ with $X: 1 \to \overline{k\mathbb{P}}$. Thus the unit isomorphism $X \boxtimes F \cong F$ is clear. Also, according to this equivalence, symmetric monoidal linear transformations between symmetric monoidal linear functors of the form 
+The correspondence in one direction takes $F$ to the symmetric monoidal functor $H = - \boxtimes F$, and in the other direction takes $H$ to $F = H(X)$. By the equivalence, we have a unit isomorphism $X \boxtimes F \cong F$. Also by this equivalence, symmetric monoidal linear transformations between symmetric monoidal linear functors of the form 
 $$(- \boxtimes F) \boxtimes G \to - \boxtimes (F \boxtimes G)$$ 
 are in natural bijection with morphisms $(X \boxtimes F) \boxtimes G \to X \boxtimes (F \boxtimes G)$, which by the unit isomorphism reduce to morphisms $F \boxtimes G \to F \boxtimes G$. Thus, corresponding to the identity on $F \boxtimes G$ we obtain an associativity map $\alpha: (- \boxtimes F) \boxtimes G \to - \boxtimes (F \boxtimes G)$. By similar arguments that appeal to the universal property of $\overline{k \mathbb{P}}$, we get all the required axioms: the invertibility of $\alpha$, the pentagon, etc. 
 =--
@@ -498,11 +508,11 @@ To summarize: we have equivalences between
 
 * The category $Schur = U(\overline{k\mathbb{P}})$. 
 
-The equivalence from $Schur \to SymMonLinCauch(\overline{k \mathbb{P}}, \overline{k \mathbb{P}})$ takes a polynomial $F$ to $- \boxtimes F$. Moreover, the associativity isomorphism is precisely a structure 
+The equivalence $Schur \to SymMonLinCauch(\overline{k \mathbb{P}}, \overline{k \mathbb{P}})$ takes a polynomial $F$ to $- \boxtimes F$. Moreover, the associativity isomorphism is precisely a structure 
 
 $$(- \boxtimes G) \circ (- \boxtimes F) \to - \boxtimes (F \boxtimes G)$$ 
 
-of strong monoidal equivalence from $(Schur, \boxtimes)$ to the monoidal category $SymMonLinCauch(\overline{k\mathbb{P}}, \overline{k\mathbb{P}})$ under endofunctor composition. 
+of strong monoidal equivalence from $(Schur, \boxtimes)$ to the monoidal category $SymMonLinCauch(\overline{k\mathbb{P}}, \overline{k\mathbb{P}})$ under endofunctor composition. (The hexagonal coherence condition for a monoidal functor follows from the pentagon; one side of the hexagon is an identity since endofunctor composition is a strict monoidal product.) 
 
 The monoidal product $\boxtimes$ on $Schur$ goes by another name: it is the **plethystic monoidal product**. 
 
