@@ -15,19 +15,19 @@
 
 ## Idea
 
-Any physical process is supposed to take [[physical state]]s into physical states. If we use [[density matrices]] to describe states in [[quantum mechanics]], then it must be some operation that sends density matrices to density matrices: it should be a [[linear map]] of [[vector space]]s
+Any physical process is supposed to take [[physical states]] into physical states ([[Schrödinger picture]]). If  [[density matrices]] are used to describe [[quantum states]] in [[quantum mechanics]], then it must be some operation that sends density matrices to density matrices. So for finite-dimensional state spaces then an process it should be a [[linear map]] of [[vector spaces]] of [[matrices]]
 
 $$
   U : Mat(n \times n, \mathbb{C}) \to Mat(k \times k, \mathbb{C})
 $$
 
-that preserves the subset of density matrices, in that it 
+that preserves the subset of [[density matrices]], in that
 
-* preserves the trace of matrices;
+* it preserves the [[trace]] of matrices;
 
 * takes hermitian matrices with non-negative eigenvalues to hermitian matrices with non-negative eigenvalues.
 
-The notion of a quantum operation is built from the [[Stinespring factorization theorem]].
+Such a map is then called a _quantum operation_. The notion of a quantum operation is built from the [[Stinespring factorization theorem]].
 
 
 ## Definition
