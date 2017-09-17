@@ -35,11 +35,11 @@ Locality is formalized in the two main axiomatizations of quantum field theory a
 
 * In [[AQFT]] the [[algebras of observables]] are required to form a _[[local net]]_ meaning that 
 
-  1. there is one such algebra assigned to each suitable subset of spacetime, compatibe with inclusion of such subsets, 
+  1. there is one such algebra assigned to each suitable subset of spacetime, compatible with inclusion of such subsets, 
 
   1. that under these inclusions algebras associated to spacelike separated regions commute with each other.
 
-  Often in the literature the term "local quantum field theory" is meant to refer specifically to these [[AQFT]] axioms (some authors use the tersm synonymously, dating from a time when this was the only axiomatization of quantum field theory considered.)
+  Often in the literature the term "local quantum field theory" is meant to refer specifically to these [[AQFT]] axioms (some authors use the terms synonymously, dating from a time when this was the only axiomatization of quantum field theory considered.)
 
 * In [[FQFT]] locality is encoded in the [[functor]]-property of the functor on the [[category of cobordisms]]: being a functor means that the assignment to a cobordism $\Sigma$ is obtained by composing the assignments to any decomposition of $\Sigma$ into small cobordisms. In particular, in _[[extended quantum field theory]]_ (now also sometimes called "fully localized" QFT) this is [[(infinity,n)-functor|n-functorial]] meaning that this gluing condition holds in all dimensions and in all directions.
 
