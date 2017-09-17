@@ -1,4 +1,3 @@
-[[!redirects Euclidean topological infinity-groupoid]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -38,6 +37,8 @@ to be the [[(∞,1)-category of (∞,1)-sheaves]] on $CartSp_{top}$.
 
 =--
 
+## Properties
+
 
 +-- {: .un_prop}
 ###### Proposition
@@ -53,6 +54,26 @@ The [[(∞,1)-topos]] $ETop \infty Grpf$ is a [[cohesive (∞,1)-topos]].
 The site [[CartSp]]${}_{top}$ an  [[∞-cohesive site]].  See there for details.
 
 =--
+
++-- {: .un_def}
+###### Definition
+
+Write $Top_1$ for the 1-[[category]] of [[topological spaces]] and continuous maps. There is a canonical functor
+
+$$
+  i : Top_1 \to \tau_{\leq 0}ETop\infty Grpd \hookrightarrow  ETop\infty Grpd
+$$
+
+given by sending a topological space $X$ to the [[sheaf]] on [[CartSp]]${}_{top}$ externally represented by $X$ under the embedding $CartSp_{top} \hookrightarrow Top$:
+
+$$
+  X : U \mapsto Hom_{Top}(U,X)
+  \,.
+$$
+
+=--
+
+On [[topological manifold]]s this is a [[full and faithful functor]].
 
 
 ## Structures in the cohesive $(\infty,1)$-topos $ETop \infty Grpd$
@@ -73,12 +94,12 @@ for the defining quadruple of [[adjoint (∞,1)-functor]]s that refine the [[glo
 
 ### Geometric homotopy and Galois theory {#GeometricHomotopy}
 
-
+We discuss the realization of the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] in $ETop \inft Grpd$.
 
 +-- {: .un_prop #FundGroupoidOfParacompact}
 ###### Proposition
 
-Let $X$ be a [[paracompact topological space]] naturally regarded as an object $X \in Top \hookrightarrow ETop \infty Grpd$. Then $\Pi(X) \in \infty Grpd$ is equivalent to the standard [[fundamental ∞-groupoid]] of a [[topological space]] that is presented by the [[singular simplicial complex]] $Sing X$
+Let $X$ be a [[paracompact topological space]] naturally regarded as an object $X \in Top_1 \stackrel{i}{\hookrightarrow} ETop \infty Grpd$. Then $\Pi(X) \in \infty Grpd$ is equivalent to the standard [[fundamental ∞-groupoid]] of a [[topological space]] that is presented by the [[singular simplicial complex]] $Sing X$
 
 $$
   \Pi(X) \simeq Sing X
@@ -209,23 +230,47 @@ By the discussion at [[geometric realization of simplicial topological spaces]],
 
 =--
 
-### Cohomology
+### Cohomology {#Cohomology}
 
-+-- {: .un_theorem }
-###### Theorem
+We dicuss aspects of the intrinsic [[cohomology]] of $E Top \infty Grpd$.
 
-For [[paracompact space|paracompact]] $X$ we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+
++-- {: .un_def }
+###### Definition
+
+Let $A \in $ [[∞Grpd]] be any [[∞-groupoid]]. Write $|A| \in $ [[Top]] for its [[geometric realization]]. For $X$ any [[topological space]], the [[nonabelian cohomology]] of $X$ with coefficients in $A$ is the set of [[homotopy]] classes of maps $X \to |A|$
+
+$$ 
+  H_{Top}(X,A) := \pi_0 Top(X,|A|)
+  \,.
+$$
+
+We say $Top(X,|A|)$ itself is the [[cocycle]] [[∞-groupoid]] for $A$-valued cohomology on $X$.
+
+Similarly, for $X,A \in ETop \infty Grpd$ two objects, write
 
 $$
-  ETop \infty Grpd(X, LConst A)
-  \simeq
-  Top(X, |A|)
+  H_{ETop\infty Grpd}(X,A) := \pi_0 ETop\infty Grpd(X,A)
 $$
 
-and hence in particular an isomorphism on cohomology
+for the intrinsic [[cohomology]] of $ETop \infty Grpd$ on $X$ with coefficients in $A$.
+
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+Let $A \in $ [[∞Grpd]], write $Disc A \in ETop \infty Grpd$ for the corresponding [[discrete ∞-groupoid|discrete topological ∞-groupoid]]. Let $X \in Top_1 \stackrel{i}{\hookrightarrow} ETop \infty Grpd$ be [[paracompact topological space|paracompact]]. Then we have an [[isomorphism]] on cohomology sets
+
+$$ 
+  H_{Top}(X,A) \simeq H_{ETop\infty Grpd}(X,Disc A)
+$$
+
+and in fact an [[equivalence in an (∞,1)-category|equivalence]] of [[cocycle]] [[∞-groupoid]]s
 
 $$
-  H(X,A) \simeq \pi_0   ETop \infty Grpd(X, LConst A)
+  Top(X,|A|) \simeq ETop\infty Grpd(X, Disc A)
+  \,.
 $$
 
 =--
@@ -233,7 +278,16 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the above (...).
+By the $(\Pi \dashv Disc)$-[[adjunction]] of the [[locally ∞-connected (∞,1)-topos]] $ETop \infty Grpd$ we have
+
+$$
+  ETop\infty Grpd(X, Disc A) \simeq \infty Grpd(\Pi(X), A)
+  \underoverset{\simeq}{|-|}{\to}
+  Top(|\Pi X|, |A|)
+  \,.
+$$
+
+From this the claim follows by the [above proposition](#FundGroupoidOfParacompact).
 
 =--
 
@@ -244,11 +298,11 @@ By the above (...).
 
 (...)
 
-## Localization to $Top$
+## Homotopy localizationo
 
-### Homotopy invariance and topological spaces
 
-The sub-[[(∞,1)-category]] [[∞-stack]]s on [[Top]] (even on [[Diff]]) that are homotopy invariant is equivalent to plain [[∞Grpd]]. 
+We discuss that the[[homotopy localization]] of topological $\infty$-groupoids reproduces [[Top]] $\simeq$ [[∞Grpd]], following ([Dugger](#Dugger)).
+
 
 **Idea**
 
@@ -293,7 +347,7 @@ This adjunction $(L \dashv R)$ is a [[Quillen equivalence]] with respect to the 
 
 ## References
 
-Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the category of manifolds and its restriction to open balls is in:
+Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the category of manifolds and its restriction to open balls and a discussion of its homotopy localization is in:
 
 * [[Dan Dugger]], _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 {#Dugger}
@@ -327,3 +381,4 @@ Some discussion of the $(\infty,1)$-category of $(\infty,1)$-sheaves on the cate
 [[!redirects continuous ∞-groupoid]]
 [[!redirects continuous ∞-groupoids]]
 
+[[!redirects Euclidean topological infinity-groupoid]]
