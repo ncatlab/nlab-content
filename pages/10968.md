@@ -1,3 +1,8 @@
+
+This entry provides commented references on the topic of [[noncommutative algebraic geometry]].
+
+***
+
 * [[Dmitri Orlov]], _Equivalences of derived categories and K3 surfaces_, 1996, [arXiv](http://arxiv.org/abs/alg-geom/9606006).
 
 The original representability theorem: every [[fully faithful]] [[triangulated functor]] between the [[derived categories]] of [[perfect complexes]] on two [[smooth]] [[projective varieties]] is representable by some [[integral kernel]] (i.e. is a [[Fourier-Mukai functor]]).
