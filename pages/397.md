@@ -126,6 +126,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Simon Willerton]]
 * [[Sridhar Ramesh]]
 * [[Stefan Forcey]]
+* [[Stephen Britton]]
 * [[Stephen Gaito]]
 * [[Stephen with OK|Stephen]] [[Approved Stephen|Harris]]
 * [[Thomas]] (possibly one of the Thomases or Toms listed elsewhere)
