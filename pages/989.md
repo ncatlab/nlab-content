@@ -58,6 +58,8 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 ## Related concepts
 
+* [[noncommutative algebra]]
+
 * [[augmented algebra]]
 
 * [[unitisation of C*-algebras]]
