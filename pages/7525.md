@@ -7,6 +7,8 @@ Joachim Lambek (usually called Jim) is a mathematician, logician, language theor
 ## Related entries
 
 * [[lambda-calculus]]
+* [[initial algebra]]
+  
 * (probably others)
 
 
