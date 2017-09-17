@@ -6,11 +6,11 @@ There is also a notion of [[special lambda-ring]]. But in most cases by ''$\lamb
 
 A *$\lambda$-ring* $L$ is a [[P-ring]] presented by the [[polynomial ring]] $Symm=\mathbb{Z}[h_1,h_1\dots]$ in countably many indeterminates over the [[integer|integers]] or, equivalently, $Symm$ is the ring of [[symmetric function|symmetric functions]] in countably many variables. This means that (the underlying set valued functor of) $L$ is a [[copresheaf]] presented by $Symm$ such that
 
-1. $L:\CRing \to CRing$ defines an endocunctor on the category of commutative rings.
+1. $L:\CRing \to CRing$ defines an endofunctor on the category of commutative rings.
 
 1. $L$ gives rise to a [[comonad]] on $C Ring$.
 
-A $\lambda$-ring is hence a commutative ring equipped with a [[co-action]] of this comonad. As always is the case with [[monad|monads]] and comonads this definiton can be formulated in terms of an [[adjunction]].
+A $\lambda$-ring is hence a commutative ring equipped with a [[co-action]] of this comonad. As always is the case with [[monad|monads]] and comonads this definition can be formulated in terms of an [[adjunction]].
 
 ## Motivation from algebra
 
@@ -28,7 +28,7 @@ Unsurprisingly, the [[Grothendieck group]] of the free symmetric monoidal abelia
 
 ## Definition
  
-### The ''orthodox'' view on $\lambda$-rings
+### The "orthodox" view on $\lambda$-rings
 
 +-- {: .num_defn}
 ###### Definition
@@ -41,11 +41,11 @@ A $\lambda$-structure on a commutative unital ring $R$ is defined to be a sequen
 
 1. $\lambda^n(1)=0$, for $n\gt 1$
 
-1. $\lambda^n(r+s)=\sum_{k=0}^n \lambda^k(r)\lambda^{n-k}$, for all $r,s\in R$
+1. $\lambda^n(r+s)=\sum_{k=0}^n \lambda^k(r)\lambda^{n-k}(s)$, for all $r,s\in R$
 
-1. $\lambda^n(rs)=P_n(\lambda^1(r),\dots,\lambda^n(r),\lambda^1(s),\dots,\lambda^n(s))$ for all $r,s\in R$
+1. $\lambda^n(r s)=P_n(\lambda^1(r),\dots,\lambda^n(r),\lambda^1(s),\dots,\lambda^n(s))$ for all $r,s\in R$
 
-1. $\lambda^m(\lambda^n(r)):=P_{m,n}(\lambda^1(r),\dots,\lambda^{mn}(r))$, for all $r\in R$
+1. $\lambda^m(\lambda^n(r)):=P_{m,n}(\lambda^1(r),\dots,\lambda^{m n}(r))$, for all $r\in R$
 
 where $P_n$and $P_{m,n}$ are certain (see the reference for their calculation) [[universal polynomial|universal polynomials]] with integer coefficients. $R$ is in this case called a *$\lambda$-ring*. Note that the $\lambda^n$ are not required to be morphisms of rings.
 
@@ -91,19 +91,19 @@ We define $\Phi_x(e_1)=x$, then the assumption on $\Phi_x$ to be a morphism of $
 ([Hazewinkel](#Hazewinkel) 1.11, 16.1)
 a) The endofunctor of the category of commutative rings
 $$\Lambda:\begin{cases}C Ring \to C Ring\\A\mapsto 1 + A [ [t] ]\end{cases}$$
-sending a commutative ring to the set of power series with constant term $1$ is representable by the polynomial ring $Symm:=\mathbb{Z}[h_1, h_2,\dots]$ in an infinity of indeterminates over the integers.
+sending a commutative ring to the set of power series with constant term $1$ is representable by the polynomial ring $Symm \coloneqq \mathbb{Z}[h_1, h_2,\dots]$ in an infinity of indeterminates over the integers.
 
 b) There is an adjunction $(forget\, \lambda\dashv \Lambda)$ where $forget\,\lambda: \lambda Ring\to CRing$ is the forgetful functor assigning to a $\lambda$-ring its underlying commutative ring.
 
 The left inverse $\g_{S,A}$ of the natural isomorphism $q_{S,A}:hom(forget\,\lambda,A)\to hom(S,\Lambda(A))$ is given by the [[ghost component]] $s_1$.
 =--
 
-An instructive introduction to the ''orthodox''- and preparation for the ''heterodox'' view (described below) on $\lambda$-rings is Hazewinkel's survey article on Witt vectors, ([Hazewinkel](#Hazewinkel)). There is also a [[Hazewinkel, Witt vectors|reading guide]] to that article.
+An instructive introduction to the "orthodox"- and preparation for the "heterodox" view (described below) on $\lambda$-rings is Hazewinkel's survey article on Witt vectors, ([Hazewinkel](#Hazewinkel)). There is also a [[Hazewinkel, Witt vectors|reading guide]] to that article.
 
 
-## The ''heterodox'' view on $\lambda$-rings
+## The "heterodox" view on $\lambda$-rings
 
-There is a second, ''heterodox'' way to approach $\lambda$-rings with a strong connection to [[arithmetic]] used by James Borger in his paper [$\Lambda$-rings and the field with one element](http://arxiv.org/abs/0906.3146).  Quoting the abstract:
+There is a second, "heterodox" way to approach $\lambda$-rings with a strong connection to [[arithmetic]] used by James Borger in his paper [$\Lambda$-rings and the field with one element](http://arxiv.org/abs/0906.3146).  Quoting the abstract:
 
 >The theory of $\Lambda$-rings, in the sense of Grothendieck's Riemann--Roch theory, is an enrichment of the theory of commutative rings. In the same way, we can enrich usual [[algebraic geometry]] over the ring $\mathbf{Z}$ of integers to produce $\Lambda$-algebraic geometry. We show that $\Lambda$-algebraic geometry is in a precise sense an algebraic geometry over a deeper base than $\mathbf{Z}$ and that it has many properties predicted for algebraic geometry over the mythical [[field with one element]]. Moreover, it does this is a way that is both formally robust and closely related to active areas in arithmetic algebraic geometry.
 
@@ -120,19 +120,19 @@ A morphism $Fl:A\to A$ is called a *Frobenis lift* if the restriction $Fl \,|_{A
 The $p$-th [[Adams operation]] $\psi_p$ is a Frobenius lift. Moreover given any two prime numbers then their Adams operations commute with each other.
 =--
 
-The following two theorems are crucial for the ''heterodox'' point of view. We will see later that in fact we do not need the torsion-freeness assumption.
+The following two theorems are crucial for the "heterodox" point of view. We will see later that in fact we do not need the torsion-freeness assumption.
 
 +-- {: .num_theorem}
 ###### Theorem
 (Wilkerson's theorem)
-Let $A$ be an additively torsion-free commutative ring. Let $\{psi_p\}$ be a commuting family of Frobenius lifts.
+Let $A$ be an additively torsion-free commutative ring. Let $\{\psi_p\}$ be a commuting family of Frobenius lifts.
 
-Then there is a unique $\lambda$-ring structure on $A$ whose adams operations are the given Frobenius lifts $\{psi_p\}$.
+Then there is a unique $\lambda$-ring structure on $A$ whose Adams operations are the given Frobenius lifts $\{\psi_p\}$.
 =--
 
 +-- {: .num_theorem}
 ###### Theorem
-A ring morphism $f$ between two $\lambda$-rings is a morphism of $\lambda$-rings (i.e. commuting with the $\lambda$-operations) iff  $f$ commutes with the [[Adams operation]].
+A ring morphism $f$ between two $\lambda$-rings is a morphism of $\lambda$-rings (i.e. commuting with the $\lambda$-operations) iff  $f$ commutes with the [[Adams operations]].
 =--
 
 +-- {: .num_cor}
@@ -154,7 +154,7 @@ b)  The category $\lambda Ring_{\neg tor}$ of $\lambda$-rings is [[monadic]] and
 
 Let $\i:C Ring_{\neg tor}\hookrightarrow C Ring$ be the inclusion. Let $W^\prime$ denote this comonad on $C Ring_{\neg tor}$. Then
 
-a) $W:=Lan_i i\circ W^\prime:C Ring\to CRing$ is a comonad.
+a) $W \coloneqq Lan_i i\circ W^\prime \colon C Ring\to CRing$ is a comonad.
 
 b) The category of coalgebras of $W$ is equivalent to the category of $\lambda$-rings.
 
@@ -163,7 +163,7 @@ c) $W$ is the [[big-Witt-vectors functor]].
 
 +-- {: .num_remark}
 ###### Remark
-The ''heterodox'' generalizes to arbitrary [[Dedekind domain|Dedekind domains]] with finite residue field.
+The "heterodox" generalizes to arbitrary [[Dedekind domain|Dedekind domains]] with finite residue field.
 
  For instance over $F_p[x]$ (instead of $\mathbb{Z}$), we would look at families of $\psi$-operators indexed by the irreducible monic polynomials $f(x)$, and each $\psi_{f(x)}$ would have to be congruent to the $q$-th power map modulo $f(x)$, where $q$ is the size of $F_p[x]/(f(x))$.
 =--
