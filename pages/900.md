@@ -31,6 +31,14 @@ This definition is perhaps more intuitive in the dual case of [[ind-object|ind-o
 
 Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of $[C,Set]^{op}$ determined by those functors which are cofiltered limits of representables.  This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits."
 
+## Examples
+
+* [[profinite group]]
+
+* [[progroup]]
+
+* [[profinite space]]
+
 ## Related concepts
 
 * [[ind-object]] / [[ind-object in an (∞,1)-category]]
