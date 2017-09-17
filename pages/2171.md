@@ -330,8 +330,10 @@ $$1 \to P_n \to Br_n \to S_n \to 1$$
 
 which is part of a long exact homotopy sequence corresponding to the fibration $\pi: C_n \to C_n/S_n$. 
 
+## Group-theoretic descriptions 
 
-## A presentation of $Br_{n+1}$
+
+### Artin presentation of $Br_{n+1}$
 
 The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]] given by 
 
@@ -341,7 +343,23 @@ The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]
 
   * $r_{i,j} \equiv y_i y_j y_i^{-1} y_j^{-1}$ for $i+1 \lt j$
 
-  * $r_{i,i+1}\equiv y_i y_{i+1} y_i y_{i+1}^{-1} y_i^{-1} y_{i+1}^{-1}$ for $1 \leq i \lt n$.
+  * $r_{i,i+1}\equiv y_i y_{i+1} y_i y_{i+1}^{-1} y_i^{-1} y_{i+1}^{-1}$ for $1 \leq i \lt n$. 
+
+### In terms of automorphisms on free groups 
+
+The braid group $B_n$ may be alternatively described as the [[mapping class group]] of a 2-disk $D^2$ with $n$ punctures (call it $X_n$). Meanwhile, the [[fundamental group]] $\pi_1(X_n)$ (with basepoint on the boundary) is a [[free group]] $F_n$ on $n$ generators; the functoriality of $\pi_1$ implies we have an induced homomorphism 
+
+$$Aut(X_n) \to Aut(\pi_1(X_n)) = Aut(F_n).$$ 
+
+If an automorphism $\phi: X_n \to X_n$ is isotopic to the identity, then of course $\pi_1(\phi)$ is trivial, and so the homomorphism factors through the quotient $MCG(X_n) = Aut(X_n)/Aut_0(X)$, so we get a homomorphism 
+
+$$B_n = MCG(X_n) \to Aut(F_n)$$ 
+
+and this turns out to be an injection. 
+
+Explicitly, the generator $y_i$ used in the Artin presentation above is mapped to the automorphism $\sigma_i$ on the free group on $n$ generators $x_1, \ldots, x_n$ defined by 
+
+$$\sigma_i(x_i) = x_{i+1}, \sigma_i(x_{i+1}) = x_{i+1}^{-1} x_i x_{i+1}, \; \else\; \sigma(x_j) = x_j.$$ 
 
 
 ## Examples
