@@ -400,7 +400,7 @@ A standard textbook treatment is chapter 3 of
 
 Other references are
 
-* [[Steve Lack]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578))
+* [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578))
 
 [[!redirects Lawvere theory]]
 [[!redirects Lawvere theories]]
