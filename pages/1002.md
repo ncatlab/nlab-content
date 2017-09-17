@@ -41,7 +41,7 @@ This gives one universal characterization of the ultrafilter endofunctor. This t
 
 ### Ultrafilters and codensity 
 
-Another known universal characterization of the ultrafilter monad is via the concept of codensity monads. (This fact was recently (June 2011) mentioned by Tom Leinster at the categories list, but it also appears sparsely in the literature; see for instance _Algebraic Theories_, exercise 3.2.12(e).) 
+Another known universal characterization of the ultrafilter monad is via the concept of [[codensity monads]]. (This fact was recently (June 2011) mentioned by Tom Leinster at the categories list, but it also appears sparsely in the literature; see for instance _Algebraic Theories_, exercise 3.2.12(e).) 
 
 Let $i: Fin \to Set$ be the usual full inclusion of finite sets into sets. The restricted co-Yoneda embedding 
 
