@@ -68,8 +68,12 @@ For more on this see
 * [[quantum mechanics in terms of †-compact categories]].
 
 
-## Related entries
+## References and related entries
 
-* [[Hamilton operator]], [[semiclassical approximation]]
+* [[Hamilton operator]], [[semiclassical approximation]], [[quantization]]
+
+* Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics%3A a functional integral point of view]] (how to quote the link with : ??)
+
+* Movshev's course has nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)
 
 [[!redirects quantum physics]]
