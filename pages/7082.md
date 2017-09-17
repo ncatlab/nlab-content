@@ -17,23 +17,35 @@
 
 In [[homotopy type theory]], the notion of **equivalence** is an internalization of the notion of [[equivalence]] or [[homotopy equivalence]].
 
+These are sometimes called **[[weak equivalences]]**, but there is nothing [[weak equivalence|weak]] about them (in particular, they always have homotopy inverses). 
+
+
 ## Definition
 
-We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  Let $f\colon A\to B$ be a function; we define new types as follows:
+We work in [[intensional type theory|intensional]] [[type theory]] with [[dependent sums]], [[dependent products]], and [[identity types]].  
+
++-- {: .num_defn}
+###### Definition
+
+For $f\colon A\to B$ a [[term]] of [[function type]]; we define new types as follows:
 
 $$b\colon B \vdash hfiber(f,b) \coloneqq \sum_{a\colon A} (f(a) = b)$$
 
 $$isEquiv(f) \coloneqq \prod_{b\colon B} isContr(hfiber(f,b))$$
 
-That is, a function is an equivalence if all of its homotopy fibers are [[contractible types]] (in a way which depends continuously on the base point).
+We say $f$ is an **equivalence** if $isEquiv(f)$ is an [[inhabited type]].
+
+=--
+
+That is, a function is an equivalence if all of its [[homotopy fibers]] are [[contractible types]] (in a way which depends continuously on the base point).
 
 ### Variations
 
 Three variations are, informally:
 
-* $f\colon A\to B$ is an equivalence if there is a map $g\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(g(b)) = b)$ (a **homotopy equivalence**)
+* $f\colon A\to B$ is an equivalence if there is a map $g\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(g(b)) = b)$ (a **[[homotopy equivalence]]**)
 
-* $f\colon A\to B$ is an equivalence if there is the above data, together with a higher homotopy expressing one [[triangle identity]] for $f$ and $g$ (an **adjoint equivalence**).
+* $f\colon A\to B$ is an equivalence if there is the above data, together with a higher homotopy expressing one [[triangle identity]] for $f$ and $g$ (an **[[adjoint equivalence]]**).
 
 * $f\colon A\to B$ is an equivalence if there are maps $g,h\colon B\to A$ and homotopies $p\colon \prod_{a\colon A} (g(f(a)) = a)$ and $q\colon \prod_{b\colon B} (f(h(b)) = b)$ (sometimes called a **homotopy isomorphism**).
 
@@ -41,11 +53,10 @@ By formalizing these, we obtain types $homotopyEquiv(f)$, $isAdjointEquiv(f)$, a
 
 This is not true for $homotopyEquiv(f)$, which is not in general an h-prop even with function extensionality.  However, often the most convenient way to show that $f$ is an equivalence is by exhibiting a term in $homotopyEquiv(f)$ (although such a term could just as well be interpreted to lie in $isHIso(f)$ with $h\coloneqq g$).
 
-## Coq code
-
-* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Equivalences.v)
 
 ## Semantics
+
+We discuss the [[categorical semantics]] of equivalences in homotopy type theory.
 
 Let $\mathcal{C}$ be a [[locally cartesian closed category]] which is a [[model category]], in which the (acyclic cofibration, fibration) [[weak factorization system]] has [[stable path objects]], and acyclic cofibrations are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of coherence, which are not important for this discussion.)
 
@@ -53,10 +64,14 @@ Note that for $f\colon A\to B$, the dependent type
 $$b\colon B \vdash hfiber(f,b)\colon Type$$
 is precisely the [[mapping path space]] construction, which is one way to factor $f$ as an [[acyclic cofibration]] followed by a [[fibration]].  By definition and the semantics of [[contractible types]], therefore, if $A$ and $B$ are cofibrant, then $isEquiv(f)$ has a [[global element]] precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  But by the 2-out-of-3 property, this is equivalent to $f$ being a weak equivalence --- and hence a homotopy equivalence, since it is a map between fibrant-cofibrant objects.
 
-## Remarks
 
-* These are sometimes called **weak equivalences**, but there is nothing [[weak equivalence|weak]] about them (in particular, they always have homotopy inverses).
+## Related concepts
 
+* **isEquiv**
+
+* [[isContr]]
+
+* [[isProp]]
 
 ## References
 
@@ -64,6 +79,12 @@ An introduction to equivalence in homotopy type theory is in
 
 * [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
 
+[[Coq]] code for homotopy equivalences is at
+
+* [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Equivalences.v)
+
+
+[[!redirects isEquiv]]
 
 [[!redirects equivalence in homotopy type theory]]
 [[!redirects equivalences in homotopy type theory]]
