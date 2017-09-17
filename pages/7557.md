@@ -31,7 +31,7 @@ For instance, if we assume the law of excluded middle, then we can build a term 
 
 Similarly, using the univalence axiom, we can obtain a term $p : (\mathbb{N}=\mathbb{N})$ corresponding to the automorphism of $\mathbb{N}$ which adds one to every even number and subtracts one from every odd number.  Then the term $transport(p,0)$ also has type $\mathbb{N}$, but doesn't "compute" because the computer gets "stuck" on the univalence term.
 
-It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation.  Some partial progress towards this can be found [here](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/).
+It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation while preserving canonicity.  Some partial progress towards this can be found [here](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/).
 
 ## References
 
