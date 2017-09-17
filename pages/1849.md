@@ -119,7 +119,148 @@ $$
 
 ## Description in $\infty$-Chern-Weil theory
 
+Recall from the discussion at [[circle n-bundle with connection]]
+that in the [[cohesive (∞,1)-topos]] $\mathbf{H} := $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an object $X \in \mathbf{H}$ are cocycles in the object $\mathbf{H}_{diff}(X, \mathbf{G}^3 U(1))$ that is the [[(∞,1)-pullback]]
+
+$$
+  \array{
+    \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1)) &\to& H^4_{dR}(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}(X, \mathbf{B}^3 U(1))
+    &\stackrel{curv}{\to}&
+    \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^4 U(1))
+  }
+  \,.
+$$
+
+We consider now the analog of this definition for the universal curvature form on $\mathbf{B}^3 U(1)$ replaced by the differentially refined second [[Chern class]] of [[E8]].
+
+$$
+  \array{
+    C Field(X) &\to& H^4_{dR}(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{H}(X, \mathbf{B} E_8)
+    &\stackrel{\hat \mathbf{c}_2}{\to}&
+    \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^4 U(1))
+  }
+  \,.
+$$
+
+In order to compute this $(\infty,1)$-pullback, we follow the discussion at  [[differential string structure]], where presentations of this pullback in terms of [[simplicial presheaves]] arising from  [[Lie integration]] is given.
+
+Using this we presents $\hat \mathbf{c}_2$ by
+
+$$
+  \array{
+    \mathbf{cosk_3} \exp(b \mathbb{R} \to \mathfrak{e}_8)_{diff}
+    &\to&
+    \mathbf{B}^4 \mathbb{R}_{dR}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}E_8
+  }
+  \,.
+$$
+
+By the discussion there we have that the top morphism is a fibration (there it is shown that the analogous morphism out of $\mathbf{cosk_3} \exp(b \mathbb{R} \to \mathfrak{e}_8)_{ChW}$ is a fibration, but then so is this one, because the components on the left are the same but with fewer conditions on them, so that the lifts that existed before still exist here).
+
+Over some $U \in$ [[CartSp]] and $[k] \in \Delta$ we have that $\exp(b^\mathbb{R} \to \mathfrak{e}_8)_{diff}$ is given by differential form data
+
+$$
+  \left(
+    \array{ 
+      F_\omega =& d A + \frac{1}{2}[A \wedge A]
+      \\
+      C_3 =& \nabla B := d B + CS(A) - Q_3 
+      \\
+      \mathcal{G}_4  =& d Q_3
+      \\
+      d F_A =& - [A \wedge F_A]
+      \\
+      d C_3 =&  \langle F_A \wedge F_A\rangle - \mathcal{G}_4
+      \\
+      d \mathcal{G}_4 =& 0
+    }
+  \right)_i
+  \;\;\;\;
+  \stackrel{
+    \array{
+       t^a & \mapsto A^a
+       \\
+       r^a & \mapsto F^a_A
+       \\
+       b & \mapsto B
+       \\
+       c & \mapsto C_3
+       \\
+       q & \mapsto Q_3
+       \\
+       g & \mapsto \mathcal{G}_4
+    }
+  }{\leftarrow}|
+  \;\;\;\;
+  \left(
+    \array{  
+       r^a  =& d t^a + \frac{1}{2}C^a{}_{b c} t^b \wedge t^c + 
+       \\
+       c = & d b + cs - q     
+       \\
+       g  =& d q
+       \\
+       d r^a  =&  - C^a{}_{b c} t^b \wedge r^a
+       \\
+       d c =& \langle -,-\rangle - g 
+       \\
+       d g =&  0 
+    }
+  \right)
+$$
+
+on $U \times \Delta^k$. (Notice that compared to the discussion at [[differential string structure]] we have renamed $H$ to $C$ and $C$ to $Q$ to fit standard notation as far as possible.) 
+
+Let $\{U_i \to X\}$ be a differentiably [[good open cover]]. We hit all connected components of $\mathbf{H}(X, \mathbf{B}E_8)$ by considering in 
+
+$$
+  [CartSp^{op}, sSet](C(U_i), \exp(b \mathbb{R} \to \mathfrak{e}_8))_{diff}
+$$
+
+those cocycles that
+
+* involve genuine $E_8$-[[connection on a bundle|connections]] (as opposed to the more general [[pseudo-connection]]s that are also contained);
+
+* have a globally defined $C_3$-form (this is globally defined in $\exp(b\mathbb{R} \to (\mathfrak{e}_8)_\mu)_{ChW}$ since $$ )
+
+Write therefore $(P, \nabla, C_3)$ for such a cocycle. 
+
+For gauge transformations between two such pairs, parameterzed by the above form data patchwise on  $U \times \Delta^1$, the fact that $\mathcal{G}_4$ vanishes on $\Delta^1$ implies the <a href="http://nlab.mathforge.org/nlab/show/infinity-Chern-Weil+theory+introduction#InfGaugeTrafo">infinitesmal gauge transformation</a> law
+
+$$
+  \frac{d}{d t} C = D_U \omega_t 
+   + \iota_t \langle F_{\hat A} \wedge F_{\hat A}\rangle
+  \,,
+$$
+
+where $\hat A\in \Omega^1(U \times \Delta^1, \mathfrak{e}_8)$ is the shift of the 1-forms. This integrates to
+
+$$
+  C_2 = C_1 + d \omega + CS(\nabla_1,\nabla_2)
+  \,,
+$$
+
+where 
+
+* $\omega := \int_{\Delta^1} \omega_t$
+
+* $CS(\nabla_1, \nabla_2) = \int_{\Delta^1} \langle F_{\hat \nabla} \wedge F_{\hat \nabla}\rangle $ is the relative [[Chern-Simons form]] corresponding to the shift of $E_8$-connection.
+
 (...)
+
+
 
 ## Related concepts
 
