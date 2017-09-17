@@ -1,26 +1,33 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-In general, a diagram is the same thing as a [[functor]], and sometimes it\'s helpful to work in that generality.  However, we often use the term 'diagram' for something that we can actually see on the page, in which case we mean a functor whose from the [[free category]] on a finite [[quiver]].
+In general, a diagram is the same thing as a [[functor]], and sometimes it\'s helpful to work in that generality.  However, we often use the term 'diagram' for something that we can actually see on the page, in which case we mean a functor whose domain is the [[free category]] on a [[quiver]] (often a finite one).
 
 
 ## Definitions
 
 Let $C$ be a [[category]].
 
++-- {: .num_defn}
+###### Definition
 If $J$ is also a category, then a __diagram__ in $C$ of shape $J$ is simply a [[functor]] $D\colon J \to C$.
+=--
 
-If $J$ is a [[directed graph]], the a __diagram__ in $C$ of shape $J$ is a functor $D\colon F(J) \to C$, or equivalently a graph morphism $\bar{D}\colon J \to U(C)$.  Here $F\colon Graph \to Cat$ and $U\colon Cat \to Graph$ are [[adjoint functors]].
+This terminology is often used when speaking about [[limits]] and [[colimits]]; that is, we speak about "the limit or colimit of a diagram."  Similarly, it is common to call the [[functor category]] $C^J$ the "category of diagrams in $C$ of shape $J$".
+
++-- {: .num_defn}
+###### Definition
+If $J$ is a [[directed graph]], then a __diagram__ in $C$ of shape $J$ is a functor $D\colon F(J) \to C$, or equivalently a graph morphism $\bar{D}\colon J \to U(C)$.
+=--
+
+Here $F\colon Graph \to Cat$ denotes the [[free category]] on a directed graph and $U\colon Cat \to Graph$ the underlying directed graph of a category, which form a pair of [[adjoint functors]].  These are the sorts of diagrams which we "draw on a page" --- we draw a directed graph, and then label its vertices with objects of $C$ and its edges with morphisms in $C$, thereby forming a graph morphism $J\to U(C)$.
+
+A diagram is __[[commutative diagram|commutative]]__ if it factors through a [[preorder]].  Equivalently, if $J$ is a category, then a diagram of shape $J$ commutes iff any two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.  If $J$ is a directed graph, as is more common when we speak about "commutative" diagrams, then this definition has to be applied to $F(J)$ instead.
 
 In either case, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
-
-A diagram __[[commutative diagram]]__ if it factors (up to [[natural isomorphism]]) through a [[poset]].  So a commuting diagram is a diagram where every two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.
-
-In addition to commutative diagrams, one speaks of functors as diagrams when the [[limit]] or [[colimit]] over the functor is considered. This is then often called the limit or colimit of the corresponding diagram.
 
 
 ## Examples
