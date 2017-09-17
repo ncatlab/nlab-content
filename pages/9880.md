@@ -50,7 +50,11 @@ See at _[perturbation theory -- Divergence/convergence](perturbation+theory#Dive
 
 ## References
 
-Discussion of non-perturbative effects in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string theory]] is in
+Discussion of non-perturbative effects in [[QCD]] are in
+
+* Marcos Marino, _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
+
+and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string theory]] is in
 
 * Marcos Marino, _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
