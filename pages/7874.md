@@ -56,7 +56,8 @@ See the Idea-section at _[[tmf]]_ and at _[[Witten genus]]_ for more background.
 
 ## Cubical sttructure
 
-* [[cubical structure]]
+The construction proceeds via the relation between
+orientations in complex orientable cohomology theory and [[cubical structures on line bundles]], see there for more.
 
 ## Related concepts
 
