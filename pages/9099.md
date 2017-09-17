@@ -255,6 +255,8 @@ This arises from [[Freund-Rubin compactifications]] with [[cosmological constant
 
   * **7d Chern-Simons theory**
 
+  * [[11d Chern-Simons theory]]
+
   * [[AKSZ sigma-models]]
 
   * [[string field theory]]
