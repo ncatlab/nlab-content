@@ -47,6 +47,12 @@ $$
   \,.
 $$
 
+## Properties
+
+* A category has wide pullbacks (of all [[small category|small]] cardinalities) if and only if it has (binary) [[pullbacks]] and [[cofiltered limits]].
+
+* The [[saturated class of limits|saturation]] of the class of wide pullbacks is the class of limits over categories $C$ whose [[fundamental groupoid]] $\Pi_1(C)$ is trivial.
+
 ## Related concepts
 
 * [[pullback]], [[base change]]
@@ -55,6 +61,9 @@ $$
 
 * [[(∞,1)-pullback]], [[homotopy pullback]]
 
+## References
+
+* [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
 [[!redirects fiber product]]
 [[!redirects fiber products]]
