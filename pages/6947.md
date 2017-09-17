@@ -119,6 +119,17 @@ The same makes verbatim sense also in the [[(∞,1)-logic]] of any [[(∞,1)-top
 This interpretation of existential quantification as the left adjoint to context extension is also used in the notion of _[[hyperdoctrine]]_.
 
 
+### Frobenius reciprocity
+
+The extential quantifier and [[context extension]] is related via [[Frobenius reciprocity]]: if $\psi$ does not have $x$ as a [[free variable]] then
+
+$$
+  \exists_x (\phi \wedge \psi)
+  \Leftrightarrow
+  (\exists_x \phi) \wedge \psi
+  \,.
+$$
+
 ## Examples
 
 Let $\mathcal{E} = $ [[Set]], let $X = \mathbb{N}$ be the set of [[natural number]]s and let $\phi \coloneqq 2\mathbb{N} \hookrightarrow \mathbb{N}$ be the [[subset]] of even natural numbers. This expresses the [[proposition]] $\phi(x) \coloneqq IsEven(x)$. 
