@@ -1,5 +1,5 @@
 
-Douglas Bridges is a New Zealand based mathematician, working in the University of Canterbury.  He has worked in constructive mathematics as well as various aspects of computability.
+Douglas Bridges is a New Zealand based mathematician, working in the University of Canterbury.  He has worked in [[constructive mathematics]] as well as various aspects of computability.
 
 * [Home page](http://www.math.canterbury.ac.nz/~d.bridges/)
 
