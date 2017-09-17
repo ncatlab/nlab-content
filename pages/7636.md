@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -453,7 +452,7 @@ with lecture notes in
 
 A precise definition of [[elementary (infinity,1)-topos]] inspired by giving a natural equivalence to [[homotopy type theory]] with [[univalence]] was then proposed in 
 
-* [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
+* [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
 
 Categorical semantics of [[univalence|univalent]] [[type universes]] is discussed in 
 
