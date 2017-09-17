@@ -68,7 +68,11 @@ Many physical fields are related to tensor fields, but few are genuinely tensor 
 
 ## References
 
-Section _[Fields](geometry%20of%20physics#Fields)_ at 
+The traditional idea of field bundle is discussed for instance around section 7.3.3 of 
+
+* Laurent Claessens, _Field theory from a bundle point of view_ (2011) ([pdf](http://student.ulb.ac.be/~lclaesse/lectures.pdf)) .
+
+A discussion of the problems of the traditional notion and its recification in [[higher geometry]] is in the section _[Fields](geometry%20of%20physics#Fields)_ at 
 
 * _[[geometry of physics]]_
 
