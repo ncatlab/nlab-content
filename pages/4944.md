@@ -180,6 +180,28 @@ This is theorem 1.3 in ([Badzioch](#Badzioch))
 
 The model structure on homotopy $T$-algebras for $T = $ [[CartSp]] the Lawvere theory of [[smooth algebra]]s is considered in ([Spivak](#Spivak)) in the study of [[derived smooth manifold]]. (There is also a bit of disucssion of the relation to the model structure on simplicial algebras there.)
 
+
+## Related concepts
+
+* [[algebra over a monad]]
+
+  [[∞-algebra over an (∞,1)-monad]] 
+
+* [[algebra over an algebraic theory]]
+
+  [[∞-algebra over an (∞,1)-algebraic theory]]
+
+  * **homotopy T-algebra** / [[model structure on simplicial T-algebras]]
+
+* [[algebra over an operad]] 
+
+   [[∞-algebra over an (∞,1)-operad]]
+
+   * [[model structure on algebras over an operad]]
+
+
+
+
 ## References
 
 In 
