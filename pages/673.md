@@ -14,8 +14,7 @@ See my [private $n$Lab area](http://ncatlab.org/davidroberts/show/HomePage) for 
 
 This chapter is of independent interest, and is much smaller than the full thesis:
 
-* _Fundamental bigroupoids and 2-covering spaces_ (full PhD thesis) 
-([pdf](http://ncatlab.org/davidroberts/files/DMR_thesis.pdf))
+* _[[Fundamental Bigroupoids and 2-Covering Spaces]]_ (full PhD thesis) ([pdf](http://ncatlab.org/davidroberts/files/DMR_thesis.pdf))
 
 For a lite introduction to the ideas in my thesis, see
 
