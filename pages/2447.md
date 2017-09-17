@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Gluing of quasicoherent sheaves via localizations
@@ -46,5 +47,20 @@ Yet another question is how to generalize the functor of points approach to [[sc
 
 
 
+## Related concepts
+
+* [[descent]]
+
+  * [[cover]]
+
+  * [[monadic descent]], 
+
+    * [[Sweedler coring]]
+
+    * [[higher monadic descent]]
+
+    * **descent in noncommutative algebraic geometry**
+
+* [[sheaf]], [[(2,1)-sheaf]], [[2-sheaf]] [[(∞,1)-sheaf]]
 
 
