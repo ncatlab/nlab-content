@@ -1,3 +1,7 @@
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
 # Idea #
 
 _Nets_ are generalisations of [[sequences]] that are used especially in topology.  They are also called _Moore--Smith sequences_ and are equivalent (in a certain sense) to proper [[filters]].
@@ -8,6 +12,17 @@ A __net__ $\nu$ in a [[set]] $X$ is a [[direction|directed set]] $A$ and a [[fun
 
 Although $A$, being a directed set, is equipped with a [[preorder]], the net is not required to preserve this in any way.  This forms an exception to the rule of thumb that a preordered set may be replaced by its quotient [[partial order|poset]].  You can get around this if you instead define a net in $X$ as a [[multi-valued function]] from a partially ordered directed set $A$ to $X$.  Although there is not much point to doing this in general, it can make a difference if you put restrictions on the possibilities for $A$, in particular if you consider the definition of [[sequence]].  In some type-theoretic [[foundations]] of mathematics, you can get the same effect by defining a net to be an 'operation' (a [[prefunction]], like a function but not required to preserve [[equality]]).
 
+## subnet
+Given a net $(x_{\alpha})$ with index set $A$, a **subnet** is a net $(y_{\beta})$ with an index set $B$ and a function
+$$
+  f: B \to A
+$$
+such that $f$ is order preserving in the sense that
+$$
+   y_{f(\beta)} = x_{\alpha}
+$$
+and for every $\alpha \in A$ there is a $\beta \in B$ such that $f(\beta) \ge \alpha$.
+ 
 # Logic of nets #
 
 A property of elements of $X$ (given by a [[subset]] $S$ of $X$) can be applied to nets in $X$.  We say that $\nu$ is __eventually__ in $S$ if for some index $i$, $\nu_j \in S$ for every $j \ge i$.  Dually, we say that $\nu$ is __frequently__ in $S$ if for every index $i$, $\nu_j \in S$ for some $j \ge i$.  Sometimes one says 'infinitely often' in place of 'frequently' and even 'cofinitely often' in place of 'eventually'; these derive from the special case of sequences, where they may be taken literally.
