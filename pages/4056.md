@@ -114,9 +114,12 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[Kochen-Specker theorem]]
 
-* [[Wigner theorem]]
+* [[Alfsen-Shultz theorem]]
 
 * [[Harding-Döring-Hamhalter theorem]]
+
+* [[Wigner theorem]]
+
 
 ## References
 
