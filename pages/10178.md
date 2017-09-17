@@ -900,9 +900,103 @@ The first step is ([Nuiten 13, section x](#Nuiten13)). The second is ([DEKM 11, 
 
 (...) [[geometric quantization]] (...)
 
+###### Quantum states and K-theory
+
+(...)
+
+###### Quantum observables and equivariant K-theory
+
+(...)
+
+###### 
+
+
 ##### Quantization of Lie-Poisson structures -- The universal orbit method
 
 (...) [[Lie-Poisson structure]] (...) [[orbit method]] (...)
+
+Let $\mathfrak{g}$ be a Lie algebra. Write $\mathfrak{g}^\ast$ for its dual vector space regarded as a [[Poisson manifold]] by its canonical [[Lie-Poisson structure]]. The corresponding [[symplectic groupoid]] is the [[action groupoid]] $\mathfrak{g}^\ast //G$ for the [[coadjoint action]]. 
+
+The canonical [[prequantum 2-bundle]]
+
+$$
+  \chi \colon \mathfrak{g}^\ast//G \to \mathbf{B}^2 U(1)_{conn^1}
+$$
+
+is given by the truncated [[Deligne cohomology]] cocycle whose 1-form component is the [[Liouville-Poincaré 1-form]] on the [[cotangent bundle]] $T^\ast G$ under the natural identification
+
+$$
+  ((\mathfrak{g}^\ast//G)_1 = \mathfrak{g}^\ast \times G \simeq T^\ast G
+  \,.
+$$
+
+This trivializes along the canonical inclusion $\mathfrak{g}^\ast \to \mathfrak{g}^\ast //G$ and therefore we have a boundary condition
+
+$$
+  \array{
+      && \mathfrak{g}^\ast
+      \\
+      & \swarrow && \searrow
+     \\
+    \ast && \swArrow_\xi && \mathfrak{g}^\ast // G
+     \\
+     & \searrow && \swarrow
+     \\
+     && \mathbf{B}^2 U(1)_{conn^1}
+  }
+$$
+
+where $\xi$ is a circle bundle with connection, the corresponding "[[prequantum bundle]]".
+
+Assume now that $\mathfrak{g}$ is semisimple with [[Killing form]] [[invariant polynomial]] $\langle -,-\rangle$. Let $\lambda \in \mathfrak{g}$ be a regular weight and $\mathcal{O}_\lambda \hookrightarrow \mathfrak{g}^\ast$ the corresponding [[coadjoint orbit]].
+
+Then the previous boundary condition for the [[2d Chern-Simons theory]] of $\mathfrak{g}^\ast//F$ extends to a [[QFT with defects|defect]] to the 2d CS theory of $\ast //G$ with in turn is the [[symplectic manifold]] $\mathcal{O}_\lambda$ as its [[brane]]. This is exhibited by the diagram
+
+$$
+  \array{
+    \ast &\leftarrow& \ast &\to& \ast
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    \mathcal{O}_\lambda//G &\leftarrow& \mathcal{O}_\lambda &\hookrightarrow& \mathfrak{g}^\ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \ast//G &\leftarrow& \mathcal{O}_\lambda // G &\hookrightarrow& \mathfrak{g}^\ast//G
+  }
+$$
+
+in $\mathbf{H}$. All this lives in $\mathbf{H}_{/\mathbf{B}^2 U(1)}$, but we don't try to draw this here.
+
+Here on the left we have an equivariant symplectic case as above
+
+$$
+  \array{
+    && \mathcal{O}_\lambda // G
+    \\
+    & \swarrow && \searrow
+    \\
+    \ast && \swArrow_\xi && \ast//G
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbf{B}^2 U(1)_{conn^1}
+  }
+  \,.
+$$
+
+Where $\xi$ now is a $G$-equivariant [[prequantum bundle]] exhibiting a [[moment map]] for a [[Hamiltonian action]] of $G$.
+
+It motivic quantization yields the map in [[equivariant K-theory]]
+
+$$
+  i_! \colon K_G(\mathcal{O}_\lambda) \to R(G)
+$$
+
+to the [[representation ring]] of $G$, which sends the prequantum bundle + Hamiltonian action $\xi$ to the $G$-representation $i_! \xi$. This is the cohomological formulation of the [[orbit method]].
+
+(...)
+
 
 #### The charged particle at the boundary of the open superstring
  {#ChargedParticleAtBoundaryOfSuperstring}
