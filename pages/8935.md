@@ -15,15 +15,7 @@
 
 ## Idea 
 
-In [[type theory]], the _axiom K_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]] (in a sense).
-
-+-- {: .query}
-Wasn't the above statement refuted by Dan Doel on the article on [[extensional type theory]]? On the other hand, the rest of the page makes total sense. I'm not editing the page because I am not expert enough on the topic.
-
--- Paolo Giarrusso
-
-I added 'in a sense'; the link to [[extensional type theory]] will let people look up the relevant sense.  ---[[Toby Bartels]]
-=--
+In [[type theory]], the _axiom K_ is an [[axiom]] that when added to [[intensional type theory]] turns it into [[extensional type theory]] --- or more precisely, what is called [[extensional type theory|here]] "propositonally extensional type theory".
 
 Heuristically, the axiom asserts that each [[term]] of each [[identity type]] $Id_A(x,x)$ (of [[equivalences]] of a [[term]] $x \colon A$) is [[propositional equality|propositionally equal]] to the canonical [[reflexive relation|reflexivity]] equality proof $refl_x \colon Id_A(x,x)$. 
 
