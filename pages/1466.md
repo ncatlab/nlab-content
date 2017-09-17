@@ -35,7 +35,7 @@ We will call this axiom (0) when convenient.
 A set equipped with a uniform structure is called a **uniform space**.
 
 
-A collection of entourages satisfying (0--5) is a **base** for a uniformity; a base is precisely what generates a uniformity by taking the upward closure.  A collection satisfying (0--3) is a **preuniformity**; slightly more generally, we can replace each $V$ in the statement of these axioms with a finite [[intersection]] $V_1 \cap \cdots \cap V_n$ of entourages to get the concept of a **subbase** for a uniformity.  A subbase is precisely what generates a base by closing up under finite intersections and precisely what generates a uniformity by closing up under finite intersections and taking the upward closure.
+A collection of entourages satisfying (0--5) is a **[[base]]** for a uniformity; a base is precisely what generates a uniformity by taking the upward closure.  A collection satisfying (0--3) is a **preuniformity**; slightly more generally, we can replace each $V$ in the statement of these axioms with a finite [[intersection]] $V_1 \cap \cdots \cap V_n$ of entourages to get the concept of a **[[subbase]]** for a uniformity.  A subbase is precisely what generates a base by closing up under finite intersections and precisely what generates a uniformity by closing up under finite intersections and taking the upward closure.
 
 
 The **uniform topology** induced by a uniformity is defined by taking the [[neighborhoods]] of a point $x$ to be sets of the form
