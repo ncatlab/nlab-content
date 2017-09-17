@@ -19,7 +19,7 @@
 
 ## Idea 
 
-For $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] a $\mathcal{G}$-[[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O}_{\mathcal{X}})$ is _locally representable_ if it is locally equivalent to $Spec U$ for $U \in Proj(\mathcal{G})$ (or $U \in \mathcal{G}$ if it is _locally finite presented_ ).
+For $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] a $\mathcal{G}$-[[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O}_{\mathcal{X}})$ is _locally representable_ if it is locally equivalent to $Spec U$ for $U \in Pro(\mathcal{G})$ (or $U \in \mathcal{G}$ if it is _locally finite presented_ ).
 
 This generalizes
 
@@ -119,7 +119,7 @@ such that
    \simeq \mathbf{Spec}^{\mathcal{G}} A_i
   $$
 
-  of structured $(\infty,1)$-toposes for some $A_i \in Proj(\mathcal{G})$ (in the [[(∞,1)-category]] of [[pro-object]]s of $\mathcal{G}$).
+  of structured $(\infty,1)$-toposes for some $A_i \in Pro(\mathcal{G})$ (in the [[(∞,1)-category]] of [[pro-object]]s of $\mathcal{G}$).
 
 =--
 
