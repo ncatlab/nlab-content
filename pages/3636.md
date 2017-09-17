@@ -87,8 +87,16 @@ Note that $(Proper,\Sigma)$ admits a [[calculus of fractions|calculus of right f
 $$X\stackrel{j}{\leftarrow} A \stackrel{f}{\rightarrow}Y,$$
 with $j$ a cofinal inclusion, i.e., $f$ is defined on some 'neighbourhood of the end of $X$'.
 
+Two such diagrams 
+$$X\stackrel{j^{\prime}}{\leftarrow} A^{\prime} \stackrel{f^\prime}{\rightarrow}Y   and       X\stackrel{j^{\prime\prime}}{\leftarrow} A^{\prime\prime} \stackrel{f^{\prime\prime}}{\rightarrow}Y$$
+represent the same germ if $f^\prime | A = f^{\prime\prime}|A$ for some cofinal subspace  $A$ with $A^\prime \cup A^{\prime\prime}\subset A$.
 
 
+There is also a homotopy category $Ho(Proper_\infty)$
+
++--{.query}
+The end space $e(X)$ is a Stone space so is $Max(R)$ for some Boolean algebra $R$ (Stone duality) In the 1960s someone (Gooldman?) looked at a ring, $R$, of 'almost continuous functions' from $X$ to $\mathbb{Z}/2\mathbb{Z}$, that gave the right $e(X)$.  Can this idea help integrate better the ideas of proper homotopy etc. with modern methods of algebraic geometry?
+=--
 ##References##
 
 Survey article:
