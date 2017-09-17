@@ -62,7 +62,7 @@ If $C$ is a [[locally connected site]] with a [[terminal object]], then the [[to
 =--
 +--{: .proof}
 ###### Proof
-As explained at [[locally connected site]], when $C$ is locally connected, the left adjoint $Pi_0\colon Sh(C) \to Set$ simply obtained by taking [[colimits]] over $C^{op}$.  Now by the [[co-Yoneda lemma]], the [[colimit]] over any [[representable presheaf]] is a [[singleton]] (i.e. a terminal object in [[Set]]):
+As explained at [[locally connected site]], when $C$ is locally connected, the left adjoint $\Pi_0\colon Sh(C) \to Set$ is simply obtained by taking [[colimits]] over $C^{op}$.  Now by the [[co-Yoneda lemma]], the [[colimit]] over any [[representable presheaf]] is a [[singleton]] (i.e. a terminal object in [[Set]]):
 
 $$
   \lim_\to y(V) = \int^{U \in C} C(U,V) = \int^{U \in C} C(U,V) \cdot * = *
@@ -83,7 +83,14 @@ Connected geometric morphisms are left [[orthogonal]] to [[etale geometric morph
 Since the functor $Topos^{op} \to Cat$ sending a topos to itself and a geometric morphism to its [[inverse image functor]] is 2-fully-faithful (an [[equivalence of categories|equivalence]] on [[hom-categories]]), connected morphisms are representably [[fully faithful morphism|co-fully-faithful]] in $Topos$.
 
 Therefore, for 2-categorical orthogonality it suffices to show that in any commutative (up to iso) square
-$$\array{ A & \xrightarrow{f} & B \\ ^p\downarrow & & \downarrow^q \\ C & \xrightarrow{g} & D}$$
+$$
+  \array{ 
+    A & \xrightarrow{f} & B 
+    \\ 
+    {}^{\mathllap{p}}\downarrow & & \downarrow^{\mathrlap{q}} 
+    \\ 
+    C & \xrightarrow{g} & D}
+$$
 of geometric morphisms in which $p$ is connected and $q$ is etale, there exists a filler $h\colon C\to B$ such that $h p \cong f$ and $q h \cong g$.
 
 However, if $X\in D$ is such that $B \cong D/X$ (such exists by definition of $q$ being etale), then for any topos $E$ equipped with a geometric morphism $k\colon E\to D$, lifts of $k$ along $q$ are equivalent to morphisms $* \to k^*(X)$ in $C$.  In particular, $f$ is determined by a map $*\to f^*(q^*(X)) \cong p^*(g^*(X))$, and since $* \cong p^*(p_*(*))$ and $p^*$ is fully faithful, this map comes from a map $*\to g^*(X)$ in $C$, which in turn determines a geometric morphism $h\colon C\to B$ which is the desired filler.
