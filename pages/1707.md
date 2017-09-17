@@ -134,12 +134,14 @@ $$
   }
 $$
 
-This is the [[categorical semantics]] of what in the [[syntax]] of [[homotopy type theory]] this is 
+This is the [[categorical semantics]] of what in the [[syntax]] of [[homotopy type theory]] is 
 
 $$
   \vdash \; \left(\prod_{x \colon \mathbf{B}G} \left(* \to V \right)\right) \colon Type
   \,.
 $$
+
+By the discussion at [[∞-action]], this expresses the [[invariants|∞-invariants]] of the [[conjugation action]] of $G$ on the morphisms $* \to V$ of the underlying objects. Since the action on the point is trivial, these are just the [[invariants|∞-invariants]] of $V$.
 
 +-- {: .num_prop #GroupCohomologyInInfinityToposForTrivialAction}
 ###### Proposition
@@ -168,7 +170,7 @@ $$
  {#InTermsOfHomologicalAlgebra}
 
 
-Let $G$ be an ordinary [[group]], specifically a [[group object]] in a [[topos]] $\mathcal{T}$ such that the [[abelian category]] $Ab(\mathcal{T})$ has [[enough projectives|projective object]]. If $G$ is an ordinary [[discrete group]] then this means that in the ambient [[set theory]] we assume the [[axiom of choice]] or ar least [[COSHEP]].
+Let $G$ be an ordinary [[group]], specifically a [[group object]] in a [[topos]] $\mathcal{T}$ such that the [[abelian category]] $Ab(\mathcal{T})$ has [[enough projectives|projective object]]. If $G$ is an ordinary [[discrete group]] then this means that in the ambient [[set theory]] we assume the [[axiom of choice]] or ar least the [[presentation axiom]].
 
 Write then 
 
@@ -199,10 +201,31 @@ $$
 
 is the kind of [[coefficient]] for the group cohomology of $G$ to which the following statement applies. 
 
++-- {: .num_remark #InvariantsByHomFunctor}
+###### Remark
+
+For $A$ a $G$-[[module]], the [[invariants]] of $A$ are equivalently the $\mathbb{Z}[G]$-module homomorphisms from $\mathbb{Z}$ equipped with the trivial module structure
+
+$$
+  Invariants(A) \simeq Hom_{\mathbb{Z}G}(\mathbb{Z}, A)
+  \,.
+$$
+
+This equivalence is [[natural isomorphism|natural]] and hence the contravariant [[hom functor]] is equivalently the invariants-functor
+
+$$
+  Invariants(-)\simeq Hom_{\mathbb{Z}[G]}(\mathbb{Z}, -)
+  \,.
+$$
+
+=--
+
+By the fully general discussion [above](#InHomotopyTypeTheory), group cohomology of $G$ with coefficients in some $A$ is the homotopy-version of the $G$-[[invariants]] of $A$. In the context of [[homological algebra]] and in view of remark \ref{InvariantsByHomFunctor}, this means that it is given by the [[derived functor]] of the [[hom functor]] out of the trivial $G$-module, hence by the [[Ext]]-functor:
+
 +-- {: .num_defn}
 ###### Definition
 
-For $A$ an abelian group equipped with a $G$-action, the degree-$n$ _group cohomology_ of $G$ with [[coefficients]] in $A$ is the $n$th-[[Ext]]-group
+For $A$ an [[abelian group]] equipped with a $G$-[[action]], the degree-$n$ _group cohomology_ of $G$ with [[coefficients]] in $A$ is the $n$th-[[Ext]]-group
 
 $$
  H^n_{Grp}(G,A) \coloneqq Ext^n_{\mathbb{Z}G}(\mathbb{Z}, A)
@@ -251,6 +274,12 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Give a [[normal subgroup]] $K \hookrightarrow G$ the [[invariants]]-functor may be decomposed as a [[composition]] of the functor that forms $K$-invariants with that which forms $(G/K)$-invariants for the [[quotient group]]. This decomposition gives rise to a [[Grothendieck spectral sequence]] for the group cohomology. This is called the _[[Hichschild-Serre spectral sequence]]_.
+
+=--
 
 
 ## Special aspects and special cases
