@@ -151,6 +151,11 @@ The converse inclusion is now immediate by the same arguments: since the objects
 
 =--
 
+## Related concepts
+
+* [[atom]] (in a [[poset]])
+
+* [[atomic category]]
 
 
 ## References
@@ -172,3 +177,6 @@ Tiny objects in presheaf categories ([[Cauchy complete categories|Cauchy complet
 
 [[!redirects tiny objects]]
 [[!redirects tiny]]
+
+[[!redirects atomic object]]
+[[!redirects atomic objects]]
