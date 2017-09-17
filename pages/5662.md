@@ -5,3 +5,6 @@ MathOverflow: [why-is-the-laplacian-ubiquitous](http://mathoverflow.net/question
 
 [[!redirects Laplacian]]
 [[!redirects Laplace operators]]
+
+[[!redirects Laplace-Beltrami operator]]
+[[!redirects Laplace-Beltrami operators]]
