@@ -47,19 +47,30 @@ auto inserted DBE div
 
 <div class='DBE' markdown='1'
  json='{"id":"NEW","type":"Category","page":"[Rod McGuire]"}'>
- <div><span>{"id":"NEW","type":"Category","page":"[Rod McGuire]"}</span></div>
+ <div><span>{"id":"NEW","type":"Category","page":"[[Rod McGuire]]"}</span></div>
  <div markdown='1'><span>$NEW$ Category</span></div>
- <table><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[Rod McGuire]</td></tr></table>
+ <table><tr><td>id</td><td>NEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
  <span class='DBE'/>
 </div>
 
 and another one
 
 <div class='DBE' markdown='1'
- json='{"id":"NEWNEW","type":"Category","page":"[Rod McGuire]"}'>
+ json='{"id":"NEWNEW","type":"Category","page":"[[Rod McGuire]]"}'>
  <div markdown='1'>$NEWNEW$ Category</div>
- <table markdown='1'><tr><td>id</td><td>NEWNEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[Rod McGuire]</td></tr></table>
+ <table markdown='1'><tr><td>id</td><td>NEWNEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
  <span class='DBE'/>
 </div>
+
+The above example without the DIV wrapper. Internal DIV 1:
+
+<div markdown='1'>$NEWNEW$ Category</div>
+
+Internal TABLE 1:
+<table markdown='1'><tr><td>id</td><td>NEWNEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
+
+A test to see if LaTex can appear in an internal link:
+
+Try[[Rod McGuire|$Set_*$]] here.
 
 category: people
