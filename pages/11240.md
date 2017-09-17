@@ -17,7 +17,16 @@
 
 A concept of [[computation]] assuming computable operations more powerful than in traditional [[computability]] (more powerful that [[partial recursive functions]] and [[computable function (analysis)|computable functions in computable analysis]]).
 
+## Related concepts
+
+* [[Church-Turing thesis]]
+
+* [[computable physics]]
+
 ## References
 
 * Wikipedia, _[Hypercomputation](http://en.wikipedia.org/wiki/Hypercomputation)_
 
+* Stanford Encyclopedia of Philosophy, section 4.3 of _[Computation in Physical Systems](http://plato.stanford.edu/entries/computation-physicalsystems/#EvePhySysCom)_
+
+[[!redirects hypercomputations]]
