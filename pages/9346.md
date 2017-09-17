@@ -61,7 +61,7 @@ Therefore if the qualification "perturbative"/"non-perturbative" is suppresed, t
 
 String theory makes predictions much as [[quantum field theory]] does, too: the theory predicts observables once a [[model (physics)|model]] has been chosen.
 
-Most every [[theory (physics)|theory]] and [[model (in theoretical physics)|model]] in [[physics]] has parameters and makes predictions only after sufficiently many parameters have been fixed by measuring them in experiment. 
+Most every [[theory (physics)|theory]] and [[model (in theoretical physics)|model]] in [[physics]] has parameters and makes predictions only after sufficiently many parameters have been fixed (i.e., specified) by measuring them in experiment. 
 
 For instance Newton's theory of [[gravity]] says that the gravitational [[force]] of a pointlike [[mass]] is proportional to the inverse square of the distance from that mass. This is the theory, the proportionality factor (now called [[gravitational constant|Newton's constant]]) is the free parameter that has to be fixed by experiment. 
 
@@ -99,21 +99,21 @@ This model cannot be predicted by the theory of Einstein-gravity. It is one of m
 
 This is the general pattern of **how predictions are made in physical theories**:
 
-1. fix a [[theory (physics)|theory]];
+1. posit a [[theory (physics)|theory]];
 
-1. fix some of the parameters of the theory -- "build a [[model (physics)|model]]"
+1. fix (specify) some of the parameters of the theory -- "build a [[model (physics)|model]]"
 
 1. check what the theory demands for the remaining parameters -- these are the _predictions_ of that model in that theory;
 
 1. if experiment disagrees with the predictions then
 
-   1. see if this can be fixed by modifying the model a little, hence by varying some of the originally fixed parameters;
+   1. see if this can be repaired by modifying the model a little, hence by varying some of the originally fixed parameters;
 
    1. if this is impossible or gets to be too complicated to the degree of feeling "unnatural", then either look for an entirely different model or, if all fails, modify or eventually abandon the theory and find a new one. Then repeat.
 
-That this model building process is a matter of trial and error is well witnessed for instance by the early history of cosmology. Right after Einstein had found general relativity and the [[Einstein equations]], he tried the cosmological model with non-vanishing [[cosmological constant]], because back then he thought that would fit observation. A little later observation suggested that there is no cosmological constant, and the constant was set to zero again. Einstein spoke of his "biggest blunder". But a few decades later, new observation shows that it is small but non-vanishing after all, and these days we put it back into our "standard model".
+That this model building process is a matter of trial and error is well witnessed for instance by the early history of cosmology. Right after Einstein had found general relativity and the [[Einstein equations]], he tried the cosmological model with non-vanishing [[cosmological constant]], because back then he thought that would fit observation. Some later observations suggested that there is no cosmological constant, and the constant was set to zero again. Einstein, referring to his original cosmological model, spoke of his "biggest blunder". But a few decades later, new observations show that the cosmological constant is small but non-vanishing after all, and these days we put it back into our "standard model".
 
-Clearly the theory does not help us predict this, otherwise there would be no reason for this process of trial and error. On the other hand, once we do fix these global parameters, the theory does predict plenty of further observations in the model, which can and have been checked.
+Clearly the theory does not help us predict this, otherwise there would be no reason for this repeated process of trial and error. On the other hand, once we do fix these global parameters, the theory does predict plenty of further observations in the model, which can and have been checked.
 
 But curiously, the modern version of the [[standard model of cosmology]] with its [[cosmological constant]] ("dark energy") and [[dark matter]] component, asserts that the vast majority of all constituents of the [[observable universe]] are in fact unobservable, except for their gravitational effect. This means: the parameters of the model can be made to fit observation, but only with the rather noteworthy consequence that the model now models something which to a large extent is not what it set out to model.
 
