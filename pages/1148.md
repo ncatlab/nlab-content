@@ -249,15 +249,15 @@ $$
 
 ## Related concepts
 
-* [[sheaf]]
+* [[sheaf]], [[cohomology]]
 
 * **abelian sheaf cohomology**
 
-  * [[soft sheaf]]
+  * [[model structure on chain complexes]]
 
-  * [[fine sheaf]]
+  * [[resolutions]]: [[soft sheaf]], [[fine sheaf]], [[flabby sheaf]]
 
-  * [[flabby sheaf]]
+  * [[Verdier duality]]
 
 
 ##References##
