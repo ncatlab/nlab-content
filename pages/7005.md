@@ -313,9 +313,12 @@ A study of the semantic side of univalence in [[(infinity,1)-toposes]], as well 
 
 * [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
-This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
+This does not yet show that the univalence axiom in its usual form holds in the internal type theory of [[(infinity,1)-toposes]], however, due to the lack of a (known) sufficiently strict model for the object classifier.  (But it works with Tarskian [[type universes]], see there). Constructions of such a model in some very special cases are in [Shulman12](#Shulman12) above, and also in
 
 * [[Michael Shulman]], _The univalence axiom for elegant Reedy presheaves_, [arXiv:1307.6248](http://arxiv.org/abs/1203.3253).
+
+* {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
+
 
 For more references see _[[homotopy type theory]]_.
 
