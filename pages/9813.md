@@ -55,11 +55,22 @@ $$
 
 (e.g [Mazza-Voevodsky-Weibel, prop. 20.1](#MazzaVoevodskyWeibel))
 
+### Relation to noncommutative Chow motives
+
+The relation between Chow motives and [[noncommutative Chow motives]] is recalled as theorem 4.6 in ([Tabuada 11](#Tabuada11)).
+
+
 ### Relation to KK-theory
 
 The definition of Chow motives in algebraic geometry is somewhat analogous to the construction of [[KK-theory]] in [[noncommutative topology]]. See at _[KK-theory -- Relation to motives](http://ncatlab.org/nlab/show/KK-theory#AsAnAnalogOfMotives)_.
 
 ## Related concepts
+
+* [[pure motive]]
+
+  * **Chow motive**
+
+  * [[numerical motive]]
 
 * [[motivic cohomology]]
 
@@ -76,6 +87,11 @@ See also
 
 * [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
  {#MazzaVoevodskyWeibel}
+
+A review of [[noncommutative Chow motives]] is in section 4 of 
+
+* [[Goncalo Tabuada]], _A guided tour through the garden of noncommutative motives_, ([arxiv1108.3787](http://arxiv.org/abs/1108.3787));
+ {#Tabuada11} 
 
 
 [[!redirects Chow motives]]
