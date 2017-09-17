@@ -27,7 +27,7 @@ A function $f$ between [[convergence spaces]] is __continuous__ if for any filte
 A __continuous map__ between [[locales]] is simply a [[frame]] [[homomorphism]] in the opposite direction.
 
 
-## Types of continuous maps
+## Properties
 
 Since continuity is defined in terms of *preservation of property* (namely preserving "openness" under preimages), it is natural to ask what other properties they preserve.  
 Also, when a property is not always preserved it is useful to label those maps which do preserve it for closer study.
@@ -45,7 +45,7 @@ Also, when a property is not always preserved it is useful to label those maps w
 
 1. The preimage of a compact set need not be compact; a continuous map for which this is true is known as a __[[proper map]]__.
 
-2. The image of an open set need not be open; a continuous map for which this is true is said to be an __[[open map]]__.  (Technically, an open map is any function with just this property.)
+2. The image of an open set need not be open; a continuous map for which this is true is said to be an __[[open map]]__.  (Technically, an open map is any [[function]] with just this property.)
 
 3. The image of an closed set need not be closed; a continuous map for which this is true is said to be an __[[closed map]]__.  (Technically, a closed map is any function with just this property.)
 
@@ -56,16 +56,18 @@ Also, when a property is not always preserved it is useful to label those maps w
 
 Although these don't make sense for arbitrary topological spaces (convergence spaces, locales, etc), they are special kinds of continuous maps in contexts such as [[metric spaces]]:
 
-* [[uniformly continuous map]]
-* [[Hoelder map]]
-* [[Lipschitz map]]
-* [[short map]]
+* [[uniformly continuous maps]],
+* [[Hoelder map]]s,
+* [[Lipschitz map]]s,
+* [[short maps]],
+* [[differentiable maps]],
+* [[smooth maps]].
+
 
 ## Related concepts
 
 * [[degree of a continuous function]]
 
-* [[differentiable function]], [[smooth function]]
 
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
