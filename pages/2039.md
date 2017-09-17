@@ -22,24 +22,74 @@
 
 ## Idea
 
-The immediate notion of  [[cohomology]] of [[topological spaces]] which are equipped with a $G$-[[action]] for some [[topological group]] $G$ (often: "[[G-spaces]]", for short) is the ordinary [[equivariant cohomology]] 
-$H^*_G(X) \coloneqq H^\bullet(X//G)$ of the [[Borel construction]]/[[homotopy quotient]] of $X$ by $G$. 
+What is called _Bredon cohomology_ after ([Bredon 67](#Bredon67)) is the flavor of $G$-[[equivariant cohomology]] which uses the "fine" [[equivariant homotopy theory]] of [[topological G-spaces]] that by [[Elmendorf's theorem]] is equivalent to the [[homotopy theory]] of [[(∞,1)-presheaves]] over $G$-[[orbit category]], insteadof  the "coarse" [[Borel model structure|Borel homotopy theory]]. See at _[Equivariant cohomology -- Idea](equivariant%20cohomology#Idea)_ for more motivation.
 
-In contrast to this, _Bredon cohomology_ is another notion of cohomology of $G$-spaces, defined via the [[orbit category]] $Orb_G$ of $G$: its [[coefficients]] are [[presheaves]] (of [[abelian groups]]) on the [[orbit category]]. 
+For more technical details see there _[equivariant cohomology -- Bredon equivariant cohomology](equivariant+cohomology#Bredon)_.
 
-Hence where ordinary cohomology has as coefficient objects abelian groups, Bredon cohomology has as coefficients [[functors]] 
+## Definition
+ {#Definition}
+
+Let $G$ be a [[compact Lie group]], write $orb_G$ for its [[orbit category]] and write $PSh_\infty(Orb_G)$ for the [[(∞,1)-category of (∞,1)-presheaves]] over $Orb_G$. By [[Elmendorf's theorem]] this is [[equivalence of (∞,1)-categories|equivalent]] to the [[homotopy theory]] of [[topological G-spaces]] with weak equivalences the $H$-[[fixed point]]-wise [[weak homotopy equivalences]] for all closed subgroups $H$ ("the [[equivariant homotopy theory]]"):
 
 $$
-  Orb_G^{op} \to Ab
+  \mathbf{H}_{/\mathbf{B}G} \coloneqq  L_{fpwe} G Top \simeq PSh_\infty(Orb_G)
+  \,.
 $$
 
-from the [[orbit category]] of $G$ into [[Ab]].
+A [[spectrum object]] $E \in Stab(\mathbf{H}_{/\mathbf{B}G})$ in the [[(∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is what is called a [[spectrum with G-action]] or, for better or worse, a "[[naive G-spectrum]]".
 
-This may be understood as a presentation of general [[equivariant cohomology]] in view of [[Elmendorf's theorem]]:
+For $X$ a [[G-space]], then its [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$with [[coefficients]] in such $A$ might be called _generalized Bredon cohomology_ (in the "generalized" sense of [[generalized (Eilenberg-Steenrod) cohomology]]).
 
-[[!include equivariant cohomology -- table]]
+Specifically for $n \in \mathbb{N}$ and $A \in Ab(Sh(Orb_G))$ an [[abelian sheaf]] then there is an [[Eilenberg-MacLane object]]
 
-For more technical details see there the section [Bredon equivariant cohomology](equivariant+cohomology#Bredon).
+$$
+  K(n,A) \in \mathbf{H}_{\mathbf{B}G}
+$$
+
+whose [[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups]] are concentrated in degree $n$ on $A$.
+
+Then _ordinary Bredon cohomology_ (in the "ordinary" sense of [[ordinary cohomology]]) in degree $n$ with [[coefficients]] in $A$ is cohomology in $\mathbf{H}_{/\mathbf{B}G}$ with coefficients in $K(n,A)$:
+
+$$
+  H_G^n(X,A) \simeq \pi_0 \mathbf{H}_{/\mathbf{B}G}(X,A)
+$$
+
+(see the general discussion at _[[cohomology]]_).
+
+If here $X$ is presented by a [[G-CW complex]] and hence is cofibrant in the [[model category]] structure that presents the [[equivariant homotopy theory]] (see at _[[Elmendorf's theorem]]_ for details), then the [[derived hom space]] on the right above is equivalently given by the ordinary $G$-[[fixed points]] of the ordinary [[mapping space]] of the [[topological space]] underlying the [[G-spaces]].
+
+$$
+  H_G^n(X,A) \simeq \pi_0 [X,A]_G
+  \,.
+$$
+
+In this form ordinary Bredon cohomology appears for instance in ([Greenlees-May, p. 10](#GreenleesMay)).
+
+But what ([Bredon 67](#Bredon67)) _really_ wrote down is a [[chain complex]]-model for this: regarding $X$ again as a presheaf on the [[orbit category]], define a presheaf of chain complexes
+
+$$
+  C_\bullet(X) \;\colon\; Orb_G^{op}\longrightarrow Ch_\bullet 
+$$
+
+by 
+
+$$
+  C_n(X)(G/H) \coloneqq H_n((X^n)^H, (X^{n-1})^H, \mathbb{Z})
+  \,,
+$$
+
+where on the right we have the [[relative homology]] of the [[CW complex]] decomposition underlying the [[G-CW complex]] $X$ in degrees as indicated. The [[differential]] on these chain complexes is defined in the obvious way (...).
+
+Then one has an expression for _ordinary Bredon cohomology_  similar to that of [[singular cohomology]] as follows:
+
+$$
+  H_G^n(X,A) \simeq H_n(Hom_{Orb_G}(C_\bullet(X,)A))
+  \,.
+$$
+
+(due to [Bredon 67](#Bredon67), see e.g. ([Greenlees-May, p. 9](#GreenleesMay))).
+
+More generally there is $RO(G)$-graded [[equivariant cohomology]] with [[coefficients]] in [[genuine G-spectra]]. This is _also_ sometimes still referred to as "Bredon cohomology". For more on this see at _[equivariant cohomology -- Bredon cohonology](equivariant%20cohomology#Bredon)_.
 
 
 ## Related concepts
@@ -52,7 +102,7 @@ For more technical details see there the section [Bredon equivariant cohomology]
 
 * [[global equivariant stable homotopy theory]]
 
-
+[[!include equivariant cohomology -- table]]
 
 ## References
 
