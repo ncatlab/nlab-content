@@ -23,6 +23,10 @@ In [[theories of physics]] described by [[action functionals]] the _interaction_
 
 [[!include action (physics) - table]]
 
+[[!redirects interactions]]
+
 [[!redirects interaction term]]
 [[!redirects interaction terms]]
+
+
 
