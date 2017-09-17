@@ -23,4 +23,8 @@
   * [[semisimple Lie algebra]]
 
 
+## References
+
+* {#Knapp97} A. W. Knapp, _Structure theory of semisimple Lie groups_, 1997 ([pdf](http://www.math.sunysb.edu/~aknapp/pdf-files/1-27.pdf))
+
 [[!redirects semisimple Lie groups]]
