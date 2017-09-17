@@ -88,6 +88,8 @@ There are vrious extra properties of a geometric moprhisms that are relevant.
 
 * [[cohesive topos|cohesive morphism]]
 
+* [[atomic geometric morphism]]
+
 The following subsections describe some more.
 
 ### Surjections and embeddings
@@ -324,15 +326,42 @@ $$
 
 =--
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 The points $x \in X$ of the topological space $X$ are in canonical bijection with the points of $Sh(X)$ in the sense of [[point of a topos]].
 
 =--
 
+## Properties
+
+### Relation to logical morphisms
+
+
++-- {: .num_prop}
+###### Proposition
+
+Every geometric morphism whose [[direct image]] is a [[logical morphism]] is an [[equivalence of categories|equivalence]].
+
+=--
+
+This is a restatement of <a href="http://nlab.mathforge.org/nlab/show/logical+functor#LogicalMorphismsRightAdjointToCartesianFunctors">this proposition</a> at [[logical morphism]]. See there for a proof.
+
+But [[inverse images]] can be nontrivial logical morphisms:
+
++-- {: .num_prop}
+###### Proposition
+
+* The [[inverse image]] of an [[etale geometric morphism]] is a [[logical morphism]].
+
+=--
+
+Generally, a geometric morphism with logical inverse image is called an 
+[[atomic geometric morphism]]. See there for more details.
 
 ## Related concepts
+
+* [[logical morphism]]
 
 * **geometric morphism**
 
