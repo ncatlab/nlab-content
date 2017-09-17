@@ -10,15 +10,7 @@
 =--
 =--
 
-* [[group]]
 
-* [[2-group]]
-
-* [[n-group]]
-
-* **$\infty$-group**
-
-***
 
 #Contents#
 * table of contents
@@ -34,6 +26,17 @@ Equivalently (by the [[delooping hypothesis]]) it is a [[pointed object|pointed]
 Under the [[homotopy hypothesis|identification]] of [[∞Grpd]] with [[Top]] this is known as an $A_\infty$-[[A-infinity-space|space]], for instance.
 
 An **$\infty$-Lie group** is accordingly a group object in [[∞-Lie groupoid]]s. And so on.
+
+## Related concepts
+
+* [[group]]
+
+* [[2-group]]
+
+* [[n-group]]
+
+* **$\infty$-group**
+
 
 ## Properties
 
