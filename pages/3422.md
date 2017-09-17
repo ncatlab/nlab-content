@@ -83,15 +83,15 @@ In the next section we discuss how this statement is presented in terms of [[mod
 
 ### Model category presentation {#GrpdModelCatVersion}
 
+We discuss a [[presentable (∞,1)-category|presentation]] of the $(\infty,0)$-Grothendieck construction by a [[simplicial Quillen adjunction]] between [[simplicial model categories]]. ([[Higher Topos Theory|HTT, section 2.2.1]]).
 
-+-- {: .un_def}
++-- {: .un_def #UnmarkedStraighteningFunctor}
 ###### Definition 
 **(extracting a simplicial presheaf from a fibration)**
-([[Higher Topos Theory|HTT, section 2.2.1]])
 
 Let 
 
-* $S$ be a [[simplicial set]], $tau_hc(S)$ the corresponding [[SSet-category]] (under the [[left adjoint]] $\tau_{hc} : SSet \to SSet Cat$ of the [[homotopy coherent nerve]]);
+* $S$ be a [[simplicial set]], $\tau_hc(S)$ the corresponding [[SSet-category]] (under the [[left adjoint]] $\tau_{hc} : SSet \to SSet Cat$ of the [[homotopy coherent nerve]], denoted $\mathfrak{C}$ in [[Higher Topos Theory|HTT]]);
 
 * $C$ an [[SSet-category]];
 
@@ -127,16 +127,8 @@ $$
   \,.  
 $$
 
-This functor has a [[right adjoint]]
-
-$$
-  Un_\phi : [C^{op}, sSet] \to sSet/S
-  \,,
-$$
-
-that takes a [[simplicial presheaf]] on $C$ to a simplicial set over $S$ -- this is the **unstraightening functor**.
-
 =--
+
 
 +-- {: .un_example}
 ###### Example 
@@ -188,6 +180,159 @@ More on this is at [[Grothendieck construction]] in the section of adjoints to t
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+With the definitions [as above](#UnmarkedStraighteningFunctor), let $\pi : C \to C'$ be an [[sSet]]-[[enriched functor]] between [[sSet-categories]]. Write
+
+$$
+  \pi_! : [C^{op}, sSet] \to [{C'}^{op}, sSet] 
+$$
+
+for the left [[sSet]]-[[Kan extension]] along $\pi$.
+
+There is a [[natural isomorphism]] of the straightening functor for the composite $\pi \circ \phi$ and the original straightening functor for $\phi$ followed by left [[Kan extension]] along $\pi$:
+
+$$
+  St_{\pi \circ \phi} \simeq \pi_! \circ St_\phi
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 2.2.1.1.]]. The following proof has kindly been spelled out by [[Harry Gindi]].
+
++-- {: .proof}
+###### Proof
+
+We unwind what the [[sSet-categories]] with a single object adjoined to them look like:
+
+let 
+
+$$
+  F : C^{op} \to sSet
+$$
+
+be an [[sSet]]-[[enriched functor]]. Define from this a new [[sSet-category]] $C_F$ by setting
+
+* $Obj(C_F) = Obj(C) \coprod \{\nu\}$
+
+* $C_F(c,d) = \left\{
+    \array{
+      C(c,d) & for c,d \in Obj(C)
+      \\
+      F(c) & for c \in Obj(c) and d = \nu
+      \\
+      \emptyset & for c = \nu and d \in Obj(C)
+      \\
+      * & for c = d = \nu
+    }
+  \right.$
+
+The composition operation is that induced from the composition in $C$ and the enriched functoriality of $F$.
+
+Observe that the [[sSet-category]]
+$K(\phi,p)$ appearing in the [definition of the straightening functor](#UnmarkedStraighteningFunctor)  is
+
+$$
+  K(\phi,p) \simeq C_{St_\phi(X)}
+$$
+
+(because $K(\phi,p)$ is $C$ with a single object $\nu$ and some morphisms to $\nu$ adjoined, such that there are no non-degenerate morphisms originating at $\nu$, we have that $K(\phi,p)$ is of form $C_F$ for some $F$; and $St_\phi(X)$ is that $F$ by definition).
+
+To prove the proposition, we need to compute the pushout
+
+$$
+  \array{
+    \tau_{hc}(X) &\to& \tau_{hc}(X^{\triangleright})
+    \\
+    \downarrow && \downarrow
+    \\
+    C &\to& K(\phi,p) = C_{St_\phi(X)} 
+    \\
+   {}^{\mathllap{\pi}}\downarrow && \downarrow
+   \\
+   C' &\to& Q 
+  }
+$$
+
+and show that indeed $Q \simeq C'_{\pi_! St_\phi(X)}$.
+
+
+Using the pasting law for [[pushout]]s (see [[pullback]]) we just have to compute the lower square pushout. Here the statement is a special case of the following statement: for every [[sSet-category]] of the form $C_F$, the pushout of the canonical inclusion $C\to C_F$ along any $sSet$-functor $\pi : C \to C'$ is $C'_{\pi_! F}$.
+
+This follows by inspection of what a cocone
+
+$$
+  \array{
+     C &\stackrel{\iota}{\to}& C_F
+     \\
+     {}^{\mathllap{\pi}}\downarrow && \downarrow^{\mathrlap{d}}
+     \\
+     C' &\underset{r}{\to}& Q 
+  }
+$$
+
+is like: by the nature of $C_F$ the functor $d$ is characterized by a functor $d|_C : C \to Q$, an object $d(\nu) \in Q$ together with a [[natural transformation]] 
+
+$$
+  F(c) \to  Q(d|_C(c), d(\nu))
+$$
+
+being the component $F_{c,\nu} : C_F(c,\nu) \to Q(d(c), d(\nu))$ of the $sSet$-functor.
+
+We may write this natural transformation as
+
+$$
+  F \to (d|_C)^* Q(-,d(\nu)) = \iota^* d^* \nu Q(-,d(\nu))
+  \,,
+$$
+
+where $d^*$ etc. means precomposition with the functor $d$.
+
+By commutativity of the diagram this is
+
+$$
+  \cdots \simeq \pi^* r^* Q(-,d(\nu))
+  \,.
+$$
+
+Now by the definition of left [[Kan extension]] $\pi_!$ as the [[left adjoint]] to prescomposition with a functor, this is bijectively a transformation
+
+$$
+  \eta : \pi_! F \to r^* Q(-,d(\nu))
+  \,.
+$$
+
+Using this we see that we may find a universal cocone by setting 
+$Q := C'_{\pi_! F}$ with $r : C' \to Q$ the canonical inclusion and
+$C_{F} \to C'_{\pi_! F}$ given by $\pi$ on the restriction to $C$ and by the [[unit of an adjunction|unit]] $F \to \pi^* \pi_! F$ on $C_F(c,\nu)$. For this the [[adjunct]] transformation $\eta$ is the identity, which makes
+this universal among all cocones.
+
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+This functor has a [[right adjoint]]
+
+$$
+  Un_\phi : [C^{op}, sSet] \to sSet/S
+  \,,
+$$
+
+that takes a [[simplicial presheaf]] on $C$ to a simplicial set over $S$ -- this is the **unstraightening functor**.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks that $St_\phi$ preserves [[colimit]]s. The claim then 
+follows with the [[adjoint functor theorem]].
+
+=--
 
 
 +-- {: .un_theorem}
@@ -205,22 +350,18 @@ $$
 
 between the [[model structure for right fibrations]] and the global projective [[model structure on simplicial presheaves]] on $S$.
 
-If $\phi$ is an equivalence in the [[model structure on simplicial categories]] then this Quillen adjunction is a [[Quillen equivalence]].
+If $\phi$ is a weak equivalence in the [[model structure on simplicial categories]] then this Quillen adjunction is a [[Quillen equivalence]].
 
 =--
-
-+-- {: .proof}
-###### Proof
 
 This is [[Higher Topos Theory|HTT, theorem 2.2.1.2]].
 
-=--
 
-This models the Grothendieck construction for $\infty$-groupoids in the following way:
+This models the Grothendieck construction for [[∞-groupoid]]s in the following way:
 
 * the [[presentable (∞,1)-category|(∞,1)-category presented by]] $sSet/S$ is $RFib(S)$
  
-  (HTT, lemma 2.2.3.9)
+  ([[Higher Topos Theory|HTT, lemma 2.2.3.9]])
 
 * the [[presentable (∞,1)-category|(∞,1)-category presented by]]
   the global [[model structure on simplicial presheaves]] 
