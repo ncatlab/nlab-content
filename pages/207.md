@@ -2,12 +2,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
 #### Foundations
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
+
+
 
 # Contents
 * table of contents
@@ -90,7 +96,7 @@ By contrast, in a [[definitional set theory]], an equality relation is *structur
 
 ## Related concepts
 
-* **equality**
+* **equality**, [[equation]]
 
 * [[isomorphism]]
 
