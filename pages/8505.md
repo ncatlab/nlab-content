@@ -9,19 +9,25 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
+
+In [[logic]], a __deduction__ or __derivation__ is a part of a [[proof]], drawing a conclusion from certain [[premise]]s.  See:
 
 * [[natural deduction]]
 
 * [[sequent]]
 
+
 ## Related concepts
+
+* [[deductive reasoning]]
 
 * [[induction]]
 
-[[!redirects deductions]]
 
+[[!redirects deduction]]
+[[!redirects deductions]]
