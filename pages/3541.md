@@ -32,6 +32,18 @@ Such a map is then called a _quantum operation_. The notion of a quantum operati
 
 ## Definition
 
+We first give the traditional definition in terms of [[linear algebra]] and [[matices]] in 
+
+* [In terms of matrices](#InTermsOfMatrices)
+
+Then we consider the general abstract formulation 
+
+* [In terms of compact closed categories](#InTermsOfCompactClosedCategories)
+
+
+### In terms of matrices
+ {#InTermsOfMatrices}
+
 Let $k,n \in \mathbb{N}$.
 
 A matrix $A \in Mat(n \times n, \mathbb{C})$ is called _positive_ if it is hermitian -- if $A^\dagger = A$ -- and if all its eigenvalues (which then are necessarily real) are non-negative.
@@ -58,6 +70,15 @@ $$
 
 is positive.
 
+### In terms of compact closed categories
+ {#InTermsOfCompactClosedCategories}
+
+... due to ([Selinger 05](#Selinger)) ... see for instance ([Coecke-Heunen 11, section 2](#CoeckeHeunen11)) for a quick summary ...
+
+## Properties
+
+
+### Characterization of complete positivity
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -78,7 +99,7 @@ $$
 
 =--
 
-This is originally due to ([Choi, theorem 1](#Choi)). A proof in terms of [[dagger category|†-categories]] is given in ([Selinger](#Selinger)). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in ([Coecke](#Coecke)).
+This is originally due to ([Choi, theorem 1](#Choi)). A proof in terms of [[dagger category|†-categories]] is given in ([Selinger 05](#Selinger05)). A characterization of completely positive maps entirely in terms of $\dagger$-categories is given in ([Coecke](#Coecke)).
 
 The matrices $\{E_i\}$ that are associated to a completely positive and trace-preserving map by the above theorem are called **Kraus operators**.
 
@@ -138,7 +159,7 @@ The description of completely positive maps in terms of [[dagger-categories]] (s
 
 * [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_, Electronic Notes in Theoretical Computer
 Science (special issue: Proceedings of the 3rd International Workshop on Quantum Programming Languages). 2005 ([[SelingerPositiveMaps.pdf:file]], [ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps))
- {#Selinger}
+ {#Selinger05}
 
 * [[Bob Coecke]], _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
  {#Coecke}
