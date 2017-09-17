@@ -3,9 +3,9 @@ category: physics
 ****
 _This is a stub._
 
-#Contents
+#Contents#
+* automatic table of contents goes here
 {:toc}
-
 
 ## Idea
 
