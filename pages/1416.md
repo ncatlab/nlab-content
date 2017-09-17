@@ -144,6 +144,7 @@ If $F\colon C\to E$ is internally flat, then it preserves all finite limits that
 
 
 ### Site-valued functors
+ {#SiteValuedFunctors}
 
 Finally, we can give the most general definition, due to [Karazeris](#Karazeris)
 
