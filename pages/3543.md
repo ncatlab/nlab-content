@@ -40,7 +40,7 @@ A **rationalization** of a [[simply connected space|simply connected]] [[topolog
 
 ### Rationalization as a localization of $Top$/$\infty Grpd$
 
-In [[rational homotopy theory]] one consier 
+In [[rational homotopy theory]] one considers
 the [[Quillen adjunction]]
 
 $$
@@ -59,17 +59,18 @@ $$
   \,.
 $$
 
-Intrinsically this _should_ model something like the [[localization of an (∞,1)-category]] of [[∞Grpd]] at those morphisms that are [[rational homotopy equivalence]]s.
+Intrinsically this should model something like the (partially) left exact [[localization of an (∞,1)-category]] of [[∞Grpd]] at those morphisms that are [[rational homotopy equivalence]]s.
 
 $$
-  \infty Grpd_{rat} \stackrel{\leftarrow}{\hookrightarrow} 
+  \infty Grpd_{ratio} \stackrel{\leftarrow}{\hookrightarrow} 
   \infty Grpd
   \,.
 $$
 
-(see the discussion at Properties below)
+Below we review classical results that says that the left [[adjoint (infinity,1)-functor]] here indeed preserves at least [[homotopy pullback]]s.
 
-...
+More generally, a setup by [[Bertrand Toen]] serves to provide a more comprehensive description of this situtation: see [[rational homotopy theory in an (infinity,1)-topos]].
+
 
 ## Properties {#Properties}
 
