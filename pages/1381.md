@@ -1,13 +1,21 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-***
-[[!include higher algebra - contents]]
-</div>
+=--
+=--
+=--
 
 
-# Symmetric monoidal $(\infty,1)$-categories
-* tic
+# Symmetric monoidal $(\infty,1)$-category
+* table of contents
 {: toc}
 
 
@@ -65,18 +73,27 @@ There is a functor $\varphi : \Delta^{op} \to FinSet_*$ such that the [[monoidal
 =--
 
 
-##Examples#
+## Examples
 
 * [[stable (infinity,1)-category of spectra]]
 
 * [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
 
-##References#
+## Related concepts
+
+* [[monoidal category]], [[monoidal (∞,1)-category]]
+
+* [[symmetric monoidal category]], **symmetric monoidal $(\infty,1)$-category**
+
+* [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
+
+
+## References
 
 The defintion of symmetric monoidal quasi-category is definition 1.2 in 
 
-* [[Jacob Lurie]], [[higher algebra|Commutative algebra]]
+* [[Jacob Lurie]], _[[higher algebra|Commutative algebra]]_
 
 
 [[!redirects symmetric monoidal (infinity,1)-categories]]
