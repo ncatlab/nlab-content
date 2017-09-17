@@ -7,7 +7,9 @@
 
   [[weak equivalence of internal categories]]
 
-* [[internal profunctor]]
+* [[internal functor]], [[internal profunctor]]
+
+* [[internal diagram]], [[internal presheaf]]
 
 ## In a [[(2,1)-category]]
 
