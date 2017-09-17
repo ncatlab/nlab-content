@@ -1,0 +1,88 @@
+## p-torsion of abelian groups
+
+Since any abelian group $G$ is a $\mathbb{Z}$-module we can form for any  $z\in \mathbb{N}$ the set
+
+$$G[z]:=\{z|z\in G,  zg=0\}$$
+
+Of particular interest in this article are those cases where $z=p^n$ for a [[nLab:prime number]] $p$ and a natural number $n$.
+
+There are two important constructions to perform with these $G[p^n]$ namely taking limits and colimits:
+
+$$S_p(G):=colim_n G[p^n]$$
+
+and
+
+$$T_p(G):=lim G[p^n]$$
+
+
+
+Here $S_p(G)$ sometimes is called *$p$-[[nLab:torsion]] subgroup*; if $G$ is finite $S_p(G)$ is also called *[[Sylow p-subgroup]] of $G$*.
+
+$T_p(G)$ is called [[nLab:Tate module|p-adic Tate module]] of $G$.
+
+Note that sometimes by "the Tate module" is meant a specific example of a Tate module. This example is mentioned below.
+
+## p-torsion of fields
+
+$G[p]$ is obviously the kernel of the [[nLab:Frobenius]] endomorphism of $G$:
+
+$$G[p]=(ker\, (g\mapsto g^n))$$
+
+In this form we can extend the Frobenius and hence this notion of $p$-torsion from abelian groups to fields if we require our field to be of characteristic $p$ such that we have $(a+b)^n=a^n+b^n$.
+
+In fact the definition of $p$-torsion via the Frobenius has the advantage that we get additionally an adjoint notion to $p$-torsion which is sometimes called *Verschiebung*; this is explained at [[nLab:Demazure, lectures on p-divisible groups, I.9, the Frobenius morphism
+]].
+
+## p-torsion of schemes
+
+If $X$ denotes some [[nLab:scheme]] over a $k$-ring for $k$ being a field of characteristic $p$, we define its $p$-torsion component-wise by $X^{(p)}(R):=X(R^{(p)})$.
+
+## p-torsion of group schemes
+
+
++-- {: .num_example}
+###### Example
+(*the* $p$-adic [[nLab:Tate module]])
+
+Let $G$ be a commutative group scheme over a field $k$ with separable closure $k^{sep}$.
+
+Then $T_p(G(k^{sep}))$ is called *the $p$-adic Tate module of $G$*.
+=--
+
+This Tate module enters the [[Tate conjecture]].
+
+If $G$ is an abelian variety $T_p(G(k^{sep}))$ is equivalently the first homology group of $G$.
+
+## p-divisible groups
+
+(main article: [[nLab:p-divisible group]])
+
+Sometimes the information encoded in the colimit $T_p(G)=colim_n G[p^n]$ (we passed a contravariant functor from rings to schemes) is considered to be not sufficient and one wants more generally to study the codirected system
+
+$$0\to G[p]\stackrel{p}{\to}G[p^2]\stackrel{p}{\to}\dots \stackrel{p}{\to}G[p^{n}]\stackrel{p}{\to}G[p^{n+1}]\stackrel{p}{\to}\dots$$
+
+itself. This system is called *$p$-divisible group of $G$*. Here $p$ denotes the multiplication-with-$p$ map.
+
+We have
+
+(1) The $G[p^i]$ are finite group schemes.
+
+(2) The sequences of the form
+
+$$0\to ker\, p^j\xhookrightarrow{\iota_j} ker p^{j+k}\stackrel{p^j}{\to}ker p^k\to 0$$
+
+are exact.
+
+(3) $G=\cup_j ker\, p^j\cdot id_G$
+
+We have as cardinality (in group theory also called "rank") of the first item of the sequence $card \ker \,p=p^h$ for some natural number $h$. By pars pro toto we call $p^h$ also the rank of the whole sequence and $h$ we call its *height*.
+
+Conversely we can define a $p$-divisible group to be a codirected diagram
+
+$$G_1\stackrel{i_1}{\to}G_2\stackrel{i_2}{\to}\dots$$
+
+satisfying (1)(2)(3).
+
+## References
+
+* see the references at [[nLab:p-divisible group]], in particular the notes by Richard Pink.
