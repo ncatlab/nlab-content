@@ -21,9 +21,9 @@
 
 ## Idea
 
-The **elementary theory of the 2-category of categories**, or _ETCC_ for short, is the [[first order logic|first order]] [[theory|axiomatics]] proposed by [[William Lawvere|F.W. Lawvere]] in 1963 for a [[Cat|2-category of categories]] as a [[foundation of mathematics|foundation for mathematics]].
+The **elementary theory of the 2-category of categories**, or _ETCC_ for short, is the [[first order logic|first order]] [[theory|axiomatics]] proposed by [[William Lawvere|F.W. Lawvere]] in 1963 for describing the [[Cat|(2-)category of categories]], in view of a categorical [[foundation of mathematics|foundation for mathematics]].
 
-This may be thought of as refining or [[categorification|categorifying]] the _elementary theory of the category of sets_ ([[ETCS]]). Where the latter axiomatizes a [[base topos]], ETCS would be thought of as axiomatizing a base [[2-topos]].
+The set of axioms proposed could be thought of as a first step toward refining or [[categorification|categorifying]] the _elementary theory of the category of sets_ ([[ETCS]]). Where the latter axiomatizes a [[base topos]], a fully satisfactory future form of ETCC would axiomatize a base [[2-topos]].
 
 ## Related Pages
 
