@@ -93,7 +93,7 @@
 
   * [[differential 2-crossed module]]
 
-* [[dg-Lie algebra]]
+* [[dg-Lie algebra]], [[simplicial Lie algebra]]
 
 * [[super L-∞ algebra]]
 
