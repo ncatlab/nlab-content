@@ -1,0 +1,8 @@
+A **homotopy end** or **coend** is a [[homotopy limit]] corresponding to an [[end]] or coend.
+
+For now, see [[coend in a derivator]].
+
+[[!redirects homotopy coends]]
+[[!redirects homotopy end]]
+[[!redirects homotopy ends]]
+
