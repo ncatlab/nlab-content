@@ -34,16 +34,20 @@ Let $R$ be an [[A-∞ ring]]. Write $R Mod^{perf} \hookrightarrow R Mod$ for the
 
 ## Properties
 
-### Relation to compact objects
+### Relation to compact and dualizable objects
 
 +-- {: .num_prop}
 ###### Propositon
 
-Let $R$ be an [[A-∞ ring]]. The [[(∞,1)-category of ∞-modules]] $R Mod$ is a [[compactly generated (∞,1)-category]] and the [[compact object in an (∞,1)-category|compact objects]] coincide with the perfect modules, def. \ref{Modperf}.
+Let $R$ be an [[A-∞ ring]]. The [[(∞,1)-category of ∞-modules]] $R Mod$ is a [[compactly generated (∞,1)-category]] and the [[compact object in an (∞,1)-category|compact objects]] coincide with the perfect modules, def. \ref{Modperf}
+
+If $R$ is commutative ([[E-∞ ring|E-∞]]) then the perfect modules (and hence the compact objects) also coincide with the [[dualizable objects]].
 
 =--
 
-([[Higher Algebra|HA, prop. 8.2.5.2]])
+The first statement is ([[Higher Algebra|HA, prop. 8.2.5.2]]), the second ([[Higher Algebra|HA, prop. 8.2.5.4]]). For [[perfect chain complexes]] this also appears as ([BFN 08, lemma 3.5](#BFN08)).
+
+
 
 
 ## Examples
