@@ -58,6 +58,11 @@ with contradiction.
 
 =--
 
++-- {: .num_remark}
+###### Remark 
+The five lemma also holds in the category of groups, by essentially the same diagram-chasing proof. 
+=-- 
+
 ## Short split five lemma
 
 The special case of five lemma is a short five lemma where $A_1,B_1,A_5,B_5$ are all [[zero object]]s. It may hold in more general setups, sometimes with additional assumptions. 
@@ -77,6 +82,11 @@ where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]
 
 =--
 
++-- {: .num_remark}
+###### Remark 
+The short five lemma holds in the category of topological abelian groups, even though that category is not semi-abelian. For a proof, see this [paper](#BorClem) by Borceux and Clementino. 
+=--
+
 ## Related concepts
 
 * [[connecting homomorphism]]
@@ -89,7 +99,12 @@ where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]
 
 The 5-lemma appears for instance as exercise 1.3.3 in 
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ 
+
+The short 5-lemma also appears in various topological algebra contexts; see for example 
+
+* Francis Borceux and Maria Manuel Clementino, Topological semi-abelian categories, Adv. Math. 190 (2005), 425-453. ([web](https://estudogeral.sib.uc.pt/simple-search?query=clementino&x=0&y=0))
+{#BorClem} 
 
 
 [[!redirects five-lemma]]
