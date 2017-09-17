@@ -1,8 +1,14 @@
-# Idea #
 
-A configuration of the electromagnetic field on a space $X$ in the _absence_ of [[magnetic charge]] is modeled by a cocycle $\hat F$ in degree 2 ordinary [[differential cohomology]].
+#Contens#
+* automatic table of contents goes here
+{:toc}
 
-This may be realized in particular by
+
+## Idea 
+
+The **electromagnetic field** is a [[gauge field]]. A configuration of the **electromagnetic field** on a space $X$ in the _absence_ of [[magnetic charge]] is modeled by a [[cocycle]] $\hat F$ in degree 2 ordinary [[differential cohomology]].
+
+This may be realized in particular equivalently by
 
 * a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]] on $X$; 
 
@@ -12,7 +18,7 @@ In the presence of [[magnetic charge]] the electromagnetic field is modeled by a
 
 The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]] is the [[Kalb-Ramond field]].
 
-# Mathematical model from physical input #
+## Mathematical model from physical input 
 
 Physical experiment shows that the electromagnetic [[field strength]] on a pseudo-Riemannian spacetime $X$ has the following properties.
 
