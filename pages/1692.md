@@ -92,7 +92,7 @@ $$lim_i (b_i \to d^{a_i}) \cong lim_i b_i \to d^{colim_i a_i}$$
 and the formula for limits is obtained by dualizing the formula for colimits in $Chu(C, d)$.  
 
 
-## Chu spaces ## 
+## Chu spaces ## #{Chu}
 
 While the Chu construction is worthy of exploration for many types of symmetric monoidal categories $C$, a great deal of attention has been focused just on the particular case $Chu(Set, 2)$ (or $Chu(Set,TV)$, where $TV$ is the set of [[truth value]]s, to be [[constructive mathematics|constructive]]), called the category of **Chu spaces**, and on relatives like $Chu(E, \Omega)$ where $E$ is a [[topos]] and $\Omega$ its [[subobject classifier]]. The reason is that a great many concrete categories of interest are fully embedded in Chu spaces. Moreover, the 2-element set $TV$ carries a panoply of [[ambimorphic object|ambimorphic]] (formerly, schizophrenic) object structures which induce concrete dualities between these categories, and all of these dualities are embedded in (i.e., are restrictions of) the one overarching duality that obtains on Chu spaces. 
 
