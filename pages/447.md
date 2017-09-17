@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -28,6 +28,8 @@ This is the special case of the general notion of [[nerve and realization]] that
 In the context of [[homotopy theory]] geometric realization plays a notable role in the [[homotopy hypothesis]], where it is part of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]].
 
 The construction generalizes naturally to a map from [[simplicial object|simplicial]] [[topological space]]s to plain topological spaces. For more on that see [[geometric realization of simplicial spaces]].
+
+The dual concept is _[[totalization]]_ . 
 
 ## Definition
 
@@ -217,7 +219,7 @@ R(X \times Y) & \cong & R((X \otimes_{\Delta} \hom) \times (Y \otimes_{\Delta} \
 
   * [[geometric realization of categories|of categories]], [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], [[geometric realization of cohesive ∞-groupoids|of cohesive ∞-groupoids]]
 
-
+* [[totalization]]
 
 
 [[!redirects geometric realisation]]
