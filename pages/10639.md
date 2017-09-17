@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {: toc}
@@ -62,7 +73,9 @@ A review talk is
 * [[Graeme Segal]], _Loop groups_ ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter08.pdf))
  {#Segal}
 
+Discussion in the context of [[string theory]] (the [[Witten genus]]) is in 
 
+* [[Kefeng Liu]], section 2.2 of _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
 
 [[!redirects positive energy representation]]
 [[!redirects positive energy representations]]
