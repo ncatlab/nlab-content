@@ -194,6 +194,8 @@ $$
   \mathbf{d}S \colon \mathbb{R}^n \hookrightarrow T^* X
 $$
 
+(This is what related [[phase and phase space in physics]].)
+
 This is again a [[Lagrangian submanifold]]. We write
 
 $$
