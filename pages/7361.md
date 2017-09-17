@@ -9,6 +9,8 @@ A mathematical structure is said to be _presented by generators and relations_ i
 
 For instance an [[associative algebra]] $A$ may be obtained by imposing on the [[tensor algebra]] of the underlying vector space (which is the [[free monoid|free algebra]] on that vector space) the product relations, which identify the formal juxtaposition of two elements with their intended product. This is for instance how _[[Clifford algebras]]_ or _[[universal enveloping algebras]]_ are traditionally defined.
 
+Similarly a [[group presentation]] specifies a group in terms of a set of generators and relations.  The study of group presentations form and important part of [[combinatorial group theory]].
+
 But the concept of _generators and relations_ is very general and applies to all kinds of structures. Below we discuss a general formalization using concepts from [[category theory]] and [[universal algebra]].
 
 ## Definition
@@ -73,6 +75,8 @@ If $C$ is an [[n-category]] and $T$ a suitable sort of monad, then we have a sim
 ## Related concepts
 
 * [[finitely generated object]]
+
+
 
 [[!redirects generators and relations]]
 [[!redirects presentation by generators and relations]]
