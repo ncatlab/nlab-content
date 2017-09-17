@@ -1,2 +1,24 @@
-Mf of Y
 
+# Deformation retractions
+* table of contents
+{: toc}
+
+## Definitions
+
+A __deformation retraction__ is a [[homotopy]] between a [[retraction]] and an [[identity map]].  A __deformation retract__ is a [[retract]] equipped with such a homotopy.  A deformation retraction is __strong__ if it always acts as the identity on the retract.
+
+
+## References
+
+* [Wikipedia](http://en.wikipedia.org/wiki/Deformation_retract)
+
+
+[[!redirects deformation retraction]]
+[[!redirects deformation retractions]]
+[[!redirects deformation retract]]
+[[!redirects deformation retracts]]
+
+[[!redirects strong deformation retraction]]
+[[!redirects strong deformation retractions]]
+[[!redirects strong deformation retract]]
+[[!redirects strong deformation retracts]]
