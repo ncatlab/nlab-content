@@ -1,5 +1,5 @@
 
-Joachim Lambek (usually called Jim) is a mathematician, logician, theoretical linguist, ..., who is based in McGill university.
+Joachim Lambek, (1922-2014), usually called Jim, was a mathematician, logician, theoretical linguist, ..., based at McGill university.
 
 * [wikipedia page](http://en.wikipedia.org/wiki/Joachim_Lambek)
 
@@ -7,8 +7,10 @@ Joachim Lambek (usually called Jim) is a mathematician, logician, theoretical li
 ## Related entries
 
 * [[lambda-calculus]]/[[relation between type theory and category theory]]
+* [[biclosed monoidal category]]
 * [[initial algebra]]
 * [[linguistics]]
+* [[categorial grammar]]
 * [[Introduction to Higher-Order Categorical Logic]]
 
 category: people
