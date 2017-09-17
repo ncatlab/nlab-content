@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include 2-category theory - contents]]
+</div>
 
 The **comma object** of two morphisms $f:A\to C$ and $g:B\to C$ in a [[2-category]] is an object $(f/g)$ equipped with projections $p:(f/g)\to A$ and $q:(f/g)\to B$ and a 2-cell
 
