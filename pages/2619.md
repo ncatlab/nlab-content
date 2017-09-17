@@ -52,7 +52,7 @@ The [[right adjoint]] in def. \ref{Atomic} is sometimes called an "[[amazing rig
 +-- {: .num_remark}
 ###### Remark
 
-If $E$ is a [[sheaf topos]], then tiny objects and atomic coincide, by the [[adjoint functor theorem]].
+If $E$ is a [[sheaf topos]], then tiny objects and atomic objects coincide, by the [[adjoint functor theorem]].
 
 =--
 
