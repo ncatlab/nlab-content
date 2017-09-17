@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -5,7 +16,7 @@
 
 ## Idea 
 
-Artin gluing is a fundamental construction in [[locale]] theory and [[topos]] theory. The original example is the way in which a space or locale $X$ may be glued together from an [[open subspace]] $i \colon U \hookrightarrow X$ and its [[closed subspace|closed]] complement $j \colon K \hookrightarrow X$. The analogous construction for toposes gives the [[sheaf topos]] $Sh(X)$ via a gluing together of $Sh(U)$ and $Sh(K)$, and applies more generally to give a sense of how to put two toposes together so that one becomes an open subtopos and the other a closed subtopos of the gluing. 
+Artin gluing is a fundamental construction in [[locale]] theory and [[topos]] theory. The original example is the way in which a [[topological space]] or locale $X$ may be glued together from an [[open subspace]] $i \colon U \hookrightarrow X$ and its [[closed subspace|closed]] complement $j \colon K \hookrightarrow X$. The analogous construction for toposes gives the [[sheaf topos]] $Sh(X)$ via a gluing together of $Sh(U)$ and $Sh(K)$, and applies more generally to give a sense of how to put two toposes together so that one becomes an [[open geometric morphism|open]] [[subtopos]] and the other a [[closed subtopos]] of the gluing. 
 
 ## The topological case 
 
@@ -15,7 +26,7 @@ $$\langle i^\ast, j^\ast \rangle \colon O(X) \to O(U) \times O(K)$$
 
 $$V \mapsto (U \cap V, K \cap V)$$ 
 
-that is a map of [[frame|frames]]. The general problem is to characterize the image of this map: in terms of structure pertaining to $O(U)$ and $O(K)$, which pairs $(W, W')$ of relatively open sets in $U$ and $K$ "glue together" to form an open set $W \cup W'$ in $X$? 
+that is a map of [[frame|frames]]. The general problem is to characterize the [[image]] of this map: in terms of structure pertaining to $O(U)$ and $O(K)$, which pairs $(W, W')$ of relatively open sets in $U$ and $K$ "glue together" to form an open set $W \cup W'$ in $X$? 
 
 Let $int_X: P(X) \to P(X)$ denote the [[interior]] operation, assigning to a subset of $X$ its interior; this is a [[left exact functor|left exact]] [[comonad]] on $P(X)$. (Indeed, topologies on the set $X$ are in natural bijection with left exact comonads on $P(X)$.) Our problem is to understand when the inclusion 
 
@@ -116,7 +127,7 @@ so that $U$ is naturally identified with an open sublocale of $X$, $K$ with the 
 
 ## The toposic case 
 
-Now suppose given [[topos|toposes]] $E$, $E'$ and a left exact functor $\Phi \colon E \to E'$. There is an induced left exact comonad 
+Now suppose given [[topos|toposes]] $E$, $E'$ and a [[left exact functor]] $\Phi \colon E \to E'$. There is an induced left exact [[comonad]] 
 
 $$E \times E' \stackrel{\delta \times 1}{\to} E \times E \times E' \stackrel{1 \times \Phi \times 1}{\to} E \times E' \times E' \stackrel{1 \times prod}{\to} E \times E' \qquad (3)$$ 
 
