@@ -75,7 +75,7 @@ $$
      &\to&\to& \to& Y
      \\
      \downarrow
-     &&&& 
+     &\searrow&&& 
      \downarrow
      \\
      \downarrow
