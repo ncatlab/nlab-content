@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
 This entry is about the book
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _Nonabelian Algebraic Topology_ Tracts in Mathematics 16, European Mathematical Society ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html), [full pdf](http://www.bangor.ac.uk/%7Emas010/arbrsbookb-e0410.pdf))
@@ -689,9 +699,15 @@ including [[strict ∞-groupoid]]s with strict abelian [[∞-group]]-structure -
 
 * [[nonabelian cohomology]]
 
-### Cubical $\omgea$-groupoids
+### Cubical $\omega$-groupoids
 
+#### 13 The algebra of crossed complexes and cubical $\omega$-groupoids
 
+#### 14 Cubical homotopy groupoid
+
+##### 14.8 The cubical Dold-Kan theorem {#CubicalDoldKan}
+
+See also [[Dold-Kan correspondence]].
 
 ## References ##
 
