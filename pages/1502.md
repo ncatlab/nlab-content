@@ -83,7 +83,7 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 
 * The archetypical simple example is [[Vect]] itself, the category of (finite dimensional!) vector spaces over some [[ground field]] $k$. This has a single isomorphism class of simple objects: given by $k$ itself.
 
-* The category of [[representations]] of a compact Lie group $G$ is semisimple, with the simple objects being precisely the irreducible representations (this is the content of Schur's lemma). If $G$ is noncompact, one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
+* The category of finite-dimensional [[representations]] of a compact Lie group $G$ is semisimple, with the simple objects being precisely the irreducible representations (this is the content of Schur's lemma). If $G$ is noncompact, one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
 
 * Every [[fusion category]] is a semisimple category.
 
