@@ -84,10 +84,12 @@ The [[classical field theory]] of [[gravity]] is a physical theory which asserts
 =--
 
 
-
+[[!redirects theories (physics)]]
 
 [[!redirects physical theory]]
 [[!redirects physical theories]]
 
 [[!redirects theory in physics]]
 [[!redirects theories in physics]]
+
+
