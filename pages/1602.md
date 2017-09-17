@@ -141,7 +141,7 @@ given by
 $$
   ([\nabla], [\hat j_E]) 
      \mapsto
-  \exp(i \int(\int_X F_\nabla \wedge \star F_\nabla))
+  \exp(i \int_X F_\nabla \wedge \star F_\nabla)
   \exp(2 \pi i \int_X \hat j_E \cdot \nabla)
   \,.
 $$
