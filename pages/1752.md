@@ -98,12 +98,12 @@ $$
      \\
      \downarrow && \downarrow 
      \\
-     \tilde \pi_0 X
+     \tilde X_0
      &\to&
-     \tilde \pi_0 Y
+     \tilde Y_0
   }
 $$
-are pullback diagram in $Sh(S,SimpSet)$, for all $n \geq 1$.
+are pullback diagrams in $Sh(S,SimpSet)$, for all $n \geq 1$, where $\tilde X_0$ denotes the sheaf associated to $X_0$.
 =--
 
 Equivalently a morphism $f : X \to Y$ of simplicial presheaves is, equivalently, a local weak equivalence if all induced morphisms of sheaves 
