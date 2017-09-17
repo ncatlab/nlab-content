@@ -403,7 +403,7 @@ Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|coco
 This join tensor product forms part of a [[closed monoidal category|closed monoidal structure]] on the category of
 augmented simplicial sets, [[asSet]] $ := Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
 $$[X, Y ]_n =asS(X; Dec^{n+1}Y )\,,$$
-where $Dec$ is the [[decalage]] functor.
+where $Dec$ is the [[total décalage]] functor (see also at _[[décalage]]_).
 
 =--
 
