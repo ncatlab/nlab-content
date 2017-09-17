@@ -42,9 +42,9 @@ John Baez keeps a web page with relevant links and background material
 
 In particular there are the articles in preparation
 
-* John Baez, Alexander Hoffnung and Christopher Walker, _Higher-dimensional algebra VII: Groupoidification_ ([pdf](http://math.ucr.edu/home/baez/hda7.pdf))
+* John Baez, Alexander Hoffnung, Christopher Walker, _Higher-dimensional algebra VII: Groupoidification_, [arxiv/0908.4305](http://arxiv.org/abs/0908.4305)
 
-* John Baez and Alexander Hoffnung, _Higher-dimensional algebra VIII: The Hecke Bicategory_ ([pdf](http://math.ucr.edu/home/baez/hda8.pdf))
+* John Baez, Alexander Hoffnung, _Higher-dimensional algebra VIII: The Hecke Bicategory_, ([pdf](http://math.ucr.edu/home/baez/hda8.pdf))
 
 #Relation to representation theory#
 
@@ -61,4 +61,6 @@ Groupoidification in particular seems to illuminate structures encountered in th
 
 Some related remarks are in
 
-* [[schreiber:Nonabelian cocycles and their sigma model QFTs]]
+* Schreiber: [[schreiber:Nonabelian cocycles and their sigma model QFTs]]
+
+* Cafe: [new_paper_on_the_hecke_bicateg](http://golem.ph.utexas.edu/category/2010/04/new_paper_on_the_hecke_bicateg.html)
