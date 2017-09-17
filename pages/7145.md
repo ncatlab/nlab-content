@@ -1,0 +1,6 @@
+
+Some concepts that go by the name _monad_ but are otherwise unrelated:
+
+* [[monad]] (in [[category theory]])
+
+* [[Beilinson monad]]
