@@ -308,15 +308,13 @@ of $F$ weighted by the hom functor of $C^{op}$.
 
 #### Connecting the two definitions
 
-If $C$ is a $V$-category, then the hom functor $C(-,-) \colon C^{op} \times C \to V$ is the [[coequalizer]] (in fact a [[split coequalizer]]) in
+If $C$ is a $V$-category, then the hom functor $C(-,-) \colon C^{op} \times C \to V$ is the [[coequalizer]] in
 
 $$
 \coprod_{c,c'} C(-,c) \times C(c,c') \times C(c',-)
 \,\rightrightarrows\,
 \coprod_c C(-,c) \times C(c,-) \,\to\, C(-,-)
 $$
-
-This can be seen directly, or from the fact that the [[functor category]] $[C^{op} \times C, V]$ is the [[Eilenberg-Moore category|category of algebras]] for the [[monad]] on $[ob C \times ob C, V]$ that sends a family $F_{c,c'}$ of objects of $V$ to the family $\coprod_{c''} C(c,c'') \times F(c'',c')$.  That the diagram above is a split coequalizer then follows from general facts about algebras.
 
 It is also a general fact (see e.g. [Kelly, ch. 3](#Kelly)) that weighted (co)limits are continuous in their weight: that is,
 $$ \{W \ast V, F\} \cong \{W, \{V-, F\}\}$$
