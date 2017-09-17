@@ -1,4 +1,4 @@
-[[!redirects finite-dimensional vector spaces]]
+
 A [[vector space]] is _finite-dimensional_ if it admits a finite [[basis]]. The category $Vect_{fd}$ of finite-dimensional vector spaces is of course the full subcategory of $Vect$ whose objects are finite-dimensional. 
 
 A vector space $V$ is finite-dimensional just if $\hom(V, -): Vect \to Set$ preserves filtered colimits. For, every vector space $W$ is the filtered [[colimit]] of the [[diagram]] of finite-dimensional subspaces $W' \subseteq W$ and inclusions between them; applying this to $W = V$, the condition implies that the canonical comparison map 
@@ -15,4 +15,7 @@ taking $1 \mapsto \sum_i e_i \otimes f_i$. We thus have an adjunction $(- \otime
 
 In short, finite-dimensional vector spaces are exactly the compact objects of $Vect$ in the sense of [[locally presentable categories]], but also the compact = dualizable objects in the sense of [[monoidal category]] theory. In particular the category $Vect_{fd}$ is a [[compact closed category]]. 
 
-[[!redirects finite-dimensional vector spaces]] 
+[[!redirects finite-dimensional vector space]]
+[[!redirects finite-dimensional vector spaces]]
+[[!redirects finite dimensional vector space]]
+[[!redirects finite dimensional vector spaces]]
