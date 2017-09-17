@@ -50,3 +50,7 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
 [[!redirects imaginary parts]]
 [[!redirects real parts]]
+
+## References
+
+[[Tom Leinster]], objects of categories as complex numbers, [	arXiv:math/0212377v1](http://arxiv.org/abs/math/0212377)
