@@ -21,7 +21,7 @@ for any ordinal $\alpha$ ($0$, successor, or limit).
 
 Here, for $X$ a pure set, by $I(X)$ we denote the smallest set containing $X$ and closed with respect to the operations of [[Cartesian product]], [[relative complement|set difference]], [[unordered pair]], [[pairing|ordered pair]], taking the [[domain]] of a [[binary relation]], and performing a [[permutation]] of an ordered triple. 
 
-The elements of the constructible universe are called __constructible sets__; the idea is similar to the [[constructible set]]s in topology and algebraic geometry. 
+The elements of the constructible universe are called __[[constructible sets]]__; the idea is similar to the [[constructible sets]] in topology and algebraic geometry. 
 
 
 ## Properties
