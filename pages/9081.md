@@ -366,38 +366,67 @@ Here the [[WZW model|WZW]] [[B-field]] is the topological part of a 2-dimensiona
 ### $\infty$-Chern-Simons theory as the general example
  {#InfinityCSAsGeneralExample}
 
-So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the comparatively simple model of [[3d Chern-Simons theory]] accurately reflects the known higher geometry of the [[theory (physics)|theory]]. Now we consider further examples whose higher geometry has not necessarily been understood before.
+So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the well-known [[3d Chern-Simons theory]] naturally captures. Now we consider further examples whose higher geometry has not necessarily been understood before.
+
+Recall that [above](#CSAsArchetypicalExample) we interpreted the [[extended Lagrangian]] of [[3d Chern-Simons theory]] for a simply connected compact simple gauge group $G$ as the smooth and then differential refinement of the canonical [[universal characteristic class]] in $H^4(B G, \mathbb{Z})$. Specifically for $G$ the [[spin group]] this is the [[first fractional Pontryagin class]] $\tfrac{1}{2}p_1 \;\colon\; B Spin \to B^3 U(1)$. This can be understood as a higher analog of the [[second Stiefel-Whitney class]] $w_2 \;\colon\; B SO \to B^2 \mathbb{Z}$ which is the universal [[obstruction]] to [[spin structure]]. We say that $\tfrac{1}{2}p_1$ is the universal [[obstruction]] to a _[[higher spin structure]]_ called _[[string structure]]_. These higher obstructions are the (dual) [[k-invariants]] of the [[Whitehead tower]] of $B O$:
+
+[[!include higher spin structure - table]]
+
+From the point of view of [[extended prequantum field theory]] we are to regard each horizontal map in this tower as classifying the potential underlying [[instanton sector]] of an [[extended Lagrangian]]/[[prequantum n-bundle]], and we may ask if these lift to actual extended Lagrangian.
+
+The next step up the ladder is the universal [[second fractional Pontryagin class]]. Its [[twisted differential string structure|differential refinement]] as been constructed in ([FSS diff coc](#FiorenzaSchreiberStasheff)).
+
+$$
+  \array{
+    \mathbf{B}String_{conn}
+    &\stackrel{\widehat {\tfrac{1}{6}\mathbf{p}_2}}{\to}&
+    \mathbf{B}^7 U(1)_{conn} 
+    \\
+    \downarrow && \downarrow &&& \mathbf{H}
+    \\
+    \mathbf{B}G
+    &\stackrel{ \tfrac{1}{6}\mathbf{p}_2 }{\to}&
+    \mathbf{B}^7 U(1)
+    \\
+    && &&& \downarrow^{\mathrlap{{\vert \Pi(-)\vert}}}
+    \\
+    B String &\stackrel{\tfrac{1}{6}p_2}{\to}& B^7 U(1) &&& L_{whe} Top
+  }
+  \,.
+$$
+
+This now defines an [[extended Lagrangian]] for a  [[7d Chern-Simons theory]] on [[String 2-group]] [[2-connections]]. By the argument in ([FSS 7dCD](#FSS7dCS)) this is part of the extended Lagrangian of a theory involved in ([AdS7/CFT6 duality](AdS-CFT#AdS7CFT6)). 
+
+This refinenes the abelian cup product [[higher dimensional Chern-Simons theory]] given by the extended Lagrangian
+
+$$ 
+  \mathbf{B}^3 U(1)_{conn}
+  \stackrel{(-)\cup (-)}{\to}
+  \mathbf{B}^7 U(1)_{conn}
+  \,.
+$$
+
+An argument in ([Witten 98](#AdS-CFT#Witten98)) says that this abelian 7d theory is related to the [[self-dual higher gauge theory]] sector of the [[6d (2,0)-supersymmetric QFT]] on the [[worldvolume]] of a single [[M5-brane]] just as [[3d Chern-Simons theory]] is related to the [[WZW model]]. But by the same argument that [[field (physics)|field]] of this theory is to be identified with the [[supergravity C-field]] in [[11-dimensional supergravity]]/[[M-theory]], and that is known to receive quantum corrections that make the above a non-abelian 7d CS theory.
 
 
 | [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]] $\rightarrow$| [[schreiber:∞-Wess-Zumino-Witten theory ]] | [[Kaluza-Klein reduction]] $\to$ |   |
 |--|--|--|--|--|
 | [[3d Chern-Simons theory]]  | [3dCS-2dCFT](holographic+principle#3dCS-2dCFT) | [[WZW model]] | | |
-| [[7d Chern-Simons theory]]  | [AdS7/CFT6 duality](http://ncatlab.org/nlab/show/AdS-CFT#AdS7CFT6) | [[6d (2,0)-supersymmetric QFT]] | | [[N=4 D=4 super Yang-Mills theory]] | 
+| [[7d Chern-Simons theory]]  | [AdS7/CFT6 duality](AdS-CFT#AdS7CFT6) | [[6d (2,0)-supersymmetric QFT]] | | [[N=4 D=4 super Yang-Mills theory]] | 
 | [[string field theory]] | |  |  | [[Einstein-Yang-Mills theory]] |
 
+Therefore it is to be expected that a central aspect of the elusive [[6d (2,0)-supersymmetric QFT]] is controled by a [[prequantum n-bundle|prequantum 6-bundle]]-analog of the [[WZW model|WZW 2-bundle]]. 
 
-The assignment of a higher Wess-Zumino-Witten-type [[prequantum n-bundle|prequantum (n-1)-bundle]] to an extended prequantum Lagrangian works very generally.
-
-[[7d Chern-Simons theory]]]
-
-[[second fractional Pontryagin class]]
-
-$$
-  \tfrac{1}{6}\mathbf{p}_2
-  \;\colon\;
-  \mathbf{B}String 
-   \stackrel{}{\to}
-  \mathbf{B}^7 U(1)
-$$
-
+Indeed, the assignment of a higher Wess-Zumino-Witten-type [[prequantum n-bundle|prequantum (n-1)-bundle]] to an extended prequantum Lagrangian works very generally.
 
 $$
   \array{
     \mathbf{B}String
-    && &\stackrel{\Omega \tfrac{1}{6}\mathbf{p_2}}{\to}& &&
+    && &\stackrel{\Omega \left( \tfrac{1}{6}\mathbf{p_2}\right)}{\to}& &&
     \mathbf{B}^6 U(1)
     \\
     {}^{\mathllap{\simeq}}\downarrow
+    && && && \uparrow
     \\
     String //_{Ad} String
     &
@@ -609,7 +638,7 @@ $$
   \mu \;\colon\; \mathfrak{g} \to b^{n-1}\mathbb{R}
 $$ 
 
-a [[homomorphism]] of $L_\infty$-algebras into the [[line Lie n-algebra]], hence a [[cocycle]] in [[L-∞ algebra cohomology]], the operation of differentially refined [[Lie integration]] ([FSS](#spring)) produces a morphism of [[moduli ∞-stacks]]
+a [[homomorphism]] of $L_\infty$-algebras into the [[line Lie n-algebra]], hence a [[cocycle]] in [[L-∞ algebra cohomology]], the operation of differentially refined [[Lie integration]] ([FSS diff coc](#FiorenzaSchreiberStasheff)) produces a morphism of [[moduli ∞-stacks]]
 
 $$
   \widehat {\exp(\mu)}
@@ -628,7 +657,7 @@ $$
   \,,
 $$
 
-where $G \coloneqq \Omega \tau_n \exp(\mathfrak{g})$ and where $\mathbf{B}G_{conn}$ is the moduli of $G$-[[connections on an ∞-bundle|∞-connections]]. ([FSS](#FiorenzaSchreiberStesheff))
+where $G \coloneqq \Omega \tau_n \exp(\mathfrak{g})$ and where $\mathbf{B}G_{conn}$ is the moduli of $G$-[[connections on an ∞-bundle|∞-connections]]. ([FSS](#FiorenzaSchreiberStasheff))
 
 ### Higher Chern-Simons theory
 
@@ -672,10 +701,17 @@ Lecture notes are in _[[geometry of physics]]_, and section 1.2 of
 
 A general abstract discussion is in section 3 there, further discussion of examples in section 5.
 
-The construction by Lie integration is due to
+The construction of extended Lagrangian by [[Lie integration]] of [[L-∞ algebra cocycles]] is due to
 
 * [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech Cocycles for Differential characteristic Classes]]_
- {#FiorenzaSchreiberStesheff}
+ {#FiorenzaSchreiberStasheff}
+
+The discussion of the abelian [[7d Chern-Simons theory]] involved in [AdS7/CFT6 duality](AdS-CFT#AdS7CFT6) is due to ([Witten 98](#AdS-CFT#Witten98)). The discussion of the non-abelian quantum-corrected version is due to
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane]]_
+ {#FSS7dCS}
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
 
 
 [[!redirects extended Lagrangians]]
