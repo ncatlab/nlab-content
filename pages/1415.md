@@ -652,5 +652,3 @@ category: meta
 
 [[!redirects Sandbox > SVG]]
 [[!redirects SVG Sandbox]]
-[offset printing](http://www.foxypropaganda.com/offset-printing/)
-[dfw printing company](http://www.foxypropaganda.com/services/)
