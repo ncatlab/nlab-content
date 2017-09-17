@@ -1,6 +1,6 @@
 
 John Power is a Theoretical Computer Scientist working at the University of Bath, England.
 
-* [contact website](http://ncatlab.org/nlab/show/2-Lawvere%20theory)
+* [contact website](http://www.bath.ac.uk/comp-sci/people/contact/index.php?contact=Dr_John_Power)
 
 category: people
