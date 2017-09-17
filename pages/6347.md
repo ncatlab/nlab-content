@@ -56,6 +56,11 @@ See _[[F-theory]]_.
 
 By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence]] (see the references there), type II string theory is supposed to be dual to 4-dimensional [[super Yang-Mills theory]].
 
+### Partition function and elliptic genus
+
+[[!include genera and partition functions - table]]
+
+
 ## Related concepts
 
 * [[string theory]]
