@@ -10,3 +10,6 @@ Originally motivated by _[[Lindström's theorem]]_.
 
 * Wikipedia, _[Abstract model theory](http://en.wikipedia.org/wiki/Abstract_model_theory)_
 
+* Jon Barwise, _Axioms for abstract model theory_ , Annals of Mathematical Logic 7 pp.221-265, 1974.
+
+* Barwise, Feferman (eds.), _Model-theoretic Logics_ , Springer Heidelberg 1985 (freely available online: [toc](http://projecteuclid.org/euclid.pl/1235417263#toc))
