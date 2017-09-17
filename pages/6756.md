@@ -213,6 +213,8 @@ The auto-[[symplectomorphisms]] on a [[symplectic manifold]] form a [[group]], o
 
 The Hamiltonian vector field of a given function may also be called its _[[symplectic gradient]]_.
 
+* [[Hamiltonian action]]
+
 ## References
 
 For references on the ordinary notion of Hamiltonian vector fields see the references at _[[symplectic geometry]]_ and _[[geometric quantization]]_.
