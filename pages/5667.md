@@ -415,6 +415,8 @@ algebras]] in the context of [[geometric quantization]] [[geometric quantization
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
  {#Bos07}
 
+See also the related references at _[[Guillemin-Sternberg geometric quantization conjecture]]_.
+
 The KK-theory of twisted convolution algebras and its relation to [[twisted K-theory]] of [[differentiable stacks]] is discussed in
 
 * [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
