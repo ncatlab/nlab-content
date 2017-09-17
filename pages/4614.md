@@ -77,6 +77,28 @@ See for instance corollary 11.6 of ([May](#May)).
 
 In certain cases geometric realisation computes the [[homotopy colimit]] of the diagram $X_\bullet : \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
 
++-- {: .un_defn}
+###### Definition 
+
+A simplicial topological space $X_\bullet$ is _good_ in the sense of [[Segal|Graeme Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+A simplicial topological space $X_\bullet$ is _proper_ in the sense of [[May|Peter May]] if the inclusion $sX_n \hookrightarrow X_n$ of the degenerate simplices is a closed cofibration, where $sX_n = \bigcup_i s_i(X_{n-1})$.
+
+=--
+
+For more on these conditions see [[simplicial topological space]].
+
++-- {: .un_prop}
+
+A good simplicial topological space is proper.
+
+=--
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -86,13 +108,10 @@ $$
   |X| \simeq hocolim_{n \in \Delta} X_n
 $$
 
-is that $X$ is _good_ in that all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are all closed cofibrations.
-
-Another sufficient condition is that $X$ is _proper_ in that the inclusion $sX_n \hookrightarrow X_n$ of the degenerate simplices is a closed cofibration, where $sX_n = \bigcup_i s_i(X_{n-1})$.
+is that $X$ is _good_ in that 
 
 =-- 
 
-The goodness condition is due to Segal. The properness is due to [[Peter May]]. For more on these conditions see [[simplicial topological space]]. Notice that goodness implies properness
 
 $$
   good \Rightarrow proper
