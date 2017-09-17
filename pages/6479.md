@@ -1,6 +1,17 @@
-__Geometric stability theory__ is the principal part of so called __geometric model theory__ which came about in works of [[Boris Zilber]], Cherlin, [[Ehud Hrushovski]], Anand Pillay.
+
+## Idea
+
+__Geometric stability theory__ is the principal part of so called __[[geometric model theory]]__ which came about in works of [[Boris Zilber]], Cherlin, [[Ehud Hrushovski]], Anand Pillay.
+
+## Related concepts
+
+* [[stability in model theory]]
+
+* [[Zariski geometry]]
+
+
+## References
 
 * Anand Pillay, _Geometric stability theory_, Oxford Logic Guides __32__
 * slides from conference "[Geometric model theory](http://www.maths.ox.ac.uk/events/borisfest)", Oxford 2010: directory [html](http://people.maths.ox.ac.uk/bays/misc/borisfest/notes)
 * Misha Gavrilovich, _Model theory of universal covering space of complex algebraic varieties_, thesis, [pdf](http://people.maths.ox.ac.uk/bays/misha-thesis.pdf)
-* [[Zariski geometry]]
