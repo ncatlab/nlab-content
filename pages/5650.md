@@ -77,6 +77,8 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[infinity-Dold-Kan correspondence]]
 
+* [[spectral sequence of a simplicial stable homotopy type]]
+
 
 ### 1.3 Homological algebra and derived categories
 
