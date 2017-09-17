@@ -134,11 +134,21 @@ gives a 2-sub-$(\infty,1)$-category $K$ of $X$ (where both happen to be $\infty$
 
 ## Related concepts
 
-* [[full subcategory]]
+* [[subcategory]]
 
-* [[full sub-2-category]]
+  * [[full subcategory]], [[wide subcategory]], [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
 
-* **full sub-(∞,1)-category**
+  * [[dense sub-site]]
+
+* [[sub-2-category]]
+
+  * [[full sub-2-category]]
+
+  * [[locally full sub-2-category]]
+
+* **sub-(∞,1)-category**
+
+  * [[reflective sub-(∞,1)-category]]
 
 ## References
 
