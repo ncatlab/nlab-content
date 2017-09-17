@@ -9,11 +9,14 @@ If a [[subset]] $k$ of a [[field]] $K$ is a [[subalgebra|subfield]], then we cal
 
 More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, then it must be an [[injection]], so we may treat it as a field extension. 
 
+
 ## Related concepts
 
 * [[separable field extension]]
 
 * [[regular field extension]]
+
+* [[ramified extension]]
 
 * [[Galois theory]]
 
