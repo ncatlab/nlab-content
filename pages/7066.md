@@ -1,4 +1,8 @@
 
+
+> This entry is about polarization of [[phase spaces]] (or of any [[symplectic manifold]]) into [[canonical coordinates]] and [[canonical momenta]]. Different concepts of a similar name include the _[[polarization identity]]_ (such as in an [[inner product space]] or a [[Jordan algebra]]) or _[[wave polarization]]_ (such as polarized [[light]]). On the other hand, the concept of _[[polarized algebraic variety]]_ is closely related.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -17,9 +21,7 @@
 * table of contents
 {: toc}
 
-## Disambiguation
 
-This is polarization of [[phase space]] (or any [[symplectic manifold]]) into [[canonical coordinates]] and [[canonical momenta]]. Distinguish the _[[polarization identity]]_ (such as in an [[inner product space]] or a [[Jordan algebra]]) or _[[wave polarization]]_ (such as polarized [[light]]).
 
 ## Idea
 
@@ -183,6 +185,8 @@ If a polarization on an $2n$-dimensional symplectic manifold is generated from $
 ### Other
 
 * [[canonical transformation]]
+
+* [[polarized algebraic variety]]
 
 ## References
 
