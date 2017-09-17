@@ -45,7 +45,7 @@ For details see [[groupoid object in an (∞,1)-category]].
 
 * [[2-group]]
 
-* [[n-group]]
+* [[n-group]], [[k-tuply groupal n-groupoid]]
 
 * **$\infty$-group**
 
