@@ -105,7 +105,12 @@ Then with all the ordinary geoemtry re-encoded algebraically this way, in terms 
 
 * [[higher category theory and physics]]: <a href="http://ncatlab.org/nlab/show/higher+category+theory+and+physics#SpecStandModAndGravity">Spectral standard model and gravity</a>
 
+* [[(1,1)-dimensional Euclidean field theories and K-theory]]
+  
+
 * [[2-spectral triple]]
+
+
 ## References
 
 The standard textbook is
