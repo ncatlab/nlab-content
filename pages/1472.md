@@ -430,6 +430,8 @@ This means that Connes' [[spectral triple]] whose particle spectrum reproduces t
 
 ## Related pages
 
+* [[fiber bundles in physics]]
+
 * [[motivation for sheaves, cohomology and higher stacks]]
 
 * [[motivation for higher differential geometry]]
