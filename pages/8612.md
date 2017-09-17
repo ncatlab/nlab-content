@@ -1,0 +1,12 @@
+
+| | [[type theory]] | [[category theory]] |
+|--|--|--|
+|  | [[syntax]] | [[semantics]] |
+|  |  [[natural deduction]] |  [[universal construction]] | 
+|  | **[[dependent product type]]** | **[[dependent product]]** |
+| [[type formation]] | $\frac{\vdash\: X \colon Type \;\;\;\;\; x \colon X \;\vdash\; A(x)\colon Type}{\vdash \; \left(\prod_{x \colon X} A\left(x\right)\right) \colon Type}$ | <img src="http://quicklatex.com/cache3/ql_0f8017d784e4a76b2ab20cd0404896ca_l3.png"/> |
+| [[term introduction]] | $\frac{x \colon X \;\vdash\; a\left(x\right) \colon A\left(x\right)}{\vdash (x \mapsto a\left(x\right)) \colon \prod_{x' \colon X} A\left(x'\right) }$ | <img src=""/> |
+| [[term elimination]] | $\frac{\vdash\; f \colon \left(\prod_{x \colon X} A\left(x\right)\right)\;\;\;\; \vdash \; x \colon X}{x \colon X\;\vdash\; f(x) \colon A(x)}$ |  <img src=""/> |
+| [[computation rule]] | $(y \mapsto a(y))(x) = a(x)$ |  <img src=""/> | 
+
+
