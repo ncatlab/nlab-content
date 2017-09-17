@@ -1,0 +1,7 @@
+Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$ if it is isomorphic to a graph obtained by applying a sequence of operations of the following sort, starting from $G$: 
+
+* Removing an edge; 
+
+* Removing an isolated point; 
+
+* Contracting an edge, i.e., removing an edge and identifying its endpoints. 
