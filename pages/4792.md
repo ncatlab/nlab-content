@@ -7,6 +7,10 @@
 
 The __octonions__ form the largest of the four [[normed division algebra]]s, denoted $\mathbb{O}$.
 
+## Properties
+
+The octonions are _not_ an [[associative algebra]].
+
 ## References
 
 A survey is
