@@ -410,3 +410,6 @@ It is worth noting that any one of the crossing relations is a consequence of th
 The element in the fundamental group corresponding to a strand is the following.  We fix a basepoint above the plane.  The path comes down from this basepoint, goes under the strand, and then back up again.  The direction in which it goes under the strand is determined by the orientation of the strand: to someone sitting on the strand facing in the direction of the orientation, the path will go down on the left and come up on their right.
 
 **Hint:** If doing an example, do not throw away a crossing relation just because it is redundant.  It is a good idea to keep it and it will act as a check on the final form of the presentation when it has been 'processed' through some Tietze transformations. It is easy, at least to start with, to make a slip in the calculation and often the presentation for nice simple knots can be reduced to a form with two generators and one relation.  The above trick keeps in a duplicate relation for comparison.
+
+
+category: knot theory
