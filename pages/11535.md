@@ -1,12 +1,18 @@
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://qph.is.quoracdn.net/main-thumb-38770669-200-dytxvyjxkubghswliwmwavdsixlbzegq.jpeg" alt="Sanath Devalapurkar" /></div>
 I work on mathematical physics. I am interested in TQFTs. More specifically, I am interested in the application of Chern-Simons theory to quantum gravity. I am also interested in an extended TQFT formalism of quantum gravity, and hence am interested in [Chern-Simons as an extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended). I sometimes dab into plain general relativity (no quantum!) in the context of twistor theory, too (just for the fun of it).
-
-See [[Cobordisms as Presheaves]], the page containing my ideas and notes.
 <br><br><br><br>
 ##Websites##
 
 * [Website](https://sites.google.com/site/devalapurkarsanath/). I will try to update it often.
 
 * [Math Stackexchange page](http://math.stackexchange.com/users/122283/sanath-devalapurkar/).
+
+
+##Ideas##
+A homotopy quantum field theory is a symmetric monoidal functor $\tau:\mathrm{HCobord}(n,X)\to\mathrm{Vect}_{\mathbb{K}}$, with $X$ a path connected space with basepoint $\ast$. There is the following diagram:
+$$
+\array{ \mathrm{Cobord}(n) &\rightleftarrows& \mathrm{HCobord}(n) &\longleftarrow& \pi_1\mathrm{Map}(S^n,X)\\ & \searrow & \downarrow & \swarrow & \\ && \mathrm{Vect}_{\mathbb{K}} }
+$$
+We see that the homotopy QFT restricted to domain $\pi_1\mathrm{Map}(S^n,X)\hookrightarrow \mathrm{HCobord}(n)$ is a locally constant sheaf on $\pi_1\mathrm{Map}(S^n,X)$, i.e., a sheaf of sections of a covering space of $\pi_1\mathrm{Map}(S^n,X)$. Let us denote by $\mathrm{LSheaf}\pi_1\mathrm{Map}(S^n,X)$ the category of locally constant sheaves on $\pi_1\mathrm{Map}(S^n,X)$. Then, $\mathrm{LSheaf}\pi_1\mathrm{Map}(S^n,X)\hookrightarrow \mathrm{Sh}\pi_1\mathrm{Map}(S^n,X)\hookrightarrow \mathrm{PSh}\pi_1\mathrm{Map}(S^n,X)$. Thus, a homotopy QFT on $\pi_1\mathrm{Map}(S^n,X)$ is a contravariant functor $\pi_1\mathrm{Map}(S^n,X)\to\mathrm{Set}$.
 
 Category: people
