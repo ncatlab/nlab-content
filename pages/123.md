@@ -42,7 +42,7 @@ A **functor** $F$ from a [[category]] $C$ to a category $D$ is a map sending eac
 
 * $F$ preserves [[identity morphisms]]: for each object $x \in X$, $F(1_x) = 1_{F(x)}$.
 
-Another way to say $F$ preserves composition is to say
+Or equivalently, since compositions $g f = g\circ f$ (commuting triangles) and identities $1_x$ (commuting loops) are both simple commuting diagrams, we can combine the above conditions to the single statement
 
 * $F$ preserves commuting diagrams: $F(h) = F(g)\circ F(f)$ whenever $h = g\circ f$.
 
@@ -307,5 +307,6 @@ This can be illustrated in the following diagram
 
 <img src="http://ncatlab.org/nlab/files/altfunctor.jpg" width = "300"/>
 
+which provides an alternative expression of the functoriality condition as simply a statement that commuting diagrams in $C$ map to commuting diagrams in $D$.
 
 [[!redirects functors]]
