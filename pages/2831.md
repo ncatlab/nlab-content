@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 Consider the following table.  The basic thesis of this page is that, if you are having trouble understanding an item in the left column, then first you should understand the item in the right column.  (Each item on the right is a [[decategorification]], in one way or another, of the item on the left.)
 
 | Category theory | Order theory |
