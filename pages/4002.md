@@ -26,7 +26,7 @@ More generally, a *connected geometric morphism* $p\colon E\to F$ is a "relativi
 
 ## Definition
 
-A [[geometric morphism]] $p\colon E\to F$ is **connected** if its inverse image part $p^*$ is [[fully faithful functor|full and faithful]].
+A [[geometric morphism]] $p\colon E\to F$ is **connected** if its [[inverse image]] part $p^*$ is [[fully faithful functor|full and faithful]].
 
 A [[Grothendieck topos]] $E$ is **connected** if the unique geometric morphism $E \to Set = Sh(*)$ is connected.  If $E$ is the [[topos of sheaves]] on a [[topological space]] $X$ (or more generally a [[locale]]), then this is equivalent to the usual definition of connectedness for $X$ (see C1.5.7 in the [[Elephant]]).
 
