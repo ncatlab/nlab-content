@@ -1,7 +1,15 @@
+
+## Idea
+
 Given a [[field]] $k$ and a [[natural number]] $n \in \mathbb{N}$, the **special linear group** $SL(n,k)$ (or $SL_n(k)$) is the [[subgroup]] of the [[general linear group]] $SL(n,k) \subset GL(n,k)$ consisting of those linear transformations that preserve the [[volume form]] on the vector space $k^n$.  It can be canonically identified with the group of $n\times n$ [[matrix|matrices]] with entries in $k$ having [[determinant]] $1$.
 
 This group can be considered as a sub[[variety]] of the [[affine scheme|affine space]] $M_{n\times n}(k)$ of square matrices of size $n$ carved out by the equations saying that the [[determinant]] of a matrix is 1.  This [[variety]] is an [[algebraic group]] over $k$, and if $k$ is the field of [[real number|real]] or [[complex numbers]] then it is a [[Lie group]] over $k$.
 
+## Related concepts
+
+* [[general linear group]], [[projective linear group]]
+
+* [[special unitary group]]
 
 [[!redirects special linear group]]
 [[!redirects special linear groups]]
