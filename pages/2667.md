@@ -49,14 +49,13 @@ We need to lead up to a proof that the above conceptual definition of Schur func
 
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $FinVect_{\mathbb{C}}$.   They also make sense on categories of group representations, chain complexes, group representations, coherent sheaves of vector spaces, and so on.  
 
-To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] enriched over $FinVect_k$, where $k$ is any field of characteristic zero.
+To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete]] category enriched over $FinVect_k$, where $k$ is any field of characteristic zero.   (In the present context, Cauchy completeness means that $C$ has [[biproducts]], also known as [[direct sums]], and also that [[idempotent|idempotents]] [[splitting|split]].)
 
 Recall that the [[group algebra]] $k[S_n]$ decomposes as a direct sum of matrix algebras 
 
 $$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
 
-where $\lambda$ ranges over isomorphism classes of irreducible representations of $S_n$, and $V_\lambda$ is a chosen representative of its isomorphism class.
-In more concrete terms, these representations $V_\lambda$ are labelled by $n$-box [[Young diagram|Young diagrams]].   At the level of $S_n$-representations, we have
+where $\lambda$ ranges over isomorphism classes of irreducible representations of $S_n$, and $V_\lambda$ is any representation chosen from its isomorphism class. In more concrete terms, these representations $V_\lambda$ are labelled by $n$-box [[Young diagram|Young diagrams]].   At the level of $S_n$-representations, we have
 
 $$k[S_n] \cong \bigoplus_{\nu} V_{\nu}$$ 
 
@@ -84,32 +83,31 @@ This functor $i$ therefore maps the group algebra $k[S_n]$ to a monoid in $C$, w
 
 If $X$ is an object of $C$, the symmetric group $S_n$ has a representation on $X^{\otimes n}$.  It thus has a representation 
 
-$$V_\lambda \otimes X^{\otimes n}$$ 
+$$V_\nu \otimes X^{\otimes n}$$ 
 
-and we define $S_\lambda(X)$ to be the object of $S_n$-coinvariants of $V_{\lambda} \otimes X^{\otimes n}$, by which we mean:
+and we define $S_\nu(X)$ to be the object of $S_n$-coinvariants of $V_{\nu} \otimes X^{\otimes n}$, by which we mean:
 
-$$S_\lambda(X) = V_{\lambda} \otimes X^{\otimes n} / S_n$$
+$$S_\nu(X) = V_{\nu} \otimes X^{\otimes n} / S_n$$
 
-This construction of $S_\lambda(X)$ defines the **Schur functor** $S_\lambda$ on $C$. 
+We can construct this by splitting idempotents: namely, $V_{\nu}$ is the cokernel of an idempotent in $k[S_n]$, so $S_\nu(X)$ may be defined as the cokernel of the corresponding idempotent in $k[S_n] \otimes X^{\otimes n}$.
 
-+--{.query} 
-With the possible exception of the left Kan extension alluded to above, all these constructions may be carried out if we weaken the abelian assumption on $C$ to mere Cauchy completeness (relative to enrichment in rational vector spaces), which more concretely means that $C$ admits finite coproducts and splittings of idempotent projections. This observation was made by Noah Snyder on the blog.
+This construction of $S_\nu(X)$ defines the **Schur functor** $S_\nu$ on $C$.   
 
-(Jamie: Doesn't Cauchy completeness for abelian categories in fact correspond to _biproducts_ and split idempotents?)
+As we have constructed them, there is one such functor for each Young tableau.  However, different Young tableaux with the same underlying Young diagram give isomorphic representations of $S_n$ and thus naturally isomorphic Schur functors.  So, it is more typical to say there is one Schur functor $S_\lambda$ for each Young diagram $\lambda$.
 
-(Todd: Coproducts _are_ biproducts in the $Ab$-enriched case! That is, I was assuming as given that $C$ was enriched in something like $Ab$ or $Vect$.)  
+More generally we can define a Schur functor 
 
-It would actually feel more natural to me to speak of the object of coinvariants rather than the object of invariants, but in the present context it should come to the same thing as either is the splitting of the idempotent operator $\frac1{n!}\sum g$. That is to say: there is a natural splitting of the idempotent natural transformation 
-$$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\lambda \otimes X^{\otimes n}$$ 
-which can be viewed either as invariants (equalizer of $e$ and the identity) or coinvariants (coequalizer of $e$ and the identity). 
+$$    S_R : C \to C $$
 
-[[John Baez]]: we need to use coinvariants when we get to  the more sophisticated approach where our constructions are supposed to preserved by <i>right exact</i> functors.  Also, coinvariants work even in characteristic $p$, while invariants involve dividing by $n!$.  So, coinvariants rule, and I've switched to working with them above.  Also, following Jamie Vicary's correction, I've switched to using Young tableaux instead of Young diagrams: for each Young diagram there are many isomorphic Schur functors, one for each Young tableau of that shape. 
+for any finite-dimensional representation $R$ of $S_n$, as follows.  We can write $R$ as a finite direct sum of irreducible representations:
 
-[[Todd Trimble]]: That's fine to switch to coinvariants; I completely agree that's the correct conceptual way to go in general. As far as Young diagrams vs. Young tableaux, point taken, but see also my response to Jamie (which I've incorporated above). 
+$$  R = \bigoplus_i V_{\lambda_i}  $$
 
-Of course, I've already noted that "right exact" could be overkill in certain contexts. When the object of coinvariants arises by splitting an idempotent (as in the case of enrichment over rational vector spaces), we don't need full right exactness to preserve the construction, although we might want to retain additivity: preservation of direct sums. I hope we can be a bit flexible about hypotheses until we're further along in this.
+and then define, for any object $x \in C$, 
 
-[[Rod McGuire]] Isn't a switch from Young diagrams to Young tableaux essentially the same as changing from groups to groupoids?  
+$$  S_R(x) = \bigoplus_i S_{\lambda_i}(x) \, .$$
+
+Using Schur's lemma, one can check that this construction extends uniquely to a functor (?).
 
 =-- 
 
