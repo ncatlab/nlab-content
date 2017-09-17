@@ -1,11 +1,16 @@
-###Definition
 
-A **basis** of a [[free module|free R-module]] $M$ is a linear [[isomorphism]] $B\colon M \to \oplus_{i\in I}R$.
+# Bases of a free module
+* table of contents
+{: toc}
+
+## Definition
+
+A **basis** of a [[free module|free]] $R$-[[module]] $M$ (possibly a [[vector space]], see [[basis of a vector space]]) is a linear [[isomorphism]] $B\colon M \to \oplus_{i\in I}R$.
 
 We see how this is equivalent to the classical definition of a basis as a linearly independent spanning set:
 
 +-- {: .un_lemma}
-######Lemma
+###### Lemma
 
 A basis for a free $R$-module $M$ determines a unique generating set for $M$ of linearly independent elements of $M$. 
 =--
