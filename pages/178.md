@@ -269,7 +269,7 @@ $$
   \,.
 $$
 
-The bottim square is an [[(∞,1)-pullback]] by definition. By the pasting law for $(\infty,1)$-pullbacks, the top square being an $(\infty,1)$-pullback implies that the outer rectangle is, too, which identifies $G$ as the top pullback.
+The bottom square is an [[(∞,1)-pullback]] by definition. By the pasting law for $(\infty,1)$-pullbacks, the top square being an $(\infty,1)$-pullback implies that the outer rectangle is, too, which identifies $G$ as the top pullback.
 
 This induces a canonical element in the $G$-valued intrinsic de Rham cohomology of $G$:
 
@@ -899,10 +899,10 @@ $$
     & [CartSp^{op}, sSet](\Xi(C^\infty(-U(1))[n]), \Xi[\Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)])
     \\
     & \simeq
-    [CartSp^{op}, Ch_\bullet](N \Xi(C^\infty(-U(1))[n]), \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)\)
+    [CartSp^{op}, Ch_\bullet](N \Xi(C^\infty(-U(1))[n]), \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-) )
     \\
     & \simeq
-    [CartSp^{op}, Ch_\bullet](C^\infty(-U(1))[n], \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-)\)
+    [CartSp^{op}, Ch_\bullet](C^\infty(-U(1))[n], \Omega^1(-) \to \cdots \to \Omega^n_{cl}(-) )
    \\
     &\simeq
     [CartSp^{op}, Ab](C^\infty(-,U(1)), \Omega^1(-) )
@@ -910,7 +910,7 @@ $$
   \,.
 $$
 
-If we forgoit the abelian group structure, and looked at the last hom-set as one of sheaves, we'd get $\Omega^1(U(1))$. Among these these forms $\omega \in \Omega^1(U(1))$ that do respect the group structure are those such that for all $U \in CartSp$ and all $f,g : U \to U(1)$ we have
+If we forgot the abelian group structure, and looked at the last hom-set as one of sheaves, we'd get $\Omega^1(U(1))$. Among these these forms $\omega \in \Omega^1(U(1))$ that do respect the group structure are those such that for all $U \in CartSp$ and all $f,g : U \to U(1)$ we have
 
 $$
   f^* \omega + g^* \omega = (f \cdot g)^* \omega
