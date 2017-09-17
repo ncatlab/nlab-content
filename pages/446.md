@@ -119,7 +119,7 @@ Let $T$ be a [[regular theory]].  There is then an allegory $\mathcal{A}_T$ give
 * the objects are finite strings of [[sorts]] of $T$;
 * a morphism $\vec X \to \vec Y$ is a predicate $P(\vec x, \vec y)$ of sort $\vec X, \vec Y$ (or rather a provable-equivalence class of such predicates);
 * the identity $\vec X \to \vec X$ is (named by) $x_1 = x_1 \wedge x_2 = x_2 \wedge \cdots \wedge x_n = x_n$;
-* the composite of $R \colon \vec X \to \vec Y$ and $S \colon Y \to \vec X$ is named by $\exists \vec y. R(\vec x, \vec y) \land S(\vec y \vec z)$.
+* the composite of $R \colon \vec X \to \vec Y$ and $S \colon Y \to \vec X$ is named by $\exists \vec y. R(\vec x, \vec y) \wedge S(\vec y \vec z)$.
 
 That $\mathcal{A}_T$ is an allegory is B.311 in [Freyd--Scedrov](#FreydScedrov); that it is in fact unitary and pre-tabular is B.312.
 
