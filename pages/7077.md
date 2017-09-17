@@ -27,38 +27,20 @@ is a [[Quillen adjunction]] between the corresponding [[slice model structures]]
 
 Concretely, this means that both [[cofibrations]] and [[trivial cofibrations]] are [[pullback-stability|stable]] under [[pullback]] along fibrations between fibrant objects.
 
-## Properties
- {#Properties}
-
-Let $\mathcal{C}$ be a locally cartesian closed model category, let $B$ be a fibrant object and $Q \to B$ a fibration. Then the [[internal hom]]
-$[Q,-]_{\mathcal{C}/_B} : \mathcal{C}/_B \to \mathcal{C}/_B$ 
-is a [[Quillen adjunction|right Quillen functor]].
-
-This is the dual statement of the defining property. For let $S \to T$ be an acyclic cofibration over $B$, and $X \to Y$ a fibration over $B$, then [[lifting property|lifts]] in the diagram on the left
+Equivalently this means that for all $A \to B$ as above the [[internal hom]] [[adjunction]] in the [[slice category]] over $B$
 
 $$
-  \array{
-    S &\to & [Q,X]_{\mathcal{C}/_B}
-    \\
-    \downarrow && \downarrow
-    \\
-    T &\to& [Q, Y]_{\mathcal{C}/_{B}}
-  }
-  \;\;\;
-  \leftrightarrow
-  \;\;\;
-  \array{
-    S \times_{\mathcal{C}/_B} Q &\to & X
-    \\
-    \downarrow && \downarrow
-    \\
-    T \times_{\mathcal{C}/_B} Q &\to& Y
-  }
+  (-) \times_{\mathcal{C}/_B} A 
+  \;:\;
+  \mathcal{C}/_B
+  \rightleftarrows
+  \mathcal{C}/_B
+  \;:\;
+  [A, -]_{\mathcal{C}/_B}
 $$
 
-correspond to lifts in the diagram on the right. Since by assumption on $\mathcal{C}$ we have that $S \times_{\mathcal{C}/_B} Q \to T \times_{\mathcal{C}/_B} Q$ is still an acyclic cofibration, we have a lift in the right diagram.
+is a [[Quillen adjunction]].
 
-Analogously for $S \to T$ a cofibration and $X \to Y$ an acyclic fibration.
 
 ## Examples
 
