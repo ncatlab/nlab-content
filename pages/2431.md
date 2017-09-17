@@ -1,11 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 
-#Idea#
+## Idea
 
-The classical Brown representability theorem says that certain functors on [[Top]]${}^{op}$ that look like assigning [[cohomology group]]s to [[topological space]]s -- in that they satisfy the [[Eilenberg-Steenrod axioms]] -- are [[representable functor|representable]] in that they may be realized by the assignments of homotopy classes of maps into a [[spectrum]].
+The classical _Brown representability theorem_ says that certain [[functor]]s on [[Top]]${}^{op}$ that look like assigning [[cohomology group]]s to [[topological space]]s -- in that they satisfy the [[Eilenberg-Steenrod axioms]] -- are [[representable functor|representable]] in that they may be realized by the assignments of homotopy classes of maps into a [[spectrum]].
 
 For more background on this classical theorem see [[generalized (Eilenberg-Steenrod) cohomology]]
 
@@ -14,7 +29,7 @@ There are various generalizations of this result from the [[Top]] to more genera
 The [[Eilenberg-Steenrod axioms]] were written down in an effort to axiomatize the notion of [[cohomology]] on [[topological space]]s by extrapolating crucial properties of ordinary [[integral cohomology]].
 The classical Brown representability theorem and its generalizations show that these complicated axioms have a very simple repackaging. The theorem is one of the crucial ingredients that motivate the _definition_ of cohomology in terms of maps into certain coefficient objects. This general notion of cohomology is described at [[cohomology]].
 
-#Classical Brown representability#
+## Classical Brown representability
 
 Axiom of sum: For any family $\{X_\alpha\}_{\alpha\in A}$ of pointed CW-complexes the morphism $(i_\beta)_*:F(\vee_\alpha X_\alpha)\to \prod_\alpha F(X_\alpha)$ induced by the inclusion $i_\beta:X_\beta\to \vee_\alpha X_\alpha$ is a bijection.
 
@@ -22,9 +37,9 @@ Mayer-Vietoris axiom: For every triad $(X; A_1, A_2)$ of CW-spaces (with $A_1\cu
 
 Brown representability theorem: A contravariant functor $F:CW^{op}_*\to Set_*$ from pointed CW-complexes to pointed sets which satisfies the axiom of sum and axiom of Mayer-Vietoris is representable. In other words, there is a pointed CW-complex $(Y,y_0)$ and a universal element $u\in F(Y,y_0)$ such that $T_u:[-;Y,y_0]\to F$ is a natural equivalence. 
 
-#Details#
+## Details
 
-## version for ordinary (model) categories ##
+### Version for ordinary (model) categories 
 
 +-- {: .un_theorem}
 ###### Theorem (Jardine)
@@ -87,11 +102,13 @@ Notice that
 =--
 
 
-## version for simplicially enriched (model) categories##
+### Version for simplicially enriched (model) categories
+
+(...)
 
 
 
-#References#
+## References
 
 The generalizaton of the Brown representability theorem from [[topological space]]s to [[∞-stack]]s -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]] -- is given in
 
