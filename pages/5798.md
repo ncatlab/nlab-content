@@ -21,7 +21,7 @@ The [[quotient]] $R/I$ is also called the _reduced_ part of $R$.
 
 (If $R$ is not commutative there are different generalization of the notion of nilradical. See wikipedia, for the moment.) 
 
-## Related concepts
+## Examples
 
 With rings regarded as [[Isbell duality|formal dual]]s of [[affine scheme]]s, the canonical inclusion
 
@@ -38,6 +38,10 @@ $$
 $$
 
 is called the [[de Rham space]] of $X$.
+
+## Related concepts
+
+* [[infinitesimal extension]]
 
 [[!redirects reduced ring]]
 [[!redirects reduced rings]]
