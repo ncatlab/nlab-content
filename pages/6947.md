@@ -121,7 +121,7 @@ This interpretation of existential quantification as the left adjoint to context
 
 ## Examples
 
-Let $\mathcal{E} = $ [[Set]], let $X = \mathbb{N}$ be the set of [[natural number]]s and let $\phi \coloneqq 2\mathbb{N} \hookrightarrow \mathbb{N}$ be the [[subset]] of even natural numebrs. This expresses the [[proposition]] $\phi(x) \coloneqq IsEven(x)$. 
+Let $\mathcal{E} = $ [[Set]], let $X = \mathbb{N}$ be the set of [[natural number]]s and let $\phi \coloneqq 2\mathbb{N} \hookrightarrow \mathbb{N}$ be the [[subset]] of even natural numbers. This expresses the [[proposition]] $\phi(x) \coloneqq IsEven(x)$. 
 
 Then the [[dependent sum]] 
 
@@ -131,7 +131,7 @@ $$
   (\sum_{x\colon X} \phi(x) \in Set)
 $$
 
-is simply the set $2 \mathbb{N} \in Set$ of even natural numebrs. Since this is [[inhabited]], its [[truncated|(-1)-truncation]] is therefore the singleton set, hence the [[truth value]] _[[true]]_. Indeed, there exists an even natural number!
+is simply the set $2 \mathbb{N} \in Set$ of even natural numbers. Since this is [[inhabited]], its [[truncated|(-1)-truncation]] is therefore the singleton set, hence the [[truth value]] _[[true]]_. Indeed, there exists an even natural number!
 
 Notice that before the $(-1)$-truncation the operation remembers not just _that_ there is an even number, but it remembers "all proofs that there is one", namely every example of an even number.
 
