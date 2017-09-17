@@ -1,6 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Statement
 
-Hilbert's fifth problem, from his famous list of problems in his address to the International Congress of Mathematicians in 1900, is conventionally understood as broadly asking 
+Hilbert's fifth problem, from his famous [[Hilbert's problems|list of problems]] in his address to the International Congress of Mathematicians in 1900, is conventionally understood as broadly asking 
 
 > Which [[topological group|topological groups]] admit [[Lie group]] structures? 
 
@@ -8,14 +23,14 @@ A Lie group here is understood as a [[group object]] in the category of finite-d
 
 ## Results
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ###### Theorem 1 (Gleason; Montgomery-Zippin) 
 A topological group $G$ underlies a (unique) Lie group structure if and only if the underlying space of $G$ is a topological manifold. 
 =-- 
 
 A deeper structural theorem from which theorem 1 can be deduced is 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ###### Theorem 2 (Gleason-Yamabe) 
 Let $G$ be a locally compact group, and let $U$ be an open neighborhood of the identity in $G$. Then there exists an open subgroup $V$ of $G$, and a compact normal subgroup $H$ of $V$ contained in $U$, such that $V/H$ is isomorphic to a Lie group. 
 =-- 
@@ -24,7 +39,7 @@ An exposition of this incredible theorem was given in a series of blog posts by 
 
 Here are some sample theorems which follow from the Gleason-Yamabe theorem. 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ###### Theorem 
 Suppose $G$ is a locally compact group. A necessary and sufficient condition for $G$ is that it satisfies the "no small subgroups" property (NSS for short) that there exist a neighborhood the identity $U$ so small that it contains no nontrivial subgroups. 
 =-- 
@@ -42,4 +57,5 @@ In the other direction, suppose given such a $U$. It follows from the Gleason-Ya
  
 ## References 
 
-Terence Tao, Hilbert's fifth problem and Gleason metrics. _What's new_ (weblog), June 17, 2011 ([link](http://terrytao.wordpress.com/2011/06/17/hilberts-fifth-problem-and-gleason-metrics/)). 
+* [[Terence Tao]], Hilbert's fifth problem and Gleason metrics. _What's new_ (weblog), June 17, 2011 ([link](http://terrytao.wordpress.com/2011/06/17/hilberts-fifth-problem-and-gleason-metrics/)). 
+
