@@ -1,7 +1,22 @@
-__Weil reciprocity__ is a theorem of [[André Weil]] about the [[function field]] $K(C)$ of an [[algebraic curve]] $C$ over an algebraically closed field $K$.  
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The __Weil reciprocity law__ is a theorem of [[André Weil]] about the [[function field]] $K(C)$ of an [[algebraic curve]] $C$ over an [[algebraically closed field]] $K$.  
 
 * Askold Khovanskii, _Logarithmic functional and the Weil reciprocity law_, [pdf](http://www.math.toronto.edu/askold/Khovanskii-zima.pdf)
 * enclyclo.co.uk [Weil reciprocity law](http://www.encyclo.co.uk/define/Weil%20reciprocity%20law)
+
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
+## References
 
 The following two articles make parallel between some notions of [[QFT]] and of number theory and in particular about the analogy between the Weil reciprocity law for [[function field]]s and the [[Takahashi-Ward identities]] of [[quantum field theory]]:
 
