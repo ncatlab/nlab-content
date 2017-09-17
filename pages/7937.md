@@ -1,0 +1,37 @@
+[[!redirects prequantum operator]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the contect of [[geometric quantization]] a _prequantum operator_ is an [[operator]] that presents an [[observable]] in [[quantum mechanics]]/[[quantum field theory]] once a [[polarization]] is chosen.
+
+More in detail, the [[quantomorphism group]] $\mathbf{Aut}(\mathbf{c}_{conn})$ naturally acts on the space of [[sections]] $\mathbf{\Gamma}_X(E)$ of the [[prequantum line bundle]]. 
+
+$$
+  \widehat {(-)} : \mathbf{\Gamma}_X(E) \times \mathbf{Aut}(\mathbf{c}_{conn}) \to \mathbf{\Gamma}_X(E)
+  \,.
+$$
+
+For $O \in \mathbf{Aut}(\mathbf{c}_{conn})$ a given [[Hamiltonian symplectomorphism]] with [[Hamiltonian]], the corresponding map
+
+$$
+  \widehat{O} : \mathbf{\Gamma}_X(E) \to \mathbf{\Gamma}_X(E)
+$$
+
+is the _prequantum operator that quantizes $O$_.
+
+[[!redirects prequantum operators]]
