@@ -65,15 +65,17 @@ $$
 ###### Remark
 
 
-If we write $C(X) := Hom_{Set}(X_\bullet,k)$ for the cosimplicial algebra of [[cochains on simplicial sets]] then this may be written as
+If we write $C(X) := Hom_{Set}(X_\bullet,k)$ for the cosimplicial algebra of [[cochains on simplicial sets]] then for $X$ degreewise finite this may be written as
 
 $$
-  A^X := A \otimes C(X)
+  A^X = A \otimes C(X)
 $$ 
 
 where the tensor product is the degreewise tensor product of $k$-algebras.
 
 =--
+
+See also [CasCor, p. 10](http://arxiv1.library.cornell.edu/abs/math/0306289v2).
 
 +-- {: .un_defn}
 ###### Definition
