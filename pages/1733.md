@@ -40,6 +40,11 @@ A textbook with an emphasis on [[homotopy theory]] is in
 
 * Marcelo Aguilar, Samuel Gitler, Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002)
 
+Lecture notes include
+
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
+ {#HopkinsMathew}
+
 
 Online resources include
 
