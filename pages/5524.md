@@ -203,9 +203,10 @@ $$
 
 
 
-By the discussion at [[simplicial Quillen adjunction]] for these Quillen adjunctions to descent to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects. By the properties of [[Bousfield localization of model categories|left Bousfield localization]] this in turn is implied if  the [[left adjoint]]s preserve [[covering]]s. 
+By the discussion at [[simplicial Quillen adjunction]] for these Quillen adjunctions to descent to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects. 
+Moeover, by the properties of [[Bousfield localization of model categories|left Bousfield localization]] this in turn is implied if  the [[left adjoint]]s preserve [[covering]]s. 
 
-This is clearly the case for $(-) \circ i$ by the very definition of the site structure on [[CartSp]]${}_{synthdiff}$:
+It is directly see that $(-) \circ i$ prserves fibrant objects, as it just restricts these to fewer objects and hence a subset of covers. That $(-) \circ i$ also preserves covers follows from observing that
 
 $$
   (-) \circ i : \{U_i \times D \stackrel{(f_i,Id_D)}{\to} U \times D\}
@@ -214,26 +215,13 @@ $$
    \,.
 $$
 
-It is also directly seen to be the case for $Lan_i$, which on representables is given by $i$ itself:
-
-$$
-  Lan_i U : (K \times D) \mapsto \int^{U \in CartSp_{smooth}}
-    CartSp_{synthdiff}(K \times D, U) \cdot U
-    = U \in [CartSp_{synthdiff}, sSet]
-$$
-
-and hence sends
-
-$$
-  Lan_i : \{U_i \to U\} \mapsto \{U_i \to U\}
-  \,.
-$$
+Therefore $(-) \circ i$ is a left and right local Quillen functor with left local Quillen adjoint $Lan_i$ and right local Quillenadjoint $(-)\circ p$.
 
 
 It follows that $i^* : SynthDiff \infty Grpd \to Smooth \infty Grpd$ is given by the left [[derived functor]] of restriction along $i$, and 
 $i_* : Smooth \infty Grpd \to SynthDiff \infty Grpd$ is given by the right [[derived functor]] of restriction along $p$. 
 
-Finally to see that $(-) \circ p$ preserves covers notice that for every covering family $\{U_i \to U\}$ in $CartSp_{smooth}$ and every morphism $K \times D \to p^* U$ in $CartSp_{synthdiff}$ we may find a covering $\{K_{j} \times D \to K \times D\}$ of $K \times D$ such that we find commuting diagrams
+Finally to see that $(-) \circ p$ preserves covers notice that for every covering family $\{U_i \to U\}$ in $CartSp_{smooth}$ and every morphism $K \times D \to p^* U$ in $CartSp_{synthdiff}$ we may find a covering $\{K_{j} \times D \to K \times D\}$ of $K \times D$ such that we find commuting diagrams on the left of
 
 $$
   \array{
@@ -243,15 +231,24 @@ $$
     \\
     K \times D &\to& p^* U
   }
-  \,.
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    K_j & =&  i^*(K_j \times D) &\to&  U_{i(j)}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    K &= & i^*(K \times D= &\to&  U
+  }
+  \,,
 $$
 
-This is because by the [[Yoneda lemma]] and the definition of $p^* = (-) \circ p$ a morphism $K \times D \to p^* U$ is equivalently a morphism $K \to U$. For such morphisms diagrams as above can be found by the definition of [[coverage]].
+because by adjunction these correspond to commuting diagrams as indicated on the right, which exist by definition of [[coverage]] on $CartSp_{smooth}$.
 
 This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the terminology at [[model structure on simplicial presheaves]], which by the discussion there implies that the corresponding [[Cech nerve]] equivalent to the [[sieve]] inclusion is a weak equivalence.
 
 This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
-
 
 
 =--
