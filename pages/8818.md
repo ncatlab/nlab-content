@@ -25,3 +25,6 @@ A method of [[integration]].
 ## References
 
 * Wikipedia, _[Lebesgue integration](http://en.wikipedia.org/wiki/Lebesgue_integration)_ 
+
+[[!redirects Lebesgue integral]]
+[[!redirects Lebesgue integrals]]
