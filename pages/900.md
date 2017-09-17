@@ -1,4 +1,15 @@
-[[!redirects pro-objects]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * automatic table of contents goes here
@@ -18,16 +29,25 @@ There are many ways to make this notion precise.  One is to define the objects o
 
 This definition is perhaps more intuitive in the dual case of [[ind-object|ind-objects]] (pro-objects in $C^{op}$), where it can be seen as stipulating that the objects of $C$ are [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
-Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of $[C,Set]^{op}$ determined by those functors which are cofiltered limits of representables.  This is reasonable since $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits."
+Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of $[C,Set]^{op}$ determined by those functors which are cofiltered limits of representables.  This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits."
+
+## Related concepts
+
+* [[ind-object]] / [[ind-object in an (∞,1)-category]]
+
+* **pro-object**
 
 ## References
 
 One source for the theory of pro-objects is
 
-* J.-M. Cordier and T. Porter, 2008, Shape Theory, categorical methods of approximation, Dover.
+* J.-M. Cordier and [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008)
 
 (It is a reprint of the 1989 edition without amendments.)
 
 Another good reference is
 
-* P. T. Johnstone, _[[Stone Spaces]]_.
+* [[Peter Johnstone]], _[[Stone Spaces]]_.
+
+
+[[!redirects pro-objects]]
