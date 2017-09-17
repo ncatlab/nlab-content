@@ -5,11 +5,18 @@
 
 ## Definitions
 
-A __sequence__ is [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of integers).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.)
+A __sequence__ is [[function]] whose [[source|domain]] is a [[subset]] of the set $\mathbb{N}$ of [[natural numbers]] (or more generally a subset of the set $\mathbb{Z}$ of [[integers]]).  Often one means an __infinite sequence__, which is a sequence whose domain is infinite.  Sequences (especially finite ones) are often called __[[lists]]__ in computer science.  (In [[constructive mathematics]], the domain of a sequence must be a [[decidable subset]] of $\mathbb{Z}$.)
 
 Up to [[bijection]], the only possible sources are those of the form
-$$\{i: \mathbb{Z} \;|\; 0 \leq i \lt n\}$$
+$$ \{i\colon \mathbb{Z} \;|\; 0 \leq i \lt n\} $$
 for $n = 0, 1, 2, \ldots, \infty$; other domains are used for notational convenience.
+
+An alternative generalisation takes the domain to be a set of [[ordinal numbers]], without loss of generality the set
+$$ \{i\colon \Ord \;|\; i \lt \alpha\} $$
+for $\alpha$ some specific ordinal number (or the [[proper class]] $\Ord$ of all ordinal numbers, if one wishes to allow for a proper class).
+
+
+## Notation
 
 One normally writes the value of the sequence $a$ at the argument $i$ as $a_i$ rather than $a(i)$.  Similarly, given a term $a[i]$ with the free variable $i$, one often defines a sequence whose values equal those terms as $(a[i])_{i \lt n}$, $\{a[i]\}_i$, or the like.  In fact, one even often says literally 'Let $(a_i)$ be a sequence.' even though 'Let $a$ be a sequence.' would be less of an abuse of notation.  This is all because notation for sequences arose before [[functions]] were considered in their full generality, and one distinguished a 'sequence' (whose domain was a set of integers) from a 'function' (whose domain was an interval in the real line or a region in the complex plane).  Early mathematicians also often conflated the sequence (the function itself) with its range (a subset of the function\'s [[target]]); hence the use of curly braces.  All of this applies in greater generality to [[families]] with index sets other than $\mathbb{N}$.
 
@@ -30,6 +37,11 @@ A __sequential net__ is a [[multi-valued function|multi-valued]] from $\mathbb{N
 (Using a multi-valued function here is a special case of an alternative definition of [[net]] that uses only [[partially ordered]] directed sets; see [[net]].  In some [[foundations of mathematics]], we can get the same result by defining a sequential net to be a __presequence__: a [[prefunction]], which is like a function but need not preserve [[equality]], from a decidable subset of $\mathbb{N}$.)
 
 Without WCC, many of the usual properties of [[metric spaces]] and other [[sequential spaces]] fail, but they continue to hold using sequential nets in the place of sequences.  For example, every (located Dedekind) [[real number]] may be represented as a sequential Cauchy net, even when they might not all be represented as Cauchy sequences; see [[Cauchy real number]].
+
+
+## Sequence spaces
+
+In [[functional analysis]], one considers [[topological vector spaces]] of infinite sequences; these are the [[sequence spaces]].  (Actually, these generalise quite nicely to [[net]] spaces.)
 
 
 [[!redirects sequence]]
