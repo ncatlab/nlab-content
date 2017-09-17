@@ -69,7 +69,7 @@ As a [[foundation]] for [[mathematics]], homotopy type theory (also called **uni
 * It treats sets, [[groupoids]], and [[n-groupoid|higher groupoids]] on an equal footing.  One can easily remain entirely in the fragment of the theory which talks about sets, not worrying about groupoids or homotopy theory, but as soon as one starts to say something which naturally needs structures of higher [[homotopy level]] (such as talking about some collection of structured sets), the groupoidal and homotopical structure is already there.
 
 
-### Models in $(\infty,1)$-categories
+### Models in $(\infty,1)$-categories and $(\infty,1)$-toposes
 
 It is well known that [[extensional type theory|extensional]] [[dependent type theory]] is an [[internal logic]] for [[locally cartesian closed categories]]. See at _[[relation between type theory and category theory]]_. 
 
@@ -89,15 +89,19 @@ Indeed:
 
 Every [[presentable (∞,1)-category|presentable]] and [[locally cartesian closed (∞,1)-category]] has a presentation by a [[type-theoretic model category]]. This provides the [[categorical semantics]] for [[homotopy type theory]] (without, possibly, the [[univalence]] [[axiom]]).
 
-This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]] (which should in addition satisfy [[univalence]]). See also at _[[internal logic of an (∞,1)-topos]]_.
 
 =--
 
-For more on this see at _[locally cartesian closed (∞,1)-category]]_ in the section on internal logic.
+For more on this see at _[[locally cartesian closed (∞,1)-category]]_ in the section on internal logic.
 
+With the [[univalence]] axiom included (for a [[type of types]] "weakly a la Tarski") then homotopy type theory has categorical semantics in [[(∞,1)-toposes]], with the [[type of types]] interpreted as the [[object classifier]]. 
 
+* [[homotopytypetheory:model of type theory in an (infinity,1)-topos]]
+
+See also at _[relation between type theory and category theory -- Univalent homotopy type theory and infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
 
 For a short introduction to a simplicial model of homotopy type theory see [[T. Streicher - a model of type theory in simplicial sets - a brief introduction to Voevodsky' s homotopy type theory]].
+
 
 
 ### New Axioms
