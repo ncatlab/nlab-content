@@ -27,6 +27,11 @@ A large bibliography on Rota--Baxter algebras can be found at Li Guo's Rota--Bax
 
 * K. Ebrahimi-Fard, L. Guo, D. Manchon, _Birkhoff type decompositions and the Baker--Campbell--Hausdorff recursion_, Comm. Math. Physics __267__ (2006) 821-845, [arXiv:math-ph/0602004](http://arxiv.org/abs/math-ph/0602004) 
 
+A generalization of Rota-Baxter operators to algebraic operads
+is found in connection to certain splitting phenomenon for operads:
+
+* Jun Pei, Chengming Bai, Li Guo, _Splitting of operads and Rota-Baxter operators on operads_, [arxiv/1306.3046](http://arxiv.org/abs/1306.3046)
+
 There is also a [[categorification]] of the concept of Rota--Baxter algebra, namely the __Rota--Baxter category__, cf.
 
 * Edmundo Castillo, Rafael Diaz, _Rota-Baxter categories_, [arxiv/0706.1068](http://arxiv.org/abs/0706.1068)
