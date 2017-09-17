@@ -1,10 +1,9 @@
 The term **connection** can mean any of
 
 * [[connection on a bundle]]
-
   * [[meromorphic connection]]
-
   * [[Grothendieck connection]]
+  * [[affine connection]]
 
 * [[Hurewicz connection]]
 
