@@ -1,5 +1,10 @@
 
+For $V$ a [[vector space]] equipped with an [[inner product]] $\langle -,-\rangle : V \otimes V \to k$, a [[basis of a vector space|basis]] $\{v_i\}$ of $V$ is **orthogonal** with respect to $\langle -, - \rangle$ if for all $i \neq j$ we have $\langle v_i, v_j\rangle = 0$. The basis is __orthonormal__ if additionally we have $\langle{v_i, v_i}\rangle = 1$; that is, $\langle{v_i, v_j}\rangle = \delta_{i,j}$ (the [[Kronecker delta]]) for all $i, j$.
 
-For $V$ a [[vector space]] equipped with an [[inner product]] $\langle -,-\rangle : V \otimes V \to k$, a [[basis of a vector space|basis]] $\{v_i\}$ of $V$ is **orthogonal** with respect to $\langle -, - \rangle$ if for all $i \neq j$ we have $\langle v_i, v_j\rangle = 0$.
+See also [[Gram–Schmidt process]].
 
+
+[[!redirects orthogonal basis]]
 [[!redirects orthogonal bases]]
+[[!redirects orthonormal basis]]
+[[!redirects orthonormal bases]]
