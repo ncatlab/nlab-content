@@ -1,2 +1,2 @@
-No. 3: Ullrich.(CBS News) Todd in the video above is celebrating his birthday by testing out a toy airplane given to him by his wife. The whole family is there, and while everything may seem calm and idyllic at first blush, there's something wrong just waiting to happen... why don't you watch to find out? (For all of you impatient types, things end up taking a turn at about 28 seconds into the video.)
- <a href="http://www.cms4hearts.com/freerun_us.asp?Running_Shoes=nike-free-run-women-c-27.html" title="Nike Free Run Women">Nike Free Run Women</a>
+For Frankie Andreu, the report offered relief. A former Armstrong teammate, he had previously admitted doping.
+ <a href="http://www.mellowtoy.com/public/dailyfreerun.asp?Running_Shoes=nike-free-nike-free-40-v2-mens-c-57_71.html" title="Nike Free 4.0 V2 Mens">Nike Free 4.0 V2 Mens</a>
