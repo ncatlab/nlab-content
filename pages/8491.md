@@ -68,3 +68,5 @@ An general account in [[higher geometry]] is in
 [[!redirects Poisson-bracket Lie n-algebra of local observables]]
 [[!redirects Poisson-bracket Lie n-algebras of local observables]]
 
+[[!redirects L-∞ algebra of local observables]]
+[[!redirects L-∞ algebras of local observables]]
