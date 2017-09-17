@@ -1,4 +1,13 @@
+# The category of sets
+* table of contents
+{: toc}
+
+## Definition
+
 __$Set$__ is the (or a) [[category]] with [[sets]] as [[objects]] and [[functions]] between sets as [[morphisms]].
+
+
+## Properties
 
 This category has many marvelous properties, which make it a common choice for serving as a '[[foundations|foundation]]' of mathematics.  For instance:
 
@@ -28,4 +37,6 @@ Conversely, $\Set$ in [[constructive mathematics]] cannot satisfy the axiom of c
 
 category: category
 
+[[!redirects Set]]
 [[!redirects category of sets]]
+[[!redirects the category of sets]]
