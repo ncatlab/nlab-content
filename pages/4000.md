@@ -1,57 +1,102 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-For $G$ a [[Lie group]], $\mathcal{B}G \in $ [[Top]] the corresponding [[classifying space]] and $c \in H^4(\mathcal{B}G, \mathbb{Z})$ a [[cocycle]] (in integral [[singular cohomology]]), what is called a **Chern-Simons 2-gerbe** with class $c$ is effectively a refinement to [[differential cohomology]] of $c$, i.e. a realization of the idea
+A _Chern-Simons 2-gerbe_ is a cocycle in degree 4 [[ordinary differential cohomology]] that is canonically associated to a $G$-[[principal bundle]] with [[connection on a bundle|connection]].
 
-* a smooth $\mathbf{B}^2 U(1)$-[[principal infinity-bundle|principal 3-bundle]] "on $\mathcal{B} G$";
-
-* equipped with a smooth [[connection on a bundle|connection]].
-
-More generally, for $P \to X$ a smooth $G$-[[principal bundle]] over a [[smooth manifold]] $X$ and classified by a map $\phi : X \to \mathcal{B}G$, the *Chern-Simons 2-gerbe associated to $P$* is the pullback of the given 2-gerbe on $\mathcal{B}G$ to $X$ along $\phi$.
-
-Of course this does not quite make sense as stated, as $\mathcal{B}G$ is not _naturally_ a [[smooth space]]. There are some tricks to regard it as a limit of [[smooth manifold]]s. But more properly, from the [[nPOV]], the above can neatly be made sense of if we incarnate $\mathcal{B}G$ in an [[(∞,1)-topos]] richer than [[Top]] $\simeq$ [[∞Grpd]], for instance the $(\infty,1)$-topos of [[∞-Lie groupoid]]s, given as the [[(∞,1)-category of (∞,1)-sheaves]] on the [[site]] [[CartSp]]: $\mathbf{H} := Sh_{(\infty,1)}(CartSp)$.
-
-In there, the [[Lie group]] $G$ naturally exists as a [[diffeological space]] and, being a [[group object in an (∞,1)-category|group object]] it has a [[delooping]] $\mathbf{B}G$ in the standard [[model category]] presentation of $Sh_{(\infty,1)}(CartSp)$ in terms of the [[model structure on simplicial presheaves]] $sPSh(CartSp)_{proj,loc}$. This is simply the [[simplicial object|simplicial]] [[diffeological space]] 
+For $G$ a [[Lie group]] and $c : \mathcal{B}G \to K(\mathbb{Z},4)$ a cocycle for a degree 4 [[characteristic class]] in [[integral cohomology]] and $X$ a [[smooth manifold]], [[Chern-Weil theory]] provides a morphism (the refined [[Chern-Weil homomorphism]])
 
 $$
-  \mathbf{B}G
-  = 
-  \left(
-    \cdots G \times G \stackrel{\to}{\stackrel{\to}{\to}}G \stackrel{\to}{\to}
-    *
-  \right)
-  \in 
-  [\Delta^{op}, Diff]
-  \hookrightarrow
-  [\Delta^{op}, PSh(CartSp)]
-  \,.
+  \hat c : G Bund_\nabla(X) \to H_{diff}^4(X)
 $$
 
-Moreover, $\mathbf{H}$ is a [[locally contractible (∞,1)-topos]] and under the corresponding [[homotopy groups in an (∞,1)-topos|homotopy ∞-groupoid]] [[(∞,1)-functor]] $|-| : \mathbf{H} \stackrel{\Pi}{\to} \infty Grpd \stackrel{\simeq}{\to} Top$ we have the topological [[geometric realization]] $|\mathbf{B}G| \simeq \mathcal{B}G$, so that in this sense $\mathbf{B}G$ is indeed a smooth refinement of $\mathcal{B}G$.
+from $G$-[[principal bundle]]s with [[connection on a bundle|connection]] $\nabla$ to degree 4 [[ordinary differential cohomology]]. The cocycles on the right may be thought of as
 
-Given that, one needs to make sense of smooth bundle 2-gerbes on [[∞-Lie groupoid]]s in order to define Chern-Simons bundle 2-gerbes. Effectively this involves smooth [[equivariant cohomology]].  This is -- more or less implicitly -- what is done in much of the literature.
+* [[circle n-bundle with connection|circle 3-bundles with connection]] $\hat c(\nabla)$;
 
-## Relation to Chern-Simons theory
+* [[bundle gerbe|bundle 2-gerbe]]s with connection.
 
-One may understand the Chern-Simons 2-gerbe on $\mathbf{B}G$ as the background [[gauge field]] for [[Chern-Simons theory]]. Moreover, when pulled back via a classifying map $\phi : X \to \mathbf{B}G$ for a smooth $G$-bundle, it serves as the background gauge field for the quantum membrane (the 3-dimesional [[sigma-model]]) on $X$. In this incarnation it is also known as the [[supergravity C-field]].
+By construction, the [[curvature]] 4-form of $\hat c(\nabla)$ is the [[curvature characteristic form]] $\langle F_\nabla \wedge F_\nabla\rangle$ of $\nabla$ and accordingly the 3-form connection on $\hat c(\nabla)$ is locally a [[Chern-Simons form]] $CS(\nabla)$ of $\nabla$.
+
+Accordingly, the [[parallel transport]] induced by $\hat c(\nabla)$ over 3-dimensional manifolds $\phi : \Sigma \to X$ is the [[action functional]] of the [[quantum field theory]] called [[Chern-Simons theory]]. In this form it appears for instance as the [[gauge field]] called the [[supergravity C-field]] in certain [[supergravity]] theories. In particular, if (with due care) one takes $\nabla$ to be the _universal connection on the $G$-[[universal principal bundle]]_ over a smooth version of $B G$, then $\hat c(\nabla)$ is the background [[gauge field]] for bare [[Chern-Simons theory]].
+
+Therefore this structure $\hat c(\nabla)$ has become known as the **Chern-Simons 2-gerbe**  of $\nabla$. We may also think of it as the _Chern-Simons [[circle n-bundle with connection|circle 3-bundle]]_ .
+
+At least for simply connected $G$ one may enhance the assignment $\nabla \mapsto \hat c(\nabla)$ to a morphism of [[∞-groupoid]]s
+
+$$
+  \hat \mathbf{c} : \mathbf{H}_conn(X,\mathbf{B}G)
+  \to \mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))
+  \,,
+$$
+
+where on the left we have the [[groupoid]] of smooth $G$-principal bundles with connection on $X$, and on the right the 3-groupoid of circle 3-bundles with connection. The [[homotopy fiber]]s of this morphism over a trivial circle 3-bundle with connection are 3-groupoids whose objects are naturally identified with pairs consisting of a connection $\nabla$ on a $G$-bundle and a _trivialization_ of its corresponding Chern-Simons 3-bundle. This in particular implies a trivialization of the underlying cocycle in degree 4 [[integral cohomology]] and therefore defines a [[string structure]]. One calls these homotopy fibers therefore [[differential string structure]]s.
+
+
+## Constructions
+
+### In Cech-Deligne cohomology
+
+Assume that $G$ is a [[simply connected]] [[Lie group]].
+
+In ([Brylinski-McLaughlin I](#GeomConstructionFirst)) is spelled out an explicit constructin of $\hat c(\nabla)$ for given $\nabla$ in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. This is a special case of the general construction presented in ([Brylinski-McLaughlin II](#CechCocyclesForCharClasses)).
+
+In this section here we review this exlicit cocycle construction. In the [next section](#InInfChernWeil) we discuss a systematic way to "derive" this construction.
+
+(...)
+
+
+### In $\infty$-Chern-Weil theory {#InInfChernWeil}
+
+(...)
+
+### As a bundle 2-gerbe
+
+See ([CJMS](#CJMS), [Waldorf CS](#WaldorfCS)) (...)
 
 ## References
 
-An approach to the underlying cocycle of a Chern-Simons 2-gerbes in terms of [[Cech cohomology]] originates in 
+### Cech-Deligne cohomology
 
-* [[Jean-Luc Brylinski]] and [[Dennis McLaughlin]], _A geometric construction of the first Pontryagin class_ (1993) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-I.pdf))
+As cocycles in [[Cech cohomology|Cech]]-[[Deligne cohomology]] the Chern-Simons 2-gerbe has been constructed explicitly in 
 
-A related approach in terms of [[gerbe]]s properly in terms of [[stack]]s is
+* [[Jean-Luc Brylinski]] and Dennis McLaughlin, _A geometric construction of the first Pontryagin class_ (1993) ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-I.pdf))
+{#GeomConstructionFirst}
 
-* [[Jean-Luc Brylinski]] and [[Dennis McLaughlin]], _The geometry of degree-4 characteristic classes and of line bundles on loop spaces II_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-Duke-II.pdf)).
+as a special case of the general construction in 
 
-Among the first references to apply [[bundle gerbe]] technology to reffinements of the 4-class on $\mathcal{B}G$ to [[differential cohomology]] is
+* [[Jean-Luc Brylinski]] and Dennis McLaughlin, _Cech cocycles for characteristic classes_ ,  Communications in Mathematical Phiysics, Volume 178, Number 1, ([Springer](http://www.springerlink.com/content/762g1m76jp6425x5/))
+{#CechCocyclesForCharClasses}
+
+### The 2-gerbe realization {#2GerbeReferences}
+
+Conceived as a genuine [[gerbe]] the Chern-Simons 2-gerbe appears in
+
+
+* [[Jean-Luc Brylinski]] and Dennis McLaughlin, _The geometry of degree-4 characteristic classes and of line bundles on loop spaces II_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Brylinski-McLaughlin-Duke-II.pdf)).
+
+Among the first references to apply specifically [[bundle gerbe]] technology to this construction is 
 
 * [[Alan Carey]] and [[Stuart Johnson]] and [[Michael Murray]] and [[Danny Stevenson]] and [[Bai-Ling Wang]], _Bundle gerbes for Chern-Simons and Wess-Zumino-Witten theories_ Communications in Mathematical Physics, 259 (3). (2005) ([arXiv]())
+{#CJMS}
 
 This was later refined in 
 
@@ -60,6 +105,7 @@ This was later refined in
 Here are some slides from talks:
 
 * [[Konrad Waldorf]], _Multiplicative gerbes and Chern-Simons theory_ ([pdf](http://www.konradwaldorf.de/docs/bonn.pdf))
+{#WaldorfCS}
 
 * [[Krzysztof Gawedzki]], _Wess-Zumino-Witten and Chern-Simons theories for non-simply connected Lie groups_ ([pdf](http://dftuz.unizar.es/ftzar/activities/highenergy09_talks/gawedzki.pdf))
 
