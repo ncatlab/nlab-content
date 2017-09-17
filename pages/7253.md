@@ -9,9 +9,9 @@ A special case of _[[G-structure]]_.
 
 For $G \to K$ a [[monomorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _reduction_ of the [[structure group]] from $K$ to $G$.
 
-Alternatively, gor $G \to K$ an [[epimorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _lift_ of the structure group from $K$ to $G$.
+Alternatively, for $G \to K$ an [[epimorphism]] of groups, a $G$-structure on a $K$-[[principal bundle]] is a _lift_ of the structure group from $K$ to $G$.
 
-The distinction is, however, not quite "homotopy correct". For instance in the first steps of the [[Whitehead tower]] of the [[orthogonal group]]
+The distinction between epimorphism and monomorphism is, however, not quite "homotopy correct". For instance in the first steps of the [[Whitehead tower]] of the [[orthogonal group]]
 
 $$
   Spin(n) \to SO(n) \hookrightarrow O(n) (\hookrightarrow GL(n))
@@ -19,13 +19,25 @@ $$
 
 the morphism $Spin(n) \to SO(n)$ is epi, while $SO(n) \to O(n)$ is mono.
 
+
+
 ## Examples
 
-* [[vielbein]], [[orthogonal structure]],
+* reduction of [[tangent bundle]] along $O(n) \hookrightarrow GL(n)$:  [[vielbein]], [[orthogonal structure]],
 
-* [[generalized vielbein]]
+* reduction of [[generalized tangent bundle]] along $U(n,n) \hookrightarrow O(2n,2n)$: [[generalized complex geometry]], 
 
-  * [[generalized complex geometry]], [[type II geometry]], [[exceptional generalized geometry]]
+  * further reduction along $SU(n,n) \hookrightarrow O(2n,2n)$: [[generalized Calabi-Yau manifold]] ;
+
+    * for $n = 3$: further reduction along $SU(3) \times SU(3) \hookrightarrow SU(3,3)$, [N=2 type II sugra compactification](exceptional+generalized+geometry#HigherSupersymmetry)
+
+* reduction of [[generalized tangent bundle]] along $O(n) \times O(n) \hookrightarrow O(n,n)$: [[generalized vielbein]], [[type II geometry]];
+
+* reduction of [[exceptional tangent bundle]] along [[maximal compact subgroup]] of [[exceptional Lie group]] $H_n \hookrightarrow E_{n(n)}$: [[exceptional generalized geometry]]
+
+* reduction of [[exceptional tangent bundle]] along $SU(7) \hookrightarrow E_{7(7)}$: [N=1 11d sugra compactification on ](exceptional+generalized+geometry#HigherSupersymmetry)
+
+
  
 [[!redirects lift of structure groups]]
 
