@@ -26,7 +26,7 @@ whenever $a_0 = b_m$, and the target and source maps are given by $s(a_n,f_n,a_{
 
 ## Path category of a space
 
-Given a [[topological space]] $X$ (or some other kind of [[space]] with a notion of maps from [[intervals]] into it), there are various ways to obtain a category whose collection of objects is $X$, and whose morphisms are images of intervals in $X$, i.e. paths in $X$. This is also often called a _path category_. 
+Given a [[topological space]] $X$ (or some other kind of [[space]] with a notion of maps from [[intervals]] into it), there are various ways to obtain a category whose collection of objects is $X$, and whose morphisms are images of intervals in $X$, i.e. [[paths]] in $X$. This is also often called a _path category_. 
 
 * In particular, for every topological space there is its [[fundamental groupoid]] whose morphisms are [[homotopy]] classes of images of intervals in $X$.
 
