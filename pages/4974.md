@@ -1,3 +1,4 @@
+
 # Contents
 * automatic table of contents goes here
 {:toc}
@@ -76,3 +77,7 @@ and
 
 * [[G. Winskel]] and S. Staton, On the expressivity of symmetry in event structures,
 [LICS 2010](http://www.cl.cam.ac.uk/~gw104/lics2010final.pdf)
+
+
+[[!redirects event structure]]
+[[!redirects event structures]]
