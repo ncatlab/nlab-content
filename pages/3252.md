@@ -1,6 +1,52 @@
 
-A _subgroup_ is a [[subobject]] in the [[category]] [[Grp]] of [[group]]s.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _subgroup_ of a [[group]] $G$ is a "smaller" group $K$ sitting inside $G$.
+
+## Definition
+
+A _subgroup_ is a [[subobject]] in the [[category]] [[Grp]] of [[group]]s: a [[monomorphism]] of groups
+
+$$
+  K \hookrightarrow G
+  \,.
+$$
+
+Here $K$ is _a subgroup of $G$_. 
+
+## Special cases
+
+* [[normal subgroup]]
+
+* [[stabilizer subgroup]]
+
+* [[maximal compact subgroup]]
+
+* [[torsion subgroup]]
+
+* [[Borel subgroup]]
+
+* [[parabolic subgroup]]
+
+* [[generalized Fitting subgroup]]
+
+## Related concepts
+
+* [[Klein geometry]], [[Cartan geometry]]
 
 [[!redirects subgroup]]
 [[!redirects subgroups]]
