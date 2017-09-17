@@ -389,9 +389,9 @@ The [[groupoid]] $G_n(S)$ is equivalent to the disjoint union $\coprod_{[r] \in 
 
 In the generalized Reedy model structure, def. \ref{ReedyModelStructure}, 
 
-* Reedy cofibrations $f$ such that for all $n \in \mathbb{N}$ the morphism $Latch_n(f)$ is an objectwise weak equivalence have the [[left lifting property]] against fibrations;
+* Acyclic Reedy cofibrations $f$ such that for all $n \in \mathbb{N}$ the morphism $Latch_n(f)$ is an objectwise weak equivalence have the [[left lifting property]] against fibrations;
 
-* Reedy cofibrations have the [[left lifting property]] against Reedy fibrations $f$ with the special property that for all $n \in \mathbb{N}$ the morphism $Match_n(f)$ is an objectwise weak equivalence.
+* Acyclic Reedy cofibrations have the [[left lifting property]] against Reedy fibrations $f$ with the special property that for all $n \in \mathbb{N}$ the morphism $Match_n(f)$ is an objectwise weak equivalence.
 
 
 =--
@@ -422,7 +422,7 @@ $$
   A_0 \coprod_{L_0(A)} L_0(B) \to B_0
 $$
 
-is a cofibration in $[G_0, \mathcal{C}]$ by assumption, means that in fact $f_0 : A_0 \to B_0$ is an acyclic cofibration here. Similarly $Y_0 \o X_0$ is a fibration there. But $G_0(S) = S_{\leq 0}$ and so the restriction of the lifting problem along $t_0$
+is a cofibration in $[G_0, \mathcal{C}]_{proj/inj}$ by assumption, means that in fact $f_0 : A_0 \to B_0$ is an acyclic cofibration here. Similarly $Y_0 \to X_0$ is a fibration there. But $G_0(S) = S_{\leq 0}$ and so the restriction of the lifting problem along $t_0$
 
 $$
   \array{
@@ -448,7 +448,7 @@ $$
   }
 $$
 
-has been found. By lemma \ref{LatchingIsSkeleton} this induces maps $Latch_n(B) \to Latch_{Y}$ and $Match_n(B) \to Match_n(Y)$ from which we can build the commuting diagram
+has been found. By lemma \ref{LatchingIsSkeleton} this induces maps $Latch_n(B) \to Latch_n (Y)$ and $Match_n(B) \to Match_n(Y)$ from which we can build the commuting diagram
 
 \[
   \label{MainLiftingDiagram}
@@ -461,8 +461,9 @@ has been found. By lemma \ref{LatchingIsSkeleton} this induces maps $Latch_n(B) 
     \\
     B_n &\to& X_n \times_{Match_n X} Match_n Y
   }
-  \,.
 \]
+
+in $[G_n(S), \mathcal{C}]$.
 
 Here for instance the top horizontal morphism comes from the commutativity of the square
 
@@ -478,7 +479,7 @@ $$
 
 by naturality of the $(sk_{n-1} \dashv t_{n-1}^*)$-counit.
 
-We observe now that a lift in (eq:MainLiftingDiagram) in $[G_n, \mathcal{C}]_{proj/inj}$ completes the induction step. For instance in the top left the lift
+We observe now that finding a lift in (eq:MainLiftingDiagram) will complete the induction step. To see this in more detail, notice that in the top left the lift
 
 $$
   \array{
@@ -506,20 +507,38 @@ is
     }
   $$
 
-* which is compatible with the previously chosen $\gamma_{\leq (n-1^)}$
+* such that it makes
 
-By assumption the left vertical morphism is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. It is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{E}$ over each $s \in S$.
+  $$
+    \array{
+      Latch_n(B) &\to& Latch_n(Y)
+      \\  
+      \downarrow && \downarrow
+      \\
+      B_n &\stackrel{\gamma_n}{\to}& Y_n
+    }
+  $$
+  
+  commute. 
 
-By assumption we know that $L_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
+This is precisely the data needed to extend $\gamma_{\leq (n-1)}$ to $\gamma_{\leq n}$ (the first diagram defines $\gamma_{\leq n}$ on the new objects in degree $n$, the second says that this is indeed natural with respect to the components already contained in $\gamma_{\leq (n-1)}$).
+
+
+By assumption, the left vertical morphism in (eq:MainLiftingDiagram) is a cofibration in $[G_n, \mathcal{C}]_{proj/inj}$, and the right vertical morphism is a fibration there. Therefore to get the lift and hence complete the induction step, it is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{E}$ over each $s \in S$.
+
+Also by assumption we have that $L_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
 (A_s \coprod_{L_n(A)_s} L_n(B)_s)$. The morphism $v_n(s)$ finally sits in the diagram
 
 $$
   \array{
-    A_r &\stackrel{f_r}{\to}& B_r
+    Latch_n(A)_s
+    &\to&
+    A_s &\underoverset{\simeq}{f_s}{\to}& B_s
     \\
-    \downarrow  & \nearrow_{\mathrlap{v_n(s)}}
+    \downarrow^{\mathrlap{\simeq}} &&
+    \downarrow^{\mathrlap{\simeq}}  & \nearrow_{\mathrlap{v_n(s)}}
     \\
-    (A_s \coprod_{L_n(A)_s} L_n(B)_s)
+    Latch_n(B)_s &\to& (A_s \coprod_{L_n(A)_s} L_n(B)_s)
   }
 $$ 
 
