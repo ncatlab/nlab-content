@@ -47,7 +47,7 @@ a representative singular $k$-sphere $f$ in $X$ to the push-forward along $f$ of
 The Hurewicz homomorphism is a [[natural transformation]] between
 
 $$
-  \Phi : \pi_n(-) \to H_k(-)
+  \Phi : \pi_k(-) \to H_k(-)
 $$
 
 between [[functors]] $Top^{*/} \to $ [[Ab]].
