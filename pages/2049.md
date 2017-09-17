@@ -61,10 +61,10 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         2.  [[free frame]]
         3.  [[point of a locale]], [[completely prime filter]], [[prime element]]
         4.  adjunction between $Loc$ and $Top$
-        5.  [[atom]], [[spatial locale]]
+        5.  [[spatial locale]]
         6.  [[irreducible closed subspace]], [[sober space]]
         7.  [[soberification]], $T_D$-[[T-D-space|space]]
-        8.  [[specialization]], [[Alexandrov topology]], [[upper set]], [[upper interval topology]]
+        8.  [[specialization order]], [[Alexandrov topology]], [[upper set]], [[upper interval topology]]
         9.  [[Scott topology]]
         10. (none)
         11. enrichment of $Loc$ over $Pos$
