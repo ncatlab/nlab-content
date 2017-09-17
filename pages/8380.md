@@ -156,6 +156,10 @@ Generalization from [[monads]] to [[relative monads]] is discussed in
 
 * [[Thorsten Altenkirch]], James Chapman, Tarmo Uustalu, _Monads need not be endofunctors_ ([pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf))
 
+Discussion of [[comonads]] in this context includes
+
+* {#Overton14} David Overton, _Comonads in Haskell_, 2014 ([web](https://speakerdeck.com/dmoverton/comonads-in-haskell))
+
 ### In quantum computation
 
 
