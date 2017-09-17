@@ -1,3 +1,8 @@
+
+This entry is about a generalized notion of [[topology]]. For the notion of _formal space_ in the sense of [[rational homotopy theory]] see [[formal dg-algebra]].
+
+***
+
 # Formal topology
 * table of contents
 {: toc}
