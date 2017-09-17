@@ -55,6 +55,9 @@ See
 Some candidate [[astrophysics|astrophysical]] objects which seem to point to black hole have been observed. 
 
 
+## Related concepts
+
+* [[black brane]]
 
 ## References
 
