@@ -379,14 +379,14 @@ This completes the proof of the Main Theorem (theorem \ref{conc}).
 
 +-- {: .num_theorem} 
 ###### Theorem 
-A function between two topological spaces $f: X \to Y$ is continuous if and only if $\xi \circ f \leq \beta(f) \circ \theta$ for their respective topological notions of convergence $\xi, \theta$. 
+A function between two topological spaces $f: X \to Y$ is continuous if and only if $f \circ \xi \leq \theta \circ \beta(f)$ for their respective topological notions of convergence $\xi, \theta$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Suppose first that $f$ is continuous, and that $(F, y) \in \beta(X) \times Y$ belongs to $\xi \circ f$, i.e., there is $x$ such that $F \rightsquigarrow x$ and $f(x) = y$. We want to show $\beta(f)(F) \rightsquigarrow y = f(x)$, or that any open set $V$ containing $f(x)$ belongs to $\beta(f)(F)$. The latter means $f^{-1}(V) \in F$, which is true since $f^{-1}(V)$ is an open set containing $x$ and $F \rightsquigarrow x$. 
+Suppose first that $f$ is continuous, and that $(F, y) \in \beta(X) \times Y$ belongs to $f \circ \xi$, i.e., there is $x$ such that $F \rightsquigarrow x$ and $f(x) = y$. We want to show $\beta(f)(F) \rightsquigarrow y = f(x)$, or that any open set $V$ containing $f(x)$ belongs to $\beta(f)(F)$. The latter means $f^{-1}(V) \in F$, which is true since $f^{-1}(V)$ is an open set containing $x$ and $F \rightsquigarrow x$. 
 
-Now suppose $\xi \circ f \leq \beta(f) \circ \theta$. To show $f$ is continuous, it suffices to show that 
+Now suppose $f \circ \xi \leq \theta \circ \beta(f)$. To show $f$ is continuous, it suffices to show that 
 
 $$f(\bar{A}) \subseteq \widebar{f(A)}$$ 
 
