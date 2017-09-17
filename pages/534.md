@@ -34,7 +34,7 @@ Examples of non-chronological Lorentzian manifolds are the [[anti de Sitter spac
 
 While the former is more of a theoretical interest due to the maximality of the symmetry group, the latter is usually seen as a solution with relevance to actual _physics_, despite the fact that causality does not hold everywhere.
 
-Note that the property of being chronological is not strong enough to enforce causality as understood in everyday life: Even if there are no _closed_ future-directed curves, there still may be e.g. nonclosed _ergodic_ future-directed curves (they come close to every point they already passed in the "past"). An often used stronger condition that models the everyday notion of causality is that the manifold has to be [[globally hyperbolic]] ([globally hyperbolic] (http://en.wikipedia.org/wiki/Globally_hyperbolic)), which, as already mentioned, excludes certain solutions modelling e.g. black holes. 
+Note that the property of being chronological is not strong enough to enforce causality as understood in everyday life: Even if there are no _closed_ future-directed curves, there still may be e.g. nonclosed _ergodic_ future-directed curves (they come close to every point they already passed in the "past"). An often used stronger condition that models the everyday notion of causality is that the manifold has to be [[globally hyperbolic manifold|globally hyperbolic]] ([globally hyperbolic] (http://en.wikipedia.org/wiki/Globally_hyperbolic)), which, as already mentioned, excludes certain solutions modelling e.g. black holes. 
 
 #### Being causal means being a poset
 
@@ -229,11 +229,10 @@ _[[Urs Schreiber|Urs]]_: Yes, exactly. There was the idea that, since many finit
 =--
 
 
-
+[[!redirects smooth Lorentzian space]]
+[[!redirects smooth Lorentzian spaces]]
 
 [[!redirects Lorentzian manifold]]
-[[!redirects smooth Lorentzian manifold]]
-
-[[!redirects smooth Lorentzian spaces]]
 [[!redirects Lorentzian manifolds]]
+[[!redirects smooth Lorentzian manifold]]
 [[!redirects smooth Lorentzian manifolds]]
