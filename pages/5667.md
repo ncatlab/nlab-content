@@ -306,7 +306,12 @@ of such [[spaces]].
 
 See the corresponding [references below](#ReferencesInTermsOfCorrespondences).
 
-Such a description by abelianizations of [[correspondences]] is reminiscent of similar constructions of [[motivic cohomology]]. For more on this see at _[[motive]]_ in the section _[motive -- Relation to KK-theory](motive#RelationToKKTheory)_.
+Such a description by abelianizations of [[correspondences]] is reminiscent of similar constructions of [[motivic cohomology]]. See [below](#AsAnAnalogOfMotives).
+
+### As an $C^\ast$-algebraic analog of motives
+ {#AsAnAnalogOfMotives}
+
+To some extent [[KK-theory]]/[[E-theory]] look like an analogue in [[noncommutative topology]] of what in [[algebraic geometry]] is the category of [[motives]]. ([Meyer 06](#Meyer06)). Specifically the characterization in terms of spans/correspondences [above](#InTermsOfCorrespondences) is reminiscent to the definition of [[Chow motives]]. A relation between bivariant [[algebraic K-theory]] and [[motivic cohomology]] is discussed in ([Garkusha-Panin 11](#GarkushaPanin11)).
 
 ## Properties
 
@@ -500,6 +505,9 @@ Introductions and surveys include
 
 * Heath Emerson, [[R. Meyer]] (notes taken by S. Hong), _KK-theory and Baum-Connes conjecture_, Lectures at _Summer school on operator algebras and noncommutative geometry_ (June 2010) ([pdf](http://www.pims.math.ca/files/EM_%20KK-theory_BC_Conjecture.pdf))
 
+* [[R. Meyer]], _How analysis and topology interact in bivariant K-theory_, 2006 ([pdf](http://mate.dm.uba.ar/~gcorti/article.pdf))
+ {#Meyer06}
+
 ### Excision
 
 Excision for KK-theory is further studied in 
@@ -639,6 +647,19 @@ Further developments of this are in
 * [[Heath Emerson]], Robert Yuncken, _Equivariant correspondences and the Borel-Bott-Weil theorem_ ([arXiv:0905.1153](http://arxiv.org/abs/0905.1153))
 
 For similar structures see also at _[[motive]]_ in the section _[Relation to bivariant K-theory](motive#RelationToKKTheory)_.
+
+### Relation to motives
+ {#RelationToMotives}
+
+The general analogy between KK-cocycles and [[motives]] is noted for instance in ([Meyer 06](#Meyer06)).  
+
+A relation between [[motivic cohomology]] and bivariant [[algebraic K-theory]] is discussed in 
+
+* [[Grigory Garkusha]], Ivan Panin, _K-motives of algebraic varieties_ ([arXiv:1108.0375](http://arxiv.org/abs/1108.0375))
+ {#GarkushaPanin11}
+
+* [[Grigory Garkusha]], _Algebraic Kasparov K-theory. II_ ([arXiv:1206.0178](http://arxiv.org/abs/1206.0178))
+
 
 ### In D-brane theory
 
