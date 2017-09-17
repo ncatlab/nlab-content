@@ -32,6 +32,8 @@ If an open cover has the property that all the $U_i$ and all of their finite non
 
 ## Related concepts
 
+* [[closed cover]]
+
 * [[schedule]]
 
 
