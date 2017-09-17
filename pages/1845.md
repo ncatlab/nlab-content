@@ -198,6 +198,8 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
   * [[K-theory of a bipermutative category]]
 
+* [[groupoid K-theory]]
+
 * [[operator K-theory]]
 
   * [[equivariant operator K-theory]]
