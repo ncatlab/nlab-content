@@ -19,7 +19,7 @@
 
 ## Idea
 
-A locally presentable category is one where every [[object]] is a [[colimit]] over a [[set]] of [[small object]]s.
+A locally presentable category is one where every [[object]] is a [[colimit]] over a [[set]] of [[small object]]s. 
 
 
 ## Definition
@@ -132,6 +132,7 @@ This deserves much further expansion, as it is a basic starting point for the mo
 
 *  The generalization of the concept to the context of [[(infinity,1)-category|(infinity,1)-categories]] is [[presentable (infinity,1)-category]].
 
+* Locally presentable categories are a special case of [[locally bounded category|locally bounded categories]].
 
 ### Terminology
 
