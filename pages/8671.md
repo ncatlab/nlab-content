@@ -1,5 +1,13 @@
 
+* [webpage](http://www.physics.ucdavis.edu/Text/Carlip.html)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Steve_Carlip)
+
+## related $n$Lab entries
+
+* [[3d quantum gravity]]
+
+* [[black hole entropy]]
 
 category: people
 
