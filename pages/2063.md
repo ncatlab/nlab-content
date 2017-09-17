@@ -58,7 +58,14 @@ In an [[additive category]] fibers over the [[zero object]] are called _[[kernel
 
 ### Fibers of a sheaf of modules
 
-The fiber of a sheaf $\mathcal{E}$ of $\mathcal{O}$-modules over a [[locally ringed space]] $(X,\mathcal{O})$ is the vector space $\mathcal{E}(x) \coloneqq \mathcal{E}_x \otimes_{\mathcal{O}_x} k(x)$ over the [[residue field]] $k(x)$.
+The fiber of a sheaf $\mathcal{E}$ of $\mathcal{O}$-modules over a [[locally ringed space]] $(X,\mathcal{O})$ at a point $x \in X$ is defined as the vector space $\mathcal{E}(x) \coloneqq \mathcal{E}_x \otimes_{\mathcal{O}_x} k(x)$ over the [[residue field]] $k(x)$. If $\mathcal{E}$ is [[quasicoherent sheaf|quasicoherent]], the associated vector bundle of the fiber is the pullback of the associated vector bundle of $\mathcal{E}$:
+$$ \array {
+   V(\mathcal{E}(x)) = \mathrm{Spec} \mathrm{Sym} \mathcal{E}(x)
+     & \to
+     & \underline{Spec}_X \mathrm{Sym} \mathcal{E} = V(\mathcal{E}) \\
+   \downarrow & & \downarrow \\
+   \mathrm{Spec} k(x) & \to & X
+} $$
 
 
 
