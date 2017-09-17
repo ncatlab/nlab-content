@@ -86,18 +86,23 @@ This definition should be the conclusion of a theorem that using certain languag
 
 ## Examples
 
-The most common source of of breaking of equivalence-invariance is a statement that two [[objects]] of a given category are [[equality|equal]].  One should instead say that they are [[isomorphism|isomorphic]] and then (usually) impose some [[coherence relation]] on the relevant family of isomorphisms.  But of course, this is more complicated!
+### In category theory
+
+The most common source of of breaking of equivalence-invariance is a statement that two [[objects]] of a given [[category]] are [[equality|equal]].  One should instead say that they are [[isomorphism|isomorphic]] and then (usually) impose some [[coherence relation]] on the relevant family of isomorphisms.  But of course, this is more complicated!
 
 It does not break equivalence-invariance to state that two [[morphisms]] are equal, given a common [[source]] and [[target]]; this is because a [[hom-set]] is a [[set]], where equality is meaningful.  However, it violates the principle of equivalence to state that two morphisms are equal if the source and target are *not* given, because this includes the claim that their sources (which are objects) are equal, and similarly for the targets.
+
+#### In higher category theory
 
 It violates the principle of equivalence to state that two morphisms in a $2$-[[2-category|category]] are equal, because these morphisms are objects in a [[hom-category]], but does not violate the principle of equivalence to state that that two $2$-morphisms are equal, given a common source and target.  And so on.  In an $\infty$-[[infinity-category|category]], *every* claim of equality break equivalence-invariance.
 
 Defining higher categorial structures using such equalities violating equivalence-invariance tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
 
 
-### Principle of equivalence in quantum theory {#daggers}
+#### In the concept of $\dagger$-categories
+  {#daggers}
 
-The concept of [[dagger-category|†-category]] is important in [[topological quantum field theory]] and [[quantum computation]].  A **[[†-category]]** is a category $C$ with a functor
+A **[[†-category]]** is a category $C$ with a functor
 
 $$F\colon C \to C^{op} $$
 
@@ -188,6 +193,20 @@ _Toby_:  I did the diagrams a bit, but I don\'t have any more time for a complet
 [[Mike Shulman]]: Okay, you are right.  "Transporting along an equivalence" should mean that the forgetful functor is an equiv-fibration, i.e. lifts entire adjoint equivalences rather than merely functors that happen to be equivalences.  I think I disagree, however, that primitive operations (in something that we want to think of as a kind of category theory) should be freely allowed to talk about objects and be strict; I think they should also be formulated in a dependent type theory that only uses equality of objects as a typing assertion.  Dagger categories also satisfy this property.
 =--
 
+
+### In physics
+
+#### In gauge theory
+
+See at
+
+* [[gauge transformation]], [[gauge equivalence]], [[gauge invariance]]
+
+#### In gravity
+
+See at
+
+* [[general covariance]]
 
 ## References
  {#References}
