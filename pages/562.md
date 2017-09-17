@@ -158,3 +158,6 @@ For [[(∞,1)-category|(∞,1)-categories]] the notion of fibered category is mo
 
 [[!redirects two-sided fibration]]
 [[!redirects two-sided fibrations]]
+
+[[!redirects Street fibration]]
+[[!redirects Street fibrations]]
