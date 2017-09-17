@@ -83,6 +83,11 @@ See [[von Neumann algebra]] for motivation of the predual.
 Coming ... but basically, $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.
 
 
+## Examples
+
+The main example of a $JB$-algebra is the algebra of [[self-adjoint operator]]s in a $C^*$-[[C-star-algebra|algebra]].  For a $JBW$-algebra, try the algebra of self-adjoint operators in a [[von Neumann algebra]].
+
+
 ## References
 
 Most of what appears here is from
