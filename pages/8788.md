@@ -50,7 +50,7 @@ based on
 
 and is highlighted in the general context of [[geometric quantization]] in 
 
-* [[Viktor Ginzburg]], [[Victor Guillemin]], [[Yael Karshon]], _Moment maps, cobordisms, and Hamiltonian group actions_
+* [[Viktor Ginzburg]], [[Victor Guillemin]], [[Yael Karshon]], _Moment maps, cobordisms, and Hamiltonian group actions_, AMS (2002)
 
   (Section 6.8 "Geometric quantization as a push-forward")
 
