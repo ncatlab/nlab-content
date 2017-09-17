@@ -550,7 +550,7 @@ The abstract discussion of twisted nonabelian cohomology in $\infty$-toposes is 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]],  _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
   {#NikolausSchreiberStevenson12}
 
-The abstract discussion of twisted ES-type cohomology in the [[stable (infinity,1)-caregory of spectra]] is in
+The abstract discussion of twisted ES-type cohomology in the [[stable (infinity,1)-category of spectra]] is in
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  {#ABG10}
