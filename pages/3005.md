@@ -25,6 +25,7 @@ An equivalent, and sometimes easier, way to state thess conditions is to say tha
 
 This is because a conservative functor [[reflected limit|reflects]] any limits or colimits which exist in its domain and it [[preserved limit|preserves]], while monadic functors are always conservative.
 
+## Variations
 
 ### The crude monadicity theorem
 
@@ -32,9 +33,44 @@ The __crude monadicity theorem__ gives a *sufficient*, but not necessary, condit
 
 1. $U$ has a left adjoint
 2. $U$ reflects isomorphisms
-3. $D$ has and $U$ preserves coequalizers of reflexive pairs
+3. $D$ has and $U$ preserves coequalizers of [[reflexive coequalizer|reflexive pairs]].
 
-where a parallel pair $f,g : a \rightarrow b$ is __reflexive__ if $f$ and $g$ have a common [[section]].  This sufficient, but not necessary, condition is sometimes easier to verify in practice.  In contrast to the crude monadicity theorem, the necessary and sufficient condition above is sometimes called the __precise monadicity theorem__.
+(Recall that a parallel pair $f,g : a \rightarrow b$ is __reflexive__ if $f$ and $g$ have a common [[section]].)  This sufficient, but not necessary, condition is sometimes easier to verify in practice.  In contrast to the crude monadicity theorem, the necessary and sufficient condition above is sometimes called the __precise monadicity theorem__.
+
+### Duskin's monadicity theorem
+
+Duskin's monadicity theorem gives a different sufficient, but not necessary, condition which refers only to quotients of [[congruences]].  It says that a functor $U \colon D \to C$ is monadic if
+
+1. $U$ has a left adjoint
+1. $D$ and $C$ are [[finitely complete category|finitely complete]]
+1. $U$ [[created limit|creates]] coequalizers for [[congruences]] in $D$ whose images in $C$ have split coequalizers.
+
+We can weaken the hypothesis a bit further to obtain the theorem:
+
+* A right adjoint between finitely complete categories is monadic if it creates [[quotients]] for [[congruences]].
+
+As usual, we can also modify it by replacing reflection of limits by reflection of isomorphisms.
+
+* A conservative right adjoint $U\colon D \to C$ between finitely complete categories is monadic if any congruence in $D$ which has a quotient in $C$ already has a quotient in $D$, and that quotient that is preserved by $U$.
+
+If we view the objects of $D$ as underlying $C$-objects with structure, this says that any congruence in $D$ induces a $D$-structure on its quotient in $C$.  As with the crude monadicity theorem, this condition is sometimes easier to verify since quotients of congruences are often better-behaved than arbitrary coequalizers.  This is the case in many "algebraic" situations.
+
+Duskin actually gave a slightly more precise version only assuming the categories $C$ and $D$ to have particular finite limits, rather than all of them.
+
+### Monadicity over Set
+
+In the case when the base category $C$ is [[Set]], one can further refine the requisite conditions.  Linton proved that a functor $U\colon D\to Set$ is monadic if and only if
+
+1. $U$ has a left adjoint,
+1. $D$ admits [[kernel pairs]] and [[coequalizers]],
+1. A [[parallel pair]] $R \rightrightarrows S$ in $D$ is a kernel pair if and only if its image under $U$ is so, and
+1. A morphism $A\to B$ in $D$ is a [[regular epimorphism]] if and only if its image under $U$ is so.
+
+There are other versions of this theorem, including generalizations to monadicity over [[presheaf categories]], which can be viewed as analogues of [[Giraud's theorem]].
+
+### Strict monadicity
+
+The version of the monadicity theorem given in [[Categories Work]] uses an [[evil]] notion of "creation of limits" and concludes that the comparison functor is an *isomorphism* of categories, rather than merely an equivalence.  But the versions mentioned above can be found in the excercises.
 
 
 ## In $(\infty,1)$-categories
