@@ -143,12 +143,13 @@ Lecture notes include
 
 Relevant textbooks include
 
-* R. Brown, "Topology and groupoids", Booksurge 2006.
+* [[R. Brown]], _Topology and groupoids_, Booksurge 2006.
 
-* P.J. Higgins and J. Taylor,  The Fundamental Groupoid and
-  Homotopy Crossed Complex of an Orbit Space, in K.H. Kamps et al., ed.,
+* [[P. J. Higgins]] and J. Taylor,  _The Fundamental Groupoid and
+  Homotopy Crossed Complex of an Orbit Space_, in K.H. Kamps et al., ed.,
    Category Theory: Proceedings Gummersbach 1981, Springer LNM
   962  (1982) 115--122.
+
 
 
 [[!redirects semidirect product]]
