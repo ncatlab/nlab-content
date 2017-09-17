@@ -69,13 +69,17 @@ There are further generalizations like unbounded resolutions etc.
 
 * [[fibrant object]]
 
+[[!redirects resolutions]]
+
 [[!redirects fibrant resolution]]
 [[!redirects cofibrant resolution]]
 
 
 [[!redirects projective resolution]]
 [[!redirects injective resolution]]
-[[!redirects resolutions]]
+[[!redirects projective resolutions]]
+[[!redirects injective resolutions]]
+
 
 [[!redirects cofibrant replacement functor]]
 [[!redirects fibrant replacement functor]]
