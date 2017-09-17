@@ -50,9 +50,9 @@ Blog [discussion](http://golem.ph.utexas.edu/category/2007/06/the_curious_incide
 
 Literature:
 
-* J.-L. Loday, Cyclic homology, Grundleheren Math.Wiss. 301, Springer 2nd ed.
+* [[J.-L. Loday]], _Cyclic homology_, Grundleheren Math.Wiss. 301, Springer 2nd ed.
 
-* V. Drinfeld, On the notion of geometric realization, [arXiv:math.CT/0304064](http://front.math.ucdavis.edu/0304.5064)
+* [[V. Drinfeld]], On the notion of geometric realization, [arXiv:math.CT/0304064](http://front.math.ucdavis.edu/0304.5064)
 
 * [[Alain Connes]], Noncommutative geometry, Academic Press 1994
 (also at <http://www.alainconnes.org/>)
