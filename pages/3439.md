@@ -71,6 +71,8 @@ A classical instance of gauge fixing is when $X=\tilde{X}//G$ is an action group
 
 ## Related concepts
 
+* [[gauge]]
+
 * [[gauge group]], [[gauge transformation]]
 * [[spontaneously broken symmetry]]
 * [[Gribov ambiguity]]
