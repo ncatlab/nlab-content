@@ -3,8 +3,8 @@
 
  [[logic]]                      |   [[type theory]]
 --------------------------------|------------------------------
- [[proposition]]                |   [[h-level]] 1
- [[true]]                       |   [[unit type]] / [[h-level]] 0
+ [[proposition]]                |   [[h-level 1]] / [[hProp]] 
+ [[true]]                       |   [[unit type]] / [[h-level 0]] 
  [[false]]                      |   [[empty type]]
  [[conjunction]]                |   [[product type]]
  [[disjunction]]                |   [[sum type]] ([[bracket type]] of)
@@ -12,3 +12,5 @@
  [[universal quantification]]   |   [[dependent product type]]      
  [[existential quantification]] |   [[dependent sum type]] ([[bracket type]] of)
  [[equivalence]]                |   [[identity type]]
+ [[quotient]]                   |   [[quotient type]]
+ [[Set]]                        |   [[hSet]] / [[h-level 2]]
