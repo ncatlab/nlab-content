@@ -99,6 +99,8 @@ $$
 
 * [[eta invariant]]
 
+* [[fiber integration in differential K-theory]]
+
 [[!redirects topological indices]]
 
 [[!redirects index of an operator]]
