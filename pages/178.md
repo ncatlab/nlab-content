@@ -5254,14 +5254,34 @@ $\Omega^\bullet(U) \to \Omega^\bullet_{si}(U \times \Delta^k)$.
 
 =--
 
-+-- {: .un_def}
-###### Definition
 
-(...)
++-- {: .un_prop }
+###### Proposition
 
-* [[connection on an ∞-bundle]]
+For $X \in SmoothMfd \hookrightarrow Smooth \infty Grpd$
+any paracompact [[smooth manifold]], with $\mathfrak{g} \in L_\infty$ and any $n \in \mathbb{N}$, we have that 
 
-(...)
+$$
+  \pi_0 [CartSp_{smooth}^{op}, sSet](C(\{U_i\}), \mathbf{cosk}_{n+1} \exp(\mathfrak{g})_{ChW})
+   \to 
+  \pi_0 [CartSp_{smooth}^{op}, sSet](C(\{U_i\}), \mathbf{cosk}_{n+1} \exp(\mathfrak{g}))
+$$
+
+is surjective.
+
+=--
+
+For the proof see [[connection on a smooth principal ∞-bundle]].
+
++-- {: .un_remark}
+###### Remark
+
+This shows that $\exp(\mathfrak{g})_{ChW}$ serves as a convenient
+object on which the differential characteristic classes of 
+$\exp(\mathfrak{g})$ are supported.
+
+For more see [[connection on a smooth principal ∞-bundle]].
+
 
 =--
 
