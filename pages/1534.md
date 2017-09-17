@@ -48,7 +48,7 @@ This specifies composition uniquely.
 ###### Definition
 
 
-For $(C, \otimes)$ a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] let $End(C)$ be its [[endomorphism operad]]. A **prefactroization algebra** on $X$ with values in $C$ is an [[algebra over an operad]] over $Fact_X$ in $C$, hence a morphism of operads
+For $(C, \otimes)$ a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] let $End(C)$ be its [[endomorphism operad]]. A **prefactorization algebra** on $X$ with values in $C$ is an [[algebra over an operad]] over $Fact_X$ in $C$, hence a morphism of operads
 
 $$
   \mathcal{F} : Fact_X \to End(C)
@@ -64,7 +64,7 @@ These definitions appear ([here](http://math.northwestern.edu/~costello/factoriz
 +-- {: .un_defn #FactorizingCover}
 ###### Definition
 
-For $X$ a [[topological space]] and $U \subset X$ an [[open subset]], a [[open cover]] $\{U_i \hookrightarrow U\}_{i \in I}$ is called a **factorizing cover** if for every [[finite set]] of points $\{x_1, \cdots, x_k\} \subste U$ there is a finite subset $\{U_{i_j}\}_{j \in J \subset I} $ of pairwise disjoint open subsets such that each point is contained in ther union.
+For $X$ a [[topological space]] and $U \subset X$ an [[open subset]], a [[open cover]] $\{U_i \hookrightarrow U\}_{i \in I}$ is called a **factorizing cover** if for every [[finite set]] of points $\{x_1, \cdots, x_k\} \subset U$ there is a finite subset $\{U_{i_j}\}_{j \in J \subset I} $ of pairwise disjoint open subsets such that each point is contained in their union.
 
 =--
 
@@ -81,7 +81,7 @@ Every [[Hausdorff space]] admits a factorizing cover.
 ###### Notation
 
 
-For a factorizing cover $\{U_i \to U\}_{i \in I}$ write $P I$ for the set of finite subsets $\alpha \subset I$ such that for $j,j' \in \alpha$ we have $U_j \cap U_{j'} = \epmtyset$. 
+For a factorizing cover $\{U_i \to U\}_{i \in I}$ write $P I$ for the set of finite subsets $\alpha \subset I$ such that for $j,j' \in \alpha$ we have $U_j \cap U_{j'} = \emptyset$. 
 
 Given a [prefactorization algebra](#PrefactorizationAlgebra) $\mathcal{F}$ and $\alpga \in P I$ write 
 
