@@ -17,14 +17,49 @@
 
 ### Symplectomorphisms
 
-A **symplectomorphism** from a [[symplectic manifold]] $(M,\omega)$ to a symplectic manifold $(N,\nu)$ is a [[diffeomorphism]] $f : M \to N$ preserving the [[symplectic form]]: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
+A **symplectomorphism** from a [[symplectic manifold]] $(X_1,\omega_1)$ to a symplectic manifold $(X_2,\omega_2)$ is a [[diffeomorphism]] $\phi : X \to Y$ preserving the [[symplectic form]], i.e. such that 
+
+$$
+  \phi^* \omega_2 = \omega_1
+  \,.
+$$ 
 
 ### Auto-symplectomorphisms
+ {#AutoSymplectomorphisms}
 
-The symplectomorphisms from a [[symplectic manifold]] $(X, \omega)$ to itself form an infinite-dimensional [[Lie group]], the _[[symplectomorphism group]]_. Its [[Lie algebra]] is that of [[symplectic vector fields]]: those vector fields $v \Gamma(T X)$ such that their [[Lie derivative]] preserves the [[symplectic form]]
+The symplectomorphisms from a [[symplectic manifold]] $(X, \omega)$ to itself form an infinite-dimensional [[Lie group]] that is a [[subgroup]] of the [[diffeomorphism group]] of $X$, the _[[symplectomorphism group]]_:
+
+$$
+  Sympl(X, \omega) 
+  \hookrightarrow
+  Diff(X)
+  \,.
+$$ 
+
+Its [[Lie algebra]] 
+
+$$
+  \mathfrak{SymplVect}(X, \omega) \hookrightarrow \mathfrak{Vect}(X)
+$$
+
+is that of [[symplectic vector fields]]: those [[vector fields]] 
+$v \in  \mathfrak{Vect}(X)$ such that their [[Lie derivative]] annihilates the [[symplectic form]]
 
 $$
   \mathcal{L}_v \omega = 0
+  \,.
+$$
+
+The further [[subgroup]] corresponding to those symplectic vector fields which are [[Hamiltonian vector fields]]
+
+$$
+  \mathfrak{HamVect}(X, \omega) \hookrightarrow \mathfrak{SymplVect}(X, \omega) \hookrightarrow \mathfrak{Vect}(X)
+$$
+
+is the group of **Hamiltonian symplectomorphisms** 
+
+$$
+  HamSympl(X,\omega) \hookrightarrow Sympl(X, \omega) \hookrightarrow Diff(X)
   \,.
 $$
 
