@@ -26,6 +26,8 @@ Spectra of noetherian rings are glued together to define [[noetherian scheme|loc
 
 * [[Noetherian poset]]
 
+* [[Noetherian E-∞ ring]]
+
 ## References
 
 * [wikipedia](http://en.wikipedia.org/wiki/Noetherian_ring), _[[noetherian object]]_
