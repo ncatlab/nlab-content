@@ -60,6 +60,8 @@
 
 * [[proper model category]]
 
+* [[cartesian closed model category]], [[locally cartesian closed model category]]
+
 * [[stable model category]]
 
 ## Producing new model structures
