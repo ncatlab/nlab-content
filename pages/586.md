@@ -56,7 +56,7 @@ The decidable $K$-finite objects in any topos also form a Boolean topos whose su
 
 * In particular, if $C$ is a groupoid, the topos of decidable $K$-finite objects is equivalent to $[C^{op},FinSet]$.  Since the topos of presheaves on a groupoid is Boolean, this gives an example of a Boolean topos in which the finite cardinals ("externally finite objects") and the (decidable) $K$-finite objects ("internally finite objects") fail to coincide.
 
-* In $Sh(X)$, the decidable K-finite objects are those that are "locally finite;" i.e. there is an open cover of $X$ such that over each open in the cover, the sheaf is a locally constant function to $N$.  These are essentially the same as [[covering space|covering spaces]] of $X$.
+* In $Sh(X)$, the decidable K-finite objects are those that are "locally finite;" i.e. there is an open cover of $X$ such that over each open in the cover, the sheaf is a locally constant function to $N$.  These are essentially the same as [[covering space|covering spaces]] of $X$ with finite fibres.
 
 +--{.query}
 _Toby_: I think that I\'ll move the internal stuff to [[finite object]], to keep each page relatively short.
