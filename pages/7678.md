@@ -6,7 +6,7 @@ This entry is about a section of the text
 * Michel [[Demazure, lectures on p-divisible groups]], [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 We give here another characterization of the [[Frobenius morphism]] in terms of symmetric products.
 
-Let $p$ be a prime number, let $k$ be a filed of [[characteristic]] $p$, let $V$ be a $k$-vector space, let $\otimes^p V$ denote the $p$-fold tensor power of $V$, let $TS^p V$ denote the subspace of symmetric tensors. Then we have the symmetrization operator
+Let $p$ be a prime number, let $k$ be a field of [[characteristic]] $p$, let $V$ be a $k$-vector space, let $\otimes^p V$ denote the $p$-fold tensor power of $V$, let $TS^p V$ denote the subspace of symmetric tensors. Then we have the symmetrization operator
 
 $$s_V:
 \begin{cases}
