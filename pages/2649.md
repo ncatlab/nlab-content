@@ -46,6 +46,12 @@ By this definition, the [[initial object]] of $C$ is *not* connected (except for
 * Objects in a [[locally connected topos]] such as $G$-$Set$ are [[coproduct]]s of connected objects. 
 
 
+## Related concepts
+
+* [[n-connected object in an (∞,1)-topos]]
+
+
+
 [[!redirects connected object]]
 [[!redirects connected objects]]
 
