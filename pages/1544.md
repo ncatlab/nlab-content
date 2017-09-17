@@ -273,14 +273,14 @@ Choose a [[partition of unity]] $(\rho_i \in C^\infty(X,\mathbb{R}))$ subordinat
 Then set
 
 $$
-  A_i := \sum_{i_0} \rho_{i_0}|_{U_{i_0}} g_{i_0 i}|_{U_{i_0}}
+  A_i := \sum_{i_0} \rho_{i_0}|_{U_{i_0}} g_{i_0 i}|^{-1}_{U_{i_0}} d g_{i_0 i}|_{U_{i_0}}
   \,.
 $$
 
 By slight abuse of notation we shall write this and similar expressions simply as 
 
 $$
-  A_i := \sum_{i_0} (d_{dR} \rho_{i_0} + g_{i i_0}^{-1} d_{dR} g_{i i_0})  
+  A_i := \sum_{i_0} \rho_{i_0}(g_{i_0 i}^{-1} d_{dR} g_{i_0 i})  
   \,.
 $$
 
@@ -288,9 +288,9 @@ Using the that $(g_{i j})$ satisfies its cocycle condition, one checks that this
 
 $$
   \begin{aligned}
-     A_j - A_i  &=
-     \sum_{i_0} \rho_{i_0} ( g_{j i_0}^{-1} d g_{j i_0} -  
-       g_{i i_0}^{-1} d g_{i i_0} )
+     A_j - g_{i j}^{-1} A_i g_{i j}  &=
+     \sum_{i_0} \rho_{i_0} ( g_{i_0 j}^{-1} d g_{i_0 j} -  
+       ( g_{i_0 i} g_{i j}) ^{-1} (d g_{i_0 i}) g_{i j} )
      \\
      & = 
      \sum_{i_0} \rho_{i_0} ( g_{i j}^{-1} d g_{i j} )
