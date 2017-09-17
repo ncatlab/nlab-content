@@ -28,7 +28,7 @@ In [[∞-Lie theory]] one studies the relation between the two via [[Lie integra
 
 Lie algebra cohomology generalizes to [[nonabelian Lie algebra cohomology]] and to [[∞-Lie algebra cohomology]].
 
-## Defintion
+## Definition
 
 There are several different but equivalent definitions of the [[cohomology]] of a [[Lie algebra]].
 
@@ -224,4 +224,3 @@ The [[∞-Lie algebra]] [[∞-Lie algebra cohomology|extensions]] $b^{n-2} \to \
 
 [[!redirects Lie algebra cocycle]]
 [[!redirects Lie algebra cocycles]]
-
