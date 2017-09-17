@@ -9,9 +9,9 @@ The _Chow groups_ of a [[noetherian scheme]] $X$ are the analogs of the [[singul
 
 ## Definition
 
-Let $X$ be a [[noetherian scheme]].  One defines the **$k$-th Chow group** of $X$ as the quotient of the group $Z_k(X)$ of $k$-cycles by the subgroup of [[algebraic cycles]] [[rational equivalence|rationally equivalent]] to zero:
+Let $X$ be a [[noetherian scheme]].  One defines the **$k$-th Chow group** of $X$ as the [[quotient]] of the group $Z_k(X)$ of [[algebraic cycles]] of [[dimension]] $k$ by the [[subgroup]] of [[algebraic cycles]] [[rational equivalence|rationally equivalent]] to zero:
 
-$$ CH_k(X) = Z_k(X) / \sim_{\rat} $$
+$$ CH_k(X) \coloneqq Z_k(X) / \sim_{\rat} $$
 
 The **Chow ring** is the [[graded ring]] which is the [[direct sum]] of the Chow groups, with multiplication being the [[intersection product]].
 
@@ -21,7 +21,7 @@ $$ CH^{\sim}_k(X) = Z_k(X) / \sim $$
 
 ## Cohomological interpretation
 
-Chow groups appear as the [[cohomology group]]s of [[motivic cohomology]] (see there for details) with coefficients in suitable [[Eilenberg-MacLane object]]s.  
+Chow groups appear as the [[cohomology groups]] of [[motivic cohomology]] (see there for details) with [[coefficients]] in suitable [[Eilenberg-MacLane objects]].  
 
 ## Related concepts
 
