@@ -40,7 +40,8 @@ Notice that if $X$ is for instance a [[complex manifold]] regarded over the comp
 
 ## Related concepts
 
-* [[differential integral Wu structure]]
+[[!include square roots of line bundles - table]]
+
 
 ## References
 
