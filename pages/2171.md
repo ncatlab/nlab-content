@@ -1,3 +1,20 @@
+##Idea
+
+A _braid_ with $n$ strands is thought of as $n$ pieces of string joining $n$ point at the top of the diagram with $n$-points at the bottom.
+
+(Diagram to go here)
+
+(This is a picture of  3 strand braid.) We can manipulate these braid diagrams as we can transform [[knot diagrams]] using [[Reidemeister moves]]. The 'isotopy' classes of braid diagrams form a group in which the composition is obtained by putting one diagram above another. 
+
+(Composition diagram to go here)
+
+The inverse is obtained by turning a diagram upside down:
+
+(Inverse of first diagram to go here.)
+
+
+##A presentation of $Br_{n+1}$
+
 The **Artin braid group**, $Br_{n+1}$, defined using $n+1$ strands is a [[group]] given by 
 
 * generators: $y_i$, $i = 1, \ldots, n$;
@@ -49,4 +66,11 @@ Simplifying notation as before, we have generators $u,v,w$ and relations
 
 ## References
 
+A classic reference is
+
+* Joan S. Birman, Braids, Links, and Mapping Class Groups, Princeton Univ Press, 1974.
+
+For a survey of other aspects, see
+
 English Wikipedia article: [Braid group](http://en.wikipedia.org/wiki/Braid_group)
+
