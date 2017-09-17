@@ -20,11 +20,17 @@
 
 ## Idea
 
-A 3-dimensional [[Chern-Simons theory]] coupled to matter, which is supped to describe aspects of [[M2-brane]] dynamics.
+The _ABJM model_ is 3-dimensional [[Chern-Simons theory]] coupled to matter, which is supposed to describe aspects of [[M2-brane]] dynamics.
+
+
 
 ## Properties
 
 Under  [[holographic duality]] supposed to be related to [[11-dimensional supergravity|M-theory]] on $AdS_4 \times S^7 / \mathbb{Z}_k$.
+
+## Related properties
+
+* [[BLG model]]
 
 ## References
 
