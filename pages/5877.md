@@ -64,3 +64,8 @@ In [[linear algebra]] an [[idempotent]] [[linear operator]] $P:V\to V$ is called
 
 [[!redirects product projection]]
 [[!redirects product projections]]
+[[!redirects projection morphism]]
+[[!redirects projection morphisms]]
+
+[[!redirects projection map]]
+[[!redirects projection maps]]
