@@ -1,4 +1,12 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
 [[!include contents]]
+=--
+=--
+=--
 
 * [[foundations|Foundations]]
 
