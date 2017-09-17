@@ -103,7 +103,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [bit-player](http://bit-player.org/) Math/computer science blog of science writer Brian Hayes (writer for American Scientist)
 
-*[CTK Insights](http://www.mathteacherctk.com/blog/) A blog for teaching 
+* [CTK Insights](http://www.mathteacherctk.com/blog/) A blog for teaching 
 
 * [category theory](http://community.livejournal.com/category_theory) at community.livejournal (in Russian)
 
@@ -117,11 +117,11 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Chromotopy](http://chromotopy.org) ("chromatic") stable homotopy theory blog -- last update August 2011
 
-*[degrees of freedom](http://blogs.scientificamerican.com/degrees-of-freedom/) Math and Physics blog of Scientific American written by  Davide Castelvecchi
+* [degrees of freedom](http://blogs.scientificamerican.com/degrees-of-freedom/) Math and Physics blog of Scientific American written by  Davide Castelvecchi
 
-*[dy/dan](http://blog.mrmeyer.com/) blog of Dan Meyer, a former high school math teacher now pursuing a Phd in math education -- includes many videos for use in the classroom
+* [dy/dan](http://blog.mrmeyer.com/) blog of Dan Meyer, a former high school math teacher now pursuing a Phd in math education -- includes many videos for use in the classroom
 
-*[Dan's Geometrical Curiosities](http://danielwalsh.tumblr.com/) A collection of art and math projects by a Physics student, with help from a friend who likes blog posts.
+* [Dan's Geometrical Curiosities](http://danielwalsh.tumblr.com/) A collection of art and math projects by a Physics student, with help from a friend who likes blog posts.
 
 * [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com) (dynamical systems, ergodic theory, radnomness in number sequences, Ricci flow)
 
@@ -139,7 +139,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [F_un mathematics](http://matrix.cmi.ua.ac.be/fun) ("field with one element")
 
-*[Geomblog](http://geomblog.blogspot.com/)Ruminations on computational geometry, algorithms, theoretical computer science and life
+* [Geomblog](http://geomblog.blogspot.com/)Ruminations on computational geometry, algorithms, theoretical computer science and life
 
 * [Geometry and combinatorics](http://konradswanepoel.wordpress.com) (Konrads Wanepoel)
 
@@ -165,7 +165,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Martin's Blog](http://www.martinorr.name/blog) Martin Orr: algebraic geometry especially abelian varieties, Galois representations
 
-*[mathbabe](http://mathbabe.org/) Blog on mathematical finance by former academic 
+* [mathbabe](http://mathbabe.org/) Blog on mathematical finance by former academic 
 
 * [Math-Blog](http://math-blog.com) (6 people blog: math books, university math, popular math etc.)
 
@@ -173,11 +173,11 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Mathcraft](http://mathcraft.wonderhowto.com/) Math-inspired artwork and how-to info
 
-*[Math Goes Pop!](http://www.mathgoespop.com/) UCLA grad student writes about math in the media and pop culture
+* [Math Goes Pop!](http://www.mathgoespop.com/) UCLA grad student writes about math in the media and pop culture
 
 * [math for love](http://mathforlove.com/) Blog of mathematics education consultants includes puzzles, teaching tips, and philosophical musings
 
-*[Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
+* [Math Monday](http://momath.org/home/math-monday/) The Museum of Mathematics will open in 2012 -- this blog details its progress and fun math projects
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 (Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
@@ -228,7 +228,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
 
-*[Tanya Khovanova's math blog](http://blog.tanyakhovanova.com/) Light musings, puzzles and anecdotes concerning mathematics
+* [Tanya Khovanova's math blog](http://blog.tanyakhovanova.com/) Light musings, puzzles and anecdotes concerning mathematics
 
 * [Teaching College Math] (http://teachingcollegemath.com) A blog about math, technology, and teaching.
 
@@ -246,7 +246,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
   * A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
 
-*[The Numbers Guy](http://blogs.wsj.com/numbersguy/) Wall Street Journal's math/economics blog by Carl Bialik
+* [The Numbers Guy](http://blogs.wsj.com/numbersguy/) Wall Street Journal's math/economics blog by Carl Bialik
 
 * [The Polymath Blog](http://polymathprojects.wordpress.com) (Tim Gowers "polymath" group projects: number theory, polynomials, algorithms, complexity, ...--last updated July 2011)
 
@@ -258,11 +258,11 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Todd and Vishal's blog](http://topologicalmusings.wordpress.com)--last updated January 2011
 
-*[Travels in a Mathematical World](http://travelsinamathematicalworld.blogspot.com/) Blog of a British mathematics educator
+* [Travels in a Mathematical World](http://travelsinamathematicalworld.blogspot.com/) Blog of a British mathematics educator
 
 * [Uncover a few](http://uncoverafew.wordpress.com/) New blog of problems and teaching ideas 
 
-*[Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
+* [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
 
 * [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids)
 
