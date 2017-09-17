@@ -23,7 +23,7 @@ $$
   \,.
 $$
 
-Due to the special nature of $Y_F$, the topos on the left is equivalent to the [[overcategory]] topos $Sh(X)/F$, and the projection morphism above factors through a canonical standard [[geometric morphism]] $Sh(X)/F \to Sh(X)$
+Due to the special nature of $Y_F$, the topos on the left is equivalent to the [[over-topos]] $Sh(X)/F$, and the projection morphism above factors through a canonical standard [[geometric morphism]] $Sh(X)/F \to Sh(X)$
 
 $$
   \pi_F : Sh(Y_F) \stackrel{\simeq}{\to} Sh(X)/F \to Sh(X)
