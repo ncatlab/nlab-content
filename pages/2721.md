@@ -183,251 +183,6 @@ $$
 
 
 
-## Role in $\infty$-Chern-Weil theory
-
-In ($\infty$-)[[Chern-Weil theory]] the crucial role played by the invariant polynomials is their relation to [[∞-Lie algebra cocycle]]s. One may understand invariant invariant polynomials as extending under [[Lie integration]] $\infty$-Lie algebra cocycles from [[cohomology]] to [[differential cohomology]].
-
-
-### Transgression cocycles and Chern-Simons elements {#TransgressionCocycles}
-
-
-+-- {: .un_defn}
-###### Definition
-**(Chern-Simons elements and transgression cocycles)**
-
-Let $\mathfrak{a} = \mathfrak{g}$ be an [[∞-Lie algebra]]. Since the [[cochain cohomology]] of the [[Weil algebra]] $W(\mathfrak{g})$ is trivial, for every invariant polynomial $\langle -\rangle \in W(\mathfrak{g})$ there is necessarily an element $cs \in W(\mathfrak{g})$ with
-
-$$
-  d_{W(\mathfrak{g})} cs = \langle -\rangle
-  \,.
-$$
-
-This we call a [[Chern-Simons element]] for $\langle -\rangle$.
-
-This element $cs$ will in general not sit entirely in the shifted copy. Its restriction
-
-$$
-  \mu := cs|_{\wedge^\bullet \mathfrak{g}^*} \in CE(\mathfrak{g})
-$$
-
-is a [[∞-Lie algebra cohomology|∞-Lie algebra cocycle]]. We say this is _in transgression_ with $\langle -\rangle$.
-
-In total this construction yields a commuting diagram
-
-$$
-  \array{
-     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{n-1}\mathbb{R})
-     &&& cocycle
-     \\
-     \uparrow && \uparrow
-     \\
-     W(\mathfrak{g}) &\stackrel{(cs,\langle -\rangle)}{\leftarrow}&
-     W(b^{n-1} \mathbb{R})
-     &&&
-     Chern-Simons-element
-     \\
-     \uparrow && \uparrow
-     \\
-     inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
-     CE(b^n \mathbb{R})
-     &&&
-     invariant\; polynomial
-  }
-  \,,
-$$
-
-where $b^{n-1}\mathbb{R}$ denotes the [[∞-Lie algebra]] whose CE-algebra has a single generator in degree $n$ and vanishing differential, and where $CE(b^n \mathbb{R}) = inv(b^{n-1}\mathbb{R})$ is the algebra of invariant polynomials of $b^{n-1} \mathbb{R}$.
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-The element $\mu \in CE(\mathfrak{g})$ associated to an invariant polynomial $\langle -\rangle$ by the above procedure is indeed a cocycle, and its cohomology class is independent of the choice of the element $cs$ involved.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The procedure that assigns $\mu$ to $\langle- \rangle$ is illustarted by the following diagram
-
-$$
-  \array{
-    0 && \langle-\rangle &\leftarrow & \langle-\rangle
-    \\
-    \;\;\uparrow^{\mathrlap{d_{CE(\mathfrak{g})}}}
-    &&
-    \;\;\uparrow^{\mathrlap{d_{W(\mathfrak{g})}}}
-    \\
-    \mu &\leftarrow& cs
-    \\
-    \\
-    \\
-    \\
-    CE(\mathfrak{a})
-    &\leftarrow&
-    W(\mathfrak{a})
-    &\leftarrow&
-    inv(\mathfrak{a})    
-  }
-$$
-
-From the fact that all morphisms involved respect the differential and from the fact that the image of $\langle-\rangle$ in $CE(\mathfrak{g})$ vanishes it follows that 
-
-* the element $\mu$ satisfies $d_{CE(\mathfrak{a})} \mu = 0$, hence that it is an [[∞-Lie algebra cohomology|∞-Lie algebra cocycle]];
-
-* any two different choices of $cs$ lead to cocylces $\mu$ that are cohomologous.
-
-=--
-
-
-This construction exhibits effectively the preimage of the [[connecting homomorphism]] in the [[cochain cohomology]] sequence induced by $W(\mathfrak{g}) \to CE(\mathfrak{g})$:
-
-The [[dg-algebra]] of invariant polynomials is a sub-dg-algebra of the kernel of the morphism $i^* : W(\mathfrak{a}) \to CE(\mathfrak{a})$ from the [[Weil algebra]] to the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$
-
-$$
-  inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a}) = ker(W(\mathfrak{a}) \to CE(\mathfrak{a}))
-  \,.
-$$
-
-From the short [[nLab:exact sequence]]
-
-$$
-  CE(\Sigma \mathfrak{a}) \to W(\mathfrak{a}) \to 
-  CE(\mathfrak{a})
-$$
-
-we obtain the long exact sequence in [[chain homology and cohomology|cohomology]]
-
-$$
-  \cdots 
-  \to 
-  H^{n+1}(CE(\mathfrak{a}))
-  \stackrel{\delta}{\to} H^{n+2}(CE(\Sigma \mathfrak{a}))
-  \to \cdots 
-  \,.
-$$
-
-We say that $\mu \in CE(\mathfrak{a})$ is in transgression with $\omega \in inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a})$ if their classes map to each other under the [[connecting homomorphism]] $\delta$:
-
-$$
-  \delta : [\mu] \mapsto [\omega]
-  \,.
-$$
-
-
-**Example.** In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section [On semisimple Lie algebras](#SemisimpLie).
-
-### Chern-Simons and curvature characteristic forms
-
-For $\mathfrak{g}$ a [[∞-Lie algebra|Lie n-alghebra]], let $\mathbf{B}G := \mathbf{cosk}_{n+1} \exp(\mathfrak{g})$ be the [[∞-Lie group]] obtained by [[Lie integration]] from it.
-
-For $X$ a [[paracompact space|paracompact]] [[smooth manifold]] with [[good open cover]] $\{U_i \to X\}$ whose [[Cech nerve]] we write $C(U)$, a [[cocycle]] for a $G$-[[principal ∞-bundle]] on $X$ is cocycle with coefficients in the simplicial sheaf
-
-$$
-  \mathbf{B}G = 
-  \mathbf{cosk}_{n+1}((U,[k]) \mapsto \{ 
-     \Omega^\bullet_{vert}(U \times \Delta^k)
-     \leftarrow
-     CE(\mathfrak{g})
-  \})
-  \,.
-$$
-
-
-We say an $\infty$-connection on this is an extension to a cocycle with coefficients in the simplicial sheaf
-
-$$
-  \mathbf{B}G_{diff} = 
-  \mathbf{cosk}_{n+1}((U,[k]) \mapsto \left\{ 
-    \array{
-       \Omega^\bullet_{vert}(U \times \Delta^k)
-       &\leftarrow&
-       CE(\mathfrak{g})
-       &&& underlying \; cocycle
-       \\
-       \uparrow && \uparrow
-       \\
-       \Omega^\bullet(U\times \Delta^k)
-       &\stackrel{}{\leftarrow}&
-       W(\mathfrak{g})
-       &&&
-       connection
-     }
-  \right\}
-  \,.
-$$
-
-The diagrams on the left encode those $\mathfrak{g}$-valued forms on $U \times \Delta^k$ whose [[curvature]] vanishes on $\Delta^k$. One can show that one can always find a _genuine_ $\infty$-connection: one for which the curvatures have no leg along $\Delta^k$, in that they land in $\Omega^\bullet(U) \otimes C^\infty(\Delta^k)$. For those the above diagram extends to
-
-$$
-  \array{
-     \Omega^\bullet(U \times \Delta^k)_{vert}
-     &\leftarrow&
-     CE(\mathfrak{g})
-     &&& underlying \; cocycle
-     \\
-     \uparrow && \uparrow
-     \\
-     \Omega^\bullet(U\times \Delta^k)
-     &\stackrel{}{\leftarrow}&
-     W(\mathfrak{g})
-     &&&
-     connection
-     \\
-     \uparrow && \uparrow
-     \\
-     \Omega^\bullet(U)
-     &\leftarrow&
-     inv(\mathfrak{g})
-     &&&
-     curvature
-   }
-  \,.
-$$ 
-
-This defines the [[simplicial presheaf]] that classifies [[connections on ∞-bundles]].
-
-By [[pasting]]-postcomposition with the above diagrams for an invariant polynomial we obtain connections with values in $b^n \mathbb{R}$
-
-$$
-  \array{
-     \Omega^\bullet_{vert}(U \times \Delta^k)
-     &\leftarrow&
-     CE(\mathfrak{g})
-     &\stackrel{\mu}{\leftarrow}&
-     CE(b^{n-1}\mathbb{R})
-     &&& underlying \; cocycle
-     \\
-     \uparrow && \uparrow && \uparrow
-     \\
-     \Omega^\bullet(U\times \Delta^k)
-     &\stackrel{}{\leftarrow}&
-     W(\mathfrak{g})
-     &\stackrel{(cs,\langle- \rangle)}{\leftarrow}&
-     W(b^{n-1}\mathbb{R})
-     &&&
-     Chern-Simons forms
-     \\
-     \uparrow && \uparrow && \uparrow
-     \\
-     \Omega^\bullet(U)
-     &\leftarrow&
-     inv(\mathfrak{g})
-     &\stackrel{\langle -\rangle}{\leftarrow}&
-     CE(b^n \mathbb{R})
-     &&&
-     curvature\;characteristic\;form
-   }
-  \,,
-$$ 
-
-where in the bottom row we have the [[curvature characteristic forms]] $\langle F_\nabla\rangle$ coresponding to the connection, and in the middle the corresponding [[Chern-Simons forms]].
-
-More details for the moment at [[∞-Chern-Weil theory introduction]].
-
-
 ## Examples
 
 ### On Lie algebras {#OnLieAlgebras}
@@ -717,6 +472,253 @@ Therefore in horizontal equivalence classes of invariant polynomials on $(b \mat
 ###### Proposition
 
 =--
+
+## Role in $\infty$-Chern-Weil theory
+
+In ($\infty$-)[[Chern-Weil theory]] the crucial role played by the invariant polynomials is their relation to [[∞-Lie algebra cocycle]]s. One may understand invariant invariant polynomials as extending under [[Lie integration]] $\infty$-Lie algebra cocycles from [[cohomology]] to [[differential cohomology]].
+
+
+### Transgression cocycles and Chern-Simons elements {#TransgressionCocycles}
+
+
++-- {: .un_defn}
+###### Definition
+**(Chern-Simons elements and transgression cocycles)**
+
+Let $\mathfrak{a} = \mathfrak{g}$ be an [[∞-Lie algebra]]. Since the [[cochain cohomology]] of the [[Weil algebra]] $W(\mathfrak{g})$ is trivial, for every invariant polynomial $\langle -\rangle \in W(\mathfrak{g})$ there is necessarily an element $cs \in W(\mathfrak{g})$ with
+
+$$
+  d_{W(\mathfrak{g})} cs = \langle -\rangle
+  \,.
+$$
+
+This we call a [[Chern-Simons element]] for $\langle -\rangle$.
+
+This element $cs$ will in general not sit entirely in the shifted copy. Its restriction
+
+$$
+  \mu := cs|_{\wedge^\bullet \mathfrak{g}^*} \in CE(\mathfrak{g})
+$$
+
+is a [[∞-Lie algebra cohomology|∞-Lie algebra cocycle]]. We say this is _in transgression_ with $\langle -\rangle$.
+
+In total this construction yields a commuting diagram
+
+$$
+  \array{
+     CE(\mathfrak{g}) &\stackrel{\mu}{\leftarrow}& CE(b^{n-1}\mathbb{R})
+     &&& cocycle
+     \\
+     \uparrow && \uparrow
+     \\
+     W(\mathfrak{g}) &\stackrel{(cs,\langle -\rangle)}{\leftarrow}&
+     W(b^{n-1} \mathbb{R})
+     &&&
+     Chern-Simons-element
+     \\
+     \uparrow && \uparrow
+     \\
+     inv(\mathfrak{g}) &\stackrel{\langle -\rangle}{\leftarrow}&
+     CE(b^n \mathbb{R})
+     &&&
+     invariant\; polynomial
+  }
+  \,,
+$$
+
+where $b^{n-1}\mathbb{R}$ denotes the [[∞-Lie algebra]] whose CE-algebra has a single generator in degree $n$ and vanishing differential, and where $CE(b^n \mathbb{R}) = inv(b^{n-1}\mathbb{R})$ is the algebra of invariant polynomials of $b^{n-1} \mathbb{R}$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The element $\mu \in CE(\mathfrak{g})$ associated to an invariant polynomial $\langle -\rangle$ by the above procedure is indeed a cocycle, and its cohomology class is independent of the choice of the element $cs$ involved.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The procedure that assigns $\mu$ to $\langle- \rangle$ is illustarted by the following diagram
+
+$$
+  \array{
+    0 && \langle-\rangle &\leftarrow & \langle-\rangle
+    \\
+    \;\;\uparrow^{\mathrlap{d_{CE(\mathfrak{g})}}}
+    &&
+    \;\;\uparrow^{\mathrlap{d_{W(\mathfrak{g})}}}
+    \\
+    \mu &\leftarrow& cs
+    \\
+    \\
+    \\
+    \\
+    CE(\mathfrak{a})
+    &\leftarrow&
+    W(\mathfrak{a})
+    &\leftarrow&
+    inv(\mathfrak{a})    
+  }
+$$
+
+From the fact that all morphisms involved respect the differential and from the fact that the image of $\langle-\rangle$ in $CE(\mathfrak{g})$ vanishes it follows that 
+
+* the element $\mu$ satisfies $d_{CE(\mathfrak{a})} \mu = 0$, hence that it is an [[∞-Lie algebra cohomology|∞-Lie algebra cocycle]];
+
+* any two different choices of $cs$ lead to cocylces $\mu$ that are cohomologous.
+
+=--
+
+
+This construction exhibits effectively the preimage of the [[connecting homomorphism]] in the [[cochain cohomology]] sequence induced by $W(\mathfrak{g}) \to CE(\mathfrak{g})$:
+
+The [[dg-algebra]] of invariant polynomials is a sub-dg-algebra of the kernel of the morphism $i^* : W(\mathfrak{a}) \to CE(\mathfrak{a})$ from the [[Weil algebra]] to the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$
+
+$$
+  inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a}) = ker(W(\mathfrak{a}) \to CE(\mathfrak{a}))
+  \,.
+$$
+
+From the short [[nLab:exact sequence]]
+
+$$
+  CE(\Sigma \mathfrak{a}) \to W(\mathfrak{a}) \to 
+  CE(\mathfrak{a})
+$$
+
+we obtain the long exact sequence in [[chain homology and cohomology|cohomology]]
+
+$$
+  \cdots 
+  \to 
+  H^{n+1}(CE(\mathfrak{a}))
+  \stackrel{\delta}{\to} H^{n+2}(CE(\Sigma \mathfrak{a}))
+  \to \cdots 
+  \,.
+$$
+
+We say that $\mu \in CE(\mathfrak{a})$ is in transgression with $\omega \in inv(\mathfrak{a}) \subset CE(\Sigma \mathfrak{a})$ if their classes map to each other under the [[connecting homomorphism]] $\delta$:
+
+$$
+  \delta : [\mu] \mapsto [\omega]
+  \,.
+$$
+
+
+**Example.** In the case where $\mathfrak{g}$ is an ordinary semisimple [[Lie algebra]], this reduces to the ordinary study of ordinary Chern-Simons 3-forms associated with $\mathfrak{g}$-valued 1-forms. This is described in the section [On semisimple Lie algebras](#SemisimpLie).
+
+### Chern-Simons and curvature characteristic forms
+
+For $\mathfrak{g}$ a [[∞-Lie algebra|Lie n-alghebra]], let $\mathbf{B}G := \mathbf{cosk}_{n+1} \exp(\mathfrak{g})$ be the [[∞-Lie group]] obtained by [[Lie integration]] from it.
+
+For $X$ a [[paracompact space|paracompact]] [[smooth manifold]] with [[good open cover]] $\{U_i \to X\}$ whose [[Cech nerve]] we write $C(U)$, a [[cocycle]] for a $G$-[[principal ∞-bundle]] on $X$ is cocycle with coefficients in the simplicial sheaf
+
+$$
+  \mathbf{B}G = 
+  \mathbf{cosk}_{n+1}((U,[k]) \mapsto \{ 
+     \Omega^\bullet_{vert}(U \times \Delta^k)
+     \leftarrow
+     CE(\mathfrak{g})
+  \})
+  \,.
+$$
+
+
+We say an $\infty$-connection on this is an extension to a cocycle with coefficients in the simplicial sheaf
+
+$$
+  \mathbf{B}G_{diff} = 
+  \mathbf{cosk}_{n+1}((U,[k]) \mapsto \left\{ 
+    \array{
+       \Omega^\bullet_{vert}(U \times \Delta^k)
+       &\leftarrow&
+       CE(\mathfrak{g})
+       &&& underlying \; cocycle
+       \\
+       \uparrow && \uparrow
+       \\
+       \Omega^\bullet(U\times \Delta^k)
+       &\stackrel{}{\leftarrow}&
+       W(\mathfrak{g})
+       &&&
+       connection
+     }
+  \right\}
+  \,.
+$$
+
+The diagrams on the left encode those $\mathfrak{g}$-valued forms on $U \times \Delta^k$ whose [[curvature]] vanishes on $\Delta^k$. One can show that one can always find a _genuine_ $\infty$-connection: one for which the curvatures have no leg along $\Delta^k$, in that they land in $\Omega^\bullet(U) \otimes C^\infty(\Delta^k)$. For those the above diagram extends to
+
+$$
+  \array{
+     \Omega^\bullet(U \times \Delta^k)_{vert}
+     &\leftarrow&
+     CE(\mathfrak{g})
+     &&& underlying \; cocycle
+     \\
+     \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U\times \Delta^k)
+     &\stackrel{}{\leftarrow}&
+     W(\mathfrak{g})
+     &&&
+     connection
+     \\
+     \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)
+     &\leftarrow&
+     inv(\mathfrak{g})
+     &&&
+     curvature
+   }
+  \,.
+$$ 
+
+This defines the [[simplicial presheaf]] that classifies [[connections on ∞-bundles]].
+
+By [[pasting]]-postcomposition with the above diagrams for an invariant polynomial we obtain connections with values in $b^n \mathbb{R}$
+
+$$
+  \array{
+     \Omega^\bullet_{vert}(U \times \Delta^k)
+     &\leftarrow&
+     CE(\mathfrak{g})
+     &\stackrel{\mu}{\leftarrow}&
+     CE(b^{n-1}\mathbb{R})
+     &&& underlying \; cocycle
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U\times \Delta^k)
+     &\stackrel{}{\leftarrow}&
+     W(\mathfrak{g})
+     &\stackrel{(cs,\langle- \rangle)}{\leftarrow}&
+     W(b^{n-1}\mathbb{R})
+     &&&
+     Chern-Simons forms
+     \\
+     \uparrow && \uparrow && \uparrow
+     \\
+     \Omega^\bullet(U)
+     &\leftarrow&
+     inv(\mathfrak{g})
+     &\stackrel{\langle -\rangle}{\leftarrow}&
+     CE(b^n \mathbb{R})
+     &&&
+     curvature\;characteristic\;form
+   }
+  \,,
+$$ 
+
+where in the bottom row we have the [[curvature characteristic forms]] $\langle F_\nabla\rangle$ coresponding to the connection, and in the middle the corresponding [[Chern-Simons forms]].
+
+More details for the moment at [[∞-Chern-Weil theory introduction]].
+
+
+
 
 ## Related concepts
 
