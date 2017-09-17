@@ -175,15 +175,6 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
  
   * [[factorization algebra]]
 
-* [Justin Bieber Wallpaper](http://justinbieberwallpaper.info/)
-
-* [Angry Birds Game Online](http://www.angrybirdsgameonline.us/)
-
-* [Hi Res Wallpaper](http://hireswallpaper.org/)
-
-* [Mari Berkomunitas Di Faceblog](http://athamz.info/mari-berkomunitas-di-faceblog/)
-
-* [Athamz Blog](http://athamz.info/)
 
 * etc.
 
