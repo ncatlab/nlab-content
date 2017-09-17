@@ -131,6 +131,12 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 * [[Matthias Wendt]], _Fibre sequences and localization of simplicial sheaves_ ([pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf))
 
+Discussion of homotopy fiber sequences and homotopy action in terms of [[Segal spaces]] is in section 5 of
+
+* M. Prezma _Homotopy normal maps_ ([arXiv](http://arxiv.org/pdf/1011.4708v7.pdf)) 
+
+There, conditions are given for a morphism $A_\bullet \to B_\bullet$ to a [[reduced Segal space]] to have a fixed homotopy fiber, and hence encode an action of the loop group of $B$ on that fiber. 
+
 
 [[!redirects associated infinity-bundle]]
 [[!redirects associated infinity-bundles]]
