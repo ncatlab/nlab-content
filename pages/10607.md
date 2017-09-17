@@ -227,6 +227,9 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_, Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
   {#Lawvere94}
 
+* [[William Lawvere]],  _[[Unity and Identity of Opposites in Calculus and Physics]]_,  Proceedings of ECCT 1994 Tours Conference,  Applied Categorical Structures, 4: 167-174 Kluwer Academic Publishers, (1996).
+ {#Lawvere96}
+
 * [[Georg Hegel]], _[[Science of Logic]]_, 1812
  {#Hegel1812}
 
