@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Integration theory
-+--{: .hide}
++-- {: .hide}
 [[!include integration theory - contents]]
 =--
 =--
@@ -58,17 +58,17 @@ the reparametrisation theorem.
 
 We cannot interpret $\mathrm{d}s$ as the differential of anything; rather, $\mathrm{d}s$ is the magnitude of the line integral element $\mathrm{d}\vec{r}$ from the previous section. In particular, identifying $\vec{r}$ with $C$ again, we have
 $$ \int_C f \mathrm{d}s \coloneqq \int_a^b f(\vec{r}(t)) {\|\vec{r}'(t)\|} \,\mathrm{d}t ,$$
-so $\mathrm{d}s$ seems to mean ${\|\vec{r}'(t)\|} \,\mathrm{d}t$.  If we use the standard orientation on $[a,b]$ to change the $1$-form $\mathrm{d}t$ to the pseudo-$1$-form ${|\mathrm{d}t|}$, this is consistent with $\mathrm{d}s = {\|\mathrm{d}\vec{r}\|}$.
+so $\mathrm{d}s$ seems to mean ${\|\vec{r}'(t)\|} \,\mathrm{d}t$.  Using the standard orientation on $[a,b]$ to change the $1$-form $\mathrm{d}t$ to the pseudo-$1$-form ${|\mathrm{d}t|}$, this is consistent with $\mathrm{d}s = {\|\mathrm{d}\vec{r}\|}$.
 
 But for this to really make sense, we have to see what kind of object $\mathrm{d}s$ is on $X$.  It is neither a $1$-form (which can be integrated along an oriented curve) nor a pseudo-$1$-form (which can be integrated along a pseudo-oriented curve, that is a transversely oriented curve); it is instead an *[[absolute differential form|absolute]]* $1$-form, which can be integrated along an *unoriented* curve.  If we interpret $\mathrm{d}\vec{r}$ as the canonical vector-valued $1$-form again, then we can take its magnitude to get a positive semidefinite (nonnegative-scalar-valued, and in this case actually definite) absolute $1$-form, so $\mathrm{d}s = {\|\mathrm{d}\vec{r}\|}$ is literally true.
 
-It would be nice to have notation without fake differentials and with the one piece of structure that actually plays a role: the metric.  If we multiply two $1$-forms using the [[symmetric product]] (instead of the [[exterior product]] as usual for 'forms'), we get a symmetric [[bilinear form]], and in this way the (symmetric) square of the arclength element $\mathrm{d}s$ is the metric $g$.  Since $\mathrm{d}s$ is positive, we can reasonably call it the *principal* [[square root]] of $g$.  Thus,
+It would be nice to have notation without fake differentials and with the one piece of structure that actually plays a role: the metric.  If we multiply two $1$-forms using the [[symmetric product]] (instead of the [[exterior product]] as usual for differential forms), then we get a symmetric [[bilinear form]], and in this way the (symmetric) square of the arclength element $\mathrm{d}s$ is the metric $g$.  Since $\mathrm{d}s$ is positive, we can reasonably call it the *principal* [[square root]] of $g$.  Thus,
 $$ \int_C f \mathrm{d}s = \int_C f \sqrt{g} $$
 defines the line integral of a scalar field along an unoriented curve in a Riemannian manifold.
 
 On a *pseudo*-Riemannian manifold, $g$ itself may not be positive and so may not have a square root.  In that case, we can take the absolute value of $g$ first and use
 $$ \int_C f \mathrm{d}s = \int_C f \sqrt{|g|} ,$$
-although this is most intuitive for curves that are consistently [[timelike curve|timelike]] or [[spacelike curve|spacelike]].  (The arclength of a [[lightlike curve]] is zero.)
+although this is most intuitive for curves that are consistently [[timelike curve|timelike]] or [[spacelike curve|spacelike]].  It\'s also possible to keep the previous formula and allow one of these two types of curve to have [[purely imaginary number|imaginary]] arclength; which one depends on conventions.  In any case, a line integral along a [[lightlike curve]] is zero.
 
 
 ### Contour integral of a complex function
