@@ -96,13 +96,14 @@ Consider
 
   $\{I,I\} \subset I$
 
-  (one says we have _first class constraint_ or that 0-locus of $I$ is _coisotropic_)
+  (one says that we have _[[first class constraint]]_ or that the 0-locus of $I$ is _coisotropic_)
+
 
 By the Poisson bracket $I$ acts on $A$. The **Poisson reduction** of $X$ by $I$ is the combined
 
 1. passage to the 0-locus of $I$, which algebraically (dually) is passage to the quotient algebra $A/I$;
 
-1. passage to the quotient of $X$ by the $I$-actioni, which dually is the passage to the invariant subalgebra $A^I$.
+1. passage to the quotient of $X$ by the $I$-[[action]], which dually is the passage to the invariant subalgebra $A^I$.
 
 This may be achieve in different orders:
 
@@ -720,10 +721,5 @@ A standard textbook on the application of BRST-BV to [[gauge theory]] is
 
 
 [[!redirects BRST-BV formalism]]
-
-[[!redirects symplectic reduction]]
-[[!redirects Poisson reduction]]
-[[!redirects symplectic quotient]]
-[[!redirects symplectic quotients]]
 
 [[!redirects antifield formalism]]
