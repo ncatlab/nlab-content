@@ -31,11 +31,11 @@
 
 There are several ways to _model_ an [[(∞,1)-category]] $\mathbf{C}$ by an ordinary [[category]] $C$ equipped with some extra structure: for instance $C$ may be a [[category with weak equivalences]] or a [[model category]]. In all of these models, given two objects $X, Y \in C$, there is a way to construct an [[∞-groupoid]] $\mathbf{C}(X,Y)$ that is the correct [[hom-object]] of the [[(∞,1)-category]] $\mathbf{C}$ -- this is the _$(\infty,1)$-categorical hom-space_  modeled by $C$, often called the _derived hom space_  and then denoted $\mathbf{R}Hom(X,Y)$, or called the _homotopy function complex_.
 
+## Presentations
+
 There are various equivalent explicit expressions for $\mathbf{R}Hom$. These are described and compared in the following.
 
-## Properties
-
-### Interrelation between the different constructions 
+### Interrelation between different presentations
 
 For $(C,W \subset Mor(C))$ a [[category with weak equivalences]], Dwyer-Kan [[simplicial localization]] produces an [[SSet]]-[[enriched category]] as follows
 
@@ -107,48 +107,8 @@ $$
 The weak equivalences 
 $Mor_C(\Gamma^\bullet X, R Y) \stackrel{\simeq}{\to} diag Mor_C(\Gamma^\bullet X, \Lambda_\bullet Y) \stackrel{\simeq}{\leftarrow} Mor_C(Q X, \Lambda_\bullet Y)$ appear also as ([Hovey, prop. 5.4.7](#Hovey)).
 
-
-### Hom-spaces of equivalences
- {#SpacesOfEquivalences}
-
-+-- {: .num_theorem #DKTheorem}
-###### Theorem 
-
-For $C$ a [[simplicial model category]] and $X$ an object, the [[delooping]] of the [[automorphism ∞-group]]
-
-$$
-  Aut_W(X) \subset \mathbb{R}Hom(X,X)
-$$
-
-has the [[homotopy type]] of the component on $X$ of the [[nerve]] $N(C_W)$ of the [[subcategory]] of weak equivalences:
-
-$$
-  \mathbf{B} Aut_W(X) \simeq N(C_W)_X
-  \,.
-$$
-
-The equivalence is given by a finite sequence of [[zig-zags]] and is natural with respect to [[sSet]]-[[enriched functors]] of simplicial model categories that preserve weak equivalences and send a fibrant cofibrant model for $X$ again to a fibrant cofibrant object.
-
-=--    
-
-This is [Dwyer-Kan 84, 2.3, 2.4](#DK84).
-
-+-- {: .num_cor }
-###### Corollary
-
-For $C$ a model category, the simplicial set $N(C_W)$ is a model for the 
-[[core]] of the [[(∞,1)-category]] determined by $C$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-That core, like every [[∞-groupoid]] is equivalent to the disjoint union over its connected components of the deloopings of the automorphism $\infty$-groups of any representatives in each connected component.
-
-=--
-
-### Enriched homs between cofibrant/fibrant objects {#EnrichedHomsCofToFib}
+### In terms of simplicial function complexes between cofibrant/fibrant objects 
+ {#EnrichedHomsCofToFib}
 
 We describe here in more detail properties of [[hom-object]]s in a [[simplicial model category]] for the case that the domain objects are cofibrant and the codomain objects are fibrant.
 
@@ -317,6 +277,63 @@ $$
 that is homotopic to our $C(X,f)$. Therefore this is also a weak equivalence.
 
 =--
+
+### In terms of framings / simplicial Reedy resolutions
+
+If $C$ is a left proper combinatorial model category which is 
+possibly not $sSet_{Quillen}$-enriched yet, the derived hom-space
+may be computed in $[\Delta^{op}, C]$ in terms of Reedy-resolutions of 
+constant simplicial objects on the given objects. 
+
+This is discussed in more detail at _[[simplicial model category]]_
+in the section _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_.
+
+## Properties
+
+
+
+### Hom-spaces of equivalences
+ {#SpacesOfEquivalences}
+
++-- {: .num_theorem #DKTheorem}
+###### Theorem 
+
+For $C$ a [[simplicial model category]] and $X$ an object, the [[delooping]] of the [[automorphism ∞-group]]
+
+$$
+  Aut_W(X) \subset \mathbb{R}Hom(X,X)
+$$
+
+has the [[homotopy type]] of the component on $X$ of the [[nerve]] $N(C_W)$ of the [[subcategory]] of weak equivalences:
+
+$$
+  \mathbf{B} Aut_W(X) \simeq N(C_W)_X
+  \,.
+$$
+
+The equivalence is given by a finite sequence of [[zig-zags]] and is natural with respect to [[sSet]]-[[enriched functors]] of simplicial model categories that preserve weak equivalences and send a fibrant cofibrant model for $X$ again to a fibrant cofibrant object.
+
+=--    
+
+This is [Dwyer-Kan 84, 2.3, 2.4](#DK84).
+
++-- {: .num_cor }
+###### Corollary
+
+For $C$ a model category, the simplicial set $N(C_W)$ is a model for the 
+[[core]] of the [[(∞,1)-category]] determined by $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That core, like every [[∞-groupoid]] is equivalent to the disjoint union over its connected components of the deloopings of the automorphism $\infty$-groups of any representatives in each connected component.
+
+=--
+
+
+
 
 ## Related concepts
 
