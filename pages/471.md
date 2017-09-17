@@ -61,16 +61,9 @@ in $C$, with $I$ and $pt$ any two objects and $0$ and $1$ any two morphisms.
 
 =--
 
-### In categories with finite limits
+In categories with finite limits it is often required that $pt=*$ is the terminal object and in this case the interval object is called *cartesian interval object*.
 
-+-- {: .un_defn}
-###### Definition (cartesian interval object)
-
-If the [[category]] $C$ has finite [[limit]]s, then a plain interval object is called a **cartesian interval object** if $pt = {*}$ is the [[terminal object]].
-
-=--
-
-Examples for the use of this notion are below in the section on geometric models for path $\infty$-categories.
+Examples for the use of this notion is at [[fundamental (infinity,1)-category]] in the section "fundamental geometric ∞-categories".
 
 ### In homotopical categories
 
@@ -80,10 +73,29 @@ further conditions to put on an interval object:
 
 
 
-#### Intervals for Trimble $\omega$-categories
+#### Trimble interval object
  {#IntervalForTrimbledOmegaeCategories}
 
-The following definition is tentative. It arose from the discussion reproduced further below.
+The following definition is strongly related to the notion of [[Trimble omega-category]] where the interval object gives the internal hom $[I,X]$ the structure of an [[operad]] giving (by induction) the model of an $A_\infty$-[[A-infinity-category|category]] structure on
+
+$$
+  (X_0 := [pt,X]) 
+  \stackrel{s := [\sigma,X]}{\leftarrow}  
+  [I,X] 
+  \stackrel{t := [\tau, X]}{\to} (X_0 := [pt,X])
+  \,.  
+$$
+
+This internal $A_\infty$-category is denoted 
+
+$$
+  \Pi_1(X)
+$$
+
+This is in (a bit) more detail in [[Trimble omega-category]] and in [[fundamental (infinity,1)-category]] in the section "Fundamental algebraic $\infty$-categories".
+ 
++-- {: .un_defn}
+###### Definition (Trimble interval object)
 
 A **category with interval object** is
 
@@ -138,8 +150,9 @@ of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over 
    {}_{pt}[I, I^{\vee n}]_{pt}
    \,.
  $$
+=--
 
-#### Berger--Moerdijk segment object 
+#### Berger--Moerdijk segment- and interval object 
 
 
 In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
@@ -189,7 +202,7 @@ is a cofibration and $\epsilon : I \to pt$ a weak equivalence.
 
 
 
-### In homtopy type theory
+### Interval type
   {#InHomotopyTypeTheory}
 
 In [[homotopy type theory]] the cellular interval can be axiomatized as a [[higher inductive type]]. See _[[interval type]]_ for more.
@@ -334,6 +347,7 @@ Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]
 ## Related concepts
 
 * [[interval]], [[interval type]]
+
 
 ## References
 
