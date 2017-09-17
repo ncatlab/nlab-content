@@ -47,7 +47,11 @@ Before looking at the details, we indicate some of the characteristic aspects of
 
 * _[The holographic aspect](#TheHolographicAspect)_
 
-* _[Anomalies and orientation](#AnomaliesAndOrientation)_
+* _[Locality](#Locality)_
+
+* _[Anomalies](#AnomaliesAndOrientation)_
+
+* _[Supersymmetry](#Supersymmetry)_
 
 Then in the main part of the text we first lay out the basic definitions of _motivic quantization_ in 
 
@@ -109,25 +113,62 @@ For instance for $Z$ 3-dimensional [[Chern-Simons theory]], the relevant choice 
 In [[physics]] this general kind of relation between $n$-dimensional topological field theories and $(n-1)$-dimensional non-topological field theories on their boundary is has come to be known as the _[[holographic principle]]_.  See there for more background.
 
 
+### Locality
+ {#Locality}
 
-### Anomalies and orientation
+(...)
+
+
+### Anomalies
  {#AnomaliesAndOrientation}
-
 
 We see that the motivic quantization operation over a [[cohomology theory]] $E$ depends on the existence of and the choice of [[orientation in generalized cohomology|orientation in E-cohomology]]. The conditions that such an orientation exist in the first place turns out to be what in physics are known as the [[quantum anomaly cancellation]] conditions.
 
 | [[theory (physics)|physical theory]] | [[cohomology theory]] |
+|--|--|
 | [[quantum anomaly]] | [[obstruction]] to [[orientation in generalized cohomology|orientation]] for [[push-forward in generalized cohomology|push-forward]] |
+| (geo-)metric structure of [[boundary field theory]] | choice of [[orientation in generalized cohomology|orientation]]  |
 
-(...) 
+
+
+
+### Supersymmetry 
+ {#Supersymmetry}
+
+Every since the recognition of [[supersymmetric quantum mechanics]] in the 1980s, it is a familiar fact that [[index theory]] is naturally formulated in terms of [[superalgebra]] and [[supergeometry]]: indices can be identified with [[partition functions]] in [[supersymmetric quantum mechanics]]. Since [[push-forward in generalized cohomology]] is what generalizes the notion of [[index]] to the "relative case", motivic quantization may be thought of as intrinsically based on indices/partition functions. Accordingly one may expect that [[supersymmetry]] plays not just an optional but an intrinsic role. 
+
+Indeed, one can observe the following seemingly deep relation between supersymmetry and [[higher algebra]]:
+
+1. the $\mathbb{Z}_2$-grading of supersymmetry is a low-degree shadow of $\mathbb{S}$-grading, where $\mathbb{S}$ is the [[sphere spectrum]]; 
+
+1. every [[E-∞ ring]] is canonically $\mathbb{S}$-graded, or at least it [[∞-group of units]] is. 
+
+This is discussed in a bit more detail at _[superalgebra -- Abstract idea](super+algebra#AbstractIdea)_. 
+
+Accordingly, it follows that some kind of ("higher") [[supersymmetry]] is intrinsic in motivic quantization.
+
+A basic example is given by 2-dimensional motivic quantization over [[KU]]. A canonical smooth refinement of its [[∞-group of units]] is given, up to the 3-coskeleton, by the [[smooth super ∞-groupoid]] of [[super line 2-bundles]] (as discussed there). Accordingly, 2-dimensional local field theories, i.e. _[[string]]_ [[sigma-models]] are naturally refined to _[[superstring]]_ $\sigma$-models. See below the example _[The charged particle at the boundary of the superstring](#ChargedParticleAtBoundaryOfSuperstring)_.
+
+But motivic quantization is not bound to deal with supersymmetric field theories, it is just that the [[phase and phase space in physics|higher phases]] are always naturally super-graded. Notably plain [[quantum mechanics]] encoded by traditional [[symplectic manifolds|symplectic]] or generally [[Poisson manifold|Poisson]] [[phase spaces]] is naturally subsumed. See below the example _[The Poisson manifold at the boundary of 2d Chern-Simons theory](#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory)_.
+
 
 
 ## General theory
  {#GeneralTheory}
 
-(...)
+We first set up some
 
-The whole process that we describe is going to be summarized by the following diagram of [[monoidal (∞,n)-categories]].
+* _[Basic notions](#BasicNotions)_ 
+
+of [[higher category theory]] that we need. Then we introduce the three steps that constitute motivic quantum theory: 
+
+1. _[Correspondences and local quantum field theory](#CorrespondencesAndLocalPrequantumFieldTheory)_
+
+1. _[Bivariant cohomology and the superposition principle](#BivariantCohomologyAndTheSuperpositionPrinciple)_
+
+1. _[Push-forward in cohomology and path integral quantization](#PushForwardInCohomologyAndPathIntegralQuantization)_ .
+
+Readers already familar with the higher category theory notation that we happen to use may take the following as the lighning summary of the definition: the whole process that we describe is going to be summarized by the following diagram of [[monoidal (∞,n)-categories]].
 
 $$
   \array{
@@ -142,9 +183,7 @@ $$
   }
 $$
 
-The left part of this diagram constitutes the defintion of a [[local prequantum field theory]]: the [[field (physics)|fields]] $\phi \in \mathbf{Fields}$ and the [[local action functional]] $\exp(i S)$ on them. The morphism $\int$ on the right is the map that sends by a [[path integral as a pull-push transform]] correspondences equipped with cocycles to $E$-linear maps of [[∞-modules]] . 
-
-The resulting composite 
+The left part of this diagram constitutes the defintion of a [[local prequantum field theory]]: the [[field (physics)|fields]] $\phi \in \mathbf{Fields}$ and the [[local action functional]] $\exp(i S)$ on them. The morphism $\int$ on the right is the map that sends by a [[path integral as a pull-push transform]] correspondences equipped with cocycles to $E$-linear maps of [[∞-modules]]. The resulting composite 
 
 $$
   \underset{\phi \in \mathbf{Fields}}{\int}
@@ -155,10 +194,10 @@ $$
 
 is the [[FQFT]] which is the [[quantization]] of the original [[prequantum field theory]].
 
-(...)
 
 
 ### Basic notions
+ {#BasicNotion}
 
 #### The ambient $\infty$-topos and algebra inside
 
@@ -252,6 +291,7 @@ This is a [[symmetric monoidal (∞,n)-category]].
 
 
 ### **1.)** Correspondences and local prequantum field theory
+ {#CorrespondencesAndLocalPrequantumFieldTheory}
 
 
 +-- {: .num_prop #GroupOfUnitsAdjunction}
@@ -360,6 +400,7 @@ then $Bord_n(def)$ consists of cobordisms with two different boundary ([[brane]]
 
 
 ### **2.)** Bivariant cohomology and the superposition principle
+ {#BivariantCohomologyAndTheSuperpositionPrinciple}
 
 
 Let $E$ be an [[E-∞ ring]], write $GL_1(E)$ for its [[∞-group of units]]. With $\mathbf{H}$ the ambient [[(∞,1)-topos]], write $\mathbf{H}_{/\mathbf{B}GL_1(E)}$ for the [[slice (∞,1)-topos]] over the [[delooping]] of this [[abelian ∞-group]]. This is the [[(∞,1)-category]] of [[spaces]] equipped with [[(∞,1)-module bundle|(∞,1)-line bundles]] over $E$. Consider an [[(∞,1)-functor]] 
@@ -479,6 +520,7 @@ This is how (equivariant) [[bivariant K-theory]] is presented, at least over man
 =--
 
 ### **3.)** Push-forward in cohomology and path integral quantization
+ {#PushForwardInCohomologyAndPathIntegralQuantization}
 
 
 $$
@@ -848,7 +890,8 @@ The first step is ([Nuiten 13, section x](#Nuiten13)). The second is ([DEKM 11, 
 ### Dimension 2
 
 
-#### The Poisson manifold at the boundary of the non-perturvative Poisson $\sigma$-model (2d Chern-Simons theory)
+#### The Poisson manifold at the boundary of 2d Chern-Simons theory
+ {#PoissonManifoldAtTheBoundaryOf2dChernSimonsTheory}
 
 (...) [[extended geometric quantization of 2d Chern-Simons theory]] (...)
 
@@ -862,6 +905,7 @@ The first step is ([Nuiten 13, section x](#Nuiten13)). The second is ([DEKM 11, 
 (...) [[Lie-Poisson structure]] (...) [[orbit method]] (...)
 
 #### The charged particle at the boundary of the open superstring
+ {#ChargedParticleAtBoundaryOfSuperstring}
 
 * $X$ [[spacetime]]
 
