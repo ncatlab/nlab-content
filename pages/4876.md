@@ -192,9 +192,16 @@ See also Section 2.3.18 and section 4.7 of
 ### D-branes
  {#ReferencesDBranes}
 
-[[D-branes]] in the WZW model are discussed in
+A characterization of [[D-branes]] in the WZW model including an integrality ([[Bohr-Sommerfeld quantization|Bohr-Sommerfeld]]-)condition missed in other parts of the literature is stated in 
 
 * [[Anton Alekseev]], [[Volker Schomerus]], _D-branes in the WZW model_, Phys.Rev.D60:061901,1999 ([arXiv:hep-th/9812193v2](http://arxiv.org/abs/hep-th/9812193v2))
+
+based on 
+
+
+* [[Ctirad Klimčík]], [[Pavol Ševera]], _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, ([arXiv:hep-th/9512124](http://arxiv.org/abs/hep-th/9512124))
+
+
 
 ### Relation to extended TQFT
 
