@@ -58,9 +58,11 @@ The _category of actions_ of $M$ in $C$ is then defined to be the [[functor cate
 
 ### Actions of a category
 
-One can also define an [[action of a category on a set|action of a category]] $D$ on the category $C$ as a functor from $C$ to $D$, but usually one just calls this a [[functor]].
+One can also define an [[action of a category on a set|action of a category]] $D$ on the category $C$ as a functor from $C$ to $D$, but usually one just calls this a [[functor]]. 
 
-Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]].
+Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]]. 
+
+On the other hand, an action of a [[monoidal category]] (not _in_ a monoidal category, as above) is called an [[actegory]]. This notion can be expanded of course to actions _in_ a [[monoidal bicategory]], where in the case of $Cat$ as monoidal bicategory it specializes to the notion of actegory. 
 
 ### Actions of a group object
 
