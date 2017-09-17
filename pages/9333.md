@@ -28,11 +28,11 @@ Here we give an informal overview of what motivates this generalization and what
 
 First we list some examples of how tools from [[higher differential geometry]] help to understand plain traditional [[differential geometry]]:
 
-* _[I) Applications of higher DG to plain DG](#ApplicationsOfHigherDGToPlanDG)_
+* _[I) Applications of higher DG to plain DG](#ApplicationsOfHigherDGToPlainDG)_
 
 Besides illuminating traditional DG where it exists, higher DG naturally extends plain DG to regions where it breaks down due to [[singularities]]:
 
-* _[II) Resolution of singularities in plan DG](#ResolutionOfSingularities)_
+* _[II) Resolution of singularities in plain DG](#ResolutionOfSingularities)_
 
 However, much of the genuine motivation for developing [[higher differential geometry]] came and increasingly comes from structures in fundamental [[physics]], in [[quantum field theory]] and [[string theory]], which are intrinsically of [[higher geometry|higher geometric]] nature, hence for which no adequate description in plain [[differential geometry]] even exists (this is in fact already true for traditional local gauge theory, see [below](#FieldBundles)). 
 This we discuss in:
@@ -41,7 +41,7 @@ This we discuss in:
 
 
 ## **I)** Applications of higher DG to plain DG
-{#ApplicationsOfHigherDGToPlanDG}
+{#ApplicationsOfHigherDGToPlainDG}
 
 This section lists examples of how [[higher differential geometry]] helps with understanding plain [[differential geometry]].
 
@@ -68,7 +68,7 @@ At the roots of differential geometry, prominent in the original work of [[Eli C
 
    In the context of [[Lie groupoid]] theory, foliations have a classification -- a [[moduli stack]]: the [[Haefliger groupoid]]. The textbook ([Moerdijk-Mrcun](#MoerdijkMrcun)) discusses foliation theory from this perspective. The _[[Haefliger theorem]]_ which classifies foliations on open manifolds is proven by way of the [[Haefliger groupoid]].
 
-   Cartan had originally encoded the [[partial differential equation|PDEs]] whose integration leads ot foliation by "[[exterior differential systems]]". These are equivalently ([[Chevalley-Eilenberg algebras]]) of [[L-∞ algebroids]]. The entire theory of integration is thereby part of higher [[Lie theory]] -- [[infinity-Lie theory]]. 
+   Cartan had originally encoded the [[partial differential equation|PDEs]] whose integration leads to foliation by "[[exterior differential systems]]". These are equivalently ([[Chevalley-Eilenberg algebras]]) of [[L-∞ algebroids]]. The entire theory of integration is thereby part of higher [[Lie theory]] -- [[infinity-Lie theory]]. 
 
 ### Poisson and symplectic geometry
  {#PoissonGeometry}
