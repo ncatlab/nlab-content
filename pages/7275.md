@@ -32,13 +32,15 @@ An ordinary [[group]] is either an [[abelian group]] or not. For an [[∞-group]
 
 ## Related concepts
 
-[[!include k-monoidal table]]
 
-## Related concepts
-
-* [[∞-groupd]]
+* [[∞-group]]
 
 * [[braided ∞-group]]
+
+* [[abelian 2-group]], [[abelian 3-group]]
+
+[[!include k-monoidal table]]
+
 
 ## References
 
