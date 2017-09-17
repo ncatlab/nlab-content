@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -34,3 +34,17 @@ In direct analogy to how [[strict 2-group]]s are equivalently encoded in a smoot
 ### Derivation Lie 2-algebra
 
 The Lie version of a smooth [[automorphism 2-group]] is the derivation Lie 2-algebra $Der(\mathfrak{g})$ of an ordinary [[Lie algebra]] $\mathfrak{g}$. This is the one coming from the [[differential crossed module]] $(\mathfrak{g} \stackrel{ad}{\to} der(\mathfrak{g}))$.
+
+## Related concepts
+
+* [[Lie algebra]], [[Lie group]]
+
+* [[Lie 2-algebra]], [[Lie 2-group]]
+
+* [[L-infinity algebra]], [[smooth ∞-group]]
+
+* [[Lie algebroid]], [[Lie groupoid]]
+
+* [[L-∞ algebroid]], [[smooth ∞-groupoid]]
+
+[[!redirects strict Lie 2-algebras]]
