@@ -140,7 +140,9 @@
   * Types of quantum field thories
 
     * [[TQFT]]
- 
+
+      * [[2d TQFT]] 
+
       * [[Dijkgraaf-Witten theory]]
 
       * [[Chern-Simons theory]]
