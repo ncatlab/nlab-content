@@ -179,6 +179,9 @@ The [[exceptional Lie groups]] incude
 
 * [[invariant differential form]], [[Maurer-Cartan form]]
 
+[[!include infinitesimal and local - table]]
+
+
 ## References
 
 
