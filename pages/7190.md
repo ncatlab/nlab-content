@@ -55,7 +55,7 @@ This are the first stages of a notion that in [[(∞,1)-topos theory]] continue 
 
 Let $\kappa$ be a [[regular cardinal]] and $ -1 \leq n \leq \infty$. Then an [[(∞,1)-topos]] is _$\kappa$-compact of height $n$_ if the [[global section geometric morphism]] preserves $\kappa$-[[filtered (∞,1)-category|filtered]] [[(∞,1)-colimits]] of [[n-truncated]] objects. 
 
-Accordingly a geometric morphism is _$\kappa$-proper of height $n$_ if it exhibits $\kappa$-compact of height $n$ $(\infty,1)$-topos over a [[base (∞,1)-topos]].
+Accordingly a geometric morphism is _$\kappa$-proper of height $n$_ if it exhibits a $\kappa$-compact of height $n$ $(\infty,1)$-topos over a [[base (∞,1)-topos]].
 
 =--
 
@@ -65,7 +65,12 @@ In this terminology
 
 * a topos _compact of height 0_ is the same as a _strongly compact topos_;
 
-See also ([[Rational and p-adic Homotopy Theory|Lurie XIII, prop. 2.3.9]]).
++-- {: .num_remark }
+###### Remark
+
+An [[n-coherent (∞,1)-topos]] is compact of height $n$ in the sense of def. \ref{StronglyCompactTopos}, this is ([[Rational and p-adic Homotopy Theory|Lurie XIII, prop. 2.3.9]]).
+
+=--
 
 
 ## Properties
