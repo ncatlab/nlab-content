@@ -95,12 +95,16 @@ Lecture notes are in
 
 Other sources include
 
+* [[Jacob Lurie]], [[Descent Theorems]], section 3.
+
 * Alonso, Lombardi, Perdry, _Henselian local rings_ ([pdf](http://drops.dagstuhl.de/volltexte/2006/437/pdf/05021.PerdryHerve.Paper.437.pdf))
 
-* _Remarks on Henselian rings_ ([pdf](http://www.emis.de/journals/UIAM/PDF/46-79-85.pdf));
+* Krzysztof Jan Nowak, _Remarks on Henselian rings_ ([pdf](http://www.emis.de/journals/UIAM/PDF/46-79-85.pdf));
 
 * [[Ieke Moerdijk]], _Rings of smooth functions and their localizations_ ([pdf](http://nlab.mathforge.org/nlab/files/RingsOfSmoothFunctionsI.pdf))
 
 [[!redirects Hensel ring]]
 [[!redirects Hensel rings]]
 [[!redirects Henselian rings]]
+[[!redirects henselian ring]]
+[[!redirects henselian rings]]
