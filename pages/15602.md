@@ -1,0 +1,21 @@
+# Properad
+
+##Definition
+
+A __properad__ is a [[monoid]] in the [[monoidal
+category]] of bisymmetric sequences equipped
+with a version of [[substitution product]]
+modeled on connected directed graphs with 2 levels
+instead of corollas, which are used for [[operads]].
+The idea is that operations in a properad can
+have multiple inputs and outputs, as opposed
+to a single output in an operad.
+On the other hand, a properad is less general
+than an [[prop]], because a prop also
+allows nonconnected graphs in the definition
+of the substitution product.
+
+##References
+
+* [[Bruno Vallette]], A Koszul duality for props.
+[arXiv:math/0411542](http://arxiv.org/abs/math/0411542)
