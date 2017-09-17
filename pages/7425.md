@@ -240,6 +240,8 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
 
 * [[chromatic homotopy theory]]
 
+* [[K(n)-local stable homotopy theory]]
+
 * [[integral Morava K-theory]]
 
 * [[Morava E-theory]]
