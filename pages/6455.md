@@ -5,4 +5,6 @@
 
 * [[string theory]]
 
+* [[string scattering amplitude]]
+
 category: people
