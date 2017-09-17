@@ -123,7 +123,7 @@ But again, more generally, $\mathbf{H}$ can be an [[(∞,1)-category of (∞,1)-
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]]. We discuss in the following a sequence of [[reflective sub-(∞,1)-categories]] of that of [[simplicial objects in an (∞,1)-category]] $\mathcal{C}^{\Delta^{op}}$ in $\mathcal{C}$, see there for more details.
 
-We frequently refer to the [[powering]] of a simplicial object $X_\bullet$ by a [[simplicial set]], into an object in $\mathcal{C}$, denoted $X(K)$. For details on this see at _[simplicial object in an (∞,1)-category -- Powering](simplicial+object+in+an+%28infinity%2C1%29-category#Powering)_.
+We frequently refer to the [[powering]] of a simplicial object $X_\bullet$ by a [[simplicial set]], into an object in $\mathcal{C}$, denoted $X(K)$. For details on this see at _[simplicial object in an (∞,1)-category -- Powering](simplicial+object+in+an+%28infinity%2C1%29-category#Powering)_ .
 
 
 +-- {: .num_remark #RemarkNoNeedForLocalization}
@@ -256,7 +256,7 @@ Write $Grpd(\mathcal{C})$ for the [[(∞,1)-category]] of groupoid objects in $\
 
 =--
 
-The equivalence follows with [[HTT|HTT prop. 6.2.1.6]], see at _[groupoid object -- equivalent characterizations](groupoid object in an (infinity,1)-category#EquivalentCharacterizations)_.
+The equivalence follows with [[HTT|HTT prop. 6.2.1.6]], see at _[groupoid object -- equivalent characterizations](groupoid+object+in+an+%28infinity%2C1%29-category#EquivalentCharacterizations)_.
 
 +-- {: .num_remark }
 ###### Remark
@@ -428,8 +428,9 @@ In order to state the completeness condition on pre-category objects that make t
 +-- {: .num_prop #CoreOnPreCategoryObjects}
 ###### Proposition
 
+Let $\mathbf{H}$ be an [[(∞,1)-topos]].
 Every [[groupoid object in an (∞,1)-category|groupoid object in]] $\mathbf{H}$ is canonically an internal pre-category. 
-Under this inclusion $i \colon Grpd(\mathbf{H}) \hookrightarrow PreCat(\mathbf{H})$ the groupoid objects form a [[coreflective sub-(∞,1)-category]] of that of pre-catgegory objects, with [[right adjoint]] to the inclusion called the [[core]]
+Under this inclusion $i \colon Grpd(\mathbf{H}) \hookrightarrow PreCat(\mathbf{H})$ the groupoid objects form a [[coreflective sub-(∞,1)-category]] of that of pre-catgegory objects,
 
 $$
   (i \dashv core)
@@ -449,7 +450,7 @@ This is ([Lurie, prop. 1.1.14](#Lurie)).
 +-- {: .proof}
 ###### Proof
 
-With def. \ref{Equivalences} it is direct to establish the statement for the case that $\mathcal{C} \simeq $ [[∞Grpd]], ([Lurie, cor. 1.1.11](#Lurie)) From this it follows also for the case that $\mathbf{H} \simeq PSh_\infty(\mathcal{D})$ is an [[(∞,1)-category of (∞,1)-presheaves]] by arguing objectwise over objects in $\mathcal{D}$. 
+With def. \ref{Equivalences} it is direct to establish the statement for the case that $\mathcal{C} \simeq $ [[∞Grpd]], ([Lurie, cor. 1.1.11](#Lurie)), for instance by using the standard theory of [[Segal spaces]]. From this it follows also for the case that $\mathbf{H} \simeq PSh_\infty(\mathcal{D})$ is an [[(∞,1)-category of (∞,1)-presheaves]] by arguing objectwise over objects in $\mathcal{D}$. 
 In the general case, $\mathbf{H}$ is a [[reflective sub-(∞,1)-category]] of such, $\mathcal{C} \hookrightarrow PSh_\infty(\mathcal{D})$. It is then sufficient to show that the core operation on the presheaf $\infty$-toposes respects these inclusions, so that we have
 
 $$
@@ -463,7 +464,7 @@ $$
   \,.
 $$
 
-This means that we need to show that if $X_\bullet \in \mathbf{H} \hookrightarrow PSh_\infty(\mathcal{D})$ is a category object, then $Core_{PSh}(X_\bullet)$ is degreewise in $\mathbf{H}$. By the pre-category condition and since the refletive inclusion is [[right adjoint]] and hence preserves the fiber products, for this it is sufficient that $Core_{Psh}(X)_0$ and $Core_{PSh}(X)_1$ are in $\mathbf{H}$.  To complete the proof it is sufficient to show that the first of these is $X_0$ and (again since the inclusion preserves limits) the second is the [[powering]] $X^K$, where
+This means that we need to show that if $X_\bullet$ is degreewise in $\mathbf{H} \hookrightarrow PSh_\infty(\mathcal{D})$ and is a pre-category object, then $Core_{PSh}(X_\bullet)$ is degreewise in $\mathbf{H}$. By the pre-category condition and since the refletive inclusion is [[right adjoint]] and hence preserves the fiber products, for this it is sufficient that $Core_{Psh}(X)_0$ and $Core_{PSh}(X)_1$ are in $\mathbf{H}$.  To complete the proof it is sufficient to show that the first of these is $X_0$ and (again since the inclusion preserves limits) the second is the [powering](simplicial%20object%20in%20an%20%28infinity,1%29-category#Powering) $X(K)$, where
 
 $$
   K \coloneqq \Delta^0 \coprod_{\Delta^{\{0,2\}}} \Delta^3 \coprod_{\Delta^{\{1,3\}}} \Delta^
@@ -498,19 +499,19 @@ $$
 
 We claim generally that
 
-1. for $X \in PreCat(\mathbf{H})$ the canonical morphism $Core(X)^K \to X^K$ is an equivalence;
+1. for $X \in PreCat(\mathbf{H})$ the canonical morphism $Core(X)(K) \to X(K)$ is an equivalence;
 
-1. for $Y \in Grpd(\mathbf{H})$ the canonical morphism $Y^K \to Y^{K^0}$ is an equivalence.
+1. for $Y \in Grpd(\mathbf{H})$ the canonical morphism $Y(K) \to Y(K^0)$ is an equivalence.
 
 (This is ([Lurie, prop. 1.1.13](#Lurie)).)
 
 Here
 
 $$
-  X^K \coloneqq  X_0 \underset{\{0,2\}}{\times} X_3 \underset{\{1,3\}}{\times} X_0
+  X(K) \simeq  X_0 \underset{X(\{0,2\})}{\times} X_3 \underset{X(\{1,3\})}{\times} X_0
 $$
 
-etc. Heuristically it is clear, by the nature of $K$, that this picks all those 3-simplices in $X_\bullet$ for which the $\{0,1\}$-edges is a weak inverse to the $\{2,3\}$-edge. Formally this follows from [this proposition](simplicial+object+in+an+%28infinity%2C1%29-category#SlicingOverPoweringOfSimplicialObjects) at _[[simplicial object in an (∞,1)-category]]_. Hence $Core(X)^K \to X^K$ is an equivalence. Moreover $K^0 \hookrightarrow K$ is a weak equivalence, and hence so is $Core(X)^K \to Core(X)^{K^0} \simeq Core(X)_1$.
+etc. Heuristically it is clear, by the nature of $K$, that this picks all those 3-simplices in $X_\bullet$ for which the $\{0,1\}$-edges is a weak inverse to the $\{2,3\}$-edge. Formally this follows from [this proposition](simplicial+object+in+an+%28infinity%2C1%29-category#SlicingOverPoweringOfSimplicialObjects) at _[[simplicial object in an (∞,1)-category]]_. Hence $Core(X)(K) \to X(K)$ is an equivalence. Moreover $K^0 \hookrightarrow K$ is a weak equivalence, and hence so is $Core(X)(K) \to Core(X)({K^0}) \simeq Core(X)_1$.
 
 
 =--
@@ -545,7 +546,7 @@ Once one has this, the definition of
 
 * [Category objects](#CategoryObjectsInC)
 
-works essentially as [before](#CompleteCategoryInTopos) in an $(\infty,1)$-topos. The key point is that the ambient [[(∞,1)-topos]] $\mathbf{H}$ serves itself naturally as the collection of groupoid objects inside its [[(∞,1)-category]] of inernal categories and so this yields a natural notion of
+works essentially as before in an $(\infty,1)$-topos. The key point is that the ambient [[(∞,1)-topos]] $\mathbf{H}$ serves itself naturally as the collection of groupoid objects inside its [[(∞,1)-category]] of inernal categories and so this yields a natural notion of
 
 * [Iterated internalization -- Internal n-categories](#InternalnCategories).
 
@@ -560,16 +561,18 @@ below.
 #### Relative core -- Choice of groupoid objects
  {#ChoiceOfGroupoidObjects}
 
-The structure necessary to formulate the [[complete Segal space|completeness]] condition, which in an [[(∞,1)-topos]] is def. \ref{#CategoryObject}, internal to a more general [[(∞,1)-category]] $\mathcal{C}$ is the following.
+The structure necessary to formulate the [[complete Segal space|completeness]] condition, which in an [[(∞,1)-topos]] is def. \ref{CategoryObject}, internal to a more general [[(∞,1)-category]] $\mathcal{C}$ is the following.
 
 +-- {: .num_defn #ChoiceOfInternalGroupoids}
 ###### Definition
 
 For $\mathcal{C}$ an [[presentable (∞,1)-category]], a **choice of internal groupoids** is a choice of [[full sub-(∞,1)-category]] inclusion $\mathbf{H} \hookrightarrow \mathcal{C}$ of an [[(∞,1)-topos]] $\mathbf{H}$ such that
 
-* the inclusion is closed under small [[(∞,1)-limits]] and [[(∞,1)-colimits]], hence (by the [[adjoint (∞,1)-functor theorem]]) the inclusion is one of "[[discrete objects]]"
+* the inclusion is closed under small [[(∞,1)-limits]] and [[(∞,1)-colimits]], hence (by the [[adjoint (∞,1)-functor theorem]]) the inclusion is one of "[[discrete objects]]", given by an [[adjoint triple]]
 
   $$
+    (\Pi \dashv Disc \dashv \Gamma)
+    \colon
     \mathcal{C}
      \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\hookleftarrow}}{\underset{\Gamma}{\to}}}
     \mathbf{H}
@@ -587,11 +590,11 @@ This is the definition of "distributor" in ([Lurie, def. 1.2.1](#Lurie)), where 
 +-- {: .num_example }
 ###### Example
 
-The identity $\mathbf{H} \simeq \mathcal{C}$ is a choice of internal groupoids in $\mathbf{H}$, by the [[Giraud theorem|(∞,1)-Giraud theorem]]. For this choice the following theory of category object in $\mathcal{C}$ relative to $\mathbf{H}$ reduces to that of category objects in $\mathbf{H}$, as discussed [above](#CompleteCategoryInTopos).
+The identity $\mathbf{H} \simeq \mathcal{C}$ is a choice of internal groupoids in $\mathbf{H}$, by the [[Giraud theorem|(∞,1)-Giraud theorem]]. For this choice the following theory of category objects in $\mathcal{C}$ relative to $\mathbf{H}$ reduces to that of category objects in $\mathbf{H}$, as discussed [above](#CompleteCategoryInTopos).
 
 =--
 
-For the discussion of [[(∞,n)-categories]], the central property of such _choices of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids} is that they behave well with forming internal categories, this is prop. \ref{InductiveChoicesOfInternalGroupoids} below.
+For the discussion of [[(∞,n)-categories]], the central property of such _choices of internal groupoids_, def. \ref{ChoiceOfInternalGroupoids} is that they behave well with forming internal categories, this is cor. \ref{InductiveChoicesOfInternalGroupoids} below.
 
 
 This corresponds to ([Lurie, notation 1.2.9](#Lurie)).
@@ -796,7 +799,7 @@ $$
 $$ 
 
 is fully faithful, since $\Delta^{op}$ is a contractible 
-$(\infty,1)$-category . The first inclusion preserves limits and colimits since in presheaf categories these are computed objectwise, similarly for the second, using the assumption that already $\mathcal{H} \to \mathcal{C}$ preserves limits and colimits. Moreover, this inclusion clearly factors through $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$ and since that is also fully faithful, also $\mathbf{H} \to Cat_{\mathbf{H}}(\mathcal{C})$ preserves limits and colimits.
+$(\infty,1)$-category . The first inclusion preserves limits and colimits since in presheaf categories these are computed objectwise, similarly for the second, using the assumption that already $\mathbf{H} \to \mathcal{C}$ preserves limits and colimits. Moreover, this inclusion clearly factors through $Cat_{\mathbf{H}}(\mathcal{C}) \hookrightarrow \mathcal{C}^{\Delta^{op}}$ and since that is also fully faithful, also $\mathbf{H} \to Cat_{\mathbf{H}}(\mathcal{C})$ preserves limits and colimits.
 
 =--
 
@@ -1438,7 +1441,7 @@ etc. In the [[categorical semantics]] in a [[type-theoretic model category]] thi
 
 A general abstract formulation is in 
 
-* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie calculus_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
  {#Lurie}
 
 The model given by complete Segal space objects is due to
