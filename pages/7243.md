@@ -21,6 +21,11 @@
 * table of contents
 {: toc}
 
+## Idea
+ {#Idea}
+
+For each [[prime number]] $p$ the [[ring]] of _$p$-adic integers_ $\mathbb{Z}_p$ is the [[formal completion]] of the ring $\mathbb{Z}$ at the [[prime ideal]] $(p)$. Geometrically this means that $\mathbb{Z}_p$ is the [[ring of functions]] on a [[formal neighbourhood]] of $p$ inside [[Spec(Z)]] (this is discussed in more detail [below](#AsFormalNeighbourhoodOfPrime)). Algebraically it means that the elements in $\mathbb{Z}_p$ look like [[formal power series]] where the formal variable is the prime number $p$.
+
 ## Definition 
 
 For any [[prime number]] $p$, the [[ring]] of $p$-**adic integers** $\mathbb{Z}_p$ (which, to avoid possible confusion with the ring $\mathbb{Z}/(p)$ used in [[modular arithmetic]], is also written as $\widehat{\mathbb{Z}}_p$) may be described in one of several ways: 
@@ -109,6 +114,11 @@ $$
 
 is the [[Isbell duality|formal dual]] of the canonical [[projection]] maps $\mathbb{Z}\to \mathbb{Z}_p\to \mathbb{Z}/(p)$.
 
+This plays a central role for instance in the [[fucntion field analogy]].
+It is highlighted for instance in ([Buium 13, section 1.1.3](#Buium13)). 
+
+[[!include infinitesimal and local - table]]
+
 ## Related notions 
 
 * $p$-[[p-adic number|adic number]], [[adele]].
@@ -141,13 +151,14 @@ Introductions and surveys include
 * Bernard Le Stum, _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_ talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
 
 
-* [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
- {#Lenstra}
+* {#Lenstra} [[Hendrik Lenstra]], _Profinite groups_ ([pdf](http://websites.math.leidenuniv.nl/algebra/Lenstra-Profinite.pdf))
  
+The [[synthetic differential geometry]]-aspect of the $p$-adic numbers is highlighted for instance in 
+
+* {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194))
 
 [[!redirects p-adic integer]]
 [[!redirects p-adic integers]]
 
 [[!redirects adic integer]]
 [[!redirects adic integers]]
-
