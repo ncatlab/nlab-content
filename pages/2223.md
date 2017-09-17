@@ -44,7 +44,7 @@ Let $\mathbf{H}$ be an [[(∞,1)-topos]] of [[homotopy dimension]] 0 (for instan
 A [[morphism]] $f : K \to G$ of [[∞-groups]] in $\mathbf{H}$ is **normal** if it is a [[homotopy fiber]] of a morphism to a [[0-connected]] object, hence if it fits into a [[fiber sequence]] of the form
 
 $$
-  \mathbf{B}K \stackrel{\mathbf{B}f}{\to} \mathbf{B}G \to \mathbf{B}(G//K)
+  \mathbf{B}K \stackrel{\mathbf{B}f}{\to} \mathbf{B}G \to \mathbf{B}(G\sslash K)
   \,.
 $$
 
@@ -53,24 +53,32 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Here the object on the right is any [[0-connected]] [[∞-groupoid]]. By the assumption of [[homotopy dimension]] 0 and by the discussion at [[looping and delooping]] this is necessarily the [[delooping]] of some [[∞-group]], to be denoted $G//K$. By the discussion at [[fiber sequence]] it follows that $G//K \simeq \Omega \mathbf{B}(G//K)$ is the [[homotopy fiber]] of $\mathbf{B}f$, hence that we have a long fiber sequence
+Here the object on the right is any [[0-connected]] [[∞-groupoid]]. By the assumption of [[homotopy dimension]] 0 and by the discussion at [[looping and delooping]] this is necessarily the [[delooping]] of some [[∞-group]], to be denoted $G\sslash K$. By the discussion at [[fiber sequence]] it follows that $G\sslash K \simeq \Omega \mathbf{B}(G \sslash K)$ is the [[homotopy fiber]] of $\mathbf{B}f$, hence that we have a long fiber sequence
 
 $$
- G//K \to \mathbf{B}K \stackrel{\mathbf{B}f}{\to}\mathbf{B}G \to \mathbf{B}G/K
+ G\sslash K \to \mathbf{B}K \stackrel{\mathbf{B}f}{\to}\mathbf{B}G \to \mathbf{B}G/K
   \,.
 $$
 
-Therefore equivalently this says that $f : K \to G$ is normal precisely if $\mathbf{B}f : \mathbf{B}K \to \mathbf{B}G$ is a [[principal ∞-bundle]]. The above fiber sequence says that this principal $\infty$-bundle has typical [[fiber]] $G//K$ and is classified by the [[cocycle]] $\mathbf{B}G \to \mathbf{B}(G//K)$.
+Therefore equivalently this says that $f : K \to G$ is normal precisely if $\mathbf{B}f : \mathbf{B}K \to \mathbf{B}G$ is a [[principal ∞-bundle]]. The above fiber sequence says that this principal $\infty$-bundle has typical [[fiber]] $G\sslash K$ and is classified by the [[cocycle]] $\mathbf{B}G \to \mathbf{B}(G\sslash K)$.
 
 =--
 
-For the case $\mathbf{H} = $ [[∞Grpd]] -- hence for [[discrete ∞-groups]] -- and with [[∞Grpd]] [[presentable (∞,1)-category|presented]] by the standard [[model structure on topological spaces]], this notion is discussed in ([Prezma](#Prezma)). The further special where $f$ is a morphism of [[discrete group|discrete 1-groups]], such that $G//K$ is a [[2-group]] (example \ref{CrossedModulesAreHomotopyNormalGroupMaps} below) is discussed in ([Farjoun-Segev](#FarjounSegev)).
+
+For the case $\mathbf{H} = $ [[∞Grpd]] -- hence for [[discrete ∞-groups]] -- and with [[∞Grpd]] [[presentable (∞,1)-category|presented]] by the standard [[model structure on topological spaces]], this notion is discussed in ([Prezma](#Prezma)). The further special where $f$ is a morphism of [[discrete group|discrete 1-groups]], such that $G\sslash K$ is a [[2-group]] (example \ref{CrossedModulesAreHomotopyNormalGroupMaps} below) is discussed in ([Farjoun-Segev](#FarjounSegev)).
 
 
 +-- {: .num_remark}
 ###### Remark
 
-Every ordinary normal subgroup inclusion $K \hookrightarrow G$ is also also a normal morphism of ∞-groups, but there are more morphisms of 1-groups that are normal as morphisms of $\infty$-groups. See example \ref{CrossedModulesAreHomotopyNormalGroupMaps} below.
+Such a normal morphism equivalently exhibits an [[∞-group extension]] $G$ of $G \sslash K$ by $K$. See there for more details.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Every ordinary normal subgroup inclusion $K \hookrightarrow G$ is also a normal morphism of ∞-groups, but there are more morphisms of 1-groups that are normal as morphisms of $\infty$-groups. See example \ref{CrossedModulesAreHomotopyNormalGroupMaps} below.
 
 =--
 
@@ -113,7 +121,7 @@ exhibits $N$ as a normal subgroup of the [[semidirect product group]] $G \ltimes
 Let $f : K \to G$ be a morphism of [[discrete groups]] (not necessarily a [[monomorphism]]) regarded as a morphisms of [[0-truncated]] [[discrete ∞-groups]]. Then the [[homotopy fiber]] of its [[delooping]] is the [[action groupoid]] 
 
 $$
-  G//K = 
+  G\sslash K = 
   \left(
     G \times K
     \stackrel{\overset{(-)\cdot f(-)}{\to}}{\underset{p_1}
@@ -126,7 +134,7 @@ $$
 
 (This follows for instance by computing the [[homotopy pullback]] via the [[factorization lemma]].)
 
-Since $G//K$ is a [[homotopy type|1-type]], this being an [[∞-group]] means that it is a [[2-group]], hence (see the discussion there) that $f : K \to G$ makes a [[crossed module]] of groups. 
+Since $G\sslash K$ is a [[homotopy type|1-type]], this being an [[∞-group]] means that it is a [[2-group]], hence (see the discussion there) that $f : K \to G$ makes a [[crossed module]] of groups. 
 
 So [normal morphisms](#NormalMorphismOfInfinityGroups) of [[0-truncated]] [[discrete ∞-groups]] are equivalently morphisms underlying [[crossed modules]] of [[discrete groups]].
 
