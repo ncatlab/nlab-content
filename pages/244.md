@@ -122,6 +122,15 @@ Details are in examples 1.2.3 and 1.2.4 of
 * The category of $\mathbb{Z}_2$-[[graded vector space]]s, on the other hand, has two different symmetric monoidal extensions of the standard [[tensor product]] monoidal structure. One is the trivial one from above, the other is the one that induces a a sign when two odd-graded vectors $v$ and $w$ are passed past each other : $v \otimes w \mapsto - w \otimes v$. This non-trivial symmetric monoidal structure on $Vect[\mathbb[Z}_2]$ defines the symmetric monoidal category of [[super vector space]]s.
 
 
+## Related concepts
+
+* [[monoidal category]], [[monoidal (∞,1)-category]]
+
+* **symmetric monoidal category**, [[symmetric monoidal (∞,1)-category]]
+
+* [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
+
+
 ## References
 
 For definitions of symmetric monoidal categories, [[symmetric monoidal functor]]s and [[symmetric monoidal natural transformation]]s, see:
