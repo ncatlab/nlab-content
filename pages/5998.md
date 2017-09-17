@@ -66,7 +66,7 @@ is a classic example of a term which admits an infinite sequence of beta-reducti
 
 In pure untyped lambda calculus, we can define [[natural numbers]] using the [[Church numerals]]: the number $n$ is represented by the operation of $n$-fold iteration.  Thus for instance we have $2 = \lambda f. (\lambda x.f (f x))$, the function which takes a function $f$ as input and returns a function that applies $f$ twice.  Similarly $1 = \lambda f. (\lambda x.f x)$ is the identity on functions, while $0 = \lambda f. (\lambda x . x)$ takes any function $f$ to the identity function (the 0th iterate of $f$).  We can then construct (very inefficiently) all of arithmetic, and prove that the arithmetic functions expressible by lambda terms are exactly the same as those computable by Turing machines or (total) recursive functions.
 
-The most natural sort of *model* of pure lambda calculus is a set or other object $D$ which is equivalent to its own [[exponential]] $D^D$.  Of course there are no nontrivial such models in sets, but they do exist in other categories, such as [[domain]]s.
+The most natural sort of *model* of pure lambda calculus is a set or other object $D$ which is equivalent to its own [[exponential]] $D^D$.  Of course there are no nontrivial such models in sets, but they do exist in other categories, such as [[domain]]s. It is worth remarking that a necessary condition on such $D$ is that every term $f \colon D^D$ have a fixed-point; see [[fixed-point combinator]]. 
 
 
 ### Simply typed lambda calculus
