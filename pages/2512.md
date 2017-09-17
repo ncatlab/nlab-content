@@ -2,6 +2,6 @@
 
 ## References
 
-* _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([http://arxiv/1007.5419](1007.5419)); part _III: Twisted higher structures_ ([http://arxiv.org/abs/1008.1755](1008.1755))
+* _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arXiv:1007.5419](http://arxiv/1007.5419)); part _III: Twisted higher structures_ ([arXiv:1008.1755](http://arxiv.org/abs/1008.1755))
 
 category: people
