@@ -15,13 +15,17 @@
 
 ## Idea
 
-_Extensional type theory is_ the flavor of [[type theory]] in which [[function extensionality]] holds by identities: two [[terms]] $f, g$ of [[function types]] are identified if all their values agree, if $\forall x, f(x) = g(x)$.
+_Extensional type theory_ the flavor of [[type theory]] where [[identity types]] are demanded to be [[propositions]] / of [[h-level 1]].
 
-If this distinction is not made, one speaks of [[intensional type theory]]. If, however, the [[univalence axiom]] is added to intensional type theory -- to obtain [[homotopy type theory]] -- then function extensionality holds again, but only by [[equivalence]].
+Type theory which is not extensional is called _[[intensional type theory]]_.
+
+Notice that this use of "extensional" is not related to -- and in fact sometimes in contradiction to -- _[[function extensionality]]_.
+
+Notably [[homotopy type theory]] is [[intensional type theory|intensiona]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but with the [[univalence axiom]] included the theory satisfies [[function extensionality]] (by terms of these intensional identity types, of course). 
 
 ## Properties
 
-### Decidibility
+### Decidability
 
 Only the intensional but not the [[extensional type theory|extensional]] [[Martin-Löf type theory]] is [[decidable]]. See _[[intensional type theory]]_ for more on this.
 
