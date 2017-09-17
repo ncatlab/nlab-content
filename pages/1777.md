@@ -61,7 +61,14 @@ where $i^{-1}(-)$ and $p^{-1}(-)$ denote any choice of [[pre-image]] (the total 
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The snake lemma derives its name from the fact that one may draw the connecting homomorphism $\partial$ that it constructs diagrammatically as follows:
+
 [[SnakeLemma.png:pic]]
+
+=--
 
 
 ## Related concepts
