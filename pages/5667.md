@@ -526,8 +526,14 @@ Discussion in the context of [[stable homotopy theory]] and [[E-theory]] is in
 
 ### In the context of the Atiyah-Singer index theorem
 
+The classical [[Atiyah-Singer index theorem]] is reviewed in [[operator K-theory]] (with some hints towards KK-theory) in 
+
 * [[Nigel Higson]], [[John Roe]], _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ (2004) ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
  {#HigsonRoe}
+
+Generalization to the relative case in [[KK-theory]], hence for indices of fiberwise [[elliptic operators]] on [[Hilbert C*-module]]-[[fiber bundles]] is in
+
+* Jody Trout, _Asymptotic Morphisms and Elliptic Operators over $C^\ast$-algebras_, K-theory, 18 (1999) 277-315 ([arXiv:math/9906098](http://arxiv.org/abs/math/9906098))
 
 ### For convolution algebras and In geometric quantization
 
