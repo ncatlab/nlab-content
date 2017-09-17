@@ -97,5 +97,10 @@ Pfaffian variety is subject of 4.4 in
 
 * Alexander Kuznetsov, _Semiorthogonal decompositions in algebraic geometry_, [arxiv/1404.3143](http://arxiv.org/abs/1404.3143)
 
+Relation to $\tau$-functions is discussed in 
+
+* J. W. van de Leur, A. Yu. Orlov, _Pfaffian and determinantal tau functions I_, [arxiv/1404.6076](http://arxiv.org/abs/1404.6076)
+
+category: algebraic geometry, representation theory
 [[!redirects Pfaffians]]
 [[!redirects pfaffian]]
