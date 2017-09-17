@@ -17,12 +17,12 @@
 | $v$ prime ideal in [[ring of integers]] $\mathcal{O}_K$ | $x \in \Sigma$ | $x \in \Sigma$ |
 | $K_v$ ([[formal completion]] at $v$)  |   | $\mathbb{C}((t_x))$ ([[function algebra]] on punctured [[formal disk]] around $x$) |
 | $\mathcal{O}_{K_v}$ ([[ring of integers]] of [[formal completion]]) |    |  $\mathbb{C}[ [ t_x ] ]$ ([[function algebra]] on [[formal disk]] around $x$) |
-| $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$  | 
-| $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ |
+| $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$ ([[restricted product]] of [[function rings]] on all punctured [[formal disks]] around all points in $\Sigma$)  | 
+| $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ (function ring on all [[formal disks]] around all points in $\Sigma$) |
+| $\mathbb{I}_K = GL_1(\mathbb{A}_K)$ ([[group of ideles]]) |  | $$\prod^\prime_{x\in \Sigma} GL_1(\mathbb{C}((t_x)))$$ |
 |  |  |  |
 | [[Riemann zeta function]] |  | [[zeta function of a Riemann surface]] |
 |  |  |  |
 |  |  [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
 |  |   $GL_n(F) \backslash GL_n(\mathbb{A})//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([[moduli stack of bundles]] on $\Sigma$) | 
-
 
