@@ -56,3 +56,27 @@ There are obvious generalisations for other fields.
 ## Note on Notation ##
 
 This is new terminology, invented to give a consistent way to refer to these spaces with their properties.  At time of writing [no existing name for this was known](http://mathoverflow.net/questions/82108/is-there-a-standard-notation-for-a-shift-space-in-functional-analysis).
+
+[[!redirects shift space]]
+[[!redirects split map]]
+[[!redirects split space]]
+[[!redirects shiftable space]]
+[[!redirects splittable space]]
+[[!redirects Shift map]]
+[[!redirects Shift space]]
+[[!redirects Split map]]
+[[!redirects Split space]]
+[[!redirects Shiftable space]]
+[[!redirects Splittable space]]
+[[!redirects shift maps]]
+[[!redirects shift spaces]]
+[[!redirects split maps]]
+[[!redirects split spaces]]
+[[!redirects shiftable spaces]]
+[[!redirects splittable spaces]]
+[[!redirects Shift maps]]
+[[!redirects Shift spaces]]
+[[!redirects Split maps]]
+[[!redirects Split spaces]]
+[[!redirects Shiftable spaces]]
+[[!redirects Splittable spaces]]
