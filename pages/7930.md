@@ -93,7 +93,7 @@ For [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[super
 
 * [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
-* [[Joseph Polchinski]], part II, appendix B of _String theory_, Cambridge monographs on mathematical physics
+* [[Joseph Polchinski]], part II, appendix B of _[[String theory]]_, Cambridge Monographs on Mathematical Physics
 
 [[!redirects spin representations]]
 
