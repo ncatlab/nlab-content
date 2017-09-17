@@ -47,6 +47,10 @@ See at _[[classifying topos for the theory of objects]]_.
 
 * In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the **theory of objects** corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]](#FunctorialDefinition)).
 
+## Related Concepts
+
+* [[theory of decidable objects]]
+
 ## References
 
 Sections B4.2, D3.2 of
