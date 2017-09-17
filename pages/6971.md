@@ -15,7 +15,7 @@
 
 ## Idea
 
-_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] are demanded to be [[propositions]] / of [[h-level 1]].  In other words, they are determined by their [extensions](http://en.wikipedia.org/wiki/Extension_%28semantics%29) --- the collection of pairs of points which are equal.  Type theory which is not extensional is called _[[intensional type theory]]_.
+_Extensional type theory_ denotes the flavor of [[type theory]] in which [[identity types]] are demanded to be [[propositions]] / of [[h-level 1]].  In other words, they are determined by their [[extension (semantics)|extensions]] --- the collection of pairs of points which are equal.  Type theory which is not extensional is called _[[intensional type theory]]_.
 
 Note that some type theorists instead use "extensional type theory" to refer to type theory in which [[function extensionality]] holds.  In general this property is orthogonal to the one considered here: function extensionality can hold or fail in both extensional and intensional type theory.  In particular, [[homotopy type theory]] is [[intensional type theory|intensiona]] in that [[identity types]] are crucially _not_ demanded to be [[propositions]], but [[function extensionality]] is often assumed (in terms of these intensional identity types, of course) --- in particular, it follows from the [[univalence axiom]].
 
