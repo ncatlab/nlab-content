@@ -17,7 +17,6 @@
 =--
 
 
-
 # Contents
 * table of contents
 {: toc}
@@ -560,7 +559,7 @@ Original articles include
 Surveys and introductions include
 
 * Rober Constable, _The Triumph of Types: Creating a Logic of
-Computational Reality_ ([pdf](http://www.cs.uoregon.edu/research/.../Triumph-of-Types-Extended.pdf))
+Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
 
 * Herman Geuvers, _Introduction to type theory_, Lecture notes 2008  ([pdf](http://www.cs.ru.nl/~herman/PUBS/IntroTT-improved.pdf))
 
