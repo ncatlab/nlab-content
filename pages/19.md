@@ -317,13 +317,13 @@ The paper [Eilenberg-Maclane 45](#EilenbergMaclane45) was a clash of ideas from 
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_  (The $n$Lab currently provides detailed linked indexes for this).
 
-* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_ ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
 * [[Benjamin Pierce]], _Basic category theory for computer scientists_.
 
 * [[Michael Barr]] and [[Charles Wells]], _Category theory for computing science_.  [free online](ftp://ftp.math.mcgill.ca/barr/pdffiles/ctcs.pdf), also in [TAC Reprints](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html).
 
-* [[David Spivak]], _Category theory for scientists_, [arXiv:1302.6946](http://arxiv.org/abs/1302.6946)
+* [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
 * [[Saunders Mac Lane]], _[[Categories Work|Categories for the working mathematician]]_, 2nd ed. 
 
