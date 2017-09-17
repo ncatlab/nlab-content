@@ -38,6 +38,10 @@ and some identities involving unit $\eta$ and counit $\epsilon$ hold.
 
 A __quasi-Hopf algebra__ is a quasibialgebra with a suitable notion of an antipode.
 
+## Related concepts
+
+* [[hopfish algebra]]
+
 ## References
 
 Other articles
