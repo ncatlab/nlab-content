@@ -49,6 +49,8 @@ The notion of _extended Lagrangian_ is the notion of [[Lagrangian]] refined to [
 
 1. [Topological local Lagrangian field theory in higher geometry](#TopologcalLocalLagrangianFieldTheoryInHigherGeometry)
 
+1. [7-dimensional Chern-Simons theory as the next example](#7dCSTheoryAsExample)
+
 1. [∞-Chern-Simons theory as the general example](#InfinityChern-SimonsTheoryAsTheGeneralExample)
 
 ### Ingredients of fundamental physics
@@ -372,9 +374,11 @@ $$
 
 (...)
 
+the [[adjoint quadruple]] of [[(∞,1)-functors]] induces an [[adjoint triple]] of [[comonad|co]][[(∞,1)-monads]]:
+
 | [[shape modality]] | $\dashv$ | [[flat modality]] | $\dashv$ |[[sharp modality]] |
 |--|--|--|--|--|
-| $\mathbf{\Pi} \coloneqq Disc \circ \Pi$ | | $flat \coloneqq Disc \circ \Gamma$ |   | $\sharp \dashv coDisc \circ \Gamma$  |
+| $\mathbf{\Pi} \coloneqq Disc \circ \Pi$ | | $flat \coloneqq Disc \circ \Gamma$ |   | $\sharp \coloneqq coDisc \circ \Gamma$  |
 
 for $G \in Grp(\mathbf{H})$ we have a [[pasting diagram]] of [[(∞,1)-pullbacks]]
 
@@ -604,23 +608,69 @@ $$
   \,.
 $$
 
-This is the [[extended Lagrangian]] for abelian Chern-Simons theory.
+This is the [[extended Lagrangian]] for abelian Chern-Simons theory. On field configuration which happens to be given by a globally defined 1-form $A$ its value is 
 
-### $\infty$-Chern-Simons theory as the general example
- {#InfinityCSAsGeneralExample}
+$$
+  \exp\left(
+    2\pi i \int_{\Sigma_3} A \wedge d A
+  \right)
+  \,.
+$$
+
+But now not every field configuration is necessarily given by a globally defined 1-form anymore, and more generally the action functional has a more sophisticated expression.
+
+### 7-dimensional Chern-Simons theory as the next example
+ {#7dCSTheoryAsExample}
+
 
 So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the well-known case of [[3d Chern-Simons theory]] naturally captures the characteristics of the theory. Now we consider further examples whose higher geometry has not necessarily been considered traditionally.
 
+An immediate class of further examples is obtained by abelian [[higher Chern-Simons theory]] given by the higher [[Beilinson-Deligne cup product]] of the [[differential characteristic class|differential refinement]] of the higher [[Dixmier-Douady class]] with itself:
 
+$$
+  \widehat \mathbf{DD}_{2k}
+  \cup
+  \widedehat \mathbf{DD}_{2k}
+  \;\colon\;
+  \mathbf{B}^{2k+1} U(1)_{conn}
+  \to 
+  \mathbf{B}^{4k+3} U(1)_{conn}
+  \,.
+$$
 
-Recall that [above](#CSAsArchetypicalExample) we interpreted the [[extended Lagrangian]] of [[3d Chern-Simons theory]] for a simply connected compact simple gauge group $G$ as the smooth and moreover differential refinement of the canonical [[universal characteristic class]] in $H^4(B G, \mathbb{Z})$. Specifically for $G$ the [[spin group]] this is the [[first fractional Pontryagin class]], represented by a [[characteristic map]]  
+In particular there is the abelian [[7d Chern-Simons theory]]
+
+$$
+  \widehat \mathbf{DD}_2
+  \cup
+  \widehat \mathbf{DD}_2
+  \;\colon\;
+  \mathbf{B}^3 U(1)_{conn}
+  \to 
+  \mathbf{B}^7 U(1)_{conn}
+  \,.
+$$
+
+An argument in ([Witten 98](#AdS-CFT#Witten98)) says that this abelian 
+[[7d Chern-Simons theory]] (or more precisely a [[quadratic refinement]] of it) is related to the _[[self-dual higher gauge theory]] sector of the [[6d (2,0)-supersymmetric QFT]] on the [[worldvolume]] of a single [[M5-brane]]_  in analogy to how [[3d Chern-Simons theory]] is related to the [[WZW model]]:
+
+| [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]] $\rightarrow$| [[schreiber:∞-Wess-Zumino-Witten theory ]] | [[Kaluza-Klein reduction]] $\to$ |   |
+|--|--|--|--|--|
+| [[3d Chern-Simons theory]]  | [3dCS-2dCFT](holographic+principle#3dCS-2dCFT) | [[WZW model]] | | |
+| [[7d Chern-Simons theory]]  | [AdS7/CFT6 duality](AdS-CFT#AdS7CFT6) | [[6d (2,0)-supersymmetric QFT]] | | [[N=4 D=4 super Yang-Mills theory]] | 
+
+The argument in ([Witten 98](#AdS-CFT#Witten98)) also says that in view of [AdS7/CFT6 duality](AdS-CFT#AdS7CFT6) the [[field (physics)|field]] of the 7d theory here is to be identified withe the _[[supergravity C-field]]_ in [[11-dimensional supergravity]]/[[M-theory]]. 
+
+But the [[supergravity C-field]] is known to have moduli that are in general more complicated than just $\mathbf{B}^3 U(1)_{conn}$ (due to a [[Green-Schwarz anomaly cancellation]] mechanism in [[11-dimensional supergravity]] and a "flux quantization" condition). In ([FSS 7dCD](#FSS7dCS)) the corrected moduli are dicussed and found to involve a coupling of the abelian 7d theory with a nonabelian 7d Chern-Simobs theory whose [[field (physics)|fields]] are twisted higher spin connections: "[[twisted differential string structures]]".
+
+To see what this is, recall that [above](#CSAsArchetypicalExample) we interpreted the [[extended Lagrangian]] of [[3d Chern-Simons theory]] for a simply connected compact simple gauge group $G$ as the smooth and moreover differential refinement of the canonical [[universal characteristic class]] in $H^4(B G, \mathbb{Z})$. Specifically for $G$ the [[spin group]] this is the [[first fractional Pontryagin class]], represented by a [[characteristic map]]  
 
 $$
   \tfrac{1}{2}p_1 \;\colon\; B Spin \to B^3 U(1)
   \,.
 $$ 
 
-This can be understood as a higher analog of the [[second Stiefel-Whitney class]] $w_2 \;\colon\; B SO \to B^2 \mathbb{Z}$ which is the universal [[obstruction]] to [[spin structure]]. We say that $\tfrac{1}{2}p_1$ is the universal [[obstruction]] to a _[[higher spin structure]]_ called _[[string structure]]_ (this and the motivation for this terminology is discussed in detail in [geometry of physics - Fields - Examples - Fields of gravity and G-structure](geometry+pf+physics##FieldsOfGravityAndGeneralizedGeometry)). These higher obstructions are the (dual) [[k-invariants]] of the [[Whitehead tower]] of $B O$:
+This can be understood as a higher analog of the [[second Stiefel-Whitney class]] $w_2 \;\colon\; B SO \to B^2 \mathbb{Z}$ which is the universal [[obstruction]] to [[spin structure]]. We say that $\tfrac{1}{2}p_1$ is the universal [[obstruction]] to a _[[higher spin structure]]_ called _[[string structure]]_ (this and the motivation for this terminology is discussed in detail in _[geometry of physics - Fields - Examples - Fields of gravity and G-structure](geometry+pf+physics##FieldsOfGravityAndGeneralizedGeometry)_). These higher obstructions are the (dual) [[k-invariants]] of the [[Whitehead tower]] of $B O$:
 
 [[!include higher spin structure - table]]
 
@@ -647,29 +697,12 @@ $$
   \,.
 $$
 
-This now defines an [[extended Lagrangian]] for a  [[7d Chern-Simons theory]] on [[String 2-group]] [[2-connections]]. By the argument in ([FSS 7dCD](#FSS7dCS)) this is part of the extended Lagrangian of a theory involved in ([AdS7/CFT6 duality](AdS-CFT#AdS7CFT6)). 
+This now defines an [[extended Lagrangian]] for a  [[7d Chern-Simons theory]] on [[String 2-group]]-[[2-connections]].  
 
-This refinenes the abelian cup product [[higher dimensional Chern-Simons theory]] given by the extended Lagrangian
+Coming back to the above arguments about the relation of the 7d theory to a 6d theory, these suggest that the 6d theory involves  [[prequantum n-bundle|prequantum 6-bundle]]-analog of the [[WZW model|WZW 2-bundle]]. 
 
-$$ 
-  \mathbf{B}^3 U(1)_{conn}
-  \stackrel{(-)\cup (-)}{\to}
-  \mathbf{B}^7 U(1)_{conn}
-  \,.
-$$
-
-An argument in ([Witten 98](#AdS-CFT#Witten98)) says that this abelian 7d theory is related to the [[self-dual higher gauge theory]] sector of the [[6d (2,0)-supersymmetric QFT]] on the [[worldvolume]] of a single [[M5-brane]] just as [[3d Chern-Simons theory]] is related to the [[WZW model]]. But by the same argument that [[field (physics)|field]] of this theory is to be identified with the [[supergravity C-field]] in [[11-dimensional supergravity]]/[[M-theory]], and that is known to receive quantum corrections that make the above a non-abelian 7d CS theory.
-
-
-| [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]] $\rightarrow$| [[schreiber:∞-Wess-Zumino-Witten theory ]] | [[Kaluza-Klein reduction]] $\to$ |   |
-|--|--|--|--|--|
-| [[3d Chern-Simons theory]]  | [3dCS-2dCFT](holographic+principle#3dCS-2dCFT) | [[WZW model]] | | |
-| [[7d Chern-Simons theory]]  | [AdS7/CFT6 duality](AdS-CFT#AdS7CFT6) | [[6d (2,0)-supersymmetric QFT]] | | [[N=4 D=4 super Yang-Mills theory]] | 
-| [[string field theory]] | |  |  | [[Einstein-Yang-Mills theory]] |
-
-Therefore it is to be expected that a central aspect of the elusive [[6d (2,0)-supersymmetric QFT]] is controled by a [[prequantum n-bundle|prequantum 6-bundle]]-analog of the [[WZW model|WZW 2-bundle]]. 
-
-Indeed, the assignment of a higher Wess-Zumino-Witten-type [[prequantum n-bundle|prequantum (n-1)-bundle]] to an extended prequantum Lagrangian works very generally.
+Indeed, the assignment of a higher Wess-Zumino-Witten-type [[prequantum n-bundle|prequantum (n-1)-bundle]] to an extended prequantum Lagrangian works very generally: the _prequantum $(n-1)$-bundle_ is the WZW-type $(n-1)$-bundle of the theory.
+Its underlying $(n-1)$-bundle is simply the [[looping]] of the $n$-bundle underlying the [[extended Lagrangian]]. Specifically, the [[string 2-group]]-[[7d Chern-Simons theory]] has a WZW- prequantum 6-bundle on the [[string 2-group]] which is modulated by the map
 
 $$
   \array{
@@ -692,11 +725,18 @@ $$
     &\simeq&
     \mathbf{B}^6 U(1) // \mathbf{B}^6 U(1)
   }
+  \,.
 $$
 
-WZW 6-bundle for 7-d CS theory
+Therefore in summary we find the following identifications of [[extended prequantum field theory]] with (semi-)traditional notions:
 
 [[!include extended prequantum field theory - table]]
+
+
+### $\infty$-Chern-Simons theory as the general example
+ {#InfinityCSAsGeneralExample}
+
+(...)
 
 
 ## Definition
