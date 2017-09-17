@@ -11,9 +11,10 @@ The _[[Weyl-Kac character formula]]_ expresses it for integrable highest weigth 
 
 ## Properties
 
-### Jacobi form
+### Jacobi form and relation to Witten genus
 
-On an integral highest weight representation the KW character is a [[Jacobi form]], closely related to the [[Witten genus]] ([KL 95](#KL95)).
+On an integral highest weight representation the KW character is a [[Jacobi form]], closely related to the [[Witten genus]] ([KL 95](#KL95)). See also at _[[equivariant elliptic cohomology]]_.
+
 
 ## References
 
@@ -24,3 +25,4 @@ On an integral highest weight representation the KW character is a [[Jacobi form
 
 * {#Wassermann11} [[Antony Wassermann]], _Kac-Moody and Virasoro algebras_, course notes (2011) ([pdf](https://www.dpmms.cam.ac.uk/~ajw/course11.pdf))
 
+[[!redirects Kac-Weyl characters]]
