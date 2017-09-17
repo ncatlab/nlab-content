@@ -8,7 +8,7 @@ TwoVect is a Mathematica package for working with finite-dimensional complex [[2
 
 2-vector space are categories with many of the same properties as ordinary vector spaces. They have a range of applications in quantum algebra, representation theory, topological quantum field theory and quantum information. There are two main types of 2-vector spaces; the sort we are concerned with here are known as ''Kapranov-Voevodsky'' 2-vector spaces.
 
-TwoVect was first developed by [Dan Roberts](http://web.mit.edu) in 2011 as part of an MSc dissertation, with assistance from [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary).
+TwoVect was first developed by [Dan Roberts](http://ctpweb.lns.mit.edu/personnel.html) in 2011 as part of an MSc dissertation, with assistance from [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary).
 
 ### How can I get it? ###
 
