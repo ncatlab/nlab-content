@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A class of 2d [[conformal field theories]]...
+
+## References
+
+* [[John Cardy]], _Logarithmic conformal field theories as limits of ordinary CFTs and some physical applications_ ([arXiv:1302.4279](http://arxiv.org/abs/1302.4279))
+
+[[!redirects logarithmic CFTs]]
+[[!redirects logarithmic conformal field theory]]
+[[!redirects logarithmic conformal field theoroes]]
+
