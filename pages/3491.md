@@ -24,7 +24,7 @@ The analog of this for [[quasi-categories]] are
 
 There are more types of fibrations between the [[simplicial set]]s underlying the [[quasi-category]]
 
-* inner fibrations -- these correspond to **bundles of [[quasi-categories]]** : an inner fibration $E \to \Delta[1]$ over the interval characterizes the fibers $C, D$ over the endpoints $0,1 \in \Delta[1]$ as [[quasi-categories]]. Notably havingg an inner fibration $C \to \Delta[0]$ over the point says precisely that $C$ is a [[quasi-category]].
+* [[inner fibration]]s -- these correspond to **bundles of [[quasi-categories]]** : an inner fibration $E \to \Delta[1]$ over the interval is the quasi-categorical analog of a [[cograph of a profunctor]]: it characterizes the fibers $C, D$ over the endpoints $0,1 \in \Delta[1]$ as [[quasi-categories]]. Notably having an inner fibration $C \to \Delta[0]$ over the point says precisely that $C$ is a [[quasi-category]].
 
 * categorical fibrations -- these appear as the fibrations in the sense of [[model category]] theory in the Joyal [[model structure for quasi-categories]] $sSet_{Joyal}$ . But they have no particular intrinsic meaning in [[higher category theory]]. In fact, there is also the [[model structure on marked simplicial over-sets|model structure on marked simplicial sets]] which is [[Quillen equivalence|Quillen equivalent]] to $sSet_{Joyal}$ and in which the model-theoretic fibrations coincide precisely with the [[Cartesian fibration]]s that do have an intrinsic category theoretic meaning.
 
@@ -449,8 +449,6 @@ chapter 2 of
 [[!redirects right Kan fibrations]]
 [[!redirects weak Kan fibration]]
 [[!redirects weak Kan fibrations]]
-[[!redirects inner fibration]]
-[[!redirects inner fibrations]]
 [[!redirects right fibration]]
 [[!redirects right fibrations]]
 [[!redirects weak fibration]]
