@@ -13,7 +13,7 @@
 * table of contents
 {:toc}
 
-## Defintion
+## Definition
 
 For $C$ a [[locally small category]], its **hom-functor** is the [[functor]]
 
