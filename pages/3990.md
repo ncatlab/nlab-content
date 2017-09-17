@@ -1,0 +1,23 @@
+## Definition
+
+A **fork** in a [[category]] $C$ is a diagram of the form
+
+$$ A \;\underoverset{f}{g}{\rightrightarrows}\; B \overset{e}{\rightarrow} C $$
+
+such that $e f = e g$.  A **split coequalizer** is a fork together with morphisms $s\colon C\to B$ and $t\colon B\to A$ such that $e s = 1_C$, $s e = g t$, and $f t = 1_B$.  This is equivalent to saying that the morphism $(f,e)\colon g \to e$ has a [[section]] in the [[arrow category]] of $C$.
+
+The name is appropriate, because in any split coequalizer diagram, the morphism $e$ is necessarily a [[coequalizer]] of $f$ and $g$.  For given any $h\colon B\to D$ such that $h f = h g$, the composite $h s$ provides a factorization of $h$ through $e$, since $h s e = h g t = h f t = h$, and such a factorization is unique since $e$ is (split) [[epimorphism|epic]].  In fact, a split coequalizer is not just a coequalizer but an [[absolute coequalizer]]: one preserved by all [[functors]].
+
+## Examples
+
+The "ur-example" of a split coequalizer is the following.  Let $A$ be an [[algebra for a monad|algebra]] for the [[monad]] $T$ on the category $C$, with structure map $a\colon T A \to A$.  Then the diagram
+
+$$ T^2 A \;\underoverset{\mu_A }{T a}{\rightrightarrows}\; T A \overset{a}{\rightarrow} A $$
+
+is a split coequalizer in the [[Eilenberg-Moore category|category of]] $T$-algebras.  The splittings are given by $s = \eta_A \colon A \to T A$ and $t = \eta_{T A} \colon T A \to T^2 A$.  (Here $\mu$ and $\eta$ are the multiplication and unit of the monad $T$.)
+
+This split coequalizer figures prominently in Beck's [[monadicity theorem]].
+
+[[!redirects split coequalizers]]
+[[!redirects split coequaliser]]
+[[!redirects split coequalisers]]
