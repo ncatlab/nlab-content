@@ -16,10 +16,9 @@
 
 ## Idea
 
-[[Emil Artin]]'s reciprocity law is a [[reciprocity law]] in [[class field theory]] for [[global fields]].
+[[Emil Artin]]'s reciprocity law is a [[reciprocity law]] in [[class field theory]] for [[global fields]]. It states, in consequence, that for each 1-dimensional [[Galois representation]] $\sigma$ there exists a [[Dirichlet character]] $\chi$ such that the [[Artin L-function]] $L_\sigma$ equals the [[Dirichlet L-function]] $L_\chi$. (The generalization of this reciprocal correspondence to higher dimensional Galois representations is the content of the conjectured _[[Langlands correspondence]]_).
 
 For $K$ a [[global field]] there is a canonical map
-
 
 $$
   \mathbb{I}_K \longrightarrow Gal(K^{ab}/K)
