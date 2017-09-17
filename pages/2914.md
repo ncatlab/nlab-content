@@ -18,7 +18,7 @@
 
 ## Definition ##
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -28,7 +28,7 @@ For $C$ a [[model category]] and $X \in C$ an [[object]], the [[over category]] 
 
 ## Properties ##
 
-+-- {: .num_prop}
++-- {: .num_prop #ModelStructureInheritsGoodProperties}
 ###### Proposition
 
 
@@ -46,7 +46,7 @@ then so are $C/X$ and $X/C$.
 
 The proofs are in ([OvMod](#OvMod)).
 
-+-- {: .num_prop}
++-- {: .num_prop #PresentationOfSliceInfinityCat}
 ###### Proposition
 
 If $C$ is a [[simplicial model category]] and $X \in C$ is fibrant, then
