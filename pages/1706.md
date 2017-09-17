@@ -158,7 +158,7 @@ $$
   \,,
 $$ 
 
-where on the right we regard $\tilde C$ as a [[topological space]] carrying the canonical $O(n)$-[[action]] discussed [above](spring).
+where on the right we regard $\tilde C$ as a [[topological space]] carrying the canonical $O(n)$-[[action]] discussed [above](#GEquivariantVersion).
 
 =--
 
@@ -180,6 +180,7 @@ $$
   Bord_n^{fr}(X) := Bord_n^{(X,X \times \mathbb{R}^n)}
   \,.
 $$
+
 
 Write $\Pi(X) \in $ [[∞Grpd]] for the [[fundamental ∞-groupoid]] of $X$.
 
@@ -267,7 +268,7 @@ See ([Lurie, example 2.4.22](#Lurie)).
 
 Then we have the following version of the cobordism hypothesis for manifolds with $G$-structure.
 
-+-- {: .num_theorem }
++-- {: .num_theorem #GEquivariantVersion}
 ###### Theorem
 
 For $G$ an [[∞-group]] equipped with a homomorphism $G \to O(n)$ to the [[orthogonal group]] (regarded as an [[∞-group]] in [[∞Grpd]]), then evaluation on the point induces an equivalence
@@ -290,11 +291,29 @@ This is ([Lurie, theorem 2.4.26](#Lurie)).
 
 If in  def. \ref{CatOfCobordismsWithXIStructure} one chooses $X = B SO(n) \times Y$ for any topological space $Y$, and $\xi$ the [[pullback]] of the canonical vector bundle bundle on $B SO$ to $B SO \times Y$, then an $(\infty,n)$-functor $Bord^{X}_n \to C$ is similar to what Turaev calls an [[HQFT]] over $Y$.
 
-(...)
+
+### For cobordisms with singuarities (boundaries/branes and defects/domain walls)
+ {#ForCobordismsWithSingularities}
+
+There is a vast generalization of the plain $(\infty,n)$-category of cobordisms (with topological structure) considered above given by allowing the [[cobordisms]] to be equipped with various types of [[singularities]] ([Lurie 09, Definition Sketch 4.3.2](#Lurie)).
+
+Each type of singularity in dimension $k$ now corresponds to a new generator [[k-morphisms]], and the (framed) $(\infty,n)$-category of cobordisms with singularities is now no longer the free symmetric monoidal $(\infty,n)$-category freely generated from just a point (a 0-morphisms), but freely generated from these chosen generators. This general version is ([Lurie 09, Theorem 4.3.11](#Lurie)).
+
+For instance if the generator on top of the point $\ast$ is a [[1-morphism]] of the form $\emptyset \to \ast$, then this defines a type of [[codimension]] $(n-1)$-[[boundary]]; and hence extended TQFTs with such boundary data and with coefficients in some symmetric monoidal $(\infty,n)$-category $\mathcal{C}$ with all dual are equivalent to choices of morphisms $1 \to A$, where $A \in \mathcal{C}$ is the fully dualizable object assigned to the point, as before, and now equipped with a morphism from the tensor unit into it.
+Indeed, this is the usual datum that describes [[branes]] in QFT (see for instance at [[FRS formalism]]).
+
+For more on this see at _[[QFT with defects]]_.
 
 ### For noncompact cobordisms
+ {#ForNoncompactCobordisms}
 
-See [[Calabi-Yau object]].
+One important variant of the category of cobordisms is obtained by discarding all those morphisms which have non-empty incoming (say, dually one could use outgoing) bounrary component. Then a representation of this category imposes on its values "cups but no caps", hence only half of the data of a [[dualizable object]] in the given degree. 
+
+Accordingly, in this case the cobordism hypothesis says that such a functor is given not quite by a [[fully dualizable object]], but by a weaker structure called a _[[Calabi-Yau object]]_ (see there for more).
+
+2-dimensional TQFT of this form is known as _[[TCFT]]_, see there for more
+
+
 
 ### For cobordisms with geometric structure
 
@@ -358,8 +377,8 @@ The original hypothesis is formulated in
 
 The formalization and proof is described in 
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
-{#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics Volume 2008 (2009), 129-280 ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
+
 
 This is almost complete, except for one step that is not discussed in detail. But a new (unpublished) result by [[Søren Galatius]] bridges that step in particular and drastically simplifies the whole proof in general. 
 
