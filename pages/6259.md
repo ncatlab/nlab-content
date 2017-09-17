@@ -44,6 +44,103 @@ With this duality constraint imposed, one speaks of _self-dual_ higher gauge fie
 
 But sense can be made of the theory of self-dual gauge fields by other means. Notably --  by a version of the [[holographic principle]] the -- [[partition function]] of the self-dual theory on an $X$ of dimension $4 k +2$ is given by the [[state]] (wave function) of an abelian  [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] in dimension $4 k + 3$.
 
+## Properties
+
+### Holographic relation to higher Chern-Simons theory
+
+#### Idea and examples
+
+Generally, [[higher dimensional Chern-Simons theory]]
+in dimension $4k+3$ (for $k \in \mathbb{N}$) is [[holographic principle|holographically]] related to self-dual higher gauge theory in dimension $4k+2$ (at least in the abelian case). 
+
+* $(k=0)$: ordinary 3-dimensional [[Chern-Simons theory]] is related to a [[string]] [[sigma-model]] on its boundary;
+
+* $(k=1)$: 7-dimensional Chern-Simons theory is related to a [[fivebrane]] model on its boundary;
+
+* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore)).
+
+
+#### Some details
+
+We indicate why [[higher dimensional Chern-Simons theory]] is -- if holographically related to anything -- holographically related to [[self-dual higher gauge theory]].
+
+The [[phase space]] of [[higher dimensional Chern-Simons theory]] in [[dimension]] $4k+3$ on $\Sigma \times \mathbb{R}$ can be identified with the space of [[curvature|flat]] $2k+1$-forms on $\Sigma$. The [[presymplectic form]] on this space is given by the pairing
+
+$$
+  (\delta B_1, \delta B_2) \mapsto
+  \int_\Sigma \delta B_1 \wedge \delta B_2
+  \,.
+$$
+
+The [[geometric quantization]] of the theory requires that we choose a [[polarization]] of the [[complexification]] of this space (split the space of forms into "coordinates" and their "[[canonical momenta]]"). 
+
+One way to achieve this is to choose a [[conformal structure]] on $\Sigma$. The corresponding [[Hodge star operator]]
+
+$$
+  \star : \Omega^{2k+1}(\Sigma) \to \Omega^{2k+1}(\Sigma)
+$$
+
+provides the polarization by splitting into self-dual and anti-self-dual forms: 
+
+notice that (by the formulas at [[Hodge star operator]]) we have on mid-dimensional forms
+
+$$
+  \star \star B = (-1)^{(2k+1)(4k+3)} B
+  = - B
+  \,.
+$$
+
+Therefore it provides a [[complex structure]] on $\Omega^{2k+1}(\Sigma) \otimes \mathbb{C}$.
+
+We see that the symplectic structure on the space of forms can equivalently be rewritten as
+
+$$
+  \begin{aligned}
+    \int_X B_1 \wedge B_2
+    & = - \int_X B_1 \wedge \star \star B_2 
+  \end{aligned}
+  \,.
+$$
+
+Here on the right now the [[Hodge star operator|Hodge inner product]] of $B_1$ with $\star B_2$ appears, which is invariant under applying the Hodge star to both arguments.
+
+We then decompose $\Omega^{2k+1}(\Sigma)$ into the $\pm i$-[[eigenspace]]s of $\star$: say $B \in \Omega^{2k+1}(\Sigma)$ is  _imaginary self-dual_ if
+
+$$
+  \star B = i B
+$$
+
+and _imaginary anti-self-dual_ if
+
+$$
+  \star B = - i B
+  \,.
+$$
+
+Then for imaginary self-dual $B_1$ and $B_2$ we find that the symplectic pairing is
+
+$$
+  \begin{aligned}
+    (B_1, B_2)
+    &=
+    -i \int_X B_1 \wedge \star B_2
+    \\
+    & =
+    -i \int_X (\star B_1) \wedge \star (\star B_2)
+    \\
+    & =    
+    +i \int_X B_1 \wedge \star B_2
+  \end{aligned} 
+  \,.
+$$
+
+Therefore indeed the symplectic pairing vanishes on the self-dual and on the anti-selfdual forms. Evidently these provide a decomposition into [[Lagrangian subspace]]s.
+
+
+Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be thought of as a function of the self-dual forms on $\Sigma$. Under holography this is (therefore) identified with the [[correlator]] of a [[self-dual higher gauge theory]] on $\Sigma$.
+
+
+
 ## Examples
 
 ### Chiral boson in 2d
