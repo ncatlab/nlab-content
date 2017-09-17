@@ -1,6 +1,8 @@
 
 For $V$ a [[vector space]], a **star shaped neighbourhood** of the origin is an open [[neighbourhood]] $U \subset V$ such that with $v \in U$ and $s \in [0,1]$ also $s v \in U$.
 
+More generally, for $X$ a [[real number|real]] [[affine space]], **star shaped neighbourhood** of a point $x\in X$ is an open [[neighbourhood]] $U \subset X$ such that with $y \in X$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $U$. 
+
 
 [[!redirects star-shaped]]
 [[!redirects star shaped]]
