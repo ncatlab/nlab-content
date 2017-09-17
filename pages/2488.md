@@ -445,7 +445,12 @@ $$
 
 is the [[Postnikov tower in an (∞,1)-category]] of $A$. See there for more details.
 
+#### Homotopy type theory syntax
+ {#TruncationHomotopyTypeTheorySyntax}
 
+Discussion of $n$-truncation of [[types]] in [[homotopy type theory]] via [[higher inductive types]] is in ([Brunerie](#Brunerie)). This sends a type to an [[h-level]] $(n+2)$-type.
+
+The $(-1)$-truncation in the context is forming the [[bracket type]] [[hProp]].
 
 ### Relation to homotopy groups {#RelationToHomotopyGroups}
 
@@ -698,6 +703,10 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 
 * [[William Dwyer]], [[Dan Kan]], _An obstruction theory for diagrams of simplicial sets_ ([pdf](http://www.nd.edu/~wgd/Dvi/ObstructionTheoryForDiagrams.pdf))
 
+Discussion in the context of [[homotopy type theory]] is in 
+
+* [[Guillaume Brunerie]], _Truncations and truncated higher inductive types_ ([web](http://homotopytypetheory.org/2012/09/16/truncations-and-truncated-higher-inductive-types/))
+ {#Brunerie}
 
 [[!redirects n-truncated object of an (infinity,1)-category]]
 [[!redirects n-truncated object of an (∞,1)-category]]
