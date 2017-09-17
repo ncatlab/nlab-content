@@ -24,6 +24,10 @@ Real closed fields can be equivalently characterized by any of the following pro
 
 1. $F$ is an ordered field that has no ordered algebraic extension. 
 
++-- {: .query}
+Colin: Is it true that real closure is an adjoint construction to the forgetful functor from real closed fields to orderable fields?
+=--
+
 ## Examples 
 
 1. The [[real number]]s form a real closed field. 
