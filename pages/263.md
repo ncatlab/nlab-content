@@ -39,6 +39,8 @@ Often categories with weak equivalences are equipped with further extra [[struct
 
 * In a [[homotopical category]] the condition on the weak equivalences is slightly stronger; see below.
 
+* In a [[relative category]] the condition is slightly weaker. Relative categories have a good [[homotopy theory]]. See at _[[relative category]]_.
+
 * In a [[category of fibrant objects]] there are additional auxiliary morphisms called fibrations.
 
 * In a [[Waldhausen category]] there are additional auxiliary morphisms called cofibrations.
@@ -91,5 +93,9 @@ Alternatively, we may further project to the 1-category in which all weak equiva
 Note that the category with weak equivalences which presents a given $(\infty,1)$-category can not, in general, be taken to be the [[homotopy category of an (∞,1)-category|homotopy category]] of that $(\infty,1)$-category; more "flab" must be built into it.
 
 It also cannot, in general, be the underlying 1-category of a simplicially enriched presentation of that $(\infty,1)$-category.  For instance, every $\infty$-groupoid can be realized as a simplicially enriched groupoid, but the underlying 1-category of a simplicially enriched groupoid is a 1-groupoid, which cannot be localized any further to produce a non-1-truncated $\infty$-groupoid.
+
+## Related concepts
+
+* [[relative category]]
 
 [[!redirects categories with weak equivalences]]
