@@ -161,14 +161,14 @@ Some remarks on ways to regard the $C$-field from the point of view of [[∞-Che
 
 ### Abstract definition
 
-We shall consider the sum of two $C$ fields, one coupled to the , whose curvature is the image in de Rham cohomology of the proper integral class $2 a - \lambda $
+We shall consider the sum of two $C$ fields,  whose curvature is the image in de Rham cohomology of the proper integral class $2 a - \lambda $
 
 Recall from the discussion at [[circle n-bundle with connection]]
-that in the [[cohesive (∞,1)-topos]] $\mathbf{H} := $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an object $X \in \mathbf{H}$ are cocycles in the object $\mathbf{H}_{diff}(X, \mathbf{G}^3 U(1))$ that is the [[(∞,1)-pullback]]
+that in the [[cohesive (∞,1)-topos]] $\mathbf{H} := $ [[Smooth∞Grpd]] the circle 3-bundles with local 3-form connection over an [[object]] $Y \in \mathbf{H}$ (for instance a [[smooth manifold]], or an [[orbifold]]) are [[object]]s in the [[3-groupoid]] $\mathbf{H}_{diff}(X, \mathbf{G}^3 U(1))$ that is the [[(∞,1)-pullback]]
 
 $$
   \array{
-    \mathbf{H}_{diff}(X, \mathbf{B}^3 U(1)) &\to& H^4_{dR}(X)
+    \mathbf{H}_{diff}(Y, \mathbf{B}^3 U(1)) &\to& H^4_{dR}(Y)
     \\
     \downarrow && \downarrow
     \\
@@ -176,8 +176,9 @@ $$
     &\stackrel{curv}{\to}&
     \mathbf{H}(X, \mathbf{\flat}_{dR} \mathbf{B}^4 U(1))
   }
-  \,.
 $$
+
+in [[∞Grpd]].
 
 (Recall from the discussion there that if desired one may pass to the canonical presentation of this by the [[model structure on simplicial presheaves]] over [[CartSp]] and that in this explicit presentation we may replace $H^4_{dR}(Y)$ with the more familiar $\Omega^4_{cl}(Y)$. )
 
@@ -491,5 +492,12 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 
 ## References
 
+The state-of-the-art in the literature concerning attempts to find the correct mathematical model for the supergravity C-field seems to be
+
 * E. Diaconescu, [[Greg Moore]], [[Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
  {#DFM}
+
+The discussion from the point of view of the $\infty$-Chern-Weil homomorphism is part of
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _Higher differemtial $Spin^c$-structures_
+ {#FiSaSc}
