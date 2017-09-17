@@ -478,10 +478,9 @@ Discussion of geometric quantization of [[abelian varieties]], [[toric varieties
 
 * Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
  {#Nohara}
-
-* [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
+* [[Andrei Tyurin]], _Quantization, classical and quantum field theory and theta functions_ ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466v1))
  {#Tyurin}
-
+* N.J. Hitchin, _Flat connections and geometric quantization_, Comm. Math. Phys. __131__, n 2 (1990), 347-380, [euclid](http://projecteuclid.org/euclid.cmp/1104200841)
 
 An appearance of geometric quantization in [[mirror symmetry]] is pointed out in 
 
