@@ -29,17 +29,106 @@ The [[equivariant cohomology|equivariant]] version of [[de Rham cohomology]].
 
 Various different [[dg-algebras]] are used to model equivariant de Rham cohomology, known as 
 
-* the _Cartan model_
+* _[the Weil model](#TheWeilModel)_
 
-* the _Kalkman model_
+* _[the Cartan model](#TheCartanModel)_
+
+* _[the Kalkman model](#TheKalkmanModel)_
+
+#### The Weil model
+ {#TheWeilModel}
+
+reviews include ([Atiyah-Bott 84](#AtiyahBott84), [Kalkman 93, section 2.1](#Kalkman93))
+
+
+
+#### The Cartan model
+ {#TheCartanModel}
+
+reviews include ([Mathai-Quillen 86](#MathaiQuillen86), [Kalkman 93, section 2.2](#Kalkman93))
+
+
+Let $X$ be a [[smooth manifold]], $G$ a [[Lie group]], and $\rho : X \times G \to X$ a smooth [[action]] of $G$ on $X$.
+
+Write
+
+$$
+  (\Omega^\bullet(G, \mathbb{h}^\ast[1])^G  
+  \hookrightarrow
+  \Omega(G, \mathfrak{h}^\ast[1])
+$$
+
+for the $G$-[[invariant differential forms]] on $G$ with [[coefficients]] in the linear dual of the Lie algebra $\mathfrak{h}$ of $H$, shifted up in degree. So for $\{F^a\} \subset \{t^a\}$ a dual [[basis]] of $\mathfrak{h}$ inside a dual basis for $\mathfrak{g}$, a general element of this space in degree $2 p + q$ is of the form
+
+$$
+  \omega = F^{a_1} \wedge \cdots F^{a_p} \wedge \omega_{a_1,\cdots ,a_p}
+  \,,
+$$
+
+where $\omega_{\cdots}$ are [[differential n-form|differential q-forms]], such that for each $t_a \in \mathfrak{g}$ the [[Lie derivative]] of these forms satisfies
+
+$$
+  \mathcal{L}_{t_a} \omega_{a_1, \cdots , a_p}
+  = 
+  C_{a a_1}{}^b \omega_{b , a_2 \cdots , a_p}
+  + 
+  C_{a a_2}^{}^b \omega_{a_1 , b a_2 \cdots , a_p}
+  + 
+  \cdots
+  \,, 
+$$ 
+
+where $\{C_{a b}{}^b\}$ are the structure constants of $\mathfrak{g}$, hence such that $[t_a, t_b] = C_{a b}^c t_c$.
+
+Equip this [[graded vector space]] $\Omega^\bullet(G, \mathfrak{h}^\ast[1])$ with a [[differential]] $d_{CE(\mathfrak{g}//\mathfrak{h})}$ by 
+
+$$
+  d_{CE(\mathfrak{g}//\mathfrak{h})} 
+   \colon 
+  \omega \mapsto 
+  F^a \iota_{t_a} \omega
+  \,,
+$$
+
+The resultind [[dg-algebra]] $(\Omega^\bullet(G,\mathfrak{h}^\ast[1]), d_{CE}(\mathfrak{g}//\mathfrak{h}))$ is calle the **Cartan model** of $H$-equivariant de Rham cohomology of $G$.
+
+
+#### The Kalkman model
+ {#TheKalkmanModel}
+
+([Kalkman 93, section 3](#Kalkman93))
+
+(...)
+
 
 ## Related concepts
 
 * [[gauged WZW model]]
 
+* [[action Lie algebroid]], [[BRST complex]]
+
 ## References
 
-The Cartan model is reviewed and another model is constructed in
+The Weil model is discussed for instance in 
 
-* Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](http://arxiv.org/abs/hep-th/9308132))
+* [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_. Topology 23, 1 (1984)
+ {#AtiyahBott84}
+
+A good account of the Cartan model is in 
+
+* [[Varghese Mathai]], , [[Daniel Quillen]], _Thorn classes, superconnections and equivariant differential forms_, Topology 25, 85 (1986) 
+ {#MathaiQuillen86}
+
+A review of the Weil model and the Cartan model and the introduction of the "BRST model" (Kalkman model) is in
+
+* Jaap Kalkman, _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132](http://arxiv.org/abs/hep-th/9308132) (pdf broken)) ([projectEuclid](http://projecteuclid.org/euclid.cmp/1104252784))
+ {#Kalkman93}
+
+[[!redirects Weil model]]
+[[!redirects Cartan model]]
+[[!redirects Kalkman model]]
+
+[[!redirects Weil model for equivariant cohomology]]
+[[!redirects Cartan model for equivariant cohomology]]
+[[!redirects Kalkman model for equivariant cohomology]]
 
