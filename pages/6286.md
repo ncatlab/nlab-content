@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[quantum mechanics]], a _qausi-state_ on an [[algebra of observables]] $A$ is a [[function]] $\rho : A \to \mathbb{C}$ that is required to satisfy the axioms of a genuine [[state]] (linearity and postivity) only on the [[poset of commutative subalgebras]] of $A$.
+In [[quantum mechanics]], a _qausi-state_ on an [[algebra of observables]] $A$ is a [[function]] $\rho : A \to \mathbb{C}$ that is required to satisfy the axioms of a genuine [[state]] (linearity and positivity) only on the [[poset of commutative subalgebras]] of $A$.
 
 While therefore the condition on quasi-states is much weaker than that for states, [[Gleason's theorem]] asserts that if $A = B(H)$ for $dim H \gt 2$, then all quasi-states are in fact states.
 
