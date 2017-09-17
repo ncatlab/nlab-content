@@ -1,0 +1,39 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A statement about sufficient data for extensions of a [[smooth function]] from a [[compact subset]] to an [[open neighbourhood]]. 
+
+## Related concepts
+
+* [[Hadamard lemma]],
+
+* [[Borel's theorem]]
+
+* [[Tietze extension theorem]]
+
+* [[Steenrod-Wockel approximation theorem]]
+
+## References
+
+The original article is
+
+* [[Hassler Whitney]], _Analytic extensions of differentiable functions defined in closed sets_, 1933 ([pdf](http://www.ams.org/journals/tran/1934-036-01/S0002-9947-1934-1501735-3/S0002-9947-1934-1501735-3.pdf))
+
+A survey is in
+
+* [[eom]], _[Whitney extension theorem](http://www.encyclopediaofmath.org/index.php/Whitney_extension_theorem)_
+
