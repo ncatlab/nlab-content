@@ -36,6 +36,69 @@ Usually and traditionally, _deformation quantization_ refers to (just) _formal_ 
 
 As any other quantization, the deformation quantization has as an input a description of a [[classical mechanical system]], which is in this case most often a smooth [[Poisson manifold]]. The deformation quantization replaces the algebra of [[smooth functions]] on the Poisson manifold with the same [[vector space]], but equipped with new noncommutative [[associative algebra|associative unital product]] whose [[commutator]] agrees, up to order $\hbar$, with the underlying [[Poisson bracket]]. Of course the proper study of quantization of Poisson manifolds studied the appropriate notion at the level of [[sheaves]] of algebras. Gluing local solutions to the quantization problem furthermore involves [[stacks]] and specifically [[gerbes]].  
 
+## Poisson manifolds
+
+Let $M$ be a [[Poisson manifold]] and let $A = C^\infty(M)$ be the [[Poisson algebra]] of smooth functions.
+
++-- {: .num_defn}
+###### Definition
+A **$\ast$-product** (star product) on $A$ is a product on the power series $A[[t]]$ that is (1) bilinear over $\mathbb{R}[[t]]$, (2) associative, and (3) for $a,b \in A$ it can be written out as a formal power series \[ a \ast b = \sum_{n=0}^\infty B_n(a,b) t^n \] where $B_n$ are bilinear maps on $A$ such that $B_0(a,b) = ab$.
+=--
+
++-- {: .num_defn}
+###### Definition
+A (formal) **deformation quantization** of $M$ is a star product on $A = C^\infty(M)$ such that the [[Poisson bracket]] $\{a,b\} = B_1(a,b) - B_1(b,a)$ for $a,b \in A$; by bilinearity over $\mathbb{R}[[t]]$, this characterizes it.
+=--
+
++-- {: .num_theorem #Kontsevich}
+###### Theorem
+**(Kontsevich)**.  Every Poisson manifold has a (formal) deformation quantization.
+=--
+
+## Gerstenhaber's deformation theory
+
+Let $V$ be a $k$-vector space and consider $C^p(V,V) := \Hom(V^{\otimes p}, V).  We define a "circle operator" $\circ$ as follows: for $f \in C^p(V,V)$ and $g \in C^q(V,V)$, we define $f \circ g \in C^{p+q-1}(V,V)$ as the map \[ (f \circ g)(v_1, \ldots v_{p+q-1}) = f(v_1, \ldots, v_{i-1}, g(v_i, \ldots, v_{i+q-1}), v_{i+q}, \ldots, v_{p+q-1})$.
+
+For $f \in C^\ast(V,V)$, let $A_f(g,h) = (f \circ g) \circ h - f \circ (g \circ h)$.  (This is graded symmetric.)  It follows that the commutator of $\circ$ is given by \[ [f,g] = f \circ g - (-1)^{(|f| - 1)(|g|-1)} g \circ f \] where $|f| = p$ when $f \in C^p(V,V)$.  This defines a _graded [[Lie bracket]]_ of degree -1.
+
++-- {: .num_example}
+###### Example
+Let $\mu \in C^2(V,V)$ ($\mu : V \otimes V \to V$).  Note that $\mu$ is associative iff $\mu \circ \mu = 0$ iff $[\mu, \mu] = 0$.  Let $d_\mu : C^{p}(V,V) \to C^{p+1}(V,V)$ be defined by $d_\mu(x) = \mu \otimes x \pm x \otimes \mu = [\mu, x]$.  We have $d_\mu \circ d_\mu = 0$ so $(C^\ast(V,V), d_\mu)$ becomes a [[differential graded algebra]].  In fact this is the [[Hochschild cochain complex]] of the [[associative algebra]] $A = (V, \mu)$.
+=--
+
+Apply this example to the construction of deformation quantization.  The star product is uniquely determined by $\theta : A \otimes A \to A[[t]]$ given by $\theta(a,b) = ab + c(a,b)$.  What we want is that \[ (\mu + c) \otimes (\mu + c) = 0$; write this out and we get the equation \[ d_\mu c + c \circ c = 0, \]  or $d_\mu c + \frac{1}{2}[c,c] = 0$; this is the [[Maurer-Cartan equation]].  Hence we are looking for solutions of the M-C equation but in the Hochschild complex $C^\ast(A,A)[[t]]$.  One should note that $d_\mu$ is actually a derivation of the [[Lie bracket]], hence is a graded [[Lie algebra]].
+
++-- {: .num_theorem #HKR}
+###### Theorem
+**([[HKR Theorem]])**. $HH^p(A,A) = \Gamma(M, \Lambda^p TM)$.
+=--
+
+(Note that $C^p(C^\infty(M),C^\infty(M))$ should be interpreted as $\Hom_{
+mathrm{diff}}(C^\infty(M), C^\infty(M))$.)  Under this isomorphism the Poisson bracket is mapped to the [[Poisson tensor]]: \[ \{ \cdot , \cdot \} \in HH^2(A,A) \quad \mapsto \quad P \in \Gamma(M, \Lambda^2 TM). \]  The bracket in Hochschild cohomology ([[Gerstenhaber bracket]]) goes to the [[Schouten bracket]]: \[ \[ \cdot , \cdot \]_G \quad \mapsto \quad \[ \cdot, \cdot \]_S$.
+
+For vector fields $\xi$ and $\eta$, the [[Schouten bracket]] satisfies (1) $[\xi,\eta]_S = [\xi,\eta]$ (the Lie bracket), and (2) $[\alpha, \beta \wedge \gamma] = [\alpha,\beta] \wedge \gamma \pm [\alpha,\gamma] \wedge \beta$; note that this completely determines it (everything is locally given by wedges...).
+
+In the Hochschild cohomology $HH^\ast(A,A)$ of $A$, $d_\mu P \mapsto 0$ and $[P,P]_S = 0$, so _we have a solution to M-C in $H^\ast(A,A)[[t]]$
+
+## Differential graded Lie algebras
+
++-- {: .num_defn}
+###### Definition
+Let $L_1$ and $L_2$ be [[differential graded Lie algebras]] (dgL).  A **[[quasi-isomorphism]]** $f : L_1 \to L_2$ is a homomorphism of dgLs that induces an isomorphism on homology.  $L_1$ and $L_2$ are **quasi-isomorphic** if there exists $M$ with quasi-isomorphisms $L_1 \leftarrow M \rightarrow L_2$.  It can be verified that this is an equivalence relation.
+=--
+
++-- {: .num_theorem #Kontsevich}
+###### Theorem
+**([[Kontsevich]])**.  If $L_1$ is quasi-isomorphic to $L_2$ then there is a solution to the M-C equation in $L_1$ iff there is a solution to the M-C equation in $L_2$.
+=--
+
++-- {: .num_theorem #KontsevichFormality}
+###### Theorem
+**([[Kontsevich formality]])**.  $C^\ast(A,A)[[t]]$ is quasi-isomorphic to $H^\ast(A,A)[[t]]$.  ($A = C^\infty(M)$)
+=--
+
+Hence there is a solution to M-C in $C^\ast(A,A)[[t]]$, and hence there is a deformation quantization (!).
+
 ## Properties
 
 ### Existence results
