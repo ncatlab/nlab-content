@@ -1943,22 +1943,6 @@ There is a strict Lie 2-group model for the [[string Lie 2-group]]
 
 We now discuss general, not-necessarily strict $\infty$-Lie groupoids.
 
-#### Simplicial Lie and diffeological groups {#SimplicialSmoothGroups}
-
-Every [[connected]] object $X \in \infty Lie Grpd$ is -- by definition -- the [[delooping]] $X = \mathbf{B}G$ of a Lie [[∞-group]] $G = \Omega X$, its [[loop space object]] formed in $\infty LieGrpd$. Since the discussion of [[group object in an (infinity,1)-category|group objects]], [[loop space  object]]s etc. involves only finite [[limit in a quasi-category|(∞,1)-limits]] and [[∞-stackification]] preserves these, this may be discussed in the [[(∞,1)-category of (∞,1)-presheaves]] on [[CartSp]]. Since there $(\infty,1)$-limits are computed objectwise, an [[∞-group]] object $G$ in $\infty LieGrpd$ is modeled by a [[(∞,1)-presheaf]] with values in [[∞-group]]s in [[∞Grpd]].
-
-By standard results on <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity,1)-category#ModelsInInfGrpd">Models for group objects in ∞Grpd</a> the latter may equivalently be modeled by [[simplicial group]]s. A simplicial group is possibly weak [[∞-groupoid]] equipped with a _strict_ group object structure. While [[strict omega-groupoid|strict ∞-groupoids]] with weak group object structure do not model all [[∞-group]]s, weak $\infty$-groupoids with strict group structure do.
-
-There is a good supply of standard results for and constructions with [[simplicial group]]s which makes this model useful for applications.
-
-##### Delooping
-
-For the moment see [simplicial group - delooping](http://ncatlab.org/nlab/show/simplicial+group#Delooping).
-
-##### Simplicial principal bundles
-
-For the moment see the discussion about geometric realization further above.
-
 
 #### Lie-integrated $\infty$-Lie groupoids {#LieIntegrated}
 
@@ -2871,10 +2855,7 @@ Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[con
 
 =--
 
-
-
-###### Simplicial de Rham complex {#DeRhamOfSimplicialManifold}
-
+###### For line $n$-groups {#LieIntDiffCoeffsForLineGroups}
 
 For the [circle n-groupoid](#BnU1) $\mathbf{B}^{n}U(1)$ we have now obtained two different models for its de Rham coefficient object $\mathbf{\flat}_{dR}\mathbf{B}^n U(1)$:
 
@@ -2974,70 +2955,13 @@ That amounts to observing that every 1-form $\alpha \in \Omega^1(U)$ may be obta
 =--
 
 
-For $X_\bullet$ a [[simplicial manifold]], there are two main models for the [[simplicial de Rham complex]] of $X$.
-
-1. the [[total complex]] of the [[double complex]] $\Omega^\bullet(X_\bullet)$;
-
-1. The complex whose elements in degree $n$ are collections
-   
-   $$
-     \{\omega_p \in \Omega^n(X_p \times \Delta^p)\}_{p = 0}^\infty
-   $$
-
-   subject to the conditions
-
-   $$
-     (id \times (\Delta^{p-1} \stackrel{\sigma_i}{\to} \Delta^p))^*
-     \omega_p
-     =
-     ((X_p \stackrel{\delta_i}{\to} X_{p-1}) \times id)^* \omega_{p-1}
-   $$
-
-   for all $p,i$.
-
-   And...
-
-And there is a [[quasi-isomorphism]] between these two complexes, given by integrating forms over simplices.
-
-We want to claim now that cocycle $\infty$-groupoids of these cochain complexes and the quasi-isomorphism relating them is nothing but the hom-complex of $X_\bullet$ into our above two models $\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}$ and the weak equivalence relating them:
-
-$$
-  [CartSp^{op}, sSet](X_\bullet, \int )
-  : 
-  [CartSp^{op}, sSet](X_\bullet, \mathbf{\flat}_{dR}^{simp}, \mathbf{B}^n \mathbb{R})
-  \to
-  [CartSp^{op}, sSet](X_\bullet, \mathbf{\flat}_{dR}^{chn}, \mathbf{B}^n \mathbb{R})
-  \,.
-$$
-
-In fact, this gives a natural way to understand where the second definition for the simplicial de Rham complex comes from: its $n$-cocycles are diagrams of sheaves on $CartSp$ of the form
-
-$$
-  \array{
-    \vdots && \vdots
-    \\
-    X_2 &\stackrel{\omega_2}{\to}& \Omega^n_{cl}(- \times \Delta^2)
-    \\
-    \downarrow \downarrow \downarrow && 
-     \downarrow \downarrow \downarrow
-    \\
-    X_1 &\stackrel{\omega_1}{\to}& \Omega^n_{cl}(- \times \Delta^1)
-    \\
-    \downarrow \downarrow && \downarrow \downarrow
-    \\
-    X_0 &\stackrel{\omega_0}{\to}& \Omega^n_{cl}(-)
-  }
-  \,.
-$$
-
-But these are exactly the diagrams that encode the morphisms of simplicial presheaves $\omega : X_\bullet \to \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}$.
-
-(...)
 
 
 ###### $\infty$-Chern-Weil homomorphism {#ChernWeilHomomorphism}
 
 ... under construction ...
+
+..
 
 The ordinary [[Chern-Weil homomorphism]] constructs [[curvature characteristic form]]s for $G$-[[principal bundle]]s from [[invariant polynomial]]s of [[Lie algebra]]s. The notion of [[invariant polynomial]] generalizes straightforwardly from Lie algebras to [[∞-Lie algebra]]s. We discuss a generalization of the Chern-Weil homomorphism for $\infty$-Lie groups in the image of the [[Lie integration]] map applied to an $\infty$-Lie algebra $\mathfrak{g}$.
 
@@ -3243,6 +3167,121 @@ This represents a globally defined form which differs from $\langle F_{\nabla}\w
 
  
 =--
+
+#### Simplicial manifolds / simplicial diffeological space
+
+Every smooth [[simplicial manifold]], and more generally every [[simplicial object]] in [[diffeological space]]s, naturally represents a [[simplicial presheaf]] $X_\bullet \in [CartSp^{op}, sSet]$, and as such naturally represents an $\infty$-Lie groupoid.
+
+
+##### Simplicial de Rham complex {#DeRhamOfSimplicialManifold}
+
+For $X_\bullet$ a [[simplicial manifold]], there are two main models for the [[simplicial de Rham complex]] of $X$.
+
+1. the [[total complex]] of the [[double complex]] $\Omega^\bullet(X_\bullet)$;
+
+1. The complex whose elements in degree $n$ are collections
+   
+   $$
+     \{\omega_p \in \Omega^n(X_p \times \Delta^p)\}_{p = 0}^\infty
+   $$
+
+   subject to the conditions
+
+   $$
+     (id \times (\Delta^{p-1} \stackrel{\sigma_i}{\to} \Delta^p))^*
+     \omega_p
+     =
+     ((X_p \stackrel{\delta_i}{\to} X_{p-1}) \times id)^* \omega_{p-1}
+   $$
+
+   for all $p,i$, and whose differential is degreewise the ordinary
+   de Rham differential.
+
+
+There is a [[quasi-isomorphism]] from the latter to the former, given by the [[fiber integration]] of forms over simplices.
+
+[Above](#LieIntDiffCoeffsForLineGroups) we had obtained two different simplicial presheaves representing the intrinsic de Rham coefficient object $\mathbf{\flat}_{dR}\mathbf{B}^n \mathbb{R}$, which we denoted $\mathbf{\flat}_{dR}^{simp}\mathbf{B}^n \mathbb{R}$ and $\mathbf{\flat}_{dR}^{chn}\mathbf{B}^n \mathbb{R}$, and a weak equivalence
+
+$$
+  \int \; : \; \mathbf{\flat}_{dR}^{simp}\mathbf{B}^n \mathbb{R}
+   \to 
+    \mathbf{\flat}_{dR}^{chn}\mathbf{B}^n \mathbb{R}
+  \,.
+$$
+
+
+We want to claim now that 
+
+1. the cocycle $\infty$-groupoids of the two simplicial de Rham complexes are the hom-complexes
+
+   $$
+     [CartSp^{op}, sSet](X_\bullet, \mathbf{\flat}_{dR}^{simp}\mathbf{B}^n \mathbb{R})
+   $$
+
+   and
+
+   $$
+     [CartSp^{op}, sSet](X_\bullet, \mathbf{\flat}_{dR}^{chn}\mathbf{B}^n \mathbb{R})
+     \,,
+   $$
+
+   respectively;
+
+1. the quasi-isomorphism relating them is the morphism induced by the weak equivalence of these coeffient objects
+
+   $$
+     [CartSp^{op}, sSet](X_\bullet, \int )
+     : 
+     [CartSp^{op}, sSet](X_\bullet, 
+     \mathbf{\flat}_{dR}^{simp}, \mathbf{B}^n \mathbb{R})
+     \to
+     [CartSp^{op}, sSet](X_\bullet, \mathbf{\flat}_{dR}^{chn}, \mathbf{B}^n \mathbb{R})
+     \,.
+   $$
+
+To see this, notice for instance for the second version of the simplicial de Rham complex that its $n$-cocycles $\{\omega_p \in \Omega_{cl}^n(X_p \times \Delta^p)\}$,  are diagrams of sheaves on $CartSp$ of the form
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    X_2 &\stackrel{\omega_2}{\to}& \Omega^n_{cl}(- \times \Delta^2)
+    \\
+    \downarrow \downarrow \downarrow && 
+     \downarrow \downarrow \downarrow
+    \\
+    X_1 &\stackrel{\omega_1}{\to}& \Omega^n_{cl}(- \times \Delta^1)
+    \\
+    \downarrow \downarrow && \downarrow \downarrow
+    \\
+    X_0 &\stackrel{\omega_0}{\to}& \Omega^n_{cl}(-)
+  }
+  \,.
+$$
+
+But these are exactly the [[coend]] diagrams that encode the morphisms of simplicial presheaves $\omega : X_\bullet \to \mathbf{\flat}_{dR}^{simp} \mathbf{B}^n \mathbb{R}$.
+
+(...)
+
+
+
+#### Simplicial Lie and diffeological groups {#SimplicialSmoothGroups}
+
+Every [[connected]] object $X \in \infty Lie Grpd$ is -- by definition -- the [[delooping]] $X = \mathbf{B}G$ of a Lie [[∞-group]] $G = \Omega X$, its [[loop space object]] formed in $\infty LieGrpd$. Since the discussion of [[group object in an (infinity,1)-category|group objects]], [[loop space  object]]s etc. involves only finite [[limit in a quasi-category|(∞,1)-limits]] and [[∞-stackification]] preserves these, this may be discussed in the [[(∞,1)-category of (∞,1)-presheaves]] on [[CartSp]]. Since there $(\infty,1)$-limits are computed objectwise, an [[∞-group]] object $G$ in $\infty LieGrpd$ is modeled by a [[(∞,1)-presheaf]] with values in [[∞-group]]s in [[∞Grpd]].
+
+By standard results on <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity,1)-category#ModelsInInfGrpd">Models for group objects in ∞Grpd</a> the latter may equivalently be modeled by [[simplicial group]]s. A simplicial group is possibly weak [[∞-groupoid]] equipped with a _strict_ group object structure. While [[strict omega-groupoid|strict ∞-groupoids]] with weak group object structure do not model all [[∞-group]]s, weak $\infty$-groupoids with strict group structure do.
+
+There is a good supply of standard results for and constructions with [[simplicial group]]s which makes this model useful for applications.
+
+##### Delooping
+
+For the moment see [simplicial group - delooping](http://ncatlab.org/nlab/show/simplicial+group#Delooping).
+
+##### Simplicial principal bundles
+
+For the moment see the discussion about geometric realization further above.
+
+
 
 
 ### Cohomology {#Cohomology}
