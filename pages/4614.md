@@ -261,6 +261,15 @@ In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topo
 
 =--
 
+## Related concepts
+
+* [[simplicial topological space]], [[nice simplicial topological space]]
+
+* [[simplicial topological group]]
+
+* **geometric realization of simplicial spaces**
+
+
 
 ## References
 
