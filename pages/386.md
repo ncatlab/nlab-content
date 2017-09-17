@@ -292,6 +292,12 @@ There are important standard functors from $\Delta$ to other categories which _[
 
 See the references at [[simplicial set]].
 
+See also:
+
+* Section VII.5 of [[Categories Work|Categories for the Working Mathematician]]
+
+* Section II.2 of P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_. Springer, 1967
+
 
 [[!redirects augmented simplex category]]
 
