@@ -19,7 +19,7 @@
 
 ## Idea
 
-Intuitionistic mathematics is a variety of [[constructive mathematics]] done according to the principles accepted by [[Jan Brouwer]] and his philosophy of intuitionism.
+Intuitionistic mathematics is a variety of [[constructive mathematics]] done according to the principles accepted by [[L.E.J. Brouwer]] and his philosophy of intuitionism.
 
 
 ## Terminology
