@@ -1,5 +1,5 @@
 
-* webpage?
+* [page at mathnet.ru](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=21838)
 
 ## related $n$Lab entries
 
