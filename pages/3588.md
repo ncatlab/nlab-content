@@ -13,14 +13,17 @@
 
 * [[theory]], [[signature (in logic)|signature]]
 
-* [[context]], [[judgement]]
+* [[judgement]]
+
+* [[hypothetical judgement]], [[sequent]]
+
+  * [[antecedents]] $\vdash$ [[consequent]], [[succedents]]
 
 * [[axiom]], [[theorem]]
 
 * [[proposition]]/[[type]] ([[propositions as types]]) 
 
 * [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
-
 
 [[!include types and logic - table]]
 
