@@ -131,9 +131,13 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 
 * Every [[topos]] has enough injectives.  In fact, every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
 
-* At least assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  Full AC is much more than required, however; [[small violations of choice]] suffices.  The abelian category of [[modules]] over some [[ring]] is similar.
+* At least assuming some form of the [[axiom of choice]], the category of [[abelian groups]] has enough injectives.  Full AC is much more than required, however; [[small violations of choice]] suffices.
 
-* The category of abelian [[sheaves]] on any small [[site]] also has enough injectives.  This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.
+* As soon as the category of abelian groups has enough injectives, so does the [[abelian category]] of [[modules]] over some [[ring]] $R$.  To see this, observe that the forgetful functor $U\colon R Mod \to AbGp$ has both a [[left adjoint]] $R_!$ ([[extension of scalars]] from $\mathbb{Z}$ to $\mathbb{R}$) and a right adjoint $R_*$ ([[coextension of scalars]]).  Since it has a left adjoint, it is [[exact functor|exact]], and so its right adjoint $R_*$ preserves injective objects.  Thus given any $R$-module $M$, we can embed $U(M)$ in an injective abelian group $I$, and then $M$ embeds in $R_*(I)$.
+
+* The category of abelian [[sheaves]] on any small [[site]] also has enough injectives.  (This is in stark contrast to the situation for projectives, which generally do not exist in categories of sheaves.)  A proof of this can be found in [[Peter Johnstone]]'s book *Topos Theory*, p261.
+
+* Combining the last fact with the penultimate one (which relativizes to any topos), we find that the category of modules over any [[sheaf of rings]] on any small site also has enough injectives.  This slick proof of this important fact was pointed out by Colin McLarty in an email to the categories list dated 10 Oct 2010.
 
 
 ## References
