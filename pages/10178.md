@@ -1242,7 +1242,7 @@ $$
     \\
     \mathcal{O}_\lambda//G &\leftarrow& \mathcal{O}_\lambda &\hookrightarrow& \mathfrak{g}^\ast && boundary
     \\
-    \downarrow && \downarrow && \downarrow
+    \downarrow && \downarrow &(pb)& \downarrow
     \\
     \ast//G &\leftarrow& \mathcal{O}_\lambda // G &\hookrightarrow& \mathfrak{g}^\ast//G  && 2d CS 
     \\
@@ -1251,7 +1251,7 @@ $$
   }
 $$
 
-in $\mathbf{H}$. All this lives in $\mathbf{H}_{/\mathbf{B}^2 U(1)}$, but we don't try to draw this here.
+in $\mathbf{H}$ (where the bottom right square is an [[(∞,1)-pullback]]). All this lives is $\mathbf{H}_{/\mathbf{B}^2 U(1)}$, but we don't try to draw this here.
 
 Here on the left we have an equivariant symplectic case as above
 
