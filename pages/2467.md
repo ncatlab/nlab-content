@@ -27,9 +27,12 @@ For more see Connes' official [website](http://www.alainconnes.org/en).
 ## Related $n$Lab entries
 
 * [[noncommutative geometry]], [[operator algebra]], [[C-star algebra]]
+
+* [[spectral triple]]
 * [[Hochschild–Kostant–Rosenberg theorem]]
 * [[cyclic object]], [[cycle category]], [[cyclic cohomology]]
 * [[renormalization]], [[field with one element]]
+* [[Bost-Connes system]]
 
 category: people 
 [[!redirects A. Connes]]
