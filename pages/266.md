@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
 #### Enriched category theory
 +--{: .hide}
 [[!include enriched category theory contents]]
@@ -529,13 +533,18 @@ Absolute Kan extensions are always pointwise, as the later can be defined as tho
 Note that in a general 2-category, absolute Kan extensions make perfect sense, while for defining pointwise ones more structure is needed: [[comma object|comma objects]] and/or some structure which would let us work with (co)limits _inside_ that 2-category (such as a [[Yoneda structure|(co)Yoneda structure]] or a [[2-category equipped with proarrows|proarrow equipment]]).
 
 
-
-### in $(\infty,1)$-categories 
+### Of $(\infty,1)$-functors
 
 The global definition of Kan extensions for
-$(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interpreted essentially verbatim in the context of [[(∞,1)-categories]] 
+functors in terms of left/right adjoints to pullbacks may be interpreted essentially verbatim in the context of [[(∞,1)-categories]] 
 
-See [[(∞,1)-Kan extension]].
+See at _[[(∞,1)-Kan extension]]_.
+
+### In a general 2-category
+
+The Kan extension of a functor may be regarded more abstractly as an extension-problem in the [[2-category]] [[Cat]] of categories. The same extension problem can be stated verbatim in any [[2-category]] and hence there is a corresponding more general notion of Kan extensions of [[1-morphisms]] in [[2-categories]].
+
+This is discussed in ([Lack 09, section 2.2](#Lack09)).
 
 
 
@@ -797,6 +806,11 @@ Preservation of certain limits by left Kan extended functors is discussed in
 
 * Panagis Karazeris, and Grigoris Protsonis, _Left Kan extensions preserving finite products_ ([pdf](http://www.math.upatras.gr/~pkarazer/publications/topsift.pdf))
  {#KarazerisProtsonis}
+
+The general notion of extensions of [[1-morphisms]] in [[2-categories]] is discussed in 
+
+* [[Steve Lack]], _A 2-categories companion_, in [[John Baez]], [[Peter May]], _[[Towards Higher Categories]]_, Springer, (2009) ([arXiv:math/0702535](http://arxiv.org/abs/math/0702535))
+ {#Lack09}
 
 [[!redirects Kan extension]]
 [[!redirects Kan extensions]]
