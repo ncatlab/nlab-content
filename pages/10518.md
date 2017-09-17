@@ -61,13 +61,17 @@ on the total space $X$ of this bundle. This hence yields what one may think of a
 
 ## References
 
-Parameterized WZW models as [[target spaces]] in [[heterotic string theory]] are discussed in 
+Parameterized WZW models as [[target spaces]] in [[heterotic string theory]] are discussed in section 7 of
 
 * [[Jacques Distler]], [[Eric Sharpe]], _Heterotic compactifications with principal bundles for general groups and general levels_, Adv. Theor. Math. Phys. 14:335-398, 2010 ([arXiv:hep-th/0701244](http://arxiv.org/abs/hep-th/0701244))
 
+The corresponding [[elliptic genera]] had been considered in 
+
+* [[Matthew Ando]], _The sigma orientation for analytic circle-equivariant elliptic cohomology_, Geom. Topol. 7 (2003) 91-153 ([arXiv:math/0201092](http://arxiv.org/abs/math/0201092))
+
 The discussion of the relevant [[Heisenberg n-group]] theory is in 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
 
 [[!redirects parameterized WZW models]]
 [[!redirects parameterized Wess-Zumino-Witten model]]
@@ -77,4 +81,3 @@ The discussion of the relevant [[Heisenberg n-group]] theory is in
 [[!redirects fibered WZW models]]
 [[!redirects fibered Wess-Zumino-Witten model]]
 [[!redirects fibered Wess-Zumino-Witten models]]
-
