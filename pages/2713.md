@@ -20,7 +20,17 @@
 ## Idea
 
 
-A _spectral triple_ is algebraic data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] with [[spin structure]] and generalizes it to [[noncommutative geometry]].
+A _spectral triple_ is algebraic data that mimics the geometric data provided by a [[smooth manifold|smooth]] [[Riemannian manifold]] $X$ with [[spin structure]] and generalizes it to [[noncommutative geometry]]. It consists of
+
+1. An [[associative algebra]] $A$, to be thought of as the algebra of [[smooth function]]s on $X$;
+
+1. a $\mathbb{Z}_2$-graded [[Hilbert space]] $\mathcal{H}$, to be thought of as the space of (square integrable) [[section]]s of the [[spinor bundle]] of $X$;
+
+   These two items encode the [[topology]] and [[smooth structure]].
+
+1. A [[Fredholm operator]] $D$ acting on $\mathcal{H}$, to be thought of as the [[Dirac operator]] acing on the spinors.
+
+   This item encodes the [[Riemannian metric]] and possibly a [[connection on a bundle|connection]].
 
 Below we discuss how one may think  of a spectral triple as being precisely the algebraic data defining the worldvolume [[QFT]] of the quantum [[relativistic particle|super particle]] propagating on a Riemannian target space (a [[sigma-model]].) Accordingly this is just the beginning of a pattern. One degree up a [[2-spectral triple]] is algebraic data encoding a Riemannian manifold with [[string structure]].
 
@@ -133,7 +143,9 @@ A general introduction to and discussion of spectral triples with an eye on [[qu
 
 * [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132))
 
-A dettailed derivation for how spectral triples arise as point particle limits of [[vertex operator algebra]]s for 2d [[CFT]]s:
+In section 7.2 of this an outlokk on how to regard the [[string theory|string's]] worldvolume [[CFT]] as a [[2-spectral triple]] is given.
+
+A detailed derivation for how spectral triples arise as point particle limits of [[vertex operator algebra]]s for 2d [[CFT]]s:
 
 * [[Daniel Roggenkamp]], [[Katrin Wendland]], _Limits and Degenerations of Unitary Conformal Field Theories_ ([arXiv:hep-th/0308143](http://arxiv.org/abs/hep-th/0308143))
 
