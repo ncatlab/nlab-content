@@ -130,6 +130,8 @@ See
 
 * [[smooth groupoid]]
 
+* [[LieGrpd]], [[SmoothGrpd]]
+
 * [[bisection of a Lie groupoid]]
 
 * [[orbifold]]
