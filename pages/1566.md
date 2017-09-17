@@ -35,11 +35,15 @@ Commutative monoids with [[homomorphisms]] between them form a _[[category of co
 
 * [[CMon]]
 
+* [[group completion]]
+
 * [[category of monoids]]
 
 * [[cocommutative comonoid]]
 
 * [[symmetric monoidal category]]
+
+* [[commutative ∞-monoid]]
 
 * [[E-infinity algebra]]
 
