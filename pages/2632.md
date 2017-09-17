@@ -22,7 +22,7 @@ While quantum mechanics may be formulated for a wide range of physical systems, 
 
 ##### nPOV
 
-Mathematically, despite the basic formalism of quantum mechanics which is sound and clear, there are two big areas which are yet not clear. One is to understand quantization, in all cases -- of particles, fields, strings and so on. The second and possibly more central to nLab is a problem how to define rigorously a wide range of quantum field theories and some related quantum mechanical systems like the hypothetical [[superstring theory]]. Regarding that this is a central goal, we also put emphasis on the interpretation of quantum mechanics via the picture which is a special case of a FQFT, and where the time evolution functorially leads to evolution operators. 
+Mathematically, despite the basic formalism of quantum mechanics which is sound and clear, there are two big areas which are yet not clear. One is to understand quantization, in all cases -- of particles, fields, strings and so on. The second and possibly more central to nLab is a problem how to define rigorously a wide range of quantum field theories and some related quantum mechanical systems like the hypothetical [[superstring theory]]. Regarding that this is a central goal, we also put emphasis on the [[interpretation of quantum mechanics]] via the picture which is a special case of a FQFT, and where the time evolution functorially leads to evolution operators. 
 
 ## Definition
 
@@ -322,6 +322,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
     * [[linear logic]], [[linear type theory]]
 
   * [[finite quantum mechanics in terms of dagger-compact categories]]
+
+  * [[interpretation of quantum mechanics]]
 
 * [[quantum field theory]]
 
