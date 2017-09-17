@@ -6,7 +6,15 @@ In point-set topology, a space is [[separable space|separable]] if and only if i
 
 
 [[!redirects dense subspace]]
+[[!redirects dense subspaces]]
 [[!redirects dense subset]]
+[[!redirects dense subsets]]
 [[!redirects dense set]]
+[[!redirects dense sets]]
 [[!redirects dense topological subspace]]
+[[!redirects dense topological subspaces]]
+
 [[!redirects dense sublocale]]
+[[!redirects dense sublocales]]
+[[!redirects dense nucleus]]
+[[!redirects dense nuclei]]
