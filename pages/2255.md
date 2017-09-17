@@ -1,6 +1,6 @@
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -55,7 +55,7 @@ to "the" [[category of sets]]. A **rooted tree** is a forest for which $F(0)$ is
 
 In this case, we get from a tree as functor $F$ to a tree as digraph by passing to the [[category of elements]] $El(F)$. The vertices of the digraph are the elements, and the edges are those morphisms of $El(F)$ which map to morphisms $i + 1 \to i$ in $\mathbb{N}^{op}$. Notice that $\mathbb{N}^{op}$ is itself (the free category on) a tree as digraph, one that is terminal in the category of forests. 
 
-This description makes it clear that the category of forests is a (presheaf) [[topos]], indeed a [[Grothendieck topos]]; therefore the category of trees, which is equivalent, is also a topos. 
+This description makes it clear that the category of forests is a (presheaf) [[topos]], indeed a [[Grothendieck topos]]; therefore the [[category of trees]], which is equivalent, is also a [[topos]]. 
 
 If we replace $Set$ here by the category of [[totally ordered set]]s $Tos$, then we may define a **planar forest** as a functor 
 
@@ -98,6 +98,13 @@ A _rooted tree_ can be defined as a [[relational structure]] and as such serves 
 
 This last property, of course, implies that $S$ is irreflexive.
 
+## Related concepts
+
+* [[category of trees]]
+
 
 [[!redirects tree]]
 [[!redirects trees]]
+
+[[!redirects planar tree]]
+[[!redirects planar trees]]
