@@ -1,19 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 "Harmonic oscillator" is a fancy name for a rock on a spring: 
 
-in [[classical mechanics]] it is the physical system given by a point mass in a parabolic potential, feeling forces driving it back to a specifid origin that are propertional to the distance of the mass from that origin.
+* in [[classical mechanics]] it is the physical system given by a point mass in a parabolic potential, feeling forces driving it back to a specifid origin that are propertional to the distance of the mass from that origin.
 
-In [[quantum mechanics]] and in particular [[quantum field theory]] the quantum harmonic oscillator governs not just the dynamics of idealized point masses but crucially appears in the dynamics of all free massive quantum fields. 
+* in [[quantum mechanics]] and in particular [[quantum field theory]] the quantum harmonic oscillator governs not just the dynamics of idealized point masses but crucially appears in the dynamics of all free massive quantum fields. 
 
 To quote the field theorist Sidney Coleman,
 > The career of a young theoretical physicist consists of treating the harmonic oscillator in ever-increasing levels of abstraction.
 
-#Classical oscillator#
+## Classical oscillator
 
 First the harmonic oscillator in [[classical mechanics]].
 
@@ -27,7 +38,7 @@ By choosing units so that $k = m = 1,$ we get
 \[H_0 = \frac{x^2}{2} + \frac{p^2}{2} - \frac{1}{2},\]
 where $p$ is momentum.
 
-#Quantum harmonic oscillator#
+## Quantum harmonic oscillator
 
 Now the harmonic oscillator in [[quantum mechanics]].
 
@@ -44,9 +55,11 @@ The creation operator $z$ adds a photon to the mix; there's only one way to do t
 \[\psi(t) = \sum_{n=0}^{\infty} e^{-itn} a_n z^n.\]
 This way of representing the state of a QHO is known as the _Fock basis_.
 
-#Categorified quantum harmonic oscillator#
+## References
 
-A program initiated by [[John Baez]] aims to extract some [[category theory|category theoretic]] structures underlying the mathematics of the harmonic oscillator
+### Categorification
+
+A program initiated by [[John Baez]] aims to identify a [[categorification]] of sorts of the quantum harmonic oscillator
 
 The notes
 
