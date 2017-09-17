@@ -118,6 +118,7 @@ Just by brute force checking on elements we see a few relations between these op
 
 ## Duality of finite Witt groups
 
+
 For a $k$-ring $R$ let $W^\prime(R)$ denote the [[ideal]] in $W(R)$ consisting of sequences $x=(x_n)_n$ of nilpotent elements in $W(R)$ such that $x_n=0$ for large $n$.
 
 Let $E$ denote the [[Artin-Hasse exponential]]. Then we have $E(x,1)$ is a polynomial for $x\in W^\prime(R)$ and
@@ -159,6 +160,7 @@ $$E(V^n x y,1)=E (T^n(x F^n y),1)=E(x F^n y,1)$$
 Let $ker(F_n^m):=ker (F^m:W_{nk}\to W_{nk})$ denote the [[kernel]] of $m$-times iterated [[Frobenius endomorphism]] of the $n$-truncated Witt ring.Let
 
 $$\sigma_n:\begin{cases}
+
 W_{nk}\to W_k
 \\
 (\alpha_0,\dots,\alpha_{n-1})\mapsto(\alpha_0,\dots,\alpha_{n-1},0,\dots)
@@ -236,8 +238,21 @@ Also, $W(k)/p^nW(k)\simeq W_n(k)$. Thus the completion of $W(k)$ with respect to
 
 ### Modern surveys
 
+* Michiel Hazewinkel, Formal Groups and Applications, review in [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
+
+* [[Hazewinkel, Witt vectors]], [pdf](http://arxiv.org/abs/0804.3888).{#Hazewinkel}
+
+* Joseph Rabinoff, the theory of Witt vectors, [pdf](http://math.stanford.edu/~rabinoff/misc/witt.pdf)
+
 * Richard Pink, finite group schemes, [pdf](http://www.math.ethz.ch/~pink/ftp/FGS/CompleteNotes.pdf){#Pink}
+
 
 ### Further development of the theory
 
-* Michiel Hazewinkel, Formal Groups and Applications, review in [projecteuclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183548600)
+* [[Dmitri Kaledin]], non commutative Witt vectors
+
+* [[Dmitri Kaledin]], universal Witt vectors and the ''Japanese cocycle'', [pdf](http://imperium.lenin.ru/~kaledin/math/jap.pdf)
+
+* Lars Hesselholt, Ib Madsen, on the de Rham-Witt comples in [[mixed characteristic]], [pdf](http://www.math.uiuc.edu/K-theory/0551/paper.pdf)
+
+
