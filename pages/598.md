@@ -68,7 +68,7 @@ The [[simplicial set]] underlying any simplicial group
 
 =--
 
-This is due to ([Moore, 1955](#Moore))
+This is due to ([Moore, 1954](#Moore54))
 
 In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provides explicit fillers.  This implies that constructions on a simplicial group that use fillers of horns can often be adjusted to be functorial by using the algorithmically defined fillers.  An argument that just uses 'existence' of fillers can be refined to give something more 'coherent'.
 
@@ -663,7 +663,12 @@ and chapter 8 of
 * [[Charles Weibel]], _An introduction to homological algebra_ Cambridge (1994)
  {#Weibel}
 
-The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. This is originally due to
+The algorithm for finding the horn fillers in a simplicial group is given in the proof of theorem 17.1, page 67 there. This is originally due to theorem 3 on p. 18-04 of
+
+* J. C. Moore, _Homotopie des complexes monoideaux, I_ , Seminaire Henri Cartan, 1954-55. ([numdam](http://www.numdam.org/item?id=SHC_1954-1955__7_2_A8_0)) 
+ {#Moore54}
+
+and often attributed to
 
 * J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
  {#Moore}
