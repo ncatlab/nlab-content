@@ -14,8 +14,11 @@ Usually characterized in terms of its [[sheaf]] of [[sections]] on the [[locally
 ### Relation to analytic vector bundles
  {#RelationToAnalyticVectorBundles}
 
-Over the [[complex numbers]], [[GAGA]] relates algebraic to [[analytic vector bundles]] (e.g. [Neeman 07, theorem 1.1.4](#Neeman07)).
+Over the [[complex numbers]], [[GAGA]] relates algebraic to [[holomorphic vector bundles]] (e.g. [Neeman 07, theorem 1.1.4](#Neeman07)).
 
+## Related concepts
+
+* [[shtuka]]
 
 ## References
 
