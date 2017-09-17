@@ -22,7 +22,7 @@
 
 ## Idea
 
-In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _infinitesimal shape modality_ characterizes [[coreduced objects]]. 
+In a context of [[differential cohesion]] the _infinitesimal shape modality_ characterizes [[coreduced objects]]. It is itself the [[right adjoint]] in an [[adjoint modality]] with the [[reduction modality]] and the [[left adjoint]] in an [[adjoint modality]] with the [[infinitesimal flat modality]].
 
 ## Definition
 
