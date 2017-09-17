@@ -4,6 +4,8 @@
 
 * [website](http://www.math.harvard.edu/~lurie/)
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Jacob_Lurie)
+
 #Contents#
 * table of contents
 {:toc}
