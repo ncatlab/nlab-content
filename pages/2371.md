@@ -44,7 +44,7 @@
 
   * [[symmetric monoidal smash product of spectra]]
 
-  * [[ring spectrum]]
+  * [[ring spectrum]], [[module spectrum]], [[algebra spectrum]]
 
 * [[A-∞ algebra]] 
 
@@ -79,6 +79,7 @@
 
 * [[delooping hypothesis]]
 
+* [[monoidal Dold-Kan correspondence]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/higher+algebra+-+contents)</div>
