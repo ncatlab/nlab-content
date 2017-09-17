@@ -1,0 +1,19 @@
+
+# The weakening rule
+* table of contents
+{: toc}
+
+## Idea
+
+In [[logic]], the _weakening rule_ states that [[premise]]s may be added to the hypotheses of a valid [[deduction]] while remaining valid.  Along with the [[contraction rule]] and the [[exchange rule]], it is one of the most commonly adopted [[structural rules]].
+
+
+## Statements
+
+Exactly how this looks depends on the [[logic]] used.
+
+...
+
+
+[[!redirects weakening rule]]
+[[!redirects weakening rules]]
