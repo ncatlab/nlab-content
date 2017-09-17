@@ -96,6 +96,8 @@ where $C(U_i)$ is the [[Cech nerve]] 2-groupoid of some [[covering]]. The top mo
 
 * [[2-group]], **Lie 2-group**, [[Lie 2-groupoid]]
 
+  * [[Poisson Lie 2-group]]
+
 * [[∞-group]], [[smooth ∞-group]], [[smooth ∞-groupoid]]
 
 ## References
