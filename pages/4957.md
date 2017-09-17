@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -75,6 +73,13 @@ and is a [[quasitopos]]. See [[concrete sheaf]] for details.
 
 Since a local geometric morphism has a [[left adjoint]] in the [[2-category]] [[Topos]], it is necessarily a [[homotopy equivalence of toposes]].
 
+## Elementary Axiomatization
+
+For every local topos $\Gamma : E \to S$, $S$ is equivalent to the 
+category of sheaves for a Lawvere-Tierney topology $j$ on $E$.  A sound and complete elementary axiomatization of local maps of (bounded) 
+toposes can be given in terms of properties of topos 
+$E$ and topology $j$, see the paper by Awodey and Birkedal in the references below. 
+
 ## Examples
 
 ### Easy examples
@@ -97,6 +102,14 @@ $$
 the functor that sends a set to the [[diffeological space]] on that set with _codiscrete_ smooth structure (every map of sets is smooth). 
 
 (Thanks to [[David Carchedi]].)
+
+### Relative Realizability
+
+Let $A$ be a partial combinatory algebra and let $A\sharp\subseteq A$ be 
+a sub partial combinatory algebra of $A$. Then there is a
+(localic) local geometric morphism from the [[relative realizability topos]]
+$\mathrm{RT}(A,A\sharp)$ to the standard [[realizability topos]]
+$\mathrm{RT}(A\sharp)$. 
 
 ### Localization
 
@@ -134,7 +147,6 @@ A similar construction is possible for [[bounded geometric morphism|bounded]] to
 * [[Peter Johnstone]], _[[Elephant]]_ Chapter C3.6
 
 * [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_ Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz))
-
 This is based on part 2 of
 
 * [[Lars Birkedal]], _Developing Theories of Types and
