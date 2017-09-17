@@ -15,7 +15,7 @@
 
 ## Idea
 
-An _[[algebraic theory]]_ is said to be _commutative_ if the order of elements in its operations is irrelevant, in generalization to the familiar case of the theory of [[commutative rings]].
+An _[[algebraic theory]]_ is said to be _commutative_ if its operations are algebra homomorphisms under any interpretation, generalizing the familiar case of the theory of [[commutative monoid|commutative monoids]].
 
 A more general notion is that of _[[monoidal monads]]_.
 
