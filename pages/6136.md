@@ -52,38 +52,68 @@ $$
 
 ## Construction ##
 
-The key to constructing a propagating flow is to work first with vector fields.  We define a map
-\[
-X \colon E \to \Xi_{fc}(E)
-\]
-where $\Xi_{fc}(E)$ is the space of vertical vector fields on $E$ with compact support.  The map $X$ will have the property that for $v \in E$, $X_v(t v) = -v$ (identifying the vertical tangent space of $E$ with $E$) for $t \in [0,1]$.
+The original definition of a propagating flow in [Stacey, 05](#Stacey) and [Godin, 07](#Godin) used the exponentiation map from vector fields to diffeomorphisms to get the actual diffeomorphism.  The idea of that was that it is much easier to build a vector field with the required properties than a diffeomorphism because vector fields are more easily manipulated.  But the diffeomorphisms used here are simple enough that they can be constructed directly.  This makes it easier to generalise to situations where the exponentiation map cannot be assumed to exist.
 
-Once $X$ has been constructed, we compose it with the map $Exp_1 \colon \Xi_{fc}(E) \to Diff_{fc}(E)$ which takes a vector field, exponentiates it, and evaluates it at time $1$.  Exponentiation is possible as we have vector fields with compact support, and that the vector fields are vertical ensures that the diffeomorphisms act fibrewise.  Finally, the property that $X_v(t v) = -v$ implies that the exponential of $X_v$ starting at $v$ follows a straight path to $0$ taking unit time.  Thus $\Exp_1 X_v(v) = 0$, as required.
+Let us consider the linear situation first.  We start with a vector space, $V$, and a vector $v \in V$.  We want to define a diffeomorphism $\phi_v \colon V \to V$ with the property that $\phi_v(v) = 0$.  This is simple enough:
+$$
+\phi_1(w) = w - v.
+$$
+The problem with this is that we do not want just any diffeomorphism.  We want one that is the identity "near infinity".  Let us start by fixing the diffeomorphism in the $v$-direction.
 
-To construct $X_v$, we need a variation of a [[partition of unity]] subordinate to a trivialisation of $E$.  Let $\{U_\lambda\}$ be an open cover of $M$ such that $E$ is trivial on each $U_\lambda$.  Let $\phi_\lambda \colon E_\lambda \to U_\lambda \times \mathbb{R}^n$ be a trivialisation.  Next we vary the standard construction of a smooth [[partition of unity]] to obtain smooth functions $\rho_\lambda \colon M \to \mathbb{R}$ with the property that $\rho_\lambda$ has support in $U_\lambda$, the $\rho_\lambda$ are locally finite, and $\sum_\lambda \rho_\lambda^2(p) = 1$ for all $p \in M$.  To get compactly supported vector fields (rather than just fibrewise compact support) we need to assume that the $\rho_\lambda$ have compact support in $M$.  This might mean adjusting the indexing set of the original open cover.
+Choose a smooth function $\sigma \colon \mathbb{R} \to [0,1]$ with the following properties:
 
-Now on $U_\lambda$, we can find a function $E_\lambda \to \Xi_{fc}(E_\lambda)$ satisfying the requirements.  Fix, once and for all, a smooth bump function $\tau \colon [0,\infty) \to [0,1]$ which is $1$ on $[0,1]$ and $0$ on $[2,\infty)$.  Using $\phi_\lambda$, we identify $E_\lambda$ with $U_\lambda \times \mathbb{R}^n$.  Define
+1. $\sigma(t) = \begin{cases} 0 & t \le -2 \\
+ - 1 & 0 \le t \le 1 \\
+0 & 2 \le t
+\end{cases}$
+2. $\sigma'(t) \gt -1$ (note that this is possible as we have given ourselves an interval of length $2$ to get from $0$ at $t = -2$ to $-1$ at $t = 0$.
+
+We are actually interested in the function $t \mapsto t + h \sigma(t)$ for $\abs{h} \le 1$.  The first property of $\sigma$ tells us that this agrees with the identity outside $[-2,2]$ and that it is $t \mapsto t - h$ on $[0,1]$.  The second property tells us that its derivative is strictly bigger than $1 - h$ and so, for $h \le 1$, is a diffeomorphism.
+
+On $V$, we choose a "dual functional" to $v$.  That is, we choose some continuous linear functional $f \colon V \to \mathbb{R}$ with $f(v) = 1$ (we need to assume that $v \ne 0$ for this part, we shall correct for that later).  Then we define a diffeomorphism on $V$ by:
 $$
-X_{\lambda,(p,v)}(q,w) = \left(q, -\tau\left(\frac{\|w\|^2}{1 + \|v\|^2}\right) v\right).
+\phi_2(w) = w + \sigma(f(w))v =  (w - f(w)v) + (f(w) + \sigma(f(w)))v.
+$$
+The second expression shows that what we have done is used $f$ to identify $V$ with $\ker f \oplus \mathbb{R}$ and then applied $t \mapsto t + \sigma(t)$ on the $\mathbb{R}$-factor.
+
+This fixes our diffeomorphism in the $v$-direction.  To fix it in the other direction, we choose a smooth function $\widehat{\tau} \colon \ker f \to [0,1]$ which is $0$ "near infinity" and $1$ at $0$.  Then we mix this in to the above as follows:
+$$
+\phi_3(w) = w + \widehat{\tau}(w - f(w)v) \sigma(f(w))v = (w - f(w)v) + (f(w) + \widehat{\tau}(w - f(w)v) \sigma(f(w)) v.
+$$
+As before, the second expression makes it clear that this is a diffeomorphism.  When $\widehat{\tau}(w - f(w)v) = 0$ then it is the identity.
+
+This will do, but there are a few too many choices in the above.  To simplify these, we assume that $V$ admits a smooth inner product, $g$.  Let us write $q$ for the square of the associated norm.  Then we can choose $f$ to be evaluation of the inner product at $v$ and $\tau$ to be composition of the inner product with a suitable bump function on $\mathbb{R}$.  We shall write $\tau$ for that bump function.  To make the final formula cleaner, we assume that $\tau(t) = 1$ for $\abs{t} \le 2$.  This leads us to:
+$$
+\begin{aligned}
+\phi_v(w) &= w + \tau\left(\frac{q(w)}{1 + q(v)}\right) \sigma\left(\frac{g(w,v)}{q(v)}\right) v
+&= w - \frac{g(w,v)}{q(v)}v + \left(\frac{g(w,v)}{q(v)} + \tau\left(\frac{q(w)}{q(v)}\right) \sigma\left(\frac{g(w,v)}{q(v)}\right) \right)v.
+\end{aligned}
+$$
+As written, this makes sense only for $v \ne 0$.  But it extends to the identity at $v = 0$.  To see that this extension is smooth, we need merely point out that as $v \to 0$, so $q(v) \to 0$ and thus $\sigma\left(\frac{g(w,v)}{q(v)}\right) \to 0$.  The second expression again shows that, for $v \ne 0$, this is a diffeomorphism.
+
+This, then, is our required linear diffeomorphism.  For $w$ with $q(w) \ge 2(1 + q(v))$ it is the identity, and thus will extend "at infinity", whilst $\phi_v(v) = 0$.
+
+The next step is to extend this to a bundle over a manifold.  So let $\pi \colon E \to M$ be a smooth vector bundle over a smooth manifold.  We wish to extend the above formula so that it is valid for $E$.  That is, $v$ is an arbitrary point in $E$ and we wish to define $\phi_v \colon E \to E$ such that $\phi_v(v) = 0_{\pi(v)}$.  So also we must take $w$ to be an arbitrary point in $E$.  And thereby lies the problem: in the formula $v$ and $w$ interact but they may be in different fibres.  The solution is to extend one of them to a vector field.  Since $v$ is static in the formula for $\phi_v$, that is the obvious choice.
+
+We should also note that the explicit formula requires the existence of a smooth [[orthogonal structure]] on $E$.
+
+Thus we want to define a smooth function $X \colon E \to \Gamma(E)$ with the property that $X_v(\pi(v)) = v$.  This is easy if $E$ is trivial, and the condition is convex, so a standard [[partition of unity]] argument will suffice.  Specifically, let $\{\rho_\lambda : \lambda \in \Lambda\}$ be a partition of unity on $M$ with the property that for each $\lambda \in \lambda$ there is an open set $U_\lambda$ containing the support of $\rho_\lambda$ over which $E$ is trivial.  Let $E_\lambda$ denote the restriction of $E$ to $U_\lambda$ and let $\psi_\lambda \colon E_\lambda \to U_\lambda \times V$ be a trivialisation.  Let $p_\lambda \colon E_\lambda \to V$ be the composition of this trivialisation with the projection on to the $V$-factor.  We define $X_\lambda \colon E_\lambda \to \Gamma(E_\lambda)$ by
+$$
+X_{\lambda,v}(p) = \psi_\lambda^{-1}(p,p_\lambda(v)).
 $$
 
-This definition works well on $U_\lambda$ and for $t \in [0,1]$ we have:
+Now we define $X \colon E \to \Gamma(E)$ by
 $$
-X_{\lambda,(p,v)}(p,t v) = (p,-v).
+X_v(p) = \sum_\lambda \rho_\lambda(p) X_{\lambda,v}(p).
+$$
+Notice that $X_v(p) = 0$ if $p$ is "sufficiently far" from $\pi(v)$.
+
+Thus our diffeomorphism $\phi_v$ at $w$, with $p = \pi(w)$, is:
+$$
+\phi_v(w) = w + \tau\left(\frac{q(w)}{1 + q(X_v(p))}\right) \sigma \left(\frac{g(w,X_v(p))}{q(X_v(p))}\right) X_v(p).
 $$
 
-To extend it over $M$, we multiply by $\rho_\lambda$, but there is a subtlety here.  The function $X_{\lambda,(p,v)}(q,w)$ is only defined if both $p,q \in U_\lambda$.  Therefore we need to control both $(p,v)$ and $(q,w)$ using our (modified) partition of unity.  So to define $X$, we add up the contributions as follows:
-$$
-X_v(w) = \sum_\lambda \rho_\lambda(\pi(v))\rho_\lambda(\pi(w)) X_{\lambda,v}(w)
-$$
-
-If $\rho_\lambda(w) = 0$ then $X_{\lambda,v}(w)$ is not defined, but that doesn't matter as we're taking $0$ lots of it.  So the function is well-defined.  If we evaluate $X_v$ on $t v$ for $t \in [0,1]$ then $X_{\lambda,v}(t v) = -v$ so
-$$
-X_v(t v) = \sum_\lambda \rho_\lambda(\pi(v)) \rho_\lambda(\pi(v)) (- v) = -v
-$$
-as required.
-
-## Rereferences
+## References
 
 The idea goes back to 
 
