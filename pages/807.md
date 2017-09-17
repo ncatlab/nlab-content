@@ -237,6 +237,7 @@ Euler characteristic behaves well with respect to the basic operations in [[homo
 +-- {: .num_prop }
 ###### Proposition
 
+
 In a [[symmetric monoidal category|symmetric monoidal]] [[triangulated category]] with [[dualizable object]]s $X, Y, Z$, if
 
 $$
@@ -317,7 +318,7 @@ This is due to ... (?)
 [[Mike Shulman|Mike]]: Can the Euler characteristic of a category be recovered as the trace for a dualizable object in some symmetric monoidal category?
 =---
 
-### Relation between Eulcer characterteistic and $\infty$-groupoid cardinality
+### Relation between Euler characteristic and $\infty$-groupoid cardinality
 
 For topological space / $\infty$-groupoids, there is both the notion of [homological Euler characteristic](OfATopologicalSpace) as well as the notion of [homotopy cardinality](HomotopyCardinality). 
 
