@@ -25,6 +25,8 @@ structures in profinite homotopy theory,
 
 * [[rational homotopy theory]]
 
+* [[Sullivan conjecture]]
+
 * [[model structure on dg-algebras]]
 
 * [[string topology]]
