@@ -438,7 +438,9 @@ $$
 
 is [[generalized the|the]] **pushout** of the diagram $F$.
 
-we have the following $(\infty,1)$-categorical analog of the familiar statement in ordinary [[category theory]]:
+#### Pasting law of pushouts {#PushoutPasting}
+
+We have the following $(\infty,1)$-categorical analog of the familiar [pasting law of pushouts](http://ncatlab.org/nlab/show/pullback#Pasting) in ordinary [[category theory]]:
 
 +-- {: .un_prop}
 ###### Proposition
