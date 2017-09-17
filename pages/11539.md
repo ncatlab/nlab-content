@@ -2,4 +2,7 @@
 
 For $x$ an [[integer]] and $p$ a [[prime number]], if $x \nequiv 0 \pmod{p}$, then 
 $x^{p-1} \equiv 1 \pmod{p}$.
- 
+
+This useful result is in a sense trivial, since the [[ring]] $\mathbb{Z}/(p)$ is a finite [[field]], with [[group of units]] $G$ of order $p-1$; it is just a matter of recalling $x^{ord(G)} = 1$ for all $x$ in a [[finite group]] $G$. 
+
+A stronger result is that the group of units of a finite field with $q$ elements is _[[cyclic group|cyclic]]_ of order $q-1$. A proof may be found [here](/nlab/show/root#rootsunity). 
