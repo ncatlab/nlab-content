@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[associative algebra]] of [[matrices]] over some [[ring]] under [[matrix multiplication]] is the coresponding _matrix algebra_.
+
+## Properties
+
+### Relation to groupoid algebras
+
+The algebra of $n \times n$-matrices is equivalently the [[groupoid convolution algebra]] of the [[pair groupoid]] on the set with $n$-elements.
+
+[[!redirects matrix algebras]]
