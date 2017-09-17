@@ -39,6 +39,10 @@ There is a topological twist of 4d SYM to a [[TQFT]] -- the [[Kapustin-Witten TQ
 
 ## Related concepts
 
+* [[N=2 D=4 super Yang-Mills theory]]
+  
+* [[N=2 D=3 super Yang-Mills theory]]
+
 [[!include table of branes]]
 
 
