@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,6 +10,10 @@
 #### Fields and quanta
 +--{: .hide}
 [[!include fields and quanta - table]]
+=--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
 =--
 =--
 =--
