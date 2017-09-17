@@ -1,0 +1,10 @@
+
+* [[Edward Witten]],
+  _Conformal field theory in four and six dimensions_,
+  in 
+  [[Ulrike Tillmann]], _Topology, Geometry and Quantum Field Theory_, Cambridge University Press (2002) ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
+
+Related entries: [[M5-brane]], [[S-duality]], [[6d (2,0)-superconformal QFT]]
+
+category: reference
+  
