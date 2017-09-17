@@ -70,6 +70,8 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 * [[free abelian group]]
 
+* [[abelianization]]
+
 * [[module]], [[ring]]
 
 * [[Ab]]
