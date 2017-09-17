@@ -76,6 +76,8 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[telescopic complexity]]
 
+* [[red-shift conjecture]]
+
 * [[Morava K-theory]]
 
   * [[∞-field]]
