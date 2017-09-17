@@ -105,3 +105,7 @@ Thus we have a map $\bigotimes^{k-1} T(L M) \to \mathbb{R}$.  It can be shown th
 There is much more to tell in this particular story.  It is possible to replacing $S^1$ by a [[simplex]] (but keeping $L M$ the same) and so build up more complicated objects in $\Omega^*(L M)$.  This is the starting point of Chen's theory of [[iterated integrals]] and further developments of the theory can be found in the work of Jones, Getzler, and Petrack.
 
 
+## References
+
+* Transgression to Loop Spaces and its Inverse, I: Diffeological Bundles and Fusion Maps, Konrad Waldorf, [arxiv](http://arxiv.org/abs/0911.3212)
+* Transgression to Loop Spaces and its Inverse, II: Gerbes and Fusion Bundles with Connection, Konrad Waldorf [arxiv](http://arxiv.org/abs/1004.0031)
