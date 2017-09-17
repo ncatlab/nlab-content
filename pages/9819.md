@@ -17,10 +17,8 @@ In the sense of [[Galois theory]], that [[algebraic group]] is called the _motiv
 
 See for instance ([Kahn](#Kahn)) for details and references.
 
+That group is, or is closely related to, the group of algebraic _[[periods]]_, and as such is related to expressions appearing in [[deformation quantization]] and in [[renormalization]] in [[quantum field theory]], whence it is also sometimes referred to as the _[[cosmic Galois group]]_. See there for more on this.
 
-## Examples
-
-* [[cosmic Galois group]]
 
 ## Related concepts
 
