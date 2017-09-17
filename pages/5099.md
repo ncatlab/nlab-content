@@ -4,7 +4,7 @@
 
 ##Uniform and normal logics##
 
-A logic is **uniform** if it is closed under the rule of uniform substitution of $\mathcal{L}_\omega(n)$-formulae for propositional variables and is **normal** if it contains the axiom schemata:
+A [[modal logic]] is **uniform** if it is closed under the rule of uniform substitution of $\mathcal{L}_\omega(n)$-formulae for propositional variables and is **normal** if it also contains the axiom schemata:
   
 (K)  $\Diamond_i(\psi \vee \chi) \to \Diamond_i(\psi)\vee \Diamond_i(\chi)$  
   
