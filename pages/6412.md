@@ -93,7 +93,7 @@ A standard reference is
 
 $p$-adic [[differential equations]] are discussed in 
 
-* [[Kiran Kedlaya]], _$p$-Adic differential equations_ ([pdf](http://www-math.mit.edu/~kedlaya/18.787/compiled.pdf), [course notes](http://www-math.mit.edu/~kedlaya/18.787/))
+* [[Kiran Kedlaya]], _$p$-adic differential equations_ ([pdf](http://math.ucsd.edu/~kedlaya/18.787/compiled.pdf), [course notes](http://math.ucsd.edu/~kedlaya/18.787/))
 
 * [[Gilles Cristol]], _Exposants $p$-adiques et solutions dans les couronnes_ ([pdf](http://www.math.jussieu.fr/~christol/exposants.pdf))
 
