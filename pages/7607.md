@@ -5,9 +5,12 @@
 
 * [[Lectures on Logic]]
 
+* _Transcendental syntax 2.0_, 2012 ([pdf](http://iml.univ-mrs.fr/~girard/TS2.pdf))
+
 ## Related entries
 
 * [[linear logic]]
+
 * [[Geometry of Interaction]]
 
 category: people
