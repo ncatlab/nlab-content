@@ -353,3 +353,6 @@ Defects field theory motivated from [[solid state physics]] is discussed in
 
 [[!redirects defect field theory]]
 [[!redirects defect field theories]]
+
+[[!redirects defect QFT]]
+[[!redirects defect QFTs]]
