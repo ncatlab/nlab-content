@@ -1,0 +1,5 @@
+
+Related $n$Lab entries include [[model theory]], [[structure (model theory)]], [[formula]], [[semantics]]
+
+* wikipedia [interpretation (model theory)](http://en.wikipedia.org/wiki/Interpretation_%28model_theory%29)
+* Wilfrid Hodges, _A shorter model theory_, Cambridge Univ. Press 1997 
