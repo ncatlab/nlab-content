@@ -301,7 +301,35 @@ This 2-cell is precisely the local diagonal $r \to r \times r$, manifestly part 
 
 This completes the sketched proof of essential uniqueness. 
 
-## Frobenius conditions 
+## Cartesian bicategories and hyperdoctrines 
+
+Each cartesian bicategory $\mathbf{B}$ gives rise to a bifibration, or in other language a (weak) 2-functor 
+
+$$\mathbf{B}(i-, i-): Map(\mathbf{B})^op} \times Map(\mathbf{B}) \to Cat$$ 
+
+or in other words a $Cat$-valued bimodule over $Map(\mathbf{B})$, for which each $\mathbf{B}(i f, i c): \mathbf{B}(i b, i c) \to \mathbf{B}(i a, i c)$ has a left adjoint 
+
+$$\mathbf{B}(f^\ast, i c): \mathbf{B}(i a, i c) \to \mathbf{B}(i b, i c)$$ 
+
+and similarly each $\mathbf{B}(i c, i f): \mathbf{B}(i c, i a) \to \mathbf{B}(i c, i b)$ has a right adjoint $\mathbf{B}(i c, f^\ast)$. 
+
+Thus, each cartesian bicategory gives rise to an $Ob(\mathbf{B})$-indexed family $\mathbf{B}(i-, c)$ of what we shall call ([_faute de mieux_]) generalized coherent hyperdoctrines: 
+
++-- {: un_def} 
+######Definition  
+Let $C$ be a 2-category with 2-products. A **generalized coherent hyperdoctrine** over $C$ is a 2-functor 
+$$P: C^{op} \to FPCat$$
+to the 2-category of categories with finite products, such that for each 1-cell $f$ in $C$, the functor $P(f)$ has a left adjoint. 
+=-- 
+
+This is called a generalized coherent hyperdoctrine because it deals with a generalized form of coherent logic (involving finite "conjunctions", i.e., local finite cartesian products and existential quantifiers $\exists_f \dashv P(f)$). It is actually a weak form of coherent logic because we have not included finite "disjunctions", and we have said nothing yet about appropriate Beck-Chevalley conditions. (More will be said on this in a [section to follow](#frobenius).) It is generalized in the sense that the base category $C$ is actually a 2-category. 
+
+If the symmetric monoidal bicategory $\mathbf{B}$ is _compact_ (e.g., if $\mathbf{B}$ is of type $Rel_C$ for $C$ a regular category, or $Span_C$ for $C$ a finitely complete category, or the bicategory of small categories and profunctors between them), then without loss of generality, we may restrict attention to the single hyperdoctrine 
+
+$$\mathbf{B}(i-, 1): Map(\mathbf{B})^{op} \to FPCat$$ 
+
+## Frobenius conditions
+{#frobenius}  
 
 A major class of examples of cartesian bicategories, including $Rel$, $Span$, and the bicategory of profunctors between groupoids, have the properties that 
 
