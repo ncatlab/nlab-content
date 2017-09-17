@@ -23,7 +23,7 @@
 
 ## Idea 
 
-A **partial recursive function** (often "[[computable function]]") is a [[partial function]] which can be defined by an [[algorithm]] or computer [[program]] (e.g., a [[Turing machine]]), taking finitely many [[natural numbers]] as inputs, and which on input may run forever, but otherwise eventually halts and returns a natural number as output. 
+A **partial recursive function** (often "computable function") is a [[partial function]] which can be defined by an [[algorithm]] or computer [[program]] (e.g., a [[Turing machine]]), taking finitely many [[natural numbers]] as inputs, and which on input may run forever, but otherwise eventually halts and returns a natural number as output. 
 
 This idea as described is vague until it is circumscribed by a specific notion of computer program (Turing machines, register machines, abaci, etc.). There is a standard article of faith called the "Church--Turing thesis", identifying functions on natural numbers that are algorithmically computable with those that are computable using a Turing machine (or some variant class of machines that is Turing-complete). 
 
@@ -289,8 +289,11 @@ Then $f(m) \leq 2m + 1$ and the graph of $f$ is primitive recursive, so by Theor
 
 ## Related concepts
 
-* [[recursive subset]]
-* [[computable function]]
+* [[recursive subset]] 
+
+* [[computability]] 
+
+* [[Type Two Theory of Effectivity]] 
 
 ## References 
 
@@ -298,10 +301,14 @@ Quite a bit of the arrangement and proofs were taken from clear and useful lectu
 
 * Stephen G. Simpson, Foundations of Mathematics (Lecture Notes), October 1, 2009. ([pdf](http://www.math.psu.edu/simpson/notes/fom.pdf)) 
 
+Of course, there is always good old Wikipedia: 
 
+* Wikipedia, _[Computable function](http://en.wikipedia.org/wiki/Computable_function)_ 
 
 
 [[!redirects partial recursive function]]
 [[!redirects partial recursive functions]]
 [[!redirects recursive partial function]]
 [[!redirects recursive partial functions]]
+[[!redirects computable function]] 
+[[!redirects computable functions]] 
