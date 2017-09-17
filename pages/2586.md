@@ -68,7 +68,7 @@ By [[Whitehead tower|co-killing]] these groups step by step one gets
 
 $$
   \array{
-     cokill this &&&& to get
+     cokill\, this &&&& to\,get
      \\
      \\
      \pi_{0}(O) & = \mathbb{Z}_2 &&& SO
@@ -105,13 +105,13 @@ We have
 
   * $Spin(2) \simeq U(1) \simeq SO(2)$
 
-  * $Spin(3) \simeq Sp(1) \simeq SU(2)$
+  * $Spin(3) \simeq Sp(1) \simeq SU(2)$ (the [[special unitary group]] [SU(2)](special+unitary+group#SU2))
 
   * $Spin(4) \simeq Sp(1)\times Sp(1)$
 
   * $Spin(5) \simeq Sp(2)$
 
-  * $Spin(6) \simeq SU(4)$ 
+  * $Spin(6) \simeq SU(4)$ (the [[special unitary group]] [SU(4)](special+unitary+group#SU4))
 
 * in [[Lorentz group|Lorentzian]] signature
 
