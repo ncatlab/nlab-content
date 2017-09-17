@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -33,7 +32,7 @@ $$ Con : TypeTheories \rightleftarrows Categories : Lan $$
 
 There are many different versions of this adjunction, depending on what kind of type theory we consider and what structure we impose on the categories in question.  In each case, the left adjoint $Con$ assigns to a type theory $T$ the *category of contexts* of $T$, which has structure (such as limits, colimits, etc.) derived from the operations in the type theory, while the right adjoint $Lan$ assigns to a category $C$ a canonically defined type theory, called its *internal language*.
 
-A *model* of a theory $T$ in a category $C$ is equivalently a functor $Con(T)\to C$ or a morphism of type theories $T \to Lan(C)$.  This means that every $T$ has a tautological model in $Con(T)$, and for every category $C$ there is a tautological model of $Lan(C)$ in $C$.  For the category theorist who is most accustomed to think about categories, it is natural to approach type theory by studying the structure of $Lan(C)$ and how it is interpreted in $C$ via this tautological model.  We will do this in this section somewhat informally; in the next section we give a more formal definition of type theories.
+A *[[model]]* of a [[theory]] $T$ in a category $C$ is equivalently a functor $Con(T)\to C$ or a morphism of type theories $T \to Lan(C)$.  This means that every $T$ has a tautological model in $Con(T)$, and for every category $C$ there is a tautological model of $Lan(C)$ in $C$.  For the category theorist who is most accustomed to think about categories, it is natural to approach type theory by studying the structure of $Lan(C)$ and how it is interpreted in $C$ via this tautological model.  We will do this in this section somewhat informally; in the next section we give a more formal definition of type theories.
 
 A couple of side notes for experts:
 
