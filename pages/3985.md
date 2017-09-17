@@ -304,7 +304,7 @@ By the above we know now that the vertical morphisms here are also $S$-local. It
 
 ### Accessible reflective subcategories
 
-The following proposition asserts that if $C$ is an [[accessible (∞,1)-category]] then so are its reflective subcategories.
+The following proposition characterizes when a reflective subcategory of an [[accessible (∞,1)-category]] $C$ is accessible
 
 
 +-- {: .un_prop}
@@ -317,7 +317,7 @@ $$
   C
 $$
 
-a reflective subcategory.  Then
+a reflective subcategory.  Then the following conditions are equivalent:
 
 1. $D$ is itself accessible;
 
