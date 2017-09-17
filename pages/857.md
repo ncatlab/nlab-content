@@ -43,7 +43,7 @@ See
 * [[cubical T-complex]].
 
 
-### Polynhedral $T$-complexes
+## Polyhedral sets and polyhedral $T$-complexes##
 
 There is also a notion of polyhedral $T$-complex, defined in ([Jones, 1983](#Jones)). There are no degeneracies in this theory, but it does allow for the shapes quite, but not completely,  general forms of regular cell decompositions of cells. This gives a solution to the problem of defining general compositions. One has  to define:
 
@@ -56,7 +56,7 @@ On the face of it, the last problem seems the hardest. It turns out that the las
 
 
 
-## References
+## References##
 
 See the references at [[simplicial T-complex]]. 
 
@@ -64,4 +64,4 @@ Polyhedral $T$-complexes are discussed in
 
 * David W. Jones, _A general theory of polyhedral sets and the corresponding
   $T$-complexes_. Dissertationes Math. (Rozprawy Mat.) 266 (1988) 110. [Scanned Thesis](http://www.bangor.ac.uk/r.brown/pdffiles/jones1983PolyTComplexes.pdf) or from [RBPhDsSupervised](http://www.bangor.ac.uk/~mas010/doctorates.html)
- {#Jones}
+ 
