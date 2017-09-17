@@ -5,10 +5,9 @@ by squares, it appears to be impossible to formulate the pentagon identity for t
 
 The concept and terminology here were introduced by Verity:
 
-* Dominic Verity, _Enriched Categories, Internal Categories, and Change of Base_, PhD thesis, University of Cambridge, 1992.
+* _Enriched categories, internal categories and change of base_ Ph.D. thesis, Cambridge University (1992), reprinted as Reprints in Theory and Applications of Categories, No. 20 (2011) pp 1-266 ([TAC](http://www.tac.mta.ca/tac/reprints/articles/20/tr20abs.html))
 
-Unfortunately this thesis is unpublished and not available in electronic form.  Luckily the definition can be found 
-here:
+The definition can also be found here:
 
 * Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930), especially [Section 3: Double bicategories](http://arxiv.org/PS_cache/math/pdf/0611/0611930v3.pdf#page=9)
 
