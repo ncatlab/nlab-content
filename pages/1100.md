@@ -145,7 +145,11 @@ This work used 1-categorical [[site]]s. The generalization to [[(∞,1)-category
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math.AG/0207028))
 
-The intrinsic category-theoretic definition of an [[(∞,1)-topos]] was given in section 6.1 of
+and "model topos"-theory was also developed in
+
+* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+
+The intrinsic [[higher category theory|category-theoretic]] definition of an [[(∞,1)-topos]] was given in section 6.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
