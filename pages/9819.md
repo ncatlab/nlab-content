@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Motivic cohomology
++--{: .hide}
+[[!include motivic cohomology - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
