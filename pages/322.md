@@ -233,15 +233,15 @@ Explicitly, this functor takes a presheaf $F: \mathbb{P}^{op} \to Set$ to the fo
 
 $$\sum_k F(k) \otimes_{S_k} d^{\otimes k}.$$
 
-+-- {: .un_example style="margin-left:2em"}
-######Example
++-- {: .num_example style="margin-left:2em" #analytic}
+###### Example
 When $D$ is the symmetric monoidally cocomplete category $(Set, \times)$ and $x$ is a set, this formula 
 
 $$\hat{F}(x) = \sum_n F(k) \otimes_{S_k} x^k$$ 
 
 is the value at $x$ of what Joyal calls the _analytic functor_ $\hat{F}: Set \to Set$ associated to a [[combinatorial species|species]] $F$, which has been proposed as the categorification of the theory of exponential [[generating function]]s. The fact that $F \mapsto \hat{F}(x)$ is symmetric monoidal (cocontinuous) means that there is a canonical isomorphism
 
-$$\hat{(F \otimes_{Day} G)}(x) \cong \hat{F}(x) \times \hat{G}(x)$$ 
+$$\widehat{(F \otimes_{Day} G)}(x) \cong \hat{F}(x) \times \hat{G}(x)$$ 
 
 In other words, $F \mapsto \hat{F}$ behaves like a categorified version of Fourier transform, taking convolution products to ordinary (pointwise) products. 
 =--
