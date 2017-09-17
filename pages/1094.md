@@ -136,3 +136,5 @@ Extension of sheafification of presheaves with values in other categories has be
 * Barr, Grillet and Van Osdol, Exact categories and categories of sheaves, Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971 
 
 * A. Rosenberg, Almost quotient categories, sheaves and localizations, 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
+
+[[!redirects sheafification functor]]
