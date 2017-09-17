@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $G$ a [[group]] its _commutator subgroup_ $[G,G] \hookrightarrow G$ is the smalles [[subgroup]] containing all the [[group commutator]]
+For $G$ a [[group]] its _commutator subgroup_ $[G,G] \hookrightarrow G$ is the smallest [[subgroup]] containing all the [[group commutator]]
 elements $[g,h] \coloneqq g^{-1} h^{-1} g h$.
 
 ## Properties
