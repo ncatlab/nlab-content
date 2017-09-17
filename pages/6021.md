@@ -9,6 +9,8 @@
 =--
 =--
 
+
+
 ## Definition
 
 ### For manifolds
@@ -28,3 +30,9 @@ The generator of this corresponding to the choice of [[orientation]] is called t
 (...)
 
 * [[virtual fundamental class]].
+
+## Related concepts
+
+* [[Poincaré duality complex]]
+
+* [[Poincaré duality algebra]]
