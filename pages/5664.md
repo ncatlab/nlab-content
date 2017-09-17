@@ -8,3 +8,6 @@ Most important books (except for large portion of Bourbaki's "Elements")
 category:people
 [[!redirects Jean Alexandre Dieudonné]]
 [[!redirects Jean Dieudonne]]
+
+[[!redirects Dieudonné]]
+[[!redirects Dieudonne]]
