@@ -104,8 +104,7 @@ For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http:
 
 Eiichi Abe: Hopf algebras. Cambridge UP 1980.
 
-Pierre Cartier: A primer on Hopf algebras. IHES 2006, 81p,
-at www.ihes.fr
+[[Pierre Cartier]]: A primer on Hopf algebras. IHES 2006, 81p, [pdf](http://inc.web.ihes.fr/prepub/PREPRINTS/2006/M/M-06-40.pdf)
 
 V. G. Drinfel'd, Quantum groups. Proceedings of the International Congress of Mathematicians 1986, Vol. 1, 2 798--820, AMS 1987.
 
