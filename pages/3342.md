@@ -61,8 +61,10 @@ $$
       \mathcal{M}_1 \vee \mathcal{M}_2 :=  {(\mathcal{M}_1 \cup \mathcal{M}_2)}''
 $$
 
+An automorphismus of an algebra $\alpha \mathcal{M} \rightarrow \mathcal{M}$ is called an **inner** automorphismus if there is an invertible element $u \in \mathcal{M}$ such that $\alpha$ is given by conjugation with $u: \alpha(m) = u \quad m \quad u^{-1} \qquad \forall m\in \mathcal{M}$ (note that our convention here differs from that used by [Wikipedia] (http://en.wikipedia.org/wiki/Inner_automorphism)).
+
 ###Definition of Vacuum Representations
-A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilber space $(\mathcal{H})$, indexed by $\mathcal{O} \in \mathcal{J}$, is called a **vacuum respresentation** (on the 4-dimensional Minkowski spacetime) if it satisfies the following axioms:
+A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilbert space $(\mathcal{H})$, indexed by $\mathcal{O} \in \mathcal{J}$, is called a **vacuum respresentation** (on the 4-dimensional Minkowski spacetime) if it satisfies the following axioms:
 
 * (V1) **isotony**: $\mathcal{O}_1 \subset \mathcal{O}_2 implies \mathcal{M}(\mathcal{O}_1) \subseteq \mathcal{M}(\mathcal{O}_2)$
 
@@ -87,12 +89,14 @@ The algebras $\mathcal{M}(\mathcal{O})$ are sometimes called **local algebras**.
 
 The $C^*-$algebra $\mathcal{A} := clo_{\| \cdot \|} ( \bigcup_{\mathcal{O}\in\mathcal{J}}\mathcal{M}(\mathcal{O}) $ is called **quasilocal algebra**, the smallest von Neuman algebra that contains $\mathcal{A}$ is called the **global algebra** and denoted by $\mathcal{R}$. 
 
-A vacuum representation is called **irreducible** if $\mathcal{R} = \mathcal{L}(\mathcal{H})$ (the global algebra is the whole algebra of all bounded linear operators on the given Hilber space), it is called **factorial** if $\mathcal{R}$ is a factor.
+A vacuum representation is called **irreducible** if $\mathcal{R} = \mathcal{L}(\mathcal{H})$ (the global algebra is the whole algebra of all bounded linear operators on the given Hilbert space), it is called **factorial** if $\mathcal{R}$ is a factor.
 
 * Wikipedia on [factors] (http://en.wikipedia.org/wiki/Von_Neumann_algebra#Factors) of von Neumann algebras.
 
 ###Classical Theorems 
 ...will be cited here
+
+* **Theorem 1 (Borchers)**: The representatives of the translations are elements of the global algebra $\mathcal{R}$, i.e. they are inner automorphisms of $\mathcal{R}$: $\mathcal{U}(\mathcal{T}) \subseteq \mathcal{R}$.
 
 ## References 
 
