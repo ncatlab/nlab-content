@@ -25,9 +25,11 @@ A __predicate calculus__ is simply a system for describing and working with pred
 
 For many (perhaps most?) authors, predicate logic is really __predicate logic with [[equality]]__.  However, some forms of predicate logic do not include an equality primitive, such as [[FOLDS]] (in whose name 'FOL' stands for 'first-order logic').  In some first-order theories, such as [[ZFC]], equality can be defined and so is not needed in the logic itself.
 
-##Properties
 
-[[Lindström's theorems]] give important abstract characterizations of standard finitary first-order logic.
+## Properties
+
+[[Lindström's theorems]] give important abstract characterizations of classical untyped first-order logic.
+
 
 ## Related concepts
 
@@ -38,6 +40,7 @@ For many (perhaps most?) authors, predicate logic is really __predicate logic wi
 * [[higher order logic]]
 
 * [[Lindström's theorem]]
+
 
 ## References
 
