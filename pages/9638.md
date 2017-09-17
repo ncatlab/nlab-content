@@ -43,11 +43,15 @@ There are arguments that a good formal context for quantum computing is (via [[c
 
 ## References
 
+### General
+
 General discussions include
 
 * Michael A. Nielsen, Isaac L. Chuang, _Quantum computation and quantum information_, Cambridge University Press 2000
 
 * Wikipedia, _[Quantum computation](http://en.wikipedia.org/wiki/Quantum_computation)_
+
+### As linear logic
 
 Discussion of quantum computation as the [[internal logic|internal]] [[linear logic]]/[[linear type theory]] of [[compact closed categories]] is in
 
@@ -64,12 +68,18 @@ An exposition along these lines is in
 
 * [[John Baez]], [[Mike Stay]], _Physics, topology, logic and computation: a rosetta stone_, [arxiv/0903.0340](http://arxiv.org/abs/0903.0340); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
 
+### In terms of monads
+ {#ReferencesInTermsOfMonads}
 
 Discussion of aspects of quantum computing in terms of [[monad (in computer science)|monads]] in [[functional programming]] are in 
 
 * [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
 
 * [[Thorsten Altenkirch]], Jonathan Grattage, _A functional quantum programming language_ ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qml.pdf))
+
+* J. K. Vizzotto, [[Thorsten Altenkirch]], A. Sabry, _Structuring quantum effects: superoperators as arrows_ ([arXiv:quant-ph/0501151](http://arxiv.org/abs/quant-ph/0501151))
+
+### Topological quantum computing
 
 Quantum computation in terms of [[topological quantum field theory]] is discussed in
 
