@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,6 +36,8 @@ An inhabited set is the special case of an [[inhabited object]] in the [[topos]]
 * [[inhabited type]]
 
   * [[inhabited object]], [[inhabited set]]
+
+* [[bracket type]], [[image]]
 
 [[!redirects inhabited set]]
 [[!redirects inhabited sets]]
