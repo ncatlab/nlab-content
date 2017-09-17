@@ -172,6 +172,8 @@ The $E$-localization of a spectrum in this case is called _[[p-localization]]_.
 
 * [[chromatic filtration]], [[chromatic layer]]
 
+* [[K(n)-local stable homotopy theory]]
+
 ## References
 
 The original article is
@@ -191,6 +193,10 @@ Lecture notes in the general context of [[higher algebra]]/[[stable homotopy the
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes (2010) ([web](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 20 _Bousfield localization_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture20.pdf))
  {#LurieLecture}
 
+Discussion specifically of [[K(n)-local spectra]] includes
+
+* [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+
 See also
 
 section 2.4 of
@@ -199,3 +205,6 @@ section 2.4 of
 
 [[!redirects local spectrum]]
 [[!redirects local spectra]]
+
+[[!redirects localization of a spectrum]]
+[[!redirects localization of spectra]]
