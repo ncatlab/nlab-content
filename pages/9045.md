@@ -202,12 +202,66 @@ $$
 +-- {: .num_theorem #HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure}
 ###### Theorem
 
-When the [[complex manifold]] $X$ happens to be a [[Kähler manifold]] then the [[Frölicher spectral sequence]] degenerates at the $E_1$ page which implies that def. \ref{HodgeFiltrationForComplexSpace} coincides with the traditional definition via [[harmonic differential forms]], def. \ref{TraditionalHodgeFiltration} 
+When the compact [[complex manifold]] $X$ happens to have the structure of a [[Kähler manifold]] then the [[Frölicher spectral sequence]] degenerates at the $E_1$ page which implies that def. \ref{HodgeFiltrationForComplexSpace} coincides with the traditional definition via [[harmonic differential forms]], def. \ref{TraditionalHodgeFiltration}:
+
+$$
+  \underset{k-q \geq p}{\oplus}
+  H^{k-q,q}(X)
+  \simeq
+  im
+  \left(
+    H^k(X, F^p \Omega^\bullet_X)
+    \to 
+    H^k(X, \Omega^\bullet_X)
+  \right)
+  \,.
+$$
 
 =--
 
 (e.g. [Voisin 02, remark 8.29](#Voisin02), [Voisin, 1.1.2](#Voisin) [Peters-Steenbrink 08, prop 2.22](#PetersSteenbrink08)).
 
+The equivalence in theorem \ref{HodgeFiltrationForComplexSpaceReproducesKaehlerHodgeStructure} is induced as follows
+
+Write  
+
+$$
+  tot(\Omega^{\bullet \geq p, \bullet}, \mathbf{d}= \partial + \bar \partial)
+$$ 
+
+for the holomorphically truncated [[de Rham complex]], as indicated, thought of as the [[total complex]] of the [[Dolbeaul complex|Dolbeault]] [[double complex]]
+
+$$
+  \array{
+    \Omega^{p,0} &\stackrel{\bar \partial}{\to}& \Omega^{p-1,1} &\stackrel{\bar \partial}{\to}& \cdots
+    \\
+    \downarrow^{\mathrlap{\partial }}
+    &&
+    \downarrow^{\mathrlap{\partial }}
+    \\
+    \Omega^{p+1,0} &\stackrel{\bar \partial}{\to}& \Omega^{p,1} &\stackrel{\bar \partial}{\to}& \cdots
+    \\
+    \downarrow^{\mathrlap{\partial }}
+    &&
+    \downarrow^{\mathrlap{\partial }}
+    \\
+    \vdots && \vdots
+  }
+  \,.
+$$
+
+Since this is in each row the [[Dolbeault resolution]] of the given sheaf of [[holomorphic differential forms]], this total complex is indeed [[quasi-isomorphism|quasi-isomorphic]] to the (truncated) [[holomorphic de Rham complex]]. 
+
+The total complex is in degree $-k$ given by
+$\underset{k-q \geq p}{\oplus} \Omega^{k-q, q}$
+and hence globally defined closed $(k-q \geq p,q)$-forms naturally inject into
+
+$$
+  H^k(X, tot(\Omega^{\bullet\geq p, \bullet}, \mathbf{d} = \partial + \bar \partial) )
+  \simeq
+  H^0(X,tot(\Omega^{\bullet\geq p, \bullet}, \mathbf{d} = \partial + \bar \partial)[-k])
+  \,.
+$$
 
 ### Generally on an abelian group
  {#OnAnAbelianGroup}
@@ -296,6 +350,7 @@ A review is in section 8.4 of
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
+
  
 
 See also
@@ -338,4 +393,3 @@ Geometric Variations_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/tifr.pdf)
 [[!redirects variation of Hodge structures]]
 [[!redirects variations of Hodge structure]]
 [[!redirects variations of Hodge structures]]
-
