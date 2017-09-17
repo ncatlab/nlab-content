@@ -47,6 +47,8 @@ For $E = H \mathbb{Z}_p$ the [[Eilenberg-MacLane spectrum]] of the [[cyclic grou
 
 * [[smashing localization]]
 
+* [[chromatic filtration]], [[chromatic layer]]
+
 ## References
 
 The original article is
