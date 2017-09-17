@@ -1,3 +1,4 @@
+
 # Commutative squares
 * table of contents
 {: toc}
@@ -50,3 +51,5 @@ The commutative squares serve as the morphisms in the [[arrow category]] of $C$,
 
 [[!redirects commutative square]]
 [[!redirects commutative squares]]
+[[!redirects commuting square]]
+[[!redirects commuting squares]]
