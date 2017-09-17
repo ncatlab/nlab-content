@@ -134,6 +134,11 @@ A quick idea is given in section 6 of
 
 * [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
 
+A good historical introduction is in 
+
+* [[Jack Morava]], _Complex cobordism and algebraic topology_ ([arXiv:0707.3216](http://arxiv.org/abs/0707.3216))
+
+
 Comprehensive lecture notes are in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
@@ -155,9 +160,9 @@ A collection of various lecture notes and other material is kept at
 
 Random useful discussion is in 
 
-* _[Chromotopy](http://chromotopy.org/)_
+* [[Jon Beardsley]], _[Chromotopy](http://chromotopy.org/)_
 
-Discussion of generalization [[elliptic cohomology]] to higher chromatic homotopy theory is discussed in
+Discussion of generalization of [[elliptic cohomology]] to higher chromatic homotopy theory is discussed in
 
 * [[Doug Ravenel]], _Toward higher chromatic analogs of elliptic cohomology_ [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high1.pdf)
 
