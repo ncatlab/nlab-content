@@ -170,7 +170,7 @@ $\Pi_2$: (pairs of pointed spaces) $\to$ (crossed modules)
 preserves certain colimits (see reference below).  
 
 
-This last example was one of the first investigated by Whitehead and his proof appears also in a little book by Hilton. See also [[Nonabelian algebraic topology]]. 
+This last example was one of the first investigated by Whitehead and his proof appears also in a little book by Hilton. See also [[Nonabelian algebraic topology]]. But the more general result of Brown and Higgins determines also the group $\pi_2(X \cup CA,X,x)$ as a crossed $\pi_1(X,x)$ module, so that Whitehead's result is the case $A$ is a wedge of circles. 
 
 
 
