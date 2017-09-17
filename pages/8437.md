@@ -4,7 +4,7 @@
   h-level 0     |   (-2)-truncated | [[(-2)-groupoid]]/[[point]]       | [[true]]/[[unit type]]/[[contractible type]]
   h-level 1     |   (-1)-truncated | [[(-1)-groupoid]]/[[truth value]] | [[h-proposition]]
   h-level 2     |   0-truncated    | [[0-groupoid]]/[[set]]            | [[h-set]]
-  h-level 3     |   1-truncated    | [[1-groupoid]]/[[groupoid]]       | h-groupoid
+  h-level 3     |   1-truncated    | [[1-groupoid]]/[[groupoid]]       | [[h-groupoid]]
   h-level 4     |   2-truncated    | [[2-groupoid]]                    | h-2-groupoid
   h-level 5     |   3-truncated    | [[3-groupoid]]                    | h-3-groupoid
   h-level $n+2$ |   $n$-truncated  | [[n-groupoid]]/[[homotopy n-type]]| h-$n$-groupoid
