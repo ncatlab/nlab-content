@@ -116,6 +116,10 @@ In the theory of Riemann surfaces, there are several important theorems.  Here a
 
 * [[stable vector bundle]]
 
+* [[elliptic curve]]
+
+* [[worldsheet]]
+
 * [[beta-gamma system]]
 
 ## References
