@@ -15,14 +15,14 @@
 
 ## Idea
 
-Analytic spaces are [[spaces]] that are locally modeled on [[Isbell duality|formal duals]] of subalgebras [[associative algebra|algebras]] of [[power series]] algebras on elements with certain convergence properties. 
+Analytic spaces are [[spaces]] that are locally modeled on [[Isbell duality|formal duals]] of sub-[[associative algebra|algebras]] of [[power series]] algebras on elements with certain [[convergence]] properties with respect to given [[seminorms]].
 
-In complex [[analytic geometry]] analytic spaces are a vast generalization of complex analytic manifolds. There are also analytic spaces over nonarchimedean spaces, the subject introduced by Tate and called [[rigid analytic geometry]]. 
-There are _rigid analytic spaces_, defined with respect to maximal spectra of these algebras, and _analytic spaces_ defined with respect to a kind of [[Gelfand spectrum]], due to [[Vladimir Berkovich]]. For the former definition see _[[rigid analytic geometry]]_. This entry is concerned with the more general notion due to Berkovich, which makes sense also over trivially [[valuation|valued]] and [[non-archimedean fields]].
+In [[complex number|complex]] [[analytic geometry]] analytic spaces are a vast generalization of complex [[analytic manifolds]]. There are also analytic spaces over [[nonarchimedean fields]], the subject introduced by Tate and called [[rigid analytic geometry]]. 
+There are _rigid analytic spaces_, defined with respect to [[maximal spectra]] of these algebras, and more flexible _analytic spaces_ defined with respect to the [[analytic spectrum]], due to [[Vladimir Berkovich]]. For the former definition see _[[rigid analytic geometry]]_. This entry is concerned with the more flexible notion due to Berkovich.
 
 For more background see _[[analytic geometry]]_.
 
-## Definition of rigid analytic spaces
+## Definition of Berkovich analytic spaces
 
 Let $k$ be a [[non-archimedean field]].
 
