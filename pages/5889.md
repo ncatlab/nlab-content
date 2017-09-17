@@ -22,10 +22,18 @@ A __principal homogeneous $G$-space__ is the total space of a $G$-[[torsor]] ove
 
 There are generalizations, e.g. the [[quantum homogeneous space]] for the case of quantum groups. 
 
+## Examples
+
+A special case of homogeneous spaces are [[coset space]]s arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie group]]s this is also called [[Klein geometry]].
+
 ## Properties
 
 Under weak topological conditions (cf. Helgason), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed space|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
 
+
+## Related concepts
+
+* [[Klein geometry]]
 
 
 [[!redirects homogeneous spaces]]
