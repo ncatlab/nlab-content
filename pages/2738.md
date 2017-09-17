@@ -693,12 +693,8 @@ The class of morphisms in $dSet$ generated from the boundary inclusions under [[
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is  ([CisMoer09, prop 1.4](#CisMoer09)).
 
-This is prop 1.4 in [CisMoer09](http://arxiv.org/abs/0902.1954).
-
-=--
 
 ### Boardman-Vogt tensor product
  {#BoardmanVogtTensorProduct}
@@ -1242,6 +1238,12 @@ A discussion of inner Kan complexes (see also [[model structure on dendroidal se
 * [[Ieke Moerdijk]], [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_, [math.CT/0701295](http://arxiv.org/abs/math/0701295)
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_, [arxiv/1010.4956](http://arxiv.org/abs/1010.4956)
+
+Normal morphisms of dendroidal sets are discussed for instance around prop. 1.4 of
+
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv:0902.1954](http://arxiv.org/abs/0902.1954))
+ {#CisMoer09}
+
 
 Here two blog entries with some summaries and pointers to the literature
 
