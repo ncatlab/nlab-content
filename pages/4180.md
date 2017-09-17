@@ -4,7 +4,7 @@ An **inverse semigroup** is a [[semigroup]] $S$ (a set with an associative binar
 
 ## Examples
 
-* The fundamental example is the following: for any set $X$, let $I(X)$ be the set of all partial [[bijections]] on $X$, i.e. bijections between subsets of $X$.  The composite of partial bijections is their composite as [[relations]].
+* The fundamental example is the following: for any set $X$, let $I(X)$ be the set of all partial [[bijections]] on $X$, i.e. bijections between subsets of $X$.  The composite of partial bijections is their composite as [[relations]] (or as [[partial functions]]).
 
 This inverse semigroup plays a role in the theory similar to that of [[permutation]] groups in the theory of [[groups]].  It is also paradigmatic of the general philosophy that
 
