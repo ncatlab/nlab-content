@@ -435,3 +435,5 @@ The connection between locales and toposes via lex totality plays a tacit role t
 
 [[!redirects localic reflection]]
 [[!redirects localic reflections]]
+
+[[!redirects locale theory]]
