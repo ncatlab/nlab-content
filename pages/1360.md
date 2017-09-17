@@ -260,7 +260,7 @@ The model structures from def. \ref{LocalizationOfStructureOnSimplicalObjects} h
 
    $$
      [\Delta^{op}, C]_{Reedy, S}
-     \stackrel{}{\underset{id}{\to}}
+     \stackrel{\overset{id}{\leftarrow}}{\underset{id}{\to}}
      [\Delta^{op}, C]_{proj, S}
      \,,
    $$
@@ -304,14 +304,13 @@ $[\Delta^{op}, C]_{proj}$.
 So for $X \in [\Delta^{op}, C]_{proj}$ fibrant, 
 let $X_\bullet \in [\Delta^{op}, [\Delta^{op}, C]]$ 
 be a [simplicial framing](derived+hom+space#Framings) for it. 
-
 Notice that this means that for all $n \in \mathbb{N}$
 also $X_\bullet([n])$ is a simplicial framing for $X([n])$.
 This is because
 
 1. $const X \to X_\bullet$ being a weak equivalence means that for all $n$ the morphism $X \to X_n$ is a weak equivalence, which means that for all $k$ the morphism $X([k]) \to X_n([k])$ is a weak equivalence.
 
-1. $X_\bullet$ being fibrant in $[\Delta^{op}, [\Delta^{op}, C]_{proj}]_{Reedy}$ means that for all $n$ $X_{\Delta[n]} \to X_{\partial \Delta[n]}$ is a fibration in $[\Delta^{op}, C]_{proj}$, hence that for all $k$ $X_{\Delta[n]}([k]) \to X_{\partial \Delta[n]}([k])$ is a fibration in $C$.
+1. $X_\bullet$ being fibrant in $[\Delta^{op}, [\Delta^{op}, C]_{proj}]_{Reedy}$ means that for all $n\in \mathbb{N}$ the morphism $X_{\Delta[n]} \to X_{\partial \Delta[n]}$ is a fibration in $[\Delta^{op}, C]_{proj}$, hence that for all $k \in \mathbb{N}$ the morphism $X_{\Delta[n]}([k]) \to X_{\partial \Delta[n]}([k])$ is a fibration in $C$, hence that $X([k])$ is Reedy fibrant.
 
 Then we find
 
@@ -340,7 +339,7 @@ Now we show that the weak equivalences in $[\Delta^{op}, C]_{proj,S}$ are precis
 those morphisms that become weak equivalences under 
 the [[homotopy colimit]].
 
-By functorial cofibrant resolution and 2-out-of-3, it is sufficient to  show that this holds for morphisms between cofibrant objects. 
+By functorial [[cofibrant resolution]] and [[two-out-of-three]], it is sufficient to  show that this holds for morphisms between cofibrant objects. 
 
 By lemma \ref{HocolimOverHomotopyConstantSimplicialDiagram}, we have weak equivalences
 
@@ -354,8 +353,8 @@ $$
 
 seen by computing the derived homs by [simplicial framings](derived+hom+space#Framings).
 
-Now, by properties of left Bousfield localization, 
-$A \to B$ is a weak equivalence if for all $S$-[[local objects]] $X$ $\mathbb{R}Hom(A \to B, X)$ is a weak equivalence. Looking at the diagram
+Now, by properties of left [[nLab:Bousfield localization of model categories|Bousfield localization]], 
+$A \to B$ is a weak equivalence if for all $S$-[[local objects]] $X$ the morphism $\mathbb{R}Hom(A \to B, X)$ is a weak equivalence. Looking at the diagram
 
 $$
   \array{
@@ -375,16 +374,16 @@ $$
   }
 $$
 
-we see that this is the case precisely if $\mathbb{R}Hom_{C}(\lim_\to A \to \lim_\to B, Z)$ is a weak equivalence for all fibrant $Z \in C$, which is the case if $\lim_\to A \to \lim_\to B$ is a weak equvlance. Since $A$ and $B$ here are cofibrant in $[\Delta^{op}, C]_{proj}$, the colimits here are indeed [[homotopy colimits]] (as discussed there). 
+we see that this is the case precisely if the vertical morphism on the right is a weak equivalence for all fibrant $Z \in C$, which is the case if $\lim_\to A \to \lim_\to B$ is a weak equivalence. Since $A$ and $B$ here are cofibrant in $[\Delta^{op}, C]_{proj}$, the colimits here are indeed [[homotopy colimits]] (as discussed there). 
 
 $\,$
 
 
-Now we discuss that that $(\lim_\to \dashv const): C \to [\Delta^{op}, C]_{Reedy,S}$ 
+Now we discuss that $(\lim_\to \dashv const): C \to [\Delta^{op}, C]_{proj,S}$ 
 is a [[Quillen equivalence]].
-First observe that $const : C \to [\Delta^{op}, C]_{proj}$ is clearly a right Quillen functr, hence we have a Quillen adjunction on the unlocalized structure. Since both structures are left proper and combinatorial, 
+First observe that $const : C \to [\Delta^{op}, C]_{proj}$ is clearly a right Quillen functor, hence we have a Quillen adjunction on the unlocalized structure. Since both structures are left proper and combinatorial, 
 for this to descent to a Quillen equivalence on the localized
-structure it is sufficient, by ..., 
+structure it is sufficient, by an argument such as [here](simplicial+Quillen+adjunction#Recognition) (???), 
 that $const A$ is $S$-local for all $A \in C$. This is clearly the case,
 by the above.
 
