@@ -49,12 +49,21 @@ This defines the **projective [[model category]] structure** on $Alg_k^\Delta$.
 
 There is also the structure of an [[sSet]]-[[enriched category]] of $Alg_k^\Delta$.
 
++-- {: .un_defn}
+###### Definition
+
 For $X$ a [[simplicial set]] and $A \in Alg_k$ let $A^X  \in Alg_k^\Delta$ be the corresponding $A$-valued [[cochains on simplicial sets]]
 
 $$
   A^X : [n] \mapsto \prod_{X_n} A_n
   \,.
 $$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
 
 If we write $C(X) := Hom_{Set}(X_\bullet,k)$ for the cosimplicial algebra of [[cochains on simplicial sets]] then this may be written as
 
@@ -63,6 +72,11 @@ $$
 $$ 
 
 where the tensor product is the degreewise tensor product of $k$-algebras.
+
+=--
+
++-- {: .un_defn}
+###### Definition
 
 
 For $A,B \in Alg_k^\Delta$ define the [[sSet]]-[[hom-object]] $Alg_k^\Delta(A,B)$ by
@@ -74,7 +88,63 @@ $$
   \,.
 $$
 
-This makes $Alg_k^\Delta$ into a [[simplicially enriched category]] which is [[copower|tensored]] and [[power|cotensored]] over $sSet$.
+=--
+
++-- {: .un_remark}
+###### Remark
+
+For $B \in Alg_k$ regarded as a constant cosimplicial object under the canonical embedding $Alg_k \hookrightarrow Alg_k^\Delta$ we have
+
+$$
+  Alg_k^\Delta(A, B^{\Delta[n]})
+  =
+  Alg_k^\Delta(A, B \otimes C(\Delta[n]))
+  \simeq
+  Alg_k(A_n,B)
+  \,.
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $f : A \to B \otimes C(\Delta[n])$ be a morphism of cosimplicial algebras and write
+
+$$
+  f_n : A_n \to B 
+$$
+
+for the component of $f$ in degree $n$ with values in the copy $B = B \otimes k$ of functions $k$ on the unique non-degenerate $n$-[[simplex]] of $\Delta[n]$. The $n+1$ coface maps $C(\Delta[n])_n \leftarrow C(\Delta[n])_{n-1}$ obtained as the pullback of the $(n+1)$ face inclusions $\Delta[n-1] \to \Delta[n]$  restrict on the non-degenerate $(n-1)$-cells to the $n+1$ projections $k \leftarrow k^{n+1} : p_i$.
+
+Accordingly, from the naturality squares for $f$
+
+$$
+  \array{
+    A_n &\stackrel{f_n}{\to}& B
+    \\
+    \uparrow^{\mathrlap{\delta_i}} && \uparrow^{\mathrlap{p_i}}
+    \\
+    A_{n-1} &\stackrel{f_{n-1}}{\to}& B^{n+1}
+  }
+$$
+
+the bottom horizontal morphism is fixed to have components
+
+$f_{n-1} = (f_n \circ \delta_0, \cdots, f_n \circ \delta_n)$
+
+in the functions on the non-degenerate simplices. 
+
+By analogous reasoning this fixes all the components of $f$ in all lower degrees with values in the functions on degenerate simplices.
+
+
+
+
+=--
+
+
+
+The above [[sSet]]-[[enriched category theory|enrichment]] makes $Alg_k^\Delta$ into a [[simplicially enriched category]] which is [[copower|tensored]] and [[power|cotensored]] over $sSet$.
 
 And this is compatible with the model category structure: 
 
