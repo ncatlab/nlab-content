@@ -133,7 +133,7 @@ And please correct me if I'm wrong, but I believe the interval as final coalgebr
 
 1. [[cubical group]]s are not automatically fibrant
 
-1. the [[geometric realization]] of a cubical set (see [geometric realization](#geometric realization) below) tends to have the wront [[homotopy n-type|homotopy type]]:
+1. the [[geometric realization]] of a cubical set (see [geometric realization](#geometric realization) below) tends to have the wrong [[homotopy n-type|homotopy type]]:
 
    for instance the geometric realization of the cubical set $I \times I$ has non-trivial [[homotopy group]]s and hence does not model the [[topological space]] given by the standard square, which is contractible
 
