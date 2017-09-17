@@ -70,6 +70,9 @@ The [[product]] of any [[space]] $X$ with the [[moduli stack]] $Pic_X$ of line b
 
 * [[line n-bundle]]
 
+[[!include moduli of higher lines -- table]]
+
+
 [[!redirects line bundles]]
 
 [[!redirects complex line bundle]]
