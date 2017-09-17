@@ -621,13 +621,16 @@ See also at _[[super line 2-bundle]]_ for more on this.
 
 Discussion of superalgebra as induced from free groupal symmetric monoidal categories ([[abelian 2-groups]]) and hence ultimately from the [[sphere spectrum]] is in 
 
-* [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov) [mov](Kapranov2Superalgebra.mov))
+* [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, talk at _[Algebra, Combinatorics and Representation Theory: in memory of Andrei Zelevinsky (1953-2013)](http://mathserver.neu.edu/~bwebster/ACRT/)_ April 2013 ([abstract pdf](http://mathserver.neu.edu/~bwebster/ACRT/calendar-with-abstracts.pdf),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov) [mov](Kapranov2Superalgebra.mov))
  {#Kapranov13}
 
 
+[[!redirects super algebras]]
 
 [[!redirects superalgebra]]
 [[!redirects super-algebra]]
+
+
 
 [[!redirects superalgebras]]
 
