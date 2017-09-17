@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 =--
 =--
 
@@ -42,5 +46,7 @@ One can even extend this into the realm not just of provability, but furthermore
 * [[coherent hyperdoctrine]]
 
 * [[Boolean hyperdoctrine]]
+
+* [[tripos]]
 
 [[!redirects first-order hyperdoctrines]]
