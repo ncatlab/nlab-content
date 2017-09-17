@@ -1,0 +1,31 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[category]] $Sp$ of [[space]]s equipped with a [[forgetful functor]] $\Gamma : Sp \to Set$ to [[Set]] thought of as producing for each space its underlying set of points, a **codiscrete space** $Codisc(S)$ on a [[set]] $S$ is, if it exists, the image under the [[right adjoint]] $Codisc : Set \to Sp$ of $\Gamma$.
+
+The dual concept is that of [[discrete space]].
+
+## Examples
+
+### Codicrete topological spaces
+
+For $\Gamma : Top \to Set$ the obvious  forgetful functor from [[Top]], a codiscrete space is a set with [[codiscrete topology]].
+
+### Codiscrete cohesive spaces
+
+A general axiomatization of the notion of space is as an object in a [[cohesive topos]]. This comes by definition with an underlying-set-functor (or similar) and a [[left adjoint]] that produces discrete cohesive structure. See there for details.
