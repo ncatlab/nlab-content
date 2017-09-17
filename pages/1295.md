@@ -102,7 +102,7 @@ One computes for every $A \in \mathcal{C}$
 
 $$
   \begin{aligned}
-    \mathcal{C}(A \times X, P \to X)
+    \mathcal{C}/X(A \times X, P \to X)
       &= 
     \mathcal{C}(A \times X, P ) \times_{\mathcal{C}(A \times X, X)} \{p_2\}
     \\
