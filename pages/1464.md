@@ -43,7 +43,7 @@ is an [[isomorphism]].
 
 In fact, $C$ is a [[filtered category]] if and only if this is true for all finite $D$ and all functors $F : C \times D^{op} \to Set$.
 
-## Certain colimits are stable by base change ##
+## Certain colimits are stable by base change {#ColimitsStableByBaseChange}
 
 Let $C$ be a category with [[pullback]]s and [[colimit]]s of shape $D$. 
 
