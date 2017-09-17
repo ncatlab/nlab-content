@@ -38,7 +38,7 @@ Recall that
 
 * the standard [[model structure on simplicial sets]] models [[∞-groupoid]]s.
 
-a [[simplicial model category|simplicially]] [[enriched model category]] with with respect to the standard model structure on simplicial sets hence models [[∞Grpd]]-enriched categories, hence [[(∞,1)-category|(∞,1)-categories]].
+A [[simplicial model category|simplicially]] [[enriched model category]] with respect to the standard model structure on simplicial sets hence models [[∞Grpd]]-enriched categories, hence [[(∞,1)-category|(∞,1)-categories]].
 
 Along this pattern $(\infty,2)$-categories should be modeled by [[enriched category|categories enriched]] in the [[model structure on simplicial sets|Joyal model structure]] that models the [[(∞,1)-category of (∞,1)-categories]].
 
