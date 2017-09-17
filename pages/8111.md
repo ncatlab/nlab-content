@@ -1,0 +1,8 @@
+
+## Related concepts
+
+* [[Shimura variety]]
+
+## References
+
+* Wikipedia, _[Modular curve](http://en.wikipedia.org/wiki/Modular_curve)_
