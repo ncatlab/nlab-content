@@ -137,3 +137,17 @@ chapter 5 of
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
  {#AGMOO}
+
+### Application to pure mathematics
+
+#### Twisted K-theory
+
+* [[twisted K-theory]]
+
+#### Monstrous moonshine
+
+* [[monstrous moonshine]]
+
+#### (...)
+
+(...)
