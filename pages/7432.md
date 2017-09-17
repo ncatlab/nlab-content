@@ -75,11 +75,11 @@ A tiny element in a Boolean algebra is precisely an atom.
 
 +-- {: .proof}
 ###### Proof 
-If $a$ is an atom, then $B(a, -) \colon B \to \mathbf{2}$ preserves the [[initial object]] (since it is itself not initial), and if $\{x_i\}$ is a nonempty collection of elements that admits a supremum such that $a \leq \bigvee_i x_i$, then 
+Let $a$ be an atom. Let $\{x_i\}$ be a collection of elements that admits a supremum such that $a \leq \bigvee_i x_i$. Then 
 
 $$a = a \wedge \bigvee_i x_i = \bigvee_i a \wedge x_i$$ 
 
-(where the second equation holds since $a \wedge -$ is a left [[adjoint functor|adjoint]], because $B$ is a [[Heyting algebra]]), and so we cannot have $a \wedge x_i = 0$ for all $i$. Thus $0 \lt a \wedge x_i \leq a$ for some $i$, where the second inequality is an equality since $a$ is an atom. Thus $a \leq x_i$ for some $i$, which is what we want. 
+(where the second equation holds since $a \wedge -$ is a left [[adjoint functor|adjoint]], because $B$ is a [[Heyting algebra]]). Since $a$ is positive, for some $i$ the element $a \wedge x_i$ is positive as well. Trivially it holds that $a \wedge x_i \leq a$; since $a$ is an atom, the inequality is an equality. Thus $a \leq x_i$ for some $i$, which is what we want. 
 
 If $a$ is not an atom, i.e., if $0 \lt b \lt a$ for some $b$, then 
 
@@ -88,7 +88,7 @@ $$a = b \vee (a \wedge \neg b)$$
 If $B(a, -)$ preserved the join on the right, then either $a \leq b$ which is evidently false, or $a \leq a \wedge \neg b$, i.e., $a \leq \neg b$, i.e., $b = a \wedge b \leq 0$, also evidently false. Thus $B(a, -)$ does not preserve suprema. 
 =-- 
 
-Only one half of this proposition holds (an atom is a tiny element) if we replace the Boolean algebra $B$ by a general [[frame]]. On the other hand, tiny elements need not be atoms (an easy example is the frame of down-sets of a [[poset]], where principal down-sets are atomic objects, but generally not atoms in the underlying poset of the frame). 
+Only one half of this proposition holds (an atom is a tiny element) if we replace the Boolean algebra $B$ by a general [[frame]]. (In fact, this direction even holds in impredicative constructive mathematics, if the frame is equipped with a [[positive element|positivity predicate]].) On the other hand, tiny elements need not be atoms (an easy example is the frame of down-sets of a [[poset]], where principal down-sets are atomic objects, but generally not atoms in the underlying poset of the frame). 
 
 Be this as it may, [Lawvere](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf#page=6) has written, "In order to settle once and for all the various terminological differences, perhaps we can use a.t.o.m. as an abbreviation for 'amazing tiny object model'." This is Lawvere's 'objective' way of abbreviating "atomic object"; the word 'amazing' here is presumably chosen to evoke what Lawvere has called the "amazing right adjoint" to an exponential functor $(-)^D$, particularly in the case of [[synthetic differential geometry]] where such adjoints exist for [[infinitesimal object|infinitesimal objects]] $D$. 
 
