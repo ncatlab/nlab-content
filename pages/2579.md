@@ -16,7 +16,7 @@
 
 ## Definition
 
-A __group scheme__ is a [[group object]] in the category of [[schemes]] (or in a category of *some* schemes as for instance that of schemes over a fixed base scheme); in particular a group scheme is a [[group functor]]. As explained at [[group object]] there are two equivalent ways of realizing this.
+A __group scheme__ is a [[group object]] in the category of [[schemes]] (or in a category of *some* schemes as for instance that of schemes over a fixed base scheme); in particular a group scheme is a [[group functor]]. As explained at [[group object]] there are two equivalent ways of realizing this:
 
 One way is to define it as a functor $G:C Ring\to Set$ equipped with a transformation $m:G\times G\to G$ satisfying the properties spelled out at [[group object]].
 
@@ -59,6 +59,10 @@ This construction generalizes to [[ind-object|ind-schemes]] (as for example [[fo
 * Group schemes can be constructed by [[restriction of scalars]].
 
 * The functor $\alpha:=\mathbb{G}_a$ is a group scheme given by $\mathbb{G}_a(S)=\Gamma(S, \mathcal{O}_S)$ the additive group of the ring of global functions. This group scheme is called *the additive group scheme*.
+
+* [[connected group scheme]] (is synonymous to [[local group scheme]])
+
+* [[unipotent group scheme]] (these are [[Cartier duality|Cartier duals]] of local group schemes)
 
 * the kernel of any group scheme morphism is a group scheme.
 
