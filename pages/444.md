@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 The notion of _nerve_ is part of a notion of pairs of [[adjoint functors]]. For the general nonsense behind this see
 
 * [[nerve and realization]].
