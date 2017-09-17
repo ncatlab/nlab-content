@@ -254,3 +254,6 @@ _Toby_:  In some languages (I am thinking of Coquand-style type theory without i
 
 But in other languages, such as FOLDS, even this sort of thing would never come up.  In that language, $\id_C(A)$ is not a term for an object of $C$ at all.  The best that you can do is invoke the existential property of the identity anafunctor to know that there is an object $X$ of $A$ such that $X$ is *a* value of $\id_C$ at $A$, then declare that you will denote $X$ by $\id_C(A)$ from now on.  (One should be able to formalise this abuse of language so as to make ordinary mathematical vernacular sensible, but I\'m not sure how to do it.)
 =--
+
+
+[[!redirects non-evil]]
