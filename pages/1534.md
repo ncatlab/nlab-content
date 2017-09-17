@@ -33,7 +33,7 @@ such that composition of such operations is suitably respected.
 
 ### Prefactorization algebra
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -48,7 +48,7 @@ This specifies composition uniquely.
 
 =--
 
-+-- {: .un_defn #PrefactorizationAlgebra}
++-- {: .num_defn #PrefactorizationAlgebra}
 ###### Definition
 
 
@@ -65,7 +65,7 @@ These definitions appear ([here](http://math.northwestern.edu/~costello/factoriz
 
 ### Factorization algebras
 
-+-- {: .un_defn #FactorizingCover}
++-- {: .num_defn #FactorizingCover}
 ###### Definition
 
 For $X$ a [[topological space]] and $U \subset X$ an [[open subset]], a [[open cover]] $\{U_i \hookrightarrow U\}_{i \in I}$ is called a **factorizing cover** if for every [[finite set]] of points $\{x_1, \cdots, x_k\} \subset U$ there is a finite subset $\{U_{i_j}\}_{j \in J \subset I} $ of pairwise disjoint open subsets such that each point is contained in their union.
@@ -73,7 +73,7 @@ For $X$ a [[topological space]] and $U \subset X$ an [[open subset]], a [[open c
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -81,7 +81,7 @@ Every [[Hausdorff space]] admits a factorizing cover.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Notation
 
 
@@ -113,7 +113,7 @@ $$
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A prefactorization algebra $\mathcal{F} : Fact_X \to End(C)$ is called a **factorization algebra** if for every open subset $U \subset X$ and every [factorizing cover](#FactorizingCover) $\{U_i \to U\}_{i \in I}$ the sequence 
@@ -140,7 +140,7 @@ These definitions appear [here](http://math.northwestern.edu/~costello/factoriza
 
 Let now $(C,\otimes)$ specifically be a [[category of chain complexes]].
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A  [prefactorization algebra]{#PrefactorizationAlgebra} $\mathcal{F} : Fact_X \to End(X)$ is a **homotopy factorization algebra** if for all factorizing covers $\{U_i \to U \subset X\}_{i \in I}$ the canonical morpshim
@@ -156,7 +156,7 @@ is a [[quasi-isomorphism]], where the [[differential]] on the left is defined by
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This is the analogue of a [[descent]] condition for [[simplicial presheaves]].
@@ -193,7 +193,7 @@ A definition formulated genuinely in  [[Higher Algebra]] appears in section 4.1 
 
 This discusses how locally constant factorization algebras obtained from [[En-algebras]] induce [[extended quantum field theory|extended]] [[FQFTs]].
 
-A fairly comprehensive account of factorization algebras as a formalization of of [[perturbation theory|perturbative]] [[quantum field theory]] is in 
+A fairly comprehensive account of factorization algebras as a formalization of [[perturbation theory|perturbative]] [[quantum field theory]] (see at _[[factorization algebra of observables]]_) is in 
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
 
