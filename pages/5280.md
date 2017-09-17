@@ -7,7 +7,7 @@ We prove that the Cantor-Schroeder-Bernstein theorem holds in a [[Boolean topos]
 Throughout we use ordinary set-theoretic reasoning which can be translated into the formal theory of toposes. 
 
 +-- {: .un_lem}
-###### Lemma (Tarski fixed-point theorem) 
+###### Lemma (Knaster-Tarski fixed-point theorem) 
 Let $f: P X \to P X$ be an order-preserving map. Then there exists $S$ in $P X$ for which $f(S) = S$. 
 =-- 
 
@@ -29,7 +29,7 @@ is order-preserving, and so has a fixed point $S$ by the lemma. Now define
 $h: X \to Y$ by the rule 
 
 $$h(x) = 
-\left{ \array{
+\{ \array{
 f(x) & if x \in S \\
 g^{-1}(x) & if x \notin S
 }$$ 
