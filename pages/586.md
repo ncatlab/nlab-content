@@ -154,6 +154,8 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 
 * [[finite category]], [[finite limit]]
 
+* [[finite homotopy type]], [[finite spectrum]]
+
 * [[finite (infinity,1)-category]], [[finite (infinity,1)-limit]]
 
 ## References
