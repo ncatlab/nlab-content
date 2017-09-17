@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-The [[conjecture|conjectural]] _geometric Langlands correspondence_ is meant to be an analog of the [[number theory|number theoretic]] [[Langlands correspondence]] under the [[function field analogy]], hence with [[number fields]] replaced by [[function fields]] and further replaced by [[rational functions]] on [[complex curves]].  The key to this analogy is the expression of the [[moduli stack of G-principal bundles]] over an [[algebraic curve]] as a double [[coset space|coset]] of various function rings (as discussed at _[Moduli of bundles over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_) of just the kind as they appear in the number-theoretic Langlands program.
+The [[conjecture|conjectural]] _geometric Langlands correspondence_ is meant to be an analog of the [[number theory|number theoretic]] [[Langlands correspondence]] under the [[function field analogy]], hence with [[number fields]] replaced by [[function fields]] and further replaced by [[rational functions]] on [[complex curves]].  The key to this analogy is the [[Weil uniformizatin theorem]] which expresses the [[moduli stack of G-principal bundles]] over an [[algebraic curve]] as a double [[coset space|coset]] of various function rings (as discussed at _[Moduli of bundles over curves](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence)_) of just the kind as they appear in the number-theoretic [[Langlands correspondence]] (for instance in the [[Artin reciprocity law]] and in the definition of [[automorphic representations]]).
 
 The conjectured statement asserts roughly that for $G$ a [[reductive group]] and for $\Sigma$ an [[algebraic curve]], then there is an [[equivalence of categories|equivalence]] of [[derived categories]] of, on the one hand, [[D-modules]] on the [[moduli stack of G-principal bundles]] on $\Sigma$, and, on the other hand, [[quasi-coherent sheaves]] on the [[moduli stack]] of ${}^L G$-[[local systems]] on $\Sigma$:
 
@@ -75,6 +75,8 @@ See also at _[KK-compactification -- Formalization](http://ncatlab.org/nlab/show
 In some cases the passage between a Lie group and its [[Langlands dual group]] can be understood as a special case of [[T-duality]]. ([Daenzer-vanErp](#DaenzerErp))
 
 ## Related concepts
+
+* [[geometric class field theory]]
 
 * [[Hitchin fibration]]
 
@@ -165,6 +167,7 @@ See also
 * [[Edward Frenkel]], a Bourbaki exposition, [pdf](http://math.berkeley.edu/~frenkel/BOOK/bourbaki.pdf)
 
 * [[Edward Frenkel]], _Langlands duality for representations of quantum groups_, [arxiv/0809.4453](http://arxiv.org/abs/0809.4453)
+
 
 
 
