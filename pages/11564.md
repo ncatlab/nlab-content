@@ -590,7 +590,7 @@ $$
   \Omega^{\bullet \geq n} \;\colon\;  X\mapsto (\cdots \to 0 \to 0 \to \Omega^n(X) \stackrel{\mathbf{d}}{\to} \Omega^{n+1}(X)\stackrel{\mathbf{d}}{\to} \cdots)
 $$
 
-with $\Omega^n(X)$ in degree $n$.
+with $\Omega^n(X)$ in degree $n$ (the $p$th stage in the [[Hodge filtration]]).
 
 =--
 
