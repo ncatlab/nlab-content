@@ -85,7 +85,7 @@ $$
 and for $x,y \in Obj(X)$ the [[hom set]] is 
 
 $$
-  Ho(X)(x,y) := \pi_0 \{x\} \times_{X_0} X_1 \times_{X_0} \{y\}
+  Ho(X)(x,y) := \pi_0 \Big(\{x\} \times_{X_0} X_1 \times_{X_0} \{y\}\Big)
   \,.
 $$
 
