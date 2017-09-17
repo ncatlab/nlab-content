@@ -52,6 +52,7 @@ The category of [[Alexandroff locales]] is equivalent to that of [[completely di
 
 This appears as ([Caramello, remark 4.3](#Caramello)).
 
+The [[completely distributive lattice|completely distributive]] algebraic lattices form a [[reflective subcategory]] of that of all distributive lattices. The reflector is called _[[canonical extension]]_.
 
 
 ## References
