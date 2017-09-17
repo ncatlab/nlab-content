@@ -23,7 +23,7 @@
 
 ## Idea
 
-A _fibration sequence_ is a "long left-[[exact sequence]]" in an [[(∞,1)-category]].
+A _homotopy fiber sequence_ is a "long left-[[exact sequence]]" in an [[(∞,1)-category]]. (The dual concept is that of _[[cofiber sequence]]_.)
 
 Traditionally fiber sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself. In these cases they are obtained in terms of [[homotopy pullbacks]]. Since, as discussed there, the homotopy fiber of a morphism may be computed as the ordinary 1-categorical [[fiber]] of any [[fibration]] [[resolution]] of this morphism, one often also speaks of _fibration sequences_.
 
@@ -781,18 +781,13 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 [[!redirects fibration sequence]]
 [[!redirects fibration sequences]]
-[[!redirects cofibration sequence]]
+
 [[!redirects homotopy fiber]]
 [[!redirects homotopy kernel]]
-[[!redirects homotopy cofiber]]
-[[!redirects cofibration sequences]]
 [[!redirects homotopy fibers]]
-[[!redirects homotopy cofibers]]
 
 [[!redirects fiber sequences]]
 
-[[!redirects homotopy cofiber sequence]]
-[[!redirects homotopy cofiber sequences]]
 
 
 [[!redirects homotopy exact sequence]]
