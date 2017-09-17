@@ -791,9 +791,12 @@ groupe de Lie_ , Colloque de topologie (espaces fibrs), Bruxelles, (1950), pp. 1
 
 This also explains the use of the Weil algebra in the calculation of the [[equivariant cohomology|equivariant]] [[de Rham cohomology]] of manifolds acted on by a compact group. These papers are reprinted, explained and put in a modern context in the book
 
-A textbook account of standard material is in chapter VI, vol III of 
+A clasical textbook account of standard material is in chapter VI, vol III of 
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+ {#GHV}
+
+Some remarks on the notation there as compared to ours: our $d_W$ is their $\delta_W$ on p. 226 (vol III). Their $\delta_E$ is our $d_{CE}$. Their $\delta_\theta$ is our $d_\rho$ ($\theta$/$\rho$ denoting the representation)..
 
 Some related material is also in
 
