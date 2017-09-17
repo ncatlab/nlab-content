@@ -7,6 +7,17 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 $V \displaystyle\hat{\otimes} W$ vs $V {\displaystyle\hat{\otimes}} W$
 
+see also the interesting footnote below[^footnotelable]
+
+bla bla bla bla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla 
+
+
+[^footnotelable]: This footnote is not actually interesting.
+
+
+blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla
+
+
 ***
 
 
