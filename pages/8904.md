@@ -73,3 +73,8 @@ For more references see those at _[[semi-simplicial set]]_ and _[[semi-Segal spa
 [[!redirects semisimplicial object]]
 [[!redirects semi-simplicial objects]]
 [[!redirects semisimplicial objects]]
+
+[[!redirects semi-simplicial type]]
+[[!redirects semisimplicial type]]
+[[!redirects semi-simplicial types]]
+[[!redirects semisimplicial types]]
