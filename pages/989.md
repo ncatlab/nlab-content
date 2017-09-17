@@ -3,7 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition
+## Definitions
 
 An **associative unital algebra** over a given [[field]] (or even commutative [[ring]]) $k$ can be defined as (equivalently)
 
@@ -23,13 +23,14 @@ More generally, a (merely) **associative algebra** need not have $i: k \to V$; t
 
 Less generally, a **[[commutative algebra]]** (where associative and unital are usually assumed) is an [[abelian monoid]] in $Vect$.
 
+
 ## Variants
 
 * A [[cosimplicial algebra]] is a [[cosimplicial object]] in the category of algebras.
 
 * A [[dg-algebra]] is a [[monoid]] not in [[Vect]] but in the category of (co)[[chain complex]]es.
 
-* A [[smooth algebra]] is an associative $\mathbb{R}$-algebra that has not only the usual binary product induced from the product $\mathb{R}\times \mathbb{R} \to \mathbb{R}$, but has a $n$-ary product operation for every [[smooth function]] $\mathbb{R}^n \to \mathbb{R}$.
+* A [[smooth algebra]] is an associative $\mathbb{R}$-algebra that has not only the usual binary product induced from the product $\mathbb{R}\times \mathbb{R} \to \mathbb{R}$, but has a $n$-ary product operation for every [[smooth function]] $\mathbb{R}^n \to \mathbb{R}$.
 
   This may be understood as a special case of an [[algebra over a Lawvere theory]], here the [[Lawvere theory]] [[CartSp]].
 
@@ -41,6 +42,8 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 [[!redirects associative unital algebra]]
 [[!redirects associative unital algebras]]
+[[!redirects unital associative algebra]]
+[[!redirects unital associative algebras]]
 [[!redirects associative algebra]]
 [[!redirects associative algebras]]
 [[!redirects unital algebra]]
