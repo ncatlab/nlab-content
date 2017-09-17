@@ -21,4 +21,9 @@ In order to follow the proof explicitly in [[Coq]]-itself, download the accompan
 
 and feed them into your [[Coq]]. See the README file there for further hints.
 
+A rephrasing of the Coq-proofs given there in terms of ordinary language is given in
+
+* Carlo Angiuli, _Univalence implies function extensionality_ ([pdf](http://hottheory.files.wordpress.com/2011/12/hott.pdf))
+
+
 category: reference
