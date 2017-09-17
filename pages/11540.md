@@ -1,0 +1,72 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+#### Category Theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a [[small category]] $C$, one can consider the [[category of presheaves]] $PSh(C, D)$ valued in some [[category]] $D$.  Given some assumptions on $D$, any [[functor]] of small categories $F : C \to C'$ induces two [[adjunction|adjoint pairs]]
+
+  $$ F_! : PSh(C, D) \rightleftarrows PSh(C', D) : F^* $$
+
+  $$ F^* : PSh(C', D) \rightleftarrows PSh(C, D) : F_* $$
+
+## Definitions
+
++-- {: .num_defn}
+###### Definition
+
+Let $F : C \to C'$ be a functor of small categories and $D$ some category.  The **[[restriction of scalars]]** functor $F^* : PSh(C', D) \to PSh(C, D)$ is given by the formula $H \mapsto H \circ f$, i.e. mapping a [[presheaf]] $H : C'^{op} \to D$ to the composite
+  $$C^{op} \stackrel{F}{\to} C'^{op} \stackrel{H}{\to} D.$$
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Suppose $D$ admits small [[colimits]] (resp. small [[limits]]).  Then the functor $F^*$ admits a [[left adjoint]] $F_!$ (resp. [[right adjoint]] $F_*$).
+=--
+
+
+## Properties
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $F : C \rightleftarrows C' : G$ be an [[adjoint pair]] and consider the induced functors $(F_!, F^*, F_*)$ and $(G_!, G^*, G_*)$.  One has
+
+* $F_!$ is left adjoint to $G_!$,
+* $F^*$ is left adjoint to $G^*$,
+* $F_*$ is left adjoint to $G_*$,
+* $F_! = G^*$,
+* $F^* = G_*$.
+=--
+
+Note that all these claims are in fact equivalent.
+
+## See also
+
+For functoriality of [[sheaves]], see
+
+* [[restriction and extension of sheaves]]
+* [[direct image]]
+* [[inverse image]]
+
+## References
+
+* [[SGA 4]], Exp. I, no. 5.
+* [[Stacks Project]], tags [00VC](http://stacks.math.columbia.edu/tag/00VC) and [00XF](http://stacks.math.columbia.edu/tag/00XF).
