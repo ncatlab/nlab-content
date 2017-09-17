@@ -28,6 +28,8 @@ A _nodal_  [[singular point of an algebraic variety|singularity]] of an [[algebr
 
 For nodal [[cubic curve]] (over some base) is (see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_ for notation and background) the solution to the [[Weierstrass equation]] for which the [[discriminant]] vanishes, but the modular invariant $c_4$ does not.
 
+Notice that this means equivalently that this is the limit in which the [[j-invariant]] $j = \frac{c_4^3}{\Delta}$ goes to $\infty$.
+
 ## Properties of the nodal cubic
 
 
