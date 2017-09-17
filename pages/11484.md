@@ -1,0 +1,13 @@
+
+## Idea
+
+An [[algebraic curve]] with a cirtain [[singular point of an algebraic variety]].
+
+For [[elliptic curves]] see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_
+
+## Related concepts
+
+* [[cusp]]
+
+[[!redirects nodal curves]]
+
