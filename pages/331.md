@@ -24,9 +24,15 @@
 
 ## Idea
 
-As a discipline, __logic__ is the study of methods of reasoning.  While in the past (and often today in philosophical circles), this discipline was prescriptive (describing how one *should* reason), it is increasingly (and usually in mathematical circles) descriptive (describing how one *does* reason).
+Traditionally, as a discipline, __logic__ is the study of correct methods of reasoning.  Logicians principally studied [[deduction]], the process of passing from premises to conclusion in such a way that the truth of the former necessitates the truth of the latter. In other words, deductive logic studies what it is for an argument to be _valid_. A second branch of logic studies [[inductive reasoning|induction]], reasoning about the plausibility of general propositions from observations of their instances. This has often been done in terms of a _Bayesian_, or probabilistic, calculus.
 
-As a (potentially) mathematical object, a __logic__ is a specific method of reasoning.  There are several ways to formalise this which for the moment we will not to get into, but maybe later.
+Some philosophers, notably [[Charles Peirce]], considered there to be third variety of reasoning for logic to study, namely, [[abduction]]. This is a process whereby one reasons to the truth of an explanation from its ability to account for what is observed. It is therefore sometimes also known as _inference to the best explanation_.
+
+Deductive logic is the best developed of the branches. For centuries, treatments of the [[syllogism]] were at the forefront of the discipline. In the nineteenth century, however, spurred largely by the needs of mathematics, in particular the need to handle [[quantifiers]], a new logic emerged, known today as [[predicate logic]]. 
+
+While in the past (and often today in philosophical circles), this discipline was prescriptive (describing how one *should* reason), it is increasingly (and usually in mathematical circles) descriptive (describing how one *does* reason).
+
+
 
 
 ## Category-theoretic logic
@@ -116,7 +122,7 @@ See also:
 * [[Bart Jacobs]] (1999), _Categorical Logic and Type Theory_, Elsevier.
   
 
-Historically, 'logic' was understood in a broader sense:
+Historically, in some philsoophical circles 'logic' was understood in a broader sense:
 
 * [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
 
