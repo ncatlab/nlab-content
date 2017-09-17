@@ -8,4 +8,8 @@
 
 * Olivia Caramello, _Topological Galois theories_, [Archive 1301.0300v1](http://fr.arxiv.org/pdf/1301.0300v1)
 
+The first chapter of her forthcoming book `Lattices of theories'.
+
+* Olivia Caramello, _Topos theoretic background_, [PDF](http://www.oliviacaramello.it/Unification/ToposTheoreticPreliminariesOliviaCaramello.pdf)
+
 category: people
