@@ -41,6 +41,8 @@ One could consider semi-strict versions as well, in which (for example) the tigh
 
 * Any [[proarrow equipment]] is an $\mathcal{F}$-category (perhaps weak, perhaps semi-strict).
 
+* An example of a semi-strict $\mathcal{F}$-category is the [[localization]] 2-functor $Cat(S) \to Cat(S)[W^{-1}]$ for a class of [[weak equivalences]] $W$.
+
 * For any ([[strict 2-monad|strict]]) [[2-monad]] $T$, there are strict $\mathcal{F}$-categories of $T$-algebras whose tight and loose morphisms are, respectively:
 
   1. strict and pseudo $T$-morphisms
