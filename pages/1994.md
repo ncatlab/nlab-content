@@ -54,6 +54,13 @@ If to the above definition added the property that the SE-NW sequence $Y_1\to P\
 
 +-- {: .query}
 Alex asks: Is there any relation between a [[profunctor]] and a Crossed Profunctor? Just as one could look at a [[crossed module]] as a [[module]] with "twisted multiplication" (according to the crossed module page), is there some analogous "twisting" of a profunctor to obtain a crossed profunctor?
+
+Beppe says: no. Actually the name "crossed profunctor" was not a happy choice. 
+A crossed profunctor is just the normalized version  of a profunctor, as a
+crossed module is the normalization of a groupoid. This extends to a strong biequivalence between the bicategory of crossed modules, crossed profunctors and their morphisms (in Grp) and that of crossed modules, profunctors and their morphisms. 
+
+This result holds also in intrinsic settings, say when we consider internal categories in a semi-abelian category.
+
 =--
 
 ## References
