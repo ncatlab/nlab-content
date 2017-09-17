@@ -211,6 +211,9 @@ s
   (on [[cohesive topos]]es)
 
 
+* _Open problems in topos theory_, April 2009 ([pdf](http://cheng.staff.shef.ac.uk/pssl88/lawvere.pdf))
+
+  (problem 7 presented there "The algebra of time", concerns the characterization of _[[Toposes of laws of motion]]_)
 
 category: people
 
