@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
-
+=--
+=--
+=--
 
 A **sequential (co)limit** is a [[limit]]/[[colimit]] whose [[diagram]] category is an [[ordinal]] (regarded as a [[poset]], regarded as a [[category]]).  Sometimes the term is used even more specifically for a (co)limit over the ordinal $\omega$.
 
