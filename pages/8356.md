@@ -18,7 +18,7 @@
 
 The _Brouwer-Heyting-Kolmogorov_ interpretation of [[intuitionistic logic]] is a description of [[proofs]] of [[propositions]] in [[intuitionistic logic]] as [[functions]], often [[computable functions]], where it is also called the _realizability interpretation_. 
 
-This is otherwise known as _[[propositions as types]]_ and _[[proofs as programs]]_
+This is otherwise known as the paradigm of _[[propositions as types]]_ and _[[proofs as programs]]_. See there for more
 
 ## Related concepts
 
@@ -30,9 +30,10 @@ This is otherwise known as _[[propositions as types]]_ and _[[proofs as programs
 
 * Wikipedia, _[BHK interpretation](http://en.wikipedia.org/wiki/BHK_interpretation)_
 
-* J.-Y. Girard, _Proofs and Types_ 
+* [[Jean-Yves Girard]], _Proofs and Types_ 
 
-* A. Troelstra, _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
+* [[Anne Sjerp Troelstra]], _History of Constructivism in the Twentieth Century_ (1991). ([pdf](http://staff.science.uva.nl/~anne/hhhist.pdf)) 
+ {#Troelstra91}
 
 * Wouter Pieter Stekelenburg, _Realizability Categories_ ([arXiv:1301.2134](http://arxiv.org/abs/1301.2134))
 
