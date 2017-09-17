@@ -3,4 +3,4 @@ __Otto Schreier__ (1901--1929) was a German algebraist born in Vienna famous for
 
 See biographical and some mathematical data at [the MacTutor biography](http://www-history.mcs.st-and.ac.uk/history/Biographies/Schreier.html). For more on the mathematical side see 
 
-* W. Magnus, The history of combinatorial group theory: a case study in the history of ideas
+* [[W. Magnus]], The history of combinatorial group theory: a case study in the history of ideas
