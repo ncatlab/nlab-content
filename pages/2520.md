@@ -1,21 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Variational calculus
-+--{: .hide}
++-- {: .hide}
 [[!include variational calculus - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -186,8 +186,11 @@ and discussed further in
 A comprehensive discussion in a general context of higher differential geometry is in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
- 
+
+
+[[!redirects action functional]]
 [[!redirects action functionals]]
+[[!redirects action functinal]]
 
 [[!redirects local action functional]]
 [[!redirects local action functionals]]
