@@ -5,7 +5,7 @@
 
 ## Idea
 
-The flavor of _[[modal logic]]_ called $T$ is [[propositional logic]] equipped with a single [[modality]] usually written "$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
+The flavor of _[[modal logic]]_ called $T$ is [[propositional logic]] equipped with a single [[modality]] usually written ''$\Box$" subject to the rules that for all [[propositions]] $p, q \colon Prop$ we have
 
 1. $\Box K \colon \Box(p \to q) \to (\Box p \to \Box q)$ ([[K modal logic]])
 
@@ -14,6 +14,8 @@ The flavor of _[[modal logic]]_ called $T$ is [[propositional logic]] equipped w
 Often one considers adding one more axiom:
 
 * $\Box 4 \colon \Box p \to \Box \Box p$. ([[S4 modal logic]]).
+
+In some applications especially in Artificial Intelligence,  $\Box p$ is interpreted as representing a statement that some (fixed) 'agent' knows the proposition $p$. It is then a short step to handling the idea of knowledge in a [[knowledge in a multiagent system|multiagent system]] where there may be $m$ different 'agents'.  In that setting, $\Box_i p$ interprets as 'agent $i$ knows that $p$'.  This leads to modelling of the passage of the interchange of information between neighbours, e.g. we might have three agents and the proposition that 'agent 2 knows that agent 3 does not know $p$'. 
 
 
 The [[the logic K(m)|basic epistemic logics]], $K$ and $K_{(m)}$, do not reflect much of our intuition of 'knowledge'.  The $K$-axiom merely says that, if an agent knows $\phi$ and also that agent knows $\phi\to \psi$, then the agent knows $\psi$.  There are a series of additional axioms proposed as being appropriate for knowledge, (although, it seems, each has their supporters and detractors!)  These are called $T$, $(4)$, and $B$ (and please don't ask why, ... each has its own history).
