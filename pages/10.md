@@ -101,7 +101,7 @@ if spelled out explicitly, to the fact that [[geometric morphism]]
 $f : \mathcal{E} \to \mathcal{F}$ of toposes can be identified with certain
 morphism of [[site]]s $C_{\mathcal{E}}$, $C_{\mathcal{F}}$  for these toposes, going the other way round, $C_\mathcal{E} \leftarrow C_{\mathcal{F}}$, and having certain properties. If here $C_\mathcal{F}$ is the [[syntactic site]] of some [[theory]] $\mathbb{T}$ and we choose $C_{\mathcal{E}}$ to be the [[canonical site]] of $\mathcal{E}$ (itself equipped with the [[canonical coverage]]) this makes manifest why the geoetric morphisms in $\mathcal{F}$ correspond to [[model]]s of $\mathcal{T}$ in $\mathcal{E}$. 
 
-We now say this in precise manner. In the following a _[[cartesian site]]_ means a [[site]] whose underlying category is a [[cartesian category]] (has all [[finite limit]]s).
+We now say this in precise manner. In the following a _[[cartesian site]]_ means a [[site]] whose underlying category is [[finitely complete category|finitely complete]].
 
 +-- {: .num_prop }
 ###### Proposition
