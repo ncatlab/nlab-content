@@ -29,7 +29,9 @@ Recall that $f$ is __[[continuous map]]__ if the [[preimage]] of every [[open su
 
 ### For morphisms between locales
 
-A continuous map $f\colon X \to Y$ of topological spaces defines a homomorphism $f^*\colon Op(Y) \to Op(X)$ between the [[frames]] of open sets of $X$ and $Y$.  If $f$ is open, then this frame homomorphism is also a [[Heyting algebra]] homomorphism; the converse holds for [[sober spaces]] (maybe as long as $Y$ is $T_0$?).  Accordingly, we define a map $f\colon X \to Y$ of [[locales]] to be __open__ if it is, as a frame homomorphism $f^*\colon Op(Y) \to Op(X)$, a Heyting algebra homomorphism.
+A continuous map $f\colon X \to Y$ of topological spaces defines a homomorphism $f^*\colon Op(Y) \to Op(X)$ between the [[frames]] of open sets of $X$ and $Y$.  If $f$ is open, then this frame homomorphism is also a [[complete lattice|complete]] [[Heyting algebra]] homomorphism; the converse holds for [[sober spaces]] (maybe as long as $Y$ is $T_0$?).  Accordingly, we define a map $f\colon X \to Y$ of [[locales]] to be __open__ if it is, as a frame homomorphism $f^*\colon Op(Y) \to Op(X)$, a complete Heyting algebra homomorphism, i.e. it preserves arbitrary [[meets]] and the Heyting implication.
+
+This is equivalent to saying that $f^*\colon Op(Y) \to Op(X)$ has a left adjoint $f_!$ (by the [[adjoint functor theorem]] for posets) which satisfies the [[Frobenius reciprocity]] condition that $f_!(U \cap f^* V) = f_!(U) \cap V$.
 
 
 ### For geometric morphisms of toposes
