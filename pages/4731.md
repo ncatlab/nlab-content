@@ -210,7 +210,8 @@ Nonabelian 2-connections appear for instance as [[orientifold]] [[B-fields]] in 
 
 An appearance in 4-dimensional [[Yang-Mills theory]] and [[4d TQFT]] is reported in 
 
-* [[Sergei Gukov]], [[Anton Kapustin]], _Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
+* [[Sergei Gukov]], [[Anton Kapustin]], _[[Topological Quantum Field Theory, Nonlocal Operators, and Gapped Phases of Gauge Theories]]_ ([arXiv:1307.4793](http://arxiv.org/abs/1307.4793))
+ {#GukovKapustin13}
 
 
 [[!redirects connections on a 2-bundle]]
