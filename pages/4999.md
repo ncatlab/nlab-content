@@ -1,3 +1,4 @@
+[[!redirects modal logics]]
 
 
 
@@ -18,13 +19,13 @@ It is usual to classify them using their axiom systems, but also in terms of the
 
 (this list may get added to later).
 
-Modal logics have semantics given in terms of [[Kripke frames]], which are simply [[relational structures]]. For instance, [[temporal logics]] have [[posets]] as models.
+Modal logics have semantics given in terms of [[frame (modal logic)|Kripke frames]], which are simply [[relational structures]]. For instance, [[temporal logics]] have [[posets]] as models.
 
 The modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ in to the usual propositional logics. (For the moment, these will be unary operators and we will not be considering operators that have more than one input. The general case is discussed in the books on modal logic listed below.)
 
 ## Multimodal Logics## 
 
-We will give a modal language with $n$ modal operators, $\Diamond_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions.  If $n=1$, we will refer to the language, defined below,  as the _basic modal langugae_.
+We will give a modal language with $n$ modal operators, $\Diamond_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions.  If $n=1$, we will refer to the language, defined below,  as the _basic modal language_.
 
 +--{: .un_defn}
 ######Definition ######
@@ -48,7 +49,7 @@ where the $p_\lambda$ are the propositional variables ordered by finite ordinals
 
    * a formula prefixed by one of the diamonds / modal operators.
 
-
+1. The basic modal language will be $\mathcal{L}_\omega(1)$.  We will sometimes write $Prop$ for the set of propositional variables / atomic formulae or whatever other reasonable term is used in a context.
 
 1. The interpretation of $\Diamond \phi$ depends on the context (to some extent), but in the initial form here it is usually said to mean 'possibly $\phi$'.
 
@@ -80,7 +81,7 @@ if $\psi \to \chi \in \Lambda$ then $\Diamond_i \psi \to \Diamond_i \chi \in \La
  
 =--
 ## Semantics## 
-The usual semantics of modal languages is in terms of [[frames (Kripke)]]. (These are quite often called 'Kripke frames' as Kripke was one of the first to use relational semantics in this context. A discussion of the history can be found in  the book by Blackburn, de Rijke and Vedema, (see below) page 42.) As there is another sense to [[frame]] as the dual of a [[locale]], we probably need to think of the terminology here.) A more detailed discussion of [[frames (Kripke)]] is to be found at that entry. 
+The usual semantics of modal languages is in terms of [[frame (modal logic)|frames]]. (These are quite often called 'Kripke frames' as Kripke was one of the first to use relational semantics in this context. A discussion of the history can be found in  the book by Blackburn, de Rijke and Vedema, (see below) page 42.) (As there is another sense to [[frame]] as the dual of a [[locale]], we need to consider the terminology here and where necessary will use [[frame (modal logic)]] as the entry name.) A more detailed discussion of [[frame (modal logic)|frames]] is to be found at that entry. 
 
 
 ## References## 
