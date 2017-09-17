@@ -4249,7 +4249,7 @@ This is indeed one of the three incarnations of the string 2-group as a strict 2
 =--
 
 
-##### Second fractional Pontryagin class
+##### Second fractional Pontryagin class {#SmoothSecondPontryagin}
 
 $$
   \array{
@@ -4264,8 +4264,11 @@ $$
 
 (...)
 
-[[fivebrane 6-group]]
+* [[fivebrane Lie 6-algebra]]
 
+* [[fivebrane 6-group]]
+
+* [[Chern-Simons circle 7-bundle]]
 
 
 
