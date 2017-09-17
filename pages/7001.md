@@ -56,6 +56,10 @@ If $\mathcal{E}$ has codiscrete objects and has [[pullbacks]] that are preserved
 
 This is ([Shulman, theorem 2](#Shulman)).
 
+## Related concepts
+
+[[!include cohesion - table]]
+
 
 ## References
 
