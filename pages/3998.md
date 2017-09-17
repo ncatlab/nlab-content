@@ -25,7 +25,7 @@ f_7(\theta_1,\theta_2,\theta_3,\dots) &= \sum_{\text{odd}\;n \ge 7} (-1)^{(n-7)/
 \end{aligned}
 $$
 
-etc.  In each case we could have said $\text{even}\;n \ge 0$ or $\text{odd}\;n \ge 0$, since the coefficients kill off the terms in which $n$ is smaller than the index (indeed, the coefficients are the unique simplest expressions that do that).
+etc.  In each case we could have said $\text{even}\;n \ge 0$ or $\text{odd}\;n \ge 0$, since the coefficients kill off the terms in which $n$ is smaller than the index---the coefficients are the unique simplest expressions that do that.
 
 * Each of these symmetric function of $(\theta_1,\theta_2,\theta_3,\dots)$.
 
