@@ -60,6 +60,13 @@ Weak $C^\ast$-Hopf algebras and their [[C-star categories]] of [[representations
 [[!redirects Hopf C-star algebra]]
 [[!redirects Hopf C-star algebras]]
 
+[[!redirects Hopf-C*-algebra]]
+[[!redirects Hopf-C*-algebras]]
+
+[[!redirects Hopf-C-star algebra]]
+[[!redirects Hopf-C-star algebras]]
+
+
 [[!redirects C-star Hopf algebra]]
 [[!redirects C-star Hopf algebras]]
 [[!redirects C* Hopf algebra]]
