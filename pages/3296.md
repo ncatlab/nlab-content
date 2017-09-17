@@ -102,6 +102,10 @@ Notable families of examples include:
 
 The [[Chern character]] is a natural characteristic class with values in real cohomology. See there for more details.
 
+### Of subspaces
+
+* [[Maslov index]]
+
 ### Classes in the sense of Fuks
 
 In ([Fuks (1987), section 7](#Fuks)) an axiomatization of characteristic classes is proposed. We review the definition and discuss how it is a special case of the one given above.
