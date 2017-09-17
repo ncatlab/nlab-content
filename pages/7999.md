@@ -1,0 +1,35 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The refinement of the notion of [[fiber integration]] in [[generalized (Eilenberg-Steenrod) cohomology]] to [[differential cohomology]].
+
+## Examples
+
+* [[fiber integration in ordinary differential cohomology]]
+
+* [[fiber integration in differential K-theory]]
+
+## Related concepts
+
+* [[higher holonomy]]
+
+## References
+
+Section 4.10 in 
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+
