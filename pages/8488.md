@@ -19,7 +19,7 @@
 For $\omega \in \Omega^{n+1}(X)$ an [[n-plectic geometry]], and for $v \in \Gamma(X)$ a [[vector field]], a **Hamiltonian form** for $v$ is, if it exists, a [[differential form]] $h \in \Omega^n(X)$ such that 
 
 $$
-  \iota_{v} \omega = d h
+  \iota_{v} \omega = \mathbf{d} h
   \,.
 $$
 
@@ -31,8 +31,13 @@ The Hamiltonian forms are the local [[classical observables]]/[[prequantum obser
 
 ## Related concepts
 
+* [[Hamiltonian n-vector field]]
+
 [[!include geometric quantization extensions - table]]
 
 
 [[!redirects Hamiltonian forms]]
 
+
+[[!redirects Hamiltonian n-form]]
+[[!redirects Hamiltonian n-forms]]
