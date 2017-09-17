@@ -25,6 +25,10 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[scales]
 
 * [[cosmic inflation]]
 
+* [[cosmic microwave background radiation]]
+
+* [[quantum cosmology]], [[quantum gravity]]
+
 ## References
 
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
