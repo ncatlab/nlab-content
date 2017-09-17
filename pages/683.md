@@ -54,7 +54,7 @@ One of the central theorems of the subject is that in good cases, the two give e
 
 Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) [[diagram]] category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
 
-The ordinary [[limit]] and [[colimit]] operations over $D$-diagrams are (as described there) the right and left [[adjoint functor|adjoints]] of the functor $const : C \to [D,C]$, or equivalently left and right [[Kan extension]] along the unique functor $!\colon C\to *$ to the terminal category.
+The ordinary [[limit]] and [[colimit]] operations on $D$-diagrams are (as described there) the right and left [[adjoint functor|adjoints]] of the functor $const : C \to [D,C]$, or equivalently left and right [[Kan extension]] along the unique functor $!\colon C\to *$ to the terminal category.
 
 $$
   [D,C]
@@ -119,9 +119,9 @@ by precomposition with a cofibrant replacement functor (for the colimit) and a f
 
 ### Local definition 
 
-The local definition requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram. 
+The local definition requires making precise the notion of a _[[homotopy]] commutative cone_ on a diagram. 
 
-For the case of [[SimpSet]]-[[enriched category|enrichment]] one elegant way to do so is in terms of suitable [[weighted limit]]s as described in the example section at [[weighted limit]]: a homotopy commutative cone with tip $c \in C$ over a diagram $F : K \to C$ in an $\Simp\Set$-enriched category $C$ is a natural transformation 
+For the case of [[SimpSet]]-[[enriched category|enrichment]] one elegant way to do so is in terms of suitable [[weighted limit]]s as described in the example section at [[weighted limit]]: a homotopy commutative cone with tip $c \in C$ on a diagram $F : K \to C$ in an $\Simp\Set$-enriched category $C$ is a natural transformation 
 $W \Rightarrow C(c,F(-)) : K \to \Simp\Set$ where the _weight_ functor $W$ is not constant on the point, as for ordinary limits, but is given by $W : k \mapsto N(K/k)$.
 
 
@@ -136,7 +136,7 @@ of [[hom-objects]] (spaces or simplicial sets in the classical context; enriched
 
 The global definition is formulated in terms of [[weak equivalence|weak equivalences]] only, while the local definition is formulated in terms of [[homotopy|homotopies]] only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
 
-It then turns out that the "good" (precisely, "fibrant") replacement $R F$ "builds in" precisely the right homotopies so that an ordinary cone over $R F$ is the same as a homotopy-commutative cone over $F$.  Therefore, $lim (R F)$, which is the global homotopy-limit of $F$, is a representing object for homotopy-commutative cones over $F$, and thus is also a local homotopy-limit of $F$.  There is a dual argument for colimits using cofibrant replacements.
+It then turns out that the "good" (precisely, "fibrant") replacement $R F$ "builds in" precisely the right homotopies so that an ordinary cone on $R F$ is the same as a homotopy-commutative cone on $F$.  Therefore, $lim (R F)$, which is the global homotopy-limit of $F$, is a representing object for homotopy-commutative cones on $F$, and thus is also a local homotopy-limit of $F$.  There is a dual argument for colimits using cofibrant replacements.
 
 Formal versions of this argument can be found in many places.  Perhaps the original statement can be found in XI.8.1 of:
 
@@ -174,7 +174,7 @@ Roughly, the idea of a derivator is that while the single [[homotopy category]] 
 
 Above we defined homotopy (co)limits in general. There are various more specific formulas and algorithms for computing homotopy (co)limits. Here we discuss some of these
 
-### Ordinary (co)limits over resolved diagrams
+### Ordinary (co)limits on resolved diagrams
 
 The direct prescription for computing the value of a right or left [[derived functor]] between [[model categories]] is by evaluating the original functor on a fibrant or cofibrant [[resolution]] of the given object.
 
@@ -187,7 +187,7 @@ $$
 
 let for instance 
 
-$Q_{proj} : [D,C] \to [D,C]$ be a cofibrant replacement for the projective [[model structure on functors]], so that for any diagram $F$ the diagram $Q_{proj} F$ is a [[projectively cofibrant diagram]] (see there for more details). Then the homotopy colimit is presented by the ordinary colimit over $Q_{proj} F$:
+$Q_{proj} : [D,C] \to [D,C]$ be a cofibrant replacement for the projective [[model structure on functors]], so that for any diagram $F$ the diagram $Q_{proj} F$ is a [[projectively cofibrant diagram]] (see there for more details). Then the homotopy colimit is presented by the ordinary colimit on $Q_{proj} F$:
 
 $$
   (\mathbb{L}\underset{\to}{\lim}) F \simeq \underset{\to}{\limt} Q_{proj}(F)
@@ -406,7 +406,7 @@ This is disucssed for instance in section 4 of ([Gambino 10](#Gambino10)).
 
 #### Examples
 
-##### Homotopy colimits over simplicial diagrams
+##### Homotopy colimits of simplicial diagrams
 
 Let $D = \Delta^{op}$ be the [[opposite category]] of the [[simplex category]]. 
 
@@ -742,7 +742,7 @@ This example, too, is important at [[geometric function theory]].
   [[span trace]] for more examples of homotopy pullbacks
 
 
-### Homotopy colimits over simplicial diagrams {#OverSimplicialDiagrams}
+### Homotopy colimits of simplicial diagrams {#OverSimplicialDiagrams}
 
 
 +-- {: .num_prop}
@@ -877,7 +877,7 @@ $$
 See ([Dugger, example 18.2](#Dugger)).
 
 
-### Homotopy colimits over diagrams of spaces
+### Homotopy colimits of diagrams of spaces
 
 #### By geometric realization
 
@@ -894,7 +894,7 @@ $$
   sF : [n] \mapsto \coprod_{d_0 \leftarrow d_1 \leftarrow \cdots \leftarrow d_n} F(d_n) 
 $$
 
-and using the obvious face and degeneracy maps: face maps act by mapping components of the [[coproduct]]s over one sequence of morphisms to one obtained by deleting outer arrows or composing inner arrows. If the rightmost arrow is deleted, then the component map is not the identity but is $F(d_n) \to D(d_{n-1})$. The degeneracy maps similarly introduce identity morphisms.
+and using the obvious face and degeneracy maps: face maps act by mapping components of the [[coproduct]]s of one sequence of morphisms to one obtained by deleting outer arrows or composing inner arrows. If the rightmost arrow is deleted, then the component map is not the identity but is $F(d_n) \to D(d_{n-1})$. The degeneracy maps similarly introduce identity morphisms.
 
 =--
 
@@ -958,7 +958,7 @@ the cotower category, a colimit of shape $D$ is called a [[sequential colimit]].
 
 So given a cotower with such a property, its homotopy colimit is just the ordinary sequential colimit in $C$. 
 
-Dually for sequential limits over a tower diagram.
+Dually for sequential limits of a tower diagram.
 
 
 A standard application for this is for instance the construction of the [[classifying space]] 
