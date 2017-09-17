@@ -1,12 +1,12 @@
 ## Definition
 
-Given a well-generated tensor triangulated category $(T,\otimes, 1)$, let the Bousfield class of an object $X$, denoted $\langle X\rangle$, be the class $\{ Y\in obj(T): X\otimes Y=0\}$.  It was proven by Ohkawa that if $T$ is the stable homotopy category, $(\mathcal{S},\wedge,S)$, then the collection of all Bousfield classes is a set of cardinality at most $\beth_2$.  It was proven more generally by Iyengar and Krause that such a collection is always a set and not a proper class when $T$ is well-generated. This set has a partial ordering on it and the structure of a complete lattice. This lattice is called the _Bousfield lattice_ of $T$, denoted $B_T$. 
+Given a well-generated tensor [[triangulated category]] $(T,\otimes, 1)$, let the Bousfield class of an object $X$, denoted $\langle X\rangle$, be the class $\{ Y\in obj(T): X\otimes Y=0\}$.  It was proven by Ohkawa that if $T$ is the [[stable homotopy category]], $(\mathcal{S},\wedge,S)$, then the collection of all Bousfield classes is a set of cardinality at most $\beth_2$.  It was proven more generally by Iyengar and Krause that such a collection is always a set and not a proper class when $T$ is well-generated. This set has a partial ordering on it and the structure of a complete lattice. This lattice is called the _Bousfield lattice_ of $T$, denoted $B_T$. 
 
 Note that, perhaps by some abuse of notation, $B_T\subseteq\mathbf{Loc}(T)$, the collection of localizing subcategories, since every Bousfield class is a localizing subcategory. However, the question of whether or not every localizing subcategory is a Bousfield class is still open in general.
 
 ##The Distributive Lattice of the Bousfield Lattice
 
-Within $B_T$, there is a distributive lattice $DL_T$ that is precisely all _Bousfield idempotent_ objects of $T$.  That is, $DL_T$ is precisely the objects $X$ such that $\langle X\otimes X\rangle=\langle X\rangle$. It is known that this lattice is a coherent frame and that there is a duality of categories between coherent frames and coherent spaces.   
+Within $B_T$, there is a distributive lattice $DL_T$ that is precisely all _Bousfield idempotent_ objects of $T$.  That is, $DL_T$ is precisely the objects $X$ such that $\langle X\otimes X\rangle=\langle X\rangle$. It is known that this lattice is a coherent [[frame]] and that there is a duality of categories between coherent frames and coherent spaces.  For more on this, see [[Stone duality]].
 
 
 
