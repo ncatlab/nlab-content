@@ -32,6 +32,9 @@ Typically the $C^\ast$-algebraic deformation takes the quantum algebra to be a s
 
 * [[geometric quantization of symplectic groupoids]]
 
+[[!include infinitesimal and local - table]]
+
+
 ## References
 
 The general idea is discussed in
