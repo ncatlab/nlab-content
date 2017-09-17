@@ -1,6 +1,23 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
+
+* [[category]]
+
+* [[bicategory]]
+
+* **tricategory**
+
+* [[tetracategory]]
+
+***
 
 #Contents#
 * automatic table of contents goes here
