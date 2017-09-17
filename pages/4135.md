@@ -127,3 +127,7 @@ Some useful basic formulas are listed in
 [[!redirects Hodge star operators]]
 
 [[!redirects Hodge inner product]]
+
+[[!redirects Hodge dual]]
+[[!redirects Hodge duals]]
+
