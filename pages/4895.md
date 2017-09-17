@@ -25,6 +25,6 @@
 
 ### In $d = 3$
 
-3-dimensional [[Chern-Simons theory]] in the context of holograophy is discussed for instance in
+3-dimensional [[Chern-Simons theory]] in the context of holography is discussed for instance in
 
 * Victor O. Rivelles, _Holographic Principle and AdS/CFT Correspondence_ ([arXiv](http://arxiv.org/abs/hep-th/9912139))
