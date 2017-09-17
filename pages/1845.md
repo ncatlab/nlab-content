@@ -11,7 +11,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -154,6 +154,10 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. (See
 * [[topological K-theory]]
 
 * [[algebraic K-theory]]
+
+  * [[K-theory of a permutative category]]
+
+  * [[K-theory of a bipermutative category]]
 
 * [[Karoubi K-theory]]
 
