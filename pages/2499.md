@@ -491,7 +491,7 @@ $$
   \,.
 $$
 
-This is the _rheonomy constraint_ . (Or -- more generally -- the constraint called such is the condition that $(F_A)_\theta$ is an algebraic expression in the $(F_A)|_{T U}$, see around (III.3.30)).
+This is the _rheonomy constraint_ (if generalized to equality _on shell_  , see around (III.3.30)).
 
 
 ## Dynamics
