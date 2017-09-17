@@ -25,6 +25,23 @@ $$
   \,.
 $$
 
+## Properties
+
+### Homotopy groups
+
+The first [[homotopy group]] of the symplectic group is the [[integers]]
+
+$$
+  \pi_1(Sp(n)) \simeq \mathbb{Z}
+  \,.
+$$
+
+The unique connected [[double cover]] obtained from this is the [[metaplectic group]] [[group extension|extension]] $Mp(n) \to Sp(n)$.
+
+## Related concepts
+
+* [[metaplectic group]]
+
 
 ## References
 	
