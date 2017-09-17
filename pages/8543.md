@@ -108,7 +108,7 @@ For $A\in \mathfrak{S}$ we call $P(A|\mathfrak{S}):=E[1_A|\mathfrak{S}]$ the *co
 
 ## Conditional distribution, Conditional density
 
-## Integral kernel, Stochastik kernel
+## Integral kernel, Stochastic kernel
 
 In probability theory and statistics, a stochastic kernel is the transition function of a stochastic process. In a discrete time process with continuous probability distributions, it is the same thing as the kernel of the integral operator that advances the probability density function.
 
