@@ -51,6 +51,11 @@ $
 
 [[diagram2.jpg:pic]]
 
++-- {: .query}
+The RHS of the above diagrams have L and R interchanged.
+=--
+
+
 ### As string diagrams
  {#AsStringDiagrams}
 
