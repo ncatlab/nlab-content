@@ -198,11 +198,38 @@ See also _[[internally projective object]]_ and _[[COSHEP]]_.
 
 =--
 
-* If $C$ has [[pullback|pullbacks]] and epimorphisms are preserved by pullback, as is the case in a [[pretopos]], then $P$ is projective iff any epimorphism $Q\to P$ is [[split epimorphism|split]].
++-- {: .num_example}
+###### Example
 
-* An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[free group]].
+If $C$ has [[pullback|pullbacks]] and epimorphisms are preserved by pullback, as is the case in a [[pretopos]], then $P$ is projective iff any epimorphism $Q\to P$ is [[split epimorphism|split]].
 
-* For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See at _[[projective module]]_ for more on this.
+=--
+
++-- {: .num_example}
+###### Example
+
+An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[free group]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+
+For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See at _[[projective module]]_ for more on this.
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The projective objects in [[compact topological space|compact]] [[Hausdorff topological spaces]] are precisely the [[extremally disconnected profinite sets]].
+
+=--
+
+
+
 
 ## Properties
 
