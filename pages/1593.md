@@ -28,7 +28,7 @@ Such orientifold gerbes with connection are the right structure for the definiti
 More precisely, the [[gauge field]]s that constitute the background for a string $\sigma$-model, such as the [[Kalb-Ramond field]] and the [[RR-field]]s are modeled as [[cocycle]]s in the [[differential cohomology]] of the target space, and an _orientifold_ is the data given by an [[orbifold]] [[spacetime]] that involves the [[group]] $\mathbb{Z}_2$ and equipped with certain [classes in its( [[twisted cohomology|twisted]]) [[differential cohomology]] that is suitably $\mathbb{Z}_2$-[[equivariant cohomology|equivariant]].
 
 
-## Orientifold circle $n$-bundles with connection
+## Bosonic string: orientifold circle $n$-bundles with connection
 
 We discuss the notion of [[circle n-bundles with connection]] over [[double covering]] spaces with orientifold structure.
 
@@ -166,10 +166,10 @@ Orientifold circle $n$-bundles are not $\mathbb{Z}_2$-[[equivariant cohomology|e
 The [[geometric realization]] 
 
 $$
-  |\mathbf{B}[U(1) \to \mathbb{Z}_2]|
+  $\tilde R$ \coloneqq |\mathbf{B}[U(1) \to \mathbb{Z}_2]|
 $$
 
-of $\mathbf{B}[U(1) \to \mathbb{Z}]$ is a [[homotopy n-type|homotopy 3-type]] with [[homotopy group]]s
+of $\mathbf{B}[U(1) \to \mathbb{Z}]$ is a [[homotopy n-type|homotopy 3-type]] with [[homotopy groups]]
 
 $$
   \pi_0(\tilde R)  = 0
@@ -220,10 +220,17 @@ Since $\pi_3(K(\mathbb{Z}), 3) \simeq \mathbb{Z}$ and $\pi_1(B \mathbb{Z}_2) \si
 
 =--
 
-## Twisted KO
+## Superstring: Twisted differential $R$-cohomology
+
+(...)
+
+For the [[superstring]] a variant is needed.
 
 ([DFM I](#Precis), [DFM II](#DistlerFreedMooreII)).
 
+(...)
+
+See around ([DFM II, supposition 3.6](#DistlerFreedMooreII)) for relation to the above.
 
 
 ## References
@@ -233,7 +240,7 @@ A definition and study of orientifold [[bundle gerbe]]s, modeling the [[Kalb-Ram
 * [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
  {#Jandl}
 
-* [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ ([arXiv:0809.5125](http://arxiv.org/abs/0809.5125))
+* [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ Adv. Theor. Math. Phys. 15(3), 621-688 (2011) ([arXiv:0809.5125](http://arxiv.org/abs/0809.5125))
 
 A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
 
