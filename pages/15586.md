@@ -64,7 +64,7 @@ Now what comes closest to such a vision at the moment is probably [[homotopy typ
 
 At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulman|M. Shulman]] gave a rough sketch of how such an **elementary theory of the 2-category of categories** (ET2CC) should look like:
 
-> Firstly, some exactness axioms amounting to its being a "2-pretopos" in the sense I described here:[[2-categorical logic]] . This gives you an "internal logic" like that of an ordinary (pre)topos.
+> Firstly, some exactness axioms amounting to its being a "2-pretopos" in the sense I described here:[[michaelshulman:2-categorical logic]] . This gives you an "internal logic" like that of an ordinary (pre)topos.
   
 > Secondly, the existence of certain exponentials (this is optional).
 
