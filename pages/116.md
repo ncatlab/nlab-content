@@ -72,6 +72,8 @@ Internalizing the notion of _group_ in [[higher category theory|higher categoric
 
 * an [[n-group]] is a group object internal to [[n-groupoid]]s
 
+* an [[∞-group]] is a [[group object in an (∞,1)-category]].
+
 * a [[loop space]] is a group object in [[Top]]
 
 * generally there is a notion of [[groupoid object in an (infinity,1)-category|group object in an (infinity,1)-category]].
@@ -79,6 +81,22 @@ Internalizing the notion of _group_ in [[higher category theory|higher categoric
 And the notion of [[loop space object]] and [[delooping]] makes sense (at least) in any [[(infinity,1)-category]].
 
 Notice that the relation between group objects and deloopable objects becomes more subtle as one generalizes this way. For instance not every [[groupoid object in an (infinity,1)-category|group object in an (infinity,1)-category]] is [[delooping|deloopable]]. But every group object in an [[(infinity,1)-topos]] is.
+
+## Special types and classes
+
+* [[simple group]]
+
+* [[finite group]]
+
+  * [[classification of finite simple groups]]
+
+  * [[sporadic finite simple groups]]
+
+  * [[Monster group]]
+
+* [[topological group]]
+
+* [[Lie group]]
 
 ## Weakened versions ##
 
