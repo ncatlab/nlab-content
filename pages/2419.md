@@ -1,4 +1,10 @@
-#Idea#
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _modular form_ is a [[holomorphic function]] on the [[upper half plane]] that satisfies certain transformation properties.
 
