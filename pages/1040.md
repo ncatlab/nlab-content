@@ -79,6 +79,26 @@ In the language of [[stuff, structure, property]], an idempotent monad may be sa
 
 If $T$ is idempotent, then it follows in particular that an object of $C$ admits at most one structure of $T$-algebra, that this happens precisely when the  unit $\eta_X\colon X\to T X$ is an isomorphism, and in this case the $T$-algebra structure map is $\eta_X^{-1}\colon T X \to X$.  However, it is possible to have a non-idempotent monad for which any object of $C$ admits at most one structure of $T$-algebra, in which case $T$ can be said to equip objects of $C$ with [[property-like structure]]; an easy example is the monad on [[semigroups]] whose algebras are [[monoids]].
 
++-- {: .un_remark}
+###### Remark
+Let us be in a $2$-category $K$. Part of the structure of an idempotent monad $(C,T,\eta,\mu)$ in $K$ is of course an idempotent morphism $T:C\to C$. More precisely (Definition 1.1.9) considers $\mu$ as part of the structure such that an idempotent 1-cell has a 2-isomorphism $\mu:TT\to T$ such that $\mu T=T\mu$. Equivalently an idempotent morphism is a normalized pseudofunctor from the two object monoid $\{*,e\}$ with $e^2=e$ to $K$.
+
+Recall that a *splitting of an idempotent* $(T,\mu)$ consists of a pair of 1-cells $I:D\to C$ and $R:C\to D$ and a pair of 2-isomorphisms $a:RI\to id_D$ and $b:T\to IR$ such that $\mu=b^{-1}(I\circ A\circ R)(b\circ b)$ where $\circ$ denotes horizontal composition of 2-cells. Equivalently an splitting of an idempotent is a limit or a colimit of the defining pseudofunctor. If $K$ has equalizers or coequalizers, then all its idempotents split.
+
+Now if $(I,R,a,b)$ is a splitting of an idempotemt monad, then $R\dashv I$ are adjoint. And in this case the splitting of an idempotent is equivalently an Eilenberg-Moore object for the monad $(C,T,\eta,\mu)$. In this case $D$ is called an *adjoint retract of $C$*.
+
+(Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249)
+=--
+
++-- {: .un_remark}
+###### Remark
+
+Equivalences (resp. cores) in an allegory are precisely those symmetric idempotents which are idempotent monads (resp. comonads). In an allegory the following statements are equivalent: all symmetric idempotents split, idempotent monads split, idempotent comonads split. A similar statement holds at least for some 2-categories.
+
+(Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249)
+=--
+
+Peter Johnstone, sketches of an elephant, B 1.1.9, p.248-249
 
 ## Algebras of an idempotent monad 
 
