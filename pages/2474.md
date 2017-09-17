@@ -94,10 +94,16 @@ sends a commutative subalgebra $C \subset A$ to $f(C) \subset B$.
 =--
 
 
+### Homotopy theory
+
+There is [[homotopy theory]] of $C^\ast$-algebras, being a non-commutative generalization of that of [[Top]]. See for instance ([Uuye 12](#Uuye)).
+
+
+
+
 ## Variants
 
 $C^*$-algebras equipped with the [[action]] of a [[group]] by [[automorphisms]] of the algebra are called _[[C-star-systems]]_ .
-
 
 ## Related concepts
 
@@ -122,7 +128,10 @@ A characterizations of injections of commutative sub-$C^*$-algebras -- hence of 
 
 * [[Chris Heunen]], _Characterizations of categories of commutative $C^*$-algebras_ ([arXiv:1106.5942](http://arxiv.org/abs/1106.5942)).
 
+Homotopy theory of $C^*$-algebras (a [[category of fibrant objects]]-structure on $C^* Alg$) is discussed in 
 
+* Otgonbayar Uuye, _Homotopy theory for $C^\ast$-algebras_ ([arXiv:1011.2926v3](http://arxiv.org/abs/1011.2926v3))
+ {#Uuye}
 
 [[!redirects C-star algebra]]
 [[!redirects C-star-algebra]]
