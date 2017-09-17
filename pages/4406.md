@@ -62,6 +62,16 @@ Finally, let $F \to R$ be any order-preserving field homomorphism to a real clos
 
 1. Given an o-minimal ordered ring $R$, the field of [[germ]]s at infinity of definable functions $R \to R$ in any o-minimal expansion of $(R, 0, 1, +, -, \cdot, \lt)$ is real closed. (By "germ at infinity", we mean an equivalence class of functions for which $f \equiv g$ if and only if $f(x) = g(x)$ for all sufficiently large $x$.)
 
+## Infinites and infinitesimals 
+
+Each real closed field $R$ contains a [[valuation ring|valuation]] subring $B \hookrightarrow R$ consisting of the "bounded" or archimedean elements, i.e., elements $x \in R$ such that $-n \leq x \leq n$ for some integer multiple $n$ of the identity. An element in the complement of $B$ is an **infinite** element of $R$, and the reciprocal of an infinite element is an **infinitesimal** element. The field of fractions of $B$ is clearly $R$. 
+
+We remark that any real closed field contains a copy of the field of real algebraic numbers over $\mathbb{Q}$, which we denote by $\widebar{\mathbb{Q}}_{real}$. Each of the elements of $\widebar{\mathbb{Q}}_{real}$ is archimedean. 
+
+Let $B^\ast$ be the group of units of $B$. The quotient $R^\ast/B^\ast$ is the **value group** of $R$. It can be viewed as the "group of orders of infinities and infinitesimals" of $R$. If $R$ is real closed, then the value group is an ordered divisible group (divisible because we can take $n^{th}$ roots in $R$). The structure of the value group as ordered group is an important invariant of the real closed field. 
+
+In the other direction, to each ordered divisible abelian group $G$, there exists a real closed field having $G$ as its value group. For example, one may form the [[Hahn series]] over $\widebar{\mathbb{Q}}_{real}$ with value group $G$. 
+
 ## References 
 
 * Serge Lang, _Algebra_ (3rd edition), Addison-Wesley, 1993. 
