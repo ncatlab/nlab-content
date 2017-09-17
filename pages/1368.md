@@ -330,8 +330,13 @@ This is the topic of section 5.1 of
 [[!redirects (∞,1)-category of (∞,1)-presheaves]]
 [[!redirects (∞,1)-categories of (∞,1)-presheaves]]
 
-
 [[!redirects free (∞,1)-cocompletion]]
 [[!redirects free (infinity,1)-cocompletion]]
 
 [[!redirects (∞,1)-presheaf (∞,1)-topos]]
+
+[[!redirects (infinity,1)-presheaf (infinity,1)-category]]
+[[!redirects (∞,1)-presheaf (∞,1)-category]]
+[[!redirects (infinity,1)-presheaf (infinity,1)-categories]]
+[[!redirects (∞,1)-presheaf (∞,1)-categories]]
+
