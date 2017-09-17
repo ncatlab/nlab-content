@@ -29,7 +29,7 @@ Quite generally, the _completion of a ring_ is a [[completion]] of a [[topologic
 
 ### Formal completion and formal neighbourhoods
 
-A special case of ring completion is the _formal completion_ or _adic completion_ of a [[commutative ring]] $R$, whichh is its topological completion with respect to the [[adic topology]] induced by a [[maximal ideal]] $I\subset R$. 
+A special case of ring completion is the _formal completion_ or _adic completion_ of a [[commutative ring]] $R$, whichh is its topological completion with respect to the [[adic topology]] induced by a [[maximal ideal]] $I\subset R$ ([Sullivan 05, definition 1.3](#Sullivan05)). 
 
 The underlying ring $\widehat R_I$ of this formal completion is the [[limit]]
 
@@ -37,7 +37,7 @@ $$
   \widehat R_I \coloneqq \underset{\leftarrow}{\lim} (R/I^n)
 $$
 
-(formed in the [[category]] [[CRing]] of [[commutative rings]]) of the [[quotients]] of $R$ by all the [[powers]] of this ideal, $I$. Notice that this may be considered purely algebraically. 
+(formed in the [[category]] [[CRing]] of [[commutative rings]]) of the [[quotients]] of $R$ by all the [[powers]] of this ideal, $I$ ([Sullivan 05, proposition 1.13](#Sullivan05)). Notice that this may be considered purely algebraically. 
 
 In words, this limit construction says that the elements of $R_I$ are sequences of elements in $R$ which "successively add smaller and smaller elements, as seen by the ideal $I$". This is as for [[formal power series]] rings, which  are indeed the archetypical example of formal completions, see example \ref{FormalPowerSeries} below.
 
@@ -113,6 +113,14 @@ The phenonemon of example \ref{AtiyahSegalTheorem} appears for other [[generaliz
 
 
 ## References
+
+A classical account is in section 1 of 
+
+* {#Sullivan05} [[Dennis Sullivan]], _Geometric topology: localization, periodicity and Galois symmetry_, volume 8 of K- Monographs in Mathematics. Springer, Dordrecht, 2005. The 1970 MIT notes, Edited and with a preface
+by [[Andrew Ranicki]] ([pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf))
+
+
+See also
 
 * Wikipedia, _[Completion (ring theory)](https://en.wikipedia.org/wiki/Completion_%28ring_theory%29)_
 
