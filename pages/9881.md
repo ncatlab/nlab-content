@@ -1,4 +1,19 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,7 +28,9 @@ The amplitudes come out term-wise finite, hence [[renormalization|renormalized]]
 
 ### Bosonic string
 
-* Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_, Lecture notes based on lectures given at the fifth Modave School on Mathematical Physics (August 2009)
+Introductory lecture notes include
+
+* Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_, Lecture notes based on lectures given at the fifth Modave School on Mathematical Physics (August 2009) ([arXiv:1011.0456](http://arxiv.org/abs/1011.0456))
 
 ### Superstring
 
@@ -22,6 +39,18 @@ A general discussion of the problem is in
 * [[Eric D'Hoker]] [[Duong Phong]], _Loop amplitudes for the fermionic string_, Nucl. Phys. B 278 (1986) 225;
 
 * [[Greg Moore]], P. Nelson, [[Joseph Polchinski]], _Strings and supermoduli_, Phys. Lett. B 169 (1986) 47-53.
+
+General finiteness of superstring amplitudes is discussed in 
+
+* [[Stanley Mandelstam]], _The $n$ Loop String Amplitude: Explicit Formulas, Finiteness and Absence of Ambiguities_, Phys. Lett. B277 (1992) 82. ([inspire](http://inspirehep.net/record/319501))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Momentum Analyticity and Finiteness of the 1-Loop Superstring Amplitude_,  	Phys.Rev.Lett. 70 (1993) 3692-3695 ([arXiv:hep-th/9302003](http://arxiv.org/abs/hep-th/9302003))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _The Box Graph In Superstring Theory_, Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9410152](http://arxiv.org/abs/hep-th/9410152))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Dispersion Relations in String Theory_; Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9404128](http://arxiv.org/abs/hep-th/9404128))
+
+
 
 The 1-loop amplitudes in [[type II string theory]] have been discussed in 
 
@@ -45,11 +74,20 @@ The description of 2-loop amplitudes in superstring theory is a the series of ar
 
 * [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VI: Non-Renormalization Theorems and the 4-Point Function_,  	Nucl.Phys.B715:3-90,2005 ([arXiv:hep-th/0501197](http://arxiv.org/abs/hep-th/0501197))
 
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VII, Cohomology of Chiral Amplitudes_,  	Nucl.Phys.B804:421-506,2008 ([arXiv:0711.4314](http://arxiv.org/abs/0711.4314))
 
-General finiteness of superstring amplitudes is discussed in 
+A review of this work is in 
 
-* [[Eric D'Hoker]], [[Duong Phong]], _Momentum Analyticity and Finiteness of the 1-Loop Superstring Amplitude_,  	Phys.Rev.Lett. 70 (1993) 3692-3695 ([arXiv:hep-th/9302003](http://arxiv.org/abs/hep-th/9302003))
+* A.Morozov, _NSR Superstring Measures Revisited_, JHEP0805:086,2008 ([arXiv:0804.3167](http://arxiv.org/abs/0804.3167))
 
-* [[Eric D'Hoker]], [[Duong Phong]], _The Box Graph In Superstring Theory_, Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9410152](http://arxiv.org/abs/hep-th/9410152))
+The technical issue of the [[moduli space]] of [[super Riemann surfaces]] of higher genus (for higher loop string scattering amplitudes) is discussed in
 
-* [[Eric D'Hoker]], [[Duong Phong]], _Dispersion Relations in String Theory_; Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9404128](http://arxiv.org/abs/hep-th/9404128))
+* [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
+
+* [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_ ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
+
+Arguments for the finiteness of superstring scattering amplitudes to all loop order based on the [[Berkovits superstring]]-formulation have been promoted in 
+
+* [[Nathan Berkovits]], _Multiloop Amplitudes and Vanishing Theorems using the Pure Spinor Formalism for the Superstring_,  JHEP 0409:047,2004 ([arXiv:hep-th/0406055](http://arxiv.org/abs/hep-th/0406055))
+
+[[!redirects string scattering amplitudes]]
