@@ -148,6 +148,13 @@ out of the [[slice topos]] is a [[proper geometric morphism]].
 
 * In the [[category of sheaves]] $Sh(X)$ over a [[topological space]], the decidable K-finite objects are those that are "locally finite;" i.e. there is an [[open cover]] of $X$ such that over each open in the cover, the sheaf is a [[locally constant function]] to $N$.  These are essentially the same as [[covering space|covering spaces]] of $X$ with finite fibres.
 
+## Related concepts
+
+* [[finite set]], [[hereditarily finite set]]
+
+* [[finite category]], [[finite limit]]
+
+* [[finite (infinity,1)-category]], [[finite (infinity,1)-limit]]
 
 ## References
 
