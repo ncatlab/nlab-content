@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
 =--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
 =--
 =--
 
@@ -104,6 +108,21 @@ $$
   CS(A) = \langle A \wedge d A\rangle + c \langle A \wedge [A \wedge A]\rangle 
   \,.
 $$
+
+### Higher CS-forms
+
+
+For $\mu \in CE(\mathfrak{g})$ any higher order cocycle, $CS_\mu(A)$ is the corresponding higher order Chern-Simons form.
+
+For instance for $\mu_7$ the 7-cocycle on a [[semisimple Lie algebra]], $CS_{\mu_7}(A)$ is the corresponding Chern-Simons 7-form, corresponding to the second [[Pontryagin class]].
+
+Notice that this we may also think of as a 7-cocycle on the corresponding [[string Lie 2-algebra]]. As such it is the one that classifies the extension to the [[fivebrane Lie 6-algebra]]. The corresponding Chern-Simons 7-form appears as the local conneciton data in the [[Chern-Simons 7-bundle with connection]] that obstructions the lift from a [[differential string structure]] to a differential [[fivebrane structure]].
+
+
+
+
+
+
 
 ### Lie algebroid CS-forms
 
