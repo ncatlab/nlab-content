@@ -32,6 +32,8 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 
 * [[analytic geometry]]
 
+* [[absolute cohomology]]
+
 ## References
 
 Textbook accounts include
