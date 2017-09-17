@@ -1,0 +1,8 @@
+
+* [webpage](http://www.wisdom.weizmann.ac.il/math/profile/scientists/berkovich-profile.htmla)
+
+## related entries
+
+* [[analytic geometry]], [[analytic space]]
+
+category: people
