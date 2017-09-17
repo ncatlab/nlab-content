@@ -4,7 +4,7 @@
 
 # Idea
 
-**Extraordinary natural transformations**, or **extranatural transformations**, are what you get when you "bend the rules" for natural transformations.  One intuitive approach to them is through [[string diagrams]]: every time you bend a string (that represents a component of a natural transformation) into a U-shape or upside-down U-shape, the U-shape represents a component of an extranatural transformation.  Thus, the rules for extranatural transformations mirror rules for ordinary [[natural transformations]], except they are bent into shapes with a covariant part and a contravariant part.  (Cf. interactions between particles and their corresponding [[antiparticle]]s.) 
+**Extraordinary natural transformations**, or **extranatural transformations**, are what you get when you "bend the rules" for [[natural transformation]]s.  One intuitive approach to them is through [[string diagrams]]: every time you bend a string (that represents a component of a natural transformation) into a U-shape or upside-down U-shape, the U-shape represents a component of an extranatural transformation.  Thus, the rules for extranatural transformations mirror rules for ordinary [[natural transformations]], except they are bent into shapes with a covariant part and a contravariant part.  (Cf. interactions between particles and their corresponding [[antiparticle]]s.) 
 
 A transformation can also be ordinary-natural in some variables and extraordinary-natural in other variables.  Sometimes this sort of transformation is called a *generalized natural transformation*.  The late [[Max Kelly]] was fond of saying that really it's all the same basic concept, however, so why proliferate terminology needlessly?  So he would simply say a transformation was "natural" in all its arguments, both the "ordinary" and the "extraordinary" ones.
 
@@ -15,7 +15,7 @@ There is also a yet more general notion of [[dinatural transformation]].  Howeve
 
 # Examples
 
-Consider the [[function set]] functor $\hom: Set^{op} \times Set \to Set$ (or more generally, the [[internal hom]] functor $\hom: V^{op} \times V \to V$ where $V$ is [[symmetric monoidal closed category|symmetric monoidal closed]]). The [[identity transformation]] $1: \hom \to \hom$ has components of the form 
+Consider the [[function set]] functor $\hom: Set^{op} \times Set \to Set$ (or more generally, the [[internal hom]] functor $\hom: V^{op} \times V \to V$ where $V$ is [[symmetric monoidal category|symmetric monoidal]] [[closed category|closed]]). The [[identity transformation]] $1: \hom \to \hom$ has components of the form 
 
 $$1_{x, y}: x^y \to x^y$$ 
 
