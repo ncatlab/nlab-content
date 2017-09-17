@@ -104,6 +104,8 @@ and this will generally not be continuous in the norm topology, but is always co
 
   * [[locally compact topological group]]
 
+  * [[compact topological group]]
+
   * [[maximal compact subgroup]]
 
   * [[loop group]]
