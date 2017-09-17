@@ -44,61 +44,6 @@ The equivalence of these conditions is discussed below.
 
 An [[(∞,1)-functor]] between accessible $(\infty,1)$-categories that preserves $\kappa$-filtered colimits is called an **[[accessible (∞,1)-functor]]** .
 
-
-## Properties
-
-
-### Equivalent characterizations
-
-+-- {: .un_theorem}
-###### Theorem
-
-The characterizations of accessible $(\infty,1)$-categories are indeed all equivalent.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For the first few this is [[Higher Topos Theory|HTT, prop. 5.4.2.2]]. For the last one this is in section 5.4.3.
-
-=--
-
-### Stability under various operations
-
-+-- {: .un_theorem}
-###### Theorem
-
-If $C$ is an accessible quasi-category then so are
-
-* for $K$ a small simplicial set the [[(∞,1)-category of (∞,1)-functors]] $Func(K,C)$;
-
-* for $p : K \to C$ a small [[diagram]], the [[over quasi-category]] $C_{/p}$ and under-quasi-category $C_{p/}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is [[Higher Topos Theory|HTT]] section 5.4.4, 5.4.5 and 5.4.6.
-
-=--
-
-
-+-- {: .un_theorem}
-###### Theorem
-
-The [[homotopy pullback]] of accessible quasi-categories (in the [[model structure for quasi-categories]]) is again accessible.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is [[Higher Topos Theory|HTT, section 5.4.6]].
-
-=--
-
 ## The $(\infty,1)$-category of accessible $(\infty,1)$-categories
 
 
@@ -106,7 +51,7 @@ This is [[Higher Topos Theory|HTT, section 5.4.6]].
 ###### Definition
 
 
-Write $Acc(\infty,1)Cat \subset (\infty,1)Cat$ for the 2-[[sub-(∞,1)-category]] of [[(∞,1)Cat]] on
+Write $(\infty,1)AccCat \subset (\infty,1)Cat$ for the 2-[[sub-(∞,1)-category]] of [[(∞,1)Cat]] on
 
 * those objects that are accessible $(\infty,1)$-categories;
 
@@ -131,6 +76,86 @@ The full [[sub-quasi-category]] $Acc(\infty,1)Cat \hookrightarrow (\infty,1)Cat$
 This is [[Higher Topos Theory|HTT, section 5.4.2.18]].
 
 =--
+
+
+
+
+## Properties
+
+
+### Equivalent characterizations
+
++-- {: .un_theorem}
+###### Theorem
+
+The characterizations of accessible $(\infty,1)$-categories are indeed all equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first few this is [[Higher Topos Theory|HTT, prop. 5.4.2.2]]. For the last one this is in section 5.4.3.
+
+=--
+
+### Stability under various operations {#StabilityUnderOperations}
+
++-- {: .un_theorem}
+###### Theorem
+
+If $C$ is an accessible quasi-category then so are
+
+* for $K$ a small simplicial set the [[(∞,1)-category of (∞,1)-functors]] $Func(K,C)$;
+
+* for $p : K \to C$ a small [[diagram]], the [[over quasi-category]] $C_{/p}$ and under-quasi-category $C_{p/}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT]] section 5.4.4, 5.4.5 and 5.4.6.
+
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+
+The [[(∞,1)-pullback]] of accessible $(\infty,1)$-categories in [[(∞,1)Cat]] is again accessible.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, section 5.4.6]].
+
+=--
+
+Generally:
+
++-- {: .un_theorem}
+###### Theorem
+
+The $(\infty,1)$-category $(\infty,1)AccCat$ has all small [[(∞,1)-limit]]s and the inclusion
+
+$$
+  (\infty,1)AccCAT \hookrightarrow (\infty,1)CAT
+$$
+
+presrves these.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, proposition 5.4.7.3]].
+
+=--
+
 
 
 ## References 
