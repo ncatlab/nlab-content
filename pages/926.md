@@ -263,9 +263,12 @@ $$
 
 be the simplicial set of [[equivalence classes]] under this equivalence relation.
 
-This canonically comes with morphisms $im_{n_1}(f) \to im_{n_2}(f)$ for $\infty \geq n_1 \gt n_2 \geq $.
+This canonically comes with morphisms $im_{n_1}(f) \to im_{n_2}(f)$ for $\infty \geq n_1 \gt n_2 \geq 0$.
 
 =--
+
+For instance ([Goerss-Jardine, def. VI 2.9](#GoerssJardine)).
+
 
 +-- {: .num_prop}
 ###### Proposition
