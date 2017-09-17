@@ -1,0 +1,78 @@
+
+<div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
+The generalization of the notion of [[exact functor]] from [[category theory]] to [[(∞,1)-category theory]].
+
+## Definition
+
+As for 1-catgeorical exact functors, there is a general definition of exact functors that restricts to the simple conditions that [[finite limit|finite (co)limits]] are preserved in the case that these exist.
+
++-- {: .un_defn}
+###### Definition
+
+For $\kappa$ a [[regular cardinal]], an [[(∞,1)-functor]] $F : C \to D$ is **$\kappa$-right exact**, if, when modeled as a morphism of [[quasicategories]], for any [[right Kan fibration]] $D' \to D$ with $D'$ a $\kappa$-[[filtered (∞,1)-category]], the [[pullback]] $C' := C \times_D D'$ (in [[sSet]]) is also $\kappa$-filtered.
+
+If $\kappa = \omega$ then we just say $F$ is **right exact**.
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 5.3.2.1]].
+
++-- {: .un_prop}
+###### Proposition
+
+If $C$ has $\kappa$-small [[colimit]]s, then $F$ is $\kappa$-right exact precisely if it preserves these $\kappa$-small colimits.
+
+So in particular if $C$ has all [[finite colimit]]s, then $F$ is right exact, precisely if it reserves these.
+
+=--
+
+This is  [[Higher Topos Theory|HTT, prop. 5.3.2.9]].
+
+## Properties
+
++-- {: .un_prop}
+###### Proposition
+
+1. $\kappa$-right exact $(\infty,1)$-functors are closed under composition.
+
+1. Every [[(∞,1)-equivalence]] is $\kappa$-right exact.
+
+1. An $(\infty,1)$-functor equivalent (in the [[(∞,1)-category of (∞,1)-functors]]) to a $\kappa$-right exact one is itsels $\kappa$-right exact.
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 5.3.2.4]].
+
+
+## References
+
+Section 5.3.2 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+
+[[!redirects exact (∞,1)-functor]]
+
+[[!redirects exact (infinity,1)-functors]]
+[[!redirects exact (∞,1)-functors]]
+
+[[!redirects left exact (∞,1)-functor]]
+[[!redirects left exact (infinity,1)-functor]]
+
+[[!redirects left exact (infinity,1)-functors]]
+[[!redirects left exact (∞,1)-functors]]
+
+[[!redirects right exact (∞,1)-functor]]
+[[!redirects right exact (infinity,1)-functor]]
+
+[[!redirects right exact (infinity,1)-functors]]
+[[!redirects right exact (∞,1)-functors]]
