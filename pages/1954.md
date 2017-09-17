@@ -133,16 +133,20 @@ $$
 
 ### In terms of distributions
 
-An Ehresmann connection describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $p : P \to X$ (for $G$ some [[Lie group]]) in terms of a distribution of horizontal subspaces $H \subset T P$ which is a subbundle of the [[tangent bundle]] of $P$ complementary at each point to the vertical tangent bundle to the fiber. This subbundle can be expressed as field of subspaces $H_x = Ker A_x = Ann A_x\subset T P$ ($x\in P$) which are pointwise annihilators of a smooth [[Lie algebra]]-valued $1$-[[differential form|form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two conditions 
+Given a smooth bundle $\pi: E\to X$ with typical fiber $F$ (e.g. a smooth vectir bundle or a smooth principal $G$-bundle), there is a well defined vector subbundle $V E\subset T E$ over $E$ such that $V_p$ consists of the  tangent vectors $v_p$ such that $(T_p \pi)(v_p) = 0$. A __smooth distribution (field) of horizontal subspaces__ is a choice of a vector subspace $H_p E\subset T_p E$ for every $p$ such that 
 
-1. $T_u P \: = \: H_u P \oplus V_u P$
+E1. (complementarity) $T_u E \: = \: H_u E \oplus V_u E$
 
-2. Every smooth vector field X on P is separated into smooth vector fields $X^H \in H_u P$ and $X^V \in V_u P$ such that $X = X^H + X^V$
+E2. $p\mapsto H_p E$ is smooth. That means that in the unique decomposition of any smooth vector field $X$ on $E$ into vector fields $X^H \in \Gamma(H_u E)$ and $X^V \in \Gamma(V_u E)$ such that $X = X^H + X^V$ the vector field $X^H$ is smooth (or equivalently $X^V$ is smooth, or equivalently both) as a section of $T E$ (there exist yet several other equivalent formulations of the smooothness criterium).
 
-3. $H_{ug}P = R_{g*}H_u P$ for every $u \in P$ and $g \in G$.
+An Ehresmann connection describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $\pi : P \to X$ (for $G$ some [[Lie group]]) in terms of a distribution of horizontal subspaces $H \subset T P$ which is a subbundle of the [[tangent bundle]] of $P$ complementary at each point to the vertical tangent bundle to the fiber. More precisely, an __Ehresmann connection__ on a principal $G$-bundle $\pi:P\to X$ is a smooth distribution of horizontal subspaces $p\mapsto H_p P$ which is __equivariant__:
 
-The condition 3. states that horinzontal subspaces $H_u P$ and $H_{ug}P$ on the same fibre are related by a linear map $R_{g*}$ induced by the right action of the gauge group. 
+E3. $H_{p g}P = (T_p R_g) H_p P$ for every $p \in P$ and $g \in G$.
 
+This subbundle $H = \cup_p H_p\subset T X$ over $X$ can be expressed as a field of subspaces $H_x = Ker A_x = Ann A_x\subset T P$ ($x\in P$) which are pointwise annihilators of a smooth [[Lie algebra]]-valued $1$-[[differential form|form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two Ehresmann conditions from the previous subsection. 
+
+The Ehresmann connections on a principal $G$-bundle are in 1-1 correspondence with an appropriate notion of a connection on the associated
+bundle. Namely, if $T^H P\subset T P$ is the smooth horizontal distrubution of subspaces defining the principal connection on a principal $G$-bundle $P$ over $X$, where $G$ is a Lie group and $F$ a smooth left $G$-space, then consider the total space $P\times_G F$ of the associated bundle with typical fiber $F$. Then, for a fixed $f\in F$ one defines a map $\rho_f : P\to P\times_G F$ assigning the class $[p,f]$ to $p\in P$. If $(T_p \rho_f)(T^H_p P) =: T_{[p,f]}^H P\times_G F$ defines the horizontal subspace $T_{[p,f]}^H P\times_G F\subset T_{[p,f]} P\times_G F$, the collection of such subspaces does not depend on the choice of $(p,f)$ in the class $[p,f]$, and the correspondence $p\mapsto T_{[p,f]}^H P\times_G F$ is a connection on the associated bundle $P\times_G F\to X$.
 
 ## Properties
 
