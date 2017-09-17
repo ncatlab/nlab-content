@@ -1,0 +1,8 @@
+
+The word _factor_ can have various meanings
+
+* factor in a [[product]];
+
+* [[von Neumann algebra factor]]
+
+* etc.
