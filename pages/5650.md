@@ -299,7 +299,15 @@ The following is (or will eventually be) a linked list of keywords.
 
 ### 7.1 The calculus of functors
 
+#### 7.1.1 $n$-Excisive Functors
+
+* [[differentiable (∞,1)-category]]
+
 * [[n-excisive (∞,1)-functor]]
+
+#### 7.1.2 Taylor Tower
+
+* [[Taylor tower]]
 
 ## 8. Algebra in stable homotopy theory
 
