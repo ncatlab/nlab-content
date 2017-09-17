@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A braided 3-group is a [[braided ∞-group]] which is a [[3-group]].
+
+## Related concepts
+
+* [[k-tuply groupal n-groupoid]]
+
+[[!redirects braided 3-groups]]
+
