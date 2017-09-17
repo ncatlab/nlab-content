@@ -15,6 +15,12 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The concept of _polynomial functor_ is a [[categorification]] of that of _[[polynomial]]_. 
+
+Polynomial endo-functors are used to encode a class of [[inductive types]] called _[[W-types]]_.
+
 ## Definition
 
 Let $C$ be a [[locally cartesian closed category]].  A **polynomial functor** is specified by the data
