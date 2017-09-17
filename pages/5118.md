@@ -277,15 +277,16 @@ $$
 
 =--
 
-### Lift to a Quillen adjunction on monoids {#LiftToQuillenAdjunctionOnMonoids}
+### Lift to a Quillen equivalence on monoids {#LiftToQuillenAdjunctionOnMonoids}
 
 We now describe how the adjunction  $(L^{mon} \dashv R)$ established above becomes a [[Quillen adjunction]] for the [[transferred model structure]]s on the categories of monoids, transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
 
 $$
   (F_C \dashv U_C) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
   C
-  \,.
 $$
+
+and how it becomes a [[Quillen equivalence]] if $(L \dashv R)$ is a monoidal Quillen eqivalence.
 
 See [[model structure on monoids]]. 
 
@@ -323,7 +324,7 @@ and we also assume from now on that the model structure on $Mon(C)$ is created b
 
 Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a lax monoidal Quillen adjunction between [[monoidal model categories]] with cofibrant unit obects.
 
-If the forgetful functors $U_C$ and $U_D$ [create](#CreatedModelStructure) model structures on monoids, then the adjunction $(L^{mon} \dashv R)$ from [above](#AdjunctionOnMonoids) is a [[Quillen adjunction]]
+Then also the adjunction 
 
 $$
   (L^{mon} \dashv R) 
@@ -332,7 +333,10 @@ $$
   \,,
 $$
 
-between the [[transferred model structure|transferred]] [[model structure on monoids|model structures on monoids]].
+from [above](#AdjunctionOnMonoids) is a Quillen adjunction between the [[transferred model structure|transferred]] [[model structure on monoids|model structures on monoids]].
+
+If the forgetful functors $U_C$ and $U_D$ [create](#CreatedModelStructure) model structures on monoids, then $(L^{mon} \dashv R)$ is a [[Quillen equivalence]] if $(L \dashv R)$ is.
+
 
 =--
 
@@ -561,6 +565,10 @@ We have now collected all prerequisites and turn to the proof of the [theorem ab
 +-- {: .proof}
 ###### Proof of the theorem
 
+That $(L^{mon} \dashv R)$ is a Quillen adjunction is clear, as the [[model structure on monoids]] has fibrations and acyclic fibrations those in the underlying category, and these are preserved by $R$. 
+
+So the essential statement is that it is a Quillen equivalence of $(L \dashv R)$ is.
+
 First notice that since by assumption the [[model structure on monoids]] $Mon(D)$ is [created](#CreatedModelStructure) by $U_D$ it follows by definition that the cofibrant $B$ is a [[retract]] of a [[cell object]] in $Mon(D)$. Then the [above lemma](#OneTechnicalLemma) asserts that
 
 $$
@@ -572,7 +580,7 @@ is a weak equivalence.
 
 To prove the theorem, we have to show for every cofibrant $B \in Mon(D)$  and fibrant $Y \in Mon(C)$ that a morphism $B \to R Y$ is a weak equivalence in $Mon(D)$ (hence its underlying morphism in $D$) precisely if its adjunct $L^{mon} B \to Y$ is a weak equivalence in $Mon(C)$ (hence its underlying morphism in $C$).
 
-By definition of adjunct we have that 
+By definition of [[adjunct]] we have that 
 
 $$
  (B \to R Y) = ( B \to R L^{mon} B  \to R Y)
