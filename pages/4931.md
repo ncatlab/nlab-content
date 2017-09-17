@@ -19,6 +19,8 @@
 
 ## Definition
 
+### Geometric
+
 For $n \in \mathbb{N}$ a [[natural number]], the $n$-[[dimension]]al **ball** or **$n$-disk** is the [[topological space]]
 
 $$
@@ -38,8 +40,13 @@ $$
 
 Its [[boundary]] is the $(n-1)$-[[sphere]].
 
+### Combinatorial
 
-## Properties {#Properties}
+There are also combinatorial notions of _disks_. For instance that due to Joyal, as entering the definition of the [[Theta-category]]. See for instance ([Makkai-Zawadowski](#MakkaiZawadowski)).
+
+
+## Properties 
+ {#Properties}
 
 ### Closed balls 
 
@@ -242,6 +249,10 @@ For a discussion of diffeomorphisms between geodesically convex regions and open
 
 See also the Math Overflow discussion [here](http://mathoverflow.net/questions/41853/explicit-diffeomorphim-between-open-simplex-and-open-ball). 
 
+For the combinatorial notions of disks:
+
+* [[Mihaly Makkai]], Marek Zawadowski, _Duality for Simple $\omega$-Categories and Disks_ ([TAC](http://www.emis.de/journals/TAC/volumes/8/n7/8-07abs.html))
+ {#MakkaiZawadowski}
 
 [[!redirects ball]]
 [[!redirects balls]]
