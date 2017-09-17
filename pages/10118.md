@@ -1,3 +1,4 @@
+[[!redirects moduli space of flat connection]]
 
 #Contents#
 * table of contents
@@ -19,6 +20,8 @@ The [[Narasimhan–Seshadri theorem]] asserts that the moduli space of [[flat co
 
 * [[moduli space of connections]]
 
+* [[geometric Langlands correspondence]]
+
 ## References
 
 * {#Teschner14} [[Jörg Teschner]], _Quantization of moduli spaces of flat connections and Liouville theory_, proceedings of the International Congress of Mathematics 2014 ([arXiv:1405.0359](http://arxiv.org/abs/1405.0359))
@@ -29,3 +32,5 @@ For more see the references at _[[moduli space of connections]]_.
 
 [[!redirects moduli stack of flat connections]]
 [[!redirects moduli stacks of flat connections]]
+
+[[!redirects moduli stack of local systems]]
