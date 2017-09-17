@@ -153,7 +153,7 @@ In
 
 the model structure on homotopy $T$-algebras is discussed and its Quillen equivalence to simplcial $T$-algebras is proven.
 
-A related dicussion showing that simplicial $T$ algebras model all $\infty$-$T$-algebras is in
+A related discussion showing that simplicial $T$ algebras model all $\infty$-$T$-algebras is in
 
 * [[Julie Bergner]], _Rigidification of algebras over multi-sorted theories_ , Algebraic and Geometric Topoogy 7, 2007.
 {#Bergner}
