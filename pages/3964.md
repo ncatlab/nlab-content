@@ -19,7 +19,7 @@ A derivator $D\colon Dia^{op} \to Cat$ is **pointed**, or has a **zero object**,
 A derivator $D$ is pointed if and only if whenever $u\colon I\to J$ is a [[sieve]] in $Dia$, the functor $u_* \colon D(I) \to D(J)$ has a right adjoint $u^!$, and dually whenever $u$ is a cosieve, the functor $u_!$ has a left adjoint $u^?$.
 =--
 
-The "only if" direction of this is not too hard to prove.  The converse is a "super-difficult" excercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf).
+The "if" direction of this is easy, since $u\colon \emptyset \to J$ is always a sieve, while $u_*\colon * \to U(J)$ assigns the terminal object of $D(J)$.  Thus, if $u_*$ has a further right adjoint, it must preserve colimits, and in particular its value must be an initial object (as well as a terminal one).  The converse is a "super-difficult" excercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf).
 
 
 ### Loop and suspension
@@ -32,7 +32,7 @@ and $\Gamma$ its full subcategory on $\{a,b,c\}$.
 
 Similarly, we have a [[loop space]] functor $\Omega\colon D 1 \to D 1$ defined as the composite
 $$ D 1 \overset{d_!}{\to} D \Gamma^{op} \overset{bcd_*}{\to} D \square \overset{a^*}{\to} D 1.$$
-where $\Gamma^{op}$ is the full subcategory of $\square$ on $\{b,c,d\}$.  One can verify that $\Sigma \dashv \Omega$.
+where $\Gamma^{op}$ is the full subcategory of $\square$ on $\{b,c,d\}$.  One can verify that $\Sigma \dashv \Omega$; this also follows from the considerations below.
 
 ### Relative diagram categories
 
