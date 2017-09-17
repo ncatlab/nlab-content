@@ -15,11 +15,11 @@
 
 ## Statement
 
-In its modern form, the _axiom of choice_ says that in the [[internal logic]] of a given [[internalization|ambient category]] the following statement holds
+In its modern form, the _axiom of choice_ for a given [[category]] $C$ is the following statement:
 
-* _Every [[epimorphism]] in $A$ [[split epimorphism|splits]]._
+* _Every [[epimorphism]] in $C$ [[split epimorphism|splits]]._
 
-This means: for every [[epimorphism]] $f : A \to B$ there is a morphism $\sigma : B \to A$ (a [[section]]), such that
+This means: for every [[epimorphism]] $f\colon A \to B$ there is a morphism $\sigma\colon B \to A$ (a [[section]]), such that
 $$
   (B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B) 
   =
@@ -27,18 +27,18 @@ $$
   \,.
 $$
 
-If the ambient category is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]].
+If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]].
 
-If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of choice for $A$ may be taken to say that, given any [[cover]]ing family $(p_i: U_i \to X)_i$, there is an appropriate section $X \to \coprod_i U_i$.
+If $C$ is a [[extensive category|superextensive]] [[site]], then the axiom of choice for $C$ may be taken to say that, given any [[cover]]ing family $(p_i\colon U_i \to X)_i$, there is an appropriate section $X \to \coprod_i U_i$.
 
 
 ## Remarks
 
-* If $A = Sets$ then this reproduces the axiom of choice in its traditional form: an epimorphism $A \to B$ of sets can be regarded as a $B$-indexed [[family of sets]]. The existence of a section is equivalent to a choice of one element in each set of this family.
+* If $C =$ [[Set]] then this reproduces the axiom of choice in its traditional form: an epimorphism $A \to B$ of sets can be regarded as a $B$-indexed [[family of sets]]. The existence of a section is equivalent to a choice of one element in each set of this family.
 
-* Formulated in terms of sections the _axiom of choice_ may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $A =$ [[Top]] and $A = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle]]s.
+* Formulated in terms of sections, the _axiom of choice_ may look less mysterious than in its original formulation. For instance, it is clear that it fails in contexts such as $C =$ [[Top]] and $C = $[[Diff]], due to the existence of nontrivial topological and smooth [[fiber bundle]]s.
 
-* When the full axiom of choice it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A\to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A\to B$ splitting).
+* When the full axiom of choice fails, it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A \to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A \to B$ splitting).
 
 * In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, such as (in order of increasing strength) [[countable choice]], [[dependent choice]], and [[COSHEP]], are often (if not usually) accepted by constructivists.
 
@@ -51,7 +51,7 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 * [[Zorn's lemma]],
 * That ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system on Set]].
 * That [[Set]] is equivalent to its own [[free exact completion]].
-* That there exists a [[group]] structure on every inhabited set (see [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
+* That there exists a [[group]] structure on every [[inhabited set]] (see [this MO answer](http://mathoverflow.net/questions/12973/does-every-non-empty-set-admit-a-group-structure-in-zf/12988#12988)).
 
 
 ## Variants
@@ -81,19 +81,20 @@ The axiom of choice can also be strengthened in a few ways.
 
 * One can also postulate a [[choice operator]], which gives a *specified* way to choose an element from any nonempty set.  This implies global choice, and conversely a choice operator can be defined from any well-ordering of the class of all sets.
 
-Finally, one can instead adopt the *negation* of the axiom of choice, or a strengthened version:
+
+Finally, one can instead adopt the *negation* of the axiom of choice, or a strengthened version of this negation:
 
 * The assumption that every subset of the [[real line]] has the [[Baire property]] (BP) is consistent with DC but not AC; the same holds for the assumption that every subset of the real line is [[Lebesgue measure|measurable]] (LM) if at least one [[Grothendieck universe]] exists.  These assumptions leads to a very nice setting for analysis called [[dream mathematics]].
 
-* The [[axiom of determinacy]] is a natural statement in [[game theory]] that is consistent with dependent choice; in fact, it implies dependent choices in certain models, such as in the constructible (in the sense of Goedel) closure of the set of reals. However, determinacy contradicts the full AC (for example, it implies that all sets of reals are Lebesgue measurable and have the Baire property, as in the previous entry). 
+* The [[axiom of determinacy]] is a natural statement in [[game theory]] that is consistent with dependent choice; in fact, it implies dependent choices in certain models, such as in the constructible (in the sense of Goedel) closure of the set of reals. However, determinacy contradicts full AC (for example, it implies LM and BP, as in the previous entry). 
 
-* Any of the varieties of [[constructive mathematics]] that contradict excluded middle necessarily contradict choice, but they tend to be consistent with COSHEP.
+* Any of the varieties of [[constructive mathematics]] that contradict excluded middle necessarily contradict choice, but they are usually (if not always) consistent with DC (and even COSHEP).
+
 
 ### In dependent type theory
  {#InDependentTypeTheory}
 
-In [[dependent type theory]] -- and its further variants/refinements such as [[homotopy type theory]] -- there is also a somewhat different perspective on the axiom of choice. See at _[[Martin-Löf dependent type theory]]_ the section _[Axiom of choice](nlab/show/Martin-L%C3%B6f+dependent+type+theory#AxiomOfChoice)_.
-
+In [[dependent type theory]] -- and its further variants/refinements such as [[homotopy type theory]] -- there is also a somewhat different perspective on the axiom of choice. See at _[[Martin-Löf dependent type theory]]_ the section _[Axiom of choice](http://ncatlab.org/nlab/show/Martin-L%C3%B6f+dependent+type+theory#AxiomOfChoice)_.
 
 
 ## References
