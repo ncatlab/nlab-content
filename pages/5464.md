@@ -1,3 +1,6 @@
+\theoremstyle{plain}
+ \newtheorem{fact}{Fact}
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -154,6 +157,127 @@ X       &\stackrel{\chi}{\to}      &2}
   \,.
 $$
 is a pullback square.
+
+This property of sets can now be stated in purely categorical terms.  We use
+$\hookrightarrow$ to indicate a mono ($=$ [[monomorphism]] $=$ monic).  
+
++-- {: .num_definition}
+ ###### Definition
+Let $\mathcal{E}$ be a category with a terminal object, $1$.  A _subobject
+classifier_ in $\mathcal{E}$ is an object $\Omega$ together with a map $t\colon 1 \to
+\Omega$ such that for every mono $A \stackrel{\hookrightarrow}{m} X$ in $\mathcal{E}$, there exists a
+unique map $\chi\colon X \to \Omega$ such that
+$$
+  \array{
+A       &\stackrel{!}{\to}         &1              \\
+m\downarrow&               &\downarrow t       \\
+X       &\stackrel{\chi}{\to}       &\Omega}
+  \,.
+$$
+is a pullback square.
+=--
+
+So, we have just observed that [[Set]] has a subobject classifier, namely, the
+two-element set.  In the general setting, we may write $\chi$ as $\chi_A$ (or
+properly, $\chi_m$) and call it the _characteristic function_ of $A$ (or
+$m$).
+
+To understand this further, we need two lemmas.
+
++-- {: .num_lemma #lemma:pb-mono}
+ ###### Lemma
+In any category, the pullback of a mono is a mono.  That is, if
+$$
+  \array{
+\cdot           &\to   &\cdot  \\
+m'\downarrow       &       &\downarrow m \\
+\cdot           &\to   &\cdot}
+  \,.
+$$
+is a pullback square and $m$ is a mono, then so is $m'$.  
+=--
+
++-- {: .num_lemma}
+In any category with a terminal object $1$, every map out of $1$ is a mono.
+=--
+So, pulling $t\colon 1 \to \Omega$ back along *any* map $X \to \Omega$
+gives a mono into $X$.
+
+It will also help to know the result of the following little exercise.  It
+says, roughly, that in the definition of subobject classifier, the fact that
+$1$ is terminal comes for free.
+
++-- {: .num_fact #fact:one-terminal}
+Let $\mathcal{E}$ be a category and let $T \stackrel{t}{\hookrightarrow} \Omega$ be a mono in $\mathcal{E}$.
+Suppose that for every mono $A \stackrel{m}{\hookrightarrow} X$ in $\mathcal{E}$, there is a unique map
+$\chi\colon X \to \Omega$ such that there is a pullback square
+$$
+  \array{
+A               &\to           &T              \\
+m \downarrow         &               &\downarrow t     \\
+X               &\stackrel{\chi}{\downarrow}      &\Omega}
+  \,.
+$$
+Then $T$ is terminal in $\mathcal{E}$.
+=--
+
+This leads to a second description of subobject classifiers.  Let $\mathrm{Mono}(\mathcal{E})$
+be the category whose objects are monos in $\mathcal{E}$ and whose maps are pullback
+squares.  Then a subobject classifier is exactly a terminal object of
+$\mathrm{Mono}(\mathcal{E})$.  
+
+Here is a third way of looking at subobject classifiers.  Given a category
+$\mathcal{E}$ and an object $X$, a _subobject_ of $X$ is officially an
+isomorphism class of monos $A \stackrel{m}{\hookrightarrow} X$ (where isomorphism is taken in the
+slice category $\mathcal{E}/X$).  For example, when $\mathcal{E} = \mathrm{Set}$, two monos
+$$
+A \stackrel{m}{\hookrightarrow} X, 
+\quad
+A' \stackrel{m'}{\hookrightarrow} X
+$$
+are isomorphic if and only if they have the same image; so subobjects of $X$
+correspond one-to-one with subsets of $X$.  I say "officially" because half
+the time people use "subobject of $X$" to mean simply "mono into $X$", or slip
+between the two meanings without warning.  It is a harmless abuse of
+language, which I will adopt.   
+
+For $X \in \mathcal{E}$, let $Sub(X)$ be the set of subobjects (in the official sense)
+of $X$.  Assume that $\mathcal{E}$ is well-powered, that is, each $Sub(X)$ is a set
+rather than a proper class.  Assume also that $\mathcal{E}$ has pullbacks.  By
+Lemma \ref{lemma:pb-mono}, every map $X \stackrel{f}{\to} Y$ in $\mathcal{E}$ induces a map
+$Sub(Y) \stackrel{f^*}{\to} Sub(X)$ of sets, by pullback.  This defines a functor
+$Sub\colon \mathcal{E}^op \to Set$.
+
+Third description: a subobject classifier is a representation of this functor
+$Sub$.
+
+This makes intuitive sense, since for $Sub$ to be representable means that
+there is an object $\Omega \in \mathcal{E}$ satisfying
+$$
+\Sub(X) \cong \mathcal{E}(X, \Omega)
+$$
+naturally in $X \in \mathcal{E}$.  In the motivating case of the category of sets, this
+directly captures the thought that subsets of a set $X$ correspond naturally
+to maps $X \to \{t, f\}$.  
+
+Now we show that this is equivalent to the original definition.  By the [[Yoneda
+lemma]], a representation of $Sub\colon \mathcal{E}^\op \to Set$ amounts to an object
+$\Omega \in \mathcal{E}$ together with an element $t \in Sub(\Omega)$ that is
+"generic" in the following sense:
+ 
++-- {: .standout}
+for every object $X \in \mathcal{E}$ and element $m \in \subseteq(X)$, there is a unique map
+$\chi\colon X \to \Omega$ such that $\chi^*(t) = m$.
+=--
+
+In other words, a representation of $Sub$ is a mono $T \stackrel{t}{\hookrightarrow} \Omega$
+in $\mathcal{E}$ satisfying the condition in Fact \ref{fact:one-terminal}.  In other
+words, it is a subobject classifier.
+
+**Definition**
+A [[topos]] (or [[elementary topos]]) is a [[cartesian closed category]]
+with finite [[limit|limits]] and a [[subobject classifier]].
+
 
 (...)
 
