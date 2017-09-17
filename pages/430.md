@@ -121,6 +121,16 @@ The fields of:
 
 * [[field with one element]]
 
+## References
+
+The [[classifying topos]] for fields is discussed in section D3.1.11(b) of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_.
+
+More on this is in 
+
+* [[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the theory of fields_ ([arXiv:0808.1972](http://arxiv.org/abs/0808.1972))
+
 
 [[!redirects field]]
 [[!redirects fields]]
