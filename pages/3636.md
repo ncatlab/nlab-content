@@ -39,8 +39,14 @@ This is an inverse system or [[pro-object]] in the category of spaces. Applying 
 $$e(X) = lim \pi_0\epsilon(X),$$
 the _set of ends_ of $X$. In general, $e(X)$ would be given the [[inverse limit topology]], to preserve more of the information coming from its construction.  This space is the _space of (Freudenthal) ends of $X$_. It is a [[profinite space]].
 
+####Examples####
+* Let $X_8$ be the figure eight space, the one-point union of two cicrles, and let $X$ be its universal cover.  This is an infinite 'thorn bush'. It has infinitely many ends and 
+$$e(X) \cong 2^{\aleph_0}.$$
 
+* Let $M$ be a compact manifold and $X = M\setminus \partial M$, then
+$e(X) \cong \pi_0(\partial M)$.
 
+The assignment sending $X$ to $E(X)$ cannot be functorial on the category of spaces and _continuous_ maps, since the contracting map $\mathbb{R}\to \{0\}$ is continuous, $e(\mathbb{R})$ is $\{-\infty, \infty\}$, whilst $e(\{0\})$ is empty since $\{0\}$ is compact.
 
 ##References##
 
