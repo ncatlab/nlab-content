@@ -34,7 +34,7 @@ may be identified with the group of rotations $SO(3)$, since the restriction of 
 
 A general element $g \in SO^+(1, 3)$ may be decomposed uniquely in the form 
 
-$$g = \rho \circ \beta_v$$ 
+$$g = \beta_v \circ \rho$$ 
 
 where $\rho$ is a rotation and $\beta_v$ is a **boost** in the direction $v$ ($v \in S^2$ a unit spatial vector), mapping 
 
@@ -56,6 +56,26 @@ $$X = \left(
 \array{
 x_0 + x_1 & x_2 + i x_3 \\
 x_2 - i x_3 & x_0 - x_1
+}
+\right) 
+= x_0 \left(
+1 & 0 \\
+0 & 1
+}
+\right) 
++ x_1 \left(
+1 & 0 \\
+0 & -1
+}
+\right
++ x_2 \left(
+0 & 1 \\
+1 & 0
+}
+\right)
++ x_3 \left(
+0 & i \\
+-i & 0
 }
 \right)
 $$
@@ -90,7 +110,15 @@ With regard to the inclusion maps above being homotopy equivalences, we remark i
 
 $$SO^+(1, 3)/SO(3)$$ 
 
-is identified with the space of boost maps (concretely, every element of $SO^+(1, 3)/SO(3)$ may be uniquely expressed as a composite of a rotation followed by a boost map); topologically, the space of boost maps is $\mathbb{R}^3$, but geometrically this space carries hyperbolic structure as well, in other words the space of boosts carries a structure of hyperbolic 3-space $H^3$. 
+is identified with the space of boost maps; concretely, every element of $SO^+(1, 3)/SO(3)$ may be uniquely expressed as a composite of a rotation followed by a boost map. Topologically, the space of boost maps is $\mathbb{R}^3$ or a $3$-ball, hence contractible, and from the long exact homotopy sequence applied to the fibration 
+
+$$SO(3) \to SO^+(1, 3) \to SO^+(1, 3)/SO(3)$$ 
+
+we deduce that the inclusion $i: SO(3) \to SO^+(1, 3)$ is a homotopy equivalence. 
+
+Similarly the lift to the double covers $SU(2) \to SL_2(\mathbb{C})$ is a homotopy equivalence. Since $SU(2) \cong S^3$ is identified with the space of unit quaternions, $SU(2)$ and $SL_2(\mathbb{C})$ are simply connected and hence the respective universal covering spaces of $SO(3)$ and $SO^+(1, 3)$. 
+
+* **Remark:** Geometrically the space of boosts carries hyperbolic structure as well, in other words the space of boosts carries a structure of hyperbolic 3-space $H^3$. 
 
 ## Lie algebra presentations 
 
@@ -106,7 +134,7 @@ describe rotational flows (around the $z$-, $x$-, and $y$-axes respectively), an
 
 $$M_{01} = x\partial_t + t\partial_x \qquad M_{02} = y\partial_t + t\partial_y \qquad M_{03} = z\partial_t + t\partial_z$$ 
 
-describe hyperbolic or boost flows, (where the boosts are in the directions of the $x$-, $y$-, and $z$-axes, respectively). One may easily compute the commutators by hand and reproduce the standard formula given in physics texts: 
+describe hyperbolic or boost flows, (where the boosts are in the directions of the $x$-, $y$-, and $z$-axes, respectively). One may easily compute the commutators by hand and reproduce the standard gobbledygook formula given in physics texts: 
 
 $$[M_{\mu\nu}, M_{\rho\sigma}] = \eta_{\mu\rho} M_{\nu\sigma} - \eta_{\mu\sigma} M_{\nu\rho} - \eta_{\nu\rho} M_{\mu\sigma} + \eta_{\nu\sigma} M_{\mu\rho}$$ 
 
