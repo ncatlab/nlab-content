@@ -124,11 +124,11 @@ We define a pro-monoidal $V$-category $\mathfrak{P}=(A,P,J,\lambda,\rho,\alpha)$
 
 and natural isomorphisms
 
-1. $\lambda_{ab}:J(x) \otimes P(b,a \diamond x)\to A(b,a)$
+1. $\lambda_{ab}:\int^x (J(x) \otimes P(b,a \diamond x))\to A(b,a)$
 
-1. $\rho_{ab}: J(x)\otimes P(b,x \diamond a)\to A(b,a)$
+1. $\rho_{ab}: \int^x ( J(x)\otimes P(b,x \diamond a))\to A(b,a)$
 
-1. $\alpha_{abcd}: P(x,a\diamond b)\otimes P(d,x\diamond c) \to P(x,b\diamond c)\otimes P(d,a\diamond x)$
+1. $\alpha_{abcd}: \int^x (P(x,a\diamond b)\otimes P(d,x\diamond c)) \to \int^x(P(x,b\diamond c)\otimes P(d,a\diamond x))$
 
 Satisfying some coherence diagrams (omitted, see references).
 
