@@ -162,3 +162,6 @@ Section 1.5, 1.6 of
 
 [[!redirects archimedean]]
 [[!redirects non-archimedean]]
+
+[[!redirects non-archimedean valuation]]
+[[!redirects non-archimedean valuations]]
