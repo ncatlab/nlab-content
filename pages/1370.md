@@ -30,7 +30,7 @@ Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new proje
 
 * A Joyal, _Notes on quasicategories_, ([draft](http://www.math.uchicago.edu/~may/IMA/Joyal.pdf))
 
-* A. Joyal, M. Tierney, _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf), 
+* A. Joyal, M. Tierney, _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf), [backup pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf)
 
 * A. Joyal, _A letter to Grothendieck_, April 1983 (contains a Quillen model structure on simplicial presheaves). 
 
