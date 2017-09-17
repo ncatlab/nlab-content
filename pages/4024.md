@@ -4,7 +4,7 @@
 
 ## Idea
 
-A _bornological set_ is a notion of space, where instead of considering open sets and continuous functions whose inverse images preserve open sets, one considers bounded sets (which constitute a _bornology_) and bounded maps whose direct images preserve bounded sets. Bornological sets are especially important in functional analysis (see [[bornological space]]). 
+A _bornological set_ is a notion of space, where instead of considering open sets and continuous functions whose inverse images preserve open sets as one does for [[topological space]]s, one considers bounded sets (which constitute a _bornology_) and bounded maps whose direct images preserve bounded sets. Bornological sets are especially important in functional analysis (see [[bornological space]]). 
 
 ## Definition 
 
