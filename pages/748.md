@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -277,13 +277,17 @@ thus identifies it with $\lim F$.
 
 =--
 
-* Remark: One often says "$p$ [[reflected limit|reflects limits]]" to express the conclusion of this proposition. A conceptual way to consider this result is by appeal to a more general one: if $U: A \to C$ is [[monadic functor|monadic]] (i.e., has a left adjoint $F$ such that the canonical comparison functor $A \to (U F)-Alg$ is an equivalence), then $U$ both reflects and preserves limits. In the present case, the projection $p: A = t/C \to C$ is monadic, is essentially the category of algebras for the monad $T(-) = t + (-)$, at least if $C$ admits binary coproducts. (Added later: the proof is even simpler: if $U: A \to C$ is the underlying functor for the category of algebras of an _endofunctor_ on $C$ (as opposed to algebras of a monad), then $U$ reflects and preserves limits; then apply this to the endofunctor $T$ above.) 
++-- {: .num_remark}
+###### Remark
 
+One often says "$p$ [[reflected limit|reflects limits]]" to express the conclusion of this proposition. A conceptual way to consider this result is by appeal to a more general one: if $U: A \to C$ is [[monadic functor|monadic]] (i.e., has a left adjoint $F$ such that the canonical comparison functor $A \to (U F)-Alg$ is an equivalence), then $U$ both reflects and preserves limits. In the present case, the projection $p: A = t/C \to C$ is monadic, is essentially the category of algebras for the monad $T(-) = t + (-)$, at least if $C$ admits binary coproducts. (Added later: the proof is even simpler: if $U: A \to C$ is the underlying functor for the category of algebras of an _endofunctor_ on $C$ (as opposed to algebras of a monad), then $U$ reflects and preserves limits; then apply this to the endofunctor $T$ above.) 
+
+=--
 
 +-- {: .num_prop }
 ###### Proposition
 
-For $C$ a category, $X : D \to C$ a [[diagram]], $C/X$ the [[comma category]] (over-category if $D$ is the point) and $F : K \to C/X$ a diagram in the comma category, then the limit $\lim_{\leftarrow} F$ in $C/X$ coincides with the limit $\lim_{\leftarrow} F/X$ in $C$. 
+For $\mathcal{C}$ a [[category]], $X \;\colon\; \mathcal{D} \longrightarrow \mathcal{C}$ a [[diagram]], $\mathcal{C}_{/X}$ the [[comma category]] (the over-category if $\mathcal{D}$ is the point) and $F \;\colon\; K \to \mathcal{C}_{/X}$ a [[diagram]] in the [[comma category]], then the [[limit]] $\underset{\leftarrow}{\lim} F$ in $\mathcal{C}_{/X}$ coincides with the limit $\underset{\leftarrow}{\lim} F/X$ in $\mathcal{C}$. 
  
 =--
 
