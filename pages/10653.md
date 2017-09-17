@@ -14,10 +14,7 @@ $$
   \,.
 $$
 
-
-## Related concepts
-
-* [[regulator of a number field]]
+The analog of this for more general [[algebraic varieties]] over $K$ is the _[[Birch and Swinnerton-Dyer conjecture]]_.
 
 ## References
 
