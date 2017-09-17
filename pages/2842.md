@@ -71,7 +71,7 @@ make one of the standard Quillen [[model category]] structures on the category [
 
 ### Interaction with pullbacks
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let
@@ -107,7 +107,7 @@ $$
 
 This is stated and proven in ([Kieboom](#Kieboom)).
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 The [[product]] of two closed cofibrations is a closed cofibration.
