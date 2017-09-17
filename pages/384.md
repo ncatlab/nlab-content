@@ -25,7 +25,7 @@ This means in particular that _every_ ([[Hausdorff topological space|Hausdorff]]
 
 ## Definition
 
-A CW-complex is a topological spaces $X$ equipped with a sequence of spaces and continuous maps
+A CW-complex is a topological space $X$ equipped with a sequence of spaces and continuous maps
 
 \[\label{CW1}\varnothing = X_{-1} \hookrightarrow X_0 \hookrightarrow X_1 \hookrightarrow \ldots \hookrightarrow X_n \hookrightarrow \ldots
 \]
