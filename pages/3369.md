@@ -206,15 +206,15 @@ $$
 
 Taking such a colimit may be thought of as forming the space of [[section]]s of the action functional $n$-vector bundle $\exp(S(-)) : P \to C$. That this is the right general idea was maybe first amplified in
 
-* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115)
+* [[Dan Freed]], _Higher Algebraic Structures and Quantization_ ([arXiv:hep-th/9212115](http://arxiv.org/abs/hep-th/9212115).
 
-a first more categorical formulation of this is in
+A first more categorical formulation of this is in
 
 * [[Simon Willerton]] _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv:math/0503266](http://arxiv.org/abs/math.QA/0503266))
 
 What exactly the functor $\int : Fam_n(C) \to C$ does to [[k-morphism]]s is apparently left as an exercise for the inclined reader. it requires that in $C$ limits and colimits coincide. This is the case notably for $C = Vect$.
 
-The authors indicate in section 8 a general recursive procedure for defining higher categories of higher vector spaces, by izterating the bimodule-style definition of [[2-vector space]]s, as described there. This yields a notion $C = n Vect$, which should be the right codomain for $n$-dimensional QFTs. So we end up with a diagram
+The authors indicate in section 8 a general recursive procedure for defining higher categories of higher vector spaces, by iterating the bimodule-style definition of [[2-vector space]]s, as described there. This yields a notion $C = n Vect$, which should be the right codomain for $n$-dimensional QFTs. So we end up with a diagram
 
 $$
   \array{
