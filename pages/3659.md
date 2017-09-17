@@ -56,9 +56,9 @@ $\phi_E$ is a Schwinger function, $\phi_M$ is a Wightman field and $\Omega$ is t
 See theorem 6.15 in the book by Glimm and Jaffe (see references).
 
 ## references
-The main reference is the classic textbook about constructive quantum field theory:
+The main reference is the classic textbook about [[constructive quantum field theory]]:
 
-* Glimm, James; Jaffe, Arthur: "Quantum physics. A functional integral point of view." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0461.46051&format=complete))
+* Glimm, James; Jaffe, Arthur: [[Quantum physics: a functional integral point of view]]
 
 [[!redirects Osterwalder-Schrader theorem]]
 [[!redirects Osterwalder–Schrader theorem]]
