@@ -19,19 +19,23 @@
 
 ## Idea
 
-Th term _stack_ is a traditional synony for [[2-sheaf]], or usually rather for [[(2,1)-sheaf]]:
+Th term 1-stack, sometimes simply __stack__, is a traditional synonym for [[2-sheaf]] (in the same literature "sheaf of categories" would mean a strict 2-sheaf). Often it is an abbreaviation for stack in groupoids which is a [[(2,1)-sheaf]]:
 
 it is a [[1-truncated]] [[(∞,1)-sheaf]]/[[∞-stack]].
 
-More concretely this means that a stack on a [[site]] $S$ (or more generally [[(2,1)-site]] $S$ for [[derived stack]]s) is 
+More generally $n$-stack corresponds to $(n+1)$-sheaf.
 
-* a ([[pseudofunctor|pseudo]]-)[[functor]] from  $S^{op}$ to the 2-category [[Cat]] of categories or [[Grpd]] of groupoids;
+More concretely this means that a 1-stack on a [[site]] $S$ (or more generally [[(2,1)-site]] or even (2,2)-site $S$) is 
 
-* that satisfies [[descent]].
+* a ([[pseudofunctor|pseudo]]-)[[functor]] from  $S^{op}$ to the 2-category [[Cat]] of categories,
 
-In the latter case, the stack is sometimes referred to as a stack of groupoids. This is the more commonly occurring case so the term 'stack' has come to mean 'stack of groupoids' in much of the literature. 
+* that satisfies [[descent]] for all covers.
+
+If the pseudofunctor takes values in the 2-subcategory [[Grpd]]$\subset Cat$ of groupoids, the stack is sometimes referred to as a stack of groupoids. This is the more commonly occurring case so the term 'stack' has come to mean 'stack of groupoids' in much of the literature. 
 
 In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[diffeological space]]s are only beginning to be investigated more in [[Lie theory]]. 
+
+Algebraic stack, differentiable stack etc. are 1-stacks over a site of schemes or differentiable manifolds with addiitonal representability conditions. 
 
 
 ## Provisional discussion
@@ -112,11 +116,8 @@ Special kinds of stacks include
 
 ## References
 
-Introductory material is
-
-* [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
-
 * [[Ieke Moerdijk]], _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
+* [[Jochen Heinloth]], _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~hm0002/stacks.pdf))
 
 The article
 
