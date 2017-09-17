@@ -182,7 +182,7 @@ is also infinitesimal whenever $n \geq N$ and $h$ is infinitesimal.  Fixing any 
 On the other hand, in the light of nonstandard analysis, we can also reevaluate Cauchy\'s original claim.  Cauchy himself, when confronted with counterexamples such as the Fourier series, denied that the sequence of functions converged everywhere.  One interpretation of this is that it fails to converge at some nonstandard points.  By this analysis, Cauchy\'s notion of convergence everywhere is our modern notion of uniform convergence, not pointwise convergence, and his theorem is true (and his proof correct).
 
 
-## Remarks by Lakatos
+## Lakatos\'s view
 
 In his experimental textbook _[[Proofs and Refutations]]_, [[Imre Lakatos]] used Cauchy\'s mistake to motivate the concept of uniform convergence.  Two years later, he partially reevaluated his discussion in light of the question of what Cauchy\'s conception of the continuum was.
 
@@ -191,8 +191,6 @@ $$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} ,$$
 Cauchy states that the sequence
 $$ \sum_{k = 1}^n \frac{\sin(k x)}{k} $$
 of partial sums fails to converge when $x = 1/n$; that is, $x$ is a variable whose value depends on the position in the sequence!
-
-...
 
 
 ## References
