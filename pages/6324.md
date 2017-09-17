@@ -1,5 +1,6 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Arthur_Wightman)
+* [a biography at princeton.edu](https://www.princeton.edu/physics/arthur-wightman)
 
 ## related $n$Lab entries
 
