@@ -10,7 +10,7 @@
 
 ## Idea
 
-For ordinary [[categories]] there is the notion of 
+For ordinary [[categories]] there is t^he notion of 
 
 1. [[Grothendieck fibration]] between two categories. 
 
@@ -27,9 +27,9 @@ rspectively.
 
 ## Definition
 
-A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if it has the [[right lifting property]] with respect to all [[horn]] inclusions $\Lambda[n]_k \to \Delta[n]$ except the right outer ones: $0 \leq k \lt n$. 
+A [[morphism]] of [[simplicial set]]s $f : X \to S$ is a **left fibration** or **left Kan fibration** if it has the [[right lifting property]] with respect to all [[horn]] inclusions $\Lambda[n]_k \to \Delta[n]$ except possibly the right outer ones: $0 \leq k \lt n$. 
 
-It is a **right fibration** or **right Kan fibration** if its extends against all horns except the left outer ones: $0 \lt k \leq n$.
+It is a **right fibration** or **right Kan fibration** if its extends against all horns except possibly the left outer ones: $0 \lt k \leq n$.
 
 So $X \to S$ is a left fibration precisely if for all commuting squares
 
@@ -256,7 +256,6 @@ $$
 
 commute. For $Y = *$ the [[point]] this can be rephrased as saying that the 
 universal morphism $E^I \to B^I \times_B E$ induced by the commuting square
-commuting square
 
 $$
   \array{
