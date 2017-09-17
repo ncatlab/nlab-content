@@ -64,7 +64,7 @@ $H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
 
 ## Related concepts
 
-* [[Steenrod square]]
+* [[Steenrod squares]], [[cohomology operation]]
 
 
 ## References
