@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -10,7 +20,7 @@ The _projective linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some 
 
 ## Examples
 
-* $PGL(2)$ is equivalent to the [[Möbius group]]
+* $PGL(2)$ has a canonical [[action]] on the [[upper half plane]] and as such is equivalent to the [[modular group]] of [[Möbius transformations]]
 
 ## Related concepts
 
@@ -23,4 +33,3 @@ The _projective linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some 
 ## References
 
 Wikipediam _[Projective linear group](https://en.wikipedia.org/wiki/Projective_linear_group)_
-
