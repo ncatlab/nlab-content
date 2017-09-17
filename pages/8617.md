@@ -1,0 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include synthetic complex geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _complex analytic space_ is the notion of _[[analytic space]]_ in [[complex geometry]]; the generalization of the notion of [[complex manifold]] to spaces with [[singularities]].
+
+## Definition
+
+A _complex analytic test space_ is a common vanishing locus of a set of [[holomorphic functions]] $\mathbb{C}^n \to \mathbb{C}$. This is naturally a [[locally ringed space]] over the [[complex numbers]] $\mathbb{C}$. A complex analytic space is a [[locally ringed space]] over $\mathbb{C}$ that is locally isomorphic to such a complex analytic test space.
+
+
+[[!redirects complex analytic spaces]]
