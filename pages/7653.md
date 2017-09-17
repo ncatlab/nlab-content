@@ -3026,7 +3026,7 @@ An entry with discussion of and list of examples of twisted differential structu
 
 The string-theoretic aspects of the above discussion owe a lot to [[Hisham Sati]], who has pointed out the appearance of various twisted structures in string theory, notably in the series of articles
 
-* _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arXiv:1007.5419](http://arxiv/1007.5419)); part _III: Twisted higher structures_ ([arXiv:1008.1755](http://arxiv.org/abs/1008.1755))
+* [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arXiv:1007.5419](http://arxiv/1007.5419)); part _III: Twisted higher structures_ ([arXiv:1008.1755](http://arxiv.org/abs/1008.1755))
 
 The notion of [[twisted cohomology]] by sections of twisting coeffcient $\infty$-bundles used here is similar to that in 
 
@@ -3040,7 +3040,9 @@ The fundamental observation that background gauge fields in string theory are mo
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
  {#Freed}
 
-and literature referenced there. For this classical literature, notably on the example of _[[twisted K-theory|twisted]]_ and _[[differential K-theory|differential]] [[K-theory]]_, as well as on _[[orientifolds]]_, see the lists of references provided at these entries.
+and literature referenced there. For this classical literature, notably on the example of _[[twisted K-theory|twisted]]_ and _[[differential K-theory|differential]] [[K-theory]]_, as well as on _[[orientifolds]]_, see the lists of references provided at these entries, notably
+
+* [[Dan Freed]], _K-Theory in Quantum Field Theory_, Current developments in Mathematics (2001) International Press Somerville ([arXiv:math-ph/0206031](http://arxiv.org/abs/math-ph/0206031))
 
 The [[higher dimensional Chern-Simons theory|7d Chern-Simons theory]] that the [[supergravity C-field]] participates in, the relation of the flux quantization to the corresponding [[holographic principle|holographic]] description of the [[self-dual higher gauge field|self-dual]] field on the [[M5-brane]] has been discussed in 
 
@@ -3080,7 +3082,7 @@ The smooth $\infty$-stack refinements of these structures, as discussed above, h
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
  {#NSS}
 
-An attempt at a general theory of such smooth homotopy-type theory is laid out in 
+An attempt at a general theory of such smooth homotopy-types is laid out in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
  {#Schreiber}
