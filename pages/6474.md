@@ -37,7 +37,7 @@ Note we must work with the relative functor because the global Picard functor $P
 
 ## Representability
 
-For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separated]] map, [[finite type]] map of schemes. Many general forms of [[representable functor|representability]] have been proven several of which are given in FGA Explained. Here we list several of the common forms:
+For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separated]] map, [[finite type]] map of schemes. Many general forms of [[representable functor|representability]] have been proven several of which are given in _[[FGA explained]]_. Here we list several of the common forms:
 
 * Suppose $\mathcal{O}_S\to f_*\mathcal{O}_X$ is universally an isomorphism (stays an [[isomorphism]] after any [[base change]]), then we have a comparison of relative Picard functors $Pic_{X/S}\hookrightarrow Pic_{X/S, zar}\hookrightarrow Pic_{X/S, et}\hookrightarrow Pic_{X/S, fppf}$. They are all isomorphisms if $f$ has a section.
 
@@ -53,7 +53,7 @@ For this section suppose $f:X\to S$ is s [[separated morphism of schemes|separat
 
 ## Picard Stack
 
-The *[[Picard stack]]* $\mathcal{Pic}_{X/S}$ is the [[stack]] of invertible sheaves on $X/S$, i.e. the [[fiber category]] over $T\to X$ is the category of [[line bundles]] on $X_T$ (not just their [[isomorphism classes]]). (Hence it is the [[Picard groupoid]] equipped with geometric structure). 
+The *[[Picard stack]]* $\mathcal{Pic}_{X/S}$ is the [[stack]] of invertible sheaves on $X/S$, i.e. the [[fiber category]] over $T\to X$ is the [[groupoid]] of [[line bundles]] on $X_T$ (not just their [[isomorphism classes]]). (Hence it is the [[Picard groupoid]] equipped with geometric structure). 
 
 If $X$ is proper and flat, then $\mathcal{Pic}_{X/S}$ is an [[Artin stack]] since $\mathcal{Pic}_{X/S}=\mathcal{Hom}(X, B\mathbb{G}_m)$ is the [[Hom stack]] which is Artin.
 
@@ -80,9 +80,11 @@ The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]
 * wikipedia [Picard group](http://en.wikipedia.org/wiki/Picard_group)
 * [[Steven Kleiman|Steven L. Kleiman]], _The Picard scheme_, pp. 235--321 in [[FGA explained]], MR2223410 (draft [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s6t3&ifd=15022&down=1&type=lecture_notes)), [arxiv](http://arxiv.org/abs/math/0504020)
 
-* [[The Stacks Project]], _[The Picard stack](http://stacks.math.columbia.edu/tag/0372)_
-
 * [[Akhil Mathew]], _[The Picard Scheme I](http://amathew.wordpress.com/2013/03/19/the-picard-scheme-i/)_, _[The Picard Scheme II: deformation theory](http://amathew.wordpress.com/2013/03/19/the-picard-scheme-ii-deformation-theory/)_
+
+Specifically on the [[Picard stack]]:
+
+* [[The Stacks Project]], _[The Picard stack](http://stacks.math.columbia.edu/tag/0372)_
 
 category: algebraic geometry
 
@@ -91,5 +93,3 @@ category: algebraic geometry
 [[!redirects Picard variety]]
 [[!redirects Picard varieties]]
 
-[[!redirects Picard stack]]
-[[!redirects Picard stacks]]
