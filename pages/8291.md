@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $R$ a [[ring]], let $R$[[Mod]] be the category of $R$-[[modules]].
+
+An **injective module** over $R$ is an [[injective object]] in $R Mod$. 
+
+This is the dual notion of a _[[projective module]]_. For the moment see there for more details.
+
+## Related concepts
+
+* [[injective resolution]]
+
+[[!redirects injective modules]]
