@@ -55,6 +55,8 @@ $$\alpha_a\circ g \simeq f\circ\alpha_b$$
 
 [[Urs Schreiber]]: in any given [[2-category]] you have to specify which 2-morphisms exactly there are supposed to be, what $ \alpha $ exactly you allow between $f$ and $g$. When you ask about components, it seems you are thinking of 2-morphisms specifically in the 2-category [[Cat]]. Here, yes, th allowed 2-morphisms are those that are [[natural transformation]]s between their source and target 1-morphisms, which are [[functor]]s.
 
+[[Eric]]: I think the [[exchange law]] might be what I had in mind.
+
 =--
 
 
