@@ -55,6 +55,23 @@ This is meant for readers who enjoy seeing fundamental physics _naturally_ roote
 
 * **Layer Syn** -- [[abstract general]]: [[syntax]] in [[homotopy type theory|homotopy]]-[[type theory]]
 
+
+### Tabulated index
+ {#TabulatedIndex}
+
+
+
+
+| ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
+|--|--|--|--|--|
+| A flat connection $\nabla$ on $X$ is a rule for sending paths $(x \stackrel{\gamma}{\to} y) \in \Pi X$ to group elements, respecting compositon . 
+| $\nabla \colon \underset{x,y \colon \Pi X}{\sum} \left( x \rightsquigarrow y \right) \to \underset{* \colon \mathbf{B}G}{\sum} (* \rightsquigarrow *)  $  |  $\frac{\Pi(X) \stackrel{\nabla}{\to} \mathbf{B}G}{X \stackrel{\nabla}{\to} \flat \mathbf{B}G}$.| [[flat connection]] | _[Flat connections](#FlatConnections)_ | 
+| A closed differential form $\omega$ is a flat connection $\nabla$ whose underlying bundle is trivial. |  $\begin{aligned} & \flat_{dR} \mathbf{B} G  \coloneqq  \\ & \sum_{\nabla \colon \flat \mathbf{B}G} (UnderlyingBundle(\nabla) = *) \end{aligned}$ | $\array{ \flat_{dR}\mathbf{B}G &\to& \flat \mathbf{B} G \\ \downarrow &pb& \downarrow \\ * &\to& \mathbf{B}G }$  | [[coefficients]] for [[de Rham cohomology|de Rham]] [[hypercohomology]] | _[de Rham coefficients](#deRhamCoefficients)_ |
+| A general connection $\nabla$ is the equivalence between the curvature $curv(\mathbf{c})$ of a bundle $\mathbf{c}$ and a closed differential form $\omega$. | $\nabla \colon \sum_{{\mathbf{c} \colon \mathbf{B}^n \mathbb{G}} \atop { \omega \in \Omega^{n+1}_{cl} }} \left( curv\left(\mathbf{c}\right) = \omega\right) $ | $\array{ \mathbf{B}^n \mathbb{G}_{conn}  &\stackrel{F_{(-)}}{\to}& \Omega^{n+1}_{cl} \\ \downarrow &pb& \downarrow \\ \mathbf{B}^n \mathbb{G} &\stackrel{curv}{\to}& \flat_{dR} \mathbf{B}^{n+1}\mathbb{G}}$  | [[circle n-bundle with connection]] | _[Circle principal n-connections](CirclePrincipalConnections)_ |
+
+
+
+
 ## **Coordinate systems**
  {#CoordinateSystems}
 
@@ -1222,6 +1239,41 @@ In [[physics]], if $X$ is a model for [[spacetime]], then $P X$ may notably be i
 
 =-- 
 
+#### The smooth moduli space of smooth functions
+ {#SmoothModuliSpaceOfSmoothFunctions}
+
+
+In example \ref{SmoothFunctionOnSmoothSpace} we saw that a smooth function on a general [[smooth space]] $X$ is a homomorphism of smooth spaces, def. \ref{HomomorphismOfSmoothSpaces}
+
+$$
+  f \colon X \to \mathbb{R}
+  \,.
+$$
+
+The collection of these forms the [[hom-set]] $Hom_{Smooth0Type}(X, \mathbb{R})$. But by the discussion in _[Smooth mapping spaces](#SmoothMappingSpaces)_ such hom-sets are naturally refined to smooth spaces themselves.
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in Smooth0Type$ a [[smooth space]], we says that the **moduli space of smooth functions** on $X$ is the smooth mapping space def. \ref{SmoothFunctionSpace}
+
+$$
+  [X, \mathbb{R}] \in Smooth0Type
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+We call this a _[[moduli space]]_ because by prop. \ref{UniversalPropertyOfMappingSpace} above and in the sense of remark \ref{MappingSpaceAsModuliSpace} it is such that smooth functions into it _modulate_ smooth functions $X \to \mathbb{R}$.
+
+By prop. \ref{UnderlyingSetOfSmoothMappingSpace} a point $* \to [X,\mathbb{R}^1]$ of the moduli space is equivalently a smooth function $X \to \mathbb{R}^1$.
+
+=--
+
+
 
 #### Outlook
  {#SmoothSpacesOutlook}
@@ -1637,13 +1689,28 @@ What is called _[[logic]]_ is the [[syntax]] for [[n-truncated object in an (inf
 
 #### The type of propositions
 
-* [[propositions as types]]
-
-* [[programs as proofs]]
+* [[propositions as types]], [[programs as proofs]]
 
 * [[computational trinitarianism]]
 
 * [[type of propositions]]
+
+#### Cohesive modality
+
+* [[modal logic]]
+
+* **sharp type** $\sharp A$ 
+
+  maps $X \to \sharp A$ can be arbitrarily kinky ("sharp")
+
+$$
+  DeCohese \colon X \to \sharp X
+$$
+
+spring
+
+
+
 
 
 ## **Differential forms**
@@ -1655,46 +1722,46 @@ Only keyword lists beyond this line. Come back a little later to find more mater
 
 ***
 
+
+
 ### Layer Mod
  {#DifferentialFormsLayerMod}
 
-#### The smooth moduli space of smooth functions
 
-In example \ref{SmoothFunctionOnSmoothSpace} we saw that a smooth function on a general [[smooth space]] $X$ is a homomorphism of smooth spaces, def. \ref{HomomorphismOfSmoothSpaces}
+The smooth _[[differential n-forms]]_ that we introduce below in 
+[spring](#spring) are a generalization of [[smooth functions]]: a _differential 0-form_ is equivalently a smooth function.
+
+Therefore before we introduce differential forms, we first highlight a useful perspective on smooth functions in _[The smooth moduli space of smooth functions](#SmoothModuliSpaceOfSmoothFunctions)_
+
+
+#### Differential 1-forms are smooth incremental path measures
+
+A [[smooth function]] $f \colon X \to \mathbb{R}$ is like a point-measure: for each point $x \colon * \to X$ it gives a value $f(x) \colon * \to \mathbb{R}$.
+
+Instead a smooth function on the [[path space]] $\omega \colon P X \to \mathbb{R}$ is like a line measure. It gives a value for each path
 
 $$
-  f \colon X \to \mathbb{R}
+  \frac{* \stackrel{\vdash \gamma}{\to} P X}{\mathbb{R} \stackrel{\gamma}{\to} X}
   \,.
 $$
 
-The collection of these forms the [[hom-set]] $Hom_{Smooth0Type}(X, \mathbb{R})$. But by the discussion in _[Smooth mapping spaces](#SmoothMappingSpaces)_ such hom-sets are naturally refined to smooth spaces themselves.
+Suppose that measure is smooth and _incremental_ in that if we divide the path into segments $I_i$, then the value of the whole path in the sum of the value of the segments.
 
-+-- {: .num_defn}
-###### Definition
+Then in the limit, the path measure is fixed by knowing what it assigns to an _[[infinitesimal space|infinitesimal path]]_. Such an assignment is called a smooth _[[differential 1-form]]_.
 
-For $X \in Smooth0Type$ a [[smooth space]], we says that the **moduli space of smooth functions** on $X$ is the smooth mapping space def. \ref{SmoothFunctionSpace}
+[[path groupoid]] 
 
 $$
-  [X, \mathbb{R}] \in Smooth0Type
-  \,.
+  \int_{(-)}\omega \colon P_1(X) \to \mathbf{B}\mathbb{R}
 $$
 
-=--
 
-+-- {: .num_remark}
-###### Remark
-
-We call this a _[[moduli space]]_ because by prop. \ref{UniversalPropertyOfMappingSpace} above and in the sense of remark \ref{MappingSpaceAsModuliSpace} it is such that smooth functions into it _modulate_ smooth functions $X \to \mathbb{R}$.
-
-By prop. \ref{UnderlyingSetOfSmoothMappingSpace} a point $* \to [X,\mathbb{R}^1]$ of the moduli space is equivalently a smooth function $X \to \mathbb{R}^1$.
-
-=--
 
 
 
 #### Differential forms on abstract coordinate systems
 
-spring
+We indtroduce the basic concept of a smooth [[differential form]] on a [[Cartesian space]] $\mathbb{R}^n$. Below in _[The smooth universal moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)_ we use this to define differential forms on any [[smooth space]].
 
 +-- {: .num_defn #Differential1FormsOnCartesianSpaces}
 ###### Definition
@@ -1850,7 +1917,7 @@ $$
 
 ### Layer Syn
 
-#### Images in type theory
+#### Images
 
 * [[infinity-image]]
 
@@ -1879,6 +1946,30 @@ $$
   \colon Type
 $$
 
+#### Concretification
+
+$$
+  \begin{aligned}
+    Conc \left( X \colon Type \right) \colon &  Type
+    \\
+    \coloneqq & \sum_{x \colon X} 
+  \end{aligned}
+$$
+
+
+$$
+  \begin{aligned}
+    Conc\;(X \colon Type) \colon & Type
+    \\
+    \coloneqq & 
+    \tilde x \colon \sharp X 
+    \;\vdash\;
+    \left(
+     \left[\sum_{x \colon X} (\tilde x = decohesed(x)) \right]
+    \colon Type
+    \right)
+  \end{aligned}
+$$
 
 ## **Differentiation**
 
@@ -2452,15 +2543,25 @@ variation gives [[Lorentz force]]
 
 (...)
 
-## **flat connections**
+## **Flat connections**
+ {#FlatConnections}
 
 ### Layer Mod
 
+(...)
 
 ### Layer Sem
 
 $$
-  UnderlyingBundle_G \colon \flat \mathbf{B}G \to \mathbf{B}G
+  \frac{\Pi(X) \to \mathbf{B}G}{X \to \flat \mathbf{B}G}
+$$
+
+$$
+  ConstantPaths_{X} \colon X \to \Pi(X)
+$$
+
+$$
+  UnderlyingBundle_{\mathbf{B}G} \colon \flat \mathbf{B}G \to \mathbf{B}G
 $$
 
 ### Layer Syn
@@ -2472,6 +2573,7 @@ $$
 $$
 
 ## **de Rham Coefficients**
+ {#deRhamCoefficients}
 
 ### Layer Mod
 
@@ -2503,16 +2605,16 @@ $$
 
 $$
   \begin{aligned}
-    \flat_{dR}\mathbf{B}G \;\; & (\mathbf{B}G \colon Type)\; \colon Type
+    \flat_{dR}(\mathbf{B}G \colon Type)\; \colon & Type
     \\
-    & \coloneqq
-    \;\;\;\;
-    &  \sum_{\nabla \colon \flat \mathbf{B}G}
+    \coloneqq & 
+     \;\;
+    \sum_{\nabla \colon \flat \mathbf{B}G}
     (  UnderlyingBundle(\nabla) = * )
   \end{aligned}
 $$
 
-## Maurer-Cartan forms
+## **Maurer-Cartan forms**
 
 
 ### Layer Mod
@@ -2551,6 +2653,7 @@ $$
 (...)
 
 ## **Circle-principal connections**
+ {#CirclePrincipalConnections}
 
 ### Layer Mod
 
@@ -2622,12 +2725,44 @@ $$
 
 ### Layer Sem
 
-(...)
+
+set 
+
+$$
+  curv \coloneqq \theta_{\mathbf{B}\mathbb{G}}
+$$
+
+and
+
+$$
+  \array{
+     \mathbf{B}^n \mathbb{G} &\to& \Omega^{n+1}_{cl}(-)
+     \\
+     \downarrow &pb& \downarrow^{\mathrlap{}}
+     \\
+     \mathbf{B}\mathbb{G} 
+       &\stackrel{curv}{\to}&
+     \flat_{dR} \mathbf{B}^2 \mathbb{G}
+  }
+$$
+
+presented by [[ordinary differential cohomomology]]
 
 ### Layer Syn
 
-(...)
 
+$$
+  \begin{aligned}
+    (\mathbf{B}^n \mathbb{G} \colon Type)_{conn} \colon & Type
+    \\
+     \coloneqq &  
+     \sum_{\mathbf{c} \colon \mathbf{B}\mathbb{G}}
+     \sum_{\omega \colon \Omega^{n+1}_{cl}}
+     \left(
+       curv(\mathbf{c}) = \omega
+     \right)
+  \end{aligned}
+$$
 
 ## **First Chern class**
 
