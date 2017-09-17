@@ -1,1 +1,1 @@
-define or explain the  Hausdorff locally convex space?
+&lt; [[hausdorff locally convex space]]
