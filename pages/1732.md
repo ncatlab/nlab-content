@@ -1,14 +1,13 @@
-[[!redirects Approaching Higher Category Theory]]
-This is a book on higher categories:
 
-* [[John Baez]] and [[Peter May]], [[John Baez:Towards Higher Categories|Towards Higher Categories]], Institute for Mathematics and Its Applications, to appear.
+This entry is to record the book collection
+
+* [[John Baez]] and [[Peter May]] (eds.), _[[John Baez:Towards Higher Categories|Towards Higher Categories]]_ , The IMA volumes in Mathematics and its applications, Springer (2010)
+
+on [[higher category theory]].
 
 
-***
-
-#Blog discussion#
-
-* [This Book Needs a Title](http://golem.ph.utexas.edu/category/2009/06/this_book_needs_a_title.html)
 
 
 category: reference
+
+[[!redirects Approaching Higher Category Theory]]
