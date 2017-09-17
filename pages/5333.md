@@ -46,6 +46,8 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
   * **heterotic string theory**
 
+    * [[2d (2,0)-superconformal QFT]]
+
     * [[Green-Schwarz mechanism]]
 
     * [[dual heterotic string theory]]
