@@ -27,10 +27,10 @@ In practice the Fierz identities are mostly relevant for checking whether certai
 
 ## Definition
 
-Given an [[irreducible representation|irreducible]] [[spinor representation]] $S$ of the [[spin group]] $Spin(V)$ and equipped with a [spinor metric](spin+representation#SpinorMetric), what are called _Fierz identities_ are the [[equations]] that express the composite [[isomorphism]]
+Given an [[irreducible representation|irreducible]] [[complex numbers|complex]] [[spinor representation]] $S$ of the [[spin group]] $Spin(V)$ and equipped with a [spinor metric](spin+representation#SpinorMetric), what are called _Fierz identities_ are the [[equations]] that express the composite [[isomorphism]]
 
 $$
-  S \otimes S \simeq S \otimes S^\ast \simeq End(S) \simeq Cl(V)
+  S \otimes S \simeq S \otimes S^\ast \simeq End(S) \subset Cl(V)
 $$
 
 where 
@@ -41,7 +41,7 @@ where
 
 1.  the second isomorphism is the canonical one to the [[endomorphism ring]] of $S$ (using that [[FinVect]] is a [[compact closed category]] );
 
-1. the last one uses the fact that on an [[irreducible representation|irreducible]] [[spinor representation]] the [[endomorphism ring]] is in fact identified with the [[Clifford algebra]].
+1. the last inclusion uses the fact that by the [classification of Clifford algebras](Clifford+algebra#Classification) on an [[irreducible representation|irreducible]] [[spinor representation]] the [[endomorphism ring]] is in fact included in the [[Clifford algebra]].
 
 The traditional way to express this in terms of components is the following.
 
