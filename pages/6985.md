@@ -9,15 +9,16 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-In [[type theory]] a _sum type_ of two [[types]] $A$ and $B$ is the type whose [[terms]] are either terms $a : A$ or terms $b : B$.
+In [[type theory]] a _sum type_ of two [[types]] $A$ and $B$ is the type whose [[terms]] are either terms $a\colon A$ or terms $b\colon B$.
 
-In a [[model]] of the type theory in [[categorical semantics]] a product type maps to a categorical [[coproduct]].
+In a [[model]] of the type theory in [[categorical semantics]] this is a [[coproduct]]. In [[set theory]], it is a [[disjoint union]].
+
 
 ## Related concepts
 
@@ -25,4 +26,6 @@ In a [[model]] of the type theory in [[categorical semantics]] a product type ma
 
 * [[dependent sum type]]
 
-[[!redirects product types]]
+
+[[!redirects sum type]]
+[[!redirects sum types]]
