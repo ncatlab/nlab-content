@@ -111,6 +111,17 @@ See also
 
 (which is mainly tailored toward Thurston's approach). 
 
+### Orbifold cobordism
+
+Orbifold [[cobordisms]] are discussed in 
+
+* K. S. Druschel, _Oriented Orbifold Cobordism_, Pacific J. Math., 164(2) (1994), 299-319.
+
+* K. S. Druschel, _The Cobordism of Oriented Three Dimensional Orbifolds_, Pacific J. Math., bf 193(1) (2000), 45-55.
+
+* Andres Angel, _Orbifold cobordism_ ([pdf](http://www.math.uni-bonn.de/people/aangel79/Orbifold%20cobordism.pdf)) 
+
+See also at _[[orbifold cobordism]]_.
 
 ### In string theory
 
