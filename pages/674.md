@@ -33,7 +33,7 @@ An __[[umbrella category]]__ is a nonempty category $C$ such that for every obje
 
 ## Properties
 
-If $C$ has a [[terminal object]] $1$, then $U$ is subterminal precisely if the unique morpjism $U \to 1$ is [[monomorphism|monic]]; hence the name "sub-terminal."  
+If $C$ has a [[terminal object]] $1$, then $U$ is subterminal precisely if the unique morphism $U \to 1$ is [[monomorphism|monic]]; hence the name "sub-terminal."  
 
 If the [[product]] $U \times U$ exists, it is equivalent to saying that the  [[diagonal]] $U \to U \times U$ is an [[isomorphism]].
 
