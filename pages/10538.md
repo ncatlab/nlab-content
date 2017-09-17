@@ -3,6 +3,11 @@
 
 * [blog](http://semmibol.wordpress.com/)
 
+## Writing
+
+
+* [[Notes on homotopical algebra]]
+
 category: people
 
 [[!redirects Zhen Lin]]
