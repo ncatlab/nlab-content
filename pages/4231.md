@@ -86,7 +86,7 @@ In the following, let $J : PSh(A) \to Cyl(A)$ be a choice of functorial cylinder
 +-- {: .num_defn}
 ###### Definition
 
-For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say a **$J$-homotopy** between them is a [[left homotopy]] between with with respect to the chosen cylinder object $J$.
+For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say an **elementary $J$-homotopy** $f \Rightarrow g$ from $f$ to $g$ [[left homotopy]] from $f$ to $g$ with respect to the chosen cylinder object $J$. We say **$J$-homotopy** for the [[equivalence relation]] _generated_ by this.
 
 =--
 
@@ -95,7 +95,7 @@ For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say a **$J$-homotopy** between
 +-- {: .num_prop}
 ###### Proposition
 
-$J$-homotopy defines an [[equivalence relation]] on morphisms in $PSh(A)$ which is compatible with composition in $PSh(A)$, so that the quotient category $Ho_J(A)$ exists. 
+$J$-homotopy is compatible with composition in $PSh(A)$, so that the quotient category $Ho_J(A)$ exists. 
 
 =--
 
@@ -112,10 +112,10 @@ An object $X \in PSh(A)$ is called **$J$-contractible** if $X \to *$ is a $J$-ho
 
 ([Cisinski 06, def. 1.3.4](#Cisinski06)).
 
-+-- {: .num_defn}
++-- {: .num_defn #AcyclicFibration}
 ###### Definition
 
-A morphism $f : X \to Y$ in $PSh(A)$ is called a **trivial fibration** if it has the [[right lifting property]] against all monomorphisms.
+A morphism $f : X \to Y$ in $PSh(A)$ is called an **acyclic fibration** if it has the [[right lifting property]] against all monomorphisms.
 
 =--
 
@@ -182,7 +182,7 @@ For $J$ an elementary homotopical datum on $PSh(A)$, a **[[class]] of [[anodyne 
      AnExt = LLP(RLP(S))
    $$
   
-1. for $K \hookrightarrow L$ a monomorphism, the [[pushout-product axiom|pushout product]] morphisme
+1. for $K \hookrightarrow L$ a monomorphism, the [[pushout-product axiom|pushout product]] morphism
 
    $$
      J \otimes K \cup \{e\} \otimes L \to J \otimes L
@@ -263,7 +263,23 @@ With the classes of morphisms as in def. \ref{ModelStructureFromHomotopicalStruc
 
 ([Cisinski 06, theorem 1.3.22](#Cisinski06)).
 
+The following two statements say that the terminology introduced so far is indeed consistent with the meaning of this theorem.
 
++-- {: .num_prop }
+###### Proposition
+
+The morphisms called _acyclic fibrations_ in def. \ref{AcyclicFibration} are indeed precisely the acyclic fibration with respect to the model structure of theorem \ref{ModelStructureFromHomotopicalStructure}.
+
+=--
+
+([Cisinski 06, theorem 1.3.27](#Cisinski06)).
+
++-- {: .num_prop }
+###### Proposition
+
+Every anodyne extension, def. \ref{AnodyneExtensions}, is a weak equivalence in the model structure of theorem \ref{ModelStructureFromHomotopicalStructure}.
+
+=--
 ## Examples
 
 * The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]].
