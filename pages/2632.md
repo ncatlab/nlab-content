@@ -283,7 +283,11 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[quantum measurement]]
 
-  * [[EPR paradox]]
+  * [[hidden variable theory]], 
+
+    * [[EPR paradox]], [[Bell's inequalities]]
+
+    * [[Kochen-Specker theorem]]
 
   * [[Born-Oppenheimer approximation]]
 
