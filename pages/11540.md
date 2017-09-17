@@ -52,8 +52,8 @@ Let $F : C \rightleftarrows C' : G$ be an [[adjoint pair]] and consider the indu
 * $F_!$ is left adjoint to $G_!$,
 * $F^*$ is left adjoint to $G^*$,
 * $F_*$ is left adjoint to $G_*$,
-* $F_! = G^*$,
-* $F^* = G_*$.
+* $F_* = G^*$,
+* $F^* = G_!$.
 =--
 
 Note that all these claims are in fact equivalent.
