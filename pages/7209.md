@@ -1,0 +1,6 @@
+
+## References
+
+* wikipedia, _[Maximal compact subgroup](http://en.wikipedia.org/wiki/Maximal_compact_subgroup)_
+
+[[!redirects maximal compact subgroups]]
