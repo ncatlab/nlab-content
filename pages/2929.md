@@ -219,27 +219,41 @@ In the other direction, suppose $\mathbf{A}$ is a unitary pretabular allegory.  
 
 * $Map(\mathbf{A})$ has finite products.
 
-* $\mathbf{A}$ has local finite products, and $id_I$ is the top element of $\mathbf{A}(I,I)$.
+* $\mathbf{A}$ has local finite products, and $id_1$ is the top element of $\mathbf{A}(1,1)$.
 
 * The tensor product defined as
 $$ R \otimes S =  (p R p_*) \cap (p' S p'_*) $$
 is functorial, where $p$ and $p'$ are the appropriate product projections.
 
-For the first condition, the existence of a unit $I$ implies that $I$ is terminal in $Map(\mathbf{A})$, and the tabulation of the top element of $\mathbf{A}(X,Y)$ is the product cone $X \leftarrow X \times Y \to Y$.  For the second, local meets are given as part of the allegory structure, and the definition of a unit object gives top elements and the second part of the condition.
+For the first condition, the existence of a unit $1$ implies that $1$ is terminal in $Map(\mathbf{A})$, and the tabulation of the top element of $\mathbf{A}(X,Y)$ is the product cone $X \leftarrow X \times Y \to Y$.  For the second, local meets are given as part of the allegory structure, and the definition of a unit object gives top elements and the second part of the condition.
 
-The third condition is a little trickier.  For identity morphisms, it says that $p p_* \cap p' p'_* = 1$, which follows because $(p,p')$ tabulates the top element of the relevant hom set.  Now suppose that $R, S \colon X \to Y$ and $R', S' \colon Y \to Z$.  The composition condition for the tensor product requires that
+The third condition is a little trickier.  For identity morphisms, it says that $p p_* \cap p' p'_* = 1$, which is true because $(p,p')$ tabulates the top element of the relevant hom set.  Now suppose that $R, S \colon X \to Y$ and $R', S' \colon Y \to Z$.  The composition condition for the tensor product requires that
 $$ p R R' p_* \cap p' S S' p'_*
    = (p R p_* \cap p' S p'_*) (p R' p_* \cap p' S' p'_*) $$
 We may interpret the LHS as
-$$ (\exists y. R x y \wedge R' y z) \wedge (\exists y'. S x' y' \wedge S' y' z')
+$$ (x',z')^* (\exists y. z^* R x y \wedge x^* R' y z) \wedge (x,z)^* (\exists y'. z'^* S x' y' \wedge x'^* S' y' z')
 $$
 and the right as
 $$
-\exists y, y'. (R x y \wedge S x' y') \wedge (R' y z \wedge S' y' z')
+\exists y, y'. (z,z')^* ((x',y')^* R x y \wedge (x,y)^*S x' y') \wedge (x,x')^* ((y',z')^* R' y z \wedge (y,z)^* S' y' z')
 $$
-where applications of pullback functors have been left implicit.  But recall from [[allegory]] that existential formulas may be interpreted equally as either compositions or more complicated morphisms involving product projections and diagonals.  Applying this to the morphisms above, the proof we are after follows by two uses of [[Frobenius reciprocity]] and some [[Beck-Chevalley conditions]].
+where $x^*, (x,y,\ldots)^*$ etc. represent pullback along (i.e. composition with) a product projection. But recall from [[allegory]] that existential formulas may be interpreted equally as either compositions or more complicated morphisms involving product projections and diagonals.  Applying this to the morphisms above, the result we want follows from [[Frobenius reciprocity]], which is a special case of the modular law, and some [[Beck-Chevalley conditions]]:
+$$
+\begin{aligned}
+& (x',z')^* (\exists y. z^* R x y \wedge x^* R' y z) \wedge (x,z)^* (\exists y'. z'^* S x' y' \wedge x'^* S' y' z') \\
+& = (\exists y. (z,x',z')^* R x y \wedge (x,x',z')^* R' y z) \wedge (\exists y'. (x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')  \\
+& = \exists y. ((z,x',z')^* R x y \wedge (x,x',z')^* R' y z \wedge y^* \exists y'. (x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')  \\
+& = \exists y. ((z,x',z')^* R x y \wedge (x,x',z')^* R' y z \wedge \exists y'. y^* ((x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')) \\
+& = \exists y, y'. (y'^*((z,x',z')^* R x y \wedge (x,x',z')^* R' y z) \wedge y^* ((x,z,z')^* S x' y' \wedge (x,z,x')^* S' y' z')) \\
+& = \exists y, y'. ((y,z,x',z')^* R x y \wedge (x,y,x',z')^* R' y z \wedge ((x,y,z,z')^* S x' y' \wedge (x,y,z,x')^* S' y' z')) \\
+& = \exists y, y'. (z,x',y',z')^* R x y \wedge  (x,y,z,z')^* S x' y' \wedge (x,x',y',z')^* R' y z \wedge (x,y,z,x')^* S' y' z') \\
+& = \exists y, y'. (z,z')^* ((x',y')^* R x y \wedge (x,y)^*S x' y') \wedge (x,x')^* ((y',z')^* R' y z \wedge (y,z)^* S' y' z')
+\end{aligned}
+$$
+The Beck--Chevalley swap in the second line holds because there $\exists$ is expressed by post-composition with a projection, and pullback/substitution by precomposition, and these automatically commute in a 2-category.  That in line 4 is valid because it amounts to the identity $\epsilon_{Y'}\epsilon^o_Y = p'_* p$, where $p$ and $p'$ are the projections out of $Y \times Y'$.
 
-_TODO: Frobenius condition_
+
+Finally, the modular law implies [[Frobenius reciprocity]], which implies the Frobenius laws as shown at _loc. cit._
 
 =--
 
