@@ -1,3 +1,14 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:to}
+
+## Definition
+
 **Base change** is another term for [[pullback]] of a morphism:
 
 +--{+ .query}
@@ -23,7 +34,7 @@ Here we think of the morphism $Y \to X$ as a [[bundle]] over $X$, so base change
 
 The concept of base change generalises from this case to other [[fibered category|fibred categories]].
 
-#Remarks#
+## Remarks
 
 * The [[duality|dual]] concept is [[cobase change]].
 
