@@ -131,7 +131,7 @@ Other and later references include
 * Booth, Peter I.; Heath, Philip R.; Piccinini, Renzo A.
 Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
 
-* [[Peter May]], _A concise course in algebraic topology_, Chapter 5 [file, revised version](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
+* [[Peter May]], _[[A concise course in algebraic topology]]_, Chapter 5
 
 
 [[!redirects compactly generated spaces]]
