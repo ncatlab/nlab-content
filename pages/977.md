@@ -42,7 +42,7 @@ There are two different notions of _dense [[subcategory]]_ $D$ of a given [[cate
 
 ## References
 
-See the relevant section of MacLane's [[Categories for Working Mathematician]]. 
+See the relevant section of MacLane's [[Categories for the Working Mathematician]]. 
 
 [[!redirects dense subcategories]]
 
