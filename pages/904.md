@@ -203,9 +203,9 @@ See at _[singular homology -- Relation to homotopy groups](singular%20homology#R
 
 ### Relation to universal covers
 
-There is a relation to [[universal cover|universal covers]]: The group of cover automorphisms of a universal cover is isomorphic to the fundamental group of the covered space. This is used to establish a [[the fundamental group and Galois theory|link between Galois theory and fundamental groups]]. This version of the fundamental group is sometimes called the Chevalley or algebraic fundamental group of the space. 
+There is a relation to [[universal cover|universal covers]]: The group of cover automorphisms of a universal cover is isomorphic to the fundamental group of the covered space. This is used to establish a [[the fundamental group and Galois theory|link between Galois theory and fundamental groups]]. This version of the fundamental group is sometimes called the [[Chevalley fundamental group|Chevalley]] or [[algebraic fundamental group]] of the space. 
 
-In [[Grothendieck's Galois theory]], the role of the basepoint is replaced by considering a 'fibre functor' $F:\mathcal{C}\to Sets$ or to $FinSets$, where $\mathcal{C}$ is the category of coverings of the given space.
+In [[Grothendieck's Galois theory]], the role of the basepoint is replaced by considering a 'fibre functor' $F:\mathcal{C}\to Sets$ or to $FinSets$, where $\mathcal{C}$ is the category of coverings of the given space. This theory extends to other situations and the term [[algebraic fundamental group]] is used in particular for the case of [[scheme]]s (of a suitable type); see (SGA1).
 
 
 ## Generalizations
