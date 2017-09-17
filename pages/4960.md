@@ -35,7 +35,7 @@ Conversely, the [[left adjoint]] and [[right adjoint]] of $\Gamma$
 
 $$
   \mathcal{E} 
-    \stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
+    \stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{Codisc}{\leftarrow}}}
   Set
 $$
 
@@ -48,7 +48,7 @@ In total this gives an [[adjoint quadruple]]
    $$
     (\Pi_0 \dashv Disc \dashv \Gamma \dashv Codisc) : 
     \mathcal{E}
-     \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
+     \stackrel{\stackrel{\overset{\Pi}{\longrightarrow}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\longrightarrow}}{\underset{Codisc}{\leftarrow}}}
     Set
     \;
    $$
@@ -88,6 +88,7 @@ For more general products, it would be a similar map $\Pi_0(\prod_i X_i) \to \pr
 
 ## Definition
 
+### Fundamental  axioms
 
 +-- {: .num_defn #CohesiveTopos}
 ###### Definition
@@ -145,7 +146,7 @@ To reflect the geometric interpretation of these axioms we will here and in rela
 $$
  (\Pi_0 \dashv Disc \dashv \Gamma \dashv coDisc) : 
  \mathcal{E}
-  \stackrel{\stackrel{\overset{\Pi_0}{\to}}{\overset{Disc}{\hookleftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{coDisc}{\hookleftarrow}}}
+  \stackrel{\stackrel{\overset{\Pi_0}{\longrightarrow}}{\overset{Disc}{\hookleftarrow}}}{\stackrel{\underset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\hookleftarrow}}}
   \mathcal{S}
   \,.
 $$
@@ -170,7 +171,10 @@ These endofunctors play a role in the internal characterization of cohesion.
 
 =--
 
-There are several further axioms that one may want to impose in order to formalize the concept of cohesion.
+### Further axioms
+  {#FurtherAxioms}
+
+In addition to the fundamental axioms of cohesion above, there are several further axioms that one may (or may not) want to impose in order to formalize the concept of cohesion.
 
 +-- {: .num_defn #PiecesHavePoints}
 ###### Definition
@@ -220,11 +224,11 @@ This morphism is the [[internal hom]]-[[adjunct]] of
 
 $$
   S \times f_!(X^{f^* S}) 
-   \stackrel{\simeq}{\to}
+   \stackrel{\simeq}{\longrightarrow}
   f_!f^*(S) \times f_!(X^{f^* S})
-   \stackrel{\simeq}{\to}
+   \stackrel{\simeq}{\longrightarrow}
   f_!(f^*(S) \times X^{f^* S})
-  \to
+  \longrightarrow
   f_!(X)
 $$
 
@@ -317,13 +321,13 @@ We have [[commuting diagram]]s, [[natural transformation|natural]] in $X \in \ma
 
 $$
   \array{
-    p_*X  &\stackrel{\eta_{p^* X}^{-1}}{\to}& p_! p^* p_*X
+    p_*X  &\stackrel{\eta_{p^* X}^{-1}}{\longrightarrow}& p_! p^* p_*X
     \\
     {}^{\mathllap{p_*(i_X)}}\downarrow 
     &\searrow^{\mathrlap{\theta_X}}& 
     \downarrow^{\mathrlap{p_!(\eta_X)}}
     \\
-    p_* p^* p_! X &\stackrel{\iota_{p_!X}^{-1}}{\to}& p_! X
+    p_* p^* p_! X &\stackrel{\iota_{p_!X}^{-1}}{\longrightarrow}& p_! X
   }
 $$
 
@@ -331,12 +335,12 @@ and
 
 $$
   \array{
-    p^* S &\stackrel{\iota_{p^* S}}{\to}& p^! p_* p^* S
+    p^* S &\stackrel{\iota_{p^* S}}{\longrightarrow}& p^! p_* p^* S
     \\
     {}^{\mathllap{p^* \epsilon_S^{-1}}}\downarrow 
     &\searrow^{\mathrlap{\phi_X}}& \downarrow^{\mathrlap{p^!(\iota_S^{-1})}}
     \\
-    p^* p_* p^!S  &\stackrel{{\epsilon}_{p_!S }}{\to}& p^!S
+    p^* p_* p^!S  &\stackrel{{\epsilon}_{p_!S }}{\longrightarrow}& p^!S
   }
   \,.
 $$
@@ -385,9 +389,9 @@ By the above definition, $\phi_S$ is a [[monomorphism]] precisely if $\iota_{p^*
 
 $$  
     \mathcal{E}(A,p^* X) 
-     \stackrel{(\iota_{p^* X}) \circ (-)}{\to} 
+     \stackrel{(\iota_{p^* X}) \circ (-)}{\longrightarrow} 
     \mathcal{E}(A, p^! p_* p^* S)
-     \stackrel{\simeq}{\to}
+     \stackrel{\simeq}{\longrightarrow}
     \mathcal{S}(p_* A, p_* p^* S)
 $$
 
