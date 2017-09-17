@@ -1,5 +1,5 @@
 
-**[[higher geometry]]**
+**[[higher geometry]]** / **[[derived geometry]]**
 
 ## Ingredients ##
 
@@ -30,6 +30,10 @@
   * [[geometry (for structured (∞,1)-toposes)]]
 
   * [[generalized scheme]]
+
+* [[(∞,1)-algebraic theory]]
+
+  * [[model structure on simplicial algebras]]
 
 ## Examples
 
