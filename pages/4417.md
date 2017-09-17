@@ -15,6 +15,10 @@ The notion of $\dagger$-graph is to that of [[dagger-category]] as the notion of
 
 ???
 
+
+[[!redirects dagger graph]]
+[[!redirects dagger graphs]]
+
 [[!redirects dagger-graphs]]
 
 [[!redirects †-graph]]
