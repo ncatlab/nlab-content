@@ -146,6 +146,8 @@ obtained by gluing on a rational $n$-sphere. By this kind of translation between
 
 ## Related concepts
 
+* [[signs in supergeometry]]
+
 * [[infinity-Lie algebra cohomology]]
 
 ## References
