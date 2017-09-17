@@ -28,10 +28,13 @@ Every [[(∞,1)-topos]] is a cartesian closed $(\infty,1)$-category. See the sec
 
 ## Related concepts
 
-* [[cartesian closed category]]
+* [[cartesian closed category]], [[locally cartesian closed category]]
 
-* [[locally cartesian closed (∞,1)-category]]
+* [[cartesian closed functor]], [[locally cartesian closed functor]]
 
+* [[cartesian closed model category]], [[locally cartesian closed model category]]
+
+* **cartesian closed (∞,1)-category**, [[locally cartesian closed (∞,1)-category]]
 
 
 [[!redirects cartesian closed (∞,1)-category]]
