@@ -173,7 +173,8 @@ A large body of literature is concerned with particle physics [[string phenomeno
 
 * Chris Beasley, Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
-(...)
+* [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]])
+
 
 ### 4-Form flux and instantons
  {#FluxAndInstantons}
