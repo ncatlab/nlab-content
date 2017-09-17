@@ -20,7 +20,7 @@ This notion of center of a group can be generalized to the center of a [[monoid]
 The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consisting of all elements $ z\in L$ such that $[l,z]=0$ for all $z\in L$. There are generalizations for some other kinds of algebras.
 
 
-### Of categories and higher categories
+### Of categories and higher categories {#OfCategories}
 
 The centre of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the center of a category $C$ is defined to be the commutative monoid $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$.  It is straightforward to check that this reduces to the usual definition if $C$ is a monoid, considered as a one-object category.
 
