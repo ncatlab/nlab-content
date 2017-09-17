@@ -60,6 +60,9 @@ of the double Cartier dual with the original group scheme.
 
 (e.g. [Polishuk, right above (10.1.11)](#Polishchuk), [Hida 00, theorem 1.7.1](#Hida00)) 
 
+## Related concepts
+
+* [[dual abelian group scheme]]
 
 ## References
 
