@@ -67,7 +67,7 @@ It should be closely related to
 A rough pre-preprint is here:
 
 * [[Scott Morrison]] and [[Kevin Walker]], _The Blob Complex_ ([pdf](http://canyon23.net/math/blob1.pdf)
-[web](http://tqft.net/blobs))  [Halloween Contacts](http://www.discount-lenses.com/halloween-contact-lenses.php).
+[web](http://tqft.net/blobs))  
 
 Notes from talks can be found [here](http://canyon23.net/math/talks) and [here](http://tqft.net/UCR-blobs1).
 
