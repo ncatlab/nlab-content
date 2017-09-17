@@ -163,9 +163,9 @@ The following dictionary indicates what the correspondence between the two subje
   [[Freudenthal suspension theorem]]
 
   For example, if $X=[0;0,a_2, a_3,...]$ then 
-  $\Sigma X=[0;0,0,a_2,b_3...]$,
+  $\Sigma X=[0;0,0,a_2,a_3...]$,
   and if $X=[0;0,0, a_3, a_4, a_5,...]$ then 
-  $\Sigma X=[0;0,0, 0, a_3, a_4, b_5,...]$.
+  $\Sigma X=[0;0,0, 0, a_3, a_4, a_5,...]$.
 
   In other words, the canonical map $X \to \Omega X$
   is a $2n$-equivalence if $X$ is $n$-[[connected]] 
