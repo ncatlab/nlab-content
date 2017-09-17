@@ -40,16 +40,17 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 +-- {: .num_example}
 ###### Example
 
-
-* $\mathcal{C}$ is arbitrary, $\mathcal{A}$ is the category of [[abelian groups]] and $\pi$ is $\pi_0 \mathcal{C}(S,-)$ for some object $S\in\mathcal{C}$
+* $\mathcal{C}$ is arbitrary, $\mathcal{A}$ is the category of [[abelian groups]] and $\pi$ is taking the 0th [[homotopy group]] $\pi_0 \mathcal{C}(S,-)$ of the [[mapping spectrum]] out of some [[object]] $S\in\mathcal{C}$
 
 * $\mathcal{C}$ is equipped with a [[t-structure]], $\mathcal{A}$ is the [[heart of a stable (∞,1)-category|heart]] of the t-structure, and $\pi$ is the canonical functor.
 
-* $\mathcal{C} = D(\mathcal{A})$ is the [[derived category]] of the abelian category $\mathcal{A}$ and $\pi=H_0$.
+* $\mathcal{C} = D(\mathcal{A})$ is the [[derived category]] of the abelian category $\mathcal{A}$ and $\pi=H_0$ is the degree-0  [[chain homology]] functor.
 
 * Any of the above with $\mathcal{C}$ and $\mathcal{A}$ replaced by their [[opposite categories]].
 
 =--
+
+### Filtered objects and their cofiber systems
 
 +-- {: .num_defn #GeneralizedFilteredObject}
 ###### Definition
@@ -74,6 +75,143 @@ $$
 $$
 
 We could also consider the sequential diagram as a filtering of its [[homotopy colimit]], but this is really an equivalent point of view since we can replace $\mathcal{C}$ by $\mathcal{C}^{op}$.
+
+
++-- {: .num_defn #ChainComplexInStableInfinityCategory}
+###### Definition
+
+A $\mathbb{Z}$-chain complex in a [[stable (∞,1)-category]] $\mathcal{C}$ is an [[(∞,1)-functor]]
+
+$$
+  F \;\colon\; (\mathbb{Z}, \leq) \times (\mathbb{Z}, \leq) \longrightarrow \mathcal{C}
+$$
+
+such that 
+
+1. for each $n \in \mathbb{Z}$, $F(n,n) \simeq 0$ is the [[zero object]];
+
+1. for all $i \leq j \leq k$ the induced [[diagram]]
+
+   $$
+     \array{
+        F(i,j) &\longrightarrow& F(i,k)
+        \\
+        \downarrow && \downarrow
+        \\
+        F(j,j) &\longrightarrow& F(j,k)
+     }
+   $$
+
+   is a [[homotopy pushout]] square.
+
+=--
+
+([[Higher Algebra|Higher Algebra, def. 1.2.2.2]])
+
+
++-- {: .num_remark}
+###### Remark
+
+There is a dual notion with [[homotopy pushouts]] replaced by [[homotopy pullbacks]]]. In the following we are freely switching between the two dual pictures...
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Given a chain complex $F$ in $\mathcal{C}$ as in def. \ref{ChainComplexInStableInfinityCategory}, 
+setting
+
+$$
+  C_n \coloneqq \Sigma^{-n} F(n-1,n)
+$$
+
+and defining a [[differential]] induced from the [[connecting homomorphisms]] of the defining [[homotopy cofiber sequences]]
+
+$$
+  F(n-1,n) \to F(n-1, n+1) \to F(n,n+1)
+$$
+
+yields an ordinary [[chain complex]] $C_\bullet$ in the [[homotopy category of an (∞,1)-category|homotopy category]].
+
+=--
+
+([[Higher Algebra|Higher Algebra, remark 1.2.2.3]])
+
++-- {: .num_prop #ChainComplexesFromFilteredObjects}
+###### Proposition
+
+Consider the inclusion of [[posets]]
+
+$$
+  (\mathbb{Z}, \leq)
+  \to 
+  (\{-\infty\}\cup\mathbb{Z}, \leq) \times (\{-\infty\}\cup\mathbb{Z}, \leq)
+$$
+
+given by
+
+$$
+  n \mapsto (- \infty, n)
+  \,.
+$$
+
+The induced [[(∞,1)-functor]]
+
+$$
+  Func(\{-\infty\}\cup\mathbb{Z}, \leq) \times (\{-\infty\}\cup\mathbb{Z}, \leq)
+  \longrightarrow
+  Func((\mathbb{Z}, \leq), \mathcal{C})
+$$
+
+restricts to an [[equivalence of (∞,1)-categories]] on the chain complexes in $\mathcal{C}$, def. \ref{ChainComplexInStableInfinityCategory}.
+
+
+=--
+
+([[Higher Algebra|Higher Algebra, lemma 1.2.2.4]]).
+
++-- {: .num_remark }
+###### Remark
+
+So under the equivalence of prop. \ref{ChainComplexesFromFilteredObjects} a filtered object
+
+$$
+   \cdots \to X_{n+1} \to X_n \to X_{n-1} \to \cdots \to X
+$$
+
+is identified with the chain complex in the sense of def. \ref{ChainComplexInStableInfinityCategory} which assigns [[homotopy cofibers]]
+
+$$
+   \array{
+     X(-\infty,n) &\stackrel{f_n}{\longrightarrow}& X(-\infty,n+1)
+     \\
+     \downarrow && \downarrow
+    \\
+     0 &\longrightarrow& X(n,n+1)
+  }
+  \;\;
+   = 
+  \;\;
+  \array{
+     X_{n} &\stackrel{f_n}{\longrightarrow}& X_{n+1}
+     \\
+     \downarrow && \downarrow
+    \\
+     0 &\longrightarrow& cofib(f_n)
+  }
+  \,.
+$$
+
+(...)
+
+=--
+
+
+
+
+
+### The spectral sequence
 
 
 +-- {: .num_defn #ExactCoupleForFilteredObject}
@@ -113,33 +251,108 @@ $$
 
 =--
 
-This exact couple gives rise to a bigraded [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in the abelian category $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
+
++-- {: .num_defn }
+###### Definition
+
+Let $X_\bullet$ be a filtered object in the sense of def. \ref{GeneralizedFilteredObject}. Write $X(\bullet,\bullet)$ for the corresponding complex, according to prop. \ref{ChainComplexesFromFilteredObjects}. 
+
+Then for all $i \leq j \leq k$ there is a [[long exact sequence of homotopy groups]] in $\mathcal{A}$ of the form
+
+$$
+  \cdots \to 
+  \pi_n X(i,j) 
+  \to 
+  \pi_n X(i,k)
+  \to 
+  \pi_n X(j,k)
+  \to
+  \pi_{n-1}X(i,j)
+  \to \cdots
+  \,.
+$$
+
+Define then for $p,q \in \mathbb{Z}$ and $r \geq 1$ the object
+
+$$
+  E^{p,q}_r 
+  \coloneqq
+  im
+  \left(
+    \pi_{p+q} X(p-r,p)
+    \to
+    \pi_{p+q} X(p-1, p+r-1)
+  \right)
+  \;\;
+  \in \mathcal{A}
+$$
+
+and define a [[differential]]
+
+$$
+  d_r \;\colon\; E^{p,q}_r \to E^{p-r, q+r-1}
+$$
+
+to be the unique lift if the above [[connecting homomorphisms]] to these [[images]]. 
+
+
+
+=--
+
+
+([[Higher Algebra|Higher Algebra, construction 1.2.2.6]])
+
+
++-- {: .num_prop}
+###### Proposition
+
+This is a bigraded [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in the [[abelian category]] $\mathcal{A}$, functorial in the filtered object $X_\bullet$, with
 
 $$ E_1^{p,q} = \pi_p(F_q), \qquad d_r: E_r^{p,q}\to E_r^{p-1,q-r}. $$
 
-If sequential limits and colimits exist in $\mathcal{A}$, we can form the limiting term $E_\infty^{*,*}$ of this spectral sequence.
+=--
 
-On the other hand, the graded object $\pi_\bullet (X)$ admits a filtration by
+([[Higher Algebra|Higher Algebra, prop. 1.2.2.7]])
+
+If [[sequential limits]] and [[sequential colimits]] exist in $\mathcal{A}$, we can form the limiting term $E_\infty^{*,*}$ of this spectral sequence.
+
+On the other hand, the [[graded object]] $\pi_\bullet (X)$ admits a [[filtered object|filtration]] by
 
 $$ F^q \pi_p (X) = \operatorname{ker}(\pi_p (X)\to \pi_p(X_q)) $$
 
-and we would like to compare $E_\infty^{*,*}$ with the associated graded of this filtration. We say that the spectral sequence **converges weakly** if there is a canonical isomorphism
+and we would like to compare $E_\infty^{*,*}$ with the [[associated graded]] of this filtration. We say that 
+
++-- {: .num_defn #WeakAndStrongConvergence}
+###### Definition
+
+The spectral sequence **converges weakly** if there is a canonical isomorphism
 
 $$ E_\infty^{p,q} \cong F^q\pi_p(X)/ F^{q-1}\pi_p(X) $$
 
-for every $p,q\in\mathbb{Z}$. The meaning of the word *canonical* is somewhat subtle since, in general, there is no map from one side to the other. However, there always exists a canonical *relation* between the two, and we ask that this relation be an isomorphism (see [Hilton-Stammbach, VIII.7](#HiltonStammbach)).
+for every $p,q\in\mathbb{Z}$. 
 
 We say that the spectral sequence **converges strongly** if it converges weakly and if, in addition, the filtration $F^\bullet\pi_p(X)$ is complete on both sides.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The meaning of the word *canonical* in def. \ref{WeakAndStrongConvergence} is somewhat subtle since, in general, there is no map from one side to the other. However, there always exists a canonical *[[relation]]* between the two, and we ask that this relation be an isomorphism (see [Hilton-Stammbach, VIII.7](#HiltonStammbach)).
+
+=--
+
 
 +-- {: .num_prop #FiltrationSpectralSequence}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]] which admits sequential limits. Let $X_\bullet$ be a filtered object in $\mathcal{C}$ such that $X=\underset{\leftarrow}{\lim}_n X_n$ exists. Suppose further that:
+Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]] which admits [[sequential limits]]. Let $X_\bullet$ be a filtered object in $\mathcal{C}$ such that $X=\underset{\leftarrow}{\lim}_n X_n$ exists. Suppose further that:
 
 1. For every $n$, the diagram $r\mapsto \operatorname{fib}(X_{n-r}\to X_n)$ has a limit in $\mathcal{C}$ and that limit is preserved by $\pi$.
 2. For every $n$, $\pi_n(X_r)=0$ for $r\gg 0$.
 
-Then the [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in $\mathcal{A}$ converges strongly to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filted object:
+Then the [[spectral sequence]] $\{E_r^{*,*}\}_{r\geq 1}$ in $\mathcal{A}$ converges strongly to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filtered object:
 
 $$
   E^{p,q}_1
@@ -151,7 +364,7 @@ $$
 
 =--
 
-There is also a dual statement in which limits are replaced by colimits, but it is in fact a special case of the proposition with $\pi$ replaced by $\pi^{op}$. A proof of this proposition (in dual form) is given in ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in [Wilson 13, theorem 1.2.1](#Wilson13).
+There is also a dual statement in which limits are replaced by colimits, but it is in fact a special case of the proposition with $\pi$ replaced by $\pi^{op}$. A proof of this proposition (in dual form) is given in ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in ([Wilson 13, theorem 1.2.1](#Wilson13)).
 
 For the traditional statement in the [[category of chain complexes]] see at _[[spectral sequence of a filtered complex]]_.
 
