@@ -165,3 +165,4 @@ For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more d
 [[!redirects ∞-Lie algebra valued forms]]
 
 [[!redirects ∞-groupoid of ∞-Lie algebra valued forms]]
+[[!redirects ∞-Lie algebroid valued differential form]]
