@@ -10,7 +10,7 @@ between the hom-set/category/space from $[X]$ to $C$, for any $C\in StructCat$, 
 
 * The [[interval category]] is the *walking arrow*.
 
-* The augmented/algebraists [[simplex category]] is the *walking [[monoid]]* (in a [[monoidal category]]).
+* The augmented/algebraist's [[simplex category]] is the *walking [[monoid]]* (in a [[monoidal category]]).
 
 * The [[syntactic category]] of a [[theory]] $T$ in some [[doctrine]] $D$ is the "walking $T$-model" (in a $D$-category).  In particular, the [[classifying topos]] of a [[geometric theory]] $T$ is the "walking $T$-model" *qua* [[Grothendieck topos]] (where the morphisms are the left-adjoint parts of [[geometric morphisms]]).
 
