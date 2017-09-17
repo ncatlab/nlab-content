@@ -11,19 +11,19 @@ In his influential 1821 textbook _[[Cours d'Analyse]]_, [[Augustin Cauchy]] stat
 ## Statements
 
 +-- {: .num_theorem #mistake}
-###### Non-theorem (Cauchy, 1821?)
+###### Non-theorem (attributed to Cauchy, 1821)
 
 Let $f = (f_1, f_2, \ldots)$ be an [[infinite sequence]] of [[continuous functions]] from the [[real line]] to itself.  Suppose that, for every [[real number]] $x$, the sequence $(f_1(x), f_2(x), \ldots)$ converges to some (necessarily unique) real number $f_\infty(x)$, defining a [[function]] $f_\infty$; in other words, the sequence $f$ [[pointwise convergence|converges pointwise]] to $f_\infty$.  Then $f_\infty$ is also continuous.
 =--
 
 +-- {: .num_theorem #uniform}
-###### Theorem (Seidel, 1847)
+###### Theorem (attributed to Seidel, 1847)
 
 Let $f = (f_1, f_2, \ldots)$ be an [[infinite sequence]] of [[continuous functions]] from the [[real line]] to itself.  Suppose that the sequence $f$ [[uniform convergence|converges uniformly]] to a function $f_\infty$.  Then $f_\infty$ is also continuous.
 =--
 
 +-- {: .num_theorem #equicontinuous}
-###### Theorem (???)
+###### Theorem (attributed to ???)
 
 Let $f = (f_1, f_2, \ldots)$ be an [[equicontinuous family|equicontinuous]] [[infinite sequence|sequence]] of (necessarily [[continuous functions|continuous]]) functions from the [[real line]] to itself.  Suppose that, for every [[real number]] $x$, the sequence $(f_1(x), f_2(x), \ldots)$ converges to some (necessarily unique) real number $f_\infty(x)$, defining a [[function]] $f_\infty$; in other words, the sequence $f$ [[pointwise convergence|converges pointwise]] to $f_\infty$.  Then $f_\infty$ is also continuous.
 =--
@@ -37,11 +37,13 @@ Here is Cauchy\'s argument for Theorem \ref{mistake}:
 ###### Proof?
 
 At any $x$, we have
-$$ {|f_\infty(x + \epsilon) - f_\infty(x)|}
- = {|f_\infty(x + \epsilon) - f_n(x + \epsilon) + f_n(x + \epsilon) - f_n(x) + f_n(x) - f_\infty(x)|}
- \leq {|f_\infty(x + \epsilon) - f_n(x + \epsilon)|} + {|f_n(x + \epsilon) - f_n(x)|} + {|f_n(x) - f_\infty(x)|} .$$
-As $n$ becomes infinite and $\epsilon$ becomes infinitesimal, all of the terms on the right become infinitesimal (respectively, since $f$ converges to $f_\infty$ at $x + \epsilon$, since $f_n$ is continuous at $x$, and since $f$ converges to $f_\infty$ at $x$).  Thus, the expression on the left also becomes infinitesimal, proving that $f_\infty$ is continuous at $x$.
+$$ {|f_\infty(x + h) - f_\infty(x)|}
+ = {|f_\infty(x + h) - f_n(x + h) + f_n(x + h) - f_n(x) + f_n(x) - f_\infty(x)|}
+ \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|} .$$
+As $n$ becomes infinite and $h$ becomes infinitesimal, all of the terms on the right become infinitesimal (respectively, because $f$ converges to $f_\infty$ at $x + h$, because $f_n$ is continuous at $x$, and because $f$ converges to $f_\infty$ at $x$).  Thus, the expression on the left also becomes infinitesimal, proving that $f_\infty$ is continuous at $x$.
 =--
+
+Nowadays, we\'d say that a variable approaches zero rather than that it becomes infinitesimal.  If we interpret this argument in modern analysis, then the proof is flawed, because (the lower bound for) $n$ depends on $h$ in the first term, while (the upper bound for the absolute value of) $h$ depends on $n$ in the second term; they cannot be chosen simultaneously.
 
 
 ## In nonstandard analysis
