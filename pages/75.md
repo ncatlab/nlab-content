@@ -172,6 +172,10 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 
 * There is also [[algebraic set theory]].
 
+A big picture intro to the comparison between set theory, type theory and topos/category theory as approaches to foundations is in
+
+* [[Steve Awodey]], _From Sets to Types to Categories to Sets_ [pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stcsFinal.pdf)
+
 ### Effect of foundations on concrete problems
 
 It may seem on first sight that foundational questions in mathematics are remote from "real mathematics". This is not quite so. For a list of "real world" problems that do depend on foundations see
