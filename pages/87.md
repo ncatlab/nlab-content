@@ -175,6 +175,13 @@ Note: in Section 1.1.5 of [HGT1](#HGT1), the following additional axiom was assu
 
 This is not needed for anafunctors but is used to relate descent to bundles (and then to $2$-bundles).
 
+### As an operation on 2-categories
+
+_This section is work in progress by [[David Roberts|me]]_
+
+While internal anafunctors seem to require a lot of baggage, they can be defined very elegantly by working with the 2-category $Cat(S)$ (or some sub-2-category thereof) as a 2-category. One first makes the observation:
+
+* functors internal to $S$ which are fully faithful and whose object component belongs to a singleton Grothendieck pretopology themselves form a (strict) singleton pretopology on $Cat(S)$. Thus one can consider anafunctors as spans in a 2-category where the source leg belongs to a strict, subcanonical singleton Grothendieck pretopology, all of whose covers are [[ff morphism|ff]].
 
 ### Homotopy-theoretic interpretation
 
@@ -265,7 +272,7 @@ The popularity of the term was notably pushed by [[Toby Bartels]], who considere
 
 A development and exposition of the general setup taking Makkai's and Bartels' motivations and the theory of [[homotopical category|homotopical categories]] into account is
 
-* [[David Roberts]], _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363)
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363), [submitted and improved version](http://ncatlab.org/davidroberts/files/DRoberts_anafunctors.pdf)
 
 Since anafunctors are a special case of a more general concept, they, or the general theory applying to them, has been considered under different terms elsewhere. 
 
