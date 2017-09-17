@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Operator algebra
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,11 +22,58 @@
 
 The notion of _Hilbert $C^\ast$-bimodule_ adapts the notion of [[bimodules]] over [[associative algebras]] to [[operator algebra]]/[[C-star-algebra]] theory.
 
-For $A,B$ two [[C-star algebras]], an $(A,B)$-*Hilbert $C^\ast$-bimodule* (or just _Hilbert bimodule_, for short) is 
 
-* a left $A$-[[Hilbert C*-module]] $(N, \langle -,-\rangle)$;
+## Definition
 
-* equipped with a further right $B$-_[[representation of a C-star-algebra|representation]] $B \to \mathcal{B}(N)$ by *adjointable operators*, hence such that $\langle -,- b\rangle = \langle -b^\ast,-\rangle$ for all $b \in B$.
++-- {: .num_defn}
+###### Definition
+
+For $A,B \in $ [[C*Alg]] two [[C-star algebras]], an $(A,B)$-*Hilbert $C^\ast$-bimodule* (or just _Hilbert bimodule_, for short) is 
+
+* a right $B$-[[Hilbert C*-module]] $(N, \langle -,-\rangle)$;
+
+* equipped with a further left $A$-_[[representation of a C-star-algebra|representation]] $A \to \mathcal{B}(N)$ by *adjointable operators*, hence such that $\langle a -,- \rangle = \langle -,a^\ast -\rangle$ for all $a \in A$.
+
+A [[isomorphism]] between two $(A,B)$-bimodules $(N_1, \langle -,-\rangle) \to (N_2, \langle -,-\rangle_2)$ is a [[linear operator]] $N_1\to N_2$ which is [[unitary operator|unitary]] with respect to $\langle -,-\rangle_2$.
+
+=--
+
++-- {: .num_defn #TensorProductOfHilbertBimodules}
+###### Definition
+
+Given an $(A,B)$-Hilbert bimodule $(N_1, \langle -,-\rangle_1)$ and a $(B,C)$-Hilbert bimodule $(N_2, \langle -,-\rangle_2)$, the **tensor product of Hilbert bimodules** $N_1 \otimes_B N_2$ is the $(A,C)$-Hilbert bimodule
+
+* whose underlying topological space is the [[completion]] of the algebraic [[tensor product of modules]] with respect to 
+
+* the $C$-valued [[inner product]], which is
+
+  $$
+    \left\langle \xi_1 \otimes \eta_1 , \xi_2 \otimes \eta_2\right\rangle
+    \coloneqq
+    \left\langle \eta_1, \left\langle \xi_1, \xi_2\right\rangle \eta_2 \right\rangle
+    \,.
+  $$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[(2,1)-category]] $C^\ast Alg_b$ whose
+
+* [[objects]] are [[C*-algebras]];
+
+* [[1-morphisms]] are Hilbert bimodules;
+
+* [[2-morphisms]] are isomorphisms of Hilbert bimodules;
+
+* [[vertical composition]] is the evident composition of intertwiners;
+
+* [[horizontal composition]] is the tensor product of Hilbert bimodules, def. \ref{TensorProductOfHilbertBimodules}.
+
+=--
+
+([Buss-Zhu-Meyer 09](#BussZhuMeyer))
 
 ## Examples
 
@@ -21,10 +83,7 @@ A $(\mathbb{C},A)$-Hilbert $C^\ast$-bimodule is equivalently just as [[represent
 
 ## Properties
 
-### Tensor product and 2-category structure
-
-Plain [[associative algebras]] with [[bimodules]] between them naturally form a [[2-category]] with [[tensor product of modules|tensor product of bimodules]] as its [[horizontal composition]]. The refinement of this to Hilbert bimodules is discussed in ([Buss-Zhu-Meyer 09](#BussZhuMeyer)).
-
+(...)
 
 ## Related concepts
 
@@ -40,7 +99,7 @@ Reviews are for instance in
 
 The tensor product of Hilbert bimodules and the induced [[2-category]] structure is discussed in 
 
-* Alcides Buss, [[Chenchang Zhu]], [[Ralf Meyer]], _A higher category approach to twisted actions on C*-algebras_ ([arXiv:0908.0455](http://arxiv.org/abs/0908.0455))
+* Alcides Buss, [[Chenchang Zhu]], [[Ralf Meyer]], _A higher category approach to twisted actions on $C^\ast$-algebras_ ([arXiv:0908.0455](http://arxiv.org/abs/0908.0455))
  {#BussZhuMeyer}
 
 [[!redirects Hilbert bimodules]]
