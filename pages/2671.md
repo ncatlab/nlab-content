@@ -87,5 +87,5 @@ The (reduced) [[covariant phase space]] of gravity (presented for instance by it
 
 which is surveyed in
 
-* Katarzyna Rejzner, _The BV formalism applied to classical gravity_ ([pdf](http://katarzyna.rejzner.pl/talks/Karlsruhe2011.pdf))
+* Katarzyna Rejzner, _The BV formalism applied to classical gravity_ ([pdf](http://rejzner.com/talks/Karlsruhe2011.pdf))
 
