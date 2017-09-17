@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 
 > under construction
@@ -102,3 +109,4 @@ For more on this see
 * Leon Takhtajan, [[Quantum mechanics for mathematicians]], Amer. Math. Soc. 2008. 
 
 [[!redirects quantum physics]]
+[[!redirects quantum theory]]
