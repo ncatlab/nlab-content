@@ -34,10 +34,12 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 
 ## References ##
 
+* related entries: [[Barr embedding theorem]], [[regular category]]
 * Carboni, A. and Vitale, E. M.  _Regular and exact completions_, _JPAA_ 125, 1998.
-* M. Barr, _Exact categories_, in: Exact categories and categories of sheaves, Springer
-Lec. Notes in Math. 236 (1971) 1-120, [doi](http://dx.doi.org/10.1007/BFb0058580)
+* M. Barr, _Exact categories_, in: Exact categories and categories of sheaves, Springer Lec. Notes in Math. __236__ (1971) 1-120, [doi](http://dx.doi.org/10.1007/BFb0058580)
 * F. Borceux, D. Bourn, [[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]
 [[!redirects exact categories]]
 [[!redirects Barr-exact category]]
+[[!redirects Barr exact category]]
+[[!redirects Barr exact categories]]
 [[!redirects effective regular category]]
