@@ -1,4 +1,6 @@
 
 * [wikipedia entry](http://de.wikipedia.org/wiki/Dieter_Puppe)
 
+**Siegmund Dieter Puppe** (1930-2005) was a German mathematician who made important contributions to [[algebraic topology]] and [[homotopy theory]] in particular. He held a chair at Heidelberg University from 1968 until his retirement in 1996. Among other publications he notably published in 1966 together with H.-B. Brinkmann _Kategorien und Funktoren_ , the first German language textbook on [[category theory]].
+
 category: people
