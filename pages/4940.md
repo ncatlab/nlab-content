@@ -25,7 +25,7 @@ $$
 
 ### Of a manifold
 
-In a [[manifold with boundary]] of [[dimension]] $d$ the boundary is the collection of points which do not have a [[neighborhood]] diffeomorphic to an [[open n-ball]], but do have a neighborhood homeomorphic to a half-ball, that is, an open ball intersected with closed half-space.
+In a [[manifold with boundary]] of [[dimension]] $n$ the boundary is the collection of points which do not have a [[neighborhood]] diffeomorphic to an [[open n-ball]], but do have a neighborhood homeomorphic to a half-ball, that is, an open ball intersected with closed half-space.
 
 ## Related concepts
 
