@@ -20,7 +20,7 @@
 
 ## Definition
 
-The _supergravity Lie 3-algebra_ $\mathfrak{sugra}(10,1)$ is a super [[∞-Lie algebra]] that is a shifted [[∞-Lie algebra cohomology|extension]]
+The _supergravity Lie 3-algebra_ $\mathfrak{sugra}(10,1)$ is a [[super L-∞ algebra]] that is a shifted [[∞-Lie algebra cohomology|extension]]
 
 $$
   0 \to b^2 \mathbb{R} \to 
