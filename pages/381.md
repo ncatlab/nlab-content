@@ -78,6 +78,7 @@ $$
 
 * The category of strict $\omega$-categories admits a [[closed monoidal category|biclosed monoidal structure]] called the [[Crans-Gray tensor product]].
 
+* The category of strict $\omega$-categories also admits a [[canonical model structure]].
 
 * Terminology on $\omega$-categories varies. We here follow section 2.2 of [[Sjoerd Crans]]: [Pasting presentations for $\omega$-categories](http://home.tiscali.nl/secrans/papers/thpp.html), where it says 
 
