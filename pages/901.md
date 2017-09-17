@@ -35,7 +35,7 @@ Moreover, ind-categories allow one to handle "big things in terms of small thing
 
 ## Definition 
 
-There are several equivalent ways to define ind-objects
+There are several equivalent ways to define ind-objects.
 
 
 ### As diagrams 
@@ -71,7 +71,7 @@ Here
 So then one _defines_ 
 
 $$
-  ind\text{-}C(F,G) := \cong lim_{d\in D} colim_{e\in E}\; C(F d, G e)
+  ind\text{-}C(F,G) \coloneqq lim_{d\in D} colim_{e\in E}\; C(F d, G e)
   \,.
 $$
 
@@ -102,7 +102,7 @@ with $D$ a [[filtered category]].
 **Remark**
 Given that $[C^{op},Set]$ is the [[free cocompletion]] of $C$, $ind$-$C$ defined in this way is its "free cocompletion under filtered colimits."
 
-To compare with the first definition, notice that indeed the formula for the [[hom-set]]s s reproduced:
+To compare with the first definition, notice that indeed the formula for the [[hom-set]]s is reproduced:
 
 Generally we have
 
