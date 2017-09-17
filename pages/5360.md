@@ -38,12 +38,14 @@ More precisely, a **symmetric pair** is a pair $(G,H)$ where $G$ is a [[Lie grou
 
 To avoid this problem, symmetric space is (equivalent to) a smooth manifold $M$ with multiplication $\cdot : M\times M\to M$ which is a smooth map such that for all $x,y,z\in M$ 
 
-1. $x \cdot x = x$
-2. $x \cdot (x\cdot y) = y$
-3. $x\cdot (y \cdot z) = (x \cdot y)\cdot (x \cdot z)$
+1. $x \cdot x = x$ (idempotence)
+2. $x \cdot (x\cdot y) = y$ 
+3. $x\cdot (y \cdot z) = (x \cdot y)\cdot (x \cdot z)$ ([[left self-distributivity]])
 4. for every $x$ there is a neighborhood $U\subset M$ such that $x\cdot y = y$ implies $x = y$ for all $z\in U$.
 
 This amounts to an involutory [[quandle]] object $Q$ in the category of smooth manifolds, with the property that each point $a \in Q$ is an _isolated_ fixed point of the map $a \triangleright - : Q \to Q$. 
+
+
 
 ## References
 
