@@ -4,6 +4,23 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 =--
 ***
 
+# Contents
+
+* tic
+{: toc}
+
++--{ .article}
+
+## First
+
+The first section
+
+## Second
+
+The second section
+
+## Third
+
 +-- {: .absolute style="position: fixed"}
 Can we fix it?
 =--
@@ -104,10 +121,6 @@ $$
 
 ***
 
-# &nbsp;
-* toc
-{: toc}
-
 ## Hi
 
 [[proper homotopy theory (unbroken copy)]]
@@ -142,6 +155,8 @@ A test of **underlining**, with punctuation
 A test of __underlining__, with punctuation
 
 Only it wasn't *underlining*, it was **emphasis**.
+
+=--
 
 category: meta
 
