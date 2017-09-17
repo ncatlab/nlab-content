@@ -1,5 +1,5 @@
 
-Frank Adams (John Frank Adams) was a British mathematician who made a great contribution to algebraic topology and in particular stable homotopy theory.
+Frank Adams (John Frank Adams) was a British mathematician who made a great contribution to [[algebraic topology]] and in particular [[stable homotopy theory]].
 
 
 * [wikipedia entry (English)](http://en.wikipedia.org/wiki/Frank_Adams)
@@ -12,9 +12,14 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 * [History of Mathematics archive entry (St. Andrews)](http://www-history.mcs.st-andrews.ac.uk/Biographies/Adams_Frank.html)
 
 
+* [[Peter May]], _Reminiscences of the Life and Mathematics of J. Frank Adams_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/69.pdf))
 
 
 ## Related entries
+
+* [[Adams operation]]
+
+* [[Adams conjecture]]
 
 * [[Adams spectral sequence]]
 
