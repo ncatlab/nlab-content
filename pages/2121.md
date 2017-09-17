@@ -40,4 +40,6 @@ A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mim
 * Joseph Krasil'shchik's [webpage](http://diffiety.ac.ru/curvita/isk.htm) (with links to some papers) and [wiki list of publications](http://gdeq.org/index.php?title=Joseph_Krasil%27shchik)
 * Joseph Krasil'shchik, Alexander Verbovetsky, _Homological methods in equations of mathematical physics_, [arxiv:math.DG/9808130](http://xxx.lanl.gov/abs/math/9808130v2), 150 p.
 * Joseph Krasil'shchik, Alexander Verbovetsky, Geometry of jet spaces and integrable systems, J. Geom. Phys. (2010), [doi](doi:10.1016/j.geomphys.2010.10.012), [arXiv:1002.0077](http://arxiv.org/abs/1002.0077)
+* L. Vitagliano, _Hamilton-Jacobi diffieties_, [arxiv/1104.0162](http://arxiv.org/abs/1104.0162)
+
 [[!redirects diffeity]] [[!redirects Diffiety]] [[!redirects diffieties]]
