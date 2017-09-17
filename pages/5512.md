@@ -59,7 +59,7 @@ is referred to as _Frobenius reciprocity_ in representation theory (e.g. [here o
 
 In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
 
-Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "projection" morphism 
+Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical "[[projection formula|projection]]" morphism 
 
 $$
   f_!(C \times f^*B) \to (f_! C) \times B
