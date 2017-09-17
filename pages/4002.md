@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
@@ -25,6 +29,9 @@ More generally, a *connected geometric morphism* $p\colon E\to F$ is a "relativi
 A [[geometric morphism]] $p\colon E\to F$ is **connected** if its inverse image part $p^*$ is [[fully faithful functor|full and faithful]].
 
 A [[Grothendieck topos]] $E$ is **connected** if the unique geometric morphism $E \to Set = Sh(*)$ is connected.  If $E$ is the [[topos of sheaves]] on a [[topological space]] $X$ (or more generally a [[locale]]), then this is equivalent to the usual definition of connectedness for $X$ (see C1.5.7 in the [[Elephant]]).
+
+Equivalently, a topos is connected if its [[global section]] geometric morphism exhibits [[discrete objects]].
+
 
 ## Connected locally connected morphisms
 
