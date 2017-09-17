@@ -365,6 +365,10 @@ which provides an alternative expression of the functoriality condition as simpl
 
 * **functor**
 
+  * [[endofunctor]]
+
+  * [[polynomial functor]]
+
 * [[2-functor]] / [[pseudofunctor]]
 
   * [[monoidal functor]]
