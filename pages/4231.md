@@ -1041,7 +1041,7 @@ By prop. \ref{PresheavesAreCompact} we may apply the [[small object argument]] i
 +-- {: .num_prop }
 ###### Proposition
 
-For all small categories $A$, the category $PSh(A)$ does admit a cellular structure, def. \ref{CellularStructure} consisting of morphisms whose codomain is a [[quotient]] of a [[representable functor|representable]]. 
+For all small categories $A$, the category $PSh(A)$ does admit a cellular structure, def. \ref{CellularModel} consisting of morphisms whose codomain is a [[quotient]] of a [[representable functor|representable]]. 
 
 =--
 
@@ -1090,7 +1090,7 @@ A bit of work...
 
 There exists a cellular structure, def. \ref{CellularModel}, on $PSh(A)$. 
 
-The set $I$ can be chosen to consist of morphisms into [[quotient objects]] or [[representable functors|representables]].
+The set $I$ can be chosen to consist of morphisms into [[quotient objects]] of [[representable functors|representables]].
 
 =--
 
