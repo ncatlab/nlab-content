@@ -242,8 +242,37 @@ $$\Delta \dashv_{lax} \otimes: B \times B \to B \qquad ! \dashv_{lax} I: \mathbf
 
 and by our earlier discussion of lax adjunctions, this means we have local 1-adjunctions of the form 
 
-$$(B(a, b \otimes c) \to (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \dashv (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \to B(a, b \otimes c))$$
+$$(B(a, b \otimes c) \stackrel{\lambda}{\to} (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \dashv (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \stackrel{\rho}{\to} B(a, b \otimes c))$$
 
- 
+Now let $b = c$, and use the fact that we have an adjunction 
+
+$$(b \stackrel{\delta b}{\to} b \otimes b) \dashv (b \otimes b \stackrel{\delta b^{\ast}}{\to} b)$$ 
+
+to obtain an adjoint pair where 
+
+$$B(a, b) \stackrel{B(a, \delta b)}{\to} B(a, b \otimes b) \stackrel{\lambda}{\to} B \times B(\langle a, a \rangle, \langle b, b \rangle)$$ 
+
+is left adjoint to 
+
+$$B \times B(\langle a, a \rangle, \langle b, b \rangle) \stackrel{\rho}{\to} B(a, b \otimes b) \stackrel{B(a, \delta b^\ast)}{\to} B(a, b).$$ 
+
+The first of these arrows is just the diagonal functor 
+
+$$B(a, b) \stackrel{\delta_{loc}}{\to} B(a, b) \times B(a, b)$$ 
+
+on the local hom-category $B(a, b)$. Therefore the second arrow, being right adjoint to the first, provides a product functor on $B(a, b)$. Similarly, each local hom-category carries a terminal object $1 \to \hom(a, b)$. We may summarize this by saying that cartesian bicategories are _locally cartesian_. 
+
+### Essential uniqueness of cartesian structure 
+
+So far we have seen that for a cartesian bicategory $B$, 
+
+* $Map(B)$ carries 2-products, 
+
+* Local hom-categories carry products. 
+
+It is clear that 2-product data on $Map(B)$ and local product data on local hom-categories are uniquely determined up to appropriate notions of equivalence, since they are determined by appropriate universal properties. 
+Now we show that these data actually determine the whole of the cartesian structure. We may therefore conclude that a cartesian structure on a bicategory must be essentially unique, if it exists. 
+
+
 
 [[!redirects cartesian bicategories]]
