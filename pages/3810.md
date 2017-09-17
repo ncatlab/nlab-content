@@ -16,3 +16,7 @@ Entries on combinatorics and on various combinatorial objects in $n$Lab include:
 
 [[!redirects combinatorial]]
 [[!redirects combinatorialist]]
+
+## References
+
+Richard P. Stanley, Enumerative combinatorics, vol.1 ([pdf](http://www-math.mit.edu/~rstan/ec/ec1.pdf))
