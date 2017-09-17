@@ -306,6 +306,7 @@ See [[ABJM theory]].
 
 * [[holographic principle of higher category theory]]
 
+* [[firewall problem]]
 
 ## References
 
