@@ -38,6 +38,8 @@ exhibits an $(n-1)$-subcategory.
 
 A **full subcategory** is a 1-subcategory, exhibited by a [[full and faithful (∞,1)-functor]]. 
 
+#### For $sSet$-enriched and quasi-categories
+
 Let $C$ and $D$ be incarnated specifically as [[model structure on sSet-categories|fibrant]] [[simplicially enriched categories]]. Then for $F : C \to D$ a full and faithful $(\infty,1)$-functor, choose in each preimage $F^{-1}(d)$ for each object $d \in D$ a representative, and let $C'$ be the full [[sSet]]-[[enriched category|enriched]] [[subcategory]] on these representatives.
 
 Then the evident projection functor $C \stackrel{\simeq}{\to} C'$ is manifestly an [[equivalence of quasi-categories|equivalence]] and the original $F : C \to D$ factors as
@@ -48,6 +50,21 @@ $$
 $$
 
 where the second morphism is an ordinary inclusion of objects and hom-complexes.
+
+#### Reflective sub-$(\infty,1)$-categories
+
+If the $(\infty,1)$-functor $F : C \to D$ has a left [[adjoint (∞,1)-functor]] $L : D \to C$, then $F$ is full and faithful and hence exhibits a 1-subcategory precisely if the counit
+
+$$  
+  L \circ F \stackrel{}{\to} Id_C
+$$
+
+is an [[equivalence in a quasi-category|equivalence]] of [[(∞,1)-functor]]s.
+
+(See also [[Higher Topos Theory|HTT, p. 308]]).
+
+
+In this case $C$ is a [[reflective (∞,1)-subcategory]].
 
 ### 2-Subcategory
 
