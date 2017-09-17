@@ -5,3 +5,11 @@ $$       (-)^{\otimes n} : C \to C $$
 which could be called the $n$th **tensor power** functor.
 
 If $C$ is a suitable [[linear category]], the $n$th tensor power functor is a simple example of a [[Schur functor]].
+
+The sum of all of the tensor powers of $V$ is the __tensor algebra__ of $V$.
+
+
+[[!redirects tensor power]]
+[[!redirects tensor powers]]
+[[!redirects tensor algebra]]
+[[!redirects tensor algebras]]
