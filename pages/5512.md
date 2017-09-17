@@ -35,7 +35,7 @@ The term _Frobenius reciprocity_ has a meaning
 
 In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_) is the statement that the [[induction functor]] for [[group representation|representations of groups]] (or in some other [[algebraic categories]]) is [[left adjoint]] to the [[restriction]] functor.  Sometimes it is used for a [[decategorification|decategorified]] version of this statement as well, on [[characters]].
 
-Specifically for $H \hookrigtharrow G$ an [[subgroup]] inclusion, there is an [[adjunction]]
+Specifically for $H \hookrightarrow G$ an [[subgroup]] inclusion, there is an [[adjunction]]
 
 $$
   (Ind \dashv Red) \;\colon\;
