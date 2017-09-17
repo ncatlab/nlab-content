@@ -118,6 +118,7 @@ The first definition, with a single collection $C_1$ of morphisms, generalises t
 
 The second definition, with a family $C_1(x,y)$ of collections of morphisms, generalises to the notion of [[enriched category]]; essentially, we define a category enriched over (some other category) $D$ as above, with the collection of objects still a 'collection' as before, but with objects of $D$ in place of the collections of morphisms and morphisms of $D$ in place of the various functions.  In particular, a category enriched over [[Set]] is the same thing as a locally small category.
 
+There is also the notion of an [[indexed category]] which captures the idea of woking "over a base" other than [[Set]].
 
 ## Examples
 
@@ -145,6 +146,8 @@ These classic examples are the original motivation for the term "category": all 
 
 * **Monoid** More generally, a [[monoid]] is a category with a single object. In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
 
+* **Groupoid** A [[groupoid]] is a category in which all morphisms are [[isomorphism]]s.
+
 * **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the _[[free functor|free]] category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
 
@@ -167,7 +170,30 @@ Other standard operations on categories include
 ...
 
 
-## Literature
+## Related concepts
+
+* [[0-category]], [[(0,1)-category]]
+
+* **category**
+
+* [[2-category]]
+
+* [[3-category]]
+
+* [[n-category]]
+
+* [[(∞,0)-category]]
+
+* [[(∞,1)-category]]
+
+* [[(∞,2)-category]]
+
+* [[(∞,n)-category]]
+
+* [[(n,r)-category]]
+
+
+## References
 
 The standard textbook is
 
@@ -187,6 +213,8 @@ A textbook with an eye towards the theory of [[categories of sheaves]] and their
 
 * Kashiwara, Shapira, _[[Categories and Sheaves]]_
 
+
+For more referebnces see [[category theory]].
 
 [[!redirects category]]
 [[!redirects categories]]
