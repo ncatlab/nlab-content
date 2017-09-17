@@ -75,7 +75,7 @@ $$
 
 is a [[vector bundle]] over $X$ with [[curvature|flat]] [[connection on a bundle]].
 
-And we do not even need to assume that $K$ here is a groupoid. For instance if $D$ is a [[directed graph]] and $F(D)$ its [[path category]], then a functor
+And we do not even need to assume that $K$ here is a groupoid. For instance if $D$ is a [[directed graph]] (or [[quiver]]) and $F(D)$ its [[path category]], then a functor
 
 $$
   F(D) \to Vect
