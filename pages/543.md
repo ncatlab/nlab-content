@@ -1,3 +1,5 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,10 +19,10 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-# Idea #
+## Idea 
 
 An _$A_\infty$-category_ is a kind of [[category]] in which the associativity condition on the [[composition]] of [[morphism]]s is relaxed "up to higher coherent homotopy".
 
@@ -32,7 +34,7 @@ If the composition in the linear $A_\infty$-category does happen to be strictly 
 
 
 
-## Ordinary linear $A_\infty$-categories ##
+### Ordinary linear $A_\infty$-categories 
 
 In what is strictly speaking a restrictive sense -- which is however widely and conventionally understood in [[homological algebra]] as the standard notion of $A_\infty$-category (see references below) -- the [[hom-space]]s of an $A_\infty$-category are taken to be linear spaces, i.e. [[module]]s over some [[ring]] or [[field]], and in fact [[chain complex]]es of such modules.
 
@@ -41,7 +43,7 @@ Therefore an $A_\infty$-category in this standard sense of [[homological algebra
 
 $A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity-algebra]]. As such they are to [[A-infinity-algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich--Soibelman reference below.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A category $C$ such that
@@ -63,7 +65,7 @@ The framework of dg-categories and dg-functors is too narrow for many problems, 
 From a higher dimensional perspective $A_\infty$-categories are weak $\omega$-categories with all morphisms invertible. $A_\infty$-categories can also be viewed as noncommutative formal dg-manifolds with a closed marked subscheme of objects.
 
 
-## Examples and remarks ##
+### Examples and remarks ##
 
 * Every [[dg-category]] may be regarded as a special case when there are no higher maps (trivial homotopies) of an $A_\infty$-category.
 
@@ -91,7 +93,7 @@ that naturally yield directly $A_\infty$-categories instead of dg-categories.
 
 
 
-## More general $A_\infty$-categories ##
+### More general $A_\infty$-categories ##
 
 In the widest sense, $A_\infty$-category may be used as a term for a category in which the [[composition]] operation constitutes an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
 
@@ -106,7 +108,7 @@ the $A_\infty$-[[A-infinity operad|operad]]: e.g. the free resolution
 in the context of dg-operads of the linear associative operad.
 =--
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Examples
 
 * [[Trimble n-category|Trimble n-categories]];
@@ -114,10 +116,17 @@ in the context of dg-operads of the linear associative operad.
 * also the classical notion of [[bicategory]] can be interpreted as an $A_\infty$-category in [[Cat]] for a suitable Cat-operad.
 =--
 
+## Related concepts
 
-# References #
+* [[A-∞ space]], [[associahedron]]
 
-#### For $A_\infty$-categories in the sense of homological algebra ##
+* [[A-∞ algebra]]
+
+* [[stable (∞,1)-category]]
+
+## References #
+
+### For $A_\infty$-categories in the sense of homological algebra 
 
 For a short and precise introduction see
 
@@ -145,7 +154,7 @@ which mostly discusses just [[A-infinity-algebra]]s, but points out a generaliza
 
 Essentially the authors say that an $A_\infty$-category should be a non(-graded-)commutative [[NQ-supermanifold]]. Recall that a graded-commutative [[NQ-supermanifold]] is a [[L-infinity-algebroid]]. From this perspective one would want to think of a non-graded commutative [[NQ-supermanifold]] as an _$A_\infty$-algebroid_.
 
-#### For $A_\infty$-categories in the wider sense ##
+### For $A_\infty$-categories in the wider sense ##
 
 If one understands $A_\infty$-category as "operadically defined higher category", then relevant references would include:
 
