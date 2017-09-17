@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Stuart_Hameroff)
+
+## related entries
+
+* [[quantum biology]]
+
+category: people
