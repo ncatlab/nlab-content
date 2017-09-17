@@ -15,18 +15,15 @@
 
 ## Idea
 
-A [[chain complex]] $A_\bullet$ in an [[abelian category]] $\mathcal{A}$ is called **perfect** if
+A [[chain complex]] $M_\bullet$ of [[modules]] over a [[commutative ring]] $A$ is called **perfect** if it [[quasi-isomorphism|quasi-isomorphic]] to
 
-* it is [[bounded chain complex]];
+* a [[bounded chain complex]];
 
 * of [[projective module|projective]]
 
 * and [[finitely generated modules]].
 
-
-(or maybe some slight variant of this...)
-
-## Perfect complexes of abelian sheaves
+## Perfect complexes of sheaves of modules
 
 Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] $F$ of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
 
