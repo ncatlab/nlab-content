@@ -65,7 +65,7 @@ Textbook accounts include the following.
 * Robert E. Mosher and Martin C. Tangora,  _Cohomology Operations and Applications in Homotopy Theory_, Harper and Row (1968)
 
 
-* Marcelo Aguilar, Samuel Gitler, Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002)
+* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002)
  {#AguilarGitlerPrieto}
 
 [[!redirects Steenrod operation]]
