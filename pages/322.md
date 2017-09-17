@@ -350,6 +350,8 @@ See also related discussion at [[club]].
     * [[E-infinity operad]]
 
     * [[framed little 2-disk operad]]
+    
+    * [[framed little n-disk operad]]
 
 * [[Lie operad]]
 
