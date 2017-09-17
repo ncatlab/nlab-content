@@ -40,7 +40,7 @@ There is an evident notion of [[(∞,1)-category]] of [[module]]s over a simplic
 
 ### Homotopy groups
 
-Given a simplicial ring $A_\bullet$, it is standard that its connected components (the 0th "[[homotopy group]]") $\pi_0(A)$ is an ordinaty ring and $\pi_n(A)$ is a module over it, so $A_\bullet$ is weakly [[contractible]] iff $\pi_0(A)=0$.  
+Given a simplicial ring $A_\bullet$, it is standard that its connected components (the 0th "[[homotopy group]]") $\pi_0(A)$ is an ordinary ring and $\pi_n(A)$ is a module over it, so $A_\bullet$ is weakly [[contractible]] iff $\pi_0(A)=0$.  
 
 Also, $\pi_0(A)$ is just the [[cokernel]] of $d_0-d_1:A_1\to A_0$.  We can take any chain of face maps $A_n\to A_0$ and compose with the projection to $\pi_0(A)$, and this will be independent of which chain we chose.  These maps $A_n\to\pi_0(A)$ give a [[surjective]] map from $A_\bullet$ to the constant simplicial ring $\pi_0(A)$.  
 
