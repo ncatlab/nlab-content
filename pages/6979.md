@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Dependent type theory_ is the flavor of [[type theory]] that admits _[[dependent types]]_.
+
+## Examples
+
+* [[Martin-Löf dependent type theory]].
+
+## Related concepts
+
+[[!include notions of type]]
+
+## References
+
+* [[Nicola Gambino]], _Lectures on dependent type theory_ ([pdf](http://www.cs.le.ac.uk/events/mgs2009/courses/gambino/lecturenotes-gambino.pdf))
+
+* [[Agda]] Tutorial: _Introduction to dependent type theory_ ([webpage](http://ocvs.cfv.jp/Agda/tutorial/node128.html))
+
+[[!redirects dependent type theories]]
