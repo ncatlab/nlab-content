@@ -1,4 +1,9 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -15,6 +20,21 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 Any [[complete field|complete]] [[archimedean field]] is, as an [[associative algebra]] and as a [[topological space]], [[isomorphism|isomorphic]] to either the [[real numbers]] or the [[complex numbers]].
 
 =--
+
+## Related entries
+
+* [[p-adic numbers]]
+
+* [[analytic geometry]]
+
+## References
+
+In the course notes
+
+* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+
+Ostrowki's theorem is discussed around p. 23.
+
 
 [[!redirects Ostrowski theorem]]
 
