@@ -191,3 +191,6 @@ The operation of [[T-duality]] on [[twisted differential K-theory]] is discussed
 
 * [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_
 
+See also
+
+* Thomas Tradler, Scott O. Wilson, Mahmoud Zeinalian, _Loop Differential K-theory_ ([arXiv:1201.4593](http://arxiv.org/abs/1201.4593))
