@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+A _probability density_ is a [[density]] on some [[space]] which under [[integration]] yields a [[probability measure]].
+
+## Related concepts
+
+* [[moment]], [[cumulant]]
+
+* [[probability amplitude]]
+
+## References
+
+* Wikipedia, _[Probability density function](http://en.wikipedia.org/wiki/Probability_density_function)_
+
+[[!redirects probability densities]]
+[[!redirects probability density function]]
+[[!redirects probability density functions]]
