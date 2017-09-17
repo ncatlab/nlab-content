@@ -47,7 +47,12 @@ Accordingly the [[homology]] of a [[E2-algebra]] is a Gerstenhaber algebra.
 
 This is due to [Cohen (1976)](#Cohen).
 
-A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A \to A$ is a **[[BV-algebra]]**. This is the homology of an algebra over the _framed_ little disk operad.
++-- {: .un_remark}
+###### Remark
+
+A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A \to A$ is a **[[BV-algebra]]**. This is the homology of an algebra over the [[framed little 2-disk operad]].
+
+=--
 
 ## References
 
