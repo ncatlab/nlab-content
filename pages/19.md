@@ -297,9 +297,9 @@ Category theory was introduced in
 
 The reason for introducing [[category|categories]] was to introduce [[functors]], and the reason for introducing functors was to introduce [[natural transformations]] (more specifically natural equivalences) in order to define what _natural_ means in mathematics:
 
-> If topology were pubically defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
+> If topology were publicly defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
 
-> A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both desciptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. (from [Freyd 64, page 1](#Freyd64))
+> A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both descriptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. (from [Freyd 64, page 1](#Freyd64))
 
 
 The paper [Eilenberg-Maclane 45](#EilenbergMaclane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
@@ -384,8 +384,15 @@ The [[foundation]] of category theory in [[homotopy type theory]] (via the notio
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
-* {#LaGatta} [[Tom LaGatta]], _Category theory_ ([video](http://www.youtube.com/watch?v=o6L6XeNdd_k))
+### Videos 
 
+* The Catsters, Videos on various topics in category theory. ([YouTube link](https://www.youtube.com/user/TheCatsters) 
+
+Videos at an introductory level that cover basic concepts and constructions of category theory. The Catsters are [[Eugenia Cheng]] and [[Simon Willerton]] (anyone else?). 
+
+* {#LaGatta} [[Tom LaGatta]], _Category theory_ ([video](http://www.youtube.com/watch?v=o6L6XeNdd_k)) 
+
+Enthusiastic, mostly nontechnical talk given by a probability theorist, made for an audience innocent of any exposure to category theory. 
 
 ### Relation to philosophy
  {#ReferencesRelationToPhilosophy}
