@@ -123,13 +123,15 @@ $$
 
 This appears as ([HopkinsSinger, def. 3.11](#HopkinsSinger)).
 
+
 ### In terms of Deligne cocycles
+ {#ViaDeligneComplex}
 
 We discuss an explicit formula for fiber integration along [[product]]-bundles with [[compact topological space|compact]] [[fibers]] in terms of [[Deligne complex]], following ([Gomi-Terashima](#GomiTerashima)).
 
 For $X$ a [[smooth manifold]], write $\mathbf{H}(X, \mathbf{B}^n U(1)_{conn})$ for the [[Deligne complex]] in degree $(n+1)$ over $X$.
 
-+-- {: .num_defn}
++-- {: .num_defn #GomiFiberIntegration}
 ###### Definition
 
 Let $X$ be a [[paracompact topological space|paracompact]] [[smooth manifold]] and let $F$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$ without [[boundary]]. Then there is a morphism
@@ -148,6 +150,73 @@ given by (...)
 
 ([Gomi-Terashima, section 2, corollary 3.2](#GomiTerashima))
 
+### In terms of smooth homotopy types
+ {#ViaSmoothHomotopyType}
+
+The [above](#ViaDeligneComplex) formulation of fiber integration in ordinary differential cohomology serves as a presentation for a more abstract construction in [[smooth infinity-groupoid|smooth homotopy theory]].
+
+Let $\mathbf{H} \coloneqq $ [[Smooth∞Grpd]] be the ambient [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoids]]/smooth [[∞-stacks]]. As discussed there, the [[Deligne complex]], being a [[sheaf]] of [[chain complexes]] of [[abelian groups]], presents under the [[Dold-Kan correspondence]] a [[simplicial presheaf]] on the [[site]] [[CartSp]], which in turn presents an object 
+
+$$
+  \mathbf{B}^n U(1)_{conn} \in \mathbf{H}
+  \,,
+$$
+
+discussed _[here](http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#DifferentialCohomology)_: the smooth [[moduli ∞-stack]] of [[circle n-bundles with connection]].
+
+Let now $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k \in \mathbb{N}$ without [[boundary]]. There is the [internal hom in an (infinity,1)-topos](infinity,1%29-topos#ClosedMonoidalStructure)
+
+$$
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}] \in \mathbf{H}
+  \,,
+$$
+
+which is the smooth moduli $n$-stack of circle $n$-connections _on_ $\Sigma_k$.
+
+We claim that for all $k \leq n$ there is a natural morphism
+
+$$
+  \exp(2\pi i\int_\Sigma(-)) 
+   :  
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}]
+  \to 
+  \mathbf{B}^{n-k} U(1)_{conn}
+  \;\;\;
+  \in 
+  \mathbf{H}
+  \,.
+$$
+
+which for $U \in $ [[SmthMfd]] a smooth test manifold sends $n$-connections on $\Sigma_k$ on $U \times \Sigma_k$ to the $(n-k)$-connection on $U$ which is their fiber integration over $\Sigma_k$.
+
+To see this, observe that 
+
+1. by definition $\mathbf{H}(U, [\Sigma_k, \mathbf{B}^n U(1)_{conn}]) \simeq \mathbf{H}(U \times \Sigma_k, \mathbf{B}^n U(1))$;
+
+1. if $\{U_i \to \Sigma_k\}$ is a fixed [[good open cover]] of $\Sigma_k$, then $\{U \times U_i \to U \times \Sigma_k\}$ is also a good open cover, for every $U \in $ [[CartSp]];
+
+1. hence the [[Cech nerve]] $C(\{U \times U_i\})$ is a natural (functorial in $U \in CartSp$) [[cofibrant object]] [[resolution]] of $U \times \Sigma_k$ in the projective local [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,loc}$ which [[presentable (infinity,1)-category|presents]] $\mathbf{H} = $[[Smooth∞Grpd]] (as discussed there);
+
+1. the (image under the [[Dold-Kan correspondence]]) of the [[Deligne complex]] $\mathbb{Z}(n+1)^\infty_D$ is a is fibrant in this model structure (since every circle $n$-budle is trivializable over a [[contractible topological space|contractible space]] $U \in $ [[CartSp]]).
+
+This means that a presentation of $[\Sigma_k, \mathbf{B}^n U(1)_{conn}]$ by an object of $[CartSp^{op}, sSet]_{proj,loc}$ is given by the [[simplicial presheaf]]
+
+$$
+  U \mapsto DK \mathbb{Z}(n+1)^\infty_D(\{U \times U_i\})
+$$
+
+that sends $U$ to the [[Cech cohomology|Cech]]-[[Deligne complex|Deligne]] [[hypercohomology]] [[chain complex]] with respect to the cover $\{U \times U_i \to U \times \Sigma_k\}$.
+
+On this def. \ref{GomiFiberIntegration} provides a morphism of simplicial sets
+
+$$
+  DK \mathbb{Z}(n+1)^\infty_D(\{U \times U_i\})
+  \to
+  DK \mathbb{Z}(n+1)^\infty_D(U)  
+$$
+
+which one directly sees is natural in $U$, hence extends to a morphism of simplicial presheaves, which in turn presents the desired morphism in $\mathbf{H}$.
+
 ## Properties
 
 ### General
@@ -157,6 +226,56 @@ given by (...)
 ### Abstract formulation
 
 At least the fiber integration all the way to the point exists on general grounds for the <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos%20--%20structures#DifferentialCohomology">intrinsic differential cohomology</a> in any [[cohesive (∞,1)-topos]]: the general abstract formulation is in the section _<a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos%20--%20structures#ChernSimonsTheory">Higher holonomy and Chern-Simons functional</a>_ and the implementation in [[smooth ∞-groupoid]]s is in the section _<a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucChernSimons">Smooth higher holonomy and Chern-Simons functional</a>_ .
+
+## Examples
+
+### $\infty$-Chern-Simons functionals in higher codimension
+ {#CSInHigherCodimension}
+
+(...)
+
+Differential universal characteristic class / extended $\infty$-Chern-Simons Lagrangian:
+
+$$
+  \hat \mathbf{c} : \mathbf{B}G_{conn}  \to \mathbf{B}^{n}U(1)_{conn}
+$$
+
+
+moduli $\infty$-stack of [[higher gauge fields]] on a given $\Sigma_k$: 
+
+$$
+  [\Sigma_k, \mathbf{B}G_{conn}] \in \mathbf{H}
+$$
+
+Lagrangian of $\hat \mathbf{c}$-Chern-Simons theory:
+
+$$
+  [\Sigma_k, \hat \mathbf{c}] 
+   : 
+  [\Sigma_k, \mathbf{B}G_{conn}]
+   \to
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}] 
+$$
+
+extended action functional of $\hat \mathbf{c}$-Chern-Simons theory in codimension $(n-k)$
+
+$$
+  \exp(2 \pi i \int_{\Sigma_k}
+  [\Sigma_k, \hat \mathbf{c}] 
+  )
+   : 
+  [\Sigma_k, \mathbf{B}G_{conn}]
+    \stackrel{[\Sigma_k, \hat \mathbf{c}]}{\to}
+  [\Sigma_k, \mathbf{B}^n U(1)_{conn}] 
+   \stackrel{\exp(2 \pi i\int_{\Sigma_k} (-))}{\to}
+  \mathbf{B}^{n-k} U(1)_{conn}
+  \,.
+$$
+
+(...)
+
+
+
 
 ## Related concepts
 
