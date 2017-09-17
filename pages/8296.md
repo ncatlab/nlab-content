@@ -149,3 +149,8 @@ Extensions by [[braided 2-groups]] are discussed in
 [[!redirects infinity-group extensions]]
 [[!redirects ∞-group extensions]]
 
+[[!redirects extension of ∞-groups]]
+[[!redirects extension of infinity-groups]]
+[[!redirects extensions of ∞-groups]]
+[[!redirects extensions of infinity-groups]]
+
