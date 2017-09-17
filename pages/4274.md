@@ -23,14 +23,14 @@
 
 ## Idea
 
-An _elliptic genus_ or _Witten genus_ is a [[genus]] for [[string structure]]-[[cobordisms]] with values in [[topological modular forms]].
+The _Witten genus_ is a [[genus]] for [[string structure]]-[[cobordisms]] with values in [[topological modular forms]].
 
 The universal [[elliptic genus|elliptic]] [[genus]] is a morphism $\phi_2 : \Omega_\bullet^{SO} \otimes \mathbb{C} \to M_\bullet(\Gamma_1(2)) \simeq \mathbb{C}[\delta, \epsilon]$ from the complexified [[cobordism ring]].
 [[Edward Witten]] argued that the value of the elliptic genus on $X$ can be understood as the $S^1$-[[equivariant cohomology|equivariant]] [[index]] of a [[Dirac operator]] on a [[loop space]] $\mathcal{L} X$.
 
 As such it can be understood as the [[partition function]] of an $N=1$ $d=2$ [[sigma-model]] [[SCFT]] ("the [[heterotic string]]"). Formalizations of this construction exist both in [[AQFT]]-type ([Costello](#Costello)) and in [[FQFT]]-type [[quantum field theory]] ([Stolz-Teichner]())
 
-This can be refined to a morphism of [[ring spectra]] ([Ando-Hopkins-Rezk](#AndoHopkinsRezk))
+This can be refined to a morphism of [[ring spectra]] ([Ando-Hopkins-Rezk 10](#AndoHopkinsRezk))
 
 $$
  \sigma : MString \to tmf
@@ -77,7 +77,7 @@ Discussion of the Witten genus via a KO-valued Chern-character on elliptic cohom
 
 The discussion of the refinement of the Witten genus to a morphism of ring spectra, to the [[string orientation of tmf]] is in
 
-* [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_ ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
+* [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
   {#AndoHopkinsRezk}
 
 see also remark 1.4 of
