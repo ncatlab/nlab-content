@@ -8,7 +8,7 @@
 
 ##Idea##
 
-The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf]] of abelian groups $F$ was originally defined as the value of the right [[derived functor]] of the global section functor.
+The [[cohomology]] $H^n(X,F)$ of a [[topological space]] $X$ with values in a [[sheaf]] of abelian groups $F$ was originally defined as the value of the right [[derived functor]] of the [[global section]] functor.
 
 But by embedding sheaves with values in abelian groups as special cases of [[simplicial presheaf|simplicial presheaves]] into the more general context of [[infinity-groupoid]] valued sheaves via the [[Dold-Kan correspondence]] and thus the abelian sheaf cohomology into the more general context of [[nonabelian cohomology]], this definition becomes equivalent to a special case of the general notion of [[nonabelian cohomology]] defined simply as the set of homotopy classes of maps
 
@@ -39,7 +39,7 @@ One reason this conceptually simple picture is not usually presented is that the
 
 More precisely, via the [[Dold-Kan correspondence]] (non-negatively graded) [[complex]]es of [[abelian sheaf|abelian sheaves]] -- which are equivalently [[sheaf|sheaves]] with values in (non-negatively graded) [[category of chain complexes|categories of chain complexes]] -- can be regarded as special cases of [[simplicial presheaf|simplicial sheaves]]. But thanks to the [[model structure on simplicial presheaves|model category structure]] on the category of [[simplicial presheaf|simplicial sheaves]], this in turn is a model for the [[(infinity,1)-topos]] of  [[space and quantity|generalized spaces]] called [[infinity-stack]]s. The very point of $(\infty,1)$-[[(infinity,1)-topos|topoi]] is that they are [[(infinity,1)-category|(infintiy,1)-categories]] which behave in all structural aspects relevant for [[homotopy theory]] as the archetypical example [[Top]] does. In particular, as in [[Top]], the notion of [[cohomology]] in any [[(infinity,1)-topos]] simply coincides with that of [[hom-space]]s.
 
-In the 1-categorical [[model category|model theoretic models]] these hom-spaces are computed technically by [[derived functor]]s. More precisely, the Hom-space $[X,A]$ for $X$ an ordinary space computes the [[global section]]s $\Gamma(X,A)$ of the complex of [[abelian sheaf|abelian sheaves]] $A$ which is computed by the [[derived global section functor]] $R \Gamma(X,-)$ of the [[global section functor]] $\Gamma(X,-)$, which does exist entirely within the abelian context.
+In the 1-categorical [[model category|model theoretic models]] these hom-spaces are computed technically by [[derived functor]]s. More precisely, the Hom-space $[X,A]$ for $X$ an ordinary space computes the [[global section]]s $\Gamma(X,A)$ of the complex of [[abelian sheaf|abelian sheaves]] $A$ which is computed by the right [[derived functor]] of the [[global section]] $R \Gamma(X,-)$ of the [[global section functor]] $\Gamma(X,-)$, which does exist entirely within the abelian context.
 
 This, then, is the definition of sheaf cohomology as usually presented: the cohomology of the complex $R \Gamma(X,A)$.
 
