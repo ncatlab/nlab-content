@@ -14,6 +14,12 @@ Let $R$ be a rig, and let $V$ be a (left) $R$-module.  By 'scalar', we mean an e
 $$ a_1 x_1 + \cdots + a_n x_n .$$
 The result of this operation is the __linear combination__ of the vectors $x_1$ through $x_n$ with respective __[[coefficients]]__ $a_1$ through $a_n$.
 
+Variations:  If $R$ is a non-unital rig (or more generally if $M$ is a non-unital module), then a linear combination may also have a term $x_0$ with no coefficient.  If $R$ is non-associative (or more generally if $M$ is a non-associative module), then the term with $x_i$ takes the form
+$$ a_{i,1} (a_{i,2} \cdots (a_{i,i_m} x_i){\cdots})) .$$
+If $R$ is non-commutative and $V$ is a right $R$-module, the term with $x_i$ takes the form $x_i a_i$.  If $V$ is an $R$-$S$-[[bimodule]], then the term with $x_i$ takes the form $a_i x_i b_i$, with $a_i\colon R$ and $b_i\colon S$.  Of course, all of these variations may be combined.
+
+Given a [[subset]] $G$ of (the [[underlying set]] of) $V$, the set of all linear combinations of the vectors in $G$ is a [[submodule]] of $V$, the __$R$-linear span__ of $G$.
+
 
 ## Examples
 
@@ -39,3 +45,6 @@ If $R$ is [[ordered ring|ordered]], then a __[[conical linear combination]]__ is
 
 [[!redirects linear combination]]
 [[!redirects linear combinations]]
+
+[[!redirects linear span]]
+[[!redirects linear spans]]
