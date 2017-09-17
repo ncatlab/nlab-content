@@ -538,7 +538,7 @@ To see how this is useful in the present context, notice the following basic obs
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[symplectic manifold]] $(X,\omgea)$, a [[submanifold]] $L \hookrightarrow$ is called a _[[Lagrangian submanifold]]_ of $\omega|_{L} = 0$ and if $L$ has [[dimension]] $dim(L) = dim(X)/2$.
+Given a [[symplectic manifold]] $(X,\omgea)$, a [[submanifold]] $L \hookrightarrow$ is called a _[[Lagrangian submanifold]]_ if $\omega|_{L} = 0$ and if $L$ has [[dimension]] $dim(L) = dim(X)/2$.
 
 =--
 
