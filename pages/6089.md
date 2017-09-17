@@ -101,6 +101,8 @@ For more on this see [[higher dimensional Chern-Simons theory]].
 
 ## Related concepts
 
+* [[Deligne line bundle]]
+
 * [[intersection pairing]]
 
 * [[self-dual higher gauge theory]]
