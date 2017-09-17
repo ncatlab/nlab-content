@@ -48,6 +48,11 @@ The [[identity morphism]] on an object $B$ satisfies definition 1 if and only if
 
 Using the two-point set, it is simple to show that the constant morphisms in [[Set]] are precisely the constant functions.
 
+## Related concepts
+
+* [[constant function]]
+
+* [[steady function]]
 
 [[!redirects constant morphism]]
 [[!redirects constant morphisms]]
