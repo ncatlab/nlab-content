@@ -1,6 +1,11 @@
-##Idea##
 
-A directed $n$-graph, or $n$-digraph, is a higher dimensional generalization of a [[directed graph]] with $r$-dimensional _edges_ spanning $(r-1)$-dimensional _vertices_.
+# Directed $n$-graph
+* table of contents
+{: toc}
+
+## Idea
+
+A directed $n$-graph, or $n$-digraph or $n$-quiver, is a higher dimensional generalization of a [[quiver]] (a category theorist\'s digraph) with $r$-dimensional _edges_ spanning $(r-1)$-dimensional _vertices_.
 
 A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an $n$-category is a directed $n$-graph with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
 
@@ -13,7 +18,7 @@ $$F : n\DiGraph \to n\Cat $$
 sending each directed $n$-graph to the free $n$-category on that $n$-graph.  A free $n$-category on an $n$-graph is called an $n$-[[quiver]].
 
 
-##Definition##
+## Definition
 
 An **abstract directed $n$-graph** $X$ is a [[category]] with
 
@@ -39,7 +44,8 @@ $$t_r\circ i_r = \mathrm{Id}_r.$$
 
 When identity assignment maps are defined for all $0\le r\lt n$, the directed $n$-graph is referred to as a **directed $n$-graph with identities**.
 
-##Remarks##
+
+## Remarks
 
 * A directed $n$-graph is not required to contain identities.
 
@@ -49,11 +55,14 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 
 * One can define a (globular) _directed $\omega$-graph_ (or _directed $\infty$-graph_) in a [[coalgebra|coalgebraic]] fashion as follows: A directed $\omega$-graph $G$ consists of a collection $G_0$ of vertices and, for each pair of vertices $x$ and $y$, a directed $\omega$-graph $\Hom(x,y)$. (This is a definition by [[structural coinduction]].) Can this be continued to a corecursive definition of $\infty$-[[infinity-category|category]]?
 
-##See also##
-***
+
+## See also
+
 * $\omega$-[[omega-graph|graph]]
 
-+--{: .query}
+
+## Discussion
+
 [[Mike Shulman]]: I had not seen this page before it was linked from [[finite category]], but I don't really like "$n$-graph" as a name for these.  When I see "$n$-graph" I automatically think "$n$-globular set", and I expect the same will be true for many category theorists; I've seen the phrase used that way in print as well.
 
 [[Eric]]: I really like the generality of this definition. Globular sets seem too limited to me, e.g. I like to have square 2-cells, but that is probably due to a less than perfect understanding. You can see some discussion and references on [Revision 8](http://ncatlab.org/nlab/revision/directed+n-graph/8) of this page. If we really decide to limit $n$-graph to globular sets we can certainly change the name.
@@ -62,7 +71,7 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 
 [[Eric]]: Thanks Mike! Todd mentioned computads in the discussion at [[finite category]], but I didn't realize we had a nice page: [[computad]]. Maybe we can think about how to clean things up. Based on the opening paragraph at computad, they do seem to be what I was after. I need to do some homework now. Thanks again.
 
-=--
 
-
+[[!redirects directed n-graph]]
 [[!redirects n-digraph]]
+[[!redirects n-quiver]]
