@@ -1096,7 +1096,7 @@ The combination of these two aspects yields naturally an explicit model for the 
 
 * [The ∞-Chern-Weil homomorphism](#ChernWeilHomomorphism)
 
-Taken together, these constructions allow us to express a good deal of the general $\infty$-Chern-Weil theory with classical tools. As an example, we describe how the classical Cech-Deligne cocycle construction of the refined [[Chern-Weil homomorphism]] (by [BrylinskiMacLaughlin](#BrylinskiMacLaughlin)) drops out from these constructions:
+Taken together, these constructions allow us to express a good deal of the general $\infty$-Chern-Weil theory with classical tools. As an example, we describe how the classical Cech-Deligne cocycle construction of the refined [[Chern-Weil homomorphism]] (by (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>)) drops out from these constructions:
 
 * [Example: The Chern-Simons circle 3-bundle](#ChernSimons3Bund).
 
@@ -3053,7 +3053,8 @@ to the untruncated [[Lie integration]] of $\mathfrak{g}$ is given by restriction
 
 Here we are thinking of $U \times \Delta^k \to U$ as a trivial [[bundle]].
 
-The _first_ [[Ehresmann connection|Ehresmann condition]] will be identified with the conditions on lifts $\nabla$ in [[∞-anafunctor]]s
+The _first_ [[Ehresmann connection|Ehresmann condition]] 
+can be identified with the conditions on lifts $\nabla$ in [[∞-anafunctor]]s
 
 $$
   \array{
@@ -3069,9 +3070,10 @@ $$
   }
 $$
 
-that define [[connections on ∞-bundles]]. More on this in the [Properties](#Properties)-section below.
+that define [[connections on ∞-bundles]]. 
 
 =--
+
 
 #### Curvature characteristics
 
@@ -3107,7 +3109,7 @@ $$
 +-- {: .un_lemma}
 ###### Remark
 
-For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms $F_A$ themselves are not closed, hence requiring them to have no component along the simplex does not imply that they descend. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
+For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms $F_A$ themselves are not necessarily closed (rather they satisfy the [[Bianchi identity]]), hence requiring them to have no component along the simplex does not imply that they descend. This is different for abelian $\infty$-Lie algebras: for them the curvature forms themselves are already closed, and hence are themselves already curvature characteristics that do descent.
 
 =--
 
@@ -3317,7 +3319,8 @@ where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{
 
 =--
 
-In [[Cartan calculus]] for $\mathfrak{g}$ an ordinary one writes the corresponding  **[[Ehresmann connection|second Ehremsnn condition]]** $\iota_{\partial_s} F_A = 0$ equivalently
+In the [[Cartan calculus]] for $\mathfrak{g}$ an ordinary 
+[[Lie algebra]] one writes the corresponding  **[[Ehresmann connection|second Ehremsnn condition]]** $\iota_{\partial_s} F_A = 0$ equivalently
 
 $$
   \mathcal{L}_{\partial_s} A = ad_\lambda A
@@ -3363,7 +3366,7 @@ This is known as the equation for **infinitesimal [[gauge transformation]]s** of
 
 By [[Lie integration]] we have that $A_{vert}$ -- and hence $\lambda$ -- defines an element $\exp(\lambda)$ in the [[∞-Lie group]] that integrates $\mathfrak{g}$. 
 
-The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the gauge transformatin $\exp(\lambda)$. 
+The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 1$ for the initial values $A_U(s = 0)$ we may think of as the result of acting on $A_U(0)$ with the gauge transformation $\exp(\lambda)$. 
 
 =--
 
@@ -3387,7 +3390,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-To see this, first note that the sheaves of objects on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. For morphisms, observe that for a form $\Omega^\bullet(U \times \Delta^1) \leftarow W(\mathfrak{g}) : A$ which we may decompose into a horizontal and a verical pice as $A = A_U + \lambda \wedge d t$ the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
+To see this, first note that the sheaves of objects on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. For morphisms, observe that for a form $\Omega^\bullet(U \times \Delta^1) \leftarrow W(\mathfrak{g}) : A$ which we may decompose into a horizontal and a verical pice as $A = A_U + \lambda \wedge d t$ the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
 
 $$
   \frac{\partial}{\partial t} A
@@ -3440,12 +3443,13 @@ In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and an
 * For $n \in \mathbb{N}$, a $b^{n-1}\mathbb{R}$-valued differential form is the same as an ordinary differential $n$-form.
 
 
-* What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is really precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the [[supergravity Lie 3-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
+* What is called an  "extended soft group manifold" in the literature on the [[D'Auria-Fre formulation of supergravity]] is precisely a collection of $\infty$-Lie algebroid valued forms with values in a super $\infty$-Lie algebra such as the 
+[[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (for 11-dimensional [[supergravity]]). The way [[curvature]] and [[Bianchi identity]] are read off from "extded soft group manifolds" in this literature is -- apart from this difference in terminology -- precisely what is described above. 
 
 
 ### The $\infty$-Chern-Weil homomorphism
 
-In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $c : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
+In the full [[∞-Chern-Weil theory]] the $\infty$-Chern-Weil homomorphism is conceptually very simple: for every $n$ there is canonically a morphism of [[∞-Lie groupoid]]s $\mathbf{B}^n U(1) \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1}U(1)$ where the object on the right classifies ordinary [[de Rham cohomology]] in degree $n+1$. For $G$ any [[∞-group]] and any [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^{n+1}U(1)$, the $\infty$-Chern-Weil homomorphism is the operation that takes a $G$-[[principal ∞-bundle]] $X \to \mathbf{B}G$ to the composite $X \to \mathbf{B}G \to \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
 All the construction that we consider here in this introduction serve to _model_ this abstract operation. The $\infty$-connections that we considered yield [[resolution]]s of $\mathbf{B}^n U(1)$ and $\mathbf{B}G$ in terms of which the abstract morphisms are modeled as [[∞-anafunctor]]s.
 
@@ -3747,7 +3751,7 @@ This is the cocycle for the [[circle n-bundle with connection]].
 
 =--
 
-This is precisely the cocycles given in ([BrylMac](#BrylinskiMacLaughlin)).
+This is precisely the cocycles given in (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#CechCocyclesForCharClasses">BrylinskiMacLaughlin</a>).
 
 
 
