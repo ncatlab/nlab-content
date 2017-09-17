@@ -26,5 +26,6 @@ In analogy to how [[Artin reciprocity]] implies that to every 1-dimensional [[Ga
 
 * {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
+* F. Shahidi, _Automorphic $L$-functions: A Survey_ in Laurent Clozel, [[James Milne]] (eds.) _Automorphic forms, Shimura varieties and $L$-functions_, volume I ([pdf](www.jmilne.org/math/articles/1990aT.pdf))
 
 [[!redirects automorphic L-functions]]
