@@ -140,6 +140,8 @@ A little bit a long these lines for [[diffeological space]]s is also in
 
 * **de Rham theorem**
 
+* [[Dolbeault theorem]]
+
 * [[Hodge theorem]]
 
 ## References
