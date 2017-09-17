@@ -153,7 +153,7 @@ see
 
 * [[twisted differential K-theory]]
 
-
+* [[differential algebraic K-theory]]
 
 ## References
 
