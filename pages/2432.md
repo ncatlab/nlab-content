@@ -70,7 +70,7 @@ There are two generalizations of proper maps from locales to the [[geometric mor
 (TO ADD: The definition of a proper dg algebra, proper dg category, proper A-inf cat ???)
 
 * wikipedia [proper morphism](http://en.wikipedia.org/wiki/Proper_morphism)
-
+* Daniel Halpern-Leistner, Anatoly Preygel, _Mapping stacks and categorical notions of properness_, [arxiv/1402.3204](http://arxiv.org/abs/1402.3204)
 
 [[!redirects proper map]]
 [[!redirects proper maps]]
