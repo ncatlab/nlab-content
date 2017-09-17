@@ -9,7 +9,7 @@ A preorder is like a [[partial order]], but without the requirement that $x \le 
 
 ## Definition
 
-A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder.
+A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder.  (This should not be confused with a [[pro-set]], i.e. a [[pro-object]] in [[Set]].)
 
 Equivalently, a proset is a [[thin category]]: a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a [[category enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.
 
