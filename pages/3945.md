@@ -30,7 +30,7 @@ where $a\colon 1\to L$ is the inclusion of the top-left vertex of the span, and 
 $$\array{X & \overset{}{\to} & 0\\
   \downarrow && \downarrow\\
   0 & \underset{}{\to} & S X.}$$
-The stability axiom guarantees that $S$ is an equivalence of categories, its inverse being given by the obvious dual construction.
+The stability axiom guarantees that $S$ is an equivalence of categories, its inverse being given by the obvious dual "loop space" construction.  This provides a motivation for the stability axiom: it is a generalization of the statement that every object is the loop space of its suspension and the suspension of its loop space.
 
 Let $Q$ denote the category
 $$\array{ & \overset{}{\to} & & \to &\\
