@@ -165,7 +165,7 @@ See [[D'Auria-Fre formulation of supergravity]].
 
 ## References
 
-The [[Chevalley-Eilenberg algebra]] of $\mathfrak{sugra}(10,1)$ first appears in 
+The [[Chevalley-Eilenberg algebra]] of $\mathfrak{sugra}(10,1)$ first appears in (3.15) of
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
 
@@ -176,7 +176,7 @@ and later in the textbook
 
 The manifest interpretation of this as a [[Lie 3-algebra]] and the supergravity field content as [[∞-Lie algebra valued forms]] with values in this is mentioned in 
 
-* Hisham Sati, Urs Schreiber, Jim Staasheff, _$L_\infty$-algebra valued connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+* Hisham Sati, Urs Schreiber, Jim Stasheff, _$L_\infty$-algebra valued connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 
 A systematic study of the super-[[Lie algebra cohomology]] involved is in
 
