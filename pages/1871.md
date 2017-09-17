@@ -23,7 +23,7 @@ Yang--Mills theory is a [[gauge theory]] on 4-dimensional (pseudo)[[Riemannian m
 
 $$
   \hat F \mapsto
-  \int_X F \wedge \star F  + \theta \int_X F \wedge F
+  \frac{1}{e^2 }\int_X F \wedge \star F  + i \theta \int_X F \wedge F
 $$
 
 for 
@@ -32,7 +32,7 @@ for
 
 * $\star$ the [[Hodge star]] operator;
 
-* $\theta$ some [[real number]].
+* $\frac{1}{e^2}$ and $\theta$ some [[real number]]s (see [[S-duality]])
 
 All gauge fields in the [[standard model of particle physics]] as well as in [[GUT]] models are Yang--Mills fields.
 
@@ -45,3 +45,5 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 [[!redirects Yang-Mills action]]
 [[!redirects Yang-Mills action functional]]
+
+[[!redirects super Yang-Mills theory]]
