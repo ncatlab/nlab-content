@@ -110,3 +110,6 @@ This may explain why the link between Yetter's invariant and groupoid cardinalit
 * Kazunori Noguchi, _The Euler characteristic of infinite acyclic categories with filtrations_, [arxiv/1004.2547](http://arxiv.org/abs/1004.2547)
 
 [[!redirects ∞-groupoid cardinality]]
+
+
+[[!redirects infinity-groupoid cardinality]]
