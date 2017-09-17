@@ -22,10 +22,18 @@ A planar operad is a collection ([[set]]/[[object]] in some enriching category) 
 
 The notion of planar operads takes its name from the fact that the operations in a planar operad may naturally be drawn as [[planar trees]] without, in general, a relation between two trees that cannot be related by a planar deformation into each other.
 
+Multi-coloured planar operads over [[Set]] are equivalently known as _[[multicategories]]_.
+
 ## Examples
 
 * The operad [[Assoc]] for associative [[monoids]] is the [[terminal object]] in the category of planar $V$-operads, for choices such as $V = $  [[Set]], [[sSet]], [[Top]], etc.
 
+
+## Related concepts
+
+* [[symmetric operad]]
+
+* [[multicategory]]
 [[!redirects planar operads]]
 
 [[!redirects non-symmetric operad]]
