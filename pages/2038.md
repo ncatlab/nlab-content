@@ -1,23 +1,29 @@
-# Idea #
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea 
 
 The notion of _superconnection_ generalizes the notion of [[connection on a bundle]] from the [[internalization|context]] of [[manifold]]s to that of [[supermanifold]]s.
 
 An [[connection on a bundle|ordinary connection on a vectorbundle]] is given by a suitable [[functor]] $P_1(X) \to Vect$ on the [[path groupoid]] of some [[manifold]] $X$ -- its parallel transport functor. Here a path is a smooth map $I \to X$ from an [[interval]] $I_t = [0,t] \subset \mathbb{R}^1$ to $X$. A _superconnection_ is more generally given by a functor on _superpaths_ in $X$, where a superpath is a map on superintervals $I_{t,theta} \subset \mathbb{R}^{1|1}$.
 
-#Definition#
+## Definition
 
 ...
 
 
-# Push-forward #
+## Push-forward 
 
-## Idea ##
+### Idea 
 
 There is a natural notion of push-forward of superconnections along maps $\pi : Y \to X$ of [[manifold]]s whose [[fiber]]s are [[compact space|compact]] [[spin structure|spin manifold]]s. Under this push-forward the different components of a superconnection mix. In particular, the push-forward of an ordinary connection in this sense is in general a superconnection. 
 
 The push-forward of superconnections corresponds to (...details...) the push-forward in [[topological K-theory]] and [[differential K-theory]]. Bismut famously originally found a superconnection formula for the chern-character of a  pushed K-class. See the references below
 
-## Details ##
+### Details 
 
 Let $E \to Y$ be a Hermitian $\mathbb{Z}_2$-graded [[vector bundle]] of finite rank with superconnection $\nabla = \nabla^E + \omega$ with ordinary connection part $\nabla^E$. 
 
@@ -36,7 +42,7 @@ $$
  \,.
 $$
 
-## Example: push-forward of ordinary connection to point ##
+### Example: push-forward of ordinary connection to point 
 
 So in particular when $X = {*}$ is the [[point]] and $\nabla = \nabla^E$ is an ordinary connection, we find that the push-forward of an ordinary connection on a vector bundle $E$ on a Riemannian spin manifold $Y$ to the point is the [[Dirac operator]] $D(\nabla^E)$ acting on the space of [[section]]s of $E$ and regarded as the odd endomorphism-valued 0-form part of a superconnection on the point.
 
@@ -50,7 +56,7 @@ $$
 This happens to be the (Euclidean) [[quantum mechanics]] time evolution operator for the [[sigma-model]] given by the spinning particle on $Y$ charged under the connection $\nabla$.
 
 
-# References #
+## References 
 
 The geometric interpretation of superconnections in terms of parallel transport along superpaths is due to
 
