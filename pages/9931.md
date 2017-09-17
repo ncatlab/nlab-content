@@ -99,6 +99,8 @@ For instance ([Lurie 10, lecture 12, example 16](#Lurie10)).
 
 ## Related pages
 
+* [[moduli stack of formal groups]]
+
 * [[chromatic homotopy theory]]
 
 * [[Morava K-theory]]
