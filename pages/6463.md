@@ -46,7 +46,7 @@ $$
 The **realization** $|X|$ of a bisimplicial set $X_{\bullet,\bullet}$ is the [[simplicial set]] that is given by the [[coend]]
 
 $$
-  |X| =  \int^{[n] \in \Delta} X_{n,\bullet} \times \Delta[n]_\bullet
+  |X| =  \int^{[n] \in \Delta} X_{n,\bullet} \times \Delta[n]
 $$
 
 in [[sSet]].
