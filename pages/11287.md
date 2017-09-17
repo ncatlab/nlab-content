@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Under _[[propositions as types]]_ in [[homotopy type theory]], a [[type]] $P$ is called a _mere proposition_ when it is really not _more_ than a [[proposition]], hence when [[isProp]](P) is an [[inhabited type]].
+
+## Related concepts
+
+* [[h-proposition]]
+
+## References
+
+* [section 3.3](http://planetmath.org/33merepropositions) of [[Homotopy Type Theory -- Univalent Foundations of Mathematics]]
+
+[[!redirects mere propositions]]
