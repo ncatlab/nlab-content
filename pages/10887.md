@@ -1,7 +1,10 @@
-An __entire function__ is a function of one complex variable which is defined and [[holomorphic function|holomorphic]] on the whole complex plane $\mathbb{C}$. 
 
-The study of entire functions is a rather nontrivial branch of complex analysis; of course, with many applications. 
+An __entire function__ is a function of one complex variable which is defined and [[holomorphic function|holomorphic]] on the entire (hence the name) [[complex plane]] $\mathbb{C}$. 
+
+The study of entire functions is a rather nontrivial branch of [[complex analysis]]; of course, with many applications. 
+
 
 category:analysis
-[[!redirects entire functions]]
 
+[[!redirects entire function]]
+[[!redirects entire functions]]
