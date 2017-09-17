@@ -68,7 +68,13 @@ The [[profinite set]] underlying the [[p-adic integers]], regarded as a [[Stone 
 (e.g. [Bhatt-Scholze 13, example 2.4.7](#BhattScholze13))
 
 
+## Related concepts
+
+* [[totally disconnected space]]
+
 ## References
+
+* [[Peter Johnstone]], _[[Stone Spaces]]_
 
 Discussion in the context of the [[pro-etale site]] is in
 
@@ -79,3 +85,5 @@ Discussion in the context of the [[pro-etale site]] is in
 
 [[!redirects extremally disconnected profinite set]]
 
+[[!redirects extremally disconnected space]]
+[[!redirects extremally disconnected spaces]]
