@@ -511,6 +511,8 @@ $$
 
 ## Related concepts
 
+* [[equivariant KK-theory]]
+
 * [[index theory]]
 
 * [[bivariant cohomology theory]]
