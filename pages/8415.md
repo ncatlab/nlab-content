@@ -1,3 +1,4 @@
+
 _(This article is on 'compactification' as used in topology, adding points to a space to make it compact. For the sense of 'compactification' as used by physicists, see [[Kaluza-Klein mechanism]].)_ 
 
 # Contents 
@@ -10,16 +11,19 @@ Traditionally, a compactification of a [[topological space]] $X$ is a [[compact 
 
 A useful intuition throughout is that a 'compactification' is a process of adding "ideal points at infinity" in some way to "complete" a space. (Compact [[separation axioms|regular]] spaces $X$ themselves being "complete" in a technical sense: there is a unique [[uniform space|uniform structure]] whose uniform topology is the topology on $X$, and $X$ is complete with respect to this uniformity.) 
 
+
 ## Examples 
 
-* One-point compactification 
+* [[One-point compactification]]
 
-* Stone-Cech compactification 
+* [[Stone–Cech compactification]]
 
-* Compactification by [[topological end|ends]] 
+* [[end compactification|End compactification]]
 
-* Bohr compactification 
+* [[Bohr compactification]]
 
 ... 
 
 
+[[!redirects compactification]]
+[[!redirects compactifications]]
