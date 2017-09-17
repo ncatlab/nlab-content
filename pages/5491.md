@@ -22,7 +22,7 @@
 
 ## Idea
 
-In full generality, an **$\infty$-representation** is an [[action]] of some [[higher algebra]]ic structure on some object in a [[higher category theory|higher category]] up to [[coherent]] [[homotopy]]. One also speaks of _representation up to homotopy_ or maybe _sh-representations_ .
+In full generality, an **$\infty$-representation** is an [[∞-action]] of some [[higher algebra|higher algebraic]] structure on some object in a [[higher category theory|higher category]] up to [[coherent]] [[homotopy]]. One also speaks of _representation up to homotopy_ or maybe _sh-representations_ .
 
 We motivate the general notion of $\infty$-representation by recalling first some [[category theory|category theoretic]] aspects of the ordinary notion of representation, and then leading over to the analogous [[(∞,1)-category theory|(∞,1)-category theoretic]] notions.
 
@@ -271,6 +271,13 @@ As always in [[higher category theory]], the cases for low $n$ are more restrict
 
 In analogy to the case for $n=1$, 2-Representations $\mathbf{P}_2(X) \to 2 Vect$ of the smooth [[path 2-groupoid]] of a [[smooth manifold]] desribe [[connections on a 2-bundle]]. See there for more details.
 
+## Related concepts
+
+* [[action]], [[∞-action]]
+
+* [[representation]], **$\infty$-representation**
+
+* [[associated bundle]], [[associated ∞-bundle]]
 
 ## References
 
