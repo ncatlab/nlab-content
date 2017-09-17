@@ -1,4 +1,9 @@
-#Definition#
+# $Cart Sp$
+* table of contents
+{: toc}
+
+
+## Definition
 
 By $CartSp$ we denote the category
 
@@ -6,10 +11,10 @@ By $CartSp$ we denote the category
 
 * whose morphisms are all smooth (infinitely differentiable) maps between these spaces.
 
-So $CartSp$ is in particular the full [[subcategory]] of [[Diff]] consisting of the spaces for $\mathbb{R}^n$ for $n \in \mathbb{N}$.
+So $CartSp$ is in particular the [[full subcategory]] of [[Diff]] consisting of the spaces for $\mathbb{R}^n$ for $n \in \mathbb{N}$.
 
 
-#Remarks#
+## Remarks
 
 * Let $CartSp_{pr} \hookrightarrow CartSp$ be the subcategory of $CartSp$ whose morphisms are restricted to be the standard injections and projections on $CartSp$. 
 If we write [[FinSet]] for the skeletal version of the category of finite sets, with objects identified with the natural numbers, then $CartSp_{pr} \simeq FinSet$.
@@ -21,5 +26,9 @@ If we write [[FinSet]] for the skeletal version of the category of finite sets, 
 
 category: category
 
-[[!redirects CartesianSpaces]]
+[[!redirects CartSp]]
 [[!redirects Cart Sp]]
+[[!redirects CartesianSpace]]
+[[!redirects Cartesian Space]]
+[[!redirects CartesianSpaces]]
+[[!redirects Cartesian Spaces]]
