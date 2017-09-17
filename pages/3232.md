@@ -123,6 +123,9 @@ More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullb
 
    * [[model structure on algebras over an operad]]
 
+## References
+
+* [[John Isbell]], _Generic algebras_ Transactions of the AMS, vol 275, number 2 ([pdf](www.ams.org/tran/1983-275-02/.../S0002-9947-1983-0682715-8.pdf))
 
 [[!redirects module of a monad]]
 [[!redirects module for a monad]]
