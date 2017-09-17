@@ -490,3 +490,4 @@ A more modern review that emphasizes the role of [[fiber sequences]] is in
 * Eldon Dyer, Joseph Roitberg, _Note on sequence of Mayer-Vietoris type_, Proceedings of the AMS, volume 80, number 4 (1980) ([pdf](http://www.ams.org/journals/proc/1980-080-04/S0002-9939-1980-0587950-8/S0002-9939-1980-0587950-8.pdf))
 
 [[!redirects Mayer-Vietoris sequences]]
+[[!redirects Mayer-Vietoris long exact sequence]]
