@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -12,7 +12,7 @@ For $n \in \mathbb{N}$, the [[Lie group]] $Spin^c(n)$ is the [[quotient]]
 
 $$
   \begin{aligned}
-    Spin^c & := Spin \times_{\mathbb{Z}_2} U(1)
+    Spin^c & \coloneqq Spin \times_{\mathbb{Z}_2} U(1)
     \\
     & = (Spin \times U(1))/{\mathbb{Z}_2}
     \,,
@@ -136,7 +136,7 @@ $$
 This pullback is $\mathbf{B}(\mathbb{Z} \stackrel{\partial}{\to} Spin \times \mathbb{R})$, where 
 
 $$
-  \partial : n \mapsto ( n mod 2 , n)
+  \partial\colon n \mapsto ( n mod 2 , n)
   \,.
 $$
 
@@ -149,7 +149,7 @@ $$
 where now $\partial'$ is the [[diagonal]] embedding of the subgroup
 
 $$
-  \partial' : \sigma \mapsto (\sigma, \sigma)
+  \partial'\colon \sigma \mapsto (\sigma, \sigma)
   \,.
 $$
 
@@ -189,21 +189,21 @@ The third _[[integral Stiefel-Whitney class]]_
 
 $$
   W_3
-   := 
+   \coloneqq 
   \beta_2 \circ w_2 
-   :
+   \colon
   B SO \stackrel{w_2}{\to} B^2 \mathbb{Z}
   \stackrel{\beta_2}{\to}
   B^3 \mathbb{Z}
 $$
 
-has an essentially unique lift through [[geometric realization]] $\vert -\vert : $ [[Smooth∞Grpd]] $\stackrel{\Pi}{\to}$ [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] 
+has an essentially unique lift through [[geometric realization]] ${\vert-\vert}\colon $ [[Smooth∞Grpd]] $\stackrel{\Pi}{\to}$ [[∞Grpd]] $\stackrel{\simeq}{\to}$ [[Top]] 
 
 given by
 
 $$
   \mathbf{W}_3 = \mathbf{\beta}_2 \circ \mathbf{w}_2
-  : 
+  \colon 
   \mathbf{B} SO(n)
    \stackrel{w_2}{\to}
   \mathbf{B}^2 \mathbb{Z}_2
