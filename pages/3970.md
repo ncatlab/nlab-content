@@ -1,4 +1,15 @@
-[[!redirects accessible (∞,1)-functor]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * automatic table of contents goes here
@@ -14,7 +25,7 @@ The generalization of the notion of [[accessible functor]]  from [[category theo
 ###### Definition
 
 
-An [[(∞,1)-functor]] $F : C \to D$ is **accessible** if $C$ is an [[accessible (∞,1)-category]] and there is a [[regular cardinal]] $\kappa$ such that $F$ preserves $\kappa$-small [[limit in a quasi-category|limits]].
+An [[(∞,1)-functor]] $F : C \to D$ is **accessible** if $C$ is an [[accessible (∞,1)-category]] and there is a [[regular cardinal]] $\kappa$ such that $F$ preserves $\kappa$-small [[filtered colimit]]s.
 
 =--
 
@@ -46,3 +57,4 @@ Section 5.4.2 of
 [[!redirects accessible (∞,1)-functor]]
 [[!redirects accessible (infinity,1)-functors]]
 [[!redirects accessible (∞,1)-functors]]
+[[!redirects accessible (∞,1)-functor]]
