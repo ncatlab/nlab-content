@@ -87,7 +87,7 @@ $$\array{A & \overset{u}{\to} & B\\
   *& \underset{}{\to} & *}$$
 this characterization reduces to saying that for any $b\in B$, the category $b/u$ is connected.  This is the standard combinatorial characterization of a [[final functor]].
 
-### Using comma objects
+### Using comma objects {#CommaObj}
 
 Another approach is to argue as follows.  First note that any comma square of the form
 $$\array{v/d & \overset{}{\to} & C\\
