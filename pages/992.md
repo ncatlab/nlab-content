@@ -313,7 +313,7 @@ This appears in a more comprehensive context of [[higher algebra]] as section 1 
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
-An brief introduction is in
+A brief introduction is in
 
 * [[Yonatan Harpaz]], _Introduction to stable $\infty$-categories_, October 2013 ([[HarpazStableInfinityCategory2013.pdf:file]])
   {#Harpaz2013}
