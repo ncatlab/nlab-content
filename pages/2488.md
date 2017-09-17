@@ -33,7 +33,7 @@ The complementary notion of $n$-truncated object  is that of an [[n-connected ob
 
 ### In terms of truncations
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **($n$-truncated $\infty$-groupoid)**
 
@@ -55,7 +55,7 @@ To generalize this, let now $C$ be an arbitrary [[(∞,1)-category]]. For $X,A$ 
 
 Using this, it shall be useful to slightly reformulate the above as follows:
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 An [[∞-groupoid]] $A$ is $n$-truncated precisely for all other [[∞-groupoid]]s $X$ the hom-$\infty$-groupoid $\infty Grpd(X,A)$ is $n$-truncated.
@@ -66,11 +66,11 @@ In categorical terms this just says that [[(n,k)-transformation|(∞,k)-transfor
 
 Using this fact we can transport the notion of $n$-truncation to any [[(∞,1)-category]] by testing it on hom-[[∞-groupoid]]s:
 
-+-- {: .un_defn}
++-- {: .num_defn #nTruncatedObject}
 ###### Definition
 **($n$-truncated object in an $(\infty,1)$-category)**
 
-An object $A \in C$ of an [[(∞,1)-category]] $C$ is **$n$-truncated**, for $n \in \mathbb{N}$, if for all $X \in C$ the hom-[[∞-groupoid]] $C(X,A)$ is $n$-truncated.
+An [[object]] $A \in C$ of an [[(∞,1)-category]] $C$ is **$n$-truncated**, for $n \in \mathbb{N}$, if for all $X \in C$ the hom-[[∞-groupoid]] $C(X,A)$ is $n$-truncated.
 
 =--
 
@@ -86,11 +86,11 @@ Some terminology:
 * Similarly, the (-1)-truncated objects are the [[subterminal objects]].
 
 
-+-- {: .un_defn}
++-- {: .num_defn #nTruncatedMorphism}
 ###### Definition
 **($n$-truncated morphism in an $(\infty,1)$-category)**
 
-A morphism $f : X \to Y$ of [[∞-groupoid]]s is $n$-truncated if all of its [[nLab:homotopy fiber]]s are.
+A [[morphism]] $f : X \to Y$ of [[∞-groupoids]] is $n$-truncated if all of its [[homotopy fibers]] are $n$-truncated by def. \ref{nTruncatedObject}.
 
 A morphism $f : X \to Y$ in an [[(∞,1)-category]] $C$ is $n$-truncated if for all $W \in C$ the postcomposition morphism
 
@@ -110,7 +110,7 @@ object of the [[over quasi-category|over (∞,1)-category]] $C_{/Y}$.
 
 At least if the ambient [[(∞,1)-category]] is even an [[∞-stack]] [[(∞,1)-topos]] there is an alternative, more intrinsic, characterization of $n$-truncation in terms of [[categorical homotopy groups in an (∞,1)-topos]]:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Suppose that an object $X$ in an [[∞-stack]] [[(∞,1)-topos]] is $k$-truncated for _some_ $k \in \mathbb{N}$ (possibly very large).
@@ -127,7 +127,7 @@ This is [[Higher Topos Theory|HTT, prop 6.5.1.7]].
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Notice that this expected statement does require the assumption that $X$ is $k$-truncated for some $k$. Without any _a priori_ truncation assumption on $X$, there is no comparable statement about the relaton to categorical homotopy groups. See [[Higher Topos Theory|HTT, remark 6.5.1.8]].
@@ -139,7 +139,7 @@ Notice that this expected statement does require the assumption that $X$ is $k$-
 
 ### Recursive definition {#RecursiveDefinition}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 In an $(\infty,1)$-category $C$ with [[finite limits]], a morphism
@@ -213,7 +213,7 @@ If $X$ is not connected, we can easily reduce to the case that it is.
 
 ### General
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ an $(\infty,1)$-category and $k \geq -2$, the full [[sub-(∞,1)-category]] $\tau_{\leq k} C$ is stable under all [[limit in a quasi-category|limits]] in $C$.
@@ -245,7 +245,7 @@ For $C$ an [[(∞,1)-category]] and $n \geq -2$ in $\mathbb{Z}$ write $\tau_{\le
 So for instance for $C = $ [[∞Grpd]] we have $\tau_{\leq n} \infty Grpd = n Grpd$.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $C$ is an [[(∞,1)-category]] that is [[presentable (∞,1)-category|presentable]] then the canonical inclusion [[(∞,1)-functor]]
@@ -282,7 +282,7 @@ $$
 #### General {#GeneralPropsTruncation}
 
 
-+-- {: .un_cor}
++-- {: .num_corollary}
 ###### Observation/Corollary
 
 A left [[exact functor]] 
@@ -305,7 +305,7 @@ diagonal, which is preserved by the finite limit preserving $F$.
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A presentable $(\infty,1)$-functor $F : C \to D$  between
@@ -366,7 +366,7 @@ evidently commutes, since it just expresses this restriction.
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $C$ is an [[(∞,1)-topos]], then truncation $\tau_{\leq n} : C \to C$ preserves finite [[limit in a quasi-category|products]].
@@ -450,7 +450,7 @@ is the [[Postnikov tower in an (∞,1)-category]] of $A$. See there for more det
 
 In an $(\infty,1)$-topos $C$ there is a notion of categorical [[homotopy groups in an (∞,1)-topos]]. For the $(\infty,1)$-topos [[∞Grpd]] given by the model of [[Kan complex]]es this coincides with the notion of [[simplicial homotopy groups]]:
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 An object $A$ in the [[(∞,1)-topos]] [[∞Grpd]] is $n$-truncated precisely if its [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]] $\pi_k(A)$ vanish for all $k \gt n$.
@@ -459,7 +459,7 @@ An object $A$ in the [[(∞,1)-topos]] [[∞Grpd]] is $n$-truncated precisely if
 
 This simple relation between $n$-truncation and categorical homotopy groups is almost, but not exactly true in an arbitrary [[(∞,1)-topos]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] and $X \in \mathbf{H}$ an $n$-truncated object.
@@ -474,7 +474,7 @@ Then
 
 This implies 
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 If $X \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-truncated precisely if all categorical homotopy groups vanish $\pi_k(A) = *$ for $k \gt n$.
@@ -485,8 +485,11 @@ If $X \in \mathbf{H}$ is truncated at all (for any value), then it is $n$-trunca
 
 
 ## Examples
+ {#Examples}
 
 ### Truncated morphisms
+
+#### General
 
 A morphism $f : X \to 0$ is 
 
@@ -495,6 +498,83 @@ A morphism $f : X \to 0$ is
 
 * (-1)-truncated precisely if it is a 
   [[monomorphism in an (infinity,1)-category|monomorphism]].
+
+#### Between groupoids
+ {#TruncatedMorphismsBetweenGroupoids}
+
+For morphisms between 1-[[groupoids]], 
+the notion of $n$-truncation for low $n$ reproduces standard concepts from 
+ordinary [[category theory]].
+
++-- {: .num_prop #TruncatedFunctorsOfGroupoids}
+###### Proposition
+
+A [[functor]] $f : X \to Y$ between [[groupoids]], is $n$-truncated precisely when regarded as a morphism in [[∞Grpd]] it is 
+
+* for $n = -2$ -- an [[equivalence of categories]];
+
+* for $n = -1 $ -- a [[full and faithful functor]];
+
+* for $n = 0$ -- a [[faithful functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that $f$ being [[faithful functor|faithful]] means precisely that
+it induces a [[monomorphism]] on the first [[homotopy groups]].
+
+For $x : * \to X$ any point and $F_{f(x)}$ the corresponding [[homotopy fiber]] of $f$,
+the [[long exact sequence of homotopy groups]] gives that $\pi_1(F)$
+is the [[kernel]] of an [[injective]] map
+
+$$
+  \cdots \to \pi_1(F) \to \pi_1(X) \hookrightarrow \pi_1(Y,f(x)) \to \cdots
+  \,,
+$$
+
+hence $\pi_1(F_{y}) = *$ for all points $y$ in the essential image of $f$. 
+For $y$ not in the essential image we have $F_y \simeq \emptyset$. In either case it follows that $F$ is 0-truncated.
+
+By def. \ref{nTruncatedMorphism} this is the defining condition for $f$ to be 0-truncated.
+
+=--
+
+
+
+#### Between stacks
+  {#TruncatedMorphismsBetweenStacks}
+
+Let $C$ be a [[site]] and write 
+$Sh_{(2,1)}(C) \hookrightarrow Sh_{(\infty,1)}(C)$ for the [[(2,1)-topos]] of  [[stacks]]/[[(2,1)-sheaves]] inside the [[(∞,1)-sheaf (∞,1)-topos]] of all [[∞-stacks]]/[[(∞,1)-sheaves]].
+
+Write $L_W [C^{op}, Grpd]$ for the [[simplicial localization]] of groupoid valued presheaves in $C$
+and write $[C^{op}, sSet]_{proj,loc}$ for the local projective [[model structure on simplicial presheaves]] that [[presentable (∞,1)-category|presents]] $Sh_{(\infty,1)}(C)$.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f : X \to Y$ be a morphism of stacks which has a presentation by a degreewise [[faithful functor]] that, under the [[nerve]], goes between fibrant [[simplicial presheaves]].
+
+Then $f$ is 0-truncated as a morphism in $Sh_{(\infty,1)}(C)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that for any $\infty$-stack $A$ the morphism 
+$Sh_\infty(A,f)$ is 0-truncated in [[∞Grpd]]. We may choose a cofibrant
+model for $A$ in $[C^{op}, sSet]_{proj,loc}$ and by assumption that
+$X$ and $Y$ is fibrant we have that the ordinary hom of simplicial presheaves
+$[C^{op}, sSet](A, f) $ is the correct [[derived hom space]] morphism. 
+This is itself (the [[nerve]] of) a [[faithful functor]], 
+hence the statement follows with 
+prop. \ref{TruncatedFunctorsOfGroupoids}.
+
+
+=--
 
 ### In $\infty Grpd$ and in $Top$ {#InInfGrpd}
 
@@ -510,7 +590,7 @@ $$
 
 
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 If we model the [[(∞,1)-category]] [[∞Grpd]] as the [[Kan complex]]-[[enriched category]]/fibrant [[simplicial category]] $KanCplx \subset $ [[sSet]] of [[Kan complex]]es, then the truncation adjunction
