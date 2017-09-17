@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include knot theory - contents]]
 =--
+#### Categorification
++-- {: .hide}
+[[!include categorification - contents]]
+=--
 =--
 =--
 
@@ -47,6 +51,8 @@ Earlier indication for this had come from the observation [Witten92](#Witten92) 
 
 
 ## Related concepts
+
+* [[categorification in representation theory]]
 
 [[!include table of branes]]
 
