@@ -288,6 +288,8 @@ One fairly obvious attempt to define a 'fundamental group' for $X$, based at a p
 
 There are variants 'at infinity' of both the Waldhausen boundary and these groups, otained using germs instead of proper maps. These will be denoted with a $\infty$ as a super- or suffix on the above notation.
 
+###Brown-Grossman homotopy groups###
+(Once over lightly here, more details at [[Brown-Grossman homotopy group]].)
 In fact there is another different way of looking at these groups, which has a more geometric feel to it. Historically these groups were not the first successful attempt.  This was due to Ed Brown and uses strings of spheres.  These are examples of [[spherical objects]] and the resulting 'groups' (better thought of as '$\Pi_\mathcal{A}$-[[spherical object and Pi(A)-algebra|algebras]]') have a rich structure.  They are discussed at [[Brown-Grossman homotopy group]]s.  They do link with the above homotopy groups of the Waldhausen boundary, which are called the [[Steenrod homotopy group]]s, (for reasons that will be explained there). 
 
 ##References##
