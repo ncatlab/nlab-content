@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A statement about [[entanglement]] in [[quantum mechanics]] that rules out certain [[hidden variable theories]].
+
+## References
+
+* [[John Bell]], _On the Einstein Podolsky Rosen paradox_, Physics 1, 195, 1964 ([pdf](http://www.drchinese.com/David/Bell_Compact.pdf))
+  {#Bell64}
+
+
+* Wikipedia, _[Bell's theorem](http://en.wikipedia.org/wiki/Bell_inequality)_
+
+[[!redirects Bell's theorem]]
+[[!redirects Bell theorem]]
+
+
+[[!redirects Bell inequality]]
