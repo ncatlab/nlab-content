@@ -28,7 +28,7 @@ Given an [[(∞,1)-topos]] $\mathbf{X}$, a **gerbe** in $\mathbf{X}$ is an [[obj
 
 * 1-[[truncated]]
 
-* 1-[[connective]] (= [[connected]]).
+* 1-[[n-connective|connective]] (= [[connected]]).
 
 =--
 
