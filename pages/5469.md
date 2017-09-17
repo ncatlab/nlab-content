@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -32,6 +33,20 @@ This means it is in particular also a [[connected topos]].
 If $\Pi_0$ preserves even all [[finite limit]]s then $\mathcal{E}$ is called a [[totally connected topos]].
 
 If a strongly connected topos is also a [[local topos]], then it is a [[cohesive topos]].
+
+## Terminology
+ {#Terminology}
+
+The "strong" in "strongly connected" may be read as referring to $f_! \dashv f^*$ being a "strong adjunction" in that we have a [[natural isomorphism]] for the [[internal homs]] in the sense that
+
+$$
+  [f_! X, A] \simeq f_* [X, f^* A]  
+  \,.
+$$
+
+This follows already for $f$ [[connected geometric morphism|connected]] and [[essential geometric morphism|essential]] if $f_!$ preserves products, because this already implies the equivalent [[Frobenius reciprocity]] isomorphism. See [here](http://ncatlab.org/nlab/show/locally%20connected%20geometric%20morphism#StrongAdjunctions) for more.
+
+
 
 ## Related concepts
 
