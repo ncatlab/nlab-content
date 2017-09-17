@@ -17,7 +17,7 @@
 
 ## Idea 
 
-The **little $k$-cubes operad** is the [[operad]] or [[(∞,1)-operad]] whose $n$-ary operations are parameterized by rectilinear disjoint embeddings of $n$ $k$-dimensional cubes into another $k$-dimensional cube.
+The **little $k$-disk operad** or **little $k$-cubes operad** (to distinguish from the [[framed little n-disk operad]]) is the [[topological operad]]/[[(∞,1)-operad]] whose $n$-ary operations are parameterized by rectilinear disjoint embeddings of $n$ $k$-dimensional cubes into another $k$-dimensional cube.
 
 When regarded as a [[topological operad]], the topology on the space of all such embedding is such that a continuous path is given by continuously moving the images of these little cubes in the big cube around.
 
@@ -167,6 +167,10 @@ A detailed discussion of $E_k$ in the context of [[(∞,1)-operads]] is in
 
 * [[Jacob Lurie]], _$\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 {#Lurie}
+
+An elementary computation of the [[homology]] of the little $n$-disk operad in terms of _solar system calculus_ is in
+
+* Dev Sinha, _The homology of the little disks operad_ ([arXiv:math/0610236](http://arxiv.org/abs/math/0610236))
 
 [[!redirects little k-cubes operad]]
 [[!redirects little n-cubes operad]]
