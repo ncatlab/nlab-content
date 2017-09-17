@@ -62,6 +62,15 @@ To be explicit, suppose that $(L,U)$ is a pair of sets of Dedekind cuts (rather 
 
 We say that the Dedekind cuts form the [[Dedekind completion]] of the linear order $\mathbb{Q}$.
 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Being a member of the lower (resp. the upper) set of a Dedekind cut is almost a $\neg\neg$-[[double negation|stable]] property: For any rational number $a$ it holds that $a \in L$ iff there exists a rational number $b \gt a$ such that $\neg\neg(b \in L)$. "Only if" is by condition (5). "If" is by condition (7): We have $a \in L$ or $b \in R$. In the first case we're done. In the second case it follows that $\neg\neg(b \in R)$ which is a contradiction to $\neg\neg(b \in L)$.
+
+=--
+
 
 ## Variations
 
