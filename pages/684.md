@@ -193,10 +193,9 @@ $$
 
 * **loop space object**, [[free loop space object]],
 
-  * [[delooping]]
+  * [[delooping]], [[looping and delooping]]
 
   * [[loop space]], [[free loop space]], [[derived loop space]]
-
 
 * [[suspension object]]
 
