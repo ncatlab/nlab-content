@@ -26,11 +26,11 @@ A _simplicial Lie algebra_ is a [[simplicial object]] in the [[category]] of [[L
 There is an [[adjunction]]
 
 $$
-  (N^* \dashv N) : LieAlg^\Delta \stackrel{\overset{N^*}{\leftarrow}}{\underset{N}{\to}}
-  dgLieAlg
+  (N^* \dashv N) : LieAlg_k^\Delta \stackrel{\overset{N^*}{\leftarrow}}{\underset{N}{\to}}
+  dgLieAlg_k
 $$
 
-between simplicial Lie algebras and [[dg-Lie algebra]]s, where $N$ acts on the underlying simplicial vector spaces as the [[Moore complex]] functor.
+between simplicial Lie algebras (over a [[field]] $k$) and [[dg-Lie algebra]]s, where $N$ acts on the underlying simplicial vector spaces as the [[Moore complex]] functor.
 
 =--
 
@@ -39,7 +39,7 @@ This is ([Quillen, prop. 4.4](#Quillen)).
 +-- {: .num_theorem}
 ###### Theorem
 
-The corresponding [[derived functors]] constitute an [[equivalence of categories]] between the corresponding [[homotopy categories]]
+For $k$ a [[field]] of [[characteristic]] 0 the corresponding [[derived functors]] constitute an [[equivalence of categories]] between the corresponding [[homotopy categories]]
 
 $$
   (L N^* \dashv \tilde N) 
