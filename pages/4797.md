@@ -24,11 +24,31 @@ For **inner derivation Lie 2-algebra** $inn(\mathfrak{g})$ of a [[Lie algebra]] 
 
 * the dual of the [[Weil algebra]] $W(\mathfrak{g})$.
 
+In the first formulation this may be identified with the [[dg-Lie algebra]] whose
+
+* elements in degree -1 are the contractions $\iota_x : CE(\mathfrak{g}) \to CE(\mathfrak{g})$ with $x \in \mathfrak{g}$;
+
+* elements in degree 0  are the inner derivations $\mathcal{L}_x = [d_{CE(\mathfrak{g})}, \iota_x] : CE(\mathfrak{g}) \to CE(\mathfrak{g})$;
+
+* the differential $\partial : \mathfrak{g} \to \mathfrak{g}$ is given by the commutator $\partial = [d_{CE(\mathfrak{g})}, -]$;
+
+* the bracket is the graded commutator bracket of [[derivation]]s:
+
+  * $[\iota_x, \iota_y] = 0$
+
+  * $[\mathcal{L}_x, \iota_y] = \iota_{[x,y]}$
+
+  * $[\mathcal{L}_x, \mathcal{L}_y] = \mathcal{L}_{[x,y]}$.
+
+So this is the full subalgebra of the [[automorphism ∞-Lie algebra]] of $CE(\mathfrak{g})$ on the inner derivations.
+
 See <a href="http://ncatlab.org/nlab/show/Weil+algebra#AsInnerDer">Weil algebra as CE-algebra of inner derivations</a> for more details.
 
 ## Properties
 
-The first formulation makes manifest that $inn(\mathfrak{g})$ is the structure that has historically been called [[Cartan calculus]].
+* The first formulation makes manifest that $inn(\mathfrak{g})$ is the structure that has historically been called [[Cartan calculus]].
+
+* In the [[(∞,1)-category]] of [[∞-Lie algebra]]s $inn(\mathfrak{g})$ is equivalent to the point. See [[Weil algebra]] for details on this.
 
 ## References
 
