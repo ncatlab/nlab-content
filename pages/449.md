@@ -59,6 +59,7 @@ When an [[(∞,1)-category]] of [[(n,r)-categories]] is presented by a [[model c
 
 
 [[!redirects algebraic definition of higher categories]]
+[[!redirects algebraic definitions of higher categories]]
 [[!redirects algebraic definition of higher category]]
 [[!redirects algebraic model of higher categories]]
 [[!redirects algebraic model of higher category]]
