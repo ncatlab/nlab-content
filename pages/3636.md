@@ -17,7 +17,7 @@ for example for physical applications, comes from the fact that the phenomena it
 
 ##Intuitions
 
-The basic hypothesis will be that $X$ will be a [[connected space|connected and locally connected]] compact [[Hausdorff space]. It will usually be $\sigma$-compact, i.e., there will be an increasing sequence, $\{K_n\}$, of compact subspaces with each $K_n$ in the interior of $K_{n+1}$ and such that 
+The basic hypothesis will be that $X$ will be a [[connected space|connected and locally connected]] compact [[Hausdorff space]. It will usually be **$\sigma$-compact**, i.e., there will be an increasing sequence, $\{K_n\}$, of compact subspaces with each $K_n$ in the interior of $K_{n+1}$ and such that 
 
 $$X = \bigcup^\infty_{n=0}K_n,$$
 
