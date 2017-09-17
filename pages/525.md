@@ -19,6 +19,8 @@ More generally, a **[[bimonoid]]** in a monoidal category $M$ is a monoid in the
 
 * [[Gerstenhaber-Schack cohomology]], [[bialgebra cocycle]], [[weak bialgebra]], [[bialgebroid]]
 
+* [[sesquialgebra]]
+
 [[!redirects bialgebra]]
 [[!redirects bialgebras]]
 [[!redirects bigebra]]
