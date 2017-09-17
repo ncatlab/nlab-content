@@ -1,0 +1,3 @@
+I am a grad student in linguistics at Stanford interested in categorical logic, applications of category theory to linguistics, philosophy of math/language...
+
+Contact: zwanzig@stanford.edu
