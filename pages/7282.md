@@ -5,12 +5,14 @@
 
 ## Definition
 
-For $V$ an [[inner product space]], a collection of vectors $\{v_i\}$ of $V$ is **orthogonal** with respect to the inner $\langle{-, -}\rangle\colon V \times V \to k$ if for all $i \neq j$ we have $\langle{v_i, v_j}\rangle = 0$. It is __orthonormal__ if additionally we have $\langle{v_i, v_i}\rangle = 1$; that is, $\langle{v_i, v_j}\rangle = \delta_{i,j}$ (the [[Kronecker delta]]) for all $i, j$.  Note that an orthogonal set is necessarily [[linearly independent subset|linearly independent]].
+For $V$ an [[inner product space]], a collection of vectors $\{v_i\}$ of $V$ is **orthogonal** with respect to the inner $\langle{-, -}\rangle\colon V \times V \to k$ if for all $i \neq j$ we have $\langle{v_i, v_j}\rangle = 0$. It is __orthonormal__ if additionally we have $\langle{v_i, v_i}\rangle = 1$; that is, $\langle{v_i, v_j}\rangle = \delta_{i,j}$ (the [[Kronecker delta]]) for all $i, j$.  Note that an orthogonal set is necessarily [[linearly independent subset|linearly independent]], assuming (as one often does) that the inner product is nondegenerate.
 
 
 ## Bases
 
-One often applies this to the case when the collection is a [[basis]] of the vector space.  Typically, by 'basis' here we mean the [[topological basis|sense of basis]] used for a [[topological vector space]] (which every positive-definite inner product space is naturally): a linearly independent set whose span is [[dense subspace|dense]] in $V$.  In the case where $V$ has finite [[dimension]], this matches the [[Hamel basis|purely algebraic sense of basis]]: a linearly independent set whose span is all of $V$, or equivalently a [[maximal element|maximal]] linearly independent set.
+One often applies this to the case when the collection is a [[basis]] of $V$, where the meaning of 'basis' depends on context. In the case where $V$ has finite [[dimension]], one uses the [[Hamel basis|purely algebraic sense of basis]]: a linearly independent set whose span is all of $V$, or equivalently a [[maximal element|maximal]] linearly independent set. In this case, the ground field can be any field $k$. 
+
+Often, however, 'basis' means the [[topological basis|sense of basis]] used for a [[topological vector space]]. In this case, it is understood that the ground field is the real or complex numbers, and the inner product is positive-definite (and sesquilinear if we are working over $\mathbb{C}$). In this case, the inner product induces a metric space topology, and a basis means a linearly independent set whose span is [[dense subspace|dense]] in $V$.  
 
 We have this interesting pair of results:
 
