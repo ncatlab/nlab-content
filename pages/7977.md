@@ -1,0 +1,53 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of _[[electromagnetism]]_ Kirchhoff's laws are a kind of coarse-grained form of [[Maxwell's equations]]. Where the latter deal with [[infinitesimal object|infinitesimal]] quantities, Kirchhoff's law involve macroscopic [[current]] and [[voltage]] in electrical [[circuits]]. 
+
+One speaks of two laws, 
+
+1. the _Kirchhoff voltage law_ (abbreviated KVL)
+
+1. the _Kirchhoff current law_ (abbreviated KCL)
+
+The derivation of these two laws from [[Maxwell's equations]] is spelled out for instance in lecture 7 ([here](#Lecture)).
+
+Nevertheless, Kirchhoff's laws preserve the [[cohomology|cohomological]] nature of Maxwell's equations: where the latter involves [[de Rham cohomology]] and hence "infinitesimal cochains", Kirchhoff's laws can neatly be formulated in terms of [[cochain on a simplicial set|cochains on finite cell complexes]]. (See for instance appendix B of [Frankel](#Frankel)).
+
+
+## Related concepts
+
+* [[Maxwell's equations]]
+
+
+## References
+
+Reviews include
+
+lecture 7 in 
+
+* ([pdf](http://ieeeb.okstate.edu/lecturenotes/EET-4654%20Microwaves/Lecture%207%20and%208.pdf))
+ {#Lecture}
+
+appendix B in 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_ .
+
+
+[[!redirects Kirchhoff's law]]
+[[!redirects Kirchhoff law]]
+[[!redirects Kirchhoff laws]]
