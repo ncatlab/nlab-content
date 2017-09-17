@@ -40,7 +40,7 @@ The object $\Omega$ above is sometimes called a **strong-subobject classifier**,
 
 * Any (elementary) [[topos]] is a quasitopos.  The first two properties are known, and in a topos every monomorphism is strong, so the ordinary subobject classifier works.
 
-* The category of [[separated presheaf|separated presheaves]] with respect to a [[site]] is a quasitopos.  Such a quasitopos is called a *Grothendieck quasitopos*, by analogy with the notion of [[Grothendieck topos]].  There is a [[Giraud theorem]] characterizing Grothendieck quasitoposes as those quasitoposes which are [[locally small category|locally small]], [[cocomplete category|cocomplete]], and have a [[generating set]], or equivalently as the [[locally presentable categories]] which are locally cartesian closed and in which every *strong* [[congruence]] has a [[effective quotient]]; see C2.2.13 of the [[Elephant]].
+* The category of [[separated presheaf|separated presheaves]] with respect to a [[site]] is a quasitopos.  Such a quasitopos is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].  There is a [[Giraud theorem]] characterizing Grothendieck quasitoposes as those quasitoposes which are [[locally small category|locally small]], [[cocomplete category|cocomplete]], and have a [[generating set]], or equivalently as the [[locally presentable categories]] which are locally cartesian closed and in which every *strong* [[congruence]] has a [[effective quotient]]; see C2.2.13 of the [[Elephant]].
 
 * Any [[Heyting algebra]] is a quasitopos.  This is in notable contrast to the case of topoi, since no nontrivial poset is a topos.  The crucial distinction is that every morphism in a poset is both monic and epic, but only the identities are strong monic or strong epic.
 
@@ -87,5 +87,7 @@ Need to reference work by various combinations of authors including Baez, Dolan,
 [[!redirects quasi-exact category]]
 [[!redirects strong-subobject classifier]]
 [[!redirects weak subobject classifier]]
-
+[[!redirects Grothendieck quasitopos]]
+[[!redirects Grothendieck quasitoposes]]
+[[!redirects Grothendieck quasitopoi]]
 
