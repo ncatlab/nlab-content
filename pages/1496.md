@@ -188,6 +188,11 @@ and
 * Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part II: Spectral theory, self adjoint operators in Hilbert space." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47002&format=complete))
 
 
+## Related concepts
+
+* [[reflexive Banach space]]
+
+
 [[!redirects Banach space]]
 [[!redirects Banach spaces]]
 [[!redirects normed vector space]]
