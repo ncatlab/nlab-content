@@ -65,7 +65,12 @@ $$
 
 If $J$ is the class of all [[monomorphism]]s, we speak merely of an **injective object**.  
 
-We say that a category $C$ has **enough injectives** if every object admits a monomorphism into an injective object.
+=--
+
++-- {: .num_defn #EnoughInjectives}
+###### Definition
+
+Ones says that a category $C$ has **enough injectives** if every object admits a [[monomorphism]] into an injective object.
 
 
 =---
@@ -245,7 +250,13 @@ So in particular the group of [[rational number]]s $\mathbb{Q}$ is injective in 
 
 _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ for $n \gt 1$.
 
+
+## Properties
+
 ### Existence of enough injectives
+
+We discuss a list of class of categories that have _enough injective_
+according to def. \ref{EnoughInjectives}.
 
 * Every [[topos]] has enough injectives.  In fact, every [[power object]] can be shown to be injective, and every object embeds into its power object by the "singletons" map.
 
@@ -257,12 +268,36 @@ _Not_ injective in [[Ab]] is for instance the [[cyclic group]] $\mathbb{Z}/n\mat
 
 * Combining the last fact with the penultimate one (which relativizes to any topos), we find that the category of modules over any [[sheaf of rings]] on any small site also has enough injectives.  This slick proof of this important fact was pointed out by Colin McLarty in an email to the categories list dated 10 Oct 2010.
 
-## Properties
 
 ### Injective resolutions
  {#InjectiveResolutions}
 
-(...)
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{A}$ be an [[abelian category]]. Then for every object
+$X \in \mathcal{A}$ there is an [[injective resolution]], hence
+a [[chain complex]]
+
+$$
+  J^\bullet = [J^0 \to \cdots \to J^n \to \cdots] \in Ch_(\mathcal{A})
+$$ 
+
+equipped with a a [[quasi-isomorphism]] of [[cochain complexes]]  $X \stackrel{\sim}{\to} J^\bullet$
+
+$$
+  \array{
+    X &\to& 0 &\to& \cdots &\to& 0 &\to& \cdots
+    \\
+    \downarrow && \downarrow && && \downarrow
+    \\
+    J^0 &\to& J^1 &\to& \codt &\to& J^n &\to& \cdots
+  }
+  \,.
+$$
+
+=--
+
 
 ## Related concepts
 
