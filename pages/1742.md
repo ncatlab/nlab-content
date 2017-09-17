@@ -36,59 +36,20 @@ are identities.
 
 ### As diagrams
  {#AsDiagrams}
-
-$$ 
+$
   R\epsilon . \eta R = 1_R
-  \qquad \text{i.e.} \qquad
-  \array{\arrayopts{ \padding{0} }
-    &&1_C& 
-    \\
-    &&\cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction > zigzageta]]
-       \end{svg}\\
-    D
-     \overset{R}{\to}&
-    C
-    \stackrel{L}{\to}&
-    D
-     \stackrel{R}{\to}&
-    C
-    \\
-    &\cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction > zigzagepsilon]]
-       \end{svg}
-    \\
-    &&1_D&
-  }
-  \quad = \quad D \stackrel{R}{\to} C
-$$
-and
-$$ 
-  \epsilon L . L\eta = 1_L
-  \qquad \text{i.e.} \qquad
-  \array{\arrayopts{ \padding{0} }
-    &&1_C& 
-    \\
-    \cellopts{\colspan{5}}\begin{svg}
-       [[!include adjunction > zigzageta]]
-       \end{svg}\\
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    \\
-    &&\cellopts{\colspan{4}}\begin{svg}
-       [[!include adjunction > zigzagepsilon]]
-       \end{svg}
-    \\
-    &&1_D&
-  }
-  \quad = \quad C \stackrel{L}{\to} D
-$$
+$
+  i.e. 
 
+[[diagram1.jpg:pic]]
+
+and
+$ 
+  \epsilon L . L\eta = 1_L
+$
+ i.e.  
+
+[[diagram2.jpg:pic]]
 
 ### As string diagrams
  {#AsStringDiagrams}
