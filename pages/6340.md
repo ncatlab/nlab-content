@@ -190,6 +190,8 @@ _The index pairing is the [[composition]] operation in the [[KK-theory|KK-]][[lo
 
   * [[Baum-Connes conjecture]]
 
+* [[zeta function of an elliptic differential operator]], [[eta function]]
+
 [[!include genera and partition functions - table]]
 
 
