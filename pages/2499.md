@@ -253,7 +253,7 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 
 * [[curvature]] forms / [[field strength]]s
 
-  * $T = d E + \Omega \cdot E + \Gamma(\bar \Psi \wedge \Psi) \in \Omega^2(X,\mathbb{R}^{10,1})$ - the **torsion**
+  * $T = d E + \Omega \cdot E + \Gamma(\bar \Psi \wedge \Psi) \in \Omega^2(X,\mathbb{R}^{10,1})$ - the **[[torsion of a metric connection|torsion]]**
 
   * $R = d \Omega + [\Omega \wedge \Omega] \in \Omega^2(X, \mathfrak{so}(10,1))$ - the **Riemann curvature**
 
