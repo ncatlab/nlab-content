@@ -9,6 +9,10 @@
 =--
 =--
 
+# Negative types
+* table of contents
+{: toc}
+
 ## Idea
 
 In [[type theory]], a **negative type** is one whose *eliminators* are regarded as primary.  Its constructors are derived from these by the rule that "to construct an element of a negative type, it is necessary and sufficient to specify how that element behaves upon applying all of the eliminators to it".
@@ -16,6 +20,9 @@ In [[type theory]], a **negative type** is one whose *eliminators* are regarded 
 The opposite notion is a [[positive type]].
 
 In [[categorical semantics]] of type theory, negative types correspond to "from the right" universal properties (i.e. for mapping in).
+
+In [[denotational semantics]], negative types behave well with respect to "call-by-name" and other [[lazy evaluation]] strategies.
+
 
 ## Examples
 
