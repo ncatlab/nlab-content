@@ -1,0 +1,11 @@
+[[!redirects stabe orthogonal group]]
+
+## Idea
+
+the stable [[orthogonal group]]
+
+## Related concepts
+
+* [[stable unitary group]]
+
+* [[topological K-theory]]
