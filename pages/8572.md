@@ -48,7 +48,6 @@ This means that a singular $(n+1)$-chain $c \in C_{n+1}(X)$ is an $A$-relative c
 ## Properties
 
 
-
 ### Long exact sequences
  {#LongExactSequences}
 
@@ -114,6 +113,7 @@ The corresponding [[homology long exact sequence]] is the long exact sequence in
 
 =--
 
+
 ### Excision
  {#Excision}
 
@@ -158,6 +158,17 @@ $B = X - Z$.
 
 =--
 
+### Homotopy invariance
+
++-- {: .num_defn #HomotopyInvariance}
+###### Definition
+
+Relative homology is homotopy invariant in both arguments.
+
+
+=--
+
+(...)
 
 ### Relation to reduced homology of quotient topological spaces
  {#RelationToQuotientTopologicalSpaces}
@@ -188,6 +199,45 @@ $$
 =--
 
 For instance ([Hatcher, prop. 2.22](#Hatcher)).
+
++-- {: .proof}
+###### Proof
+
+By assumption we can find a [[neighbourhood]] $A \stackrel{j}{\to} U \hookrightarrow X$ such that $A \hookrightarrow U$ has a [[deformation retract]] and hence in particular is a [[homotopy equivalence]] and so induces also isomorphisms on all [[singular homology]] groups. 
+
+It follows in particular that for all $n \in \mathbb{N}$ the canonical morphism $H_n(X,A) \stackrel{H_n(id,j)}{\to} H_n(X,U)$ is an [[isomorphism]], by prop. \ref{HomotopyInvariance}.
+
+Given such $U$ we have an evident [[commuting diagram]] of pairs of [[topological spaces]]
+
+$$
+  \array{
+    (X,A) &\stackrel{(id,j)}{\to}& (X,U) &\leftarrow& (X-A, U - A)
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    (X/A, A/A) &\stackrel{(id,j/A)}{\to}& (X/A, U/A) &\leftarrow& (X/A - A/A, U/A - A/A)
+  }
+  \,.
+$$
+
+Here the right vertical morphism is in fact a [[homeomorphism]].
+
+Applying relative singular homology to this diagram yields for each $n \in \mathbb{N}$ the [[commuting diagram]] of abelian groups
+
+$$
+  \array{
+    H_n(X,A) &\underoverset{\simeq}{H_n(id,j)}{\to}& H_n(X,U) &\stackrel{\simeq}{\leftarrow}& H_n(X-A, U - A)
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    H_n(X/A, A/A) &\underoverset{\simeq}{H_n(id,j/A)}{\to}& H_n(X/A, U/A) &\stackrel{\simeq}{\leftarrow}& H_n(X/A - A/A, U/A - A/A)
+  }
+  \,.
+$$
+
+Here the left horizontal morphisms are the above isomorphims induced from the deformation retract. The right horizontal morphisms are isomorphisms by prop. \ref{ExcisionA} and the right vertical morphism is an isomorphism since it is induced by a homeomorphism. Hence the left vertical morphism is an isomorphism ([[2-out-of-3]] for isomorphisms).
+
+=--
 
 ### Relation to reduced homology 
  {#RelationToReducedHomology}
