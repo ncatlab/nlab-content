@@ -1,0 +1,38 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Ordinary homology_ is [[generalized homology]] with respect to an [[Eilenberg-MacLane spectrum]] $H A$, and often understood over $H \mathbb{Z}$. 
+
+Equivalently this is computed by _[[singular homology]]_ with [[coefficients]] in $A$.
+
+
+## Properties
+
+### Relation to homotopy groups
+
+Ordinary homology with [[coefficients]] in $\mathbb{Z}$ of a [[topological space]] $X$  serves to approximate the [[homotopy groups]] of $X$.
+
+See for instance at
+
+* [[Hurewicz theorem]]
+  
+
+## Related concepts
+
+* [[ordinary cohomology]]
