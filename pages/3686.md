@@ -17,6 +17,8 @@
 
 Symplectomorphisms are the [[homomorphisms]] of [[symplectic manifolds]].
 
+In the context of [[mechanics]] where symplectic manifolds model [[phase spaces]], symplectomorphisms are called _canonical transformations_.
+
 ## Definition
 
 ### Symplectomorphisms
@@ -150,3 +152,7 @@ The example of volumes of balls is discussed in
 [[!redirects symplectic diffeomorphisms]]
 [[!redirects Hamiltonian diffeomorphism]]
 [[!redirects Hamiltonian diffeomorphisms]]
+
+[[!redirects canonical transformation]]
+[[!redirects canonical transformations]]
+
