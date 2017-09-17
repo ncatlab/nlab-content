@@ -43,7 +43,7 @@ Discussion of how there is a flat connection on the bundle of [[spaces of quantu
 
 * [[momentum]]
 
-* [[canonical coordinates]]
+* [[canonical coordinates]], [[canonical transformation]]
 
 * [[phase space]]
 
