@@ -20,6 +20,8 @@ A _Boolean algebra_ or _Boolean [[lattice]]_ is an algebraic structure which mod
 
 ## Definitions
 
+### General
+
 There are many known ways of defining a __Boolean algebra__ or __Boolean lattice__. Here are just a few: 
 
 * A Boolean algebra is a [[complement|complemented]] [[distributive lattice]]. 
