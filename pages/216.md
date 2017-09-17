@@ -234,6 +234,20 @@ to the morphism $f \in C$ is the $k\text{-}k[C]$-bimodule
 homomorphism $f \cdot (-) :  A \to A$ that multiplies
 by $f \in k[C]$ from the left.
 
+$$
+  \array{
+     x &&\stackrel{f}{\to}&& y
+     \\
+     k &&\stackrel{k}{\to}&& k
+     \\
+     & {k[C]}_{\mathllap{}}\searrow 
+      &\swArrow_{f \cdot (-)}& 
+     \swarrow_{\mathrlap{k[C]}}
+     \\
+     && k[C]
+  }
+$$
+
 This description should be compared with the analogous description of the [[action groupoid]] by a weak colimit. One sees that the groupoid algebra is a linear incarnation of the action groupoid in some sense.
 
 
