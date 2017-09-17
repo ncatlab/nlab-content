@@ -1,7 +1,17 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -9,7 +19,7 @@
 
 ## Idea
 
-A _Chern-Simons form_ $CS(A)$ is a [[differential form]] naturally associated to a differential form $A \in \Omega^1(P,\mathfrak{g})$ with values in a [[Lie algebra]] $\mathfrak{g}$: it is the form trivializing a [[curvature characteristic form]] $\langle F_A \wedge \cdots \wedge F_A \rangle$ of $A$, for $\langle \cdots \rangle$ an [[invariant polynomial]]: 
+A _Chern-Simons form_ $CS(A)$ is a [[differential form]] naturally associated to a differential form $A \in \Omega^1(P,\mathfrak{g})$ with values in a [[Lie algebra]] $\mathfrak{g}$: it is the form trivializing (locally) a [[curvature characteristic form]] $\langle F_A \wedge \cdots \wedge F_A \rangle$ of $A$, for $\langle \cdots \rangle$ an [[invariant polynomial]]: 
 
 $$
   d_{dR} CS(A) = \langle F_A \wedge \cdots \wedge F_A \rangle
@@ -17,6 +27,8 @@ $$
 $$
 
 where $F_A \in \Omega^2(X,\mathfrak{g})$ is the [[curvature]] 2-form of $A$.
+
+Therefore it is often also called a [[secondary characteristic form]].
 
 More generally, for $A,A' \in \Omega^1(P, \mathfrak{g})$ two $\mathfrak{g}$-valued 1-forms and for $\hat A \in \Omega^1(P \times [0,1],\mathfrak{g})$ a "path of connections", the Chern-Simons form relative to $A$ and $A'$ is a form that trivializes the _difference_ between the two curvature characteristic forms
 
