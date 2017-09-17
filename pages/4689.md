@@ -34,7 +34,11 @@ Indeed, a model of fundamental physics where Yang-Mills fields are quantized but
 
 1. More generally, appearances of unphysical singularities in [[general relativity]], such as in [[black hole]]s or [[cosmology|cosmological]] singularities such as the [[big bang]], have been argued to be artefacts of a non-quantum description of gravity. Various toy models of quantum gravity have been proposed where notably the big-bang singularity is just a classical approximation to a non-singular and well-defined quantum dynamics.
 
-An evident definition of quantum gravity would seem to simply be the [[quantization]] of the [[Einstein-Hilbert action]] by the rules of Wilsonian effective QFT. This straightforward approach however fails, as it can be demonstrated that this [[action functional]] is not [[renormalization|renormalizable]]. However, more recently it has been argued that there is evidence that the EH-action has a nontrivial [[UV-fixed point]] after all. If true this would mean that a quantization of gravity in standard QFT is possible.
+An evident definition of quantum gravity would seem to simply be the [[quantization]] of the [[Einstein-Hilbert action]] by the rules [[perturbation theory]] and [[renormalization]]. This straightforward approach however fails, as it can be demonstrated that this [[action functional]] is not [[renormalization|renormalizable]]. 
+
+More recently it has been argued that there is evidence that the EH-action has a nontrivial [[UV-fixed point]] after all. If true this would mean that a quantization of gravity in standard QFT is possible.
+
+Another possibility is that this is only an apparent problem, and that standard gravity is nothing but an [[effective quantum field theory]]. (See there for references on gravity).
 
 But most approaches to the problem have taken the non-renormalizability of classical gravity to be an indication that the standard concepts of QFT might need refinement in order to include gravity. 
 
