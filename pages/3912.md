@@ -47,6 +47,8 @@ A fully general abstract discussion is around page 30,31 of ([ABGHR](#ABGHR)).
 
 * [[fiber integration]]
 
+* [[Pontrjagin-Thom collapse map]]
+
 ## References
 
 The original reference is
