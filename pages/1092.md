@@ -1,3 +1,14 @@
+
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
 **Cobase change** is another term for [[pushout]] of a morphism:
 
 if
@@ -14,6 +25,6 @@ $$
 
 is a [[pushout]] square in some [[category]] then the [[morphism]] $U \to U \sqcup_X Y$ is the **cobase change** or **cobase extension** of $X \to Y$ along $X \to U$.
 
-#Remarks#
+## Remarks
 
 * The [[duality|dual]] concept is [[base change]].
