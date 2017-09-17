@@ -11,6 +11,8 @@
 
 This page lists literature on _[[string theory]]_.
 
+(See also at _[[string theory FAQ]]_.)
+
 # Contents
 * table of contents 
 {: toc}
