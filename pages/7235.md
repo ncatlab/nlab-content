@@ -27,6 +27,7 @@ One of the [[exceptional Lie groups]].
 
 $E_7$ is the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 4 dimensions.
 
+[[!include U-duality -- table]]
 
 ## Related concepts
 
