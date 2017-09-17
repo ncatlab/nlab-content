@@ -638,7 +638,9 @@ Classes of examples include
 
 * **principal $\infty$-bundle** / [[associated ∞-bundle]]
  
-* [[n-vector bundle]]
+* [[vector bundle]]
+
+* [[(∞,1)-vector bundle]] / **$(\infty,n)$-vector bundle**
 
 ## References
 
