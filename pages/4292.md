@@ -19,7 +19,7 @@ If there is $k \in \mathbb{N}$ such that $a_n = 0 $ for all $n \gt k$ then this 
 
 ## Examples
 
-For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] on the [[real line]], and for $f^{(n)} \in C^\infty(\mathbb{R})$ denoting its $n$th [[derivative]] its [[Taylor series]] (at 0) is the power series
+For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] on the [[real line]], and for $f^{(n)} \in C^\infty(\mathbb{R})$ denoting its $n$th [[derivative]] its [[MacLaurin series]] (its [[Taylor series]] at $0$) is the power series
 
 $$
   \sum_{n = 0}^\infty  
