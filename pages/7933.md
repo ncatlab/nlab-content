@@ -55,11 +55,12 @@ The basic constructions that higher geometric quantization is concerned with are
 | [[n-plectic ∞-groupoid]]  | $X \stackrel{\omega}{\to} \Omega^{n+1}_{cl}(-,\mathbb{G})$ | [[twisted cohomology|twisting]] [[cocycle]] in [[de Rham cohomology]] |
 | [[symplectomorphism group]] | $\mathbf{Aut}_{/\Omega^{n+1}(-,\mathbb{G})}(\omega) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\omega}}\searrow && \swarrow_{\mathrlap{\omega}} \\ && \Omega^{n+1}_{cl}(-,\mathbb{G})  } \right\}$ |   |
 | [[prequantum circle n-bundle]] | $\array{ && \mathbf{B}^n \mathbb{G}_{conn} \\ & {}^{\mathllap{\mathbf{c}_{conn}}}\nearrow & \downarrow^{\mathrlap{curv}} \\ X &\stackrel{\omega}{\to}& \Omega^{n+1}(-,\mathbb{G})}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[ordinary differential cohomology|differential cohomology]] |
-| [[quantomorphism group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
+| [[quantomorphism group]] $\superset$ [[Heisenberg group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
+| [[Hamiltonian]] [[quantum operator (in geometric quantization)|quantum observables]] with [[Poisson bracket]] | $Lie(\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}))$  | [[infinitesimal cohesion|infinitesimal]] twist automorphisms |
 | [[Hamiltonian actions]] of a [[smooth ∞-group]] $G$ / dual [[moment maps]]| $ \mu : \mathbf{B}G \to \mathbf{B}\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn})$ | $G$-[[∞-action]] on the twisting |
+| [[gauge reduction]] | $\mathbf{c}_{conn}//G \,:\, X//G \to \mathbf{B}^n \mathbb{G}_{conn}$ | $G$-[[∞-quotient]] of the twisting  | 
 | [[Hamiltonian symplectomorphisms]] |  [[∞-image]] of $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{Aut}_{/\Omega^{n+1}_{cl}(-,\mathbb{G})}(\omega)$  | twists in de Rham cohomology that lift to differential cohomology |
-| [[Hamiltonian]] [[quantum operator (in geometric quantization)|quantum observables]] | $Lie(\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}))$  | [[infinitesimal cohesion|infinitesimal]] twist automorphisms |
-| [[∞-representation]] of $\mathbf{B}^{n-1}\mathbb{G}$ | $\array{ V &\to& V//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow^{\mathbf{p}} \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
+| [[∞-representation]] of $\mathbf{B}^{n-1}\mathbb{G}$ on $V_n$| $\array{ V_n &\to& V_n//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow^{\mathbf{p}} \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
 |[[prequantum space of states]] | $\mathbf{\Gamma}_X(E) := [\mathbf{c},\mathbf{p}]_{/\mathbf{B}^n \mathbb{conn}} = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ && \mathbf{B}^n \mathbb{G} } \right\} $ | [[cocycles]] in $[\mathbf{c}]$-[[twisted cohomology|twisted V-cohomology]] |
 | [[prequantum operator]] | $\widehat{(-)} : \mathbf{\Gamma}_X(E) \times \mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{\Gamma}_X(E)$ | [[∞-action]] of twist automorphisms on twisted cocycles |
 
@@ -89,6 +90,8 @@ The basic constructions that higher geometric quantization is concerned with are
 
 ### Of 2-plectic $\infty$-groupoids
 
+#### In codimension 2
+
 * [[prequantum circle n-bundle|prequantum circle 2-bundle]]
 
 * [[local coefficient bundle]]
@@ -105,7 +108,33 @@ The basic constructions that higher geometric quantization is concerned with are
 
 * [[space of states]]: [[twisted bundles]]
 
-### $\infty$-Chern-Simons theory generally
+#### In codimension 1
+
+**Proposition** There is a lift of coefficient bundles to [[loop space]]
+
+$$
+  \array{
+    [S^1,(\mathbf{B}U(n))//(\mathbf{B}U(1))_{conn}] &\stackrel{tr hol_{S^1}}{\to}& \mathbb{C}//U(1)_{conn}
+    \\
+    \downarrow^{\mathrlap{\mathbf{p}^{\mathbf{B}U}}}
+    &&
+    \downarrow^{\mathrlap{\mathbf{p}^{\mathbb{C}}}}
+    \\
+    [S^1,\mathbf{B}^2 U(1)_{conn}]
+    &\stackrel{\exp(2 \pi i \int_{S^1}(-))}{\to}& \mathbf{B}U(1)_{conn}
+  }
+$$
+
+where on the left we have [[loop space objects]] formed in $\mathbf{H}$ and on the bottom we have [[fiber integration in ordinary differential cohomology]].
+
+Forming the pasting composite with this sends 2-states and 2-operators in codimension 2 to ordinary states and operators in codimension 1.
+
+In particular it sends  [[twisted bundles]]  to sections of a line bundle. 
+
+For $X$ a [[D-brane]] and $\mathbf{c}_{conn}$ the [[B-field]], this
+reproduces [[Freed-Witten anomaly cancellation]] mechanism.
+
+### $\infty$-Chern-Simons theory 
 
 [[schreiber:∞-Chern-Simons theory]]
 
@@ -123,7 +152,7 @@ a universal differential characteristic map.
 
 The following examples are of this form.
 
-### Extended $(4k+3)d$ abelian Chern-Simons theory
+#### Extended $(4k+3)d$ abelian Chern-Simons theory
 
 [[higher dimensional Chern-Simons theory]]
 
@@ -167,7 +196,7 @@ $$
 
 But for any further nontrivial such autoequivalence in the slice we would need in particular a gauge transformation parameterized by $(2k+1)$-forms over test manifolds from $C \wedge d C$ to itself. But the only closed $2k$-forms that we can produce naturally from $C$ are multiples of $C \wedge C$. But these all vanish since $C$ is of odd degree $2k+1$.
 
-### Extended 3d $\mathrm{Spin}$-Chern-Simons theory
+#### Extended 3d $\mathrm{Spin}$-Chern-Simons theory
 
 * [[prequantum circle n-bundle|prequantum circle 3-bundle]]:
 
@@ -191,7 +220,7 @@ as it appears in [[schreiber:The moduli 3-stack of the C-field]].
 
 But the quantomorphism group of this will be small, as the [[Chern-Simons form]] is far from being gauge invariant.
 
-### Extended 3d $G \times G$-Chern-Simons theory
+#### Extended 3d $G \times G$-Chern-Simons theory
 
 However, when we consider $G \times G$ CS theory given by
 
@@ -214,7 +243,7 @@ $$
 $$
 
 
-### Extended 7d $\mathrm{String}$-Chern-Simons theory
+#### Extended 7d $\mathrm{String}$-Chern-Simons theory
 
 * [[prequantum circle n-bundle|prequantum circle 7-bundle]]:
 
@@ -234,12 +263,46 @@ $$
   }
 $$
 
+### $\infty$ Wess-Zumino-Witten theory
+
+* [[schreiber:∞-Wess-Zumino-Witten theory]]
+
+Differentially twisted looping of $\infty$-Chern-Simons theory
+
+$$  
+  \Omega \mathbf{c} : G \to \mathbf{B}^{n-1}\mathbb{G}
+$$
+
+#### Ordinary $G$-WZW model
+
+* [[WZW model]]
+
+$$
+  \tilde\Omega \tfrac{1}{2}\mathbf{p}_1 :  G \to \mathbf{B}^2 U(1)_{conn}
+$$
+
+studied in ([Rogers PhD, section 4.2](#RogersPhD)).
+
+#### $String$-WZW model
+
+(...)
+
+#### $Fivebrane$-WZW model
+
+(...)
 
 ## References
 
-Higher geometric quantization over [[smooth manifolds]] is discussed in
+2-geometric quantization over [[smooth manifolds]] is discussed in section 6 and section 7 of 
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+ {#RogersPhD}
+
+with further indications in
 
 * [[Chris Rogers]], _Higher geometric quantization_, at _Higher Structures 2011_ ([pdf](http://www.crcg.de/wiki/images/2/21/CR_Higherstruct_2011.pdf))
+ {#Rogers}
+
 
 Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-groupoids]] is discussed in
 
