@@ -158,6 +158,8 @@ in [section 3](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=93) of
 
   * [[monad (in computer science)]], [[Lawvere-Tierney topology]]
 
+  * [[finitary monad]]
+  
 * [[operad]] / [[(∞,1)-operad]]
 
 * [[strong monad]]
