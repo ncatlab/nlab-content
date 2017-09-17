@@ -1,7 +1,14 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
+
+## Idea
+
+The Taylor series of a [[smooth function]] $f$ (at a given point $c$) is a [[formal power series]] (in $x - c$) whose [[partial sum]]s are the [[Taylor polynomial]]s of $f$ (at $c$).  As the Taylor polynomials are approximations of $f$ by [[polynomials]] (up to a given degree), so the Taylor series is an approximation of $f$ by an [[analytic function]] (or at least an [[asymptotic expansion]] that attempts to be this).
+
+See also [[Taylor's theorem]] for error estimates in the convergence of Taylor series.
+
 
 ## Defintion
 
@@ -22,31 +29,38 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$, its **Mac Laurin series** is its Taylor series at [[zero]]:
+For $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$, its **Maclaurin series** is its Taylor series at [[zero]]:
 
 $$
   \sum_{n = 0}^\infty \frac{1}{n!} f^{(n)}(0) x^n
   \,.
 $$
-
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Similarly definition apply to functions on any [[Cartesian space]] or [[smooth manifold]].
-
+Similar definitions apply to functions on any [[Cartesian space]] or [[smooth manifold]].
 =--
 
+
 ## Properties
+
+Recall that a ([[partial function|partial]]) function $f$ is [[analytic function|analytic]] at $c$ (in the [[interior]] of $\dom f$) if there exists a [[power series]] $P$ at $c$ and a [[neighbourhood]] $U$ of $c$ such that, for all $x \in U \cap \dom f$, $P(x)$ converges to $f(x)$.
 
 +-- {: .num_prop}
 ###### Proposition
 
-The Taylor series of a [[smooth function]] $f$ at any point may have vanishing [[radius of convergence]], but it is always an [[asymptotic expansion]] of $f$.
-
+If $f$ is analytic at $c$, then the only power series witnessing this is the Taylor series of $f$ at $c$ (so in particular, the Taylor series exists; analytic functions are [[smooth function|smooth]]).
 =--
 
+In contrast, a smooth function need not be analytic; the classic counterexample is a [[bump function]].  In fact, the Taylor series of $f$ at $c$ might not converge to $f$ anywhere except at $c$, either because the Taylor series has vanishing [[radius of convergence]] or because it converges to something else (an analytic function with the same [[jet]] as $f$ but a different [[germ]]).  However, we can say this:
+
++-- {: .num_prop}
+###### Proposition
+
+The Taylor series of a [[smooth function]] $f$ is always an [[asymptotic expansion]] of $f$.
+=--
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -61,18 +75,16 @@ $$
 $$
 
 obtained by forming Taylor series in $l$ variables is [[surjection|surjective]].
-
 =--
 
-In particular, every [[power series]] in $\mathbb{R}[ [ X] ]$ is the taylor series of some [[smooth function]] on the [[real line]].
-
+In particular, every [[power series]] in one real variable is the Taylor series of some [[smooth function]] on the [[real line]] (even if it has vanishing radius of convergence and so is not the Taylor series of any analytic function).
 
 +-- {: .proof}
 ###### Proof
 
 The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analysis|MSIA, I, 1.3]]
-
 =--
+
 
 ## Related concepts
 
@@ -84,6 +96,7 @@ The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analys
 
 * analogue in ([[stable homotopy theory|stable]]) [[homotopy theory]]/[[Goodwillie calculus]]: _[[Taylor tower]]_
 
+
 [[!redirects Taylor series]]
 [[!redirects Taylor series expansion]]
 [[!redirects Mac Laurin series]]
@@ -92,5 +105,3 @@ The proof is reproduced for instance in [[Models for Smooth Infinitesimal Analys
 
 [[!redirects Taylor expansion]]
 [[!redirects Taylor expansions]]
-
-
