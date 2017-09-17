@@ -142,6 +142,225 @@ Higher Chern-Simons theory in dimension $4k+3$ is related by a [[holographic pri
 
 * $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore))
 
+
+#### Background charges and square root action functionals
+ {#BackgroundCharge}
+
+The [[supergravity C-field]] is an example of a general phenomenon of 
+higher abelian Chern-Simons QFTs in the presence of 
+_background charge_. This phenomenon was originally noticed
+in ([Witten](#Witten96)) and then made precise in 
+([HopkinsSinger](#HopkinsSinger)).
+The holographic dual of this phenomenon is that of
+self-dual higher gauge theories, which for the supergravity $C$-field
+is the 2-form theory on the [[M5-brane]] -- see there for a discussion of this example. Here we discuss this effect generally, for higher abelian Chern-Simons theory in arbitrary dimension $4k+3$.
+
+
+Fix some natural number $k \in \mathbb{N}$ and an [[orientation|oriented]] [[manifold]]
+([[compact topological space|compact]] [[manifold with boundary|with boundary]]) $X$ of [[dimension]] $4 k + 3$. 
+The gauge equivalence class of a $(2k+1)$-form gauge field $\hat G$ on $X$ is an element in the [[ordinary differential cohomology]] group $\hat H^{2k+2}(X)$.
+The [[cup product]] $\hat G \cup \hat G \in \hat H^{4k+4}(X)$ of this with itself  has a natural [[higher holonomy]] over $X$, denoted
+$$
+  \exp(i S (-)) : \hat H^{2k+2}(X) \to U(1)
+$$
+$$
+  \hat G \mapsto \exp(i \int_X \hat G \cup \hat G)
+  \,.
+$$
+This is the exponentiated [[action functional]] for bare $(4k+3)$-dimensional
+abelian Chern-Simons theory, as discussed above. 
+
+Observe now that
+the above action functional may be regarded as a 
+_[[quadratic form]]_ on the [[cohomology group]] 
+$\hat H^{2k+2}(X)$. The corresponding [[bilinear form]] is the 
+("[[secondary characteristic class|secondary]]", 
+since $X$ is of dimension $4k+3$ instead of $4k+4$)
+_[[intersection pairing]]_
+
+$$
+  \langle -,-\rangle : \hat H^{2k+2}(X) \times \hat H^{2k+2}(X) \to U(1)
+$$
+$$
+  (\hat a_1 , \hat a_2) \mapsto \exp(i \int_X \hat a_1 \cup \hat a_2 )
+  \,.
+$$
+
+But note that from $\exp(i S(-))$ we do _not_ obtain a 
+_[[quadratic refinement]]_  
+of the pairing. A quadratic refinement is, by definition, a function
+$$
+  q : \hat H^{2k+2}(X) \to U(1)
+$$
+(not necessarily homogenous of degree 2 as $\exp(i S(-))$ is), such that
+the [[intersection pairing]] is reobtained from it by the polarization formula
+$$
+  \langle \hat a_1, \hat a_2\rangle 
+    = 
+  q(\hat a_1 + \hat a_2)
+  q(\hat a_1)^{-1}
+  q(\hat a_2)^{-1}
+  q(0)
+  \,.
+$$
+If we took $q := \exp(i S(-))$, then the above formula would yield not 
+$\langle -,-\rangle$, but the square $\langle -,-\rangle^2$, given by
+(the exponentiation of) _twice_ the integral. 
+
+The observation in ([Witten96](#Witten96)) was 
+that for the correct [[holographic principle|holographic]] physics, we need instead an action functional
+which is indeed a genuine [[quadratic refinement]] of the [[intersection pairing]].
+
+But since the [[differential cohomology|differential classes]] in $\hat H^{2k+2}(X)$ refine 
+_[[integral cohomology]]_, we cannot in general simply divide by 2 and
+pass from $\exp( i \int_X \hat G \cup \hat G)$ to 
+$\exp( i  \int_X \frac{1}{2} \hat G \cup \hat G)$. The integrand in the
+latter expression does not make sense in general in differential cohomology.
+If one tried to write it out in the "obvious" local formulas one would
+find that it is a functional on fields which is not 
+[[gauge invariance|gauge invariant]].
+The analog of this fact is familiar from nonabelian $G$-[[Chern-Simons theory]]
+with [[simply connected space|simply connected]] $G$, where also the theory is consistent only at 
+interger _levels_. The "level" here is nothing but the 
+underlying integral class $G \cup G$. 
+
+
+Therefore the only way to obtain a [[square root]] of the [[quadratic form]]
+$\exp(i S(-))$ is to _shift its origin_. Here we think of 
+the analogy with a
+quadratic form $q : x \mapsto x^2$ on the [[real numbers]] (a parabola in the plane).
+Replacing this by $q^{\lambda} : x \mapsto x^2 + \lambda x$ for some real number
+$\lambda$ means keeping the shape of the form, but shifting its [[minimum]] from 0 to
+$-\frac{1}{2}\lambda$. If we think of this as the potential term for a scalar field
+$x$ previously with rotation-symmetric dynamics about $x = 0$, then the new potential
+exhibits [[spontaneous symmetry breaking]]: its ground state is now at $x = -\frac{1}{2}\lambda$
+(and has [[energy]] $-\frac{1}{4}\lambda^2$ there). We may say that there is
+a _background field_ or _background [[charge]]_ that pushes
+the field out of its free equilibrium.
+
+To lift this reasoning to our action quadratic form 
+$\exp(i S(-))$ on differential cocycles, we need a 
+differential class $\hat \lambda \in H^{2k+2}(X)$ such that 
+for every $\hat a \in H^{2k+2}(X)$ the composite class
+$$
+  \hat a \cup \hat a + \hat a \cup \hat \lambda
+  \in 
+  H^{4k+4}(X)
+$$
+is even, hence is divisible by 2. Because then we could define a shifted
+action functional
+
+$$
+  \exp(i S^\lambda(-)) : \hat a \mapsto \exp(i \int_X \frac{1}{2}(\hat a \cup \hat a + \hat a \cup \hat \lambda))
+  \,,
+$$
+
+where now the fraction $\frac{1}{2}$ in the integrand does make sense. One directly
+sees that if this exists, then this shifted action is indeed now a
+[[quadratic refinement]] of the [[intersection pairing]]
+
+$$
+  \exp(i S^\lambda(\hat a + \hat b))
+  \exp(i S^\lambda(\hat a))^{-1}
+  \exp(i S^\lambda(\hat b))^{-1}
+  \exp(i S^\lambda(0)
+  = 
+  \exp(i \int_X \hat a \cup \hat b)
+  \,.
+$$
+
+The condition on the existence of $\hat \lambda$ here means equivalently that the
+image of the underlying integral class in cohomology with coefficients
+in $\mathbb{Z}_2$ vanishes:
+$$
+   (a)_{\mathbb{Z}_2} \cup (a)_{\mathbb{Z}_2} 
+     + 
+   (a)_{\mathbb{Z}_2} \cup (\lambda)_{\mathbb{Z}_2}  
+   = 
+   0 \in H^{4k+4}(X, \mathbb{Z}_2)
+  \,,
+$$
+
+Precisely such a class $(\lambda)_{\mathbb{Z}_2}$ does uniquely exist on 
+every oriented manifold. It is called the _[[Wu class]]_ 
+$\nu_{2k+2} \in H^{2k+2}(X,\mathbb{Z}_2)$, and may be _defined_ by this condition.
+Moreover, if $X$ is a [[spin structure|Spin-manifold]], then every second
+[[Wu class]], $\nu_{4k}$, has a pre-image in [[integral cohomology]], 
+hence $\lambda$ does exist as required above
+
+$$
+  (\lambda)_{\mathbb{Z}_2}
+    = 
+  \nu_{2k+2}
+  \,.
+$$
+
+It is given by  [[polynomials]] in the [[Pontryagin classes]] of $X$. For instance
+the degree-4 Wu class (for $k = 1$) is refined by the 
+[[first fractional Pontryagin class]]
+$\frac{1}{2}p_1$
+
+$$
+  (\frac{1}{2}p_1)_{\mathbb{Z}_2} = \nu_4
+  \,.
+$$
+
+This was the original observation in [Witten96, around (3.3)](#Witten96).
+
+Notice that the [[equations of motion]] of the shifted action $\exp(i S^\lambda(\hat a))$
+are no longer $F_a = 0$, but are now $F_a = - \frac{1}{2}F_\lambda$.
+Comparing this to the [[Maxwell equations]], we see that $-\frac{1}{2}\hat \lambda$
+here plays the role of a _background [[charge]]_ (or rather, of the
+_background [[current]]_ that underlies a background charge). We therefore think of
+$\exp(i S^\lambda(-))$ as the exponentiated action functional for
+_higher dimensional abelian Chern-Simons theory with background charge 
+$-\frac{1}{2}\lambda$_.
+
+
+This of course only makes sense if $X$ is such that 
+$\lambda$ is further divisible by 2, which we will
+assume now. In ([Hopkins-Singer](#HopkinsSinger)) is discussed a way to
+make sense of the further division in general if one passes to a certain notion of  twisted differential cohomology. One can also adopt a different perspective and interpret the condition that $\frac{1}{2}p_1$ is further divisible by 
+2 precisely as a $\mathrm{String}^{2a}$-structure
+([SSS3](http://ncatlab.org/schreiber/show/Twisted+Differential+String+and+Fivebrane+Structures)). This is a higher analog
+of a [[Spin^c structure]].
+
+
+With respect to the shifted action functional it makes sense to introduce the
+shifted field
+
+$$
+  \hat G  := \hat a  + \frac{1}{2}\lambda
+  \,.
+$$
+
+This is simply a re-parameterization such that the 
+Chern-Simons equations of motion again look homogenous, namely $FieldStrength(\hat G) = 0$.
+In terms of this shifted field the action $\exp(i S^\lambda(\hat a))$
+from above equivalently reads
+
+$$
+  \exp(i S^\lambda(\hat G)) = 
+  \exp(
+    i \int_X \frac{1}{2}(\hat G \cup \hat G - (\frac{1}{2}\hat \lambda)^2)
+  )
+  \,.
+$$
+
+This is the form of the action functional first given as ([Witten96 (3.6)](#Witten96)) in for the case $k = 1$.
+
+
+In the language of [[twisted differential c-structures]], we may summarize this sitation
+as follows: 
+
+in order for the action functional of higher abelian Chern-Simons theory 
+to be correctly divisible, the images of the fields in $\mathbb{Z}_2$-cohomology
+need to form a [[twisted Wu structure]]. Therefore the fields themselves
+need to constitute a _twisted $\lambda$-structure_. For $k = 1$ this is
+a [[twisted differential string structure|twisted string structure]] and explains for instance the quantization
+condition on the [[supergravity C-field]] in [[11-dimensional supergravity]]. For that case see also the corresponding discussion at _[[M5-brane]]_.
+
+
 ## Higher-dimensional non-abelian CS theory
 
 Chern-Simons actions for [[Lie algebra]]s $\mathfrak{g}$ but with higher-degree [[invariant polynomial]]s have in particular received attention for $\mathfrak{g} = \mathfrak{siso}$ the [[super Poincare Lie algebra]]. In this case these action functionals can be regarded as defining higher [[Chern-Simons supergravity]].
@@ -207,6 +426,7 @@ The idea of describing [[self-dual higher gauge theory]] by abelian Chern-Simons
 
 * [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ Journal of Geometry and Physics
 Volume 22, Issue 2, May 1997, Pages 103-133  ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#Witten96}
 
 (there for the [[6d (2,0)-susy QFT]] on the [[fivebrane]]) and
 
