@@ -1,7 +1,12 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
@@ -16,7 +21,7 @@
 
 ## Idea
 
-WHat are called _Fierz identities_ are certain relations between multilinear expressions of [[spinors]]. More precisely, the Fierz identities encode the docpositions of spinorial expressions into [[irreducible representations]] of the [[super Poincare Lie algebra]].
+What are called _Fierz identities_ are certain relations between multilinear expressions of [[spinors]]. More precisely, the Fierz identities encode the docpositions of spinorial expressions into [[irreducible representations]] of the [[super Poincare Lie algebra]].
 
 
 ## References
