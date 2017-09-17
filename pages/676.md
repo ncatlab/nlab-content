@@ -173,6 +173,7 @@
  
     * [[gauge theory]]
       * [[field strength]]
+      * [[gauge transformation]]
       * [[gauge fixing]]
       * examples
 
