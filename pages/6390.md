@@ -54,7 +54,7 @@ That some [[particle]]s have a property called [[spinor|spin]] was found in 1922
 
 ## References
 
-### Worline supersymmetry
+### Worldline supersymmetry
  {#WorldlineSupersymmtryReferences}
 
 Among the early references that describe the observation that the supersymmetric extension of the worldline theory of the [[relativistic particle]] describes ordinary Dirac [[fermion]]s are
