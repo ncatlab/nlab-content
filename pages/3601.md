@@ -24,11 +24,11 @@ TODO: decide whether to shift this section to [[quantum mechanics]].
 
 In pure state quantum mechanics, physical states are encoded as vectors in a [[Hilbert space]]. Often Dirac "bra-ket" notation is used to represent such vectors, where $|\psi\rangle$ represents a state and $\langle\psi|$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and [[momentum]] and are called observables. Measurements are expressed as sets of projectors onto the eigenvectors of an observable.
 
-In mixed state quantum mechanics, physical states are represented as [[density operators]] $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and measurements are positive operator-valued measures (POVM's). There is a natural embedding of pure states into the space of density matrices: $|\psi\rangle \mapsto |\psi\rangle\langle\psi|$. So, one way to think of mixed states is a probabilistic mixture of pure states.
+In [[mixed state]] quantum mechanics, physical states are represented as [[density operators]] $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and measurements are positive operator-valued measures (POVM's). There is a natural embedding of pure states into the space of density matrices: $|\psi\rangle \mapsto |\psi\rangle\langle\psi|$. So, one way to think of mixed states is a probabilistic mixture of pure states.
 
 \[ \rho = \sum_i a_i |\psi_i\rangle\langle\psi_i| \]
 
-Composite systems are formed by taking the tensor product of Hilbert spaces. If a pure state $|\Psi\rangle \in H_1 \otimes H_2$ can be written as $|\psi_1\rangle \otimes |\psi_2\rangle$ for $|\psi_i\rangle \in H_i$ it is said to be _separable_. If no such $|\psi_i\rangle$ exist, $|\Psi\rangle$ is said to be _entangled_. If a mixed state is separable if it is the sum of separable pure states. Otherwise, it is entangled.
+Composite systems are formed by taking the tensor product of Hilbert spaces. If a [[pure state]] $|\Psi\rangle \in H_1 \otimes H_2$ can be written as $|\psi_1\rangle \otimes |\psi_2\rangle$ for $|\psi_i\rangle \in H_i$ it is said to be _[[separable]]_. If no such $|\psi_i\rangle$ exist, $|\Psi\rangle$ is said to be _[[entangled]]_. If a mixed state is separable if it is the sum of separable pure states. Otherwise, it is entangled.
 
 States, state evolutions, and observables are all special cases of [[quantum channels]] which can be used to describe the exchange of classical and quantum [[information]].
 
