@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Since the nature of [[atoms]] is described by [[quantum mechanics]] and since [[chemistry]] deals with compounds of atoms -- [[molecules]] -- it is ultimately based on quantum mechanics, but typically the deatailed quantum mechanical processes are heaviliy coarse grained to effective laws of chemistry. In contrast to this _quantum chemistry_ studies chemical effects explicitly with more of the detailed quantum mechanics underlying them taken into account.
+
+## Related concepts
+
+* [[quantum biology]]
+
+## References
+
+* Wikipedia, _[Quantum chemistry](http://en.wikipedia.org/wiki/Quantum_chemistry)_
