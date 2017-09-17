@@ -66,6 +66,8 @@ Compactness is equivalent to the condition of being "stably closed" (and it is t
 For any space $Y$, the projection map $X \times Y \to Y$ is closed.
 =--
 
+Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers.
+
 Closely related to the previous definition, a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
 +-- {: .num_defn #quantification}
 ###### Definition
