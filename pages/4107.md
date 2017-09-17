@@ -49,6 +49,8 @@
 
 ## In higher category theory
 
+* [[Yoneda lemma for bicategories|2-Yoneda lemma]]
+
 * [[(∞,1)-Yoneda lemma]]
 
 
