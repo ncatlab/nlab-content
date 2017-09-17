@@ -10,6 +10,17 @@ The most important invariants of a [[topological space]] $X$ or, more generally,
 
 So homotopy $n$-types are the [[equivalence classes]] of an [[equivalence relation]] imposed on objects in [[Top]] (or objects in another [[(∞,1)-topos]]). Thus, we say that two spaces 'have the same homotopy $n$-type' if their [[homotopy group]]s agree up to $\pi_n$, and 'a homotopy $n$-type' can equally well be represented by any space having that $n$-type.  This is analogous to the definition of 'a [[real number]]' as an equivalence class of Cauchy sequences.
 
+
+[geckoz](http://geckozz.site50.net/)
+[bloepets](http://bloepets.wordpress.com/)
+[colorez](http://colerez.blogspot.com/)
+[kanduyung](http://kanduyung.pun.bz/)
+[yestues](http://ystubes.blogdetik.com/)
+[kataku](http://kataku.ealios.info/wp/)
+[kambingks](http://kambing.trecions.us/)
+[galopets](http://galopets.pertigo.info/) [golomie](http://genduts.colopi.info/) [heiye](http://deyong.0fees.net/wp/) [gogonsf](http://golds.fey345.com/)
+
+
 However, as usual in [[homotopy theory]], merely having isomorphic homotopy groups is not enough; rather there needs to be a map _inducing_ such an isomorphism.  Thus, the relevant equivalence relation relates two spaces when there is a zigzag of maps between them, all inducing isomorphisms on homotopy groups $\pi_k$ for $k\le n$.  One can then show that any space is equivalent, in this sense, to one having trivial homotopy groups above level $n$, so that the other definition is also correct.
 
 The use of [[topological space]]s is not, of course, essential; we could just as well use any other structure that models the same [[homotopy theory]], such as [[simplicial set]]s, [[simplicial groupoid]]s, or (for [[connected space]]s) [[simplicial group]]s.  Moreover, the fact that homotopy $n$-types can be modeled by spaces that are trivial above level $n$ raises the possibility of finding reasonably complete _algebraic_ models for such $n$-types.
