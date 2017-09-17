@@ -770,6 +770,8 @@ See also
 
 * A. Romero, J. Rubio, F. Sergeraert, _Computing spectral sequences_ ([pdf](http://www-fourier.ujf-grenoble.fr/~sergerar/Papers/Ana-JSC.pdf))
 
+* Eric Peterson, _[Ext chart](http://ext-chart.org)_ software for computing spectral sequences
+
 ### Nonabelian / unstable theory {#ReferencesNonabelian}
 
 Homotopy spectral sequences in model categories are discussed in 
