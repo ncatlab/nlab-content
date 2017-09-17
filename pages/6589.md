@@ -35,11 +35,15 @@ We start with a field theory whose action functional is an integral of a local [
 
 $$ S = \int \mathcal{L}(g,a,x) d x, $$
 
-where $a$ is the ultraviolet cutoff of the theory.  The RG flow is described by the **beta functions**:
+where $a$ is the ultraviolet cutoff of the theory.  The basic assumption of RG is that there exists a single-parameter family of transformations on $Q$, the space of coupling constants,
+
+$$ R_t: Q \rightarrow Q,$$
+
+which has the property that a field theory with the action $S(R_t g, e^t a)$ is equivalent to the original theory with action $S(g, a)$.  Here, _equivalence_ means that the [[correlation function]]s of the two theories agree, as long as we consider scales larger than the renormalized UV cutoff, $x \gg e^t a$.  The RG flow is described by the **beta functions**:
 
 $$  d g^i = \beta^i(g) \,d t. $$
 
-At the fixed points, $\beta^i(g) = 0$.  (The beta functions in RG theory should not be confused with the Euler beta function, which is related to the gamma function that generalises the factorial operation.  Here, we are using the term in the same sense as when people say, "The beta function in [[QCD]] is negative.")  The **Callan--Symanzik equation** describes how the $n$-point [[correlation function]]s vary under the RG transform.
+At the fixed points, $\beta^i(g) = 0$.  (The beta functions in RG theory should not be confused with the Euler beta function, which is related to the gamma function that generalises the factorial operation.  Here, we are using the term in the same sense as when people say, "The beta function in [[QCD]] is negative.")
 
 The local energy-momentum tensor $T_{\mu\nu}(x) = T_{\nu\mu}(x)$ satisfies the conservation equation $\partial_\mu T_{\mu\nu} = 0$.  Define the complex coordinates
 
@@ -61,7 +65,13 @@ $$ H_i(g) = z^2 x^2 \left.\langle T(x) \Phi_i(0) \rangle\right|_{x^2 = x_0^2} $$
 
 $$ G_{i j}(g) = x^4 \left.\langle \Phi_i(x) \Phi_j(0) \rangle\right|_{x^2 = x_0^2} $$
 
-The positivity condition of the field theory implies that the symmetric [[matrix]] $G_{i j}(g)$ is positive definite, and that we can use it as the [[metric space|metric]] in the space of coupling constants.  We combine our expansion of the field $\Theta$ with the conservation condition $\partial_\mu T_{\mu\nu} = 0$ and the Callan--Symanzik equation to get
+The positivity condition of the field theory implies that the symmetric [[matrix]] $G_{i j}(g)$ is positive definite, and that we can use it as the [[metric space|metric]] in the space of coupling constants.  
+
+The **Callan--Symanzik equation** describes how the $n$-point [[correlation function]]s vary under the RG transform.  For our purposes, the scaling matrix $\gamma$ which appears in the Callan-Symanzik equation is given by
+
+$$ \gamma_i^{\,j} (g) \Phi_j = \left(\frac{a}{2} \frac{\partial}{\partial a} - \beta^k \frac{\partial}{\partial g^k}\right) \Phi_i = (\partial_i \beta^j) \Phi_j.$$
+
+We combine our expansion of the field $\Theta$ with the conservation condition $\partial_\mu T_{\mu\nu} = 0$ and the Callan--Symanzik equation to get
 
 $$ \frac{1}{2} \beta^i\partial_i C = -3\beta^i H_i + \beta^i\beta^k\partial_k H_i + \beta^k(\partial_k \beta^i) H_i, $$
 
