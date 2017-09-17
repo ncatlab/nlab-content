@@ -91,7 +91,8 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
   [[AJ Tolland]], _Gromov-Witten Gauge Theory I_ ([arXiv](http://arxiv.org/abs/0904.4834))
 
 * [[Constantin Teleman]], _The structure of 2D semi-simple field theories_ ([arXiv](http://arxiv.org/abs/0712.0160))
-
+* Oliver Fabert, _Floer theory, Frobenius manifolds and integrable systems_
+[arxiv/1206.1564](http://arxiv.org/abs/1206.1564)
 
 [[!redirects Gromov-Witten invariant]]
 [[!redirects Gromov-Witten invariants]]
