@@ -1,0 +1,5 @@
+
+## Idea
+
+The notion of [[bimodule]] makes sense [[internalization|internal]] to, for instance, any [[monoidal (infinity,1)-category]].
+
