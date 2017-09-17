@@ -32,7 +32,21 @@ This is the full sub-2-category of [[Cat]] on those [[categories]] that are grou
 
 ## Properties
 
+### Presentation
+
 One may regard $Gprd$ also just as a 1-category by ignoring the natural isomorphisms between functors. This 1-category may be equipped with the [[natural model structure on groupoids]] to provide a 1-categorical [[presentable (infinity,1)-category|presentation]] of the full $(2,1)$-category.
+
+## Related categories
+
+* [[Pos]]
+
+* [[Set]]
+
+* **$Grpd$**, [[∞Grpd]]
+
+* [[Cat]], [[(∞,1)Cat]]
+
+* [[(∞,n)Cat]]
 
 
 category: category
