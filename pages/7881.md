@@ -15,7 +15,7 @@
 
 ## Idea
 
-The *continuum hypothesis* is a statement of [[set theory]] which says, roughly, that every set of real numbers is either [[countable set|countable]] or has the same [[cardinality]] as all the reals ("the [[continuum]]").  It cannot be proven *or* disproven from any of the usual axioms of set theory.
+The *continuum hypothesis* is a statement of [[set theory]] which says, roughly, that every set of real numbers is either [[countable set|countable]] or has the same [[cardinality]] as the set of all real numbers ("the [[continuum]]").  It cannot be proven *or* disproven from any of the usual axioms of set theory.
 
 
 ## Statement
