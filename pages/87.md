@@ -274,6 +274,10 @@ A development and exposition of the general setup taking Makkai's and Bartels' m
 
 * [[David Roberts]], _Internal categories, anafunctors and localisations_, [arXiv:math/1101.2363](http://arxiv.org/abs/1101.2363), [submitted and improved version](http://ncatlab.org/davidroberts/files/DRoberts_anafunctors.pdf)
 
+See also
+
+* [[Erik Palmgren]], *Locally cartesian closed categories without chosen constructions*, [TAC](http://www.tac.mta.ca/tac/volumes/20/1/20-01abs.html).
+
 Since anafunctors are a special case of a more general concept, they, or the general theory applying to them, has been considered under different terms elsewhere. 
 
 The general question of [[model category]] structures on categories of [[internal category|internal categories]] is discussed in 
