@@ -680,8 +680,28 @@ $$
   \,. 
 $$
 
-This concluces the description of the [[natural deduction]] about [[objects]], [[morphisms]] and [[products]] in a [[category]] using its [[type theory]] [[syntax]]. In the [next section](#SmoothSpaces) we promote our running example category $\mathcal{C}$, which admits only very few [[universal constructions]] (just [[products]]), to a richer category, the [[sheaf topos]] over it. That richer category then accordingly comes with a richer [[syntax]] of [[natural deduction]] inside it, namely with full [[dependent type theory]]. This we discuss in the [Syn Layer below](#SmoothSpacesLayerSyn).
+This concluces the description of the [[natural deduction]] about [[objects]], [[morphisms]] and [[products]] in a [[category]] using its [[type theory]] [[syntax]]. We summarize the dictionary between [[category theory]] and [[type theory]] discussed so far [below](#DictionaryTypeTheoryCategoryTheory).
 
+
+In the [next section](#SmoothSpaces) we promote our running example category $\mathcal{C}$, which admits only very few [[universal constructions]] (just [[products]]), to a richer category, the [[sheaf topos]] over it. That richer category then accordingly comes with a richer [[syntax]] of [[natural deduction]] inside it, namely with full [[dependent type theory]]. This we discuss in the [Syn Layer below](#SmoothSpacesLayerSyn).
+
+
+
+
+#### Dictionary type theory / category theory
+ {#DictionaryTypeTheoryCategoryTheory}
+
+
+The dictionary between [[dependent type theory|dependent]] [[type theory]] with [[product types]] and [[category theory]] of categories with [[products]].
+
+[[!include judgements for types and terms - table]]
+
+[[!include product natural deduction - table]]
+
+[[!include dependent sum natural deduction - table]]
+
+
+Below in [Smooth spaces - Layer Syn](#SmoothSpacesLayerSyn) we complete this dictionary to one between [[dependent type theory]] with [[dependent products]] and [[toposes]].
 
 ## Smooth spaces
  {#SmoothSpaces}
