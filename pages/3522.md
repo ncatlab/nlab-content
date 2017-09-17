@@ -290,6 +290,12 @@ For each $n$, the collection of [[polynomial functors]] of degree $n$ from bare 
 
 ( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[tangent (infinity,1)-category]]_.
 
+## Related concepts
+
+* [[excisive (∞,1)-functor]]
+
+* [[n-excisive (∞,1)-functor]]
+
 ## References
 
 An overview for a workshop
@@ -321,6 +327,10 @@ Geom. Topol. 7 (2003), 645--711 [journal](http://www.msp.warwick.ac.uk/gt/2003/0
 A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable (∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_, [section 5](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf#page=159)
+
+This is now section 7 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
 
 See also
 
