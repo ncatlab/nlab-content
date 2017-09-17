@@ -70,3 +70,6 @@ A morphism $U \to X$ of [[topological space]]s is a regular monomorphism precise
 [[!redirects embeddings]]
 [[!redirects imbedding]]
 [[!redirects imbeddings]]
+
+[[!redirects closed embedding]]
+[[!redirects open embedding]]
