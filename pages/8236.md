@@ -23,6 +23,7 @@ A _lattice in the [[Cartesian space]]_ $\mathbb{R}^n$ is a [[discrete group|disc
 
 * [[unimodular integral lattice]]
 
+* [[torus]], [[elliptic curve]]
 
 
 ## References
