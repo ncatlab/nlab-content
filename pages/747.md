@@ -505,7 +505,7 @@ This is in prop 2.8 of
 * [[Daniel Dugger]], _[[Universal Homotopy Theories]]_  
 
 
-## Localization and descent
+## Localization and descent {#Descent}
 
 We discuss some aspects of the [[Bousfield localization of model categories|left Bousfield localization]] at [[Grothendieck topologies]] and [[covering]] families. By the discussion at [[topological localization]] these are models for [[(∞,1)-categories of (∞,1)-sheaves]].
 
@@ -535,6 +535,7 @@ Let $C$ be a [[site]] given by a [[Grothendieck topology]]. The left [[Bousfield
 =--
 
 This is theorem A5 in [DugHolIsak](http://front.math.ucdavis.edu/0205.5027).
+
 
 ### Localization at a coverage {#LocalizationAtCoverage}
 
