@@ -21,7 +21,7 @@
 
 ## Idea
 
-The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]]. Another way to characterize it is as the [[subgroup]] of the [[general linear group]] $GL(7)$ of those elements that preserve the canonical [[differential n-form|differential 3-form]]  $\langle ,(-)\times (-) \rangle$ on the [[Cartesian space]] $\mathbb{R}^7$. As such, the group $G_2$ is a higher analog of the [[symplectic group]] (which is the group that preserves a canonical 2-form on any $\mathbb{R}^{2n}$), obtained by passing from [[symplectic geometry]] of [[2-plectic geometry]].
+The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]]. Another way to characterize it is as the [[subgroup]] of the [[general linear group]] $GL(7)$ of those elements that preserve the canonical [[differential n-form|differential 3-form]]  $\langle ,(-)\times (-) \rangle$ on the [[Cartesian space]] $\mathbb{R}^7$. As such, the group $G_2$ is a higher analog of the [[symplectic group]] (which is the group that preserves a canonical 2-form on any $\mathbb{R}^{2n}$), obtained by passing from [[symplectic geometry]] to [[2-plectic geometry]].
 
 
 ## Definition
@@ -57,7 +57,7 @@ See for instance the introduction of ([Joyce](#Joyce)).
 The inclusion $G_2 \hookrightarrow GL(7)$ of def. \ref{As2PlectomorphismsOnR7} factors through the [[special orthogonal group]]
 
 $$
-  G_2 \hookrightarrow SL(7) \hookrightarow GL(7)
+  G_2 \hookrightarrow SL(7) \hookrightarrow GL(7)
   \,.
 $$
 
