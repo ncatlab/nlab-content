@@ -74,3 +74,5 @@ is the corresponding [[local action functional]].
 [[!redirects Lagrangians]]
 
 [[!redirects local Lagrangian]]
+[[!redirects local Lagrangians]]
+
