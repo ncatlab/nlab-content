@@ -210,7 +210,7 @@ Of the existing formalizations of [[quantization]], it is _[[geometric quantizat
 We discuss the [[space of states (in geometric quantization)]] of quantized $G$-Chern-Simons theory for $G$ a simple, simply connected Lie group, as [above](#ClassicalChern-SimonsTheory).
 
 
-### Geometric prequantization
+### Prequantization
 
 1. consider Chern-Simons theory on a [[dimension|3-dimensional]] [[smooth manifold]] which is a [[cylinder]] $\Sigma_3 \coloneqq \Sigma_2 \times [0,1]$ over a 2-dimensional manifold;
 
@@ -218,7 +218,8 @@ We discuss the [[space of states (in geometric quantization)]] of quantized $G$-
 
 1. after [[gauge reduction]] this becomes a [[symplectic form]], for which there is a [[prequantum circle bundle]] on the phase space;
 
-### Geometric quantization
+### Quantization
+ {#GeometricQuantizationQuantizationStep}
 
 1. in order to complete this prequantization to [[geometric quantization]] one needs to choose a [[polarization]] of phase space; it turns out that one naturally obtains such from any choice of [[conformal structure]] $[g]$ on $\Sigma$ (see for instance [Witten-Jeffrey, p. 81](#WittenJeffrey), see also _[self-dual higher gauge theory -- Relation to Chern-Simons -- Conformal structure from polarization](self-dual+higher+gauge+theory#ConformalStructureFromPolarization)_):
 
