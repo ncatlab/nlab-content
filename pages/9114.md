@@ -3603,6 +3603,8 @@ We see below that both the [[Wess-Zumino-Witten theory]] as well as [[Wilson lin
 
 ## Related concepts
 
+* [[Peierls bracket]]
+
 * locality of [[local field theory]] is obsrvationally related to _[[causal locality]]_
 
 * [[prequantum geometry]]
