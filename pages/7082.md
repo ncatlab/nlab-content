@@ -228,9 +228,9 @@ An introduction to equivalence in homotopy type theory is in
 
 * [[Andrej Bauer]], _A seminar on HoTT equivalences_ ([blog post](http://homotopytypetheory.org/2011/12/07/a-seminar-on-hott-equivalences/))
 
-and basic ideas are also indicated from [slide 60 of part 2](www.math.ucsd.edu/~mshulman/hottminicourse2012/02hott.pdf#page=60), [slide 49 of part 3](www.math.ucsd.edu/~mshulman/hottminicourse2012/03models.pdf#page=49) of 
+and basic ideas are also indicated from [slide 60 of part 2](http://www.math.ias.edu/~mshulman/hottminicourse2012/02hott.pdf#page=60), [slide 49 of part 3](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf#page=49) of 
 
-* [[Mike Shulman]], _Minicourse in homotopy type theory_ (2012) ([web](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/))
+* [[Mike Shulman]], _Minicourse in homotopy type theory_ (2012) ([web](http://www.math.ias.edu/~mshulman/hottminicourse2012/))
  {#Shulman}
 
 [[Coq]] code for homotopy equivalences is at
