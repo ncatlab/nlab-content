@@ -33,3 +33,5 @@ The formation of entangled states requires an external action that, mathematical
 [[Ian Durham]]: Feel free to clean this up a bit.
 
 [[!redirects entangled state]]
+[[!redirects entangled]]
+[[!redirects separable]]
