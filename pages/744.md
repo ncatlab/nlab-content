@@ -158,6 +158,7 @@ The _n_-Lab has a spam filter that checks your IP against a blacklist.  The blac
 Sometimes something doesn't work quite right with the software and it bails out.  If you think that you were doing something that should work, please log the error message at the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  The more information that you log, the easier it is for us to debug.  Useful information is: your IP, the time and date, and the URL that you were trying to access.
 
 There is actually more information contained in the HTML source of the error message ("view source"): some errors can be down to malformed input when editing a page and that can help you fix it yourself.
+[link building service](http://www.diamondlinks.net)
 
 
 category:meta
