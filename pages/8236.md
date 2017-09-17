@@ -1,0 +1,30 @@
+
+> This entry is about the notion of _lattice_ in [[group theory]]/[[quadratic form]]-theory. For other notions see at _[[lattice (disambiguation)]]_.
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _lattice in the [[Cartesian space]]_ $\mathbb{R}^n$ is a [[discrete group|discrete]] [[subgroup]] of the underlying [[abelian group]] which [[spans]] the whole space.
+
+## Related concepts
+
+* [[integral lattice]]
+
+* [[modular integral lattice]]
+
+## References
+
+* A. E. Brouwer, _Lattices_, Course notes (2002) ([pdf](http://www.win.tue.nl/~aeb/latt/lattices.pdf))
+
+* [[John Conway]], N. Sloane, _Low dimensional lattices I: Quadratic forms of small determinant_
+
+* Wikipedia, _[Lattice (group)](http://en.wikipedia.org/wiki/Lattice_%28group%29)_
+
+* Wikipedia, _[Lattice (module)](http://en.wikipedia.org/wiki/Lattice_%28module%29)_
+
+[[!redirects lattices in a vector space]]
