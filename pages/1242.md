@@ -112,6 +112,34 @@ In this case, $B$ may be decomposed as the [[biproduct]] $A \oplus C$ (with $i$ 
 
 ## Properties
 
+### Computing terms in an exact sequence
+
+A typical use of a long exact sequence, notably of the [[homology long exact sequence]], is that it allows to determine some of its entries in terms of others.
+
+The characterization of short exact sequences in prop. \ref{CharacterizationByMonoEpi} is one example for this: whenever in a long exact sequence one entry vanishes as in $\cdot \to 0 \to C_n \to \cdot$ or $\cdot \to C_n \to 0 \to \cdots$, it follows that the _next_ morphism out of or into the vanishing entry is a [[monomorphism]] or [[epimorphism]], respectively.
+
+In particular: 
+
++-- {: .num_prop }
+###### Proposition
+
+If part of an exact sequence looks like
+
+$$
+  \cdots \to 0 \to C_{n+1} \stackrel{\partial_n}{\to} C_n \to 0 \to \cdots
+  \,,
+$$
+
+then $\partial_n$ is an [[isomorphism]] and hence 
+
+$$
+  C_{n+1} \simeq C_n
+  \,.
+$$
+
+=--
+
+
 ### Exactness and quasi-isomorphisms
  {#ExactnessAndQuasiIsomorphisms}
 
