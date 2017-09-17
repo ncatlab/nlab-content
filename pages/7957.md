@@ -1,0 +1,10 @@
+
+
+## Idea
+
+In the context of the [[standard model of particle physics]], _technicolor_ is a proposal for realizing [[electroweak symmetry breaking]] not via a [[Higgs boson]] which is a [[fundamental particle]], but by realizing it as a bound state of auxiliary [[fermions]] and introduing new [[gauge fields]].
+
+## References
+
+* Wikipedia _[technicolor (physics)](http://en.wikipedia.org/wiki/Technicolor_%28physics%29)_
+
