@@ -258,6 +258,15 @@ Cubical methods are a key feature in using higher homotopy groupoids to prove ho
 
 * [[simplicial set]], [[globular set]], [[cellular set]], [[dendroidal set]]
 
+* [[simplicial object]]
+
+  * [[simplicial object in an (∞,1)-category]]
+
+* [[semi-simplicial object]]
+
+  * [[semisimplicial set]]
+
+
 
 ## References
 
