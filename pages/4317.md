@@ -15,7 +15,7 @@
 
 ## Idea
 
-Recall that a [[rig]] is a '[[ring]] without negatives': a [[monoid object]] in the category of [[commutative monoids]] with the usual [[tensor product]].  [[categorification|Categorifying]] this notion, we obtain various notions of [[2-rig]].  One of these, in which both "addition" and "multiplication" are represented by abstract [[monoidal category|monoidal structures]], is the notion of *rig category*, also known as a *bimonoidal category*.
+Recall that a [[rig]] is a '[[ring]] without negatives': a [[monoid object]] in the [[monoidal category]] of [[commutative monoids]] with the usual [[tensor product]].  [[categorification|Categorifying]] this notion, we obtain various notions of _[[2-rig]]_.  One of these, in which both "addition" and "multiplication" are represented by abstract [[monoidal category|monoidal structures]], is the notion of *rig category*, also known as a *bimonoidal category*.
 
 A typical example would be the [[groupoid]] of [[finite set|finite sets]] and [[bijection|bijections]], with [[disjoint union]] playing the role of addition and [[cartesian product]] playing the role of multiplication.  This rig category can be thought of as a categorification of the set of [[natural numbers]].  Note that in this example, disjoint union is _not_ the categorical [[coproduct]], and product of sets is _not_ the categorical [[product]] (because we are working in the *groupoid* of finite sets).
 
@@ -29,11 +29,7 @@ $$ d_\ell : x \otimes (y \oplus z) \to
 $$ d_r : (x \oplus y) \otimes z \to 
 (x \otimes z) \oplus (y \otimes z) $$
 
-satisfying a set of coherence laws worked out by Kelly and Laplaza (see references).
-
-* M. Laplaza, Coherence for distributivity, _Lecture Notes in Mathematics_ **281**, Springer Verlag, Berlin, 1972, pp. 29-72.
-
-* G. Kelly, Coherence theorems for lax algebras and distributive laws, _Lecture Notes in Mathematics_ *420*, Springer Verlag, Berlin, 1974, pp. 281-375. 
+satisfying a set of coherence laws worked out in ([Laplaza 72](#Laplaza72)) and ([Kelly74](#Kelly74)).
 
 Note that these authors used the term 'ring category'.  We take the liberty of switching to 'rig category' because it is typical for these to lack additive inverses.
 
@@ -47,7 +43,7 @@ In between, we have the notion of [[distributive monoidal category]], where $\op
 
 ## Baez's conjecture
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ###### Conjecture ([[John Baez]])
 
 Using the correct definition of the 2-category of symmetric rig categories, the groupoid $FinSet^{\times}$ of finite sets and bijections is the [[initial object|initial]] symmetric rig category, just as $\N$ is the initial commutative rig.   Note that a suitably weakened concept of 'initial' is needed here; see [[2-limit]].  In other words, given any symmetric rig category $R$, there is a unique symmetric rig morphism $FinSet^{\times} \to R$, up to an [[equivalence]] which is itself unique up to an [[isomorphism]] which is actually unique (up to [[equality]]).
@@ -76,8 +72,10 @@ Using the correct definition of the 2-category of symmetric rig categories, the 
 The [[coherence law|coherence]] for the [[distributivity law]] in bimonoidal categories has been given in
 
 * M. Laplaza, _Coherence for distributivity_, Lecture Notes in Mathematics 281, Springer Verlag, Berlin, 1972, pp. 29-72.
+ {#Laplaza72}
 
 * G. Kelly, _Coherence theorems for lax algebras and distributive laws_, Lecture Notes in Mathematics 420, Springer Verlag, Berlin, 1974, pp. 281-375.
+ {#Kelly74}
 
 where these categories are called _ring categories_. Discussion with an eye towers the [[K-theory of a bipermutative category]] is in
 
