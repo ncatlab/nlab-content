@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* tic
+* table of contents
 {: toc}
 
 ## Idea ##
@@ -41,6 +41,7 @@ One thing to beware of is that even for structures whose free-algebra coherence 
 
 
 ## List of coherence theorems
+ {#ListOfTheorems}
 
 * [[coherence theorem for monoidal categories]]
 * [[coherence theorem for symmetric monoidal categories]]
@@ -86,6 +87,14 @@ See [[club]].
 
 
 ## References
+
+An account of some of the history of (proofs of) coherence theorems is at 
+
+* [linear type theory -- History of categorical semantics](linear+type+theory#HistoryCategoricalSemantics) .
+
+For specific references see at the above sub-entries in the [List of coherence theorems](#ListOfTheorems).
+
+See also
 
 * [[Steve Lack]], Codescent objects and coherence, [MR](http://www.ams.org/mathscinet-getitem?mr=1935980)
 
