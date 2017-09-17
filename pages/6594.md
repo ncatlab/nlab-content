@@ -27,14 +27,14 @@ _Higher Cartan geometry_ is the generalization of [[Cartan geometry]] to [[highe
 
 It is the globalized version of [[higher Klein geometry]].
 
-As Cartan geometry is a special case of the theory of [[principal connections]], so higher Cartan geometry is a special case of the theory of [[connection on an ∞-bundle|∞-connection]] on [[principal ∞-bundles]].
+As Cartan geometry is a special case of the theory of [[principal connections]], so higher Cartan geometry is a special case of the theory of [[connection on an ∞-bundle|∞-connections]] on [[principal ∞-bundles]].
 
 ## Definition
 
 > Here is an evident proposal. Needs to be refined somewhat.
 
 
-Let $\mathfrak{h} \to \mathfrak{g}$ be a morphism of [[L-∞ algebra]]s. Write $i : \mathbf{B}H \to \mathbf{B}G$ for a [[Lie integration]] to a moprhism of [[smooth ∞-groups]]. 
+Let $\mathfrak{h} \to \mathfrak{g}$ be a morphism of [[L-∞ algebra]]s. Write $i : \mathbf{B}H \to \mathbf{B}G$ for a [[Lie integration]] to a morphism of [[smooth ∞-groups]]. 
 Notice that this defines a [[higher Klein geometry]]
 
 $$
