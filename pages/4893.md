@@ -33,7 +33,7 @@ $$
   \eta : C_{(n-1)} \to D^{\Delta^1}
 $$
 
-on the strict $(n-1)$-category obtained from $C$ by discarding the $n$-cells.  (Of course, not every such $(n-1)$-functor determines such a transformation; the missing condition is "naturality" at the top level.)
+on the strict $(n-1)$-category obtained from $C$ by discarding the [[n-morphism]]s.  (Of course, not every such $(n-1)$-functor determines such a transformation; the missing condition is "naturality" at the top level.)
 
 Analogous statements hold for general (weak) [[n-categories]], although they are more complicated to formulate; see below.
 
