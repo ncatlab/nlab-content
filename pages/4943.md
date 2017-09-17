@@ -16,7 +16,7 @@
 
 ## Definition 
 
-A [[subset]] $S \subset X$ of a [[real number|real]] [[affine space]] $X$ is **convex** if for any two points $x,y \in S$, also the straight line segment connecting $x$ with $y$ in $X$ is contained in $S$.  In other words, for any $x,y\in S$, and any $t\in [0,1]$, we have also $t x + (1-t) y \in S$.
+A [[subset]] $S$ of a [[real number|real]] [[affine space]] $X$ is **convex** if for any two points $x,y \in S$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $S$.  In other words, for any $x,y\in S$, and any $t\in [0,1]$, we have also $t x + (1-t) y \in S$.
 
 ## Properties
 
