@@ -178,7 +178,7 @@ $$
   X \to J^0 \stackrel{d^0}{\to} \cdots \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n
 $$
 
-has been constructed, where all the $J^\cdot$ are injective objects. Froming the [[cokernel]] of $d^{n-1}$ yields the [[short exact sequence]]
+has been constructed, where all the $J^\cdot$ are injective objects. Forming the [[cokernel]] of $d^{n-1}$ yields the [[short exact sequence]]
 
 $$
   0 \to J^{n-1} \stackrel{d^{n-1}}{\to} J^n \stackrel{p}{\to} J^n/J^{n-1} \to 0
@@ -227,7 +227,7 @@ $$
 
 such that all the $J_\cdot$ are [[projective objects]]. 
 
-This we we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
+This we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
 
 In the first step, by the assumption of enough projectives we find a projective object $J_0$ and an [[epimorphism]]
 
@@ -257,7 +257,7 @@ $$
   0
 $$
 
-has been constructed, where all the $J_\cdot$ are projective objects. Froming the [[kernel]] of $\partial_{n-1}$ yields the [[short exact sequence]]
+has been constructed, where all the $J_\cdot$ are projective objects. Forming the [[kernel]] of $\partial_{n-1}$ yields the [[short exact sequence]]
 
 $$
   0 \to ker(\partial_{n-1})
