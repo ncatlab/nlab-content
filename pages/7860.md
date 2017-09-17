@@ -1,0 +1,46 @@
+key|Key
+wp|Wikipedia entry
+name|Name of the category
+desc|Description of the category
+small|Whether the category is a set
+locally small|Whether there is a Hom-functor|http://ncatlab.org/nlab/show/locally+small
+concrete|Concreteness
+abelian|Abelian|http://ncatlab.org/nlab/show/abelian+category
+topos|Whether it is a topos|http://ncatlab.org/nlab/show/topos
+skeleton|Skeletons|http://ncatlab.org/nlab/show/skeleton
+imp_monoidal|Important monoidal structures (tensor products)|http://ncatlab.org/nlab/show/monoidal+category
+imp_enrich|Important Enrichments|http://ncatlab.org/nlab/show/enriched+category
+imp_adj|Important Adjoints|http://ncatlab.org/nlab/show/adjoint+functor
+imp_equ|Important Equivalences
+sub_cats|Subcategories
+sup_cats|Supcategories
+Mono|Monomorphisms|http://ncatlab.org/nlab/show/monomorphism
+Epi|Epimorphisms|http://ncatlab.org/nlab/show/epimorphism
+Ext-Mono|Extremal Monomorphisms|http://ncatlab.org/nlab/show/extremal+monomorphism
+Ext-Epi|Extremal Epimorphisms|http://ncatlab.org/nlab/show/extremal+epimorphism
+Reg-Mono|Regular Monomorphisms|http://ncatlab.org/nlab/show/regular+monomorphism
+Reg-Epi|Regular Epimorphisms|http://ncatlab.org/nlab/show/regular+epimorphism
+Eq|Equalisers of any two morphisms
+Co-Eq|Co-Equalisers of any two morphisms
+Co-Retr|Co-Retractions/Sections|http://ncatlab.org/nlab/show/sectino
+Retr|Retractions|http://ncatlab.org/nlab/show/retraction
+Bim|Bimorphisms
+Iso|Isomorphisms|http://ncatlab.org/nlab/show/isomorphism
+Const|Constant Morphisms
+Co-Const|Co-Constant Morphisms
+Null|Null Morphisms
+Gen|Generators|http://ncatlab.org/nlab/show/generator
+Co-Gen|Co-Generators|http://ncatlab.org/nlab/show/cogenerator
+Init|Initial Objects
+Term|Terminal Objects
+Zero|Zero Objects
+Empty|Empty Objects
+Co-Empty|Co-Empty Objects
+Strong-Init|Strong initial objects
+Strong-Term|Strong terminal objects
+Prod|Products
+Co-Prod|Co-Products
+Equal|Equalisers
+Co-Equal|Co-Equalisers
+complete|Are there (finite, small) limits?
+co-complete|Are there (finite, small) co-limits?|http://ncatlab.org/nlab/show/complete+category
