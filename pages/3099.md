@@ -34,7 +34,7 @@ to the [[2-category]] [[Grpd]].
 
 ### $(\infty,1)$-categorical
 
-Generally, an **$\infty$-species** or **homotopical species** is an [[(∞,1)-presheaf]] of $core(FinSet)$, i.e. an [[(∞,1)-functor]]
+Generally, an **$\infty$-species** or **homotopical species** is an [[(∞,1)-presheaf]] on $core(FinSet)$, i.e. an [[(∞,1)-functor]]
 
 $$
   core(FinSet)^{op} \to \infty Grpd
@@ -50,6 +50,8 @@ $$
 $$
 
 ### Operations on species
+
+There are in fact 5 important monoidal structures on the category of species.  For a discussion of all five, you'll currently have to read about [[Schur functors]], where these operations are discussed in the context of $Fin\Vect$-valued species, i.e. $Fin\Vect$-valued presheaves on the groupoid of finite sets.  But here here are two:
 
 #### Sum
 
