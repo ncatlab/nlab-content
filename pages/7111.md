@@ -57,6 +57,8 @@ The [[category]] of **$k$-affinoid spaces** is the [[opposite category]] of the 
 
 =--
 
+Via the [[analytic spectrum]] there is a [[topological space]] associated with any $k$-affinoid space.
+ 
 +-- {: .num_defn}
 ###### Definition
 
@@ -73,7 +75,7 @@ See [Berkovich 98, paragraph 2](#BerkovichReview).
 ### Local contractibility
  {#LocalContractibility}
 
-An [[complex numbers|complex]] analytic space is locally isomorphic to a [[polydisk]] and hence is trivially a [[locally contractible space]]. But over a [[non-archimedean field]] analytic spaces no longer need to be locally isomorphic to polydisks (but $p$-adic polydisks are still contractible ([Berkovich 90](#Berkovich90))). The following result establishes under mild conditions, that general analytic spaces are nevertheless locally contractible.
+A [[complex numbers|complex]] analytic space is locally isomorphic to a [[polydisk]] and hence is trivially a [[locally contractible space]]. But over a [[non-archimedean field]] analytic spaces no longer need to be locally isomorphic to polydisks (but $p$-adic polydisks are still contractible ([Berkovich 90](#Berkovich90))). The following result establishes under mild conditions, that general analytic spaces are nevertheless locally contractible.
 
 
 
@@ -117,6 +119,9 @@ A more detailed set of lecture notes along these lines is
 
 * [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
+The Berkovich spectrum is discussed around section 2.1.4 in the course notes
+
+* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
 
 
 ### Original articles
@@ -134,3 +139,6 @@ Discussion of local contractibility of smooth $k$-analytic spaces is in
 * [[Vladimir Berkovich]], _Smooth p-adic analytic spaces are locally contractible. II_, in Geometric Aspects of Dwork Theory, Walter de Gruyter & Co., Berlin, (2004), 293-370. ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Dworkvol_2004_contraII.pdf))
 
 [[!redirects analytic spaces]]
+
+[[!redirects p-adic analytic space]]
+[[!redirects p-adic analytic spaces]]
