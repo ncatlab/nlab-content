@@ -101,7 +101,11 @@ For various applications one uses toposes that have [[stuff, structure, property
 
 The analogs of topos theory in [[higher category theory]] is [[higher topos theory]]. 
 
-A well developed case is that of [[(∞,1)-topos]]es.
+* A well developed case is that of [[(∞,1)-topos]]es.
+
+* A bit of theory also exists for [[2-topos]]es.
+
+
 
 ## References {#References}
 
