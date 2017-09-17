@@ -41,7 +41,7 @@
 
 * [[Lie theory]]
 
-  * [[Lie integration]]
+  * [[Lie integration]], [[Lie differentiation]]
 
   * [[Lie's three theorems]]
 
