@@ -48,7 +48,7 @@
 
 ## References
 
-* Wikipediam _[Observable universe](http://en.wikipedia.org/wiki/Observable_universe)_
+* Wikipedia _[Observable universe](http://en.wikipedia.org/wiki/Observable_universe)_
 
 A visualization of the big observable structures in the universe, drawn to scale, is in 
 
@@ -57,3 +57,9 @@ A visualization of the big observable structures in the universe, drawn to scale
 A simulation of these is at
 
 * _[The Millennium Simulation Project](http://www.mpa-garching.mpg.de/galform/virgo/millennium/)_
+
+Survey and exposition of aspects of organizing the large-scale structure of the universe are at
+
+* Wikipedia, _[The cosmic distance ladder](http://en.wikipedia.org/wiki/Cosmic_distance_ladder)_
+
+* [[Terence Tao]], _[The cosmic distance ladder](http://terrytao.wordpress.com/2007/05/31/the-cosmic-distance-ladder/)_
