@@ -9,12 +9,12 @@ In an [[associated bundle]] with [[connection]] the _covariant derivative_ of a 
 
 ## Definition
 
-Let $G$ be a [[Lie group]], $V$ a [[smooth manifold]] and $\rho : G \tmes V \to V$ a smooth [[action]]. Write $V//G$ for the corresponding [[action groupoid]], itself a Lie groupoid. 
+Let $G$ be a [[Lie group]], $V$ a [[smooth manifold]] and $\rho : G \times V \to V$ a smooth [[action]]. Write $V//G$ for the corresponding [[action groupoid]], itself a Lie groupoid. 
 
 +-- {: .un_lemma}
 ###### Observation
 
-The [[Chevalley-Eilenberg algebra]] of the corresponding [[Lie algebroid]] $Lie(V((G)$ -- the [[action Lie algebroid]] -- is 
+The [[Chevalley-Eilenberg algebra]] of the corresponding [[Lie algebroid]] $Lie(V//G)$ -- the [[action Lie algebroid]] -- is 
 
 $$
   CE(Lie(V//G)) = (\wedge^\bullet_{C^\infty(V)} \mathfrak{g}^*, d_{\rho})
