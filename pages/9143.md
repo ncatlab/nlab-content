@@ -1,0 +1,7 @@
+
+
+[[Fivebrane structure ]] $\to$ [[String structure]] $\to$ [[Spin structure]] $\to$ [[orientation structure]] $\to$ [[orthogonal structure]]
+
+[[!redirects higher spin structures]]
+[[!redirects higher Spin structure]]
+[[!redirects higher Spin structures]]
