@@ -193,8 +193,10 @@ Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H}
 
 
 ### Properties
+ {#Properties}
 
 #### From $\infty$-sheaves over infinitesimal neighbourhood sites
+ {#PresentationOnInfinitesimalNeighbourhoodSites}
 
 We give a presentation of classes of infinitesimal neighbourhoods by [[simplicial presheaves]] on suitable [[site]]s.
 
