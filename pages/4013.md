@@ -2,7 +2,8 @@ In a discussion with Vaughan Pratt on the categories mailing list, Peter Freyd g
 
 Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. 
 
-## Definition of AT category
+
+## Definition
 
 Freyd introduces some baseline assumptions on the categories in question: 
 
@@ -24,7 +25,7 @@ The sharp dichotomy which separates A from T is concentrated in the following de
 
 +-- {: .un_def}
 ######Definition
-Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \times X \to X$ be the two product projections. We say $X$ is of **type T** if $pi_1$ is an isomorphism, and **type A** if $\pi_2$ is an isomorphism.
+Let $0$ be the initial object, and let $\pi_1: 0 \times X \to 0$, $\pi_2: 0 \times X \to X$ be the two product projections. We say $X$ is of **type T** if $\pi_1$ is an isomorphism, and **type A** if $\pi_2$ is an isomorphism.
 =--
 
 A pretopos will turn out to be precisely an AT category in which every object is of type T, and an abelian category will turn out to be an AT category where every object is of type A. 
@@ -129,3 +130,9 @@ If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$.
 ######Proof
 There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in bijection with maps $A \to 0 \times T \cong 0$, of which there is exactly one. 
 =-- 
+
+
+[[!redirects AT category]]
+[[!redirects AT categories]]
+[[!redirects AT-category]]
+[[!redirects AT-categories]]
