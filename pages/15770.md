@@ -1,3 +1,13 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -5,7 +15,29 @@
 
 ## Idea
 
-[[moduli space]] of [[framed manifolds]]
+The [[moduli space]] $\mathcal{M}^{fr}_{\Sigma}$ of [[framed manifolds|framings]] on a given [[manifold]] $\Sigma$.
+
+
+The [[homotopy type]] of the [[connected component]] of any fixed [[framed manifold|framing]] $\phi$ is 
+
+$$
+  {\vert \mathcal{M}^{fr}_{\Sigma} \vert}_\phi \simeq B \Gamma^{fr}(\Sigma,\phi)
+  \,,
+$$
+
+where $\Gamma^{fr}(\Sigma,\phi)\hookrightarrow \Gamma(\Sigma, or(\phi))$ is the [[subgroup]] of the [[mapping class group]] of $\Sigma$ (for the given [[orientation]]) which fixe the [[isotopy]] class of the framing $[\phi]$. 
+
+In particular this is a [[homotopy 1-type]] for every $\phi$, and so the whole
+
+$$
+  {\vert \mathcal{M}^{fr}_{\Sigma} \vert} 
+  =
+  \underset{[\phi]}{\coprod} {\vert \mathcal{M}^{fr}_{\Sigma} \vert}_\phi 
+$$
+
+is a homotopy 1-type.
+
+([Randal-Williams 10, section 1.1, 2.2](#RandalWilliams10))
 
 ## Related concepts
 
