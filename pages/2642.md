@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -26,4 +37,6 @@ A representation that has proper nontrivial subrepresentations but can not be de
 
 [[!redirects irrep]]
 [[!redirects irreps]]
+
+
 
