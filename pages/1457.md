@@ -20,7 +20,13 @@ Given a metric space $(X, d)$ and a point $x \in X$, the _open ball_ centered at
 $$B_r(x) = \{y \in X: d(x, y) \lt r\}$$ 
 and it may be shown that the open balls form a basis for a [[topological space|topology]] on $X$. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of completion of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
 
-As topological spaces, metric spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], regular, and even normal. They are also paracompact. 
+## Metrizable spaces
+
+A **metrizable space** is a topological space $X$ which admits a metric such that the metric topology agrees with the topology on $X$. In general, many different metrics (in the sense of giving different [[uniform space|uniform structures]]) may give rise to the same topology; nevertheless, metrizability is manifestly a topological notion. 
+
+Metrizable spaces enjoy a number of separation properties: they are [[Hausdorff space|Hausdorff]], regular, and even normal. They are also paracompact. 
+
+Metrizable spaces are closed under topological coproducts and of course subspaces (and therefore equalizers); they are closed under countable products but not general products (since normal spaces are not closed under general topological products; for instance, a product of uncountably many copies of $\mathbb{R}$ is not a normal space). 
 
 # Variations #
 
