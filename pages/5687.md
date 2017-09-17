@@ -19,7 +19,7 @@
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A _simplicial topological group_ is a [[simplicial object]] in the [[category]] of [[topological groups]].
@@ -34,7 +34,7 @@ For various applications the ambient category [[Top]] of [[topological space]]s 
 
 We take [[Top]] to be the category of [[k-space]]s in the following.
 
-+-- {: .un_def #WellPointedSimplicialTopologicalGroup}
++-- {: .num_defn #WellPointedSimplicialTopologicalGroup}
 ###### Definition
 
 A simplicial topological group $G$ is called **well-pointed** if for $*$ the trivial simplicial topological group and $i : * \to G$ the unique [[homomorphism]], all components $i_n : * \to G_n$ are [[closed cofibration]]s.
@@ -44,10 +44,10 @@ A simplicial topological group $G$ is called **well-pointed** if for $*$ the tri
 For $B \in Top$ a fixed base object, it is often desirable to work in "$B$-parameterized families", hence in the [[over-category]] $Top/B$ (see [MaySigurdson](#MaySigurdson)). There is the 
 [[Strøm model structure|relative Strøm model structure]] on $Top/B$.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
-A simplicial group in $G$ in $Top/B$ is called **well-sectioned** if for $B$ the trivial simplicial topological group over $B$ and $i : B \to G$ the unique [[homomorphism]], all components $i_n : B \to G_n$ are $\bar f$-cofibration.
+A simplicial group in $G$ in $Top/B$ is called **well-sectioned** if for $B$ the trivial simplicial topological group over $B$ and $i : B \to G$ the unique [[homomorphism]], all components $i_n : B \to G_n$ are $\bar f$-cofibrations.
 
 =--
 
@@ -57,7 +57,7 @@ A simplicial group in $G$ in $Top/B$ is called **well-sectioned** if for $B$ the
 
 Recall for a [[discrete group|discrete]] [[simplicial group]] $G$ the notation $\bar W G \to W G$ for the [[Kan complex]] presentation of the [[universal principal infinity-bundle]] $\mathbf{E}G \to \mathbf{B}G$ from [[simplicial group]]. These constructions for discrete simplicial groups have immediate analogs for simplicial topological groups.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $G$ be a simplicial topological group. Write $\bar W G \in Top^{\Delta^{op}}$ for the [[simplicial topological space]] whose topological space of $n$-[[simplices]] is the [[product]]
@@ -70,7 +70,7 @@ in [[Top]], equipped wwith the evident (...) face and degeneracy maps.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 We say a morphism $f : X \to Y$ of [[simplicial topological space]]s is a **global Kan fibration** if for all $n \in \mathbb{N}$ and $0 \leq k \leq n$ the canonical morphism
@@ -97,7 +97,7 @@ into the [[topological space]] of $k$th $n$-[[horn]]s admits a [[section]].
 
 This global notion of Kan simplicial spaces is considered for instance in ([BrownSzczarba](#BrownSzczarba)) and ([May](#May)).
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $G$ be a simplicial topological group. Then 
@@ -118,7 +118,7 @@ The first statement appears as ([BrownSzczarba, theorem 3.8](#BrownSzczarba)), t
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $G$ is a [well-pointed](#WellPointedSimplicialTopologicalGroup) simplicial topological group, then
