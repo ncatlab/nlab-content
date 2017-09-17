@@ -48,7 +48,7 @@ $$
 is the $GL_1(R)$-principal $\infty$-bundle $P \to X$ classified by that map.
 
 
-**Example** For $R = \mathbb{R}$ the [[sphere spectrum]], we have that $GL_1(\mathbb{S})$ is the [[classifying space]] for spherical fibrations.
+**Example** For $R = \mathbb{S}$ the [[sphere spectrum]], we have that $GL_1(\mathbb{S})$ is the [[classifying space]] for spherical fibrations.
 
 **Example** There is a canonical morphism
 
@@ -69,7 +69,7 @@ which sends each fiber to its [[one-point compactification]].
 
 #### $GL_1(R)$-associated $\infty$-bundles
 
-For $P \to X$ a $GL_1(R)$-[[principal ∞-bundle]] there is canonically the corresponding [[associated ∞-bundle]] with fiber $R$. More precisely, define in the [[stable (∞,1)-category]] $Stab(Top)$ of [[spectra]]
+For $P \to X$ a $GL_1(R)$-[[principal ∞-bundle]] there is canonically the corresponding [[associated ∞-bundle]] with fiber $R$. Precisely, in the [[stable (∞,1)-category]] $Stab(Top)$ of [[spectra]], regarded as the [[stabilization]] of the [[(∞,1)-topos]] [[Top]]
 
 
 $$
@@ -78,7 +78,7 @@ $$
   Top
 $$
 
-the associated bundle is [[smash product]] over $\Sigma^\infty GL_1(R)$
+the associated bundle is the [[smash product]] over $\Sigma^\infty GL_1(R)$
 
 $$
   X^\zeta := \Sigma^\infty P \wedge_{\Sigma^\infty GL_1(R)} R
@@ -92,7 +92,7 @@ An $E$-orientation of a vector bundle $V \to X$ is a trivialization of the $E$-m
 **Proposition** For $f : R \to S$ a morphism of $E_\infty$-rings, and $\zeta : X \to B GL_1(R)$ the classifying map for an $R$-bundle, the corresponding associated $S$-bundle classified by the composite
 
 $$
-  X \stacktel{\zeta}{ \to } B GL_1(R) \stackrel{f}{\to} B GL_1(S)
+  X \stackrel{\zeta}{ \to } B GL_1(R) \stackrel{f}{\to} B GL_1(S)
 $$
 
 is given by the [[smash product]]
