@@ -35,15 +35,34 @@ $$
   \,.
 $$
 
+
+
 ## Examples
 
-### Higher dimensional Chern-Simons theories
+### In ordinary cohomology
 
-For the case that the cohomology in question is [[ordinary differential cohomology]], the [[diagonal]] of the intersection pairing is the [[action functional]] of abelian [[higher dimensional Chern-Simons theory]].
+The [[signature of a quadratic form]] of the [[quadratic form]] induced by the intersection pairing in [[integral cohomology]] is the _[[signature genus]]_.
+
+
+### In ordinary differential cohomology: higher abelian Chern-Simons theory
+
+For the case that the cohomology in question is [[ordinary differential cohomology]], a [[cocycle]] in degree $k$ is a [[circle n-bundle with connection|circle (k-1)-bundle with connection]], and the required notion of orientation is now _[[orientation in differential cohomology]]_: a [[differential Thom class]].  The [[diagonal]] of the intersection pairing in this case is the [[action functional]] of quadratic abelian [[higher dimensional Chern-Simons theory]].
+
+Its [[quadratic refinement]] is discussed in 
+([Hopkins-Singer](#HopkinsSinger)).
+
+
 
 ## Related concepts
 
 [[!include quadratic invariants - table]]
 
+
+## References
+
+Discussion of the intersection pairing in [[ordinary differential cohomology]] and especially its [[quadratic refinement]] is in 
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ {#HopkinsSinger}
 
 [[!redirects intersection pairings]]
