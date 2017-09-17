@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Motivic cohomology
++--{: .hide}
+[[!include motivic cohomology - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,7 +22,9 @@
 
 * [[zeta function]]
 
-* [[multiple zeta values]], [[motive]]
+* [[multiple zeta values]]
+
+* [[motive]], [[motives in physics]]
 
 ## References
 
@@ -29,3 +46,5 @@ Of the [[superstring]]:
 In [[N=4 D=4 super Yang-Mills theory]]:
 
 * Marcus Spradlin, Anastasia Volovich, _Symbols of One-Loop Integrals From Mixed Tate Motives_ ([arXiv:1105.2024](http://arxiv.org/abs/1105.2024))
+
+See also at _[[motives in physics]]_.
