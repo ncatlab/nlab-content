@@ -89,6 +89,8 @@ More along these lines is in
 * [[Hugo Herbelin]], _A dependently-typed construction of semi-simplicial types_ (March 2013) ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semi-simplicial.pdf/416038766/semi-simplicial.pdf))
 
 
+* [[Bruno Barras]], [[Thierry Coquand]], Simon Huber, _A generalization of Takeuti-Gandy Interpretation_  ([pdf](https://uf-ias-2012.wikispaces.com/file/view/semi.pdf))
+
 [[!redirects semi-simplicial object]]
 [[!redirects semisimplicial object]]
 [[!redirects semi-simplicial objects]]
