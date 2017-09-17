@@ -61,6 +61,8 @@ $F\colon C \to D$ is **essentially surjective** if for every [[object]] $y$ of $
 
 * [[equivalence of categories]]
 
+* [[essentially surjective (∞,1)-functor]]
+
 [[!redirects essentially surjective functor]]
 [[!redirects essentially surjective functors]]
 [[!redirects essentially surjective on objects functor]]
