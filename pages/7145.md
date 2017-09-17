@@ -1,7 +1,7 @@
 
 Some concepts that go by the name _monad_ but are otherwise unrelated:
 
-* [[monad]] (in [[category theory]]) and [[monad (in programming theory)]]
+* [[monad]] (in [[category theory]]) and [[monad (in computer science)]]
 
 * [[Beilinson monad]]
 
