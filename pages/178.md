@@ -1304,7 +1304,7 @@ picks out the [[Ehresmann connection]] form on $P$.
 
 #### Strict Lie 2-groups {#StrictLie2Groups}
 
-Let now $G = \Xi[G_2 \to G_1]$ be a strict [[Lie 2-group]] coming from a smooth  [[crossed module]] $G_2 \to G_1 \to Aut(G_2)$.
+Let now $G = \Xi[G_2 \to G_1]$ be a strict [[Lie 2-group]] coming from a smooth  [[crossed module]] $G_2 \stackrel{\delta}{\to} G_1 $ with action $\alpha : G_1 \to Aut(G_2)$.
 
 ##### Delooping {#StrictLie2GroupsDelooping}
 
@@ -1323,22 +1323,21 @@ $$
 +-- {: .proof}
 ###### Proof
 
-As above.
+As [above](#LieGroupsDelooping) for Lie groups.
 
 =--
 
 
 ##### Differential coefficients {#DiffCoeffsForLie2Group}
 
-Write $[\mathfrak{g}_2 \stackrel{\delta}{\to} \mathfrak{g}_1]$ for the [[differential crossed module]] corresponding to the Lie [[strict 2-group]] $(G_2 \to G_1)$, regarded as an [[L-∞-algebra]]. Write $CE(\mathfrak{g}_2 \to \mathfrak{g}_1)$ for the corresponding [[Chevalley-Eilenberg algebra]].
-
+Write $[\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1]$ for the [[differential crossed module]] with action $\alpha_* : \mathfrak{g}_1 \to der(\mathfrak{g}_2)$ corresponding to the Lie [[strict 2-group]] [[crossed module]] $(G_2 \stackrel{\delta}{\to} G_1)$ with action $\alpha : G_1 \to Aut(G_2)$. 
 
 +-- {: .un_prop }
 ###### Proposition
 
-The $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} G_1]$ is represented in $[CartSp^{op}, sSet]$ by the Lie [[2-groupoid]] which on $U \in CartSp$ s the following 2-groupoid:
+The Lie [[2-groupoid]] $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} G_1]$ is represented in $[CartSp^{op}, sSet]$ by the Lie [[2-groupoid]] which on $U \in CartSp$ s the following 2-groupoid:
 
-* an [[object]] is a pair 
+* An [[object]] is a pair 
 
   $$
     A \in \Omega^1(U,\mathfrak{g}_1)\,, \;\;\;
@@ -1348,7 +1347,7 @@ The $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} 
   such that 
 
   $$
-    \delta_* B + d A + [A \wedge A] = 0
+    \delta_* B - d A + [A \wedge A] = 0
   $$
 
   and
@@ -1358,7 +1357,7 @@ The $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} 
     \,.
   $$
 
-* a [[morphism]] $(g,a) : (A,B) \to (A',B')$ is a pair
+* A 1-[[morphism]] $(g,a) : (A,B) \to (A',B')$ is a pair
 
   $$  
     g \in C^\infty(U,G_1)\,,\;\;\; a \in \Omega^1(U,\mathfrak{g}_2)
@@ -1367,14 +1366,30 @@ The $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} 
   such that
 
   $$
-    A' = g^{-1} A g + g^{-1} d g + \delta_* a
+    A' = g^{-1} A g + g^{-1} d g + g^{-1} \delta_* a g
   $$
 
   and
 
   $$
-    B' = \alpha(g)(B) + d a + [a \wedge a] + \alpha(A \wedge a)
-    \;
+    B' = \alpha_{g^{-1}}(
+      B + d a + [a \wedge a] + \alpha_*(A \wedge a)
+    )
+    \.
+  $$
+
+  The composite of two 1-morphisms
+
+  $$
+    (A,B) \stackrel{(g_1,a_1)}{\to} (A',B') \stackrel{(g_2,a_2)}{\to}
+    (A'', B'')
+  $$
+
+  is given by the pair
+
+  $$
+    (g_1 g_2, a_1 + (\alpha_{g_2})_* a_2)
+    \,.
   $$
 
 * a [[2-morphism]] $f : (\lambda,a) \to (\lambda', a')$ is a function
@@ -1386,13 +1401,13 @@ The $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}[G_2 \stackrel{\delta}{\to} 
   such that 
 
   $$
-    g' = g \delta(f)
+    g' = \delta(f)^{-1} \cdot g 
   $$
  
   and
 
   $$
-    a' = f^{-1} a f + f^{-1} d f + (f,A')
+    a' = f^{-1} d f + f^{-1} a f + f^{-1}(r_f^{-1} \circ \alpha_f)_*(a)f
   $$
 
 and composition is defined as follows
@@ -1401,9 +1416,7 @@ and composition is defined as follows
 
 =--
 
-Up to signs, prefactors and conventions.
-
-This is the 2-groupoid of (flat) [[Lie 2-algebra]] valued forms as described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of [SchrWalII](http://arxiv.org/abs/0802.0663). See there for details for the moment.
+This is the [[2-groupoid of Lie 2-algebra-valued forms]] as described in [definition 2.11](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v3.pdf#page=27) of [SchrWalII](http://arxiv.org/abs/0802.0663). There are many possible conventions. The above is supposed to describe the _bidual_ [[opposite 2-category]] of the 2-groupoid as defined in that article, with the direction of 1- and 2-morphisms reversed. 
 
 +-- {: .un_cor }
 ###### Corollary
