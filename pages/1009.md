@@ -246,6 +246,9 @@ is mostly used for in the literature.
 
       * [[Chern-Simons theory]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+
 ## References 
 
 The original reference is 
