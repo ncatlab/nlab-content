@@ -28,7 +28,7 @@ Hence in with [[linear logic]]/[[linear type theory]] interpreted as [[quantum l
 
 ## References
 
-* [[Paul-André Melliès]], _Functorial boxes in string diagrams_, 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
+* [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
  {#Mellies06}
 
 * Francois Lamarche, _Proof nets for intuitionistic linear logic: Essential nets_ ([pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf))
