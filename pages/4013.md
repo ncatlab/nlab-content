@@ -64,18 +64,6 @@ is a pullback, then it's also a pushout.
 
 1. In the full subcategory of type T objects, pushouts of pairs of morphisms, one of which is monic, are universal (i.e., stable under pullback). 
 
-+-- {: .query}
-Something has gone wrong in the modification of Freyd's axioms. This last condition never holds in a non-trivial abelian category. Consider the pushout
-$$\array{
-0 & \to & A \\
-\downarrow && \downarrow \\
-A & \to & A+A
-}$$
-and now pullback along the diagonal $A\to A+A$.
-
-[[Todd Trimble]]: Thanks Steve; of course you're right. I have made the necessary adjustments (really, just following Freyd), and I hope everything is now fixed. You can click on "See Changes" to see what I did. 
-=--
-
 1. Define a functor $T$ by the pushout diagram 
 $$\array{
 0 \times X & \stackrel{\pi_1}{\to} & 0 \\
