@@ -1,3 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 #Classical Morita theorem#
 
 Given rings $R$ and $S$, the following properties are equivalent
