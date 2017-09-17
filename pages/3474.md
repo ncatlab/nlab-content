@@ -5,7 +5,11 @@
 
 ## Idea
 
-This name is used for the [[fundamental group]] of a [[scheme]], as defined by [[Grothendieck]] in [[SGA1]].
+The _algebraic fundamental group_ is the [[fundamental group]] of a [[scheme]], as defined by [[Grothendieck]] in [[SGA1]]. It is essentially the fundamental group as seen by [[étale homotopy]].
+
+For [[fields]] this is essentially the [[Galois group]].
+
+In [[arithmetic geoemtry]] one also speaks of the _arithmetic fundamental group_.
 
 ##Definition
 
@@ -33,3 +37,13 @@ or in a lengthier form:
 *   [[Tamás Szamuely ]], Galois Groups and Fundamental Groups, Cambridge Studies in Advanced Mathematics, vol. 117, Cambridge University Press, 2009. 
 
 and earlier version is to be found [here](http://math.uchicago.edu/~aanders/books/szamuely_-_galois_groups_and_fundamental_groups.pdf).
+
+
+* Feng-Wen An, _On the arithmetic fundamental groups_ ([arXiv:0910.0605](http://arxiv.org/abs/0910.0605))
+
+
+[[!redirects algebraic fundamental groups]]
+
+[[!redirects arithmetic fundamental group]]
+[[!redirects arithmetic fundamental groups]]
+
