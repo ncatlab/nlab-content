@@ -1,0 +1,17 @@
+An image of a variety under a regular map is not necessarily a variety. A standard example is to take the map $\mathbf{A}^2\to\mathbf{A}^2$ which takes $(x,y)\mapsto (x,x y)$; the image of the affine plane consists of all points $(x,y)$ with $y\neq 0$ union $(0,0)$. This set is clearly not locally closed, hence not a quasiaffine subvariety of $\mathbf{A}^2$.
+
+However, the image of a variety under a regular map is always a [[constructible set]] (finite union of [[locally closed set]]s). More generally, 
+
+THEOREM. (Chevalley) If $f: X\to Y$ is a regular morphism of varieties and $S\subset X$ is a Zariski constructible set. Then $f(X)$ is also Zariski constructible. 
+
+More generally,
+
+Theorem ([[EGA]] IV 1.8.4.) If $f:X\to Y$ is a finitely presented morphism of schemes. Then the image of any constructible subset of $X$ under $f$ is a constructible subset of $Y$. 
+
+* MathOverflow [chevalleys-theorem-on-constructible-sets](http://mathoverflow.net/questions/80707/chevalleys-theorem-on-constructible-sets)
+
+The relation to the [[elimination of quantifiers]] for the theory of algebraically closed fields is discussed in 
+
+* D. Sustretov, blog: [model theory IV: algebraically closed fields and compact complex manifolds](http://shenme.de/blog/2012/08/28/model-theory-iv-algebraically-closed-fields-and-compact-complex-manifolds)
+
+category: algebraic geometry
