@@ -60,7 +60,7 @@ $$
   \,.
 $$
 
-
+[[adjoint lifting theorem]]
 
 category: meta
 
