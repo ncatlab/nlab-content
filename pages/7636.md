@@ -1,0 +1,87 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+To a large extent, [[type theory]] and [[category theory]] overlap or are equivalent. One may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory. 
+
+## Theorems
+
+We discuss here formalizations and proofs of the relation/equivalence between various flavors of type theories and the corresponding flavors of categories.
+
+* [First order logic and hyperdoctrines]
+ (#FirstOrderLogic)
+
+* [Dependent type theory and locally cartesian closed categories](#DependentTypeTheory)
+
+* [Homotopy type theory and locally cartesian closed (∞,1)-categories](#HomotopyTypeTheory)
+
+* [Homotopy type theory with univalence and elementary (∞,1)-toposes](#HomotopyWithUnivalence)
+
+### First-order logic and hyperdoctrines
+ {#FirstOrderLogic}
+
+(...)
+
+### Dependent type theory and locally cartesian closed categories
+ {#DependentTypeTheory}
+
+(...)
+
+### Homotopy type theory and locally cartesian closed $(\infty,1)$-categories
+ {#HomotopyTypeTheory}
+
+(...)
+
+### Homotopy type theory with univalence and elementary $(\infty,1)$-toposes
+ {#HomotopyWithUnivalence}
+
+(...)
+
+## References
+
+A systematic relation between type theory and category theory is discussed in 
+
+* [[Joachim Lambek]], P. Scott, _Introduction to higher order categorical logic_, Cambridge University Press (1986) .
+
+Chapter II in that book establishes that $Lang$ and $Cont$ form an [[adjunction]] between [[toposes]] and [[type theories]] with [[product types]] (they do not consider [[dependent types]]).
+
+The [[equivalence of categories]] between [[locally cartesian closed categories]] and [[dependent type theories]] is established in 
+
+* [[R. A. G. Seely]], _Locally cartesian closed categories and type theory_, Math. Proc. Camb. Phil. Soc. (1984) 95 ([pdf](http://www.math.mcgill.ca/rags/LCCC/LCCC.pdf))
+  {#Seely}
+
+proving a statement earlier conjectured in 
+
+* [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118.
+
+The analogous statement relating [[homotopy type theory]] and [[locally cartesian closed (infinity,1)-categories]] was conjectured around
+
+* [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
+ {#Joyal}
+
+The suggestion that with [[univalence]] this is refined to [[(∞,1)-topos theory]] appears around
+
+* [[Steve Awodey]], _Type theory and homotopy_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf))
+ {#Awodey}
+
+A precise definition of [[elementary (infinity,1)-topos]] inspired by giving a natural equivalence to [[homotopy type theory]] with [[univalence]] was then proposed in 
+
+* [[Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.math.ucsd.edu/~mshulman/hottminicourse2012/04induction.pdf))
+
