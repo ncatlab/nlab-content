@@ -292,6 +292,22 @@ The notion of right fibration of quasi-categories generalizes the notion of [[ca
 +-- {: .un_prop}
 ###### Proposition
 
+Over a [[Kan complex]] $T$, left fibrations $S \to T$ are automatically [[Kan fibration]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [[Higher Topos Theory|HTT, prop. 2.1.3.3]].
+
+=--
+
+As an important special case of this we have
+
++-- {: .un_corollary}
+###### Corollary
+
 For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan complex]], i.e. an [[∞-groupoid]].
 
 =--
@@ -299,7 +315,7 @@ For $C \to *$ a right (left) fibration over the [[point]], $C$ is a [[Kan comple
 +-- {: .proof}
 ###### Proof
 
-Due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT, prop. 1.2.5.1]].
+This is originally due to [[Andre Joyal]]. Recalled at [[Higher Topos Theory|HTT, prop. 1.2.5.1]].
 
 =--
 
