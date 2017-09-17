@@ -13,9 +13,13 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
-An [[internal hom]] in a [[(2,1)-topos]] of [[stacks]] or generally in an [[(∞,1)-topos]] of [[∞-stack]] is often called a **mapping stack**, in anlogy with _[[mapping space]]_.
+An [[internal hom]] in a [[(2,1)-topos]] of [[stacks]] or generally in an [[(∞,1)-topos]] of [[∞-stack]] is often called a **mapping stack** or **[[mapping ∞-stack]]**, in anlogy with _[[mapping space]]_.
 
 ## Properties
 
@@ -25,5 +29,9 @@ $$
  [X, A] \colon U \mapsto \mathbf{H}(X \times U, A)
   \,.
 $$
+
+## Related concepts
+
+* [[mapping ∞-stack]]
 
 [[!redirects mapping stacks]]
