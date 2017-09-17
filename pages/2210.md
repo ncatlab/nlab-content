@@ -217,7 +217,7 @@ For instance
     \cdots + t_i(x^{i+1} - x^{i-1} ) + \cdots    
   $$
 
-  which indeed corresponds to omission of the $i$point $x^i$.
+  which indeed corresponds to omission of the $i$th point $x^i$.
 
 =--
 
