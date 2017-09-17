@@ -334,10 +334,19 @@ This is ([Bergman, lemma 1.7](#Bergman)).
 +-- {: .proof}
 ###### Proof
 
-By the lemmas in the preliminaries, all the maps are given on representatives either by identities or by the structure maps of the double complex.
+By the lemmas in the preliminaries, all the maps are given on representatives either by identities or by the [[differentials]] of the double complex.
 
-Using this one, directly checks that for instance 
-the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manifestly the image of $C \to {}^\Box A \to A$. Exactness at the other positions is directly checked accordingly.
+**exactness at** $C_\Box \to A^{hor} \to A_\Box$.
+
+An element $[a] \in A^{hor}$ is in the kernel of $A^{hor} \to A_{Box}$ if there is $c$ and $d$ such that
+$a = \partial^{vert}c + \partial^{hor} d$. 
+The $c$ that satisfy this hence satisfy $\partial^{hor}\partial^{vert} c = 0$ and so the map $\partial^{hor} : C_\Box \to A^{hor}$ hits all of the kernel of $A^{hor}\to A_\Box$. Also it clearly hits at most this kernel. 
+
+**exactness at** $A^{hor} \to A_\Box \to {}^\Box B$.
+
+Suppose $[a] \in A_\Box$ is in the kernel of $A_\Box \to {}^\Box B$. This means that there is $c$ such that $\partial^{hor}a = \partial^{hor}\partial^{vert}c$, hence that $\partial^{hor} (a-\partial^{vert} c) = 0$. Hence $[a] = [a - \partial^{vert}c]$ is in the image of $A^{hor} \to A_{\Box}$. Conversely, clearly everything in that image in the kernel of $A_\Box \to {}^\Box B$.
+
+**and so forth**
 
 
 =--
@@ -345,8 +354,7 @@ the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manife
 ### Intramural and extramural isomorphisms
  {#IntraExtramuralIsomorphisms}
 
-The following two statements are direct concequences of the 
-salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps from the _[Preliminaries](#Preliminaries)_ to be [[isomorphisms]].
+The following two statements are direct concequences (special cases) of the salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps from the _[Preliminaries](#Preliminaries)_ to be [[isomorphisms]]. All of of the standard [[diagram chasing lemmas]] in [[homological algebra]] follows in a natural way from combining these _intramural isomorphisms_ with long zigzags of thse _extramural isomorphisms_. This is discussed below in _[The basic diagram chasing lemmas](#Implications)_.
 
 +-- {: .num_cor #ExtramuralIso}
 ###### Corollary
@@ -383,10 +391,10 @@ It is straightforward to check this directly on elements:
 +-- {: .proof}
 ###### Proof
 
-If is sufficient to show that under the given assumptions both the [[kernel]] and the [[cokernel]] of the given map are trivial.
+It is sufficient to show that under the given assumptions both the [[kernel]] and the [[cokernel]] of the given map are trivial.
 We discuss the horizontal case. The proof of the vertical case is verbatim the same, only with the roles of $\partial^{vert}$ and $\partial^{hor}$ exchanged.
 
-  Suppose an element $[a] \in A_{Box}$ is in the kernel of $\partial^{hor} : A_{\Box} \to {}^\Box B$. This means that there is $c$ such that  $\partial^{hor} \partial^{vert} c = \partial^{hor} a$, hence such that $\partial^{hor}(a- \partial^{vert} c) = 0$. By assumption that  $A^{hor} = 0$ this means that there is $d$ such that  $a - \partial^{vert} c = \partial^{hor} d$. But this means that $a \in im(\partial^{hor}) \oplus im(\partial^{vert})$ and hence $[a] = 0$.
+  Suppose an element $[a] \in A_{Box}$ is in the kernel of $\partial^{hor} : A_{\Box} \to {}^\Box B$. By definition of ${}^\Box B$ this means that there is $c$ such that  $\partial^{hor} \partial^{vert} c = \partial^{hor} a$, hence such that $\partial^{hor}(a- \partial^{vert} c) = 0$. By assumption that  $A^{hor} = 0$ this means that there is $d$ such that  $a - \partial^{vert} c = \partial^{hor} d$. But this means that $a \in im(\partial^{hor}) \oplus im(\partial^{vert})$ and hence $[a] = 0$ in $A_\Box$.
 
   Conversely, consider $[b] \in {}^\Box B$. This means that $\partial^{vert}b = 0$ and $\partial^{hor} b = 0$. By $B^{hor} = 0$ the second condition means that there is $a$ such that $b = \partial^{hor} a$. 
 Moreover, this $a$ satisfies $\partial^{vert}\partial^{hor} a = \partial^{vert} b = 0$ by the first condition. Therefore $[a] \in A_{\Box}$ and $[b]$ is its image.
@@ -413,7 +421,7 @@ This being exact says that the map in the middle has vanishing [[kernel]] and [[
 ###### Corollary
 **(intramural isomorphisms)**
 
-In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ or $\partial : B \to A$ is [[exact sequence|exact]] at $B$, then the two intramural maps from lemma \ref{Intramural},  shown in each case on the right, are [[isomorphisms]]:
+In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ or $\partial : B \to A$ is [[exact sequence|exact]] at $B$ as indicated in the following, then the two intramural maps from lemma \ref{Intramural},  shown in each case on the right, are [[isomorphisms]]:
 
 1. $$
      \array{
@@ -425,7 +433,7 @@ In each of the situations in a double complex shown below, if the direction _per
        \\
        && \downarrow^{\mathrlap{\partial}} && \downarrow
        \\
-       0 &\hookrightarrow& B &\stackrel{ker = 0}{\to}& &\to& \cdots
+       0 &\to& B &\stackrel{ker = 0}{\to}& &\to& \cdots
        \\
        && \downarrow && \downarrow
        \\
