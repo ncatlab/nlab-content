@@ -853,7 +853,7 @@ By lemma \ref{SectionsOfAcyclicFibrationsAreDefRetracts} every acyclic fibration
 
 Conversely, let $p : X \to Y$ be a fibration which is also a weak equivalence. We need to show that it has the right lifting property against all monomorphisms.
 
-By prop. \ref{PropertiesOfAnodyneExtensions} we may apply the [[small object argument]] to factor $p = q \circ j$ as a monomorphism $j$ followed by an acyclic fibration $q$. By the previous argument, $q$ is a weak equivalence, and so by lemma \ref{JHomotopyEquivsAreWeakEquivs} so is $j$. 
+By prop. \ref{CellularStructuresExist}, proven below, we may apply the [[small object argument]] to factor $p = q \circ j$ as a monomorphism $j$ followed by an acyclic fibration $q$. By the previous argument, $q$ is a weak equivalence, and so by lemma \ref{JHomotopyEquivsAreWeakEquivs} so is $j$. 
 Therefore, since $p$ is a fibration, we have a lift $\sigma$ in  
 
 $$
@@ -910,7 +910,7 @@ We start with some entirely general statements about [[compact objects]].
 +-- {: .num_prop #LimitsOverASmallDiagramAreCompact}
 ###### Proposition
 
-For $A$ a [[small category]], let $\alpha = {\vert Mor(A)\vert}$ be the [[cardinality]] of the set of morphisms of $A$. Then the [[limit]] functor
+For $A$ a [[small category]], let $\alpha = {\vert Mor(A)\vert}$ be the smallest [[regular cardinal]] $\geq$ the [[cardinality]] of the set of morphisms of $A$. Then the [[limit]] functor
 
 $$
   \lim_\leftarrow : Func(A,Set) \to Set
@@ -1152,7 +1152,7 @@ $$
   \,.
 $$
 
-To see injectivity, let $l_0, l_1 : K \to T$ be two morphisms such that $l_0 \circ j$ and $l_1 \circ j$ coincide in $Ho_J$. By lemma \ref{ElementaryJHomotopyIntoFibIsEquivRel} this is the case precisely if there is an elementary $J$-homotopy $h : I \otimes K \to T$ relating them. This induces the horizontal morphism in the diagram
+To see injectivity, let $l_0, l_1 : L \to T$ be two morphisms such that $l_0 \circ j$ and $l_1 \circ j$ coincide in $Ho_J$. By lemma \ref{ElementaryJHomotopyIntoFibIsEquivRel} this is the case precisely if there is an elementary $J$-homotopy $h : I \otimes K \to T$ relating them. This induces the horizontal morphism in the diagram
 
 $$
   \array{
@@ -1162,7 +1162,7 @@ $$
     \\
     \downarrow & \nearrow_{\mathrlap{\eta}}
     \\
-    I \otimes K
+    I \otimes L
   }
   \,,
 $$
