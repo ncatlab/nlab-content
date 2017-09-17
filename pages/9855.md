@@ -1,0 +1,36 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $I$ a [[set]], the _Kronecker delta-function_ is the [[function]] $I \times I \to \{0,1\}$ which takes the value 0 everywhere except on the [[diagonal]], where it takes the value 1.
+
+Often one writes for [[elements]] $i,j \in I$
+
+$$
+  \delta^{i}_j \coloneqq \delta(i,j) 
+  \,.
+$$
+
+Then
+
+$$
+  \delta^i_j
+  =
+  \left\{
+   \array{
+     1 & if i = j
+     \\
+     0 & otherwise
+   }
+  \right.
+$$
+
+## Related concepts
+
+* [[Dirac delta distribution]]
+
+[[!redirects Kronecker delta function]]
+
