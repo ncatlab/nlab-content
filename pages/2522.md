@@ -138,10 +138,13 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 
     * [[spinning string]] [[superstring]]
 
-    * [[heterotic string]], [[type II superstring]]
+    * [[heterotic string]], [[2d (2,0)-superconformal QFT]]
+
+    * [[type II superstring]]
 
     * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
+  * [[6d (2,0)-superconformal QFT]]
 
 
 ## Related concepts
