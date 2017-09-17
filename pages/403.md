@@ -211,7 +211,15 @@ One can also look at this in [[higher category theory]] and consider internal [[
 
 ## References
 
+A survey with an eye towards [[Lie groupoids]] is in
+
 * [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_ [	arXiv:0711.1608](http://arxiv.org/abs/0711.1608)
+
+A detailed discussion with emphasis on the correct [[anafunctor]] morphisms between internal categories is in 
+
+* [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) ([pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf))
+
+An introduction is also in
 
 * [[John Baez]], [[Alissa Crans]], _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
 
