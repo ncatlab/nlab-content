@@ -103,6 +103,10 @@ But it is far from clear to me ([[Todd Trimble]]) that "quasicompact" is very we
 
 Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
 
+## Related concepts
+
+* [[compact topos]]
+
 
 [[!redirects compact space]]
 [[!redirects compact spaces]]
