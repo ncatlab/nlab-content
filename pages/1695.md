@@ -61,6 +61,7 @@ with basepoint provided by the right vertical arrow.
 ## Properties
 
 ### Homotopy-associative structure
+ {#AInfinityStructure}
 
 A loop space is an example of a [[A-∞ space]], in particular it is an [[H-space]]. Loop spaces admit this rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
 
@@ -77,7 +78,7 @@ which follows straight from the [[adjunction]] $S \dashv \Omega$ plus the fact t
 
 The modern study of the question "when can an H-space be [[delooping|delooped]]?" was inaugurated by [[Jim Stasheff]]. The basic theorem is as follows (all spaces assumed to be CW-complexes): 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 An [[H-space]] $X$ admits a delooping if and only if the [[monoid]] $\pi_0(X)$ induced from the H-space structure is a [[group]], and the H-space $X$ structure can be extended to a structure of [[algebra over an operad]] over [[Jim Stasheff|Stasheff]]'s [[A-∞ operad]] $K$.
