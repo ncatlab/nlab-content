@@ -119,6 +119,8 @@ The 2-category $2Sh(C)$ of 2-sheaves on a small 2-site $C$ is, by definition, a 
 A classical class of examples for 2-sheaves are [[codomain fibrations]]
 over suitable sites, or rather their [[tangent categories]]. As discussed there, this includes the case of sheaves of categories of [[modules]] over sites of [[algebra over an algebraic theory|algebras]].
 
+For more details see the corresponding discussion at [[(infinity,2)-sheaf]].
+
 ## Related concepts
 
 * [[presheaf]] /  [[sheaf]] / [[cosheaf]]
