@@ -54,9 +54,18 @@ But the role of the associator, which now is a 3-morphism witnessing the non-ass
 
 =--
 
++-- {: .un_example}
+###### Example
+**(monoidal categories)**
+
+The [[coherence theorem for monoidal categories]] asserts that the with the standar definition of [[monoidal category]], there is a unique composite of [[associators]] that re-bracket any sequence of [[tensor product]]s.
+
+=--
+
 
 +-- {: .un_example}
 ###### Example
+**(quasi-categories)**
 
 
 For $C$ a [[simplicial set]] that is a [[quasi-category]] we have (as discussed there) that the canonical morphism
@@ -71,14 +80,15 @@ is an acyclic [[Kan fibration]]. This means that its [[fiber]]s are [[contractib
 
 =--
 
-
 +-- {: .un_example}
 ###### Example
+**(Trimbe $\omega$-categories)**
 
-
-The [[coherence theorem for monoidal categories]] asserts that the with the standar definition of [[monoidal category]], there is a unique composite of [[associators]] that re-bracket any sequence of [[tensor product]]s.
+In a [[Trimble n-category]] the space of choices of composing a sequence of $n$ morphisms is explicitly the [[topological space]] $Top_{0,1}(I, I^{\vee n})$ of surjections from the unit interval $[0,1]$ onto the length $n$-interval $[0,n]$. The coherence law of composition in a Trimble $n$-category is the fact that these spaces are [[contractible]].
 
 =--
+
+
 
 ## For other algebraic structures
 
