@@ -23,7 +23,7 @@
 +-- {: .num_defn #AlmostConnected}
 ###### Definition
 
-A [[locally compact topological space|locally compact]] [[topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the [[quotient]] [[topological space]] $G/G_0$ (of $G$ by the [[connected component]] of the neutral element) is  [[compact topological space|compact]].
+A [[locally compact topological space|locally compact]] [[topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the underlying [[topological space]] of the [[quotient]] topological group $G/G_0$ (of $G$ by the [[connected component]] of the neutral element) is [[compact topological space|compact]].
 
 =--
 
