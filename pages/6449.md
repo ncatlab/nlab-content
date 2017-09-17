@@ -39,16 +39,16 @@ More general "higher"-generalization of Chern-Simons theory to [[schreiber:infin
 
 ### Definition
 
-The definition of higher abelian Chern-Simons theory is simple _locally_ when certain global [[cohomology|cohomological]] effects can be ignored.
+The definition of higher abelian Chern-Simons theory is simple _locally_ when certain global [[cohomology|cohomological]] effects can be ignored. We first give the simple local definition and then the full global definition.
 
 Let $k \in \mathbb{N}$ be a [[natural number]], let $d = 4 k + 3$ and let $\Sigma$ be a [[compact space|compact]] [[smooth manifold]] of [[dimension]] $d$.
 
 Then the _simple version_ of abelain $d$-dimensional Chern-Simons theory is defined as follows. 
 
-* the [[configuration space]] is the [[space]] of [[differential form]]s on $\Sigma$ of degree $2k$
+* the [[configuration space]] is the [[space]] of [[differential form]]s on $\Sigma$ of degree $2k+1$
 
   $$
-    Conf_{simpl} = \Omega^{2k}(\Sigma)
+    Conf_{simpl} = \Omega^{2k+1}(\Sigma)
     \,,
   $$
 
@@ -59,10 +59,10 @@ Then the _simple version_ of abelain $d$-dimensional Chern-Simons theory is defi
     \,,
   $$
 
-* and hence the [[action functional]]
+* and the [[action functional]]
 
   $$
-    S : \Omega^{2k}(\Sigma) \to \mathbb{R}
+    S : \Omega^{2k+1}(\Sigma) \to \mathbb{R}
   $$
 
   is therefore
@@ -72,14 +72,25 @@ Then the _simple version_ of abelain $d$-dimensional Chern-Simons theory is defi
     \,.
   $$
 
+Notice that generally for an $n$-form $B$ on a closed $(2n+1)$-dimensional manifold $\Sigma$ we have
+
+$$
+  \int_\Sigma B \wedge d_{dR} B
+  =
+  (-1)^{1+n + n(1+n)}
+  \int_\Sigma B \wedge d_{dR} B
+$$
+
+by first using integration by parts and then switching the order of the wedge factors. Therefore this kind of action vanishes identically when $deg B$ is even. This is the reason for the above assumption that $deg B = 2k+1$ for $k \in \mathbb{N}$ and hence that the Chern-Simons theory is in dimension $4k+3$.
+
 In the full theory instead the configuration space is 
 
 $$
-  Conf = \mathbf{H}_{diff}^{2k+1}(\Sigma)
+  Conf = \mathbf{H}_{diff}^{2k+2}(\Sigma)
   \,,
 $$
 
-the space of [[circle n-bundle with connection|circle 2k-bundles with connection]] (given by [[cocycle]]s in degree $2k+1$ [[ordinary differential cohomology]]). This contains the above simplifies configuration space as the subspace of $n$-connections whose underlying circle $n$-bundle is trivial. 
+the space of [[circle n-bundle with connection|circle (2k+1)-bundles with connection]] (given by [[cocycle]]s in degree $2k+2$ [[ordinary differential cohomology]]). This contains the above simplified configuration space as the subspace of $(2k+1)$-connections whose underlying circle $(2k+1)$-bundle is trivial. 
 
 The action functional is given by
 
@@ -103,7 +114,7 @@ These theories are defined by
 
 The abelian higher dimensional Chern-Simons theories in dimension $4k+3$ are the special case of this general situation where
 
-* $\mathfrak{a} = b^{2k}\mathbb{R}$ is the [[line Lie n-algebra|line Lie 2k-algebra]], the $2k$-fold [[delooping]] of the abelian [[Lie algebra]] $\mathbb{R}$;
+* $\mathfrak{a} = b^{2k+1}\mathbb{R}$ is the [[line Lie n-algebra|line Lie (2k+1)-algebra]], the $(2k+1)$-fold [[delooping]] of the abelian [[Lie algebra]] $\mathbb{R}$;
 
 * $\langle - \rangle$ is the canonical quadratic [[invariant polynomial]] on this.
 
@@ -117,7 +128,15 @@ Higher dimensional abelian Chern-Simons theories appear automatically as compone
 
 ## Properties
 
-Higher Chern-Simons theory in dimension $4k+3$ is related by a [[holographic principle]] to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case).
+### Holographic relation to $4k+2$-dimensional theory
+
+Higher Chern-Simons theory in dimension $4k+3$ is related by a [[holographic principle]] to [[self-dual higher gauge theory]] in dimension $4k+2$ (at least in the abelian case). 
+
+* $(k=0)$: ordinary 3-dimensional [[Chern-Simons theory]] is related to a [[string]] [[sigma-model]] on its boundary;
+
+* $(k=1)$: 7-dimensional Chern-Simons theory is related to a [[fivebrane]] model on its boundary;
+
+* $(k=2)$: 11-dimensional Chern-Simons theory is related to a parts of a [[type II string theory]] on its bounday (or that of the space-filling 9-[[brane]], if one wishes) ([BelovMoore](#BelovMoore))
 
 ## Related concepts
 
@@ -158,6 +177,6 @@ The application of this to the description of
 [[type II string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
 
 * Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
-
+ {#BelovMoore}
 
 [[!redirects higher Chern-Simons theories]]
