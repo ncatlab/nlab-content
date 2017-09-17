@@ -21,7 +21,7 @@ The classification of [[simple Lie group]]s consists contains four infinite seri
 * $D_n = SO(2n)$, the [[special orthogonal group]] 
 
 
-Apart from this there are fixe [[exceptional Lie groups]].
+Apart from this there are five [[exceptional Lie groups]].
 
 
 [[!redirects classical Lie groups]]
