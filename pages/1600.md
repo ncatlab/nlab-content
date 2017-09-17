@@ -24,13 +24,9 @@ An _orbispace_ is a [[space]], particularly a [[topological stack]],  that is lo
 
 Orbispaces are to [[topological spaces]] what [[orbifolds]] are to [[manifolds]]. 
 
-## Properties
+## Definition
 
-### Relation to global equivariant homotopy theory
-
-The _[[global equivariant homotopy theory]]_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] on the global [[orbit category]] $Orb$ ([Henriques-Gepner 07, section 1.3](#HenriquesGepner07)), regarded as an [[(∞,1)-category]].
-
-Here $Orb$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Orb(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
+Write $Orb$ for the [[global orbit category]]. Then its [[(∞,1)-presheaf (∞,1)-category]] $PSh_\infty(Orb)$ is the [[(∞,1)-category]] of _orbispaces_. ([Henriques-Gepner 07](#HenriquesGepner07), [Rezk 14, remark 1.5.1](#Rezk14))
 
 By the main theorem of ([Henriques-Gepner 07](#HenriquesGepner07)) the [[(∞,1)-presheaves]] on the global [[orbit category]] are equivalently "cellular" [[topological stacks]]/[[topological groupoids]] ("[[orbispaces]]"), we might write this as
 
@@ -39,9 +35,27 @@ $$
   \,.
 $$
 
-(As such that global equivariant homotopy theory should be similar to [[ETop∞Grpd]]. Observe that this is a [[cohesive (∞,1)-topos]] with $\Pi$ such that it sends a topological [[action groupoid]] of a [[topological group]] $G$ acting on a [[topological space]] $X$ to the [[homotopy quotient]] $\Pi(X)//\Pi(G)$.)
 
-The central theorem of ([Rezk 14](#Rezk14)) (using a slightly different definition than [Henriques-Gepner 07](#HenriquesGepner07)) is that $PSh_\infty(Orb)$ is a [[cohesive (∞,1)-topos]] with $\Gamma$ producing homotopy quotients.
+## Properties
+
+### Relation to global equivariant homotopy theory
+
+The _[[global equivariant homotopy theory]]_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] on the [[global equivariant indexing category]] $Glo$ 
+
+Here $Glo$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Glo(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
+
+
+The [[global orbit category]] is the non-full subcategory of the [[global equivariant indexing category]] on the faithful maps $\mathbf{B}G\to \mathbf{B}H$.
+
+The central theorem of ([Rezk 14](#Rezk14))  is that $PSh_\infty(Orb)$ is the [[base (∞,1)-topos]] over the [[cohesion]] of the [[slice (∞,1)-topos|slice]]
+of the [[global equivariant homotopy theory]] $PSh_\infty(Glo)$ over the terminal orbispace $\mathcal{N}$ ([Rezk 14, p. 4 and section 7](#Rezk14))
+
+$$
+ (\Pi \dashv \Delta \dashv \Gamma \dashv \Nabla)
+  \;\colon\; 
+  PSh_\infty(Glo)/\mathcal{N} \longrightarrow PSh_\infty(Orb)
+ \,.
+$$
 
 ## Related concepts
 
