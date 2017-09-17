@@ -123,6 +123,10 @@ See for instance ([Blau, around p. 35](#Blau))
 
 (...)
 
+### Irreducible representations and superselection sectors
+
+The [[space of quantum states]] forms a linear [[representation]] of a given [[algebra of observables]]. The decomposition of that into [[irreducible representations]] is physically the decomposition into [[superselection sectors]].
+
 ## Related concepts
 
 * [[observable]]
