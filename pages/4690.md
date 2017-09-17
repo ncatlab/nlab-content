@@ -23,7 +23,9 @@ The _Einstein-Hilbert action_ is the [[action functional]] that defines the dyna
 
 ## Definition
 
-For $(X,g)$ a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]], its **vacuum Einstein-Hilbert action** is the number
+Let $X$ be a [[compact topological space|compact]] [[smooth manifold]] [[manifold with boundary|with boundary]].
+
+For $(X,g)$ the structure of a  [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] on $X$, hence for $g$ a (pseudo-)Riemannian metric on $X$, its **vacuum Einstein-Hilbert action** is the number
 
 $$
   (X,g) \mapsto \int_X R(g) dvol(g)
@@ -53,7 +55,18 @@ where now
 
 * $\langle -\rangle$ is the [[invariant polynomial]] which in terms of the canonical basis has components $(\epsilon_{a b c d})$.
 
-This extends to an [[action functional]] for gravity coupled to "matter" (which in the context of [[general relativity]] conventionally means every other field, for instance the [[electromagnetic field]]) by simply adding the matter action on a given gravitational background
+In either case this assignment defines a function
+
+$$
+  S_{EH} \;\colon\; Met(X) \longrightarrow \mathbb{R}
+$$
+
+on the space of (pseudo-)Riemannian metrics on $X$. This is the _Einstein-Hilbert [[action functional]]_.
+
+(More properly the EH-action functional is this function descended to the [[moduli stack]] $Met(X)//Diff(X)$, see at _[[general covariance]]_.)
+
+
+More generally, this extends to an [[action functional]] for gravity coupled to "matter" (which in the context of [[general relativity]] conventionally means every other field, for instance the [[electromagnetic field]]) by simply adding the matter action on a given gravitational background
 
 $$
   (X,g,\phi) \mapsto \int_X (L_{EH}(g) + L_\phi(g)) d vol(g)
@@ -61,7 +74,7 @@ $$
 $$
 
 
-The [[critical point]]s of the Einstein-Hilbert action define the physically realized [[spacetime]]s. This are [[Einstein's equations]] (the [[Euler-Lagrange equation]]s of this action)
+The [[critical point]]s of the Einstein-Hilbert action define the physically realized metrics (and matter fields) on $X$, hence the physically realized [[spacetimes]] with underlying manifold $X$. This are [[Einstein's equations]] (the [[Euler-Lagrange equation]]s of this action)
 
 $$
   \delta S_{EH}(g) = 0
