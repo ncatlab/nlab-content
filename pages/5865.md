@@ -3864,7 +3864,9 @@ $(n-dim\Sigma)$ defined on it.
 
 See [[schreiber:∞-Chern-Simons theory]] for more discussion.
 
+## Related concepts
 
+[[!include cohesion - table]]
 
 ## References
 
