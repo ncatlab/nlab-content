@@ -8,3 +8,5 @@ Recent references include
 
 * [[Ehud Hrushovski]], _Groupoids, imaginaries and internal covers_, [arxiv/math.LO/0603413](http://arxiv.org/abs/math/0603413) 
 * Iru Andrews, _Amalgamation constructions and recursive model theory_, thesis, [pdf](http://www.math.wisc.edu/~andrews/andrewsthesis.pdf)
+* John T. Baldwin, Alexei Kolesnikov, [[Saharon Shelah]], 
+_The amalgamation spectrum_, J. Symbolic Logic __74__:3 (2009) 914-928, [MR2548468](http://www.ams.org/mathscinet-getitem?mr=2548468), [doi](http:/dx.doi.org/10.2178/jsl/1245158091[euclid](http://projecteuclid.org/euclid.jsl/1245158091)
