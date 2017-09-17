@@ -20,9 +20,9 @@ The basic picture is one from the Riemann surfaces: the power $z\mapsto z^n$ has
 
 A [[morphism]] $f:X\to Y$ of [[scheme]]s is __unramified__ if it is locally of finite presentation, and if for every point $y\in Y$ the induced morphism 
 $$
-\mathcal{O}_{X,f(y)}/\mathfrak{m}_{f(y)}\to\mathcal{O}_{Y,y}/\mathfrak{m}_y
+\mathcal{O}_{X,f(y)}/\mathfrak{m}_{f(y)}\to\mathcal{O}_{Y,y}/\mathfrak{m}_{f(y)}\mathcal{O}_{Y,y}
 $$
-of residue fields is a finite and separable extension of fields.
+is a finite and separable extension of fields.
 
 A morphism $f:X\to Y$ of schemes is __[[formally unramified]]__ if for every [[infinitesimal object|infinitesimal thickenning]]
 $T\to T'$ of schemes over $Y$, the canonical morphism of sheaves of sets over $T$
