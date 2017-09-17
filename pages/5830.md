@@ -47,7 +47,7 @@ Homotopy type theory, or $(\infty,1)$-type theory, is a flavor of [[type theory]
 * [[Steve Awodey]], _Type theory and homotopy_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/TTH.pdf))
  {#Awodey}
 
-* [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html)
+* [[Michael Shulman]], _Homotopy type theory_ [I](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_i.html), [II](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_ii.html), [III](http://golem.ph.utexas.edu/category/2011/03/homotopy_type_theory_iii.html), [IV](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html), [V](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_v.html), [VI](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html)
 
 * Homotopy type theory, Oberwolfach Reports 11-2011, [pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf)
 
