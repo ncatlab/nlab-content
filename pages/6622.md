@@ -90,7 +90,7 @@ It can be verified that every string of
 $S'$ is of one and only one of the following forms:
 $\alpha u v w$ for some $u, v, w\in W$, $\alpha^{-1} u v w$ for
 some $u, v, w\in W$, $\lambda w$ for some 
-$w\in W$,\dots, $\beta \hat{\otimes} 1w$ for some $w\in W$ and
+$w\in W$, ..., $\beta \hat{\otimes} 1w$ for some $w\in W$ and
 $\beta \in S'$. Also, in each case the ''arguments'' are determined uniquely
 (for example, both $\beta$ and $w$ are determined from $\beta \hat{\otimes}
 1w$), and so we may define functions on $S'$ inductively.
