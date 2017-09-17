@@ -60,3 +60,7 @@ The close connection of algebraic cobordism with [[K-theory]] is discussed in
 An algebraic analogue of h-cobordism:
 
 * Aravind Asok, Fabien Morel, _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_, [arXiv:0810.0324](http://arxiv.org/abs/0810.0324) 
+
+Algebraic cobordism in mixed characteristic:
+
+* [[Markus Spitzweck]], _Algebraic cobordism in mixed characteristic_, [arXiv](http://arxiv.org/abs/1404.2542).
