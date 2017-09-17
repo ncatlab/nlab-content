@@ -1,0 +1,48 @@
+# Complete small categories
+
+* toc
+{: toc}
+
+## Definition
+
+A **complete small category** (or **small complete category**) is a [[category]] which is both [[small category|small]] (has only a [[set]] of [[objects]] and [[morphisms]]) and [[complete category|complete]] (has a [[limit]] of every small [[diagram]]).
+
+(Note that the phrase "small-complete category" is sometimes used to mean merely a complete category, i.e. one which is "complete relative to small diagrams".)
+
+
+## In classical logic
+
+In the presence of [[classical logic]], complete small categories reduce to [[complete lattices]] by the following theorem of Freyd.
+
++-- {: .un_theorem}
+###### Theorem
+
+If (in some [[universe]] $U$) a small [[category]] $D$ has [[product]]s of families of objects whose size is at least that of its set of morphisms, then $D$ is a [[preorder]].  In particular, any complete small category is a [[preorder]].  
+
+=--
+
++-- {: .proof}
+######Proof
+
+Let $x$, $y$ be any two objects, and suppose (contrary to $D$ being a preorder) that there are at least two different morphisms $x \stackrel{\overset{g}{\to}}{\underset{f}{\to}} y$. Then the set of morphisms 
+
+$$x \to \prod_{f \in Mor(D)} y$$ 
+
+has [[cardinality]] at least $2^{|Mor(D)|} \gt |Mor(D)|$, which is a contradiction. 
+
+=--
+
+
+## In Grothendieck toposes
+
+The [[internal logic]] of a [[topos]] is not, in general, classical, so the above proof does not apply when considering [[internal categories]] in a topos.  However, in a [[Grothendieck topos]], one can show that the conclusion still holds by essentially reducing the question to the analogous one in $Set$.  A brief description of the argument can be found in the answer to [this question](http://mathoverflow.net/questions/43433/small-complete-categories-in-a-grothendieck-topos).
+
+
+## In realizability toposes
+
+However, it is possible to have non-preorder complete small categories in non-Grothendieck topoi.  In particular, the [[effective topos]], along with most other [[realizability topos|realizability toposes]], does contain such internal categories.  These categories have applications to the modeling of impredicative [[type theory]].
+
+
+[[!redirects complete small categories]]
+[[!redirects small complete category]]
+[[!redirects small complete categories]]
