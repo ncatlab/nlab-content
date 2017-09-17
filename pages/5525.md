@@ -17,7 +17,7 @@
 
 ## Idea
 
-The term _discrete $\infty$-groupoid_ or _bare $\infty$-groupoid_ is essentially synonymous to just _[[∞-groupoid]]_ . It is used for emphasis in contexts where one consideres $\infty$-groupoids with extra [[cohesive (∞,1)-topos|cohesive]] [[stuff, structure, property|structure]] to indicate that this extra structure is being disregarded, or rather that the special case of [[discrete space|discrete]] such structure is considered.
+The term _discrete $\infty$-groupoid_ or _bare $\infty$-groupoid_ is essentially synonymous to just _[[∞-groupoid]]_ . It is used for emphasis in contexts where one considers $\infty$-groupoids with extra [[cohesive (∞,1)-topos|cohesive]] [[stuff, structure, property|structure]] to indicate that this extra structure is being disregarded, or rather that the special case of [[discrete space|discrete]] such structure is considered.
 
 ## Definition
 
