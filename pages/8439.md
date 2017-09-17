@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
 #### Type theory
 +-- {: .hide}
 [[!include type theory - contents]]
@@ -15,6 +19,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,9 +30,10 @@ A _logical framework_ is a formal meta-language for deductive systems, such as [
 
 ## References
 
-* [[Frank Pfenning]], _[Logical frameworks](http://www.cs.cmu.edu/~fp/lfs.html)_
+* [[Frank Pfenning]], _Logical frameworks -- a brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
 
-* _Logical frameworks -- a brief introduction_ ([pdf](http://www.cs.cmu.edu/~fp/papers/mdorf01.pdf))
+* [[Frank Pfenning]], _Logical frameworks_ ([web](http://www.cs.cmu.edu/~fp/lfs.html))
+
 
 [[!redirects logical frameworks]]
 
