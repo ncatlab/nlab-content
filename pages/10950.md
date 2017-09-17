@@ -40,6 +40,11 @@ The [[philosophy]] of [[physics]].
 
 * [[Lawrence Sklar]], _Philosophy of Physics_, Oxford University Press (1992)
 
+* [[Tim Maudlin]], _The Metaphysics Within Physics_, Oxford University Press, 2007
+
+* [[Tim Maudlin]], _Philosophy of Physics, Volume 1: "Space and Time". Princeton University Press, 2012_
+
+
 * [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
 
 * [[Gabriel Catren]] et al. (org.) _Philosophy of Mechanics: Mathematical Foundations_, Workshop Feb 12-14, 2014 ([website](http://phil.physico-math.gie.im), [poster](http://phil.physico-
@@ -52,4 +57,3 @@ math.gie.im/static/PhilosophyofMechanics25size.jpg))
 Reference specifically on the [[interpretation of quantum mechanics]] include
 
 * [[Roland Omnès]], _[[The Interpretation of Quantum Mechanics]]_
-
