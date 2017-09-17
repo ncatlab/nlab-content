@@ -5,7 +5,7 @@
 
 ## Definition
 
-[The usual definition of ring](http://en.wikipedia.org/wiki/Ring_mathematics#Definition) is equivalent to all of the following:
+[The usual definition of (unital) ring](http://en.wikipedia.org/wiki/Ring_mathematics#Definition) is equivalent to all of the following:
 
 A (unital, non-commutative) **ring** is (equivalently)
 
