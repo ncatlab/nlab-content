@@ -1,5 +1,5 @@
 
-> This page is about [[computability]] in theoretical [[physics]] in the sense of [[computable mathematics]] and [[constructive analysis]]. It is not about _computational physics_, though of course there is a relation.
+> This page is about [[computability]] of fundamental [[physics]] in the sense of [[computable mathematics]] and [[constructive analysis]]. It is not about _[[computational physics]]_, though of course there is a relation.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -33,7 +33,7 @@ In type-I [[computability]] the [[computable functions]] are [[partial recursive
 
 > To show that a [[model (physics)|model]] $[$ of physics $]$ is [[computable function|computable]], the model must somehow be expressed using [[partial recursive function|recursive functions]].
 
-However, in [[computability theory]] there is also the concept [[computable function (analysis)|type-II computable functions]] used in the field of "[[constructive analysis]]", "[[computable analysis]]". This is based on the idea that for instance for specifying [[computable real numbers]] as used in [[physics]], an [[algorithm]] may work not just on single [[natural numbers]], but indefinitely on sequences of them, producing output that is in each step a finite, but in each next step a more accurate approximation.
+However, in [[computability theory]] there is also the concept of _[[computable function (analysis)|type-II computable functions]]_ used in the field of "[[constructive analysis]]", "[[computable analysis]]". This is based on the idea that for instance for specifying [[computable real numbers]] as used in [[physics]], an [[algorithm]] may work not just on single [[natural numbers]], but indefinitely on sequences of them, producing output that is in each step a finite, but in each next step a more accurate approximation.
 
 [[!include computable mathematics -- table]]
 
@@ -46,6 +46,17 @@ However, since fundamental physics is [[quantum physics]] and since [[quantum me
 This issue of computable _quantum_ physics has only more recently been considered, in ([Streicher 12](#Streicher12)), where it is shown that at least a fair bit of the [[Hilbert space]] technology of [[quantum mechanics]]/[[quantum logic]] sits inside the [[function realizability topos]] $RT(\mathcal{K}_2)$.
 
 
+## Related concepts
+
+* [[interpretation of quantum mechanics]]
+
+* [[measurement problem]]
+
+* [[quantum logic]]
+
+* [[coordination]]
+
+* [[p-adic physics]]
 
 ## References
 
