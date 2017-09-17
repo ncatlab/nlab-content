@@ -1,36 +1,48 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Definition 
+## Definitions and terminology
 
-A **split monomorphism** in a [[category]] $C$ is a [[morphism]] $m: A \to B$ which has a [[retraction]], meaning a morphism $r: B \to A$ such that $r \circ m = 1_A$.
+A **split monomorphism** in a [[category]] $C$ is a [[morphism]] $m\colon A \to B$ in $C$ such that there exists a morphism $r\colon B \to A$ such that the [[composite]] $r \circ m$ equals the [[identity morphism]] $1_A$.  Then the morphism $r$, which satisfies the [[duality|dual]] condition, is a __[[split epimorphism]]__.
 
-In such a situation one also says that $A$ is a [[retract]] of $B$, and that $A$ is a splitting of the [[idempotent]] $m \circ r: B \to B$.
+We say that:
+* $r$ is a __[[retraction]]__ of $m$,
+* $m$ is a __[[section]]__ of $r$,
+* $A$ is a __[[retract]]__ of $B$,
+* the pair $(r,m)$ is a __[[split idempotent|splitting]]__ of the [[idempotent]] $m \circ r\colon B \to B$.
 
-The dual notion is that of [[split epimorphism]].
+A split monomorphism in $C$ can be equivalently defined as a morphism $m\colon A \to B$ such that for every [[object]] $X\colon C$, the [[function]] $C(m,X)$ is a [[surjection]] in $\mathbf{Set}$; the preimage of $1_A$ under $C(m,A)$ yields a retraction $r$.
 
-### characterizations
+Alternatively, it is also possible to define a split monomorphism as an __absolute monomorphism__: a morphism such that for every functor $F$ out of $C$, $F(m)$ is a [[monomorphism]].  From the definition as a morphism having a retraction, it is obvious that any split monomorphism is absolute; conversely, that the image of $m$ under the [[representable functor]] $C(1,A)$ is a monomorphism reduces to the characterization above.
 
-A split monomorphism can be equivalently defined as a morphism $m$ such that $C(m,X)$ is a [[surjection]] in $\mathbf{Set}$ for every object $X\colon C$; the retraction $r$ is given by the preimage of $1_A$ under $C(m,A)$.
-
-Alternatively, it is also possible to define a split monorphism as an _absolute_ [[monomorphism]]: one such that for every functor $F$ out of $C$ $F(m)$ is a monomorphism.
 
 ## Properties
 
 Any split monomorphism is automatically a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
 
+
+[[!redirects split monomorphism]]
 [[!redirects split monomorphisms]]
+[[!redirects split mono]]
+[[!redirects split monos]]
 [[!redirects split monic]]
 [[!redirects split monics]]
+
+[[!redirects absolute monomorphism]]
+[[!redirects absolute monomorphisms]]
+[[!redirects absolute mono]]
+[[!redirects absolute monos]]
+[[!redirects absolute monic]]
+[[!redirects absolute monics]]
