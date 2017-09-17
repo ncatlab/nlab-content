@@ -684,23 +684,6 @@ This should still be filled.
 =--
 
 
-##  Relation to other proofs of coherence #
-
-+-- {: .query}
-I think it would be interesting to include here a few
-words of an expert regarding the place of Mac Lane's proof in view of
-other existing proofs (the proof of strictification of Joyal and
-Street, the logic-oriented proof of Beylin and Dybjer, and possibly
-others).  From an answer of Todd in the $n$Forum, I understand that Mac
-Lane's proof is still considered a good first source, but
-I believe it would be interesting to elaborate (if possible) on this
-subject.  For example, is one proof simpler than others?  
-Does one proof teach us something that the others don't? Does one
-proof require less prerequisites than others? If 
-such a discussion is not considered interesting, I think that it would
-be at least useful to state what other proofs are out there.
-=--
-
 ## References ##
 
 * [[Saunders Mac Lane]], _Categories for the Working Mathematician_, 2nd edition, Springer GTM, 1998. {#CWM}
