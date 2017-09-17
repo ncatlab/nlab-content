@@ -1,30 +1,14 @@
-<div class="rightHandSide toc">
-[[!include mathematicscontents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
 
-#entries related to differential geometry#
+_Differential geometry_ is geometry modeled on [[CartSp]].
 
-* [[space and quantity]]
-
-  * [[generalized smooth algebra]]
-
-  * [[generalized smooth space]]
-
-  * [[synthetic differential geometry]]
-
-* [[Lie theory]], [[Lie group]], [[Lie groupoid]], [[Lie's three theorems]]
-
-* [[differential form]], [[tangent space]]
-
-* [[symplectic geometry]], [[geometric quantization]], [[coherent state]]
-
-* [[differentiable stack]], [[orbifold]]
-
-* [[supermanifold]]
-
-  * [[NQ-supermanifold]]
-
-  * [[integration over supermanifolds]]
-
-* [[information geometry]]
+(...)
