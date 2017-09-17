@@ -25,11 +25,29 @@ Directedness is an asymmetric condition.  Sometimes a direction as defined here 
 
 ### Finitely directed set 
 
-To be explicit, a **finitely upward-directed set** (which is the default notion) is equipped with a [[preorder]] $\leq$ such that:
-* there exists an element (so the set is [[inhabited set|inhabited]]); and
-* given elements $x, y$, there exists an element $z$ such that $x \leq z$ and $y \leq z$.
++-- {: .num_defn}
+###### Definition
 
-It follows that, given any finite set $x_1, \dots, x_n$ of elements, there exists an element $z$ such that $x_i \leq z$ for all $i$. (For [[constructive mathematics|constructive]] purposes, one should interpret 'finite set' above as a [[finite set|finitely indexed set]], as shown.)
+A **finitely upward-directed set** (which is the default notion) is a [[set]] with a [[preorder]] $\leq$ such that:
+
+1. there exists an element (so the set is [[inhabited set|inhabited]]); and
+
+1. given elements $x, y$, there exists an element $z$ such that $x \leq z$ and $y \leq z$.
+
+=--
+
+It follows that, given any [[finite set]] $x_1, \dots, x_n$ of elements, there exists an element $z$ such that $x_i \leq z$ for all $i$. 
+
+(For [[constructive mathematics|constructive]] purposes, one should interpret 'finite set' above as a [[finite set|finitely indexed set]], as shown.)
+
+Equivalently, this says: 
+
++-- {: .num_defn}
+###### Definition
+
+A directed set is a [[proset]] which is a [[filtered category]]: a **filtered [[(0,1)-category]].
+
+=--
 
 ### Generalisations
 
