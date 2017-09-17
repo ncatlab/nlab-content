@@ -31,7 +31,7 @@ Dually, for non-negatively graded chain complexes of abelian groups there is a m
 
 ### Relation to syzygies
 
-(...) [[syzygy]] (---)
+(...) [[syzygy]] (...)
 
 ### Relation to axioms of choice 
 
