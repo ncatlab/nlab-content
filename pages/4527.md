@@ -1,4 +1,4 @@
-__Fred van Oystaeyen__ is an [[algebraist]] and one of the pioneers of [[noncommutative algebraic geometry]]; he is a Professor at Antwerp. He is especially well known for his work on graded rings, localization theory for noncommutative rings and the study of Brower groups and generalizations. 
+__Fred van Oystaeyen__ is an [[algebraist]] and one of the pioneers of [[noncommutative algebraic geometry]]; he is a Professor at Antwerp. He is especially well known for his work on graded rings, localization theory for noncommutative rings and the study of Brauer groups and generalizations. 
 
 * [official page](http://www.ua.ac.be/main.aspx?c=fred.vanoystaeyen)
 
