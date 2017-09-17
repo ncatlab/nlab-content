@@ -27,7 +27,7 @@ This is a generalization of the traditional [[spectral sequence of a filtered co
 ## Definition
 
 
-Let throughout $\mathcal{C}$ be a [[stable (∞,1)-category]], $\mathcal{A}$ an [[abelian category]], and $\pi:\mathcal{C}\to\mathcal{A}$ a homological functor on $\mathcal{C}$, i.e., a functor that transforms every [[cofiber sequence]]
+Let throughout $\mathcal{C}$ be a [[stable (∞,1)-category]], $\mathcal{A}$ an [[abelian category]], and $\pi \;\colon\; \mathcal{C}\longrightarrow \mathcal{A}$ a [[homological functor]] on $\mathcal{C}$, i.e., a functor that transforms every [[cofiber sequence]]
 
 $$ X\to Y\to Z\to \Sigma X $$
 
@@ -47,7 +47,7 @@ in $\mathcal{A}$. We write $\pi_n=\pi\circ \Sigma^{-n}$.
 
 * $\mathcal{C} = D(\mathcal{A})$ is the [[derived category]] of the abelian category $\mathcal{A}$ and $\pi=H_0$.
 
-* Any of the above with $\mathcal{C}$ and $\mathcal{A}$ replaced by their opposite categories.
+* Any of the above with $\mathcal{C}$ and $\mathcal{A}$ replaced by their [[opposite categories]].
 
 =--
 
@@ -179,7 +179,7 @@ A quick exposition is for instance in section 1.2 of
 
 For the case of the Adams spectral sequence, see
 
-* A.K. Bousfield, *The localization of spectra with respect to homology*, ([pdf](http://www.math.uwo.ca/~mfrankla/Bousfield_LocalnSpectraHomol.pdf))
+* [[Aldridge Bousfield]], *The localization of spectra with respect to homology*, ([pdf](http://www.math.uwo.ca/~mfrankla/Bousfield_LocalnSpectraHomol.pdf))
 {#Bousfield}
 
 [[!redirects spectral sequence of a filtered object in a stable (∞,1)-category]]
