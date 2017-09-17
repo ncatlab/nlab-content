@@ -640,7 +640,9 @@ is called the **skeletal filtration** of $X$.
 ### Normal monomorphisms and normal dendroidal sets
  {#NormalMonomorphisms}
 
-While the theories of [[simplicial sets]] and dendroidal sets proceed very much in parallel, one difference is that for dendroidal sets among all [[monomorphisms]] spme play a special role, called the _normal monomorphism_. 
+A key fact in the theory of [[simplicial sets]] is that the [[monomorphisms]] there are generated under [[pushout]], [[transfinite composition]] and [[retracts]] from the [[boundary of a simplex|boundary inclusions]] (indeed the [[model structure on simplicial sets]] is a [[cofibrantly generated model category]] with generating cofibrations the boundary inclusions). 
+
+For dendroidal sets the boundary inclusions turn out not to generate all monomorphisms, but just a subclass called the _normal_ monomorphisms. We discuss now the definition and some basic propoerties of normal monomorphisms. Most of these are a specialization of the general notion of [normal morphisms over a generalized Reedy category](http://ncatlab.org/nlab/show/generalized+Reedy+category#NormalMorphisms) to the [[generalized Reedy category]] $\Omega$.
 
 +-- {: .num_lemma }
 ###### Lemma (face maps are the monomorphisms)
