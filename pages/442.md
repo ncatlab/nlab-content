@@ -391,6 +391,7 @@ and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
 Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
+* [[Steve Lack]], _Notions of Lawvere theory_ ([arXiv:0810.2578](http://arxiv.org/abs/0810.2578))
 
 [[!redirects Lawvere theory]]
 [[!redirects Lawvere theories]]
