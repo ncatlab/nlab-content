@@ -39,3 +39,6 @@ A [[principal bundle]] with structure group the circle group is a [[circle bundl
 [[!redirects R/Z]]
 [[!redirects U(1)]]
 [[!redirects SO(2)]]
+
+[[!redirects circle Lie group]]
+
