@@ -404,6 +404,8 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 ## Related entries
 
+* [[Galois group]], [[motivic Galois group]]
+
 * [[categorical Galois theory]], [[Grothendieck's Galois theory]]
 
 * [[differential Galois theory]]
