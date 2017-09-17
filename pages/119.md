@@ -1,11 +1,13 @@
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
 
-A preorder is like a [[partial order]], but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  The reason is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preordered set, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
+A preorder is like a [[partial order]], but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  
+
+The reason is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preordered set, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
 
 
 ## Definition
@@ -15,10 +17,46 @@ A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transiti
 Equivalently, a proset is a [[thin category]]: a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a [[category enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.
 
 
-## Fact
+## Properties
+
+### Relation to partial orders
 
 Any preordered set is [[equivalence of categories|equivalent]] to a [[partial order|poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
 
+### Cauchy completion
+
++-- {: .num_prop}
+###### Proposition
+
+[[internalization|Internal]] to any [[regular category]] every [[poset]]
+is a [[Cauchy complete category]].
+
+=--
+
+This appears as ([Rosolini, prop. 2.1](#Rosolini)).
+
++-- {: .num_prop}
+###### Proposition
+
+[[internalization|Internal to]] any [[exact category]] the Cauchy completion of any [[preorder]] exists and is its [[poset reflection]].
+
+=--
+
+This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
+
+## Related concepts
+
+* **preorder**
+
+* [[partial order]]
+
+
+## References
+
+[[Cauchy completion]] or preorders is discussed in 
+
+* G. Rosolini, _A note on Cauchy completeness for preorders_ ([pdf](http://www.disi.unige.it/person/RosoliniG/notccp.pdf))
+ {#Rosolini}
 
 ## Discussion
 
