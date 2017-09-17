@@ -1,10 +1,10 @@
 
 
-This entry describes classes of examples of [[A-∞ category]]-valued  [[FQFT]]s.
+This entry describes classes of examples of [[A-∞ category]]-valued  [[FQFTs]] defined on a version of the [[symplectic category]].
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 
@@ -22,7 +22,7 @@ Now if $(X_j, \omega_j)$ for $j = 0,1$ are two Lagrangian submanifolds and
 $L_{01} \subset  X^-_0 \times X_1$ a Lagrangian correspondence then we get
 an [[A-∞ category|A-∞ functor]]  $\phi(L_{01}) : Fuk^#(X_0) \to Fuk^#(X_1)$
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 **(Wehrheim, Woodward)**
 
@@ -37,12 +37,17 @@ where on the right we have a natural notion of composition of Lagrangian submani
 
 =--
 
-This is the symplectic version of [[Mukai functor]]s.
+([Wehrheim-Woodward 07, section 3.2](WehrheimWoodward07))
 
-**Example** For $X_0$ and $X_1$ a compact [[Riemann surface]]s and
+This is the symplectic version of [[Mukai functors]].
+
++-- {: .num_example}
+###### Example
+
+For $X_0$ and $X_1$ a compact [[Riemann surfaces]] and
 $M(X_0), M(X_1)$
 
-their [[moduli space]]s of fixed determinant rank $n$-bundles, and for $Y_{01}$ a [[cobordism]] (compact, oriented) from $X_0$ to $X_1$
+their [[moduli spaces]] of fixed determinant rank $n$-bundles, and for $Y_{01}$ a [[cobordism]] (compact, oriented) from $X_0$ to $X_1$
 then consider
 
 $$
@@ -53,10 +58,10 @@ $$
 
 If $Y_{01}$ is _elementary_ in that there exists a [[Morse function]] $Y \to \mathbb{R}$ with $\leq 1$ critical points then $L(Y_{01})$ is a Lagrangian correspondence.
 
-There should be a [[quantization]] of  $L(Y_{01})$ that should give something like quantum [[Chern-Simons theory]]
+=--
 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 The assignment
@@ -86,7 +91,7 @@ Other theories that fit into this framework:
 Write $X^-j = (X_j , -\omega_j)$ for a [[symplectic manifold]] with its symplectic form
 reversed. 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $(X_j, \omega_j)$ two [[symplectic manifold]]s, a **[[Lagrangian correspondence]]** is a Lagrangian submanifold of $X^-_0 \times X_1$, that is
@@ -119,15 +124,21 @@ which is a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suit
 
 =--
 
-**Examples**
++-- {: .num_example}
+###### Example
 
-1. For $\phi : X_0 \to X_1$ a [[symplectomorphism]] we have
+ For $\phi : X_0 \to X_1$ a [[symplectomorphism]] we have
 
    $graph(\phi) \subset X_0^- \times X_1$ is a Lagrangian correspondence and 
    composition of syplectomorphisms corresponds to composition of 
    Lagrangian correspondences.
 
-1. Let $X$ be a [[manifold]], $G= U(n)$ the [[unitary group]], 
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $X$ be a [[manifold]], $G= U(n)$ the [[unitary group]], 
    $P \to X$ a $G$-[[principal bundle]]
    and $D \to X$ a $U(1)$-bundle with [[connection on a bundle|connection]].
    
@@ -158,14 +169,14 @@ which is a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suit
       \,.
    $$
 
+=--
    
 ## References
 
-* [[Katrin Wehrheim]], [[Chris Woodward]]
+* [[Katrin Wehrheim]], [[Chris Woodward]], _Functoriality for Lagrangian correspondences in Floer theory _ ([arXiv:0708.2851](http://arxiv.org/abs/0708.2851))
+ {#WehrheimWoodward07}
 
-  * _Functoriality for Lagrangian correspondences in Floer theory _ ([arXiv:0708.2851](http://arxiv.org/abs/0708.2851))
-
-  * _Floer Cohomology and Geometric Composition of Lagrangian Correspondences_ ([arXiv:0905.1368](http://arxiv.org/abs/0905.1368))   
+* [[Katrin Wehrheim]], [[Chris Woodward]], _Floer Cohomology and Geometric Composition of Lagrangian Correspondences_ ([arXiv:0905.1368](http://arxiv.org/abs/0905.1368))   
 
 
 
