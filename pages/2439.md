@@ -51,7 +51,7 @@ $$
   a \otimes b = (-1)^{deg(a) deg(b)} b \otimes a
 $$
 
-in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] is induced from the [[subcategory]] which is the [[abelian 2-group]] of metric graded [[lines]]. This in turn is the [[free construction|free]] [[abelian 2-group]] (groupal [[symmetric monoidal category]]) on a single generator.  (This point of view is amplified for instance in the first part of ([Kapranov 13](#Kapranov13))). Generally then super-grading and hence super-algebra arises from the [[truncated object|2-truncation]] (3-[[coskeleton]]) of the free [[abelian ∞-group]] on a single generator, which is the [[sphere spectrum]] $\mathbb{S}$. So the $\mathbb{Z}_2$-grading of superalgebra comes from the [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ in degree 1 and 2:
+in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] is induced from the [[subcategory]] which is the [[abelian 2-group]] of metric graded [[lines]]. This in turn is the [[free construction|free]] [[abelian 2-group]] (groupal [[symmetric monoidal category]]) on a single generator.  (This point of view is amplified for instance in the first part of ([Kapranov 13](#Kapranov13)), whose second part is about [[super 2-algebra]]). Generally then super-grading and hence super-algebra arises from the [[truncated object|2-truncation]] (3-[[coskeleton]]) of the free [[abelian ∞-group]] on a single generator, which is the [[sphere spectrum]] $\mathbb{S}$. So the $\mathbb{Z}_2$-grading of superalgebra comes from the [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ in degree 1 and 2:
 
 | $n = $ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $\cdots$ | 
 |--------|-----|-----|-----|-----|-----|-----|-----|-----|--|
@@ -490,6 +490,8 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 * [[supermanifold]]
 
+* [[super 2-algebra]]
+
 ## References
 
 Discussion of superalgebra as algebra in certain [[symmetric monoidal category|symmetric monoidal]] [[tensor categories]] is in 
@@ -517,7 +519,7 @@ See also at _[[super line 2-bundle]]_ for more on this.
 
 Discussion of superalgebra as induced from free groupal symmetric monoidal categories ([[abelian 2-groups]]) and hence ultimately from the [[sphere spectrum]] is in 
 
-* [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov))
+* [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov) [mov](Kapranov2Superalgebra.mov))
  {#Kapranov13}
 
 
