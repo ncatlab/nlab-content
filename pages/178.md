@@ -181,8 +181,9 @@ $$
 
 
 ### Relative cohesion
+  {#RelativeCohesion}
 
-We discuss the relation of $Smooth\infty Grpd$ to other cohesive $(\infty,1)$-toposes.
+We discuss the relation of $Smooth\infty Grpd$ to other [[cohesive (∞,1)-topos]]es.
 
 #### Continuous cohesion
 
@@ -265,7 +266,7 @@ The functor $i_!$ here is the [[forgetful functor]] that forgets [[smooth struct
 
 #### Infinitesimal cohesion
 
-Observe that [[CartSp]]${}_{smooth}$ is (the [[syntactic cateory]] of) a [[Lawvere theory]]: the [[algebraic theory]] of [[smooth algebra]]s ($C^\infty$-rings). Write $SmoothAlg := Alg(C)$ for the category of its [[algebras over a Lawvere theory|algebras]]. Let $InfPoint \hookrightarrow SmoothAlg^{op}$ be the [[full subcategory]] on the [[infintiesimally thickened point]]s. 
+Observe that [[CartSp]]${}_{smooth}$ is (the [[syntactic category]] of) a [[Lawvere theory]]: the [[algebraic theory]] of [[smooth algebra]]s ($C^\infty$-rings). Write $SmoothAlg := Alg(C)$ for the category of its [[algebras over a Lawvere theory|algebras]]. Let $InfPoint \hookrightarrow SmoothAlg^{op}$ be the [[full subcategory]] on the [[infinitesimally thickened point]]s. 
 
 +-- {: .un_def}
 ###### Definition
@@ -305,7 +306,7 @@ where [[SynthDiff∞Grpd]] is the [[cohesive (∞,1)-topos]]  of
 +-- {: .proof}
 ###### Proof
 
-This follows of a spcial case of <a href="http://nlab.mathforge.org/nlab/edit/cohesive%20(infinity,1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">this proposition</a> after observing that $CartSp_{synthdiff}$ is an infinitesimal neighbourhood site of CartSp_{smooth}$ in the sense defined there.
+This follows as a special case of <a href="http://nlab.mathforge.org/nlab/edit/cohesive%20(infinity,1)-topos#InfinitesimalNeighbourhoodFromInfinitesimalSite">this proposition</a> after observing that $CartSp_{synthdiff}$ is an infinitesimal neighbourhood site of CartSp_{smooth}$ in the sense defined there.
 
 =--
 
@@ -320,13 +321,13 @@ In [[SynthDiff∞Grpd]] we have [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s 
 ## Structures in the cohesive $(\infty,1)$-topos $Smooth \infty Grpd$ {#InfSheavesOnCartSp}
 
 We discuss the general abstract 
-<a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesivbe (∞,1)-topos</a> realized in $Smooth \infty Grpd$.
+<a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#Structures">structures in a cohesive (∞,1)-topos</a> realized in $Smooth \infty Grpd$.
 
 
 ### Geometric homotopy and Galois theory     
   {#StrucGeometricHomotopy}
 
-+-- {: .un_prop}
++-- {: .un_prop #UnderlyingSimplicialTopologicalSpace}
 ###### Proposition
 
 If $X \in Smooth\infty Grpd$ is presented by $X_\bullet \in SmoothMfd^{op} \hookrightarrow [CartSp_{smooth}^{op}, sSet]$, then its image $i_!(X) \in $ [[ETop∞Grpd]] under the [relative topological cohesion morphism](#RelativeTopologicalCohesion) is presented by the underlying [[simplicial topological space]] $X_\bullet \in Mfd^{op} \hookrightarrow [CartSp_{top}^{op}, sSet]$.
@@ -336,20 +337,70 @@ If $X \in Smooth\infty Grpd$ is presented by $X_\bullet \in SmoothMfd^{op} \hook
 +-- {: .proof}
 ###### Proof
 
-We can choose degreewise [[good open cover]]s 
+Let first $X \in SmoothMfd \hookrightarrow SmoothMfd^{\Delta^{op}}$ be simplicially constants. Then there is a differentiably [[good open cover]] $\{U_i \to X\}$ such that the [[Cech nerve]] projection
+
+$$
+  \left(
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
+     U_{i_0} \times_X \cdots \times_X U_{i_k}
+  \right)
+   \stackrel{\simeq}{\to}
+  X
+$$
+
+is a cofibrant [[resolution]] in $[CartSp_{smooth}^{op}, sSet]_{proj,loc}$ which is degreewise a [[coproduct]] of representables. That means that the left [[derived functor]] $\mathbb{L} Lan_i$ on $X$ is computed by the application of $Lan_i$ on this coend, which by the fact that this is defined to be the left [[Kan extension]] along $i$ is given degreewise by $i$, and since $i$ preserves [[pullback]]s along covers, this is
+
+$$
+  \begin{aligned}
+    (\mathbb{L} Lan_i) X 
+    & \simeq
+    Lan_i 
+    \left(
+      \int^{[k] \in \Delta}
+      \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
+       U_{i_0} \times_X \cdots \times_X U_{i_k}
+    \right)
+    \\
+    & = 
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
+         Lan_i 
+           (U_{i_0} \times_X \cdots \times_X U_{i_k})
+   \\
+    & \simeq
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
+         Lan_i 
+           (U_{i_0} \times_X \cdots \times_X U_{i_k})
+   \\
+    & \simeq
+  \int^{[k] \in \Delta}
+    \Delta[k] \cdot \coprod_{i_0, \cdots, i_k}
+           (i(U_{i_0}) \times_{i(X)} \cdots \times_{i(X)} i(U_{i_k}))
+   \\
+   & \simeq i(X)
+  \end{aligned}
+  \,,
+$$
+
+The last step follows from observing that we have manifestly the [[Cech nerve]] as before, but now of the underlying [[topological space]]s of the $\{U_i\}$ and of $X$. 
+
+The claim then follows for general simplicial spaces by obsering that $X_\bullet = \int^{[k] \in \Delta} \Delta[k] X_k \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ presents the  [[(∞,1)-colimit]] over $X_\bullet : \Delta^{op} \to SmoothMfd \hookrightarrow Smooth \infty Grpd$ and the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $i_!$ preserves these [[(∞,1)-colimit]]s. 
 
 =--
 
 
 +-- {: .un_prop}
-###### Proposition
+###### Corollary
 
-Let $X \in Smooth \infty Grpd$ have a presentation by a [[simplicial presheaf]] $X_\bullet \in [CartSp_{smooth}, sSet]$ that degreewise is a [[paracompact topological space|paracompact]] [[smooth manifold]]. Then the image of $X$ under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor
+If $X \in Smooth\infty Grpd$ is presented by $X_\bullet \in SmoothMfd^{op} \hookrightarrow [CartSp_{smooth}^{op}, sSet]$,
+then the image of $X$ under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor
 
 $$
   Smooth \infty Grpd \stackrel{\Pi}{\to}
   \infty Grpd
-  \underoverset{|-|}{\simeq}
+  \underoverset{|-|}{\simeq}{\to}
   Top
 $$
 
@@ -373,12 +424,8 @@ is equivalent to the standard [[fundamental ∞-groupoid]] of $X$.
 +-- {: .proof}
 ###### Proof
 
-Due to the existence of 
-[differentiably good open covers](#DifferentiablyGoodOpenCover)
-of [[paracompact manifold|paracompact]] [[smooth manifold]]s
-the results about the 
-[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]
-diucssed at  [[ETop∞Grpd]] carry over directly to $Smooth \infty Grpd$.
+By a [proposition above](#UnderlyingETopologicalInftyGroupoids) the functor $\Pi$ factors as $\Pi X \simeq \Pi_{ETop} i_! X$. By the 
+[above proposition](#UnderlyingSimplicialTopologicalSpace) this is $\Pi_{Etop}$ applied to the underlying [[simplicial topological space]]. The claim then follows with the [corresponding proposition](#http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy) discussed at [[ETop∞Grpd]].
 
 =--
 
