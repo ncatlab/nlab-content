@@ -117,7 +117,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-If a [[category]] with [[zero morphism]], [[coproducts]] and [[products]] carries any [[natural isomorphism]] between [[coproducts]] and [[products]], then it is semi-additive.
+If a [[category]] with finite [[coproducts]] and [[products]] carries any [[natural isomorphism]] between [[coproducts]] and [[products]], then it is semi-additive.
 
 =--
 
