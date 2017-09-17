@@ -1,6 +1,26 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
+
+* [[object]]
+
+* [[morphism]]
+
+* [[2-morphism]]
+
+* [[3-morphism]]
+
+* **k-morphism**
+
+***
+
 
 # Higher morphisms ($k$-morphisms)
 * table of contents
