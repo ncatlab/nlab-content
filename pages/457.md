@@ -30,3 +30,6 @@ An inhabited set is the special case of an [[inhabited object]] in the [[topos]]
 [[!redirects nonempty subset]]
 [[!redirects non-empty subsets]]
 [[!redirects non-empty subsets]]
+
+[[!redirects nonempty]]
+[[!redirects non-empty]]
