@@ -3,6 +3,8 @@
 
 ## In a 1-category
 
+* [[Bishop set]]
+
 * [[internal category]], [[internal groupoid]]
 
   [[weak equivalence of internal categories]]
