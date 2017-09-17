@@ -16,51 +16,201 @@
 
 ## Idea
 
-Local nets are a structure used in [[AQFT]] in order to axiomatize local algebras of observables in [[quantum field theory]].
+A _local net of observables_ is the assignment associated to a [[quantum field theory]] of [[algebra]]s of local [[observables]] to pieces of [[spacetime]].
+
+In the context of [[AQFT]] the structure of local nets is used as the very axiomatization of what a quantum field theory is (as opposed to the context of [[FQFT]], where instead the [[state]]-propagation is used as the basic axiom).
+
 
 ## Definition
 
-Let $X$ be a [[topological space]]. A co-[[presheaf]] on the [[category of open subsets]] of $X$
+In the literature there is a certain variance and flexibility of what precisely the axioms on a local net of obserables are, though the core aspects are always the same: it is a [[copresheaf]] of ([[C-star algebra|C-star]] [[associative algebra|algebra]] s) on pieces of [[spacetime]] such that algebras assigned to [[causal locality|causally disconnected]] regions commute inside the algebra assigned to any joint neighbourhood. 
+
+Historically this was first formulated for [[Minkowski spacetime]] only, where it is known as the [[Haag-Kastler axioms]]. Later it was pointed out ([BrunettiFredenhagen](#BrunettiFredenhagen)) that the axioms easily and usefully generalize to arbitrary [[spacetime]]s. 
+
+We give the modern general formulation first, and then comment on its restriction to special situations.
+
+### Basic general definition
+
++-- {: .num_defn #CatOfSpacetimeEmbeddings}
+###### Definition
+
+Write $LorSp$ for the [[category]] whose
+
+* [[object]]s are [[spacetime]] manifolds; ([[Lorentzian manifold]]s equipped with a time-orientation);
+
+* [[morphism]] are _causal_ [[isometry|isometric]] [[embedding]].
+
+Here we say a morphism $f : X \hookrightarrow Y$ is a **causal embedding** if for every two points $x_1,x_2 \in X$ we have that $f(x_1)$ is in the [[future]] of $f(x_2)$ in $Y$ only if $x_1$ is in the future of $x_2$ in $X$.
+
+=--
+
+
+Write $Alg$ for a suitable [[category]] of [[associative algebra]]s. Usually this is taken to be the category of [[C-star algebra]]s or that of [[von Neumann algebra]]s. Write
 
 $$
-  A : Op(X) \to T
+  Alg_{inc} \hookrightarrow Alg
 $$
 
-is a **net** if it is "co-flabby", i.e. if it sends every inclusion to a [[monomorphism]].
+for the [[subcategory]] on the [[monomorphism]]s.
 
-If 
++-- {: .num_defn}
+###### Definition
 
-* the net takes values in [[algebra]]s;
-
-* there is given the structure of a [[Lorentzian manifold]] on $X$
-
-the net $A$ is called _(causally) local_ precisely if for all open subset $O_1, O_2 \subset O$ the images of the algebras $A(O_1)$ and $A(O_2)$ in $A(O)$ commute whenever $O_1$ and $O_2$ are completely [[spacelike]] seperated
+A **causally local net of observables** is a [[functor]]
 
 $$
-  (A local)
-  \Leftrightarrow
-  \left(
-  (O_1 spacelike to O_2) \Rightarrow [A(O_1),A(O_2)] = 0 
-  \right)
+  \mathcal{A} : LorSp \to Alg_{inc} \to Alg
 $$
 
-This [[axiom]] encodes the the physical property known as [[Einstein-causality]] or micro-causality, which states that physical effects do not propagate faster that the speed of like.
+such that whenever $X_1 \coprod X_2 \hookrightarrow X$ is a causal embedding, def. \ref{CatOfSpacetimeEmbeddings}, we have that $\mathcal{A}(X_1) \subset \mathcal{A}(X)$ commutes with $\mathcal{A}(X_2) \subset \mathcal{A}(X)$.
 
-It is to be noted that many auxiliary [[operator]]s in usual [[quantum field theory]] do _not_ satisfy this axioms, for instance operators associate to [[current]]s in [[gauge theory]]. The idea is that those operators that actually do qualify as _[[observables]]_ do satisfy the axiom, however, i.e. in particular those that are [[gauge symmetry|gauge invariant]].
+=--
 
-## Related concepts
++-- {: .num_remark}
+###### Remark
 
-### Factorization algebras
+The locality [[axiom]] encodes the the physical property known as [[Einstein-causality]] or micro-causality, which states that physical effects do not propagate faster that the speed of light.
 
-There is a version of the notion of local nets for Euclidean spaces. This is closely related to the notion of [[factorization algebra]].
+=--
 
-### Conformal nets
++-- {: .num_remark}
+###### Remark
+
+Many _auxiliary_ [[operator]]s in [[quantum field theory]] do _not_ satisfy causal locality: for instance operators associate to [[current]]s in [[gauge theory]]. The idea is that those operators that actually do qualify as _[[observables]]_ do satisfy the axiom, however, i.e. in particular those that are [[gauge symmetry|gauge invariant]].
+
+=--
+
+### Extra axioms
+
+#### Strong locality
+
+Commutativity of spacelike separated observables can be argued to capture only part of [[causal locality]]. 
+
+A natural stronger requirement is that [[spacelike]] separated regions of [[spacetime]] are literally [independent quantum subsystems](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems) of any larger region. By the formalization of _independent subsystem_ in [[quantum mechanics]] this means the following:
+
++-- {: .num_defn}
+###### Definition
+
+A local net $\mathcal{A}$ satisfies **Einstein locality** if for every causal embedding $X_1 \coprod X_2 \to X$ the [subsystems](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems) 
+
+$$
+  \mathcal{A}(X_1) \hookrightarrow \mathcal{A}(X)
+$$
+
+and 
+
+$$
+  \mathcal{A}(X_2) \hookrightarrow \mathcal{A}(X)
+$$
+
+are _independent_ meaning that the algebra $\mathcal{A}(X_1) \vee \mathcal{A}(X_2) \in \mathcal{A}(X)$ which they generate is [[isomorphism|isomorphic]] to the [[tensor product]] $\mathcal{A}(X_1) \otimes \mathcal{A}(X_2)$.
+
+=--
+
+This appears as ([BrunettiFredenhagen, 5.3.1, axiom 4](#BrunettiFredenhagen)).
+
++-- {: .num_observation}
+###### Observation
+
+A local net  is Einstein local precisely if it is a [[monoidal functor]]
+
+$$
+  \mathcal{A} : (LorSp, \coprod) \to (Alg, \otimes)
+  \,.
+$$
+
+=--
+
+
+This appears as ([BrunettiFredenhagen, 5.3.1, theorem 1](#BrunettiFredenhagen)).
+
+
++-- {: .num_remark}
+###### Remark
+
+Einstein locality implies causal locality, but is stronger.
+
+=--
+
+Other properties implied by Einstein locality are sometimes extracted as separate axioms. For instance the condition that for $X_1 \coprod X_2 \to X$ a causal embedding, we have
+
+$$
+  \mathcal{A}(X_1) \cap \mathcal{A}(X_2) = \mathbb{C}
+  \,.
+$$
+
+
+#### Time-slice axiom
+
++-- {: .num_defn}
+###### Definition
+
+A local net is said to satisfy the **time slice axiom** if whenever 
+
+$$
+  i : X_1 \to X_2
+$$
+
+is a causal embedding of [[globally hyperbolic]] [[spacetime]]s such that $X_1$ contains a [[Cauchy surface]] of $X_2$, then 
+
+$$
+  \mathcal{A}(i) : \mathcal{A}(X_1) \stackrel{\simeq}{\to}
+   \mathcal{A}(X_2)
+$$
+
+is an [[isomorphism]].
+
+=--
+
+
+#### Duality
+
+See [[dual net of von Neumann algebras]]
+
+#### Positive energy condition
+
+(...)
+
+
+#### Spectrum condition
+
+(...)
+
+
+### Special cases and variants
+
+#### Minkowski nets / Vacuum representation
+
+* [[Haag-Kastler vacuum representation]]
+
+#### Conformal nets
 
 The notion of local net in the context of [[conformal field theory]] is a [[conformal net]].
 
+## Examples
+
+
+
+## Related concepts
+
+
+* [[factorization algebra]], [[chiral algebra]], [[topological chiral homology]], [[blob complex]].
+
+
 ## References
 
-for the moment see the references at [[AQFT]].
+See also the references at [[AQFT]].
+
+The axioms of local nets on general spacetimes were first articulated in
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ ([arXiv:0901.2063](http://arxiv.org/abs/0901.2063))
+ {#BrunettiFredenhagen}
+
+A comprehensive review, with plenty of background information, is in
+
+* [[Christian Bär]], [[Klaus Fredenhagen]], (eds.) _Quantum field theory on curved spacetime_ , Lecture notes in physics, Springer (2009)
+  {#BaerFredenhagen}
+
 
 [[!redirects local nets]]
 
@@ -70,3 +220,8 @@ for the moment see the references at [[AQFT]].
 [[!redirects nets of observables]]
 [[!redirects local net of observables]]
 [[!redirects local nets of observables]]
+
+[[!redirects causal net]]
+[[!redirects causal nets]]
+[[!redirects causal net of algebras]]
+[[!redirects causal nets of algebras]]
