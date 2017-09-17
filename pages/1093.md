@@ -419,11 +419,12 @@ Every sheaf topos satisfies the following [[exactness properties]]. it is an
 
 ## Related concepts
 
-
 * **category of sheaves**
 
 * [[(∞,1)-category of (∞,1)-sheaves]].
 
+
+[[!include locally presentable categories - table]]
 
 
 ## References
