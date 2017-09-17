@@ -17,7 +17,7 @@
 
 ### Idea 
 
-For $G$ a [[Lie group]], the _Maurer-Cartan form_ on $G$ is a canonical [[Lie-algebra valued 1-form]] on $G$.
+For $G$ a [[Lie group]], the _Maurer-Cartan form_ on $G$ is a canonical [[Lie-algebra valued 1-form]] on $G$. One can generalize also to the Maurer-Cartan form on a principal bundle. 
 
 ### Synthetic definition
 
@@ -126,7 +126,7 @@ $$
 This solves a differential equation as above, but for a different 1-form $A'$. The relation is 
 
 $$
-  A' = Ad_{g} A + g^* \theta
+  A' = Ad_{g^{-1}} A + g^* \theta
 $$
 
 or equivalently, with adopted notation
