@@ -5,7 +5,7 @@
 
 ## Definition
 
-In [[linear algebra]] and [[functional analysis]], a __functional__ is a [[function]] $V \to k$ from a [[vector space]] to the [[ground field]] $k$.  (This is a [[functional]] in the sense of [[higher-order logic]] if the elements of $V$ are themselves functions.)  Then a __linear functional__ is a [[linear map|linear]] such function, that is a [[morphism]] $V \to k$ in $k$-[[Vect]].  In the case that $V$ is a [[topological vector space]], a __continuous linear functional__ is a [[continuous map|continuous]] such map (and so a morphism in the category [[TVS]]).  When $V$ is a [[Banach space]], we speak of __[[bounded operator|bounded]] linear functionals__, which are the same as the continuous ones.  In an algebraic context, one may also use the term __linear form__, especially to distinguish from [[bilinear forms]], [[quadratic forms]], and the like.
+In [[linear algebra]] and [[functional analysis]], a __linear functional__ (often just _functional_ for short) is a [[function]] $V \to k$ from a [[vector space]] to the [[ground field]] $k$.  (This is a [[functional]] in the sense of [[higher-order logic]] if the elements of $V$ are themselves functions.)  Then a __linear functional__ is a [[linear map|linear]] such function, that is a [[morphism]] $V \to k$ in $k$-[[Vect]].  In the case that $V$ is a [[topological vector space]], a __continuous linear functional__ is a [[continuous map|continuous]] such map (and so a morphism in the category [[TVS]]).  When $V$ is a [[Banach space]], we speak of __[[bounded operator|bounded]] linear functionals__, which are the same as the continuous ones.  In an algebraic context, one may also use the term __linear form__, especially to distinguish from [[bilinear forms]], [[quadratic forms]], and the like.
 
 
 ## Remarks
@@ -13,6 +13,12 @@ In [[linear algebra]] and [[functional analysis]], a __functional__ is a [[funct
 In a sense, linear functionals are co-probes for vector spaces. If the vector space $V$ in question has finite [[dimension]] and is equipped with a [[basis]], then all linear functionals are [[linear combinations]] of the [[coordinate projection]]s. These projections comprise the _[[dual basis]]_.
 
 In infinite-dimensional [[topological vector spaces]], the notion of dual basis breaks down once spaces more general than [[Hilbert spaces]] are considered. But for [[locally convex spaces]], the [[Hahn–Banach theorem]] ensures the existence of 'enough' continuous linear functionals.  Among non-LCSes, however, there are examples such that the only continuous linear functional is the constant map onto $0 \in k$.
+
+
+## Related concepts
+
+* [[nonlinear functional]]
+
 
 
 [[!redirects linear functional]]
