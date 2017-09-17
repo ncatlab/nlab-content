@@ -15,16 +15,19 @@
 
 ## Idea
 
-For $(X, \omega)$ a [[symplectic manifold]], a **polarization** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
+For $(X, \omega)$ a [[symplectic manifold]], a **real polarization** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
 
-After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **[[Bohr-Sommerfeld leaf]]** of a polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]].
+After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **[[Bohr-Sommerfeld leaf]]** of a real polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]] with connection.
 
-In [[geometric quantization]] the space of [[states]] is obtained as the subspace of the space of [[sections]] of a [[prequantum line bundle]] over a symplectic manifold consisting of _horizontal sections_, i.e. sections whose [[covariant derivative]] along the [[leafs]] of a polarization is constant.
+In [[geometric quantization]] the space of [[states]] is obtained as the subspace of the space of [[sections]] of a [[prequantum line bundle]] over a symplectic manifold consisting of _horizontal sections_, i.e. sections whose [[covariant derivative]] along the [[leafs]] of a real polarization is constant.
 
 ## References
 
 For instance section 5 of 
 
 * A. Echeverria-Enriquez, M.C. Munoz-Lecanda, N. Roman-Roy, C. Victoria-Monge, _Mathematical Foundations of Geometric Quantization_ Extracta Math. 13 (1998) 135-238 ([arXiv:math-ph/9904008](http://arxiv.org/abs/math-ph/9904008))
+
+* Yuichi Nohara, _Independence of Polarization
+in Geometric Quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
 
 [[!redirects polarizations]]
