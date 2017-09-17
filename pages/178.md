@@ -206,7 +206,7 @@ $$
   ETop\infty Grpd
 $$
 
-such that the [[(∞,1)-Yoneda embedding]] is factored through the induced inclusuion [[SmoothMfd]] $\stackrel{i}{\hookrightarrow}$ [[Mfd]] as
+such that the [[(∞,1)-Yoneda embedding]] is factored through the induced inclusion [[SmoothMfd]] $\stackrel{i}{\hookrightarrow}$ [[Mfd]] as
 
 $$
   \array{
@@ -333,7 +333,9 @@ We discuss the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-top
 +-- {: .un_prop #UnderlyingSimplicialTopologicalSpace}
 ###### Proposition
 
-If $X \in Smooth\infty Grpd$ is presented by $X_\bullet \in SmoothMfd^{op} \hookrightarrow [CartSp_{smooth}^{op}, sSet]$, then its image $i_!(X) \in $ [[ETop∞Grpd]] under the [relative topological cohesion morphism](#RelativeTopologicalCohesion) is presented by the underlying [[simplicial topological space]] $X_\bullet \in Mfd^{op} \hookrightarrow [CartSp_{top}^{op}, sSet]$.
+If $X \in Smooth\infty Grpd$ is presented by 
+$X_\bullet \in SmoothMfd^{\Delta^{op}} \hookrightarrow [CartSp_{smooth}^{op}, sSet]$, then its image $i_!(X) \in $ [[ETop∞Grpd]] under the [relative topological cohesion morphism](#RelativeTopologicalCohesion) is presented by the underlying [[simplicial topological space]] 
+$X_\bullet \in TopMfd^{\Delta^{op}} \hookrightarrow [CartSp_{top}^{op}, sSet]$.
 
 =--
 
@@ -389,7 +391,7 @@ $$
 
 The last step follows from observing that we have manifestly the [[Cech nerve]] as before, but now of the underlying [[topological space]]s of the $\{U_i\}$ and of $X$. 
 
-The claim then follows for general simplicial spaces by observing that $X_\bullet = \int^{[k] \in \Delta} \Delta[k] X_k \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ presents the  [[(∞,1)-colimit]] over $X_\bullet : \Delta^{op} \to SmoothMfd \hookrightarrow Smooth \infty Grpd$ and the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $i_!$ preserves these [[(∞,1)-colimit]]s. 
+The claim then follows for general simplicial spaces by observing that $X_\bullet = \int^{[k] \in \Delta} \Delta[k] \cdot X_k \in [CartSp_{smooth}^{op}, sSet]_{proj,loc}$ presents the  [[(∞,1)-colimit]] over $X_\bullet : \Delta^{op} \to SmoothMfd \hookrightarrow Smooth \infty Grpd$ and the [[left adjoint|left]] [[adjoint (∞,1)-functor]] $i_!$ preserves these [[(∞,1)-colimit]]s. 
 
 =--
 
@@ -397,7 +399,8 @@ The claim then follows for general simplicial spaces by observing that $X_\bulle
 +-- {: .un_prop}
 ###### Corollary
 
-If $X \in Smooth\infty Grpd$ is presented by $X_\bullet \in SmoothMfd^{op} \hookrightarrow [CartSp_{smooth}^{op}, sSet]$,
+If $X \in Smooth\infty Grpd$ is presented by 
+$X_\bullet \in SmoothMfd^{\Delta^{op}} \hookrightarrow [CartSp_{smooth}^{op}, sSet]$,
 then the image of $X$ under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]-functor
 
 $$
