@@ -1,3 +1,2 @@
-##Idea
 
-A discrete event system is a mathematical model of a system (such as a computational device) that communicates with its environment by atomic actions (called events). For example, a user of the system pressing a button could send a signal to a controller. These events are assumed to be discrete in the sense that they occur instantaneously (as opposed to over a period of time).
+A __discrete event system__ is a mathematical model of a system (such as a computational device) that communicates with its environment by atomic actions (called _events_). For example, a user of the system pressing a button could send a signal to a controller. These events are assumed to be discrete in the sense that they occur instantaneously (as opposed to over a period of time).
