@@ -1,0 +1,14 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[vector bundle]] with [[connection on a vector bundle]] which is [[flat connection|flat]].
+
+## Related entries
+
+* [[local system]]
+
+[[!redirects flat vector bundles]]
