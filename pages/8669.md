@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,7 +22,7 @@
 
 To every nonsingular [[algebraic curve]] $C$ (over the [[complex numbers]]) of [[genus of a surface|genus]] $g$ one associates the Jacobian variety or simply Jacobian $J(C)$ either via [[differential 1-forms]] or equivalently via [[line bundles]]:
 
-the Jacobian is the the [[moduli space]] of degree $0$ [[line bundles]] over $C$, i.e. the connected component $Pic_X^0$ of the identity of the [[Picard scheme]] of $C$.
+the Jacobian is the the [[moduli space]] of [[degree of a coherent sheaf|degree]]-$0$ [[line bundles]] over $C$, i.e. the connected component $Pic_X^0$ of the identity of the [[Picard scheme]] of $C$.
 
 Jacobian varieties are the most important class of [[abelian varieties]]. 
 
@@ -17,6 +32,8 @@ The __Abel-Jacobi map__ $C\to J(C)$ is defined with help of [[periods]].
 (one should also cover Abel-Jacobi theorem)
 
 ## Related concepts
+
+* [[Albanese variety]]
 
 [[!include moduli of higher lines -- table]]
 
