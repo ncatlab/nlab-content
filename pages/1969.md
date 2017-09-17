@@ -201,8 +201,8 @@ By developing these constructions further, one obtains
 a canonical  [[simplicial model category]]-resolution of 
 (left proper and combinatorial) model categories $C$, such that 
 the simplicial resolutions given by framings are just the 
-cofibrant$\to$fibrant $sSet$-hom objects as 
-[above](#EnrichedHomsCofToFib).
+cofibrant$\to$fibrant $sSet$-hom objects as discussed
+[below](#EnrichedHomsCofToFib).
 
 This is discussed at _[Simplicial Quillen equivalent models](http://ncatlab.org/nlab/show/simplicial+model+category#SimpEquivMods)_.
 
