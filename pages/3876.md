@@ -21,8 +21,13 @@ A [[differential operator|differential]] or [[pseudodifferential operator]] is *
 
 * [[elliptic chain complex]]
 
+* [[index theory]], [[KK-theory]]
+
 ## References
 
 * [eom](http://eom.springer.de/e/e035500.htm)
 
 [[!redirects elliptic operator]]
+
+[[!redirects elliptic operators]]
+[[!redirects elliptic differential operators]]
