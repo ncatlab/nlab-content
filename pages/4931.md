@@ -45,7 +45,7 @@ A simple result on the _homeomorphism_ type of _closed_ balls is the following:
 
 +-- {: .un_thm}
 ######Theorem 
-A compact convex subset $D$ in $\mathbb{R}^n$ with nonempty interior is homeomorphic to $D^n$. 
+A [[compact]] [[convex]] [[subset]] $D$ in $\mathbb{R}^n$ with [[nonempty]] [[interior]] is [[homeomorphic]] to $D^n$. 
 =-- 
 
 +-- {: .proof}
@@ -60,7 +60,7 @@ Shouldn't the claim be obvious?
 
 * It's injective: for this we need to show that if $v, w \in \partial D$ are distinct points, then neither is a positive multiple of the other. Supposing otherwise, we have $w = t v$ for $t \gt 1$, say. Let $B$ be a ball inside $D$ containing $0$; then the convex hull of $\{w\} \cup B$ is contained in $D$ and contains $v$ as an interior point, contradiction.  
 
-So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between compact Hausdorff spaces, is a homeomorphism. 
+So the unit vector map, being a continuous bijection $\partial D \to S^{n-1}$ between compact [[Hausdorff space]]s, is a homeomorphism. 
 =--
 
 +-- {: .un_cor}
