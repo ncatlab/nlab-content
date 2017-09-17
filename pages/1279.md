@@ -141,7 +141,7 @@ The **[[substitution rule]]** is
     \frac{
       \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
     }{
-      \vec{\phi}[\vec{s}/\vec{x}] \vdash_{\vec{y}\colon \vec{U}} \psi[\vec{s}/\vec{y}]
+      \vec{\phi}[\vec{s}/\vec{x}] \vdash_{\vec{y}\colon \vec{U}} \psi[\vec{s}/\vec{x}]
     }
     \,,
   $$
@@ -154,7 +154,7 @@ or
     }
     \,,
   $$
-  where $a$ is any [[interpretation]] of $\Gamma$ in $\Delta$.  Explicitly, such an interpretation is a list $\vec{s}$ of [[terms]] (of the same length as the list which is the context $\Gamma$), where each term $s_i$ is a term over $\Sigma$ of type $T_i$ in the context $\Delta$.  Then $a^*\phi_i$, or $\phi_i[\vec{s}/\vec{x}]$, is obtained from $\phi$ by substituting each $s_i$ for the corresponding $x_i$, and $a^*\vec{\phi}$ (and $a^*\vec{\psi}$) are obtained by applying this substitution to every proposition in the list.  Of course, this rule is vacuous if $\Sigma$ has no terms.
+  where $a$ is any [[interpretation]] of $\Gamma$ in $\Delta$.  Explicitly, such an interpretation is a list $\vec{s}$ of [[terms]] (of the same length as the list which is the context $\Gamma$), where each term $s_i$ is a term over $\Sigma$ of type $T_i$ in the context $\Delta$.  Then $a^*\phi$, or $\phi[\vec{s}/\vec{x}]$, is obtained from $\phi$ by substituting each $s_i$ for the corresponding $x_i$, and $a^*\vec{\phi}$ (and $a^*\vec{\psi}$) are obtained by applying this substitution to every proposition in the list.  Of course, this rule is vacuous if $\Sigma$ has no terms.
 
 The **[[cut rule]]** is
   $$
@@ -221,34 +221,220 @@ Some or all of these rules may be dropped in a [[substructural logic]].  However
 +-- {: .num_defn }
 ###### Rules (logical rules)
 
-The **[[truth]] rules** are ...
+The **[[truth]] rule** is
+  $$
+    \frac{
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \top
+    }
+    \,;
+  $$
+that is, any sequent is valid if the necessarily true statement is in the succedent.
 
-The **[[falsehood]] rules** are ...
+[[de Morgan duality|Dually]], the **[[falsehood]] rule** is
+  $$
+    \frac{
+    }{
+      \vec{\phi}, \bot \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+    }
+    \,;
+  $$
+that is, any sequent is valid if the necessarily false statement is in the antecedent.
 
-The **binary [[conjunction]] rules** are ...
+The **binary [[conjunction]] rules** are
+  $$
+    \frac{
+      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+    }{
+      \vec{\phi}, \psi \wedge \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+    }
+    \,
+  $$
+and
+  $$
+    \frac{
+      \vec{\phi}, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+    }{
+      \vec{\phi}, \psi \wedge \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+    }
+    \,
+  $$
+on the left and
+  $$
+    \frac{
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi)
+        \;\;\;
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \omega)
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi \wedge \omega
+    }
+    \,
+  $$
+on the right.
 
-The **binary [[disjunction]] rules** are ...
+Dually, the **binary [[disjunction]] rules** are
+  $$
+    \frac{
+      (\vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+        \;\;\;
+      (\vec{\phi}, \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+    }{
+      \vec{\phi}, \psi \vee \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+    }
+    \,
+  $$
+on the left and
+  $$
+    \frac{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi \vee \omega
+    }
+    \,
+  $$
+and
+  $$
+    \frac{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \omega
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi \vee \omega
+    }
+    \,
+  $$
+on the right.
 
-The **[[negation]] rules** are ...
+The **[[negation]] rules** are
+  $$
+    \frac{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi
+    }{
+      \vec{\phi}, \neg{\chi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+    }
+    \,
+  $$
+and
+  $$
+    \frac{
+      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \neg{\psi}
+    }
+    \,;
+  $$
+in other words, a proposition may be moved to the other side if it is replaced by its negation.
 
-The **[[conditional|implication]] rules** are ...
+The **[[conditional]] rules** are
+  $$
+    \frac{
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \psi)
+        \;\;\;
+      (\chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+    }{
+      \vec{\phi}, \psi \to \chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}
+    }
+    \,
+  $$
+and
+  $$
+    \frac{
+      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \omega
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \psi \to \omega
+    }
+    \,.
+  $$
 
-The **[[relative complement]] rules** are ...
+Dually, the **[[relative complement]] rules** are
+  $$
+    \frac{
+      \vec{\phi}, \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}, \omega
+    }{
+      \vec{\phi}, \psi \setminus \omega \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+    }
+    \,
+  $$
+and
+  $$
+    \frac{
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \psi)
+        \;\;\;
+      (\chi \vdash_{\vec{x}\colon \vec{T}} \vec{\omega})
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\omega}, \psi \setminus \chi
+    }
+    \,.
+  $$
 
-The **[[equality]] rules** are ...
+The **[[equality]] rules** are
+  $$
+    \frac{
+      (\vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \chi[s/y])
+        \;\;\;
+      (\chi[t/y] \vdash_{\vec{x}\colon \vec{T}} \vec{\psi})
+    }{
+      \vec{\phi}, (s = t) \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}
+    }
+    \,,
+  $$
+where $s$ and $t$ are any [[terms]] of the same [[type]] $U$ in the context $\vec{x}\colon \vec{T}$ and $\chi$ is a proposition in the context $(\vec{x}\colon \vec{T}, y\colon U)$, and
+  $$
+    \frac{
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, (s = s)
+    }
+    \,,
+  $$
+where $s$ is any [[term]] of any type in the context $\vec{x}\colon \vec{T}$.
 
-The **[[universal quantification]] rules** are ...
+One could (but rarely does) introduce dual [[apartness]] rules.
 
-The **[[existential quantification]] rules** are ...
+The **[[universal quantification]] rules** are
+  $$
+    \frac{
+      \vec{\phi}, \psi[s/y] \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+    }{
+      \vec{\phi}, \forall(y\colon U) \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+    }
+    \,,
+  $$
+where $s$ is a term of type $U$ in the context $\vec{x}\colon \vec{T}$ and $\psi$ is a proposition in the context $(\vec{x}\colon \vec{T}, y\colon U)$, and
+  $$
+    \frac{
+      \vec{\phi}[\hat{y}] \vdash_{\vec{x}\colon \vec{T}, y\colon U} \vec{\psi}[\hat{y}], \chi
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \forall(y\colon U) \chi
+    }
+    \,,
+  $$
+where $\phi[\hat{y}]$ is the proposition in the context $(\vec{x}\colon \vec{T}, y\colon U)$ produced by [[weakening rule|weakening]] (in the type context) the proposition $\phi$ in the context $\vec{x}\colon \vec{T}$ (and similarly for a list of propositions).
+
+Dually, the **[[existential quantification]] rules** are
+  $$
+    \frac{
+      \vec{\phi}[\hat{y}], \psi \vdash_{\vec{x}\colon \vec{T}, y\colon U} \vec{\chi}[\hat{y}]
+    }{
+      \vec{\phi}, \exists(y\colon U) \psi \vdash_{\vec{x}\colon \vec{T}} \vec{\chi}
+    }
+    \,
+  $$
+and
+  $$
+    \frac{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \chi[s/y]
+    }{
+      \vec{\phi} \vdash_{\vec{x}\colon \vec{T}} \vec{\psi}, \exists(y\colon U) \chi
+    }
+    \,.
+  $$
 =--
 
-We have written the rules _multiplicatively_, which works best when using (dual)-intuitionistic or (dual)-minimal sequents, but it is also possible to write them in a slightly different _additive_ manner.  This makes a difference if some of the [[structural rules]] are abandoned; [[linear logic]] uses both rules but for different connectives.
+We have written the rules _additively_, which works best when using (dual)-intuitionistic or (dual)-minimal sequents, but it is also possible to write them in a slightly different _multiplicative_ manner.  This makes a difference if some of the [[structural rules]] are abandoned; [[linear logic]] uses both rules but for different connectives.
 
 Gentzen originally did not include $\top$ or $\bot$, but if $\top$ is defined as $\phi \to \phi$ for any atomic $\phi$ and $\bot$ is defined as $\neg{\top}$, then their rules can be proved.  Similarly, he did not use $\setminus$; we may define $\phi \setminus \psi$ to mean $\phi \wedge \neg{\psi}$.  It would also be possible to leave out $\to$, defining $\phi \to \psi$ as $\neg{\phi} \vee \psi$.  With or without these optional operations and rules, the resulting logic is [[classical logic|classical]].
 
-If we use only those rules that can be stated using intuitionistic sequents, then the result is [[intuitionistic logic]]; this is again true with or without $\top$, $\bot$, or $\setminus$.  However, if we leave out $\to$, then we cannot reconstruct it; the definition of $\to$ using $\neg$ and $\vee$ is not valid intuitionistically.  On the other hand, if we include $\bot$ (and optionally $\top$) but leave out $\neg$ and $\setminus$, then we get intuitionistic logic using all (classical) sequents.  On the other other hand, we could get classical logic using only intuitionistic sequents and adding the law of [[excluded middle]] as an axiom.
+If we use only those rules that can be stated using intuitionistic sequents, then the result is [[intuitionistic logic]]; this is again true with or without $\top$, $\bot$, or $\setminus$.  However, if we leave out $\to$, then we cannot reconstruct it; the definition of $\to$ using $\neg$ and $\vee$ is not valid intuitionistically.  On the other hand, if we include $\bot$ (and optionally $\top$) but leave out $\neg$ and $\setminus$, then we get intuitionistic logic using all (classical) sequents.  (Conversely, we could get classical logic using only intuitionistic sequents and adding the law of [[excluded middle]] as an axiom.)
 
-If we use only those rules that can be stated using minimal sequents, then the result is still intuitionistic logic; but if we also leave out $\bot$, then the result is [[minimal logic]].
+If we use only those rules that can be stated using minimal sequents (so necessarily leaving out $\setminus$), then the result is still intuitionistic logic; but if we also leave out $\bot$, then the result is [[minimal logic]].  Dual results hold for dual-intuitionistic and dual-minimal sequents.
 
 
 ## Cut-free proofs
@@ -256,7 +442,7 @@ If we use only those rules that can be stated using minimal sequents, then the r
 
 The cut rule expresses the composition of proofs.  Gentzen's main result ([Gentzen, Haupsatz](#Gentzen)) is that any derivation that uses the cut rule can be transformed into one that doesn't.  This yields a [[normalization]] algorithm for proofs, which provided much of the inspiration behind [[Lambek]]'s approach to categorical logic.  Similarly, any derivation that uses the identity rule can be transformed into one that uses it only for atomic propositions (those provided by the signature $\Sigma$ and equality).
 
-The most important property of cut-free proofs is that every formula occuring anywhere in a proof is a subformula of a formula contained in the conclusion of the proof (the _subformula property_).  This makes induction over proof-trees much more straightforward than with [[natural deduction]] or other systems.
+The most important property of cut-free proofs is that every formula occurring anywhere in a proof is a subformula of a formula contained in the conclusion of the proof (the _subformula property_).  This makes induction over proof-trees much more straightforward than with [[natural deduction]] or other systems.
 
 See [[cut elimination]] (if we ever write it).
 
@@ -286,7 +472,9 @@ The article
 
 * Wikipedia, _[Sequent calculus](http://en.wikipedia.org/wiki/Sequent_calculus)_
 
-provides a good summary.
+provides a good summary.  So does
+
+* [Sequent Calculus Primer](http://sakharov.net/sequent.html)
 
 In 
 
