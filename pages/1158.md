@@ -390,6 +390,13 @@ See [[Beilinson-Deligne cup-product]].
 
 [[!include moduli of higher lines -- table]]
 
+### GAGA
+ {#GAGA}
+
+The Deligne complex is naturally defined in smooth [[differential geometry]] as well as in [[complex analytic geometry]] as well as in [[algebraic geometry]] over the complex numbers. In the spirit of [[GAGA]] it is of interest to know how Deligne cohomology in these different settings relates.
+
+One useful statement is: given an [[smooth scheme|smooth]] [[algebraic variety]] over the [[complex numbers]], then a sufficient condition for a complex-analytic Deligne cocycle over its [[analytification]] to lift to an algebraic Deligne cocycle is that its [[curvature form]] is an [[Kähler form|algebraic form]] ([Esnault 89, corollary 1.3](#Esnault89)). 
+
 
 ## Examples 
 
@@ -449,7 +456,7 @@ Review with more emphasis on [[complex analytic geometry]] and the theory of ([B
 
 * {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
 
-* {#Henault89} [[Hélène Esnault]], _On the Loday-symbol in the Deligne-Beilinson cohomology_, K-theory 3, 1-28, 1989 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/16-loday-symbol.pdf))
+* {#Esnault89} [[Hélène Esnault]], _On the Loday-symbol in the Deligne-Beilinson cohomology_, K-theory 3, 1-28, 1989 ([pdf](http://www.mi.fu-berlin.de/users/esnault/preprints/helene/16-loday-symbol.pdf))
 
 See also
 
