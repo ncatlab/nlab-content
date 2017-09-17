@@ -146,6 +146,9 @@ If $K$ is regular, so are the [[fibrational slice]]s $Opf(X)$ and $Fib(X)$.
 
 =--
 
+### Regular completion
+
+(...)
 
 ## References
 
