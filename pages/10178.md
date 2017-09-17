@@ -364,36 +364,36 @@ $$
     \\
     \Sigma_{in}
     && &&
-    \Sig,a_{out}
+    \Sigma_{out}
   }
 $$
 
-a [[cobordism]] with incoming and outgoing [[boundary]] [[manifolds]], as indicated, and for $\mathbf{Fields}$ a given [[moduli stack]] of [[field (physics)|fields]] as above, then forming [[mapping spaces]] yields the correspondence
+a [[cobordism]] with incoming and outgoing [[boundary]] [[manifolds]] as indicated, and for $\mathbf{Fields}$ a given [[moduli stack]] of [[field (physics)|fields]] as above, then forming [[mapping spaces]] ([[mapping stacks]]) yields the [[correspondence]]
 
 $$
   \array{
-    && [\Sigma, \mathbf{Fields}]
+    && [\Sigma,\, \mathbf{Fields}]
     \\
     & \swarrow && \searrow
     \\
-    [\partial_{in}\Sigma, \mathbf{Fields}]
+    [\partial_{in}\Sigma,\, \mathbf{Fields}]
     && && 
-    [\partial_{out} \Sigma, \mathbf{Fields}]
+    [\partial_{out} \Sigma,\, \mathbf{Fields}]
   }
 $$
 
 which exhibits field configurations on $\Sigma$ as trajectories along which fields on $\partial_{in} \Sigma$ propagate to $\partial_{out} \Sigma$. 
 
-For example, if here $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field, then this descrive a bunch of [[brane]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
+For example, if here $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field (hence $\mathbf{Fields} = X$ a [[target space]]), then this describe a bunch of [[branes]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] of shape $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
 
 
-Write then $Corr_n(\mathbf{H})^\otimes$ be the [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,n)-category of n-fold correspondences]] of this form. 
+Write then $Corr_n(\mathbf{H})^\otimes$ be the [[(∞,n)-category of n-fold correspondences]] whose [[objects]] are those of $\mathbf{H}$ and whose [[morphisms]] are [[correspondences]] between them, as above. This is [[symmetric monoidal (∞,1)-category|symmetric monoidal]] by objectwise [[Cartesian product]] in $\mathbf{H}$. 
 
 One finds that: 
 
 * _every_ object of $\mathbf{H}$ is self-[[fully dualizable object|fully dualizable]] in $Corr_n(\mathbf{H})^\otimes$;
 
-* the [[higher trace]] $tr_{\Pi(\Sigma)}(\mathbf{Fields})$ of [[shape]] $\Pi(\Sigma)$ of this [[fully dualizable object]] is the [[moduli ∞-stack]] of [[flat modality|flat]] fields on $\Sigma$, the _[[phase space]]_ of fields (for fields of [[∞-Chern-Simons theory]]-type at least).
+* the [[higher trace]] $tr_{\Pi(\Sigma)}(\mathbf{Fields})$ of [[shape]] $\Pi(\Sigma)$ of this [[fully dualizable object]] is the [[moduli ∞-stack]] of [[flat modality|flat]] fields on $\Sigma$ -- this is the _[[phase space]]_ of fields (for fields of [[∞-Chern-Simons theory]]-type at least).
 
 This means, by the [[cobordism hypothesis]],  that a choice of [[moduli ∞-stack]] $\mathbf{Fields} \in \mathbf{H}$ is equivalently a choice of [[monoidal (∞,n)-functor]]
 
@@ -405,7 +405,7 @@ $$
   Corr_n(\mathbf{H})^\otimes
 $$
 
-which sends [[cobordisms]] to the the [[correspondences]] between in- and out-going flat field configurations over the boundary, given by flat [[trajectories]] over the cobordism:
+which sends [[cobordisms]] to the [[phase space]] [[correspondences]] between in- and out-going flat field configurations over the boundary, given by flat [[trajectories]] over the cobordism:
 
 $$
   \left(
@@ -443,9 +443,9 @@ In this way the [[moduli ∞-stack]] $\mathbf{Fields}$ of [[field (physics)|fiel
 
 Next we define the _[[dynamics]]_ by defining a [[local action functional]] which assigns to each [[trajectory]] a [[probability amplitude]] for that trajectory to be "physically realized".
 
-Traditionally, in non-localized [[prequantum field theory]], an (exponentiated) [[action functional]] is a map of the form $\mathbf{Fields}_{traj} \longrightarrow U(1)$. For instance for $\mathbf{Fields}_{traj} \coloneqq [S^1, X]$ the smooth [[loop space]] of a [[manifold]] $X$ that is equipped with a $U(1)$-[[principal connection]] $\nabla$ (an [[electromagnetic field]]), then the [[holonomy]] [[functional]] $hol_\nabla \colon [S^1, X] \to U(1)$ is the [[interaction]] term for the [[charged particle]] [[sigma model]] [[field theory]] on $X$.
+Traditionally, in non-localized [[prequantum field theory]], an (exponentiated) [[action functional]] is a map of the form $\mathbf{Fields}_{traj} \longrightarrow U(1)$. For instance for $\mathbf{Fields}_{traj} \coloneqq [S^1, X]$ the smooth [[loop space]] of a [[manifold]] $X$ that is equipped with a $U(1)$-[[principal connection]] $\nabla \colon X \to \mathbf{B}U(1)_{conn}$ (an [[electromagnetic field]]), then the [[holonomy]] [[functional]] $hol_\nabla \colon [S^1, X] \to U(1)$ is the [[interaction]] term for the [[charged particle]] [[sigma model]] [[field theory]] on $X$.
 
-To see how this is axiomatized in _[[local field theory|local]]_ [[field theory]], notice that there is a [[homotopy fiber product]] diagram of the form
+To see how this is axiomatized in _[[local field theory|local]]_ [[field theory]], notice that there is a [[homotopy fiber product]] [[diagram]] of the form
 
 $$
   \array{
@@ -455,14 +455,14 @@ $$
    \\
    \ast && \swArrow_\simeq && \ast
    \\
-   {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
+   & {}_{\mathllap{0}}\searrow && \swarrow_{\mathrlap{0}}
    \\
    && \mathbf{B}U(1)
   }
   \,.
 $$
 
-in $\mathbf{H}$, which exhibts the [[circle group]] (as a [[Lie group]]!) as the [[loop sapce object]] of the [[moduli stack]] of $U(1)$-[[principal bundles]]: $U(1)\simeq \Omega \mathbf{B}U(1)$. By the [[universal property]] of the [[homotopy fiber]], maps $\mathbf{Fields}_{traj} \longrightarrow U(1)$ are therefore equivalent to [[diagrams]] of the form
+in $\mathbf{H}$, which exhibts the [[circle group]] (as a [[Lie group]]!) as the [[loop space object]] of the [[moduli stack]] of $U(1)$-[[principal bundles]]: $U(1)\simeq \Omega \mathbf{B}U(1)$. By the [[universal property]] of the [[homotopy fiber]] construction, this means that maps $\mathbf{Fields}_{traj} \longrightarrow U(1)$ are equivalent to [[diagrams]] of the form
 
 $$
   \array{
@@ -490,7 +490,7 @@ $$
     \\
     \ast
     &\leftarrow& 
-      \mathbf{B}^{n-1}U(1)
+      U(1)
     &\rightarrow&
     \ast
     \\
@@ -501,7 +501,7 @@ $$
   \,.
 $$
 
-More generally, for $[I,X]$ the smooth [[path space]] of $X$, the [[interaction]] term of the [[charge particle]] is not in general a $U(1)$-valued [[function]] on $X$, but is a [[section]] of the $U(1)$-[[principal bundle]] $\chi(\nabla) \colon X \to \mathbf{B}U(1)$ which underlies $\nabla$. This means that it is a diagram of this form:
+More generally, for $[I,X]$ the smooth [[path space]] of $X$, the [[interaction]] term of the [[charged particle]] [[sigma model]] on $(X,\nabla)$ is not in general a $U(1)$-valued [[function]] on $X$, but is a [[section]] of the $U(1)$-[[principal bundle]] $\chi(\nabla) \colon X \to \mathbf{B}U(1)$ which underlies $\nabla$, pulled back to [[path space]] along the two endpoint evaluations. This means that it is a diagram of this form
 
 $$
   \array{
@@ -515,12 +515,11 @@ $$
     \\
     && \mathbf{B}U(1)
   }
-  \,.
 $$
 
-Here it makes sense to think of the original [[background gauge field]] $\nabla \colom X \to \mathbf{B}U(1)_{conn}$ itself as a "higher incarnation" or "local incarnation" of the action functional on pathe _de-[[transgression|transgressed]]_ from [[path space]] back to the manifold itself.
+where now the bottom morphisms are non-trivial, given by the [[background gauge field]]. In view of the above, it makes sense to think of this [[background gauge field]] $\nabla \colom X \to \mathbf{B}U(1)_{conn}$ itself as a "higher incarnation" or "local incarnation" of the action functional on path _de-[[transgression|transgressed]]_ from [[path space]] back to the manifold itself.
 
-There in general we say that a _[[local action functional]]_ for a [[local prequantum field theory]] of [[dimension]] $n$ with field content $\mathbf{Fields} \in \mathbf{H}$ is a map of the form
+Therefore in general we say that a _[[local action functional]]_ for a [[local prequantum field theory]] of [[dimension]] $n$ with [[field (physics)|field]] content $\mathbf{Fields} \in \mathbf{H}$ is a map in $\mathbf{H}$ of the form
 
 $$
   \array{
@@ -535,19 +534,27 @@ $$
 
 hence is a [[circle n-bundle with connection]] on the universal [[moduli ∞-stack]] $\mathbf{Fields}$.
 
-OIne finds that in this localized [[higher prequantum geometry]] formulation, the notion of localized action functional coincides with the notion of _[[local Lagrangian]]_ and also coincides with this notion of _[[higher prequantum bundle]]_ -- by _[[transgression]]_ to lower [[codimension]]:
+Exploring this localized [[higher prequantum geometry]] formulation (e.g. [Fiorenza-Rogers-Schreiber 13a](#FiorenzaRogersSchreiber13a)), one finds that the notion of localized action functional coincides with the notion of _[[local Lagrangian]]_ and also coincides with this notion of _[[higher prequantum bundle]]_ -- by _[[transgression]]_ to lower [[codimension]]:
 
 * the [[transgression]] of $\exp(i S)$ to [[codimension]] 0 is the traditional [[action functional]] $[\Sigma_n, \mathbf{Fields}] \to U(1)$. 
 
-* the [[transgression]] of $\exp(i S)$ to [[codimension]] is the the traditional (off-shell) [[prequantum circle bundle]] $[\Sigma_{n-1}, \mathbf{Fields}] \to \mathbf{B}U(1)_{conn}$.
+* the [[transgression]] of $\exp(i S)$ to [[codimension]] $1$ is the the traditional (off-shell) [[prequantum circle bundle]] $[\Sigma_{n-1}, \mathbf{Fields}] \to \mathbf{B}U(1)_{conn}$;
 
-Therefore just as the [[(∞,1)-topos]] $\mathbf{H}$ itself is the home of [[moduli ∞-stacks]] of [[field (physics)|fields]] ([[kinematics]]) so the collection of all [[local action functionls]] on such moduli $\infty$-stacks ([[dynamoics]]) forms the [[slice (∞,1)-topos]]
+and so on, for instance if we think of $\exp(i S)$ as an [[schreiber:∞-Chern-Simons theory]], then
+
+* the [[transgression]] of $\exp(i S)$ to [[codimension]] $n-1$ is the corresponding [[schreiber:∞-Wess-Zumino-Witten theory]] 
+
+  (e.g. traditional [[WZW model]] if $\nabla$ is the [[universal Chern-Simons circle 3-connection]]; or the [[M5-brane]] [[worldvolume]] theory (supposedly the [[6d (2,0)-superconformal QFT]]) for $\nabla$ the [[supergravity Lie 6-algebra]] [[L-∞ cocycle]] plus the [[universal Chern-Simons circle 7-connection]] and other terms.
+
+
+
+Therefore just as the [[(∞,1)-topos]] $\mathbf{H}$ itself is the home of [[moduli ∞-stacks]] of [[field (physics)|fields]] ([[kinematics]]) so the collection of all [[local action functionals]] on such moduli $\infty$-stacks ([[dynamics]]) forms the [[slice (∞,1)-topos]]
 
 $$
   \mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}
 $$
 
-whose [[objects]] are maps $\left[\array{\mathbf{Fields}} \\ \downarrow^{\mathrlap{\\exp(i S)}} \\ \mathbf{B}^n U(1)_{conn}\right]$ and whose [[morphisms]] are [[diagrams]] of the form
+whose [[objects]] are maps $\left[\array{\mathbf{Fields} \\ \downarrow^{\mathrlap{exp(i S)}} \\  \mathbf{B}^n U(1)_{conn}}\right]$ and whose [[morphisms]] are [[diagrams]] of the form
 
 $$
   \array{
@@ -555,16 +562,17 @@ $$
      && \longrightarrow &&
     \mathbf{Fields}_2
     \\
-    & \searrow &\swArrow_\simeq& \swarrow
+    & {}_{\mathllap{\exp(i S_1)}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\exp(i S_2)}}
     \\
     && \mathbf{B}^{n} U(1)_{conn}
   }
 $$
 
-in $\mathbf{H}$.
+in $\mathbf{H}$. 
 
-Therefore the category $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ of correspondences in the slice contains trajectories equipped with action functionals.
+The [[automorphism ∞-groups]] in this [[(∞,1)-topos]] of [[local action functionals]] are precisely the [[quantomorphism ∞-groups]] (infinitesimally the [[Poisson L-∞ algebras]]), conaining the [[Heisenberg ∞-groups]] (infinitesimally the [[Heisenberg L-∞ algebras]]) of local [[prequantum observables]].
 
+The [[(∞,1)-category]] $Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)_{conn}}\right)$ of [[correspondences]] in the slice contains trajectories equipped with action functionals.
 
 In conclusion, a [[local action functional]] $\exp(i S)$ on a species $\mathbf{Fields}$ of [[field (physics)|physical fields]] a is lift $\exp(i S)$ in
 
@@ -581,8 +589,7 @@ $$
   \,.
 $$
 
-This diagram defines a _[[local prequantum field theory]]_ ([[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect field theory|defects]]).
-
+Such a diagram defines a _[[local prequantum field theory]]_ ([[topological field theory|topological]]+[[boundary field theory|boundary]]+[[defect field theory|defects]]).
 
 
 
@@ -593,80 +600,7 @@ We now survey the linearization step. See ([Nuiten 13, section 3](#Nuiten13)).
 
 $\,$
 
-What we need now for [[quantization]] is a [[path integral]]
-map that adds up the values of the [[action functional]] over the space of trajectories, a functor of the form
-
-$$
-  \int (-)
-  \;\;
-   \colon
-  \;\;
-   Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
-  \to 
-   (E Mod^{\Box^n})^\otimes
-$$
-
-As such this will in general only exist for [[schreiber:∞-Dijkgraaf-Witten theory]] where $\mathbf{Fields}$ is a [[discrete ∞-groupoid]] and hence has a "counting measure". This case has been considered in ([Freed-Hopkins-Lurie-Teleman 09](#FreedHopkinsLurieTeleman09), [Morton 10](#Morton10)).
-
-In the general case the path integral requires that we _choose_ a suitable [[measure]]/[[orientation]] on the spaces of fields. 
-We see below what this means, for the moment we just write 
-
-$$
-  Corr^{or}_n(\mathbf{H}_{/\mathbf{B}^n U(1)})^\otimes
-$$ 
-
-(i.e. with an ${(-)}^{or}$-superscript) as a mnemonic for a suitable [[(∞,n)-category]] of suitably oriented/measured spaces of fields with action functional. Then we may consider lifts of the action functional to _measure-valued_ action functionals
-
-$$
-  \exp(i S) \, d\mu
-  \;\colon\;
-  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
-  \to
-  \left(
-   E Mod^{\Box^n}
-  \right)^\otimes
-  \,.
-$$
-
-A [[path integral]] is then to be a monoidal functor of the form
-
-$$
-  \int(-) \;\colon\;
-  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
-  \to 
-  \left(
-    E Mod^{\Box^n}
-  \right)^\otimes
-  \,.
-$$
-
-This we discuss in the next section. Once we have such a [[path integral]] functor, the [[quantization]] 
-process is its [[composition]] with the given [[prequantum field theory]] $\exp(i S) \, d \mu$ to obtain the genuine quantized [[quantum field theory]]:
-
-$$
-  \array{
-    \underset{\phi \in \mathbf{Fields}}{\int} 
-     \exp(i S(\phi)) \, d \mu(\phi)
-    &
-    \colon
-    &
-    Bord_n^\otimes
-     &\stackrel{\exp(i S)\, d\mu}{\to}& 
-    Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
-    &\stackrel{\int (-) }{\to}&
-    \left(
-     E Mod^{\Box^n}
-    \right)^\otimes
-    \\
-    && & {}_{\mathllap{Fields}}\searrow & \downarrow
-    \\
-    && && Corr_n\left(\mathbf{H}\right)^\otimes
-  }
-  \,.
-$$
-
-
-So before actually quantizing a [[local prequantum field theory]] $\exp(i S) \,d\mu$ as above we need to choose linear [[coefficients]], given by 
+Before actually quantizing a [[local prequantum field theory]] $\exp(i S) \,d\mu$ as above we need to choose linear [[coefficients]], given by 
 
 
 1. a choice of ground [[E-∞ ring]] $E$ 
@@ -783,7 +717,80 @@ We now survey the cohomological quantization step. See ([Nuiten 13, section 4](#
 
 $\,$
 
-We discuss how to [[fiber integration in generalized cohomology|integrate]] $\exp(i S ) \,d\mu$ over $\mathbf{Fields}$ in $E$-modules (this playing the role of the [[path integral]] in plain [[quantum mechanics]]).
+What we need now for [[quantization]] is a [[path integral]]
+map that adds up the values of the [[action functional]] over the space of trajectories, a functor of the form
+
+$$
+  \int (-)
+  \;\;
+   \colon
+  \;\;
+   Corr_n\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to 
+   (E Mod^{\Box^n})^\otimes
+$$
+
+As such this will in general only exist for [[schreiber:∞-Dijkgraaf-Witten theory]] where $\mathbf{Fields}$ is a [[discrete ∞-groupoid]] and hence has a "counting measure". This case has been considered in ([Freed-Hopkins-Lurie-Teleman 09](#FreedHopkinsLurieTeleman09), [Morton 10](#Morton10)).
+
+In the general case the path integral requires that we _choose_ a suitable [[measure]]/[[orientation]] on the spaces of fields. 
+We see below what this means, for the moment we just write 
+
+$$
+  Corr^{or}_n(\mathbf{H}_{/\mathbf{B}^n U(1)})^\otimes
+$$ 
+
+(i.e. with an ${(-)}^{or}$-superscript) as a mnemonic for a suitable [[(∞,n)-category]] of suitably oriented/measured spaces of fields with action functional. Then we may consider lifts of the action functional to _measure-valued_ action functionals
+
+$$
+  \exp(i S) \, d\mu
+  \;\colon\;
+  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to
+  \left(
+   E Mod^{\Box^n}
+  \right)^\otimes
+  \,.
+$$
+
+A [[path integral]] is then to be a monoidal functor of the form
+
+$$
+  \int(-) \;\colon\;
+  Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+  \to 
+  \left(
+    E Mod^{\Box^n}
+  \right)^\otimes
+  \,.
+$$
+
+This we discuss now below. Once we have such a [[path integral]] functor, the [[quantization]] 
+process is its [[composition]] with the given [[prequantum field theory]] $\exp(i S) \, d \mu$ to obtain the genuine quantized [[quantum field theory]]:
+
+$$
+  \array{
+    \underset{\phi \in \mathbf{Fields}}{\int} 
+     \exp(i S(\phi)) \, d \mu(\phi)
+    &
+    \colon
+    &
+    Bord_n^\otimes
+     &\stackrel{\exp(i S)\, d\mu}{\to}& 
+    Corr_n^{or}\left(\mathbf{H}_{/\mathbf{B}^n U(1)}\right)^\otimes
+    &\stackrel{\int (-) }{\to}&
+    \left(
+     E Mod^{\Box^n}
+    \right)^\otimes
+    \\
+    && & {}_{\mathllap{Fields}}\searrow & \downarrow
+    \\
+    && && Corr_n\left(\mathbf{H}\right)^\otimes
+  }
+  \,.
+$$
+
+
+We realize this now by [[fiber integration in generalized cohomology]].
 
 While traditionally the definition of [[path integral]] is notoriously elusive, here we make use of general abstract but basic facts of [[higher linear algebra]] in a _[[tensor (∞,1)-category]]_ (a [[stable (∞,1)-category|stable]] and [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[(∞,1)-category]]): the simple basic idea is that
 
