@@ -3,8 +3,12 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
+=--
+#### Categeory Theory
++--{: .hide}
 [[!include category theory - contents]]
 =--
 =--
