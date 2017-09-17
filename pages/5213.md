@@ -25,7 +25,7 @@ Under this interpretation, many constructions in [[category theory]] have analog
 
 This [[categorification]] of [[linear algebra]] becomes even better behaved if we pass all the way to [[(∞,1)-sheaf (∞,1)-topos]]es. Under [[∞-groupoid cardinality]] their [[stalk]]s take values also in [[integer]]s, in [[rational number]]s, and in [[real number]]s. See also the discussion at [[Goodwillie calculus]].
 
-A [[span]] of [[base change geometric morphism]]s between toposes behaves under this interpretation like the [[linear map]] given by a [[matrix]]. Such categorified [[integral trasform]]s turn out to be of considerable interest in their own right: they include operations such as the [[Fourier-Mukai transform]] which categorifies the [[Fourier transformation]].
+A [[span]] of [[base change geometric morphism]]s between toposes behaves under this interpretation like the [[linear map]] given by a [[matrix]]. Such categorified [[integral transform]]s turn out to be of considerable interest in their own right: they include operations such as the [[Fourier-Mukai transform]] which categorifies the [[Fourier transform]].
 
 
 These analogies have been noticed and exploited at various places in the literature. See for instance the entries [[groupoidification]] or [[geometric ∞-function theory]]. Here we try to give a general abstract [[(∞,1)-topos theory|(∞,1)-topos theoretic]] description with examples from ordinary [[topos theory]] to motivate  the constructions. 
@@ -69,6 +69,23 @@ For $\hat C, \hat D$ two [[(∞,1)-categories of (∞,1)-presheaves]], a morphis
 See [[profunctor]] for details.
 
 
+## Hom-spaces
+
++-- {: .un_prop}
+###### Proposition
+
+For $C, D \in $ [[Pr(∞,1)Cat]] we have that $Func^L(C,D)$ is itself locally prsesentable.
+
+=--
+
+See [[Pr(∞,1)Cat]] for details.
+
++-- {: .un_remark}
+###### Remark
+
+This means that to the extent that we may think of $C, D$ as analogous to vector spaces, also the space of linear maps between them is analogous to a vector space.
+=--
+
 ## Tensor products
 
 +-- {: .un_prop}
@@ -95,7 +112,7 @@ This means that in as far as $C, D \in $ [[Pr(∞,1)Cat]] are analogous to vecto
 
 We consider from now on some fixed ambient [[(∞,1)-topos]] $\mathbf{H}$. 
 
-Notice that for each [[object]] $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos]] of $(\infty,1)$-sheaves on $X$. So to the extend that we think of these as **function objects** , and of locally presentable $(\infty,1)$-categories like linear space, we may think of $\mathbf{H}/X$ as the $\infty$-vector space of $\infty$-functions on $X$
+Notice that for each [[object]] $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos]] of $(\infty,1)$-sheaves on $X$. So to the extent that we think of these as **function objects** , and of locally presentable $(\infty,1)$-categories as linear spaces, we may think of $\mathbf{H}/X$ as the $\infty$-vector space of $\infty$-functions on $X$
 
 +-- {: .un_example}
 ###### Example
