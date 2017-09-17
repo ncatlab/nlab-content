@@ -920,6 +920,60 @@ $$
 
 =--
 
+### Lie differentiation
+
+Let
+
+$$
+  inf : InfPoint_\infty \hookrightarrow \mathbf{H}^{*/}
+$$
+
+be the canonical inclusion. By ([Lurie](#Lurie)) we have the full inclusion
+
+$$
+  Lie_\infty \hookrightarrow Sh_\infty(InfPoint_\infty)
+$$
+
+on those objects whose space of global sections is contractible. Consider then the $\infty$-functor
+
+$$
+  Grp(\mathbf{H})
+  \simeq
+  \mathbf{H}^{*/}_{\geq 1}
+   \stackrel{yoneda}{\to}
+  PSh_\infty( \mathbf{H}^{/*})
+  \stackrel{inf^*}{\to}
+  PSh_\infty(InfPoint_\infty)
+$$
+
+which sends a pointed connected synthetic differential $\infty$-groupoid $\mathbf{B}G$ to the $(\infty,1)$-presheaf of pointed morphisms
+
+$$
+  \mathbf{pt} \to \mathbf{B}G
+$$
+
+for $\mathbf{pt} \in InfPoint_\infty$.
+
+By assumption that $\mathbf{B}G$ is connected this factors as
+
+$$
+  \mathbf{H}^{*/}_{\geq 1} 
+   \stackrel{Lie}{\to}
+  Lie_\infty
+   \hookrightarrow
+  Sh_\infty(InfPoint_\infty)
+  \,.
+$$
+
+The resulting $\infty$-functor
+
+$$
+  Lie : Grp(\mathbf{H}) \simeq \mathbf{H}^{*/}_{\geq 1} \to Lie_\infty
+$$
+
+is Lie differentiation.
+
+
 ## Related concepts
 
 * [[cohesive (∞,1)-topos]]
