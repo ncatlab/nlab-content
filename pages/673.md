@@ -19,7 +19,7 @@ gerbe caloron transform_, joint with Raymond Vozzo.
 
 * _$Con(ZF+\neg WISC)$_, unpublished preprint, [[davidroberts:Con(ZF+notWISC)|webpage]].
 
-* _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). Submitted to the [New York Journal of Mathematics](http://nyjm.albany.edu/nyjm.html). Updated version available soon.
+* _The universal simplicial bundle is a simplicial group_, [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). To appear in the [New York Journal of Mathematics](http://nyjm.albany.edu/nyjm.html).
 
 * _Simplicial principal bundles in parameterized spaces_, [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]]. Submitted for publication.
 
