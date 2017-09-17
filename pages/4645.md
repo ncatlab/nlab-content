@@ -2997,9 +2997,9 @@ Let $G$ be a [[Lie group]]. We have the following Lie groupoids associated with 
 
 * $INN(G) = G//G$ -- the [[inner automorphism 2-group]] of $G$, a [[groupal model for universal principal infinity-bundles|groupal model for the universal principal bundle]];
 
-* $\mathbf{B}INN(G)$ -- the coeffiecient for $INN(G)$-[[principal 2-bundle]];
+* $\mathbf{B}INN(G)$ -- the coefficient for $INN(G)$-[[principal 2-bundle]];
 
-* $\mathbf{B}G_{conn} := Hom_(Grpd(Diffeo))(\mathbf{P}_1(-), \mathbf{B}G)$ -- the coefficient for $G$-principal bundles with [[connection on a bundle|connection]];
+* $\mathbf{B}G_{conn} := Hom_{Grpd(Diffeo)}(\mathbf{P}_1(-), \mathbf{B}G)$ -- the coefficient for $G$-principal bundles with [[connection on a bundle|connection]];
 
 * $\mathbf{\flat} \mathbf{B}G := Hom_{Grpd(Diffeo)}(\Pi_2(-), \mathbf{B}INN(G))$ the coefficient for flat $G$-principal bundles with flat connection;
 
