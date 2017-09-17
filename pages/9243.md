@@ -1,0 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[theories of physics]] described by [[action functionals]] the _interaction_ of [[field (physics)|fields]]/[[particles]] is described by [[polynomial]] expression of the fields.
+
+## Related concepts
+
+* [[perturbation theory]]
+
+[[!include action (physics) - table]]
