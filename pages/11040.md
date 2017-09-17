@@ -1,24 +1,71 @@
-### Idea
 
-In [[logic]], _comprehension_ is the passage from a [[predicate]] $P(x)$ on some [[set]] or [[type]] $X$ to the subset or subtype $\{ x \in X | P(x)\}$ of those elements of $X$ that satisfy $P$.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
 
-This article describes [[Lawvere]]'s formulation of comprehension in [[hyperdoctrines]].  Compare the [[axiom of separation]] in Zermelo--Frankel [[set theory]].
+#Contents#
+* table of contents
+{:toc}
 
-### Definition
+## Idea
 
-Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E X$ of $E$ has a [[terminal object]] $\top_X$.  For any morphism $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_! \top_Y$.  This gives rise to a functor $im \colon B/X \to E X$ for each $X$.  Then $E$ is said to _have comprehension_ if each image functor has a [[right adjoint]] $\{-\} \colon E X \to B/X$.
-
-This means that for each $P \in E X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$, such that there is a bijection between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E X$.  Notice that the latter are in bijection with morphisms $\top_Y \to t^* P$ in $E Y$, and that these are the same as morphisms $\top_Y \to P$ in the total category $E$ that lie over $t$.
-
-This leads to an alternative formulation of the definition, given by Jacobs.  If the fibres $E X$ have terminal objects, then there is a ([[fully faithful]]) functor $B \to E$ that sends $X$ to $\top_X$, and this is in fact right adjoint to the projection $E \to B$.  Comprehension in the sense above is equivalent to the existence of a further right adjoint to this terminal-object functor (and in fact this version does not require pushforwards in $E$).
-
-The implication from Lawvere's definition to Jacobs's is clear.  Conversely, if a fibration $p \colon E \to B$ satisfies the Jacobs definition, then there is a bijection between morphisms $\top_Y \to P$ in $E$ and morphisms $Y \to \{P\}$ in $B$.  One must then show that the composite of this last with the canonical $\{P\} \to X$ (given by $p$ applied to the counit $\top_{\{P\}} \to P$) is equal to $p$ applied to the morphism $Y \to \{P\}$, thus giving a morphism in $B/X$ of the right sort.  But in fact the morphism $Y \to \{P\}$ is unique with the property that applying $\top$ and composing with the counit gives the morphism $\top_Y \to P$, by the counit's universal property, and applying $p$ to this commuting triangle in $E$ produces the required one in $B$.
+In [[logic]], _comprehension_ is the passage from a [[predicate]] $P(x)$ on some [[set]] or [[type]] $X$ to the [[subset]] or [[subtype]] $\{ x \in X | P(x)\}$ of those [[elements]] of $X$ that satisfy $P$.
 
 
-### References
+## Definition
 
-* [[Lawvere]], F. W.  'Equality in hyperdoctrines and comprehension schema as an adjoint functor'.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra, pp. 1--14.  AMS, 1970.
+### Lawvere's definition
+ {#LawvereDefinition}
 
-* Jacobs, Bart.  _Categorical Logic and Type Theory_.  Elsevier, 1999.
+This section describes [[Lawvere]]'s formulation ([Lawvere70, p. 12-13](#Lawvere70)) of comprehension in [[hyperdoctrines]].  Compare the [[axiom of separation]] in Zermelo--Frankel [[set theory]].
+
+
+Let $p \colon E \to B$ be a [[bifibration]] over the category $B$, and assume that each [[fibre]] $E_X$ of $E$ has a [[terminal object]] $\top_X$.  For any [[morphism]] $t \colon Y \to X$ in $B$, define the _image_ $im t$ of $t$ to be the pushforward $t_! \top_Y$.  This gives rise to a functor $im \colon B/X \to E_X$ for each $X$.  Then $E$ is said to _have comprehension_ if each image functor has a [[right adjoint]] $\{-\} \colon E_X \to B/X$.
+
+This means that for each $P \in E_X$ there is a morphism $i_P \colon \{ P \} \to X$ in $B$, such that there is a [[bijection]] between commuting triangles $t = i_P \circ t'$ in $B$ and morphisms $im t \to P$ in $E_X$.  Notice that the latter are in bijection with morphisms $\top_Y \to t^* P$ in $E_Y$, and that these are the same as morphisms $\top_Y \to P$ in the total category $E$ that lie over $t$.
+
+### Jacobs' reformulation
+
+This leads to an alternative formulation of the definition, given in [Jacobs 99](#Jacobs99) If the fibres $E X$ have terminal objects, then there is a ([[fully faithful]]) functor $B \to E$ that sends $X$ to $\top_X$, and this is in fact right adjoint to the projection $E \to B$.  Comprehension in the sense above is equivalent to the existence of a further right adjoint to this terminal-object functor (and in fact this version does not require pushforwards in $E$).
+
+The implication from [Lawvere's definition](#LawvereDefinition) to Jacobs's is clear.  Conversely, if a fibration $p \colon E \to B$ satisfies the Jacobs definition, then there is a bijection between morphisms $\top_Y \to P$ in $E$ and morphisms $Y \to \{P\}$ in $B$.  One must then show that the composite of this last with the canonical $\{P\} \to X$ (given by $p$ applied to the counit $\top_{\{P\}} \to P$) is equal to $p$ applied to the morphism $Y \to \{P\}$, thus giving a morphism in $B/X$ of the right sort.  But in fact the morphism $Y \to \{P\}$ is unique with the property that applying $\top$ and composing with the counit gives the morphism $\top_Y \to P$, by the counit's universal property, and applying $p$ to this commuting triangle in $E$ produces the required one in $B$.
+
+## Examples
+
+### Subsets
+
+The tautological example which is useful to see what the abstract [definition by Lawvere](#LawvereDefinition) axiomatizes is the following.
+
+Let $B = $ [[Set]] be the category of sets and for $X$ a [[set]] a let $E_X$ be [[poset]] of [[subsets]] of $X$, regarded as the [[propositions]] about elements in $X$. Then comrehension exists and is given by sending a subset of $X$ regarded as an object of $E_X$ (hence regarded as a proposition) to the same subset, but now regarded as a [[monomorphism]] in [[Set]] into $X$. 
+
+
+
+
+## References
+
+* [[Lawvere]], F. W. _Equality in hyperdoctrines and comprehension schema as an adjoint functor'_  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
+ {#Lawvere70}
+
+* [[Bart Jacobs]],  _Categorical Logic and Type Theory_.  Elsevier, 1999.
+ {#Jacobs99}
+
+[[!redirects comprehension schema]]
+
+[[!redirects comprehension scheme]]
+[[!redirects comprehension schemes]]
 
 
