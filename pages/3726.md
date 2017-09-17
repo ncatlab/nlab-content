@@ -69,3 +69,11 @@ In the the [[(∞,1)-category]] [[Top]] we have
 [[!redirects n-connected object of an (∞,1)-category]]
 [[!redirects n-connected object of an (∞,1)-topos]]
 [[!redirects n-connected object of an (infinity,1)-category]]
+
+
+[[!redirects 0-connected]]
+[[!redirects 1-connected]]
+[[!redirects 2-connected]]
+[[!redirects 3-connected]]
+[[!redirects 4-connected]]
+[[!redirects 99-connected]]
