@@ -18,10 +18,61 @@
 The _cellular simplex_ is one of the basic [[geometric shapes for higher structures]]. 
 
 ## Definition
+ {#Definition}
+
+### Cellular (simplicial) simplex
+ {#CellularSimplex}
 
 For $n \in \mathbb{N}$, the standard _simplicial $n$-simplex_ is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]].
 
 Likewise, there is a standard toplogical $n$-simplex, which is (more or less by definition) the [[geometric realization]] of the standard simplicial $n$-simplex.
+
+### Topological simplex
+ {#TopologicalSimplex}
+
++-- {: .num_defn}
+###### Definition
+
+The standard **topological $n$-simplex** is, up to [[homeomorphism]], 
+the [[subset]]
+
+$$
+  \Delta^n 
+  \coloneqq
+  \{
+     \vec x \in \mathbb{R}^n | 0 \leq x_1 \leq \cdots \leq x_n \leq 1
+  \}
+  \hookrightarrow \mathbb{R}^n 
+$$
+
+equipped with the [[subspace topology]] of the canonincal topology on the [[Cartesian space]] $\mathbb{R}^n$.
+
+=--
+
+### Singular simplex
+ {#SingularSimplex}
+
++-- {: .num_defn}
+###### Definition
+
+For $X \in $ [[nLab:Top]]  and $n \in \mathbb{N}$, a **singular $n$-simplex** in $X$ is a [[nLab:continuous map]]
+
+$$
+  \sigma : \Delta^n \to X
+  \,.
+$$
+
+Write 
+
+$$
+  (Sing X)_n \coloneqq Hom_{Top}(\Delta^n , X)
+$$ 
+
+for the set of singular $n$-simplices of $X$.
+
+=--
+
+As $n$ varies, this forms the [[singular simplicial complex]] of $X$.
 
 ## Properties
 
@@ -38,3 +89,11 @@ The [[orientals]] related simplices to [[globes]].
 * [[tree]], [[dendrex]]
 
 [[!redirects simplices]]
+
+[[!redirects simplicial simplex]]
+[[!redirects cellular simplex]]
+[[!redirects topological simplex]]
+
+[[!redirects simplicial simplices]]
+[[!redirects cellular simplices]]
+[[!redirects topological simplices]]
