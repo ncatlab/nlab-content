@@ -76,6 +76,8 @@ A key observation here is ([Atiyah-Bott 83, section 7](#AtiyahBott83)), that a $
 
 * [[holomorphic line 2-bundle]], [[holomorphic line n-bundle]]
 
+* [[complex analytic stack]]
+
 ## References
 
 ### General
