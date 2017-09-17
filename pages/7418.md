@@ -40,11 +40,20 @@ In particular, if $R$ is elegant, then every codegeneracy map is a [[split epimo
 If $R$ is an elegant Reedy category and $M$ is a [[model category]] in which the [[cofibrations]] are exactly the [[monomorphisms]], then the [[Reedy model structure]] and the [[injective model structure]] on $M^{R^{op}}$ coincide.
 =--
 
+In particular, this implies that every $M$-valued presheaf on an elegant Reedy category is Reedy cofibrant.
+
+
 ## Examples
 
 * The [[simplex category]] $\Delta$ is an elegant Reedy category.
 
 * Joyal's [[Theta category|disk categories]] $\Theta_n$ are elegant Reedy categories.
+
+* Every [[direct category]] is a Reedy category with no degeneracies, hence trivially an elegant one.
+
+* If $X$ is any presheaf on an elegant Reedy category $R$, then the opposite of its [[category of elements]] $(el X)^{op}$ is again an elegant Reedy category.  This is fairly easy to see from the fact that $Set^{el X}$ is equivalent to the slice category $Set^{R^{op}}/X$.
+
+Note that unlike the notion of [[Reedy category]], the notion of elegant Reedy category is not self-dual: if $R$ is elegant then $R^{op}$ will not generally be elegant.
 
 ## References
 
