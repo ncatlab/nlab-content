@@ -726,9 +726,20 @@ This appears as theorem 1.5 in
 
 ## References 
 
-* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.  Springer LNM 304.  The classical reference; see in particular chapter XI.
+The classical reference is 
 
-* Wojciech Chacholski and Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) includes a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=19), and discusses how to compute them (co)limits concretely using local constructions.  For instance the above statement on the computation of homotopy pullbacks is proposition [2.5, p. 15](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=20)
+* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.  Springer LNM 304.  
+
+see in particular chapter XI.
+
+An inroduction is 
+
+* [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://www.uoregon.edu/~ddugger/hocolim.pdf))
+
+
+* Wojciech Chacholski and Jerome Scherer, _Homotopy theory of diagrams_ ([arXiv](http://arxiv.org/abs/math.AT/0110316)) 
+
+This includes a global definition of homotopy (co)limit as [4.1, p. 14](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=19), and discusses how to compute them (co)limits concretely using local constructions.  For instance the above statement on the computation of homotopy pullbacks is proposition [2.5, p. 15](http://arxiv.org/PS_cache/math/pdf/0110/0110316v1.pdf#page=20)
 
 * Philip Hirschhorn, _Model categories and their localizations_.  Defines and studies (local) homotopy limits in model categories.
 
