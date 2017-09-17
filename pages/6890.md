@@ -5,7 +5,7 @@
 
 ## Idea
 
-_Coq_ is a formal [[proof]] management system. It provides a formal language to write mathematical [[definition]]s, executable [[algorithm]]s and [[theorem]]s together with an environment for semi-interactive development of machine-checked [[proof]]s. 
+The computer software _Coq_ is a formal [[proof]] management system. It provides a formal language to write mathematical [[definition]]s, executable [[algorithm]]s and [[theorem]]s together with an environment for semi-interactive development of machine-checked [[proof]]s. 
 
 Coq is named after [[Thierry Coquand]].
 
@@ -51,10 +51,25 @@ For Coq-projects in [[homotopy type theory]] see
 ## References
 
 ### General
+ {#ReferencesGeneral}
 
 * [Coq home page](http://coq.inria.fr/)
 
 * [Cocorico](http://coq.inria.fr/cocorico), the Coq wiki
+
+A web-based version of Coq is at 
+
+* _[ProofWeb](prover.cs.ru.nl)_
+
+To start it, scroll down to "Proof assistants on the web", choose "Coq" from the menu "proof assistant" and Click on "guest login". In the user interface that appears, enter Coq-code in the left window and hit the arrow-buttons to "run" it with output appearing in the right window. The guest account allows everything except saving files.
+
+A tool for viewing proofs in static Coq files without loading them into Coq is 
+
+* _[Proviola](http://mws.cs.ru.nl/proviola/)_ 
+
+A proviola-enhanced version of the Coq-library for [[homotopy type theory]] is at
+
+* _[http://mws.cs.ru.nl/proviola/HoTT/](http://mws.cs.ru.nl/proviola/HoTT/)_
 
 ### Tutorials
 
