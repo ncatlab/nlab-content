@@ -65,5 +65,5 @@ That article is now in the process of being imported in to the nLab.  In the tra
 {#PR94}
 * Loop groups, Pressley, Andrew and Segal, Graeme, 1986 [MR900587](http://www.ams.org/mathscinet-getitem?mr=900587)
 {#PS86}
-* Spin geometry, Author (up)  	Lawson, Jr., H. Blaine and Michelsohn, Marie-Louise, 1989, [MR1031992](http://www.ams.org/mathscinet-getitem?mr=1031992)
+* Spin geometry, Lawson, H. Blaine, Jr. and Michelsohn, Marie-Louise, 1989, [MR1031992](http://www.ams.org/mathscinet-getitem?mr=1031992)
 {#LM89}
