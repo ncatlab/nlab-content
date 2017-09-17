@@ -43,7 +43,8 @@ A pretopos, being a [[coherent category]], admits a [[subcanonical site|subcanon
 The [[codomain fibration]] of a pretopos is always a [[stack]] for its precanonical topology.  Being a pretopos is stronger than necessary for this condition to hold in a coherent category, however; see [[coherent category]] for the necessary and sufficient conditions.
 
 
-## Infinitary pretoposes ##
+## Infinitary pretoposes
+{#infinitary}
 
 An __infinitary pretopos__ is an [[infinitary coherent category]] which is both [[infinitary extensive category|infinitary extensive]] and [[exact category|exact]].  Giraud\'s theorem says that infinitary pretoposes with small generating sets are the same as [[Grothendieck toposes]], and in particular are [[toposes]] (although this last result is not valid in [[predicative mathematics]]).
 
