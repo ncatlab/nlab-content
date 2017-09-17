@@ -26,23 +26,47 @@
 
 In fundamental [[physics]] the basic entities that are being described are called _fields_, as they appear in the terms _[[classical field theory]]_ and _[[quantum field theory]]_.
 
+### General
+
 The basic example that probably gives the whole concept its name is the [[electric field]] and the [[magnetic field]] in the [[theory (physics)|theory]] of [[electromagnetism]]: if we fix a [[coordinate chart]] of [[spacetime]], then the [[electromagnetic field]] splits into the [[electric field]] and the [[magnetic field]] which are both modeled by a _[[vector field]]_, traditionally denoted $\vec E$ and $\vec B$, respectively, on this coordinate chart. The value $\vec E(x)$ of the vector field at a given point of spacetime is a [[vector]] that expresses the magnitude and direction of the electric [[force]] that is exerted on an [[electric charge|electrically charged]] [[particle]] at $x$. 
 
-But in general a _field_ in physics need not be a [[vector field]]. In fact more fundamentally, if we do not specify a [[coordinate chart]], then the [[electromagnetic field]] is not in fact represented by two vector fields. Rather, its [[field strength]] is represented by a [[differential 2-form]] and the the whole field as such is a [[cocycle]] of degree-2 in [[ordinary differential cohomology]]: a [[circle n-bundle with connection|circle bundle with connection]].
+In fact more fundamentally, if we do not specify a [[coordinate chart]], then the [[electromagnetic field]] is not in fact represented by two vector fields. Rather, its [[field strength]] is represented by a [[differential 2-form]], hence a [[tensor field]] of rank $(0,2)$, but the the whole field as such is not a tensor field, but is a [[cocycle]] of degree-2 in [[ordinary differential cohomology]]: a [[circle n-bundle with connection|circle bundle with connection]].
 
-Similar statements hold for all [[forces]] of nature, such as the force of [[gravity]] and the [[weak nuclear force]] and [[strong nuclear force]]: a configuration of these is mathematically modeled by what mathematically are _[[tensor]] fields_ and [[connection on a bundle|connections]], hence one speaks of the _field of gravity_ etc.
+Or for instance the field of [[gravity]] if modeled as a [[pseudo-Riemannian metric]] is a [[tensor field]] of rank $(2,0)$ -- but subject to the constraint that this be pointwise non-degenerate. More fundamentally the field of gravity is instead a [[vielbein field]].
 
-The [[electromagnetic field]] and the field of [[gravity]] are the physical fields that historically gave rise to what is now called _[[classical field theory]]_. But it turns out that fundamentally, in [[quantum physics]], also all [[matter]] in physics is constituted by fields in a similar sense. Specifically, where [[force]] fields in physics are usually [[connection on a bundle|connections on a bundle]], matter fields are [[sections]] of bundles. 
+Similar statements hold for all [[forces]] of nature, such as the force of [[gravity]] and the [[weak nuclear force]] and [[strong nuclear force]]: a configuration of these is mathematically modeled by [[connection on a bundle|connections]]. Their [[field strengths]] are rank $(0,2)$-tensor fields.
 
-Indeed, a standard proposal to formalize the notion of _physical field_ is to declare that a [[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$, and that a field configuration of the system is a [[section]] of this field bundle, see for instance the discussion at the beginning of _[[multisymplectic geometry]]_ for more on such field bundles. (Also connections can be encoded as sections of suitable bundles.)
+The [[electromagnetic field]] and the field of [[gravity]] are the physical fields that historically gave rise to what is now called _[[classical field theory]]_. But it turns out that fundamentally, in [[quantum physics]], also all [[matter]] in physics is constituted by fields in a similar sense. Specifically, where [[force]] fields in physics are usually [[connection on a bundle|connections on a bundle]], matter fields are [[sections]] of [[associated bundles]]. 
 
-While this goes in the right direction, it cannot be quite the final answer:
 
-some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a secton of any ordinary [[fiber bundle]]. For instance an accurate description of _[[magnetic charge]]_ (as discussed there) shows that it is represented by such a 2-connection.
+### The idea of field bundles and its problems
+ {#IdeaOfFieldBundlesAndItsProblems}
 
-Below we discuss a natural unified formulation of the notion of physical field in terms of [[higher geometry]] and spell out many examples.
+A widespread proposal for how to formalize the notion of _physical field_ is to declare that the specification of a [[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$ called the **[[field bundle]]** and that a field configuration of the system is a [[section]] of this field bundle. (Also connections can be encoded as sections of suitable bundles.)
+
+While this goes in the right direction, it cannot be quite the final answer for several reasons:
+
+
+1. Fields defined as sections of field bundles this way cannot capture "large" gauge phenomena, hence phenomena that genuinelay defined on the [[topological space|topology]] of the [[gauge group]] and not just on its [[Lie algebra]]. Spcifically, in [[Yang-Mills theory]] one can have a gauge bundle whose sections are all [[principal connections]] on on fixed underlying [[principal bundle]], but really that principal bundle is itself part of the [[Yang-Mills field]] -- it is its [[instanton]] sector -- and can vary. But there is no bundle such that sections of it would themselves be equivalent to [[principal bundles]]. 
+   
+   This is not a negligible problem. For instance the [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors, see at _[[instanton in QCD]] for more.
+
+   Similarly for instance [[magnetic charge]], field in [[higher Chern-Simons theoy]] and in many other examples are not describeable, in total, as sections of some field bundle.
+
+1. In [[general covariance|generally covariant]] [[theory (physics)|theories]] fields that differ by a pullback along a [[diffeomorphism]] are required to be [[gauge equivalent|gauge equivalence]]. Hence two sections of a field bundle are to be identified by they become the same when one is pulled back along a diffeomorphism of the base. Again, at least for large diffeomorphisms (thos not connected to the identity) standard field bundle formalism cannot see this.
+
+1. Some fields considered in theoretical physics are sections of/connections on not an ordinary [[fiber bundle]], but a [[higher geometry|higher geometric]] fiber bundle: a [[fiber ∞-bundle]]. For instance the higher analog of the [[electromagnetic field]] which is called the _[[B-field]]_ or _[[Kalb-Ramond field]]_ is a [[circle n-bundle with connection|2-connection]] on a [[principal 2-bundle]]. There is no way to faithfully encode this as a secton of any ordinary [[fiber bundle]]. For instance an accurate description of _[[magnetic charge]]_ (as discussed there) shows that it is represented by such a 2-connection.
+
+### Field $\infty$-bundles and moduli $\infty$-stacks of fields
+
+By the [above](#IdeaOfFieldBundlesAndItsProblems), defining a physical field to be a section of some bundle goes in the right direction, but misses crucial aspects of physical fields. But it turns out that the problem is fixed simply by passing from traditional geometric bundles to bundles in [[higher geometry]].
+
+Below in _[Definition](Definition)_ we discuss a natural unified formulation of the notion of physical field in terms of [[higher geometry]] and then we spell out many [Examples](#Examples).
 
 ## Definition 
+ {#Definition}
+
+### Physical field
 
 A notion of _field_ in physics is part of a specification of _[[theory (physics)|physical theory]]_ or _[[model (physics)|physical model]]_. We consider specifically the framework of [[prequantum field theory]]. Here a [[theory (physics)|theory]]/[[model (physics)|model]] is specified by (or at least comes with) an _[[action functional]]_. The _field_ content of the theory is part of the specification of the [[domain]] of the action functional. Therefore in def. \ref{FieldsInAnActionFunctional} below we define _action functionals_ and the fields relative to this notion.
 
@@ -135,21 +159,14 @@ The above says in particular that in [[higher geometry]] all fields are [[sigma-
 
 =--
 
-+-- {: .num_remark }
-###### Remark
+### Restriction and pullback of physical fields
 
-The literature speaks of _classical fields_ and _quantum fields_, but formal definitions substantiating this are rare and the distinction is usually blurred and refers more to the focus of the author than the entity under consideration.
+(...)
 
-If one focuses on the [[critical locus]] of an [[action functional]] as above then one considers its [[classical field theory]] and hence tends to speak of "classical fields". Notably the points in the critical locus, are _fields that satisfy the classical [[equations of motion]]_.
-
-If however one considers the [[quantization]] of an action functional as above, then one tends to speak of [[quantum fields]].
-
-But even this distinction is not uniform in the literature. For instance if $\mathbf{H}$ is something like the collection of [[smooth super ∞-groupoids]], then there are [[fermion]] fields (see the example [Fermions](#Fermions) below) that qualify as classical fields by all accounts above, but are often referred to as quantum fields only. (This is a related to a common mistake in some textbooks, the false assertion that there is no [[classical field theory]] of fermion fields, originating in a misappreciation of [[supergeometry]].) 
-
-=--
 
 
 ## Examples
+ {#Examples}
 
 We distinguish three broad classes of examples of fields as in def. \ref{FieldsInAnActionFunctional}:
 
@@ -218,7 +235,7 @@ for the canonical map modulating the $GL(n)$-[[principal bundle]] to which the [
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #RiemannianVielbein}
 ###### Example
 
 Morphisms
@@ -247,9 +264,21 @@ $$
   \mathbf{H}
 $$
 
-is the [[moduli stack]] of [[Riemannian metrics]] on $X$ and hence of  field configurations of ordinary [[gravity]] on $X$. Notice that the [[smooth structure]] on $X$ as embodied by $\tau_X$ is the [[background gauge field]] structure in this case.
+is the [[moduli stack]] of [[Riemannian metrics]] on $X$. Every such is a field configuration of ordinary [[gravity]] on $X$. 
 
-Also notice that the [[homotopy fiber]] of $\mathbf{OrthStruc}_n$ is the [[coset space]] $GL(n)//O(n)$, hence we have a [[homotopy fiber sequence]]
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[smooth structure]] on $X$ as embodied by $\tau_X$ is the [[background field]] in example \ref{RiemannianVielbein}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[homotopy fiber]] of $\mathbf{OrthStruc}_n$ is the [[coset space]] $GL(n)//O(n)$, hence we have a [[homotopy fiber sequence]] of [[moduli stacks]] of the form
 
 $$
   GL(n)//O(n)
@@ -259,11 +288,16 @@ $$
   \mathbf{B}GL(n)
 $$
 
-in $\mathbf{H}$. This means that locally, over a [[1-epimorphism]] $p \colon U \to X$ over which the [[tangent bundle]] has a trivialization $\tau_X|_U \simeq *$, the space of fields is simply $[U, GL(n)//O(n)]$.
+in $\mathbf{H}$. This means that locally, over a [[cover]] ([[1-epimorphism]]) $p \colon U \to X$ over which the [[tangent bundle]] has a trivialization $\tau_X|_U \simeq *$, the space of fields is simply $[U, GL(n)//O(n)]$.
 
 =--
 
-Next, let 
+The next example is the differential refinement of the previous one.
+
++-- {: .num_example}
+###### Example
+
+Let 
 
 $$
   \widehat \mathbf{OrthStruc}_n
@@ -297,12 +331,56 @@ $$
   X \to \mathbf{B}O(n)_{conn}
 $$
 
-now captures the orthognal connection which in the physics literature is often called the [[spin connection]], denoted $\omega$. The [[vielbein]] then exhibits the original [[affine connection]] as that whose components are the [[Christoffel symbols]] $\Gamma$ of the [[Riemannian metric]] defined as above, the relation which in the physics literature appears as the [[equation]]
+now captures the orthognal connection which in the physics literature is often called (inaccurately) the _[[spin connection]]_, denoted $\omega$. The [[vielbein]] then exhibits the original [[affine connection]] as that whose components are the [[Christoffel symbols]] $\Gamma$ of the [[Riemannian metric]] defined as above, a relation that is familiar from the physics literature in the form of the [[equation]]
 
 $$
   \omega = e^{-1}\Gamma e + e^{-1} d e
+$$
+
+between local connection 1-form components.
+
+=--
+
+But both these examples do not fully accurately reflect the field content of [[gravity]] yet. This is because the [[theory (physics)|theory]] of [[gravity]] is supposed to by [[general covariance|generally covariant]]. This means that for two [[vielbein]] field configurations as in example \ref{RiemannianVielbein} such that one goes into the other under a [[diffeomorphism]] of [[spacetime]] $X$, there is a [[gauge transformation]] between them.
+
++-- {: .num_example}
+###### Example
+
+Write $\mathbf{Diff}(X) \coloneqq \mathbf{Aut}(X) \in Grp(\mathbf{H})$ for the [[diffeomorphism group]] of the [[smooth manifold]] $X$. There is then the canonical [[∞-action]] of the [[automorphism ∞-group]] $\mathbf{Diff}(X)$ on $X$ itself, exhibited by the universal [[associated ∞-bundle]]
+
+$$
+  \left(X // \mathbf{Diff}\left(X\right) \to \mathbf{B}\mathbf{Diff}\left(X\right) \right)
+  \in 
+  \mathbf{H}_{/\mathbf{B}\mathbf{Diff}\left(X\right)}
   \,.
 $$
+
+This induces an [[∞-action]] also on the [[tangent bundle]]
+
+Moreover the trivial bundle
+
+$$
+  \mathbf{Fields}
+  \coloneqq
+  (\mathbf{Diff}(X)\times \mathbf{OrthStruc} \to \mathbf{B}\mathbf{Diff}(X) )
+  \in 
+  \mathbf{H}_{/\mathbf{B}\mathbf{Diff}(X)}
+$$
+
+corresponds to the trivial action.
+
+Then
+
+$$
+  \underset{\mathbf{B}(GL(n) \times \mathbf{Diff}(X))}{\prod} [\tau_X, \mathbf{Fields}]
+ \in \mathbf{H}
+$$
+
+is the accurate space of fields in gravity. 
+
+=--
+
+
 
 ##### Type II gravity and B-field
 
@@ -355,6 +433,10 @@ $$
   \to 
   \mathbf{B}Spin
 $$
+
+#### Tensor fields
+
+$\mathbf{Fields} : \mathbb{R}^{n (p+q)}//GL(n) \to \mathbf{B}GL(n) $
 
 ### **III)** Sigma-model fields
 
