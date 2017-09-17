@@ -7,7 +7,7 @@ $$
 such that $e(y)^n = e(y^n)$ for every "linear" element $y\in L\hookrightarrow S(L)$. This map is also given by the formula
 
 $$
-y_1\cdots y_k \mapsto \frac{1}{k!} \sum_{\sigma\in\Sigma(k)}\hat{y}_{\sigma(1)}\cdots 'hat{y}_{\sigma(n)}
+y_1\cdots y_k \mapsto \frac{1}{k!} \sum_{\sigma\in\Sigma(k)}\hat{y}_{\sigma(1)}\cdots \hat{y}_{\sigma(n)}
 $$
 
 where $y_1,\ldots, y_k\in L\hookrightarrow S(L)$ are arbitrary and 
