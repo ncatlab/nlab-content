@@ -23,7 +23,7 @@
 
 That is to say, it is the [[higher geometry]] in the [[(∞,1)-topos]] over the [[(∞,1)-site]] of [[Isbell duality|formal duals]] of [[E-∞ rings]], equipped with the [[etale topology]].
 
-An [[E-∞ scheme]] (_spectral scheme_) in this sense is a [[structured (∞,1)-topos]] in $E_\infty$-geometry.
+An [[E-∞ scheme]] ( _spectral scheme_ ) in this sense is a [[structured (∞,1)-topos]] in $E_\infty$-geometry.
 
 ## Terminology
 
