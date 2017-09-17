@@ -374,6 +374,8 @@ See [[connection on a principal ∞-bundle]].
 
   * [[nonabelian Stokes theorem]]
 
+* [[fiber bundles in physics]]
+
 [[!include higher Atiyah groupoid - table]]
 
 [[!include gauge field - table]]
