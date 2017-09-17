@@ -82,6 +82,8 @@ The Gelfand spectrum is also useful in the context of more general commutative B
 
     * [[spectral presheaf]], [[Bohr topos]]
 
+    * [[Alfsen-Shultz theorem]]
+
 category: analysis
 
 [[!redirects Gelfand spectrum]]
