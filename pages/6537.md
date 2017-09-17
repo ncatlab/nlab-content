@@ -39,13 +39,23 @@
 
 ### Extended objects
 
+* [[sigma-model]]
+
 * [[string]]
 
   * [[spinning string]], [[superstring]]
 
 * [[brane]]
 
-  * [[D-brane]], [[fivebrane]], [[M2-brane]]
+  * [[D-brane]]
+
+    * [[differential K-theory]]
+
+  * [[fivebrane]]
+
+    * [[6d (2,0)-supersymmetric QFT]]
+
+  * [[M2-brane]]
 
 ### Topological strings
 
