@@ -5,7 +5,7 @@
 
 ## Idea
 
-Ordinal sum is a natural addition on ordered sets and so provides a useful tool when manipulating [[simplicial sets]]. In ordinal sum you 'first put one of the two ordinals and then the other', so that the elements of the second ordinal are all bigger than those in the first one.
+[[Ordinal]] sum is a natural addition on ordered sets and so provides a useful tool when manipulating [[simplicial sets]]. In ordinal sum you 'first put one of the two ordinals and then the other', so that the elements of the second ordinal are all bigger than those in the first one.
 
 The ordinal sum induces the operation of [[join of simplicial sets]] endowing $sSet$ with the structure of a [[monoidal category]].
 
