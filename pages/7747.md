@@ -108,6 +108,10 @@ On a framed manifold there is a canonical [[quadratic refinement]] of the [[inte
 
 * [[2-framing]]
 
+* [[framed elliptic curve]]
+
+* [[moduli space of framed manifolds]]
+
 ## References
 
 The theorem about the parallizablitiy of spheres is due to
@@ -118,6 +122,11 @@ The theorem about the parallizablitiy of spheres is due to
 See also 
 
 * [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
+
+The [[moduli space of framed surfaces]] is discussed in 
+
+*  [[Oscar Randal-Williams]], _Homology of the moduli spaces and mapping class groups of framed, r-Spin and Pin surfaces_ ([arXiv:1001.5366](http://arxiv.org/abs/1001.5366))
+
 
 [[!redirects framed manifolds]]
 
