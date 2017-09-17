@@ -1,4 +1,6 @@
 
+> for disambiguation see _[[wreath product]]_
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
