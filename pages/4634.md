@@ -225,6 +225,10 @@ Also the lectures notes:
 * [[Marco Robalo]], _Noncommutative motives and K-theory_, talk at [Higher Categories and Topological Quantum Field Theories,
 Vienna, 2013](http://www.mat.univie.ac.at/~favero/Workshops/Higher.html), [notes](http://www.mat.univie.ac.at/~favero/Workshops/here/NotesRobalo.pdf)
 
+Another survey article is
+
+* S. Mahanta, Noncommutative geometry in the framework of differential graded categories, [arXiv:0805.1628](http://arxiv.org/abs/0805.1628).
+
 Discussion of how the [[triangulated categories of sheaves|derived category]] of a [[scheme]] determines its commutative and [[noncommutative motive|noncommutative]] Chow motive is in 
 
 * [[Adeel Khan]], _Perfect correspondences and Chow motives_, Thesis 2013 ([pdf](http://www.preschema.com/documents/masters.pdf))
