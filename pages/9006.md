@@ -48,6 +48,9 @@ An example is the canonical [[Cartan-Dirac structure on a Lie group]], which yie
 
 * [[Poisson structure]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+
 ## References
 
 ### General
