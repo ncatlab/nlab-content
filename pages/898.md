@@ -26,7 +26,7 @@ A category whose opposite is filtered is called **cofiltered**.
 
 ## Definitions
 
-### Odinary filteredness
+### Ordinary filteredness
 
 +-- {: .num_defn}
 ###### Definition
