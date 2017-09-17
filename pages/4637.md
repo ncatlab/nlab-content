@@ -35,7 +35,7 @@ $$
 $$ 
 
 
-relates (higher) [[presheaves]] with (higher) [[copresheaves]] on a given ([[higher category theory|higher]]) [[category]] $C$: this is called **Isbell conjugation** or **Isbell duality**.
+relates (higher) [[presheaves]] with (higher) [[copresheaves]] on a given ([[higher category theory|higher]]) [[category]] $C$: this is called **Isbell conjugation** or **Isbell duality** (after [[John Isbell]]).
 
 To the extent that this adjunction descends to presheaves that are ([[higher topos theory|higher]]) [[sheaves]] and copresheaves that are ([[(infinity,1)-algebraic theory|higher]]) [[algebra over an algebraic theory|algebras]] this duality relates [[higher geometry]] with [[higher algebra]].
 
