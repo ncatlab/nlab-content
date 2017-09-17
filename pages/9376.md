@@ -296,11 +296,14 @@ This now interprets as the inclusion
 
 1. $\infty$-group of bisections of the [[higher Courant groupoid]] into that of "$\nabla_0$-twisted diffeomorphisms".
 
-See below at _[Examples-- The traditional Courant Lie 2-algebroid](#TheTraditionalCourantLie2Algebroid)_ for more on this.
-
 
 =--
 
+In summary we have the following table of inclusions
+
+[[!include slice automorphism groups in higher prequantum geometry - table]]
+
+See below at _[Examples-- The traditional Courant Lie 2-algebroid](#TheTraditionalCourantLie2Algebroid)_ for more on this.
 
 
 
