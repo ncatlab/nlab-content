@@ -1,5 +1,14 @@
 
 * [website](http://www.math.ksu.edu/~dyetter/)
 
+## Related entries
+
+* [[topological field theory]], [[Yetter model]]
+
+* [[quantum gravity]]
+
+* [[quantum logic]]
+
 category: people
+
 [[!redirects D. Yetter]]
