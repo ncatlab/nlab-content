@@ -32,7 +32,11 @@ The [[category algebra|groupoid algebra]] of these symplectic groupoids are [[C-
 A **symplectic Lie groupoid** is a [[Lie groupoid]] $C$ whose space of [[object]]s is a [[Poisson manifold]] and whose space of [[morphism]]s carries a [[symplectic manifold|symplectic structure]] whose symplectic form $\omega \in \Omega^2_{closed}(Mor(C))$ is _multiplicative_ in that it is closed regarded as an element in the [[simplicial deRham complex]] of the [[nerve]] of $C$:
 
 $$
-  0 = d \omega + \delta \omega =
+  0 = d \omega 
+$$
+
+$$
+ 0 = 
   \delta \omega = pr_1^* \omega - compose^* \omega 
   + pr_2^* \omega
 $$
