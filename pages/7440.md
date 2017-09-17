@@ -348,9 +348,11 @@ is [[reflective sub-(∞,1)-category|reflective]].
 
 This is ([Lurie, remark 1.2.11](#Lurie)), based on ([[Higher Topos Theory|HTT, lemma 5.5.4.17]]).
 
+
 ### Model category presentations
  {#ModelCategoryPresentations}
 
+We discuss here [[presentable (infinity,1)-category|presentations]] of category objects internal to an $(\infty,1)$-category by [[model category]] theory methods.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -373,6 +375,46 @@ This is stated as ([Lurie, prop. 1.5.4](#Lurie)).
 By prop. \ref{CatIsReflectiveInSimpl} combined with ([[Higher Topos Theory|HTT, prop. A.3.7.8]]).
 
 =--
+
+This gives in particular to the standard [[model structure for complete Segal spaces]].
+
+### Homotopy type theory formulation
+ {#HomotopyTypeTheoryFormulation}
+
+For $\mathbf{H}$ an [[(∞,1)-topos]], another way of saying that we have an internal category object in $\mathbf{H}$ is to say that we formulate it in the [[internal language]] of $\mathbf{H}$, which is a [[homotopy type theory]].
+
+This is still open, but one might approach it like this:
+
+1. By the discussion at _[[semi-Segal space]]_ a category object should equivalently be a [[semi-category]] object $X_\bullet$: a [[semi-simplicial object]] satisfying the [[Segal conditions]], and which is unital in that $Eq(X_1) \hookrightarrow X_1 \stackrel{\partial_1}{\to} X_0$ is an equivalence.
+
+1. To finite (and "low") degree a [[semi-simplicial type]] may be given "by hand" as a sequence of [[dependent types]] like this:
+  
+   $$
+     \begin{aligned}
+       & \vdash\; X_0 \colon Type
+       \\
+       x_0,x_1 \colon X_0 \;& \vdash \; X_1(x_0,x_1) \colon Type
+       \\
+     x_0,x_1,x_2 \colon X_1; f_2 \colon X_1(x_0,x_1); f_1 \colon X_1(x_0,x_2); f_2 \colon X_1(x_0,x_1) \; 
+       & \vdash \; X_2(f_0,f_1,f_2) \colon Type
+       \\
+       \vdots \; &\vdash\; \vdots
+    \end{aligned}
+   $$
+
+   etc.  (Where in principle we can go on like this to any finite $n$; but it is open how to say this in one go for all $n$ at once).
+
+   Notice that in the [[model category|model]]-[[categorical semantics]] of [[dependent types]] in [[homotopy type theory]], such a structure interprets indeed (up to the given degree) as a [[Reedy model structure|Reedy]] [[fibrant object|fibrant]] [[semi-simplicial object]] as used in the standard model-category theoretic constructions of internal $\infty$-categories discussed [above](#ModelCategoryPresentations).
+
+1. If $X_0$ is [[n-truncated]] ([[h-level]] $n+2$) so that we are dealing with an internal category that is externally an [[(n,1)-category]], then a complete semi-Segal object $X_\bullet$ should indeed already be determined by its [[simplicial skeleton]] $X_{0 \leq \bullet \leq n+3}$. 
+
+So in conclusion an _$n$-truncated category type_ in [[homotopy type theory]] might be an $(n+3)$-skeleton of a [[semi-simplicial type]] $X_{0 \leq \bullet \leq 3}$ as above, such that
+
+1. [[Segal condition]]: for each $2 \leq k \leq n$ the canonical function $X_n \to X_1 \times_{X_0} \cdots \times_{X_0} X_1$ into the $n$-fold [[homotopy pullback]] is an [[equivalence]];
+
+1. [[univalence]]/unitality: the canonical function $Eq(X_1) \to X_1 \stackrel{\partial_1}{\to} X_0$ is an [[equivalence]].
+
+1. $X_0$ is [[n-truncated]] (of [[h-level]] $n+2$).
 
 ## Examples
 
@@ -452,7 +494,7 @@ which is the canonical internal [[base (∞,1)-topos]], classifying the
 (relatively $\kappa$-compact part of) the 
 [[codomain fibration]]-[[(∞,2)-sheaf]] on $\mathbf{H}$.
 
-In the [[syntax]] of [[homotopy type theory]] the corresponding
+In the [[syntax]] of [[homotopy type theory]] as discussed [above](#HomotopyTypeTheoryFormulation) the corresponding
 simplicial object should be
 
 $$
