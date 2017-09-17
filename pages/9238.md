@@ -23,11 +23,16 @@ A [[field (physics)|field]] [[theory (physics)|theory]] in [[physics]] is called
 
 ## Definition
 
-### In terms of BV-complexes
+### Kinematics and dynamics in BV formalism
 
 In the formalization of [[perturbation theory]] via [[BV-quantization]] as in ([Costello-Gwilliam](#CostelloGwilliam)), a free field theory is given by a [[BV-complex]] that arises from the following data.
 
 The following appears for instance as ([Gwilliam 2.6.2](#Gwilliam)).
+
++-- {: .num_defn #FreeFieldTheory}
+###### Definition
+
+A **free field theory** ([[local field theory|local]], [[Lagrangian]]) is the following data
 
 **[[kinematics]]**:
 
@@ -82,7 +87,7 @@ $$
 * A [[differential operator]] on sections of the [[field bundle]] 
 
   $$
-    Q \;\colon\; \mathcal{E} \to \mathcal{C}
+    Q \;\colon\; \mathcal{E} \to \mathcal{E}
   $$
  
   of degree 1 such that
@@ -90,6 +95,11 @@ $$
   1. $(\mathcal{E}, Q)$ is an [[elliptic complex]];
 
   1. $Q$ is [[self-adjoint operator|self-adjoint]] with respect to $\langle -,-\rangle$ in that for all [[field (physics)|fields]] $\phi,\psi \in \mathcal{E}_c$ of homogeneous degree we have $\langle \phi , Q \psi\rangle = (-1)^{{\vert \phi\vert}} \langle Q \phi, \psi\rangle$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
 
 From this data we obtain:
 
@@ -100,26 +110,42 @@ From this data we obtain:
     \,.
   $$
 
-* The [[classical BV-complex]] is the [[symmetric algebra]] $Sym  \mathcal{E}^!$ of sections of $E^!$ equipped with the induced action of the differential $Q$ and the pairing 
+* The [[classical BV-complex]] is the [[symmetric algebra]] $Sym  \mathcal{E}^!_c$ of [[compact support|compactly suppported]] [[sections]] of $E^!$ equipped with the induced action of the differential $Q$ and the pairing 
 
   $$ 
     \{\alpha,\beta\} \coloneqq  \int_{x \in X} \langle \alpha(x), \beta(x)\rangle
     \,.
   $$
 
+  See below at _[The classical observables](#TheClassicalObservables)_ for more.
+
 * The [[quantum BV-complex]] 
 
   $$
-    Obs^q \coloneqq (Sym \mathcal{E}^![\hbar], Q + \hbar \Delta)
+    Obs^q \coloneqq (Sym \mathcal{E}^!_c[ [\hbar] ], Q + \hbar \Delta)
   $$
 
-  is the deformation of the above with algebra $Sym(\mathcal{E}^!)[\hbar]$ and differential $Q + \hbar \Delta$ with [[BV-Laplacian]] defined to vanish on $Sym^{\leq 1}$, to be given by 
+  is the deformation of the above to the [[symmetric algebra]] tensored with the [[formal power series]] in $\hbar$ ("[[Planck's constant]]") $Sym(\mathcal{E}^!)[ [\hbar] ]$  and differential $Q + \hbar \Delta$ with [[BV-Laplacian]] defined to vanish on $Sym^{\leq 1}$, given by 
 
   $$
     \Delta (\alpha \cdot \beta) \coloneqq \{\alpha,\beta\}
   $$
 
-  for $\alpha,\beta \in \mathcal{E}^!$ and extended as a graded biderivation from there.
+  for $\alpha,\beta \in \mathcal{E}^!$ and extended by the formula
+
+  $$
+    \Delta(a \cdot b)
+    \coloneqq
+    (\Delta a) \cdot b
+    + 
+    (-1)^{deg(a)}
+    a \cdot (\Delta b)
+    + 
+    \{a,b\}  
+    \,.
+  $$
+
+  See below at _[The quantum observables](#TheQuantumObservables)_ for more.
 
 A closed element $\mathcal{O} \in Obs^q$ is an [[observable]] and its formal [[path integral]] [[expectation value]] $\langle \mathcal{O}\rangle$ is its image in the [[cochain cohomology]] $H^\bullet Obs^q$. Via the [[homological perturbation lemma]] this may be computed in [[perturbation theory]] (order by order in $\hbar$) in terms of [[Feynman diagrams]].
 
@@ -127,9 +153,121 @@ In a non-free field theory the differential would have an additional perturbatio
 
 $$
   Q + \{I,-\} + \hbar \Delta
+  \,.
 $$
 
+=--
+
 [[!include action (physics) - table]]
+
+### The classical observables
+ {#TheClassicalObservables}
+
+
+For $(E, Q, \langle-, -\rangle_{loc})$ a free field theory, def. \ref{FreeFieldTheory}, write 
+
+$$
+  E^! \coloneqq E^\ast \otimes Dens_X
+$$
+
+and accordingly write $\overline{\mathcal{E}^!}$ for its [[distribution|distributional]] [[sections]]. This is the distributional dual to the smooth sections $\mathcal{E}$ of $E$.
+
++-- {: .num_defn #ClassicalObservables}
+###### Definition
+
+The complex of **global classical observables** of the free field theory $(E,Q, \langle-,- \rangle_{loc})$ is the [[classical BV-complex]]
+
+$$
+  Obs^{cl} \coloneqq (Sym \mathcal{E}^!_c, Q)
+$$
+
+given by the [[symmetric algebra]] of dual sections and quipped with the dual of the differential (which we denote by the same letter) defined on generators and then extended as a graded [[derivation]] to the full [[symmetric algebra]].
+
+The [[factorization algebra]] of local classical observables is the [[cosheaf]] of these observables which assigns to $U \subset X$ the complex
+
+$$
+  Obs^{cl} \colon U \mapsto (Sym \mathcal{E}^!_c(U), Q)
+  \,.
+$$
+
+=--
+
+in ([Gwilliam](#Gwilliam)), this is def. 5.3.6.
+
+
+
+### The quantum observables
+ {#TheQuantumObservables}
+
+There is a canonical [[BV-quantization]] of the [above classical observable](#TheClassicalObservables) of a free field theory
+given by defining the [[BV Laplacian]] as follows.
+
++-- {: .num_defn #TheStandardBVLaplacian}
+###### Definition
+
+For $(E, Q, \langle -,-\rangle_{loc})$ a free field theory, def. \ref{FreeFieldTheory}, the **standard [[BV Laplacian]]** 
+
+$$
+  \Delta 
+  \colon
+  Sym \mathcal{E}^!_c \to Sym \mathcal{E}^!_c
+$$
+
+is given on generators $a,b \in Sym^1 \mathcal{E}^!_c$ of homogeneous degree by
+
+$$
+  \Delta(a \cdot b) \coloneqq \{a,b\}
+$$
+
+and then extended to arbitrary elements by the formula
+
+$$
+  \Delta(a \cdot b)
+  \coloneqq
+  (\Delta a) \cdot b
+  + 
+  (-1)^{deg(a)}
+  a \cdot (\Delta b)
+  + 
+  \{a,b\}  
+$$
+
+=--
+
+In ([Gwilliam](#Gwilliam)) this is construction 3.1.6, and section 5.3.3.
+
++-- {: .num_defn #QuantumObservables}
+###### Definition
+
+For $(E, Q, \langle -,-\rangle_{loc})$ a free field theory, def. \ref{FreeFieldTheory} its complex of **[[quantum observables]]** is then the corresponding [[quantum BV-complex]] deformation of the classical BV-complex, def. \ref{ClassicalObservables}, given by the standard 
+BV-Laplacian of def.\ref{TheStandardBVLaplacian}
+
+$$
+  Obs^{q} \colon U \mapsto
+  \left(
+    Sym(\mathcal{E}^!_c(U))[ [ \hbar ] ], Q + \hbar \Delta
+  \right)
+  \,.
+$$
+
+=--
+
+In ([Gwilliam](#Gwilliam)) this is def. 5.3.9.
+
+## Properties
+
+### The quantum observables
+
++-- {: .num_prop}
+###### Proposition
+
+For a free field theory $(E,Q,\langle-,- \rangle_{loc})$, def. \ref{FreeFieldTheory}, the complex of quantum observables $Obs^q$, def. \ref{QuantumObservables} is [[quasi-isomorphism|quasi-isomorphic]] to
+
+(...)
+
+=--
+
+In ([Gwilliam](#Gwilliam)), this is prop. 5.5.1.
 
 ## Examples
  {#Examples}
@@ -196,6 +334,7 @@ $$
 $$
 
 
+
 ## Related concepts
 
 * [[Gaussian probability distribution]]
@@ -207,7 +346,7 @@ $$
 
 ## References
 
-* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
+* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
  {#CostelloGwilliam}
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
