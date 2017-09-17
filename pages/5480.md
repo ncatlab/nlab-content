@@ -26,7 +26,7 @@ A *totally $\infty$-connected site* is a [[site]] satisfying sufficient conditio
 ###### Proposition
 
 
-Let $C$ be an [[∞-connected site]]; we say it is a **strongly $\infty$-connected site** if it is also a [[cofiltered (∞,1)-category]].
+Let $C$ be a locally and globally [[∞-connected site]]; we say it is a **strongly $\infty$-connected site** if it is also a [[cofiltered (∞,1)-category]].
 
 =--
 
@@ -78,9 +78,9 @@ and
 
   * [[totally connected site]] / **totally ∞-connected site**
 
-* [[local site]]
+* [[local site]], [[∞-local site]]
 
-* [[cohesive site]], [[(∞,1)-cohesive site]]
+* [[cohesive site]], [[∞-cohesive site]]
 
 
 
