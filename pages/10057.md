@@ -21,7 +21,7 @@ A Hopf monoid is the generalization of a [[Hopf algebra]] to an arbitrary [[symm
 
 ## Definition
 
-We work in an arbitrary symmetric monoidal category $\mathcal{C}$ (although one can generalize to a [[braided monoidal category]] or even a [[duoidal category]]).  Recall that a [[bimonoid]] in $\mathcal{C}$ is an object $H$ which is both a [[monoid]] object and a [[comonoid]] object in a compatible way, i.e. the comultiplication and the counit are morphisms of monoids, or equivalently the multiplication and the unit are morphisms of comonoids. (To make sense of this description, one requires the symmetry in order to define the appropriate monoid/comonoid structure on $H \otimes H$; e.g., the monoid multiplication is 
+We work in an arbitrary symmetric monoidal category $\mathcal{C}$ (although one can generalize to a [[braided monoidal category]] or even a [[duoidal category]]).  Recall that a [[bimonoid]] in $\mathcal{C}$ is an object $H$ which is both a [[monoid]] object and a [[comonoid]] object in a compatible way, i.e. the comultiplication and the counit are morphisms of monoids, or equivalently the multiplication and the unit are morphisms of comonoids. (To make sense of this description, one requires the symmetry in order to define the appropriate monoid/comonoid structure on $H \otimes H$; e.g., if $\sigma$ is the symmetry and $\mu$ the monoid multiplication on $H$, the multiplication on $H \otimes H$ is 
 
 $$H \otimes H \otimes H \otimes H \stackrel{1 \otimes \sigma \otimes 1}{\to} H \otimes H \otimes H \otimes H \stackrel{\mu \otimes \mu}{\to} H \otimes H$$ 
 
