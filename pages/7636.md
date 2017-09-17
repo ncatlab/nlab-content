@@ -31,8 +31,8 @@
 |--|--|--|--|
 [[intuitionistic propositional logic]]/[[simply-typed lambda calculus]] | | [[cartesian closed category]] | |
 [[multiplicative intuitionistic linear logic]] | | symmetric [[closed monoidal category]] | | 
-[[classical linear logic]] | | [[star-autonomous category ]] | |
 |[[first-order logic]] |  | [[hyperdoctrine]] | ([Seely 1984a](#SeelyA)) |
+[[classical linear logic]] | | [[star-autonomous category ]] | ([Seely 89](#Seely89)) |
 |[[Martin-Löf dependent type theory]]|  | [[locally cartesian closed category]] | ([Seely 1984b](#Seely)) |
 |[[homotopy type theory]]|  | [[locally cartesian closed (∞,1)-category]] | (conjectural) |
 |[[homotopy type theory]] with [[higher inductive types]] and [[univalence]] |  | [[elementary (∞,1)-topos]] | (conjectural) |
@@ -352,6 +352,11 @@ The [[equivalence of categories]] between [[first order logic|first order theori
 A lecture reviewing aspects involved in this equivalence is (see the discussion building up to the theorem on  [slide 96](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf#page=96))
 
 * [[Tom Hirschowitz]], _Introduction to categorical logic_ (2010) ([pdf](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf))
+
+The equivalence between [[linear logic]] and [[star-autonomous categories]] is due to
+
+*  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
+ {#Seely89}
 
 An [[adjunction]] between the category of [[type theories]] with [[product types]] and [[toposes]] is discussed in chapter II of
 
