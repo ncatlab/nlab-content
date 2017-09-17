@@ -77,18 +77,21 @@ Discussion is for instance in
 
 Expositions include
 
+* Liviu I. Nicolaescu, _The many faces of the Gauss-Bonnet theorem_ ([pdf](http://www.nd.edu/~lnicolae/GradStudSemFall2003.pdf))
+
 * Denis Bell, _The Gauss-Bonnet theorem_ ([pdf](http://www.unf.edu/~dbell/GBVB.pdf))
 
 * [[Chenchang Zhu]], _The Gauss-Bonnet theorem and its applications_ ([pdf](http://math.berkeley.edu/~alanw/240papers00/zhu.pdf))
+
+* [[Johannes Ebert]], _[MO comment](http://mathoverflow.net/questions/53302/is-there-a-chern-gauss-bonnet-theorem-for-orbifolds/53351#53351)_
+
 
 The generalization to [[orbifold]]s is considered in
 
 * Ichiro Satake, _The Gauss-Bonnet Theorem for V-manifolds_ J. Math. Soc. Japan Volume 9, Number 4 (1957), 464-492.  ([ProjectEclid](http://projecteuclid.org/euclid.jmsj/1261153826))
  {#Satake}
 
-Expositions include
 
-* [[Johannes Ebert]], [MO comment](http://mathoverflow.net/questions/53302/is-there-a-chern-gauss-bonnet-theorem-for-orbifolds/53351#53351)
 
 [[!redirects Chern-Gauss-Bonnet theorem]]
 [[!redirects Gauss-Bonnet density]]
