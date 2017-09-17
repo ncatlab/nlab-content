@@ -109,11 +109,15 @@ Unlike the [[Wightman axioms]], the Haag--Kastler axioms do not need the notion 
 
 ## Related concepts
 
-* [[AQFT]]
+* [[quantum field theory]]
 
-  * **Haag-Kastler axioms**
+  * [[AQFT]]
 
-  * [[local net of observables]]
+    * **Haag-Kastler axioms**
+
+    * [[local net of observables]]
+
+  * [[FQFT]]
 
 ## References 
 
