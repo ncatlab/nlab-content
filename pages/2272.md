@@ -56,6 +56,9 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 [[!include Isbell duality - table]]
 
+[[!include infinitesimal and local - table]]
+
+
 
 [[!redirects Poisson manifolds]]
 [[!redirects Poisson bivector]]
