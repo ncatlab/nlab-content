@@ -375,6 +375,11 @@ Every $R$-module is the [[filtered colimit]] over is [[finitely generated module
 
 See for instance ([Kiersz, prop. 3](#Kiersz)).
 
+### Tannaka duality
+
+[[!include structure on algebras and their module categories - table]]
+  
+
 ## Related concepts
 
 * [[Vect]]
