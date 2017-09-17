@@ -48,7 +48,7 @@ $$
 
 The [[homology]] groups of the chain complex correspond precisely to the [[homotopy groups]] of the corresponding [[topological space]] or [[∞-groupoid]].
 
-The free stabilization of the [[(∞,1)-category]] of non-negatively graded chain complexes is simpy the [[stable (∞,1)-category]] of arbitrary chain complexes. There is a stabilized Dold-Kan correspondence that identifies these with special objects in $Sp(Top)$. 
+The free stabilization of the [[(∞,1)-category]] of non-negatively graded chain complexes is simpy the [[stable (∞,1)-category]] of arbitrary chain complexes. There is a [[stable Dold-Kan correspondence]] that identifies these with special objects in $Sp(Top)$. 
 
 $$
  \array{
