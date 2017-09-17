@@ -124,3 +124,6 @@ We discuss the relation to various other model structures for operads. For an ov
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_ ([arXiv:1010.4956](http://arxiv.org/abs/1010.4956))
  {#CisinskiMoerdijk}
+
+[[!redirects Segal operad]]
+[[!redirects Segal operads]]
