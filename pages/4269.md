@@ -1,7 +1,14 @@
 
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -37,7 +44,7 @@ In particular if the topos is a locally ringed topos, or [[structured (∞,1)-to
 
 ## Definition
 
-For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], also the [[overcategory]] $\mathbf{H}_{/X}$ is a topos ($(\infty,1)$-topos, etc). This is sometimes called the [[gros topos]] associated to $X \in \mathbf{H}$.
+For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) and for $X \in \mathbf{H}$ an [[object]], also the [[overcategory]] $\mathbf{H}_{/X}$ is a topos ($(\infty,1)$-topos, etc). This is sometimes called the [[petit topos]] associated to $X \in \mathbf{H}$.
 
 The canonical projection $\pi_! : \mathbf{H}_{/X} \to \mathbf{H}$ is part of an [[essential geometric morphism]]
 
