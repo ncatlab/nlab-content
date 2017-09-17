@@ -102,6 +102,15 @@ Notable families of examples include:
 
 The [[Chern character]] is a natural characteristic class with values in real cohomology. See there for more details.
 
+### $k$-Invariants
+
+* [[k-invariants]]
+
+### Level in $\infty$-Chern-Simons theory
+
+* [[level (Chern-Simons theory)]]
+
+
 ### Of subspaces
 
 * [[Maslov index]]
@@ -155,18 +164,13 @@ $$
   \,.
 $$
 
-## Examples
-
-* [[K-invariants]]
-
-* [[universal characteristic class]]
 
 ## Related concepts
 
-
-* [[universal characteristic class]];
+* [[universal characteristic class]], [[universal characteristic map]];
 
 * [[differential characteristic class]]
+
 
 ## References
 
