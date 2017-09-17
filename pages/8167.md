@@ -1,0 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally supersymmetric standard model": an extension of the [[standard model of particle physics]] to a [[model (in particle phyiscs)]] with a minimum amount of extra [[global symmetry|global]] [[supersymmetry]].
+
+## Examples
+
+* [[G2-MSSM]]
+
