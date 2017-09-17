@@ -52,11 +52,21 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 ## Related entries
 
+* [[logos (in philosophy)]]
+
 * [[logic]], [[reasoning]]
+
+
+* _[[Science of Logic]]_
+
+  * [[unity of opposites]]
+
+    * [[becoming]] $\colon$ [[nothing]] $\dashv$ [[being]]
+   
+* [[objective idealism]]
 
 * [[philosophy of mathematics]]
 
-* [[objective idealism]]
 
 * [[Converging Realities -- Toward a common philosophy of physics and mathematics]]
 
