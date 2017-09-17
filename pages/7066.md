@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $(X, \omega)$ a [[symplectic manifold]], a _polarization_ is a [[foliation]] of $X$ by [[Lagrangian submanifolds]].
+
+In [[geometric quantization]] the space of [[states]] is obrained as the subspace of the space of [[sections]] of a [[prequantum line bundle]] over a symplectic manifold, on those sections whose [[covariant derivative]] along the [[leafs]] of a polarization is constant.
+
+## References
+
+For instance section 5 of 
+
+* A. Echeverria-Enriquez, M.C. Munoz-Lecanda, N. Roman-Roy, C. Victoria-Monge, _Mathematical Foundations of Geometric Quantization_ Extracta Math. 13 (1998) 135-238 ([arXiv:math-ph/9904008](http://arxiv.org/abs/math-ph/9904008))
+
+[[!redirects polarizations]]
