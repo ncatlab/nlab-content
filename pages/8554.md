@@ -51,9 +51,15 @@ See the references for general conditions under which this model structure exist
 
 * The canonical (Lack) model structure on [[Gray-categories]] is induced from the canonical model structure on $2 Cat$.
 
+## Related concepts
+
+* [[model structure on operads]]
+
 ## References
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] section A.3.2
 
-* [[Alexandru Stanculescu]], "Constructing model categories with prescribed fibrant objects", [arXiv](http://arxiv.org/abs/1208.6005)
+* Alexandru Stanculescu, "Constructing model categories with prescribed fibrant objects" ([arXiv:1208.6005](http://arxiv.org/abs/1208.6005))
+
+* {#BergerMoerdijk12} [[Clemens Berger]], [[Ieke Moerdijk]], _On the homotopy theory of enriched categories_ ([arXiv:1201.2134](http://arxiv.org/abs/1201.2134))
 
