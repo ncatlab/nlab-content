@@ -89,7 +89,7 @@ $$
 
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $ind\text{-}C \subset PSh(C)$ be the [[full subcategory]] of the [[presheaf]] [[category]] $PSh(C) = [C^{op},Set]$ on those [[functor]]s which are [[filtered colimits]] of [[representable functor|representables]], i.e. those for which 
