@@ -31,8 +31,11 @@ For $X$ a [[normal topological space]] and $A \subset X$ a [[closed subset]], th
 
 =--
 
+### For smooth manfiolds {#Manifolds}
 
-### In the category of smooth manifolds and smooth loci {#Manifolds}
+See [[Steenrod-Wockel approximation theorem]].
+
+### For smooth loci 
 
 Let $\mathbb{L} = (C^\infty Ring^{fin})^{op}$ be the category of [[smooth loci]],
 the [[opposite category]] of finitely generated [[generalized smooth algebra]]s.
