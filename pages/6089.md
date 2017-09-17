@@ -99,6 +99,11 @@ $$
 For more on this see [[higher dimensional Chern-Simons theory]].
 
 
+## Related concepts
+
+* [[intersection pairing]]
+
+* [[self-dual higher gauge theory]]
 
 ## References 
 
@@ -132,3 +137,5 @@ For the cup product of [[Cheeger-Simons differential character]]s see also
 
 [[!redirects cup product in ordinary differential cohomology]]
 [[!redirects cup-product in ordinary differential cohomology]]
+
+[[!redirects Deligne-Beilinson cup product]]
