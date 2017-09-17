@@ -20,7 +20,7 @@
 {:toc}
 
 
-# Idea #
+## Idea 
 
 Hamiltonian mechanics is a formulation of [[mechanics]] in which the basic datum in a mechanical system is a function $H$, the [[Hamiltonian]] of the system, which gives the total energy in the system in terms of the [[position|positions]] and [[momentum|momenta]] of the objects in the system.
 
@@ -35,28 +35,28 @@ However, it is also possible to take phase space to be *any* [[symplectic manifo
 Hamiltonian mechanics was developed originally for [[classical mechanics]], but it is also the best known formulation of [[quantum mechanics]]; many students of [[physics]] (and even more so, students of [[chemistry]]) learn it only when they study the latter.  This sometimes leads to confusion about the essential differences between classical and quantum physics.
 
 
-# Definition in terms of symplectic geometry #
+## Definition in terms of symplectic geometry 
 
 Hamiltonian mechanics is best formalized in terms of [[symplectic geometry]] as described for instance in the monograoph
 
 * [[Vladimir Arnold]], _Mathemtical Methods of Classical Mechanics_ Springer.
 
 
-A classical Hamiltonian system is a pair $((X,\omega), H)$ consisting of a 
+A classical Hamiltonian [[mechanical system]] is a pair $((X,\omega), H)$ consisting of a 
 
 * [[symplectic manifold]] $(X,\omega)$ 
 
-* and a function $H \in C^\infty(X)$.
+* and a [[Hamiltonian]] function $H \in C^\infty(X)$.
 
 Here 
 
-* $X$ is the **phase space** of the physical system;
+* $X$ is the **[[phase space]]** of the physical system;
 
-* a curve $\gamma : \mathbb{R} \to X$ is a **trajectory** of the physical system in time;
+* a curve $\gamma : \mathbb{R} \to X$ is a **[[trajectory]]** of the physical system in time;
 
-* $(X,\omega)$ defines the **kinematics** of the system;
+* $(X,\omega)$ defines the **[[kinematics]]** of the system;
 
-* $H$ is the **Hamiltonian** that defined the **dynamics** of the system.
+* $H$ is the **[[Hamiltonian]]** that defined the **[[dynamics]]** of the system.
 
 The **dynamics** is encoded by declaring that those trajectories $\gamma : \mathbb{R} \to X$ are the physically realized trajectories that satisfy the equation
 
@@ -64,7 +64,7 @@ $$
   d H = \omega(\gamma', -)
 $$
 
-The components of this are **Hamilton's equations**. 
+The components of this are **[[Hamilton's equations]]**. 
 
 In more detail this equation means that for each $t \in \mathbb{R}$ the [[differential form|1-form]]
 
@@ -81,7 +81,7 @@ $$
 coincide.
 
 
-## comments on this definition ##
+### comments on this definition 
 
 
 At first, this formulation of Hamilton's mechanics is just that, an equivalent reformulation. 
@@ -101,11 +101,16 @@ Regarding the second point: after Hamilton's times people started thinking about
 
 The impact that this idea of quantization from symplectic geometry eventually had is hard to underestimate. In the hands of [[Alan Weinstein]] and his school it led to [[symplectic groupoid]]s, [[Courant algebroid]]s and other higher [[Lie theory|Lie theoretic structures]].  In the hands of [[Maxim Kontsevich]] it led to the theorem on formal [[deformation quantization]] and the vast machinery nowadays associated with that.
 
-## examples ##
+### Examples 
 
 The symplectic-geometry description of Hamiltonian mechanics is especially well-suited to describe topologically nontrivial phase spaces that are not [[cotangent bundle]]s.
 
-### vortices on the sphere ###
+#### Vortices on the sphere 
 
 $n$ vortices on the sphere as finite dimensional limit of 2D [[equation of motion|Euler equations]]: the phase space of the system of $n$ vortices is not a [[cotangent bundle]] but is $(S^2)^n$ .
 
+## Related entries
+
+* [[Hamilton's equations]]
+
+* [[Hamilton-Jacobi equation]]
