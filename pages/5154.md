@@ -313,10 +313,13 @@ This is discussed in ([BergerMoerdijkAlgebras, section 6](#BergerMoerdijkAlgebra
 
 ## Related concepts
 
+* [[model structure on monoids in a monoidal model category]]
 
 * [[algebra over a monad]]
 
   [[∞-algebra over an (∞,1)-monad]] 
+
+  * [[model structure on algebras over a monad]]
 
 * [[algebra over an algebraic theory]] 
 
