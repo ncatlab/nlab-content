@@ -63,7 +63,7 @@
 
 ### Reference ###
 
-Joseph A. Goguen, _A Categorical Manifesto_. In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67
+[[Joseph A. Goguen]], _A Categorical Manifesto_. In _Mathematical Structures in Computer Science_, Vol. 1, No. 1. (1991), pp. 49-67
 
 ### Link ###
 
