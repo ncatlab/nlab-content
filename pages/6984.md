@@ -162,6 +162,12 @@ Of course, the categorical notion of product matches the *negative* definition o
 
 * [[dependent product type]]
 
+## References
+
+A textbook account in the context of [[programming languages]] is in section 11 of 
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
 
 [[!redirects product type]]
 [[!redirects product types]]
