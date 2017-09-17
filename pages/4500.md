@@ -4,7 +4,7 @@ There are two definitions of a topological submersion $p\colon Y \to X$:
 
 * Each point in $Y$ has a neighbourhood $U$ such that $p\big|_U\colon U \simeq p(U) \times Z \to p(U)$ is projection  on the first factor. Sometimes $Z$ is required to be a [[cartesian space]] $\mathbb{R}^n$, but this is a bit restrictive.
 
-* Each point $p$ of $Y$ has a local section $\sigma\colon V \to Y$ with $p\in V$ and $p = \sigma(x)$.
+* Each point $p$ of $Y$ has a local section $\sigma\colon V \to Y$ with $x\in V$ and $p = \sigma(x)$.
 
 The second definition includes the first as a special case.
 
