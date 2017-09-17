@@ -1,7 +1,7 @@
+
 # Ananatural transformations
 * table of contents
 {: toc}
-
 
 ## Idea
 
@@ -40,4 +40,7 @@ Just as natural transformations can be composed vertically to form the morphisms
 Just as natural transformations can also be whiskered by functors and composed horizontally to make a [[strict 2-category]] $Str Cat$ of (strict) categories, (strict) functors and natural transformations, so ananatural transformations can also be whiskered by anafunctors and composed horizontally to make a [[bicategory]] $Cat_{ana}$ of (strict) categories, anafunctors and (ana)natural transformations.  Assuming the [[axiom of choice]], $Cat_{ana}$ is equivalent to $Str Cat$; without choice (and [[internalisation|internally]]), $Cat_{ana}$ has better properties than $Str Cat$ and we will usually identify the former with [[Cat]].
 
 
+[[!redirects ananatural transformation]]
+[[!redirects ananatural transformations]]
 [[!redirects ananatural isomorphism]]
+[[!redirects ananatural isomorphisms]]
