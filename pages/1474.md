@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-
-#Contents#
-* automtic table of contents goes here
-{:toc}
+# Contents
+* table of contents goes here
+{: toc}
 
 ## Idea
 
@@ -71,12 +70,19 @@ Some forms of [[predicative mathematics]] find this concept more useful.  Hausdo
 The reader can now easily define a _sequentially $R_1$ space_.
 
 
-[[!redirects sequentially Hausdorff space]]
-[[!redirects R1 space]]
-[[!redirects preregular space]]
-[[!redirects reciprocal space]]
+[[!redirects Hausdorff space]]
 [[!redirects Hausdorff spaces]]
+[[!redirects Hausdorff topological space]]
+[[!redirects Hausdorff topological spaces]]
+[[!redirects Hausdorff convergence space]]
+[[!redirects Hausdorff convergence spaces]]
+
+[[!redirects sequentially Hausdorff space]]
 [[!redirects sequentially Hausdorff spaces]]
+
+[[!redirects R1 space]]
 [[!redirects R1 spaces]]
+[[!redirects preregular space]]
 [[!redirects preregular spaces]]
+[[!redirects reciprocal space]]
 [[!redirects reciprocal spaces]]
