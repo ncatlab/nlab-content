@@ -108,7 +108,7 @@ Each commutative algebra is viewed as a context within which to view a quantum s
 Let $\Sigma : \mathcal{V}(\mathcal{B})^{op} \to Set$ be the [[presheaf]] on the category of context such that
 
 * to $V \subset B(\mathcal{H})$ it assigned the set underlying the 
-  spectrum of $V$: the set of multiplicative linear [[functional]]s 
+  spectrum of $V$: the set of multiplicative [[linear functional]]s 
   $\kappa : V \to \mathbb{R}$;
 
 * to an inclusion $i : V_1 \hookrightarrow V_2$ it assigns the corresponding 
