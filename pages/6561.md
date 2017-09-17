@@ -21,7 +21,7 @@
 
 [[Nahm's classification]] of [[superconformal quantum field theories]] predicts the existence of such a theory with $(2,0)$-[[supersymmetry]] in [[dimension]] 6, which is such that it contains a [[self-dual higher gauge theory]] whose field configurations are [[connections on a 2-bundle]] (a [[circle n-bundle with connection|circle 2-bundle with connection]] in the abelian case).
 
-It is expected ([Witten](#Witten07)) that such theories arise as the [[worldvolume]] theories of [[NS5-brane]]s and that their compactifications are at the heart of the phenomenon that leads to [[S-duality]] and hence [[geometric Langlands duality]] ([Witten](#Witten09)).
+It is expected ([Witten](#Witten07)) that such theories arise as the [[worldvolume]] theories of [[M5-brane]]s and that their compactifications are at the heart of the phenomenon that leads to [[S-duality]] and hence [[geometric Langlands duality]] ([Witten](#Witten09)).
 
 Due to the [[self-dual higher gauge theory|self-duality]] a characterization of these theories by an [[action functional]] is at best subtle, maybe impossible. Therefore more direct descriptions are still under investigation (for instance [SSW11](#SSW11)). A review of recent developments is in ([Moore11](#Moore)).
 
