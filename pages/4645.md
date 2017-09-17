@@ -37,7 +37,7 @@ Two simple special cases of general $\infty$-Chern-Weil theory are obtained by
 
 1. restricting attention to _infinitesimal aspects_ 
 
-   studying not [[∞-Lie groupoid]]s but just their [[∞-Lie algebroid]]s. In terms of this it is easy to raise categorical degree to $n = \infty$, but this misses various global [[cohomology|cohomological]] effects (very similar to how [[rational homotopy theory]] deswcribes just non-torsion phenomena of genuine [[homotopy theory]]).
+   studying not [[∞-Lie groupoid]]s but just their [[∞-Lie algebroid]]s. In terms of this it is easy to raise categorical degree to $n = \infty$, but this misses various global [[cohomology|cohomological]] effects (very similar to how [[rational homotopy theory]] describes just non-torsion phenomena of genuine [[homotopy theory]]).
 
 These are the special cases that this introduction concentrates on.
 
