@@ -19,6 +19,41 @@ The last condition here states the usual arrow-theoretic way to say monomorphism
 The morphism $f : X \to Y$ is mono precisely if for all $g,h  : A \to X$ such that $f_*(h) : A \stackrel{h}{\to} X \stackrel{f}{\to}Y $ equals
 $f_*(g) : A \stackrel{g}{\to} X \stackrel{f}{\to}Y $ we have $g = h$.
 
+## Properties
+
+We list the following properties without their (easy) proof. The proofs can be found spelled out (dually) at [[epimorphism]].
+
++-- {: .un_prop}
+###### Proposition
+
+Every [[equalizer]]
+
+$$
+  t \to x \stackrel{\to}{\to} y 
+$$
+
+is a monomorphism.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+Monomorphisms are preserved by [[pullback]].
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+Monomorphisms are preserved by [[right adjoint]] [[functor]]s.
+
+=--
+
+
+
 ## Related concepts 
 
 * [[isomorphism]] classes of monomorphism define [[subobject]]s.
