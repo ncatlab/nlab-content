@@ -130,7 +130,7 @@ However, there are other sorts of completions in mathematics, such as:
 
 * [[completion monad]]
 
-* [[completion of a ring]]
+* [[completion of a ring]], [[completion of a module]]
 
 * [[analytic completion]]
 
