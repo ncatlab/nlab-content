@@ -49,14 +49,17 @@ This is summarized in the following table:
 
 ## Details
 
-
 > under construction
 
 We discuss local ("[[extended TQFT|extended]]") [[topological field theory|topological]] prequantum field theory. 
 
-The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on some material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([Fiorenza-Schreiber](#FiorenzaSchreiber)).
+The following originates in the lecture notes ([Schreiber Pittsburgh13](#SchreiberPittLectures)) and draws on material that is discussed more fully in ([Fiorenza-Valentino](#FiorenzaValentino)) and ([Fiorenza-Schreiber](#FiorenzaSchreiber)).
 
-The first section gives the the definitions and general properties of 
+After a technical prelimiray to set the stage in 
+
+* _[The ambient topos](#TheTopos)_,
+
+the first section gives the the definitions and general properties of 
 
 * _[Local prequantum field theory](#LocalPrequantumFieldTheory)_.
 
@@ -68,20 +71,271 @@ After that we turn to the general case of examples of
 
 * _[Higher Chern-Simons prequantum field theory](#HigherChern-SimonsLocalPrequantumFieldTheory)_.
 
+### The ambient topos
+ {#TheTopos}
+
+Prequantum field theory deals with "spaces of [[field (physics)|physical fields]]". These spaces of fields are, in general, richer than just plain [[sets]] in two ways
+
+1. Spaces of fields carry [[geometry|geometric]] structure, notably they may be [[smooth spaces]], meaning that there is a way to determine which collections of fields form a smoothly parameterized collection. This is for instance the structure invoked (often implicitly) when performing [[variational calculus]] on spaces of fields in order to find their classical [[equations of motion]]. 
+
+1. Spaces of fields have [[gauge transformations]] between their points and possibly [[higher gauge transformations]] between these, meaning that they are in fact [[groupoids]] and possibly [[infinity-groupoid|higher groupoids]]. In the physics literature this is best known in the [[infinitesimal object|infinitesimal]] approximation to these gauge transformations, in which case the spaces of fields are described by [[BRST complexes]]: the dg-algebras of functions on a [[Lie algebroid]] or [[L-∞ algebroid]] of fields.
+
+Taken together this means that spaces of fields are _[[(∞,1)-sheaf|geometric higher groupoids]]_, such as [[orbifolds]] and more generally [[Lie groupoids]], [[differentiable stacks]], [[Lie 2-groupoids]], ... [[smooth ∞-groupoids]].
+
+A collection of all such geometric higher groupoids for a chosen flavor of [[geometry]] -- for instance [[topology]] or [[differential geometry]] or  [[supergeometry]] (for the description of [[fermion]] fields) or [[synthetic differential geometry]] or [[synthetic differential supergeometry]], etc. -- is called an _[[∞-topos]]_. 
+
+Not quite every [[∞-topos]] $\mathbf{H}$ serves as a decent context for collectiojns (moduli stacks) of [[physical fields]] though. In the following we need at least that $\mathbf{H}$ has a reasonable notion of _[[discrete objects]]_ so that we can identify the geometrically discrete spaces in there. We here need this to mean the following
+
++-- {: .num_defn #ShapeAndFlatModality}
+###### Definition
+
+An [[∞-topos]] $\mathbf{H}$ is called _[[locally ∞-connected (∞,1)-topos|locally ∞-connected]]_ and _[[globally ∞-connected (∞,1)-topos|globally ∞-connetced]]_ if the [[locally constant ∞-stack]]-functor $LConst \colon $ [[∞Grpd]] $\to \mathbf{H}$ is a [[reflective sub-(∞,1)-category|reflective embedding]]. 
+
+The corresponding reflector we write
+
+$$
+  \Pi \colon \mathbf{H} \to \infty Grpd \hookrightarrow \mathbf{H}
+$$
+
+and also call the _[[shape modality]]_ of $\mathbf{H}$. By the discussion at [[adjoint triple]] it follows that $LConst$ is also a [[coreflective subcategory|coreflective]] embedding; the corresponding coreflector we write 
+
+$$
+  \flat \colon \mathbf{H} \stackrel{\Gamma}{\to} \infty Grpd \hookrightarrow \mathbf{H}
+$$
+
+and call the _[[flat modality]]_.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Every [[cohesive (∞,1)-topos]] is in particular globally and locally $\infty$-connected, by definition. Standard anonical exmaples to keep in mind are
+
+* $\mathbf{H} = $ [[∞Grpd]] for [[∞-Dijkgraaf-Witten theories]];
+
+* $\mathbf{H} = $ [[Smooth∞Grpd]] for [[schreiber:∞-Chern-Simons theories]];
+
+* $\mathbf{H} = $ [[SuperSmooth∞Grpd]] for [[schreiber:∞-Chern-Simons theories]] with [[fermions]] and [[supersymmetry]];
+
+* $\mathbf{H} = $ [[SynthDiff∞Grpd]] for [[AKSZ sigma-models]].
+
+=--
+
 
 ### Local prequantum field theory
  {#LocalPrequantumFieldTheory}
 
+We consider first 
+
+* _[Bulk field theory](#BulkFieldTheory)_
+
+which concerns the case where the [[worldvolume]]/[[spacetime]] on which the [[field (physics)|physical fields]] propagate has no [[boundaries]] with boundaries conditions imposed (no "[[branes]]" or "[[QFT with defects|defects]]"). So the main point of this section is to see how the "space of fields" -- or rather: the [[moduli stack]] of fields -- on a point induces the corresponding spaces/moduli stacks of fields on an arbitrary [[closed manifold]], and, correspondingly, how the [[prequantum n-bundle]] on the space over fields over the point induces the [[action functional]] in [[codimension]] 0.
+
+However, what makes local prequantum field theory rich is that it naturally incorporates extra structure on [[boundaries]] of [[worldvolume]]/[[spacetime]]. In fact, under suitable conditions there is another local prequantum field theory just over the boundary, which is related to the corresponding bulk field theory possibly by a kind of [[holographic principle]]. This general mechanism we discuss in 
+
+* _[Boundary field theory](#BoundaryFieldTheory)_.
+
+But plain boundaries are just the first example of a general phenomenon known as "[[QFT with defects|defects]]" or "phase dualities" or "singularities" in field theories. Notably the boundary field theory itself may have boundaries, in which case this means that the original theory had _[[manifold with corners|corners]]_ where different boundary pieces meet. This we discuss in 
+
+* _[Corner field theory](#CornerFieldTheory)
+
 
 #### Bulk field theory
+ {#BulkFieldTheory}
 
-(...)
+
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$, write
+
+$$
+  Bord_n^\otimes \in E_\infty Alg(Cat_{(\infty,n)})
+$$
+
+for the [[symmetric monoidal (∞,n)-category]] [[(∞,n)-category of cobordisms|of cobordisms]] with $n$-dimensional framing. For $S \to O(n)$ a homomorphism of [[∞-groups]] (may be modeled by a homomorphism of [[topological groups]]) to the [[general linear group]] (or homotopy-equivalently its [[maximal compact subgroup]], the [[orthogonal group]]), we write 
+
+$$
+  (Bord_n^S)^\otimes \in E_\infty Alg(Cat_{(\infty,n)})
+$$
+
+for the corresponding symmetric monoidal $(\infty,n)$-category of cobordimss equipped with [[G-structure|S-structure]] on their $n$-stabilized [[tangent bundle]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In this notation we have an identification
+
+$$
+  Bord_n \simeq Bord_n^{S \coloneqq \ast}
+$$
+
+because a [[framing]] of the $n$-stabilized tangent bundle is a trivialization of that bundle and hence equivalently a [[G-structure]] for $G$ the trivial group. In ([LurieTFT](#LurieTFT)) this is denoted by "$Bord_n^{fr}$".
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[cobordism theorem]] asserts, essentially, that $Bord_n$ is the [[symmetric monoidal (∞,n)-category]] with [[fully dualizable objects|full duals]] which is [[free construction|free]] on a single generator, the point. In itself this is a deep statement about the [[homotopy type]] of [[categories of cobordisms]]. But for the following discussion the reader may just take this as the _definition_ of $Bord_n$. This then makes this a very simple object, as long as we are just mapping out of it, which we do.
+
+What this means then is that a [[monoidal (∞,n)-functor]] 
+
+$$
+  Z \colon Bord_n^\otimes \to \mathcal{C}^\otimes
+$$
+
+sends the point to some [[fully dualizable object]] $Z(\ast) \in \mathcal{C}$ and sends
+
+* the [[circle]] $S^1$ to the [[trace]] of the identity on $Z(\ast)$, 
+
+* the [[sphere]] $S^2$ to the 2-dimensional [[higher trace]] of the identity,
+
+and so on.
+
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $\mathbf{H}$ an [[∞-topos]], and $n \in \mathbb{N}$, write 
+
+$$
+  Span_n(\mathbf{H}) \in Cat_{(\infty,n)}
+$$
+
+for the [[(∞,n)-category of spans]] in $\mathbf{H}$. From the [[cartesian monoidal category]] structure of $\mathbf{H}$ this inherits the structure of a [[symmetric monoidal (∞,n)-category]] which we write 
+
+$$
+  Span_n(\mathbf{H})^\otimes \in E_\infty Alg(Cat_{(\infty,n)})
+  \,.
+$$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $B \in Grp(\mathbf{H})$ an [[abelian ∞-group]] object in $\mathbf{H}$, spans in the [[slice (∞,1)-topos]]  $\mathbf{H}_{/B}$ inherit a monoidal structure given on objects by
+
+$$  
+  \otimes
+    \;
+    \colon
+    \;
+  \left[
+    \array{
+      X \\ \downarrow^{\mathrlap{f}} \\ B
+    }
+  \right]
+  \times 
+  \left[
+    \array{
+      Y \\ \downarrow^{\mathrlap{g}} \\ B
+    }
+  \right]
+  \mapsto
+  \left[
+    \array{
+      X \times Y \\ \downarrow^{\mathrlap{f \circ p_1 + g \circ p_2}}
+     \\
+     B
+    }
+    \;\;\;\;\;\;\;\;\;\;
+  \right]
+  \,.
+$$
+
+We write
+
+$$
+  Span_n(\mathbf{H}, B)^\otimes \in E_\infty Alg(Cat_{(\infty,n)})
+$$
+
+for the resulting [[symmetric monoidal (∞,n)-category]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the case that $\mathbf{H} = $ [[∞Grpd]] this is a special case of ([LurieTFT, around prop. 3.2.8](#LurieTFT)), with the [[∞-group]] $B$ regarded as a special case of a [[symmetric monoidal (∞,1)-category]]. 
+
+=--
+
+The central definition in the present context now is the following
+
++-- {: .num_defn}
+###### Definition
+
+A **local prequantum bulk field** in [[dimension]] $n \in \mathbb{N}$ is a [[monoidal (∞,n)-functor]]
+
+$$
+  \mathbf{Fields} \colon Bord_n^\otimes \to Span_n(\mathbf{H})
+  \,.
+$$
+
+A **local action functional** on a local prequantum bulk field is a lift $S$ of this in 
+
+$$
+  \array{
+     && Span_n(\mathbf{H}, \flat \mathbf{B}^n U(1))
+     \\
+     & {}^{\mathllap{S}}\nearrow & \downarrow^{\mathrlap{Span_n\left(\underset{\flat \mathbf{B}^n U(1)}{\sum}\right)}}
+     \\
+     Bord_n 
+     &\underset{\mathbf{Fields}}{\to}&
+     Span_n(\mathbf{H})
+  }
+  \,.
+$$
+
+=--
+
+For $\mathbf{H} = $ [[∞Grpd]] this is the perspective in ([FHLT, section 3](#FHLT)).
+
++-- {: .num_remark}
+###### Remark
+
+Since a monoidal $(\infty,n)$-functor $\mathbf{Fields} \colon Bord_n \to Span_n(\mathbf{H})$ is determined by its value on the point, we will often notationally identify it with this value and write
+
+$$
+  \mathbf{Fields} = \mathbf{Fields}(\ast) \in \mathbf{H} \hookrightarrow Span_n(\mathbf{H})
+  \,.
+$$
+
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Given $\mathbf{Fields} \colon Bord_n^\otimes \to Span_n(\mathbf{H})^\otimes$, it assigns to a [[k-morphism]] represented by a [[closed manifold]] $\Sigma_k$ the [[internal hom]] ([[mapping stack]]) from  $\Pi(\Sigma_k)$ (the [[shape modality]] of $\Sigma_k$, def. \ref{ShapeAndFlatModality}) into the moduli stack of fields
+
+$$
+  \mathbf{Fields}
+  \colon
+  \Sigma_k
+  \maspto
+  [\Pi(\Sigma_k), \mathbf{Fields}]
+  \,.
+$$
+
+=--
+
 
 #### Boundary field theory
+ {#BoundaryFieldTheory}
 
 (...)
 
 #### Corner field theory
+ {#CornerFieldTheory}
 
 (...)
 
@@ -152,10 +406,24 @@ The discussion of local topological prequantum field theory above draws from
 * [[Urs Schreiber]], _Lectures on higher Chern-Simons field theory_, University of Pittsburgh (May 2013)
  {#SchreiberPittLectures}
 
+The formulation of [[infinity-Dijkgraaf-Witten theory|higher Dijkgraaf-Witten]]-type prequantum field theories as above has been suggested in section 3, section 8 of
+
+* [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
+ {#FHLT}
+
+based on the considerations in section 3.2 of 
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ .
+ {#LurieTFT}
+
 [[!redirects prequantum field theory]]
 [[!redirects prequantum field theories]]
+[[!redirects local prequantum field theory]]
+[[!redirects local prequantum field theories]]
+
 [[!redirects extended prequantum field theory]]
 [[!redirects extended prequantum field theories]]
 
 [[!redirects higher prequantum field theory]]
 [[!redirects higher prequantum field theories]]
+
