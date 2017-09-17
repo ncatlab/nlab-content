@@ -154,6 +154,10 @@ A large class of examples of action functionals arises in [[schreiber:∞-Chern-
 
 ## Related concepts
 
+* [[principle of extremal action]], [[Euler-Lagrange equations]]
+
+* [[path integral]] [[quantization]]
+
 * [[effective action functional]], [[background field formalism]]
 
 [[!include extended prequantum field theory - table]]
