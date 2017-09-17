@@ -1,0 +1,8 @@
+
+* [webpage](http://www.cims.nyu.edu/~tschinke/)
+
+## related $n$Lab entries
+
+* [[anabelian geometry]]
+
+category: people
