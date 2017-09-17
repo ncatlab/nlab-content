@@ -65,7 +65,7 @@ Here we say a square matrix with entries in the $\ast$-algebra $A$ is **hermitia
 
 Because the octonions are an [[alternative algebra]] but not associative, we cannot go beyond $3 \times 3$ matrices and still get a Jordan algebra.  The $1 \times 1$ self-adjoint octonionic matrices are just the real numbers, and the $2 \times 2$ ones are isomorphic to the spin factor $\mathbb{R}^9 \oplus \mathbb{R}$.   The $3 \times 3$ self-adjoint octonionic matrices form the Albert algebra.
 
-Jordan algebras in the fourth family are called **spin
+Jordan algebras in the fifth family are called **spin
 factors**.   This family has some overlaps with the others.  Most notably:
 
 * The Jordan algebra of $2 \times 2$ self-adjoint real matrices is isomorphic to the spin factor $\mathbb{R}^2 \oplus \mathbb{R}$.
