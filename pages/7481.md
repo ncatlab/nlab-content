@@ -48,7 +48,7 @@ $$
   \bar \mathbb{C} : \mathcal{S}^{op} \to Cat
 $$
 
-that is [[representable functor|represented]] by $\mathbb{C}$ . More explicitly, this the the [[pseudofunctor]] which to an [[object]] $X \in \mathcal{T}$ assigns
+that is [[representable functor|represented]] by $\mathbb{C}$ . More explicitly, this the [[pseudofunctor]] which to an [[object]] $X \in \mathcal{T}$ assigns
 
 $$
   \bar \mathbb{C} : X 
@@ -158,6 +158,9 @@ $$
 
 This appears as ([Johnstone, cor. B.2.3.22](#Johnstone)).
 
+## Related concepts
+
+* [[internal diagram]]
 
 ## References
 
