@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -14,15 +18,42 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A _quasi-isomorphism_ is a [[chain map]] that induces [[isomorphisms]] on all [[homology groups]]. These are the natural choice of [[weak equivalences]] between [[chain complexes]] in the context of ([[stable homotopy theory|stable]]) [[homotopy theory]]. 
+
+The [[localization]] of a [[category of chain complexes]] at the quasi-isomorphisms is called the _[[derived category]]_ of the underlying [[abelian category]]. 
+
+Under the relation between [[topological spaces]] and [[chain complexes]] established by forming [[singular simplicial complexes]], quasi-isomorphism can be understod as the [[abelianization]] of [[weak homotopy equivalences]] (see the [[Hurewicz theorem]] for more on this).
+
 ## Definition
 
-A **quasi-isomorphism** is a [[chain map]] between [[chain complexes]] which induces an isomorphism on [[chain homology]].  
+Let $\mathcal{A}$ be an [[abelian category]] and write 
+$Ch_\bullet(\mathcal{A})$ for its [[category of chain complexes]].
 
-Quasi-isomorphisms are also called, more descriptively, **homology isomorphisms** or **$H_*$-isomorphisms**.  
++-- {: .num_defn #QuasiIsos}
+###### Definition
+
+A [[chain map]] $f_\bullet : C_\bullet \to D_\bullet$ in $Ch_\bullet(\mathcal{A})$ is called a  **quasi-isomorphism** if for each $n \in \mathbb{N}$ the induced morphisms on [[chain homology]] groups
+
+$$
+  H_n(f) \colon H_n(C) \to H_n(D)
+$$
+
+is an [[isomorphism]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Quasi-isomorphisms are also called, more descriptively, **homology isomorphisms** or **$H_\bullet$-isomorphisms**.  See at _[[homology localization]]_ for more on this.
+
+=--
 
 ## In homotopy theory
 
-Quasi-isomorphisms are the [[weak equivalences]] in the most common [[model category|model category structures]] on the [[category of chain complexes]]. See at _[[model structure on chain complexes]]_.
+Quasi-isomorphisms are the [[weak equivalences]] in the most common [[model category|model category structures]] on the [[category of chain complexes]]. See at _[[model structure on chain complexes]]_ and _[[derived category]]_.
 
 ## Related concepts
 
@@ -37,6 +68,17 @@ Quasi-isomorphisms are the [[weak equivalences]] in the most common [[model cate
   * [[chain map]]
 
   * [[chain homotopy]]
+
+## References
+
+A basic introduction is around definition 1.1.2 in 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+A more systematic discussion is in section 12 of
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_ 
+  
 
 [[!redirects quasi-isomorphisms]]
 [[!redirects quasiisomorphism]]
