@@ -63,6 +63,7 @@ For details see [[groupoid object in an (∞,1)-category]].
 
   * [[Eilenberg-MacLane object]], [[∞-gerbe]]
 
+[[!include k-monoidal table]]
 
 ## References
 
