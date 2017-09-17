@@ -35,8 +35,10 @@ for ${}^L G$ the [[Langlands dual group]].
 This equivalence is a certain limit of the more general [[quantum geometric Langlands correspondence]] that identifies twisted $D$-modules on both sides.
 
 ## Properties 
+ {#Properties}
 
 ### Relation to S-duality
+ {#RelationToSDuality}
 
 The [[Kapustin-Witten TQFT]] ([KapustinWitten 2007](#KapustinWitten)) is supposed to exhibit geometric Langlands duality as a special case of [[S-duality]]. 
 
@@ -44,6 +46,7 @@ The [[Kapustin-Witten TQFT]] ([KapustinWitten 2007](#KapustinWitten)) is suppose
 
 
 ### Relation to T-duality
+ {#RelationToTDuality}
 
 In some cases the passage between a Lie group and its [[Langlands dual group]] can be understood as a special case of [[T-duality]]. ([Daenzer-vanErp](#DaenzerErp))
 
