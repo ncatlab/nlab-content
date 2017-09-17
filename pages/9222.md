@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _density_ on a [[manifold]] of [[dimension]] $n$ is a function that to each point assigns a notion of [[volume]] (in general signed, and possibly degenerate) of $n$-[[hypercubes]].  A positive definite density is equivalently a _[[volume element]]_ (or a volume form on an [[orientation|oriented]] manifold).
+A _density_ on a [[manifold]] of [[dimension]] $n$ is a [[function] that to each point assigns an [[infinitesimal object|infinitesimal]] [[volume]] (in general signed, and possibly degenerate), hence a volume  of $n$-[[hypercubes]] in the [[tangent space]] at that point.  A positive definite density is equivalently a _[[volume element]]_ (or a volume form on an [[orientation|oriented]] manifold).
 
 
 ## Definition
@@ -33,7 +33,7 @@ $$
 
 A [[section]] of the density bundle on $X$ is called a _density on $X$_. 
 
-This is the general object again which one has [[integration]] of functions on $X$.
+This is the general object against which one has [[integration]] of functions on $X$.
 
 More generally, for $s \in \mathbb{R} - \{0\}$ an **$s$-density** is a section of the [[line bundle]] which is [[associated bundle|associated]] via the [[determinant]] to the power of $s$:
 
@@ -44,12 +44,19 @@ $$
 
 The parameter $s$ is called the __weight__ of the density.  In particular for $s = 1/2$ one speaks of **half-densities**.
 
+## Properties and applications
 
-## Physical interpretation
+### Physical interpretation
 
 We earlier spoke of a density (of weight $1$) $\rho$ as a measure of [[volume]], but in application to [[physics]] a density on [[spacetime]] (or space) might as easily be a measure of some other [[extensive quantity]] $Q$ (say, [[mass]]).  We then call $\rho$ the __$Q$-density__ (say, _mass density_); the [[integration of differential forms|integral]] of $\rho$ over a region $R$ is the amount of $Q$ in $R$.
 
 Relative to a nondegenerate notion of volume given by another density $vol$, the ratio $\rho/vol$ is a [[scalar field]], an [[intensive quantity]] which is often also referred to as the _density_.  But $\rho$ itself is more fundamental in the [[geometry of physics]].
+
+### Wave functions and canonical Hilbert spaces
+
+In the context of [[geometric quantization]] one considers spaces of [[sections]] of [[line bundles]] ("[[prequantum line bundles]]") and tries to equip these with an [[inner product]] given by pointwise pairing followed by [[integration]] over the base such as to then [[completion|complete]] to a [[Hilbert space]]. 
+
+One can define the [[integration]] against a fixed chosen [[measure]], but more canonical is to instead form the [[tensor product]] of the prequanutm line bundle with the bundle of half-densities. The compactly supported sections of that tensor bundle can thne naturally be integrated. This is sometimes called the "canonical Hilbert space" construction (e.g. ([Bates-Weinstein](#BatesWeinstein))).
 
 
 ## Related concepts
@@ -63,9 +70,14 @@ Relative to a nondegenerate notion of volume given by another density $vol$, the
 
 ## References
 
-For instance p. 29 of 
+A textbook account is for instance on p. 29 of 
 
 * [[Nicole Berline]], [[Ezra Getzler]], [[Michele Vergne]], _Heat kernels and Dirac operators_, Springer (2004)
+
+Discussion of half-densities in the context of [[geometric quantization]] is in 
+
+* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+ {#BatesWeinstein}
 
 
 [[!redirects density]]
