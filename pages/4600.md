@@ -176,6 +176,9 @@ For the case $\mathbf{H} = $ [[Smooth∞Grpd]] this intrinsic definition reprodu
 
 * [Smooth∞Grpd -- structures -- differential cohomology](http://ncatlab.org/nlab/show/smooth%20infinity-groupoid%20--%20structures#StrucDifferentialCohomology)
 
+## Related concepts
+
+* [[arithmetic Chow group]]
 
 ## References
 
