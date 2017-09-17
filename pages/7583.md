@@ -51,13 +51,13 @@ We may refer to the transfinite composites of monomorphisms above as **transfini
 
 * The category [[Set]] is easily verified to be exhaustive.
 
-* Since limits and colimits in presheaf categories are pointwise, any presheaf category $[D^{op},Set]$ is also exhaustive.
+* Since limits and colimits in [[category of presheaves|presheaf categories]] are pointwise, any presheaf category $[D^{op},Set]$ is also exhaustive.
 
-* Since the condition involves only colimits and finite limits, it is preserved by any left exact localization.  Thus, every [[Grothendieck topos]] is exhaustive.
+* Since the condition involves only colimits and finite limits, it is preserved by any [[reflective subcategory|left exact localization]].  Thus, every [[Grothendieck topos]] is exhaustive.
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 Given a transfinite union
 $$ A_0 \to A_1 \to \cdots \to A_\kappa$$
@@ -78,7 +78,7 @@ $$\array{ A_\alpha & \to & A_\alpha \\
 is a pullback, i.e. $A_\alpha\to A_\kappa$ is monic.
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 If an exhaustive category is also finitary [[extensive category|extensive]], then it is infinitary extensive.
 =--
