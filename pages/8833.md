@@ -1,0 +1,3 @@
+### Idea
+
+Roughly, Massey Products are to cohomology as [[Toda Brackets]] are to homotopy.
