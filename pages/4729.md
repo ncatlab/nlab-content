@@ -389,11 +389,11 @@ $$
 consider the unique decomposition
 
 $$
-  A = A_U + ( A_{vert} := \lambda \wedge d t)  \; \; 
+  A = A_U + ( A_{vert} := \lambda \wedge d s)  \; \; 
   \,,
 $$
 
-with $A_U$ the horizonal differential form component and $t : \Delta^1 = [0,1] \to \mathbb{R}$ the canonical coordinate.
+with $A_U$ the horizonal differential form component and $s : \Delta^1 = [0,1] \to \mathbb{R}$ the canonical [[coordinate]].
 
 We call $\lambda$ the **gauge parameter** . This is a function on $\Delta^1$ with values in 0-forms on $U$ for $\mathfrak{g}$ an ordinary [[Lie algebra]], plus 1-forms on $U$ for $\mathfrak{g}$ a [[Lie 2-algebra]], plus 2-forms for a Lie 3-algebra, and so forth.
 
@@ -402,36 +402,40 @@ We call $\lambda$ the **gauge parameter** . This is a function on $\Delta^1$ wit
 We describe now how this enccodes a gauge transformation
 
 $$
-  A_0(s=0) \stackrel{\lambda}{\to} A_U(s = 1)
+  \lambda : A_0(s=0) \stackrel{}{\to} A_U(s = 1)
   \,.
 $$
 
 +-- {: .un_lemma}
 ###### Observation
 
-
-By the nature of the [[Weil algebra]] we have
+We have
 
 $$
   \frac{d}{d s} A_U
   =
-  d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots
+  (d_U \lambda + [\lambda \wedge A] + [\lambda \wedge A \wedge A] + \cdots)
   + 
-  \iota_s F_A
+  \iota_{\partial_s} F_A
   \,,
 $$
 
-where the sum is over all higher brackets of the [[∞-Lie algebra]] $\mathfrak{g}$.
+where the sum is over all higher brackets of the [[L-∞ algebra]] $\mathfrak{g}$. 
 
 =--
 
-In the [[Cartan calculus]] for $\mathfrak{g}$ an ordinary 
-[[Lie algebra]] one writes the corresponding  **[[Ehresmann connection|second Ehremsnn condition]]** $\iota_{\partial_s} F_A = 0$ equivalently
++-- {: .proof}
+###### Proof
+
+This is the result of applying the contraction $\itota_{\partial s}$ to the defining equation for the [[curvature]] $F_A$ of $A$ using the nature of the [[Weil algebra]]:
 
 $$
-  \mathcal{L}_{\partial_s} A = ad_\lambda A
-  \,.
+  F_A = d_{dR} A + [A \wedge A] + [A \wedge A \wedge A] + \cdots
 $$
+
+and inserting the above decomposition for $A$.
+
+=--
 
 
 +-- {: .un_def}
@@ -463,7 +467,7 @@ In this notation we have
     \,.
   \]
 
-This is known as the equation for **infinitesimal [[gauge transformation]]s** of an $\infty$-Lie algebra valued form. 
+This is known as the equation for **infinitesimal [[gauge transformation]]s** of an $L_\infty$-algebra valued form. 
 
 
 
@@ -485,21 +489,25 @@ The unique solution $A_U(s = 1)$ of the above [[differential equation]] at $s = 
 ###### Proposition
 **(connections on ordinary bundles)**
 
-For $\mathfrak{g}$ an ordinary [[Lie algebra]] with simply connected [[Lie group]] $G$ and for $\mathbf{B}G_{conn}$ the [[groupoid of Lie algebra-valued forms]] we have an [[isomorphism]]
+For $\mathfrak{g}$ an ordinary [[Lie algebra]] with simply connected [[Lie group]] $G$ and for $\mathbf{B}G_{conn}$ the [[groupoid of Lie algebra-valued forms]] we have an equivalence
 
 $$
-  \tau_1 \exp(\mathfrak{g})_{conn} = \mathbf{B}G_{conn}
+  \tau_1 \exp(\mathfrak{g})_{conn} \simeq \mathbf{B}G_{conn}
 $$
+
+betweenn the 1-truncated coefficient object for $\mathfrak{g}$-valued $\infty$-connections and the coefficient objects for ordinary [[connections on a bundle]] (see there).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-To see this, first note that the sheaves of objects on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. For morphisms, observe that for a form $\Omega^\bullet(U \times \Delta^1) \leftarrow W(\mathfrak{g}) : A$ which we may decompose into a horizontal and a verical pice as $A = A_U + \lambda \wedge d t$ the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
+Notice that the sheaves of [[object]]s on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. 
+
+On [[morphism]]s, we have by the [above](#InfinitesimalGaugeTransformations) for a form $\Omega^\bullet(U \times \Delta^1) \leftarrow W(\mathfrak{g}) : A$ decomposed into a horizontal and a verical pice as $A = A_U + \lambda \wedge d t$ that the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
 
 $$
-  \frac{\partial}{\partial t} A
+  \frac{\partial}{\partial s} A
   =
   d_U \lambda + [\lambda, A]
   \,.
@@ -508,21 +516,24 @@ $$
 For any initial value $A(0)$ this has the unique solution
 
 $$
-  A(t) = g(t)^{-1} (A + d_{U}) g(t)
-  \,,
+  \begin{aligned}
+     A(t) & = g(t)^{-1} (A + d_{U}) g(t)
+      \\
+     & = Ad_{g(t)}(A) + g(t)^* \theta
+  \end{aligned}
 $$
 
-where $g : [0,1] \to G$ is the [[parallel transport]] of $\lambda$:
+(with $\theta$ the [[Maurer-Cartan form]] on $G$), where $g \in C^\infty([0,1], G)$ is the [[parallel transport]] of $\lambda$:
 
 $$
   \begin{aligned}
     &
-    \frac{\partial}{\partial t}
+    \frac{\partial}{\partial s}
     \left(
        g_(t)^{-1} (A + d_{U}) g(t)
      \right)
      \\
-     = &
+     & = 
      g(t)^{-1} (A + d_{U}) \lambda g(t)
      -
      g(t)^{-1} \lambda (A + d_{U}) g(t)    
@@ -531,7 +542,7 @@ $$
 
 (where for ease of notaton we write actions as if $G$ were a [[matrix Lie group]]).
 
-In particular this implies that the endpoints of the path of $\mathfrak{g}$-valued 1-forms are related by the usual cocycle condition in $\mathbf{B}G_{conn}$
+This implies that the endpoints of the path of $\mathfrak{g}$-valued 1-forms are related by the usual cocycle condition in $\mathbf{B}G_{conn}$
 
 $$
   A(1) = g(1)^{-1} (A + d_U) g(1)
@@ -541,6 +552,7 @@ $$
 In the same fashion one sees that given 2-cell in $\exp(\mathfrak{g})(U)$ and any 1-form on $U$ at one vertex, there is a unique lift to a 2-cell in $\exp(\mathfrak{g})_{conn}$, obtained by parallel transporting the form around. The claim then follows from the previous statement of [[Lie integration]] that $\tau_1 \exp(\mathfrak{g}) = \mathbf{B}G$.
 
 =--
+
 
 ### Further examples
 
