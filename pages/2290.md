@@ -225,12 +225,17 @@ The attempted "Proof" of this is the motivation for the [[Stephan Stolz|Stolz]]-
 
 ## Related concepts
 
+* [[elliptic genus]]
+
 * [[sigma-orientation]]
 
 * [[tmf]]
 
 
 ## References
+
+* [[Peter Landweber]], [[Douglas Ravenel]], [[Robert Stong]], _Periodic cohomology theories defined by elliptic curves_ ([pdf](http://www.math.sciences.univ-nantes.fr/~hossein/GdT-Elliptique/Landweber-Ravenel-Stong.pdf))
+
 
 A comprehensive account is in
 
