@@ -422,6 +422,14 @@ The meaning of $\kappa$-symmetry in terms of the [[supergeometry|super]]-[[Carta
 * [[Joaquim Gomis]], Kiyoshi Kamimura, [[Peter West]], _Diffeomorphism, kappa transformations and the theory of non-linear realisations_ ([arXiv:hep-th/0607104](http://arxiv.org/abs/hep-th/0607104))
  {#GKW}
 
+### Open branes ending on other branes
+
+Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [[M5-brane]] is in 
+
+* C.S. Chu, E. Sezgin, _M-Fivebrane from the Open Supermembrane_,  JHEP 9712 (1997) 001 ([arXiv:hep-th/9710223](http://arxiv.org/abs/hep-th/9710223))
+
+* Ph. Brax, J. Mourad, _Open Supermembranes Coupled to M-Theory Five-Branes_, Phys.Lett. B416 (1998) 295-302 ([arXiv:hep-th/9707246](http://arxiv.org/abs/hep-th/9707246))
+
 ### GS superstrings in various backgrounds
 
 * R. R. Metsaev, _Type IIB Green-Schwarz superstring in plane wave Ramond-Ramond background_ ([arXiv:hep-th/0112044](http://arxiv.org/abs/hep-th/0112044))
