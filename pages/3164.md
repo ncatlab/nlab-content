@@ -35,6 +35,8 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 
 * [[arithmetic scheme]]
 
+  * [[arithmetic curve]]
+
 * [[arithmetic Chow group]]
 
 * [[analytic geometry]]
