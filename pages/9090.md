@@ -12,4 +12,14 @@
 * L.Katzarkov, M.Kontsevich, T.Pantev, _Hodge theoretic aspects of mirror symmetry_, [arxiv:0806.0107](http://arxiv.org/abs/0806.0107)
 {#KatzarkovKontsevichPantev}
 
+## See also
+
+* [[derived category]]
+* [[coherent sheaves]]
+* [[Bondal-Orlov reconstruction theorem]]
+
 [[!redirects derived categories of coherent sheaves]]
+[[!redirects derived category of quasi-coherent sheaves]]
+[[!redirects derived category of quasicoherent sheaves]]
+[[!redirects derived categories of quasi-coherent sheaves]]
+[[!redirects derived categories of quasicoherent sheaves]]
