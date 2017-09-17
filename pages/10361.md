@@ -38,9 +38,13 @@ One well-developed attempt to construct a hidden variable theory is [[Bohmian me
 
 ## Related concepts
 
+* [[interpretation of quantum mechanics]]
+
 * [[Einstein-Podolsky-Rosen paradox]]
 
 * [[Kochen-Specker theorem]]
+
+* [[Bell's theorem]]
 
 * [[Hardy's paradox]]
 
