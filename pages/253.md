@@ -36,13 +36,13 @@ A **bicategory** is a particular [[algebraic definition of higher category|algeb
 
 A **bicategory** $B$ consists of
 
-* A collection of objects $x,y,z,\dots$, also called _$0$-cells_;
-* For each pair of $0$-cells $x,y$, a category $B(x,y)$, whose objects are _$1$-cells_ and whose morphisms are _$2$-cells_;
-* For each $0$-cell $x$, a distinguished $1$-cell $1_x\in B(x,x)$;
-* For each triple of $0$-cells $x,y,z$, a functor ${\circ}\colon B(y,z)\times B(x,y) \to B(x,z)$;
-* For each pair of $0$-cells $x,y$, [[natural isomorphisms]], called _[[unitors]]_, $id_{B(x,y)} \circ const_{1_x} \cong id_{B(x,y)} \cong const_{1_y} \circ id_{B(x,y)}\colon B(x,y) \to B(x,y)$; and
-* For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism, called the _[[associator]]_, between the two functors from $B_{y,z} \times B_{x,y} \times B_{w,x}$ to $B_{w,z}$ built out of ${\circ}$; such that
-* The same axioms as the constraint isomorphisms in a [[monoidal category]] (which we do not write out in full here) are satisfied.
+*  A [[collection]] of __[[objects]]__ $x,y,z,\dots$, also called __$0$-cells__;
+*  For each pair of $0$-cells $x,y$, a [[category]] $B(x,y)$, whose objects are called __[[morphisms]]__ or __$1$-cells__ and whose morphisms are called __[[2-morphisms]]__ or __$2$-cells__;
+*  For each $0$-cell $x$, a distinguished $1$-cell $1_x\in B(x,x)$ called the __[[identity morphism]]__ or __identity $1$-cell__ at $x$;
+*  For each triple of $0$-cells $x,y,z$, a functor ${\circ}\colon B(y,z)\times B(x,y) \to B(x,z)$ called __[[horizontal composition]]__;
+*  For each pair of $0$-cells $x,y$, [[natural isomorphisms]] called __[[unitors]]__: $id_{B(x,y)} \circ const_{1_x} \cong id_{B(x,y)} \cong const_{1_y} \circ id_{B(x,y)}\colon B(x,y) \to B(x,y)$; and
+*  For each quadruple of $0$-cells $w,x,y,z$, a natural isomorphism called the __[[associator]]__ between the two functors from $B_{y,z} \times B_{x,y} \times B_{w,x}$ to $B_{w,z}$ built out of ${\circ}$; such that
+*  The same axioms as the constraint isomorphisms in a [[monoidal category]] (which we do not write out in full here) are satisfied.
 
 If there is exactly one $0$-cell, say $*$, then the definition is exactly the same as a monoidal structure on the category $B(*,*)$.  This is one of the motivating examples behind the [[delooping hypothesis]] and the general notion of [[k-tuply monoidal n-category]].
 
