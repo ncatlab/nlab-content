@@ -8,7 +8,7 @@ This page means to provide non-technical motivation for the notion of _[[cohesio
 
 ## Motivation
 
-A notion of _[[cohesion]]_ on a collection $\mathbf{H}$ of [[spaces]] is supposed to be a means to specify how [[points]] in any space $X \in \mathbf{H}$ "hang together" or "cohere", analogous to how water molecules in a droplet of water are held together by [cohesion (in the sens of chemistry)](http://en.wikipedia.org/wiki/Cohesion_%28chemistry%29). 
+A notion of _[[cohesion]]_ on a collection $\mathbf{H}$ of [[spaces]] is supposed to be a means to specify how [[points]] in any space $X \in \mathbf{H}$ "hang together" or "cohere", analogous to how water molecules in a droplet of water are held together by [cohesion (in the sense of chemistry)](http://en.wikipedia.org/wiki/Cohesion_%28chemistry%29). 
 
 A basic example arises for [[topological spaces]] or [[manifolds]]: here the "droplet of water" is an _[[open ball]]_ of points. Indeed, one of the central examples of cohesive spaces is that of [[smooth spaces]] and these are spaces characterized by the fact that they can be _probed_ by smooth open balls (in the sense described at _[[motivation for sheaves, cohomology and higher stacks]]_), such that these smooth open balls are the _basic_ "cohesive droplets" out of which any smooth space is built (this roughly in the sense of [[topological base|basis of a topology]], but a bit more generally than that).
 
