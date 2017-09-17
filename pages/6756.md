@@ -1,0 +1,55 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+For $(X,\omega)$ a [[symplectic manifold]], a [[vector field]] $v \in \Gamma(T X)$ is called a **Hamiltonian vector field** if is contraction with the 2-form $\omega$ is exact: there is $\alpha \in C^\infty(X)$ such that
+
+$$
+  \iota_v \omega = d \alpha
+  \,.
+$$
+
+In this case $\alpha$ is called a [[Hamiltonian]] for $v$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $(X,\omega)$ an [[n-plectic manifold]], a [[vector field]] $v \in \Gamma(T X)$ is called a **Hamiltonian vector field** if is contraction with the $(n+1)$-form $\omega$ is exact: there is $\alpha \in \Omega^{n-1}(X)$ such that
+
+$$
+  \iota_v \omega = d \alpha
+  \,.
+$$
+
+In this case $\alpha$ is called a [[Hamiltonian]] $(n-1)$-form for $v$.
+
+=--
+
+## References
+
+The notion of Hamiltonian vector field in [[n-plectic geometry]] is discussed in 
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+
+
+[[!redirects Hamiltonian vector fields]]
