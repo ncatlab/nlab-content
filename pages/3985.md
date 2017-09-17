@@ -549,9 +549,9 @@ Finally we can use that $f$ is terminal in the full subcategory $D_c$ of $C_{c/}
 
 ### Exact localizations {#ExactLocalizations}
 
-Recall that the reflective subcategory $D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$ is **exact** -- or $L$ an **exact localization** -- if $L$ preserves finite limits.
+Recall that the reflective subcategory $D \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow} C$ is **exact** -- or $L$ an **exact localization** -- if $L$ preserves finite [[limit in a quasi-category|limits]].
 
-Recall also that by the above results, a reflective subcategory is characterized by the collection $S = L^{-1}(equi) \subset Mor(C)$ of those morphisms, that $L$ sends to equivalences in $D$.
+Recall also that by the above results, a reflective subcategory is characterized by the collection $S = L^{-1}(equiv) \subset Mor(C)$ of those morphisms, that $L$ sends to equivalences in $D$.
 
 The following propositions say how the property that $L$ preserves finite limits is characterized by pullback-stability properties of $S$.
 
