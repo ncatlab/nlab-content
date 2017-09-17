@@ -61,12 +61,6 @@ $$id: X \to U_\alpha + \sum_{\beta \neq \alpha} U_\beta$$
 because $\hom(X, -)$ preserves binary coproducts. In others words, either $X = U_\alpha$ or $X = \sum_{\beta \neq \alpha} U_\beta$ (and the other is $0$). We cannot have $U_\alpha = 0$ for every $\alpha$, for then $X = \sum_\alpha U_\alpha$ would be $0$, contradicting the fact that $\hom(X, 0) = 0$. So $X = U_\alpha$ for at least one $\alpha$. And no more than one $\alpha$, since we have $U_\alpha \cap U_\beta = 0$ whenever $\alpha \neq \beta$. 
 =--
 
-+-- {: .query}
-[[Mike Shulman]]: It's not obvious to me that preserving binary coproducts is enough to ensure preservation of infinitary coproducts.  Unless you meant "preserves all finite coproducts"?
-
-_Toby_:  I just copied what was at [[connected space]].  It\'s true that homming out of a connected space preserves all coproducts, but it\'s not clear to me whether that is a theorem at this level either.  Maybe we need to distinguish finitarily connected objects of finitarily extensive categories from infinitarily connected objects of infinitarily extensive categories?
-=--
-
 
 ## Examples
 
