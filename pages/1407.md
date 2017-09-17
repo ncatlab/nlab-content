@@ -249,6 +249,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[string scattering amplitude]]
 
+* [[p-adic string theory]]
 
 ### Elliptic genera, elliptic cohomology and $tmf$
   {#EllipticGenera}
