@@ -75,11 +75,13 @@ gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
 ## Teaching ##
 
-(currently under reconstruction)
+* 2014
+
+  *  Semester 1 : Maths 1A, Lecturer (Algebra), Tutor
 
 * 2013 
 
-  *  Semester 1 : Maths 1A, Lecturer (Algebra), Tutor
+  *  Semester 1 : Maths 1A, Lecturer (Algebra); Tutor (term 2 only)
 
 * 2007 
 
@@ -89,13 +91,13 @@ gerbe caloron transform_, joint with Raymond Vozzo, in preparation.
 
 * 2006
 
-   *  Semester 2 : Maths ?? (first year), Tutor
+   *  Semester 2 : Maths 1B, Tutor
 
-   *  Semester 1: Maths ?? (first year), Tutor
+   *  Semester 1: Maths 1A, Tutor
 
 * 2005 
 
-   *  Semester 2: Maths ?? (first year), Tutor
+   *  Semester 2: Maths 1B, Tutor
 
 
 ## Copyright statement ##
