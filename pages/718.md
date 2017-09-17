@@ -1,6 +1,14 @@
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://www.j-paine.org/ish_bin_da_thumb.jpg" alt="Photo of Jocelyn Paine" /></div>
 
-[[!include contents ]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
+[[!include contents]]
+=--
+=--
+=--
 
 I am a <a href="http://www.j-paine.org/#consultancy">freelance programmer</a>, and spend too much time repairing Web servers and spreadsheets &mdash; or, in these hard times, looking for Web servers and spreadsheets to repair. <a href="http://www.j-paine.org/">My Website</a> says more about this and other things I do.
 
