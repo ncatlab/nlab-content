@@ -6,7 +6,7 @@ In [[locale]] theory, every open $U$ in the locale defines a closed subspace whi
 $$ j_{U'}\colon V \mapsto U \cup V .$$
 The idea is that this subspace is the part of $X$ which does not involve $U$ (hence the notation $U'$, or any other notation for a [[complement]]), and we may identify $V$ with $U \cup V$ when we are looking only away from $U$.
 
-(There is a lot more to say, about convergence spaces, smooth spaces, etc.)
+(There is a lot more to say, about convergence spaces, smooth spaces, schemes, etc.)
 
 
 [[!redirects closed subspace]]
