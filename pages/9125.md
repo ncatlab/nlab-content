@@ -284,7 +284,7 @@ There is a wide variety of [[higher dimensional Chern-Simons theories]] whose fi
 
 By the [above](#IdeaOfFieldBundlesAndItsProblems), defining a physical field to be a section of some bundle goes in the right direction, but misses crucial aspects of physical fields. These problems are fixed by passing to [[higher geometry]].
 
-Below in _[Definition](Definition)_ we discuss a natural unified formulation of the notion of physical field in terms of [[higher geometry]] (the central definition being def. \ref{FieldsInAnActionFunctional} ) and then we spell out many [Examples](#Examples).
+Below in _[Definition](#Definition)_ we discuss a natural unified formulation of the notion of physical field in terms of [[higher geometry]] (the central definition being def. \ref{FieldsInAnActionFunctional} ) and then we spell out many [Examples](#Examples).
 
 ## Definition 
  {#Definition}
