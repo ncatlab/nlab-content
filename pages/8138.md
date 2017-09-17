@@ -1,0 +1,56 @@
+
+
+**[[duality]]**
+
+* abstract duality: [[opposite category]], 
+
+  [[Eckmann-Hilton duality]]
+
+* concrete duality: [[dual object]], [[dualizable object]], [[fully dualizable object]], [[dualizing object]]
+
+  * [[dual vector space]]
+
+
+
+## Examples
+
+* between [[higher geometry]]/[[higher algebra]]
+
+  * [[Isbell duality]]
+
+  * [[Stone duality]]
+
+  * [[Gelfand duality]]
+
+* [[Tannaka duality]]
+
+* [[Langlands duality]], [[geometric Langlands duality]], [[quantum geometric Langlands duality]]
+
+* [[Pontryagin duality]]
+
+  * [[Cartier duality]]
+
+* [[Poincaré duality]] for [[manifolds]]
+
+* [[Koszul duality]]
+
+* [[Spanier-Whitehead duality]]
+
+* [[Grothendieck duality]]
+
+
+
+## In QFT and String theory
+
+* [[T-duality]]
+
+  * [[mirror symmetry]]
+
+* [[S-duality]]
+
+  * [[electro-magnetic duality]], [[geometric Langlands duality]]
+
+* [[U-duality]]
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/duality+-+contents)</div>
