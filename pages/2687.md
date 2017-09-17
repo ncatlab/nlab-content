@@ -109,6 +109,10 @@
 
 * [[model structure on dg-Lie algebras|on dg-Lie algebras]] / [[model structure on dg-coalgebras|on dg-coalgebras]]
 
+### for stabilized structures
+
+* [[model structure on spectra]]
+
 ### for $(\infty,1)$-categories
 
 * [[model structure on categories with weak equivalences|on categories with weak equivalences]]
