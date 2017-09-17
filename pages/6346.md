@@ -1,5 +1,8 @@
 [[!redirects correlators]]
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -8,6 +11,8 @@ In [[quantum field theory]] a _correlator_ is an assignment of [[probability amp
 ## Related concepts
 
 * [[n-point function]]
+
+* [[Ward identity]]
 
 [[!include holographic principle -- table]]
 
