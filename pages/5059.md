@@ -539,3 +539,6 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 
 [[!redirects super p-brane]]
 [[!redirects super p-branes]]
+
+[[!redirects Green-Schwarz sigma-model]]
+[[!redirects Green-Schwarz sigma-models]]
