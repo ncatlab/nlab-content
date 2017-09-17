@@ -648,6 +648,16 @@ Finally, here's the same but run through the command-line version of scour:
 
 category: meta
 
+<a href="http://www.buyticketscenter.com/bcs-national-championship-tickets/"> BCS National Championship Tickets</a>
+<a href="http://www.buyticketscenter.com/bcs-national-championship-tickets/"> BCS National Championship 2012 Tickets</a>
+<a href="http://www.buyticketscenter.com/ncaa-mens-final-four-tickets/"> NCAA Final Four Tickets</a>
+<a href="http://www.buyticketscenter.com/ncaa-mens-final-four-tickets/"> NCAA Men's Final Four Tickets</a>
+<a href="http://www.buyticketscenter.com/lesnar-vs-overeem-tickets/"> lesnar vs overeem tickets</a>
+<a href="http://www.buyticketscenter.com/lesnar-vs-overeem-tickets/"> overeem vs lesnar tickets</a>
+<a href="http://www.buyticketscenter.com/agbeko-vs-mares-tickets/"> agbeko vs mares tickets</a>
+<a href="http://www.buyticketscenter.com/agbeko-vs-mares-tickets/"> mares vs agbeko tickets</a>
+<a href="http://www.buyticketscenter.com/khan-vs-peterson-tickets/"> khan vs peterson tickets</a>
+<a href="http://weldingtrainingschools.com/"> welding training</a>
 
 
 [[!redirects Sandbox > SVG]]
