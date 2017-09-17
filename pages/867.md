@@ -1,27 +1,26 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea 
 
 A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.  This is the fundamental notion in [[order theory]].
 
 
-## Definitions ##
+## Definitions
 
-### As a set with extra structure ###
+### As a set with extra structure
 
 A poset can be understood as a [[set]] with [[extra structure]].
 
@@ -32,10 +31,12 @@ Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq
 
 A __poset__ is a set equipped with a partial order.
 
+
 ### As a preorder with antisymmetriy
 
 A poset is precisely a [[proset]] satisfying the extra condition that 
 $x \leq y \leq x$ implies that $x = y$. 
+
 
 ### As a category with extra properties 
  {#AsACategoryWithExtraProperties}
@@ -46,11 +47,11 @@ A __poset__ is a [[category]] such that:
 
 * for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$
 
-* hence if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$, then $x = y$.
+* if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$ (which by the above implies that $x$ and $y$ are [[isomorphic]]), then $x = y$.
 
-This says that a poset is a _[[(0,1)-category]]_ .
+This says that a poset is a _[[(0,1)-category]]_.
 
-Equivalently, we may define a poset to be a [[skeleton|skeletal category]] [[thin category]], or equivalently a skeletal [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
+Equivalently, we may define a poset to be a [[skeletal category|skeletal]] [[thin category|thin]] category, or equivalently a skeletal [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
 When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain sense.  (On the other hand, it is not evil if taken as a *definition* of [[equality]].)
 
@@ -149,10 +150,7 @@ Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions
 * **partial order**
 
 
-
-
 ## References
-
 
 [[Cauchy completion]] of prosets and posets is discussed in 
 
@@ -168,13 +166,17 @@ Here are some references on [[directed homotopy theory]]:
 * [[Tim Porter]], _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
 
+
+[[!redirects poset]]
+[[!redirects posets]]
+[[!redirects partial order]]
+[[!redirects partial orders]]
 [[!redirects partially ordered]]
 [[!redirects partially ordered set]]
 [[!redirects partially ordered sets]]
-[[!redirects poset]]
-[[!redirects posets]]
-[[!redirects partial orders]]
 [[!redirects partially-ordered]]
 [[!redirects partially-ordered set]]
 [[!redirects partially-ordered sets]]
+
 [[!redirects bounded poset]]
+[[!redirects bounded posets]]
