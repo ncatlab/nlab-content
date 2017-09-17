@@ -1,4 +1,8 @@
 
+> This entry is about [[closed subsets]] of a [[topological space]]. For other notions of "closed space" see for instance _[[closed manifold]]_.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
