@@ -14,4 +14,6 @@ Sometimes time is taken to be discrete, that is belonging to integers or say to 
 
 Most often one looks at dynamical systems in which $M$ is a smooth manifold. Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
 
+* Boris Hasselblatt, Anatole Katok, _Handbook of dynamical systems_, [contents](http://www.math.psu.edu/katok_a/handbook.html)
+
 [[!redirects dynamical systems]]
