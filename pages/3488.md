@@ -1,7 +1,15 @@
 
-<div class="rightHandSide toc">
-[[!include (infinity,1)-topos - contents]]
-</div>
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos theory
++--{: .hide}
+=--
+=--
+=--
+
+
 
 
 #Contents#
@@ -208,7 +216,13 @@ exhibits [[∞Grpd]] as a [[reflective sub-(∞,1)-category]] of $\mathbf{H}$. W
 
 
 
-**Examples.** All the locally connected $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also $\infty$-connected.
+#### Examples
+
+All the locally connected $(\infty,1)$-toposes on sites with geometrically contractible objects given by the proposition [above](#LocallyContractibleExamples) are also $\infty$-connected.
+
+In particular the $(\infty,1)$-topos $\infty LieGrpd := Sh_{(\infty,1)}(CartSp)$ over the site [[CartSp]] is $\infty$-connected. This is discussed in detail at
+
+* [[∞-Lie groupoid]].
 
 
 [[!redirects locally n-connected (∞,1)-topos]]
