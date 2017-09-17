@@ -9,6 +9,8 @@
 
 [[!include types and logic - table]]
 
+* [[type of types]]
+
 **[[homotopy levels]]**
 
 * [[type theory]] 
