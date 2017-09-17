@@ -22,13 +22,13 @@ We discuss stabilizer subgroups from the [[nPOV]].
 A [[group]] [[action]] $\rho : G \times X \to X$ is equivalently encoded in its [[action groupoid]] [[fiber sequence]] in [[Grpd]]
 
 $$
-  X \to X//G \to \mathbf{B}G
+  X \to X\sslash G \to \mathbf{B}G
   \,,
 $$
 
-where the $X//G$ is the [[action groupoid]] itself, $\mathbf{B}G$ is the [[delooping]] [[groupoid]] of $G$ and $X$ is regarded as a [[0-truncated]] groupoid.
+where the $X\sslash G$ is the [[action groupoid]] itself, $\mathbf{B}G$ is the [[delooping]] [[groupoid]] of $G$ and $X$ is regarded as a [[0-truncated]] groupoid.
 
-This fiber sequence may be thought of as being the $\rho$-[[associated bundle]] to the $G$-[[universal principal bundle]]. (Here discussed for $G$ a [[discrete group]] but this discussion goes through verbatim for $G$ a [cohesive group](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#InfinGroups)).
+This fiber sequence may be thought of as being the $\rho$-[[associated bundle]] to the $G$-[[universal principal bundle]]. (Here discussed for $G$ a [[discrete group]] but this discussion goes through verbatim for $G$ a [cohesive group](/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#InfinGroups)).
 
 For
 
@@ -36,7 +36,7 @@ $$
   x : * \to X
 $$
 
-any [[global element]] of $X$, we have an induced element $x : * \to X \to X//G$ of the action groupoid and may hence form the first [[homotopy group]] $\pi_1(X//G, x)$. This is the stabilizer group. Equivalently this is the [[loop space object]] of $X//G$ at $x$, given by the [[homotopy pullback]]
+any [[global element]] of $X$, we have an induced element $x : * \to X \to X\sslash G$ of the action groupoid and may hence form the first [[homotopy group]] $\pi_1(X\sslash G, x)$. This is the stabilizer group. Equivalently this is the [[loop space object]] of $X\sslash G$ at $x$, given by the [[homotopy pullback]]
 
 $$
   \array{
@@ -44,12 +44,12 @@ $$
      \\
      \downarrow && \downarrow^{\mathrlap{x}}
      \\
-     * &\stackrel{x}{\to}& X//G
+     * &\stackrel{x}{\to}& X\sslash G
   }
   \,.
 $$
 
-This characterization immediately generalizes to stabilizer [[∞-groups]] of [∞-group actions](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#GroupRepresentations).
+This characterization immediately generalizes to stabilizer [[∞-groups]] of [∞-group actions](/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#GroupRepresentations).
 
 
 
