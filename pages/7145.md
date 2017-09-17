@@ -1,15 +1,18 @@
 
-Various concepts go by the name _monad_ but are otherwise unrelated:
+Various concepts go by the name _monad_.
 
-In [[category theory]] and [[computer science]] a _monad_ is a [[monoid]] [[action|acting]] on a [[category]]/[[type|type system]], see at
 
-* [[monad]] (in [[category theory]]) and [[monad (in computer science)]]
-
-This is a wide-spread use of the term _monad_ in mathematics. But historically older, going back to [[Gottfried Leibniz]], is the use of "monad" for referring to a kind of "[[atom]] of [[space]]" (see also in [[Science of Logic]] the section _[The Monad of Leibniz](Science%20of%20Logic#TheMonadOfLeibniz)_). In roughly this sense the term is used in 
+Historically, going back to [[Gottfried Leibniz]], "monad" is used to refer to a kind of "[[atom]] of [[space]]" (see also in [[Science of Logic]] the section _[The Monad of Leibniz](Science%20of%20Logic#TheMonadOfLeibniz)_). In roughly this sense the term is used in 
 
 * [[monad in nonstandard analysis]]
 
 * [[Beilinson monad]]
 
+
+In [[category theory]] and [[computer science]] a _monad_ is a [[monoid]] [[action|acting]] on a [[category]]/[[type|type system]], see at
+
+* [[monad]] (in [[category theory]]) and [[monad (in computer science)]]
+
+To see this as an "atom" one observes that this is equivalently a [[lax 2-functor]] $\ast \longrightarrow Cat$ from the [[terminal category]] to the [[Cat|2-category of categories]] and hence a "point" in the canonical [[2-topos]].
 
 category: disambiguation
