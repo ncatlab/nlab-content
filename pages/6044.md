@@ -132,6 +132,9 @@ When $k = 2$ and $n = 3$, there is one smooth choice of cross product for each [
 
 When $k = 1$ and $n = 2$, we may also consider the scalar-valued curl, using the scalar-valued cross product described above.
 
+## Related concepts
+
+* [[associative 3-form]]
 
 ## References
 
