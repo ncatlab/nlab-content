@@ -1,10 +1,10 @@
 +-- {: .un_thm}
 ###### Eilenberg-Watts' Theorem
-If $B$ is an an $S$-$R$-bimodule, the functor
+Given unital rings $R$ and $S$ and an $S$-$R$-bimodule $B$, the functor
 
 $$ B \otimes_R - : R Mod \to S Mod $$
 
-is [[right exact functor|right exact]] and preserves [[small category|small]] [[coproducts]].  Conversely, if $F: Mod_R \to Mod_S$ is right exact and that preserves small coproducts, it is naturally isomorphic to $B \otimes_R -$ where $B$ is the $S$-$R$-bimodule $F R$.  
+is [[right exact functor|right exact]] and preserves [[small category|small]] [[coproducts]].  Conversely, if $F: Mod_R \to Mod_S$ is right exact and that preserves small coproducts, it is naturally isomorphic to $B \otimes_R -$ where $B$ is the $S$-$R$-bimodule $F(R)$. The theorem holds for nonunital rings as well, but then $B$ reconstructs as $F(R_1)$ where $R_1$ is the extension of $R$ by adjoining the unit element (the tensor product is still over the original $R$). If $F$ is a flat functor then $F(R_1)$ is flat over $R$. 
 =--
 
 +-- {: .proof}
