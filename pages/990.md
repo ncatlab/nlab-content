@@ -4,7 +4,7 @@ A __nonassociative $k$-algebra__ is a $k$-[[module]] $V$ equipped with a bilinea
 
 This product is typically neither associative nor unital, although it can be (an example of the [[red herring principle]]).
 
-Some interesting subclasses are [[Lie algebra]], [[Jordan algebra]], [[Leibniz algebra]], [[alternative algebra]], [[associative unital algebra]], ...
+Some interesting subclasses are [[Lie algebra]], [[Jordan algebra]], [[Leibniz algebra]], [[alternative algebra]], [[associative unital algebra]], [[composition algebra]]...
 
 Mathematicians working in the field of nonassociative algebras often say simply 'algebra' meaning a nonassociative algebra.
 
