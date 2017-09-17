@@ -19,7 +19,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A [[Lie group]] $G$ is called _reductive_ if its [[Lie algebra]] $\mathfrak{g}$ is _reductive_ , which is the case if it is the the [[direct sum]] of an abelian and a [[semisimple Lie algebra]]. 
+A [[Lie group]] $G$ is called _reductive_ if its [[Lie algebra]] $\mathfrak{g}$ is *reductive*, i.e., a [[direct sum]] of an abelian and a [[semisimple Lie algebra]]. 
 
 =--
 
