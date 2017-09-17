@@ -460,6 +460,8 @@ The following particular type theories are important enough to (potentially) hav
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
+* [[canonical form]], [[normal form]], [[beta-reduction]]
+
 [[!include notions of type]]
 
 
