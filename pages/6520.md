@@ -26,6 +26,7 @@ The term derives from the special case of instantons on a [[sphere]] but modeled
 
   * [[instanton in QCD]]
 
+* [[Coleman-De Luccia instanton]]
 
 ## Related concepts
 
