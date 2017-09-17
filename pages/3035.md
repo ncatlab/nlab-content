@@ -1,7 +1,16 @@
 
 **[[schreiber:∞-Lie theory|∞-Lie theory]]**
 
-## Context
+## Background
+
+
+* [[smooth space]]
+
+  * [[smooth manifold]]
+
+  * [[diffeological space]]
+
+  * [[Frölicher space]]
 
 * [[∞-groupoid]]
 
@@ -15,22 +24,21 @@
 
   * [[Lie theory for stacky Lie groupoids]]
 
-* [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]]
-
 
 ## ∞-Lie groupoids
 
-* [[schreiber:∞-Lie groupoid|∞-Lie groupoid]]
+* [[∞-Lie groupoid]]
 
   * [[schreiber:strict ∞-Lie groupoid|strict ∞-Lie groupoid]]
 
-  * [[differentiable stack]]
+  * [[Lie group]]
 
-* [[Lie group]]
+  * [[Lie groupoid]]
 
-* [[Lie groupoid]]
+    * [[differentiable stack]]
 
-  * [[orbifold]]
+    * [[orbifold]]
+
 
 ### Examples
 
@@ -44,7 +52,7 @@
 
 * [[Atiyah Lie groupoid]]
 
-* [[path ∞-groupoid]]
+* [[schreiber:path ∞-groupoid]]
 
   * [[path groupoid]]
 
@@ -75,8 +83,6 @@
 * [[supergravity Lie 3-algebra]]
 
 * [[tangent Lie algebroid]]
-
-  * [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]]
 
 * [[Atiyah Lie algebroid]]
 
@@ -110,14 +116,7 @@
 
 * [[schreiber:invariant polynomial on ∞-Lie algebroid|invariant polynomial on ∞-Lie algebroid]]
 
-* [[schreiber:theory of differential nonabelian cohomology|theory of differential nonabelian cohomology]]
-
-  * [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]]
-
-    * [[schreiber:curvature|curvature]]
-
-  * [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]
-
+* [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]]
 
 
 
