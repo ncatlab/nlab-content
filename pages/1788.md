@@ -26,26 +26,6 @@ $$
 
 (of symbols, that is).
 
-### Symbol definition
-
-We define
-
-$$
-  a := 1
-  \,.
-$$
-
-But that doesn't look so good, using 
-
-      \coloneq
-
-it looks better:
-
-$$
-  a \coloneq 1
-  \,.
-$$
-
 ### Metacategories
 
 [[CAT]] is the [[metacategory]] whose [[object|objects]] are all [[category|categories]] and whose [[morphism|morphisms]] are all [[functor|functors]] between those categories.
