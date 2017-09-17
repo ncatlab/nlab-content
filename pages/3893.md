@@ -25,14 +25,16 @@ Intuitively, Cartan geometry studies the geometry of a [[manifold]] by 'rolling'
 See [[Cartan connection]].
 
 
+## Examples
+
+* [[parabolic geometry]]
+
 ## Related concepts
 
 [[!include local and global geometry - table]]
 
-
 * [[Cartan connection]]
 
-* [[parabolic geometry]]
 
 ## References
 
