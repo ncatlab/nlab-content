@@ -1,0 +1,28 @@
+[[!redirects Cohesive Toposes: Combinatorial and Infinitesimal Cases]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+This page is about a series of three lectures
+
+* [[Bill Lawvere]], 
+
+  _Cohesive toposes: combinatorial and infinitesimal cases_ 
+
+  Como (Italy), January 10, 2008
+
+  [website](http://dscpi.uninsubria.it/staff/Walters/Como_Category_Seminar/Meeting_in_honour_of_Bill_Lawvere)
+
+  [video recording](http://dscpi.uninsubria.it/staff/Walters/Como_Category_Seminar/Meeting_in_honour_of_Bill_Lawvere/Records_of_the_Meeting.html) of the first few minutes of the first lecture
+
+on [[cohesive topos]]es. 
+
+> (This might be the first public occurence of the precise term "cohesive topos". In the 2007 article _[Axiomatic cohesion](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html)_ it still said "category of cohesion" and in a series of articles preceding that one, other terms are used. In fact, at the same place but 18 years earlier, at the [[Como|Como conference on Category Theory]], Lawvere used the term "category of Being", instead, in his [[Some Thoughts on the Future of Category Theory]].)
+
