@@ -66,7 +66,7 @@ with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ 
 
 ## References
 
-* Michiel Hazewinkel, _Witt vectors_, Part 1. [arXiv/0804.3888](http://arxiv.org/abs/0804.3888)
+* [[Michiel Hazewinkel]], _[[Hazewinkel, Witt vectors|Witt vectors]]_, Part 1. [arXiv/0804.3888](http://arxiv.org/abs/0804.3888)
 
 The classification described above of irreducible $S_n$-modules over $\mathbb{C}$ also works unchanged for any algebraically closed field $k$ of characteristic zero.  It also works when $k$ has characteristic $p$ and $n$ is not divisible by $p$.   There\'s an exercise at the end of section 6.1 of Serre\'s book (page 64 of the french edition) that says that if $k$ is a field of characteristic $p \gt 0$ then the group algebra of the group $G$ is semisimple iff $p$ doesn\'t divide the order of $G$.
 
@@ -74,7 +74,7 @@ Apart from this, the field matters a lot.  There is a construction that gives al
 
 The following article surveys the subject in light of the connections to [[Hopf algebra]]s and also to  [[noncommutative symmetric function|noncommutative analogue]]:
 
-* [[Michael Hazewinkel]], _Symmetric functions, noncommutative symmetric functions and quasisymmetric functions_, [pdf](http://oai.cwi.nl/oai/asset/10344/10344B.pdf)
+* [[Michiel Hazewinkel]], _Symmetric functions, noncommutative symmetric functions and quasisymmetric functions_, [pdf](http://oai.cwi.nl/oai/asset/10344/10344B.pdf)
 
 Among the best books in the subject are 
 
