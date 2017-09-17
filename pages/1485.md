@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Manifolds and cobordisms
++--{: .hide}
 [[!include manifolds and cobordisms - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -9,9 +15,11 @@
 
 ## Idea
 
-A manifold is a space which looks locally like a Euclidean space, most commonly a finite-dimensional Euclidean space $\mathbb{R}^n$.
+A manifold is a space which looks locally like a Euclidean space, most commonly a finite-dimensional [[Cartesian space]] $\mathbb{R}^n$.
 
-What "locally looks like" means really depends on what sort of structure we are considering Euclidean space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a topological space. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure ($C^k$, smooth, PL, real analytic, affine, hyperbolic, foliated, etc., etc.). In any case, the type of geometry embodied in a particular flavor of manifold is controlled by a particular [[groupoid]] of transformations which preserves whatever geometric features one is interested in; cf. Felix Klein's _[[Erlangen program|Erlanger Programm]]_.
+What "locally looks like" means really depends on what sort of structure we are considering Euclidean space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a topological space. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], PL structure, real analytic structure, affine structure, hyperbolic structure , foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc.
+
+In any case, the type of geometry embodied in a particular flavor of manifold is controlled by a particular [[groupoid]] of transformations which preserves whatever geometric features one is interested in; cf. Felix Klein's _[[Erlangen program|Erlanger Programm]]_.
 
 
 ## Definitions
