@@ -1,4 +1,5 @@
-# Contents #
+
+# Contents
 * table of contents 
 {: toc}
 
@@ -12,7 +13,7 @@ Why are Polish spaces 'not very big'?  In other words, why are there none with c
 
 +-- {: .num_example} 
 ###### Example 
-The primordial example (and in practice, one of the most convenient) is [[Baire space]] $B$, viz. the space of irrational real numbers between $0$ and $1$, with the [[subspace topology]] inherited from the [[real number|real line]]. This is obviously not complete with respect to the metric induced from the real line, but it is homeomorphic to the product space $\mathbb{N}^\mathbb{N}$ via regular continued fraction expansions, and the latter is metrizable by a complete metric where the distance between two sequences $a = (a_1, a_2, \ldots)$ and $b = (b_1, b_2, \ldots)$ of positive integers is given by the formula $d(a, b) = 1/2^n$ where $n$ is the least integer such that $a_n \neq b_n$. A countable dense subset is given by continued fractions that eventually repeat (quadratic surds). 
+The primordial example (and in practice, one of the most convenient) is [[set-theoretic Baire space|Baire space]] $B$, viz. the space of irrational real numbers between $0$ and $1$, with the [[subspace topology]] inherited from the [[real number|real line]]. This is obviously not complete with respect to the metric induced from the real line, but it is homeomorphic to the product space $\mathbb{N}^\mathbb{N}$ via regular continued fraction expansions, and the latter is metrizable by a complete metric where the distance between two sequences $a = (a_1, a_2, \ldots)$ and $b = (b_1, b_2, \ldots)$ of positive integers is given by the formula $d(a, b) = 1/2^n$ where $n$ is the least integer such that $a_n \neq b_n$. A countable dense subset is given by continued fractions that eventually repeat (quadratic surds). 
 =-- 
 
 The convenience of Baire space is attested to by the fact that in [[descriptive set theory]], a "real number" is often taken to mean just a point of Baire space. See also Theorem \ref{Borel} below. 
@@ -113,7 +114,7 @@ For $C$ a closed subset of a Polish space $X$, the Cantor-Bendixson rank is a co
 Let $U_i$ be a countable basis of $X$. For each $\beta \lt \alpha$, each point $x \in C^\beta \backslash C^{\beta + 1}$ is an isolated point, so we can find an $U_{i(x)}$ in the basis such that $U_{i(x)} \cap (C^\beta \backslash C^{\beta + 1}) = \{x\}$. It is then clear that $x \mapsto i(x)$ is injective, so each $C^\beta \backslash C^{\beta + 1}$ is countable. Similarly, whenever $C^\beta \backslash C^{\beta + 1}$ is nonempty, we can find a basis element $U_{i(\beta)}$ that isolates one of its points (say $x$), and this same $U_i$ cannot isolate any point of an earlier $C^\gamma \backslash C^{\gamma + 1}$ since $x$ is a limit point of $U^\gamma$. It follows that $\beta \mapsto i(\beta)$ is an injective map, so that $\alpha$ must be a countable ordinal, and the collection $F \coloneqq C \backslash C^\alpha = \bigcup_{\beta \lt \alpha} C^\beta \backslash C^{\beta + 1}$ is (at most) countable. 
 =-- 
 
-+-- {: .num_corollary #CH} 
++-- {: .num_cor #CH} 
 ###### Corollary 
 A closed set in a Polish space is the disjoint union $P \cup F$ of a perfect set $P$ and a finite or countable set $F$. Hence an infinite closed subset in a Polish space has cardinality either $\aleph_0$ or the continuum $c = 2^{\aleph_0}$ ([[continuum hypothesis]] for closed sets). 
 =-- 
