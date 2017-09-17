@@ -10,13 +10,12 @@
 =--
 
 # Near-rings
-
 * table of contents
 {: toc}
 
 ## Idea
 
-A near-ring is a sort of [[ring]] in which [[addition]] need not be commutative.  However, if we simply remove the commutativity of addition from the definition of a ring, then nothing changes, because we can prove commutativity from the other axioms: we have
+A near-ring is a sort of [[ring]] in which [[addition]] need not be commutative.  However, if we simply remove the commutativity of addition from the usual definition of a ring, then nothing changes, because we can prove commutativity from the other axioms: we have
 $$ (x+y)(1+1) = x(1+1) + y(1+1) = x + x + y + y $$
 and also
 $$ (x+y)(1+1) = (x+y)1 + (x+y)1 = x + y + x + y. $$
@@ -35,12 +34,12 @@ A **near-ring** is a set $R$ equipped with
 
 3. such that for any $x,y,z\in R$ we have $(x+y)\cdot z = (x\cdot z) + (y\cdot z)$, and for any $x\in R$ we have $0\cdot x = 0$.
 
-If $(R,+,0)$ is only a monoid, we say instead that $R$ is a **near-rig** or a **near-semiring**.  (Of course, now it is possible to have distributivity on both sides without making addition commutative, since addition need not always cancel.)
+If $(R,+,0)$ is only a monoid or semigroup, we say instead that $R$ is a **near-rig** or a **near-semiring**.  (Of course, now it is possible to have distributivity on both sides without making addition commutative, since addition need not always cancel.)
 
 
 ## Internalization
 
-Of course, near-rings can be defined [[internalization|internally]] to any [[cartesian monoidal category]].  More generally, they can be defined internally to a [[duoidal category]].
+Of course, near-rings can be defined [[internalization|internally]] to any [[cartesian monoidal category]].  More generally, they can be defined internally to a braided [[duoidal category]].
 
 
 [[!redirects near-ring]]
