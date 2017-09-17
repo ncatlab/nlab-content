@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -17,20 +16,20 @@
 
 An ordinary _[[spin structure]]_ on a [[special orthogonal group]]-[[principal bundle]] is a lift of the corresponding [[cocycle]] $g : X \to \mathbf{B} SO$ through the [[spin group]] [[fibration]] $\mathbf{B} Spin \to \mathbf{B} SO$. The [[obstruction]] for this to exist is a [[cohomology class]] $w_2 \in H^2(X, \mathbb{Z}_2)$ -- the second [[Stiefel-Whitney class]]: it exists precisely if this class is trivial, $[w_2(g)] = 0$.
 
-Conversely, one can ask for an $SO$-cocycle $g$ with prescribed non-trivial obstruction $[w_2(g)] = \alpha \in H^2(X, \mathbb{Z}_2)$. These may usefully be understood as  _$\alpga$-twisted_ $spin$-structures, following the general logic of [[twisted cohomology]].
+Conversely, one can ask for an $SO$-cocycle $g$ with prescribed non-trivial obstruction $[w_2(g)] = \alpha \in H^2(X, \mathbb{Z}_2)$. These may usefully be understood as  _$\alpha$-twisted_ $spin$-structures, following the general logic of [[twisted cohomology]].
 
 ## Definition
 
 Let 
 
 $$
-  \mathbb{Z}_2 \to Spin \to SO \to \mathbf{B} \mathbb{Z}^2
+  \mathbb{Z}_2 \to Spin \to SO \to \mathbf{B} \mathbb{Z}_2
 $$ 
 
 be the [[fiber sequence]] in $\mathbf{H} = $[[ETop∞Grpd]] or $\mathbf{H} = $[[Smooth∞Grpd]] given by the [[spin group]] extension of the [[special orthogonal group]] (regarded as a [[topological group]] or as a [[Lie group]], respectibely). Its [[delooping]] defines the second [[Stiefel-Whitney class]]
 
 $$
-  w_2 : \mathbf{B }SO \to \mathbf{B}^2 \mathbb{Z}^2
+  w_2 : \mathbf{B }SO \to \mathbf{B}^2 \mathbb{Z}_2
 $$ 
 
 so that for any $X \in \mathbf{X}$ we have a [[characteristic class]]
