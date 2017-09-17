@@ -114,7 +114,9 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[sigma-model]], 
 
-  * [[CFT]], [[perturbation theory]]
+  * [[CFT]], [[2d CFT]], [[perturbation theory]]
+
+* [[string scattering amplitude]]
 
 * [[effective QFT|effective background QFT]]
 
