@@ -17,7 +17,6 @@
 =--
 =--
 
-
 # Pretoposes
 * table of contents
 {: toc}
@@ -34,17 +33,18 @@ Frequently one is especially interested in pretoposes having additional properti
 
 * A __[[Π-pretopos]]__ is a pretopos which is also a [[locally cartesian closed category]].  (A $\Pi$-pretopos is automatically a Heyting pretopos.)  These are suitable as frameworks for finitist [[constructive mathematics]] which is 'weakly predicative'.
 
-* A __$W$-pretopos__ is a pretopos which has (locally) [[inductive objects]] ([[initial algebra|initial]] [[algebra for an endofunctor|algebras]] for [[polynomial endofunctor]]s), most famously a [[natural numbers object]].  Heyting $W$-pretoposes and Boolean $W$-pretoposes are suitable as frameworks for non-finitist predicative mathematics.
+* A __$W$-pretopos__ is a pretopos which has (locally) [[W-types]] ([[initial algebra|initial]] [[algebra for an endofunctor|algebras]] for [[polynomial endofunctors]]), most famously a [[natural numbers object]].  (Here, we take any [[exponentiable morphism]] to define a polynomial endofunctor.  This paragraph is original to this page and not in the literature; it may not be the best definition.)  Heyting $W$-pretoposes and Boolean $W$-pretoposes are suitable as frameworks for non-finitist but strongly predicative mathematics (with intuitionistic and classical logic, respectively).
 
-* A __[[ΠW-pretopos]]__ is a $\Pi$-pretopos that has all [[W-types]].  (Every $\Pi$-$W$-pretopos is both a $\Pi$-pretopos and a $W$-pretopos, but the converse seems to fail.)  These are suitable as frameworks for weakly predicative constructive mathematics that is not finitist.
+* A __[[ΠW-pretopos]]__ is a topos that is both a $\Pi$-pretopos and a $W$-pretopos.  (Now every morphism defines a polynomial endofunctor, since every morphism is exponentiable.)  These are suitable as frameworks for weakly predicative constructive mathematics that is not finitist.
 
-* A __[[predicative topos]]__ is a [[ΠW-pretopos]] that satisfies the [[axiom of multiple choice]]. (This now differs from a [[topos]] below mainly in still lacking [[power objects]], hence being a context for [[predicative mathematics]].)
+* A __[[predicative topos]]__ is a [[ΠW-pretopos]] that satisfies the [[axiom of multiple choice]].  (This now differs from a $W$-[[topos]] below mainly in still lacking [[power objects]], hence still a context for weakly predicative constructive mathematics.)
 
 * A __[[topos]]__ is a pretopos that has [[power objects]].  A topos is automatically a $\Pi$-pretopos; conversely, a $\Pi$-pretopos is a topos iff it has a [[subobject classifier]], and a Boolean $\Pi$-pretopos is always a topos.  Toposes and [[Boolean toposes]] are suitable as frameworks for finitist (but otherwise impredicative) mathematics, with intuitionistic and classical logic respectively.
 
 * A __$W$-topos__ is of course a topos that is a $W$-pretopos; it is sufficient that the topos have a [[natural numbers object]] (see van den Berg & Moerdijk), so this is often called a __topos with NNO__.  These are suitable as frameworks for (non-predicative, non-finitist) [[constructive mathematics]], while Boolean $W$-toposes are suitable as a framework for [[classical mathematics]] without the [[axiom of choice]].
 
 * A __topos with choice__ is a topos that satisfies the [[axiom of choice]] (that every [[epimorphism]] is [[split epic|split]]).  Every topos with choice is automatically boolean, so $W$-toposes with choice are suitable as a framework for full classical mathematics.  (In fact, a [[well-pointed category|well-pointed]] $W$-topos with choice is precisely a model of [[ETCS]].)
+
 
 ### Infinitary pretoposes
 {#infinitary}
