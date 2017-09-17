@@ -60,6 +60,13 @@ the wedge product $d \theta \wedge d\theta$ is non-vanishing, since $d \theta$ i
 
 * In the context of [[L-infinity algebroids]], where one may regard $C^\infty(X)$ as the [[Chevalley-Eilenberg algebra]] of an $L_\infty$-[[Lie infinity-algebroid|algebroid]] it is useful to notice that $\Omega^\bullet(X)$ is the corresponding [[Weil algebra]]. If $X$ is a Lie $n$-algebroid then $T[1]X$ is a Lie $(n+1)$-algebroid.
 
+## Related concepts
+
+* [[picture changing operator]]
+
+## References
+
+* [[Alexander Belopolsky]], _De Rham Cohomology of the Supermanifolds and Superstring BRST Cohomology_, Phys.Lett. B403 (1997) 47-50 ([arXiv:hep-th/9609220](http://arxiv.org/abs/hep-th/9609220))
 
 [[!redirects differential forms on supermanifolds]]
 [[!redirects super differential form]]
