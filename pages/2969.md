@@ -1,4 +1,4 @@
-A [[continuous function|(continuous)]] map $i:A\to X$ of [[topological spaces]] is said to satisfy the **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}:X\to Y$ and a [[homotopy]] $F:X\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}:X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. Denote $f:=\tilde{f}\circ i=F(-,0)$; then this is expressed by means of the commutative diagram
+A [[continuous function|(continuous)]] map $i:A\to X$ of [[topological spaces]] is said to satisfy the **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}:X\to Y$ and a [[homotopy]] $F:A\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}:X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. Denote $f:=\tilde{f}\circ i=F(-,0)$; then this is expressed by means of the commutative diagram
 
 $$\array{
 A & &\stackrel{i}\to && X\\
