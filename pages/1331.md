@@ -413,16 +413,11 @@ $$
   }
 $$
 
-in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]].
+in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]]. Moreover, by the [behaviour under pullback](http://ncatlab.org/nlab/show/Cartesian+fibration#BehaviourUnderPullback) of [[Cartesian fibration]]s it follows that the above diagram is a [[homotopy pullback]] diagram in the [[model structure for quasi-categories|Joya model structure]] $sSet_{Joyal}$.
 
 From this the proof proceeds in two further steps:
 
-1. Show that $D_c$ is itself an locally presentable $(\infty,1)$-category. 
-   From that it follows that $D_c$ has all small limits and hence in 
-   particular contains a 
-   [[terminal object in a quasi-category|terminal object]], $f : c \to d$;
-
-  
+1. Use that the [[homotopy pullback]] of [[accessible (infinity,1)-category|accessible quasi-categories]] is itself accessible to conclude that $D_c$ is accessible. Argue that furthermore $D_c$ has all small colimits to deduce that it is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small limits and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$;
 
 1. Show that $f : c \to d$ being terminal in $D_c$ 
    implies that $d$ is $S$-local.
