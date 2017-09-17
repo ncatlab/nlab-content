@@ -17,7 +17,7 @@
 
 #Idea#
 
-The Palatini- or [[first-order formulation of gravity|first order formulation]] of the Einstein-Hilbert action for [[gravity]] is
+The Palatini- or [[first-order formulation of gravity|first order formulation]] of the [[Einstein-Hilbert action]] for [[gravity]] is
 
 $$
   \epsilon_{a b c d} \int_X R^{a b} \wedge  e^c \wedge e^d
