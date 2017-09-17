@@ -30,11 +30,11 @@ This is a universal construction: the category of operators is the free [[semica
 
 Let $FinSet_{*}$ be the category of [[finite set|finite]] [[pointed set]]s. Write $\langle n \rangle = \{*, 1,2, \cdots, n\}$ for [[generalized the|the]] pointed set with $n+1$ elements. 
 
-Let $A$ be a symmetric colored [[operad]]. Its **category of operators** is the [[category]]
+Let $A$ be a colored [[symmetric operad]] over [[Set]] ( hence a symmetric [[multicategory]]). Its **category of operators** is the [[category]]
 
-* whose [[object]]s are finite sequences $(c_1, \cdots, c_n)$ of colors of $A$;
+* whose [[objects]] are finite sequences $(c_1, \cdots, c_n)$ of colors of $A$;
 
-* whose [[morphism]]s $F : (c_1, \cdots, c_n) \to (d_1, \cdots, d_n)$ are given by a collection consisting of
+* whose [[morphisms]] $F : (c_1, \cdots, c_n) \to (d_1, \cdots, d_n)$ are given by a collection consisting of
 
   * a morphism $\phi : \langle n \rangle \to \langle m\rangle$ in $FinSet_*$;
 
