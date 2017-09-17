@@ -17,16 +17,30 @@
 
 ## Definition 
 
+
 ### Categorical form
 
-A **profinite group** is a [[pro-object]] in the category of [[finite group|finite groups]] (thus it might more precisely be called a pro-(finite group)).  
++-- {: .num_defn}
+###### Definition
 
+A **profinite group** is a [[pro-object]] in the [[category]] of [[finite group|finite groups]] (thus it might more precisely be called a pro-(finite group)).  
+
+=--
+
+Equivalently:
+
++-- {: .num_defn}
+###### Definition
+
+A _profinite group_ is an [[internalization|internal]] [[group]] object in the [[category]] of [[profinite sets]].
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
 
 
-This means that it is a [[filtered category|cofiltered]] diagram of finite groups, which is thought of as a "formal limit" but the limit is not actually computed.  In most cases, the limit would not actually exist in the category of finite groups, and while it would exist in the category of all groups, it would be "wrong" category-theoretically: maps between profinite groups are not the same as maps between their honest limits in [[Grp]].
+This means that a profinite group is a [[filtered category|cofiltered]] [[diagram]] of [[finite groups]], which is thought of as a "formal limit" but the limit is not actually computed.  In most cases, the limit would not actually exist in the category of finite groups, and while it would exist in the category of all groups, it would be "wrong" category-theoretically: maps between profinite groups are not the same as maps between their honest limits in [[Grp]].
 
 However, because of [[Stone duality]], it turns out that maps between profinite groups _are_ the same as maps between their honest limits in the category of [[topological group|topological groups]], where the finite groups are given the discrete topology.  Thus, the category of profinite groups can alternately be defined as the category of topological groups that are filtered inverse limits of finite groups.  Moreover, the topological groups that arise in this way can be characterized as those which are [[Hausdorff space|Hausdorff]], [[compact space|compact]], and [[totally disconnected space|totally disconnected]], giving a more elementary definition. In other words, their underlying topological spaces are [[profinite space|profinite]].
 
@@ -34,35 +48,59 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 
 ### Inverse limit form
 
-A   __profinite group__ is an inverse limit of a system of finite groups.
++-- {: .num_defn}
+###### Definition
 
-+-- {: .num_remark}
-###### Remark
+A   __profinite group__ is an [[inverse limit]] of a system of finite groups.
 
-The finite groups are considered as compact discrete topological groups and so the inverse limit, as a closed subspace of the compact space that is the product of all those finite groups has the _inverse limit topology__, hence is, as is said above, a compact Hausdorff, totally disconnected group.
-
-Both ways of looking at profinite groups as useful, as sometimes a concept can be easier to understand in one of the settings. 
+The finite groups are considered as compact [[discrete groups|discrete]] [[topological groups]] and so the inverse limit, as a closed subspace of the compact space that is the product of all those finite groups has the _inverse limit topology__, hence is, as is said above, a compact Hausdorff, totally disconnected group.
 
 =--
 
 ## Examples
 
-* A motivating example is the absolute [[Galois group]] of a number field.
 
-* For a prime number $l$ the (additive) group of [[p-adic integer|l-adic integers]] is profinite in that it is the (inverse) limit $\mathbb{Z}_l=lim\; \mathbb{Z}/l^n\mathbb{Z}$.
++-- {: .num_example}
+###### Example
 
-* In SGA1, Grothendieck defined the [[algebraic fundamental group]] of a scheme to be a profinite group.  (This is linked with his work on [[pro-representable functor|pro-representable functors]].)
+A [[finite group]] is profinite.
 
-*  Any finite group is profinite!
+=--
 
-*  Any group has a [[profinite completion of a group|profinite completion]]. 
+Historically a motivating example was:
 
-*  A profinite group is an [[internalization|internal]] [[group]] object in the category of [[profinite space|profinite spaces]], and conversely.
++-- {: .num_example}
+###### Example
+
+The absolute [[Galois group]] of a [[number field]] is profinite.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For a [[prime number]] $l$ the (additive) group of [[p-adic integer|l-adic integers]] is profinite in that it is the [[inverse limit]] $\mathbb{Z}_l=lim\; \mathbb{Z}/l^n\mathbb{Z}$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In [[SGA1]], Grothendieck defined the [[algebraic fundamental group]] of a [[scheme]] as a profinite group.  (This is linked with his work on [[pro-representable functor|pro-representable functors]].)
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Any group has a [[profinite completion of a group|profinite completion]]. 
+
+=--
 
 
-## Developments from the concept
+## Properties
 
-* The category of profinite groups has nice 'exactness' properties. The projective limit of a system of profinite groups is an exact functor, unlike its behaviour on groups themselves. To extend this behaviour beyond (pro)finite groups sometimes pro-[[localic groups]] have been used; see [[progroup]].
+* The category of profinite groups has nice 'exactness' properties. The [[projective limit]] of a system of profinite groups is an [[exact functor]], unlike its behaviour on groups themselves. To extend this behaviour beyond (pro)finite groups sometimes pro-[[localic groups]] have been used; see [[progroup]].
 
 * [[profinite completion of a group|Profinite completions]] have been extended from groups to homotopy types for the analysis of finitary properties of the homotopy type. Various constructions in algebraic geometry lead  naturally to [[profinite homotopy type|profinite homotopy types]].
 
