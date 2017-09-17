@@ -1,0 +1,4 @@
+
+* [[weight (in representation theory)]]
+
+[[!redirects weights]]
