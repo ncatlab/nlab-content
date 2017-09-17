@@ -203,6 +203,8 @@ Furthermore, in the case of a projection map $f \colon Z \times Y \to Y$, there 
 
 ## Related concepts
 
+* [[Kleene's second algebra]]
+
 * [[realizability]]
 
 ## References 
