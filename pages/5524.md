@@ -1081,7 +1081,7 @@ which parallels
 
 The $(\infty,1)$-site of derived infinitesimal points is discussed in 
 
-* [[Jacob Lurie]], _Formal moduli problems_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-X.pdf))
+* [[Jacob Lurie]], _[[Formal moduli problems]]_ 
  {#Lurie}
 
 following
