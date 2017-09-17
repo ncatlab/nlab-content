@@ -46,22 +46,22 @@ any choice of homotopies in the two squares gives a map $ \Sigma A_0 \to A_3 $.
 
 Define $C$ and $D$ to be the cofibers of $A_0 \to A_1$ and $A_1\to A_2$, respectively. A choice of homotopy $ A_0 \to A_2 \sim 0 $ corresponds to a choice of factorization $ A_1 \to C \to A_2 $, which gives a diagram of pushout squares
 
-$$\begin{array}{ccccc}
+$$\begin{array}{ccccccc}
 A_0 & \to & A_1 & \to & * \\
 \downarrow & & \downarrow & & \downarrow \\
-* & \to & C &\to & \Sigma A_0  \\
- & & \downarrow & & \downarrow \\
- & & A_2 & \to & D 
+* & \to & C &\to & \Sigma A_0  & \to & *\\
+ & & \downarrow & & \downarrow & & \downarrow \\
+ & & A_2 & \to & D & \to & C'
 \end{array}$$
 
-It is to be noted that the map $ \Sigma A_0 \to D $ depends on the choice of factor $ C \to A_2 $, but that $A_2 \to D$ does not, in any meaningful sense, so depend: this is just the structure map of the cofiber of $A_1\to A_2$.  Note that the cofiber of $ C\to A_2$ is thus equivalent to that of $\Sigma A_0 \to D$; but again the role of choices must be studied.
+It is to be noted that the map $ \Sigma A_0 \to D $ and possibly the object $C'$ depend on the choice of factor $ C \to A_2 $, but that $A_2 \to D$ does not, in any meaningful sense, so depend: this is just the structure map of the cofiber of $A_1\to A_2$.  Note that the cofiber $C'$ of $C\to A_2$ is thus equivalent to that of $\Sigma A_0 \to D$; but again the role of choices must be studied.
 
 ## Definitions
 
 A sequence of maps $A_0 \to A_1 \to \cdots \to A_n$ will be called *a bracket sequence* (a novel phrase for the purposes of this entry) in either of two cases:
 
 * $n = 3$ and the composites $A_0 \to A_2$ and $A_1 \to A_3$ are nulhomotopic; OR
-* $n \gt 3$, and (using the preceding notations), there is a choice of factor $C\to A_2$ such that the induced sequence $ \Sigma A_0 \to D \to A_3 \to \cdots \to A_n$ is a bracket sequence.
+* $n \gt 3$, and (using the preceding notations), there are choice of factor $C\to A_2$ and $ C'\to A_3 $ such that the induced sequence $ \Sigma A_0 \to D \to A_3 \to \cdots \to A_n$ is a bracket sequence.
 
 In all cases, a bracket sequence leads to a three-map sequence
 $$ \Sigma^m A_0 \to D_m \to A_{m+2} \to A_{m+3} $$
