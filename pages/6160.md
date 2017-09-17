@@ -24,9 +24,9 @@ An _algebra spectrum_ or _[[A-∞ algebra]]-spectrum_ over a [[ring spectrum]] i
 
 ## Definition
 
-Abstractly, an _$A_\infty$-algebra spectrum_ in an [[algebra in an (∞,1)-category]] in the [[stable (∞,1)-category]] [[Spec]] of [[spectra]].
+Abstractly, an _$A_\infty$-algebra spectrum_ over an [[E-∞ ring spectrum]] $R$ is [[algebra in an (∞,1)-category]] in the [[stable (∞,1)-category]] of $R$-[[module spectra]].
 
-Concretely this [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by the [[model structure on monoids]] in the [[monoidal model category|monoidal]] [[model structure on symmetric spectra]].
+Concretely this [[(∞,1)-category]] is [[presentable (∞,1)-category|presented]] by the [[model structure on monoids]] in the [[monoidal model category|monoidal]] $R$-modules in the [[model structure on symmetric spectra]].
 
 (...)
 
@@ -70,7 +70,7 @@ $$
 
 =--
 
-This is due to ([Shipley](#Shipley)).
+This is due to ([Shipley](#Shipley)). The corresponding [[equivalence of (∞,1)-categories]] for $R$ a commutative rings with the intrinsically defined [[(∞,1)-category]] of [[En-algebra|E1-algebra]] objects on the left appears as ([Lurie, prop. 7.1.4.6](#Lurie)).
 
 +-- {: .num_remark}
 ###### Remark
