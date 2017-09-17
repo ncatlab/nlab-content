@@ -1,11 +1,30 @@
-Given a functor $F: C\to D$ we say that $F$ __admits a proadjoint__ if the canonical extension $pro(F): pro(C)\to pro(D)$ of $F$ to the categories of [[pro-object]]s
-has a left adjoint $G$. In other words, there is a functor $G: pro(D)\to pro(C)$ and a bijection
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[functor]] $F: C\to D$ we say that $F$ __admits a proadjoint__ if the canonical extension $pro(F): pro(C)\to pro(D)$ of $F$ to the categories of [[pro-object]]s
+has a [[left adjoint]] $G$. In other words, there is a functor $G: pro(D)\to pro(C)$ and a [[bijection]]
 
 $$
 pro(C)(GY',X) \cong pro(D)(Y',y(F)X)
 $$
 
-natural in $X$ and $Y'$, where $y:C\hookrightarrow pro(C)$ is the Yoneda embedding into the category of proobjects $pro(C)\subset Set^{C^{op}}$. Equivalently, for every [[prorepresentable functor]] $X:C'^{op}\to Set$, the functor $X\mapsto X\circ F$ is also prorepresentable.
+[[natural isomorphism|natural]] in $X$ and $Y'$, where $y:C\hookrightarrow pro(C)$ is the [[Yoneda embedding]] into the category of proobjects $pro(C)\subset Set^{C^{op}}$. Equivalently, for every [[prorepresentable functor]] $X:C'^{op}\to Set$, the functor $X\mapsto X\circ F$ is also prorepresentable.
+
+## References
 
 * [[J.-M. Cordier]], [[T. Porter]], _Shape theory : Categorical Methods of Approximation_, (sec. 2.3), Mathematics and its Applications, Ellis Horwood Ltd., March 1989, 207 pages.Dover addition (2008)  (Link to publishers [here](http://store.doverpublications.com/048646623x.html))
 
