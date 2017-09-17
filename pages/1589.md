@@ -335,7 +335,7 @@ Notes needed... help...
 
 #### David Chataur, _Evening informal session explaining recent results in operads_ {#chataur_extra}.
 
-Notes needed... help...
+* [Notes by Gabriel Drummond-Cole](http://www.math.northwestern.edu/~gabriel/notes/sum09/ow_june_11.pdf)
 
 #### Kishore Marathe, _Evening informal session on the gauge theory to string theory correspondence_ {#marathe_extra}.
 
