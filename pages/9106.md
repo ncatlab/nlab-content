@@ -5,7 +5,13 @@
 
 ## Idea
 
-An issue in the [[phenomenology]] and [[model (in theoretical physics)|model building]], notably in the [[standard model of particle physics]].
+An issue in [[phenomenology]] and [[model (in theoretical physics)|model building]], notably in the [[standard model of particle physics]].
+
+## Related concepts
+
+* [[naturalness]]
+
+* [[multiverse]]
 
 ## References
 
