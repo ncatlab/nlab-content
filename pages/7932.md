@@ -190,7 +190,7 @@ $$
   pt_{\mathbf{B}G}^* : \mathbf{H}_{/\mathbf{B}G} \to \mathbf{H}
 $$
 
-is the [[inverse image]] of a [[etale geometric morphism]], hence is a [[cartesian closed functor]] (see e.g. at [[logical functor]]).
+is the [[inverse image]] of a [[etale geometric morphism]], hence is a [[cartesian closed functor]] (see the _[Examples](cartesian+closed+functor#Examples)_ there for details).
 Therefore it preserves [[exponential objects]]:
 
 $$
@@ -222,9 +222,9 @@ $$
   }
 $$
 
-encodes the [[adjoint action]] of $G$ on $[V_1, V_2]$ by pre- and post-composition of [[functions]] $V_1 \to V_2$ with the $G$-action on $V_1$ and on $V_2$, respectively.
+encodes the [[conjugation action]] of $G$ on $[V_1, V_2]$ by pre- and post-composition of [[functions]] $V_1 \to V_2$ with the $G$-action on $V_1$ and on $V_2$, respectively.
 
-(...)
+See also at _[Conjugation actions](#ConjugationActions)_ below.
 
 =--
 
@@ -232,13 +232,14 @@ encodes the [[adjoint action]] of $G$ on $[V_1, V_2]$ by pre- and post-compositi
 
 ## Examples
 
-### Of $\infty$-groups in an $\infty$-topos
+### Of $\infty$-group actions in an $\infty$-topos
 
 Let $\mathbf{H}$ be an [[(∞,1)-topos]] and let $G \in Grp(\mathbf{H})$ be an [[∞-group]] in $\mathbf{H}$. 
 
 The following lists some fundamental classes of examples of $\infty$-actions of $G$, and of other canonical $\infty$-groups. By the discussion [above](#PropertiesOfGroupActionsInTopos) these actions may be given by the classifying morphisms.
 
 #### Trivial action
+ {#TrivialAction}
 
 Consider the [[etale geometric morphism]]
 
@@ -246,6 +247,7 @@ $$
   Act_{\mathbf{H}}(G) \coloneqq
   \mathbf{H}_{/\mathbf{B}G}
   \stackrel{\overset{p^* \coloneqq (-) \times \mathbf{B}G}{\leftarrow}}{\underset{}{\to}}
+  \mathbf{H}
   \,.
 $$
 
@@ -332,7 +334,108 @@ $$
 
 =--
 
+#### Conjugation actions
+ {#ConjugationActions}
+
+We discuss the simple case of the [[cartesian closed category]] of $G$-sets (G-[[permutation representations]]) for $G$ an ordinary [[discrete group]]
+as a simple illustration of the internal hom of $\infty$-actions, prop. \ref{InternalHomAction}.
+
+This example spells out everything completely in components:
+
++-- {: .num_example}
+###### Example
+
+Let $\mathbf{H} = $ [[∞Grpd]], let $G \in Grp(\infty Grpd)$ be an ordinary [[discrete group]] and let $V, \Sigma, X$ be [[sets]] equipped with $G$-[[action]] ([[permutation representations]]).
+
+In this case $[\Sigma,X]$ is simply the set of [[functions]] $f : \Sigma \to X$ of sets. Its $G$-action as the internal hom of $G$-actions given, for every $g \in G$  and $\sigma \in \Sigma$, by
+
+$$
+  g(f)(\sigma) = g(f(g^{-1}(\sigma)))
+  \,,
+$$
+
+(where we write generically $g(-)$ for the given action on the set specified implicitly by the type of the argument).
+
+Hence a morphism of $G$-actions
+
+$$
+  \phi : V \to [\Sigma,X]
+$$
+
+is a function $\phi$ of the underlying sets such that for all $V \in V$, $g \in G$ and all $\sigma \in \Sigma$ we have
+
+\[
+  \label{Equation1}
+  \phi(g(v))(\sigma) = g(\phi(v)(g^{-1}(\sigma))
+  \,.
+\]
+
+On the other hand, a morphism of actions
+
+$$
+  \psi : V \times \Sigma \to X
+$$
+
+is a function of the underlying sets, such that for all these terms we have
+
+$$
+  \psi(g(v), g(\sigma)) = g(\psi(v,\sigma))
+$$
+
+which is equivalent to
+
+\[
+  \label{Equation2}
+  \psi(g(v), \sigma) = g(\psi(v,g^{-1}(\sigma)))
+  \,.
+\]
+
+Comparison of (eq:Equation1) and (eq:Equation2) shows that the identification
+
+$$
+  \psi(v,\sigma) \coloneqq \phi(v)(\sigma)
+$$
+
+establishes a [[natural equivalence]] (a [[natural bijection]] of sets in this case)
+
+$$
+  Act_{\mathbf{H}}(G)(V, [\Sigma,X])
+  \simeq
+  Act_{\mathbf{H}}(G)(V \times \Sigma, X])
+  \,,
+$$
+
+showing how $[\Sigma,X]$ is indeed the [[internal hom]] of $G$-actions.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Generally, for $G$ a [[discrete ∞-group]] we have an [[equivalence of (∞,1)-categories]]
+
+$$
+  \infty Grpd_{/\mathbf{B}G}
+  \simeq
+  \infty Func(\mathbf{B}G, \infty Grpd)
+$$
+
+(by the [[(∞,1)-Grothendieck construction]]), and hence
+
+$$
+  Act_{\infty Grpd}(G) 
+   \simeq 
+  \infty Func(\mathbf{B}G, \infty Grpd)
+$$
+
+is the [[(∞,1)-category]] of [[∞-permutation representations]].
+
+=--
+
+
+
 #### General covariance
+ {#GeneralCovariance}
 
 Let $X \in \mathbf{H}$ be a [[moduli infinity-stack]] for 
 field in a [[gauge theory]] or [[sigma-model]]. Let $\Sigma \in \mathbf{H}$ be the corresponding [[spacetime]] or [[worldvolume]], respectively. 
@@ -360,7 +463,7 @@ $$
   [\Sigma \sslash \mathbf{Aut}(\Sigma), X \times \mathbf{B}\mathbf{Aut}(\Sigma)]_{\mathbf{B}\mathbf{Aut}(\Sigma)}
 $$
 
-is the configuration space of fields on $\Sigma$ modulo automorphisms (diffeomorphisms, in [[smooth infinity-groupoid|smooth cohesion]]) of $\Sigma$. This is the configuration space of a [[gravity|gravitational]] "generally covariant" field theory on $\Sigma$.
+is the configuration space of fields on $\Sigma$ modulo automorphisms (diffeomorphisms, in [[smooth infinity-groupoid|smooth cohesion]]) of $\Sigma$. This is the configuration space of "[[general covariance|generally covariant]]" field theory on $\Sigma$.
 
 ## Related concepts
 
