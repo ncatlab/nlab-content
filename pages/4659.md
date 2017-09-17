@@ -21,6 +21,7 @@ A [[Lie algebra]] is __semisimple__ if it is the [[direct sum]] of [[simple Lie 
 
 By [[Lie integration]] semisimple Lie algebras correspond to [[Lie group]]s that are [[semisimple Lie group]]s.
 
+
 ## Properties
 
 A Lie algebra $\mathfrak{g}$ is semisimple precisely if the [[Killing form]] [[invariant polynomial]]
@@ -34,15 +35,9 @@ is non-degenerate as a [[bilinear form]].
 The corresponding cocycle $\langle -,[-,-]\rangle$ in [[Lie algebra cohomology]] is the one that classifies the [[string Lie 2-algebra]]-extension of $\mathfrak{g}$.
 
 
-## Examples
+## Classification
 
-* $\mathfrak{a}_n = \mathfrak{sl}_n$, the [[special linear Lie algebra]];
-
-* $\mathfrak{b}_n = \mathfrak{so}_{2n+1}$, the odd-dimensional [[special orthogonal Lie algebra]];
-
-* $\mathfrak{c}_n = \mathfrak{sp}_n$, the [[symplectic Lie algebra]];
-
-* $\mathfrak{d}_n = \mathfrak{so}_{2n}$, the even-dimensional [[special orthogonal Lie algebra]].
+Since we can classify [[simple Lie algebras]], we can classify semisimple Lie algebras; for each simple Lie algebra, we simply indicate how many times it appears in the direct-sum decomposition.  (There is a theorem to prove here: that the decomposition of a semisimple Lie algebra is unique.)
 
 
 ## References
