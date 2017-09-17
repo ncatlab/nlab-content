@@ -15,3 +15,4 @@ together with several joint with [[Dominique Bourn]] and [[Tim Porter]].
 
 category: people
 [[!redirects J.-M. Cordier]]
+[[!redirects Cordier]]
