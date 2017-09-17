@@ -1,38 +1,41 @@
+
 # Contents 
 * table of contents 
 {: toc}
 
 ## Idea 
 
-An ordinary "[[line]]" $\mathbb{R}$ is sometimes thought of as the result of gluing a countable number of copies of a half-open interval $[0, 1)$ end-to-end in both directions. A _long line_ is similarly obtained by gluing an uncountable number of copies of $[0, 1)$ end-to-end in both directions, and is demonstrably "longer" than an ordinary line on account of a number of peculiar properties. 
+An ordinary "[[line]]" $\mathbb{R}$ is sometimes thought of as the result of gluing a [[countable set|countable]] number of copies of a half-open interval $[0, 1)$ end-to-end in both directions. A _long line_ is similarly obtained by gluing an [[uncountable set|uncountable]] number of copies of $[0, 1)$ end-to-end in both directions, and is demonstrably "longer" than an ordinary line on account of a number of peculiar properties. 
 
-The long line is a source of many counterexamples in topology. 
+The long line is a source of many counterexamples in [[topology]]. 
+
 
 ## Definition  
 
 +-- {: .num_defn} 
-Let $\omega_1$ be the first uncountable ordinal, and consider $[0, 1)$ as an [[total order|ordered set]]. A **long ray** is the ordered set $\omega_1 \times [0, 1)$ taken in the [[lexicographic order]]; as a [[topological space|space]], it is given the order topology. The **long line** is the space obtained by gluing two long rays together at their initial points. 
+###### Definition
+Let $\omega_1$ be the first [[uncountable ordinal]], and consider $[0, 1)$ as an [[total order|ordered set]]. A **long ray** is the ordered set $\omega_1 \times [0, 1)$ taken in the [[lexicographic order]]; as a [[topological space|space]], it is given the [[order topology]]. The **long line** is the space obtained by gluing two long rays together at their initial points. 
 =-- 
 
 The long line is a line in the sense of being a $1$-dimensional [[manifold]] (without boundary) that is not closed (so not a [[circle]]).  However, it is not [[paracompact space|paracompact]], so it is not [[homeomorphic]] to the [[real line]] (even though it is [[Hausdorff space|Hausdorff]]).
-
 
 
 ## Properties 
 
 Let $L$ denote the long line, and $R$ the long ray. 
 
-1. Every continuous function $f \colon L \to \mathbb{R}$ is eventually constant, i.e., there exists $x \in L$ and $c \in \mathbb{R}$ such that $f(y) = c$ whenever $y \geq x$ (and similarly $f$ is constant for all sufficiently small $x$). 
+1. Every [[continuous function]] $f\colon L \to \mathbb{R}$ is eventually constant, i.e., there exists $x \in L$ and $c \in \mathbb{R}$ such that $f(y) = c$ whenever $y \geq x$ (and similarly $f$ is constant for all sufficiently small $x$). 
 
-1. $L$ is a [[separation axioms|normal]] ($T_4$) space, but the product $L \times L$ is not normal. (See for example [Munkres](#Munk).) 
+2. $L$ is a [[normal space|normal]] ($T_4$) space, but the [[Tychonoff product]] $L \times L$ is not normal. (See for example [Munkres](#Munk).) 
 
-1. Every continuous map $L \to L$ has a fixed point. 
+3. Every continuous map $L \to L$ has a fixed point. 
 
-1. $R$ is [[sequentially compact space|sequentially compact]] but not [[compact space|compact]]. 
+4. $R$ is [[sequentially compact space|sequentially compact]] but not [[compact space|compact]]. 
 
-1. The long line is not contractible. Proof sketch: Suppose $H \colon I \times L \to L$ is a homotopy such that $H(0, -)$ is constant and $H(1, -)$ is the identity. For each $t \in [0, 1]$ the image $\im H(t, -)$ is an interval (either bounded or unbounded), since $L$ is [[connected space|connected]]. One may show the set 
+5. The long line is not [[contractible space|contractible]]. Proof sketch: Suppose $H \colon I \times L \to L$ is a homotopy such that $H(0, -)$ is constant and $H(1, -)$ is the identity. For each $t \in [0, 1]$ the image $\im H(t, -)$ is an interval (either bounded or unbounded), since $L$ is [[connected space|connected]]. One may show the set 
 $$\{t \in I: \im H(t, -) \text{is bounded}\}$$ 
 is both closed and open. It also contains $0$, hence is all of $I$. But it can't contain $t = 1$, contradiction. 
+
 
 ## References 
 
@@ -41,3 +44,9 @@ is both closed and open. It also contains $0$, hence is all of $I$. But it can't
 * Steen and Seebach, _Counterexamples in Topology_. Springer-Verlag, New York, 1978. Reprinted by Dover Publications, New York, 1995. 
 
 * J. Munkres, _Topology_ (2nd edition). Prentice-Hall, 2000. 
+
+
+[[!redirects long line]]
+[[!redirects long lines]]
+[[!redirects long ray]]
+[[!redirects long rays]]
