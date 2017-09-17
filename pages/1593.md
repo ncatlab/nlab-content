@@ -237,6 +237,10 @@ See around ([DFM II, supposition 3.6](#DistlerFreedMooreII)) for the discussion 
 ## References
  {#References}
 
+The original observation that [[D-brane charge]] for orientifolds should be in [[KR theory]] is due to
+
+* {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
+
 A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]] [[background gauge field|background]] for the [[bosonic string]], is in
 
 * [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
