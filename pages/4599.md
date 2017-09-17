@@ -131,7 +131,7 @@ $$
 
 The following proposition provides models for these objects in in terms of ordinary [[differential form]]s.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 A fibrant representative in $[CartSp^{op}, sSet]_{proj,cov}$ of $\mathbf{\flat} \mathbf{B}^n U(1)$ is
@@ -223,7 +223,7 @@ $$
 
 in $[CartSp^{op}, sSet]_{proj, cov}$. 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $X \in Smooth\infty Grpd$ a [[paracompact space|paracompact]] [[smooth manifold]] we have in for $\mathbf{H} = Smooth \infty Grpd$ a 
@@ -327,9 +327,10 @@ are necessarily themselves of the form $(\lambda_i, \lambda_{i j}, \cdots) =  (\
 
 
 ## Differential cohomology
+ {#DifferentialCohomology}
 
 
-The intrinsic <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#DiffCohWithGroupalCoeffs">definition of the ∞-groupoid of cocycles for the intrinsic  differential cohomology</a> in $\mathbf{H} = Smooth\infty Grpd$ with coefficients $\mathbf{B}^n U(1)$ is the object $\mathbf{H}_{diff}(X,\mathbf{B}^n U(1))$ in the [[nLab:(∞,1)-pullback]]
+The intrinsic <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos#DiffCohWithGroupalCoeffs">definition of the ∞-groupoid of cocycles for the intrinsic  differential cohomology</a> in $\mathbf{H} = Smooth\infty Grpd$ with coefficients $\mathbf{B}^n U(1)$ is the object $\mathbf{H}_{diff}(X,\mathbf{B}^n U(1))$ in the [[(∞,1)-pullback]]
 
 $$
   \array{
@@ -343,12 +344,11 @@ $$
   }
 $$
 
-in [[nLab:∞Grpd]].
+in [[∞Grpd]].
 
 We show now that for $n \geq 1$ this reproduces the [[nLab:Deligne cohomology]] $H(X,\mathbb{Z}(n+1)_D^\infty)$ of $X$:
 
-{#DeligneCohomologyTheorem}
-+-- {: .un_theorem }
++-- {: .num_theorem #DeligneCohomologyTheorem}
 ###### Theorem
 
 For $X$ a [[nLab:paracompact space|paracompact]] [[nLab:smooth manifold]] we have
@@ -369,7 +369,7 @@ Here on the right we have the subset of Deligne cocycles that picks for each int
 
 We give the proof [below](#ProofOfDeligneTheorem) after some preliminary expositional discussion.
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 The restriction to single representatives in each de Rham class is a reflection of the fact that in the above $(\infty,1)$-pullback diagram the morphism $H_{dR}(X,\mathbf{B}^{n+1}U(1)) \to \mathbf{H}_{dR}(X,\mathbf{B}^{n+1}U(1))$ by definition picks one representative in each connected component. Using the [above model](#OrdinaryDeRham) of the intrinsic de Rham cohomology in terms of globally defined differential froms, we could easily get rid of this restriction by considering instead of the above $(\infty,1)$-pullback the homotopy pullback
@@ -506,7 +506,7 @@ By the [[nLab:Poincare lemma]] applied to each [[nLab:Cartesian space]], this is
 In the [next section](#AbGerbesConnection) we give the proof of this (simple) claim. Here in the warmup phase we instead want to discuss the geometric interpretation of this resolution, along the lines of the section <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+survey#CurvatureCharacteristicsI">curvature characteristics of 1-bundles</a> in the [[schreiber:differential cohomology in an (∞,1)-topos -- survey|survey-part]].
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 We have the following geometric interpretation of the above models:
@@ -619,7 +619,7 @@ $$
 
 (because the bottom vertical morphism is a fibration, by the fact that our model for $\mathbf{B}_{diff} U(1) \to \flat_{dR}\mathbf{B}^2 U(1)$ is a fibration, that $C(\{U_i\})$ is cofibrant and using the axioms of the [[nLab:sSet]]-[[nLab:enriched model category]] $[CartSp^{op}, sSet]_{proj}$).
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observations
 
 A cocycle in $[CartSp^{op},sSet](C(\{U_i\}), \mathbf{B}_{diff}U(1))$ is
@@ -870,7 +870,7 @@ in $\mathbf{H} = $ [[Smooth∞Grpd]] that gives the  [[fiber sequence]] $\mathbf
 
 
 
-+-- {: .un_observation}
++-- {: .num_observation}
 ###### Observation 
 
 We have commuting diagrams 
@@ -1071,7 +1071,7 @@ There is another model for the curvature class in $[CartSp^{op}, sSet]$, one tha
 
 For distinguishing the two models, we will indicate the former one by the subscript ${}_{chn}$ and the one described now by the subscript ${}_{simp}$.
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Convention 
 
 Here and in the following we adopt for differential forms on simplices the following notational convention:
@@ -1082,7 +1082,7 @@ Here and in the following we adopt for differential forms on simplices the follo
 
 =--
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 For $n \in \mathbb{N}$, define the [[simplicial presheaf]] $\mathbf{B}^n U(1)_{simp} \in [CartSp^{op}, sSet]$ by
@@ -1107,7 +1107,7 @@ Moreover, $\mathbf{cosk}_{n+1}(-)$ is the [[coskeleton]]-operation and the quoti
 
 =--
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Observation
 
 Under the [Dold-Kan correspondence](#DoldKan) the [[Moore complex|normalized chain complex]] of $\mathbf{B}^n U(1)_{sim}$ is
@@ -1137,7 +1137,7 @@ where $\partial_k : \Delta^n \to \Delta^{n+1}$ denotes the embedding of the $k$t
 
 Here and in the following we indicate the homologically trivial part of the normalized chain complex of an $(n+1)$-coskeletal simplicial abelian group just by ellipses.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The evident [[fiber integration]] of differential forms over simplices 
@@ -1160,7 +1160,7 @@ in $[CartSp^{op}, sSet]_{proj}$, which is a weak equivalence.
 
 This is discussed at [[Lie integration]].
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 Write
@@ -1204,7 +1204,7 @@ where on the right we have the subcomplex of $\Omega^\bullet(U \times \Delta^k)$
 
 At <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#DifferentialCoefficientsOfLieInt">∞-Lie groupoid -- Lie integrated ∞-groups -- Differential coefficients</a> the following is shown:
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 The evident [[fiber integration]] over simplices induces morphisms of simplicial presheaves
@@ -1231,7 +1231,7 @@ that are weak equivalences in $[CartSp^{op}, sSet]_{proj}$.
 
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 Write $\mathbf{B}^n  U(1)_{diff,simp}$ for the simplicial presheaf given by 
@@ -1286,14 +1286,14 @@ described at [[nLab:∞-Lie algebra cohomology]].
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 The set of square diagrams of [[dg-algebra]]s above is over $(U,[k])$ the set of $n$-forms $\omega$ on $U \times \Delta^k$ whose [[curvature]] $(n+1)$-form $d \omega$ has no component with all legs along $\Delta^k$.
 
 =--
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 The morphism given by [[fiber integration]] of differential forms over the simplex factor fits into a diagram
@@ -1316,7 +1316,7 @@ where the vertical morphisms are weak equivalences.
 
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Fiber integration induces a weak equivalence
@@ -1348,14 +1348,14 @@ This forgetful morphism is evidently a fibration (because it is a degreewise sur
 
 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 Write $\mathbf{B}^n U(1)_{conn,simp} \hookrightarrow \mathbf{B}^n U(1)_{diff,simp}$ for the sub-presheaf which over $(U,[k])$ is the set of those forms $\omega$ on $U \times \Delta^k$ such that the [[curvature]] $d \omega$ has no leg along $\Delta^k$.
 
 =--
 
-+-- {: .un_cor }
++-- {: .num_cor }
 ###### Corollary
 
 Under fiber integration over simplices, $\mathbf{B}^n U(1)_{conn,simp}$ is [[quasi-isomorphism|quasi-isomorphic]] to the [[Deligne cohomology]]-complex.
@@ -1423,6 +1423,50 @@ $$
 where the restriction to the top morphism is the underlying cocycle and the restriction to the bottom morphism the curvature form.
 
 The generalization to such diagram cocycles from $b^{n-1}\mathbb{R}$ to general [[nLab:∞-Lie algebra]]s $\mathfrak{g}$ we discuss below in [∞-Lie algebra valued connections](#InfinityLieAlgebraConnection).
+
+### In homotopy type theory
+ {#InHomtopyTypeTheory}
+
+We discuss the formulation of the above in the [[homotopy type theory]]-[[internal language]] of the [[(∞,1)-topos]] $\mathbf{H} = $ [[Smooth∞Grpd]].
+
+Given the two functions
+
+$$
+  \Omega^{(n+1)}_{cl} \to \mathbf{\flat}_{dR}\mathbf{B}^{n+1} U(1)
+$$
+
+(inclusion of the set of closed $(n+1)$-forms into the $(n+1)$-groupoid of de Rham cocycles)
+
+and
+
+$$
+  curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1)
+$$
+
+(the universal curvature class / Maurer-Cartan form of the circle $(n-1)$-group)
+
+the [[smooth ∞-groupoid|smooth]] [[moduli ∞-stack]] of circle $n$-bundles with connection from [above](#DifferentialCohomology) is expressed in [[homotopy type theory]] as
+
+$$
+  \mathbf{B}^n U(1)_{conn} 
+  \simeq
+  \left\{
+    P  : \mathbf{B}^n U(1) | \exists F \in \Omega^{n+1}_{cl} . curv(P) = F
+  \right\}
+  \,.
+$$
+
+Spelled out this expresses $\mathbf{B}^n U(1)_{conn}$  as
+
+* the [[dependent sum]] over $\mathbf{B}^n U(1)$ of
+
+* the [[dependent sum]] over $\Omega^n_{cl}$ of
+
+* the [[substitution]] by $curv$ of
+
+* the [[dependent type|dependent]] [[identity type]] on $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1)$.
+
+See the discussion at _[[homotopy pullback]]_ for why this is indeed interpreted by the homotopy pullback $\mathbf{B}^n U(1) \times_{\mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)} \Omega^{n+1}_{cl}$.
 
 ## Examples
 
