@@ -48,9 +48,9 @@ together with natural [[isomorphism]]s
 $$
   Hom_E(c \otimes d, e)
   \simeq
-  Hom_C(d, hom_l(c,e))
+  Hom_C(c, hom_l(d,e))
   \simeq
-  Hom_D(c, hom_r(d,e))
+  Hom_D(d, hom_r(c,e))
   \,.
 $$
 
