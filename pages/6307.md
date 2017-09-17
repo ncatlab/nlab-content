@@ -1,0 +1,65 @@
+
+
+## Idea ##
+
+The factorization category $Fact(f)$ of an arrow $f$ in a category $\mathcal{C}$ is a way of organizing its binary factorizations $f = p\circ q$ into a category. 
+
+## Definition ##
+
+the objects of $Fact(f)$ are factorizations 
+
+\[
+\begin{matrix}
+  X &&\stackrel{f}{\to}&& Y
+       \\
+       & {}_{p_1} \searrow && \nearrow_{p_2}
+       \\   
+       && D
+\end{matrix}
+\]
+
+so that $f = p_2 p_1$, and a morphism from $(p_1, D, p_2)$ to $(q_1, E, q_2)$ is a morphism $h \colon D \to E$ making everything in sight commute. There's an obvious projection functor
+\[	
+	P_f \colon Fact(f) \to \mathcal{C}
+\]
+which maps $(p_1, D, p_2)$ to $D$ and $h\colon $(p_1, D, p_2) \to (q_1, E, q_2)$ to $h$.  
+
+### as iterated comma categories
+
+In terms of slice categories, a morphism $f: A \to B$ can be viewed as
+
+  1. an object in $\mathcal{C}/B$
+  2. or an object in $A / \mathcal{C}$
+
+Now, taking over/under slices again yields only one new thing; it is easy to see that
+
+	* $(\mathcal{C}/B)/f \cong \mathcal{C}/A$, and 
+	* $f / (A / \mathcal{C}) \cong B / \mathcal{C}$
+
+the cool fact is that the other two options yield $Fact(f)$
+
++-- {: .un_lemma }
+###### Lemma
+
+$Fact(f) \cong f/(\mathcal{C}/B) \cong (A / \mathcal{C})/f$, and the following diagram commutes
+\[
+\array{
+    (A / \mathcal{C})/f &\stackrel{\cong}{\to}&   Fact(f)  & \stackrel{\cong}{\warrow} & f/(\mathcal{C}/B)
+    \\
+    \pi^A_f \downarrow && P_f \downarrow && \pi^B_f 
+    \\
+    A / \mathcal{C} & \underset{\pi_A}{\to} & \mathcal{C} & \underset{\pi_A}{\warrow} & f/(\mathcal{C}/B)  
+  }
+\]
+=--
+
+## Properties ##
+
+### factorization categories vs the category of factorizations
+
+(add the relationship between fact and slices of tw)
+
+
+## References ##
+
+...
