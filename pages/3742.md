@@ -1,0 +1,1 @@
+An **n-polygraph** is a synonym for an $n$-[[computad]]. The term seems to be used more in [[rewriting]] theory, although some work in that area has also used the 'computad' terminology.
