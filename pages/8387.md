@@ -35,4 +35,8 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 
 * [[programming language]]
 
+## References
+
+* [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
+
 [[!redirects computations]]
