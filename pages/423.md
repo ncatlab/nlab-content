@@ -87,10 +87,7 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 
 ## References
 
-(...)
-
 For a compilation of examples important in algebraic topology see manuscript 
 
 * [[Neil Strickland]], _A bestiary of topological objects_ ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/bestiary/bestiary.pdf))
-
-(...)
+* J. van Mill, George M. Reed (editors), _Open problems in topology_, North Holland 1990, [pdf](http://futuretg.com/FTHumanEvolutionCourse/FTFreeLearningKits/01-MA-Mathematics%20and%20Preparation%20for%20University/010-MA10-UN03-09-Topology,%20Logic%20and%20Set%20Theory/Additional%20Resources/Jan%20van%20Mill,%20George%20M.%20Reed%20-%20Open%20Problems%20in%20Topology.pdf)
