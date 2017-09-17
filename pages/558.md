@@ -346,16 +346,16 @@ By the above theorem and the <a href="http://ncatlab.org/nlab/show/Quillen+equiv
 
 
 
-### For $n$-fold groups
+### For $cat^n$ groups
 
 +-- {: .un_theorem}
 ###### Theorem
 
-The [[homotopy category]] of [[cat-n-group]]s is equivalent to that of [[pointed object|pointed]] [[connected]] [[homotopy n-type]]s.
+The [[homotopy category]] of [[cat-n-group]]s is equivalent to that of [[pointed object|pointed]] [[connected]] [[homotopy $n+1$-type]]s.
 
 =--
 
-This is proven in ([Loday](#Loday)).
+This is proven in ([Loday](#Loday)). (There are some glitches in his proof and these were fixed by various authors (Steiner, Gilbert, ..) and then detailed proofs were given by Bullejos, Cegarra, Duskin and separately, using the equivalent formulation of crossed n-cubes, by Porter. Detailed references and some more commentary is at [[cat-n-group]].)
 
 
 ### For Segal-groupoids
