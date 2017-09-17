@@ -14,10 +14,11 @@ An _algebraic curve_ over a [[field]] $F$ is the locus of solutions of $(n-1)$-[
 ## Properties
 
 * [[Mordell conjecture]]
+* [[Jacobian
 
 ## References
 
 * Wikipedia, _[Algebraic curve](http://en.wikipedia.org/wiki/Algebraic_curve)_
 
-[[!redirects alegbraic curves]]
+[[!redirects algebraic curves]]
 
