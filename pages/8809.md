@@ -50,9 +50,14 @@ Reviews are in
 
 * Jonathan Evans, _Narasimhan-Seshadri theorem_ ([pdf I](http://www.homepages.ucl.ac.uk/~ucahjde/YM-lectures/lecture13.pdf), [pdf II](http://www.homepages.ucl.ac.uk/~ucahjde/YM-lectures/lecture14.pdf))
 
-Related discussision in the context of [[Hitchin connections]] is in 
+A textbook account is in 
 
-* Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
- {#ScheinostSchottenloher96}
+* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Mafred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
+
+
+Related discussion in the context of [[Hitchin connections]] is in 
+
+* {#ScheinostSchottenloher96} Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
+ 
 
 
