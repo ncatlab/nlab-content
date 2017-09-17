@@ -102,7 +102,10 @@ A general account is in section 4.2 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
+
+[[!redirects twisted differential c-structure]]
 [[!redirects twisted differential c-structures]]
+[[!redirects tiwsted differential c-structure]]
 
 [[!redirects twisted differential structure]]
 [[!redirects twisted differential structures]]
