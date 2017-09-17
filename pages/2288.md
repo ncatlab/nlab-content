@@ -32,6 +32,10 @@ When the spaces and spectra in question carry an [[action]] of a [[group]] $G$ t
 
 * [[equivariant stable homotopy theory]] .
 
+## Related concepts
+
+* [[S-theory]]
+
 ## References
 
 An excellent general survey is
