@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Serre-Swan theorem_ identifies suitable [[modules]] over a [[ring]] of [[functions]] on some [[space]] with the modules of [[sections]] of [[vector bundles]] over that space and therey identifies these modules with vector bundles themselves.
+The _Serre-Swan theorem_ identifies suitable [[modules]] over a [[ring]] of [[functions]] on some [[space]] with the modules of [[sections]] of [[vector bundles]] over that space and thereby identifies these modules with vector bundles themselves.
 
 Together with theorems like _[[Gelfand duality]]_, the Serre-Swan theorem is a central part of the [[Isbell duality|general duality]] between [[geometry]] and [[algebra]].
 In particular it may serve to generalize the notion of vector bundle from standard [[geometry]] to more exotic forms of geometry, such as [[noncommutative geometry]].
