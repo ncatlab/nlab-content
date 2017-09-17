@@ -233,7 +233,7 @@ More generally, for $R$ any [[ring]], this is true in $R$[[Mod]]: the kernel of 
 
 ## Related concepts
 
-* **kernel**, [[generalized kernel]]
+* **kernel**, [[fiber]], [[generalized kernel]]
 
 * [[homotopy fiber]]
 
