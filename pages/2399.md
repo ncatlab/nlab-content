@@ -34,6 +34,10 @@ For a useful exposition of this see ([Tolland](#Tolland)).
 
 ## Related concepts
 
+* [[stable map]]
+
+* [[orbifold cohomology]]
+
 * [[quantum sheaf cohomology]]
 
 * [[Donaldson theory]]
