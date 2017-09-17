@@ -10,23 +10,33 @@
 
 _Type II geometry_ is to [[Riemannian geometry]] as [[generalized complex geometry]] is to [[complex geometry]].
 
-Where the latter is the [[geometry]] induced by [[reduction of the structure group]] of the [[generalized tangent bundle]] of an even dimensional [[manifold]] along the inclusion $U(d,d) \to O(2d,2d)$ of the indefinite [[unitary group]] into the [[orthogonal group]], type II geometry is the geometry induced by reduction along the inclusion of [[orthogonal group|orthogonal groups]]
+Where the latter is the [[geometry]] induced by [[reduction of the structure group]] of the [[generalized tangent bundle]] of an even dimensional [[manifold]] along the inclusion $U(d,d) \to O(2d,2d)$ of the indefinite [[unitary group]] into the [[orthogonal group]], type II geometry is the geometry induced by reduction along the inclusion of the product of [[orthogonal group|orthogonal groups]]
 
 $$
   O(n) \times O(n) \to O(n,n)
-  \,.
+  \,,
 $$
+
+which is the inclusion of the [[maximal compact subgroup]] into the [[Narain group]].
 
 
 This notion takes its name from the fact that it describes a good bit of the geometry of [[type II supergravity]].
 
 ## Definition
 
-### In components
+The definition of type II geometry proceeds in direct analogy with that of [[Riemannian geometry]] in terms of [[orthogonal structure]]/[[vielbein]] fields on the tangent bundle, generalized here to the [[generalized tangent bundle]]: 
+
+1. [As a fiberwise metric on the generalized tangent bundle](#FiberwiseMetric)
+
+1. [By reduction of the structure group of the generalized tangent bundle](#ReductionOfStructureGroup)
+
+### By fiberwise metric on the generalized tangent bundle
+ {#FiberwiseMetric}
 
 (...)
 
 ### By reduction of the generalized tangent bundle
+ {#ReductionOfStructureGroup}
 
 We discuss how a type II geometry is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
 
