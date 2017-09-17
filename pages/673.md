@@ -11,14 +11,13 @@ If you need it, here is my email: droberts (at symbol) maths dot adelaide dot ed
 
 ## Selected writings ##
 
-* _Internal categories, anafunctors and localisations_ (adapted from chapter 1 of my PhD thesis) 
-([pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf))
+* _Internal categories, anafunctors and localisations_, [arXiv:math/1101.????]()
 
-These results are of independent interest, and this file is much smaller than the full thesis:
+These results were originally developed in chapter 1 of 
 
-* _[[Fundamental Bigroupoids and 2-Covering Spaces]]_ (full PhD thesis) ([pdf](http://ncatlab.org/davidroberts/files/DMRthesis_final.pdf))
+* _[[Fundamental Bigroupoids and 2-Covering Spaces]]_ (PhD thesis) ([pdf](http://ncatlab.org/davidroberts/files/DMRthesis_final.pdf))
 
-For a lite introduction to the ideas in my thesis, see
+For a 'lite' introduction to the ideas in my thesis, see
 
 * _2-covering spaces_ - talk at the 2009 Annual Meeting of the Australian Mathematical Society, at the University of South Australia, 30 September 2009 ([slides](http://ncatlab.org/davidroberts/files/DMRAustMS09.pdf))
 
