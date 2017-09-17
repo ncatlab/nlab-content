@@ -62,4 +62,6 @@ The [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]
 
 * [[finite (infinity,1)-category]], [[finite (infinity,1)-limit]]
 
+* [[p-local homotopy type]], [[p-complete homotopy type]], [[rational homotopy type]]
+
 [[!redirects finite homotopy types]]
