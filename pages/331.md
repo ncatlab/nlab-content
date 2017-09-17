@@ -101,6 +101,8 @@ See also:
 
 ## Related concepts
 
+* [[mathematical logic]]
+
 * [[type theory]], **logic**
 
 * [[2-type theory]], [[2-logic]]
