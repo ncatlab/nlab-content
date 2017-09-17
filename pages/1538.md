@@ -26,9 +26,17 @@
 
 _Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[quantum field theory]] whose target space is the [[classifying space]] of a [[discrete group]] and whose background [[gauge field]] is a [[circle n-bundle with connection]] on $\mathbf{B}G$, necessarily flat.
 
-We may think of this as the theory describing the [[quantum mechanics]] of an $(n-1)$-[[brane]] with $n$-dimensional worldvolume $\Sigma$ propagating on $B G$ and being [[charge]]ed under a higher analog of the [[electromagnetic field]]: a field configuration is a [[morphism]] $\phi : \Sigma \to \mathbf{B}G$, hence equivalently a $G$-[[principal bundle]] on $\Sigma$, and the value of the [[action functional]] on this field configuration is the [[characteristic class]] of this bundle with respect to the universal characteristic class of the given [[principal infinity-bundle|circle n-bundle]].
+We may think of this as the theory describing the [[quantum mechanics]] of an $(n-1)$-[[brane]] with $n$-dimensional worldvolume $\Sigma$ propagating on $B G$ and being [[charge]]d under a higher analog of the [[electromagnetic field]]: a field configuration is a [[morphism]] $\phi : \Sigma \to \mathbf{B}G$, hence equivalently a $G$-[[principal bundle]] on $\Sigma$. The background [[gauge field]] is a morphism $\alpha : \mathbf{B}G \to \mathbf{B}^n U(1)$ -- hence a [[characteristic class]] for $G$: a cocycle in [[group cohomology]] of degree $n$. 
+The value of the [[Lagrangian]] $L(\phi)$ on a field configuration $\phi$ is the [[characteristic class]] of this bundle with respect to the universal characteristic class of the given [[principal infinity-bundle|circle n-bundle]]:
 
-Viewed in a broader context and generalizing: Dijkgraaf-Witten theory is the [[schreiber:∞-Chern-Simons theory]] induced from a [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ on a [[discrete ∞-groupoid]] $\mathbf{B}G := Disc B G$. If $G$ here is an ordinary [[discrete group]] this is traditional Dijkgraaf-Witten theory, if $G$ is a disctete [[2-group]] and the background field is a circle 4-bundle, then this is called the [[Crane-Yetter model]].
+$$
+  L : (\Sigma \stackrel{\phi}{\to} \mathbf{B}G)
+  \mapsto
+  (\alpha(\phi) : \Sigma \stackrel{\phi}{\to} \mathbf{B}G \stackrel{\alpha}{\to} \mathbf{B}^n U(1)).
+$$
+
+
+Viewed in a broader context and generalizing: Dijkgraaf-Witten theory is the [[schreiber:∞-Chern-Simons theory]] induced from a [[characteristic class]] $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ on a [[discrete ∞-groupoid]] $\mathbf{B}G := Disc B G$. If $G$ here is an ordinary [[discrete group]] this is traditional Dijkgraaf-Witten theory, if $G$ is a discrete [[2-group]] and the background field is a circle 4-bundle, then this is called the [[Crane-Yetter model]].
 
 This are the first two steps in filtering of target spaces by [[homotopy type]] [[truncated|truncation]] of [[schreiber:∞-Chern-Simons theory]] <a href="http://nlab.mathforge.org/schreiber/show/infinity-Chern-Simons+theory#DiscreteTargets">with discrete target spaces</a>.
 
