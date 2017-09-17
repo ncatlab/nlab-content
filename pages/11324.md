@@ -16,3 +16,6 @@ On an integral highest weight representation the KW character is a [[Jacobi form
 ## References
 
 * {#KL95} [[Kefeng Liu]], section 2.2 of _On modular invariance and rigidity theorems_, J. Differential Geom. Volume 41, Number 2 (1995), 247-514 ([EUCLID](http://projecteuclid.org/euclid.jdg/1214456221), [pdf](http://www.math.ucla.edu/~liu/Research/loja.pdf))
+
+
+* {#Wassermann11} [[Antony Wassermann]], _Kac-Moody and Virasoro algebras_, course notes (2011) ([pdf](https://www.dpmms.cam.ac.uk/~ajw/course11.pdf))
