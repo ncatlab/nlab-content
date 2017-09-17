@@ -1,6 +1,7 @@
 
-
 <div class="rightHandSide toc">
+[[!include Yoneda lemma - contents]]
+***
 [[!include infinity-limits - contents]]
 </div>
 
