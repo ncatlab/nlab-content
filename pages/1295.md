@@ -118,9 +118,9 @@ See there for more details.
 
 ### Relation to type theory
 
-Under the [[relation between category theory and type theory]] dependent sum and dependent product are the [[categorical semantics]] of [[dependent sum types]] and [[dependent product types]]
+Under the [[relation between category theory and type theory]] dependent sum and dependent product are the [[categorical semantics]] of [[dependent sum types]] and [[dependent product types]].
 
-[[!redirects dependent sum natural deduction - table]]
+[[!include dependent sum natural deduction - table]]
 
 ## Examples
 
