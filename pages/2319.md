@@ -184,8 +184,7 @@ $$
 
 This gives a $(k+1)$-dimensional space of holomorphic sections.
 
-(...)
-
+For more along these lines see also at _[[geometric quantization of the 2-sphere]]_.
 
 
 
