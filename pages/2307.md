@@ -121,7 +121,7 @@ This is [[Quillen's theorem on MU]].
 ### On itself: Hopf algebroid structure on dual Steenrod algebra
 
 Moreover, the dual $MU$-[[Steenrod algebra]] $MU_\bullet(MU)$
-forms a [[Hopf algebroid]] over the [[Lazard ring]]. 
+forms a [[commutative Hopf algebroid]] over the [[Lazard ring]]. 
 This is the content of the _[[Landweber-Novikov theorem]]_.
 
 ### Universal complex orientation
