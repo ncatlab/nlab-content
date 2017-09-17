@@ -59,13 +59,13 @@ which is the composite of the [[counit of a comonad|counit of the comodality]] a
 One can consider longer sequences of such adjoints of co/modalities, but the longer they get, the less likely they are to be non-trivial. The longest that still has good nontrivial models seems to be [[adjoint triples]] of modalities. Of these there is them similarly either the form
 
 $$
-  modality \dashv comodality \dash modality
+  modality \dashv comodality \dashv modality
 $$
 
 (the "Yin triple") as for instance in the definition of _[[cohesion]]_ and
 
 $$
-  comodality \dashv modality \dash comodality
+  comodality \dashv modality \dashv comodality
 $$
 
 (the "Yang triple") as for instance in the definition of _[[differential cohesion]]_.
