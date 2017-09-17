@@ -42,7 +42,7 @@ $$s_{i}^{2} = 1, \qquad s_i s_j \ldots = s_j s_i \ldots$$
 
 where each of the words in the second equation alternate in the letters $s_i$, $s_j$ and has length $m_{i j}$, provided that $m_{i j} \lt \infty$. The corresponding Hecke algebra has basis $W$, and is presented by 
 
-$$s_{i}^{2} = \frac{q-1}{q} s + \frac1{q}, \qquad s_i s_j \ldots = s_j sI- \ldots$$
+$$s_{i}^{2} = \frac{q-1}{q} s_i + \frac1{q}, \qquad s_i s_j \ldots = s_j s_i \ldots$$
 
 These relations may be interpreted structurally as follows (for simplicity, we will consider only finite, aka spherical Coxeter groups). A Coxeter group $W$ may be associated with a suitable [[BN-pair]]; the classical example is where $G$ is an [[algebraic group]], $B$ is a [[Borel subgroup]] (maximal solvable subgroup), and $N$ is the normalizer of a [[maximal torus]] $T$ in $G$. Such $G$ typically arise as automorphism groups of thick $W$-buildings, where $B$ is a stabilizer of a point of the building. The coset space $G/B$ may then be interpreted as a space of flags for a suitable geometry. The Coxeter group itself arises as the quotient $W \cong N/T$, and under the BN-pair axioms there is a well-defined map 
 
