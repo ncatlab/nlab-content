@@ -28,13 +28,13 @@ If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Th
 
 ## Wavy arrows
 
-If $C$ is continuous, with $L:C\to Ind(C)$ the left adjoint of $\colim$, and $x,y\in C$, we define a **wavy arrow** $x\rightsquigarrow y$ to be a morphism $\hat{x} \to L(y)$ in $Ind(C)$.  This is a categorification of the [[way-below relation]] on a continuous poset: when $C$ is a poset we have a wavy arrow $x\rightsquigarrow y$ just when $x\ll y$.
+If $C$ is continuous, with $L:C\to Ind(C)$ the left adjoint of $\colim$, and $x,y\in C$, we define a **wavy arrow** $x\rightsquigarrow y$ to be a morphism $\hat{x} \to L(y)$ in $Ind(C)$.  This is a categorification of the [[way-below relation]] on a continuous poset: when $C$ is a poset we have a wavy arrow $x\rightsquigarrow y$ just when $x\ll y$.  But unlike in the posetal case, it is not clear how to define wavy arrows unless $C$ is continuous (whereas $\ll$ can be defined in any poset with directed joins).  However, see [[totally distributive category]].
 
 Since $\colim \hat{x} = x$ and $\colim L(y)=y$, the functor $\colim$ assigns to every wavy arrow a "straight" arrow $x\to y$ in $C$.  Moreover, wavy arrows can be composed: the composite of $f:\hat{x} \to L(y)$ and $g:\hat{y} \to L(z)$ is the composite
 $$ \hat{x} \xrightarrow{f} L(y) \xrightarrow{i} \hat{y} \xrightarrow{g} L(z) $$
-where $i$ is the [[adjunct]] of the identity $y = \colim \hat{y}$ (or of the identity $\colim L(y) = y$).
+where $i$ is the [[adjunct]] of the identity $y = \colim \hat{y}$ (or of the identity $\colim L(y) = y$).  This composition is associative.  Thus, we _almost_ have a category whose objects are those of $C$ and whose morphism are wavy arrows --- but it does not have identities.
 
-Thus, we have a category whose objects are those of $C$ and whose morphism are wavy arrows, and $\colim$ defines a bijective-on-objects functor from this category to $C$ itself (which is neither full nor faithful).  In this way, every continuous category can be regarded as enriched over $Set^{\to}$: a structure similar to an [[M-category]].  Note, though, that the map between the two kinds of arrows goes the other way: in an M-category we have an inclusion of tight morphisms (usually written as straight arrows) into loose ones (sometimes written as wavy arrows), while here we have a forgetful map from wavy arrows to straight ones.
+However, if $\tilde{C}(x,y)$ denotes the set of wavy arrows, then the composition defines a map of [[profunctors]] $\tilde{C} \otimes_C \tilde{C} \to \tilde{C}$ which is in fact an isomorphism.  Combined with the map from wavy arrows to straight ones, this makes $\tilde{C}$ into an idempotent [[comonad]] on $C$ in the bicategory [[Prof]].
 
 ## References
 
