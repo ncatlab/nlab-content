@@ -96,6 +96,9 @@ This is due to ([Seely, 1984a](#SeelyA)). For more details see _[[relation betwe
 
 * [[Boolean hyperdoctrine]]
 
+See also
+
+* [[dependent linear type theory]]
 
 ### Special cases
 
