@@ -51,11 +51,13 @@ Let $C$ be a given ambient [[(∞,1)-category]] which
 
 * is [[cartesian closed (∞,1)-category|cartesian closed]].
 
+Possibly an [[(∞,1)-topos]].
+ 
 Then
 
     Type
 
-denotes $Core(C)$, the [[core]] of $C$, hence the maximal [[∞-groupoid]] inside $C$.
+denotes $Core(C)$, the [[core]] of $C$, hence the maximal [[∞-groupoid]] inside $C$. Or more precisely, a [[(sub)object classifier in an (infinity,1)-topos|object classifier]].
 
     X : Type
 
@@ -73,7 +75,7 @@ denotes the [[internal hom]] $[X,Y] \in C$ (a formal proof of that is [here](htt
 
     P (x : X) : Type
 
-denotes a [[bundle]] $P \to X$ in $C$. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
+denotes a [[bundle]] $P \to X$ in $C$, called a _$X$-[[dependent type]]_. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]] it denotes a [[fibration]] $P \to X$.
 
     P : X -> Type
 
@@ -85,13 +87,19 @@ The total space object $P$ of this bundle (the _[[dependent sum]]_ of the bundle
 
 or
 
-    total (fun (x : X) => P x) : Type
+    total (fun (x : X) => P x) : Type.
+
+It should also equivalently be called
+
+    exists x : X, P x
+
+(see [[existential quantifier]]) but in the current [[Coq]] implementation that keyword is reserved for [[(-1)-truncated]] $P_x$ ([[proposition]]s).
 
 The code
 
     forall x : X, P x
 
-denotes the object of [[homotopy]] [[section]]s of this bundle (the _[[dependent product]]_ of the bundle, see the section _[relation to spaces of sections](http://ncatlab.org/nlab/show/dependent+product#RelationToSpacesOfSections)_ there).
+for the [[universal quantifier]], denotes the object of [[homotopy]] [[section]]s of this bundle (the _[[dependent product]]_ of the bundle, see the section _[relation to spaces of sections](http://ncatlab.org/nlab/show/dependent+product#RelationToSpacesOfSections)_ there).
 
     f : forall x : X, P x
 
