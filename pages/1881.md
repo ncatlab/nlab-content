@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
 =--
 =--
 
