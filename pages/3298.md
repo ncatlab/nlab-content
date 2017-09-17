@@ -929,11 +929,11 @@ This is reviewed for instance as ([Weibel, theorem 9.4.7](#Weibel)) or as ([Ginz
 
 The higher order Hochschild homology $\mathcal{O} X^{S^d}$ of an object $X$ with respect to the $n$-sphere $S^d$ and with coefficients in a [[integral transforms on sheaves|geometric function object]] is naturally an $E_{d+1}$-algebra: an [[algebra over an operad]] over the [[little k-cubes operad]] for $k = d+1$ .
 
-For let $D^{d+1}$ be the $(d+1)$-disk and 
+For let $\Sigma^{d+1} = D^{d+1}\setminus \coprod_r D^{d+1}$ be the $(d+1)$-[[ball]] with $r$ small $d+1$-balls taken out. We have a [[cospan]] of boundary inclusions
 
 $$
   \array{
-     && D^{d+1}
+     && \Sigma^{d+1}
      \\
      & \nearrow && \nwarrow
      \\
@@ -941,20 +941,22 @@ $$
   }
 $$
 
-a configuration of $r$ $d$-spheres in $D^{d+1}$, with the right leg denoting the boundary of $D^{d+1}$. Interal-homming this [[cospan]] into the object $X$ produces the [[span]]
+in [[∞Grpd]] and under $LConst : \infty Grpd \to \mathbf{H}$ then also in our [[(∞,1)-topos]].
+
+Applying the <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">(∞,1)-topos internal hom</a> into a given object $X \in \mathbf{H}$ to this [[cospan]] produces the [[span]]
 
 $$
   \array{
-     && X^{D^{d+1}}
+     && X^{\Sigma^{d+1}}
      \\
-     & \swarrow && \searrow
+     & {}^{\mathllap{i}}\swarrow && \searrow^{mathrlap{o}}
      \\
      \prod_r X^{S^d} &&&& X^{S^d}
   }
-  \,.
 $$ 
 
-Then the [[integral transforms on sheaves]] induced by these spans constitute the $E_n$-action on the function objects on $X^{S^d}$.
+in $\mathbf{H}$. Then the [[integral transforms on sheaves]] $o_! i^*$
+induced by these spans constitute the $E_n$-action on the function objects on $X^{S^d}$.
 
 =--
 
