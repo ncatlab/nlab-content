@@ -132,6 +132,10 @@ $$
 
 For handling just groupoids exclusively their description in terms of Kan complexes may be a bit of an overkill, but the advantage is that it embeds groupoids naturally in the more general context of [[2-groupoid]]s, [[3-groupoid]]s and eventually [[∞-groupoid]]s. For instance a [[pseudo-functor]] out of an ordinary groupoid into a 2-groupoid is simply a homomorphism of the corresponding Kan complexes.
 
+## Related concepts
+
+[[!include homotopy n-types - table]]
+
 
 
 ## References
