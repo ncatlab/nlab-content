@@ -1,4 +1,5 @@
-[[!redirects presentation of homotopy type theory]]
+[[!redirects categorical semantics of homotopy type theory]]
+
 
 > under construction
 
@@ -33,3 +34,4 @@ a 1-[[category]] whose [[internal logic]] can interpret this needs to
 
 1. xyz
 
+[[!redirects presentation of homotopy type theory]]
