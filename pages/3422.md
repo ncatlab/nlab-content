@@ -42,7 +42,7 @@ $$
 between [[Cartesian fibration]]s [[fibrations of quasi-categories|of quasi-categories]] and [[(∞,1)-functor]]s to [[(∞,1)Cat]].
 
 
-This correspondence is [[model category|modeled]] 
+This correspondence may be [[model category|modeled]] 
 
 * in the case of $\infty$-groupoids by a [[Quillen equivalence]] between the [[model structure for right fibrations]] and the projective [[global model structure on simplicial presheaves]] 
 
