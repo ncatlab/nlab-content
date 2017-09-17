@@ -25,7 +25,17 @@ In [[representation theory]], **Frobenius reciprocity** (sometimes _Frobenious_)
 
 In [[category theory]], Frobenius reciprocity is a condition on a pair of [[adjoint functors]] $f_! \dashv f^*$.  If both categories are [[cartesian closed]], then the adjunction is said to satisfy **Frobenius reciprocity** if the right adjoint $f^* \colon Y \to X$ is a [[cartesian closed functor]]; that is, if the canonical map $f^*(B^A) \to f^*(B)^{f^*(A)}$ is an [[isomorphism]] for all objects $B,A$ of $Y$.
 
-Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a left adjoint, so by the calculus of [[mates]], this condition is equivalent to asking that the canonical morphism $f_!(C \times f^*B) \to (f_! C) \times B$ is an isomorphism for each $B$ in $Y$ and $C$ in $X$.  This clearly makes sense if the categories are [[cartesian monoidal category|cartesian]] but not [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
+Each of the functors $-^A$, $-^{f^*A}$ and $f^*$ has a [[left adjoint]], so by the calculus of [[mates]], this condition is equivalent to asking that the canonical morphism 
+
+$$
+  f_!(C \times f^*B) \to (f_! C) \times B
+$$ 
+
+is an isomorphism for each $B$ in $Y$ and $C$ in $X$.  
+
+This clearly makes sense also if the categories are [[cartesian monoidal category|cartesian]] but not necessarily [[closed category|closed]], and is the usual formulation found in the literature.  It is equivalent to saying that the adjunction is a [[Hopf adjunction]] relative to the cartesian monoidal structures.
+
+
 
 This terminology is most commonly used in the following situations:
 
