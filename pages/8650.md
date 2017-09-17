@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Mathematica_ is a computer algebra software.
+
+## Related concepts
+
+* [[Coq]], [[Agda]]
+
+* [[ELF]]
+
+## References
+
+* Wikipedia, _[Mathematica](Mathematica)_
