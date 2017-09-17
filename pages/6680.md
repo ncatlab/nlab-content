@@ -1,20 +1,21 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 #### Mapping space
-+--{: .hide}
++-- {: .hide}
 [[!include mapping space - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents
-{:toc}
+{: toc}
 
 # Loops with Singularities # {: #title}
 
@@ -81,3 +82,8 @@ This is Ryan's objection.
 We cannot fix this. The reason being that this subset *contains* an open subset of our manifold (again, by Ryan's answer) so the only way it could be a submanifold would be if it were open.
 
 So the space in question is most emphatically not a submanifold. But there is a nearby manifold, which is the space of loops with a marked coincidence (and possibly other coincidences). For most loops, these two spaces are the same nearby, but for loops such as those that Torsten and Ryan consider, they aren't.
+
+
+[[!redirects manifold structure of singular loops]]
+[[!redirects the manifold structure of singular loops]]
+[[!redirects on the manifold structure of singular loops]]
