@@ -96,6 +96,9 @@ $\tau( 1_{(X,g)}) = 1_{\tau(X,g)}.$
 * V. Turaev, Homotopy field theory in dimension 3 and crossed group-categories, preprint 
 [arXiv:math.GT/0005291v1](http://arxiv.org/abs/math.GT/0005291v1). 
 
+
+* V. Turaev, Homotopy Quantum Field Theory, Tracts in Mathematics 10, (with Appendices by Michael Muger and Alexis Vurelizier), European Mathematical Society, June 2010.
+
 * M. Brightwell and P. Turner, Representations of the homotopy surface category of a simply 
 connected space, J. Knot Theory and its Ramifications, 9 (2000), 855--864. 
 
