@@ -7,7 +7,7 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Pierre Cartier]], [[Guido Castelnuovo]], [[Denis-Charles Cisinski]]
 
-* [[Pierre Deligne]], [[Duiliu-Emanuel Diaconescu]], [[Vladimir Drinfeld]], [[Nikolai Durov]]
+* [[Pierre Deligne]], [[Christopher Deninger]], [[Duiliu-Emanuel Diaconescu]], [[Vladimir Drinfeld]], [[Nikolai Durov]]
 
 * [[Federigo Enriques]]
 
@@ -15,13 +15,13 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
  
 * [[Ofer Gabber]], [[Dennis Gaitsgory]], [[Victor Ginzburg]], [[Alexander Goncharov]], [[Phillip Griffiths]], [[Alexandre Grothendieck]]
 
-* [[Joseph Harris]], [[Robin Hartshorne]], [[David Hilbert]], [[Heisuke Hironaka]], [[André Hirschowitz]], [[Friedrich Hirzebruch]], [[Nigel Hitchin]], [[William Hodge]], [[Daniel Huybrechts]]
+* [[Günter Harder]], [[Joseph Harris]], [[Robin Hartshorne]], [[David Hilbert]], [[Heisuke Hironaka]], [[André Hirschowitz]], [[Friedrich Hirzebruch]], [[Nigel Hitchin]], [[William Hodge]], [[Daniel Huybrechts]]
 
 * [[Luc Illusie]]
 
-* [[Jacobi|Charles Gustave Jacob Jacobi]],[[Dominic Joyce]]
+* [[Jacobi|Charles Gustave Jacob Jacobi]], [[Dominic Joyce]]
 
-* [[Dmitry Kaledin]], [[Mikhail Kapranov]], [[Anton Kapustin]], [[Masaki Kashiwara]], [[Kazuya Kato]] ([wikipedia](http://en.wikipedia.org/wiki/Kazuya_Kato)), [[Ludmil Katzarkov]], [[Kiran Kedlaya]], [[Bernhard Keller]], [[Alexander Kuznetsov]], [[Felix Klein]],[[Steven Kleiman]], [[David Knudson]], [[Kunihiko Kodaira]], [[Maxim Kontsevich]]
+* [[Dmitry Kaledin]], [[Mikhail Kapranov]], [[Anton Kapustin]], [[Masaki Kashiwara]], [[Kazuya Kato]] ([wikipedia](http://en.wikipedia.org/wiki/Kazuya_Kato)), [[Ludmil Katzarkov]], [[Yujiro Kawamata]], [[Kiran Kedlaya]], [[Bernhard Keller]], [[Alexander Kuznetsov]], [[Felix Klein]],[[Steven Kleiman]], [[David Knudson]], [[Kunihiko Kodaira]], [[Maxim Kontsevich]]
 
 * [[Laurent Lafforgue]], [[Serge Lang]], [[Robert Langlands]], [[Gérard Laumon]], [[Solomon Lefschetz]], [[Marc Levine]], [[Joseph Lipman]],[[Valery Lunts]], [[Jacob Lurie]]
 
