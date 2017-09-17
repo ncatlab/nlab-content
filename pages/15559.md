@@ -48,14 +48,22 @@ $$
 $$
 
 
-### Relation to Hecke theta functions
+### Relation to other zeta-, theta-, and L-functions
  {#RelationToThetaFunctions}
 
-The Dedekind zeta function has an expression as an integral over a kernel given by a [[Hecke theta function]] ([Kowalski (2.3) (2.4)](#Kowalski)).
+* The Dedekind zeta function is the product of all [[Artin L-functions]] $L_\sigma$ for all [[irreps]] $\sigma$
+  
+  $$
+    \zeta(s) = \prod_{\sigma} L_\sigma(s) 
+  $$
 
-### Relation to Hasse-Weil zeta function
+  (e.g. [here](http://books.google.co.uk/books?id=IuFLIbLyRRsC&pg=PA183#v=onepage&q&f=false))
 
-The Dedekind zeta function of $K$ is equivalently the [[Hasse-Weil zeta function]] of $Spec(\mathcal{O}_K)$.
+* The Dedekind zeta function has an expression as an integral over a kernel given by a [[Hecke theta function]] ([Kowalski (2.3) (2.4)](#Kowalski)).
+
+* The Dedekind zeta function of $K$ is equivalently the [[Hasse-Weil zeta function]] of $Spec(\mathcal{O}_K)$.
+
+
 
 ### Analogs over complex curves
 
