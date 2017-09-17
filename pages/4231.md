@@ -46,7 +46,7 @@ Since every [[topos]] is an [[adhesive category]], monomorphisms are automatical
 +-- {: .num_defn #Localizer}
 ###### Definition
 
-Say a class $W \in Mor(\mathcal{T})$ is a **localizer** on $\mathcal{T}$ if it is a class of [[weak equivalences]] in a Cisinski model structure on $\mathcal{T}$.
+Say a class $W \in Mor(\mathcal{T})$ is a **[[localizer]]** on $\mathcal{T}$ if it is a class of [[weak equivalences]] in a Cisinski model structure on $\mathcal{T}$.
 
 =--
 
