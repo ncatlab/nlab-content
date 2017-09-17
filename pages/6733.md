@@ -215,10 +215,13 @@ This condition reduces to the above one for the $B$-field under [[double dimensi
 
 ## Related concepts
 
-
 * [[string theory]]
 
 * [[11-dimensional supergravity]], [[M-theory]]
+
+* [[M2-brane]]
+
+* [[M9-brane]]
 
 [[!include table of branes]]
 
@@ -244,6 +247,11 @@ A discussion that embeds this argument into the larger context of [[AdS-CFT dual
  {#Witten98}
 
 See also the references at _[[6d (2,0)-supersymmetric QFT]]_.
+
+
+### $\sigma$-Model description
+
+* Dmitri Sorokin, _Superbranes and Superembeddings_ ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
 
 
