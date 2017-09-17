@@ -206,19 +206,20 @@ Since by the [above discussion](#RelativeInftyConnectedness) $SynthDiff\infty Gr
 ### $\infty$-Lie algebras and deformation theory   
  {#StrucLieTheory}
 
-The discussion that goes here is at 
+Some discussion that goes here is at 
 
 * [[∞-Lie algebroid]].
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $X$ a [[smooth manifold]], write $T X \in L_\infty Algd \hookrightarrow [CartSp_{synthdiff}^{op}, sSet]$ for its [[tangent Lie algebroid]], regarded as a simplicial presheaf according to ...  and hence as a presentation for an object in $SynthDiff \infty Grpd$.
+Let $(\mathfrak{a} \to T X) \in L_\infty Algd \hookrightarrow [CartSp_{synthdiff}, sSet]$ be an [[L-∞ algebroid]] over a 
+[[smooth manifold]] $X$, regarded as a [[simplicial presheaf]] according to ...  and hence as a presentation for an object in $SynthDiff \infty Grpd$.
 
-We have an equialence
+We have an equivalence
 
 $$
-  \mathbf{\Pi}_{inf}(T X) \simeeq \mathbf{\Pi}_{inf}(X)
+  \mathbf{\Pi}_{inf}(\mathfrak{a}) \simeeq \mathbf{\Pi}_{inf}(X)
   \,.
 $$
 
@@ -227,26 +228,24 @@ $$
 +-- {: .proof}
 ###### Proof
 
-According to ...
+According to ... we have that $\mathfrak{a}$ is cofibrant in ... . Therefore we can compute $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq i_* i^* \mathfrak{a} \simeq \mathbb{L} ((-) \circ p) \mathbb{L} ((-) \circ i) \mathfrak{a} \simeq ((-) \circ i p ) \mathfrak{a} $.
+
+By ... we have for all $k \in \mathbb{N}$ that  $\mathfrak{a}_k = X \times \tilde D(n, k)$. Therefore $((-) \circ i p ) \mathfrak{a}_k = ((-) \circ i p ) X$ for all $k$. Therefore $((-) \circ i p ) \mathfrak{a} \simeq \mathbf{\Pi}_{inf}(X)$.
+
+
 
 =--
 
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_cor}
+###### Corollary
 
-Let $(\mathfrak{a} \to T X) \in L_\infty Algd \hookrightarrow [CartSp_{synthdiff}, sSet]$ an [[L-∞ algebroid]] over a 
-[[smooth manifold]] . Then 
-$\mathfrak{a}$ presents an $\infty$-Lie algebroid in 
-$SynthDiff \infty Grpd$ in the general abstract sense of 
-...  in that 
+Every [[L-∞ algebroid]] in the sense of ... is indeed 
+a _formal smooth $\infty$-groupoid_ in the sense of ...
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-=--
 
 ### Paths and geometric Postnikov towers 
   {#StrucPaths}
