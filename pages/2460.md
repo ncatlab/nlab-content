@@ -72,7 +72,7 @@ One can also look at localization with inverses just from one side:
 
 Universal localization of [[group rings]] is discussed in
 
-* M. Farber, P. Vogel, _The Cohn locaization if the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
+* [[M. Farber]], [[P. Vogel]], _The Cohn locaization of the free group ring_, Math. Proc.  Camb. Phil. Soc. (1992) 111, 433  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/fv.pdf))
 
 
 [[!redirects Cohn localization]]
