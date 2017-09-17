@@ -96,6 +96,10 @@ But see
 
 * Peter Cho, _Moduli in Exceptional SUSY Gauge Theories_ ([arXiv:hep-th/9712116](http://arxiv.org/abs/hep-th/9712116))
 
+### Chiral and non-chiral duals
+
+* P. Pouliot, _Chiral Duals of Non-Chiral SUSY Gauge Theories_ ([arXiv:hep-th/9507018](http://arxiv.org/abs/hep-th/9507018))
+
 
 ### Duality cascade
 
