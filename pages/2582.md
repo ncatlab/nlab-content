@@ -121,3 +121,7 @@ The classical notion of Whitehead tower is reviewed for instance as  example 4.2
 
 * [[Alan Hatcher]], _Algebraic Topology_ ([pdf](http://www.math.cornell.edu/~hatcher/AT/AT.pdf))
 
+A more detailed useful discussion happens to be in section 2.A, starting on p. 11 of 
+
+* [[Linus Kramer]], _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurface_ Memoirs of the American Mathematical Society number 752 ([web](http://books.google.com/books?id=SA8O6ihrDFkC&printsec=frontcover&hl=de&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false))
+
