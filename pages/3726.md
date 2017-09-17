@@ -32,7 +32,7 @@ The [[Whitehead tower]] construction produces $n$-connected objects.
 
 An [[object]] $X$ in an [[(∞,1)-topos]] $\mathbf{H}$ is called **$n$-connected** for $ -1 \leq n \in \mathbb{Z}$ if
 
-1. the [[terminal object|terminal]] morphism $X \to *$ is an [[effective epimorphism]];
+1. the [[terminal object|terminal]] morphism $X \to *$ is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]];
 
 1. all [[homotopy groups in an (∞,1)-topos|categorical homotopy groups]]
    equal to or below degree $n$ are trivial.
@@ -107,6 +107,25 @@ If the pullback of a morphism along an [[effective epimorphism]] is $n$-connecte
 
 This is [[Higher Topos Theory|HTT, prop. 6.5.1.16, item 6]].
 
+### Recursive characterization
+ {#RecursiveCharacterization}
+
++-- {: .num_prop #CharacterizationByDiagonal}
+###### Proposition
+
+A morphism $f : X \to Y$ is $n$-connected precisely if it is 
+an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] and the [[diagonal]] morphism into the [[(∞,1)-pullback]]
+
+$$
+  \Delta_f : X \to X \times_Y X
+$$
+
+is $(n-1)$-connected.
+
+=--
+
+This appears as [[Higher Topos Theory|HTT, prop. 6.5.1.18]].
+
 ### Factorization system
 
 +-- {: .num_prop}
@@ -122,6 +141,7 @@ This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A con
 
 ## Examples
 
+
 ### In $Top$
 
 In the the [[(∞,1)-category]] [[Top]] we have that an object is $n$-connected precisely if it is an [[n-connected topological space]]:
@@ -134,6 +154,80 @@ In the the [[(∞,1)-category]] [[Top]] we have that an object is $n$-connected 
 
 * a $\infty$-connected object is a [[contractible space]].
 
+### In $Grpd$
+ {#ExamplesInGrpd}
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f : X \to Y$ be a [[functor]] between [[groupoids]].
+Regarded as a morphism in [[∞Grpd]] $f$ is 0-connected precisely
+if it is an [[essentially surjective functor|essentially surjective]]
+and [[full functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As discussed there, an [[effective epimorphism in an (∞,1)-category|effective epimorphism]] in [[∞Grpd]] between 1-groupoids is precisely an
+[[essentially surjective functor]].
+
+So it remains to check that for an essentially surjective $f$, being
+0-connected is equivalent to being full.
+
+The [[homotopy pullback]] $X \times_Y X$ is given by the groupoid 
+whose objects are triples $(x_1, x_2 \in X, \alpha : f(x_1) \to f(x_2))$
+and whose morphisms are corresponding tuples of morphisms in $X$ making the
+evident square in $Y$ commute.
+
+By prop. \ref{CharacterizationByDiagonal} 
+it is sufficient to check that the [[diagonal]] functor $X \to X \times_Y X$ is
+(-1)-connected, hence, as before, essentially surjective, precisely if $f$ is full.
+ 
+First assume that $f$ is full. 
+Then for $(x_1,x_2, \alpha) \in X \times_Y X$
+any object, by [[full functor|fullness]] of $f$ 
+there is a morphism $\hat \alpha : x_1 \to x_2$ in $X$,
+such that $f(\hat \alpha) = \alpha$.
+
+Accordingly we have a morphism
+$(\hat \alpha,id) : (x_1, x_2) \to (x_2, x_2)$ in $X \times_Y X$ 
+
+$$
+  \array{
+     f(x_1) &\stackrel{f(\hat \alpha)}{\to}& f(x_2)
+     \\
+     \downarrow^{\mathrlap{\alpha}} && \downarrow^{\mathrlap{id}}
+     \\
+     f(x_2) &\stackrel{id}{\to}& f(x_2)
+  }
+$$
+
+to an object in the diagonal.
+
+Conversely, assume that the diagonal is essentially surjective. Then 
+for every pair of objects $x_1, x_2 \in X$ such that there is a morphism
+$\alpha : f(x_1) \to f(x_2)$ we are guaranteed morphisms
+$h_1 : x_1 \to x_2$ and $h_2 : x_2 \to x_2$ such that 
+
+$$
+  \array{
+    f(x_1) &\stackrel{f(h_1)}{\to}& f(x_2)
+    \\
+    \downarrow^{\mathrlap{\alpha}} && \downarrow^{\mathrlap{id}}
+    \\
+    f(x_2) &\stackrel{f(h_2)}{\to}& f(x_2)
+  }
+  \,.
+$$
+
+Therefore $h_2^{-1}\circ h_1$ is a preimage of $\alpha$ under $f$,
+and hence $f$ is full.
+
+=--
+
+See also [[(eso+full, faithful) factorization system]].
 
 ## References
 
