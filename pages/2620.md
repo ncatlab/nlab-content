@@ -85,4 +85,9 @@ For more along these lines see
 
 * [[Jeffrey Morton]], _Categorified Algebra and Quantum Mechanics_ ([arXiv](http://arxiv.org/abs/math/0601458))
 
+
+[[!redirects quantum harmonic oscillators]]
+
 [[!redirects harmonic oscillator]]
+[[!redirects harmonic oscillators]]
+
