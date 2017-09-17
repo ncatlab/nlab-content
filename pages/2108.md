@@ -187,6 +187,10 @@ For $(X, \omega)$ a [[symplectic manifold]], a **[[polarization]]** is a [[folia
 
 After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr-Sommerfeld [[leaf]]** of a polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]].
 
+### Metaplectic correction
+
+(...)
+
 ### Quantum state space
 
 
