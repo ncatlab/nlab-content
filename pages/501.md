@@ -118,6 +118,7 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[countable ordinal]]
 
+* [[finite CW-complex]], [[finite spectrum]]
 
 [[!redirects finite set]]
 [[!redirects finite sets]]
