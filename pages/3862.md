@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -151,6 +163,8 @@ See [[fermionic path integral]].
 
 
 ## Related concepts
+
+* [[density bundle]]
 
 [[!include square roots of line bundles - table]]
 
