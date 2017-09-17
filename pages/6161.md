@@ -371,6 +371,8 @@ Section 4.2 in
 * [[Brandon Williams]], _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
  {#Williams}
 
+* [[James Milne]], section 22 of _[[Lectures on Étale Cohomology]]_
+
 ### In generalized (co)homology
 
 See the corresponding references at _[[universal coefficient theorem]]_,
