@@ -95,3 +95,5 @@ about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/
 
 [[!redirects structured ring spectrum]]
 [[!redirects structured ring spectra]]
+
+[[!redirects symmetric monoidal smash product of spectra]]
