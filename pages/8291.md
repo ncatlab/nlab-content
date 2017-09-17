@@ -28,10 +28,10 @@ This is the dual notion of a _[[projective module]]_.
 
 Let $R$ be a [[commutative ring]] and  $C = R Mod$ the category of $R$-[[modules]]. We discuss [[injective modules]] over $R$ (see there for more).
 
-+-- {: .num_theorem}
++-- {: .num_theorem #BaerTheorem}
 ###### Proposition 
 **([[Baer's criterion]])**
-{#Baer}
+
 
 If the [[axiom of choice]] holds, 
 then a [[module]] $Q \in R Mod$ is an [[injective module]] precisely if for $I$ any left $R$-[[ideal]] regarded as an $R$-module, any [[homomorphism]] $g : I \to Q$ in $C$ can be extended to all of $R$ along the inclusion $I \hookrightarrow R$.
