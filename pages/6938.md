@@ -5,6 +5,8 @@
 
 * [[propositions as types]], [[inductive type]], [[W-type]]
 
+* [[function type]]
+
 **[[dependent type]]**, [[dependent type theory]]
 
 * [[dependent sum type]], [[dependent product type]] 
