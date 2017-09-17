@@ -485,7 +485,7 @@ We now show that every localization in the first sense is indeed of the second k
 
 In the context of left proper, cofibrantly generated simplicial model categories, 
 
-for $C_{loc}$ a left Bousfield localization of $C$ (i.e. a structure with the same cofibrations as and more weak equivalences), there is a set $S \subset Mor(C)$ such that
+for $C_{loc}$ a left Bousfield localization of $C$ (i.e. a structure with the same cofibrations as $C$ and more weak equivalences), there is a set $S \subset Mor(C)$ such that
 
 $$
   C_{loc} = L_S C
@@ -572,7 +572,7 @@ This is due to Hirschhorn.
 +-- {: .num_prop }
 ###### Proposition (Bousfield localization is indeed a localization)
 
-If the left Bousfield localization exists, i.e. of $L_S C$ is indeed a [[model category]] with the above definitions of cofibrations and weak equivalences, then it is indeed a [[localization of a model category]] in that there is a _left Quillen functor_
+If the left Bousfield localization exists, i.e. $L_S C$ is indeed a [[model category]] with the above definitions of cofibrations and weak equivalences, then it is indeed a [[localization of a model category]] in that there is a _left Quillen functor_
 
 $$
   j : C \to L_S C
