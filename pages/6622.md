@@ -47,13 +47,6 @@ although $D\times(D\times D)$ equals $(D\times D)\times D$, the
 associator $\alpha_{D,D,D}$ (defined as usual to commute with the
 projections) cannot be the identity.
 
-+-- {: .query}
-It would be nice to see
-an example of a monoidal category in which $\alpha_{x,y,z}$ and
-$\alpha_{x',y',z'}$ are parallel and different, for some $\langle
-x,y,z\rangle\neq \langle x',y',z'\rangle$
-=--
-
 So, in order for coherence to work, we must change it to the statement
 that every ''formal'' diagram commutes.  
 The formal diagrams that commute will be described through certain
