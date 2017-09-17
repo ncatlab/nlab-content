@@ -154,17 +154,17 @@ To illustrate the full breadth of this generalization, here are a few examples:
 
 * the category [[FinVect]], consisting of finite-dimensional vector spaces over $k$
 
-* the category of [[representation|representations]] of any [[group]]
+* the category of [[representation|representations]] of any [[group]] on vector spaces (or finite-dimensional vector spaces) over $k$
 
-* the category of [[super vector space|super vector spaces]], [[graded vector space|super vector spaces]] or [[chain complexes]]
+* the category of [[super vector space|super vector spaces]], [[graded vector space|graded vector spaces]] or [[chain complexes]] over $k$
 
 * for $k = \mathbb{R}$ or $\mathbb{C}$, the category of finite-dimensional real or complex [[vector bundle|vector bundles]] over any [[topological space]], or smooth vector bundles over any smooth [[manifold]]
 
-* the category of finite-dimensional algebraic vector bundles over any [[algebraic variety]] (or more generally, [[scheme]] or [[algebraic stack]]) over $k$
+* the category of algebraic vector bundles over any [[algebraic variety]] (or more generally, [[scheme]] or [[algebraic stack]]) over $k$
 
 * the category of [[coherent sheaves]] of vector spaces over any algebraic variety (or scheme or algebraic stack) over $k$
 
-These examples can be hybridized, and thus they multiply indefinitely: for example, we could take coherent sheaves of chain complexes, or vector bundles on which a group acts, etc..  
+These examples can be hybridized, and thus they multiply indefinitely: for example, we could take coherent sheaves of chain complexes, or vector bundles equipped with a group action, and so on.  
 
 In the following subsections, we explain how to define Schur functors on any category of this sort.  A somewhat novel feature of our treatment is that we _do not require the theory of Young diagrams_ to define and study Schur functors.  
 
@@ -376,7 +376,7 @@ With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transform
 
 +-- {: .query}
 
-To be filled in.
+We need a 'tin can diagram' here!
  
 =-- 
 
@@ -389,9 +389,38 @@ $$U: SymMonLinCauch \to Cat$$
 is the forgetful 2-functor. A **morphism** of Schur functors is a modification between such pseudonatural transformations. 
 =-- 
 
-What this proposed definition makes manifestly obvious is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections. 
+What this proposed definition makes manifestly obvious is that _Schur functors are closed under composition_. This provides a satisfying conceptual explanation of _plethysm_, as we will explore in the next two sections.  However, we should first check that this proposed definition gives a category of Schur functors equivalent to the category $Schur$ defined earlier!  
 
-However, we must begin by checking that this proposed definition is equivalent to the more familiar one given earlier!
+Before launching into the proof, it is worth looking at an easier problem where we replace categories by sets and replace symmetric monoidal linear Cauchy-complete categories by commutative rings.  
+So, instead of $Cat$ let us consider $Set$, and instead of $SymMonLinCauch$ let us consider $CommRing$.  There is a forgetful functor 
+
+$$ U : CommRing \to Set \, , $$
+
+and the set of natural transformations from this functor turns out to be $\mathbb{Z}[x]$, the set of polynomials in one variable with integer coefficients.  In fact $\mathbb{Z}[x]$ is the free commutative ring on one generator.  Similarly, the category $Schur$ will turn out to be the free symmetric monoidal linear Cauchy-complete category on one generator.  And indeed, the proofs follow the same pattern.  So let us start by sketching the proof of the easier result.
+
+First, we note that 
+
+$$ U : CommRing \to Set  $$
+
+has a left adjoint
+
+$$ F : Set \to CommRing $$ 
+
+sending each set to the free commutative ring on that set.  The free commutative ring on a 1-element set is
+
+$$ F(1) \cong \mathbb{Z}[x] $$
+
+and homomorphisms from $\mathbb{Z}[x]$ to any commutative ring $R$ are in one-to-one correspondence with elements of the underlying set $U(R)$, since
+
+$$ U(R) = hom(1, U(R)) = hom(F(1), R) $$
+
+So, we say $F(1)$ [[representable functor|represents]] the functor $U$.   As a consequence, the set of natural transformations from $U$ to itself is isomorphic to the underlying set $U(F(1))$:
+
+$$hom(U,U) \simeq hom(hom(F(1), -), hom(F(1), -)) \simeq hom(F(1), F(1)) \simeq U(F(1))$$ 
+
+where in the second step we use the [[Yoneda lemma]] and in the third step we use the adjointness between $U$ and $F$.  So, the set of natural transformations from $U$ to itself is (the underlying set of) $\mathbb{Z}[x]$.
+
+We follow this same strategy in the proof to come. 
 
 ## Representability ##
 
@@ -401,7 +430,9 @@ To build a bridge from abstract Schur functors as pseudonatural transformations 
 ######Theorem 
 The underlying 2-functor 
 $$U: SymMonLinCauch \to Cat$$ 
-is representable, and in fact represented by $\widebar{k \mathbb{P}}$.
+is represented by $\widebar{k \mathbb{P}}$.  In other words:
+
+$$   U(-) \simeq hom(-, \widebar{k \mathbb{P}}) $$
  
 =-- 
 
