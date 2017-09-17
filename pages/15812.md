@@ -13,7 +13,7 @@ presented the hypothesis that [[atoms]] ([[elementary particles]]) are fundament
 
 Review and discussion includes
 
-* Samuel Lomonaco, _The modern legacies of Thomson'satomic vortex theory in classical electrodynamics_ [pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf)
+* Samuel Lomonaco, _The modern legacies of Thomson's atomic vortex theory in classical electrodynamics_ [pdf](http://www.csee.umbc.edu/~lomonaco/kelvin/kelvin23.pdf)
 
 category: reference
 
