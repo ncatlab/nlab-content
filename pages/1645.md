@@ -237,3 +237,5 @@ An interpretation of gauge anomalies as failures of [[Hamiltonian]]s to have [[s
 
 [[!redirects gauge anomaly]]
 [[!redirects gauge anomalies]]
+
+[[!redirects quantum anomaly cancellation]]
