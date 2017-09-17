@@ -56,6 +56,7 @@ For instance around definition IX.3. 2 of
 {#MacLaneMoerdijk}
 
 
+[[!redirects sober]]
 [[!redirects sober topological space]]
 [[!redirects sober topological spaces]]
 [[!redirects sober topology]]
