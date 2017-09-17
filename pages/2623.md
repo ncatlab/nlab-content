@@ -36,9 +36,9 @@ The combinatorial Hopf algebraic approach to perturbative quantum field theory ,
 
 starts with the observation that the BPHZ-procedure can be understood 
 
-* by noticing that there is secretly a natural [[group]] structure< on the collection of amplitudes;
+* by noticing that there is secretly a natural [[group]] structure on the collection of amplitudes;
 
-* which is induced from the fact that there is secretly a natural [[Hopf algebra]] structure< on the collection of graphs;
+* which is induced from the fact that there is secretly a natural [[Hopf algebra]] structure on the collection of graphs;
 
 * and with respect to which the BPHZ-procedure is simply the [[Birkhoff decomposition]] of group valued functions on the circle into a divergent and a finite part.
 
@@ -128,7 +128,7 @@ In his nicely readable
 
 * [[Walter von Suijlekom]], _Renormalization of gauge fields using Hopf algebra_, ([arXiv](http://arxiv.org/abs/0801.3170)) 
 
-he reviews the central idea: the [[BRST]] formulation of [[Yang-Mills theory]] manifests itself at the level of the resulting _bare_ i.e. unnormalized amplitudes in certain relations satisfied by these, the **Slavnov-Taylor identies** .
+he reviews the central idea: the [[BRST]] formulation of [[Yang-Mills theory]] manifests itself at the level of the resulting _bare_ i.e. unnormalized amplitudes in certain relations satisfied by these, the **Slavnov-Taylor identities** .
 
 Renormalization of gauge theories is consistent only if these relations are still respected by renormalized amplitudes, too. We can reformulate this in terms of Hopf algebra now:
 
@@ -138,7 +138,6 @@ Walter von Suijlekom proves this to be the case for Slavnov-Taylor in his [theor
 
 As a payoff, he obtains a very transparent way to prove the generalization of **Dyson's formula** to nonabelian gauge theory, which expresses renormalized Green's functions in terms of unrenormalized Green's functions "at bare coupling". This is his [corollary 12 on p. 13](http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.3170v1.pdf#page=12).
 
-In the context of [[BV theory|BRST-BV quantization]] these statements are subsumed, he says, by the structure encoded in the Hopf ideal which corresponds to imposing the BV-master equation.
-See also
+In the context of [[BV theory|BRST-BV quantization]] these statements are subsumed, he says, by the structure encoded in the Hopf ideal which corresponds to imposing the BV-master equation.  See also
 
 * W. van Suijlekom: _Representing Feynman graphs on BV-algebras_ , ([arXiv](http://arxiv.org/abs/0807.0999))
