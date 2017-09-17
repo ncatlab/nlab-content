@@ -133,7 +133,6 @@ This plays a role in the [[quantization]] process that yields [[FQFT]]s. For an 
 
 > more details, and more polishing later...
 
-## References
+## Related entries
 
-* Transgression to Loop Spaces and its Inverse, I: Diffeological Bundles and Fusion Maps, Konrad Waldorf, [arxiv](http://arxiv.org/abs/0911.3212)
-* Transgression to Loop Spaces and its Inverse, II: Gerbes and Fusion Bundles with Connection, Konrad Waldorf [arxiv](http://arxiv.org/abs/1004.0031)
+* [[transgression of bundle gerbes]]
