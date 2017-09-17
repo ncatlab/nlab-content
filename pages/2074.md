@@ -470,7 +470,11 @@ There is another such model structure, with [[Cartesian fibration]]s replaced ev
 
 
 
-### Marked anodyne morphisms
+### Marked anodyne morphisms {#MarkedAnodyne}
+
+A class of morphisms with [[left lifting property]] again some class of fibrations is usually called _anodyne_ . For instance a left/right/inner anodyne morphism of simplicial sets is one that has the left lifting property against all [[left fibration|left/right fibration]]s or [[inner fibration]]s, respectively.
+
+The class of _marked anodyne_ morphisms in $sSet^+$ as defined in the following is something that comes close to having the left lifting property against all Cartesian fibrations. It does not quite, but is still useful for various purposes.
 
 +-- {: .un_defn}
 ###### Definition ([[Higher Topos Theory|HTT, Def 3.1.1.1]])
@@ -510,26 +514,68 @@ The collection of **marked anodyne morphisms** in $SSet^+/S$ is the class of mor
 
 =--
 
+The crucial property of marked anodyne morphisms is the following characterization of morphisms that have the right lifting property with respect to them.
+
 +-- {: .un_prop}
-###### Proposition (HTT, prop. 3.1.1.6)
+###### Proposition 
 
 
 A morphism $p : X \to S$ in $SSet^+$ has the [[right lifting property]] with respect to the class $An^+$ of marked anodyne maps precisely if
 
 1. $p$ is an [[inner fibration]]
 
-1. an edge $e$ of $X$ is marked precisely if it is a [[Cartesian morphism]] and $p(e)$ is marked in $S$
+1. an edge $e$ of $X$ is marked precisely if it is a $p$-[[Cartesian morphism]] and $p(e)$ is marked in $S$
 
 1. for every object $y$ of $X$ and every marked edge $\bar e : \bar x \to p(y)$ in $S$ there exists a marked edge $e : x \to y$ of $X$ with $p(e) = \bar e$.
 
 =--
 
-+-- {: .un_remark}
-###### Remark (HTT, prop. 3.1.3.4)
++-- {: .proof}
+###### Proof
 
-Every morphism $f : X \to Y$ in $SSet^+/S$ whose underlying morphism in $SSet^+$ is marked anodyne is a Cartesian equivalence.
+This is [[Higher Topos Theory|HTT, prop. 3.1.1.6]]
 
 =--
+
++-- {: .un_remark}
+###### Remark 
+
+So the failure of a morphism $(X, E_X \to (S,E_S)$ in $sSet^+$ with RLP against marked anodyne morphisms to be a Cartesian fibration is only governed by possibly missing markings in $E_S$.
+
+In particular if _all_ morphisms in $S$ are marked, then $(X,E_X) \to S^#$ has the right lifting property with respect to all marked anodyne morphisms precisely if the underlying morphism $X\to S$ is a [[Cartesian fibration]] and precisely the [[Cartesian morphism]]s are marked in $X$, $(X,E_X) = X^\sharp$. So precisely if it is a fibrant object in the model structure on $sSet^+/S$.
+
+=--
+
+See also [[Higher Topos Theory|HTT, remark. 3.1.1.11]].
+
+The following stability property of marked anodyne morphisms is important in applications. Recall that a cofibration in $sSet^+$ is a morphism whose underlying morphism in [[sSet]] is a [[monomorphism]].
+
++-- {: .un_prop}
+###### Proposition 
+**(stability under smash product with cofibrations)**
+
+Marked anodyne morphisms are stable under "[[smash product]]" with cofibrations:
+
+for $f : X \to X'$ marked anodyne, and $g : Y \to Y'$ a cofibration, the induced morphism 
+
+$$
+  (X \times Y') \coprod_{X \times Y} (X' \times Y)
+  \to
+  X' \times Y'
+$$ 
+
+out of the [[pushout]] in $sSet^+$ is marked anodyne.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is [[Higher Topos Theory|HTT, prop. 3.1.2.3]].
+
+=--
+
+
 
 ### As a model for the $(\infty,1)$-category of $(\infty,1)$-categories
 
