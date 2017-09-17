@@ -2,7 +2,7 @@ Let $F \colon C \to D$ be a [[functor]], and suppose a collection of objects $\{
 
 $$\pi_i \colon \prod_i c_i \to c_i.$$ 
 
-We say $F$ _preserves_ this product if the collection of maps 
+We say $F$ [[preserved limit|preserves]] this product if the collection of maps 
 
 $$F(\pi_i): F(\prod_i c_i) \to F(c_i)$$ 
 
