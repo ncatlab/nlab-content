@@ -74,7 +74,7 @@ The dual notion is _[[coseparator]]_.
 [[!redirects separating set]]
 [[!redirects strong separator]]
 [[!redirects separators]]
-[[cogenerator]]
+
 
 
 [[!redirects generating family]]
