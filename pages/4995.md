@@ -202,13 +202,13 @@ This is proven [here](http://ncatlab.org/nlab/show/reflective+sub-%28infinity,1%
 A reflective embedding 
 
 $$
-  coDisc : \mathbf{B} \stackrel{\overset{\tilde \Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}} \mathbf{H}
+  coDisc : \mathbf{B}_{cod} \stackrel{\overset{\tilde \Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}} \mathbf{H}
 $$
 
 and a coreflective embedding 
 
 $$
-  Disc : \mathbf{B} \stackrel{\overset{Disc}{\hookrightarrow}}{\underset{\Gamma}{\leftarrow}} \mathbf{H}
+  Disc : \mathbf{B}_{disc} \stackrel{\overset{Disc}{\hookrightarrow}}{\underset{\Gamma}{\leftarrow}} \mathbf{H}
 $$
 
 fit into a single [[adjoint triple]]
@@ -227,20 +227,74 @@ $$
   \mathbf{B}
 $$
 
-(hence that the coreflector $\tilde\Gamma$ of $Disc$ coincides with reflector $\Gamma$ of $coDisc$) precisely if for the [[unit of an adjunction|unit]] and counit given by  lemma \ref{ReflectiveEmbeddingInternally} we have that
+(hence the coreflector $\tilde\Gamma$ of $Disc$ coincides with reflector $\Gamma$ of $coDisc$) precisely if for the [[unit of an adjunction|unit]] and counit given by  lemma \ref{ReflectiveEmbeddingInternally} we have that
 
 1. $coDisc \tilde \Gamma (Disc \Gamma X \to X)$
 
 1. $Disc \Gamma (X \to coDisc \tilde \Gamma X)$
 
-are [[equivalence in an (∞,1)-category|equivalences]].
+are [[equivalence in an (∞,1)-category|equivalences]] for all objects $X \in \mathbf{H}$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-(...)
+It is clear that if we have an [[adjoint triple]], then the indicated equivalences are implied. We discuss the converse.
+
+First notice that the two embeddings combine to an adjunction
+
+$$
+  \mathbf{B}_{disc}
+   \stackrel{\overset{Disc}{\hookrightarrow}}{\underset{\Gamma}{\leftarrow}}
+  \mathbf{H}
+   \stackrel{\overset{\tilde \Gamma}{\to}}{\underset{coDisc}{\hookleftarrow}}
+  \mathbf{B}_{cod}    
+  \,.
+$$
+
+Then the equivalence $coDisc \tilde \Gamma Disc \Gamma X \stackrel{\simeq}{\to} coDisc \tilde \Gamma X$ applied to a codiscrete object $X := coDisc A$ gives that $coDisc$ of the counit of this composite adjunction is an equivalence 
+
+$$
+  coDisc \tilde \Gamma Disc \Gamma coDisc A
+    \stackrel{\simeq}{\to}
+  coDisc \tilde \Gamma coDisc A
+    \stackrel{\simeq}{\to}
+  coDisc A
+$$
+
+for all $A$, and since $coDisc$ is full and faithful, so is the counit 
+
+$$
+  \tilde \Gamma Disc \Gamma coDisc A
+    \stackrel{\simeq}{\to}
+  \tilde \Gamma coDisc A
+    \stackrel{\simeq}{\to}
+  A  
+$$
+
+itself. Similarly, the second assumption implies that the unit of the adjunction is an equivalence. Therefore the two assumptions together imply that the adjunction itself exhibits an [[equivalence of (∞,1)-categories]] $\mathbf{B}_{disc} \simeq \mathbf{B}_{cod}$.
+
+Using this we then find for each $X \in \mathbf{H}$ a composite natural equivalence
+
+$$
+  Disc \tilde \Gamma X
+   \stackrel{\simeq}{\to}
+  Disc \Gamma coDisc \tilde \Gamma X
+   \stackrel{\simeq}{\to}
+  Disc \Gamma X
+$$
+
+where the first morphism uses the above equivalence on the codiscrete object $\tilde X$ and the second is from one of the two assumption.
+
+Since $Disc$ is full and faithful, this mean that we have equivalences
+
+$$
+  \tilde \Gamma X \simeq 
+  \Gamma X
+$$
+
+natural in $X$, hence that $\tilde \Gamma \simeq \Gamma$.
 
 =--
 
@@ -263,7 +317,15 @@ such that for all $Y \in \mathbf{B} \hookrightarrow \mathbf{H}$ the induced morp
 
 are equivalences, as indicated.
 
-The reflective embedding $coDisc$ is analogously equivalent to the existence for every $X$ of a morphism $X \to \mathbf{Q}X $, such that, etc.
+The reflective embedding $coDisc$ is analogously equivalent to the existence for every $X$ of a morphism $X \to #X$, such that, etc.
+
+and such that for all $X \in \mathbf{H}$ the morphisms
+
+1. $#(\mathbf{\flat} X \to X)$
+
+1. $\mathbf{\flat}(X \to # X)$
+
+are equivalences.
 
 The fact that $\Pi$ preserves the terminal object is equivalent to the morphism $* \to \mathbf{\Pi}(*)$ being an equivalence.
 
