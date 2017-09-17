@@ -55,14 +55,11 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [Liber Mathematicae](http://www.libermath.org) -- site under construction, featuring a new free online journal and some expositional math resources
 
 * [Manifold Atlas Project](http://manifoldatlas.uni-bonn.de/index.php/Main_Page)
-
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
-
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
-
+* [Online Encyclopedia of Integer Sequences](https://oeis.org)
 * [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
-
-* [The nLab](http://ncatlab.org/), or $n$-Category Lab, which you are reading right now!
+* [The nLab](http://ncatlab.org), or $n$-Category Lab, which you are reading right now!
 
 * [The Tricki](http://www.tricki.org)
 
