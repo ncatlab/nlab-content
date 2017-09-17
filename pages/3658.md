@@ -17,10 +17,10 @@ this page is a draft, see:
 ...will go here
 
 ## Equivalence to Euclidean Field Theory
-see [[Osterwalder-Schrader theorem]]
+see [[Osterwalder–Schrader theorem]]
 
-## Equivalence to the Haag-Kastler Axioms
-...aspects of this will go here, see [[Haag-Kastler axioms]]
+## Equivalence to the Haag--Kastler Axioms
+...aspects of this will go here, see [[Haag–Kastler axioms]]
 
 ## References
 The classic reference already listed by Wikipedia is of course:
