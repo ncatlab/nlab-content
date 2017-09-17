@@ -62,15 +62,13 @@ is **cohesive** or  **a topos of cohesion** if it has the following [[stuff, str
 
 1. it is _local_ and _connected_ in the following sense:
 
-   1. it is a [[locally connected topos]]: there exists a further [[left adjoint]] $(f_! \dashv f^*)$;
+   1. it is a [[locally connected topos]]: there exists a further [[left adjoint]] $(f_! \dashv f^*)$ satisfying a suitable condition;
 
-   1. it is a [[connected topos]]: the functor $f_!$ preserves the [[terminal object]];
+   1. it is a [[connected topos]]: the functor $f_!$ preserves the [[terminal object]], or equivalently $f^*$ is [[fully faithful functor|fully faithful]];
 
    1. it is _strongly connected_ : $f_!$ preserves even all [[finite]] [[product]]s;
 
-   1. it is a [[local topos]]: there exists a further [[right adjoint]] $(f_* \dashv f^!)$;
-
-   1. this makes $S \stackrel{f^!}{\hookrightarrow} E$ a [[subtopos]]: $f^!$ is a [[full and faithful functor]];
+   1. it is a [[local topos]]: there exists a further [[right adjoint]] $(f_* \dashv f^!)$ (this is sufficient for $f$ to be local, since we have already assumed it to be connected);
 
    so that in total we have a quadruple of [[adjoint functor]]s
    
@@ -82,7 +80,9 @@ is **cohesive** or  **a topos of cohesion** if it has the following [[stuff, str
     \;
    $$
 
-1. $f_!$ is continuous in that for all $s \in S$ and $e \in E$ the natural morphism
+   Note that $f$ being local implies, in particular, that $S \stackrel{f^!}{\hookrightarrow} E$ is a [[subtopos]]: $f^!$ is a [[full and faithful functor]];
+
+1. $f_!$ is "continuous" in that for all $s \in S$ and $e \in E$ the natural morphism
 
    $$
      f_! (e^{f^* s}) \stackrel{\simeq}{\to} (f_!(e))^s
