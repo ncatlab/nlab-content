@@ -28,7 +28,7 @@ A _sylleptic 3-group_ is a [[3-group]] eqipped with the following equivalent [[s
 
 1. Regarded as a [[monoidal 2-category]], $G$ is a [[sylleptic monoidal 2-category]].
 
-1. The [[A-∞ algebra]]/[[E1-algebra]] structure on $G$ refines to an [[E4-algebra]] structure.
+1. The [[A-∞ algebra]]/[[E1-algebra]] structure on $G$ refines to an [[E3-algebra]] structure.
 
 1. $G$ is a [[k-tuply groupal n-groupoid|3-tuply monoidal 2-groupoid]].
 
@@ -38,6 +38,21 @@ A _sylleptic 3-group_ is a [[3-group]] eqipped with the following equivalent [[s
 
 ## Related concepts
 
-* [[k-tuply groupal n-groupoid]]
+
+* [[∞-groupd]], [[k-tuply groupal n-groupoid]]
+
+* [[braided ∞-group]],
+
+  * [[braided 2-group]]
+
+  * [[braided 3-group]]
+
+* [[sylleptic ∞-group]]
+
+  * [[sylleptic 3-group]]
+
+* [[abelian ∞-group]]
+
+  * [[symmetric 2-group]]
 
 [[!redirects syllectic 3-groups]]
