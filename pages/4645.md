@@ -1071,7 +1071,7 @@ $$
   \,.
 $$
 
-In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-stack (on [[CartSp]]) or $\infty$-prestack (on [[Diff]]) $G TrivBund(-)$ of _trivial_ $G$-principal bundles, and of $\mathbf{B}G_{conn}$ correspondingly as trivial $G$-principal bundles with (non-trivial) connection $G TrivBund_{\nabla}(- )$. In this sense the statement that $\infty$-connections are cocycles with coefficients in some $\mathbf{B}G_{conn}$ is a tautology. The real questions are therefore:
+In the language of [[∞-stack]]s we may think of $\mathbf{B}G$ as the $\infty$-stack (on [[CartSp]]) or $\infty$-prestack (on [[Diff]]) $G TrivBund(-)$ of _trivial_ $G$-principal bundles, and of $\mathbf{B}G_{conn}$ correspondingly as the object $G TrivBund_{\nabla}(- )$ of  trivial $G$-principal bundles with (non-trivial) connection. In this sense the statement that $\infty$-connections are cocycles with coefficients in some $\mathbf{B}G_{conn}$ is a tautology. The real questions are:
 
 1. What is $\mathbf{B}G_{conn}$ in concrete formulas?
 
@@ -1112,18 +1112,42 @@ Taken together, these constructions allow us to express a good deal of the gener
 
 #### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
 
-There are different equivalent definitions of the classical notion of a connection. One that is useful for our purposes is that a connection is a rule for [[parallel transport]] along paths. We define a smooth groupoid of paths in $X$:
+There are different equivalent definitions of the classical notion of a connection. One that is useful for our purposes is that a connection $\nabla$ on a $G$-principal bundle $P \to X$ is a rule $tra_\nabla$ for [[parallel transport]] along paths: a rule that assigns to each path $\gamma : [0,1] \to X$ a moprhism $tra_\nabla(\gamma) : P_x \to P_y$ between the fibers of the bundle above the endpoints of these paths, in a compatible way:
+
+
+$$
+  \array{
+    P_x &\stackrel{tra_\nabla(\gamma)}{\to}& P_y
+    &\stackrel{\gamma'}{\to}& P_z &&& P
+    \\
+    && && \downarrow
+    \\
+    x &\stackrel{\gamma}{\to}& y &\stackrel{\gamma'}{\to}& z
+    &&&
+    X
+  }    
+  \,.
+$$
+
+In order to formalize this, we introduce a [[diffeological space|doffeological]] [[Lie groupoid]] to be called the [[path groupoid]] of $X$.
 
 +-- {: .un_prop}
 ###### Definition
 
-For $X$ a [[smooth manifold]] let $[I,X]$ be the space of smooth maps $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say a $U$-parameterized smooth family of points in $[I,X]$ is a smooth map $U \times I \to X$.
+For $X$ a [[smooth manifold]] let $[I,X]$ be the set of [[smooth function]]s $I = [0,1] \to X$. For $U$ a [[Cartesian space]], we say that _a $U$-parameterized smooth family of points in $[I,X]$_ is a smooth map $U \times I \to X. (This makes $[I,X]$ a [[diffeological space]]).
 
 Say a path $\gamma \in [I,X]$ has _sitting instants_ if it is constant in a neighbourhood of the boundary $\partial I$. Let $[I,P]_{si} \subset [I,P]$ be the subset of paths with sitting instants. 
 
-Let $[I,X]_{si}^{th} \subset [I,X]_{si}$ be the set of equivalence classes where two paths are regarded as equivalent  if they are cobounded by a smooth [[thin homotopy]].
+Let $[I,X]_{si} \to [I,X]_{si}^{th}$ be the projection to the set of [[equivalence class]]es where two paths are regarded as equivalent if they are cobounded by a smooth [[thin homotopy]].
 
-Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that comes from a $U$-family of representatives in $[I,X]_{si}$.
+Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that comes from a $U$-family of representatives in $[I,X]_{si}$ under this projection. (This makes also $[I,X]_{si}^{th}$ a [[diffeological space]].)
+
+=--
+
+The passage to the subset and qotient of the set of all smooth paths in the above definition are essentially the minimal operation to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
+
++-- {: .un_prop}
+###### Definition
 
 The **path groupoid** $\mathbf{P}_1(X)$ is the groupoid
 
@@ -1131,7 +1155,15 @@ $$
   \mathbf{P}_1(X) = ([I,X]_{si}^{th} \stackrel{\to}{\to} X)
 $$
 
-with source and target maps given by endpoint evaluation and composition given by concatenation along any orientation preserving isomorphism $[0,1] \to [0,2]$.
+with source and target maps given by endpoint evaluation and composition given by concatenation of classes $[\gamma]$ of paths along any orientation preserving isomorphism $[0,1] \to [0,2] \simeq [0,1] \coprod_{1,0} [0,1]$ of any of their representatives
+
+$$
+  [\gamma_2] \circ [\gamma_1] : [0,1]
+  \to [0,1] \coprod_{1,0} [0,1]
+  \stackrel{(\gamma_2 , \gamma_1)}{\to}
+  X
+  \,.
+$$
 
 This becomes an [[internal groupoid]] in [[diffeological spaces]] with the above $U$-families of smooth paths. We regard it as a groupoid-valued presheaf
 
@@ -1141,6 +1173,8 @@ $$
 $$
 
 =--
+
+
 
 A smooth functor $\mathbf{P}_1(X) \to \mathbf{B}G$ sends each (thin-homotopy class of a) path to an element of the group $G$, such that composite paths map to products of group elements and such that $U$-families of smooth paths induce smooth maps $U \to G$ of elements. 
 
