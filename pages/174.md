@@ -31,7 +31,7 @@ There are two fundamentally different concrete realizations of this somewhat vag
 
 ### Boundary conditions or D-branes
 
-#### In terms of the algebraic datat of the QFT on the worldvolume
+#### In terms of the algebraic data of the QFT on the worldvolume
 
 An abstractly defined $n$-dimensional [[quantum field theory]] is a consistent assignment of [[state]]-space and correlators to $n$-dimensional [[cobordism]]s with certain structure (topological structure, conformal structure, Riemannian structure, etc. see [[FQFT]]/[[AQFT]]). In an _open-closed QFT_ the cobordisms are allowed to have boundaries. 
 
@@ -63,7 +63,7 @@ the 2d cobordisms with boundary on which the theory defined by $A \in \mathcal{C
 
 So in this abstract algebraic formulation of QFT on the worldvolume, a brane is just the datum assigned by the QFT to the boundary of a cobordism. But abstractly defined QFTs may arise from [[quantization]] of [[sigma model]]s. This gives these boundary data a geometric interpretation in some space. This we discuss in the next section.
 
-##### In $2d$ TCFT
+##### In $2d$ TFT
 
 Another case where the branes of a QFT are under good mathematical control is [[TCFT]]: the [[(infinity,1)-category]]-version of a 2d [[TQFT]].
 
