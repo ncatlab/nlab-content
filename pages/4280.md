@@ -1,0 +1,43 @@
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
+
+## Idea ##
+This page will collect a few notions and facts about representations of [[C-star algebras]] that are of importance to [[AQFT]]. Maybe some of those will be moved to their own page in the future...
+
+In [[AQFT]] the observables are given by a [[causal net of algebras]], usually $C^*-$algebras. A concrete physical system corresponds to a [[state]] of the algebra of all observables, which leads, via the [[GNS-construction]], to a representation of this algebra on a concrete Hilbert-space. In this way the familiar picture of [[quantum mechanics]] reappears. The interpretation of states and their representation as modelling concrete physical systems means that a systematic study of all representation of a given algebra of observables is central to [[AQFT]].
+
+## Definition ##
++-- {: .un_def}
+###### Definition
+A **representation** of a $C^*-algebra$ is a *-homomorphismus of the algebra to the [[bounded operators]] on a [[Hilbert space]].
+=--
+
+Note that the _continuity_ is not an axiom, but a theorem, it follows from the algebraic properties.
+
++-- {: .un_def}
+###### Definition
+A representation is **faithful** if its kernel is trivial.
+=--
+
++-- {: .un_def}
+###### Definition
+Given two representations $\pi_1$ on $H_1$ and $\pi_2$ on $H_2$, if there is a [[unitary operator]] $U: H_1 \to H_2$ such that $U \pi_1 = \pi_2 U$ then the representations are **unitarily equivalent**. A linear map $U$ (not necessarily unitary) having this property is called an **intertwiner** or an **intertwining map**. If there is no nontrivial intertwiner the two representations $\pi_1$ and $\pi_2$ are called **disjoint** (or totally / completley different).
+=--
+
+Actually the term intertwiner is often used in a more general sense, see for example
+
+* Wikipedia: [equivariant map](http://en.wikipedia.org/wiki/Intertwiner) 
+
+In the context of [[AQFT]] intertwiner is mostly used in the more specific sense as defined here.
+
+From the physical viewpoint unitarily equivalent representations describe the same system, so that the classification of not unitarily equivalent representations is an important topic.
+
+## References ##
+
+See [[operator algebras]]
+
+[[!redirects representations of C-star algebras]]
+[[!redirects intertwiner]]
+[[!redirects intertwiners]]
