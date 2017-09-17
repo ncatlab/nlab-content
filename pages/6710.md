@@ -247,9 +247,13 @@ A canonical textbook reference is
 * H.B. Lawson and M.-L. Michelson, _Spin Geometry_ , Princeton University Press, Princeton, NJ, (1989)
 
 
-### As anomaly cancellation in physics
+### As anomaly cancellation in type II string theory
 
-The origin of ([[twisted spin^c structure|twisted]]) $Spin^c$-structures on the [[worldvolume]] of [[D-brane]]s in [[type II string theory]] is
+That the $U(1)$-[[gauge field]] on a [[D-brane]] in [[type II string theory]] in the absense of a [[B-field]] is rather to be regarded as part of a $spin^c$-structure was maybe first observed in 
+
+* [[Edward Witten]], _Baryons and Branes In Anti de Sitter Space_, JHEP 9807:006 (1998) ([arXiv:hep-th/9805112](http://arxiv.org/abs/hep-th/9912086)).
+
+The [[twisted spin^c structure]] (see there for more details) on the [[worldvolume]] of [[D-branes]] in the presence of a nontrivial [[B-field]] was discussed in
 
 * [[Daniel Freed]], [[Edward Witten]], _Anomalies in String Theory with D-Branes_ ([arXiv:hep-th/9907189](http://arxiv.org/abs/hep-th/9907189))
 
