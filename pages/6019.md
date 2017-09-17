@@ -40,6 +40,8 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
 [[!redirects worldsheet]]
 [[!redirects worldvolumes]]
 
+[[!redirects worldlines]]
+
 [[!redirects world line]]
 [[!redirects world volume]]
 [[!redirects world sheet]]
