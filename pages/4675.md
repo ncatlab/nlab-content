@@ -182,15 +182,15 @@ The differential fractional Pontryagin class $\frac{1}{2} \hat \mathbf{p}_1$ is 
 
 $$
   \array{
-    \mathbf{cosk}_3\exp(\mathfrak{so})_{conn,smp}
+    \mathbf{cosk}_3\exp(\mathfrak{so})_{ChW,smp}
      &\stackrel{\exp(\mu, cs)}{\to}&
-    \mathbf{B}^3 \mathbb{R}_{conn,smp} /\mathbb{Z}    
+    \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_{ChW,smp}     
     \\
     \downarrow && \downarrow
     \\
     \mathbf{cosk}_3\exp(\mathfrak{so})_{diff,smp}
      &\stackrel{\exp(\mu, cs)}{\to}&
-    \mathbf{B}^3 \mathbb{R}_{smp} /\mathbb{Z}
+    \mathbf{B}^3 \mathbb{R}/\mathbb{Z}_{smp} 
     \\
     \downarrow^{\mathrlap{\simeq}}
     \\
@@ -201,28 +201,33 @@ $$
 
 =--
 
+Here the middle morphism is the direct [[Lie integration]] of the [[infinity-Lie algebra cohomology|L-∞ algebra cocycle]] while the top morphisms is its restriction to coefficients for [[connection on an ∞-bundle|∞-connections]].
+
 In order to compute the [[homotopy fiber]]s of 
-$\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism by a fibration in $[CartSp_{smooth}^{op}]_{proj}$. By the fact that this is a [[simplicial model category]] then also the hom of any cofibrant object into this morphism is a fibration, and therefore we obtain the homotopy fibers as the corresponding ordinary fibers.
+$\frac{1}{2}\hat \mathbf{p}_1$ we now find a [[resolution]] of this morphism $\exp(\mu,cs)$ by a fibration in $[CartSp_{smooth}^{op}, sSet]_{proj}$. By the fact that this is a [[simplicial model category]] then also the hom of any cofibrant object into this morphism, computing the cocycle $\infty$-groupoids, is a fibration, and therefore we obtain the homotopy fibers as the corresponding ordinary fibers.
 
 ### Presentation of the differential class by a fibration
 
-To that end, we replace the [[Lie algebra]] $\mathfrak{g} = \mathfrak{so}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)).
+In order to factor $\exp(\mu,cs)$ into a weak equivalence followed by a fibration, we start by considering such a factorization before differential refinement, on the underlying characteristic class $\exp(\mu)$.
 
-In all of the following we take
+To that end, we replace the [[Lie algebra]] $\mathfrak{g} = \mathfrak{so}$ by an equivalent but bigger [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)). We need the following notation:
 
 * $\mathfrak{g} = \mathfrak{so}$, the [[special orthogonal Lie algebra]] (the Lie algebra of the [[spin group]]);
 
-* $\langle -,-\rangle \in W(\mathfrak{g})$ is the [[Killing form]] [[invariant polynomial]], regarded as an element of the [[Weil algebra]];
+* $b^2 \mathbb{R}$ the [[line Lie n-algebra|line Lie 3-algebra]], the single genetator in degee 3 of its [[Chevalley-Eilenberg algebra]] we denote $k \in CE(b^2 \mathbb{R})$, $d k = 0$.
 
-* $\mu = \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the degree 3 [[Lie algebra cohomology|Lie algebra cocycle]], identified with a morphism
+* $\langle -,-\rangle \in W(\mathfrak{g})$ is the [[Killing form]] [[invariant polynomial]], regarded as an element of the [[Weil algebra]] of $\mathfrak{so}$;
+
+* $\mu := \langle -,[-,-]\rangle \in CE(\mathfrak{g})$ the degree 3 [[Lie algebra cohomology|Lie algebra cocycle]], identified with a morphism
 
   $$
     CE(\mathfrak{g}) \leftarrow CE(b^2 \mathbb{R}) : \mu
   $$
 
-  of [[Chevalley-Eilenberg algebra]]s; and normalized such that its continuation to a 3-form on $Spin$ is the image in de Rham cohomology of a generator of $H^3(Spin,\mathbb{Z}) \simeq \mathbb{Z}$;
+  of [[Chevalley-Eilenberg algebra]]s; and normalized such that its continuation to a 3-form on $Spin$ is the image in 
+[[de Rham cohomology]] of $Spin$ of a generator of $H^3(Spin,\mathbb{Z}) \simeq \mathbb{Z}$;
 
-* $cs \in W(\mathfrak{g})$ is a [[Chern-Simons element]] interpolating between the two; fitting into the commuting diagram
+* $cs \in W(\mathfrak{g})$ is a [[Chern-Simons element]] interpolating between the two; characterized by the fact that it fits into the commuting diagram
 
   $$
     \array{
@@ -243,7 +248,8 @@ In all of the following we take
     }
   $$
 
-* $\mathfrak{g}_\mu := \mathfrak{string}$ the [[string Lie 2-algebra]];
+* $\mathfrak{g}_\mu := \mathfrak{string}$ the [[string Lie 2-algebra]].
+
 
 
 +-- {: .un_def }
@@ -258,19 +264,16 @@ $$
   \,,
 $$
 
-with $b$ a generator in degree 2, and $c$ a generator in degree 3, and with differential
+with $b$ a generator in degree 2, and $k$ a generator in degree 3, and with differential defined on generators by
 
 $$
-  d|_{\mathfrak{g}^*} = [-,-]^*
-  \,; 
-$$
-
-$$
-  d : b \mapsto \mu - k
-$$
-
-$$
-  d : k \mapsto 0
+  \begin{aligned}
+    d|_{\mathfrak{g}^*} & = [-,-]^*
+    \\
+    d  b & = \mu - k
+    \\
+    d k & =  0
+  \end{aligned}
   \,.
 $$
 
@@ -279,7 +282,7 @@ $$
 +-- {: .un_prop #FactorizationOfTheCocycle}
 ###### Observation
 
-The cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ factors as 
+The 3-cocycle $ CE(\mathfrak{g}) \stackrel{\mu}{\leftarrow} CE(b^2 \mathbb{R})$ factors as 
 
 $$
   CE(\mathfrak{g})
@@ -296,11 +299,43 @@ where the morphism on the left is a [[quasi-isomorphism]].
 
 =--
 
++-- {: .un_observation }
+###### Observation
+
+The image under [[Lie integration]] of this factorization
+
+$$
+  \exp(\mu) 
+  :
+   \exp(\mathfrak{g})
+   \to 
+   \exp(b \mathbb{R} \to \mathfrak{g})
+   \to 
+   \exp(b^2 \mathbb{R})
+$$
+
+is a weak equivalence in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj}$, followed by a fibration. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A $[k]$-cell of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)$ is identified with a pair consisting of a based [[smooth function]] $f : \Delta^k \to Spin$ and a [[vertical differential form|vertical 2-form]] $B \in \Omega^2_{si,vert}(U \times \Delta^k)$, (both suitably with sitting instants peerpendicular to the boundary of the simplex). Since there is no further condition on the 2-form, it can always be extended from the boundary of the $k$-simplex to the interior (for instance simply by radially rescaling it smoothly to 0). Accordingly the [[simplicial homotopy group]]s of $\exp(b \mathbb{R} \to \mathfrak{g}_\mu)(U)$ are the samee as that of $\exp(\mathfrak{g})(U)$. The morphism between them simply picks the pairs for which $B = 0$ and is hence clearly an isomorphism on homotopy groups. 
+
+A $k$-cell of $\exp(b^2 \mathbb{R})(U)$ is a closed vertical 3-form $K \in \Omega^3_{si,vert}(U \times \Delta^k)$.
+The morphism $\exp(b\mathbb{R} \to \mathfrak{g}_\mu) \to \exp(b^2 \mathbb{R})$ sends the pair $(f,B)$ to the 3-form $f^* \langle \theta \wedge [\theta \wedge \theta]\rangle - d B$. 
+
+Again, since there is no further condition on $B$, we can fill all [[horn]]s along this morphism: let $K$ be any vertical 3-form on $U \times \Delta^k$ and $(f|,B|)$ function and form on a [[horn]] $\Lambda^3_i$. We may extend $f$ in any way whatsoever from the horn to the simplex, and then use the [[Poincare lemma]] to solve for $B$ the equation $d B = 
+f^*\langle \theta \wedge [\theta \wedge \theta]\rangle - K$.
+
+=--
+
 +-- {: .un_prop }
 ###### Observation
 
 
-The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ is given by
+The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ of $(b^2 \mathbb{R} \to \mathfak{g})$ is given on extra shifted generators $\{r^a, ,c, l\}$ by
 
 * $d t^a = C^a{}_{b c} t^b \wedge t^c + r^a$;
 
@@ -312,14 +347,8 @@ The [[Weil algebra]] $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ is given by
 
 * $d k = l$ .
 
-=--
-
-We will find it convenient to pass to an [[isomorphic]] version of this.
-
-+-- {: .un_def }
-###### Definition
-
-Define $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ to have the same
+Let $\tilde W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
+have the same
 underlying graded algebra as $W(b\mathbb{R} \to \mathfrak{g}_\mu)$ 
 but with the differential modified as follows
 
@@ -332,12 +361,6 @@ but with the differential modified as follows
 * $d c = l - \langle -,-\rangle$;
 
 * $d k = l$ .
-
-=--
-
-
-+-- {: .un_lemma }
-###### Lemma
 
 There is an [[isomorphism]] 
 
@@ -362,9 +385,6 @@ $$
 Where the formula for the differential of $W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the 3-cocycle $\mu$ that for $\tilde W(b\mathbb{R}\to \mathfrak{g}_\mu)$ has the [[Chern-Simons element]] $cs$.  The shift by $cs-\mu$ is precisely what shifts the curvature characteristic $d_{W(\mathfrak{g})}\mu$ into the shifted copy $\mathfrak{g}^*$ in the Weil algebra, thus making it well-adapted to genuine (as opposed to pseudo-)connections.
 
 =--
-
-
-
 
 
 
