@@ -39,7 +39,7 @@ This formalization of [[algebraic quantum field theory]] is similar to, but a bi
 
 A fairly comprehensive account of factorization algebras as a formalization of [[perturbation theory|perturbative]] [[quantum field theory]] (see at _[[factorization algebra of observables]]_) is in 
 
-* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), early/partial draft [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
+* [[Kevin Costello]], [[Owen Gwilliam]], _[[Factorization algebras in perturbative quantum field theory]]_ 
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
  {#Gwilliam}
