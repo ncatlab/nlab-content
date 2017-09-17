@@ -134,59 +134,95 @@ A cautionary note is in order. While the Newtonian particle may serve as an intr
  {#RelativisticParticle}
 
 
-The Newtonian particle propagating on $\mathbb{R}^3$ is a special and limiting case of a particle propagating on a 4-dimensional [[pseudo-Riemannian manifold]]: [[spacetime]]. For historical reasons (the same that led to the theory of [[gravity]] being called a theory of [[general relativity|relativity]]) this is called the [[relativistic particle]].
+The Newtonian particle propagating on $\mathbb{R}^3$, discussed [above](#ExpositionNewtonianParticle) is a special and limiting case of a particle propagating on a 4-dimensional [[pseudo-Riemannian manifold]]: [[spacetime]]. For historical reasons (the same that led to the theory of [[gravity]] being called a theory of [[general relativity|relativity]]) this is called the [[relativistic particle]].
 
-* Let [[target space]] be [[pseudo-Riemannian manifold]] $(X,g)$, thought of as [[spacetime]];
+The $\sigma$-model describing the relativistic particle is the following.
 
-* let parameter space $\Sigma = \mathbb{R}$ still be the [[real line]], thought of as the abstract [[worldline]] of a [[relavistic particle]];
+* [[target space|Target space]] is a  [[pseudo-Riemannian manifold]] $(X,g)$, thought of as [[spacetime]].
 
-* let the [[background gauge field]] be given by a smooth [[differential form|1-form]] $A \in \Omega^1(X)$, whose [[exterior derivative]] $F := d A$ is the [[field strangth]] of an [[electromagnetic field]].
+* Parameter space $\Sigma = \mathbb{R}$ is the [[real line]], thought of as the abstract [[worldline]] of a [[relavistic particle]].
 
-The [[configuration space]] is now the [[quotient]]
+* The [[background gauge field]] is given by a smooth [[differential form|1-form]] $A \in \Omega^1(X)$, whose [[exterior derivative]] $F := d A$ is the [[field strength]] of an [[electromagnetic field]]. 
+
+The [[configuration space]] is the [[quotient]]
 
 $$
   Conf = C^\infty(\mathbb{R}, X)//Diff(\mathbb{R})
   \,,
 $$
 
-of [[smooth function]]s $\Sigma \to X$ by [[diffeomorphism]]s $\Sigma \to \Sigma$.
+of [[smooth function]]s $\Sigma \to X$ by [[diffeomorphism]]s $\Sigma \to \Sigma$. Each point in cofiguration space is a trajectory of a particle in spacetime.
 
-For vanishing background field, the [[covariant phase space]] is
-
-$$
-  P = \{ [\gamma] \in Conf | \nabla_{\dot \gamma} \dot \gamma = 0  \}
-  \subset Conf 
-  \,,
-$$
-
-where $\nabla$ denotes the [[covariant derivative]] of the [[Levi-Civita connection]] of the background metric $g$ on the [[tangent bundle]] $T X$ of $X$: this is the subspace of those trajectories $\gamma$, which exhibit a [[parallel transport]] of their tangent vectors with respect to the [[Levi-Civita connection]] of the background metric.
-
-In the special case that $X$ is [[Minkowski spacetime]], where we may find a global [[coordinate chart]] $(\mathbb{R}^4, \eta) \simeq X$, this are exactly the straight lines in $\mathbb{R}^4$. Given any such, there is precisely one representative in the diffeomorphism class for which $\mathbb{R} \stackrel{\gamma}{\to} \mathbb{R}^4 \stackrel{x^0}{\to} \mathbb{R}$ is the identity, hence for which the [[worldline]] parameter coincides precisely with the chosen global time coordinate $t := x^0$ on $\mathbb{R}^4$. For those the equations of motions are again those of the free Newtonian particle $\vec a = 0$.
-
-Generally, for arbitrary $X$ and arbitrary [[background gauge field]] $A$, the equations of motion are
+The [[covariant phase space]] -- the subspace of the configuration space of those configurations that satisfy the [[equations of motion]] -- is defined to be
 
 $$
+  P =
+  \{ [\gamma] \in Conf
+   |
   g(\nabla_{\dot \gamma} \dot \gamma,-) =  \frac{q}{m}\iota_{\dot \gamma} F
+  \}
+  \subset Conf
   \,,
 $$
 
-where on the left we have the 1-form given by evaluating the covariant acceleration in the metric tensor, while on the right we have the 1-form given by evaluation the [[field strength]] 2-form on the covariant velocity. The term on the right is the [[Lorentz force]] excerted by the background electromagnetic field on the relativistic particle of charge $q$:
+where 
 
-restricting again to the case that $X$ is [[Minkowski space]] equipped with a global [[coordinate chart]] $\mathbb{R}^4 \simeq X$ we can decompose the [[electromagnetic field]] strength 2-form as
+* $\nabla$ denotes the [[covariant derivative]] of the [[Levi-Civita connection]] of the background metric $g$ on the [[tangent bundle]] $T X$ of $X$Here in the equation of motion;
+
+* $g(\nabla_{\dot \gamma} \dot \gamma,-)$ is the 1-form given by evaluating the covariant acceleration in the metric tensor;
+
+* $\frac{q}{m}\iota_{\dot \gamma} F$ is the 1-form given by evaluation the [[field strength]] 2-form on the covariant velocity,
+
+  (This is the [[Lorentz force]] excerted by the background electromagnetic field on the relativistic particle of charge $q$);
+
+* the equation is taken to holt in each [[cotangent space]] $T^*_{\gamma(\tau)} X$ for each $\tau \in \mathbb{R}$.
+
+To see what this means, consider some special cases. First regard the case that the background field strenght vanishes, $F = 0$. Then the equations of motion reduce to
+
+$$
+  \nabla_{\dot \gamma} \dot \gamma = 0 
+  \,.
+$$
+
+This says that the trajectory $\gamma$ exhibits [[parallel transport]] of its tangent vectors (their covariant velocities) with respect to the [[Levi-Civita connection]] of the background metric.
+
+In the even more special case that $X$ is [[Minkowski spacetime]], where we may find a global [[coordinate chart]] $(\mathbb{R}^4, \eta) \simeq (X,g)$, this are exactly the straight lines in $\mathbb{R}^4$. Given any such, there is precisely one representative in the diffeomorphism class for which $\mathbb{R} \stackrel{\gamma}{\to} \mathbb{R}^4 \stackrel{x^0}{\to} \mathbb{R}$ is the identity, hence for which the [[worldline]] parameter coincides precisely with the chosen global time coordinate $t := x^0$ on $\mathbb{R}^4$. For those the equations of motions are again those of the free Newtonian particle $\vec a = 0$.
+
+Remaining in the case that $X$ is [[Minkowski space]] but allowing now a nontrivial background field, notice that we may write the 2-form $F$ always as
 
 $$
   F = \vec E_i \cdot d x^i \wedge d t + \vec B_i \epsilon_{i j k} d x^j \edge d x^j
   \,,
 $$
 
-where $\vec E$ is the electric field and $\vec B$ the magnetic field. The above equations of motion are in this case
+where $\vec E \in \mathbb{R}^3$ is the electric field strength vector and $\vec B \in \mathbb{R}^3$ the magnetic field strength vector. The spatial part of the above equations of motion are in this case again as for a Newtonian particle
 
 $$
-  \vec a = \frac{q}{m} \vec E + \frac{q}{m} \vec v \times \vec B
+  m \vec a = q \vec E + q \vec v \times \vec B
   \,,
 $$
 
-where in the second term we have the [[cross product]] of vectors in $\mathbb{R}^3$. 
+where in the second term we have the [[cross product]] of vectors in $\mathbb{R}^3$. This is the form in which the [[Lorentz force]] law appears in many textbooks.
+
+Notice that the equations of motion imply, generally, that the [[norm]] of $\dot \gamma$ is constant along the trajectory
+
+$$
+  \begin{aligned}
+    \frac{d}{d \tau} g(\dot \gamma, \dot \gamma)
+    &= 2 g(\nabla_{\dot \gamma} \dot \gamma, \dot \gamma)
+    \\
+    & = 
+    2 g(g^{-1}(\iota_{\dot \gamma} F, -), \dot \gamma)
+    \\
+    & \propto F(\dot \gamma, \dot \gamma)
+    \\
+    & = 
+    0
+  \end{aligned}
+   \,.
+$$
+
+Therefore a trajectory that solves the equations of motion and whose tangent vector is [[timelike]] or [[spacelike]] or [[lightlike]], respectively at any instant is so throughout.
 
 
 The points in the [[covariant phase space]]
