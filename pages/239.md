@@ -111,6 +111,8 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[tensor product of modules]]
 
+* [[tensor product of algebras]]
+
 * [[tensor product of chain complexes]]
 
 ## Related concepts
