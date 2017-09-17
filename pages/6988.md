@@ -1,7 +1,7 @@
 
 **[[factorization system]]**
 
-* [[weak factorization system|weak]], [[natural weak factorization system|natural weak]]
+* [[weak factorization system|weak]], [[algebraic weak factorization system|algebraic weak]]
 
 * [[orthogonal factorization system|orthogonal]]
 
