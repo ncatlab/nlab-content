@@ -32,6 +32,7 @@ $$
 
 [[!include quadratic invariants - table]]
 
+[[!include square roots of line bundles - table]]
 
 ## References
 
