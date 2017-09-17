@@ -3084,7 +3084,7 @@ We have see that a cocycle with values in $\exp(\mathfrak{g})_{conn}$ is (in low
 
 So far we discussed the untruncated $\exp(\mathfrak{g})_{conn}$. The real object of interest is the $k$-[[truncated]] version $\tau_k \exp(\mathfrak{g})_{conn}$ where $k \in \mathbb{N}$ is such that $\tau_k \exp)\mathfrak{g} \simeq \mathbf{B}G$ is the delooping of the $\infty$-Lie group in question. 
 
-Under such a truncation, the integrated $\infty$-Lie algebra cocycle $\exp(\mu) : \exp(\mathfrak{g}) \to \exp(\mathfrak{b^{n-1}\mathbb{R}})$ will no longer be simplicial maps to $\exp(b^{n-1}\mathb{R})$. Instead, the [[period]]s of $\mu$ will cut out a [[lattice]] $\Gamma$ in $\mathbb{R}$, and $\exp(\mu)$ does descent to the quotient of $\mathbb{R}$ by that lattice
+Under such a truncation, the integrated $\infty$-Lie algebra cocycle $exp(\mu) : exp(\mathfrak{g}) \to exp(b^{n-1}\mathbb{R})$ will no longer be a simplicial map. Instead, the [[period]]s of $\mu$ will cut out a [[lattice]] $\Gamma$ in $\mathbb{R}$, and $\exp(\mu)$ does descent to the quotient of $\mathbb{R}$ by that lattice
 
 $$
   \exp(\mu) : \tau_k \exp(\mathfrak{g}) \to \mathbf{B}^n \mathbb{R}/\Gamma
