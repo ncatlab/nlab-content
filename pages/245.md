@@ -124,6 +124,12 @@ There is a [[strict 2-category]] BrMonCat with:
 * [[braided monoidal functor|braided monoidal functors]] as morphisms, 
 * [[braided monoidal natural transformation|braided monoidal natural transformations]] as 2-morphisms.
 
+## Related concepts
+
+* [[braided 2-group]]
+
+* [[k-tuply monoidal (n,r)-category]]
+
 ## References
 
 The original papers on braided monoidal categories are by [[Andre Joyal|Joyal]] and [[Ross Street|Street]].  The published version does not completely supersede the _Macquarie Math Reports_ version, which has some nice extra results:
