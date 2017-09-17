@@ -9,6 +9,12 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A [[topological manifold]] $X$ of [[dimension]] $n \in \mathbb{N}$ is by definition a [[topological space]] that is locally [[homeomorphic]] to a [[Cartesian space]] $\mathbb{R}^n$. A choice of such morphism
 
 $$
@@ -20,6 +26,10 @@ is a **coordinate system** or **coordinate chart** or just **chart** on the [[im
 This generalises to other sorts of [[manifolds]].
 
 An [[atlas]] is the collection of coordinate charts defining a manifold structure.
+
+## Related concepts
+
+* [[coordinate transformation]]
 
 
 [[!redirects coordinate system]]
@@ -36,3 +46,6 @@ An [[atlas]] is the collection of coordinate charts defining a manifold structur
 
 [[!redirects coordinate patch]]
 [[!redirects coordinate patches]]
+
+[[!redirects coordinate transformation]]
+[[!redirects coordinate transformations]]
