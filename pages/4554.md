@@ -25,7 +25,8 @@ The _factorization lemma_ is a fundamental tool in [[categories of fibrant objec
 
 Let $C$ be a [[category of fibrant objects]]. 
 
-**Lemma**
++-- {: .un_lemma}
+###### Lemma
 
 Every [[morphism]] $f : X \to Y$ in $C$ factors as
 
@@ -39,8 +40,10 @@ where
 1. $i$ is the [[right inverse]] to a trivial fibration, hence in particular a weak equivalence;
 
 1. $p$ is a fibration.
+=--
 
-**Proof**
++-- {: .proof}
+###### Proof
 
 Let $X \stackrel{\simeq}{\to} X^I \stackrel{(d_0,d_1)}{\to} X \times X$ be a [[path space object]] for $X$. Let $\hat X := Y^I \times_Y X$ be the [[pullback]] of $f$ along one of its legs, to get the diagram
 
@@ -81,12 +84,17 @@ $$
 $$
 
 That establishes the claim.
+=--
 
 ## Corollaries
 
-**Corollary** Let $F : C \to D$ be a functor from a [[category of fibrant objects]] to any [[category with weak equivalences]] that sends trivial fibrations to weak equivalences. Then this functor necessarily sends all weak equivalences to weak equivalences, hence is a [[homotopical functor]].
++-- {: .un_corollary}
+###### Corollary
+Let $F : C \to D$ be a functor from a [[category of fibrant objects]] to any [[category with weak equivalences]] that sends trivial fibrations to weak equivalences. Then this functor necessarily sends all weak equivalences to weak equivalences, hence is a [[homotopical functor]].
+=--
 
-**Proof**
++-- {: .proof}
+###### Proof
 
 If $f : X \to Y$ is a weak equivalence, then by 2-out-of-3 also the $p : \hat X \to Y$ from the above proof is a weak equivalence, hence a trivial fibration.
 
@@ -108,8 +116,12 @@ $$
 $$
 
 By the assumption that $F$ preserves trivial fibrations we have that both horizontal morphisms as well as the total vertical morphism and the bottom vertical morphism are weak equivalences. By 2-out-of-3 it then follows that also the top left vertical morphism is a weak equivalence and then finally that $F(f)$ is.
+=--
 
-**Remark** If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
++-- {: .un_remark}
+###### Remark
+If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
+=--
 
 ## Examples
 
