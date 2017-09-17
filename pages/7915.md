@@ -78,6 +78,10 @@ Monographs and introductions include
 
 * John Etnyre, _Introductory lectures on contact geometry_ Proc. Sympos. Pure Math.  71 (2003), 81-107.  ([pdf](http://people.math.gatech.edu/~etnyre/preprints/papers/contlect.pdf))
 
+A [[higher differential geometry]]-generalization of contact geometry in line with [[multisymplectic geometry]]/[[n-plectic geometry]] is discussed in 
+
+* Luca Vitagliano, _L-infinity Algebras From Multicontact Geometry_ ([arXiv.1311.2751](http://arxiv.org/abs/1311.2751))
+
 ### Characterization
 
 The observation that regular contact manifolds are prequantum circle bundles is due to
