@@ -3,9 +3,6 @@
 
 * [[George Whitehead]]
 
+* [[Henry Whitehead]]
+
 category: people
-
----
-Mathematical works, 4 vols
-
-nLab page on [[nlab:Whitehead]]
