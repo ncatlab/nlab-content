@@ -7,9 +7,11 @@
 
 For $X$ a [[smooth manifold]], a (parametrized oriented) __smooth curve__ in $X$ is a [[smooth function]] $\gamma\colon \mathbb{R} \to X$ from the [[real line]] (or an [[interval]] therein) to $X$.  (Compare [[path]].)
 
-For most purposes in [[differential geometry]] one needs to work with a __regular curve__, which is a parametrized smooth curve whose velocity, i.e. the [[derivative]] with respect to the parameter, is never zero. For example, this is important if one wants to split curve into segments which have no self-intersections, which is important.
+For most purposes in [[differential geometry]] one needs to work with a __regular curve__, which is a parametrized smooth curve whose velocity, i.e. the [[derivative]] with respect to the parameter, is never zero. For example, this is important if one wants to split curve into segments which have no self-intersections, which is important. 
 
-In the foundations of [[differential topology]], it is possible to define a [[tangent vector]] as an equivalence class of curves, effectively identifying a curve with its derivative at (say) $0$.
+In the foundations of [[differential topology]], it is possible to define a [[tangent vector]] as an equivalence class of smooth curves at a given point in the image of the curve, effectively identifying a curve with its derivative at (say) $0$.
+
+See also the [[fundamental theorem of differential geometry of curves]].
 
 
 ## In algebraic geometry
