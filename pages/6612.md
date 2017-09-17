@@ -31,7 +31,70 @@ In the full higher symplectic geometry both of these aspects are unified: a _mul
 
 Examples of higher symplectic geometries arise naturally as the [[covariant phase space]]s "over the point" or "in top codimension" (in the sense of [[extended topological quantum field theory]]) in systems of [[schreiber:∞-Chern-Simons theory]]: their $\infty$-multisymplectic form is the [[invariant polynomial]] that defines the theory.
 
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathfrak{a}$ be an [[L-∞ algebroid]]. For $n \in \mathbb{N}$, an **[[n-plectic form]]** or **[[multisymplectic form]]** of $n$ arguments on $\mathfrak{a}$ is 
+
+* an [[invariant polynomial]] $\omega$ on $\mathfrak{a}$ which is $n$-linear (takes $n$ arguments): 
+
+  $$
+    \omega \in  W^n(\mathfrak{a}) = \Omega^n(\mathfrak{a})
+    \,;
+  $$
+
+* such that the contraction morphism
+
+  $$
+    \iota_{(-)}\omega : T \mathfrak{a} \to W^{n-1}(\mathfrak{a}) = \Omega^{n-1}(\mathfrak{a})
+  $$
+
+in injective.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+If $\mathfrak{a}$ is a Lie 0-algebroid (over a smooth manifold) then it is simply that [[smooth manifold]], $\mathfrak{a} = X$. In this case $W(\mathfrak{a}) = \Omega^{\bullet}(X)$ is the ordinary [[de Rham complex]] and an [[invariant polynomial]] is a closed [[differential form]] of positive degree.
+
+In this case an $n$-plectic form on $\mathfrak{a}$ is a closed $n$-form $\omega(-,-,.\dots, -)$ on $X$ such that for every [[vector field]] $v \in \Gamma(T X)$ we have
+
+$$
+  (\omega(v,-,\cdots,-) = 0) \;\; \Rightarrow \;\;
+  (v = 0).
+$$
+
+=--
+
+## Applications
+
+### Higher Chern-Simons theory
+
+Every [[invariant polynomial]] $\omega$ induces an [[schreiber:∞-Chern-Simons theory]] [[action functional]]
+
+$$
+  S_{CS} : \Omega(\Sigma,\mathfrak{a}) \to \mathbb{R}
+  \,.
+$$
+
+The [[variational calculus|variation]] of that functional is
+
+$$
+  \delta S_{CS} : A \mapsto \int_\Sigma \omega(\delta A, F_A, \cdots, F_A)
+  \,.
+$$
+
+Therefore the condition that the invariant polynomial is $n$-plectic amounts to saying that $S_{CS}$ has no spurious global symmetries.
+
+(...)
+
+
 ## References
 
-For the moment see the references at [[multisymplectic geometry]] and [[symplectic Lie n-algebroid]].
+Discussion of what here we call "higher symplectic geometry over Lie 0-algebroids" ([[multisymplectic geometry]]) is in 
+
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis ([arXiv](http://arxiv.org/abs/1106.4068)).
 
