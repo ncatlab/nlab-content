@@ -147,7 +147,7 @@ One sees easily in low degrees that this does look like the a [[pseudofunctor]] 
           && y
           \\
           & {}^{\mathllap{g}}\swarrow 
-          & & \nearrow^{\mathrlap{f}}
+          & & \nwarrow^{\mathrlap{f}}
           \\
           x &&\stackrel{g \circ f}{\leftarrow}&& z
        }
@@ -163,7 +163,7 @@ One sees easily in low degrees that this does look like the a [[pseudofunctor]] 
           & \Downarrow^{\mathrlap{F(f,g)}} & 
           \searrow^{\mathrlap{F(f)}}
           \\
-          F(x) &&\stackrel{g \circ f}{\leftarrow}&& F(z)
+          F(x) &&\stackrel{F(g \circ f)}{\rightarrow}&& F(z)
        }
      \right)     
    $$ 
@@ -206,7 +206,7 @@ More on this is at [[(∞,1)-category of (∞,1)-presheaves]].
 
 ## References
 
-sectrion 1.2.7 in
+section 1.2.7 in
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
