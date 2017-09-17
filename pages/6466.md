@@ -169,7 +169,7 @@ Summary: modify the construction of a [[Cauchy real numbers]] object to use [[mu
 
 ### In $Set$
 
-The real numbers object in [[Set]] is the [[real line]], the usual set of (located Dedekind) [[real numbers]].  Note that this is a theorem of [[constructive mathematics]], as long as we assume that $Set$ is an elementary topos with an NNO.
+The real numbers object in [[Set]] is the [[real line]], the usual set of (located Dedekind) [[real numbers]].  Note that this is a theorem of [[constructive mathematics]], as long as we assume that $Set$ is an elementary topos with an NNO (or more generally a $\Pi$-pretopos with NNO and either WCC or subset collection).
 
 
 ### In sheaves on a topological space
