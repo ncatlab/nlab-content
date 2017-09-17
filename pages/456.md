@@ -675,6 +675,8 @@ The points $x \in X$ of the topological space $X$ are in canonical bijection wit
 
 ## Related concepts
 
+* [[étale map]]
+
 * [[logical morphism]]
 
 * **geometric morphism**
