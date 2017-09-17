@@ -38,20 +38,19 @@ $$
 
 ## Examples
 
+* every [[universal characteristic class]] is a cohomology operation.
+
 * [[Bockstein homomorphism]]
-
-* [[power operation]]
-
-  * [[Steenrod squares]] are the stable cohomology endo-operations on [[ordinary cohomology]] (mod 2)
-
-* [[Adams operations]] are the endo-cohomology operations on [[K-theory]]
 
 * [[cup product]]
 
 * [[Massey product]]
 
-* Every [[universal characteristic class]] is a cohomology operation.
+* [[power operation]]
 
+  * [[Steenrod squares]] are the stable cohomology endo-operations on [[ordinary cohomology]] (mod 2)
+
+  * [[Adams operations]] are the endo-cohomology operations on [[K-theory]]
 
 * [[logarithmic cohomology operation]]
 
