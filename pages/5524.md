@@ -104,7 +104,7 @@ on $CartSp_{synthdiff}$.
 
 
 
-## Properites
+## Properties
 
 
 +-- {: .un_prop}
