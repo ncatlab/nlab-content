@@ -101,8 +101,12 @@ Note that this gives us the notion of *discrete* field (see the [constructive de
 
 
 ## Examples
+ {#Examples}
 
-The fields of:
++-- {: .num_example}
+###### Example
+
+There are the fields of:
 
 * [[rational numbers]],
 
@@ -114,9 +118,16 @@ The fields of:
 
 * [[p-adic numbers]] (for $p$ a [[prime number]]).
 
-* Also the various [[finite field]]s.
+* Also the various [[finite fields]].
 
-The canonical ring object of the [[Zariski site|gros Zariski topos]] of any [[scheme]] (given by $S \mapsto \Gamma(S, \mathcal{O}_S)$) is a field in the sense of definition \ref{classical}. The ring $\mathcal{O}_X$ in the [[category of sheaves|sheaf topos]] (i.e. the petit Zariski topos) is a residue field if $X$ is a [[reduced scheme|reduced]] scheme.
+=--
+
++-- {: .num_example}
+###### Example
+
+The canonical [[ring object]] of the [[Zariski site|gros Zariski topos]] of any [[scheme]] (given by $S \mapsto \Gamma(S, \mathcal{O}_S)$) is a field in the sense of definition \ref{classical}. The ring $\mathcal{O}_X$ (the [[structure sheaf]]) in the [[category of sheaves|sheaf topos]] (i.e. the petit Zariski topos) is a [[residue field]] if $X$ is a [[reduced scheme|reduced]] scheme.
+
+=--
 
 ## Related concepts
 
