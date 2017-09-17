@@ -58,10 +58,16 @@ There is a simple geometric interpretation of the expression on the right side o
 [[Michael Hardy]]: A student in India whom I encountered via the internet told me that the problem of proving the "conditional identity" that $4\sin\alpha\sin\beta\sin\gamma = sin(2\alpha) + \sin(2\beta) + \sin(2\gamma)$ if $\alpha+\beta+\gamma=\pi$ recurs perennially on the joint entrance exam of the Indian Institutes of Technology.  Hence "well known".
 =--
 
-Here is an inversion identity:
+The simplest of the inversion identities expressing $\sum_{|A|=n} \prod_{i\in A} \sin\theta_i \prod_{i\notin A} \cos\theta_i$ as a function of $f_0, f_1, f_2,\dots$ is the case $n=0$:
 
 $$
 \prod_{i=1}^\infty \cos\theta_i = f_0 + \frac{1}{2} f_2 + \frac{1}{2 \cdot 4} f_4 + \frac{1}{2 \cdot 4 \cdot 6} f_6 + \frac{1}{2 \cdot 4 \cdot 6 \cdot 8} f_8 + \cdots
+$$
+
+The others are more involved; e.g. when $n=1$ we have:
+
+$$
+\sum_{j=1}^\infty \sin\theta_j \prod_{i : i \neq j} \cos\theta_i = f_1 + \frac{1}{1\cdot 3} f_3 + \frac{1}{1\cdot 3\cdot 5} f_5 + \cdots
 $$
 
 ## A preliminary question
