@@ -159,7 +159,7 @@ is an [[isomorphism]], namely a [[bijection]] of sets. The [[equivalence relatio
 +-- {: .num_prop}
 ###### Proposition
 
-If a category $C$ carries a model category structure, then the [[opposite category]] $C^{op}$ carries the opposite model structure: 
+If a category $C$ carries a model category structure, then the [[opposite category]] $C^{op}$ carries the [[opposite model structure]]: 
 
 its weak equivalences are those morphisms whose dual was a weak equivalence in $C$, its fibrations are those morphisms that were cofibrations in $C$ and similarly for its cofibrations.
 
