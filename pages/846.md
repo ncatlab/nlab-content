@@ -193,6 +193,13 @@ If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and 
 
 ## Definition
 
+We first define the **join of simplicial sets** as the restriction to simplicial sets of the extension of the **ordinal sum** operation on the augmented [[simplex category]] $\Delta_a$ to augmented simplicial sets.
+
+Then we give the more explicit definition in terms of concrete formulas.
+
+
+### Ordinal sum
+
 The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with the finite [[total order|totally ordered]] [[set]]s, _including_ the [[empty set]], which we write in this context as
 
 $$
@@ -242,9 +249,9 @@ $$
   \,.
 $$
 
+### Join of simplicial sets via Day convolution
 
-
-Now, via the general process of [[Day convolution]], this monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
+Via the general process of [[Day convolution]], the ordinal sum monoidal structure on $\Delta_a$ is lifted to a monoidal structure on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[ASSet]] of augmented [[simplicial set]]s. This is given by the [[end|coend]] formula
 
 $$
   \star : ASSet \times ASSet \to ASSet
@@ -256,28 +263,33 @@ $$
     (S_i \times S'_j) \times Hom_{\Delta_a}(-,[i] \boxplus [j])
   \,.
 $$
-+--{: .query}
-_Note:_ This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set.  To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[indexed copower]].
-=--
+
+**Remark** This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set.  To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[indexed copower]].
+
 Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|cocontinuous]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
 
-### Extension to a closed monoidal structure
-
+**Proposition**
 This join tensor product forms part of a [[closed monoidal category|closed monoidal structure]] on the category of
 augmented simplicial sets, [[ASSet]] $ := Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
 $$[X, Y ]_n =asS(X; Dec^{n+1}Y )\,,$$
 where $Dec$ is the [[decalage]] functor.
 
+**Definition**
+For $S$ a simplicial set, let $\hat S$ denote the augmented simplicial set which equals $S$ in all degrees except in degree -1, where it is the point, $({\hat S})_{-1} = pt$. This is the **tivial augmentation** of $S$.
 
-### Join of non-augmented simplicial sets
+**Definition**
+The **join** of two ordinary [[simplicial set]]s $S_1$ and $S_2$ is the join of their _trivial augmentation_ :
 
-The **join** of two ordinary (not augmented) [[simplicial set]]s $S$ and $S'$ is the join of their _trivial augmentation_ ($S_{-1} = S'_{-1} = pt$). 
+$$
+  S_1 \star S_2 := {\hat S_1} \star {\hat S_2}
+  \,.
+$$
+
 
 
 ### Concrete formulas
 
-The join of two non-augmented simplicial sets is given by
-
+The join of two non-augmented simplicial sets is given by the formula
 
 $$
   (S \star S')_n := S_n \cup S'_n \cup 
