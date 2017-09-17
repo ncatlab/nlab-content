@@ -1,11 +1,17 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-
-***
-
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
-
+=--
+=--
+=--
 
 
 #Contents#
