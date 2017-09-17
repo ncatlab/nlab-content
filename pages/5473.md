@@ -81,7 +81,16 @@ If $T$ is a monad on $Set$, then $Set^T$ is cocomplete.
 
 +-- {: .proof}
 ######Proof
-It is enough to show that $Set^T$ has coequalizers. (To be continued.) 
+It is enough to show that $Set^T$ has coequalizers. Suppose given a pair of algebra maps $f, g: A \stackrel{\to}{\to} B$ whose coequalizer we wish to construct. Let $R$ be the $T$-algebra relation 
+$$R = \langle f, g \rangle: A \to B \times B$$ 
+and then let $E$ be the smallest $T$-congruence (equivalence relation that is a $T$-subalgebra map $E \hookrightarrow B \times B$) through which $R$ factors. (This is the intersection of all $T$-congruences through which $R$ factors, and may be calculated in $Set$, where it is reflected in $T$-$Alg$.) The coequalizer as calculated in $Set$,  
+$$E \stackrel{\overset{\pi_1}{\to}}{\underset{\pi_2}{\to}} B \stackrel{p}{\to} Q$$ 
+is a split coequalizer, because every quotient of an equivalence relation in $Set$ is a split coequalizer. (This requires the [[axiom of choice]]. A splitting is given by any splitting $i: Q \to B$ of $p$, which picks a representative in each equivalence class, together with $\langle i p, 1 \rangle: B \to E$.) It is therefore an absolute colimit, which the monad $T$ preserves. Hence the top row in 
+$$\array{
+T E & \stackrel{\overset{T\pi_1}{\to}}{\underset{T\pi_2}{\to}} & T B & \stackrel{T p}{\to} & T Q \\ 
+\downarrow & & \downarrow & & \downarrow \\ 
+E & \stackrel{\overset{\pi_1}{\to}}{\underset{\pi_2}{\to}} & B & \to & Q}$$ 
+(the first two vertical arrows being algebra structure maps) is a coequalizer in $Set^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is reflected in $Set^T$. 
 =-- 
 
 +-- {: .un_cor} 
