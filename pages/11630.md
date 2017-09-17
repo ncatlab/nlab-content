@@ -77,9 +77,11 @@ $$
   \,.
 $$
 
-Therefore $E_{n(n)}$ acts as a [[global symmetry]] on the supergravity fields. 
+Therefore $E_{n(n)}$ acts as a [[global symmetry]] on the supergravity fields and more generally certain [[subgroups]] of it are "gauged" (have [[gauge fields]]) in [[gauged supergravity]] version.
 
-This is no longer quite true for their [[UV-completion]] by the corresponding [[Kaluza-Klein mechanism|compactifications]] of [[string theory]] (e.g. [[type II string theory]] for [[type II supergravity]], etc.). Instead, on these a [[discrete group|discrete subgroup]]
+So for instance maximal [[3d supergravity]] has global (and in fact also local, see there) gauge group given by (the [[split real form]] of) [[E8]].
+
+This is no longer verbatim true for their [[UV-completion]] by the corresponding [[Kaluza-Klein mechanism|compactifications]] of [[string theory]] (e.g. [[type II string theory]] for [[type II supergravity]], etc.). Instead, on these a [[discrete group|discrete subgroup]]
 
 $$
   E_{n(n)}(\mathbb{Z}) \hookrightarrow E_{n(n)}
@@ -99,6 +101,22 @@ Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-dual
 
 See the references ([below](#UDualityReferences)).
 
+## Properties
+
+### Relation to T-duality and S-duality
+
+U-duality may be understood as being the combination of [[T-duality]] for the compactification torus and [[S-duality]] of [[type IIB superstring theory]]. see ([West 12, section 17.5.4](#West12)).
+
+## Related concepts
+
+* [[duality in string theory]]
+
+  * [[T-duality]]
+
+  * [[S-duality]]
+
+  * **U-duality**
+
 ## References
  {#References}
 
@@ -106,7 +124,7 @@ Quick surveys include
 
 * [[Jacques Distler]], _Split real forms_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001213.html)).
 
-A review focusing on [[gauged supergravity]] is
+Reviews focusing on [[gauged supergravity]] include
 
 * {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
 
@@ -114,9 +132,13 @@ with slides in
 
 * {#Samtleben07} [[Henning Samtleben]], _Gauged supergravity and U-duality_, 2007  ([pdf](http://www.desy.de/uni-th/stringth/ggfl/talks/Samtleben.pdf))
 
-and a review with more [[M-theory]] lore is
+and reviews with more [[M-theory]] lore include also
+
+* {#West12} [[Peter West]], section 17.5.4 _Introduction to Strings and Branes_, Cambridge University Press 2012
 
 * N.A. Obers B. Pioline, _U-duality and M-Theory_, Phys.Rept. 318 (1999) 113-225 ([arXiv:hep-th/9809039](http://arxiv.org/abs/hep-th/9809039))
+
+* {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
 
 
 The $E_{7(7)}$-symmetry was first discussed in 
