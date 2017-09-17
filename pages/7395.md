@@ -37,6 +37,12 @@ _[[table - models for (infinity,1)-operads]]_.
 
 ## References
 
+The model structure for dendroidal Cartesian fibrations is due to
+
 * [[Gijs Heuts]], _Algebras over infinity-Operads_ ([arXiv:1110.1776](http://arxiv.org/abs/1110.1776))
+
+Its further localization to the [[model structure for dendroidal left fibrations]] is discussed in 
+
+* [[Gijs Heuts]], _An infinite loop space machine for infinity-operads_ ([arXiv:1112.0625](http://arxiv.org/abs/1112.0625))
 
 [[!redirects model structure for dendroidal coCartesian fibrations]]
