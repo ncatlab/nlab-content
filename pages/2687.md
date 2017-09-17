@@ -56,6 +56,8 @@
 
 * [[transferred model structure]] 
 
+  * [[model structure on algebraic fibrant objects]]
+
 ## presentation of $(\infty,1)$-categories ##
 
 * [[(∞,1)-category]]
