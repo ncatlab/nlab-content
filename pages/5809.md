@@ -40,7 +40,9 @@ $$
 
 * [[Bockstein homomorphism]]
 
-* [[Steenrod squares]] are the stable cohomology endo-operations on [[ordinary cohomology]] (mod 2)
+* [[power operation]]
+
+  * [[Steenrod squares]] are the stable cohomology endo-operations on [[ordinary cohomology]] (mod 2)
 
 * [[Adams operations]] are the endo-cohomology operations on [[K-theory]]
 
@@ -50,7 +52,6 @@ $$
 
 * Every [[universal characteristic class]] is a cohomology operation.
 
-* [[power operation]]
 
 * [[logarithmic cohomology operation]]
 
