@@ -29,4 +29,8 @@ As usual in [[classical field theory]], the physically realized configurations -
 
 Historically the theory of general relativity was developed by [[Albert Einstein]] based on the theory known as [[special relativity]]. Given the conceptual simplicity of the [[Einstein-Hilbert action]], there are several variations of his original version of the theory that are immediately obtained by adding certain terms to the action functional. One of these generalization is [[supergravity]], which extends the theory from ordinary [[differential geometry]] to [[supergeometry]].
 
+## Related concepts
+
+* [[general covariance]]
+
 [[!redirects General Relativity]]
