@@ -45,8 +45,10 @@ From the above definition the fact that differentiation is indeed functorial is 
 
 
 ## Exposition of differentiation via infintiesimals
+ {#ExpositionDifferentiationViaInfinitesimal}
 
-We attempt to give an exposition of how to think of differentiation not via taking limits in the sense of [[analysis]], but by working with [[infinitsimal space]]s, as in [[synthetic differential geometry]].
+
+We attempt to give an exposition of how to think of differentiation not via taking limits in the sense of [[analysis]], but by working with [[infinitesimal space]]s, as in [[synthetic differential geometry]].
 
 ### Setup
 
@@ -98,9 +100,9 @@ $$
   }
 $$
 
-of [[smooth algebra]]s. Here in the bottom and on the right we have the ordinary smoth algebras of [[smooth function]]s on the [[smooth manifold]]s $\mathbb{R}^1 = \mathbb{R}$ and $\mathbb{R}^0 = *$, whereas $C^\infty(D)$ is new notation, suggestive and justified, for whatever the algebra of functions on the object $D$ is, where $D$ is _defined_ by the fact that it has this algebra of functions. The bottom morphism is that which sends a smoth function $f : \mathbb{R} \to \mathbb{R}$ to the function $f((-)^2) : \mathb{R} \to \mathbb{R}$. If we write $x = Id : \mathbb{R} \to \mathbb{R}$ for the canonical [[coordinate]] function, then this sends $x$ to the function $x^2$.  
+of [[smooth algebra]]s. Here in the bottom and on the right we have the ordinary smooth algebras of [[smooth function]]s on the [[smooth manifold]]s $\mathbb{R}^1 = \mathbb{R}$ and $\mathbb{R}^0 = *$, whereas $C^\infty(D)$ is new notation, suggestive and justified, for whatever the algebra of functions on the object $D$ is, where $D$ is _defined_ by the fact that it has this algebra of functions. The bottom morphism is that which sends a smooth function $f : \mathbb{R} \to \mathbb{R}$ to the function $f((-)^2) : \mathbb{R} \to \mathbb{R}$. If we write $x = Id : \mathbb{R} \to \mathbb{R}$ for the canonical [[coordinate]] function, then this sends $x$ to the function $x^2$.  
 
-Notice that the commutativity of the pushout diagram means that the image of the squared coordinate function $x^2 \in C^\infty(\mathbb{R})$ in $C^\infty(D)$ is zero, because the former is the image under the bottom morphism of the coordinate function $x$ and that maps under the right vertical morphism to $0 \in C^\infty(*) \simeq \mathbb{R}$.
+Notice that the commutativity of the pushout diagram means that the image of the squared coordinate function $x^2 \in C^\infty(\mathbb{R})$  is zero, in $C^\infty(D)$ because the former is the image under the bottom morphism of the coordinate function $x$ and that maps under the right vertical morphism to $0 \in C^\infty(*) \simeq \mathbb{R}$.
 
 In fact one shows that the [[pushout]] $C^\infty(D)$ is _generated_ by the coordinate function $x \in C^\infty(R)$ subject to the relation $x^2 = 0$: it is the [[ring of dual numbers]]
 
@@ -115,10 +117,203 @@ $$
 
 (Here in the second step we have used [[Hadamard's lemma]].)
 
-This expresses the intuitive idea that $D$ is such a small neighbourhood of $0$ in $\mathbb{R}$ that while the canonical coordinate function of $\mathbb{R}$ restricted to $D$ is non-vanishing (it would vanish only when restricted entirely to the point 0) it is "so small that its square is always 0". Readers who like this intuitive statement should keep it in mind, as it is accurate and useful, whereas readers who don't like it should stick with the above abstract definition.
+This expresses the intuitive idea that $D$ is such a small neighbourhood of $0$ in $\mathbb{R}$ that while the canonical coordinate function of $\mathbb{R}$ restricted to $D$ is non-vanishing (it would vanish only when restricted entirely to the point 0) it is "so small that its square is always 0". Readers who like this intuitive statement should keep it in mind, as it is accurate and useful, whereas readers who don't like it should stick with the above precise definition, which really says precisely this in the [[internal logic]] of the ambient [[smooth topos]] that we keep alluding to.
 
+In order to remind us about the infinitesimal nature of the generator $x$ in $C^\infty(D)$ we shall usually call this "$dx$" and write
+
+$$
+  C^\infty(D) = \mathbb{R}[dx]/((dx)^2) = \mathbb{R} \oplus dx \mathbb{R}
+  \,.
+$$
+
+Here are some further useful facts about smooth loci.
+
+We call the [[coproduct]] of [[smooth algebra]]s their [[tensor product]] (classically it is the _smoothly completed_ algebraic tensor product). Then we have for $X, Y \in SmoothLoc$ that
+
+$$
+  C^\infty(X \times Y) \simeq C^\infty(X) \otimes C^\infty(Y)
+  \,.
+$$
 
 ### Functions and differential 1-forms
+ {#FunctionsAndForms}
 
+Consider the [[smooth locus]]
+
+$$
+  \mathbb{R}^{(\Delta^1_{inf})} := \mathbb{R} \times D
+  \,,
+$$
+
+which is the [[product]] of the [[real line]] with its first order [[infinitesimal space|infinitesimal 0-neighbourhood]].
+We think of this as the space of **infinitesimal paths** in $\mathbb{R}$ (see <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">Spaces of infinitesimal k-simplicies</a>):
+
+a [[generalized element]] in the category $SmoothLoc$ of this space is a pair $(x, \epsilon) \in \mathbb{R} \times D$, which we think of as the linear path in $\mathbb{R}$ stretching from $x$ to $x + \epsilon$ (both regarded as [[generalized element]]s of $\mathbb{R}$).
+
+We say a **smooth [[differential form|differential 1-form]]** on $\mathbb{R}$ is a function (meaning: a [[morphism]] in $SmoothLoc$)
+
+$$
+  \omega : 
+  X^{(\Delta^1_{inf})} \to \mathbb{R}
+$$
+
+with the property that its restriction to $\mathbb{R}$ vanishes, hence so that the composite morphism
+
+$$
+ 0 : \mathbb{R} \hookrightarrow X^{(\Delta^1_{inf})} \stackrel{\omega}{\to} \mathbb{R}
+$$
+
+vanishes, where the first morphism is the inclusion of $\mathbb{R}$ as the constant infinitesimal paths in $\mathbb{R}$, hence $(Id, 0) : \mathbb{R} \to \mathbb{R} \times D$.
+
+Dually, in the [[opposite category]] of [[smooth algebra]]s, this means that a 1-form on the line is a morphism
+
+$$
+  C^\infty(\mathrm{R}) \otimes \mathbb{R}[dx]/((dx)^2)
+   \leftarrow
+  C^\infty(\mathbb{R})
+  : 
+  \omega^*
+  \,,
+$$
+
+hence an assignment
+
+$$
+  x \mapsto g(x) +  h(x) dx 
+$$
+
+such that $g(x) = 0$. In other words, it is any element in $C^\infty(\mathrm{R}) \otimes \mathbb{R}[dx]/((dx)^2)$ that is proportional to the generator $dx$. We write
+
+$$
+  \omega = h dx  
+$$
+
+with $h \in C^\infty(\mathbb{R})$.
+
+### Derivatives as infinitesimal differences
+
+We can now "[[synthetic differential geometry|synthetically]]" describe differentiation as the process of taking infinitesimal differences of functions.
+
+Consider the two morphisms of smooth loci
+
+$$
+  + : \mathbb{R}^{(\Delta^1_{inf})} = \mathbb{R} \times D \to \mathbb{R}
+$$
+
+and
+
+$$
+  p_1 : \mathbb{R}^{(\Delta^1_{inf})} = \mathbb{R} \times D \to \mathbb{R}
+  \,,
+$$
+
+where the first is the restriction of the canonical addition operation $+ : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ of [[real number]]s, and where the second is the [[projection]] on the first factor out of the [[product]].
+
+Given an element $f \in C^\infty(\mathbb{R})$, hence a [[smooth function]] $f : \mathbb{R} \to \mathbb{R}$, we can then form two functions on infinitesimal paths by precomposing with these two morphisms:
+
+first we get
+
+$$
+ f : X^{(\Delta^1_{inf})} \stackrel{p_1}{\to} \mathbb{R}
+   \stackrel{f}{\to} \mathbb{R}
+  \,.
+$$
+
+This is the function on infintitesimal paths in the line that only depends on the starting point of a path, not on the length of the path, and which sends that starting point to the value of $f$ on that point. Therefore by slight abuse of notation we just keep writing "$f$" for this function.
+
+The second combination is
+
+$$
+ \tilde f : X^{(\Delta^1_{inf})} \stackrel{+}{\to} \mathbb{R}
+   \stackrel{f}{\to} \mathbb{R}
+  \,.
+$$
+
+This is the function on infinitesimal paths that sends any path $(x) \to (x + \epsilon)$ to the value of the function on the _endpoint_ $(x + \epsilon)$ of the paths: in terms of these [[generalized element]]s $\tilde f$ is the assignment
+
+$$
+  \tilde f : (x , \epsilon) \mapsto f(x + \epsilon)
+ \,.
+$$
+
+For instance consider the function $f : x \mapsto x^2$. Then 
+
+$$
+  \begin{aligned}
+   \tilde f : (x, \epsilon) &\mapsto (x + \epsilon)^2
+    \\ 
+    & = x^2  + 2 x \epsilon + \epsilon^2 
+    \\
+    & = x^2 + 2 x \epsilon 
+   \end{aligned}
+   \,.
+$$
+
+This is evident, if maybe still somewhat mysterious, in the internal language of the ambient [[smooth topos]] that we keep alluding to, but to make it entirely explicit and concret notice that the functions here are dually morphisms of smooth algebras
+
+$$
+  C^\infty(\mathbb{R}) \otimes (\mathbb{R} \oplus dx \mathbb{R})
+  \leftarrow
+  C^\infty(\mathbb{R})
+  : 
+  (\tilde f)^* 
+$$
+
+and the equation
+
+$$
+  (x + dx)^2 = x^2 + 2 x dx 
+$$
+
+holds in $C^\infty(\mathbb{R}) \otimes (\mathbb{R} \oplus dx \mathbb{R})$ by the [above discussion](FunctionsAndForms), where now $x \in C^\infty(\mathbb{R})$ and $dx \in C^\infty(D) = \mathbb{R} \oplus dx \mathbb{R}$ are the two canonical generators.
+
+But notice that the expression $x^2 + 2 x dx $ is not a dfifferential 1-form by the above definition, equivalently the function $\tilde f$ does not vanish when restricted to constant infinitesimal paths.
+
+To get such, we form the **differential** or **infinitesimal difference**, the function
+
+$$
+  \tilde f - f : X^{(\Delta^1_{inf})} \to \mathbb{R}
+$$
+
+that acts on [[generalized element]]s of the space of infinitesimal paths in the line as
+
+$$
+  (\tilde f - f) : (x, \epsilon) \mapsto 
+   f(x + \epsilon) - f(x)
+  \,.
+$$
+
+By construction on the right this now is something linear in the infinitesimal length $\epsilon$ of the path. Write $f' \in C^\infty(\mathbb{R})$ for the coefficient:
+
+$$
+  f(x + \epsilon) - f(x) = \epsilon f'(x)
+  \,.
+$$
+
+This function $f'$ is the **[[differential]]** of $f$. It is the function that gives the change of the function $f$ along a "unit infinitesimal path".
+
+Dually, we have a morphism
+
+$$
+  C^\infty(\mathbb{R})\otimes (\mathbb{R} \oplus dx \mathbb{R})
+  \leftarrow
+  C^\infty(\mathbb{R})
+  :
+  (\tilde f - f)^*
+$$
+
+that sends
+
+$$
+  x \mapsto f(x + dx) - f(x) = f'(x) dx
+  \,.
+$$
+
+The 1-form on the right is the [[differential]] of $f$, usually written
+
+$$
+  (d f)(x) = f'(x) dx \in C^\infty(\mathbb{R} \times D)
+  \,.
+$$ 
 
 [[!redirects derivative]] 
