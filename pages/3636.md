@@ -8,7 +8,7 @@
 **Proper homotopy theory** is both an old and a fairly new area of [[algebraic topology].
 It deals with properties of non-[[compact space|compact]] [[topological space]]s, that cannot be detected using maps from [[simplex|simplices]] in these spaces, such as used in the [[fundamental infinity-groupoid|singular complex]]. 
 
-Historically the subject is traced back to Kerekjarto's classification of non-compact surfaces in 1923, but its emergence as an importatn tool in geometric topology came with Larry Siebenmann's work in 1965.
+Historically the subject is traced back to Kerekjarto's classification of non-compact surfaces in 1923, but its emergence as an important tool in geometric topology came with Larry Siebenmann's work in 1965.
 
 Suppose $M$ is a _smooth_ [[manifold]] with boundary, $\partial M$, then $M\setminus \partial M$ is an open manifold. Now suppose someone gives us an open manifold $N$, is it possible to detect if there is a compact manifold $M$, with $M\setminus \partial \cong N$.  Siebenmann showed that certain conditions on the _ends_ of $N$ were necessary and that there were obstructions if the dimension of $M$ was greater than 5.
 
@@ -32,11 +32,11 @@ To illustrate the idea of the ends of a space $X$, we note that naively $\mathbb
 
 More exactly, consider the system of spaces
 
-$$\epsilon(X) = \{closure(X\setminus K) : K compact \sunset X\},$$
+$$\varepsilon(X) = \{closure(X\setminus K) : K compact \sunset X\},$$
 
 This is an inverse system or [[pro-object]] in the category of spaces. Applying the connected component functor, $\pi_0$, to this system of spaces gives $\pi_0(X)$, and, classically, one takes the limit of this to get 
 
-$$e(X) = lim \pi_0\epsilon(X),$$
+$$e(X) = lim \pi_0\varepsilon(X),$$
 the _set of ends_ of $X$. In general, $e(X)$ would be given the [[inverse limit topology]], to preserve more of the information coming from its construction.  This space is the _space of (Freudenthal) ends of $X$_. It is a [[profinite space]].
 
 ####Examples####
@@ -55,9 +55,21 @@ A map $f:X\to Y$ is a [[proper map]] if for each subset $K$ compact in $Y$ then 
 
 ###End spaces continued###
 If $f:X\to Y$ is proper, then it induces a pro-morphism
-$$\epsilon(f) : \epsilon(X)\to \epsilon(Y)$$
+$$\varepsilon(f) : \varepsilon(X)\to \varepsilon(Y)$$
 and hence a _continuous map of the end spaces
-$$e(f):e(X)\to e(Y).$$
+$$e(f):e(X)\to e(Y),$$
+and $e$ becomes a functor from some category $Proper$ of spaces and proper maps to $Stone$, the category of [[profinite space]]s / [[Stone space]]s.
+
+###Proper homotopy###
++-- {: .un_proposition}
+###### Proposition . 
+
+For any space $X$, the natural inclusions of $X$ into $X \times I$, $e_i(x) = (x,i)$, $i = 0,1$ together with the projection maps from $X\times I$ to $X$, are proper maps.
+=--
++-- {: .un_corollary}
+###### Corollary
+The category $Proper$ has a [[cylinder functor]].
+=--
 
 
 ##References##
