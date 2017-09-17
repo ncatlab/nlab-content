@@ -34,3 +34,4 @@ category: people
 
 [[!redirects Thomas Fiore]]
 [[!redirects Tom Fiore]]
+[[!redirects Thomas M. Fiore]]
