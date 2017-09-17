@@ -1,5 +1,11 @@
 
+## Idea
+
 A generalization of the notion of _[[tangent bundle]]_ in _[[exceptional generalized geometry]]_.
+
+## Related concepts
+
+* [[generalized tangent bundle]]
 
 (...)
 
