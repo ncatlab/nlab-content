@@ -244,8 +244,17 @@ Moving down and left the diagonals corresponds to _[[double dimensional reductio
 +-- {: .num_remark }
 ###### Remark
 
-What is missing in the table is the [[M5-brane]] in that top dimension. (See also [BPST](#BPST)).
-The reason is that the M5 corresponds to a 7-cocycle not on the ordinary [[super Poincaré Lie algebra]], but on its [[infinity-Lie algebra cohomology|L-infinity algebra extension]], the [[supergravity Lie 3-algebra]]. The completion in [[super L-infinity algebra]] theory is discussed in ([FSS 13](#FiorenzaSatiSchreiber13)).
+The first non-empty column of the table is a reflection of the exceptional isomorphisms of the [[spin group]] in low dimensions and the [[normed division algebras]]:
+
+[[!include exceptional spinors and division algebras -- table]]
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+What is missing in the "old brane scan" are the [[D-branes]] in $D = 10$ and the [[M5-brane]] in $D = 11$ (See also [BPST](#BPST)).
+The reason is that the M5 corresponds to a 7-cocycle not on the ordinary [[super Poincaré Lie algebra]], but on its [[infinity-Lie algebra cohomology|L-infinity algebra extension]], the [[supergravity Lie 3-algebra]]. The completion in [[super L-infinity algebra]] theory is discussed in ([FSS 13](#FiorenzaSatiSchreiber13)), as _[[schreiber:The brane bouquet]]_.
 
 =--
 
