@@ -19,7 +19,7 @@
 
 ## Definition
 
-A __natural isomorphism__ $\eta\colon F \Rightarrow G$ between two [[functor]]s $F$ and $G$
+A __natural isomorphism__ $\eta\colon F \Rightarrow G$ between two [[functors]] $F$ and $G$
 
 $$
   \array{
@@ -41,9 +41,9 @@ is equivalently
 
 In this case, we say that $F$ and $G$ are __naturally isomorphic__.
 
-
 If you want to speak of '[[the]]' functor satisfying certain conditions, then it should be unique up to unique natural isomorphism.
 
+A natural isomorphism from a functor to itself is also called a _natural [[automorphism]]_.
 
 ## Related concepts
 
@@ -56,3 +56,6 @@ If you want to speak of '[[the]]' functor satisfying certain conditions, then it
 [[!redirects natural isomorphisms]]
 [[!redirects naturally isomorphic functor]]
 [[!redirects naturally isomorphic functors]]
+
+[[!redirects natural automorphism]]
+[[!redirects natural automorphisms]]
