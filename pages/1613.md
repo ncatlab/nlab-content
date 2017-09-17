@@ -26,9 +26,9 @@ What might be called the _FFRS formalism_ after [[Jürgen Fuchs|Fuchs]], [[Ingo 
 
 It is (was earlier) well known that the construction of [[2d CFTs]] may be decomposed into 
 
-1. a "local geometric" aspect which describes the behaviour of the theory on infinitesikmal conformal cobordisms and is controled by [[vertex operator algebras]] and related structures, which in particular may be used to construct the spaces of [[conformal blocks]] of the theory, which are the spaces of _potential_ [[correlator]] functions with the right dependence of the [[conformal structure]];
+1. a "local geometric" aspect which describes the behaviour of the theory on infinitesimal conformal cobordisms and is controled by [[vertex operator algebras]] and related structures, which in particular may be used to construct the spaces of [[conformal blocks]] of the theory, which are the spaces of _potential_ [[correlator]] functions with the right dependence of the [[conformal structure]];
 
-1. a "global topological" aspects which consists of pickign in these spaces of [[conformal blocks]] over each surface one element (one correlation function depending on conformal structure) in such a way that these choices globally fit together under gluing of 2-dimensional [[cobordisms]], a condition known as the _[[sewing constraint]]_.
+1. a "global topological" aspects which consists of picking in these spaces of [[conformal blocks]] over each surface one element (one correlation function depending on conformal structure) in such a way that these choices globally fit together under gluing of 2-dimensional [[cobordisms]], a condition known as the _[[sewing constraint]]_.
 
 What the FFRS formalism effectively observes/shows is that the [[sewing constraints]] may be solved by appealing to a [[holography|holographic principle]] in form of the [[AdS3-CFT2 and CS-WZW correspondence]]. Indeed the FFRS formalism may be seen as providing a mathematically precise realization of this correspondence. (That is clear from the construction in the FFRS articles, but the relation to holography was made explicit in various web posts by Urs Schreiber and then later in ([Kapustin-Saulina 11](#KapustinSaulina11))).
 
