@@ -1,4 +1,10 @@
 
+## Properties
+
+### Group cohomology
+
+* [[Friedlander-Milnor isomorphism conjecture]]
+
 ## Related concepts
 
 * [[reductive group]]
