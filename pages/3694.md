@@ -15,6 +15,6 @@
 
 
 
-An **ordinary differential equation** is a [[differential equation]] involving derivatives of a function with respect to one argument only. The same for systems: there can be several functions, but all the derivatives are with respect to the same argument (in all equations).  In other words, we are looking at maps on a [[manifold]] of only $1$ [[dimension]].
+An **ordinary differential equation** is a [[differential equation]] involving derivatives of a function with respect to one argument only, i.e. the function is on a [[manifold]] of only $1$ [[dimension]]. This function can be vector valued, what is sometimes viewed as a system of possibly coupled equations; still all of them have the derivatives taken with respect to the same parameter.
 
 [[!redirects ordinary differential equations]]
