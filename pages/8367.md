@@ -9,7 +9,7 @@ Inductive reasoning concerns assessments of how likely a statement is to be true
 
 Not everybody holds that such reasoning occurs. [[Karl Popper]] famously claimed that "Induction, i.e. inference based on many observations, is a myth. It is neither a psychological fact, nor a fact of ordinary life, nor one of scientific procedure." (Conjectures and Refutations, p. 53).
 
-Not to be confused with [[mathematical induction]].
+Not to be confused with [[induction|mathematical induction]].
 
 
 ## As Bayesian probability
