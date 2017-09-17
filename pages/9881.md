@@ -7,6 +7,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
 #### Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
@@ -32,7 +36,7 @@ The amplitudes are thought (see the commented [references below](#References)) t
 +-- {: .num_remark}
 ###### Remark
 
-The full [[perturbation series]] is the [[sum]] of all these (finite) contributions over the [[genus|genera]] of [[Riemann surfaces]] (the "loop orders"). This _sum_ diverges, even if all loop orders are finite. Notice though, that a non-trivial [[perturbation theory|perturbative]] [[QFT]] is not supposed to have a finite [[radius of convergence]] of its scattering amplitudes, since that would imply convergence also for _negative_ [[coupling constant]], which is physically unreasonable. For the [[bosonic string]] the perturbation series has apparently been explicitly shown not to be [[Borel summation|Borel resummable]].
+The full [[perturbation series]] is the [[sum]] of all these (finite) contributions over the [[genus|genera]] of [[Riemann surfaces]] (the "loop orders"). This _sum_ diverges, even if all loop orders are finite. Notice though, that a non-trivial [[perturbation theory|perturbative]] [[QFT]] is not supposed to have a finite [[radius of convergence]] of its scattering amplitudes, since that would imply convergence also for _negative_ [[coupling constant]], which is physically unreasonable. (For the [[bosonic string]] the perturbation series has apparently been explicitly shown not to be [[Borel summation|Borel resummable]].) For more on this see at _[[non-perturbative effect]]_ and _[string theory FAQ -- Is the divergence of the pertubation series fatal?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)_.
 
 =--
 
@@ -63,12 +67,16 @@ The scattering amplitudes in [[twistor string theory]] induce the MHV amplitudes
 
 * [[perturbation theory]], [[perturbative string theory]]
 
+* [[non-perturbative effect]], [[M-theory]]
+
 * [[string theory FAQ]], [[string theory results applied elsewhere]]
 
 ## References
  {#References}
 
 ### On finiteness
+
+Here is a commented list of references on the degreewise [finiteness of string scattering amplitudes](#Finiteness).
 
 #### Bosonic string
 
