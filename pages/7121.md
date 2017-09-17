@@ -21,6 +21,12 @@ There are attempts/speculations/proposals to use [[p-adic numbers]] in place of 
 
 * [[number theory and physics]]
 
+* [[p-adic geometry]]
+
+* [[p-adic homotopy]]
+
+* [[p-adic cohomology]]
+
 ## References
 
 ### Textbooks
