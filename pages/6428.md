@@ -1,0 +1,15 @@
+
+## Idea
+
+### Broken global symmetry
+
+### Broken local symmetry
+
+## References
+
+In 
+
+* [[Steven Weinberg]], _The quantum theory of fields_
+
+sponaneously broken [[global gauge group]] symmetry is discssuion in vol I, section 19, and spontaneously broken [[local gauge group]] symmetry in vol I, section 21.4.
+
