@@ -47,7 +47,7 @@ An [[abelian group]] is torsion-free precisely if regarded as a $\mathbb{Z}$-[[m
 
 =--
 
-See at _[flat module - Examples](flat+module#Examles)_ for more.
+This is a special case of a [more general result](http://ncatlab.org/nlab/show/principal+ideal+domain#flat) for modules over a principal ideal domain. See also _[flat module - Examples](flat+module#Examles)_ for more.
 
 
 ## Examples and applications 
