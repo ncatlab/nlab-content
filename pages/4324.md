@@ -1,19 +1,26 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 A **connective spectrum** is a [[spectrum]] whose [[homotopy group]]s in negative degree vanish. These are equivalently
 
-* **[[infinite loop space]]s** 
+* [[infinite loop spaces]];
 
-* or [[group object in an (infinity,1)-category|grouplike]] [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoid]]s.
+* [[group object in an (infinity,1)-category|grouplike]] [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoids]].
 
 Connective spectra form a [[sub-(∞,1)-category]] of [[spectra]]
 
