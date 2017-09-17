@@ -145,7 +145,7 @@ See for instance ([KL 95, section 2.4](#KL95), [Chen-Han-Zhang 10, section 2](#C
 As part of this, the [[Kac-Weyl character]] of an integral highest-weight [[loop group representation]] is a Jacobi form ([KL 95, section 2.2](#KL95)).
 
 
-The **Jacobi identity** asserts that these are related by
+The **Jacobi identity** (see at _[[Jacobi triple product]]_) asserts that these are related by
 
 
 $$
