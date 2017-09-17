@@ -1,5 +1,5 @@
-I am a graduate student at the University of Chicago. 
+I am a postdoc at Harvard University.
 
-My webpage can be found [here](http://www.math.uchicago.edu/~eriehl/).
+My webpage can be found [here](http://www.math.harvard.edu/~eriehl/).
 
 category: people
