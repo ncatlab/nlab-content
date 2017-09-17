@@ -21,7 +21,7 @@
 
 A [[geometric morphism]] between [[toposes]] $(f^* \dashv f_*) : \mathcal{E} \to \mathcal{F}$ is **surjective** or a **geometric surjection** if it satisfies the following equivalent criteria:
 
-* its [[inverse image functor]] $f_*$ is [[faithful functor|faithful]] (in contrast to the [[direct image]] being [[full and faithful functor|full and faithful]] for a [[geometric embedding]] ); 
+* its [[inverse image functor]] $f_*$ is [[faithful functor|faithful]] (in contrast to the [[direct image]] being [[full and faithful functor|full and faithful]] as for a [[geometric embedding]] ); 
 
 * its [[inverse image functor]] $f^*$ is [[conservative 
 functor|conservative]];
@@ -43,6 +43,89 @@ functor|conservative]];
 =--
 
 The equivalence of these condition appears for instance as [MacLaneMoerdijk, VII 4. lemma 3 and prop. 4](#MacLaneMoerdijk).
+
++-- {: .proof}
+###### Proof
+
+We discuss the equivalence of these conditions:
+
+The equivalence $(f^* faithful) \Leftrightarrow (Id \to f^* f_* is mono)$ is a general property of [[adjoint functor]]s (see there). 
+
+The implication $(f^* faithful) \Rightarrow (f^* induces injection on subobjects)$ works as follows: 
+
+first of all $f^*$ does indeed preserves subobjects: since it respects [[pullback]]s and since [[monomorphism]]s are characterized as those morphisms whose domain is stable under pullback along themselves.
+
+To see that $f^*$ induces an injective function on subobjects let $U \hookrightarrow X$ be a subobject with characteristic morphism $char U : X \to \Omega$ and consider the image
+
+$$
+  \array{
+    f^* U &\to& f^* * \simeq *
+    \\
+    \downarrow && \downarrow
+    \\
+    f^* X &\stackrel{f^* char U}{\to}& f^* \Omega
+  }
+  \,.
+$$
+
+of the pullback diagram that exhibits $U$ as a subobject. Since $f^*$ preserves pullbacks, this is still a pullback diagram. 
+
+If now $U \leq \tilde U$ but $f^* (U) = f^*(\tilde U)$ then both corresponding pullback diagrams are sent by $f^*$ to the same such diagram. By faithfulness this implies that also
+
+$$
+  \array{
+    \tilde U &\to& * 
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{char U}{\to}& \Omega
+  }
+$$
+
+commutes, and hence that also $\tilde U \subset U$, so that in fact $\tilde U \simeq U$.
+
+Next we consider the implication $(f^* induces injection on subobjects) \Rightarrow (f^* is conservative)$.
+
+Assume $f^* (X \stackrel{\simeq}{\to} X')$ is an isomorphism. We have to show that then $\phi$ is an isomorphism. Consider the [[image]] factorization $X \to im(\phi) \hookrightarrow X'$. Since $f$ preserves pushouts and pullbacks, it preserves epis and monos and so takes this to the image factorization 
+
+$$  
+  f^* X \to f^* (im \phi) \stackrel{\simeq}{\to} f^* X'
+$$
+
+of $f^* \phi$, where now the second morphism is an iso, because $f^* \phi$ is assumed to be an iso. By the assumption that $f^* $ is injective on subobjects it follows that also $im \phi \simeq X'$ and thus that $\phi$ is an epimorphism.
+
+It remains to show that $\phi$ is also a monomorphism. For that it is sufficient to show that in the pullback square
+
+$$
+  \array{
+    X \times_{X'} X &\to& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{\phi}}
+    \\
+    X &\stackrel{\phi}{\to}& X'
+  }
+$$
+
+we have $X \times_{X'} X \simeq X$. Write $\Delta : X \to X \times_{X'} X$ for the [[diagonal]] and let
+
+$$
+  X \to im \Delta_\phi \to X \times_{X'} X
+$$
+
+be its [[image]] factorization. Doing the same for $f^* \phi$, which we have seen is a monomorphism, and using that $f^*$ preserves the pullback,  we get
+
+$$
+  f^* im \Delta_\phi \simeq f^* (X \times_{X'} X)
+  \,.
+$$
+
+Now using again the assumption that $f^*$ is injective on subobjects, this implies $im \Delta_\phi = X \times_{X'} X$ and hence that $\phi$ is a monomorphism.
+
+(...)
+
+The statement about the comonadic adjunction we discuss below as prop. \ref{Comonadicity}.
+
+=--
 
 ## Properties
 
@@ -68,7 +151,7 @@ By the discussion at [[topos of coalgebras]] the [[inverse image]] is the [[forg
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #Comonadicity}
 ###### Proposition
 
 Up to [[equivalence of categories|equivalence]], every geometric surjection is of this form.
