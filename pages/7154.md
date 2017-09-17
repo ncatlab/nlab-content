@@ -1,0 +1,5 @@
+While the composition of birational maps given by [[Laurent polynomial]]s is in general not a Laurent polynomial there is a number of systematic situations when this is true. In particular, in a [[cluster algebra]], any cluster variable is expressed in terms of any given cluster as a Laurent polynomial with coefficients in the integral group ring $\mathbf{Z}\mathbf{P}$ where $\mathbf{P}$ is the coefficient group. An explanation in the quantum case, from a Hodge-theoretic point of view, has recently being offered by A. Efimov. 
+
+* Sergey Fomin, [[Andrei Zelevinsky]], _The Laurent phenomenon_, [math.CO/0104241](http://arxiv.org/abs/math/0104241)
+* Sergey Fomin, [[Andrei Zelevinsky]], _Cluster algebras I: Foundations_, [arxiv/0104151](http://arxiv.org/abs/math/0104151)
+* [[Alexander I. Efimov]], _Quantum cluster variables via vanishing cycles_,  [arxiv/1112.3601](http://arxiv.org/abs/1112.3601)
