@@ -89,6 +89,10 @@ A canonical textbook source is
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+### $(p,q)$-Strings and S-duality
+
+* [[John Schwarz]], opening talk at [Strings 2013](http://strings2013.sogang.ac.kr/), ([pdf](http://strings2013.sogang.ac.kr/design/default/data/john_schwarz.pdf))
+
 ### Quantum anomalies
 
 Discussion of type II [[quantum anomalies]] is in 
