@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Entropy
 * table of contents
 {: toc}
@@ -121,7 +120,7 @@ There is a way to fit this into the framework given by (eq:general), but I don\'
 For two finite probability distributions $(p_i)$ and $(q_i)$, their **relative entropy** is 
 
 $$
-  S(p/q) := \sum_{k = 1}^n p_k(log p_k - log q_k)
+  S(p/q) \coloneqq \sum_{k = 1}^n p_k(log p_k - log q_k)
   \,.
 $$
 
@@ -129,15 +128,16 @@ $$
 Or alternatively, for $\rho, \phi$ two [[density matrix|density matrices]], their relative entropy is 
 
 $$
-  S(\rho/\phi) := tr \rho(log \rho - log \phi)
+  S(\rho/\phi) \coloneqq tr \rho(log \rho - log \phi)
   \,.
 $$
 
 There is a generalization of these definitions to [[state]]s on general [[von Neumann algebra]]s, due to ([Araki](#Araki)).
 
-For more on this see _[[relative entropy]]_ .
+For more on this see _[[relative entropy]]_.
 
-### Physical entropy
+
+## Physical entropy
 
 As hinted above, any probability distribution on a [[phase space]] in [[classical physics]] has an entropy, and any [[density matrix]] on a [[Hilbert space]] in [[quantum physics]] has an entropy.  However, these are __microscopic entropy__, which is not the usual entropy in [[thermodynamics]] and most other branches of [[physics]].  (In particular, microscopic entropy is conserved, rather than increasing with time.)
 
@@ -145,7 +145,7 @@ Instead, physicists use *coarse-grained* entropy, which corresponds mathematical
 
 Generally, we specify a state by a point in $\mathbb{R}^n$, a macroscopic pure state, and assume a uniform probability distribution on its [[fibre]] in $\mathbb{R}^N$.  If this fibre were a finite set, then we would recover Boltzmann\'s formula (eq:Boltzmann).  This is never exactly true in classical statistical physics, but it is often nevertheless a very good approximation.  (Boltzmann\'s formula actually makes better physical sense in quantum statistical physics, even though Boltzmann himself did not live to see this.)
 
-#### Gravitational entropy
+### Gravitational entropy
 
 * gravitational entropy
 
