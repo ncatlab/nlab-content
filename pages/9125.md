@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 #### Higher geometry
 +--{: .hide}
 [[!include higher geometry - contents]]
@@ -1293,7 +1297,7 @@ $$
   DK(U(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \Omega^2)
 $$
 
-be the image under the [[Dold-Kan correspondence]] of the [[Deligned complex]] for degree-3 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 2-stack]] for [[circle n-bundle with connection|circle 2-bundle with connections]].
+be the image under the [[Dold-Kan correspondence]] of the [[Deligne complex]] for degree-3 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 2-stack]] for [[circle n-bundle with connection|circle 2-bundle with connections]].
 
 Setting $\mathbf{BgFields} \simeq *$ and
 
@@ -1317,7 +1321,7 @@ $$
   DK(U(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \Omega^2 \stackrel{d}{\to}\Omega^3)
 $$
 
-be the image under the [[Dold-Kan correspondence]] of the [[Deligned complex]] for degree-4 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 3-stack]] for [[circle n-bundle with connection|circle 3-bundle with connections]].
+be the image under the [[Dold-Kan correspondence]] of the [[Deligne complex]] for degree-4 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 3-stack]] for [[circle n-bundle with connection|circle 3-bundle with connections]].
 
 Fields whose moduli stack is
 
@@ -1331,37 +1335,56 @@ are one component of the [[supergravity C-field]].
 ### **II)** Matter fields
  {#MatterFields}
 
-[[matter]]
+Fundamental [[matter]]-fields as they appear in the [[standard model of particle physics]], hence fundamental [[fermions]] such as [[electrons]], [[quarks]] and [[neutrinos]], are [[sections]] of a $G$-[[associated bundle]] $E \to X$ on [[spacetime]], where $G$ is the [[gauge group]] of the [[force]] fields that interact with the matter fields and where $E \to X$ is [[associated bundle|associated]] to the [[principal bundle]] underlying such a force [[gauge field]], as discussed in _[Gauge fields](#GaugeFields)_ above, and, if we are talking indeed about fermions, to the [[spin bundle]] given by the gravity-spin structure field discussed in _[Gravity and generalized geometry](#MatterFields)_ above.
+
+More precisely, fermioninc matter fields are sections of these bundles regarded in [[supergeometry]] with the fibers regarded as odd-graded. (...)
+
 
 #### **General** -- sections of associated fiber $\infty$-bundles
  {#SectionsOfAssociatedBundles}
 
-general: [[section]] of $\rho$-[[associated ∞-bundle]]
+We start by discussing the general mechanism by which [[sections]] of $\rho$-[[associated ∞-bundles]] are an example of the general definition \ref{FieldsInAnActionFunctional}.
 
-* $G \in \Grp(\mathbf{H})$ an [[∞-group]];
+For $G \in \Grp(\mathbf{H})$ a geometric [[∞-group]], there is an [[equivalence of (∞,1)-categories]]
 
-* [[∞-action]]/[[∞-representation]] of $G$ on $V \in \mathbf{H}$ is equivalently [[homotopy fiber sequence]]
+$$
+  G Act \simeq \mathbf{H}_{/\mathbf{B}G}
+$$
 
-  $$
-    \array{
-      V &\to& V//G
-      \\
-      && \downarrow^{\overline \rho}
-      \\
-      \mathbf{B}G
-    }
-  $$ 
+between that of [[∞-actions]] of $G$ and the [[slice (∞,1)-topos]] of $\mathbf{H}$ over the [[delooping]] $\mathbf{B}G$ of $G$. Under this equivalence an [[∞-action]]/[[∞-representation]] of $G$ on some $V \in \mathbf{H}$ is equivalently a [[homotopy fiber sequence]] of the form
 
-  this is the [[universal associated ∞-bundle]]
+$$
+  \array{
+    V &\to& V//G
+    \\
+    && \downarrow^{\overline \rho}
+    \\
+    && \mathbf{B}G
+  }
+$$ 
 
+in $\mathbf{H}$. This is the [[universal associated ∞-bundle|universal rho-associated ∞-bundle]]: for $P \to X$ any $G$-[[principal ∞-bundle]] with modulating map $g_X \;\colon\; X \to \mathbf{B}G$ the corresponding [[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]] is naturally equivalent to the [[(∞,1)-pullback]] of $\overline{\rho}$ along $g$:
 
-* for $g_X \colon X \to \mathbf{B}G$ modulating a [[principal ∞-bundle]] $P \to X$ a [[section]] of the [[associated ∞-bundle]] $P \times_G V \to X$ is equivalently a field
+$$
+  P \times_G V \simeq g_X^*(\overline{\rho})
+  \,.
+$$
 
-  $$
-    \phi : g_X \to \overline{\rho}
-  $$
+From this and the [[universal property]] of the [[(∞,1)-pullback]] one finds that a [[section]] of the [[associated ∞-bundle]] $P \times_G V \to X$ is equivalently a map
+
+$$
+  \phi : g_X \to \overline{\rho}
+$$
   
-  in $\mathbf{H}_{/\mathbf{B}G}$
+in $\mathbf{H}_{/\mathbf{B}G}$.
+
+This means that such sections are fields in the sense of def. \ref{FieldsInAnActionFunctional} where
+
+* $\mathbf{BgFields} \simeq \mathbf{B}G$;
+
+* the [[background field]] is the moduli $g_X$;
+
+* the [[moduli ∞-stack]] of fields is $\overline{\rho} \in \mathbf{H}_{/\mathbf{B}G}$.
 
 
 
@@ -1379,6 +1402,8 @@ $$
   \to 
   \mathbf{B}Spin
 $$
+
+in [[supergeometry]] (...)
 
 #### Tensor fields
 
