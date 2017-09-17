@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/James_Clerk_Maxwell)
+
+## Related entries
+
+* [[electromagnetism]]
+
+category: people
+
+[[!redirects James Maxwell]]
