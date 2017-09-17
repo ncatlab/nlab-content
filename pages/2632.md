@@ -236,10 +236,13 @@ Remark: Another way to look at quantum processes is via [[quantum channels]] whi
 
 For a previous query about quantum physics (includes experimental phenomena) and quantum mechanics (formalism for such, sometimes with or without statistical principles) see [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2573&Focus=22059#Comment_22059).
 
+## Formulations and formalization
 
+### Order-theoretic structure in quantum mechanics
 
+See _[[order-theoretic structure in quantum mechanics]]_.
 
-## Quantum mechanics in terms of $\dagger$-compact categories
+### Quantum mechanics in terms of $\dagger$-compact categories
 
 Many aspects of quantum mechanics and [[quantum computation]] depend only on the abstract properties of [[Hilb]] characterized by the fact that it is a [[†-compact category]]. 
 
