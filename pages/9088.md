@@ -2,4 +2,5 @@ A [[regular scheme]] $(X,\mathcal{O}_X)$ is an [[algebraic scheme]] such that th
 
 * [[eom]]: [regular scheme](http://www.encyclopediaofmath.org/index.php/Regular_scheme)
 
+category: algebraic geometry
 [[!redirects regular schemes]]
