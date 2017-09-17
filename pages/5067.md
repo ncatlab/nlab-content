@@ -42,7 +42,9 @@ $$ Bang(\ell^1(S), V) \cong Set(S, Ball(V)) $$
 
 ...
 
-Then $\ell^1(S)$ is a $C$-projective Banach space for any $C\gt1$. (When $S$ is uncountable this definitely needs Choice; I guess that when $S$ is countably infinite this can be relaxed to countable Choice.)
+Then $\ell^1(S)$ is a $C$-projective Banach space for any $C\gt1$. (When $S$ is uncountable this definitely needs [[Choice]]; I guess that when $S$ is countably infinite this can be relaxed to [[countable choice]].)
+
+>David Roberts: Or even [[dependent choice]]?
 
 ...
 
@@ -54,13 +56,13 @@ YC has often wondered if this result has any meaningful kinship with the [[Niels
 
 ## Comments on attempts at equivalent formulations ##
 
-In an [[abelian category]] $C$ one sometimes (often?) sees the following definition of a [[projective object]]: an object $P$ is projective in $C$ if the [[hom-functor]] $C(P,\cdot)$ is (right) [[exact functor|exact]]. (I think it is always left exact?)
+In an [[abelian category]] $C$ one sometimes (often?) sees the following definition of a [[projective object]]: an object $P$ is projective in $C$ if the [[hom-functor]] $C(P,\cdot)$ is (right) [[exact functor|exact]]. (I think it is always left exact?). In an abelian category this is the same as preserving [[epimorphisms]], but not in general. 
 
 > Urs: yes, because the hom-functor preserves all limits.
 
 Now the [[categories]] of Banach spaces and Banachable spaces each possess notions of [[zero object]], [[kernel]] and [[cokernel]]. So we could define exactness in terms of these. But now 'exactness' in this sense of a [[short exact sequence]] of Banach(able) spaces does not imply exactness of the underlying short exact sequence of [[vector spaces]]!
 
-Put another way: as we (will) have defined it above, projectivity of a Banach space $P$ is different from asking that the functor $\operatorname{hom}(P,\cdot)$ preserves [[epimorphism]]s...
+Put another way: as we (will) have defined it above, projectivity of a Banach space $P$ is different from asking that the functor $\operatorname{hom}(P,\cdot)$ preserves epimorphisms...
 
 +--{: .query}
 [[David Roberts]]: I suppose it's about asking what you want to do with said projective objects - projective resolutions? Calculate some sort of cohomology? Know that every epimorphism (or analogous map - perhaps the quotient map of a ses?) to a projective object splits?
