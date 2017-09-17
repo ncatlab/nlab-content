@@ -39,13 +39,17 @@ Among all [[∞-groupoids]] the [[strict ∞-groupoids]] correspond to [[crossed
 
 ## Definition
 
+
++-- {: .num_defn #KanComplexes}
+###### Definition
+
 A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
 
-* which says that all [[horn|horns]] of the simplicial set have _fillers_/extend to [[simplices]],
+* which says that all [[horns]] of the simplicial set have _fillers_/extend to [[simplices]];
 
-* which means equivalently that the unique morphism $S \to pt$ from $S$ to the [[point]] is a [[Kan fibration]], 
+* which means equivalently that the unique homomorphism $S \to pt$ from $S$ to the [[point]] (the [[terminal object|terminal]] [[simplicial set]]) is a [[Kan fibration]];
 
-* which means equivalently that for all diagrams
+* which means equivalently that for all [[diagrams]] of the form
 
   $$
   \array{
@@ -66,7 +70,9 @@ A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_,
     \Delta[n] 
   }
   $$
+
   there exists a diagonal morphism
+
   $$
   \array{
     \Lambda^i[n] &\to& S
@@ -85,39 +91,201 @@ A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_,
     \\
     \Delta[n] 
   }
-  \,.
   $$
 
-* This in turn means equivalently that the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
+  completing this to a [[commuting diagram]];
+
+* which in turn means equivalently that the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
 $$
   [\Delta[n], S]\, \twoheadrightarrow \,[\Lambda^i[n],S]
   \,.
 $$
 
-  In this last form the Kan condition is useful 
-  for defining [[internalization|internal]] Kan 
-  complexes: for instance a _smooth Kan complex_ can 
-  be defined as a simplicial object in [[Diff]] 
-  such that the morphisms
-  $
-    [\Delta[n], S] \to [\Lambda^i[n],S]
-  $
-  are _surjective submersions_.
+=--
 
++-- {: .num_remark }
+###### Remark
+
+The last characterization in def. \ref{KanComplexes} is 
+sometimes taken to induce the generalization to [[internalization|internal]] 
+Kan complexes in ambient geometric contexts. 
+For instance the generalization of [[Lie groupoids]] to
+"Lie Kan complexes" 
+might be defined to be given by [[simplicial objects]] in 
+the [[category]] [[SmoothMfd]] of [[smooth manifolds]] 
+such that the morphisms
+
+$$
+  [\Delta[n], S] \to [\Lambda^i[n],S]
+$$
+
+are _[[surjective submersions]]_.
+
+While this is useful for some purposes, one should beware that this naive generalization, if taken at face value, may break the [[homotopy theory|homotopy theoretic]] interpretation of (smooth, say) Kan complexes as models for ([[smooth infinity-groupoid|smooth]], say) [[∞-groupoids]]. A homotopy-good theory of Lie Kan complexes is discussed in ([NSS, section 4.2](#NSSb)).
+See at _[[internal ∞-groupoid]]_ for more.
+
+=--
 
 
 ## As models for $\infty$-groupoids
  {#AsGrpds}
 
-Here we discuss aspects of how _Kan complexes_ serve as a model (a "[[geometric definition of higher categories|geometric model]]") for _[[∞-groupoids]]_ or _[[homotopy types]]_ (in fact this is often the default model, especially in the context of [[homotopy theory]]). This is a special case of how [[weak Kan complexes]] ([[quasi-categories]]) are a model for [[(∞,1)-categories]].
+Here we discuss aspects of how _Kan complexes_ serve as a model (a "[[geometric definition of higher categories|geometric model]]") for [[groupoids]], [[2-groupoids]], ... [[n-groupoids]] and generally _[[∞-groupoids]]_ or _[[homotopy types]]_. 
 
-The horn filling condition from this point of view is read as guaranteeing that
 
-* for all collection of $(n-1)$ composable $n$-cells (a horn $\Lambda^k[n]$) there exists an $n$-cell -- their _composite_ -- and an $(n-1)$-cell connecting the original $(n-1)$ $n$-cells with their composite. Depending on $k$, this interpretation in terms of composition implies that one thinks of all cells as being reversible. 
+First we briefly recall 1-[[groupoids]] and their [[nerves]] in
+
+* [1-Groupoids as Kan complexes](#1GroupoidsAsKanComplexes)
+
+then 
+
+* (...)
+
++-- {: .num_remark}
+###### Remark
+
+This is a special case of how [[weak Kan complexes]] ([[quasi-categories]]) are a model for [[(∞,1)-categories]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The horn filling condition from this point of view is read as guaranteeing that:
+
+for all collection of $(k-1)$ composable [[k-morphisms]] (given by a horn $\Lambda^k[n]$) there exists a [[k-morphism]] -- their _composite_ -- and an $(n+1)$-morphism connecting the original $(n-1)$ $n$-cells with their composite. Depending on $k$, this interpretation in terms of composition implies that one thinks of all cells as being reversible. 
 
 For illustrations of the horn-filler conditions see also at [[Kan fibration]].
 
-Whatever other definition of [[∞-groupoid]] one considers, it is expected to map to a Kan complex under the [[nerve]].
+
+=--
+
+
+
++-- {: .num_remark}
+###### Remark
+
+Whatever other definition of [[∞-groupoid]] one considers, it is expected (and in most cases has been shown) to map to a Kan complex under the [[nerve]]. See at _[[homotopy hypothesis]]_ for more on this.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Of all the models for [[∞-groupoids]] known in the literature, Kan complexes are probably the most widely used, certainly in [[homotopy theory]] and related "geometric" approaches to [[higher category]] (such as in terms of [[n-fold complete Segal spaces]] etc.), less so in "algebraic" approaches to [[higher category theory]]. To a large extent this is because the category of Kan complexes -- in particular when thought of as the full sub-[[category of fibrant objects]] inside the standard [[model structure on simplicial sets]] -- lends itself usefully to many computations; to some extent it is maybe a historical coincidence that specifically for this model the theory was worked out in such detail. Maybe if [[Daniel Kan|Kan]] -- who first tried [[cubical sets]] and then rejected them in favor of [[simplicial sets]] due to some technical issues -- had tried [[connection on a cubical set|cubical set with connection]] first, things would have developed differently. See at _[[cubical set]]_ for discussion of this issue.
+
+But in any case it seems clear that there is no "fundamental" conceptual role to prefer Kan complexes over other models for [[∞-groupoids]]. Instead, in view of modern developments it seems right to regard the abstract concept of [[homotopy type]] (not as an [[equivalence class]], but as a representative, though) as fundamental, and everything else to be "just a model" for this, which may or may not be useful for a particular computation. This point of view is formalized by the [[univalent foundations]] of mathematics in terms of [[homotopy type theory]]. Here the [[theory]] of [[homotopy types]] is given as an abstract foundational notion and then [[Kan complexes]] and related structures are shown to be a [[model]]. For more on this see at _[[homotopy type theory]]_.
+
+
+=--
+
+### 1-Groupoids as Kan complexes
+ {#1GroupoidsAsKanComplexes}
+
++-- {: .num_defn #Groupoid}
+###### Definition
+
+A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
+
+* a pair of [[sets]] $\mathcal{G}_0 \in Set $ (the set of [[objects]]) and $\mathcal{G}_1 \in Set$ (the set of [[morphisms]])
+
+* equipped with [[functions]]
+
+  $$
+    \array{
+      \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
+      &\stackrel{\circ}{\to}&
+      \mathcal{G}_1
+      & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
+      \mathcal{G}_0
+    }\,,
+  $$
+
+  where the [[fiber product]] on the left is that over $\mathcal{G}_1 \stackrel{t}{\to} \mathcal{G}_0 \stackrel{s}{\leftarrow} \mathcal{G}_1$, 
+
+such that
+
+* $i$ takes values in [[endomorphisms]];
+
+  $$
+    t \circ i = s \circ i =   id_{\mathcal{G}_0}, \;\;\; 
+  $$
+
+* $\circ$ defines a partial [[composition]] operation which is [[associativity|associative]] and [[unitality|unital]] for $i(\mathcal{G}_0)$ the [[identities]]; in particular
+
+  $s (g \circ f) = s(f)$ and $t (g \circ f) = t(g)$;
+
+* every morphism has an [[inverse]] under this composition.
+
+=--
+
+
++-- {: .num_defn #NerveOfGroupoid}
+###### Definition
+
+For $\mathcal{G}_\bullet$ a [[groupoid]], def. \ref{Groupoid}, we write
+
+$$
+  \mathcal{G}_n \coloneqq \mathcal{G}_1^{\times_{\mathcal{G}_0}^n}
+$$ 
+
+for the set of sequences of composable morphisms of length $n$, for $n \in \mathbb{N}$; schematically:
+
+$$
+  \mathcal{G}_n = 
+  \left\{
+    x_0 
+      \stackrel{f_1}{\to} 
+    x_1
+      \stackrel{f_2}{\to}
+    x_2
+      \stackrel{f_2}{\to}
+    \cdots
+      \stackrel{f_n}{\to}
+    x_n
+  \right\}
+  \,.
+$$
+
+For each $n \geq 1$, the two maps $d_0$ and $d_n$ that forget the first and the last morphism in such a sequence and the $n-1$ maps $d_k$ that form the composition of the $k$th morphism in the sequence with the next one, constitute $(n+1)$ [[functions]] denoted
+
+$$
+  d_k \colon \mathcal{G}_n \to \mathcal{G}_{n-1}
+  \,.
+$$
+
+Moreover, the assignments $s_i$ that insert an [[identity]] morphism in position $i$ constitute [[functions]] denoted
+
+$$
+  s_i \colon \mathcal{G}_{n-1} \to \mathcal{G}_n
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]]. Moreover, they make $N(\mathcal{G}_\bullet)$ a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[nerve]] operation constitutes a [[full and faithful functor]]
+
+$$
+  N \colon Grpd \to KanCplx \hookrightarrow sSet
+  \,.
+$$
+
+
+=--
+
+
+
 
 ### Composition and inverses
 
@@ -532,9 +700,7 @@ Other concepts:
 
 For Kan complexes as such see the references at _[[simplicial set]]_ and at [[model structure on simplicial sets]].
 
-For Kan complexes as $\infty$-groupoids, see for instance 
-
-section 1.2.5 of 
+For Kan complexes as $\infty$-groupoids, see for instance  section 1.2.5 of 
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
@@ -543,6 +709,11 @@ An early mention of this idea was in
 * [[Tim Porter]],  Letter to [[Grothendieck]], dated 16/6/1983 ([[16-06-1983.pdf|pdf:file]])
 
 For background on the general relation of simplicial- and globular sets see also the references at [[oriental]]. 
+
+Discussion of the [[homotopy theory]] of [[smooth ∞-groupoids]] presented by "Lie-Kan complexes" is in section 4.2 of
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _Principal $\infty$-bundles - Presentations_ ([arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
+  {#NSSb}
 
 
 [[!redirects Kan complexes]]
