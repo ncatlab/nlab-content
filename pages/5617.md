@@ -59,6 +59,10 @@ If $X$ is unoriented, then we can only integrate $n$-pseudoforms, so we can only
 
 If I remember correctly, every volume (pseudo)form comes from a metric, which is unique iff $n \leq 1$.
 
+## Related concepts
+
+* [[density]]
+
 
 [[!redirects volume form]]
 [[!redirects volume forms]]
