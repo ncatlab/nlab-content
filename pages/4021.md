@@ -1,5 +1,19 @@
 Page under construction with notes from blog entries.
 
+#Contents#
+* the following line creates the automatic table of contents
+{:toc}
+
+
+## Idea ##
+Probability theory is concerned with mathematical models of random phenomena. Its central mathematical concepts are based mostly on [[measure theory]], so from a pure mathematical viewpoint probability theory today could be characterized as the study of [[measurable space]]s with a finite volume normalized to $1$. Broader perspectives may stress the relevance of other pure mathematical concepts for probability theory, or include aspects of the interpretation of mathematical results to phenomenology, the latter part making naturally contact with the field of [[statistics]].
+
+## Abstract ##
+...
+
+## Definition ##
+...
+
 ##Probability theory from the nPOV##
 
 Prakash Panangaden in [Probabilistic Relations](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.52.4840) defines the category $SRel$ (stochastic relations) to have as objects sets equipped with a $\sigma$-field. Morphisms are conditional probability densities or stochastic kernels. So, a morphism from $( X, \Sigma_X)$ to $( Y, \Sigma_Y)$ is a function $h: X \times \Sigma_Y \to [0, 1]$ such that 
