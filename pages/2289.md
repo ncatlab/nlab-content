@@ -57,7 +57,7 @@ The central theorem is
 
    These links point to pages that contain notes on aspects of the theory that are in the style of and originate from [a seminar on A Survey of Elliptic Cohomology](http://nd.edu/~rgrady/elliptic_seminar.html):
 
-   1. [[A Survey of Eilliptic Cohomology - cohomology theories]]
+   1. [[A Survey of Elliptic Cohomology - cohomology theories]]
 
    1. [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
 
@@ -72,7 +72,6 @@ The central theorem is
    1. [[A Survey of Elliptic Cohomology - A-equivariant cohomology]]
 
    1. [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves]]
-
 
    1. [[A Survey of Elliptic Cohomology - towards a proof]]
 
@@ -138,9 +137,9 @@ and
 
 * [[periodic cohomology theory|periodic]].
 
-It so happens that all multiplicaive periodic generalized Eilenberg-Steenrod cohomology theories $A$ are characterized by the [[formal group]] (an [[infinitesimal space|infinitesimal]] [[group]]) whose [[ring]] of functions is the [[cohomology ring]] $A(\mathbb{C}P^\infty)$ obtained by evaluating $A$ on the complex projective space $\mathbb{C}P^\infty \simeq \mathcal{B} U(1)$ -- the [[classifying space]] for complex [[line bundle]]s -- and whose group product is induced from the morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \to \mathbb{C}P^\infty$ that representes the [[tensor product]] of complex [[line bundle]]s.
+It so happens that all multiplicative periodic generalized Eilenberg-Steenrod cohomology theories $A$ are characterized by the [[formal group]] (an [[infinitesimal space|infinitesimal]] [[group]]) whose [[ring]] of functions is the [[cohomology ring]] $A(\mathbb{C}P^\infty)$ obtained by evaluating $A$ on the complex projective space $\mathbb{C}P^\infty \simeq \mathcal{B} U(1)$ -- the [[classifying space]] for complex [[line bundle]]s -- and whose group product is induced from the morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \to \mathbb{C}P^\infty$ that representes the [[tensor product]] of complex [[line bundle]]s.
 
-There are precicely three different types of such formal groups:
+There are precisely three different types of such formal groups:
 
 * the additive formal group (a single one)
 
@@ -181,7 +180,7 @@ as maps between such subsets. Hence the assignment of cohomology theories to ell
 
 In order to _glue_ all elliptic cohomology theories in some way one would like to take something like the [[category of elements]] of this [[sheaf]], i.e. its [[homotopy limit]]. In order to say what that should mean, one has to specify the suitable nature of the codomain, the collection of "all cohomology theories".
 
-As emphasized at [[generalized (Eilenberg-Steenrod) cohomology]], the best way to do this is to identify a generalized (Eilenberg-Steenrod) cohomology theory with the [[spectrum]] that represents it. It is and was well known how to do this for each elliptic curve seperately. What is not so clear is how this can be done coherently for all elliptic curves at once: we need a lift of the above cohomology-theory-valued sheaf to a sheaf of representing [[spectrum|spectra]]
+As emphasized at [[generalized (Eilenberg-Steenrod) cohomology]], the best way to do this is to identify a generalized (Eilenberg-Steenrod) cohomology theory with the [[spectrum]] that represents it. It is and was well known how to do this for each elliptic curve separately. What is not so clear is how this can be done coherently for all elliptic curves at once: we need a lift of the above cohomology-theory-valued sheaf to a sheaf of representing [[spectrum|spectra]]
 
 $$
   \array{
@@ -258,7 +257,7 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 * [[formal group]]
 
-### 1.3 Elliptic Cohomolohy {#EllipticCohomology}
+### 1.3 Elliptic Cohomology {#EllipticCohomology}
 
 * [[elliptic curve]]
 
@@ -301,7 +300,7 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 ### 3.3 The Geometry of Preorientations
 
-### 3.4 Equuivariant $A$-Cohomology for Abelian Groups
+### 3.4 Equivariant $A$-Cohomology for Abelian Groups
 
 ### 3.5 The Nonabelian Case
 
