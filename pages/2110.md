@@ -20,7 +20,7 @@ The _solution set condition_ appears as part of the hypothesis in Freyd's [[adjo
 ## Statement
 
 
-A [[functor]] $F : C \to D$ satsifies the **solution set condition** if for every [[object]] $Y$ of $D$ there exists a [[small set]] $I$ and an $I$-indexed family of morphisms $\{f_i : Y \to F(X_i)\}_{i \in I}$ such that any morphism $h : Y \to F(X)$ can be factored as 
+A [[functor]] $F : C \to D$ satisfies the **solution set condition** if for every [[object]] $Y$ of $D$ there exists a [[small set]] $I$ and an $I$-indexed family of morphisms $\{f_i : Y \to F(X_i)\}_{i \in I}$ such that any morphism $h : Y \to F(X)$ can be factored as 
 
 $$
   F(t) \circ f_i
