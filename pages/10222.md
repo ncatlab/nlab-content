@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _partition_ is any of various ways of dividing a mathematical object into _parts_ that (in some sense) cover the object while being mutually disjoint.
+A _partition_ is any of various ways of dividing a mathematical object into nontrivial _parts_ that (in some sense) cover the object while being mutually disjoint.
 
 
 ## Definitions
@@ -41,6 +41,29 @@ $$ \sum_{n=0}^\infty p(n) x^n = \prod_{k=1}^\infty (1 - x^k)^{-1} .$$
 Partitions are often described using [[Young diagram]]s.
 
 One may also speak of __multiplicative__ compositions and partitions of $n$ for positive $n$ (where the above are _additive_), also called (ordered and unordered) __factorizations__; these are (ordered and unordered) lists of natural numbers greater than $1$ whose product is $n$.  This immediately generalizes to other [[monoids]] (or [[semigroups]], leaving out the [[empty list]]).
+
+
+### Of intervals
+
+Given [[real numbers]] $a$ and $b$, a __partition__ $\pi$ of the [[interval]] $[a,b]$ is an inhabited finite [[list]] $c_0, \ldots, c_n$ such that:
+* $c_0 = a$,
+* $c_i \leq c_{i+1}$ for $i \lt n$,
+* $c_n = b$.
+
+A partition $\pi$ __refines__ a partition $\rho$ if every element of the list $\rho$ belongs to the list $\pi$.  The __mesh__ (or __norm__) of $\pi$ is
+$$ {\|\pi\|} \coloneqq \max_i (c_{i+1} - c_i) .$$
+A __tag__ of $\pi$ is a list $t_0, \ldots, t_{n-1}$ such that $c_i \leq t_i \leq c_{i+1}$ for $i \lt n$.  Tagged partitions are used to define the [[Riemann integral]], the [[Darboux integral]], and the [[gauge integral]].
+
+
+### Of measure spaces
+
+Given a [[measure space]] $S$ (or more generally a [[measurable space]] equipped with a notion of [[null sets]]), a __partition__ of $S$ is a collection $\pi$ of [[positive subset|positive]] (non-null) [[measurable subsets]] of $S$, such that:
+*  For $A, B \in \pi$, if $A \cap B$ is positive, then $A$ and $B$ are equivalent;
+*  The [[union]] $\bigcup \pi$ is [[full subset|full]].
+
+Then a partition of a set is simply a partition of the measure space given by [[counting measure]].
+
+Partitions in this sense can be used to define the [[Lebesgue integral]] in analogy to the definition of the Riemann integral using partitions of intervals.
 
 
 [[!redirects partition]]
