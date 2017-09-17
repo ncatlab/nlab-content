@@ -74,7 +74,8 @@ The [[higher parallel transport|higher]] holonomy of [[circle n-bundles with con
   * [[holonomy group]]
 
   * [[special holonomy]]
-
+  
+  * [[fiber integration in ordinary differential cohomology]]
 
 [[!redirects holonomies]]
 [[!redirects higher holonomy]]
