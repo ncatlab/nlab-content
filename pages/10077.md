@@ -74,11 +74,11 @@ Of course, if $C$ is [[braided monoidal category|braided]], this reduces to the 
 
 A nontrivially duoidal example is that a bimonoid with respect to the duoidal structure on functorial factorizations described above is precisely an [[algebraic weak factorization system]].
 
-### Near-rings
+### Rings and near-rings
 
-We can define [[near-rigs]] and [[near-rings]] in a duoidal category, where the additive and multiplicative monoidal structures are expressed with respect to $\star$ and $\diamond$ respectively.  Since the distributive law requires duplication of variables, we need the additive monoidal structure to actually be a [[bimonoid]] (or a [[Hopf monoid]] in the case of a near-ring), and hence that $\star$ is (on its own) braided.
+We can define [[near-rig|(near-)]][[rigs]] and near-[[rings]] in a duoidal category, where the additive and multiplicative monoidal structures are expressed with respect to $\star$ and $\diamond$ respectively.  Since the distributive law requires duplication of variables, we need the additive monoidal structure to actually be a [[bimonoid]] (or a [[Hopf monoid]] in the case of a ring), and hence that $\star$ is (on its own) braided.
 
-More precisely, let $C$ be a duoidal category such that the tensor $\star$ is braided.  A **near-rig** in $C$ is of an object $R$ together with
+More precisely, let $C$ be a duoidal category such that the tensor $\star$ is braided (and probably some compatibility holds between the braiding and the duoidal structure).  A **near-rig** in $C$ is of an object $R$ together with
 
 * A [[bimonoid]] structure on $R$ with respect to the braided monoidal category $(C,\star,J)$, written as addition $add:R\star R \to R$ and "coaddition" $\Delta:R\to R\star R$;
 
@@ -109,9 +109,11 @@ More precisely, let $C$ be a duoidal category such that the tensor $\star$ is br
   }
   $$
 
-It is a **near-ring** if the additive bimonoid structure is a [[Hopf monoid]].
+It is a **near-ring** if the additive bimonoid structure is a [[Hopf monoid]], and a **rig** or **ring** if the left distributive law and left absorption also hold.
 
-Of course, this all makes sense in particular in a braided monoidal category regarded as duoidal.  In particular, in a [[cartesian monoidal category]], it reduces to the obvious internal definition of near-rigs and near-rings (since every object of a cartesian monoidal category is a comonoid in a unique way).
+Of course, this all makes sense in particular in a braided monoidal category regarded as duoidal.  In particular, in a [[cartesian monoidal category]], it reduces to the obvious internal definition of (near-)rigs and (near-)rings (since every object of a cartesian monoidal category is a comonoid in a unique way).
+
+On the other hand, if the coaddition is cocommutative (perhaps this is even automatic?), then the bimonoid $(R,add,\Delta)$ can equivalently be regarded as a monoid in the *cartesian* monoidal category $CComon_\star(C)$ of cocommutative comonoids in $(C, \star, J)$.  In this case, the above definitions coincide with the definitions of (near-)ri(n)gs in the [[colax-distributive rig category]] induced by $\diamond$ and the cartesian structure of $CComon_\star(C)$.
 
 ### Commutative monoids
 
