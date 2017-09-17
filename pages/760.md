@@ -24,3 +24,7 @@ The dual notion is that of [[split epimorphism]].
 ## Properties
 
 Any split monomorphism is automatically a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
+
+[[!redirects split monomorphisms]]
+[[!redirects split monic]]
+[[!redirects split monics]]
