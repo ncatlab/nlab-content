@@ -1,0 +1,9 @@
+
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Michael_Spivak)
+
+## Related entries
+
+* [[differential geometry]]
+
+category: people
