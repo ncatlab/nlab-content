@@ -79,7 +79,7 @@ Similarly one considers modular forms for [[congruence subgroups]] of the full [
 ### As automorphic forms
  {#AsAutomorphicForms}
 
-Instead of regarding, as [above](#AsSections), modular forms as [[sections]] of a [[line bundle]] on a [[quotient]] of the [[upper half plane]], one may regard them alternatively as plain functions, but on the [[special linear group]] $SL(2,\mathbb{R})$. (e.g.[this MO comment](http://mathoverflow.net/a/124790/381), better reference to be added...).
+Instead of regarding, as [above](#AsSections), modular forms as [[sections]] of a [[line bundle]] on a [[quotient]] of the [[upper half plane]], one may regard them alternatively as plain functions, but on the ([[Möbius group|projective]]) [[special linear group]] $SL(2,\mathbb{R})$. (e.g. [Martin 13, section 2](Martin13)).
 
 As such these functions are then invariant under the [[action]] of the [[modular group|modular]] [[subgroup]] $SL(2,\mathbb{Z})\hookrightarrow SL(2,\mathbb{R})$ and hence are really functions on the [[coset space]] $SL(2,\mathbb{R})/SL(2,\mathbb{Z})$. 
 
@@ -161,6 +161,9 @@ Lecture notes and reviews include
 * Jan Hendrik Bruinier, Gerard van der Geer, [[Günter Harder]], Don Zagier, _The 1-2-3 of modular forms_, Lectures at a Summer School 2004 in Nordfjordeid, Norway; Universitext, Springer 2008.
 
 * [[Nora Ganter]], _[Topological modular forms literature list](http://www.ms.unimelb.edu.au/~nganter/talbot/index.html)_
+
+* {#Martin13} Kimball Martin, _A brief overview of modular and automorphic forms_, 2013 [pdf](http://www2.math.ou.edu/~kmartin/papers/mfs.pdf)
+
 
 * Wikipedia, _[Modular form](http://en.wikipedia.org/wiki/Modular_form)_
 
