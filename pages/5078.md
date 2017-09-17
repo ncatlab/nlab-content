@@ -6,6 +6,8 @@ The [[topos of sheaves]] on any posite is a [[localic topos]].  We may describe 
 
 +--{: .query}
 [[David Roberts]]: Does this include the double negation topology used in the sheaf-theoretic approach to forcing?
+
+[[Mike Shulman]]: Yes!  Classical [[set theory|set-theoretic]] [[forcing]] is done exclusively on posites.  One "reason" for this is explained in a paper of Peter Freyd called something like "all topoi are localic, or why permutation models prevail."
 =--
 
 
