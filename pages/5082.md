@@ -8,8 +8,13 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
