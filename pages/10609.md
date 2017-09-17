@@ -32,6 +32,8 @@ synthetic geometry.
 
 ## Related concepts
 
+* [[synthetic mathematics]]
+
 * [[geometric homotopy type]]
 
 * [[cohesive homotopy type]]
