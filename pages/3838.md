@@ -1,22 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context###
 #### $(\infty,1)$-Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include quasi-category theory contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
-
 
 ## Idea
 
 The notion of _essentially small $(\infty,1)$-category_ is the generalization of the notion of [[small category]] from [[category theory]] to [[(∞,1)-category]] theory.
+
 
 ## Definitions
 
@@ -29,12 +29,11 @@ A [[quasi-category]] $C$ is **essentially $\kappa$-small** for some [[regular ca
 
 1. for every morphism $f : x \to y$ in $C$ the [[simplicial homotopy group|homotopy sets]] of the [[hom-object in a quasi-category|hom ∞-groupoid]] at $f$ --  $\pi_i(Hom^R(x,y),f)$ -- are $\kappa$-small.
 
-$C$ is **essentially small** if it is essentially $\kappa$-small for some small [[regular cardinal]] $\kappa$.
-
-
+$C$ is **essentially small** if the conditions above hold without $\kappa$.
 =--
 
 This appears as [[Higher Topos Theory|HTT, def. 5.4.1.3, prop. 5.4.1.2]].
+
 
 ## Properties
 
@@ -45,10 +44,9 @@ Let $C$ be an $(\infty,1)$-category and $\kappa$ an uncountable [[regular cardin
 
 1. $C$ is $\kappa$-small.
 
-1. $C$ is a $\kappa$-[[compact object in an (infinity,1)-category|compact object]] in [[(∞,1)Cat]].
+2. $C$ is a $\kappa$-[[compact object in an (infinity,1)-category|compact object]] in [[(∞,1)Cat]].
 
-1. $C$ is equivalently given by a [[quasi-category]] whose underlying [[simplicial set]] is $\kappa$-small.
-
+3. $C$ is equivalently given by a [[quasi-category]] whose underlying [[simplicial set]] is $\kappa$-small.
 =--
 
 This is [[Higher Topos Theory|HTT, prop. 5.4.1.2]]
@@ -61,14 +59,12 @@ This is the topic of section 5.4.1 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
 
-
 [[!redirects essentially small (∞,1)-category]]
-
 [[!redirects essentially small (∞,1)-categories]]
+[[!redirects essentially small (infinity,1)-category]]
 [[!redirects essentially small (infinity,1)-categories]]
 
 [[!redirects small (∞,1)-category]]
-[[!redirects small (infinity,1)-category]]
-
 [[!redirects small (∞,1)-categories]]
+[[!redirects small (infinity,1)-category]]
 [[!redirects small (infinity,1)-categories]]
