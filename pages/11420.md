@@ -22,7 +22,7 @@
 
 A _completionf of a ring_ is a [[completion]] of a [[ring]] to a [[complete metric space|complete]] [[topological ring]].
 
-Specifically, fro $R$ a [[commutative ring]] and $I \subset R$ a [[maximal ideal]], then the [[limit]]
+Specifically, for $R$ a [[commutative ring]] and $I \subset R$ a [[maximal ideal]], then the [[limit]]
 
 $$
   \widehat R_I \coloneqq \underset{\leftarrow}{\lim} (R/I^n)
