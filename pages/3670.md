@@ -9,7 +9,9 @@ category: people
 
 [[!redirects Lev Pontrjagin]]
 [[!redirects Lev Pontryagin]]
+[[!redirects Lev Pontrâgin]]
 [[!redirects Лев Понтрягин]]
 [[!redirects Pontrjagin]]
 [[!redirects Pontryagin]]
+[[!redirects Pontrâgin]]
 [[!redirects Понтрягин]]
