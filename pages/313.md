@@ -1,8 +1,19 @@
-#Definition#
 
-A **diagram** in a [[category]] $C$ is simply a [[functor]] $F: J \to C$. The category $J$ is called the **shape** or **index category** of the diagram, and is typically understood to be a [[small category]]. 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-For example:
+## Definition
+
+A **diagram** in a [[category]] $C$ is simply a [[functor]] $F: J \to C$. 
+
+The category $J$ is called the **shape** or **index category** of the diagram, and is typically understood to be a [[small category]]. 
+
+A **commuting diagram** in $C$ is a diagram for which $J$ is a [[poset]].
+
+## Examples
+
+
 * Every category $C$ admits a unique diagram whose shape is the empty ([[initial object|initial]]) category, which is called the **empty diagram** in $C$.
 * Specifying a diagram in $C$ whose shape is the [[terminal category]] $1$ is the same as specifying an [[object]] of $C$, the image of the unique object of $1$. (See [[global element]])
 * A [[morphism]] in $C$ is a diagram whose shape is a category with two objects and a single morphism from one to the other.
@@ -13,3 +24,4 @@ For example:
 See also [[limit]], [[colimit]]. 
 
 [[!redirects diagrams]]
+[[!redirects commuting diagram]]
