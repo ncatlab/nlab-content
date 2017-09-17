@@ -152,3 +152,5 @@ A book trying to summarize the state of the art of capturing mathematical struct
 [[!redirects superstring theory]]
 
 [[!redirects string]]
+
+[[!redirects string perturbation series]]
