@@ -66,4 +66,6 @@ $M^s_g$ is a mapping class group of a surface of genus $g$ with $s$ punctures. A
 
 * Gabriele Mondello, _Riemann surfaces, ribbon graphs and combinatorial classes_, [pdf](http://www.mat.uniroma1.it/~mondello/me/papers/ober-definitive.pdf)
 
+* MathOverflow: [why does ribbon graph cohomology compute cohomology of mapping class group](http://mathoverflow.net/questions/51978/why-does-ribbon-graph-cohomology-compute-cohomology-of-mcg)
+
 [[!redirects ribbon graphs]]
