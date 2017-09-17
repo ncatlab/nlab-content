@@ -92,3 +92,5 @@ A side remark: note that the inverse $1/\ell$ of the prime level from the de Rha
 
 
 *(I have deleted the remainder of the 10/15 Addendum, since it is now obsolete after Mochizuki's revised comments.)*
+
+**Added on 3-13-13.** Mochizuki has posted revisions of his second and third papers on Inter-Universal Teichmuller Theory. 
