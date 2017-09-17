@@ -150,7 +150,7 @@ Let $J \to RingedTopos$ be a [[diagram]] of ringed toposes. Its [[limit]] exists
   $$
     {\lim_\to}_j p_j^* \mathcal{O}_{\mathcal{X}_j}
     \in
-    {\lim_\leftarrow}_j (\mathcal{X}_j, \mathcal{O}_{\mathcal{X}_j})
+    {\lim_\leftarrow}_j \mathcal{X}_j
     \,.
   $$
 
@@ -195,7 +195,7 @@ whose commutativity may be understood as being the 2-commutativity of the prism 
 
 We check the [[universal property]] of the [[limit]]:
 
-for $(\mathcal{Y}, \mathcal{O}_{\mathcal{Y}}) \stackrel{f_i}{\to} (\mathcal{X}_i, \,mathcal{O}_{\mathcal{X}_i})$ any [[cone]] over the given diagram, we have by the definition of morphisms of ringed toposes:
+for $(\mathcal{Y}, \mathcal{O}_{\mathcal{Y}}) \stackrel{f_i}{\to} (\mathcal{X}_i, \mathcal{O}_{\mathcal{X}_i})$ any [[cone]] over the given diagram, we have by the definition of morphisms of ringed toposes:
 
 1. an essentially unique [[geometric morphism]] 
 
