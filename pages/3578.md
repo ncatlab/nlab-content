@@ -17,7 +17,7 @@
 
 ## Idea
 
-For ordinary [[categories]] there is t^he notion of 
+For ordinary [[categories]] there is the notion of 
 
 1. [[Grothendieck fibration]] between two categories. 
 
