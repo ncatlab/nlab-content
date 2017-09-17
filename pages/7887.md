@@ -1,0 +1,7 @@
+
+
+* [[minimal Kan fibration]]
+
+* [[minimal Joyal fibration]]
+
+* [[minimal dendroidal fibration]]
