@@ -19,10 +19,15 @@ In [[type theory]] a _function type_ $X \to Y$ for two [[types]] $X,Y$ is the [[
 
 In a [[model]] of the type theory in [[categorical semantics]], this is an [[exponential object]]. In [[set theory]], it is a [[function set]]. In [[dependent type theory]], it is a special case of a [[dependent product]].
 
+## Definition
+
+Function types are almost always defined as a [[negative type]]...
+
 
 ## Related concepts
 
-[[!include notions of type]]
+* [[dependent product type]]
+* [[lambda calculus]]
 
 
 [[!redirects function type]]
