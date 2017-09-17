@@ -337,9 +337,10 @@ $$
 
 to conclude the induction step with the same arguments as before.
 
-This shows that $P//G$ is the [[Cech nerve]] of $P \to X$. It remains to observe that
-indeed $X = {\lim_\to}_n P \times G^{\times^n}$. This follows from another
-Giraud axiom valid in every $\infty$-topos: that $\infty$-colimits _are universal_ hence that they are preserved by $\infty$-pullback (see [[universal colimits]]):
+This shows that $P//G$ is the [[Cech nerve]] of $P \to X$. It remains to show that
+indeed $X = {\lim_\to}_n P \times G^{\times^n}$. 
+For this notice that $* \to \mathbf{B}G$ is an [[effective epimorphism in an (infinity,1)-category]]. Hence so is $P \to X$. This proves the claim, by definition of effective epimorphism.
+
 
 using this we have
 $$
