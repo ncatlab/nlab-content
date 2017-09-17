@@ -14,13 +14,13 @@
 
 
 # Generators
-* tic
+* table of contents
 {: toc}
 
 
 ## Definition
 
-A __generator__ in a [[category]] $C$ is an [[object]] $S$ such that the [[functor]] $h^S = C(S,-) : C\to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by [[morphisms]] from $S$ in the sense that
+A __generator__ or _[[separator]]_ in a [[category]] $C$ is an [[object]] $S$ such that the [[functor]] $h^S = C(S,-) : C\to\mathrm{Set}$ is [[faithful functor|faithful]]. This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by [[morphisms]] from $S$ in the sense that
 $$ \forall (\theta: S \to X),\; f_1 \circ \theta = f_2 \circ \theta ,$$
 then $f_1 = f_2$.
 
