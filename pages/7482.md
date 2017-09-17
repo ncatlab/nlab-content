@@ -10,7 +10,7 @@ The generalisation of [[ordered pair]] to something having more positions is usu
 
 ## Variations
 
-*  An [[ordered pair]] is a $2$-tuple.  A $3$-tuple is a _triple_, a $4$-tuple is a _quadruple_, etc.  The notions of $1$-tuple and $0$-tuple are trivial.
+*  An [[ordered pair]] is a $2$-tuple.  A $3$-tuple is a _[[triple]]_, a $4$-tuple is a _[[quadruple]]_, a $5$-tuple is a _[[quintuple]]_ etc.  The notions of $1$-tuple and $0$-tuple are trivial.
 
 *  The term 'tuple' is usually used for an $n$-tuple for a *specific* number $n$.  If we wish to speak of an $n$-tuple for an *arbitrary* $n$ (particularly without specifying that $n$), then we may speak of a [[list]] (which has other terminology, described on that page).  Then the set of lists is the [[disjoint union]] over $n$ of the sets of $n$-tuples.
 
