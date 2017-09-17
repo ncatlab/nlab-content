@@ -49,8 +49,16 @@ After Griess found this algebra [[Igor Frenkel]], [[James Lepowsky]] and Meurman
 =--
 
 
+## Related concepts
+
+* [[Moonshine]],
+
+* [[Mathieu group]], [[Mathieu moonshine]]
+
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "80" src="http://t0.gstatic.com/images?q=tbn:nJNML0QhNiejuM:http://open.salon.com/files/cookie-monster3-7769871237963363.jpg
 " alt="The Monster" /></div>
 
 
 [[!redirects Monster]]
+
+[[!redirects monster group]]
