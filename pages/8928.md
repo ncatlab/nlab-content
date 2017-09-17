@@ -38,6 +38,8 @@ The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. 
 
 * [[black fivebrane]]
 
+* [[AdS/CFT correspondence]]
+
 [[!include table of branes]]
 
 
@@ -49,14 +51,25 @@ The original computations are due to
 
 * [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_ ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
-* [[Curtis Callan]], [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
+* Curtis Callan, [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
 
-A review is in 
+Reviews include
+
+* Sumit R. Das, [[Samir Mathur]], _The Quantum Physics of Black Holes: Results from String Theory_ ([arXiv:gr-qc/0105063](http://arxiv.org/abs/gr-qc/0105063))
+
+* Justin R. David, Gautam Mandal, Spenta R. Wadia, _Microscopic Formulation of Black Holes in String Theory_ ([arXiv:hep-th/0203048](http://arxiv.org/abs/hep-th/0203048))
+
+* [[Thibault Damour]], _The entropy of black holes: a primer_ ([arXiv:hep-th/0401160](http://arxiv.org/abs/hep-th/0401160))
+
 
 * Joao Gomes, _Joao Gomes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
 
 Recent developments include
 
 * Oleg Lunin, [[Samir Mathur]], _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
+
+See also 
+
+* [String Theory Wiki](http://www.stringwiki.org), _[Black hole entropy](http://www.stringwiki.org/w/index.php?title=Black_Hole_Entropy)_
 
 [[!redirects black hole in string theory]]
