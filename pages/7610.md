@@ -42,7 +42,7 @@ the corresponding ([[homotopy type theory|homotopy]]) [[type theory]] is simply 
 | [[fibration]]([[display map]]) $\array{A \\ \downarrow^{\mathrlap{p}} \\ X}$  | [[dependent type]]  $x : X \vdash A(x) : Type$ |
 | [[section]] $\array{ X &&\stackrel{t}{\to}&& A \\ & {}_{\mathllap{id}}\searrow && \swarrow_{p} \\ && X}$ | [[term]] $x : X \vdash t(x) : A(x)$ |
 |  [[pullback]] $\array{ f^* A &\to& A \\ \downarrow && \downarrow^{\mathrlap{p}} \\ Y &\stackrel{f}{\to} & X }$ | [[substitution]] $y : Y \vdash A(f(y)) : Type$ |
-| [[direct image]] $\array{ A && f_* A \\ {}^{\mathllap{p}}\downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent product]] $ y : Y \vdash \underset{x : X(y)}{\prod } A(x) : Type$ |
+| [[direct image]] $\array{ A && f_* A \\ {}^{\mathllap{p}}\downarrow && \downarrow ^{f_* p}\\ X &\stackrel{f}{\to}& Y}$ | [[dependent product]] $ y : Y \vdash \underset{x : X(y)}{\prod } A(x) : Type$ |
 | [internal hom in slice](locally%20cartesian%20closed%20category#EquivalentCharacterizations) $\array{ X \times f^* A && f_* f^* A & = [X,A]_Y \\ {}^{\mathllap{}}\downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[function type]] $ y : Y \vdash X(y) \to A(y) : Type$ |
 | postcomposition $\array{ A &=& f_! A \\ \downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[dependent sum]] $y : Y \vdash \underset{x : X(y)}{\sum} A(x) : Type$ |
 | [[fiber product|fiber]][[product]] $\array{ X \times f^* A &=& f_! f^* A & = X \times_Y A\\ \downarrow && \downarrow \\ X &\stackrel{f}{\to}& Y}$ | [[product type]] $y : Y \vdash X(y) \times A(y) : Type$ |
