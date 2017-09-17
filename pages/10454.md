@@ -71,11 +71,13 @@ same [[state on an operator algebra|states]] precisely if they are Jordan-isomor
 
 Other theorems on the foundations of [[quantum mechanics]] include
 
-* [[Kochen-Specker theorem]]
+* [[order-theoretic structure in quantum mechanics]]
 
-* [[Alfsen-Shultz theorem]]
+  * [[Kochen-Specker theorem]]
 
-* [[Gleason's theorem]]
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Gleason's theorem]]
 
 * [[Wigner theorem]]
 
