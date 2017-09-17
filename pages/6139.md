@@ -1,26 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Higher category theory
-+--{: .hide}
++-- {: .hide}
 [[!include higher category theory - contents]]
 =--
 #### Homotopy theory
-+--{: .hide}
++-- {: .hide}
 [[!include homotopy - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-For $X$ any kind of [[space]] (possibly a [[directed space]], hence a [[category]]) its [[loop space object]]s $\Omega_x X$ canonically inherit a [[monoidal category|monoidal structure]], coming from composition of loops. 
+For $X$ any kind of [[space]] (possibly a [[directed space]], hence a [[category]]) its [[loop space object]]s $\Omega_x X$ canonically inherit a [[monoidal category|monoidal structure]], coming from concatenation of [[loops]].
 
 If $x \in X$ is essentially unique, then $\Omega_x X$ equipped with this monoidal structure remembers all of the structure of $X$: we say $X \simeq B \Omega_x X$ call $B A$ the _[[delooping]]_ of the monoidal object $A$.
 
@@ -132,7 +131,8 @@ See [[delooping hypothesis]].
 
 ## Relation to looping and suspension
 
-For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal structure and just remember the underlying [[space]].  The formation of [[loop space object]]s composed with this [[forgetful functor]] has a [[left adjoint]] $\Sigma$ which forms _[[suspension objects]]_ .
+For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal structure and just remember the underlying [[space]].  The formation of [[loop space object]]s composed with this [[forgetful functor]] has a [[left adjoint]] $\Sigma$ which forms _[[suspension objects]]_.
+
 
 ## Related concepts
 
@@ -146,6 +146,7 @@ For $A$ any monoidal [[space]], we may [[forgetful functor|forget]] its monoidal
 
   * [[suspension]], [[reduced suspension]]
 
+
 ## References
 
 Section 6.1.2 of
@@ -157,4 +158,6 @@ Section 5.1.3 of
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#LurieAlgebra}
 
+
 [[!redirects looping]]
+[[!redirects looping and delooping]]
