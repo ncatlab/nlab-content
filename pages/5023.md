@@ -15,6 +15,8 @@ $$
 
 ## Properties
 
+### Cocycle and extension
+
 The additive group on the [[Cartesian space]] $\mathbb{R}^2$ with group operation
 
 $$
@@ -37,3 +39,8 @@ $$
 $$
 
 The Heisenberg group is the [[group extension]] of $\mathbb{R}^2$ by this cocycle.
+
+### Unitary representations
+
+* [[Stone-von Neumann theorem]]
+
