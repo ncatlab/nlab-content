@@ -1,4 +1,33 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A 2-adjunction is a common name for various kinds of adjunctions in 2-category theory; not only adjunctions among 2-categories but adjunctions within an arbitrary 3-category (typically defined within a Gray-category). This involves strict 2-adjunctions in strict 2-categories, then [[pseudoadjunction]]s, [[biadjunction]]s, [[lax 2-adjunction]]s, colax 2-adjunctions.
+
+## Related concepts
+
+* [[adjoint functor]], [[adjoint triple]], [[adjoint quadruple]]
+
+* [[proadjoint]], [[Hopf adjunction]]
+
+* **2-adjunction**
+  
+  [[biadjunction]], [[lax 2-adjunction]], [[pseudoadjunction]]
+
+* [[adjoint (infinity,1)-functor]]
+
 
 [[!redirects 2-adjointness]]
 [[!redirects 2-adjunctions]]
