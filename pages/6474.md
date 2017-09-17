@@ -37,7 +37,7 @@ The *Picard stack* $\mathcal{Pic}_{X/S}$ is just [[stack]] of invertible sheaves
 
 Note the following "failure" of the relative Picard scheme: points on $Pic_{X/S}$ do not parametrize line bundles. The low degree terms of the Leray [[spectral sequence]] give the following exact sequence $H^1(X_T, \mathbb{G}_m)\to H^0(T, R^1f_*\mathbb{G}_m)\to H^2(T, \mathbb{G}_m)\to H^2(X_T, \mathbb{G}_m)$, but as noted above $Pic_{X/S}(T)=H^0(T, R^1f_*\mathbb{G}_m)$, so we see exactly when a $T$-point comes from a line bundle it is when that point maps to $0$ in this sequence. 
 
-This gives us an obstruction theory lying in $H^2(T, \mathbb{G}_m)$ for a point corresponding to a line bundle. If $Pic_{X/S}$ is representable we could take $T=Pic_{X/S}$ to find a universal obstruction. Intuitively this is because the Picard stack is the right object to look at for the moduli problem of line bundles over $X$.
+This gives us an obstruction theory lying in $H^2(T, \mathbb{G}_m)$ for a point corresponding to a line bundle. If $Pic_{X/S}$ is representable we could take $T=Pic_{X/S}$ to find a universal obstruction. Intuitively this is because the Picard stack is the right object to look at for the moduli problem of line bundles over $X$. The Picard scheme is the $\mathbb{G}_m$-[[rigidification]] of the Picard stack.
 
 The natural map $\mathcal{Pic}_{X/S}\to Pic_{X/S}$ is a $\mathbb{G}_m$-[[gerbe]]. But isomorphism classes of $\mathbb{G}_m$-gerbes over $T$ are in bijective correspondence with $H^2(T, \mathbb{G}_m)$ and so the above map could be thought of as a geometric realization of the universal obstruction class.
 
