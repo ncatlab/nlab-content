@@ -263,6 +263,12 @@ For the relation to Poisson Operads see
 [[!redirects E-k-operad]]
 [[!redirects E-n-operad]]
 
+[[!redirects E-k operads]]
+[[!redirects E-n operads]]
+[[!redirects E-k-operads]]
+[[!redirects E-n-operads]]
+
+
 [[!redirects En operad]]
 
 
