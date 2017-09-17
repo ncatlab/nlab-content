@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Functional analysis
-+--{: .hide}
++-- {: .hide}
 [[!include functional analysis - contents]]
 =--
 #### Measure and probability theory
@@ -15,16 +15,15 @@
 [[!include measure theory - contents]]
 =--
 #### AQFT
-+--{: .hide}
++-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -141,7 +140,7 @@ To be done...
 
 ## Remarks
 
-* Von Neumann algebras may also be defined abstractly as (abstract) $C^*$-algebras with a predual.
+* Von Neumann algebras may also be defined [[abstract structure|abstractly]] as (abstract) $C^*$-algebras with a predual.
 
 * Von Neumann algebras are also sometimes called $W^*$-algebras; they should not be confused with $W$-algebras in (logarithmic) conformal field theory.
 
