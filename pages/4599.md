@@ -5,6 +5,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Differential cohomology
 +--{: .hide}
 [[!include differential cohomology - contents]]
@@ -15,6 +19,8 @@
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
@@ -1492,7 +1498,10 @@ for the class of circle 3-bundles that arise as differential refinements of degr
 
 ## Related concepts
 
+* [[contact geometry]]
+
 * [[higher U(1)-gauge theory]]
+
 
 ## References
 
@@ -1513,3 +1522,6 @@ The above discussion is from
 [[!redirects circle n-bundles]]
 
 [[!redirects line bundle with connection]]
+[[!redirects circle bundle with connection]]
+[[!redirects line bundles with connection]]
+[[!redirects circle bundles with connection]]
