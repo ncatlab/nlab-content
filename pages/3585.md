@@ -21,17 +21,47 @@ The set $\mathcal{B}(I)$ does not depend on the chosen complex neighbourhood $U$
 
 Let $U^+ := \{u \in U : \operatorname{Im}(u) \gt 0 \}$ and $U^- := \{u \in U : \operatorname{Im}(u) \lt 0 \}$, then a nontrivial hyperfunction can be described by two functions $F^+$ holomorphic on $U^+$ and $F^-$ holomorphic on $U^-$ such that there is no function $F$ holomorphic on $U$ that restricts to $F^+$ and $F^-$. In this sense hyperfunctions are "differences" of holomorphic functions on a "boundary" (we did not specify an algebraic object that contains both $F^+$ and $F^-$, so strictly speaking we cannot subtract them). 
 
-#basic properties
+In the following we will often write $F = (F^+, F^-)$ for a hyperfunction $F$, with $(F^+, F^-)$ being a representative of the equivalence class that is $F$ in $\mathcal{B}$ on some complex neighbourhood.
 
-##basic properties of hyperfunctions of one variable
+#basic properties and definitions
+
+##hyperfunctions of one variable
 
 Let $U \subseteq \mathbb{R}$ be open.
 
-*  Let $\mathcal{A}(U)$ be the vector space of real analytic functions on $U$, then $\mathcal{B}(U)$ is a module over $\mathcal{A}(U)$.
+*  Let $\mathcal{A}(U)$ be the algebra space of real analytic functions on $U$, then $\mathcal{B}(U)$ is a module over $\mathcal{A}(U)$.
+
+In fact every real analytic function $f$ is naturally an element of $\mathcal{B}(U)$ represented by (f, 0) or (0, -f) on a complex neighbourhood. Given any hyperfunction $F = (F^+, F^-)$ we can define the product by $f F := (f F^+, F^-) = (F^+, -f F^-)$ which can be shown to be independent of the various choices involved (representation of $F$, complex neighbourhood of $U$, domain of the extension of the domain of $f$).
 
 * The sets of hyperfunctions of open subsets of $U$ form a [[flabby sheaf]] of [[vector spaces]] over $U$.
 
 * There is a linear injection from the space of distributions $\mathcal{D}'(U)$ to the space of hyperfunctions $\mathcal{B}(U)$. The sheaf of germs of distributions is therefore a subsheaf of the sheaf of germs of hyperfunctions.
+
+###support
+In general we cannot speak of the value of a hyperfunction at a certain point, much like we cannot speak of the value of a distribution at a certain point. We say that a hyperfunction $F$ vanishes on an open subset $U'$ of $U$ if it coincides with the zero hyperfunction, which is of course equivalent to stating that there is a representation of $F = (F^+, F^-)$ such that the boundary values of $F^+$ and $F^-$ coincide on $U'$ and therefore define a real analytic function on $U'$. 
+
+* definition: the **support** of a hyperfunction $F$ is the complement of the largest open subset of $U$ on which $F$ vanishes in the sense described above.
+ 
+For any compact $K$ we will denote by $\mathcal{B}_K$ all hyperfunctions whose support is contained in $K$.
+
+###integration for compactly supported hyperfunctions
+Since we defined hyperfunctions for open subsets only, we do not yet know anything about hyperfunctions $\mathcal{B}_K$ with support in a compact subset $K$, but the following theorem tells us that there is no difference:
+
+* theorem: Let $\mathcal{B}_K$ be all hyperfunctions with support contained in $K \subset \mathbb{R}$ compact and $V$ be any complex neighbourhood of $K$. Then we have the following isomorphism:
+$$
+\mathcal{B}_K \cong \frac{ \mathcal{O}(V/K) }{\mathcal{O}(V)}
+$$
+
+Let $a, b \in \mathbb{R}$ with $a \leq b$ and suppose that $F$ is a hyperfunction that is analytical in $a$ and $b$. Then we can choose a complex neighbourhood $V$ of $[a, b]$, paths $\tau^+$ in $V^+$  and $\tau^-$ in $V^-$ from a to b and a representation of $F = (F^+, F^-)$ such that we can define the integral
+
+$$
+\int_a^b F(x) dx := \int_{\tau^+} F^+ (z) dz - \int_{\tau^-} F^- (z) dz
+$$
+
+independently of all the arbitrary choices we made, thanks to the holomorphy of the functions on the right side (and Cauchy's integral formula for holomorphic functions, of course).
+
+###example of a hyperfunction that is not a distribution
+...
 
 #References
 
