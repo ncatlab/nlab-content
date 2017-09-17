@@ -424,3 +424,5 @@ to structured morphisms here is in section 10.1 there.
 [[!redirects geometry for structured (infinity,1)-topoi]]
 [[!redirects pregeometry for structured (infinity,1)-topoi]]
 [[!redirects pregeometry for structured (∞,1)-topoi]]
+
+[[!redirects geometry (for structured ((∞,1)-toposes)]]
