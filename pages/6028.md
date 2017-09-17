@@ -3,6 +3,14 @@ The founder of the science of _[[physics]]_ and of _[[differential calculus]]_.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Isaac_Newton)
 
+## Related entries
+
+* [[physics]]
+
+* [[classical mechanics]]
+
 category: people
+
+[[!redirects I. Newton]]
 
 [[!redirects Newton]]
