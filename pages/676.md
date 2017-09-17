@@ -173,7 +173,7 @@
 
 * [[string theory|String Theory]]
 
-  * [[brane]], [[BPS-state]], [[Berkovits superstring]]
+  * [[brane]], [[BPS-state]], [[Berkovits superstring]], [[orientifold]]
 
 * [[gnarly problems in physics|Gnarly problems in physics]]
 
