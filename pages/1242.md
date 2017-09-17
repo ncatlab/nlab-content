@@ -232,6 +232,8 @@ The [[connecting homomorphism]] of the [[long exact sequence in homology]] induc
 
 ## Related concepts
 
+* [[exact functor]]
+
 * [[exact sequence of Hopf algebras]]
 
 
