@@ -1,0 +1,31 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Related concepts
+
+* [[zeta function]]
+
+* [[multiple zeta values]], [[motive]]
+
+## References
+
+### General
+
+* Francis Brown, _On the decomposition of motivic multiple zeta values_ ([arXiv:1102.1310v2](http://arxiv.org/abs/1102.1310v2))
+
+* A. B. Goncharov, _Galois symmetries of fundamental groupoids and noncommutative geometry_ ([arXiv:math/0208144](http://arxiv.org/abs/math/0208144))
+
+### In physics (scattering amplitudes)
+ {#ReferencesScattering}
+
+In [[scattering amplitudes]].
+
+Of the [[superstring]]:
+
+* O. Schlotterer, S. Stieberger, _Motivic Multiple Zeta Values and Superstring Amplitudes_ ([arXiv:1205.1516](http://arxiv.org/abs/1205.1516))
+
+In [[N=4 D=4 super Yang-Mills theory]]:
+
+* Marcus Spradlin, Anastasia Volovich, _Symbols of One-Loop Integrals From Mixed Tate Motives_ ([arXiv:1105.2024](http://arxiv.org/abs/1105.2024))
