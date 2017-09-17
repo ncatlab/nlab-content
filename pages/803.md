@@ -1,3 +1,6 @@
+# Double comma objects
+* table of contents
+{: toc}
 
 ##Definition#
 
@@ -25,7 +28,7 @@ $$
   \,,
 $$
 
-where $I^{\vee 2} = \{a \to b \to c\}$ is the category freely generated from two composable morphisms (the linear [[quiver]] of length 2), obtained from the standard [[interval object]] in [[Cat]] by gluing it to itself. $[I^{\vee 2],D]$ is the [[functor category]], i.e. the category of composable pairs of morphisms in $D$.
+where $I^{\vee 2} = \{a \to b \to c\}$ is the category freely generated from a [[composable pair]] of morphisms (the linear [[quiver]] of length 2), obtained from the standard [[interval object]] in [[Cat]] by gluing it to itself. $[I^{\vee 2],D]$ is the [[functor category]], i.e. the category of composable pairs of morphisms in $D$.
 
 
 
