@@ -24,7 +24,7 @@
 Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences.
 
 +-- {: .un_def }
-###### first definition 
+###### First definition 
 
 
 A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations, 
@@ -179,7 +179,7 @@ Assume that we have fibrant and cofibrant replacement functors $P,Q : C \to C$. 
 * conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local objects $X$ the morphism $C(Q f,P X) : C(Q B,P X) \to 
 C(Q A,P X)$ is a weak equivalence.
 
-That this second condition is indeed compatible with the first one is hsown [here](http://ncatlab.org/nlab/show/local+object#PropInModCat).
+That this second condition is indeed compatible with the first one is shown [here](http://ncatlab.org/nlab/show/local+object#PropInModCat).
 
 =--
 
@@ -215,7 +215,7 @@ $$
 
 =--
 
-Therefore for any set $S$, we can consider the left Bousfield localization at the $S$-local weak equivalences $W_S$:
+Therefore, for any set $S$, we can consider the left Bousfield localization at the $S$-local weak equivalences $W_S$:
 
 +-- {: .un_def }
 ###### Definition 
@@ -225,7 +225,7 @@ The left Bousfield localization $L_S C$ of $C$ **at $S$** is, if it exists, the 
 
 * cofibrations are the same as before, $cof_{L_S C } = cof_C$;
 
-* acyclic cofibrations are the cofibrations that are $S$-local weak equivalences
+* acyclic cofibrations are the cofibrations that are $S$-local weak equivalences.
 
 =--
 
@@ -474,16 +474,16 @@ isomorphism in $Ho_S(C)$. Since that is a [[full subcategory]], it follows that 
 
 #### Every Bousfield localization is of this form {#LocHasToBeSLoc}
 
-We have considered two definitions of left Bousfield localization: in the first we just required that cofibrantions are kept and weak equivalences are increased. In the second we more specifically took the weak equivalences to be $S$-local weak equivalences.
+We have considered two definitions of left Bousfield localization: in the first we just required that cofibrations are kept and weak equivalences are increased. In the second we more specifically took the weak equivalences to be $S$-local weak equivalences.
 
-We now show that every localiztion in the first sense is indeed of the second kind, if we demand that both the original and the localized category are left proper, cofibrantly generated simplicial model categories.
+We now show that every localization in the first sense is indeed of the second kind if we demand that both the original and the localized category are left proper, cofibrantly generated simplicial model categories.
 
 +-- {: .un_prop }
 ###### Proposition
 
 In the context of left proper, cofibrantly generated simplicial model categories, 
 
-for $C_{loc}$ a left Bousfield localization of $C$ (i.e. a structure with the same cofibrations as and more weak equivalences) there is a set $S \subset Mor(C)$ such that
+for $C_{loc}$ a left Bousfield localization of $C$ (i.e. a structure with the same cofibrations as and more weak equivalences), there is a set $S \subset Mor(C)$ such that
 
 $$
   C_{loc} = L_S C
@@ -634,7 +634,7 @@ Moreover, it satisfies the following conditions:
 
 * the fibrant objects of $L_S C$ are precisely the $S$-[[local object]]s of $C$ that are fibrant in $C$;
 
-* $L_S C$ is itself a left [[proper model category]]
+* $L_S C$ is itself a left [[proper model category]];
 
 * $L_S C$ is itself a [[simplicial model category]].
 
@@ -732,7 +732,7 @@ For the small object argument itself, this requirement comes from the fact that 
 
 The collection of $S$-local weak equivalences $W_S$, however, won't be a small set in general even if $S$ is. But for [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) to apply we need to check that the full subcategory of $Arr(C)$ on $W_S$ is, while not small, [[accessible category|accessible]].
 
-To establish this we need two [properties of accessible categories](http://ncatlab.org/nlab/show/accessible+category#Properties): the inverse image of an accesible subcategory under a functor is accessible, and the collections of fibrations, weak equivalences and acyclic fibrations in a combinatorial model category are accessible.
+To establish this we need two [properties of accessible categories](http://ncatlab.org/nlab/show/accessible+category#Properties): the inverse image of an accessible subcategory under a functor is accessible, and the collections of fibrations, weak equivalences and acyclic fibrations in a combinatorial model category are accessible.
 
 
 ### The proof itself
@@ -869,7 +869,7 @@ Let $C$ be a [[left proper model category|left proper]] [[combinatorial model ca
 
 =--
 
-This is theorem 2.3 in ([RosickyTholen](#RosickyTholen))
+This is theorem 2.3 in ([RosickyTholen](#RosickyTholen)).
 
 
 
@@ -880,6 +880,7 @@ This is theorem 2.3 in ([RosickyTholen](#RosickyTholen))
 ## Existence of localizations for tractable ennriched model categories
 
 The above statement is generalized to the context of [[enriched model category]] theory by the following result:
+
 
 +-- {: .un_theorem }
 ###### Theorem (existence of enriched Bousfield localization)
@@ -925,7 +926,7 @@ This is ([Barwick, theorem 4.46](#Barwick)).
 
 ### Categories to which the general existence theorem applies 
 
-The following [[model category|model categories]] $C$ are left [[proper model category|proper]] [[cellular model category|cellular]]/[[combinatorial model category|combinatorial]], so that the above theorem applies and for every [[set]] $S \subset Mor(C)$ the Bousfield localizaton $L_S C$ does exist.
+The following [[model category|model categories]] $C$ are left [[proper model category|proper]] [[cellular model category|cellular]]/[[combinatorial model category|combinatorial]], so that the above theorem applies and for every [[set]] $S \subset Mor(C)$ the Bousfield localization $L_S C$ does exist.
 
 * [[Top]] with its standard [[model structure on topological spaces]];
 
@@ -943,7 +944,7 @@ If $C$ is a left [[proper model category|proper]] ([[simplicial model category|s
 
 ### Localization of spectra
 
-Boufield localization in categories of [[spectrum|spectra]]. For instance 
+Bousfield localization in categories of [[spectrum|spectra]]. For instance 
 [def 10, page 10](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.4299v1.pdf#page=10) of   [On K(1)-local SU-bordism](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.4299v1.pdf).
 
 (...) 
@@ -974,10 +975,10 @@ For notice that
 
    of an [[(∞,1)-category of (∞,1)-presheaves]]
 
-1. every [[(∞,1)-category of (∞,1)-presheaves]]  arises    
-   $PSh_{(\infty,1)}(K)  \simeq ([K,SSet]_{inj})^\circ$ as
+1. every [[(∞,1)-category of (∞,1)-presheaves]]    
+   $PSh_{(\infty,1)}(K)  \simeq ([K,SSet]_{inj})^\circ$ arises as
    the subcategory of fibrant-cofibrant objects of the 
-   globale [[model structure on simplicial presheaves]];
+   global [[model structure on simplicial presheaves]];
 
 1. in terms of the [[simplicial model category]] 
    $[K,SSet]_{inj}$ the prescription for 
