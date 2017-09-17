@@ -80,7 +80,7 @@ which relies essentially on the paper
 * R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of
 spaces,  _Topology_ 26 (1987) 311-334, 
 
-for the van Kampen Theorem and for the nonabelian tensor product of groups.
+for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 128 items on the [nonabelian tensor product](http://pages.bangor.ac.uk/~mas010/nonabtens.html ). 
 
 Also relevant to $n$-ad connectivity is 
 
