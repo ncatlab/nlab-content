@@ -282,7 +282,7 @@ From this the claim follows by the [above proposition](#FundGroupoidOfParacompac
 
 
 
-+-- {: .un_prop}
++-- {: .un_prop #GeometricRealizationOfHomotopyFibers}
 ###### Proposition
 
 Let $X$ and $G$ be degreewise [[paracompact topological space|paracompact]] [[simplicial topological space]]s. Let moreover $G$ be a well-sectioned topological [[simplicial group]]. Regard both as object in $E Top \infty Grpd$ in the canonical way. Write $\mathbf{B}G$ for  [[delooping]] of the [[∞-group]]-object $G$ in $ETop \infty Grpd$.
@@ -334,6 +334,51 @@ is a pullback, hence a [[homotopy pullback]], and therefore that $|P|$ is a mode
 In summary we have that on simplicial topological spaces $X \to \mathbf{B}G$ as in the asumptions, geometric realization preserves homotopy fibers. But by the [above proposition](#FundGroupoidOfParacompact) the [[(∞,1)-functor]] $\Pi$ is modeled on these morphisms by geometric realization, hence the claim follows.
 
 =--
+
+### Universal coverings and geometric Whitehead towers {#WhiteheadTowers}
+
+We discuss <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Coverings">geometric Whitehead towers</a> in $ETop\infty Grpd$.
+
++-- {: .un_prop}
+###### Proposition
+
+Let $X$ be a [[pointed object|pointed] [[paracompact topological space]].  Then its ordinary [[Whitehead tower]] $* \to \cdots X^{(2)} \to X^{(1)} \to X^{(0)} = X$ in $Top_1$ coincides with the image under the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos|intrinsic fundamental ∞-groupoid functor]] $|\Pi(-)|$ of its [[Whitehead tower in an (∞,1)-topos|geometric Whitehead tower]] $* \to \cdots X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} = X$ in $ETop \infty Grpd$:
+
+$$
+  \begin{aligned} 
+     |\Pi(-)| & :   (* \to \cdots X^{\mathbf{(2)}} \to X^{\mathbf{(1)}} \to X^{\mathbf{(0)}} = X) \in ETop\infty Grpd
+    \\
+     & \mapsto 
+      (* \to \cdots X^{(2)} \to X^{(1)} \to X^{(0)} = X) 
+       \in Top
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the general discussion at [[Whitehead tower in an (∞,1)-topos]] the geometric Whitehead tower is characterized for each $n$ by the [[fiber sequence]] 
+
+$$
+  X^{\mathbf{(n)}} \to X^{\mathbf{(n-1)}} \to 
+  \mathbf{B}^n \mathbf{\pi}_n(X)
+  \to 
+  \mathbf{\Pi}_n(X) \to \mathbf{\Pi}_{(n-1)}(X)
+  \,.
+$$ 
+
+By the above [proposition on the fundamental ∞-groupoid](#spring) we have that $\mathbf{\Pi}_n(X) \simeq Disc Sing X$. Since $Disc$ is [[right adjoint]] and hence preserves [[homotopy fiber]]s this implies that 
+$\mathbf{B} \mathbf{\pi}_n(X) \simeq \mathbf{B}^n Disc \pi_n(X)$, where $\pi_n(X)$ is the ordinary $n$th [[homotopy group]] of the pointed topologicall space $X$. 
+
+Then by the above [proposition on geometric realization of homotopy fibers](#GeometricRealizationOfHomotopyFibers) we have that under $|\Pi(-)|$ the space $X^{\mathbf{(n)}}$ maps to the homotopy fiber of $|\Pi(X^{\mathbf{(n-1)}})| \to B^n |Disc \pi_n(X)| = B^n \pi_n(X)$.
+
+By induction over $n$ this implies the claim.
+
+=--
+
 
 ### Path $\infty$-groupoid and geometric Postnikov towers
 {#PathInftinityGroupoids}
