@@ -22,7 +22,9 @@ The term "anabalian" is alluding to "the _less_ [[abelian group|abelian]] $\pi_1
 
 Accordingly, an algebraic variety whose [[isomorphism class]] is entirely determined by $\pi_1^{et}(x,X)$ is called an **anabelian variety**.
 
-An early conjecture motivating the theory (in [Grothendieck](#Grothendieck)) was that that all [[hyperbolic curves]] over [[number fields]] are anabelian varieties. This was eventually proven by various authors in various cases.  In ([Uchida](#Uchida)) and ([Neukirch](#Neukirch)) it was shown that an isomorphism between [[Galois groups]] of [[number fields]] implies the existence of an isomorphism between those number fields. For algebraic curves over [[finite fields]], over [[number fields]] and over [[p-adic field]] the statement was eventually completed by ([Mochizuki 96](#Mochizuki96)).
+An early conjecture motivating the theory (in [Grothendieck](#Grothendieck)) was that that all [[hyperbolic curve]]s over [[number fields]] are anabelian varieties. This was eventually proven by various authors in various cases.  In ([Uchida](#Uchida)) and ([Neukirch](#Neukirch)) it was shown that an isomorphism between [[Galois groups]] of [[number fields]] implies the existence of an isomorphism between those number fields. For algebraic curves over [[finite fields]], over [[number fields]] and over [[p-adic field]] the statement was eventually completed by ([Mochizuki 96](#Mochizuki96)).
+
+Grothendieck also conjectured the existence of higher-dimensional anabelian varieties, but these are still very mysterious.
 
 
 ##Related entries
