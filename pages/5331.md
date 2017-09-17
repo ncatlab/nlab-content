@@ -6,8 +6,16 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
 =--
 =--
+=--
+
+
+
+
 
 
 #Contents#
