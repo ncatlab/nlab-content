@@ -2,6 +2,8 @@ In [[category theory]], the __domain__ of a [[morphism]] is generally the same a
 
 However, this can conflict with other meanings of 'domain', especially in a category like [[Rel]]; any [[subset]] of $X$ is the domain of some [[relation]] $R\colon X \to Y$.
 
-Other meanings of the term, all related, include:
+Other similar meanings of the term include:
 *  the [[domain of discourse]] of a [[predicate]],
 *  an [[open subset]] of a [[manifold]], especially in [[complex analysis]].
+
+A separate meaning of 'domain' occurs in [[domain theory]], which is at the interface of logic and theoretical computer science. There a domain is a particular type of [[poset]].
