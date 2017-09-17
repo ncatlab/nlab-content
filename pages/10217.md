@@ -20,7 +20,7 @@ This diagonalization result, so often obscured, should be laid bare as the simpl
 
 We define the [[equational theory]] $\mathbf{PRA}$ ([[primitive recursive arithmetic]]) to be [[initial object|initial]] among [[Lawvere theories]] whose generator $1$ is a parametrized [[natural numbers object]]. The [[hom-set]] of morphisms $0 \to 1$ in $\mathbf{PRA}$ is the set of equivalence classes of closed [[terms]], and is identified with the set $\mathbb{N}$ of [[numerals]]. (This $\mathbb{N}$ will serve double duty in a moment, as being also the set of objects of the Lawvere theory.) 
 
-The [[first-order theory]] of [[Peano arithmetic]], PA for short, can be presented as a Boolean hyperdoctrine 
+The [[first-order theory]] of [[Peano arithmetic]], PA for short, can be presented as a [[Boolean hyperdoctrine]]
 
 $$T: \mathbf{PRA}^{op} \to Bool$$ 
 
@@ -123,6 +123,12 @@ The proof of theorem \ref{fix} was written to lay bare its provenance as a speci
 ## References 
 
 * Noson S. Yanofsky, _A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points_, arXiv:math/0305282 ([web](http://arxiv.org/abs/math/0305282)) 
+
+A brief review discussion explicitly in the context of [[type theory]]/[[topos theory]] is in 
+
+* Erik Gregersen, _[Internal lanuage](http://www.britannica.com/EBchecked/topic/369221/foundations-of-mathematics/35468/Internal-language)_, Encylcopedia Britannica
+
+
 
 [^fine1]: Assuming that the theory is consistent. If the theory is inconsistent, then it can prove falsity and thence anything, including any internal statements of consistency. 
 
