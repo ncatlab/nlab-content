@@ -10,7 +10,7 @@ Many of the important theorems of [[measure theory]] fail to hold in full genera
 
 ## Definition
 
-Let $\mu$ be a [[positive measure]] on an [[abstract set]] $X$.  (That is, certain [[subsets]] of $X$, forming a $\sigma$-[[sigma-algebra|algebra]], are [[measurable set|measurable]] by $\mu$, and $\mu$ maps these sets to the space $[0,\infty]$ of [[upper real numbers]] in a [[monotone function|monotone]] and [[countably additive measure|countably additive]] way.)
+Let $\mu$ be a [[positive measure]] on an [[abstract set]] $X$.  (That is, certain [[subsets]] of $X$, forming a $\sigma$-[[sigma-algebra|algebra]], are [[measurable set|measurable]] by $\mu$, and $\mu$ maps these sets to the space $[0,\infty]$ of [[lower real numbers]] in a [[monotone function|monotone]] and [[countably additive measure|countably additive]] way.)
 
 Given two measurable subsets $E$ and $F$, $E$ __essentially contains__ $F$ if the set
 $$ \{ x\colon X \;|\; x \in F \;\Rightarrow\; x \in E \} $$
