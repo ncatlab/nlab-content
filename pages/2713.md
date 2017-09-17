@@ -137,6 +137,11 @@ The standard textbook is
 
 * [[Alain Connes]], _Noncommutative Geometry_ , Academic Press (1994)
 
+See also 
+
+* [[Alain Connes]], [[Matilde Marcolli]], chapter I, section 10 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+
 The notion of spectral triple and of spectral action was introduced in
 
 * [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_ ([arXiv:hep-th/9603053](http://arxiv.org/abs/hep-th/9603053))
