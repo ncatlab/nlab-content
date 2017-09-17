@@ -153,7 +153,7 @@ $$
 
 =--
 
-(see e.g. [Quine-Heydari-Song 93 (8)](#QuineHeydariSong93), [Richardson, pages 8-9](#Richardson)).
+(see e.g. [Quine-Heydari-Song 93 (8)](#QuineHeydariSong93), [Richardson, pages 8-9](#Richardson), [Connes-Marcolli 06, theorem 13.11](#ConnesMarcolli06)).
 
 By comparison one observes:
 
@@ -209,19 +209,23 @@ The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]
 
 ### General
 
-* Wikipedia, _[Functional determinant -- Zeta function version](http://en.wikipedia.org/wiki/Functional_determinant#Zeta_function_version)_
-
-* Wikipedia, _[Zeta function regularization](http://en.wikipedia.org/wiki/Zeta_function_regularization)_
+An early reference is
 
 * {#DuistermaatGuillemin75} [[Hans Duistermaat]], [[Victor Guillemin]], _The Spectrum of Positive Elliptic Operators and Periodic Bicharacteristics_,Inventiones mathematicae (1975) Volume: 29, page 39-80 ([EuDML](https://eudml.org/doc/142329))
 
  (see also at _[[Duistermaat-Guillemin trace formula]]_)
 
+Review includes
 
 * {#Richardson} [[Ken Richardson]], section 3 of _Introduction to the Eta invariant_ ([pdf](http://faculty.tcu.edu/richardson/Seminars/etaInvariant.pdf))
 
 * {#QuineHeydariSong93} J. R. Quine, S. H. Heydari, R. Y. Song, _Zeta regularized products_, Transactions of the AMS volume 338, number 1, 1993 ([[QuineZetaRegularization.pdf:file]])
 
+* Wikipedia, _[Functional determinant -- Zeta function version](http://en.wikipedia.org/wiki/Functional_determinant#Zeta_function_version)_
+
+* Wikipedia, _[Zeta function regularization](http://en.wikipedia.org/wiki/Zeta_function_regularization)_
+
+* {#ConnesMarcolli06} [[Alain Connes]], [[MatildeMarcolli]], _A walk in the noncommutative garden_ ([arXiv:0601054](http://arxiv.org/abs/math/0601054))
 
 ### Functional determinant
 
