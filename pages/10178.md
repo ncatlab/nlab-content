@@ -1532,6 +1532,9 @@ A detailed discussion and generalization to the open-closed [[HQFT]] in the pres
 * [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
  {#Godin}
 
+and for arbitrary [[branes]] in 
+
+* [[Alexander Kupers]], _String topology operations_ MS thesis (2011) ([pdf](http://math.stanford.edu/~kupers/thesis7thjune2011.pdf))
 
 That [[D-brane charge]] and [[T-duality]] is naturally understood in terms of pull-push/[[indices]] along [[correspondences]] in [[noncommutative topology]]/[[KK-theory]] was amplified in 
 
