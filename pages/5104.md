@@ -27,7 +27,7 @@ Let $V$ be a [[topological vector space]] and $B \subseteq V$ a subset.
    Alternatively, $B$ is [[linearly independent subset|linearly independent]] and $\Span(B) = V$; in other words, the [[span]] of $B$ is $V$ but no [[proper subset]] of $B$ has this property.
 
 2. We say that $B$ is a **topological basis** if:
-   1. Every element of $V$ is a limit of a [[sequence]] or (more generally) a [[net]] of finite linear combinations of elements of $B$,
+   1. Every element $v \in V$ is a limit of a [[sequence]] or (more generally) a [[net]] of finite linear combinations of elements of $B$,
    2. No element of $B$ is a limit of a sequence or net of finite linear combinations of the _other_ elements of $B$.
 
    Alternatively, $B$ is [[total subset|total]] (meaning that its span is [[dense subspace|dense]]) but no proper subset of $B$ is total.
