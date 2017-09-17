@@ -57,6 +57,13 @@ Then $\bar{F}$ is the unique extension of $F$ which preserves chosen splittings.
 
 If $D$ is a category in which every idempotent splits, then we can choose a splitting for each idempotent using the [[axiom of choice]] (AC); the extension $\bar{F}$ depends on how we do this but is unique up to unique [[natural isomorphism]].  Alternatively, we can define $\bar{F}$ as an [[anafunctor]]; then no AC is needed, and we still have $\bar{F}$ unique up to unique natural isomorphism.  (It is key here that a splitting of an idempotent is unique up to a coherent isomorphism.)
 
+## Properties
+
+### Monadicity over semicategories
+
+The functors that forms idempotent completion is the [[monad]] induced from the [[adjunction]] between categories and semicategories given by the [[forgetful functor]] $Cat \to SemiCat$ and its [[right adjoint]]. More details on this are at _[Semicategory - Relation to categories](semicategory#RelationToCategories)_.
+
+
 ## Related concepts
 
 * [[Cauchy completion]]
@@ -91,3 +98,7 @@ The Karoubi envelope for the additive case (see also [[additive envelope]]) is c
 [[!redirects Karoubi complete category]]
 [[!redirects idempotent-complete category]]
 [[!redirects idempotent complete category]]
+
+[[!redirects idempotent completion]]
+[[!redirects idempotent completions]]
+
