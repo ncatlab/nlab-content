@@ -24,4 +24,8 @@ A __unitary representation__ of a [[locally compact topological group]] $G$ on a
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Adv. Math. CRC Press 1995
 
+
+* Jeffrey Adams, Marc van Leeuwen, Peter Trapa, David A. Vogan Jr, _Unitary representations of real reductive groups_ ([arXiv:1212.2192](http://arxiv.org/abs/1212.2192))
+
+
 [[!redirects unitary representations]]
