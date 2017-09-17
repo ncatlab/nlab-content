@@ -3,7 +3,9 @@
 |--|--|--|--
 |  | $\vdots$ | | |
 |  | $\downarrow$ | | |
-| [[fivebrane 6-group]] | $\mathbf{B}Fivebrane $ | [[fivebrane structure]] | [[second fractional Pontryagin class]] |
+| [[ninebrane 10-group]] | $\mathbf{B}Ninebrane $ | [[ninebrane structure]] | [[third fractional Pontryagin class]] |
+|  | $\downarrow$ | | |
+| [[fivebrane 6-group]] | $\mathbf{B}Fivebrane \stackrel{\tfrac{1}{n} p_3}{\to}  \mathbf{B}^{11}U(1)$ | [[fivebrane structure]] | [[second fractional Pontryagin class]] |
 |  | $\downarrow$ | | |
 | [[string 2-group]] | $\mathbf{B}String \stackrel{\tfrac{1}{6}\mathbf{p}_2}{\to} \mathbf{B}^7 U(1)$ | [[string structure]] | [[first fractional Pontryagin class]] |
 |  | $\downarrow$ | | |
