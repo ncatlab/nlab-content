@@ -14,6 +14,12 @@
 
 * [[singular cohomology]]
 
+* [[group cohomology]], [[nonabelian group cohomology]]
+
+* [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]]
+
+* [[groupoid cohomology]], [[nonabelian groupoid cohomology]]
+
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
   * [[integral cohomology]]
@@ -35,10 +41,6 @@
 * [[motivic cohomology]]
 
 * [[nonabelian cohomology]]
-
-  * [[nonabelian groupoid cohomology]]
-
-    * [[nonabelian group cohomology]]
 
   * [[principal bundle]]
 
@@ -73,14 +75,6 @@
   * [[equivariant homotopy theory]]
 
   * [[Bredon cohomology]]
-
-  * [[group cohomology]]
-
-  * [[nonabelian group cohomology]]
-
-  * [[Lie algebra cohomology]]
-
-  * [[nonabelian Lie algebra cohomology]]
 
 * [[twisted cohomology]]
 
