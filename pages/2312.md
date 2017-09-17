@@ -39,6 +39,8 @@ For multiplicative cohomology theories one can consider
 
 See also
 
+* [[complex oriented cohomology theory]], [[chromatic homotopy theory]]
+
 * [[Thom isomorphism]]
 
 * [[orientation in generalized cohomology]]
