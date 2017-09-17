@@ -63,7 +63,7 @@ In the old days, one called a closed and bounded [[interval]] in the [[real line
 
 In [[constructive mathematics]], one sees several definitions of 'compact', which may make the theorem provable, refutable, or undecidable in various constructive systems.  In [[intuitionism]], Theorems \ref{classical} and \ref{cartesian} can be proved (using the [[fan theorem]]), but Theorems \ref{metric} and \ref{uniform} cannot, leading [[Jan Brouwer|Brouwer]] to *define* 'compact' (for a metric space) to mean complete and totally bounded.  In other literature, one sometimes sees the abbreviation 'CTB' used instead.  In [[Russian constructivism]], already Theorems \ref{classical} and \ref{cartesian} can be refuted, but CTB spaces are still important.
 
-In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$, but constructively requires a more nuanced construction.  (I need to find the reference for this, which is by [[Douglas Bridges]] et al.)
+In [[locale theory]] and other approaches to [[pointless topology]], the open-cover definition of 'compact' is clearly correct, and the failure of CTB spaces to be compact (constructively) may be seen as a consequence of working with points.  Already in Bishop\'s weak system of constructivism, every CTB metric space $X$ gives rise to a compact locale, which classically (assuming [[excluded middle]] and [[dependent choice]]) is the [[locale of open subsets]] of $X$, but constructively requires a more nuanced construction; see [Vickers](#CTBlocale).
 
 
 ## References
@@ -73,6 +73,11 @@ In [[locale theory]] and other approaches to [[pointless topology]], the open-co
 A proof is spelled out for instance at
 
 * [ProofWiki](http://www.proofwiki.org/wiki/Main_Page),  _Heine-Borel Theorem [(General case)](http://www.proofwiki.org/wiki/Heine-Borel_Theorem_%28General_Case%29),  [(Special case)](http://www.proofwiki.org/wiki/Heine-Borel_Theorem_%28Special_Case%29)_
+
+On constructing a compact locale from a CTB metric space:
+
+*  [[Steve Vickers]], [Localic completion of generalized metric spaces](http://www.tac.mta.ca/tac/volumes/14/15/14-15abs.html)
+   {#CTBlocale}
 
 
 [[!redirects Heine-Borel theorem]]
