@@ -45,6 +45,8 @@ Similarly a _topological field_ is a topological ring whose underlying ring is i
 
 * [[completion of a ring]]
 
+* [[linear topological ring]]
+
 [[!redirects topological rings]]
 [[!redirects topological field]]
 [[!redirects topological fields]]
