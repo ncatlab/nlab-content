@@ -268,9 +268,43 @@ Among the special tools for handling $\infty$-stacks on $CartSp$ that factor at 
 
 
 
-### $\infty$-Lie grouopoid cohomology {#Cohomology}
+### Cohomology {#Cohomology}
 
 As every [[(∞,1)-topos]], $\mathbf{H} = Sh_{(\infty,1)}(CartSp)$ comes with its [[cohomology|intrinsic cohomology]].
+
+
+#### With constant coefficients
+
++-- {: .un_theorem }
+###### Theorem
+
+Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]] and $A \in $ [[∞Grpd]]. Then we have an equivalence of [[cocycle]] [[∞-groupoid]]s
+
+$$
+  Sh_{(\infty,1)}(CartSp)(X, LConst A)
+  \simeq
+  Top(X, |A|)
+$$
+
+and hence in particular an isomorphism on cohomology
+
+$$
+  H(X,A) \simeq \pi_0   Sh_{(\infty,1)}(CartSp)(X, LConst A)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The key point is that for paracompact $X$, the [[nerve theorem]] asserts that $\Pi(X)$ is [[weak homotopy equivalence|weak homotopy equivalent]] to $Sing X$, the standard [[fundamental ∞-groupoid]] of $X$. This is discussed in detail in the section <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal">geometric realization</a> at [[schreiber:path ∞-groupoid]].
+
+Using this, the statement follows by the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(\Pi \dashv LConst)$, that is discussed in detail at <a href="http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#Unstruc">Unstructured homotopy ∞-groupoid</a>.
+
+=--
+
+
+#### Differential cohomology of Lie groups
 
 Let $G$ be an ordinary [[Lie group]], regarded as a group object in $\mathbf{H}$ and $\mathbf{B}G \in \mathbf{H}$ its smooth [[delooping]] groupoid. Then we can define cohomology on $G$ with coefficients in $U(1)$ or some other abelian Lie group $A$ by
 
@@ -470,6 +504,7 @@ $$
 
 Now it remains to observe that the Dold-kan correspondence respects weak equivalences and to use the last global weak equivbalence form above and then the [[Eilenberg-Zilber theorem]] to conclude that our cohomology is indeed the cohomology of the total complex of the double Cech complex of the chosen resolution.
 
+...
 
 =--
 
