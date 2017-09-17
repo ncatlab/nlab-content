@@ -75,6 +75,7 @@ $$
 $$
 
 #### Local definition 
+ {#LocalDefinition}
 
 This definition has the advantage that it yields useful information even if the adjoint functor $R$ does not exist globally, i.e. as a functor on all of $D$:
 
