@@ -167,6 +167,8 @@ See also 29.7 of
 * [[Peter May]], _Simplicial objects in algebraic topology_ , Chicago Lectures in Mathematics, Chicago, (1967) ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
 {#May}
 
+* A.P. Tonks, _On the Eilenberg-Zilber theorem for crossed complexes_. J. Pure Appl. Algebra, 179~(1-2) (2003) 199--220, 
+
 and section 11.2 of
 
 * [[Tim Porter]], _[[Crossed Menagerie]]_
