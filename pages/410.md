@@ -15,7 +15,7 @@
 
 ## Idea
 
-Informally, a **free functor** is a [[left adjoint]] to a [[forgetful functor]]. (This is informal because the concept of forgetful functor is informal; *any* functor might be viewed as forgetful, so *any* left adjoint might be viewed as free, while in practice only some are.)
+Informally, a **free functor** is a [[left adjoint]] to a [[forgetful functor]] -- part of a [[free-forgetful adjunction]]. (This is informal because the concept of [[forgetful functor]] is informal; *any* functor might be viewed as forgetful, so *any* left adjoint might be viewed as free, while in practice only some are.)
 
 Formally, with respect to a [[monad]] or [[algebraic theory]] or [[operad]] $T$, and $T Alg(C)$ the corresponding category of [[algebras over a monad]] or [[algebras over an algebraic theory]] or [[algebras over an operad]], respectively, in some category $C$, the **free $T$-algebra functor** is the [[left adjoint]] to the [[forgetful functor]] $T Alg(C) \to C$.
 
