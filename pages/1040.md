@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
 =--
 =--
 
