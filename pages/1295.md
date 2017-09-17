@@ -155,6 +155,7 @@ This is essentially a [[categorification|categorified]] version of the familiar 
 
 The dependent product is the [[categorical semantics]] of what in [[type theory]] is the [[type formation|formation]] of [[dependent product types]].  Under [[propositions as types]] this corresponds to [[universal quantification]].
 
+[[!include dependent product natural deduction - table]]
 
 ## Examples
 
