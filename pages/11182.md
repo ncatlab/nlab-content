@@ -141,7 +141,7 @@ Thus, for instance, $\int_c \mathrm{d}^2 x = 0$ according to the genuine integra
 The answer $0$ given by the genuine integral is preferable if we regard $\mathrm{d}x$ as a "first-order change in $x$", so that $\mathrm{d}x^2$ or $\mathrm{d}^2x$ are "second-order" quantities and hence ought to be negligible.  For instance, we usually compute the area under a curve $y=f(x)$ between $x=a$ and $x=b$ by dividing the interval $[a,b]$ into subintervals of width $\Delta x$ and approximating the area for each subinterval using a rectangle, obtaining $f(x) \Delta x$.  This leads us to integrate the differential form $f(x) \mathrm{d}x$.
 
 However, a *better* approximation would be to replace the rectangle with a trapezoid, having an area of $\frac{1}{2}(f(x+\Delta x) + f(x))\Delta x$.  At least if $f$ is differentiable, we can approximate $f(x+\Delta x)$ by $f(x) + f'(x) \Delta x$, and thus approximate the area by 
-\[ \frac{1}{2}(f(x) + f'(x)\Delta x + f(x))\Delta x = f(x) \Delta x + \frac{1}{2} f'(x) (\Delta x)^2. \]
+$$ \frac{1}{2}(f(x) + f'(x)\Delta x + f(x))\Delta x = f(x) \Delta x + \frac{1}{2} f'(x) (\Delta x)^2. $$
 This would lead us to integrate the form $f(x) \mathrm{d}x + \frac{1}{2} f'(x) \mathrm{d}x^2$.  Since this is based on a better approximation, we should expect it to give at least as good an answer.  And with the genuine integral it does give the same answer, since the additional term $\frac{1}{2} f'(x) \mathrm{d}x^2$ is $o(dx)$ and hence has vanishing integral.  But with the naive integral, it does not.
 
 ### The fundamental theorem of calculus
@@ -221,6 +221,20 @@ The hypotheses of the theorem are a bit restrictive, but they include both the u
 * Forms such as $\sqrt{\mathrm{d}^2x}$, whose genuine integral exists but does depend on parametrization.  These are excluded by the restriction to 1-cojet forms.
 
 The continuity requirement in (3) is just to ensure that the integral exists, and the homogeneity requirement in (3) can be regarded as a strengthening of (2), weaker than requiring differentiability with respect to $\mathrm{d}\mathbf{x}$ (which would require the derivative to be a *linear* function of $\mathrm{d}\mathbf{x}$).
+
+### Integrals in $\mathbb{R}^n$
+
+When $X$ is a finite-dimensional real [[affine space]], regarded as a smooth manifold, there is an equivalent definition of the genuine integral of a 1-cojet differential 1-form that is more obviously parametrization-invariant.  It relies on the fact that in this case, we can canonically identify all the tangent spaces of $X$ with the same vector space $V$.
+
+Let $c:[a,b]\to X$ be a curve in such an affine space $X$, and $\omega$ a 1-cojet differential 1-form on $X$.  Then we can regard $\omega$ as a function $X\times V\to \mathbb{R}$.  Now for any [[tagged partition]] $a = t_0 \lt t_1 \cdots \lt t_{n-1} \lt t_n = b$ with tags $t^*_i \in [t_{i-1},t_i]$, we define the corresponding [[Riemann sum]] to be
+
+$$ \sum_{i=1}^n \omega(c(t^*_i), \Delta c_i) $$
+
+where $\Delta c_i = c(t_i) - c(t_{i-1})$, the subtraction being the usual way to subtract points in an affine space and obtain a vector.  We then take the limit of such Riemann sums in the Henstock way, as before; let us call this the **affine integral**.
+
+Note that this Riemann sum manifestly depends only on the points $c(t_i)$ and $c(t^*_i)$ (and the order in which they occur).  Thus, any increasing bijection $\phi:[a',b'] \to [a,b]$ induces a bijection between tagged partitions which respects their Riemann sums.  It also maps intervals to intervals, so any gauge on one interval induces one on the other interval.  Thus the limits also coincide (in the strong sense that one exists if and only if the other does, and in that case they are equal), and so the affine integral is completely parametrization-independent.
+
+It remains to show that the affine integral agrees with the genuine integral....
 
 
 ## Higher forms
