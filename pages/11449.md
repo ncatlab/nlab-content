@@ -1,0 +1,12 @@
+
+## Idea
+
+The [[generalized cohomology theory]] [[Brown representability theorem|represented]] by the [[KO]]-[[spectrum]], hence the "orthogonal" version of [[complex K-theory]].
+
+## Related concepts
+
+[[!include string theory and cohomology theory -- table]]
+
+[[!redirects KO theory]]
+
+[[!redirects orthogonal K-theory]]
