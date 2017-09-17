@@ -60,8 +60,13 @@ The two definitions are provably equivalent, but only using the [[contraction ru
 
 ## Related concepts
 
+* [[empty set]]
+
+* [[nothing]]
+
 * [[sum type]]
 * [[unit type]]
+
 
 
 [[!redirects bottom type]]
