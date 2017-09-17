@@ -103,6 +103,9 @@ For more on this see
 
 * Movshev's course has mathematically nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html); and [here](http://www.math.columbia.edu/~woit/qftnotes1.pdf) is a link to Woit's list of more physical tradition references. 
 
+* [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
+
+
 * P. Cartier, C. DeWitt-Morette, _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.
 
 * Leon Takhtajan, [[Quantum mechanics for mathematicians]], Amer. Math. Soc. 2008. 
