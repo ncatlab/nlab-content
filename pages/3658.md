@@ -118,6 +118,60 @@ $\mathcal{M}(\mathcal{O}) := \{F(\Psi(f)) | f$ is a real test function with supp
 
 (Our assumptions allow us to use the [Borel functional calculus] (http://en.wikipedia.org/wiki/Borel_functional_calculus)).
 
+## Examples
+
+## Neutral Real (uncharged) Scalar Field
+A neutral real quantum scalar field on Minkowski spacetime $M$ with mass parameter $m \gt 0$ can be defined as follows:
+
++-- {: .un_def}
+###### Definition
+The **positive mass shell** is the subset of Minkowski spacetime defined by 
+
+$$
+X^+_m := \{p | p^2 = m^2, \; p_0 \gt 0 \}
+$$
+
+The **normalized Lorentz-invariant measure** on the positive mass shell is defined with respect to the Lesbegue measure by
+$$
+d\lambda(p) = d\lambda(\omega_p, \vec p) = \frac{d^3 \vec p}{(2\pi)^3 \omega_p} \; \text{with} \; \omega_p = p^0 = \sqrt{|\vec p|^2 + m^2} 
+$$
+
+=--
+
+
+Let $H = L^2(X^+_m, \lambda)$ be the Hilbert space with $X^+_m$ the positive mass shell and $\lambda$ the normalized Lorentz-invariant measure on it as defined above. Construct the Boson [[Fock space]] $F_s(H)$. 
+
+Define the operator $R$ to be the Lorentz invariant Fourier transform restricted to $X^+_m$:
+$$
+R: \mathcal{S}(\mathbb{R}^4) \to H
+$$
+
+$$
+R(f) := \hat f |_{X^+_m} \; \text{with} \; \hat f := \mathcal{F}(f) = \int_M e^{i p_{\mu} x^{\mu}} f(x) dx 
+$$
+
+The quantum field $\Psi$ is now a real tempered distribution on $M$ with values in the space of operators of $F_s(H)$.
+
+$$
+\Psi:   \mathcal{S}(M) \to \mathcal{B}(F_s(H)) 
+$$
+
+$$
+         f \mapsto \Psi(f) = \frac{1}{\sqrt(2)} (a(Rf) + a^*(Rf))
+$$
+$a$ and $a^*$ are the annihilation and creation operators on $F_s(H)$, that is $a(v)$ anihilates a single particle state $v$ and $a^*(v)$ creates a single particle state $v$.
+
+$\Psi$ is a distribution solution of the Klein-Gordon equation by construction, that is for every test function $f$ we get
+
+$$
+\Psi((\Box + m) f) = 0
+$$
+
+The reason for this is that
+$$
+\mathcal{F}{[(\Box + m) f]} = (-p^2 + m^2) f = 0 \; \text{on} \; X^+_m
+$$
+
 ## References
 The classic reference already listed by Wikipedia is of course:
 
