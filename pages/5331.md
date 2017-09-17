@@ -29,7 +29,19 @@ For $n \in \mathbb{N}$,  a **Poisson $n$-algebra** $A$ is a [[Poisson algebra]] 
 
 ## Properties
 
+### Relation to $E_n$-algebras
+
 The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad|little n-cubes operad]] for $n \geq 2$ is a Poisson $n$-algebra. 
+
+Moreover, in [[chain complexes]] over a [[field]] of [[characteristic]] 0 the [[E-n operad]] is [[formal dg-algebra|formal]], hence equivalent to its homology, and so in this context $E_n$-algebras are equivalent to Poisson $n$-algebras.
+
+### Relation to $L_\infty$-algebras
+ {#RelationToLInfinityAlgebras}
+
+There is a [[forgetful functor]] from Poisson $n$-algebras to [[dg-Lie algebras]] given by forgetting the [[associative algebra]] structure and by [[suspension of a chain complex|shifting]] the underlying chain complex by $(n-1)$.
+
+Conversely, this functor has a [[derived functor|derived]] [[left adjoint]] which sends a [[dg-Lie algebra]] $(\mathfrak{g},d)$ to its _enveloping Poisson Lie $n$-algebra_ $(Sym(\mathfrak{g}[n-1], d))$. (See also [Gwilliam, section 4.5](#Gwilliam)).
+
 
 ## Examples
 
@@ -55,6 +67,10 @@ The [[homology]] of an [[algebra over an operad]] over the [[little cubes operad
 For discussion in the context of [[perturbation theory|perturbative]] [[quantum field theory]] see
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]]), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf)) 
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ {#Gwilliam}
+
 
 and for further references along these lines see at _[[factorization algebra]]_.
 
