@@ -1,21 +1,26 @@
-#Contents#
+
+# Arrow frames, arrow languages, arrow models and arrow logics
 * automatic table of contents goes here
 {:toc}
 
-
-##Arrow frames, arrow languages, arrow models and arrow logics##
+## Idea
 
 These structures are intended to allow one to talk about 'all such objects 
 as may be represented in a picture by arrows', (Venema).
 
-###Arrow frames###
 
-+--{: .un_defn}
-######Definition######
+## Arrow frames
+
++-- {: .un_defn}
+###### Definition
+
 An **arrow frame** is a [[frame (modal logic)|frame]], $\mathfrak{F} = (W, C, R, I )$, such that $C$ is a ternary relation, (so $C\subseteq 
 W \times W \times W$), $R$ is a binary relation, and $I$ a unary one, so $I\subseteq W$. 
 =--
-###Gloss###
+
+
+## Gloss
+
 The interpretation intended for these relations is similar to the structure of a [[groupoid]], but from a relational point of view.
 
 *  For $C(a,b,c)$ think $a = b\star c$, 'the' _composite_ of $b$ and $c$, but, of course, $a$ need not be uniquely defined by this;
@@ -26,11 +31,14 @@ The interpretation intended for these relations is similar to the structure of a
 
 This defines a frame by a relational signature.  It does not specify any formulae to be satisfied, nor is there a [[geometric models for modal logics|valuation]] around  to give some 'meaning' to the structure.
 
-###Arrow languages###
+
+## Arrow languages
+
 The arrow language follows the general form of the [[modal logic|modal languages]], but note that there are several 'arities' of relation in the structure, so we need several different types of modal operators.
 
-+--{: .un_defn}
-######Definition######
++-- {: .un_defn}
+###### Definition
+
 The **arrow language** is defined by the rule
 
 $$\phi ::= p \mid \bot \mid \neg \phi \mid \phi_1 \vee \phi_2 \mid \phi\circ \psi \mid \otimes\phi\mid 1',$$  
@@ -52,7 +60,9 @@ $\otimes \phi$ is $phi$  conversely; and
 
 $\phi\circ \psi$ is 'first $\phi$ then $\psi$'.
 
-###Arrow models###
+
+## Arrow models
+
 The usual rules for modal semantics apply.  An **arrow model**, $\mathfrak{M}$, consists of an arrow frame, $\mathfrak{F} = (W, C, R, I )$, (and a valuation $V$, which plays a somewhat behind the scenes role in this general situation).  In what follows, $a\in W$, 
 
 *  $\mathfrak{M},a \models 1'$ if and only if $Ia$;
@@ -62,7 +72,7 @@ The usual rules for modal semantics apply.  An **arrow model**, $\mathfrak{M}$, 
 *  $\mathfrak{M},a \models\phi\circ \psi$ if and only if $\mathfrak{M},b \models\phi$ and $\mathfrak{M},c \models\psi$ for some $b,c$ with $C a b c$.
 
 
-##References##
+## References
 
 A general treatment of these ideas can be found in 
 
@@ -74,6 +84,7 @@ whilst a short introduction is
 Studies in Logic, Language and Information, CSLI Publications, Stanford (1996) 3--34.
 
 
-[[!redirects arrow logic]]
+[[!redirects arrow structure]]
 [[!redirects arrow structures]]
+[[!redirects arrow logic]]
 [[!redirects arrow logics]]
