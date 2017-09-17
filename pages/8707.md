@@ -98,7 +98,7 @@ The modal systems "CL" and "PLL" in ([Benton-Bierman-Paiva](#BentonBiermanPaiva)
 
 Modal type theory with an eye towards [[homotopy type theory]] is discussed in 
 
-* UF-IAS-2012, _[Modal type theory](http://uf-ias-2012.wikispaces.com/Modal+type+theory)_
+* [[UF-IAS-2012]], _[Modal type theory](http://uf-ias-2012.wikispaces.com/Modal+type+theory)_
 
 Mondadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
 
