@@ -1,0 +1,104 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+Let [[Ab]] be the collection of [[abelian groups]], regarded as a [[multicategory]] whose [[multimorphisms]] are the [[multilinear maps]] $A_1, \cdots, A_n \to B$.
+
+The [[tensor product]] $A, B \mapsto A \otimes B$ in this multicategory is the **tensor product of abelian groups.
+
+=--
+
+Equivalently this means explicitly:
+
++-- {: .num_defn #ExplicitTensorProduct}
+###### Definition
+
+For $A, B$ two [[abelian groups]], their **tensor product of abelian groups** is an abelian group $A \otimes B$ obtained by
+
+1. starting with the cartesian product $A\times B$ in sets,
+1. generating a _[[free abelian group]] from it, and then
+1. quotienting by [[generators and relations|relations]] $(a_1,b)+(a_2,b)\sim (a_1+a_2,b)$ and $(a,b_1)+(a,b_2)\sim (a,b_1+b_2)$.  
+
+
+=--
+
+(The 0-ary relations $(0,b)\sim 0$ and $(a,0)\sim 0$ follow automatically; one needs them explicitly only if one generalises to [[abelian monoids]].)
+
++-- {: .num_remark}
+###### Remark
+
+A [[group homomorphism]] $A \otimes B \to C$ is a [[bilinear map]] $A \times B \to C$.
+
+=--
+
+## Properties
+
+Equipped with the tensor product $\otimes$ of def. \ref{ExplicitTensorProduct} [[Ab]] becomes a [[monoidal category]]. 
+
++-- {: .num_prop}
+###### Proposition
+
+A [[monoid]] in $(Ab, \otimes)$ is equivalently a [[ring]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(A, \cdot)$ be a [[monoid]] in $(Ab, \otimes)$. The fact that the multiplication
+
+$$
+  \cdot : A \otimes A \to A
+$$
+
+is bilinear means by the above that for all $a_1, a_2, b \in A$ we have
+
+$$
+  (a_1 +  a_2) \cdot b = a_1 \cdot b  + a_2 \cdot b
+$$
+
+and
+
+$$
+  b \cdot (a_1 +  a_2) = b \cdot a_1 + b \cdot a_2 
+  \,.
+$$
+
+This is precisely the [[distributivity law]] of the ring.
+=--
+
+## Related concepts
+
+* [[tensor product of chain complexes]]
+
+* [[tensor product of modules]]
+
+## References
+
+An exposition is in 
+
+* Collin Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
+
+[[!redirects tensor product of abelian groups]]
