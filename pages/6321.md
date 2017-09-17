@@ -29,6 +29,11 @@ _Quantum electrodynamics_ ("QED") is the [[quantum field theory]] of [[electroma
 
 ## References
 
+A decent textbook discussion of the standard lore is in 
+
+* [[Eberhard Zeidler]], _Quantum field theory II: quantum electrodynamics --  A bridge between mathematicians and physicists_ , Springer (2009)
+  {#Zeidler}
+
 A construction of QED in the context of [[AQFT]] is discussed in 
 
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of QED_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
