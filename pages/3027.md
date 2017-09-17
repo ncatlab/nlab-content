@@ -22,6 +22,12 @@
 A notion of [[infinite-dimensional manifold]].
 A __Banach manifold__ is a [[manifold]] modelled on [[Banach spaces]].  By default, transition maps are taken to be [[smooth map|smooth]].
 
+## Properties
+
+### Embedding into the category of diffeological spaces
+
+The category of smooth Banach manifolds has a [[full and faithful functor]] into the category of [[diffeological spaces]]. ([Hain](#Hain))
+
 ## Related concepts
 
 * [[Hilbert manifold]]
@@ -31,5 +37,15 @@ A __Banach manifold__ is a [[manifold]] modelled on [[Banach spaces]].  By defau
 * [[Frechet manifold]]
 
 * [[convenient manifold]]
+
+## References
+
+For general references see at _[[infinite-dimensional manifold]]_.
+
+The embedding into the category of diffeological spaces is discussed in 
+
+* [[Richard Hain]], _A characterization of smooth functions defined on a Banach space_,  Proc. Amer. Math. Soc. 77 (1979), 63-67 ([web](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/home.html), [pdf](http://www.ams.org/journals/proc/1979-077-01/S0002-9939-1979-0539632-8/S0002-9939-1979-0539632-8.pdf))
+ {#Hain}
+
 
 [[!redirects Banach manifolds]]
