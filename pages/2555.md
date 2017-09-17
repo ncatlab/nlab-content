@@ -29,17 +29,17 @@ $$
   X \times [0,1] \to X
 $$
 
-that collapses the cyclinder back onto $X$.
+that collapses the cylinder back onto $X$.
 
-The composite of these two maps is the codiagonal $(Id,Id) :  X \coprod X \to X$. Moreover, the cyclinder $X \times [0,1]$ is [[homotopy equivalence|homotopy equivalent]] to $X$. 
+The composite of these two maps is the codiagonal $(Id,Id) :  X \coprod X \to X$. Moreover, the cylinder $X \times [0,1]$ is [[homotopy equivalence|homotopy equivalent]] to $X$. 
 
-These properties are the characterizing properties of the cyclinder that can be abstracted and realized in other categories.
+These properties are the characterizing properties of the cylinder that can be abstracted and realized in other categories.
 
 The notion dual to _cylinder object_ is [[path space object]]. Cylinder objects and path space objects are used to define [[left homotopies]] and [[right homotopies]], respectively.
 
 ## Definition
 
-In a [[category with weak equivalences]] $C$ that has [[coproduct]]s a **cyclinder object** $Cyl(X)$ for an [[object]] $X$ is a factorization
+In a [[category with weak equivalences]] $C$ that has [[coproduct]]s a **cylinder object** $Cyl(X)$ for an [[object]] $X$ is a factorization
 
 $$
   X \coprod X \to Cyl(X) \stackrel{\simeq}{\to} X
@@ -49,7 +49,7 @@ of the codiagonal $X \coprod X \to X$ out of the [[coproduct]] of $X$ with itsel
 
 In some situations the assignment of cylinder objects may exist functorially, in which case one speaks of a [[cylinder functor]].
 
-If $C$ has the structure of a [[model category]] then one usually demands moreover that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration.  The factoization axiom of a model category ensures that for each object there is a cylinder object with this property; in fact, one with the additional property that $Cyl(X) \to X$ is an acyclic fibration.  Cylinder objects such that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration are sometimes called *good*, and those for which moreover $Cyl(X) \to X$ is an acyclic fibration are then called *very good*.
+If $C$ has the structure of a [[model category]] then one usually demands moreover that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration.  The factorization axiom of a model category ensures that for each object there is a cylinder object with this property; in fact, one with the additional property that $Cyl(X) \to X$ is an acyclic fibration.  Cylinder objects such that $X \coprod X \hookrightarrow Cyl(X)$ is a cofibration are sometimes called *good*, and those for which moreover $Cyl(X) \to X$ is an acyclic fibration are then called *very good*.
 
 ## Examples
 
