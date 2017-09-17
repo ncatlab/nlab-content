@@ -268,7 +268,7 @@ More discussion of this approach is in
 
 A direct and general formula for the deformation quantization of any Poisson manifold was given in 
 
-* [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, [q-alg/9709040](http://arxiv.org/abs/q-alg/9709040).
+* [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_,  Lett. Math. Phys. __66__ (2003),  no. 3, 157--216, ([arXiv:q-alg/9709040](http://arxiv.org/abs/q-alg/9709040)).
  {#Kontsevich}
 
 This secretly uses the [[Poisson sigma-model]] (see there for more details) induced by the given target [[Poisson Lie algebroid]].
