@@ -20,6 +20,10 @@ A [[Lie n-algebroid]] is _symplectic_ if it is equipped with a non-degenerate bi
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
+
 A **symplectic Lie $n$-algebroid** is a pair
 
 $$
@@ -32,11 +36,16 @@ consisting of
 
 * a binary [[invariant polynomial]] $\langle- , - \rangle$ of degree $(n+2)$
 
-  (an closed element in the shifted elements of the [[Weil algebra]] $W(\mathfrak{a})$)
+  (a closed element in the shifted elements of the [[Weil algebra]] $W(\mathfrak{a})$)
 
   which is non-degenerate.  
 
-The **Poisson tensor** of a symplect Lie $n$-algebroid is the cocycle $\nu \in CE(\mathfrak{a})$ in [[∞-Lie algebroid cohomology]] that this invariant polynomial transgresses to.
+=--
+
+
+## Properties
+
+
 
 The [[Chern-Simons element]] that witnesses this transgression is the Lagrangian of the corresponding [[AKSZ theory]] [[sigma-model]] with $\mathfrak{a}$ as its target space and the invariant polynomial $\langle -,- \rangle$ as the ([[curvature]] of) its background [[gauge field]].
 
