@@ -4,7 +4,7 @@ Classically, the __range__ of a [[function]] $f$ with [[domain]] $A$ is the [[se
 *  as the [[codomain]] itself, so that the earlier terminology is then preserved only for [[surjections]];
 *  as the [[image]]
    $$ \{y \colon B \;|\; \exists x\colon A,\; y = f(x)\} $$
-   (whose existence, in axiomatic set theory, is given by the much weaker axiom of [[axiom of separation|bounded separation]]) of $f\colon A \to B$.
+   (whose existence, in axiomatic set theory, is given by the much weaker axiom of [[bounded separation]]) of $f\colon A \to B$.
 
 The former generalisation was historically common (and is sometimes still used) in [[groupoid]] theory; the latter is what we usually mean today.
 
