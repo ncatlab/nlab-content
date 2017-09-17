@@ -75,3 +75,7 @@ A __[[logarithm]]__ is a [[partial section]] of an exponential map.
 [[!redirects exponential functions]]
 
 [[!redirects exponential]]
+
+[[!redirects flow]]
+[[!redirects flow of a vector field]]
+[[!redirects flows]]
