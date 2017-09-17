@@ -78,7 +78,7 @@ $$
   \mathcal{C}_{/X}
 $$
 
-of the pullback long $f$ with the [[dependent sum]] along $f$. By the above [[adjoint triple]] both these morphisms have [[right adjoints]] and so the composite of the right adjoints is the right adjoint of the composite, hence is the [[internal hom]]:
+of the pullback along $f$ with the [[dependent sum]] along $f$. By the above [[adjoint triple]] both these morphisms have [[right adjoints]] and so the composite of the right adjoints is the right adjoint of the composite, hence is the [[internal hom]]:
 
 $$
   \mathcal{C}_{/X}
