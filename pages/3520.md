@@ -94,6 +94,8 @@ $$
 
 * the [[Tietze extension theorem]]
 
+* the [[Whitney extension theorem]]
+
 * the [[Steenrod-Wockel approximation theorem]]
 
 
