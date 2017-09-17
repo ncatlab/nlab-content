@@ -28,7 +28,7 @@ Sometimes it is convenient to proceed otherwise, however, and to give a specific
 
 ##Examples##
 
-*  $G$ a cyclic group of order $n$ has presentation $\angle a ; a^n\rangle$.
+*  $G$ a cyclic group of order $n$ has presentation $\langle a ; a^n\rangle$.
 
 *  $S_3$ has a presentation $\langle a,b ; a^3, b^2,(ab)^2 \rangle$.
 
