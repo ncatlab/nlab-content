@@ -244,6 +244,10 @@ A discussion of univalence in [[categories of presheaves]] over an [[inverse cat
 
 * [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
 
+Further developments in 
+
+* [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
+
 For more references see _[[homotopy type theory]]_.
 
 
