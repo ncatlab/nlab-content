@@ -57,8 +57,8 @@ All of this could be made more precise by assembling the structures considered b
 +-- {: .num_defn #ComprehensionCategory}
 ###### Definition
 
-A **comprehension category** consists of a [[commuting diagram|commutative triangle]] of [[functors]]
-$$ \array{ E && \to && C^I\\ & \searrow && \swarrow\\ && C } $$
+A **comprehension category** consists of a strictly [[commuting diagram|commutative triangle]] of [[functors]]
+$$ \array{ E && \to && C^I\\ & \searrow && \swarrow {\scriptsize cod} \\ && C } $$
 where $C^I$ is the [[arrow category]] of $C$, and such that
 
 1. $E\to C$ is a [[Grothendieck fibration]], and 
@@ -150,7 +150,9 @@ In fact, any category with attributes gives rise to a full comprehension categor
 
 +-- {: .num_lemma #CWAasCmpC}
 ###### Lemma
-Categories with attributes, def. \ref{CategoryWithAttributes}, are equivalent to full split comprehension categories, def. \ref{FullAndSplitComprehensionCategory}.
+The category $\mathbf{CwA}$ of categories with attributes (def. \ref{CategoryWithAttributes}) is equivalent to the category of $\mathbf{CompCat}_{\text{full,split}}$ of full split comprehension categories (def. \ref{FullAndSplitComprehensionCategory}).
+
+(These are, however, quite different as subcategories of $\mathbf{CompCat}$.)
 =--
 
 
