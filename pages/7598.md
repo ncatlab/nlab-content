@@ -1,0 +1,18 @@
++-- {: .num_defn}
+###### Definition
+A diagram $F:P\to M$ is called _projectively cofibrant_ if $0\to F$ has the lifing property with respect to component-wise acyclic fibrations.
+=--
+
++-- {: .num_example}
+###### Example
+1. A span is projectively cofibrant if it is a diagram of cofibrations
+
+1. A _cotower_ - i.e. a diagram with domain $(\mathbb{N},\le)$ is projectively cofibrant if it is a diagram of cofibrations and its value in $0$ is cofibrant.
+=--
+
+## References
+
+[math overflow](http://mathoverflow.net/questions/70612/when-are-diagrams-of-cofibrations-projectively-cofibrant)
+
+
+Example 2.3.15, Urs schreiber, Differential cohomology in a cohesive ($\infty$,1)-topos, [pdf](http://ncatlab.org/schreiber/files/cohesivedocumentv032.pdf#page=130)
