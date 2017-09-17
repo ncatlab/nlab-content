@@ -5,7 +5,7 @@ In the simplest case, the notion of _tensorial strength_ is a way to talk about 
 
 # Definition #
 
-Given a monoidal category $V$, a 'tensorial strength' for a functor 
+Given a monoidal category $V$, a **tensorial strength** for a functor 
 
 $$F : V \to V$$
 
@@ -13,7 +13,11 @@ is usually defined as a natural transformation
 
 $$ v \otimes F(w) \to F(v \otimes w)$$
 
-making two diagrams commute.  The first says that the two obvious morphisms from $u \otimes v \otimes F(w)$ to $F(u \otimes v \otimes w)$ are equal.  The second says that two obvious morphisms from $1 \otimes F(w)$ to $F(w)$ are equal.  
+making two diagrams commute.  The first says that the two obvious morphisms from $u \otimes v \otimes F(w)$ to $F(u \otimes v \otimes w)$ are equal.  The second says that two obvious morphisms from $1 \otimes F(w)$ to $F(w)$ are equal.
+
+A functor equipped with a tensorial strength is called a **strong functor** (not to be confused with a *strong 2-functor*, which is another name for a [[pseudofunctor]], i.e. a [[lax 2-functor]] whose coherence cells are invertible).
+
+More generally, the notion makes sense not just for endofunctors of $V$, but for functors between any categories that are "tensored over $V$."
  
 +-- {: .standout}
 
@@ -99,4 +103,10 @@ The tentative 'more conceptual' definition of tensorial strength, as well as the
 
 * [[John Baez]], _The Monads Hurt My Head -- But Not Anymore_ ([blog](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025476))
 
-The concept of tensorial strength is a prerequisite for the concept of [[strong monad]], so see the further discussion there.
+The concept of tensorial strength is a prerequisite for the concept of [[strong monad]], so see the further discussion there.  An original reference is
+
+* A. Kock, *Strong functors and monoidal monads*, Arch. Math. (Basel) 23 (1972), 113--120.
+
+[[!redirects tensorial strengths]]
+[[!redirects strong functor]]
+[[!redirects strong functors]]
