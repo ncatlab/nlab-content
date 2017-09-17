@@ -52,6 +52,15 @@ This appears as ([Fresse, prop. 11.2.6](#Fresse)).
 
 (...)
 
++-- {: .num_prop}
+###### Proposition
+
+The [[homotopy fiber|homotopy cofiber]]s in $A Mod$ are given by the usual [[mapping cone]]s of dg-modules in the [[model structure on chain complexes]].
+
+=--
+
+This follows from ([Bernstein, 10.3.5](#Bernstein)).
+
 ## References
 
 A general account is around section 11.2.5 of 
@@ -62,7 +71,7 @@ A general account is around section 11.2.5 of
 The [[homotopy category]] and [[triangulated category]] of dg-modules is discussed for instance also in
 
 * Joseph Bernstein, _DG-modules and equivariant cohomology_ ([pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/luntz_ESF/4-dg-modules-and-equivariant-cohomology.pdf)).
-
+{#Bernstein}
 
 [[!redirects category of dg-modules]]
 [[!redirects categories of dg-modules]]
