@@ -6,6 +6,8 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 Time for a clean-out, I deem.  Look in the history for the previous lot.
 
+---
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
