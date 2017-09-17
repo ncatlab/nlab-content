@@ -33,3 +33,6 @@ See [[E-∞ algebra]]
 
 
 [[!redirects En-algebras]]
+
+[[!redirects E2-algebra]]
+[[!redirects E2-algebras]]
