@@ -1,2 +1,0 @@
-Really nice blog!
-Sac Longchamp Pliable Soldes http://jackson5abc.com/infolist.php?pid=1576
