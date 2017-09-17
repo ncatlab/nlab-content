@@ -195,6 +195,10 @@ The notion of local net in the context of [[conformal field theory]] is a [[conf
 
 * [[quantum field theory]]
 
+  * [[local quantum field theory]], [[local prequantum field theory]]
+
+  * [[causal locality]], [[Einstein locality]]
+
   * [[AQFT]]
 
     * [[Haag-Kastler axioms]]
