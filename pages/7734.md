@@ -1,0 +1,7 @@
+
+
+* [website](http://ipht.cea.fr/Pisp/39/mariana.grana.html)
+
+category: people
+
+[[!redirects Mariana Grana]]
