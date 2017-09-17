@@ -27,17 +27,17 @@ If the trees are not required to be well-founded, we obtain instead a [[coinduct
 
 ## Examples
 
-The most basic W-type is the [[natural numbers]].  Here there are two constructors:
+(1) The most basic W-type is the [[natural numbers]].  Here there are two constructors:
 * $0$ of arity zero, and
 * $S$ of arity one.
 Therefore, zero is a natural number, any natural number has a successor, and all natural numbers are generated in this way.
 
-Similarly, if $X$ is any set, then the W-type $L X$ of [[lists]] of elements of $X$ has $|X|+1$ constructors:
+(2) Similarly, if $X$ is any set, then the W-type $L X$ of [[lists]] of elements of $X$ has $|X|+1$ constructors:
 * $nil$ of arity zero, and
 * $cons(x,-)$ of arity one, for each $x\in X$.
 Therefore, $nil$ is a list, $cons(x,\ell)$ is a list for any list $\ell$ and $x\in X$, and all lists are generated in this way.
 
-
+(3) [[identity type]]s arise as a more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
 ## Definition
 
 Actually, there are two slightly different formulations of W-types.
