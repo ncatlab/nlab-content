@@ -755,6 +755,9 @@ See also at _[[Dold-Thom theorem]]_.
 
 ### Dimension 2 -- Pull-push over $KU$ and $K$-theory indices
 
+#### K-theory of smooth groupoids / stacks
+ {#KTheoryOfSmoothGroupoids}
+
 Write 
 
 $$
@@ -893,6 +896,23 @@ In particular, on a [[local quotient groupoid]] the functor of prop. \ref{TheSmo
 =--
 
 
+#### Beck-Chevalley condition
+ {#BeckChevalleyConditionForGroupoidKTheory}
+
+Functoriality of
+
+$$
+  Corr(\mathbf{H}_{/\mathbf{B}^2 U(1)})^{nice}
+  \to 
+  KU Mod
+$$
+
+requires that pullback in [[twisted K-theory|twisted]] [[groupoid K-theory]] satisfies the [[Beck-Chevalley condition]], which says that push-pull is equivalent to pull-push through the [[fiber product]].
+
+Here we list sufficient conditions for this to be the case
+
+(...)
+
 
 ### Dimension 3 -- Pull-push over $tmf$ and elliptic genera
 
@@ -912,6 +932,116 @@ We spell out and discuss examples and applications of the general method.
 
 ### Dimension 1
  {#ExamplesDimension1}
+
+#### Lagrangian correspondences
+ {#LagrangianCorrespondences}
+
++-- {: .num_defn}
+###### Definition
+
+For $(X_j, \omega_j)$ two [[symplectic manifold]]s, a **Lagrangian correspondence** is a [[correspondence]] $Z \to X^-_0 \times X_1$ which is a  [[submanifold]] of $X^-_0 \times X_1$
+
+$$
+  \iota : L_{0,1} \hookrightarrow X^-_0 \times X_1
+$$
+
+with $dim(L_{0,1}) = \frac{1}{2}(dim(X_0) + dim(X_1))$
+
+and
+
+$$
+  \iota^*(-\pi_0^* \omega_0 + \pi_1^* \omega_1) = 0
+  \,,
+$$
+
+where $\pi_i$ are the two projections out of the [[product]].
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+The **composition** of two Lagrangian correspondences is
+
+$$
+  L_{01} \circ L_{12} := 
+    \pi_{02}(L_{01} \times_{X_1} L_{12})
+$$
+
+which is itself a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suitably smoothly embedded by $\pi_{02}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The category of Lagrangian correspondences is a [[full subcategory]] of that of correspondence of the [[slice topos]] $SmoothSpaces_{/\Omega^2_{cl}}$ of [[smooth spaces]] over the [[moduli space]] $\Omega^2_{cl}$ of closed [[differential 2-forms]]: 
+
+a [[symplectic manifold]] $(X,\omega)$ is given by a map of [[smooth spaces]] $\omega \colon X \to \Omega^2_{cl}$ (generally this is a [[presymplectic manifold]]) and a correspondence in $SmoothSpaces_{/\Omega^2_{cl}}$ is a [[commuting diagram]] in [[smooth spaces|SmoothSpaces]] of the form
+
+$$
+  \array{
+    && Z
+    \\
+    & {}^{\mathllap{i_1}}\swarrow && \searrow^{\mathrlap{i_2}}
+    \\
+    X_1 && {i_1^\ast \omega_1 = i_2^\ast \omega_2} && X_2
+    \\
+    & {}_{\mathllap{\omega_1}}\searrow && \swarrow_{\mathrlap{\omega_2}}
+    \\
+    && \Omega^2_{cl}
+  }
+  \,.
+$$
+
+If here $(i_1, i_2) \colon Z \to X \times Y$ is a manifold maximal with the property of fitting into the above diagram, then this is a Lagrangian correspondence.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+A [[prequantum line bundle|prequantization]] of a [[symplectic manifold]] $\omega \colon X \to \Omega^2$ is a lift of the symplectic 2-form to [[ordinary differential cohomology]]
+
+$$
+  \array{  
+    && \mathbf{B}^2 U(1)
+    \\
+    & {}^{\mathllap{\nabla}}\nearrow & \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    X &\stackrel{\omega}{\to}& \Omega^2
+  }
+  \,.
+$$
+
+Hence a _prequantized Lagrangian correspondence_ is a correspondence in $\mathbf{H}_{/\mathbf{B}U(1)_{conn}}$ of the form
+
+$$
+  \array{
+    && Z
+    \\
+    & {}^{\mathllap{i_1}}\swarrow && \searrow^{\mathrlap{i_2}}
+    \\
+    X_1 && \swArrow_{\xi} && X_2
+    \\
+    & {}_{\mathllap{\nabla_1}}\searrow && \swarrow_{\mathrlap{\nala_2}}
+    \\
+    && \mathbf{B} U(1)_{conn}
+    \\
+    && \downarrow^{\mathrlap{F_{(-)}}}
+    \\
+    && \Omega^2
+  }
+  \,.
+$$
+
+
+In this way one may think of the prequantum correspondence which we consider here as [[higher prequantum geometry]] versions of generalized Lagrangian correspondences. Accordingly the $\infty$-categories  $Corr_n(\mathbf{H}_{/\mathbf{B}GL_1(R)})$ that we consider are respective analogs of the idea of Weinstein's [[symplectic category]].
+
+=--
+
+(...)
+
 
 #### String topology operations
 
@@ -1438,7 +1568,7 @@ $$
   [\xi] \in K_{\bullet + W_3(N Q) + i^\ast \chi}(Q)
 $$ 
 
-is called (the K-class of) a _[[Chan-Paton gauge field]]_ on the D-brane satisfying the **Freed-Witten-Kapustin anomaly cancellation** mechanism. (The orginal **Freed-Witten anomaly cancellation** assumes $\xi$ given by a [[twisted unitary bundle|twisted line bundle]] in which case it exhibits a [[twisted spin^c structure]] on $Q$.) Finally its [[fiber integration|push-forward]]
+is called (the K-class of) a _[[Chan-Paton gauge field]]_ on the D-brane satisfying the _[[Freed-Witten-Kapustin anomaly]] cancellation mechanism_. (The orginal _Freed-Witten anomaly cancellation_ assumes $\xi$ given by a [[twisted unitary bundle|twisted line bundle]] in which case it exhibits a [[twisted spin^c structure]] on $Q$.) Finally its [[fiber integration|push-forward]]
 
 $$
   [i_! \xi] \in K_{\bullet + \chi}(X)
