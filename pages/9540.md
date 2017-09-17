@@ -1,0 +1,41 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _Hilber $C^\ast$-bimodule_ adapts the notion of [[bimodules]] over [[associative algebras]] to [[operator algebra]]/[[C-star-algebra]] theory.
+
+For $A,B$ two [[C-star algebras]], an $(A,B)$-*Hilbert $C^\ast$-bimodule* (or just _Hilbert bimodule_, for short) is 
+
+* a left $A$-[[Hilbert C*-module]] $(N, \langle -,-\rangle)$;
+
+* equipped with a further right $B$-_[[representation of a C-star-algebra|representation]] $B \to \mathcal{B}(N)$ by *adjointable operators*, hence such that $\langle -,- b\rangle = \langle -b^\ast,-\rangle$ for all $b \in B$.
+
+## Examples
+
+An $(A,\mathbb{C})$-Hilbert $C^\ast$-bimodule is equialently just an $A$-[[Hilbert C-star-module]].
+
+A $(\mathbb{C},A)$-Hilbert $C^\ast$-bimodule is equivalently just as [[representation of a C-star-algebra]].
+
+
+
+## Related concepts
+
+* [[KK-theory]]
+
+## References
+
+* Nik Weaver, _Hilbert bimodules with involution_ ([arXiv:math/9908119](http://arxiv.org/abs/math/9908119))
+
+* [[Sergio Doplicher]], Claudia Pinzari, Rita Zuccante, _The $C^\ast$-algebra of a Hilbert Bimodule_ ([arXiv:funct-an/9707006](http://arxiv.org/abs/funct-an/9707006))
+
+[[!redirects Hilbert bimodules]]
+
+[[!redirects Hilbert C-star-bimodule]]
+[[!redirects Hilbert C-star-bimodules]]
+[[!redirects Hilbert C-*-bimodule]]
+[[!redirects Hilbert C-*-bimodules]]
+[[!redirects Hilbert C*-bimodule]]
+[[!redirects Hilbert C*-bimodules]]
