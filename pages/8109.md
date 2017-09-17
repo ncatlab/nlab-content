@@ -24,7 +24,7 @@
 ## Idea
 
 
-By the construction of [[complex oriented cohomology theories]] from [[formal groups]] (via the [[Landweber exact functor theorem]]), the [[height of a formal group|height filtration]] of formal groups induces a "chromatic" [[filtration]] on [[complex oriented cohomology theories]]. 
+By the construction of [[complex oriented cohomology theories]] from [[formal groups]] (via the [[Landweber exact functor theorem]]), the [[height of a formal group|height filtration]] of formal groups induces a "[[chromatic filtration|chromatic]]" [[filtration]] on [[complex oriented cohomology theories]]. 
 _Chromatic homotopy theory_ is the study of [[stable homotopy theory]] and specifically of [[complex oriented cohomology theories]] by means of and along this [[chromatic filtration]].
 
 More in detail, for each [[prime]] $p \in \mathbb{N}$ and for each  $n \in \mathbb{N}$ there is a [[Bousfield localization of spectra]]
@@ -66,11 +66,21 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[stable homotopy theory]]
 
-* [[telescopic complexity]]
+* [[complex oriented cohomology theory]]
 
-* [[red-shift conjecture]]
+* [[complex cobordism cohomology theory]]
+
+  * [[Lazard's theorem]]
+
+  * [[Quillen's theorem on MU]]
+
+  * [[Landweber exact functor theorem]]
 
 * [[formal group law]]
+
+  * [[moduli stack of formal groups]]
+
+  * [[height of a formal group]]
 
   * [[Morava stabilizer group]]
 
@@ -84,6 +94,22 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
   * [[Lubin-Tate theory]]
 
+* [[chromatic filtration]]
+
+  * [[chromatic tower]]
+
+  * [[monochromatic layer]]
+
+  * [[periodicity theorem]]
+
+  * [[chromatic convergence theorem]]
+
+* [[telescopic complexity]], [[telescopic localization]]
+
+* [[red-shift conjecture]]
+
+* [[J-homomorphism]]
+
 * [[motivic chromatic homotopy theory]]
 
 
@@ -94,6 +120,8 @@ Comprehensive lecture notes are in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
  {#LurieLectures}
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 Brief surveys include
 
