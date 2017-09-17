@@ -78,11 +78,11 @@ In the next section we discuss how this statement is presented in terms of [[mod
 +-- {: .un_def}
 ###### Definition 
 **(extracting a simplicial presheaf from a fibration)**
-(HTT, section 2.2.1)
+([[Higher Topos Theory|HTT, section 2.2.1]])
 
 Let 
 
-* $S$ be a [[simplicial set]], $|S|$ the corresponding [[SSet-category]] (under the adjoint $|-| : SSet \to SSet Cat$ of the [[homotopy coherent nerve]]);
+* $S$ be a [[simplicial set]], $|S|$ the corresponding [[SSet-category]] (under the [[left adjoint]] $|-| : SSet \to SSet Cat$ of the [[homotopy coherent nerve]]);
 
 * $C$ an [[SSet-category]];
 
@@ -371,6 +371,39 @@ The first and third Quillen adjunction here is a [[Quillen equivalence]] if $S$ 
 
 
 ## Examples
+
+### The construction over the point
+
+For the base category $S$ being the point $S = {*}$, the  $(\infty,1)$-Grothendieck construction naturally becomes essentially trivial. However, its model by the Quillen functor
+
+$$
+  St_\phi : sSet/* \simeq sSet \to [*,sSet] \simeq sSet 
+$$
+
+is not entirely trivial and in fact produces a Quillen auto-equivalence of $sSet_{Quillen}$ with itself that plays a central role in the proof of the corresponding Quillen equivalence over general $S$.
+
+**Definition**
+
+Let $Q : \Delta \to sSet$ be the [[cosimplicial object|cosimplicial]] [[simplicial set]] given by
+
+$$
+  Q[n] := |J^n|(x,v)
+  \,,
+$$
+
+where
+
+$$
+  J^n = C^{\triangleleft}(\Delta[n] \to \{x\})
+  \,.
+$$
+
+Then: [[nerve and realization]] associated to $Q$ yield a [[Quillen equivalence]] of $sSet_{Quillen}$ with itself.
+
+[[Higher Topos Theory|HTT, section 2.2.2]].
+
+...
+
 
 ### Cartesian fibrations over simplices {#CartOverSimplex}
 
