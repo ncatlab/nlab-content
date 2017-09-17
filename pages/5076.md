@@ -37,12 +37,15 @@ $$
 
 the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] on those that preserve these limits.
 
-Generalizing this definition, one writes also for $C$ a non-small $(\infty,1)$-category with limits 
+Generalizing this definition, one sometimes writes also for $C$ a non-small $(\infty,1)$-category with limits 
 
 $$
   Pro(C) := Lex(C,\infty Grpd)^{op}
   \,.
 $$
+
+although this is morally not really correct; in such a case $Pro(C)$ should really consist only of those left-exact functors which are "*small* cofiltered limits of representables".
+
 
 ## Related concepts
 
