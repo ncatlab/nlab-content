@@ -79,6 +79,10 @@ This probability measure will in general not extend to a state.
 
 * Wikipedia on [Gleason's theorem] (http://en.wikipedia.org/wiki/Gleason%27s_theorem)
 
+Gleason's original paper outlining the theorem:
+
+* A.M. Gleason "Measures on the closed subspaces of a Hilbert space," Journal of Mathematics and Mechanics, [pdf](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050).
+
 A monograph stating and proving both the classical theorem and extensions to von Neumann algebras is this:
 
 * Hamhalter, Jan: "Quantum measure theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1038.81003&format=complete))
