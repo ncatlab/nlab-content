@@ -34,24 +34,86 @@ Such $X$ is called
 
 ## Properties
 
-+-- {: .un_prop}
-###### Proposition
+### General
 
-A good simplicial space is also proper: $good \Rightarrow proper$.
++-- {: .un_defn #GoodSimplicialSpace}
+###### Definition 
+
+A [[simplicial topological space]] $X_\bullet$ is **good** in the sense of [[Graeme Segal|Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
 
 =--
 
-This is apparently due to ([Lewis1982](#Lewis)).
++-- {: .un_defn #ProperSimplicialSpace}
+###### Definition
+
+A simplicial topological space $X_\bullet$ is **proper** in the sense of [May](#May) if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[Hurewicz cofibration|closed cofibration]], where $s X_n := \bigcup_i s_i(X_{n-1})$.
+
+=--
+
+For more on these conditions see [[nice simplicial topological space]].
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $X_\bullet$ proper its [[geometric realization of a simplicial space]] is [[weak homotopy equivalence|weakly homotopy equivalent]] to its [[homotopy colimit]] in the [[model structure on topological spaces]] over $\Delta$
+A good simplicial topological space is proper.
+
+=--
+
+A proof appears as [Lewis, corollary 2.4 (b)](#Lewis). A generalization of this result is in [RobertsStevenson](#StevensonRoberts).
+
++-- {: .un_prop #ProperIsReedyCofibrant}
+###### Proposition
+
+The proper simplicial topological spaces are precisely those that are cofibrant in the [[Reedy model structure]] $[\Delta^{op}, Top_{Str}]_{Reedy}$ on simplicial topological spaces, where [[Top]] is equipped with the [[Strøm model structure]] $Top_{Strm}$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+For $X_\bullet$ any simplicial topological space, then ${|Sing X_\bullet|}$ is proper and the natural morphism
 
 $$
-  |X_\bullet| \simeq hocolim_{n} X_n
-  \,.
+  {|Sing X_\bullet|} \to X_\bullet
 $$
+
+is a cofibrant [[resolution]] of $X_\bullet$ in $[\Delta^{op},Top_{Strm}]_{Reedy}$.
+
+
+=--
+
+This follows by results in ([Lewis](#Lewis)).
+
+
+### Models for the homotopy colimit
+
++-- {: .un_prop}
+
+###### Proposition
+
+Let $X_\bullet$ be a [[simplicial topological space]]. Then there is a [[natural transformation|natural]] [[weak homotopy equivalence]] 
+
+$$
+ \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
+$$
+
+from its fact [[geometric realization of simplicial topological spaces]] to the [[homotopy colimit]] over the simplicial diagram $X : \Delta^{op} \to Top$.
+
+If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ {\Vert X\Vert} \to {|X|}$ is a [[weak homotopy equivalence]], and hence also the ordinary geometric realization is a model for the homotopy colimit.
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+That the [[geometric realization of simplicial topological spaces]] of a proper simplicial space is is homotopy colimit follows from the [above fact](#ProperIsReedyCofibrant) that proper spaces are Reedy cofibrant, and using the general statement discussed at [[homotopy colimit]] about description of homotopy colimits by [[coend]]s.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
 
 =--
 
