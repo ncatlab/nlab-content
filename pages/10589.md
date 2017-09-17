@@ -23,7 +23,7 @@ $$
 $$
 for fixed $p$ but all $n \geq 1$.
 
-Effectively the conjecture says that the [[generating function]] for the number of points as $n$ varies -- the [[zeta function]] -- is a [[rational function]] with some nice properties.
+Effectively the conjecture says that the [[generating function]] for the number of points as $n$ varies -- the [[Weil zeta function]] -- is a [[rational function]] with some nice properties.
 
 It was realized that the all except one of the conjectures (the [[Riemann hypothesis]]) would follow formally from the existence of a suitable [[cohomology theory]] on [[algebraic varieties]] which behaves in essential aspects like [[ordinary cohomology]] of [[topological spaces]] and which in particular satisfies a [[Lefschetz fixed point theorem]] - what is now called a [[Weil cohomology theory]].
 
