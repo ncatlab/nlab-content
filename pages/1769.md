@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+
 # Complete spaces
 * table of contents
 {: toc}
@@ -47,8 +59,12 @@ X &                 &              &                 & \mathcal{H}\overline{X} \
 When [[Bill Lawvere]] interpreted (in [tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html), 1986) [[metric space]]s as certain [[enriched categories]], he found that a metric space was complete if and only if every [[adjunction]] of [[bimodule]]s over the enriched category is induced by an [[enriched functor]].  Accordingly, this becomes the notion of [[Cauchy complete category]].  (Note that one *must* say 'Cauchy' here, since this is *weaker* than being a [[complete category]], which is based on an incompatible analogy.)
 
 
+[[!redirects complete topological spaces]]
+
 [[!redirects complete space]]
 [[!redirects complete spaces]]
+
+
 [[!redirects Cauchy complete space]]
 [[!redirects Cauchy complete spaces]]
 [[!redirects Cauchy-complete space]]
