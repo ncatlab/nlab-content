@@ -23,6 +23,9 @@ A _nice simplicial topological space_ is a [[simplicial topological space]] that
 
 ## Definition
 
++-- {: .un_defn }
+###### Definition 
+
 Let $X : \Delta^{op} \to Top$ be a [[simplicial topological space]].
 
 Such $X$ is called
@@ -31,26 +34,16 @@ Such $X$ is called
 
 * **proper** if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[closed cofibration]], where $s X_n = \bigcup_i s_i(X_{n-1})$.
 
+In other words this says: $X_\bullet$ is proper if it is a cofibrant in the [[Reedy model structure]] $[\Delta^{op}, Top_{Strom}]_{Reedy}$ on [[simplicial object]]s with respect to the [[Strøm model structure]] on [[Top]].
+
+=--
+
+The notion of good simplicial topological space goes back to ([Segal](#Segal)), that of proper simplicial topological space to ([May](#May)). 
+
 
 ## Properties
 
 ### General
-
-+-- {: .un_defn #GoodSimplicialSpace}
-###### Definition 
-
-A [[simplicial topological space]] $X_\bullet$ is **good** in the sense of [[Graeme Segal|Segal]] if all the degeneracy maps $X_{n-1} \hookrightarrow X_n$ are closed cofibrations.
-
-=--
-
-+-- {: .un_defn #ProperSimplicialSpace}
-###### Definition
-
-A simplicial topological space $X_\bullet$ is **proper** in the sense of [May](#May) if the inclusion $s X_n \hookrightarrow X_n$ of the degenerate simplices is a [[Hurewicz cofibration|closed cofibration]], where $s X_n := \bigcup_i s_i(X_{n-1})$.
-
-=--
-
-For more on these conditions see [[nice simplicial topological space]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -61,28 +54,34 @@ A good simplicial topological space is proper.
 
 A proof appears as [Lewis, corollary 2.4 (b)](#Lewis). A generalization of this result is in [RobertsStevenson](#StevensonRoberts).
 
-+-- {: .un_prop #ProperIsReedyCofibrant}
-###### Proposition
-
-The proper simplicial topological spaces are precisely those that are cofibrant in the [[Reedy model structure]] $[\Delta^{op}, Top_{Str}]_{Reedy}$ on simplicial topological spaces, where [[Top]] is equipped with the [[Strøm model structure]] $Top_{Strm}$.
-
-=--
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $X_\bullet$ any simplicial topological space, then ${|Sing X_\bullet|}$ is proper and the natural morphism
+For $X_\bullet$ any simplicial topological space, then ${|Sing X_\bullet|}$ is good, hence proper, and the natural morphism
 
 $$
   {|Sing X_\bullet|} \to X_\bullet
 $$
 
-is a cofibrant [[resolution]] of $X_\bullet$ in $[\Delta^{op},Top_{Strm}]_{Reedy}$.
-
+is degreewise a [[weak homotopy equivalence]].
 
 =--
 
 This follows by results in ([Lewis](#Lewis)).
+
++-- {: .proof}
+###### Proof
+
+Since for $X \in Top$ the map $|Sing X| \to X$ is a cofibrant [[resolution]] in the standard [[model structure on topological spaces]], we have that
+
+$$
+  |Sing X_\bullet| \to X_\bullet
+$$
+
+is a degreewise [[weak homotopy equivalence]]. In particular each space $|Sing X_n|$ is a [[CW-complex]], hence in particular a [[locally equi-connected space]]. By ([Lewis, p. 153](#Lewis)) inclusions of [[retract]]s of locally equi-connected spaces are [[closed cofibration]]s, and since degeneracy maps are retracts, this means that the degeneracy maps in $|Sing X_\bullet|$ are closed cofibrations.
+
+=--
 
 
 ### Models for the homotopy colimit
