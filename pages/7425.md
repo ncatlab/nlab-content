@@ -1,0 +1,49 @@
+##Morava K-theory
+
+###Definition
+
+For each prime integer $p$ there exists a sequence of  homology theories (equivalently spectra) $\{K(n)\}$ indexed by the non-negative integers, with the following properties:
+
+1. $K(0)_\ast(X)=H_\ast(X;\mathbb{Q})$ and $\overline{K(0)}_\ast(X)=0$ when $\overline{H}_\ast(X)$ is all torsion.
+1. $K(1)_\ast(X)$ is one of $p-1$ isomorphic summands of mod-p complex [[topological K-theory]]. 
+1. $K(0)_\ast(pt.)=\mathbb{Q}$ and for $n\neq 0$, $K(n)_\ast(pt.)=\mathbb{Z}/(p)[v_n,v_n^{-1}]$ where $\vert v_n\vert=2p^n-2$.  This ring is a graded field in the sense that every graded module over it is free.  $K(n)_\ast(X)$ is a module over $K(n)_\ast(pt.)$.
+1. There is a [[Künneth isomorphism]]: $K(n)_\ast(X\times Y)\cong K(n)_\ast(X)\otimes_{K(n)_\ast(pt.)}K(n)_\ast(Y).$
+1. Let $X$ be a p-local finite CW-complex. If $\overline{K(n)}_\ast(X)$ vanishes then so does $\overline{K(n-1)}_\ast(X)$.
+1. If $X$ as above is not contractible then $\overline{K(n)}_\ast(X)=K(n)_\ast(pt.)\otimes \overline{H}_\ast(X;\mathbb{Z}/(p))$.
+
+### References
+2. Ravenel, Douglas: _Nilpotence and Periodicity in Stable Homotopy Theory_
+---
+## Morava K-theory
+
+Spectrum: K(n)
+
+category: Representability [private]
+---
+## Morava K-theory
+
+[Anton](http://www.math.uiuc.edu/K-theory/0594)
+
+category: Some Research Articles
+---
+## Morava K-theory
+
+[MathSciNet](http://www.ams.org/mathscinet/search/publications.html?pg4=AUCN&s4=&co4=AND&pg5=TI&s5=&co5=AND&pg6=PC&s6=&co6=AND&pg7=ALLF&s7=%22Morava+K-theory%22&co7=AND&Submit=Search&dr=all&yrop=eq&arg3=&yearRangeFirst=&yearRangeSecond=&pg8=ET&s8=All)
+
+[Google Scholar](http://scholar.google.co.uk/scholar?q=%22Morava+K-theory%22&hl=en&lr=&btnG=Search)
+
+[Google](http://www.google.com/search?hl=en&q=%22Morava+K-theory%22&btnG=Search)
+
+[arXiv: Experimental full text search](http://search.arxiv.org:8081/?query=%22Morava+K-theory%22&in=)
+
+[arXiv: Abstract search](http://front.math.ucdavis.edu/search?a=&t=&q=%22Morava+K-theory%22&c=&n=25&s=Abstracts)
+
+category: Search results
+---
+## Morava K-theory
+
+AT (Algebraic topology)
+
+category: World [private]
+
+nLab page on [[nlab:Morava K-theory]]
