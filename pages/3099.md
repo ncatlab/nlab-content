@@ -24,7 +24,7 @@ For more, see [[structure type]].
 
 ### 2-categorical
 
-A **2-species** (also called a [[stuff type]]) is a [[2-presheaf]] on [[core]]([[FinSet]]), i.e. a [[pseudofunctor]]
+A **2-species** (usually called a [[stuff type]]) is a [[2-presheaf]] on [[core]]([[FinSet]]), i.e. a [[pseudofunctor]]
 
 $$
   core(FinSet) \to Grpd
