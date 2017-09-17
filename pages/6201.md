@@ -18,7 +18,7 @@
 =--
 
 
-This is a sub-entry of [[Smooth∞Grpd]]. See there fore background.
+This is a sub-entry of [[Smooth∞Grpd]]. See there for background.
 
 --
 
@@ -38,7 +38,7 @@ We discuss the general abstract
 
 
 
-We discuss the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">intrinsic fundamental ∞-groupioid</a> construction realized in $Smooth \infty Grpd$.
+We discuss the <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#Homotopy">intrinsic fundamental ∞-groupoid</a> construction realized in $Smooth \infty Grpd$.
 
 
 +-- {: .un_prop #UnderlyingSimplicialTopologicalSpace}
