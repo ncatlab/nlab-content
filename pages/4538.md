@@ -704,6 +704,8 @@ $$
 
 * [[Künneth theorem]]
 
+* [[bootstrap category]]
+
 ## References
 
 ### For ordinary (co)homology
