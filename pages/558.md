@@ -161,10 +161,22 @@ $$
 
 But there is also a direct Quillen equivalence:
 
-+-- {: .un_theorem}
-###### Theorem
++-- {: .un_def}
+###### Definition
 
-Fix a choice of [[retract]]s for all topological [[horn]] inclusions $\Lambda^n_i \hookrightarrow \Delta^n$. This induces naturally a refinement of the [[singular simplicial complex|singular Kan complex]] of a topological space to an algebraic Kan complex
+Write $\Delta^n$ and $\Lambda^n_k$ for the topological $n$-[[simplex]] and its $k$-[[horn]].
+
+Fix any choice of [[retract]]s 
+
+$$
+  R(n,k) : \Delta^n \to \Lambda^n_k
+$$
+
+for all topological [[horn]] inclusions $\Lambda^n_i \hookrightarrow \Delta^n$. 
+
+For $X$ any [[topological space]] equip the [[singular simplicial complex]] $Sing X$ with the stucture of an [[algebraic Kan complex]] by taking the filler of $\Lambda_k[n] \to Sing X$ to be given by the $(|-| \dashv Sing)$-[[adjunct]] of $\Delta^n \stackrel{R(n,k)}{\to} \Lambda^n_k \to X$. Write $\Pi_\infty(X) \in Alg Kan$ for the resulting algebraic Kan complex.
+
+This construction constitutes a functor
 
 $$ 
   \Pi_\infty(-) : Top \to Alg C
@@ -172,9 +184,69 @@ $$
 $$
 
 
-where $U \Pi_\infty = Sing$.
+with $U \Pi_\infty = Sing$.
 
-This is part of a [[Quillen equivalence]]
+=--
+
++-- {: .un_remark}
+###### Remark
+
+The choices of fillers in $\Pi_\infty(X)$ may be thought of as explicit choice of reparameterizations of paths in $X$. These choices are arbitrary, but by the general statement at [[model structure on algebraic fibrant objects]], any two chocies yield equivalent objects.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+Given choices $R(-,-)$ of horn retracts as above, define a functor
+
+$$
+  |-|_r : Alg Kan \to Top
+$$
+
+called **reduced geometric realization** by taing it on an object $X \in Alg Kan$ to be given by the [[coequalizer]]
+
+$$
+  |X|_r := \lim_{\to}(\coprod_{\Lambda^n_k \to X} \Delta^n \stackrel{\to}{\to} |U X|)
+  \,,
+$$
+
+where $|U X|$ is the ordinary [[geometric realization]] of the underlying simplicial set of $X$ and where the two maps are
+
+1. the image under $|-|$ of the distinguished fillers $\Delta[n] \to U X$ of $X$;
+
+1. the composite $\Delta^n \stackrel{R(n,k)}{\to} \Lambda^n_k \to |U X|$ .
+
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The functor $|-|_r$ is [[left adjoint]] to $\Pi_\infty$.
+
+$$
+  (|-|_r \dashv \Pi_\infty)
+  \,.
+$$
+
+=--
+
+This is ([Nikolaus, prop. 3.4](#Nikolaus)).
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
+
++-- {: .un_theorem}
+###### Theorem
+
+
+This adjunction constitutes a [[Quillen equivalence]]
 
 $$
   (|-|_r \dashv \Pi_\infty)
@@ -193,6 +265,51 @@ This is [Nikolaus, corollary 3.6](#Nilkolaus)
 (...)
 
 =--
+
++-- {: .un_theorem}
+###### Theorem
+
+We have [[natural isomorphism]]s
+
+$$
+  \array{
+    && Alg Kan
+    \\
+    & {}^{\mathllap{F}}\nearrow 
+    & \Downarrow^{\simeq}& 
+    \searrow^{\mathrlap{|-|_r}}
+    \\
+    sSet &&\underset{|-|}{\to}&& Top
+  }
+$$
+
+and
+
+$$
+  \array{
+    && Alg Kan
+    \\
+    & {}^{\mathllap{U}}\swarrow 
+    & \Downarrow^{\simeq}& 
+    \nwarrow^{\mathrlap{\Pi_\infty}}
+    \\
+    sSet &&\underset{Sing}{\leftarrow}&& Top
+  }
+  \,.
+$$
+
+
+=--
+
+This is ([Nikolaus, corollary 3.5](#Nikolaus))
+
++-- {: .proof}
+###### Proof
+
+(...)
+
+=--
+
 
 ### For $n$-fold groups
 
