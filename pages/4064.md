@@ -2,12 +2,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
 #### 2-Category theory
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
 =--
 =--
+
+
+
 
 #Contents#
 * table of contents
