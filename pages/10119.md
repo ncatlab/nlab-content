@@ -1,0 +1,10 @@
+
+## Idea
+
+A [[connection on a bundle|connection]] that is [[flat connection|flat]] up to a central term.
+
+## Related concepts
+
+* [[projective representation]]
+
+[[!redirects projectively flat connections]]
