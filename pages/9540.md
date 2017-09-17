@@ -77,9 +77,9 @@ There is a [[(2,1)-category]] $C^\ast Alg_b$ whose
 
 ## Examples
 
-An $(A,\mathbb{C})$-Hilbert $C^\ast$-bimodule is equialently just an $A$-[[Hilbert C-star-module]].
+An $(\mathbb{C},B)$-Hilbert $C^\ast$-bimodule is equialently just an $B$-[[Hilbert C*-module]].
 
-A $(\mathbb{C},A)$-Hilbert $C^\ast$-bimodule is equivalently just as [[representation of a C-star-algebra]].
+An $(A, \mathbb{C})$-Hilbert $C^\ast$-bimodule is equivalently just as [[representation of a C-star-algebra]].
 
 ## Properties
 
