@@ -10,7 +10,7 @@ A **germ** is an element of (a total space of) an [[etale space]] or equivalentl
 This general description of what a germ of some sheaf at some point is can be extracted from [[stalk]], although that article is pretty abstract right now.
 
 
-More generally, the notion of [[stalk]] makes sense in any [[topos]] that need not be a [[Grothendieck topos]] [[category of sheaves|of sheaves]] by way of the notion of [[point of a topos]]. Generally a germ is an element in the stalk of an object of a [[topos]] over some [[point of a topos|point of the topos]].
+More generally, the notion of [[stalk]] makes sense in any [[topos]] that need not be a [[Grothendieck topos]] [[category of sheaves|of sheaves]] by way of the notion of [[point of a topos]]. Generally a germ is an element in the stalk of an object of a [[topos]] over some point of the topos.
 
 
 ## Examples 
