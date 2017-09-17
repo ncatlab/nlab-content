@@ -160,7 +160,7 @@ This approach makes it easy to define the notion of [[internal profunctor]].
 
 A [[small category]] is a category internal to [[Set]].  In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is a subset of the [[Cartesian product]].
 
-Historically, the motivating example was (apparently) the notion of [[Lie groupoids]]: a small Lie groupoid is a [[groupoid]] internal to the category [[Diff]] of [[smooth manifolds]]. This generalises immediately to a [[Lie category]]. Similarly, a [[topological groupoid]] is a groupoid internal to [[Top]]. (Warning: the term 'topological category' usually means a [[topological concrete category]], an unrelated notion. Sometimes (e.g. in Jacob Luries ''[[Higher Topos Theory (book)|Higher Topos Theory]]'') a 'topological category' is defined to be a $Top$-[[enriched category]], which is a special case of the internal definition if it is interpreted [[strict category|strictly]] and the collection of objects is small.)  In these examples, $C_0$ is a "space of objects" and $C_1$ a "space of morphisms".
+Historically, the motivating example was (apparently) the notion of [[Lie groupoids]]: a small Lie groupoid is a [[groupoid]] internal to the category [[Diff]] of [[smooth manifolds]]. This generalises immediately to a [[smooth category]]. Similarly, a [[topological groupoid]] is a groupoid internal to [[Top]]. (Warning: the term 'topological category' usually means a [[topological concrete category]], an unrelated notion. Sometimes (e.g. in Jacob Luries ''[[Higher Topos Theory (book)|Higher Topos Theory]]'') a 'topological category' is defined to be a $Top$-[[enriched category]], which is a special case of the internal definition if it is interpreted [[strict category|strictly]] and the collection of objects is small.)  In these examples, $C_0$ is a "space of objects" and $C_1$ a "space of morphisms".
 
 Further examples:
 * A [[cocategory]] in $C$ is a category internal to $C^{op}$.
@@ -213,15 +213,15 @@ One can also look at this in [[higher category theory]] and consider internal [[
 
 A survey with an eye towards [[Lie groupoids]] is in
 
-* [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_ [	arXiv:0711.1608](http://arxiv.org/abs/0711.1608)
+* [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_, [arXiv:0711.1608](http://arxiv.org/abs/0711.1608)
 
 Discussion in terms of [[monads]] in [[spans]] is in 
 
-* Renato Betti, _Formal theory of internal categories_, Le Matematiche Vol. LI (1996) Supplemento 35-52 [pdf]()
+* Renato Betti, _Formal theory of internal categories_, Le Matematiche Vol. LI (1996) Supplemento 35-52 [pdf](http://www.dmi.unict.it/ojs/index.php/lematematiche/article/view/456/427)
 
 A detailed discussion with emphasis on the correct [[anafunctor]] morphisms between internal categories is in 
 
-* [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) ([pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf))
+* [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) [pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf)
 
 Discussion with emphasis on [[topos theory]] is in section B.2.3 of 
 
