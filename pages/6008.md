@@ -80,7 +80,7 @@ This appears as ([Godin, prop. 31](#Godin)).
 
 
 
-(...) propagating flow (...) ([Godin](#Godin)).
+(...) [[propagating flow]] (...) ([Godin](#Godin)).
 
 
 ## Related concepts
