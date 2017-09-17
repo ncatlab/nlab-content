@@ -22,7 +22,7 @@ $c \in R$ such that
 
 $$a \triangleright c = b$$
 
-This definition, while terse and commonly used, is suboptimal for certain purposes because it contains an existential quantifier which is not really necessary. To avoid this,  we may write the unique $c \in R$ such that $a \triangleright c = b$ as $b \triangleleft a$.  We then have
+This definition, while terse and commonly used, is suboptimal for certain purposes because it contains an [[existential quantifier]] which is not really necessary. To avoid this,  we may write the unique $c \in R$ such that $a \triangleright c = b$ as $b \triangleleft a$.  We then have
 
 $$ a \triangleright c = b \iff  c = b \triangleleft a $$
 
