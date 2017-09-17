@@ -1,5 +1,45 @@
-Any [[monoidal category]] is equipped with a [[natural isomorphism]] 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+#Contemts#
+* table of contents
+{:toc}
+
+## Idea
+
+### In Bicategories
+
+In a [[bicategory]] the [[composition]] of [[1-morphism]]s does not satisfy [[associativity]] as an equation, but ther are natural _associator_ 2-morphisms 
+
+$$
+  h \circ (g \circ f) \stackrel{\simeq}{\Rightarrow} (h \circ g) \circ f
+$$
+
+that satisfy a [[coherence law]] among themselves.
+
+If one thinks of the bicategory as obtained from a [[geometric definition of higher categories|geometrically defined 2-category]] $C$, then the composition opeeration of 1-morphisms is a _choise_ of  2-[[horn]]-fillers and the associator is a _choice_ of filler of the spheres $\partial \Delta[3] \to C$ formed by these. 
+
+
+### In monoidal categories
+
+By the [[periodic table of higher categories]] a [[monoidal category]] is a pointed [[bicategory]] with a single object, its [[object]]s are the 1-morphisms of the bicategory. Accordingly, here the  associator is a [[natural isomorphism]] 
 
 $$ a_{x,y,z} : (x \otimes y) \otimes z \to x (\otimes y \otimes z) $$
 
-called the **associator**.
+relating the triple [[tensor product]]s of these objects.
+
+
+[[!redirects associators]]
