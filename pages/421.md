@@ -188,10 +188,14 @@ equipped with the [[subspace topology]] of the standard topology on the [[Cartes
 
 =--
 
-Observe that this definition identifies the topological $n$-simplex with the space of [[interval]] maps (preserving top and bottom) $\{0 \lt 1 \lt \ldots \lt n+1\} \to I$ into the topological interval. This point of view takes advantage of the [duality](http://ncatlab.org/nlab/show/simplex+category#duality_with_intervals_23) between the [[simplex category]] $\Delta$ and the category $\nabla$ of finite intervals with distinct top and bottom. Indeed, it follows from the duality that we obtain a functor 
++-- {: .num_remark }
+###### Remark
+
+This definition identifies the topological $n$-simplex with the space of [[interval]] maps (preserving top and bottom) $\{0 \lt 1 \lt \ldots \lt n+1\} \to I$ into the topological interval. This point of view takes advantage of the [duality](http://ncatlab.org/nlab/show/simplex+category#duality_with_intervals_23) between the [[simplex category]] $\Delta$ and the category $\nabla$ of finite intervals with distinct top and bottom. Indeed, it follows from the duality that we obtain a functor 
 
 $$\Delta \simeq \nabla^{op} \stackrel{Int(-, I)}{\to} Top.$$ 
 
+=--
 
 
 +-- {: .num_example}
