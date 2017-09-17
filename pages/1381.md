@@ -35,6 +35,7 @@ This means that it is
 
 This can be understood as a special case of an [[(∞,1)-operad]] (...to be expanded on...)
 
+Equivalently, a symmetric monoidal $(\infty,1)$-category is a [[commutative algebra in an (infinity,1)-category]] in the [[(infinity,1)-category of (infinity,1)-categories]].
 
 ## Definition in terms of quasi-categories 
 
@@ -137,6 +138,10 @@ and definition 2.0.0.7 in
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#LurieAlgebra}
+
+A concise treatment is also available in
+
+* [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
 
 [[!redirects symmetric monoidal (infinity,1)-categories]]
 [[!redirects symmetric monoidal (∞,1)-category]]
