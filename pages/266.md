@@ -220,7 +220,7 @@ There is also a *local* definition of "the Kan extension of a given functor $f$ 
 
 Thus, by the general notion of "partial adjoints"; we say
 
-+-- {: .num_defn}
++-- {: .num_defn #LocalKanExtension}
 ###### Definition
 
 The local **left Kan extension** of  a functor $F\in [C,D]$ along $f : C \to C'$* is, if it exists, a functor
@@ -277,23 +277,46 @@ The definition in this form makes sense not just in [[Cat]] but in every [[2-cat
 ### Pointwise or strong Kan extensions 
  {#Pointwise}
 
-If $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be constructed out of these.  The requisite limits are most naturally expressed as [[weighted limits]], but in good cases they can be re-expressed in terms of [[end|(co)ends]] or conical colimits over [[comma categories]], which may be more familiar.  However, we first give a definition that doesn't rely on any computational framework:
+If the [[codomain]] category $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be constructed, over each object ("point") of the domain category $C'$ out of these: Kan extensions that admit this form are called _pointwise_ .
+
+The notion of pointwise Kan extensions deserves to be discussed in the general context of [[enriched category theory]], which we do below. The reader may want to skip ahead to the section
+
+* [pointwise Kan extensions by conical (co)limits](#PointwiseByConicalLimits)
+
+which discusses the situation in ordinary ([[Set]]-[[enriched category|enriched]]) [[category theory]] in terms of ordinary limits ("conical" limits, defined in terms of [[cone]]s, to be distinguished from the more general [[weighted limit]]s). While the formulas in that case are classical and fundamentally useful in practice, they do rely heavily on special properties of the enriching category [[Set]].
+
+The general formulation of pointwise Kan extensions in general enriched contexts is
+
+* [in terms of weighted (co)limits](#PointwiseByWeightedColimits).
+
+In the case that the codomain category is [[tensoring|(co)tensored]] these may be expressed equivalently
+
+* [in terms of (co)ends](#PointwiseByCoEnds).
+
+First, here is a characterization that doesn't rely on any computational framework:
 
 +-- {: .un_defn}
 ###### Definition
-A Kan extension is called __pointwise__ if and only if it is preserved by all [[representable functor]]s ([[Categories Work]], theorem X.5.3).
+
+A Kan extension, def. \ref{LocalKanExtension}, is called __pointwise__ if and only if it is preserved by all [[representable functor]]s.
+
 =--
 
-Here we say that a Kan extension $Lan_p F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_p F$ is a Kan extension of $G F$ along $p$, and moreover the universal natural transformation $G F \to G(Lan_p F)p$ is the composite of $G$ with the universal transformation $F\to (Lan_p F)p$.
+([[Categories Work]], theorem X.5.3)
+
+Here we say that a Kan extension $Lan_f F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_f F$ is a Kan extension of $G F$ along $f$, and moreover the universal natural transformation $G F \to G(Lan_f F)f$ is the composite of $G$ with the universal transformation $F\to (Lan_f F)f$.
 
 
-#### in terms of weighted (co)limits {#byColimits}
+#### in terms of weighted (co)limits 
+ {#PointwiseByWeightedColimits}
 
-Suppose given $F : C \to D$ and $p : C \to C'$ such that for every $c' \in C'$, the weighted limit
+Suppose given $F : C \to D$ and $p : C \to C'$ such that for every $c' \in C'$, the [[weighted limit]]
+
 $$
   (Ran_p F)(c') \coloneqq lim^{C'(c',p(-))} F
   \,.
 $$
+
 exists.  Then these objects fit together into a functor $Ran_p F$ which is a right Kan extension of $F$ along $p$.  Dually, if the [[weighted limit|weighted colimit]]
 $$
   (Lan_p F)(c') \coloneqq colim^{C'(p(-),c')} F
@@ -306,7 +329,8 @@ In particular, this means that if $C$ is [[small category|small] and $D$ is [[co
 One can prove that any Kan extension constructed in this way must be pointwise, in the sense of being preserved by all representables as above.  Moreover, conversely, if a Kan extension $Lan_p F$ is pointwise, then one can prove that $(Lan_p F)(c')$ must be in fact a $C'(p(-),c')$-weighted colimit of $F$, and dually; thus the two notions are equivalent.
 
 
-#### in terms of (co)ends {#byCoends}
+#### in terms of (co)ends 
+ {#PointwiseByCoEnds}
 
 If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
 
@@ -331,6 +355,7 @@ $$
 $$
 
 #### in terms of conical (co)limits
+ {#PointwiseByConicalLimits}
 
 In the case of functors between ordinary [[locally small categories]], hence in the special case of $V$-[[enriched category theory]] for $V = $ [[Set]], there is an expression of a weighted (co)limit and hence a pointwise Kan extension as am ordinary ("conical", meaning: in terms of [[cone]]s) (co)limit over a [[comma category]]:
 
