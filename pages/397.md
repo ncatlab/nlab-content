@@ -157,7 +157,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Soeren]]
 * [[Sridhar Ramesh]]
 * [[Stefan Forcey]]
-* [[Stephan]]
+* [[Stephan Alexander Spahn]]
 * [[Stephen Britton]]
 * [[Stephen Gaito]]
 * [[Stephen with OK|Stephen]] [[Approved Stephen|Harris]]
