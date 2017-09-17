@@ -1,4 +1,6 @@
 
+See also closely related entry [[integral]].
+
 #Contents#
 * table of contents
 {:toc}
@@ -8,11 +10,12 @@
 
 ## Related entries
 
-* in measure theory:
+* in [[measure theory]]:
 
   * [[measurable space]]
    
   * [[measure space]]
+* [[fiber integration]]
 
 * in [[differential geometry]]
 
@@ -25,12 +28,13 @@
    * [[Berezin integral]]
   
    * [[integration over supermanifolds]]
+* [[path integral]]
+* [[Lie integration]] (the name comes from its relation to the integration of
+differential equations and finding integral curves of 
+vector fields and flows)
 
-* [[Lie integration]]
-
-* in [[combinatorics]]
-
-  * [[Euler integration]]
+* stratified versions related to Grothendieck rings and valuations:
+[[Euler integration]], [[motivic integration]]
 
 ## References
 
@@ -38,6 +42,4 @@
 
 A proof of the [[Riesz representation theorem]] in [[constructive mathematics]] is given in
 
-* [[Thierry Coquand]], [[Bas Spitters]], _Integrals and Valuations_ ([arXiv:0808.1522](http://arxiv.org/abs/0808.1522)
-
-[[!redirects integral]]
+* [[Thierry Coquand]], [[Bas Spitters]], _Integrals and Valuations_, Logic and Analysis (2009) 1(3) p.1-22, [arXiv:0808.1522](http://arxiv.org/abs/0808.1522), [doi](http://dx.doi.org/10.4115/jla.2009.1.3)
