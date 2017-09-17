@@ -73,14 +73,51 @@ a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homoto
 
 Note that for $f\colon A\to B$, the dependent type
 $$b\colon B \vdash hfiber(f,b)\colon Type$$
-is precisely the [[mapping path space]] construction $P f$, which is one way to factor $f$ as an [[acyclic cofibration]] followed by a [[fibration]]
+is precisely the [[mapping path space]] construction $P f$
+
+$$
+  \array{
+    [b : B \vdash  hfiber(f,b)] &\coloneqq & P f  &\to& A
+    \\
+    && \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    && B^I &\to& B
+    \\
+    && \downarrow
+    \\
+    && B
+  }
+$$
+
+which, by the [[factorization lemma]], is one way to factor $f$ as an [[acyclic cofibration]] followed by a [[fibration]]
 
 $$
   f : A \stackrel{\simeq}{\to} P f \to B
   \,.
 $$
 
-By definition and the semantics of [[contractible types]], therefore, if $A$ and $B$ are cofibrant, then $isEquiv(f)$ has a [[global element]] precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equivalence --- and hence a homotopy equivalence, since it is a map between fibrant-cofibrant objects.
+By definition and the semantics of [[contractible types]], therefore, if $A$ and $B$ are cofibrant, then $isEquiv(f)$ has a [[global element]] 
+
+$$
+  * \to \prod_{b} isContr(hfiber(f,b))
+$$
+
+
+precisely when in this factorization, the fibration $P f \to B$ is an acyclic fibration.  
+
+$$
+  \array{
+     B &\to& [b : B \vdash isContr(hfiber(f,b))] &\to& [b : B \vdash hfiber(f,b)]
+     \\
+     & {}_{\mathllap{id}}\searrow & \downarrow & \swarrow 
+     \\
+     && B
+  }
+$$
+
+
+But by the [[2-out-of-3 property]], this is equivalent to $f$ being a weak equivalence --- and hence a homotopy equivalence, since it is a map between fibrant-cofibrant objects.
+
 
 =--
 
