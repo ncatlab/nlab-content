@@ -456,6 +456,15 @@ $$\int_{j=1}^n \frac{1}{j}$$
 
 $$x^2 + y^2\]
 
+
++-- {: .num_defn}
+###### Axiom
+(most important axiom)
+
+Everything that I want to prove is true.
+=--
+
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
