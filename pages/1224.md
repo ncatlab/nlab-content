@@ -202,6 +202,10 @@ Section 2.11 of
 
 Notice that this says "final functor" for the version under which limits are invariant.
 
+Section IX.3 of
+
+* [[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_
+
 [[!redirects cofinal functor]]
 [[!redirects cofinal functors]]
 [[!redirects final functor]]
