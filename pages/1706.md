@@ -426,17 +426,20 @@ The comparatively simple case of $n = 1$ is spelled out in detail in
 
 * [[Yonatan Harpaz]], _The Cobordism Hypothesis in Dimension 1_ ([arXiv:1210.0229](http://arxiv.org/abs/1210.0229))
 
-Lecture notes on the topic of the cobordisms hypothesis include
+Lecture notes and reviews on the topic of the cobordisms hypothesis include
 
 * [[Jacob Lurie]], _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
 
 * [[Julie Bergner]], _[[UC Riverside Seminar on Cobordism and Topological Field Theories]]_  (2009).  
 
-* [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
+* [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, AMS 2011
 
-Another review is in 
+* [[Daniel Freed]], _The cobordism hypothesis_ ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100))
 
-* [[Dan Freed]], _The cobordism hypothesis_ ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100))
+* {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
+
+
+
 
 Cobordisms with geometric structure are discussed in
 
