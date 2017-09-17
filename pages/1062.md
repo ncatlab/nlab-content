@@ -21,14 +21,14 @@
 
 ## Idea
 
-An _$Ab$-enriched category_  (or _ringoid_) is a [[category enriched]] over the [[monoidal category]] [[Ab]] of [[abelian groups]] with its usual [[tensor product]].
+An _$Ab$-enriched category_  (or, if small, _ringoid_) is a [[category enriched]] over the [[monoidal category]] [[Ab]] of [[abelian groups]] with its usual [[tensor product]].
 
 Sometimes they are called [[pre-additive category|pre-additive categories]], but sometimes that term also implies the existence of a [[zero object]].
 
 
 ## Definition
 
-Explicitly, a __ringoid__ (or __$Ab$-enriched category__) is a [[category]] $C$ such that
+Explicitly, an __$Ab$-enriched category__ is a [[category]] $C$ such that
 for all objects $a,b$ the [[hom-set]] $Hom_C(a,b)$
 is equipped with the structure of an [[abelian group]]; and
 such that for all triples $a,b,c$ of objects the
@@ -36,7 +36,7 @@ such that for all triples $a,b,c$ of objects the
 $
   \circ_{a,b,c} : Hom_C(a,b) \times Hom_C(b,c) \to Hom_C(a,c)
 $
-is bilinear.
+is bilinear. A __ringoid__ is small $Ab$-enriched category.
 
 
 ## Remarks
@@ -107,10 +107,12 @@ See also [[dg-category]].
 * For any small $Ab$-enriched category $R$, the enriched [[presheaf category]] $[R^{op},Ab]$ is, of course, $Ab$-enriched.  If $R$ is a ring, as above, then $[R^{op},Ab]$ is the category of $R$-modules.
 
 
-## Blog resources
+## References
 
-* John Baez, [Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html)
-
+* John Baez, [Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html), blog
+* C. Weibel, [[An Introduction to Homological Algebra]], Cambridge Univ. Press
+* [[Daniel Murfet]], _Localisation of ringoids_, [pdf](http://therisingsea.org/notes/LocalisationOfRingoids.pdf) 2006 notes
+* N. Popescu, _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. MR0340375
 
 [[!redirects Ab-enriched category]]
 [[!redirects Ab-enriched categories]]
