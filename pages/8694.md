@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The [[electromagnetic field]] on a [[spacetime]] $X$ is mathematically modeled by a [[circle bundle with connection]] $\nabla$ on $X$. If the underlying bundle is trivial, or else on local [[coordinate patches]] $\mathbb{R}^n \hookrightarrow X$ over which it is so, this [[connection on a bundle|connection]] is equivalently a [[differential 1-form]] $A \in \Omega^1(\mathbb{R}^n)$. 
+
+This is then called the **electromagnetic potential** of the [[electromagnetic field]] (sometimes: "vector potential"). 
+
+Its [[de Rham differential]]
+
+$$
+  F \coloneqq \mathbf{d}A
+$$
+
+is the actual [[field strength]] of the electromagnetic field.
+
+On a 4-dimensiona [[Minkowski spacetime]] with its canonical [[coordinates]] $\{t,x^1, x^2, x^3\}$, the electromagnetic potential $A$ is naturally expanded into corredinate components, traditionally written as
+
+$$
+  A = \phi \mathbf{d}t + A_1 \mathbf{d}x^1 + A_2 \mathbf{d}x^2 + A_3 \mathbf{d}x^3
+  \,.
+$$
+
+Here 
+
+* $\phi$ is the **electric potential** 
+
+* $\vec A = [A_1, A_2, A_3]$ is the **magnetic potential** 
+
+(for this choice of [[coordinates]]).
+
+## References
+
+Section 5 of
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
+* [[geometry of physics]], _[The electromagnetic field strength](geometry+of+physics#ElectromagneticFieldStrength)_
+
+[[!redirects electromagnetic potentials]]
+
+[[!redirects vector potential]]
