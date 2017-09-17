@@ -62,7 +62,7 @@ Every [[operad]] $A$ encodes and is encoded by its [[category of operators]] $C_
 
 In this approach an $(\infty,1)$-operad $C^\otimes$ is regarded as an [[(∞,1)-category]] $C$ -- the unary part of the $(\infty,1)$-operad to be described-- with extra structure that determines [[(∞,1)-functor]]s $C^{\times n} \to C$.
 
-This and the conditions on these are encoded in requiring that $C^\otimes$ is an $(\infty,1)$-functor $C^\otimes \to \Gamma$ over [[Segal Gamma category|Segal's category]] $\Gamma$ of pointed finite sets, satisfying some conditions.
+This and the conditions on these are encoded in requiring that $C^\otimes$ is an $(\infty,1)$-functor $C^\otimes \to \Gamma$ over [[Segal Gamma-category|Segal's category]] $\Gamma$ of pointed finite sets, satisfying some conditions.
 
 In particular, any [[symmetric monoidal (∞,1)-category]] yields an example of an $(\infty,1)$-operad in this sense.  In fact, symmetric monoidal $(\infty,1)$-categories can be *defined* as $(\infty,1)$-operads such that the functor $C^\otimes \to \Gamma$ is a [[coCartesian fibration]].  (For the moment, see [[monoidal (infinity,1)-category]] for more comments and references on higher operads in this context.)
 
@@ -71,21 +71,27 @@ This is the approach described in ([LurieCommutative](#LurieCommutative))
 #### Basic definitions
  {#BasicDefinitions}
 
+
+
+
+We are to generalize the following construction from [[categories]] to [[(∞,1)-categories]].
+
+
 +-- {: .num_defn}
 ###### Definition
 
-For $\mathcal{O}$ a [[symmetric multicategory]], write $\mathcal{O}^\otimes \to FinSet_*$ for its [[category of operators]].
+For $\mathcal{O}$ a [[symmetric multicategory]], write $\mathcal{O}^\otimes \to FinSet^{*/}$ for its [[category of operators]].
 
 Here $\mathcal{O}^\otimes$ is the [[category]] whose
 
-* [[objects]] are finite sequences of objects of $\mathcal{O}$;
+* [[objects]] are finite sequences ([[tuples]]) of objects of $\mathcal{O}$;
 
 * [[morphisms]] $(X_1, \cdots, X_{n_1}) \to (Y_1, \cdots, Y_{n_2})$ are given by a morphism $\alpha \colon \langle n_1\rangle \to \langle n_2\rangle$ in $FinSet_*$ together with a collection of [[multimorphisms]]
 
   $$
     \left\{
-      \phi_j in \mathcal{O}\left( \left\{ X_i\right\}_{i \in \alpha^{-1}\left\{j\right\}} , Y_j \right)
-    \right\}_{1 \leq j \leq n}
+      \phi_j \in \mathcal{O}\left( \left\{ X_i\right\}_{i \in \alpha^{-1}\left\{j\right\}} , Y_j \right)
+    \right\}_{1 \leq j \leq n_2}
     \,.
   $$
 
@@ -93,18 +99,42 @@ The [[functor]] $p \colon \mathcal{O}^\otimes \to FinSet^{*/}$ is the evident [[
 
 =--
 
-([Lurie, construction 2.1.1.7](#Lurie))
+In ([Lurie](#Lurie)) this is construction 2.1.1.7.
 
 This motivates the following definition of the generalization of this situation to [[(∞,1)-category theory]].
-
 
 +-- {: .num_defn}
 ###### Definition
 
-A morphism in $FinSet^{*/}$ is called an 
-**[[inert morphism]]** if it is an [[injection]] on those elements that are not sent to the base point.
+Write $FinSet^{*/}$ for the category of [[pointed object|pointed]] [[finite set]] ([[Segal Gamma-category|Segal's Gamma-category]]).
 
-A morphism in $FinSet^{*/}$ is called an **[[active morphism]]** if only the basepoint goes to the basepoint.
+For $n \in \mathbb{N}$ we write 
+
+$$
+  \langle n\rangle
+  \coloneqq
+  {*} \coprod [n]
+  \in 
+  FinSet^{*/}
+$$
+
+for the [[pointed set]] with $n+1$ elements.
+
+A morphism in $FinSet^{*/}$ 
+
+* is called an  **[[inert morphism]]** if it is an [[injection]] on those elements that are not sent to the base point.
+
+* called an **[[active morphism]]** if only the basepoint goes to the basepoint.
+
+For $n \in \mathbb{N}$ and $1 \leq i \leq n$ write
+
+$$
+  \rho^i \colon \langle n\rangle \to \langle 1\rangle
+$$
+
+for the inert morphism that sends all but the $i$th element to the basepoint. 
+
+Notice that for each $n \in \mathbb{N}$ there is a unique [[active morphism]] $\langle n\rangle \to \langle 1\rangle$.
 
 =--
 
@@ -121,20 +151,82 @@ $$
 
 of [[quasi-categories]] such that the following conditions hold:
 
-1. For every [[inert morphism]] in $FinSet^{*/}$ and every [[object]] over it, there is a lift to a $p$-[[coCartesian morphism]] in $\mathcal{O}^\otimes$. 
+1. For every [[inert morphism]] in $FinSet^{*/}$ and every [[object]] over it, there is a lift to a $p$-[[coCartesian morphism]] in $\mathcal{O}^\otimes$. In particular, for $f \colon \langle n_1\rangle \to \langle n_2\rangle$ inter, there is an induced [[(∞,1)-functor]]
 
-1. The coCartesian lifts of the inert projection morphisms induce an equivalence of [[derived hom-spaces]] in $\mathcal{O}^{\otimes}$ between maps into multiple object and the products of the maps into the separete objects.
+   $$
+     f_! 
+       \colon 
+     \mathcal{O}^\otimes_{\langle n_1\rangle}
+      \to
+     \mathcal{O}^\otimes_{\langle n_2\rangle}
+     \,.
+   $$
 
-1. For every finite collection of objects there exists a multiobject which exhibits their sequence under the coCartesian projeciton maps.
+1. The coCartesian lifts of the inert projection morphisms induce an equivalence of [[derived hom-spaces]] in $\mathcal{O}^{\otimes}$ between maps into multiple objects and the products of the maps into the separete objects:
+
+   For $f \colon \langle n_1 \rangle \to \langle n_2 \rangle$ write $\mathcal{O}^\otimes_f(-,-) \hookrightarrow \mathcal{O}^\otimes(-,-)$ for the components of the [[derived hom-space]] covering $f, then the $(\infty,1)$-functor
+
+   $$  
+     \mathcal{O}^\otimes_f(C_1,C_2)
+     \to
+     \underset{1 \leq k \keq n_2}{\prod}
+     \mathcal{O}^\otimes_{\rho^i\circ f}(C_1,(C_2)_i)
+   $$ 
+
+   induced as above is an [[equivalence of infinity-groupoids|equivalence]].
+
+1. For every finite collection of objects $C_1, \cdots c_n \in \mathcal{O}^\otimes_{\langle 1\rangle}$ there exists a multiobject $C \in \mathcal{O}^\otimes_\langle n\rangle$ and a collection of $p$-[[coCartesian morphisms]] $\{C \to C_i\}$ covering $\rho^i$.
+
+   Equivalently (given the first two conditions): for all $n \in \mathbb{N}$ the $(\infty,1)$-functors $\{(\rho^i)_!\}_{1 \leq i \leq n}$ induce an [[equivalence of (∞,1)-categories]]
+
+   $$
+     \mathcal{O}^\otimes_{\langle n\rangle}
+     \to
+     (\mathcal{O}^\otimes_{\langle 1\rangle})^{\times^n}
+   $$
 
 =--
 
-([Lurie, def. 2.1.1.10](#Lurie))
+([Lurie, def. 2.1.1.10, remark 2.1.1.14](#Lurie))
+
++-- {: .num_remark }
+###### Remark
+
+The conditions in def. \ref{InfinityOperadByCategoryOfOperators} mean that $p \colon \mathcal{O}^\otimes \to FinSet^{*/}$ encodes
+
+1. an [[(∞,1)-category]] $\mathcal{O} \coloneqq \mathcal{O}^\otimes_{\langle 1\rangle}$;
+
+1. for each $n \in \mathbb{N}$ an $n$-ary operation given by the $(\infty,1)$-functor
+
+   $$
+     \mathcal{O}^{n}
+     =
+     (\mathcal{O}^\otimes_{\langle 1\rangle})^{\times n}
+     \simeq
+     \mathcal{O}^{\otimes}_{\langle n\rangle}
+     \to 
+     \mathcal{O}^\otimes_{\langle 1\rangle}
+     = 
+     \mathcal{O}
+   $$
+
+   induced by the unique [[active morphism]] $\langle n\rangle \to \langle 1\rangle$
+
+1. a coherently associative multicomposition of these operations.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The notion of def. \ref{InfinityOperadByCategoryOfOperators} may also be called a **symmetric $(\infty,1)$-multicategory** or **colored $(\infty,1)$-operad**. The _colors_ are the [[objects]] of $\mathcal{O}$.
+
+=--
 
 +-- {: .num_defn }
 ###### Definition
 
-A [[morphism of (∞,1)-operads]] is a map between their [[(∞,1)-categories of operators]] over $FinSet^{*/}$ that preserves [[inert morphisms]].
+A **[[morphism of (∞,1)-operads]]** is a map between their [[(∞,1)-categories of operators]] over $FinSet^{*/}$ that preserves [[inert morphisms]].
 
 =--
 
@@ -201,6 +293,8 @@ This is prop 1.8 4 in
 
 We list some examples of $(\infty,1)$-operads incarnated as their [[(∞,1)-categories of operators]] by def. \ref{InfinityOperadByCategoryOfOperators}.
 
+The first basic examples to follow are in fact all given by [[1-categories]] [[category of operators|of operators]].
+
 +-- {: .num_example}
 ###### Example
 
@@ -211,28 +305,69 @@ $$
   \,.
 $$
 
-=--
-
-+-- {: .num_example}
-###### Example
-
-The **[[associative operad]]** has $Assoc^\otimes$ the category which over $\{*\} \coprod [n]$ has the set of [[total orders]] on $n$ elements.
+The [[(∞,1)-algebras over an (∞,1)-operad]] over this $(\infty,1)$-operad are [[E-∞ algebras]].
 
 =--
 
 +-- {: .num_example}
 ###### Example
 
-The **[[operad for modules over an algebra]]** $LM$ has ...
+The **[[associative operad]]** has $Assoc^\otimes$ the category whose objects are the natural numbers, whose $n$-ary operations
+are labeled by the [[total orders]] on $n$ elements, equivalently the elements of the [[symmetric group]] $\Sigma_n$, and whose composition is given by forming consecutive total orders in the obvious way.
+
+The [[(∞,1)-algebras over an (∞,1)-operad]] over this $(\infty,1)$-operad are [[A-∞ algebras]]
+
 
 =--
+
+In ([Lurie](#Lurie)) this is remark 4.1.1.4.
+
 
 +-- {: .num_example}
 ###### Example
 
-The **[[operad for bimodules over algebras]]** $BM$ has ...
+The **[[operad for modules over an algebra]]** $LM$ is the [[colored operad|colored]] [[symmetric operad]] whose
+
+* [[objects]] are two elements, to be denoted $\mathfrak{a}$ and $\mathfrak{n}$;
+
+* [[multimorphisms]] $(X_i)_{i = 1}^n \to Y$ form
+
+  * if $Y = \mathfrak{a}$ and $X_i = \mathfrak{a}$ for all $i$ then: the set of [[linear orders]] on $n$ elements, equivalently the elements of the [[symmetric group]] $\Sigma_n$;
+
+  * if $Y = \mathfrak{n}$ and exactly one of the $X_i = \mathfrak{n}$ then: the set of linear order $\{i_1 \lt \cdots \lt i_n\}$ such that $X_{i_n} = \mathfrak{n}$ 
+
+  * otherwise: the empty set;
+
+* [[composition]] is given by composition of linear orders as for the [[associative operad]].
+
+The [[(∞,1)-algebras over an (∞,1)-operad]] over this $(\infty,1)$-operad are pairs consisting of [[A-∞ algebras]] with [[(∞,1)-modules]] over them.
+
 
 =--
+
+In ([Lurie](#Lurie)) this appears as def. 4.2.1.1.
+
++-- {: .num_defn}
+###### Definition
+
+The **[[operad for bimodules over algebras]]** $BMod$ is the [[colored operad|colored]] [[symmetric operad]] whose
+
+* [[objects]] are three elements, to be denoted $\mathfrak{a}_-, \mathfrak{a}_+$ and $\mathfrak{n}$;
+
+* [[multimorphisms]] $(X_i)_{i = 1}^n \to Y$ form
+
+  * if $Y = \mathfrak{a}_-$ and all $X_i = \mathfrak{a}_-$ then: the set of [[linear orders]] of $n$ elements;
+
+  * if $Y = \mathfrak{a}_*$ and all $X_i = \mathfrak{a}_*$ then again: the set of [[linear orders]] of $n$ elements;
+
+  * if $Y = \mathfrak{n}$: the set of linear orders $\{i_1 \lt \cdots \lt i_n\}$ such that there is exactly one index $i_k$ with $X_{i_k} = \mathfrak{n}$ and $X_{i_j} = \mathfrak{a}_-$ for all $j \lt k$ and $X_{i_j} = \mathfrak{a}_+$ for all $k \gt k$.
+
+* [[composition]] is given by the composition of linear orders as for the [[associative operad]].
+
+The [[(∞,1)-algebras over an (∞,1)-operad]] over this $(\infty,1)$-operad are pairs consisting of two [[A-∞ algebras]] with an [[(∞,1)-bimodule]] over them.
+
+=--
+
 
 ## Properties
 
