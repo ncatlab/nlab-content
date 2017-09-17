@@ -48,3 +48,6 @@ the special orthogonal Lie algebra on $V$ is naturally isomorphism to the algebr
 [[!redirects orthogonal Lie algebras]]
 [[!redirects special orthogonal Lie algebra]]
 [[!redirects special orthogonal Lie algebras]]
+
+[[!redirects Lorentz Lie algebra]]
+[[!redirects Lorentz Lie algebras]]
