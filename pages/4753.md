@@ -47,9 +47,11 @@ So the above defines that a category is a record consisting of a type of objects
 
 The defined type of categories cannot itself be a member of $\mathrm{Type}$, otherwise we run into [[Girard's paradox]]. This is related to the size issues for categories. 
 
-### Question from the Peanut Gallery
++--{.query}
+_Anonymous from the Peanut Gallery asks_: How do we define small categories type-theoretically? It seems to me that a natural thing to try is to make "small" mean "$\mathrm{Obj}$ is a setoid (ie, element of $\mathrm{Type}_=$)", but then the coherence conditions on the type operator of morphisms make my head explode. (Namely, if $(A, \simeq)$ is a setoid, and $a \simeq a'$, then we expect $\hom(a,b) \triangleq \hom(a',b)$, but I don't see how $\triangleq$ should be defined! What should the type of homs be now, and what properties should they satisfy?) 
 
-How do we define small categories type-theoretically? It seems to me that a natural thing to try is to make "small" mean "$\mathrm{Obj}$ is a setoid (ie, element of $\mathrm{Type}_=$)", but then the coherence conditions on the type operator of morphisms make my head explode. (Namely, if $(A, \simeq)$ is a setoid, and $a \simeq a'$, then we expect $\hom(a,b) \triangleq \hom(a',b)$, but I don't see how $\triangleq$ should be defined! What should the type of homs be now, and what properties should they satisfy?) 
+_Ulrik_: The above does define a type of small categories (given that $\mathrm{Type}$ is a type of small types). Adding equality to $\mathrm{Obj}$ (making it a setoid), defines small [[strict categories]]. Then, as you mention, we need an equality on $\mathrm{Type}$ in order to formulate the coherence condition (the type theory might do this automatically, though). To define large categories we need a larger universe of types (just like the situation in set theory).
+=--
 
 
 [[!redirects type-theoretic definition of category]]
