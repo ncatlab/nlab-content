@@ -1,8 +1,17 @@
-### Idea
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 The reconstruction theorems of nice classes of schemes from the abelian categories of (quasi)coherent sheaves have versions from weaker data of the corresponding derived categories, viewed as [[triangulated category|triangulated]] or [[enhanced triangulated categories]] (see [[triangulated categories of sheaves]]). This is important for study of deformations, [[homological mirror symmetry]] and noncommutative generalizations.
 
-### References
+## Related concepts
+
+* [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]
+
+## References
 
 An important theorem of reconstruction using the triangulated category (but not the monoidal structure) is the [[Bondal-Orlov reconstruction theorem]]:
 
