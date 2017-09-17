@@ -12,20 +12,15 @@
 =--
 =--
 
-* [[crossed complex]] $\Leftarrow$ [[crossed module]] $\Rightarrow$ [[2-crossed module]]
-
-* [[dg-Lie algebra]] $\Leftarrow$ **differential crossed module** $\Rightarrow$ [[differential 2-crossed module]]
-
 
 
 
 #Contents#
-
-* automatic TOC goes here
+* table of contents
 {:toc}
 
 
-#Idea#
+## Idea
 
 The notion of _differential crossed module_ (or crossed module of/in Lie algebras) is a way to encode the structure of a [[strict Lie 2-algebra]] in terms of two ordinary [[Lie algebra]]s.
 
@@ -33,7 +28,7 @@ The notion of _differential crossed module_ (or crossed module of/in Lie algebra
 This is the [[infinitesimal object|infinitesimal]] version of how a smooth [[crossed module]] encodes a smooth [[strict 2-group]].
 
 
-#Definition#
+## Definition
 
 A **differential crossed module** $\mathfrak{g}$ is 
 
@@ -51,20 +46,20 @@ A **differential crossed module** $\mathfrak{g}$ is
 
   * $\rho(\partial b)(b') = [b, b']$.
 
-#Remarks#
+Notice that the Lie algebra structure on $\mathfrak{g}_2$ is already fixed by the rest of the data. So a differential crossed module may equivalently be thought of as extra structure on a Lie module of $\mathfrak{g}_1$.
 
-* The Lie algebra structure on $\mathfrak{g}_2$ is already fixed by the rest of the data. So a differential crossed module may equivalently be thought of as extra structure on a Lie module of $\mathfrak{g}_1$.
+## Properties
 
-* Crossed modules are equivalent to strict [[L-infinity-algebra|Lie 2-algebras]]: those for which the ternary bracket vanishes.
+Crossed modules are equivalent to strict [[Lie 2-algebras]]: those for which the trinary bracket vanishes.
 
 
-#References#
+## Related concepts
 
-* [[John Baez]], [[Alissa Crans]], _Lie 2-algebras_ ([arXiv](http://arxiv.org/abs/math/0307263))
+## References
 
 The [[crossed modules]] (in groups or Lie groups) and the differential crossed modules are examples of the [[internal crossed module]]s. A good theory of them is developed in [[semiabelian categories]]. 
 
-* G. Janelidze, _Internal crossed modules_, Georgian Math. J. 10 (2003) 99114 ([journal](http://www.heldermann.de/GMJ/GMJ10/GMJ101/gmj1008.htm)).
+* [[George Janelidze]], _Internal crossed modules_, Georgian Math. J. 10 (2003) 99114 ([journal](http://www.heldermann.de/GMJ/GMJ10/GMJ101/gmj1008.htm)).
 
 [[!redirects differential crossed modules]]
 [[!redirects crossed module in Lie algebras]]
