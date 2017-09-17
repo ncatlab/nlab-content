@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
 In a (weak) [[2-category]], the appropriate notion of an [[orthogonal factorization system]] is suitably weakened up to isomorphism.  Specifically, a factorization system in a 2-category $K$ consists of two classes $(E,M)$ of 1-morphisms in $K$ such that:
@@ -18,15 +33,17 @@ which commutes up to specified isomorphism, where $e\in E$ and $m\in M$, has a d
 
 ## Examples
 
-The following are all factorization systems in the 2-category $Cat$.  Many of them have analogues in more general 2-categories.
+* The following are all factorization systems in the 2-category $Cat$.  Many of them have analogues in more general 2-categories.
 
-* $E=$ [[essentially surjective functors]], $M=$ [[fully faithful functors]].  This is the "ur-example," and it generalizes to [[enriched category theory]], [[internal category]] theory, etc.
+  * $E=$ [[essentially surjective functors]], $M=$ [[fully faithful functors]].  This is the "ur-example," and it generalizes to [[enriched category theory]], [[internal category]] theory, etc.
 
-* $E=$ functors $e:a\to b$ such that every object of $b$ is a [[retract]] of an object in the image of $a$, and $M=$ fully faithful functors whose image is closed under retracts.
+  * $E=$ functors $e:a\to b$ such that every object of $b$ is a [[retract]] of an object in the image of $a$, and $M=$ fully faithful functors whose image is closed under retracts.
 
-* $E=$ essentially surjective and [[full functors]], $M=$ [[faithful functors]].
+  * $E=$ essentially surjective and [[full functors]], $M=$ [[faithful functors]].
 
-* $E=$ (possibly [[transfinite compositions|transfinite]]) composites of [[localizations]], $M=$ [[conservative functors]].
+  * $E=$ (possibly [[transfinite compositions|transfinite]]) composites of [[localizations]], $M=$ [[conservative functors]].
+
+* A 2-factorization system on [[Topos]] is [[geometric surjection/embedding factorization]].
 
 ## Cat-enriched factorization systems
 
@@ -41,7 +58,19 @@ then we obtain the notion of a $Cat$-enriched, or strict 2-categorical, factoriz
 It is important to note that in general, the strict and weak notions of 2-categorical factorization system are incomparable; neither is a special case of the other.  For example, on $Cat$ there is a weak 2-categorical factorization system where $E=$ [[essentially surjective functors]] and $M=$ [[fully faithful functors]], and a strict 2-categorical factorization system where $E=$ [[bijective on objects functors]]
 and $M=$ [[fully faithful functors]].
 
-## Related pages
+## Related concepts
+
+* [[factorization system]]
+
+  * [[weak factorization system]]
+
+  * [[orthogonal factorization system]]
+
+* **factorization system in a 2-category**
+
+* [[factorization system in an (∞,1)-category]]
+
+  * [[orthogonal factorization system in an (∞,1)-category]]
 
 * Factorization systems in a 2-category play an important role in the construction of a [[proarrow equipment]] out of [[codiscrete cofibrations]].
 
