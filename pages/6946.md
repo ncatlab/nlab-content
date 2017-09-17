@@ -1,0 +1,3 @@
+For the moment, see
+
+* [Stanford Encyclopedia of Philosophy entry](http://plato.stanford.edu/entries/logic-provability/)
