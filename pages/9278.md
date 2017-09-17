@@ -1,0 +1,53 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $\mathfrak{g}$ a [[Lie algebra]] the underlying [[dual vector space]] $\mathfrak{g}^*$ canonically inherits the structure of a [[Poisson manifold]] whose Poisson [[Lie bracket]] reduces on linear functions $\mathfrak{g} \hookrightarrow C^\infty(\mathfrak{g}^*)$ to the original Lie bracket on $\athfrak{g}$. This is the **Lie-Poisson structure** on $\mathfrak{g}^*$.
+
+More generally, for $\mathfrak{a}$ a [[Lie algebroid]] the fiberwise dual $\mathfrak{a}^*$ inherits such a Poisson manifold structure.
+
+## Definition
+
+For $f,g \in C^\infty(\mathfrak{g}^*)$ two [[smooth functions]] on $\mathfrak{g}^*$ their Poisson [[Lie bracket]] in the Lie-Poisson structure is given by
+
+$$
+  \{f,g\} \;\colon\; \theta \mapsto -\theta ([d f, d g])
+  \,.
+$$
+
+## Properties
+
+### Symplectic groupoid
+
+The [[symplectic groupoid]] integrating the Lie-Poisson structure on $\mathfrak{g}^*$ is the [[action groupoid]] $\mathfrak{g}^* //G$ of the [[coadjoint action]]. (See at _[[symplectic groupoid]]_.)
+
+### Symplectic leaves
+
+The [[symplectic leaves]] of the Lie-Poisson structure on $\mathfrak{g}^*$ are the [[coadjoint orbits]].
+
+## References
+
+The notion of Lie-Poisson structures was originally found by [[Sophus Lie]] and then rediscovered by Berezin and by [[Alexander Kirillov]], [[Bertram Kostant]] and [[Jean-Marie Souriau]]. 
+
+* [[Victor Ginzburg]], [[Alan Weinstein]], _Lie-Poisson structure on some Poisson Lie groups_, Journal of the AMS, volume 5, number 2 (1992) ([pdf](http://www.ams.org/journals/jams/1992-05-02/S0894-0347-1992-1126117-8/S0894-0347-1992-1126117-8.pdf))
+
+
+[[!redirects Lie-Poisson structures]]
