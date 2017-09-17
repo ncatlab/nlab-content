@@ -1,3 +1,8 @@
+
+# Information theory
+* table of contents
+{: toc}
+
 ## Overview
 
 There are many theories explicating specific features of naive or intuitive notions of information.
@@ -13,6 +18,7 @@ Information theories in methodological proximity to mathematics are e.g.
 * algorithmic information theory
 
 * [[constructive-type-theoretical information theory]]
+
 
 ## Related topics
 
@@ -30,6 +36,7 @@ Information theories in methodological proximity to mathematics are e.g.
 
 * [[structure]]
 
+
 ## Contributors to information theory
 
 *  Statistical information theory: Claude Shannon, Warren Weaver, Ronald Fisher
@@ -42,8 +49,12 @@ Information theories in methodological proximity to mathematics are e.g.
 
 * Miscellaneous: Fred Dretske, Keith Devlin, Jon Barwise, Jeremy Seligman, Jaakko Hintikka
 
+
 ## References
 
-* [[Giuseppe Primiero]], [[information and knowledge - a constructive type-theoretical approach]], Springer, 2008{#Primiero}
+* [[Giuseppe Primiero]], [[spahn:information and knowledge - a constructive type-theoretical approach]], Springer, 2008{#Primiero}
 
 * Mark Burgin, Theory of information, 2010{#Burgin}
+
+
+[[!redirects information theory]]
