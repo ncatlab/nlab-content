@@ -196,3 +196,7 @@ Lecture notes include
 
 [[!redirects convolution product]]
 [[!redirects convolution]]
+
+[[!redirects group convolution algebra]]
+[[!redirects group convolution algebras]]
+
