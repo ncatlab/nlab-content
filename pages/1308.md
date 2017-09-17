@@ -1,6 +1,12 @@
-In its usual form, the Eckmann--Hilton argument shows that a [[monoid]] or [[group object]] [[internalization|in]] the category of monoids or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
+# The Eckmann--Hilton argument
+* table of contents
+{: toc}
 
-An even more general version is this:  If a set is equipped with two binary operations with [[identity element]]s, as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
+## Statement
+
+In its usual form, the Eckmann--Hilton argument shows that a [[monoid object|monoid]] or [[group object]] [[internalization|in]] the category of [[monoids]] or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
+
+An even more general version is this:  If a set is equipped with two binary operations with [[identity elements]], as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
 1.  the other is also a homomorphism with respect to the first;
 1.  each also preserves the other\'s identity;
 1.  the identities are the same;
@@ -8,7 +14,8 @@ An even more general version is this:  If a set is equipped with two binary oper
 1.  the operation is commutative;
 1.  the operation is associative.
 
-# Proof #
+
+## Proof
 
 The basic equation that we have (that one operation $*$ is a homomorphism with respect to another operation $\circ$) is
 $$ (a \circ b) * (c \circ d) = (a * c) \circ (b * d) .$$
@@ -40,24 +47,27 @@ Note that if you start with the slick monoid-in-$Mon$ approach, then only (4&5) 
 $$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b = (1 * a) \circ (b * 1) = (1 * b) \circ (a * 1) = b * a ,$$
 where the desired results involve the first, middle, and last expressions.
 
-# Corollaries #
 
-A $2$-[[k-tuply monoidal n-category|tuply monoidal]] $0$-[[0-category|category]], if defined as a [[pointed object|pointed]] [[k-tuply connected n-category|simply connected]] [[bicategory]] is also the same as an abelian monoid.
+## Corollaries
+
+A $2$-[[k-tuply monoidal n-category|tuply monoidal]] $0$-[[0-category|category]], if defined as a [[pointed object|pointed]] [[k-tuply connected n-category|simply connected]] [[bicategory]], is also the same as an abelian monoid.
 
 A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed simply connected [[tricategory]], is the same as a [[braided monoidal category]].
 
 Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
-#References#
 
-*The argument is really much more interesting if proved (and applied) geometrically, as in these VIDEO lectures from the Catsters:
- *  [Eckmann-Hilton 1](http://www.youtube.com/watch?v=Rjdo-RWQVIY);
- *  [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k).
+## References
 
-*For higher analogues see 
- * (within the discussion of commutative algebraic monads) [[Nikolai Durov]], New approach to Arakelov geometry, [arXiv:0704.2030](http://arxiv.org/abs/0704.2030)
- * M. A. Batanin, The Eckmann-Hilton argument and higher operads,  Adv. Math.  217  (2008),  no. 1, 334--385; [arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281)
+The argument is really much more interesting if proved (and applied) geometrically, as in these VIDEO lectures from the Catsters:
+*  [Eckmann-Hilton 1](http://www.youtube.com/watch?v=Rjdo-RWQVIY);
+*  [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k).
+
+For higher analogues see 
+*  (within the discussion of commutative algebraic monads) [[Nikolai Durov]], New approach to Arakelov geometry, [arXiv:0704.2030](http://arxiv.org/abs/0704.2030)
+*  M. A. Batanin, The Eckmann-Hilton argument and higher operads,  Adv. Math.  217  (2008),  no. 1, 334--385; [arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281)
 
 
+[[!redirects Eckmann-Hilton argument]]
 [[!redirects Eckmann–Hilton argument]]
 [[!redirects Eckmann--Hilton argument]]
