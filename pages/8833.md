@@ -1,3 +1,16 @@
-### Idea
 
-Roughly, Massey Products are to cohomology as [[Toda Brackets]] are to homotopy.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+## Idea
+
+Roughly, Massey Products are to [[cohomology]] as [[Toda Brackets]] are to [[homotopy]].
+
+[[!redirects Massey products]]
