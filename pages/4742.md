@@ -43,5 +43,6 @@ For instance the associativity law in an [[A-infinity algebra]] is the special c
 [[!redirects associativity]]
 [[!redirects associativity law]]
 [[!redirects associativity laws]]
+[[!redirects associative]]
 [[!redirects associative law]]
 [[!redirects associative laws]]
