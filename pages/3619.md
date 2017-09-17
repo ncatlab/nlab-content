@@ -16,7 +16,7 @@ As an example, suppose that in the basis $\{|0\rangle ,|1\rangle\}$, $|\Psi^{(A)
 
 $|\Psi^{(AB)}\rangle=|\Psi^{(A)}\rangle \otimes |\Psi^{(B)}\rangle=\frac{1}{\sqrt{2}}\left(|0\rangle +|1\rangle\right)\otimes|0\rangle=\frac{1}{\sqrt{2}}\left(|00\rangle +|10\rangle\right)$.
 
-Such a state is said to be a **product state** because it is "factorable," i.e. it can be formed from some combination of individual states in the basis.
+Such a state is said to be a **product state** because it is "factorable" or equivalently separable, i.e. it can be formed from some combination of individual states in the basis.
 
 ## Entangled States
 
@@ -24,17 +24,17 @@ Compare the above example to the state
 
 $|\Psi^{(AB)}\rangle=\frac{1}{\sqrt{2}}\left(|00\rangle +|11\rangle\right)$.
 
-This state is not a product state since it cannot be formed from any combination of individual states in the given basis.  Such a state is known as an **entangled state** because it is said to be "non-factorable."  Entangled states are, in fact, [[pure states]] rather than [[mixed states]] because they cannot be broken down further.
+This state is not a product state since it cannot be formed from any combination of individual states in the given basis.  Such a state is known as an **entangled state** because it is said to be _non-factorable_ or _non-separable_.  Entangled states are, in fact, [[pure states]] rather than [[mixed states]] because they cannot be broken down further.
 
 The formation of entangled states requires an external action that, mathematically, takes the form of some type of unitary operator acting on a product state.  Physically this usually entails interacting systems $A$ and $B$ in some way, e.g. one method for entangling photons is producing them from the same source.
 
 ## LOCC and SLOCC
 
-Often if multi-party states can be inter-converted via local operations, they are considered to be the same. This can be made formal by the following definition.
+Often if [[multi-party state]]s can be inter-converted via local operations, they are considered to be the same. This can be made formal by the following definition.
 
 +-- {: .num_defn}
 ###### Definition
-Two states $|\Psi\rangle,|\Phi\rangle \in \bigotimes H_i$ are said to be equivalent up to local operations with classical communication if they can be inter-converted by a protocol involving any number of steps where (i) one party applies a local unitary operation $U : H_i \rightarrow H_i$ or (ii) one party sends some classical information to another.
+Two states $|\Psi\rangle,|\Phi\rangle \in \bigotimes H_i$ are said to be equivalent up to local operations with classical communication (LOCC) if they can be inter-converted by a protocol involving any number of steps where (i) one party applies a local unitary operation $U : H_i \rightarrow H_i$ or (ii) one party sends some classical information to another.
 =--
 
 Such a protocol is reversible, so since protocols compose, this generates an equivalence relation. While this removes a good deal of redundancy from the study of entanglement, it is often useful to use an even more course-grained relation.
