@@ -587,6 +587,16 @@ is well defined and constitutes an [[isomorphism]] of vector spaces.
 
 So inside the space of functions on infinitesimal simplices, we find the [[differential form]]s. The next crucial observation now is that there is a _natural reason_ , from the [[nPOV]],  to restrict to $C^\infty(\tilde D(k,n))_{top} \subset C^\infty(\tilde D(k,n))$.
 
+
+#### The tangent Lie algebroid and differential forms
+
+The collection of the spaces $R^n \times \tilde D(k,n)$ for all $k \in \mathbb{N}$ naturally forms a [[simplicial object|simplicial]] [[smooth locus]] $(\mathbb{R}^n)^{(\Delta^\bullet_{inf})}$, which represents the [[schreiber:infinitesimal path ∞-groupoid]] of $\mathbb{R}^n$, equivalently the [[tangent Lie algebroid]] of $\mathbb{R}^n$. 
+
+Dually this is a [[smooth algebra|smooth]] [[cosimplicial algebra]]. Under the _normalized cochain complex functor_ of the dual [[Dold-Kan correspondence]] this identifies with a [[dg-algebra]]. The fact that this is the _normalized_ cochain complex algebra means that it consists in degree $k$ only of a subspace of the space that the cosimplicial algebra has in degree $k$. This subspace is precisely that of differential $k$-forms.
+
+This we now describe in detail. All the arguments involved are still (with slightly different parameterization, possibly) due to [[Anders Kock]], the only new thing here being the observation that the restriction to the joint kernel of the degeneracy maps exhibts the Dold-Kan map, and that this way using the simplicial picture everything acquires a nice [[nPOV]] interpretation as being about the [[schreiber:infinitesimal path ∞-groupoid]] of $\mathbb{R}^n$, regarded either as an infinitesimal [[Lie ∞-groupoid]] or as a [[∞-Lie algebroid]].
+
+
 +-- {: .un_def}
 ###### Definition
 
@@ -605,14 +615,14 @@ $$
 
 where
 
-* the face maps are $d_i : R^n \times \tilde D(k+1,n) \to R^n \times \tilde D(k,n)$ are 
+* the face maps $d_i : R^n \times \tilde D(k+1,n) \to R^n \times \tilde D(k,n)$ are 
 
   * for $0 \lt i \lt k+1$ given by
 
     $$
       d_i : (x, (v_1, v_2, \cdots, v_{k+1}))
       \mapsto
-      (x, v_1, \cdots , v_{i-2} , v_{i+1} + v_{i+2}, v_{i+3}, \cdots, v_{k+1})
+      (x, v_1, \cdots , v_{i} , v_{i+1} + v_{i+2}, v_{i+3}, \cdots, v_{k+1})
     $$
 
   * for $i = k+1$ given by
@@ -623,7 +633,7 @@ where
       (x, v_1, \cdots , v_{k})
     $$
 
-  * for $i = 0$
+  * for $i = 0$ given by 
 
     $$
       d_0 : (x, (v_1, v_2, \cdots, v_k))
@@ -671,24 +681,47 @@ where
 
   * for $r \gt i+1$ sending $\epsilon_r$ to $\epsilon_{r-1}$.
 
-* the co-face maps $d_i^*$ are given on generators by
+* the co-face maps $d_i^*$ are given on generators
 
-  * for $i = 0$ sending 
+  * for $0 \lt i \lt k +1$ by sending
+
+    $\epsilon_{1} \mapsto \epsilon_1$, $\cdots$, $\epsilon_{i+1} \mapsto
+    \epsilon_{i+1} + \epsilon_{i+2}$, $\epsilon_{i+2} \mapsto \epsilon_{i+3}$,
+    $\cdots$;
+
+  * for $i = k+1 $ by sending each $\epsilon_{j}$ to the generator of the same
+    name; 
+
+  * for $i = 0$ by sending 
   
     $$
       h \otimes (\sum_{e} det(e) f_e)
       \mapsto
-      (h \otimes (\sum_{e} det(e) f_e)      
+      (h \otimes (\sum_{e} det(\tilde e) f_e)      
       +
       \sum_{i=1}^n 
-      (\frac{\partial}{\partial x_i} h)
+      (\frac{\partial}{\partial x^i} h)
       \otimes
       \epsilon_1^i
-      (\sum_{e} det(e) f_e)
-      \,.
+      (\sum_{e} det(\tilde e) f_e)
+      \,,
     $$  
 
+    where $tilde e$ is obtained from $e$ by replacing each $\epsilon_{i}^j$ 
+    it contains with $\epsilon_{i+1}^j$.
+
 =--
+
+The way to think of how the face and degeracy maps here work is to imagine that a collection of elements $(v_1, \cdots, v_k) \in \tilde D(k,n)$ spans an infinitesimal $k$-parallelepiped, and that inside that the face and degeneracy maps slice out a $k$-simplex. The proof that this is indeed a (co)simplicial object is entirely analogous to the discussion of the simplicial object of finite simplices at [[interval object]].
+
+For instance for $k = 3$ we have six 3-simplices sitting inside each 3-cube
+
+<img src="http://ncatlab.org/nlab/files/3simplex_in_3cube.jpg" width = "550"/>
+
+and the face maps identify one of these:
+
+<img src="http://ncatlab.org/nlab/files/3simplex_facemaps.jpg" width = "550"/>.
+
 
 Now oberserve that under the dual [[Dold-Kan correspondence]] the _normalized cochain complex_ of this cosimplicial algebra is, up to isomorphism, the complex that in degree $k$ has the joint [[kernel]] of the co-degeneracy maps.
 But by the above remarks, this joint kernel is precisely 
@@ -728,28 +761,36 @@ as
 
 $$
   \begin{aligned}
-     & \cdots \mapsto
-     (d_0^* + \sum_{r = 1}^n (-1)^r d_1^*)(
+     \cdots \mapsto &
+     (d_0^* + \sum_{r = 1}^n (-1)^r d_r^*)(
        h \otimes (\omega^1 \cdot \epsilon_{1})
        (\omega^2 \cdot \epsilon_{2}) \cdots
        (\omega^k \cdot \epsilon_{k}))
       \\
-      & = 
-       h \otimes (\omega^1 \cdot \epsilon_{1})
-      (\omega^2 \cdot \epsilon_{2}) \cdots
-       (\omega^k \cdot \epsilon_{k}))
-      + 
-       (d h \cdot x_1)
+      = &
+       h \otimes (\omega^1 \cdot \epsilon_{2})
+      (\omega^2 \cdot \epsilon_{3}) \cdots
+       (\omega^k \cdot \epsilon_{k+1}))
+      \\
+      & + 
+       (d h \cdot \epsilon_1)
        (\omega^1 \cdot \epsilon_{2})
        (\omega^2 \cdot \epsilon_{3}) \cdots
        (\omega^k \cdot \epsilon_{k+1}))
-      +
-      \sum \pm 
-       h \otimes (\omega^1 \cdot \epsilon_{1})
-       (\omega^2 \cdot \epsilon_{2}) \cdots
-       (\omega^k \cdot \epsilon_{k}))
       \\
-      & =
+      & -
+       h \otimes (\omega^1 \cdot (\epsilon_{1} + \epsilon_{2}))
+       (\omega^2 \cdot \epsilon_{3}) \cdots
+       (\omega^k \cdot \epsilon_{k+1}))
+      \\
+      & + 
+       h \otimes (\omega^1 \cdot \epsilon_{1})
+       (\omega^2 \cdot (\epsilon_2 + \epsilon_{3})) \cdots
+       (\omega^k \cdot \epsilon_{k+1}))
+      \\
+      & - \cdots
+      \\
+      =& 
        (d h \cdot \epsilon_1)
        (\omega^1 \cdot \epsilon_{2})
        (\omega^2 \cdot \epsilon_{3}) \cdots
@@ -758,10 +799,30 @@ $$
   \,.
 $$
 
-...
+Under our identification 
+$C^\infty(\mathbb{R}^n)\otimes C^\infty(\tilde D(k,n))_{top}
+  \simeq \wedge^k \Gamma(T^* \mathbb{R}^n)$ this means that the alternating sum of the face maps sends
+
+$$
+  h \wedge \omega^1 \wedge \omega^2 \wedge \cdots \wedge \omega^k
+  \mapsto
+  d h \wedge \omega^1 \wedge \omega^2 \wedge \cdots \wedge \omega^k
+  \,,
+$$
+
+where each $\omega^j$ is a _constant_ 1-form on $\mathbb{R}^n$. So this is indeed the action of the [[de Rham complex|de Rham differential]].
 
 =--
 
+The construction of $(\mathbb{R}^n)^{(\Delta^\bullet_{inf})}$ is manifestly natural and extends to a functor
+
+$$
+  (-)^{(\Delta^\bullet_{inf})}
+  :
+  CartSp \mapsto [\Delta^{op}, \mathbb{L}]
+$$
+
+from [[CartSp]] to [[simplicial object|simplicial]] [[smooth loci]]. Effectively just by ([[derived functor|derived]]) [[Yoneda extension]] of this functor to a functor on [[simplicial presheaves]] on [[CartSp]] one obtains a definition of the [[schreiber:infinitesimal path ∞-groupoid]] of any [[smooth manifold]], any [[diffeological space]] and even every [[∞-Lie groupoid]].
 
 
 ## References
