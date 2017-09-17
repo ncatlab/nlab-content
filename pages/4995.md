@@ -410,20 +410,11 @@ comes with a notion of [[group object in an (∞,1)-category|∞-group objects]]
 
 This object $\Omega_x X$ is canonically equipped with the structure of an [[∞-group]] obect.
 
-+-- {: .un_def}
-###### Definition
-
-  For every [[∞-group]] $G \in \mathbf{H}$ there is a [[0-connected]] object 
-  $* \to \mathbf{B}G$ such that $G \simeq \Omega_{*} \mathbf{B}G$.
-
-=--
-
-See [[groupoid object in an (∞,1)-category]].
 
 +-- {: .un_remark}
 ###### Remark
 
-Notice that every [[0-connected]] object $\mathbf{B}G$ in the cohesive $(\infty,1)$-topos $\mathbf{H}$ does have a global point (then necessarily essentially unique) $* \to \mathbf{B}G$.
+Notice that every [[0-connected]] object $A$ in the cohesive $(\infty,1)$-topos $\mathbf{H}$ does have a global point (then necessarily essentially unique) $* \to A$.
 
 =--
 
@@ -431,9 +422,39 @@ This follows from the [above proposition](#PointLike) which says that $\mathbf{H
 
 
 +-- {: .un_prop}
+###### Proposition
+
+The operation of forming [[loop space object]]s in $\mathbf{H}$ establishes an [[equivalence of (∞,1)-categories]]
+
+$$
+  \Omega : Connected(\mathbf{H}) \stackrel{\simeq}{\to} Grp(\mathbf{H})  
+$$
+
+between the [[(∞,1)-category]] of [[group object in an (∞,1)-category|group object]]s in $\mathbf{H}$ and the full [[sub-(∞,1)-category]] of [[0-connected]] objects.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#Delooping">delooping</a> we have such an equivalence in every $(\infty,1)$-topos for the full sub-$(\infty,1)$-categories of [[pointed object|pointed]] [[0-connected]] object. But since the cohesive $(\infty,1)$-topos $\mathbf{H}$ has [[homotopy dimension]] $0$ by the [above proposition](#PointLike) every 0-connected object has an essentially unique point.
+
+=--
+
+We write
+
+$$
+  \mathbf{B} : Grpd(\mathbf{H}) \to  Connected(\mathbf{H})
+$$
+
+for the inverse to $\Omega$. For $G \in Grp(\mathbf{H})$ we call 
+$\mathbf{B}G \in Connected(\mathbf{H}) \hookrightarrow \mathbf{H}$ the 
+**[[delooping]]** of $G$.
+
++-- {: .un_prop}
 ###### Observation
 
-  The object $\mathbf{B}G \in \mathbf{H}$ is concrete preciely if $G$ is.
+ The delooping object $\mathbf{B}G \in \mathbf{H}$ is concrete preciely if $G$ is.
 
 =--
 
