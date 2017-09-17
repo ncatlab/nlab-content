@@ -100,6 +100,13 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+If $\mathcal{P}$ is a [[Kähler polarization]] then its underlying [[almost complex structure]] it induces a [[spin^c structure]], as discussed there. If $ \rho \colon G \to QuantMorph(X,\nabla)$ is a [[Hamiltonian action]] (a homomorphism to the [[quantomorphism group]]) such that each prequantum operator $\rho(g)$ is a quantum operator in that it preserves the polarization, by prop. \ref{CompatibiltyOfFlowWithPolarization}, then the corresponding [[spin^c structure]] is $G$-invariant. Accordingly the [[index]] of the [[spin^c Dirac operator]] which gives the [geometric quantization by cohomological quantization](http://ncatlab.org/nlab/show/geometric%20quantization#AsIndexOfSpinCDiracOperator) exists not just in [[K-theory]], where it yields the [[space of quantum states]], but even in $G$-[[equivariant K-theory]], exhibiting a [[representation]] of $G$ on the Hilbert space. This is the action of the quantum observables given by $\rho$ from the point of view of cohomological quantization.
+
+=--
+
 +-- {: .num_example}
 ###### Example
 
