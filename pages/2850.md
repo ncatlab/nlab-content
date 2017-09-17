@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include Riemannian geometry - contents]]
 =--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -15,7 +21,7 @@
 
 ## Idea
 
-Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riemannian metric]].
+Riemannian geometry studies [[smooth manifold]]s that are equipped with a [[Riemannian metric]]: [[Riemannian manifold]]s.
 
 
 
