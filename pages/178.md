@@ -3627,7 +3627,7 @@ where on the right we have the set of [[commuting diagram]]s in [[dgAlg]] of the
 +-- {: .un_def }
 ###### Definition
 
-Write $W(b^{n-1}\mathbb{R)) \in $ [[dgAlg]] for the [[Weil algebra]] of the 
+Write $W(b^{n-1}\mathbb{R}) \in $ [[dgAlg]] for the [[Weil algebra]] of the 
 line Lie $n$-algebra, defined to be the [[free functor|free]] commutative [[dg-algebra]] on a single generator in degree $n$, hence the graded commutative algebra on a generator in degree $n$ and a generator in degree $(n+1)$ equipped with the differential that takes the former to the latter.
 
 =--
@@ -3643,9 +3643,9 @@ $$
   \Omega^n(U)
 $$
 
-between dg-algebra homomorphisms $A : W(b^{n-1}\mathbb{R}) \to \Omega^\bullet(X)$ from the Weil algebra of $b^{n-1}\mathbb{R}$ to the de Rham complex and degree-$n$ differential forms not necessarily closed.
+between dg-algebra homomorphisms $A : W(b^{n-1}\mathbb{R}) \to \Omega^\bullet(X)$ from the Weil algebra of $b^{n-1}\mathbb{R}$ to the de Rham complex and degree-$n$ differential forms, not necessarily closed.
 
-There is a canonical dg-algebra homomorphism $W(b^{n-1}\mathbb{R}) \to CE(b^{n-1}\mathbb{R})$ and the differential $n$-form corresponding to $A$ factors through this morphism preciselly if the [[curvature]] $d_{dR} A$ of $A$ vanishes.
+There is a canonical dg-algebra homomorphism $W(b^{n-1}\mathbb{R}) \to CE(b^{n-1}\mathbb{R})$ and the differential $n$-form corresponding to $A$ factors through this morphism precisely if the [[curvature]] $d_{dR} A$ of $A$ vanishes.
 
 =--
 
@@ -3760,7 +3760,7 @@ in $[CartSp_{smooth}^{op}, sSet]_{proj}$ and then show that
 the above is the ordinary [[pullback]] of this along 
 $\mathbf{\flat}_{dR} \mathbf{B}^{n+1} \mathbb{R}_{smp} \to \mathbf{\flat} \mathbf{B}^{n+1} \mathbb{R}_{smp} $.
 
-We claim that this is achived by the morphism
+We claim that this is achieved by the morphism
 
 $$
   (U,[k]) 
@@ -4720,13 +4720,12 @@ $$
      \mathbf{\flat}_{dR}\mathbf{B}^{n+1} \mathbb{R}_{smp}
     \\
     \downarrow^{\mathrlap{\simeq}}
-  
     \\
     \mathbf{B}^n \mathbb{R}_{smp}
   }
 $$
 
-in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj}$, given by maps of smooth families of [[differential form]]s
+in the [[model structure on simplicial presheaves]] $[CartSp_{smooth}^{op}, sSet]_{proj}$, given by maps of smooth families of [[differential form]]s.
 
 We now insert this in the above general abstract definition of the $\infty$-Chern-Weil homomorphism to deduce a presentation of that in terms of smooth families of [[∞-Lie algebroid valued differential forms]].
 
@@ -4757,7 +4756,8 @@ $$
   }
 $$
 
-of simplicial presheaves. In order to efficiently compute which morphism in $Smooth \infty Grpd$ this presents we need to construct, preferably naturally in the [[L-∞ algebra]] $\mathfrak{g}$ a simplicial presheaf $\exp(\mathfrak{g})_{diff}$ that fills this diagram as follows:
+of simplicial presheaves. In order to efficiently compute which morphism in $Smooth \infty Grpd$ this presents we need to construct
+-- preferably naturally in the [[L-∞ algebra]] $\mathfrak{g}$ -- a simplicial presheaf $\exp(\mathfrak{g})_{diff}$ that fills this diagram as follows:
 
 $$
   \array{
@@ -4805,7 +4805,7 @@ to the [line Lie n-algebra](#LineLieNAlgebra).
 +-- {: .un_prop}
 ###### Observation
 
-Every $L_\infty$-algebra cocycle induces canonically a morphism of simplicial preshesheaves of 
+Every $L_\infty$-algebra cocycle induces canonically a morphism of [[simplicial presheaves]] of 
 [exponentiated L-∞-algebras](#StrucLieAlg)
 
 $$
