@@ -19,7 +19,7 @@
 
 ## Idea
 
-The archetypical example of a [[mechanical system]] is a [[particle]] propagating on a [[manifold]] $\Sigma$. The [[phase space]] of this particular system happens to be canonically identified with the [[cotangent bundle]] $X \coloneqq T^* \Sigma$ of $\Sigma$. Here the covector $(x,p)$ in $X$ over a point $x \in \Sigma$ is physically interpretd as describing a [[state]] of the system where the particle is at position $x \in \Sigma$ and has [[momentum]] (essentially: speed) as given by $p$. 
+The archetypical example of a [[mechanical system]] is a [[particle]] propagating on a [[manifold]] $\Sigma$. The [[phase space]] of this particular system happens to be canonically identified with the [[cotangent bundle]] $X \coloneqq T^* \Sigma$ of $\Sigma$. Here the [[covector]] $(x,p)$ in $X$ over a point $x \in \Sigma$ is physically interpretd as describing a [[state]] of the system where the particle is at position $x \in \Sigma$ and has [[momentum]] (essentially: speed) as given by $p$. 
 
 Therefore locally for [[coordinate patch]] $\phi : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to T^* \Sigma$ the $2n$-canonical coordinates of the [[Cartesian space]] $\mathbb{R}^n$ are naturally thought of as decomposed into $n$ "canonical coordinates" on the first $n$ factors and a set of "canonical momenta", being the canonical coordinates on the second $\mathbb{R}^n$-factor.
 
@@ -33,6 +33,11 @@ Therefore generally, in the context of [[mechanics]], with such a local  identif
 
 Globally the notion of canonical momenta may not exist at all. The notion that does exist globally is that of a [[polarization]] of a symplectic manifold. See there for more details.
 
+## Properties
+
+### On a symplectic vector space
+
+Discussion of how there is a flat connection on the bundle of [[spaces of quantum states]] over the space of choices of [[polarizations]] of a [[symplectic vector space]] and how this reproduces the traditional relation between canonical coordinates and canonical momenta by [[Fourier transformation]] is in ([Kirwin-Wu 04](#KirwinWu04)).
 
 ## Related concepts
 
@@ -45,5 +50,10 @@ Globally the notion of canonical momenta may not exist at all. The notion that d
 * [[Hamiltonian mechanics]]
 
 * [[geometric quantization]]
+
+## References
+
+* William Kirwin, Siye Wu, _Geometric Quantization, Parallel Transport and the Fourier Transform_,  	Comm. Math. Phys. 266 (2006), no. 3, pages 577 -- 594 ([arXiv:math/0409555](http://arxiv.org/abs/math/0409555))
+ {#KirwinWu04}
 
 [[!redirects canonical momenta]]
