@@ -542,6 +542,10 @@ $$
 
 is called the corresponding _[[D-brane charge]]_.
 
+### Of cohesive differential form data
+
+In [[differential cohomology]] realized in [[cohesive homotopy type theory]] there is a canonical fiber integration map for the curvature coefficients of a given diffential cohomology theory. See at _[integration of differential forms -- In cohesive homotopy-type theory](integration+of+differential+forms#InCohesiveHomotopyTypeTheory)_.
+
 ## Examples
 
 ### To the point
@@ -661,4 +665,3 @@ Formulation of this in [[linear homotopy-type theory]] is discussed in
 
 [[!redirects push-forward in generalized cohomology]]
 [[!redirects pushforward in generalized cohomology]]
-
