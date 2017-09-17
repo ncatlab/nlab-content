@@ -7,13 +7,13 @@
 [[!include topos theory - contents]]
 =--
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
 {:toc}
 
@@ -25,12 +25,15 @@ $Loc$ is used as a substitute for [[Top]] if one wishes to do [[topology]] with 
 
 $Loc$ is naturally a [[(1,2)-category]]; its [[2-morphism]] are the pointwise ordering of [[frame]] homomorphisms. 
 
+
 ## Properties
 
 For any base topos $E$ the 2-category $Loc(S)$ of locales in $S$ is equivalent to the subcatgeory of the slice of [[Topos]] over $S$ on the [[localic geometric morphism]]s. See there for more details.
 
 See [[locale]] for more properties.
 
+
+[[!redirects Loc]]
 [[!redirects Locale]]
 
 category: category
