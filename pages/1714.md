@@ -1,4 +1,4 @@
-In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-category|category]], there are many levels of [[morphism]], parametrised by [[natural number]]s.  Those at level $k$ are called __$k$-morphisms__ or __$k$-cells__.
+In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-category|category]], there are many levels of [[morphism]], parametrised by [[natural numbers]].  Those at level $k$ are called __$k$-morphisms__ or __$k$-cells__.
 
 In a [[geometric model of higher categories]], the $k$-morphisms are literally $k$-cells in the sense of a [[simplicial set]].  In any case, all models of higher categories have them.
 
