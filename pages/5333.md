@@ -87,8 +87,9 @@ Heterotic strings were introduced in
 
 * [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B258 (1985) 46
 
-A textbook introduction is 
+Textbook accounts include
 
+* [[Joseph Polchinski]], _[[String theory]]_, volume II, section 11
 
 * [[Eric D'Hoker]], _String theory -- lecture 8: Heterotic strings_  in part 3 (p. 941 of volume II) of
 
