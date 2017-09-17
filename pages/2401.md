@@ -118,6 +118,8 @@ Notice well the two assumptions that were made to make this argument work:
 
 ## Related concepts 
 
+* [[moduli]]
+
 * [[representable functor]]
 * [[classifying space]], [[classifying stack]], [[classifying topos]]
 * [[moduli stack]], [[derived moduli space]], [[Deligne-Mumford stack]]
