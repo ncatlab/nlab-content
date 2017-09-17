@@ -1,0 +1,4 @@
+
+ _Cartesian square_ is another term for [[pullback]] [[diagram]].
+
+[[!redirects cartesian squares]]
