@@ -1,0 +1,50 @@
+# Continuous posets
+
+* table of contents
+{: toc}
+
+## Definition
+
+Let $P$ be a [[poset]] with [[directed joins]].
+
++-- {: .un_defn}
+###### Definition
+For $a,b\in P$, we say that $a$ is **way below** $b$ and write $a\ll b$ if whenever $S\subseteq P$ is a directed subset and $b\le \bigvee P$ (where $\bigvee P$ denotes the join of $P$), then there exists $s\in S$ with $a\le s$.
+=--
+
++-- {: .un_defn}
+###### Definition
+We say that $P$ is **continuous** if for every $a\in P$, the set $\Downarrow (a) = \{ b\in P | b\ll a \}$ is directed and has join $a$.
+=--
+
+If $P$ also has finite joins, hence is a [[complete lattice]], then $\Downarrow(a)$ is automatically directed, so the condition reduces to $\bigvee (\Downarrow(a))=a$; in this case $P$ is called a **continuous lattice**.
+
+## Adjoint characterization
+
+Let $Idl(P)$ denote the poset of [[ideals]] in $P$, i.e. subsets that are downward-closed and upwards-directed.  To say that $P$ has directed joins is exactly to say that the principal-ideal map $\downarrow : P \to Idl(P)$, defined by $\downarrow(a)=\{b\in P | b\le a\}$, has a left adjoint $\bigvee$.
+
++-- {: .un_theorem}
+###### Theorem
+A poset $P$ with directed joins is continuous if and only if $\bigvee: Idl(P) \to P$ has a left adjoint.  In this case, the left adjoint is $\Downarrow$.
+=--
+
+## Properties
+
+* A [[frame]] is a continuous lattice just when its corresponding [[locale]] is [[locally compact locale]], hence [[exponentiable object|exponentiable]].
+
+## Related pages
+
+* [[continuous category]]
+* [[locally compact locale]]
+
+
+[[!redirects continuous poset]]
+[[!redirects continuous posets]]
+[[!redirects continuous lattice]]
+[[!redirects continuous lattices]]
+[[!redirects way-below relation]]
+[[!redirects way below relation]]
+[[!redirects way-below containment]]
+[[!redirects way below containment]]
+[[!redirects way-below]]
+[[!redirects way below]]
