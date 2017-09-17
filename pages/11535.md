@@ -37,7 +37,7 @@ _Proof:_ Let $\Gamma(\mathcal{C})$ denote the space of sections of $\mathcal{C}$
 
 Let $\mathbf{H}^\prime=\mathbf{H}$. Then, $\mathbf{H}^\prime$ is called the trivial bundle. The sheaf of sections $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H,H})$ of the trivial bundle is called the principal sheaf.
 
-Consider the topos $\mathbf{H}$. In analogy to [1], define an $n$-cell as the image of the functor $\mathbf{C}\to\mathbf{H}$, where $\mathbf{C}$ is the $n$-category mentioned above. Define an $n$-skeleton as $\mathbf{H}_n=\bigcup_{i=0}^n\mathrm{Im}(\mathbf{C}\to\mathbf{H})$. Then, the sequence $\mathbf{H}_0\hookrightarrow\mathbf{H}_1\hookrightarrow\cdots\hookrightarrow\mathbf{H}_{n-1}\hookrightarrow\mathbf{H}_n=\mathbf{H}$ as the skeleton of $\mathbf{H}$. The value of $n$ in the sequence $\mathbf{H}_0\hookrightarrow\mathbf{H}_1\hookrightarrow\cdots\hookrightarrow\mathbf{H}_{n-1}\hookrightarrow\mathbf{H}_n=\mathbf{H}$ is called the dimension of the topos $\mathbf{H}$.
+Consider the topos $\mathbf{H}$. Define an $n$-cell as the image of the functor $\mathbf{C}\to\mathbf{H}$, where $\mathbf{C}$ is the $n$-category mentioned above. Define an $n$-skeleton as $\mathbf{H}_n=\bigcup_{i=0}^n\mathrm{Im}(\mathbf{C}\to\mathbf{H})$. Then, the sequence $\mathbf{H}_0\hookrightarrow\mathbf{H}_1\hookrightarrow\cdots\hookrightarrow\mathbf{H}_{n-1}\hookrightarrow\mathbf{H}_n=\mathbf{H}$ as the skeleton of $\mathbf{H}$. The value of $n$ in the sequence $\mathbf{H}_0\hookrightarrow\mathbf{H}_1\hookrightarrow\cdots\hookrightarrow\mathbf{H}_{n-1}\hookrightarrow\mathbf{H}_n=\mathbf{H}$ is called the dimension of the topos $\mathbf{H}$.
 
 **Theorem:** _If $H^n(\mathbf{H}_n,\pi_{n-1}(x^{*}\mathbf{H})):=\pi_0\mathbf{Topos}(\mathbf{H}_n,\mathbf{B}^n(\pi_{n-1}(x^{*}\mathbf{H})))$ does not vanish for all $n$, then the sheaf of sections $\mathrm{Hom}_{\mathbf{Topos}}(\mathbf{H},\mathbf{H}^\prime)$ does not exist._
 
@@ -47,8 +47,6 @@ Let $\mathbf{\Pi}:x^{*}\mathbf{H}\to\mathbf{Vect}$. Define $\mathbf{\Pi}(\mathbf
 
 In analogy with [2, p.352], define a $\mathcal{D}$-valued $k$-form as a functor $\bigotimes_k\left([\mathbf{H},\mathbf{D}]\right)\to\mathcal{D}$, where $\mathbf{D}$ is an infinitesimal cohesive $(\infty,1)$-topos. Let the space of $k$-forms on $\mathbf{H}$ with values in $\mathbf{\Pi}(\mathbf{H}^\prime)$ be $\mathcal{A}^k$. Write $\mathcal{A}^\bullet=\bigoplus_k\mathcal{A}^k$. Define $\mathbf{LieAlg}([\mathbf{H}^\prime,\mathbf{D}]/x^{*}\mathbf{H})$ as a Lie algebroid structure on $[\mathbf{H}^\prime,\mathbf{D}]/x^{*}\mathbf{H}$. Write $\mathbf{Conn}=[[\mathbf{H,D}],\mathbf{LieAlg}([\mathbf{H}^\prime,\mathbf{D}]/x^{*}\mathbf{H})]$. Let $\mathcal{C}^\infty(\mathbf{H})$ denote the category of smooth functors/morphisms from $\mathbf{H}$ to objects of $\mathbf{Topos}$. Define functors $L_i:\mathbf{Conn}\oslash\mathcal{A}^\bullet\to\mathcal{C}^\infty(\mathbf{H})$, where $\oslash$ is the direct product. Then, let $\mathcal{L}$ denote a linear combination of the functors $L_i$. This is called the _Lagrangian_ on the smooth bundle $(\mathbf{H}^\prime,\mathcal{C}^\prime)$ over $(\mathbf{H},\mathcal{C})$.
 ##References##
-1. Private Communication with Todd Trimble.
-
 1. _Curvature in Mathematics and Physics (Dover Books on Mathematics)_, Shlomo Sternberg.
 
 Category: people
