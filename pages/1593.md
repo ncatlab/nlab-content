@@ -137,13 +137,100 @@ Every orientifold circle $n$-bundle (with connection) on $X$ induces an ordinary
 
 This is a special case of a general statement about extensions of $\infty$-bundles, discussed at [[cohesive (infinity,1)-topos]] <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos+--+structures#ExtendedBundlesByBundlesOfExtensions">here</a>.
 
-For $n = 2$ in this latter form orientifold circle 2-bundles were discussed in ([SSW05](#Jandl)) under the term _Jandl gerbe_ modelling the circle 2-bundle on the double cover as a [[bundle gerbe]]. The name _Jandl gerbe_ refers to the poem _<a href="http://www.worte-projekt.de/jandl.html">lichtung</a>_ by <a href="http://de.wikipedia.org/wiki/Ernst_Jandl">Ernst Jandl</a>.
++-- {: .num_prop }
+###### Observation
 
+Orientifold circle 2-bundles (with connection) over [[smooth manifold]] are equivalent to the _Jandl gerbes_  (with connection) discussed in ([SSW05](#Jandl)) 
+
+=--
+
+The name _Jandl gerbe_ refers to the poem _<a href="http://www.worte-projekt.de/jandl.html">lichtung</a>_ by <a href="http://de.wikipedia.org/wiki/Ernst_Jandl">Ernst Jandl</a>.
+
++-- {: .proof}
+###### Proof
+
+By the general discussion at [[Euclidean-topological ∞-groupoid]] and [[smooth ∞-groupoid]] we have that $[U(1) \to \mathb{Z}_2]$-[[principal ∞-bundle]]s on $X$ are given by [[Cech cohomology|Cech cocycles]] relative to any [[good open cover]] of $X$ with coefficients in the sheaf of [[2-groupoid]]s $\mathbf{B}[U(1) \to \mathbb{Z}_2]$. Writing this out in components it is straightforward to check that this coincides with the data of a Jandl gerbe (with connection) locally trivialized with over this cover.
+
+=--
 
 +-- {: .num_remark }
 ###### Remark
 
 Orientifold circle $n$-bundles are not $\mathbb{Z}_2$-[[equivariant cohomology|equivariant]] circle $n$-bundles: in the latter case the orientation reversal acts by an _[[automorphism]]_ between the bundle and its pullback along the orientation reversal, whereas for an orientifold circle $n$-bundle the orientation reversal acts by an equivalence to the _dual_ of the pulled-back bundle.
+
+=--
+
++-- {: .num_prop }
+###### Observation
+
+The [[geometric realization]] 
+
+$$
+  \tilde R := |\mathbf{B}[U(1) \to \mathbb{Z}_2]|
+$$
+
+of $\mathbf{B}[U(1) \to \mathbb{Z}]$ is the [[homotopy n-type|homotopy 3-type]] with [[homotopy group]]s
+
+$$
+  \pi_0(\tilde R)  = 0
+  \,;
+$$
+
+$$
+  \pi_1(\tilde R)  = \mathbb{Z}_2
+  \,;
+$$
+
+$$
+  \pi_2(\tilde R)  = 0
+  \,;
+$$
+
+$$
+  \pi_3(R')  = \mathbb{Z}
+$$
+
+and nontrivial action of $\pi_1$ on $\pi_3$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the theorem discussed <a href="http://nlab.mathforge.org/nlab/show/Euclidean-topological+infinity-groupoid#GeometricHomotopy">here</a> at [[ETop∞Grpd]] we have that 
+
+1. specifically 
+
+   1. $|\mathbf{B} \mathbb{Z}_2| \simeq B \mathbb{Z}_2$; 
+
+   1. $|\mathbf{B}^2 U(1)| \simeq B^2 U(1) \simeq K(\mathbb{Z};3)$;
+
+   where on the right we have the ordinary [[classifying space]]s going by these names;
+
+1. generally geometric realization preserves [[fiber sequence]]s of nice  enough objects, such as those under consideration, so that we have a fiber sequence
+
+   $$
+     K(\mathbb{Z},3) \to \tilde R \to B \mathbb{Z}_2
+   $$ 
+
+   in [[Top]].
+
+Since $\pi_3(K(\mathbb{Z}), 3) \simeq \mathbb{Z}$ and $\pi_1(B \mathbb{Z}_2) \simeq \mathbb{Z}_2$ and all other [[homotopy group]]s of these two spaces are trivial, the homotopy groups of $\tilde R$ follow by the [[long exact sequence of homotopy groups]] associated to our fiber sequence.
+
+Finally, since the action of $\mathbb{Z}_2$ in the [[crossed module]] is nontrivial, $\pi_1(\tilde R)$ must act notriviall on $\pi_3(\mathbb{Z})$. It can only act nontrivial in a single way, up to homotopy.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The space 
+
+$$
+  R := \mathbb{Z}_2 \times \tilde R
+$$
+
+is taken to be the coefficient object for orientifold ([[differential cohomology|differential]]) cohomology as appearing in [[string theory]] in ([DFM I](#Precis)). More details are in ([DFM II](#DistlerFreedMooreII)).
 
 =--
 
@@ -158,11 +245,17 @@ A definition and study of orientifold [[bundle gerbe]]s, modeling the [[Kalb-Ram
 
 A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Precis_ in: [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]] ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+ {#Precis}
 
 A summary talk on this is
 
 * [[Greg Moore]], _The RR-charge of an orientifold_ ([ppt](http://www.physics.rutgers.edu/~gmoore/AnnArbor_Feb2010_FINAL.ppt))
+
+More details are in
+
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
+ {#DistlerFreedMooreII}
 
 A formulation of some of the relevant aspects of orientifolds in terms of the  [[schreiber:differential cohomology in an (∞,1)-topos -- survey|differential nonabelian cohomology]] with coefficients in the [[2-group]] $AUT(U(1))$ coming from the [[crossed module]] $[U(1) \to \mathbb{Z}_2]$ is indicated in 
 
@@ -173,3 +266,6 @@ More on this in section 3.3.10 of
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects orientifolds]]
+
+[[!redirects Jandl gerbe]]
+[[!redirects Jandl gerbes]]
