@@ -67,7 +67,7 @@ These aspects have motivated the impression that the string perturbation series 
 
   * [[sigma model]], [[string]], [[CFT]]
 
-  * [[spinning string]], [[superstring]]
+  * [[string]], [[spinning string]], [[superstring]]
 
     * [[heterotic string theory]]
 
