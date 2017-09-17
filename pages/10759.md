@@ -86,7 +86,7 @@ $$
   X \coloneqq \underset{\rightarrow}{\lim}_n X_n
 $$
 
-between $X$ and the [[homotopy colimit]] of this sequence.
+between $X$ and the [[(∞,1)-colimit]] of this sequence.
 (The sequence itself is _the filtering on $X$_.)
 
 Dually, a _[[filtered object in an (∞,1)-category|co-filtered object in an (∞,1)-category]]_ in $\mathcal{C}$ is
@@ -104,7 +104,7 @@ $$
   X \coloneqq \underset{\leftarrow}{\lim}_n X_n
 $$
 
-between $X$ and the [[homotopy limit]] of this sequence.
+between $X$ and the [[(∞,1)-limit]] of this sequence.
 (The sequence itself is _the co-filtering on $X$_.)
 
 
@@ -112,6 +112,28 @@ between $X$ and the [[homotopy limit]] of this sequence.
 
 This appears as ([[Higher Algebra|Higher Algebra, def. 1.2.2.9]]).
 The notions are equivalent under replacing $\mathcal{C}$ by its [[opposite category]] $\mathcal{C}^{op}$.
+
+
++-- {: .num_remark}
+###### Remark
+
+If $\mathcal{C}$ is [[presentable (infinity,1)-category|presented]] by a 
+sufficiently nice [[model category]] $C$ (for instance a [[combinatorial  model category]]), then [[(∞,1)-colimits]] in $\mathcal{C}$ are computed by [[homotopy colimits]] in $C$. These in turn are computed as ordinary [[colimits]] in $C$ over a cofibrant [[diagram]] in the [[projective model structure on functors]]. 
+
+Specifically, as discussed at _[homotopy limit -- Examples -- Over sequential diagrams](homotopy+limit#SequentialHocolims)_ a cofibrant resolution of a [[sequential diagram]] $(\mathbb{N}, \leq) \to C$ is a sequential diagram all whose whose objects are cofibrant and all whose morphisms are cofibrations in $C$
+
+$$
+  \cdots \to X^C_{n-1} \stackrel{cof}{\to} X_{n}^C \stackrel{cof}{\to} X_{n+1}^C \to \cdots
+  \,,
+$$
+
+where $X_n^C \in C$ denotes an object in the model category presenting the given object $X_n \in \mathcal{C}$. 
+
+Moreover, in many [[model categories]] that appear in practice the cofibrations are in particular [[monomorphisms]] (for instance, by definition, in all [[Cisinski model structures]]). In these cases then a filtering on an object $X \in \mathcal{C}$ in the abstract sense of [[(∞,1)-categories]] is presented by a [[filtered object]] $X^C \in C$ in the sense of plain [[category theory]].
+
+The intrisnic definition \ref{GeneralizedFilteredObject} makes manifest however that the [[monomorphism]]-aspect here is just a means of a presentation of the filtering and not an intrinsic aspect of the [[homotopy theory]]. 
+ 
+=--
 
 
 +-- {: .num_defn #ChainComplexInStableInfinityCategory}
@@ -280,7 +302,7 @@ $$
   \array{
     F(n-1, n+1) && \longrightarrow && 0
     \\
-    \downarrow  & \searrow && \nearrow & \downarrow
+    \downarrow  & \searrow && \swarrow & \downarrow
     \\
     && \Sigma F(n-2,n)
     \\
