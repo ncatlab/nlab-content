@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $X$ a [[space]] and $G$ a [[group]] [[action|acting]] on it, then the _Borel equivariant cohomology_ of $X$ is the [[cohomology]] of the [[homotopy quotient]] $X//G$.
+
+Since a standard way to model the [[homotopy quotient]] is the _[[Borel construction]]_, this is called _Borel equivariant cohomology_.
+
+This is the special case of genuine [[equivariant cohomology]] where the [[action]] on the [[coefficienty]] is trivial.
+
+## Related concepts
+
+[[!include equivariant cohomology -- table]]
