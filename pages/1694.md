@@ -80,3 +80,5 @@ See also [the official Instiki guidelines](http://golem.ph.utexas.edu/instiki/sh
 
 
 [[!redirects redirects]]
+[[!redirects redirected page]]
+[[!redirects redirected pages]]
