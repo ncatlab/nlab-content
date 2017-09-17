@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _bump function_ is a [[smooth function]] on a [[Cartesian space]] which has [[compact support]].
+
+One reason why smooth functions are important is that a good supply of bump functions does exist. See for instance _[[partition of unity]]_.
+
+## References
+
+* wikipedia, _[bumb function](http://en.wikipedia.org/wiki/Bump_function)_
+
+[[!redirects bump functions]]
