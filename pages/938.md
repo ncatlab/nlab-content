@@ -84,5 +84,7 @@ With all these entries I suspect that in a few months time we will feel they nee
 Do you think some light treatment of simple homotopy theory might be useful,say at a historical level?
 =--
 
+A different direction of generalization is the notion of a [[homotopy equivalence of toposes]].
+
 
 [[!redirects weak homotopy equivalences]]
