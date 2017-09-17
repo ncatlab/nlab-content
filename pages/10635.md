@@ -54,18 +54,16 @@ It suffices to show that a function $f:[0,1] \to {\mathbb{R}}$ with $f' = 0$ is 
 
 In synthetic differential geometry, the Stokes theorem in the case of $[0, 1]$ is mandated definitionally.
 
-+--{: .definition}
++--{: .num_defn}
 ###### Definition
 For a map $f: [0, 1] \to R$, the __definite integral of its derivative__ $\int_0^1 \! f'(t) dt$ is equal to $f(1) - f(0)$.
 =--
 
-Note that we have only defined the definite integral of those maps that are derivatives of some other map. 
-
-The other part of the fundamental theorem of differential calculus is an axiom of synthetic differential geometry.
+This defines the definite integral of each map which is the derivative of another map. The other part of the fundamental theorem of differential calculus is axiomatized into synthetic differential geometry.
 
  **Integration axiom**. A map $f: [0, 1]\to R$ has a unique antiderivative $g:[0,1]\to R$ that satisfies $g(0) = 0$.
 
-With a supply of antiderivatives guaranteed by the Integration axiom, the above definition actually tells us how to compute the definite integral of every map.
+Assuming the Integration axiom, the definite integral of every map is now defined.
 
 
 ## References
