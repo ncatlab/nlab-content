@@ -30,11 +30,14 @@ Now the notion of _super 2-algebra_ is accordingly supposed to be the notion cat
 
 
 ## References
+ {#References}
 
-The definition starts at 33:10 in
+The definition of super 2-algebra starts at 33:10 in
 
 * [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, April 2013 ([abstract](http://www.google.com/url?q=http%3A%2F%2Fwww.math.neu.edu%2F~bwebster%2FACRT%2Fcalendar-with-abstracts.pdf&sa=D&sntz=1&usg=AFQjCNHvbVTfzJvF0-HHfRuak0RlSZpC0A),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov) [mov](Kapranov2Superalgebra.mov))
  {#Kapranov13}
+
+(while the first 30 minutes are concerned with discussion of how super-grading is implied by grading ([[augmented infinity-groups]]) over the [[sphere spectrum]], see  at [superalgebra - Abstract idea](http://ncatlab.org/nlab/show/super+algebra#AbstractIdea)).
 
 The example of the super 2-algebra of superalgebras starts at 39:30, 
 
