@@ -29,7 +29,7 @@ As suggested above, if $G$ is a group and we define $t(a,b,c) = a b^{-1} c$, the
 
 1. If we choose an arbitrary element $e\in H$, then we can define a multiplication on $H$ by $a b = t(a,e,b)$.  It is straightforward to verify that this defines a group structure on $H$, whose underlying heap structure is the original one.
 
-1. We can define $Aut(H)$ to be the set of pairs $(a,b)\in H\times H$, modulo the [[equivalence relation]] $(a,b)\sim (a',b')$ iff $t(a,a',b')=b$.  (We think of $(a,b)$ as representing $a^{-1} b$.)  We then define multiplication by $(c,d)(a,b) = (c,t(d,a,b))$; the inverse of (the equivalence class of) $(a,b)$ is (the equivalence class of) $(b,a)$ and the identity element is (the equivalence class of) $(a,a)$ (for any $a$).
+1. We can define $Aut(H)$ to be the set of pairs $(a,b)\in H\times H$, modulo the [[equivalence relation]] $(a,b)\sim (a',b')$ iff $t(a,a',b')=b$.  (We think of $(a,b)$ as representing $a^{-1} b$.)  We then define multiplication by $(c,d)(a,b) = (c,t(d,a,b))$; the inverse of (the [[equivalence class]] of) $(a,b)$ is (the equivalence class of) $(b,a)$ and the identity element is (the equivalence class of) $(a,a)$ (for any $a$).
 
 1. We can also define $Aut(H)$ as an actual subgroup of the symmetric group of $H$, analogously to [Cayley's theorem](http://en.wikipedia.org/wiki/Cayley's_theorem) for groups.  We take the elements of $Aut(H)$ to be set bijections
 of the form $t(-,a,b): H \rightarrow H$
