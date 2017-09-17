@@ -1,5 +1,5 @@
-# Pro-sets
 
+# Pro-sets
 * table of contents
 {: toc}
 
@@ -8,6 +8,7 @@
 A **pro-set** is a [[pro-object]] in the [[category]] [[Set]].
 
 This should not be confused with [[proset]], an abbreviation of "preordered set."
+
 
 ## Pro-sets versus locales
 
@@ -19,9 +20,10 @@ If $(S_i)_i$ is a pro-set, which we may WLOG assume to be indexed on a [[directe
 
 Thus, the open sets in the locale $\lim S_i$ are the "ideals" for this coverage, i.e. sets $A$ of pairs $(i,x)$ which are down-closed and such that if $(j,y)\in A$ for some $j$ and all $y\in s_{i j}^{-1}(x)$, then $(i,x)\in A$.
 
-### The pro-set $\pi_0$ of a locale
 
-On the other hand, there is a naturally defined functor $\pi_0\colon Loc \to Pro(Set)$ which sends a locale to its pro-set of [[connected components]].  The vertices of the cofiltered diagram defining $\pi_0(X)$ are decompositions $X = \coprod_{i\in I} U_i$ of $X$ as a [[coproduct]] of [[open subsets]], and the corresponding set is the index set $I$.  A morphism $(U_i) \to (V_j)$, called a *refinement*, consists of a function $f:I\to J$ such that $U_i$ is contained in $V_{f(i)}$; the corresponding function is of course $f$.
+### The pro-set $\Pi_0$ of a locale
+
+On the other hand, there is a naturally defined functor $\Pi_0\colon Loc \to Pro(Set)$ which sends a locale to its pro-set of [[connected components]].  The vertices of the cofiltered diagram defining $\Pi_0(X)$ are decompositions $X = \coprod_{i\in I} U_i$ of $X$ as a [[coproduct]] of [[open subsets]], and the corresponding set is the index set $I$.  A morphism $(U_i) \to (V_j)$, called a *refinement*, consists of a function $f:I\to J$ such that $U_i$ is contained in $V_{f(i)}$; the corresponding function is of course $f$.
 
 This diagram is cofiltered:
 1. It is nonempty, since $X$ is the 1-ary coproduct of itself.
@@ -32,20 +34,20 @@ This diagram is cofiltered:
 
 The [[classical mathematics|classical mathematician]] may be forgiven for thinking this last argument to be more confusing than necessary, since classically, either $f(i)=g(i)$ (in which case $W_i = U_i$) or $f(i)\neq g(i)$ (in which case $U_i = \emptyset$).  Constructively, however, the more involved argument is required.
 
-Note that if $X$ is [[locally connected space|locally connected]], then it has a "minimal" such decomposition, namely its decomposition into [[connected components]].  Thus, in this case $\pi_0(X)$ is a mere set.
+Note that if $X$ is [[locally connected space|locally connected]], then it has a "minimal" such decomposition, namely its decomposition into [[connected components]].  Thus, in this case $\Pi_0(X)$ is a mere set.
 
 This is the [[(0,1)-topos]] version of the [[fundamental group of a topos]] or the [[fundamental ∞-groupoid of an (∞,1)-topos]].
 
 +-- {: .un_theorem}
 ###### Theorem
-The functor $\pi_0\colon Loc \to Pro(Set)$ is left adjoint to $\lim\colon Pro(Set)\to Loc$.
+The functor $\Pi_0\colon Loc \to Pro(Set)$ is left adjoint to $\lim\colon Pro(Set)\to Loc$.
 =--
 +-- {: .proof}
 ###### Proof
-Since $\lim$ is given by regarding a pro-set as a diagram of discrete locales and taking its limit, it suffices to show that morphisms of pro-sets $\pi_0(X) \to S$, for a set $S$, are equivalent to morphisms of locales $X \to S_{disc}$.  But a locale map $X \to S_{disc}$ is precisely a decomposition of $X$ into disjoint opens indexed by $S$, which exactly defines a map $\pi_0(X) \to S$.
+Since $\lim$ is given by regarding a pro-set as a diagram of discrete locales and taking its limit, it suffices to show that morphisms of pro-sets $\Pi_0(X) \to S$, for a set $S$, are equivalent to morphisms of locales $X \to S_{disc}$.  But a locale map $X \to S_{disc}$ is precisely a decomposition of $X$ into disjoint opens indexed by $S$, which exactly defines a map $\Pi_0(X) \to S$.
 =--
 
-If $X$ is an [[overt locale]], then every decomposition is refined by a decomposition into [[positive elements]], so we may as well consider only decompositions into positive opens.  If we do this, the cofiltered category indexing $\pi_0$ becomes a [[codirected poset]], since (in the argument above) each $(U_i)$ is covered by $\{ U_i | f(i) = g(i) \}$, which must therefore be an [[inhabited set]] for all $i$, so that $f=g$.  Moreover, since in any refinement $f\colon (U_i) \to (V_j)$, each $V_j$ is covered by $\{ U_i | f(i)=j\}$, in this case the transition maps of the resulting pro-set are surjective.  However, for a non-overt locale (which, recall, cannot exist [[classical mathematics|classically]], it seems that the pro-set $\pi_0(X)$ need not be surjective in this sense.
+If $X$ is an [[overt locale]], then every decomposition is refined by a decomposition into [[positive elements]], so we may as well consider only decompositions into positive opens.  If we do this, the cofiltered category indexing $\Pi_0$ becomes a [[codirected poset]], since (in the argument above) each $(U_i)$ is covered by $\{ U_i | f(i) = g(i) \}$, which must therefore be an [[inhabited set]] for all $i$, so that $f=g$.  Moreover, since in any refinement $f\colon (U_i) \to (V_j)$, each $V_j$ is covered by $\{ U_i | f(i)=j\}$, in this case the transition maps of the resulting pro-set are surjective.  However, for a non-overt locale (which, recall, cannot exist [[classical mathematics|classically]], it seems that the pro-set $\Pi_0(X)$ need not be surjective in this sense.
 
 
 ### The classifying locale functor is not an embedding
@@ -57,14 +59,20 @@ It is also true that when lifted to [[progroups]], the functor $\lim\colon Pro(G
 However, in general the functor $\lim\colon Pro(Set) \to Loc$ is not an embedding.  For a counterexample, consider morphisms $S\to 2$, where $S$ is a pro-set and $2=\{\bot,\top\}$, regarded as a pro-set in the trivial way (and thus giving rise to a discrete locale).  A morphism of pro-sets $S\to 2$ is determined by a partition of some $S_i = S_i^\bot \sqcup S_i^\top$ (modulo a suitable equivalence relation as we change $i$).  But a morphism of locales $\lim S_i \to 2$ consists of two ideals $A^\bot$ and $A^\top$ which are disjoint and whose union *generates* the improper ideal (which consists of all pairs $(i,x)$).  A pro-set morphism $S\to 2$ induces a locale map $\lim S_i \to 2$ where $A^\bot$ and $A^\top$ are the ideals generated by $S_i^\bot$ and $S_i^\top$, but in general not every  morphism $\lim S_i \to 2$ is induced by one $S\to 2$.
 
 Specifically, consider the following pro-set, which is indexed on the natural numbers with the inverse ordering:
-$$ \dots \to S_i \to \dots \to S_2 \to S_1 \to S_0 $$
+$$ \cdots \to S_i \to \cdots \to S_2 \to S_1 \to S_0 $$
 We define $S_i = (\mathbb{N} \times \{a,b\}) / \sim_i$, where $\sim_i$ is the equivalence relation generated by $(k,a)\sim_i (k,b)$ for $k\ge i$.  The transition maps are the obvious projections, which are surjective.  Define
 $$ A^\bot = \{ (i,(k,a)) | k \lt i \} \quad\text{and}\quad A^\top = \{ (i,(k,b) | k \lt i \}.$$
 Then $A^\bot \cup A^\top$ generates the improper ideal, since for any $i$ we have $\{ (i+1, (i,a)), (i+1,(i,b)) \} \subset A^\bot \cup A^\top$, which covers $(i,(i,?))$, which covers $(i-1,(i,?))$, and so on down to $(0,(i,?))$.  However, no $S_i$ can be partitioned as $S_i = S_i^\bot \sqcup S_i^\top$ in such a way that $S_i^\bot$ generates $A^\bot$ and $S_i^\top$ generates $A^\top$.  Thus, this defines a locale map $\lim S_i \to 2$ which does not arise from a pro-set morphism $S\to 2$.
 
+
 [[!redirects pro-set]]
 [[!redirects pro-sets]]
 [[!redirects pro(Set)]]
+[[!redirects pro (Set)]]
 [[!redirects pro-Set]]
+[[!redirects pro Set]]
 [[!redirects Pro(Set)]]
+[[!redirects Pro (Set)]]
 [[!redirects Pro-Set]]
+[[!redirects Pro Set]]
+
