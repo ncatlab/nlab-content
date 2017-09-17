@@ -19,7 +19,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -61,13 +61,16 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 ## Related concepts
 
-Related $n$lab entries include [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]], [[crystal]], [[algebraic analysis]]. 
+* [[D-geometry]]
 
 * [[D-scheme]]
 
+* [[arithmetic D-module]]
+
 * [[crystalline cohomology]]
 
-* [[arithmetic D-module]]
+
+* [[Weyl algebra]], [[regular differential operator]], [[local system]], [[differential bimodule]], [[Grothendieck connection]], [[crystal]], [[algebraic analysis]]. 
 
 ## References 
 
