@@ -17,9 +17,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -45,7 +45,16 @@ may be [[deduction|deduced]].
 
 In the [[categorical semantics]] where each [[sequent]] here is interpreted as a [[morphism]] in a [[category]], the cut rule asserts the existence of [[composition]] of morphisms.
 
-The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s Hauptsatz") asserts that every [[judgement]] which has a [[proof]] using the cut-rule also has a proof not using it (a "cut-free proof").
+The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s Hauptsatz") asserts that every [[judgement]] which has a [[proof]] using the cut-rule also has a proof not using it (a "cut-free proof").  While Gentzen\'s original theorem was for a few particular sequent calculi that he was considering, it is true of many other sequent calculi and is generally seen as desirable.  (That said, there are some useful sequent calculi in which it fails.)
+
+In the analogy between the composition and the cut rule, the analogue of [[identity morphisms]] is the identity rule
+
+$$
+  A \vdash A
+$$
+
+Typically, a cut-elimination theorem will also eliminate the identity rule, *except* when applied to basic propositional variables (so for example, $p \wedge q \vdash p \wedge q$ may be proved using $p \vdash p$ and $q \vdash q$, in addition to the rules for $\wedge$, but $p \vdash p$ itself must be adopted as an axiom).
+
 
 ## References
 
