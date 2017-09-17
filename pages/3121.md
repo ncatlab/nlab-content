@@ -125,9 +125,11 @@ has a [[left adjoint]]
 ## References
  {#References}
 
-A general discussion in the context of [[(∞,1)-category theory]] is in section 1.4 of 
+A general discussion in the context of [[(∞,1)-category theory]] is in  
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+* [[Jacob Lurie]], section 1.4 _[[Higher Algebra]]_
+
+* [[Jacob Lurie]], section 1 of _[[Spectral Schemes]]_
 
 Discussion of the relation between stabilization of [[(∞,1)-categories]] (to [[stable (∞,1)-categories]]) and of [[model categories]] (to [[stable model categories]]) is in section 4.2 of
 
