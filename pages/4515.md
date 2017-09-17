@@ -10,3 +10,5 @@ The formality theorem implies that every [[Poisson manifold]] has a canonical [[
 
 
 [[!redirects Kontsevich formality theorem]]
+
+[[!redirects formality]]
