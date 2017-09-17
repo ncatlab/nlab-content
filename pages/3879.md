@@ -4,4 +4,6 @@ More recently, one also sometimes uses a less familiar term **physical mathemati
 
 A historically inclined article on [mathematical physics](http://en.wikipedia.org/wiki/Mathematical_physics) is featured on wikipedia.
 
+See also [[books and reviews in mathematical physics]]. 
+
 [[!redirects physical mathematics]]
