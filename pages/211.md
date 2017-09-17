@@ -16,6 +16,7 @@ category: meta
 [[!redirects Anonymous coward]]
 [[!redirects AnotherAnonymousCoward]]
 [[!redirects InterestedAnonymousCoward]]
+[[!redirects AnonymousHero]]
 [[!redirects Anonymous Hero]]
 [[!redirects AnonymousHeroicSpeller]]
 [[!redirects NeedNotBeConcrete]]
