@@ -1,0 +1,19 @@
+
+
+This entry provides links for the book
+
+* [[Andreas Kriegl]], [[Peter Michor]]
+
+  _The convenient setting of global analysis_
+
+  Mathematical Surveys and Monographs
+
+  Volume 53
+
+  AMS (1997)
+
+  ([pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf))
+
+on [[differential geometry]] in terms of [[Frölicher spaces]] and [[diffeological spaces]], in particular also on [[infinite-dimensional manifolds]].
+
+category: reference
