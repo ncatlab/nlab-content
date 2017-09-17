@@ -21,7 +21,9 @@ The set $\mathcal{B}(I)$ does not depend on the chosen complex neighbourhood $U$
 
 Let $U^+ := \{u \in U : \operatorname{Im}(u) \gt 0 \}$ and $U^- := \{u \in U : \operatorname{Im}(u) \lt 0 \}$, then a nontrivial hyperfunction can be described by two functions $F^+$ holomorphic on $U^+$ and $F^-$ holomorphic on $U^-$ such that there is no function $F$ holomorphic on $U$ that restricts to $F^+$ and $F^-$. In this sense hyperfunctions are "differences" of holomorphic functions on a "boundary" (we did not specify an algebraic object that contains both $F^+$ and $F^-$, so strictly speaking we cannot subtract them). 
 
-In the following we will often write $F = (F^+, F^-)$ for a hyperfunction $F$, with $(F^+, F^-)$ being a representative of the equivalence class that is $F$ in $\mathcal{B}$ on some complex neighbourhood.
+In the following we will often write $F = (F^+, F^-)$ for a hyperfunction $F$, with $(F^+, F^-)$ being a representative of the equivalence class that is $F$ in $\mathcal{B}$ on some complex neighbourhood. If the algebraic expression of $F^+$ and $F^-$ coincides we can further simplify the notation and simply write $[F]$.
+
+Example: The $\delta$ distribution can be represented by $\delta = [\frac{i}{2 \pi z}]$. We can prove that this equality is simply a restatement of Cauchy's integral formula after we define the concept of integration for a compactly supported hyperfunction below. 
 
 #basic properties and definitions
 
@@ -61,7 +63,37 @@ $$
 independently of all the arbitrary choices we made, thanks to the holomorphy of the functions on the right side (and Cauchy's integral formula for holomorphic functions, of course).
 
 ###example of a hyperfunction that is not a distribution
-...
+Warning: As of this moment this paragraph consists of some handwaving.
+
+A well known structure theorem in the theory of distributions says that every distribution whose support consists of one single point $P$ is in fact a finite linear combination of distributional derivatives of the $\delta$ function at $P$.
+
+As an example of a hyperfunction that is not a distribution we therefore have $F = [\exp{\frac{1}{z}}]$ with $\supp{F} = \{ 0 \}$. 
+
+Using the representation of the $\delta$ distribution, we see that
+$$
+\delta^{(n)}(x) = [\frac{(-1)^{n+1} n!}{2 \pi i} \frac{1}{z^{n+1}}]
+$$
+
+Using this representation, for any real analytic test function $a$ we see that the following identity holds, which motivates the use of the $\delta$ as in distribution theory:
+$$
+\int a(x) \delta^{n}(x) dx = a^{(n)} (0)
+$$
+
+Comparing the Laurent series of $F$ with the representation of $\delta^{(n)}$ we get
+$$
+[\exp{\frac{1}{z}}] = [1 + 2 \pi i  \sum_{n=0}^{\infty}  \frac{1}{n! (n-1)!} \delta^{(n)}(z)]
+$$
+with $(-1)! := 1$.
+Given the structure theorem about distributions cited above, we see that the hyperfunction $[\exp{\frac{1}{z}}]$ cannot be a distribution. There is an analog structure theorem for hyperfunctions, however:
+
+* theorem: Let $F$ be a hyperfunction supported at the origin, then $F$ has a representation as
+$$
+       F(x) = [ \sum_{n=0}^{\infty} b_n \delta^{(n)} (x)]
+$$
+where the coefficients satisfy 
+$$
+\lim_{n \to \infty} \sqrt{|b_n n!|} = 0
+$$
 
 #References
 
