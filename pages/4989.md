@@ -50,6 +50,12 @@ Thus, it remains to show "continuity" of $\Pi_0$. ...
 
 An [[(n,1)-cohesive site]] is a site whose [[(n,1)-topos]] of $n$-sheaves is [[cohesive (n,1)-topos|cohesive]], and an [[(∞,1)-cohesive site]] is a site whose [[(∞,1)-topos]] of sheaves is [[cohesive (∞,1)-topos|cohesive]].
 
+
+* [[locally connected site]] / [[locally ∞-connected site]]
+
+* **cohesive site** / [[(∞,1)-cohesive site]]
+
+
 [[!redirects cohesive sites]]
 [[!redirects site of cohesion]]
 [[!redirects sites of cohesion]]
