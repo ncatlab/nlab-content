@@ -104,6 +104,8 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[chromatic filtration]]
 
+  * [[chromatic localization]]
+
   * [[chromatic tower]]
 
   * [[monochromatic layer]]
