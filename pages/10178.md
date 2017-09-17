@@ -259,7 +259,7 @@ But even with $\mathcal{C}$ restricted to be of the form $E Mod^{\Box^n}$ or sim
 ### 2. Local prequantum field theory
  {#ExpositionLocalPrequantumFieldTheory}
 
-First we consider [[local prequantum field theory]]. See ([Nuiten 13, section 2](#Nuiten13)).
+First we consider [[local prequantum field theory]]. See ([Nuiten 13, section 2](#Nuiten13), [Fiorenza-Rogers-Schreiber 13a](#FiorenzaRogersSchreiber13a), [lpqft](#lpqft)). 
 
 $\,$
 
@@ -346,7 +346,7 @@ $$
 
 the "[[phase space]]" of "flat fields" on $\Sigma$.
 
-Now a [[local Lagrangian]]/[[local action functional]] in $\mathbf{Fields}$ is a map
+Now a [[local action functional]] on the given $\mathbf{Fields}$ is a map
 
 $$
   \array{
@@ -358,6 +358,12 @@ $$
   }
   \,.
 $$
+
+Notice that in this localized [[higher prequantum geometry]] formulation, the notion of localized action functional coincides with the notion of [[local Lagrangian]] and also coincides with this notion of [[higher prequantum bundle]] -- by _[[transgression]]_ to lower [[codimension]]
+
+* the [[transgression]] of $\exp(i S)$ to [[codimension]] 0 is the traditional [[action functional]] $[\Sigma_n, \mathbf{Fields}] \to U(1)$. 
+
+* the [[transgression]] of $\exp(i S)$ to [[codimension]] is the the traditional (off-shell) [[prequantum circle bundle]] $[\Sigma_{n-1}, \mathbf{Fields}] \to \mathbf{B}U(1)_{conn}$.
 
 Therefore the _category of local action functionals_ is  the [[slice (∞,1)-topos]]
 
@@ -509,19 +515,38 @@ $\,$
 So before actually quantizing a [[local prequantum field theory]] $\exp(i S) \,d\mu$ as above we need to choose linear [[coefficients]], given by 
 
 
-1. a choice of ground [[E-∞ ring]] $E$ (playing the role of the [[complex numbers]] in plain [[quantum mechanics]]);
+1. a choice of ground [[E-∞ ring]] $E$ 
+
+   (playing the role of the [[complex numbers]] in plain [[quantum mechanics]]);
 
 1. a choice of [[∞-group]] homomorphism
 
    $$
-     \mathbf{B}^{n-1}U(1) \to GL_1(E)
+     \rho \;\colon\; \mathbf{B}^{n-1}U(1) \longrightarrow GL_1(E)
    $$
 
-   from the [[∞-group]] of [[phase and phase space in physics|phases]] to the [[∞-group of units]] of $E$ (playing the role of the canonical $U(1) \hookrightarrow \mathbb{C}^\times$ in plain [[quantum mechanics]])
+
+   from the [[∞-group]] of [[phase and phase space in physics|phases]] to the [[∞-group of units]] of $E$, hence an [[∞-representation]] of the [[circle n-group]] on $E$ 
+
+   (playing the role of the canonical $U(1) \hookrightarrow \mathbb{C}^\times$ in plain [[quantum mechanics]]).
 
 
+Then for $X \longrightarrow \mathbf{B}^n U(1)$ modulating a [[circle n-bundle with connection|circle n-bundle]] on $X$, the composite
 
-Then given $\exp(i S)$, form the composite
+$$
+  X
+   \longrightarrow
+  \mathbf{B}^n U(1)
+    \stackrel{\rho}{\longrightarrow}
+  B GL_1(E)
+    \longrightarrow
+  E Mod
+$$
+
+modulates the [[associated ∞-bundle]], which is an $E$-[[(∞,1)-module bundle]].
+
+
+Specifically given the [[higher prequantum bundle]] $\exp(i S) \colon \mathbf{Fields} \to \mathbf{B}^n U(1)_{conn}$ as above, the composite
 
 $$
   \chi
@@ -529,17 +554,19 @@ $$
    \colon
    \;
   \mathbf{Fields}
-    \stackrel{\exp(i S)}{\to}
+    \stackrel{\exp(i S)}{\longrightarrow}
   \mathbf{B}^n U(1)
-    \stackrel{}{\to}
+    \stackrel{\rho}{\longrightarrow}
   \mathbf{B} GL_1(E)
-    \stackrel{}{\to}
+    \stackrel{}{\longrightarrow}
   Pic(E)
-    \to 
+    \longrightarrow
   E Mod
 $$
 
-exhibits an [[(∞,1)-module bundle]], which is in fact an $E$-line bundle. This is the [[associated ∞-bundle]] version of the [[higher prequantum bundle]].
+exhibits the associated linearized [[higher prequantum bundle]], the higher _[[prequantum line bundle]]_. 
+
+In the same fashion, an action functional on a space of [[trajectories]], hence a [[correspondences]] as above, induces an [[integral kernel]] for linear maps between sections of linearized prequantum bundles:
 
 $$
   \array{
@@ -548,7 +575,7 @@ $$
     & \swarrow && \searrow
     \\
     \mathbf{Fields}_{in}
-     && \swArrow_\xi &&
+     && \swArrow_{\rho(\xi)} &&
     \mathbf{Fields}_{out}
     \\
     & {}_{\mathllap{\chi_{in}}}\searrow
@@ -588,6 +615,10 @@ $$
     && E Mod
   }
 $$
+
+This is the [[integral kernel]] induced by the action functional, and acting on spaces of sections of the [[higher prequantum line bundle]].
+
+The [[linear map]] induced by these higher [[integral kernels]] is to be the _[[quantum propagator]]_. This we come to in the next section.
 
 
 
@@ -2487,7 +2518,7 @@ This is based on previous work such as
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
  {#FiorenzaRogersSchreiber13a}
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
+* [[Urs Schreiber]], _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
  {#lpqft}
 
 
