@@ -145,7 +145,7 @@ is the **base space** defined by this action.
 
 =--
 
-We may thinkl of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
+We may think of $P//G$ as the **[[action groupoid]]** of the $G$-action on $P$. For us it _defines_ this $G$-action.
 
 
 +-- {: .num_prop}
@@ -296,7 +296,7 @@ $$
 
 of which the one on the right is the defining one for $G$ and the remaining one on the left is just an [[(∞,1)-product]].  
 
-Proceeding by induction from this case we find analogousy that $P^{\times_X^{n+1}} \simeq P \times G^{\times_n}$: suppose this has been shown for $(n-1)$, then the defining pullback square for $P^{\times_X^{n+1}}$ is
+Proceeding by induction from this case we find analogously that $P^{\times_X^{n+1}} \simeq P \times G^{\times_n}$: suppose this has been shown for $(n-1)$, then the defining pullback square for $P^{\times_X^{n+1}}$ is
 
 $$
   \array{
