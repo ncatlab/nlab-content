@@ -18,3 +18,4 @@ the equation $g x = x$ implies $g=1_G$.
 * [[homogeneous space]]
 * [[transitive action]]
 * [[torsor]]
+* [[universal principal bundle]]
