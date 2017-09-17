@@ -23,7 +23,9 @@
 
 ## Idea
 
-The _AGT correspondence_ ([AGT](#AGT)) is a relation between the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] and [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ (from which the [[super Yang-Mills theory]] is obtained by [[Kaluza-Klein mechanism|compactifying]] the [[M5-brane]] [[6d (2,0)-supersymmetric QFT]] on it).
+The _AGT correspondence_ ([AGT](#AGT)) is a relation between the [[partition function]] of $SU(2)^{n+3g-3}$-[[N=2 D=4 super Yang-Mills theory]] and [[Liouville theory]] on an $n$-punctured [[Riemann surface]] $C_{g,n}$ of [[genus]] $g$ 
+
+(from which the [[super Yang-Mills theory]] is obtained by [[Kaluza-Klein mechanism|compactifying]] the [[M5-brane]] [[6d (2,0)-supersymmetric QFT]] on it, see at [[N=2 D=4 super Yang-Mills theory]], the section [Construction by compactification](N%3D2+D%3D4+super+Yang-Mills+theory#ConstructionByCompactificationOf5Branes)).
 
 ## Related concepts
 
