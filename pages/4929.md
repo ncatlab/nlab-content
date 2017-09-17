@@ -48,7 +48,7 @@ The notions of transition system and of morphisms between them is clearly relate
 
 ##Labeled transition systems.##
 
-In the above, we have used the notation $L$ to stand for the set of _events_ and the set of _labels_ for those events. It is sometimes useful to make a distinction between the events themselves and their labels and to explicitly give a labelling as a function.  This is important, for instance, in treating 'relabelling' which leads to [[fibration|fibrational situations]] (see the paper by Winskel and Nielsen, cited below.) In order to make the distinction clearer, we will replace $L$ by $E$ and refer to its elements as 'events' in what follows.
+In the above, we have used the notation $L$ to stand for the set of _events_ and the set of _labels_ for those events. It is sometimes useful to make a distinction between the events themselves and their labels and to explicitly give a labelling as a function.  This is important, for instance, in treating 'relabelling' which leads to [[fibration|categorical fibrational situations]] (see the paper by Winskel and Nielsen, cited below.) In order to make the distinction clearer, we will replace $L$ by $E$ and refer to its elements as 'events' in what follows.
 
 +--{: . un-definition}
 ##Definition##
