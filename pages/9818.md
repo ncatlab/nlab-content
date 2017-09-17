@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In ([Connes-Marcolli 04](#ConnesMarcolli04)) is considered a [[differential equation]] satisfied by divergences appearing in the [[Hopf algebra]] formulation of [[renormalization]] (see there).  This leads to a [[category]] of "equisingular flat connections" that turns out that to be a [[Tannakian category]], meaning that it is equivalent to the [[category of modules]] over some pro-algebraic group $G$. The authors observe that $G$ [[action|acts]] on any renormalizable [[theory (physics)|theory]] in a nice way. Due to this property [[Pierre Cartier]] refered to this as the _cosmic Galois group_ 
+
+This cosmic Galois group $G$ is (non-canonically) isomorphic to some [[motivic Galois group]].
+
+
+## References
+
+* [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
+
+* [[Alain Connes]], [[Matilde Marcolli]], _Renormalization and motivic Galois theory_ ([arXiv:math/0409306](http://arxiv.org/abs/math/0409306)) 
+ {#ConnesMarcolli04}
+
+* [[Jack Morava]], _The Cosmic Galois group as Koszul dual to Waldhausen's A(pt)_ ([arXiv:1108.4627](http://arxiv.org/abs/1108.4627))
+
+Some of the above is taken from this
+
+* [MO discussion](http://mathoverflow.net/questions/94954/connes-kreimer-hopf-algebra-and-cosmic-galois-group)
+
+[[!redirects cosmic Galois groups]]
