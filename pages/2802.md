@@ -26,7 +26,29 @@ An analog of [[enriched category]] in [[higher category theory]].
 In the context of [[(∞,1)-category theory]] see at
 _[[enriched (∞,1)-category]]_.
 
-In the context of [[(∞,1)-operad]] theory see ([Lurie, def. 4.2.1.12](#Lurie)).
+In the context of [[(∞,1)-operad]] theory see ([Lurie, def. 4.2.1.12](#Lurie)):
+
+Write $\mathcal{LM}^\otimes$ the [[operad for modules over an algebra]] regarded as an [[(∞,1)-operad]], regarded as the [[(∞,1)-category of operators]]. Similarly write $\mathcal{Ass}^\otimes$ for the [[(∞,1)-category of operators]] of the [[associative operad]].
+
+Then for $\mathcal{V}^\otimes \to \mathcal{Ass}^\otimes$ exhibiting a  [[planar (∞,1)-operad]], a **weak enrichment** of an [[(∞,1)-category]] $\mathcal{C}$ over $\mathcal{C}^\otimes$ is a fibration
+
+$$
+  q \colon \mathcal{O}^\otimes \to \mathcal{LM}^{\otimes}
+$$
+
+which exhibits $\mathcal{C}$ as a module over $\mathcal{V}^\otimes$ in that it is   equipped with [[equivalence in an (∞,1)-category|equivalences]]
+
+$$
+  \mathcal{V}^\otimes \simeq \mathcal{O}^\otimes_{\mathfrak{a}}
+$$
+
+and
+
+$$
+  \mathcal{C} \simeq \mathcal{O}^\otimes_{\mathfrak{m}}
+  \,.
+$$
+ 
 
 ## Related concepts
 
