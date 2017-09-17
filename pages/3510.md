@@ -152,10 +152,18 @@ See also ([Joyal-Tierney, theorem 4.1](#JoyalTierney)).
 ### For complete Segal space objects
  {#ForCompleteSegalSpaceObjects}
 
+We may generalize from complete Segal spaces to complete Segal space objects in an ambient context other tham [[∞Grpd]] $\simeq (sSet_{Quillen})^\circ$: 
+
+Let $C$ be a [[simplicial combinatorial model category]]. Write $C^\circ$ for the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by it. Write $[\Delta^{op}, C]$ for the [[functor category]]/category of [[simplicial objects]] in $C$. 
+
 +-- {: .num_prop}
 ###### Proposition
 
-(...)
+There is the structure of a  [[simplicial model category]] on $[\Delta^{op}, C]$ such that
+
+1. is is a [[Bousfield localization of model categories|left Bousfield localization]] of the injective [[model structure on functors]] $[\Delta^{op}, C]_{inj}$;
+
+1. such that the [[fibrant objects]] $X \colon \Delta^{op} \to C$ are precisely the injectively fibrant objects such that furthermore there image under $[\Delta^{op}, C] \to ([\Delta^{op},C])^\circ$ is an [[internal (∞,1)-category]] in $C^\circ$.
 
 =--
 
