@@ -80,6 +80,8 @@ See [[pure state]].
   * [[classical state]], 
 
   * [[quantum state]]
+
+    * [[wave function]]
    
     * [[superposition]]
 
