@@ -231,17 +231,19 @@ $L_\infty$-algebras are precisely the  [[algebras over an operad]] of the cofibr
 
 ### Concrete examples
 
-* [[string Lie 2-algebra]]
-
-* [[supergravity Lie 3-algebra]]
-
-* [[fivebrane Lie 6-algebra]]
-
 * [[automorphism Lie 2-algebra]]
 
 * [[inner derivation Lie 2-algebra]]
 
 * For every $\infty$-Lie algebra $\mathfrak{g}$ there is its [[automorphism ∞-Lie algebra]]. In terms of [[rational homotopy theory]] this models the rational automorphism group of the [[rational space]] corresponding to $\mathfrak{g}$.
+
+* [[string Lie 2-algebra]]
+
+* [[fivebrane Lie 6-algebra]]
+
+* [[supergravity Lie 3-algebra]]
+
+* [[supergravity Lie 6-algebra]]
 
 ## Relation to $\infty$-Lie groupoids
 
