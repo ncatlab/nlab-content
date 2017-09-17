@@ -46,6 +46,9 @@ $$
   \,.
 $$
 
+### Genus
+
+The [[A-hat genus]] for the $Spin^c$-operator is the [[Todd genus]] (e.g. [Kitada 75](#Kitada75)).
 
 ## Applications
 
@@ -64,6 +67,10 @@ $$
 * [[Dolbeault-Dirac operator]]
 
 ## References
+
+Original articles include
+
+* {#Kitada75} Yasuhiko Kitada, _Semi-free circle actions on $Spin^c$-manifolds_, Publ. RIMS, Kyoto Univ. 10(1975), 601-617 ([[Kitada75.pdf:file]])
 
 A quick statement of the definition is in 
 
