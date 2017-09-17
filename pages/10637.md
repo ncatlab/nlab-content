@@ -140,6 +140,8 @@ $$
 
 * [[elliptic genus]]
 
+* [[Moonshine]], [[Monster vertex algebra]]
+
 ## References
 
 * Wikipedia _[j-invariant](http://en.wikipedia.org/wiki/J-invariant)_
