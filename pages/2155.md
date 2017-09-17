@@ -120,89 +120,7 @@ In dimension 4 the analog statement fails due to the existence of [[exotic smoot
 
 ## The category of Cartesian spaces
 
-Note that a Cartesian space has maximal structure; it comes equipped with a system of coordinates.  Usually we are interested only in some of this structure; what is useful is that the category [[CartSp]] of cartesian spaces and (appropriately) structure-preserving maps is a [[small category]] equivalent to the (usually large) category of *all* finite-dimensional spaces with the structure in question.  This holds at least in the following examples:
-
-*  [[vector space]]s,
-*  [[affine space]]s,
-*  [[normed vector space]]s,
-*  [[inner product space]]s,
-*  [[Euclidean space]]s.
-
-$Cart Sp$ can also be understood, for appropriate morphisms, as a category of models for at least the following examples:
-
-*  topological [[manifold]]s,
-*  [[smooth space]]s,
-*  [[Riemannian manifold]]s.
-
-### As a site
-
-+-- {: .un_defn}
-###### Definition
-
-Write
-
-* $CartSp_{top}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[continuous maps]] between these.
-
-* $CartSp_{smooth}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[smooth functions]] between these.
-
-* $CartSp_{synthdiff}$ for the [[full subcategory]] of the category of [[smooth loci]] on those of the form $\mathbb{R}^n \times D$ for $D$ an [[infinitesimal space]] (the formal dual of a Weil algebra).
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-In all three cases there is the [[good open cover]] [[coverage]] that makes $CartSp$ a [[site]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For $CartSp_{top}$ this is obvious. For $CartSp_{smooth}$ this is somewhat more subtle. It is a folk theorem (see the references at [[open ball]]). A detailed proof is at [[good open cover]]. This directly carries over to $CartSp_{synthdiff}$.
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-Equipped with this structure of a site, $CartSp$ is an 
-[[∞-cohesive site]].
-
-=--
-
-The corresponding [[cohesive topos]] [[sheaf topos|of sheaves]] is
-
-* $Sh_{(1,1)}(CartSp_{smooth})$, discussed at [[diffeological space]].
-
-* $Sh_{(1,1)}(CartSp_{synthdiff})$, discussed at [[Cahiers topos]].
-
-The corresponding [[cohesive (∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]] is
-
-* $Sh_{(\infty,1)}(CartSp_{top}) =$ [[ETop∞Grpd]];
-
-* $Sh_{(\infty,1)}(CartSp_{smooth}) =$ [[Smooth∞Grpd]];
-
-* $Sh_{(\infty,1)}(CartSp_{synthdiff}) =$ [[SynthDiff∞Grpd]];
-
-
-### As a category with open maps
-
-There is a canonical structure of a category with [[open map]]s on $CartSp$ (...)
-
-
-### As an algebraic theory
-
-The category $CartSp$ is (the [[syntactic category]] of ) a [[Lawvere theory]]: the theory for [[smooth algebra]]s.
-
-
-### As a pre-geometry
-
-Equipped with the above [[coverage]]-structure,  [[open map]]-structure and [[Lawvere theory]]-property, $CartSp$ is essentially a [[pregeometry (for structured (∞,1)-toposes)]].
-
-(Except that the pullback stability of the open maps holds only in the weaker sense of [[coverage]]s).
-
-(...)
+See [[CartSp]].
 
 
 
@@ -218,6 +136,29 @@ Equipped with the above [[coverage]]-structure,  [[open map]]-structure and [[La
 Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672))
 {#Ozols}
+
+
+There are various slight variations of the category $CartSp$ that one can consider without changing its basic properties as a category of test spaces for [[generalized smooth space]]s. A different choice that enjoys some popularity in the literature is the category of open (contractible) subsets of Euclidean spaces. For more references on this see [[diffeological space]].
+
+The [[site]] $ThCartSp$ of infinitesimally thickened Cartesian spaces is known as the site for the [[Cahiers topos]]. It is considered 
+
+in detal in section 5 of
+
+* [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0))
+
+and briefly mentioned in example 2) on p. 191 of
+
+* [[Anders Kock]], _Synthetic differential geometry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+
+following the original article
+
+* [[Eduardo Dubuc]], _Sur les modeles de la geometrie differentielle synthetique_ ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
+
+With an eye towards [[Frölicher space]]s the site is also considered in section 5 of 
+
+* Hirokazu Nishimura, _Beyond the Regnant Philosophy of Manifolds_ ([arXiv:0912.0827](http://arxiv.org/abs/0912.0827))
+
+
 
 [[!redirects Cartesian space]]
 [[!redirects cartesian spaces]]
