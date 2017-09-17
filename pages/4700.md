@@ -49,5 +49,8 @@ Cf. also [[Rozansky-Witten theory]].
 
 * K. Igusa, _Graph cohomology and Kontsevich cycles_, Topology __43__ (2004), n. 6, p. 1469-1510, [MR2005d:57028](http://www.ams.org/mathscinet-getitem?mr=2005d:57028), [doi](http://dx.doi.org/10.1016/j.top.2004.03.004)
 
+* Thomas Willwacher, _M. Kontsevich's graph complex and the Grothendieck-Teichmueller Lie algebra_, [arxiv/1009.1654](http://arxiv.org/abs/1009.1654)
+
 [[!redirects graph cohomology]]
 [[!redirects Feynman transform]]
+[[!redirects graph complex]]
