@@ -122,7 +122,7 @@ Other examples are [[simplicial ring]]s (as monoids in [[simplicial abelian grou
 
 If $K$ is a commutative ring (or especially a [[field]]), then an [[associative algebra]] over $K$ is a monoid object in $K$-[[Mod]]; this is a special case of the previous section.
 
-If $A$ is a noncommutative ring, then a __ring over $A$__, or simply an __$A$-ring__, is a monoid object $R$ in $A$-[[Bimod]] (that is, in $_K Mod _K$).  Every $A$-ring is a ring in the usual sense, in the sense that there is an obvious [[forgetful functor]] to the usual rings. In fact the unit map $A \to R$ is a morphism of rings, and the category of $A$-rings is precisely the [[coslice category]] or under-category $A/Ring$. Thus by category-theoretic rules, one might be led to unconventionally call $A$-rings "rings *under* $A$". Unfortunately, standard name for $A$-rings is "rings *over* $A$", like conventionally calling $k$-algebras the "algebras *over* $K$". 
+If $A$ is a noncommutative ring, then a __ring over $A$__, or simply an __$A$-ring__, is a monoid object $R$ in $A$-[[Bimod]] (that is, in $_A Mod _A$).  Every $A$-ring is a ring in the usual sense, in the sense that there is an obvious [[forgetful functor]] to the usual rings. In fact the unit map $A \to R$ is a morphism of rings, and the category of $A$-rings is precisely the [[coslice category]] or under-category $A/Ring$. Thus by category-theoretic rules, one might be led to unconventionally call $A$-rings "rings *under* $A$". Unfortunately, standard name for $A$-rings is "rings *over* $A$", like conventionally calling $k$-algebras the "algebras *over* $K$". 
 
 Unlike for the $k$-algebras, the multiplication $R\times R\to R$ which is the morphism of $A$-[[bimodules]], is not (left) $A$-linear in the *second* factor, but only $A^{op}$-linear (that is, $A$-linear on the right). In other words, the axiom for $K$-algebras $k (r s) = r (k s)$ is not true, for $k\in A$, $r,s\in R$, although $k (r s) = (k r) s$ and $(r s) k = r (s k)$ do hold.  
 
@@ -130,7 +130,7 @@ Both for a discussion for under-over and also for this difference between $K$-al
 
 A dual notion to an $A$-ring is an $A$-[[coring]]. 
 
-The structure of an $A\otimes A^{op}$-ring $(R,\mu_R,\eta)$ is determined by
+The structure of an $A\otimes A^{op}$-ring $(R,\mu,\eta)$ is determined by
 the structure of $A$ as a ring, together with the two natural homomorphisms
 of rings
 $s = \eta(-\otimes 1_A):A\to R$ and $t=\eta(1_A\otimes -):A^{op}\to R$ which have commuting images ($s(a)t(a')=t(a')s(a)$, for all $a,a'\in A$). 
