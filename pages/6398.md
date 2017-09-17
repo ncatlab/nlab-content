@@ -50,6 +50,12 @@ There are several different incarnations of the superstring.
    
     * [[super Riemann surface]]
 
+    * [[2d SCFT]], [[2-spectral triple]]
+
+      * [[Gepner model]], [[flop transition]]
+
+    * [[Freed-Witten anomaly cancellation]]
+
     * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
 
