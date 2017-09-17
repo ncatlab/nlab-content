@@ -41,7 +41,7 @@ See also [[pseudo-Riemannian manifold]]
 
 * The analog in [[complex geometry]] is the notion of [[Kähler manifold]].
 
-* [[vielbein field]], [[Riemannian metric]], [[affice connection]], 
+* [[vielbein field]], [[Riemannian metric]], [[affine connection]], 
 
 * [[Ricci tensor]], [[scalar curvature]]
 
