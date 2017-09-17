@@ -13,4 +13,5 @@ His collected works have appeared now also in English:
 
 * Albert Lautman, _Mathematics, ideas and the physical real_, collected works, 2011
 
-category: philosophy
+category: people, philosophy
+[[!redirects A. Lautman]]
