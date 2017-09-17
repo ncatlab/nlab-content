@@ -15,7 +15,7 @@
 
 ## Definition
 
-Let $T$ be a [[lax-idempotent 2-monad]] or pseudo 2-monad, and $A$ a pseudo $T$-algebra witnessed by a [[left adjoint]] $a : T A \to A$ to the unit $\eta_A : A \to T A$.  We say that $A$ is a **continuous $T$-algebra** if $a : T A \to A$ has a further left adjoint, forming an [[adjoint triple]].
+Let $T$ be a [[lax-idempotent 2-monad]] or pseudo 2-monad on a 2-category $K$, and $A$ a pseudo $T$-algebra witnessed by a [[left adjoint]] $a : T A \to A$ to the unit $\eta_A : A \to T A$.  We say that $A$ is a **continuous $T$-algebra** if $a : T A \to A$ has a further left adjoint, forming an [[adjoint triple]].
 
 Note that every free $T$-algebra $T B$ is continuous: it is a property of lax-idempotent 2-monads that the multiplication $\mu_B:T T B \to T B$ has left adjoint $T\eta_B$.
 
@@ -58,10 +58,14 @@ This is B1.1.15 in the [[Elephant]].  If the algebra structure $a : T A \to A$ h
 
 +--{: .num_theorem #Comonadicity}
 ###### Theorem
-(?) Let $G$ be the pseudo [[2-comonad]] on the 2-category $T Alg$ of $T$-algebras induced by the free-forgetful adjunction.  Then $G$ is lax-idempotent, and a $T$-algebra $A$ is continuous if and only if it is a $G$-coalgebra.
+Let $G$ be the pseudo [[2-comonad]] on the 2-category $T Alg$ of $T$-algebras induced by the free-forgetful adjunction.  Then $G$ is lax-idempotent, and a $T$-algebra $A$ is continuous if and only if it is a $G$-coalgebra.
+=--
++--{: .proof}
+###### Proof
+Lax-idempotence of $G$ follows from the fact that the adjunction $K \rightleftarrows T Alg$ is a [[lax-idempotent 2-adjunction]].  Therefore, the $G$-coalgebras are those $T$-algebras for which the counit $G A \to A$ has a left adjoint in $T Alg$.  However, this counit is just the structure map $T A \to A$ of $A$, and since $T$ is lax-idempotent, any left adjoint between $T$-algebras is automatically a (pseudo) $T$-morphism.
 =--
 
-This is proven in ([Kock](#Kock)) in the special case when the base 2-category is a [[(1,2)-category]] (the result is due to [[Bart Jacobs]]).  It seems  probably true in general, but perhaps no one has checked the details.
+This theorem is proven in ([Kock](#Kock)) in the special case when the base 2-category is a [[(1,2)-category]] (the result is due to [[Bart Jacobs]]).
 
 
 ## Related pages
