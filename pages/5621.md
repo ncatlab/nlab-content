@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[2-functor]] $F : C \to D$ exhibits the [[2-category]] $C$ as a **full sub-2-catgeory** of $D$ if for all [[object]]s $c_1,c_2 \in C$ the component [[functor]] $F_{c_1, c_2}$ is an [[equivalence of categories]]
+
+$$
+  F_{c_1, c_2} : C(c_1,c_2) \stackrel{\simeq}{\to} D(F(c_1), F(c_2))
+  \,,
+$$
+
+hence if $F$ is a **full and faithful 2-functor**.
+
+## Properties
+
+If $C$ and $D$ are ordinaray [[categories]] regarded as 2-categories, a full sub 2-category $F : C \hookrightarrow D$ is equivalently a [[full subcategory]] of $D$.
+
+If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full sub-(∞,1)-category]].
+
+## Related concepts
+
+* [[full subcategory]]
+
+* **full sub-2-category**
+
+* [[full sub-(∞,1)-category]]
+
+
+[[!redirects full sub-2-categories]]
+
+[[!redirects full and faithful 2-functor]]
+[[!redirects full and faithful 2-functors]]
+
+[[!redirects sub-2-category]]
