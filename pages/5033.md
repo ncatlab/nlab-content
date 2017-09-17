@@ -111,7 +111,7 @@ section 6.3 in
 [[!redirects (infinity,1)Toposes]]
 
 
-category: categories
+category: category
 
 [[!redirects (infinity,1)Topos]]
 [[!redirects (infinity,1)Topoi]]
