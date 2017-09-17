@@ -6,11 +6,11 @@ Interloper/dilettante. "Functional analyst", who sometimes wonders if the term m
 Some things I am considering trying to write about, or contribute to. (This is mainly meant as a list to remind or nag me to write things down.)
 * [projective, injective and flat Banach spaces][projective Banach space] (both in the metric and topological categories of [[Banach space]]s)
 * RKHS
-* the bidualization monad on [[Banach space]]s [http://www.dsl-festnetz-anbieter-vergleich.de/](http://dsl-festnetz-anbieter-vergleich.de/Saarland)
+* the bidualization monad on [[Banach space]]s
 * Kaijser and Wick-Pelletier's work on interpolation
 * Arens-Eells spaces, a.k.a. the adjunction between Banach spaces and metric spaces.
 * Richard Arens's paper using "phyla", or: where Banach algebras and [[symmetric monoidal categories]] should have met
-* Categori(c)al basics of operator spaces
+* Categori(c)al basics of operator spaces: MAX, MIN, and various tensor products
 * functorial aspects of the group von Neumann algebra construction
 * cabbages
 * kings
