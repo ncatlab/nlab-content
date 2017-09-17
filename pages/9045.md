@@ -52,7 +52,7 @@ $$
   H^{p,q}(X)\to H^{p+q}(X,\mathbb{C})
 $$
 
-into to [[ordinary cohomology]] of $X$ with complex [[coefficients]].
+to [[ordinary cohomology]] of $X$ with complex [[coefficients]].
 
 +-- {: .num_defn #TraditionalHodgeFiltration}
 ###### Definition
@@ -70,7 +70,54 @@ $$
 
 =--
 
++-- {: .num_example}
+###### Example
 
+The full Hodge filtration of degree-2 cohomology is
+
+$$
+  \begin{aligned}
+    F^0 H^2(X,\mathbb{C})
+    & =
+    H^{0,2}(X) \oplus H^{1,1}(X) \oplus H^{2,0}(X)
+    \\
+    F^1 H^2(X,\mathbb{C})
+    & =
+    \;\;\;\;\;\;\;
+    H^{1,1}(X)
+    \oplus
+    H^{2,0}(X)
+    \\
+    F^2 H^2(X,\mathbb{C})
+    & = 
+    \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+    H^{2,0}(X)
+ \end{aligned}
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For all $p$ the mid-dimensional Hodge filtration stage in even total degree is
+
+$$
+  F^p H^{2p}
+  = 
+  H^{p,p}(X)
+  \oplus
+  H^{p+1,p-1}(X)
+  \oplus 
+  \cdots
+  \oplus
+  H^{2p,0}(X)
+  \,.
+$$
+
+
+
+=--
 
 ### For a complex analytic space
  {#ForAComplexAnalyticSpace}
