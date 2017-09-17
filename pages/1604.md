@@ -1,11 +1,11 @@
+
 # Pretopological spaces
 * tic
 {: toc}
 
-
 ## Idea
 
-A _pretopological space_ is a slight generalisation of a [[topological space]] where the concept of _neighbourhood_ is taken as primary.
+A _pretopological space_ is a slight generalisation of a [[topological space]] where the concept of _[[neighbourhood]]_ is taken as primary.  The [[extra structure]] on the [[underlying set]] of a pretopological space is called its _pretopology_, but this should not be confused with a [[Grothendieck pretopology]] (which is not even analogous).
 
 
 ## Definitions
@@ -17,13 +17,13 @@ A __pretopology__ (or __pretopological structure__) on $S$ is such a relation $\
 
 1.  Centred:  If $U$ is a neighbourhood of $x$, then $x$ belongs to $U$:
     $$ x \stackrel{\circ}\in U \;\Rightarrow\; x \in U .$$
-1.  Nontrivial:  Every point $x$ has a neighbourhood.  In light of (4), the entire space is a neighbourhood of $x$:
+2.  Nontrivial:  Every point $x$ has a neighbourhood.  In light of (4), the entire space is a neighbourhood of $x$:
     $$ x \stackrel{\circ}\in S .$$
     (Some references leave this out, but that seems to be an error.)
-1.  Directed:  If $U$ and $V$ are neighbourhoods of $x$, then so is some set contained in their [[intersection]].  In the light of (4), it follows that their intersection is itself a neighbourhood:
+3.  Directed:  If $U$ and $V$ are neighbourhoods of $x$, then so is some set contained in their [[intersection]].  In the light of (4), it follows that their intersection is itself a neighbourhood:
     $$ x \stackrel{\circ}\in U \;\Rightarrow\; x \stackrel{\circ}\in V \;\Rightarrow\; x \stackrel{\circ}\in U \cap V .$$
     (Strictly speaking, the relation should not be called [[direction|directed]] unless it is also nontrivial.)
-1.  Isotone:  If $U$ is a neighbourhood of $x$ and $U$ is contained in $V$, then $V$ is a neighbourhood of $x$:
+4.  Isotone:  If $U$ is a neighbourhood of $x$ and $U$ is contained in $V$, then $V$ is a neighbourhood of $x$:
     $$ x \stackrel{\circ}\in U \;\Rightarrow\; U \subseteq V \;\Rightarrow\; x \stackrel{\circ}\in V .$$
 
 In other words, the collection of neighbourhoods of $x$ must be a [[filter]] that is refined by the free [[ultrafilter]] at $x$.  This filter is called the __neighbourhood filter__ of $x$.
@@ -46,6 +46,7 @@ In this way, pretopological spaces and continuous maps form a [[category]] $Pre 
 ## Convergence structure
 
 If $F$ is a [[filter]] on a pretopological space $S$, then $F$ __converges__ to a point $x$ (written $F \to x$) if $F$ refines (contains) the neighbourhood filter of $x$.
+
 
 This relation satisfies the following properties:
 
@@ -71,6 +72,7 @@ Every pretopological convergence satisfies the star property, so that $Pre Top$ 
 ## Examples
 
 Every [[topological space]] is a pretopological space, using the usual definition of (not necessarily open) neighbourhood: $x \stackrel{\circ}\in U$ if there exists some open set $G$ such that $x \in G$ and $G \subseteq U$.  Also, a map between topological spaces is continuous if and only if it\'s continuous as a map between pretopological spaces.  In this way, the category [[Top]] of topological spaces becomes a full subcategory of $Pre Top$.
+
 
 In fact, we can easily characterise the topological pretopologies, allowing us to define a topological space as a pretopological space satisfying this axiom:
 
@@ -118,3 +120,7 @@ Let $A=[1,\Omega)$.  Then $\stackrel{\circ}A = [2,\Omega)$, $(\stackrel{\circ}A)
 Note that an interior is open, and a closure is closed.  Indeed, the open sets in $S$ form a topological structure on $S$, giving the usual meanings of interior, closure, and closed set.  This topological structure does *not* (in general) give the original pretopology on $S$; instead, this makes $Top$ a [[reflective subcategory]] of $Pre Top$.
 
 In the definition of pretopology, the neighbourhoods of each point may be given completely independently of any other point.  So the notion of topological space may also be seen as requiring some coherence between the neighbourhoods of nearby points.
+
+
+[[!redirects pretopological space]]
+[[!redirects pretopological spaces]]
