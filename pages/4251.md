@@ -51,7 +51,7 @@ $$
   (\Pi_n \dashv LConst \dashv \Gamma)
   :
   \mathbf{H}
-  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  \stackrel{\overset{\Pi_n}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
   n Grpd
   \,.
 $$
@@ -62,7 +62,7 @@ $$
   (\Pi \dashv LConst \dashv \Gamma)
   :
   \mathbf{H}
-  \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
+  \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{LConst}{\leftarrow}}{\overset{\Gamma}{\to}}}
   \infty Grpd
 $$
 
@@ -503,7 +503,7 @@ Then prop 1.2.5, 1.2.6, culminating in
 [theorem 1.2.9, p. 121](http://www.intlpress.com/HHA/v7/n1/a7/v7n1a7.pdf#page=13) gives (somewhat implicitly) the other adjunction
 
 $$
-  (\Pi_1\dashv LConst) : Op(X) \hookrightarrow Sh_{(2,1)}(X) \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Pi_1}{\to}} Grpd
+  (\Pi_1\dashv LConst) : Op(X) \hookrightarrow Sh_{(2,1)}(X) \stackrel{\overset{\Pi_1}{\to}}{\underset{LConst}{\leftarrow}} Grpd
 $$
 
 with the [[right adjoint]] to $LConst$ being the [[fundamental groupoid]] functor on representables. (Where we change a bit the perspective on the results as presented there, to amplify the pattern indicated above. For instance where the authors write $\Gamma(X,C_X)$ we think of this here equivalently as $Sh_{(2,1)}(X)(X,LConst(C))$, so that the theorem then gives the adjunction equivalence $\cdots \simeq Grpd(\Pi_1(X),C)$).
@@ -511,7 +511,7 @@ with the [[right adjoint]] to $LConst$ being the [[fundamental groupoid]] functo
 Then in essentially verbatim analogy, these results are lifted from stacks to 2-stacks in section 2, where now prop 2.2.2, 2.2.3, culminating in [theorem 2.2.5, p. 132](http://www.intlpress.com/HHA/v7/n1/a7/v7n1a7.pdf#page=24) gives (somewhat implicitly) the adjunction
 
 $$
-  (\Pi_2\dashv LConst) : Op(X) \hookrightarrow Sh_{(3,1)}(X) \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Pi_3}{\to}} Grpd
+  (\Pi_2\dashv LConst) : Op(X) \hookrightarrow Sh_{(3,1)}(X) \stackrel{\overset{\Pi_2}{\to}}{\underset{LConst}{\leftarrow}} Grpd
 $$
 
 now with the [[path n-groupoid|path 2-groupoid]] operation (locally) left adjoint to forming constant 2-stacks.
@@ -614,7 +614,7 @@ $$
 For $K = Core(\infty Grpd)$ this is the $\pi_0$-[[decategorification]] of the above statement.
 
 
-### Geometric $\Pi_\infty$ of the terminal object in a locally connected $(\infty,1)$-topos {#GeomPiOfTermObj}
+### Geometric $\Pi_\infty$ of the terminal object in a locally $\infty$-connected $(\infty,1)$-topos {#GeomPiOfTermObj}
 
 The geometric $\Pi_\infty$ of the terminal object in a locally ∞-connected (∞,1)-topos can be called the [[fundamental ∞-groupoid of an (∞,1)-topos|fundamental ∞-groupoid]] of the topos.  It [[representable functor|represents]] the [[shape of an (∞,1)-topos|shape]] of the topos.
 
