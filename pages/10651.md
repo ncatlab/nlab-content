@@ -138,8 +138,7 @@ See at _[[Becker-Gottlieb transfer]]_.
 
 The Bott regulator is due to 
 
-* [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole
-Norm. Sup. (4) 7 (1974), 235{272 (1975). MR 0387496 
+* [[Armand Borel]], _Stable real cohomology of arithmetic groups_, Ann. Sci. Ecole Norm. Sup. (4) 7 (1974), 235-272 (1975). MR 0387496 
   {#Borel74}
 
 The relation to [[Chern characters]] is made very explicit in
@@ -166,6 +165,10 @@ higher real analytic torsion_, J. Amer. Math. Soc. 8 (1995), no. 2, 291-363.
 
 See also
 
+* {#Weibel84} [[Charles Weibel]], _Algebraic K-theory and the Adams e-invariant_, in _Algebraic K-theory, number theory, geometry and analysis _(Bielefeld, 1982), volume 1046 of Lecture Notes in Math., pages 442-450. Springer, Berlin, 1984. 61 [pdf](http://www.math.illinois.edu/K-theory/handbook/1-139-190.pdf)
+
+* {#Suslin84} A.A. Suslin, _On the K-theory of local fields_, In Proceedings of the Luminy conference on algebraic K-theory (Luminy, 1983), volume 34, pages 301-318, 1984.
+
 * Wikipedia, _[Beilinson regulator](http://en.wikipedia.org/wiki/Beilinson_regulator)_
 
 [[!redirects Beilinson regulators]]
@@ -178,3 +181,6 @@ See also
 
 [[!redirects Dirichlet regulator]]
 [[!redirects Dirichlet regulators]]
+
+[[!redirects regulator]]
+[[!redirects regulators]]
