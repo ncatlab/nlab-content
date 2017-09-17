@@ -1,3 +1,4 @@
+[[!redirects cofinal diagram]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
