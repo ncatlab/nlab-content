@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -140,6 +139,10 @@ Let $\mathbf{H}$ be an [[(∞,1)-topos]]. For all $(-2) \leq n \leq \infty$ the 
 See also [[n-connected/n-truncated factorization system]].
 
 This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)).
+
+### Blakers-Massey theorem
+
+* [[Blakers-Massey theorem]]
 
 ### The truncated / connected clock
  {#Clock}
