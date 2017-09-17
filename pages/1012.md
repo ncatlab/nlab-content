@@ -42,6 +42,8 @@ These can be a little more complicated; see [[quasigroup]] for some discussion o
 
 * [[weak inverse]]
 
+* [[inversion involution]]
+
 
 [[!redirects inverse]]
 [[!redirects inverses]]
