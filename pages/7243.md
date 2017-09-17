@@ -113,6 +113,8 @@ is the [[Isbell duality|formal dual]] of the canonical [[projection]] maps $\mat
 
 * [[p-completion]]
 
+* [[local-global principle]]
+
 * [[p-adic homotopy]]
 
 * [[ℓ-adic cohomology]]
