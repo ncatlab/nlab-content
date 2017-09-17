@@ -164,3 +164,6 @@ Discussion of the refinement to [[structured (∞,1)-topos]]es is in section 2.3
 [[!redirects etale geometric morphisms]]
 [[!redirects étale geometric morphism]]
 [[!redirects étale geometric morphisms]]
+
+
+[[!redirects locally homeomorphic geometric morphism]]
