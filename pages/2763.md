@@ -1,6 +1,21 @@
 
-#derived elliptic curve#
-* automatic table of contents goes here
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+# Derived elliptic curve#
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -17,3 +32,5 @@ Let $A$ be an [[E-∞ ring]]. A **derived elliptic curve** over $A$ is [[derived
 This is definition 4.1 in 
 
 * [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
+
+[[!redirects derived elliptic curves]]
