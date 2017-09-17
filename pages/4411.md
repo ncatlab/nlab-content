@@ -13,18 +13,40 @@ A valuation ring $O$ is a [[local ring]].
 
 +-- {: .proof} 
 ######Proof 
-Suppose $x$, $y$ are nonzero non-unit elements of $R$. Either $x/y$ or $y/x$ belongs to $O$, say $x/y$. Then $(x+y)/y$ belongs to $O$ as well. If $x+y$ were a unit of $O$, it would follow that $1/y$ belongs to $O$, i.e., both $y$ and $1/y$ belong to $O$, so that $y$ is a unit of $O$, contradiction. It follows that non-unit elements of $O$ are closed under addition. It is also clear that if $x$ is a non-unit element of $O$ and $y$ is any element of $O$, then $x y$ is a non-unit element of $O$. Therefore the non-units form an ideal of $O$, clearly the unique maximal ideal of $O$. 
+Suppose $x$, $y$ are nonzero non-invertible elements of $O$. Either $x/y$ or $y/x$ belongs to $O$, say $x/y$. Then $(x+y)/y$ belongs to $O$ as well. If $x+y$ were a unit of $O$, it would follow that $1/y$ belongs to $O$, i.e., both $y$ and $1/y$ belong to $O$, so that $y$ is a unit of $O$, contradiction. It follows that non-unit elements of $O$ are closed under addition. It is also clear that if $x$ is a non-unit element of $O$ and $y$ is any element of $O$, then $x y$ is a non-unit element of $O$. Therefore the non-units form an ideal of $O$, clearly the unique maximal ideal of $O$. 
 =--
+
+### Germs of definable functions
+
+Local rings often arise as stalks of sheaves of real of complex-valued functions, and some of the more interesting examples of valuation rings arise by taking germs of functions at an "ideal" point, for example at an ultrafilter or infinite point where the functions are not formally defined. Examples such as these are often rich sources of rings and fields with _infinitesimal elements_. The following example should give the flavor of this phenomenon. 
+
+Consider the class of all functions $\mathbb{R} \to \mathbb{R}$ which can be defined by a first-order formula, starting with the basic operations 
+$+, -, \cdot, \exp$, any constant $a \in \mathbb{R}$, and the relations $\lt$ and $=$. This is an enormous class of functions: it includes the logarithm function and any function which can be built from polynomials, exponentials, and logarithms using the four basic arithmetic operations and composition, and also implicitly defined functions such as: 
+
+$$f(x) = max \{y: y^5 - (e^{e^x - (\log x)^2 + 1/x})y^2 + \log(1 + x^{\sqrt{2}}))y - 17 = 0\}$$ 
+
+and many, many more. Of interest are _rates of growth_ (cf. [[O notation]]) of these functions, or, at an even more refined level, the precise ordering of these functions $f(x) \leq g(x)$ when $x$ is large. A quite remarkable and deep fact is the following: 
+
++-- {: .un_thm} 
+######Theorem 
+Any such definable function $f(x)$ is either positive for all sufficiently large $x$, $0$ for all sufficiently large $x$, or negative for all sufficiently large $x$. 
+=-- 
+
+This theorem implies that the germs at infinity of such functions ($\sim$-equivalence classes of functions where $f \sim g$ if $f(x) = g(x)$ for all sufficiently large $x$) form a totally [[ordered field]], in fact a [[real closed field]]. The real numbers are embedded in this field as germs of constant functions, but lying between ordinary real numbers are other "numbers" infinitesimally close to reals, such as $2 - [1/x]$, $1 + [1/\log \log(x)]$, as well as infinite numbers such as $[e^x]$. 
+
+Sitting inside this field $Germ(\mathbb{R}_{exp})$ is the valuation ring of germs of bounded definable functions, in other words the ring of finite "numbers", which contains infinitesimals of incredibly rich variety.  
+
+Such examples are close in spirit to [[hyperreal number]]s, which form a considerably larger real closed field. In this case, the procedure is similar, except that one takes germs of _all_ functions $\mathbb{N} \to \mathbb{R}$ in the neighborhood of a non-principal ultrafilter on $\mathbb{N}$, which can be considered an ideal point at "infinity". This is called an [[ultrapower]] of the standard real numbers. Again the finite hyperreals form a valuation ring sitting inside. 
 
 ## The valuation function 
 
-The nonzero elements of $K$ may be partially ordered as follows: write $x \leq y$ if $x/y$ belongs to $R$. For any two nonzero elements $x$, $y$ of $K$, exactly one of the following conditions holds: 
+The nonzero elements of $K$ may be partially ordered as follows: write $x \leq y$ if $x/y$ belongs to $O$. For any two nonzero elements $x$, $y$ of K$, exactly one of the following conditions holds: 
 
-* $x/y$ is a non-unit of $R$; 
+* $x/y$ is a non-unit of $O$; 
 
-* $x/y$ is a unit of $R$: $x/y$ and $y/x$ belong to $R$; 
+* $x/y$ is a unit of $O$: $x/y$ and $y/x$ belong to $O$; 
 
-* $y/x$ is a non-unit of $R$. 
+* $y/x$ is a non-unit of $O$. 
 
 We call this the _trichotomy law_. Thus, if we write $O^*$ for the units of $R$, it follows from trichotomy that the partial order on $K^*$ descends to a [[total order]] on the quotient group $G = K^*/O^*$. This totally ordered group is called the **value group** of the valuation ring $O$. When the value group is isomorphic to $\mathbb{Z}$, the ring $O$ is called a **discrete valuation ring**. Many local rings which arise in practice, for example localizations of rings of [[algebraic integer]]s $O$ with respect to a prime ideal $\mathcal{p}$, or their completions as rings of $\mathcal{p}$-adic integers $O_{(\mathcal{p})}$, are discrete valuation rings. 
 
@@ -42,6 +64,16 @@ where $v(x)$ is the coset $x O^*$ if $x \in K^*$, and $v(0) = 0$. The codomain b
 
 1. $v$ is surjective. 
 
+### A value group of definable germs 
+
+Let us return to our earlier example of a valuation ring $O$, consisting of germs of bounded functions which are first-order definable in the theory of the reals as ordered field with exponentiation. Two "numbers" $[f]$, $[g]$ have the same coset, $[f]O^* = [g]O^*$, if both $[f/g]$ and $[g/f]$ are bounded. But this is precisely to say $f$ is $O(g)$ and $g$ is $O(f)$. 
+
+Thus, the elements of the value group in this case can be described as the various "rates of growth" of definable functions. The order relation is that $[f]O^* \leq [g]O^*$ if $f$ is $O(g)$. Thus the classical analysis notion of 'O notation' fits within the theory of valuation rings. 
+
+Rates of growth, as elements of the value group $K^*/O^*$, can also be regarded as "numbers" containing infinitesimal and infinite quantities. Thus, ordinary real numbers $a$ would correspond to rates of growth of power functions $x^a$, whereas the rate of growth $\log x$ is infinitesimal and the rate of growth of $e^x$ is infinite. The fact that rates of growth of definable functions are totally ordered is essentially due to G.H. Hardy, and in his honor, fields of germs of definable functions are frequently called "Hardy fields". 
+
+* Hardy actually studied the class of functions definable from polynomials, exponential, and logarithmic functions using the four arithmetic operations and composition. This of course is a small subclass of the definable functions considered above, but contains all functions likely to be of interest in analytic number theory (for example). 
+
 ## Valuation rings from valuation functions 
 
 Quite generally, we may define a **valuation** on a field $K$ to be a function 
@@ -50,7 +82,7 @@ $$v: K \to G \cup \{0\}$$
 
 (where $G$ is a totally ordered group, extended to a totally ordered monoid $G \cup \{0\}$ as above), satisfying conditions 1 - 4 listed above. Two valuations $v$, $v'$ are **equivalent** if there is an isomorphism 
 
-$$\phi: G \cup \{0\} \to G' \cup \{0\}$$ 
+$$\phi: G \cup \{0\} \to G' \cup \{0}$$ 
 
 of totally ordered monoids such that $v' = \phi \circ v$. In fact, valuations $v$ may be [[preorder|preordered]]: if we regard $v$ as a special sort of group homomorphism $v: K^* \to G$, then define $v \leq v'$ if there is a surjective homomorphism of ordered groups $\phi: G \to G'$ such that $v' = \phi \circ v$. 
 
@@ -95,4 +127,4 @@ Much more could be added here...
 
 There is a very general construction which takes as input an arbitrary field $k$ and a totally ordered group $G$, and produces as output a valuation ring whose units are identified with nonzero elements of $k$ and whose value group $K^*/k^*$ is naturally identified with $G$. This is the ring of Hahn series. 
 
-More to be added. 
+
