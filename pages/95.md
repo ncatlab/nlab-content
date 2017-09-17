@@ -99,7 +99,7 @@ This corresponds to what is referred to as the *total homotopy order of a space*
 
 * Let $E=(E_i)$ be a finite [[crossed complex]], (i.e., an [[omega-groupoid]]; see the work of Brown and Higgins) such that for any object $v \in E_0$ of $E$ the cardinality of the set of $i$-cells with source $v$ is independent of the vertex $v$. Then the groupoid cardinality of $E$ can be calculated as $|E|=\displaystyle{\prod_{i} \#(E_i)^{(-1)^i}}$, much like a usual Euler characteristic. For the case when $F$ is a totally free crossed complex, this gives a very neat formula for the groupoid cardinality of the internal hom $HOM(F,E)$, in the category of [[omega-groupoids]]. Therefore the groupoid cardinality of the  function spaces (represented themselves by internal homs) can easily be dealt with if the underlying target space is represented by a [[omega-groupoid]], i.e.,  has trivial [[Whitehead products]]. (This is explored in the papers by Faria Martins and Porter mentioned in the reference list, below.)
 
-
+* for $G$ a suitable [[algebraic group]], for $\Sigma$ a suitable [[algebraic curve]], and for $q$ a [[prime number]], then the groupoid cardinality of the $\mathbb{F}_q$-points of the [[moduli stack of G-principal bundles]] over $X$, $Bun_G(X)$ is the subject of the [[Weil conjectures on Tamagawa numbers]].
 
 
 
