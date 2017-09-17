@@ -411,5 +411,12 @@ The element in the fundamental group corresponding to a strand is the following.
 
 **Hint:** If doing an example, do not throw away a crossing relation just because it is redundant.  It is a good idea to keep it and it will act as a check on the final form of the presentation when it has been 'processed' through some Tietze transformations. It is easy, at least to start with, to make a slip in the calculation and often the presentation for nice simple knots can be reduced to a form with two generators and one relation.  The above trick keeps in a duplicate relation for comparison.
 
+##Related entries
+
+The classical treatment of the [[Alexander polynomial]] as found, for instance in the book by [[Crowell]] and [Fox]], uses the Wirtinger presentation and [[Fox derivatives]] to derive an Alexander matrix which is then processed to give the polynomial.
+
+Alexander's original paper uses a method which is more closely related to the Dehn presentation.
+
+
 
 category: knot theory
