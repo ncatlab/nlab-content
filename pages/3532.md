@@ -19,3 +19,5 @@ There are some other approaches to rings of differential operators in noncommuta
 and a sequence of article by Yuri Berest and various colaborators including
 
 * Yuri Berest, Oleg Chalykh, Farkhod Eshmatov, _Recollement of deformed preprojective algebras and the Calogero-Moser correspondence_, [arxiv/0710.3392](http://arxiv.org/abs/0710.3392)
+
+category: noncommutative geometry
