@@ -24,7 +24,7 @@ It is similar to a [[combinatorial model category]]. (For the moment, see there 
 
 A **cellular model category** is a [[cofibrantly generated model category]] such that there is a [[set]] of generating cofibrations $I$ and a set of generating acyclic cofibrations $J$, such that
 
-* all domain and codomain objects of elements of $I$ are [[compact object]]s;
+* all domain and codomain objects of elements of $I$ are compact objects relative to $I$ (in the sense of Hirschhorn);
 
 * the domain objects of the elements of $J$ are [[small object]]s relative to $I$;
 
