@@ -221,7 +221,7 @@ $X \to \mathbf{B}\Omega (2\mathbf{sLine}) \to 2\mathbf{sLine}$.
 ### Relation to the unconnected delooping of the $\infty$-group of units of $KU$
  {#RelationToUnconnectedDeloopingOfUnitsOfKU}
 
-In ([Sagave 11](#Sagave11)) is introduced an "unconnected delooping" $bgl_1(E)$ of the [[∞-group of units]] $gl_1(E)$ of an [[E-∞ ring]] $E$, fitting into a [[homotopy cofiber sequence]]
+In ([Sagave 11](#Sagave11)) is introduced a "non-connected delooping" $bgl_1^\ast(E)$ of the [[∞-group of units]] $gl_1(E)$ of an [[E-∞ ring]] $E$, fitting into a [[homotopy cofiber sequence]]
 
 $$
   gl_1(E) \to gl_1^J(E) \to \mathbb{S} \to bgl_1^\ast(E)
@@ -236,7 +236,7 @@ By ([Sagave 11, theorem 12 and example 4.10](#Sagave11)) and comparing to the ab
 $$
   {\vert 2\mathbf{sLine}\vert}
   \simeq
-  bgl_1(MU)
+  bgl_1^\ast(KU)
   \,.
 $$
 
