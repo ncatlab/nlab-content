@@ -1,6 +1,62 @@
-The __enveloping von Neumann algebra__ of a $C^*$-[[C-star algebra|algebra]] $A$ is the closure, in the [[weak operator topology]], of the image $\pi(A)$ of the [[universal representation of a C-star algebra|universal representation]] $\pi : A\to B(H)$ (which is, by the definition, the direct sum of [[GNS representation]]s of all [[positive functional|positive]] linear functionals)
-in $B(H)$. 
 
-* wikipedia [enveloping von Neumann algebra](http://en.wikipedia.org/wiki/Enveloping_von_Neumann_algebra)
+# Enveloping von Neumann algebras
+* table of contents
+{: toc}
+
+## Definitions
+
+Let $A$ be a $C^*$-[[C-star algebra|algebra]].  We may define its enveloping von Neumann algebra in a few different but equivalent ways.
+
++-- {: .num_defn #adjunction}
+###### Definition
+
+The __enveloping von Neumann algebra__ $E(A)$ of $A$ is the [[free object|free]] von Neumann algebra on $A$.  That is, we have an [[adjoint functors|adjunction]]
+$$ W^* Alg \overset{E}\underset{U}\leftrightharpoons C^* Alg ,$$
+where $W^* Alg$ is the category of von Neumann algebras (which are $C^*$-algebras with [[preduals]]) and von Neumann algebra [[homomorphisms]] (which are $C^*$-algebra homomorphisms with preduals), $C^* Alg$ is the category of $C^*$-algebras and $C^*$-algebra homomorphisms, $U$ is the [[forgetful functor]] or [[inclusion functor]], and $E$ is the [[functor]] that we wish to define.
+=--
+
+Definition \ref{adjunction} defines [[the]] functor $E$ up to unique [[natural isomorphism]], if it exists.  We may prove that it exists by the [[adjoint functor theorem]] or by proving that one of the explicit constructions below satisfies the relevant [[universal property]].
+
++-- {: .num_defn #concrete}
+###### Definition
+
+Consider the [[direct sum]] of the the [[GNS representation]]s of the [[positive functional|positive]] linear functionals on $A$; this is a [[Hilbert space]] $H$ and [[representation]] $\pi : A \to B(H)$, the a [[universal representation of a C-star algebra|universal representation]] of $A$.  The [[image]] $\pi(A)$ is a [[linear subspace|subspace]] of $B(H)$; consider its [[double commutant]] (or equivalently its [[topological closure|closure]] in the [[weak operator topology]]) $A''$.  Ignoring the representation of $A''$ on $H$, $A''$ is a von Neumann algebra, the __enveloping von Neumann algebra__ of $A$.
+=--
+
+To obtain an [[adjoint functors|adjunction]] from Definition \ref{internal}, we need also the [[unit of the adjunction]], which is the map
+$$ A \to \pi(A) \to Cl_{wk^*}(\pi(A)) = A'' .$$
+
++-- {: .num_defn #doubledual}
+###### Definition
+
+Think of $A$ as a [[Banach space]], and consider its [[double dual]] $A^{**}$.  We have (as with any Banach space) a [[short linear map]] $i\colon A \to A^{**}$, so that $i(A)$ has the structure of a $C^*$-algebra.  Since $i(A)$ is [[dense subspace|dense]] in $A^{**}$ and the $C^*$-algebraic operations are [[continuous map|continuous]], they extend to $A^{**}$, making it a [[Banach algebra]]; the $C^*$ identity also extends, making $A^{**}$ into $C^*$-algebra.  Since $A^{**}$ has $A^*$ as a [[predual]], it is a von Neumann algebra, the __enveloping von Neumann algebra__ of $A$.
+=--
+
+Here, the [[unit of the adjunction]] is simply $i$.
+
+
+## Properties
+
+A $C^*$-algebra and its enveloping von Neumann algebra have the same [[spectrum]].  The [[functional calculus]] on a $C^*$-algebra (which treats [[continuous functions]]) extends to the functional calculus on its enveloping von Neumann algebra (which treats [[measurable functions]]).  In particular, we can apply a measurable function to an element of a $C^*$-algebra to obtain an element of its enveloping von Neumann algebra.
+
+
+## Applications
+
+Some astract treatments of [[quantum mechanics]] use $C^*$-algebras, while others use von Neumann algebras.  If a [[physical system]] is described by a $C^*$-algebra in the first case, then it may described by its enveloping von Neumann algebra in the second case.
+
+
+## References
+
+* Wikipedia (English): [Enveloping von Neumann algebra](http://en.wikipedia.org/wiki/Enveloping_von_Neumann_algebra)
+
 
 category: operator algebras
+
+[[!redirects enveloping von Neumann algebra]]
+[[!redirects enveloping von Neumann algebras]]
+[[!redirects enveloping W-star-algebra]]
+[[!redirects enveloping W-star-algebras]]
+[[!redirects enveloping W-*-algebra]]
+[[!redirects enveloping W-*-algebras]]
+[[!redirects enveloping W*-algebra]]
+[[!redirects enveloping W*-algebras]]
