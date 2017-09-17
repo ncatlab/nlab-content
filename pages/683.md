@@ -803,8 +803,36 @@ $$
 
 =--
 
+### Homotopy colimits over diagrams of spaces
 
 
++-- {: .un_theorem}
+###### Theorem
+
+Let $X$ be a [[topological space]], write $Op(X)$ for its [[category of open subsets]] and let
+
+$$
+  \chi : C \to Op(C)
+$$
+
+a [[functor]] out of a [[small category]] $C$ such that
+
+* for each point $x\in X$ the [[full subcategory]] $C_x$ of objects $c$ such that $\chi(x)$ contains $x$ has a [[weak homotopy equivalence|weakly]] [[contractible]] [[nerve]].
+
+Then:
+
+the canonical morphism in [[sSet]] out of the [[colimit]]
+
+$$
+   {\lim_\to} Sing \circ \chi \to Sing(X)
+$$ 
+
+into the [[singular simplicial complex]] of $X$ exhibits $Sing(X)$ as the [[homotopy colimit]]  $hocolim Sing \circ \chi$.
+
+
+=--
+
+See [[higher homotopy van Kampen theorem]] for details.
 
 ### Descent objects
 
