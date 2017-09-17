@@ -28,7 +28,7 @@ This correspondence between objects of $X$ and their little-topos incarnation is
 ## Definition
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathbf{H}$ an [[(∞,1)-topos]] and $X \in \mathbf{H}$ an [[object]] also the [[over-(∞,1)-category]] $\mathbf{H}/X$ is an $(\infty,1)$-topos. This is the **over-$(\infty,1)$-topos** of $\mathbf{H}$ over $X$.
@@ -42,7 +42,7 @@ This is [[Higher Topos Theory|HTT, prop 6.3.5.1 1)]].
 ### Base change to the point
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 There is a canonical [[(∞,1)-geometric morphism]]
@@ -70,7 +70,7 @@ The fact that $(X_! \dashv X^*)$ follows from the universal property of the prod
 
 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 If $\mathbf{H}$ is a [[locally ∞-connected (∞,1)-topos]] then for all $X \in \mathbf{H}$ also the over-$(\infty,1)$-topos $\mathbf{H}/X$ is locally $\infty$-connected.
@@ -94,7 +94,7 @@ is itself a geometric morphism. Since [[∞Grpd]] is the [[terminal object]] in 
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $((\infty,1)Topos/\mathbf{H})_{et} \subset (\infty,1)Topos/\mathbf{H}$ be the full [[sub-(∞,1)-category]] on the [[etale geometric morphism]]s $\mathbf{H}/X \to \mathbf{H}$. Then there is an [[equivalence in an (∞,1)-category|equivalence]]
@@ -118,7 +118,7 @@ See [[base change geometric morphism]].
 
 We spell out how $\mathbf{H}/X$ is the [[(∞,1)-category of (∞,1)-sheaves]] over the [[big site]] of $X$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(forming overcategories commutes with passing to presheaves)**
 
@@ -138,14 +138,14 @@ $$
 
 This appears as [[Higher Topos Theory|HTT, 5.1.6.12]]. For more on this see [[(∞,1)-category of (∞,1)-presheaves]].
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Here we may think of $C/X$ as the [[big site]] of the object $c \in PSh(C)$, hence of $PSh(C/X)$ as presheaves on $X$.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be equipped with a [[subcanonical coverage]], let $X \in C$ and regard $C/X$ as an [[(∞,1)-site]] with the [[big site]]-[[coverage]]. Then we have
@@ -186,7 +186,7 @@ In summary we have that $(F/X \dashv i/X)$ is a [[reflective sub-(∞,1)-categor
 
 Specifically for the $(\infty,1)$-topos $\mathbf{H} = $ [[∞Grpd]] we also have the following characterization.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathbf{H} = $ [[∞Grpd]] we have that for $X \in \infty Grp$ any [[∞-groupoid]] the corresponding over-$(\infty,1)$-topos is equivalent to the [[(∞,1)-category of (∞,1)-presheaves]] on $X$:
@@ -207,7 +207,7 @@ This is a special case of the [[(∞,1)-Grothendieck construction]]. See the sec
 
 The following proposotion asserts that the over-$(\infty,1)$-topos over an $n$-[[truncated]] object indeed behaves like a generalized [[n-groupoid]]
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $n \in \mathbb{N}$ and $\mathcal{X}$ an [[n-localic (∞,1)-topos]], then the over-$(\infty,1)$-topos $\mathcal{X}/U$ is $n$-localic precisely if the object $U$ is $n$-[[truncated]].
@@ -215,6 +215,17 @@ For $n \in \mathbb{N}$ and $\mathcal{X}$ an [[n-localic (∞,1)-topos]], then th
 =--
 
 This is ([StrSp, lemma 2.3.16](#StrSp)).
+
+### Object classifier
+ {#ObjectClassifier}
+
+If $Obj_\kappa \in \mathbf{H}$ is an [[object classifier]] for $\kappa$-[[small objects]], then the [[projection]] $Obj_\Kappa \times X \o X$ regarded as an object in the slice is a $\kappa$-small object classifier in $\mathbf{H}_{/X}$.
+
+### In homotopy type theory
+ {#InHomotopyTypeTheory}
+
+If a [[homotopy type theory]] is the [[internal language]] of $\mathbf{H}$, then then theory in [[context]] $x : X \vdash \cdots$ is the internal language of $\mathbf{H}_{/X}$.
+
 
 ## Related concepts
 
