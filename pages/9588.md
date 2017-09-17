@@ -42,6 +42,11 @@ the Morava E-theory spectrum $E_n$ for the canonical [[infinity-action|action]] 
 
 See at _[Snatih-like theorem for Morava E-theory](Snaith+theorem#ForMoravaETheory)_ for more.
 
+### Chromatic filtration
+
+[[!include chromatic tower examples - table]]
+
+
 ## Related concepts
 
 * [[Morava K-theory]]
