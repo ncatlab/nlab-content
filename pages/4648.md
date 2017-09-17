@@ -32,3 +32,5 @@ Notes on two introductory lecture talks are here:
 An interpretation of the geometric Langlands correspondence as describing [[S-duality]] of certain twisted reduction of super [[Yang-Mills theory]] was given in
 
 * [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_ ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
+
+[[!redirects geometric Langlands duality]]
