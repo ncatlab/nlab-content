@@ -171,7 +171,19 @@ $$
 =--
 
 
-The canonical morphism $A \times_{C} B \to A \times_C^h B$ here is induced by the [[section]] $Z \to Z^I$.
+The canonical morphism $A \times_{C} B \to A \times_C^h B$ here is induced by the canonical [[section]] $s : C \to C^I$ into the [[path space object]], hence by the commutativity of the diagram
+
+$$
+  \array{
+     A\times_C B &\to& C & \stackrel{s}{\to} & C^I
+    \\
+    \downarrow &&&{}_{\mathllap{\Delta}}\searrow& \downarrow 
+    \\
+     A\times B && \to && C\times C
+  }
+  \,.
+$$
+
 
 The homotopy pullback constructed in this way is an example of a _strict homotopy limit_, as mentioned at [[homotopy limit]].  In such a case, one can say that an arbitrary homotopy-commutative square
 
