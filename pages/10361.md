@@ -42,6 +42,7 @@ One well-developed attempt to construct a hidden variable theory is [[Bohmian me
 
 * [[Kochen-Specker theorem]]
 
+* [[Hardy's paradox]]
 
 ## References
 
