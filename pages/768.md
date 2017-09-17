@@ -148,7 +148,15 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 ## Related concepts
 
-* **classifying space**, [[classifying stack]], [[moduli space]], [[moduli stack]]
+* **classifying space**, [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
+
+* [[classifying topos]]
+
+* [[universal principal bundle]], [[universal principal ∞-bundle]]
+
+* [[classifying topos]}
+
+* [[subobject classifier]]
 
 * [[classifying morphism]]
 
