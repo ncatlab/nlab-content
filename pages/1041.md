@@ -32,7 +32,7 @@ While additive categories differ significantly from [[toposes]], there is an int
 
 ##Definition
 
-Recall the following fact about [[pre-abelian categories]] from , [this proposition](pre-abelian+category#DecompositionOfMorphisms), discussed there:
+Recall the following fact about [[pre-abelian categories]] from [this proposition](pre-abelian+category#DecompositionOfMorphisms), discussed there:
 
 +-- {: .num_prop #DecompositionOfMorphisms}
 ###### Proposition
