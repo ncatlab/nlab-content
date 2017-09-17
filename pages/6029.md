@@ -39,6 +39,8 @@ discusses how to extract notions of particles from a [[local net of observables]
 
 * [[fundamental particle]], [[antiparticle]]
 
+* [[virtual particle]]
+
 * [[standard model of particle physics]]
 
 * [[matter]], [[force]]
