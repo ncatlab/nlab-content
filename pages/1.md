@@ -21,6 +21,7 @@
 # The $n$Lab
 * automatic table of contents goes here
 {:toc}
+* [POS Software] (http://www.merchantos.com)
 
 ## Purpose
 {#purpose}
