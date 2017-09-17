@@ -5,6 +5,9 @@
 
 [[noncommutative stable homotopy theory]]
 
+**[[partition function]]**
+
+**[[genus]], [[orientation in generalized cohomology]]**
 
 ## Definitions
 
@@ -28,7 +31,6 @@
 
   * [[Spin^c Dirac operator]]
 
-
 ## Index theorems
 
 * [[topological index]], [[analytical index]]
@@ -45,4 +47,8 @@
 
 * [[Baum-Connes conjecture]]
 
+## Higher genera
 
+* [[elliptic genus]]
+
+* [[Witten genus]]
