@@ -70,6 +70,10 @@ There are various other variations, too.
 
 ## Related concepts
 
+* [[Yang-Mills theiry]]
+
+  * [[QCD]], [[electroweak field]], [[electromagnetism]]
+
 * [[technicolor]], [[supersymmetry]]
 
 * [[Grand Unified Theory]]
