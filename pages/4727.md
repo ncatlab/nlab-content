@@ -54,7 +54,7 @@ $$
   A : T X \to inn(\mathfrak{a})
 $$
 
-from the [[tangent Lie algebroid]] to the [[groupal model for universal principal infinity-bundlle|inner automorphism infinity-Lie algebra]].
+from the [[tangent Lie algebroid]] to the [[groupal model for universal principal infinity-bundles|inner automorphism infinity-Lie algebra]].
 
 Its [[curvature]] is the composite of [[graded vector space]]s
 
@@ -68,6 +68,40 @@ $$
   \,.
 $$
 
+Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$.
+
+$$
+  (F_A = 0) 
+  \;\;\Leftrightarrow
+  \;\;
+  \left(
+  \array{
+     && CE(\mathfrak{g})
+     \\
+     & {}^{\mathllap{\exists A_{flat}}}\swarrow & \uparrow
+     \\
+     \Omega^\bullet(X) &\stackrel{A}{\leftarrow}& W(\mathfrak{g})     
+  }
+  \right)
+$$
+
+in which case we call $A$ **flat**.
+
+The [[curvature characteristic form]]s of $A$ are the composite
+
+$$
+  \Omega^\bullet(X)
+  \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{\langle F_{(-)} \rangle}{\leftarrow}
+  inv(\mathfrak{g})
+  :
+  \langle F_A\rangle
+  \,,
+$$
+
+where $inv(\mathfrak{g}) \to W(\mathfrak{g})$ is the inclusion of the [[invariant polynomial]]s. 
+
 The [[∞-groupoid]] of $\mathfrak{a}$-valued forms on $X$ is given by the [[Kan complex]] which in degree $k$ is the set of diagrams of [[dg-algebra]] morphisms
 
 $$
@@ -76,28 +110,46 @@ $$
   \left\{
     \array{
       C^\infty(X) \otimes \Omega^\bullet(\Delta^k)
-      &\leftarrow&
+      &\stackrel{A_{vert}}{\leftarrow}&
       CE(\mathfrak{a})
+      &&&
+      gauge\;transformation
       \\
       \uparrow && \uparrow
       \\
       \Omega^\bullet(X) \otimes \Omega^\bullet(\Delta^k)
-      &\leftarrow&
+      &\stackrel{A}{\leftarrow}&
       W(\mathfrak{a})
+      &&&
+      \mathfrak{g}-valued\;form
       \\
       \uparrow && \uparrow
       \\
       (\Omega^\bullet(U)\otimes C^\infty(\Delta^k))_{close}
       &\stackrel{\langle F_A\rangle}{\leftarrow}&
       inv(\mathfrak{g})
+      &&&
+      curvature\;characteristic\;forms
     }
   \right\}
-  \,,
+  \,.
 $$
 
-where $inv(\mathfrak{g})$ is the algebra of [[invariant polynomial]]s on $\mathfrak{g}$.
 
 For the moment, see [[Lie integration]] and [[∞-Chern-Weil theory]] for more discussion of this.
+
+## Examples
+
+* For $\mathfrak{g}$ an ordinary [[Lie algebra]], a $\mathfrak{g}$-valued differential form in the sense described here is precisely an ordinary [[Lie-algebra valued 1-form]].
+
+* For $\mathfrak{g}$ [[Lie 2-algebra]], a $\mathfrak{g}$-valued differential form in the sense described here is precisely an [[Lie 2-algebra valued form]].
+
+* For $n \in \mathbb{N}$, an $b^{n-1}\mathbb{R}$-valued differential form is the same as an ordinary $n$-form.
+
+## References
+
+* SSSI, (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+
 
 
 [[!redirects ∞-groupoid of ∞-Lie-algebra valued forms]]
