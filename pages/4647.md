@@ -1,10 +1,10 @@
-Given a pair $L\dashv R$ of [[adjoint functors]], $L:A\to B:R$, with counit $\epsilon$ and unit $\eta$, one forms a [[comonad]] $\mathbf{\Omega} = (\Omega, \delta,\epsilon)$ by $\Omega := LR$, $\delta := L\eta R$. $\mathbf{\Omega}$ comodules form a category $B_{\mathbf{\Omega}}$ and there is a natural comparison functor $K = K_{\mathbf{\Omega}} : A\to B_{\mathbf{\Omega}}$ given by $A\mapsto (LA,LA\stackrel{L(\eta_A)}\to LRLA)$. 
+Given a pair $L\dashv R$ of [[adjoint functors]], $L\colon A \to B\colon R$, with counit $\epsilon$ and unit $\eta$, one forms a [[comonad]] $\mathbf{\Omega} = (\Omega, \delta, \epsilon)$ by $\Omega \coloneqq L \circ R$, $\delta \coloneqq L \eta R$. $\mathbf{\Omega}$ comodules form a category $B_{\mathbf{\Omega}}$ and there is a natural comparison functor $K = K_{\mathbf{\Omega}}\colon A \to B_{\mathbf{\Omega}}$ given by $A \mapsto (L A, L A \stackrel{L(\eta_A)}\to L R L A)$. 
 
-A functor $L:A\to B$ is __comonadic__ if it has a right adjoint $R$ and the corresponding comparison functor $K$ is an [[equivalence of categories]].  The adjunction $L\dashv R$ is said to be a **comonadic adjunction**.
+A functor $L\colon A\to B$ is __comonadic__ if it has a right adjoint $R$ and the corresponding comparison functor $K$ is an [[equivalence of categories]].  The adjunction $L \dashv R$ is said to be a **comonadic adjunction**.
 
-Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, observe that for every $\Omega$-comodule $(N,\rho)$, 
+Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, observe that for every $\Omega$-comodule $(N, \rho)$, 
 
-+--{: style="text-align:center"}
++-- {: style="text-align:center"}
 <svg width="284" height="85" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="37863">
  <g>
   <title>Layer 1</title>
@@ -136,6 +136,7 @@ Beck's [[monadicity theorem]] has its dual, comonadic analogue. To discuss it, o
 manifestly exhibits a [[split equalizer]] sequence.
 
 ...
+
 
 [[!redirects comonadic functor]]
 [[!redirects comonadic functors]]
