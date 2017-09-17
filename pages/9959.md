@@ -1,4 +1,27 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 A [[circle bundle with connection]] with non-trivial [[first Chern class]], regarded as a [[monopole]].
