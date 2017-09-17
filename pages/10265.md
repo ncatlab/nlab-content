@@ -1,0 +1,13 @@
+# Locus
+* table of contents
+{: toc}
+
+(There are other mathematical uses of the term 'locus'. See, for example, [[smooth locus]] and [[derived critical locus]].)  
+
+## Idea
+
+A **locus** is a $(\infty, 1)$-category $C$ such that the $(\infty, 1)$-category of [[indexed families]] of objects of $C$ form a [[(∞,1)-topos]].  Since $(\infty, 1)$-toposes are closed under left exact localizations, so are loci.  
+
+##Examples
+
+The $(\infty, 1)$-category of [[pointed object|pointed types]] is a locus, since families of it are a presheaf $(\infty, 1)$-category (the $(\infty, 1)$-category of retractions).  Similarly, the $(\infty, 1)$-category of [[prespectra]] is a locus.  And the $(\infty, 1)$-category of spectra is a left exact localization of the $(\infty, 1)$-category of prespectra.  Hence [[spectra]] form a locus, so [[parametrized spectra]] are a $(\infty, 1)$-topos.
