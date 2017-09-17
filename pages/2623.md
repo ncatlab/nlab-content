@@ -169,6 +169,7 @@ In the context of [[BV theory|BRST-BV quantization]] these statements are subsum
 ## References {#References}
 
 ### General
+ {#General}
 
 A solid mathematical formulation of perturbation theory and renormalization has been given in
 
@@ -178,6 +179,13 @@ A review is in
 
 * [[R. E. Borcherds]], _Renormalization and quantum field theory_, [arxiv/1008.0129](http://arxiv.org/abs/1008.0129) 
 
+A modern mathematical account relativing to [[BV-BRST formalism]] is in 
+
+* [[Kevin Costello]], _Renormalization and Effective Field Theory_ AMS (2011) ([publisher webpage](http://www.ams.org/publications/authors/books/postpub/surv-170))
+
+with precursors in 
+
+* [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
 
 ### In AQFT
 
