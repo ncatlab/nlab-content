@@ -1,25 +1,25 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 #### Differential cohomology
-+--{: .hide}
++-- {: .hide}
 [[!include differential cohomology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-The (expected) phenomenon in [[Yang-Mills theory]]/[[QCD]] that [[quark]]-excitations must form [[bound states]] which are neutral under the color charge -- such as the [[hadrons]] ([[protons]], [[neutrons]]) and [[mesons]].
+The (expected) phenomenon in [[Yang-Mills theory]]/[[QCD]] that [[quark]]-excitations must form [[bound state|bound states]] which are neutral under the color charge -- such as the [[hadron|hadrons]] ([[proton|protons]], [[neutron|neutrons]]) and [[meson|mesons]].
 
 ## References
 
@@ -31,7 +31,7 @@ A formulation of confinement as an open problem of mathematical physics, togethe
 
 * [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
 
-The relation to [[QCD instantons]]/[[monopoles]] in the [[QCD vacuum]] is discussed in section III D of 
+The relation to [[QCD instantons]]/[[monopole|monopoles]] in the [[QCD vacuum]] is discussed in section III D of 
 
 * T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451))
  {#SchaeferShuryak}
@@ -40,4 +40,7 @@ For further developments see
 
 * _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
 
+
+[[!redirects confinement]]
 [[!redirects color confinement]]
+[[!redirects colour confinement]]
