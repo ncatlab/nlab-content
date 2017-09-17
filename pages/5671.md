@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -19,7 +18,7 @@
 
 ## Idea
 
-An [[(∞,n)-category with adjoints]] (see there for more) and a [[dual object]] for every [[object]].
+An [[(∞,n)-category with adjoints]] (see there for more) and a ([[fully dualizable object|fully]]) [[dual object]] for every [[object]].
 
 ## Definition
 
@@ -45,9 +44,13 @@ Finally we say that
 * $C$ **has duals** if it has duals for objects and has adjoints.
 =--
 
-This is ([Lurie, def. 2.3.13, def. 2.3.16](#Lurie)).
+This is ([Lurie, def. 2.3.13, def. 2.3.16](#Lurie)). See at _[[fully dualizable object]]_
 
+## Examples
 
+* [[(∞,n)-category of cobordisms]]
+
+* [[(∞,n)-category of n-fold correspondences]]
 
 
 ## Related concepts
