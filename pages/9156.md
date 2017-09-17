@@ -1,0 +1,10 @@
+__John David Stuart Jones__ (J.D.S. Jones) is a mathematician at the University of Warwick.
+
+* [web](http://www2.warwick.ac.uk/fac/sci/maths/people/staff/john_jones/)
+* [math genealogy](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=24472)
+
+category: people
+
+[[!redirects JDS Jones]]
+[[!redirects J.D.S. Jones]]
+[[!redirects John Jones]]
