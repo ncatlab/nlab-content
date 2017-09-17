@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -35,7 +34,7 @@ This can be thought of as:
 *  the [[Clifford algebra]] $Cl_{0,1}(\mathbb{R})$;
 *  the elliptic $2$-dimensional algebra of [[hypercomplex numbers]];
 *  the [[complexification]] of $\mathbb{R}$;
-*  the connected locally compact Hausdorff topological algebraically closed field.
+*  the algebraically closed archimedean [[local field]].
 
 We think of $\mathbb{R}$ as a [[subset]] of $\mathbb{C}$ by identifying $a$ with $a + \mathrm{i} 0$.  $\mathbb{C}$ is equipped with a $\mathbb{R}$-linear [[involution]], called __complex conjugation__, that maps $\mathrm{i}$ to $\bar{\mathrm{i}} = -\mathrm{i}$. Concretely, $ \overline{a + \mathrm{i} b} = a - \mathrm{i} b $. 
 $\mathbb{C}$ also has an [[absolute value]]:
