@@ -1,0 +1,17 @@
+A _metrization theorem_ is a result that gives sufficient conditions, and sometimes necessary and sufficient conditions, for a [[topological space]] to be [[metric space|metrizable]]. 
+
+Examples include: 
+
+* [[Urysohn metrization theorem]] 
+
+* Nagata-Smirnov metrization theorem 
+
+* Bing metrization theorem 
+
+* Moore metrization theorem 
+
+## References 
+
+* James Munkres, _Topology_ (2nd edition), Prentice-Hall, 2000. 
+
+* Wikipedia, _Metrization theorem_. ([link](http://en.wikipedia.org/wiki/Metrization_theorem)) 
