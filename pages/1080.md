@@ -91,3 +91,5 @@ For instance section 2 of
 * John Harding, _[[matrixcalculus.pdf:file]]_
 
 [[!redirects matrix multiplication]]
+
+[[!redirects matrix product]]
