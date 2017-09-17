@@ -1,6 +1,6 @@
 In natural language, the definite article ('the' in English) is generally used only for nouns which are uniquely characterized by context.  Hence we have "the United States of America" and "the book I was just reading," but only "a car" or "a wild late-night party." (Sometimes "the book I was just reading" is abbreviated to "the book", but it should be clear from context that only one book could be meant.)
 
-In [[mathematics]], and especially in [[category theory]], it is common to use "the" more generally for something which is characterized uniquely up to _unique_ coherent [[isomorphism]] (that is, a unique isomorphism appropriate given the context).  
+In [[mathematics]], and especially in [[category theory]], it is common to use "the" more generally for something which is characterized uniquely up to unique coherent [[isomorphism]] (that is, a unique isomorphism appropriate given the context).  
 
 Thus, for instance, we speak (assuming that any exists) of "the" [[terminal object]] of a category, "the" [[product]] of two objects, "the" [[adjoint functor|left adjoint]] of a functor, and so on.  Outside of pure category theory we have examples such as "the" Dedekind-complete ordered field (the field of [[real numbers]]).
 
@@ -9,3 +9,4 @@ In [[higher category theory]], we extend this usage to objects that are characte
 
 [[!redirects the]]
 [[!redirects generalised the]]
+[[!redirects generalized the]]
