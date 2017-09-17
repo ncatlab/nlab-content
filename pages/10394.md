@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -36,17 +38,97 @@ $$
 
 =--
 
++-- {: .num_example}
+###### Example
+
+Let $\Sigma$ be a [[manifold]] to be regarded as a [[spacetime]]/[[worldvolume]] and let $E \to \Sigma$ be a [[vector bundle]], to be regarded as a [[field bundle]]. Assume for simplicity of notation that both $\Sigma$ and $E$ are in fact [[Cartesian spaces]] (which is always true locally). Write $j^1 E$ for the corresponding jet bundle]], equipped with the canonical "kinetic" [[n-plectic form]] which in local coordinates reads
+
+$$
+  \omega 
+    \coloneqq 
+  \mathbf{d}_v\phi^a_{,i} \wedge \mathbf{d}_v q^a \wedge (\iota_{\partial_i} vol_\Sigma) 
+$$
+
+as discussed at [[multisymplectic geometry]]. 
+
+Then for $\phi^a$ and $\phi^a_{,i}$ smooth functions on $\Sigma$ and for vector fields
+
+$$
+  v_i 
+  \coloneqq 
+  \frac{\partial}{\partial \sigma^i}
+  + 
+  \frac{\partial \phi^a}{\partial \sigma^i}
+  +
+  \frac{\partial \phi^a_{,j}}{\partial \sigma^j}
+  \frac{\partial}{\partial \phi^a_{,i}}
+$$
+
+the equation 
+
+$$
+  \iota_{v_1 \cdots v_n} \omega = \pm \mathbf{d}H
+$$
+
+is equivalent to the [[de Donder-Weyl equations]]
+
+$$
+  \frac{\partial \phi^a}{\partial \sigma^i}
+  =
+  \frac{\partial H}{\partial p^i_a}
+  \;\;\;\;
+  \frac{\partial p^i_a}{\partial \sigma^i}
+  = 
+  \frac{\partial H}{\partial \phi^a}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have
+
+$$
+  \mathbf{d}_v \phi^a = \mathbf{d}\phi^a - \phi^a_{,i}\mathbf{d}\sigma^i
+$$
+
+and
+
+$$
+  \mathbf{d}_v \phi^a_{,i} 
+    =
+  \mathbf{d}\phi^a_{,i}
+  - 
+  \phi^a_{,i j} \mathbf{d}\sigma^j
+  \,.
+$$
+
+The claimed equation comes from contracting in $\mathbf{d}\phi^a_{,i} \wedge \mathbf{d}\phi^a \wedge (\iota_{\partial_i}vol_\Sigma)$ all but the $i$th vector with the contracted volume form. The remaining contractions are then
+
+$$
+  \frac{\partial \phi^a}{\partial \sigma^i \partial \sigma^{[j}}
+  \frac{\partial \phi_a}{\partial \sigma^{i]}}
+  \mathbf{d}\sigma^j
+$$
+
+and these cancel against the horizontal derivative contributions form above.
+
+=--
+
 ## Interpretation in higher geometry
  {#InterpretationInHigherGeometry}
 
-> under construction
+We discuss here how Hamiltonian $n$-vector fields are equivalently homorphisms from an $n$-dimensional surface into the [[Poisson bracket Lie n-algebra]] associated with the given [[n-plectic geometry]].
+
 
 +-- {: .num_remark #nExtendedHamiltonEquationAsLInfinityRelation}
 ###### Remark
 
 By the discussion at [[n-plectic geometry]], a (pre-)[[n-plectic manifold]] $(X,\omega)$ induces a [[Poisson bracket Lie n-algebra]] $\mathfrak{pois}(X,\omega)$, given as follows:
 
-* in possitive degree $k$ it has the degree $(n-k)$-[[differential forms]] on $X$
+* in positive degree $k$ it has the degree $(n-k)$-[[differential forms]] on $X$
 
 * in degree 0 it has pairs $(v,A)$ of [[Hamiltonian n-forms]] $A$ with their [[Hamiltonian vector fields]] $v$ (such that $\mathbf{d}A = \iota_v \omega$)
 
@@ -65,13 +147,134 @@ and
     \,,
   $$
 
-* and whose unary Lie bracket is given by the [[de Rham differential]].
+* and whose unary Lie bracket is given by the [[de Rham differential]], $\{-\} = \mathbf{d}$.
 
 This means that the $n$-extended Hamilton equation of def. \ref{ExtendedHamiltonEquations} reads in terms of the [[Poisson bracket Lie n-algebra]] equivalently thus ([hgp 13, remark 2.5.10](#hgp13)):
 
 $$
-  [v_1, \cdots, v_n] = [H]
+  \{v_1, \cdots, v_n\} = \pm\{H\}
   \,.
+$$
+
+=--
+
+Let now $\Sigma$ be a [[manifold]] to be regarded as a [[spacetime]]/[[worldvolume]] and let $E \to \Sigma$ be a [[vector bundle]], to be regarded as a [[field bundle]]. Assume for simplicity of notation that both $\Sigma$ and $E$ are in fact [[Cartesian spaces]] (which is always true locally). Write $(j^1 E)^\ast$ for the coreresponding dual [[jet bundle]], equipped with the canonical "kinetic" [[n-plectic form]] which in local coordinates reads
+
+$$
+  \omega 
+    \coloneqq 
+  \mathbf{d}p^i_a \wedge \mathbf{d}q^a \wedge (\iota_{\partial_i} vol_\Sigma) 
+$$
+
+as discussed at [[multisymplectic geometry]]. 
+Write $\mathfrak{pois}(X,\omega)$ for the corresponding [[Poisson bracket Lie n-algebra]].
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[L-∞ algebra]] [[homomorphisms]]
+
+$$
+  \mathbb{R}^n \longrightarrow \mathfrak{pois}((j^1 E)^\ast, \omega)
+$$
+
+which induce the canonical map under the projection to vector fields on $\Sigma$ are [[equivalence|equivalently]] [[tuples]] consisting of 
+
+* a [[smooth function]] $H$;
+
+* $n$ [[vector fields]] $v_i$
+
+on $(j^1 E)^\ast$, such that the $(v_i)$ satisfy the [[de Donder-Weyl equation]] for [[Hamiltonian]] $H$
+
+$$
+  \iota_{v_1 \cdots v_n} \omega = \pm \mathbf{d}H
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at _[[Maurer-Cartan element]]_, a homomorphism as indicated is equivalently an element
+
+$$
+  \mathcal{J}
+  \in
+  \wedge^\bullet(\mathbb{R}^n) \otimes \mathfrak{pois}(X,\omega)
+$$
+
+of total degree 1, which satifies the [[Maurer-Cartan equation]]
+
+$$
+  \sum_k \frac{1}{k!}\{\underbrace{\mathcal{J}\wedge \cdots \wedge \mathcal{J}}_{k\; factors}\}
+  = 0
+  \,.
+$$
+
+If we suggestively write $\mathbf{d}\sigma^i$ for the generators of the [[Grassmann algebra]] $\wedge^\bullet(\mathbb{R}^n)$, then, by remark \ref{nExtendedHamiltonEquationAsLInfinityRelation}, $\mathcal{J}$ is of the form
+
+$$
+  \mathcal{J}
+  =
+  \mathbf{d}\sigma^i \otimes (v_i, J_i)
+  +
+  \mathbf{d}\sigma^{i_1} \wedge \mathbf{d}\sigma^{i_2}
+  \otimes J_{i_1 i_2}
+  + 
+  \cdots
+  + 
+  \mathbf{d}\sigma^1 \wedge \cdots \wedge \mathbf{d}\sigma^n
+  \otimes
+  H
+  \,,
+$$
+
+where the $v_i$ are vector fields on the extended phase space,
+
+$$
+  J_{i_1 \cdots i_k} \in \Omega^{n-k}((j^1 E)^\ast)
+$$
+
+and $H$ is a smooth function. Again by remark \ref{nExtendedHamiltonEquationAsLInfinityRelation}, the [[Maurer-Cartan equation]] on this element is equivalent to
+
+$$
+  \iota_{v_{i_1}} \cdots \iota_{v_{i_k}} \omega
+  = 
+  \pm
+  \mathbf{d} J_{i_1 \cdots i_k}
+$$
+
+for all $1 \leq k \leq n-1$ and all $\{i_j\}_{j = 1}^k$, and
+
+$$
+  \iota_{v_{1}} \cdots \iota_{v_{n}} \omega
+  = 
+  \pm
+  \mathbf{d} H
+  \,.
+$$
+
+The condition on the projection means that 
+
+$$
+  v_i = \frac{\partial}{\partial\sigma^i}
+  +
+  \frac{\partial \phi^a}{\partial \sigma^i}
+  \frac{\partial }{\partial \phi^a}
+  + 
+  \frac{\partial \phi^a_{,j}}{\partial \sigma^i}
+  \frac{\partial }{\partial \phi^a_{,j}}
+  \,.
+$$
+
+This way the last equation is the [[de Donder-Weyl equation]]. But then
+
+$$
+  J_{i_1 \cdots i_k}
+  \coloneqq
+  \pm H \iota_{\partial_{i_1} \cdots \partial_{i_k}} vol_\Sigma  
 $$
 
 =--
@@ -124,7 +327,7 @@ with a big 3-[[homotopy]] filling this pyramid.
 
 The equation of remark \ref{nExtendedHamiltonEquationAsLInfinityRelation} is the [[Maurer-Cartan equation]] exhibiting an infinitesimal such situation.
 
-More in detai: the [[Lie integration]] of $\mathfrak{pois}(X,\omgea)$ is a [[simplicial object]] which in simplicial degree $n$ has as elements the [[Maurer-Cartan elements]] of $\Omega^\bullet(\Sigma_n)\otimes \mathfrak{pois}(X,\omgea)$, where $\Sigma_n = \Delta^n$ is the $n$-dimensional [[simplex]], regarded as a [[smooth manifold]] (with boundaries and corners).
+More in detai: the [[Lie integration]] of $\mathfrak{pois}(X,\omega)$ is a [[simplicial object]] which in simplicial degree $n$ has as elements the [[Maurer-Cartan elements]] of $\Omega^\bullet(\Sigma_n)\otimes \mathfrak{pois}(X,\omgea)$, where $\Sigma_n = \Delta^n$ is the $n$-dimensional [[simplex]], regarded as a [[smooth manifold]] (with boundaries and corners).
 
 Write then $\mathbf{d}\sigma^i$ for the canonical [[basis]] of 1-forms on $\Sigma_n$, then consider an element in there is of the form
 
@@ -249,7 +452,9 @@ $$
 
 ## Related concepts
 
+
 * [[de Donder-Weyl formalism]]
+
 
 
 ## References
@@ -263,6 +468,7 @@ Remark \ref{nExtendedHamiltonEquationAsLInfinityRelation} appears in remark 2.5.
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_ ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
   {#hgp13}
+
 
 
 [[!redirects Hamiltonian n-vector field]]
