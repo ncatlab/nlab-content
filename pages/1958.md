@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Differential geometry
-+--{: .hide}
++-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -34,7 +34,7 @@ This fact can also be used as the basis of a definition of the cotangent bundle.
 
 * [[tangent bundle]]
 
-* [[differential 1-form]]
+* [[differential form]]
 
 * [[Liouville-Poincaré 1-form]]
 
@@ -55,6 +55,8 @@ This fact can also be used as the basis of a definition of the cotangent bundle.
 [[!redirects cotangent vector fields]]
 [[!redirects differential 1-form]]
 [[!redirects differential 1-forms]]
+[[!redirects smooth differential 1-form]]
+[[!redirects smooth differential 1-forms]]
 [[!redirects 1-form]]
 [[!redirects 1-forms]]
 
