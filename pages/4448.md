@@ -5,15 +5,15 @@
 
 ## Idea
 
-The **Freyd cover** of a [[category]] -- sometimes known as the **Sierpinski cone** or "scone" --  is a special case of Artin gluing: 
-
-given a category $\mathcal{T}$ and a [[functor]] $F: \mathcal{T} \to Set$, the Artin gluing of $F$ is the [[comma category]] $Set \downarrow F$ whose objects are triples $(X, \xi, U)$ where:
+The **Freyd cover** of a [[category]] is a special case of [[Artin gluing]].  Given a category $\mathcal{T}$ and a [[functor]] $F: \mathcal{T} \to Set$, the Artin gluing of $F$ is the [[comma category]] $Set \downarrow F$ whose objects are triples $(X, \xi, U)$ where:
 
 * $X$ is a set
 * $U$ is an object of $\mathcal{T}$
 * $\xi$ is a function $X \to F(U)$.
 
-So the Freyd cover is the special case $F = \mathcal{T} (1, -)$.
+The Freyd cover is the special case $F = \mathcal{T} (1, -)$.
+
+The Freyd cover is sometimes known as the **Sierpinski cone** or **scone**, because in [[topos theory]] it behaves similarly to the [[cone]] on a space, but with the [[interval]] $[0,1]$ replaced by the [[Sierpinski space]].
 
 ## Application 
 
@@ -64,3 +64,6 @@ plus
 Some of the above material is taken from 
 
 * [[Tom Leinster]], [reply at MathOverflow](http://mathoverflow.net/questions/12136/freyd-cover-of-a-category) 
+
+[[!redirects scone]]
+[[!redirects Sierpinski cone]]
