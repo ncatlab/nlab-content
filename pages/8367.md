@@ -1,0 +1,26 @@
+Inductive reasoning concerns assessments of how likely a statement is to be true, given observations of its consequences.
+
+Not everybody holds that such reasoning occurs. [[Karl Popper]] famously claimed that "Induction, i.e. inference based on many observations, is a myth. It is neither a psychological fact, nor a fact of ordinary life, nor one of scientific procedure." (Conjectures and Refutations, p. 53).
+
+A common approach to formulate an _inductive_ logic is to couch inductive reasoning in terms of [[probability theory]]. It can be shown by so-called "Dutch Book" arguments, that a rational agent must set their degrees of belief in such a way that they satisfy the axioms of probability theory. For example, if one's degree of belief that the next toss of a coin will show heads is $p$, then one should believe it will show tails to degree $(1 - p)$, otherwise it will be possible for someone to take betting positions making a loss certain whatever the outcome.
+
+Using Bayes' Rule, degrees of belief can be updated on receipt of new evidence.
+
+$$
+P(h|e) = P(e|h) \cdot \frac{P(h)}{P(e)},
+$$
+
+where $h$ is a hypothesis and $e$ is evidence.
+
+The idea here is that when $e$ is observed, one's degree of belief in $h$ should be changed from $P(h)$ to $P(h|e)$. This is known as **conditionalizing**. If $P(h|e) \gt P(h)$, we say that $e$ has provided **confirmation** for $h$.
+
+Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning', where examples from mathematics are widely used. This surprises many, it being thought that mathematicians relied solely on [[deduction]].
+
+###References###
+
+[[George Polya]], 1954, _Mathematics and Plausible Reasoning, Volume 2:
+Patterns of Plausible Inference_, Princeton University Press.
+
+Chapter 4 of [[David Corfield]], 2003, _Towards a Philosophy of Real Mathematics_, Cambridge University Press.
+
+From the [[nPOV]], of interest is [[Bob Coecke]] and [[Robert Spekkens]]' [Picturing classical and quantum Bayesian inference](http://www.cs.ox.ac.uk/people/bob.coecke/PDFS/05-Coecke-Spekkens.pdf).
