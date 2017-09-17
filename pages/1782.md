@@ -123,6 +123,10 @@ The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying
 
 ## References 
 
+A fundamental paper is
+
+* [[R. W. Thomason]], Thomas Trobaugh, _Higher algebraic K-theory of schemes and of derived categories_, _The Grothendieck Festschrift_, 1990, 247-435.
+
 A reference for classical constructions is
 
 * [[Charles Weibel]], _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
