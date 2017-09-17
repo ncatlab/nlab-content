@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of _blob $n$-category_ captures the notion of an [[n-category]] with all duals. It is formulated in the style of [[hyperstructure]]: without any distinction between source and targets.
+The notion of _blob $n$-category_ captures the notion of an [[(infinity,n)-category with duals|n-category with all duals]]. It is formulated in the style of [[hyperstructure]]: without any distinction between source and targets.
 
 The definition is well-adapted to describing the [[(∞,n)-category of cobordisms]] in the spirit of [[blob homology]].
 
@@ -25,7 +25,7 @@ The definition is well-adapted to describing the [[(∞,n)-category of cobordism
 
 Let $n \in \mathbb{N}$ be a [[natural number]].
 
-+-- {: .un_defn #BlobGraph}
++-- {: .num_defn #BlobGraph}
 ###### Definition 
 
 A **blob $n$-graph** $C$ is given by
@@ -44,7 +44,7 @@ We think of $C(B^k)$ as the set of [[k-morphism]]s in the $n$-graph $C$. This me
 
 We define now a notion of composition on $k$-cells of a blob $n$-graph by induction over $k$. Given a blob $n$-graph with composition for $k$-cells, it can be extended from balls to arbitrary manifolds by the definition [extension to general shapes](#ExtensionToGeneralShapes) below.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (roughly)
 
 Say that a blob $n$-graph is a **blob $n$-graph with composition for 0-cells**. 
@@ -80,7 +80,7 @@ Assume we have a blob $n$-graph $C$ with composition for $(k-1)$-cells for $k \g
 
 =--
 
-+-- {: .un_defn #ExtensionToGeneralShapes}
++-- {: .num_defn #ExtensionToGeneralShapes}
 ###### Definition (roughly)
 **(extension to general shapes)**
 
@@ -100,7 +100,7 @@ This is ([MorrisonWalker, def. 6.3.2](#MorrisonWalker)).
 
 ## Examples
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $X$ a [[topological space]], its **fundamental blob $n$-category** $\Pi_{\leq n}(X)$ is the blob $n$-category which sends a $k$-ball for $k \lt n$ to the set of [[continuous map]]s of the ball into $X$, and an $n$-ball to the set of [[homotopy]]-classes of such maps, relative boundary.
@@ -109,7 +109,7 @@ For $X$ a [[topological space]], its **fundamental blob $n$-category** $\Pi_{\le
 
 This is ([MorrisonWalker, example 6.2.1](#MorrisonWalker))).
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $n \in \mathbb{N}$ the **blob $n$-category of $n$-dimensional [[cobordism]]s** $Bord_n$ is the blob $n$-category that sends a $k$-ball $B$ for $k \lt n$ to the set of $k$-dimensional submanifolds $W \hookrightarrow B \times \mathbb{R}^\infty$ such that the projection $W \to B$ is transverse to $\partial B$. An $n$-ball is sent to homeomorphism classes rel boundary of such submanifolds.
