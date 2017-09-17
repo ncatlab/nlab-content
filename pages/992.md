@@ -307,6 +307,10 @@ The abstract [[(∞,1)-category theory|(∞,1)-category theoretical]] notion was
 * [[Jacob Lurie]], _[[Stable Infinity-Categories]]_
  {#StabCat}
 
+This appears in a more comprehensive context as section 1 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
 A diagram of the interrelation of all the models for stable $(\infty,1)$-categories with a useful list of literature for each are these seminar notes:
 
 * [[Stefan Schwede]], _Enhancements of triangulated categories_, [pdf](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf)
