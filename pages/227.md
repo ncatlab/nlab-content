@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Definition
@@ -30,7 +30,7 @@ In usual ring theory people often talk about **nonunital** rings as well: multip
 
 ## Generalizations
 
-It is possible to [[internalization|internalise]] the notion of ring in at least two different ways.  Either one can replace the [[Set|category of sets]] in the classical definition with another category $C$, or one can replace $Ab$ in the fancy definition with another category $M$.
+It is possible to [[internalization|internalise]] the notion of ring in at least two different ways.  Either one can replace the [[Set|category of sets]] in the classical definition with another category $C$ -- see [[ring object]] -- , or one can replace [[Ab]] in the fancy definition with another category $M$.
 
 
 ### Internalising the sets
@@ -74,11 +74,15 @@ Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]
 
 ## Related concepts
 
+* [[ring object]]
+
 * [[affine scheme]]
 
 * [[ideal]]
 
 * [[nilradical]]
+
+
 
 
 [[!redirects ring]]
