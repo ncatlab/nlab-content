@@ -133,6 +133,8 @@ This is theorem 1 in
 
 =--
 
+Note that a proof of the above theorem in terms of [[dagger category|†-categories]] can be found in [[Peter Selinger]], _Dagger-compact closed categories and completely positive maps_ ([ps](http://www.mscs.dal.ca/~selinger/papers/dagger.ps)).
+
 The matrices $\{E_i\}$ that are associated to a completely positive and trace-preserving map by the above theorem are called **Kraus operators**.
 
 In the physics literature the above theorem is then phrased as: _Every quantum channel can be represented using Kraus operators_  .
