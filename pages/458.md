@@ -96,13 +96,21 @@ This appears as [Johnstone, scholium C1.6.4](#Johnstone).
 
 ### Relation to topological spaces
 
-Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:Top \to Locale$.
+Every topological space $X$ has a frame of open sets $O(X)$, and therefore gives rise to a locale $X_l$.  For every continuous function $f:X\to Y$ between spaces, the inverse image map $f^{-1}:O(Y)\to O(X)$ is a frame homomorphism, so $f$ induces a continuous map $f_l:X_l\to Y_l$ of locales.  Thus we have a functor $(-)_l:$ [[Top]] $\to$ [[Locale]].
 
 Conversely, if $X$ is any locale, we define a **point** of $X$ to be a continuous map $1\to X$.  Here $1$ is the terminal locale, which can be defined as the locale $1_l$ corresponding to the terminal space.  Explicitly, we have $O(1) = P(1)$, the powerset of $1$ (the initial frame, the set of [[truth value]]s, which is 2 classically or in a [[Boolean topos]]).  Since a frame homomorphism $O(X)\to P(1)$ is determined by the preimage of $1$, a point can also be described more explicitly as a _completely prime filter_: an upwards-closed subset $F$ of $O(X)$ such that $X\in F$ ($X$ denotes the top element of $O(X)$), if $U,V\in F$ then $U\cap V\in F$, and if  $\bigcup_i U_i\in F$ then $U_i\in F$ for some $i$.
 
 The elements of $O(X)$ induce a topology on the set of points of $X$ in an obvious way, thereby giving rise to a topological space $X_p$.  Any continuous map $f:X\to Y$ of locales induces a continuous map $f_p:X_p\to Y_p$ of spaces, so we have another functor $(-)_P:Loc\to Top$.
 
-It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{lp}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{pl}$ is called **spatial**.
+It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  
+
+
+$$
+  Locale \stackrel{\overset{(-)_l}}{\underset{(-)_p}{\to}}
+  Top
+$$
+
+In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{l p}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{p l}$ is called **spatial**.
 
 
 
