@@ -20,14 +20,16 @@
 
 ## Idea 
 
-_Geometric_ realization denotes usually the special case of [[nerve and realization]] induced from the standard [[simplicial set|cosimplicial]] topological space that in degree $n$ is the standard topological $n$-simplex $\Delta^n_{Top}$.
+_Geometric realization_ is the operation that builds from a [[simplicial set]] $X$ a [[topological space]] $|X|$ obtained by interpreting each 
+element in $X_n$ -- each abstract $n$-simplex in $X$ -- as one copy of the standard topological $n$-simplex $\Delta^n_{Top}$ and then guing together all these along their boundaries to a big topological space, using the information encoded in the face and degeneracy maps of $X$ on how these simplices are supposed to be stuck together.
 
-In this case geometric realization is the operation that reads in a [[simplicial set]] $X$ and spits out the [[topological space]] that is obtained by interpreting each 
-element in $X_n$ -- each abstract $n$-simplex in $X$ -- as one copy of $\Delta^n_{Top}$ and then guing together all these along their boundaries to a big topological space, using the information encoded in the face and degeneracy maps of $X$ on how these simplices are supposed to be stuck together.
+This is the special case of the general notion of [[nerve and realization]] that is induced from the standard [[simplicial set|cosimplicial]] [[topological space]] $[n] \mapsto \Delta^n_{Top}$.
 
-See also [[nerve and realization]].
+In the context of [[homotopy theory]] geometric realization plays a notable role in the [[homotopy hypothesis]], where it is part of the [[Quillen equivalence]] between the [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]].
 
-## Details 
+The construction generalizes naturally to a map from [[simplicial object|simplicial]] [[topological space]]s to plain topological spaces. For more on that see [[geometric realization of simplicial spaces]].
+
+## Definition
 
 Let $S$ be one of the categories of [[geometric shapes for higher structures]], such as the [[globe category]] or the [[simplex category]] or the [[cube category]].
 
@@ -44,13 +46,6 @@ $$
   \,.
 $$
 
-## Examples 
-
-* For $G$ a [[group]], $\mathbf{B}G$ its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
-  $$
-    \mathcal{B}G = |N\mathbf{B}G|
-  $$
-  is the [[topological space]] that is the [[classifying space]] for $G$-[[principal bundle]]s ([[covering space]]s), as long as we give $G$ the [[discrete topology]].
 
 ## Properties ## 
 
@@ -151,5 +146,15 @@ R(X \times Y) & \cong & R((\int^m X(m) \cdot \Delta(-, n)) \times (\int^n Y(n) \
 }$$ 
 where in each of the second and penultimate lines, we twice used the fact that $- \times -$ preserves colimits in its separate arguments (i.e., the fact that the nice category $Space$ is cartesian closed), and the remaining lines used the fact that $R$ preserves colimits, and also products of representables by the first paragraph of this proof. 
 =--
+
+
+## Examples 
+
+* For $G$ a [[group]], $\mathbf{B}G$ its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
+  $$
+    \mathcal{B}G = |N\mathbf{B}G|
+  $$
+  is the [[topological space]] that is the [[classifying space]] for $G$-[[principal bundle]]s ([[covering space]]s), as long as we give $G$ the [[discrete topology]].
+
 
 [[!redirects geometric realisation]]
