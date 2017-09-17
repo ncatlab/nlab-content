@@ -28,7 +28,7 @@ Let $\mathcal{A} = $ [[Ab]] be the [[abelian category]] of [[abelian groups]]. W
 +-- {: .un_defn}
 ###### Definition
 
-A _chain homotopy_ $\psi : f \Rightarrow g$ between two [[morphism]]s $f,g : C_\bullet \to D_\bullet$ in $Ch_\bullet(\mathcal{A})$ is a sequence of morphisms
+A _chain homotopy_ $\psi : f \Rightarrow g$ between two [[chain maps]] $f,g : C_\bullet \to D_\bullet$ in $Ch_\bullet(\mathcal{A})$ is a sequence of morphisms
 
 $$
   \{ (\psi_n : C_n \to D_{n+1}) \in \mathcal{A} | n \in \mathbb{N} \}
@@ -137,6 +137,14 @@ $$
 
 * [[null homotopy]]
 
+* [[category of chain complexes]]
+
+  * [[chain complex]]
+
+  * [[chain map]], [[quasi-isomorphism]]
+
+  * **chain homotopy**
+  
 ## References
 
 Section 1.4 of 
