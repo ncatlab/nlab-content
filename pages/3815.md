@@ -16,7 +16,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -26,7 +26,7 @@ The notion if $(\infty,1)$-Kan extension is the generalization of the notion of 
 
 ## Definition
 
-### General abstract definition
+### General
 
 Independent of any models or concrete realizations chosen, the notion of $(\infty,1)$-Kan extension is intrinsically determined from just the notions of 
 
@@ -45,17 +45,22 @@ The  **right $(\infty,1)$-Kan extension functor** is the right [[adjoint (∞,1)
 Given different incarnations of or models for the notion of [[(∞,1)-category]], there are accordingly different incarnations and models of this general abstract prescription.
 
 
-### In terms of quasi-categories
+#### In terms of quasi-categories
 
 ...
 
-### In terms of Kan-complex enriched categories
+#### In terms of Kan-complex enriched categories
 
 see [[homotopy Kan extension]]
 
-### In terms of simplicial model categories
+#### In terms of simplicial model categories
 
 see [[homotopy Kan extension]]
+
+### Pointwise 
+ {#Pointwise}
+
+([Gonzales 11, around remark 4.2](#Gonzales11), [Hopkins-Lurie 14, section 4](#HopkinsLurie14))
 
 ## Related concepts
 
@@ -65,12 +70,32 @@ see [[homotopy Kan extension]]
 
 ## References
 
-$(\infty,1)$-Kan extensions in terms of quasi-categories are discussed in section 4.3 of
+A general concept of $(\infty,1)$-Kan extensions in terms of quasi-categories are discussed in section 4.3 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
-For simplicially enriched categories and model categories a discussion is in section A.3.3 there.
+For [[simplicially enriched categories]] and [[model categories]] a discussion is in section A.3.3 there.
+
+Pointwise and [[ambidextrous adjunction|ambidextrous]] $\infty$-Kan extensions along maps of [[∞-groupoids]] are discussed in 
+
+* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], section 4 of _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+
+Pointwise [[homotopy Kan extensions]] are discussed in 
+
+* {#Gonzales11} Beatriz Rodriguez Gonzalez, section 4 of _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
+
+See also
+
+* [[Samuel Isaacson]], _A note on unenriched homotopy coends_ ([pdf](http://www.math.uwo.ca/~sisaacso/PDFs/coends.pdf))
 
 [[!redirects (∞,1)-Kan extension]]
 [[!redirects (∞,1)-Kan extensions]]
 [[!redirects (infinity,1)-Kan extensions]]
+
+[[!redirects pointwise (∞,1)-Kan extension]]
+[[!redirects pointwise (∞,1)-Kan extensions]]
+
+[[!redirects pointwise (infinity,1)-Kan extension]]
+[[!redirects pointwise (infinity,1)-Kan extensions]]
+
+
