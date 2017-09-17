@@ -42,7 +42,7 @@ $$
      &\stackrel{\simeq}{\to}& 
     sSpaces   
     &&&&&
-    models;for\;(\infty,1)\text{-}categories
+    models\;for\;(\infty,1)\text{-}categories
   }
   \,,
 $$
@@ -66,7 +66,7 @@ and where
 
 ### Special morphisms ###
 
-Recall frrom the entry on [[dendroidal set]]s the definition of inner and outer faces, boundaries and inner and outer horns.
+Recall from the entry on [[dendroidal set]]s the definition of inner and outer faces, boundaries and inner and outer horns.
 
 The following definition are the obvious generalizations of the corresponding notions for the [[model structure on simplicial sets]], in particular for the [[Andre Joyal|Joyal]] model structure.
 
@@ -309,6 +309,8 @@ between the
 * [[canonical model structure on Operad]],
 
 * [[model structure on operads]]
+
+* [[model structure for dendroidal complete Segal spaces]]
 
 ## References
 
