@@ -48,6 +48,8 @@ For the classical functors which forget algebraic structure, cofree functors are
 
 * the [[free category]] functor $Quiv \to Cat$
 
+* the [[free operad]] functor.
+
 One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [[monad]] on the [[category]] $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes all of thee examples above and many others.
 
 ### For cofree functors
