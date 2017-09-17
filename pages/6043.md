@@ -22,8 +22,30 @@ such that for all $\lambda \in k$, $v,w \in V$ we have
 
 If the third property is not required, one speaks of a **seminorm**.
 
+If the triangle identity is strengthened to 
 
-A vector space equipped with a norm is a **normed vector space**. A [[topological vector space]] is called **(semi-)normed** if its [[topology]] can be induced by a (semi-)norm.
+* ${\vert v + w\vert } \leq max ({\vert v\vert}, {\vert w\vert})$
+
+one speaks of a **non-archimedean** seminorm.
+
+A vector space equipped with a norm is a **normed vector space**. 
+
+Each seminorm determines a [[topology]], which is [[Hausdorff space|Hausdorff]] precisely if it is a norm.
+
+A [[topological vector space]] is called **(semi-)normed** if its [[topology]] can be induced by a (semi-)norm.
+
+Two seminorms ${\vert - \vert}_1$ and ${\vert - \vert}_1$ are called **equivalent** if there is $0 \lt C, C' \in \mathbb{R}$ such that for all $v$ we have
+
+$$
+  C {\vert v \vert}_1 \leq {\vert v \vert}_2
+  \leq C' {\vert v \vert}_1
+  \,.
+$$
+
+Equivalent seminorms determine the same [[topology]].
+
+The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach]]) [[ring]] is called its [[analytic spectrum]] (see there for details).
+
 
 ## Examples
 
@@ -42,6 +64,7 @@ A vector space equipped with a norm is a **normed vector space**. A [[topologica
 * [[Banach space]]
 
 * [[metric]]
+
 
 [[!redirects norms]]
 [[!redirects seminorm]]
