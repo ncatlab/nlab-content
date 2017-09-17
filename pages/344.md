@@ -153,3 +153,9 @@ _Toby_: Sure. Of course, the general concept is $\kappa$-extensive, where $\kapp
 
 [[!redirects infinitary extensive category]]
 [[!redirects infinitary extensive categories]]
+
+[[!redirects positive category]]
+[[!redirects positive categories]]
+[[!redirects positive coherent category]]
+[[!redirects positive coherent categories]]
+
