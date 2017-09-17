@@ -137,6 +137,30 @@ $$ \overset{a}{b} $$
 
 *[[Sandbox]]*{: .paper}
 
+Where does this:
++-- {: style="display: inline"}
+hello world
+=--
+end up?
+
++-- {: .num_theorem #theorem}
+###### Theorem
+Something equals nothing
+=--
+
++-- {: .num_theorem #theorem_theorem}
+###### Theorem
+Something equals nothing
+=--
+
+
+Theorems \ref{theorem} and \ref{theorem_theorem} are equivalent.
+
+#### A Section ####
+{: #secthis}
+
+Section [this](#secthis) is very useful.
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
