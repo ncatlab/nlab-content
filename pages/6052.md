@@ -1,6 +1,6 @@
 ## Idea
 
-A bialgebroid may be viewed as a multiobject generalization of a concept of a [[bialgebra]], or as a space-algebra dual version of the concept of an internal category in spaces.
+A bialgebroid may be viewed as a multiobject generalization of a concept of a [[bialgebra]], or a possibly noncommutative generalization of a space-algebra dual version of the concept of an internal category in spaces.
 
 #### Nomenclature
 
@@ -8,7 +8,7 @@ This entry is about "associative" bialgebroid, see also the different concept of
 
 #### Motivation in Tannakian formalism
 
-When a monoidal category has a [[fiber functor]] to a category of vector spaces over a field, one tries to "reconstruct" the category as the category of representations of the endomorphism object of a fiber functor. One often does not have a fiber functor to vector spaces but only to bimodules over some base algebra $A$. Sometimes in such cases, the object of endomorphisms of the fiber functor form a bialgebroid over $A$ and the category is equivalent to the category of representations of that bialgebroid
+When a monoidal category has a [[fiber functor]] to a category of vector spaces over a field, one tries to "reconstruct" the category as the category of representations of the endomorphism object of a fiber functor. One often does not have a fiber functor to vector spaces but only to bimodules over some base algebra $A$. Sometimes in such cases, the object of endomorphisms of the fiber functor form a bialgebroid over $A$ and the category is equivalent to the category of representations of that bialgebroid.
 
 ## Definition
 
