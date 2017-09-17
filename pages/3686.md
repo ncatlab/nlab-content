@@ -19,8 +19,6 @@
 
 A **symplectomorphism** from a [[symplectic manifold]] $(M,\omega)$ to a symplectic manifold $(N,\nu)$ is a [[diffeomorphism]] $f : M \to N$ preserving the [[sympletic form]]: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
 
-Inasmuch as a symplectic manifold carries a canonical volume form, it is clear that a symplectomorphism is locally volume-preserving. 
-
 ### Auto-symplectomorphisms
 
 The symplectomorphisms from a [[symplectic manifold]] $(X, \omega)$ to itself form an infinite-dimensional [[Lie group]]. Its [[Lie algebra]] is that of [[symplectic vector fields]]: those vector fields $v \Gamma(T X)$ such that their [[Lie derivative]] preserves the [[symplectic form]]
@@ -30,19 +28,33 @@ $$
   \,.
 $$
 
+## Properties
+
+### Preservation of volume
+
+Inasmuch as a symplectic manifold carries a canonical [[volume form]], it is clear that a symplectomorphism is locally volume-preserving. 
+
+
+## Examples
+
+
 ### A curious example: volumes of balls 
 
-The following example, due to Andreas Blass and Stephen Schanuel, is a categorified way to calculate volumes of even-dimensional balls. 
+The following example, due to Andreas Blass and Stephen Schanuel, is a [[categorification|categorified]] way to calculate [[volumes]] of even-dimensional [[balls]]. 
 
-In any dimension $n$, the volume of the unit ball in $\mathbb{R}^n$ (with respect to Lebesgue measure) is 
+In any dimension $n$, the volume of the unit ball in $\mathbb{R}^n$ (with respect to the [[Lebesgue measure]]) is 
 
-$$vol(B_n) = \frac{\pi^{n/2}}{\Gamma(\frac{n}{2} + 1)}$$ 
+$$
+  vol(B_n) = \frac{\pi^{n/2}}{\Gamma(\frac{n}{2} + 1)}
+$$ 
 
 where $\Gamma$ is the [[Euler Gamma function]]. In dimension $2 n$, this gives 
 
-$$vol(B_{2 n}) = \frac{\pi^n}{n!}$$ 
+$$
+  vol(B_{2 n}) = \frac{\pi^n}{n!}
+$$ 
 
-Meanwhile, we may regard $\pi^n$ as the volume of the $n$-dimensional complex polydisc, viz. the $n^{th}$ cartesian power of the complex 1-disc $B_{2} = \{z: {|z|} \leq 1\}$, on which the symmetric group $S_n$ acts by permuting coordinates. The volume of the orbit space $B_2^n/S_n$ is clearly $\pi^n/n!$. 
+Meanwhile, we may regard $\pi^n$ as the volume of the $n$-dimensional complex [[polydisc]], viz. the $n^{th}$ cartesian power of the complex 1-disc $B_{2} = \{z: {|z|} \leq 1\}$, on which the [[symmetric group]] $S_n$ acts by [[permutation|permuting]] [[coordinates]]. The volume of the orbit space $B_2^n/S_n$ is clearly $\pi^n/n!$. 
 
 +-- {: .un_thm}
 ###### Theorem (Blass-Schanuel)
@@ -58,6 +70,8 @@ $$\sum_{j=1}^n d x_j \wedge d y_j = \sum_{j=1}^n r_j d r_j \wedge d\theta_j$$
 is preserved by pulling back along $\phi \colon P_n/S_n \to Q_n$. Since symplectic maps are locally volume-preserving, and since $P_n$ and $Q_n$ are almost all of $B_2^n$ and $B_{2 n}$ respectively, this gives a proof that the volume of $B_{2 n}$ is $\pi^n/n!$ (alternate to standard purely computational proofs). 
 
 ## References 
+
+The relation to volumes of balls is discussed in 
 
 * [[Andreas Blass]] and [[Stephen Schanuel]], On the volumes of balls ([ps](http://www.math.lsa.umich.edu/~ablass/vol.ps)).  
 
