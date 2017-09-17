@@ -144,7 +144,22 @@ In this case,
 * the morphisms in $\int F$ from $(c,a)$ to $(c',a')$ are pairs $(c \overset{f}{\to} c', a \overset{\alpha}{\to} F(f)(a'))$.
 
 
-## The equivalence between fibrations and pseudofunctors
+## Properties
+
+### As a lax colimit
+ {#AsALaxColimit}
+
+The Grothendieck construction on $F : C \to Cat$ is equivalently the [[lax colimit]] of $F$
+
+$$
+  \int F \simeq laxcolim F
+  \,.
+$$
+
+For the moment see [here](http://ncatlab.org/nlab/show/2-limit#2ColimitsInCat) at _[[2-limit]]_ for a little bit more on this.
+
+
+### The equivalence between fibrations and pseudofunctors
 
 One can characterize the _image_ of the Grothendieck construction
 as consisting precisely of those objects in $Cat/C$ that are
@@ -154,7 +169,7 @@ We recall the definition of the [[bicategory]] of Grothendieck fibrations
 and [[pseudofunctor]]s and
 and then state the main equivalence theorem.
 
-### The bicategory of pseudofunctors.
+#### The bicategory of pseudofunctors.
 
 A [[pseudofunctor]] from a 1-[[category]] $C$ to a [[2-category]] ([[bicategory]]) $A$ is nothing but a (non-strict) [[2-functor]] between bicategories, with the ordinary category regarded as a special bicategory.
 
@@ -168,7 +183,7 @@ We write $[C^{op}, A]$ for the [[2-functor]] 2-category from the
 * 2-morphism are [[modification]]s.
 
 
-### The bicategory of fibrations
+#### The bicategory of fibrations
 
 +-- {: .un_defn}
 ###### Definition
@@ -230,7 +245,7 @@ Cartesian lifts are not required to be unique, but are automatically unique up t
 =--
 
 
-### Statement of the equivalence
+#### Statement of the equivalence
 
 
 +-- {: .un_defn}
@@ -277,7 +292,7 @@ The statement itself is theorem 1.3.6 there, all definitions and lemmas are on t
 
 =--
 
-### Model category version
+#### Model category version
 
 For the case of pseudofunctors with values in groupoids, there is a [[model category]] version of the Grothendieck construction discussed in
 
@@ -290,7 +305,7 @@ generalizes to a model category presentation of the
 [[(∞,1)-Grothendieck construction]].
 
 
-## Adjoints to the Grothendieck construction {#adjunction}
+### Adjoints to the Grothendieck construction {#adjunction}
 
 The Grothendieck construction functor
 
@@ -302,7 +317,7 @@ has a [[left adjoint|left]] and a [[right adjoint|right]] [[adjoint functor]].
 
 Restricted to [[Grothendieck fibration]]s and [[fibrations in groupoids]], both of these exhibit the above equivalences as an [[adjoint equivalence]]s. Notice that much of the traditional literature discusses (just) the right adjoint. 
 
-### The left adjoint
+#### The left adjoint
 
 The [[left adjoint]] is the functor
 
@@ -335,7 +350,7 @@ $$
 
 This functor may equivalently be expressed as follows.
 
-#### In terms of a cone construction {#Cone}
+##### In terms of a cone construction {#Cone}
 
 For given $(E \stackrel{p}{\to} C)$ consider the [[(infinity,1)-limit|(3,1)-pushout]]
 
