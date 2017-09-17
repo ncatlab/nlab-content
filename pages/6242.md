@@ -26,7 +26,7 @@ In its traditional and default meaning due to ([Birkhoff-vonNeumann 1936](#Birkh
 
 There is also the proposal ([Heunen-Landsman-Spitters 07](#HeunenLandsmanSpitters07)) that quantum logic should be understood as being the [[internal logic]] of [[Bohr toposes]].
 
-In [[quantum computing]] the quantum analog of classical [[logic gates]] are called _quantum logic gates_.
+In [[quantum computing]] the quantum analog of classical [[logic gates]] are called _[[quantum logic gates]]_.
 
 
 ## History and Critique
@@ -138,6 +138,8 @@ See at _[[Bohr topos]]_ for more.
   * [[Wigner theorem]]
 
 * [[qbit]]
+
+* [[quantum circuit]]
 
 * [[linear logic]], 
 
