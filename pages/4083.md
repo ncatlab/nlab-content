@@ -1,0 +1,3 @@
+An [[algebraic variety]] $X$ over a [[field]] $k$ is __unirational__ if there is a [[dominant rational map of varieties]] $f : P^n_k \dashrightarrow X$.  The class of unirational varieties is a natural generalization of a class of [[rational varieties]]. Usually, it is much easier to decide if the variety is unirational or not, then to decide weather it is rational or not. 
+
+[[!redirects unirational varieties]]
