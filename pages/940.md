@@ -13,7 +13,7 @@ Whereas a coalgebra structure is defined on a [[vector space]] -- which may be r
 
 ## Definition
 
-An __$A$-coring__ is a [[comonoid]] in the [[monoidal category]] of [[bimodule]]s over a fixed (typically noncommutative) unital [[ring]] $A$. 
+An __$A$-coring__ is a [[comonoid]] in the [[monoidal category]] of central [[bimodule]]s over a fixed (typically noncommutative) unital [[ring]] $A$. 
 
 This generalizes the notion of $A$-[[coalgebra]]s which are defined only if $A$ is commutative and where the bimodules in question are [[central bimodule|central]]. 
 
