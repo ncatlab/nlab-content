@@ -39,9 +39,16 @@ Also see [[free loop space object]] for more informaiton.
 
 ## Related concepts
 
-* [[loop space object]] / [[delooping]]
+* [[loop space object]], [[free loop space object]],
 
-* [[free loop space object]] / **derived loop space**
+  * [[delooping]]
+
+  * [[loop space]], [[free loop space]], **derived loop space**
+
+
+* [[suspension object]]
+
+  * [[suspension]]
 
 
 ## References
