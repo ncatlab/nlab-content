@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 A __regular element__ of a [[Heyting algebra]] is an element $x$ such that $\neg{\neg{x}} = x$.
 
 Thus a [[Boolean algebra]] is precisely a Heyting algebra in which every element is regular.
