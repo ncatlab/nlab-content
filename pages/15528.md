@@ -5,7 +5,7 @@
 
 ## Idea
 
-Something weaker than a [[principal ideal domain]]
+Something weaker than a [[principal ideal domain]]: Not _every_ ideal is supposed to be principal, only the finitely generated ones should.
 
 ## References
 
