@@ -89,14 +89,29 @@ It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 
 A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See (or write) [[Tychonoff space]] for more.
 
 
-[[!redirects semiregular space]]
+[[!redirects regular space]]
+[[!redirects regular spaces]]
 [[!redirects R2 space]]
+[[!redirects R2 spaces]]
 [[!redirects T3 space]]
+[[!redirects T3 spaces]]
 [[!redirects regular Hausdorff space]]
+[[!redirects regular Hausdorff spaces]]
 [[!redirects regular topological space]]
+[[!redirects regular topological spaces]]
 [[!redirects regular topology]]
+[[!redirects regular topologies]]
 [[!redirects R2 topology]]
+[[!redirects R2 topologies]]
 [[!redirects T3 topology]]
+[[!redirects T3 topologies]]
 [[!redirects T3 axiom]]
+
 [[!redirects regular locale]]
+[[!redirects regular locales]]
+
+[[!redirects semiregular space]]
+[[!redirects semiregular spaces]]
+
 [[!redirects completely regular space]]
+[[!redirects completely regular spaces]]
