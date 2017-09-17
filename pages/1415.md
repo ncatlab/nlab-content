@@ -6,7 +6,7 @@ One shouldn't leave an SVG here for long.  I don't think that there's much to be
 
 A reasonable rule would be that the author should delete it when they are finished with it, and that the maximum lifespan of a picture here is, say, 1 week.  To make this easier to police, please timestamp your SVGs.
 
-Obviously as we play with these then we'll learn various strategies.  These should be added to the [[FAQ]] or [[HowTo]] pages as appropriate.  Maybe we should have a list of SVGs in the n-Lab so that people can find examples of what can be done and how to do it, this could be commented with [Web directory](http://www.kaoma.it) what has had to be done to get it to work in Instiki.  If someone has a particularly nice example, or one they're particularly proud of, but doesn't really fit into an "honest" page on the n-Lab then may I suggest they put it on their userpage (I'll probably do that with the "map of manifolds" one since it doesn't really fit anywhere else).
+Obviously as we play with these then we'll learn various strategies.  These should be added to the [[FAQ]] or [[HowTo]] pages as appropriate.  Maybe we should have a list of SVGs in the n-Lab so that people can find examples of what can be done and how to do it, this could be commented with  what has had to be done to get it to work in Instiki.  If someone has a particularly nice example, or one they're particularly proud of, but doesn't really fit into an "honest" page on the n-Lab then may I suggest they put it on their userpage (I'll probably do that with the "map of manifolds" one since it doesn't really fit anywhere else).
 
 
 ##### Original import from the [[Sandbox]] #####
