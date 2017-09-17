@@ -23,12 +23,21 @@ If $C$ is a [[finitely complete category]] (a category with all finite limits), 
 
 ## Definition
 
+There are two _different_ definitions that both go by the name _flat functor_  in the literature. For emphasis, we speak here of _representably_ and _internally_ flat functors, following ([Shulman](#Shulman)).
+
+
 +-- {: .num_defn}
 ###### Definition
 
-A [[functor]] $F: C \rightarrow D$ is **flat** if for each [[object]] $d \in D$, the [[opposite category|opposite]] [[comma category]] $(d / F)^{op}$ is a [[filtered category]].
+A [[functor]] $F: C \rightarrow D$ is 
+
+* **representably flat** if for each [[object]] $d \in D$, the [[opposite category|opposite]] [[comma category]] $(d / F)^{op}$ is a [[filtered category]]
+
+* **internally flat** if ...
 
 =--
+
+For instance [Johnstone, C2.3.7 and B3.2.3](#Johnstone), where "internally flat functors" are called "torsors".
 
 +-- {: .num_remark}
 ###### Remark
@@ -114,9 +123,25 @@ A similar statement holds when $C$ is a [[site]] and we extend a co[[continuous 
 
 ## References
 
-Flat functors are the topic of chapter 6 in
+Representbaly flat functors are the topic of chapter 6 in
 
 * [[Francis Borceux]], _Handbook of categorical algebra_ , volume I, _Basic category theory_
 {#Borceux}
 
+Internally flat functors ("torsors") are discussed around B3.2 and representably flat functors around ... in C2.3.7 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ .
+ {#Johnstone}
+
+The difference between internally and representably flat functors is discussed in 
+
+* [[Mike Shulman]], _[Flat Functors and Morphisms of Sites](http://golem.ph.utexas.edu/category/2011/06/flat_functors_and_morphisms_of.html)_
+ {#Shulman}
+
 [[!redirects flat functors]]
+
+[[!redirects internally flat functor]]
+[[!redirects representably flat functor]]
+
+[[!redirects internally flat functors]]
+[[!redirects representably flat functors]]
