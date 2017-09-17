@@ -8,7 +8,7 @@ The dilogarithm is a special case of the _polylogarithm_ $Li_n$ (see [wikipedia]
 
 $$ D(z) := Im(Li_2(z)) + arg(1-z) log |z| $$
 
-The dilogarithm has remarkable relations to many areas of mathematics and mathematical physics including scissors congruence, Reidemeister's torsion, regulators in higher [[algebraic K-theory]], the Bloch group, CFT, Liouville's gravity, hyperbolic geometry and cluster transformations.  
+The dilogarithm has remarkable relations to many areas of mathematics and mathematical physics including [[scissors congruence]], Reidemeister's torsion, regulators in higher [[algebraic K-theory]], the Bloch group, CFT, Liouville's gravity, hyperbolic geometry and cluster transformations.  
 
 See also [[quantum dilogarithm]], the references at [mathworld](http://mathworld.wolfram.com/Dilogarithm.html)
 and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html). 
