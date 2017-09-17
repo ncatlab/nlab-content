@@ -66,16 +66,16 @@ A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilte
 
 ## Relation to nonstandard analysis
 
-In [[nonstandard analysis]] (which implicitly relies throughout on $UF$), one may define a topological space using a relation between hyperpoints (elements of $S^*$) and points (elements of $S$).  If $u$ is a hyperpoint and $x$ is a point, then we write $u \approx x$ or $st(u) = x$ and say that $x$ is a __[[standard part]]__ of $u$.  This relation must satisfy a condition analogous to the condition in the definition of a relational $\beta$-module.  The nonstandard defintions of open set, compact space, etc are also analogous.  (Accordingly, one can speak of *the* standard part of $u$ and use the notation $st(u)$ without difficulty only for Hausdorff spaces.)
+In [[nonstandard analysis]] (which implicitly relies throughout on $UF$), one may define a topological space using a relation between hyperpoints (elements of $S^*$) and standard points (elements of $S$).  If $u$ is a hyperpoint and $x$ is a standard point, then we write $u \approx x$ and say that $x$ is a __[[standard part]]__ of $u$.  This relation must satisfy a condition analogous to the condition in the definition of a relational $\beta$-module.  The nonstandard defintions of open set, compact space, etc are also analogous.  (Accordingly, one can speak of *the* standard part of $u$ and write $st(u) = x$ only for Hausdorff spaces.)
 
-So ultrafilters behave very much like hyperpoints.  This is not to say that ultrafilters *are* (or even can be) hyperpoints, as they don't obey the [[transfer principle]].  Nevertheless, one does use ultrafilters to construct the [[model]]s of nonstandard analysis in which hyperpoints actually live.  Intuitions developed for nonstandard analysis can profitably be applied to ultrafilters, but the transfer principle is not valid in proofs.
+So ultrafilters behave very much like hyperpoints.  This is not to say that ultrafilters *are* (or even can be) hyperpoints, as they don\'t obey the [[transfer principle]].  Nevertheless, one does use ultrafilters to construct the [[model]]s of nonstandard analysis in which hyperpoints actually live.  Intuitions developed for nonstandard analysis can profitably be applied to ultrafilters, but the transfer principle is not valid in proofs.
 
 
 ## Relation to other topological concepts
 
 If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the [[compacta]] (the compact Hausdorff spaces), again assuming $UF$; see [[ultrafilter monad]].
 
-One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between hyperpoints, much as nonstandard topology is based on such a relation between standard points and hyperpoints.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points.
+One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between arbitrary hyperpoints, instead of only a relation between hyperpoints and standard points.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points.
 
 
 [[!redirects relational beta-module]]
