@@ -39,7 +39,8 @@ where
 
 1. $i$ is a [[right inverse]] to a trivial fibration, hence in particular a weak equivalence;
 
-1. $p$ is a fibration.
+1. $p$ is a [[fibration]].
+
 =--
 
 +-- {: .proof}
@@ -62,9 +63,58 @@ $$
   \,.
 $$
 
-With a little diagram gymnastics one shows that the composit vertical morphism is a fibration. Take this to be $p : \hat X \to Y$. 
+Take $p$ to be the composite vertical morphism here:
 
-Notice by the axioms of [[path space object]]s in a [[category of fibrant objects]] that $d_1 : Y^I \to Y$ is a trivial fibration. Since these are stable under pullback, also $\hat X \to X$ is a trivial fibration.
+$$
+  p : \hat X \to Y^I \stackrel{d_0}{\to} Y
+  \,.
+$$
+
+To see that this is indeed a fibration, notice that, by the [[pasting law]], the above pullback diagram
+can be refined to a double pullback diagram as follows
+
+$$
+  \array{
+    \hat X
+     &\stackrel{}{\to}& 
+     X \times Y 
+     &\stackrel{p_1}{\to}& 
+     X
+     \\
+     \downarrow && \downarrow^{(f, Id)} && \downarrow^\mathrlap{f}
+     \\
+     Y^I &\stackrel{(d_0 , d_1) }{\to}&
+     Y \times Y &\stackrel{p_1}{\to}&
+     Y
+     \\
+     \downarrow^{\mathrlap{d_1}} & \swarrow_{p_2}
+     \\
+     Y
+  }
+  \,.
+$$
+
+Both squares are pullback squares. Since
+pullbacks of fibrations are fibrations, the morphism
+$\hat X  \to X \times Y$ is a fibration.
+Similarly, since $Y$ is assumed to be fibrant, also the projection map $p_i : Y \times Y \to Y$ is a fibration. 
+
+Since $p$ is therefore the composite
+
+$$
+  \begin{aligned}
+    p &: \hat X \to X \times Y
+    \stackrel{(f ,Id)}{\to}
+    Y \times Y
+    \stackrel{p_2}{\to}
+    Y
+  \end{aligned}
+$$
+
+of two fibrations, it is itself a fibration.
+
+
+Next, by the axioms of [[path space objects]] in a [[category of fibrant objects]] that $d_1 : Y^I \to Y$ is a trivial fibration. Since these are stable under pullback, also $\hat X \to X$ is a trivial fibration.
 
 But, by the axioms, $Y^I \to Y$ has a right inverse $Y \to Y^I$. By the [[pullback]] property this induces a right inverse of $\hat X \to X$ fitting into a [[pasting]] diagram
 
@@ -154,4 +204,4 @@ See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+
 
 For instance page 4 of
 
-* Kenneth Brown, _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_ .
+* [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_ .
