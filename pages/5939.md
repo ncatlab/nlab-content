@@ -1,0 +1,4 @@
+Let $C$ be a category with pullbacks and with a notion of closed morphism which is stable under composition and contains all the isomorphisms, e.g. the category of schemes. A morphism $f:X\to Y$ in $C$ is __universally closed__ if for every
+$h: Z\to Y$ the pullback $h^*(f): Z\times_Y X\to Z$ is closed. In particular, for $h=id_Y$ we see that a universally closed morphism is closed. 
+
+[[!redirects universally closed morphisms]]
