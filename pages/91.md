@@ -197,6 +197,10 @@ consecutive identity-assigning, source or target maps, respectively.
 
 * [[ribbon graph]]
 
+* [[Theta category]], 
+
+* [[globular theory]], [[globular operad]]
+
 ## References
 
 Tom Leinster: [higher operads, higher categories](http://arxiv.org/pdf/math/0305049)
