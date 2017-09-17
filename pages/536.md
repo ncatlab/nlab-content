@@ -339,6 +339,8 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 * [[generalized algebraic theory]]
 
+* [[globular theory]]
+
 * [[monad]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
