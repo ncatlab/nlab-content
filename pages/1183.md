@@ -211,7 +211,11 @@ A standard reference on 2-dimensional [[string]] $\sigma$-models is
   [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+Further discussion of sigma-models in the context of [[string theory]] is for instance in 
+
 * C. Callan, L. Thorlacius, _Sigma models and string theory_, Particles, Strings and Supernovae, Volumes I and II. Proceedings of the Theoretical Advanced Study Institute in Elementary Particle Physics, held June 6 - July 2, 1988, at Brown University, Providence, Rhode Island. Edited by A. Jevicki and C.-I. Tan. Published by World Scientific, New York, 1989, p.795 ([pdf](http://www.damtp.cam.ac.uk/user/tong/string/sigma.pdf))
+
+* [[Arkady Tseytlin]], _Sigma model approach to string theory effective actions with tachyons_, J. Math.Phys.42:2854-2871 (2001) ([arXiv:hep-th/0011033](http://arxiv.org/abs/hep-th/0011033))
 
 First indications on how to formalize $\sigma$-models in a [[higher category theory|higher categorical]] context were given in
 
