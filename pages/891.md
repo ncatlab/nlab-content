@@ -20,4 +20,6 @@ These notions have generalizations when $C$ is an [[(∞,1)-category]]:
 
 [[!redirects quotient objects]]
 [[!redirects effective quotient]]
+[[!redirects effective quotients]]
 [[!redirects quotient]]
+[[!redirects quotients]]
