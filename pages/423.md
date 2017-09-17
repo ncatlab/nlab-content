@@ -1,6 +1,10 @@
 [[!include contents]]
 
 
+This page is about topology as a **field of mathematics**.  For topology as a **structure**, see [[topological space]].
+
+***
+
 __Topology__ is one of the basic fields of [[mathematics]].  The term is also used for a particular structure in a [[topological space]]; see [[topological structure]] for that.
 
 The subject of topology deals with the expressions of continuity and boundary, and studying the geometric properties of spaces and relations of subspaces, which do not change under continuous deformations, regardless to the changes in metric properties. Topology as a structure enables one to model continuity and convergence locally. In metric spaces, recently topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
