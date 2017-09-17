@@ -53,7 +53,7 @@ $$Conn(x) \subseteq QConn(x)$$
 
 and that equality holds if $X$ is [[compact Hausdorff space|compact Hausdorff]] or is locally connected (see below). 
 
-For an example where $Conn(c) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
+For an example where $Conn(x) \neq QConn(x)$, take $X$ to be the following [[subspace]] of $[0, 1] \times [0, 1]$: 
 
 $$X = \{(0, 0), (0, 1)\} \cup \bigcup_{n \geq 1} \{1/n\} \times [0, 1]$$ 
 
