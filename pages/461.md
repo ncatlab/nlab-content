@@ -23,7 +23,7 @@ The empty set can be confusing, because it is a degenerate case. Indeed, it is d
 
 In terms of the empty set one can give sense to the [[natural number object|natural number]] expression $0^0$, the [[exponentiation]] of [[zero]] with itself, by defining the [[cartesian closed category|exponential]] $m^n$ to be the [[cardinality]] of the [[hom-set]] $\hom_{Set}([m], [n])$ where $[m]$ is an $m$-element set. Then $0^0 = 1$ because $\emptyset$ is an [[initial object]]. 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Endless debates (as seen for example at sci.math) about the meaning of $0^0$ are most easily resolved by paying attention to how exponentiation (in a [[ring]] or [[rig]] that admits [[exponentiation]]) is defined. We have just observed how $0^0 = 1$ makes good sense in the rig of natural numbers. But exponentiation for the [[real number]] field ($x^y$ for $x \gt 0$) is standardly defined by continuity considerations, and cannot be continuously extended to cover $0^0$. Of course, that has nothing to do with the empty set! 
@@ -34,7 +34,7 @@ Endless debates (as seen for example at sci.math) about the meaning of $0^0$ are
 
 In [[set theory]] as a [[foundation of mathematics]], the existence of the empty set is often taken as an axiom, the __axiom of the null set__.  Actually, this axiom can be written in such a simple way that the name seems unmotivated:
 
-+-- {: .un_axiom}
++-- {: .num_axiom}
 ###### Axiom (null set)
 
 There exists a set.
@@ -46,6 +46,11 @@ In some axiomatic frameworks, even this is unnecessary; while it makes little se
 
 Alternatively, since the [[axiom of infinity]] states the existence of a set (and is often phrased to state explicitly the existence of an empty set), then the axiom of the null set becomes unnecessary for another reason.
 
+## Related concepts
+
+* [[empty type]]
+
+* [[empty function]]
 
 category: foundational axiom
 
