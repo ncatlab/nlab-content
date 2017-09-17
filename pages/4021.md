@@ -33,6 +33,7 @@ Notice that in this respect probability theory has a similar status as (other(?!
 ...
 
 ## Theory ##
+
 ### Basic theory
 
 [[measure space]], [[probability space]], [[Radon-Nikodym derivative]]
@@ -44,11 +45,11 @@ Notice that in this respect probability theory has a similar status as (other(?!
 
 (...)
 
-##Statistical Manifolds##
+## Statistical Manifolds 
 
 Families of probability distributions often form statistical models, that is, submanifolds of the space of all probability measures on a sample space. Techniques from [[differential geometry]] may be applied in a theory known as [[information geometry]].
 
-##Probability theory from the nPOV##
+## Probability theory from the nPOV 
 
 We describe here some perspectives on probability theory from the [[nPOV]].
 
@@ -104,8 +105,12 @@ Voevodsky has also worked on a category theoretic treatment of probability theor
 
 >...a categorical study of probability theory where "categorical" is understood in the sense of category theory. Originally, I developed this approach to probability to get a better understanding of the constructions which I had to deal with in population genetics. Later it evolved into something which seems to be also interesting from a purely mathematical point of view. On the elementary level it gives a category which is useful for the work with probabilistic constructions involving complicated combinations of stochastic processes of different types. On a more advanced level, applying in this context the old idea of a functor as a generalized object one gets a better view of the relationship between probability and the theory of (pre-)ordered topological vector spaces. 
 
+## Related concepts
 
-###References###
+* [[expectation value]], [[cumulant]]
+
+
+## References
 
 * The Metric Monad for Probabilistic Nondeterminism by Franck van Breugel, where we see both the Lawvere/Giry monad and Panangaden's monad.
 
