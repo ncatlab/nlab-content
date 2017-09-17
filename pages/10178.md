@@ -944,11 +944,11 @@ requires that pullback in [[twisted K-theory|twisted]] [[groupoid K-theory]] sat
 
 Here we list sufficient conditions for this to be the case
 
-* for correspondences of manifolds: ([Connes-Skandalis 84](#ConnesSkandalis84))
+* for untwisted correspondences of manifolds: ([Connes-Skandalis 84](#ConnesSkandalis84))
 
-* for correspondences of equivariant manifolds: ([Emerson-Meyer 08](#EmersonMeyer08))
+* for untwisted correspondences of equivariant manifolds: ([Emerson-Meyer 08](#EmersonMeyer08))
 
-* for correspondences of [[moduli stacks of flat connections]]: ([Freed-Hopkins-Teleman 07](#FreedHopkinsTeleman07))
+* for twisted correspondences of [[moduli stacks of flat connections]]: ([Freed-Hopkins-Teleman 07](#FreedHopkinsTeleman07))
 
 (...)
 
