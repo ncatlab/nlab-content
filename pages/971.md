@@ -9,7 +9,7 @@
 
 ## Idea 
 
-An accessible [[category]] is a possibly [[large category]] which is however essentially determined by a [[small category]].  There are several ways to make this precise, all equivalent.
+An accessible [[category]] is a possibly [[large category]] which is however essentially determined by a [[small category]], in a certain way.  There are several ways to make this precise, all equivalent.
 
 ## Definition 
 
