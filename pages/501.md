@@ -120,6 +120,8 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[finite CW-complex]], [[finite spectrum]]
 
+* [[profinite set]]
+
 [[!redirects finite set]]
 [[!redirects finite sets]]
 [[!redirects Bishop-finite set]]
