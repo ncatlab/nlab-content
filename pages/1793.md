@@ -904,3 +904,6 @@ A model structure on noncommutative [[dg-algebra]]s whose proof strategy is usef
 [[!redirects model structure on unbounded chain complexes]]
 [[!redirects model structures on unbounded chain complexes]]
 
+[[!redirects projective model structure on chain complexes]]
+[[!redirects injective model structure on chain complexes]]
+
