@@ -25,7 +25,7 @@ Been a while since I thought about getting a good graphics engine here in inStik
 
 * You draw a picture using your favourite method (TikZ, Inkscape, etc.)
 
-* You export it as an svg file.
+* You export it as an svg file [berber carpet](http://www.berber-carpets.com/).
 
 * You copy and paste this svg text into the nLab page you are editing.
 
