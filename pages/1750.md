@@ -45,7 +45,7 @@ is a [[morphism of fibrations]].
 
 * The canonical map $i \colon p \to B/p$ has a right adjoint in $K / B$.
 
-* $p \colon E \to B$ is an algebra for the [[2-monad]] $L$ on $K/B$ given by $L p = A/p$.
+* $p \colon E \to B$ is an algebra for the [[2-monad]] $L$ on $K/B$ given by $L p = B/p$.
 
 If $K$ is a [[strict 2-category]] with finite strict 2-limits, then we say that $p \colon E \to B$ is a **strict fibration** when the corresponding conditions hold where "Street fibration" is replaced by "Grothendieck fibration", slice 2-categories are replaced by strict-slice 2-categories, comma objects are replaced by strict comma objects, and 2-pullbacks are replaced by strict 2-pullbacks.  In this case the 2-monad $L$ is in fact a strict 2-monad, but we do *not* require $p$ to be a *strict* algebra, only a [[pseudoalgebra]]; strict algebras for $L$ would instead be [[split fibrations]].
 
