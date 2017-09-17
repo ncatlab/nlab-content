@@ -29,9 +29,13 @@ $$
   |B|=inf\left\{\sum_{j=1}^{\infty}|I_{j}|:B \subseteq \bigcup_{j=1}^{\infty} I_{j}\right\}.
 $$
 
-Note that once the Lebesgue measure for is known for open sets, the outer regularity property allows us to find it for all Borel sets.
+Note that once the Lebesgue measure is known for open sets, the outer regularity property allows us to find it for all Borel sets.
 
 ##References
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Lebesgue_measure).
 * [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1385&Focus=11747#Comment_11747)
+
+For a very intuitive and readable derivation, see:
+
+* R. Strichartz, _The Way of Analysis_, Jones & Bartlett, 2000.
