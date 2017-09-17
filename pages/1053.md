@@ -15,7 +15,7 @@
 
 
 # Contents
-* table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -301,6 +301,11 @@ The original article is
 
 *  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
  {#Girard}
+
+A review is in 
+
+* [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
+ {#Girard11}
 
 The [[categorical semantics]] of linear logic in [[star-autonomous categories]] is due to 
 
