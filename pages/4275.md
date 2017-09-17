@@ -223,15 +223,19 @@ $$
 ### The Hirzebruch formula
  {#HirzebruchFormula}
 
-The central theorem of ([Hirzebruch 66](#Hirzebruch66)) expresses the genus of an arbitrary manifold $X$ via the formula
+The central theorem of ([Hirzebruch 66](#Hirzebruch66)) expresses the genus of an arbitrary ([[cobordism class]] of a) manifold $X$ of [[dimension]] $2n$ via the formula
 
 $$
   \phi(X)
   =
-  \langle K_\phi(T X), [X] \rangle
+  \langle \prod_{i = 1}^n K_\phi(x_i(T X)), [X] \rangle
 $$
 
-in terms of the Hirzebruch characteristic series $K_\phi$ discussed [above](#LogarithmAndCharacteristicSeries).
+in terms of the Hirzebruch characteristic series $K_\phi$ discussed [above](#LogarithmAndCharacteristicSeries), and via the [[splitting principle]]:
+
+This means that $\prod_{i = 1}^n K_\phi(x_i(T X))$ is the function of [[Chern classes]] $c_k$ (i.e. [[Pontryagin classes]] $P_{2k}$ and [[Euler classes]] $\chi$) obtained by rewriting the [[polynomial]] in the $x_i$ (the "[[Chern roots]]") as a polynomial in [[elementary symmetric polynomials]] $\sigma_k(x_1,\cdots, x_n)$ and then substituting for each of these by $c_k(T X)$.
+
+(see also e.g. [ManifoldAtlas -- Genera -- 4.1 Construction](http://www.map.mpim-bonn.mpg.de/Formal_group_laws_and_genera#Construction)).
 
 ## Examples
 
