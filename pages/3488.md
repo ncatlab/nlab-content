@@ -135,7 +135,6 @@ For a more exhaustive list of extra structures see
 * [[schreiber:structures in an (∞,1)-topos]].
 
 [[!redirects locally connected topos]]
-[[!redirects connected topos]]
 [[!redirects locally n-connected (∞,1)-topos]]
 [[!redirects locally contractible (infinity,1)-topos]]
 [[!redirects locally contractible (∞,1)-topos]]
