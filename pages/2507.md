@@ -55,6 +55,9 @@ As opposed to ordinary [[Minkowski space]], the [[de Rham cohomology]] of super-
 
 * [[Daniel Freed]], _Lecture 4 of [[Five lectures on supersymmetry]]_
 
+* [[Veeravalli Varadarajan]], section 7 of _Supersymmetry for mathematicians: An introduction_
+
+
 page 370, part II section II.3.3 of
 
 * [[Leonardo Castellani]], [[Riccardo D'Auria]], _[[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]_
