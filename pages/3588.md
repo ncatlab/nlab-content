@@ -5,7 +5,7 @@
 
 * [[theory]]
 
-  * [[signature (in logic)|signature]], [[type]], [[context]], [[axiom]], [[proposition]], [[proof]]
+  * [[signature (in logic)|signature]], [[type]], [[context]], [[judgment]], [[axiom]], [[proposition]], [[proof]]
 
 [[!include types and logic - table]]
 
