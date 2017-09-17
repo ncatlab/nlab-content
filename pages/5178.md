@@ -15,13 +15,46 @@
 
 ## Idea
 
-When doing [[category theory]] relative to a base [[topos]] $S$ (or other more general sort of [[category]]), the objects of $S$ are thought of as replacements for [[sets]].  Since often in category theory we need to speak of "a set-indexed family of objects" of some category, we need a corresponding notion in "category theory over $S$."  An **$S$-indexed category** is a category $\mathbb{C}$ together with, for every object $X\in S$, a notion of "$X$-indexed family of objects of $\mathbb{C}$."
+When doing [[category theory]] relative to a  [[base topos]] $S$ (or other more general sort of [[category]]), the objects of $S$ are thought of as replacements for [[sets]].  Since often in category theory we need to speak of "a set-indexed family of objects" of some category, we need a corresponding notion in "category theory over $S$."  An **$S$-indexed category** is a [[category]] $\mathbb{C}$ together with, for every [[object]] $X\in S$, a notion of "$X$-indexed family of objects of $\mathbb{C}$."
 
 ## Definition
 
-For any category $S$, an **$S$-indexed category** is simply a [[pseudofunctor]] $S^{op}\to Cat$.  (Equivalently, we may think of it as a [[Grothendieck fibration]] over $S$, and this is sometimes convenient.)  We write the image of $X\in S$ as $\mathbb{C}^X$ and call it "the category of $X$-indexed families of objects of $\mathbb{C}$."  Similarly, we write the image of a morphism $u\colon X\to Y$ as $u^*\colon \mathbb{C}^Y\to \mathbb{C}^X$.
+Let $S$ be a [[category]].
 
-Similarly, an [[indexed functor]] is a [[pseudonatural transformation]], and an indexed natural transformation is a [[modification]].  This defines the [[2-category]] $S IndCat$ of $S$-indexed categories.
++-- {: .num_defn}
+###### Definition
+
+An **$S$-indexed category** $C$ is a [[pseudofunctor]] 
+
+$$
+  \mathbb{C} : S^{op}\to Cat
+$$
+
+from the [[opposite category]] of $S$ to the [[2-category]] [[Cat]] of categories.
+
+Under the [[Grothendieck construction]] [[equivalence of categories|equivalence]] this is equivalently a [[fibered category]] 
+
+$$
+  \array{
+    \tilde \mathbb{C} \\ \downarrow \\ S
+  }
+$$
+
+over $S$.
+
+Similarly, an $S$-[[indexed functor]] $\mathbb{C} \to \mathbb{D}$ is a [[pseudonatural transformation]] of pseudofunctors, and an indexed natural transformation is a [[modification]].  
+
+This defines the [[2-category]] $S IndCat := [S^{op}, Cat]$ of $S$-indexed categories.
+
+
+=--
+
+This appears for instance as ([Johnstone, def. B1.2.1](#Johnstone)).
+
+One may also call $\mathbb{C}$ a [[prestack]] in categories over $S$.
+
+Traditionally one writes the image of $X\in an object S$ under $\mathbb{C}$ as $\mathbb{C}^X$ and calls it _the category of $X$-indexed families of objects of $\mathbb{C}$_ .  Similarly, one write thes image of a [[morphism]] $u\colon X\to Y$ as $u^*\colon \mathbb{C}^Y\to \mathbb{C}^X$.
+
 
 ## Examples
 
@@ -36,6 +69,6 @@ Similarly, an [[indexed functor]] is a [[pseudonatural transformation]], and an 
 Section B1.2 in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
-
+ {#Johnstone}
 
 [[!redirects indexed categories]]
