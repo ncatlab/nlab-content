@@ -96,13 +96,13 @@ Compare [[universal principal ∞-bundle]].
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
-* [[principal 3-bundle]] / [[bundle 2-gerbe]]
+* [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
 
 * [[principal ∞-bundle]] / **associated $\infty$-bundle
 
 * [[vector bundle]]
 
-* [[(∞,1)-vector bundle]] / **$(\infty,n)$-vector bundle**
+* [[(∞,1)-vector bundle]] / **associated $\infty$-bundle** / [[∞-gerbe]]
 
 ## References
 
