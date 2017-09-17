@@ -323,7 +323,7 @@ Let $U_\bullet : K \to Conc(\mathbf{H})$ be a [[diagram]] such that
 the [[(∞,1)-colimit]]
 $\lim_\to inj \circ U_\bullet$ is concrete, $\cdots \simeq inj(X)$.
 
-Then the [[schreiber:path ∞-groupoid|fundamental ∞-groupoid]] of $X$ is computed as the $(\infty,1)$-colimit
+Then the [[fundamental ∞-groupoid]] of $X$ is computed as the $(\infty,1)$-colimit
 
 $$
   \Pi(X) \simeq {\lim_\to} \Pi(U_\bullet)
@@ -1713,10 +1713,10 @@ infinitesimal $\infty$-Lie groupoids: [[∞-Lie algebroid]]s $\mathbf{B}\mathfra
 
 ### Lie theory, Differential cohomology and Chern-Weil theory
 
-Every cohesiver $(\infty,1)$-topos provides an internal notion of
+Every cohesive $(\infty,1)$-topos provides an internal notion of
 [[ordinary differential cohomology]], [[Lie theory]] and [[Chern-Weil theory]]. See
 
-* [[schreiber:differential cohomology in an (∞,1)-topos -- survey]].
+* [[schreiber:differential cohomology in a cohesive topos]].
 
 ### Fundamental physics and gauge theory
 
