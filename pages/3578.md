@@ -414,7 +414,13 @@ This is due to [[Andre Joyal]], recalled as [[Higher Topos Theory|HTT, prop 2.1.
 
 
 
+
 [[!redirects left fibration]]
+[[!redirects left fibrations]]
 [[!redirects left Kan fibration]]
+[[!redirects left Kan fibrations]]
+
 [[!redirects right fibration]]
+[[!redirects right fibrations]]
 [[!redirects right Kan fibration]]
+[[!redirects right Kan fibrations]]
