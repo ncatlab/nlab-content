@@ -15,16 +15,16 @@
 
 ## Definition
 
-Let $C$ be [[coherent category]]. Write $\tau C$ for the [[full subcategory]] of its category of [[filters]] on the [[prime filters]]. Jet $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
+Let $C$ be a [[coherent category]].  Write $\tau C$ for the category whose objects are pairs $(X,F)$ where $X$ is an object of $C$ and $F$ is a [[prime filter]] on $Sub_C(X)$.  This is the full subcategory of the [[category of filters]] of $C$ spanned by the prime filters.  Jet $J_p$ be the [[Grothendieck topology]] on $\tau C$ induced from the [[coherent topology]] on the category of filters. 
 
-The **topos of types** $T(C)$ of $C$ is the [[sheaf topos]]
+As defined by [Makkai](#Makkai), the **topos of types** $T(C)$ of $C$ is the [[sheaf topos]]
 
 $$
   T(C) := Sh_{J_p}(\tau C)
   \,.
 $$
 
-([Makkai](#Makkai)).
+**Note:** The word "types" here has nothing to do with [[type theory]].  Instead, it is apparently a reference to the notion of [type in model theory](http://en.wikipedia.org/wiki/Type_%28model_theory%29)
 
 ## Properties
 
