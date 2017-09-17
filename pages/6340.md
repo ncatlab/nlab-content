@@ -190,6 +190,11 @@ A general introduction with an emphasis of indices as [[Gysin maps]]/[[fiber int
 * [[Chris Kottke]], _Talbot Workshop 2010 Talk 2: K-Theory and Index Theory_ ([arXiv:1010.5002](http://arxiv.org/abs/1010.5002))
  {#Kottke}
 
+Textbook accounts include chapter III of
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+
+
 A standard textbook account of the description of indices of [[Dirac operators]] as [[partition functions]] in [[supersymmetric quantum mechanics]] is 
 
 * [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], _Heat Kernels and Dirac Operators_, Springer Verlag Berlin (2004)
