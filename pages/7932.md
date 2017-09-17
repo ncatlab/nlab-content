@@ -750,6 +750,8 @@ of $\infty$-actions is the _[[Borel model structure]]_ ([DDK 80](#DDK80)).
 
 * [[induced representation]]
 
+* [[equivariant homotopy theory]]
+
 * [[equivariant cohomology]]
 
   * [[group cohomology]]
