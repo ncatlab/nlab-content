@@ -82,9 +82,13 @@ A similar construction is possible for [[bounded geometric morphism|bounded]] to
 
 ## Related concepts
 
+* [[essential geometric morphism]]
+
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
 * [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+* [[totally connected topos]] / [[totally connected (∞,1)-topos]]
 
 * **local topos** / [[local (∞,1)-topos]].
 
