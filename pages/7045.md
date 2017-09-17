@@ -59,6 +59,10 @@ In [[homotopy type theory]] the type of types $Type$ is often assumed to satisfy
 
 * [[Erik Palmgren]], _On Universes in Type Theory_  ([pdf](http://www2.math.uu.se/~palmgren/universe.pdf))
 
+Detailed discussion of the type of types in [[Coq]] is in
+
+* [[Adam Chlipala]], _[Certified programming with dependent types](http://adam.chlipala.net/cpdt/)_ -- _[Library Universes](http://adam.chlipala.net/cpdt/html/Universes.html)_ 
+
 [[!redirects types of types]]
 [[!redirects universe of types]]
 [[!redirects universes of types]]
