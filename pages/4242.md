@@ -40,12 +40,10 @@ A summary of these two reviews is in
 
 The B-model on [[genus]]-0 [[cobordism]]s had been constructed in
 
-* S. Barannikov, [[Maxim Kontsevich]], _Frobenius manifolds and formality of Lie algebras of polyvector fields_ , (1997), [arXiv:math.QA/9710032](http://arxiv.org/abs/alg-geom/9710032)
-
-
+* S. Barannikov, [[Maxim Kontsevich]], _Frobenius manifolds and formality of Lie algebras of polyvector fields_ ,  Internat. Math. Res. Notices  1998,  no. 4, 201--215; [math.QA/9710032](http://arxiv.org/abs/alg-geom/9710032) [doi](http://dx.doi.org/10.1155/S1073792898000166)
 
 The construction of the B-model as a [[TCFT]] on [[cobordism]]s of arbitrary [[genus]] was given in 
 
-* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:math/0509264](http://arxiv.org/abs/math/0509264))
+* [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([math.QA/0509264](http://arxiv.org/abs/math/0509264))
 
 Overflow discussion: [higher-genus-closed-string-b-model](http://mathoverflow.net/questions/8692/higher-genus-closed-string-b-model)
