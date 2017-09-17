@@ -43,7 +43,7 @@ By [[homological mirror symmetry]], the B-model is dual to the  [[A-model]].
 ### Second quantization / effective background field theory
 
 
-The [[second quantization]] [[effective field theory]] defined by the [[perturbation series]] of the B-model is supposed to be "Koderira-Spencer gravity" / "BVOC theory" in 6d ([BCOV 93](#BCOV93), [Costello-Lie 12](#CostelloLi12))
+The [[second quantization]] [[effective field theory]] defined by the [[perturbation series]] of the B-model is supposed to be "Kodaira-Spencer gravity" / "BVOC theory" in 6d ([BCOV 93](#BCOV93), [Costello-Lie 12](#CostelloLi12))
 
 ## Related concepts
 
