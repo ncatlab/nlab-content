@@ -1,0 +1,30 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
+=--
+=--
+
+A _compact element_ in a [[poset]] $P$ is a [[compact object]] in the poset regarded as a [[(0,1)-category]]: homs out of it commute with [[directed colimit|directed]] [[joins]]:
+
+$c \in P$ is compact precisely if for every directed subset $\{d_i\}$ of $P$ we have
+
+$$
+  (c \leq \vee_i d_i )
+  \Leftrightarrow
+  \vee_i (c \leq d_i)
+  \,.
+$$
+
+[[!redirects compact elements]]
+ 
+
