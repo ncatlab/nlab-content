@@ -1,34 +1,33 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Geometric quantization
-+--{: .hide}
++-- {: .hide}
 [[!include geometric quantization - contents]]
 =--
 #### Quantum field theory
-+--{: .hide}
++-- {: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
 #### Physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 The notion of _[[quantum field theory]]_ exists without reference to any predefined notion of _[[configuration space]]_ of _[[quantum fields]]_, _[[action functional]]_, _[[phase space]]_ etc.: 
 
-a [[quantum field theory]] in [[FQFT]]-[[axiomatization]] is simply a consistent assignment of [[spaces of quantum states]], whereas in [[AQFT]]-[[axiomatization]] it is a consistent assignment of [[algebras of quantum observables]], and that's it. 
+A [[quantum field theory]] in [[FQFT]]-[[axiomatization]] is simply a consistent assignment of [[spaces of quantum states]], whereas in [[AQFT]]-[[axiomatization]] it is a consistent assignment of [[algebras of quantum observables]], and that's it. 
 
-However, most (or maybe all?) quantum field theories of interest in actual [[physics]] (as opposed to as devices of pure [[mathematics]]) are not random models of these axioms, but do arise under a process called [[quantization]] from a ([[local Lagrangian]]/[[extended Lagrangian|extended]]) [[Lagrangian]], hence from an [[action functional]], defned on a [[configuration space]] of [[quantum fields]], or do arise as [[holographic duals]] of quantum field theories that arise by quantization. Moreover, the extra information provided by the Lagrangian is commonly used (and is maybe strictly necessary) to interpret the mathematical structure of the axiomatic QFT in actual [[physics]] (though notably in [[AQFT]] there are results that re-extract at least parts of this data from the axiomatic QFT, for instance the [[Doplicher-Roberts reconstruction theorem]] which extract the [[global gauge group]] from the [[local net of quantum observables]]).
+However, most (or maybe all?) quantum field theories of interest in actual [[physics]] (as opposed to as devices of pure [[mathematics]]) are not random models of these axioms, but do arise under a process called [[quantization]] from a ([[local Lagrangian|local]]/[[extended Lagrangian|extended]]) [[Lagrangian]], hence from an [[action functional]], defned on a [[configuration space]] of [[quantum fields]], or else arise as [[holographic duals]] of quantum field theories that arise by quantization. Moreover, the extra information provided by the Lagrangian is commonly used (and is maybe strictly necessary) to interpret the mathematical structure of the axiomatic QFT in actual [[physics]] (though notably in [[AQFT]] there are results that re-extract at least parts of this data from the axiomatic QFT, for instance the [[Doplicher-Roberts reconstruction theorem]] which extract the [[global gauge group]] from the [[local net of quantum observables]]).
 
 There are in turn two formalizations of the notion of [[quantization]]: _algebraic [[deformation quantization]]_ and _[[geometric quantization]]_. In the latter one speaks of _[[prequantization]]_ when referring to a precursor step to the actual quantization step, in which the [[symplectic form]] on [[phase space]] is lifted from to [[differential cohomology]], hence to a [[prequantum bundle]]. But in the context of [[higher geometry]] and [[higher geometric quantization]] this prequantization step is already part of the data of the [[Lagrangian]] itself: an [[extended Lagrangian]] already encodes not just the [[action functional]] but also the [[prequantum bundle]] and all the [[prequantum n-bundle|prequantum (n-k)-bundles]] in each [[dimension]] $k$. The action functional itself is the _[[prequantum 0-bundle]]_  in this context.
 
@@ -54,7 +53,6 @@ This is summarized in the following table:
 (...)
 
 
-
 ## References
 
 Lecture notes with more details are in the section _[Lagrangians and Action functionals](geometry+of+physics#LagrangiansAndActionFunctionals)_ of 
@@ -62,7 +60,7 @@ Lecture notes with more details are in the section _[Lagrangians and Action func
 * _[[geometry of physics]]_
 
 
-
+[[!redirects prequantum field theory]]
 [[!redirects prequantum field theories]]
 [[!redirects extended prequantum field theory]]
 [[!redirects extended prequantum field theories]]
