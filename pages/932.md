@@ -30,7 +30,7 @@
 
 For $(\mathfrak{g}, [-,-],\partial)$ a [[dg-Lie algebra]] (the [[differential]] of degree -1), a **Maurer-Cartan element** in $\mathfrak{g}$ is
 
-* an element $v \in \mathfrak{g}_1$ of degree -1
+* an element $a \in \mathfrak{g}_1$ of degree -1
 
 * such that the **Maurer-Cartan equation** holds
 
