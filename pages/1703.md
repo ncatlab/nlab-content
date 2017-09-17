@@ -3,12 +3,16 @@
 </div>
 
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _principal 2-bundle_ is a [[vertical categorification|categorification]] of a [[principal bundle]]. It is closely related to and in fact a generalization (in the case of a single group rather than a sheaf of groups) of the concept [[gerbe]] (although that concept could easily be further generalised to match). See [[gerbe (general idea)]] for more background.
 
 
-#Definition#
+## Definition
 
 Recall first the situation for ordinary [[principal bundles]]:
 
@@ -88,7 +92,17 @@ Still more explicit descriptions of these constructions are given in
 
 * Christoph Wockel, _A global perspective to gerbes and their gauge stacks_ ([arXiv](http://arxiv.org/abs/0803.3692)) .
 
-# Connections #
+These constructions either work internal to [[Diff]] or internal to some [[topos]].
+
+More generally, a principal 2-bundle is a ([[n-truncated object of an (infinity,1)-category|2-truncated]] [[principal ∞-bundle]]) in a [[(∞,1)-topos]] of [[∞-stack]]s over some [[site]].
+
+This is for instance in
+
+* [[Behrang Noohi]], E. Aldrovandi, _Butterflies II: Torsors for 2-group stacks_,[arXiv](http://arxiv.org/abs/0910.1818)
+
+Notice that [[torsor]] is just another word for (internal) [[principal bundle]].
+
+## Connections 
 
 An ordinary [[principal bundle]] may be equipped with a [[connection on a bundle|connection]] by refining the cocycle
 
