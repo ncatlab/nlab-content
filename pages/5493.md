@@ -25,7 +25,9 @@ A [[Gray-category]] does not have an underlying [[strict 2-category]], but it do
 
 The name 'sesquicategory' literally means $1\frac{1}{2}$-category, although they are actually *more* general than $2$-categories (which are of course more general than $1$-categories).  Probably the reason for the name is that a sesquicategory is "part of the way" from a 1-category to a 2-category; you add the 2-cells and some of the structure, but you leave out one of the axioms.
 
-The paper below shows how a sesquicategory arises from a whiskered category. 
+The paper by Stell shows the relation with rewriting. 
+
+The paper by Brown shows how a sesquicategory arises from a whiskered category. 
 
 ## References
 
