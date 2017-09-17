@@ -11,39 +11,27 @@
 
 ## Definition and Properties
 
-There are several versions of this, some of which we describe by appeal to the diagram 
+### For simplicial complexes
 
-$$SimpComplex \stackrel{\overset{U}{\to}}{\underset{Flag}{\leftarrow}} Pos \stackrel{\overset{nerve}{\to}}{\underset{Face}{\leftarrow}} Set^{\Delta^{op}}$$
+Subdivision is easiest to define for [[simplicial complexes]].  We have a pair of [[functors]]
 
-In this diagram, 
+$$SimpComplex \stackrel{\overset{U}{\to}}{\underset{Flag}{\leftarrow}} Pos$$ 
 
-* The [[functor]] $U$ sends a [[simplicial complex]] $(V, \Sigma)$ to $\Sigma$, regarded as a [[poset]] ordered by inclusion, 
+where
 
-* The functor $Flag$ sends a poset $P$ to the simplicial complex whose vertex set is $P$ and whose [[simplex|simplices]] are the underlying sets $\{x_0, \ldots, x_n\}$ of flags $x_0 \lt \ldots \lt x_n$, 
+* The functor $U$ sends a [[simplicial complex]] $(V, \Sigma)$ to $\Sigma$, regarded as a [[poset]] ordered by inclusion, and
 
-* The functor $Face$ sends a [[simplicial set]] $X$ to the poset whose elements are nondegenerate simplices (elements) of $X$, ordered by $x \leq y$ if there is some monomorphism $i: [m] \to [n]$ such that $X(i)(y) = x$. 
+* The functor $Flag$ sends a poset $P$ to the simplicial complex whose vertex set is $P$ and whose [[simplex|simplices]] are the underlying sets $\{x_0, \ldots, x_n\}$ of flags $x_0 \lt \ldots \lt x_n$.
 
-* The functor $nerve$ is the usual [[nerve]] functor restricted to the category of posets [[Pos]] $\hookrightarrow$ [[Cat]] .
+The composite $Flag \circ U$ is called the **subdivision** $Sd$; it is an endofunctor of $SimpComplex$.  Note that the vertices of $Sd(X)$ are the simplices of $X$.  We also have ${|Sd(X)|} \cong {|X|}$, where $|-|$ is the usual [[geometric realization]] of simplicial complexes.
 
-+-- {: .un_thm}
-###### Theorem 
-Let $|(-)|_{sc}: SimpComplex \to Top$ and $|(-)|_{ss}: Set^{\Delta^{op}} \to Top$ denote the usual [[geometric realization]] functors. Then 
+### For simplicial sets
 
-1. $|(nerve \circ Face)(X)|_{ss} \cong |X|_{ss}$
-
-1. $|(Flag \circ Face)(X)|_{sc} \cong |X|_{ss}$
-
-1. $|(nerve \circ U)(S)|_{ss} \cong |S|_{sc}$
-
-1. $|(Flag \circ U)(S)|_{sc} \cong |S|_{sc}$
-=-- 
-
-Each of the four composite functors displayed on the left sides of these [[isomorphism]]s is called a **subdivision** functor. 
-
+We can now define the subdivision of a [[simplicial set]] as follows.  [Recall](/nlab/show/simplicial+complex#vsSSet) that we can make any simplicial complex into a simplicial set.  If we do this for the standard $n$-simplex, which as a simplicial complex is the set $([n],P([n])$ for $[n] = \{0,1,\dots,n\}$, then we get the standard $n$-simplex simplicial set $\Delta^n$.  We can then define the subdivision of $\Delta^n$, as a simplicial set, to be the simplicial set corresponding to its simplicial-complex subdivision.  Finally, we can make this functorial on maps between standard simplices, and left [[Kan extension|Kan extend]] to a [[cocontinuous functor|cocontinuous]] endofunctor of $SSet$.
 
 ## Applications
 
-The functor $nerve \circ Face$ can be used to construct [[Kan fibrant replacement]]s in the [[model structure on simplicial sets]]. In that context it is usually called "$Ex$".
+By construction (or the [[adjoint functor theorem]]), the subdivision functor $Sd$ on simplicial sets has a [[right adjoint]], called $Ex$.  An infinity iteration of $Ex$ can be used to construct [[Kan fibrant replacement]]s in the [[model structure on simplicial sets]].
 
 This functorial subdivision corresponds to the classical [[barycentric subdivision]].  Other [[classical triangulation|classical subdivision]]s that are frequently encountered include the middle edge subdivision.  This latter is closely related to the [[ordinal subdivision]] of simplicial sets.
 
@@ -51,3 +39,6 @@ This functorial subdivision corresponds to the classical [[barycentric subdivisi
 [[!redirects subdivisions]]
 [[!redirects barycentric subdivision]]
 [[!redirects barycentric subdivisions]]
+[[!redirects Ex]]
+[[!redirects Sd]]
+[[!redirects sd]]
