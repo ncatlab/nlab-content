@@ -138,18 +138,26 @@ $$
 ###### Definition
 
 For $A, B \in $ [[C*Alg]], **Kasparov $(A,B)$-bimodule**
-is n $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}, \langle -,-\rangle$, def. \ref{HilbertBimodule}, equipped with an adjointable odd-graded [[bounded operator]] $F \in \mathcal{B}_A(\mathcal{H})$ such that 
+is a $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}, \langle -,-\rangle$, def. \ref{HilbertBimodule}, equipped with an adjointable odd-graded [[bounded operator]] $F \in \mathcal{B}_A(\mathcal{H})$ such that 
 
-1. $\pi(a)(F^2 - 1) \in \mathcal{K}_A(\mathcal{H})$ 
+1. $(F^2 - 1)\pi(a) \in \mathcal{K}_A(\mathcal{H})$ 
 
-1. $[\pi(a), F] \in \mathcal{K}_A(\mathcal{H})$ for all $a \in A$. 
+1. $[F, \pi(a)] \in \mathcal{K}_A(\mathcal{H})$ 
+
+1. $(F - F^\ast) \pi(a)\in \mathcal{K}_A(\mathcal{H})$
+
+for all $a \in A$,
+
+hence such that $F$ squares to the identity, commutes with multiplication operators and is self-adjoint _up to_ [[compact operators]]. 
 
 =--
+
+For instance ([Blackadar 99, p. 144](#Blackadar99)).
 
 +-- {: .num_example }
 ###### Example
 
-For $B = \mathbb{C}$ a Kasparov $(A,B)$-bimodule is equivalently an $A$-[[Fredholm module]].
+For $B = \mathbb{C}$ a Kasparov $(A,B)$-bimodule is equivalently an $A$-[[Fredholm module]] for an essentially self-adjoint [[Fredholm operator]]
 
 =--
 
