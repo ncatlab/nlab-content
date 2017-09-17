@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of [[site]] may be [[internalization|internalized]] in any [[topos]] to yield a notion of _internal site_ .
+The notion of [[site]] may be [[internalization|internalized]] in any [[topos]] to yield a notion of _internal site_.
 
 ## Definition
 
@@ -33,11 +33,14 @@ Spelled out in components, this means the following (as in ([Johnstone](#Johnsto
 $$
 S\times_{C_0} C_1 \to C_1\times_{C_0} C_1 \to C_1
 $$
-factors through $S$.
+factors through $S$. Also recall the usual membership relation $\in_{C_1} \stackrel{(n,e)}{\to} PC_1 \times C_1$.
 
-* First, an internal coverage is given by a span $C_0 \stackrel{b}{\leftarrow} T \stackrel{c}{\to} Sv(\mathbb{C})$
 
-* If $\in_{C_1} \stackrel{(n,e)}{\to} PC_1 \times C_1$ is the usual membership relation, then the square
++-- {: .num_defn}
+###### Definition
+An _internal sifted coverage_ is given by a span $C_0 \stackrel{b}{\leftarrow} T \stackrel{c}{\to} Sv(\mathbb{C})$ subject to:
+
+* The square
 $$
 \array{
 T \times_{PC_1} \in_{C_1} & \stackrel{e pr_2}{\to} & C_1 \\
@@ -47,11 +50,17 @@ T                  & \stackrel{b}{\to} & C_0
 $$
 commutes, where the pullback in the top left corner is of the map $\in_{C_1} \to PC_1$ along $T \to Sv(\mathbb{C}) \hookrightarrow PC_1$.
 
-* We then define the subobject $Q\hookrightarrow T\times_{C_0} C_1 \times_{C_0} T$ as
+* If we define the subobject $Q\hookrightarrow T\times_{C_0} C_1 \times_{C_0} T$ as
 $$
-  Q := \{(t',a,t) | ... \}
+  Q := \{(t',a,t) | aa' \in t \forall a'\in t'\}
 $$
-(in the internal language). The composite $Q \hookrightarrow T\times_{C_0} C_1 \times_{C_0} T \stackrel{pr_{23}}{\to} C_1 \times_{C_0} T$ is required to be an epimorphism.
+(in the internal language), the composite $Q \hookrightarrow T\times_{C_0} C_1 \times_{C_0} T \stackrel{pr_{23}}{\to} C_1 \times_{C_0} T$ is required to be an epimorphism.
+
+=--
+
+We can additionally ask that more saturation conditions (as discussed at [[coverage]]) hold. 
+
+(...)
 
 ## Properties
 
@@ -181,7 +190,7 @@ Section C2.4 and C2.5 of
 
 The semidirect product externalization of internal sites is due to
 
-* [[Ieke Moerdijk]], _Continuous fibrations and inverse limits of toposes_ , Composition Math. 68 (1986)
+* [[Ieke Moerdijk]], _Continuous fibrations and inverse limits of toposes_, Composition Math. 68 (1986)
  {#Moerdijk}
 
 [[!redirects internal sites]]
