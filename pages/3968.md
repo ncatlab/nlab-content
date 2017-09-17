@@ -51,6 +51,18 @@ Number fields are the basic objects of study in [[algebraic number theory]]. For
 
 Number fields $k$ are examples of [[global field]]s, in fact they are the global fields of [[characteristic zero]]. They are often studied in terms of how they embed in their rings of [[adele ring|adeles]] $\mathbb{A}_k$, which are built from the [[local field|local completions]] of $k$. 
 
+### Class number formula
+
+Given a number field $K$, the [[Dedekind zeta function]] $\zeta_K$ of $K$ has a [[simple pole]] at $s = 1$. The _class number formula_ says that its [[residue]] there is proportional the product of the [[regulator of a number field|regulator]] with the [[class number]] of $K$
+
+$$
+  \underset{s\to 1}{\lim} (s-1) \zeta_K(s)
+  \propto
+  ClassNumber_K \cdot Regulator_K
+  \,.
+$$
+
+
 ### Function field analogy
 
 [[!include function field analogy -- table]]
