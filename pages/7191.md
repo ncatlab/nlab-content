@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topos theory - contents]]
 =--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
 =--
 =--
 
@@ -20,9 +24,9 @@ The notion of a  _compact toposes_ is the generalization to [[toposes]] of the n
 
 ## Definition
 
-A [[topos]] $\mathcal{F}$ over the [[base topos]] [[Set]] is called _compact_ is the [[global section]] functor $\Gamma : \mathcal{F} \to Set$ preserves [[directed colimit|directed]] [[unions]] of [[subobjects]] of the [[terminal object]].
+A [[topos]] $\mathcal{F}$ over the [[base topos]] [[Set]] is called _compact_ is the [[global section]] functor $\Gamma : \mathcal{F} \to Set$ is a [[proper geometric morphisms]], hence if it preserves [[directed colimit|directed]] [[unions]] of [[subobjects]] of the [[terminal object]].
 
-(...)
+See _[[proper geometric morphism]]_ for more.
 
 ## References
 
