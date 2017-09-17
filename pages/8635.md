@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+Under the [interpretation of modules as generalized vector bundles](module#RelationToVectorBundlesInIntroduction) the _localization_ of a module corresponds to the restriction of the bundle to a subspace of its base space.
+
+## Definition
+
+Let $R$ be a [[commutative ring]], $S \hookrightarrow U(R)$ a [[subset]] of elements and $R[S^{-1}]$ the [[localization of a ring|localization]] of $R$ at $S$. Notice that $R[S^{-1}]$ is canonically an $R$-[[module]].
+
++-- {: .num_defn }
+###### Definition
+
+For $N  \in R$[[Mod]] an $R$-module, the **localization** $N[S^{-1}] \in R[S^{-1}] Mod$ of $N$ at $S \hookrightarrow U(R)$ is the [[extension of scalars]] of $N$ along the projection $R \to R[S^{-1}]$, hence the [[tensor product of modules]]
+
+$$
+  N[S^{-1}] \coloneqq N \otimes_R R[S^{-1}]
+  \,.
+$$
+
+=--
+
+
+## Related concepts
+
+* [[localization of a ring]], [[localization of a category]]
+
+* [[locally free module]]
+
+[[!redirects localizations of a module]]
+[[!redirects localizations of modules]]
