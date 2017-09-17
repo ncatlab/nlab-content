@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-In great generality for an integer $p$ a $p$-divisible group is a [[inductive system|codirected diagram]] of abelian-group objects in a category $C$ where the abelian-group objects are (equivalently) the [[kernel|kernels]] of the map given by multiplication with a power of $p$; these kernels are also called $p^n$-torsions.
+In great generality, for an [[integer]] $p$ a _$p$-divisible group_ is a [[inductive system|codirected diagram]] of [[abelian group|abelian]] [[group objects]] in a [[category]] $C$ where the abelian-group objects are (equivalently) the [[kernel|kernels]] of the map given by multiplication with a power of $p$; these kernels are also called $p^n$-torsions.
 
 In the classically studied case $p$ is a prime number, $C$ is the category of [[scheme|schemes]] over a commutative ring (mostly a field with prime characteristic) and the abelian [[group scheme|group schemes]] occurring in the diagram are assumed to be finite. In this case the diagram defining the $p$-divisible group can be described in terms of the growth of the [[order of a group|order]] of the group schemes in the diagram.
  
