@@ -6,9 +6,9 @@
 
 The **category of simplices** of a [[simplicial set]] $X_\bullet : \Delta^{op} \to Set$ is the [[category of elements]] of the [[presheaf]] $X_\bullet$. 
 
-In more detail, the category of simplices is the [[comma category]] $(Y\downarrow X_\bullet)$, where $Y$ is the [[Yoneda embedding]], i.e. the functor $Y : [n] \to \Delta^n$.
+In more detail, the category of simplices is the [[comma category]] $(\Delta\downarrow X)$, where $\Delta$ denotes the [[Yoneda embedding]] $[n] \mapsto \Delta^n$.
 
-The [[object]]s of the category of simplices are therefore morphisms $c : \Delta^n \to X_\bullet$ from the standard simplicial [[simplex]] $\Delta$ to $X_\bullet$, hence are $n$-cells of $X_\bullet$, while morphisms $c \to c'$ are morphisms $f : \Delta^n \to \Delta^{n'}$ in the [[simplex category]] $\Delta$ such that
+The [[object]]s of the category of simplices are therefore morphisms $c : \Delta^n \to X$ from a standard simplicial [[simplex]] $\Delta^n$ to $X$, hence are $n$-cells of $X$, while morphisms $c \to c'$ are morphisms $f : \Delta^n \to \Delta^{n'}$ in the [[simplex category]] $\Delta$ such that
 
 $$
   \array{ 
@@ -16,7 +16,7 @@ $$
     \\
     & {}_{c}\searrow && \swarrow_{c'}  
     \\
-    && X_\bullet
+    && X
   }
   \,.
 $$
@@ -28,9 +28,9 @@ $$
 ## Applications
 
 By the [[co-Yoneda lemma]], every simplicial set is isomorphic to the colimit of the standard simplices over its category of simplices:
-$$ X \cong colim_{(Y\downarrow X_\bullet)} \Delta^\bullet $$
+$$ X \cong colim_{(\Delta\downarrow X)} \Delta^\bullet $$
 Therefore, a colimit-preserving [[functor]] $F\colon SSet \to C$ is uniquely determined by its action on the standard simplices:
-$$ F(X) \cong colim_{(Y\downarrow X_\bullet)} F(\Delta^\bullet). $$
+$$ F(X) \cong colim_{(\Delta\downarrow X)} F(\Delta^\bullet). $$
 Examples abound:
 
 * [[geometric realization]] of simplicial sets
@@ -41,11 +41,30 @@ Examples abound:
 
 An $n$-simplex $x\in X_n$ is said to be *nondegenerate* if it is not in the image of any degeneracy map.  When $x$ is regarded, via the Yoneda lemma, as a morphism $\Delta^n \to X$, this means that this morphism is a [[monomorphism]] of simplicial sets.
 
-Therefore, the full subcategory $(Y\downarrow X_\bullet)_{nondeg}\hookrightarrow (Y\downarrow X_\bullet)$ on the nondegenerate simplices consists of the monomorphisms $\Delta^n \hookrightarrow X$.  Note that the morphisms in this subcategory are only the coface maps.
+Therefore, the full subcategory $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ on the nondegenerate simplices consists of the monomorphisms $\Delta^n \hookrightarrow X$.  Note that the morphisms in this subcategory are only the coface maps.
 
-Now the [[presheaf topos]] $SSet$ has [[image]] factorization, and the image of a map $x\colon \Delta^n \to X$ is the map $\Delta^k \to X$ that represents the unique nondegenerate simplex of which $x$ is a degeneracy.  It follows that this factorization is a [[left adjoint]] to the inclusion $(Y\downarrow X_\bullet)_{nondeg}\hookrightarrow (Y\downarrow X_\bullet)$, so that $(Y\downarrow X_\bullet)_{nondeg}$ is a [[reflective subcategory]].
+Now the [[presheaf topos]] $SSet$ has [[image]] factorization, and the image of a map $x\colon \Delta^n \to X$ is the map $\Delta^k \to X$ that represents the unique nondegenerate simplex of which $x$ is a degeneracy.  It follows that this factorization is a [[left adjoint]] to the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$, so that $(\Delta\downarrow X)_{nondeg}$ is a [[reflective subcategory]].
 
-In particular, the inclusion $(Y\downarrow X_\bullet)_{nondeg}\hookrightarrow (Y\downarrow X_\bullet)$ is a [[final functor]].  Thus, the above colimits that compute cocontinuous functors on $SSet$ work equally well using only the category of nondegenerate simplices.
+In particular, the inclusion $(\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)$ is a [[final functor]].  Thus, the above colimits that compute cocontinuous functors on $SSet$ work equally well using only the category of nondegenerate simplices.
+
+## The nerve and the subdivision
+
+Let $N\colon Cat \to SSet$ denote the simplicial [[nerve]] functor.
+
++-- {: .un_theorem}
+###### Theorem
+The functor $X\mapsto N(\Delta\downarrow X)$ from $SSet\to\SSet$ preserves colimits.
+=--
++-- {: .proof}
+###### Proof
+An $n$-simplex of $N(\Delta\downarrow X)$ is determined by a string of $n+1$ composable morphisms
+$$ \Delta^{k_n} \to \dots\to \Delta^{k_0} $$
+along with a map $\Delta^{k_0} \to X$, i.e. an element of $X_{k_0}$
+Thus, each the functor $X\mapsto N(\Delta\downarrow X)_n$ from $SSet \to Set$ is a coproduct of a family of "evaluation" functors.
+Since evaluation preserve colimits, coproducts commute with colimits, and colimits in $SSet$ are levelwise, the statement follows.
+=--
+
+Therefore, the simplicial set $N(\Delta\downarrow X)$ itself can be computed as a colimit over the category $(\Delta\downarrow X)$ of the simplicial sets $N(\Delta\downarrow \Delta^n)$.
 
 
 [[!redirects categories of simplices]]
