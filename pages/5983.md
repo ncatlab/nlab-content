@@ -187,7 +187,7 @@ $$
   =
   \left\{
     \array{
-       H_{dR}^{n-m}(S, \mathcal{V})
+       H_{dR}^{n-k}(S, \mathcal{V}) & | k \lt s
        \\
        \Omega_{cl}(S; \mathcal{V})^{n-s} & | k = s
        \\
@@ -202,7 +202,7 @@ This implies [[isomorphism]]s
 $$
   \pi_k filt_s(X; \iota)^S 
    \stackrel{\simeq}{\to}
-  \left{
+  \left\{
     \array{
        \pi_k X^S & | k \lt s
        \\
