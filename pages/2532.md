@@ -49,7 +49,7 @@ The axiom holds for all the [[smooth topos]] presented in [[Models for Smooth In
 
 page 49 of 
 
-* [[Anders Kock]], _Synthtic differential geometry_ (page 61 of [pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+* [[Anders Kock]], _Synthetic differential geometry_ (page 61 of [pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
 appendix 3 of
 
