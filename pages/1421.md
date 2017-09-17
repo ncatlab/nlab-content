@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stack]]s (of [[module]]s over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from from modules that are locally [[perfect chain complex]]es.
+In the context of [[dg-geometry]] an [[∞-stack]] $X$ is called _perfect_ if its [[(∞,1)-category]] $QC(X)$ of [[quasicoherent ∞-stack]]s (of [[module]]s over the [[structure sheaf]] $\mathcal{O}(X)$) is generated from modules that are locally [[perfect chain complex]]es.
 
 
  
