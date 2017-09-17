@@ -367,6 +367,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[internal logic]]
 
+* [[models in presheaf toposes]]
+
 #### D1.3 First-order logic
 
 #### D1.4 Syntactic categories
