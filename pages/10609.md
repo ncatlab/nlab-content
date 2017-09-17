@@ -32,9 +32,19 @@ synthetic geometry.
 
 ## Related concepts
 
+| [[synthetic geometry]]  |
+|-------------------------|
+| [[Euclidean geometry]]  |
+| [[hyperbolic geometry]] |
+| [[elliptic geometry]]   |
+
 * [[synthetic mathematics]]
 
 * [[geometric homotopy type]]
 
 * [[cohesive homotopy type]]
+
+## References
+
+* Wikipedia, _[Synthetic geometry](http://en.wikipedia.org/wiki/Synthetic_geometry)_
 
