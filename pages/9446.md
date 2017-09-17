@@ -1,0 +1,2 @@
+a left ideal
+a left ideal of a semigroup S is meant a non- empty subset A of S suchthat SA subset or equal to A.
