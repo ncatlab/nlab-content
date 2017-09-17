@@ -18,7 +18,9 @@ $$
 
 A [[zeta function]]/[[L-function]] is the [[analytic continuation]] of the Mellin transform of the corresponding [[theta function]].
 
-In particular it sends the [[Jacobi theta function]] to the [[Riemann zeta function]].
+In particular it sends the [[Jacobi theta function]] to the (completed) [[Riemann zeta function]]:
+
+$$ \hat \zeta(s) = \int_0^\infty t^{s-1} \hat \theta(t) \, d t $$
 
 More generally, the Mellin transform appears as a stage in the expression of [[zeta functions]] as [[adelic integrals]] in [[Iwasawa-Tate theory]].
 
@@ -26,6 +28,7 @@ More generally, the Mellin transform appears as a stage in the expression of [[z
 
 [[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _Schwinger parameter_ and the Mellin transform turns the [[worldline formalism]]-picture into the [[Feynman propagator]]-picture.
 
+$$ Tr H^{-s} = \int_0^\infty t^{s-1} Tr \exp(- t H) \, d t \,. $$ 
 
 ## Examples
 
