@@ -1,0 +1,5 @@
+
+
+In a [[mechanical system]], a _ground state_ is a [[state]] of minimal [[energy]].
+
+[[!redirects ground states]]
