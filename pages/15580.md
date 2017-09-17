@@ -52,11 +52,11 @@ For $A_1$ and $A_2$ two [[abelian groups]] then the following are equivalent
 
 =--
 
-recalled e.g. in ([VanKoughnett 13, prop. 4.2](#VanKoughnett13)).
+([Bousfield 79, prop. 2.3](#Bousfield79)) recalled e.g. in ([VanKoughnett 13, prop. 4.2](#VanKoughnett13)).
 
 This means that given an abelian group $A$ then 
 
-* either $A$ is torsion, then 
+* either $A$ is not torsion, then 
 
   $$
     L_{S A} \simeq L_{S \mathbb{Z}[I^{-1}]}
@@ -95,6 +95,10 @@ Lecture notes include
 
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
+Discussion in the context of [[Bousfield localization of spectra]] is in 
+
+* {#Bousfield79} [[Aldridge Bousfield]], section 2 of _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+ 
 See also 
 
 * {#Banagl10} [[Markus Banagl]], _Rational generalized intersection homology theories_, Homology, Homotopy and Applications, vol. 0(0), 2010, pp.1{28  ([pdf](http://www.mathi.uni-heidelberg.de/~banagl/pdfdocs/spectrumqih.pdf))
