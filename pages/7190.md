@@ -104,13 +104,15 @@ We discuss classes of [[sites]] such that their [[sheaf topos]] is a strongly co
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathbf{H}$ be a [[topos]] and $X \in \mathbf{H}$ an [[object]]. Then the following are equivalent
+Let $\mathbf{H}$ be a [[topos]] and $X \in \mathbf{H}$ an [[object]]. If
 
-1. $X$ is a "[[compact topological space]]-object" in that:
+*  $X$ is a "[[compact topological space]]-object" in that:
 
-   for every set of morphisms $\{U_i \to X\}_{i \in I}$ such that $\coprod_{i \in I} U_i \to X$ is an epimorphism, there is a [[finite set|finite subset]] $J \subset I$ such that $\coprod_{i \in J} U_i \to X$ is still an epimorphism;
+   for every set of morphisms $\{U_i \to X\}_{i \in I}$ such that $\coprod_{i \in I} U_i \to X$ is an [[effective epimorphism]], there is a [[finite set|finite subset]] $J \subset I$ such that $\coprod_{i \in J} U_i \to X$ is still an [[effective epimorphism]];
 
-1. The [[slice topos]] $\mathbf{H}_{/X}$ is a compact topos, def. \ref{CompactTopos}. 
+then
+
+*  The [[slice topos]] $\mathbf{H}_{/X}$ is a compact topos, def. \ref{CompactTopos}. 
 
 =--
 
@@ -133,7 +135,13 @@ $$
   \,.
 $$
 
-Therefore (...)
+Therefore it sends all subterminal object in $\mathbf{H}_{/X}$ to the [[empty set]] except the terminal object $X$ itself, which is sent to the singleton set.
+
+So let $X$ now be a compact-topological-space-object and $U_\bullet : I \to \mathbf{H}_{/X}$ is directed system of subterminals. 
+
+If their union $\vee_i U_i$ does not cover $X$, then $\Gamma_X(\vee_i U_i) = \emptyset$. But then also none of the $U_i$ can be $X$ itself, and hence also $\Gamma_X(U_i) = \emptyset$ for all $i \in I$ and so $\vee_i \Gamma_X(U_i) = \emptyset$. On the other hand, if $\vee_i U_i  = X$ then the $\{U_i \to X\}_{i \in I}$ form a cover, hence then by assumption there is a finite subset $\{U_i \to X\}_{i \in J}$ which still covers. By the assumption that the system $U_\bullet$ is a [[directed set]] it also contains the union $X = \vee_{i \in J} U_i$. Therefore $\vee_{i \in I} \Gamma_X(U_i) = \Gamma_X(X) = *$ is the singleton, as is $\Gamma_X(\vee_{i \in I} U_i) = \Gamma_X(X)$. So $\Gamma_X$ preserves directed unions of subterminals and hence $\mathbf{H}_{/X}$ is a compact topos.
+
+
 =--
 
 ### Strongly compact toposes
