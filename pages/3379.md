@@ -1,5 +1,21 @@
-# Idempotent adjunctions
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Idempotents
++-- {: .hide}
+[[!include idempotents - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
+# Idempotent adjunctions
 * table of contents
 {: toc}
 
