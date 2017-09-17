@@ -182,6 +182,8 @@
     * [[CFT]]
   
       * [[WZW model]]
+
+      * [[6d (2,0)-supersymmetric QFT]]
  
     * [[gauge theory]]
       * [[field strength]]
