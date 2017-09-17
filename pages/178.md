@@ -458,6 +458,9 @@ and the generalization to classification of smooth [[principal 2-bundle]]s is in
 [[!redirects smooth infinity-group]]
 [[!redirects smooth infinity-groups]]
 
+[[!redirects smooth 2-groupoid]]
+[[!redirects smooth 2-groupoids]]
+
 [[!redirects higher differentiable stack]]
 [[!redirects higher differentiable stacks]]
 
