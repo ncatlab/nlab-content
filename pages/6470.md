@@ -1,5 +1,5 @@
 
-### Contents of Contents ###
+# Contents of Contents
 
 These are the various "contents" pages on the nLab, generated from the database on 2011-08-10 (not in any particular order).
 
@@ -274,3 +274,6 @@ These are the various "contents" pages on the nLab, generated from the database 
 [[!include physicscontents]]
 =--
 =--
+
+
+category: meta
