@@ -15,9 +15,11 @@
 
 ## Idea
 
-A __fermion__ is a [[particle]]/[[quantum field]] that obeys [[Fermi-Dirac statistics]].  By the [[spin-statistics theorem]], this is the same thing as a particle whose [[spin]] is half an [[integer]] but not itself an integer.  Compare [[boson]].
+A __fermion__ is a [[particle]]/[[quantum field]] that obeys [[Fermi-Dirac statistics]].  By the [[spin-statistics theorem]], this is the same thing as a particle whose [[spin]] is half an [[integer]] but not itself an integer.  
 
 ## Related entries
+
+* [[boson]], **fermion, **anyon**
 
 * [[spin-statistics theorem]]
 
