@@ -401,9 +401,9 @@ Moreover, with $\mathbf{B}^n \mathbb{R}_{chn} \in [CartSp_{smooth}^{op}, sSet]$ 
 $$
   \int_{\Delta^\bullet} 
    : 
-  \mathbf{cosk}_{n+1}\exp(b^{n-1} \mathbb{R})
+  \exp(b^{n-1} \mathbb{R})
    \stackrel{\simeq}{\to}
-  \mathbf{B}^{n} \mathbb{R}
+  \mathbf{B}^{n} \mathbb{R}_{chn}
   \,.
 $$
 
@@ -476,76 +476,37 @@ The only nontrivial degree to check is degree $n$. Let $\lambda \in \Omega_{si,v
 
 Since $\lambda$ is a closed form on the $n$-simplex, this surface integral vanishes, by the [[Stokes theorem]]. Hence $\int_{\Delta^\bullet}$ is indeed a chain map.
 
-It remains to show that $\int_{\Delta^\bullet} : \mathbf{cosk}_{n+1} \exp(b^{n-1} \mathbb{R}) \to \mathbf{B}^{n}\mathbb{R}_{chn}$ is an [[isomorphism]] on the [[simplicial homotopy]] group in degree $n$ over  each $U \in CartSp$. This amounts to the statement that a smooth family of closed $n$-forms with sitting instants on the boundary of $\Delta^{n+1}$ may be extended to a smooth family of closed forms with sitting instants on $\Delta^{n+1}$ precisely if their smooth family of integrals over the boundary vanishes.
+It remains to show that $\int_{\Delta^\bullet} : \exp(b^{n-1} \mathbb{R}) \to \mathbf{B}^{n}\mathbb{R}_{chn}$ is an [[isomorphism]] on all the [[simplicial homotopy]]s group over each $U \in CartSp$. This amounts to the statement that 
 
-To demonstrate this, we want to work with forms on the $(n+1)$-[[ball]] instead of the $(n+1)$-[[simplex]]. To achieve this, choose again $0 \lt \epsilon \in \mathbb{R}$ and construct the [[diffeomorphism|diffeomorphic]] image of $S^n \times [1,1-\epsilon]$ inside the $(n+1)$-simplex as indicated in the above diagram: outside an $\epsilon$-neighbourhood of the corners the image is a rectangular $\epsilon$-thickening of the faces of the simplex. Inside the $\epsilon$-neighbourhoods of the corners it bends smoothly. By the [[Steenrod-Wockel approximation theorem]] the diffeomorphism from this $\epsilon$-thickening of the smoothed boundary of the simplex to $S^n \times [0,1]$ extends to a smooth function from the $(n+1)$-simplex to the $(n+1)$-ball. 
+1. a smooth family of closed $n$-forms with sitting instants on the boundary of $\Delta^{n+1}$ may be extended to a smooth family of closed forms with sitting instants on $\Delta^{n+1}$ precisely if their smooth family of integrals over the boundary vanishes;
 
-By choosing $\epsilon$ smaller than each of the sitting instants of the given $n$-form on $\partial \Delta^n$, we have that this $n$-form vanishes on the $\epsilon$-neighbourhoods of the corners and is hence entirely determined by its restriction to the smoothed simplex, identified with the $(n+1)$-ball.
+1. Any smooth family of closed $n \lt k$-forms with sitting instants on the boundary of $\Delta^{k+1}$ may be extended to a smooth family of closed $n$-forms with sitting instants on $\Delta^{k+1}$.
 
-We are now reduced to showing: a smooth family of smooth $n$-forms $\omega \in \Omega^n_{vert,cl}(U \times S^n)$ extends to a smooth family of closed $n$-forms $\hat \omega \in \Omega^n_{vert,cl}(U \times B^{n+1})$ that is radially constant in a neighbourhood of the boundary precisely if its smooth family of integrals vanishes, $\int_{S^n} \omega = 0 \in C^\infty(U, \mathbb{R})$.
+To demonstrate this, we want to work with forms on the $(k+1)$-[[ball]] instead of the $(k+1)$-[[simplex]]. To achieve this, choose again $0 \lt \epsilon \in \mathbb{R}$ and construct the [[diffeomorphism|diffeomorphic]] image of $S^k \times [1,1-\epsilon]$ inside the $(k+1)$-simplex as indicated in the above diagram: outside an $\epsilon$-neighbourhood of the corners the image is a rectangular $\epsilon$-thickening of the faces of the simplex. Inside the $\epsilon$-neighbourhoods of the corners it bends smoothly. By the [[Steenrod-Wockel approximation theorem]] the diffeomorphism from this $\epsilon$-thickening of the smoothed boundary of the simplex to $S^k \times [1-\epsilon,1]$ extends to a smooth function from the $(k+1)$-simplex to the $(k+1)$-ball. 
 
-Notice that over the point this is a direct consequence of the [[de Rham theorem]]: an $n$-form $\omega$ on $S^n$ is exact precisely if its integral vanishes. In that case there is an $(n-1)$-form $A$ with $\omega = d A$. Choosing any smoothing function $f : [0,1] \to [0,1]$ (smooth, non,decreasing and constant in a neighbourhood of the boundary) we obtain a $n$-form $f \wedge A$ on $(0,1] \times S^n$, vertically constant in a neighbourhood of the ends of the interval, equal to $A$ at the top and vanishing at the bottom. Pushed forward along the canonical $(0,1] \times S^n \to D^{n+1}$ this defines a form on the $(n+1)$-ball, that we denote by the same symbol $f \wedge A$. Then the form $\hat \omega := d (f \wedge A)$ solves the problem.
+By choosing $\epsilon$ smaller than each of the sitting instants of the given $n$-form on $\partial \Delta^{k+1}$, we have that this $n$-form vanishes on the $\epsilon$-neighbourhoods of the corners and is hence entirely determined by its restriction to the smoothed simplex, identified with the $(k+1)$-ball.
 
-To complete the proof we have to show that this simple argument does extend to smooth families of forms, i.e., that we can choose the $(n-1)$-form $A$ in a way depending smoothly on the the $n$-form $\omega$. A simple way of achieving this is by a little [[Hodge theory]]. Fix a Riemannian metric on $S^n$, and let $\Delta$ be the corresponding [[Laplace operator]], and $\pi$ the projection on the space of [[harmonic forms]]. Then the central result of Hodge theory for compact Riemannian manifolds states that the operator $\pi$, seen as an operator from the de Rham complex to itself, is a cochain map homotopic to the identity, via an explicit homotopy $P$ expressed in terms of the adjoint $d^*$ of the de Rham differential and of the [[Green operator]] of $\Delta$. Since the integral of the closed form $\omega$ vanishes on the [[fundamental class]] of $S^n$, the $n$-form $\omega$ is exact, and so its harmonic projection is zero. Therefore
+It is now sufficient to show: a smooth family of smooth $n$-forms $\omega \in \Omega^n_{vert,cl}(U \times S^k)$ extends to a smooth family of closed $n$-forms $\hat \omega \in \Omega^n_{vert,cl}(U \times B^{k+1})$ that is radially constant in a neighbourhood of the boundary for all $n \lt k$ and for $k = n$ precisely if its smooth family of integrals vanishes, $\int_{S^k} \omega = 0 \in C^\infty(U, \mathbb{R})$.
+
+Notice that over the point this is a direct consequence of the [[de Rham theorem]]: an $n$-form $\omega$ on $S^k$ is exact precisely if $n \lt k$  or if $n = k$ and its integral vanishes. In that case there is an $(n-1)$-form $A$ with $\omega = d A$. Choosing any smoothing function $f : [0,1] \to [0,1]$ (smooth, surjective, non,decreasing and constant in a neighbourhood of the boundary) we obtain an $n$-form $f \wedge A$ on $(0,1] \times S^k$, vertically constant in a neighbourhood of the ends of the interval, equal to $A$ at the top and vanishing at the bottom. Pushed forward along the canonical $(0,1] \times S^k \to D^{k+1}$ this defines a form on the $(k+1)$-ball, that we denote by the same symbol $f \wedge A$. Then the form $\hat \omega := d (f \wedge A)$ solves the problem.
+
+To complete the proof we have to show that this simple argument does extend to smooth families of forms, i.e., that we can choose the $(n-1)$-form $A$ in a way depending smoothly on the the $n$-form $\omega$. 
+
+One way of achieving this is using [[Hodge theory]]. Fix a [[Riemannian metric]] on $S^n$, and let $\Delta$ be the corresponding [[Laplace operator]], and $\pi$ the projection on the space of [[harmonic forms]]. Then the central result of Hodge theory for [[compact topological space|compact]] [[Riemannian manifold]]s states that the operator $\pi$, seen as an operator from the 
+[[de Rham complex to itself]], is a cochain map homotopic to the identity, via an explicit homotopy $P := d^* G$ expressed in terms of the adjoint $d^*$ of the de Rham differential and of the [[Green operator]] $G$ of $\Delta$. Since the $k$-form $\omega$ is exact its projection on [[harmonic form]]s vanishes. Therefore
+
 $$
-\omega=(Id-\pi)\omega=d (P\omega)+P (d\omega)=d (P\omega).
+  \begin{aligned}
+    \omega & = (Id-\pi)\omega 
+    \\
+     & = d (P\omega)+P (d\omega)
+    \\
+    & = d (P\omega).
+  \end{aligned}
 $$
-Hence $A:=P\omega$ is a solution of the differential equation $d A=\omega$ depending smoothly on $\omega$.
+
+Hence $A := P\omega$ is a solution of the differential equation $d A=\omega$ depending smoothly on $\omega$.
  
-Alternatively, we show this by induction on $n$.
-
-For $n = 1$, let $\omega$ be a smooth family of smooth 1-forms on $S^1$ whose integral vanishes and which has sitting instants at least at one point. Let $f : [0,1] \to [0,1]$ be any smoothing function (a smooth non-degreasing surjection that is constant in a neighbourhood of 0 and 1). In terms of standard polar coordinates on the 2-[[ball]] $D^2$, with $\theta = 0$ the point where $\omega$ has sitting instants, write $\omega = \omega_\theta \wedge d \theta$ and set
-
-$$
-  \hat \omega := f \wedge \omega 
-    + (\int_0^{\theta} \omega_\theta(\theta') d \theta') 
-    \wedge d f
-  \,.
-$$
-
-This is a well defined smooth family of smooth 1-forms on the disk because the integral vanishes for $\theta = 2 \pi$ and in fact in a neighbourhood of that value, due to sitting instants. By construction of $f$ it equals $\omega$ on the boundary. Moreover, one checks that it is closed by construction, and clearly depends smoothly also on the parameter in $U \in CartSp$ that we suppressed.
-
-Now assume that the statement has been proven for some $n \geq 1$. Let $\omega$ be a smooth family of closed $n$-forms on $S^n$ that vanishes constantly in the neighbourhood of one point and whose integral vanishes. We now construct an $(n-1)$-form $A$ with $d A = \omega$ and then extend that to the $(n+1)$-ball.
-
-To do so, cut out a little $n$-disk around the point on which $\omega$ is still constant. Identify the remaining punctured $n$-sphere with the $n$-disk via a [[smooth function]] $h : D^n \to S^n$. The pullback form $h^*\omega$ has by the [[Poincare lemma]] a form $a$ with $d a = h^* \omega$. Concretely, in standard polar coordinates on $D^n$ we could take
-
-$$
-  a := \int_{0}^r \iota_{\partial_r} h^*\omega
-  \,.
-$$
-
-But we want to pass to a different representative that vanishes on the boundary of $D^n$. For that purpose, observe that the integral of this $a$ around $\partial D^n$ vanishes, since by the [[Poincare lemma]] and the assumptions on $\omega$ we have
-
-$$
-  \int_{\partial D^n} a \simeq \int_{D^n} h^* \omega = \int_{S^n} \omega = 0
-  \,.
-$$
-
-Therefore we can invoke the induction hypothesis to find smooth families of closed $(n-1)$-forms $a'$ which equal $a$ on $\partial \Delta^n$. Then the difference $a - a'$ still has the property that
-
-$$
-  d (a-a') = h^*\omega
-$$
-
-but now $(a-a')$ is constantly 0 on $\partial D^n$. Moreover, we claim that at this boundary all its derivatives vanish. This follows with the above formula for $a$ from the fact that $\omega$ is constantly 0 on the image of $\partial D^n$ under $h$, which makes $a$ radially constant in a neighbourhood of the boundary,  and that $a'$ by induction hypothesis is radially constant at the boundary.
-
-Due to this it follows that there is a smooth $(n-1)$-form $A$ on $S^n$ whose pullback along $h$ is $a-a'$:  the extension of $a-a'$ by 0 from $D^n \simeq$ the punctured $n$-sphere to the whole $n$-sphere.
-
-Then with the smoothing function $f$ from above define finally the smooth family of smooth $(n-1)$-forms on $S^{n+1}$ to be given by 
-
-$$
-  \hat A (r, \{\phi_i\}) := f(r) \wedge A(\{\phi_i\})
-$$ 
-
-and 
-
-$$
-  \hat \omega = d \hat A
-  \,.
-$$
-
-This is an extension of the smooth family $\omega$ that we needed to construct.
-
 =--
 
 
