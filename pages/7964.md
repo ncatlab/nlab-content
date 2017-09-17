@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _Higgs field_ or _[[Higgs boson]]_ is a [[scalar field|scalar]] [[physical field]]/[[fundamental particle]]  in a [[gauge theory]] such as the [[standard model of particle physics]] supposedly responsible for giving elementary particles their [[mass|masses]] by the _[[Higgs mechanism]]_. 
+The _Higgs field_ or _[[Higgs boson]]_ is a [[scalar field|scalar]] [[physical field]]/[[fundamental particle]]  in a [[gauge theory]] such as the [[standard model of particle physics]] supposedly responsible for the [[spontaneously broken symmetry]] of the [[electroweak field]] and for giving elementary particles their [[mass|masses]] by the _[[Higgs mechanism]]_. 
 
 ## Models
 
