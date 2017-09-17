@@ -31,7 +31,7 @@ This is entirely analogous to how a [[crossed complex]] is obtained from a [[str
 
 ### On general simplicial groups
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex $((N G)_\bullet,\partial )$ of (possibly nonabelian) groups is 
@@ -54,7 +54,7 @@ Given a [[simplicial group]] $G$, the $\mathbb{N}$-graded chain complex complex 
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Remark
 
 Equivalently one can take the  joint kernel of all but the $n$-face map and take that remaining  face map,  $d_n^n$, to be the differential.
@@ -64,7 +64,7 @@ Equivalently one can take the  joint kernel of all but the $n$-face map and take
 It is important to note, and simple to prove, that $N G$ is a [[normal complex of groups]], so that it is easy to take the homology of the complex, even though the groups involved may be non-abelian. 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Remark
 
 We may think of the elements of the complex $N G$ in degree $k$
@@ -111,7 +111,7 @@ etc.
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 
 For every simplicial group $G$ the complex $(N G)_\bullet$ is a [[normal complex of groups]].
@@ -126,7 +126,7 @@ Let here $A$ be a simplicial [[abelian group]]. Then $(N A)_\bullet \in Ch_\bull
 
 There are two other chain complexes naturally associated with $A$:
 
-+-- {: .un_defn}
++-- {: .num_defn #AlternatingFaceMapComplex}
 ###### Definition
 
 The **alternating face map complex** $C A$ of $A$ is 
@@ -147,7 +147,7 @@ The **alternating face map complex** $C A$ of $A$ is
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -171,7 +171,7 @@ The **complex modulo degeneracies**, $(C A)/D(A)$ is the complex
 
 
 
-+-- {: .un_lemma #LeftCosetsDisjoint}
++-- {: .num_lemma #LeftCosetsDisjoint}
 ###### Lemma
 
 This is indeed well defined in that
@@ -252,7 +252,7 @@ which is again a combination of elements in the image of the degeneracy maps.
 
 Let $A$ be a simplicial abelian group.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 There is a splitting
@@ -442,3 +442,5 @@ The discusson of the hypercrossed complex structure on the Moore complex of a ge
 
 [[!redirects normalized chains complex]]
 [[!redirects normalized chain complex]]
+
+[[!redirects alternating face map complex]]
