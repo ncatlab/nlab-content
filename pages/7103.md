@@ -25,9 +25,28 @@ If we model our (∞,1)-categories by [[quasicategories]], then this can be made
 
 ## Properties
 
+### Preservation of finite $(\infty,1)$-limits
+ {#Preservation}
+
++-- {: .num_prop}
+###### Proposition
+
 An [[(∞,1)-functor]] $F : C \to D$ out of an [[(∞,1)-category]] $C$ that has all finite $(\infty,1)$-limits preserves these finite $(\infty,1)$-limits as soon as it preserves [[(∞,1)-pullbacks]] and the [[terminal object]].
 
-(This is [[Higher Topos Theory|HTT, cor. 4.4.2.5]].)
+=--
+
+This appears as ([Lurie, cor. 4.4.2.5](#Lurie)).
+
++-- {: .num_prop #PreservationOutOfPresheaves}
+###### Proposition
+
+Let $C$ be a [[small (∞,1)-category]] with finite $(\infty,1)$-limits, and $\mathbf{H}$ an [[(∞,1)-topos]]. Write $PSh(C)$ for the [[(∞,1)-category of (∞,1)-presheaves]] on $C$. 
+
+If a functor $F : PSh_\infty(C) \to \mathbf{H}$ preserves [[(∞,1)-colimits]] and finite $(\infty,1)$-limits of [[representable functor|representables]], then it preserves all finite $(\infty,1)$-limits.
+
+=--
+
+This appears as ([Lurie, prop. 6.1.5.2](#Lurie)).
 
 ## Examples
 
@@ -40,6 +59,11 @@ An [[(∞,1)-functor]] $F : C \to D$ out of an [[(∞,1)-category]] $C$ that has
 * [[finite limit]]
 * [[(∞,1)-limit]]
 
+
+## References
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 [[!redirects finite (infinity,1)-limit]]
 [[!redirects finite (infinity,1)-limits]]
