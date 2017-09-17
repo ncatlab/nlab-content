@@ -1,10 +1,17 @@
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-The **Wightman axioms** are an attempt to axiomatize and thus formalize the notion of a [[quantum field theory]] on [[Minkowski space]]-time in terms of the assignment of field operators to points or subsets of spacetime. They serve as the basis of what is known as **constructive quantum field theory** which seeks to provide a mathematically sound framework for quantum theory over the Minkowski space background of [[special relativity]].  Arthur Wightman first formulated them in the 1950s but they were not published until 1964 after advances in scattering theory confirmed their applicability.
+The **Wightman axioms** are an attempt to axiomatize and thus formalize the notion of a [[quantum field theory]] on [[Minkowski space]]-time in the sense of [[AQFT]], i.e. in terms of the assignment of field operators to points or subsets of [[spacetime]]. 
+
+They serve as the basis of what is known as **constructive quantum field theory** which seeks to provide a mathematically sound framework for quantum theory over the Minkowski space background of [[special relativity]].  [[Arthur Wightman]] first formulated them in the 1950s but they were not published until 1964 after advances in scattering theory confirmed their applicability.
 
 The Wightman axioms served to establish rigorously several basic structural properties of quantum field theories on Minkowski spacetime, such as the [[spin-statistics theorem]]  or the [[Osterwalder–Schrader theorem]] relating Lorenzian and Euclidean quantum field theories ("Wick rotation").
 
