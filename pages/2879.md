@@ -44,6 +44,14 @@ Given an internal [[groupoid]] in the category $Aff_k$ of affine algebraic $k$-[
 
 There are several generalizations to the noncommutative case. A difficult part is to work over the noncommutative base (i.e., the object of objects is noncommutative). The definition of a [[bialgebroid]] is not that difficult and there is even a very old definition due Takeuchi. To add an antipode is nontrivial. A definition of Lu from mid 1990s is rather nonselfdual unlike the case of [[Hopf algebras]]. So a better solution is to abandon the idea of an antipode and have some replacement for it. There are two approaches, one via [[monoidal bicategory|monoidal bicategories]] due to Day and Street, and another due [[Gabi Böhm]], using pairs of a left and right bialgebroid. Gabi has later shown that the two definitions are in fact equivalent.
 
+## Properties
+
+### Steenrod operations on coTor groups
+
+For $\Gamma$ a suitable Hopf algebroid and $N_1, N_2$
+two [[comodules]], then the co[[Tor]] groups $CoTor_\Gamma(N_1, N_2)$
+form a _[[Steenrod algebra]]_. See there for details and citations.
+
 ## Examples
 
 ### Scalar extension Hopf algebroids
