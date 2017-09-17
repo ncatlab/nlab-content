@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
 In a [[partial order|poset]] $P$, a __top__ of $P$ is an element $\top$ of $P$ such that $a \leq \top$ for every element $a$.  Such a top may not exist; if it does, then it is unique.
 
 In a [[preorder|proset]], a top may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
