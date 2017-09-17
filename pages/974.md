@@ -72,9 +72,9 @@ Locally finitely presentable categories are precisely the categories of finite l
 
 +-- {: .un_prop}
 ###### Proposition
-**(as reflective subcategories of presheaves)**
+**(as accessible reflective subcategories of presheaves)**
 
-Locally presentable categories are precisely the full [[reflective subcategories]] 
+Locally presentable categories are precisely the [[accessible functor|accessively embedded]] full [[reflective subcategories]] 
 
 $$
   (L \dashv i) 
@@ -83,7 +83,10 @@ $$
   PSh(K)
 $$
 
-of [[categories of presheaves]] on some category $K$ which are closed in $Psh(K)$ under $\kappa$-filtered colimits for some [[regular cardinal]] $\kappa$.
+of [[categories of presheaves]] on some category $K$
+
+Where being accessibly embdeed means that $C \hookrightarrow Psh(K)$ is an [[accessible functor]],  which in turn means that $C$ is closed in $Psh(K)$ under $\kappa$-[[filtered colimit]]s for some [[regular cardinal]] $\kappa$.
+
 =--
 
 +-- {: .proof}
