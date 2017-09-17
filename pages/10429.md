@@ -1,9 +1,9 @@
 [[!redirects topological state of matter]]
 ## Idea
 
- A phase of matter which is, at long distance
-and low energy, described by a [[topological quantum field theory]]; (by definition) invariant under any small smooth deformations of space-time. The ground state is typically degenerate and the excitations typically have fractional or non-Abelian statistics (for reasonably nontrivial theories).
-
+A phase of matter which is, at long distance
+and low energy, described by a [[topological quantum field theory]]. It has universal properties that are (by definition) invariant under any small smooth deformations of space-time. The ground state is typically degenerate and the excitations typically have fractional or non-Abelian statistics (for reasonably nontrivial theories).
+At microscopic level, topological order corresponds to patterns of long-range entanglement in the ground state.
 
 Examples: [[quantum Hall effect]], [[quantum spin liquid]]
 
@@ -49,7 +49,7 @@ Related entries: [[TQFT]], [[quantum computing]], [[quantum Hall effect]], [[top
 
 * seminar in Koeln [Topological states of matter](http://www.thp.uni-koeln.de/trebst/Lectures/2012-TopoSeminar.html)
 * Topological Phases of Matter: Simons Center, June 10-14, 2013, videos [available](http://scgp.stonybrook.edu/archives/3464)
-* A. Kitaev, _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874)
+* A. Kitaev, _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874) (This is about trivial topological order with symmetry, or [[symmetry protected trivial order]])
 
 * CECAM 2013, Topological Phases in Condensed Matter and Cold Atom Systems: towards quantum computations [description](http://www.cecam.org/workshop-867.html)
 
