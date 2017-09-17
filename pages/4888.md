@@ -121,6 +121,10 @@ A generalization of this is in
 * [[Peter May]], _Classifying Spaces and Fibrations_ Mem. Amer. Math. Soc. 155 (1975) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/Classifying.pdf))
 {#May}
 
+Generalizations with extra structure on the fibers are discussed in 
+
+* Claudio Pacati, Petar Pavesic, Renzo Piccinini, _On the classification of $\mathcal{F}$-fibrations_, Topology and its applications 87 (1998) ([pdf](http://www.fmf.uni-lj.si/~pavesic/RESEARCH/On%20the%20classification%20of%20F-fibrations.pdf))
+
 Consideration of associated $\infty$-bundles / [[fiber sequence]]s in general [[(∞,1)-topos]]es is more recent. 
 
 Associated $\infty$-bundles in terms of the presentation of the $(\infty,1)$-topos by the [[model structure on simplicial presheaves]] are discussed in
