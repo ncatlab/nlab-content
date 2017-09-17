@@ -37,6 +37,29 @@ An [[(∞,1)-adjunction]] is uniquely determined already by its image in the
 ### Barr-Beck monadicity theorem
  {#MonadicityTheorem}
 
++-- {: .num_prop #CanonicalMonadicAdjunction}
+###### Proposition
+
+Given an [[(∞,1)-monad]] $T$ on an [[(∞,1)-category]]
+$\mathcal{C}$, there is an [[(∞,1)-adjunction]]
+
+$$
+  (F \dashv U)
+  \;\colon\;
+  Alg_{\mathcal{C}}(T)
+  \stackrel{\overset{F}{\leftrightarrow}}{\underset{U}{\longrightarrow}}
+  \mathcal{C}
+  \,,
+$$
+
+where $Alg_{\mathcal{C}}(T)$ is the (Eilenberg-Moore) [[(∞,1)-category of algebras over an (∞,1)-monad|(∞,1)-category of algebras over the (∞,1)-monad]] and where $U$ is the [[forgetful functor]] that remembers the underlying [[object]] of $\mathcal{C}$.
+
+=--
+
+This appears in ([Riehl-Verity 13, def. 6.1.15](#RiehlVerity13)).
+
+The following is the refinement to [[(∞,1)-category theory]] of the classical [[Barr-Beck monadicity theorem]] which states sufficient conditions for recognizing an [[(∞,1)-adjunction]] as being canonically [[equivalence|equivalent]] to the one in prop. \ref{CanonicalMonadicAdjunction}, hence to be a _[[monadic adjunction]]_.
+
 +-- {: .num_theorem #InfinityBarrBeckTheorem}
 ###### Theorem
 
@@ -48,7 +71,7 @@ Let $(L \dashv R)$ a pair of [[adjoint (∞,1)-functors]] such that
 
 1. and $R$ preserves these
 
-then for $T \coloneqq R \circ L$ the essentially unique $(\infty,1)$-endomorphism monad structure on the composite endofunctor, there is an [[equivalence of (∞,1)-categories]] identifying the [[domain]] of $R$ with the [[(∞,1)-category of algebras over an (∞,1)-monad]] over $T$ and $R$ itself as the canonical [[forgetful functor]].
+then for $T \coloneqq R \circ L$ the essentially unique $(\infty,1)$-endomorphism monad structure on the composite endofunctor, there is an [[equivalence of (∞,1)-categories]] identifying the [[domain]] of $R$ with the [[(∞,1)-category of algebras over an (∞,1)-monad]] $Alg_{\mathcal{C}}(T)$ over $T$ and $R$ itself as the canonical [[forgetful functor]] $U$ from prop. \ref{CanonicalMonadicAdjunction}.
 
 =--
 
