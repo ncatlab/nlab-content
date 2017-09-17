@@ -12,7 +12,7 @@
 
 This entry is about the article
 
-* [[Jacob Lurie]], _On the Classification of Topological Field Theories_ ([arXiv](http://arxiv.org/abs/0905.0465))
+* [[Jacob Lurie]], _On the Classification of Topological Field Theories_ ([arXiv/0905.0465](http://arxiv.org/abs/0905.0465))
 
 whose main content is a formalization and proof of the
 
@@ -54,6 +54,4 @@ whose main content is a formalization and proof of the
 
 * [[TCFT]]
 
-category: reference
-
-[[!redirects On the CLassification of Topological Field Theories]]
+category: reference 
