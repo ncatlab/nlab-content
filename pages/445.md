@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -16,7 +21,19 @@
 
 ## Idea 
 
-The familiar notion of the image of a map between [[set]]s, i.e. morphisms in [[Set]]^, may be formalized to yield a notion of image for [[morphism]]s in an arbitrary [[category]].
+The familiar notion of the image of a map between [[set]]s, i.e. morphisms in [[Set]], may be formalized to yield a notion of image for [[morphism]]s in an arbitrary [[category]].
+
+If the ambient category has sufficient [[limit]]s and [[colimit]]s, we may understand the notion of image as follows:
+
+A [[monomorphism]] is _regular_ if it behaves like an [[embedding]].
+
+* [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
+
+* [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
+
+The universal factorization through an embedding is the _image_ . 
+
+
 
 
 ## Definitions 
@@ -106,7 +123,7 @@ $$
   im f \to d
 $$
 
-is a [[monomorphism]].
+is a [[monomorphism]]. In fact it is necessarily a [[regular monomorphism]].
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -186,11 +203,39 @@ exists uniquely.
 
 * If the factorization of a morphism $f$ through its image is by an [[isomorphism]] then the morphism probably deserves to be called an [[embedding]].
 
-## In higher category theory
+## In higher category theory 
 
-In [[higher category theory]] there are generalizations of the notion of image. See
+In [[higher category theory]] there are generalizations of the notion of image. 
+
+There are the notions
 
 * [[essential image]] (of a [[functor]])
 * [[homotopy image]].
+
+### In $(\infty,1)$-category theory {#InfImage}
+ 
+Probably an **$(\infty,1)$-image** of a morphism $f : c \to d$ in an [[(∞,1)-category]] with [[(∞,1)-limit]]s and -colimits should be defined to be the [[(∞,1)-limit]] over the [[Cech nerve|Cech co-nerve]] of $f$:
+
+$$
+  im f := \lim_{\leftarrow}
+  \left(
+    d \stackrel{\to}{\to} d \coprod_c d 
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    d \coprod_c d \coprod_c d
+    \stackrel{\to}{\stackrel{\to}{\stackrel{\to}{\to}}}
+    \cdots
+  \right)
+  \,.
+$$
+
+Notice that 
+
+* this reduces to the above [equalizer definition](#AsEqualizer) in the case that the ambient $(\infty,1)$-category is just an ordinary category;
+
+* this implies that the inclusion $im f \to d$ is a [[regular monomorphism]] in the $(\infty,1)$-category sense (described [here](http://ncatlab.org/nlab/show/regular+monomorphism#Infty1Version)).
+
+#### Examples {#InfImageExamples}
+
+Applied to the $(\infty,1)$-category [[∞Grpd]] this gives a notion of image of [[(∞,1)-functor]]s between [[∞-groupoid]]s and hence a notion of image of [[functor]]s between [[groupoid]]s, [[2-functor]]s between [[2-groupoid]]s, etc.
 
 [[!redirects images]]
