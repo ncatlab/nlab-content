@@ -36,5 +36,11 @@ The [[higher geometry]] version of [[complex analytic geometry]], for instance (
 
 * {#Larusson01} Finnur Larusson, _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_ ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103))
 
+* {#HopkinsQuick12} [[Michael Hopkins]], [[Gereon Quick]], _Hodge filtered complex bordism_ ([arXiv:1212.2173](http://arxiv.org/abs/1212.2173))
+
+* _[[schreiber:Differential cohomology is Cohesive homotopy theory]]_
+
+  talk notes on how _[[cohesion]]_ is a faithful axiomatization of generalized [[differential cohomology hexagon|differential cohomology]] including differential [[nLab:moduli stack]] constructions such as that of  [[nLab:intermediate Jacobians]] in higher complex analytic geometry.
+
 
 [[!redirects complex analytic higher geometry]]
