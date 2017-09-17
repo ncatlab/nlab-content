@@ -26,6 +26,9 @@ These are both orthocomplemented:
 
 * the [[subspaces]] of a [[Hilbert space]], as in Birkhoff--von Neumann [[quantum logic]]/[[Hilbert lattice]]
 
+## Related concepts
+
+* [[orthomadular lattice]]
 
 ## References
 
