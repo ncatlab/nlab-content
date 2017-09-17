@@ -54,6 +54,26 @@ In this form the sequence is then also called the _exponential sheaf sequence_.
 
 * [[Kummer-Artin-Schreier-Witt exact sequence]]
 
+## Properties
+
+### Long sequence in cohomology
+ {#LongSequenceInCohomology}
+
+The [[connecting homomorphisms]] of the [[long exact sequence in cohomology]] induces by the exponential exact sequence
+
+$$
+  H^n(-,\mathbb{G}_m) \longrightarrow H^{n+1}(-,\mathbb{Z})
+$$
+
+encode the canonical [[characteristic classes]] of [[line n-bundles]].
+ 
+* For $n=1$ this is the [first Chern class in complex analytic geometry](first+Chern+class#InComplexAnalyticGeometry) defined on the [[Picard group]] of [[holomorphic line bundles]]; 
+
+* for $n = 2$ this is the complex analytic-analog of the [[Dixmier-Douady class]] of [[holomorphic 2-line bundles]], defined on the [[bigger Brauer group]];
+
+and so on.
+
+ 
 ## References
 
 * Wikipedia, _[Exponential sheaf sequence](http://en.wikipedia.org/wiki/Exponential_sheaf_sequence)_
