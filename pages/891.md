@@ -26,12 +26,6 @@ If $E$ is additionally the [[kernel pair]] of the map $X \to Q$, then $Q$ is cal
 
 Sometimes the term is used more loosely to mean an arbitrary [[coequalizer]].  It may also refer to a co-[[subobject]] of $X$ (that is, a subobject of $X$ in the [[opposite category]] $C^\op$), without reference to any congruence on $X$.  Note that in a [[regular category]], any [[regular epimorphism]] (i.e. a "regular quotient" in the co-subobject sense) is in fact the quotient (= coequalizer) of its [[kernel pair]].
 
-## Related concepts
-
-* [[subquotient]]
-
-* [[quotient space]]
-
 ## In higher category theory
 
 These notions have generalizations when $C$ is an [[(∞,1)-category]]:
@@ -40,6 +34,15 @@ These notions have generalizations when $C$ is an [[(∞,1)-category]]:
 
 * it has an "effective quotient" if it is [[delooping|deloopable]].
 
+
+
+## Related concepts
+
+* [[subquotient]]
+
+* [[quotient space]]
+
+* In [[type theory]]/[[homotopy type theory]] the analogous concept is that of [[quotient types]].
 
 [[!redirects quotient object]]
 [[!redirects quotient objects]]
