@@ -1,3 +1,22 @@
++--{.query}
+Note:
+
+$$\array{
+X & \stackrel{e}{\to} & X \\
+{} & \mathllap{\scriptsize{e}}{\nwarrow} & \darr\scriptsize{e} \\
+{} & {} & X
+}$$
+
+vs
+
+$$\array{
+1_X\lefttorightarrow X & \stackrel{e}{\to} & X \\
+{} & \mathllap{\scriptsize{e}}{\nwarrow} & \darr\scriptsize{e} \\
+{} & {} & X
+}$$
+
+=--
+
 A stub for now.
 
 The basic goal of this page is to turn Domenico's and Urs' statements about connections into statements about commutative diagrams.
