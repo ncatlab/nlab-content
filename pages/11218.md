@@ -47,3 +47,5 @@
   * [[Type Two Theory of Effectivity]]
 
   * [[computable function (analysis)]]
+
+* [[computable physics]]
