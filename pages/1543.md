@@ -415,8 +415,9 @@ We now unwrap the first statement in gory detail to make clear that this abstrac
 
 
 #### Unwinding the abstract description
+ {#UnwindingTheAbstractDefinition}
 
-We now rederive the [[action]] $\rho$ of $G$ on $P$ given just the classifying map $X \to \mathbf{B} G$ by spelling out the details implied by the above nonsense.
+We now rederive the [[action]] $\rho$ of $G$ on $P$ given just the classifying map $X \to \mathbf{B} G$ by spelling out the details implied by the above abstract description.
 
 Whatever the precise context is (topological, smooth, etc.) we may assume that we are at least in a [[category of fibrant objects]]. Then the classifying morphism $X \to \mathbf{B}G$ is represented by an [[anafunctor]], namely a cocycle
 
@@ -424,7 +425,7 @@ $$
   \array{
     C(U) &\stackrel{g}{\to} & \mathbf{B}G
     \\
-    \downarrow^{\in W \cap F}
+    \downarrow^{\mathrlap{\in W \cap F}}
     \\
     X
   }
