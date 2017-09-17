@@ -1,13 +1,15 @@
+
 +-- {: .standout}
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
 =--
-## Idea
 
-[[cup product]] in [[differential cohomology]]
+***
 
-## Examples
+<table><tr><td align="right">225</td></tr>
+<tr><td align="right">&minus;<u>&ensp;&ensp;7</u></td></tr>
+<tr><td align="right">218</td></tr></table>
 
-* [[cup product in ordinary differential cohomology]]
+***
 
 category: meta
 
