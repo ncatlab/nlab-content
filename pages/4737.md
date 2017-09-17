@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -63,7 +67,7 @@ for $\mathcal{G}_{x_i}$ the source fiber over an object $x_i$.
 
 ## Applications
 
-* As groupoid [[bibundle]], groupoid principal bundles serve as models for morphisms between [[Lie groupoid]]s.
+* Regarded as groupoid [[bibundles]], groupoid principal bundles serve as models for [[Morita morphisms]] between [[Lie groupoids]].
 
 ## Related concepts
 
@@ -74,6 +78,8 @@ for $\mathcal{G}_{x_i}$ the source fiber over an object $x_i$.
 * [[principal 3-bundle]] / [[bundle 2-gerbe]]
 
 * [[principal ∞-bundle]]
+
+* [[higher differential geometry]]
 
 ## References
 
