@@ -1,6 +1,8 @@
 
 > This entry is about the notion in [[Hamiltonian mechanics]]/[[symplectic geometry]]. For a different notion of the same name in [[category theory]] see at _[[canonical morphism]]_.
 
+> To be merged with [[generating function in classical mechanics]].
+
 ***
 
 +-- {: .rightHandSide}
