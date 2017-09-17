@@ -21,6 +21,19 @@ The first hint for the existence of such [[background gauge fields]] for the [[o
 
 This original argument goes back work by Chan and Paton. Accordingly one speaks of _Chan-Paton factors_ and _Chan-Paton bundles_ . 
 
+## Definition
+
+A precise account is at _[[field (physics)]]_ 
+in _[Chan-Paton gauge fields](field+(physics)#ChanPatonGaugeFields)_.
+
+## Related concepts
+
+* [[B-field]]
+
+* [[twisted K-theory]]
+
+* [[Freed-Witten anomaly cancellation]]
+
 ## References
 
 In the traditional physicist's string theory introductions one finds Chan-Paton bundles discussed for instance 
@@ -40,3 +53,6 @@ or around p. 66 of
 
 [[!redirects Chan-Paton vector bundle]]
 [[!redirects Chan-Paton vector bundles]]
+
+[[!redirects Chan-Paton gauge field]]
+[[!redirects Chan-Paton gauge fields]]
