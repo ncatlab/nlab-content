@@ -1,2 +1,1 @@
-
-see _[[geometric measure theory]]_
+&lt; [[geometric integration theory]]
