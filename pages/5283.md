@@ -58,7 +58,7 @@ $$
 
 The operation $div_\omega$ is a [[derivation]] of the [[Schouten bracket]] and makes multivectorfields into a [[BV-algebra]].
 
-A more general discussion of this phenomenon in ([CattaneoFiorenzaLongoni](CattaneoFiorenzaLongoni)).
+A more general discussion of this phenomenon in ([CattaneoFiorenzaLongoni](CattaneoFiorenzaLongoni)). Even more generally, see [[Poincaré duality]] for [[Hochschild cohomology]].
 
 
 ## References
