@@ -85,3 +85,6 @@ The $n$-[[spheres]] that admit a framing are precisely only
 [[!redirects parallelized manifold]]
 [[!redirects parallelizable manifolds]]
 [[!redirects parallelized manifolds]]
+
+[[!redirects framing]]
+[[!redirects framings]]
