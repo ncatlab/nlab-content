@@ -128,6 +128,19 @@ More in detail, an object $\mathfrak{a} \in L_\infty Algd$ may be identified (no
 
   with the $k$th summand on the right being in degree $k$.
 
++-- {: .num_defn #LInfinityAlgebras}
+###### Definition
+
+An $L_\infty$-algebroid with base space $X = *$ the [[point]] is an [[L-∞ algebra]] $\mathfrak{g}$, or rather is the [[delooping]] of an $L_\infty$-algebra. We write $b \mathfrak{g}$ for $L_\infty$-algebroids over the point. They form the full [[subcategory]]
+
+$$
+  L_\infty Alg \hookrightarrow L_\infty Algd
+  \,.
+$$
+
+=--
+
+
 We now construct an embedding of $L_\infty Algs$ into $SynthDiff\infty Grpd$. 
 
 The functor
@@ -144,17 +157,6 @@ $$
 
 from non-negatively graded cochain [[dg-algebra]]s to [[cosimplicial algebra]]s (over $\mathb{R}$).
 
-+-- {: .num_defn #LInfinityAlgebras}
-###### Definition
-
-An $L_\infty$-algebroid with base space $X = *$ the [[point]] is an [[L-∞ algebra]] $\mathfrak{g}$, or rather is the [[delooping]] of an $L_\infty$-algebra. We write $b \mathfrak{g}$ for $L_\infty$-algebroids over the point. They form the full [[subcategory]]
-
-$$
-  L_\infty Alg \hookrightarrow L_\infty Algd
-  \,.
-$$
-
-=--
 
 +-- {: .num_defn #PresentationByMonoidalDoldKan}
 ###### Definition
@@ -201,7 +203,7 @@ $$
   \alpha v_j := v_{\alpha(j)} - v_{\alpha(0)}
 $$
 
-and extend this skew-multilindarly to a map $\alpha : \wedge^\bullet \mathbb{R}^k \to \wedge^\bullet \mathbb{R}^l$. In terms of all this the action of $\alpha$ on homogeneous elements $(\omega,x)$ in the cosimplicial algebra is defined by
+and extend this skew-multilinearly to a map $\alpha : \wedge^\bullet \mathbb{R}^k \to \wedge^\bullet \mathbb{R}^l$. In terms of all this the action of $\alpha$ on homogeneous elements $(\omega,x)$ in the cosimplicial algebra is defined by
 
 $$
   \alpha : 
@@ -215,7 +217,7 @@ $$
 
 This is due to ([CastiglioniCortinas, (1), (2), (20), (22)](#CastiglioniCortinas)).
 
-We shall refine the image of $\Xi$ to cosimplicial [[smooth algebra]]s. Let $T := $[[CartSp]]${}_{smooth}$ be the category of [[Cartesian space]]s and [[smooth function]]s between, them, regarded as a [[Lawvere theory]]. Write 
+We shall refine the image of $\Xi$ to cosimplicial [[smooth algebra]]s. Let $T := $[[CartSp]]${}_{smooth}$ be the category of [[Cartesian space]]s and [[smooth function]]s between them, regarded as a [[Lawvere theory]]. Write 
 
 $$
   SmoothAlg := T Alg
@@ -297,7 +299,7 @@ We do not consider the standard [[model structure on dg-algebras]] and do not co
 The full subcategory category $L_\infty Alg \hookrightarrow L_\infty Algd$ from def. 
 \ref{LInfinityAlgebras} is equivalent to the traditional definition  of the category of [[L-∞ algebra]]s and "weak morphisms" / "sh-maps" between them.
 
-The full subcategory $LieAlgrd \hookrightarrow L_\infty Algebroid$ on the 1-truncated objects is equivalent to the traditional category of [[Lie algebroid]]s (over [[smooth manifold]]s).
+The full subcategory $LieAlgd \hookrightarrow L_\infty Algd$ on the 1-truncated objects is equivalent to the traditional category of [[Lie algebroid]]s (over [[smooth manifold]]s).
 
 In particular the joint intersection $Lie Alg \hookrightarrow L_\infty Alg$ on the 1-truncated $L_\infty$-algebras is equivalent to the category of ordinary [[Lie algebra]]s.
 
@@ -318,7 +320,7 @@ As in the discussion at [[SynthDiff∞Grpd]] we now present this [[cohesive (∞
 +-- {: .num_lemma #CofibrantResolutionOfLinfinityAlgebroid}
 ###### Lemma
 
-For $\mathfrak{a} \in L_\infty Algd$ and $i(\mathfrak{a}) \in [FSmoothMfd^{op}, Set]_{proj,loc}$ its image in the presentation for $SynthDiff \infty Grpd$,  we have that
+For $\mathfrak{a} \in L_\infty Algd$ and $i(\mathfrak{a}) \in [FSmoothMfd^{op}, sSet]_{proj,loc}$ its image in the presentation for $SynthDiff \infty Grpd$,  we have that
 
 $$
   \left(
@@ -365,7 +367,7 @@ for the projective and injective [[global model structure on functors]] on the [
 ###### Proposition
 
 Let $\mathfrak{g}$ be an [[L-∞ algebra]], regarded as an $L_\infty$-algebroid $b \mathfrak{g} \in L_\infty Algd$ over the point
-by the embedding of def \ref{LInfinityAlgebras}.
+by the embedding of def. \ref{LInfinityAlgebras}.
 
 Then $i(b \mathfrak{g}) \in $ [[SynthDiff∞Grpd]] is an infinitesimal object, in that it is geometrically contractible
 
