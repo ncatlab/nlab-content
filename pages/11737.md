@@ -13,6 +13,8 @@ The [[branes]]  of the [[B-model]] [[topological string]], hence a [[TQFT]]-shad
 
 * [[TCFT]]
 
+* [[Bridgeland stability condition]]
+
 * [[quiver gauge theory]]
 
 ## References
