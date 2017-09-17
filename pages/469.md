@@ -60,7 +60,7 @@ If $C$ is [[monoidal category|monoidal]] not necessarily [[symmetric monoidal ca
 
 ## Examples ##
 
- * The tautological example is the category [[Set]] of sets with its [[Cartesian poduct]]: the collection of functions between any two sets is itself a set -- the [[function set]].  More generally, any [[topos]] is cartesian closed monoidal.
+ * The tautological example is the category [[Set]] of sets with its [[Cartesian product]]: the collection of functions between any two sets is itself a set -- the [[function set]].  More generally, any [[topos]] is cartesian closed monoidal.
 
  * The category [[Ab]] of [[abelian groups]] with its [[tensor product of abelian groups]] is closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
 
