@@ -39,6 +39,8 @@ Equipped with the standard [[tensor product of chain complexes]] $Ch_\bullet$ is
 
 * [[derived category]], [[derived functor]]
 
+* [[(∞,1)-category of chain complexes]]
+
 category: category
 
 [[!redirects categories of chain complexes]]
