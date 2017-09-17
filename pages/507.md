@@ -292,6 +292,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
   * [[Giraud's theorem]]
 
+* [[subcanonical topology]], [[canonical topology]]
+
 * [[dense sub-site]]
 
 * The statement that the induced coverage inherits closure properties requires assumptions on either the coverage or the subcategory. See the discussion [here](http://nforum.mathforge.org/discussion/3693/induced-coverage/).
