@@ -98,7 +98,7 @@ The fact that the Sierpienski $(\infty,1)$-topos is, therefore, in particular
 
 1. a [[local (∞,1)-topos]]
 
-all follow directly from the fact that it is the image, under [[localic reflection]], of the [[Sierpinski space]] (that it is [[n-localic (∞,1)-topos|0-localic]], its [[n-truncated|(-1)-truncation]] being the [[frame]] of opens of the Sierpinski space).
+all follow directly from the fact that it is the image, under [[localic reflection]], of the [[Sierpinski space]] (hence that it is [[n-localic (∞,1)-topos|0-localic]], its [[n-truncated|(-1)-truncation]] being the [[frame]] of opens of the Sierpinski space).
 
 That space $Sierp$, in turn,
 
@@ -149,7 +149,7 @@ of the discrete base space and the inner structure of the fibers.
 The [[discrete object]] in the Sierpienski $(\infty,1)$-topos on a [[discrete ∞-groupoid]] $X$ is the bundle 
 
 $$
-  coDisc(X) \simeq [X \stackrel{id}{\to} X]
+  Disc(X) \simeq [X \stackrel{id}{\to} X]
 $$ 
 
 which is $X$ with "no cohesive blobs attached".
@@ -163,7 +163,67 @@ $$
 
 the structure where all of $X$ is regarded as one single contractible cohesive ball.
 
+The canonical morphism $\Gamma([P \to X]) \to \Pi([P \to X])$ from "points to pieces" is $P \to X$ itself. Hence 
+
+1. the [[full sub-(∞,1)-category]] on those objects for which "[pieces have points](cohesive%20%28infinity,1%29-topos#PiecesHavePoints)", hence those for which $\Gamma \to \Pi$ is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]], is the $(\infty,1)$-category of effective epimorphisms in the ambient $(\infty,1)$-topos, hence the $(\infty,1)$-category of [[groupoid object in an (∞,1)-category|groupoid objects]] in the ambient $(\infty,1)$-topos;
+
+1. the full sub-$(\infty,1)$-category on the objects with "[one point per piece](cohesive+topos#ObjectsWithOnePointPerCohesivePiece)" is the ambient $(\infty,1)$-topos itself.
+
 =--
+
+### Cohesive structures
+
+We unwind what some of the canonical  [[cohesive (infinity,1)-topos -- structures|structures in a cohesive (∞,1)-topos]] are when realized in the Sierpinski $(\infty,1)$-topos.
+
+A group object $\mathbf{B}[\hat G \to G]$ in $\mathbf{H}^I$ is a morphism in $\mathbf{H}$ of the form $ = \mathbf{B}\hat G \to \mathbf{B}G$.
+
+The corresponding flat coefficient object $\mathbf{\flat} \mathbf{B}[\hat G \to G] \to \mathbf{B}[\hat G \to G]$ is
+
+$$
+  \array{
+    \mathbf{\hat G} &\to& \mathbf{B} \hat G
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{\hat G} &\to& \mathbf{G}
+  }
+  \,.
+$$
+
+Hence the corresponding de Rham coefficient object is
+
+$$
+  \mathbf{\flat}_{dR} \mathbf{B}[\hat G \to G]
+  = 
+  [* \to \mathbf{B}A]
+  \,,
+$$
+
+where $A \to \hat G \to G$ exhibits $\hat G$ has an $\infty$-group extension of $G$ by $A$ in $\mathbf{H}$.
+
+The corresponding Maurer-Cartan form 
+
+$$
+  [\hat G \to G] \to \mathbf{\flat}_{dR}\mathbf{B}[\hat G \to G]
+$$
+
+is 
+
+$$
+  \array{
+    \hat G &\to& G
+    \\
+    \downarrow && \downarrow
+    \\
+    * &\to& \mathbf{B}A
+  }
+$$
+
+exhibiting the $A$-cocycle that classifies the extension $\hat G \to G$.
+
+
+
+
 
 ### Infinitesimal cohesion
  {#InfinitesimalCohesion}
