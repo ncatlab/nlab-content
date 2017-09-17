@@ -40,6 +40,10 @@ In terms of the [[internal logic]] of a [[topos]] (or other [[category]]), $true
 
 However, not every topos is [[two-valued topos|two-valued]], so there may be other truth values besides $true$ and $false$.
 
+### In homotopy type theory
+
+In [[homotopy type theory]] the _true_ is represented by any [[contractible type]].
+
 
 ## Examples
 
