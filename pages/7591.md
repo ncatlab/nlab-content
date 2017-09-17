@@ -298,6 +298,19 @@ The $\infty$-group of units of [[Morava K-theory]] is discussed in
 [[!redirects ∞-group ∞-ring]]
 [[!redirects ∞-group ∞-rings]]
 
+[[!redirects ∞-group E-∞-ring]]
+[[!redirects ∞-group E-∞-rings]]
+
+[[!redirects ∞-group E-∞ ring]]
+[[!redirects ∞-group E-∞ rings]]
+
+[[!redirects ∞-group E-infinity-ring]]
+[[!redirects ∞-group E-infinity-rings]]
+
+[[!redirects ∞-group E-infinity ring]]
+[[!redirects ∞-group E-infinity rings]]
+
+
 [[!redirects ∞-group ring]]
 [[!redirects ∞-group rings]]
 
