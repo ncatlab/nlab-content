@@ -1,5 +1,5 @@
 
-> This entry is about the notion of _Weil algebra_ as the algebra of functions on an infintiesimally thickened point. For the concept of Weil algebra in Lie theory see [[Weil algebra]].
+> This entry is about the notion of _Weil algebra_ as the algebra of functions on an infinitesimally thickened point. For the concept of Weil algebra in Lie theory see [[Weil algebra]].
 
 ***
 
