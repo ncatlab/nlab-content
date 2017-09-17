@@ -9,16 +9,8 @@
 =--
 =--
 
-* [[(0,1)-topos]]
-
-* [[topos]]
-
-* **2-topos**
-
-* [[(∞,1)-topos]]
 
 
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -41,11 +33,25 @@ See also [[higher topos theory]].
 
 The archetypical 2-topos is [[Cat]].
 
+
+## Related concepts
+
+* [[(0,1)-topos]]
+
+* [[topos]]
+
+* **2-topos**
+
+* [[(∞,1)-topos]]
+
+
 ## References
 
 * [[Mike Shulman]], _[[michaelshulman:What is a 2-topos]]?_
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
+
+* [[Mark Weber]], _Yoneda structures from 2-toposes_ ([pdf](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf))
 
 [[!redirects 2-toposes]]
 [[!redirects 2-topoi]]
