@@ -56,8 +56,7 @@ On the other hand, the aim is to keep iTeX as close as possible to standard LaTe
 
 ### I searched for a page that I know exists, but I couldn't find it
 
-Instiki's search uses regular expressions.  That means you can do all sorts of fancy searches, but it also means that pages with special characters in their names are hard to search for.  For instance, if you search for `(n,r)-category` you will come up with nothing, <a href="http://streamingmilf.net/tags/video-sexe-mature/
-" style="text-decoration:none;color:black;">video sexe mature</a> because Instiki interprets the parentheses as a regular expression grouping construct.  To search for actual parentheses, you need to backslash them: search instead for `\(n,r\)-category`.
+Instiki's search uses regular expressions.  That means you can do all sorts of fancy searches, but it also means that pages with special characters in their names are hard to search for.  For instance, if you search for `(n,r)-category` you will come up with nothing, because Instiki interprets the parentheses as a regular expression grouping construct.  To search for actual parentheses, you need to backslash them: search instead for `\(n,r\)-category`.
 
 ### Why is there no "Preview" button?
 
