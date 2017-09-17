@@ -151,9 +151,11 @@ For more on this see also
 ### KK-Reduction of 11d supergravity
  {##KKReductionOf11dSupergravity}
 
-The lift of the [above](#ReductionsOfTypeIISupergravity) reduction of [[type II supergravity]] on [[Calabi-Yau manifolds]] to [[M-theory]] is the KK-reduction of [[11-dimensional supergravity]]/[[M-theory]] on [[G2-manifolds]] $X_7$. The role of the [[B-field]] and [[RR-field]] is now played by the [[supergravity C-field]], a [[higher gauge field]] in [[twisted cohomology|twisted]] [[ordinary differential cohomology]] of degree 3+1. For non-vanishing [[field strength]] ("flux") of the [[supergravity C-field]] in the 4d space this is the [[Freund-Rubin compactification]] yielding [[weak G2 holonomy]] on $X_7$.
+The lift of the [above](#ReductionsOfTypeIISupergravity) reduction of [[type II supergravity|type IIA supergravity]] on [[Calabi-Yau manifolds]] to [[M-theory]] is the KK-reduction of [[11-dimensional supergravity]]/[[M-theory]] on [[G2-manifolds]] $X_7$. The role of the [[B-field]] and [[RR-field]] is now played by the [[supergravity C-field]], a [[higher gauge field]] in [[twisted cohomology|twisted]] [[ordinary differential cohomology]] of degree 3+1. For non-vanishing [[field strength]] ("flux") of the [[supergravity C-field]] in the 4d space this is the [[Freund-Rubin compactification]] yielding [[weak G2 holonomy]] on $X_7$.
 
-Such KK-compactification of the form _[[M-theory on G2-manifolds]]_ turn out to yield very detailed and at least semi-realistic [[model (physics)|physics]], see for instance the _[[G2-MSSM]]_ [[model (physics)|modle]].
+Such KK-compactification of the form _[[M-theory on G2-manifolds]]_ turn out to yield very detailed and at least semi-realistic [[model (physics)|physics]], see for instance the _[[G2-MSSM]]_ [[model (physics)|model]].
+
+The 1-form gauge field induced by KK-compactification of [[M-theory]] on a circle is the potential of the degree-2 part of the [[RR-field]] of [[type IIA string theory]] which couples to the [[D0-brane]].
 
 ### High codimension compactification of $D=10$ super Yang-Mills
 
