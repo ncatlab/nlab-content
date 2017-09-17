@@ -11,7 +11,7 @@
 
 A [[chain complex]] $A_\bullet$ in an [[abelian category]] $\mathcal{A}$ is called **perfect** if
 
-* it is bounded from above and below;
+* it is [[bounded chain complex|bounded]];
 
 * all objects are [[projective object]]s.
 
