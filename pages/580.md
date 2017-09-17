@@ -14,3 +14,5 @@ An **extremal epimorphism** (also called a **cover**) in a [[category]] $C$ is a
 
 
 [[!redirects extremal epimorphisms]]
+[[!redirects extremal epi]]
+[[!redirects extremal epis]]
