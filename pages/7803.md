@@ -4,6 +4,4 @@ Then by definition a funcoid from $A$ to $B$ is the quadruple $(A;B;\alpha;\beta
 
 $$\forall\mathcal{X}\in\mathfrak{F}(A),\mathcal{Y}\in\mathfrak{F}(B): \mathcal{Y}\sqcap\alpha \mathcal{X} \ne 0^{\mathfrak{F}(A)} \Leftrightarrow \mathcal{X}\sqcap\beta \mathcal{Y} \ne 0^{\mathfrak{F}(B)}.$$
 
-With funcoids and its generalizations are connected quite a lot definitions, theorems, conjectures, and research plans.
-
-[The homepage of funcoids theory](http://www.mathematics21.org/algebraic-general-topology.html)
+Funcoids have only been studied by Victor Porton, who invented them and claims that this work should win him the Abel prize.
