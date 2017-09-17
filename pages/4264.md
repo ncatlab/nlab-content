@@ -17,6 +17,7 @@ Given a [[topological space]] $X$, the [[open subspaces]] of $X$ form a [[poset]
 
 Similarly, given a [[locale]] $X$, the open subspaces of $X$ form a poset which is in fact a frame.  This is the __frame of open subspaces__ of $X$.  When thought of as a locale, this is simply $X$ all over again.  When thought of as a category, this is a [[site]] whose [[topos of sheaves]] is a __[[localic topos]]__.
 
+The frame of open subsets of the [[point]] is given by the power set of a singleton, or more generally by the [[subobject classifier|object of truth values]] of the ambient topos.
 
 [[!redirects frame of opens]]
 [[!redirects frames of opens]]
