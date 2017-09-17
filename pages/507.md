@@ -197,7 +197,17 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
   * [[Giraud's theorem]]
 
+#### C2.3 Morphisms of sites
 
+* [morphism of sites](http://ncatlab.org/nlab/show/site#Morphisms)
+
+#### C2.4 Internal sites and pullbacks
+
+...
+
+#### C2.5 Fibrations of sites
+
+...
 
 ### C3 Classes of geometric morphisms
 
