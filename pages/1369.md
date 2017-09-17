@@ -1,9 +1,18 @@
-<div class="rightHandSide toc">
-[[!include monoidal categories - contents]]
-***
-[[!include higher algebra - contents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -157,6 +166,13 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 >**Remark** The second statement is example 2.3.8 in [EnAction](http://dspace.mit.edu/handle/1721.1/43792). The first seems to be clear but is maybe not in the literature. Jacob Lurie is currently rewriting [[higher algebra|Higher Algebra]] such as to build in a discussion of $E_n$-operadic structures in the definition of $k$-tuply monoidal $(\infty,1)$-categories.
 
+## Related concepts
+
+* [[monoidal category]]
+
+* [[monoidal bicategory]]
+
+* **monoidal $(\infty,1)$-category**
 
 
 
