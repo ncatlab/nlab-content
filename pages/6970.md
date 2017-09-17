@@ -78,6 +78,19 @@ The conversion rules also correspond.
 
 In dependent type theory, this definition of $funsplit$ only gives us a properly typed dependent eliminator if the negative function type satisfies $\eta$-conversion.  As usual, if it satisfies [propositional eta-conversion](/nlab/show/eta-conversion#Propositional) then we can transport along that instead---and conversely, the dependent eliminator allows us to prove propositional $\eta$-conversion.  This is the content of Propositions 3.5, 3.6, and 3.7 in [(Garner)](#GarnerSDP).
 
+### As a special case of the dependent product
+
+In [[dependent type theory]] a function type $A \to B$ is the
+special case the [[dependent product]] over $a : A$ for the 
+special case that $B$ is regarded as an $A$-[[dependent type]] that
+actually happens to be $A$-independent
+
+$$
+  A \to B =_{def} \prod_{a : A} B
+  \,.
+$$
+
+In [[categorical semantics]] this is the statement that a [[section]] of a product [[projection]] $A \times B \to A$ is equivalently just a morphism $A \to B$.
 
 ## Related concepts
 
