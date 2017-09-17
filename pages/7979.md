@@ -38,6 +38,10 @@ Discussion in terms of [[differential forms]] is for instance in
 
 * [[Theodore Frankel]], _Maxwell's equations_, The American Mathematical Monthly, Vol 81, No 4 (1974) ([pdf](http://ocw.nctu.edu.tw/course/vanalysis/maxwell_amm.pdf), [JSTOR](http://links.jstor.org/sici?sici=0002-9890%28197404%2981%3A4%3C343%3AME%3E2.0.CO%3B2-D))
 
+and in section 3.5 of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
 
 [[!redirects Maxwell equation]]
 [[!redirects Maxwell's equation]]
