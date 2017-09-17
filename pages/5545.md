@@ -45,5 +45,8 @@ is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 (...)
 
+## Related concepts
+
+* [[n-types cover]]
 
 [[!redirects atlases]]
