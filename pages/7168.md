@@ -87,6 +87,8 @@ Course notes include for instance
 
 * _Bilinear and quadratic forms_ ([pdf](http://buzzard.ups.edu/courses/2007spring/projects/ott-paper-revised.pdf))
 
+* section 10 in _Analytic theory of modular forms_ ([pdf](http://www.math.harvard.edu/~jbland/ma259x_notes.pdf))
+
 Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerful tool in [[algebraic topology]] and [[differential topology]]. See
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
