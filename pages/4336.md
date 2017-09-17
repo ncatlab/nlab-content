@@ -5,7 +5,13 @@ Often one uses the term in a context where one can add and multiply matrices usi
 
 ## Related concepts
 
-* [[transpose matrix]]
+* [[linear algebra]], [[general linear group]], [[special linear group]], [[matrix mechanics]], [[matrix theory]], [[matrix Hopf algebra]], [[matrix Lie algebra]], [[matrix Lie group]], [[classical Lie group]], [[matrix calculus]], [[universal localization]], [[tensor calculus]], [[moment of inertia]], [[eigenvalue]], [[characteristic polynomial]] (Cayley-Hamilton theorem), [[spectral curve]]
+
+Special cases: [[S-matrix]], [[classical r-matrix]], [[density matrix]], [[hermitian matrix]], [[skew-symmetric matrix]], [[quantum Yang-Baxter matrix]], [[random matrix]], [[skew-symmetric matrix]]
+
+Operations on/with matrices: [[transpose matrix]], [ [[trace]], [[matrix factorization]], [[Gauss decomposition]], [[Gram-Schmidt process]]
+
+Determinants and [[determinant]] like notions, and special cases: [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]], [[resultant]], [[discriminant]]
 
 [[!redirects matrix]]
 [[!redirects matrices]]
