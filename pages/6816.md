@@ -66,10 +66,15 @@ Superconformal invariance of $N=4$, $D=4$ SYM can be shown with the result of
 
 ### Planar sector and integrability
 
-A comprehensive discussion of the planar sector is in 
+A comprehensive discussion of the [[integrability]] related to anomalous dimension in the planar sector is in 
 
 * N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_ 
 Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
+
+Discussion of special properties of [[scattering amplitudes]] in the planar sector is in
+
+* [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
+
 
 ### Scattering amplitudes
 
