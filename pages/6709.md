@@ -17,7 +17,75 @@
 
 A family of [[characteristic class]]es that obstruct [[orientation]], [[spin structure]], [[spin^c structure]], etc.
 
-Stiefel-Whitney classes have coefficients in $\mathb{Z}_2$, but via the [[Bockstein homomorphism]] they are lifted to [[integral Stiefel-Whitney class]]es.
+Stiefel-Whitney classes have coefficients in $\mathbb{Z}_2$, but via the [[Bockstein homomorphism]] they are lifted to [[integral Stiefel-Whitney class]]es.
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+The _Stiefel-Whitney classes_ are [[characteristic classes]] $w_i \in H^{i}(B O(n), \mathbb{Z}_2)$ on the [[classifying space]] of the [[orthogonal group]] in [[dimension]] $n$, defined by
+
+1. $w_0 = 1$ and if $i \gt n$ then $w_i = 0$;
+
+1. for $n = 1$,  $w_1 \neq 0$;
+
+1. for the inclusion $i : B O(n) \hookrightarrow B O(n-1)$ we have $i^* w_i^{(n+1)} = w_i^{(n)}$;
+
+1. for the inclusion $i : B O(k) \times B O(l) \to B O(k+l)$ we have $i^* w_i = \sum_{j = 0}^i w_j \cup w_{i-j}$ (on the right the [[cup product]]).
+
+=--
+
+One defines the _total Stiefel-Whitney class_
+
+$$ 
+  w := \sum_i w_i
+$$
+
+as an element in the [[cohomology ring]]. For this the cup product rule says that for $E_1, E_2$ two real [[vector bundles]], then 
+
+$$
+  w(E_1 \oplus E_2) = w(E_1) \cup w(E_2)
+  \,.
+$$
+
+
+## Constructions
+
+(...)
+
+## Properties
+
+### Spanning the cohomology ring
+
++-- {: .num_prop}
+###### Proposition
+
+Every class in $H^\bullet(B O(n), \mathbb{Z}_2)$ can be written uniquely as a polynomial in the Stiefel-Whitney classes. In fact the [[cohomology ring]] is the [[polynomial]] algebra over $\mathbb{Z}_2$ in the SW classes:
+
+$$
+  H^\bullet(B O(n), \mathbb{Z}_2)  
+  \simeq
+  \mathbb{Z}_2[w_1, \cdots, w_n]  
+  \,.
+$$
+
+=--
+
+### Whitney duality formula
+
+For $X \hookrightarrow \mathbb{R}^q$ an [[embedding]] of a compact manifold, write $\tau := T X$ for the [[tangent bundle]] and $\nu$ for the corresponding [[normal bundle]]. Then since
+
+$$
+  \tau \oplus \nu \simeq T \mathbb{R}^q
+$$
+
+and the class of the vector bundle on the right is trivial, the sum rule for the SW classes says gives the [[cup product]] duality
+
+$$
+  w(\tau) \cup w(\nu) = 1
+  \,.
+$$
 
 ## Related concepts
 
@@ -27,4 +95,12 @@ Stiefel-Whitney classes have coefficients in $\mathb{Z}_2$, but via the [[Bockst
 
 ## References
 
+A concise introduction is in chapter 23, section 3 of 
+
+* [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
+See also
+
 * wikipedia: _[Stiefel-Whitney class](http://en.wikipedia.org/wiki/Stiefel%E2%80%93Whitney_class)_
+
+[[!redirects Stiefel-Whitney classes]]
