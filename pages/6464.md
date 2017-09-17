@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $A : \Delta \to C$ a [[cosimplicial object]] in a [[category]] $C$ which is [[powering|powered]] over [[simplicial sets]] and for
+
+$$
+  \Delta : [n] \mapsto \Delta[n]
+$$
+
+the canonical cosimplicial simplicial set of [[simplices]], the **totalization** of $A$ is the [[end]]
+
+$$
+  \int_{[k]\in \Delta}
+  (A_k)^{\Delta[k]}
+  \,\,\,
+  \in 
+  C
+  \,.
+$$
+
+This is dual to [[geometric realization]]. 
+
+## Related concepts
+
+* [[geometric realization]]
+
+## References
+
+Some kind of notes are in
+
+* Rosona Eldred, _Tot primer_ ([pdf](http://www.math.uiuc.edu/~reldred2/tot-primer.pdf))
+
+[[!redirects totalizations]]
