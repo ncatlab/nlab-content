@@ -400,7 +400,7 @@ Let $A_\bullet$ be a [[chain complex]] of [[modules over a groupoid|modules over
 
 * Its set of objects is $\Theta(A)_0 = A_0$.
 
-  Remember that $A_0$ itself is a module over $\matcal{H} = (\mathcal{H}_1 \stackrel{\to}{\to} \mathcal{H}_0)$, so that $A_0 = \corpdod_{p \in \mathcal{H}_0} (A_0)_p$.
+  Remember that $A_0$ itself is a module over $\mathcal{H} = (\mathcal{H}_1 \stackrel{\to}{\to} \mathcal{H}_0)$, so that $A_0 = \coprod_{p \in \mathcal{H}_0} (A_0)_p$.
 
 * For $x \in (A_0)_p$ and $y \in (A_0)_q$ a morphism in $\Theta(A)_1$ from $x$ to $y$ is labeled by $h \in \mathcal{H}_1$ and $a \in (A_1)_q$
 
