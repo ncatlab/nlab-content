@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-where $f^\ast$ is [[context extension]] and where the [[left adjoint]] $f_!$ and [[right adjoint]] $f^\ast$ are to be thought of as linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]]. 
+where $f^\ast$ is [[context extension]] and where the [[left adjoint]] $f_!$ and [[right adjoint]] $f_\ast$ are to be thought of as linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]]. 
 
 Equivalently this is an [[indexed closed monoidal category]] with fiberwise [[dual object|duals]].
 
