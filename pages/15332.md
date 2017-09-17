@@ -13,7 +13,7 @@ The basic concept of abstract model theory is that of an _abstract logic_
 which is  a triple $\mathcal{L}=(S,\Phi ,\models)$ where $\models$ is a binary relation between the class of $\mathcal{L}$-'structures' $S$ and the class of $\mathcal{L}$-'sentences' $\Phi$ to be thought of as minimalistic version of the _satisfaction_ relation.
 
 ##Remark
-As the logical relations studied by abstract model theory are of a functorial nature, some category theory entered the picture already in Barwise (1974). The theory of [[institutions]], aka _institution-independent model theory_ (Diaconescu 2008), constitutes abstract categorical model theory proper. In a similar abstract 2-categorical vain is the approach to [[geometric theories]] described in Johnstone (2002, sec. B4.2).
+As the logical relations studied by abstract model theory are of a functorial nature, some category theory entered the picture already in Barwise (1974). The theory of [[institutions]], aka _institution-independent model theory_ (Diaconescu 2008), constitutes abstract categorical model theory proper. In a similar abstract categorical vain is the approach to [[geometric theories]] described in Johnstone (2002, sec. B4.2).
 
 
 ## References
