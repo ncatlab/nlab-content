@@ -27,7 +27,7 @@ and $\phi_*(c) = c$.
 and $\phi_*(x) = \phi(x)$.
 
 * (sums, products and negatives of evaluables evaluate)
-If $f, g \in {\cal R}_\phi$, then $f+g, f\cdot g, -f \in\mathcal{R}_\phi$,
+If $f, g \in\mathcal{R}_\phi$, then $f+g, f\cdot g, -f \in\mathcal{R}_\phi$,
 $\phi_*(f+g) = \phi_*(f) + \phi_*(g)$, $\phi_*(f\cdot g) =
 \phi_*(f)\cdot\phi_*(g)$ and $\phi_*(-f) = -\phi_*(f)$.
 
@@ -39,16 +39,14 @@ set of all $|X|$-tuples $\vec{r} = (r_1,\ldots,r_{|X|}) \in R^{|X|}$
 such that $f \in \mathcal{R}_\phi$ where $\phi = \phi_{\vec{r}}$ satisfies
 $\phi(x_i) = r_i$ for $i = 1,\ldots, |X|$. Those $f$ for which
 $\mathrm{Dom}_\phi f \neq \emptyset$ are called nondegenerate. It is clear
-that $f \notin {\cal R}_\phi$ iff there is a subexpression in $f$ of the form
+that $f \notin\mathcal{R}_\phi$ iff there is a subexpression in $f$ of the form
 $(f_0)^{-1}$ where $f_0 \in \mathcal{R}_\phi$ and $\phi_*(f_0)$ is not
 invertible in $R$.
 
 * [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants
-of matrices over noncommutative rings_,
-Funct.Anal.Appl. __25__ (1991), no.2, pp. 91--102.
-engl. transl. __21__ (1991), pp. 51--58; _A theory of noncommutative
+of matrices over noncommutative rings_, Funct. Anal. Appl. __25__ (1991), no.2, pp. 91--102; engl. transl. __21__ (1991), pp. 51--58; _A theory of noncommutative
 determinants and characteristic functions of graphs_,
-Funct.Anal.Appl. __26__ (1992), no.4, pp. 231--246.
+Funct. Anal. Appl. __26__ (1992), no.4, pp. 231--246.
 * [[Zoran Škoda]], _Universal noncommutative flag variety_, preprint (the exposition above is mainly taken from here)
 
 It is used in the study of [[skewfield]]s, [[Cohn localization]], [[quasideterminant]]s, noncommutative integrable systems and so on.
