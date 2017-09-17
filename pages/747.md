@@ -784,11 +784,40 @@ In total this shows that the localization at the [[coverage]] produces the [[top
 =--
 
 
-## Closed monoidal structure
+## Closed monoidal structure {#MonoidalStructure}
 
 If the underlying site has finite [[product]]s, then both the injective and the projective, the global and the local model structure on simplicial presheaves becomes a [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
 
-See for [here](http://www.math.univ-toulouse.fr/~toen/crm-2008.pdf#page=24).
+See for instance [here](http://www.math.univ-toulouse.fr/~toen/crm-2008.pdf#page=24).
+
++-- {: .un_lemma}
+###### Lemma
+
+Let $C$ be a category with [[products]]. Then the [[closed monoidal structure on presheaves]] makes $[C^{op}, sSet]_{proj}$ a [[monoidal model category]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to check that the Cartesian product of presheaves
+
+$$
+  \otimes : sPSh(C)_{proj} \times sPSh(C)_{proj} \to sPSh(C)_{proj}
+$$
+
+is a left [[Quillen bifunctor]]. As discussed at [[Quillen bifunctor]], since $sPSh(C)$ is a [[cofibrantly generated model category]] for that it is sufficient to check that $\otimes$ satisfies the pushout-prodct axiom on generating (acyclic) cofibrations. 
+
+As discussed at [[model structure on functors]], these are those morphisms of the form
+
+$$
+  Id \times i : U \cdot S \to U \cdot T
+$$
+
+for $U \in C$ representable and $i : S \to T$ an (acylic) cofibration in $sSet_{Quillen}$. For these morphisms checking the pushout-product axiom amounts to checking it in $sSet$, where it is evident. 
+
+=--
 
 
 ## Homotopy (co)limits
