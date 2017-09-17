@@ -35,7 +35,45 @@ In the [[cohesive (∞,1)-topos]] of synthetic differential $\infty$-groupoids t
 +-- {: .un_def}
 ###### Definition
 
-Let [[CartSp]]${}_{synthdiff}$ be the [[full subcategory]] of the category of [[smooth loci]] on the objects of the form $\mathbb{R}^n \times D$ that are [[product]]s of a [[Cartesian space]] $\mathbb{R}^n$ for $n \in \mathbb{N}$ and a first order [[infinitesimally thickened point]] $D$.
+Let $T := $ [[CartSp]]${}_{smooth}$ be the [[syntactic category]] of the [[Lawvere theory]] of [[smooth algebra]]s: the category of [[Cartesian space]]s $\mathbb{R}^n$ and [[smooth function]]s between them.
+
+Write
+
+$$
+  SmoothAlg := T Alg
+$$
+
+for its category of [[algebras over a Lawvere theory|T-algebras]] -- the [[smooth algebra]]s ($C^\infty$-rings).
+
+Let
+
+$$
+  InfPoint \hookrightarrow SmoothAlg^{op}
+$$
+
+be the [[full subcategory]] on the [[infinitesimally thickened point]]s: this smooth algebras whose underlying abelian group is a [[vector space]] of the form $\mathbb{R} \oplus V$ with $V$ a finite-[[dimension]]al real [[vector space]] and nilpotent in the algebra structure.
+
+=--
+
+
++-- {: .un_def}
+###### Definition
+
+
+Let 
+
+$$
+  CartSp_{synthdiff} := 
+   CartSp \ltimes InfPoint
+$$ 
+
+be the [[full subcategory]] of the category of [[smooth loci]] on the objects of the form 
+
+$$
+  U = \mathbb{R}^n \times D
+$$ 
+
+that are [[product]]s of a [[Cartesian space]] $\mathbb{R}^n \in$ [[CartSp]] for $n \in \mathbb{N}$ and an [[infinitesimally thickened point]] $D \in InfPoint$.
 
 Equip this category with the [[coverage]] where a family of morphisms  is [[covering]] precisely if it is of the form $\{U_i \times D \stackrel{(f_i, Id_D)}{\to} U \times D\}$ for $\{f_i : U_i \to U\}$ a covering in [[CartSp]]${}_{smooth}$ (a [[good open cover]]).
 
@@ -764,6 +802,9 @@ which parallels
 
 [[!redirects synthetic differential ∞-groupoid]]
 [[!redirects synthetic differential ∞-groupoids]]
+
+[[!redirects synthetic-differential ∞-groupoid]]
+[[!redirects synthetic-differential ∞-groupoids]]
 
 
 [[!redirects SynthDiff∞Grpd]]
