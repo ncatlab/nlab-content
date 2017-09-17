@@ -224,8 +224,9 @@ The central theorem says that formal integration in this dg-manifold over [[Lagr
 
 
 ### The standard construction
+ {#StandardLagrangianBV}
 
-We discuss the standard constructions and theorems in Lagrangian BV formalism.
+We discuss the standard constructions and theorems in Lagrangian BV formalism. The discussion here is supposed to be a direct formalization of the informal discussion in the standard physics literature (e.g. [HenneauxTeitelboim](#HenneauxTeitelboim)) but more pedestrian and more lightweight than for instance the more powerful formalizaton of ([BeilinsonDrinfeld](#BeilinsonDrinfeld)).
 
 Let $k$ be a [[field]] of [[characteristic]] 0. Write $dgcAlg_{k}$ for the [[category]] of graded-commutative [[dg-algebra]]s over $k$ (not assumed to be finitely generated and not assumed to be bounded). For the present discussion we regared the [[opposite category]] $Space := dgAlg_k^{op}$ as our category of [[space]]s and write
 
@@ -271,12 +272,119 @@ $$
   \,.
 $$
 
-By the defining [[free property]] of $\mathbb{A}^1$ and since $\mathcal{O}(C)$ is assumed to be concentrated in degree 0, this morphism is fixed by its image $S^*(x)$ and hence we may identify $S$ as an element in $\mathcal{O}(C)$
+By the defining [[free functor|free property]] of $\mathbb{A}^1$ and since $\mathcal{O}(C)$ is assumed to be concentrated in degree 0, this morphism is fixed by its image $S^*(x)$ and hence we may identify $S$ as an element in $\mathcal{O}(C)$
 
 $$
   S \in \mathcal{O}(C)
   \,.
 $$
+
+Write $\Omega^1(C)$ for the $\mathcal{O}(C)$-[[module]] of [[Kähler differential]]s on $C$. By its defining property there is a [[bijection]] between [[derivation]]s
+
+$$
+  v : \mathcal{O}(C) \to \mathcal{O}(C)
+$$
+
+and $\mathcal{O}(C)$-[[module]] homomorphism
+
+$$
+  \iota_v : \Omega^1(C) \to \mathcal{O}(C)
+$$
+
+to be thought of a giving by evaluating a 1-form on the [[vector field]] corresponding to the derivation.
+
+Conversely, the fixed [[Kähler differential]]
+
+$$
+  d S \in \Omega^1(C)
+$$
+
+defines a $k$-linear function
+
+$$
+  \iota_{d S} 
+    : 
+   Der(\mathcal{O}(C)) 
+    \to 
+   \mathcal{O}(C)
+$$
+
+by $v \mapsto \iota_v (d S)$.
+
+We define the following notions
+
+* the [[kernel]]
+
+  $$
+    N_S 
+      \hookrightarrow 
+    Der(\mathcal{O}(S))
+      \stackrel{\iota_{d S}}{\to}
+    \mathcal{O}(C)
+  $$
+
+  of $\iota_{d S}$ is called the module of **[[Noether identities]]** of the [[action functional]] $S$.
+
+* the [[image]]
+
+  $$
+    \iota_{d S}
+    :
+    Der(\mathcal{O}(S))
+    \to
+     I_S
+     \hookrightarrow
+    \mathcal{O}(C)
+  $$
+
+  is called the **Euler-Lagrange ideal** of $S$. The space whose function algebra is the [[quotient]]
+
+  $$
+    \mathcal{O}(C_{\{d S = 0\}}) = \mathcal{O}(C)/I_S
+  $$
+
+  is the unresolved [[covariant phase space]] of $S$.
+
+Consider then the [[dg-algebra]]
+
+$$
+  Sym_{\mathcal{O}(C)}(
+    N_S \to Der(\mathcal{O}(C)) \stackrel{\iota_{d S}}{\to} \mathcal{O}(C)
+  )
+$$
+
+free on the [[cochain complex]] of $\mathcal{O}(C)$-[[module]]s 
+
+$$
+  \array{
+    N_S &\hookrightarrow& Der(\mathcal{O}(C)) &\to& \mathcal{O}(C)
+    \\
+    -2 && -1 && 0
+  }
+$$
+
+with degrees as indicated. One says that the generators in degree 0 are the _fields_ , the generators degree -1 the _antifields_ and the generators in degree -2 the _antighosts_ .
+
+This comes with a canonical morphism
+
+$$
+  \array{
+    Sym_{\mathcal{O}(C)}(
+      N_S \to Der(\mathcal{O}(C)) \stackrel{\iota_{d S}}{\to} 
+     \mathcal{O}(C)
+  )
+  \\
+  \downarrow
+  \\
+  \mathcal{O}(C)/I_S
+  }
+$$
+
+that is a [[quasi-isomorphism]]. Under suitable conditions on $\mathcal{O}(C)$ and $S$, this is a [[resolution]] of $\mathcal{O}(C)/_S$ by a complex of [[projective object]]s in the category of $\mathcal{O}(C)$-[[module]]s, hence a cofibrant resolution of the unresolved [[covariant phase space]] with function algebra $\mathcal{O}(C)/I_S$ in a typical [[model structure on dg-algebras]]. Under non-suitable conditions $N_S$ itself needs to be further resolved in order to achieve this. 
+
+The main point of the Lagrangian BV construction is that this resolution naturally carries a useful [[BV-algebra]] structure. The [[Poisson 2-algebra]]-structure is induced by the [[Schouten bracket]] on the [[polyvector field]]s $Der(\mathcal{O})$.
+
+(...)
 
 
 ### Poincare duality on Hochschild (co)homology
@@ -380,8 +488,19 @@ $$
 A classical standard references is
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. xxviii+520 pp.
+{#HenneauxTeitelboim}
 
 The bulk of the book considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
+
+This is written in the traditional informal style of the physics literature. A powerful general formalization of Lagrangian BV is in 
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_ . 
+{#BeilinsonDrinfeld}
+
+A nice exposition of this is in section 3 and section 4 of 
+
+* [[Frédéric Paugam]], _Histories and observables in covariant field theory_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/1010/1010.3210v2.pdf))
+{#Paugam}
 
 ### Lagrangian BV
 
