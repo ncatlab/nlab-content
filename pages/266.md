@@ -148,12 +148,15 @@ It is clear that the definition in this form makes sense in every [[2-category]]
 
 ### Pointwise Kan extensions {#Pointwise}
 
-If $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be computed in terms of these.  The requisite limits are most naturally expressed as [[weighted limits]], but in good cases they can be re-expressed in terms of [[end|(co)ends]] or conical colimits over [[comma categories]], which may be more familiar.  However, we first give a definition that doesn't rely on any computational framework:
+If $D$ admits certain [[limit|(co)limits]], then left and right Kan extensions can be constructed out of these.  The requisite limits are most naturally expressed as [[weighted limits]], but in good cases they can be re-expressed in terms of [[end|(co)ends]] or conical colimits over [[comma categories]], which may be more familiar.  However, we first give a definition that doesn't rely on any computational framework:
 
 +-- {: .un_defn}
 ###### Definition
-A Kan extension is called _pointwise_ if and only if it is preserved by all [[representable functor]]s ([[Categories Work]], theorem X.5.3).
+A Kan extension is called __pointwise__ if and only if it is preserved by all [[representable functor]]s ([[Categories Work]], theorem X.5.3).
 =--
+
+Here we say that a Kan extension $Lan_p F$ is *preserved* by a functor $G$ if the composite $G \circ Lan_p F$ is a Kan extension of $G F$ along $p$, and moreover the universal natural transformation $G F \to G(Lan_p F)p$ is the composite of $G$ with the universal transformation $F\to (Lan_p F)p$.
+
 
 #### in terms of weighted (co)limits {#byColimits}
 
@@ -170,6 +173,8 @@ $$
 exists for all $c'$, then they fit together into a left Kan extension $Lan_p F$.  These definitions evidently make sense in the generality of $V$-[[enriched category theory]] for $V$ a [[closed monoidal category|closed]] [[symmetric monoidal category]].  (In fact, they can be modified slightly to make sense in the full generality of a [[2-category equipped with proarrows]].)
 
 In particular, this means that if $C$ is [[small category|small] and $D$ is [[complete category|complete]] (resp. cocomplete), then all right (resp. left) Kan extensions of functors $F\colon C\to D$ exist along any functor $p\colon C\to C'$.
+
+One can prove that any Kan extension constructed in this way must be pointwise, in the sense of being preserved by all representables as above.  Moreover, conversely, if a Kan extension $Lan_p F$ is pointwise, then one can prove that $(Lan_p F)(c')$ must be in fact a $C'(p(-),c')$-weighted colimit of $F$, and dually; thus the two notions are equivalent.
 
 
 #### in terms of (co)ends {#byCoends}
@@ -216,9 +221,11 @@ if it exists for all $c'$.  Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[com
 
 ### Comparing the definitions   {#pointwiseVsWeak}
 
-Not all Kan extensions in the universal-transformation sense defined above are _pointwise_ Kan extensions, i.e. computed as weighted (co)limits.  Non-pointwise Kan extensions can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not pointwise.
+We have seen that if $D$ has enough limits or colimits, then a pointwise Kan extension can be defined in terms of these limits, and will necessarily satisfy the universal property described first.  However, not all Kan extensions are pointwise: that is, having a universal transformation $F \to (Lan_p F)p$ does not necessarily imply that the individual values of $Lan_p F$ are limits or colimits in its codomain.  Non-pointwise Kan extensions can exist even when $D$ does not admit very many limits.
 
-The upshot is that if a pointwise extension exists then it is the same as the corresponding non-pointwise extension, but the converse does not always hold.  
+It should be noted, though, that pointwise Kan extensions can still exist, and hence the particular requisite limits/colimits exist, even if $D$ is not (co)complete.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are pointwise, and in fact [[absolute colimit|absolute]] (preserved by *all* functors), even though their codomains are [[homotopy categories]] which generally do not admit all limits and colimits.
+
+Non-pointwise Kan extensions seem to be very rare in practice.  However, the abstract notion of Kan extension (sometimes called simply "extension") in a 2-category, and its dual notion of lifting, can be useful in [[2-category theory]].  For instance, [[bicategories]] such as [[Prof]] admit all right extensions and right liftings; a bicategory with this property may be considered a [[horizontal categorification]] of a [[closed monoidal category]].
 
 
 ### in $(\infty,1)$-categories 
