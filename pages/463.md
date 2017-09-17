@@ -21,6 +21,9 @@
 
 * D. Ben-Zvi, [[BenZviGeometricFunctionTheory.pdf:file]] (Jan 2009).
 
+* talk at _[ASPECTS of Topology](https://people.maths.ox.ac.uk/tillmann/ASPECTS.html)_ 2012, _[[Loop Groups, Characters and Elliptic Curves]]_ ([pdf slides](https://people.maths.ox.ac.uk/tillmann/ASPECTSbenzvi.pdf))
+
+
 * D. Ben-Zvi has given many interesting answers to [http://mathoverflow.net](MathOverflow) questions, and a list can be found at [MO user page:David Ben-Zvi](http://mathoverflow.net/users/582/david-ben-zvi).
 
 category: people
