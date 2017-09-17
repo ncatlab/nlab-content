@@ -169,10 +169,11 @@ A model for this in 4-truncation is given by [[super line 2-bundles]]. For the m
 
 * **twisted K-theory**
 
-* [[differential K-theory]]
+  * [[differential K-theory]]
 
-* [[twisted differential K-theory]]
+  * [[twisted differential K-theory]]
 
+* [[twisted ordinary cohomology]]
 
 
 ## References 
