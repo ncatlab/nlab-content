@@ -19,7 +19,7 @@
 
 Traditionally, a compactification of a [[topological space]] $X$ is a [[compact space]] $C$ together with an [[embedding]] $i \colon X \to C$ as a [[dense subspace]]. Well known is for instance the _[[one-point compactification]]_ of a [[locally compact Hausdorff space]] which for instance sends the real [[line]] to the [[circle]] by adding a point at infinity.
 
-In some cases, the terminology 'compactification' is applied to generalizations where $i$ is not an embedding (does not map [[homeomorphism|homeomorphically]] to its image equipped with the subspace topology). For example, the one-point compactification of an already [[compact Hausdorff space]] adds an *isolated* point at infinity.
+In some cases, the terminology 'compactification' is applied to generalizations where $i$ is not a dense embedding (does not map [[homeomorphism|homeomorphically]] to an image that is dense). For example, the one-point compactification of an already [[compact Hausdorff space]] adds an *isolated* point at infinity, and so is not a dense subspace. Or, if $X$ is not a Tychonoff space, then the universal map to its [[Stone-Cech compactification]] is not an embedding.  
 
 If the space has further geometric structure, the compactification is 
 usually required to has such a structure and embedding has to preserve it.
@@ -44,7 +44,7 @@ Then one requires that the compactified fiber is finite but small compared to so
 +-- {: .num_defn #Compactification}
 ###### Definition
 
-A _compactification_ of a [[topoligical space]] $X$
+A _compactification_ of a [[topological space]] $X$
 is a [[compact topological space|compact]] [[Hausdorff topological space]]
 $Y$ equipped with an [[embedding]] $X \hookrightarrow Y$
 such that the [[closure]] of $X$ in $Y$ is the compact space:
