@@ -44,7 +44,7 @@ Similarly, while plain vanilla type theory formalizes [[intuitionistic logic]]/[
 ## As a formal language for category theory 
   {#CategoricalSemantics}
 
-One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the construction of [[objects]] and [[morphisms]] in a category_.  (An introduction and historical background is for instance in [Taylor](#Taylor) [section 2](http://www.paultaylor.eu/ASD/foufct/cattype.html).) 
+One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _[[syntax]] for describing the [[type constructor|construction]] of [[objects]] and [[morphisms]] in a category_.  (An introduction and historical background is for instance in [Taylor](#Taylor) [section 2](http://www.paultaylor.eu/ASD/foufct/cattype.html).) 
 
 This interpretation can be called *[[categorical semantics]]*.  More precisely, categorical semantics refers to an *[[adjunction]]* between type theories and categories 
 
