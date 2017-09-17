@@ -31,7 +31,10 @@
 
 ## Idea
 
-(...)
+
+The [[∞-Lie groupoid]] whose objects are [[∞-Lie algebroid]]-valued [[differential form]]s, whose morphisms are gauge transformations of these, whose 2-morphisms are gaugr transformations of gauge transformations, and so on.
+
+A [[cocycle]] with coefficients in this is a [[connection on an ∞-bundle]].
 
 ## Definition
 
