@@ -26,7 +26,10 @@ There are generalizations, e.g. the [[quantum homogeneous space]] for the case o
 
 * A special case of homogeneous spaces are [[coset spaces]] arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie group]]s this is also called [[Klein geometry]].
 
-* Specifically for $G$ a [[compact Lie group]] and $T\hookrightarrow G$ a [[maximal torsu]], then the coset $G/T$ play a central role in [[representation theory]] and [[cohomology]], for instance in the [[splitting principle]].
+* Specifically for $G$ a [[compact Lie group]] and $T\hookrightarrow G$ a [[maximal torus]], then the coset $G/T$ play a central role in [[representation theory]] and [[cohomology]], for instance in the [[splitting principle]].
+
+* In [[analysis]] and [[number theory]], certain functions on certain coset spaces play a role as _[[automorphic forms]]_ (e.g. [[modular forms]]). See there for more.
+
 
 ## Properties
 
@@ -44,6 +47,7 @@ Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry
 * [[Grassmannian]], [[flag variety]]
 
 * [[Schubert calculus]]
+
 
 [[!redirects homogeneous spaces]]
 [[!redirects coset space]]
