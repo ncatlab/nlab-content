@@ -138,6 +138,8 @@ See also
 
 * [[abelian variety]]
 
+* [[Tate curve]]
+
 * [[elliptic cohomology]]
 
 * [[Szpiro's conjecture]]
