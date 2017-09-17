@@ -1,0 +1,9 @@
+
+## Related concepts
+
+* [[finite field]]
+
+## References
+
+* Wikipedia, _[Modular arithmetic](https://en.wikipedia.org/wiki/Modular_arithmetic)_
+
