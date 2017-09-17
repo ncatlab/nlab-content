@@ -105,3 +105,4 @@ Some researchers will probably feel that some of the exercises should have been 
 [[!redirects Galois theories]]
 
 category: reference
+category: Galois theory
