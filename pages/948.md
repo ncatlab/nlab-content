@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include mathematicscontents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
