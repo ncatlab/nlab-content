@@ -1,3 +1,4 @@
+[[!redirects Cech nerve]]
 
 #Contents#
 * automatic table of contents goes here
