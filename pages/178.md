@@ -756,6 +756,112 @@ See also the discussion at [[generalized universal bundle]].
 
 =--
 
+##### $G$-principal bundles
+
+
+The following proposition asserts that the general definition of [[principal ∞-bundle]]s in an [[(∞,1)-topos]] $\mathbf{H}$ applied to the coefficient object $\mathbf{B}G$ in $\mathbf{H} = \infty LieGrpd$ for $G$ a [[Lie group]] does reprpduce the ordinary notion of $G$-[[principal bundle]]s.
+
++-- {: .un_prop }
+###### Proposition
+
+Let $X$ be a [[paracompact space|paracompact]] [[smooth manifold]]. The ordinary first [[nonabelian cohomology]] of $X$ with coefficients in $G$ coincided with the intrinsic [[cohomology]] of $\infty Lie Grpd$
+
+$$
+  H^1(X,G) \simeq \pi_0 \infty LieGrpd(X, \mathbf{B}G)
+$$
+
+and the $G$-[[principal bundle]] $P \to X$ corresponding to a [[cocycle]] $X \to \mathbf{B}G$ in $\infty LieGrpd$ is indeed the [[homotopy fiber]] of that cocycle.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at ... we have that a cofibrant replacement for $X$ in the model $[CartSp^{op}, sSet]_{proj,cov}$ for $\infty LieGrpd$ is civen by the [[Cech nerve]] $C\{U_i\}$ of a [[good open cover]] $\{U_i \to X\}$. It follows that $\pi_0 \infty LieGrpd(X,\mathbf{B}G)$ is the [[Cech cohomology]] of $X$ with coefficients in $G$ (see there for details).
+
+Concretely, a cocycle 
+
+$$
+  g : C(\{U_i\}) \to \mathbf{B}G
+$$
+
+is canonically identified with a transition function
+
+$$
+  g : \coprod_{i,j} U_i \cap U_j \to G
+$$
+
+satisfying on $U_i \cap U_j \cap U_k$ the cocycle condition $g_{i j} g_{j k} = g_{i k}$.
+
+From this we can compute the [[homotopy fiber]] of $g : C(\{U_i\}) \to \mathbf{B}G$ by forming the ordinaty [[pullback]] of the fibrant replacement $\mathbf{E}G \to \mathbf{B}G$ of the point inclusion $* \to \mathbf{B}G$, where $\mathb{E}G = \mathbf{B}G^{I} \times_{\mathbf{B}G} *$ is the smooth groupoid
+
+$$
+  \mathbf{E}G
+  = 
+  \left\{
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_1}}\swarrow && \searrow^{\mathrlap{g_2}}
+       \\
+       * &&\stackrel{h}{\to}&& *
+    }
+    \;\;|
+    \;\;
+    g_1,g_2,h \in G, g_2 = h g_1
+  \right\}
+  \,.
+$$
+
+From this we find the pullback $\hat P$ in
+
+
+$$
+  \array{
+    \hat P &\to& \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    C(\{U_i\}) &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$
+
+to be the smooth Lie groupoid
+
+$$
+  \hat P
+  =
+  \left(
+  \coprod_{i,j} U_i\cap U_j \times G
+  \stackrel{\overset{p_2 \times g_{i,j} \cdot p_3}{\to}}{\underset{p_1 \times P_3}{\to}}
+  \coprod_{i} U_i \times G
+  \right)
+$$
+
+i.e.
+
+$$
+  \hat P
+  = 
+  \left\{
+    \array{
+       && \bullet
+       \\
+       & {}^{\mathllap{g_1}}\swarrow && \searrow^{\mathrlap{g_2}}
+       \\
+       * &&\stackrel{g_{i j}(x)}{\to}&& *
+       \\
+       \\
+       (x,i) &&\to&& (x,j)  
+    }
+  \right\}
+  \,.
+$$
+
+The evident projection $\hat P \to P$ is objectwise a surjective and full and faithful functor.
+
+=--
+
 
 
 ##### Differential coefficients {#DiffCoeffsForLieGroup}
@@ -763,7 +869,7 @@ See also the discussion at [[generalized universal bundle]].
 For $G$ an ordinary [[Lie group]], we give a concrete representative for the $\infty$-Lie groupoid $\mathbf{\flat} \mathbf{B}G = LConst \Gamma \mathbf{B}G$ in terms of [[Lie algebra]]-valued [[differential form]]s.
 
 
-Let $\Xi : CrsdCplx \to sSet$ now denote the inclusion of [[crossed complex]]es into all [[∞-groupoid]]s. 
+Let $\Xi : CrsdCplx \to KanCplx$ now denote the inclusion of [[crossed complex]]es into all [[Kan complex]]es/[[∞-groupoid]]s. 
 
 +-- {: .un_prop }
 ###### Proposition
@@ -774,7 +880,7 @@ $$
   \mathbf{\flat}\mathbf{B}G 
   =
   \Xi[C^\infty(-,G)\times \Omega^1_{flat}(-,\mathfrak{g}) \stackrel{
-   \overset{Ad_{p_1}(p_2)+ p_1 d p_1^{-1}}{\to}}{\underset{p_2}{\to}} \Omega^1_{flat}(-,\mathfrak{g})]
+   \overset{Ad_{p_1}(p_2)+ p_1^{-1} d p_1}{\to}}{\underset{p_2}{\to}} \Omega^1_{flat}(-,\mathfrak{g})]
   \,,
 $$
 
@@ -784,7 +890,7 @@ This is the [[groupoid of Lie-algebra valued forms]] restricted to flat forms.
 
 =--
 
-In other words, $U = \mathbb{R}^n$-parameterized family of objects of $\mathbf{\flat}\mathbf{B}G$ is given by an element $A \in \Omega^1(U)\otimes \mathfrak{g}$^such that $d_{dR} A + [A ,\wedge A]  = 0$, and a $U$-parameterized family of morphisms $g : A \to A'$ is given by a smooth function $f \in C^\infty(U,G)$ such that $A' = Ad_g A + g d g^{-1}$.
+In other words, a $U = \mathbb{R}^n$-parameterized family of objects of $\mathbf{\flat}\mathbf{B}G$ is given by a [[Lie-algebra valued 1-form]] $A \in \Omega^1(U)\otimes \mathfrak{g}$ whose [[curvature]] 2orm $F_A = d_{dR} A + [A ,\wedge A]  = 0$ vanishes,  and a $U$-parameterized family of morphisms $g : A \to A'$ is given by a smooth function $g \in C^\infty(U,G)$ such that $A' = Ad_g A + g^{-1} d g$, where $Ad_g A = g^{-1} A g$ is the adjoint action of $G$ on its Lie algebra, and where $g^{-1} d g := g^* \theta$ is the pullback of the [[Maurer-Cartan form]] on $G$ along $g$.
 
 +-- {: .proof}
 ###### Proof
@@ -897,7 +1003,7 @@ $$
 
 ##### The canonical form on $G$ {#CanonicalFormOnLieGroup}
 
-The following proposition asserts that the abstract $(\infty,1)$-topos-theoretic definition of the canonical $\mathfrak{g}$-valued form on an $\infty$-Lie group $G$ given [above](CanonicalForm) reduces indeed to the ordinary notion of [[Maurer-Cartan form]] when $G$ is an ordinary [[Lie group]].
+The following proposition asserts that the abstract $(\infty,1)$-topos-theoretic definition of the canonical $\mathfrak{g}$-valued form on an $\infty$-Lie group $G$ given [above](#CanonicalForm) reduces indeed to the ordinary notion of [[Maurer-Cartan form]] when $G$ is an ordinary [[Lie group]].
 
 Recall from the [discussion of differential coefficients](#DiffCoeffsForLieGroup) above that the $\infty$-Lie groupoid $\mathbf{\flat}_{dR} \mathbf{B}G$ is modeled by the 0-truncated simplicial sheaf of flat $\mathfrak{g}$-valued forms.
 
@@ -927,8 +1033,7 @@ where $\theta$ is the [[Maurer-Cartan form]] on $G$.
 +-- {: .proof}
 ###### Proof
 
-
-we need to compute the double [[(∞,1)-pullback]] diagram
+We need to compute the double [[(∞,1)-pullback]] diagram
 
 $$
   \array{
@@ -977,7 +1082,6 @@ where on the right the commuting triangle in $\mathbf{\flat}_{dR}\mathbf{B}G (U)
 The pullback of this along the above model for $\mathbf{\flat}_{dR}\mathbf{B}G \to \mathbf{\flat}\mathbf{B}G$ is the 0-truncated sheaf
 
 $$
-
   U \mapsto 
   \left\{
     \array{
