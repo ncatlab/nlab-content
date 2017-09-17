@@ -315,7 +315,7 @@ A book trying to summarize the state of the art of capturing mathematical struct
 
 #### Elliptic genera, elliptic homology and tmf
 
-The [[partition function]] of the [[superstring]] was understood to be an [[ellkiptic genus]] (the [[Witten genus]]) in 
+The [[partition function]] of the [[superstring]] was understood to be an [[elliptic genus]] (the [[Witten genus]]) in 
 
 * {#Witten87} [[Edward Witten]],  _Elliptic Genera And Quantum Field Theory_ , Commun.Math.Phys. 109 525 (1987) ([Euclid](http://projecteuclid.org/euclid.cmp/1104117076))
 
