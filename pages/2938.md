@@ -112,4 +112,5 @@ Textbook references include
 [[!redirects Hochschild-Kostant-Rosenberg]]
 [[!redirects Hochschild--Kostant--Rosenberg]]
 [[!redirects Hochschild–Kostant–Rosenberg theorem]]
+[[!redirects Hochschild–Kostant–Rosenberg's theorem]]
 [[!redirects Hochschild--Kostant--Rosenberg theorem]]
