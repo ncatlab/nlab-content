@@ -1,13 +1,24 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
+#### Regular and Exact categories
++-- {: .hide}
+[[!include regular and exact categories - contents]]
+=--
+#### Category Theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
