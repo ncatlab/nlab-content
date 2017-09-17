@@ -43,4 +43,6 @@
 
 * [[Mishchenko-Fomenko index theorem]]
 
+* [[Baum-Connes conjecture]]
+
 
