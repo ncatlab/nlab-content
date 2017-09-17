@@ -18,7 +18,7 @@
 =--
 
 #Contents#
-* table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -42,6 +42,7 @@ Let $E$ be a [[E-∞ ring]] [[spectrum]]. Write $\mathbb{S}$ for the [[sphere sp
 Write $R^\times$ or $GL_1(R)$ for the [[general linear group]] of the $E_\infty$-ring $R$: it is the subspace of the degree-0 space $\Omega^\infty R$ on those points that map to multiplicatively invertible elements in the ordinary ring $\pi_0(R)$.
 
 Since $R$ is $E_\infty$, the space $GL_1(R)$ is itself an [[infinite loop space]]. Its one-fold [[delooping]] $B GL_1(R)$ is the [[classifying space]] for $GL_1(R)$-[[principal ∞-bundle]]s (in [[Top]]): for $X \in Top$ and $\zeta : X \to B GL_1(R)$ a map, its [[homotopy fiber]]
+
 
 $$
   \array{
@@ -279,6 +280,9 @@ The existence of an $H$-orientation is necessary in order to have a notion of [[
 The relation (equivalence) between choices of [[Thom classes]] and trivializations of [[(∞,1)-line bundles]] is 
 discussed e.g. in [Ando-Hopkins-Rezk 10, section 3.3](#AndoHopkinsRezk10)
 
+### Relation to genera
+
+(...)
 
  
 ## Examples
@@ -306,17 +310,19 @@ discussed e.g. in [Ando-Hopkins-Rezk 10, section 3.3](#AndoHopkinsRezk10)
 
 ## References
 
-A comprehesive account (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
+A comprehensive account of the general abstract persepctive (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
 
-The general abstract story of $E$-orientation of sphere fibrations is discussed in
+* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], section 6 of _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
+Lecture notes include
 
 * [[Mike Hopkins]] (notes by[[Andre Henriques]]), _The String orientation of tmf_  ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
  {#Hopkins}
 
-with an eye towards constructing the [[string orientation of tmf]], based on 
+which are motivated towards constructing the [[string orientation of tmf]], based on 
 
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
