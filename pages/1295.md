@@ -74,6 +74,8 @@ This is essentially a [[categorification|categorified]] version of the familiar 
 
   * [[dependent sum]], **dependent product**
 
+[[!include notions of type]]
+
 
 [[!redirects dependent product]]
 [[!redirects dependent products]]
