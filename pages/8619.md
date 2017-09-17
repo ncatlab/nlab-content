@@ -1,0 +1,5 @@
+
+
+[[Paul Taylor]] on folklore in [[category theory]]:
+
+> **folklore**, $[\ldots]$ is a technical term for a method of publication in category theory. It means that someone sketched it on the back of an envelope, mimeographed it (whatever that means) and showed it to three people in a seminar in Chicago in 1973, except that the only evidence that we have of these events is a comment that was overheard in another seminar at Columbia in 1976. Nevertheless, if some younger person is so presumptuous as to write out a proper proof and attempt to publish it, they will get shot down in flames.  -- Paul Taylor, [blog comment](http://math.andrej.com/2012/09/28/substitution-is-pullback/comment-page-1/#comment-21991) (2012)
