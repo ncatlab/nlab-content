@@ -85,6 +85,8 @@ Only the intensional, but not the extensional, [[Martin-Löf type theory]] is [[
 
 * [[NuPRL]]
 
+* [[Homotopy Type System]] is [[dependent type theory]] with a mix of extensional and intensional [[identity types]].
+
 ## References
 
 Among the most thorough recent treatments of extensional type theory are
