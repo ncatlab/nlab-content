@@ -54,6 +54,8 @@ A brief survey is provided in
 [[!redirects Grothendieck-Maltsiniotis ∞-groupoids]]
 [[!redirects Grothendieck-Maltsiniotis infinity-groupoids]]
 
+[[!redirects Grothendieck ∞-groupoid]]
+[[!redirects Grothendieck ∞-groupoids]]
 
 
 [[!redirects Grothendieck-Maltiniotis infinity-category]]
