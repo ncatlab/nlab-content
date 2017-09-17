@@ -29,6 +29,8 @@ The classification of simple Lie groups consists of four infinite series -- the 
 
 See Wikipedia\'s [list of simple Lie groups](http://en.wikipedia.org/wiki/List_of_simple_Lie_groups).
 
+See also at _[[ADE classification]]_
+
 
 [[!redirects simple Lie group]]
 [[!redirects simple Lie groups]]
