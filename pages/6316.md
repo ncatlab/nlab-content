@@ -1,0 +1,9 @@
+
+* in [[quantum mechanics]]:
+
+  * [subsystem](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems)
+
+  * [independent subsystem](http://ncatlab.org/nlab/show/quantum%20mechanics#Subsystems)
+
+[[!redirects subsystems]]
+[[!redirects independent subsystems]]
