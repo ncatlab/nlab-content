@@ -5,8 +5,9 @@
 
 ## Idea
 
-The unordered pair of $x$ and $y$, denoted $\{x,y\}$, has the property that $\{x_1,y_1\} = \{x_2,y_2\}$ if and only if $x_1 = x_2$ and $y_1 = y_2$ or $x_1 = y_2$ and $y_1 = x_2$.  In other words, the unordered pair $\{x,y\}$ is the same as the [[ordered pair]] $(x,y)$, except that order does not matter.
+The unordered pair of $x$ and $y$, denoted $\{x,y\}$, has the property that $\{x_1,y_1\} = \{x_2,y_2\}$ if and only if $x_1 = x_2$ and $y_1 = y_2$ or $x_1 = y_2$ and $y_1 = x_2$.  In other words, the unordered pair $\{x,y\}$ is the same as the [[ordered pair]] $(x,y)$, except that presentation order does not matter.
 
+A more transparent terminology calls an _unordered pair_ a __pair set__ which allows __pair__ to unambiguously mean _ordered pair_ (as it usually does in current usage), however the _ordered/unordered_ distinction is well entrenched in the literature.
 
 ## Definition
 
