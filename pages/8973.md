@@ -13,7 +13,7 @@ Section 2.1.2 of
 
 * Ignacio Lopez Franco, _Autonomous Pseudomonoids_ ([pdf](http://www.dspace.cam.ac.uk/bitstream/1810/219201/1/phdthesis.pdf))
 
-* Susan Niefield, _Exponentiability in homotopy slices of Top and pseudo-slices of Cat_ ([TAC](http://www.tac.mta.ca/tac/volumes/19/1/19-01abs.html))
+* [[Susan Niefield]], _Exponentiability in homotopy slices of Top and pseudo-slices of Cat_ ([TAC](http://www.tac.mta.ca/tac/volumes/19/1/19-01abs.html))
 
 [[!redirects Kleisli bicategory]]
 
