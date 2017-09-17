@@ -25,23 +25,35 @@ A [[chain complex]] $M_\bullet$ of [[modules]] over a [[commutative ring]] $A$ i
 
 ## Properties
 
+### Relation to compact objects
+
 +-- {: .num_prop}
 ###### Proposition
+
 Let $A$ be a [[commutative ring]] and let $D(A)$ denote the [[derived category]] of $A$-[[modules]].  A [[chain complex]] $M_\bullet$ of $A$-modules is perfect if and only if it is a [compact object](compact+object#CompactnessInAdditiveCategories) of $D(A)$.
+
 =--
 
-See [(Stacks Project, 07LT)](http://stacks.math.columbia.edu/tag/07LT).
+For instance [(Stacks Project, 07LT)](http://stacks.math.columbia.edu/tag/07LT).
 
-## Perfect complexes on a ringed space
+
+
+### Perfect complexes on a ringed space
 
 Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  A [[chain complex]] of $\mathcal{O}_X$-[[sheaf of modules|modules]] is called **perfect** if it is locally [[quasi-isomorphism|quasi-isomorphic]] to a [[bounded complex]] of [[free sheaf|free]] $\mathcal{O}_X$-modules of [[sheaf of finite type|finite type]].
 
 Let $D(Mod(\mathcal{O}_X))$ be the [[derived category]] of $\mathcal{O}_X$-modules.  Let $Pf(X) \subset D(Mod(\mathcal{O}_X))$ denote the [[full subcategory]] of perfect complexes.
 This is a [[triangulated category|triangulated subcategory]], see [[triangulated categories of sheaves]].
 
+## Related concepts
+
+[[!include finite objects -- table]]
+
 ## References
 
 For perfect complexes of sheaves see the references at [[triangulated categories of sheaves]].
+
+* [[The Stacks Project]], _[Characterizing perfect objects](http://stacks.math.columbia.edu/tag/07LQ)_
 
 [[!redirects perfect complex]]
 
