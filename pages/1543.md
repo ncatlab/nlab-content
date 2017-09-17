@@ -675,7 +675,7 @@ In [[higher category theory]] the notion of principal bundle has various [[verti
 ### Gauge groupoid
 
 For $P \to X$ a $G$-principal bundle, 
-its **gauge groupoid** is
+its **[[Atiyah Lie groupoid]]** is
 
 $$
   ((P \times P)/G
