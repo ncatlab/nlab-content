@@ -76,7 +76,6 @@ For a noncommutative generalization see
 Other references
 
 * Jan Kiwi, _Puiseux series dynamics of Quadratic rational maps_,  [arxiv/1106.0059](http://arxiv.org/abs/1106.0059)
+* Luis Felipe Tabera, _On real tropical bases and real tropical discriminants_, [arxiv/1311.2211](http://arxiv.org/abs/1311.2211)
 
-(Proof or suitable reference to be inserted later.) 
-
-
+> We explore the concept of real tropical basis of an ideal in the field of real Puiseux series. We show explicit tropical bases of zero-dimensional real radical ideals, linear ideals and hypersurfaces coming from combinatorial patchworking. But we also show that there exist real radical ideals that do not admit a tropical basis. As an application, we show how to compute the set of singular points of a real tropical hypersurface. i.e. we compute the real tropical discriminant. 
