@@ -5,4 +5,7 @@
 
 * [[homotopy limit]]
 
+* [[monad]]
+
 category: people
+[[!redirects N. Gambino]]
