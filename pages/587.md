@@ -8,7 +8,7 @@
 
 ## Idea
 
-In [[logic]], the **context** of an assertion (or judgement) consists of all of the assumptions that are made when that assertion to claimed be valid; whether an assertion is in fact valid (or even meaningful) may depend on the context.  The precise definition depends on the [[theory]] (or [[doctrine]]) that one is working in.
+In [[logic]], the **context** of an assertion (or judgement) consists of all of the assumptions that are made when that assertion is claimed to be valid; whether an assertion is in fact valid (or even meaningful) may depend on the context.  The precise definition depends on the [[theory]] (or [[doctrine]]) that one is working in.
 
 Generally, a context is thought of as relative to some underlying logical theory.  This underlying theory will contain most of the assumptions of what constitutes validity; the context of an assertion in this theory will then include only those extra assumptions that may be used by that assertion.  On the other hand, one could also think of the entire base theory as part of the context.
 
