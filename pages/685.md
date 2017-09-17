@@ -106,6 +106,23 @@ For instance 2-limits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[nat
 Or for instance, more generally, the 2-limits in any [[(2,1)-sheaf]](=[[stack]]) [[(2,1)-topos]] may be computed as [[homotopy limit]]s in a [[model structure on simplicial presheaves]] over the given [[(2,1)-site]] of diagrams of [[1-truncated]] [[simplicial presheaves]]. This includes as examples [[big topos|big (2,1)-toposes]] such as those over the large sites [[Top]] or [[SmoothMfd]] where computations with [[topological groupoid]]s/[[topological stack]]s, [[Lie groupoid]]s/[[differentiable stack]]s etc. take place.
 
 
+## Examples
+
+### 2-Colimits in $Cat$
+ {#2ColimitsInCat}
+
+For 
+
+$$
+  F : C \to Cat
+$$
+
+a [[pseudofunctor]] to the [[2-category]] [[Cat]], its [[lax colimit]] is given by the [[Grothendieck construction]] $\int F$.
+
+(...)
+
+
+
 ## References 
 
 * [[Ross Street]], "Limits indexed by category-valued 2-functors"
@@ -119,6 +136,10 @@ Section 6, page 37 in
 * [[Steve Lack]], _A 2-categories companion_ ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535))
 
 * G. J. Bird, G. M. Kelly, A. J. Power, R. H. Street, _Flexible limits for 2-categories_, <a href="http://dx.doi.org/10.1016/0022-4049(89)90065-0">doi</a>
+
+Chapters 3,4,5 in 
+
+* [[Thomas Fiore]], _Pseudo Limits, Biadjoints, and Pseudo Algebras_ ([arXiv:math/0408298](http://arxiv.org/abs/math/0408298))
 
 [[!redirects bilimit]]
 [[!redirects bilimits]]
