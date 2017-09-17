@@ -36,7 +36,7 @@ Then, if $R$ has a [[left adjoint]], then $Q$ also has a [[left adjoint]].
 =--
 
 A detailed proof may be found in Sec. 4.5 of Vol. 2 of [Borceux](#Borceux)
-(see especially Theorem 4.5.6 on p. 226 and Ex. 4.8.6 on p. 252). For a sketch of proof, see ahead. 
+(see especially Theorem 4.5.6 on p. 226 and Ex. 4.8.6 on p. 252). Also ([Johnstone, prop. 1.1.3](#Johnstone)) For a sketch of proof, see ahead. 
 
 +-- {: .un_cor}
 ###### Corollary
@@ -264,4 +264,9 @@ Section 4.5 of volume 2 of
 * [[Francis Borceux]], _Handbook of categorical algebra_ , in 3 vols. 
 {#Borceux}
 
-* P. T. Johnstone, ''Adjoint lifting theorems for categories of algebras,'' Bull. London Math. Soc., 7 (1975), 294-297.
+* [[Peter Johnstone]], _Adjoint lifting theorems for categories of algebras_ , Bull. London Math. Soc., 7 (1975), 294-297.
+
+Section A1.1 of 
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
