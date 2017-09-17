@@ -40,6 +40,8 @@ The [[Lie algebra]] of a maximal torus of $G$ is called a [[Cartan subalgebra]] 
 
 * [[weight (in representation theory)]], [[root (in representation theory)]]
 
+* [[Weyl group]]
+
 * [[orbit method]]
 
 [[!redirects maximal tori]]
