@@ -65,6 +65,14 @@ The origin of Gromov-Witten theory in and relation to [[string theory]] and othe
 
 * Daniel Grunberg, _Gromov-Witten Theory and Threshold Corrections_ ([arXiv:hep-th/0605087](http://arxiv.org/abs/hep-th/0605087))
 
+### Via geometric quantization
+
+Discussion in the context of [[geometric quantization]] is in 
+
+* Emily Clader, Nathan Priddis, Mark Shoemaker, _Geometric Quantization with Applications to Gromov-Witten Theory_ ([arXiv:1309.1150](http://arxiv.org/abs/1309.1150))
+ {#CladerPriddisShoemaker13}
+
+
 ### As a TCFT
 
 * [[Kevin Costello]], _The Gromov-Witten potential associated to a TCFT_ ([arXiv:0509264](http://arxiv.org/abs/math/0509264))
