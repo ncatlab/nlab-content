@@ -8,6 +8,7 @@
 =--
 =--
 =--
+
 #Contents#
 * table of contents
 {:toc}
@@ -18,7 +19,8 @@ In 1928, [[J. W. Alexander]] published a paper "Topological Invariants of Knots 
 
 (...)
 
-For a fiber surface $T$, the translation of the fibre around the base-space circle determines an element in the mapping-class group of $T$, a homeomorphism $h\colon T \to T$ well defined up to isotopy; this element is called the _holonomy_ of the fiber surface; the _Alexander polynomial_ is the [[characteristic polynomial]] of the map the holonomy  induces on $H_1(T)$.
+Consider some 3-manifold given as a [[surface]] [[fiber bundle]] over the circle (notice the _[[virtually fibered conjecture]]_).
+For a [[fiber]] surface $T$, the translation of the fibre around the base-space circle determines an element in the mapping-class group of $T$, a homeomorphism $h\colon T \to T$ well defined up to isotopy; this element is called the _holonomy_ of the fiber surface; the _Alexander polynomial_ is the [[characteristic polynomial]] of the map the holonomy  induces on $H_1(T)$.
 
 ([Stallings 87](#Stallings87))
 
