@@ -8,6 +8,8 @@
 
   * [[commutativity of limits and colimits]]
 
+  * [[small limit]]
+
   * [[filtered colimit]]
 
     * [[directed colimit]]
