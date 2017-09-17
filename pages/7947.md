@@ -1,15 +1,18 @@
 
-The ([[higher geometric quantization|higher]]) [[geometric quantization]] of a [[symplectic manifold|symplectic]] ([[n-plectic geometry|n-plectic]]) [[n-plectic infinity-groupoid|smooth space]] $X$ involves the following [[∞-group extension]] of classical ([[n-plectomorphism ∞-group|higher]]) [[symplectomorphism groups]] (for sufficiently highly connected $X$).
+**[[∞-group extension]] of [[∞-group of bisections]] of [[higher Atiyah groupoid]] for $\mathbb{G}$-[[principal ∞-connection]]**
 
 $$
-  \Omega_\nabla[X,\mathbf{B}^n U(1)_{conn}] \to \mathbf{QuantMorph}(X,\nabla) \to \mathbf{HamSympl}(X,\nabla)
+  (\Omega \mathbb{G})\mathbf{FlatConn}(X) \to \mathbf{QuantMorph}(X,\nabla) \to \mathbf{HamSympl}(X,\nabla)
 $$
 
 | $n$ | geometry | structure | unextended structure | extension by | quantum extension |  
-|--||--|--|--|--|--|
+|--|--|--|--|--|--|
+| $\infty$ | [[higher prequantum geometry]]  | [[cohesive]] [[∞-group]] | [[Hamiltonian symplectomorphism ∞-group]] |  [[moduli ∞-stack]] of $(\Omega \mathbb{G})$-[[flat ∞-connections]] on $X$ | [[quantomorphism ∞-group]] 
 | 1 | [[symplectic geometry]] | [[Lie algebra]] | [[Hamiltonian vector fields]] | [[real numbers]] | [[Hamiltonians]] under [[Poisson bracket]] | 
 | 1 | |  [[Lie group]] | [[Hamiltonian symplectomorphism group]] | [[circle group]] | [[quantomorphism group]] | 
 | 2 | [[2-plectic geometry]] | [[Lie 2-algebra]] | [[Hamiltonian vector fields]] | [[line Lie n-algebra|line Lie 2-algebra]] | [[Poisson Lie 2-algebra]] | 
 | 2 | | [[Lie 2-group]] | [[Hamiltonian n-plectomorphism|Hamiltonian 2-plectomorphisms]] | [[circle n-group|circle 2-group]] | [[quantomorphism n-group|quantomorphism 2-group]] | 
 | $n$ | [[n-plectic geometry]] | [[Lie n-algebra]] | [[Hamiltonian vector fields]] | [[line Lie n-algebra]] | [[Poisson Lie n-algebra]] | 
 | $n$ | | [[smooth ∞-group|smooth n-group]] | [[Hamiltonian n-plectomorphisms]] | [[circle n-group]] | [[quantomorphism n-group]] | 
+
+(extension are listed for sufficiently connected $X$)
