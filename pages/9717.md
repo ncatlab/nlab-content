@@ -54,13 +54,17 @@ A Riemannian manifold
 
 * with +1 sectional curvature is an [[elliptic manifold]]
 
+See also
+
+* [[volume conjecture]]
+
 ## References
 
 * Wikipedia, _[Hyperbolic manifold](http://en.wikipedia.org/wiki/Hyperbolic_manifold)_
 
-The relation of volumes of hyperbolic 3-manifolds to [[Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] is discussed in 
+The relation of volumes of hyperbolic 3-manifolds to [[analytically continued Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] is discussed in 
 
-* [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049))
- {#Zickert 07}
+* {#Zickert 07} [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049))
+ 
 
 [[!redirects hyperbolic manifolds]]
