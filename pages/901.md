@@ -204,6 +204,4 @@ See also the remarks at the beginning of section 5.3 of
 
 [[!redirects ind-objects]]
 [[!redirects ind object]]
-
-
-
+[[!redirects ind-completion]]
