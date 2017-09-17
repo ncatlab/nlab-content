@@ -31,6 +31,10 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 ### Specific examples
 
+* [[higher order logic]]:
+
+  * [[Isabelle]]
+
 * [[type theory]]:
 
   * [[Haskell]]
