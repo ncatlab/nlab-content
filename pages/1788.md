@@ -1,19 +1,23 @@
+
 +-- {: .standout}
-Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
+Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and otherwise don\'t worry about messing things up.
 =--
 
 ***
 
-
-| | [[arithmetic geometry]] | -[[field of fractions]]$\to$ | [[algebraic geometry]] | -[[algebraic closure]]$\to$ | [[absolute Galois theory]] | -[[complete field|analytic completion]]$\to$ |  [[analytic geometry]] |
-|--|------------|------------|-------------|----------|----------|------------|---|
-| globally | $\mathbb{Z}$ ([[integers]]) | | $\mathbb{Q}$ ([[rational numbers]]) |  | $\overline{\mathbb{Q}}$  |  | $\mathbb{C}$ ([[complex numbers]]) |
-| [[formal geometry|formally]] at $p$ | $\mathbb{Z}_p$ ([[p-adic integers]]) |  | $\mathbb{Q}_p$ ([[p-adic rational numbers]]) |  | $\overline{\mathbb{Q}_p}$  |  | $\mathbb{C}_p$ ([[p-adic complex numbers]]) |
-
-
+$$ \array { 
+   & & \mathbb{N} & \overset{\text{localize at }\,p}\rightarrow \\
+   & & \text{complete to ring}\downarrow & & \mathbb{Z}_p \\
+   & & \mathbb{Z} & \overset{\text{localize at }\,p}\rightarrow \\
+   & & \text{complete to field}\downarrow & & \text{complete to field}\downarrow \\
+   \mathbb{R} & \overset{\text{complete in absolute-value metric}}\leftarrow & \mathbb{Q} & \overset{\text{complete in }\,p\text{-adic metric}}\rightarrow & \mathbb{Q}_p \\
+   \text{algebraic completion}\downarrow & & \text{algebraic completion}\downarrow & & \text{algebraic completion}\downarrow \\
+   \mathbb{C} & \overset{\text{complete in absolute-value metric}}\leftarrow & \bar{\mathbb{Q}} & & \overline{\mathbb{Q}_p} & \overset{\text{complete in }\,p\text{-adic metric}}\rightarrow & \mathbb{C}_p
+} $$
 
 
 ***
+
 
 category: meta
 
