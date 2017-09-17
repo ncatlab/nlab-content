@@ -17,3 +17,5 @@ Here are some other reasons why the empty space should not be considered (path-)
 * In [[homotopy theory]], one defines a space $X$ to be $k$-connected if $\pi_i(X)$ is trivial (that is, has exactly one element) for $i\le k$.  When $k=0$ this says that $\pi_0(X)$ should have exactly one component---that is, that $X$ should be path-connected.  (Actually, this definition really only makes sense if we phrase it in terms of homotopy [[groupoid]]s; homotopy _groups_ are only defined once we choose a basepoint, which is clearly impossible for the empty space.)
 
 * Categorically, one may say that a space $X$ is connected if the [[functor]] $hom(X,-)$ preserves [[coproduct]]s.  Since $\hom(\emptyset,-)$ is constant at the point, it certainly does not preserve coproducts.
+
+See [[too simple to be simple]] for general theory.
