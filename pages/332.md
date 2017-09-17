@@ -16,6 +16,8 @@ See also [[topology]].
 
 ## Related entries
 
+* [[geometric type theory]], [[geometric homotopy type theory]]
+
 * [[differential geometry]], [[differential topology]], [[Diff]], [[cobordism]]
 * [[differential form]], [[tangent space]], [[tangent bundle]], [[cotangent bundle]], [[cotangent complex]]
 * [[symplectic geometry]], [[symplectic manifold]], [[Poisson manifold]], [[Lagrangian submanifold]]
