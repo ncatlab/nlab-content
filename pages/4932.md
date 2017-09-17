@@ -3,4 +3,6 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Milnor)
 
+[[!redirects J. Milnor]]
+
 category: people
