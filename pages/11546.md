@@ -12,6 +12,10 @@ A textbook exposition is in the chapter 6, _Duality_ of
 
 * [[Nicolae Popescu]], _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
 
-In derived categories:
+In derived and triangulated categories:
 
 * Shoham Shamir, _Colocalization functors in derived categories and torsion theories_, [arxiv/0910.4724](http://arxiv.org/abs/0910.4724)
+* Hvedri Inassaridze, Tamaz Kandelaki, Ralf Meyer, _Localisation and colocalisation of triangulated categories at thick subcategories_, [arxiv/0912.2088](http://arxiv.org/abs/0912.2088)
+
+category: algebra
+[[!redirects colocalisation]]
