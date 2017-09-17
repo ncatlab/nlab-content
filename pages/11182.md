@@ -1,11 +1,12 @@
-# Cogerm differential forms
 
+# Cogerm differential forms
 * table of contents
 {: toc}
 
 ## Idea
 
 A cogerm differential form is a vast generalization of the usual exterior [[differential forms]], which includes also [[absolute differential forms]], as well as "higher" differential forms such as $d^2x$ and a commutative differential operator (at least in the case of 1-forms).
+
 
 ## Definition
 
@@ -15,12 +16,13 @@ By a *[[curve]]* in $X$ we mean a function $c:(-\epsilon,\epsilon)\to X$ for som
 
 +-- {: .un_defn}
 ###### Definition
-A **cogerm differential 1-form** on $X$ is a [[partial function]] $\omega : C X \to \mathbb{R}$.  We write the action of $\omega$ on a curve $c$ (or germ thereof) as $\langle \omega | c \rangle$.
+A (partial) **cogerm differential 1-form** on $X$ is a [[partial function]] $\omega : C X \to \mathbb{R}$.  We write the action of $\omega$ on a curve $c$ (or germ thereof) as $\langle \omega | c \rangle$.
 =--
+
 
 ## Examples
 
-If $f:X\to \mathbb{R}$ is a function, then it defines a cogerm differential 1-form, also denoted $f$, by evaluation at $0$:
+If $f: X\to \mathbb{R}$ is a function, then it defines a cogerm differential 1-form, also denoted $f$, by evaluation at $0$:
 
 $$ \langle f | c \rangle = (f\circ c)(0).$$
 
@@ -28,21 +30,28 @@ This is defined on *all* germs.  We also have the differential of $f$, denoted $
 
 $$ \langle \mathrm{d}f | c \rangle = (f\circ c)'(0)$$
 
-which is defined on all germs $c$ having the property that $f\circ c$ is differentiable at $0$.  In particular, if $f$ is smooth, then $\mathrm{d}f$ is defined on all smooth germs.
+which is defined on all germs $c$ having the property that $f\circ c$ is differentiable at $0$.  In particular, if $f$ is smooth (for $X$ a [[smooth space]]), then $\mathrm{d}f$ is defined on all smooth germs.
 
-Note that $ \langle \mathrm{d}f | c \rangle$ depends only on the tangent vector of $c$ at $0$.  More generally, any real-valued function on the tangent bundle of $X$ can be regarded as a cogerm differential 1-form; this includes in particular all [[differential form|exterior differential 1-forms]].
+When $X$ is a [[differentiable manifold]], $ \langle \mathrm{d}f | c \rangle$ depends only on the [[tangent vector]] of $c$ at $0$.  More generally, any real-valued function on the [[tangent bundle]] of $X$ can be regarded as a cogerm differential 1-form; this includes in particular all [[differential form|exterior differential 1-forms]].
 
-However, we have the second differential $\mathrm{d}^2f$, defined by
+We also have the second differential $\mathrm{d}^2f$, defined by
 
 $$ \langle \mathrm{d}^2f | c \rangle = (f\circ c)''(0),$$
 
-which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *cojet differential 1-form*.  We do not know any interesting examples of cogerm differential forms that are not cojet differential forms.
+which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *cojet differential 1-form*.
+
+For an example of a cogerm differential form that is not a cojet differential form, let $\langle{\omega|c}\rangle$ be $0$ or $1$ according as $c$ is or is not [[analytic function|analytic]] (say for $X$ the real line).  We do not know any more interesting examples.
 
 We can also apply arbitrary real functions: if $\phi:\mathbb{R}^n\to \mathbb{R}$ is a function (or even a partial function) and $\omega_1,\dots,\omega_n$ are cogerm differential 1-forms, then we have $\phi(\omega_1,\dots,\omega_n)$ defined by
 
 $$ \langle \phi(\omega_1,\dots,\omega_n) | c \rangle = \phi(\langle\omega_1|c\rangle,\dots,\langle\omega_n|c\rangle) $$
 
-For instance, any $\omega$ has an absolute value ${|\omega|}$.  And if $X=\mathbb{R}^2$, then we have the "length element" $&#273; s = \sqrt{\mathrm{d}x^2 + \mathrm{d}y^2}$.  More generally, any [[absolute differential form|absolute differential 1-form]] can be regarded as a cogerm differential 1-form.
+For instance, any $\omega$ has an absolute value ${|\omega|}$.  And if $X=\mathbb{R}^2$, then we have the "length element" $&#273; s = \sqrt{\mathrm{d}x^2 + \mathrm{d}y^2}$.
+
+Generalizing $&#273;s$, any [[absolute differential form|absolute differential 1-form]] can be regarded as a cogerm differential 1-form.
+
+Any [[symmetric bilinear form]] on tangent vectors can also be regarded as a [[quadratic form|quadratic]] covector form and therefore a quadratic cogerm form.  In particular, this applies to the [[Riemannian metric|metric]] $g$ on any (pseudo)-[[Riemannian manifold]].  We then have $g = &#273;s^2$ in the algebra of cogerm forms on a Riemannian manifold.
+
 
 ## The cogerm differential
 
@@ -62,15 +71,15 @@ If $X$ is a smooth space, so that we have a notion of *smooth curve*, then we sa
 1. $\mathrm{d}\omega$ is smooth ([[coinductive definition|coinductively]]).
 =--
 
-For example, if $f:X\to \mathbb{R}$ is a smooth function, then it is also a smooth cogerm differential 1-form, and its differentials $\mathrm{d}^n f$ are those mentioned above.
+For example, if $f:X\to \mathbb{R}$ is a [[smooth function]], then it is also a smooth cogerm differential 1-form, and its differentials $\mathrm{d}^n f$ are those mentioned above.  By stopping the coinduction at an appropriate point and requiring only [[continuous function|continuity]], we obtain an analogous definition of $k$-times [[continuously differentiable function]].  (But the obvious definition of [[differentiable function]] without continuity is too weak, even if we require $\mathrm{d}\omega$ to be defined on all differentiable germs, as the classic example of $x y^2/(x^2 + y^2)$ shows.)
 
-Note that the cogerm differential $\mathrm{d}$ is *not* the same as the exterior differential.  In particular, $\mathrm{d}^2\neq 0$.
+Note that the cogerm differential $\mathrm{d}$ is *not* the same as the exterior differential, except when applied to $0$-forms.  In particular, $\mathrm{d}^2\neq 0$.
 
 We have the expected multivariable chain rule:
 
 +-- {: .un_theorem}
 ###### Theorem
-If $\phi:\mathbb{R}^n\to \mathbb{R}$ and $\omega_1,\dots,\omega_n$ are cogerm differential 1-forms, then
+If $\phi:\mathbb{R}^n\to \mathbb{R}$ is a [[differentiable function]] and $\omega_1,\dots,\omega_n$ are cogerm differential 1-forms, then
 $$ \mathrm{d}(\phi(\omega_1,\dots,\omega_n)) = \partial_1\phi(\omega_1,\dots,\omega_n) \mathrm{d}\omega_1 + \cdots +  \partial_n\phi(\omega_1,\dots,\omega_n) \mathrm{d}\omega_n $$
 where $\partial_i\phi$ denotes the partial derivative with respect to the $i^{th}$ variable.
 =--
@@ -89,6 +98,7 @@ $$ \mathrm{d}^2 f(x) = f''(x) \mathrm{d}x^2 + f'(x) \mathrm{d}^2x $$
 
 and so on.  Note that the first formula justifies the common notation $\frac{\mathrm{d}f(x)}{\mathrm{d}x}$ for the derivative $f'(x)$, while the second *almost* justifies the common notation $\frac{\mathrm{d}^2f(x)}{\mathrm{d}x^2}$ for the second derivative $f''(x)$ --- it would be correct only if $\mathrm{d}^2x=0$, which is not generally the case.  Instead it would be better to write $f''(x) = \frac{\partial^2f(x)}{\partial x^2}$, indicating that $f''(x)$ is the coefficient of $\mathrm{d}x^2$ in a canonical expansion of $\mathrm{d}^2 f(x)$.
 
+
 ## Integration
 
 Let $c:[a,b] \to X$ be a curve and $\omega$ a cogerm differential 1-form.  The **integral** of $\omega$ over $c$ is defined to be
@@ -99,10 +109,18 @@ If $\omega$ is an exterior differential 1-form, then this agrees with its usual 
 
 There are non-exterior forms for which the integral is parametrization-independent, however, such as [[absolute differential forms]] (in that case, it is even independent of orientation).  What is needed for this is a sort of *degree-1 homogeneity*.
 
+
 ## Higher forms
 
 One can define a **cogerm differential $k$-form** to be a function on germs of $k$-dimensional hypersurfaces in $X$.  These include in particular the usual [[differential form|exterior]] differential $k$-forms as well as [[absolute differential form|absolute]] differential $k$-forms.  However, it is unclear whether there is a sensible cogerm differential $\mathrm{d}$ acting on such forms for $k\gt 1$, or whether the exterior derivative or wedge product of exterior forms can be sensibly extended to cogerm ones.
 
+
+[[!redirects cogerm differential form]]
 [[!redirects cogerm differential forms]]
+[[!redirects cogerm form]]
+[[!redirects cogerm forms]]
+
 [[!redirects cojet differential form]]
 [[!redirects cojet differential forms]]
+[[!redirects cojet form]]
+[[!redirects cojet forms]]
