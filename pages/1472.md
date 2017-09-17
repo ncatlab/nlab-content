@@ -428,6 +428,12 @@ By the result at [[(1,1)-dimensional Euclidean field theories and K-theory]] thi
 
 This means that Connes' [[spectral triple]] whose particle spectrum reproduces the [[standard model of particle physics]] has a chance of being the point particle limit or [[decategorification]] of the kind of [[2-spectral triple]] -- a 2-dimensional [[CFT|superconformal field theory]] -- of the kind that is considered in [[string theory]]. If so the lift of Connes' model to the corresponding element in the [[moduli space]] of 2-spectral triples called the [[landscape of string theory vacua]] might provide, via the second quantization of the latter, a (perturbative) quantization of the [[spectral action]] of the former.
 
+## Related pages
+
+* [[higher differential geometry applied to plain differential geometry]]
+
+* [[applications of (higher) category theory]]
+
 ## References
 
 We list various references related to higher category  theory and fundamental physics.
