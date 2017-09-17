@@ -17,7 +17,7 @@
 
 ## Idea
 
-A notion of _$n$-vector space_ is a [[categorification]] of the notion of [[vector space]].
+A notion of _$n$-module_ ($n$-vector space) is a [[categorification]] of the notion of [[module]] ([[vector space]]).
 
 There are various different notions of $n$-vector spaces. 
 
@@ -103,18 +103,18 @@ Notice that FHLT say "$(n-1)$-algebra" instead of "$n$-vector space", but only f
 
 See [[(∞,1)-vector space]] for more.
 
-### 2-Vector spaces
+### 2-Modules
 
 +-- {: .num_remark}
 ###### Remark
 
-The symmetric monoidal 3-category $2 Vect_k$ is that of 
+The symmetric monoidal 3-category $Alg_k^b = 2 Mod_k$ of [[2-modules]] over $k$ is:
 
-* [[object]]s are [[associative algebra]]s over $k$;
+* [[objects]] are [[associative algebras]] over $k$;
 
-* [[morphism]]s are [[bimodule]]s of associative algebras; [[composition]] is the [[tensor product]] of bimodules;
+* [[morphisms]] are [[bimodules]] of associative algebras; [[composition]] is the [[tensor product]] of bimodules;
 
-* [[2-morphism]]s are bimodule homomorphisms.
+* [[2-morphisms]] are bimodule homomorphisms.
 
 We think of this equivalently as its essential image in $Vect_k Mod$, where
 
@@ -151,7 +151,7 @@ for a $k$-vector space $V$ with [[basis]] $S$, we see that we may
 
 
 
-### 3-Vector spaces
+### 3-Modules
 
 A _3-vector space_ according to def. \ref{nVectViaALgObjects} is
 
@@ -165,11 +165,20 @@ Classes of examples come from the following construction:
 
 * Every _commutative_ [[associative algebra]] $A$ becomes a 3-vector space.
 
-* Every [[Hopf algebra]] canonically becomes a 3-vector space.
-
-  See ([FHLT, p. 27](#FHLT)).
+* Every [[Hopf algebra]] canonically becomes a 3-vector space (amplified in [FHLT, p. 27](#FHLT)).
 
   More generally: every [[hopfish algebra]].
+
+### 4-Modules
+
+Next, an algebra object internal to $2 Alg_k^b = 3Mod_3$, is an algebra equipped with three compatible algebra structures, a [[trialgebra]].
+
+Its [[category of modules]] is a [[monoidal category]] equipped with two compatible product structures a [[Hopf category]].
+
+The 2-category of 2-modules of that is a [[monoidal 2-category]].
+
+For a review see ([Baez-Lauda 09, p. 98](BaezLauda)).
+
 
 ## $n$-Representations
 
@@ -188,11 +197,7 @@ See [[infinity-representation]].
 
 * **$n$-vector space**, [[n-vector bundle]], 
 
-* [[algebra]], [[module]]
-
-* [[bialgebra]],  [[2-module]]
-
-* [[trialgebra]], [[3-module]]
+[[!include structure on algebras and their module categories - table]]
 
 ## References
 
@@ -207,6 +212,11 @@ section 7 of
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ (2009)
  {#FHLT}
+
+Review of work on 4-modules (implicitly) as [[trialgebras]]/[[Hopf monoidal categories]] is around p. 98 of 
+
+* [[John Baez]], [[Aaron Lauda]], _A prehistory of $n$-categorical physics_, in _Deep beauty_, 13-128, Cambridge Univ. Press, Cambridge, 2011 ([arXiv:0908.2469](http://arxiv.org/abs/0908.2469))
+ {#BaezLauda}
 
 [[!redirects n-vector spaces]]
 [[!redirects n-vector spaces]]
@@ -230,6 +240,18 @@ section 7 of
 
 [[!redirects 3-module]]
 [[!redirects 3-modules]]
+
+[[!redirects 4-module]]
+[[!redirects 4-modules]]
+[[!redirects 4-vector space]]
+[[!redirects 4-vector spaces]]
+
+[[!redirects 2-algebra]]
+[[!redirects 2-algebras]]
+
+[[!redirects 3-algebra]]
+[[!redirects 3-algebras]]
+
 
 [[!redirects n-module]]
 [[!redirects n-modules]]
