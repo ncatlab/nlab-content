@@ -215,6 +215,9 @@ Symmetry probably doesn\'t fit into this picture very well, but who knows?
 [[!redirects quasi-proximity relation]]
 [[!redirects quasi-proximity relations]]
 
+[[!redirects topogeny]]
+[[!redirects topogenies]]
+
 [[!redirects proximally continuous function]]
 [[!redirects proximally continuous functions]]
 
