@@ -32,6 +32,9 @@ $$
 ## References
 Review includes
 
+* [[Eric Friedlander]], _The Friedlander-Milnor conjecture_ ([pdf](http://retro.seals.ch/cntmng?pid=ensmat-001:2008:54::134))
+
+
 * [MO discussion](http://mathoverflow.net/q/163250/381)
 
 * [[Fabien Morel]], _On the homology of Lie groups made discrete_, talk, 2012 ([video](http://www.ima.umn.edu/videos/?id=1794))
