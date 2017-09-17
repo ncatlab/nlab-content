@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include knot theory - contents]]
 =--
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
