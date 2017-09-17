@@ -4,7 +4,7 @@
 ## Background
 
 
-* [[smooth space]]
+* [[generalized smooth space]]
 
   * [[smooth manifold]]
 
@@ -57,6 +57,8 @@
   * [[path groupoid]]
 
   * [[path n-groupoid]]
+
+* [[principal ∞-bundle|smooth principal ∞-bundle]]
 
 
 ## ∞-Lie algebroids
@@ -114,7 +116,7 @@
 
 ## ∞-Chern-Weil theory ##
 
-* [[schreiber:invariant polynomial on ∞-Lie algebroid|invariant polynomial on ∞-Lie algebroid]]
+* [[invariant polynomial|invariant polynomial on ∞-Lie algebroid]]
 
 * [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]]
 
