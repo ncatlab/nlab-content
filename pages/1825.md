@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
 The $n$-dimensional unit __sphere__, or simply $n$-sphere, is the [[subset]] of the $(n+1)$-dimensional [[Cartesian space]] $\mathbf{R}^{n+1}$ consisting of all points $x$ whose distance from the origin is $1$:
 $$ S^n = \{ x: \mathbf{R}^{n+1} \;|\; \|x\| = 1 \} .$$
 The $n$-dimensional sphere of radius $r$ is
