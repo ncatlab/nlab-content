@@ -5,7 +5,7 @@
 
 ## Idea
 
-Functional is used in two meanings: either a $k$-valued usually linear function on a $k$-vector space, where $k$ is a [[field]] (or even [[skewfield]]), or a function on some space of functions, paths or alike. The two meanings overlap as sometimes one considers linear spaces of functions; then the two concepts of a functional agree.
+Functional is used in two meanings: either a $k$-valued, usually linear, function on a $k$-vector space, where $k$ is a [[field]] (or even [[skewfield]]), or, more generally, a function on some space of functions, paths or alike. The two meanings overlap as sometimes one considers linear spaces of functions; then the two concepts of a functional agree.
 
 Physicists and engineers usually talk about functions in terms of (real or complex) variables; and when the variables, i.e. [[domain]] are spaces of functions itself they are usually warned; hence word functional emphasises a function on [[domain]] which is a [[space]]  "of the size of [[mapping space]]", so that the functional is a "a function of functions".
 
