@@ -28,16 +28,72 @@ Here $H \mathbb{Z}$ is the [[Eilenberg-MacLane spectrum]] of the [[integers]].
 
 ## Properties
 
+### Bousfield localization at Moore spectra
+
+An basic special case of $E$-[[Bousfield localization of spectra]] is given by $E = S A$ the Moore spectrum of an [[abelian group]] $A$. For $A = \mathbb{Z}_{(p)}$ this is [[p-localization]] and for $A = \mathbb{F}_p$ this is [[p-completion]].
+
++-- {: .num_prop}
+###### Proposition
+
+For $A_1$ and $A_2$ two [[abelian groups]] then the following are equivalent
+
+1. the [[Bousfield localization of spectra|Bousfield localizations]] at their Moore spectra are equivalent 
+
+   $$
+     L_{S A_1} \simeq L_{S A_2}
+     \,;
+   $$
+
+1. $A_1$ and $A_2$ have the same _type of acyclicity_, meaning that 
+ 
+   1. every [[prime number]] $p$ is invertible in $A_1$ precisely if it is in $A_2$;
+
+   1. $A_1$ is a [[torsion group]] precisely if $A_2$ is.
+
+=--
+
+recalled e.g. in ([VanKoughnett 13, prop. 4.2](#VanKoughnett13)).
+
+This means that given an abelian group $A$ then 
+
+* either $A$ is torsion, then 
+
+  $$
+    L_{S A} \simeq L_{S \mathbb{Z}[I^{-1}]}
+    \,,
+  $$ 
+
+  where $I$ is the set of primes invertible in $A$ and $\mathbb{Z}[I^{-1}] \hookrightarrow \mathbb{Q}$ is the [[localization of a ring|localization]] at these primes of the [[integers]];
+
+* or $A$ is torsion, then 
+    
+  $$
+   L_{S A }\simeq L_{S(\oplus_q \mathbb{F}_q )  }
+   \,,
+  $$
+
+  where the [[direct sum]] is over all [[cyclic groups]] of order $q$ for $q$ a prime not invertible in $A$.
+
+
+
 ### Serre's theorem
   {#SerreTheorem}
 
 * For $\mathbb{Q}$ the [[rational numbers]] there is an equivalence $S \mathbb{Q} \stackrel{\simeq}{\longrightarrow} H \mathbb{Q}$ between the Moore spectrum and the [[Eilenberg-MacLane spectrum]]. (e.g. [Banagl 10, p. 6](#Banagl10))
+
+## Related concepts
+
+* [[Eilenberg-MacLane spectrum]]
+
+* [[Bousfield localization of spectra]]
 
 ## References
 
 Lecture notes include 
 
 * {#Strickland} [[Neil Strickland]], p. 9 of _An introduction to the category of spectra_ ([pdf](https://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf))
+
+* {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
 See also 
 
