@@ -80,7 +80,7 @@ Lecture notes include
 
 ### Phenomenology and model building
 
-A large body of literature is concerned with particle physics [[phenomenology]] modeled in the context of F-theory.
+A large body of literature is concerned with particle physics [[string phenomenology]] modeled in the context of F-theory.
 
 * Chris Beasley, Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
