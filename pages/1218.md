@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
-#### Higher geometry
+#### Cohesive toposes
 +--{: .hide}
-[[!include higher geometry - contents]]
+[[!include cohesive infinity-toposes - contents]]
 =--
 =--
 =--
@@ -43,9 +43,9 @@ A **diffeological space** is a pair $(X,\mathcal{D})$ where
 
   * a [[subobject|subsheaf]] of the sheaf $U \mapsto Hom_{Set}(U,X)$ with $\mathcal{D}(*) = X$
 
-  * equivalently: a [[concrete sheaf]] on the [[site]] $\mathcal{Op}$ such that $\mathcal{D}(*) = X$.
+  * equivalently: a [[concrete sheaf]] on the [[site]] $\mathcal{Op}$ such that $\mathcal{D}(*) = X$ - a [[concrete object|concrete]] [[smooth space]] (see there for more details).
 
-A morphism of diffeological spaces is a morphism of the corresponding [[sheaves]]: we take $DiffeologicalSp \hookrightarrow Sh(CartSp)$ to be the full [[subcategory]] on the diffeological spaces in the sheaf topos.
+A [[morphism]] of diffeological spaces is a morphism of the corresponding [[sheaves]]: we take $DiffeologicalSp \hookrightarrow Sh(CartSp)$ to be the full [[subcategory]] on the diffeological spaces in the sheaf topos.
 
 =--
 
@@ -340,6 +340,7 @@ is a monomorphism. This is precisely the condition on a sheaf to be a diffeologi
 =--
 
 #### Cohesiveness
+ {#Cohesiveness}
 
 +-- {: .un_prop}
 ###### Proposition
@@ -357,7 +358,7 @@ The [[site]] [[CartSp]] is a [[cohesive site]] (see there for detail). This impl
 
 This implies that $Sh(CartSp)$ is a [[locally connected topos]], [[connected topos]], [[local topos]]. It means in addition that it is also a [[strongly connected topos]].
 
-This means that there is a _homotopy category_ or _concordance category_ of smooth spaces, with the same objects as $Sh(CartSp)$, but with hom-sets given by
+This means that there is a _homotopy category_ or _concordance category_ of [[smooth spaces]], with the same objects as $Sh(CartSp)$, but with hom-sets given by
 
 $$
   Conc(X,Y) := \Pi_0 [X,Y]_{Sh(CartSp)}
@@ -399,6 +400,8 @@ The category of diffeological spaces is
 (...)
 
 ## Related concepts
+
+* [[smooth space]]
 
 * [[diffeological groupoid]], [[diffeological ∞-groupoid]]
 
