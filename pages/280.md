@@ -35,8 +35,9 @@ $$
 
 Here the collection $\coprod_{k \in Obj(k)} \rho(k)$ of objects in $C$ in the image of objects of $K$ is "what $K$ is acting on" and the images of the morphisms in $K$ under $\rho$ produce the action itself.
 
+## Definitions
 
-## Actions of a group
+### Actions of a group
 
 An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[representation]] of $G$ on $x$, that is a group [[homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the [[automorphism group]] of $x$.  
 
@@ -46,7 +47,7 @@ $$\rho : \mathbf{B} G \to C.$$
 Here the object $x$ of the previous definition is just $\rho(*)$. 
 
 
-## Actions of a monoid
+### Actions of a monoid
 
 More generally we can define an _action_ of a [[monoid]] $M$ in the category $C$ to be a functor
 $$\rho: \mathbf{B} M \to C $$
@@ -54,13 +55,13 @@ where $\mathbf{B} M$ is (again) $M$ regarded as a one-object category.
 
 The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^{\mathbf{B} M}$.
 
-## Actions of a category
+### Actions of a category
 
 One can also define an [[action of a category on a set|action of a category]] $D$ on the category $C$ as a functor from $C$ to $D$, but usually one just calls this a [[functor]].
 
 Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]].
 
-## Actions of a group object
+### Actions of a group object
 
 Suppose we have  a category, $C$, with binary [[product]]s and a [[terminal object]] $*$. There is an alternative way of viewing group actions in [[Set]], so that we can talk about an action of a [[group object]], $G$, in $C$ on an object, $X$, of $C$.
 
@@ -95,6 +96,12 @@ Yes, I think certainly all those types of action should eventually be described 
 
 [[Tim Porter|Tim]]: I have added some of this above.  There should be mention of actions of a monoid in a monoidal category on other objects, perhaps.
 =--
+
+## Related concepts
+
+* [[quotient]]
+
+* [[representation theory]], [[invariant theory]]
 
 
 [[!redirects action]]
