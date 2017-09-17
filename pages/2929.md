@@ -25,7 +25,7 @@ We remark that such structure is unique when it exists (being a cartesian bicate
 
 We record a few consequences of this notion. 
 
-+-- {: .un_prop} 
++-- {: .num_prop} 
 ######Proposition 
 (Separability condition) $\Delta\nabla = 1$.
 =-- 
@@ -39,7 +39,7 @@ $$\Delta\nabla = \Delta\Delta_* \leq \Delta (1 \times \varepsilon)(1 \times \var
 where the last equation follows from the equation $\Delta(1 \times \varepsilon) = 1$ and its dual $(1 \times \varepsilon_*)\Delta_* = 1$. 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition 
 (Dual Frobenius condition) $\nabla \Delta = (\Delta \times 1)(1 \times \nabla)$.
 =-- 
@@ -63,7 +63,7 @@ $$\array{
 which gives the dual equation. 
 =--
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ######Theorem
 In a bicategory of relations, each object is dual to itself, making the bicategory a compact closed bicategory. 
 =-- 
@@ -72,7 +72,7 @@ In a bicategory of relations, each object is dual to itself, making the bicatego
 ######Proof
 Both the unit and counit of the desired adjunction $X \dashv X$ are given by equality predicates: 
 
-$$\eta_X = (1 \stackrel{\varepsilon_*}{\to} X \stackrel{\Delta}{\to} X \times X \qquad \theta_X = (X \times X \stackrel{\nabla}{\to} X \stackrel{\varepsilon}{\to} 1)$$
+$$\eta_X = (1 \stackrel{\varepsilon_*}{\to} X \stackrel{\Delta}{\to} X \times X) \qquad \theta_X = (X \times X \stackrel{\nabla}{\to} X \stackrel{\varepsilon}{\to} 1)$$
 
 One of the triangular equations follows from the commutative diagram 
 
@@ -91,9 +91,60 @@ The compact closure allows us to define the opposite of a relation $R: X \to Y$ 
 
 $$R^{op} = (Y \stackrel{1_Y \times \eta_X}{\to} Y \times X \times X \stackrel{1_Y \times R \times 1_X}{\to} Y \times Y \times X \stackrel{\theta_Y \times 1_X}{\to} X)$$ 
 
-In this way, a bicategory of relations becomes a [[dagger-compact category|†-compact]] $Pos$-enriched category. It may be shown that if $f: X \to Y$ is a map, then $f^{op}: Y \to X$ equals the right adjoint $f_*$. Also, it may be shown that maps coincide with strict comonoid morphisms. 
+In this way, a bicategory of relations becomes a [[dagger-compact category|†-compact]] $Pos$-enriched category. 
 
-+-- {: .un_prop}
+Recall (again) that a **map** in the bicategory of relations is the same as a 1-cell that has a right adjoint. 
+
++-- {: .num_prop #strict} 
+###### Proposition 
+If $f \colon X \to Y$ is a map, then $f$ is a strict morphism of comonoids. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+If $g$ is the right adjoint of $f$, we have $\Delta_X g \leq (g \times g)\Delta_Y$ since $g$, like any morphism, is a lax comonoid morphism. But this 2-cell is mated to a 2-cell $(f \times f)\Delta_X \to \Delta_Y f$, inverse to the 2-cell $\Delta_Y f \to (f \times f)\Delta_X$ that comes for free. So $f$ preserves comultiplication strictly. A similar argument shows $f$ preserves the counit strictly. 
+=-- 
+
++-- {: .num_prop}
+###### Proposition 
+If $f \colon X \to Y$ is a map, then $f^{op}: Y \to X$ equals the right adjoint $f_\ast$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The proof is much more perspicuous if we use [[string diagram|string diagrams]]. But the key steps are given in two strings of equalities and inequalities. The first gives a counit for $f \dashv f^{op}$, and the second gives a unit. We have 
+
+$$\array{
+f f^{op} & \stackrel{0}{=} & f \circ (\varepsilon_Y \times 1)(\nabla_Y\times 1)(1 \times f \times 1)(1 \times \Delta_X)(1 \times \varepsilon_X_\ast) \\
+& \stackrel{1}{=} & (\varepsilon_Y \times 1)(\nabla_Y \times 1)(1 \times f \times f)(1 \times \Delta_X)(1 \times \varepsilon_X_\ast) \\ 
+ & \stackrel{2}{=} & (\varepsilon_Y \times 1)(\nabla_Y \times 1)(1 \times \Delta_Y)(1 \times f)(1 \times \varepsilon_X_\ast)\\ 
+ & \stackrel{3}{\leq} & (\varepsilon_Y \times 1)(\nabla_Y \times 1)(1 \times \Delta_Y)(1 \times \varepsilon_Y_\ast) \\
+ & \stackrel{4}{=} & (\varepsilon_Y \times 1)\Delta_Y \nabla_Y(1 \times \varepsilon_Y_\ast) \\
+ & \stackrel{5}{=} & 1_Y
+}$$ 
+
+where (0) uses the definition of $f^{op}$, (1) uses properties of monoidal categories, (2) uses the fact that $f$ strictly preserves comultiplication, (3) is mated to the fact that $f$ laxly preserves the counit, (4) is a Frobenius condition, and (5) uses comonoid and dual monoid laws. We can also "almost" run the same calculation backwards to get the unit: 
+
+$$\array{
+1_X & \stackrel{0}{=} & (\varepsilon_X \times 1)\Delta_X \nabla_X(1 \times \varepsilon_X_\ast) \\ 
+ & \stackrel{1}{=} & (\varepsilon_X \times 1)(\nabla_X \times 1)(1 \times \Delta_X)(1 \times \varepsilon_X_\ast) \\
+ & \stackrel{2}{=} & (\varepsilon_Y \times 1)(f \times 1)(\nabla_X\times 1)(1 \times \Delta_X)(1 \times \varepsilon_X_\ast) \\ 
+ & \stackrel{3}{\leq} & (\varepsilon_Y \times 1)(\nabla_Y \times 1)(f \times f \times 1)(1 \times \Delta_X)(1 \times \varepsilon_X_\ast) \\ 
+ & \stackrel{4}{=} & (\varepsilon_Y \times 1)(\nabla_Y \times 1)(1 \times f \times 1)(1 \times \Delta_X)(1 \times \varepsilon_X_\ast) \circ f \\
+ & \stackrel{5}{=} & f^{op} f
+}$$ 
+
+where (0) uses comonoid and dual monoid laws, (1) uses a Frobenius condition, (2) uses the fact that $f$ preserves the counit, (3) is mated to the fact that $f$ laxly preserves comultiplication, (4) uses properties of monoidal categories, and (5) uses the definition of $f^{op}$. 
+=-- 
+
+In fact, what this proof really proves is a converse of the earlier [proposition](#strict): 
+
++-- {: .num_prop}
+###### Proposition 
+If $f$ is a strict comonoid morphism, then $f$ has a right adjoint: $f \dashv f^{op}$. 
+=-- 
+
++-- {: .num_prop}
 ######Proposition
 If $f, g: X \to Y$ are maps and $f \leq g$, then $f = g$. Thus, the locally full subcategory whose morphisms are maps is locally discrete (the hom-posets are discrete). 
 =-- 
@@ -109,14 +160,14 @@ Bicategories of relations $\mathbf{B}$ satisfy a Beck-Chevalley condition, as fo
 
 Since $Map(\mathbf{B})$ has finite products, there is a product-preserving functor $\pi: Prod(B_0) \to \Map(\mathbf{B})$ which is the identity on objects. Again, according to the results of [[free cartesian category]], we have the following result. 
 
-+-- {: .un_lem}
-######Lemma 
++-- {: .num_lemma}
+###### Lemma 
 If a diagram in $Prod(B_0)$ is a pullback square, then application of $\pi$ to that diagram is a pullback square in $Map(\mathbf{B})$. 
 =--
 
 Let us call pullback squares of this form in $Map(\mathbf{B})$ _product-based_ pullback squares. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition 
 Given a product-based pullback square 
 $$\array{
@@ -149,7 +200,7 @@ A proof of the modular law is given in the blog post by R.F.C. ("Bob") Walters r
 
 In fact, we may prove a little more: 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ######Theorem 
 The notion of bicategory of relations is equivalent to the notion of unitary pretabular allegory. 
 =-- 
