@@ -29,7 +29,7 @@ See [[(∞,1)-category of (∞,1)-sheaves]] for more.
 ## Definition
 
 
-Given an [[(∞,1)-site]] $C$, legt $S$ be the class of [[monomorphism in an (∞,1)-category|monomorphisms]] in the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ that correspond to [[covering]] [[(∞,1)-sieve]]s
+Given an [[(∞,1)-site]] $C$, let $S$ be the class of [[monomorphism in an (∞,1)-category|monomorphisms]] in the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ that correspond to [[covering]] [[(∞,1)-sieve]]s
 
 $$
   \eta : U \hookrightarrow j(c)
