@@ -26,3 +26,4 @@ category: people
 [[!redirects Baues]]
 [[!redirects Hans Baues]]
 [[!redirects H.-J. Baues]]
+[[!redirects Hans J. Baues]]
