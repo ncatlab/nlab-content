@@ -1,3 +1,4 @@
+
 #Contents#
 * table of contents
 {:toc}
@@ -5,7 +6,9 @@
 
 ## Definition
 
-Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by $F(a)=a^p$. It is a map of fields since $(a b)^p=a^p b^p$ for all $a,b\in k$. The characteristic of the field is used to show $(a+b)^p=a^p+b^p$. 
+Suppose $k$ is a [[field]] of positive [[characteristic]] $p$. The **Frobenius morphism** is an [[endomorphism]] of the field $F:k\to k$ defined by $F(a)=a^p$. 
+
+Notice that this is indeed a [[homomorphism]] of fields: the identity $(a b)^p=a^p b^p$ evidently holds for all $a,b\in k$ and the [[characteristic]] of the field is used to show $(a+b)^p=a^p+b^p$. 
 
 ### Properties
 
@@ -39,3 +42,6 @@ For the purposes below $k$ will be a [[perfect field]] of [[characteristic]] $p$
 
 Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
 
+[[!redirects Frobenius morphism]]
+[[!redirects Frobenius morphisms]]
+[[!redirects Frobenius maps]]
