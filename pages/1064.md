@@ -29,7 +29,7 @@ There is a sequence of extra [[stuff, structure, property|structure and property
   a [[category]] that is [[Ab]]-[[enriched category|enriched]];
 
 2. **[[pre-additive category]]**:
-  an $Ab$-enriched category that has a [[terminal object]] or [[initial object]] and therefore a [[zero object]];
+  an $Ab$-enriched category that has a [[terminal object]] or [[initial object]] and therefore a [[zero object]]; Notice however that many authors (e.g. Weibel, Popescu) by preadditive (or pre-additive) simply mean $Ab$-enriched. 
 
    * [[pseudo-abelian category]]: a pre-additive category such that every [[idempotent]] has a [[kernel]] and [[cokernel]]
 
