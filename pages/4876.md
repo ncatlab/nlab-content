@@ -144,6 +144,15 @@ The characterization of [[D-brane]] [[submanifolds]] for the [[open string]] WZW
 
 In summary, the [[D-brane]] [[submanifolds]] in a Lie group which induce an [[open string]] WZW model that a) has one [[current algebra]] symmetry and b) is [[Freed-Witten-Kapustin anomaly|Kapustin-anomaly]]-free are precisely the [[conjugacy class]]-submanifolds $G$ equipped with a [[twisted unitary bundle]] for the restriction of the background [[B-field]] to the conjugacy class.
 
+### Quantization
+
+on [[quantization]] of the WZW model, see at 
+
+* [[quantization of loop groups]],
+
+* [[equivariant elliptic cohomology]]
+
+* [[quantization of Chern-Simons theory]]
 
 
 ## Related concepts
