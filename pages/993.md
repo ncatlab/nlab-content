@@ -1,6 +1,9 @@
 
 > To be distinguished from [[spectrum]] in the sense of [[stable homotopy theory]], see at [[spectrum - disambiguation]].
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -34,4 +37,8 @@ A spectrum does not necessarily give a faithful representation of the original d
 
 The word 'spectrum' in this setup originates from the fact that the spectrum of a commutative [[Banach algebra]] is a natural extension of the theory of a spectrum of a family of commuting self-adjoint operators, which is in turn the generalization of the spectral theory of one self-adjoint operator. See also [[spectrum of a Banach algebra]]. The spectrum of an operator corresponds in quantum (and classical!) mechanics to frequencies of vibrations and waves, hence in optics to color. Newton experimentally observed the spectrum from white light passing through a prism, and with a surprise he considered it at first as a ghost like object, hence he named it after a Latin word for ghost or spirit (see also [Wikipedia](http://en.wikipedia.org/wiki/Spectrum)).
 
+
+## References
+
+* [MO discussion](http://mathoverflow.net/a/20293/381) on the history of the idea of a space of ideals on which a ring is a ring of functions, both in analysis and in algebraic geometry
 
