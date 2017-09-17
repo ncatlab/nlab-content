@@ -8,7 +8,8 @@ See also at
 
 * [[topological string]]
 
-* [[2d (2,0)-superconformal QFT]]
+  [[A-model]], [[B-model]], [[half-twisted model]]
+
 
 [[!redirects topological twists]]
 
