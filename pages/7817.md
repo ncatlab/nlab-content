@@ -1,9 +1,13 @@
+(...)
+
+An instance is the following:
+
 Let $k$ be a field, let $k_s$ denote the separable closure of $k$.
 
 
 +-- {: .num_theorem}
 ###### Theorem
-([[the fundamental theorem of Galois theory|fundamental theorem of Galios theory]])
+([[the fundamental theorem of Galois theory|fundamental theorem of Galois theory]])
 
 The functor
 
