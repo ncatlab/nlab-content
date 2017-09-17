@@ -173,6 +173,8 @@ $$
 
 * There is an obvious monoidal structure on the [[cube category]]. By Day convolution this induces a monoidal structure on [[cubical set|cubical sets]]. This in turn induces a monoidal structure on [[strict omega-category|strict omega-categories]].
 
+* There is a monoidal structure on the [[augmented simplex category]] which by Day convolution induces a monoidal structure on the category of [[augmented simplicial sets]], which by restriction induces the [[join of simplicial sets|join operation]] on [[simplicial sets]].
+
 * If $C$ is a [[large category]] in one [[universe]], then its [[universe enlargement]] to a bigger universe can be given a closed monoidal structure via Day convolution.
 
 * The semantics of [[linear logic]] obtained from Girard's "phase spaces", or more generally from [[ternary frames]], is essentially Day convolution for posets.
