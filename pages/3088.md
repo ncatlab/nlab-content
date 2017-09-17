@@ -149,6 +149,8 @@ Here are some examples of internal $\infty$-groupoids according to the first def
 
 * [[internal (infinity,1)-category]]
 
+* [[Kan-fibrant simplicial manifold]]
+
 ## References
 
 Models for [[∞-stacks]]/[[(∞,1)-presheaves]] in [[higher geometry]] by local Kan complexes of objects in a given site (for instance locally Kan [[simplicial manifolds]] for [[higher differential geometry]]) are discussed in 
