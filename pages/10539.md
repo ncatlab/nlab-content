@@ -1,3 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _symplectic integrator_ is a method of numerically  solving [[Hamilton's equations]]  to some approximation for standard [[Hamiltonians]] which are [[sums]] of a [[kinetic energy]] and a [[potential energy]] piece.
+
+## References
+
 * wikipedia [symplectic integrator](http://en.wikipedia.org/wiki/Symplectic_integrator), [multisymplectic integrator](http://en.wikipedia.org/wiki/Multisymplectic_integrator)
 
 * Denis Donnelly, Edwin Rogers, _Symplectic integrators: An introduction_,  Am. J. Phys. __73__, 938 (2005) [doi](http://dx.doi.org/10.1119/1.2034523)
