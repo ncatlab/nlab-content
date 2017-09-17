@@ -13,16 +13,28 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The _cellular simplex_ is one of the basic [[geometric shapes for higher structures]]. 
+
 ## Definition
 
 For $n \in \mathbb{N}$, the standard _simplicial $n$-simplex_ is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]].
 
 Likewise, there is a standard toplogical $n$-simplex, which is (more or less by definition) the [[geometric realization]] of the standard simplicial $n$-simplex.
 
+## Properties
+
+### Relation to globes
+
+The [[orientals]] related simplices to [[globes]].
+
 ## Related concepts
 
 * [[horn]], [[boundary of a simplex]], [[spine]]
 
-* [[dendrex]]
+* [[globe]], 
+
+* [[tree]], [[dendrex]]
 
 [[!redirects simplices]]
