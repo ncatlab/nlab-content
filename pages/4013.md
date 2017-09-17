@@ -1,4 +1,4 @@
-In a discussion with Vaughan Pratt on the categories mailing list, Peter Freyd gave a very sharp description of the commonalities and differences between Abelian categories and Toposes (or, in the first place, between abelian categories and pretoposes), by introducing a finitely axiomatized theory of "AT categories". As it turns out, this theory embodies the commonalities with such precision that every AT category splits as a product of an [[abelian category]] and a [[pretopos]]. 
+In a [discussion](http://www.mta.ca/~cat-dist/catlist/1999/atcat) with Vaughan Pratt on the categories mailing list, Peter Freyd gave a very sharp description of the commonalities and differences between Abelian categories and Toposes (or, in the first place, between abelian categories and pretoposes), by introducing a finitely axiomatized theory of "AT categories". As it turns out, this theory embodies the commonalities with such precision that every AT category splits as a product of an [[abelian category]] and a [[pretopos]]. 
 
 Remarkably, the properties in common are basically exactness conditions, and the sharp dichotomy between abelian categories and pretoposes can be concentrated solely in the behavior of the initial object. 
 
@@ -119,17 +119,54 @@ An object is of type A if and only if there exists a map to $0$.
 If $X$ is of type A, then we clearly have $X \cong 0 \times X \stackrel{\pi_1}{\to} 0$. Conversely, suppose there exists $p: X \to 0$. Note that since $0 \to 1$ is monic, there is at most one map $Y \to 0$ for any object $Y$. It follows quickly that maps $Y \to X$ are in natural bijective correspondence with maps $Y \to X \times 0$, so that $X \cong X \times 0$ by the Yoneda lemma.
 =--
 
+
+
 From this lemma, it follows that the full subcategory of type A objects in an AT category $C$ is equivalent to the category $C/0$, which is the category of coalgebras for the functor $A(X) = 0 \times X$. Hence the category of type A objects is coreflective. 
 
 +-- {: .un_lem}
 ######Lemma
-If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$. 
+Objects of type A are closed under products, coproducts, subobjects, and quotient objects. Therefore they give a full subcategory that is an AT category, in particular an effective regular category.
+=--
+
++--{: .un_lem}
+######Lemma
+The category of type A objects is $Ab$-enriched (note: this is a property, not a structure on a category). 
+=--
+
++--{: .un_thm}
+######Theorem
+The category of type A objects is an abelian category. 
+=--
+
++-- {: .proof}
+######Proof
+An abelian category is the same thing as an effective regular $Ab$-enriched category (see Categories and Allegories, section 1.59). Now combine the previous two lemmas. 
+=--
+
++-- {: .un_lem}
+######Lemma
+If $A$ is type A and $T$ is type T, then there exists exactly one map $A \to T$. Type T objects are characterized by this property. 
 =-- 
 
 +-- {: .proof}
 ######Proof
-There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in bijection with maps $A \to 0 \times T \cong 0$, of which there is exactly one. 
+There is exactly one morphism $A \to 0$. Hence morphisms $A \to T$ are in bijection with maps $A \to 0 \times T \cong 0$, of which there is exactly one. For the second statement, use the fact that...
 =-- 
+
++-- {: .un_prop}
+######Proposition
+The full subcategory of objects of type T is closed under products, coproducts, subobjects, and quotient objects
+
++-- {: .un_thm}
+######Theorem
+The full subcategory of objects of type T is a pretopos. 
+=--
+
++-- {: .proof}
+######Proof
+One of our earlier results was that coproducts were disjoint, and one of the AT axioms above says that coproducts are universal. Hence an AT category is extensive; it is also effective regular, hence a pretopos. 
+=-- 
+
 
 
 [[!redirects AT category]]
