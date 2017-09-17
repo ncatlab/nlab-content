@@ -93,11 +93,9 @@ Indeed, in ([SezginSundell 2002](#SezginSundell)) more detailed arguments are gi
  {#AdS4CFT3}
 
 [[11d supergravity]]/[[M-theory]] on the asymptotitc $AdS_4$
-spacetiem of an [[M2-brane]] (...)
+spacetime of an [[M2-brane]].
 
-([Maldacena 97, section 3.2](#Maldacena97))
-
-([Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.2](#AharonyGubserMaldacenaOoguriOz99))
+([Maldacena 97, section 3.2](#Maldacena97), [Aharony-Gubser-Maldacena-Ooguri-Oz 99, section 6.1.2](#AharonyGubserMaldacenaOoguriOz99), [Klebanov-Torri 10](KlebanovTorri10))
 
 
 ### $AdS_3 / CFT_2$ -- Horizon limit of D1-D5 brane bound states
@@ -207,6 +205,12 @@ Further references include:
 * C.R. Graham, [[Edward Witten]], _Conformal anomaly of submanifold observables in AdS/CFT correspondence_, [hepth/9901021](http://arxiv.org/abs/hep-th/9901021).
 
 * [[Edward Witten]], _AdS/CFT Correspondence And Topological Field Theory_ ([arXiv:hep-th/9812012](http://arxiv.org/abs/hep-th/9812012))
+
+### $AdS_4 / CFT_3$
+
+* [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_,  	Int.J.Mod.Phys.A25:332-350,2010 ([arXiv:0909.1580](http://arxiv.org/abs/0909.1580))
+  {#KlebanovTorri10}
+
 
 ### $AdS_5 / CFT_4$
 
