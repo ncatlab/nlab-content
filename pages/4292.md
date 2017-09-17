@@ -22,13 +22,12 @@ $$
 $$
 
 where $a_n$ is in $R$ for each $n\ge 0$. Given that there are
-no additional convergence conditions, a power series is also termed emphatically as a __formal power series__. 
+no additional convergence conditions, a power series is also termed emphatically as a __formal power series__. If $R$ is commutative, then the collection of formal power series in a variable $X$ with coefficients in $R$ forms a commutative ring denoted by $R [ [ X ] ]$. 
 
-For a commutative ring $R$, the collection of formal power series in variable $X$ with coefficients in $R$ has the structure of a ring and is denoted $R [ [ X ] ]$. 
+More generally, a power series in $k$ commuting variables $X_1,\ldots, X_k$ with coefficients in a ring $R$ has the form $\sum_{n_1=0,n_2=0,\ldots, n_k = 0}^\infty a_{n_1\ldots n_k} X_1^{n_1} X_2^{n_2}\cdots X_k^{n_k}$. If $R$ is commutative, then the collection of formal power series in $k$ commuting variables $X_1,\ldots, X_k$ form a formal power series ring denoted by $R [ [ X_1,\ldots, X_k
+] ]$. 
 
-More generally, one considers power series $\sum_{n_1=0,n_2=0,\ldots, n_k = 0}^\infty a_{n_1\ldots n_k} X_1^{n_1} X_2^{n_2}\cdots X_k^{n_k}$ in $k$ variables $X_1,\ldots, X_k$ which are declared commutative with $a_{n_1\ldots n_k}\in R$, where $R$ is commutative;
-they form a formal power series ring $R [ [ X_1,\ldots, X_k
-] ]$. More generally, we can consider noncommutative (associative unital) ring $R$ and words in noncommutative 
+More generally, we can consider noncommutative (associative unital) ring $R$ and words in noncommutative 
 variables $X_1,\ldots, X_k$ of the form
 $$
 w = X_{i_1}\cdots X_{i_m}
