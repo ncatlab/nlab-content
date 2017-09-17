@@ -13,7 +13,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -26,7 +26,16 @@ the stabilization is $Stab(Top) \simeq Spec$ the category of [[spectrum|spectra]
 
 There is a canonical [[forgetful functor|forgetful]] [[(∞,1)-functor]] $\Omega^\infty : Stab(C) \to C$ that remembers of a [[spectrum object]] the underlying object of $C$ in degree 0. Under mild conditions, notably when $C$ is a [[presentable (∞,1)-category]], this functor has a [[left adjoint]] $\Sigma^\infty : C \to Stab(C)$ that _freely stabilizes_ any given object of $C$.
 
-Going back and forth this way yields the assignment
+$$
+  (\Sigma^\infty \vdash \Omega^\infty)
+  :
+  Stab(C)
+   \stackrel{\overset{\Sigma^\infty}{\leftarrow}}{\underset{\Omega^\infty}{\to}}
+  C
+  \,.
+$$
+
+Going back and forth this way, i.e. applying the corresponding [[(∞,1)-monad]] $\Omega^\infty \circ \Sigma^\infty$ yields the assignment
 
 $$
   X \mapsto \Omega^\infty \Sigma^\infty X
