@@ -256,4 +256,5 @@ But in other languages, such as FOLDS, even this sort of thing would never come 
 =--
 
 
+[[!redirects evil]]
 [[!redirects non-evil]]
