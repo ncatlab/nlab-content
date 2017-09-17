@@ -74,7 +74,7 @@ $$
     \\
     \downarrow && &\searrow & \downarrow
     \\
-    {*} &\to& &\to& coker(f) 
+    {*} &\to& &\to& cone(f) 
   }
 $$
 
@@ -83,6 +83,23 @@ in $C$ using any [[cylinder object]] $cyl(X)$ for $X$.
 =--
 
 This is discussed in detail at [[factorization lemma]] and at [[homotopy pullback]].
+
++-- {: .num_remark }
+###### Remark
+
+Heuristically this says that $cone(f)$ is the object obtained by
+
+1. forming the cylinder over $X$;
+
+1. gluing to one end of that the object $Y$ as specified by the map $f$.
+
+1. shrinking the other end of the cylinder to the point.
+
+Heuristically it is clear that this way every [[cycle]] in $Y$ that happens to be in the image of $X$ can be "continuously" translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it becomes the point. This means that every [[homotopy group]] of $Y$ in the image of $f$ vanishes in the mapping cone. Hence in the mapping conee **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it clear how $cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. And therefore the name "mapping cone".
+
+=--
+
+
 
 +-- {: .num_remark }
 ###### Remark
@@ -105,7 +122,7 @@ $$
 $$
 
 Therefore prop. \ref{HomotopyCofiberByFactorizationLemma} says that 
-the cokernel is the the [[universal property|universal]] object with a morphism $i$ from $Y$ and a [[left homotopy]] from $i \circ f$ to the [[zero morphism]]. This is of course also precisely what def. \ref{InfinityCokernel} is saying.
+the mapping cone is the the [[universal property|universal]] object with a morphism $i$ from $Y$ and a [[left homotopy]] from $i \circ f$ to the [[zero morphism]]. This is of course also precisely what def. \ref{InfinityCokernel} is saying.
 
 =--
 
@@ -373,9 +390,9 @@ $$
     }
   \right)
   : 
-  (X_{n+1} \oplus Y_{n+1}) \oplus X_{n}
+  (X_{n+1} \oplus X_{n+1}) \oplus X_{n}
   \to
-  (X_{n} \oplus Y_{n}) \oplus X_{n-1}
+  (X_{n} \oplus X_{n}) \oplus X_{n-1}
   \,.
 $$
 
@@ -466,11 +483,11 @@ the [[mapping cylinder]] $cyl(f)$ is the [[pushout]]
 
 $$
   \array{
-    cyl(f) &\leftarrow& Y
+    cyl(f)_\bullet &\leftarrow& Y_\bullet
     \\
     \uparrow && \uparrow^{\mathrlap{f}}
     \\
-    X \otimes I &\stackrel{i_0}{\leftarrow}& X
+    I_\bullet \otimes X_\bullet  &\stackrel{i_0}{\leftarrow}& X_\bullet
   }
   \,.
 $$
@@ -480,7 +497,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-The components of $cyl(f)$ are
+The components of $cyl(f)_\bullet$ are
 
 $$
   cyl(f)_n = X_n \oplus Y_n \oplus X_{n-1}
@@ -967,8 +984,33 @@ $$
 
 =--
 
+In order to compare this to the discussion of [[nLab:connecting homomorphisms]], we now turn attention to the case that $f_\bullet$ happens to be a [[monomorphism]]. Notice that this we can always assume, up to [[quasi-isomorphism]], for instance by prolonging $f$ by the map into its [[mapping cylinder]]
+
+$$
+  X_\bullet \to Y_\bullet \stackrel{\simeq}{\to} cyl(f) 
+  \,.
+$$
+
+By the axioms on an [[abelian category]] in this case we have a [[short exact sequence]]
+
+$$
+  0 \to X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \stackrel{p_\bullet}{\to} Z_\bullet \to 0
+$$
+
+of chain complexes. The following discussion revolves around the fact that now $cone(f)_\bullet$ as well as $Z_\bullet$ are both models for the homotopy cofiber of $f$.
+
+
+
 +-- {: .num_lemma #ConeInjectionEquivalentToZigzag}
 ###### Lemma
+
+Let 
+$$
+  X_\bullet \stackrel{f_\bullet}{\to} Y_\bullet \stackrel{p_\bullet}{\to} Z_\bullet
+$$
+
+be a [[short exact sequence]] of [[chain complexes]]. 
+
 
 The collection of linear maps
 
