@@ -87,6 +87,8 @@ This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](
 
 * [[Hamiltonian action]]
 
+* [[Heisenberg n-group]]
+
 ## References
  {#References}
 
