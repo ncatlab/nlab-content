@@ -23,6 +23,22 @@
 
 ## Idea
 
+On the very largest scales observable in astrophysical [[experiment]], the cosmos is well described by an [[FRW model]] with [[cosmological constant]] $\Lambda$, with plenty of [[dark matter]] and with primordial [[cosmic inflation]] (called the $\Lambda$-CDM "[[standard model of cosmology|concordance model of cosmology]]"). This and everything on smaller scales is the _observable universe_.
+
+There has never been a reason to assume that beyond this _cosmic horizon_ visible to us today, the cosmos would not extend further. In fact in the simple [[FRW models]] with positive cosmological constant, the [[spacetime]] [[manifold]] is not a [[closed manifold]] and extends indefinitely beyond our observable horizon. This is directly analogous to the ancient mariner who would stand on the deck of his ship and see a few miles of ocean around him. That was the world within his horizon, but there was no telling what lied beyond.
+
+Therefore it is important to distinguish the _observable universe_ from the _universe_ as such. Unfortunately, intellectual laziness tended to ignore this distinction and at some point some people who said "universe" to mean just the stretch of our cosmic horizon felt the need to have a new term for whatever may lie beyond. For better or worse, that new term has become wide-spread these days and is "[[multiverse]]". 
+
+The main scientific observation that goes with this is the observation that [[cosmic inflation]] -- for which there is by now excellent and ever increasing [[experiment|experimental]] evidence that indeed it happened -- does, at least by the simple method which is currently used to model it, naturally predict a large ambient space in which local regions stochastically undergo inflationary expansion. This scenario of [[chaotic inflation]] has in fact been singled out as the most likely one (within the standard model) by the [[bicep2]]-[[experiment]] in 2014.
+
+In any case, as far as the _observable_ universe is concerned, two facts are worth noticing:
+
+1. the observable universe alone is already pretty darn large, see the various discussion of its scales [below](#References);
+
+1. [[Giordano Bruno]]'s old intuition remains plausible even at the largest scales: possibly the full xyz-verse beyond our present horizon is vastly larger still... and we may never know.
+
+
+
 ![scale graphics](http://www.learner.org/courses/physics/visual/img_half/length_scale.jpg)
 
 
@@ -47,16 +63,17 @@
 * [[particle physics]], [[standard model of particle physics]]
 
 ## References
+ {#References}
 
 * Wikipedia _[Observable universe](http://en.wikipedia.org/wiki/Observable_universe)_
 
 A visualization of the scales in the [[solar system]] are in
 
-* [A tediously accurate scale model of the solar system](http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
+* {#VisSolarSystem} [A tediously accurate scale model of the solar system](http://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
 
 A visualization of the big observable structures in the universe, drawn to scale, is in 
 
-* American Museum of Natural History, _The known universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
+* {#VisObservableUniverse} American Museum of Natural History, _The known universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
 
 A simulation of these is at
 
