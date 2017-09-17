@@ -41,7 +41,7 @@ A _frame homomorphism_ is a homomorphism of posets that preserves finite meets a
 
 ## Properties
 
-A frame is automatically be a [[Heyting algebra]] by the [[adjoint functor theorem]], so you can think of a frame as a [[cartesian closed category|cartesian closed]] [[suplattice]], or a cartesian [[quantale]].  
+A frame is automatically a [[Heyting algebra]] by the [[adjoint functor theorem]], so you can think of a frame as a [[cartesian closed category|cartesian closed]] [[suplattice]], or a cartesian [[quantale]].  
 
 But notice that the frame [[homomorphism]]s are not required to preserve the Heyting implication.
 
