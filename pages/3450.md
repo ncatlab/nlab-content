@@ -70,6 +70,8 @@ For details see [[groupoid object in an (∞,1)-category]].
 
   * [[∞-group extension]]
 
+  * [[augmented ∞-group]]
+
 [[!include k-monoidal table]]
 
 ## References
