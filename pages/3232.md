@@ -152,3 +152,6 @@ Discussion of [[model category]] structures on categories of [[coalgebras]] over
 [[!redirects algebras over a monad]]
 [[!redirects algebras for monads]]
 [[!redirects algebras over monads]]
+
+[[!redirects Eilenberg-Moore algebra]]
+[[!redirects Eilenberg-Moore algebras]]
