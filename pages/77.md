@@ -78,5 +78,15 @@ See
 The notion of  _Lie algebra_ is a special case that of [[∞-Lie algebra]] and more generally that of [[∞-Lie algebroid]]. See there for more details.
 
 
+## Examples
+
+* [[special orthogonal Lie algebra]]
+
+* [[special unitary Lie algebra]]
+
+* [[Poincare Lie algebra]]
+
+* [[super Poincare Lie algebra]]
+
 
 [[!redirects Lie algebras]]
