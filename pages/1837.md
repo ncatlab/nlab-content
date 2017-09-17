@@ -187,6 +187,8 @@ Discussion of abelian higher gauge theory in terms of [[differential cohomology]
 
 
 [[!redirects gauge field]]
+[[!redirects gauge fields]]
+
 [[!redirects gauge theories]]
 
 [[!redirects higher gauge theory]]
