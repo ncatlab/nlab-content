@@ -49,8 +49,10 @@ If $D$ is a [[full subcategory]] then the second condition is automatic.
 
 =--
 
+The following theorem is known as the **[[comparison lemma]]**.
+
 +-- {: .num_theorem}
-###### Theorem (comparison lemma)
+###### Theorem 
 
 Let $(C,J)$ be a (possibly [[large site|large]]) [[site]] with $C$ a [[locally small category]] and let $f : D \to C$ be a [[small category|small]] [dense sub-site](#DenseSubSite). Then pair of [[adjoint functor]]s
 
