@@ -32,6 +32,8 @@ The [[higher geometry]] version of [[complex analytic geometry]], for instance (
 
 * [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_
 
+* [[Jacob Lurie]], sections 11 and 12 of _[[Closed Immersions]]_
+
 * {#Larusson01} Finnur Larusson, _Excision for simplicial sheaves on the Stein site and Gromov's Oka principle_ ([arXiv:math/0101103](http://arxiv.org/abs/math/0101103))
 
 
