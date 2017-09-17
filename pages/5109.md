@@ -30,7 +30,9 @@ First looking in the monomodal case, suppose that we have a frame $\mathfrak{F} 
 $$\mathfrak{F}\models T if and only if \mathfrak{F} \models  \forall w\in W,   R ww.$$
 =--
 
-So the frame that support models for the logic $T$ are the reflexive frames.
+So the frames that support models for the logic $T$ are exactly the reflexive frames.
 
 ######Proof######
-Suppose $\mathfrak{F}$ is a reflexive frame and take an arbitrary valuation $V$ on $\mathfrak{F}$ and a state $w$ in $\mathfrak{F}$ so that $(\mathfrak{F},V),w\models p$. We use the first form of $T$ above, and have to prove that $M p$ holds at $w$, i.e., that $p$ holds at some state 'accessible' from $w$, but as $R$ is reflexive, $w$ is accessible from itself, ... . 
+Suppose $\mathfrak{F}$ is a reflexive frame and take an arbitrary valuation $V$ on $\mathfrak{F}$ and a state $w$ in $\mathfrak{F}$ so that $(\mathfrak{F},V),w\models p$. We use the first form of $T$ above, and have to prove that $M p$ holds at $w$, i.e., that $p$ holds at some state 'accessible' from $w$, but as $R$ is reflexive, $w$ is accessible from itself, ... .
+
+For the converse, we will suppose $R$ is not reflexive, so there is some state, $w \in W$ which is not $R$-related to itself. 
