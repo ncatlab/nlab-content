@@ -10,24 +10,24 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples consisting of
+Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples roughly consisting of
 
-* a [[manifold]] $X$
-  : with the structure of a principal torus bundle $T^n \to X \to X/T^n$
+* a [[smooth manifold]] $X$
+  : with the structure of a torus-[[principal bundle]] $T^n \to X \to X/T^n$
   -
   modelling [[spacetime]]
 
-* equipped with an abelian $U(1)$-[[gerbe]] 
-  : with connection
+* equipped with a
+  [[circle n-bundle with connection|circle 2-bundle with connection]]
   -
   modelling the [[Kalb-Ramond field]]
 
-* and possibly with elements in [[twisted K-theory]]
+* and in [[twisted K-theory]]
   : refined to elements in [[differential K-theory|differential twisted K-theory]]
   -
   modelling the [[RR-field]]
