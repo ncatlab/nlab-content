@@ -1502,6 +1502,11 @@ for the class of circle 3-bundles that arise as differential refinements of degr
 
 * [[higher U(1)-gauge theory]]
 
+* [[principal infinity-connection]]
+
+* [[curving]]. [[higher Courant groupoid]]
+
+* [[prequantum n-bundle]], [[quantomorphism n-group]]
 
 ## References
 
