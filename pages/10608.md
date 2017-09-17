@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+#### Cohesive Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
+
 This page collects material related to the article
 
 * [[William Lawvere]], 
@@ -7,6 +26,14 @@ This page collects material related to the article
 
 on [[adjoint cylinders]] and [[cohesive toposes]].
 
-This is in part motivated from attempts to formalize thoughts appearing in [[Georg Hegel]]'s _[[Science of Logic]]_.
+This is in part motivated from attempts to formalize thoughts appearing in [[Georg Hegel]]'s _[[Science of Logic]]_ on [[unity of opposites]].
+
+Conreteley it is about the unity of opposites that in a set all elements are distinct, but indistinguishable. Lawvere argues that this is captured by the [[adjoint modality]] given by [[flat modality]] $\dashv$ [[sharp modality]].
+
+Notice that where the English translations of [[Hegel]]'s _[[Science of Logic]]_ say "the One", the original has "Das Eins", which might just as well be translated with "The Unit". In view of this and looking through Hegel's piece on discreteness and repulsion, it seems clear that Hegel's "Einsen" is precisely Cantor's "Einsen" as recalled by Lawvere. Namely: copies of the [[unit type]].
+
+Notice that the German "lauter" is pretty much the English "lots of". If you say "A lot a" as in "A lot a stuff" with an accent or else say "lauter" with a Bavarian accent, it comes out pretty much alike, and possibly that's not a coincidence but the witness of a joint historical root.
 
 category: reference
+
+[[!redirects Cohesive Toposes and Cantor's lauter Einsen]]
