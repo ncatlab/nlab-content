@@ -177,7 +177,9 @@ For more on this idea, see [[internal logic]].
 
 * If $C$ and $D$ are toposes and $F\colon C\to D$ is a [[lex functor]], then there is a topos $Gl(F)$ called the [[Artin gluing]] of $C$ and $D$ along $F$, and defined to be the [[comma category]] $(D/F)$.  If $C$ and $D$ are Grothendieck toposes and $F$ is [[accessible functor|accessible]], then $Gl(F)$ is again Grothendieck, but in general it may not be.  (Note, though, that it is not clear whether it can be proven in ZFC that there exist any inaccessible lex functors between Grothendieck toposes, although from a proper class of [[measurable cardinal]]s one can construct an inaccessible lex endofunctor of $Set$.)
 
-* The category of coalgebras for any lex [[comonad]] on a topos is again a topos, and if the comonad is accessible, this construction preserves Grothendieck-ness.  The Artin gluing $Gl(F)$ is equivalent to the category of coalgebras for the comonad on the topos $C\times D$ defined by $(c,d) \mapsto (c, d\times F(c))$.
+* The [[Eilenberg-Moore category|category of coalgebras]] for any [[exact functor|lex]] [[comonad]] on a topos is again a topos: a [[topos of algebras over a monad|topos of coalgebras]], and if the comonad is [[accessible functor|accessible]], this construction preserves Grothendieck-ness.  
+
+  For instance the [[Artin gluing]] $Gl(F)$ is equivalent to the category of coalgebras for the comonad on the topos $C\times D$ defined by $(c,d) \mapsto (c, d\times F(c))$.
 
 * [[Todd Trimble]] has a notion called a "modal operator" on a topos, from which one can construct a new topos of "$G$-structures": see [[toddtrimble:Three topos theorems in one]].  A possibly related idea is Toby Kenney's notion of lex distributive [[diad]], from which one can also construct a topos.
 
@@ -186,6 +188,7 @@ For more on this idea, see [[internal logic]].
 * A topos can also be constructed from any [[tripos]].  This includes realizability toposes as well as toposes of sheaves on locales.
 
 * For $\mathcal{T}$ any topos and $X \in \mathcal{T}$ any category, the [[over category]] $\mathcal{T}/X$ is itself a topos: the [[over-topos]].
+
 
 ### Classes of examples
 
