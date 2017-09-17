@@ -1,0 +1,4 @@
+
+* [Wikipedial entry](http://en.wikipedia.org/wiki/Eva_Silverstein)
+
+category: people
