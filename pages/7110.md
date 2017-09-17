@@ -1,0 +1,30 @@
+
+#### Definition
+
+Let $X$ be a metrizable space with
+
+: 1) a collection $\{U_i\}$ of closed subsets of $X$
+
+: 2) for each $U_i$ a finite collection $\{D_{ij}\}$ of closed subsets of $U_i$
+
+: 3). for each $i$ a map $\p_i:U_i\to D_i^n$ to a closed n-disk of class $C^k\in\mathbb{R}^n$
+
+such that
+
+: a) $\cup_i D_{ij}=U_i$ and $\cup_i U^\circ_i =X$
+
+: b) $p_i |_{D_{ij}}$ is a homeomorphisms onto its image which is a closed $C^k$ n-disk relative to $\partial D_i^n$.
+
+: c) There is a ''cocycle''of diffeomorphisms $\{\alpha_{i^' i}\}$ of class $C^k$ such that $p_{i^'}=\alpha_{i^',i}\circ p_i$ when defined. The domain of $\alpha_{i^' i}$ is $p_i(U_i\cap U_{i^'})$.
+
+Then $X$ is called **branched n-manifold of class $C^k$**.
+
+If $X$ satisfies this set of axioms with b) replaced by 
+
+$b_{ns})$ $p_i |_{D_{ij}}$ is a homeomorphisms onto $D_i^n$
+
+$X$ is called **nonsingular branched n-manifold of class** $C^k$.
+
+#### References
+
+Robert F. Williams (1974): [expanding attractors](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1974__43_/PMIHES_1974__43__169_0/PMIHES_1974__43__169_0.pdf)
