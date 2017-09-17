@@ -19,7 +19,7 @@ The traditional notion of _recursion_ over the [[natural numbers]] $\mathbb{N}$ 
 
 More generally, recursion is a way of defining a function on any mathematical object which is "defined inductively" (in a way analogous to how the natural numbers are characterized by [[zero]] and [[successor]]).  In place of the "initial value" and "successor step", a general definition by recursion consists of giving one "clause" for each "constructor" of the inductively defined object.
 
-Recursion is formalized in [[type theory]] by the notion of _[[inductive type]]_ (and the corresponding [[elimination rule]])  and, equivalently, in [[category theory]] by the notion of _[[initial algebra of an endofunctor]]_.  For $F$ an [[endofunctor]], a [[morphism]] of the form $F(X) \to X$ determines a collection of _constructors_ and the _induction principle_ is the statement that there is a (unique) morphism $f : A \to X$ from the [[initial object|initial]] such structure $F(A) \to A$.  This $f$ is the corresponding _recursively defined function_.
+Recursion is formalized in [[type theory]] by the notion of _[[inductive type]]_ (and the corresponding [[elimination rule]])  and, equivalently, in [[category theory]] by the notion of _[[initial algebra of an endofunctor]]_.  For $F$ an [[endofunctor]], a [[morphism]] of the form $F(X) \to X$ determines a collection of _constructors_ and the _recursion principle_ is the statement that there is a (unique) morphism $f : A \to X$ from the [[initial object|initial]] such structure $F(A) \to A$.  This $f$ is the corresponding _recursively defined function_.
 
 Viewed from just a slightly different angle, this state of affairs is the _[[induction principle]]_.
 
@@ -90,3 +90,5 @@ Dually, there is a notion of [[corecursion]] on a [[coinduction|coinductive stru
 [[!redirects recursive definitions]]
 [[!redirects inductive definition]]
 [[!redirects inductive definitions]]
+
+[[!redirects recursion principle]]
