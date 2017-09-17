@@ -1,21 +1,36 @@
-+--{.query}
-Note:
+##Scratch Paper
 
+Here is a degenerate loop:
 $$\array{
 X & \stackrel{e}{\to} & X \\
 {} & \mathllap{\scriptsize{e}}{\nwarrow} & \darr\scriptsize{e} \\
 {} & {} & X
 }$$
 
-vs
+To say this loop commutes, is to say $e^3 = 1_X$. Or is it?
+
+Since this loop is degenerate, we may or may not have (depending on convention?), parallel identity arrows running between each vertex.
+
+If there are hidden identity morphisms, then to say the triangle commutes is to say $e = 1_X$.
+
+
+Here is a degenerate triangle:
 
 $$\array{
-1_X\lefttorightarrow X & \stackrel{e}{\to} & X \\
-{} & \mathllap{\scriptsize{e}}{\nwarrow} & \darr\scriptsize{e} \\
+X & \stackrel{e}{\to} & X \\
+{} & \mathllap{\scriptsize{e}}{\searrow} & \darr\scriptsize{e} \\
 {} & {} & X
 }$$
 
-=--
+To say this triangle commutes is to say $e^2 = e$. Or is it?
+
+Since this triangle is degenerate, we may or may not have (depending on convention?), parallel identity arrows running between each vertex.
+
+If there are hidden identity morphisms, then to say the triangle commutes is to say $e = 1_X$.
+
+
+
+##Main Article
 
 A stub for now.
 
