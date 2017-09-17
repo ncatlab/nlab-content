@@ -354,9 +354,13 @@ $$ E \overset{j}{\to} D \overset{\varphi}{\to} D \overset{k}{\to} E \overset{j}{
 
 These creatures construct spectral sequences by a two-step process:
 
-*  first, the composite $d=kj:E\to E$ is nilpotent: $d^2=0$
-*  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general nonsense
-$$ E' \overset{j'}{\to} D' \overset{\varphi}{\to} D' \overset{k'}{\to} E' \overset{j'}{\to}. $$
+*  first, the composite $ d \coloneqq k j \colon E\to E$ is nilpotent, in that $d^2=0$
+*  second, the homology $E'$ of $(E,d)$ supports a map $j':E'\to \varphi D$, and receives a map $k':\varphi D\to E'$.  Setting $D'=\varphi D$, by general reasoning
+
+$$ 
+  E' \overset{j'}{\to} D' \overset{\varphi}{\to} D' \overset{k'}{\to} E' \overset{j'}{\to}
+  \,. 
+  $$
 is again an exact couple.
 
 The sequence of complexes $(E,d),(E',d'),\dots$ is a spectral sequence, by construction.
