@@ -21,7 +21,7 @@
 {:toc}
 
 
-## Rereferences
+## References
 
 ### In $d = 3$
 
