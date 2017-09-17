@@ -1,4 +1,25 @@
-A (nonempty) [[full subcategory]] $T$ of an [[abelian category]] $_{A}Mod$ of (say left) modules over a ring $A$ is a __Serre subcategory__ if for any [[exact sequence]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Notions of subcategory
++-- {: .hide}
+[[!include notions of subcategory]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A (nonempty) [[full subcategory]] $T$ of an [[abelian category]] $_{A}Mod$ of (say left) modules over a [[ring]] $A$ is a __Serre subcategory__ if for any [[exact sequence]]
 $$
 0\to M\to M'\to M''\to 0
 $$
