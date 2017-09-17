@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _differentiation_ of a [[function]] $f : X \to Y$ is the process that assigns to each point $x \in X$ _differences_ $f(y) - f(x)$ between the value $f(x)$ of the function at that point, and its value at all [[infinitesimal space|infinitesimally]] nearby points $y$. This collection of information is called the _[[derivative]]_ $d f$ of the function. 
+The _differentiation_ of a [[function]] $f : X \to Y$ is the process that assigns to each point $x \in X$ _[[differences]]_ $f(y) - f(x)$ between the value $f(x)$ of the function at that point, and its value at all [[infinitesimal space|infinitesimally]] nearby points $y$. This collection of information is called the _[[derivative]]_ $d f$ of the function. 
 
 
 
