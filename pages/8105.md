@@ -17,6 +17,7 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 ## Related concepts
 
 * [[topological modular forms]]
+* [[automorphic form]]
 
 ## References
 
@@ -32,11 +33,6 @@ Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] r
 
 * [[Doug Ravenel]], _Seminar on topological automorphic forms_ (2009-11) ([web](http://www.math.rochester.edu/u/faculty/doug/taf.html))
 
-* _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
-
-[[!redirects automorphic forms]]
-[[!redirects automorphic form]]
 [[!redirects topological automorphic forms]]
-
 [[!redirects taf]]
 [[!redirects TAF]]
