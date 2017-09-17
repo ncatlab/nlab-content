@@ -1,0 +1,9 @@
+[[!redirects first class constraints]]
+
+
+## Related concepts
+
+* [[constrained mechanics]]
+
+* [[moment map]], [[symplectic reduction]]
+
