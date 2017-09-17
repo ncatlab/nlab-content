@@ -403,6 +403,10 @@ Chern-Simons actions for [[Lie algebra]]s $\mathfrak{g}$ but with higher-degree 
 
 * [[7d Chern-Simons theory]]
 
+### 11d Chern-Simons theory
+
+* [[11d Chern-Simons theory]]
+
 ### Infinite-dimensional Chern-Simons theory
 
 * [[infinite-dimensional Chern-Simons theory]]
