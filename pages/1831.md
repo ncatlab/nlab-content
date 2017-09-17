@@ -7,41 +7,50 @@
 
 Cartesian fibrations are one of the types of [[fibrations of quasi-categories]].
 
-A _Cartesian fibration_ of [[simplicial set]]s is a morphism between [[simplicial sets]] that generalizes the notion of [[Grothendieck fibration]] from [[category|categories]] to [[quasi-category|quasi-categories]].
+A _Cartesian fibration_ of quasi-categories -- or more generally of [[simplicial set]]s -- is a morphism that generalizes the notion of [[Grothendieck fibration]] from [[category theory]] to [[(∞,1)-category theory]], specifically with [[(∞,1)-categories]] incarnated as [[quasi-categories]]:
 
-This means that precisely if an [[∞-functor]] $p : C \to D$ if a Cartesian fibration is it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[∞-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
+it is an [[inner fibration]] that lifts also all right _outer_ [[horn]] inclusions whose last edge is a [[cartesian morphism]], and such that there is a sufficient supply of cartesian morphisms.
 
-So a Cartesian fibration $p : C \to D$ determines and is determined by an [[∞-functor]] $S_p : D \to (\infty,1)Cat^{op}$ from $D$ into the [[opposite category]] of the  [[(∞,1)-category of (∞,1)-categories]].
+If an [[(∞,1)-functor]] $p : C \to D$ if a Cartesian fibration then it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[(∞,1)-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
 
-This correspondence is mediated by the [[universal fibration of (∞,1)-categories]] which is a Cartesian fibration $p_{univ}: Z \to (\infty,1)Cat$ such that for every Cartesian fibration $p : C \to D$ there is a functor $S_p : D \to (\infty,1)Cat^{op}$ such that $p$ is the ($(\infty,1)$-categorical) [[pullback]] of $p_{univ}$
-
-$$
-  \array{
-    C &\to& Z
-    \\
-    \downarrow^p && \downarrow^{p_{univ}}
-    \\
-    D &\stackrel{S_p}{\to}& (\infty,1)Cat^{op}
-  }
-  \,.
-$$
-
-As described at [[generalized universal bundle]], this pullback construction is the $(\infty,1)$-categorical analog of the [[Grothendieck construction]] for ordinary categories.
+This way a Cartesian fibration $p : C \to D$ determines and is determined by an [[(∞,1)-functor]] $D^{op} \to (\infty,1)Cat$ into the
+[[(∞,1)-category of (∞,1)-categories]]. This is the content of the [[(∞,1)-Grothendieck construction]].
 
 ## Definition 
 
-A Cartesian fibration is an [[inner fibration]] of simplicial sets $p : X \to S$ such that for every edge $f : X \to Y$ of $S$ and every lift $\tilde{y}$ of $y$ (that is, $p(\tilde{y})=y$), there is a [[cartesian morphism|Cartesian edge]] $\tilde{f} : \tilde{x} \to \tilde{y}$ in $X$ lifting $f$.
++-- {: .un_defn}
+###### Definition
+
+A morphism $p : X \to Y$ in [[sSet]] is a 
+**Cartesian fibration** if
+
+* it is an [[inner fibration]] 
+
+* for every edge $f : x \to y$ of $Y$ and for every lift $\hat {y}$ of 
+  $y$ (that is: $p(\hat{y})=y$)
+  there is a [[cartesian morphism|Cartesian edge]] 
+  $\hat{f} : \hat{x} \to \hat{y}$ in $X$ lifting $f$ 
+  (that is: such that $p(\hat f) = f$)
+
+The morphism is a Cartesian **opfibration** if the [[opposite quasi-category|opposite]] $p^{op} : X^{op} \to Y^{op}$ is a Cartesian fibation.
+
+=--
+
+This is [[Higher Topos Theory|HTT, def. 2.4.2.1]].
+
+
 
 ## Properties {#Properties}
 
 
 +-- {: .un_prop}
 ###### Proposition
-Basic properties:
+
+We have:
 
 * Every [[isomorphism]] of [[simplicial sets]] is a Cartesian fibration.
 
-* Cartesian fibrations are [[pullback stability|stable under base change]] in [[SSet]].
+* Cartesian fibrations are [[pullback stability|stable under pullback]] in [[SSet]].
 
 * The composite of two Cartesian fibrations is again a Cartesian fibration.
 
@@ -50,15 +59,39 @@ Basic properties:
 +-- {: .proof}
 ###### Proof
 
-This is proposition 2.4.2.3 in [[Higher Topos Theory|HTT]].
+This is [[Higher Topos Theory|HTT, prop. 2.4.2.3 ]].
 
 =--
 
 
 +-- {: .un_prop}
+###### Proposition 
+
+
+The following are equivalent:
+
+* $p : X \to Y$ is a Cartesian fibration and every edge in $X$ is 
+  $p$-Cartesian
+
+* $p$ is a [[right fibration]];
+
+* $p$ is a Cartesian fibration and every fiber is a [[Kan complex]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is  [[Higher Topos Theory|HTT, prop. 2.4.2.4]].
+
+=--
+
+
+
++-- {: .un_prop}
 ###### Proposition (over $\infty$-groupoids)
 
-Let $p : X \to S$ be a morphism of [[simplicial set]]s where $S$ is a [[Kan complex]]. Then the following are equivalent:
+Let $p : X \to Y$ be a morphism of [[simplicial set]]s where $Y$ is a [[Kan complex]]. Then the following are equivalent:
 
 1. $p$ is a Cartesian fibration
 
@@ -71,16 +104,47 @@ Let $p : X \to S$ be a morphism of [[simplicial set]]s where $S$ is a [[Kan comp
 +-- {: .proof}
 ###### Proof
 
-This is proposition 3.3.1.8 in [[Higher Topos Theory|HTT]].
+This is  [[Higher Topos Theory|HTT, prop. 3.3.1.8]].
 
 =--
 
 
+We can test locally if a morphism is a Cartesian fibration:
+
++-- {: .un_prop}
+###### Proposition
+
+An [[inner fibration]] $p : X \to Y$ is Cartesian precisely if for every $n$-[[simplex]] $\sigma : \Delta[n] \to Y$ the [[sSet]]-[[pullback]] $\sigma^* p : X \times_Y \Delta[n]$ in
+
+$$
+  \array{
+    X \times_Y \Delta[n] &\to& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \Delta[n] &\stackrel{\sigma}{\to}& Y
+  }
+$$
+
+is a Cartesian fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is  [[Higher Topos Theory|HTT, cor. 2.4.2.10]].
+
+=--
+
+
+
 ## References 
 
-Definition 2.4.2.1 in
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+Section 2.4.2 in 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects cartesian fibration]]
