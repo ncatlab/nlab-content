@@ -26,7 +26,7 @@ However, in the absence of the [[axiom of choice]], it is more appropriate to de
 
 ## Existence of skeletons
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ###### Theorem
 
 If the [[axiom of choice]] holds, then every category $C$ has a skeleton (in the strongest sense).
@@ -48,7 +48,16 @@ The rule for *morphisms* $-': f\mapsto f' := i_y\circ f\circ i_{x}^{-1}$ is clea
 
 In fact, the statement that every (possibly [[small category|small]]) category has a skeleton is _equivalent_ to the axiom of choice if "subcategory" and "equivalence" have their naive ('strong') meanings.  For given a [[surjection]] $p:A\to B$ in $Set$, make $A$ into a category with a unique isomorphism $a\cong a'$ iff $p(a)=p(a')$; then a skeleton of $A$ supplies a splitting of $p$.
 
-Even with the more general notion of equivalence, some amount of choice is required to show that every category has a skeleton (although, for instance, any [[preorder]] has a skeleton in this sense without any need for choice).  It would be interesting to know the precise strength of the statement "every category is weakly equivalent to a skeletal one."
+Even with the more general notion of weak or ana-[[equivalence of categories]], some amount of choice is required to show that every category has a skeleton.  It would be interesting to know the precise strength of the statement "every category is weakly equivalent to a skeletal one."  One thing we can say without any choice is:
+
++-- {: .un_theorem}
+###### Theorem
+Any [[thin category]] (i.e. any [[preordered set]]) has a skeleton (in the sense of weak equivalence).
+=--
++-- {: .proof}
+###### Proof
+In this case, we can take the objects of the skeleton of $C$ to be the isomorphism classes of $C$.  If $C$ is thin, then we can define a partial ordering on its set of isomorphism classes, making them into a skeleton of $C$.
+=--
 
 Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton. A necessary condition for an internal category $X_1 \rightrightarrows X_0$ to have a skeleton is the existence quotient $X_0/X_1$ - the object of orbits under the action of the core of $X$. If the quotient map $X_0 \to X_0/X_1$ has a section, then one could consider $X$ to have a skeleton, but this condition isn't sufficient for the induced inclusion functor to be a weak equivalence of internal categories when this makes sense (i.e. if the category is internal to a site).
 
