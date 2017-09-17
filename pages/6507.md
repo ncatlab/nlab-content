@@ -67,7 +67,10 @@ An object in there is some [[group]]: a concrete particular.
 
 [[!redirects concrete general]]
 [[!redirects general concrete]]
+
 [[!redirects concrete general]]
+[[!redirects concrete generals]]
+
 
 [[!redirects concrete particular]]
 [[!redirects concrete particulars]]
