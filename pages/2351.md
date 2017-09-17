@@ -350,3 +350,5 @@ be an isomorphism for each $b$.
 
 
 [[!redirects cartesian bicategories]]
+[[!redirects Cartesian bicategory]]
+[[!redirects Cartesian bicategories]]
