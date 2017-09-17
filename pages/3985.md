@@ -316,6 +316,7 @@ By the above we know now that the vertical morphisms here are also $S$-local. It
 =--
 
 ### Accessible reflective subcategories
+ {#AccessibleReflectiveSubcategory}
 
 The following proposition characterizes when a reflective subcategory of an [[accessible (∞,1)-category]] $C$ is accessible
 
@@ -341,7 +342,7 @@ a reflective subcategory.  Then the following conditions are equivalent:
 =--
 
 
-This is [[Higher Topos Theory|HTT, prop. 5.5.4.2, part 3]]
+This is ([Lurie, prop. 5.5.1.2 and prop. 5.5.4.2, part 3](#Lurie)).
 
 +-- {: .proof}
 ###### Proof
@@ -951,6 +952,7 @@ This is discussed at [[rational homotopy theory in an (∞,1)-topos]].
 The general theory is discussed in section 5.2.7 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 A [[Coq]]-formalization of left-exact reflective sub-$(\infty,1)$-categories in [[homotopy type theory]] is in 
 
