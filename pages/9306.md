@@ -1,0 +1,112 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Small objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[deformation context]] $(\mathcal{Y}, \{E_\alpha\}_\alpha)$, the [[(∞,1)-category]] of **formal moduli problems** over it is the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-presheaves]] over $\mathcal{Y}^{inf}$
+
+$$
+  Moduli^\mathcal{Y}
+  \hookrightarrow
+  [\mathcal{Y}^{inf}, \infty Grpd]
+$$
+
+on those [[(∞,1)-functors]] $X \colon \mathcal{Y}^{inf} \to \infty Grpd$ such that
+
+1. over the [[terminal object]] they are [[contractible]]: $X(*) \simeq *$;
+
+1. they preserves [[(∞,1)-pullbacks]].
+
+=--
+
+([Lurie, def. 1.1.14](#Lurie))
+
++-- {: .num_remark }
+###### Remark
+
+This means that a "formal deformation problem" is a [[space]] in [[higher geometry]] whose geometric structure is detected by the "test spaces" in $\mathcal{Y}^{op}$ in a way that respects gluing ([[descent]]) in $\mathcal{Y}^{op}$ as given by [[(∞,1)-pullbacks]] there. The first condition requires that there is an essentially unique such probe by the point, hence that these higher geometric space has essentially a single global point. This is the condition that reflects the infinitesimal nature of the deformation problem.
+
+=--
+
+## Properties
+
+### Relation to $L_\infty$-algebras
+
+For $k$ a [[field]] of [[characteristic]] 0, write
+write $CAlg_k^{sm} \hookrightarrow CAlg_k$ for the [[(∞,1)-category]] of [[Artin ring|Artinian]] [[E-∞ algebras]] over $k$, or equivalently that of commutative [[dg-algebras]] over $k$.
+
+
++-- {: .num_defn }
+###### Definition
+
+There is an [[equivalence of (∞,1)-categories]]
+
+$$
+  L_\infty Alg_k \stackrel{\simeq}{\to} Moduli^{CAlg^{sm}_k}
+$$
+
+with that of [[L-∞ algebras]].
+
+=--
+
+In this form this is ([Lurie, theore 0.0.13](#Lurie)).
+See at _[[model structure for L-∞ algebras]]_ for various other incarnations of this equivalence.
+
+
+### Relation to Lie differentiation
+
++-- {: .num_prop }
+###### Proposition
+
+Given a [[deformation context]] $\mathcal{Y}$, the restricted [[(∞,1)-Yoneda embedding]] gives an [[(∞,1)-functor]]
+
+$$
+  Lie \colon \mathcal{Y} \to Moduli^{\mathcal{Y}}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For $Y \in \mathcal{Y}^{op}$, the object $Lie(Y)$ represents the _[[formal geometry|formal neighbourhood]]_ of the basepoint of $Y$ as seen by the infinitesimally thickened points dual to the $\{E_\alpha\}$.
+
+Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in $\mathcal{Y}^{op}$ around their given base point.
+
+=--
+
+## Related concepts
+
+* [[synthetic differential geometry]]
+
+* [[synthetic differential ∞-groupoid]]
+
+## References
+
+* [[Jacob Lurie]], _[[Formal moduli problems]]_
+ {#Lurie}
+
+
+[[!redirects formal moduli problems]]
