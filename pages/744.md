@@ -66,6 +66,12 @@ On the other hand, the aim is to keep iTeX as close as possible to standard LaTe
 
 Instiki's search uses regular expressions.  That means you can do all sorts of fancy searches, but it also means that pages with special characters in their names are hard to search for.  For instance, if you search for `(n,r)-category` you will come up with nothing, because Instiki interprets the parentheses as a regular expression grouping construct.  To search for actual parentheses, you need to backslash them: search instead for `\(n,r\)-category`.
 
+### Why is there no "Preview" button?
+
+Instiki's philosophy is that the "Preview" button is the one labeled "Save".  If you don't like the result, just click "Edit" again.  Multiple edits by the same person within a 30 minute interval are collapsed into a single "edit" in the revision history.
+
+One merit of this approach is that in the case when your preview was correct and doesn't require re-editing, it saves you an extra click.  Another is that it prevents you from ever *forgetting* to make the extra click.
+
 
 ### itex is a pain, why do you guys use MathML? {#WhyMathML}
 
