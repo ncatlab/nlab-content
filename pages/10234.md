@@ -14,6 +14,19 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[bound state]] of three [[quarks]], hence a [[baryon]].
+
+## Related entries
+
+[[!include fields and quanta - table]]
+
+
 ## References
 
 * Wikipedia, _[Proton](http://en.wikipedia.org/wiki/Proton)_
