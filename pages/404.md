@@ -41,4 +41,10 @@ are the same as [[natural transformations]] between functors between $X$ and $Y$
 
 * [[path space object]]
 
+* [[slice category]], [[undercategory]]
+
+* [[arrow (∞,1)-category]]
+
+* [[arrow (∞,1)-topos]]
+
 [[!redirects arrow categories]]
