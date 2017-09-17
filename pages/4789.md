@@ -422,10 +422,17 @@ $$
 +-- {: .remark}
 ###### Remark
 
+In local coordinates where $\omega = \omega_{a b} \mathbf{d}x^a \wedge \mathbf{d}x^b$ we have 
+
+$$
+  cs = \frac{1}{2} \omega_{a b} x^a \wedge \mathbf{d}x^b + \mu
+  \,.
+$$
+
 The Chern-Simons action functional corresponding to this Chern-Simons element
 on $\mathfrak{a}$ is that considered in [[AKSZ theory]]. 
 
-Below we spell out some low-dimensional cases explicitly
+Below we spell out some low-dimensional cases explicitly.
 
 =--
 
@@ -550,7 +557,7 @@ $$
 
 The general definition of Chern-Simons element on $\infty$-Lie algebras and $\infty$-Lie algebroids is <a href="http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.3480v2.pdf#page=21">definition 21</a> in
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-conections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-connections_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">web</a>)
 {#SSSI}
 
 
