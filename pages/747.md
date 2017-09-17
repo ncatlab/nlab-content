@@ -683,11 +683,13 @@ A subfunctor inclusion $\tilde S \hookrightarrow j(U)$ corresponding to a sieve 
 +-- {: .proof}
 ###### Proof
 
-Let $j(V_j) \to j(U)$ be a morphism not in $S(\{U_i\})$. By assumption we can find a covering family
+Write $J$ for the set of morphisms in $\tilde S$ but not in $S$.
+
+Let $j(V_j) \to j(U)$ be a morphism not in $S(\{U_i\})$. By assumption we can find a covering family $\{V_{j,k} \to V_j\}$ such that for all $j,i$ we have commuting diagrams 
 
 $$
   \array{
-    V_{j,k} &\to& U_{i(k)}
+    V_{j,k} &\to& U_{i}
     \\
     \downarrow && \downarrow
     \\
@@ -700,22 +702,19 @@ Consider the commuting diagram
 
 $$
   \array{
-    S(\{V_{j,k}\}) &\hookrightarrow& S(\{U_i\} \cup \{V_{j,k}\})
+    \coprod_j S(\{V_{j,k}\}) &\hookrightarrow& S(\{U_i\} \cup \{V_{j,k}\})
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow
     \\
-    j(V_j) &\to& S(\{U_i\} \cup \{V_j\})
+    \coprod_j j(V_j) &\to& S(\{U_i\} \cup \{V_j\})
   }
   \,.
 $$
 
-Observe that this is a [[pushout]] in $sPSh(C)$, that the top morphism is a cofibration in $sPSh(C)_{inj}$ and hence in $sPSh(C)_{inj,cov}$, and that by general properties of [[Bousfield localization of model categories|left Bousfield localization]] the localization $sPSh(C)_{inj,cov}$ is [[proper model category|left proper]]. Therefore the morphism $S(\{U_i\} \cup \{V_{j,k}\}) \to S(\{U_i\} \cup \{V\})$ is a weak equivalence.
+Observe that this is a [[pushout]] in $sPSh(C)$, that the top morphism is a cofibration in $sPSh(C)_{inj}$ and hence in $sPSh(C)_{inj,cov}$, 
+that the left morphism is a local weak equivalence, that by general properties of [[Bousfield localization of model categories|left Bousfield localization]] the localization $sPSh(C)_{inj,cov}$ is [[proper model category|left proper]]. Therefore the morphism $S(\{U_i\} \cup \{V_{j,k}\}) \to S(\{U_i\} \cup \{V\}) = \tilde S$ is a weak equivalence.
 
-Using the [[well-ordering theorem]] to put a [[well-order]] on the set $\{V_j \to U\}$ of morphisms that are in $\tilde S$ but not in $S$, we may form a transfinite sequence of such pushouts, each one refining one of the $V_j$ by a cover and factoring the morphism $S(\{U_i\}, \{V_{j,k}\}) \to \tilde S$. 
-
-Homming this into a fibrant object in $sPSh(C)_{inj,cov}$ therefore produces a [[transfinite composition|transfinite composite]] of weak equivalences in $sSet_{Quillen}$ between Kan complexes, which is itself a weak equivalence. Therefore $S(\{U_i\}, \{V_{j,k}\}) \to \tilde S$ is a weak equivalence in $sPSh(C)_{inj,cov}$.
-
-Now observe that from the horizontal morphisms of the above commuting diagrams that defined the covers $\{V_{j,k} \to V_j\}$ we have an induced morphism $S(\{U_i\} \cup \{V_{j,k}\}) \to S(\{U_i\})$, and this exhibits $S(\{U_i\})$ as a [[retract]]
+Next observe that from the horizontal morphisms of the above commuting diagrams that defined the covers $\{V_{j,k} \to V_j\}$ we have an induced morphism $S(\{U_i\} \cup \{V_{j,k}\}) \to S(\{U_i\})$, and this exhibits $S(\{U_i\})$ as a [[retract]]
 
 $$
   \array{
@@ -754,7 +753,7 @@ is also a weak equivalence.
 +-- {: .un_lemma}
 ###### Lemma
 
-If $S(\{U_i\}) \to j(U)$ is the sieve of a covering family and $\tilde S \hookrightarrow j(U)$ is any sieve such that for every $f_i : U_i \to U$ the pullback $f^* \tilde S$ is a weak equivalence, then $\tilde S \to j(U)$ becomes an isomorphism in the homotopy category.
+If $S(\{U_i\}) \to j(U)$ is the sieve of a covering family and $\tilde S \hookrightarrow j(U)$ is any sieve such that for every $f_i : U_i \to U$ the pullback $f_i^* \tilde S$ is a weak equivalence, then $\tilde S \to j(U)$ becomes an [[isomorphism]] in the [[homotopy category]].
 
 =--
 
@@ -763,7 +762,7 @@ If $S(\{U_i\}) \to j(U)$ is the sieve of a covering family and $\tilde S \hookri
 ###### Proof
 
 
-First notice that if $f_i^* \tilde S$ is a weak equivalence, then the pullback of $\tilde S$ to any element of the sieve $S(\{U_i\})$ is a weak equivalence. 
+First notice that if $f_i^* \tilde S$ is a weak equivalence for all $i$, then the pullback of $\tilde S$ to any element of the sieve $S(\{U_i\})$ is a weak equivalence. 
 Use the [[co-Yoneda lemma]] to write 
 
 $$
@@ -778,14 +777,14 @@ Since that has [[universal colimits]] we have the pullback square
 $$
   \array{
     i^* \lim_\to j(V)
-    &\simeq& \lim_{\to} f_j^* \tilde S
+    &\simeq& \lim_{\to} f_V^* \tilde S
     &\to& \tilde S
     \\
     && \downarrow && \downarrow^{\mathrlap{i}}
     \\
     S(\{U_i\}) &=& 
-    \lim_{\underset{f_j : V_j \to U_i \to U}{\to}} j(V)
-    &\stackrel{(f_j)}{\to}&
+    \lim_{\underset{f_V : V \to U_i \to U}{\to}} j(V)
+    &\stackrel{(f_V)}{\to}&
     j(U)
   }
 $$
@@ -795,7 +794,6 @@ and the left vertical morphism is a colimit over morphisms that are weak equival
 
 =--
 
-> this deserves a bit more discussion...
 
 +-- {: .un_lemma}
 ###### Conclusion
