@@ -21,7 +21,7 @@
 
 ## Idea
 
-It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, \times)$ is a [[set]] $G$ equipped with a binary operation $\times : G \times G \to G$, etc.
+It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, \times)$ is a [[set]] $G$ equipped with a binary operation $\cdot : G \times G \to G$, etc.
 
 One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[faithful functor]] $D \to C$.
 
