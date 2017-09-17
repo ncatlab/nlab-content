@@ -1446,6 +1446,17 @@ for the class of circle 3-bundles that arise as differential refinements of degr
 
 * [[Chern-Simons circle 7-bundle]].
 
+## References
+
+A general picture of [[bundle n-gerbe]]s (with connection) as something very similar to th circle $n$-bundle with connection discussed here is in
+
+* Pawel Gajer, _Geometry of Deligne cohomology_ Invent. Math., 127(1):155--207 (1997) ([arXiv](http://arxiv.org/abs/alg-geom/9601025)).
+
+The above discussion is from 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
+
+
 [[!redirects circle n-bundles with connection]]
 [[!redirects circle n-bundles with connections]]
 
