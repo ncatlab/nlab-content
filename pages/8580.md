@@ -378,16 +378,18 @@ is a _[[smooth algebra]]_.
 #### The coverage of differentially good open covers
  {#CoverageOfDifferentiallyGoodOpenCovers}
 
+We discuss a standard structure of a _[[site]]_ on the category [[CartSp]]. Following _[[Sketches of an Elephant|Johnstone -- Sketches of an Elephant]]_, it will be useful and convenient to regard a site as a ([[small site|small]]) category equipped with a _[[coverage]]_. This generates a genuine [[Grothendieck topology]], but need not itself already be one.
+
 +-- {: .num_defn}
 ###### Definition
 
-The [[open ball]] is
+For $n \in \mathbb{N}$ the standard [[open ball|open n-ball]] is the the subset
 
 $$
-  D^n \hookrightarrow \mathbb{R}^n
+  D^n = \{ (x_i)_{i =1}^n \in \mathbb{R}^n | \sum_{i = 1}^n (x_i)^2 \lt 1 \}  \hookrightarrow \mathbb{R}^n
+  \,.
 $$
 
-(...)
 
 =--
 
@@ -418,8 +420,8 @@ that identifies the $k$-fold intersection with a Cartesian space itself.
 
 =--
 
-+-- {: .num_theorem}
-###### Theorem
++-- {: .num_prop #DiffGoodOpenCoversRefineOpenCovers}
+###### Proposition
 
 Every [[open cover]] refines to a differentially good open cover, def. \ref{DifferentiallyGoodOpenCover}. 
 
@@ -434,12 +436,134 @@ Despite its appearance, this is not quite a classical statement. The classical s
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_remark}
+###### Remark
+
+The _good_ open covers do not yet form a [[Grothendieck topology]] on [[CartSp]]. One of the axioms of a Grothendieck topology is that for every [[covering]] family also its [[pullback]] along any moprhism in the category is a covering family. But while the pullback of every [[open cover]] is again an open cover, and hence open covers form a Grothendieck topology on [[CartSp]], not every pullback of a _[[good open cover|good]]_ open cover is again _good_.
+
+=--
+
++-- {: .num_example #ExampleThatGoodOpenCoversAreNotPullbackStable}
+###### Example
+
+Let $\{\mathbb{R}^2\stackrel{\phi_{i}}{\hookrightarrow}\mathbb{R}^2\}_{i \in \{1,2\}}$ be the [[open cover]] of the [[plane]] by an open left half space
+
+$$
+   \mathbb{R}^2 \simeq \{ (x_1,x_2) \in \mathbb{R}^2 | x_1 \lt 1 \} \stackrel{\phi_1}{\hookrightarrow} \mathbb{R}^2
+$$
+
+and a right open half space
+
+$$
+   \mathbb{R}^2 \simeq \{ (x_1,x_2) \in \mathbb{R}^2 | x_1 \gt -1 \} \stackrel{\phi_2}{\hookrightarrow} \mathbb{R}^2
+  \,.
+$$
+
+The intersection of the two is the open strip
+
+$$
+  \mathbb{R}^2 \simeq \{ (x_1, x_2) \in \mathbb{R}^2 | -1 \lt x_1 \lt 1 \}
+  \hookrightarrow 
+  \mathbb{R}^2
+  \,.
+$$
+
+So this is a [[good open cover]] of $\mathbb{R}^2$. 
+
+But consider then the smooth function 
+
+$$
+  2(cos(2 \pi (-)), sin(2 \pi (-))) \colon \mathbb{R}^1 \to \mathbb{R}^2 
+$$
+
+which sends the line to a curve in the plane that periodically goes around the [[circle]] of radius 2 in the plane. 
+
+Then the pullback of the above good open cover on $\mathbb{R}^2$ to $\mathbb{R}^1$ along this function is an [[open cover]] of $\mathbb{R}$ by two open subsets, each being a disjoint union of countably many open [[intervals]] in $\mathbb{R}$. 
+Each of these open intervals is an open 1-ball hence diffeomorphic to $\mathbb{R}^1$, but their _[[disjoint union]]_ is not [[contractible topological space|contractible]] (it does not contract to the point, but to many points!). 
+
+So the pullback of the good open cover that we started with is an open cover which is not _good_ anymore. But it has an evident _refinement_ by a good open cover. 
+
+=--
+
+This is a special case of what the following statement says in generality.
+
++-- {: .num_prop #TheDifferentiallyGoodOpenCoverCoverage}
 ###### Proposition
 
 The differentially good open covers, def. \ref{DifferentiallyGoodOpenCover}, constitute a [[coverage]] on [[CartSp]]. 
 
 Hence [[CartSp]] equipped with that coverage is a [[site]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of [[coverage]] we need to check that for $\{U_i \hookrightarrow \mathbb{R}^n\}_{i \in I}$ any [[good open cover]] and $f \colon \mathbb{R}^k \to \mathbb{R}^n$ any smooth function, we can find a good open cover $\{K_j \to \mathbb{R}^k\}_{j \in J}$ and a [[function]] $J \to I$ such that for each $j \in J$ there is a smooth function $\phi \colon : K_j \to U_{\rho(j)}$ that makes this [[diagram]] 
+[[commuting diagram|commute]]:
+
+$$
+  \array{
+    K_j &\stackrel{\phi}{\to}& U_{i(j)}
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbb{R}^k &\stackrel{f}{\to}& \mathbb{R}^n
+  }
+  \,.
+$$
+
+To obtain this, let $\{f^* U_i \to \mathbb{R}^k\}$ be the pullback of the original covering family, in that 
+
+$$
+  f^* U_i \coloneqq \{ x \in \mathbb{R}^k | f(x) \in U_i \}
+  \hookrightarrow \mathbb{R}^k
+  \,.
+$$
+
+This is evidently an [[open cover]], albeit not necessarily a _[[good open cover]]_. But by prop. \ref{DiffGoodOpenCoversRefineOpenCovers} there does exist a good open cover $\{\tilde K_{\tilde j} \hookrightarrow \mathbb{R}^k\}_{\tilde j \in \tilde J}$ _refining_ it, which in turn means that for all $\tilde j$ there is  
+
+$$
+  \array{
+    \tilde K_{\tilde j} &\to& K_{j(\tilde j)}
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbb{R}^k &\stackrel{=}{\to}& \mathbb{R}^k
+  }
+  \,.
+$$
+
+Therefore then the [[pasting]] composite of these commuting squares 
+
+$$
+  \array{
+    \tilde K_{\tilde j} &\to& K_{j(\tilde j)} &\to& U_{i(j(\tilde j))}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \mathbb{R}^k &\stackrel{=}{\to}& \mathbb{R}^k
+   &\stackrel{f}{\to}& \mathbb{R}^n
+  }
+$$
+
+solves the condition required in the definition of [[coverage]].
+
+=--
+
+By example \ref{ExampleThatGoodOpenCoversAreNotPullbackStable} this [[good open cover]] [[coverage]] is not a [[Grothendieck topology]]. But as any coverage, it uniquely completes to one which has the same [[sheaves]].
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Grothendieck topology]] induced on [[CartSp]] by the differentially good open cover coverage of def. \ref{TheDifferentiallyGoodOpenCoverCoverage} has as covering families the ordinary [[open covers]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means that for every sheaf-theoretic construction to follow we can just as well consider the Grothendieck topology of open covers on $CartSp$. The sheaves of the open cover topology are the same as those of the good open cover coverage. But the latter is (more) useful for severa computational purposes in the following. It is the _good_ open cover covarage that makes manifest, below, that sheaves on $CartSp$ form a [[locally connected topos]] and in consequence then a [[cohesive topos]]. This kind of argument becomes all the more pronounced as we pass [further below](#SmoothnGroupoids) to [[(∞,1)-sheaves]] on [[CartSp]]. This will be discussed in _[Smooth n-groupoids -- Layer Sem -- Local Infinity-Connectedness](#InfinityConnectednessOfSmoothInfinityGrpd) below.
 
 =--
 
@@ -1707,8 +1831,6 @@ $$
   DeCohese \colon X \to \sharp X
 $$
 
-spring
-
 
 
 
@@ -2134,6 +2256,17 @@ $$
 * [[(∞,1)-topos]]
 
 * [[smooth ∞-groupoid]]
+
+#### Local $\infty$-Connectedness of the $\infty$-topos of smooth $\infty$-groupoids
+ {#InfinityConnectednessOfSmoothInfinityGrpd}
+
+(...)
+
+#### Localits of the $\infty$-topos of smooth $\infty$-groupoids
+
+(...)
+
+#### Cohesion of the $\infty$-topos of smooth $\ingfty$-groupoids
 
 ### Layer Syn
 
