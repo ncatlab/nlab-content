@@ -63,3 +63,5 @@ A review is in
 [[!redirects spin-c quantization]]
 
 [[!redirects spin^c quantization]]
+
+[[!redirects spin^c geometric quantization]]
