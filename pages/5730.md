@@ -23,7 +23,7 @@
 
 ## Idea
 
-A **complex manifold** is a [[manifold]] modeled on ([[polydisc|poly]]-)[[discs]] in $\mathbb{C}^n$ (the complex $n$-dimensional [[complex line]]):
+A **complex manifold** is a [[manifold]] modeled on ([[polydisc|poly]]-)[[discs]] in $\mathbb{C}^n$ (the complex $n$-dimensional [[complexified]] [[cartesian space]]):
 
 * a [[smooth manifold]] locally isomorphic to $D^n \hookrightarrow \mathbb{C}^n$ whose transition functions are [[holomorphic functions]];
 
