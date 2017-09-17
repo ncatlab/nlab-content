@@ -13,7 +13,7 @@ $$
   \array{
     X &\to& I
     \\
-    \downarrow^{j \in J} 
+    {}^{\mathllap{j \in J}}\downarrow 
     \\
     Z
   }
@@ -25,7 +25,7 @@ $$
   \array{
     X &\to& I
     \\
-    \downarrow^{j \in J} & \nearrow_{\exists}
+    {}^{\mathllap{j \in J}}\downarrow & \nearrow_{\mathrlap{\exists}}
     \\
     Z
   }
@@ -38,7 +38,7 @@ $$
   \array{
     X &\to& I
     \\
-    \downarrow^{j \in J} & \nearrow_{\exists}
+    {}^{\mathllap{j \in J}}\downarrow & \nearrow_{\mathrlap{\exists}}
     &
     \downarrow
     \\
@@ -75,7 +75,7 @@ $$
   \array{
     0 &\to& X &\stackrel{f}{\to}& Y
     \\
-    && \downarrow^k & \swarrow_{\exists h}
+    && \downarrow^{\mathrlap{k}} & \swarrow_{\mathrlap{\exists h}}
     \\
     &&
     I 
@@ -101,6 +101,6 @@ See [[homotopically injective object]] for a relevant generalization to categori
 
 Much of this discussion can be found in 
 
-* Kashiwara--Schapira, [[Categories and Sheaves]]
+* Kashiwara-Schapira, _[[Categories and Sheaves]]_
 
 The general notion of injective objects is in section 9.5, the case of injective complexes in section 14.1.
