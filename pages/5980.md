@@ -48,3 +48,6 @@ $$
 $$
 
 [[!redirects terms]]
+[[!redirects inhabitant]]
+[[!redirects inhabitants]]
+
