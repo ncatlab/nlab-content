@@ -31,9 +31,12 @@ This is the kind of stuff that I am working on.
 
 ## students, teaching and other activity
 
+I like to put information into context. For that purpose I had started the [nLab wiki project](http://ncatlab.org/nlab/show/HomePage) in November 2008 (see [Wikipedia on "nLab"](http://en.wikipedia.org/wiki/NLab)).
+
 A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, students, teaching and other activity is here:
 
 * _[[schreiber:HomePage|my personal web within the nLab]]_.
+
 
 ## copyright statement
  {#CopyrightStatement}
