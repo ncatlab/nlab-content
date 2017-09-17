@@ -49,10 +49,11 @@ The obtained moduli is too big as there are many isomorphic structures, so one n
 
 ## Idea of formalisms
 
-The first motivation (capture cohomological information of a scheme) lead to replacing variety by a stable $(\infty,1)$-category of objects which generalize quasicoherent sheaves. The traditional variant are the enhanced triangulated categories or $A_\infty$-categories. This is usually
+Cohomological information of a scheme leads to replacing variety by a stable $(\infty,1)$-category of objects which generalize quasicoherent sheaves. The traditional variant are the enhanced triangulated categories or $A_\infty$-categories. This is usually
 called [[derived noncommutative algebraic geometry]].
 
-The second motivation (develop derived moduli spaces) is realized by creating spaces which are derived stacks, which are locally representable by commutative dgas. 
+The derived moduli spaces are realized by as 
+derived stacks locally representable by commutative dgas. 
 
 ## History
 
@@ -63,8 +64,6 @@ On the other hand there is a closely related effort to include sheaves of commut
 This second school has been, after the original ideas of Deligne, Drinfel'd and Kontsevich advanced by [[Carlos Simpson]] (who introduced also basic prerequisited like algebraic and geometric [[infinity-stack|n-stack]]s), and later [[Bertrand Toen]] and coworkers. One of the main motivations for both variants of derived algebraic geometry is to develop a satisfactory deformation theory and on its basis the theory of [[moduli stack]]s in [[algebraic geometry]] beyond the few examples which work in classical language of algebraic spaces and algebraic 1-stacks. 
 
 Sometimes, but not always getting rid of limitations coming from 1-categorical truncations removes non-smoothness, but the expectations in that directions (hidden smoothness principle) failed in generality expected at the beginning. The construction of the derived moduli spaces relies, similarly to the classical moduli theory in algebraic geometry, on the infinitesimal case -- the [[deformation theory]] (cf. [[cotangent complex]]).
-
-
  
 ## relation to higher algebra ##
 
@@ -73,11 +72,7 @@ Where ordinary [[algebraic geometry]] uses [[algebra]] to describe [[geometry]],
 
 #Definitions#
 
-## derived noncommutative geometry: stable $(\infty,1)$-categories ##
-
-> details to be inserted here and harmonized with [[derived noncommutative geometry]]:
-
-> Basic idea is to _identify_ [[triangulated category|triangulated]] [[dg-category|dg-categories]], [[A-infinity category|categories]] and other models for [[stable (∞,1)-category|stable (∞,1)-categories]] with generalized "derived" spaces and to describe morphism between them in terms of [[geometric morphism]]s between these categories. It might be noteworthy that a (accessible) stable $(\infty,1)$-category is much like a (Grothendieck) [[(∞,1)-topos]]. See the definition below.
+For the [[derived noncommutative geometry]] see there. 
 
 ## structured $(\infty,1)$-toposes ##
 
