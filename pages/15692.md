@@ -30,7 +30,7 @@ $$
 
 where the integral would naively be over all of $\mathbb{R}^4$, which is of course not well defined. The integrand here is typically called the _Feynman  propagator_ or _propagator_ for short (e.g. [Kleinert 11, 8.1](#Kleinert11)). 
 
-Several methods are considered for _[[regularization (physics)|regularizing]]_, hence making sense of it as a finite expression. One of these is [[zeta function regularization]]. Here one notices that the [[zeta function of an elliptic differential operator|zeta function]] of the [[wave operator]]/[[Laplace operator]] $H = \mathbf{p}^2 + m^2$ is well-defined for $\Re(s) \gt 1$ by the naive [[trace]]
+Several methods are considered for _[[regularization (physics)|regularizing]]_, hence making sense of it as a finite expression. One of these is [[zeta function regularization]] (e.g. [Kleinert 11, 8.1 (c)](#Kleinert11)). Here one notices that the [[zeta function of an elliptic differential operator|zeta function]] of the [[wave operator]]/[[Laplace operator]] $H = \mathbf{p}^2 + m^2$ is well-defined for $\Re(s) \gt 1$ by the naive [[trace]]
 
 $$
   \zeta_H(s)\coloneqq Tr( H^{-s} )
