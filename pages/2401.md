@@ -114,6 +114,8 @@ Notice well the two assumptions that were made to make this argument work:
 
 * [[moduli space of connections]]
 
+* [[moduli space of flat connections]]
+
 ## Related concepts 
 
 * [[representable functor]]
