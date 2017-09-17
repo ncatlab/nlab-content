@@ -1,8 +1,18 @@
-<div class="rightHandSide toc">
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Mathematic
++--{: .hide}
 [[!include mathematicscontents]]
----
+=--
+#### Rational homotopy theory
++--{: .hide}
 [[!include differential graded objects - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
