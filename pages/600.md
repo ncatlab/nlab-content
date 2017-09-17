@@ -1,6 +1,22 @@
-#Idea#
 
-In the context of [[groupoidification]] and [[geometric function theory]] one thinks of a [[span]] as a generalized linear map. The _span trace_ is the corresponding generalization of the notion of a trace of a linear map.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In the context of [[integral transforms on sheaves]] one thinks of a [[span]] as a generalized linear map. The _span trace_ is the corresponding generalization of the notion of a trace of a linear map.
 
 This is just the general [[trace]] of an [[endomorphism]] which is definable in any [[compact closed category|compact/autonomous]] [[symmetric monoidal category|symmetric monoidal (2-)category]], of which $Span$ is an example (as described below).
 
@@ -8,7 +24,7 @@ In the context of [[FQFT]] a useful aspect of the span trace is that it is manif
 
 
 
-#Definition#
+## Definition
 
 For 
 
@@ -80,7 +96,7 @@ $$
 $$
 
 
-## Definition for multispans
+### Definition for multispans
 
 More generally, the trace of a [[multispan]] over $n$ identical of its index objects $X$ is the composite with the multispan
 
@@ -95,9 +111,9 @@ $$
 $$
 
 
-#Examples
+## Examples
 
-##Trace of Set-valued matrices##
+### Trace of Set-valued matrices
 
 Let the ambient category be [[Set]], let $X$ be a finite set and $R \to X \times X$ an $|X| \times |X|$-matrix of finite sets, regarded under [[groupoid cardinality]] as a [[groupoidification|groupoidified]] $|X| \times |X|$-matrix with entries in $\mathbb{N}$.
 
@@ -129,7 +145,7 @@ $|tr(R)| = \sum_{x} |R_{x,x}| $
 of the matrix $|R|$ represented by $R$. 
 
 
-##Loop objects from homotopy span traces##
+### Loop objects from homotopy span traces
 
 Let $C$ be a [[category of fibrant objects]] with [[interval object]] $I$. Recall that for every object $B$ of $C$ its free [[loop space object]] is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, i.e. the pullback.
 $$
@@ -200,7 +216,7 @@ $$
 But by the above $lim_D F' = \Omega B$.
 
 
-##Categorical trace from homotopical span trace##
+### Categorical trace from homotopical span trace
 
 The [[categorical trace]] on a 1-[[endomorphism]] in a 2-category $C$ is the homotopy trace on the span given by that endomorphism.
 
@@ -268,11 +284,11 @@ $$
 By the above, every cone over the pullback diagram with a functor $h : Q \to B$, on the right defines a natural transformation $h^*(Id_B \Rightarrow F)$. By the universal property of the limit, it _represents_ the collection of these transformations.
 
 
-#Remarks#
+## Related concepts
 
 * The dual notion is that of [[co-span co-trace]].
 
-#References#
+## References
 
 That the canonical trace on $Span$ is compatible with the interpretation of spans as linear maps in the context of [[groupoidification]], and that it corresponds under duality  (in terms of the [[co-span co-trace]]) to the gluing of ends of [[cobordism]]s was mentioned in
 
