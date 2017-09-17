@@ -21,9 +21,10 @@ The Euler class of the [[tangent bundle]] of a [[manifold]] is its [[Euler chara
 
 ## References
 
-* Robert Brown, _On the Lefschetz number and the Euler class_  Transactions of the AMS, Vol. 118, (1965)  ([JSTOR](http://www.jstor.org/pss/1993952))
+* wikipedia [Euler class](http://en.wikipedia.org/wiki/Euler_class)
 
-* Solomon Jekel, _A simplicial formula and bound for the Euler class_ Israel Journal of Mathematics
-Volume 66, Numbers 1-3, 247-259 (1989)
+* Robert F. Brown, _On the Lefschetz number and the Euler class_, Transactions of the AMS __118__, (1965)  ([JSTOR](http://www.jstor.org/pss/1993952))
+
+* Solomon Jekel, _A simplicial formula and bound for the Euler class_, Israel Journal of Mathematics __66__, n. 1-3, 247-259 (1989)
 
 [[!redirects Euler classes]]
