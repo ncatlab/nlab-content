@@ -1395,7 +1395,7 @@ $$
   \,.
 $$
 
-Evidently there is then also a notion of [[higher spin structure]]-fields. These appear as backgrounds when one passes from [[spinning particles]] to  [[spinning strings]] and then to further "spinning" [[branes]]. This we disciss below in _[Higher spin structures](#HigherSpinStructures)_
+Evidently there is then also a notion of [[higher spin structure]]-fields. These appear as backgrounds when one passes from [[spinning particles]] to  [[spinning strings]] and then to further "spinning" [[branes]]. This we discuss below in _[Higher spin structures](#HigherSpinStructures)_.
 
 ##### $Spin^c$-structures
  {#SpinStructures}
