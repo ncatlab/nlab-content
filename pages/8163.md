@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _filtered chain complex_ is a [[filtered object]] in a [[category of chain complexes]].
+
+## Related concepts
+
+* [[associated graded]]
+
+* [[spectral sequence of a filtered complex]]
+
+[[!redirects filtered chain complexes]]
+
+[[!redirects filtered cochain complex]]
+[[!redirects filtered cochain complexes]]
