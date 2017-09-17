@@ -28,6 +28,10 @@ It was long expected that the resulting [[3d TQFT]] is that given by the [[Reshe
 
 More recently all the ingredients of a proof that this is indeed equivalently the result of the [[geometric quantization]] are appearing ([Andersen 12](#Andersen12)). See also ([MO discussion](#MODiscussion)).
 
+## Related concepts
+
+* [[equivariant elliptic cohomology]]
+
 ## References
 
 Explicit proof that in particular the [[modular functor]] in the [[Reshetikhin-Turaev model]] is equivalent to that induced from [[geometric quantization]] is at least partially in
