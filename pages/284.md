@@ -33,8 +33,13 @@
 
 According to the general pattern on [[(n,r)-category]], an $(\infty,1)$-category is a (weak) [[∞-category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalences]]. This is the joint generalization of the notion of _[[category]]_ and _[[∞-groupoid]]_.
 
-More precisely, this is the notion of _[[category]]_ up to [[coherent|coherence]] [[homotopy]]:
-an $(\infty,1)$-category is an [[internal category in an (∞,1)-category|internal to]] in [[∞-groupoids]]/basic [[homotopy theory]]. 
+More precisely, this is the notion of _[[category]]_ up to [[coherence|coherent]] [[homotopy]]:
+an $(\infty,1)$-category is equivalently 
+
+* an [[internal category in an (∞,1)-category|internal category]] in [[∞-groupoids]]/basic [[homotopy theory]] (as such usually modeled as a [[complete Segal space]]). 
+
+* a category [[enriched (infinity,1)-category
+|homotopy enriched]] over [[∞Grpd]] (as such usually modeled as a [[Segal category]]).
 
 
 Among all [[(n,r)-category|(n,r)-categories]], $(\infty,1)$-categories are special in that they are the simplest structures that at the same time:
