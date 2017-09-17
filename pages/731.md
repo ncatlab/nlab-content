@@ -17,8 +17,11 @@ $$s,t: K_{n+1}\rightarrow K_0,$$
 where the two functions, $s$, source, and $t$, target, are $s = (d_1)^{n+1}$ and $t = d_0(d_2)^n$ with relations $s_0x = id$ for $x \in K_n$.  
 
 The face and degeneracy maps are given on generators by 
+
 *   $s_i^{GK}(x) = s_{i+1}^K(x),$
+
 *   $d_i^{GK}(x) = d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
+
 *   $d_0^{GK}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
 
 
