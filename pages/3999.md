@@ -49,6 +49,12 @@ $$
 
 This is a convergent subnet.
 
+#### References ####
+This counterexample is also explained in item 105 of the book
+
+* Steen, Seebach: _Counterexamples in Topology_
+
+
 # Properties #
 
 The following is a list of properties of and pertaining to sequentially compact spaces.
