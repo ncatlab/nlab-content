@@ -32,7 +32,7 @@ For $A,B \in $ [[C*Alg]] two [[C-star algebras]], an $(A,B)$-*Hilbert $C^\ast$-b
 
 * a right $B$-[[Hilbert C*-module]] $(N, \langle -,-\rangle)$;
 
-* equipped with a further left $A$-_[[representation of a C-star-algebra|representation]] $A \to \mathcal{B}(N)$ by *adjointable operators*, hence such that $\langle a -,- \rangle = \langle -,a^\ast -\rangle$ for all $a \in A$.
+* equipped with a further left $A$-[[representation of a C-star-algebra|representation]] $A \to \mathcal{B}(N)$ by *adjointable operators*, hence such that $\langle a -,- \rangle = \langle -,a^\ast -\rangle$ for all $a \in A$.
 
 A [[isomorphism]] between two $(A,B)$-bimodules $(N_1, \langle -,-\rangle) \to (N_2, \langle -,-\rangle_2)$ is a [[linear operator]] $N_1\to N_2$ which is [[unitary operator|unitary]] with respect to $\langle -,-\rangle_2$.
 
@@ -150,6 +150,7 @@ An $(A, \mathbb{C})$-Hilbert $C^\ast$-bimodule is equivalently just as [[represe
 
 * [[KK-theory]]
 
+* [[C*-correspondence]]
 
 
 ## References
