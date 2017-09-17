@@ -131,6 +131,9 @@ For more see [[generalized homology]].
 
 ## Related concepts
 
+[[!include homotopy-homology-cohomology]]
+
+
 * [[generalized homology]]
 
 * [[factorization homology]]
