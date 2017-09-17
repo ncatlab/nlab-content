@@ -426,6 +426,8 @@ See at _[[model structure for dendroidal complete Segal spaces]]_ the section _[
 
 ## References
 
+### General
+
 Complete Segal spaces were originally defined in 
 
 * [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
@@ -444,5 +446,14 @@ See also pages 29 to 31 of
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
 For literature on the variants and refinements see at _[[Theta space]]_ and _[[n-fold complete Segal space]]_.
+
+### Groupoidal version
+ {#ReferencesGroupoidalVersion}
+
+The groupoidal version of complete Segal spaces (that modelling just [[groupoid objects in an (∞,1)-category]] instead of general [[category objects in an (∞,1)-category]]) is discussed in 
+
+* [[Julia Bergner]], _Adding inverses to diagrams encoding algebraic structures_, Homology, Homotopy Appl. 10(2), 2008, 149-174 ([arXiv:math/0610291](http://arxiv.org/abs/math/0610291))
+
+* [[Julia Bergner]], _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, vol. 10(1) 2008 ([pdf](http://www.math.ucr.edu/~jbergner/Groupoid.pdf))
 
 [[!redirects complete Segal spaces]]
