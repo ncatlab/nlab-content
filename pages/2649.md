@@ -20,28 +20,49 @@ A connected object is a generalisation of the concept of [[connected space]] fro
 
 ## Definitions
 
-Let $C$ be an [[extensive category]].
+Let $\mathcal{C}$ be an [[extensive category]].
 
-Then an [[object]] $X$ of $C$ is **connected** if the [[representable functor]]
-$$ hom(X, -): C \to Set $$
-preserves all [[coproducts]]. 
++-- {: .num_defn #ConnectedObject}
+###### Definition
 
-By this definition, the [[initial object]] of $C$ is *not* connected (except for degenerate cases of $C$); it is [[too simple to be simple]].  This matches the notion that the [[empty space]] should not be considered connected, discussed at [[connected space]].
+An [[object]] $X \in \mathcal{C}$ is **connected** if the [[representable functor]] $$ hom(X, -): \mathcal{C} \to Set $$
+[[preserved limit|preserves]] all [[coproducts]]. 
 
-(It\'s actually enough to require that it preserves *binary* coproducts, if $C$ is infinitary extensive.  By definition, $hom(X,-)$ preserves binary coproducts if the canonically defined map
-$$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
-is always a [[bijection]]. See the following section.) 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By definition, $hom(X,-)$ preserves binary coproducts if the canonically defined morphism $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z)$$
+is always a [[bijection]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By this definition, the [[initial object]] of $\$ is *not* in general connected (except for degenerate cases of $\mathcal{C}$); it is [[too simple to be simple]].  This matches the notion that the [[empty space]] should not be considered connected, discussed at [[connected space]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $\mathcal{C}$ is a [[infinitary extensive category]] then for $X \in \marhcal{C}$ to be connected it is enough to require that $hom(X,-)$ it preserves *binary* coproducts. This is theorem \ref{RespectForBinaryCoproductsIsSufficient} below.
+
+=--
 
 ## Properties
 
 ### Characterization in terms of coproducts
 
-Let $C$ be an infinitary [[extensive category]].
+Let $\mathcal{C}$ be an infinitary [[extensive category]].
 
-+-- {: .num_theorem}
++-- {: .num_theorem #RespectForBinaryCoproductsIsSufficient}
 ###### Theorem 
 
- Then an [[object]] $X$ of $C$ is connected if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
+ Then an [[object]] $X$ of $\mathcal{C}$ is connected, def. \ref{ConnectedObject}, if and only if $\hom(X, -): C \to Set$ preserves binary coproducts. 
+
 =-- 
 
 +-- {: .proof}
@@ -64,16 +85,22 @@ Indeed, for each $\alpha$, the identity map factors through one of the two summa
 $$ id\colon X \to U_\alpha + \sum_{\beta \neq \alpha} U_\beta $$ 
 
 because $\hom(X, -)$ preserves binary coproducts. In others words, either $X = U_\alpha$ or $X = \sum_{\beta \neq \alpha} U_\beta$ (and the other is $0$). We cannot have $U_\alpha = 0$ for every $\alpha$, for then $X = \sum_\alpha U_\alpha$ would be $0$, contradicting the fact that $\hom(X, 0) = 0$. So $X = U_\alpha$ for at least one $\alpha$. And no more than one $\alpha$, since we have $U_\alpha \cap U_\beta = 0$ whenever $\alpha \neq \beta$. 
+
 =--
 
-Note that the proof is not [[constructive mathematics|constructive]], as we have no way to construct a particular $\alpha$ such that $X = U_\alpha$.  (It is constructive if [[Markov's principle]] applies to $A$.)
++-- {: .num_remark}
+###### Remark
+
+This proof is not [[constructive mathematics|constructive]], as we have no way to construct a particular $\alpha$ such that $X = U_\alpha$.  (It is constructive if [[Markov's principle]] applies to $A$.)
+
+=--
 
 From the proof above, we extract a result useful in its own right, giving an alternative definition of connected object. 
 
 +-- {: .num_theorem #Scholium}
 ###### Theorem 
 
-An object $X$ in an extensive category is connected if and only if in any [[coproduct]] decomposition $X = U + V$, exactly one of $U$, $V$ is not the [[initial object]]. 
+An object $X$ in an [[extensive category]] is connected, def. \ref{ConnectedObject}, if and only if in any [[coproduct]] decomposition $X \simeq U + V$, exactly one of $U$, $V$ is not the [[initial object]]. 
 
 =-- 
 
@@ -86,16 +113,49 @@ Turning now to the if direction, suppose $f \colon X \to Y + Z$ is a map, and pu
 
 ### General
 
-* A colimit of a connected diagram of connected objects is connected. This is due to the fact that coproducts in $Set$ commute with _limits_ of connected diagrams. 
++-- {: .num_prop}
+###### Proposition
 
-* If $X$ is connected and $X \to Y$ is epic, then $Y$ is connected. Proof: certainly $Y$ is not initial, because initial objects in extensive categories are strict. Suppose $Y = U + V$ (see the Scholium \ref{Scholium} above), so that we have an epi $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
+A [[colimit]] of connected objects over a [[connected category|connected]] [[diagram]] is itself a connected object. 
 
-It need not be the case that products of connected objects are connected. For example, in the topos $\mathbb{Z}$-Set, the product $\mathbb{Z} \times \mathbb{Z}$ decomposes as a countable coproduct of copies of $\mathbb{Z}$. (For more on this topic, see also [[cohesive topos]].) We do have the following partial result, generalizing the case of $Top$. 
+=--
+
++-- {: .proof} 
+###### Proof 
+
+Because coproducts in $Set$ commute with _limits_ of connected diagrams. 
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If $X \in \mathcal{C}$ is connected and $X \to Y$ is an [[epimorphism]], then $Y$ is connected. 
+
+=--
+
++-- {: .proof} 
+###### Proof 
+
+Certainly $Y$ is not [[initial object|initial]], because initial objects in extensive categories are [[strict initial object|strict]]. Suppose $Y = U + V$ (see theorem \ref{Scholium} above), so that we have an epimorphism $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+It need not be the case that products of connected objects are connected. For example, in the topos $\mathbb{Z}$-Set, the product $\mathbb{Z} \times \mathbb{Z}$ decomposes as a countable coproduct of copies of $\mathbb{Z}$. (For more on this topic, see also [[cohesive topos]].) 
+
+=--
+
+We do have the following partial result, generalizing the case of $Top$. 
+
 
 +-- {: .num_theorem} 
 ######Theorem 
 
-Suppose $C$ is a cocomplete $\infty$-extensive category with finite products. Assume that the terminal object is a separator, and that functors of the form $X \times -$ preserve epis. Then a product of finitely many connected objects is connected. 
+Suppose $C$ is a cocomplete $\infty$-[[extensive category]] with 
+[[finite products]]. Assume that the [[terminal object]] is a [[separator]], and that [[Cartesian product]] functors $X \times (-) : \mathcal{C} \to \mathcal{C}$ preserve [[epimorphisms]]. Then a product of finitely many connected objects is itself connected. 
 
 =-- 
 
@@ -112,7 +172,8 @@ where the union is again a sum of connected objects $T_y$ amalgamated over $a \t
 
 $$\sum_{y \colon 1 \to Y} X \times y \cong X \times \sum_{y \colon 1 \to Y} 1 \to X \times Y$$ 
 
-is epic (by the assumptions that $1$ is a separator and $X \times -$ preserves epis), and this map factors through $\phi$. It follows that the codomain $X \times Y$ of $\phi$ is also connected. 
+is epic (by the assumptions that $1$ is a [[separator]] and $X \times -$ preserves epis), and this map factors through $\phi$. It follows that the codomain $X \times Y$ of $\phi$ is also connected. 
+
 =-- 
 
 
@@ -123,7 +184,9 @@ is epic (by the assumptions that $1$ is a separator and $X \times -$ preserves e
 
 * For a [[group]] $G$, connected objects in the category $G Set$ of [[permutation representation]]s are precisely the ([[inhabited set|inhabited]]) transitive $G$-sets. 
 
-* Objects in a [[locally connected topos]] such as $G$-$Set$ are [[coproduct]]s of connected objects. 
+* Objects in a [[locally connected topos]] are [[coproducts]] of connected objects. 
+ 
+  (This includes categories such as $G Set$, [[permutation representations]] of a [[group]] $G$.)
 
 
 
