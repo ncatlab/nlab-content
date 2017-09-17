@@ -320,6 +320,11 @@ The definition of the dg-category of representation of a tangent Lie algebroid a
 
 * {#Block05} [[Jonathan Block]], _Duality and equivalence of module categories in noncommutative geometry I_ ([arXiv:0509284](http://arxiv.org/abs/math/0509284))
 
+Application of this to the description of [[B-branes]] is in 
+
+* {#Bergman08} [[Aaron Bergman]], _Topological D-branes from Descent_ ([arXiv:0808.0168](http://arxiv.org/abs/0808.0168))
+
+
 For the case of Lie 1-algebroids essentially the same definition appears also in
 
 * [[Camilo Arias Abad]], [[Marius Crainic]], _Representations up to homotopy of Lie algebroids_ ([arXiv](http://arxiv.org/abs/0901.0319))
