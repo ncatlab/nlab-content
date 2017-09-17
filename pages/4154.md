@@ -22,13 +22,13 @@ which is inhabited by a [[natural transformation]] (which might be an [[identity
 We write $M^A$, $M^B$, etc. for the model categories, simplicial categories, $(\infty,1)$-categories, or homotopy categories of diagrams in $M$ of whatever shape.  We write $f^*\colon M^B\to B^A$, $g^*\colon M^D\to M^C$, and so on for precomposition functors, which are always homotopically meaningful, and we write $u_!\colon M^A\to M^C$, $v_!\colon M^B\to M^D$ and so on for the homotopically meaningful notions of pointwise [[left Kan extension]].  Specifically:
 
 * If $M$ is a model category, then $u_!$ denotes the left [[derived functor]] of pointwise Kan extension along $u$.
-* If $M$ is a simplicially enriched category, then $u_!$ is the coherent pointwise [[homotopy left Kan extension]] along $u$, which may be defined explicitly in various ways, such asusing a [[bar construction]].
+* If $M$ is a simplicially enriched category, then $u_!$ is the coherent pointwise [[homotopy left Kan extension]] along $u$, which may be defined explicitly in various ways, such as using a [[bar construction]].
 * If $M$ is an $(\infty,1)$-category, then $u_!$ denotes the pointwise [[(∞,1)-Kan extensions]] along $u$.
 * If $M$ is a derivator, then $u_!$ simply denotes the left adjoint of $u^*$ (which is assumed to exist and to "be pointwise" by the derivator axioms).
 
 Assume that $M$ is such that the relevant extensions $u_!$ and $v_!$ exist.  Then there is a canonical [[Beck-Chevalley transformation]]
 $$ u_! f^* \to g^* v_! $$
-define as the composite
+defined as the composite
 $$ u_! f^* \to u_! f^* v^* v_! \to u_! u^* g^* v_! \to g^* v_!. $$
 and we say that the given square is **$M$-exact** if this transformation is an [[equivalence]].  If the square is $M$-exact for all $M$, we say it is **homotopy exact**.  Note that by the general calculus of [[mates]], this is equivalent to requiring that the dual transformation
 $$ v^* g_* \to f_* u^* $$
