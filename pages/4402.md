@@ -36,6 +36,8 @@ The theory of __cohomological descent__ deals with  the question if the [[derive
 
   * **cohomological descent**
 
+  * [[descent morphism]]
+
   * [[monadic descent]], 
 
     * [[Sweedler coring]]
