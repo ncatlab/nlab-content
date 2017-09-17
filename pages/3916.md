@@ -92,3 +92,5 @@ More details are in
 [[!redirects Thom collapse maps]]
 [[!redirects Thom collaps map]]
 [[!redirects Thom collaps maps]]
+
+[[!redirects Thom collapse]]
