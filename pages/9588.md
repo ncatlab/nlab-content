@@ -48,6 +48,8 @@ See at _[Snatih-like theorem for Morava E-theory](Snaith+theorem#ForMoravaETheor
 
 * real form: [[EO(n)]]
 
+* [[Morava E-theoretic Chern character]]
+
 * [[chromatic homotopy theory]]
 
 Not to be confused with [[C*-algebra]]-[[E-theory]].
