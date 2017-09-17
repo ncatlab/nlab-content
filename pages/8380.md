@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -44,7 +44,7 @@ In [[computer science]], a programming language may be formalised or studied by 
 
 * [[morphisms]] $X \to Y$ are the [[terms]] or [[programs]] (or an [[equivalence class]] of such) that takes a value of [[type]] $Y$ as input and returns a value of type $Y$.  
 
-This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely [[functional programming languages]].
+This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely [[functional programming|functional programming languages]].
 
 Under this [[relation between type theory and category theory]] monads on the type system in the sense of computer science are [[monad|monads in the sense of category theory]], being certain [[endofunctors]] 
 
@@ -109,7 +109,9 @@ The specification of monads in [[Haskell]] is at
 
 * [The Haskell programming language](http://www.haskell.org/haskellwiki/Haskell), _[Monad laws](http://www.haskell.org/haskellwiki/Monad_laws)_
 
+
+[[!redirects monad (in computer science)]]
 [[!redirects monads (in computer science)]]
 
-[[!redirects monads (in programming theory)]]
 [[!redirects monad (in programming theory)]]
+[[!redirects monads (in programming theory)]]
