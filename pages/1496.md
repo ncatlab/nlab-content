@@ -213,12 +213,9 @@ See Dunford, Schwartz II, chapter X, corollary 8.
 
 One standard reference for this paragraph is
 
-* Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part I: General theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47001&format=complete))
+* Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part I: General theory." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47001&format=complete)), "Linear operators. Part II: Spectral theory, self adjoint operators in Hilbert space." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47002&format=complete))
 
-and
-
-* Dunford, Nelson; Schwartz, Jacob T.: "Linear operators. Part II: Spectral theory, self adjoint operators in Hilbert space." ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0635.47002&format=complete))
-
+* Z. Semadeni, _Banach spaces of continuous functions_, vol. I, Polish scientific publishers. Warszawa 1971
 
 ## Related concepts
 
