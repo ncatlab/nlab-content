@@ -53,17 +53,17 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[Einstein-Hilbert action]], [[Einstein equation]]
 
-* [[first order formulation of gravity]]
-
 * [[general covariance]]
 
-* [[teleparallel gravity]]
+* [[first order formulation of gravity]]
+
+  * [[Plebanski formulation of gravity]], [[gravity as a BF-theory], [[teleparallel gravity]]
+
+  * [[Chern-Simons gravity]]
+
+* [[Einstein-Maxwell theory]], [[Einstein-Yang-Mills theory]]
 
 * [[supergravity]]
-
-* [[Plebanski formulation of gravity]], [[gravity as a BF-theory]]
-
-* [[Chern-Simons gravity]]
 
 
 * gravitational entropy
