@@ -187,6 +187,10 @@ and hence computes the cohomology of $X$ with coefficients in $A$ in terms of th
 
 ### Abelian/stable theory
 
+A standard textbook reference is chapter 5 of 
+
+* [[Charles Weibel]], _An introduction to homological algebra_ Cambridge studies in advanced mathematics 38 (1994)
+
 A useful brief review of standard definitions and facts about spectral sequences is 
 
 * [[Hal Schenck]], _Chapter 9: Cohomology and spectral sequences_ ([pdf](http://www.math.uiuc.edu/~schenck/tapp.pdf))
