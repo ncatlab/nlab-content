@@ -1,3 +1,3 @@
-The __Moonshine__ [[vertex operator algebra]] is a curious example of VOA related to the *Monster* simple finite group. See the monograph by Lepowsky and Meurman. 
+The __Moonshine__ [[vertex operator algebra]] is a curious example of VOA related to the *[[Monster]]* simple finite group. See the monograph by Lepowsky and Meurman. 
 
 [[!redirects moonshine]]
