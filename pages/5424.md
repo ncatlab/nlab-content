@@ -2,8 +2,17 @@ In Joyal-Nielsen-Winskel (p.13) is given the following definition. For what a "p
 
 +-- {: .un_defn}
 ###### Definition
-Let $P$ be a path category in a category of models $M$. Two objects $X_1,X_2$ are called to be *$P$-bisimilar* if there is a span of $P$-[[nLab:open map]]s $X_1\leftarrow X\to X_2$.
+Let $P$ be a path category in a category of models $M$. Two objects $X_1,X_2$ are called to be *$P$-bisimilar* if there is a span of $P$-open maps $X_1\leftarrow X\to X_2$.
 =--
+
+The relation of $P$-open maps and [[open map]]s is given by Proposition 11, p.32:
+
++-- {: .un_prop}
+###### Proposition
+
+If $P$ is a dense full subcategory of $M$, then $f$-is $P$-open iff $M(-,f)$ is an [[open map]].
+=--
+
 
 * Wikipedia (English), _[Bisimulation](http://en.wikipedia.org/wiki/Bisimulation)_
 * Sam Staton, _[Relating coalgebraic notions of bisimulation](http://arxiv.org/abs/1101.4223)_
