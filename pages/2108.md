@@ -437,7 +437,7 @@ Here the top horizontal map is called the universal _[[determinant line bundle]]
 
 See at _[[spin^c group]]_ for more details.
 
-+-- {: .num_remark }
++-- {: .num_remark #SpinCInComponents}
 ###### Remark
 
 It follows that if we represent elements of $Spin^c(n) \simeq SO(n) \underset{\mathbb{Z}_2}{\times} U(1)$ as [[equivalence classes]] of pairs $(g,c)$, then the [[determinant line bundle]] map of def. \ref{SpinCAndDeterminantLineBundle} is given by
@@ -453,7 +453,7 @@ This factor of 2 on the right is crucial in all of the following.
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #SpinCStructure}
 ###### Definition
 
 Let $X$ be an [[orientation|oriented]] [[smooth manifold]]. A smooth [[spin^c structure]] on $X$ is a lift $\hat \tau_X$ of the classifying map $\tau_X \colon X \to \mathbf{B} SO(n)$ of its [[tangent bundle]] through the left vertical map in def. \ref{SpinCAndDeterminantLineBundle}
@@ -471,7 +471,7 @@ $$
 
 =--
 
-+-- {: .num_remark }
++-- {: .num_remark #SpinCWithDivisibleDetIsSpinTensorLine}
 ###### Remark
 
 In words this says that a [[spin^c structure]] on an oriented manifold $X$ is a choice of [[circle group]]-[[principal bundle]] or equivalenty of hermitian [[complex line bundle]] such that its [[first Chern class]] modulo 2 equals the [[second Stiefel-Whitney class]] $w_2$ of $X$. If this second Stiefel-Whitney class vanishes (as an element in $H^2(X,\mathbb{Z}_2)$) this means that $X$ has a genuine _[[spin structure]]_. So in other words whenever the [[determinant line bundle]] of a [[spin^c structure]] (in the sens of def. \ref{SpinCAndDeterminantLineBundle}) has a [[first Chern class]] that is divisible by 2, then there is an actual [[spin^c structure]].
@@ -524,12 +524,84 @@ $$
   \,.
 $$
 
-This is the crucial relation by which the K-theoretic quantization will harmonize with the above Euler- and Dolbeault- quantization as discussed a little bit below.
+This is the crucial relation by which the K-theoretic quantization will harmonize with the above Euler- and Dolbeault- quantization, discussed below in \ref{spring}.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$ an even number, write 
+
+$$
+  \Delta_n \simeq \mathbb{C}^{2^{n/2}}
+$$ 
+
+for the canonical complex [[spin representation]], which decomposes into two chiral [[irreducible representations]]
+
+$$
+  \Delta_n \simeq \Delta_n^+ \oplus \Delta_n^-
+  \,.
+$$
+
+Then the **canonical [[spin^c]]-[[representation]]** 
+
+$$
+  \rho \colon Spin^c(n) \times \Delta_n \to \Delta_n
+$$
+
+is the one given in the components of remark \ref{SpinCInComponents} by
+
+$$
+  ((g,c), \psi) \mapsto (g(\psi)) \cdot c
+$$
+
+(first act with the spin-component in the usual way and then multiply by $c \in U(1) \hookrightarrow \mathbb{C}$).
+
+
+=--
+
+As discussed at _[[representation]]_ we may think of this as a morphism of [[smooth groupoids]] ([[stacks]]) of the form
+
+$$
+  \rho \colon \mathbf{B} Spin^c(n) \to \mathbb{C}\mathbf{Mod} \simeq \mathbb{C}\mathbf{Vect}
+  \,.
+$$
+ 
++-- {: .num_defn #SpinCSpinorBundle}
+###### Definition
+
+Given a [[spin^c structure]] $\hat \tau_X \colon X \to \mathbf{B}Spin^c(n)$, def. \ref{SpinCStructure}, the **[[associated bundle|associated]] [[spinor bundle]]** is the one modulated by
+
+$$
+  S^c
+  \colon
+  X \stackrel{\hat \tau_X}{\to} \mathbf{B}Spin^c(n)
+  \stackrel{\rho}{\to} \mathbb{C}\mathbf{Vect}
+  \,.
+$$
+
+=--
+
+Crucial for the comparison of the K-theoretic quantization to be defined in a moment and the above Euler/Dolbeault quantization is the following:
+
++-- {: .num_remark #SpinCSpinorsAsTensorProductWhenDetDivisible}
+###### Remark
+
+By remark \ref{SpinCWithDivisibleDetIsSpinTensorLine} it follows that in the case that the [[determinant line bundle]] of the [[spin^c structure]] is divisible by 2, hence in the case that $c_1(det(\hat \tau_X)) = 0 \,mod\, 2 \in H^2(X,\mathbb{Z}_2)$, then the $Spin^c$-[[spinor bundle]] of def. \ref{SpinCSpinorBundle} is just the [[tensor product]] of the ordinary underlying [[spinor bundle]] with _half_ the [[determinant line bundle]]:
+
+$$
+  \left( c_1(det(\hat \tau_X)) = 0 \,mod\, 2 \right)
+  \;\Rightarrow\;
+  \left(S^c \simeq S \otimes \sqrt{det(\hat \tau_X)}\right)
+  \,.
+$$
 
 =--
 
 
-Let now $(X,\omega)$ be a ([[presymplectic manifold|pre-]])[[symplectic manifold]] and let $(L_{2\omega}, \nabla)$ be a [[prequantum line bundle]] for _twice_ its [[symplectic form]]. 
+
+Let now $(X,\omega)$ be a ([[presymplectic manifold|pre-]])[[symplectic manifold]] and let $(L_{\omega}, \nabla)$ be a [[prequantum line bundle]]. 
 
 
 +-- {: .num_defn #KTheoreticQuantization}
@@ -553,16 +625,17 @@ Moreover, on [[cocycles]] this push-forward is expressed by the traditional cons
 
 let $X$ be a manifold equipped with a [[Riemannian metric]], a  [[spinor bundle]] and a [[Dirac operator]] $D \colon \Gamma(S) \to \Gamma(S)$. Then the corresponding [[K-homology]] cycle is:
 
-1. the [[Hilbert space]] $L^2(S) of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]];
+1. the [[Hilbert space]] $L^2(S)$ of [[square integrable function|square integrable]] [[sections]] of the [[spinor bundle]];
 
-1. equippd with the multiplication[[action]] of the [[C*-algebra]] $C_0(X)$ [[algebra of functions|of functions]] [[vanishing at infinity]] by [[bounded operator]]
+1. equipped with the [[action]] by fiberwise multiplication of the [[C*-algebra]] $C_0(X)$ [[algebra of functions|of functions]] [[vanishing at infinity]] 
 
    $$
      C_0(X) \to \mathcal{B}(L^2(S))
-     \,;
    $$
 
-1. and equipped with the [[Dirac operator]] $D$ as the $\mathbb{Z}_2$-graded [[Fredhom operator]].
+   (which is by [[bounded operators]])
+
+1. and equipped with the [[Dirac operator]] $D$ as the $\mathbb{Z}_2$-graded [[Fredholm operator]] defining the [[K-homology]] class.
 
 Together with is equivalent an element
 
@@ -578,7 +651,7 @@ Postcomposition of K-theory classes $[\xi] \in KK(\mathbb{C}, C_0(X))$ with this
 +-- {: .num_remark}
 ###### Remark
 
-This definition does not assume any choice of [[polarization]], nor any choice of [[almost complex structure]] etc. On the other hand, every choice of [[almost complex structure]] (hence in particular of [[Kähler polarization]]) does induce a [[spin^c structure]], as discussed there.
+This definition does not assume any choice of [[polarization]], nor any choice of [[complex structure]] etc. On the other hand, every choice of [[almost complex structure]] (hence in particular of [[Kähler polarization]]) does induce a [[spin^c structure]], as discussed there.
 
 =--
 
@@ -604,12 +677,66 @@ $$
 
 =--
 
-This is discussed in ([Paradan 09, prop. 2.2](#Paradan09)).
+This is to some extent discussed for instance in ([Hochs 08, lemma 3.32](#Hochs08), [Paradan 09, prop. 2.2](#Paradan09)).
+
++-- {: .proof}
+###### Proof
+
+Let $\sqrt{\Omega^n,0}$ be a choice of [[square root]] ([[Theta characteristic]]) of the [[canonical line bundle]], which according to \ref{SpinStructuresOnKaehlerManifolds} is a choice of [[spin structure]] in the [[Kähler manifold]]. Then by that same proposition the corresponding [[spinor bundle]] is [[isomorphism|isomorphic]] to 
+
+$$
+  S \simeq \Omega^{0,\bullet} \otimes \sqrt{\Omega^{n,0}}
+$$
+
+and so the corresponding $L_\omega$-twisted spinor bundle is
+
+$$
+  \begin{aligned}
+   S \otimes L_\omega & \simeq
+   \left(\Omega^{0,\bullet} \otimes \sqrt{\Omega^{n,0}}\right)
+    \otimes L_\omega
+    \\
+    & \simeq
+   \Omega^{0,\bullet} \otimes \left(\sqrt{\Omega^{n,0}}
+    \otimes L_\omega\right)
+  \end{aligned}
+  \,,
+$$
+
+where we have re-bracheted just for emphasis of how the [[metaplectic correction]] appears as part of the [[spinor bundle]].
+
+At the same time, by remark \ref{SpinCSpinorsAsTensorProductWhenDetDivisible} we have that under this assumption that an actual spin structure exists, the $Spin^c$-[[spinor bundle]] is isomorphic to 
+
+$$
+  S^c \simeq S \otimes L_\omega
+  \,.
+$$
+
+So the two spinor bundles agree. It is now sufficient to observe that under this identification both the [[Dolbeault-Dirac operator]] as well as the [[spin^c Dirac operator]] have the same [[symbol of a differential operator|symbol]] to conclude that they have the same [[index]].
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The assumption in the above that we do have a [[spin structure]] is only for comparison with the Euler-/ Dolbeault-quantization. It is not necessary for the K-theoretic geometric quantization by [[spin^c structure]]. 
+
+In the general case the [[determinant line bundle]] of the [[spin^c structure]] may not admit a square root. (Its failure of having a square root will be compensated precisely by the failure of there being a genuine [[spin structure]].) Still, by the above discussion the [[index]] of the corresponding [[spin^c structure]] is like a quantization of a would-be square root of the determinant line bundle in this case.  
+
+=--
 
 
 #### Quantum operators / observables
 
-(...)
+
+Given a [[Hamiltonian action]] on the [[symplectic manifold]] by a [[Lie group]] $G$, we can apply the above K-theoretic quantization by push-foward in $G$-[[equivariant K-theory]], to 
+
+$$
+  K_G(\ast) \simeq K(\ast//G) \simeq R(G)
+$$ 
+
+This is the [[representation ring]] of $G$ and hence yields not just a [[Hilbert space]], but a Hilbert space equipped with a $G$-[[action]]. This is the action by [[quantum operators]], quantizing the $G$-actions. Generalized orientation theory give the necessary condition for this quantization to exist: $X$ needs to be oriented not just in [[K-theory]] ([[spin^c structure]]) but in $G$-[[equivariant K-theory]] (equivariant [[spin^c structure]]).
 
 
 ## Properties
@@ -890,8 +1017,12 @@ See also the [[geometric quantization of symplectic groupoids]] below, around ([
 
 ### $Spin^{\mathbb{C}}$-Quantization
 
+* [[Peter Hochs]], _Quantisation commutes with reduction for cocompact Hamiltonian group actions_ 2008 ([pdf](http://www.math.ru.nl/~landsman/ThesisPeterHochs.pdf))
+ {#Hochs08}
+
 * [[Paul-Emile Paradan]], _Spin-quantization commutes with reduction_, J. Symplectic Geom. Volume 10, Number 3 (2012), 389-422. ([arXiv:0911.1067](http://arxiv.org/abs/0911.1067), [Euclid](http://projecteuclid.org/euclid.jsg/1350392491))
  {#Paradan09}
+
 
 
 See the references at _[[geometric quantization by push-forward]]_.
