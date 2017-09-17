@@ -29,13 +29,13 @@
 
 * [[string field theory]]
 
-## Relations between the critical models
+* [[duality in string theory]]
 
-* [[T-duality]]
+  * [[T-duality]], [[mirror symmetry]]
 
-* [[S-duality]]
+  * [[S-duality]], [[electric-magnetic duality]]
 
-* [[electric-magnetic duality]]
+  * [[U-duality]]
 
 * [[11-dimensional supergravity]]
 
