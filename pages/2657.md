@@ -2,7 +2,7 @@
 
 Hodge theory is centered around fine structure seen at the level of (complex, rational and integer) cohomologies (and [[motive]]s) of [[Kähler manifold]]s, based on the study of [[harmonic form]]s on them: Hodge decomposition, Hard Lefschetz theorem, pure Hodge structures, mixed Hodge structures, variations of Hodge structure, Hodge to de Rham spectral sequence, periods...This basic setup is however by now vastly generalized. 
 
-Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], M. Saito, C. Hertling and others. Another very interesting and complex picture is developing for a number of years in works of Goncharov. 
+Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], [[Mikio Sato|M. Saito]], C. Hertling and others. Another very interesting and complex picture is developing for a number of years in works of Goncharov. 
 
 #References and related entries#
 
