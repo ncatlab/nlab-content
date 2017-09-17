@@ -1,10 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * toc
 {:toc}
 
 ## Idea 
 
-A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or **fibered category** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
+A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or **fibered category** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the [[fiber]]s $E_b = p^{-1}(b)$ depend (contravariantly) [[pseudofunctor|pseudofunctorially]] on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
 
 There is an [[equivalence of categories|equivalence]] of [[strict 2-category|2-categories]] 
 
