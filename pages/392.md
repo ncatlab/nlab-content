@@ -2,6 +2,14 @@ The mathematical **red herring principle** is the principle that in [[mathematic
 
 Frequently, in fact, it is conversely true that all herrings are red herrings.  This often leads to mathematicians speaking of "non-red herrings," and sometimes even to a redefinition of "herring" to include both the red and non-red versions.
 
+### Notes ### 
+
+* Clearly, the term "red herring" here is not to be confused with the usual meaning, which typically refers to a deliberate attempt to divert or throw one off track, as for example a rhetorical tactic for this purpose, or a novelistic device. 
+
+* It should also not be thought that "red herring" as used here signals a pejorative, indicating for example ineptitude or lack of care in naming. For example, it may be that "foo" once meant a "bar", but over time the meaning of "foo" changed, so that while "weak $*$-foo" might seem strange if "foo" is taken in the modern sense, it made much better sense under the older (but mostly forgotten) meaning of "foo". 
+
+Thus, "red herring" as used here is to be interpreted neutrally: it refers to a name of a concept which might throw the reader off-track, by accident as it were. 
+
 ### Examples ###
 
 * A [[manifold with boundary]] is not a [[manifold]].  This leads to the use of "manifold without boundary."
