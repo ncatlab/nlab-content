@@ -29,7 +29,7 @@ Let $R$ be a [[commutative ring]] and $\mathcal{A} = R$[[Mod]] the [[category]] 
 +-- {: .num_defn #TheTensorProdComplex}
 ###### Definition
 
-For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $X \otimes Y \in Ch_\bullet(\mathcal{A})$ for the chain complex whose component in degree $n$ is given by the [[direct sum]]
+For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $(X \otimes Y)_\bullet \in Ch_\bullet(\mathcal{A})$ for the [[chain complex]] whose component in degree $n$ is given by the [[direct sum]]
 
 $$
   (X \otimes Y)_n := \oplus_{i + j = n} X_i \otimes_R Y_j
@@ -45,6 +45,48 @@ $$
 $$
 
 =--
+
+
+## Properties
+
+### As a total complex of a double complex
+
+The tensor product of chain complexes is equivalently the [[total complex]] of the [[double complex]] which is the objectwise tensor product:
+
++-- {: .num_defn #DoubleComplexTensor}
+###### Definition
+
+For $X, Y \in Ch_\bullet(\mathcal{A})$ write  $X_\bullet \otimes Y_\bullet \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ for the [[double complex]] whose component in degree $(n_1, n_2)$ is given by the [[tensor product]]
+
+$$
+  X_{n_1} \otimes Y_{n_2} \in \mathcal{A}
+$$
+
+whose horizontal differential is $\partial^{hor} \coloneqq \partial^X \otimes id_Y$ and whose vertical differential is $\partial^{vert} \coloneqq id_{X} \otimes \partial^Y$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The tensor product of chain complexes, def. \ref{TheTensorProdComplex} is isomorphic to the [[total complex]] of the [[double complex]] of def. \ref{DoubleComplexTensor}:
+
+$$
+  Tot_\bullet (X_\bullet \otimes Y_\bullet)
+  \simeq
+  (X \otimes Y)_\bullet
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By direct unwinding of the definitions.
+
+=--
+
 
 ## Examples
 
@@ -267,6 +309,21 @@ which can be read as saying that the boundary is the evident boundary thought of
 
 =--
 
+### Singular chain complex
+
+For $X,Y \in $ [[Top]] two [[topological spaces]], the [[Eilenberg-Zilber theorem]] asserts a [[quasi-isomorphism]]
+
+$$
+  C_\bullet(X \times Y)
+  \to
+  (C(X) \otimes C(Y))_\bullet
+$$
+
+between the [[singular chain complex]] of the [[product topological space]] and the tensor product of chain complexes of the separate singular chain complexes.
+
+### Filtering
+
+As for any [[total complex]] of a double complex, the tensor product of chain complexes is naturally a [[filtered chain complex]], either by the degree of the first of by that of the second chain complex factor.
 
 ## Applications
 
