@@ -107,7 +107,8 @@ which was the first to generalize the principle of [[electromagnetism]] to a [[n
 
 For modern reviews of the basics see
  
-* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
+
+* [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf))
 
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) [pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF)
 
@@ -167,4 +168,3 @@ Another model featuring Yang-Mills fields has been proposed by Curci and Ferrari
 
 [[!redirects theta angle]]
 [[!redirects theta angles]]
-
