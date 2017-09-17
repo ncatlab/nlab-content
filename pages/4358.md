@@ -10,3 +10,4 @@ Prime numbers do *not* quite match the [[prime elements]] of $\mathbb{N}$, since
 
 [[!redirects prime number]]
 [[!redirects prime numbers]]
+[[!redirects theory of primes]]
