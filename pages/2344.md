@@ -112,7 +112,7 @@ The standard axioms are:
 
 It is easy to see that if $C$ has pointwise left and right Kan extensions along all functors in $Dia$, then its representable prederivator is a derivator.  Somewhat more difficult to prove is that if $C$ is a [[model category]] (or more generally, has well-behaved homotopy Kan extensions), then the prederivator $Ho(C)$ is also a derivator.  Thus the derivator encodes the notions of [[homotopy colimit]] and of [[homotopy limit]].  Note again that this way of seeing homotopy (co)limits does not use anything besides usual (2-)category theory.
 
-### Semiderivators
+### Semiderivators {#SemiDerivators}
 
 It may sometimes be useful to consider prederivators which are like derivators, but which "do not have *all* limits and colimits."  Let us say that a **semiderivator** is a prederivator satisfying (Der1), (Der2), and (Der5).
 
