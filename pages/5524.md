@@ -21,15 +21,36 @@
 
 ## Definition
 
-Let $C := $[[ThCartSp]] be the [[site]] of infintiesimally thickened [[Cartesian space]]s and [[smooth function]]s between them, equipped with the [[coverage]] of [[good open cover]]s on the finite factors. (A site of definition of the [[Cahiers topos]].)
++-- {: .un_def}
+###### Definition
 
-Write
+Let [[CartSp]]${}_{synthdiff}$ be the [[full subcategory]] of the category of [[smooth loci]] on those objects of the form $\mathbb{R}^n \times D$ for $n \in \mathbb{N$ and $D$ an [[infinitesimal space]]: the formal dual of a Weil algebra.
+
+Equip this category with the [[coverage]] where a family of morphisms in is [[covering]] precisely if it is of the form $\{U_i \times D \stackrel{(f_i, Id_D)}{\to} U \times D\}$ for $\{f_i : U_i \to U\}$ a covering in [[CartSp]]$()_{smooth}$ (a [[good open cover]]).
+
+=--
+
+This appears as ([Kock, (5.1)]{#Kock}). 
+
++-- {: .un_remark}
+###### Remark
+
+The [[sheaf topos]] over [[CartSp]]${}_{synthdiff}$ is [[equivalence of categories|equivalent]] to the [[Cahiers topos]].
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+We say the [[(∞,1)-topos]] of **synthetic differential $\infty$-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]]
 
 $$
-  SynthDiff \infty Grpd := Sh_{(\infty,1)}(ThCartSp)
+  SynthDiff \infty Grpd := Sh_{(\infty,1)}(CartSp_{synthdiff})
 $$
 
-for the [[(∞,1)-category of (∞,1)-sheaves]] on $ThCartSp$. 
+on $CartSp_{synthdiff}$. 
+
+=--
 
 Since $ThCartSp$ is an [[∞-cohesive site]], this is a [[cohesive (∞,1)-topos]]. We may think of its (concrete) objects as being [[∞-groupoid]]s equipped with [[smooth structure]] in the fashion of [[Models for Smooth Infinitesimal Analysis|standard models]] of [[synthetic differential geometry]].
 
@@ -41,189 +62,62 @@ By restriction along the morphism of sites [[CartSp]]${}_{smooth}\to$[[CartSp]]$
 ## Properites
 
 
-The [[(n,1)-topos|(1,1)-topos]] $\tau_{\leq 0} SynthDiff\infty Grpd\hookrightarrow SynthDiff \infty Grpd$ of 0-[[truncated]] objects is the [[Cahiers topos]].
-
-
-### $\infty$-Connectedness over $Smooth \infty Grpd$
+### Cohesiveness over $\infty Grpd$
 
 +-- {: .un_prop}
 ###### Proposition
 
-The morphism of [[site]]s
+$SynthDiff \infty Grpd$ is a [[cohesive (∞,1)-topos]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for details.
+
+=--
+
+
+### Cohesiveness over  $Smooth \infty Grpd$
+
++-- {: .un_def}
+###### Definition
+
+Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$
+
+for the canonical [[full subcategory|embedding]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+The [[(∞,1)-geometric morphism]] induced by the [[morphism of sites]] $i$ exhibits $SynthDiff \infty Grpd$ as a [[cohesive (∞,1)-topos]] over [[Smooth∞Grpd]]
 
 $$
-  CartSp_{smooth} \stackrel{\overset{}{\leftarrow}}{\hookrightarrow}
-  CartSp_{synthdiff}
-$$
-
-is a [[reflective subcategory|coreflective embedding]] and exhibits $SynthDiff \infty Grpd$ as being a [[locally ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]]
-
-$$
- (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf})
+ (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf} \dashv coDisc_{inf})
   SynthDiff \infty Grpd
-  \stackrel{\overset{\Pi_{inf}}{\to}}{\stackrel{\overset{Disc_{inf}}{\leftarrow}}{\underset{\Gamma_{inf}}{\to}}}
+   \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\underset{i^!}{\leftarrow}}}}
   Smooth \infty Grpd
   \,.
 $$
 
 =--
 
-(...)
 
-This induces the following infinitesimal analogs of the structures in $SynthDiff \infty Grpd$.
-
-
-
-
-+-- {: .un_def}
-###### Definition
-
-Write
-
-$$
-  (\mathbf{\Pi}_{inf} \dashv \mathbf{\flat}_{inf})
-  :=
-  (LConst_{inf} \circ \Pi_{inf} \dashv LConst_{inf} \circ \Gamma_{inf})
-  :
-  SynthDiff \infty Grpd
-  \stackrel{\leftarrow}{\to}
-  SynthDiff \infty Grpd
-$$
-
-for the composite [[adjunction]]. For $X,A \in SynthDiff\infty Grpd$ we call $\mathbf{\Pi}$.
-
-For $X \in \infty Grpd$ we write $\mathbf{\Pi}_{inf,dR}(X)$ for the [[homotopy cofiber]] of the unit $X \to \mathbf{\Pi}_{inf}(X)$, i.e. for the [[pushout]]
-
-$$
-  \array{
-    X &\to& *
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    \mathbf{\Pi}_{inf}(X) &\to& \mathbf{\Pi}_{inf,dR}(X)
-  }
-$$
-
-in $SynthDiff \infty Grpd$.
-
-For $* \to A \in SynthDiff \infty Grpd$ a [[pointed object]], we write $\mathbf{\flat}_{inf,dR} A$ for the [[homotopy fiber]] of the counit $\mathbf{\flat}_{inf} A \to A$, i.e. for the [[pullback]]
-
-$$
-  \array{
-    \mathbf{\flat}_{inf,dR}A &\to& \mathbf{\flat}_{inf} A
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    * &\to& A
-  }
-$$
-
-in $\infty Grpd$\,.
-
-=--
-
-
-+-- {: .un_def}
-###### Definition
-
-
-We say a morphism of [[nLab:site]]s $i : C \to C_{th} $ is an
-**infinitesimal thickening** of $C$ if it exhibits $C$ as a  [[nLab:reflective subcategory|corefelctive subcategory]] of $C_{th}$, i.e. if 
-
-* $i : C \to C_{th}$ is a [[nLab:full and faithful functor]]
-
-* there exists a [[nLab:right adjoint]] $p : C_{th} \to C$ 
-
-  $$
-    (i \dashv p)
-    : 
-    C \stackrel{\overset{p}{\leftarrow}}{\hookrightarrow}
-    C_{th}
-  $$
-
-and if $p$ preserves covering families.
- 
-=--
-
-Notice that this implies in particular that the unit of the adjunction is a natural isomorphism
-
-$$
-  U \stackrel{\simeq}{\to} p(i(U)) 
-  \,,
-$$
-
-natural in $U \in C$.
-
-The adjunction formalizes the idea that an [[nLab:infinitesimal object]] has a unique ordinary point: if $U$ is an object without infinitesimal extension and $U \times D$ an infinitesimal thickening of it in that $p(U\times D) = U$, then for $V$ any other object without infinitesimal extension, morphisms $V \to U \times D$ are the same as morphisms $V \to U$, because all morphisms $V \to D$ from the finite to the infinitesimal object have to factor through the unique point $* \to D$. This is what the adjunciton in the above definition asserts.
-
-
-
-+-- {: .un_example}
-###### Example
-
-
-Let $C =$ [[nLab:CartSp]] be the category of [[nLab:Cartesian space]]s equipped with the [[nLab:good open cover]] [[nLab:coverage]].
-
-Let $C_{th} := $ [[nLab:ThCartSp]] be the category of thickened Cartesian spaces, the [[nLab:full subcategory]] of [[nLab:smooth loci]] on those of the form $\mathbb{R}^n \times \ell W$ for $n \in \mathbb{N}$ and $W$ a Weil algebra in the sense of [[nLab:synthetic differential geometry]].
-
-Let $C_{th}$ be equipped with the [[nLab:coverage]] whose [[nLab:covering]] families are products $\{U_i \times \ell W \to U \times \ell W\}$ of a [[nLab:good open cover]] $\{U_i \to U\}$ of a [[nLab:Cartesian space]] $U$ with an [[nLab:infinitesimal space]] $\ell W$.
-
-Let $i : CartSp \hookrightarrow ThCartSp $ be the canonical embedding. This is evidently a [[nLab:full and faithful functor]] that preserves covers. The projection $p : U \times \ell W \mapsto U$ for $U \in CartSp$ extends to a projection functor $p : ThCartSp \to CartSp$. This is evidently surjective on objects.
-
-Notice that the characteristic feature of the [[nLab:infinitesimal space]]s $\ell W$ is that for any $U \in CartSp$ we have
-
-$$
-  Hom_{ThCartSp}(i(U), \ell W) = \{U \to * \to \ell W\}
-  \,.
-$$
-
-It follows that for $U,V \in CartSp$ and $\ell W$ an infinitesimal space that
-
-$$
-  Hom_{ThCartSp}(U, V \times \ell W)
-  =
-  Hom_{ThCartSp}(U,V)
-  = 
-  Hom_{CartSp}(U,V)
-  =
-  Hom_{CartSp}(U, p(V \times \ell W))
-  \,.
-$$
-
-=--
-
-+-- {: .un_def}
-###### Definition
-
-For $i : C \to C_{th}$ an infinitesimal thickening of [[nLab:site]]s, we say that the corresponding [[nLab:geometric morphism]] of [[nLab:(∞,1)-sheaf]] [[nLab:(∞,1)-topos]]es
-
-$$ 
-  Sh_{(\infty,1)}(C_{th}) \stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}
-  Sh_{(\infty,1)}(C)
-$$
-
-exhibits $\mathbf{H}_{th} = Sh_{(\infty,1)}(C_{th})$ as an **infinitesimal thickening** of $\mathbf{H}_{red} = Sh_{(\infty,1)}(C)$. 
-
-=--
-
-+-- {: .un_prop}
-###### Proposition
-
-Infinitesimal thickenings of $(\infty,1)$-toposes are [[nLab:essential geometric morphism]]s:
-
-$$
-  (\Pi_{inf} \dashv LConst_{inf} \dashv \Gamma_{inf})
-  :
-  Sh_{(\infty,1)}(C_{th})
-  \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}}
-  Sh_{(\infty,1)}(C)
-  \,.
-$$
-
-=--
 
 +-- {: .proof}
 ###### Proof
+
+Observe that $i$ has a [[right adjoint]] $p : CartSp_{synthdiff} \to CartSp_{smooth}$ given by the projection $p : U \times D\mapsto U $. This exhibits $CartSp_{smooth}$ as a [[coreflective subcategoy]]
+
+$$
+  (i \dashv p ) : CartSp_{synthdiff} 
+   \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\to}}
+  CartSp_{smooth}
+  \,.
+$$
 
 
 As before, we present the $(\infty,1)$-toposes in question by the <a href="http://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#LocalizationAtCoverage">Left Bousfield localization at the coverage</a> $[C^{op}, sSet]_{proj,cov}$ of the global projective [[nLab:model structure on simplicial presheaves]].
@@ -500,10 +394,11 @@ We discuss what some of the general abstract <a href="http://ncatlab.org/nlab/sh
 
 Section 3.4 of 
 
-* [[Urs Schreiber]], [[schreiber:differential cohomology in a cohesive topos]]
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
-For references for the [[sheaf topos]] over [[CartSp]]${}_{synthdiff}$ see [[Cahiers topos]].
+The site [[CartSp]]${}_{synthdiff}$ is discussed in section 5 of
 
+* [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_ ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_1_3_0)).
 
 
 [[!redirects synthetic differential ∞-groupoid]]
