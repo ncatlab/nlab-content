@@ -53,7 +53,20 @@ $$
 $$
 
 
++-- {: .num_remark}
+###### Remark
 
+In particular the theorem hence asserts that the $G$-[[equivariant homotopy theory]] is an [[(∞,1)-topos]].
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+There is an evident generalization of the [[orbit category]] of a fixed group to the [[global orbit category]]. Under this generalization an analog of Elmendorf's theorem plays a cental role in [[global equivariant homotopy theory]] ([Rezk 14](#Rezk14)).
+
+=--
 
 
 
@@ -82,5 +95,10 @@ For futher discussion see for instance
 A generalization to [[orbispaces]] is discussed in 
 
 * [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
+
+Discussion in the broader context of [[global equivariant homotopy theory]] is in 
+
+* {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
+
 
 [[!redirects Elmendorf theorem]]
