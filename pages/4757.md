@@ -1,6 +1,12 @@
 
+# Sitting instants
+* table of contents
+{: toc}
 
-## Idea
+## Definition
 
-A [[continuous map]] $f : X \to Y$ from a [[manifold with boundary]] to some [[topological space]] $Y$ is said to have **sitting instants** if there is an open neighbourhood $\partial X \subset U \subset X$ of the boundary  such that the restriction of $f$ to that neighbourhood is constant on each connected component.
+A [[continuous map]] $f\colon X \to Y$ from a [[manifold with boundary]] to a [[space]] $Y$ is said to have **sitting instants** if there is an [[open neighbourhood]] $\partial X \subset U \subset X$ of the boundary such that the [[restriction]] $f|_U$ of $f$ to that neighbourhood is [[locally constant map|locally constant]] (constant on each connected component).
 
+
+[[!redirects sitting instant]]
+[[!redirects sitting instants]]
