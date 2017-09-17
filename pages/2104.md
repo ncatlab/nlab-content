@@ -214,6 +214,12 @@ Again, here the [[kinetic action functional]] is part of the [[measure]], now un
 
 This is the setup in which one can derive [[Feynman diagram]] rules form cohomologicalquantization, see at _[Feynman diagram -- Refereces -- In homological BV-quantization](Feynman+diagram#ReferencesInHomologicalBVQuantization)_.
 
+## Examples
+
+* [[quantum harmonic oscillator]]
+
+* [[quantization of Chern-Simons theory]]
+
 
 ## Related entries
 
