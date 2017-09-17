@@ -73,7 +73,7 @@ The other most common sorts of generalized category, such as [[internal categori
 ### Definition as a double category
  {#DefinitionAsDoubleCategory}
 
-We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. This description relates to viewing a 2-category as an [[internal category]] in [[Cat]] by the theory of _[[internal (∞,1)-categories]]_. For more on this relation see at _[Segal space - Examples - In 1Grpd](http://ncatlab.org/nlab/show/Segal%20space#ExamplesInIGrpd)_.
+We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. 
 
 Given a 2-category $K$ equipped with proarrows, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
 $$\array{A & \overset{H}{\to} & C \\
@@ -190,6 +190,15 @@ In conclusion, we have three definitions of proarrow equipment:
 * A double category in which every niche has a cartesian filler.
 
 While the first definition is perhaps simpler, for some purposes the second and third definitions are preferable.  For instance, the definition of the 3-category of "2-categories equipped with proarrows" is much more naturally defined by viewing them as double categories.  (See Dominic Verity's thesis and Mike Shulman's paper on framed bicategories.)  It also generalizes better to situations in which not all proarrows have composites; see "virtual equipments," below.
+
+### As a category internal to $Cat$
+
+We discuss how a 2-category with proarrow equipment is an [[internal category]] in the [[(2,1)-category]] [[Cat]] in the sense of the theory of _[[internal (∞,1)-categories]]_. 
+
+(...)
+
+For the moment see at _[Segal space - Examples - In 1Grpd](http://ncatlab.org/nlab/show/Segal%20space#ExamplesInIGrpd)_.
+
 
 
 ### Related notions
@@ -376,3 +385,6 @@ A blog post surveying ideas of proarrow equipments, much of which has been copie
 [[!redirects proarrow]]
 [[!redirects proarrows]]
 [[!redirects 2-category equipped with pro-arrows]]
+
+[[!redirects 2-category with proarrow equipment]]
+[[!redirects 2-categories with proarrow equipment]]
