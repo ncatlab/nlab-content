@@ -139,6 +139,27 @@ See also [[n-connected/n-truncated factorization system]].
 
 This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A construction of the factorization in terms of a [[model category]] [[presentable (∞,1)-category|presentation]] is in ([Rezk, prop. 8.5](#Rezk)).
 
+### The truncated / connected clock
+ {#Clock}
+
+In a [[hypercomplete (∞,1)-topos]] the $\infty$-connected morphisms are precisely the [[equivalence in an (∞,1)-category|equivalences]].
+
+Therefore in such a context we have the following "clock" of notions of [[truncated object in an (infinity,1)-category]] / connected :
+
+* any morphism = $(-2)$-connected
+
+* [[effective epimorphism in an (∞,1)-category|effective epimorphism]] = $(-1)$-connected
+
+* 0-connected, 1-connected, 2-connected, $\cdots$;
+
+* $\infty$-connected = [[equivalence in an (∞,1)-category|equivalence]] = $(-2)$-truncated
+
+* [[monomorphism in an (∞,1)-category|monomorphism]] = $(-1)$-truncated
+
+* 0-truncated, 1-truncated, 2-truncated, $\cdots$
+
+* $\infty$-truncated = any morphism
+
 ## Examples
 
 
