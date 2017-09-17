@@ -1,0 +1,3 @@
+
+* Wikipedia, _[Black hole information paradox](http://en.wikipedia.org/wiki/Black_hole_information_paradox)_
+
