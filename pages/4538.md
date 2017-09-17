@@ -63,9 +63,9 @@ $$
 
 =--
 
-+-- {: .num_theorem #OrdinaryStatement}
++-- {: .num_theorem #OrdinaryStatementInCohomology}
 ###### Theorem
-**(universal coefficient theorem)**
+**(universal coefficient theorem in ordinary cohomology)**
 
 The morphism $h$ is surjective and its [[kernel]] is the [[Ext group]] $Ext^1(H_{n-1}(C, \mathbb{Z}), A)$. In other words, there is 
 a [[short exact sequence]]
@@ -76,7 +76,7 @@ $$
    \to 
    H^n(C, A) 
    \to 
-   Hom(H_n(C), A)
+   Hom_{Ab}(H_n(C), A)
    \to 
    0
   \,.
@@ -86,8 +86,116 @@ Moreover, this sequence [[split exact sequence|splits]] (non-canonically).
 
 =--
 
-A direct proof is given for instance in ([Boardman](#Boardman)).
+We reproduce the direct proof given for instance in ([Boardman](#Boardman)).
 
++-- {: .num_lemma }
+###### Lemma
+
+Given homomorphism $A_1 \stackrel{f}{\to} A_2 \stackrel{g}{\to} A_3$ of [[abelian groups]] together with a [[section]] $s : A_3 \to A_2$ of $g$, there is a [[split exact sequence|split]] [[short exact sequence]] of [[cokernels]]
+
+$$
+  0 \to coker f \stackrel{g'}{\to} coker(g \circ f) \to coker(g) \to 0
+  \,.
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof (of theorem \ref{OrdinaryStatementInCohomology})
+
+Write 
+
+$$
+  0 \to B_n \to Z_n \to H_n \to 0
+$$
+
+for the [[short exact sequence]] of [[boundaries]], [[cycles]], and [[homology groups]] of $C_\bullet$ in degree $n$. Since $C_n$ is assumed to be a [[free abelian group]] and since $B_n$ and $Z_n$ are [[subgroups]], it follows that these are also free abelian. Therefore this sequence exhibits a [[projective resolution]] of the group $H_n$. It follows that the [[Ext]]-group $Ext^1(H_n,A)$ is characterized by the short exact sequence
+
+$$
+  Hom(Z_n, A) \to Hom(B_n,A) \to Ext^1(H_n,A) \to 0
+  \,.
+$$
+
+Notice also that the short exact sequence
+
+$$
+  0 \to Z_n \to C_n \stackrel{\partial}{\to} B_{n-1} \to 0
+$$
+
+is split because, as before, $B_{n-1}$ is free abelian. Using these two exact sequences on the left and right of the short exact sequence
+
+$$
+  0 \to Z_n/B_n \to C_n/B_n \to C_n/Z_n \to 0
+$$
+
+shows that this is equivalent to
+
+$$
+  0 \to H_n \to C_n/B_n \stackrel{\partial}{\to} B_{n-1}
+  \,.
+$$
+
+Again this splits as $B_{n-1}$ is free abelian. Choose a splitting 
+
+$$
+  s : B_{n-1} \to C_n / B_n
+  \,.
+$$
+
+In addition to these exact sequence consider the decomposition
+
+$$
+  \partial
+  : 
+  C_n
+  \to
+  C_n/B_n
+  \to 
+  C_n/Z_n
+  \stackrel{\simeq}{\to}
+  B_{n-1}
+  \hookrightarrow
+  Z_{n-1}
+  \hookrightarrow
+  C_{n-1}
+$$
+
+and apply $Hom(-,A)$ to obtain the diagram
+
+$$
+  \array{
+    && && 0
+    \\
+    && && \uparrow
+    \\
+    && && Hom(H_n,A)
+    \\
+    && && \uparrow
+    \\
+    Hom(B_n,A) &\leftarrow& Hom(C_n,A)
+    &\leftarrow&
+    Hom(C_n/B_n,A)
+    &\leftarrow&
+    0
+    &&   
+    0
+    \\
+    && && \uparrow^{\mathrlap{Hom(\bar \partial,A)}}
+    && && \uparrow
+    \\
+    0 &\leftarrow& Ext^1(H_n,A) &\leftarrow& Hom(B_{n-1},A)
+    && \leftarrow &&
+    Hom(Z_{n-1},A)
+    \\
+    && && \uparrow && && \uparrow
+    \\
+    && && 0 && Hom(C_{n-1},A)
+  }
+$$
+
+Now (...)
+
+=--
 
 
 
@@ -359,7 +467,7 @@ for the [[normalized chain complex]] of the [[simplicial abelian group]] obtaine
 
 The _[[singular homology]]_ $H_\bullet(X)$ of $X$ is the [[chain homology]] of $C_\bullet(X)$, and for $A$ some [[coefficient]] [[abelian group]], the [[singular cohomology]] $H^\bullet(X,A)$ is the [[cochain cohomology]], of $C_\bullet(X)$ with coefficients in $A$.
 
-Comparison with the ordinary universal coefficient theorem \ref{OrdinaryStatement} shows that:
+Comparison with the ordinary universal coefficient theorem \ref{OrdinaryStatementInCohomology} shows that:
 
 +-- {: .num_theorem #OrdinaryStatementInTopology}
 ###### Theorem
@@ -368,7 +476,7 @@ Comparison with the ordinary universal coefficient theorem \ref{OrdinaryStatemen
 For $X$ a [[topological space]], $A$ an [[abelian group]] and $n \geq 1 \in \mathbb{N}$, the [[singular homology]] and [[singular cohomology]] of $X$ fit into a [[split exact sequence|split]] [[short exact sequence]] of the form
 
 $$
-  0 \to Ext^1(H_{n-1}(X)) \to H^n(X,A) \to Hom(H_n(X), A) \to 0
+  0 \to Ext^1(H_{n-1}(X)) \to H^n(X,A) \to Hom_{Ab}(H_n(X), A) \to 0
   \,.
 $$
 
