@@ -5,6 +5,10 @@
 +-- {: .hide}
 [[!include discrete and concrete objects - contents]]
 =--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
 =--
 =--
 
@@ -61,6 +65,16 @@ to a [[base topos]] $\mathbf{B}$ (for instance [[Set]]), for which both $Disc$ a
 
 Even more generally, $\mathbf{H}$ may be a [[local (∞,1)-topos]]. For more on the discrete objects in such a context see _[[discrete ∞-groupoid]]_ .
 
+Equivalently, this [[adjoint triple]] induces an [[adjoint pair]] of [[modalities]]
+
+$$
+  (\flat \dashv \sharp)
+  \coloneqq
+  ( Disc \Gamma \dashv coDisc \Gamma)
+  \,,
+$$
+
+the _[[flat modality]]_ and the _[[sharp modality]]_. The discrete objects are precisely the [[modal types]] for the [[flat modality]]. The [[codiscrete objects]] are the modal types for the [[sharp modality]].
 
 ### Topological categories, fibrations, and final lifts
 
