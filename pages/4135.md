@@ -25,7 +25,23 @@ $$
 *\alpha=\frac{1}{k!(n-k)!}\epsilon_{i_1,\dots, i_n}\sqrt{det(g)} \alpha_{j_1\dots j_k} g^{i_1 j_1}\cdots g^{i_k j_k} e^{i_{k+1}}\wedge\cdots\wedge e^{i_n},
 $$ 
 
-where $\epsilon_{i_1,\dots,i_n}$ is sign of the permutation $(1,2,\dots,n)\mapsto (i_1,i_2,\dots, i_n)$.
+where $\epsilon_{i_1,\dots,i_n}$ is [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots, i_n)$.
+
+## Properties
+
+### General
+
+Let $(X,g)$ be a [[Riemannian manifold]] of [[dimension]] $d$ and let $\omega,\lambda \in \Omega^p(X)$. Then
+
+* $\star (\star \omega) = (-1)^{p(d+1)} \Omega$;
+
+* $(\star \omega, \star \lambda) = (\omega, \lambda)$.
+
+## References
+
+Some useful basic formulas are listed in 
+
+* _Hodge theory on Riemannian manifolds_ lecture notes ([pdf](http://math.uh.edu/~minru/Riemann08/hodgetheory.pdf))
 
 
 [[!redirects Hodge star]]
