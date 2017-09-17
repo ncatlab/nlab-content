@@ -7,4 +7,6 @@
 
 * [[synthetic differential geometry]]
 
+* [[Galois topos]]
+
 category: people
