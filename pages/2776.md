@@ -40,7 +40,12 @@ The notion of topological chiral homology should be closely related to that of
 
 and be related to concepts in
 
-* [[AQFT]],
+* [[AQFT]].
+
+Other related concepts
+
+* [[nonabelian Poincaré duality]]
+
 
 ## References
 
