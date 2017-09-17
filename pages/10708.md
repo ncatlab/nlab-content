@@ -52,6 +52,11 @@ $$
 (see at [[smash product theorem]])
 it follows that in principle one can study a spectrum $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. This is the topic of [[chromatic homotopy theory]].
 
+## Related concepts
+
+* [[chromatic layer]]
+
+* [[smash product theorem]]
 
 ## References
 
