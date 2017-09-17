@@ -5,14 +5,15 @@
 
 ##The Idea##
 
-A quandle is a set equipped with a binary operation satisfying axioms analogous to the three [[Reidemeister moves]] in knot theory.  A quandle is a special case of a [[rack]].  
+A quandle is a set equipped with a binary operation satisfying axioms analogous to the three [[Reidemeister moves]] in knot theory.  A quandle is a special case of a [[rack]].  .
 
 While mainly used to obtain invariants of [[knot|knots]], quandles are interesting algebraic structures in their own right. In particular, the definition of a quandle axiomatizes the properties of conjugation in a group.  More abstractly, we can say that a quandle is an algebraic structure where every element acts as an automorphism of that structure, fixing that element.
 
 
 ##Definition##
 
-A **quandle** is a [[rack]] obeying the law
+A __quandle__ is a selfdistributive idempotent right [[quasigroup]]. 
+In more detail, a **quandle** is a [[rack]] obeying the law
 
 $$ a \triangleright a = a $$
 
@@ -78,24 +79,22 @@ He attributes this result to:
 
 * Ottmar Loos, _Symmetric Spaces I_, Chapter II, Benjamin, New York, 1969.
 
-[[!redirects quandles]]
-
-
-
 
 ## References ##
 
+* [[Dominic Joyce]], _A classifying invariant of knots; the knot quandle_, J. Pure Appl. Alg. __23__ (1982), 37-65
+
 * Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
-* Sam Nelson, [Quandle theory](http://www.esotericka.org/pomona/quandles.html).
+* J. Scott Carter, _A survey of quandle ideas_, [arxiv](http://arxiv.org/abs/1002.4429).
 
-* J. Scott Carter, [A survey of quandle ideas](http://arxiv.org/abs/1002.4429).
+* Seiichi Kamada, _Knot invariants derived from quandles and racks+, [arxiv](http://arxiv.org/abs/math/0211096).
 
-* Seiichi Kamada, [Knot invariants derived from quandles and racks](http://arxiv.org/abs/math/0211096).
+* J. Scott Carter, Masahico Saito, _Quandle homology theory and cocycle knot invariants_, [arxiv](http://arxiv.org/abs/math/0112026).
 
-* J. Scott Carter and Masahico Saito, [Quandle homology theory and cocycle knot invariants](http://arxiv.org/abs/math/0112026).
+* Alissa Crans, _Shelves, racks, spindles and quandles_, [arxiv](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_.
 
-* Alissa Crans, [Shelves, racks, spindles and quandles](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_.
+* Michael Eisermann, _Quandle coverings and their Galois correspondence_, [pdf](http://www.igt.uni-stuttgart.de/eiserm/publications/qcovering.pdf)
 
 The last reference makes it clear that quandles are algebras of a [[Lawvere theory]], so that quandles may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).  It also shows that any Lie algebra gives a quandle in the category of cocommutative [[coalgebra|coalgebras]].
 
