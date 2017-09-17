@@ -13,3 +13,7 @@ Such a span is a relation iff the pairing map from the **graph** $\Gamma_r$ to $
 The [[axiom of choice]] says precisely that every entire relation contains a [[function]].  Failing that, the [[COSHEP]] axiom may be interpreted to say that, given $X$, there is a single surjection $\pi_X: \Gamma_X \to X$ such that every entire relation from $X$ contains a relation given by a span whose left leg is $\pi_X$.  In any case, entire relations may be preferable to functions in some contexts where the axiom of choice fails.
 
 When [[internalization|internalising]] entire relations to a [[site]], one may want to replace the projection map $\pi_r: \Gamma_r \to X$ by a [[cover|covering family]].
+
+
+[[!redirects entire relation]]
+[[!redirects entire relations]]
