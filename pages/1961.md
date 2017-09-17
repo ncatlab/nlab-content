@@ -158,12 +158,22 @@ See [[Frölicher space]] and [[diffeological space]] for the definitions in thei
 * [[G-structure]]
 * [[tangent cone]]
 
+* [[Lie algebra]]
+
 ## References
 
-A formalization/axiomatization with an eye towards [[synthetic differential geometry]] is in 
+A textbook account of tangent bundles in the context of [[synthetic differential geometry]] is in 
 
-*  [[J.R.B. Cockett]], G. Cruttwell, _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://geoff.reluctantm.com/publications/sman2.pdf))
+* [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
+
+Further discussion of axiomatizations in this context is in
+
+*  [[J.R.B. Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://geoff.reluctantm.com/publications/sman2.pdf))
  {#CockettCruttwell}
+
+Discussion for [[diffeological spaces]] is in 
+
+* Carlos Torre, _A tangent bundle for diffeological spaces_ ([arXiv:math/9801046](arxiv.org/abs/math/9801046))
 
 [[!redirects tangent vector]]
 [[!redirects tangent space]]
