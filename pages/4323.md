@@ -36,3 +36,7 @@ date back to the fundamental work of [[René Thom]] and is based on the [[fiber 
 
 ## Generalizations
 Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups it corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+
+## Cohomology
+
+Under the [[Brown representability theorem]] the Thom spectrum represents the [[generalized (Eilenberg-Steenrod) cohomology]] theoryy called [[complex cobordism cohomology theory|cobordism cohomology theory]].
