@@ -1,4 +1,4 @@
-This page is about conjunctions in double (or higher) categories; see [[logical conjunction]] (if we ever write it) for the [[meet]] of [[truth values]].
+This page is about conjunctions in double (or higher) categories; see [[logical conjunction]] for the meet of truth values.
 
 ***
 
