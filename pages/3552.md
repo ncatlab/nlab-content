@@ -109,7 +109,7 @@ $$
 is the dg-algebra on a single generator in degree $n$ with vanishing differential, and where
 
 $$
-  S(n) = (\wedge^\bullet (\langle b \rangle \oplus \langle c \rangle), d b = c, d c = 0)
+  D(n) = (\wedge^\bullet (\langle b \rangle \oplus \langle c \rangle), d b = c, d c = 0)
 $$ 
 
 with $b$ an additional generator in degree $n-1$.
