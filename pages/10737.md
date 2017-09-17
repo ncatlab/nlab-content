@@ -56,3 +56,5 @@ More generally, if $A$ is [[finitely generated object|finitely generated]], then
 
 [[!redirects p-complete homotopy type]]
 [[!redirects p-complete homotopy types]]
+
+[[!redirects completion of a space]]
