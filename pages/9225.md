@@ -1,0 +1,36 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For the moment see at _[[BV-complex]]_
+
+## Definition
+
++-- {: .num_defn #BeilinsonDrinfelAlgebra}
+###### Definition
+
+A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[graded algebra]] $A$ over the ring $\mathbb{R} [ [ \hbar ] ]$ of [[formal power series]] in a formal constant $\hbar$, equipped with a [[Poisson 0-algebra|Poisson bracket]] $\{-,-\}$ of degree 1 and with an operator $\Delta \colon A \to A$ of degree 1 which satisfies:
+
+1. $\Delta^2 = 0$
+
+1. $\Delta( a b) = (\Delta a) b  + (-1)^{\vert a\vert} a \delta b + \{a,b\}$ for all homogenous elements $a, b \in A$
+
+=--
+
+In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.5.
+
+## References
+
+A discussion is in
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis (2013) ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+ {#Gwilliam}
+
+
+[[!redirects Beilinson-Drinfeld algebras]]
+
+[[!redirects BD algebra]]
+[[!redirects BD algebras]]
