@@ -122,6 +122,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Chromotopy](http://chromotopy.org) ("chromatic") stable homotopy theory blog -- last update August 2011
 
+* [CSE Blog - quant, math, computer science puzzles](http://pratikpoddarcse.blogspot.com) ~ 250 Quant, Math & Computer Science Puzzles for Interview Preparation & Brain Teasing
+
 * [CTK Insights](http://www.mathteacherctk.com/blog) A blog for teaching
 
 * [degrees of freedom](http://blogs.scientificamerican.com/degrees-of-freedom/) Math and Physics blog of Scientific American written by  Davide Castelvecchi
