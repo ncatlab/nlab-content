@@ -2,16 +2,16 @@
 [[!include higher category theory - contents]]
 </div>
 
-#Contents#
+# Bicategories
 * automatic table of contents goes here
 {:toc}
 
-
-## Idea ##
+## Idea
 
 A **bicategory** is a particular [[algebraic definition of higher category|algebraic]] notion of _weak [[2-category]]_ (in fact, the earliest to be formulated, and still the one in most common use).  The idea is that a bicategory is a category _weakly_ [[enriched category|enriched]] over [[Cat]]: the [[hom-objects]] of a bicategory are [[hom-category|hom-categories]], but the associativity and unity laws of [[enriched category|enriched categories]] hold only up to coherent isomorphism.
 
-## Definition ##
+
+## Definition
 
 A **bicategory** $B$ consists of
 
@@ -22,6 +22,14 @@ A **bicategory** $B$ consists of
 * Natural isomorphisms $f \circ 1_x \cong f \cong 1_y \circ f$ (the [[unitor]]s and $h\circ (g\circ f) \cong (h \circ g)\circ f$ (the [[associator]]) which satisfy the same axioms as the constraint isomorphisms in a [[monoidal category]].
 
 If there is exactly one 0-cell, say $*$, then the definition is exactly the same as a monoidal structure on the category $B(*,*)$.  This is one of the motivating examples behind the [[delooping hypothesis]] and the general notion of [[k-tuply monoidal n-category]].
+
+
+## Details
+{#detailedDefn}
+
+Compared to the [detailed definition of strict $2$-category](/nlab/show/strict+2-category#detailedDefn), this has an extra level of structure (or $2$-structure).
+
+...
 
 
 ## Examples ##
