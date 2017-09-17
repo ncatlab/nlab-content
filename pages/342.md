@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -46,6 +46,7 @@ The invertibiliy of the $(n,k)$-transformations is that of their components whic
 =--
 
 ## Definition
+ {#Definition}
 
 Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
 
@@ -53,6 +54,18 @@ Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as 
 * any two parallel $j$-morphisms are equivalent, for $j \gt n$.
 
 As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
+
+In terms of the standard notion of [[(∞,n)-categories]] we can make this precise as follows:
+
++-- {: .num_defn}
+###### Definition
+
+For $-2 \leq n \leq \infty$, an **[[(n,0)-category]]** is an [[∞-groupoid]] that is [[n-truncated]]: an [[n-groupoid]].
+
+For $0 \leq r \lt \infty$, an **(n,r)-category** is an [[(∞,n)-category|(∞,r)-category]] $C$ such that for all [[object]]s $X,Y \in C$ the $(\infty,r-1)$-categorical [[hom-object]] $C(X,Y)$ is an $(n-1,r-1)$-category.
+
+=--
+
 
 You can also start with a notion of $n$-[[n-poset|poset]], then define an $(n,r)$-category to be an $(n+1)$-poset such that any $j$-morphism is an [[equivalence]] for $j \gt r$. Or, for $r \leq n$, you can start with a notion of $n$-[[n-category|category]], then define an $(n,r)$-category to be an $n$-category such that any $j$-morphism in an [[equivalence]] for $j \gt r$.
 
