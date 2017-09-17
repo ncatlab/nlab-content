@@ -27,9 +27,9 @@
 
 ### The $n$POV {#nPOVIdea}
 
-What in [[physics]] is called **BV-BRST formalism** or just **BV-formalism** is from the [[nPOV]] the following:
+A [[BRST-complex]] is a [[Chevalley-Eilenberg algebra]] of an [[action Lie algebroid]]. A **BV-BRST complex** is the same for a [[derived ∞-Lie algebroid]].
 
-the _configuration space_ $Conf$ of a physical system -- notably that of a [[gauge theory]] -- is in general not a naive space, such as a [[manifold]], but instead a [[space]] in the general sense of [[higher geometry]]: it is in fact an object in the [[(∞,1)-topos]] of [[∞-stack]]s/[[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on the [[(∞,1)-site]] 
+the _configuration space_ $Conf$ of a physical system -- notably that of a [[gauge theory]] -- is in general not a naive space, such as a [[manifold]], but instead a [[space]] in the general sense of [[higher geometry]]: it is in fact an object in the [[(∞,1)-topos]] of [[derived stack]]s/[[(∞,1)-category of (∞,1)-sheaves|(∞,1)-sheaves]] on the [[(∞,1)-site]] 
 
 $$
   C :=(dgAlg_k^-)^{op}
