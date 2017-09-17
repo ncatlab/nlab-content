@@ -91,3 +91,5 @@ for the [[Lie algebra]] of the group of bisections.
 Then $(C^\infty(X), \mathfrak{g})$ is the [[Lie-Rinehart algebra]] corresponding to the [[Lie algebroid]] of the Lie groupoid.
 
 [[!redirects bisections of a Lie groupoid]]
+
+[[!redirects group of bisections]]
