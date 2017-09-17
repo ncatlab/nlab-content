@@ -1112,7 +1112,7 @@ Taken together, these constructions allow us to express a good deal of the gener
 
 #### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
 
-There are different equivalent definitions of the classical notion of a connection. One that is useful for our purposes is that a connection $\nabla$ on a $G$-principal bundle $P \to X$ is a rule $tra_\nabla$ for [[parallel transport]] along paths: a rule that assigns to each path $\gamma : [0,1] \to X$ a moprhism $tra_\nabla(\gamma) : P_x \to P_y$ between the fibers of the bundle above the endpoints of these paths, in a compatible way:
+There are different equivalent definitions of the classical notion of a connection. One that is useful for our purposes is that a connection $\nabla$ on a $G$-principal bundle $P \to X$ is a rule $tra_\nabla$ for [[parallel transport]] along paths: a rule that assigns to each path $\gamma : [0,1] \to X$ a morphism $tra_\nabla(\gamma) : P_x \to P_y$ between the fibers of the bundle above the endpoints of these paths, in a compatible way:
 
 
 $$
@@ -1144,7 +1144,7 @@ Say a $U$-parameterized smooth family of points in $[I,X]_{si}^{th}$ is one that
 
 =--
 
-The passage to the subset and qotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition is essentially the minimal adjustment to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
+The passage to the subset and quotient $[I,X]_{si}^{th}$ of the set of all smooth paths in the above definition is essentially the minimal adjustment to enforce that the concatenation of smooth paths at their endpoints defines the composition operation in a groupoid.
 
 +-- {: .un_prop}
 ###### Definition
@@ -1266,7 +1266,7 @@ where on the right we have the [[groupoid of Lie-algebra valued 1-forms]]:
 This equivalence is [[natural transformation|natural]] in $X$, so that we obtain another smooth groupoid
 
 +-- {: .un_def}
-###### Defintion
+###### Definition
 
 Define $\mathbf{B}G_{conn} : CartSp^{op} \to Grpd$ to be the (generalized) Lie groupoid
 
@@ -1310,7 +1310,7 @@ This is equivalent to any of the [[connection on a bundle|standard definitions]]
 
 Let $[I,X]_{si}^{th} \to [I,X]^h$ the projection onto the full quotient by smooth [[homotopy]] classes of paths.
 
-Write $\mathbf{\Pi}_1(X) = ([I,X]^h \stackrel{\to}{\to} X)$ for the smooth groupoid defined as $\mathbf{P}_1(X)$, but where inthead of thin homotopies, all homotopies are divided out.
+Write $\mathbf{\Pi}_1(X) = ([I,X]^h \stackrel{\to}{\to} X)$ for the smooth groupoid defined as $\mathbf{P}_1(X)$, but where instead of thin homotopies, all homotopies are divided out.
 
 =--
 
@@ -1387,7 +1387,7 @@ where on the right we have the [[2-groupoid of Lie 2-algebra valued forms]] whos
   $A' = \lambda A \lambda^{-1} + \lambda d \lambda^{-1} + \delta_* a$
   and $B' = \lambda(B) + d_{dR} a + [A\wedge a]$
 
-* 2-morphims are (exercise).
+* 2-morphisms are (exercise).
 
 =--
 
