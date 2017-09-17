@@ -58,4 +58,8 @@ Examples appear at
 * Michael Barr, John F. Kennison, R. Raphael, _Isbell Duality_ ([pdf](http://www.tac.mta.ca/tac/volumes/20/15/20-15.pdf))
 
 
+[[!redirects dualizing objects]]
 [[!redirects ambimorphic object]]
+[[!redirects ambimorphic objects]]
+[[!redirects schizophrenic object]]
+[[!redirects schizophrenic objects]]
