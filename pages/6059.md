@@ -1,0 +1,44 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Twisted differential K-theory_ is supposed to be the [[twisted cohomology]] version of the [[differential cohomology]] called [[K-theory]]: the combination of [[differential K-theory]] and [[twisted K-theory]].
+
+It is clear which basic properties one wants to demand of such a structure: it should be an extension of [[twisted de Rham cohomology]] by [[twisted K-theory]] via the [[twisted Chern character]] map.
+
+
+## Related concepts
+
+* [[K-theory]]
+
+* [[topological K-theory]]
+
+* [[twisted K-theory]]
+
+* [[differential K-theory]]
+
+* **twisted differential K-theory**
+
+## References
+
+
+* [[Alan Carey]], _Differential twisted K-theory and applications_ , ESI preprint ([pdf](http://www.esi.ac.at/preprints/esi1945.pdf))
+ {#Carey}
+
+* [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
+ {#KahleValentino}
+
+
+[[!redirects differential twisted K-theory]]
