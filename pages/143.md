@@ -589,5 +589,6 @@ The book by Kashiwara and Shapira discusses sheaves with motivation from [[homol
 
 * Kashiwara, Shapira, [[Categories and Sheaves]], Springer
 
+* Dugger, Sheaves and Homotopy Theory ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 [[!redirects sheaves]]
