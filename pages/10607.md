@@ -218,6 +218,8 @@ it induces on its [[category of presheaves]] an adjoint modality whose [[right a
 
 * [[category of being]]
 
+* [[Galois connection]]
+
 ## References
 
 * [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
