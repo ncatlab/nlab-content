@@ -136,8 +136,19 @@ If $V$ is a complex vector space with $\dim(V) = 2m+1$, then $\mathbb{C}l(V) \co
 
 +-- {: .proof}
 ###### Proof
-We can check directly that $\mathbb{C}l(\mathbb{C}^2) \cong M_2(\mathbb{C})$: Let $e_1, e_2$ be two orthogonal basis vectors of $\mathbb{C}^2$. The map $e_1 \mapsto \begin{pmatrix}0 & 1 \\ 1 & 0 \end{pmatrix}$, $e_2 \mapsto \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ defines an isomorphism of [[superalgebras]]. By induction we then have $\mathbb{C}l(\mathbb{C}^{2m}) \cong \mathbb{C}l(\mathbb{C}^{2m-2}) \otimes \mathbb{C}l(\mathbb{C}^{2})$.
+We can check directly that $\mathbb{C}l(\mathbb{C}^2) \cong M_2(\mathbb{C})$: Let $e_1, e_2$ be two orthogonal basis vectors of $\mathbb{C}^2$. The map $e_1 \mapsto \begin{pmatrix}0 & 1 \\ 1 & 0 \end{pmatrix}$, $e_2 \mapsto \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}$ defines an isomorphism of [[superalgebras]]. By induction we then have $\mathbb{C}l(\mathbb{C}^{2m}) \cong \mathbb{C}l(\mathbb{C}^{2m-2}) \otimes \mathbb{C}l(\mathbb{C}^{2})$. The odd dimensional case is similar.
 =--
+
+From the above theorem we deduce that $\mathbb{C}l(V)$ has exactly two (graded) simple modules $S$ and $\Pi S$ ($S$ with the reversed grading) in the even-dimensional case and exactly one graded simple module $S = S_0 \otimes D$ in case the dimension is odd. 
+
+The classification of Clifford algebras is a little more intricate in the case of real vector spaces. Here we can without loss of generality assume that $V$ is the [[super vector space]] $\mathbb{R}^{s|t}$. The structure of the real Clifford algebras is dictated by the [[super Brauer group]].
+
++-- {: .un_defn}
+###### Definition
+A [[superalgebra]] is called a *[[super division algebra]]* if all nonzero homogeneous elements are invertible. A real [[superalgebra]] $A$ is called *central simple* if $A \otimes \mathbb{C} \cong M_{s|t}(\mathbb{C})$ or $A \otimes \mathbb{C} \cong M_n(\mathbb{C}) \otimes D$ (with $D$ as above) as superalgebras. We will write *CS superalgebra* for short. 
+=-- 
+
+There are a lot of different characterizations of CS [[superalgebras]], see for example [Varadarajan 04, Theorem 6.2.5](#Varadarajan04). For example, each CS [[superalgebra]] over a field $k$ of characteristic $0$ is isomorphic to $M_{s|t}(k) \otimes K$ for some [[super division algebra]] $K$ over $k$ such that its [[supercenter]] is $k$. 
 
 (...)
 
