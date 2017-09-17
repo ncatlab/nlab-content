@@ -46,6 +46,9 @@ Applications to [[supergravity]] are discussed in
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_ ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
+* [[Chris Hull]], _Generalised Geometry for M-Theory_ ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
+ {#Hull}
+
 For more along these lines see the references at _[[exceptional generalized geometry]]_.
 
 [[!redirects exceptional geometries]]
