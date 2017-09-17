@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _Adams operations_ are endo-[[cohomology operations]] on [[K-theory]].
+The _Adams operations_ are endo-[[cohomology operations]] on [[K-theory]]. They are an example of [[power operations]].
 
 ## Definition
 
