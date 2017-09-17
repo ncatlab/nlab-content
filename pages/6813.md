@@ -1,0 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The theory of [[gravity]] in $3+1$ dimensions famously has [[black hole]] solutions, being the limiting configuration of a _point_ mass gravitational source. In higher dimensional gravity, and in particular in higher dimensional [[supergravity]], there are analogous solutions, which however are limiting configurations of a gravitational source that is supported on a line, or a surface, or a higher dimensional space. For a surface one might speak of _black [[membrane]]_ solutions hence generally of _black brane_ solutions.
+
+## Properties
+
+### Weak coupling correspondence
+
+The types of black branes that can occur in theories of [[supergravity]] that are obtained from the maximal [[11-dimensional supergravity]] match precisely the types of [[D-brane]]s and [[NS-brane]]s that appear in the corresponding perturbative [[superstring theories]].
+
+The idea is that both these brane-phenomena are aspects of one single entity: 
+
+* At low string coupling the [[D-brane]]/[[NS-brane]] description is accurate. Low string coupling implies that the coupling of [[gravity]] is weak, hence that the back-reaction of the branes on the background geometry is negligible.
+
+* At large string coupling but low energy, the [[effective field theory|effective]] [[supergravity]] description becomes accurate. Here the branes do back-react on the gravitational background and hence create the _black brane_ spacetime geometry.
+
+This duality of the brane picture is at the heart of the [[AdS/CFT correspondence]]. See there for more details.
+
+## References
+
+Reviews include
+
+section 1.3 of 
+
+* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+ 
+[[!redirects black branes]]
+[[!redirects black p-brane]]
+[[!redirects black p-branes]]
