@@ -73,25 +73,18 @@ In [[homotopy type theory]], this can be formalized as a [[higher inductive type
 
 ## Properties
 
-The topological circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]]. Its first [[homotopy group]] is the [[integer]]s
+The topological circle is a [[compact space|compact]], [[connected space|connected]] [[topological space]].  It is a $1$-[[dimension|dimensional]] [[smooth manifold]] (indeed, it is the only $1$-dimensional compact, connected smooth manifold).  It is **not** [[simply connected space|simply connected]]. 
 
-$$
-  \pi_1(S^1) \simeq \mathbb{Z}
-  \,.
-$$
+The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s. Equivalently, the circle is the [[Eilenberg-Mac Lane space]] $K({\mathbb{Z}},1)$. Equivalently, the loop space of the circle is the free group on one generator. (A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).) This fact encodes all (except the zeroth) the [[homotopy group]]s of the circle. Explicitly, the first [[homotopy group]] $\pi_1(S^1)$ is the [[integer]]s $\mathbb{Z}$. But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). 
 
-(A proof of this in [[homotopy type theory]] is in [Shulman P1S1](#ShulmanP1S1).)
-
-But the higher [[homotopy groups]] $\pi_n(S^1) \simeq *$, $n \gt 1$ all vanish (and so is a [[homotopy type|homotopy 1-type]]). The circle is a model for the [[classifying space]] for the [[abelian group]] $\mathbb{Z}$, the [[integer]]s.
-
-The [[product]] of the circle with itself is the [[torus]]
+The [[product]] of the circle with itself is the ($2$)-[[torus]]
 
 $$
   T = S^1 \times S^1
   \,.
 $$
 
-Generally, the $n$-torus is $(S^1)^n$.
+Generally, the $n$-torus $T^n$ is $(S^1)^n$.
 
 ## Related concepts
 
@@ -101,7 +94,7 @@ Generally, the $n$-torus is $(S^1)^n$.
 
 ## References
 
-A formalization in [[homotopy type theory]], along with a proof that $\pi_1(S^1) \simeq \mathbb{Z}$, can be found in
+A formalization in [[homotopy type theory]], along with a proof that $\Omega S^1\simeq {\mathbb{Z}}$ (and hence $\pi_1(S^1) \simeq \mathbb{Z}$), can be found in
 
 * [[Dan Licata]] and [[Mike Shulman]], *Calculating the Fundamental Group of the Circle in Homotopy Type Theory* ([arXiv:1301.3443](http://arxiv.org/abs/1301.3443))
 
