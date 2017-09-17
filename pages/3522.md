@@ -223,7 +223,7 @@ sends coproducts to products and is supposed to be like $e^{x - 1}$.
 (The "$-1$" comes about from issues to do with basepoints.)
 
 A homogeneous linear functor is defined to be one sending coproducts
-to products, so it is like an exponential.  Compared to an exponential, the identity functor is like a logarithm, so it has a non-trivial Taylor series.
+to products, so it is like an [[exponential map|exponential]].  Compared to an exponential, the [[identity functor]] is like a [[logarithm]], so it has a non-trivial Taylor series.
 
 >...our point of view is that stable homotopy is analogous to the function $e^{x - 1}$ rather than to a linear function, and the Goodwillie tower is an infinite product, rather than an infinite sum, namely it is analogous to the product
 
