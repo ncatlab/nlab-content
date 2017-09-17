@@ -1,11 +1,11 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-In the original use of the term, a _map_ or _[[mapping]]_ is just a _[[function]]_ (between [[sets]])
+In the original use of the term, a _map_ or _mapping_ is just a _[[function]]_ (between [[sets]]).
 
 The term is often used for [[continuous functions]] between [[topological spaces]] and indeed also generally for any [[morphism]] in any [[category]].
 
@@ -14,8 +14,12 @@ Accordingly, for instance the term _[[mapping space]]_ is often used synonymousl
 
 ## Related concepts
 
+* [[function]]
 * [[homomorphism]]
+* [[morphism]]
 
+
+[[!redirects map]]
 [[!redirects maps]]
 [[!redirects mapping]]
 [[!redirects mappings]]
