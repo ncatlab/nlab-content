@@ -1,3 +1,16 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+## Definition
+
+
 A topological [[subspace]] $A$ is a **neighborhood retract** of a [[topological space]] $X$ if there is a [[neighborhood]] $U\supset A$ in $X$ such that $A$ is a [[retract]] of $U$. 
 
 A [[metrisable space|metrisable]] topological space $Y$ is an **absolute neighborhood retract** if for any embedding $Y\subset Z$ as a [[closed subspace]] in a metrisable topological space $Z$, $Y$ is a neighborhood retract of $Z$.
