@@ -10,6 +10,8 @@
 
 ## Basic concepts
 
+* [[symplectic form]], [[n-plectic form]]
+
 * [[symplectic Lie n-algebroid]]
 
   * [[symplectic manifold]]
