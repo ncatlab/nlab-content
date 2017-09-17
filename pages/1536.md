@@ -337,7 +337,7 @@ This functor may equivalently be expressed as follows.
 
 #### In terms of a cone construction {#Cone}
 
-For given $(E \stackrel{p}{\to} C)$ consider the [[(2,1)-limit|(2,1)-pushout]]
+For given $(E \stackrel{p}{\to} C)$ consider the [[(infinity,1)-limit|(3,1)-pushout]]
 
 $$
   \array{
