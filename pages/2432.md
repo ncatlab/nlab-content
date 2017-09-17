@@ -24,7 +24,7 @@ Similarly, one can consider the conditions on morphisms in other geometric situa
 
 ## Between schemes
 
-A __proper morphism of [[scheme]]s__ is by a definition a morphism $f:X\to Y$ which is 
+A __proper morphism of [[scheme]]s__ is by definition a morphism $f:X\to Y$ which is 
 
 1. [[separated morphism|separated]], 
 
