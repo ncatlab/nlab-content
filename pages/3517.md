@@ -15,11 +15,11 @@
 
 ## Idea
 
-The **five lemma** is one of the basic lemmas of [[homological algebra]], useful for example in the construction of the [[connecting homomorphism]] in the homology [[long exact sequence]]. 
+The **five lemma** is one of the basic lemmas of [[homological algebra]], useful for example in the construction of the [[connecting homomorphism]] in the  [[homology long exact sequence]]. 
 
 ## Five lemma
 
-Consider a commutative diagram in a fixed [[abelian category]] of the form 
+Consider a [[commutative diagram]] in a fixed [[abelian category]] of the form 
 
 $$\array{
 A_1 & \to & A_2 & \to & A_3 & \to & A_4 &\to & A_5\\
@@ -27,26 +27,26 @@ A_1 & \to & A_2 & \to & A_3 & \to & A_4 &\to & A_5\\
 B_1 & \to & B_2 & \to & B_3 & \to & B_4 &\to & B_5
 }$$
 
-where the top and bottom are [[exact sequence|exact sequences]]. For simplicity we denote all the differentials in both exact sequences by $d$.
+where the top and bottom rows are [[exact sequences]]. For simplicity we denote all the differentials in both exact sequences by $d$.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Lemma
 **(five lemma)**
 
 
-* 1) If $f_2$ and $f_4$ are epis and $f_5$ is mono, then $f_3$ is epi. 
+* 1) If $f_2$ and $f_4$ are [[epimorphism|epi]] and $f_5$ is [[monomorphism|mono]], then $f_3$ is epi. 
 
-* 2) If $f_2$ and $f_4$ are monic and $f_1$ is epi, then $f_3$ is mono. 
+* 2) If $f_2$ and $f_4$ are [[monomorphism|monic]] and $f_1$ is [[epimorphism|epi]], then $f_3$ is mono. 
 
-* 1+2) If $f_2$ and $f_4$ are isos, $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
+* 1+2) If $f_2$ and $f_4$ are [[isomorphism|isos]], $f_1$ is epi, and $f_5$ is mono, then $f_3$ is iso.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-
-We can embed into a category of left modules over a fixed ring (though this requires the category to be small, one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the diagram chasing using elements in that setup. We prove only 1) as 2) is dual. 
+By the [[Freyd-Mitchell embedding theorem]]
+we can always assume that the abelian category is $R$[[Mod]] (though this requires the category to be [[small category|small]], one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the diagram chasing using elements in that setup. We prove only 1) as 2) is dual. 
 
 The proof of 1) is by contradiction. Suppose $f_3$ is not epi, hence there is $b\in B_3$ which is not in the image of $f_3$. Since $f_4$ is epi, one can choose an element $a_4\in A_4$ such that $f_4(a_4) = d(b)$. Now $$0 = d^2 b = d f_4 (a_4) = f_5 d (a_4)$. Since $f_5$ is monic that means that $d a_4 = 0$ as well. By the exactness of the upper row, that means there is $a_3\in A_3$ such that 
 $d a_3 = a_4$, hence also $d f_3 (a_3) = f_4 d (a_3) = f_4(a_4) = d
@@ -64,13 +64,22 @@ The special case of five lemma is a short five lemma where $A_1,B_1,A_5,B_5$ are
 
 The **short split five lemma** is a statement usually stated in the setup of [[semiabelian categories]]:
 
++-- {: .num_lemma}
+###### Lemma
+**(short split five lemma)**
+
+
 Given a commutative diagram
 $$\array{L & \overset{l}{\to} & H & \overset{q}{\to} & C\\
   ^u\downarrow && \downarrow^w && \downarrow^v \\
   K & \underset{k}{\to} & G& \underset{p}{\to} & B}$$
 where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]]s, if $u$ and $v$ are [[isomorphism]]s then so is $w$.
 
+=--
+
 ## Related concepts
+
+* [[connecting homomorphism]]
 
 * [[3x3 lemma]], [[snake lemma]]
 
