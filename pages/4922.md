@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
-+--{: .hide}
-[[!include category theory - contents]]
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
 =--
 =--
 =--
@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $G$ a [[group]] and $H \hookrightarrow G$ a subgroup, the left/right _cosets_ are the $H$-orbits in $G$ under the [[action]] by left/right multiplication. 
+For $G$ a [[group]] and $H \hookrightarrow G$ a [[subgroup]], the left/right _cosets_ are the $H$-[[orbits]] in $G$ under the [[action]] by left/right multiplication. 
 
 $$
   G/H = \{g H | g \in G\}
@@ -38,7 +38,8 @@ $$
   }
 $$
 where $\mathbf{B}H$ is the [[delooping|delooping groupoid]] of $H$.
-By the 2-out-of-3 law for pasting homotopy pullbacks then we get the [[homotopy pullback]]
+By the [[pasting law]] for [[homotopy pullbacks]] then we get the [[homotopy pullback]]
+
 $$
   \array{
    G/H & \to&\mathbf{B}H 
@@ -48,6 +49,12 @@ $$
    * &\to& \mathbf{B}G
   }
 $$
+
+## Related concepts
+
+* [[coset space]]
+
+* [[coadjoint orbit]]
 
 [[!redirects coset]]
 [[!redirects cosets]]
