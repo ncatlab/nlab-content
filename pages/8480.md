@@ -1,0 +1,86 @@
+# Contents 
+* table of contents 
+{: toc} 
+
+## Idea 
+
+A _fixed point_ (or _fixpoint_) of an [[endofunction]] $f \colon X \to X$ is an [[element]] $x \in X$ such that $f(x) = x$. Similarly, if $C$ is a [[category]] with a [[terminal object]] $1$ and an [[endomorphism]] $f \colon X \to X$, then a fixed point of $f$ is an element $x \colon 1 \to X$ such that $f \circ x = x$. 
+
+More generally still, we can speak of the same notion but replacing global elements $x \colon 1 \to X$ by [[generalized elements]] $x \colon U \to X$, where again $x$ is a fixed point of $f \colon X \to X$ if $f \circ x = x$. 
+
+The same notion undergoes further generalization by [[categorification]]. For example, if $F \colon C \to C$ is an endofunctor, then an object $c$ of $C$ is called a "fixed point" of $F$ is there is an [[isomorphism]] $F(c) \cong c$ (although usually, a fixed point of a functor is an object together with a specified such isomorphism). 
+
+The importance of fixed points all throughout mathematics is difficult to overstate. They are particularly important in analysis, topology, lattice theory, set theory, and category theory. Fixed points of endofunctors frequently arise as solutions to "recursive equations", especially in the form of [[initial algebra of an endofunctor|initial algebras and terminal coalgebras]]. 
+
+## Examples in analysis and topology 
+
+A typical application of fixed points in analysis is through the following general theorem: 
+
++-- {: .un_theorem} 
+###### Theorem 
+Suppose $X$ is a [[complete metric space]] with distance function $d$ and $f \colon X \to X$ is a function with Lipschitz constant $r$ less than $1$, i.e., $d(f(x), f(y)) \leq r \cdot d(x, y)$ for all $x, y \in X$. Then $f$ has a unique fixed point. 
+=-- 
+
+The proof is very easy: starting with any initial point $x_0$, the [[sequence]] defined by $x_{n+1} = f(x_n)$ is readily seen to be a [[Cauchy sequence]] which converges to some point $x$. The sequence $x_{n+1} = f(x_n)$ converges to both $x$ and $f(x)$, so $f(x) = x$. If there were two distinct fixed points $x$ and $y$, then $0 \neq d(x, y) = d(f(x), f(y)) \leq r \cdot d(x, y) \lt d(x, y)$, which is absurd. 
+
+By a suitable choice of space $X$ and endomorphism $f$, this theorem can be used to establish existence and uniqueness of solutions of differential equations (this should be expanded upon). 
+
+* Brouwer's theorem 
+
+* Schauder 
+
+* Kakutani 
+
+* Tychonoff 
+
+* Lefschetz 
+
+* Atiyah-Singer; Wood's Hole 
+
+## Examples in lattice theory 
+
+### Knaster-Tarski theorem 
+
++-- {: .un_theorem} 
+###### Theorem 
+If $L$ is a [[complete lattice]], then every monotone (i.e., order-preserving) map $f \colon L \to L$ has a fixed point (in fact, the fixed points of $f$ form a complete lattice). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The [[algebra of an endofunctor|algebras]] for the functor $f \colon L \to L$ are elements $x$ such that $f(x) \leq x$. Limits in $Alg(L)$ are preserved an reflected by the forgetful functor or inclusion $Alg(L) \to L$, hence $Alg(L)$ is complete if $L$ is. In particular, $Alg(L)$ has an initial object, and initial algebras are fixed points. 
+
+... 
+=-- 
+
+A virtual corollary of this theorem is the [[Cantor-Schroeder-Bernstein theorem]]. 
+
+### Pataraia's theorem 
+
+The following significantly strengthens the Knaster-Tarski theorem. 
+
++-- {: .un_theorem}
+###### Theorem (Pataraia) 
+Let $L$ be a poset with a bottom element $\bot$ and which admits directed joins. Then every monotone map $f \colon L \to L$ has a fixed point. 
+=-- 
+
++-- {: .proof}
+###### Proof 
+Consider the smallest subset $S$ of $L$ which contains $\bot$, and is closed under $f$ and directed joins in $L$. Then the restriction $f \colon S \to S$ satisfies $1_S \leq f$, i.e., $f$ is _inflationary_. (For the set of all elements $x \in L$ such that $x \leq f(x)$ contains $\bot$, is closed under directed joins, and is closed under $f$, so $S$ is contained in this set.) Thus it suffices to show that every inflationary map on a poset $S$ with a bottom element and directed joins has a fixed point. 
+
+The collection of inflationary endomaps on $S$ has a bottom element (namely, $1_S$) and is closed under directed joins. Observe also that this collection is itself directed; this follows from the fact that if $f$ and $g$ are inflationary, then they are both bounded above by $f \circ g$. Thus the directed join of the collection exists, and it is the maximal element $t$ among all inflationary maps. Observe that $f \circ t \leq t$ and $t \leq f \circ t$. So $f \circ t = t$, and it follows in particular that $t(\bot)$ is a fixed point of $f$. 
+=-- 
+
+## Examples in set theory 
+
+* Countable ordinals 
+
+* Critical points of elementary embeddings 
+
+## Examples in category theory 
+
+* Initial algebras and final coalgebras 
+
+* Domain theory 
+
+... 
