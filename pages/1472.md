@@ -244,11 +244,11 @@ and might be taken to be the strict sense of the term.
 
 * Specifically for $G$ a discrete quotient of $SU(3) \times SU(2) \times U(1)$ this is the gauge-field part of the [[standard model of particle physics]].
 
-* For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 2-group</a> thi yields the [[Kalb-Ramond field]]
+* For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 2-group</a> this yields the [[Kalb-Ramond field]]
 
-* For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 3-group</a> thi yields the [[supergravity C-field]].
+* For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 3-group</a> this yields the [[supergravity C-field]].
 
-
+* For structure group the [[K-theory spectrum]] we get [[differential K-theory]] describing the [[RR-field]].
 
 
 ##### $\infty$-Chern-Simons theory
@@ -274,11 +274,26 @@ that it arises by [[category theory|general abstract]] construction:
    
 * the underlying Lagrangian $CS(\nabla)$ 
 is nothing but the [[∞-Chern-Weil homomorphism]] 
-$ CS(\nabla) : \mathbf{B}G_{diff} \to \mathbf{B}^n U(1)_{diff}$ induced by the given [[invariant polynomial]] $\langle - \rangle$, 
+
+  $$ 
+    CS(-) : \mathbf{B}G_{diff} \to \mathbf{B}^n U(1)_{diff}
+  $$ 
+
+  induced by the given [[invariant polynomial]] $\langle - \rangle$. This sends gauge fields in the form of $G$-valued [[connections on ∞-bundles]] to the [[circle n-bundle with connection]] whose [[higher parallel transport]] is given by the Lagrangian;
 
 * the integral over $CS(\nabla)$ is induced by postcomposition with the [[truncated|trunction]] morphism 
 
-  $\mathbf{H}(\Sigma, \mathbf{B}G_{conn}) \to \mathbf{H}(\Sigma,\mathbf{B}^n U(1)_{diff}) \simeq \infty Grpd(\Pi(\Sigma), B^n U(1)) \stackrel{\tau_{n-dim \Sigma}}{\to} B^{n-dim \Sigma}$.
+  $$
+    \mathbf{H}(\Sigma, \mathbf{B}G_{conn}) 
+      \stackrel{CS(-)}{\to} 
+     \mathbf{H}(\Sigma,\mathbf{B}^n U(1)_{diff}) 
+     \simeq 
+     \infty Grpd(\Pi(\Sigma), B^n U(1)) 
+    \stackrel{\int_\Sigma}{\to} 
+      \tau_{n-dim \Sigma}
+      \infty Grpd(\Pi(\Sigma), B^n U(1)) \simeq B^{n-dim \Sigma} U(1) 
+    \,.
+  $$
 
 
 * For $\mathfrak{a}$ a [[semisimple Lie algebra]] equipped with its [[Killing form]] [[invariant polynomial]] we have that $CS(-)$ is the ordinary [[Chern-Simons element]] and $\int_X CS(\nabla)$ the ordinary [[Chern-Simons theory]] action functional. This may be understood as  the [[higher parallel transport]] of a [[Chern-Simons circle 3-bundle]] with connection.
