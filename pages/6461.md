@@ -17,15 +17,18 @@
 
 +-- {: .num_section #sectiona }
 =--
+
 ## Introduction ## {: .num_section}
 
-[[Generalised smooth spaces]] are, as the name suggests, generalisations of [[smooth manifolds]]. They share many common properties and constructions with manifolds. One of the most basic constructions applied to manifolds is that of the [[tangent space]]. There are, indeed, several different constructions of tangent spaces, but as can be shown they are all equivalent for smooth manifolds (see [[Spi79](#citeMR53283)], for example). This is no longer true for more general smooth spaces, indeed even for [[Fréchet manifolds]] the various notions are no longer equivalent.
+A _kinematic tangent space_ of a [[generalized smooth space]] at some point is an equivalence class of smooth [[curves]] through that point, regraded as equivalent if their first [[derivatives]] coincide. This generalizes the notion of [[tangent space]] of a [[differentiable manifold]]. The alternative notion is that of _[[operational tangent space]]_ which for differentiable manifolds coincides, but more generally need not.
+
+[[generalized smooth space|Generalised smooth spaces]] are, as the name suggests, generalisations of [[smooth manifolds]]. They share many common properties and constructions with manifolds. One of the most basic constructions applied to manifolds is that of the [[tangent space]]. There are, indeed, several different constructions of tangent spaces, but as can be shown they are all equivalent for smooth manifolds (see [Spivak 79](#Spivak79), for example). This is no longer true for more general smooth spaces, indeed even for [[Fréchet manifolds]] the various notions are no longer equivalent.
 
 One of the more intuitive definitions of the tangent space of a manifold is as the space of derivatives of smooth curves. Roughly speaking, in this view the tangent space of a manifold at a point is the home of all derivatives of smooth curves through that point. To differentiate this notion from the other definitions, it is sometimes called the **kinematic tangent space**.
 
-Once we go beyond ordinary smooth manifolds, the kinematic tangent space can lose some or all of its "usual" properties. In particular, it may not even be a vector space. However, it will be a kind of *partial* vector space.
+Once we go beyond ordinary smooth manifolds, the kinematic tangent space of a smooth space $X$ may not have some or all of its "usual" properties. In particular, it may not even be a [[vector space]]. (If it is then $X$ is also called a _[[microlinear space]]_, at least in the context of [[synthetic differential geometry]] and possibly under some more conditions. ) However, it will always be a kind of *partial* vector space.
 
-It is also possible to define "higher" kinematic tangent spaces. This is not done by iterating the construction, but rather by considering a slightly different construction: instead of derivatives of curves, we can take the second derivative of curves whose first derivative vanishes. For an ordinary manifold, this yields nothing extra as it is merely observing that the tangent space of the zero vector is again the tangent space. However, for more general spaces it can provide more tangent vectors. For example, the kinematic tangent space at $0$ of the space $[0,1)$ is just $\{ 0\} $ because any curve $\alpha $ with $\alpha (0) = 0$ must also have $\alpha '(0) = 0$. But there are curves $\alpha $ with $\alpha (0) = 0$ and $\alpha '(0) = 0$ but $\alpha''(0) \ne 0$. These curves define a tangent vector that "sees" the inward direction from $0$.
+It is also possible to define "higher" kinematic tangent spaces. This is not done by iterating the construction, but rather by considering a slightly different construction: instead of [[derivatives]] of [[curves]], we can take the second derivative of curves whose first derivative vanishes. For an ordinary manifold, this yields nothing extra as it is merely observing that the tangent space of the zero vector is again the tangent space. However, for more general spaces it can provide more tangent vectors. For example, the kinematic tangent space at $0$ of the space $[0,1)$ is just $\{ 0\} $ because any curve $\alpha $ with $\alpha (0) = 0$ must also have $\alpha '(0) = 0$. But there are curves $\alpha $ with $\alpha (0) = 0$ and $\alpha '(0) = 0$ but $\alpha''(0) \ne 0$. These curves define a tangent vector that "sees" the inward direction from $0$.
 
 +-- {: .num_section #sectionb }
 =--
@@ -38,7 +41,7 @@ Unless otherwise specified, we shall assume that we have fixed an arbitrary cate
 Let $X$ be a smooth space. Let $x \in X$ be a point. The *kinematic tangent space* at $x$, written $T_{x} X$, is defined as the set of equivalence classes of smooth curves $\alpha \colon \mathbb{R} \to X$ with the property that $\alpha (0) = x$ under the relation $\alpha \simeq \beta $ if $(f \circ \alpha )'(0) = (f \circ \beta )'(0)$ for all smooth functions $f \colon X \to \mathbb{R} $.
 =--
 
-As mentioned in the introduction, this need not be a vector space. However, it will always have some of the structure of a vector space. There is a special vector, which we write as $0$ (or $0_{x}$) represented by the constant curve at $x$. And for $v \in T_{x} X$ and $\lambda \in \mathbb{R} $ we can define $\lambda v$ by taking a representative for $v$, say $\alpha $, and letting $\lambda v$ be the equivalence class of $t \mapsto \alpha (\lambda t)$. What fails is the existence of a globally defined addition. It may be defined for a given pair of vectors: for $u, v \in T_{x} X$ we say that the sum $u + v$ exists if, for representatives $\alpha $ and $\beta $ of $u$ and $v$ respectively, there is a smooth curve $\gamma $ with $\gamma (0) = x$ and
+As mentioned in the introduction, this need not be a [[vector space]]. However, it will always have some of the structure of a vector space. There is a special vector, which we write as $0$ (or $0_{x}$) represented by the constant curve at $x$. And for $v \in T_{x} X$ and $\lambda \in \mathbb{R} $ we can define $\lambda v$ by taking a representative for $v$, say $\alpha $, and letting $\lambda v$ be the equivalence class of $t \mapsto \alpha (\lambda t)$. What fails is the existence of a globally defined addition. It may be defined for a given pair of vectors: for $u, v \in T_{x} X$ we say that the sum $u + v$ exists if, for representatives $\alpha $ and $\beta $ of $u$ and $v$ respectively, there is a smooth curve $\gamma $ with $\gamma (0) = x$ and
 $$
 (f \circ \gamma )'(0) = (f \circ \alpha )'(0) + (f \circ \beta )'(0)
 $$
@@ -146,7 +149,8 @@ as required.
 
 ## References ##
 
-* {: #citeMR53283} **Spi79** Michael Spivak. A comprehensive introduction to differential geometry. Vol. I. Wilmington, Del., 1979.
+* {: #citeMR53283} **Spi79** [[Michael Spivak]], _A comprehensive introduction to differential geometry_ Vol. I. Wilmington, Del., 1979.
+ {#Spivak79}
 
 [[!redirects kinematic tangent spaces]]
 [[!redirects kinematic tangent bundle]]
