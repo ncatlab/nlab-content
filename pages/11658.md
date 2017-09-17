@@ -1,0 +1,18 @@
+[[!redirects 6d supergravity]]
+
+
+## Idea
+
+[[supergravity]] in [[dimension]] 6
+
+## Properties
+
+### U-duality
+
+[[!include U-duality -- table]]
+
+
+## References
+
+* Vijay Kumar, Daniel S. Park, [[Washington Taylor]], _6D supergravity without tensor multiplets_, JHEP 1104:080,2011 ([arXiv:1011.0726](http://arxiv.org/abs/1011.0726))
+
