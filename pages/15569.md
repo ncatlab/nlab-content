@@ -64,9 +64,8 @@ The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[d
 | [[higher arithmetic geometry]]             |
 
 
-## Overview
 
-### Langlands correspondence, function field analogy and Weil uniformization
+## **1)** Langlands correspondence and Weil uniformization
 
 The central idea of the [[Langlands correspondence]] is that given a [[global field]] $K$, then $n$-dimensional [[linear representations]] of its [[Galois group]] are in correspondence with certain linear representations -- called _[[automorphic representations]]_ -- of the [[general linear group]] $GL_n(\mathbb{A}_K)$ with [[coefficients]] in the [[ring of adeles]] $\mathbb{A}_K$ of $K$ on the linear space of [[functions]] on the double [[coset space]] 
 
@@ -205,7 +204,7 @@ $$
 
 =--
 
-### Axiomatic differential generalized cohomology
+## **2)** Axiomatic twisted differential generalized cohomology
 
 The above [[analogy]] calls for being formalized. We need an axiomatics that allows to implement differential geometry in systematic analogy. Just as back in the old days there was established a systematic analogy
 
@@ -360,7 +359,7 @@ which is homotopy cartesian.
 
 We discuss how arithmetic concepts such as [[adeles]], [[ideles]], the [[idele class group]] etc. have structural analogs in any context of [[differential cohesion]]. We show that specifically in the context of [[complex analytic infinity-groupoid|complex analytic cohesion]] these reproduce the correct analogs of the arithmetic concepts as predicted by the [[function field analogy -- table|function field analogy table]].
 
-### $E_\infty$-Arithmetic differential cohesion
+## **2)** $E_\infty$-Arithmetic differential cohomology
 
 +-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
 ###### Proposition
@@ -398,7 +397,7 @@ This is effectively the content of ([[Proper Morphisms, Completions, and the Gro
 
 
 
-## Differential cohesion
+## Stuff
 
 
 
