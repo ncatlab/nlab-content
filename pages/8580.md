@@ -57,6 +57,8 @@
 
 1. [Super-geometry](#SupergeometricCoordinateSystems)
 
+1. [Quantum mechanics](#QuantumMechanics)
+
 
 #Contents#
 * table of contents
@@ -6246,6 +6248,39 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 ### Syntactic Layer
 
 (...)
+
+## **Quantum mechanics**
+ {#QuantumMechanics}
+
+### Model Layer
+
+#### Worldvolumes and cobordisms
+
+* [[cobordism]], [[FQFT]]
+
+#### Spectral triple
+
+* [[spectral triple]]
+
+### Semantic Layer
+
+#### Internal categories in an $\infty$-topos
+
+##### Simplicial objects in an $\infty$-topos
+
+* [[simplicial object in an (∞,1)-category]]
+
+##### Category objects in an $\infty$-topos
+
+* [[Segal condition]]
+
+* [[internal category in an (∞,1)-category]] 
+
+### Syntactic Layer
+
+#### Directed homotopy type theory
+
+* [[directed homotopy type theory]]
 
 
 ## **References**
