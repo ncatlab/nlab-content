@@ -203,6 +203,8 @@ One can also look at this in [[higher category theory]] and consider internal [[
 
 ## Related concepts
 
+* [[weak equivalence of internal categories]]
+
 * [[internal site]]
 
 * [[internal logic]]
