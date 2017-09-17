@@ -1,6 +1,6 @@
 This entry is about the book
 
-* Beilinson, Drinfeld
+* [[Alexander Beilinson]] and [[Vladimir Drinfeld]]
 
   _Chiral Algebras_
 
