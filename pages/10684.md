@@ -135,11 +135,23 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 ## Chapter 5. The Chromatic Spectral Sequence
 
+### 1. The algebraic construction
+
+### 2. $Ext^1(B P_\bullet/I_n)$ and Hopf Invariant One
+
 ### 3. $Ext(M^1)$ and the $J$-Homomorphism
 
 * [[J-homomorphism]]
 
+### 4. $Ext^2$ and the Thom Reduction
+
+### 5. Periodic families in $Ext^2$
+
+### 6. Elements in $Ext^3$ and Beyond
+
 ## Chapter 6. Morava Stabilizer Algebras 
+
+* [[Morava stabilizer group]]
 
 ## Chapter 7. Computing Stable Homotopy Groups with the Adams-Novikov Spectral Sequence
 
