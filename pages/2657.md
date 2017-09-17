@@ -77,7 +77,7 @@ Write $\mathcal{H}^k(X)$ for the [[abelian group]] of harmonic $k$-forms on $X$.
 +-- {: .num_prop}
 ###### Observation
 
-Harmonic forms are precisley those in the kernel of $d + d^*$, which are pecisely those in the joint kernel of $d$ and $d^*$.
+Harmonic forms are precisely those in the kernel of $d + d^*$, which are precisely those in the joint kernel of $d$ and $d^*$.
 
 =--
 
