@@ -332,6 +332,13 @@ The points $x \in X$ of the topological space $X$ are in canonical bijection wit
 =--
 
 
+## Related concepts
+
+* **geometric morphism**
+
+* [[(∞,1)-geometric morphism]]
+
+
 ## References
 
 Geometric morphisms are the topic of section VII of
