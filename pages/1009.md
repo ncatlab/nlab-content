@@ -1,4 +1,3 @@
-[[!redirects AKSZ theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -209,7 +208,21 @@ defined by $S_{\mathrm{AKSZ}}$. This is a crucial ingredient for the
 quantization of the model, and this is what the AKSZ construction
 is mostly used for in the literature.
 
+## Related concepts
 
+* [[sigma-model]]
+
+* [[schreiber:infinity-Chern-Simons theory]]
+
+  * **AKSZ $\sigma$-model**
+
+    * [[Poisson sigma-model]]
+
+      * [[A-model]], [[B-model]]
+
+    * [[Courant sigma-model]]
+
+      * [[Chern-Simons theory]]
 
 ## References 
 
@@ -240,8 +253,11 @@ In the broader context of smooth [[higher geometry]] this is discussed in sectio
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
+[[!redirects AKSZ sigma-models]]
+
 [[!redirects AKSZ functional]]
 
 [[!redirects AKSZ model]]
 [[!redirects AKSZ formalism]]
 
+[[!redirects AKSZ theory]]
