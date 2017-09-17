@@ -197,7 +197,7 @@ $$
 
 * [[suspension object]]
 
-  * [[suspension]]
+  * [[suspension]], [[reduced suspension]]
 
 
 [[!redirects loop space objects]]
