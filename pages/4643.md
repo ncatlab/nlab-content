@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _quantum geometric Langlands correspondence_ is a conjectured equivalence between the [[derived category]] of certain twisted [[D-module]]s on the [[moduli stack]] of $G$-[[principal bundle]]s over some complex curve, and that of $D$-modules with a dual twist on the stack of ${}^L G$-bundles, for ${}^L G$ the [[Langlands dual group]].
+The _quantum geometric Langlands correspondence_ is a conjectured equivalence between the [[derived category]] of certain twisted [[D-module]]s on the [[moduli stack]] of $G$-[[principal bundle]]s over some complex curve for some [[reductive group]] $G$, and that of $D$-modules with a dual twist on the stack of ${}^L G$-bundles, for ${}^L G$ the [[Langlands dual group]].
 
 In a certain limit of the twisting parameter the $D$-modules on one side of this correspondence become equivalent to just $\mathcal{O}$-modules, but on the moduli space of [[local system]]s. This limit of the quantum correspondence reproduces the statement of the (ordinary) [[geometric Langlands correspondence]].
 
