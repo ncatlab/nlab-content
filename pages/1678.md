@@ -177,17 +177,25 @@ Also, if you reverse the definitions of lax and oplax transformations, then you 
 
 ## Related concepts
 
+* [[homotopy]]
+
 * [[transfor]]
 
-* [[natural transformation]]
+  * [[natural transformation]]
 
-* [[pseudonatural transformation]]
+    * [[extranatural transformation]], [[dinatural transformation]]
+
+  * [[pseudonatural transformation]]
+
+  * **lax natural transformation**
+
+
 
 ## References ##
 
 See the references at [[2-category]]. For instance
 
-* [[John Gray]], _[[Gray-adjointness-for-2-categories|Adjointness For
+* Gray, _[[Gray-adjointness-for-2-categories|Adjointness For
 2-Categories]]_
 
 * [[Tom Leinster]], _Basic bicategories_,
