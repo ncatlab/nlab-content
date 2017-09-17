@@ -86,7 +86,7 @@ run through htlatex, and with the `<tspan>`s then manually replaced by the appro
 
 (removed; see [revision 10](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/10)) 
 
-_Bruce_ : Hey, this is great Mike! For anyone reading this thread, who wants to contribute, don't forget about the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=20&page=1#Comment_95) page where we are discussing this stuff. 
+_Bruce_ : Hey, this is great Mike! For anyone reading this thread, who wants to contribute, don't forget about the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=20&page=1#Comment_95) page where we are discussing this stuff. 
 
 _Toby_:  Here\'s the diagram again, but *without* the SVG code in the edit box, thanks to the magic of inclusions!
 
@@ -249,7 +249,7 @@ Given that inclusions and references seem to work fine, it seems a reasonable id
 
 What do people think?  Are there others that ought to be considered as "standard"?  Are these okay, or do they need tweaking?
 
-Discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=31).
+Discussion on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=31).
 
 And just for Toby and Mike:
 
