@@ -19,9 +19,11 @@
 
 ## Definition
 
+### General
+
 An **exact sequence** is a [[chain complex]] with vanishing [[chain homology]].
 
-## Long and short exact sequences
+### Long and short exact sequences
 
 A general exact sequence is sometimes called a **long exact sequence**, to distinguish from the special case of a **short exact sequence** which is an exact sequence of the form
 $$ 0 \to A \to B \to C \to 0 .$$
@@ -35,15 +37,32 @@ A **split exact sequence** is a short exact sequence in which $i$ is a [[split m
 
 The above works in any [[abelian category]], and possible more generally.  See also [[exact sequence of Hopf algebras]].
 
+## Properties
+
+* A chain complex $C_\bullet$ is exact (is a long exact sequence), precisely if the unique [[chain map]] from the [[initial object]], the 0-complex
+
+  $$
+    0 \to C_\bullet
+  $$
+
+  is a [[quasi-isomorphism]].
+
 ## Examples
 
 * [[long exact sequence of homotopy groups]]
+
+## References
+
+Section 1.1 of
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+
+[[!redirects exact sequences]]
 
 [[!redirects long exact sequence]]
 [[!redirects short exact sequence]]
 [[!redirects split exact sequence]]
 
-[[!redirects exact sequences]]
 
 [[!redirects long exact sequences]]
 [[!redirects short exact sequences]]
