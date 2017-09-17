@@ -36,7 +36,7 @@ such that
 
 * the [[pushout-product axiom]] is satisfied, and
 
-* For any cofibrant object $X$, the map $Q e \otimes X \to e\otimes X \cong X$ is a weak equivalence, where $e$ is the unit object of the monoidal structure and $Q e\to e$ is a cofibrant replacement for it.  This is automatically satisfied if $e$ is cofibrant, as it is in most (but not all) cases.
+* For any cofibrant object $X$, the map $Q e \otimes X \to e\otimes X \cong X$ is a weak equivalence, where $e$ is the unit object of the monoidal structure and $Q e\to e$ is a cofibrant [[resolution]] for it.  This is automatically satisfied if $e$ is cofibrant, as it is in most (but not all) cases.
 
 ## Properties 
 
