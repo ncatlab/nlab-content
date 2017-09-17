@@ -31,6 +31,12 @@ Of course, where the monoidal product is not [[braided monoidal category|braided
 * If $V$ is a [[star-autonomous category]], "dual object" has a different meaning: it usually is taken to mean $A^\ast \cong A \multimap \bot$ where $\bot$ is the [[dualizing object]]. In a $\ast$-autonomous category where $\bot$ and $I = \top$ are not isomorphic (e.g., a [[Boolean algebra]]), this gives something genuinely different from "dual" in the sense of this page. But again, these two meanings, $A \multimap \top$ and $A \multimap \bot$, coincide in the case where the $\ast$-autonomous category is compact closed. 
 
 
+## Related concepts
+
+* [[dual object]]
+
+* [[duality]]
+
 [[!redirects dual object in a closed monoidal category]]
 [[!redirects dual objects in a closed monoidal category]]
 [[!redirects dual objects in closed monoidal categories]]
