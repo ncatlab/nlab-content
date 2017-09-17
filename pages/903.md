@@ -81,7 +81,7 @@ One can check that each of these operations respects homotopy equivalence and he
 +-- {: .num_prop}
 ###### Proposition
 
-These magmas are in fact [[monoids]]; in particular:
+These magmas are in fact [[groups]]; in particular:
 
 * the [[constant function]] that maps all of $S^n$ to $x$ represents the __null element__ of $\pi_n(X,x)$, which is an identity for every concatenation.
 
