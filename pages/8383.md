@@ -29,6 +29,7 @@ $$ \boxtimes\colon C^A \times C^B \to C^{A\times B}$$
 defined by $M\boxtimes N = \pi_2^\ast M \otimes_{A\times B} \pi_1^\ast N$.  This makes the total category of the fibration a [[monoidal category]] and the fibration itself a strong [[monoidal functor]] (where $S$ is regarded as equipped with its [[cartesian monoidal category|cartesian monoidal structure]]); this is called a **[[monoidal fibration]]**.  Moreover, we can recover $\otimes_A$ from $\boxtimes$ via $M\otimes_A N = \Delta_A^\ast (M\boxtimes N)$, so the two structures have the same information. ([Shulman 08](#Shulman08)).
 
 ### Indexed closed monoidal category
+ {#Closed}
 
 If all the fibers are not just monoidal but [[closed monoidal categories]] and the [[base change]] morphisms are not just strong monoidal but also strong [[closed monoidal functors]], then the indexed monoidal category is an indexed _closed monoidal category_ ([Shulman 08, def. 13.1](#Shulman08), [Shulman 12, theorem 2.14](#Shulman12)).
 
