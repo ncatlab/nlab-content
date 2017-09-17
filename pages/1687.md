@@ -186,7 +186,7 @@ $$
 
 =--
 
-In the general perspective of [[(∞,1)-topos theory]] this appears as theorem, 23 in ([JardineLuo 04](#JardineLuo)). 
+In the general perspective of [[(∞,1)-topos theory]] this appears as  ([JardineLuo, theorem 23](#JardineLuo)). 
 
 
 +-- {: .num_cor}
