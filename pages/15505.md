@@ -1,3 +1,3 @@
-Zoet has been earmarked as a potential number one for Holland in the future having made some 21 appearances for the Under-21 side. He recently signed a contract until 2017 with PSV but may find it difficult to reject the chance to play in the Premier League if it arose.
- <a href="http://www.shreejibuilders.com/Christianlouboutindiscount.asp?discount=" >Home</a>
-[url=http://www.shreejibuilders.com/Christianlouboutindiscount.asp?discount=]Home[/url]
+The naira has been volatile in thin trade this week. The local currency was trading at 159.30 to the dollar in the interbank market on Friday, weaker than 154.60 on Thursday but firmer than the record low of 167.80.
+ <a href="http://www.markanla.com/oakleysunglassesfascinating.asp?fascinating=oakley-sunglasses-13/oakley-plate-sunglasses.html" >Oakley plate sunglasses</a>
+[url=http://www.markanla.com/oakleysunglassesfascinating.asp?fascinating=oakley-sunglasses-13/oakley-plate-sunglasses.html]Oakley plate sunglasses[/url]
