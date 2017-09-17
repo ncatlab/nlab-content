@@ -699,13 +699,13 @@ is another way to think of $\mathbf{H}(X,A)$.
 
 Some of the abstract concepts in cohomology mentioned above make sense in any [[(∞,1)-category]]: we could in principle define [[cocycle]], [[characteristic class]], [[fiber sequence|long sequence in cohomology]], [[twisted cohomology]], etc. the way we did in an $(\infty,1)$-category that is not an [[(∞,1)-topos]], by defining it to be, respectively, a morphism $c : X \to A$, a morphism $\lambda : A \to B$, the [[homotopy fiber]] of $c$, the pullback along the morphism induced by postcomposition with $\lambda$, etc.
 
-Since all these concepts are so simple in the [[(∞,1)-category theory]] context, they seem to work very generally. One may therefore ask why it is that we require an $(\infty,1)$-topos structure in order to interpret these concepttually simple ingredients in terms of cohomology.
+Since all these concepts are so simple in the [[(∞,1)-category theory]] context, they seem to work very generally. One may therefore ask why it is that we require an $(\infty,1)$-topos structure in order to interpret these conceptually simple ingredients in terms of cohomology.
 
-There are two ways to answer this question: one is to observe that essentially all cohomology theories that have been considered do happen to have an interpretation in terms of intrinsic $(\infty,1)$-topos cohomology. This is discuss in 
+There are two ways to answer this question: one is to observe that essentially all cohomology theories that have been considered do happen to have an interpretation in terms of intrinsic $(\infty,1)$-topos cohomology. This is discussed in 
 
 * [Historical aspects](ToposTheoryHistoricalAspects) .
 
-Given that, one can ask what it is _abstractly_ that we want to the notion of cohomology to do and to be, that forces the concept of $(\infty,1)$-topos on us. This is discuss in
+Given that, one can ask what it is _abstractly_ that we want to the notion of cohomology to do and to be, that forces the concept of $(\infty,1)$-topos on us. This is discussed in
 
 * [Abstract aspects](#ToposTheoryAbstractAspects).
 
