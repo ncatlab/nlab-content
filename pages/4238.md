@@ -144,6 +144,7 @@ $$
   Z : \mathcal{O} \to C
 $$
 
+
 are equivalent to [[Calabi-Yau algebra object]]s $A$ in $C$:
 the functor $Z$ sends the interval $[0,1]$ to $A$.
 
@@ -190,6 +191,8 @@ In [Cos06](http://arxiv.org/abs/math/0605647) is constructed from the geometric 
 So this construxts a 2d TCFT and shows that its [[effective field theory|effective]] background quantum field theory is a [[Chern-Simons theory]]. While the action functionl on the worldsheet itself, whose [[path integral]] should give the [[differential forms]] on [[moduli space]] considered above, is not explicitly considered here, this does formalizes at least some aspects of an observation that was earlier made in ([Witten 92](#Witten92)) where it was observed that Chern-Simons theory is the effective background string theory of 2d TFTs obtained from action functionals of the A-model and the B-model.
 
 Similarly the effective background QFT of the [[B-model]] topological string can be identified. This is known as _[[Kodeira-Spencer gravity]]_ or as _[[BCOV theory]]_.
+
+(See also at _[[world sheets for world sheets]]_ for a similar mechanism.)
 
 So via the detour over the effective background field theory, this sort of shows that the physicist's A-model and B-model are indeed captured by the abstract [[FQFT]] definition of TCFT as given above.
 
