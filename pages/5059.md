@@ -435,14 +435,37 @@ with further developments discussed in
 
 * [[Michael Duff]], _Near-horizon brane-scan revived_,  Nucl. Phys. B 810:193-209,2009 ([arXiv:0804.3675](http://arxiv.org/abs/0804.3675))
 
-### Background equations of motion
 
-Discussion that a consistent Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] is equivalent to the [[equations of motion]] in [[supergravity]] is in
+### Supergravity background equations of motion
+ {#ReferencesSupergravityBackgroundEquationsOfMotion}
+
+The consistentcy of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]].
+
+That the [[heterotic supergravity]] equations of motion are sufficient for the 3-form super field strength $H$ to be closed was first argued in
 
 * [[Bengt Nilsson]], _Simple 10-dimensional supergravity in superspace_, Nuclear Physics B188 (1981) 176-192
  {#Nilsson81}
 
+and the computation there was highlighted and a little simplified in 
+
+* [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986)
+
+Similar arguments for the [[type II string]] in [[type II supergravity]] appeared in 
+
+* [[Marcus Grisaru]], P. Howe, L. Mezincescu, [[Bengt Nilsson]], [[Paul Townsend]], _$N=2$-Superstring in a supergravity background_, Physics Letters Volume 162B, number 1,2,3
+
+and for GS sigma-model [[D-branes]] in 
+
+* [[Martin Cederwall]], Alexander von Gussich, [[Bengt Nilsson]], Per Sundell, Anders Westerberg, _The Dirichlet Super-p-Branes in Ten-Dimensional Type IIA and IIB Supergravity_, Nucl.Phys. B490 (1997) 179-201 ([arXiv:hep-th/9611159](http://arxiv.org/abs/hep-th/9611159))
+
+That the supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the GS-string on that background being consistent was then claimed in
+
 * [[Joel Shapiro]], Cyrus Taylor, _Superspace supergravity from the superstring_, Physics letter B volume 186, number 1, 1987
+
+
+That the [[M2-brane]] [[sigma-model]] is consistent on backgrounds of [[11-dimensional supergravity]] that satisfy their equations of motion is discussed in
+
+* E. Bergshoeff, E. Sezgin, [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _The world in eleven dimensions_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf))
 
 
 ### Symmetries
