@@ -64,6 +64,9 @@ $$
 
 This is originally due to [[Grothendieck]], whence the name. Refined accounts are in  ([Deligne 66](#Deligne66), [Verdier 68](Verdier68), [Neeman 96](#Neeman96)).
 
+### Quasicoherent sheaves in $E_\infty$-geometry
+
+Generalization of this to [[E-∞ geometry]] is in ([Lurie, prop. 2.5.12](#Lurie)).
 
 ## References
 
@@ -77,10 +80,15 @@ Further stream-lined accounts then appeared in
 * [[Jean-Louis Verdier]], _Base change for twisted inverse images of coherent sheaves_, Collection: Algebraic Geometry (Internat. Colloq.), Tata Inst. Fund. Res., Bombay, 1968, pp. 393-408. MR 43:227
  {#Verdier68}
 
-Further refinement and close relation to the [categorical Brown representability theorem](Brown+representability+theorem#CategoricalBrownRepresentability) is in 
+Further refinement and highlighting of the close relation to the [categorical Brown representability theorem](Brown+representability+theorem#CategoricalBrownRepresentability) is in 
 
 * [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc. 9 (1996), 205-236 ([web](http://www.ams.org/journals/jams/1996-9-01/S0894-0347-96-00174-9/))
  {#Neeman96}
+
+Generalization to [[E-∞ geometry]] is in 
+
+* [[Jacob Lurie]], section 2.5 of _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+ {#Lurie}
 
 A clear discussion of axioms of [[six operations]], their specialization to Grothendieck context and [[Wirthmüller context]] and their consequences is in 
 
@@ -88,5 +96,4 @@ A clear discussion of axioms of [[six operations]], their specialization to Grot
  {#May05}
 
 [[!redirects Grothendieck contexts]]
-
 
