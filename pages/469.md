@@ -5,7 +5,9 @@
 
 ## Idea
 
-A closed monoidal category is a [[monoidal category]] that is also a [[closed category]], in a compatible way.
+A closed monoidal category $C$ is a [[monoidal category]] that is also a [[closed category]], in a compatible way:
+
+it has for each [[object]] $X$ a [[functor]] $(-) \otimes X : C \to C$ of forming the [[tensor product]] with $X$, as well as a functor $[X,-] : C \to C$ of forming the [[internal-hom]] with $X$, and these form a pair of [[adjoint functor]]s.
 
 
 ## Formalization ##
@@ -63,9 +65,17 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
 ##References#
 
-* Max Kelly, _Basic concepts of enriched category theory_, section 1.5, ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
-* Samuel Eilenberg and Max Kelly, _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+In [[enriched category theory]] the enriching category is taken to be closed monoids. Accordingly the standard textbook on enriched category theory
 
+* [[Max Kelly]], _Basic concepts of enriched category theory_, section 1.5, ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
+
+has a chapter on just closed monoidal categories.
+
+See also the article
+
+* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+
+on the concept of closed categories.
 
 [[!redirects monoidal closed category]]
 [[!redirects closed monoidal categories]]
