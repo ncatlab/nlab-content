@@ -118,7 +118,9 @@ The [[category]] [[FinSet]] of finite sets is [[equivalence of categories|equiva
 
 * [[countable ordinal]]
 
-* [[finite CW-complex]], [[finite spectrum]]
+* [[finite homotopy type]], 
+
+  * [[finite CW-complex]], [[finite spectrum]]
 
 * [[profinite set]]
 
