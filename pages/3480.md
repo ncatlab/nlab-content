@@ -7,17 +7,22 @@
 
 [[Tannaka]] duality or _Tannaka [[reconstruction theorem]]s_ are statements of the form:
 
-for $A$ some algebraic structure, [[representation|represented]] on objects in a category $D$, one may _reconstruct_ $A$ from knowledge of the [[endomorphism]]s of the forgetful functor -- the **fiber functor** --
+for $A$ some [[algebra|algebraic structure]], [[representation|represented]] on objects in a [[category]] $D$, one may _reconstruct_ $A$ from knowledge of the [[endomorphism]]s of the forgetful functor -- the **fiber functor** --
 
 $$
   F : Rep_D(A) \to D
 $$
 
-from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on objects of $D$ that remembers these underlying objects.
+from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects.
 
-## For permutation representations 
 
-A simple case of Tannaka duality is that of [[permutation representation]]s of a [[group]], i.e. representations on a [[set]]. In this case, Tannaka duality follows entirely from repeated application of the [[Yoneda lemma]].
+## Statement
+
+Generally to some extent, and in various cases entirely, the statement of Tannaka duality is nothing but the [[Yoneda lemma]] of [[category theory]], in slight disguise, or rather of the [[enriched Yoneda lemma]] in [[enriched category theory]]. 
+
+### For permutation representations 
+
+A simple case of Tannaka duality is that of [[permutation representation]]s of a [[group]], i.e. representations on a [[set]]. In this case, Tannaka duality follows entirely from repeated application of the ordinary [[Yoneda lemma]].
 
 
 +-- {: .un_theorem}
@@ -117,45 +122,197 @@ $$
 
 =--
 
-## For $V$-representations
+Notice that the proof in no way used the fact that $G$ was assumed to be a [[group]], but only that $G$ is a [[monoid]].  So the statement holds just as well for arbitrary monoids.
 
-Let $V$ be a [[symmetric monoidal category]]. Observe that the setup, statement and proof of Tannaka duality for permutation representations given above is the special case for $V = $ [[Set]] of a statement verbatim the same in $V$-[[enriched category theory]], with the ordinary [[functor category]] replaced everywhere by the $V$-[[enriched functor category]].
+But moreover, as the long-winded proof above makes manifest, even more abstractly the proof really only depended on the fact that the [[delooping]] $\mathbf{B}G$ is a [[small category]]. It need not have a single object for the proof to go through verbatim. Therefore we immediately obtain the following much more general statement of Tannaka duality for permutation representations of categories:
+
++-- {: .un_theorem}
+###### Theorem
+**(Tannaka duality for permutation representations of categories)**
+
+Let $C$ be a [[locally small category]] and $Rep_{Set}(C) := Func(C,Set)$ the [[functor category]]. For every object $c \in C$ let $F_c : C \to Set$ be the fiber-functor that evaluates at $c$.
+
+Then we have a [[natural isomorphism]]
+
+$$
+  Hom(F_c,F_{c'}) \simeq Hom_C(c,c')
+  \,.
+$$
+
+
+=--
+
+### For $V$-modules
+
+Let $V$ be a ([[locally small category|locally small]]) [[closed monoidal category|closed]] [[symmetric monoidal category]], so that $V$ is enriched in itself via its [[internal hom]].
+
+Observe that the setup, statement and proof of Tannaka duality for permutation representations given above is the special case for $V = $ [[Set]] of a statement verbatim the same in $V$-[[enriched category theory]], with the ordinary [[functor category]] replaced everywhere by the $V$-[[enriched functor category]]:
 
 Then the statement says:
 
-for $A$ a [[monoid]] in $V$ with [[delooping]] $V$-[[enriched category]] $\mathbf{B}A$, and with 
+
++-- {: .un_theorem}
+###### Theorem
+**(Tannaka duality for $V$-modules over $V$-algebras)**
+
+For $A$ a [[monoid]] in $V$ with [[delooping]] $V$-[[enriched category]] $\mathbf{B}A$, and with 
 
 $$
-  A Mod := Rep(A) := [\mathbf{B}A,V]
+  A Mod := [\mathbf{B}A,V]
 $$
 
-the [[enriched functor category]] that encodes the $V$-representation of $A$, we habe that the $V$-enriched endormoprhism algebra $End(F) := [F,F]$ of the $V$-[[enriched functor]] $F : Rep(A) \to V$ is isomorphic to $V$
+the [[enriched functor category]] that encodes the $V$-[[module]]s of $A$, we have that the $V$-enriched [[endomorphism]] algebra $End(F) := [F,F]$ of the $V$-[[enriched functor]] $F : Rep(A) \to V$ is [[natural isomorphism|naturally isomorphic]] to $V$
 
 $$
-  End(Rep(A) \to V) \simeq A
+  End(A Mod \to V) \simeq A
   \,.
 $$
 
-> check!
 
-In particular, if we tale $V = $ [[Vect]], then we have Tannaka reconstruction for module categories
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply the [[enriched Yoneda lemma]] verbatim as for the statement about permutation representations as above.
+
+=--
+
+The case of permutation representations is re-obtained by setting $V = $ [[Set]].
+
+As before, the same proof actually shows the following more general statement
+
++-- {: .un_theorem}
+###### Theorem
+**(Tannaka duality for $V$-modules over $V$-algebroids)**
+
+Let $C$ be a $V$-[[enriched category]] (a "$V$-[[algebroid]]"). Write $C Mod := [C,V]$ for the $V$-[[enriched functor category]]. For every [[object]] $c \in C$ write $F_c : C Mod \to V $ for the fiber functor that evaluates at $C$. Then we have [[natural isomorphism]]s
+
+$$
+  hom(F_c, F_{c'}) \simeq C(c,c')
+  \,.
+$$
+
+=--
+
+
+
+### For linear modules and linear representations
+
+The general case of Tannaka duality for $V$-modules described above restricts to the classical case of Tannaka duality for linear representations by setting $V :=$ [[Vect]], the category of [[vector space]]s over some fixed [[ground field]].
+
+In this case the above says
+
++-- {: .un_corollary}
+###### Corollary
+**(Tannaka duality for linear modules)**
+
+For $A$ an [[algebra]] and $A Mod$ its category of [[module]]s, 
+and for $F : A Mod \to Vect$ the fiber functor that sends a module to 
+its underlying vector space, we have a natural isomorphism
 
 $$
   End( A Mod \to Vect ) \simeq A
-  \,.
 $$
 
-Now for $G$ any [[group]], let $A = k[G]$ be its [[group algebra]]. Then $Rep(G) \simeq A Mod$ and we obtain the statement of Tannaka reconstruction for linear representations:
+in [[Vect]].
+
+=--
+
+
+Now for $G$ any [[group]], let $A = k[G]$ be its [[group algebra]]. Then the category of linear [[representation]]s of $G$ is 
+
+$$
+  Rep(G) \simeq k[G] Mod
+$$ 
+
+and we obtain 
+
++-- {: .un_corollary}
+###### Corollary
+**(Tannaka duality for linear group representations)**
+
+There is a natural isomorphism
 
 $$
   End(Rep(G) \to Vect) \simeq k[G]
   \,.
 $$
 
+=--
+
+
 All from the [[enriched Yoneda lemma]]. And nothing else.
 
 
+### In higher category theory
 
+In as far as the proof of Tannak duality only depends on the [[Yoneda lemma]], the statement immediately generalizes to [[higher category theory]] whenever a higher generalization of the Yoneda lemma is available.
+
+This is notably the case for [[(∞,1)-category]] theory, where we have the [[(∞,1)-Yoneda lemma]].
+
+By applying this verbatim four times in a row as above, we obtain the following statement for "$\infty$-permutation represenzations".
+
++-- {: .un_theorem}
+###### Theorem
+**(Tannaka duality for $\infty$-permutation representations)**
+
+Let $G$ be an [[∞-group]] and $Rep_{\infty Grpd}(G) := Func(\mathbf{B}G, \infty Grpd)$ the [[(∞,1)-category of (∞,1)-functors]] from its [[delooping]] [[∞-groupoid]] to [[∞Grpd]]. Let $F :  Rep_{\infty Grpd}(G) \to \infty Grpd$ be the fiber functor that remembers the underlying $\infty$-groupoid. Then we have an [[equivalence in a quasi-category]]
+
+$$
+  End(Rep_{\infty Grpd}(G) \to \infty Grp) \simeq G
+  \,.
+$$
+
+=--
+
+As before, this holds immediately even for representations of [[(∞,1)-categories]]
+
+
++-- {: .un_theorem}
+###### Theorem
+**(Tannaka duality for $\infty$-permutation representations)**
+
+Let $c$ be an [[(∞,1)-category]] and $Rep_{\infty Grpd}(C) := Func(C,\infty Grpd)$. For $c \in C$ an [[object]], write $F_c : Rep_{\infty Grpd}(C) \to \infty Grpd$ for the corresponding fiber functor.
+
+Then we have a natural equivalence
+ 
+$$
+  hom(F_c, F_{c'}) \simeq C(c,c')
+$$
+
+in [[∞Grpd]].
+
+=--
+
+### $\infty$-Galois theory
+
+As a special case of this, we obtain a statement about $\infty$-Galois theory. For details and background see [[homotopy groups in an (∞,1)-topos]]. In that context one finds for a [[locally contractible space]] $X$ that the [[∞-groupoid]] of [[locally constant ∞-stack]]s on $X$ $LConst(X)$ is equivalent to $Rep_{\infty Grpd}(\Pi(X))$, where $\Pi(X)$ is the [[fundamental ∞-groupoid]] of $X$. 
+For $x \in X$ a point, write $F_x : LConst(X) \to \infty Grpd$ for the corresponding fiber functor.
+
+Then we have
+
++-- {: .un_theorem}
+###### Theorem
+
+For $x \in X$ there is a natural [[weak homotopy equivalence]]
+
+$$
+  End(LConst(X) \stackrel{F_x}{\to} \infty Grpd) \simeq 
+  \mathbf{B} Aut_{\Pi(X)}(x)
+  \,.
+$$
+
+In particular do we have naturall isomorphisms of [[homotopy group]]s
+
+$$
+  \pi_n End(LConst(X) \stackrel{F_x}{\to} \infty Grpd)
+  \simeq
+  \pi_n(X,x)
+  \,.
+$$
+
+=--
 
 ## References
 
@@ -191,7 +348,7 @@ A very neat Tannaka theorem for stacks is proved in
 
 * [[Jacob Lurie]], _Tannaka duality for geometric stacks_, [math.AG/0412266](http://arxiv.org/abs/math/0412266)
 
-* B. Toen, [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (talk, video)
+* [[Bertrand Toen]], [Higher Tannaka duality](http://www.msri.org/publications/ln/msri/2002/hodgetheory/toen/2/index.html), MSRI 2002 (talk, video)
 
 * Moshe Kamensky, _Model theory and the Tannakian formalism_, [arXiv:0908.0604](http://arxiv.org/abs/0908.0604). 
 
