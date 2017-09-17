@@ -22,9 +22,9 @@
 
 ## Idea
 
-The Eilenberg--Moore category of a [[monad]] is the category of its [[algebra for a monad|modules]] (aka algebras).
+The Eilenberg--Moore (EM) category of a [[monad]] is the category of its [[algebra for a monad|modules]] (aka algebras). Dually, the EM category of a [[comonad]] is its category of comodules. 
+The subcategory of its [[free functor|free]] modules is one of the descriptions of the [[Kleisli category]] of the monad. The EM and Kleisli categories have universal properties which make sense in a general 2-category. 
 
-The category of its [[free functor|free]] modules is called the [[Kleisli category]].
 
 ## Definitions
 
@@ -70,6 +70,12 @@ $$
 $$
 
 Namely, write the object part of a functor $G : B\to A^T$ as $(G^A,G^\rho)$, where $G^A :B\to A$ and $G^\rho(b) : TG^A(b)\to G^A(b)$ is the $T$-action of $G^A(b)$ and the morphism part simply as $f\mapsto G(f)$. Then, $G^\rho : b\mapsto G^\rho(b) : TG^A\Rightarrow G^A$ is a natural transformation because for any morphism $f:b\to b'$, $G(f) : (G^A(b),G^\rho(b))\to (G^A(b'),G^\rho(b'))$ is by the definition of $G$, a morphism of $T$-algebras. $G^\rho$ is, by the same argument, an action $[B,T](G^A)\Rightarrow G^A$. Conversely, for any $[B,T]$-module $(G^A,G^\sigma)$ for any $b\in Ob B$, $G^\sigma(b)$ will evaluate to a $T$-action on $G^A(b)$, hence $b\mapsto (G^A(b), G^\sigma(b))$ is an object part of a functor in $[B,A^T]$ with morphism part again $f\mapsto G(g)$. The correspondence for the natural transformations, $g: (G^A,G^\sigma)\Rightarrow (H^A,H^\tau)$ is similar. 
+
+Dually, for a comonad $\Omega$ in $B$, there is a canonical comonad $[\Omega, A]$ on $[B,A]$ and an isomorphism of categories 
+
+$$
+[B^\Omega, A] \cong [B,A]^{[\Omega,A]}
+$$
 
 ## Limits and colimits in EM categories
 
