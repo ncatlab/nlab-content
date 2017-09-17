@@ -24,15 +24,20 @@
 
 ## Iddea
 
-_Weyl group_ are [[groups]] that can be either abstractly defined in terms of a [[root system]] or can be attached to a [[compact Lie group]] with the specified choice of a [[maximal torus]] (but all maximal tori are conjugate to each other, so it essentially does not depend on the choice) and, more generally, to [[symmetric spaces]].
+A _Weyl group_ is a [[group]] associated with a [[compact Lie group]] that can either be abstractly defined in terms of a [[root system]] or in terms of a [[maximal torus]] and, more generally, to [[symmetric spaces]].
 
 ## Definition
 
 Given a [[compact Lie group]] $G$ with chosen 
 [[maximal torus]] $T$, its __Weyl group__ $W(G)=W(G,T)$ is the [[group of automorphisms]] of $T$ which are restrictions of [[inner automorphisms]] of $G$. 
 
+This is the [[quotient group]] of the [[normalizer subgroup]] of $T \subste G$ by $T$
 
-
+$$
+  W \simeq N_G(T)/T
+  \,.
+$$
+ 
 ## Properties
 
 * The [[maximal torus]] is of [[finite index subgroup|finite index]] in its [[normalizer]]; the [[quotient]] $N(T)/T$ is [[isomorphism|isomorphic]] to $W(G)$. 
