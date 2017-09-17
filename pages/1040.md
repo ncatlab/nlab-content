@@ -150,7 +150,7 @@ follows by inverting the naturality equation $\eta M e \circ \eta e = M \eta e \
 =-- 
 
 
-+-- {: .num_remark}
++-- {: .num_remark #ReflectiveSubcategoryOfIdempotentMonad}
 ###### Remark
 
 This means that the [[Eilenberg-Moore category]] of an [[idempotent monad]] is equivalently the [[reflective subcategory]] (a "[[localization]]" of the ambient category) whose embedding-reflection [[adjunction]] gives the idempotent monad.
@@ -176,9 +176,10 @@ In [[modal type theory]] one thinks of a (idempotent) (co-)monad as a (co-)[[mod
 ### The associated idempotent monad of a monad
  {#AssociatedIdemopotentMonad}
 
-We discuss here how under suitable conditions, for every [[monad]] $T$ there is a "completion" to an idempotent monad $\tilde T$ in that the completion construction is  [[right adjoint]] to the inclusion of idempotent monads into all monads, exhibiting idempotent monads as a [[coreflective subcategory]]. Here $\tilde T$ inverts the same morphisms that $T$ does and hence exhibits the [[localization]]([[reflective subcategory]]) at the $T$-equivalences ([Fakir 70](#Fakir70), [Applegate-Tierney 70](#ApplegateTierney70), [Day 74](#Day74) [Casacuberta-Frei 99](#CasacubertaFrei99). [Lucyshyn-Wright 14](Lucyshyn-Wright14)).
+We discuss here how under suitable conditions, for every [[monad]] $T$ there is a "completion" to an idempotent monad $\tilde T$ in that the completion construction is  [[right adjoint]] to the inclusion of idempotent monads into all monads, exhibiting idempotent monads as a [[coreflective subcategory]]. Here $\tilde T$ inverts the same morphisms that $T$ does and hence exhibits the [[localization]]([[reflective subcategory]]) at the $T$-equivalences, and in fact the factorization of any [[adjunction]] inducing $T$ through that localization ([Fakir 70](#Fakir70), [Applegate-Tierney 70](#ApplegateTierney70), [Day 74](#Day74) [Casacuberta-Frei 99](#CasacubertaFrei99). [Lucyshyn-Wright 14](Lucyshyn-Wright14)).
 
-+-- {: .num_theorem}
+
++-- {: .num_theorem #ExistenceOfIdempotentCore}
 ###### Theorem ([Fakir 70](#Fakir70)) 
 
 Let $C$ be a [[complete category|complete]], [[well-powered category]], and let $M\colon C \to C$ be a [[monad]] with [[unit of a monad|unit]] $u\colon 1 \to M$ and multiplication $m\colon M M \to M$. Then there is a universal idempotent monad, giving a [[right adjoint]] to the inclusion
@@ -239,6 +240,37 @@ $$(u_\alpha M_\alpha)\phi_\alpha = \phi_\alpha \phi_\alpha (v T) = \phi_\alpha \
 
 so that $\phi_{\alpha}$ factors uniquely through the inclusion $M_{\alpha + 1} \hookrightarrow M_\alpha$. This defines $\phi_{\alpha + 1}\colon T \to M_{\alpha + 1}$; this is a monad map. The definition of $\phi_\alpha$ at limit ordinals, where $M_\alpha$ is a limit monad, is clear. Hence $T \to M$ factors (uniquely) through the inclusion $E(M) \hookrightarrow M$, as was to be shown.  
 =-- 
+
++-- {: .num_theorem #FactorizationOfIdempotentCore}
+###### Theorem 
+
+For 
+
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{C}
+  \stackrel{\overset{L}{\longrightarrow}}{\underset{R}{\longleftarrow}}
+  \mathcal{D}
+$$
+
+a pair of [[adjoint functors]] with induced [[monad]] $T = R\circ L$ on the complete and well-powered category $\mathcal{C}$, then the idempotent monad $\tilde T$ of theorem \ref{ExistenceOfIdempotentCore} corresponds via remark \ref{ReflectiveSubcategoryOfIdempotentMonad} to a [[reflective subcategory]] inclusion $\mathcal{C}_T \stackrel{i}{\hookrightarrow} \mathcal{C}$ which factors the original adjunction
+
+$$
+  (L\dashv R)
+  \;\colon\;
+  \mathcal{C}
+    \stackrel{\overset{}{\longrightarrow}}{\underset{i}{\longleftarrow}}
+  \mathcal{C}_T
+    \stackrel{\overset{L'}{\longrightarrow}}{\underset{}{\longleftarrow}}
+  \mathcal{D}
+$$ 
+
+such that $L'$ is a [[conservative functor]].
+
+=--
+
+([Lucyshyn-Wright 14, theorem 4.15](#LucyshynWright14))
 
 
 +-- {: .num_example}
