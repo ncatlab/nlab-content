@@ -1,0 +1,2 @@
+Principal connection is a [[connection on a bundle|connection]] on a [[principal bundle]]. Most well known examples are [[affine connection]]s. Principal connection induces a connection on the associated bundle. 
+
