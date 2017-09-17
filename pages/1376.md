@@ -77,3 +77,8 @@ An equivalent reformulation of commutative monoids in terms [[(∞,1)-algebraic 
 [[!redirects algebra in an (∞,1)-category]]
 [[!redirects monoid in an (∞,1)-category]]
 [[!redirects monoid in an (infinity,1)-category]]
+
+[[!redirects ∞-monoid]]
+[[!redirects ∞-monoids]]
+[[!redirects infinity-monoid]]
+[[!redirects infinity-monoids]]
