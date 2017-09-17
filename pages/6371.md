@@ -1,0 +1,6 @@
+A __field__ (as an algebraic structure) is complete if it is equipped with a metric in which the operations are continuous and is complete as a metric space. 
+
+The most important case is the case of valued fields.
+
+Given a multiplicative [[discrete valuation]] on a field $k$, there is a topology on $k$ induced by the metrics induced by the valuation. A complete valued field is a field complete with respect to the valuation metric. 
+
