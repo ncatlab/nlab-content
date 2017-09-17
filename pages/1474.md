@@ -104,7 +104,7 @@ The corresponding relative notion (over an arbitrary [[base topos]]) is that of 
 
 Comments on the relation to [[topos theory]] are for instance in
 
-* S. Niefield, _A note on the locally Hausdorff property_, Cahier (1983) ([numdam](http://www.numdam.org/item?id=CTGDC_1983__24_1_87_0))
+* [[S. Niefield]], _A note on the locally Hausdorff property_, Cahiers TGDC (1983) ([numdam](http://www.numdam.org/item?id=CTGDC_1983__24_1_87_0))
 
 
 [[!redirects Hausdorff]]
