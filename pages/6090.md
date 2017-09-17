@@ -1,0 +1,22 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Phyiscs
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+## Idea
+
+In [[quantum field theory]] a _scattering matrix_  or _S-matrix_ encodes the [[probability amplitudes]] for scatterings processes of [[particle]]s off each other.
+
+For the moment see at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of signa-models</a>_ 
+
+[[!redirects scattering matrix]]
