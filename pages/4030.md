@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
 [[!include topos theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -118,6 +124,19 @@ exhibits [[Set]] as a [[reflective subcategory]] of $E$. We may think then of [[
   $$
 
 
-
 =--
+
+## Related entries
+
+
+* **locally connected topos** / [[locally ∞-connected (∞,1)-topos]]
+
+* [[connected topos]] / [[∞-connected (∞,1)-topos]]
+
+* [[local topos]] / [[local (∞,1)-topos]].
+
+* [[cohesive topos]] / [[cohesive (∞,1)-topos]]
+
+
+
 [[!redirects locally connected topoes]]
