@@ -38,7 +38,7 @@ $$
 in the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]] has a refinement to $\mathbf{H} = $ [[Smooth∞Grpd]] of the form 
 
 $$
-  \frac{1}{6}\mathbf{p}_2 : \mathbf{B}String \to \mathbf{B}^3 U(1)
+  \frac{1}{6}\mathbf{p}_2 : \mathbf{B}String \to \mathbf{B}^7 U(1)
 $$ 
 
 -- the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#SmoothFirstFracPontryaginClass">smooth second fractional Pontryagin class</a>.
@@ -50,7 +50,7 @@ $$
   :
   \mathbf{H}(X,\mathbf{B} String)
   \stackrel{}{\to}
-  \mathbf{H}(X,\mathbf{B}^3 U(1))
+  \mathbf{H}(X,\mathbf{B}^7 U(1))
 $$
 
 sends a [[string 2-group]]-[[principal 2-bundle]] $P$ to its corresponding [[Chern-Simons circle 7-bundle]] $\frac{1}{6}\mathbf{p}_2(P)$.
