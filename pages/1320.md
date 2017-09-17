@@ -55,3 +55,13 @@ A monadic functor is strictly monadic if and only if it is also an [[amnestic fu
 [[!redirects monadic]]
 [[!redirects monadic category]]
 [[!redirects monadic functors]]
+
+
+[[!redirects comonadic]]
+[[!redirects co-monadic]]
+
+[[!redirects comonadic functor]]
+[[!redirects co-monadic functor]]
+[[!redirects comonadic functors]]
+[[!redirects co-monadic functors]]
+
