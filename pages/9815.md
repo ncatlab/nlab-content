@@ -13,6 +13,20 @@ So far there is no realisation of such a category, but there are proposals by [[
 
 ## Related concepts
 
+* [[motive]]
+
+  * [[pure motive]], 
+
+    * [[Chow motive]], [[numerical motive]]
+
+  * [[Voevodsky motive]]
+
+  * [[noncommutative motive]]
+
 * [[motivic cohomology]]
+
+## References
+
+* [[Marc Levine]], _Mixed Motives_, Handbook of K-theory ([pdf](http://www.uni-due.de/~bm0032/publ/MixMotKHB.pdf))
 
 [[!redirects mixed motives]]
