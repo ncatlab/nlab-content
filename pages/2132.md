@@ -76,7 +76,7 @@ Hence given a [[complex manifold]] $X$, together with a  *closed* real $2$-form 
 +-- {: .num_prop}
 ###### Proposition
 
-A spin structure on a [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
+A spin structure on a [[compact topological space|compact]] [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
 
 * there is a choice of [[square root]] $\sqrt{\Omega^{n,0}}$ of the [[canonical line bundle]] $\Omega^{n,0}$ (a "[[Theta characteristic]]"); 
 
