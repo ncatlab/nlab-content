@@ -64,7 +64,6 @@ on $CartSp_{synthdiff}$.
 ## Properites
 
 
-### Cohesiveness over $\infty Grpd$
 
 +-- {: .un_prop}
 ###### Proposition
@@ -80,9 +79,6 @@ Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for de
 
 =--
 
-
-### Cohesiveness under $Smooth \infty Grpd$ {#RelativeInftyConnectedness}
-
 +-- {: .un_def}
 ###### Definition
 
@@ -94,34 +90,22 @@ Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical
 +-- {: .un_prop #CohesivenessUnderSmoothInfGrpd}
 ###### Proposition
 
-The functor $i^*$ given by restriction along $i$ exhibits the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s as a [[cohesive (∞,1)-topos]] over $SynthDiff\infty Grpd$, in that we have a quadruple of [[adjoint (∞,1)-functor]]s
+The functor $i^*$ given by restriction along $i$ exhibits 
+$SynthDiff\infty Grpd$ as an 
+<a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#LieTheory">infinitesimal cohesive neighbourhood</a>
+of the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s as a [[cohesive (∞,1)-topos]] over $SynthDiff\infty Grpd$, in that we have a quadruple of [[adjoint (∞,1)-functor]]s
 
 $$
  ( i_! \dashv i^* \dashv i_* \dashv i^! )
   :
   Smooth \infty Grpd
   :
-  \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
+  \stackrel{\overset{i_!}{\hookrightarrow}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
   SynthDiff \infty Grpd
   \,,
 $$
 
-such that 
-
-* $i_!$ preserves finite [[(∞,1)-product]]s;
-
-* $i$ factors the [[global section]] [[(∞,1)-geometric morphism]]
-
-  $$
-    \array{
-       Smooth\infty Grpd &&\stackrel{i_*}{\to}&& SynthDiff\infty Grpd
-       \\
-       & {}_{\mathllap{\Gamma}}\searrow && \swarrow_{\mathrlap{\Gamma}}
-       \\
-       && \infty Grpd
-    }
-    \,.
-  $$
+such that $i_!$ is a [[full and faithful (∞,1)-functor]].
 
 =--
 
@@ -265,26 +249,7 @@ This implies that $\{p^* U_i \to p^* U\}$ is a _generalized cover_ in the termin
 
 This establishes the quadruple of [[adjoint (∞,1)-functor]]s as claimed.
 
-It remains to show that the relative cohesive $(\infty,1)$-[[geometric morphism]] thus established indeed factors the [[global section]] functor,
-given by evaluation on the [[terminal object]] $*$. This follows by the adjunction property
 
-$$
-  \begin{aligned}
-    \Gamma_{Smooth\infty Grpd}( i_* X )
-    & 
-    \simeq
-    SynthDiff \infty Grpd(*, i_* X)
-    \\
-    & \simeq Smooth\infty Grpd(i^* *, X)
-    \\
-    & 
-    \simeq Smooth \infty Grpd(*, X)
-    \\
-    & \simeq \Gamma_{SynthDiff \infty Grpd}(X)
-  \end{aligned}
-$$
-
-by the fact that $i^*$ is a [[right adjoint]] and hence preserves the [[terminal object]].
 
 =--
 
@@ -465,7 +430,15 @@ $$
 
 ### $\infty$-Lie algebras {#StrucLieAlg}
 
-(...)
+
++-- {: .un_def}
+###### Definition
+
+We say an object $\mathbf{B}\mathfrak{g} \in SynthDiff \infty Grpd$ is 
+(the [[delooping of]] an [[∞-Lie algebebra]]) if it is
+an <a href="">exponentiated ∞-Lie algebra</a> _relative_ to 
+
+=--
 
 
 ### Maurer-Cartan forms and curvature characteristic forms {#StrucCurvatureForms}
