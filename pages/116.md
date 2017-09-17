@@ -219,6 +219,8 @@ For more see [[counterexamples in algebra]].
 
   * [[finite group]], [[discrete group]], [[abelian group]], [[topological group]], [[Lie group]], [[loop group]], [[profinite group]]
 
+  * [[group commutator]], [[commutator subgroup]]
+
 * [[ring]], [[ring object]]
 
 * [[automorphism group]], [[automorphism 2-group]], [[automorphism ∞-group]],
