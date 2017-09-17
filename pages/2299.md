@@ -96,6 +96,11 @@ A notable exception to this is possibly the program by [[Maxim Kontsevich]] and 
 
 [[!include Isbell duality - table]]
 
+For relation to [[physics]] see
+
+* [[higher category theory and physics]]
+
+* [[geometry of physics]] 
 
 ## References
 
