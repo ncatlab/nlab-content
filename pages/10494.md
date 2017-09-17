@@ -82,7 +82,9 @@ Here
 
 * $base \;\colon\; T \mathbf{H} \longrightarrow \mathbf{H}$ assigns the _base space_ of a spectrum bundle;
 
-  its [[left adjoint]] produces the 0-bundle.
+  its [[left adjoint]] produces the 0-bundle;
+
+  together these exhibit $T \mathbf{H}$ as an [[infinitesimal cohesive (infinity,1)-topos]] over $\mathbf{H}$.
 
 
 
