@@ -38,7 +38,8 @@ $$
   \,;
 $$
 
-which is in general simpler. 
+which is in general simpler. This is a special case of the [[spectral sequence of a filtered stable homotopy type]].
+
 
 The sequence asymptotes to the homology of $C_\bullet$ by approximating [[cycles]] and [[boundaries]] of $C$ by their "$r$-approximation": an _$r$-almost cycle_ is a [[chain]] in filtering degree $p$ whose [[differential]] vanishes only up to terms that are $r$ steps lower in filtering degree, and an $r$-almost boundary in filtering degree $p$ is a cycle that is the differential of a chain which may be (only) up to $r$-degrees higher in filtering degree. The corresponding $r$-almost homology of $C_\bullet$ in filtering degree $p$ is the term $E^r_{p,\bullet}$ of the spectral sequence.
 
@@ -69,7 +70,6 @@ $$
 
 coming from the filtering.
 
-This is a special case of the [[spectral sequence of a stable homotopy type]].
 
 ## Definition
 
@@ -920,7 +920,7 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 ## Related concepts
 
-* [[spectral sequence of a stable homotopy type]]
+* [[spectral sequence of a filtered stable homotopy type]]
 
 ## References
 
