@@ -54,7 +54,7 @@ Another variant is $\mathbf{O}_{gl}$ of ([Schwede 13](#Schwede13)).
 
 ([Rezk 14, 2.4, 2.5](#Rezk14))
 
-The following is the _ [[global orbit category]]_.
+The following is the _[[global orbit category]]_.
 
 +-- {: .num_defn #GlobalOrbitCategory}
 ###### Definition
@@ -82,7 +82,7 @@ $$
  \,.
 $$
 
-### Relation toorbispaces and $G$-spaces
+### Relation to orbispaces and $G$-spaces
 
 The [[(∞,1)-category of (∞,1)-presheaves]] over the global orbit category is that of [[orbispaces]].
 
@@ -104,10 +104,10 @@ $$
 ### Relation to equivariant homotopy theory
 
 
-The [[(∞,1)-category of (∞,1)-presheaves]] on the [[global equivariant indexing category]] is the [[global equivariant homotopy theory]] and under the canonical projection is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]. Its [[slice (∞,1)-topos]] over the terminal oribispace is cohesive over [[orbispaces]]
+The [[(∞,1)-category of (∞,1)-presheaves]] on the [[global equivariant indexing category]] is the [[global equivariant homotopy theory]] and under the canonical projection is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]. Its [[slice (∞,1)-topos]] over the terminal orbispace is cohesive over [[orbispaces]]
 
 $$
-  PSh_\infty(Glo)_{/\mathcal{N}} \to Psh_\infty(Orb)
+  PSh_\infty(Glo)_{/\mathcal{N}} \to PSh_\infty(Orb)
  \,.
 $$
 
