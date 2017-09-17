@@ -16,15 +16,21 @@
 
 ## Idea
 
-Weinstein suggested that [[geometric quantization]] should yield a representation of a "[[category]]" whose
+When [[symplectic geometry]] is used to model [[mechanics]] in [[physics]], then a [[symplectic manifold]] $(X,\omega)$ encodes the [[phase space]] of a [[mechanical system]] and a [[symplectomorphism]] 
 
-* objects are [[symplectic manifolds]] $(X, \omega)$;
+$$
+  \phi \;\colon\; (X_1,\omega_1) \to (X_2, \omega_2)
+$$ 
 
-* morphisms $(X_1,\omega_1) \to (X_2,\omega_2)$ are [[Lagrangian correspondences]]: [[Lagrangian submanifolds]] of $(X_1, \omega_1) \times (X_2, -\omega_2)$;
+encodes a process undergone by this system, for instance the time evolution induced by a [[Hamiltonian vector field]]. 
 
-and [[composition]] is given by taking [[fiber products]] of these Lagrangian submanifolds.
+Now the [[graph]] of a [[symplectomorphism]] $\phi$ is a [[Lagrangian submanifold]] of the [[Cartesian product]] space $X_1 \times X_2$ regarded as a [[symplectic manifold]] with symplectic form $p_1^\ast \omega_1 - p_2^\ast \omega_2$. In other words, a symplectomorphism $\phi$ as above constitutes a [[Lagrangian correspondence]] between $(X_1,\omega_1)$ and $(X_2, \omega_2)$. See for instance ([Cattaneo-Mnev-Reshetikhin 12](#CattaneoMnevReshetikhin12)) for a review.
 
-However, this is not actually quite a [[category]], since composition is only well-defined when the intersection of $L_1 \times L_2 \cap X_1 \times \Delta(X_2) \times X_3$ is [transverse](http://ncatlab.org/nlab/show/transversal+maps).
+This suggests that instead of the [[category]] whose [[objects]] are [[symplectic manifolds]] and whose [[morphisms]] are [[symplectomorphisms]], one might consider a kind of [[category of correspondences]] whose objects are symplectic manifolds, and whose morphisms include [[Lagrangian correspondences]], so that [[composition]] is given by forming the [[fiber product]] along adjacent legs of [[correspondences]].
+
+[[Alan Weinstein]] called this would-be category the _symplectic category_ and suggested that it is the natural [[domain]] for [[geometric quantization]].
+
+However, take at face value, symplectic manifolds with [[Lagrangian correspondences]] between them do not quite form a [[category]], since the usual [[composition]] is only well-defined when the intersection of $L_1 \times L_2 \cap X_1 \times \Delta(X_2) \times X_3$ is [transverse](http://ncatlab.org/nlab/show/transversal+maps).
 
 Proposals for how to rectify this are in ([Wehrheim-Woodward](#WehrheimWoodward)) and in ([Kitchloo](#Kitchloo)) (by turning this into an [[(infinity,1)-category]]).
 
@@ -120,6 +126,11 @@ It turns out to have a natural subgroup which is isomorphic to the quotient of t
 
 ## References
  {#References}
+
+The way that [[Lagrangian correspondences]] encode [[symplectomorphisms]] in [[symplectic geometry]] and hence evolution in [[mechanics]] is reviewed (and put in the broader context of [[BV-BRST formalism]]) in 
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
+ {#CattaneoMnevReshetikhin12}
 
 In his work on Fourier integral operators, 
 
