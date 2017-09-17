@@ -45,6 +45,8 @@ it sends real [[vector bundles]] to [[sphere spectrum]]-bundles, namely [[(∞,1
 
 ## Definition
 
+### On groups
+
 For $n \in \mathbb{N}$ regard the $n$-[[sphere]] (as a [[topological space]]) as the [[one-point compactification]] of the [[Cartesian space]] $\mathbb{R}^n$
 
 $$
@@ -123,6 +125,17 @@ the **J-homomorphism**.
 
 =--
 
+
+### Delooped: On classifying spaces and K-theory classes
+
+
+spring
+
+$$
+  KO^0(X) \longrightarrow Sph(X)
+$$
+
+[[topological K-theory]] to [[spherical fibrations]]
 
 ## Properties
 
@@ -204,6 +217,12 @@ This is reviewed for instance in
 
 * [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_, chapter I, _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
  {#Ravenel}
+
+* [[Johannes Ebert]], _The Adams conjecture after Edgar Brown_, ([pdf](http://www.math.uni-muenster.de/u/jeber_02/talks/adams.pdf))
+
+See also 
+
+* [[Victor Snaith]], _Infinite loop maps and the complex $J$-homomorphism_, Bull. Amer. Math. Soc. Volume 82, Number 3 (1976), 508-510. ([Euclid](http://projecteuclid.org/euclid.bams/1183537922))
 
 Lecture notes include
 
