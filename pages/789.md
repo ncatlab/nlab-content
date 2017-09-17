@@ -75,4 +75,4 @@ A survey set of slides with an eye towards  the description of the [[Kalb-Ramond
 
 Relations to the [[Poisson sigma-model]] and the [[Courant sigma-model]] are discussed in
 
-* [[Alberto Cattaneo]], Jian Qiub, [[Maxim Zabzine]], _2D and 3D topological eld theories for generalized complex geometry_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/GC_BV.pdf))
+* [[Alberto Cattaneo]], Jian Qiub, [[Maxim Zabzine]], _2D and 3D topological field theories for generalized complex geometry_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/GC_BV.pdf))
