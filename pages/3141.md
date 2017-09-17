@@ -106,6 +106,12 @@ Because by the [[(∞,1)-Grothendieck construction]]
 
 ## References
 
+For ordinary and [[enriched category theory|enriched]] categories, cographs were studied (and used to characterize profunctors) by:
+
+* [[Ross Street]], "Fibrations in bicategories"
+
+* Carboni and Johnson and Street and Verity, "Modulated bicategories"
+
 The $(\infty,1)$-category theoretic notion ("correspondence") is the topic of section 2.3.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
