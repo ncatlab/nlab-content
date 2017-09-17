@@ -67,6 +67,7 @@ In good situations, such as when $X,Y,Z$ are [[fibrant object|fibrant]] in a [[m
 Note that in both cases, there is a canonical map from the actual pullback $X\times_Z Y$ to the homotopy pullback $X\times_Z^h Y$.  In the global case this comes by the definition of a derived functor; in the local case it comes because a commutative square is, in particular, a homotopy commutative one.
 
 
+
 ## Concrete construction
 
 Suppose now that $Z$ has a [[path object]] $Z^I$ that represents homotopies into $Z$.  (For instance, this is often the case when $C$ is a [[closed monoidal homotopical category]] with an [[interval object]] $I$.)  Then we can consider the (ordinary) [[limit]]
@@ -119,7 +120,20 @@ $$
   }
 $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
++--{.query}
+Should the last diagram rather be
+$$
+  \array{
+   W & \to& Y
+   \\
+    \downarrow && \downarrow
+   \\
+   X &\to& Z
+  }
+$$
+?
 
+=--
 
 ## Fiber sequences 
 
