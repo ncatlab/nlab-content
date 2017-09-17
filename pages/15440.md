@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+In [[algebra]], a unital [[ring]] is a _Dedekind domain_ is an [[integral domain]] in which every non-[[zero object|zero]] [[proper ideal]] factors into a [[product]] of [[prime ideal]].
+
+## Examples
+
+* The [[ring of integers]] in any [[number field]] is a Dedekind domain.
+
+## Related concepts
+
+* [[integral domain]]
+
+## References
+
+* Wikipedia, _[Dedekind domain](http://en.wikipedia.org/wiki/Dedekind_domain)_
+
+[[!redirects Dedekind domains]]
