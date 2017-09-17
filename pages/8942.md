@@ -23,6 +23,8 @@ Also, all [[D-branes]] of [[type II string theory]] can be understood as arising
 
 ## Related concepts
 
+* [[ninebrane group]]
+
 [[!include table of branes]]
 
 
