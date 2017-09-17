@@ -117,6 +117,8 @@ is epic (by the assumptions that $1$ is a separator and $X \times -$ preserves e
 
 ## Related concepts
 
+* [[coproduct-preserving representable]]
+
 * [[n-connected object in an (∞,1)-topos]]
 
 
