@@ -9,15 +9,15 @@
 
 ## Idea
 
-The **cobordism ring** $\Omega_n$ is the [[ring]] whose 
+The **cobordism ring** $\Omega_*=\oplus_{n\geq 0}\Omega_n$ is the [[ring]] whose 
 
-* elements are classes of $n$-dimensional [[manifold]]s modulo [[cobordism]]s;
+* degree $n$ elements are classes of $n$-dimensional [[manifold]]s modulo [[cobordism]]s;
 
 * product operation is given by the [[Cartesian product]] of manifolds;
 
 * addition operation is given by the [[disjoint union]] of manifolds.
 
-Instead of bare manifolds one can consider manifolds with extra structure, such as [[orientation]], [[spin structure]], [[string structure]], etc. and accordingly there is _oriented cobordism ring_ $\Omega^{SO}_n$,  the _spin cobordism ring_ $\Omega^{Spin}_n$, etc. In this context the bare cobordism ring is also denoted $\Omega^O_n$ or $\Omega^{un}_n$.
+Instead of bare manifolds one can consider manifolds with extra structure, such as [[orientation]], [[spin structure]], [[string structure]], etc. and accordingly there is _oriented cobordism ring_ $\Omega^{SO}_*$,  the _spin cobordism ring_ $\Omega^{Spin}_*$, etc. In this context the bare cobordism ring is also denoted $\Omega^O_*$ or $\Omega^{un}_*$.
 
 A ring [[homomorphism]] out of the cobordism ring is a [[genus]].
 
@@ -29,7 +29,7 @@ The cobordism ring finds its natural interpretation in [[higher category theory]
 ###### Theorem
 **(Thom)**
 
-The cobordism ring $\Omega_n$ is the $n$th [[homotopy group]] of the [[Thom spectrum]] $M O$
+The degree $n$ component $\Omega_n$ of the cobordism ring $\Omega_*$ is the $n$th [[homotopy group]] of the [[Thom spectrum]] $M O$
 
 $$
   \Omega^O_n \simeq \pi_n (M O)
