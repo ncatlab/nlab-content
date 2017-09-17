@@ -160,7 +160,9 @@ We discuss a desription of supermanifolds that goes back to
 
 Let $SuperPoint$ be the [[category]] of [[superpoint]]s. And $Sh(SuperPoint) = PSh(SuperPoint)$ its [[presheaf topos]].
 
-We discuss a definition of supermanifolds that characterizes them, roughly,  as manifolds over this [[base topos]]. See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]].
+We discuss a definition of supermanifolds that characterizes them, roughly,  as manifolds over this [[base topos]]. See ([Sachse](#Sachse)) and the references at [[super ∞-groupoid]]. 
+
+See also [this post](http://theoreticalatlas.wordpress.com/2013/07/26/john-huerta-supermanifolds/) at Theoretical Atlas. 
 
 
 ### Definition
