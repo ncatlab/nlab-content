@@ -19,9 +19,9 @@
 
 ## Idea
 
-The notion of _Segal category_ is one of the models for that of _[[(∞,1)-category]]_. 
+The notion of _Segal category_ is one of the models for that of _[[(∞,1)-category]]_, given by regarding an $(\infty,1)$-category as an [[∞Grpd]]-[[enriched (∞,1)-category]].
 
-It can be understood as modelling the notion of an [[sSet]]-[[enriched category|enrichment]] _up to [[coherence|coherent]] [[homotopy]]_, i.e. a _weak_ enrichment. As such it is very similar to the notion of [[complete Segal space]], which models the notion of an [[internal category in an (∞,1)-category|internal category]] in [[sSet]].
+So the notion can be understood as modelling the notion of an [[sSet]]-[[enriched category|enrichment]] _up to [[coherence|coherent]] [[homotopy]]_, i.e. a _weak_ enrichment. As such it is closely related to the notion of [[complete Segal space]], which models the notion of an [[internal category in an (∞,1)-category|internal category]] in [[sSet]].
 
 Indeed, Segal categories may be considered with enrichment not just over [[sSet]], but over other suitable [[model categories]]. In particular, an itereated enrichment over itself gives rise to the notion of _[[Segal n-category]]_ which is a model for _[[(∞,n)-categories]]_.
 
