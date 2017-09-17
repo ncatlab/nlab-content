@@ -37,7 +37,7 @@ The existence of a small (co)generating family is one of the conditions in one v
 
 ##Terminology
 
-The concept of _cogenerator_ is dual to that of [[separator]], so it can alsobe refereed to as a _coseparator_.
+The concept of _cogenerator_ is dual to that of [[separator]], so it can also be refereed to as a _coseparator_.
 
 
 ## Related concepts
