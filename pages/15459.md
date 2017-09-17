@@ -1,3 +1,3 @@
-Tiba saat yang dinantikan, dengan satu lafaz sahaja aku sah menjadi hak milik  Sufian. Aku bahagia bersamanya.. aku akan berusaha menjadi seorang isteri yang solehah dan taat pada suamiku. Aku harap kami hidup bahagia hingga keakhir hayat. Kepada suamiku, Sufian aku amat menyintaimu???.semoga kebahagian kita ini akan memayungi syurga yang kita bina ini???amiin???
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=658" >Nike Air Max Hyper grey sale</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=658]Nike Air Max Hyper grey sale[/url]
+Aku mendongak. Lamunanku terhenti. Kata-kata itu tidak mampu kujawab. Mati.Buntu. Tidak mungkin aku mampu berkata sebegitu anakku. Aku tidak pernah memberontak. Tidak pernah meminta selain fucuk. Fucuk yang dibeli ayahmu. Fucuk lah yang ibu masak.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1731" >Jordan 15 gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=1731]Jordan 15 gold[/url]
