@@ -51,7 +51,7 @@ $$
   X \simeq {\lim_\to} K_\bullet
 $$
 
-over a [[groupoid object in an (∞,1)-category]] $K_\bullet : \Delta \to \mathbf{H}$ such that
+over a [[groupoid object in an (∞,1)-category|groupoid object]] $K_\bullet : \Delta \to \mathbf{H}$ in $\mathbf{H}$ such that
 
 1. $K_0$ and $K_1$ are in the image of $Spec : (T Alg^{\Delta})^{op} \to \mathbf{H}$;
 
