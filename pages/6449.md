@@ -369,17 +369,52 @@ Chern-Simons actions for [[Lie algebra]]s $\mathfrak{g}$ but with higher-degree 
 
 * [[1d Chern-Simons theory]]
 
+### 2d Chern-Simons theory
+
+* [[2d Chern-Simons theory]]
+
+  * [[Poisson sigma-model]]
+
 ### 3d Chern-Simons theory
 
-* [[Chern-Simons theory]]
+* [[3d Chern-Simons theory]]
+
+  * [[Chern-Simons theory]]
+
+  * [[Dijkgraaf-Witten model]]
+
+  * [[Courant sigma-model]]
+
+### 4d Chern-Simons theory
+
+* [[4d Chern-Simons theory]]
+
+  * [[Yetter model]]
 
 ### 5d Chern-Simons theory
 
 * [[5d Chern-Simons theory]]
 
+### 6d Chern-Simons theory
+
+* [[6d Chern-Simons theory]]
+
 ### 7d Chern-Simons theory
 
 * [[7d Chern-Simons theory]]
+
+### Infinite-dimensional Chern-Simons theory
+
+* [[infinite-dimensional Chern-Simons theory]]
+
+### AKSZ $\sigma$-models
+
+* [[AKSZ sigma-model]]
+
+### String field theory
+
+* [[string field theory]]
+
 
 
 
