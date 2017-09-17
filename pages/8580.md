@@ -8266,6 +8266,30 @@ Surveys of some aspects discussed below are also in ([FSS 12, section 5.2](#Fior
 ### Model layer
  {#FieldsModelLayer}
 
+(...)
+
+### Semantics layer
+ {#FieldsSemanticsLayer}
+
+
+We discuss the notion of [[field (physics)|field]] in physics in the general abstract context of [[(∞,1)-topos theory]].
+
++-- {: bluebox}
+###### 
+
+1. [Idea](#FieldsModelLayerIdea)
+
+1. [Definition](#FieldsModLayerDefinition)
+
+1. [Properties](#FieldsModelLayerProperties)
+
+1. [Examples](#FieldsModelLayerExamples)
+
+=--
+
+#### Idea
+ {#FieldsModelLayerIdea}
+
 +-- {: bluebox}
 ###### 
 
@@ -8273,11 +8297,11 @@ Surveys of some aspects discussed below are also in ([FSS 12, section 5.2](#Fior
 
 1. [The traditional idea of field bundles and its problems](#IdeaOfFieldBundlesAndItsProblems)
 
-1. [Physical fields in higher differential geometry](#FieldsModLayerDefinition)
+1. [The solution](#FieldsModelLayerIdeaSolution)
 
 =--
 
-#### General idea of physical fields
+##### General idea of physical fields
  {#GeneralIdeaOfPhysicalFields}
 
 The basic example that probably gives the whole concept its name is the [[electric field]] and the [[magnetic field]] in the [[theory (physics)|theory]] of [[electromagnetism]]: if we fix a [[coordinate chart]] of [[spacetime]], then the [[electromagnetic field]] splits into the [[electric field]] and the [[magnetic field]] which are both modeled by a _[[vector field]]_, traditionally denoted $\vec E$ and $\vec B$, respectively, on this coordinate chart. The value $\vec E(x)$ of the vector field at a given point of spacetime is a [[vector]] that expresses the magnitude and direction of the electric [[force]] that is exerted on an [[electric charge|electrically charged]] [[particle]] at $x$. 
@@ -8297,7 +8321,7 @@ This perspective generalizes. Next one can consider fields on 2-dimensional [[su
 But there is no fundamental distinction between physical fields on spaces that are interpreted as [[spacetimes]] and those that are interpreted as [[worldvolumes]] of objects propagating _in_ a fixed spacetime. In general these notions mix. For instance the full description of [[relativistic particles]] and [[relativistic strings]] involves a field that is really a field of [[gravity]] on the [[worldvolume]]. Conversely, [[theory (physics)|theories]] on [[spacetimes]] that arise by [[Kaluza-Klein compactification]] of higher dimensional theories typically have "[[scalar field|scalar moduli fields]]" that used to be components of the field of [[gravity]] in higher dimensions but now after compactifications become maps into some auxiliary [[target space]], hence again _[[sigma-model]]_ fields.
 
 
-#### The traditional idea of field bundles and its problems
+##### The traditional idea of field bundles and its problems
  {#IdeaOfFieldBundlesAndItsProblems}
 
 A traditional approach to formalizing the notion of _physical field_ is to declare that the specification of a [[theory (physics)|theory in physics]]/[[physical system]] comes with a [[fiber bundle]] $E \to X$ over the [[spacetime]]/[[worldvolume]] $X$ (or better: naturally over all spacetimes, see at _[Locality](#IdeaLocality)_ below) called the ***[[field bundle]]*** and that a field configuration $\phi$ of the system is a [[section]] 
@@ -8330,7 +8354,7 @@ While this goes in the right direction, it cannot be quite the final answer, as 
 In the course of discussing the problems we also motivate and indicate their solution by a more natural notion of field moduli in [[higher geometry]]. This is then discussed in full detail in  
 _[Physical fields in higher differential geometry](#FieldsModLayerDefinition)_ below.
 
-##### Large gauge transformations 
+###### Large gauge transformations 
  {#IdeaLargeGaugeTransformations}
 
 In [[gauge theory]] specifically but in [[physics]] generally, physical fields come equipped with a notion of which fields configurations, while nominally different, are [[equivalence|equivalent]], called _[[gauge equivalence|gauge equivalent]]_ and it is crucial to retain the information of gauge equivalences and not pass to [[equivalence classes]] of gauge equivalent fields. This means that generically for any [[physical theory]], even if all field configurations would be represented by a section of some [[field bundle]], many such sections are in fact to be regarded as being equivalent. Or more precisely, there should be a _[[groupoid]]_ or _[[∞-groupoid]]_ of field configurations of which the sections of the field bundle only form the space of [[objects]], while the [[gauge transformations]] form the [[morphisms]] and the [[higher gauge transformations]] of order $n$ form the [[n-morphisms]].
@@ -8344,7 +8368,8 @@ Famous examples of the importance of [[large gauge transformations]] appear in
 
 * [[2d CFT]], for which all standard theory would break down if the global [[conformal transformations]] were not considered as gauge transformations.
 
-##### Locality 
+
+###### Locality 
  {#IdeaLocality}
 
 Fields defined as sections of field bundles cannot capture gauge phenomena in a _loca_l way, as is necessary for a manifestly local formulation such in [[extended prequantum field theory]], [[extended quantum field theory]] (sometimes called the "multi-tiered" formulation).
@@ -8387,7 +8412,7 @@ out of the [[product]] of [[spacetime]] with the [[moduli stack]] of fields.
    But there are more advantages, slightly less obvious. These we come to in the following points.
 
 
-##### Spin-structures and other $G$-structures
+###### Spin-structures and other $G$-structures
  {#IdeaSpinStructures}
 
 Some fields in physics are (or involve) choices of _[[G-structure]]_ in the sense of [[reduction and lift of structure groups]]. Well-known examples include the choice of _[[orientation]]_ and of _[[Spin structure]]_ in field theories with [[fermion]] fields (discussed in detail in _[Fermions](#Fermions)_ below). Often in the literature the choice of [[orientation]] and [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that the in the full theory this is really a field configuration. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
@@ -8483,7 +8508,7 @@ Hence spin structures are parts of fields in physics which are not sections of a
 
 This is only the most famous phenomenon in a large class of similar structures of fields in field theory. Notably in higher dimensional [[supergravity]] and in [[string theory]] there are fields which are ever higher lifts through this [[Whitehead tower]] -- [[higher spin structures]], such as [[String structures]] and [[Fivebrane structures]] in the next two steps. Accordingly, these are fields which are equivalently sections of [[principal 3-bundles]] (the "[[Chern-Simons circle 3-bundle]]") and [[principal infinity-bundle|principal 7-bundles]] (the "[[Chern-Simons circle 7-bundle]]").
 
-#### Background fields
+###### Background fields
  {#BackgroundFields}
 
 Comparison of the above discussions under _[Locality](#IdeaLocality)_ and _[Spin structures](#IdeaSpinStructures)_  shows that there we had a higher-geometric field bundle of [[Yang-Mills fields]] which was hower "trivial" in the sense that it was a projection out of the [[product]] of [[spacetime]] with a [[moduli stack]], so that a field configuration was equivalently of [[sigma-model]]-type, namely simply a map $\phi \colon : X \to \mathbf{B}G_{conn}$; whereas here the "spin-lifting 2-bundles" and its higher analogs are, in general, not of this product form, hence "Spin structure"-fields, at least superficially do not seem to be of [[sigma-model]]-type, even in [[higher geometry]].
@@ -8576,7 +8601,7 @@ but now in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$.
 This subtle interplay of "bulk fields" and "[[QFT with defects|defect fields]]" which is here captured most naturally in terms of [[higher geometry]] cannot really be expressed accurately just in terms of field bundles.
 
 
-#### Higher gauge fields
+###### Higher gauge fields
  {#HigherGaugeFields}
 
 Above we have seen the generalization of field bundles to [[higher geometry]] already for traditional notions such as Yang-Mills fields and Spin-structures. But many [[theory (physics)|theories]] considered in
@@ -8586,28 +8611,19 @@ For instance the higher analog of the [[electromagnetic field]] which is called 
 
 There is a wide variety of [[higher dimensional Chern-Simons theories]] whose fields are such [[higher gauge fields]]. In some traditional literature one sees parts of this theory be discussed by standard [[BV-BRST formalism]] applied to [[field bundles]], namely by ignoring the non-trivial [[instanton sectors]] and pretending that a field configuration for these [[connection on an ∞-bundle|∞-connections]] are given by globally dedined [[differential forms]]. In some special cases (for instance for [[spacetimes]]/[[worldvolumes]] of very special topology or low [[dimension]) this can be sufficient to capture everything, but in general (for instance for $U(1)$-[[higher dimensional Chern-Simons theory]] and its [[holographic principle|holographically dual]] [[self-dual higher gauge theory]]) it is not.
 
-#### Physical fields in higher differential geometry
+##### The solution: Field $\infty$-bundles and moduli $\infty$-stacks of fields
+ {#FieldsModelLayerIdeaSolution}
+
+By the [above](#IdeaOfFieldBundlesAndItsProblems), defining a physical field to be a section of some bundle goes in the right direction, but misses crucial aspects of physical fields. These problems are fixed by passing to [[higher geometry]].
+
+Below in _[Definition](#Definition)_ we discuss a natural unified formulation of the notion of physical field in terms of [[higher geometry]] (the central definition being def. \ref{FieldsInAnActionFunctional} ) and then we spell out many [Examples](#Examples).
+
+This definition turns out to be equivalent, at least under mild conditions, to a formulation where fields are sections of an [[associated ∞-bundle]], hence a "field $\infty$-bundle". This we discuss in _[Properties -- Relation of fields to sections of ∞-bundles](#RelationOfFieldsToSections)_. But this is just one of several equivalent perspectives on physical fields, and not always the most transparent one. In fact, sections of higher associated bundles are best known in the literature on [[twisted cohomology]] and indeed one equivalent characterization of fields is as [[cocycles]] in [[twisted cohomology]] in the general sense of [[cohomology]] in an [[(∞,1)-topos]]. This we discuss below in _[Relation to twisted cohomology](#RelationToTwistedCohomology)_.
+
+
+#### Definition: Physical fields in higher differential geometry
  {#FieldsModLayerDefinition}
 
-A exposition of the full definition will go here. For the moment see the more formal discussion in the 
-[Semantics layer below](#FieldsSemanticsLayer).
-
-### Semantics layer
- {#FieldsSemanticsLayer}
-
-+-- {: bluebox }
-###### 
-
-1. [Physical fields in an infinity-topos](#DefinitionPhysicalField)
-
-1. [Restriction and pullback of physical fields](#RestrictionAndPullback)
-
-1. [Moduli stacks of fields](#ModuliStacksOfFields)
-
-1. [Relation to twisted cohomology](#RelationToTwistedCohomology)
-
-1. [Examples](#ExamplesPhysicalFieldsInTopos)
-=--
 
 We give a general abstract definition of physical fields in 
 
@@ -8615,11 +8631,15 @@ We give a general abstract definition of physical fields in
 
 Then we consider some general abstract operations on fields in 
 
-* _[Restriction and pullback of fields](RestrictionAndPullback)_
+* _[Restriction and pullback of fields](#RestrictionAndPullback)_
+
+Finally we discuss the generalization of the notion
+
+* _[Boundary and defect fields](#BoundaryAndDefectFields).
 
 
 
-#### Physical fields in an $\infty$-topos
+##### Physical fields
  {#DefinitionPhysicalField}
 
 A notion of _field_ in physics is part of a specification of _[[theory (physics)|physical theory]]_ or _[[model (physics)|physical model]]_. We consider specifically the framework of [[prequantum field theory]]. Here a [[theory (physics)|theory]]/[[model (physics)|model]] is specified by (or at least comes with) an _[[action functional]]_. The _field_ content of the theory is part of the specification of the [[domain]] of the action functional. Therefore in def. \ref{FieldsInAnActionFunctional} below we define _action functionals_ and the fields relative to this notion.
@@ -8654,6 +8674,7 @@ $$
 for the $\mathbf{H}$-valued [[hom object]] between $X$ and $A$: the [[dependent product]] over $B \to *$ of the [[internal hom]] $[X, A] \in \mathbf{H}_{/B}$.
 
 =--
+
 
 The following defines the notion of _[[action functional]]_ and as part of the data it defines the notion of _physical field_.
 
@@ -8713,11 +8734,18 @@ In this context we say that
 +-- {: .num_remark}
 ###### Remark
 
-The above says in particular that in [[higher geometry]] all fields are [[sigma-model]] fields: if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the [[target space]].
+Definition \ref{FieldsInAnActionFunctional} provides a unified perspective on fields from several perspectives. 
+
+On the one hand, it almost explicitly says that in [[higher geometry]] all fields are "[[sigma-model]] fields" (see below at _[Examples -- Scalar and Sigma-model fields](#SclarModuliFields)_): if we regard the [[moduli ∞-stack]] $\mathbf{Fields}$ as the _[[target space]]_ then fields are simply maps from their domain (when regarded as [[spacetime]] _and_ [[background field]]) to this target space.
+
+On the other hand, we see below in _[Relation to sections of ∞-bundles](#RelationOfFieldsToSections)_ that from another perspective def. \ref{FieldsInAnActionFunctional} says that all fields are [[sections]] of an [[associated ∞-bundle]] to an  $\infty$-bundle modulated by the background fields. This means that in [[higher geometry]] all fields are "[[matter]] fields" (see below at _[Matter fields](#MatterFields)_) [[charge (physics)|charged]] under the [[background gauge field]].
+
+Finally, we see below in  _[Relation to twisted cohomology](#RelationToTwistedCohomology)_ that from yet another perspective def. \ref{FieldsInAnActionFunctional} says that fields are equivalently [[cocycles]] in general [[twisted cohomology]]. This perspective is traditionally known for certain examples (see _[Examples -- Chan-Paton gauge fields](#ChanPatonGaugeFields)_ below), but we see below that it is useful in its full generality. For instance the field of [[gravity]] is in a precise sense a 0-cocycle with coefficients in the [[coset space]] $GL(n)/O(n)$ that is twisted by the [[tangent bundle]] of spacetime (which exhibits the background gauge structure for [[gravity]]: the [[smooth structure]] of [[spacetime]]). An inkling of this perspective is certainly visible in the traditional literature, notably in the generalization to [[type II geometry]] and [[T-duality]], and here we see how this is a precise mechanism on the same conceptual footing with the twisted K-theory seen over D-branes.
 
 =--
 
-#### Restriction and pullback of physical fields
+
+##### Restriction and pullback of physical fields
  {#RestrictionAndPullback}
 
 It is familiar from basic examples that not every type of physical field on a [[spacetime]]/[[worldvolume]] $X$ can be pulled back (in the sense of pullback of functions) along any [[smooth function]] $f \;\colon\;Y \to X$. For instance the field of [[gravity]], a [[vielbein field]] or [[pseudo-Riemannian metric|pseudo]]-[[Riemannian metric]], discussed below in _[Ordinary graviry](#OrdinaryGravity)_ may be pulled back only along [[local diffeomorphisms]]. More generally, one needs other [[properties]] on $f$ to pull back a given field and in fact in general one needs [[extra structure]]. 
@@ -8752,8 +8780,135 @@ between the [[background fields]].
 
 =--
 
+In standard _[Examples](#Examples)_ discussed below we see that this is a familar fact. For instance applied to the field of gravity (see _[Gravity](#OrdinaryGravity)_ below) it says that the gravitational field can be pulled back precisely along [[local diffeomorphisms]], or that spin structures on oriented manifolds (see _[Spin structures](#SpinStructures)_ below) can be pulled back along orientation-preserving maps. Or : for [[Chan-Paton gauge fields]] on [[D-branes]] (see _[Chan-Paton gauge fields](#ChanPatonGaugeFields)_) it reproduces the familiar gauge relation for the [[B-field]] on D-branes known in [[string theory]], which is already less trivial. But the statement applies in full generality.
 
-#### Moduli stacks of fields
+##### Boundary and defect fields
+ {#BoundaryAndDefectFields}
+
+In def. \ref{FieldsInAnActionFunctional} the [[background field]] $\Phi_X$ is a fixed datum of the domain ([[spacetime]]/[[worldvolume]]) on which the physical fields are defined. In some [[model (in theoretical physics)|models]] and for some of the fields this is precisely what one needs, but in other models one may need to be able to also regard the background fields as dynamical fields and to be able to switch between these perspectives, for instance to pass to a setup where what used to be a configuration of some field is now taken to be a fixed background field for the remaining fields. We now discuss how this more general setup is naturally formulated as a generalization of def. \ref{FieldsInAnActionFunctional}.
+
+
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{Fields} \colon \underset{\mathbf{BgFields}}{\sum} \mathbf{Fields} \to \mathbf{BgFields}$ a morphism in $\mathbf{H}$, we may consider this also as an object in the [[arrow category]] $\mathbf{H}^{(\Delta^1)}$ (the [[(∞,1)-functor (∞,1)-category]] from the [[interval category]]/1-[[simplex]] to $\mathbf{H}$).
+
+A generic object in $\mathbf{H}^{(\Delta^1)}$ here is a morphism $\iota_X$ in $\mathbf{H}$. When we think of this as a domain on which to define fields we will write this
+
+$$
+  \iota_X 
+    \;\colon\;
+  X_{def}
+  \to 
+  X_{bulk}
+$$
+
+where the subscripts are for "bulk" and for "defect" (as in _[[QFT with defects]]_). A field in $\mathbf{H}^{(\Delta^1)}$ which is given by a map
+
+$$
+  \phi 
+   \;\colon\;
+  \iota_X \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}^{(\Delta^1)}$ is equivalently a [[diagram]] of the form
+
+$$
+  \array{
+    X_{def} &\stackrel{\phi_{def}}{\to}& \mathbf{Fields}_{def}
+    \\
+    {}^{\mathllap{\iota_X}}\downarrow 
+    &\swArrow& 
+    \downarrow^{\mathrlap{\mathbf{Fields}}}
+    \\
+    X_{bulk} &\stackrel{\phi_{bulk}}{\to}& \mathbf{Fields}_{bulk}
+  }
+$$
+
+in $\mathbf{H}$.
+
+This we interpret as a configuration consisting of 
+
+1. a bulk field configuration $\phi_{bulk}$ 
+
+1. a defect field configuration $\phi_{def}$, 
+
+1. a [[gauge transformation]] that relates the restriction (or more generally: pullback to $X_{def}$) of the bulk field to the embedding (or more generally: push-forward) of the defect field into the bulk field configuration on the defect.
+
++-- {: .num_remark }
+###### Remark
+
+If $\phi_{bulk}$ is regarded as fixed, then this is equivalently a field configuration as in def. \ref{FieldsInAnActionFunctional} defined on $X_{def}$ and for background field the composite 
+
+$$
+  \Phi_{X_{def}}
+  \coloneqq
+  \iota_X^* \phi_{bulk}
+  \;\colon\;
+  X_{def} \stackrel{\iota_X}{\to}
+  X \stackrel{\phi_{bulk}}{\to}
+  \mathbf{Fields}_{bulk}
+  \,.
+$$ 
+
+=--
+
+This "fixing of bulk fields to background fields for defect fields" we discuss in more detail below in _[Properties -- Moduli stacks of fields](#ModuliStacksOfFields)_.
+
+
+We formalize the moduli $\infty$-stack of all bulk and boundary fields as follows
+
++-- {: .num_defn }
+###### Definition
+
+Write
+
+$$
+  \mathbf{H}^{(\Delta^1)}
+  \stackrel{\overset{Disc_{\mathbf{H}}}{\leftarrow}}{\underset{\Gamma_{\mathbf{H}}}{\to}}
+  \mathbf{H}
+$$
+
+for the canonical [[geometric morphism]].
+
+=--
+
++-- {: .num_defn #ModuliOfBulkAndBoundaryFields}
+###### Definition
+
+For $\iota_X ;\colon\; X_{def} \to X_{bulk}$ and $\mathbf{Fields} \;\colon\; \mathbf{Fields}_{def} \to \mathbf{Fields}_{bulk}$ morphisms in $\mathbf{H}$, we say that
+
+$$
+  [\iota_X, \mathbf{Fields}]_{\mathbf{H}}
+  \coloneqq
+  \Gamma_{\mathbf{H}}[\iota_X, \mathbf{Fields}]
+  \;\;
+  \in \mathbf{H}
+$$
+
+is the [[moduli ∞-stack]] of bulk and boundary fields on $\iota_X$.
+
+=--
+
+
+Several examples of this are discussed below.
+
+
+
+#### Properties
+ {#FieldsModelLayerProperties}
+
+
+The definition of fields in def. \ref{FieldsInAnActionFunctional} is in fact the central part of a general theory of _[[cohomology]]_ and _[[principal ∞-bundles]]_ in [[higher geometry]]/[[(∞,1)-topos theory]] and various insights into [[prequantum field theory]] follow by making this perspective explicit.  This is what we do here.
+
+1. [Moduli ∞-stacks of fields](#ModuliStacksOfFields)
+
+1. [Relation of fields to sections of ∞-bundles](#RelationOfFieldsToSections)
+
+1. [Relation of fields to twisted cohomology](#RelationToTwistedCohomology)
+
+1. [Relation of fields to relative cohomology](#RelationToRelativeCohomology)
+
+The central results that underly these identifications are in ([NSS](#NSS)), also [dcct, section 3.6.10, 3.6.11, 3.6.12, 3.6.15](#dcct).
+
+##### Moduli $\infty$-stacks of fields
  {#ModuliStacksOfFields}
 
 The object $[\Phi_X, \mathbf{Fields}]_{\mathbf{H}} \in \mathbf{H}$
@@ -8768,7 +8923,7 @@ The [[∞-groupoid]] of global [[elements]] of $[X, \mathbf{Fields}]_{\mathbf{H}
 $$
   \mathbf{H}(*,[\Phi_X, \mathbf{Fields}_{\mathbf{H}}])
   \simeq
-  \Gama [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}
+  \Gamma [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}
   \simeq
   \mathbf{H}_{/\mathbf{BgFields}}(\Phi_X, \mathbf{Fields})
   \,.
@@ -8821,7 +8976,10 @@ $$
 
 =--
 
-+-- {: .num_remark #}
+These relations are discussed at _[[slice (∞,1)-topos]]_, and ([dcct, section 3.6.1](#dcct)).
+
+
++-- {: .num_remark }
 ###### Remark
 
 Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic idea that a field $\phi \in [\Phi_X, \mathbf{Fields}]_{\mathbf{H}}$ is 
@@ -8832,16 +8990,151 @@ Proposition \ref{ModuliStackOfFieldsAsHomotopyFiber} makes precise the heuristic
 
 =--
 
+More generally, the moduli $\infty$-stacks of combined bulk/boundary-defect fields as in def. \ref{ModuliOfBulkAndBoundaryFields} is characterized as follows.
+
++-- {: .num_prop #ModuliOfBulkAndDefectFieldsAsPullback}
+###### Proposition
+
+The moduli stack $[\iota_X, \mathbf{Fields}]_{\mathbf{H}}$ of bulk and defect fields in def. \ref{ModuliOfBulkAndBoundaryFields} sits in an [[(∞,1)-pullback]] [[diagram]]
+
+$$
+  \array{
+    [\iota_X, \mathbf{Fields}]_{\mathbf{H}}
+    &\to&
+    [X_{def}, \mathbf{Fields}_{def}]
+    \\
+    \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    [X_{bulk}, \mathbf{Fields}_{bulk}]
+    &\stackrel{}{\to}&
+    [X_{def}, \mathbf{Fields}_{bulk}]
+  }
+  \,.
+$$
+
+=--
+
+The following proposition expresses that fixing a bulk field gives rise to a background field for the remaining defect fields
+
++-- {: .num_prop }
+###### Proposition
+
+For $\phi_{bulk} \;\colon\; X_{bulk} \to \mathbf{Fields}_{bulk}$ a given bulk field, there is a [[natural equivalence|natural]] [[equivalence in an (∞,1)-category|equivalence]]
+
+$$
+  [\iota_X^* \phi_{bulk}, \mathbf{Fields}]_{\mathbf{H}}
+  \simeq
+  [\iota_X, \mathbf{Fields}]_{\mathbf{H}}
+  \underset{[X_{bulk}, \mathbf{Fields}_{bulk}]}{\times} \{\phi_{bulk}\}
+  \,.
+$$
+
+=--
+
+##### Relation to sections of $\infty$-bundles
+ {#RelationOfFieldsToSections}
+
+We discuss here how def. \ref{FieldsInAnActionFunctional} equivalently says that fields are [[sections]] of an [[associated ∞-bundle]] which is associated to an $\infty$-bundle modulated by the [[background field]].
+
+For simplicity of the discussion first consider the case that $\mathbf{BgFields} \simeq \mathbf{B}G$ is the [[delooping]] of an [[∞-group]] $G \in Grp(\mathbf{H})$. (In typical applications in [[physics]] we instead have the differential refinement $\mathbf{B}G_{conn}$ (see below at _[Examples -- Gauge fields](#GaugeFields)_) and the following discussion is directly generalized to that case. )
+
+Then the moduli stack of fields according to def. \ref{FieldsInAnActionFunctional} is a map into $\mathbf{B}G$, regarded as an object in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$. To interpret this, notice the following basic fact:
+
++-- {: .num_prop #EquivalenceOfActionCategoryWithSlice}
+###### Proposition
+
+For $G \in Grp(\mathbf{H})$, the [[(∞,1)-functor]] that sends an [[∞-action]] $\rho$ of $G$ on some $V \in \mathbf{H}$ to the corresponding [[associated ∞-bundle]] of the $G$-[[universal principal ∞-bundle]] is an [[equivalence of (∞,1)-categories]]
+
+$$
+  (\mathbf{E}G)\times_G(-)
+  \;\colon\;
+  G Act(\mathbf{H})
+  \stackrel{\simeq}{\to}
+  \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+Moreover there is a [[natural equivalence|natural]] [[equivalence in an (∞,1)-category|equivalence]]
+
+$$
+  (\mathbf{E}G)\times_G V
+  \simeq
+  {*} \times_G V
+  \simeq
+  V//G
+$$
+
+with the [[quotient]] of $V$ by the $G$-[[∞-action]] $\rho$ (this is the general abstract and version and geometric refinement of the traditional [[Borel construction]]). 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+For $\rho$ an [[∞-action]] of an [[∞-group]] $G \in Grp(\mathbf{H})$ on some $V \in \mathbf{H}$ we write
+
+$$
+  V//G \stackrel{\overline{\rho}}{\to} \mathbf{B}G
+$$
+
+for the image of $\rho$ under the equivalence of prop. \ref{EquivalenceOfActionCategoryWithSlice}.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[homotopy fiber]] of $\overline{\rho}$ is $V$, hence we have a [[homotopy fiber sequence]]
+
+$$
+  \array{
+    V &\to& V//G
+    \\
+    && \downarrow^{\mathrlap{\overline{\rho}}}
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+identifying $\overline{\rho}$ with a $V$-[[fiber ∞-bundle]] over $\mathbf{B}G$. Moreover, this is the _[[universal associated ∞-bundle|universal rho-associated ∞-bundle]]_: for every $G$-[[principal ∞-bundle]] $P \to X$ with modulating map $g_X \;\colon\; X \to \mathbf{B}G$ there is a [[natural equivalence|natural]] [[equivalence in an (∞,1)-category]]
+
+$$
+  P \times_G V \simeq g_X^*(\overline{\rho})
+$$
+
+in $\mathbf{H}_{/X}$.
+
+=--
+
+Due to the [[universal property]] of the [[(∞,1)-pullback]] this has the following consequence which, basic as it is, is fundamental for the interpretation of fields in def. \ref{FieldsInAnActionFunctional}.
+
++-- {: .num_prop }
+###### Proposition
+
+There is a canonical [[equivalence in an (∞,1)-category]] between the [[sections]] of the $\rho$-[[associated ∞-bundle]] $P \times_X G$ and maps $g_X \to \overline{\rho}$ in the slice, hence fields in the sense of def. \ref{FieldsInAnActionFunctional} with background field $g_X$ and moduli stack $\overline{\rho}$:
+
+$$
+  \mathbf{\Gamma}_X(P \times_G V)
+  \simeq
+  [g_X, \overline{\rho}]_{\mathbf{H}}
+  \,.
+$$
+
+=--
 
 
-#### Relation to twisted cohomology
+##### Relation to twisted cohomology
  {#RelationToTwistedCohomology}
 
-The definition \ref{FieldsInAnActionFunctional} of fields has an entirely equivalent expression in terms of [[cocycles]] in [[cohomology]] and in fact in [[twisted cohomology]] if the [[background field]] is nontrivial.
+We discuss here how def. \ref{FieldsInAnActionFunctional} of fields has an entirely equivalent expression in terms of _[[cocycles]]_ in general _[[cohomology]]_ and in fact, if the background field is nontrivial, in _[[twisted cohomology]]_.
+This follows by direct comparison with the corresponding notions in _[[cohomology]]_ and _[[twisted cohomology]]_ as discussed there ([NSS](#NSS)). The unification of notions seen this way gives a natural home for instance to the familiar observations such as that [[Chan-Paton gauge fields]] on [[D-branes]] are identified with [[cocycles]] in  ([[differential K-theory|differential]]) [[twisted K-theory]] (see _[Chan-Paton gauge fields](#ChanPatonGaugeFields)_ below).
 
-This follows by direct comparison with the corresponding notions in _[[cohomology]]_ and _[[twisted cohomology]]_ as discussed there ([NSS](#NSS))
+First observe the following
 
-In the [[diagram]] 
++-- {: .num_remark}
+###### Remark
+
+For $\phi \;\colon\; \Phi_X \to \mathbf{Fields}$ a field configuration as in def. \ref{FieldsInAnActionFunctional} in the corresponding [[diagram]] in $\mathbf{H}$
 
 $$
   \array{
@@ -8855,21 +9148,21 @@ $$
   }
 $$
 
-of \ref{FieldsInAnActionFunctional} we may equivalently say that
+we have the following equivalently identifications when interpreting this as a [[cocycle]]:
 
-* the object $\mathbf{Fields} \in \matbbf{H}_{/\mathbf{BgFields}}$ is the [[local coefficient ∞-bundle]];
+* the object $\mathbf{Fields} \in \matbbf{H}_{/\mathbf{BgFields}}$ is the **[[local coefficient ∞-bundle]]**;
 
-* the [[homotopy fiber]] $V$ of $\underset{\phi \in [X, \mathbf{Fields}]}{\sum}\mathbf{Fields} \to \mathbf{BgFields}$ is the local [[coefficient]] for a [[cohomology]] theory;
+* the [[homotopy fiber]] $V$ of $\underset{\phi \in [X, \mathbf{Fields}]}{\sum}\mathbf{Fields} \to \mathbf{BgFields}$ is the **local [[coefficient]]** for a [[cohomology]] theory;
 
-* the [[background field]] $\Phi_X$ is the **twist**
+* the [[background field]] $\Phi_X$ is the **[[twisted cohomology|twist]]**
 
 * the field $\phi \colon \Phi_X \to \mathbf{Fields}$ is 
 
-  * a [[cocycle]] in $\Phi_X$-[[twisted cohomology]] on $X$ with local [[coefficients]] $V$
+  * a **[[cocycle]]** in $\Phi_X$-[[twisted cohomology]] on $X$ with local [[coefficients]] $V$
 
-  * equivalently: a $\Phi_X$-twisted [[G-structure|V-structure]] on $X$;
+  * equivalently: a **$\Phi_X$-twisted [[G-structure|V-structure]]** on $X$;
 
-* a [[gauge transformation]] is a [[coboundary]] in $\Phi_X$-twisted $V$-cohomology;
+* a [[gauge transformation]] is a **[[coboundary]]** in $\Phi_X$-twisted $V$-cohomology;
 
 * the [[equivalence classes]] of fields are the $\Phi_X$-[[twisted cohomology|twisted]] $V$-[[cohomology]] of [[spacetime]] $X$
 
@@ -8878,11 +9171,69 @@ of \ref{FieldsInAnActionFunctional} we may equivalently say that
     \,.
   $$
 
+=--
+
+We see several illustrations of these identifications in the list of _[Examples](#Examples)_ below. More generally, there is a canonical identification of physical fields in the presence of background fields _and_ boundary/defect with twisted and _[[relative cohomology]]_. This we discuss below in _[Relation to relative cohomology](#RelationToRelativeCohomology)_.
+
+
+
+##### Relation to relative cohomology
+ {#RelationToRelativeCohomology}
+
+
+When we refine background fields to dynamical fields as
+discussed above in _[Boundary and defect fields](#BoundaryAndDefectFields)_ then the identification of fields with [[cocycles]] in [[twisted cohomology]] as discussed above in 
+_[Relation to twisted cohomology](#RelationToTwistedCohomology)_ accordingly generalized a bit: it becomes a combination of twisted cohomology and _[[relative cohomology]]_.
+
+For consider the special case that the moduli of defect fields are trivial, hence that 
+
+$$
+  \mathbf{Fields} \colon * \stackrel{pt_Q}{\to} \mathbf{Fields}_{bulk}
+$$
+
+is the global point inclusion into the bulk field moduli (the trivial bulk field).  By prop. \ref{ModuliOfBulkAndDefectFieldsAsPullback} it follows that
+
++-- {: .num_prop }
+###### Proposition
+
+There is a natural equivalence
+
+$$
+  [\iota_X, pt_A]
+  \simeq
+  [X_{bulk}, A] \underset{[X_{def}, A]}{\times} {*}
+  \,,
+$$
+
+hence a [[homotopy fiber sequence]]
+
+$$
+  [\iota_X, pt_A]
+   \to 
+  [X_{bulk}, A]
+   \to 
+  [X_{def}, A]
+$$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This identifies the equivalence classes of global points in $[\iota_X, pt_A]$ as the 
+$\iota_X$-[[relative cohomology|relative A-cohomology]] of $X$.
+
+=--
+
+In general, if the defect fields are not trivial, the fields $\iota_X \to \mathbf{Fields}$ (hence ordinary cocycles in $\mathbf{H}^{(\Delta^1)}$) are a kind of cocycles in $\mathbf{H}$ that are a combination of relative and twisted cocycles: instead with their pullback to $X_{def}$ being equipped with a trivialization, it is equipped with a "twisted trivialization" in the sense of [[twisted differential c-structure|twisted c-structures]], disucssed [below](#TwistedDifferentialcStructurs).
+
+
 
 #### Examples
- {#ExamplesPhysicalFieldsInTopos}
+ {#FieldsModelLayerExamples}
 
-We distinguish four broad classes of examples of physical fields, according to def. \ref{FieldsInAnActionFunctional}:
+
+We distinguish four broad classes of examples of [[physical fields]], according to def. \ref{FieldsInAnActionFunctional}:
 
 1. [Scalar and moduli fields](#SclarModuliFields)
 
@@ -8907,42 +9258,120 @@ Not all examples fall squarely into one of these types, some are mixtures of the
 
 * [Fields combining various of these properties](#FieldCombiningVariousProperties)
 
-In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to $\mathbf{B}G_{conn}$ so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
+In particular the moduli stacks $\mathbf{B}G$ here are typically all differentially refined to moduli stacks $\mathbf{B}G_{conn}$ of [[connection on an ∞-bundle|∞-connections]] so that for instance every [[reduction and lift of structure groups]] goes along with a corresponding data of the reduction of an [[connection on an ∞-bundle|∞-connection]]. The archetypical example for this are [[spin connections]], see the example _[Ordinary gravity](#OrdinaryGravity)_ below.
+
++-- {: bluebox}
+###### Examples ######
+
+1. [Sigma-model fields](#SigmaModelFields)
+
+   1. [Uncharged scalar particle](#UnchargedScalarField)
+
+   1. [Particle trajectors](#ParticleTrajectory)
+
+   1. [Brane trajectory](#BraneTrajectory)
+
+1. [Force fields](#ForceFields)
+
+   1. [Fields of gravity, G-structure and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry)
+
+   1. [General -- G-structure: twisted lift of structure group](##GStructure)
+
+   1. [Gravity](#OrdinaryGravity)
+
+   1. [Spin structures](#SpinStructures)
+
+   1. [Spin-c structures](#SpinStructures)
+
+   1. [Type II gravity, exceptional geometry](##TypeIIGravity)
+
+   1. [Higher spin structures](#HigherSpinStructures)
+
+   1. [Higher spin-c structures](#HigherSpincstructures)
+
+1. [Gauge fields](#GaugeFields)
+
+   1. [General -- Coefficients in differential cohomology: connections](#GaugeFieldsGeneral)
+
+   1. [Electromagnetic field](#ElectromagneticField)
+
+   1. [Yang-Mills field](#YangMillsField)
+
+   1. [Kalb-Ramond B-field](#KalbRamondBField)
+
+   1. [Supergravity C-field](#SupergravityCField)
+
+1. [Matter fields](#MatterFields)
+
+   1. [General -- Sections of associated bundles](#SectionsOfAssociatedBundles)
+
+   1. [Fermions](#Fermions)
+
+   1. [Tensor fields](#TensorFields)
+
+1. [Fields combining these properties](##FieldCombiningVariousProperties)
+
+   1. [General -- Twisted differential cocycles and c-structures](#TwistedDifferentialcStructurs)
+
+   1. [Nonabelian charged particle trajectories -- Wilson lines](#NonabelianChargedParticle)
+
+   1. [3d Chern-Simons field with Wilson line](#ChernSimonsWithWilsonLines)
+
+   1. [Chan-Paton gauge bundles on D-branes: twisted differential K-cocycles](#ChanPatonGaugeFields)
+
+   1. [Anomaly-free heterotic string background: differential String-c structures](#HeteroticStringBackgroundField)
+
+=--
+
 
 ##### **0)** Sigma-model fields
+ {#SigmaModelFields}
 
-[[sigma-model]]
+Traditionally a [[sigma-model]] field is a type of fields given simply by ([[smooth function|smooth]]) [[functions]] $\Sigma \to X$ from a [[worldvolume]] $\Sigma$ to a [[target space]] $X$. Now, by the general unified definition def. \ref{FieldsInAnActionFunctional} and as shown in the following sections, in [[higher geometry]] _every_ type of field is of this form if we allow [[target space]] $X$ to be a general [[∞-stack]] and functions to be maps in a suitable [[slice (∞,1)-topos]]. Nevertheless, here we start with briefly indicating those examples that are [[sigma-model]] fields also in the traditional restrictive sense of the term.
 
-###### Particle
+###### Uncharged scalar field
+ {#UnchargedScalarField}
 
-[[particle]]
-
-$\mathbf{Fields} = $ [[spacetime]]
-
-###### Charged particle
-
-[[1d Chern-Simons theory]]
-
-Let $T \hookrightarrow G$ be [[maximal torus]] which fixes a given 
-[[weight (in representation theory)]] $\langle \lambda, -\rangle$ on compact simple and simply connected [[Lie group]] $G$. Let $\rho$ be the corresponding [[representation]] under the [[Borel-Weil-Bott theorem]].
-
-Then the topological part of the [[sigma model]] for the [[particle]] charged under $(G,\rho)$ in some $G$-[[background gauge field]] has
+A _[[scalar field]]_ is given simply by a [[function]] on [[spacetime]]/[[worldvolume]], typically with values in the [[real numbers]] $\mathbb{R}$ ("real scalar fiedl") or the [[complex numbers]] $\mathbb{C}$ ("complex scalar field"). Hence this is the example of def. \ref{FieldsInAnActionFunctional} with trivial [[background fields]]
 
 $$
-  \mathbf{Fields} 
-  \;\colon\;
-  \Omega^1(-,\mathfrak{g})//T
-  \to 
-  \Omega^1(-,\mathfrak{g})//G
-  \simeq
-   \mathbf{B}G_{conn}
+  \mathbf{BgFields} \coloneqq *
 $$
+
+(the [[terminal object]]) and with the field moduli stack being the map
+
+$$
+  \mathbf{Fields} \;\colon\; \mathbb{R} \to *
+$$
+
+from (the [[smooth manifold]] underlying) the [[real numbers]] to the point, or else
+
+$$
+  \mathbf{Fields} \;\colon\; \mathbb{C} \to *
+$$
+
+regarded as an object in $\mathbf{H}_{/*} \simeq \mathbf{H}$.
+
+[[scalar field|Scalar fields]] are, due to their simplicity, prominent in toy examples used to discuss general properties of [[quantum field theory]]. The only  fundamental scalar particle observed in nature to date is the [[Higgs particle]] (or presumeably so, in [[technicolor]] models it is not actually fundamental but a composite of [[fermion]] particles, discussed [below](#Fermions)), but the Higgs field is, crucially, charged under the [[electroweak field|electroweak]] [[special unitary group|SU(2)]]-[[gauge field]]. A [[model (in theoretical physics)|model]] of relevance in [[phenomenology]] which crucially features an uncharged scalar particle is [[cosmic inflation]]. But the fundamental nature of the [[inflaton field]] is hypothetical (if it exsists at all), it might well be the [[effective QFT|effective]] version of non-scalar fields.
+
+###### Particle trajectory
+ {#ParticleTrajectory}
+
+The dynamics of a [[particle]] propagating in a [[spacetime]] $X$ is described by a field on the abstract [[worldline]] which is simply a [[smooth function]] $\mathbb{R} \to X$ to the [[target space]] $X$: a [[trajectory]] of the particle. The [[quantum mechanics]] that describes the [[dynamics]] of such a quantum particle is equivalently a 1-dimensional field theory on the [[worldline]], with these maps as its physical fields. 
+
+Therefore such wordline [[sigma-model]] fields are given by the special case of def. \ref{FieldsInAnActionFunctional} with trivial [[background field]] $\mathbf{BgFields} \simeq *$ and with $\mathbf{Fields} \;\colon\; X \to * $ regarded as an object in $\mathbf{H}_{/*} \simeq \mathbf{H}$. 
+
+
+###### Brane trajectory
+ {#BraneTrajectory}
+
+More generally, the [[worldvolume]] fields of any [[brane]] [[sigma-model]] with [[target space]] $X$ are given as [above](#ParticleTrajectory).
 
 
 ##### **I)** Force fields
  {#ForceFields}
 
-The two classes of [[force]] fields are:
+We discuss examples for the two classes of [[force]] fields, which are:
 
 * [Fields of gravity, G-structure and generalized geometry](#FieldsOfGravityAndGeneralizedGeometry);
 
@@ -8970,26 +9399,44 @@ $$
   \,.
 $$
 
-If the [[∞-extension]] is central in that it extends to a [[homotopy fiber sequence]] of the form
+If the [[∞-group extension]] is central in that it extends to a [[homotopy fiber sequence]] of the form
 
 $$
   \mathbf{B}A \to \mathbf{B}\hat G \stackrel{\mathbf{Bp}}{\to} \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^2 A
 $$
 
-then a [[twisted c-structure]] is a map
+then a [[twisted differential c-structure|twisted c-structure]] is a map
 
 $$
   \phi 
    \;\colon\;
   g_X \to \mathbf{c}
-  \,.
 $$
 
-These kinds of fields are interpreted as field of [[gravity]] and its variants.
+in $\mathbf{H}_{/\mathbf{B}G}$.
+These kinds of fields are interpreted as fields of [[gravity]] and its variants, as shown by the following examples.
+
+For recognizing traditional constructions in this formulation, the following basic fact is important.
+
++-- {: .num_prop #CosetIsHomotopyFiberOfDeloopedInclusion}
+###### Proposition
+
+For $\iota \colon H \hookrightarrow G$ an [[subgroup]] inclusion of [[Lie groups]], we have a [[homotopy fiber sequence]]
+
+$$
+  G/H \to \mathbf{H} \stackrel{\mathbf{B}\iota}{\to} \mathbf{G}
+$$
+
+with the [[coset space]] on the left.
+
+=--
+
 
 
 ####### Gravity
  {#OrdinaryGravity}
+
+We discuss the formulation of the field of [[gravity]] as a special case of def. \ref{FieldsInAnActionFunctional}.
 
 +-- {: .num_defn}
 ###### Definition
@@ -9004,7 +9451,7 @@ $$
   \mathbf{B}GL(n)
 $$
 
-the [[delooping]] of the [[Lie group|Lie]]-[[subgroup]] inclusion of the [[orthogonal group]] into the [[general linear group]] in [[dimension]] $n$ (the inclusion of the [[maximal compact subgroup]]).
+be the [[delooping]] of the [[Lie group|Lie]]-[[subgroup]] inclusion of the [[orthogonal group]] into the [[general linear group]] in [[dimension]] $n$ (the inclusion of the [[maximal compact subgroup]]).
 
 For $X \in $ [[SmoothMfd]] $\hookrightarrow$ $\mathbf{H} \coloneqq$ [[Smooth∞Grpd]] a [[smooth manifold]] of [[dimension]] $n$, write
 
@@ -9070,6 +9517,37 @@ These are precisely [[local diffeomorphisms]] and indeed these are precisely the
 ###### Remark
 
 The [[smooth structure]] on $X$ as embodied by $\tau_X$ is the [[background field]] in example \ref{RiemannianVielbein}.
+
+=--
+
++-- {: .num_remark #OrthogonalStructureIsTrivialInPlainHomotopyTheory}
+###### Remark
+
+Under [[geometric realization of cohesive infinity-groupoids|geometric realization]] 
+
+$$
+  {\vert-\vert}
+  \;\colon\;
+  \mathbf{H} \to \infty Grpd \simeq L_{whe} Top
+$$
+
+the map of [[moduli stacks]] $\mathbf{B}O(n) \to \mathbf{B}GL(n)$ becomes an [[equivalence]] (a [[weak homotopy equivalence]]) of [[classifying space]] $B O(n) \stackrel{\simeq}{\to} B GL(n)$.
+
+This means that in plain [[homotopy theory]], hence ignoring the [[geometry]], a lift in 
+
+$$
+  \array{
+    && B O(n)
+    \\
+    & \nearrow & \downarrow
+    \\
+    X &\stackrel{\tau_X}{\to}& B GL(n)
+  }
+$$
+
+is no information, up to equivalence: it always exists and exists uniquely up to a contractible space of choices. In order for such a lift really to be equivalently an [[orthogonal structure]] it needs to be taken with geometry included, hence for [[moduli stacks]] (_[[cohesive (infinity,1)-topos|cohesive]]_ [[homotopy type]]) as above.
+
+The analog statement is true for every delooping $\mathbf{B}H \to \mathbf{B}G$ of the inclusion $H \hookrightarrow G$ of a [[maximal compact subgroup]] into a [[Lie group]]. More examples of this kind we discuss below in _[Type II Gravity and generalized geometry](#TypeIIGravity)_.
 
 =--
 
@@ -9184,33 +9662,147 @@ is the accurate space of [[general covariance|generally covariant]] fields of [[
 ####### $Spin$-structures
  {#SpinStructures}
 
-* [[spin structure]]
+In theories with [[fermions]] (discussed [below](#Fermions)) the field of [[gravity]] is more refined than just a [[vielbein field]] as [above](#OrdinaryGravity), hence an [[orthogonal structure]] on [[spacetime]]: it also involves an [[orientation structure]] and a [[spin structure]].
+
+To see that these structures are really all (fields) of the same kind, observe that they are the lifts through the first step of the [[Whitehead tower]] of $\mathbf{B}GL$, as shown in the following table
+
+[[!include higher spin structure - table]]
+
+Notice, as in remark \ref{OrthogonalStructureIsTrivialInPlainHomotopyTheory}, that for the interpretation of the first step here it is crucial to interpret this in [[moduli ∞-stacks]] and not in [[classifying spaces]].
+
+Hence if a background field of [[gravity]] is assumed, $\mathbf{BgFields} \colon \mathbf{B}O(n)$, $\Phi_X = e_X$, then the moduli stack for [[orientation structure]]-fields is
 
 $$
-  \mathbf{Fields} 
-  \;\colon\;
-  \mathbf{B}Spin(n) \to \mathbf{B}SO(n)
+  \mathbf{Fields} \colon \mathbf{B} SO(n) \to \mathbf{B}O(n)
 $$
+
+in $\mathbf{H}_{/\mathbf{B}O(n)}$. And if an orientation background field is assumed, $\mathbf{BgFields} \colon \mathbf{B}SO(n)$, $\Phi_X = o_X$, then the moduli stack for [[spin structure]]-fields is
+
+$$
+  \mathbf{Fields} \colon \mathbf{B} Spin(n) \to \mathbf{B}SO(n)
+  \,.
+$$
+
+Evidently there is then also a notion of [[higher spin structure]]-fields. These appear as backgrounds when one passes from [[spinning particles]] to  [[spinning strings]] and then to further "spinning" [[branes]]. This we discuss below in _[Higher spin structures](#HigherSpinStructures)_.
 
 ####### $Spin^c$-structures
  {#SpinStructures}
 
-[[spin-c structure]]
+Some [[theory (physics)|theories]] involve not plain [[spin structures]] but [[spin-c structures]] on their [[spacetime]]/[[worldvolume]] (for instance in [[Seiberg-Witten theory]] or in the [[gauge theory]] over [[D-branes]] in [[type II string theory]], see the example _[Chan-Paton gauge fields on D-branes](#ChanPatonGaugeFields)_ below). By the discussion there, the [[moduli stack]] $\mathbf{B}Spin^c(n)$ for 
+[[spin^c group]]-[[principal bundles]] sits in the [[homotopy pullback]] diagram
+
+$$
+  \array{
+    \mathbf{B}Spin^c &\to& \mathbf{B}U(1)
+    \\
+    \downarrow && \downarrow^{\mathrlap{\mathbf{c}_1 \,mod\, 2}}
+    \\
+    \mathbf{B}SO(n) &\stackrel{\mathbf{w}_2}{\to}&
+   \mathbf{B}^2\mathbb{Z}_2
+  }
+ \,,
+$$
+
+where the right vertical map represents the universal [[first Chern class]] modulo 2. In other words this says that a [[spin^c-structure]] on some $X$ is a [[twisted differential c-structure|twisted w2-structure]] with twist the first Chern-class of a [[circle bundle]].
+
+So if that circle bundle is regarded as a [[background field]]
+
+$$
+  \phi_X \coloneqq g_X \;colon\; X \to \mathbf{B}U(1)
+$$
+
+then a $Spin^c$-structure for that underlying circle bundle is a field
+
+$$
+  \phi 
+    \;\colon\;
+  \Phi_X \to \mathbf{w}_2
+$$
+
+in $\mathbf{H}_{/\mathbf{B}^2 \mathbb{Z}_2}$.
+
+Or rather, if $X$ is a [[manifold]] as before and the $SO(n)$-principal bundle involved in the above is required to be a [[reduction of the structure group|reduction]] of the [[tangent bundle]] $\tau_X : X \to \mathbf{B}GL(n)$ as before, then the [[background field]] for $Spin^c$-structure fields is
+
+$$
+  \Phi_X 
+   \;\colon\;
+   X 
+   \stackrel{(\tau_X, g_X \,mod\, 2)}{\to}
+   \mathbf{B}GL(n) \times \mathbf{B}^2 \mathbb{Z}_2
+  \,,
+$$
+
+and the field moduli stack is 
+
+$$
+  \mathbf{Fields} \;\colon\; 
+  \mathbf{B}SO(n)
+   \stackrel{(p, \mathbf{w}_2)}{\to}
+  \mathbf{B}GL(n) \times \mathbf{B}
+  \,.
+$$
+
 
 
 ####### Type II gravity, exceptional geometry
+ {#TypeIIGravity}
 
-[[type II generalized geometry]]
+By remark \ref{OrthogonalStructureIsTrivialInPlainHomotopyTheory} above the ordinary field of [[gravity]] on some [[manifold]] $X$ is equivalently a [[reduction of the structure group]] from the [[general linear group]] to its [[maximal compact subgroup]], regarded as a field whose [[background field]] is the [[tangent bundle]] itself.
+
+If one instead considers a variant of the [[tangent bundle]] as a [[background field]] -- a _[[generalized tangent bundle]]_ $\tau_X^{gen} : X \to \mathbf{B}G$ -- with some other structure [[Lie group]] $G$, then a field with values in 
 
 $$
   \mathbf{Fields} 
+    \;\colon\;
+  \mathbf{B}H \to \mathbf{B}G
+$$
+
+in $\mathbf{H}_{/\mathbf{B}G}$ and for $H \hookrightarrow$ the inclusion of the [[maximal compact subgroup]], may be thought of as an accordingly  _generized field of gravity_ defining a _generalized_ [[Riemannian geometry]].
+
+Such fields naturally appear in [[theory (physics)|theories]] of higher-dimensional [[supergravity]], where related to the [[T-duality]] and more generally [[U-duality]] structure of these [[theory (physics)|theories]].
+
+Notably in manifestly [[T-duality]]-equivariant [[type II supergravity]] the [[generalized tangent bundle]] on the $n$-dimensional [[spacetime]] is an $O(n,n)$-[[principal bundle]] $\tau^{gen}_X \;\colon\; X \to \mathbf{B}O(n,n)$. The corresponding [[maximal compact subgroup]] inclusion yields the moduli stack of fields
+
+$$
+  \mathbf{Fields}
   \;\colon\;
-  \mathbf{B}O(n) \times O(n)
-  \to 
+  \mathbf{B}(O(n)\times O(n))
+  \to
   \mathbf{B}O(n,n)
 $$
 
-[[exceptional generalized geometry]]
+and a field $\phi \;\colon\; \tau_X^{gen} \to \mathbf{Fields}$ is equivalently the [[generalized vielbein]] for the generalized Riemannian geometry called  _[[type II geometry]]_ on $X$. 
+
+In fact also the generalized tangent bundle itself should be regarded as a field: Notice that the canonical diagonal inclusion
+
+$$
+  GL(n) \hookrightarrow O(n,n)
+$$
+
+does not have a [[retraction]]. Write $GL(n) \hookrightarrow G_{geom} \hookrightarrow O(n,n)$ for the maximal subgroup for which a retrection to $GL(n)$ still exists, called the **geometric subgroup** in the context of [[type II geometry]]. Then a lift of the tangent bundle to $G_{geom}$
+
+$$
+  \array{
+    X &&\stackrel{\tau_X^{gen}}{\to}&& \mathbf{B}G_{geom} & \hookrightarrow& \mathbf{B} O(n,n)
+    \\
+    & {}_{\athllap{\tau_X}}\searrow &\swArrow& \swarrow_{\mathrlap{\mathbf{p}}}
+    \\
+    && \mathbf{B}GL(n)
+  }
+  \,,
+$$
+
+hence a field 
+
+$$
+  e_X^{gen} \;\colon\; \tau_X \to \mathbf{p}
+$$ 
+
+is what is called a _geoemtric_ [[generalized tangent bundle]]. These are exactly the generalized tangent bundles primarily considered in the literature (see at _[[type II geometry]]_  for more).
+
+In the [[Kaluza-Klein compactification]] of [[type II supergravity]] and of [[11-dimensional supergravity]] preserving some amount of global [[supersymmetry]] this generalized type II geometry is further enhanced to various flavors of what is called  [[exceptional generalized geometry]]. 
+
+Here the [[generalized tangent bundle]] has as structure group an [[exception Lie group]] from the $E$-series $E_{n(n)}$ (for compactification on an $n$-dimensional compact space). The moduli stack of fields is then
 
 $$
   \mathbf{Fields} 
@@ -9220,19 +9812,27 @@ $$
   \mathbf{B} E_{n(n)}
 $$
 
+and a field $ e_X^{gen} \;\colon\; \tau_X^{gen} \to \mathbf{Fields}$ is equivalently a [[generalized vielbein]]  for  [[exceptional generalized geometry]].
+
 
 
 ####### Higher spin structures
+ {#HigherSpinStructures}
 
-[[String structure]]
+By the discussion of [Spin structure fields](#SpinStructures) above there are evident higher analogs, obtained by climbing through the [[Whitehead tower]] [[higher spin structure - table|of BO]].
+
+In the next step we have _[[String structure]]_-fields which are maps to
 
 $$
   \mathbf{Fields}
   \;\colon\;
   \mathbf{B}String \to \mathbf{B}Spin
+  \,.
 $$
 
-[[Fivebrane structure]]
+These appear as fields in [[heterotic supergravity]] with [[quantum anomaly]]-cancellation by the [[Green-Schwarz mechanism]] and for trivial [[gauge field]]. In the presence of a non-trivial gauge field these are further refined to _[Higher spin-c structrures](#HigherSpincstructures)_ discussed below. This field content of [[heterotic supergravity]] is discussed in more detail below in _[Anomaly-free heterotic supergravity fields -- differential String-c structures](#HeteroticStringBackgroundField)_.
+
+Further up the [[Whitehead tower]] _[[Fivebrane structure]]_-fields are maps to
 
 $$
   \mathbf{Fields}
@@ -9240,7 +9840,61 @@ $$
   \mathbf{B}Fivebrane \to \mathbf{B}String
 $$
 
+in $\mathbf{H}_{/\mathbf{B}String}$. These, or their twisted variants, appear in [[dual heterotic string theory]]. 
+
+
 ####### Higher $Spin^c$-structures
+ {#HigherSpincstructures}
+
+As discussed above, an ordinary [[spin-c structure]] is really a [[spin structure]] which is _[[twisted differential c-structure|twisted]]_ by the class of a $U(1)$-[[principal bundle]]. 
+
+Similarly the [[higher spin structure]]-fields just discussed have further twistes by background unitary bundles. For
+
+$$
+  \mathbf{c} \;\colon\; \mathbf{B}G \to \mathbf{B}^3 U(1)
+$$
+
+some [[universal characteristic map]] on [[moduli ∞-stacks]], for $\mathbf{B}^3 U(1)$ the moduli 3-stack of [[circle n-bundle with connection|circle 3-bundles]], hence [[circle 3-group]]-[[principal ∞-bundles]] we say that the [[smooth ∞-group]] $String^{\mathbf{c}}$ appearing in the [[homotopy pullback]] diagram
+
+$$
+  \array{
+    \mathbf{B}String^{\mathbf{c}}
+    &\to&
+    \mathbf{B} G
+    \\
+    \downarrow && \downarrow^{\mathrlap{\mathbf{c}}}
+    \\
+    \mathbf{B}Spin &\stackrel{\tfrac{1}{2}\mathbf{p}}{\to}&
+    \mathbf{B}^3 U(1)
+  }
+$$
+
+is a higher [[string 2-group]]-analog of [[spin^c]]. 
+
+In particular, if $G$ is a compact, connected and simply connected [[simple Lie group]] (such as the [[spin group]] or the [[special unitary group]]) then 
+
+$$
+  \pi_0\mathbf{H}(\mathbf{B}G, \mathbf{B}^3 U(1)) 
+  \simeq
+  H^4(BG, \mathbb{Z}) 
+  \simeq 
+  \mathbb{Z}
+$$
+
+(the first equivalence is discussed at _[[Lie group cohomology]]_ as a special case of a theorem discussed at _[[smooth infinity-groupoid]]_). This means that there is an essentially unique map of higher moduli stacks
+
+$$
+  \mathbf{c}
+  \;\colon\;
+  \mathbf{B}G
+  \to \mathbf{B}^3 U(1)
+$$
+
+which maps to the generator of $H^4(BG, \mathbb{Z})$ under [[geometric realization of cohesive infinity-groupoids]]. For $G = Spin$ this is the smooth refinement of the [[first fractional Pontryagin class]] $\tfrac{1}{2}\mathbf{p}_1$, discussed further at _[[twisted differential string structure]]_. 
+
+Of interest in [[heterotic supergravity]] here is the case that $G = E_8 \times E_8$ (the product of the  [[exceptional Lie group]] $E_8$ with itself) and $\mathbf{c}$ is twice the canonical string class.
+
+If then $g_X \;\colon\; X \to \mathbf{B}(E_8 \times E_8)$ is the [[instanton sector]] of the gauge field in [[heterotic supergravity]] regarded as a [[background gauge field]] for the field of heterotic [[gravity]], then with  
 
 $$
   \mathbf{Fields}
@@ -9248,10 +9902,41 @@ $$
   \mathbf{B}Spin \stackrel{\tfrac{1}{2}\mathbf{p}_1}{\to} \mathbf{B}^3 U(1)
 $$
 
+a map
+
+$$
+  g_X \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}_{/\mathbf{B}^3 U(1)}$ is a $\mathbf{String}^{\mathbf{c}}$-structure on $X$ whose underlying gage bundle is the given $\Phi_X$. 
+
+As before for $Spin^c$-structures, in applications one in addition demands that this $\mathbf{String}^{\mathbf{c}}$-structure is indeed a refinement of the field of [[gravity]] of the theory, which means that one takes the [[background field]] to be
+
+$$
+  \Phi_X
+  \;\colon\;
+  X
+  \stackrel{(\tau_X, g_X)}{\to} \mathbf{B}GL(n) \times \mathbf{B}(E_8 \times E_8)
+$$
+
+and the moduli $\infty$-stack of fields to be
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Spin(n)
+  \stackrel{(p, \tfrac{1}{2}\mathbf{p}_1)}{\to}
+  \mathbf{B}GL(n) \times \mathbf{B}^3 U(1)
+  \,.
+$$
+
+These are precisely the [[instanton sectors]] of the fields of [[Green-Schwarz mechanism|Green-Schwarz anomaly free]] [[heterotic supergravity]], discussed further below in _[Anomaly-free heterotic supergravity fields](#HeteroticStringBackgroundField)_. ([SSS](#SSS))
+
 ###### **I b)** Gauge fields
  {#GaugeFields}
 
 ####### **General** -- Coefficients in differential cohomology: $\infty$-connections
+ {#GaugeFieldsGeneral}
 
 The term _gauge field_ in _[[gauge theory]]_ with respect to a [[gauge group]] $G$ refers to fields which are modeled by [[connection on a bundle|connections]] either on $G$-[[principal bundles]] or on [[associated bundles]] for these. The notion of [[equivalence]] between two such fields (hence between [[connections on bundles]]) is the original meaning of the word _[[gauge transformation]]_, even though that term is also used for equivalences between fields which are not modeled by connections.
 
@@ -9260,83 +9945,168 @@ We discuss the general notion of gauge fields and then various special cases and
 [[!include gauge field - table]]
 
 ####### Electromagnetic field
+ {#ElectromagneticField}
 
-[[electromagnetic field]]:
+A field configuratiotion of the [[electromagnetic field]] is a [[circle n-bundle with connection|circle bundle with connection]] and a [[gauge transformation]] of the EM field is an equivalence of such connections.
+
+Let therefore
 
 $$
-  \mathbf{Fields} = \mathbf{B}U(1)_{conn}
+  \mathbf{B}U(1)_{conn}
+  \coloneqq
+  \Omega^1//U(1)
+  \simeq
+  DK(U(1) \stackrel{d log}{\to} \Omega^1)
 $$
+
+be the [[quotient stack]] of the [[action]] of $U(1)$ on the [[sheaf]] of [[differential 1-forms]], equivalently the image under the [[Dold-Kan correspondence]] of the sheaf of [[chain complexes]] given by the [[Deligne complex]] for degree-2 [[ordinary differential cohomology]], as indicated.
+
+This is the [[moduli stack]] for $U(1)$-[[principal connections]]. Hence setting $\mathbf{BgFields} \simeq *$ and 
+
+$$
+  \mathbf{Fields} \coloneqq \mathbf{B}U(1)_{conn}
+$$
+
+in def. \ref{FieldsInAnActionFunctional} yields the type of the electromagnetic field.
+
 
 ####### Yang-Mills field
+ {#YangMillsField}
 
-[[Yang-Mills field]]
+More generally, let $G$ be a [[Lie group]], and $\mathfrak{g}$ its [[Lie algebra]]. Write $\Omega^1(-,\mathfrak{g})$ the sheaf of [[Lie algebra valued 1-forms]]
 
-$$
-  \mathbf{Fields} = \mathbf{B}G_{conn}
-$$
++-- {: .num_defn #ModuliStackOfGPrincipalConnection}
+###### Definition
 
-
-####### 3d Chern-Simons field with Wilson line
- {#ChernSimonsWithWilsonLines}
-
-[[Chern-Simons theory]] with [[Wilson loops]]
+The **moduli stack of $G$-[[principal connections]]** is the [[quotient stack]]
 
 $$
-  \mathbf{Fields}
-  : 
-  \Omega^1(-,\mathfrak{c})//T \to \mathbf{B}G_{conn}
+  \mathbf{B}G_{conn}
+  \coloneqq
+  \Omega^1(-,\mathfrak{g})//G
 $$
+
+of the [[action]] of $G$ on it [[Lie algebra valued differential forms]] by [[gauge transformations]] 
+
+$$
+  g \colon A^g \coloneqq \mapsto A^g Ad_g A + g^* \theta 
+  \,.
+$$ 
+
+=--
+
+This is the [[moduli stack]] of the $G$-[[Yang-Mills field]]. Hence setting $\mathbf{BgFields} \simeq *$ and
+
+$$
+  \mathbf{Fields} \coloneqq \mathbf{B}G_{conn}
+$$
+
+in def. \ref{FieldsInAnActionFunctional} yields [[Yang-Mills fields]].
+
+
 
 ####### Kalb-Ramond $B$-field
+ {#KalbRamondBField}
 
-[[Kalb-Ramond field]]
+Let 
 
-$\mathbf{Fields} = \mathbf{B}^2 U(1)_{conn}$
+$$
+  \mathbf{B^2}U(1)_{conn}
+  \coloneqq
+  \Omega^{2 \leq \bullet \leq 1} // \mathbf{B}U(1)
+  \simeq
+  DK(U(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \Omega^2)
+$$
+
+be the image under the [[Dold-Kan correspondence]] of the [[Deligne complex]] for degree-3 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 2-stack]] for [[circle n-bundle with connection|circle 2-bundle with connections]].
+
+Setting $\mathbf{BgFields} \simeq *$ and
+
+$$
+  \mathbf{Fields} \coloneqq \mathbf{B}^2 U(1)_{conn}
+$$
+
+in def. \ref{FieldsInAnActionFunctional} yields the 2-form 
+gauge field known as the _[[B-field]]_ or the _[[Kalb-Ramond field]]_.
+
 
 ####### Supergravity $C$-field
+ {#SupergravityCField}
 
-[[supergravity C-field]]
+Proceeding in this fashion, let 
 
-first approximation:
+$$
+  \mathbf{B^3}U(1)_{conn}
+  \coloneqq
+  \Omega^{3 \leq \bullet \leq 1} // \mathbf{B}^2 U(1)
+  \simeq
+  DK(U(1) \stackrel{d log}{\to} \Omega^1 \stackrel{d}{\to} \Omega^2 \stackrel{d}{\to}\Omega^3)
+$$
 
-$\mathbf{Fields} = \mathbf{B}^3 U(1)_{conn}$
+be the image under the [[Dold-Kan correspondence]] of the [[Deligne complex]] for degree-4 [[ordinary differential cohomology]]. This is the [[moduli infinity-stack|moduli 3-stack]] for [[circle n-bundle with connection|circle 3-bundle with connections]].
 
-full description more subtle ([FSS]())
+Fields whose moduli stack is
+
+$$
+  \mathbf{Fields} \;\colon\; \mathbf{B}^3 U(1)_{conn} \to *
+$$ 
+
+are one component of the [[supergravity C-field]].
+
 
 ##### **II)** Matter fields
  {#MatterFields}
 
-[[matter]]
+Fundamental [[matter]]-fields as they appear in the [[standard model of particle physics]], hence fundamental [[fermions]] such as [[electrons]], [[quarks]] and [[neutrinos]], are [[sections]] of a $G$-[[associated bundle]] $E \to X$ on [[spacetime]], where $G$ is the [[gauge group]] of the [[force]] fields that interact with the matter fields and where $E \to X$ is [[associated bundle|associated]] to the [[principal bundle]] underlying such a force [[gauge field]], as discussed in _[Gauge fields](#GaugeFields)_ above, and, if we are talking indeed about fermions, to the [[spin bundle]] given by the gravity-spin structure field discussed in _[Gravity and generalized geometry](#MatterFields)_ above.
+
+More precisely, fermioninc matter fields are sections of these bundles regarded in [[supergeometry]] with the fibers regarded as odd-graded. (...)
+
 
 ###### **General** -- sections of associated fiber $\infty$-bundles
  {#SectionsOfAssociatedBundles}
 
-general: [[section]] of $\rho$-[[associated ∞-bundle]]
+We start by discussing the general mechanism by which [[sections]] of $\rho$-[[associated ∞-bundles]] are an example of the general definition \ref{FieldsInAnActionFunctional}.
 
-* $G \in \Grp(\mathbf{H})$ an [[∞-group]];
+For $G \in \Grp(\mathbf{H})$ a geometric [[∞-group]], there is an [[equivalence of (∞,1)-categories]]
 
-* [[∞-action]]/[[∞-representation]] of $G$ on $V \in \mathbf{H}$ is equivalently [[homotopy fiber sequence]]
+$$
+  G Act \simeq \mathbf{H}_{/\mathbf{B}G}
+$$
 
-  $$
-    \array{
-      V &\to& V//G
-      \\
-      && \downarrow^{\overline \rho}
-      \\
-      \mathbf{B}G
-    }
-  $$ 
+between that of [[∞-actions]] of $G$ and the [[slice (∞,1)-topos]] of $\mathbf{H}$ over the [[delooping]] $\mathbf{B}G$ of $G$. Under this equivalence an [[∞-action]]/[[∞-representation]] of $G$ on some $V \in \mathbf{H}$ is equivalently a [[homotopy fiber sequence]] of the form
 
-  this is the [[universal associated ∞-bundle]]
+$$
+  \array{
+    V &\to& V//G
+    \\
+    && \downarrow^{\overline \rho}
+    \\
+    && \mathbf{B}G
+  }
+$$ 
 
+in $\mathbf{H}$. This is the [[universal associated ∞-bundle|universal rho-associated ∞-bundle]]: for $P \to X$ any $G$-[[principal ∞-bundle]] with modulating map $g_X \;\colon\; X \to \mathbf{B}G$ the corresponding [[associated ∞-bundle|associated]] $V$-[[fiber ∞-bundle]] is naturally equivalent to the [[(∞,1)-pullback]] of $\overline{\rho}$ along $g$:
 
-* for $g_X \colon X \to \mathbf{B}G$ modulating a [[principal ∞-bundle]] $P \to X$ a [[section]] of the [[associated ∞-bundle]] $P \times_G V \to X$ is equivalently a field
+$$
+  P \times_G V \simeq g_X^*(\overline{\rho})
+  \,.
+$$
 
-  $$
-    \phi : g_X \to \overline{\rho}
-  $$
+From this and the [[universal property]] of the [[(∞,1)-pullback]] one finds that a [[section]] of the [[associated ∞-bundle]] $P \times_G V \to X$ is equivalently a map
+
+$$
+  \phi : g_X \to \overline{\rho}
+$$
   
-  in $\mathbf{H}_{/\mathbf{B}G}$
+in $\mathbf{H}_{/\mathbf{B}G}$.
+
+This means that such sections are fields in the sense of def. \ref{FieldsInAnActionFunctional} where
+
+* $\mathbf{BgFields} \simeq \mathbf{B}G$;
+
+* the [[background field]] is the moduli $g_X$;
+
+* the [[moduli ∞-stack]] of fields is $\overline{\rho} \in \mathbf{H}_{/\mathbf{B}G}$.
 
 
 
@@ -9355,7 +10125,10 @@ $$
   \mathbf{B}Spin
 $$
 
+in [[supergeometry]] (...)
+
 ###### Tensor fields
+ {#TensorFields}
 
 While the term _physical field_ probably orignates from _[[tensor field]]_, few fields are fundamentally given by tensor fields. Nevertheless, tensor fields, being [[sections]] of a [[tensor product]] of copies of the [[tangent bundle]] and the [[cotangent bundle]] are certainly examples of the general notion of field as in def. \ref{FieldsInAnActionFunctional}. Gere we spell this out.
 
@@ -9387,69 +10160,369 @@ By passing to [[irreducible representations]] in the above, we obtain specifical
 
 
 
-##### Fields combining all these properties
+##### Fields combining these properties
  {#FieldCombiningVariousProperties}
 
-###### Twisted differential $\mathbf{c}$-structures
+The above distinction of types of physical fields into into [Sigma-model fields](SigmaModelFields), [Force fields of gravity](#FieldsOfGravityAndGeneralizedGeometry), [Gauge force fields](#GaugeFields) and [Matter fields](#MatterFields) can be helpful for reasoning about fields and types of [[theories (physics)|theories in physics]], but is not fundamental. The general definition \ref{FieldsInAnActionFunctional} of which all these types are examples reflects that. In fact, one way to read that definition and the above list of examples is to say that it shows that in [[higher geometry]] _all_ types of fields are [[sigma-model]] fields: they are all given as maps $\Phi_X \to \mathbf{Fields}$ from a domain [[spacetime]]/[[worldvolume]]+[[background field]] $\Phi_X$ to a generalized [[target space]] $\mathbf{Fields}$ (the [[moduli ∞-stack]] of fields in the given [[slice (∞,1)-topos]] characterized by the nature of the [[background fields]]).
 
-* [[twisted differential C-structure]]
-
-###### Anomaly-free background heterotic string background: differential $String^c$-structure
-
-* [[twisted differential string structure]]
+Accordingly, a general physical field in a general [[theory (physics)|theory]] does not fall squarely into one of the above categories, but combines aspects of all of these. Here we discuss such examples. 
 
 
-### Syntax layer
- {#FieldsSyntaxLayer}
+###### **General** -- Twisted differential-cocycles and -$\mathbf{c}$-structures
+ {#TwistedDifferentialcStructurs}
+
+We have seen that the [[moduli ∞-stack]] of a field of plain [[gravity]] or general geometry is a map $\mathbf{c} \colon \mathbf{B}\hat G \to \mathbf{B}G$ of [[moduli ∞-stack]] of [[principal ∞-bundles]], regarded as an object in the [[slice (∞,1)-topos|slice]] $\mathbf{H}_{/\mathbf{B}G}$, and that the [[moduli ∞-stack]] of a plain $G$-[[gauge field]] is that of [[principal ∞-connections]] $\mathbf{B}G_{conn}$. These two concepts have an evident unification if $\mathbf{c}$ has a differential refinement $\at \mathbf{c}$ to a map of differential moduli stacks
+
+$$  
+  \array{
+    \mathbf{B}\hat G_{conn} &\stackrel{\hat \mathbf{c}}{\to}&
+   \mathbf{B}G_{conn}
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{B}\hat G &\stackrel{\mathbf{c}}{\to}&
+     \mathbf{B}G
+  }
+  \,,
+$$
+
+regarded then as an object in the slice $\mathbf{H}_{/\mathbf{B}G_{conn}}$.
+
+Since, as discussed [above](#GStructure), a field with coefficients in $\mathbf{c}$ is equivalently a _twisted $\mathbf{c}$-structure_, we may calla field with coefficients in $\hat \mathbf{c}$ a 
+**[[twisted differential c-structure]]**.
+
+Moreover, we have seen that [matter fields](#MatterFields) have 
+[[moduli ∞-stacks]] coming not from a direct [[delooping]] $\mathbf{B}G \simeq *//G$ of an [[∞-group]] $G$, but from the [[homotopy quotient]] $V//G$ of an [[∞-action]] of $G$ on some object $V$. Combining this with differential refinement as above we consider fields whose [[moduli ∞-stacks]] are maps
+
+$$
+  (V//G)_{conn}
+  \stackrel{\hat \mathbf{c}}{\to}
+  (\mathbf{B}G)_{conn}
+  \;\;\;\;
+  \in \mathbf{H}_{/\mathbf{B}G_{conn}}
+  \,.
+$$
+
+This is a differential refinement of fields which are [[cocycles]] in [[twisted cohomology]] with local [[coefficients]] $V$, hence **twisted differential cohomology**. The above case of [[twisted differential c-structures]] is a special case of this for $V \simeq \mathbf{B}A$ the [[delooping]] of the [[∞-group]] that [[∞-group extension|extended]] $G$ to $\hat G$.
+
+Some further slight variants of these combinations appear in the examples below. 
+
+###### Nonabelian charged particle trajectories -- Wilson line
+ {#NonabelianChargedParticle}
+
+We describe here a variant of the particle propagating on a spacetime $X$, where now the particle is charged under a [[background gauge field]] for a nonabelian [[gauge group]] $G$. 
 
 
-(...)
+Let $G$ be a [[simple Lie group]] which is connected, simply connected and [[compact Lie group|compact]].
 
-## **Lagrangians and Action functionals**
- {#LagrangiansAndActionFunctionals}
+Let $\rho$ be an [[irreducible representation|irreducible]] [[unitary representation]] of $G$ under which the particle is to be [[charge (physics)|charged]]. By the [[Borel-Weil-Bott theorem]] this corresponds equivalently to a [[weight (in representation theory)|weight]]
 
-The _[[kinematics]]_ of a [[physical system]] is its content of [[field (physics)|fields]] which we discussed above in _[Fields](#Fields)_. The _[[dynamics]]_of the [[physical system]] is encoded by [[functional]] on the space of all fields, called the _[[action functional]]_. Good [[physical theories]] are _[[local quantum field theory|local]]_ and for these the action functional arises from [[integration]] of a [[local Lagrangian|local]]/ [[extended Lagrangian|extended]] _[[Lagrangian]]_. This enocoding of [[dynamics]] by [[Lagrangians]] we discuss here.
+$$
+  \langle \lambda, -\rangle
+  \in
+  \mathfrak{g}^*
+  \,.
+$$
 
-### Model layer
+Let $T \simeq G_\lambda \hookrightarrow G$ be the [[maximal torus]] which is the [[stabilizer subgroup]] that fixes this weight under the [[coadjoint action]] of $G$ on its dual [[Lie algebra]] $\mathfrak{g}^*$.
 
-#### Lagrangians
+Set then in def. \ref{FieldsInAnActionFunctional} the [[moduli stack]] of [[background fields]] to be 
 
-* [[Lagrangian]], [[action functional]]
+$$
+  \mathbf{BgField} \colon \Omega^1(-,\mathfrak{g})//G \simeq \mathbf{B}G_{conn}
+  \;\;\;
+  \mathbf{H}
+$$
 
-[[!include extended prequantum field theory - table]]
+as in def. \ref{ModuliStackOfGPrincipalConnection}. Moreover, let the moduli $\infty$-stack of fields in $\mathbf{H}_{/\mathbf{B}G_{conn}}$ be given by the canonical map
 
-#### Prequantum field theory
+$$
+  \mathbf{Fields} 
+  \;\colon\;
+  \Omega^1(-,\mathfrak{g})//T
+  \to 
+  \Omega^1(-,\mathfrak{g})//G
+  \simeq
+   \mathbf{B}G_{conn}
+$$
 
-The notion of _[[quantum field theory]]_ exists without reference to any predefined notion of _[[configuration space]]_ of _[[quantum fields]]_, _[[action functional]]_, _[[phase space]]_ etc.: 
+which is induced by the defining inclusion of $T$.
 
-a [[quantum field theory]] in [[FQFT]]-[[axiomatization]] is simply a consistent assignment of [[spaces of quantum states]], whereas in [[AQFT]]-[[axiomatization]] it is a consistent assignment of [[algebras of quantum observables]], and that's it. 
++-- {: .num_remark}
+###### Remark
 
-However, most (or maybe all?) quantum field theories of interest in actual [[physics]] (as opposed to as devices of pure [[mathematics]]) are not random models of these axioms, but do arise under a process called [[quantization]] from a ([[local Lagrangian]]/[[extended Lagrangian|extended]]) [[Lagrangian]], hence from an [[action functional]], defned on a [[configuration space]] of [[quantum fields]], or do arise as [[holographic duals]] of quantum field theories that arise by quantization. Moreover, the extra information provided by the Lagrangian is commonly used (and is maybe strictly necessary) to interpret the mathematical structure of the axiomatic QFT in actual [[physics]] (though notably in [[AQFT]] there are results that re-extract at least parts of this data from the axiomatic QFT, for instance the [[Doplicher-Roberts reconstruction theorem]] which extract the [[global gauge group]] from the [[local net of quantum observables]]).
+For $U \in$ [[CartSp]] $\hookrightarrow \mathbf{H}$ a field $\phi \colon U \to \Omega^1(-,\mathfrak{g})//T$ is equivalently a [[Lie algebra valued form]] $A \in \Omega^1(U,\mathfrak{g})$, but a [[gauge transformation]] of such a field is constrained to be a smooth $T$-valued function $t \in C^\infty(U,T) \hookrightarrow C^\infty(U, G)$ instead of an arbitrary $G$-valued function.
 
-There are in turn two formalizations of the notion of [[quantization]]: _algebraic [[deformation quantization]]_ and _[[geometric quantization]]_. In the latter one speaks of _[[prequantization]]_ when referring to a precursor step to the actual quantization step, in which the [[symplectic form]] on [[phase space]] is lifted from to [[differential cohomology]], hence to a [[prequantum bundle]]. But in the context of [[higher geometry]] and [[higher geometric quantization]] this prequantization step is already part of the data of the [[Lagrangian]] itself: an [[extended Lagrangian]] already encodes not just the [[action functional]] but also the [[prequantum bundle]] and all the [[prequantum n-bundle|prequantum (n-k)-bundles]] in each [[dimension]] $k$. The action functional itself is the _[[prequantum 0-bundle]]_  in this context.
+=--
 
-Therefore, in the refined picture of [[higher geometry]]/[[extended quantum field theory]] it makes good sense to refer in a unified way to **prequantum field theory** for all of the data related to [[Lagrangians]] that is not yet the final [[quantum field theory]]. 
++-- {: .num_remark}
+###### Remark
 
-In particular, an **extended prequantum field theory** of [[dimension]] $n$ is a rule that assigns
+With these definitions we have for $X$ a [[manifold]] that
 
-* to every (suitably [[orientation|oriented]]) [[closed manifold]] of [[dimension]] $k$ a [[prequantum n-bundle|prequantum (n-k)-bundle]]
+* a [[background gauge field]] $\Phi_X \;\colon\; X \to \mathbf{B}G_{conn}$ is equivalently a $G$-[[principal connection]] on $X$ (which if $G$ is assumed connected and simply connected and $\Sigma$ is of [[dimension]] at most 3 is equivalently just a [[Lie algebra valued form]]);
 
-* to every (suitably [[orientation|oriented]]) [[compact topological space|compact]] [[manifold with boundary]] $\Sigma_k$ a [[section]] of the prequantum $(n-k+1)$-bundle assigned to the [[boundary]] $\partial \Sigma_k$ and pulled back to the space of fields over $\Sigma_k$
+* a field configuration is a diagram in $\mathbf{H}$ of the form
 
-such that this data is related suitably under [[transgression]].
+  $$
+    \array{  
+      X &&\stackrel{\nabla^g}{\to}&& \Omega^1(-,\mathfrak{g})//T
+      \\
+      & {}_{\nabla}\searrow &\swArrow_{g}& \swarrow_{\mathrlap{\mathbf{Fields}}}
+      \\
+      && \mathbf{B}G_{conn}
+    }
+    \,,
+  $$
+  
+  which is equivalently a differentially refined [[reduction of the structure group]] of the $G$-[[principal bundle]] underlying $\nabla$. If $\nabla$ is given by a globally defined connection form $A$ then this is equivalently just a smooth $G$-valued function $g$ on $X$ that takes $A$ to $A^g$ as indicated. 
 
-The actual [[extended quantum field theory]] would be obtained from such a data by passing from the assignment of a given prequantum $(n-k)$-bundle to that of the [[n-vector space|(n-k)-vector space]] of [[polarization|polarized]] [[sections]] of a suitable [[associated infinity-bundle|associated]] [[fiber infinity-bundle|fiber bundle]].
+=--
+
+As a slight variant of prop. \ref{CosetIsHomotopyFiberOfDeloopedInclusion} we have
+
++-- {: .num_prop}
+###### Proposition
+
+We have a [[homotopy fiber sequence]]
+
+$$
+  \mathcal{O}_\lambda \simeq G/T \to \Omega^1(-,\mathfrak{g})//T
+  \stackrel{\mathbf{Fields}}{\to} \mathbf{B}G_{conn}
+  \,,
+$$
+
+where on the left we have the [[coadjoint orbit]] of $\langle \lambda , -\rangle$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This implies that if $\nabla = 0$ is the trivial background field, than fields $\phi : X \to \mathbf{Fields}$ are equivalently maps to the coadjoint orbit
+
+$$
+  [X, \mathbf{Fields}]_{\matbf{H}}|_{\Phi_X = 0}
+  \simeq
+  C^\infty(X, \mathcal{O}_\lambda)
+  \,.
+$$
+
+Hence in this sector we have simply a [[sigma-model]] field as in [Sigma-models](#SigmaModelFields) above. 
+
+=--
 
 
-### Semantics layer
++-- {: .num_remark}
+###### Remark
 
-(...)
+There is a canonical [[extended Lagrangian]] on $[X, \mathbf{Fields}]_{\mathbf{H}}$ with the above definitions, whose [[action functional]], if $X = S^1$ is the closed connected 1-dimensional manifold,  is that of a [[1d Chern-Simons theory]]. The [[partition function]] of the corresponding [[quantum field theory]] is the [[holonomy]] map  -- the "[[Wilson line]]" -- on the background gauge field connection $\nabla$.
 
-### Syntax layer
+=--
 
-(...)
+This is discussed further at [geometry of physics -- Prequantum gauge theory and gravity](#ActionFunctionalsForChernSimonsTypeGaugeTheories).
 
-## Equations of motion
+
+
+###### 3d Chern-Simons field with Wilson line
+ {#ChernSimonsWithWilsonLines}
+
+We discuss the field content of 3d [[Chern-Simons theory]] for a simple, simply connected compact Lie group with [[Wilson loops]].
+This is an example of _[Bulk fields with defect fields](#BoundaryAndDefectFields)_.
+
+Let $\Sigma_3 \in SmthMfd \hookrightarrow \mathbf{H}$ be a [[smooth manifold]] of [[dimension]] 3, and let
+
+$$
+  C_X \;\colon\; S^1 \to \Sigma^3
+$$
+
+be the [[submanifold|embedding]] of a [[knot]]. Let the moduli of fields be
+
+$$
+  \mathbf{Fields}
+  : 
+  \Omega^1(-,\mathfrak{c})//T \to \mathbf{B}G_{conn}
+$$
+
+as defined in _[Nonabelian charged particle trajectories -- Wilson lines](#NonabelianChargedParticle)_ above. Regarding the not inclusion as a defect in the 3-dimnensional manifold, a bulk-defect fiedl configuration according to def. \ref{ModuliOfBulkAndBoundaryFields} is a map
+
+$$
+  \phi 
+   \;\colon\;
+   C_X \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}^{(\Delta^1)}$. This is equivalently a diagram
+
+$$
+  \array{
+    S^1 &\stackrel{A|_{S^1}^g}{\to}& \Omega^1(-,\mathfrak{g})//T
+    \\
+    \downarrow^{\mathrlap{C}} &\swArrow_{g}& \downarrow
+    \\
+    \Sigma_3 &\stackrel{A}{\to}& \mathbf{B}G_{conn}
+  }
+$$
+
+in $\mathbf{H}$. This in turn is equivalently
+
+1. a [[Lie algebra valued form]] $A \in \Omega^1(\Sigma_3, \mathfrak{g})$ (the bulk [[gauge field]] of $G$-[[Chern-Simons theory]])
+
+1. a $g$-valued function on the circle $g \in C^\infty(S^1, G)$
+
+which determine a background gauge field $A|_{S^1}^g$ on the knot.
+
+Moreover a [[gauge transformation]] between two such field configurations $\kappa \;\colon\; \phi \Rightarrow \phi'$ is equivalently a gauge transformaiton of $A$ and of $A|_{S^1}$ such that together they intertwine $g$ and $g'$. In particular if the bulk field is held fixed, then such a gauge transformation is a function $t \colon S^1 \to T$ such that $g' = t g$. This means that the gauge equivalence classes of field confiurations for fixed background gauge field are labeled by maps to the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ as above.
+
+This are the field confugurations for 3d [[Chern-Simons theory]] (see the discussion there) with Wilson lines ([FSS](#FSS)).
+
+
+###### Chan-Paton gauge fields on D-branes: twisted differential K-cocycles
+ {#ChanPatonGaugeFields}
+
+We discuss the [[Chan-Paton gauge fields]] over [[D-branes]]
+in [[type II string theory]].
+
+The [[extension of groups]] $U(1) \to U(n) \to PU(n)$ sits in a long [[homotopy fiber sequence]] of $\infty$-stacks
+
+$$
+  U(1) \to U(n) \to PU(n) \to \mathbf{B}U(1)
+  \to \mathbf{B}U(n) \to \mathbf{B}PU(n) \stackrel{\mathbf{dd}_n}{\to}
+  \mathbf{B}^2 U(1)
+$$
+
+Let
+
+$$
+  \mathbf{Fields}
+  \colon
+  (\mathbf{B}U(n)//\mathbf{B}U(1))_{conn}
+  \to
+  \mathbf{B}^2 U(1)_{conn}
+$$
+
+be the differential refinement of that universal [[Dixmier-Douady class]].
+
+Let 
+
+$$
+  \iota_X   
+    \;\colon\;
+  Q \hookrightarrow X 
+$$
+
+be a [[submanifold]], to be thought of as a [[D-brane]] [[worldvolume]] in an ambient [[spacetime]] $X$.
+
+ 
+Then a field configuration of the [[B-field]] on $X$ together with a compatible rank-$n$ gauge field on the [[D-brane]] is a map
+
+$$
+  \iota_X \to \mathbf{Fields}
+$$
+
+in $\mathbf{H}^{(\Delta^1)}$, hence a diagram in $\mathbf{H}$ of the form
+
+$$
+  \array{
+    Q &\stackrel{}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))
+    \\
+    {}^{\iota_X}\downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{\hat \mathbf{dd}_n}}
+    \\
+    X &\stackrel{\nabla_B}{\to}& \mathbf{B}^2 U(1)_{conn}
+  }
+$$
+
+This identifies a  [[twisted bundle]] with connection on the D-brane whose twist is the class in $H^3(X, \mathbb{Z})$ of the bulk [[B-field]]. 
+
+This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes. ([FSS](#FSS))
+
+
++-- {: .num_remark }
+###### Remark
+
+If we regard the [[B-field]] as a [[background field]] for the [[Chan-Paton gauge field]], then remark \ref{PullbackAlongGeneralizedLocalDiffeomorphisms} determines along which maps of the B-field the Chan-Paton gauge field may be transformed. 
+
+$$
+  \array{
+    Y &\stackrel{}{\to}& X &\stackrel{}{\to}& (\mathbf{B}U(n)//\mathbf{B}U(1))_{conn}
+    \\
+    & \searrow & \downarrow & \swarrow
+    \\
+    &&\mathbf{B}^2 U(1)_{conn}
+  }
+  \,.
+$$
+
+On the local connection forms this acts as
+
+$$
+  A \mapsto A + \alpha
+  \,.
+$$
+
+$$
+  B \mapsto B + d \alpha
+$$
+
+This is the famous gauge transformation law known from the string theory literature.
+
+=--
+
+
+###### Anomaly-free heterotic string background: differential $String^c$-structure
+ {#HeteroticStringBackgroundField}
+
+Let
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Spin_{conn}
+  \stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}
+  \mathbf{B}^3 U(1)_{conn}
+$$
+
+Let 
+
+$$
+  \Phi_X \;\colon\; X \stackrel{g_X}{\to} \mathbf{B}(E_8 \times E_8)_{conn}
+  \stackrel{\hat \mathbf{c}_2}{\to}
+  \mathbf{B}^3 U(1)
+$$
+
+then fields are [[twisted differential string structures]] or equivalently
+differential $\mathbf{String}^{\mathbf{c}}$-structure with underlying gauge bundle give by $\Phi_X$, the differential refinement of the discussion in _[Higher spin structure](#HigherSpinStructures)_ above. 
+
+As in the discussion there, we implement the constraint that the string structure is on the tangent bundle $\tau_X \;\colol\; X \to \mathbf{B}GL(n)$ of the manifold by settting
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Spin_{conn}
+  \stackrel{(p,\tfrac{1}{2}\hat \mathbf{p}_1)}{\to}
+  \mathbf{B}GL(n)_conn \mathbf{B}^3 U(1)_{conn}
+$$
+
+and
+
+$$
+  \Phi_X
+  \;\colon\;
+  X
+  \stackrel{(\nabla_X, \hat \mathbf{c}_2(g_X))}{\to}
+  \mathbf{B}GL(n)_{conn} \times \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+Then a field $\phi \;\colon\; \Phi_X \to \mathbf{Fields}$ 
+is the higher spin-connection version as discussed in _[Gravity](#OrdinaryGravity)_ above of a twisted differential string structure.
+
+The moduli stack of these fields is that of background fields that satisfy the [[Green-Schwarz anomaly cancellation]] in [[heterotic supergravity]]. ([SSS](#SSS)).
+
+
+
+
+## **Equations of motion**
  {#EquationsOfMotion}
  
 Above in _[Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)_ we discussed [[prequantum field theory]]. Given such there are two directions to go: to the corresponding _[[classical field theory]]_ and to a corresponding _[[quantum field theory]]_.
@@ -9948,6 +11021,35 @@ One of the central figures of [[topos theory]] and [[categorical logic]], [[Will
 Modern accounts of physics in this spirit includes notably the book ([Paugam](#Paugam)) listed above.
 
 For more pointers see also at _[[higher category theory and physics]]_.
+
+### Physical fields 
+
+For references on the tradtional formulation of [[physical fields]] by sections of _[[field bundles]]_ as discussed [above](#IdeaOfFieldBundlesAndItsProblems) see there references [[field bundle|there]].
+
+The formulation of physical fields as [[cocycles]] in [[twisted cohomology]] in an [[(∞,1)-topos]] as in the _[Definition](#Definition)_-section above originates around
+
+* [[Urs Schreiber]], _[[schreiber:Background fields in twisted differential nonabelian cohomology]]_, talk at _[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]_
+
+Further articles since then are listed at 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+In particular the general notion of fields as [[twisted differential c-structures]] appears in
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+ {#SSS}
+
+and the general theory of [[cohomology]] and [[twisted cohomology]] with [[local coefficient ∞-bundles]] as referred to in _[Relation to twisted cohomology](#RelationToTwistedCohomology)_ above as well as the theory of [[associated ∞-bundles]] as in _[Sections of associated ∞-bundles](#SectionsOfAssociatedBundles)_ is laid out in
+
+* [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+
+Some examples of fields in this sense are called "relative fields" in 
+
+* [[Daniel Freed]], [[Constantin Teleman]], _Relative quantum field theory_ ([arXiv:1212.1692](http://arxiv.org/abs/1212.1692))
+ {#FreedTeleman}
+
+
+
 
 ### Further
 
