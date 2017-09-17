@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -25,6 +39,7 @@ $\mathbf{N}$ has the structure of a [[natural numbers object]] in [[Set]]; indee
 
 * [[numeral]]
 
+* [[countable ordinal]]
 
 [[!redirects natural number]]
 [[!redirects natural numbers]]
