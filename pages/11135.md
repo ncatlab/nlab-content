@@ -19,9 +19,16 @@ In a [[category]] with [[internal homs]] $[-,-]$, given an [[object]] $S$, the _
 
 In [[computer science]] this [[monad (in computer science)]] is used to model [[continuation-passing style]] of programming, and therefore this is called the _continuation monad_. The idea here is that a morphism $f \colon X \to Y$ in the [[Kleisli category]] of the continuation monad, hence a morphism in the original category of the form $X\longrightarrow [[Y,S],S]$ is much like a map from $X$ to $Y$ only that instead of "returning" its output directly it instead feeds it into a given function $Y \to S$ which hence _continues_ the computation.
 
+
 ## Examples
 
 * [[double negation monad]]
+
+## Related concepts
+
+* [[maybe monad]]
+
+* [[state monad]]
 
 ## References
 
