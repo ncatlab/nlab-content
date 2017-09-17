@@ -39,7 +39,7 @@ for the [[(∞,1)-sheaf (∞,1)-topos]] over that site. Objects in here may be t
 
 Discussion of the [[Oka principle]] in terms of $\mathbb{C}Analytic\infty Grpd$ is in ([Larusson 01](#Larusson01)).
 
-Say that a [[complex manifold]] $X$ is an _[[Oka manifold]]_ if for every [[Stein manifold]] $\Sigma$ the canonical morphism
+Say that a [[complex manifold]] $X$ is an _[[Oka manifold]]_ if for every [[Stein manifold]] $\Sigma$ the canonical inclusion
 
 $$
   Maps_{hol}(\Sigma, X) \longrightarrow Maps_{top}(\Sigma, X)
