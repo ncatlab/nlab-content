@@ -540,7 +540,7 @@ $\Omega^\bullet_{poly} : sSet \to (cdgAlg_k)^{op}$ be the functor that assigns p
 For $A,B \in dgcAlg_k$ define the [[simplicial set]]
 
 $$
-cdgAlg_k(A,B) : ([n] \mapsto Hom_{cdgAlg_k})(A, B \otimes_k \Omega^\bullet_{poly}(\Delta[n]))
+cdgAlg_k(A,B) : ([n] \mapsto Hom_{cdgAlg_k}(A, B \otimes_k \Omega^\bullet_{poly}(\Delta[n]))
   \,.
 $$
 
