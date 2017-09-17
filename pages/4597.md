@@ -1162,6 +1162,8 @@ Special noteworthy cases are
 
   * **∞-Chern-Weil theory**
 
+    * [[schreiber:Principal ∞-bundles -- models and general theory]]
+
     * [[schreiber:Cech cocycles for differential characteristic classes]]
 
     * [[schreiber:Twisted differential structures]]
