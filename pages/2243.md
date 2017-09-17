@@ -68,7 +68,7 @@
 
   * [[quantum anomaly]]
 
-    * [[orientation]], [[Spin structure]], [[String structure]], [[Fivebrane structure]]
+    * [[orientation]], [[Spin structure]], [[Spin^c structure]], [[String structure]], [[Fivebrane structure]]
 
 * [[cohomology with constant coefficients]] / [[cohomology with a local system of coefficients|with a local system of coefficients]]
 
@@ -93,9 +93,11 @@
 
   * [[twisted bundle]]
 
-  * [[twisted K-theory]]
+    * [[twisted K-theory]], [[twisted spin structure]], [[twisted spin^c structure]]
 
-  * [[schreiber:twisted differential String- and Fivebrane structures|twisted differential String- and Fivebrane structures]]
+  * [[twisted differential c-structures]]
+
+    * [[twisted differential string structure]], [[twisted differential fivebrane structure]]
 
 * differential cohomology
 
@@ -122,6 +124,8 @@
 * [[cohomology operations]]
 
 * [[cup product]]
+
+* [[connecting homomorphism]], [[Bockstein homomorphism]]
 
 * [[orientation]], [[orientation in generalized cohomology|in generalized cohomology]]
 
