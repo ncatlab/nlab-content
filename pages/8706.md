@@ -48,7 +48,39 @@ $$
 
 ## Properties
 
-(...)
+### Relation to relative homology
+
+For "good" inclusions $A \hookrightarrow X$ of topological space, the reduced singular homology of the quotient $X/A$ is isomorphic to the $A$-[[relative singular homology]] of $X$. 
+
+See at _[Relative homology - Relation to reduced homology of quotient topological spaces](relative+homology#RelationToQuotientTopologicalSpaces)_.
+
+### Relation to wedge sums
+ {#RelationToWedgeSums}
+
+Let $\{* \to X_i\}_i$ be a set of [[pointed object|pointed]] [[topological spaces]]. Write $\vee_i X_i \in Top$ for their [[wedge sum]] and write
+$\iota_i \colon X_i \to \vee_i X_i$ for the canonical inclusion functions.
+
++-- {: .num_prop}
+###### Proposition
+
+For each $n \in \mathbb{N}$ the homomorphism
+
+$$
+  (\tilde H_n(\iota_i))_i \colon \oplus_i \tilde H_n(X_i) \to \tilde H_n(\vee_i X_i)
+$$
+
+is an [[isomorphism]].
+
+=--
+
+For instance ([Hatcher, cor. 2.25](#Hatcher)).
+
++-- {: .proof}
+###### Proof
+
+This follows with _[this proposition](relative+homology#HomologyOfQuotientSpace)_ at _[[relative homology]]_.
+
+=--
 
 ## Examples
 
