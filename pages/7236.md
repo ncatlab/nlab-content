@@ -80,7 +80,7 @@ Adhesiveness is an [[exactness property]], similar to being a [[regular category
 * [[Steve Lack]], *An embedding theorem for adhesive categories*, [TAC](http://www.tac.mta.ca/tac/volumes/25/7/25-07abs.html)
  {#Lack}
 
-* [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, ([arXiv:1108.2934](http://arxiv.org/abs/1108.2934))
+* [[Richard Garner]] and [[Steve Lack]], *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, Vol. 27, 2012, No. 3, pp 27-46. ([arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [TAC](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html))
  {#GarnerLack}
 
 [[!redirects adhesive categories]]
