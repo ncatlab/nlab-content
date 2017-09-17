@@ -35,6 +35,8 @@ for $q \coloneqq e^{2\pi i \tau}$.
 
 * Wikipedia, _[Dedekind eta function](http://en.wikipedia.org/wiki/Dedekind_eta_function)_
 
+* {#Atiyah87} [[Michael Atiyah]], _The logarithm of the Dedekind $\eta$-function_, Math. Ann. 278, 335-380 (1987) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahlg.pdf))
+
 [[!redirects Dedekind eta functions]]
 
 [[!redirects Dedekind eta-function]]
