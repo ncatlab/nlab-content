@@ -56,7 +56,7 @@ There are several systems of formal logic with several specific implementations 
 
 (...)
 
-## Formalizations
+## Semantics
 
 ### In homotopy type theory
 
