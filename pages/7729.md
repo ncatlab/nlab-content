@@ -39,7 +39,22 @@ In [[model theory]], given a language $L$, a structure for $L$ is the same as a 
 
 There is a generalization of structure for languages/theories with multiple domains or sorts, called multi-sorted languages/theories. 
 
-## Categorical interpretation 
+## Properties
+
+### Elementary classes of structures
+
+A class $K$ of structures of a given signature is an __elementary class__ if there is a [[first-order theory]] $T$ such that $K$ consists precisely of all models of $T$. 
+
+There is a vast generalizations for higher-order theories (and more), see at  _[[abstract elementary class]]_ and _[[metric abstract elementary class]]_.
+
+### Categories of structures
+
+Every [[algebraic category]] whose [[forgetful functor]] preserves [[filtered colimits]] is the category of [[models]] for some [[first-order theory]]. The converse is false.
+
+A detailed discussion of characterizations of [[categories]] of structures in the sense of  model theory is in ([Beke-Rosciky 11](#BekeRosciky11)).
+
+
+### Interpretation in categorical logic 
  {#CategoricalInterpretation}
 
 Every [[first-order language]] $L$ gives rise to a [[first-order hyperdoctrine]] with [[equality]] freely generated from $L$. Denoting this by $T(L)$, the base category $C_{T(L)}$ consists of sorts (which are products of basic sorts) and functional terms between sorts; the [[predicates]] are [[equivalence classes]] of [[relations]] definable in the language. The construction of $T(L)$ depends to some extent on the [[logic]] we wish to impose; for example, we could take the free [[Boolean hyperdoctrine]] generated from $L$ if we work in [[classical logic]]. 
@@ -50,7 +65,7 @@ $$P \colon Set^{op} \to Bool$$
 
 and then an interpretation of $L$, as described above, amounts to a morphism of hyperdoctrines $T(L) \to Taut(Set)$. 
 
-This observation opens the door to a widened interpretation of "interpretation", where we might for instance replace [[Set]] by a [[topos]] $E$, and use instead $Sub \colon E^{op} \to Heyt$ (taking an object of $E$ to its [[Heyting algebra]] of [[subobjects]]) as the receiver of interpretations. This of course is just one of many possibilities. 
+This observation opens the door to a widened interpretation of "interpretation" in [[categorical logic]], where we might for instance generalize [[Set]] to any other [[topos]] $E$, and use instead $Sub \colon E^{op} \to Heyt$ (taking an object of $E$ to its [[Heyting algebra]] of [[subobjects]]) as the receiver of interpretations. This of course is just one of many possibilities. 
 
 
 ## References
@@ -64,7 +79,7 @@ Standard textbook accounts include
 
 Characterizations of [[categories]] of model-theoretic structures  and [[homomorphisms]] between them (certain accessible categories) is discussed in
 
-* [[Tibor Beke]], [[Jiří Rosický]], _Abstract elementary classes and accessible categories_, 2011   ([pdf](http://www.math.muni.cz/~rosicky/papers/elem7.pdf))
+* {#BekeRosciky11} [[Tibor Beke]], [[Jiří Rosický]], _Abstract elementary classes and accessible categories_, 2011   ([pdf](http://www.math.muni.cz/~rosicky/papers/elem7.pdf))
 
 Online discussion includes
 
