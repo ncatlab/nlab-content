@@ -1,3 +1,4 @@
+[[!redirects locally ringed space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -37,10 +38,14 @@ A [[morphism]] of locally ringed space is a morphism of ringed spaces $(f,f^\sha
 
 ## References
 
-Section 19.2 in 
 
-* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+* [[Aise Johan de Jong]], section 19.2 in _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
 {#deJong}
+
+* [[James Milne]], section 4 of _[[Lectures on Étale Cohomology]]_
+
+[[!redirects locally ringed topological spaces]]
 
 
 [[!redirects locally ringed spaces]]
+
