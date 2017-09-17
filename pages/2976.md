@@ -4,3 +4,4 @@
 [website](http://www.mathematik.uni-muenchen.de/~morel/)
 
 category: people
+[[!redirects F. Morel]]
