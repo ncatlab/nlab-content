@@ -11,6 +11,12 @@ In [[complex number|complex]] [[analytic geometry]] analytic spaces are a vast g
 
 In the case of non-archimedean ground field, the topology of the affine space is totally disconnected what requires different approach than, say, over complex numbers. This leads to several variants like [[rigid analytic geometry]], [[Berkovich space]]s. Huber's adic spaces and so on.
 
+## Related entries
+
+* [[analytic geometry]]
+
+* [[Banach analytic space]]
+
 
 ## References
 
