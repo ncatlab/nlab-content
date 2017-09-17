@@ -241,6 +241,7 @@ $$
 
 where the equivalence is due to the fact that we have [[universal colimits]] in $PSh(C)$. This realizes $f$ as a colimit over morphisms of the form $f^* j(\Xi_k) \to j(\Xi_k)$ that are each a pullback of a monomorphism. Since monomorphisms are stable under pullback (see [[monomorphism in an (∞,1)-category]] for details), all these component morphisms are themselves monomorphisms.
 
+
 So every monomorphism in $S$ is generated from $S_0$, but by the assumption that $S$ is topological, it is itself entirely generated from monomorphisms, hence is generated from $S_0$.
 
 So far this establishes that evry topological localization of $PSh(C)$ is a localization at a collection of sieves/ subfunctors $U \to j(c)$ of representables. It remains to show that this collection of subfunctors is indeed an Grothendieck topology and hence exhibits on $C$ the structure of an [[(∞,1)-site]]. We check the necessary three axioms:
@@ -523,3 +524,9 @@ The full picture in terms of Grothendieck-[[(∞,1)-topos]]es of [[(∞,1)-sheav
 
 [[!redirects (infinity,1)-sheaf (infinity,1)-category]]
 [[!redirects (infinity,1)-sheaf (infinity,1)-categories]]
+
+[[!redirects (∞,1)-topos of (∞,1)-sheaves]]
+[[!redirects (∞,1)-toposes of (∞,1)-sheaves]]
+[[!redirects (infinity,1)-topos of (infinity,1)-sheaves]]
+[[!redirects (infinity,1)-toposes of (infinity,1)-sheaves]]
+
