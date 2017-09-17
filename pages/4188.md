@@ -1,0 +1,85 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Definition
+
++-- {: .un_def}
+###### Definition
+
+For $(X_j, \omega_j)$ two [[symplectic manifold]]s, a **Lagrangian correspondence** is a submanifold of $X^-_0 \times X_1$
+
+$$
+  \iota : L_{0,1} \hookrightarrow X^-_0 \times X_1
+$$
+
+with $dim(L_{0,1}) = \frac{1}{2}(dim(x_0) + dim(X_1))$
+
+and
+
+$$
+  \iota^*(-\pi_0^* \omega_0 + \pi_1^* \omega_1) = 0
+  \,,
+$$
+
+where $\pi_i$ are the two projections out of the [[product]].
+
+
+
+The **composition** of two Lagrangian submanifolds is
+
+$$
+  L_{01} \circ L_{12} := 
+    \pi_{02}(L_{01} \times_{X_1} L_{12})
+$$
+
+which is a Lagrangian correspondence in $X^-_0 \times X_2$ if everything is suitably smoothly embedded by $\pi_{02}$.
+
+=--
+
+
+## Examples
+
+1. For $\phi : X_0 \to X_1$ a [[symplectomorphism]] we have
+
+   $graph(\phi) \subset X_0^- \times X_1$ is a Lagrangian correspondence and 
+   composition of syplectomorphisms corresponds to composition of 
+   Lagrangian correspondences.
+
+1. Let $X$ be a [[manifold]], $G= U(n)$ the [[unitary group]], 
+   $P \to X$ a $G$-[[principal bundle]]
+   and $D \to X$ a $U(1)$-bundle with [[connection on a bundle|connection]].
+   
+   Then there is the [[moduli space]] $M(X) = M(P,D)$ 
+   of connections on $P$ with central curvature and given determinant.
+   
+   For example if $X$ has [[genus]] $g$ then
+   
+   $$
+     M(X) = \{ (A,B, \cdots, A_g, B_g) \in G^{2g}\} 
+   $$
+   
+   such that $\prod_{j=1}^g A_j B_j A_j^{-1} B_j^{-1} = diag(e^{2\pi i d/})/G$
+   
+   Let $Y_{01}$ be a [[cobordism]] from $X_0$ to $X_1$ with extension
+   
+   $$
+     L(Y_{01}) = Image(M(Y_{01}) \stackrel{restr.}{\to} 
+     M(X_0)^- \times M(X_1) )
+   $$
+   
+   is a Lagrangian correspondence if $Y_{01}$ is sufficiently simple. 
+   Further assuming this
+   we have for composition that
+
+   $$
+      L(Y_{01} \circ Y_{12}) = L(Y_{01}) \circ L(Y_{12})
+      \,.
+   $$
+
+
+## Related entries
+
+* [[Lagrangian correspondences and category-valued TFT]].
