@@ -9,3 +9,4 @@ __Hydrodynamics__ is the dynamics of liquids, i.e. of low compressible fluids. I
 * wikipedia: [fluid dynamics](http://en.wikipedia.org/wiki/Fluid_dynamics)
 
 [[!redirects fluid dynamics]]
+[[!redirects hydrodynamic]]
