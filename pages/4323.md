@@ -466,7 +466,7 @@ It turns out that a sufficient condition is that $X$ a closed [[smooth manifold]
 
 Using this one shows that the [[trace]] of the identity on $\Sigma^\infty_+ X$ in $Ho(Spec)$ -- the categorical [[dimension]] of $\Sigma^\infty_+ X$ -- is the [[Euler characteristic]] of $X$.
 
-For an brief exposition see ([PontoShulman, example 3.7](#PontoShulman)). For more see at _[[Spanier-Whitehead duality]]_.
+For a brief exposition see ([PontoShulman, example 3.7](#PontoShulman)). For more see at _[[Spanier-Whitehead duality]]_.
 
 ### As the universal spherical fibration, from the $J$-homomorphism
  {#AsTheUniversalSphericalFibration}
