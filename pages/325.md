@@ -29,7 +29,7 @@ Categories generalize (are a [[horizontal categorification]] of) [[monoids]], [[
 
 ### In category theory
 
-For $C$ a [[category]] $C$, the **opposite category** $C^{op}$ has the same [[objects]] as $C$, but a [[morphism]] $f : x \to y$ in $C^{op}$ is the same as a morphism $f : y \to x$ in $C$, and a composite of morphisms $g f$ in $C^{op}$ is defined to be the composite $f g$ in $C$.
+For a [[category]] $C$, the **opposite category** $C^{op}$ has the same [[objects]] as $C$, but a [[morphism]] $f : x \to y$ in $C^{op}$ is the same as a morphism $f : y \to x$ in $C$, and a composite of morphisms $g f$ in $C^{op}$ is defined to be the composite $f g$ in $C$.
 
 More precisely, $C_{\mathrm{obj}}$ and $C_{\mathrm{mor}}$ are, respectively, the collections of [[objects]] and of [[morphisms]] of $C$, and if the structure maps of $C$ are
 
