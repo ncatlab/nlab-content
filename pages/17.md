@@ -15,7 +15,7 @@ An easy introduction for elementary basics is
 
 * [[How to get started]].
 
-The following provides more details. See also the [[FAQ]].
+The following provides more details. For technical help with special features of Instiki (including peculiarities with itex), HTML and XML, and assorted specifics of the nLab, see also the [[FAQ]].
 
 # Contents
 
