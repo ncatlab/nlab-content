@@ -13,13 +13,18 @@ $\underoverset{a}{b}{\to}$
 {:toc}
 
 
-## You don't see the next symbols displayed properly: $\mathbf{B}G$ {#BecauseOfThisAnchor}
+## You don't see the next symbols displayed properly: $\mathbf{B}G$ ## {: #BecauseOfThisAnchor}
+
+## You don't see the next symbols displayed properly: $\mathbf{B}G$ ##
+
+## You don't see the next symbols displayed properly: $B G$ ## {: #BecauseOfThisAnchor}
+
 
 Right?
 
-## Is there lots of vertical whitespace here $\mathfrak{ggg}$ ???
+## Is there lots of vertical whitespace here $\mathfrak{ggg}$ ??? ##
 
-## Breakpoint
+## Breakpoint ##
 
 <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink" se:nonce="41046">
  <g>
