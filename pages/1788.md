@@ -4,44 +4,79 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-We give a summary of the central steps of motivic quantization of local prequantum field theory in general abstract terms of (or akin to) [[homotopy type theory]], hence in the [[internal language]] of [[(∞,1)-toposes]]. This is to bring out the sheer conceptual simplicity underlying the process.
+$$
+  \mu \colon \mathbb{g} \longrightarrow \mathbb{R}[n]
+$$
 
-1. Choose a [[homotopy type theory]] $\mathbf{H}$ with [[differential cohesion|differential]] [[cohesion]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
+be a [[super L-∞ algebra]] [[L-∞ cocycle]]. Let 
 
-   We say that $\mathbf{H}$ is a context for [[local prequantum field theory]].
+$$
+  \mathbf{c} \colon \mathbf{B}G \longrightarrow \mathbf{B}^{n+1}(\mathbb{R}/\Gamma)
+$$
 
-1. To choose a _[[phase and phase space in physics|group of phases]]_ is to choose an [[abelian ∞-group]] $\mathbb{G} \in Grp(\mathbf{H})$.
+be its [[Lie integration]] in [[smooth super ∞-groupoids]], according to ([Fiorenza-Schreiber-Stasheff 10](#FiorenzaSchreiberStasheff10)). 
 
-   By [[differential cohesion]] this choice induces a a [[type]]
-   $\mathbf{B}\mathbb{G}_{conn}$ of $\mathbb{G}$-[[principal ∞-connections]].
+Observe that the [[smooth ∞-group]] $G$ has, by [[cohesion]], a canonical higher [[Maurer-Cartan form]]
 
-   The [[context]] of such a choice, hence the the [[slice (∞,1)-topos|slice homotopy theory]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$, is the context of [[local action functional]] assigning [[phase and phase space in physics|phases]] in $\mathbb{G}$ within the ambient context of local prequantum field theory. 
+$$
+  \theta \;\colon \; G \longrightarrow \flat_{dR}\mathbf{B}G
+  \,. 
+$$
 
-   A [[type]] in this [[context]] is such a [[local action functional]] $\left[\array{\mathbf{Fields} \\ \downarrow^{\mathrlap{\exp(i S)}} \\ \mathbf{B}\mathbb{G}_{conn} }  \right]$, its [[dependent sum]] to the ambient context is the [[moduli ∞-stack]] of [[field (physics)|fields]].
+This is a [[cocycle]] in the nonabelian de Rham [[hypercohomology]] of $G$. We want an [[schreiber:∞-Wess-Zumino-Witten theory]] model with a _globally defined_ [[curvature]] $(n+1)$-form. Therefore consider the [[universal construction|universal]] solution $\tilde G$ of making $\theta$ globally well defined, hence the [[homotopy pullback]]
 
-   Moreover, the [[automorphism ∞-groups]] of [[types]] in $\mathbf{H}_{/\mathbf{B}\mathbb{G}}_{conn}$ are the [[quantomorphism ∞-groups]] containing the [[Heisenberg ∞-groups]], whose [[Lie differentiation]] are the [[Poisson L-∞ algebras]] and [[Heisenberg L-∞ algebras]] of the local prequantum field theory, respectively.
+$$
+  \array{
+    \tilde G &\stackrel{\theta_{global}}{\to}& \Omega_{flat}(-,\mathfrak{g})
+    \\
+    \downarrow && \downarrow
+    \\
+    G &\stackrel{\theta_G}{\to}& \flat_{dR} \mathbf{B}G
+  }
+  \,.
+$$
 
-1. To choose a _[[superposition principle]]_ is to choose an 
-   [[E-∞ ring|commutative ring]] type $E \in CRing_\infty(\mathbf{H})$ and a [[function]] $\rho \colon \mathbf{B}\mathbb{G}_{conn} \longrightarrow \mathbf{B}GL_1(E)$ to its [[∞-group of units]].
+Then one observes that by [[cohesion]] the [[pasting]] diagram on the right of the following exists, and hence defines a [[local action functional]] $\exp(i S_{WZW})$ by the universal factorization on the left. This is the [[schreiber:∞-Wess-Zumino-Witten theory]] induced by the [[L-∞ cocycle]] $\mu$:
 
-   Given a superposition principle, the [[dependent sum]] of a
-   [[local action functional]] $\exp(i S)$ along $\rho$ we call the
-   [[higher prequantum line bundle|higher prequantum E-line bundle]].
+$$
+  \array{
+    && \tilde G
+    \\
+    & \swarrow &\downarrow^{\exp(i S_{WZW})}& \searrow^{\mathrlap{\mu(\theta_{global})}}
+    \\
+    \ast &\leftarrow& \mathbf{B}^n U(1)_{conn} &\rightarrow& \Omega_{cl}^{n+1}
+    \\
+    & {}_{\mathllap{0}}\searrow && \swarrow
+    \\
+    && \flat \mathbf{B}^{n+1}U(1)
+  }
+  \;\;\coloneqq\;\;
+  \array{
+    && && \tilde G
+    \\
+    && & \swarrow && \searrow^{\mathrlap{\theta_{global}}}
+    \\
+    && G && && \Omega_{flat}(-,\mathfrak{g})
+    \\
+    & \swarrow && \searrow^{\mathrlap{\theta_G}} && \swarrow && \searrow^{\mathrlap{\mu}}
+    \\
+    \ast && && \flat_{dR}\mathbf{B}G && && \Omega^{n+1}_{cl}
+    \\
+    & \searrow && \swarrow && \searrow^{\mathrlap{\flat_{dR}\mathbf{c}}} && \swarrow
+    \\
+    && \flat \mathbf{B}G && &&\flat_{dR} \mathbf{B}^{n+1}U(1)
+    \\
+    && & {}_{\mathllap{\exp(i S_{CS}^{flat})}}\searrow^{\mathrlap{\flat \mathbf{c}}} && \swarrow
+    \\
+    && && \flat \mathbf{B}^{n+1}U(1)
+  }
+  \,.
+$$
 
-   A [[section]] of the [[higher prequantum line bundle]] is called a [[wavefunction]] and forming the [[space of sections]] is an  [[(∞,1)-functor]]  $E^{\bullet + (-)}(-) \colon \mathbf{H}_{/\mathbf{B}GL_1(E)} \longrightarrow E Mod$ to $E$-[[∞-modules]].
+One then shows ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)) that for $\mu$ the exceptional  cocycles on the [[super Poincare Lie algebra]] and their higher extensions such as notably the [[supergravity Lie 3-algebra]] and [[supergravity Lie 6-algebra]]
+that the [[schreiber:∞-Wess-Zumino-Witten theory]] models obtained this way reproduce the [[Green-Schwarz action functional]] "old [[brane scan]]" including for instance the [[heterotic string]] [[sigma-model]] and the [[M2-brane]] [[sigma-model]], and ols encodes the branes with tensor multiplet fields such as the [[D-branes]] and the single (abelian) [[M5-brane]].
 
-1. A [[relation]] in the local prequantum field theory context
-   $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$ we call a 
-   [[space]] of [[trajectories]]. Its [[dependent sum]]
-   along $\rho$ we call the corresponding [[integral kernel]].
-   The image of that under $\Gamma$ we call maybe by the same name.
-   A choice of self-[[dual object|duality]] on its correspondence $E$-module
-   we call a [[path integral]] [[measure]]. This induces
-   a [[linear function]] by passing to [[dual morphisms]] and this is the
-   [[quantum propagator]] given by [[quantization]] of the original
-   space of [[trajectories]]. 
-
-
+So now one just needs to put the pieces toghether with the nonabelian [[7d Chern-Simons theory]] correctio  and apply holographic boundary motivic quantization. This however is to be disucssed elsewhere. 
 
 
 ***
