@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Extra axioms on a [[monoidal model category]] $\mathbf{S}$ that guarantee a particularly good [[homotopy theory]] of $\mathbf{S}$-[[enriched categories]] are referred to as _excellent model category_ structure ([Lurie](#Lurie)).
+
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+Let $\mathbf{S}$ be a [[monoidal model category]]. It is called _excellent_ if
+
+* it is a [[combinatorial model category]];
+
+* every monomorphism if a cofibration 
+
+* the collection of cofibrations is closed under [[products]];
+
+* it satisfies the **invertibility hypothesis**: inverting a morphism in an $\mathbf{S}$-[[enriched category]] does not change the homotopy type if the morphism was already a [[homotopy equivalence]] (...).
+
+=--
+
+This is ([Lurie, def. A.3.2.16](#Lurie)).
+
+## References
+
+Section A.3 in 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
+
+[[!redirects excellent model categories]]
