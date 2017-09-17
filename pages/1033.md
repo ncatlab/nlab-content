@@ -20,28 +20,43 @@
 
 ## Idea
 
-In a [[category]] with [[zero object]], the **cokernel** of a [[morphism]] $f : X \to Y$ is the [[pushout]] $coker f$ in
+
++-- {: .num_defn}
+###### Definition
+
+In a [[category]] with [[zero object]], the **cokernel** of a [[morphism]] $f : A \to B$ is the [[pushout]] $coker(f)$ in
 
 $$
   \array{
-    X &\stackrel{f}{\to}& Y
+    A &\stackrel{f}{\to}& B
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{i}}
     \\
     0 &\to& coker(f)
   }
   \,.
 $$
 
-The concept cokernel is [[duality|dual]] to [[kernel]]. A **cokernel** in a [[category]] $C$ is a [[kernel]] in $C^{op}$.
+=--
+
++-- {: .num_remark}
+###### Remark
+
+More explicitly, this characterizes the object $coker(f)$ as [[generalized the|the]] object (unique up to unique [[isomorphism]]) that satisfies the following [[universal property]]:
+
+for every object $C$ and every morphism $h : B \to C$ such that $h \circ f = 0$ is the [[zero morphism]], there is a unique morphism $\phi : coker(f) \to C$ such that $h = \phi \circ i$.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The notion of cokernel is [[duality|dual]] to that of _[[kernel]]_. A **cokernel** in a [[category]] $\mathcal{C}$ is a [[kernel]] in the [[opposite category]] $\mathcal{C}^{op}$.
+
+=--
 
 ## Properties
-
-### Characterization by quotients
-
-* In the category [[Ab]] of [[abelian groups]] the cokernel of a morphism $f : X \to Y$ is the [[quotient]] of $Y$ by the [[image]] of $f$.
-
-* In the category [[Grp]] of general (not necessarily abelian) groups, the cokernel is instead the quotient by the [[normal closure]] of the image.
 
 ### Exactness properties
 
@@ -49,16 +64,48 @@ The concept cokernel is [[duality|dual]] to [[kernel]]. A **cokernel** in a [[ca
 
 ## Examples
 
-* In an [[abelian category]] the [[coimage]] of any morphism $f$ is the cokernel of its [[kernel]]
++-- {: .num_example}
+###### Example
 
-  $$
-    coim(f) = coker(ker(f))
-    \,.
-  $$
+In the category [[Ab]] of [[abelian groups]] the cokernel of a morphism $f : A \to B$ is the [[quotient]] of $B$ by the [[image]] (of the underlying morphism of [[sets]]) of $f$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+More generally, for $R$ any [[ring]], this is true in the category $R$[[Mod]] of [[modules]]: the cokernel of a morphism is the quotient by its set-theoretic image.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In the category [[Grp]] of general (not necessarily abelian) groups, the cokernel is instead the [[quotient group]] by the [[normal closure]] of the image.
+
+=--
+
+The following example is by the very definition of _[[abelian category]]_.
+
++-- {: .num_example}
+###### Example
+
+In an [[abelian category]] the [[coimage]] of any morphism $f$ is the cokernel of its [[kernel]]
+
+$$
+  coim(f) = coker(ker(f))
+  \,.
+$$
+
+=--
 
 ## Related concepts
 
+* [[kernel]]
+
 * [[cocone]]
+
+* [[homotopy cofiber]]
 
 [[!redirects cokernels]]
 
