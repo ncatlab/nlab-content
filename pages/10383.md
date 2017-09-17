@@ -61,6 +61,7 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
 
 * [[motives in physics]]
 
+* [[string theory FAQ]]
 
 ## References
 
