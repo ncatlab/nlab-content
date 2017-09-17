@@ -27,13 +27,41 @@ The correctness of this definition (in the sense of matching [[Bourbaki]]\'s def
 
 ### Abstract
 
-If $S$ is a [[set]], let $\beta{S}$ be the set of [[ultrafilters]] on $S$.  This operation $\beta$ extends to a [[functor]] on [[Set]] and even on [[Rel]] as follows:  Given a [[binary relation]] $R\colon X \to Y$ and ultrafilters $\mathcal{U}$ on $X$ and $\mathcal{V}$ on $Y$, we have $\mathcal{U}$ related to $\mathcal{V}$ via $\beta(R)$ iff ...
+If $S$ is a [[set]], let $\beta{S}$ be the set of [[ultrafilters]] on $S$. This set is canonically identified with the set of Boolean algebra homomorphisms 
 
-This functor $\beta$ becomes a [[monad]] on $Rel$ and even on $Set$ as follows:  ...
+$$P(S) \to \mathbf{2},$$ 
 
-Then a __relational $\beta$-module__ is a [[lax algebra]] (module) of $\beta$ on the [[2-poset]] $Rel$.
+from the power set of $S$ to $\mathbf{2}$, the unique Boolean algebra with two elements. The 2-element set carries a [[dualizing object]] structure that induces an evident [[adjoint pair]] 
 
-Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction; otherwise it is difficult to extract the notion of [[continuous function]] between topological spaces.  See [[generalized multicategory]].
+$$(Set \stackrel{P}{\to} Bool^{op}) \; \dashv \;  (Bool^{op} \stackrel{\hom(-, \mathbf{2})}{\to} Set)$$ 
+
+so that the composite [[functor]] $\beta = \hom(P-, \mathbf{2}): Set \to Set$ carries a [[monad]] structure. 
+
+The functor $\beta : Set \to Set$ extends to [[Rel]] as follows: given a [[binary relation]] $r\colon X \to Y$, written as a subobject in $Set$
+
+$$R \stackrel{\langle \pi_1, \pi_2 \rangle}{\to} X \times Y,$$ 
+
+we define $\beta(r): \beta(X) \to \beta(Y)$ to be the relation obtained by taking the image of $\langle \beta(\pi_1), \beta(\pi_2) \rangle: \beta(R) \to \beta(X) \times \beta(Y)$. It turns out, although it is by no means obvious, that $\beta$ is according to this definition a _strict_ functor on $Rel$. 
+
+The monad structure on $\beta: Set \to Set$, given by a unit $u: 1 \to \beta$ and multiplication $m: \beta \beta \to \beta$, extends not to a strict monad on $Rel$, but rather one where the transformations $u, m$ are op-lax in the sense of there being inequalities 
+
+$$\array{
+X & \stackrel{u_X}{\to} & \beta X & & & & & & \beta \beta X & \stackrel{m_X}{\to} & \beta X \\  
+\mathllap{r} \downarrow & \leq & \downarrow \mathrlap{\beta(r)} & & & & & & \mathllap{\beta \beta (r)} \downarrow & \leq & \downarrow \mathrlap{\beta(r)} \\
+Y & \underset{u_Y}{\to} & \beta Y & & & & & & \beta \beta Y & \underset{m_Y}{\to} & \beta Y
+}$$ 
+
+(while of course the monad associativity and unit conditions remain as equations: hold on the nose). 
+
+Then a __relational $\beta$-module__ is a [[lax algebra]] (module) of $\beta$ on the [[2-poset]] $Rel$. In other words, a set $S$ equipped with a relation $\xi: \beta S \to S$ such that the following inequalities hold: 
+
+$$\array{
+S & \stackrel{u_S}{\to} & \beta S & & & & & & \beta \beta S & \stackrel{m_S}{\to} & \beta S \\
+ & \mathllap{1_S} \searrow \; \leq & \downarrow \mathrlap{\xi} & & & & & & \mathllap{\beta(\xi)} \downarrow & \leq & \downarrow \mathrlap{\xi} \\ 
+ & & S & & & & & & \beta S & \underset{\xi}{\to} & S
+}$$ 
+
+Arguably, it is better to consider $Rel$ as a [[proarrow equipment]] in this construction, in order to accommodate [[continuous functions]] between topological spaces as the apropriate notion of morphism between relational $\beta$-modules.  See [[generalized multicategory]].
 
 
 ### Concrete
