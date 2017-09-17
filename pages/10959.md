@@ -1,0 +1,44 @@
+
+> This entry is about the concept in [[philosophy]]. For the concept of the same name in [[mathematics]] see at _[[category]]_.
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+According to [[Kant]] the four fundamental categroies are
+
+1. [[quantity]]
+
+1. [[quality]]
+
+1. [[relation]]
+
+1. [[modality]]
+
+## Related entries
+
+* [[category of being]]
+
+## References
+
+* German Wikipedia, _[Kategorie (Philosophie)](http://de.wikipedia.org/wiki/Kategorie_(Philosophie))_
+
+* Wikipedia, _[Categories (Aristotle)](http://en.wikipedia.org/wiki/Categories_(Aristotle))_
+
+* Wikipedia, _[Category (Kant)](http://en.wikipedia.org/wiki/Category_(Kant))_
