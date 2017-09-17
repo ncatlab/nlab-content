@@ -69,8 +69,44 @@ The above example without the DIV wrapper. Internal DIV 1:
 Internal TABLE 1:
 <table markdown='1'><tr><td>id</td><td>NEWNEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr></table>
 
+Internal TABLE 1 with an added row that has math.
+<table markdown='1'><tr><td>id</td><td>NEWNEW</td></tr><tr><td>type</td><td>Category</td></tr><tr><td>page</td><td>[[Rod McGuire]]</td></tr>
+<tr><td>math</td><td>$3=5$</td></tr>
+</table>
+
+
+A test of a table inside a table inside of a table
+
+<table markdown='1' id="tab0">
+<tr><td>$a=b$</td><td>[[true]]</td></tr>
+<tr><td>arrow</td>
+ <td><table markdown='1' id="tab0-1">
+      <tr><td>dir</td><td>$\to$</td></tr>
+      <tr><td>full</td><td>[[true]]</td></tr>
+      <tr><td>op</td><td><table markdown='1'>
+       <tr><td>dir</td><td>$\leftarrow$</td></tr>
+       </table></td></tr>
+ </table></td></tr>
+</table>
+
+Make sure table captions work:
+
+<table markdown='1'>
+ <caption>$Set_*$ a [[category]]</caption>
+ <tr><td>co product</td><td>a [[disjoint union]] where the argument's points are glued together</td></tr>
+ <tr><td>initial object</td><td>a pointed singleton set</td></tr>
+ <tr><td>has a zero</td><td>[[true]]</td></tr>
+</table>
+ 
+Test to make sure id attribute is retained. a DIV:
+
+<div markdown='1' id="myDiv1">this div should have $id = myDiv1$</div>
+
+
 A test to see if LaTex can appear in an internal link:
 
 Try[[Rod McGuire|$Set_*$]] here.
+
+Try using A tag with markdown=1: <a markdown='1' href="/nlab/show/Rod+McGuire">$Set_*$</a>. OK?
 
 category: people
