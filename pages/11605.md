@@ -20,11 +20,33 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The generalization of the concept of [[Jacobian variety]] to higher dimensional [[algebraic varieties]].
+Traditionally the $(k+1)$st _intermediate Jacobian variety_ $J^{k+1}(\Sigma)$ of a [[complex analytic space]] $\Sigma$ is the [[quotient]] of its [[ordinary cohomology]] in degree $2k+1$ with [[real number]] [[coefficients]] by that with [[integer]] coefficients
 
-In [[differential geometry]] these appear as [[moduli spaces]] of [[flat infinity-connection|flat]] [[circle n-bundles with connection]] that are equipped with [[symplectic structure]] and [[Kähler polarization]] induced from any choice of [[complex structure]] on the base space. 
+$$
+  J^{k+1}(\Sigma) \coloneqq H^{2k+1}(\Sigma, \mathbb{R}) / H^{2k+1}(\Sigma, \mathbb{Z})
+  \,.
+$$
 
+This space naturally carries the structure of a [[complex manifold]] (in fact two such structures, named after Griffiths and after Weil) and this complex analytic space, which is in fact a _[[complex torus]]_, is properly what is called the $(k+1)$st _intermediate Jacobian variety_ of $\Sigma$. This terminology derives from the term _[[Jacobian variety]]_ which is the (historically earlier) special case for $k = 0$ and $dim_{\mathbb{C}}(\Sigma) = 1$.
+
+Notice that conceptually we may
+
+* think of $H^{2k+1}(\Sigma,\mathbb{R})$ as the space of those [[circle n-bundle with connection|n-form connections]] on $\Sigma$ which are both [[flat infinity-connection|flat]] and have trivial underying [[line n-bundle]];
+
+* think of $H^{2k + 1}(\Sigma,\mathbb{Z})$ as the group of "large" (not connected to the identity) [[higher gauge field|higher]] [[gauge transformations]] acting on these gauge fields;
+
+* and hence understand $J^{k+1}(\Sigma)$ as the [[moduli space]] of flat $n$-form connections on trivial underlying line $n$-bundles.
+
+This turns out to be a natural and  useful perspective on intermediate Jacobians: _Deligne's theorem_ (discussed as theorem \ref{DeligneTheorem} below) characterizes the intermediate Jacobians as subgroups of the relevant [[Deligne cohomology]] group of $\Sigma$, where [[Deligne cohomology]] is a model for [[ordinary differential cohomology]] that classifies these [[circle n-bundle with connection|line n-bundles with connection]]. Moreover, as discussed in prop. \ref{ReformulationOfDeligneTheorem} below, Deligne's theorem in the formulation of ([Esnault-Viehweg 88](#EsnaultViehweg88)) may be rephrased such as to manifestly give a formal incarnation of the the statement that $J^{k+1}(\Sigma)$ is just that subgroup of the Deligne complex given by [[circle n-bundle with connection|line n-connections]] with trivial [[curvature]] and trivial underlying [[line n-bundle]].
+
+This formulation in turn has an evident generalization from [[ordinary differential cohomology]] to general (namely [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod type]]) [[differential cohomology]]. This we discuss further [below](#GeneralDescripion).
+
+This perspective on intermediate Jacobians from [[higher gauge theory]] also faithfully reflects their role in fundamental [[physics]] (in [[quantum field theory]] and [[string theory]]) ([Witten 96](#Witten96), [Hopkins-Singer 02]{#HopkinsSinger02}). Here [[higher dimensional Chern-Simons theory]] has as [[field (physics)|fields]] types of [[higher gauge field]] specified by some type of [[differential cohomology]], and the connected components of its [[phase space]] is precisely the corresponding intermediate Jacobian. Moreover the [[transgression]] of the higher Chern-Simons [[action functional]] produces a [[line bundle]] on the intermediate Jacobian, which is the [[prequantum line bundle]] of the theory. By [[geometric quantization]] one has to choose a [[Kähler polarization]] for this line bundle and the Weil complex structure on $J^{k+1}(\Sigma)$ is precisely that.
+In terms of [[complex geometry]] this state of affairs directly translates into the statement that the Weil intermediate Jacobians are [[polarized varieties]]. In fact they are [[principally polarized variety|principally polarized]], which on the physics side corresponds to the [[metaplectic correction]] of the [[Kähler polarization]] used for [[geometric quantization]]. The [[holomorphic section]] of the resulting [[Theta characteristic]] on the intermediate Jacobian is physically the [[partition function]] of [[self-dual higher gauge theory]] on $\Sigma$ (see there for more) which mathematically is the corresponding [[theta function]].
+
+By way of these deep relations intermediate Jacobians play an important role in ([[higher geometry|higher]]) [[geometry]].
 
 ## Definition
 
@@ -247,7 +269,7 @@ where now in the top right we have the [[abelian sheaf cohomology|abelian sheaf]
 
 ([Esnault-Viehweg 88, section 7.8](#EsnaultViehweg88))
 
-+-- {: .num_theorem}
++-- {: .num_theorem #DeligneTheorem}
 ###### Theorem
 **(Deligne)**
 
@@ -270,6 +292,13 @@ Use prop. \ref{ReplacingHodgeFiltrationQuotientByHolomorphicConnections} and the
 
 =--
 
++-- {: .num_prop #ReformulationOfDeligneTheorem}
+###### Proposition
+
+
+(...)
+
+=--
 
 
 #### The Griffith complex structure
@@ -343,9 +372,125 @@ may be thought of as the mid-degree [[self-dual higher gauge fields]] on $\Sigma
 
 
 
-### Algebraically
+### General
+ {#GeneralDescripion}
 
-At least for the plain [[Jacobian]] of a [[curve]] $\Sigma$ (hence $dim_{\mathbb{C}}(\Sigma) = 1$) one may reformulate as follows (e.g. [Polishchuk 03, section 16.4](#Polishchuk03)):
+(...)
+
+With notation from _[[differential cohomology hexagon]]_.
+
+Given any [[differential cohomology]] [[spectrum]] $\hat E$ (hence a [[spectrum object]]) in a [[cohesive (∞,1)-topos]] $\mathbf{H}$, it sits in its [[differential cohomology hexagon]] part of which is the [[homotopy pullback]]
+
+$$
+  \array{
+    && \flat_{dR} \hat E
+    \\
+    & {}^{\mathllap{\theta_{\hat E}}}\nearrow && \searrow
+    \\
+    \hat E && && \Pi \flat_{dR} \hat E
+    \\
+    & \searrow && \nearrow_{\mathrlap{ch_{\hat E}}}
+    \\
+    && \Pi \hat E
+  }
+  \,.
+$$
+
+Hence for any $\Sigma$ also the [[mapping spectra]]
+
+$$
+  \array{
+    && [\Sigma, \flat_{dR} \hat E]
+    \\
+    & {}^{\mathllap{\theta_{\hat E}}}\nearrow && \searrow
+    \\
+    [\Sigma, \hat E] && && [\Sigma, \Pi \flat_{dR} \hat E]
+    \\
+    & \searrow && \nearrow_{\mathrlap{ch_{\hat E}}}
+    \\
+    && [\Sigma, \Pi \hat E]
+  }
+  \,.
+$$
+
+
+Write $\tau_0 \colon \mathbf{H}\to \mathbf{H}$ for the [[n-truncated object in an (infinity,1)-category|0-truncation]] map and consider the [[fiber product]] $Hdg(\Sigma,E)$ in
+
+$$
+  \array{
+    && \tau_0 [\Sigma, \flat_{dR} \hat E]
+    \\
+    & {}^{\mathllap{\theta_{\hat E}}}\nearrow && \searrow
+    \\
+    Hdg(\Sigma,\hat E) && && \tau_0 [\Sigma, \Pi \flat_{dR} \hat E]
+    \\
+    & \searrow && \nearrow_{\mathrlap{ch_{\hat E}}}
+    \\
+    && \tau_0[\Sigma, \Pi \hat E]
+  }
+  \,.
+$$
+
+We may call this the _Hodge cohomology_ of $\Sigma$ with coefficients in $\hat E$.
+The evident morphism of diagrams induces a morphism
+
+$$
+  [\Sigma, \hat E]\longrightarrow Hdg(\Sigma, \hat E)
+$$
+
+and the [[homotopy fiber]] of that 
+
+$$
+  \mathbf{J}(\Sigma,\hat E)
+    \longrightarrow  
+   [\Sigma, \hat E]\longrightarrow Hdg(\Sigma, \hat E)
+$$
+
+we may call the _intermediate Jacobian $\infty$-stack_ of $\Sigma$ with coefficients in $\hat E$.
+
+Notice that by commutativity of [[homotopy pullbacks]] with [[homotopy fibers]], this is equivalently the homotopy pullback in
+
+$$
+  \array{
+    && ker([\Sigma,\flat_{dR}\hat E] \to \tau_0[\Sigma,\flat_{dR}\hat E] )
+    \\
+    & \nearrow && \searrow
+    \\
+    \mathbf{J}(\Sigma,\hat E) && && ker([\Sigma,\Pi \flat_{dR}\hat E] \to \tau_0[\Sigma,\Pi \flat_{dR}\hat E] )
+
+    \\
+    & \searrow && \nearrow
+    \\
+    && ker([\Sigma,\Pi\hat E] \to \tau_0[\Sigma,\Pi\hat E] )
+  }
+  \,.
+$$
+
+In this form this manifestly says that $\mathbf{J}(\Sigma,\hat E)$ is precisely the differential cohomology theory of $\Sigma$ obtained from $\hat E$ by restricting to trivial curvature and trivial underlying $\Pi(E)$-cohomology.
+
+
+## Properties
+
+### Cycle map / Abel-Jacobi map
+
+The intermediate Jacobians receive canonical maps from cycles (...)
+See at _[[Abel-Jacobi map]]_.
+
+### Polarization
+
+For a [[Hodge manifold]] the intermediate Jacobian canonically inherits the structure of a [[polarized variety]]. (...)
+
+
+### Theta-characteristics
+
+A certain [[square root]] of the [[canonical bundle]] on intermediate Jacobians -- hence a [[Theta characteristic]] -- in dimension $2k+1$ thought of as [[moduli spaces]] of (flat) [[circle n-bundles with connection|circle (2k+1)-bundles with connection]] yields the [[partition function]] of [[self-dual higher gauge theory]].  ([Witten 96](#Witten96), [Hopkins-Singer 02](#HopkinsSinger02)).
+
+
+## Examples
+
+### $J^1(\Sigma)$: the Picard varitey
+
+For the plain [[Jacobian]] of a [[curve]] $\Sigma$ (hence $dim_{\mathbb{C}}(\Sigma) = 1$) one may reformulate as follows (e.g. [Polishchuk 03, section 16.4](#Polishchuk03)):
 
 Notice that the canonical map 
 
@@ -381,36 +526,6 @@ $$
 $$
 
 is the connected component of the [[Picard variety]] of $\Sigma$.
-
-
-
-## Properties
-
-### Cycle map / Abel-Jacobi map
-
-The intermediate Jacobians receive canonical maps from cycles (...)
-See at _[[Abel-Jacobi map]]_.
-
-### Polarization
-
-For a [[Hodge manifold]] the intermediate Jacobian canonically inherits the structure of a [[polarized variety]]. (...)
-
-
-### Theta-characteristics
-
-A certain [[square root]] of the [[canonical bundle]] on intermediate Jacobians -- hence a [[Theta characteristic]] -- in dimension $2k+1$ thought of as [[moduli spaces]] of (flat) [[circle n-bundles with connection|circle (2k+1)-bundles with connection]] yields the [[partition function]] of [[self-dual higher gauge theory]].  ([Witten 96](#Witten96), [Hopkins-Singer 02](#HopkinsSinger02)).
-
-
-## Examples
-
-### $n = 1$: Picard varitey
-
-For $n =1$ the inermediate Jacobian  is the [[Jacobian variety]], the connected component of the [[Picard scheme]]:
-
-$$
-  J^1(X) = Pic^0_X
-  \,.
-$$ 
 
 ### $n = 2 dim(X)-1$: Albanese variety
 
