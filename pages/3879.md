@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -57,7 +57,13 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 ## References and links
 
-A historically inclined article on [mathematical physics](http://en.wikipedia.org/wiki/Mathematical_physics) is featured on wikipedia.
+A historically inclined article is in 
+
+* Wikipedia,  _[Mathematical physics](http://en.wikipedia.org/wiki/Mathematical_physics)_ 
+
+An exposition from the point of view of modern [[gauge theory]] is in 
+
+* {#Freedman93} [[Daniel Freedman]], _Some beautiful equations of mathematical physics_, Dirac Prize lecture, November 1993 ([arXiv:hep-th/9408175](http://arxiv.org/abs/hep-th/9408175))
 
 For an extensive list of literature see
 
