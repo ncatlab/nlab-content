@@ -45,6 +45,8 @@ So far, we do not assume anything about $C$ as a category.  Usually, one at leas
 
 Sometimes, we want to consider $C$ as a [[strict category]], that is, we consider its objects up to equality rather than isomorphism.  However, for most of the definitions below (until we get to contextual categories), it is still sensible to treat $C$ in an ordinary category-theoretic way, with the strictness living in the additional structure.
 
+All of this could be made more precise by assembling the structures considered below [[categories]], [[2-categories]], and/or [[strict 2-categories]].
+
 
 ### Comprehension categories
 
@@ -134,8 +136,15 @@ A **category with families** is a category $C$ together with
   $$
 =--
 
-+-- {: .query}
-It seems to me that categories with families are actually equivalent to categories with attributes.  But I haven't seen this stated anywhere in the literature, so I feel like there must be some subtlety I'm not getting.
+We can then prove:
+
++-- {: .num_lemma #CwAareCwF}
+###### Lemma
+Categories with attributes are equivalent to categories with families.
+=--
++-- {: .proof}
+###### Proof
+If we forget the terms in a category with families and let $E\to C$ be the [[Grothendieck construction]] of the functor $Ty:C^{op}\to Set$, it is easy to show that we obtain a category with attributes.  Conversely, given a category with attributes, let $Ty:C^{op}\to Set$ be the functor corresponding to the discrete fibration $E\to C$, and for $A\in Ty(\Gamma)$ let $Tm(A)$ be the set of [[sections]] of the morphism in $C$ that is the image of $A$ in $C^I$.  These constructions are inverses up to isomorphism.
 =--
 
 
@@ -244,6 +253,10 @@ Categories with attributes are discussed in
 Categories with families are defined in
 
 * Peter Dybjer, *Internal type theory*, Types for proofs and programs (Torino, 1995), Lecture Notes in Comput. Sci., vol. 1158, Springer, Berlin, 1996, pp. 120--134
+
+and shown to be equivalent to categories with attributes in
+
+* Martin Hofmann, *Syntax and semantics of dependent types*, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985).
 
 Contextual categories are defined in
 
