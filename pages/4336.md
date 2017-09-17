@@ -1,11 +1,21 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 A __matrix__ is a [[list]] of lists.
 
 Often one uses the term in a context where one can add and multiply matrices using [[matrix calculus]].
 
 ## Related concepts
 
-* [[linear algebra]], [[general linear group]], [[special linear group]], [[matrix mechanics]], [[matrix theory]], [[matrix Hopf algebra]], [[matrix Lie algebra]], [[matrix Lie group]], [[classical Lie group]], [[matrix calculus]], [[universal localization]], [[tensor calculus]], [[moment of inertia]], [[eigenvalue]], [[characteristic polynomial]] (Cayley-Hamilton theorem), [[spectral curve]]
+* [[matrix multiplication]], [[matrix calculus]]
+
+* [[unitary matrix]]. [[unitary group]]
+
+* [[linear algebra]], [[general linear group]], [[special linear group]], [[matrix mechanics]], [[matrix theory]], [[matrix Hopf algebra]], [[matrix Lie algebra]], [[matrix Lie group]], [[classical Lie group]], [[universal localization]], [[tensor calculus]], [[moment of inertia]], [[eigenvalue]], [[characteristic polynomial]] (Cayley-Hamilton theorem), [[spectral curve]]
 
 Special cases: [[S-matrix]], [[classical r-matrix]], [[density matrix]], [[hermitian matrix]], [[skew-symmetric matrix]], [[quantum Yang-Baxter matrix]], [[random matrix]], [[skew-symmetric matrix]]
 
