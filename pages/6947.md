@@ -60,7 +60,7 @@ In terms of the [[internal logic]] in some ambient [[topos]] $\mathcal{E}$,
 Existential quantification is essentially the restriction of the extra [[left adjoint]] of a canonical [[étale geometric morphism]] $X_\ast$, 
 
 $$
-    \mathcal{E}/X
+    (X_!\dashv X^*\dashv X_*):\mathcal{E}/X
     \stackrel{\overset{X_!}{\to}}{\stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}}
     \mathcal{E} 
   \,,
