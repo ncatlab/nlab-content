@@ -1,4 +1,2 @@
 
-* [webpage](http://web.physics.ucsb.edu/~marolf/)
-
-category: people
+see _[[Donald Marolf]]_
