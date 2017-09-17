@@ -31,3 +31,6 @@ A similar construction for PL manifolds is in
 
 [[!redirects bivariant homology theory]]
 [[!redirects bivariant homology theories]]
+
+[[!redirects bivariant cohomology]]
+
