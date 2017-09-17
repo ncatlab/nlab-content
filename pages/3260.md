@@ -23,8 +23,9 @@ Equivariant homotopy theory is [[homotopy theory]] for the case that a [[group]]
 
 The union of $G$-equivariant homotopy theories as $G$ is allowed to vary is _[[global equivariant homotopy theory]]_.
 
-
 The direct [[stabilization]] of equivariant homotopy theory is the theory of [[spectra with G-action]]. More generally there is a concept of [[G-spectra]] and they are the subject of [[equivariant stable homotopy theory]].
+
+The concept of [[cohomology]] of equivariant homotopy theory is _[[equivariant cohomology]]_.
 
 
 ## In topological spaces
