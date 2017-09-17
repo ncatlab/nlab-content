@@ -15,10 +15,34 @@
 
 ## Definition
 
-Given a [[topological space]] $X$ in the sense of [[Bourbaki]] (that is, a set $X$ and a topology $\tau_X$) and a [[subset]] $Y$ of $X$, a topology $\tau_Y$ on $Y$ is said to be the topology **induced** from $\tau_X$ by the [[inclusion function|set inclusion]] $Y \hookrightarrow X$ if $\tau_Y = \tau_X \cap_{pw} \{Y\} \coloneqq \{ U \cap Y | U\in\tau_X\}$. The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
+Given a [[topological space]] $X$ in the sense of [[Bourbaki]] (that is, a set $X$ and a topology $\tau_X$) and a [[subset]] $Y$ of $X$, a topology $\tau_Y$ on $Y$ is said to be the topology **induced** from $\tau_X$ by the [[inclusion function|set inclusion]] $Y \hookrightarrow X$ if $\tau_Y = \tau_X \cap_{pw} \{Y\} \coloneqq \{ U \cap Y | U\in\tau_X\}$. In other words, $\tau_Y$ is the smallest topology on $Y$ such that the inclusion $Y \hookrightarrow X$ is [[continuous map|continuous]]. The pair $(Y,\tau_Y)$ is then said to be a *topological [[subspace]]* of $(X,\tau_X)$. The induced topology is for that reason sometimes called the **subspace topology** on $Y$. 
+
+A subspace $i: Y \hookrightarrow X$ is **closed** if $Y$ is closed as a subset of $X$ (or if $i$ is a [[closed map]]), and is **open** if $Y$ is open as a subset of $X$ (or if $i$ is an [[open map]]). 
 
 A property of topological spaces is said to be **hereditary** if its satisfaction for a topological space $X$ implies its satisfaction for all topological subspaces of $X$. 
 
+## Properties 
+
++-- {: .num_lemma #pushout} 
+###### Lemma 
+The pushout in $Top$ of any (closed/open) subspace $i: A \hookrightarrow B$ along any continuous map $f: A \to C$ is a (closed/open) subspace $j: C \hookrightarrow D$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Since $U = \hom(1, -): Top \to Set$ is [[faithful functor|faithful]], we have that monos are reflected and preserved by $U$; also pushouts are preserved by $U$ since $U$ has a [[right adjoint]]. In $Set$, the pushout of a mono along any map is a mono, so we conclude $j$ is monic in $Top$. Furthermore, such a pushout diagram in $Set$ is also a pullback, so that we have the [[Beck-Chevalley condition|Beck-Chevalley equality]] $\exists_i \circ f^\ast = g^\ast \exists_j \colon P(C) \to P(B)$ (where $\exists_i \colon P(A) \to P(B)$ is the [[direct image]] map between [[power sets]], and $f^\ast: P(C) \to P(A)$ is the [[inverse image]] map). 
+
+The topology on the pushout $D$ is the largest such that the maps $j: C \to D$, $g: B \to D$ are continuous. If $U \subseteq C$ is open, then there exists open $V \subseteq B$ such that $i^\ast(V) = f^\ast(U)$ because $i$ is a subspace inclusion. Then $W = \exists_g(V) \cup j(U)$ is open in $D$ because $g^\ast(\exists_g(V) \cup \exists_j(U)) = V$ and $j^\ast(\exists_g(V) \cup \exists_j(U)) = U$. In particular, $U$ is of the form $j^\ast(W)$ for open $W$, so that $j$ is a subspace inclusion. 
+
+If moreover $i$ is an open inclusion, then for any open $U \subseteq C$ we have that $j^\ast(\exists_j(U)) = U$ (since $j$ is monic) and (by Beck-Chevalley) $g^\ast(\exists_j(U)) = \exists_i(f^\ast(U))$ is open in $B$. By the definition of the topology on $D$, it follows that $\exists_j(U)$ is open, so that $\exists_j$ is an open inclusion. The same proof, replacing the word "open" with the word "closed" throughout, shows that the pushout of a closed inclusion $i$ is a closed inclusion $j$. 
+=-- 
+ 
+A similar (but even simpler) line of argument establishes the following result. 
+
++-- {: .num_lemma #transfinite} 
+###### Lemma 
+Let $\kappa$ be an [[ordinal]], viewed as a [[preorder]] category, and let $F: \kappa \to Top$ be a functor that preserves [[directed colimits]]. Then if $F(i \leq j)$ is a (closed/open) subspace inclusion for each morphism $i \leq j$ of $\kappa$, then the canonical map $F(0) \to colim_{i \in \kappa} F(i)$ is also a (closed/open) inclusion. 
+=-- 
 
 ## Variations
 
