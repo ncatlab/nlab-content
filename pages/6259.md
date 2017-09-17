@@ -85,5 +85,9 @@ The application of this to the description of
 
 * Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
 
+Discussion of the [[quantum anomaly]] of self-dual theories is in
+
+* Samuel Monnier, _The anomaly line bundle of the self-dual field theory_ ([arXiv:1109.2904](http://arxiv.org/abs/1109.2904))
+
 [[!redirects self-diual higher gauge field]]
 [[!redirects self-diual higher gauge fields]]
