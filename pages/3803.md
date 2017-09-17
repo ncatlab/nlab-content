@@ -194,7 +194,7 @@ Another generalization, for singular spaces, is with help of stratifications and
 
 * in [[noncommutative topology]]: [[Poincaré duality algebra]]
 
-* in [[derived category|derived]] [[abelian sheaf|abelian]] [[sheaf and topos theory]]: [[Verdier duality]]
+* in [[derived category|derived]] [[abelian sheaf|abelian]] [[sheaf and topos theory]] (for [[abelian sheaf cohomology]]): [[Verdier duality]]
 
 * in [[nonabelian cohomology]]: [[nonabelian Poincaré duality]]
 
