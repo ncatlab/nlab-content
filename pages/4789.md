@@ -977,7 +977,7 @@ is the familiar term for the action functional of the particle (missing the kine
 
 Let $\mathfrak{a} = \mathfrak{P}(X,\pi)$ by a [[Poisson Lie algebroid]]. This comes with the canonical [[invariant polynomial]] $\omega = \mathbf{d} \partial_i \wedge \mathbf{d} x^i$.
 
-The correspinding [[∞-Lie algebroid cocycle]] is 
+The corresponding [[∞-Lie algebroid cocycle]] is 
 
 $$
   \mu_{\omega} = \pi
@@ -991,7 +991,7 @@ $$
   \,.
 $$
 
-For $Sigma$ a 2-[[dimensional]] [[smooth manifold]] the corresponding [[action functional]] on [[∞-Lie algebroid-valued forms]] $S : \Omega^\bullet(X, \mathfrak{P}(X,\pi)) \to \mathbb{R}$ is the actional functional of the [[Poisson sigma-model]]
+For $\Sigma$ a 2-[[dimensional]] [[smooth manifold]] the corresponding [[action functional]] on [[∞-Lie algebroid-valued forms]] $S : \Omega^\bullet(X, \mathfrak{P}(X,\pi)) \to \mathbb{R}$ is the actional functional of the [[Poisson sigma-model]]
 
 $$
   S : (X, \eta) \mapsto \int_\Sigma (\eta \wedge d X + \pi(\eta \wedge \eta)
