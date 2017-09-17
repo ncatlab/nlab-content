@@ -1,17 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
-{:toc}
+{: toc}
 
 ## Definitions
 
@@ -65,5 +65,4 @@ We list examples for bases of topological spaces. For examples of bases of Groth
 [[!redirects bases for the topology]]
 
 [[!redirects topological base]]
-[[!redirects topological basis]]
 [[!redirects topological bases]]
