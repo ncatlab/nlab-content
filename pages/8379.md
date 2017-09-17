@@ -1,8 +1,4 @@
 
 
-## Related entries
-
-* [[program]]
-
-* [[computational trinitarianism]]
+Maybe "programming theory" would have been a good term for _[[computer science]]_ (to match with it siblings [[type theory]] and [[category theory]] in the [[computational trinitarianism]]). But as it's not used this way, see at _[[computer science]]_ instead.
 
