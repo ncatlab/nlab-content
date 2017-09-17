@@ -29,6 +29,8 @@ If $A$ is an [[abelian category]] then the category of $A$-presheaves on $\Lambd
 
 ## Properties
 
+### General
+
 +-- {: .un_theorem}
 ###### Theorem
 
@@ -43,6 +45,9 @@ The generalizations of this theorem are the starting point of the theory of [[sk
 
 The cyclic category is a [[generalized Reedy category]], as explained [here](http://arxiv.org/abs/0809.3341).
 
+### Generalized Reedy model structure
+
+The cycle category is a [[generalized Reedy category]]. Hence "cyclic spaces" carry a [[generalized Reedy model structure]].
 
 ## References
 
