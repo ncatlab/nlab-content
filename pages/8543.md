@@ -15,6 +15,9 @@
 
 > This article is under construction.
 
+## Idea
+
+If $(\Omega,\mathfrak{A},P)$ is a [[probability space]], the *conditional expectation* $E[X|\Sigma]$ of a (measurable) random variable $X$ with respect to some sub-$\sigma$-algebra $\Sigma\subseteq \mathfrak{A}$ is some measurable random variable which is a ''coarsened'' version of $X$. We can think of $E[X|\Sigma]$ as a random variable with the same [[domain]] but which is measured with a sigma algebra containing only restricted information on the original event since to some events in $\mathfrak{A}$ has been assigned probability $1$ or $0$ in a consistent way.
 
 ## Conditional expectation relative to a random variable
 
