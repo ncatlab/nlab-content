@@ -19,7 +19,10 @@
 
 ## Idea
 
-Being *dualizable* is often thought of as a [[category theory|category-theoretic]] notion of *finiteness* for objects in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its [[tensor product]] just when it is finite-dimensional, and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] just when it is a finite [[cell complex|cell]] spectrum.
+A (left/right) _dual_ to an [[object]] in a [[monoidal category]] $\mathcal{C}$ is a [[left adjoint|left]]/[[right adjoint|right]] [[adjoint]] to the object regarded as a [[morphism]] in the [[delooping]] [[2-category]] $\mathbf{B}\mathcal{C}$. If a dual exists, the object is called _dualizable_.
+
+
+Being *dualizable* may often be thought of as a [[category theory|category-theoretic]] notion of *finiteness* for [[objects]] in a [[monoidal category]].  For instance, a [[vector space]] is dualizable in [[Vect]] with its standard [[tensor product]] just when it has [[finite number|finite]] [[dimension]]; and a [[spectrum]] is dualizable in the [[stable homotopy category]] with its [[smash product]] just when it is a [[finite spectrum]].
 
 A more precise intuition is that an object is dualizable if its "size" is no larger than the "additivity" of the monoidal category.  Since [[Vect]] and the stable homotopy category are finitely [[additive category|additive]], but not infinitely so, dualizability there is a notion of finiteness.  This is the case for many monoidal categories in which one considers dualizability.  However, in a monoidal category which is not additive at all, such as [[Set]] (or any cartesian monoidal category), only the terminal object is dualizable---whereas in an "infinitely additive" monoidal category such as [[Rel]] or [[SupLat]], many "infinite" objects are dualizable.  (In $Rel$, *all* objects are dualizable.) 
 
@@ -55,10 +58,10 @@ Of course, in a [[symmetric monoidal category]], there is no difference between 
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #RigidAndCompactClosed}
 ###### Definition
 
-If every object of $C$ has a left and right dual, then $C$ is called a [[rigid monoidal category]] or an [[autonomous monoidal category]].  If it is additionally symmetric, it is called a [[compact closed category]].  
+If every object of $C$ has a left and right dual, then $C$ is called a [[rigid monoidal category]] or an [[autonomous monoidal category]].  If it is additionally [[symmetric monoidal category|symmetric]], it is called a [[compact closed category]].  
 
 =--
 
@@ -122,9 +125,11 @@ $$
   \,.
 $$
 
-In a [[closed monoidal category]] $\mathbb{D}X$ is also called the _weak dual_ of $X$ (e.g. [Becker-Gottlieb, p. 5](#BeckerGottlieb)). If the induced morphism $X \to \mathbb{D}\mathbb{D}X$ is an [[equivalence]] this weak dual is called a _reflexive weak dual_.
+## In a closed monoidal category
 
-If $\mathcal{C}$ is a [[compact closed category]] then the weak dual $\mathbb{D}X$ is also [[generalized the|the]] dual object to $X$ in the above monoidal sense.
+In a [[closed monoidal category]] $\mathbb{D}X$ is also called the _weak dual_ of $X$ (e.g. [Becker-Gottlieb, p. 5](#BeckerGottlieb)), to contrast with the monoidal dual as above, which would then be called the _strong dual_ . If the induced morphism $X \to \mathbb{D}\mathbb{D}X$ is an [[equivalence]] this weak dual is called a _reflexive weak dual_.
+
+If $\mathcal{C}$ is a [[compact closed category]], def. \ref{RigidAndCompactClosed}, then the weak dual $\mathbb{D}X$ is also [[generalized the|the]] strong dual object $X^\ast$ to $X$ in the above monoidal sense.
 
 
 ## In a symmetric monoidal $(\infty,n)$-category
@@ -158,13 +163,12 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 
 ## References
 
-Duals in a closed/monoidal category are a very classical notion. See, for instance,
+Duals in a closed/monoidal category are a very classical notion. A history of the basic definitions and applications in [[stable homotopy theory]]/[[higher algebra]] is in
  
 * [[James Becker]], [[Daniel Gottlieb]], from p. 5. in _A History of Duality in Algebraic Topology_, ([pdf](http://www.math.purdue.edu/~gottlieb/Bibliography/53.pdf)), 
  {#BeckerGottlieb}
 
-
-A large number of examples can be found in
+A large number of further examples can be found in
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
 
@@ -189,3 +193,22 @@ The notion of duals in a symmetric monoidal $(\infty,n)$-category is due to sect
 [[!redirects dualizable objects]]
 [[!redirects dualisable object]]
 [[!redirects dualisable objects]]
+
+[[!redirects weak dual]]
+[[!redirects weak duals]]
+
+[[!redirects strong dual]]
+[[!redirects strong duals]]
+
+[[!redirects weak dual object]]
+[[!redirects weak dual objects]]
+
+[[!redirects strong dual object]]
+[[!redirects strong dual object]]
+
+[[!redirects weakly dual object]]
+[[!redirects weakly dual objects]]
+
+[[!redirects strongly dual object]]
+[[!redirects strongly dual object]]
+
