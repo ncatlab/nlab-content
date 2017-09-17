@@ -323,7 +323,7 @@ This is $\partial \Delta[n]$. The inclusion $\partial \Delta[n] \to \Delta[n]$ i
 +-- {: .un_prop}
 ###### Corollary
 
-Every [[simplicial set]] is the [[homotopy colimit]] over its diagram of simplices (with values in the constant simplicial sets on the sets of simplicies $X_n$):
+Every [[simplicial set]] is the [[homotopy colimit]] over its diagram of simplices (with values in the constant simplicial set on the sets of simplicies $X_n$):
 
 $$
   X \simeq hocolim ( [n] \mapsto const X_n)
