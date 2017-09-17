@@ -97,6 +97,8 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
   * [[integral Morava K-theory]]
 
+  * [[K(n)-local stable homotopy theory]]
+
 * [[Morava E-theory]]
 
   * [[Lubin-Tate theory]]
