@@ -19,8 +19,6 @@ Recall that in the unenriched case (i.e. $C=Set$) a [[simplicial set]] $X$ is a 
 
 1. $hom_\sSet(\Delta[n],X)\to \hom_\sSet(\Lambda^k[n],X)$ is an epimorphism in $\Set$ for all $n$ and all $0\le k\le n$ where $\sSet$ is regarded as a $\Set$-[[enriched category]].
 
-1. $[\Delta^k[n],X]\xrightarrow{d} K_n\coloneqq\{(x_0,...,x_{k-1},x_{k+1},...,x_n|d_i x_j =d_{j-1} x_i, i\neq k, j\neq k, i\lt j\}$ is a bijection where $d_i$ denotes the i-th face map and $d\coloneqq d_0\times...\times d_{k_1}\times d_{k+1}\times...\times d_n$.
-
 
 ## Definition
 
