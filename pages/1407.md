@@ -14,9 +14,13 @@
 +--{: .hide}
 [[!include gravity contents]]
 =--
-#### Functorial quantum field theory
+#### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
+=--
+#### Higher spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
 =--
 =--
 =--
