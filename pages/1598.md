@@ -154,6 +154,8 @@ Accordingly, so does the notion of Lie group generalize to [[Lie 2-group]], ... 
 
 * [[Hamiltonian dynamics on Lie groups]]
 
+* [[Poisson Lie group]]
+
 ## References
 
 
