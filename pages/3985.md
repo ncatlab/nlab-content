@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-If $L$ moreover is a left [[exact functor]] in that it preserves [[finite limit|finite]] [[limit in a quasi-category|limits]], then the embedding is called **exact**.
+If $L$ moreover is a left [[exact functor]] in that it preserves [[finite limit|finite]] [[(∞,1)-limits]], then the embedding is called **exact**.
 
 =--
 
@@ -53,7 +53,7 @@ $$
   Loc := R \circ L : C \to C
 $$ 
 
-may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to [[equivalence in a quasi-category|equivalence]]s in $D$. If $L$ preserves [[finite limit]]s (is a left [[exact functor]]), then this is an **exact localization**
+may be understood as exhibiting a [[localization of an (∞,1)-category|localization]] of $C$ at those morphisms that $L$ sends to [[equivalence in an (∞,1)-category|equivalence]]s in $D$. If $L$ preserves [[finite limit]]s (is a left [[exact functor]]), then this is an **exact localization**
 
 
 ### Local objects and local morphisms {#LocalObjects}
@@ -93,21 +93,22 @@ Notice that the class of $S$-equivalences always contains $S$ itself. Hence pass
 **(strongly saturated class of morphisms)**
 
 
-For $C$ an [[(∞,1)-category]] with small [[limit in a quasi-category|colimits]], a class $S \subset C_1$ of morphisms in $C$ is said to be **strongly saturated** if its satisfies the following three conditions
+For $C$ an [[(∞,1)-category]] with small [[(∞,1)-colimits]], a class $S \subset C_1$ of morphisms in $C$ is said to be **strongly saturated** if its satisfies the following three conditions
 
 1. It is stable under [[pushout]]s;
 
-1. The full [[sub-quasi-category|subcategory]] of the [[(∞,1)-category of (∞,1)-functors]] $Func(\Delta[1], C)$ on $S$ has all colimits;
+1. The full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]] $Func(\Delta[1], C)$ on $S$ has all [[(∞,1)-colimit]]s;
 
-1. it satisfies the [[category with weak equivalences|2-out-of-3 property]].
+1. it satisfies the 
+   [[category with weak equivalences|2-out-of-3 property]].
 
 =--
 
 Notice that this definition has some immediate consequences:
 
-The identity $Id_\emptyset$ on the [[initial object]] of $C$, which is the initial object in $Func(\Delta[1],C)$ is in $S$, since it is the colimit of the empty diagram. Moreover, every [[equivalence in a quasi-category|equivalence]] is a [[pushout]] of $Id_{\emptyset}$ so
+The identity $Id_\emptyset$ on the [[initial object]] of $C$, which is the initial object in $Func(\Delta[1],C)$ is in $S$, since it is the colimit of the empty diagram. Moreover, every [[equivalence in an (∞,1)-category|equivalence]] is a [[pushout]] of $Id_{\emptyset}$ so
 
-* A strongly saturated class contains every [[equivalence in a quasi-category|equivalence]].
+* A strongly saturated class contains every [[equivalence in an (∞,1)-category|equivalence]].
 
 Given any collection $\{S_i\}_i$ of strongly saturated classes of morphisms in $C$, their intersection is clearly also strongly saturated. Therefore for every collection $S$ of morphisms, there is a smallest strongly saturated class $\bar S$ containing it. We say that $S$ **generates** the strongly saturated class $\bar S$. If $S$ is a [[small set]], then $\bar S$ is said to be **of small generation**. 
 
@@ -119,7 +120,7 @@ Of importance are the strongly saturated classes arising as follows.
 ###### Lemma
 
 
-For $C$ and $D$ two $(\infty,1)$-categories that have small colimits, and for $F : C \to D$ an [[(∞,1)-functor]] that preserves small colimits, given a strongly saturated class of morphisms $S$ in $D$, its preimage $F^{-1}(S)$ is a strongly saturated class in $C$.
+For $C$ and $D$ two $(\infty,1)$-categories that have small [[(∞,1)-colimit]]s, and for $F : C \to D$ an [[(∞,1)-functor]] that preserves small $(\infty,1)$-colimits, given a strongly saturated class of morphisms $S$ in $D$, its preimage $F^{-1}(S)$ is a strongly saturated class in $C$.
 
 
 In particular the class of morphisms in $C$ sent to equivalences by $F$ is strongly saturated.
@@ -155,7 +156,7 @@ The following proposition characterizes the _reflectors_ of a reflective $(\inft
 +-- {: .un_lemma}
 ###### Lemma
 
-Let $C$ be an [[(∞,1)-category]] and $D \hookrightarrow C$ a full [[sub-quasi-category|sub (∞,1)-category]]. Then this inclusion has a left [[adjoint (∞,1)-functor]] precisely if 
+Let $C$ be an [[(∞,1)-category]] and $D \hookrightarrow C$ a full [[sub-(∞,1)-category]]. Then this inclusion has a left [[adjoint (∞,1)-functor]] precisely if 
 
 * for every object $c \in C$ there is a _localization_ or _reflection_ : a morphism $f : c \to d$ such that $d \in D$ and such that for all $e \in D$ we have that 
 
@@ -224,7 +225,7 @@ $$
   Loc : C \stackrel{L}{\to} D \overset{R}{\hookrightarrow} C
 $$
 
-be the corresponding localization [[(∞,1)-monad]]. Write $S \subset Mor(C)$ for the collection of morphisms that $Loc$ sends to [[equivalence in a quasi-category|equivalences]].
+be the corresponding localization [[(∞,1)-monad]]. Write $S \subset Mor(C)$ for the collection of morphisms that $Loc$ sends to [[equivalence in an (∞,1)-category|equivalences]].
 
 Then
 
@@ -356,7 +357,7 @@ One can turn this around and define or construct reflective $(\infty,1)$-subcate
 
 Let $C$ be a [[presentable (∞,1)-category]] and $S_0$  be a [[small set]] of morphisms of $C$. 
 
-Then the full [[sub-quasi-category|sub-(∞,1)-category]] 
+Then the full [[sub-(∞,1)-category]] 
 
 $$
   R : D \hookrightarrow C
@@ -489,7 +490,7 @@ $$
 in $C$, regarded as a morphism in $Func(\Delta[1], C)$. By the universality of the pushout, one finds that this is a [[coCartesian morphism|coCartesian lift]]. Hence $D \to Func(\{0\}, C) \simeq C$ is a [[coCartesian fibration]]. Moreover, by the [behaviour under pullback](http://ncatlab.org/nlab/show/Cartesian+fibration#BehaviourUnderPullback) of [[Cartesian fibration]]s it follows that the above diagram is a [[homotopy pullback]] diagram in the [[model structure for quasi-categories|Joya model structure]] $sSet_{Joyal}$.
 
 
-Use now that [[accessible (infinity,1)-category|accessible quasi-categories]] are stable under [[homotopy pullback]] to conclude that $D_c$ is accessible. Moreover, one can check that $D_c$ has all small colimits. Together this means that $D_c$ is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small [[limit in a quasi-category|limits]] and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$.
+Use now that [[accessible (infinity,1)-category|accessible quasi-categories]] are stable under [[homotopy pullback]] to conclude that $D_c$ is accessible. Moreover, one can check that $D_c$ has all small colimits. Together this means that $D_c$ is a [[locally presentable (∞,1)-category]].  This implies in particular that $D_c$ also has all small [[(∞,1)-limits]] and hence contains a [[terminal object in a quasi-category|terminal object]], $f : c \to d$.
 
 We now complete the proof by showing that $f : c \to d$ being terminal in $D_c$ implies that $d$ is an $S$-local object. This is equivalent to showing that for $t : a \to b$ any element in $S$, composition with $t$ induces an equivalence
 
