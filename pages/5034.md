@@ -49,6 +49,10 @@ $$
 
 We call $Conc(\mathbf{H})$ the [[(∞,1)-quasitopos]] of **concrete objects** of the local $(\infty,1)$-topos $\mathbf{H}$.
 
+## Examples
+
+* [[concrete smooth ∞-groupoid]]
+
 ## Related concepts
 
 * [[concrete sheaf]]
