@@ -168,6 +168,7 @@ Let $\overline{F}(X \times Y)$ denote its completion with respect to this norm. 
 In the literature on Banach spaces, tensor product above is usually called the __projective tensor product__ of Banach spaces; see other [[tensor product of Banach spaces]].  The product and coproduct are considered __direct sums__; see other [[direct sums of Banach spaces]].
 
 To be described:
+
 *  duals ($p + q = p q$); 
 *  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$ (pseudo-normed vector spaces)).
 *  $Ban$ as a (somewhat larger) category with duals.
