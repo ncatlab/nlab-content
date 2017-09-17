@@ -23,6 +23,8 @@
 
 A **normed group** is to a [[group]] what a [[normed vector space]] is to a [[vector space]].  It consists of a group together with a length function (a [[norm]]) and, as for normed vector spaces, gives rise to a [[metric space]].
 
+A [[complete space|complete]] normed group is a _[[complete normed group]]_.
+
 ## Definition
 
 ### Normed groups
@@ -73,6 +75,8 @@ This reverses: from a [[metric space]], say $X$, we get a normed groupoid by tak
 * [[Banach space]]
 
 * [[normed ring]]
+
+[[!include analytic geometry ingredients -- table]]
 
 ## References
 
