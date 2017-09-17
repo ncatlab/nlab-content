@@ -21,7 +21,11 @@
 
 ## Idea
 
-If in the context of [[stable homotopy theory]] the [[topological space]]s and [[spectra]] are equipped with an [[action]] of a [[topological group]] $G$ the theory refines to a _$G$-equivariant_ version. This is to [[equivariant homotopy theory]] (roughly) as [[stable homotopy theory]] is to [[homotopy theory]].
+Equivariant stable homotopy theory over some [[topological group]] $G$ is the [[stable homotopy theory]] of [[G-spectra]]. This includes the [[naive G-spectra]] which constitute the actual [[stabilization]] of [[equivariant homotopy theory]], but is more general.
+
+The concept of [[cohomology]] in equivariant stable homotopy theory is _[[equivariant cohomology]]_:
+
+[[!include equivariant cohomology -- table]]
 
 ## Basic definitions
 
