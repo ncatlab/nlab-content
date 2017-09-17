@@ -1,0 +1,23 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $X$ a [[manifold]] its **density bundle** is the  real [[line bundle]] to [[associated bundle|associated]] to the [[principal bundle]] underlying the [[tangent bundle]] by the 1-dimensional [[representation]] of the [[general linear group]] given by the [[determinant]] [[homomorphism]]
+
+$$
+  det \colon GL(n) \to GL(1) \simeq Aut(\mathbb{R}^1)
+  \,.
+$$
+
+A [[section]] of the density bundle on $X$ is called a _density on $X$_. 
+
+This is the general object again which one has [[integration]] of functions on $X$.
+
+## Related concepts
+
+* [[volume form]]
+
+[[!redirects densities]]
