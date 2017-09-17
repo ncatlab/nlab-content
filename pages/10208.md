@@ -1,0 +1,27 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+## Idea
+
+Given an [[inner product space]] $V = (V,\langle-,-\rangle)$, the *orthogonal group* of $V$ is the subgroup of the [[general linear group]] $GL(V)$ which 'preserves the inner product'.
+
+## Definition
+
+
+
+## Examples
+
+* [[Euclidean space]] $\mathbb{R}^n$ with the standard inner product $\langle\mathbf{x},\mathbf{y}\rangle = \mathbf{x}\cdot\mathbf{y}$ has as orthogonal group the standard [[orthogonal group]] $O(n)$.
+
+* The finite-dimensional [[Hilbert space]] $\mathbb{C}^n$ with the standard inner product has as orthogonal group $U(n)$, the [[unitary group]]
+
+* The space $\mathbb{H}^n$, for $\mathbb{H}$ the [[quaternions]], has an inner product ... such that the corresponding orthogonal group is the [[compact symplectic group]] $Sp(n)$.
+
+* (...Examples of indefinite signature go here...)
