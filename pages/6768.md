@@ -1,0 +1,5 @@
+* wikipedia [arrangement of hyperplanes](http://en.wikipedia.org/wiki/Arrangement_of_hyperplanes)
+* [[eom]]: [arrangement of hyperplanes](http://eom.springer.de/A/a110700.htm)
+* Peter Orlik, Hiroaki Terao, _Arrangements of Hyperplanes_, Grundlehren der Mathematischen Wissenschaften __300__, Springer 1992, MR1217488
+
+[[!redirects arrangements of hyperplanes]]
