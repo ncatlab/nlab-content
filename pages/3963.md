@@ -23,6 +23,8 @@ See at _[[Pontrjagin dual]]_.
 
 * [[Cartier duality]] 
 
+* [[character group]]
+
 ## References
 
 ### For higher groups
