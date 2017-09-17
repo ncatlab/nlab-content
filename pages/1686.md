@@ -30,6 +30,7 @@ Spectral sequences are used as computational tools in [[homological algebra]] an
 Traditionally this is considered on [[model structure on chain complexes|model categories of chain complexes]] in some [[abelian category]] for which [[fibrant replacement]] is given by [[injective resolution]] of [[chain complexes]].
 But more generally there is a notion of [[nonabelian cohomology|nonabelian]]/unstable spectral sequences, called **homotopy spectral sequences**.
 
+Unfortunately, there is nothing specifically "spectral" about spectral sequences. The term was introduced by [[Jean Leray]] and has long become standard, but was never really motivated (see p. 5 of [Chow](#Chow)).
 
 ## Definition
 
@@ -243,7 +244,8 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 
 (...)
 
-### Grothendieck spectral sequence {#GrothendieckSpectralSequence}
+### Grothendieck spectral sequence 
+ {#GrothendieckSpectralSequence}
 
 Let $\mathcal{A} \stackrel{F}{\to} \mathcal{B} \stackrel{G}{\to} \mathcal{C}$ be two [[left exact functors]] between [[abelian categories]].
 
@@ -293,6 +295,8 @@ Moreover
 
 =--
 
+This is called the _[[Grothendieck spectral sequence]]_.
+
 +-- {: .proof}
 ###### Proof
 
@@ -317,8 +321,10 @@ This is the Grothendieck spectral sequence.
 =--
 
 #### Leray spectral sequence
+ {#LeraySpectralSequence}
 
-The _[[Leray spectral sequence]]_ is the special case of the Grothendieck spectral sequence for the case where the two functors being composed are a [[direct image|push-foward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
+The _[[Leray spectral sequence]]_ is the special case of the 
+[[Grothendieck spectral sequence]] for the case where the two functors being composed are a [[direct image|push-foward]] of [[sheaves]] of [[abelian groups]] along a [[continuous map]] $f : X \to Y$ followed by the push-forward $X \to *$ to the point. This yields a spectral sequence that computes the [[abelian sheaf cohomology]] on $X$ in terms of the abelian sheaf cohomology on $Y$.
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -365,6 +371,10 @@ $$
 
 The [[derived functor]]s of $Hom_{R_2}(-,N)$ and $\otimes_{R_2} N$ are the [[Ext]]- and the [[Tor]]-functors, respectively, so the Grothendieck spectral sequence applied to these composites yields a  [[base change]] spectral sequence for these.
 
+#### Hochschild-Serre spectral sequence
+
+* [[Hochschild-Serre spectral sequence]]
+
 ## Properties
 
 +-- {: .num_lemma}
@@ -395,6 +405,7 @@ This is recalled in ([Weibel, theorem 5.51](#Weibel)).
 A pedagogical introduction is in 
 
 * [[Timothy Chow]], _You could have invented spectral sequences_, Notices of the AMS (2006) ([pdf](http://www.ams.org/notices/200601/fea-chow.pdf))
+ {#Chow}
 
 
 A standard textbook reference is chapter 5 of 
