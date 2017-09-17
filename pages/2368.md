@@ -1,10 +1,23 @@
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
 [[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
 [[!include higher algebra - contents]]
-</div>
+=--
+=--
+=--
+
+
+
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -64,7 +77,7 @@ The definition of $S$-modules and their theory ca nbe found in
 
 The definition of the symmetric monoidal category of *symmetric* spectra is compiled in the seminar notes
 
-* [[Sander Kupers]], [[SymmetricSpectra.pdf:file]]
+* [[Sander Kupers]], _[[SymmetricSpectra.pdf:file]]_
 
 
 [[!redirects S-module]]
@@ -73,3 +86,8 @@ The definition of the symmetric monoidal category of *symmetric* spectra is comp
 [[!redirects symmetric spectra]]
 [[!redirects orthogonal spectrum]]
 [[!redirects orthogonal spectra]]
+
+[[!redirects smash product of spectra]]
+
+[[!redirects structured ring spectrum]]
+[[!redirects structured ring spectra]]
