@@ -125,22 +125,22 @@ To be predictive, a [[metalanguage|language]] for physics is moreover to be a la
 
 (We explain what this particular judgement means physically below in the section _[Yang-Mills theory](#Yang-MillsTheory)_.)
 
-The [[metalanguage|formal language]] for such _[[natural deduction]]_ of _[[judgements]]_ about there being _[[terms]]_ of some _[[type]]_ is called _[[type theory]]_. The following table indicates central expressions available in this [[metalanguage|language]].
+The [[metalanguage|formal language]] for such _[[natural deduction]]_ of _[[judgements]]_ about there being _[[terms]]_ of some _[[type]]_ is called _[[type theory]]_. 
 
 **Expressions in [[type theory]]**:
 
 | ordinary language | [[syntax]] | [[semantics]] | [[model]] | chapter |
 |--|--|--|--|--|
 |  | [[general abstract]] | [[general concrete]] | [[concrete particular]] | |
-| There is... | $\vdash \ldots$ | We speak in the context of a ([[(∞,1)-topos|higher]]) [[topos]] $\mathbf{H}$, a _place where things may be_. | $\mathbf{H} = $ [[Smooth∞Grpd]] or [[SynthDiff∞Grpd]] or [[SmoothSuper∞Grpd]] or ... | _[Smooth spaces](#SmoothSpaces)_ and _[Smooth homotopy types](#SmoothnGroupoids)_  |
-| There is a thing $x$ of type $X$. | $\vdash\; x \colon X$ | an [[element]] $\left(* \stackrel{x}{\to} X\right) \in Mor(\mathbf{H})$ | A point in a [[moduli stack]]. | _[Judgements about types and terms](#Judgments)_ |
+| There is... | $\vdash \ldots$ | We speak in the context of a ([[(∞,1)-topos|higher]]) [[topos]] $\mathbf{H}$, a _place where things may be_. | A ([[(∞,1)-topos|higher]]) [[topos]] for [[synthetic differential geometry|synthetic]] [[differential geometry]]. Such as $\mathbf{H} = $ [[Smooth∞Grpd]] or [[SynthDiff∞Grpd]] or [[SmoothSuper∞Grpd]] or ... | _[Smooth spaces](#SmoothSpaces)_ and _[Smooth homotopy types](#SmoothnGroupoids)_  |
+| There is a thing $x$ of type $X$. | $\vdash\; x \colon X$ | an [[element]] $\left(* \stackrel{x}{\to} X\right) \in Mor(\mathbf{H})$ | A point in a [[smooth infinity-groupoid|smooth moduli stack]]. | _[Judgements about types and terms](#Judgments)_ |
 | There is a type $X$ of things $x$. | $\vdash\; X \colon Type$ | an [[element]] $(* \stackrel{\vdash X}{\to} Obj) \in Mor(\mathbf{H})$ in the [[small object|small]]-[[object classifier]] $Obj$  | A point in the [[moduli stack]] of all [[small object|small]] moduli stacks. | _[Judgements about types and terms](#Judgments)_  |
 | Given a thing $x$ of type $X$ there is a thing $a(x)$ of type $A(x).$ | $x \colon X\;\vdash\; a(x) \colon A(x)$ | an [[element]] in the [[slice (infinity,1)-topos|slice topos]] $\left(\array{ X &&\stackrel{a}{\to}&& A \\ & {}_{\mathllap{id}}\searrow &\swArrow& \swarrow_{} \\ && X }\right) \in \mathbf{H}_{/X}$ | An $X$-family  in a moduli stack over $X$. | _[Slice categories](#SliceCategories)_ and _[Slice toposes](#SliceToposes)_ and _[Slice ∞-Toposes](#SlicedInfinityToposes)_ |
-|  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | [[dependent sum]]/[[left adjoint]] to [[product]]: $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ | total space of a [[bundle]] | _[Natural deduction rules for dependent sum types](#DependentSumTypes)_ |
+|  There is the collection of all things $a(x)$ for all $x$. | $\vdash\; \left(\sum_{x \colon X} A\left(x\right)\right) \colon Type$ | [[dependent sum]]/[[left adjoint]] to [[product]]: $\array{ \mathbf{H}_{/X} &\stackrel{X_!}{\to} & \mathbf{H} \\ (A \to X) &\mapsto& A \in \mathbf{H}} $ | The total space of a [[bundle]]. | _[Natural deduction rules for dependent sum types](#DependentSumTypes)_ |
 | There is a thing $t$ in the collection of all things $a(x)$ for all $x$. | $\vdash\; t \colon \sum_{x \colon X} A(x)$ |  $*\stackrel{t}{\to} A$ | A point in the moduli stack $A$ over $X$. | |  
-| There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | [[element]] in the [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$  | [[point]] in the smooth relative [[mapping space]] of smooth [[sections]]  | _[Natural deduction rules for dependent product types](#NaturalDeductionForDependentProduct)_ |   
-| There is the collection of assignments of an $a(x)$ to each $x$. | $\vdash\; \left( \prod_{x \colon X} A\left(x\right) \right) \colon Type$ | [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$ | smooth relative [[mapping space]] of smooth [[sections]] |  |
-| In particular, there is the collection of such assignments when $A$ does not depend on $x$, the collection of _functions_ from $X$ to $A$. |  $\vdash \; \left(X \to A\right) \coloneqq \left(\prod_{x \colon X} A\right) \colon Type$ | [[internal hom]] $[X,A] \in \mathbf{H}$  | smooth [[mapping space]] |  _[Smooth mapping spaces and smooth moduli spaces](#SmoothMappingSpaces)_ |
+| There is an assignment $f$ of an $a(x)$ to each $x$. | $\vdash \; f \colon \prod_{x \colon X} A(x)$. | [[element]] in the [[internal hom|internal]] space of [[sections]] $* \stackrel{f}{\to} [X,A]_X$  | A [[point]] in the smooth relative [[mapping space]] of smooth [[sections]].  | _[Natural deduction rules for dependent product types](#NaturalDeductionForDependentProduct)_ |   
+| There is the collection of assignments of an $a(x)$ to each $x$. | $\vdash\; \left( \prod_{x \colon X} A\left(x\right) \right) \colon Type$ | [[internal hom|internal]] space of [[sections]] $[X,A]_X \in \mathbf{H}$ | A smooth relative [[mapping space]] of smooth [[sections]]. |  |
+| In particular, there is the collection of such assignments when $A$ does not depend on $x$, the collection of _functions_ from $X$ to $A$. |  $\vdash \; \left(X \to A\right) \coloneqq \left(\prod_{x \colon X} A\right) \colon Type$ | [[internal hom]] $[X,A] \in \mathbf{H}$  | A smooth [[mapping space]]. |  _[Smooth mapping spaces and smooth moduli spaces](#SmoothMappingSpaces)_ |
 | There is a proof $p$ that it is true that there is $x$ of type $X$. | $ \vdash \;  p \colon [X] $ | [[element]] of the [[truncated object of an (infinity,1)-topos|(-1)-truncation]] $* \stackrel{p}{\to}\tau_{-1}(X)$ |  | _[Subobjects](#Subobjects)_ |
 | There is a proof $p$ that it is true that there is an $a(x)$ for some $x$. | $\vdash\; p \colon \left(\exists_{x \colon X} A\left(x\right) \right) \coloneqq \left[ \sum_{x \colon X} A\left(x\right)\right]$ | | |  |
 
@@ -163,15 +163,21 @@ The [[metalanguage|formal language]] based on the [[type theory]] which we have 
 | Given $x,x'$, there is the collection of equivalences between $x$ and $x'$ equivalent. | $x,x' \colon X \;\vdash \; \left(x \simeq x'\right) \colon Type$. | |  | |
 | Given $x,x'$, there is the collection of proofs that it is true that $x$ and $x'$ are equivalent. | $x,x' \colon X \;\vdash \; [x \simeq x'] \colon Type$. | | | |
 
-But the _[[gauge theory|gauge principle]]_ reaches deeper: [[gauge transformations]] themselves are subject to the gauge principle themselves. In general it is meaningless to ask if two gauge transformations are equal, but we may ask if there is a _[[higher gauge theory|higher gauge transformation]]_ that transforms one gauge transformation into the other. In the physics literature such _gauge-of-gauge transformations_ are best known in their incarnation as _ghost-of-ghost fields_ in what is called the _[[BRST complex]]_ of the given [[gauge theory]]. Careful analysis for instance of the _[[Dirac charge quantization]]_ of _[[magnetic charge]]_ shows that already quite mundane physical phenomena exhibit such higher order gauge transformations. But more famously they are known to arise in various guises in _[[string theory]]_, which is a hypthetical refinement of the [[standard model of particle physics]] and [[gravity]].
+But the _[[gauge theory|gauge principle]]_ reaches deeper: [[gauge transformations]] themselves are subject to the gauge principle themselves. 
+
+In general it is meaningless to ask if two gauge transformations are equal, but we may ask if there is a _[[higher gauge theory|higher gauge transformation]]_ that transforms one gauge transformation into the other. In the physics literature such _gauge-of-gauge transformations_ are best known in their incarnation as _ghost-of-ghost fields_ in what is called the _[[BRST complex]]_ of the given [[gauge theory]]. 
+
+Careful analysis for instance of the _[[Dirac charge quantization]]_ of _[[magnetic charge]]_ shows that already quite mundane physical phenomena exhibit such higher order gauge transformations. But more famously they are known to arise in various guises in _[[string theory]]_, which is a hypthetical refinement of the [[standard model of particle physics]] and [[gravity]].
 
 In either case, our [[metalanguage|formal language]] should not allow the [[natural deduction|deduction]] that gauge [[equivalences]] are themselves either [[equality|equal]] or not, but may only allow [[judgements]] of the following form:
 
-> There is a gauge-of-gauge equivalence between two given gauge equivalences $\lambda_1, \lambda_2$ between gauge fields $\nabla_1, \nabla_2$.
+> There is a [[higher gauge transformation|gauge-of-gauge equivalence]] between two given gauge equivalences $\lambda_1, \lambda_2$ between gauge fields $\nabla_1, \nabla_2$.
 
 The flavor of _[[type theory]] with [[propositional equality]]_ for which this is the case is called _[[intensional type theory]]_.
 
-Since therefore a [[type]] $X$ in intensional type theory may contain [[homotopies]] between its [[terms]] of arbitrary order, we call it a _[[homotopy type]]_. The homotopy-type nature of the type of gauge connections $[X,\mathbf{B}G_{conn}]$ is most familiar in the physics literature in its [[infinity-Lie theory|infinitesimal approximation]], which is the (off-shell) [[BRST complex]] of the gauge theory: the $n$-fold ghost-of-ghost-fields in the BRST complex correspond to the $n$-fold [[homotopies]] in $[X, \mathbf{B}G_{conn}]$.
+Since therefore a [[type]] $X$ in intensional type theory may contain [[homotopies]] between its [[terms]] of arbitrary order, we call it a _[[homotopy type]]_. 
+
+The homotopy-type nature of the type of gauge connections $[X,\mathbf{B}G_{conn}]$ is most familiar in the physics literature in its [[infinity-Lie theory|infinitesimal approximation]], which is the (off-shell) _[[BRST complex]]_ of the gauge theory: the $n$-fold ghost-of-ghost-fields in the BRST complex correspond to the $n$-fold [[homotopies]] in $[X, \mathbf{B}G_{conn}]$.
 
 In particlar, in [[intensional type theory]] we find the [[gauge group]] of a homotopy type, as indicated in the following table.
 
