@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,21 +15,106 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A _Heisenberg group_ is a [[Lie group]] [[Lie integration|integrating]] a _[[Heisenberg Lie algebra]]_. 
+
+There are several such, and so the conventions in the literature vary slightly as to which one to pick by default. 
+
+The Heisenberg group historically originates in and still has its strongest ties to [[quantum physics]]: there it is a group of [[unitary operators]] acting on the [[space of states]] induced from those [[observables]] on a linear [[phase space]] -- a [[symplectic vector space]] -- which are given by linear or by constant functions.
+So any Heisenberg group is a subgroup of a group of observables in certain simple examples of quantum mechanical systems.
+
 
 ## Definition
 
+A **Heisenberg group** is a [[Lie group]] whose [[Lie algebra]] is a [[Heisenberg Lie algebra]].
+
+We spell out some special cases in detail.
+
 ### $H_3$ in components
 
-The **Heisenberg group** $H_3$ is the [[group]] structure on the [[Cartesian space]] $\mathbb{R}^3$ whose group operation is defined by
+The simplest non-trivial example of a Heisenberg group is the unique [[simply connected topological space|simply connected]] Lie integration of the [[Heisenberg Lie algebra]] $Heis(\mathbb{R}^2, \omega ? d p \wedge dq)$ on the the canonical 2-dimensional [[symplectic vector space]] $\mathbb{R}^2$ with canonical [[coordinates]] $(p,q)$. 
+
+This Heisenberg Lie algebra is [[generators and relations|generated]] from 3 elements, denoted $\matbbf{p}, \mathbf{q},\mathbg{e}$, subject to the single non-trivial [[Lie bracket]]
 
 $$
-  (a_1, b_1, c_1) \circ (a_2 , b_2, c_3) = (a_1 + a_2 , b_1 + b_2, c_1 + c_2 + a_1 b_2)
+  [\mathbf{q}, \mathbf{p}] = \mathbf{e}
   \,.
 $$
 
+The corresponding Heisenberg group is usually denoted $H_3$:
+
+$$
+  H_3 =: \exp Heis(\mathbb{R}^2 , d p \wedge d q)
+  \,.
+$$
+
+The underlying [[smooth manifold]] of this [[Lie group]] is the [[Cartesian space]] $\mathbb{R}^3$. A general element may be written as
+
+$$
+  g_{a,b,c}
+   = 
+  \exp(a \mathbf{q} + b \mathbf{p} )\exp(c \mathbf{e})
+$$
+
+with $a, b , c\in \mathbb{R}$. In terms of this notation the product in the group is given (by the [[Baker-Campbell-Hausdorff formula]]) by
+
+$$
+  \exp(a_1 \mathbf{q} + b_1 \mathbf{p})
+  \exp(c_1 \mathbf{e})
+  \cdot
+  \exp(a_2 \mathbf{q} + b_2 \mathbf{p})
+  \exp(c_2 \mathbf{e})
+  = 
+  \exp((a_1 + b_1) \mathbf{q} + (b_1 + c_1) \mathbf{p})
+  \exp(c_1 + c_2 - \frac{1}{2}(a_1 b_2 - a_2 b_1) \mathbf{e})
+  \,.
+$$
+
+A discrete [[quotient]] group of this, which still has the same [[Lie algebra]], has as underlying manifold $\mathbb{R}^2 \times U(1)$ (the second factor being the [[circle group]]), with the projection
+
+$$
+  \mathbb{R}^2 \times \mathbb{R}
+  \to
+  \mathbb{R}^2 \times U(1)
+$$
+
+being quotienting by $\mathbb{Z}$: $U(1) \simeq \mathbb{R} / \mathbb{Z}$.
+
+If the circle group is instead thought of as the unit circle in the complex plane, then this quotient is thought of as the exponential map $\exp(2 \pi i (-)) : \mathbb{R} \to U(1)$. In terms of this the group elements in the quotient read
+
+$$
+  g_{a, b, c} 
+   = 
+  \exp(a \mathbf{q} + b \mathbf{p} )\exp(2 \pi i c )
+$$
+
+and their product is
+
+$$
+  \exp(a_1 \mathbf{q} + b_1 \mathbf{p})
+  \exp(2 \pi i c_1 )
+  \cdot
+  \exp(a_2 \mathbf{q} + b_2 \mathbf{p})
+  \exp(2 \pi i c_2 )
+  = 
+  \exp((a_1 + b_1) \mathbf{q} + (b_1 + c_1) \mathbf{p})
+  \exp(2 \pi i(c_1 + c_2 - \frac{1}{2}(a_1 b_2 - a_2 b_1)))
+  \,.
+$$
+
+While the Lie algebra is still the same real [[Heisenberg Lie algebra]] as before, it is now suggestive to write the Lie bracket as
+
+$$
+  [q,p] = i
+  \,.
+$$
+
+This is the way the relation appears in texts on [[quantum physics]].
 ### For a symplectic vector space
 
-Let $(V, \omega)$ be a [[symplectic vector space]]. 
+Generally, there is a Heisenberg group $H(V, \omega)$ associated to 
+any [[symplectic vector space]] $(V, \omega)$.
 
 Regard $V$ with its [[abelian group]] structure underlying its [[vector space]] structure.
 
@@ -39,17 +123,25 @@ The Heisenberg group $H(V,\omega)$ is the space $V \times U(1)$ (for $U(1)$ the 
 $$
   (v_1, c_1) \cdot (v_2, c_2)
   = 
-  (v_1 + v_2, c_1 c_2 \exp(i \omega(v,w)))
+  (v_1 + v_2, c_1 c_2 \exp(2 \pi i \omega(v,w)))
   \,.
 $$
 
 ## Properties
 
 ### Relation to Poisson algebra
+ {#RelationToPoissonBracket}
 
-A [[symplectic vector space]] $(V, \omega)$ is in particular a [[symplectic manifold]]. Accordingly its algebra of [[smooth functions]] $C^\infty(V)$ is a [[Poisson algebra]]. The [[Lie algebra]] underlying the Poisson algebra contains the [[Heisenberg Lie algebra]] as the subspace of [[linear functions]] $V^* \subset C^\infty(V)$. 
+A [[symplectic vector space]] $(V, \omega)$ is in particular a [[symplectic manifold]]. Accordingly its algebra of [[smooth functions]] $C^\infty(V)$ is a [[Poisson algebra]]. The [[Lie algebra]] underlying the Poisson algebra contains the [[Heisenberg Lie algebra]] as the subspace with is the [[direct sum]] of the [[linear functions]] $V^* \hookrightarrow C^\infty(V)$ and the constant functions $\marthbb{R} \hookrightarrow C^\infty(V)$.
 
-(...)
+For more details in this at _[[Heisenberg Lie algebra]]_ the section _[Relation to Poisson algebra](#http://ncatlab.org/nlab/show/Heisenberg%20Lie%20algebra#RelationToPoissonAlgebra)_.
+
+### Relation to symplectomorphisms
+ {#RelationToSymplectomorphisms}
+
+By the [above](#RelationToPoissonBracket), the Heisenberg group is a [[subgroup]] of the group that integrates the [[Poisson bracket]]. The latter is a [[central extension]] of the group of [[Hamiltonian symplectomorphisms]].
+
+(Of course, on a contractible [[symplectic manifold]] such as a [[symplectic vector space]], every [[symplectomorphism]] is automatically a [[Hamiltonian symplectomorphism]].)
 
 ### Cocycle and extension
 
@@ -74,11 +166,11 @@ $$
   a_1 \cdot b_2 + (a_1 + a_2) \cdot b_3
 $$
 
-The Heisenberg group is the [[group extension]] of $\mathbb{R}^2$ by this cocycle.
+The Heisenberg group $H_3$ is the [[group extension]] of $\mathbb{R}^2$ by this cocycle.
 
 ### Unitary representations
 
-* [[Stone-von Neumann theorem]]
+See _[[Stone-von Neumann theorem]]_.
 
 ### Automorphism group
 
