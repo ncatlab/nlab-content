@@ -51,7 +51,7 @@ There is an [[equivalence of (∞,1)-categories]] between pointed connected [[A-
 
 * [[model structure for dendroidal left fibrations]]
 
-* [[H-space]]
+* [[H-space]], [[A-n space]]
 
 * [[A-infinity category]]
 
