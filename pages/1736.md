@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -34,7 +34,16 @@ be a [[Quillen adjunction]] with $L$ [[left adjoint]] to $R$.
 
 Write $Ho C$ and $Ho D$ for the corresponding [[homotopy category|homotopy categories]].
 
-Notice that $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then inverting weak equivalences, and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor $\mathbb{L} : Ho C \to Ho D$ between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : Ho D \to Ho C$.
+Notice that $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then [[localization|inverting]] [[weak equivalences]], and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor 
+
+$$
+  \mathbb{L} : Ho C \to Ho D
+$$ 
+
+between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : Ho D \to Ho C$.
+
++-- {: .num_defn}
+###### Definition
 
 The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
 
@@ -45,6 +54,16 @@ The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the follow
 * For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
 
 * For every cofibrant object $c\in C$, the composite $c \to R(L(c)) \to R(L(c)^{fib})$ is a weak equivalence in $C$, and for every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \to d$ is a weak equivalence in $D$, where $(-)^{fib}$ and $(-)^{cof}$ denote fibrant and cofibrant [[resolutions]], respectively.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Not every equivalence between homotopy categories of model categories lifts to a Quillen equivalence. An interesting counterexample is given for instance in ([Dugger-Shipley 09](#DuggerShipley09)).
+
+=--
+
 
 ## Properties
 
@@ -66,6 +85,15 @@ Since [[equivalence of categories|equivalences of categories]] enjoy the [[categ
 * **Quillen equivalence**
 
 * [[monoidal Quillen adjunction]]
+
+## References
+
+For standard references see at _[[model category]]_.
+
+An exmaple of an equivalence of [[homotopy categories]] of model categories which does not lift to a Quillen equivalence is in 
+
+* [[Daniel Dugger]], [[Brooke Shipley]], _A curious example of triangulated-equivalent model categories wich are not Quillen equivalent_, Algebraic & Geometric Topology 9 (2009) ([pdf](http://homepages.math.uic.edu/~bshipley/dugger.shipley.curious.example.pdf))
+ {#DuggerShipley09}
 
 
 [[!redirects Quillen equivalences]]
