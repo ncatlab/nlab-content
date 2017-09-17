@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
 #### Differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
@@ -24,6 +28,10 @@ A **complex manifold** is a [[manifold]] modeled on $\mathbb{C}^n$ (the complex 
 * a [[smooth manifold]] locally isomorphic to $\mathbb{C}^n$ whose transition functions are [[holomorphic function]]s.
 
 * equivalently: a [[smooth manifold]] equipped with an integrable [[almost complex structure]] 
+
+## Related concepts
+
+* [[complex analytic space]]
 
 ## References
 
