@@ -515,7 +515,7 @@ We write ${\vert \Lambda\vert^{1/2}}(T^\tau E)$ for the bundle of [[half-densiti
 +-- {: .num_remark #ActionOnVerticalVectors}
 ###### Remark
 
-Let $\mathcal{G}_\bullet$ be a [[Lie groupoid]] and let ($E \stackrel{tau}{\to} \mathcal{G}_0$, \rho) be a $\mathbb{G}_\bullet$-[[groupoid-principal bundle]] $E \to E//\mathcal{G}$ (with anchor $\tau$ and action map $\rho$). 
+Let $\mathcal{G}_\bullet$ be a [[Lie groupoid]] and let ($E \stackrel{\tau}{\to} \mathcal{G}_0, \rho)$ be a $\mathbb{G}_\bullet$-[[groupoid-principal bundle]] $E \to E//\mathcal{G}$ (with anchor $\tau$ and action map $\rho$). 
 
 Then the bundle of [[vertical vector fields]] $T^\tau E$ equipped with the anchor map $T^\tau E \stackrel{d \tau}{\to} T \mathcal{G}_0 \to \mathcal{G}_0$ inherits a canonical $\mathcal{G}_\bullet$-action itself.
 
