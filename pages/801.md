@@ -45,7 +45,7 @@ A homotopy type that is an [[n-truncated object in an (∞,1)-category]] (see th
 
 ### In topological spaces
 
-In traditional [[homotopy theory]] of [[topological spaces]] one sometimes distinguishes the notion of _strong homotopy types_ from that of _weak homotopy types_, depending on whether one regards topological spaces up to _[[homotopy equivalence]]_ or up to _[[weak homotopy equivalence]]_.
+In traditional [[homotopy theory]] of [[topological spaces]] one sometimes distinguishes the notion of _strong homotopy types_ from that of _weak homotopy types_, depending on whether one regards topological spaces up to _[[homotopy equivalence]]_ or up to _[[weak homotopy equivalence]]_ (see also there the section _[Relation to homotopy types](weak+homotopy+equivalence#RelationToHomotopyTypes)_).
 
 The two notions agree on good [[cofibrant object|cofibrant spaces]], namely on the [[CW-complexes]] (see [[model structure on topological spaces]]) and for homotopy theory proper it is the _weak_ homotopy equivalences that matter.
 
