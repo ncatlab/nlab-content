@@ -69,7 +69,7 @@ A __separating set__ is a [[size issues|small]] separating class.
 
 *  More generally, in any [[well-pointed category]], any [[terminal object]] is a separator.  More generally still, in any represented [[concrete category]], the representing object is a separator.
 
-* The standard example of a separator in the category of $R$-[[modules]] over a [[ring]] $R$ is any [[free module]] $R^I$ (for $I$ an [[inhabited set]]) and $R$ (which is $R^I$ for $I$ a [[point]]) in particular.  If a separator is a finitely separated [[projective object]] in the category of $R$-modules, then the traditional terminology is _progenerator_.  Progenerators are important in classical Morita theory, see [[Morita equivalence]].
+* The standard example of a separator in the category of $R$-[[modules]] over a [[ring]] $R$ is any [[free module]] $R^I$ (for $I$ an [[inhabited set]]) and $R$ (which is $R^I$ for $I$ a [[point]]) in particular.  If a separator is a finitely generated [[projective object]] in the category of $R$-modules, then the traditional terminology is _progenerator_.  Progenerators are important in classical Morita theory, see [[Morita equivalence]].
 
   +-- {: .query}
   [[Mike Shulman|Mike]]: The term "progenerator" seems unfortunate to me; it sounds to me like a [[pro-object]] that is a generator.  Is it well-established?  I've never heard it, though I have heard "projective generator" in the context of Morita theory.
