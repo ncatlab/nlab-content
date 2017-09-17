@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -17,6 +21,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -29,7 +34,9 @@ By [[Gelfand duality]], suitable [[topological spaces]] are [[contravariant func
 
 ## Related concepts
 
-* [[homotopical structure on C*-algebras]]
+* [[noncommutative stable homotopy theory]]
+
+  * [[homotopical structure on C*-algebras]]
 
   * [[KK-theory]], [[E-theory]]
 
