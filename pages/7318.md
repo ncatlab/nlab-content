@@ -1,0 +1,8 @@
+
+* [webpage](http://www.math.harvard.edu/people/HeutsGijsbert.html)
+
+## Related entries
+
+* [[Cartesian fibration of dendroidal sets]]
+
+category: people
