@@ -257,7 +257,23 @@ end single example
 
 This should generate an error, though as far as I can tell from the specs and how Firefox works you are not required to ampersand encode a "&lt;" inside the value of an attribute, though you can. Inspect the ids of:
 
-<div id="a&lt;b" markdown='1'>a div with <code>id="a&amp;lt;b"</code></div>
+<div id="a&lt;b" markdown='1'>1 a $div$ with <code>id="a&amp;lt;b"</code></div>
+<div id="a&lt;b" markdown='1'><span>2 a $div$ with <code>id="a&amp;lt;b"</code>, contents "span" wrapped</span></div>
+<div id="a&lt;b" markdown='1'><span markdown='1'>3 a $div$ with <code>id="a&amp;lt;b"</code>, contents "span 1" wrapped</span></div>
+<div id="a&lt;b" markdown='1'><p>2 a $div$ with <code>id="a&amp;lt;b"</code>, contents "p" wrapped</p></div>
+
+next with markdown='block' wrappings:
+
+<div id="a&lt;b" markdown='block'>1 a $div$ with <code>id="a&amp;lt;b"</code></div>
+<div id="a&lt;b" markdown='block'><span>2 a $div$ with <code>id="a&amp;lt;b"</code>, contents "span" wrapped</span></div>
+<div id="a&lt;b" markdown='block'><span markdown='block'>3 a $div$ with <code>id="a&amp;lt;b"</code>, contents "span block" wrapped</span></div>
+<div id="a&lt;b" markdown='block'><p>2 a $div$ with <code>id="a&amp;lt;b"</code>, contents "p" wrapped</p></div>
+
+
+older stuff
+
+<div id="a&lt;b" markdown='1'>2 a div with <code>id="a&amp;lt;b"</code></div>
+
 
 <div id="a<b" markdown='1'>a div with <code>id="a&lt;b"</code></div>
 
