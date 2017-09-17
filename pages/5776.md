@@ -1,6 +1,23 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
-Picard-Lefschetz theory is an approach which relates the study of singularities of holomorphic functions to the topology of the domain complex manifold; thus it is a certain complex analogue of [[Morse theory]]. The starting point is the __Picard-Lefschetz formula__ describing [[monodromy]] at a critical point. There is also extension to other fields (Deligne and Katz).
+_Picard-Lefschetz theory_ is an approach which relates the study of [[singularities]] of [[holomorphic functions]] to the [[topology]] of the domain [[complex manifold]]; thus it is a certain analogue of [[Morse theory]] in [[complex geometry]]. The starting point is the __Picard-Lefschetz formula__ describing [[monodromy]] at a critical point. There is also extension to other fields (Deligne and Katz).
 
 ## References
 
