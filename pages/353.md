@@ -1,8 +1,30 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
 
+* [[0-category]], [[0,1]-category]], [[Set]]
+
+* [[category]]
+
+* [[2-category]], [[bicategory]]
+
+* [[3-category]], [[tricategory]]
+
+* [[4-category]]], [[tetracategory]]
+
+* **$n$-category**
+
+* [[(n,r)-category]]
+
+
+***
 
 $n$-categories are the main subject of [[higher category theory]], and give the $n$-[[About|Lab]] its name.
 
