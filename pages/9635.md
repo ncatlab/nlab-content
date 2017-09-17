@@ -1,4 +1,4 @@
-An algebraic field extension $k\subset L$ is __regular__ if it is separable and $k$ is [[algebraically closed]] in $L$.
+An algebraic [[field extension]] $k\subset L$ is __regular__ if it is separable and $k$ is [[algebraically closed field|algebraically closed]] in $L$.
 
 * [wikipedia](http://en.wikipedia.org/wiki/Regular_extension)
 
