@@ -1,0 +1,45 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The _superstring_ 2-dimensional [[sigma-model]] is the analog of the [[string]] $\sigma$-model but with local [[worldsheet]] [[supersymmetry]]. 
+
+This is the higher dimensional analog of how the [[superparticle]] is related to the ordinary [[relativistic particle]].
+
+There are several different incarnations of the superstring.
+
+* the **[[spinning string]]** or **[[NSR string]]** has in fact local [[worldsheet]] [[supersymmetry]];
+
+* the **[[Green-Schwarz superstring]]** instead has manifest [[target space]] supersymmetry.
+
+* a mixture between the two has been proposed: the **[[Berkovits superstring]]** .
+
+## Related concepts
+
+* [[sigma-model]], [[brane]]
+
+  * [[relativistic particle]], [[spinning particle]], [[superparticle]]
+
+  * [[string]], [[spinning string]], **superstring**
+
+  * [[membrane]]
+
+* [[string theory]], [[supersymmetry]]
+
+[[!redirects superstrings]]
