@@ -46,6 +46,8 @@ In particular there are the articles in preparation
 
 * John Baez, Alexander Hoffnung, _Higher-dimensional algebra VIII: The Hecke Bicategory_, ([pdf](http://math.ucr.edu/home/baez/hda8.pdf))
 
+* _Towards topological groupoidification_ ([pdf](http://www.math.tau.ac.il/~avivc/UCR%20Colloquium.pdf))
+
 #Relation to representation theory#
 
 Groupoidification seems to be a central underlying governing principle in [[representation theory]] in its incarnation in  [[geometric function theory]].
@@ -60,6 +62,7 @@ Groupoidification in particular seems to illuminate structures encountered in th
 * Jeffrey C. Morton, _2-Vector Spaces and Groupoids_ ([arXiv](http://arxiv.org/abs/0810.2361))
 
 * [pdf](http://www.theoreticalatlas.net/talks/gpd-khovanov.pdf)
+
 
 Some related remarks are in
 
