@@ -184,3 +184,5 @@ Discussion of the refinement to [[structured (∞,1)-topos]]es is in section 2.3
 [[!redirects locally homeomorphic geometric morphism]]
 [[!redirects local homeomorphism of toposes]]
 [[!redirects local homeomorphism of topoi]]
+[[!redirects local homeomorphisms of toposes]]
+[[!redirects local homeomorphisms of topoi]]
