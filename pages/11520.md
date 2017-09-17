@@ -29,6 +29,8 @@ The [[(∞,1)-presheaves]] over the global orbit category provide the [[base (�
 
 ## Definition
 
+The following defines the [[global equivariant indexing category]] $Glo$.
+
 +-- {: .num_defn #GlobalIndexingCategory}
 ###### Definition
 
@@ -69,8 +71,61 @@ for the non-full [[sub-(∞,1)-category]] of the global indexing category, def. 
 
 ([Rezk 14, 4.5](#Rezk14))
 
+## Properties
+
+### Relation to the local orbit category
+
+The [[slice (∞,1)-category]] of the global orbit category over $\mathbf{B}G$ is the local [[orbit category]] of $G$
+
+$$
+  Orb_{/\mathbf{B}G}  \simeq Orb_G
+ \,.
+$$
+
+### Relation toorbispaces and $G$-spaces
+
+The [[(∞,1)-category of (∞,1)-presheaves]] over the global orbit category is that of [[orbispaces]].
+
+Accordingly, by the discussion [here](over-%28infinity%2C1%29-topos#SheavesOnBigSite), the [[slice (∞,1)-topos]] of orbispaces over $\mathbf{B}G$ is that of [[G-spaces]]
+
+$$
+  PSh_\infty(Orb)_{/\mathbf{B}G}
+  \simeq
+  PSh_\infty(Orb_{/\mathbf{B}G})
+  \simeq
+  PSh_\infty(Orb_G)
+  \simeq
+  G Space
+$$
+
+(where the last step is [[Elmendorf's theorem]]).
+
+
+### Relation to equivariant homotopy theory
+
+
+The [[(∞,1)-category of (∞,1)-presheaves]] on the [[global equivariant indexing category]] is the [[global equivariant homotopy theory]] and under the canonical projection is a [[cohesive (∞,1)-topos]] over [[∞Grpd]]. Its [[slice (∞,1)-topos]] over the terminal oribispace is cohesive over [[orbispaces]]
+
+$$
+  PSh_\infty(Glo)_{/\mathcal{N}} \to Psh_\infty(Orb)
+ \,.
+$$
+
+## Related concepts
+
+[[!include equivariant homotopy theory -- table]]
+
+
 ## References
 
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
   
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
+
+See also 
+
+* {#Schwede13} [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+
+
+* {#May90} [[Peter May]], _Some remarks on equivariant bundles and classifying spaces_, Asterisque 191 (1990), 7, 239-253. International Conference on Homotopy Theory (Marseille-Luminy, 1988).
+
