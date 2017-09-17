@@ -12,15 +12,7 @@
 =--
 =--
 
-* **topos theory**
 
-* [[2-topos|2-topos theory]]
-
-* [[(∞,1)-topos|(∞,1)-topos theory]]
-
-* [[higher topos theory]]
-
-***
 
 #Contents#
 * table of contents
@@ -35,6 +27,18 @@ There are always two ways to think of topos theory: as being
 * about [[logic]]
 
 * about [[higher geometry|geometry]].
+
+
+## Related concepts
+
+* **topos theory**
+
+* [[2-topos theory]]
+
+* [[(∞,1)-topos theory]]
+
+* [[higher topos theory]]
+
 
 ## References
 
