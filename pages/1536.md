@@ -298,9 +298,9 @@ $$
   \int : [C^{op}, Cat] \to Cat/C
 $$
 
-has a left and a right [[adjoint functor]].
+has a [[left adjoint|left]] and a [[right adjoint|right]] [[adjoint functor]].
 
-Restricted to [[Grothendieck fibration]]s and [[fibrations in groupoids]], these exhibit the above equivalences as an [[adjoint equivalence]]s.
+Restricted to [[Grothendieck fibration]]s and [[fibrations in groupoids]], both of these exhibit the above equivalences as an [[adjoint equivalence]]s. Notice that much of the traditional literature discusses (just) the right adjoint. 
 
 ### The left adjoint
 
