@@ -17,7 +17,7 @@
 
 In the definition of [[(n,r)-categories]] in [[higher category theory]] the **coherence laws** assert that:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Semi-formal Definition
 **(Coherence)** 
 
@@ -28,7 +28,7 @@ A **[[coherence theorem]]** is an assertion that with a given definition of [[n-
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 It is the fact that this condition makes recourse among all [[(n,r)-categories]] to [[(∞,0)-categories]]  = [[∞-groupoid]]s that it is easier to define and handle an [[(∞,n)-category|(∞,r)-category]] than an [[(n,r)-category]] for finite $n$: in the former case one just needs that certain spaces are [[contractible]] without necessarily being _equal_ to the point, while in the latter case one demands some of these to be exactly _equal_ to the point, which is a condition much harder to get under control. Accordingly, a _coherence law_ in an [[(n,n)-category]] such as a [[bicategory]] ($n = 2$) or a [[tricategory]] ($n=3$) or a [[tetracategory]] ($n = 4$) is in degree $n+1$ a complicated _equation_ that asserts that a certain contractible space of higher morphisms is exactly equal to the point. 
@@ -41,7 +41,7 @@ It is the fact that this condition makes recourse among all [[(n,r)-categories]]
 
 We start the list of examples with a warning on how not to misunderstand the above definition.
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Warning
 
 The demand for contractible spaces of choices of [[associator]]s and [[unitor]]s is not to be confused with asserting contractible [[hom-space]]s in general (which would make the theory of $(n,r)$-categories trivial, anyqay!) 
@@ -54,7 +54,9 @@ But the role of the associator, which now is a 3-morphism witnessing the non-ass
 
 =--
 
-+-- {: .un_example}
+### Monoidal categories
+
++-- {: .num_example}
 ###### Example
 **(monoidal categories)**
 
@@ -63,7 +65,10 @@ The [[coherence theorem for monoidal categories]] asserts that the with the stan
 =--
 
 
-+-- {: .un_example}
+### Quasi-categories
+ {#QuasiCategories}
+
++-- {: .num_example #CoherenceForQuasiCategories}
 ###### Example
 **(quasi-categories)**
 
@@ -74,13 +79,16 @@ $$
   sSet(\Delta[2], C) \to sSet(\Lambda^1[2], C)
 $$
 
-is an acyclic [[Kan fibration]]. This means that its [[fiber]]s are [[contractible]] [[∞-groupoid]]s. But these fibers are exactly the spaces whose points are choices of [[composition]] rules, whose morphisms are comparison maps between these, and so on
+is an acyclic [[Kan fibration]]. This means that its [[fiber]]s are [[contractible]] [[∞-groupoid]]s. But these fibers are exactly the spaces whose points are choices of [[composition]] rules, whose morphisms are comparison maps between these, and so on. 
 
-(...)
+Therefore the contractibility of these fibers is the _coherence_ of the [[associators]] for the quasi-category.
+
 
 =--
 
-+-- {: .un_example}
+### Trimble $\omega$-categories
+
++-- {: .num_example}
 ###### Example
 **(Trimble $\omega$-categories)**
 
@@ -88,7 +96,9 @@ In a [[Trimble n-category]] the space of choices of composing a sequence of $n$ 
 
 =--
 
-+-- {: .un_example}
+### $n$-Groupoids
+
++-- {: .num_example}
 ###### Example
 
 In an [[n-groupoid]] modeled as a $(n+1)$-[[coskeletal]] [[Kan complex]], the coherence law is the condition that every $(n+1)$-sphere $\partial \Delta^{n+1}$ has a _unique_ filler. This says that the corresponding space of choices is a point.
@@ -99,7 +109,7 @@ More generally, for a [[homotopy n-type]] modeled as a [[Kan complex]], the cohe
 
 ## For other algebraic structures
 
-One can consider coherence laws for algebraic structures other than $(n,r)$-cagtegories. See [[coherence theorem]] for more.
+One can consider coherence laws for algebraic structures other than $(n,r)$-categories. See [[coherence theorem]] for more.
 
 
 [[!redirects coherence laws]]
