@@ -25,7 +25,7 @@ In [[higher algebra]]/[[higher category theory]] one can define (generalized) [[
 
 A standard example is the notion of _[[monoid object]]_ which make sense in a _[[monoidal category]]_, and the notion of _[[commutative monoid object]]_ which makes sense in a _[[symmetric monoidal category]]_.
 
-The term "micricosm principe" arises from the idea that the monoid object (the 'microcosm') can only thrive in a category (a 'macrocosm') that resembles itself. 
+The term "microcosm principle" arises from the idea that the monoid object (the 'microcosm') can only thrive in a category (a 'macrocosm') that resembles itself. 
 
 ## Formalization for algebras over (∞,1)-operads
 
