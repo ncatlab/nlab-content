@@ -10,9 +10,9 @@ Let $T$ be a triangulated category with arbitrary [[coproducts]]. Then $T$ is we
 
 1. an object $X$ of $T$ is zero if [S,X]=0 for all $S\in S_0$;
 1. for every set of maps $X_i\to Y_i$ in $T$, the induced map $[S,\coprod_I X_i]\to[S,\coprod_I Y_i]$ is surjective for all $S\in S_0$ whenever $[S,X_i]\to[S,Y_i]$ is surjective for all $i$ and all $S\in S_0$. 
-1. the objects of $S_0$ are $\alpha$-[[small]] for some cardinal $\alpha$.  
+1. the objects of $S_0$ are $\alpha$-[[compact object|small]] for some cardinal $\alpha$.  
 
-We recall that to say an object $S$ is $\alpha$-small is to say that every map $S\to\coprod_I X_i$ factors through some $S\to\coprod_J X_j$ where $\vert J\vert$ < $\alpha$.  
+We recall that to say an object $S$ is $\alpha$-small in a triangulated category is to say that every map $S\to\coprod_I X_i$ factors through some $S\to\coprod_J X_j$ where $\vert J\vert$ < $\alpha$.  
 
 ##References
 
