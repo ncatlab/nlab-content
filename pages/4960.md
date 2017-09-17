@@ -796,14 +796,17 @@ For $\mathcal{E} = Sh(CartSp)$ the [[sheaf topos]] over [[CartSp]]${}_{smooth}$ 
 
 ### Over a discrete site
 
-We discuss some cohesive toposes over [[site]]s $C$ with trivial [[coverage]]/[[Grothendieck topology|topology]], so that the [[category of sheaves]] is the [[category of presheaves]]
+We discuss some cohesive toposes over [[sites]] $C$ with trivial [[coverage]]/[[Grothendieck topology|topology]], so that the [[category of sheaves]] is the [[category of presheaves]]
 
 $$
   Sh(C) \simeq PSh(C)
   \,.
 $$
 
-#### Families of sets {#FamiliesOfSets}
+#### Families of sets 
+  {#FamiliesOfSets}
+
+We discuss an example of a cohesive topos over a [[cohesive site]] that is about the simplest non-trivial example that there is. Simple as it is, it does serve to already illustrate some key points. The following site is in fact also an [[∞-cohesive site]] and hence there is a corresponding example of a [[cohesive (∞,1)-topos]].
 
 Consider the site given by the [[interval category]] 
 
@@ -811,9 +814,9 @@ $$
   C = \{\emptyset \to *\}
 $$
 
-equipped with trivial [[Grothendieck topology|topology]]. This evidently has an [[initial object]] $\emptyset$ (which makes it cosifted) and a [[terminal object]] $*$.
+equipped with trivial [[Grothendieck topology|topology]]. This evidently has an [[initial object]] $\emptyset$ (which makes it [[cosifted category|cosifted]]) and a [[terminal object]] $*$.
 
-The category of sheaves = presheaves on this is the [[arrow category]] 
+The [[category of sheaves]] = [[category of presheaves|presheaves]] on this is the [[arrow category]] 
 
 $$
   Sh(\{\emptyset \to *\})
@@ -869,7 +872,11 @@ $$
 itself. Indeed, by the above interpretation, this sends each point to its cohesive component. It is not an epimorphism in general, because the fiber $S_i$ over an element $i$ may be empty: the cohesive component $i$ may have no points.
 
 
-This is the simplest special case of a general class of examples: for $C$ any [[small category]], we have the left and right [[Kan extension]] of presehaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
+#### Over a site with initial and terminal object
+
+The [above](#FamiliesOfSets) example is the simplest special case of a more general but still very simple class of examples. 
+
+First notice that for $C$ any [[small category]], we have the left and right [[Kan extension]] of presehaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
 
 $$
   (\lim_\to \dashv Const \dashv \lim_\leftarrow) :
@@ -883,7 +890,7 @@ $$
 
 If $C$ has a [[terminal object]] $*$ then 
 
-* $\lim_\leftarrow$ is given by evaluation on this object;
+* the colimit is given by evaluation on this object;
 
 * there is a further [[right adjoint]] $(\lim_\leftarrow \dashv CoConst)$
 
@@ -938,7 +945,7 @@ The formal dual of this statement is the following.
 
 If $C$ has an [[initial object]] $\emptyset$ then 
 
-* $\lim_\to$ is given by evaluation on this object;
+* the limit is given by evaluation on this object;
 
 * there is a further [[left adjoint]] $(L \dashv \lim_\to)$,
 
