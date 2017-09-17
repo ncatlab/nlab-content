@@ -459,27 +459,7 @@ $$
 
 where the vertical morphisms are $Const(U \to *)$, the point being that they exist for every $U \in C$ given the presence of the terminal object. It follows that such a natural transformation is given by any and one and the same [[function]] $f \colon S_1 \to S_2$.
 
-Notice next that a [[right adjoint]] to $\Gamma \colon [C^{op}, Set]\to Set$ certainly exists. We can compute it by the  [[Yoneda lemma]] and using the defining Hom-isomorphism of adjoints to be the functor $CoDisc \colon Set \to [C^{op}, Set]$ such that for $S \in Set$ the presheaf $CoDisc(S)$ is given over $U \in C$ by
-
-$$
-  \begin{aligned}
-   CoDisc(S)(U) & \underoverset{Yoneda}{\simeq}{\to} Hom_{[C^{op}, Set]}(U,CoDisc(S))
-    \\
-    & \underoverset{adjunction}{\simeq}{\to} Hom_{Set}(\Gamma(U), S)
-    \,.
-  \end{aligned}
-$$
-
-So we have an [[adjoint triple]] $(Const \vdash \Gamma \vdash CoDisc)$ where $Const$ is a [[full and faithful functor]]. By the discussion at _[fully faithful adjoint triples](adjoint+triple#FullyFaithFulAdjointTriples)_ it follows then that also $CoDisc$ is full and faithful.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-It is worthwhile to expand on the basic structure of the local presheaf topos $[C^{op}, Set]$ above a bit more. 
-
-Notice that the functor $Const$ has a [[left adjoint]] and a [[right adjoint]], and these are -- essentially by definition -- the [[colimit]] and the [[limit]] operations
+The functor $Const$ has a [[left adjoint]] and a [[right adjoint]], and these are -- essentially by definition -- the [[colimit]] and the [[limit]] operations
 
 $$
   (\underset{\leftarrow}{\lim} \vdash Const \vdash \underset{\to}{\lim})
@@ -489,7 +469,7 @@ which send a presheaf/functor $F \colon C^{op} \to Set$ to its [[colimit]] $\und
 
 Since adjoints are essentially unique, it follows that the [[global section]] functor $\Gamma \colon [C^{op}, Set]$ is given by taking the limit, $\Gamma \simeq \underset{\to}{\lim}$. 
 
-Notice then that the [[terminal object]] $* \in C$ is the [[initial object]] in the [[opposite category]] $C^{op}$. But the limit over a [[diagram]] with initial object is given simply by evaluation at that object, and so we have for any $F \in [C^{op}, Set]$ that
+Observe that the [[terminal object]] $* \in C$ is the [[initial object]] in the [[opposite category]] $C^{op}$. But the limit over a [[diagram]] with initial object is given simply by evaluation at that object, and so we have for any $F \in [C^{op}, Set]$ that
 
 $$
   \begin{aligned}
@@ -500,9 +480,27 @@ $$
 $$
 
 hence that the global section functor is simply given by evaluating a presheaf on the terminal object of $C$. 
- 
+
+Limits and colimit _in_ a presheaf category $[C^{op}, Set]$ are computed objectwise over $C$ (see at _[[limits and colimits by example]]_). Therefore evaluation at any object in $C$ preserves in limits and colimits, and in particular evaluation at the terminal object does. Therefore $\Gamma$ preserves all colimits. Hence by the [[adjoint functor theorem]] it has a further [[right adjoint]] $CoDisc$.
+
+We can compute it explicityl by the  [[Yoneda lemma]] and using the defining Hom-isomorphism of adjoints to be the functor $CoDisc \colon Set \to [C^{op}, Set]$ such that for $S \in Set$ the presheaf $CoDisc(S)$ is given over $U \in C$ by
+
+$$
+  \begin{aligned}
+   CoDisc(S)(U) & \underoverset{Yoneda}{\simeq}{\to} Hom_{[C^{op}, Set]}(U,CoDisc(S))
+    \\
+    & \underoverset{adjunction}{\simeq}{\to} Hom_{Set}(\Gamma(U), S)
+    \,.
+  \end{aligned}
+$$
+
+So in conclusion we have an [[adjoint triple]] $(Const \vdash \Gamma \vdash CoDisc)$ where $Const$ is a [[full and faithful functor]]. By the discussion at _[fully faithful adjoint triples](adjoint+triple#FullyFaithFulAdjointTriples)_ it follows then that also $CoDisc$ is full and faithful.
+
 =--
 
+
+
+ 
 
 
 +-- {: .num_prop}
