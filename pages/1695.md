@@ -92,6 +92,23 @@ In general, if $X$ is locally $n$-[[n-connected space|connected]], $\Omega X$ is
 The fundamental $n$-groupoid of a space $X$ ([[Trimble n-category|Trimblean]] for choice) can be topologised to be an internal $n$-groupoid in $\Top$ when $X$ is semi-locally $n$-connected. Furthermore, the homotopy groups of the $n$-groupoid, _a priori_ topological groups, are discrete.
 =--
 
+
+## Models
+
+There is a [[Quillen equivalence]]
+
+$$
+  (\Omega \dashv \bar W) 
+   : 
+  sGrp
+   \stackrel{\overset{\Omega}{\leftarrow}}{\underset{\bar W}{\to}}
+  sSet_0
+$$
+
+between the [[model structure on simplicial groups]] and the [[model structure on reduced simplicial sets]]. Its left adjoint $\Omega$ is a concrete model for the loop space construction with values in [[simplicial group]]s.
+
+See [[simplicial group]] and [[groupoid object in an (∞,1)-category]] for more details.
+
 ## Related concepts
 
 * [[loop space object]], [[free loop space object]],
@@ -117,5 +134,8 @@ The fundamental $n$-groupoid of a space $X$ ([[Trimble n-category|Trimblean]] fo
 
 * H. Wada, _Local connectivity of mapping spaces_, Duke Mathematical Journal, vol ? (1955) pp 419-425
 
+The simplicial loop group functor is discussed in chapter V, section 5 of
+
+* [[Paul Goerss]], J. Jardine, _Simplicial homotopy theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 [[!redirects loop spaces]]
