@@ -116,7 +116,8 @@ _[[numerical motives]]_.
 
 * [[Bruno Kahn]], [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
 
-* Sujatha, _Motives from a categorical point of view_.  Lecture notes (2008). [url](http://www.math.tifr.res.in/~sujatha/ihes.pdf)
+* R. Sujatha, _Motives from a categorical point of view_,  Lecture notes (2008) ([pdf](http://www.math.tifr.res.in/~sujatha/ihes.pdf))
+ {#Sujatha}
 
 
 category: algebraic geometry
