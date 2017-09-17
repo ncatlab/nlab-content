@@ -28,7 +28,8 @@ $$
 
 ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)). Here $Ell[\tfrac{1}{6}]$ is equivalently [[tmf0(2)]] ([Behrens 05](#Behrens05)) and as such this lift is analogous to the [[string orientation of tmf]] $M String \to tmf$.
 
-> hm, check how much structure the map really preserves...
+If this map of [[ring spectra]] could be shown to be "highly structured" in that it preserves [[E-∞ ring]] structure, then it would equivalently be a universal [[orientation in generalized cohomology|orientation]]  (see at [relation between orientations and genera](orientation+in+generalized+cohomology#RelationToGenera)).
+
 
 ## Definition
 
