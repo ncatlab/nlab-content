@@ -163,6 +163,8 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[ring spectrum]], [[algebra spectrum]], [[module spectrum]]
 
+[[!include k-monoidal table]]
+
 ## References
 
 Surveys include
@@ -174,7 +176,7 @@ about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/
 
 * [[Robert Thomason]], _Symmetric Monoidal Categories Model All Connective Spectra_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.8193))
 
-* J.F. Adams, _Infinite loop spaces_
+* [[John Adams]], _Infinite loop spaces_
 
 [[!redirects spectra]]
 [[!redirects prespectrum]]
