@@ -10,3 +10,5 @@ When intepreted as a [[binary relation]], $\Delta_X$ is the [[equality relation]
 The concept can be generalised to any [[category]] in which the [[product]] $X^2$ exists; see [[diagonal subobject]].
 
 A [[topological space]] $X$ is [[Hausdorff space|Hausdorff]] if and only if its diagonal is a [[closed subspace]] of $X^2$; this fact can be generalised to other notions of [[space]].
+
+The [[characteristic function]] of the diagonal subset is the [[Kronecker delta]].
