@@ -31,11 +31,11 @@ That also the "operational semantics" of GoI has an interpretation in [[category
 
 ## Properties
 
-### Relation to quantum operations
+### Relation to superoperators and quantum operations
  {#RelationToQuantumOperations}
 
 
-We discuss a relation of the GoI to [[quantum operations]]/[[completely positive maps]] in [[quantum physics]].
+We discuss a relation of the GoI to [[superoperators]]/[[quantum operations]] in [[quantum physics]].
 
 
 According to ([Abramsky-Haghverdi-Scott 02, remark 5.8](#AbramskyHaghverdiScott02), [Haghverdi 00b, section 6](#Haghverdi00b)) all the standard and intended interpretations of the GoI take place in those [[compact closed categories]] $Int(\mathcal{C})$ free on a [[traced monoidal category]] $\mathcal{C}$ (as discussed there). In these references therefore the notation $Int(-)$ from ([Joyal-Street-Verity 96](#JoyalStreetVerity96)) is changed to $\mathcal{G}(-)$, for "Geometry of Interaction construction" (see [Abramsky-Haghverdi-Scott 02, p. 11](#AbramskyHaghverdiScott02)).
@@ -54,7 +54,7 @@ $$
 
 in $\mathcal{C}$, and [[composition]] of two such morphisms $(A^+ , A^-) \to (B^+ , B^-)$ and $(B^+ , B^-) \to (C^+ , C^-)$ is given by [[trace|tracing out]] $B^+$ and $B^-$ in the evident way.
 
-We observe now that subcategories of such $Int(\mathcal{C})$ are famous in [[quantum physics]] as "categories of [[quantum operations]]", formalizing [[linear maps]] on spaces of [[operators]] on a [[Hilbert spaces]] that takes [[density matrices]] (hence mixed [[quantum states]]) to density matrices ("[[completely positive maps]]").
+We observe now that subcategories of such $Int(\mathcal{C})$ are famous in [[quantum physics]] as "categories of [[superoperators]]" or "categories of [[quantum operations]]", formalizing [[linear maps]] on spaces of [[operators]] on a [[Hilbert spaces]] that takes [[density matrices]] (hence mixed [[quantum states]]) to density matrices ("[[completely positive maps]]").
 
 First notice that if the [[traced monoidal category]] structure on $\mathcal{C}$ happens to be that induced by a [[compact closed category]] structure, then by compact closure the morphisms $(A^+ , A^-) \to (B^+ , B^-)$ in $Int(\mathcal{C})$ above are equivalently morphisms in $\mathcal{C}$ of the form
 
