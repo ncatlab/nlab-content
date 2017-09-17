@@ -15,6 +15,11 @@ Every wiki needs a sandbox! Just test between the horizontal rules below (`***` 
 
 $\'c$
 
+$\sum_{i=1}^{n}$
+
+*[irreps]: irreducible representation
+
+irreps
 
 ## Something in the Contents ##
 ## HomePage ##
