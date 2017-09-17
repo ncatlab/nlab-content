@@ -21,3 +21,8 @@ The class of line bundles has a nicer behaviour (in some ways) than the class of
 * [[circle n-bundle with connection]]
 
 [[!redirects line bundles]]
+
+[[!redirects complex line bundle]]
+[[!redirects complex line bundles]]
+
+
