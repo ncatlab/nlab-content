@@ -153,7 +153,7 @@ A [[Lie groupoid]] **integrates** a given foliation, if it [[Lie integration|Lie
 +-- {: .num_example}
 ###### Example
 
-For a simple foliation $\mathcal{D}$ of a manifold $X$, example \ref{SimpleFoliation}, hence one where there is a [[submersion]] 
+For a [[simple foliation]] $\mathcal{D}$ of a manifold $X$, example \ref{SimpleFoliation}, hence one where there is a [[submersion]] 
 
 $$ p_{\mathcal{D}} \;\colon\; X \to X/\mathcal{D}$$
 
@@ -431,7 +431,7 @@ example \ref{TraditionalSubmersions} applies degreewise. In degree 0 the above r
 +-- {: .num_example }
 ###### Example
 
-Let $X$ be a smooth manifold and  let $\mathcal{D}$ be a traditional [[foliation]] on $X$ which is a _simple foliation_, example \ref{SimpleFoliation}, 
+Let $X$ be a smooth manifold and  let $\mathcal{D}$ be a traditional [[foliation]] on $X$ which is a _[[simple foliation]]_, example \ref{SimpleFoliation}, 
 in that the [[leaf space]] $X/\mathcal{D}$ exists as a smooth manifold and the projection map $X \to X/\mathcal{D}$ is a [[submersion]].
 
 Then by the discussion at [[synthetic differential ∞-groupoid]], this projection map is also a [[formally smooth morphism]] in $\mathbf{H}$ according to def. \ref{GeometricAndEtale}. Moreover, being a quotient projection it is a [[1-epimorphism]] and hence exhibits the corresponding [[foliation groupoid]]
@@ -498,7 +498,7 @@ This means that if $\mathcal{G}_\bullet$ is an [[étale groupoid]] to start with
 
 We may suggestively summarize example \ref{TraditionalGeneralFoliation} in words as:
 
-"In cohesive higher geometry, every foliation is a simple foliation."
+"In cohesive higher geometry, every foliation is a [[simple foliation]]."
 
 Because the quotient map to the leaf space of a general foliation is always a [[submersion]]/[[formally smooth morphism]], just not always onto a manifold, but onto a higher space.
 
@@ -549,7 +549,7 @@ Then for $\mathcal{D} \;\colon\; X \to X//\mathcal{D}$ a traditional [[foliation
 +-- {: .num_example #SimpleFoliation}
 ###### Example
 
-For $X \to Y$ a [[submersion]] of [[smooth manifolds]], the connected [[fibers]] of the submersion constitute a foliation of $X$ whose [[codimension]] is the [[dimension]] of $Y$. Foliations of this form are called **simple foliations**.
+For $X \to Y$ a [[submersion]] of [[smooth manifolds]], the connected [[fibers]] of the submersion constitute a foliation of $X$ whose [[codimension]] is the [[dimension]] of $Y$. Foliations of this form are called **[[simple foliations]]**.
 
 =--
 
