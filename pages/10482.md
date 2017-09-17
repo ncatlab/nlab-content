@@ -20,6 +20,7 @@ Discussion of [[superalgebra]] and [[supergeometry]] involves, by definition, cr
 ## Topics
 
 ### Differential forms on supermanifolds
+ {#DifferentialFormsOnSupermanifolds}
 
 We discuss the sign rules for the [[de Rham complex]] of [[differential forms]] on a [[supermanifold]]. (See also [Deligne-Freed 99, section 6](#DeligneFreed99))
 
@@ -107,6 +108,22 @@ for all $\alpha,  \beta \in \Omega^\bullet(\mathbb{R}^{p|q})$ of homogeneous $\m
 Some examples:
 
 $$
+  x^{a_1} x^{a_2} = + x^{a_2} x^{a_1}
+$$
+
+$$
+  x^a \theta^\alpha = + \theta^\alpha x^a
+$$
+
+$$
+  \theta^{\alpha_1} \theta^{\alpha_2}
+  =
+  -
+  \theta^{\alpha_2} \theta^{\alpha_1}
+$$
+
+
+$$
   x^{a_1} (\mathbf{d}x^{a_2}) = + (\mathbf{d}x^{a_2}) x^{a_1}
 $$
 
@@ -122,14 +139,26 @@ $$
 $$
 
 $$
-  \mathbf{d}\theta^{\alpha_1}
+  \mathbf{d}x^{a_1}
   \wedge
-  \mathbf{d} \theta^{\alpha_2}
+  \mathbf{d} x^{a_2}
   =
-  +
-  \mathbf{d}\theta^{\alpha_2}
+  -
+  \mathbf{d} x^{a_2}
   \wedge
-  \mathbf{d} \theta^{\alpha_1}
+  \mathbf{d} x^{a_1}
+$$
+
+
+$$
+  \mathbf{d}x^a
+  \wedge
+  \mathbf{d} \theta^{\alpha}
+  =
+  -
+  \mathbf{d}\theta^{\alpha}
+  \wedge
+  \mathbf{d} x^a
 $$
 
 $$
@@ -141,6 +170,52 @@ $$
   \mathbf{d}\theta^{\alpha_2}
   \wedge
   \mathbf{d} \theta^{\alpha_1}
+$$
+
+### Cohomology of super Minkowski spacetime
+
+We discuss the [[Chevalley-Eilenberg algebra]] of [[super Minkowski spacetime]], regarded as a [[super translation Lie algebra]], equivalently as the [[quotient]] of the [[quotient]] of the 
+[[super Poincaré Lie algebra]] by the [[Lorentz Lie algebra]].
+
+This is the sub-algebra of the [above](#DifferentialFormsOnSupermanifolds) de Rham complex of the [[left invariant differential forms]]:
+
+$$
+  CE(\mathbb{R}^{d-1,1;N})
+  =
+  \Omega^\bullet_{li}(\mathbb{R}^{d-1,1;N})
+  \hookrightarrow
+  \Omega^\bullet(\mathbb{R}^{d-1,1;N})
+  \,.
+$$
+
+With the [above](#DifferentialFormsOnSupermanifolds) notation these are
+
+$$
+  \psi^\alpha \coloneqq \mathbf{d}\theta^\alpha
+$$
+
+$$
+  e^a \coloneqq \mathbf{d}x^a + \theta \Gamma^a \mathbf{d}\theta
+  \,.
+$$
+
+With the [above](#DifferentialFormsOnSupermanifolds) sign rules it follows that
+
+
+$$
+  e^{a_1} \wedge e^{a_2} = + e^{a_2} \wedge e^{a_1}
+$$
+
+$$
+  e^{a} \wedge \psi^\alpha = - \psi^\alpha \wedge e^a
+$$
+
+$$
+  \psi^{\alpha_1} \wedge \psi^{\alpha_2}
+  = 
+  + 
+  \psi^{\alpha_2} \wedge \psi^{\alpha_1}
+  \,.
 $$
 
 ## References
