@@ -4,6 +4,14 @@ Hodge theory is centered around fine structure seen at the level of (complex, ra
 
 Main historical contributors include W. Hodge, P. Griffiths, A. Grothendieck, P. Deligne. More recently a noncommutative generalization and refinement of Hodge theory is emerging in the work of [[Maxim Kontsevich|M. Kontsevich]] and collaborators (D. Kaledin, L. Katzarkov, T. Pantev...) with precursors in the works of [[Carlos Simpson|C. Simpson]], [[Mikio Sato|M. Saito]], C. Hertling and others. Another very interesting and complex picture is developing for a number of years in works of Goncharov. 
 
+The nomenclature "nonabelian"/"noncommutative" Hodge theory may be confusing - to clarify:
+
+[[nonabelian Hodge theory|Nonabelian Hodge theory]] refers to the generalization of classical Hodge theory for commutative spaces from abelian coefficients to nonabelian coefficients.
+
+[[Noncommutative Hodge theory]] refers to the generalization of classical Hodge theory from commutative geometry (e.g. algebraic varieties) to [[noncommutative geometry]] (e.g. [[dg-categories]] -- see also the page on [[noncommutative algebraic geometry]]). The coefficients in noncommutative Hodge theory are abelian.
+
+Ultimately, the goal is to develop a Hodge theory for noncommutative spaces with nonabelian coefficients.
+
 #References and related entries#
 
 * nlab: [[Hodge star]], [[nonabelian Hodge theory]], [[Lefschetz hyperplane theorem]]
