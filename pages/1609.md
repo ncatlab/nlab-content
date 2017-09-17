@@ -12,7 +12,7 @@ for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that the composites above are 
 >[[VictorPorton|Victor]]: I changed the earlier notion of partial ordered category where I was requiring partial order on the entire set of morphisms.
 
 +--{: .query}
-[[David Roberts]]: It makes no difference as long as the objects form a set, as $Pos$, as a full subcategory has coproducts, and so one can take what is defined above and form the disjoint union of the homsets, and even put the discrete partial order on the objects to get an internal category in $Pos$.
+[[David Roberts]]: It makes no difference as long as the objects form a set, as $Pos$ has small coproducts, and so one can take what is defined above and form the disjoint union of the homsets, and even put the discrete partial order on the objects to get an internal category in $Pos$.
 =--
 
 Compare this to the notion of category [[internal category|internal]] to the category [[Pos]] of [[poset]]s. 
@@ -23,7 +23,7 @@ Compare this to the notion of category [[internal category|internal]] to the cat
 [[David Roberts]]: I agree: the first definition is of a category enriched in [[Pos]], whereas the reference to source and target maps clearly talks about an internal category. I've edited it.
 =--
 
-Similarly, such a partially ordered category is a special kind of [[double category]], while a locally partially ordered category is a special kind of $2$-[[2-category|category]].
+Similarly, such a partially ordered category can be considered as a special kind of [[double category]], while a locally partially ordered category can be considered as a special kind of $2$-[[2-category|category]].
 
 ## Partially ordered $\dagger$-categories ##
 
@@ -45,7 +45,6 @@ For a partially ordered category with inverses I will call _entirely defined mor
 
 
 
-See more in [Funcoids and Reloids article](http://www.mathematics21.org/binaries/funcoids-reloids.pdf). Feel free to copy the information from this my article to nLab wiki.
 
 ## Partially ordered groupoids
 
