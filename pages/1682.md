@@ -71,6 +71,11 @@ $$
 
 [[!include chromatic tower examples - table]]
 
+### Anderson self-duality
+
+The [[spectrum]] $tmf$ is self-dual under [[Anderson duality]], more precisley $tmf[1/2]$ is Anderson-dual to $\Sigma^{21} tmf[1/2]$ ([Stojanoska 11, theorem 13.1](#Stojanoska11))
+
+
 
 ## Construction as the global sections of a derived structure sheaf {#Construction as global sections}
 
@@ -248,6 +253,10 @@ is in section 8 of
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  {#ABG10}
+
+The self-[[Anderson duality]] of $tmf$ is discussed in
+
+* {#Stojanoska11} [[Vesna Stojanoska]], Duality for Topological Modular Forms ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
 
 [[!redirects TMF]]
