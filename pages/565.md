@@ -27,58 +27,84 @@ A _concrete category_ is a [[category]] that looks like a category of "[[set]]s 
 +-- {: .num_defn}
 ###### Definition
 
-A __concrete category__ is a [[category]] $C$
-
-* equipped with a [[faithful functor]]
+A __concrete category__ is a [[category]] $C$ equipped with a [[faithful functor]]
   
   $$
     U : C \to Set
   $$
 
-  to the category [[Set]];
+to the category [[Set]]. We say a category $C$ is _concretizable_ if and only if it admits a faithful functor $U: C \to Set$. 
+=-- 
 
-* such that $U$ is [[representable functor|representable]] by some [[object]] $c_0 \in C$, in that $U \simeq C(c_0,-)$
 
-=--
++-- {: .num_remark}
+###### Remark 
 
-The object $c_0$ is called a [[generator]] of the category.
+Very often it is useful to consider the case where $U$ is [[representable functor|representable]] by some [[object]] $c_0 \in C$, in that $U \simeq C(c_0,-)$. For example, this is important for the statement of various concrete [[duality|dualities]] induced by [[dual adjunctions]]. We say in this case that $(C, U: C \to Set)$ is _representably concrete_. By definition, the object $c_0$ is then a [[generator]] of the category.
+
+We remark that the existence of a left [[adjoint functor|adjoint]] $F$ to $U: C \to Set$ implies that $U$ is representable by $F(1)$. Conversely, if $C$ has [[coproducts]] or even just [[copowers]], then representability of $U$ implies that $U$ has a left adjoint. 
+=-- 
 
 
 +-- {: .num_remark}
 ###### Remark
 
-Often the term "concrete category" is used without implying the second condition of representability. This second condition however is important for the statement of concrete [[duality|dualities]] induced by [[dual adjunctions]].
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-One can consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [The Joy of Cats](#JoyOfCats).  Then the (small) categories concrete over $X$ form a [[2-category]] $Cat(X)$.
+One can also consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [The Joy of Cats](#JoyOfCats).  Then the (small) categories concrete over $X$ form a [[2-category]] $Cat(X)$.
 
 =--
 
 
 ## Examples
 
-* $C = Set$ itself with $c_0 = \{\bullet\}$ the singleton set;
+The following furnish examples of concrete categories, with the first three representably concrete: 
 
-* $C$ any category which has an object $c_0$ which is "free on one generator", i.e which is the image under a functor $F : Set \to C$ [[adjoint functor|left adjoint]] to $U$ of the singleton set. 
-Then by definition of left adjoint and the above example, we have $C(F(\{\bullet\}),d) \simeq Set(\{\bullet\}, U(d)) \simeq U(d)$, naturally in $d$.
-This abstract nonsense indicates the usual collection of examples of concrete categories: for instance [[monoid]]s, [[group]]s, [[ring]]s, [[algebra]]s, etc. (... many more examples...)
+* $C = Set$ itself with generator $c_0 = \{\bullet\}$ the singleton set. 
 
-* Take $ C $ to be the category of [[Banach space]]s with morphisms those (everywhere-defined) linear transformations with norm bounded (above) by $ 1 $ (so $ \| T v \| \leq \| v \| $ for all $ v $ in the source).  Then there are two versions of $ U $ that one may use: one where $ U ( V ) $ (for $ V $ a Banach space) consists of *every* vector in $ V $, and one where $ U ( V ) $ consists of those vectors bounded by $ 1 $ (so the closed unit ball in $ V $).  The first may seem more obvious at first, but only the second is representable (by a $ 1 $-dimensional Banach space).
+* $C = Top$ with the generator $c_0$ taken to be the one-point space. 
 
-* A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]].
+* Any [[monadic functor]] $U: C \to Set$ is faithful (because it preserves equalizers and reflects isomorphisms) and has a left adjoint. As special cases, we have the usual collection of examples of concrete categories: [[monoid]]s, [[group]]s, [[ring]]s, [[algebra]]s, etc. 
 
-## Properties
+A category may be concretizable in more than one way: 
+
+* Take $ C $ to be the category of [[Banach space]]s with morphisms those (everywhere-defined) linear transformations with norm bounded (above) by $ 1 $ (so $ \| T v \| \leq \| v \| $ for all $ v $ in the source).  Then there are two versions of $ U $ that one may use: one where $ U ( V ) $ (for $ V $ a Banach space) consists of *every* vector in $ V $, and one where $ U ( V ) $ consists of those vectors bounded by $ 1 $ (so the closed unit ball in $ V $).  The first may seem more obvious at first, but only the second is representable (by a $ 1 $-dimensional Banach space). 
+
+* Insofar as categories such as $Set$, $Top$, $Vect_k$, etc. admit many generators, these categories may be rendered representably concrete in a variety of ways. Indeed, the category $Vect_k$ may be _monadic_ over $Set$ in many different ways. For example, if $V$ is $n$-dimensional, the functor $\hom(V, -): Vect_k \to Set$ is monadic and realizes $Vect_k$ as equivalent to the category of [[modules]] over the matrix algebra $\hom(V, V)$. 
+
+* Any Grothendieck topos is concretizable, but not necessarily (and typically not) representably concretizable. If $E = Sh(C, J)$ is the category of sheaves on a small site $(C, J)$, we have a familiar string of faithful functors 
+$$Sh(C, J) \hookrightarrow Set^{C^{op}} \stackrel{monadic}{\to} Set/C_0 \stackrel{\Sigma_{C_0}}{\to} Set.$$ 
+But if for example $E$ is the category of sheaves over $\mathbb{R}$, then no object $X$ can serve as a single generator of $E$, since it cannot detect differences between arrows $Y \stackrel{\to}{\to} Z$ whenever the support of $Y$ is strictly contained in the support of $X$. 
+
+* A concrete category that is equipped with the structure of a [[site]] in a compatible way is a [[concrete site]]. The category of [[concrete sheaves]] on a concrete site is concrete. 
+
+
+## Properties 
+
++-- {: .num_prop} 
+###### Proposition 
+Every small category $C$ is concretizable (since it fully and faithfully embeds in the concrete category $Set^{C^{op}}$). 
+=-- 
+
++-- {: .num_prop}
+###### Proposition 
+If $C$ is concretizable, so is $C^{op}$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+By assumption, there is a faithful functor $U^{op}: C^{op} \to Set^{op}$, and $\hom(-, \mathbf{2}): Set^{op} \to Set$ is monadic. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+Of course, since a category $C$ may possess a generator but no cogenerator, it does not follow that $C^{op}$ is representably concrete if $C$ is. 
+=-- 
 
 ### Characterization
 
 +-- {: .num_theorem}
 ###### Theorem
 
-A [[finitely complete category]] is concrete, in the sense that it admits a [[faithful functor]] to [[Set]], if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] [[subobject]]s.
+A [[finitely complete category]] is concretizable, i.e., admits a [[faithful functor]] to $Set$, if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] [[subobject]]s.
 
 =--
 
@@ -91,7 +117,12 @@ A [[finitely complete category]] is concrete, in the sense that it admits a [[fa
 
 "If" was proven in ([Freyd](#Freyd)).  The argument is rather more involved, passing through [[additive categories]], and is not reproduced here.
 
-=--
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+A relatively deep application of Isbell's result is that the homotopy category of topological spaces is _not_ concretizable, even though it is a quotient of $Top$ which _is_ concretizable. 
+=-- 
 
 ## Related concepts
 
