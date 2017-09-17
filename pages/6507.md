@@ -36,13 +36,18 @@ We have:
 
 * a ([[syntactic category]] of a) [[Lawvere theory]] $T$ (or the equivalent in any [[doctrine]]) $T$ is an _abstract general_;
 
-* a (generating) [[object]] in $T$ is an _abstract particular_ ;
-
 * the [[category]] $T Mod(E)$ of $T$-[[models]]/[[algebra over an algebraic theory|algebras]] in any context $E$ is a _concrete general_;
+
+* an [[object]] of any $T Mod(E)$ is a _particular_.
+
+That seems to be roughly what is suggested in [Lawvere](#Lawvere). Of course one could play with this further and consider further refinement such as
+
+* a (generating) [[object]] in $T$ is an _abstract particular_ ;
 
 * an [[object]] of any $T Mod(E)$ is a _concrete particular_.
 
-(In ([Lawvere](#Lawvere)) the item "abstract particular" is apparently not used.)
+
+
 
 ## Examples
 
@@ -56,7 +61,7 @@ An object in there is some [[group]]: a concrete particular.
 
 ## References
 
-* [[Bill Lawvere]], various lectures
+* [[Bill Lawvere]], various lectures, see for instance [here](http://conceptualmathematics.wordpress.com/2012/06/09/general-concepts-and-reality-prof-f-william-lawvere/)
  {#Lawvere}
 
 
