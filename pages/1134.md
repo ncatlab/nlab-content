@@ -205,8 +205,8 @@ This appears as ([Sachse, def. 4.13, 4.14](#Sachse)).
 
 ### Properties
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_prop}
+###### Proposition
 
 The categories of supermanifolds defined as locally ringed spaces, 
 def. \ref{SupermanifoldLocallyRingedSpace} and as manifolds over superpoints,
