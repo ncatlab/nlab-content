@@ -219,15 +219,18 @@ The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]
 
 If instead of [[∞-Grpd]] the target is the [[(∞,1)-category of (∞,1)-categories]] then the latter statement is true with the $(\infty,1)$-category of all sections replaced by [[(∞,1)-category of cartesian sections]].
 
+
 ### Relation to homotopy limits 
 
 In the context of [[model categories]] and in particular for [[simplicial model categories]] there is the notion of [[homotopy limit]] and [[homotopy colimit]]. These notions are models for quasi-categorical limits and colimits.
+
+See [[homotopy Kan extension]] for details.
 
 +-- {: .un_prop}
 ###### Proposition
 **(models by homotopy limits)**
 
-Let $K$ and $C$ be categories [[enriched category|enriched]] in [[Kan complex|Kan complexes]] and $F : K \to C$ a morphism of Kan-enriched categories (i.e. an [[sSet]]-[[enriched functor]]). Then the [[homotopy limit]] of $F$ (computed for instance as described at [[weighted limit]]) coincides with the quasi-categorical limit of $F$ under [[homotopy coherent nerve]].
+Let $K$ and $C$ be categories [[enriched category|enriched]] in [[Kan complex|Kan complexes]] and $F : K \to C$ a morphism of Kan-enriched categories (i.e. an [[sSet]]-[[enriched functor]]). Then the [[homotopy limit]] of $F$  coincides with the quasi-categorical limit of $F$ under [[homotopy coherent nerve]].
 
 This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]].
 
