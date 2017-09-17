@@ -9,15 +9,15 @@
 =--
 =--
 
-For a separate list of math blogs and forums see [[math blogs]]. Main wikis should belong to both lists. For math societies and institutes see [[math institutions]]. There is also page of [[math resources by individuals]]. The level up is [[math resources]]. 
+For a separate list of math blogs and forums see [[math blogs]]. Main wikis should belong to both lists. For math societies and institutes see [[math institutions]]. There is also page of [[math resources by individuals]]. The level up is [[math resources]]. See also [[list of mathematical software]]. 
 
-We list archives of **online** books, not the catalogues of physical libraries. We shall not list commercial subscription lists (especially of current journals) except semi-commercial jstor and few publication sites by the main mathematical societies.  
+We list archives of **online** books and videos, not the catalogues of physical libraries. We shall not list commercial subscription lists (especially of current journals) except semi-commercial jstor and few publication sites by the main mathematical societies.  
 
 #Contents#
 * table of contents
 {:toc}
 
-## Archives of articles, books, proceedings
+## Archives of articles, books, proceedings, videos
 
 #### Math and physics only
 
@@ -58,16 +58,13 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 * [Aarhus](http://www.imf.au.dk/forskning/publikationer/instituttets-serier/year/2010/series/pp) math institute, preprints and dissertations
 * encyclopaedias in Russian online: [dic.academic.ru](http://dic.academic.ru)
 
-#### Online computational engines
-
-* Wolphramalpha(http://www.wolframalpha.com)
-
 #### Not only math and physics
 
 * [JSTOR](http://www.jstor.org) -- a big repository of past issues of main, mainly American and English journals -- requires institution subscription
 * [DigiZeitschrift](http://www.digizeitschriften.de), Das Deutsche Digitale Zeitschriftenarchiv; includes [39 math journals](http://www.digizeitschriften.de/main/searchcol/?tx_goobit3_search[extquery]=DOCSTRCT%3Aperiodical&DC=510.mathematics)
 * [Gallica](http://gallica.bnf.fr) repository of free French books (in general area); includes old issues of Comptes Rendus
 * [Goettingen digital library](http://gdz.sub.uni-goettingen.de) -- mainly German journals
+* [Archive for Mathematical Sciences & Philosophy](http://www.archmathsci.org) -- video archive
 
 ## General lists of math resources
 * [Math on the Web](http://www.mathontheweb.org/mathweb/index.html) links maintained by American Mathematical Society
