@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher geometry - contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
 =--
 =--
 
