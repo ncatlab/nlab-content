@@ -1,4 +1,3 @@
-
 <div class="rightHandSide toc">
 [[!include infinity-Lie theory - contents]]
 </div>
@@ -70,7 +69,7 @@ More generally, for $X$ a $(2n-1)$-dimensional [[smooth manifold]] and $\langle 
 
 The article introducing  the concept is 
 
-* [[Shiing-Shen Chern]], [[James Simons]], _Characteristic forms and geometric invariant_  The Annals of Mathematics, Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69  ([jstor](http://www.jstor.org/pss/1971013))
+* [[Shiing-Shen Chern]], [[James Simons]], _Characteristic forms and geometric invariants_  The Annals of Mathematics, Second Series, Vol. 99, No. 1 (Jan., 1974), pp. 48-69  ([jstor](http://www.jstor.org/pss/1971013)) ([pdf](http://www.dpmms.cam.ac.uk/~hk244/chern-simons.cp.pdf))
 
 As it says in the introduction of this article, it was motivated by an attempt to find a combinatorial formula for the [[Pontrjagin class]] of a [[Riemannian manifold]] (i.e. that associated to the [[orthogonal group|O(n)]]-[[principal bundle]] to which the [[tangent bundle]] is associated) and the Chern-Simons form appeared as a boundary term that obstructed to original attempt to derive the Pontrrjagin class by integrating curvature classes simplex-by-simplex. But 
 A combinatorial formula of the kind these authors were looking for was however (nevertheless) given later in
