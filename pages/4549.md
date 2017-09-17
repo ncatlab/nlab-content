@@ -70,6 +70,8 @@ Also: The [[higher parallel transport|higher]] holonomy of [[circle n-bundles wi
   * [[holonomy group]]
 
   * [[special holonomy]]
+
+  * [[Wilson loop]]
   
   * [[fiber integration in ordinary differential cohomology]]
 
