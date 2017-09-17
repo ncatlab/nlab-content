@@ -54,7 +54,7 @@ There are various further conditions that can be imposed on a geometric morphism
 
   is a [[geometric embedding]] and hence makes $F$ a subtopos of $E$.
 
-## Properties
+## Properties {#Properties}
 
 +-- {: .un_prop}
 ###### Proposition
