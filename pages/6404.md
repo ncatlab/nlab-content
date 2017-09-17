@@ -51,6 +51,8 @@ More generally, in the presence of other [[background gauge field]]s, the Calabi
 
 * [[spontaneously broken symmetry]]
 
+* [string theory FAQ -- What does it mean to say that string theory has a "landscape" of solutions?](string%20theory%20FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
+
 ## References
 
 The original references are
