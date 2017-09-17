@@ -9,13 +9,15 @@ A zero-divisor is something that, like zero itself, can be multiplied by somethi
 
 ## Definitions
 
-Let $R$ be a [[commutative ring]] (or any [[ring]], or even a [[rig]]).
+Let $R$ be a [[commutative ring]] (or any [[ring]]).
 
 An element $x$ of $R$ is a __non-zero-divisor__ if, whenever $x y = 0$ or $y x = 0$, then $y = 0$.  An element $x$ is a __zero-divisor__ if there exists $y \ne 0$ such that $x y = 0$ or $y x = 0$.
 
 In [[constructive mathematics]], we want $\ne$ to be a [[tight apartness relation]] on $R$ in the definition of zero-divisor.  We also say that $x$ is a __strong non-zero-divisor__ if, whenever $y \ne 0$, then $x y \ne 0$ and $y x \ne 0$.  (The notion of (weak) non-zero-divisor makes sense even without any apartness relation.)
 
 If $R$ is (or may be) non-commutative, then we may distinguish __left__ and __right__ (non)-zero-divisors in the usual way.
+
+Note that, in a ring, an element is a non-zero-divisor if and only if the operation of multiplication by that element is [[injection|injective]].  This is probably the right definition of zero-divisor to use in a [[rig]], even though then it no longer literally has anything to do with being a divisor of [[zero]].
 
 
 ## Properties
