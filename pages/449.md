@@ -30,3 +30,9 @@ This is to be contrasted with the [[geometric definition of higher category]] wh
 ## References 
 
 (please...)
+
+
+[[!redirects algebraic definition of higher categories]]
+[[!redirects algebraic definition of higher category]]
+[[!redirects algebraic model of higher categories]]
+[[!redirects algebraic model of higher category]]
