@@ -45,5 +45,7 @@ See also [[pseudo-Riemannian manifold]]
 
 * [[Ricci tensor]], [[scalar curvature]]
 
+* [[hyperbolic manifold]]
+
 [[!redirects Riemannian manifolds]]
 [[!redirects Riemannian structure]]
