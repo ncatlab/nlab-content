@@ -339,7 +339,7 @@ More on this is
 
 Specifically the convolution $C^\ast$-algebras of [[bundle gerbes]] regarded as [[centrally extended groupoids]] (algebras whose [[modules]] are [[gerbe modules]]/[[twisted bundle]]) is discussed in section 5 of 
 
-* [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_ ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
+* [[Alan Carey]], Stuart Johnson, [[Michael Murray]], _Holonomy on D-Branes_, J. Geom. Phys. 52 (2004) 186-216 ([arXiv:hep-th/0204199](http://arxiv.org/abs/hep-th/0204199))
 
 A discussion of convolution algebras of [[symplectic groupoids]] (in the context of [[geometric quantization of symplectic groupoids]]) is in 
 
