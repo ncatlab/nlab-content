@@ -19,9 +19,15 @@ The [[D-brane]] of [[dimension]] $1+1$ in [[type IIB string theory]]. Also calle
 
 ## Properties
 
+### S-duality with the fundamental string
+
+Under [[S-duality]] the D1-brane mixes with the [[fundamental string]]. 
+
+A formalization of this in terms of the [[homotopy theory]] of the [[super L-infinity algebras]] which constitute the respective [[extended super spacetimes]] is in ([FSS 13](#FSS13)).
+
 ### Black hole entropy
 
-At low string coupling D1-brane/[[D5-brane]] systems are described by 2d [[CFT]], which is well understood. After passage to the corresponding strongly coupled [[black brane]] configurations in [[type IIB supergravity]], which are [[black hole]]s in the given [[Kaluza-Klein mechanism|compactification]], the [[entropy]] of these 2d CFTs matches the [[Bekenstein-Hawking entropy]] of these black holes.
+At low string coupling D1-brane/[[D5-brane]] [[bound states]] are described by 2d [[CFT]], which is well understood. After passage to the corresponding [[non-perturbative field theory|strongly coupled]] [[black brane]] configurations in [[type IIB supergravity]], which are [[black holes]] in the given [[Kaluza-Klein mechanism|compactification]], the [[entropy]] of these 2d CFTs matches the [[Bekenstein-Hawking entropy]] of these black holes. See at _[[black holes in string theory]]_ for more on this.
 
 This is parts of the [[AdS/CFT correspondence]]. See ([AGMOO, chapter 5](#AGMOO)).
 
@@ -35,6 +41,11 @@ Chapter 5.3 of
 
 * [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
  {#AGMOO}
+
+Formulation of the S-duality with the fundamental string in terms of the [[homotopy theory]] of [[super L-infinity algebras]] of the respective [[extended super spacetimes]] is in section 4.3 of 
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+  {#FSS13}
 
 
 
