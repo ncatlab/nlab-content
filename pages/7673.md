@@ -15,13 +15,13 @@
 
 ## Idea
 
-In the [[relation between type theory and category theory]], [[dependent types]] are said to correspond to morphisms regarded as indexed families.  That is, if a [[type]] $A$ corresponds to an [[object]], then a dependent type
+In the [[relation between type theory and category theory]], [[dependent types]] are said to correspond to morphisms regarded as indexed families.  That is, if a [[type]] $A$ corresponds to an [[object]] in some [[category]], then a [[dependent type]]
 
 $$ (x:A) \;\vdash\; (B(x) \;type) $$
 
-corresponds to a morphism $B\to A$.  We think of this morphism as a [[bundle]] or [[fibration]], whose [[fiber]] over $x:A$ is the type $B(x)$.  We can then say that [[type former|type forming operations]] such as [[dependent sum type]] and [[dependent product type]] correspond to category-theoretic operations of [[dependent sum]] and [[dependent product]].
+corresponds to a [[morphism]] $B\to A$ in that category.  We think of this morphism as a [[bundle]] or [[fibration]], whose [[fiber]] over $x:A$ is the type $B(x)$.  We can then say that [[type former|type forming operations]] such as [[dependent sum type]] and [[dependent product type]] correspond to category-theoretic operations of [[dependent sum]] and [[dependent product]].
 
-However, this correspondence is not quite precise; in the case of dependent types there are extra coherence issues.  [[substitution|Substitution]] in type theory should correspond to [[pullback]] in category theory; that is, given a term
+However, this correspondence is not quite precise; in the case of dependent types there are extra [[coherence]] issues.  [[substitution|Substitution]] in [[type theory]] should correspond to [[pullback]] in [[category theory]]; that is, given a term
 
 $$ (y:C) \;\vdash\; (f(y) : A) $$
 
@@ -29,11 +29,11 @@ corresponding to a morphism $f:C\to A$, the substituted dependent type
 
 $$ (y:C) \;\vdash\; (B(f(y)) \;type) $$
 
-should correspond to the pullback of $B\to A$ along $f$.  However, substitution in type theory is strictly associative.  That is, given also $g:D\to C$, the dependent type
+should correspond to the pullback of $B\to A$ along $f$.  However, substitution in type theory is strictly [[associativity|associative]].  That is, given also $g:D\to C$, the dependent type
 
 $$ (z:C) \;\vdash\; (B(f(g(z))) \;type)$$
 
-is syntactically the same regardless of whether we obtain it by substituting $y \coloneqq g(z)$ into $B(f(y))$, or $x \coloneqq f(g(z))$ into $B(x)$.  In category theory, however, pullback is not generally strictly associative, so there is a mismatch.  Similarly, every type-forming operation must also be strictly preserved by substitition/pullback.
+is [[equality|syntactically the same]] regardless of whether we obtain it by substituting $y \coloneqq g(z)$ into $B(f(y))$, or $x \coloneqq f(g(z))$ into $B(x)$.  In category theory, however, pullback is not generally strictly associative, so there is a mismatch.  Similarly, every [[type formation rule|type-forming operation]] must also be strictly preserved by substitition/pullback.
 
 The way this is generally dealt with is to introduce a category-theoretic structure which does have a "substitution" operation which is strictly associative, hence does correspond directly to type theory, and then show that any category can be "strictified" into such a stricter structure.  Unfortunately, there are many different such structures which have been used, differing only slightly.  On this page we define and compare them all.
 
@@ -45,14 +45,15 @@ So far, we do not assume anything about $C$ as a category.  Usually, one at leas
 
 Sometimes, we want to consider $C$ as a [[strict category]], that is, we consider its objects up to equality rather than isomorphism.  However, for most of the definitions below (until we get to contextual categories), it is still sensible to treat $C$ in an ordinary category-theoretic way, with the strictness living in the additional structure.
 
-All of this could be made more precise by assembling the structures considered below [[categories]], [[2-categories]], and/or [[strict 2-categories]].
+All of this could be made more precise by assembling the structures considered below into [[categories]], [[2-categories]], and/or [[strict 2-categories]].
 
 
 ### Comprehension categories
 
 +-- {: .num_defn #ComprehensionCategory}
 ###### Definition
-A **comprehension category** consists of a commutative triangle
+
+A **comprehension category** consists of a [[commuting diagram|commutative triangle]] of [[functors]]
 $$ \array{ E && \to && C^I\\ & \searrow && \swarrow\\ && C } $$
 where $C^I$ is the [[arrow category]] of $C$, and such that
 
@@ -60,48 +61,92 @@ where $C^I$ is the [[arrow category]] of $C$, and such that
 1. $E\to C^I$ takes [[cartesian morphisms]] in $E$ to cartesian morphisms in $C^I$ (i.e. to [[pullback]] squares in $C$).
 =--
 
-Note that we do not ask that $C^I\to C$ be a fibration (that would require $C$ to have all pullbacks), only that the *particular* morphisms in the image of $E$ are cartesian.
++-- {: .num_remark}
+###### Remark
 
-A comprehension category is called **full** if $E\to C^I$ is a [[fully faithful functor]].  It is called **split** if $E\to C$ is a [[split fibration]].  Note that in the latter case, we must consider $E$ at least to be a [[strict category]] (that is, we consider its objects up to equality rather than isomorphism) for the notion to make sense.
+We do not ask that $C^I\to C$ be a [[Grothendieck fibration|fibration]] (that would require $C$ to have all pullbacks), only that the *particular* morphisms in the image of $E$ are cartesian.
 
-In a comprehension category, we may regard the objects of $C$ as contexts, and the fiber $E^\Gamma$ of $E\to C$ over an object $\Gamma$ as the category of dependent types in context $\Gamma$.  If the comprehension category is split, then such dependent types have strictly associative substition.
+=--
+
++-- {: .num_defn #FullAndSplitComprehensionCategory}
+###### Definition
+
+A comprehension category is called 
+
+* **full** if $E\to C^I$ is a [[fully faithful functor]].  
+
+* **split** if $E\to C$ is a [[split fibration]].  
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+In the latter case, we must consider $E$ at least to be a [[strict category]] (that is, we consider its objects up to equality rather than isomorphism) for the notion to make sense.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The interpretation of this definition is as follows.
+
+In a comprehension category, we may regard the objects of $C$ as [[contexts]], and the [[fiber]] $E^\Gamma$ of $E\to C$ over an object $\Gamma$ as the category of [[dependent types]] in context $\Gamma$.  If the comprehension category is split, then such dependent types have strictly [[associativity|associative]] [[substitution]].
 
 The functor $E\to C^I$ assigns to each "type $A$ in context $\Gamma$" a new context which we think of as $\Gamma$ *extended* by a fresh [[variable]] of type $A$, and write as $\Gamma.A$.  This new context $\Gamma.A$ comes with a projection $\Gamma.A\to \Gamma$ (which forgets the fresh variable), and all substitutions in $E$ are realized as pullbacks in $C$.
 
+=--
 
 ### Display map categories
 
 +-- {: .num_defn #DisplayMapCategory}
 ###### Definition
-A **display map category** consists of a category $C$ together with a class $D$ of morphisms in $C$ called [[display maps]], such that all pullbacks of display maps exist and are display maps.
+
+A **[[display map category]]** consists of a category $C$ together with a [[class]] $D$ of [[morphisms]] in $C$ called [[display maps]], such that all [[pullbacks]] of display maps exist and are display maps.
+
 =--
 
 If $C$ is a display map category, then by defining $E$ to be the [[full subcategory]] of $C^I$ whose objects are display maps, we obtain a full comprehension category.  Thus, we have:
 
 +-- {: .num_lemma #DMCasCmpC}
 ###### Lemma
-Display map categories may be identified with comprehension categories for which the functor $E\to C^I$ is the inclusion of a full subcategory.
+Display map categories may be identified with comprehension categories, def. \ref{ComprehensionCategory}, for which the functor $E\to C^I$ is the inclusion of a [[full subcategory]].
+
 =--
 
-Working up to [[equivalence of categories]], as is usual in category theory, it is natural to consider display map categories to also be equivalent to *full* comprehension categories (those where $E\to C^I$ is merely fully faithful).
++-- {: .num_remark}
+###### Remark
 
-However, this breaks down when we are interested in *split* comprehension categories for modeling substitution with strict associativity, since then $E$ at least must be regarded as a [[strict category]] and considered up to [[isomorphism]] rather than equivalence.  Thus, display map categories may be said to be equivalent to non-split full comprehension categories, but "split display map categories" are not equivalent to split full comprehension categories.  (In fact, split display map categories are not very useful; usually in order to make pullbacks strictly associative we have to introduce extra "names" for the same objects.)
+Working up to [[equivalence of categories]], as is usual in [[category theory]], it is natural to consider display map categories to also be equivalent to *full* comprehension categories, def. \ref{FullAndSplitComprehensionCategory}, (those where $E\to C^I$ is merely fully faithful).
 
+However, this breaks down when we are interested in *split* comprehension categories, def. \ref{FullAndSplitComprehensionCategory}, for modeling substitution with strict associativity, since then $E$ at least must be regarded as a [[strict category]] and considered up to [[isomorphism]] rather than equivalence.  Thus, display map categories may be said to be equivalent to non-split full comprehension categories, but "split display map categories" are not equivalent to split full comprehension categories.  (In fact, split display map categories are not very useful; usually in order to make pullbacks strictly associative we have to introduce extra "names" for the same objects.)
+
+=--
 
 ### Categories with attributes
 
 +-- {: .num_defn #CategoryWithAttributes}
 ###### Definition
-A **category with attributes** is a comprehension category for which $E\to C$ is a [[discrete fibration]].
+
+A **category with attributes** is a comprehension category, def. \ref{ComprehensionCategory}, for which $E\to C$ is a [[discrete fibration]].
+
 =--
 
-That is, in a category with attributes we demand only that each context come with a [[set]] of dependent types in that context, rather than a category of such.  The intent is that the morphisms between two types in context $\Gamma$ should be determined by the morphisms in $C$ between the extended contexts over $\Gamma$.
++-- {: .num_remark}
+###### Remark
 
-Another way to convey this same intent with a comprehension category would be to ask that it be *full*, i.e. that the functor $E\to C^I$ be fully faithful.  In fact, any category with attributes gives rise to a full comprehension category by factoring the functor $E\to C^I$ into a [[bijective on objects functor]] followed by a fully faithful one.  In this way, we obtain:
+That is, in a category with attributes we demand only that each context comes with a [[set]] of [[dependent types]] in that context, rather than a category of such.  The intent is that the morphisms between two types in context $\Gamma$ should be determined by the morphisms in $C$ between the extended contexts over $\Gamma$.
+
+Another way to convey this same intent with a comprehension category would be to ask that it be *full*, def. \ref{FullAndSplitComprehensionCategory}, i.e. that the functor $E\to C^I$ be fully faithful.  
+
+=--
+
+In fact, any category with attributes gives rise to a full comprehension category by factoring the functor $E\to C^I$ into a [[bijective on objects functor]] followed by a fully faithful one.  In this way, we obtain:
 
 +-- {: .num_lemma #CWAasCmpC}
 ###### Lemma
-Categories with attributes are equivalent to full split comprehension categories.
+Categories with attributes, def. \ref{CategoryWithAttributes}, are equivalent to full split comprehension categories, def. \ref{FullAndSplitComprehensionCategory}.
 =--
 
 
@@ -111,11 +156,19 @@ A category with attributes specifies only for each "context", a set of "types" i
 
 \[ (\vec{x} : \Gamma), (a:A(\vec{x})) \;\vdash\; (f(\vec{x},a) : B(\vec{x})) \label{cmpcterm} \]
 
-in type theory.  A *category with families* specifies instead, for each context and each type in that context, a set of "terms belonging to that type".  These should be thought of as terms
+in type theory.  
+A *category with families* specifies instead, for each context and each type in that context, a set of "terms belonging to that type".  These should be thought of as terms
 
 \[ (\vec{x} : \Gamma) \;\vdash\; (f(\vec{x}) : B(\vec{x})) \label{cwfterm} \]
 
-in type theory.  Note that a term of the form (eq:cmpcterm) can equivalently be regarded as a term of the form (eq:cwfterm) by replacing $\Gamma$ by the extended context $\Gamma.A$, and $B$ by its substitution along the projection $\Gamma.A \to \Gamma$.
+in type theory.  
+
++-- {: .num_remark}
+###### Remark
+
+A [[term]] of the form (eq:cmpcterm) can equivalently be regarded as a term of the form (eq:cwfterm) by replacing $\Gamma$ by the extended context $\Gamma.A$, and $B$ by its substitution along the projection $\Gamma.A \to \Gamma$.
+
+=--
 
 The additional insight in the following definition is that if we expect all of these terms to be determined by the morphisms in $C$, as in a category with attributes or a full comprehension category, then instead of specifying the functor $E\to C^I$ and then asking either that it be fully faithful or that $E$ be discrete (removing the information about extra morphisms in $E$), if we specify the terms of the form (eq:cwfterm), then the functor $E\to C^I$ is determined by a universal property.
 
@@ -123,6 +176,7 @@ Let $Fam$ denote the category of families of sets.  Its morphisms are set-indexe
 
 +-- {: .num_defn #CategoryWithFamilies}
 ###### Definition
+
 A **category with families** is a category $C$ together with
 
 * A functor $F:C^{op} \to Fam$, written $F(\Gamma) = (Tm(A))_{A\in Ty(\Gamma)}$.
@@ -140,7 +194,9 @@ We can then prove:
 
 +-- {: .num_lemma #CwAareCwF}
 ###### Lemma
-Categories with attributes are equivalent to categories with families.
+
+Categories with attributes, def. \ref{CategoryWithAttributes} are equivalent to categories with families, def. \ref{CategoryWithFamilies}.
+
 =--
 +-- {: .proof}
 ###### Proof
@@ -154,27 +210,64 @@ Recall that if $C$ is a comprehension category, $\Gamma\in C$ is a "context" and
 
 +-- {: .num_defn #ContextualCategory}
 ###### Definition
-A **contextual category** is a category with attributes $C$, together with a *length function* $\ell : ob(C) \to \mathbb{N}$ such that
+
+A **contextual category** is a category with attributes $C$, def. \ref{CategoryWithAttributes}, together with a *length function* $\ell : ob(C) \to \mathbb{N}$ such that
 
 1. There is a unique object of length $0$, which is a [[terminal object]].
 1. For any $\Gamma\in C$ and $A\in E^\Gamma$, we have $\ell(\Gamma.A) = \ell(\Gamma)+1$.
 1. For any $\Delta\in C$ with $\ell(\Delta)\gt 0$, there exists a unique $\Gamma\in C$ and $A\in E^\Gamma$ such that $\Delta = \Gamma.A$.
+
 =--
 
-Since the definition refers to equality of objects, a contextual category $C$ must be a [[strict category]].  The idea which distinguishes a contextual category is that "every context must be built out of types" in a unique way.  This makes for the closest match with type theory; in fact we have
++-- {: .num_remark}
+###### Remark
+
+Since def. \ref{ContextualCategory} refers to [[equality]] of objects, a contextual category $C$ must be a [[strict category]].  
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+The idea which distinguishes a contextual category is that "every context must be built out of types" in a unique way.  
+
+=--
+
+This makes for the closest match with type theory; in fact we have
 
 +-- {: .num_theorem #CxtCareTT}
 ###### Theorem
-The category of contextual categories and (strictly) structure-preserving functors is [[equivalence of categories|equivalent]] to the category of dependent type theories and interpretations.
+
+The category of contextual categories, def. \ref{ContextualCategory}, and (strictly) structure-preserving functors is [[equivalence of categories|equivalent]] to the [[category of dependent type theories and interpretations]].
+
 =--
 
-Note that since contextual categories are strict categories, the category of such is really a 1-category, or perhaps a [[strict 2-category]].
++-- {: .num_remark}
+###### Remark
 
-Given any category with attributes $C$ possessing a terminal object, there is a canonical way to build a contextual category from it.  Choose a terminal object $1\in C$ (the resulting contextual category does not depend on this choice, up to isomorphism).  Define the objects of $cxt(C)$ to be the finite lists
+Since contextual categories are [[strict categories]], the category of such is really a [[1-category]], or perhaps a [[strict 2-category]].
 
-$$(A_0,A_1,\dots,A_n)$$
+=--
 
-such that $A_0 \in E^1$ and $A_{k+1} \in E^{1.A_0.A_1.\cdots .A_k}$ for all $k$.  Define the morphisms $(A_0,\dots,A_n) \to (B_0,\dots,B_m)$ in $cxt(C)$ to be the morphisms $1.A_0.A_1.\cdots.A_n \to 1.B_0.B_1.\cdots.B_m$ in $C$.  All the rest of the structure is induced in an evident way from $C$.
++-- {: .num_defn #ContextualFromAttributes}
+###### Definition
+
+Given any category with attributes $C$, def. \ref{CategoryWithAttributes},  possessing a [[terminal object]], there is a canonical way to build a contextual category $cxt(C)$, def. \ref{ContextualCategory}, from it.  
+
+1. Choose a [[terminal object]] $1\in C$ (the resulting contextual category does not depend on this choice, up to isomorphism).  
+
+1. The [[objects]] of $cxt(C)$ are the finite [[lists]]
+
+   $$(A_0,A_1,\dots,A_n)$$
+
+   such that $A_0 \in E^1$ and $A_{k+1} \in E^{1.A_0.A_1.\cdots .A_k}$ for all $k$.  
+
+1. The [[morphisms]] $(A_0,\dots,A_n) \to (B_0,\dots,B_m)$ in $cxt(C)$ are the morphisms $1.A_0.A_1.\cdots.A_n \to 1.B_0.B_1.\cdots.B_m$ in $C$.  
+
+All the rest of the structure on $cxt(C)$ is induced in an evident way from $C$.
+
+=--
 
 ## Examples
 
@@ -184,25 +277,59 @@ However, first we should mention the examples that come from type theory itself.
 
 ### Syntactic categories
 
-The [[syntactic category]] of any dependent type theory has all of the above structures.  Its objects are [[contexts]] in the theory, and the types in context $\Gamma$ form the set or category $E^\Gamma$.  The strict associativity of substitution in type theory makes this fibration automatically split.
++-- {: .num_example}
+###### Example
+
+The [[syntactic category]] of any [[dependent type theory]] has all of the above structures.  Its objects are [[contexts]] in the theory, and the types in context $\Gamma$ form the set or category $E^\Gamma$.  The strict associativity of substitution in type theory makes this fibration automatically split.
+
+=--
 
 
 ### Splitting fibrations
 
-There are standard constructions which can replace any fibration by an equivalent split fibration.  Therefore, given any comprehension category, we may replace it by a split one, then consider the underlying category with attributes, and finally pass to a contextual category as described above.
+There are standard constructions which can replace any [[Grothendieck fibration]] by an equivalent [[split fibration]].  Therefore, 
 
-Of course, comprehension categories are easy to come by; perhaps they arise most commonly as display map categories.  For instance, if $C$ has all pullbacks, then we can take all maps to be display.  If $C$ is a [[category of fibrant objects]], we can take the fibrations to be the display maps.
++-- {: .num_example #FromComprehensionToContextual}
+###### Example
 
-It turns out that for modeling additional type-forming operations, however, not all splitting constructions are created equal.  Given $E\to C$, one classical construction (due to Power) defines $E'\to C$, where an object of $E'$ over $\Gamma\in C$ consists of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), but it seems impossible to define dependent sums and products on it in a strict way.
+Given any comprehension category, def. \ref{ComprehensionCategory}, 
 
-A better choice is a construction due to Benabou, which defines the objects of $E'$ over $\Gamma\in C$ to be functors $C/\Gamma \to E$ over $C$ which map every morphism of $C/\Gamma$ to a cartesian arrow.  Type-theoretically, we can think of such an object as a type together with *specified* compatible substitutions along any possible morphism.  That type-formers can be extended in this case was proven by Martin Hofmann for dependent sums and products and extensional identity types, and by Michael Warren in the case of intensional identity types (but not for the eliminator).
+1. we may replace it by a split comprehension category, def. \ref{FullAndSplitComprehensionCategory}, 
 
+1. then consider the underlying category with attributes, def. \ref{CategoryWithAttributes}, 
+
+1. and finally pass to a contextual category by the construction in def. \ref{ContextualFromAttributes}.
+
+=--
+
+Of course, comprehension categories are easy to come by; perhaps they arise most commonly as [[display map categories]].  For instance, if $C$ has all [[pullbacks]], then we can take all maps to be [[display maps]].  If $C$ is a [[category of fibrant objects]], we can take the [[fibrations]] to be the display maps.
+
+So, for the record, we have in particular:
+
++-- {: .num_example #TypeTheoryModelFromLocallyCartesianClosedCategory}
+###### Example
+
+For $C$ a [[locally cartesian closed category]] $C$, it becomes a model for [[dependent type theory]]  by regarding its [[codomain fibration]] $C^I \to C$ as a comprehension category, def. \ref{ComprehensionCategory}, and then strictifying that as in example \ref{FromComprehensionToContextual}.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+It turns out that for modeling additional [[type-forming operations]], however, not all splitting constructions are created equal.  
+
+Given $E\to C$, one classical construction (due to [[John Power]]) defines $E'\to C$, where an object of $E'$ over $\Gamma\in C$ consists of a morphism $f:\Gamma \to \Delta$ in $C$ along with an object $A$ of $E$ over $\Delta$.  Type-theoretically, we can regard $(f,A)$ as a type $A$ with a "delayed substitution" $f$.  This produces a split fibration (the chosen cartesian arrows are given by composition of morphisms in $C$), but it seems impossible to define dependent sums and products on it in a strict way.
+
+A better choice is a construction due to [[Benabou]], which defines the objects of $E'$ over $\Gamma\in C$ to be functors $C/\Gamma \to E$ over $C$ which map every morphism of $C/\Gamma$ to a cartesian arrow.  Type-theoretically, we can think of such an object as a type together with *specified* compatible substitutions along any possible morphism.  That type-formers can be extended in this case was proven by [[Martin Hofmann]] for [[dependent sums]] and [[dependent products]] and [[extensional type theory|extensional]] [[identity types]], and by [[Michael Warren]] in the case of [[intensional type theory|intensional]] [[identity types]] (but not for the [[term elimination|eliminator]]).
+
+=--
 
 ### Universes
 
-Suppose given a particular morphism $p:\widetilde{U} \to U$ in $C$.  We can then define a category with attributes as follows: the discrete fibration $E\to C$ corresponds to the representable presheaf $C(-,U)$, and the functor $E\to C^I$ is defined by pullback of $p$.  We are thus treating $U$ as a "universe" of types.  We can then of course pass to a contextual category, as described above.
+Suppose given a particular morphism $p:\widetilde{U} \to U$ in $C$.  We can then define a category with attributes, def. \ref{CategoryWithAttributes}, as follows: the discrete fibration $E\to C$ corresponds to the representable presheaf $C(-,U)$, and the functor $E\to C^I$ is defined by pullback of $p$.  We are thus treating $U$ as a "[[universe]]" of types.  We can then of course pass to a contextual category, as described above.
 
-Type-forming operations can be extended strictly in this case by performing them once in the "universal" case, then acting by composition.  This construction is due to Voevodsky.  It also meshes quite well with type theories that contain internal universes, and in particular for modeling the [[univalence axiom]].
+Type-forming operations can be extended strictly in this case by performing them once in the "universal" case, then acting by composition.  This construction is due to [[Voevodsky]].  It also meshes quite well with type theories that contain internal universes -- a [[type of types]]-- , and in particular for modeling the [[univalence axiom]].
 
 Particular important universes include:
 
