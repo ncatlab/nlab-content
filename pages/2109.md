@@ -73,37 +73,47 @@ The other most common sorts of generalized category, such as [[internal categori
 ### Definition as a double category
  {#DefinitionAsDoubleCategory}
 
+We discuss now how a 2-category with proarrow equipment is equivalently a [[double category]] with extra structure. This description relates to viewing a 2-category as an [[internal category]] in [[Cat]] by the theory of _[[internal (∞,1)-categories]]_. For more on this relation see at _[Segal space - Examples - In 1Grpd](http://ncatlab.org/nlab/show/Segal%20space#ExamplesInIGrpd)_.
+
 Given a 2-category $K$ equipped with proarrows, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
 $$\array{A & \overset{H}{\to} & C \\
   ^f\downarrow & \Downarrow & \downarrow^g\\
-  B& \underset{K}{\to} & D}
+  B& \underset{J}{\to} & D}
 $$
-are the 2-cells $H \to K(g,f)$.  Note that if $K$ is a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
+are the 2-cells $H \to J(g,f)$.  Note that if $K$ is a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if $K$ and $M$ are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
 
-In $V Cat$, for example, the squares of the above form are transformations $H(b,a) \to K(g b,f a)$ natural in $a$ and $b$.  Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category defined above, and we can characterize the double categories that arise in this way.
+In $V Cat$, for example, the squares of the above form are transformations $H(b,a) \to J(g b,f a)$ natural in $a$ and $b$.  Arguably, this double category is a more fundamental and natural object than the 2-functor $V Cat \to V Prof$.  More generally, if $K$ is any 2-category equipped with proarrows, we can reconstruct $K$ and its proarrow equipment from the double category defined above, and we can characterize the double categories that arise in this way.
 
 One way to state this characterization is that they are those in which every vertical 1-cell $f\colon A\to B$ has both a [[companion]] (namely $B(1,f)$) and a [[conjoint]] (namely $B(f,1)$).  One can then recover $K$ and $M$ as the 
 [[vertical 2-category|vertical and horizontal 2-categories]], respectively, and the 2-functor $K\to M$ as the functor taking every vertical arrow to its companion.  Whenever a vertical arrow has both a companion $B(1,f)$ and a conjoint $B(f,1)$, we automatically have an adjunction $B(1,f)\dashv B(f,1)$, so this defines a proarrow equipment in the first sense.
 
 Another, perhaps even more natural, way to characterize these double categories is as those with the following property: given any "niche"
+
 $$\array{A & & B\\
   ^f\downarrow & & \downarrow^g\\
-  C& \underset{K}{\nrightarrow} & D}$$
+  C& \underset{J}{\nrightarrow} & D}
+$$
 there exists a "universal" or "cartesian" filler square
-$$\array{A & \overset{K(g,f)}{\to} & B\\
+$$
+\array{A & \overset{J(g,f)}{\to} & B\\
   ^f\downarrow & \Downarrow & \downarrow^g\\
-  C& \underset{K}{\nrightarrow} & D}$$
+  C& \underset{J}{\nrightarrow} & D}
+$$
 with the property that any other square 
-$$\array{X & \nrightarrow & Y\\
+$$
+  \array{X & \nrightarrow & Y\\
   ^{f h}\downarrow & \Downarrow & \downarrow^{g k}\\
-  C& \underset{K}{\nrightarrow} & D}$$
+  C& \underset{J}{\nrightarrow} & D}
+$$
 factors through the universal one uniquely:
-$$\array{X & \nrightarrow & Y\\
+$$
+ \array{X & \nrightarrow & Y\\
   ^{h}\downarrow & \exists! \Downarrow  & \downarrow^{k}\\
-  A & \overset{K(g,f)}{\to} & B\\
+  A & \overset{J(g,f)}{\to} & B\\
   ^f\downarrow & \Downarrow & \downarrow^g\\
-  C& \underset{K}{\nrightarrow} & D}$$
-The profunctor $K(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  We show that they are a companion and conjoint of $f$, respectively, as follows.
+  C& \underset{J}{\nrightarrow} & D}
+$$
+The profunctor $J(g,f)$ will, of course, turn out to be the same one we gave that name to earlier.  The proarrows $B(1,f)=U_B(id_B,f)$ and $B(f,1) = U_B(f,id_B)$ are then a special case of this construction.  We show that they are a companion and conjoint of $f$, respectively, as follows.
 
 By factoring the identity square
 $$\array{A & \overset{U_A}{\to} & A\\
@@ -150,7 +160,7 @@ are equal to the identity squares of $B(1,f)$ and $B(f,1)$ respectively.  These 
 
 Finally, we record the following.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Central Lemma
 There is a natural bijection between squares of the form
 $$\array{A_0 & \overset{H}{\to} & B_0\\
@@ -159,15 +169,18 @@ $$\array{A_0 & \overset{H}{\to} & B_0\\
   ^{f_2}\downarrow & \Downarrow & \downarrow^{g_2}\\
   A_2 && B_2\\
   ^{f_3}\downarrow && \downarrow^{g_3}\\
-  A_3 & \underset{K}{\to} & B_3 }$$
+  A_3 & \underset{J}{\to} & B_3 }
+$$
 and squares of the form
 $$\array{A_1 & \overset{A_1(f_1 ,1)}{\to} & A_0 & \overset{H}{\to} & B_0 & \overset{B_1(1,g_1)}{\to} & B_1\\
   ^{f_2}\downarrow && &\Downarrow & && \downarrow^{g_2}\\
-  A_2 & \underset{A_3(1,f_3)}{\to} & A_3 & \underset{K}{\to} & B_3 & \underset{B_3(g_3 ,1)}{\to} & B_2.}$$
+  A_2 & \underset{A_3(1,f_3)}{\to} & A_3 & \underset{J}{\to} & B_3 & \underset{B_3(g_3 ,1)}{\to} & B_2.}
+$$
+
 =--
 
-One way to think of this is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $K\colon C\nrightarrow D$ we have
-\[K(g,f) \cong C(1,f) \odot K \odot D(g,1) \label{coyon} \]
+One way to think of this is as saying that vertical arrows can be "slid around corners" to become horizontal arrows, turning them into the "representable proarrows" $B(1,f)$ or $B(f,1)$ (depending on whether you slid them "backwards" or "forwards" to get around the corner).  The bijection is just given by composing with the four special squares in the definition of companions and conjoints.  In particular, by a Yoneda argument, for any $f\colon A\to C$, $g\colon B\to D$, and $J\colon C\nrightarrow D$ we have
+\[J(g,f) \cong C(1,f) \odot J \odot D(g,1) \label{coyon} \]
 which was what we took as the the definition of $K(g,f)$ with the original definition of proarrow equipment.  Thus, the companions and conjoints determine the rest of the cartesian squares.  Note that this is an equipment-version of [Yoneda reduction](http://ncatlab.org/nlab/show/Yoneda+reduction).
 
 In conclusion, we have three definitions of proarrow equipment:
@@ -338,15 +351,15 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 
 * [[Ross Street]], "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
 
-* [[Aurelio Carboni]], Scott Johnson, Ross Street, and Dominic Verity, "Modulated bicategories" (Improved construction of $V Mod$ from $V Cat$.)
+* [[Aurelio Carboni]], Scott Johnson, [[Ross Street]], and [[Dominic Verity]], "Modulated bicategories" (Improved construction of $V Mod$ from $V Cat$.)
 
 * [[Dominic Verity]], "Enriched categories, internal categories, and change of base", Ph.D. Thesis.  (The connection with double categories.)
 
 * [[Michael Shulman]], "Framed bicategories and monoidal fibrations".  (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
 
-* G.S.H Cruttwell and Michael Shulman, "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
+* [[Geoff Cruttwell]], [[Michael Shulman]], "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
 
-* [[Renato Betti]], Aurelio Carboni, Ross Street, and [[Robert Walters]], "Variation through enrichment."  (Locally small fibrations as $Span$-enriched categories.)
+* Renato Betti, [[Aurelio Carboni]], [[Ross Street]], and Robert Walters, "Variation through enrichment."  (Locally small fibrations as $Span$-enriched categories.)
 
 A blog post surveying ideas of proarrow equipments, much of which has been copied over to this page:
 
