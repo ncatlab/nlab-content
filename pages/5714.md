@@ -59,7 +59,7 @@ The generalization of [[symplectic reduction]] for presymplectic manifolds, _[[p
 
 The [[geometric quantization]] of presymplectic manifolds by [[geometric quantization by push-forward]] is discussed in 
 
-* Ana Canas da Silva, [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_ ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
+* Ana Canas da Silva, [[Yael Karshon]], Susan Tolman, _Quantization of Presymplectic Manifolds and Circle Actions_, Trans. Amer. Math. Soc. 352 (2000), 525-552 ([arXiv:dg-ga/9705008](http://arxiv.org/abs/dg-ga/9705008))
 
 
 
