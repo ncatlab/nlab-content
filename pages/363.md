@@ -1,32 +1,49 @@
-#Contents#
 
-* automatic TOC goes here
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
 {:toc}
 
 
-#Idea#
+## Idea
 
 A $Gray$-category (or Gray category) is a certain type of [[semi-strict infinity-category|semi-strict]] [[3-category]], in which composition is strictly associative and unital, but the [[interchange law]] holds only up to isomorphism.
 
 
-#Definition#
+## Definition
 
 A **$Gray$-category** is a category [[enriched category|enriched]] over the [[symmetric monoidal category]] $Gray$, which is the category of [[strict 2-category|2-categories]] and [[strict 2-functors]] with the [[Gray tensor product]].
 
 
-#Coherence theorem#
+## Properties
+
+### Coherence theorem
 
 Gordon, Power, and Street proved that every [[tricategory]] (that is, weak 3-category) is equivalent to a $Gray$-category.  Not every tricategory is equivalent to a fully [[strict 3-category]]; any doubly-degenerate [[braided monoidal category]] which is not [[symmetric monoidal category|symmetric]] is an example.  So this is "the best one can do" in one sense, although there are other incomparable paths one can take, such as [[Simpson's conjecture|weakening units]] but keeping interchange strict.
 
 The inclusion of $Gray$-categories into tricategories is not uniquely determined -- there is a left and right-hand version (from a remark in Example 9.3.9 of Leinster's book cited below).  However, the two possible ways are canonically equivalent as tricategories.
 
+### Canonical model structure
 
-#$Gray$-groupoids#
+Gray-categories support a [[canonical model structure]] ([Lack](#Lack))
+
+
+
+## $Gray$-groupoids
 
 A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 
-# Examples
+## Examples
 
 * The prototypical Gray-category is [[Gray]], which consists of [[strict 2-categories]], strict 2-functors, pseudonatural transformations, and modifications.
 
@@ -41,15 +58,16 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 * Since pseudofunctors between strict 2-categories compose strictly associatively, and between any 2-categories $A$ and $B$ there is a strict 2-category $Ps(A,B)$ of pseudofunctors, pseudonatural transformations, and modifications, one might hope that there is a Gray-category consisting of strict 2-categories, *pseudofunctors*, pseudonatural transformations, and modifications, despite the fact that the prototypical example $Gray$ contains only strict 2-functors.  However, this is false, because in a Gray-category the [[whiskering]] of 2-cells by a 1-cell is strictly functorial relative to composition of 2-cells along 1-cells, but this fails for whiskering of pseudonaturals by a pseudofunctor.
 
 
-#References#
+## References
 
 * Gordon, Power, [[Ross Street|Street]], _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp.
 
 * [[Nick Gurski]], _Algebraic tricategories_, Ph. D. Thesis.
 
-* [[Tom Leinster]], Higher operads, higher categories
+* [[Tom Leinster]], _Higher operads, higher categories_
 
-* Gray-categories support a [[canonical model structure]].  See [[Steve Lack]], _A Quillen model structure for Gray-categories_ [arxiv:1001.2366](http://arxiv.org/abs/1001.2366)
+* [[Steve Lack]], _A Quillen model structure for Gray-categories_ ([arxiv:1001.2366](http://arxiv.org/abs/1001.2366))
+ {#LAck}
 
 
 [[!redirects Gray category]]
