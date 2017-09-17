@@ -21,6 +21,12 @@ In [[homotopy type theory]] a type of (small) types is what [[semantics|semantic
 
 Therefore the type of types is a refinement of the [[type of propositions]] which only contains the [[(-1)-truncated]]/[[h-level]]-1 types.
 
+## Related concepts
+
+* [[type of propositions]], [[subobject classifier]]
+
+* [[object classifier]]
+
 ## References
 
 * [[Erik Palmgren]], _On Universes in Type Theory_  ([pdf](http://www2.math.uu.se/~palmgren/universe.pdf))
@@ -28,3 +34,5 @@ Therefore the type of types is a refinement of the [[type of propositions]] whic
 [[!redirects types of types]]
 [[!redirects universe of types]]
 [[!redirects universes of types]]
+
+[[!redirects Type]]
