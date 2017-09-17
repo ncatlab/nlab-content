@@ -223,7 +223,7 @@ Any subcategory $B\subset C^{\bar{A}}$ containing $Im(C^R)$ determines a Q-subca
 +-- {: .num_defn #DomainAndCodomainFibration}
 ###### Proposition
 
-For $A$ any [[category]], write $\bar A := A^I$ for its [[arrow category]].
+For any [[category]] $A$, write $\bar A := A^I$ for its [[arrow category]].
 This comes equipped with the [[codomain fibration]] $cod : \bar A \to A$ and the [[domain cofibration]] $dom : \bar A \to A$. Both have a joint [[section]] $\epsilon : A \to \bar A$ by a [[full and faithful functor]] that assigns identity morphisms. These form a triple of [[adjoint functor]]s
 
 $$
@@ -320,6 +320,12 @@ The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the sub
 
 (needs explanation)
 
+### The Q-category factoring a fully faithful factor
+
+Any fully faithful functor among small categories $F: A\to B$ factors canonically into the composition $A\stackrel{u^*}\to \bar{A}\hookrightarrow B$ where $\bar{A}\subset B$ is the full subcategory of $B$ whose objects are all $b$ in $Ob B$ such that $a\mapsto B(F(a),b)$ is a representable functor $A^{op}\to Set$, and $u^*$ is the corestriction of $F$ to $\bar{A}$. This corestriction makes sense: $F$ is fully faithful, hence $B(F(a),F(a)) = B(a,a)$, i.e. $F(a)\in \bar{A}$ for all $a$ in $Ob A$. For each $b\in \bar{A}$, define now $u_*(b)$ as the functor representing $B(F(-),b)$, i.e. by $\bar{A}(u^*(a),b) = B(F(a),b) \cong B(a,u_*(b))$
+(KR NcSpaces A1.1.1). This relation on objects extends to an adjunction $u^*\dashv u_*$ with $u^*$ fully faithful. 
+
+
 ### Quasi-(co)-sites
 
 (...)
@@ -340,9 +346,9 @@ $$
 
 Call this a **quasi-cosite** if
 
-1. for any two cosieves in $\mathcal{T}$ also their intersection is in $\mathcal{T}$;
+1. for any two cosieves in $\mathcal{T}$ their intersection is also in $\mathcal{T}$;
 
-1. for any cosive in $\mathcal{T}$ also any cosieve containing it is in $\mathcal{T}$.
+1. for any cosive in $\mathcal{T}$ any cosieve containing it is also in $\mathcal{T}$.
 
 
 =--
@@ -352,7 +358,7 @@ This is ([KontsevichRosenberg, 2.2](#KontsevichRosenberg)).
 +-- {: .num_defn #QuasiCoSiteAssociatedToQCategory}
 ###### Definition
 
-For $\mathbb{A}$ a Q-category, the **quasi-cosite associated** with $\mathbb{A}$ is the Q-category $\mathcal{T}\mathbb{A}$ defined by...
+For any Q-category $\mathbb{A}$, the **quasi-cosite associated** with $\mathbb{A}$ is the Q-category $\mathcal{T}\mathbb{A}$ defined by...
 
 =--
 
@@ -361,7 +367,7 @@ The following is supposed to be the standard quasi-cosite for non-commutative ge
 +-- {: .num_defn #NCQuasiCosite}
 ###### Definition
 
-For $k$ any [[ring]], let $A := Alg_k$ be the category of [[associative algebra]]s over $k$. Let $\bar A \subset A^I$ be the [[full subcategory]] of the [domain fibration](DomainAndCodomainFibration) on the **faithfully flat** morphisms, hence those morphism $\phi : R \to T$ in $Alg_k$ such that the induced
+Let $k$ be a [[ring]] and $A := Alg_k$ the category of [[associative algebra]]s over $k$. Let $\bar A \subset A^I$ be the [[full subcategory]] of the [domain fibration](DomainAndCodomainFibration) whose objects are the **faithfully flat** morphisms, i.e. those morphisms $\phi : R \to T$ in $Alg_k$ such that the induced
 
 $$
   \phi^* : R Mod \to T Mod
@@ -381,7 +387,7 @@ This is ([KontsevichRosenberg, A.1.9.2](#KontsevichRosenberg)).
 
 Generally, [[infinitesimal object|infintiesimal thickenings]] are characterized by [[coreflective subcategory|coreflective embeddings]]:
 
-A characteristic property of an [[infinitesimally thickened point]] $D$ is that for $X$ any object without infinitesimal thickening, there are in general nontrivial morphisms $D \to X$, but there is only a unique morphism $X \to D$, reflecting the fact that $D$ has only a single global point. Thus if by $i : C \to \bar C$ we denote the inclusion of objects $X$ without infinitesimal thickening into the collection of possibly infinitesimally thickened objects, and by $p : \bar C \to C$ the projection that contracts away the infinitesimal extension, we have indeed an [[adjunction]]
+A characteristic property of an [[infinitesimally thickened point]] $D$ is that for any object $X$ without infinitesimal thickening, there are in general nontrivial morphisms $D \to X$, but there is only a unique morphism $X \to D$, reflecting the fact that $D$ has only a single global point. Thus if by $i : C \to \bar C$ we denote the inclusion of objects $X$ without infinitesimal thickening into the collection of possibly infinitesimally thickened objects, and by $p : \bar C \to C$ the projection that contracts away the infinitesimal extension, we have indeed an [[adjunction]]
 
 $$
   \bar C(i(X), D) \simeq C(X, p(D)) \simeq C(X,*) \simeq *
@@ -596,7 +602,7 @@ This appears as [Kontsevich-Rosenberg, 3.1.2, 3.1.4](#KontsevichRosenbergSpaces)
 +-- {: .num_note #PresheafSheafCondition}
 ###### Note
 
-Let $\mathbb{A} : \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ be a Q-category for $A$ a [[small category]], let $C$ be a category with all small [[limit]]s. Then the Q-category of presheaves from prop \ref{PresheafQCategories} has an extra right adjoint $u^!_C := Ran_{u^*}$
+Let $\mathbb{A} : \bar A \stackrel{\overset{u^*}{\leftarrow}}{\underset{u_*}{\to}} A$ be a Q-category where $A$ is a [[small category]], and let $C$ be a category with all small [[limit]]s. Then the Q-category of presheaves from prop \ref{PresheafQCategories} has an extra right adjoint $u^!_C := Ran_{u^*}$
 
 $$
   C^{\mathbb{A}} : 
