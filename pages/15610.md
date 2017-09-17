@@ -1,0 +1,1 @@
+define or explain the  Hausdorff locally convex space?
