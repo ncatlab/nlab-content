@@ -1,3 +1,4 @@
+[[!redirects fibration sequence]]
 <div class="rightHandSide toc">
 [[!include infinity-limits - contents]]
 ***
