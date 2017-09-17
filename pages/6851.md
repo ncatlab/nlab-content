@@ -1,13 +1,11 @@
 
-
-* [Stanford Encyclopedia of Philosophy](http://plato.stanford.edu/)
-
+* [Stanford Encyclopedia of Philosophy](http://plato.stanford.edu)
 
 
 ## Related entries 
 
-* [[mathematics resources]]
+* [[math resources]] -- top level redirect to our lits of math, physics, philosophy resources of $n$Lab
 
-* [[physics resources]]
+* [[physics resources]] -- specialized list for theoretical physics
 
-* **philosophy resources**
+* [[philosophy]], [[logic]]
