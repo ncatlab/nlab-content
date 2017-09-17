@@ -38,8 +38,6 @@ A compact closed category is a [[star-autonomous category]] with the [[tensor un
 ## Related concepts
 
 * [[compact closed 2-category]]
-* [[linguistics|natural language syntax]]
-
 
 ## References
 
