@@ -5,6 +5,8 @@
 
 * [[number theory and physics]]
 
+* [[Arthur-Selberg trace formula]]
+
 ## References
 
 * Wikipedia, _[Selberg trace formula](http://en.wikipedia.org/wiki/Selberg_trace_formula)_
