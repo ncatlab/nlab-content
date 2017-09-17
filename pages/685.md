@@ -22,7 +22,7 @@
 
 A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-category]].  There are three notable changes when passing from ordinary 1-limits to 2-limits:
 
-1. Since in a 2-category we avoid [[evil]], the "cones" in a 2-limit are required to commute only up to [[2-morphism|2-isomorphism]].
+1. In order to satisfy the [[principle of equivalence]], the "cones" in a 2-limit are required to commute only up to [[2-morphism|2-isomorphism]].
 
 2. The [[universal property]] of the limit is expressed by an [[equivalence of categories]] rather than a [[bijection]] of [[sets]].  This means that 
 
