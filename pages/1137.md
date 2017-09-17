@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -11,7 +10,7 @@ Pairs of adjoint functors between the categories of sheaves appear in varius set
 For example, the [[right adjoint]] part $f_*$ of any [[geometric morphism]] 
 
 $$  
-  (f^* \dashv f_*) \;\; : E_1  \stackrel{\leftarrow}{\to} E_2
+  (f^* \dashv f_*) \;\; : E_1  \leftrightarrows E_2
 $$
 
 of [[topos]]es is called a **direct image**.
