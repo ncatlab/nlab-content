@@ -59,6 +59,7 @@ see last remark of section 6.1.3 .
 
 Wikipedia\'s definition (at time of this writing, and phrased in the language of [[homotopy theory]]) is rather a [[unitoid]] object in the $(\infty,1)$-category [[Top]].
 
+* MathOverflow: [homotopy-associative-h-space-and-coh-space](http://mathoverflow.net/questions/16711/homotopy-associative-h-space-and-coh-space)
 
 [[!redirects H-spaces]]
 [[!redirects H-monoid]]
