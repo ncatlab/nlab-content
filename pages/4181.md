@@ -36,7 +36,7 @@ Here $S_n$ is the [[symmetric group]], which acts on the space $O_n$ of $n$-ary 
 
 * Dominique Manchon, [A short survey on pre-Lie algebras](http://math.univ-bpclermont.fr/~manchon/biblio/ESI-prelie2009.pdf)
 
-Third, the Hochschild [[chain complex]] of any space, with grading shifted down by one, can be given the structure of a '[[graded object|graded]] pre-Lie algebra', as discovered by Gerstenhaber and described here:
+Third, the [[Hochschild cohomology|Hochschild]] [[chain complex]] of any associative algebra, with grading shifted down by one, can be given the structure of a '[[graded object|graded]] pre-Lie algebra', as discovered by Gerstenhaber and described here:
 
 * Justin Thomas, [Graduate student seminar: Hochschild cohomology](http://www.math.northwestern.edu/~jdthomas/Talk%20Notes/Hoch%20Cohomology.pdf)
 
