@@ -1,10 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Definition
 
-Let $k$ be a field with $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional vector space $V$ together with a 
+Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional [[vector space]] $V$ together with a 
 
 * A nondegenerate symmetric bilinear form $\langle , \rangle: V \otimes V \to k$, 
 
@@ -30,7 +41,9 @@ and this will be frequently used in the sequel.
 
 Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \neq 0$. From $N(v) = N(e v) = N(e)N(v)$, it follows that $N(e) = 1$. 
 
-## Basic identities
+## Properties
+
+### Basic identities
 
 The arrangements of the proofs below are based in part on the treatments by Conway and Smith, and by Springer and Veldkamp (see references below). 
 
@@ -70,7 +83,7 @@ $$\langle u v + w v, u x + w x \rangle = \langle u v, u x \rangle + \langle w v,
 and now we equate the right-hand sides and cancel to get the result. 
 =--
 
-### Conjugation identities 
+#### Conjugation identities 
 
 In any composition algebra, we may define a **conjugation** operator by 
 
@@ -179,7 +192,7 @@ We have $w(u v) = (w u)v$ if $w$ is either $e$ or $\bar{u}$, and $u$ is a linear
 
 These are the two axioms as given in [[alternative algebra]], but we remark that often a third alternative law is considered: $u (v u) = (u v) u$. For discussion of this in composition algebras, see the section on Moufang identities below. 
 
-## Cayley-Dickson doubling construction
+### Cayley-Dickson doubling construction
 
 This is essentially the same as the [[Cayley-Dickson construction]], but in this section it is applied specifically to composition algebras where we have to deal with a norm, whereas the general construction applies to general (nonassociative) algebras equipped with an anti-involution. 
 
@@ -259,7 +272,7 @@ $$\langle (\alpha v)(\alpha x), y \rangle \stackrel{Conj}{=} -\langle \alpha v, 
 These identities, combined with nondegeneracy of the form, give the result. 
 =--
 
-### Possible dimensions are 1, 2, 4, and 8. 
+#### Possible dimensions are 1, 2, 4, and 8. 
 
 The calculation expressed by the fundamental theorem just stated has some remarkable consequences: 
 
@@ -313,7 +326,7 @@ Hence the doubling process may be iterated three times at most.
 
 This same result can also be proven using [[string diagram]] calculus.  See [this paper](http://math.ucr.edu/home/baez/Hurwitz.pdf) for a nice exposition of that route.
 
-## Hurwitz's Theorem
+### Hurwitz's Theorem
 
 The classification of composition algebras over specific fields (e.g., [[number field]]s, [[local field]]s) can be a bit intricate; in this section we concentrate solely on the classical case where $k = \mathbb{R}$, where the results have been known for a long time. 
 
@@ -359,7 +372,7 @@ Thus, we have established
 The only division composition algebras over $\mathbb{R}$ are the reals, complexes, quaternions, and octonions. 
 =-- 
 
-### Split composition algebras
+#### Split composition algebras
 
 Now we turn to split composition algebras $V$. It turns out that the structure of these is _not_ specific to the field $\mathbb{R}$: the classification of possible split composition algebras is the same over any field (see the text by Springer and Veldkamp), although we will continue to work over $\mathbb{R}$ as we describe them below. 
 
@@ -410,7 +423,7 @@ y & s
 \right) = r s - \langle x, y \rangle
 $$
 
-## Moufang identities
+### Moufang identities
 
 Further consequences of the composition algebra axioms include the Moufang laws which are important in the study of octonions. 
 
@@ -449,17 +462,18 @@ For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v
 
 ## References
 
-* [wikipedia](http://en.wikipedia.org/wiki/Composition_algebra)
-
 * Markus Rost, _On the dimension of a composition algebra_, Documenta  Mathematica __1__ (1996), 209-214, [files](http://www.math.uni-bielefeld.de/documenta/vol-01/10.html) Abstract: "The possible dimensions of a composition algebra are 1, 2, 4, or 8. We give a tensor categorical argument."
 
-* John Baez's [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
+* [[John Baez]]'s [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
 
-* Bruce W. Westbury, [Hurwitz's Theorem](http://math.ucr.edu/home/baez/Hurwitz.pdf).
+* [[Bruce Westbury]], _[Hurwitz's Theorem](http://math.ucr.edu/home/baez/Hurwitz.pdf)_
 
-* John H. Conway, Derek A. Smith, _On Quaternions and Octonions_, A.K. Peters, 2003. 
+* [[John Conway]], Derek A. Smith, _On Quaternions and Octonions_, A.K. Peters, 2003. 
 
 * T.A. Springer, F.D. Veldkamp, _Octonions, Jordan algebras, and exceptional groups_, Springer Monographs in Mathematics, Springer-Verlag 2000. 
+
+* [wikipedia](http://en.wikipedia.org/wiki/Composition_algebra)
+
 
 Related $n$lab entries: [[alternative algebra]], [[Cayley-Dickson construction]]
 
