@@ -17,7 +17,7 @@
 
 ## Idea
 
-The term _discrete $\infty$-groupoid_ or _bare $\infty$-groupoid_ is essentially synonymous to just _[[∞-groupoid]]_ . It is used for emphasis in contexts where one considers $\infty$-groupoids with extra [[cohesive (∞,1)-topos|cohesive]] [[stuff, structure, property|structure]] to indicate that this extra structure is being disregarded, or rather that the special case of [[discrete space|discrete]] such structure is considered.
+The term _discrete $\infty$-groupoid_ or _bare $\infty$-groupoid_ or _geometrically [[discrete object|discrete]] [[geometric homotopy type]]_ is essentially synonymous to just _[[∞-groupoid]]_ or just _[[homotopy type]]_. It is used for emphasis in contexts where one considers $\infty$-groupoids with extra [[geometric homotopy type|geometric structure]] (e.g. [[cohesive (∞,1)-topos|cohesive]] [[stuff, structure, property|structure]]) to indicate that this extra structure is being disregarded, or rather that the special case of [[discrete space|discrete]] such structure is considered.
 
 ## Definition
 
@@ -330,3 +330,6 @@ where much of the above material is taken from.
 
 [[!redirects discrete infinity-group]]
 [[!redirects discrete infinity-groups]]
+
+[[!redirects geometrically discrete homotopy type]]
+[[!redirects geometrically discrete homotopy types]]
