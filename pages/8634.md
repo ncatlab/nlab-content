@@ -65,6 +65,8 @@ $$
 
 =--
 
+(e.g. [Sullivan 70, first pages](#Sullivan70))
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -85,6 +87,9 @@ The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of
 * [[completion of a ring]]
 
 ## References
+
+* {#Sullivan70} [[Dennis Sullivan]], _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
+
 
 * [[The Stacks Project]], 10.9. _Localization_
 
