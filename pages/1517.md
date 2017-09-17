@@ -1,10 +1,10 @@
-For a category $C$ and endofunctor $F$, a **coalgebra of** $F$ is an object $X$ in $C$ and a map $\alpha: X \to F(X)$. (The object $X$ may be called the __carrier__ of the coalgebra)
+For a [[category]] $C$ and [[endofunctor]] $F$, a **[[coalgebra]] of** $F$ is an [[object]] $X$ in $C$ and a map $\alpha: X \to F(X)$. (The object $X$ may be called the __carrier__ of the coalgebra)
 
-Given two coalgebras $(x, \eta: x \to F x)$, $(y, \theta: y \to F y)$, a coalgebra map is a morphism $f: x \to y$ which respects the coalgebra structures: 
+Given two coalgebras $(x, \eta: x \to F x)$, $(y, \theta: y \to F y)$, a coalgebra map is a [[morphism]] $f: x \to y$ which respects the coalgebra structures: 
 
 $$\theta \circ f = F(f) \circ \eta$$
 
-The dual concept is an [[algebra for an endofunctor]]. Both algebras and coalgebras for endofunctors on $C$ are special cases of [[algebra for a C-C bimodule|algebras for C-C bimodules]].
+The dual concept is an [[algebra for an endofunctor]]. Both [[algebras]] and coalgebras for endofunctors on $C$ are special cases of [[algebra for a C-C bimodule|algebras for C-C bimodules]].
 
 See also [[terminal coalgebra]].
 
