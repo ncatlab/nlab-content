@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _superparticle_ is a [[sigma-model]] [[quantum field theory]] analogous to the ordinary [[relativistic particle]] but where either the worldline or the target space are taken to be [[supermanifold]]s.
+The _superparticle_ is a [[sigma-model]] [[quantum field theory]] analogous to the ordinary [[relativistic particle]] but where either the worldline or the target space are taken to be [[supermanifolds]]. Described by [[supersymmetric quantum mechanics]].
 
 ## Definitions
 
