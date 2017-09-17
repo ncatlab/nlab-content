@@ -1,9 +1,8 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-A group object in a [[category]] $C$ is a [[group]] [[internalization|interal]] to $C$.
+A group object in a [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$.
 
 # Definition #
 
