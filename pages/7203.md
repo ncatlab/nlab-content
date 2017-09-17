@@ -1,0 +1,3 @@
+__Donald E. Knuth__ is an american computer scientist and a mathematician, a professor emristus at Stanford University. Knuth is the author of the TeX, the Metafont, the cweb computer language, of many important algorithms in formal languages, parsing, combinatorics, numerics, [[rewriting system]]s, of the concept of literate programming, of the series of books "The Art of Computer Programming" the book on surreal numbers etc. 
+
+category: people
