@@ -11,3 +11,5 @@ Jet bundles were first introduced by [[Charles Ehresmann]].
 * Ivan Kolar, Jan Slovak, Peter W. Michor, _Natural operations in differential geometry_, book 1993, 1999, [pdf](http://www.emis.de/monographs/KSM/kmsbookh.pdf), hyper-[dvi](http://www.emis.de/monographs/KSM/kmsbookh.dvi.gz), [ps](http://www.emis.de/monographs/KSM/kmsbookh.ps.gz)
 
 * G. Sardanashvily, _Fibre bundles, jet manifolds and Lagrangian theory_,  Lectures for theoreticians, [arXiv:0908.1886](http://xxx.lanl.gov/abs/0908.1886)
+
+* Shihoko Ishii, _Jet schemes, arc spaces and the Nash problem_, [arXiv:math.AG/0704.3327](http://arXiv.org/abs/0704.3327)
