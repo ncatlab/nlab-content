@@ -5,7 +5,7 @@
 
 ## Idea
 
-$n$-Plectic geometric is a generalization of [[symplectic geometry]] to [[higher category theory]].
+$n$-plectic geometry is a generalization of [[symplectic geometry]] to [[higher category theory]].
 
 It is closely related to [[multisymplectic geometry]] and [[n-symplectic manifold]]s.
 
@@ -14,7 +14,7 @@ It is closely related to [[multisymplectic geometry]] and [[n-symplectic manifol
 
 Let $X$ be a [[smooth manifold]], $\omega \in \Omega^{n+1}(X)$ a [[differential form]].
 
-We say $(X,\omega)$ is a **$n$-plectic** manifold id
+We say $(X,\omega)$ is a **$n$-plectic** manifold if
 
 * $\omega$ is closed: $d \omega = 0$;
 
@@ -136,7 +136,7 @@ $$
 by
 
 $$
-  \{alpha, \beta\} = - \omega(v_\alpha, v_\beta, -, \cdots, -)
+  \{\alpha, \beta\} = - \omega(v_\alpha, v_\beta, -, \cdots, -)
   \,.
 $$
 
@@ -243,7 +243,7 @@ $$
 
 We consder now [[geometric quantization|prequantization]] of 2-plectic manifolds.
 
-Let $(X,\omega)$ be a 2-plectic manifold such that the [[de Rham cohomology]] class $[\omega]/2 \pi i$ iss in the imaga of [[integral cohomology]] (Has integral periods.)
+Let $(X,\omega)$ be a 2-plectic manifold such that the [[de Rham cohomology]] class $[\omega]/2 \pi i$ is in the image of [[integral cohomology]] (Has integral periods.)
 
 We can form a cocycle in [[Deligne cohomology]] from this, encoding a [[bundle gerbe]] with connection.
 
