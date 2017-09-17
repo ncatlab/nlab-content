@@ -31,6 +31,10 @@ A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has
 
 By [[Kaluza-Klein mechanism|dimensional reduction]] on $\mathbb{R}^3 \times S^1$ families of $N = 2, D = 4$ SYM theories interpolate to [[N=4 D=3 super Yang-Mills theory]]. ([Seiberg-Witten 96](#SeibergWitten96)).
 
+### Partition function
+
+* [[AGT correspondence]]
+
 ## Related concepts
 
 * [[N=4 D=4 super Yang-Mills theory]]
