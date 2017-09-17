@@ -9,17 +9,19 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Idea
 
 In [[type theory]] the kind of [[type]] corresponding in [[categorical semantics]] to a [[quotient object]] / [[coequalizer]].
 
+
 ## Properties
 
-Quotient type may be constructed as [[higher inductive types]]. See [here](ncatlab.org/nlab/show/higher+inductive+type#QuotientsOfSets)
+Quotient type may be constructed as [[higher inductive types]]. See [here](higher+inductive+type#QuotientsOfSets)
 
+
+[[!redirects quotient type]]
 [[!redirects quotient types]]
