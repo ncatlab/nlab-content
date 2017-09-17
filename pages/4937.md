@@ -12,9 +12,13 @@
 
 * [[geodesic]]
 
+  * [[geodesic convexity]]
+
   * [[geodesic flow]]
 
 * [[Levi-Civita connection]]
+
+  * [[Riemann curvature]]
 
 ## Theorems
 
