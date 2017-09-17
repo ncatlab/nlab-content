@@ -380,24 +380,6 @@ for the [[adjoint triple]] induced on [[categories of presheaves]] by the inclus
 
 =--
 
-+-- {: .num_prop #GeometricMorphismFromSimplicialSets}
-###### Proposition
-
-The adjoint pair $(i_! \dashv i^*)$ in def. \ref{AdjointTripleFromSimplicialSets} is a [[geometric morphism]] of [[presheaf toposes]]
-
-$$
-  (j_! \dashv j^*) \colon PSh(\Delta) \to PSh(\Delta_0)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the discussion at [[morphism of sites]] one has to check that $j \colon \Delta_0 \to \Delta$ is a [[covering-flat functor]]. By the discussion there for the trivial topologies involved here this is equivalent to it being a [[representably flat functor]]. This in turn means that for each $n \in \mathbb{N}$ the [[slice category]] $\Delta[n]/j$ is a [[cofiltered category]]. This is readily checked, observing that the morphisms in $\Delta_0$ are fixed already by what they do to a single vertex.
-
-=--
 
 In terms of all this the nerve theorem \ref{NerveTheorem} says the following:
 
