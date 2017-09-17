@@ -183,7 +183,7 @@ This is theorm 3.1 in
 
 ## Warning on terminology
 
-The term _simplicial model category_ for the notion described here is entirely standard, but in itself a bit subobtimal. More properly one would speak of [[simplicially enriched category]], which is different (though not much) from a [[simplcial object]] in [[Cat]]. 
+The term _simplicial model category_ for the notion described here is entirely standard, but in itself a bit subobtimal. More properly one would speak of [[simplicially enriched category]], which is different (though not much) from a [[simplicial object]] in [[Cat]]. 
 
 The other caveat is that there are different model category structures on [[sSet]] and hence even the term $sSet$-[[enriched model category]] is ambiguous.
 
