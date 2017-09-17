@@ -36,7 +36,7 @@ There are relatively few examples of unbounded toposes.
 
 * If $K$ is a topological group, the category $Unif(K)$ of sets with a [[uniformly continuous]] $K$-[[action]] is a $Set$-topos. In the case that $K$ has no smallest open subgroup, then $Unif(K)$ is still Boolean and locally small, but is not cocomplete (it fails to have infinite coproducts), and so not a Grothendieck topos.
 
-* The [[topos of algebras over a monad|topos of coalgebras]] of a pullback-preserving [[comonad]] $M$ on a Grothendieck topos whose functor part is not [[accessible functor|accessible]] is a cocomplete topos $M-Coalg$ over $Set$ which is not [[locally presentable category|locally presentable]] hence not a Grothendieck topos.
+* The [[topos of algebras over a monad|topos of coalgebras]] of a pullback-preserving [[comonad]] $M$ on a Grothendieck topos whose functor part is not [[accessible functor|accessible]] is a cocomplete topos $MCoalg$ over $Set$ which is not [[locally presentable category|locally presentable]] hence not a Grothendieck topos.
 
   * As a particular example, one can take a [[exact functor|left exact]] [[endofunctor]] $F$ on $Set$ and form the corresponding comonad $(X,Y) \mapsto (X,Y\times F(X))$ on $Set\times Set$ and the topos of coalgebras for this (which is equivalent to the [[Artin gluing]] $Gl(F)$ of $F$). In this case however it is not clear that there exist such endofunctors without assuming the existence of [[large cardinals]] (for instance the existence of a [[proper class]] of [[measurable cardinals]] is sufficient to give such an endofunctor).
 
@@ -53,7 +53,7 @@ There are relatively few examples of unbounded toposes.
 
 ## References
 
-The unbounded toposes $GSet$, $Unif(K)$ and $M-Coalg$ are mentioned in B3.1.4 of
+The unbounded toposes $GSet$, $Unif(K)$ and $MCoalg$ are mentioned in B3.1.4 of
 
 * [[Peter Johnstone]], [[Sketches of an Elephant]]
 
