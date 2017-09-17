@@ -5,6 +5,8 @@
 
 ## Idea
 
+A kind of [[modal logic]]. (...)
+
 (Similarly to the use on the related pages on $K$, $S4$ and $S5$, the notation $T$ is used to be synonymous with $T_{(1)}$.  It is thus the single agent case and was the original case studied. We continue to use the notation from the page on [[epistemic logic]].)
 
 The [[the logic K(m)|basic epistemic logics]], $K$ and $K_{(m)}$, do not reflect much of our intuition of 'knowledge'.  The $K$-axiom merely says that, if an agent knows $\phi$ and also that agent knows $\phi\to \psi$, then the agent knows $\psi$.  There are a series of additional axioms proposed as being appropriate for knowledge, (although, it seems, each has their supporters and detractors!)  These are called $T$, $(4)$, and $B$ (and please don't ask why, ... each has its own history).
