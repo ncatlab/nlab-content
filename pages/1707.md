@@ -568,4 +568,6 @@ For a conceptual discussion of nonabelian group cohomology see
 
 * [[John Baez]], [[Mike Shulman]], _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420))
 
+Group cocycles classify [[group extension]]s. This is often discussed only for 2-cocycles and extensions by ordinary groups. Higher cocycles classify extensions by [[2-group]]s and further by [[infinity-group]]s. In the context of [[crossed complex]]es, which are models for _strict_ $\infty$-groups, this is discussed for instance in
 
+* [[Johannes Huebschmann]], _Crossed $n$-fold extensions and group cohomology_ ([web](http://dx.doi.org/10.1007/BF02566688))
