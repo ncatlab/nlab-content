@@ -1,44 +1,105 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+
 # Moore closures
 * table of contents
 {: toc}
 
 ## Idea
 
-The concept of Moore closure is a very general idea of what it can mean for a set to be closed under some condition.  It includes, as special cases, the operation of [[closed subspace|closure]] in a [[topological space]], many examples of generation of structures from [[base|bases]] and even [[subbase|subbases]], and generating [[subalgebras]] from subsets of an algebra.
+The concept of _Moore closure_ is a very general idea of what it can mean for a [[set]] to be _closed_ under some condition.  It includes, as special cases, the operation of [[closed subspace|closure]] in a [[topological space]], many examples of generation of structures from [[base|bases]] and even [[subbase|subbases]], and generating [[subalgebras]] from subsets of an algebra.
 
-Secretly, it is the same thing as a [[monad]] on a [[power set]].
+Secretly, it is the same thing as the collection of subsets preserved by some [[monad]] on a [[power set]] (the subset of "[[modal types]]"). In fact it is a special case of the notion of [[closure operator]] or [[modality]] in [[logic]]/[[type theory]], namely the special case where the ambient [[category]]/[[hyperdoctrine]] is the [[topos]] [[Set]].
 
 
 ## Definitions
 
-Let $X$ be a [[set]], and let $\mathcal{C}$ be a collection of [[subset]]s of $X$.  Then $\mathcal{C}$ is a __Moore collection__ if every [[intersection]] of members of $\mathcal{C}$ belongs to $\mathcal{C}$.  That is, given a family $(A_i)_i$ of sets in $X$,
+We give two equivalent definitions. The first one
+
+* [In terms of closure condition](#InTermsOfClosureCondition)
+
+gives the explicit condition for a [[subset]] of a [[power set]] to qualify as a Moore closure, the second
+
+* [In terms of closure operators](#InTermsOfClosureOperators)
+
+characterizes Moore closures as the collections of [[modal types]] of suitable [[closure operators]]. More abstractly, this characterizes Moore closures
+
+* [In terms of monads](#InTermsOfMonads)
+
+on the [[subobject lattice]] of the given set.
+
+### In terms of closure condition
+ {#InTermsOfClosureCondition}
+
++-- {: .num_defn}
+###### Definition
+
+Let $X$ be a [[set]], and let $\mathcal{C} \subset P X$ be a collection of [[subsets]] of $X$.  Then $\mathcal{C}$ is a __Moore collection__ if every [[intersection]] of members of $\mathcal{C}$ belongs to $\mathcal{C}$. 
+
+That is, given a family $(A_i)_i$ of sets in $X$,
 $$ \forall i,\; A_i \in \mathcal{C} \;\Rightarrow\; \bigcap_i A_i \in \mathcal{C} .$$
 
-Given any collection $\mathcal{B}$ whatsoever of subsets of $X$, the Moore collection __generated__ by $\mathcal{B}$ is the collection of all intersections of members of $\mathcal{B}$; this is a Moore collection, and it equals $\mathcal{B}$ if and only if $\mathcal{B}$ is a Moore collection.
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Given any collection $\mathcal{B}$ whatsoever of subsets of $X$, the Moore collection __generated__ by $\mathcal{B}$ is the collection of all intersections of members of $\mathcal{B}$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is indeed a Moore collection, and it equals $\mathcal{B}$ if and only if $\mathcal{B}$ is a Moore collection.
+
+=--
+
+### In terms of closure operators
+ {#InTermsOfClosureOperators}
+
++-- {: .num_defn #ClosureOperator}
+###### Definition
 
 Again let $X$ be a set, and now let $Cl$ be an operation on subsets of $X$.  Then $Cl$ is a __closure operation__ if $Cl$ is monotone, isotone, and idempotent.  That is,
 1.  $ A \subseteq B \;\Rightarrow\; Cl(A) \subseteq Cl(B) $,
 1.  $ A \subseteq Cl(A) $, and
 1.  $ Cl(Cl(A)) \subseteq Cl(A) $ (the reverse inclusion follows from the previous two properties).
 
-+-- {: .un_prop}
+=--
+
++-- {: .num_prop}
 ###### Proposition
 
-If $Cl$ is a closure operation, then let $\mathcal{C}$ be the collection of sets that equal their own closures.  Then $\mathcal{C}$ is a Moore collection.
+If $Cl$ is a closure operation, then let $\mathcal{C}$ be the collection of sets that equal their own closures (the "[[modal types]]" or "[[local objects]]").  Then $\mathcal{C}$ is a Moore collection.
 
-Conversely, if $\mathcal{C}$ is a Moore collection, then let $Cl(A)$ be the intersection of all closed sets that contain $A$.  Then $Cl$ is a closure operator.
+Conversely, if $\mathcal{C}$ is a Moore collection, then let $Cl(A)$ be the intersection of all closed ssets that contain $A$.  Then $Cl$ is a closure operator.
 
 Furthermore, the two maps above, from closure operators to Moore collections and vice versa, are inverses.
 =--
 
-Either of these equivalent structures may be called a __Moore closure__ on $X$.
+
+### In terms of monads
+ {#InTermsOfMonads}
+
+Moore closures on $X$ are precisely [[monads]] on  the [[subobject lattice]] $\mathcal{P}X$.  The property (1) of a closure operator, def. \ref{ClosureOperator} ,corresponds the action of the monad on morphisms, while (2,3) are the [[unit of an adjunction|unit]] and multiplication of the monad.  (The rest of the requirements of a monad are trivial in a [[poset]], since they state the equality of various morphisms with common source and target.)
+
 
 
 ## Examples
 
 What are examples?  Better to ask what *isn\'t* an example!  (Answer: preclosure in a [[pretopological space]], even though some authors call this 'closure'.)
 
-Of course, the closed sets in a [[topological space]] form a Moore collection; then the closure of a set $A$ is its closure in the usual sense.  In fact, a topological space can be *defined* as a set equipped with a Moore closure with either of these additional properties (which are equivalent):
+Of course, the [[closed subsets]] in a [[topological space]] form a Moore collection; then the closure of a set $A$ is its closure in the usual sense.  In fact, a topological space can be *defined* as a set equipped with a Moore closure with either of these additional properties (which are equivalent):
 
 *  $Cl(\empty) = \empty$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$.
 *  $\empty$ is closed, and so is $A \cup B$ if $A$ and $B$ are closed.
@@ -76,7 +137,6 @@ The definition of Moore collection really makes sense in any [[inflattice]]; eve
 
 Since Galois connections are simply [[adjunction]]s between posets, the concept of Moore closure cries out for [[categorification]].  And in fact, the answer is well known in category theory: it is a [[monad]].
 
-Indeed, Moore closures on $X$ are precisely monads on $\mathcal{P}X$.  The property (1) of a closure operator corresponds the action of the monad on morphisms, while (2,3) are the unit and multiplication of the monad.  (The rest of the requirements of a monad are trivial in a poset, since they state the equality of various morphisms with common source and target.)
 
 
 ## References
