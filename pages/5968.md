@@ -112,7 +112,7 @@ From this law for the variation of the Lagrangian, one derives both the [[Euler-
     \left(\frac{\delta }{\delta \nabla \phi} L\right) \delta \phi
   $$
 
-  (here $p_\phi$ is the [[canonical momentum]] of the [[field (physics)|field]] $\phi$) is called the _Noether current_ and the above says that this is (on-shell) a  [[conserved current]] precisely if $\delta \phi$ is a symmetry of the Lagrangian.
+  (here $p_\phi$ is the [[canonical momentum]] of the [[field (physics)|field]] $\phi$) is called the _[[Noether current]]_ and the above says that this is (on-shell) a  [[conserved current]] precisely if $\delta \phi$ is a symmetry of the Lagrangian.
 
 This is at least the way that Noether's theorem has been introduced and is often considered. But this formulation is more restrictive than is natural. Namely it is unnatural to demand of a symmetry that it leaves the Lagrangian entirely invariant, $\delta L = 0$. More generally for the symmetry to be a symmetry of the [[action functional]] $\int L$ over a [[closed manifold]] it is sufficient that the Lagrangian changes by a [[divergence]], $\delta L = \nabla \cdot \sigma$, for some term $\sigma$. 
 
@@ -128,6 +128,8 @@ $$
   = 0
   \,.
 $$
+
+(This may be regarded as the [[Legendre transform]] of $\sigma$.)
 
 
 ### The formal context
