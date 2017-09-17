@@ -321,9 +321,11 @@ $$
   \,.
 $$
 
-for all $n$. We now construct this by [[induction]] over $n$, where we take $\eta^0 \coloneqq 0$.
+for all $n$. We now construct this by [[induction]] over $n$. 
 
-Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above conditions. 
+It is convenient to start at $n = -1$, take $\eta^{\leq 0} \coloneqq 0$ and $f^{\lt 0} \coloneqq 0$. Then the above condition holds for $n = -1$.
+
+Then in the induction step assume that for given $n \in \mathbb{N}$ we have constructed $\eta^{\bullet \leq n}$ satisfying the above condition for $f^{\lt n}$ 
 
 First define now 
 
@@ -331,7 +333,7 @@ $$
   g^n \coloneqq f^n - d_J^{n-1} \circ \eta^n
 $$
 
-and observe that
+and observe that by induction hypothesis
 
 $$
   \begin{aligned}
@@ -349,10 +351,10 @@ $$
   \,.
 $$
 
-This means that the [[image]] of $g^n$ is $X^n / im(d^{n-1}_X) \hookrightarrow J^n$. 
+This means that $g^n$ factors through $g^n$ is $X^n / im(d^{n-1}_X) \to J^n$. 
 
 Observe then that by exactness of $X^\bullet$ the morphism
-$X^n / im(d^{n-1}_X) \stackrel{d^n_X}{\to} X^{n+1}$ is a [[monomorphism]]. Together this gives us a diagram of the form
+$X^n / im(d^{n-1}_X) \stackrel{d^n_X}{\to} X^{n+1}$ is a [[nLab:monomorphism]]. Together this gives us a diagram of the form
 
 
 $$
@@ -465,7 +467,7 @@ commutes in $\mathcal{A}$ (which makes the full diagram in $Ch^\bullet(\mathcal{
 We construct these $f^\bullet = (f^n)_{n \in \mathbb{N}}$ by [[induction]].
 
 
-To start the induction, the morphism $f^0$ in the first diagram above can be found by the defining [[right lifting property]] of the [[injective object]] $Y^0$ against the [[monomorphism]] $i_X$.
+To start the induction, the morphism $f^0$ in the last diagram above can be found by the defining [[right lifting property]] of the [[injective object]] $Y^0$ against the [[monomorphism]] $i_X$.
 
 Assume then that for some $n \in \mathbb{N}$ component maps $f^{\bullet \leq n}$ have been obtained such that $d^k_Y\circ f^k = f^{k+1}\circ d^k_X$ for all $0 \leq k \lt n$ . In order to construct $f^{n+1}$ consider the following diagram, which we will describe/construct stepwise from left to right:
 
@@ -511,7 +513,7 @@ The morphism $f_\bullet$ in prop. \ref{InjectiveResolutionOfCodomainRespectsMorp
 +-- {: .proof}
 ###### Proof
 
-Given two chain maps $g_1^\bullet, g^2_\bullet$ making the diagram commute, a [[chain homotopy]] $g_1^\bullet \Rightarrow g_2^\bullet$ is equivalently a [[null homotopy]] $0 \Rightarrow g_2^\bullet - g_1^\bullet$ of the difference, which sits in a square of the form
+Given two cochain maps $g_1^\bullet, g_2^\bullet$ making the diagram commute, a [[chain homotopy]] $g_1^\bullet \Rightarrow g_2^\bullet$ is equivalently a [[null homotopy]] $0 \Rightarrow g_2^\bullet - g_1^\bullet$ of the difference, which sits in a square of the form
 
 $$
   \array{
@@ -911,7 +913,7 @@ We discuss how the injective/projective resolutions constructed in _[Existence a
 Write 
 
 $$
-  \mathcal{K}^{+,n}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
+  \mathcal{K}^{+}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
 $$ 
 
 for the [[full subcategory]] of the [[homotopy category of chain complexes]] on the one bounded above or bounded below, respectively.
