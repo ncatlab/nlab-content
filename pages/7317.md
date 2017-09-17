@@ -30,7 +30,7 @@ Its [[operad|1-operadic]] analog is the notion of _[[fibration of multicategorie
 
 ### Relation to $\infty$-algebra
 
-Let $P$ be an [[(∞,1)-operad]], incarnated as a [[dendroidal set]]. For instance the [homotopy coherent dendroidal nerve](http://ncatlab.org/nlab/show/dendroidal%20set#HomotopyCoherentNerve) of a [[topological operad]]/[[simplicial operad]]. 
+Let $P$ be an [[(∞,1)-operad]], incarnated as a [[dendroidal set]]. For instance the [[homotopy coherent dendroidal nerve]] of a [[topological operad]]/[[simplicial operad]]. 
 
 Then coCartesian fibrations over $P$ are equivalent to [[∞-algebra over an (∞,1)-operad|∞-algebras]] over $P$ in [[(∞,1)Cat]]:
 
@@ -41,6 +41,10 @@ $$
 
 This is ([Heuts, theorem 0.1](#HeutsA)).
 
+## Related concepts
+
+* [[model structure for dendroidal Cartesian fibrations]]
+
 ## References
 
 * [[Gijs Heuts]], _Algebras over infinity-operads_ ([arXiv:1110.1776](http://arxiv.org/abs/1110.1776))
@@ -49,3 +53,6 @@ This is ([Heuts, theorem 0.1](#HeutsA)).
 * [[Gijs Heuts]], _An infinite loop space machine for infinity-operads_ ([arXiv:1112.0625](http://arxiv.org/abs/1112.0625))
 
 [[!redirects Cartesian fibrations of dendroidal sets]]
+
+[[!redirects dendroidal Cartesian fibration]]
+[[!redirects dendroidal Cartesian fibrations]]
