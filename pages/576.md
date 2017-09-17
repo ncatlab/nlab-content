@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -34,7 +34,8 @@ in a compatible way.  So, notably, it is a [[monoidal category]] in which
 
 ## Definition
 
-A category $C$ that is equipped with the structure of a [[symmetric monoidal †-category]] and is [[compact closed category|compact closed]] is **$\dagger$-compact** if the dagger-operation takes units of dual objects to counits in that for every object $A$ of $C$ we have
+A category $C$ that is equipped with the structure of a [[symmetric monoidal †-category]] and is [[compact closed category|compact closed]] is **$\dagger$-compact** if the dagger-operation takes [[units]] of [[dual objects]] to [[counits]] in that for every object $A$ of $C$ we have
+
 $$
   \array{
     && A \otimes A^*
@@ -53,42 +54,40 @@ $$
 
 ## Examples
 
-* For $C$ a category with [[finite limits]] 
-the category $Span_1(C)$ whose morphisms are [[span|spans]] in $C$ is $\dagger$-compact.  The $\dagger$ operation is that of relabeling the legs of a span as source and target.  The tensor product is defined using the cartesian product in $C$.   Every object $X$ is dual to itself with the unit and counit given by the span
+* For $C$ a category with [[finite limits]]  the category $Span_1(C)$ whose morphisms are [[span|spans]] in $C$ is $\dagger$-compact.  The $\dagger$ operation is that of relabeling the legs of a span as source and target.  The tensor product is defined using the cartesian product in $C$.   Every object $X$ is dual to itself with the unit and counit given by the span
 $ X \stackrel{Id}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
 See
 
   * John Baez, _Spans in quantum theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
 
 
-## Quantum mechanics in terms of $\dagger$-compact categories
+## Finite quantum mechanics in terms of $\dagger$-compact categories
 
-Large parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-compact categories.
+The finite parts of [[quantum mechanics]] and [[quantum computation]] are naturally formulated as the theory of $\dagger$-compact categories.
 
-For more on this see 
-
-* [[quantum mechanics in terms of †-compact categories]].
+For more on this see at _[[finite quantum mechanics in terms of †-compact categories]]_.
 
 
 ## Relation to Hilbert spaces
 
-The category of [[Hilbert spaces]] (over the [[complex numbers]]) with finite [[dimension]] is a standard example of a $\dagger$-compact category.  This example is [[completeness theorem|complete]] for [[equation]]s in the language of $\dagger$-compact categories; see [Selinger 2012](#Selinger2012).
+The category of [[Hilbert spaces]] (over the [[complex numbers]]) with [[finite number|finite]] [[dimension]] is a standard example of a $\dagger$-compact category.  This example is [[completeness theorem|complete]] for [[equation]]s in the language of $\dagger$-compact categories; see [Selinger 2012](#Selinger2012).
 
 
 ## References
 
 The concept was introduced in 
 
-* Samson Abramsky and Bob Coecke, A categorical semantics of quantum protocols, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv](http://arxiv.org/abs/quant-ph/0402130))
+* [[Samson Abramsky]], [[Bob Coecke]], _A categorical semantics of quantum protocols_, in _Proceedings of the 19th IEEE conference on Logic in Computer Science_ (LiCS'04), IEEE Computer Science Press, 2004. ([arXiv](http://arxiv.org/abs/quant-ph/0402130))
+ {#AbramskyCoecke04}
 
 See also:
 
-* Peter Selinger (2007), Dagger compact closed categories and completely positive maps, in _Proceedings of the 3rd International Workshop on Quantum Programming Languages_ (QPL 2005), ENTCS 170 (2007), 139--163. 
+* [[Peter Selinger]] (2007), Dagger compact closed categories and completely positive maps, in _Proceedings of the 3rd International Workshop on Quantum Programming Languages_ (QPL 2005), ENTCS 170 (2007), 139--163. 
 ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 
 For completeness of finite-dimensional Hilbert spaces:
 
-*  Peter Selinger (2012), Finite dimensional Hilbert spaces are complete for dagger compact closed categories, [arXiv](http://arxiv.org/abs/1207.6972).
+*  [[Peter Selinger]] (2012), Finite dimensional Hilbert spaces are complete for dagger compact closed categories, [arXiv](http://arxiv.org/abs/1207.6972).
    {#Selinger2012}
 
 
