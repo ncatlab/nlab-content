@@ -122,7 +122,27 @@ By prop. \ref{NaturalTrafoMapsToHomotopy} it follows that we have a [[homotopy e
 
 ### Categories and posets
 
-(...)
++-- {: .num_defn }
+###### Definition
+
+For $C$ a [[category]], let $\nabla C$ be the [[poset]] of simplices in $N C$, ordered by inclusion. Its [[nerve]] is also called the [[barycentric subdivision]] of the nerve of $C$.
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+For every category $C$ the poset $\nabla C$ has equivalent geometric realization
+
+$$
+  \vert \nabla C \vert \simeq \vert C \vert  
+  \,.
+$$
+
+=--
+
+
 
 ## References
 
