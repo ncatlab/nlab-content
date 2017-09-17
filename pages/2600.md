@@ -13,13 +13,9 @@
 =--
 =--
 
-**fivebrane 6-group** $\to$ [[string 2-group]] $\to$ [[spin group]]
-
-***
-
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -122,9 +118,21 @@ $$
 
 where the subobjects are those consisting of 3-simplices in $G$ with 2-faces labeled in $U(1)$ such that the integral of $\mu_3$ over the 3-simplex in $\mathbb{R}/\mathbb{Z}$ is the signed product of these labels.
 
-
-
 (...)
+
+## Related concepts
+
+**fivebrane 6-group** $\to$ [[string 2-group]] $\to$ [[spin group]] $\to$  [[special orthogonal group]] $\to$ [[orthogonal group]]
+
+## References
+
+The topological [[fivebrane group]] with its interpretation in [[dual heterotic string theory]] was discussed in 
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Fivebrane structures_ Reviews in mathematical physics, 10 (2009) 1197 (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSII">web</a>)
+
+and the smooth fivebrane 6-group was indicated. The latter is discussed in more detail in section 4.1 of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects Fivebrane 6-group]]
 
