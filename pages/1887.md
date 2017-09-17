@@ -20,6 +20,8 @@ The notion of _homotopy image_ generalizes the notion of [[image]] of a morphism
 
 ## Definition 
 
+### In a model category
+
 One of the definitions of the [[image]] of a morphism $f : c \to d$ is in terms of universal [[subobject]]s -- i.e. universal [[monomorphism]]s -- through which  $f$ factors.
 
 This definition can be generalized to the context of [[(infinity,1)-category|(infinity,1)-categories]] [[presentable (infinity,1)-category|presented]] by a [[model category]].
@@ -38,9 +40,22 @@ Let $C$ be an $S$ [[enriched model category]] satisfying some assumptions... .
 
 =--
 
+### In an $(\infty,1)$-topos
+
+The above definition of _homotopy monomorphism_ [[presentable (infinity,1)-category|presents]] precisely the notion of _[[monomorphism in an (∞,1)-category]]_ : a [[(-1)-truncated]] morphism.
+Because ([[Higher Topos Theory|HTT, lemma 5.5.6.15]]) a morphism is [[(-1)-truncated]] precisely if its [[diagonal]] is [[(-2)-truncated]], hence is an [[equivalence in an (∞,1)-category|equivalence]]. 
+
+Therefore in an [[(∞,1)-topos]] the homtopy image of a morphism is a presentation for the [[n-connected/n-truncated factorization system|(-1)-connected/(-1)-truncated factorization]] of the morphism.
+
+
+## Related concepts
+
+* [[image]], [[coimage]]
+
 ## References
 
-This is definition 2.36 in 
+A definition for model categories is def. 2.36 in 
 
 * [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
+For the definition in $(\infty,1)$-topos theory see the references at [[n-connected/n-truncated factorization system]].
