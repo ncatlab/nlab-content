@@ -195,7 +195,7 @@ Given a [[monad]] $M$, define a [[functor]] $M'$ as the [[equalizer]] of $M u$ a
 
 $$M' \hookrightarrow M \stackrel{\overset{u M}{\longrightarrow}}{\underset{M u}{\longrightarrow}} M M.$$ 
 
-This $M'$ acquires a monad structure. It might not be an idempotent monad (although it will be if $M$ is [[left exact functor|left exact]]). However we can apply the process again, and continue transfinitely. Define $M_0 = M$, and if $M_\alpha$ has been defined, put $M_{\alpha+1} = M_{\alpha}'$; at limit ordinals $\beta$, define $M_\beta$ to be the inverse limit of the chain 
+This $M'$ acquires a monad structure (see this [MathOverflow thread](http://mathoverflow.net/questions/147264/regarding-a-difficulty-in-the-fakir-article-about-associated-idempotent-triple/147272#147272) for some detailed discussion). It might not be an idempotent monad (although it will be if $M$ is [[left exact functor|left exact]]). However we can apply the process again, and continue transfinitely. Define $M_0 = M$, and if $M_\alpha$ has been defined, put $M_{\alpha+1} = M_{\alpha}'$; at limit ordinals $\beta$, define $M_\beta$ to be the inverse limit of the chain 
 
 $$\ldots \hookrightarrow M_{\alpha} \hookrightarrow \ldots \hookrightarrow M$$
 
