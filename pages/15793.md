@@ -1,0 +1,46 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A type of [[fiber bundle]] (usually: [[vector bundle]]) over ([[smooth manifold|smooth]]) [[manifolds]] is called _natural_ if suitable homomorphisms of manifolds naturally lift to morphisms of the corresponding bundles covering them.
+
+The archetypical example is the [[tangent bundle]] $T X$ of a manifold $X$. For $f \colon X \to Y$ any [[smooth function]] then push-forward of vector fields yields a fiberwise linear morphism $d f \colon T X \to T Y$ of tangent bundles which covers $f$, in that the [[diagram]]
+
+$$
+  \array{
+    T X &\stackrel{d f}{\longrightarrow}& T Y
+    \\
+    \downarrow && \downarrow 
+    \\
+    X &\stackrel{f}{\longrightarrow}& Y
+  }
+$$
+
+[[commuting diagram|commutes]]. (This funcotriality of the tangent bundle construciton is incidentally also the incarnation of the [[chain rule]] (see there) of [[differentiation]]).
+
+Formally, there is a [[category]] of fiber bundles over manifolds with [[morphisms]] the morphisms of bundles covering morphisms of the base spaces, and there is a [[forgetful functor]] from that to the category of manifolds. A natural bundle is a [[section]] of this forgetful functor.
+
+Also "contravariantly natural" bundles such as bundle of [[covectors]] are sometimes referred to as natural bundles (e.g. [Kolar-Michor-Slovak](#KolarMichorSlovak)). But these are covariantly natural not with respect to all smooth functions between manifolds, but only for [[local diffeomorphisms]].
+
+## References
+
+* {#KolarMichorSlovak} Ivan Kolar, [[Peter Michor]], Jan Slovak, _Natural Operations in Differential Geometry_
+
+[[!redirects natural bundles]]
