@@ -1231,11 +1231,11 @@ $$
   \,.
 $$
 
-The **[[critical locus]]** $\{x \in X | \mathbf{d}S = 0\}$  of $S$ is the [[homotopy fiber]] of this section in $(\mathbf{H}_{th})_{/X}^{fet}$, hence the $(\infty,1)$-pullback
+The **[[critical locus]]** $\{x \in X | \mathbf{d}S_x = 0\}$  of $S$ is the [[homotopy fiber]] of this section in $(\mathbf{H}_{th})_{/X}^{fet}$, hence the $(\infty,1)$-pullback
 
 $$
   \array{
-    \{x \in X | \mathbf{d}S = 0\} &\to& X
+    \{x \in X | \mathbf{d}S_x = 0\} &\to& X
     \\
     \downarrow && \downarrow^{\mathrlap{0}}
     \\
