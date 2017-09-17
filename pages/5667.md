@@ -698,6 +698,8 @@ For a collection of literature see also paragraph 1.5 in
 
 (in the context of [[noncommutative motives]]).
 
+* [pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf)
+
 ### In D-brane theory
 
 KK-theory also describes [[RR-field]] [[charges]] and sources in [[D-brane]] theory.
@@ -709,7 +711,7 @@ A review is in
 
 based on
 
-* Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], 
+* [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], 
 
   _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
 
