@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 =--
 =--
 
@@ -16,6 +20,14 @@
 ## Idea 
 
 A _Euclidean-topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with  [[cohesive (∞,1)-topos|cohesion]] in the form of [[Euclidean topology]].
+
+Examples of [[1-truncated]] type are [[topological groupoid]]s/[[topological stack]]s whose topologies are detectable by maps out of [[Euclidean topology|Euclidean topologies]], for instance [[internal groupoid]]s in [[topological manifold]]s. 
+
+More generally, every [[simplicial topological space]] whose topology is degreewise detectable by Euclidean topologies canonically identifies with a Euclidean-topological $\infty$-groupoid. Various constructions with simplicial toppological spaces find their natural home in this [[(∞,1)-topos]]. For instance 
+
+* [[geometric realization of simplicial topological spaces|geometric realization of simplicial topological manifolds]] is equivalently the image $\Pi(X)$ of the corresponding Euclidean-topological $\infty$-groupoid $X$ under the canonical [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]]. 
+
+* topological [[simplicial principal bundle]]s over topological [[simplicial group]]s are the corresponding [[principal ∞-bundle]]s in $ETop\infty Grpd$ classified by its [[cohomology|internal cohomology]].
 
 
 ## Definition
