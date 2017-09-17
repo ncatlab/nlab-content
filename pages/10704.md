@@ -29,6 +29,20 @@ The _$p$-localization_ is the [[localization]] that makes the $p$-local homotopy
 
 Specifically for [[spectra]] this is the [[Bousfield localization of spectra]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}_p$ for the [[cyclic group]].
 
+## Properties
+
+Many of the basic constructions and theorems in [[chromatic homotopy theory]] apply to [[finite spectrum|finite]] $p$-local spectra, such as
+
+* [[telescopic localization]]
+
+* [[periodicity theorem]]
+
+* [[chromatic convergence theorem]]
+
+## Related concepts
+
+* [[finite spectrum]]
+
 ## References
 
 * Wikipedia, _[Localization of a topological space](http://en.wikipedia.org/wiki/Localization_of_a_topological_space)_
