@@ -251,8 +251,14 @@ A survey of the theory is in
 
 In 
 
-* [[Jacob Lurie]], _Chromatic homotopy theory_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture notes, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
  {#LurieLecture}
+
+  Lecture 22 _Morava E-theory and Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
+
+  Lecture 23 _The Bousfield Classes of $E(n)$ and $K(n)$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture23.pdf))
+
+  Lecture 24 _Uniqueness of Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture24.pdf))
 
 the explicit definition via [[formal group laws]] is in lecture 22 and the abstract characterization in lecture 24.
 
