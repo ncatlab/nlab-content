@@ -54,7 +54,7 @@ $$
 
 whose face maps are induced by the product operation on $G$ and whose degeneracy maps are induced from the unit map.
 
-If $G$ is [[well-pointed simplicial topological group|well-pointed]], then the [[geometric realization of simplicial topological spaces]] of $G$ is a model for the [[homotopy type]] of the classifiyng space
+If $G$ is [[well-pointed simplicial topological group|well-pointed]], then the [[geometric realization of simplicial topological spaces]] of $G$ is a model for the [[homotopy type]] of the classifying space
 
 $$
   B G \simeq \vert \mathbf{B}G\vert
