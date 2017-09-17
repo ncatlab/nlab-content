@@ -1,0 +1,17 @@
+
+
+## Definition
+
+There is, up to [[isomorphism]], a unique simple [[group]] of [[order]] 2:
+
+it has two elements $(1,\sigma)$, where $\sigm \cdot \sigma = 1$.
+
+
+This is usually denoted $\mathbb{Z}_2$ or $\mathbb{Z}/2\mathbb{Z}$, becuase it is the [[quotient]] of the map
+
+$$
+  \cdot 2 : \mathbb{Z} \to \mathbb{Z}
+$$
+
+on the additive group of [[integer]]s.
+
