@@ -75,7 +75,7 @@ If you just print it directly, the logo will become a huge blob that takes up th
 
 (Firefox - and clones - specific)
 
-You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Try using the Stylish add-on [link building service](http://www.diamondlinks.net) if you are using Firefox; Stylish is a plug-in for firefox enabling you to customize websites; it is available [here](https://addons.mozilla.org/en-US/firefox/addon/2108).
+You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Try using the Stylish add-on if you are using Firefox; Stylish is a plug-in for firefox enabling you to customize websites; it is available [here](https://addons.mozilla.org/en-US/firefox/addon/2108).
 
 Currently, the following stylish themes are available:
 
