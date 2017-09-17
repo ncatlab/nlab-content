@@ -45,6 +45,24 @@ Every non-zero [[invariant vector field]] on the Lie group provides an everywher
 
 =--
 
+The following is obvious:
+
++-- {: .num_prop #SpinManifoldAdmitsFraming}
+###### Proposition
+
+Every 3-[[dimension|dimensional]] [[manifold]] with [[spin structure]] admits a framing.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction of the structure group]] of the tangent bundle to the [[spin group]], and hence the tangent bundle is classified by a map $X \to B Spin(3)$. But $Spin(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B SO(3)$ has vanishing homotopy groups below degree 4 and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
+
+=--
+
+But in fact the following stronger statement is also true.
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -55,7 +73,9 @@ Every [[orientation|orientable]] 3-[[dimension|dimensional]] [[manifold]] admits
 +-- {: .proof}
 ###### Proof
 
-That a 3-manifold $X$  is orientable means that we have a [[reduction of the structure group]] of the tangent bundle to the [[special orthogonal group]], and hence the tangent bundle is classified by a map $X \to B SO(3)$. But since $SO(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B SO(3)$ has vanishing homotopy groups below degree 4 and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
+By the argument in the proof of 
+prop. \ref{SpinManifoldAdmitsFraming}, the only possible 
+obstruction is the [[second Stiefel-Whitney class]] $w_2$.  By the discussion at _[[Wu class]]_, this vanishes on an oriented manifold precisely if the second [[Wu class]] vanishes. This in turn is by definition defined to represent the [[Steenrod square]] under [[cup product]], and this vanishes on a 3-manifold by degree reasons.
 
 =--
 
@@ -75,6 +95,10 @@ The $n$-[[spheres]] that admit a framing are precisely only
 ## Related concepts
 
 * [[2-framing]]
+
+## References
+
+* [[Michael Atiyah]], _On framings of 3-manifolds_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/atiyahfr.pdf))
 
 [[!redirects framed manifolds]]
 
