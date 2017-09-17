@@ -25,6 +25,15 @@
 
 _2Cat_ is the [[3-category]] of [[2-categories]].
 
+It has
+
+* [[objects]] are [[2-categories]];
+
+* [[1-morphisms]] are [[2-functors]];
+
+* [[2-morphisms]] are [[pseudonatural transformation|pseudo]]/[[lax natural transformations]];
+
+* [[3-morphisms]] are [[modifications]].
 
 ## Related concepts
 
@@ -33,6 +42,8 @@ _2Cat_ is the [[3-category]] of [[2-categories]].
 * **$2Cat$**
 
 * [[(∞,1)Cat]], [[(∞,1)Operad]]
+
+* [[(∞,2)Cat]]
 
 * [[(∞,n)Cat]]
 
