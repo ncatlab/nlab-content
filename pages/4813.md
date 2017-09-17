@@ -47,6 +47,9 @@ The ordinary kinetic term of [[Yang-Mills theory]] differs from this by the fact
 
 The topological Yang-Mills action also appears in the [[generalized Chern-Simons theory]] given by a [[Chern-Simons element]] in a [[Lie 2-algebra]], where it is coupled to [[BF-theory]]. See [[Chern-Simons element]] for details.
 
+## Related concepts
+
+* [[theta angle]]
 
 ## References
 
