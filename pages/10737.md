@@ -14,15 +14,15 @@ $$
   \,.
 $$
 
-(e.g. [May Ponto, 10.1.1](#MayPonto))
+(e.g. [May Ponto, 10.1.1](#MayPonto)) For more see at _[[formal completion]]_.
 
-A is called _$p$-complete_ if the canonical [[homomorphism]] $A \to A_p^\wedge$ is an [[isomorphism]]
-
-For more see at _[[p-localization]]_.
+$A$ is called _$p$-complete_ if the canonical [[homomorphism]] $A \to A_p^\wedge$ is an [[isomorphism]].
 
 ### Of a homotopy type
 
 (...) ([e.g. May-Ponto, 10.2](#MayPonto))
+
+$p$-Completion of a space/spectrum is equivalently $\mathbb{Z}/p\mathbb{Z}$-localization, see at _[[localization of a space]]_ [this remark](localization+of+a+space#RelationToCompletion).
 
 ## Examples
 
