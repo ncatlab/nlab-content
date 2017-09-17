@@ -35,13 +35,20 @@ $$
   \,.
 $$
 
-## Remarks
+## Properties
+
+### Monoidal structure
 
 * With the [[smash product of spectra]] $Sp(L_{whe}Top_*)$ becomes a [[symmetric monoidal (infinity,1)-category]].
 
   * an [[algebra in an (infinity,1)-category|algebra object]] in $Sp(L_{whe}Top_*)$ with respect to this monoidal structure is an [[associative ring spectrum]];
 
   * a [[commutative algebra in an (infinity,1)-category|commutative algebra object]] in $Sp(L_{whe}Top_*)$ with respect to this monoidal structure is a [[commutative ring spectrum]];
+
+
+### Prime spectrum and Morava K-theory
+
+The [[prime spectrum of a monoidal stable (∞,1)-category]] for [[p-localization|p-local]] and [[finite spectra]] is labeled by the [[Morava K-theories]]. This is the content of the _[[thick subcategory theorem]]_.
 
 
 ## References
