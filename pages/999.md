@@ -98,6 +98,7 @@ which proves the claim.
 =--
 
 ## Examples 
+ {#Examples}
 
 * In $C = $ [[Set]] an object is compact precisely if it is a ([[Kuratowski finite object|Kuratowski]]) [[finite set]].
 
