@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Model theory
++-- {: .hide}
+[[!include model theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -31,3 +41,6 @@ Finally, one may expand the model $M$ a larger model $M'$. The elements of autom
 
 * Wikipedia, _[type (model theory)](http://en.wikipedia.org/wiki/Type_%28model_theory%29)_, [forking extension](http://en.wikipedia.org/wiki/Forking_extension)
 * Siu-Ah Ng, _Forking_, (Springer Online) Encyclopedia of Mathematics. [web](http://www.encyclopediaofmath.org/index.php?title=Forking&oldid=19231) (note inside the wrong link (cross reference) to a type in the sense of type theory) 
+
+
+[[!redirects type in model theory]]
