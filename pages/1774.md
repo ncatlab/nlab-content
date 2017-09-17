@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
@@ -14,7 +20,7 @@ In [[higher category theory]], the _exchange law_, or _interchange law_, states 
 
 ## Examples
 
-The first first exchange law (often called _the_ exchange law) asserts that for composition of 2-morphisms we have an equivalence
+The first exchange law (often called _the_ exchange law) asserts that for composition of 2-morphisms we have an equivalence
 
 $$
   \array{
@@ -48,6 +54,7 @@ $$
   }
 $$
 
+asserting a compatibility of [[horizontal composition]] and [[vertical composition]] of [[2-morphism]]s.
 
 In a [[bicategory]] this equivalence is an identity. In even higher (and non-[[semi-strict n-category|semi-strict]]) category theory, the interchange law becomes a higher morphism itself: the _exchanger_.
 
