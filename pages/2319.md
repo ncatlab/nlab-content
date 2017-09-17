@@ -36,6 +36,25 @@ The next steps correspond to
 
 * [[Fivebrane structure]].
 
+## Definition
+
+For $X$ a [[manifold]], the [[groupoid]]/[[homotopy n-type|homotopy 1-type]] $Spin(X)$ of **spin structures** over $X$ is the [[homotopy fiber]] in [[∞Grpd]] $\simeq$ [[Top]]  of the second [[Stiefel-Whitney class]]
+
+$$
+  \array{
+    Spin(X) &\to& *
+    \\
+    {}^{\mathllap{\eta}}\downarrow && \downarrow
+    \\
+    Top(X,B SO) &\stackrel{(w_2)_*}{\to}& Top(X, B^2 \mathbb{Z}_2)
+  }
+  \,.
+$$
+
+Here an [[object]] $s \in Spin(X)$ over an $SO$-[[principal bundle]] $\eta(s)$ on $X$ is called a **spin structure on $\eta(s)$** ($SO$ is the [[special orthogonal group]]).
+
+For $\eta(s)$ the $SO$-principal bundle for which the [[tangent bundle]] $T X$ is the canonically [[associated bundle]], one says that a spin-structure on $\eta(s)$ is a **spin structure on the manifold** $X$.
+
 ## As quantum anomaly cancellation condition  {#QuantumAnomaly}
 
 In the context of [[quantum field theory]] the existence of a spin structure on a [[Riemannian manifold]] $X$ arises notably as the condition for [[quantum anomaly]] cancellation of the [[sigma-model]] for the spinning particle -- the superparticle -- propagating on $X$. 
@@ -59,9 +78,15 @@ It is the generalization of this anomaly computation from the worldlines of supe
 
 * [[string structure]], [[differential string structure]]
 
-* [[fivebrane structure]]
+* [[fivebrane structure]], [[differential fivebrane structure]]
 
+## References
+
+A disccussion of the full [[groupoid]] of spin structures is in 
+
+* [[Johannes Ebert]], _Characteristic classes of spin surface bundles:
+Applications of the Madsen-Weiss theory_ Phd thesis (2006) ([pdf](http://www.math.uni-bonn.de/~GRK1150/dissertation-ebert.pdf))
 
 [[!redirects Spin structure]]
 [[!redirects Spin-structure]]
-[[!redirects spin-structure]], [[differential fivebrane structure]]
+[[!redirects spin-structure]]
