@@ -1,5 +1,5 @@
 
-* This page is about functors between linear categories.  See also [[Goodwillie calculus]] and [[polynomial functor]].
+* This page is about functors between linear categories.  For other notions of "linear functor," see [[Goodwillie calculus]] and [[polynomial functor]].
 
 ***
 
