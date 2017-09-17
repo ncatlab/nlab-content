@@ -1,8 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # $p$-adic numbers
 * table of contents
 {: toc}
 
-## Definitions
+## Idea
+
+For $p$ any [[prime number]], the _$p$-adic numbers_ $\mathbb{Q}_p$ are a [[field]] that [[complete field|completes]] the field of [[rational numbers]]. As such they are analogous to [[real numbers]]. A crucial difference is that the reals form an [[archimedean field]], while the $p$-adic numbers form a [[non-archimedean field]].
+
+
+
+## Definition
 
 Let $\mathbf{Z}$ be the [[ring]] of [[integer]]s and for every $q\neq 0$, $q\mathbf{Z}$ its ideal consisting of all integer multiples of $q$, and $\mathbf{Z}/q\mathbf{Z}$ the corresponding quotient, the ring of residues mod $q$.
 
@@ -20,13 +37,13 @@ is an exact sequence of abelian groups, hence also $\mathbf{Z}_p/p^n\mathbf{Z}_p
 
 An element $u$ in $\mathbf{Z}_p$ is invertible (and called a $p$-adic unit) iff $u$ is not divisible by $p$. 
 
-Let $U\subset\mathbf{Z}_p$ be the group of all invertible elements in $\mathbf{Z}_p$. Then _every element $x\in \mathbf{Z}_p$ can be uniquely written as $s= up^n$ with $n\geq 0$ and $u\in U$_. The correspondence $x\mapsto n$ defines a [[discrete valuation]] $v_p:\mathbf{Z}_p\to \mathbf{Z}\cup\{\infty\}$ called the $p$-adic valuation and $n$ is said to be the $p$-adic valuation of $x$. Of course, $v_p(0)=\infty$ as required by the axioms of valuation. The metric induced by the valuation is (up to equivalence) given by
+Let $U\subset\mathbf{Z}_p$ be the group of all invertible elements in $\mathbf{Z}_p$. Then _every element $x\in \mathbf{Z}_p$ can be uniquely written as $s= up^n$ with $n\geq 0$ and $u\in U$_. The correspondence $x\mapsto n$ defines a [[discrete valuation]] $v_p:\mathbf{Z}_p\to \mathbf{Z}\cup\{\infty\}$ called the $p$-adic [[valuation]] and $n$ is said to be the $p$-adic valuation of $x$. Of course, $v_p(0)=\infty$ as required by the axioms of valuation. The [[metric]] induced by the valuation is (up to equivalence) given by
 
 $$
 d(x,y) = e^{-v_p(x-y)},
 $$
 
-ring $\mathbf{Z}_p$ is a complete metric space in that metric, and $\mathbf{Z}$ is dense in it.
+ring $\mathbf{Z}_p$ is a [[complete metric space]] in that $d$ is a [[metric]], and $\mathbf{Z}$ is dense in it.
 
 The __field of $p$-adic numbers__ $\mathbf{Q}_p$ is the [[field of fractions]] of $\mathbf{Z}_p$. The $p$-adic valuation $v_p$ extends to a discrete valuation, also denoted $v_p$ on $\mathbf{Q}_p$. Indeed, it is still true for all $x\in \mathbf{Q}_p$ that they can be uniquely written in the form $p^n u$ where $u\in U$ (the same group $U$ as before), but now one needs to allow $n\in \mathbf{Z}$. One defines the metric on $\mathbf{Q}_p$ by the same formula as for $\mathbf{Z}_p$. It appears that $\mathbf{Q}_p$ is a [[complete field]] (in particular locally compact Hausdorff) and that $\mathbf{Z}_p$ is an *open* subring. 
 
@@ -36,11 +53,40 @@ $$
 d(x,y) \leq sup\{d(x,y),d(y,z)\}
 $$
 
+## Properties
+
+### As a field completion
+
+[[Ostrowski's theorem]] implies there are precisely two kinds of [[complete field|completions]] of the [[rational numbers]]: the [[real numbers]] and the $p$-adic numbers.
+
+
++-- {: .num_theorem}
+###### Theorem
+**(Ostrowski)**
+
+Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent either to the standard real absolute value, or to the $p$-adic absolute value.
+
+=--
+
+## Related concepts
+
+* [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]]
+
+* [[p-adic analytic space]]
 
 ## References
 
-* J. P. Serre, _A course in arithmetic_, Grad. Texts in Math. __7__, Springer 1973
+### Original
 
+A standard reference is
+
+* [[Jean-Pierre Serre]], _A course in arithmetic_, Grad. Texts in Math. __7__, Springer (1973)
+
+### Applications
+
+A review of (somewhat speculative) applications of $p$-adic analysis in [[mathematical physics]] is in 
+
+* B. Dragovich, A. Yu. Khrennikov, S. V. Kozyrev, I. V. Volovich, _$p$-Adic Mathematical Physics_ ([arXiv:0904.4205](http://arxiv.org/abs/0904.4205))
 
 [[!redirects p-adic integer]]
 [[!redirects p-adic]]
