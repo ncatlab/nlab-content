@@ -155,6 +155,8 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 * R. Street (2004), Frobenius monads and pseudomonoids, _J. Math. Phys._ **45**.  ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.91.2686))
 {#Street2004}
 
+(TO ADD: stuff from this [MO post](http://mathoverflow.net/questions/32193/why-did-people-originally-like-frobenius-algebras))
+
 
 [[!redirects Frobenius algebra]]
 [[!redirects Frobenius algebras]]
