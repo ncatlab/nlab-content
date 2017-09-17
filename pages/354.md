@@ -65,7 +65,7 @@ A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_,
 
 * This in turn means equivalently that the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
 $$
-  [\Delta[n], S] \to\gt [\Lambda^i[n],S]
+  [\Delta[n], S]\, \twoheadrightarrow \,[\Lambda^i[n],S]
   \,.
 $$
 
