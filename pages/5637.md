@@ -46,7 +46,7 @@ Lecture notes on this are in
 * [[Edward Witten]], _A New Look At The Jones Polynomial of a Knot_, Clay Conference, Oxford, October 1, 2013 ([[WittenOnJonesPolynomial2013.pdf:file]])
   {#Witten13a}
 
-* [[Edward Witten]], _Khovanov Homology And Gauge Theory_, Clay Conference, Oxford, October 1, 2013 ([[WittenOnKhovanovHomology2013.pdf:file]])
+* [[Edward Witten]], _Khovanov Homology And Gauge Theory_, Clay Conference, Oxford, October 2, 2013 ([[WittenOnKhovanovHomology2013.pdf:file]])
   {#Witten13b}
 
 
