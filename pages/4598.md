@@ -12,7 +12,7 @@
 ## Idea
 
 
-hThe _Pontryagin classes_ are [[characteristic class]]es on the [[classifying space]] $\mathcal{B}O(n)$ of the [[orthogonal group]].
+The _Pontryagin classes_ are [[characteristic class]]es on the [[classifying space]] $\mathcal{B}O(n)$ of the [[orthogonal group]].
 
 The analogs for the [[unitary group]] are the [[Chern class]]es.
 
@@ -21,3 +21,6 @@ The analogs for the [[unitary group]] are the [[Chern class]]es.
 (...)
 
 [[!redirects Pontryagin classes]]
+
+[[!redirects Pontrjagin class]]
+[[!redirects Pontrjagin classes]]
