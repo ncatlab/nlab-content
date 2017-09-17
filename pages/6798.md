@@ -50,4 +50,6 @@ The [[deformation theory]] os SYM theories is discussed in
 * [[Albert Schwarz]], [[Michael Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
  {#SchwarzMovshev}
 
+[[!redirects super Yang-Mills theories]]
+
 
