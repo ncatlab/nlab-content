@@ -30,7 +30,7 @@ In general the set of geometric points of a scheme is different from the set of 
 
 ## Related concepts
 
-
+* [[singular point of an algebraic variety]]
 
 * [[étale fundamental group]]
 
