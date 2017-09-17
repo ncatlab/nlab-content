@@ -299,7 +299,7 @@ It was mentioned above that the standard simplicial Dold-Kan correspondence $Ch_
 
 We now give a formal version of this statement, following an observation by [[Richard Garner]]. A different but closely analogous sequence of arguments to the same extent is also in the book
 
-* [[Ronnie Brown]], _[[Nonabelian Algebraic Topology]]_
+* [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]],  _[[Nonabelian Algebraic Topology]]_, European Math. Soc. Tracts in Mathematics 15, 2011.
 
 see <a href="http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#DoldKanMap">Dold-Kan map and omega-nerve</a>.
 
@@ -396,11 +396,12 @@ $$
 
 =--
 
+
+
 **Remark** The alternative construction in [[Nonabelian Algebraic Topology]] factors also versions of the nonabelian Dold-Kan correspondence through the $\omega$-nerve.
 
+##Non-abelian forms of the Dold-Kan correspondence.
 
-
-**Remark**
 Perhaps the 'ultimate' form of a 'classical' Dold--Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
 
 Dominique Bourn's formulation is very pretty. The Moore complex functor is [[monad|monadic]] when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the [[hypercrossed complex]]es of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is apparently no 
