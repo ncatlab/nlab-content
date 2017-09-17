@@ -1,0 +1,55 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _classical state_ is a [[state]] of a [[system of classical mechanics]]. 
+
+## Definition
+
+For $A$ a commutative unital [[associative algebra]] that encodes a [[system of classical mechanics]] (the associative algebra underlying a [[Poisson algebra]]), a **classical state** is an $\mathbb{R}$-[[linear function]]
+
+$$
+  \rho : A \to \mathbb{R}
+$$ 
+
+that satisfies
+
+* **normalization** $\rho(1) = 1$;
+
+* **positivity** for all $a \in A$ we have $\rho(a a ) \geq 0$.
+
+This is essentially the definition of [[quantum state]], but formulate for commutative and and over the [[real number]]s
+
+## Related concepts
+
+* [[state]]
+
+  * **classical state**, [[quantum state]]
+
+  * [[state in AQFT and operator algebra]]
+
+* [[observable]]
+
+  * [[algebra of observables]]
+
+  * [[GNS construction]]
+
+
+[[!redirects classical state]].
