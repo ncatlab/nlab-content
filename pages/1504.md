@@ -265,6 +265,20 @@ $$
   \frac{1}{k!} [t_{a_1}, \cdots, t_{a_k}] \,\,
   t^{a_1} \wedge \cdots \wedge t^{a_k}
   + r^a
+$$
+
+and
+
+$$
+  d_{W(\mathfrak{g})} 
+  : 
+  r^a 
+    \mapsto
+  \sum_{k = 1}^\infty
+  \frac{1}{k!}
+  [t_{a_0}, t_{a_1}, \cdots, t_{a_k}]_{k+1}
+  \,
+  r^{a_0} \wedge t^{a_1} \wedge \cdots \wedge t^{a_k}
   \,.
 $$
 
@@ -299,7 +313,7 @@ $$
      2 P_{a b} r^a \wedge 
      \left(
         \sum_{k = 1}^\infty
-        [t_{a_1}, \cdots, t_{a_k}]
+        [t_{a_1}, \cdots, t_{a_k}]_k
         \,
         r^{a_1} \wedge t^{a_2}\wedge \cdots \wedge t^{a_k}
      \right)
