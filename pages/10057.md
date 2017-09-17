@@ -17,11 +17,15 @@
 
 ## Idea
 
-A Hopf monoid is the generalization of a [[Hopf algebra]] to an arbitrary [[monoidal category]].
+A Hopf monoid is the generalization of a [[Hopf algebra]] to an arbitrary [[symmetric monoidal category]].
 
 ## Definition
 
-We work in an arbitrary monoidal category $\mathcal{C}$.  Recall that a [[bimonoid]] in $\mathcal{C}$ is an object $H$ which is both a [[monoid]] object and a [[comonoid]] object in a compatible way, i.e. the comultiplication and the counit are morphisms of monoids, or equivalently the multiplication and the unit are morphisms of comonoids.
+We work in an arbitrary symmetric monoidal category $\mathcal{C}$ (although one can generalize to a [[braided monoidal category]] or even a [[duoidal category]]).  Recall that a [[bimonoid]] in $\mathcal{C}$ is an object $H$ which is both a [[monoid]] object and a [[comonoid]] object in a compatible way, i.e. the comultiplication and the counit are morphisms of monoids, or equivalently the multiplication and the unit are morphisms of comonoids. (To make sense of this description, one requires the symmetry in order to define the appropriate monoid/comonoid structure on $H \otimes H$; e.g., the monoid multiplication is 
+
+$$H \otimes H \otimes H \otimes H \stackrel{1 \otimes \sigma \otimes 1}{\to} H \otimes H \otimes H \otimes H \stackrel{\mu \otimes \mu}{\to} H \otimes H$$ 
+
+where we are writing as if the monoidal product is [[coherence theorem for monoidal categories|strict]]. One can get away with an ambient context of a monoidal category provided that the monoid/comonoid structures in question can be viewed as living in the [[Drinfeld center|center]] of the monoidal category.) 
 
 +-- {: .un_defn}
 ###### Definition
