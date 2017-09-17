@@ -36,6 +36,8 @@ In some situations stacks of M2-branes are accurately described by [[ABJM theory
 
 * [[string theory]]
 
+* [[11-dimensional supergravity]], [[M-theory]]
+
 [[!include table of branes]]
 
 ## References
