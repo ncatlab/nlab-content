@@ -155,6 +155,10 @@ Section 5.2.8 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
  {#Lurie}
 
+Formalization in [[homotopy type theory]] is discussed in 
+
+* [[Egbert Rijke]], _Orthogonal factorization in HoTT_, talk at IAS, January 24, 2013 ([video](http://video.ias.edu/1213/univalent/0124-EgbertRijke))
+
 [[!redirects orthogonal factorization system in an (∞,1)-category]]
 
 [[!redirects factorization system in an (∞,1)-category]]
