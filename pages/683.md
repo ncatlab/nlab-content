@@ -305,7 +305,7 @@ $$
   {*} : D^{op} \to SSet
 $$
 
-for the functor that sends everything to the identity on the singleton set. This is both the tensor unit in the [[monoidal category]] $[D,SSet]$.
+for the functor that sends everything to the identity on the singleton set. This is the tensor unit in the [[monoidal category]] $[D^{op},SSet]$.
 
 
 #### General formula
