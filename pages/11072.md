@@ -27,7 +27,7 @@ We discuss some aspects of the [[categorical semantics]] of the !-modality.
 
 ### Fock space and Second quantization
 
-In [[categorical semantics]] if linear type theory the !-modality typically appears as a kind of [[Fock space]] construction. If one views [[linear logic]] as [[quantum logic]] (as discussed there), then this means that the !-modality produces free [[second quantization]].
+In [[categorical semantics]] of linear type theory the !-modality typically appears as a kind of [[Fock space]] construction. If one views [[linear logic]] as [[quantum logic]] (as discussed there), then this means that the !-modality produces free [[second quantization]].
 
 ### Underlying adjunction
 
