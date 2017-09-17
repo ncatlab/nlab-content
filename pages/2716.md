@@ -1,4 +1,3 @@
-[[!redirects n-symplectic manifold]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -14,14 +13,9 @@
 =--
 =--
 
-#### Symplectic geometry
-+--{: .hide}
-[[!include symplectic geometry - contents]]
-=--
-
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -242,3 +236,5 @@ A discussion of symplectic Lie n-algebroids from an [[infinity-Lie theory]] pers
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
 
 [[!redirects symplectic Lie n-algebroids]]
+
+[[!redirects n-symplectic manifold]]
