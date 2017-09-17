@@ -32,7 +32,7 @@ This is the traditional and maybe most common notion of modules. But the basic n
 ### Motivation for and role of modules: generalized vector bundles
  {#RelationToVectorBundlesInIntroduction}
 
-The theory or monoids or rings and their modules, its "meaning" and usage, is naturally understood via the [[Isbell duality|duality]] between [[algebra]] and [[geometry]]:
+The theory of monoids or rings and their modules, its "meaning" and usage, is naturally understood via the [[Isbell duality|duality]] between [[algebra]] and [[geometry]]:
 
 1. a [[ring]] $R$ is to be thought of as the ring of [[functions]] on some [[space]],
 
