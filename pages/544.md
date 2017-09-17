@@ -13,17 +13,38 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
-An $A_\infty$-algebra is an algebra for the cofibrant resolution of the [[operad]] $Ass$ of associative algebras: it is an algebra which is associative only up to higher coherent homotopy.
+An _$A_\infty$-algebra_ is a [[monoid]] internal to a [[homotopical category]] such that the [[associativity]] law holds not as an equation, but only up to higher [[coherent]] [[homotopy]].
 
-Concretely, an $A_\infty$-algebra is the structure of a degree 1 coderivation 
+## Definition
+
+
++-- {: .un_defn}
+###### Definition
+
+An **$A_\infty$-algebra** is an [[algebra over an operad]] over an [[A-∞ operad]].
+
+=--
+
+## Realizations
+
+
+### In chain complexes
+
+Let here $\mathcal{E}$ be the [[category of chain complexes]] 
+$\mathca{Ch}_\bullet$. Notice that often in the literature this choice of $\mathcal{E}$ is regarded as default and silently assumed.
+
+An $A_\infty$-algebra in chain complexes is concretely the following data. 
+
+A chain $A_\infty$-algebra is the structure of a degree 1 coderivation 
 
 $$
   D : T^c V \to T^c V
 $$
 
-on the reduced tensor coalgebra $T^c V = \oplus_{n\geq 1} V^{\otimes n}$ over a graded vector space $V$ (the coproduct is the _[[unshuffle]]_ product) such that 
+on the reduced [[tensor coalgebra]] $T^c V = \oplus_{n\geq 1} V^{\otimes n}$ over a [[graded vector space]] $V$ (the coproduct is the _[[unshuffle]]_ product) such that 
 $$
   D^2 = 0
   \,.
@@ -72,8 +93,7 @@ For example, $f_1\circ D_1 = D_1\circ f_1$.
 
 
 
-## Relation to dg-algebras
-
+#### Rectification
 
 +-- {: .un_theorem }
 ###### Theorem
@@ -96,15 +116,46 @@ This theorem provides a large supply of examples of $A_\infty$-algebras: there i
 etc.
 =--
 
+### In Topological space
 
+An $A_\infty$-algebra in [[Top]] is also called an _[[A-∞ space]]_ .
+
+#### Examples
+
+Every [[loop space]] is canonically an [[A-∞ space]]. (See there for details.)
+
+#### Rectification
+
++-- {: .un_theorem }
+###### Theorem
+
+Every $A_\infty$-space is [[weak homotopy equivalence|weakly homotopy equivalent]] to a topological [[monoid]].
+
+=--
+
+This is a classical result by ([Stasheff](#Stasheff), [BoardmanVogt](#BoardmanVogt)). It follows also as a special case of the more general result on rectification in a [[model structure on algebras over an operad]] (see there). 
 
 ## Related concepts
 
-* See also [[L-infinity-algebra]], [[A-infinity-category]].
+* **$A_\infty$-algebra**, [[A-∞-category]]
+
+* [[E-∞ algebra]]
+
+* [[L-∞ algebra]], .
 
 ## References
 
+A survey of $A_\infty$-algebras in chain complexes is in
+
 * [[Bernhard Keller]], _A brief introduction to $A_\infty$-algebras_ ([pdf](http://people.math.jussieu.fr/~keller/publ/IntroAinfEdinb.pdf))
+
+Classical articles on $A_\infty$-algebra in topological spaces are 
+
+* [[Jim Stasheff]], _Homotopy associativity of H-spaces I_ , Trans. Amer. Math. Soc. 108 (1963), p. 275-292.
+{#Stasheff}
+
+* [[Michael Boardman]] and [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological spaces_ , Lect. Notes Math. 347 (1973).
+{#BoardmanVogt}
 
 
 [[!redirects A-infinity-algebras]]
