@@ -17021,6 +17021,8 @@ Here we discuss the structure of the _outcome_ of this process
 
 * [[higher geometric quantization]]
 
+* [[motivic quantization]]
+
 
 ### Semantics Layer
 
