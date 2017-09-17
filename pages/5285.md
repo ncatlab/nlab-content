@@ -19,9 +19,11 @@
 
 ## Idea
 
-The _singular homology_ of a [[topological space]] $X$ is its ordinary [[homology]] expressed in terms of the [[chain on a simplicial set|chains on]] its [[singular simplicial complex]]:
+The _singular homology_ of a [[topological space]] $X$ is the [[simplicial homology]] of its [[singular simplicial complex]]:
 
-a **singular $n$-[[chain]]** in the singular homology of $X$ is a formal linear combination of [[continuous maps]] $\Delta^n \to X$ (an element in the [[free abelian group]] spanned by these maps) from the topological $n$-simplex, and an $n$-[[cycle]] in the singular homology is such a chain such that its oriented [[boundary]] vanishes. Two singular chains are **homologous** if they differ by a boudary. The **singular homology** of $X$ in degree $n$ is the group of $n$-cycles modulo modulo those that are boundaries.
+a **singular $n$-[[chain]]** on $X$ is a [[formal linear combination]] of [[singular simplices]] $\sigma : \Delta^n \to X$, and a singular $n$-[[cycle]] is such a chain such that its oriented [[boundary]] in $X$ vanishes. Two singular chains are **homologous** if they differ by a boudary. The **singular homology** of $X$ in degree $n$ is the group of $n$-cycles modulo modulo those that are boundaries.
+
+Singular homology of a topological space conincide with its [[ordinary homology]] as defined more abstractly (see at [[generalized homology theory]]).
 
 ## Definition
  {#Definition}
@@ -471,7 +473,7 @@ See also
 
 ### Examples and applications
 
-* [[Michael Barratt]], [[John Milnor]], _An example of anomalous singular homology_, Proceedings of the American Mathematical Society
+* [[Michael  Barratt]], [[John Milnor]], _An example of anomalous singular homology_, Proceedings of the American Mathematical Society
 Vol. 13, No. 2 (Apr., 1962), pp. 293-297 ([JSTOR]( http://www.jstor.org/stable/2034486))
 
 [[!redirects singular chain]] 
