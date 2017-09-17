@@ -55,7 +55,7 @@ The 3-form $\omega$ from def. \ref{As2PlectomorphismsOnR7} we may regard as equi
 
 ## Related concepts
 
-* [[G2 manifold]]
+* [[G2 manifold]], [[generalized G2-manifold]]
 
 * [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
