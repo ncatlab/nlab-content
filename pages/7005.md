@@ -23,7 +23,7 @@ In [[intensional type theory]] [[identity types]] behave like [[path space objec
 
 The _univalence axiom_ says that the original notion of paths and the notion of weak equivalence that it induces are compatible, in that 
 
-**Univalence:** _For any two [[types]] $X,Y$, the type $X == Y$ of paths between them is equivalent to the type $X \simeq Y$ of equivalences between them._
+**Univalence:** _For any two [[types]] $X,Y$, the type $X == Y$ of paths (in [[Type]]) between them is equivalent to the type $X \simeq Y$ of [[equivalences]] between them._
 
 If this axiom is added to [[intensional type theory|intensional]] ([[Martin-Löf dependent type theory|Martin-Löf]]) [[dependent type theory]], one ontains [[homotopy type theory]].
 
