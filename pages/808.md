@@ -1,4 +1,4 @@
-A **connection** can mean
+The term **connection** can mean any of
 
 * [[connection on a bundle]]
 
@@ -14,14 +14,16 @@ A **connection** can mean
 
 * [[connection for a coring]]
 
-which are all very similar and often special cases of each other, sort of dual construction
+which are all very similar and often special cases of each other, or a sort of dual construction
 
 * [[hom-connection]],
 
-and also
+but it can also mean
 
-* [[connection on a cubical set]]
+* [[connection on a cubical set]] or
 
-which is something very different.
+* [[connection on a double category]],
+
+which are quite different.
 
 [[!redirects connections]]
