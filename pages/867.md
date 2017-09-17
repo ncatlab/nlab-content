@@ -88,7 +88,7 @@ A poset can be understood as a [[(0,1)-category]]. This suggests an obvious [[ve
 
 ## Properties
 
-### Locales from posets -- Alexandrov topology
+### Locales from posets -- Alexandroff topology
  {LocalesFromPosets}
 
 +-- {: .num_defn }
@@ -101,7 +101,7 @@ $$
   \,.
 $$ 
 
-This is called the **[[Alexandrov topology]]** on $P$.
+This is called the **[[Alexandroff topology]]** on $P$.
 
 =--
 
@@ -130,7 +130,8 @@ category of [[copresheaves]] on $P$.
 
 =--
 
-For more see [[Alexandrov topology]].
+For more see [[Alexandroff topology]].
+
 
 ### Cauchy completion
 
