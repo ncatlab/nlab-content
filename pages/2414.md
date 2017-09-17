@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -390,6 +391,8 @@ $$
 **answer** presumeably, but not worked out yet
 
 ## Related concepts
+
+* [[Euclidean quantum field theory]]
 
 * [[spectral triple]]
 
