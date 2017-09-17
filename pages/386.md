@@ -185,7 +185,9 @@ so that $f \oplus g$ can be visualised as $f$ and $g$ placed side by side.
 
 It is easy to see now that $(\Delta_a,\oplus,[0])$ is a [[strict monoidal category]].
 
-It is important to note that this tensor does _not_ give a monoidal structure to $\Delta$, as that does not have the unit $\mathbf{0} = [-1] = \emptyset$.  
+It is important to note that this tensor does _not_ give a monoidal structure to $\Delta$, as that does not have the unit $\mathbf{0} = [-1] = \emptyset$.
+
+Also note that this [[monoidal structure]] is _not_ [[symmetric monoidal category|symmetric]]!  One does have isomorphisms $\mathbf{m} \oplus \mathbf{n} \simeq \mathbf{n+m} \simeq \mathbf{n} \oplus \mathbf{m}$ for all $m,n$, but it is easy to see that they are not [[bifunctorial]].
 
 Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
 
