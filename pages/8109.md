@@ -1,13 +1,44 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The study of [[stable homotopy theory]] and specifically of [[multiplicative cohomology theories]] by means of the [[chromatic filtration]] induced by the [[height of a formal group|height filtration of formal groups]] and hence by the tower of [[Morava K-theories]].
+
 ## Related concepts
 
 * [[stable homotopy theory]]
 
-* [[Lubin-Tate theory]]
+* [[Morava K-theory]]
 
-* [[Morava K-theory]], [[Morava E-theory]]
+  * [[E-∞ field]]
 
-* [[E-∞ field]]
+  * [[integral Morava K-theory]]
+
+* [[Morava E-theory]]
+
+  * [[Lubin-Tate theory]]
+
 
 
 ## References
