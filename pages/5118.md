@@ -153,27 +153,27 @@ $$
   L^{mon} : B 
     \mapsto 
    \lim_{\to}
-  (F_D L F_C B \stackrel{\to}{\to} F_D L B)
+  (F_C L F_D B \stackrel{\to}{\to} F_C L B)
 $$
 
-of the following two morphisms
+in $Mon(C)$ of the following two morphisms
 
-* the first one is the image under $F_C \circ L$ of the adjunction counit $ F_D U_D B  \to B$;
+* the first one is the image under $F_C \circ L$ of the [[unit of an adjunction|adjunction counit]] $ F_D U_D B  \to B$;
 
 * the second is the unique $C$-monoid morphism that restricts to the $C$-morphism
 
   $$
     L F_D B
     \simeq
-   \coprod_{n \in \mathbb{N}} L( B^{otimes n})
+   \coprod_{n \in \mathbb{N}} L( B^{\otimes n})
     \stackrel{\coprod \tilde e}{\to}
    \coprod_{n \in \mathbb{N}}
    (L B)^{\otimes n}
    \simeq
    F_C L B
-   \,.
   $$
 
+  which is componentwise given by the [[lax comonoidal functor|lax comonoidal structure]] on $L$ induced by the lax monoidal structure on $R$.
 
 This monoid left adjoint is related to the original left adjoint by a [[natural isomorphism]]
 
