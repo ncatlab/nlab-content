@@ -46,7 +46,7 @@ Similar statements hold for all [[forces]] of nature, such as the force of [[gra
 
 The [[electromagnetic field]] and the field of [[gravity]] are the physical fields that historically gave rise to what is now called _[[classical field theory]]_. But it turns out that fundamentally, in [[quantum physics]], also all [[matter]] in physics is constituted by fields in a similar sense. Specifically, where [[force]] fields in physics are usually [[connection on a bundle|connections on a bundle]], matter fields are [[sections]] of [[associated bundles]]. 
 
-Field theory was originally discovered as a [[theory (physics)|theory]] of fields on _[[spacetime]]_. But also the [[physical system]] consisting of a single [[particle]] propagating in a _fixed_ [[spacetime]] $X$ is described by a field theory. In this case the field is not defined on spacetime, but on the abstract _[[worldline]]_ of the particle, say the _[[real line]]_ $\mathbb{R}$. A consifiguration of the system, namely a [[trajectory]] of the particle, is then a [[smooth function]] $\phi \;\colon\; \mathbb{R}\to X$. This function may be regarded as a _field_ on the [[worldline]] and in then called a _[[sigma-model]]_ field. The [[quantum mechanics]] of a single particle may be equivalently thought of as a [[quantum field theory]] on the 1-dimensional [[worldline]] of the particle.
+Field theory was originally discovered as a [[theory (physics)|theory]] of fields on _[[spacetime]]_. But also the [[physical system]] consisting of a single [[particle]] propagating in a _fixed_ [[spacetime]] $X$ is described by a field theory. In this case the field is not defined on spacetime, but on the abstract _[[worldline]]_ of the particle, say the _[[real line]]_ $\mathbb{R}$. A configuration of the system, namely a [[trajectory]] of the particle, is then a [[smooth function]] $\phi \;\colon\; \mathbb{R}\to X$. This function may be regarded as a _field_ on the [[worldline]] and in then called a _[[sigma-model]]_ field. The [[quantum mechanics]] of a single particle may be equivalently thought of as a [[quantum field theory]] on the 1-dimensional [[worldline]] of the particle.
 
 This perspective generalizes. Next one can consider fields on 2-dimensional [[surfaces]] $\Sigma_2$ which again are given by maps into some [[spacetime]] $X$. The corresponding 2-dimensional [[sigma-model]] [[quantum field theory]] is then said to describe not a particle but a _[[string]]_ propagating in spacetime, defined on the _[[worldsheet]]_ $\Sigma_2$, replacing the [[worldline]] of the particle. For $\Sigma$ of dimension 3 one accordingly speaks of the _[[worldvolume]]_ of a [[membrane]] and then for $\Sigma$ of general dimension here one speaks of the _[[worldvolume]]_ of a _[[brane]]_. 
 
@@ -94,7 +94,7 @@ Famous examples of the importance of [[large gauge transformations]] appear in
 
 Fields defined as sections of field bundles cannot capture gauge phenomena in a _loca_l way, as is necessary for a manifestly local formulation such in [[extended prequantum field theory]], [[extended quantum field theory]] (sometimes called the "multi-tiered" formulation).
 
-   Spcefically, in [[Yang-Mills theory]] for [[gauge group]] $G$, a field configuration -- a _[[gauge field]] configuration_ -- is a combination of an [[instanton sector]] -- modeled by the [[equivalence class]] of a $G$-[[principal bundle]] $P$ -- and the "[[gauge potential]]", modeled by a [[connection on a bundle|connection on this bundle]] (see below at _[Gauge fields](#GaugeFields)_ for details).  There is a [[fiber bundle]] $E(P) \to X$ such that its [[sections]] are precisely the [[connection on a bundle|connections]] on $P \to X$, and so $\coprod_{c} E(P_c) \to X$, where $c$ ranges over the instanton sectors, is a field bundle for Yang-Mills fields on $X$. 
+   Specifically, in [[Yang-Mills theory]] for [[gauge group]] $G$, a field configuration -- a _[[gauge field]] configuration_ -- is a combination of an [[instanton sector]] -- modeled by the [[equivalence class]] of a $G$-[[principal bundle]] $P$ -- and the "[[gauge potential]]", modeled by a [[connection on a bundle|connection on this bundle]] (see below at _[Gauge fields](#GaugeFields)_ for details).  There is a [[fiber bundle]] $E(P) \to X$ such that its [[sections]] are precisely the [[connection on a bundle|connections]] on $P \to X$, and so $\coprod_{c} E(P_c) \to X$, where $c$ ranges over the instanton sectors, is a field bundle for Yang-Mills fields on $X$. 
 
    But this construction is not local: if we consider this assignment of field bundles to all suitable manifolds $X$, and if $U \to X$ is a cover of $X$, then we cannot in general obtain the field bundle on $X$ by gluing the field bundle on the cover. This is because _locally_ every $G$-[[principal bundle]] has trivial class, so that locally there is always only a single (the trivial) instanton sector. 
 
@@ -628,7 +628,7 @@ The definition of fields in def. \ref{FieldsInAnActionFunctional} is in fact the
 
 1. [Relation of fields to relative cohomology](#RelationToRelativeCohomology)
 
-The central results that underly these identifications are in ([NSS](#NSS)), also [dcct, section 3.6.10, 3.6.11, 3.6.12, 3.6.15](#dcct).
+The central results that underlie these identifications are in ([NSS](#NSS)), also [dcct, section 3.6.10, 3.6.11, 3.6.12, 3.6.15](#dcct).
 
 ### Moduli $\infty$-stacks of fields
  {#ModuliStacksOfFields}
@@ -1152,7 +1152,7 @@ $\iota_X$-[[relative cohomology|relative A-cohomology]] of $X$.
 
 =--
 
-In general, if the defect fields are not trivial, the fields $\iota_X \to \mathbf{Fields}$ (hence ordinary cocycles in $\mathbf{H}^{(\Delta^1)}$) are a kind of cocycles in $\mathbf{H}$ that are a combination of relative and twisted cocycles: instead with their pullback to $X_{def}$ being equipped with a trivialization, it is equipped with a "twisted trivialization" in the sense of [[twisted differential c-structure|twisted c-structures]], disucssed [below](#TwistedDifferentialcStructurs).
+In general, if the defect fields are not trivial, the fields $\iota_X \to \mathbf{Fields}$ (hence ordinary cocycles in $\mathbf{H}^{(\Delta^1)}$) are a kind of cocycles in $\mathbf{H}$ that are a combination of relative and twisted cocycles: instead with their pullback to $X_{def}$ being equipped with a trivialization, it is equipped with a "twisted trivialization" in the sense of [[twisted differential c-structure|twisted c-structures]], discussed [below](#TwistedDifferentialcStructurs).
 
 
 ## Examples
@@ -1259,7 +1259,7 @@ Traditionally a [[sigma-model]] field is a type of fields given simply by ([[smo
 #### Uncharged scalar field
  {#UnchargedScalarField}
 
-A _[[scalar field]]_ is given simply by a [[function]] on [[spacetime]]/[[worldvolume]], typically with values in the [[real numbers]] $\mathbb{R}$ ("real scalar fiedl") or the [[complex numbers]] $\mathbb{C}$ ("complex scalar field"). Hence this is the example of def. \ref{FieldsInAnActionFunctional} with trivial [[background fields]]
+A _[[scalar field]]_ is given simply by a [[function]] on [[spacetime]]/[[worldvolume]], typically with values in the [[real numbers]] $\mathbb{R}$ ("real scalar field") or the [[complex numbers]] $\mathbb{C}$ ("complex scalar field"). Hence this is the example of def. \ref{FieldsInAnActionFunctional} with trivial [[background fields]]
 
 $$
   \mathbf{BgFields} \coloneqq *
@@ -1279,7 +1279,7 @@ $$
 
 regarded as an object in $\mathbf{H}_{/*} \simeq \mathbf{H}$.
 
-[[scalar field|Scalar fields]] are, due to their simplicity, prominent in toy examples used to discuss general properties of [[quantum field theory]]. The only  fundamental scalar particle observed in nature to date is the [[Higgs particle]] (or presumeably so, in [[technicolor]] models it is not actually fundamental but a composite of [[fermion]] particles, discussed [below](#Fermions)), but the Higgs field is, crucially, charged under the [[electroweak field|electroweak]] [[special unitary group|SU(2)]]-[[gauge field]]. A [[model (in theoretical physics)|model]] of relevance in [[phenomenology]] which crucially features an uncharged scalar particle is [[cosmic inflation]]. But the fundamental nature of the [[inflaton field]] is hypothetical (if it exsists at all), it might well be the [[effective QFT|effective]] version of non-scalar fields.
+[[scalar field|Scalar fields]] are, due to their simplicity, prominent in toy examples used to discuss general properties of [[quantum field theory]]. The only  fundamental scalar particle observed in nature to date is the [[Higgs particle]] (or presumably so, in [[technicolor]] models it is not actually fundamental but a composite of [[fermion]] particles, discussed [below](#Fermions)), but the Higgs field is, crucially, charged under the [[electroweak field|electroweak]] [[special unitary group|SU(2)]]-[[gauge field]]. A [[model (in theoretical physics)|model]] of relevance in [[phenomenology]] which crucially features an uncharged scalar particle is [[cosmic inflation]]. But the fundamental nature of the [[inflaton field]] is hypothetical (if it exists at all), it might well be the [[effective QFT|effective]] version of non-scalar fields.
 
 #### Particle trajectory
  {#ParticleTrajectory}
