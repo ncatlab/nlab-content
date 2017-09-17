@@ -86,7 +86,7 @@ $$
   \,.
 $$
 
-For $\Gamma = \mathbbb{Z}$ this hence yields 
+For $\Gamma = \mathbb{Z}$ this hence yields 
 
 $$
   SG(X,\pi) = \tau_1 \exp(\mathfrak{P}(X,\pi))_{conn}
@@ -104,7 +104,7 @@ $$
   \,.
 $$
 
-That this coincides with the one in the tradtional literature can be seen farily explicitly for instance from ([Bonechi-Cattaneo-Zabzine 05, remark 3](#BonechiCattaneoZabzine05)).
+That this coincides with the one in the traditional literature can be seen fairly explicitly for instance from ([Bonechi-Cattaneo-Zabzine 05, remark 3](#BonechiCattaneoZabzine05)).
 
 (...)
 
