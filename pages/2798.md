@@ -19,10 +19,9 @@
 
 ## Idea
 
-The [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] $dSet$ of [[dendroidal set]]s models [[(∞,1)-operad]]s in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
+The [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] $dSet$ of [[dendroidal sets]] models [[(∞,1)-operads]] in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
 
 ## Overview
-
 
 We have the following diagram of [[model category|model categories]]:
 
@@ -71,7 +70,7 @@ Recall frrom the entry on [[dendroidal set]]s the definition of inner and outer 
 
 The following definition are the obvious generalizations of the corresponding notions for the [[model structure on simplicial sets]], in particular for the [[Andre Joyal|Joyal]] model structure.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (inner anodyne extension)
 
 The class of morphisms in $dSet$ generated from the inner horn inclusions $\Lambda^e \Omega[T] \to \Omega[T]$ under
@@ -86,7 +85,7 @@ is called the **inner anodyne extensions**.
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (inner Kan fibration)
 
 A [[morphism]] $A \to B$ in $dSet$ is an **inner Kan fibration** if it has the [[right lifting property]] with respect to all inner horn inclusions.
@@ -106,14 +105,14 @@ or equivalently with respect to the class of inner anodyne extensions.
 =--
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (inner Kan complex / quasi-operad)
 
 A dendroidal set $X$ is an **inner Kan complex** or **quasi-operad** if the canonical morphism $X\to {*}$ to the [[terminal object]] is an inner Kan fibration.
 
 =--
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition (trivial fibration)
 
 A morphism $A \to B$ of dendroidal sets is an **acyclic fibration** if it has the [[right lifting property]] with respect to all normal monomorphisms.
@@ -131,7 +130,7 @@ A _trivial fibration of quasi-operads_ is a morphism of [[dendroidal set]]s such
 
 An **inner anodyne extension** of [[dendroidal set]]s is a morphism such that... 
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition (model structure on dendroidal sets)
 
 On the category of [[dendroidal set]]s let
@@ -157,7 +156,7 @@ On the category of [[dendroidal set]]s let
 
 ### Of the model structure itself
 
-+-- {: .un_theorem }
++-- {: .num_theorem }
 ###### Theorem
 
 The above choices of cofibrations, fibrations and weak equivalences equips the category $dSet$ of dendroidal sets with the structure of a [[model category]]. This model structure is
@@ -190,7 +189,7 @@ $$
 
 A set of generating cofibrations is guaranteed to exist, but no good explicit characterization is known to date.
 
-+-- {: .un_corollary }
++-- {: .num_corollary }
 ###### Corollary
 
 With this model structure and the standard [[model structure on operads]] the dendroidal [[nerve]] [[adjunction]]
@@ -210,7 +209,7 @@ This is cor. 6.17 in [CisMoe](http://arxiv.org/abs/0902.1954).
 
 =--
 
-+-- {: .un_proposition }
++-- {: .num_proposition }
 ###### Proposition
 
 
@@ -232,7 +231,7 @@ This is in section 8.4 of the lecture notes cited below.
 =--
 
 
-+-- {: .un_proposition }
++-- {: .num_proposition }
 ###### Proposition (compatibility with the Joyal model structure)
 
 Let $|$ be the tree with a single leaf and no vertex. Then the [[overcategory]] $dSet/\Omega[|]$ is canonically isomorphic to [[SSet]].
@@ -261,7 +260,49 @@ on dendroidal sets.
 
 This Quillen equivalence is an operadic generalization of the Quillen equivalence between the [[model structure on sSet-categories]] and the [[model structure for quasi-categories]].
 
-(...) 
++-- {: .num_theorem}
+###### Theorem
+
+There exists an [[adjunction]]
+
+$$  
+  (W_! \dashv hcN_d) 
+   : 
+  sSet Operad 
+    \stackrel{\overset{W_!}{\leftarrow}}{\underset{hcN_d}{\to}}
+  dSet 
+  \,,
+$$
+
+Whise [[right adjoint]] is the [[dendroidal homotopy coherent nerve]].
+
+This is a [[Quillen equivalence]] between the model structure on dendroidal sets, and the [[model structure on operads]] over [[sSet]]${}_{Quillen}$.
+=--
+
+This is  ([Cisinski-Moerdijk 11, theorem 815](#CisinskiMoerdijk11)).
+
++-- {: .num_remark}
+###### Remark
+
+Under the inclusions (see the discussion at _[[dendroidal set]]_)
+
+$$
+  \array{
+     sSet Cat &\hookrightarrow & sSet Operad
+     \\
+     && {}^{\mathllap{hcN_d}}\downarrow \uparrow^{\mathrlap{W_!}}
+     \\
+     sSet \simeq dSet/\eta &\hookrightarrow & dSet
+  }
+$$
+
+this restricts to the Quillen equivalence 
+between the
+[[model structore on sSet-categories]] and the [[model structure for quasi-categories]] discussed at _[[relation between quasi-categories and simplicial categories]]_.
+
+=--
+
+
 
 ## Related concepts
 
@@ -282,6 +323,11 @@ The model structure was originally given in
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv](http://arxiv.org/abs/0902.1954))
 
-A detailed discussion of the finbrant objects in the model structure is in
+A detailed discussion of the fibrant objects in the model structure is in
 
 * [[Ieke Moerdijk]] [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_ ([web](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6W9F-4VM2KC8-1&_user=457046&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1115574112&_rerunOrigin=google&_acct=C000021878&_version=1&_urlVersion=0&_userid=457046&md5=5eb2307e02ed1aa9e6fe2c7809346546))
+
+The proof of the Quillen equivalence between the model structure on dendroidal sets and that on $sSet$-operads is given in 
+
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets and simplicial operads_ ([arXiv:1109.1004](http://arxiv.org/abs/1109.1004))
+ {#CisinskiMoerdijk11}
