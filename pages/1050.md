@@ -78,6 +78,12 @@ Conceivably, it might be used also in the more general case, but to refer to a w
 
 Left exactness is sometimes abbreviated **lex**.  In particular, $Lex$ is the 2-category of categories with finite limits and lex functors.  See also [[continuous functor]].
 
+## In higher category theory
+
+The notion of exact functor has straightforward analogs in [[higher category theory]].
+
+For [[(∞,1)-category]] theory see [[exact (∞,1)-functor]].
+
 
 ##References
 
