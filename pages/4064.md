@@ -39,9 +39,10 @@ which commutes up to specified isomorphism, where $e\in E$ and $m\in M$, has a d
 
   * $E=$ functors $e:a\to b$ such that every object of $b$ is a [[retract]] of an object in the image of $a$, and $M=$ fully faithful functors whose image is closed under retracts.
 
-  * $E=$ essentially surjective and [[full functors]], $M=$ [[faithful functors]].
+  * $E=$ [[essentially surjective functor|essentially surjective]] and [[full functors]], $M=$ [[faithful functors]]; 
 
-    restricted to [[Grpd]] $\subset$ [[Cat]] this is a special case of the [[n-connected/n-truncated factorization system]] on [[∞Grpd]] for $n = 0$.
+    (see [[essentially surjective and full/faithful factorization system]] for more).
+
 
   * $E=$ (possibly [[transfinite compositions|transfinite]]) composites of [[localizations]], $M=$ [[conservative functors]].
 
