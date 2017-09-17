@@ -1,0 +1,15 @@
+
+
+## Related concepts
+
+* [[quantum logic]], [[quantum computing]]
+
+## References
+
+* wikipedia, _[Qbit](http://en.wikipedia.org/wiki/Qubit)_
+
+[[!redirects Qbit]]
+[[!redirects qbits]]
+[[!redirects Qbits]]
+[[!redirects quantum bit]]
+[[!redirects quantum bits]]
