@@ -1517,13 +1517,65 @@ $$
 
 [[Dold-Kan correspondence]]
 
+
 (...)
+
+$$
+  DK \;\colon\; 
+  Ch_{\bullet \geq 0} 
+  \stackrel{\simeq}{\to}
+  sAb
+  \stackrel{forget}{\to}
+  KanCplx
+  \hookrightarrow
+  sSet
+  \,.
+$$
+
++-- {: .num_defn }
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+$$
+  \mathbf{B}^n U(1) \coloneqq DK([U(1)[n]])
+  \,.
+$$
+
+=--
+
+Below in _[Higher Chern-Simons theory](#HigherChern-SimonsLocalPrequantumFieldTheory)_ the _smooth_ version of the [[circle group]] plays a role. In order to amplify that here we are just dealing with the [[discrete group]] underlying $U(1)$, we write
+
+$$
+  \flat U(1) \coloneqq U(1)_{disc}
+$$
+
+for it. 
+
+$$
+  \mathbf{B}^n \flat U(1) \coloneqq DK([U(1)_{disc}[n]])
+  \,.
+$$
+
++-- {: .num_prop }
+###### Proposition
+
+By the [[Dold-Kan correspondence]] each $\mathbf{B}^n \flat U(1)$ is
+naturally an [[∞-group]] and its [[delooping]] is indeed $\mathbf{B}^{n+1}\flat U(1)$
+
+$$
+  \Omega \mathbf{B}^{n+1} \flat U(1) \simeq \mathbf{B}^n \flat U(1)
+  \,.
+$$
+
+=--
+
 
 
 ##### Group cohomology and local action functionals
 
 
-+-- {: .num_prop }
++-- {: .num_prop #GroupCohomologyByHomotopyClassesOfMaps}
 ###### Proposition
 
 For $G$ a [[discrete group]] and $A$ a discrete [[abelian group]], there is a natural isomorphism
@@ -1542,7 +1594,17 @@ between the degree-$n$ [[group cohomology]] of $G$ with [[coefficients]] in $A$ 
 
 (...)
 
+Let $[\alpha] \in H^3_{Grp}(G,U(1))$ be a 3-cocycle in [[group cohomology]]. By prop. \ref{GroupCohomologyByHomotopyClassesOfMaps}
+this corresponds to a morphism of $\infty$-groupoids
 
+$$
+  \alpha \colon \mathbf{B}G \to \mathbf{B}^3 U(1) \flat U(1)
+  \,.
+$$
+
+This is the local action functional of 3d-[[Dijkgraaf-Witten theory]] for this cocycle.
+
+(...)
 
 ### Higher Chern-Simons local prequantum field theory
  {#HigherChern-SimonsLocalPrequantumFieldTheory}
