@@ -16,7 +16,7 @@
 
 ## Idea
 
-Many aspects of the theory of "[[topological strings]]" (the [[A-model]] and the [[B-model]]) proceed in close anlogy (just simpler) to the "physical" [[string theory]]. Accordingly, as the latter can usefully be organized as the dimensional reduction of a conjectured [[UV-completion]] of [[11-dimensional supergravity]] -- "M-theory" -- there seems to be an analogous higher dimensional organizational principle for topological strings, hence termed _topological M-theory_.
+Many aspects of the theory of "[[topological strings]]" (the [[A-model]] and the [[B-model]]) proceed in close analogy (just simpler) to the "physical" [[string theory]]. Accordingly, as the latter can usefully be organized as the dimensional reduction of a conjectured [[UV-completion]] of [[11-dimensional supergravity]] -- "M-theory" -- there seems to be an analogous higher dimensional organizational principle for topological strings, hence termed _topological M-theory_.
 
 One way to understand it is as a [[TQFT]]-analog of the [[M2-brane]] [[sigma-model]], the "topological membrane".
  
@@ -26,7 +26,7 @@ The notion has been introduced in
 
 * [[Robbert Dijkgraaf]], [[Sergei Gukov]], [[Andrew Neitzke]], [[Cumrun Vafa]], _Topological M-theory as Unification of Form Theories of Gravity_ ([arXiv:hep-th/0411073](http://arxiv.org/abs/hep-th/0411073))
 
-The _topoligical membrane_ is made explicit in 
+The _topological membrane_ is made explicit in 
 
 * Giulio Bonelli, Alessandro Tanzini, Maxim Zabzine, _On topological M-theory_ ([arXiv:hep-th/0509175](http://arxiv.org/abs/hep-th/0509175))
 
