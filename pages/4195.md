@@ -1,3 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _coherence theorem for monoidal categories_ is the [[coherence theorem]] that asserts that the [[associativity]] [[coherence law]] is indeed satisfied in a  [[monoidal category]].
+
+
 ## Statements ## 
 
 ...
