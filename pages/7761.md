@@ -1,3 +1,3 @@
 Ultracategories are categories with extra structure introduced in
 
-* [[Mihaly Makkai]], _Stone duality for first order logic_, Adv. Math. __65__:2, pp. 97--170, 1987
+* [[Mihaly Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ (1987) no. 2, 97--170, <a href="http://dx.doi.org/10.1016/0001-8708(87)90020-X">doi</a>,  [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266)
