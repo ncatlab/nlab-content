@@ -285,6 +285,8 @@ This is how derived functors are traditionally introduced in homological algebra
 
 * In the context of a [[model structure on chain complexes]] of [[module]]s the left and right derived functors of the [[tensor product]] functor and the [[hom-functor]] are called [[Tor]]-functor and [[Ext-functor]], respectively.
 
+* A [[derived direct image]] functor computes [[abelian sheaf cohomology]]. See also _[[derived inverse image]]_.
+
 ## Related concepts
 
 * [[hyper-derived functor]], [[total derived functor]]
