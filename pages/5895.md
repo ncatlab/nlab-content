@@ -101,7 +101,7 @@ $$
   \mathcal{C} \rtimes \mathbb{D} \simeq \mathbf{B}(G \rtimes H)
 $$
 
-is the delooping gorupoid of the [[semidirect product]] group of the $G$-action on $H$.
+is the delooping groupoid of the [[semidirect product]] group of the $G$-action on $H$.
 
 =--
 
