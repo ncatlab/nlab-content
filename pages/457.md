@@ -1,14 +1,31 @@
 
-An **inhabited set** or **occupied set** is a [[set]] that contains an [[element]].
+#Contents#
+* table of contents
+{:toc}
 
-At least assuming [[classical logic]], this is the same thing as a set that is not [[empty set|empty]]. Usually inhabited sets are simply called 'non-empty', but the positive word 'inhabited' reminds us that this is the simpler notion, which emptiness is defined as the negation of.
+## Idea
 
-The terms 'inhabited' and 'occupied' come from [[constructive mathematics]]. In constructive mathematics, a set that is not empty isn\'t necessarily inhabited, because [[double negation]] is nontrivial in [[intuitionistic logic]]. All the same, many constructive mathematicians use the old word 'non-empty' with the understanding that it *really* means inhabited.
+In [[set theory]],  an **inhabited set** or **occupied set** is a [[set]] that contains an [[element]].
+
+More generally, in [[type theory]] an **inhabited type** is a [[type]] that has a [[term]].
+
+At least assuming [[classical logic]], this is the same thing as a set that is [[negation|not]] [[empty set|empty]]. Usually inhabited sets are simply called 'non-empty', but the positive word 'inhabited' reminds us that this is the simpler notion, which emptiness is defined as the [[negation]] of.
+
+The terms 'inhabited' and 'occupied' come from [[constructive mathematics]]. In constructive mathematics (such as the [[internal logic]] of some [[topos]] or generally in [[type theory]]), a set/type that is not empty is not already necessarily inhabited.  This is because [[double negation]] is nontrivial in [[intuitionistic logic]]. All the same, many constructive mathematicians use the old word 'non-empty' with the understanding that it *really* means inhabited.
 
 There is a distinction between 'inhabited' and 'occupied' spaces in [[Abstract Stone Duality]] (which probably corresponds to something about [[locales]], should explain that here).
 
 An inhabited set is the special case of an [[inhabited object]] in the [[topos]] [[Set]].
 
+## Related concepts
+
+* [[hProp]]
+
+* [[effective epimorphism]]
+
+* [[inhabited type]]
+
+  * [[inhabited object]], [[inhabited set]]
 
 [[!redirects inhabited set]]
 [[!redirects inhabited sets]]
