@@ -1,8 +1,13 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Successors of natural numbers
 
 Given a [[natural number]] $n$, the __successor__ $n^+$ of $n$ is simply $n + 1$.  In a topos, a [[natural numbers object]] $\mathbb{N}$ is equipped with a successor morphism $\mathbb{N}\to\mathbb{N}$, which, together with its zero element $1\to \mathbb{N}$, is used to characterize its abstract universal property of [[recursion]].
 
-## Successors in well-orderings
+## Successors in well-orderings and cardinals
 
 More generally, in any [[well-ordered set]] $S$, the **successor** $w^+$ of an element $w$ is the least element of $S$ which is (strictly) greater than $w$ (if such an element exists).  If $S$ has no maximal element, then the successor map $w \mapsto w^+$ is always defined; it is sometimes used to make recursive definitions.  We say that an element of a well-ordered set *is a successor* if it is the successor of something.
 
