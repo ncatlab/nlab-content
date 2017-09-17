@@ -58,6 +58,8 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 * [[symplectic realization]]
 
+* [[symplectic dual pair]]
+
 * [[Poisson Lie algebroid]]
 
 * [[Poisson bracket Lie n-algebra]]
