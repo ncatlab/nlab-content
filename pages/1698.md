@@ -786,33 +786,21 @@ Alg. Geom. Topol. 13(3), 2013, pp. 1779--1813. ([preprint pdf](http://home.mathe
 [[!redirects fibration sequences]]
 
 [[!redirects homotopy fiber]]
+[[!redirects homotopy fibers]]
 [[!redirects homotopy fibre]]
 [[!redirects homotopy fibres]]
-[[!redirects homotopy fibers]]
 [[!redirects homotopy kernel]]
 [[!redirects homotopy kernels]]
-
-[[!redirects homotopy cofiber]]
-[[!redirects homotopy cofibre]]
-[[!redirects homotopy cofibres]]
-[[!redirects homotopy cofibers]]
-[[!redirects homotopy cokernel]]
-[[!redirects homotopy cokernels]]
-
-[[!redirects homotopy co-fiber]]
-[[!redirects homotopy co-fibre]]
-[[!redirects homotopy co-fibres]]
-[[!redirects homotopy co-fibers]]
-[[!redirects homotopy co-kernel]]
-[[!redirects homotopy co-kernels]]
-
-
 
 [[!redirects homotopy exact sequence]]
 [[!redirects homotopy exact sequences]]
 
 [[!redirects homotopy fiber sequence]]
 [[!redirects homotopy fiber sequences]]
+[[!redirects homotopy fibre sequence]]
+[[!redirects homotopy fibre sequences]]
 
 [[!redirects (∞,1)-fiber]]
 [[!redirects (∞,1)-fibers]]
+[[!redirects (∞,1)-fibre]]
+[[!redirects (∞,1)-fibres]]
