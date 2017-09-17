@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[long exact sequence in cohomology]] induced by a [[spherical fibration]].
+
+## Related concepts
+
+* [[Gysin map]]
+
+## Reference
+
+
+* Wikipedia, _[Gysin sequence](http://en.wikipedia.org/wiki/Gysin_sequence)_
+
+* [[James Milne]], section 16 of _[[Lectures on Étale Cohomology]]_
+
+[[!redirects Gysin sequences]]
+
