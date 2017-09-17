@@ -23,3 +23,5 @@ The [[axiom of choice]] states precisely that every surjection in the category o
 [[!redirects surjections]]
 [[!redirects surjective]]
 [[!redirects surjective map]]
+[[!redirects surjective maps]]
+
