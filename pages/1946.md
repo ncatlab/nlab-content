@@ -426,3 +426,5 @@ The main statement is theorem 4.7 there.
 
 [[!redirects Reedy model category]]
 [[!redirects Reedy model categories]]
+
+[[!redirects latching object]]
