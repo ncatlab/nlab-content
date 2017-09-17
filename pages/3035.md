@@ -101,31 +101,9 @@
 
 * [[nonabelian Lie algebra cohomology]]
 
-## $\infty$-Connections
+## Related topics
 
-* [[schreiber:∞-Lie algebroid valued differential forms]]
-
-* [[groupoid of Lie-algebra valued forms]]
-
-* [[2-groupoid of Lie 2-algebra valued forms]]
-
-* [[3-groupoid of Lie 3-algebra valued forms]]
-
-
-## ∞-Chern-Weil theory ##
-
-* [[curvature]]
-
-  * [[Bianchi identity]]
-
-  * [[curvature characteristic form]]
-
-* [[Chern-Weil homomorphism]]
-
-* [[Chern-Simons form]]
-
-
-
+* [[∞-Chern-Weil theory]]
 
 ## Examples
 
