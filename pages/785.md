@@ -106,10 +106,13 @@ $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
 
 
-## Fibration sequences 
+## Fiber sequences 
 
-Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fibration sequence]]s and [[loop space object]]s.
+Of particular interest are consecutive homotopy pullbacks of point inclusions. These give rise to [[fiber sequence]]s and [[loop space object]]s.
 
 
 
 [[!redirects homotopy pullbacks]]
+
+[[!redirects homotopy pushout]]
+[[!redirects homotopy pushouts]]
