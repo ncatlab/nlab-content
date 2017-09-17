@@ -7,7 +7,7 @@
 
 _Volodin spaces_ are the [[Vietoris complex]] analogues of the nerve of a family of subgroups discussed in the entry, [[higher generation by subgroups]].  They provide a way of building a geometric object that provides a means of comparing the information on the 'big group' that is 'stored' by subgroups within the family.
 
-They were essentially introduced by [[Volodin]] as part of his approach to higher [[algebraic K-theory]]. We will discuss them via another approach that is explicit in work by Suslin, on the equivalence of the Volodin K-theory with that of Quillen.
+They were essentially introduced by [[Volodin]] as part of his approach to higher [[algebraic K-theory]]. We will discuss them via another approach that is explicit in work by [[Suslin]], on the equivalence of the Volodin K-theory with that of [[Quillen]].
 
 ##Preliminaries
 
@@ -58,6 +58,9 @@ There is a natural simplicial isomorphism,
 $$G\backslash E(G)\xrightarrow{\cong}Ner(G[1])= BG.$$
 =--
 We thus have that $G\backslash E(G)$ is a [[classifying space]] for $G$.
+
+
+This construction of $E(G)$ is exactly that of the nerve of the [[action groupoid]] of the action of $G$ on itself by left multiplication.
 
 ##Volodin spaces
 
