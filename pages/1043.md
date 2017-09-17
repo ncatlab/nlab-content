@@ -27,6 +27,8 @@ The __universal constructions__ in [[category theory]] include
 
 * [[Kan extension]]
 
+* [[dependent sum]]/[[dependent product]]
+
 Each of these may be defined by requiring it to satisfy a __universal property__.
 
 In good cases, every single one of these is a special case of every other, so somehow one single concept here comes to us with many different faces. 
