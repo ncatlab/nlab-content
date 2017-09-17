@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 #### Rational homotopy theory
 +--{: .hide}
 [[!include differential graded objects - contents]]
@@ -10,7 +14,7 @@
 =--
 
 
-A _graded object_ is often said to be of **finite type** if it is degreewise finite dimensional, in some sense.
+A _graded object_ is often said to be of **finite type** if it is _degreewise_ of finite [[dimension]]/[[rank]], in some sense.
 
 The terminology is used specifically in [[rational homotopy theory]].
 
