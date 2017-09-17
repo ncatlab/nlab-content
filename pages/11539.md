@@ -1,3 +1,6 @@
+
+
+
 # Contents #
 * table of contents 
 {: toc}
@@ -66,6 +69,9 @@ For each $n$ there exists $r \leq \max \{3, (log(n))^5\}$ such that $ord_r(n) \g
 
 These results form the basis for the first algorithm for deciding primality that is general (applies to any integer $n$), runs in polynomial time, is deterministic (other known efficient tests were randomized and only guaranteed high probability of primality), and unconditional (does not depend on conjectured number-theoretic results such as forms of the [[Riemann hypothesis]]). 
 
+## Related concepts
+
++ [[Fermat quotient]]
 
 ## References 
 
