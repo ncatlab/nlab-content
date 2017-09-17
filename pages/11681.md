@@ -44,5 +44,5 @@ Reading this as [[Maxwell's equations]] on $(X,g)$ then $g$ is the [[field (phys
 
 The term "Hodge-Maxwell theorem" in the above form appears in
 
-* [[Jonathan Evans]], _[Aspects of Yang-Mills theory](http://www.homepages.ucl.ac.uk/~ucahjde/yangmills.htm)), [lecture 4 pdf](http://www.homepages.ucl.ac.uk/~ucahjde/YM-lectures/lecture4.pdf)
+* [[Jonathan Evans]], _[Aspects of Yang-Mills theory](http://www.homepages.ucl.ac.uk/~ucahjde/yangmills.htm), [lecture 4 pdf](http://www.homepages.ucl.ac.uk/~ucahjde/YM-lectures/lecture4.pdf)
 
