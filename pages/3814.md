@@ -25,7 +25,9 @@ The **standard [[model (in particle physics)|model]] of [[particle physics]]** i
 
 as well as three of the four _fundamental [[forces]]_ as currently known, which, somewhat roughly, are
 
-* **[[force]]**: [[electromagnetism]], the [[weak nuclear force|weak]] and the [[strong nuclear force]].
+* **[[force]]**:  the [[electroweak field|electroweak force]] (including [[electromagnetism]]) and the [[strong nuclear force]].
+
+It is defined as a [[local Lagrangian]] [[field (physics)|field]] [[theory (physics)|theory]] which is an  [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]].
 
 The main ingredient missing from the standard model is the [[quantum physics|quantum]] version of the field of [[gravity]]. For decades, a large part of theoretical physics has been absorbed with attempts to understand how this last of the known fundamental forces might fit into the picture.
 
@@ -74,7 +76,7 @@ There are various other variations, too.
 
 ## Related concepts
 
-* [[Yang-Mills theiry]]
+* [[Yang-Mills theory]]
 
   * [[QCD]], [[electroweak field]], [[electromagnetism]]
 
