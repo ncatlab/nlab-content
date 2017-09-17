@@ -127,3 +127,6 @@ For the cup product of [[Cheeger-Simons differential character]]s see also
 
 [[!redirects differential cup-product]]
 [[!redirects differential cup product]]
+
+[[!redirects cup product in ordinary differential cohomology]]
+[[!redirects cup-product in ordinary differential cohomology]]
