@@ -47,9 +47,9 @@ takes [[epimorphism|epis]] to epis. This is the same as saying: given an epi $p:
 Accordingly, in a [[topos]] the CoSHEP axiom says equivalently
 
 +-- {: .num_axiom}
-###### Axiom (COSHEP)
+###### Axiom (CoSHEP)
 
-_Every object has a [[projective presentation]]._ Hence: _There are [enough projectives](projective+object#EnoughProjectives)._
+Every object has a [[projective presentation]]. Hence: There are [enough projectives](projective+object#EnoughProjectives).
 =--
 
 Borrowing from the philosophy of [[constructive mathematics|constructivism]], we may also call this a _complete presentation_.
@@ -118,7 +118,7 @@ id \downarrow & & \downarrow h & & \downarrow h \\
 X & \underset{\pi_1}{\leftarrow} & R & \underset{\pi_2}{\to} & X
 }$$
 
-Clearly $\langle p h, p h s \rangle : \mathbb{N} \to X \times X$ factors through $\langle \pi_1, \pi_2 \rangle : R \to X \times X$, i.e., $\forall_{n: \mathbb{N}} (p h(n), p h(n+1)) \in R$, thus proving that dependent choice holds under COSHEP. 
+Clearly $\langle p h, p h s \rangle : \mathbb{N} \to X \times X$ factors through $\langle \pi_1, \pi_2 \rangle : R \to X \times X$, i.e., $\forall_{n: \mathbb{N}} (p h(n), p h(n+1)) \in R$, thus proving that dependent choice holds under CoSHEP. 
 =-- 
 
 
@@ -180,13 +180,13 @@ Since [[Set]] is (essentially regardless of foundations) an [[exact category]], 
 +-- {: .num_prop}
 ###### Proposition
 
-COSHEP as a choice principle added to [[ZF]] implies a [[proper class]] of [[regular cardinals]].
+CoSHEP as a choice principle added to [[ZF]] implies a [[proper class]] of [[regular cardinals]].
 =--
 
 +-- {: .proof}
 ###### Proof 
 
-Since COSHEP implies [[WISC]], and WISC has this implication.
+Since CoSHEP implies [[WISC]], and WISC has this implication.
 =--
 
 
@@ -213,11 +213,11 @@ Since COSHEP implies [[WISC]], and WISC has this implication.
 
 ## References
 
-When [[Peter Aczel]] was developing $\mathbf{CZF}$ (a constructive predicative version of [[ZFC]]), he considered this axiom, under the name of the _presentation axiom_, but ultimately rejected it.
+When [[Peter Aczel]] was developing $CZF$ (a constructive predicative version of [[ZFC]]), he considered this axiom, under the name of the _presentation axiom_, but ultimately rejected it.
 
 * Peter Aczel. _The type theoretic interpretation of constructive set theory_. Logic Colloquium '77 (Proc. Conf., Wroclaw, 1977), pp. 55--66, Stud. Logic Foundations Math., 96, North-Holland, Amsterdam-New York, 1978.  Cited in Palmgren, below.
 
-The presentation axiom was, however, adopted by [[Erik Palmgren]] in $\mathbf{CETCS}$ (a constructive predicative version of [[ETCS]]):
+The presentation axiom was, however, adopted by [[Erik Palmgren]] in $CETCS$ (a constructive predicative version of [[ETCS]]):
 
 *  Erik Palmgren.  _Constructivist and Structuralist Foundations: Bishop's and Lawvere's Theories of Sets_.  [pdf](http://www.math.uu.se/~palmgren/cetcs.pdf).
 
