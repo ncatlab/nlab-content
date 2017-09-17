@@ -71,6 +71,8 @@ provides a classic example of this happenstance. However, the path components an
 
 The basic categorical results 1., 2., and 3. above carry over upon replacing "connected" by "path-connected". (As of course does 4., trivially.)
 
+As a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete!
+
 
 [[!redirects connected space]]
 [[!redirects path-connected space]]
