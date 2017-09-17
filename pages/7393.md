@@ -152,7 +152,7 @@ Correspondingly, a Segal pro-operad $X$ is called _normal_ if $\emptyset \to X$ 
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #PreOperadAcyclicFibration}
 ###### Definition
 
 A morphism in $SegalPreOperad$ is called an **acyclic fibration** precisely
@@ -163,7 +163,7 @@ if it has the [[right lifting property]] against all normal monomorphisms, def. 
 +-- {: .num_defn #SegalWeakEquivalence}
 ###### Definition
 
-Say a morphism $f$ in $SegalPreOperad$ is a _Segal weak equivalence_ precisely if $\gamma^*(f)$ is a weak equivalence in the [[model structure for dendroidal complete Segal spaces]].
+Say a morphism $f$ in $SegalPreOperad$ is a _Segal weak equivalence_ precisely if $\gamma^*(f)$ is a weak equivalence in the [[model structure for dendroidal complete Segal spaces]] $[\Omega^{op}m, sSet]_{gReedy \atop cSegal}$.
 
 =--
 
@@ -197,8 +197,8 @@ is normal in $SegalPreOperad$.
 
 ([Cis-Moer, lemma 7.4](#CisinskiMoerdijk)).
 
-+-- {: .num_theorem }
-###### Theorem
++-- {: .num_prop }
+###### Proposition
 
 The class of normal monomorphisms in $SegalPreOperad$ is 
 [[cofibrantly generated model category|generated]] (under
@@ -221,6 +221,24 @@ $$
 ([Cis-Moer, prop 7.5](#CisinskiMoerdijk)).
 
 
++-- {: .num_prop }
+###### Proposition
+
+Let $X \in [\Omega^{op}, sSet]_{gReedy \atop Segal}$ be fibrant. Then $\gamma_* X$ is a Reedy fibrant Segal operad. If $X$ is moreover fibrant in $[\Omega^{op}, sSet]_{gReedy \atop cSegal}$ then the [[unit of an adjunction|counit]] $\gamma^* \gamma* X \to X$ is a weak equivalence in $[\Omega^{op}, sSet]_{gReedy \atop cSegal}$.
+
+=--
+
+([Cis-Moer, prop 8.2](#CisinskiMoerdijk)).
+
++-- {: .num_lemma #AcyclicFibrationsAreIndeedWeakEquivalences}
+###### Lemma
+
+An acyclic fibration in $SegalPreOperad$, def. \ref{PreOperadAcyclicFibration}, is also a weak equivalence in $[\Omega^{op}, sSet]_{gReedy \atop Segal}$.
+
+=--
+
+([Cis-Moer, prop 8.12](#CisinskiMoerdijk)).
+
 ### Of the model structure itself
 
 +-- {: .num_theorem #ExistenceOfTheModelStructure}
@@ -235,8 +253,23 @@ make the category $SegalPreOperad$ a [[model category]] which is
 
 =--
 
-This is ([Cisinski-Moerdijk, theorem 8.13](#CisinskiMoerdijk)).
+This is ([Cis-Moer, theorem 8.13](#CisinskiMoerdijk)).
 
++-- {: .proof}
+###### Proof
+
+The existence of the cofibrantly generated model structure follows with _[Smith's theorem](combinatorial+model+category#SmithTheorem)_: by the discussion there it is sufficient to notice that 
+
+1. the Segal equivalences are an accessibly embedded accessible full subcategory of the arrow category;
+
+1. the acyclic cofibrations are closed under pushout and retract;
+
+   (both of these because these morphisms come from the [[combinatorial model category]] $[\Omega^{op}, sSet]_{gReedy \atop cSegal}$)
+
+1. the morphisms with right lifting against the normal monomorphisms are weak equivalences, by lemma \ref{AcyclicFibrationsAreIndeedWeakEquivalences}.
+
+
+=--
 
 ### Relation to other model structures
 
