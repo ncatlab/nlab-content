@@ -111,7 +111,7 @@ Surveys include
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is discussed explicitly in 
 
-* A. Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_
+* Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
  {#Ibort}
 
 For more see the references at _[[exceptional geometry]]_.
