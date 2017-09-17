@@ -1,11 +1,11 @@
+
 __Albert Lautman__ was a French mathematical philosopher.
 
-He was interested in the structure of advanced mathematics and its creativity and critiziced the analytic philosophers like Russell and Frege from early 20th century
-who were dwelling mainly on the issues of a particular logical foundation and formal aspects and not much on the nature of doing mathematics and its meaning. 
+He was interested in the structure of advanced mathematics and its creativity and critiziced the [[analytic philosophy|analytic philosophers]] like [[Bertrand Russell|Russell]] and [[Gottlob Frege|Frege]] from the early 20th century who dealt mainly with the issues of a particular logical [[foundation]] and formal aspects and not much on the nature of doing mathematics and its meaning. 
 
-As a member of resistence, ex-prisoner of war and also of Jewish origin, he was killed by German squad on August 1, 1944.
+As a member of the Resistance, a former prisoner of war and also of Jewish origin, he was killed by a German squad on August 1, 1944.
 
-He influenced French philosopher Francois Laruelle and also the mathematician and historian of culture and mathematical philosophy [[Fernando Zalamea]].
+He influenced the French philosopher [[François Laruelle]] and also the mathematician and historian of culture and mathematical philosophy [[Fernando Zalamea]].
 
 * wikipedia: [en](http://en.wikipedia.org/wiki/Albert_Lautman)
 
@@ -13,5 +13,8 @@ His collected works have appeared now also in English:
 
 * Albert Lautman, _Mathematics, ideas and the physical real_, collected works, 2011
 
+
 category: people, philosophy
+
+[[!redirects Albert Lautman]]
 [[!redirects A. Lautman]]
