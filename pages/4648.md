@@ -37,6 +37,12 @@ This equivalence is a certain limit of the more general [[quantum geometric Lang
 ## Properties 
  {#Properties}
 
+
+### Abelian case
+
+In the case where $G$ is the [[multiplicative group]], hence where all bundles in question are [[line bundles]], geometric Langlands duality is well understood and is in fact a slight variant of a [[Fourier-Mukai transform]] ([Frenkel 05, section 4.4, 4.5](#Frenkel05)).
+
+
 ### Relation to S-duality
  {#RelationToSDuality}
 
