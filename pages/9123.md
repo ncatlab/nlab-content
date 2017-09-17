@@ -1,0 +1,45 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohesion
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In a context of [[synthetic differential geometry]]/[[differential cohesion]] the _infinitesimal flat modality_ is the [[right adjoint]] to the [[infinitesimal shape modality]]. 
+
+## Definition
+
+A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
+
+$$
+  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+  \,,
+$$
+
+where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] adn $&#643;_{inf}$ is an [[idempotent monad]].
+
+Here $\flat_{inf}$ is the **infinitesimal flat modality**. 
+
+## Related concepts
+
+
+[[!include cohesion - table]]
+
+
+
