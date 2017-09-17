@@ -1,7 +1,7 @@
 
-#Contents##
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ##  Idea
 
@@ -35,14 +35,18 @@ Note:  While 'simple graph' is unambiguous, the other terms above are not.  In p
 
 In all four of the above, edges are interpreted as *unordered* pairs.  If we instead interpret edges as *ordered* pairs, then we get four new concepts:
 
-*  A __[[directed graph]]__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2 \setminus \Delta_V$;
+*  A __directed graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2 \setminus \Delta_V$;
 *  a __directed multigraph__ consists of $V$, $E$, and a function $d: E \to V^2 \setminus \Delta_V$;
 *  a __directed loop graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2$;
-*  a __directed pseudograph__ consists of $V$, $E$, and a function $d: E \to V^2$.  These are commonly used in [[category theory]]; see [[quiver]].
+*  a __[[directed pseudograph]]__ consists of $V$, $E$, and a function $d: E \to V^2$.
+
+Directed psuedographs are commonly used in [[category theory]], where they are often called 'directed graphs', 'digraphs', or (less ambiguously) '[[quivers]]'.
+
 
 The same terminological ambiguities as above apply here as well, and they can be resolved in the same way, including using 'simple directed graph' for a directed graph if necessary.  One can also use 'undirected' in place of 'directed' to emphasise that the previous definitions apply instead of these.
 
-It is always possible to interpret any kind of graph as a directed pseudograph, in which there happens to be at most one edge between a given pair of vertices, or there happen to be no loops (or alternatively exactly one of every possible kind of loop), or in which there is an edge from $x$ to $y$ if and only if there is an edge from $y$ to $x$, or some mixture of these.
+
+It is always possible to interpret any kind of graph as a directed pseudograph (a quiver), in which there happens to be at most one edge between a given pair of vertices, or there happen to be no loops (or alternatively exactly one of every possible kind of loop), or in which there is an edge from $x$ to $y$ if and only if there is an edge from $y$ to $x$, or some mixture of these.
 
 
 ## Auxiliary definitions
@@ -78,27 +82,36 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 =--
 
 
-## References ##
+## References
 
 * Frank Harary (1969), _Graph Theory_, Addison-Wesley.
+
 * Frank Harary and E.M. Palmer (1973), _Graphical Enumeration_, Academic Press.
-* [[Joachim Lambek]] and P.J. Scott (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
+
+* [[Joachim Lambek]] and [[Philip Scott]] (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
+
 * [[Ronnie Brown]], I. Morris, J. Shrimpton, and C.D. Wensley (2008), _Graphs of Morphisms of Graphs_, Electronic Journal of Combinatorics, A1 of Volume 15(1), 1--28.
+
 * [[Bill Lawvere]] (1989), _Qualitative distinctions between some toposes of generalized graphs_, in Categories in computer science and logic (Boulder, CO,   1987), volume 92 of _Contemporary Mathematics_, 261--299. American Mathematical Society, Providence, RI.
+
 
 ## Related concepts
 
 * **graph**
 
-* [[directed graph]]
+* [[quiver]]
 
-  * [[directed n-graph]]
+  * [[n-quiver]]
 
 * [[ribbon graph]]
 
 * [[hypergraph]]
 
 
+[[!redirects graph]]
+[[!redirects graphs]]
 [[!redirects undirected graph]]
-[[!redirects graph theory]]
+[[!redirects undirected graphs]]
 [[!redirects simple directed graph]]
+[[!redirects simple directed graphs]]
+[[!redirects graph theory]]
