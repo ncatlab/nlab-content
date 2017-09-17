@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[tachyon]] mode in the [[open string|open]] [[bosonic string]] spectrum is an indication that as a [[perturbation theory]] it describes the perturbation about an _unstable_ [[vacuum]]. [[Ashoke Sen]] realized ([Sen 99](#Sen99)) that since the open string technically propagates with its endpoints on the space filling [[D25-brane]], that instability must be the instability of the D25, which wants to decay to a "true bosonic string vacuum", usually called the tachyon vacuum.
+
+This conjecture became famous as **Sen's conjecture**. It was subsequently checked to be true by numerical means in [[open bosonic string field theory]]. Moreover, using string field theory it became possible to study that non-perturbative state in which the [[D25-brane]] is indeed gone. There were several arguments that indeed in the vicinity of this state the perturbative open string has disappeared and turned into the closed bosonic string.
+
+A breakthrough happened in 2005, when [[Martin Schnabl]] found an analytic expression for this "tachyon vacuum" ([Schnabl 05](#Schnabl05)).
+
+## References
+
+* [[Ashoke Sen]], _Universality of the Tachyon Potential_,  	JHEP 9912:027,1999 ([arXiv:hep-th/9911116](http://arxiv.org/abs/hep-th/9911116))
+ {#Sen99}
+
+* [[Martin Schnabl]], _Analytic solution for tachyon condensation in open string field theory_ ([arXiv:hep-th/0511286](http://arxiv.org/abs/hep-th/0511286))
+ {#Schnabl05}
+
+* Ian Ellwood, [[Martin Schnabl]], _Proof of vanishing cohomology at the tachyon vacuum_, JHEP 0702:096,2007 ([arXiv:hep-th/0606142](http://arxiv.org/abs/hep-th/0606142))
+ {#EllwoodSchnabl06}
+
+For more references see at 
+
+* _[references -- Tachyon dynamics, decaying D-branes and Sen's conjecture](string+field+theory#BosonicStringVacuumAndSenConjecture)
+
+See also
+
+* Wikipedia, _[Tachyon condensation](http://en.wikipedia.org/wiki/Tachyon_condensation)_
+
