@@ -330,7 +330,7 @@ $$
 
 where the total rectangle is also a pullback, by the [[pasting law]]. 
 
-We now build a morphism of [[diagrams]] form the underlying [[cospan]] of this diagram to another cospan, such that the induced map on pullbacks is the component of the natural transformation that we are looking for,
+We now build a morphism of [[diagrams]] from the underlying [[cospan]] of this diagram to another cospan, such that the induced map on pullbacks is the component of the natural transformation that we are looking for,
 
 To this end, first paste to the above diagram the [[naturality square]] of the monad multiplication map $\mu_\diamond \colon \diamond \circ \diamond \to \diamond$ to obtain
 
@@ -413,7 +413,7 @@ $$
   \,.
 $$
 
-Now observea that the total front [[cospan]] of morphisms is such that the [[limit]] [[cone]] over it is the [[pullback]] that defines $X \underset{\diamond X}{\times} \diamond E$. By functoriality of [[pullbacks]] (by their universal property), this induces a component morphism
+Now observe that the total front [[cospan]] of morphisms is such that the [[limit]] [[cone]] over it is the [[pullback]] that defines $X \underset{\diamond X}{\times} \diamond E$. By functoriality of [[pullbacks]] (by their universal property), this induces a component morphism
 
 $$
   \mu_{\diamond_{/X}}
@@ -506,11 +506,6 @@ of the [[full subcategory]] of the [[slice topos]] on the $\diamond_{/X}$-closed
 
 =--
 
-We now want to identify those conditions on $\diamond$ which are necessary and sufficient such that this inclusion is an exact localization, hence exhibits a [[subtopos]].
-
-One way to do this is to show when $\diamond_{/X}$ restricts to a  [[Lawvere-Tierney operator]] on the [[subobject classifier]] of the [[slice topos]] $\mathcal{C}_{/X}$ and to compare the corresponding notion of [[sheaves]] with that of $\diamond_{/X}$-closed objects.
-
-(...)
 
 
 
@@ -521,6 +516,7 @@ One way to do this is to show when $\diamond_{/X}$ restricts to a  [[Lawvere-Tie
 
 * [[modal logic]]
 
+* [[reflective factorization system]], [[stable factorization system]]
 
 [[!redirects closure]]
 [[!redirects closures]]
