@@ -10,7 +10,7 @@
 =--
 
 
-A _virtual representation_ of a [[group]] is a form difference with respect to [[direct sum]] of two ordinary representations. More precisely, if we regard an ordinary [[representation]] as an [[equivariant vector bundle]] over the point, then a virtual representation is a coresponding equivariant [[virtual vector bundle]].
+A _virtual representation_ of a [[group]] is a formal difference with respect to [[direct sum]] of two ordinary representations. More precisely, if we regard an ordinary [[representation]] as an [[equivariant vector bundle]] over the point, then a virtual representation is a corresponding equivariant [[virtual vector bundle]].
 
 Equivalence classes of virtual representations form the elements of the [[representation ring]] of the group.
 
