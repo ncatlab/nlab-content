@@ -32,6 +32,9 @@ An _almost Dirac structure_ on a manifold $X$ is a subbundle $L\subset T X \oplu
 
 A [[Courant Lie 2-algebroid]] is a [[symplectic Lie n-algebroid]] for $n = 2$. Dirac structures are related to the [[Lagrangian dg-submanifolds]] (see there) of the dg-manifold formally dual to its [[Chevalley-Eilenberg algebra]].
 
+## Examples
+
+* [[Cartan-Dirac structure on a Lie group]]
 
 ## Related concepts
 
