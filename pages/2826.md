@@ -21,9 +21,15 @@ A continuous map is a Dold fibration iff in the diagram above in which $g$ is a 
 
 ## Examples and counter-examples
 
-Any [[Hurewicz fibration]] is a Dold fibration
+Any [[Hurewicz fibration]] is a Dold fibration.
 
-[[Serre fibration]]s are _not_ Dold fibrations, and there is a very simple counter-example. Consider the union of line segments
+_Claim:_ Not all Serre fibrations are Dold fibrations.
+
++--{: .query}
+[[David Roberts]]: There was a blindingly obvious mistake here, which I think was due to me. The claim was that not all Serre fibrations are Dold fibrations, but the counterexample below showed the converse. Can we come up with a counterexample of a Serre fibration that isn't a Dold fibration? I'll ask on MathOverflow.
+=--
+
+Note that not all Dold fibrations are [[Serre fibration]]s, and so neither of these two classes of maps is contained in the other. Here is a very simple counter-example due to Dold. Consider the union of line segments
 $$
 E:= [-1,0]\times\{2\} \cup \{0\}\times [1,2] \cup [0,1]\times\{1\}
 $$
