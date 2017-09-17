@@ -1,0 +1,45 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A multiple [[loop space]].
+
+A grouplike [[E-k algebra]] in [[Top]].
+
+An [[iterated loop space object]] in [[Top]].
+
+## Related concepts
+
+[[!include k-monoidal table]]
+
+## References
+
+* [[Peter May]], _Infinite loop space theory_, Bull. Amer. Math. Soc. Volume 83, Number 4 (1977), 456-494. ([Euclid](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183538891))
+
+  _Infinite loop space theory revisited_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/28.pdf))
+
+* [[John Adams]], _Infinite loop spaces_, Herrmann Weyl lectures at IAS, Princeton University Press (1978)
+ {#Adams}
+
+* [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
+
+Section 5.1.3 of
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+ {#Lurie}
+
+[[!redirects iterated loop spaces]]
