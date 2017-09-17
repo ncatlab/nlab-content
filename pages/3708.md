@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -129,12 +138,80 @@ $$
 
 is an [[equivalence of categories]]. This is shown at [[module]].
 
-###References###
+=--
 
-* David Roberts, Urs Schreiber and Todd Trimble, [Tangent Categories](http://www.math.uni-hamburg.de/home/schreiber/tangcat.pdf)
+### Modules over smooth algebras
+
+Let $SmoothAlg$ (or $C^\infty Ring$) be the category of [[smooth algebra]]s. Notice that there is a canonical [[forgetful functor]]
+
+$$
+  U : SmoothAlg \to Ring
+$$
+
+to the underlying ordinary [[ring]]s.
+
++-- {: .un_prop}
+###### Proposition
+
+There is an [[equivalence of categories]]
+
+$$
+  T_{SmoothAlg} \stackrel{\simeq}{\to}
+  SmoothAlg \times_{Ring} T_{Ring}
+  \,,
+$$
+
+where on the right we have the strict [[pullback]] (i.e. taken in the 1-category [[Cat]]).
+
+=--
+
+We give the proof below. First some remarks and corollaries.
+
++-- {: .un_remark}
+###### Remark
+
+We may regard an object in $T_{SmoothAlg}$ as a module over a [[smooth algebra]]. The above says in particular that modules over smooth algebras are just modules over the underlying ordinary rings. However, the category structure on $T_{SmoothAlg}$ does reflect that modules over smooth algebras have a different nature than just bare modules, notably in that the left adjoint to the projection $T_{SmoothAlg} \to SmoothAlg$ produces the correct $C^\infty$-[[derivation]]s and $C^\infty$-[[Kähler differential]]s (see there) as opposed to the purely algebraic ones.
+ 
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+For any category $S$ we have that 
+
+$$
+  (T_{SmoothAlg})^S \simeq
+  SmoothAlg^S \times_{Ring^S} (T_{Ring})^S
+  \,.
+$$
+
+So in particular for $S = \Delta$ the [[simplex category]] we have that [[simplicial object|simplicial]] modules over simplicial smooth algebras are as objects just ordinary simplicial modules over the underlying [[simplicial ring]]s.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The statement was suggested at some point by [[Thomas Nikolaus]] in discussion with [[Urs Schreiber]], who then asked [[Herman Stel]] to prove it. A writeup is in ([Stel](#Stel)).
+
+(...)
+
+
 =--
 
 
 ## In higher category theory
 
 See [[tangent (infinity,1)-category]].
+
+## References
+
+The original observation that $T_{Ring} \simeq Mod$ is due to
+
+* Quillen, ...
+
+A discusson of $T_{SmoothAlg}$ is in 
+
+* [[Herman Stel]], _[[schreiber:master thesis Stel|∞-Stacks and their Function Algebras]]_ 
+{#Stel}
