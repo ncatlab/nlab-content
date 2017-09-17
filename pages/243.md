@@ -84,6 +84,10 @@ $$
 
 in $V$. Similarly for the contravariant action.
 
++-- {: .query}
+How do we know that such an adjunction exists? Are we assuming that $V$ is _closed_ monoidal?
+=--
+
 
 A $V$- **extranatural transformation**
 $$\theta: v \stackrel{\bullet}{\to} F$$ 
