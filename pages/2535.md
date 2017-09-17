@@ -53,13 +53,18 @@
 
 * [[smooth manifold]], [[derived smooth manifold]]
 
-* [[tangent space]], [[vector field]], [[tangent Lie algebroid]]
+* [[tangent bundle]], 
+
+  * [[vector field]], [[tangent Lie algebroid]];
+
+  * [[differentiation]], [[chain rule]]
+
+* [[connection on a bundle]]
 
 * [[Riemannian manifold]]
 
   * [[isometry]], [[Killing vector field]]
 
-* [[connection on a bundle]]
 
 
 ## Theorems
