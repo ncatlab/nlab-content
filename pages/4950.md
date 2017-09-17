@@ -23,10 +23,10 @@ A **paracompact manifold** is a [[topological space]] that is
 
 ## Properties {#Properties}
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
-Every paracompact manifold admits a [[geodesic flow|complete]] [[Riemannian metric]] with bounded absolute sectional curvature and positive [[injectivity radius]].
+Every paracompact [[smooth manifold]] admits a [[geodesic flow|complete]] [[Riemannian metric]] with bounded absolute sectional curvature and positive [[injectivity radius]].
 
 =--
 
@@ -35,7 +35,7 @@ This is shown in ([Greene](#Greene)).
 ## References
 
 
-* R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 
-{#Greene}
+* {#Greene} R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 
+
 
 [[!redirects paracompact manifolds]]
