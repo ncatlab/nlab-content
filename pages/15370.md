@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+A [[ring]] compatibly equipped with a [[norm]] on the underlying group.
+
+## Related concepts
+
+* [[division ring]]
+
+* [[valued field]]
+
+## References
+
+* Naoki Kimura, _A note on normed ring_, Kodai Math. Sem. Rep.
+Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.kmj/1138833472))
+
+* ProofWiki, _[Norm (Division ring)](https://proofwiki.org/wiki/Definition:Norm_(Division_Ring))_
+
+[[!redirects normed rings]]
