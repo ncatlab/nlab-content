@@ -173,7 +173,7 @@ A discussion of jet bundles with an eye towards discussion of the [[variational 
 See also
 
 * Arne Lorenz, _Jet Groupoids, Natural Bundles
-and the Vessiot Equivalence Method_, Thesis
+and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.de/~arne/Dissertation_Lorenz_Arne.pdf))
 
 
 [[!redirects jet bundles]]
