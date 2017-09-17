@@ -3,7 +3,7 @@ __Gabriel-Rosenberg reconstruction theorem__: an [[algebraic scheme]] can be rec
 
 ## History and versions
 
-This theorem has been, under some restrictions proved, in [[Pierre Gabriel]]'s thesis and subsequent article [[Des catégories abéliennes]] using the notion of indecomposable spectrum (or [[Gabriel's spectrum of indecomposables]]). The case of general [[quasicompact schemes]] is proved in Max Planck 1996 preprint ([pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3948)) of [[Alexander Rosenberg]] published in 1998 (a short sketch is also in the 1998 paper _Noncommutative schemes_ of Rosenberg) using his construction of a [[spectrum of an abelian category]] generalizing straightforwardly his 1982 construction of a left spectrum of a ring). The quasicompactness condition has been noted in this construction after a counterexample exhibited by [[Ofer Gabber]]. Few years later (see 2003 MPI preprint), Rosenberg got rid of quasicompactness condition inventing yet another notion of a spectrum. 
+This theorem has been, under some restrictions proved, in [[Pierre Gabriel]]'s thesis and subsequent article [[Des catégories abéliennes]] using the notion of indecomposable spectrum (or [[Gabriel's spectrum of indecomposables]]). The case of general [[quasicompact schemes]] is proved in Max Planck 1996 preprint ([pdf](http://www.mpim-bonn.mpg.de/preprints/send?bid=3948)) of [[Alexander Rosenberg]] published in 1998 (a short sketch is also in the 1998 paper _Noncommutative schemes_ of Rosenberg) using his construction of a [[spectrum of an abelian category]] generalizing straightforwardly his 1982 construction of a left spectrum of a ring). The quasicompactness condition has been noted in this construction after a counterexample exhibited by [[Ofer Gabber]]. Few years later (see 2003 MPI preprint), Rosenberg got rid of quasicompactness condition inventing yet another notion of a spectrum.  Another proof, using a slightly modified version of Rosenberg's spectrum due to [[Ofer Gabber]], has been written down in [Brandenburg 2013](#Brandenburg13).
 
 A [[moduli]]-theoretic proof, and an extension to [[algebraic spaces]], has been proved in [Calabrese-Groechenig 13](#CalabreseGroechenig13).
 
@@ -20,6 +20,9 @@ A [[moduli]]-theoretic proof, and an extension to [[algebraic spaces]], has been
 * A. L. Rosenberg, _The left spectrum, the Levitzki radical, and noncommutative schemes_, Proc. Nat. Acad. Sci. U.S.A. __87__  (1990),  no. 21, 8583--8586.
 
 * A. L.  Rosenberg, _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
+
+* [[Martin Brandenburg]], _Rosenberg's reconstruction theorem (after Gabber)_, 2013, [arXiv](http://arxiv.org/abs/1310.5978).
+ {#Brandenburg13}
 
 * John Calabrese, Michael Groechenig.  _Moduli problems in abelian categories and the reconstruction theorem._  2013.  [arXiv](http://arxiv.org/abs/1310.6600).
  {#CalabreseGroechenig13}
