@@ -1921,9 +1921,12 @@ Form the defining pullback as before. (...)
 
 There is a strict Lie 2-group model for the [[string Lie 2-group]].
 
-**Proposition** 
++-- {: .un_prop}
+###### Proposition
 
 The [[string Lie 2-algebra]] in the form $\mathfrak{g}_\mu$ is equivalent to the strict [[Lie 2-algebra]] given by the [[differential crossed module]] $\hat \Omega \mathfrak{g} \to P \mathfrak{g}$, where...
+
+=--
 
 (...)
 
@@ -4157,9 +4160,33 @@ $$
 
 (...)
 
-##### First fractional Pontryagin class
+##### First fractional Pontryagin class {#SmoothFirstFracPontryaginClass}
 
-(...)
+Let $\mu_3 \in CE(\mathfrak{so}(n))$ be the [[Lie algebra cohomology|Lie algebra 3-cocycle]] 
+$\langle -,[-,-]\rangle$ normalized such its left-invariant continuation to a differential 3-form on $Spin(n)$ is the image in [[deRham cohomology]] of a generator of $H^3(Spin, \mathbb{Z})$.
+
++-- {: .un_prop}
+###### Proposition
+
+The [integration of this cocycle](#IntegrationOfCocycles)
+
+$$
+  \frac{1}{2}\mathbf{p}_1 := \exp(\mu) : \mathbf{B}Spin \to \mathbf{B}^3 U(1)
+$$
+
+is a smooth refinement of the first fractional [[Pontryagin class]] $\frac{1}{2} p_1 : \mathcal{B}Spin \to \mathcal{B}^4 \mathbb{Z}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[Chern-Simons circle 3-bundle]].
+
+=--
+
+
+Therefore the [[homotopy fiber]] 
 
 $$
   \array{
@@ -4172,10 +4199,50 @@ $$
   }
 $$
 
+is a smooth model of the [[string group]]. 
+
++-- {: .un_prop}
+###### Proposition
+
+
+Indeed, this homotopy fiber is given by the Lie [[string 2-group]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Compute the [[homotopy pullback]] as the ordinary limit over
+
+$$
+  \array{
+    &\to& \mathbf{E} \mathbf{B}^2 U(1)
+    \\
+    && \downarrow
+    \\
+    \mathbf{cosk}_3 \exp(\mathfrak{so}) &\stackrel{\frac{1}{2}\mathbf{p}_1}{\to}& 
+    \mathbf{B}^3 U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}Spin
+  }
+  \,.
+$$
+
+
+By inspection, this gives the [[Lie 2-group]] whose 
+
+* objects are based paths in $G$; the product is by concatenation of such paths;
+
+* morphisms are equivalence classes of based surfaces in $G$ labeled by some $c \in U(1)$; where two of these are equivalence if there is a ball cobounding them such that the integral of $\mu$ over this ball accounts for the difference in the two labels.
+
+Here me may equivalently take [[thin homotopy]]-classes of paths and surfaces. 
+This is indeed one of the three incarnations of the string 2-group as a strict 2-group.
+
 (...)
 
-[[string 2-group]]
-
+=--
 
 
 ##### Second fractional Pontryagin class
