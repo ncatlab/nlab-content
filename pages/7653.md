@@ -1,0 +1,37 @@
+
+
+## Idea
+
+The [[background gauge fields]] appearing in [[string theory]] are formally [[cocycles]] in [[twisted cohomology|twisted]] and [[differential cohomology|differential]] refinements of [[smooth infinity-groupoid|smooth]] [[cohomology]].
+
+This page contains a list of examples.
+
+## Introductory example: twisted unitary bundles with connection
+
+We discuss here aspects of a simple example in an elementary and expository way. This is meant to introduce basic ideas of the [general theory](GeneralTheory) discussed below by way of example, and serve as a backdrop for the more systematic discussion of the [examples below](#Examples).
+
+(...)
+
+## General theory
+ {#GeneralTheory}
+
+## Examples
+ {#Examples}
+
+### K-classes
+ {#KClasses}
+
+(...)
+
+### String- and Fivebrane-structures
+
+(...)
+
+### C-Field
+
+(...)
+
+### Higher orientifolds
+
+(...)
+
