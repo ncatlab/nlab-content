@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Wess-Zumino-Witten theory
++--{: .hide}
+[[!include infinity-Wess-Zumino-Witten theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[field (physics)|field]] [[theory (physics)]] combining the [[WZW model]] with [[gauge theory]].
+
+## Related concepts
+
+* [[coset WZW model]]
+
+## References
+
+* Konstadinos Sfetsos, _Gauged WZW models and Non-abelian duality_,  	Phys.Rev. D50 (1994) 2784-2798 ([arXiv:hep-th/9402031](http://arxiv.org/abs/hep-th/9402031))
+
+[[!redirects gauged Wess-Zumino-Witten model]]
