@@ -1019,7 +1019,9 @@ Under suitable conditions it should be true that for $C$ a model category whose 
 
 Bousfield localization appears as definition 3.3.1 in
 
-* **ModLoc** Hirschhorn, _Model categories and their localization_ 
+* **ModLoc**, [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 
+of Mathematical Surveys and Monographs , American Mathematical Society, 
+2009,
 
 for left proper [[cellular model category|cellular model categories]].
 
