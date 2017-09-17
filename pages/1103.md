@@ -245,23 +245,9 @@ $$
 
 to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-algebra with trivial differential) that is a [[quasi-isomorphism]].
 
-## Discussion
+### Curved dg-algebra
 
-A previous version of this entry gave rise to the following discussion
-
-+--{.query}
-Zoran, why would you not say that this is 'following the product rule from ordinary calculus', as I wrote?  Not that this can be proved like the product rule can, but it\'s an easy mnemonic (and a similar one works for direct sums too).  ---Toby
-
-I find it very confusing for me at least. The Leibniz rule is about the coproduct in a single algebra; here one has several algebras with different differentials, not a single derivative operators, and not acting on a tensor square of a single algebra, so it is a bit far. If $A=B$ then I would be happy, but otherwise it is too general. ---Zoran
-
-You mean that if $A = B$, then the Leibniz rule is a special case of this?  Then surely it is also a special case of the more general case without $A = B$?  Anyway, I think that it\'s more an example of [[vertical categorification|categorification]] than generalisation.  ---Toby
-
-For some special algebras this is true. For example, the dual of symmetric algebra as a Hopf algebra can be identified with the infinite order formal differential operators with constant coefficients (the isomorphism is given by evaluation at zero). Thus the Leibniz rule for derivatives is indeed the dual coproduct to the product on the symmetric algebras. There are braided etc. generalizations to this, and a version for computing the coproduct on a dual of enveloping algebras. In physics the addition of momenta and angular momenta for multiparticle systems is exactly coming from this kind of coproduct. But in all these cases the operators whose product you are taking live in a representation of a single algebra. --- Zoran
-
-=--
-
-
-
+* [[curved dg-algebra]]
 
 
 
