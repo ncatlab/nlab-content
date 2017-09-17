@@ -44,16 +44,16 @@ There is a zig-zag of [[monoidal Quillen adjunction|lax monoidal]] [[Quillen equ
 
 $$
   H \mathbb{Z} Mod
-    \stackrel{\overset{Z}{\to}}{\underset{U}{\leftarrow}}
+    \stackrel{\overset{Z}{\longrightarrow}}{\underset{U}{\leftarrow}}
   Sp^\Sigma(sAb)
-    \stackrel{\overset{L}{\leftarrow}}{\underset{\phi^* N}{\to}}
+    \stackrel{\overset{L}{\leftarrow}}{\underset{\phi^* N}{\longrightarrow}}
   Sp^\Sigma(Ch_+)
-   \stackrel{\overset{D}{\to}}{\underset{R}{\leftarrow}}
+   \stackrel{\overset{D}{\longrightarrow}}{\underset{R}{\leftarrow}}
   Ch_\bullet
   \,,
 $$
 
-between [[monoidal model categories]]satisfying the [[monoid axiom in a monoidal model category]]:
+between [[monoidal model categories]] satisfying the [[monoid axiom in a monoidal model category]]:
 
 * the model structure for $H \mathbb{Z}$-[[module spectra]];
 
