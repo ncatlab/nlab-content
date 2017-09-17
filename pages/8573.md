@@ -1,0 +1,12 @@
+
+## Idea
+
+One way to define a _connection_ on a [[vector bundle]] $E \to X$ is as a [[principal connection]] of the $GL(n)$-[[principal bundle]] that the vector bundle is an [[associated bundle]] to.
+
+## References
+
+An exposition with an eye towards applications in [[gauge theory]] is in section 16.3 of 
+
+* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
+
+[[!redirects connections on a vector bundle]]
