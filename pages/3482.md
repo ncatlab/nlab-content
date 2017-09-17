@@ -61,11 +61,13 @@ where $X[V] \to X$ is the canonical fully faithful functor arising from $V\to X_
 =--
 
 
-## In other sites
+## In other sites - external version
 
-Let $(C,J)$ be a [[site]] with a singleton [[Grothendieck pretopology]] $J$. It makes sense to consider a version of WISC for $(C,J)$, along the lines of the following: Let $C/_{cov}a$ be the full subcategory of the slice category $C/a$ consisting of the covers. Internal WISC then states that
+Let $(C,J)$ be a [[site]] with a singleton [[Grothendieck pretopology]] $J$. It makes sense to consider a version of WISC for $(C,J)$, along the lines of the following: Let $(C/a)_{cov}$ be the full subcategory of the slice category $C/a$ consisting of the covers. WISC then states that
 
-* For all objects $a$ of $C$, $C/_{cov}a$ has a weakly initial set.
+* For all objects $a$ of $C$, $(C/a)_{cov}$ has a weakly initial set.
+
+This definition is called _external_ because it refers to an external category of sets. This is to be contrasted with the _internal_ version of WISC, discussed below.
 
 +-- {: .un_example}
 ###### Example
@@ -76,6 +78,9 @@ More generally, for a non-singleton pretopology on $C$, we can reformulate WISC 
 
 Given a site $(C,J)$ with $J$ subcanonical, and $C$ finitely complete, we can define a (weak) 2-category $Ana(C,J)$ of internal categories, anafunctors and transformations. If WISC holds for $(C,J)$, then $Ana(C,J)$ is locally essentially small.
 
+## In other categories - internal version
+
+To consider an _internal_ version of WISC, which doesn't refer to an external notion of set, one needs to assume that the ambient category $C$ has a strong enough [[internal logic]], such as a pretopos (this is the context in which van den Berg and Moerdijk work). Then the ordinary statement of WISC in set can be written in the internal logic, using the [[stack semantics]], as a statement about the objects and arrows of $C$. It is in this form that WISC is useful as a replacement choice principle in intuitionistic, constructive or predicative set theory, as these are modelled on various topos-like categories (or in the case of van den Berg and Moerdijk, a [[algebraic set theory|category of classes]], although this is not necessary for the approach).
 
 ## References
 
