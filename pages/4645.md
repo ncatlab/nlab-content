@@ -2156,12 +2156,46 @@ $$
   \,,
 $$
 
-that is, to cocycle in degree $n$ [[Cech cohomology]] on $U$ with values in $U(1)$.
+that is, to cocycles in degree $n$ [[Cech cohomology]] on $U$ with values in $U(1)$.
+
+Transformations
+
+$$
+  \array{
+    C(U)\cdot \Delta^1 &\stackrel{(g \stackrel{\lambda}{\to} g')}{\to}& \mathbf{B}^n U(1)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X \cdot \Delta^1
+  }
+$$
+
+are in natural bijection to functions
+
+$$
+  \lambda_{i_0 \cdots i_{n-1}} : U_{i_0} \cap \cdots \cap U_{i_{n-1}} \to \mathbb{R}/\mathbb{Z}
+$$
+
+such that
+
+$$
+  g'_{i_0 \cdots i_n}
+  - 
+  g_{i_0  \cdots i_n} 
+  = 
+  (\delta \lambda)_{i_0 \cdots i_n}
+  \,,
+$$
+
+that is, to Cech coboundaries.
+
 
 =--
 
-The bundle $P \to X$ classified by such a cocycle we may call a 
-[[circle n-bundle]].
+The $\infty$-bundle $P \to X$ classified by such a cocycle we may call a 
+[[circle n-bundle]]. For $n = 1$ this reproduces the $U(1)$-[[principal bundle]]s that we considered before, for $n =2 $ the [[bundle gerbe]]s and for $n=3$ the [[bundle 2-gerbe]]s.
+
+To equip these circle $n$-bundles with connections, we consider the differential refinements $\mathbf{B}^n U(1)_{diff}$, $\mathbf{B}^n U(1)_{conn}$ and $\mathbf{\flat}_{dR} \mathbf{B}^{n+1}U(1)$.
 
 +-- {: .un_def}
 ###### Definition
@@ -2178,7 +2212,7 @@ $$
   \right)
 $$
 
-and
+-- the truncated [[de Rham complex]] -- and
 
 $$
   \mathbf{B}^n U(1)_{diff} = 
@@ -2204,12 +2238,15 @@ $$
       &
       \Omega^n(-)
       \\
-      \oplus & \nearrow_{\mathrlap{Id}} & \cdots && \nearrow_{\mathrlap{Id}}
+      \oplus & \nearrow_{\mathrlap{Id}} & \cdots 
+      &
+      &\cdots& 
+      \nearrow_{\mathrlap{Id}}
       \\
       \Omega^1(-) 
       &\stackrel{d_{dR}}{\to}& 
       \cdots
-      &
+      &\stackrel{d_{dR}}{\to}&
       \Omega^n(-)
     }
   \right)
@@ -2285,9 +2322,9 @@ $$
   \,,
 $$
 
-etc. This is a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. We think of this as determining a [[circle n-bundle with connection]].
+etc. This is a cocycle in [[Cech cohomology|Cech]]-[[Deligne cohomology]]. We may think of this as encoding a [[circle n-bundle with connection]]. The forms $(C_i)$ are the local connection $n$-forms.
 
-Connections on $G$-principal $\infty$-bundles for nonabelian $G$ do not have quite such a simple description. Therefore it makes sense to _approximate_ every $G$-cocylce $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycle by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to turn extrac a circle $n$-bundle from it. This is what we turn to now.
+Connections on $G$-principal $\infty$-bundles for nonabelian $G$ do not have quite such a simple description. Therefore it makes sense to _approximate_ every $G$-cocylce $X \stackrel{\simeq}{\leftarrow} C(U) \to \mathbf{B}G$ by abelian cocycle by postcomposing with all possible [[characteristic class]]es $\mathbf{B}G \stackrel{\simeq}{\leftarrow} \hat \mathbf{B}G\to \mathbf{B}^n U(1)$ to extract a circle $n$-bundle from it. This is what we turn to now.
 
 
 ### $\infty$-Lie algebra valued connections {#LieConnections}
@@ -3289,7 +3326,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-To see this, first note that the sheaves of objects on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. For morphisms, observe that for a form $\Omega^\bullet(U \times \Delta^1) \leftarow W(\mathfrak{g}) : A$ which we may decompose into a horizontal and a verical pice as $A = A_U + \lamnda \wedge d t$ the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
+To see this, first note that the sheaves of objects on both sides are manifestly isomorphic, both are the sheaf of $\Omega^1(-,\mathfrak{g})$. For morphisms, observe that for a form $\Omega^\bullet(U \times \Delta^1) \leftarow W(\mathfrak{g}) : A$ which we may decompose into a horizontal and a verical pice as $A = A_U + \lambda \wedge d t$ the condition $\iota_{\partial_t} F_A = 0$ is equivalent to the [[differential equation]]
 
 $$
   \frac{\partial}{\partial t} A
