@@ -1148,6 +1148,9 @@ $$
   \,.
 $$
 
+### Global equivariant homotopy theory
+
+For the moment see at _[[Global Homotopy Theory and Cohesion]]_.
 
 ### From $\infty$-Cohesive sites of definition
 
