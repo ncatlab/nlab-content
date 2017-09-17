@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -69,6 +69,16 @@ $$\array{L & \overset{l}{\to} & H & \overset{q}{\to} & C\\
   ^u\downarrow && \downarrow^w && \downarrow^v \\
   K & \underset{k}{\to} & G& \underset{p}{\to} & B}$$
 where $p$ and $q$ are [[split epimorphism]]s and $l$ and $k$ are their [[kernel]]s, if $u$ and $v$ are [[isomorphism]]s then so is $w$.
+
+## Related concepts
+
+* [[3x3 lemma]], [[snake lemma]]
+
+## References
+
+The 5-lemma appears for instance as exercise 1.3.3 in 
+
+* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
 [[!redirects 5-lemma]]
 [[!redirects 5 lemma]]
