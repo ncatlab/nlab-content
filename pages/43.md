@@ -1,7 +1,25 @@
-<div class="rightHandSide toc">
-[[!include supergeometry - contents]]
-</div>
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 +-- {: .un_defn}
 ###### Definition (NQP-supermanifold)
@@ -17,12 +35,14 @@ A **P-[supermanifold]** is a supermanifold equipped with a graded symplectic str
 =--
 
 
-#Remarks#
+## Remarks
 
-* It is an old observation by Kontsevich, amplified by Pavol &Scaron;evera (ref...) that NQ-supermanifolds are precisely those supermanifolds which are equipped with an action of $End(\mathbb{R}^{0|1})$, the endomorphism monoid of the [[odd line]].
+* It is an old observation by [[Maxim Kontsevich]], amplified by [[Pavol Severa]] (ref...) that NQ-supermanifolds are precisely those supermanifolds which are equipped with an action of $End(\mathbb{R}^{0|1})$, the endomorphism monoid of the [[odd line]].
 
-* NQ-supermanifolds are an equivalent way of thinking of [[Lie infinity-algebroid]]s. See the list of references there.
+* NQ-supermanifolds are an equivalent way of thinking of [[∞-Lie algebroid]]s. See the list of references there.
 
+
+ 
 
 [[!redirects NQ-supermanifolds]]
 [[!redirects N-supermanifold]]
