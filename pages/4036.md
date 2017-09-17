@@ -256,7 +256,7 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 * {#Ferus} [[Dirk Ferus]], _Analysis III_ ([pdf](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf))
 
 
-* {#BottTu} [[Raoul Bott]],  [[Loring Tu]], _Differential forms in algebraic topology_ 
+* {#BottTu} [[Raoul Bott]],  [[Loring Tu]], _Differential forms in algebraic topology_, Graduate texts in mathematics vol. 82 (1982)  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/botttu.pdf))
 
 * {#OsborneStern69} RP Osborne and JL Stern. _Covering Manifolds with Cells_, Pacific Journal of Mathematics, Vol 30, No. 1, 1969.
 
