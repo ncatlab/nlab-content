@@ -31,7 +31,7 @@ We define classes of formulas $\Sigma_n$, $\Pi_n$, and $\Delta_n$ by [[induction
 
 A class is given one of these labels if it can be defined by a formula which has that label.
 
-These definitions are most useful in [[classical mathematics]], in which every formula is equivalent to one all of whose unbounded quantifiers are in the front, so that every formula belongs to some $\Sigma_n$ or $\Pi_n$.
+These definitions are most useful in [[classical mathematics]], in which every formula is equivalent to one all of whose unbounded quantifiers are in the front, that is, a formula in [[prenex normal form]], so that every formula belongs to some $\Sigma_n$ or $\Pi_n$.
 
 [[!redirects Levy hierarchy]]
 [[!redirects Sigma-n formula]]
