@@ -117,7 +117,7 @@ The same holds true for [[subcategories]] such as
 +-- {: .proof}
 ###### Proof
 
-It is sufficient to check this in $Para$.
+It is sufficient to check this in $ParaMfd$.
 We need to check that for $\{U_i \to U\}$ a good open cover and $f : V \to U$ any morphism, we get commuting squares
 
 $$  
@@ -132,7 +132,7 @@ $$
 
 such that the $\{V_i \to V\}$ form a good open cover of $V$. 
 
-Now, while $Para$ does not have all [[pullback]]s, the pullback  of an [[open cover]] does exist, and since $f$ is necessarily a [[continuous function]] this is an [[open cover]] $\{f^* U_i \to V\}$. The $f^* U_i$ need not be contractible, but being open subsets of a paracompact manifold, they are themselves paracompact manifolds and hence admit themselves good open covers $\{W_{i,j} \to f^* U_i\}$.
+Now, while $ParaMfd$ does not have all [[pullback]]s, the pullback  of an [[open cover]] does exist, and since $f$ is necessarily a [[continuous function]] this is an [[open cover]] $\{f^* U_i \to V\}$. The $f^* U_i$ need not be contractible, but being open subsets of a paracompact manifold, they are themselves paracompact manifolds and hence admit themselves good open covers $\{W_{i,j} \to f^* U_i\}$.
 
 Then the family of composites $\{W_{i,j} \to f^* U_i \to V\}$ is clearly a good open cover of $V$.
 
