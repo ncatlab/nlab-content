@@ -6,4 +6,5 @@ For the moment see [[higher topos theory]] for more.
 [[!redirects infinity topos]]
 [[!redirects infinity-topoi]]
 [[!redirects ∞-topos]]
+[[!redirects ∞-toposes]]
 [[!redirects ∞-topoi]]
