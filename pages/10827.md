@@ -40,6 +40,9 @@ The analog for the [[additive group]] is the _[[Artin-Schreier sequence]]_. Both
 
 * [[Kummer-Artin-Schreier-Witt exact sequence]]
 
+* [[Tate twist]]
+
+
 ## References
 
 Named after [[Ernst Kummer]].
