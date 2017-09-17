@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Character on a group
 
 There are many notions of a character for an algebraic structure, often topologized. A character on the [[group]] $G$ is homomorphism into the group of units (invertible elements) of the ground field. Regarding that the codomain is abelian, set of characters is an abelian group under the pointwise multiplication. for toplogical groups one considers continuous characters. 
