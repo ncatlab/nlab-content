@@ -65,6 +65,16 @@ some summary of which is at _[[Ek-Algebras]]_.
 [[!redirects E2-algebra]]
 [[!redirects E2-algebras]]
 
+[[!redirects E3-algebra]]
+[[!redirects E3-algebras]]
+
+[[!redirects E4-algebra]]
+[[!redirects E4-algebras]]
+
+[[!redirects E5-algebra]]
+[[!redirects E5-algebras]]
+
+
 [[!redirects Ek-algebra]]
 
 [[!redirects E-k algebra]]
