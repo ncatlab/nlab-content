@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+A _symplectic $\infty$-groupoid_ is a [[smooth ∞-groupoid]] equipped with a [[symplectic form]], or, more generally, with an [[n-plectic form]].
+
+This is the generalization of the notion of [[symplectic manifold]] to [[higher symplectic geometry]]. It is also the image under [[Lie integration]] of the notion of [[symplectic Lie n-algebroid|symplectic L-∞ algebroid]], which is also a higher analog of symplectic manifolds, but in an [[infinitesimal object|infinitesimal]] way.
+
+Notice that every symplectic manifold is in particular a [[Poisson manifold]] and that the structure of a Poisson manifold is equivalently encoded in the corresponding [[Poisson Lie algebroid]]. A _[[symplectic groupoid]]_ is the [[Lie integration]] of such a Poisson Lie algebroid. Therefore, strictly speaking, already "ordinary" symplectic geometry secretly involves [[Lie groupoid]]s. This insight is exploited in the refinement of [[geometric quantization]] in terms of symplectic groupoids ([Hawkins06](http://arxiv.org/abs/math.SG/0612363)).
+
+[[!redirects symplectic ∞-groupoid]]
+[[!redirects symplectic ∞-groupoids]]
+[[!redirects symplectic infinity-groupoids]]
