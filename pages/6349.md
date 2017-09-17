@@ -1,4 +1,3 @@
-[[!redirects globally hyperbolic pseudo-Riemannian manifold]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,13 +9,14 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A [[Lorentzian manifold]] is called _globally hyperbolic_ if it admits a well-defined time evolution from initial data of physical fields on it.
+
 
 ## Definition
 
@@ -45,12 +45,13 @@ A [[Lorentzian manifold]] (without [[boundary]]) is **globally hyperbolic** if i
 So in particular for a globally hyperbolic spacetime $X$ there is a [[homeomorphism]] 
 
 $$
-  \phi : \mathbb{R} \times \Sigma \to X
+  \phi\colon \mathbb{R} \times \Sigma \to X
 $$
 
-from the [[product]] of the [[real line]] with a $(dim \Sigma-1)$-[[dimension]]al [[smooth manifold]] $\Sigma$ and for each $t \in \mathbb{R}$ the image $\phi(t, \Sigma) \subset X$ is a [[Cauchy surface]] of $X$.
+from the [[product]] of the [[real line]] with a $(dim X - 1)$-[[dimension]]al [[smooth manifold]] $\Sigma$ and for each $t \in \mathbb{R}$ the image $\phi(t, \Sigma) \subset X$ is a [[Cauchy surface]] of $X$.
 
 =--
+
 
 ## References
 
@@ -59,10 +60,13 @@ A standard textbook exposition is section 6.6 of
 * Hawking, Ellis, _The large-scale structure of Space-Time_ Cambridge (1973)
   {#LargeScale}
 
-The fact that global hyperbolicity implies a foliation by Cauchy surfaces is due to 
+The fact that a single Cauchy surface implies a foliation by Cauchy surfaces is due to 
 
 * Geroch, (1970)
  {#Geroch}
 
 
 [[!redirects globally hyperbolic]]
+[[!redirects globally hyperbolic Lorentzian manifold]]
+[[!redirects globally hyperbolic pseudo-Riemannian manifold]]
+[[!redirects globally hyperbolic spacetime]]
