@@ -20,9 +20,7 @@
 
 ***
 
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -36,9 +34,9 @@ and
 
 * transitive: for every two points in (a fiber of) the space, there is an element of the group taking one to the other.
 
-In other words, in the classical case where we are working in the category of sets:
+In other words, in the classical case where we are working in the category of sets over the point, a torsor is a [[heap]]:
 
-a $G$-torsor (over the point; see below) is a $G$-set $P$ with action $\rho: G \times P \to P$ such that every choice of point $p \in P$ induces an isomorphism of $G$-sets
+a $G$-set $P$ with action $\rho: G \times P \to P$ such that every choice of point $p \in P$ induces an isomorphism of $G$-sets
 
 $$
   \rho(-,p) : G \stackrel{\simeq}{\to} P
