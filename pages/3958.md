@@ -29,7 +29,11 @@ A _smooth manifold_ is a [[space]] that is _locally [[isomorphic]]_ to a [[Carte
 
 ## Definition
 
+### Traditional definition
+
 Traditionally, a _smooth manifold_ is defined as follows.
+
+#### As special topological manifolds
 
 +-- {: .un_defn}
 ###### Definition
@@ -43,6 +47,21 @@ A [[homomorphism]] of smooth manifolds is a [[smooth function]]s. Smooth manifol
 
 =--
 
+#### As special locally linged spaces
+
+
++-- {: .un_prop}
+###### Proposition
+
+A  smooth manifold is equivalently a  [[locally ringed space]] $(X,\mathcal{O}_X)$ which is locally isomorphic to the ringed space $(\mathbb{R}^n, C^\infty(-) )$.
+
+(...)
+
+=--
+
+
+
+### General abstract geometric definition
 
 There is a more fundamental and [[category theory|general abstract]] way to think of smooth manifolds, which realizes their theory as a special case of general constructions in [[higher geometry]]. In this context one specifies $\mathcal{G}$ a [[geometry (for structured (∞,1)-toposes)]] and then plenty of geometric notions are defined canonically in terms of $\mathcal{G}$. The theory of smooth manifolds appears if one takes $\mathcal{G} = $ [[CartSp]]. 
 
@@ -50,7 +69,7 @@ This is discussed in [The geometry CartSp](#TheGeometryCartSp) below.
 
 
 
-### The geometry $CartSp$ {#TheGeometryCartSp}
+#### The geometry $CartSp$ {#TheGeometryCartSp}
 
 Let [[CartSp]] be the [[category]] of [[Cartesian space]]s and [[smooth function]]s between them. This has finite [[product]]s and is in fact (the [[syntactic category]]) of a [[Lawvere theory]]: the theory of [[smooth algebras]].
 
@@ -58,10 +77,33 @@ Moreover, $CartSp$ is naturally equipped with the [[good open cover]] [[coverage
 
 Both properties together make it a [[pregeometry (for structured (∞,1)-toposes)]] (if the notion of [[Grothendieck topology]] is relaxed to that of [[coverage]] in [StrSp](#StrSp)).
 
+For $\mathcal{X}$ a [[topos]], a [[product]]-preserving [[functor]]
 
-#### The spectrum construction
+$$
+  \mathcal{O} : \mathcal{G} \to \mathcal{X}
+$$
 
-Every object $U \in \mathrm{CartSp}$ is canonically a [[CartSp]]-[[ringed space]], meaning a [[topological space]] equipped with a local sheaf of [[smooth algebra]]s. More generally: every object $U \in CartSp$ is canonically incarnated as the $CartSp$-[[structured (∞,1)-topos] 
+is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ is $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]] this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [sheaf] of [[smooth algebra]]s on $X$. 
+
+If $\mathcal{O}$ sends [[covering]] families $\{U_i \to U\}$ in $\mathcal{G}$ to [[effective epimorphism]] $\coprod_i \mathcal{O}(U_i) \to \mathca{O}(U)$ we say that it is a _local $\mathca{G}$-algebra_ in $\mathcal{X}$, making $\mathcal{X}$ a $\mathcal{G}$-[[locally ringed topos]].
+
+The [[big topos]] $Sh(\mathcal{G})$ itself is canonically equipped with such a local $\mathcal{G}$-algebra, given by the [[Yoneda embedding]] $j$ followed by [[sheafification]] $L$
+
+$$
+  \mathcal{O} : \mathcal{G} \stackrel{j}{\to} PSh(\mathcal{G}) \stackrel{L}{\to}
+  Sh(\mathcal{G})
+  \,.
+$$
+
+It is important in the context of [[locally representable structured (infinity,1)-topos|locally representable locally ringed toposes]] that we regard $Sh(\mathcal{G})$ as equipped with this local $\mathcal{G}$-algebra. This is what remembers the [[site]] and gives a notion of local representability in the first place.
+
+The [[big topos]] $Sh(CartSp)$ is a [[cohesive topos]] of [[generalized smooth space]]s. Its [[concrete sheaves]] are precisely the [[diffeological space]]s. See there for more details. We now discuss how with $Sh(CartSp)$ regarded as a $CartSp$-structured topos, smooth manifolds are precisely its [[locally representable structured (infinity,1)-toposes|locally representable objects]].
+
+#### Cartesian spaces as representable objects of $Sh(CartSp)$
+
+The represenables themselves should evidently be locally representable and canonically have the structure of $CartSp$-structured toposes.
+
+Indeed, every object $U \in \mathrm{CartSp}$ is canonically a [[CartSp]]-[[ringed space]], meaning a [[topological space]] equipped with a local sheaf of [[smooth algebra]]s. More generally: every object $U \in CartSp$ is canonically incarnated as the $CartSp$-[[structured (∞,1)-topos] 
 
 $$
   (\mathcal{X}, \mathcal{O}_{\mathcal{X}})
@@ -73,7 +115,7 @@ $$
 given by the [[over-(∞,1)-topos]] of the [[big topos|big]] [[(∞,1)-sheaf (∞,1)-topos]] over $CartSp$ and the [[structure sheaf]] given by the composite of the [[(∞,1)-Yoneda embedding]] and the [[inverse image]] of the [[etale geometric morphism]] induced by $U$.
 
 
-### Smooth manifolds as locally representable sheaves
+#### Smooth manifolds as locally representable objects of $Sh(CartSp)$ {#smoothManifoldsAsLocallyRepresentableObjects}
 
 +-- {: .un_defn}
 ###### Definition
@@ -100,7 +142,7 @@ $$
 $$
 
 
-of the category [[Diff]] of [[paracompact space|paracompact]] smooth manifolds with that of locally representable sheaves on $CartSp$.
+of the category [[Diff]] of smooth manifolds with that of locally representable sheaves for the [[geometry (for structured (infinity,1)-toposes)|pre-geometry]] $CartSp$.
 
 =--
 
@@ -108,7 +150,7 @@ of the category [[Diff]] of [[paracompact space|paracompact]] smooth manifolds w
 ###### Proof
 
 
-Define a functor $Diff \to LocRep(CartSp)$ by sending each smooth manifold to the sheaf over $CartSp$ that it naturally represents. By the fact that $X$ is assumed to be paracompact it admits a [[good open cover]] $\{U_i \to X\}$. We claim that $\coprod_i U_i \to X$ is an [[effective epimorphism]], so that this functor indeed lands in $LocRep(CartSp)$.
+Define a functor $Diff \to LocRep(CartSp)$ by sending each smooth manifold to the sheaf over $CartSp$ that it naturally represents. By definition of [[manifold]] there is an [[open cover]] $\{U_i \to X\}$. We claim that $\coprod_i U_i \to X$ is an [[effective epimorphism]], so that this functor indeed lands in $LocRep(CartSp)$. (This is a standard argument of sheaf theory in [[Diff]], we really only need to observe that it goes through over [[CartSp]], too.)
 
 For that we need to show that
 
@@ -135,23 +177,10 @@ This shows that our functor $Diff \to LocRep(CartSp)$ is an [[essentially surjec
 
 =--
 
-### As locally ringed spaces
+#### As locally representable $CartSp$-structured $(\infty,1)$-toposes
 
+We may switch from regarding smooth manifolds as objects in the [[big topos]] $X \in Sh(CartSp)$ to regrading them as [[topos]]es themselves, by passing to the [[over-topos]] $Sh(CartSp)/X$. This remembers the extra (smooth) structure on the [[topological space]] $X$ by being canonically a [[locally ringed topos]] with the [[structure sheaf]] of [[smooth function]]s on $X$: a [[CartSp]]-[[structured (∞,1)-toposes]]
 
-We may switch from regarding smooth manifolds as objects in the [[big topos]] $X \in Sh(CartSp)$ to regrading them as [[topos]]es themselves, by passing to the [[over-topos]] $Sh(CartSp)/X$. This remembers the extra (smooth) structure on the [[topological space]] $X$ by being canonically a [[locally ringed topos]] with the [[structure sheaf]] of [[smooth function]]s on $X$.
-
-+-- {: .un_prop}
-###### Proposition
-
-A  smooth manifold is equivalently a (paracomopact) [[locally ringed space]] $(X,\mathcal{O}_X)$ which is locally isomorphic to the ringed space $(\mathbb{R}^n, C^\infty(-) )$.
-
-(...)
-
-=--
-
-### As locally representable structured $(\infty,1)$-toposes
-
-The above discussion of smooth manifolds as [[ringed space]]s, generalizes to the context of [[ringed topos]]es and generally to [[structured (∞,1)-toposes]].
 
 For every choice of [[geometry (for structured (∞,1)-toposes)]]   there is a notion of $\mathcal{G}$-[[locally representable structured (∞,1)-topos]] ([StrSp](#StrSp)). 
 
@@ -192,7 +221,11 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 
 ## References
 
-The general abstract framework of [[higher geometry]] mentioned above is discussed in 
+Standard references on smooth manifolds include
+
+(...)
+
+The general abstract framework of [[higher geometry]] refereed to above is discussed in 
 
 * [[Jacob Lurie]], _[[Structured Spaces]]_
 {#StrSp}
