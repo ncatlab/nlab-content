@@ -18,7 +18,9 @@
 
 The [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] is the [[classifying topos]] for the [[theory of objects]], sometimes called the "object classifier". This is not to be confused with the notion of an [[object classifier]] in an [[(∞,1)-topos]]  and maybe better called in full the _classifying topos for the theory of objects_.
 
-For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$. The _generic object_ $U$ is $FinSet\hookrightarrow Set$.
+For $E$ any [[topos]], a [[geometric morphism]] $E \to [FinSet,Set]$ is equivalently just an [[object]] of $E$. The _generic object_ $U$ is the inclusion $FinSet\hookrightarrow Set$.[^fine]
+
+[^fine]: Incidentally, $U$ has the [[ultrafilter monad]] as [[codensity monad]], and, so we may say that the concept of an object leads naturally to the concept of a [[compact Hausdorff space]]. 
 
 Similarly, the presheaf topos $[FinSet_*, Set]$ (where $FinSet_*$ is the category of finite [[pointed sets]]) classifies pointed objects; cf. [this question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify) and answer.  This is the topos of "$\Gamma$-sets"; see [[Gamma-space]].
 
@@ -52,6 +54,9 @@ A related point of view is that $FinSet^{op}$ is the [[free construction|free]] 
 
 
 =--
+
+###Remark
+What concerns other base toposes than $Set$, it is a theorem due to [[Andreas Blass]] that $\mathcal{S}$ has an object classifier $\mathcal{S}(U)$ precisely if $\mathcal{S}$ has a [[natural number object]]. A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that classifying toposes for [[geometric theories]] over $\mathcal{S}$ exist precisely if the object classifier $\mathcal{S}(U)$ exists.
 
 ## References
 
