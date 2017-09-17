@@ -22,7 +22,7 @@ In classical homotopy theory, the presentation is given by a [[category with wea
 
 In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it may presents an "enriched $(\infty,1)$-category" or be a more powerful presentation of a bare $(\infty,1)$-category (notably if the enrichment is over [[sSet]]).  In the [[enriched category theory]] context the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which may construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category" or may be a more powerful tool for constructing plain $(\infty,1)$-categorical limits (in particular if the enrichment is over [[sSet]]).  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
-Maybe the most commonly encountered setup for homotopy limits is that where the [[(∞,1)-category]] in question is [[presentable (∞,1)-category|presents]] by a [[simplicial model category]]. See also [[homotopy Kan extension]], of which (globally defined) homotopy (co)limits are a special case.
+Maybe the most commonly encountered setup for homotopy limits is that where the [[(∞,1)-category]] in question is [[presentable (∞,1)-category|presented]] by a [[simplicial model category]]. See also [[homotopy Kan extension]], of which (globally defined) homotopy (co)limits are a special case.
 
 
 ## Definitions 
@@ -68,13 +68,13 @@ $$
 
 In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
 
-In particular, if $C$ is equipped with the extra structure of a [[simplicial model category]] and $K$ is an (small) [[sSet]]-[[enriched category]] we may also equip the [[enriched functor]] category $[D,C]$ with the structure of a simplicial model category, actually with two different such structures:
+In particular, if $C$ is equipped with the extra structure of a [[simplicial model category]] and $K$ is an (small) [[sSet]]-[[enriched category]] we may also hope to equip the [[enriched functor]] category $[D,C]$ with the structure of a simplicial model category.  There are two different "canonical" such structures:
 
 * the _projective_ [[model structure on functors]] $[D,C]_{proj}$;
 
 * the _injective_ [[model structure on functors]] $[D,C]_{inj}$
 
-(both of which have the same objectwise weak equivalences and are in fact [[Quillen equivalence|Quillen equivalence]]) and limit and colimit constitute then two $sSet$-enriched [[Quillen adjunction]]s
+(both of which have the same objectwise weak equivalences and are in fact [[Quillen equivalence|Quillen equivalent]]).   When these model structures exist (as they do when $C$ is [[combinatorial model category|combinatorial]]), limit and colimit constitute then two $sSet$-enriched [[Quillen adjunction]]s
 
 $$
   [D,C]_{proj}
@@ -167,7 +167,7 @@ $$
 
 For details on this see [[Quillen bifunctor]] or around page 9 of
 
-* Nicola Gambino, _Wheighted limits in simplicial homotopy theory_ .
+* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ .
 
 From the fact that this is a Quillen bifunctor and using the observation that for the _trivial_ weight $W = const 1$ the wighted colimit reduces to an ordinary colimit, follows the above Bousfield-Kan-type formula for the homotopy colimit.
 
