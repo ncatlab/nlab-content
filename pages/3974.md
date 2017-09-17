@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -22,7 +33,7 @@ A **[[concrete site]]** is a [[site]] $C$ with a [[terminal object]] $*$ such th
 1. for every [[coverage|covering family]] $\{f_i : U_i \to U\}$ in $C$ the morphism 
 
    $$
-     \{ \coprod_i Hom_C(*,f) : \coprod_i Hom_C(*, U_i) \to Hom_C(*, U) \}
+     \coprod_i Hom_C(*,f) : \coprod_i Hom_C(*, U_i) \to Hom_C(*, U) 
    $$
 
    is [[surjective]].
