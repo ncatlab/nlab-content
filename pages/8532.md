@@ -1,14 +1,14 @@
-# TwoVect: a Mathematica Package for 2-Vector Spaces #
+# `TwoVect`: a Mathematica Package for 2-Vector Spaces #
 
 _Under construction!_
 
 ### What is TwoVect? ###
 
-TwoVect is a Mathematica package for working with finite-dimensional complex [[2-vector spaces]]. It implements all the basic operations of a skeletal version of **2Vect**, the symmetric monoidal bicategory of finite-dimensional 2-vector spaces.
+`TwoVect` is a Mathematica package for working with finite-dimensional complex [[2-vector spaces]]. It implements all the basic operations of a skeletal version of **2Vect**, the symmetric monoidal bicategory of finite-dimensional 2-vector spaces.
 
-2-vector space are categories with many of the same properties as ordinary vector spaces. They have a range of applications in quantum algebra, representation theory, topological quantum field theory and quantum information. There are two main types of 2-vector spaces; the sort we are concerned with here are known as ''Kapranov-Voevodsky'' 2-vector spaces.
+2-vector space are categories with many of the same properties as ordinary vector spaces. There are two main types of 2-vector spaces; the sort we are concerned with here are known as ''Kapranov-Voevodsky'' 2-vector spaces. They have a range of applications in quantum algebra, representation theory, topological quantum field theory and quantum information. This package can help with calculations in these areas.
 
-TwoVect was first developed by [Dan Roberts](http://ctpweb.lns.mit.edu/personnel.html) in 2011 as part of an MSc dissertation, with assistance from [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary). If you've got any questions, please get in touch.
+`TwoVect` was first developed by [Dan Roberts](http://ctpweb.lns.mit.edu/personnel.html) in 2011 as part of an MSc dissertation, with assistance from [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary). If you've got any questions, please get in touch.
 
 ### How can I get it? ###
 
@@ -20,21 +20,21 @@ _Available very soon!_
 
 The mathematics of 2-vector spaces is often referred to as _higher linear algebra_, and extends the ordinary linear algebra required for calculations involving traditional vector spaces. This higher linear algebra can be difficult to work with by hand: whereas ordinary linear algebra involves matrices of complex numbers, higher linear algebra involves matrices of _matrices_ of complex numbers. And whereas ordinary matrices can be composed in two different ways, ordinary composition and tensor product, the theory of 2-vector spaces involves three types of composition: tensor product, horizontal composition and vertical composition.
 
-While the underlying mathematics of 2-vector spaces is elegant and natural, the combinatorics of these basic operations can make direct calculations difficult to perform by hand. TwoVect implements the basic operations of higher linear algebra, and can take away the difficulty of performing large calculations.
+While the underlying mathematics of 2-vector spaces is elegant and natural, the combinatorics of these basic operations can make calculations difficult to perform by hand. `TwoVect` implements the basic operations of higher linear algebra, and can make calculations a lot easier.
 
 Here are some example uses for the package.
 * You've worked out the associator and unitors for a semisimple monoidal category, and you want to check the pentagon and triangle equations.
 * You've worked out other structure, like a braiding, symmetry or ribbon structure, and you want to check the defining equations are satisfied.
-* You want to use Mathematica's solvers to help find these structures.
+* You want to use Mathematica's built-in solvers to help find these structures.
 * You want to calculate the value of a string diagram in a semisimple monoidal category.
 * You want to check algebraic properties of a semisimple monoidal category. Does it have duals for objects? Is it modular?
 * You want to check the axioms are satisfied for an internal monoid object in a semisimple monoidal category, or you want Mathematica to help you find such an object.
 * You have chosen higher linear maps to associate to the generators of some higher algebraic structure, and want to check the relations are satisfied.
-* You want to verify the action of a quantum protocol, described in terms of the [2-categorical approach to quantum information](http://arxiv.org/abs/1207.4563).
+* You want to verify correctness of a quantum protocol, described in terms of the [2-categorical approach to quantum information](http://arxiv.org/abs/1207.4563).
 
 ### How does it work? ###
 
-The basic package `TwoVect.m` implements a completely skeletal version of 2Vect, the symmetric monoidal bicategory of finite-dimensinal 2-vector spaces, in the following way:
+The basic package `TwoVect` implements a completely skeletal version of **2Vect**, the symmetric monoidal bicategory of finite-dimensional 2-vector spaces, in the following way:
 * **2-vector spaces** are represented by natural numbers.
 * **Linear functors** between 2-vector spaces are represented by matrices of natural numbers.
 * **Natural transformations** between linear functors are represented by matrices of matrices of complex numbers.
@@ -50,8 +50,8 @@ The nonidentity invertible structural 2-cells are also implemented, which accoun
 * The **symmetrizer**: $\sigma_{f,g}: \mathrm{swap} \circ (f \boxtimes g) \to (g \boxtimes f) \circ \mathrm{swap}$
 
 There are also two add-on packages:
-* `MTCategories.m` provides implementations of the equations for symmetric or braided semisimple monoidal categories.
-* `MTCategory.m` provides a simplified syntax for working 'inside' a particular choice of monoidal category. Once this is defined, the value of string diagrams can be computed by typing them in using ordinary string diagram notation.
+* `MTCategories` provides implementations of the equations for symmetric or braided semisimple monoidal categories.
+* `MTCategory` provides a simplified syntax for working 'inside' a particular choice of monoidal category. Once this is defined, the value of string diagrams can be computed by typing them in using ordinary string diagram notation.
 
 ### How can I help? ###
 
