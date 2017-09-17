@@ -1,0 +1,6 @@
+
+* [webpage](http://pages.uoregon.edu/njp/)
+
+category: people
+
+[[!redirects Nick Proudfoot]]
