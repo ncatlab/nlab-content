@@ -160,6 +160,8 @@ See [[pullback]] for more details.
 [[!redirects cofibred coproducts]]
 [[!redirects cofibered coproduct]]
 [[!redirects cofibered coproducts]]
+[[!redirects cofiber coproduct]]
+[[!redirects cofiber coproducts]]
 
 [[!redirects amalgamated free product]]
 [[!redirects amalgamated free products]]
