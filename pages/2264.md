@@ -96,15 +96,15 @@ In any [[finitely complete category]], the intersection of two congruences (equi
 
 In a [[regular category]] such as a variety of algebras, where there is a sensible calculus of relations and relational composition, it is a simple matter to prove that if $Equiv(X)$ is closed under relational composition, then $R \circ S$ is the join $R \vee S$ in $Equiv(X)$. For, if $R, S \in Equiv(X)$, then 
 
-$$R = R \circ \Delta \subseteq R \circ S \qquad S = \Delta \circ S \subseteq R \circ S$$ 
+$$R = R \circ \Delta \subseteq R \circ S, \qquad S = \Delta \circ S \subseteq R \circ S$$ 
 
 while if $R, S \subseteq T$ in $Equiv(X)$, then 
 
-$$R \circ S \subseteq T \circ T \subseteq T$$
+$$R \circ S \subseteq T \circ T \subseteq T.$$
 
 +-- {: .un_prop}
 ######Proposition 
-In a regular category, if $Equiv(X)$ is closed under relational composition (equivalently, if composition of equivalence relations is commutative), then it is a modular lattice. 
+In a regular category, if $Equiv(X)$ is closed under relational composition (equivalently, if composition of equivalence relations is commutative), then $Equiv(X)$ is a [[modular lattice]]. 
 =-- 
 
 +-- {: .proof} 
@@ -113,9 +113,9 @@ The (poset-enriched) category of relations in a regular category is an [[allegor
 
 $$R \wedge (S \circ T) \subseteq S \circ ((S^{op} \circ R) \wedge T)$$ 
 
-whenever $T: X \to Y$, $S: Y \to Z$, $R: X \to Z$ are relations. As we have just seen, it follows from the hypothesis that joins in $Equiv(X)$ are given by composition, and so
+whenever $T: X \to Y$, $S: Y \to Z$, $R: X \to Z$ are relations. As we have just seen, it follows from the hypothesis that joins in $Equiv(X)$ are given by composition, and so for $R, S, T \in Equiv(X)$ we have
 
-$$R \wedge (S \vee T) \subseteq S \vee ((S \vee R) \wedge T)$$ 
+$$R \wedge (S \vee T) \subseteq S \vee ((S \vee R) \wedge T).$$ 
 
 Therefore, if $S \subseteq R$, we have both
 
@@ -126,7 +126,7 @@ and also $S \vee (R \wedge T) \subseteq R \wedge (S \vee T)$. Thus $S \subseteq 
 
 +-- {: .un_cor}
 ######Corollary
-If $T$ is a Mal'cev theory, then the lattice of congruences on any $T$-algebra is modular. 
+If $T$ is a Mal'cev theory, then the lattice of congruences $Equiv(X)$ on any $T$-algebra $X$ is a modular lattice. 
 =--
 
 Desarguesian property? 
