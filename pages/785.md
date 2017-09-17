@@ -315,6 +315,49 @@ Forming the [[dependent sum]] over $a : A, b : B$ is simply interpreted as regar
 
 Since by assumption on the categorical interpretation of a type, all objects here are fibrant, this coincides with the expression of the homotopy pullback from corollary \ref{HomotopyPullbackByFactorizationLemma} above.
 
+## Properties
+
+### Homotopy fiber characterization
+ {#HomotopyFiberCharacterization}
+
+In plain [[homotopy types]]:
+
++-- {: .num_prop }
+###### Proposition
+
+A [[diagram]] 
+
+$$
+  \array{
+    A &\stackrel{f}{\longrightarrow}& B
+    \\
+    \downarrow && \downarrow
+    \\
+    C &\stackrel{g}{\longrightarrow}& D
+  }
+$$
+
+is a homotopy pullback diagram precisely if it induces a [[weak equivalence]] on all [[homotopy fibers]]
+
+$$
+  \array{
+    hfib(f) &\longrightarrow& A &\stackrel{f}{\longrightarrow}& B
+    \\
+    \downarrow^{\mathrlap{\simeq}}  && \downarrow && \downarrow
+    \\
+    hfib(g) &\longrightarrow& C &\stackrel{g}{\longrightarrow}& D
+  }
+$$
+
+
+=--
+
+e.g. ([CPS, 5.2](#CPS))
+
+### Pasting law
+
+* [[pasting law]]
+
 ## Examples
 
 ### Fiber sequences 
@@ -340,6 +383,11 @@ A fairly comprehensive resource is the appendix of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
   {#Lurie}
+
+See also
+
+* [[Wojciech Chacholski]], Wolfgang Pitsch, and [[Jerome Scherer]], _Homotopy pullback squares up to localization_ ([pdf](http://sma.epfl.ch/~jscherer/articles/hopullbacks2.pdf))
+ {#CPS}
 
 ### In terms of homotopy type theory
  {#ReferencesForHoTT}
