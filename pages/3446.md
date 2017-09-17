@@ -45,3 +45,6 @@ from the [[Grothendieck topos|sheaf topos]] to the [[topos]] [[Set]].
 * a [[locally constant ∞-stack]] is a section of a [[constant ∞-stack]].
 
 A locally constant sheaf / $\infty$-stack is also called a [[local system]].
+
+
+[[!redirects constant sheaves]]
