@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $\mathbf{H}$ be an ambient [[(∞,1)-topos]]. Let $V, X$ be two [[objects]] of $\mathbf{H}$. Then a _$V$-[[fiber bundle]]_ over $X$ in $\marthbf{H}$ is a morphism $E \to X$ such that there is an [[effective epimorphism]] $U \to X$ and an [[(∞,1)-pullback]] square of the form
+
+$$
+  \array{
+    U \times V &\to& E
+    \\
+    \downarrow && \downarrow
+    \\
+    U &\to& X
+  }
+  \,.
+$$
+
+Externally this is a _$V$-fiber $\infty$-bundle_.
+
+## Properties
+
+Every $V$-fiber $\infty$-bundle is the [[associated ∞-bundle]] to an [[automorphism ∞-group]]-[[principal ∞-bundle]].
+
+[[!redirects fiber ∞-bundle]]
+[[!redirects fiber ∞-bundles]]
