@@ -48,7 +48,7 @@ I think it would be nice to have pages about all the different coherence theorem
 
 There exist several general frameworks for describing "doctrines" or algebraic structures on categories, which can be used to describe free algebras and state coherence theorems.  All are closely related.
 
-### 2-monads ##
+### 2-monads {#2monads}
 
 A [[2-monad]] can be regarded as the "extensional essence" of an algebraic structure on categories (or on objects of some other 2-category).  Of course, if $T$ is a 2-monad describing some structure, then $T A$ is the free such structure on $A$; thus the first sort of coherence theorem can be precisely stated as "describe $T A$ as explicitly as possible in terms of $A$."
 
