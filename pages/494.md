@@ -252,15 +252,19 @@ For more on this see
 
 ### in terms of Kan extensions/liftings
 
-Given $L \colon C \to D$, we have that it has a right adjoint $R\colon D \to C$ precisely if
+Given $L \colon C \to D$, we have that it has a [[right adjoint]] $R\colon D \to C$ precisely if the [[left Kan extension]] $Lan_L 1_C$ of the [[identity]] along $L$ exists and is [[absolute colimit|absolute]], in which case
 
-- $R = \mathop{Lan}_L 1_C$ and this Kan extension is [[Kan extension|absolute]]
+$$
+  R \simeq \mathop{Lan}_L 1_C
+  \,.
+$$ 
 
-In this case, the universal 2-cell $1_C \to R L$ corresponds to the unit of the adjunction; the counit and the verification of the triangular identities can all be obtained through properties of Kan extensions and absoluteness.
+In this case, the universal 2-cell $1_C \to R L$ corresponds to the 
+[[unit of an adjunction|unit of the adjunction]]; the counit and the verification of the triangular identities can all be obtained through properties of Kan extensions and absoluteness.
 
 It is also possible to express this in terms of Kan liftings: $L$ has a right adjoint $R$ if and only if:
 
-- $R = \mathop{Rift}_L 1_D$ and this Kan lift is [[Kan lift|absolute]]
+- $R = \mathop{Rift}_L 1_D$ and this [[Kan lift]] is [[Kan lift|absolute]]
 
 In this case, we get the counit as given by the universal cell $L R \to 1_D$, while the rest of the data and properties can be derived from it through the absolute Kan lifting assumption.
 
