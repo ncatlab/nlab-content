@@ -16,7 +16,7 @@ This is an instance of a general construction which, given a [[2-category]], or 
 [[Mike Shulman]]: Well, the uses of "truncation" I've seen always involves quotienting by equivalences, rather than discarding them.  Discarding them only even makes sense in the strict situation (a bicategory has no underlying 1-category) and is an [[evil]] (and not often very useful) thing to do, so it doesn't seem to me worth giving an important name to.  "Poincare category" may also be a name for the same thing, but I prefer "truncation" as more evocative.
 =--
 
-It can also be viewed as an instance of the homotopy category of a [[model category]] (or more generally a [[category with weak equivalences]]).  The category $Ho(Cat)$ as defined above is equivalent to the category obtained from $Cat$ by forcing all [[equivalences of categories]] to be isomorphisms.  This is for the same reason that the category $hTop$ of [[topological spaces]] and [[homotopy]] classes of [[continuous maps]] is equivalent to the category obtained from $Top$ by inverting the homotopy equivalences (namely, the existence of [[cylinder objects]] and/or [[path objects]]).  In particular, the isomorphisms in $Ho(Cat)$ are precisely the [[equivalences of categories]].
+It can also be viewed as an instance of the homotopy category of a [[model category]] (or more generally a [[category with weak equivalences]]).  The category $Ho(Cat)$ as defined above is equivalent to the category obtained from $Cat$ by forcing all [[equivalences of categories]] to be isomorphisms (by [[localization|localizing]]).  This is for the same reason that the category $hTop$ of [[topological spaces]] and [[homotopy]] classes of [[continuous maps]] is equivalent to the category obtained from $Top$ by inverting the homotopy equivalences (namely, the existence of [[cylinder objects]] and/or [[path objects]]).  Indeed, a [[cylinder object]] for a category $C$ is the [[product category]] $C \times I$ where $I$ is the category with two objects 0 and 1 and an isomorphism $0 \to 1$.  It is not difficult to see that an isomorphism of functors is the same as a [[homotopy]] of functors with the respect to the [[canonical model structure]] on $Cat$.
 
 
 # Subcategories of Ho(Cat)
@@ -71,5 +71,9 @@ Now every element of $\mathbb{Z}/2$ or $\mathbb{Z}/3$ is the image of some morph
 Let $c_1$ be such that $f(c_1)=b$.  If $g(c_1)$ is not the identity, let $c=c_1$.  Otherwise $g(c_1)=1$ and there is some $c_2$ with $g(c_2)=a$.  If $f(c_2)$ is not the identity, then let $c=c_2$.  Otherwise $f(c_2)=1$ and let $c = c_1\cdot c_2$.  In either case, neither $f(c)$ nor $g(c)$ is the identity.  Therefore, neither $j(f(c))$ nor $i(g(c))$ is the identity, and moreover $j(f(c))$ is a 3-cycle and $i(g(c))$ is a 2-cycle in $S_3$.  But the element $\sigma$ conjugates $i(g(c))$ to $j(f(c))$, a contradiction.
 
 Since all the categories involved were groupoids (except possibly $P$), the same argument shows that $Ho(Gpd)$ doesn't have pullbacks.  Moreover, basically the same argument, regarding groupoids as connected 1-types, shows that the homotopy category of topological spaces doesn't have pullbacks either (in this case the final contradiction is derived from $\pi_1(P)$ instead of $P$ itself).
+
+## See also
+
+* [[canonical model structure]]
 
 category: category
