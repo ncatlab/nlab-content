@@ -1,3 +1,4 @@
+[[!redirects Models for concurrency]]
 # Contents
 * automatic table of contents goes here
 {:toc}
