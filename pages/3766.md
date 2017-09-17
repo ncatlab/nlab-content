@@ -18,7 +18,7 @@
 
 Liouville [[integrable systems]] can always be phrased in the form of a [[Lax pair]] depending on a spectral parameter belonging to what is called a _[[spectral curve]]_. This way the [[analytic geometry|complex analytic]] theory of [[Riemann surfaces]] comes into play. 
 
-In a landmark article in 1987, [[Nigel Hitchin]] introduced more refined viewpoint to a rather general class of [[integrable systems]], where the spectral curve is a [[hyperelliptic curve]] (genus 2 or more). This system is defined on the [[cotangent bundle]] of [[moduli space]] of [[stable bundles]] studied by Ramanan, Narasimhan, Hitchin, Nitsure, [[Gerd Faltings|Faltings]], [[Carlos Simpson|Simpson]] (introduction of Higgs bundles!) and others. 
+In a landmark article in 1987, [[Nigel Hitchin]] introduced more refined viewpoint to a rather general class of [[integrable systems]]. The spectral curve is a [[hyperelliptic curve]] (genus 2 or more) for Sp(m,C)-Higgs bundles. This system is defined on the [[cotangent bundle]] of [[moduli space]] of [[stable bundles]] studied by Ramanan, Narasimhan, Hitchin, Nitsure, [[Gerd Faltings|Faltings]], [[Carlos Simpson|Simpson]] (introduction of Higgs bundles!) and others. 
 
 Some of the features of that system are more readily seen from consideration of a canonical map from the cotangent bundle of the moduli space to the so-called [[Hitchin base]], and the map is called the 
 _Hitchin fibration_. 
