@@ -1,6 +1,10 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Bertrand_Russell)
 
+* [St. Andrews History entry](http://www-history.mcs.st-and.ac.uk/Biographies/Russell.html)
+
+* [Stanford  Encyclopedia of Philosophy](http://plato.stanford.edu/entries/russell/)
+
 ## Related entries
 
 * [[Russell's paradox]]
