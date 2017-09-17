@@ -101,6 +101,11 @@ from [[equivalence class]]es of $G$-[[principal bundle]]s with [[connection on a
 
 ## References
 
+A classical textbook reference is
+
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+
 The description of the refined Chern-Weil homomorphism in terms of [[differential function complex]]es is in section 3.3. of 
 
 * [[Mike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
