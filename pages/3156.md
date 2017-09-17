@@ -1,3 +1,4 @@
+[[!redirects natural weak factorization system]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -22,7 +23,9 @@
 
 ##Basic idea##
 
-**Natural weak factorization systems** (NWFS) are algebraizations of [[weak factorization system]]s (WFS). The elements in the left and right classes of morphisms are replaced by coalgebras and algebras, respectively, for a certain [[comonad]] and [[monad]] on the [[arrow category]]. This comonad and monad also determine the functorial factorization and give natural coalgebra and algebra structures to the left and right factors.
+**Algebraic weak factorization systems** (AWFS) are algebraizations of [[weak factorization system]]s (WFS). The elements in the left and right classes of morphisms are replaced by coalgebras and algebras, respectively, for a certain [[comonad]] and [[monad]] on the [[arrow category]]. This comonad and monad also determine the functorial factorization and give natural coalgebra and algebra structures to the left and right factors.
+
+Algebraic weak factorization systems were originally called **natural weak factorization systems** by Grandis and Tholen.
 
 ##Preliminaries##
 
@@ -59,9 +62,9 @@ There are obvious natural transformations $1 \Rightarrow R$ and $L \Rightarrow 1
 
 ##Definition##
 
-A NWFS on a category $K$ consists of a pair $(L,R)$ where $L$ is a comonad and $R$ is a monad, whose underlying pointed endofunctors arise from a functorial factorization $E$. Some authors (Garner) also require that the canonical natural transformation $LR \Rightarrow RL$, whose domain and codomain components are given by the comultiplication and multiplication maps, is a distributive law of the comonad over the monad. This amounts to the requirement that a pentagon involving the comultiplication and multiplication maps commutes.
+A AWFS on a category $K$ consists of a pair $(L,R)$ where $L$ is a comonad and $R$ is a monad, whose underlying pointed endofunctors arise from a functorial factorization $E$. Some authors (Garner) also require that the canonical natural transformation $LR \Rightarrow RL$, whose domain and codomain components are given by the comultiplication and multiplication maps, is a distributive law of the comonad over the monad. This amounts to the requirement that a pentagon involving the comultiplication and multiplication maps commutes.
 
-We refer to the $L$-coalgebras as the **left class** of the NWFS and the $R$-algebras as the **right class**. When we forget the algebra structures, we obtain classes of maps in $K$. The retract closures of these classes form a WFS called the **underlying WFS** of this NWFS.
+We refer to the $L$-coalgebras as the **left class** of the AWFS and the $R$-algebras as the **right class**. When we forget the algebra structures, we obtain classes of maps in $K$. The retract closures of these classes form a WFS called the **underlying WFS** of this AWFS.
 
 Given a lifting problem 
 $$
@@ -78,15 +81,15 @@ where $f$ is a $L$-coalgebra and $g$ is an $R$-algebra, the functorial factoriza
 
 ##Interesting features##
 
-* The right class of a NWFS is closed under any limits that exist in $K^{2}$, because the forgetful functor to the underlying category of arrows creates all limits which exist. Note that it does not follow that the right class of the underlying WFS is closed under limits in the arrow category, because first, it is possible that some elements of the right class will not have an $R$-algebra structure, and second, not every map in the arrow category between $R$-algebras is necessarily an $R$-algebra map.
+* The right class of a AWFS is closed under any limits that exist in $K^{2}$, because the forgetful functor to the underlying category of arrows creates all limits which exist. Note that it does not follow that the right class of the underlying WFS is closed under limits in the arrow category, because first, it is possible that some elements of the right class will not have an $R$-algebra structure, and second, not every map in the arrow category between $R$-algebras is necessarily an $R$-algebra map.
 
 * Algebras for the monad of a NWFS can be composed canonically, as can the coalgebras for the comonad. The composition law for the algebras uses the comultiplication natural transformation, and dually for the coalgebras.
 
-* A NWFS $(L,R)$ on $K$ induces a levelwise NWFS on any diagram category $K^A$. Note that its underlying WFS will not be similarly "levelwise". (Indeed, a WFS does not typically induce a levelwise WFS on a diagram category.)
+* A AWFS $(L,R)$ on $K$ induces a levelwise AWFS on any diagram category $K^A$. Note that its underlying WFS will not be similarly "levelwise". (Indeed, a WFS does not typically induce a levelwise WFS on a diagram category.)
 
 ##Small object argument##
 
-There is a modification of the [[small object argument]], due to Richard Garner, which produces **cofibrantly generated** NWFS by adapting the construction of a [[free monad]] on an endofunctor.  Importantly, Garner's small object argument allows the generators to be a small category over the arrow category $K^{[2]}$, rather than simply a set of arrows. As a result, there are WFS which are not cofibrantly generated in the classical sense, but which can be exhibited as the underlying WFS of a cofibrantly generated NWFS.
+There is a modification of the [[small object argument]], due to Richard Garner, which produces **cofibrantly generated** AWFS by adapting the construction of a [[free monad]] on an endofunctor.  Importantly, Garner's small object argument allows the generators to be a small category over the arrow category $K^{[2]}$, rather than simply a set of arrows. As a result, there are WFS which are not cofibrantly generated in the classical sense, but which can be exhibited as the underlying WFS of a cofibrantly generated AWFS.
 
 ## References
 
@@ -96,6 +99,9 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 
 * Emily Riehl, "Algebraic model structures", [arXiv](http://arxiv.org/abs/0910.2733).
 
+[[!redirects algebraic weak factorisation system]]
+[[!redirects natural weak factorisation system]]
+[[!redirects natural weak factorization system]]
 [[!redirects natural weak factorization systems]]
 [[!redirects NWFS]]
 [[!redirects nwfs]]
