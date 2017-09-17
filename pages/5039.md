@@ -7,7 +7,11 @@
 ## Models in Modal Logics ## 
 To give the standard (geometric) semantics of modal logics one needs models and these will be discussed here and in the companion [[algebraic models for  modal logics]].
 
+(This outlines the basics of the **Kripke semantics** of these logics.)
+
 ###Models in Monomodal Logics###
+
+
 
 Again we look at the basic model language.
 
