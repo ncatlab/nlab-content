@@ -54,6 +54,8 @@
 
   * [[cellular model category]]
 
+* [[compactly generated model category]]
+
 * [[proper model category]]
 
 * [[stable model category]]
