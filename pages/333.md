@@ -52,6 +52,8 @@ Noncommutative formal geometry, concerned with objects like infinitesimal neighb
 
 ## Related concepts
 
+* [[noncommutative topology]]
+
 * [[groupoid algebra]]
 
 * [[noncommutative scheme]]
