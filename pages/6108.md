@@ -30,7 +30,7 @@ $$
 
 where $\Sigma$ is the 2-[[dimension]]al [[worldsheet]] and $W : X \to \mathbb{C}$ -- called the model's _superpotential_ -- is a [[holomorphic function]]. (Usually $X$ is actually taken to be a [[Cartesian space]] and all the nontrivial structure is in $W$.)
 
-Landau-Ginzburg models have gained inmportance as constituing one type of QFTs that are related under [[homological mirror symmetry]]:
+Landau-Ginzburg models have gained importance as constituting one type of QFTs that are related under [[homological mirror symmetry]]:
 
 If the [[target space]] $X$ is a [[Fano variety]], the usual [[B-model]] does not quite exist on it, since the corresponding supersymmetric [[string]] [[sigma model]] is not conformally invariant as a quantum theory, and the axial $U(1)$ [[R-current]] used to define the B-twist is [[quantum anomaly|anomalous]]. Still, there exists an analogous [[derived category]] of B-branes. A Landau-Ginburg model is something that provides the dual A-branes to this under [[homological mirror symmetry]]. Conversely, Landau-Ginzburg B-branes are homological mirror duals to the [[A-model]] on a Fano variety.
 (...)
