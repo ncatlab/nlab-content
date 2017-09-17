@@ -8,3 +8,5 @@
 * [[motivic cohomology]]
 
 category: people
+
+[[!redirects E. M. Friedlander]]
