@@ -25,7 +25,7 @@ $$
 
 is [[representable functor|representable]].
 
-(is that right??)
+In other words, twisted complexes in $PreTr(E)$ have representatives in $E$.
 
 **Proposition**
 
