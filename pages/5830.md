@@ -159,13 +159,6 @@ Using [[higher inductive types]], we can also define [[homotopy pushouts]]. if `
 together with the map `inl`, `inr` and the homotopy `glue`.
 (see [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pushout.v) for the proof)
 
-## Related concepts
-
-* [[type theory]], [[internal logic]]
-
-* [[2-type theory]], [[michaelshulman:2-categorical logic]]
-
-* **$(\infty,1)$-type theory**, [[internal logic of an (∞,1)-topos]]
 
 ## References
  {#References}
