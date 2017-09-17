@@ -25,6 +25,14 @@
 
 ## Theorems
 
+### States and observables
+
+* [[Kochen-Specker theorem]]
+
+* [[Gleason's theorem]]
+
+* [[Wigner theorem]]
+
 ### Operator algebra
 
 * [[GNS construction]]
@@ -44,6 +52,7 @@
 * [[spin-statistics theorem]]
 
 * [[DHR superselection theory]]
+
 
 ### Euclidean QFT
 
