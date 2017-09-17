@@ -61,7 +61,7 @@ As such, the Weil algebra plays a crucial role in the study of the [[Lie algebra
 
 ## Definition
 
-Let $\mathfrak{a}$ be a [[Lie-∞-algebroid]], identified with its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a}) = \wedge^\bullet_{C^\infty(\mathfrak{a}_0)} \mathfrak{a}_{\geq 1}^* $. 
+Let $\mathfrak{a}$ be a [[∞-Lie algebroid]], identified with its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a}) = \wedge^\bullet_{C^\infty(\mathfrak{a}_0)} \mathfrak{a}_{\geq 1}^* $. 
 
 The corresponding **Weil algebra** is
 
@@ -221,6 +221,34 @@ $$
 sends the unshifted generators $t^a$ to differential forms $A^a$ and sends the shifted generators $\sigma t^a$ to their [[curvature]]. The respect for the differential on the shifted generators is the [[Bianchi identity]] on these curvatures.
 
 
+## Relation to invariant polynomials and Chern-Simons elements
+
+A [[cocycle]] in the [[∞-Lie algebra cohomology]] of the [[∞-Lie algebra]] $\mathfrak{g}$ is a closed element in the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$.
+
+An [[invariant polynomial]] $\langle -\rangle$ on $\mathfrak{g}$ is a closed element in the Weil algebra $\langle -\rangle \in W(\mathfrak{g})$, subject to the addition condition that it its entirely in the shifted copy of $\mathfrak{g}$, $\langle - \rangle \in \wedge^\bullet (\mathfrak{g}^*[1])$.
+
+Since the cohomology of $W(\mathfrak{g})$ is trivial, there is necessarily for each invariant polynomial an element $cs_{\langle -\rangle}$ such that
+
+$$
+  d_{W(\mathfrak{g})} cs_{\langle -\rangle} = 
+  \langle -\rangle
+  \,.
+$$
+
+This is the [[Chern-Simons form|Chern-Simons element]] of the invariant polynomial. Its restriction 
+
+$$
+  \mu_{\langle -\rangle} := cs_{\langle - \rangle}|_{\wedge^\bullet \mathfrak{g}^*}
+$$
+
+to the unshifted copy, hence to the [[Chevalley-Eilenberg algebra]], is the cocycle that is in transgression with $\langle - \rangle$.
+
+
+
+
+
+
+
 ## Examples
 
 ### Weil algebra of a Lie algebra {#WeilofLieAlg}
@@ -310,6 +338,6 @@ The use of the Weil algebra in the calculation of the equivariant [[de Rham coho
 
 * Victor Guillemin, Shlomo Sternberg, _Supersymmetry and equivariant de Rham theory_, Springer, 1999.
 
-For the role played by the Weil algebra in the general context of higher [[Lie theory]] see
+For the role played by the Weil algebra in the general context of [[∞-Lie theory]] see
 
 * Hisham Sati, Urs Schreiber, Jim Stasheff, _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ ([arXiv](http://arxiv.org/abs/0801.3480))
