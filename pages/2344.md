@@ -164,7 +164,7 @@ using the analogous map for the functor $v/c \to w/c$.  Therefore, if $v/c \to w
 
 Therefore, since the nerve equivalences are the smallest basic localizer, every nerve equivalence is a $D$-equivalence for any derivator $D$.
 
-### Exact squares
+### Exact squares {#ExactSquares}
 
 Now suppose given any square
 $$\array{L & \overset{p}{\to} & I\\
@@ -216,7 +216,7 @@ A square is homotopy exact if and only if for all $i\in I$ and $j\in J$, the fun
 
 +-- {: .un_cor}
 ###### Corollary
-For each $i\in I$, $j\in J$, and $\varphi\colon u(i) \to v(j)$ in $K$, let $(i/L/j)_\varphi$ denote the subcategory of $(i/L/j)$ consisting of those triples for which the composite \eqref{commacomp} is equal to $\varphi$.  If each category $(i/L/j)_\varphi$ has a contractible nerve, then the square is $D$-exact.
+For each $i\in I$, $j\in J$, and $\varphi\colon u(i) \to v(j)$ in $K$, let $(i/L/j)_\varphi$ denote the subcategory of $(i/L/j)$ consisting of those triples for which the composite \eqref{commacomp} is equal to $\varphi$.  Then the square is homotopy exact if and only if each category $(i/L/j)_\varphi$ has a contractible nerve.
 =--
 
 This gives a convenient way to compute many homotopy limits and colimits, which works in any derivator, and *a fortiori* in any $(\infty,1)$-category or model category.  Example applications can be found at [[homotopy exact square]].
