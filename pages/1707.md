@@ -356,7 +356,7 @@ In
 
 * [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
 
-$n$-cocycles on a topological group $G$ with valzues in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
+$n$-cocycles on a topological group $G$ with values in a topological abelian group $A$ are considered as continuous maps $G^{\times n}\to A$ (p. 3 ).
 
 A definition in terms of [[derived functor|Ext-functor]]s and comparison with the naive definition is in 
 
