@@ -30,6 +30,25 @@ This, of course, means that $\underline{S}^n $ is defined as a pushout
 
 For the string of circles, it looks something like this:
 
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="124.43" width="743.86" version="1.0" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs4"></defs>
+ <g id="layer1" transform="translate(-86.643 -160.17)" stroke="#050803" stroke-miterlimit="4" fill="none">
+  <path id="path2383" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="translate(1.4286 -2.8571)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3159" d="m110 284.09h600" stroke-dasharray="none" stroke-width=".99921"/>
+  <path id="path3161" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="matrix(1 0 0 -1 111.43 448.19)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3163" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="translate(213.43 -2.8571)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3165" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="translate(313.57 -3.4286)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3167" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="translate(411.29 -3.4286)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3169" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="translate(1.4286 -2.8571)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3171" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="translate(1.4286 -2.8571)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3173" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="matrix(1 0 0 -1 512.57 447.62)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="none" stroke-width="1px"/>
+  <path id="path3175" d="m720 284.09h110" stroke-dashoffset="0" stroke-dasharray="5.99527574, 0.99921262" stroke-width=".99921"/>
+  <path id="path3177" stroke-linejoin="miter" style="enable-background:accumulate;marker-end:none;marker-start:none;marker-mid:none;" d="m131.43 225.52a22.857 61.429 0 1 1 -45.716 0 22.857 61.429 0 1 1 45.716 0z" transform="matrix(1 0 0 -1 604.29 447.62)" stroke-dashoffset="0" stroke-linecap="butt" stroke-dasharray="4, 1" stroke-width="1"/>
+ </g>
+</svg>
+
+
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
