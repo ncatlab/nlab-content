@@ -49,31 +49,27 @@ We discuss the [[syntax]] of $\infty$-images in this theory.
 
 +-- {: .num_prop #SyntaxOfInfinityImage}
 ###### Proposition
-
 If 
-
+$$ a\colon A \;\vdash \; f(a) \colon B $$
+is a [[term]] whose [[categorical semantics]] is a [[morphism]] $A \xrightarrow{f} B$ in $\mathbf{H}$, then the $\infty$-image of that morphism, when regarded as an object of $\mathbf{H}/B$, is the categorical semantics of the [[dependent type]]
 $$
-  a\colon A \;\vdash \; b(a) \colon B(a)
+  (b:B) \; \vdash \; 
+  \Big(\Big[
+    \sum_{a \colon A} (b = f(a))
+  \Big]
+  : Type\Big).
 $$
-
-is a [[dependent term]] whose [[categorical semantics]] is given by a [[morphism]] $A \stackrel{b}{\to} B$ in $\mathbf{H}$, then the $\infty$-image of that morphism is the categorical semantics of the type
-
-$$
-  \vdash \; 
-  \left(
-    \sum_{a \colon A} \sum_{b' \colon B} \left[b' = b\left(a\right)\right]
-  \right)
-  \colon Type
-$$
-
-given by the [[dependent sum]] over a [[substitution]] into the [[bracket type]] of an [[identity type]].
-
 =--
+
+Here $=$ denotes the [[identity type]] or "path type", $\sum$ denotes the [[dependent sum type]], and $[-]$ denotes the [[bracket type]] (which is constructible in homotopy type theory either as a [[higher inductive type]] or using the [[univalence axiom]] and a resizing rule to obtain a [[subobject classifier]]).
+
 
 +-- {: .proof}
 ###### Proof
 
-First observe that by the rules for [[categorical semantics]] of [[identity types]] and [[substitution]] the interpretation of $(b' = b(a))$ in a suitable [[model category]] [[presentable (∞,1)-category|presenting]] $\mathbf{H}$ is as the [[pullback]] $\tilde A$ (see at _[[homotopy pullback]]_ for more details on this) in
+Let $\mathbf{M}$ be a suitable [[model category]] [[presentable (∞,1)-category|presenting]] $\mathbf{H}$.  Then by the rules for [[categorical semantics]] of [[identity types]] and [[substitution]], the interpretation of
+$$ (b:B),\, (a:A) \;\vdash\; ((b = f(a)) : Type)$$
+in $\mathbf{M}$ a is the following [[pullback]] $\tilde A$ (see _[[homotopy pullback]]_ for more details):
 
 $$
   \array{
@@ -81,28 +77,51 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    A \times B &\stackrel{(b,id_B)}{\to}& B \times B
-  }
-  \,,
+    A \times B &\stackrel{(f,id_B)}{\to}& B \times B
+  }.
 $$
 
-where all objects now denote [[fibrant object]] representatives of the given objects in the model category, and where the right morphism is the [[fibration]] out of a [[path space object]] for $B$. By the [[factorization lemma]] the composite $\tilde A \to A \times B \to B$ here is a [[fibration]] [[resolution]] of the original $A \stackrel{b}{\to} B$ and $\tilde A \to A \times B$ is a fibration resolution of $A \stackrel{(id_A,b)}{\to} A \times B$. Regarded in the [[slice category]] of the model category over $A \times B$ this now interprets the syntax $(b' = b(a))$ as an $A \times B$-[[dependent type]]. The interpretation of forming the [[bracket type]] of that is now precisely the [[n-truncated object in an (infinity,1)-category|(-1)-truncation]] of this morphism, which by the discussion there is the $\infty$-image $im_\infty(\tilde Q \to A \times B)$ regarded as an $A \times B$-dependent type. Finally the inerpretation of the two [[dependent sums]] is simply to regard $im_\infty(\tilde Q \to A)$ as an object in iteself (over the [[terminal object]]). And hence that is indeed the $\infty$-image of $im_\infty(A \stackrel{b}{\to} B) \simeq im_\infty(\tilde A \to B)$.
+Here all objects now denote [[fibrant object]] representatives of the given objects in $\mathbf{M}$, and the right-hand morphism is the [[fibration]] out of a [[path space object]] for $B$. By the [[factorization lemma]] the composite $\tilde A \to A \times B \to B$ here is a [[fibration]] [[resolution]] of the original $A \stackrel{f}{\to} B$ and $\tilde A \to A \times B$ is a fibration resolution of $A \stackrel{(id_A,f)}{\to} A \times B$. Regarded in the [[slice category]] $\mathbf{M}/(A \times B)$, this now interprets the syntax $(b = f(a))$ as an $(A \times B)$-[[dependent type]].
 
+Now the interpretation of the sum $\sum_{a:A}$ is simply that we forget the map to $A$ (or equivalently compose with the projection $A\times B\to B$), regarding $\tilde A$ as an object of $\mathbf{M}/B$.  Of course, this is just a fibration resolution of $f$ itself.
+
+Finally, the interpretation of the [[bracket type]] of this is precisely the [[n-truncated object in an (infinity,1)-category|(-1)-truncation]] of this morphism, which by the discussion there is its $\infty$-image $im_\infty(\tilde A \to B)$, regarded as a dependent type over $B$.  Thus, it is precisely the the $\infty$-image of $f$.
 =--
+
+By additionally forgetting the remaining map to $B$, we obtain:
+
++-- {: .num_cor #NonDependentSyntax}
+###### Corollary
+In the above situation, the $\infty$-image of $f$, regarded as an object of $\mathbf{H}$ itself, is the semantics of the non-dependent type
+$$
+  \vdash \; 
+  \Big(\Big(
+    \sum_{b:B}\Big[\sum_{a:A} (b = f(a))\Big]
+  \Big)
+  : Type\Big).
+$$
+=--
+
 
 +-- {: .num_remark }
 ###### Remark
+The bracket type of a [[dependent sum]] is the [[propositions as some types]] version of the [[existential quantifier]], so we can write the dependent type in Prop. \ref{SyntaxOfInfinityImage} as
 
-If we allow ourselves to write the [[dependent sum]] in prop. \ref{SyntaxOfInfinityImage} either as the [[existential quantifier]] $\exists$ or as the extension formula $\{b \in B | \phi(b)\}$ then this reads
+$$
+  (b:B) \; \vdash \; 
+  \left(\exists a:A . (b = f(a))
+  \;:\; hProp\right).
+$$
+
+The dependent sum *of* an [[h-proposition]] is then the propositions-as-some-types version of the [[comprehension rule]], $\{b \in B | \phi(b)\}$, so the non-dependent type in Cor. \ref{NonDependentSyntax} may be written as
 
 $$
   \left\{
-    b' \in B | \exists a \in A . b' = b(a)
+    b \in B \,|\, \exists a \in A . (b = f(a))
   \right\}
 $$
 
 which is manifestly the naive definition of [[image]].
-
 =--
 
 
