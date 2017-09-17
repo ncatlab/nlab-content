@@ -219,3 +219,7 @@ _Toby_:  That works too.  (Well, I don\'t like 'categorical', but that\'s a sepa
 [[!redirects k-transfor]]
 [[!redirects k-transfors]]
 [[!redirects transfors]]
+
+[[!redirects n-natural transformation]]
+[[!redirects n-natural transformations]]
+
