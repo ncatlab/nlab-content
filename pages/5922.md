@@ -29,6 +29,17 @@ $$
 
 (asserting that "If  [[proposition]] $\phi_i$ is true in [[context]] $\vec x_i$ then also $\psi_i$ is/has to be true"). These are the **axioms** of the theory.
 
+## Related concepts
+
+* [[theory]]
+
+* [[proposition]]/[[type]] ([[propositions as types]]) 
+
+* [[definition]]/[[proof]]/[[program]] ([[proofs as programs]])
+
+* [[theorem]], **axiom**
+
+
 
 ## References
 
