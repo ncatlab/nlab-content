@@ -1,5 +1,5 @@
 
-> This entry is about the class of [[topological spaces]] satifiying the Baire category theorem. For the space of irrational numbers underlying _[[Kleene's second algebra]]_ and used in [[computable analysis]], see instead at _[[irrational number]]_.
+> This entry is about the class of [[topological spaces]] satifiying the Baire category theorem. For the space of irrational numbers underlying _[[Kleene's second algebra]]_ and used in [[computable analysis]], see instead at _[[Baire space (computability)]]_.
 
 # Baire spaces
 * table of contents
