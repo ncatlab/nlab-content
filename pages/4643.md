@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Langlands correspondence
++--{: .hide}
+[[!include Langlands correspondence -- contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
