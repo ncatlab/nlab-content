@@ -16,13 +16,13 @@ The above ideas are sometimes loosely expressed by practioners to take an [[abel
 Rosenberg notices that the considerations from the Idea section force one to consider not noncommutative schemes in an absolute sense, but rather noncommutative schemes relative to the ground category $C = QCoh_{Spec k}$. Suppose all categories involved are abelian and functors [[additive functor|additive]] (there is a more subtle variant in the nonabelian case). Then the general nonsense basically forces one to a unique notion of a noncommutative scheme. 
 
 
-## Definition
+## Rosenberg's definition
 
 (A. Rosenberg, _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125, [doi](http://dx.doi.org/10.1023/A:1000479824211))
 
-A quasicompact __relative noncommutative scheme__ over a category $C$ is a category $A$ with an [[adjoint functor|adjoint pair]] of functors (inverse and direct image) between $A$ and $C$ such that there exists a finite conservative family of affine localizations whose direct and inverse image parts are exact and such that the composition of the direct image functor of each localization with the direct image functor to $C$ is also affine. 
+A quasicompact __relative noncommutative scheme__ over a category $C$ is a category $A$ with an [[adjoint functor|adjoint pair]] of functors (direct and inverse image)  $g_* : A\to C : q^*$, such that there exists a finite conservative family of affine localizations $\{Q^*_\lambda : A\to A_\lambda\}_{\lambda\in\Lambda}$ whose direct image $Q_{\lambda *}$ and inverse image $Q_\lambda^*$ parts are exact and such that the composition of the direct image functor of each localization $Q_{\lambda*} : A_\lambda\to A$ followed by the direct image functor $g_* : A\to C$ is also affine. 
 
-(A pair of adjoint functors, inverse and direct image represent an affine morphism if the direct image is faithtful and it has its own right adjoint, so we have an adjoint triple with middle term faithful)
+(A pair of adjoint functors, inverse and direct image represent an affine morphism if the direct image is faithtful and it has its own right adjoint, so we have an adjoint triple with middle term, that is the direct image, faithful. For the affine localizations, the direct image is in addition full.)
 
 
 ## Properties
