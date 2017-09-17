@@ -37,6 +37,8 @@ The generalization of [[Chern-Simons theory]] to [[manifolds]] of infinite [[dim
 
   * [[7d Chern-Simons theory]]
 
+  * [[11d Chern-Simons theory]]
+
   * [[AKSZ sigma-models]]
 
   * [[string field theory]]
