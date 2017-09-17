@@ -40,15 +40,21 @@ $$ div(r) = \sum_{Z \subset X} \ord_z(r).[Z] $$
 
 where the sum goes over closed integral subschemes $Z$ of codimension 1 and with [[generic point]] $z \in Z$.
 
-## See also
+## Related concepts
 
 * [[Chow groups]]
 * [[Cartier divisor]]
 
 ## References
 
+Standard references are
+
 * [[EGA IV]], section 21
 * [[Stacks Project]], [02QQ](http://stacks.math.columbia.edu/tag/02QQ)
+
+A relation to [[iterated integrals]] and [[diffeological spaces]] is discussed in 
+
+* [[Richard Hain]], _Iterated Integrals and Algebraic Cycles: Examples and Prospects_ ([arXiv:](http://arxiv.org/abs/math/0109204))
 
 [[!redirects Weil divisor]]
 [[!redirects Weil divisors]]
