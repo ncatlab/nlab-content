@@ -204,6 +204,8 @@ An article with more details on this:
 
 * [[symplectic groupoid]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 ## References
 
 The notion originates somewhere in the school of [[Alan Weinstein]]'s school of [[higher category theory|higher categorial]] [[symplectic geometry]]. The first published appearance of the notion at least for $0 \leq n \leq 3$ is
