@@ -101,6 +101,7 @@ Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-dual
 
 [[!include U-duality -- table]]
 
+([Hull-Townsend 94, table 1, table 2](#HullTownsend94))
 
 ## Properties
 
@@ -161,7 +162,7 @@ supergravity?_, Class. Quant. Grav. 17, 3689 (2000) ([arXiv:hep-th/0006034](http
 
 The discrete quantum subgroups were discussed in 
 
-* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+* {#HullTownsend94} [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_ Nucl.Phys.B438:109-137 (1995) ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
 
 which also introduced the term "U-duality".
 
