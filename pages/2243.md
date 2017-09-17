@@ -54,6 +54,10 @@
 
   * [[principal ∞-bundle]]
 
+    * [[universal principal ∞-bundle]]
+
+    * [[groupal model for universal principal ∞-bundles]]
+
   * [[locally constant ∞-stack|covering ∞-bundle]]/[[local system]]
 
   * [[schreiber:∞-vector bundle]]
