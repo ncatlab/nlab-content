@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 #### $\infty$-Lie theory
 +-- {: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -87,3 +91,6 @@ See also
 
 [[!redirects path goupoid]]
 [[!redirects path groupoids]]
+
+[[!redirects smooth path groupoid]]
+[[!redirects smooth path groupoids]]
