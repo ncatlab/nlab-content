@@ -186,7 +186,7 @@ Lecture Notes in Physics, 509 ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-t
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
   {#S}
 
-* [[Veeravalli Varadarajan]], _Supersymmetry for mathematicians: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
+* [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
  {#Varadarajan04}
 
 
