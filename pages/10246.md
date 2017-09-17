@@ -1,0 +1,7 @@
+
+* generally: elements of or maps to a [[moduli stack]];
+
+* specifically in [[string theory]]: parameters of a [[KK compactification]].
+
+[[!redirects moduli field]]
+[[!redirects moduli fields]]
