@@ -21,21 +21,24 @@ In a [[homotopical category]] $C$, a _resolution_ of an object $X$ is another ob
 
 If $C$ is a [[model category]] then the most important resolutions are _cofibrant resolutions_ and _fibrant resolutions_ .
 
-A **fibrant resolution of $X$ is a fibrant object $\hat X$ equipped with a weak equivalence into it
+A **fibrant resolution** (or *fibrant approximation*) of $X$ is a fibrant object $\hat X$ equipped with a weak equivalence into it
 
 $$
   X \stackrel{\simeq}{\to} \hat X \to \gt *
   \,.
 $$
 
-A **cofibrant resolution** of $X$ is a cofibrant object $\hat X$ equipped with a weak equivalence out of it
+If the weak equivalence is also a cofibration the fibrant resolution is a *good fibrant resolution*. 
+
+A **cofibrant resolution** (or *cofibrant approximation*) of $X$ is a cofibrant object $\hat X$ equipped with a weak equivalence out of it
 
 $$
-  \emptyset \hookrightarow \hat X \stackrel{\simeq}{\to} X
+  \emptyset \hookrightarrow \hat X \stackrel{\simeq}{\to} X
   \,.
 $$
+If the weak equivalence is also a fibration the cofibrant resolution is a *good cofibrant resolution*. 
 
-Notice that the factorization axioms of a [[model category]] ensure that such resolutions always exist.
+Notice that the factorization axioms of a [[model category]] ensure that such resolutions always exist. 
 
 Of course for the notion of fibrant resolution to make sense, also the ambient structure of a [[category of fibrant objects]] works. For cofibrant resolutions a [[Waldhausen category]] does the job, etc.
 
