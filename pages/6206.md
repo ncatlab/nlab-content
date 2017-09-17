@@ -20,4 +20,8 @@ The analog of this for finite probability spaces is discussed in
 
 * Jan Maas, _Gradient flows of the entropy for finite Markov chains_ ([pdf](http://www.janmaas.org/papers/discrete.pdf))
 
+A comprehensive discussion of the corresponding gradient flows is in 
+
+* L. Ambrosio, N. Gigli, G. Savar6eacute; _Gradient flows in metric spaces and in the space of probability measures_ ([pdf](http://www.imati.cnr.it/~savare/research/optimal_transportation/Introduction.pdf))
+
 [[!redirects Wasserstein metrics]]
