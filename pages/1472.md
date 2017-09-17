@@ -493,7 +493,7 @@ This observation led Isham to propose a fundamental role of these presheaf topos
 
 This idea was further refined in 
 
-* [[Chris Heunen]], [[Nicolaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_
+* [[Chris Heunen]], [[Nicolaas Landsman]], [[Bas Spitters]], _A topos for algebraic quantum theory_ ([arXiv:0709.4364](http://arxiv.org/abs/0709.4364))
 
   **Abstract**
 
