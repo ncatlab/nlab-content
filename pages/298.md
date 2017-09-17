@@ -6,7 +6,7 @@
 
 #Idea#
 
-The usual definition of _vertex operator algebra_ is long and unenlightning. But due to work by Huang and Kong it is known now that vertex operator algebras are nothing but certain [[FQFT]]s:
+The usual definition of _vertex operator algebra_ is long and unenlightning. But due to work by Huang and Kong it is known now that vertex operator algebras are nothing but certain [[FQFT]]s (see also [[CFT]]):
 
 There is a [[monoidal category]] or [[operad]] whose [[morphism|morphisms]] are conformal spheres with $n$-punctures marked as incoming and one puncture marked as outgoing (each puncture equipped with a conformally parametrized annular neighborhood). Composition of such spheres is by gluing along puctures. This can be regarded as a category $2Cob_{conf}^0$ of 2-dimensional genus-0 conformal [[cobordism|cobordisms]].
 
@@ -33,3 +33,9 @@ As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTp
 More recently Huang's student Liang Kong has been developing these results further, generalizing them to open-closed CFTs and to non-chiral, i.e. completely general CFTs. See 
 
 * Liang Kong, _Open-closed field algebras_ Commun. Math. Physics. 280, 207-261 (2008) ([arXiv](http://arxiv.org/abs/math/0610293)).
+
+See also:
+
+* Edward Frenkel, David Ben-Zvi: _Vertex algebras and algebraic curves_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1106.17035&format=complete))
+
+* Victor Kac: _Vertex algebras for beginners_ ([ZMATH entry](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0924.17023&format=complete))
