@@ -41,7 +41,7 @@ $$
   Z : Bord_n^{Def} \to \mathcal{C}
 $$
 
-a TQFT _with defects_. A general formalization is in ([Lurie, section 4.3](#Lurie)), see also ([Davydov-Runkel-Kong](#DavydovRunkelKong)).
+a TQFT _with defects_. A general formalization is in ([Lurie, section 4.3](#Lurie)), ee at _[Cobordism theorem -- For cobordisms with singuarities (boundaries/branes and defects/domain walls)](cobordism+hypothesis#ForCobordismsWithSingularities)_. See also ([Davydov-Runkel-Kong](#DavydovRunkelKong)).
 
 Such a morphism carries data as follows:
 
