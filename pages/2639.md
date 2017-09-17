@@ -104,6 +104,8 @@ $$
 
 and hence in particular an isomorphism in cohomology.
 
+By following through these maps one can obtain an explicit description of the quasi isomorphism if needs be.
+
 
 ## References
 
