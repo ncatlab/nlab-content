@@ -106,7 +106,7 @@ the following are equivalent:
 
 =--
 
-This is due to [[Gabriel-Zisman]].
+This is due to [[Gabriel-Zisman]], (proposition 1.3, page 7).
 
 This is a well-known set of equivalences concerning [[idempotent monads]]. The essential point is that a reflective subcategory $i: B \to A$ is [[monadic functor|monadic]], i.e., realizes $B$ as the category of algebras for the monad $i r$ on $A$, where $r: A \to B$ is the reflector. 
 
