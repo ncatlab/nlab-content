@@ -29,7 +29,7 @@ $$
  \,.
 $$
 
-As a variable of two arguments, this is actually a _[[Jacobi form]]. See there for more and see at _[[theta function]]_ for the general idea.
+As a variable of two arguments, this is actually a _[[Jacobi form]]_. These are the local coordinate expressions of the the covariantly constants sections of the [[Hitchin connection]] (for [[circle group]] [[gauge group]]) on the [[moduli space of elliptic curves]] ([Hitchin 90, remark 4.12](#Hitchin90)). See there for more and see at _[[theta function]]_ for the general idea.
 
 At $z =0$ the function
 
@@ -99,6 +99,8 @@ See e.g. ([Karlsson](#Karlsson)).
 
 * {#Karlsson} Anders Karlsson, _Applications of heat kernels on abelian groups: $\zeta(2n)$, quadratic reciprocity, Bessel integrals_  ([psd](http://www.math.kth.se/~akarl/langmemorial.pdf))
 
+* {#Hitchin90} [[Nigel Hitchin]], _Flat connections and geometric quantization_, : Comm. Math. Phys. Volume 131, Number 2 (1990), 347-380. ([Euclid](http://projecteuclid.org/euclid.cmp/1104200841))
+ 
 
 [[!redirects Jacobi theta functions]]
 
