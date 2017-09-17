@@ -201,14 +201,7 @@ $$
 & \text{modular law}
 \end{aligned}
 $$
-and we are back to where we started.  In the fourth-last step we used the fact that if $p_1, p_2 \colon Z \times Z \to Z$ are the projections, then $p_1 \cap p_2 = \Delta^o$.  It suffices to show that $\Delta \dashv p_1 \cap p_2$; the unit inequality is actually an equality (since $\Delta$ is always monic):
-$$ (p_1 \cap p_2) \Delta = p_1\Delta \cap p_2\Delta = id \cap id = id $$
-while
-$$ \Delta (p_1 \cap p_2) = \Delta p_1 \cap \Delta p_2$$
-since $\Delta^o \Delta \leq 1$.  By the modular law we have
-$$ \Delta p_1 \cap \Delta p_2 \leq p_1(\Delta \cap \Delta p_2 p_1^o)  $$
-But $p_2 p_1^o = \top_{Z,Z}$, and $\Delta \top_{Z,Z} \leq \top_{Z,Z\times Z}$, so we get
-$$ p_1(\Delta \cap \Delta p_2 p_1^o) \leq p_1(\Delta \cap \top_{Z,Z\times Z}) = p_1 \Delta = id $$
+and we are back to where we started.  In the fourth-last step we used the fact that if $p_1, p_2 \colon Z \times Z \to Z$ are the projections, then $p_1 \cap p_2 = \Delta^o$.  But $\Delta = \langle id, id \rangle$, and from lemma 1 [[finnlawler:allegory|here]] we have that $\langle id, id \rangle = p_1^o \cap p_2^o$.
 =--
 
 ## Related entries
