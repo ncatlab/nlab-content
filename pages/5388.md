@@ -15,7 +15,9 @@
 
 ## Definition
 
-The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form]] of signature $(-+++\cdots)$, $O(n,1)$.  In special relativity it acts as the group of symmetries of [[Minkowski spacetime]] preserving a chosen basepoint.
+The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form]] of [[signature of a quadratic form|signature]] $(-+++\cdots)$, $O(n,1)$.  
+
+In [[physics]] the [[theory (physics)|theory]] of _[[special relativity]]_ the Lorentz group [[action|acts]] canonically as the group of linear [[isometries]] of [[Minkowski spacetime]] preserving a chosen basepoint. This is called the action by _Lorentz transformations_.
 
 ## Related concepts
 
@@ -23,3 +25,6 @@ The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form
 * quantum group version: [[quantum Lorentz group]]
 
 [[!include table of orthogonal groups and related]] 
+
+[[!redirects Lorentz transformation]]
+[[!redirects Lorentz transformations]]
