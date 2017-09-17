@@ -30,7 +30,7 @@ Likewise, there is a standard toplogical $n$-simplex, which is (more or less by 
 ### Topological simplex
  {#TopologicalSimplex}
 
-The _topological $n$-simplex_ $\Delta^n$ is a generalization of the standard filled _triangle_ in the plane, from [[dimension]] 2 to arbitrary. Each $\Delta^n$ is [[homeomorphism|homeomorphic]] to the closed $n$-[[ball]] $D^n$, but its defining [[embedding]] into a [[Cartesian space]] equips its [[boundary]] with its cellular decomposition into _faces_, generalizing the way that the triangle has three edges (which are 1-simplices) as faces, and three points (which are 0-simplices) as corners.
+The _topological $n$-simplex_ $\Delta^n$ is a generalization of the standard filled _[[triangle]]_ in the plane, from [[dimension]] 2 to arbitrary. Each $\Delta^n$ is [[homeomorphism|homeomorphic]] to the closed $n$-[[ball]] $D^n$, but its defining [[embedding]] into a [[Cartesian space]] equips its [[boundary]] with its cellular decomposition into _faces_, generalizing the way that the triangle has three edges (which are 1-simplices) as faces, and three points (which are 0-simplices) as corners.
 
 The topological $n$-simplex is naturally defined as a subspace of a
 [[Cartesian space]] given by some relation on its canonical 
@@ -325,7 +325,10 @@ The [[orientals]] related simplices to [[globes]].
 
 ## Related concepts
 
+
 * [[vertex]], [[edge]]
+
+* [[triangle]], [[tetrahedron]]
 
 * [[horn]], [[boundary of a simplex]], [[spine]]
 
