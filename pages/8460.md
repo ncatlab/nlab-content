@@ -1,0 +1,11 @@
+
+## References
+
+* Wikipedia, _[Frobenius manifold](http://en.wikipedia.org/wiki/Frobenius_manifold)_
+
+[[!redirects Frobenius manifolds]]
+
+---
+See Manin book in Quantum stuff folder
+
+nLab page on [[nlab:Frobenius manifold]]
