@@ -39,7 +39,9 @@ $$
   \,.
 $$
 
-### Homotopy fixed points and $KR$-theory
+### Relation between $KU$, $KO$ and  $KR$-
+
+#### $KO$ as homotopy-fixed points of $KU$
 
 [[complex conjugation|Complex conjugation]] on [[complex vector bundles]] induces on the [[complex K-theory]] [[spectrum]] $KU$ an [[involution|involutive]] [[automorphism]]. [[KR-theory]] is the corresponding $\mathbb{Z}_2$-[[equivariant cohomology]] theory. 
 
@@ -51,7 +53,13 @@ $$
 
 and this way where in complex K-theory one has [[KU]]-[[modules]] ([[∞-modules]]), so in KR-theory one has $KO$-modules.
 
+#### Wood's theorem
 
+$$
+  KO \wedge \Sigma^{-2}\mathbb{CP}^2 \simeq KU
+$$
+
+a proof in terms of [[moduli stacks]] is given in [Mathew 13, section 3](#Mathew13)
 
 
 
@@ -66,6 +74,18 @@ and this way where in complex K-theory one has [[KU]]-[[modules]] ([[∞-modules
 * [[KO-theory]]
 
 [[!include string theory and cohomology theory -- table]]
+
+
+## References
+
+Discussion of $KO$ in analogy to the construction of [[tmf]] is in 
+
+* {#Mathew13} [[Akhil Mathew]], _The homology of $tmf$_ ([arXiv:1305.6100](http://arxiv.org/abs/1305.6100))
+
+with a summary in 
+
+* [[Akhil Mathew]], _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
+
 
 
 [[!redirects KU]]
