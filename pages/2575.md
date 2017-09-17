@@ -823,6 +823,7 @@ More discussion of this is in
 The role of the [[metaplectic correction]] is studied in some detail in 
 
 * Peter Scheinost, [[Martin Schottenloher]], _Metaplectic quantization of the moduli spaces of flat and parabolic bundles_, J. reine angew. Mathematik, 466 (1996) ([web](https://eudml.org/doc/153753))
+ {#ScheinostSchottenloher96}
 
 Decent expositions are for instance in 
 
