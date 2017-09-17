@@ -117,7 +117,7 @@ a classification of [[fibration]]s of [[CW-complex]]es with given CW-complex fib
 
 A generalization of this is in
 
-* [[Peter May]], _Classifying Spaces and Fibrations_ Mem. Amer. Math. Soc. 155 (1975)
+* [[Peter May]], _Classifying Spaces and Fibrations_ Mem. Amer. Math. Soc. 155 (1975) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/Classifying.pdf))
 {#May}
 
 Consideration of associated $\infty$-bundles / [[fiber sequence]]s in general [[(∞,1)-topos]]es is more recent. 
