@@ -5,12 +5,18 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
 #### Foundations
 +-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
 =--
+
+
 
 # Contents
 * table of contents
