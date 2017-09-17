@@ -32,7 +32,7 @@ The idea, that "space" is fundamentally to be interpreted in the sense of [[spac
 
 In fact, in the context of "$\infty$-space" there is a subtle confusion of terms (possible) here, which deserves to be carefully sorted out:
 
-In [[higher category theory]] [[topological space]]s $X$ are often, via the [[homotopy hypothesis]], effectively _identified_ with their [[fundamental ∞-groupoid]]s $\Pi(X)$. The [[∞-groupoid]] $\Pi(X)$ -- as an $\infty$-groupoid [[internalization|internal to]] [[Set]] -- is really a _dicrete_ $\infty$-space in the above sense, namely an $\infty$-groupoid in the category of presheaves on the point.
+In [[higher category theory]] [[topological space]]s $X$ are often, via the [[homotopy hypothesis]], effectively _identified_ with their [[fundamental ∞-groupoid]]s $\Pi(X)$. The [[∞-groupoid]] $\Pi(X)$ -- as an $\infty$-groupoid [[internalization|internal to]] [[Set]] -- is really a _discrete_ $\infty$-space in the above sense, namely an $\infty$-groupoid in the category of presheaves on the point.
 
 
 # $\infty$-Quantities #
@@ -44,7 +44,7 @@ Following the [[duality]] of [[space and quantity]], the concept dual to $\infty
 
 One place where the conceptual usefulness of interpreting categories internal to [[smooth space]]s as smooth **2-spaces** (and de-emphasizing conceptually their _realization_ as simplicial sheaves) has been particularly amplified is the work
 
-* [[Toby Bartels]], _2-Bundles_ ([web](http://toby.bartels.name/2bundles/)) 
+* [[Toby Bartels]], _2-Bundles_ ([web](http://tobybartels.name/2bundles/)) 
 
 
 [[!redirects ∞-space]]
