@@ -16,9 +16,9 @@
 
 ## Idea
 
-A **Courant algebroid** is a Lie-algebraic structure encoding a [[n-symplectic manifold|2-symplectic manifold]].
+A **Courant algebroid** -- or better: **Courant Lie 2-algebroid** -- is a Lie-algebraic structure encoding a [[n-symplectic manifold|2-symplectic manifold]].
 
-Various different incarnations of this data are considered in the literature. Following Roytenberg's analysis (see below) we may identify a Courant algebroid as a [[Lie infinity-algebroid|Lie 2-algebroid]] that generalizes the notion of [[Poisson Lie algebroid]] to one degree higher:
+Various different incarnations of this data are considered in the literature. Following ([Roytenberg](#RoytenbergStructure)) we may identify a Courant algebroid as a [[Lie infinity-algebroid|Lie 2-algebroid]] that generalizes the notion of [[Poisson Lie algebroid]] to one degree higher:
 
 on its defining [[Chevalley-Eilenberg algebra]] $CE(\Theta)$ exists a graded Poisson bracket $\{-,-\}$ of degree $-2$ and in it a degree 3 element $\Theta$ -- the higher analog of the [[Poisson Lie algebroid|Poisson bivector]] $\pi$ -- such that the differential on $CE(\theta)$ is
 
@@ -29,7 +29,7 @@ $$
 
 In the literature, this Lie 2-algebroid perspective on Courant algebroids is not usually considered. Instead, by the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is thought of as a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
 
-The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was studied by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
+The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was considered by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
 
 In these parts of the literature Courant algebroids are considered in the form of [[Lie algebroid]]s with relaxed axioms on the bracket. Even of this type there are two different definitions:
 
@@ -93,6 +93,7 @@ Such a standard Courant algebroid may be understood as the higher analog of the 
 A useful place to start reading about Courant algebroids with an emphasis on its Lie-2-algebroid nature (in [[NQ-supermanifold]]-language) is
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv:math/0203110](http://arxiv.org/abs/math/0203110))
+{#RoytenbergStructure}
 
 This proceeds from the perspective of [[n-symplectic manifold]]s and derives the fact that a 2-symplectic manifold encodes and is encoded by a Courant algebroid.
 The last section is about the [[standard Courant algebroid]].
