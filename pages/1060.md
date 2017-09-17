@@ -1,23 +1,33 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
 [[!include monoidal categories - contents]]
-</div>
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition ##
 
-A $*$-autonomous category \[1\] is a [[symmetric monoidal
+A _$*$-autonomous category_  is a [[symmetric monoidal
 category|symmetric]] [[closed monoidal category]] $\langle
-C,\otimes, I\rangle$ with a _dualizing object_: an object
+C,\otimes, I\rangle$ with a _[[dualizing object]]_: an object
 $\bot$ such that the canonical morphism
 $$ d_A: A \to (A \multimap \bot) \multimap \bot ,$$
-which is the transpose of the evaluation map
+which is the transpose of the [[evaluation map]]
 $$ ev_{A,\bot}: (A \multimap \bot) \otimes A \to \bot ,$$
-is an
-isomorphism for all $A$.  (Here, $\multimap$ denotes the [[internal hom]].)
+is an [[isomorphism]] for all $A$.  (Here, $\multimap$ denotes the [[internal hom]].)
 
 Define a functor $(-)^*=(-)\multimap\bot$.  The map $d_A$
 is natural in $A$, so that there is a natural isomorphism
@@ -33,7 +43,13 @@ $$\begin{aligned}
 
 The functor $(-)^*$, together with these two isomorphisms,
 can be taken as an alternative definition of a
-$*$-autonomous category.  The dualizing object $\bot$ is then defined as $I^*$.
+$*$-autonomous category.  The [[dualizing object]] $\bot$ is then defined as $I^*$.
+
+## Properties
+
+### Internal logic
+
+The [[internal logic]] of star-autonomous categories is [[classical linear logic]], conversely star-autonomous categories are the [[categorical semantics]] of [[classical linear logic]] ([Seely 89, prop. 1.5](#Seely89)). See also at _[[relation between type theory and category theory]]_.
 
 ## Examples ##
 
@@ -51,7 +67,7 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * In a similar vein, I am told that there is a $*$-autonomous category of [[quadratic operad]]s. 
 
-* Girard's [[coherence space]]s, developed as models of [[linear logic]], give an historically important example of a $*$-autonomous category. 
+* Girard's [[coherence spaces]], developed as models of [[linear logic]], give an historically important example of a $*$-autonomous category. 
 
 * Hyland and Ong have given a completeness theorem for multiplicative linear logic in terms of a $*$-autonomous category of _fair games_, part of a series of work on game semantics for closed category theory (compare Joyal's interpretation of Conway games as forming a compact closed category). 
 
@@ -60,11 +76,20 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 ## References ##
 
-* Barr, Michael, _$*$-Autonomous Categories_. LNM 752,
-   Springer-Verlag 1979.
+The notion is originally due to
 
-More references to come...
+* [[Michael Barr]], _$*$-Autonomous Categories_. LNM 752, Springer-Verlag 1979.
 
+The relation to [[linear logic]] was described in 
+
+*  [[R. A. G. Seely]],  _Linear logic, $\ast$-autonomous categories and cofree coalgebras_, _Contemporary Mathematics_ 92, 1989.  ([[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz))
+ {#Seely89}
+
+
+
+[[!redirects star-autonomous categories]]
 
 [[!redirects *-autonomous category]]
 [[!redirects *-autonomous categories]]
+
+
