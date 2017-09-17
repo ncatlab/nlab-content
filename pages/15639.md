@@ -1,0 +1,38 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The fundamental example of [[theta functions]].
+
+$$
+  \vartheta(z,\tau)
+  =
+  \underoverset{n = - \infty}{\infty}{\sum}
+   \exp(\pi i n^2 \tau + 2\pi i n z)
+$$
+
+## Properties
+
+### Relation to Riemann zeta-function
+
+See at _[Riemann zeta function -- Relation to Jacobi theta function](http://ncatlab.org/nlab/show/Riemann+zeta+function#RelationToThetaFunctions)_
+
+## Related concepts
+
+* [[Jacobi form]]
+
+* [[Poisson summation formula]], [[functional equation]]
+
+## References
+
+* Wikipedia, _[Jacobi theta-function](http://en.wikipedia.org/wiki/Theta_function#Jacobi_theta_function)_
+
+* section 9 in _Analytic theory of modular forms_ ([pdf](http://www.math.harvard.edu/~jbland/ma259x_notes.pdf))
+
+[[!redirects Jacobi theta functions]]
+
+[[!redirects Jacobi theta-function]]
+[[!redirects Jacobi theta-functions]]
