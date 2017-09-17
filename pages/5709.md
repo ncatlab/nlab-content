@@ -104,6 +104,13 @@ Based on this fact, one obtains an effective approximation to a given more funda
 
 (...)
 
+### Neutrino masses (?)
+
+On [[neutrino]] [[masses]] and the [[standard model of particle physics]] as an effective field theory:
+
+> I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. ([Weinberg 09, p. 15](#Weinberg09))
+
+
 ### String theory and gravity coupled to gauge theory
  {#StringTheoryAndGravityCoupledToGaugeTheory}
 
@@ -132,6 +139,11 @@ The modern picture of effective low-energy QFT goes back to
 
 * H. Leutwyler, Ann. Phys., NY 235 (1994) 165.
   {#Leutwyler94}
+
+A review is in 
+
+* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+ {#Weinberg09}
 
 A brief introduction aimed at mathematicians is in 
 
