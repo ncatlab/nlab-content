@@ -36,7 +36,7 @@ In some situations stacks of M2-branes are accurately described by [[ABJM theory
 
 * [[string theory]]
 
-* [[sigma model]], [[brane]]
+[[!include table of branes]]
 
 ## References
 
