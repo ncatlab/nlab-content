@@ -5,3 +5,6 @@
 category: people
 
 [[!redirects V. Hinich]]
+
+[[!redirects Hinich]]
+
