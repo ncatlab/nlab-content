@@ -17,7 +17,14 @@ If one pictures a morphism as a family over its [[codomain]], then for many purp
 
 A morphism $f:X\to Y$ of [[schemes]] is **flat** if the induced map on [[stalks]] is a flat morphism of (commutative unital) rings. 
 
-A morphism of schemes is **faithfully flat** if it is flat and [[epimorphism|epi]].
+A morphism of schemes is **faithfully flat** if it is flat and [[epimorphism|epi]]. 
+
+A morphism of [[affine schemes]] $Spec(B) \to Spec(A)$, hence coming from a [[ring]] [[homomorphism]] $f \colon A \to B$
+
+* flat precisely if $f$ exhibits $B$ as a [[flat module]] over $A$;
+
+* faithfully flat if $f$ exhibits $B$ as a [[faithfully flat module]] over $A$.
+
 
 ## Flat topologies
 
