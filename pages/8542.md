@@ -47,7 +47,7 @@ $$
   \vdash (\psi \to \phi)
 $$
 
-may be [[deduction|deduced]].
+may be [[deduction|deduced]]; the converse is the rule of [[modus ponens]].  (Actually, both the deduction theorem and modus ponens are slightly more general, being relativized to an arbitrary [[context]], but we needn\'t get into that here.)
 
 
 ## Examples
