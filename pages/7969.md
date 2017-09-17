@@ -50,6 +50,9 @@ Theta functions are naturally thought of as being the [[space of states (in geom
 
 * [[mock theta function]]
 
+[[!include square roots of line bundles - table]]
+
+
 ## References
 
 Introductions to the traditional notion include
