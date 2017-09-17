@@ -15,7 +15,7 @@
 
 ## Definition
 
-Given a [[signature (in logic)]] $\Sigma$, a **sequent** over $\Sigma$ is a formal expresssion of the form
+Given a [[signature (in logic)]] $\Sigma$, a **[[sequent]]** over $\Sigma$ is a formal expresssion of the form
 
 $$
   \phi \vdash_{\vec x} \psi
@@ -137,5 +137,3 @@ provides a good summary.
 
 
 [[!redirects sequent calculus]]
-[[!redirects sequent]]
-[[!redirects sequents]]
