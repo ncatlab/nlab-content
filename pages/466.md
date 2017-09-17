@@ -9,6 +9,8 @@
 
 ## Idea
 
+The **Yoneda lemma** says that the [[set]] of [[morphisms]] from a [[representable presheaf]] $h_c$ into an arbitrary [[presheaf]] $F$ is in natural bijection with the set $F(c)$ assigned by $F$ to the representing [[object]] $c$.
+
 The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]], [[universal construction]], and [[universal element]]. 
 
 In brief, the principle is that the [[identity]] morphism $id_x: x \to x$ is the universal [[generalized element]] of $x$. This simple principle is surprisingly pervasive throughout category theory. 
@@ -61,7 +63,7 @@ $$
 This is _natural_ in $c$ and $X$, i.e. there is in fact an [[isomorphism]] in the [[functor category]] $[C^{op} \times [C^{op},Set],Set]$ between the left and the right side.
 
 
-### Proof
+### Proof {#Proof}
 
 The crucial point is that the naturality condition on any [[natural transformation]] $\eta : C(-,c) \Rightarrow X$ is sufficient to ensure that $\eta$ is already entirely fixed by the value $\eta_c(Id_c) \in F(c)$ of its component $\eta_c : C(c,c) \to X(c)$ on the [[identity morphism]] $Id_c$.
 And every such value extends to a natural transformation $\eta$.
