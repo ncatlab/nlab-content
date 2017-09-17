@@ -1,3 +1,4 @@
+
 # Decidable propositions
 * table of contents
 {: toc}
@@ -10,7 +11,8 @@ A [[proposition]] is decidable if we know whether it is [[true]] or [[false]].  
 
 * [Internal decidability](#InternalDecidability): $p \vee \not p$ may be deduced in the theory; in other words "$p$ or not $p$" holds in the [[object language]].
 
-### Externally decidable propositions in logic
+
+## Externally decidable propositions in logic
  {#ExternalDecidability}
 
 In [[logic]], a [[proposition]] $p$ in a given [[theory]] (or in a given [[context]] of a given theory) is __externally decidable__ if there is in that theory (or in that context) a [[proof]] of $p$ or a refutation of $p$ (a proof of the [[negation]] $\neg{p}$).  Of course, this only makes sense if the logic of the theory includes an operation of [[negation]].
@@ -20,7 +22,7 @@ Any statement that can be proved or refuted is decidable, and one might hope for
 For example, the [[continuum hypothesis]] is undecidable in [[ZFC]], assuming that $ZFC$ is consistent at all.
 
 
-### Internally decidable propositions in constructive mathematics
+## Internally decidable propositions in constructive mathematics
  {#InternalDecidability}
 
 In [[constructive mathematics]], a [[proposition]] $p$ is __internally decidable__ if the [[law of excluded middle]] applies to $p$; that is, if $p \vee \neg{p}$ holds.  Of course, in [[classical mathematics]], every statement is decidable in this sense.  Even in constructive mathematics, some statements are decidable and no statement is undecidable; that is, $\neg{(p \vee \neg{p})}$ is always false, but this is not enough to guarantee that $p \vee \neg{p}$ is true.
