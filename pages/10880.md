@@ -84,6 +84,22 @@ be an [[adjoint triple]] of [[functors]] between them. We call this setup
 ([May 05, def. 2.12](#May05))
 
 
++-- {: .num_defn }
+###### Definition (Notation)
+
+We write $[-,-]$ for the [[internal hom]] functors. For $A \in \mathcal{X}$ we write
+
+$$
+  \mathbb{D}A \coloneqq [A,1_X]
+$$
+
+for the [[internal hom]] from $A$ into the [[unit object]], hence for dual of $A$ with respect to the [[closed category]] structure, its [[dual object in a closed category]]. 
+
+We say "$A$ is dualizable" to mean that it is a [[dualizable object]] with respect, insead, to the (symmetric) [[monoidal category]] structure $\otimes_X$. If $A$ is dualizable we write $A^\vee$ for its monoidal [[dual object]].
+
+Similarly for $B \in \mathcal{Y}$.
+
+=--
 
 ## Properties
  {#Properties}
