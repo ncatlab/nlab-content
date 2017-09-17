@@ -1,4 +1,4 @@
 
-* [website](http://www2.math.uu.se/staff/pages/?uname=palmgren)
+* [website](http://www2.math.su.se/~palmgren/)
 
 category: people
