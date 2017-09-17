@@ -25,7 +25,7 @@ This is also the archetypical [[2-topos]].
 
 ## Definition
 
-To avoid set-theoretic problems related to Russell's paradox, it is typical to restrict $Cat$ to [[small category|small categories]].  But see [[CAT]] for alternatives.
+To avoid set-theoretic problems related to [[Russell's paradox]], it is typical to restrict $Cat$ to [[small category|small categories]].  But see [[CAT]] for alternatives.
 
 To be explicit, define **Cat** to be the category with:
 
