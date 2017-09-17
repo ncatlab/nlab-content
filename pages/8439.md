@@ -23,22 +23,88 @@
 
 ## Idea
 
-A _logical framework_ is a formal [[metalanguage]] for [[deductive systems]], such as [[natural deduction]], [[type theories]], [[sequent calculus]], etc. 
+A _logical framework_ is a formal [[metalanguage]] for [[deductive systems]], such as [[logic]], [[natural deduction]], [[type theories]], [[sequent calculus]], etc.  Of course, like any formal system, these systems can be described in any sufficiently stong metalanguage.  However, all logical systems of this type share certain distinguishing features, so it is helpful to have a particular metalanguage which is well-adapted to describing systems with those features.
+
+Much of the description below is taken from [(Harper)](#Harper).
+
+## Overview
+
+The sentences of a logical framework are called [[judgments]].  It turns out that in deductive systems, there are two kinds of non-basic forms that arise very commonly, which we may call
+
+* *hypothetical judgments*: one judgment is a logical consequence of some others.
+* *generic judgments*: a judgment that is made generally for all values of some parameters, each ranging over a "domain" or "syntactic category".
+
+These two forms turn out to have many parallel features, e.g. reflexivity and transitivity of hypothetical judgments correspond to variable-use and substitution in generic judgments.  Appealing to the [[propositions as types]] principle, therefore, it is convenient to describe a system in which they are actually both instances of the same thing.  That is, we identify the notion of *evidence for a judgment* with the notion of *object of a syntactic category*.
+
+This leads to a notion that we will call a [[type]].  Thus we will have types such as
+
+1. the type of evidence for some judgment
+1. the type of objects of a syntactic category
+1. [[dependent product types]] --- this turns out to be enough for everything we need
+
+There is a potential confusion of terminology, because these *types* in a logical framework (being itself a [[type theory]]) are distinct from the objects that may be called "types" in any particular logic we might be talking about *inside* the logical framework.  Thus, for instance, when formalizing [[Martin-Lof type theory]] in a logical framework, there is an "LF-type" which is the type of objects of the syntactic category of MLTT-types.  This is furthermore distinct from a [[type of types]], which is itself an object of the syntactic category of MLTT-types, i.e. a term belonging to the LF-type of such.
+
+Once we have set up the logical framework as a language, there are then two ways to describe a given logic inside of it.  See there, and the other references, for more details.
+
+### Synthetic presentations
+
+In a synthetic presentation, there is an LF-type for every judgment of the object theory.  Thus, if the object theory is a type theory, then in LF we have things like:
+
+* an LF-type $tp$ of object-theory types
+* an LF-type $tm$ of object-theory terms
+* a dependent LF-type $of : tm \to tp \to Type$, where Type denotes the LF-kind of LF-types.  That is, for each object-theory type $a$ and each object-theory type $A$, we have an LF-type $of(a,A)$ expressing the judgment "$a:A$" that $a$ is of type $A$.
+
+Note that we do not have to explicitly carry around an ambient context, as we sometimes do when presenting type theories in a more explicit style of a [[deductive system]].  This is because the notions of hypothetical and generic judgments are built into the logical framework and handled automatically by *its* contexts.
+
+Synthetic presentations are very flexible, but do not make maximal use of the framework in the case when the object-theory is also a type theory whose judgments are "analytic".
+
+### Analytic presentation
+
+An analytic presentation is only possible for certain kinds of object-theories, generally those which are type theories similar to LF itself.  In this case, we represent object-theory types by LF-types themselves.  Thus instead of the LF-type $tm$ of terms and the dependent LF-type $of$ above, we have
+
+* a dependent LF-type $el : tp \to Type$
+
+which assigns to each object-theory type, the LF-type of its elements.
+
+In an analytic presentation of a logic, in addition to merely giving "axioms" such as $tp$ and $el$, we must give *equations* representing the rules of the object-theory as equalities in the logical framework.  For instance, we must have a [[beta-reduction]] rule such as
+
+    app A B (lam A B F) M = F M
+
+This need to specify equations makes it more difficult to implement analytic presentations on a computer.  For instance, [[Twelf]] can only handle synthetic presentations.
+
+### Higher-order abstract syntax
+
+In both synthetic and analytic presentations, we use [[higher-order abstract syntax]] (HOAS).  Roughly, this means that *variables* in the object-theory are not terms of some LF-type, but are represented by actual LF-variables.  For instance, when describing a type theory containing [[function types]] synthetically, we would have
+
+* an LF-term $arr : tp \to tp \to tp$, where for object-theory types $A:tp$ and $B:tp$, the term $arr(A,B):tp$ represents their function-type
+* an LF-term $app : tm \to tm \to tm$, where $app(f,a)$ represents the function application $f(a)$
+* an LF-term $lam : (tm \to tm) \to tm$, representing lambda abstraction.
+
+The point is that the argument of $lam$ (the "body" of the lambda abstraction) is not a "term containing a free variable $x$" but rather an LF-function from object-theory terms to object-theory terms.  This is intended to be the function "substitute" which knows about the body of the lambda-abstraction, and when given an argument it substitutes it for the variable in that body and returns the result.
+
+This approach completely avoids dealing with the problems of variable binding and substitution in the object language, by making use of the binding and substitution in the metalanguage LF.  One might say that the variables in LF are the "universal notion of variable" which is merely reused by all object-theories.
+
+### The power of weak frameworks
+
+It may be tempting to think of the LF-types such as $tp$ and $tm$ as [[inductive type|inductively]] defined by their specified constructors (such as $arr$ for $tp$, and $app$ and $lam$ for $tm$).  However, this is incorrect; LF does not have inductive types.  In fact, this weakness is essential in order to guarantee "adequacy" of the HOAS encoding.
+
+Suppose, for instance, that $tm$ were inductively defined inside of LF.  Then we could define a function $tm\to tm$ by pattern-matching on the structure of $tm$, doing one thing if $tm$ were a lambda-abstraction and another thing if it were a function application.  But such a function is definitely *not* the sort of thing that we want to be able to pass to the LF-function $lam$!  By disallowing such matching, though, we can guarantee that the only functions $tm\to tm$ we can define and pass to $lam$ correspond to "substituting in a fixed term" as we intended.
+
+It's worth noting that this design choice essentially renders LF incapable of representing object-theory variables in any *other* way than with HOAS.  For ordinary usage of variables requires the ability to compare "variables" for equality and disequality, and since LF has no inductive types, we cannot define therein any type that could function as "variables" in this way.
 
 
-## Examples
+## Implementations
 
-For a list see at _[Specific logical Frameworks and Implementations](http://www.cs.cmu.edu/~fp/lfs-impl.html)_.
+One of the uses of a logical framework is that as a type theory itself, it can be implemented in a computer.  This provides a convenient system in which one can "program" the rules of any other specific type theory or logic which one wants to study.
 
-Historically, the first logical framework was [[Automath]].
+For a list of logical framework implementations, see _[Specific logical Frameworks and Implementations](http://www.cs.cmu.edu/~fp/lfs-impl.html)_.
+
+Historically, the first logical framework implementation was [[Automath]].
 The goal of the Automath project was to provide a tool for the
 formalization of mathematics without [[foundations|foundational]] prejudice.
 Many modern logical frameworks carry influences of this.
 
-Then inspired by the development of [[Martin-Löf dependent type theory]] was the [[Edinburgh Logical Framework]] (ELF).
-
-The [[logic]] and [[type theory]]-approaches were later combined in the [[Elf]] language. This gave rise to [[Twelf]].
-
+Then inspired by the development of [[Martin-Löf dependent type theory]] was the [[Edinburgh Logical Framework]] (ELF).  The [[logic]] and [[type theory]]-approaches were later combined in the [[Elf]] language. This gave rise to [[Twelf]].
 
 
 ## References
@@ -49,7 +115,10 @@ The [[logic]] and [[type theory]]-approaches were later combined in the [[Elf]] 
 
 * Randy Pollack, _Some recent logical frameworks_ (2010) ([pdf](http://homepages.inf.ed.ac.uk/rpollack/export/canonicalLF_talk.pdf))
 
-* [[UF-IAS-2012]], _[Logical frameworks](http://uf-ias-2012.wikispaces.com/Logical+Frameworks)_
+* [[UF-IAS-2012]], _[Logical frameworks](http://uf-ias-2012.wikispaces.com/Logical+Frameworks)_.
+
+* [[Bob Harper]], [Notes on logical frameworks](http://uf-ias-2012.wikispaces.com/file/view/lf.pdf)
+ {#Harper}
 
 [[!redirects logical frameworks]]
 
