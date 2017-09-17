@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
 A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]].  This a weakening of the concept of [[cartesian monoidal category]], which might seem like pointless [[centipede mathematics]] were it not for the existence of many interesting examples.  
 
 Some examples of semicartesian monoidal categories that are not cartesian include the following.
