@@ -29,7 +29,7 @@ A [[functor]] that preserves all finitely filtered colimits is called [[finitary
 
 ## Properties {#properties}
 
-One of the reasons filtered colimits are important is that in [[Set]], filtered colimits commute with finite limits (and in fact, the filtered colimits can be characterized as precisely those colimits that commute with all finite limits in $Set$).  
+One of the reasons filtered colimits are important is that in [[Set]], filtered colimits commute with [[finite limit]]s (and in fact, the filtered colimits can be characterized as precisely those colimits that commute with all [[finite limit]]s in $Set$).  
 
 For more on this see also [[limits and colimits by example]].
 
