@@ -372,7 +372,7 @@ $$
   pt_{\mathbf{B}G}^* : \mathbf{H}_{/\mathbf{B}G} \to \mathbf{H}
 $$
 
-is the [[inverse image]] of a [[etale geometric morphism]], hence is a [[cartesian closed functor]] (see the _[Examples](cartesian+closed+functor#Examples)_ there for details).
+is the [[inverse image]] of an [[etale geometric morphism]], hence is a [[cartesian closed functor]] (see the _[Examples](cartesian+closed+functor#Examples)_ there for details).
 Therefore it preserves [[exponential objects]]:
 
 $$
