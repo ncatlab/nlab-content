@@ -50,15 +50,15 @@ The implication from [Lawvere's definition](#LawvereDefinition) to Jacobs's is c
 
 The tautological example which is useful to see what the abstract [definition by Lawvere](#LawvereDefinition) axiomatizes is the following.
 
-Let $B = $[[Set]] be the category of sets and for $X$ a [[set]] a let $E_X$ be the [[poset]] of [[subsets]] of $X$, regarded as the [[propositions]] about elements in $X$. Then comprehension exists and is given by sending a subset of $X$ regarded as an object of $E_X$ (hence regarded as a proposition) to the same subset, but now regarded as a [[monomorphism]] in [[Set]] into $X$.
+Let $B = $[[Set]] be the category of sets and for $X$ a [[set]] let $E_X$ be the [[poset]] of [[subsets]] of $X$, regarded as the [[propositions]] about elements in $X$. Then comprehension exists and is given by sending a subset of $X$ regarded as an object of $E_X$ (hence regarded as a proposition) to the same subset, but now regarded as a [[monomorphism]] in [[Set]] into $X$.
 
 More generally, the same construction works for the posets of subobjects in any [[regular category]].
 
 ### Presheaves
 
-There is a functor $Cat_1^{op} \to CAT_1$, from the large 1-category of categories and functors to the 'very large' 1-category of large categories and functors, that sends a category $C$ to the category $[C^{op}, Set]$ of [[presheaves]] on $C$, and a functor $F \colon C \to D$ to the pullback functor $F^* \colon [D^{op}, Set] \to [C^{op}, Set]$.  These pullback functors have left and right adjoints given by [[Kan extension]].
+There is a functor $Cat_1^{op} \to CAT_1$, from the [[large category|large]] [[Cat|1-category of categories]] and functors to the '[[very large category|very large]]' 1-category of large categories and functors, that sends a category $C$ to the [[category of presheaves]] $[C^{op}, Set]$  on $C$, and a functor $F \colon C \to D$ to the pullback functor $F^* \colon [D^{op}, Set] \to [C^{op}, Set]$.  These pullback functors have left and right adjoints given by [[Kan extension]].
 
-[Lawvere](#LawvereDefinition) shows that this fibration has comprehension, with the extension of a presheaf given by its [[category of elements]] together with the canonical projection from this to the base category.
+[Lawvere 70](#Lawvere70) shows that this fibration has comprehension, with the extension of a presheaf given by its [[category of elements]] together with the canonical projection from this to the base category.
 
 
 ## References
@@ -73,5 +73,4 @@ There is a functor $Cat_1^{op} \to CAT_1$, from the large 1-category of categori
 
 [[!redirects comprehension scheme]]
 [[!redirects comprehension schemes]]
-
 
