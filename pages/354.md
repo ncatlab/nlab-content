@@ -129,9 +129,13 @@ See at _[[internal ∞-groupoid]]_ for more.
 +-- {: .num_remark}
 ###### Remark
 
-Some special cases of def. \ref{KanComplexes} have their own names:
+Some special cases of def. \ref{KanComplexes} go by their own terminology:
+
+* a Kan complex such that for every $k \gt n+1$ every $k$-[[boundary]] $\partial \Delta$ has a unique filler is called $(n+1)$-[[simplicial skeleton|coskeletal]];
 
 * a Kan complex that is $(n+1)$-[[coskeleton|coskeletal]] such that in addition the $(n+1)$-[[horns]] and $(n+2)$-[[horns]] have a unique filler are also called _[[hypergroupoid|n-hypergroupoids]]_.
+
+These $(n+1)$-coskeletal Kan complexes are models for [[n-groupoids]]/[[homotopy n-types]]/[[n-truncated object in an (infinity,1)-category|n-truncated]] [[∞-groupoids]].
 
 =--
 
@@ -535,7 +539,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], hence make the [[nerve]] $N(\mathcal{G}_\bullet)$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
+These collections of maps in def. \ref{NerveOfGroupoid} satisfy the [[simplicial identities]], hence make the [[nerve]] $\mathcal{G}_\bullet$ into a [[simplicial set]]. Moreover, this simplicial set is a Kan complex, where each [[horn]] has a _unique_ filler (extension to a [[simplex]]).
 
 =--
 
@@ -576,7 +580,7 @@ for the [[category]] of Kan complexes, which is the [[full subcategory]] of that
 +-- {: .num_remark }
 ###### Remark
 
-This means that for $X,Y \in KanCplx$ two Kan complexes, an element f \colon X \to Y$ in the [[hom-set]] $Hom_{KanCplx}(X,Y)$ is 
+This means that for $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, an element $f_\bullet \colon X_\bullet \to Y_\bullet$ in the [[hom-set]] $Hom_{KanCplx}(X_\bullet,Y_\bullet)$ is 
 
 * a sequences of [[functions]] $f_n \colon X_n \to Y_n$ for all $n \in \mathbb{N}$;
 
@@ -590,16 +594,16 @@ such that
 +-- {: .num_defn #MappingObjectOfKanComplexes}
 ###### Definition
 
-For $X,Y \in KanCplx$ two Kan complexes, their [[mapping space]]
+For $X_\bullet,Y_\bullet \in KanCplx$ two Kan complexes, their [[mapping space]]
 
 $$
-  Maps(X,Y) \in KanCplx
+  Maps(X_\bullet,Y_\bullet)_\bullet \in KanCplx
 $$
 
 is the [[simplicial set]] given by 
 
 $$
-  Maps(X,Y) \colon [k] \mapsto Hom_{sSet}(X \times \Delta^n, Y)
+  Maps(X_\bullet,Y_\bullet) \colon [k] \mapsto Hom_{sSet}(X_\bullet \times \Delta^n_\bullet, Y_\bullet)
   \,.
 $$
 
@@ -626,7 +630,7 @@ As such it is also common to write $Y^X$ for $Maps(X,Y)$, as well as $[X,Y]$. No
 Write 
 
 $$
-  I \coloneqq \{0 \stackrel{\simeq}{\to} 1\}
+  I_\bullet \coloneqq \{0 \stackrel{\simeq}{\to} 1\}
 $$
 
 for the Kan complex which is [[1-groupoid]] with two objects and one nontrivial morphism and its inverse between them. This comes with two inclusions
@@ -637,15 +641,16 @@ $$
 
 of its endpoints.
 
-Then for $X \in KanCplx$ any other Kan complex, the [[mapping space]]
-$[I,X]$ from def. \ref{MappingObjectOfKanComplexes} is the [[path space object]] of $X$. 
+Then for $X_\bullet \in KanCplx$ any other Kan complex, the [[mapping space]] $[I,X]_\bullet$ from def. \ref{MappingObjectOfKanComplexes} is the [[path space object]] of $X_\bullet$. 
 
 $$
-  X \stackrel{[i_0,X]}{\leftarrow} [I,X] \stackrel{[i_1,X]}{\to} X
+  X_\bullet \stackrel{[i_0,X_\bullet]}{\leftarrow} [I_\bullet,X_\bullet]_\bullet \stackrel{[i_1,X]}{\to} X_\bullet
   \,.
 $$
 
 =--
+
+A 1-cell in the mapping Kan complex $[X_\bullet, Y_\bullet]_\bullet$ is a [[homotopy]] between two morphisms of Kan complexes:
 
 +-- {: .num_defn }
 ###### Definition
@@ -662,13 +667,16 @@ $$
     \\
     & {}_{\mathllap{g_\bullet}}\searrow & \downarrow_{\mathrlap{[i_1, X_\bullet]_\bullet}}
     \\
-    &&  
+    &&  Y \bullet
   }
   \,.
 $$
 
 =--
 
+It follows that the category $KanCplx$ is naturally [[enriched category|enriched]] over itself. 
+
+We may write [[∞Grpd]] for $KanCplx$ regarded as a $KanCplx$-[[enriched category]], hence as fibrant [[sSet-enriched category]]. We write $X$ (without the subscript) for a Kan complex $X_\bullet$ regarded as an object of $\infty Grpd$.
 
 
 
