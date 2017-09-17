@@ -38,7 +38,9 @@ where
 
 * The functor $Flag$ sends a poset $P$ to the simplicial complex whose vertex set is $P$ and whose [[simplex|simplices]] are the underlying sets $\{x_0, \ldots, x_n\}$ of flags $x_0 \lt \ldots \lt x_n$.
 
-The composite $Flag \circ U$ is called the **subdivision** $Sd$; it is an endofunctor of $SimpComplex$.  Note that the vertices of $Sd(X)$ are the simplices of $X$.  We also have ${|Sd(X)|} \cong {|X|}$, where $|-|$ is the usual [[geometric realization]] of simplicial complexes.
+The composite $Flag \circ U$ is called the **subdivision** $Sd$; it is an endofunctor of $SimpComplex$.  A vertex of $Sd(X)$ is a simplex of $X$. 
+
+Let $\alpha_X : X \to Sd(X)$ be a morphism of simplicial complexes that sends a vertex $v$ of $X$ to the vertex $\{v\}$ of $Sd(X)$. Then ${|f|}: {|X|}\xrightarrow{\cong} {|Sd(X)|}$ is an isomorphism, where $|-|$ is the usual [[geometric realization]] of simplicial complexes. In terms of categories, $\alpha$ is a natural transformation from the identity to the endofunctor $Sd$ whose geometric realization is a natural isomorphism.
 
 This is what it looks like for $X$ the 2-simplex.
  
