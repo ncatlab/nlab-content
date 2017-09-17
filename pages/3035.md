@@ -101,6 +101,10 @@
 
 * [[nonabelian Lie algebra cohomology]]
 
+## Homotopy
+
+* [[homotopy groups of a Lie groupoid]]
+
 ## Related topics
 
 * [[∞-Chern-Weil theory]]
