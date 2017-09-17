@@ -21,3 +21,12 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 * [[G2-MSSM]]
 
+## References
+
+The original articles are
+
+* S. Dimopoulos and H. Georgi, Phys. Lett. B 117, 287
+(1982). 
+
+* [[Steven Weinberg]], Phys. Rev. D 26, 287 (1982)
+
