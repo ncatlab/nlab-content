@@ -139,13 +139,13 @@ This is not needed for anafunctors but is used to relate descent to bundles (and
 
 ### Homotopy-theoretic interpretation
 
-Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a [[weak equivalence]] but an acyclic fibration.  However, it appears that the folk model structure on Cat only exists (with its weak equivalences being the fully faithful and essentially surjective maps) under the assumption of some choice---though full AC is not needed, [[COSHEP]] suffices.
+Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[canonical model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a [[weak equivalence]] but an acyclic fibration.  However, it appears that the canonical model structure on Cat only exists (with its weak equivalences being the fully faithful and essentially surjective maps) under the assumption of some choice---though full AC is not needed, [[COSHEP]] suffices.
 
 More generally, it is proven in [EKV](#EKV) that if $S$ has a Grothendieck coverage, then under suitable additional conditions on $S$ (and, of course, the axiom of choice assumed external to $S$), there is a [[model category|model structure]] on the category $Cat(S)$ of internal categories in $S$ relative to that coverage.  The internal anafunctors relative to the given coverage, as defined above, can then once again be identified with the spans whose first leg is an acyclic fibration.
 
-Since all objects in the folk model structure on Cat are fibrant, according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization, i.e. they represent all morphisms in the [[homotopy category]] $Ho(Cat)$.
+Since all objects in the canonical model structure on Cat are fibrant, according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization, i.e. they represent all morphisms in the [[homotopy category]] $Ho(Cat)$.
 
-If we specialize to groupoids, with their folk model structure by Brown-Golasinski, then by the general idea of [[homotopical cohomology theory]]
+If we specialize to groupoids, with their canonical model structure by Brown-Golasinski, then by the general idea of [[homotopical cohomology theory]]
 this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent|codescent]] such homotopical cocycles are related to [[descent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
 
 
@@ -164,7 +164,7 @@ In Makkai's paper referenced below, he proves that $Ana(C,D)$ is small under the
 
 ### Higher versions 
 
-Since the [[folk model structure]] on $Cat$ extends to $\omega$-[[strict omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, strict $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding $\omega$-[[schreiber:omega-anafunctors|anafunctors] between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
+Since the [[canonical model structure]] on $Cat$ extends to $\omega$-[[strict omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, strict $\omega$-groupoids are fibrant with respect to the [[canonical model structure]], so that the corresponding $\omega$-[[schreiber:omega-anafunctors|anafunctors] between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
 
 More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. See [[schreiber:omega-anafunctor]].
 
