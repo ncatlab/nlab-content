@@ -79,6 +79,8 @@ recalled e.g. as [Ravenel, theorem 1.4.2](#Ravenel)
 
 * [[Morava E-theory]]
 
+* [[BPR-theory]]
+
 ## References
 
 The original article is
@@ -108,3 +110,6 @@ The truncated version is discussed in
 [[!redirects Brown-Peterson theories]]
 
 [[!redirects BP]]
+
+[[!redirects BP-spectrum]]
+[[!redirects BP spectrum]]
