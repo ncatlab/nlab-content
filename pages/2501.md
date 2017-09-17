@@ -13,19 +13,19 @@
 * table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 Ordinary [[classical mechanics]] of point particles may be regarded as the theory of [[action functional]]s on [[mapping space]]s of maps from the real line to some space.
 
 In _classical [[field theory]]_ one instead studies functionals on [[mapping space]]s on higher dimensional domains.
 
 
-## classical gauge theory ##
+### Classical gauge theory ##
 
 Of particular interest are classical field theories that are [[gauge theory|gauge theories]]. A powerful formalism for handling these is provided by [[BV theory]], which effectively realizes spaces of classical fields as [[Lie infinity-algebroid|∞-Lie algebroid]]s. BV-formalism can be understood as a means to capture a classical gauge field theory in such a way that it lends itself to [[quantization]]. (See below)
 
 
-## examples ##
+## Examples 
 
 Important examples of classical field theories are
 
@@ -33,25 +33,15 @@ Important examples of classical field theories are
 
 * [[gravity]], [[supergravity]]
 
-+--{: .query}
-[[Ian Durham]]: I've never heard of supergravity as being considered a _classical_ theory before.  Isn't the spin structure it is imbued with inherently quantum mechanical in nature?  I've never even seen it in anything other than a quantum field theory book (i.e. I've never seen it in a GR or GR-related book)?
 
-Zoran: criterium on which book is irrelevant. It is easy to see in any treatment, that one has a classical version first and then quantization. 
-
-[[Tim van Beek]]: There may be some confusion because spin in physics is a quantum phenomenon, and "supertheories" try to unify the treatment of fermions and bosons, who are again pure quantum terms. But that does not imply that e.g. a spin structure on a manifold would be considered to be a "quantum structure": Take a smooth mainifold and put a bundle structure on it: That is still a "classical object" for mainstream physics. Same thing with supergravity. Both become "quantum objects" if you build a Hilbert space of states and turn your observables into operators on this space, for example (see [[geometric quantization]]).
-
-[[Ian Durham]]: Well, true, but in my personal experience it doesn't take on any physical meaning until it is quantized (in this case).  In other words, while I'm not necessarily disputing what you're saying, I'm saying it's a little misleading to list it under "classical field theory" without some accompanying caveat.
-
-Zoran: it is exactly one of the puproses of the nlab to have a viewpoint which is systematics and not impressionistic. It is very clear where to draw the picture between classical and quantum from the point of view of the theoretical framework and from the point of view of Planck constant. 
-If you had a physical system simulating ANY of these you would see its classical limit h->0 still with supersymmetry in field description. I do not understand what is "physics" here. Why would full picture be physics and the hi energy mod Planck constant ratio limit of its description would not ?? 
-
-[[Ian Durham]]: I've done some work in the area of emergence and it is not entirely clear that classical systems automatically appear as  h -> 0.  M.H. Partovi has recently discovered quantum behavior in macroscopic systems, for instance, so I strongly dispute the usual h -> 0 argument (as do some other people working on emergence).
-
-[[Tim van Beek]]: @Ian: Okay, I think I get your point now. What you write about emergence sounds interesting, I think I heard a bit about macroscopic quantum phenomena in (biological) cells. @Zoran: Up to now I always considered (classical) supergravity as a stepping stone to a quantum theory, but not as a valid theory on it's own. If I get your point, then there is a stronger interpretation that says that the theory makes sense as a classical theory describing fermionic and bosonic matter fields? It would be interesting to make this more precise - well, what I mean is: explain it in a way that even I can understand it - as I wrote before, I thought the very notion of "fermionic" lives in the quantum regime only and does not make any sense in classical physics.
-=--
-
-## quantizaton of classical field theory ##
+## Quantizaton of classical field theory
 
 When it was realized that fundamental physics is governed by [[quantum field theory]] it became clear that classical field theory of fundamental fields can only be an approximation to the corresponding [[quantum field theory]]. If we think of quantum field theory in terms of [[FQFT|functorial quantum field theory]], then the domains of the mapping spaces mentioned above are the [[cobordism]]s that this [[FQFT]] is a functor on. The [[quantization]] of classical field theories to [[quantum field theories]] is a major issue in theoretical and mathematical [[physics]] (see also [[renormalization]] and [[geometric quantization]]).
+
+## References
+
+A discussion of recursive solutions to classical field equations and their relation to the quantum [[perturbation theory]] is in
+
+* [[Robert Helling]], _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
 
 [[!redirects classical field theories]]
