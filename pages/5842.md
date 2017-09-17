@@ -55,3 +55,5 @@ Characterization: a morphism is formally unramified iff the module $\Omega_{Y/X}
 [[!redirects formally unramified morphisms]]
 
 [[!redirects formally unramified]]
+
+[[!redirects unramified]]
