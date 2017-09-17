@@ -151,6 +151,7 @@ and in section 10 of
 
 A review and applications to [[quantization]] of [[local prequantum field theory]] is in 
 
-* [[Joost Nuiten]], Master thesis, 2013
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_, master thesis, August 2013
+ {#Nuiten13}
 
 [[!redirects twisted Umkehr maps]]
