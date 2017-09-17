@@ -27,7 +27,7 @@ $$
   Sh_{(\infty,1)}(C)
 $$
 
-as descrived at [[function algebras on ∞-stacks]] Here $\mathcal{O}(X)$ is an $(\infty,1)$-algebra of functions on $X$.
+as described at [[function algebras on ∞-stacks]] Here $\mathcal{O}(X)$ is an $(\infty,1)$-algebra of functions on $X$.
 
 This entry describes for certain [[algebraic stacks]] an analog of this situation where the 1-algebras are replaced by 2-algebras in the form of commutative algebra objects in the [[2-category]] of [[abelian categories]]: abelian [[symmetric monoidal categories]], and where the function algebras $\mathcal{O}(X)$ are replaced with category $QC(X)$ of [[quasicoherent sheaves]].
 
