@@ -43,7 +43,7 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ suc
 
 5. The [[forgetful functor]] $C^T \to C$ (where $C^T$ is the [[Eilenberg-Moore category]] of $T$-algebras) is a [[full and faithful functor]].
 
-6. There exists a pair of [[adjoint functors]] $F\dashv U$ such that the induced monad $(FU, F\epsilon U)$ is isomorphic to $(T,\mu)$ and $U$ is a [[full and faithful functor]]. 
+6. There exists a pair of [[adjoint functors]] $F\dashv U$ such that the induced monad $(UF, U\epsilon F)$ is isomorphic to $(T,\mu)$ and $U$ is a [[full and faithful functor]]. 
 
 =--
 
