@@ -1,6 +1,20 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Where a [[vector]] specifies a _direction_ and a _magnitude_ , a _bivector_ specifies a _plane_ and a magnitude.
+
+## Definition
+
 For $V$ a [[vector space]], a _bivector_ in $V$ is an element $b \in \wedge^2 V$ of the second [[exterior power]]  of $V$.
 
 This is canonically identified with an element of degree 2 in the [[Grassmann algebra]] $\wedge^\bullet V$.
 
 If $V$ is equipped with a non-degenerate [[inner product]] then the space of bivectors is also canonically identified with a subspace of the [[Clifford algebra]] $Cl(V)$.
+
+## References
+
+* wikipedia, [bivector](http://en.wikipedia.org/wiki/Bivector)
