@@ -30,6 +30,8 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
 * [[Poisson sigma-model]]
 
+* [[WZW-model|WZW-term]]/[[B-field]]-coupling of the [[string]]
+
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
