@@ -72,6 +72,8 @@ There are various other variations, too.
 
 * [[technicolor]]
 
+* [[MSSM]]
+
 ## References
 
 For an $n$Lab dictionary (work in progress) of the language of mathematicians and physicists see:
