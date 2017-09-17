@@ -62,6 +62,92 @@ where $X$ and $Y$ are [[objects]] of $C$.  Supposing that $C$ admits [[cofibres]
 
 $\Sigma_C$ is [[left adjoint]] to the [[loop space functor]] $\Omega_C$.
 
+For $X$ a pointed object of a [[Grothendieck (∞,1)-topos]] ${\mathcal{H}}$, the suspension object $\Sigma X$ is homotopy equivalent to $B{\mathbb{Z}}\wedge X$, the smash product by the classifing space of the discrete group of integers.
+
+We outline a proof below. For $X$ a pointed object of a Grothendieck (∞,1)-topos ${\mathcal{H}}$, its _reduced free group_, denoted by $F[X]$, is the left adjoint to the functor $\Omega {\mathbf{B}}:Grp(\mathcal{H})\to \mathcal{H}_*$ which sends a [[groupoid object in an (∞,1)-category|group object internal]]  to ${\mathcal{H}}$ to the loop space of its delooping object.
+
++-- {: .num_prop #ConstructionOfFreeGroup}
+###### Proposition
+ For $X$ a pointed object of a Grothendieck (∞,1)-topos ${\mathcal{H}}$, there is a natural equivalence ${\mathbf{B}}F[X]\simeq \Sigma X$.
+ =--
+
++-- {: .proof}
+###### Proof
+This is due to the adjunction $(\Sigma \vdash \Omega):\mathcal{H}_*\leftrightarrows\mathcal{H}_*$ between suspending and looping and the the adjunction $(\Omega \vdash {\mathbf{B}}):PathConn(\mathcal{H}_*)\leftrightarrows Grp(\mathcal{H})$ between looping and delooping. Indeed, for any group object $H$, the above-mentioned adjunctions imply the following natural equivalences:
+$$
+  \begin{aligned}
+    Grp({\mathcal{H}})(\Omega \Sigma X, H)
+    &  \simeq
+    PathConn({\mathcal{H}}_*)(\Sigma X, {\mathbf{B}}H)
+    \\
+    & \simeq
+    PathConn({\mathcal{H}}_*)(X, \Omega{\mathbf{B}}H)
+    \,,
+  \end{aligned}
+$$
+Hence $\Omega \Sigma X$ has the universal property of the reduced free group. Delooping gives the required result.
+ =--
+
+The [[(∞,1)-category]] $Grp(\mathcal{H})$ of group objects internal ${\mathcal{H}}$ is tensored over ${\mathcal{H}}_*$; in particular, for $G$ a group object and $X$ a pointed object, we can form the tensor product $X\otimes G$, which is a group object. Explicitly, this tensor product is required to satisfy a homotopy equivalence $Grp({\mathcal{H}})(\Omega (X\otimes G, H)\simeq PathConn({\mathcal{H}}_*)(X, Grp({\mathcal{H}})(G, H))$, natural in group objects $H$.
+
++-- {: .num_prop #ConstructionOfTensorProduct}
+###### Proposition
+ For $X$ a pointed object and $G$ a group object of a Grothendieck (∞,1)-topos ${\mathcal{H}}$, there is a natural equivalence ${\mathbf{B}}(X\otimes G)\simeq X\wedge {\mathbf{B}}G$.
+ =--
+
++-- {: .proof}
+###### Proof
+This is due to the adjunction $(\Omega \vdash {\mathbf{B}}):PathConn(\mathcal{H}_*)\leftrightarrows Grp(\mathcal{H})$ between looping and delooping and the [[internal hom]] adjunction. Indeed, for any group object $H$, the above-mentioned adjunctions gives the following natural equivalences:
+$$
+  \begin{aligned}
+    Grp({\mathcal{H}})(\Omega (X\wedge {\mathbf{B}}G), H)
+    &  \simeq
+    PathConn({\mathcal{H}}_*)(X\wedge {\mathbf{B}}G, {\mathbf{B}}H)
+    \\
+    & \simeq
+    PathConn({\mathcal{H}}_*)(X, PathConn({\mathcal{H}}_*)({\mathbf{B}}G, {\mathbf{B}}H))
+    \\
+    & \simeq
+    PathConn({\mathcal{H}}_*)(X, Grp({\mathcal{H}})(G, H))
+    \,,
+  \end{aligned}
+$$
+Hence $\Omega (X\wedge {\mathbf{B}}G)$ has the universal property of the tensor product. Delooping gives the required result.
+=--
+
++-- {: .num_lemma #FreeGroupAsTensor}
+###### Lemma
+ For $X$ a pointed object of a Grothendieck (∞,1)-topos ${\mathcal{H}}$, there is a natural equivalence $F[X]\simeq X\otimes {\mathbb{Z}}$, where ${\mathbb{Z}}$ is the discrete group of integers. 
+ =--
+
++-- {: .proof}
+###### Proof
+Present, in the complete Segal style (see the definition at [[groupoid object in an (∞,1)-category]]), a group object as a simplicial object such that its object of 0-simplexes is contractible and which satisfies some coherence conditions. Then, for $H$ a group object, we have $Grp(\mathcal{H})({\mathbb{Z}},H) \simeq H_1 \simeq \Omega {\mathbf{B}} H$. Hence, there are the following natural equivalences:
+$$
+  \begin{aligned}
+    Grp({\mathcal{H}})(F[X], H)
+    &  \simeq
+    PathConn({\mathcal{H}}_*)(X, \Omega{\mathbf{B}}H)
+    \\
+    & \simeq
+    PathConn({\mathcal{H}}_*)(X, Grp({\mathbf{Z}}, H)
+    \,,
+  \end{aligned}
+$$
+Therefore $F[X]$ has the universal property of the tensor product $X\otimes {\mathbb{Z}}$. The required natural equivalence follows by abstract nonsense.
+=--
+
++-- {: .num_theorem #SuspendingAsSmashProd}
+###### Theorem
+ For $X$ a pointed object of a Grothendieck (∞,1)-topos ${\mathcal{H}}$, there is a natural equivalence $\Sigma X\simeq B{\mathbb{Z}}\wedge X$. 
+ =--
+
+
++-- {: .proof}
+###### Proof
+Deloop the natural equivalence in Lemma \ref{FreeGroupAsTensor} and apply propositions \ref{ConstructionOfFreeGroup} and \ref{ConstructionOfTensorProduct}.
+ =--
+
 ### As an ordinary functor
 
 Let $C$ be a [[category]] admitting small [[colimits]].  Let $\Phi$ be a [[graded monoid]] in the [[category]] of [[groups]] and $F : C \to C$ a $\Phi$-symmetric [[endofunctor]] of $C$ that commutes with small [[colimits]].  Let $Spect_F^{\Phi}(C)$ denote the [[category]] of $\Phi$-symmetric $F$-[[spectrum objects]] in $C$.
