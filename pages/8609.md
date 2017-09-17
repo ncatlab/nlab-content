@@ -41,7 +41,7 @@ between the corresponding [[slice categories]].
 The **dependent sum** or **dependent coproduct** along the morphism $f$ is the [[left adjoint]] $\sum_f \colon \mathcal{C}_{/A} \to \mathcal{C}_{/I}$ of the base change functor
 
 $$
-  (\sum_f \vdash f^* )
+  (\sum_f \dashv f^* )
   \colon
   \mathcal{C}_{/A}
    \stackrel{\overset{\sum_f}{\to}}{\underset{f^*}{\leftarrow}}
