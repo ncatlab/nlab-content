@@ -2,7 +2,10 @@
 
 Let $G$ be a [[connected]] [[semisimple]] [[algebraic group]] over the [[field]] of [[rational numbers]] $\mathbf{Q}$.  The **Tamagawa measure** of $G$ is a canonical normalization of the [[Haar measure]] on $G$.  (Recall that the latter is well-defined only up to scalar multiplication.)
 
-The **Tamagawa number** of $G$ is the Tamagawa measure of $G(\mathbf{Q})\backslash G(\mathbf{A})$, where $\mathbf{A}$ is the ring of [[adeles]].
+The **Tamagawa number** of $G$ is the Tamagawa measure of the [[quotient]] [[coset space]]$G(\mathbf{Q})\backslash G(\mathbf{A})$, where $\mathbf{A}$ is the ring of [[adeles]].
+
+A further [[stacky quotient]] of this quotient may be identified, under the [[function field analogy]], with an incarnation of the [[moduli stack of bundles|moduli stack of G-principal bundles]] over a [[curve]]. A relation of the Tamagawa numbers to the properties of this stack is the content of the [[Weil conjecture on Tamagawa numbers]].
+
 
 ## Related concepts
 
