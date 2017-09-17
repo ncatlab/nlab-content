@@ -21,7 +21,7 @@
 ## Idea
  {#Idea}
 
-What is commonly called _Noether's theorem_ or _Noether's first theorem_ is a [[theorem]] due to [[Emmy Noether]] ([Noether 1918](#Noether1918)) which makes precise and asserts that to every continuous [[symmetry]] of a [[Lagrangian]] [[physical system]] ([[prequantum field theory]]) corresponds equivalently a [[conservation law]] stating the conservation of a [[charge]] ([[conserved current]]). 
+What is commonly called _Noether's theorem_ or _Noether's first theorem_ is a [[theorem]] due to [[Emmy Noether]] ([Noether 1918](#Noether1918)) which makes precise and asserts that to every continuous [[symmetry]] of a [[Lagrangian]] [[physical system]] ([[prequantum field theory]]) corresponds equivalently a [[conservation law]] stating the conservation of a [[charge]] ([[conserved current]]) when the [[equations of motion]] hold. 
 
 For instance the [[time]]-translation invariance of a [[physical system]] equivalently means that the quantity of [[energy]] is conserved, and the [[spacetime|space]]-[[translation group|translation]] invariant of a physical system means that [[momentum]] is preserved.
 
@@ -166,6 +166,8 @@ $$
 ## Hamiltonian/symplectic version -- In terms of moment maps 
  {#HamiltonianNoetherTheorem}
 
+### In traditional symplectic geometry
+
 In [[symplectic geometry]] the analog of Noether's theorem is the statement that the [[moment map]] of a [[Hamiltonian action]] which preserbes a given time evolution is itself conserved by this time evolution.
 
 Souriau called this _the symplectic Noether theorem_, sometimes it is called the _Hamiltonian Noether theorem_. A review is for instance in ([Butterfield 06](#Butterfield06)).
@@ -205,6 +207,10 @@ $$
 
 On the right this is the term in the form in which the conserved quantity obtained from the Nother theorem is traditionally written
 (using that given a [[Lagrangian]] $L$ we have $p_i = \frac{\delta L}{\delta (\dot q^i)}$).
+
+### In higher symplectic geometry
+
+We discuss aspects of the Noether theorem in [[higher symplectic geometry]]/[[higher prequantum field theory]] (...)
 
 ## Related concepts
 
