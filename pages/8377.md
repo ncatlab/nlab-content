@@ -1,6 +1,7 @@
 
+## Idea
 
-An [[extensional type theory]] system.
+An [[extensional type theory]] [[proof management system]].
 
 ## References
 
