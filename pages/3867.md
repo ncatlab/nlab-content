@@ -26,5 +26,6 @@ But the map $s_t$ doesn't seem to work if there is a boundary circle involved. B
 
 So how does the map $s$ work?
 
+See also the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1099&page=1).
 
 category: reference
