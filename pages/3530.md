@@ -31,6 +31,17 @@ Let $X$ be a [[scheme]] overy a base $S$. The **[[crystalline site]]** $Cris(X/S
 
 If $S$ is of characteristic 0, then $Cris(X/S)$ coincides with the **infinitesimal site** of $X$. (...details...).
 
+## Properties
+
+### Relation to de Rham space
+
+Crystalline cohomology of $X$ is the [[cohomology]] of the [[de Rham space]]
+of $X$. See there for more. 
+
+### Relation to differential homotopy type theory
+
+In [[differential homotopy type theory]] the [[infinitesimal flat modality]]
+sends [[coefficients]] to coefficients for crystalline cohomology.
 
 ## References
 
