@@ -24,8 +24,8 @@ There is a canonical [[smooth structure]] on $\mathbb{R}^n$ that makes it a [[sm
 
 In particular:
 *  $\mathbb{R}^0$ is the [[point]],
-*  $\mathbb{R}^1$ is the real line itself,
-*  $\mathbb{R}^2$ is the real plane, which may be identified (in two canonical ways) with the [[complex number|complex plane]] $\mathbb{C}$.
+*  $\mathbb{R}^1$ is the [[real line]],
+*  $\mathbb{R}^2$ is the real [[plane]], which may be identified (in two canonical ways) with the [[complex number|complex plane]] $\mathbb{C}$.
 
 Sometimes one is interested in allowing $n$ to take other values, in which case one wants a [[product]] in some category that might not be the Cartesian product on underlying sets.
 
