@@ -32,8 +32,14 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 
 ## References
+ {#References}
+
+### General
 
 See the general references at [[supergravity]].
+
+### In terms of (exceptional) generalized complex geometry
+ {#InTermsOfGeneralizedComplexGeometryReferences}
 
 A relation to [[generalized complex geometry]] is discussed in
 
