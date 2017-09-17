@@ -161,6 +161,8 @@ For example the [[natural numbers object]] $\mathbf{N} \simeq \Delta \mathbb{N}$
 
 * [[adjoint cylinder]]
 
+* [[category of being]]
+
 [[!include cohesion - table]]
 
 ## References
