@@ -128,7 +128,7 @@ $$
 
 is an [[isomorphism]], where the horizontal function is that of def. \ref{SetNeutralElementsInEndoSemiMonoids}. 
 
-Moreover, if a semicategory lifts to a category, it does so in a unique way: the functor $U \colon SemiCat \to Cat$ is an [[injection]] on [[isomorphism classes]].
+Moreover, if a semicategory lifts to a category, it does so in a unique way: the functor $U \colon Cat \to SemiCat$ is an [[injection]] on [[isomorphism classes]].
  
 =--
 
