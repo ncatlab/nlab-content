@@ -1,11 +1,15 @@
 <div class="rightHandSide toc">
+[[!include Yoneda lemma - contents]]
+***
 [[!include 2-category theory - contents]]
 </div>
 
-* toc
+
+#Contents#
+* automatic table of contents goes here
 {:toc}
 
-# Statement
+## Statement
 
 The **Yoneda lemma for bicategories** is a version of the [[Yoneda lemma]] that applies to [[bicategories]], the most common algebraic sort of weak [[2-category]].  It says that for any bicategory $C$, any object $x\in C$, and any [[pseudofunctor]] $F\colon C^{op}\to Cat$, there is an equivalence of categories
 
@@ -15,19 +19,19 @@ which is pseudonatural in $x$ and $F$, and which is given by evaluation at $1_x$
 
 For bicategories $A$ and $B$, $[A,B]$ denotes the bicategory of [[pseudofunctors]], [[pseudonatural transformations]], and [[modifications]] from $A$ to $B$.  Note that it is a strict 2-category as soon as $B$ is.
 
-# Implications
+## Implications
 
 In particular, the Yoneda lemma for bicategories implies that there is a [[Yoneda embedding]] for bicategories $C\to [C^{op},Cat]$ which is [[2-fully-faithful functor|2-fully-faithful]], i.e. an equivalence on hom-categories.  Therefore, $C$ is [[equivalence|equivalent]] to a sub-bicategory of $[C^{op},Cat]$.  Since $Cat$ is a [[strict 2-category]], it follows that $C$ is equivalent to a strict 2-category, which is one form of the [[coherence theorem for bicategories]].  (Conversely, another form of the coherence theorem can be used to prove the Yoneda lemma; see below.)
 
-# Proof
+## Proof
 
 A detailed proof of the bicategorical Yoneda lemma seems to be hard to find in the liturature.  (Anyone have references to add?)
 
-## Explicit proof
+### Explicit proof
 
 An explicit proof, involving many diagrams, has been written up by [[Igor Bakovic]] and can be found [here](http://www.irb.hr/korisnici/ibakovic/yoneda.pdf).
 
-## High-technology proof
+### High-technology proof
 
 We will take it for granted that $[C^{op},Cat]$ is a well-defined bicategory; this is a basic fact having nothing to do with the Yoneda lemma.  We also take it as given that "evaluation at $1_x$" functor
 $$ [C^{op},Cat](C(-,x), F) \to F(x) $$
