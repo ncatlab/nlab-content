@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include functorial quantum field theory - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents
 {:toc}
@@ -10,11 +15,11 @@
 
 # Relation to TQFT #
 
-Gromov-Witten invariants may be understood (and have originally been found) as arising from a particular [[TQFT]], or actually a [[TCFT]].
+Gromov-Witten invariants may be understood (and have originally been found) as arising from a particular [[TQFT]], or actually a [[TCFT]], called the [[A-model]].
 
 For a useful exposition of this see
 
-* A.J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
+* A. J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
 
 #Exposition entries#
 
