@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -75,7 +74,7 @@ $$
   \,.
 $$
 
-Therefore groupoid objects in an $(\infty,1)$-category play a central role in the theory of [[principal ∞-bundles]].
+Accordingly, groupoid objects in an $(\infty,1)$-category play a central role in the theory of [[principal ∞-bundles]].
 
 Notice that one of the four characterizing properties of an [[(∞,1)-topos]] by the higher analog of the [[Giraud theorem]] is that every groupoid object is effective. 
 
@@ -109,7 +108,7 @@ $$
   }
 $$
 
-is a [[(∞,1)-pullback]] diagram in $C$. 
+is a [[(∞,1)-pullback]] diagram in $C$. Here, by a partition $S \cup S'$ of $[n]$ that share precisely one vertex $s$, we mean two subsets of $\{0,1,\ldots,n\}$ whose union is $\{0,1,\ldots,n\}$ and whose intersection is the singleton $\{s\}$. The linear order on $[n]$ then restricts to the linear order on $S$ and $S'$. 
 
 The $(\infty,1)$-category of groupoid objects in $C$ is the full [[sub-(∞,1)-category]] 
 
@@ -134,19 +133,15 @@ If one requires the above condition only for those partitions that are order-pre
 +-- {: .num_defn}
 ###### Definition 
 
-A groupoid object $A : \Delta^{op} \to C$ is the **[[Cech nerve]]** of a morphism $A_0 \to B$ if 
-
-* $A$ is the restriction of an augmented simplicial object $A^+ : \Delta^{op}_a \to A$ with $A^*([-1] \to [0]) = A_0 \to B$;
-
-* the sub-[[diagram]]
+A groupoid object $A : \Delta^{op} \to C$ is the **[[Cech nerve]]** of a morphism $A_0 \to B$ if $A$ is the restriction of an augmented simplicial object $A^+ : \Delta^{op}_a \to C$ with $A^+_0 \to A^+_{-1}$ as the morphism $A_0 \to B$, such that the sub-[[diagram]]
 
   $$
     \array{
-      A_1 &\to& A_0
+      A^+_1 &\to& A^+_0
       \\
       \downarrow && \downarrow
       \\
-      A_0 &\to& A_{-1}
+      A^+_0 &\to& A^+_{-1}
     }
   $$
   
@@ -194,16 +189,16 @@ $$
   \right)
 $$
 
-is the [[(∞,1)-category]] analog of an internal [[equivalence relation]] on $CA_0$, which is just a pair of morphisms
+is the [[(∞,1)-category]] analog of an internal [[equivalence relation]] on $A_0$, which is just a pair of morphisms
 
 $$
    R \stackrel{\to}{\to} A_0
    \,.
 $$
 
-The [[colimit]] ([[coequalizer]]) of the latter diagram is the [[quotient]] of $C_0$ by the relation $R$.
+The [[colimit]] ([[coequalizer]]) of the latter diagram is the [[quotient]] of $A_0$ by the relation $R$.
 
-Accordingly, the [[(∞,1)-colimit]] 
+Analogously, the [[(∞,1)-colimit]] 
 
 $$
   \lim_\to (\Delta^{op} \stackrel{A}{\to} C)
@@ -494,7 +489,7 @@ The Quillen equivalence itself is in section 6 there.
 +-- {: .num_prop }
 ###### Proposition
 
-There exists the [[transferred model structure]] on the category $sGrp$ of [[simplicial group]]s allong the [[forgetful functor]]
+There exists the [[transferred model structure]] on the category $sGrp$ of [[simplicial group]]s along the [[forgetful functor]]
 
 $$
   U : sGrp \to sSet_{Quillen}
