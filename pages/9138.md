@@ -85,6 +85,8 @@ And now comes the eponymous feature: The category $Hilb$ is a [[dagger category]
 
 (5) In a C$^\ast$-algebra the elements between 0 and 1 form an effect algebra with $(1-a)$ as the complement of $a$.
 
+(6) As a special case, we obtain the effect algebra of a [[von Neumann algebra]]. In general, this is not a lattice. [De Groote](#DeGroote) defines a _spectral order_ on self-adjoint operators which makes the collection of effects a [[boundedly complete lattice]]. However, this is not the canonical order on an effect algebra, as defined above.
+
 ## Related concepts
 
 * [[density matrix]]
@@ -122,6 +124,8 @@ A survey of the use of effect algebras in [[quantum mechanics]] is in
   also appeared as:
 
   _The Mathematical Language of Quantum Theory_, Cambridge University Press (2011)
+
+* Hans de Groote, _On a canonical lattice structure on the effect algebra of a von Neumann algebra_ [arXiv:0410018](http://arxiv.org/abs/math-ph/0410018){#DeGroote}
 
 [[!redirects effect]]
 [[!redirects effects]]
