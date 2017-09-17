@@ -41,12 +41,9 @@ It is useful to rework this definition of morphism using a variant of the idea, 
 
 This way we get a category, $TS$, of transition systems.
 
-+--{: .query}
-[[Tim Porter|Tim]]: In [[partial function]] there is a description of partial functions as spans. I think I have seen a source which uses spans to define a mild generalisation of morphisms for transition systems, but I cannot remember where (and whether it was worth it).  
 
-=--
 
-The notions of transition system and of morphisms between them is clearly related to (low dimensional) cubical sets / labelled directed graphs,/labelled transition systems, but we will need to consider labelled  cubical sets.
+The notions of transition system and of morphisms between them is clearly related to (low dimensional) cubical sets / labelled directed graphs/labelled transition systems, but we will need to consider labelled  cubical sets.
 
 
 ##Labeled transition systems.##
@@ -69,6 +66,17 @@ write $LTS$ for the category of labeled transition systems.
 ##TSs as relational structures##
 We can view a transition system as a [[relational structure]]. The set of states is the 'set of worlds' and for each event, $e \in E$ we define a relation $R_e \subseteq S\times S$ by $(s,s')\in R_e$ if and only if, $(s,e,s')\in Trans$.  We thus derive a relation for each event and, conversely, if we know the family $\{R_e \mid e\in E\}$, then we can rebuild $Trans$ in the obvious way.  
 
+##Higher dimensional analogues
+
+
+There are tentative definitions of
+
+
+[[higher dimensional transition system]],
+
+
+which take a more nPOV of this theory.
+
 
 ##References##
 
@@ -78,3 +86,5 @@ We can view a transition system as a [[relational structure]]. The set of states
 *   [[Eric Goubault]] and [[Samuel Mimram]], [Formal Relationships Between Geometrical and Classical Models for Concurrency](http://fr.arxiv.org/abs/1004.2818)
 
 [[!redirects transition system]]
+
+category:computer science
