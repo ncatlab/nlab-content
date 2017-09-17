@@ -237,7 +237,7 @@ If $X$ is Hausdorff and there is a continuous surjection $f: I \to X$, then $X$ 
 
 +-- {: .proof} 
 ###### Proof 
-Obviously $X$ is compact (Hausdorff) and connected. We have that $X$ is a quotient space of $I$, since $f$ is a closed surjection (using compactness of $I$), and therefore $X$ is locally connected by Lemma \ref{quot}. Being compact Hausdorff, $X$ is [[separation axiom|regular]], so to show metrizability it suffices to show $X$ is second-countable. 
+Obviously $X$ is compact (Hausdorff) and connected. $X$ is a [[quotient space]] of $I$, since $f$ is a closed surjection (using compactness of $I$ and Hausdorffness of $X$), and therefore $X$ is locally connected by Lemma \ref{quot}. Being compact Hausdorff, $X$ is [[separation axiom|regular]], so to show metrizability it suffices by the [[Urysohn metrization theorem]] to show $X$ is second-countable. 
 
 Let $\mathcal{B}$ be a countable base for $I$ and let $\mathcal{C}$ be the collection consisting of finite unions of elements of $\mathcal{B}$. We claim $\{\forall_f(C) = \neg f(\neg C): C \in \mathcal{C}\}$ is an (evidently countable) base for $X$. Indeed, suppose $U \subseteq X$ is open and $p \in X$; then $f^{-1}(p)$ is compact, so there exist finitely many $B_1, \ldots, B_n \in \mathcal{B}$ with 
 
