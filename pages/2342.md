@@ -165,6 +165,8 @@ See also
 
 * [[Szpiro's conjecture]]
 
+* [[cubic curve]]
+
 * [[moduli stack of elliptic curves]]
 
   * [[modular form]], [[Jacobi form]]
