@@ -185,6 +185,8 @@ The above has a generalization to _[[(infinity,1)-bimodules]]_. See there for mo
 
 * [[Hilbert bimodule]]
 
+* [[bibundle]]
+
 * [[(infinity,1)-bimodule]]
 
 * [[2-module]], [[2-ring]]
