@@ -89,6 +89,10 @@ A short introduction to different aspects of QFT usually covered in a first cour
 
 * R. E. [[Borcherds]], A. Barnard, _Lectures on QFT_, ([arxiv:math-ph/0204014](http://arxiv.org/abs/math-ph/0204014))
 
+A standard textbook written from the perspective of [[effective field theory]] is
+
+* [[Steven Weinberg]] _The Quantum Theory of Fields_ (Cambridge University
+Press,Cambridge,1995). 
 
 An extensive compilation of material on QFT aiming for mathematical precision is
 
@@ -96,7 +100,7 @@ An extensive compilation of material on QFT aiming for mathematical precision is
 
 A discussion of aspects of QFT with an eye towards applications in [[string theory]] and _aimed_ at mathematicians (though requiring more of a physicist's mindset than many pure mathematicians will find themselves in) is
 
-* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  _Quantum fields and strings, A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* [[Pierre Deligne]], P. Etingof, [[Dan Freed]], L. Jeffrey, D. Kazhdan, J. Morgan, D.R. Morrison and [[Edward Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
 Differential geometric and topological aspects (e.g. connections to index theorems and moduli spaces) are emphasized in
