@@ -25,7 +25,7 @@ The concept was originally introduced for [[domain theory]] in [a privately circ
 
 An early article on equilogical spaces: 
 
-* "Equilogical Spaces", Andrej Bauer, Lars Birkedal, Dana S. Scott ([ps](http://www.andrej.com/papers/equ-paper.ps))
+* "Equilogical Spaces", [[Andrej Bauer]], [[Lars Birkedal]], Dana S. Scott ([ps](http://www.andrej.com/papers/equ-paper.ps))
 {#BBS}
 
 
