@@ -14,6 +14,10 @@
 * [[Tom Leinster]], _An informal introduction to topos theory_ ([arXiv:1012.5647](http://arxiv.org/abs/1012.5647))
 
 # An informal introduction to topos theory
+
+# This version will soon be replaced entirely...
+# so please don't spend time editing it.
+
 * table of contents
 {:toc}
 
