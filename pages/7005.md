@@ -235,12 +235,16 @@ Another approach to solving canonicity is to build a model for [[homotopy type t
 
 ## Related concepts
 
-Univalence is essentially the same as the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See at _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
+Univalence is closely related to the "completeness" condition in the theory of [[Segal spaces]]/[[semi-Segal spaces]]. See _[[complete Segal space]]_/_[[complete semi-Segal space]]_.
 
 ## References
  {#References}
 
-The univalence axiom was introduced and promoted by Vladimir Voevodsky around 2005. (?)
+Perhaps the earliest occurrence of the univalence axiom is in section 5.4 of 
+
+* [[Martin Hofmann]] and [[Thomas Streicher]], _The groupoid interpretation of type theory_ (1996)
+
+under the name "universe extensionality".  They formulate almost the modern univalence axiom; the only difference is the lack of a coherent definition of equivalence.  The univalence axiom in its modern form was introduced and promoted by Vladimir Voevodsky around 2005. (?)
 
 * [[Vladimir Voevodsky]], _Univalent Foundations Project_ ([pdf](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/univalent_foundations_project.pdf))
  {#UnivalentFoundationsProject}
@@ -273,7 +277,7 @@ A guided walk through the formal proof that univalence implies [[functional exte
 * [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
  {#BauerLumsdaine}
 
-A discussion of univalence in [[categories of presheaves]] over an [[inverse category]] with values in a category for which univalence is already established is discussed in 
+A discussion of univalence in categories of [[diagrams]] over an [[inverse category]] with values in a category for which univalence is already established is discussed in 
 
 * [[Michael Shulman]], _Univalence for inverse diagrams, oplax limits, and gluing, and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
  {#Shulman12}
