@@ -71,6 +71,35 @@ $$
 
 =--
 
+# Proof of co-Yoneda lemma # 
+
++-- {: .proof}
+######Proof
+To show that a presheaf $F: C^{op} \to Set$ is canonically presented as a colimit of representables, we exhibit a natural isomorphism 
+
+$$\int^{c: C} F(c) \times \hom_C(-, c) \cong F$$
+
+By the definition of coend, maps $\int^c F(c) \times \hom_C(-, c) \to G(-)$ are in natural bijection with families of maps $F(c) \times \hom_C(d, c) \to G(d)$ extranatural in $c$ and natural in $d$. Those are in natural bijection with families of maps $F(c) \to \hom(\hom_C(d, c), G(d))$ natural in $c$ and extranatural in $d$. These are in natural bijection with families of maps $F(c) \to Nat(\hom_C(-, c), G) \cong G(c)$ (natural in $c$), where the isomorphism is by the Yoneda lemma. Thus we have exhibited a natural isomorphism 
+
+$$Nat(\int^c F(c) \times \hom_C(-, c), G) \cong Nat(F, G)$$ 
+
+(natural in $G$). By Yoneda again, this gives $\int^c F(c) \times \hom_C(-, c) \cong F$. 
+=--
+
+If one follows the Yoneda-lemma argument at the end, one arrives at the explicit isomorphism 
+
+$$\int^c F(c) \times \hom_C(-, c) \to F$$ 
+
+Namely, it corresponds to the family of maps 
+
+$$F(c) \times \hom_C(d, c) \to F(d)$$ 
+
+(extranatural in $c$ and natural in $d$) which in turn corresponds to the natural family 
+
+$$\hom_C(d, c) \to \hom(F(c), F(d))$$ 
+
+associated with the structure of the functor $F: C^{op} \to Set$. 
+
 # MacLane's co-Yoneda lemma#
 
 In a brief uncommented exercise on p. 62 of 
