@@ -1,0 +1,8 @@
+
+* [homepage](http://www.msri.org/~de/)
+
+[[!redirects D.Eisenbud]]
+
+[[!redirects D. Eisenbud]]
+
+category:people
