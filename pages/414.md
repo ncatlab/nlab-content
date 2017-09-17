@@ -64,12 +64,14 @@ The [[duality|dual]] notion is that of _[[injective objects]]_.
 =--
 
 
-+-- {: .num_defn}
++-- {: .num_defn #EnoughProjectives}
 ###### Definition
 
 A category $C$ has **enough projectives** if for every object $X$ there is an epimorphism $P\to X$ where $P$ is projective.
 
 =--
+
+This terminology refers to the existence of [[projective resolutions]], prop. \ref{EnoughIsEnough} below.
 
 
 
@@ -79,12 +81,59 @@ A category $C$ has **enough projectives** if for every object $X$ there is an ep
 
 * The [[axiom of choice]] can be phrased as "all objects of [[Set]] are projective."  See also [[internally projective object]] and [[COSHEP]].
 
+## In abelian categories
+
+Projective objects and [[injective objects]] in [[abelian categories]] $\mathcal{A}$ are of central interest in [[homological algebra]]. Here they appear as parts of [[cofibrant resolutions]] and [[fibrant resolutions]], respectively, in the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$, with respecto to one of the two standard [[model structures on chain complexes]].
+
+### Projective resolutions
+
+Let $\mathcal{A}$ be an [[abelian category]]. 
+
++-- {: .num_defn}
+###### Definition
+
+For $N \in \mathcal{A}$ an object, a **[[projective resolution]]** of $N$ is a [[chain complex]] $(Q N)_\bullet \in Ch_\bullet(\mathcal{A})$ equipped with a [[chain map]]
+
+$$
+  Q N \to N
+$$
+
+(with $N$ regarded as a complex concentrated in degree 0) such that
+
+1. this morphism is a [[quasi-isomorphism]] (this is what makes it a [[resolution]]), which is equivalent to 
+
+   $$ \cdots \to (Q N)_1 \to (Q N)_0 \to N $$
+
+   being an [[exact sequence]];
+
+1.  all whose entries $(Q N)_n$ are projective objects.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This means precisely that $Q N \to N$ is an [[injective resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that in this model structure every object is fibrant, so that cofibrant resolutions are the only resolutions that need to be considered.
+
+=--
+
++-- {: .num_prop #EnoughIsEnough}
+###### Proposition
+
+If $\mathcal{A}$ has _enough projectives_ in the sense of defn \ref{EnoughProjectives}, then every object has a projective resolution.
+
+=--
+
+
+
+
 
 ## Examples
 
 * An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[free group]].
 
-* For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]].
+* For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See at _[[projective module]]_ for more on this.
 
 
 
