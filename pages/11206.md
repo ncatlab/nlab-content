@@ -23,6 +23,11 @@ In the first case -- "type I computability" -- computable functions are [[partia
 
 [[!include computable mathematics -- table]]
 
+## Properties
+
+### Relation to intuitionistic mathematics
+
+Computable mathematics is an instance of [[intuitionistic mathematics]] (see e.g. ([Bauer 05, section 4.3.1](#Bauer05))).
 
 
 ## References
