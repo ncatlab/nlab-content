@@ -4,4 +4,8 @@
 * the (English translation) of the lecture of David Hilbert at the International Congress of Mathematicians at Paris in 1900 (with the list of  "Hilbert's problems") is [here](http://aleph0.clarku.edu/~djoyce/hilbert/problems.html)
 * Felix E. Browder. Mathematical Developments Arising from Hilbert Problems. Proceedings of Symposia in Pure Mathematics. XXVIII.2. American Mathematical Society. 
 
+## Related pages
+
+* [[Hilbert's problems]]
+
 category: people
