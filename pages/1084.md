@@ -32,18 +32,32 @@ The dual notion is that of [[mapping cocone]].
 ## Definition
  {#Definition}
 
-In an [[(∞,1)-category]] $\mathcal{C}$ the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
+The mapping cone construction is a means to _present_ in a [[category with weak equivalences]] the following canonical
+construction in [[homotopy theory]]/[[(∞,1)-category theory]].
+
++-- {: .num_defn }
+###### Definition
+
+In an [[(∞,1)-category]] $\mathcal{C}$ with [[terminal object]] and [[(∞,1)-pushout]], the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
+
+$$
+  coker(f) \coloneqq Y \coprod_X {*}
+$$
+
+hence the object [[universal construction]] sitting universally in a [[diagram]] of the form
 
 $$
   \array{
      X &\stackrel{}{\to}& {*}
      \\
-     \downarrow^f && \downarrow
+     \downarrow^{\mathrlap{f}} &\swArrow_{\simeq}& \downarrow
      \\
      Y &\to& coker(f)
   }
   \,.
 $$
+
+=--
 
 +-- {: .num_prop }
 ###### Proposition
@@ -159,59 +173,49 @@ The mapping cone of the morphism $X \to {*}$ to the [[terminal object]] is the [
 ### For topological spaces
  {#ForTopologicalSpaces}
 
-The construction is geometrically most obvious in the category [[Top]] of [[topological spaces]].
+The notion _mapping cone_  derives its name from its geometrica 
+interpretation in the category [[Top]] of [[topological spaces]].
 
-Here for $I = [0,1]$ the standard [[interval object]] we may take the [[cylinder object]] to be $Cyl(X) = X \times I$, literally the cylinder over $X$. 
+With respect to the standard [[model structure on topological spaces]] every [[CW-complex]] is a cofibrant object, and hence mapping cones on maps between CW-complexes have intrinsic meaning in [[homotopy theory]].
 
-Given a continuous map $f:X\to Y$, the 
+Write $I \coloneqq [0,1] \subset \mathbb{R} \in $ [[Top]] for the standard topological interval. This is an [[interval object]] for the standard model structure. We may therefore take the [[cylinder object]] of a topological space $X$ to be 
+
+$$ 
+  cyl(X) \coloneqq X \times I
+  \,,
+$$
+
+which is literally the cylinder over $X$. 
+
+Given a [[continuous function]] $f:X\to Y$, the 
 [[topological space]] $cone(f)$ is
 
 $$
-  X\times I \cup_{f} Y
+  cone(f) =  (X \times I) \cup_{f} Y
 $$
 
-(here for all $x\in X$, $(x,1)$ is identified with $f(x)$) modulo the contraction of $X\times \{0\}$ to a point. The opposite convention is also possible: identify $(x,0)$ with $f(x)$ for all $x$ and then contract $X\times\{1\}$ to a point; the two constructions of cones are canonically homeomorphic; the first is sometimes called the "inverse mapping cone".
+This is the [[disjoint union]] of $X \times I$ with $Y$
+followed by an identification under which for each 
+$x\in X$ a point $(x,1) \in X \times I$ is identified with 
+the point $f(x) \in Y$ and followed by the contraction of $X\times \{0\}$ to a point. 
 
-Singular chain complex functor from [[Top]] to the 
-[[category of chain complexes]] of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
+Of course the opposite convention is also possible: identify $(x,0)$ with $f(x)$ for all $x$ and then contract $X\times\{1\}$ to a point; the two constructions of cones are canonically homeomorphic; the first is sometimes called the "inverse mapping cone".
 
-
-### In additive categories with translation
-
-Let $C$ be an [[additive category]] [[category with translation|with translation]] $T=[1] : C \to C$. Let $X$ and $Y$ be two [[differential object]]s in $(C,T)$ and $f : X \to Y$ any [[morphism]] in $C$. 
-
-The **mapping cone** $Cone(f)$ of $f$ is the [[differential object]] whose underlying object is the [[direct sum]] $T X \oplus Y$ and whose differential $d_{cone f} : T X \oplus X \to T T X \oplus T X$ is given in [[matrix calculus]] notation by
-
-$$
-  d_{cone f} :=
-  \left(
-   \array{
-    d_{T X} & 0
-    \\
-    T(f) & d_Y
-   }
-  \right)
-  =
-  \left(
-   \array{
-    - T(d_X) & 0
-    \\
-    T(f) & d_Y
-   }
-  \right)
-  \,.
-$$
-
-Notice the minus sign here, coming from the definition of a [[differential object|shifted differential object]].
+The [[singular chain complex]] [[functor]] from [[Top]] to the 
+[[category of chain complexes]] of [[abelian groups]] sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
 
 
 ### For chain complexes
  {#InChainComplexes}
 
 
-Let $Ch_\bullet = Ch_\bullet(R Mod)$ be the [[category of chain complexes]] in $R$[[Mod]] for some [[ring]] $R$. If $R = \mathbb{Z}$ the [[integers]], then this is $Ch_\bullet(Ab)$, chain complexes of [[abelian groups]]. More generally $R Mod$ can be replaced by any [[abelian category]] in the following, with the evident changes in  the presentation here and there.
+Let $Ch_\bullet = Ch_\bullet(R Mod)$ be the [[category of chain complexes]] in $R$[[Mod]] for some [[ring]] $R$. 
 
-We discuss the standard construction of the mapping cone $cone(f)$ of a [[chain map]] $f$. 
+(For instance if $R = \mathbb{Z}$ the [[integers]], then this is $Ch_\bullet(Ab)$, chain complexes of [[abelian groups]]. More generally $R Mod$ can be replaced by any [[abelian category]] in the following, with the evident changes in  the presentation here and there.)
+
+We derive an explicit presentation of the mapping cone $cone(f)$ of a [[chain map]] $f$, according to the general definition \ref{CylindersAndCones}. The end result is prop. \ref{ComponentsOfMappingConeInChainComplexes} below,
+reproducing the classical formula for the mapping cone.
+
 
 +-- {: .num_defn }
 ###### Definition
@@ -221,7 +225,7 @@ Let $I_\bullet \in Ch_{\bullet}(\mathcal{A})$ be given by
 $$
   I_\bullet
   = 
-  (\cdots 0 \to 0 \to R \stackrel{(id,-id)}{\to} R \oplus R)
+  (\cdots 0 \to 0 \to R \stackrel{(-id,id)}{\to} R \oplus R)
   \,.
 $$
 
@@ -240,7 +244,18 @@ $$
   \,.
 $$
 
+The [[differential]] $\partial^I = (id, -id)$ here expresses the [[alternating face map complex]] [[boundary]] operator, which in terms of the three non-degenerate [[basis]] elements is given by
+
+$$
+  \partial ( 0 \to 1 ) = (1) - (0)
+  \,.
+$$
+
+
 =--
+
+
+We decompose the proof of this statement is a sequence of substatements.
 
 
 +-- {: .num_prop }
@@ -250,26 +265,57 @@ For $X_\bullet \in Ch_\bullet$ the
 [[tensor product of chain complexes]] 
 
 $$
-  X_\bullet \otimes I_\bullet
+  (I \otimes X)_\bullet
   \in
   Ch_\bullet
 $$
 
 is a [[cylinder object]] of $X_\bullet$
 for the structure of a [[category of cofibrant objects]] on $Ch_\bullet$
-whose cofibrations are the [[monomorphisms]] and whose weak equivalences are the [[quasi-isomorphisms]].
+whose cofibrations are the [[monomorphisms]] and whose weak equivalences are the [[quasi-isomorphisms]] (the substructure of the standard [[injective model structure on chain complexes]]).
 
 =--
 
 +-- {: .num_prop }
 ###### Proposition
 
-The complex $X_\bullet \otimes I_\bullet$ has components
+The complex $(I \otimes X)_\bullet$ has components
 
 $$
-  (X \otimes I)_n
+  (I \otimes X)_n
   = 
   X_n \oplus X_n \oplus X_{n-1}
+$$
+
+and the [[differential]] is given by
+
+$$
+  \array{
+    X_{n+1} \oplus X_{n+1} &\stackrel{\partial^X \oplus \partial^X}{\to}& X_n \oplus X_n
+    \\
+    \oplus &\nearrow_{(-id,id)}& \oplus
+    \\
+    X_{n} &\underset{-\partial^X}{\to}& X_{n-1}
+  }
+  \,,
+$$
+
+hence in [[matrix calculus]] by
+
+$$
+  \partial^{I \otimes X}
+   =
+  \left(
+    \array{
+      \partial^X \oplus \partial^X & (-id, id)
+      \\
+      & -\partial^X
+    }
+  \right)
+  : 
+  (X_{n+1} \oplus Y_{n+1}) \oplus X_{n}
+  \to
+  (X_{n} \oplus Y_{n}) \oplus X_{n-1}
   \,.
 $$
 
@@ -278,7 +324,42 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the formula discussed at [[tensor product of chain complexes]].
+By the formula discussed at [[tensor product of chain complexes]]
+the components arise as the [[direct sum]]
+
+$$
+  (I \otimes X )_n
+  =
+  (R_{(0)} \otimes X_n )
+  \oplus
+  (R_{(1)} \otimes X_n )
+  \oplus 
+  (R_{(0 \to 1)} \otimes X_{(n-1)} )
+$$
+
+and the [[differential]] picks up a sign when passed past the 
+degree-1 term $R_{(0 \to 1)}$:
+
+$$
+  \begin{aligned}
+    \partial^{I \otimes X}
+    (
+      (0 \to 1), x
+    )
+    &= 
+    ( (\partial^I (0 \to 1)), x )
+    -
+    ( (0\to 1), \partial^X x )
+    \\
+    & = 
+    ( - (0) + (1), x )
+    -
+    ( (0 \to 1), \partial^X x )  
+    \\
+    & = -((0), x) + ((1), x) -  ( (0 \to 1), \partial^X x )
+  \end{aligned}
+  \,.
+$$
 
 =--
 
@@ -288,13 +369,13 @@ One part of definition \ref{CylindersAndCones} now reads:
 ###### Definition
 
 For $f_\bullet : X_\bullet \to Y_\bullet $ a [[chain map]],
-the [[mapping cylinder]] $Cyl(f)$ is the [[pushout]]
+the [[mapping cylinder]] $cyl(f)$ is the [[pushout]]
 
 $$
   \array{
     cyl(f) &\leftarrow& Y
     \\
-    \uparrow && \uparrow
+    \uparrow && \uparrow^{\mathrlap{f}}
     \\
     X \otimes I &\stackrel{i_0}{\leftarrow}& X
   }
@@ -312,16 +393,59 @@ $$
   cyl(f)_n = X_n \oplus Y_n \oplus X_{n-1}
 $$
 
+and the [[differential]] is given by
+
+$$
+  \array{
+    X_{n+1} \oplus Y_{n+1} &\stackrel{\partial^X \oplus \partial^Y}{\to}& X_n \oplus Y_n
+    \\
+    \oplus &\nearrow_{(-id,f)}& \oplus
+    \\
+    X_{n} &\underset{-\partial^X}{\to}& X_{n-1}
+  }
+  \,,
+$$
+
+hence in [[matrix calculus]] by
+
+$$
+  \partial^{cyl(f)}
+   =
+  \left(
+    \array{
+      \partial^X \oplus \partial^Y & (-id, f_n)
+      \\
+      0 & -\partial^X
+    }
+  \right)
+  : 
+  (X_{n+1} \oplus Y_{n+1}) \oplus X_{n}
+  \to
+  (X_{n} \oplus Y_{n}) \oplus X_{n-1}
+  \,.
+$$
+
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Limits and colimits in a category of chain complexes $Ch_\bullet(\mathcal{A})$ are computed degreewise in $\mathcal{A}$. Here the statement is evident.
+The [[colimits]] in a [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ are computed in the underlying 
+[[presheaf category]] of [[towers]] in $\mathcal{A}$. 
+There they are computed 
+degreewise in $\mathcal{A}$
+(see at [limits in presheaf categories](limits+and+colimits+by+example#limitsinpresheafcat)). 
+Here the statement is evident:
+
+the pushout identifies one [[direct sum|direct summand]] $X_n$
+with $Y_n$ along $f_n$ and so where previously a $id_{X_n}$
+appeared on the diagonl, there is now $f_n$.
+
 
 =--
 
-Another part of definition \ref{CylindersAndCones} now reads:
+The last part of definition \ref{CylindersAndCones} now reads:
 
 +-- {: .num_defn }
 ###### Definition
@@ -346,15 +470,47 @@ $$
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #ComponentsOfMappingConeInChainComplexes}
 ###### Proposition
 
-The components of $cone(f)$ are
+The components of the mapping cone $cone(f)$ are
 
 $$
-  cone(f)_n = Y_n \oplus X_{n-1}
+  cone(f)_n =   Y_n \oplus X_{n-1} 
+$$
+
+with differential given by
+
+$$
+  \array{
+    Y_{n+1} &\stackrel{\partial^Y}{\to}& Y_n
+    \\
+    \oplus &\nearrow_{f_n}& \oplus
+    \\
+    X_{n} &\underset{-\partial^X}{\to}& X_{n-1}
+  }
+  \,,
+$$
+
+and hence in [[matrix calculus]] by
+
+$$
+  \partial^{cone(f)}
+   =
+  \left(
+    \array{
+      \partial^Y_n & f_n
+      \\
+      0 & -\partial^X_n
+    }
+  \right)
+  : 
+  Y_{n+1} \oplus X_{n}
+  \to
+  Y_{n} \oplus X_{n-1}
   \,.
 $$
+
 
 =--
 
@@ -362,6 +518,7 @@ $$
 ###### Proof
 
 As before the pushout is computed degreewise.
+This identifies the remaining unshifted copy of $X$ with 0. 
 
 =--
 
@@ -550,6 +707,46 @@ $$
 $$
 
 
+### In additive categories with translation
+
+
+Let $\mathcal{A}$ be an [[additive category]] [[category with translation|with translation]] $T=[1] : \mathcal{A} \to \mathcal{A}$. Let $X$ and $Y$ be two [[differential objects]] in $(\mathcal{A},T)$ and $f : X \to Y$ any [[morphism]] in $C$. 
+
+The **mapping cone** $Cone(f)$ of $f$ is the [[differential object]] whose underlying object is the [[direct sum]] $T X \oplus Y$ and whose differential $d_{cone f} : T X \oplus X \to T T X \oplus T X$ is given in [[matrix calculus]] notation by
+
+$$
+  d_{cone f} :=
+  \left(
+   \array{
+    d_{T X} & 0
+    \\
+    T(f) & d_Y
+   }
+  \right)
+  =
+  \left(
+   \array{
+    - T(d_X) & 0
+    \\
+    T(f) & d_Y
+   }
+  \right)
+  \,.
+$$
+
+Notice the minus sign here, coming from the definition of a [[differential object|shifted differential object]].
+
+
+
+
+
+## Properties
+
+### Homology exact sequences and fiber sequences
+
+(...)
+see at [[homology exact sequence]]
+(...)
 
 
 ### Distinguished triangles from mapping cones 
