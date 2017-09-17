@@ -294,7 +294,7 @@ In fact there is another different way of looking at these groups, which has a m
 
 Survey article:
 
-* [[Tim Porter]], _Proper Homotopy Theory_,  in the _Handbook on Algebraic Topology_, Ed. I.M.James, Elsevier, 1995, p. 127-167,
+* [[Tim Porter]], _Proper Homotopy Theory_,  in the _[[Handbook of Algebraic Topology]]_, Ed. I.M.James, Elsevier, 1995, p. 127-167,
 
 Books:
 
