@@ -34,13 +34,15 @@ The standard textbook on loop groups is
 * Andrew Pressley, [[Graeme Segal]], _Loop groups_ Oxford University Press (1988)
   {#PressleySegal}
 
-A review of some aspects is in 
+A review talk is 
+
+* [[Graeme Segal]], _Loop groups_ ([pdf](http://people.mpim-bonn.mpg.de/zagier/files/doi/10.1007/BFb0084581/chapter08.pdf))
+
+A review of some aspects with an eye towards loop groups as part of the [[crossed module]] of groups representing a [[string 2-group]] is in
 
 * BCSS, _From loop groups to 2-groups_ ([web](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#BCSS))
 
-(with an eye towards the [[string 2-group]]).
-
-The relation between [[representation]]s of loop groups and [[twisted K-theory]] over the group is the topic of
+The relation between [[representations]] of loop groups and [[twisted K-theory]] over the group is the topic of
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]
 
