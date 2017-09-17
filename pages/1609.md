@@ -1,4 +1,3 @@
-[[!redirects partially ordered category]]
 
 #Contents#
 * automatic table of contents goes here
@@ -16,9 +15,9 @@ Compare this to the notion of [[locally partially ordered category]].  A partial
 
 Similarly, such a partially ordered category is a special kind of [[double category]], while a locally partially ordered category is a special kind of $2$-[[2-category|category]].
 
-## Partially ordered dagger categories ##
+## Partially ordered $\dagger$-categories ##
 
-For a partially ordered [[dagger-category|dagger (pre)category]] I will additionally require 
+For a partially ordered $\dagger$-[[dagger-category|(pre)category]] I will additionally require 
 
 > [[Urs Schreiber]]: you should say who the "I" is who is speaking here
 
@@ -29,7 +28,7 @@ For a partially ordered [[dagger-category|dagger (pre)category]] I will addition
   \,. 
 \]
 
-For a partially ordered dagger category I will call _monovalued_ morphism such a morphism $f$ that $f \circ f^{\dagger} \subseteq 1_{\mathrm{Dst} f}$.
+For a partially ordered $\dagger$-category I will call _monovalued_ morphism such a morphism $f$ that $f \circ f^{\dagger} \subseteq 1_{\mathrm{Dst} f}$.
 
 For a partially ordered category with inverses I will call _entirely defined morphism_ such a morphism $f$ that $f^{\dagger} \circ f \supseteq
 1_{\mathrm{Src} f}$.
@@ -54,3 +53,9 @@ He makes the point that they were initially studied by Ehresmann and are very cl
 
 ## See also ##
 * [[generalized continuity]]
+
+
+[[!redirects partially ordered category]]
+[[!redirects partially ordered dagger-category]]
+[[!redirects partially ordered dagger category]]
+[[!redirects partially ordered †-category]]
