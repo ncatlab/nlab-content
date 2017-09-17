@@ -1,8 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Properties
 
 ### Function field analogy
 
 [[!include function field analogy -- table]]
+
+## References
+
+* Wikipedia, _[Selberg zeta function](http://en.wikipedia.org/wiki/Selberg_zeta_function)_
+
+[[!redirects Selberg zeta function]]
 
