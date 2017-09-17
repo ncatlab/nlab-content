@@ -1,0 +1,28 @@
+# Creation of limits
+* table of contents
+{: toc}
+
+## Definition
+
+Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **creates** limits for $J$ if the composite $U\circ J$ has a limit, and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  This means that $J$ has a limit, and that moreover a cone over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $U\circ J$.
+
+Of course, a functor $F$ creates a [[colimit]] if $F^{op}$ creates the corresponding limit.
+
+If $F$ creates all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ creates that sort of limit (e.g. $F$ creates products, $F$ creates equalizers, etc.).
+
+## Remarks
+
+A [[monadic functor]] creates all limits that exist in its codomain, and all colimits that exist in its codomain and are preserved by the corresponding monad (or, equivalently, by the monadic functor itself).  Creation of a particular sort of [[split coequalizer]] figures prominently in Beck's [[monadicity theorem]].
+
+One should beware that in [[Categories Work]], a more restrictive notion of "creation" is used which requires the every limit in $D$ to lift to one in $C$ uniquely on the nose, rather than merely up to isomorphism.  This corresponds to a version of the monadicity theorem which asserts an isomorphism of categories, rather than merely an equivalence.
+
+## Related pages
+
+* [[preservation of limits]]
+* [[reflection of limits]]
+
+[[!redirects created limits]]
+[[!redirects creation of limits]]
+[[!redirects created colimit]]
+[[!redirects created colimits]]
+[[!redirects creation of colimits]]
