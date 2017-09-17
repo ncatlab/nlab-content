@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The _theory of objects_ is the [[theory]] over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
+
+So [[model]] for this theory in a [[topos]] $\mathcal{E}$ is just an [[object]] of $\mathcal{E}$.
+
+## Properties
+
+* The [[classifying topos]] for the theory of objects is the [[presheaf topos]] $[FinSet, Set]$ over the [[opposite category]] of the category [[FinSet]] of [[finite sets]].
+
+
+
+## References
+
+Section D3.2 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
