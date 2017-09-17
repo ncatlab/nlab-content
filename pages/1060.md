@@ -1,3 +1,4 @@
+
 <div class="rightHandSide toc">
 [[!include monoidal categories - contents]]
 </div>
@@ -36,7 +37,7 @@ $*$-autonomous category.  The dualizing object $\bot$ is then defined as $I^*$.
 
 ## Examples ##
 
-* A simple example of a $*$-autonomous category is the category of finite-dimensional [[vector space]]s over some field $k$.  In this case $k$ itself plays the role of the dualizing object, so that for an f.d. vector space $V$, $V^*$ is the usual dual space of linear maps into $k$.
+* A simple example of a $*$-autonomous category is the category of finite-dimensional [[vector space]]s over some field $k$.  In this case $k$ itself plays the role of the dualizing object, so that for an f.d. vector space $V$, $V^*$ is the usual [[dual vector space|dual space]] of linear maps into $k$.
 
 * More generally, any [[compact closed category]] is $*$-autonomous with the unit $I$ as the dualizing object.
 
