@@ -1,0 +1,10 @@
+
+* [blog](http://rfcwalters.blogspot.de/)
+
+* [list of publications](http://comocategoryarchive.com/People/Walters-papers/pdffiles.html)
+
+## Related entries: 
+
+* [[allegory]]
+
+category: people
