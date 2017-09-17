@@ -89,6 +89,8 @@ its name.
 
 * [[generalized Eilenberg-MacLane spectrum]]
 
+* [[Moore spectrum]]
+
 * [[cohomology theory]], [[ordinary cohomology]]
 
 [[!redirects Eilenberg-MacLane spectrum]]
