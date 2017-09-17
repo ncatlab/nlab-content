@@ -42,6 +42,8 @@ If $X$ is a [[Kan complex]] , then so is $E_n(X,x)$ for all $n \in \mathbb{N}$ a
 
 If $X$ is a Kan complex and [[n-connected|(n-1)-connected]], then the canonical morphism $E_n(X,x) \to X$ is a [[homotopy equivalence]].
 
+See ([May, theorem 8.4](#May)).
+
 ### Relation to pointed $n$-connected objects
 
 The inclusion $sSet_{(n-1)} \hookrightarrow sSet^{*/}$ of $n$-fold [[reduced simplicial set|reduced]] simplicial sets (those with a single $k$-simplex for all $k \leq n-1$) into all [[pointed object|pointed]] simplicial sets is a [[coreflective subcategory]] with coreflector being forming of the $n$th Eilenberg subcomplex
@@ -63,6 +65,17 @@ $$
   \infty Grpd_{\geq (n-1)} \hookrightarrow \infty Grpd^{*/}
   \,.
 $$
+
+## Related concepts
+
+* [[Whitehead tower]], [[Postnikov tower]]
+
+## References
+
+Around def. 8.3 in 
+
+* [[Peter May]], _Simplicial objects in algebraic topology_ ([djvu](http://www.math.uchicago.edu/~may/BOOKS/Simp.djvu))
+ {#May}
 
 [[!redirects Eilenberg subcomplexes]]
 
