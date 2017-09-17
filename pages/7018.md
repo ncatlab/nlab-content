@@ -1,3 +1,2 @@
 
-
-See [[proposition]].
+A __theorem__ is a [[proposition]] with a [[proof]].
