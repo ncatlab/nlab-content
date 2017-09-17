@@ -1,6 +1,13 @@
-<div class="rightHandSide toc">
-   [[!include AQFT and operator algebra contents]]
-</div>
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### AQFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -93,7 +100,11 @@ _Remark_ (mathematical viewpoint): $\mathcal{T}$ is the abelian subgroup of tran
 * (V6) **existence of a vacuum vector**: There exists a vector $\Omega \in \mathcal{H}, \|\Omega\| = 1$, such that $\bigl( \bigcup_{\mathcal{O}\in\mathcal{J}}\mathcal{M}(\mathcal{O}) \bigr) \Omega$ is dense in $\mathcal{H}$ and $\mathcal{U}(g)\Omega = \Omega$ for all $g \in \mathcal{P}$
 =--
 
-_Remark_ (choice of axioms): The _uniqueness_ is sometimes part of the axioms, but not here. Instead we will cite theorems that will specify necessary and sufficient conditions to ensure that there is a _unique_ vacuum vector. 
++-- {: .un_remark}
+###### Remark
+**(choice of axioms)** The _uniqueness_ is sometimes part of the axioms, but not here. Instead we will cite theorems that will specify necessary and sufficient conditions to ensure that there is a _unique_ vacuum vector. 
+
+=--
 
 ###Additional Notations and Notions of Vacuum Representations
 A short hand notation for vacuum representations will be $\mathcal{M}(\mathcal{J})$ in the following.
