@@ -92,7 +92,42 @@ $$
 
 etc. 
 
+### Relation to bitensoring
+ {#RelationToBitensoring}
+
++-- {: .num_defn}
+###### Definition
+
+A [[coCartesian fibration of (∞,1)-operads]] $\mathcal{C}^\otimes \to BMod^\otimes$, hence the structure of a  $BMod$-[[monoidal (∞,1)-category]] is a **bi[[tensoring]]** of 
+
+$$
+  \mathcal{C} \coloneqq \mathcal{C}^\otimes \underset{BMod}{\times} \{\mathfrak{n}\}
+$$
+
+over the (ordinary) [[monoidal (∞,1)-categories]]
+
+$$
+  \mathcal{C}^\otimes_{\pm}
+  \coloneqq
+  \mathcal{C}^\otimes \underset{BMod}{\times} Assoc^\otimes_{\pm}
+  \,.
+$$
+
+=--
+
+([Lurie, def. 4.3.1.17](#Lurie))
+
++-- {: .num_remark}
+###### Remark
+
+By the [[microcosm principle]], bitensored $(\infty,1)$-categories are the right context into which to internalize [[bimodules]]. See _[Relation to the category of bimodules](#RelationToCategoriesOfBimodules)_ below.
+
+=--
+
+
+
 ### Relation to categories of bimodules
+ {#RelationToCategoriesOfBimodules}
 
 For $\mathcal{C}^\otimes \to BMod^\otimes$ a [[fibration of (∞,1)-operads]] the corresponding [[(∞,1)-category]] of [[(∞,1)-algebras over an (∞,1)-operad]]
 
