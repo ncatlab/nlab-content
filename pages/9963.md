@@ -63,7 +63,7 @@ A [[bipermutative category]] $\mathcal{C}$ induces (as discussed there) an [[E-�
 
 =--
 
-See for instance ([Arone-Hess](#AroneHess))
+See for instance ([Arone-Lesh](#AroneLesh))
 
 ## Related concepts
 
@@ -88,8 +88,8 @@ Augmentation (of [[∞-groups of units]] of [[E-∞ rings]]) over the [[sphere s
 
 Augmentation over the [[Eilenberg-MacLane spectrum]] $H\mathbb{Z}$ appears in
 
-* Gregory Arone, [[Kathryn Hess]], _Augmented $\Gamma$-spaces, the stable rank filtration, and a $b u$-analogue of the Whitehead conjecture_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
- {#AroneHess}
+* Gregory Arone, Kathryn Lesh, _Augmented $\Gamma$-spaces, the stable rank filtration, and a $b u$-analogue of the Whitehead conjecture_ ([pdf](http://www.math.union.edu/~leshk/papers/FilteredGammaSpaces-revision.pdf))
+ {#AroneLesh}
 
 [[!redirects augmented A-infinity-algebras]]
 
