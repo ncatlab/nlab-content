@@ -23,7 +23,7 @@
 
 ## Idea
 
-The $n$-connected/$n$-truncated factorization system is an [[orthogonal factorization system in an (∞,1)-category]],  specifically in an [[(∞,1)-topos]], that generalizes the _relative [[Postnikov systems]]_ of [[∞Grpd]]: it factors a morphism through its _[[n-image]]_.
+The $n$-connected/$n$-truncated factorization system is an [[orthogonal factorization system in an (∞,1)-category]],  specifically in an [[(∞,1)-topos]], that generalizes the _relative [[Postnikov systems]]_ of [[∞Grpd]]: it factors any morphism through its _[[n-image|(n+2)-image]]_ by an _[[n-epimorphism|(n+2)-epimorphism]]_ followed by an _[[n-monomorphism|(n+2)-monomorphism]]_.
 
 ## Definitions
 
@@ -42,6 +42,27 @@ This appears as a remark in [[Higher Topos Theory|HTT, Example 5.2.8.16]]. A con
 For $n = -1$ this says that [[effective epimorphisms in an (∞,1)-category]] have the left lifting property against [[monomorphisms in an (∞,1)-category]]. Therefore one may say that the effective epimorphisms in an $(\infty,1)$-topos are the [[strong epimorphisms]].
 
 =--
+
+## Properties
+
+### Stability
+
++-- {: .num_prop}
+###### Proposition
+
+For all $n$, the $n$-connected/$n$-truncated factorization system is [[stable factorization system|stable]]: the class of [[n-connected]] morphisms is preserves under [[(∞,1)-pullback]].
+
+=--
+
+This appears as ([Lurie, prop. 16.5.1.16(6)](#Lurie)).
+
++-- {: .num_cor}
+###### Corollary
+
+For all $n$, [[n-images]] are preserved by [[(∞,1)-pullback]].
+
+=--
+
 
 ## Examples
 
@@ -95,3 +116,5 @@ A [[model category]]-theoretic discussion is in section 8 of
 
 [[!redirects n-connected/n-truncated factorization system]]
 [[!redirects (n-connected, n-truncated) factorization system]]
+
+[[!redirects (n-epi, n-mono) factorization system]]
