@@ -2,11 +2,15 @@
 [[!include monoidal categories - contents]]
 </div>
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 A _semisimple category_ is a category in which each object is a [[direct sum]] of finitely many [[simple objects]].
 
-#Definition#
+## Definition
 
 An [[abelian category]] is called **semisimple** if every object is a direct sum of finitely many [[simple objects]].  See [[semisimple abelian category]].
 
@@ -40,7 +44,7 @@ Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a 
    \]
    is an isomorphism.
 
-# Direct sums of simple objects #
+## Direct sums of simple objects 
 
 Note that this definition implies that every object $V$ is a direct sum of simple objects $X_i$. To see this, note that the third item of the definition is equivalent to stipulating that the vector space $Hom(X_i, V)$ is in canonical duality with the vector space $Hom(V, X_i)$. Indeed, we have a canonical pairing
  \[
@@ -65,7 +69,7 @@ satisfying
 This says precisely that $V$ has been expressed as a direct sum of the $X_i$.
 
 
-#Remarks#
+## Remarks
 
 * The above definition definition of semisimple monoidal linear category (taken from the reference of M&uuml;ger below) does not use the concept of [[abelian category]]. This is because the concepts that one thinks about with abelian categories such as [[kernel]]s and [[cokernel]]s do not play an important conceptual role in semisimple categories, being replaced by the more important concepts of [[biproduct]] and [[retract]]. Hence it is best to give a streamlined definition from first principles without going through the language of abelian categories which would have muddied the waters.
 
@@ -79,15 +83,15 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 
 * For [[2-Hilbert space|2-Hilbert spaces]], there is an antilinear $*$-operation on the hom-sets $* : Hom(V, W) \rightarrow Hom(W,V)$. The presence of this duality in fact forces the category to be semisimple (this comes down to the fact that a finite-dimensional $*$-algebra, such as the hom's between a bunch of objects in the category, must be a full matrix algebra)
 
-#Examples#
+## Examples
 
-* The archetypical simple example is [[Vect]] itself, the category of (finite dimensional!) vector spaces over some [[ground field]] $k$. This has a single isomorphism class of simple objects: given by $k$ itself.
+* The archetypical simple example is [[Vect]] itself, the category of (finite dimensional!) [[vector space]]s over some [[ground field]] $k$. This has a single [[isomorphism]] class of simple objects: given by $k$ itself.
 
-* The category of finite-dimensional [[representations]] of a compact Lie group $G$ is semisimple, with the simple objects being precisely the irreducible representations (this is the content of Schur's lemma). If $G$ is noncompact, one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
+* The category of finite-dimensional [[representations]] of a compact [[Lie group]] $G$ is semisimple, with the simple objects being precisely the [[irreducible representation]]s (this is the content of [[Schur's lemma]]). If $G$ is noncompact, one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
 
 * Every [[fusion category]] is a semisimple category.
 
-# References
+## References
 
 * M. M&uuml;ger, [From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories](http://arxiv.org/math.CT/9812040). 
 
