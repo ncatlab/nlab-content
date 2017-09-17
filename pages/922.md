@@ -74,11 +74,11 @@ _Toby_:  Knowing basically nothing about this, I prefer to see various people ex
 
 * N. R. O'Brian, Geometry of twisting cochains.  Compositio Math.  63  (1987),  no. 1, 41--62.
 
-* D. Toledo, Yue Lin L.  Tong, Duality and intersection theory in complex manifolds. I.  Math. Ann.  237  (1978), no. 1, 41--77; II. The holomorphic Lefschetz formula.  Ann. of Math. (2)  108  (1978), no. 3, 519--538.
+* D. Toledo, Yue Lin L.  Tong, _Duality and intersection theory in complex manifolds. I._  Math. Ann.  __237__  (1978), no. 1, 41--77; II. The holomorphic Lefschetz formula.  Ann. of Math. (2) __108__ (1978), no. 3, 519--538.
 
-* Henri Gillet, The $K$-theory of twisted complexes, in "Applications of algebraic $K$-theory to algebraic geometry and number theory", Part I, II (Boulder, Colo., 1983), 159--191, Contemp. Math., 55, AMS 1986. 
+* [[Henri Gillet]], The $K$-theory of twisted complexes, in "Applications of algebraic $K$-theory to algebraic geometry and number theory", Part I, II (Boulder, Colo., 1983), 159--191, Contemp. Math., 55, AMS 1986. 
 
-* Richard M. Hain, Twisted cochains and duality between minimal algebras and minimal Lie algebras, Trans. AMS 277, 1 (1983) 397--411.
+* Richard M. Hain, _Twisted cochains and duality between minimal algebras and minimal Lie algebras_, Trans. AMS __277__, 1 (1983) 397--411.
 
 
 [[!redirects twisting cochain]]
