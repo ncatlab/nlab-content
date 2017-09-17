@@ -767,7 +767,7 @@ To apply an analogous argument for ${B'}^{hor}$, we combine this kind of identif
 
 $$
   \array{
-    &&&& B'
+    &&&& {B'}^{hor}
     \\
     &&&&& \Box
     \\
@@ -775,7 +775,7 @@ $$
     \\
     &&& \Box
     \\
-    A && \nearrow && B
+    A^{vert} && \nearrow && B
     \\
     & \Box
   }
@@ -845,7 +845,7 @@ intramural isomorphisms, cor \ref{ExtramuralIso}.
 
 $$
   \array{  
-    &&&&&&&& C'
+    &&&&&&&& {C'}^{hor}
     \\
     &&&&&&&& & \Box
     \\
@@ -861,14 +861,14 @@ $$
     \\
     &&& \Box
     \\
-    A'' && \nearrow && B''
+    {A''}^{hor} && \nearrow && B''
     \\
     & \Box
   }
   \,,
 $$
 
-So ${C'}^{hor} \simeq C_{\Box}$ by the intramural iso, then $\dots \simeq A''_\Box$ by this zigzag of extramural isos, and this finally $\cdots \simeq {A''}^{hor} \simeq 0$ by another intramural iso and by assumotion.
+So ${C'}^{hor} \simeq C_{\Box}$ by the intramural iso, then $\dots \simeq A''_\Box$ by this zigzag of extramural isos, and this finally $\cdots \simeq {A''}^{hor} \simeq 0$ by another intramural iso and by assumption.
 
 =--
 
