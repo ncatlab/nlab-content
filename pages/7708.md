@@ -1,4 +1,11 @@
-There are different notions called __structure__
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+There are different notions called __structure__ in [[mathematics]]:
 
 * A concept of a _structure_ is formulated as the basic object of mathematics in the work of [[Bourbaki]], cf. [[structure after Bourbaki]].
 
@@ -6,12 +13,17 @@ There are different notions called __structure__
 
 * [[algebraic structure]]
 
-In [[category theory]] we may talk about functor forgetting structure (formalizing an intuitive, related and in a way more general sense), see
+* In [[category theory]] we may talk about functor forgetting structure (formalizing an intuitive, related and in a way more general sense), see
 
-* [[stuff, structure, property]]
+  [[stuff, structure, property]]
 
-where adding [[extra structure]] and forgetting structure along a functor are formalized.
+  where adding [[extra structure]] and forgetting structure along a functor are formalized.
+
+
+## Related concepts
 
 See also for the theoretical notion of [[structuralism]].
+
+* [[property]]
 
 [[!redirects structures]]
