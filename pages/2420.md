@@ -63,4 +63,8 @@ For some discussion of partition functions of 1-dimensional QFTs see [[(1,1)-dim
 For some discussion of partition functions of 2-dimensional QFTs see [[(2,1)-dimensional Euclidean field theories and tmf]]
 
 
+## References
+
+* Addison Ault, "The partition function: If that's what it is _Why don't they say so!_" ([pdf](http://people.cornellcollege.edu/aault/Chemistry/PartitionFunction1.pdf))
+
 [[!redirects partition functions]]
