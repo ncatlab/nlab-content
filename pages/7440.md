@@ -1494,6 +1494,8 @@ etc. In the [[categorical semantics]] in a [[type-theoretic model category]] thi
 
 ## References
 
+### General
+
 A general abstract formulation is in 
 
 * [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
@@ -1506,6 +1508,9 @@ The model given by complete Segal space objects is due to
 and has since seen a multitude of further developments.
 
 Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Clark Barwick]].
+
+### Formalization in homotopy type theory
+ {#ReferencesFormalizationInHomotopyTypeTheory}
 
 A formalization of internal 1-categories and 1-category theory in [[homotopy type theory]] is discussed in 
 
