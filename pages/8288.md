@@ -229,9 +229,100 @@ The $F$-projective/injective resolutions by [[acyclic objects]] as in example \r
 
 =--
 
+### Resolution of a chain complex
+ {#ResolutionOfAChainComplex}
+
+The above definition \ref{ProjectiveResolution} of a projective resolution of an object has an immediate generalization to resolutions of chain complexes.
+
++-- {: .num_defn #ProjectiveResolutionOfChainComplex}
+###### Definition
+
+For $C_\bullet \in Ch_\bullet(\mathcal{A})$ a [[chain complex]], a **projective resolution** of $C$ is an [[exact sequence]] of chain complexes
+
+$$
+  \cdots 
+  \to Q_{\bullet,2} 
+  \to Q_{\bullet,1} 
+  \to  Q_{\bullet,0} 
+  \to C_\bullet 
+  \to 0
+$$
+
+such that for each $n \in \mathbb{N}$ the component $Q_{n,\bullet} \to C_n$ is a projective resolution of the object $C_n$, according to def. \ref{ProjectiveResolution}.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+A projective resolution as above may in partoicular also be regarded as a [[double complex]] $Q_{\bullet, \bullet}$ equipped with a morphism of double complex to $C_\bullet$ regarded as a vertically constant double complex.
+
+In other words, a projective resolution of a chain complex in an [[abelian category]] $\mathcal{A}$ is a projective resolution of an object in a [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$.
+
+=--
+
+For purposes of computations one is often interested in the following stronger notion.
+
+For any chain complex $C_\bullet$, write $Z_\bullet$, $B_\bullet$, and $H_\bullet$ for the graded objects of [[cycles]], [[boundaries]] and [[homology groups]], respectively, regarded as chain complexes with vanishing [[differentials]].
+ 
++-- {: .num_defn #FullyProjectiveResolutionOfChainComplex}
+###### Definition
+
+A projective resolution $Q_{\bullet,\bullet} \to C_\bullet$ of a chain complex $C_\bullet$, def. \ref{ProjectiveResolutionOfChainComplex}, is called **fully projective** (or **proper**) if furthermore for all $n \in \mathbb{N}$ the induced sequence of (horizontal) [[cycles]]
+
+$$
+  \cdots 
+   \to 
+  Z_{\bullet,2} 
+   \to 
+  Z_{\bullet,1}  
+   \to 
+  Z_{\bullet,0} 
+   \to 
+  Z(C)_\bullet
+   \to 
+  0
+$$
+
+and (horizontal) [[boundaries]]
+
+$$
+  \cdots 
+   \to 
+  B_{\bullet,2} 
+   \to 
+  B_{\bullet,1}  
+   \to 
+  B_{\bullet,0} 
+   \to 
+  B(C)_\bullet
+   \to 
+  0
+$$
+
+and (horizontal) [[homology groups]]
+
+$$
+  \cdots 
+   \to 
+  H_{\bullet,2} 
+   \to 
+  H_{\bullet,1}  
+   \to 
+  H_{\bullet,0} 
+   \to 
+  H(C)_\bullet
+   \to 
+  0
+$$
+
+are each projective resolutions, def. \ref{ProjectiveResolution}, themselves.
+
+=--
+
 ## Properties
 
-### Existence and construction
+### Existence and construction of resolutions for objects
  {#ExistenceAndConstruction}
 
 We first discuss the existence of injective/projective resolutions, and then the [[functor|functoriality]] of their constructions.
@@ -1011,6 +1102,68 @@ To see that $j^\bullet$ is indeed a quasi-isomorphism, consider the [[homology l
 =--
 
 
+### Existence and construction of resolutions of complexes
+ {#ExistenceAndConstructionOfResolutionsOfComplexes}
+
+
++-- {: .num_defn }
+###### Definition
+
+If $\mathcal{A}$ has [[projective object|enough projectives]], then every chain complex $C_\bullet \in Ch_\bullet(\mathcal{A})$ has a fully projective (proper) resolution, def. \ref{FullyProjectiveResolutionOfChainComplex}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that for each $n \in \mathbb{N}$ we have [[short exact sequences]] of [[chains]], [[cycles]], [[boundaries]] and [[homology groups]] as
+
+$$
+  0 \to B_n(C) \to Z_n(C) \to H_n(C) \to 0
+$$
+
+$$
+  0 \to Z_n(C) \to C_n \to B_{n-1}(C) \to 0
+  \,.
+$$
+
+Now by prop. \ref{ExistenceOfInjectiveResolutions} we find for each $n \in \mathbb{N}$ projective resolutions of the objects $H_n(C)$ and $B_n(C)$:
+
+$$
+  H_{n,\bullet} \stackrel{\simeq_{qi}}{\to} H_n(C)
+$$
+
+$$
+  B_{n,\bullet} \stackrel{\simeq_{qi}}{\to} B_n(C)
+  \,.
+$$
+
+Moreover, by prop. \ref{ProjectiveResolutionOfExactSequenceByExactSequence} we find for each $n \in \mathbb{N}$ a projective resolution $Z_{p,\bullet}(C) \stackrel{\simeq_{qi}}{\to} Z_n(C)$ of the object $Z_p(C)$ such that its fits into a [[short exact sequence]] of chain complexes with the previous two chosen resolutions:
+
+$$
+  0 \to B_{n,\bullet}(C) \to Z_{n,\bullet}(C) \to H_{n,0}(C) \to 0
+  \,.
+$$
+
+Analogously, we find for each $n$ a projective resolution $C_{n,\bullet} \to C_n$ that sits in a short exact sequence
+
+$$
+  0 \to Z_{n,\bullet} \to C_{n,\bullet} \to B_{n+1,\bullet} \to 0
+  \,.
+$$
+
+Using the exactness of these sequences one checks now that
+
+1. The $\{C_{n,\bullet}\}_{n \in \mathbb{N}}$ arrange into a [[double complex]] by taking the horizontal differential to be the composite
+
+   $$
+     C_{n,k} \to B_{n+1,k} \hookrightarrow Z_{n+1,k} \to C_{n+1,k}
+     \,;
+   $$
+
+1.  this [[double complex]] $C_{\bullet,\bullet}$ is indeed a fully projective resolution of $C_\bullet$.
+
+=--
 
 ### Functorial resolutions and derived functors
  {#FunctorialResolutions}
