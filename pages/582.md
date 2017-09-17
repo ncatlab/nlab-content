@@ -2,6 +2,15 @@
 * automatic table of contents goes here
 {:toc}
 
+## Idea
+
+A [[monomorphism]] is _regular_ if it behaves like an [[embedding]].
+
+* [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
+
+* [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
+
+
 ## Definition
 
 A **regular monomorphism** is a [[morphism]] $f : c \to d$ in some [[category]] which occurs as the [[equalizer]] of _some_ parallel pair of morphisms $d \stackrel{\to}{\to} e$, i.e. for which a [[limit]] diagram
@@ -67,12 +76,7 @@ Accordingly, it is not unreasonable to define a regular monomorphism for instanc
 
 In practice this is of particular relevance for the $\infty$-version of [[regular epimorphism]]s: with the analogous definition as described there, a morphism $f : c \to d$ is a [[regular epimorphism]] in an [[(∞,1)-category]] $C$ if for all objects $e \in C$ the induced morphism $f^* : C(d,e) \to C(c,e)$ is a [[regular monomorphism]] in [[∞Grpd]] (for instance [[model structure on simplicial sets|modeled]] by a [[homotopy limit]] over a cosimplicial diagram in [[SSet]]).
 
-**Warning** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. But the idea is that the only sensible notion of monomorphism in an [[(∞,1)-category]] is in fact that of regular monomorphism.
-
-+--{: .query}
-[[Mike Shulman]]: I think that that last sentence is false, cf. [[monomorphism in an (∞,1)-category]].
-=--
-
+**Warning** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. 
 
 [[!redirects regular monomorphism]]
 [[!redirects regular monomorphisms]]
