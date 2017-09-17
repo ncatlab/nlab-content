@@ -148,7 +148,7 @@ This appears as ([Johnstone, prop. C2.5.4](#Johnstone)).
 
 * [[site]]
 
-* [[internal locale]]
+* [[internal locale]], [[internal sheaf]]
 
 ## References
 
