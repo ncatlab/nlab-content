@@ -262,6 +262,8 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 * [[lax-idempotent 2-monad]]
 
+* [[idempotent (∞,1)-monad]]
+
 ## References
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
