@@ -16,13 +16,12 @@
 
 ## Definition 
 
-A [[topological space]] $X$ is **paracompact** if every [[open cover]] $\{U_i \to X\}$ has a [[refinement]] by an open covering $\{V_j \to X\}$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many of the  open subsets $V_j$.
+A [[topological space]] $X$ is called **paracompact** if every [[open cover]] $\{U_i \to X\}$ has a [[refinement]] by an open covering $\{V_j \to X\}$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many of the  open subsets $V_j$.
 
 #### Terminological variants
 
-The notion of paracompact space is introduced by Dieudonne in 1944. 
-Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well; the issues here are the same as those for [[compact space]]s.  Like for compactum,  is also a common convention that even if for paracompactness one does not require Hausdorff property the term __paracompactum__ denotes a paracompact Hausdorff space. 
-
+The notion of paracompact space was introduced by Dieudonne in 1944. 
+Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well. The term _paracompactum_ accordingly often denotes a paracompact and Hausdorff space. This convention is in line with that for compact spaces.
 
 ## Examples 
 
