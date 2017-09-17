@@ -57,6 +57,11 @@ There is also
 | | | [[!include SVG short nwsearrow]] [[U-duality]] | $\updownarrow$ [[T-duality]] on $T^2$ |
 | | [[D3-brane]] in [[type II supergravity|IIB sugra]] |  $\leftarrow$[[S-duality]]$\rightarrow$ |
  [[D3-brane]] in [[type II supergravity|IIB sugra]] |
+
+## Related concepts
+
+* [[duality in physics]]
+
 ## References
 
 ### Original articles
