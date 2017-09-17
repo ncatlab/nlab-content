@@ -36,6 +36,14 @@ The component $H \in End(\mathcal{H})$ of this canonical 1-form is the **Hamilto
 
 Its [[parallel transport]] is the **time evolution** of quantum states.
 
+###Physical meaning and relation to unitary transformations
+
+The [[eigenvalues]] of the Hamiltonian operator for a quantum system are exactly the energy eigenvalues of that system.  Thus the Hamiltonian is interpreted as being an "energy" operator.  Conservation of energy occurs when the Hamiltonian is time-independent.
+
+Transformations and evolutions in standard quantum mechanics are represented via [[unitary operators]] where a time evolving unitary is related to the Hamiltonian via
+
+$U = $exp$\left(-\frac{i}{\hbar}Ht\right)$.
+
 
 [[!redirects Hamiltonian]]
 [[!redirects hamiltonian]]
