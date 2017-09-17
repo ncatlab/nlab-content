@@ -89,12 +89,7 @@ This is an example of a link that shows the difference between the two notions o
 
 ### Brunnian links
 
-A _Brunnian link_ is a non-trivial link which has the property that the removal of any of its components results in an unlink.  The Borromean rings above are an example of a Brunnian link.  Whether or not the Hopf link is will hopefully be decided by the answers to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link).
-
-+-- {: .query}
-Now that they said Yes, should we ask whether the Hopf link is considered to be a Borromean link?  It seems to me that it should be (and in fact so should the unknot and the empty link).  ---Toby
-=--
-
+A _Brunnian link_ is a non-trivial link which has the property that the removal of any of its components results in an unlink.  Technically, this includes the Hopf link and any knot (thanks to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link) for settling that issue). The Borromean rings above are an example of a Brunnian link with three components.
 
 ## References
 
