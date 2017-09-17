@@ -87,6 +87,14 @@ Reply: Why is $a$ an identity then?  This works if the rng is commutative: given
 
 It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
 
+## Related concepts
+
+* [[unit object]]
+
+* [[unit of an adjunction]]
+
+* [[unit of a monad]]
+
 
 [[!redirects unit]]
 [[!redirects units]]
