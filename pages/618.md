@@ -1,15 +1,15 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context###
 #### Topos theory
-+--{: .hide}
++-- {: .hide}
 [[!include topos theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -73,13 +73,14 @@ If $C$ is a site, a presheaf $X:C^{op}\to Set$ is called a **sheaf** on $C$ if i
 The [[category of sheaves]] $Sh(C)$ is a full [[subcategory]] of the category $[C^{op},Set]$ of presheaves.  If $C$ is subcanonical, then its [[Yoneda embedding]] $C\to [C^{op},Set]$ factors through $Sh(C)$.  If $C$ is small, then $Sh(C)$ is [[reflective subcategory|reflective]] in $[C^{op},Set]$ and a [[Grothendieck topos]].
 
 
-### Sites with pullbacks 
+### Sites with pullbacks
+{#cartesian}
 
 If, as is frequently the case, $C$ has [[pullback|pullbacks]], then it is natural to impose the following stronger condition:
 
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and $g:V\to U$ is a morphism, then the family of pullbacks $\{g^*(f_i):g^*U_i\to V\}$ is a covering family of $V$.
 
-One can also impose the weaker condition that the pullbacks of covering families exist and are covering families, even if not all pullbacks exist in $C$.  The saturation conditions below imply that on a category with pullbacks, every coverage is equivalent to one satisfying this stronger condition.
+One can also impose the weaker condition that the pullbacks of covering families exist and are covering families, even if not all pullbacks exist in $C$.  The saturation conditions below imply that on a category with pullbacks, every coverage is equivalent to one satisfying this stronger condition, which perhaps we may call a __cartesian coverage__.
 
 Likewise, when $C$ has pullbacks (of covering families), the condition for a presheaf $X$ to be a sheaf for a covering family $\{f_i:U_i\to U\}_{i\in I}$ can be stated more simply (and probably more familiarly, to some readers), as the assertion that the following diagram is an [[equalizer]]:
 \[
