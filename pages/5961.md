@@ -10,6 +10,8 @@ a sub-[[vector space]]
 
 Similarly for a [[symplectic manifold]]. See _[[Lagrangian submanifold]]_ .
 
+The collection of all Lagrangian subspaces of a given space is called its [[Lagrangian Grassmannian]].
+
 [[!redirects lagrangian subspace]]
 
 [[!redirects lagrangian subspaces]]
