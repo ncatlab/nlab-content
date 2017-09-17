@@ -19,9 +19,9 @@
 
 ## Idea
 
-A _Jordan-Lie-Banach algebra_ (or _JLB-algebra_ for short) is a [[topology|topological]] [[algebra]] that behaves like a [[Poisson algebra]], only that the commutative product is not required to form an [[associative algebra]], but just a [[Jordan algebra]]. Hence a _JLB-algebra_ is a _nonassociative Poisson algebra_ with topology.
+A _Jordan-Lie-Banach algebra_ (or _JLB-algebra_ for short) is a [[topological vector space|topological]] [[nonassociative algebra|algebra]] that behaves like a [[Poisson algebra]], only that the commutative product is not required to form an [[associative algebra]], but just a [[Jordan algebra]]. Hence a _JLB-algebra_ is a _nonassociative Poisson algebra_ with topology.
 
-JLB-algebras are the outcome of [[quantization]] of [[Poisson algebra]]s. Often that outcome is regarded to be a non-commutative but associative [[C-star-algebra]]. But any such induces a JLB-algebra by letting the Jordan product be the symmetrized product and the Lie bracket the [[commutator]]. There is a condition relating the [[associator]] of the JLB-algebra to the Lie bracket, that characterizes those JLB-algebras that come from non-commutative associative algebras, and in the usual definition of JLB-algebra this condition is required. In that case JLB-algebras are effectively the same as $C^*$-algebras, the only difference being that the single assocative product is explcitly regarded as inducing the two products of a non-associative Poisson algebra.
+JLB-algebras are the outcome of [[quantization]] of [[Poisson algebra]]s. Often that outcome is regarded to be a non-commutative but associative [[C-star-algebra]]. But any such induces a JLB-algebra by letting the Jordan product be the symmetrized product and the Lie bracket the [[commutator]] (times $-\mathrm{i}/2$). There is a condition relating the [[associator]] of the JLB-algebra to the Lie bracket, that characterizes those JLB-algebras that come from non-commutative associative algebras, and in the usual definition of JLB-algebra this condition is required. In that case JLB-algebras are effectively the same as $C^*$-algebras, the only difference being that the single assocative product is explcitly regarded as inducing the two products of a non-associative Poisson algebra.
 
 
 ## Definition
@@ -32,7 +32,7 @@ A __JLB-algebra__ (over the [[real numbers]]) consists of a [[Banach space]] $A$
 * Lie anticommutativity: $x \bullet x = 0$, or equivalently (given bilinearity) $x \bullet y = -y \bullet x$;
 * the Jacobi identity (Lie self-derivation): $x \bullet (y \bullet z) = (x \bullet y) \bullet z + y \bullet (x \bullet z)$, or equivalently (given anticommutativity) $x \bullet (y \bullet z) + y \bullet (z \bullet x) + z \bullet (x \bullet y) = 0$;
 * Jordan derivation: $x \bullet (y \circ z) = (x \bullet y) \circ z + y \circ (x \bullet z)$;
-* the associator identity: $(x \circ y) \circ z - x \circ (y \circ z) = ((x \bullet z) \bullet y)$;
+* the associator identity: $x \circ (y \circ z) = (x \circ y) \circ z + y \bullet (x \bullet z)$, or equivalently (given anticommutativity) $(x \circ y) \circ z - x \circ (y \circ z) = (x \bullet z) \bullet y$;
 * the $B$-identity: ${\|x \circ x\|} = {\|x\|^2}$ (compare the $B^*$-identity or $C^*$-identity of a $C^*$-[[C-star-algebra|algebra]]);
 * positivity: ${\|x \circ x \|} \leq {\|x \circ x + y \circ y\|}$.
 
@@ -67,7 +67,7 @@ Conversely, starting with a $C^*$-algebra $A$, we form the subspace $sa(A) = \{x
 
 If the $C^*$-algebra has an identity, then this is also an identity for the Jordan product.
 
-This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras, which in fact form an [[equivalence of categories|equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras and a [[category]] $JLB Alg$.
+This all defines a [[functor]] each way between the [[groupoids]] of $C^*$-algebras and $JLB$-algebras, which in fact (I hope!) form an [[equivalence of categories|equivalence]].  Since we have a notion of [[morphism]] (not just [[isomorphism]]) of $C^*$-algebras, we can transport this along the equivalence to get a notion of morphism of $JLB$-algebras (which I would expect to be a short linear map that preserves both products) and thus a [[category]] $JLB Alg$.
 
 
 ## References
