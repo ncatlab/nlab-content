@@ -73,7 +73,12 @@ Also: The [[higher parallel transport|higher]] holonomy of [[circle n-bundles wi
 
   * [[Wilson loop]]
   
+* [[fiber integration in differential cohomology]]
+
   * [[fiber integration in ordinary differential cohomology]]
+
 
 [[!redirects holonomies]]
 [[!redirects higher holonomy]]
+
+[[!redirects Ambrose-Singer theorem]]
