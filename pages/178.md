@@ -932,7 +932,7 @@ For the moment see [simplicial group - delooping](http://ncatlab.org/nlab/show/s
 For the moment see the discussion about geometric realization further above.
 
 
-#### Lie-integrated $\infty$-Lie groupoids
+#### Lie-integrated $\infty$-Lie groupoids {#LieIntegrated}
 
 > under construction
 
