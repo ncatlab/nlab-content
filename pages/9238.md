@@ -519,7 +519,7 @@ A famous example of this is the [[topological twist|topologically twisted]][[2d 
 
 ## Related concepts
 
-* [[Gaussian probability distribution]]
+* [[Gaussian probability distribution]], [[Gaussian integral]]
 
 * [[Wick's lemma]]
 
