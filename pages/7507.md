@@ -41,7 +41,7 @@ Conversely, $\eta$-expansion expands any bare function term $f$ to the form $\la
 
 ### For product types
 
-Although function types are the most publicized notion of $\eta$-reduction, basically all types in type theory can have a form of it.  For instance, in the negative presentation of a [[product type]] $A \times B$, the constructor is an [[ordered pair]] $(a,b)\colon A\times B$, while the eliminators are projections $\pi_1$ and $\pi_2$ which yield elements of $A$ or $B$.
+Although function types are the most publicized notion of $\eta$-reduction, basically all types in type theory can have a form of it.  For instance, in the [[negative type|negative]] presentation of a [[product type]] $A \times B$, the constructor is an [[ordered pair]] $(a,b)\colon A\times B$, while the eliminators are projections $\pi_1$ and $\pi_2$ which yield elements of $A$ or $B$.
 
 The $\eta$-expansion rule then says that for a term $p\colon A\times B$, the term $(\pi_1 p, \pi_2 p)$ --- the constructor applied to the eliminators --- is equivalent to $p$ itself.  (Again, we do not repeat the $\eta$-expansion, as this would produce a $\beta$-redex.)  If we use $\eta$-reduction instead, then we simplify any subterm of the form $(\pi_1 p, \pi_2 p)$ to $p$ (and leave anything not of that form alone).
 
@@ -50,7 +50,9 @@ The $\eta$-expansion rule then says that for a term $p\colon A\times B$, the ter
 
 Above we did a product type with two factors, although it\'s easy to generalise to any [[natural number]] of factors.  The case with zero factors is known as the [[unit type]], and $\eta$-conversion behaves a bit oddly there; let us examine it.
 
-In the negative presentation of the unit type $1$, the constructor is an [[empty list]] $()\colon 1$, while there are no eliminators.  The $\eta$-expansion rule then says that any term $p\colon 1$ is equivalent to the term $()$ --- the constructor applied to no eliminators.  In this case, if we repeat the $\eta$-expansion, this does not produce a $\beta$-redex (indeed, there is *no* $\beta$-reduction for the unit type), but simply makes no change.  If we try to apply $\eta$-reduction to $()$, then this is ill-defined; we could 'simplify' this to *any* term $p\colon 1$ that we might be able to construct.
+In the [[negative type|negative]] presentation of the unit type $1$, the constructor is an [[empty list]] $()\colon 1$, while there are no eliminators.  The $\eta$-expansion rule then says that any term $p\colon 1$ is equivalent to the term $()$ --- the constructor applied to no eliminators.  In this case, if we repeat the $\eta$-expansion, this does not produce a $\beta$-redex (indeed, there is *no* $\beta$-reduction for the unit type), but simply makes no change.  If we try to apply $\eta$-reduction to $()$, then this is ill-defined; we could 'simplify' this to *any* term $p\colon 1$ that we might be able to construct.
+
+The [[positive type|positive]] presentation of the unit type does have a well-defined $\eta$-reduction, however; see [[unit type]].
 
 
 ## Implementation
