@@ -153,3 +153,4 @@ More on this is in
 [[!redirects elliptic genera]]
 
 [[!redirects Ochanine genus]]
+[[!redirects Ochanine elliptic genus]]
