@@ -11,7 +11,6 @@
  [[false]]                      |   [[initial object]]                      |  [[empty type]]
  [[proposition]]                |   [[(-1)-truncated object]] |  [[h-level 1]]-[[type]]/[[h-prop]] 
  [[proof]]                      |   [[generalized element]]                  | [[program]]
- [[classical type theory]]      |   [[internal logic]]       |   [[classical type theory]], [[logic programming]]
  [[cut rule]]                   |   [[composition]]                      |   [[substitution]]
  [[cut elimination]]            |   [[counit]]           |   [[beta reduction]]
  ?                              |   [[unit]]             |   [[eta conversion]]
