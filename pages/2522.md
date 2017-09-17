@@ -192,3 +192,5 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 [[!redirects global supersymmetries]]
 
 [[!redirects supersymmetric]]
+
+[[!redirects supersymmetric quantum field theory]]
