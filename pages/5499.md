@@ -109,7 +109,7 @@ $R^n$ and $l$ is a member of some set
 $L$ of symbolic labels. For instance, the $p$ might be 
 elements of some space whose dimensions measure a voter's preference for 
 various policies; the $l$ could then be the possible parties, 
-${green,labour,libdem,tory}$. Generalisation is nearest-neighbour 
+$\{green,labour,libdem,tory\}$. Generalisation is nearest-neighbour 
 prediction. The concept is a function which extends the set of pairs 
 $\langle{p,l}\rangle$, mapping every point in $R^n$ to a 
 label. It can therefore be used to predict the preferred party of other 
