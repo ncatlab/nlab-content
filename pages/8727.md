@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +24,22 @@ A braided 3-group is a [[braided ∞-group]] which is a [[3-group]].
 
 ## Related concepts
 
-* [[k-tuply groupal n-groupoid]]
+* [[∞-group]], [[k-tuply groupal n-groupoid]]
+
+* [[braided ∞-group]],
+
+  * [[braided 2-group]]
+
+  * **braided 3-group**
+
+* [[sylleptic ∞-group]]
+
+  * [[sylleptic 3-group]]
+
+* [[abelian ∞-group]]
+
+  * [[symmetric 2-group]]
+
 
 [[!redirects braided 3-groups]]
 
