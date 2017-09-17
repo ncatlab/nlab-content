@@ -58,6 +58,8 @@ are [[weak equivalences]].
 
 The notion of 2-Segal space above is due to [[Mikhail Kapranov]] and Tobias Dyckerhoff.
 
+* Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([ArXiv](http://arxiv.org/abs/1212.3563))
+
 * Tobias Dyckerhoff, _Higher Segal spaces _, talk at Steklov Mathematical Institute (2011) ([video](http://www.mathnet.ru/php/presentation.phtml?presentid=3718&option_lang=eng))
  {#DyckerhoffKapranov}
 
