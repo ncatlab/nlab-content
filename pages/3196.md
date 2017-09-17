@@ -5,7 +5,7 @@
 
 ## Idea
 
-**Morse theory** is the method of studying the topology of a [[smooth manifold]] $M$ by the study of [[Morse functions]] $M\to\mathbb{R}$ and their associated gradient flows. 
+**Morse theory** is the method of studying the [[topology]] of a [[smooth manifold]] $M$ by the study of [[Morse functions]] $M\to\mathbb{R}$ and their associated [[gradient flows]]. 
 
 Classical Morse theory centered around simple statements like Morse inequalities, concerning just the [[Betti number]]s. It is useful not only for studying manifolds, but also for studying infinite CW-type spaces *homotopically filtered in manifolds*, as by Milnor and Bott (especially *The stable homotopy of the classical groups*) for spaces of paths in a smooth manifold.
 
