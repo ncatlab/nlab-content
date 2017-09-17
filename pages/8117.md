@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +20,7 @@ Weinstein suggested that [[geometric quantization]] should yield a representatio
 
 * objects are symplectic manifolds $(X, \omega)$;
 
-* morphisms $(X_1,\omega_1) \to (X_2,\omega_2)$ are [[Lagrangian correspondences]]: Lagrangian submanifolds of $(X_1, \omega_1) \times (X_2, -\omega_2)$;
+* morphisms $(X_1,\omega_1) \to (X_2,\omega_2)$ are [[Lagrangian correspondences]]: [[Lagrangian submanifolds]] of $(X_1, \omega_1) \times (X_2, -\omega_2)$;
 
 and composition is given by taking fiver products of these Lagrangian submanifolds.
 
