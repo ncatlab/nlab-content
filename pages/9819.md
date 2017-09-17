@@ -1,0 +1,22 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Examples
+
+* [[cosmic Galois group]]
+
+## Related concepts
+
+* [[Galois theory]]
+
+* [[motive]]
+
+## References
+
+* [[Bruno Kahn]], _Motivic Galois groups_ ([pdf](http://www.math.jussieu.fr/~kahn/preprints/PaloAlto2.pdf))
+
+[[!redirects motivic Galois groups]]
+
