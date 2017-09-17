@@ -38,6 +38,6 @@ A **groupoid object in** $C$ is an [[internal category]] $A$ such that there is 
 
 * [[groupoid]], [[groupoid object]], [[groupoid object in an (∞,1)-category]]
 
-* [[infinity-groupoid]], [[infinity-groupoid object]], [[infinity-groupoid object in an (∞,1)-category]]
+* [[infinity-groupoid]], [[infinity-groupoid object]], [[groupoid object in an (∞,1)-category]]
 
 * [[ring]], [[ring object]]
