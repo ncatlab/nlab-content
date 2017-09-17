@@ -35,9 +35,9 @@ More generally:
 +-- {: .num_defn}
 ###### Definition
 
-A __separating family__ of objects in $\mathcal{C}$, which is a (usually [[small set|small]]) [[set]] $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $\mathcla{C}$ such that the family $C(S_a,-)$ is jointly faithful. 
+A __separating family__ of objects in $\mathcal{C}$ is a (usually [[small set|small]]) [[set]] $\mathcal{S} = \lbrace S_a, a\in A\rbrace$ of objects in $\mathcal{C}$ such that the family $C(S_a,-)$ is jointly faithful. 
 
-This means that for any pair $f_1,f_2\in C(X,Y)$, if they are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
+This means that if $f_1,f_2\in C(X,Y)$ are indistinguishable by morphisms from $\mathcal{S}$ in the sense that
 
 $$ 
   \forall (a: A),\; \forall (\theta: S_a \to X),\; 
