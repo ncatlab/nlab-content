@@ -1,4 +1,35 @@
 
+
+> This page is growing incrementally as a lecture series proceeds.
+
+***
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Contents
++-- {: .hide}
+#Contents#
+* automatic table of contents
+{:toc}
+=--
+=--
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+# Test
+
+## About this page
+
 +-- {: .standout}
 Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***` in the source) and don\'t worry about messing things up.
 =--
