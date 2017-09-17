@@ -20,7 +20,7 @@
 
 ## Definition
 
-For $(\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd$ a [[cohesive (∞,1)-topos]], we call
+For $(\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd$ a [[cohesive (∞,1)-topos]], we call the action of the [[shape modality]]
 
 $$
   {\vert \Pi (- )\vert} : \mathbf{H} \stackrel{\Pi}{\to} \infty Grpd \stackrel{\vert - \vert}{\to} Top
@@ -44,7 +44,10 @@ In $\mathbf{H} = $ [[ETop∞Grpd]] the geometric realization of cohesive $\infty
 
   * [[geometric realization of categories|of categories]], [[geometric realization of simplicial topological spaces|of simplicial topological spaces]], **of cohesive ∞-groupoids**
 
-  * [[shape]]
+  * [[shape]], [[shape modality]]
 
 [[!redirects geometric realization in a locally ∞-connected (∞,1)-topos]]
+
+[[!redirects geometric realization of a cohesive homotopy type]]
+[[!redirects geometric realization of cohesive homotopy types]]
 
