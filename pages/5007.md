@@ -14,3 +14,4 @@ To include this picture in a page, write
 [[!redirects Borromean rings]]
 [[!redirects Borromean links]]
 [[!redirects Borromean ring]]
+
