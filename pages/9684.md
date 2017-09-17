@@ -1467,7 +1467,7 @@ The study of local prequantum [[schreiber:∞-Chern-Simons theory]] with its cod
 * [[Domenico Fiorenza]], [[Urs Schreiber]] et al., _[[schreiber:Higher Chern-Simons local prequantum field theory]]_
  {#hCSlpQFT}
 
-Much of the content of this entry here are, or arose, as lecture notes for
+Much of the content of this entry here are, or arose as, lecture notes for
 
 * [[Urs Schreiber]], _Lectures on higher Chern-Simons field theory_, at the workshop _[Chern-Simons Theory: Geometry, Topology and Physics](http://www.pitt.edu/~jdeblois/CS.html)_ University of Pittsburgh (May 2013)
  {#SchreiberPittLectures}
