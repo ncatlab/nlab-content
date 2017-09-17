@@ -24,3 +24,6 @@ Using the [[axiom of extensionality]], one can prove that the set $U$ above is u
 ## Related notions
 
 If $\mathcal{X}$ is given as a collection of [[subsets]] of some ambient [[set]], then the axiom of union is not necessary.  This is the only case when unions are taken in [[structural set theory]].  However, structural set theory in [[predicative mathematics]] requires an axiom giving the existence of [[disjoint unions]].  (In impredicative mathematics, we can construct disjoint unions from [[power sets]] and [[cartesian products]].)
+
+
+category: foundational axiom
