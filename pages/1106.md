@@ -269,6 +269,10 @@ Examples:
 
 ### VII 10. Morphisms between sites
 
+* [[morphism of sites]]
+
+* [[covering lifting property]]
+
 
 ##VIII Classifying Topoi
 
