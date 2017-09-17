@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 There are several concepts often called a **path category**.
 
 #Contents#
@@ -34,3 +44,6 @@ Given a [[category]] $X$, the [[functor category]] $[I,X]$ for $I$ the [[interva
 
 
 [[!redirects free category]]
+[[!redirects free categories]]
+
+[[!redirects path categories]]
