@@ -206,7 +206,7 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 {#Ferus}
 
 
-* [[Raoul Bott]] [[Loring Tu]], _Differential forms in algebraic topology_ 
+* [[Raoul Bott]],  [[Loring Tu]], _Differential forms in algebraic topology_ 
 {#BottTu}
 
 [[!redirects good cover]]
