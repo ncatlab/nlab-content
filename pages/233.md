@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -141,7 +141,7 @@ such that this satisfies the axioms of an [[action]], in that the following are 
 
 $$
   \array{
-     A \otimes A \otimes N &\stackrel{}{\to}& A \otimes N
+     A \otimes A \otimes N &\stackrel{id_A \otimes \rho}{\to}& A \otimes N
      \\
      \downarrow^{\mathrlap{\cdot \otimes id_n}} && \downarrow^{\mathrlap{\rho}}
      \\
@@ -254,31 +254,6 @@ A **module** $N$ over a ring $R$ is
 
 =--
 
-+-- {: .num_remark }
-###### Remark
-
-Equivalently, this can be expressed in [[enriched category theory]]:
-
-Write $\mathbf{B}R$ for the [[Ab-enriched category]] with a single object and [[hom-object]] $R = \mathbf{B}A(\bullet, \bullet)$.
-
-Then an $R$-module $N$ is equivalently an $Ab$-[[enriched functor]]
-$$   
-  N : \mathbf{B}R \to Ab 
-  \,.
-$$
-
-This makes manifest that the category $R$[[Mod]] is 
-an [[Ab-enriched category]], namely the
-[[Ab]]-[[enriched functor category]] 
-
-$$
-  R Mod \simeq [\mathbf{B}R,Ab]  
-  \,.
-$$
-
-This point of view is discussed further [below](#InEnrichedCategory).
-
-=--
 
 +-- {: .num_remark }
 ###### Remark
@@ -302,27 +277,23 @@ yet another way of defining $R$-modules. This we turn to
 #### $G$-sets 
  {#GSets}
 
-Classically the notion of module is always regarded internal to [[Ab]], so that a module is always an abelian group with extra structure. But noticing that such abelian ring modules are just enriched presheaves in [[Ab]]-[[enriched category theory]], it makes sense to consider enriched presheaves in general $V$-enriched category theory as a natural generalization of the notion of module.
+Simpler than the traditionally default notion of a module in 
+$(An,\otimes)$, as [above](#Rings) is that of a module in 
+[[Set]], equipped with its [[cartesian monoidal category|cartesian monoidal structure]].
+(These days one may want to think of this as a notion of modules 
+over [[F1]].)
 
-For that generalization the case of [[Set]]-[[enriched category theory]] plays a special basic role:
+A [[monoid object]] in $(Set,\times)$ is just a [[monoid]], for 
+instance a [[discrete group]] $G$. A $G$-module in $(Set,\times)$
+is simpy an [[action]], say a [[group action]].
 
-a [[group]] $G$ (with no extra structre, i.e. just a [[set]] with group structure) is a monoid in [[Set]]. A module over $G$ in the sense of [[Set]]-[[enriched functor]] (just an ordinary [[functor]])
-
-$$
-  \mathbf{B}G \to Set
-$$
-
-is nothing but a **$G$-set**: a [[set]] equipped with a $G$-action:
-
-$\mathbf{B}G$ is the [[small category]] that is the [[delooping]] [[groupoid]] of $G$, which has a single object and $Hom_{\mathbf{B}G}(\bullet,\bullet) = G$. The functor $\mathbf{B}G \to Set$ takes the single object to some set $S$ and takes each morphism $(\bullet \stackrel{g}{\to} \bullet)$ to an [[automorphism]] $\rho(g) : S \to S$ of that set, such that composition is respected. This is just a [[representation]] of $G$ on the set $S$.
-
-Of course for this story to work, $G$ need not be a group, but could be any [[monoid]].
+More on this [below](#GSetsAsPrequeaves).
  
 
 ### Presheaves in enriched category theory
  {#InEnrichedCategory}
 
-Equivalently, regarding the [[monoid]] $A$ as a one-object $V$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-[[enriched functor]]
+Equivalently, regarding the [[monoid]] $A$ as a one-object $\mathcal{V}$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-[[enriched functor]]
 
 $$
   \rho : \mathbf{B}A \to V
@@ -350,6 +321,50 @@ $$
 $$
 
 are _$K$-$L$-[[bimodule]]s_, also known as _profunctors_ or _[[distributor]]s_ from $K$ to $L$.
+
+#### Modules over a ring
+
+
+For $R$ a ring, write $\mathbf{B}R$ for the [[Ab-enriched category]] with a single object and [[hom-object]] $R = \mathbf{B}A(\bullet, \bullet)$.
+
+Then an $R$-module $N$ is equivalently an [[Ab]]-[[enriched functor]]
+$$   
+  N : \mathbf{B}R \to Ab 
+  \,.
+$$
+
+This makes manifest that the category $R$[[Mod]] is 
+an [[Ab-enriched category]], namely the
+[[Ab]]-[[enriched functor category]] 
+
+$$
+  R Mod \simeq [\mathbf{B}R,Ab]  
+  \,.
+$$
+
+
+
+
+#### $G$-Sets
+ {#GSetsAsPrequeaves}
+
+Classically the notion of module is always regarded internal to [[Ab]], so that a module is always an abelian group with extra structure. But noticing that such abelian ring modules are just enriched presheaves in [[Ab]]-[[enriched category theory]], it makes sense to consider enriched presheaves in general $V$-enriched category theory as a natural generalization of the notion of module.
+
+For that generalization the case of [[Set]]-[[enriched category theory]] plays a special basic role:
+
+a [[group]] $G$ (with no extra structre, i.e. just a [[set]] with group structure) is a monoid in [[Set]]. A module over $G$ in the sense of [[Set]]-[[enriched functor]] (just an ordinary [[functor]])
+
+$$
+  \mathbf{B}G \to Set
+$$
+
+is nothing but a **$G$-set**: a [[set]] equipped with a $G$-action:
+
+$\mathbf{B}G$ is the [[small category]] that is the [[delooping]] [[groupoid]] of $G$, which has a single object and $Hom_{\mathbf{B}G}(\bullet,\bullet) = G$. The functor $\mathbf{B}G \to Set$ takes the single object to some set $S$ and takes each morphism $(\bullet \stackrel{g}{\to} \bullet)$ to an [[automorphism]] $\rho(g) : S \to S$ of that set, such that composition is respected. This is just a [[representation]] of $G$ on the set $S$.
+
+Of course for this story to work, $G$ need not be a group, but could be any [[monoid]].
+
+
 
 
 
@@ -432,7 +447,8 @@ This says that $R \oplus N$ is a square-0 extension of $R$. Conversely, for ever
 For instance the square-0-extension of a ring $R$ corresponding to the canonical $R$-module structure on $R$ itself is the [[ring of dual numbers]] for $R$. 
 
 
-#### Example: Modules over simplicial rings {#SimpRings}
+#### Modules over a simplicial ring 
+ {#SimpRings}
 
 Let $sAlg_k$ (or $sAlg$ for short) be the [[(∞,1)-category]] of commutative [[simplicial ring|simplicial algebras]] over a base field $k$. 
 
