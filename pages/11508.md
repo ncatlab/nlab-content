@@ -19,7 +19,7 @@
 
 ## Idea
 
-The universal [[elliptic cohomology]] [[cohomology theory|cohomology]] called [[tmf]] may be realized (after [[local spectrum|localization]] at some primes) as the [[homotopy fixed points]] of an [[∞-action]] of the [[modular group]] modulo a [[congruence subgroup]] in direct analogy to how [[KO-theory]] arises as the $\mathbb{Z}_2$-homotopy fixed points of [[KU-theory]] ([Mahowald-Rezk 09](#MahowaldRezk09), [Lawson-Naumann 12](#LawsonNaumann12)). This construction extends to equip [[tmf]] with essentially the structure of a _[[Bredon cohomology|genuine]]_ [[modular group]]-[[equivariant cohomology]] theory ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
+The universal [[elliptic cohomology]] [[cohomology theory|cohomology]] called [[tmf]] may be realized (after [[local spectrum|localization]] at some primes) as the [[homotopy fixed points]] of an [[∞-action]] of the [[modular group]] modulo a [[congruence subgroup]] in direct analogy to how [[KO-theory]] arises as the $\mathbb{Z}_2$-homotopy fixed points of [[KU-theory]] ([Mahowald-Rezk 09](#MahowaldRezk09), [Lawson-Naumann 12](#LawsonNaumann12)). This construction extends to equip [[tmf]] [[level structure on an elliptic curve|for level structure]] with -- almost -- the structure of a [[naive G-spectrum]] (hence a [[Bredon cohomology|Bredon equivariant cohomology theory]]) for pieces of the [[modular group]] ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
 
 ### General
 
