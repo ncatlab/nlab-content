@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -91,7 +90,7 @@ Traditionally, the composite of $f$ and $g$ as above is written $g \circ f$, fol
 
 On the other hand, reading a diagram
 $$ x \stackrel{f}\to y \stackrel{g}\to z $$
-the notation $f g$ reads better.  One way to make this anti-Leibniz convention clearer is to write $f ; g$ (which is based on the interpretation of programming commands as morphisms in theoretical computer science).  Since this convention is motivated by the drawing of diagrams, it is also sometimes called **diagrammatic order**.
+the notation $f g$ reads better.  One way to make this anti-Leibniz convention clearer is to write $f ; g$ (which is based on the interpretation of programming commands as morphisms in theoretical computer science).  Since this convention is motivated by the drawing of diagrams, it is also sometimes called **diagrammatic order**. Another way is to write $f^* g$, which interprets $g$ as pulling back along $f$ to the composite.
 
 Therefore, the notations $g f$ and $f g$ are ambiguous, while $g \circ f$ and $f ; g$ are less so.  It seems that the notation $g f$ for $g\circ f$ is more common than $f g$ for $f ; g$, although the $f g$ notation occurs in some important older papers.
 
