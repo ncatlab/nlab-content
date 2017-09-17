@@ -1,0 +1,23 @@
+
+
+
+## References
+
+Over the complex numebers:
+
+* {#Hain08} Richard Hain, section 4.2 of _Lectures on Moduli Spaces of Elliptic Curves_ ([arXiv:0812.1803](http://arxiv.org/abs/0812.1803))
+
+Over general base rings:
+
+* {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
+
+* {#HillLawson13} [[Michael Hill]], [[Tyler Lawson]], _Topological modular forms with level structure_ ([arXiv:1312.7394](http://arxiv.org/abs/1312.7394))
+
+[[!redirects level structures on an elliptic curve]]
+
+[[!redirects level structures on elliptic curves]]
+
+[[!redirects level N-structure]]
+[[!redirects level N structure]]
+[[!redirects level N-structures]]
+[[!redirects level N structures]]
