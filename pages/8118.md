@@ -1,0 +1,19 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Yangian_ is a certain [[quantum group]] that arises naturally in [[integrable systems]] in [[quantum field theory]].
+
+## References
+
+* Wikipedia, _[Yangian](http://en.wikipedia.org/wiki/Yangian)_ 
+
+* N. J. Mackay, _Introduction to Yangian symmetry in integrable field theory_ ([arXiv:hep-th/0409183](http://arxiv.org/abs/hep-th/0409183))
+
+* [[Vassili Gorbounov]], R. Rimanyi, V. Tarasov, A. Varchenko, _Cohomology of the cotangent bundle of a flag variety as a Yangian Bethe algebra_ ([arXiv:1204.5138](http://arxiv.org/abs/1204.5138))
+
+[[!redirects Yangians]]
