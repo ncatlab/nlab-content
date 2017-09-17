@@ -285,7 +285,7 @@ The above prop. \ref{AsContinuousFunctorOverOpenSubsets} shows that often sheave
 +-- {: .num_prop #AsContinuousFunctorsOnCanonicalTopology}
 ###### Proposition
 
-Let $\mathcal{T}$ be be a [[topos]], regarded as a [[large site]] when equipped with the [[canonical topology]]. Then a [[presheaf]] on $\mathcal{T}$ is a sheaf precisely if it sends all [[colimits]] to [[limits]].
+Let $\mathcal{T}$ be be a [[topos]], regarded as a [[large site]] when equipped with the [[canonical topology]]. Then a [[presheaf]] (with values in [[small sets]]) on $\mathcal{T}$ is a sheaf precisely if it sends all [[colimits]] to [[limits]].
 
 =--
 
