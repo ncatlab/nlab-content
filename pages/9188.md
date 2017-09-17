@@ -8,3 +8,5 @@
 
 [[!redirects charged field]]
 [[!redirects charged particle]]
+
+[[!redirects charge (physics)]]
