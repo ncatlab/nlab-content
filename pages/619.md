@@ -104,6 +104,10 @@ the following are equivalent:
 
 4. If $S$ is the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$, then $Q^*: A \to B$ realizes $B$ as the (nonstrict) [[localization]] of $A$ with respect to the class $S$. 
 
++-- {: .query}
+3 => 2 is doubtful, but I do not know what the author meant instead. (AnonymousCoward)
+=--
+
 =--
 
 This is due to [[Gabriel-Zisman]].
