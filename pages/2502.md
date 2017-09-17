@@ -141,8 +141,9 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 
 ## Related concepts
 
-
 * [[super Poincaré group]]
+
+* [[R-symmetry]]
 
 * [[super translation algebra]]
 
