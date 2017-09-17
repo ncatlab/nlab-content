@@ -102,6 +102,10 @@ The following example proves failure of regularity in all three cases: let $A$ b
 
 Interpreting the posets as categories, the same example works for $Cat$, and also for preorders. On the other hand, the category of finite preorders is equivalent to the category finite topological spaces, so this example serves to show also that $Top$ is not regular. 
 
+However: 
+
+* If $T$ is a [[Mal'cev theory]] (e.g., the theory of groups), then the category $Top^T$ of $T$-models in [[Top]] is regular. This is because coequalizer maps in $Top^T$ are necessarily open surjections, and open surjections are stable under pullback. 
+
 ## Properties
 
 +-- {: .un_prop}
