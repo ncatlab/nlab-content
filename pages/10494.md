@@ -505,7 +505,7 @@ The bottom horizontal morphisms in the diagram in prop. \ref{TheDifferentialDiag
 +-- {: .num_remark}
 ###### Remark
 
-This kind of diagram under forming $\pi_0$ has been traditionally known from [[ordinary differential cohomology]] and from [[differential K-theory]], and had been used in proposals to axiomatize [[differential cohomology]], see for instance ([Bunke 12, prop. 4.57](http://arxiv.org/abs/1208.3961)). Here we see that this holds fully generally for every stable cohesive homotopy type. If one still regards this diagram as characteristic of "differential" refinement it hence exhibits every cohesive stable type as a [[coefficients]] of _some_ [[differential cohomology]] theory. This is a strong version of the synthetic notion 
+This kind of diagram under forming $\pi_0$ has been traditionally known from [[ordinary differential cohomology]] and from [[differential K-theory]], and had been used in proposals to axiomatize [[differential cohomology]], see for instance ([Bunke 12, prop. 4.57](http://arxiv.org/abs/1208.3961)) and see at _[[differential cohomology diagram]]_. Here we see that this holds fully generally for every stable cohesive homotopy type. If one still regards this diagram as characteristic of "differential" refinement it hence exhibits every cohesive stable type as a [[coefficients]] of _some_ [[differential cohomology]] theory. This is a strong version of the synthetic notion 
 "[[schreiber:differential cohomology in a cohesive topos]]" . For more on this see also at _[[smooth spectrum]]_.
 
 =--
