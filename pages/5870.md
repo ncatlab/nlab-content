@@ -3,7 +3,9 @@
 
 * [[group]]
 * [[group object]], [[group object in an (∞,1)-category]]
+* [[action|group action]]
 * [[homogeneous space]]
+* [[holomorph]]
 
 ## Classical groups
 
