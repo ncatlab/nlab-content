@@ -1,0 +1,69 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+The [[category]] of _effective Chow [[motives]]_ (or [[pure motives]]), $Chow^{eff}$, is the [[idempotent completion]] of the [[category]] $Chow$ whose [[objects]] are [[smooth variety|smooth]] [[projective varieties]] over $k$, and whose [[hom-sets]] are [[Chow groups]] in the [[product]] of two varietes (see for instance [Vishik09, def. 2.1](#Vishik09))
+
+$$
+  Hom_{Chow}(Y,X) \coloneqq CH^{dim X}(X \times Y)
+  \,.
+$$
+
+Hence a [[morphism]] $X \to Y$ in $Chow^{eff}$ is an [[equivalence class]] of [[linear combinations]] of [[correspondences]]/[[spans]] of the form
+
+$$
+  X \leftarrow \Sigma \rightarrow Y
+  \,.
+$$
+
+This was introduced by [[Grothendieck]]. See e.g. ([Vishik09, p. 6](#Vishik09)), ([Mazza-Voevosky-Weibel, p. 181](#MazzaVoevodskyWeibel)).
+
+## Properties
+
+### Relation to Voevodsky motives
+
+There is a [[full and faithful functor]] from the category of Chow motives into that of [[Voevodsky motives]]:
+
+$$
+  Chow^{eff} \hookrightarrow DM^{eff}
+  \,.
+$$
+
+(e.g [Mazza-Voevodsky-Weibel, prop. 20.1](#MazzaVoevodskyWeibel))
+
+## Related concepts
+
+* [[motivic cohomology]]
+
+* [[category of spans]]
+
+## References
+
+A quick and complete statement of the definition is in
+
+* Alexander Vishik, _Chow groups and motives_, lecture notes 2009 ([pdf](http://alg-geo.epfl.ch/cours/geomthqf_vishik_09/docs/D2.pdf))
+ {#Vishik09}
+
+See also
+
+* [[Carlo Mazza]], [[Vladimir Voevodsky]] and [[Charles Weibel]], _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
+ {#MazzaVoevodskyWeibel}
+
+
+[[!redirects Chow motives]]
+[[!redirects category of Chow motives]]
