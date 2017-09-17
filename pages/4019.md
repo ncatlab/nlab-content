@@ -40,7 +40,7 @@ Let $U$ be a linear map from a bornological space $E$ to any locally convex [[TV
 
 * $U$ is bounded on bounded sets,
 
-* $U$ maps null sequences to null sequences.
+* $U$ maps [[null sequence|null sequences]] to null sequences.
 =--
 
 ## Examples ##
