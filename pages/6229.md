@@ -19,6 +19,8 @@ A _probability space_ is a [[measure space]] whose [[measure]] is a [[probabilit
 
 ## Related concepts
 
-* [[expectation value]]
+* [[expectation value]], [[moment]]
 
 * [[entropy]]
+
+[[!redirects probability spaces]]
