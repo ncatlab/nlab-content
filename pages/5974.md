@@ -1,0 +1,6 @@
+
+* [website](http://www.cs.cmu.edu/~drl/)
+
+category: people
+
+[[!redirects Dan Licata]]
