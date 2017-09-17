@@ -1,3 +1,14 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 # Generalised smooth spaces
 * table of contents
 {: toc}
@@ -23,12 +34,13 @@ According to the general nonsense of [[space and quantity]], generalized smooth 
 
   * [[Chen space|Chen spaces]] (called _differentiable spaces_ in Chen's works).
   * [[diffeological space|Diffeological spaces]]
-  * [[smooth infinity-stack|Smooth ∞-stacks]]
 
-    * [[differentiable stack|Differentiable stacks]]
-    * [[orbifold|Orbifolds]]
+    * [[differentiable stack|Differentiable stacks]]/[[Lie groupoid]]
+      * [[orbifold|Orbifolds]]
 
-* [[structured generalized space|Structured generalized smooth spaces]]
+  * [[∞-Lie groupoid]]
+
+* [[CartSp]]-[[structured (∞,1)-topos|Structured (∞,1)-topos]]
 
   * [[differential module|Differential modules]]
   * [[Smith space|Smith spaces]]
