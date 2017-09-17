@@ -1,0 +1,34 @@
+
+# Absolute differential forms
+* table of contents
+{: toc}
+
+## Idea
+
+It\'s well known that one can integrate a [[differential form]] on an [[orientation|oriented]] [[submanifold]].  Less well known (but also true), one can integrate a [[differential pseudoform]] on an pseudoriented (transversely oriented) submanifold.  But in classical differential geometry, one also sees forms that can be integrated on *unoriented* submanifolds.
+
+I call these _absolute_ forms.  The term 'absolute' suggests a lack of additional required structure, in this case some sort of orientation on the domain of integration.  It also suggests [[absolute value]], since many of the examples from classical differential geometry involve absolute values.  Indeed, we can define the absolute value of a form or a pseudoform to be an absolute form, although not every absolute form arises in this way.
+
+Examples of absolute forms from classical differential geometry include:
+*  Absolute $0$-forms are the same as ordinary $0$-forms.
+*  Absolute $n$-forms on an $n$-[[dimensional]] manifold are the same as $n$-pseudoforms (and hence the same as [[absolutely continuous measure|absolutely continuous]] [[Radon measures]]).
+*  The [[arclength]] element $\mathrm{d}s = {\|\mathrm{d}\vec{r}\|}$ on a [[Riemannian manifold]] is an absolute $1$-form.  Similarly, the [[surface area]] element is an absolute $2$-form (and we can continue into higher dimensions, although the classical [[volume element]] in $\mathbb{R}^3$ is already covered in the previous item).
+*  In [[complex analysis]], ${|\mathrm{d}z|}$ is an absolute $1$-form sometimes used in [[contour integration]].
+*  Any of the above may be multiplied by a scalar field (which is the same as a $0$-form, hence the same as an absolute $0$-form) to produce another absolute form of the same rank.
+
+The main theorem of absolute forms is that, if $\omega$ is a (pseudo)-$p$-form and $\Sigma$ is a (pseudo)-oriented $p$-dimensional submanifold, then
+$$ {|\int_\Sigma \omega|} \leq \int_{|\Sigma|} {|\omega|} ,$$
+where ${|\omega|}$ is an absolute $p$-form (the absolute value of $\omega$), $|{\Sigma}|$ is simply $\Sigma$ with its (pseudo)-orientation ignored, and the absolute value on the left is the ordinary absolute value of scalars.  (This theorem also applies if we start with an absolute $p$-form $\omega$, although in that case $\Sigma$ starts out unoriented and so is the same as ${|\Sigma|}$.)
+
+
+## Definitions
+
+Well, that\'s the tricky part, isn\'t it?
+
+
+[[!redirects absolute differential form]]
+[[!redirects absolute differential forms]]
+[[!redirects absolute form]]
+[[!redirects absolute forms]]
+[[!redirects differential absolute form]]
+[[!redirects differential absolute forms]]
