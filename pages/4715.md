@@ -43,6 +43,8 @@ A **fat graph** or **ribbon graph** is a graph $(V,H,i,s)$ equipped with a [[bij
 
 =--
 
+This style of definition apparently goes back to ([Igusa 02](#Igusa02)).
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -202,7 +204,7 @@ $$
 
 =--
 
-### Moduli space of surfaces
+### Moduli space of surfaces / classifying spaces of mapping class groups
 
 Write $FatGraph^c_3$ for the [[full subcategory]] of fat graphs on the connected fat graphs for which every vertex has valence at leat 3. Write $\vert FatGraph^c_3 \vert \in $ [[Top]] for the [[geometric realization]] of this [[category]]. For $\Sigma$ a [[surface]], write $\Gamma_Sigma$ for its [[mapping class group]] and $B \Gamma_\Sigma$ for the corresponding [[classifying space]].
 
@@ -236,7 +238,7 @@ $$
   \,,
 $$
 
-where again on the right thr coproduct ranges over isomorphism classes of orientable, closed 2-dimensional manifolds with $n \geq 1$ marked points, except those for which $(g,n) = (0,1)$ or  $(g, n) = (0,2)$. The two extra copies of $B U(1)$ corespond to these two exceptional cases.
+where again on the right the [[coproduct]] ranges over [[isomorphism class]]es of orientable, closed 2-dimensional manifolds with $n \geq 1$ marked points, except those for which $(g,n) = (0,1)$ or  $(g, n) = (0,2)$. The two extra copies of $B U(1)$ corespond to these two exceptional cases.
 
 =--
 
@@ -261,7 +263,7 @@ Original references include
 Math. Phys. (1992), no. 147, 1-23.
  {#Kontsevich92}
  
-* [[Kiyoshi Igusa]], _Higher franz-reidemeister torsion_ , IP Studies in Advanced Mathematics, American Mathematical
+* [[Kiyoshi Igusa]], _Higher Franz Reidemeister torsion_ , IP Studies in Advanced Mathematics, American Mathematical
 Society, 2002.
  {#Igusa02}
 
