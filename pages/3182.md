@@ -20,7 +20,13 @@ A _Euclidean-topological $\infty$-groupoid_ is an [[∞-groupoid]] equipped with
 
 ## Definition
 
-Let [[CartSp]]${}_{top}$ be the [[site]] of [[open ball]]s with the [[good open cover]] [[coverage]].
+
++-- {: .un_defn}
+###### Definition
+
+Let [[CartSp]]${}_{top}$ be the [[site]] whose underlying [[category]] has as [[objects]] the [[Cartesian space]]s $\mathbb{R}^n$, $n \in \mathbb{N}$ equipped with the [[Euclidean topology]] and as [[morphism]]s the [[continuous maps]] between them; and whose [[coverage]] is given by [[good open cover]]s.
+
+=--
 
 +-- {: .un_defn}
 ###### Definition
@@ -48,6 +54,14 @@ The [[(∞,1)-topos]] $ETop \infty Grpf$ is a [[cohesive (∞,1)-topos]].
 ###### Proof
 
 The site [[CartSp]]${}_{top}$ an  [[∞-cohesive site]].  See there for details.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+We say that $ETop \infty Grpd$ defines **Euclidean-topological cohesion**. An object in $ETop \infty Grpd$ we call a **Euclidean-topological $\infty$-groupoid**.
+
 =--
 
 +-- {: .un_def}
