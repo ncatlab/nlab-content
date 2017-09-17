@@ -1,0 +1,5 @@
+A _$k$-formal group_ is a $k$-group whose underlying $k$-functor is a $k$-formal functor.
+
+The previous constructions in chapter II carry over to $k$-formal groups.
+
+[[Cartier duality]]
