@@ -1,5 +1,5 @@
 
-> This entry is about [[coproducts]] coinciding with [[products]]. For the notion of biproduct in the sense of [[bicategory]] theory see at [[2-limit]].
+> This entry is about [[coproducts]] coinciding with [[products]]. For the notion of biproduct in the sense of [[bicategory]] theory see at [[2-limit]]. See at _[[bilimit]]_ for general disambiguation.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -107,6 +107,8 @@ Categories with biproducts include:
 * [[K(n)-local stable homotopy theory]] ([Hopkins-Lurie 14](#HopkinsLurie14))
 
 ## Related concepts
+
+* [[bilimit]]
 
 * [[semiadditive (∞,1)-category]]
 
