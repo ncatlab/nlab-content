@@ -1,13 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 #### Quantum physics
-+--{: .hide}
++-- {: .hide}
 [[!include physicscontents]]
 =--
 =--
@@ -15,7 +15,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -55,7 +55,7 @@ The unadorned phrase 'algebra' usually signals an [[associative algebra]], but t
 mechanics]], [[observables]] are closed under addition and multiplication by [[real number|real]] scalars.  In classical mechanics we can also multiply observables, but in quantum mechanics this becomes problematic.  After
 all, given two [[bounded linear operator|bounded]] [[self-adjoint]] [[linear operators]] on a complex [[Hilbert space]], their product is self-adjoint if and only if they commute.
 
-However, in quantum mechanics one can still raise an observable to a power and obtain another observable.  From squaring and taking real linear combinations, one can construct a commutative product:
+However, in quantum mechanics one can still raise an observable to a power and obtain another observable.  From squaring and taking real linear combinations, one can construct a commutative product using the [[polarization identity]]:
 
 $$    
   x \circ y \coloneqq \frac{1}{2}((x+y)^2 - x^2 - y^2)
@@ -66,25 +66,25 @@ $$
 This is sometimes called the _anti-commutator_. Notice that it is directly analogous to the more famous [[commutator]]
 
 $$
-  [x,y] \coloneqq \frac{1}{2}(x y - y x)
+  [x,y] \coloneqq x y - y x
 $$
 
 and that both together recover the full algebra of observables in that
 
 $$
-  x y = [x,y] + x \circ y
+  x y = \frac{1}{2}[x,y] + x \circ y
 $$
 
 for all $x,y$. From the point of view of [[deformation quantization]] of [[Poisson manifolds]], one can read this as follows: the deformation quantization of a Poisson manifold $(X,\{-,-\})$ breaks up into two pieces:
 
-1. the [[Poisson bracket]] $\{-,-\}$ deforms to a [[commutator]] on $C^\infty(X)$;
+1. the [[Poisson bracket]] $\{-,-\}$ on $C^\infty(X)$ deforms to the [[commutator]];
 
-1. the pointwise mulitplication on $C^\infty(X)$ deforms into a Jordan algebra structure.
+2. the pointwise mulitplication on $C^\infty(X)$ deforms into the Jordan algebra structure.
 
-Taken together both aspects yield a single non-commutative algebra via $x y = [x,y] + x \circ y$. This perspective on deformation quantization making the role of Jordan algebras explicit is mentioned for instance in ([Bates-Weinstein, p. 80](#BatesWeinstein)).
+This perspective on deformation quantization making the role of Jordan algebras explicit is mentioned for instance in ([Bates-Weinstein, p. 80](#BatesWeinstein)).
 
 
-The symmetrized product $(-) \circ (-)$ is not associative, in general, but it is **power-associative**: any way of parenthesizing a product of copies of the same observable $x$ gives the same result.  This led Jordan to define what is now called a **formally real Jordan algebra**: a commutative and power-associative algebra $J$ satisfying
+The symmetrized product $(-) \circ (-)$ is not associative, in general, but it is power-associative: any way of parenthesizing a product of copies of the same observable $x$ gives the same result.  This led Jordan to define what is now called a **formally real Jordan algebra**: a commutative and power-associative algebra $J$ satisfying
 $$  x_1^2 + \cdots + x_n^2 = 0 \quad \implies \quad x_1 = \cdots = x_n = 0  $$
 for all $n$.  The last condition gives $J$ a partial ordering: if we write $x \le y$ when the element $y - x$ is a sum of squares, it says that 
 $$x \le y \; \& \; y \le x \quad \implies \quad x = y\,.$$
@@ -387,4 +387,5 @@ p. 80 of
  {#BatesWeinstein}
 
 
+[[!redirects Jordan algebra]]
 [[!redirects Jordan algebras]]
