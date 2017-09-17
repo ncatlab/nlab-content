@@ -94,8 +94,7 @@ $$
   Red \;\colon\; CRing \longrightarrow CRing
 $$
 
-for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, where $I$ is the maximal [[nilpotent ideal]], the [[nilradical]].
-
+for the [[functor]] which sends a [[commutative ring]] $R$ to its [[reduced scheme|reduced ring]] $R/I$, where $I$ is the [[nilradical]] (the maximal [[nilpotent ideal]] if $R$ is finitely presented). 
 =--
 
 +-- {: .num_prop #DifferentialCohesionModality}
@@ -141,7 +140,7 @@ is a [[pullback]] square.
 +-- {: .proof}
 ###### Proof
 
-Evaluated on $B \in CRing$ any object, by the [[Yoneda lemma]] and the $(Red \dashv $\int_{inf}$)$-[[adjunction]], the naturality square becomes
+Evaluated on $B \in CRing$ any object, by the [[Yoneda lemma]] and the $(Red \dashv \int_{inf})$-[[adjunction]], the naturality square becomes
 
 $$
   \array{
