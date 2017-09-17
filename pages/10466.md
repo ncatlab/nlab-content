@@ -281,6 +281,8 @@ The inclusion $\Delta_G$ is that of def. \ref{InclusionOfGSpacesInTheGlobalTheor
 
 * [[global equivariant stable homotopy theory]]
 
+[[!include homotopy type representation theory -- table]]
+
 ## References
 
 The global orbit category $Orb$ is considered in 
