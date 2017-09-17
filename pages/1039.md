@@ -1,7 +1,7 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -37,10 +37,11 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly equivalent to the point is the same as there being a contraction.
 
+
 ### For topological spaces
 
-
 ...
+
 
 ## Related concepts
 
@@ -49,9 +50,13 @@ Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly
 [[!include homotopy n-types - table]]
 
 
-
 [[!redirects contractible]]
+
+[[!redirects contractible space]]
+[[!redirects contractible spaces]]
 
 [[!redirects contractible topological space]]
 [[!redirects contractible topological spaces]]
 
+[[!redirects contractible object]]
+[[!redirects contractible objects]]
