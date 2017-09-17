@@ -74,7 +74,7 @@ A 2-category in which all 1-morphisms and 2-morphisms are invertible is a [[2-gr
 * More generally, for $V$ any enriching category (such as a Benabou [[cosmos]]), there is a 2-category $V Cat$ whose
 
   * objects are $V$-[[enriched categories]];
-  * morphsims ane $V$-enriched functors; and
+  * morphisms are $V$-enriched functors; and
   * 2-morphisms are $V$-natural transformations.
 
 * On the other hand, for any such $V$ we also have a bicategory $V$-[[Prof]] whose
@@ -128,7 +128,7 @@ There is a [[model category]] structure on 2-catgories -- sometimes known as the
 
 For strict 2-categories this is the restriction of the corresponding [[folk model structure]] on [[strict omega-categories]]. 
 
-* The weak equivalences are the [[2-functor]]s are that are equivalences of 2-categories.
+* The weak equivalences are the [[2-functor]]s that are equivalences of 2-categories.
 
 * The acyclic fibrations are the [[k-surjective functor]]s for all $k$.
 
