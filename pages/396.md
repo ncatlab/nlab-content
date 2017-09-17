@@ -17,3 +17,5 @@ For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully fa
 
 
 [[!redirects fully faithful functor]]
+[[!redirects full and faithful functors]]
+[[!redirects fully faithful functors]]
