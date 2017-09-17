@@ -32,9 +32,9 @@ An element $x\in L$ is __positive__ if for any way of writing $x$ as a [[join]] 
 ###### Definition
 **(in [[predicative mathematics|predicative]] [[constructive mathematics|constructive]] mathematics)**
 
-A **positivity predicate** on $L$ is a [[predicate]] pronounced "$x$ is positive" such that
-*  Whenever $x$ is positive and $x$ is the [[join]] of $A$, then some element of $A$ is positive;
-*  If $x$ is the join of $A$ on the assumption that $x$ is positive, then $x$ really is the join of $A$.
+A **positivity predicate** on $L$ is a [[predicate]] $\diamond x$, pronounced "$x$ is positive", such that
+*  Whenever $x$ is positive and $x$ is the [[join]] of $A$, then some element of $A$ is positive: $\diamond x,\; x = \bigvee A \;\vdash\; \exists\, u \in A,\; \diamond u$.
+*  If $x$ is the join of $A$ on the assumption that $x$ is positive, then $x$ really is that join: $\diamond x \;\Rightarrow\; x = \bigvee A \;\vdash\; x = \bigvee A$.
 =--
 
 Any two of these definitions can be shown to be equivalent in the union of the corresponding foundational systems.  Specifically:
@@ -46,11 +46,13 @@ Any two of these definitions can be shown to be equivalent in the union of the c
 * In [[classical mathematics]] (with [[classical logic]] and impredicativity), all the definitions are equivalent.
 
 
-## Related pages
+## Examples
 
-* The notion of positivity plays a role in [[locale]] theory, and especially in the definition of an [[overt space]].  This theory is often considered constructively (but impredicatively).
+Every [[power set]] has a positivity predicate: $x$ is positive iff $x$ is [[inhabited subset|inhabited]].  (Of course, there are few power sets in predicative mathematics, but often it is enough to think of the power set as a [[proper class]].)
 
-* In predicative constructive mathematics, a positivity predicate is used in the corresponding theory of [[formal topology]].
+The positive predicate on a [[locale]] plays a role in the definition of an [[overt space]].  Locale theory is often considered constructively but impredicatively; in predicative constructive mathematics, a positivity predicate is used in the corresponding theory of [[formal topology]].
+
+Every [[atom]] of $L$ is positive, and indeed an atom is precisely a [[minimal element|minimal]] positive element.
 
 
 [[!redirects positive element]]
