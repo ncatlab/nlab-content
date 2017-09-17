@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 A [[subspace]] $A$ of a [[space]] $X$ is __open__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is an [[open map]].
 
 For a point-based notion of space such as a [[topological space]], an open subspace is the same thing as an __open subset__.
@@ -10,6 +27,12 @@ The __[[topological interior|interior]]__ of any subspace $A$ is the largest ope
 
 (There is a lot more to say, about [[convergence spaces]], [[smooth spaces]], [[schemes]], etc.)
 
+
+## Related concepts
+
+* [[closed subset]], [[clopen subset]]
+
+* [[open cover]]
 
 [[!redirects open subspace]]
 [[!redirects open subspaces]]
