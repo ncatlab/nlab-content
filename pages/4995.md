@@ -22,9 +22,9 @@
 
 ## Idea
 
-A _cohesive $(\infty,1)$-topos_ is a [[big topos|big]] [[(∞,1)-topos]] $\mathbf{H}$ that provides a context of generalized [[spaces]] in which [[higher geometry]] makes sense. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
+A _cohesive $(\infty,1)$-topos_ is a [[big topos|gros]] [[(∞,1)-topos]] $\mathbf{H}$ that provides a context of generalized [[spaces]] in which [[higher geometry]] makes sense, in particular [[higher differential geometry]]. See also at _[[motivation for cohesive toposes]]_ for a non-technical discussion.
 
-It is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $coDisc$: 
+Technically, it is an $(\infty,1)$-topos whose [[global section]] [[(∞,1)-geometric morphism]] $(Disc \dashv \Gamma): \mathbf{H} \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}} $ [[∞Grpd]] admits a further [[left adjoint|left]] [[adjoint (∞,1)-functor]] $\Pi$ and a further right adjoint $coDisc$: 
 
 $$
   (\Pi \dashv Disc \dashv \Gamma \dashv coDisc) : \mathbf{H} \to \infty Grpd
@@ -39,6 +39,8 @@ with $Disc$ and $coDisc$ both [[full and faithful (∞,1)-functor]]s and such th
 The functor $\Gamma$ itself may be thought of as sending a cohesive [[∞-groupoid]] $X$ to its underlying bare $\infty$-groupoid $\Gamma(X)$. This is $X$ with all _cohesion forgotten_ (for instance with the continuous or the smooth structure forgotten).
 
 Conversely, $Disc$ and $CoDisc$ send an $\infty$-groupoid $A$ either to the [[discrete space|discrete ∞-groupoid]] $Disc(A)$ with _discrete_ cohesive structure (for instance with [[discrete topology]]) or to the [[codiscrete space|codiscrete ∞-groupoid]] $Codisc(A)$ with the _codiscrete_ cohesive structure (for instance with [[codiscrete topology]]). 
+
+This kind of [[adjoint quadruple]], directly analgous to the structure introduced by [[William Lawvere]] for [[cohesive toposes]], induces two [[adjoint modalities]] which in turn are adjoint to each other, to yield the adjoint string [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] $\int \dashv \flat \dashv \sharp$, which may be thought of as expressing "contiuum" and "quantity" in the sense of [[Georg Hegel]]'s _[[Science of Logic]]_ (as explained in detail there.)
 
 The existence of such an [[adjoint quadruple]] of adjoint $(\infty,1)$-functors alone implies a rich [[internalization|internal]] [[higher geometry]] in $\mathbf{H}$ that comes with its internal notion of [[Galois theory]], [[Lie theory]], [[differential cohomology]], [[Chern-Weil theory]]. 
 
