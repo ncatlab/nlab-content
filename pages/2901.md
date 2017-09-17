@@ -30,11 +30,7 @@ _Euclidean geometry_ studies the [[geometry]] of [[Euclidean space]]s.  These sp
 
 ## Related concepts
 
-  local model           |     global geometry
-------------------------|--------------------------
- _Euclidean geometry_   | [[Riemannian geometry]]
-  [[Klein geometry]]    |    [[Cartan geometry]]
-
+[[!include local and global geometry - table]]
 
 [[!redirects Euclidean geometry]]
 [[!redirects Euclidean geometries]]
