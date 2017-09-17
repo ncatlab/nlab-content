@@ -49,9 +49,9 @@ Less generally, a **[[commutative algebra]]** (where associative and unital are 
 
 ## Related concepts
 
-* [[dg-algebra]]
+* [[augmented algebra]]
 
-* [[A-infinity algebra]]
+* [[dg-algebra]], [[A-infinity algebra]]
 
 
 
