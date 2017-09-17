@@ -157,7 +157,13 @@ The [[Lie integration]] of $\mathfrak{g}$ is ...
 
 ## References
 
-See the references at [[super ∞-groupoid]].
+
+For general references see the references at _[[super ∞-groupoid]]_ .
+
+A discussion of smooth super $\infty$-groupoids is in section 3.5 of
+
+* [[Urs Schreiber]], [[schreiber:differential cohomology in a cohesive topos]].
+
 
 
 [[!redirects super smooth ∞-groupoid]]
