@@ -435,9 +435,20 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ### 6.2 Constructions of $(\infty,1)$-toposes ###
 
+#### 6.2.1 Left exact localization
+
+* [[exact functor]]
+
+* [[reflective sub-(∞,1)-category|exact reflective sub-(∞,1)-category]]
+
+
+#### 6.2.2 Grothendieck topologies and sheaves in higher category theory
+
 * [[(∞,1)-category of (∞,1)-sheaves]]
 
   * [[(∞,1)-site]]
+
+  * [[(∞,1)-sheaf]]
 
   * [[topological localization]]
 
@@ -594,7 +605,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 #### A.3.1 Enriched and monoidal model categoires
 
-* [[enriched monodel category]]
+* [[enriched model category]]
 
 * [[monoidal model category]]
 
@@ -612,7 +623,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 * [[combinatorial simplicial model category]]
 
 
-* [[model structure on sSet-enriched categories]]
+* [[model structure on sSet-categories]]
 
 #### A.3.3 Model structures on diagram categories
 
@@ -620,7 +631,7 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 * [[Reedy model structure]]
 
-* [[homotopy Kan extensiom]]
+* [[homotopy Kan extension]]
 
   * [[homotopy limit]]
 
