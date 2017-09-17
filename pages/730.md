@@ -58,8 +58,8 @@ $$
 where on the right the cartesian product is in the [[nice category of spaces|nice category]] of compactly generated Hausdorff spaces.
 =--
 
-More on the product of simplicial sets is at [[shuffle]].
 
+See also [[products of simplices]].
 
 
 ### Closed structure
