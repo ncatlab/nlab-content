@@ -39,7 +39,7 @@ This follows with the [[nilpotence theorem]].
 
 ## Examples
 
-The [[Morava K-theory]] [[A-∞ rings]] $K(n)$ are essentially the only $A_\infty$-fields. See at _[Morava K-theory  -- As infinity-Fields](Morava+K-theory#AsInfinityFields)_.
+The [[Morava K-theory]] [[A-∞ rings]] $K(n)$ are essentially the only $A_\infty$-fields. See at _[Morava K-theory  -- As infinity-Fields](Morava+K-theory#AsInfinityFields)_, where $K(0) \simeq H \mathbb{Q}$ and we define $K(\infty)$ as $H \mathbb{F}_p$.
 
 ## Related concepts
 
