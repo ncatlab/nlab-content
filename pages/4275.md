@@ -28,6 +28,8 @@
 
 ## Idea
 
+### Basic
+
 For $R$ a ([[commutative ring|commutative]]) [[ring]], an $R$-valued **genus** is a ring [[homomorphism]] into $R$
 
 $$
@@ -38,6 +40,9 @@ from a [[cobordism ring]] for [[cobordisms]] with specified structure; typical c
 
 To emphasize that this is indeed a ring homomorphism and hence in particular respects the multiplicative structure, a genus is sometimes (especially in older literature) synonymously called a _multiplicative genus_.
 
+
+### In stable homotopy theory and generalized cohomology theory
+ {#InStableHomotopyTheory}
 
 
 Since the [[cobordism ring]] is the ring of coefficients of the corresponding universal [[Thom spectrum]], e.g $M U$, $M SO$, so a genus may also be written as a ring homomorphism of the form
@@ -88,6 +93,7 @@ $$
 $$
   M SO \wedge E  \longleftarrow E
 $$
+
 
 hence a map
 
@@ -163,14 +169,14 @@ Given a (rational) genus $\phi \colon \Omega^{U,SU}_\bullet\otimes \mathbb{Q} \t
 #### Definition via orientations in generalized cohomology
  {#HirzebruchSeriesViaOrientationsInGeneralizedCohomology}
 
-Suppose that the given genus $\Omega_\bullet^{SO} \longrightarrow R$ comes from an [[orientation in generalized cohomology]] hence from a [[homomorphism]] of [[E-∞ rings]]
+Suppose that the given genus $\Omega_\bullet^{SO} \longrightarrow R$ indeed comes from an [[orientation in generalized cohomology]] (as discussed [above](#InStableHomotopyTheory)) hence from a [[homomorphism]] of [[E-∞ rings]]
 
 $$
   \beta \;\colon\;  M SO \longrightarrow E
 $$
 
 for an [[E-∞ ring]] $E$ with [[homotopy groups]] $R\simeq \pi_\bullet(E)$.
-(And suppose that $E$ deines a [[complex oriented cohomology theory]].)
+(And suppose that $E$ defines a [[complex oriented cohomology theory]].)
 
 
 This defines ([Ando-Hopkins-Rezk 10, prop. 2.11](#AndoHopkinsRezk10))
@@ -193,7 +199,7 @@ This is the Hirzebruch series of $\beta$ ([Ando-Hopkins-Rezk 10, def. 3.10](#And
 If $F$ denotes the [[formal group law]] classified via $MU_\bullet \to M SO_\bullet \stackrel{\beta_\bullet}{\to} R$ then 
 
 $$
-  K_\beta(x) = \frac{x}{\exp_F(x)}
+  K_\beta(z) = \frac{z}{\exp_F(z)}
 $$
 
 
