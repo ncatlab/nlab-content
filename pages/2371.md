@@ -10,14 +10,23 @@
 * [[stable homotopy theory]]
 
 
-# Higher algebraic theories
+# Algebraic theories
 
-* [[algebraic theory]] / [[(∞,1)-algebraic theory]]
+* [[algebraic theory]] / [[2-algebraic theory]] / [[(∞,1)-algebraic theory]]
 
 * [[monad]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
 
+# Universal algebra
+
+* [[universal algebra]]
+
+* [[algebra over a Lawvere theory]] 
+
+* [[algebra over a monad]] 
+
+* [[algebra over an operad]]
 
 # Higher algebras
 
