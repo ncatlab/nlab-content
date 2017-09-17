@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,6 +27,9 @@ The _genus_ of a [[surface]] is an [[integer]] that helps classify the surface's
 
 * [[genus]]
 
+* [[Riemann surface]]
+
+* [[curve]], [[singular point on a curve]]
 
 ## References
 
@@ -22,4 +39,3 @@ The _genus_ of a [[surface]] is an [[integer]] that helps classify the surface's
 Various approaches to the classification of surfaces are described in introductory texts such as 
 
 * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
-
