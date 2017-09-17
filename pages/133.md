@@ -66,6 +66,8 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * From the perspective of [[constructive mathematics]], the principle of [[excluded middle]] (EM) may be seen as a form of the axiom of choice; EM is equivalent to the statement that every [[Kuratowski-finite set]] is projective.
 
+* A very weak form of choice (which follows from EM) is the statement that [[supports split]] in $Set$.
+
 * The axioms of [[countable choice]] (CC) and [[dependent choice]] (DC) suffice for many of the usual applications of choice in the analysis of [[separable space]]s.  CC states that the set $\mathbb{N}$ of [[natural number]]s is projective.  DC strenghtens CC by allowing the set of possible choices for $n+1$ to depend on the choice made for $n$.
 
 * The axiom [[COSHEP]], also called the "presentation axiom," says that any set admits a surjection from a projective one (whereas full AC says that all sets are projective).  This implies CC and DC, and is moreover sufficient for the existence of [[projective resolution]]s and cofibrant replacements, as well as the usual theorems in algebra that (for example) [[Mod]] has enough projectives.  For example, see the [[canonical model structure on Cat]].
