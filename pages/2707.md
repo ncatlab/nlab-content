@@ -223,6 +223,8 @@ See at _[[KK-theory]]_ in the section _[As an analog of motives in noncommutativ
 
 * [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]], [[Chow motive]]
 
+* [[K-motive]], [[noncommutative motive]]
+
 * [[presheaf with transfer]]
 
 * [[motivic homotopy theory]]
@@ -259,7 +261,7 @@ A review is also in chapter I of
 
 Lectures include
 
-* {#Levine06} [[Marc Levine]], _Six lectures on motives_, lectures at _ICTP Workshop on K-theory and Motives_ 2006 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Levine/Levine.pdf))
+* {#Levine06} [[Marc Levine]], _Six lectures on motives_, lectures at _ICTP Workshop on K-theory and Motives_ 2006 ([[LevineMotiveLecture.pdf:file]])
 
 Voevodsky's formalization of motives was sketched in 
 
