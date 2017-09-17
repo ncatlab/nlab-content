@@ -1,6 +1,12 @@
+
+# Forcing
+* table of contents
+{: toc}
+
 ## Idea
 
 In [[set theory]], **forcing** is a way of "adjoining indeterminate objects" to a model in order to make certain [[axiom|axioms]] true or false in a resulting new model.  The language of forcing is generally used in [[material set theory]], but it is more or less equivalent to the construction of [[categories of sheaves]] in [[topos theory]] and [[structural set theory]].
+
 
 ## An analogy to polynomial rings
 
@@ -24,6 +30,10 @@ Now suppose instead that we have a model $V$ of [[ZF]] set theory (for instance)
 
 Although by analogy, it would seem that a modern perspective should prefer the third approach, most material set theorists still seem to prefer one of the first two.
 
+
 ## Comparison with sheaves
 
 ...
+
+
+[[!redirects forcing]]
