@@ -31,16 +31,17 @@
 |   | $\mathbb{A}_K$ ([[ring of adeles]]) |   |  $\prod^\prime_{x\in \Sigma} \mathbb{C}((t_x))$ ([[restricted product]] of [[function rings]] on all punctured [[formal disks]] around all points in $\Sigma$)  | 
 |   | $\mathcal{O}$ |  | $\prod_{x\in \Sigma} \mathbb{C}[ [t_x] ] $ (function ring on all [[formal disks]] around all points in $\Sigma$) |
 |   | $\mathbb{I}_K = GL_1(\mathbb{A}_K)$ ([[group of ideles]]) |  | $\prod^\prime_{x\in \Sigma} GL_1(\mathbb{C}((t_x)))$ |
-| **Galois and class field theory** |   |   |   |
+| **Galois theory** |   |   |   |
 |   |  [[Galois group]] |  " | $\pi_1(\Sigma)$ [[fundamental group]]  |
 |   |  [[Galois representation]] |  " | [[flat connection]] ("[[local system]]") on $\Sigma$ |
-|    | [[Hilbert reciprocity law]] | [[Artin reciprocity law]] | [[Weil reciprocity law]] |
-|| **automorphy and bundles**  |  |  |  |
-|  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)$ ([[idele class group]]) | " |   | 
+| **class field theory** |   |   |   |
 |  | [[class field theory]] | " | [[geometric class field theory]] |
+|    | [[Hilbert reciprocity law]] | [[Artin reciprocity law]] | [[Weil reciprocity law]] |
+|  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)$ ([[idele class group]]) | " |   | 
 |  | $GL_1(K)\backslash GL_1(\mathbb{A}_K)/GL_1(\mathcal{O})$  | " |  $Bun_{GL_1}(\Sigma)$ ([[moduli stack of bundles|moduli stack of line bundles]], by [[Weil uniformization theorem]])  | 
-|   | $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) |  " | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$, by [[Weil uniformization theorem]])   | 
+| **non-abelian class field theory and automorphy**  |   |  |  |  |
 |   | number field [[Langlands correspondence]] |  function field [[Langlands correspondence]] | [[geometric Langlands correspondence]] |
+|   | $GL_n(K) \backslash GL_n(\mathbb{A}_K)//GL_n(\mathcal{O})$ ([[constant sheaves]] on this [[stack]] form [[unramified]] [[automorphic representations]]) |  " | $Bun_{GL_n(\mathbb{C})}(\Sigma)$ ([moduli stack of bundles on the curve](moduli+space+of+bundles#OverCurvesAndTheLanglandsCorrespondence) $\Sigma$, by [[Weil uniformization theorem]])   | 
 |   | [Tamawa-Weil for number fields](Weil+conjecture+on+Tamagawa+numbers#NumberFieldCase)  | [Tamagawa-Weil for function fields](Weil+conjecture+on+Tamagawa+numbers#FunctionFieldCase)  |   |
 | **zeta functions**  |  |  |  |
 |   |  [[Dedekind zeta function]] | [[Weil zeta function]] | [[zeta function of a Riemann surface]] |
