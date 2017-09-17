@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -6,7 +19,9 @@
 
 ## Idea ##
 
-The suspension $S X$ of a [[topological space]] $X$ is a space of one higher dimension, which is (for [[inhabited set|inhabited]] $X$) a [[quotient object|quotient space]] of $X \times [0,1]$.  The difference between $S X$ and $X \times [0,1]$ is that the copy of $X$ at each endpoint ($0$ or $1$) is replaced by a single point.  
+The _suspension_ $\Sigma X$ or $S X$ of a [[topological space]] is its [[suspension object]] formed in [[Top]]:
+
+the suspension $S X$ of a [[topological space]] $X$ is a space of one higher dimension, which is (for [[inhabited set|inhabited]] $X$) a [[quotient object|quotient space]] of $X \times [0,1]$.  The difference between $S X$ and $X \times [0,1]$ is that the copy of $X$ at each endpoint ($0$ or $1$) is replaced by a single point.  
 
 This is the special case in [[Top]] of a general operation in [[(∞,1)-categories]]: see [[suspension object]].
 
@@ -70,6 +85,20 @@ Up to topological structure, the suspension of the $n$-[[sphere]] is the $(n+1)$
 Up to topological structure, the suspension of the $n$-[[simplex]] is the $(n+1)$-simplex, but now this is not very useful.  To study simplices, you should use the __cone__ functor instead, which is $\Lambda X = X \star 1$, where $1$ is the [[point]].
 
 
+## Related concepts
+
+* [[loop space object]], [[free loop space object]],
+
+  * [[delooping]]
+
+  * [[loop space]], [[free loop space]], [[derived loop space]]
+
+
+* [[suspension object]]
+
+  * **suspension**
+
+
 ## References ##
 
 Everybody knows about the suspension, but [Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Join_%28topology%29) knows about the join.  See also the textbook by Hatcher and Postnikov, _Homotopy of CW-complexes_.
@@ -80,6 +109,9 @@ The question on what is the Eckman-Hilton dual to $X\star Y$ find in
 
 Here is [Chapter 1](http://www.math.psu.edu/katok_a/TOPOLOGY/Chapter1.pdf) (pdf) of a textbook that knows that $S \empty = 2$, although even it regards this as an exception.
 
+* [[George Whitehead]], _Some aspects of stable homotopy theory_ ([pdf](http://www.mathunion.org/ICM/ICM1962.1/Main/icm1962.1.0502.0506.ocr.pdf))
+
+* [[Ralph Cohen]], _A model for the free loop space of a suspension_ Lecture Notes in Mathematics, 1987, Volume 1286/1987, 193-207 ([])
 
 [[!redirects suspension functor]]
 [[!redirects join of spaces]]
