@@ -48,6 +48,8 @@ The following notions of dimension capture aspects of the concept for objects in
 
 * [[Heyting dimension]]
 
+
+
 ## Properties
 
 * [[global dimension theorem]]
