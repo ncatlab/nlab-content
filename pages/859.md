@@ -2,20 +2,36 @@
 * tic
 {: toc}
 
-
 ## Definitions
 
-If a group $G$ [[action|acts]] on a group $\Gamma$ on the left, then there is a
-[[semidirect product]] group whose underlying set is $\Gamma \times  G$
+If a [[group]] $G$ [[action|acts]] on a group $\Gamma$ on the left, then there is a
+__semidirect product__ group whose underlying set is $\Gamma \times  G$
 but whose multiplication is
 
 $$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g)$$
 
-for $\delta, \gamma \in \Gamma,\; h,g \in G$. This is called in
+for $\delta, \gamma \in \Gamma,\; h,g \in G$, where $^h \gamma$ denotes the result of acting with $h$ on the left on $\gamma$. This is called in
 group theory the semidirect product (see for example the [Wikipedia entry](http://en.wikipedia.org/wiki/Semi-direct_product)) and written $\Gamma \rtimes \, G$.
 There is a projection morphism $p:\Gamma \rtimes \, G \to G$ ,
 $(\gamma, g) \to g$. A section $s$ of this can be identified with a
-derivation $d$, i.e. $d$  satisfies $d(h g)= (d h) \,^h (d g)$.
+[[derivation]] $d$, i.e. $d$  satisfies $d(h g) = (d h) \,^h (d g)$.
+
+
+### Interior semidirect products
+
+Let $H$ be any group.  A decomposition of $H$ as an __internal__ semidirect product consists of a [[subgroup]] $\Gamma$ and a [[normal subgroup]] $G$, such that every element of $H$ can be written uniquely in the form $\gamma g$, for $\gamma \in \Gamma$ and $g \in G$.
+
+The internal and external concepts are equivalent.  In particuarl, any (external) semidirect product $\Gamma \rtimes G$ is an internal semidirect product of the [[images]] of $\Gamma$ and $G$ in it.
+
+
+### Right semidirect products
+
+The definitions above are not symmetric in left and right; since the first definition begins with a left action, we may call it a *left* semidirect product.  Then a __right__ semidirect product is given by an action on the right, or internally by the requirement that every element can be written in the form $g \gamma$.
+
+However, right and left semidirect products are equivalent.  Essentially, this is because any left action $(h,g) \mapsto {}^h{g}$ defines a right action $(g,h) \mapsto g^h \coloneqq {}^{h^{-1}}g$ and vice versa.
+
+
+### Semidirect products of groupoids
 
 It is useful to generalise this to the case $\Gamma$ is a [[groupoid]].
 This occurs if for example $\Gamma = \pi_1 X$ where $X$ is a (left)
@@ -53,7 +69,7 @@ elements $(1_x,g)$. Details are in the book reference below (but the
 conventions are not quite the same).
 
 
-##References##
+## References
 
 * R. Brown, "Topology and groupoids", Booksurge 2006.
 
@@ -63,4 +79,7 @@ conventions are not quite the same).
   962  (1982) 115--122.
 
 
+[[!redirects semidirect product]]
+[[!redirects semidirect products]]
 [[!redirects semi-direct product]]
+[[!redirects semi-direct products]]
