@@ -14,7 +14,7 @@
 =--
 
 # Constructive mathematics
-* tic
+* table of contents
 {: toc}
 
 ## Idea
@@ -119,6 +119,8 @@ The distinction between object language and metalanguage exists even in [[classi
 
 
 ## Related entries
+
+See also _[[intuitionistic mathematics]]_ and _[[realizability]]_.
 
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
 
