@@ -17,7 +17,11 @@
 
 ## Idea
 
-The **Euler characteristic** of a [[space]] or [[∞-groupoid]] $X$ is an invariant of $X$ (a valued assigned to its [[equivalence class]]) that generalizes the [[cardinality]] of a set: where cardinality counts elements in a set, the Euler characteristic counts [[object]]s up to [[equivalence]]s up to [[2-morphism|2-equivalence]]s up to [[3-morphism|3-equivalence]], and so on. For  that reason it has also come to be known as [[groupoid cardinality]].
+The **Euler characteristic** of a [[space]] or [[∞-groupoid]] $X$ is an invariant of $X$ (a value assigned to its [[equivalence class]]) that generalizes the [[cardinality]] of a [[set]] (a [[0-truncated]] $\infty$-groupoid): 
+
+where cardinality counts elements in a set, the Euler characteristic counts [[object]]s up to [[equivalence]]s up to [[2-morphism|2-equivalence]]s up to [[3-morphism|3-equivalence]], and so on. For  that reason it has also come to be known as [[groupoid cardinality]].
+
+> there is a distinction to be made here between "homological" and "homotopical" Euler characteristic. Need to add something here...
 
 There are many different incarnations of [[space]]s and [[∞-groupoid]]s and accordingly there are many different definitions of Euler characteristics, that however agree in good cases.
 
@@ -36,7 +40,7 @@ For instance:
 +-- {: .num_defn #EulerCharOfChainComplex}
 ###### Definition
 
-For $V$ a [[chain complex]] of [[module]]s over some [[ring]], its **Euler characteristic** is -- if it exists -- the [[integer]] given by the alternating sum of the [[rank]] of its [[homology group]]s
+For $V$ a [[chain complex]] of [[module]]s over some [[ring]], its **Euler characteristic** is -- if it exists -- the alternating sum of its [[Betti number]]s: [[integer]] given by the alternating sum of the [[rank]] of its [[homology group]]s
 
 $$
   \chi(V) := \sum_{n \in \mathbb{Z}} (-1)^n rk_R H_n(V)
@@ -82,7 +86,7 @@ $$
 
 =--
 
-In the special case that $X$ is a [[surface]] this reduces to the historical definition by [[Leonhard Euler]], which implicitly was known already to [[Rene Descartes]] around 1620:
+In the special case that $X$ is a [[surface]] this reduces to the historical definition by [[Leonhard Euler]], which implicitly was known already to Descartes around 1620:
 
 +-- {: .num_defn #EulerCharOfSurface}
 ###### Definition/Proposition
@@ -102,9 +106,9 @@ $$
 The process of sending a [[category]] $C$ to its 
 [[geometric realization of categories]] ${\vert C \vert} \in $ [[Top]] $\simeq$ [[∞Grpd]] is a way to _present_ [[topological space]]s, and hence [[∞-groupoid]]s, by a category: we can think of $\vert C \vert$ as the [[Kan fibrant replacement]] of $C$: the [[universal property|universal solution]] to [[weak inverse|weakly inverting]] all [[morphism]]s of $C$.
 
-In fact, up to the relevant notion of [[equivalence in an (infinity,1)-category]] (which is [[weak homotopy equivalence]]), _every_ [[∞-groupoid]] arises as the [[nerve]]/[[geometric realization of categories|geometric realization]] of a category. In fact one can assume the category to be a [[poset]]. (This follows from the existence of the [[Thomason model structure]], as discussed in more detail there.)
+Up to the relevant notion of [[equivalence in an (infinity,1)-category]] (which is [[weak homotopy equivalence]]), _every_ [[∞-groupoid]] arises as the [[nerve]]/[[geometric realization of categories|geometric realization]] of a category. In fact one can assume the category to be a [[poset]]. (This follows from the existence of the [[Thomason model structure]], as discussed in more detail there.)
 
-Since the combinatorial data in a [[category]] and all the more in a [[poset]] $C$ is much smaller than in that of its [[Kan fibrant replacement]] $|vert C \vert$, it is of interest to ask if one can read off the Euler characteristic $\chi(\vert C \vert)$ already from $C$ itself. This is indeed the case:
+Since the combinatorial data in a [[category]] and all the more in a [[poset]] $C$ is much smaller than in that of its [[Kan fibrant replacement]] $\vert C \vert$, it is of interest to ask if one can read off the Euler characteristic $\chi(\vert C \vert)$ already from $C$ itself. This is indeed the case:
 
 +-- {: .num_defn #EulerCharOfCat}
 ###### Definition
@@ -123,15 +127,27 @@ $$
   \,,
 $$
 
-where $\vert C(a,b)\vert$ is the [[cardinality]]
+where $\vert C(a,b)\vert$ is the [[cardinality]] of the [[hom-set]] $C(a,b)$. A **coweighting** on $C$ is a weighting on the [[opposite category]] $C^{op}$.
+
+If $C$ admits both a weighting $\{k^a\}$ and a coweighting $\{k_a\}$, then its **Euler characteristic** is
 
 $$
-  \chi(C) := ...
+  \chi(C) := \sum_{a \in ob C} k^a = \sum_{a \in ob C} k_a
+  \;\;\;
+  \in \mathbb{Q}
+  \,.
 $$
 
 =--
 
-The definition of Euler characteristic of [[poset]]s  appears for instance in ([Rota](#Rota)). For [[groupoid]] it has been amplified in [BaezDolan](#BaezDolan). The joint generalization to categories is due to ([Leinster](#Leinster)).
+The definition of Euler characteristic of [[poset]]s  appears for instance in ([Rota](#Rota)). For [[groupoid]]s it has been amplified in [BaezDolan](#BaezDolan). The joint generalization to categories is due to ([Leinster](#Leinster)), where the above appears as def. 2.2.
+
++-- {: .num_remark }
+###### Remark
+
+Notice that this $\chi(C)$ is in general not an [[integer]], but a [[rational number]]. However in sufficiently well-behaved cases, discussed [below](RelationBetweenDefinitions), $\chi(C)$ coincides with the topological Euler characteristic $\chi(\vert C \vert)$ of its [[geometric realization of categories|geometric realization]]. Since that is integral, in these cases also $\chi(C)$ is.
+
+=--
 
 ### Of an object in a symmetric monoidal category
 
@@ -154,6 +170,7 @@ Euler characteristic behaves well with respect to the basic operations in [[homo
 (...)
 
 ### Relations between the various definitions
+ {#RelationBetweenDefinitions}
 
 The following propositions assert that and how the various definitions of Euler characteristics all suitably agree when thez jointly apply.
 
@@ -236,7 +253,7 @@ The role of Euler characteristic of [[∞-groupoid]]s in [[quantization]] is tou
 
 The generalization of the definition of Euler characteristic from posets to categories is due to
 
-* [[Tom Leinster]], _The Euler characteristic of a category_ ([arXiv](http://arxiv.org/abs/math/0610260))
+* [[Tom Leinster]], _The Euler characteristic of a category_ ([arXiv:0610260](http://arxiv.org/abs/math/0610260))
   {#Leinster}
 
 The compatibility of Euler characteristic of categories with [[homotopy colimits]] is discussed in 
