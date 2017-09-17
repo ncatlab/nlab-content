@@ -40,11 +40,15 @@
 
 * [[Hamiltonian mechanics]]
 
-* [[deformation quantization]]
-
 * [[BV-BRST formalism]]
 
 * [[AKSZ sigma-model]]
+
+## Quantization
+
+* [[quantization]]
+
+* [[deformation quantization]]
 
 * **[[geometric quantization]]**
 
