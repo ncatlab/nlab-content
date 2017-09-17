@@ -20,7 +20,7 @@
 
 ## Definition
 
-A __cartesian monoidal category__ or just **cartesian category** for short, is a [[monoidal category]] whose monoidal structure is given by the category-theoretic [[product]] (and so whose unit is a [[terminal object]]).  
+A __cartesian monoidal category__ (usually just called a **[[cartesian category]]**), is a [[monoidal category]] whose monoidal structure is given by the category-theoretic [[product]] (and so whose unit is a [[terminal object]]).  
 
 A cartesian monoidal category which is also [[closed monoidal category|closed]] is called a [[cartesian closed category]]. 
 
