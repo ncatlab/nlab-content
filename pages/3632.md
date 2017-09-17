@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -25,7 +25,7 @@ The notion of **Postnikov tower in an $(\infty,1)$-category** is the  generaliza
 
 ## Definition
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $C$ a [[presentable (∞,1)-category]] the subcategory $C_{\leq n}$ of [[n-truncated object in an (∞,1)-category|n-truncated objects]] is a [[reflective (∞,1)-subcategory]]
@@ -38,12 +38,9 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
 
-This is [[Higher Topos Theory|HTT, prop. 5.5.6.18]]
+This is ([Lurie, prop. 5.5.6.18](#Lurie)).
 
-=--
 
 We write 
 
@@ -64,7 +61,7 @@ from each object to its $n$-truncation.
 
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 A **Postnikov tower** for $X \in C$ is a diagram
@@ -78,6 +75,23 @@ such that each $X \to X_n$ exhibits $X_n$ as [[generalized the|the]] $n$-truncat
 =--
 
 This is [[Higher Topos Theory|HTT, def. 5.5.6.23]].
+
++-- {: .num_defn}
+###### Definition
+
+A **Postnikov pretower** is a pre-tower
+
+$$
+  \cdots \to X_2 \to X_1 \to X_0
+$$
+
+(no initial $X$ on the left!) which exhibits each $X_n$ as the $n$-truncation of $X_{n+1}$.
+
+We say **Postnikov towers converge** in the ambient [[(∞,1)-category]] if the [[forgetful functor|forgetful]] [[(∞,1)-functor]] from Postnikov towers to Postnikov pretowers is an [[equivalence of (∞,1)-categories]].
+
+=--
+
+This is ([Lurie, def. 5.5.6.23](#Lurie)).
 
 ## Examples
 
@@ -105,6 +119,21 @@ Discussion of this can be found for instance in
 
 ...
 
+## Properties
+
+### Criteria for convergence
+
+We discuss conditions that ensure that Postnikov towers converge.
+
++-- {: .num_prop}
+###### Proposition
+
+In an [[(∞,1)-topos]] which is _locally_ of finite [[homotopy dimension]], Postnikov towers converge.
+
+=--
+
+This is ([Lurie, prop. 7.2.1.10](#Lurie)).
+
 ## Relation to other concepts
 
 * At least if the ambient $(\infty,1)$-category is a [[locally contractible (∞,1)-topos]] $\mathbf{H}$, so that there is a notion of structured [[schreiber:path ∞-groupoid]]-functor $\mathbf{\Pi} : \mathbf{H} \to \mathbf{H}$, the [[homotopy fiber]]s of the morphisms $X \to \mathbf{\Pi}_n(X)$ into the Postnikov tower of $\mathbf{\Pi}(X)$ form the
@@ -113,6 +142,13 @@ Discussion of this can be found for instance in
 
 * In the context of [[nonabelian cohomology]] in [[(∞,1)-topos]]es the fact that we have Postnikov towers has been called the [[Whitehead principle of nonabelian cohomology]].
 
+
+## References
+
+Seciton 6.5...
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
 
 [[!redirects Postnikov tower in an (∞,1)-category]]
 [[!redirects Postnikov system in an (∞,1)-category]]
