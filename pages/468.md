@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _pushout-product axtiom_ is a compatibility condition between 
+The _pushout-product axiom_ is a compatibility condition between 
 
 1. a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal]] structure 
 
