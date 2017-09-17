@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _coherent $(\infty,1)$-operad_ is an [[(∞,1)-operad]] $\mathcal{O}$ whose [[∞-module over an ∞-algebra over an (∞,1)-operad|modules]] over $\mathcal{O}$-[[algebra over an (∞,1)-operad|algebras]] come equipped with a well behaved [[tensor product]]
+
+## References
+
+Section 3.3.1 of 
+
+* [[Jacob Lurie]], _[[Higher Algebra]]_
+
+[[!redirects coherent (∞,1)-operad]]
+
+[[!redirects coherent (∞,1)-operads]]
+[[!redirects coherent (infinity,1)-operads]]
