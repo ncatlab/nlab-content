@@ -27,8 +27,12 @@ is the [[subgroup]] of the [[diffeomorphism group]] of $X$ on the [[diffeomorphi
 
 ### In higher symplectic geometry
 
-Analogous constructions apply when symplectic manifolds are generalized to [[n-plectic infinity-groupoids]].
+Analogous constructions apply when symplectic manifolds are generalized to [[n-plectic infinity-groupoids]]: for $(X, \omega)$ an [[n-plectic manifold]], and **$n$-plectomorphism** is a [[diffeomorphism]] $\phi : X \to X$ that preserves the $n$-plectic form $\phi^* X \simeq X$.
 
+## Examples
+
+* The linear part of the 2-plectomorphism group/3-plectomorphism group of the [[Cartesian space]] $\mathbb{R}^7$ equipped with its associative 3-form $\omega = \lanlge (-), (-) \times (-)\rangle$ is the [[exceptional Lie group]] [[G2]]. See there for more details.
+ 
 ## Related concepts
 
 A further subgroup is that of [[Hamiltonian symplectomorphisms]]. The [[group extension]] of that whose elements are pairs consisting of a Hamiltonian diffeomorphism and a choice of [[Hamiltonian]] for this is the [[quantomorphism group]]. 
@@ -53,3 +57,5 @@ The [[Lie algebra]] of the symplectomorphism group is that of [[symplectic vecto
 [[!redirects 2-plectomorphism group]]
 [[!redirects 2-plectomorphism groups]]
 
+[[!redirects 3-plectomorphism group]]
+[[!redirects 3-plectomorphism groups]]
