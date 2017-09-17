@@ -130,10 +130,14 @@ More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$,
 
 [[!redirects proper ideal]]
 [[!redirects proper ideals]]
+
 [[!redirects prime ideal]]
 [[!redirects prime ideals]]
+
 [[!redirects principal ideal]]
 [[!redirects principal ideals]]
+[[!redirects principal-ideal]]
+
 [[!redirects generated ideal]]
 [[!redirects generated ideals]]
 [[!redirects ideal generated]]
