@@ -31,6 +31,8 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 
 * [[computational trinitarianism]]
 
+* [[computational consistency]]
+
 * [[programming language]]
 
 [[!redirects computations]]
