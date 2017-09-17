@@ -25,3 +25,4 @@ There are several articles trying to attach zeta functions attached to triangula
 
 
 [[!redirects zeta functions]]
+[[!redirects Riemann zeta function]]
