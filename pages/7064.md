@@ -100,6 +100,9 @@ Moreover,
 
 =--
 
+[[!include image of J -- table]]
+
+
 ## Related concepts
 
 * [[Adams–Novikov spectral sequence]]
