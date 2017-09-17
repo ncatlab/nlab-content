@@ -9,11 +9,11 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-## Conventional Meaning
+## Conventional meaning
 
 If $V$ is a [[closed category]] (for example a [[closed monoidal category]]), with the [[internal hom]] denoted as $A \multimap B$ and the unit object as $I$, then the **dual** of an object $A$ is usually taken to mean $A \multimap I$. This applies for example to categories of [[modules]] over a [[commutative ring]], to the category of [[Banach spaces]], etc., with their usual closed monoidal structures. 
 
@@ -37,9 +37,16 @@ Of course, where the monoidal product is not [[braided monoidal category|braided
 
 * [[duality]]
 
+
 [[!redirects dual object in a closed monoidal category]]
 [[!redirects dual objects in a closed monoidal category]]
 [[!redirects dual objects in closed monoidal categories]]
+[[!redirects dual in a closed monoidal category]]
+[[!redirects duals in a closed monoidal category]]
+[[!redirects duals in closed monoidal categories]]
 [[!redirects dual object in a closed category]]
 [[!redirects dual objects in a closed category]]
 [[!redirects dual objects in closed categories]]
+[[!redirects dual in a closed category]]
+[[!redirects duals in a closed category]]
+[[!redirects duals in closed categories]]
