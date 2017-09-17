@@ -428,22 +428,6 @@ Let $D$ be a small category and let $D'$ be any category. Let $C$ be a category 
 =--
 
 +-- {: .un_prop}
-###### Proposition -- small limits commute with small limits
-
-Let $D$ and $D'$ be small catgeories and let $C$ be
-a category which admits limits of shape $D$ as well as
-limits of shape $D'$. Then these limits commute with each other, in that 
-
-for $F : D^{op} \times {D'}^{op} \to C$ a functor , with corresponding induced functors $F_D : {D'}^{op} \to [D^{op},C]$ and $F_{D'} : {D}^{op} \to [{D'}^{op},C]$, then
-$$
-  lim F \simeq lim_{D}  (lim_{D'} F_D )
-  \simeq
-   lim_{D'}  (lim_{D} F_{D'} )
-  \,.
-$$
-=--
-
-+-- {: .un_prop}
 ###### Proposition -- right adjoints commute with limits
 
 Let $R : C \to C'$ be a functor that is [[right adjoint]] to some functor $L : C' \to C$. Let $D$ be a small category such that $C$ admits limits of shape $D$. Then $R$ commutes with $D$-shaped limits in $C$ in that
@@ -476,6 +460,27 @@ $$
 Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
 =--
 
++-- {: .un_prop}
+###### Proposition -- small limits commute with small limits
+
+Let $D$ and $D'$ be small catgeories and let $C$ be
+a category which admits limits of shape $D$ as well as
+limits of shape $D'$. Then these limits commute with each other, in that 
+
+for $F : D^{op} \times {D'}^{op} \to C$ a functor , with corresponding induced functors $F_D : {D'}^{op} \to [D^{op},C]$ and $F_{D'} : {D}^{op} \to [{D'}^{op},C]$, then
+$$
+  lim F \simeq lim_{D}  (lim_{D'} F_D )
+  \simeq
+   lim_{D'}  (lim_{D} F_{D'} )
+  \,.
+$$
+=--
+
++-- {: .proof}
+######Proof
+
+This follows from the above proposition and the characterization of the limit as right adjoint to the functor $const$ defined above in the section on adjoints.
+=--
 
 +-- {: .un_prop}
 ###### Proposition -- limits are equalizers of products
