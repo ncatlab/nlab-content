@@ -132,3 +132,8 @@ and definition 2.0.0.7 in
 [[!redirects symmetric monoidal (infinity,1)-categories]]
 [[!redirects symmetric monoidal (∞,1)-category]]
 [[!redirects symmetric monoidal (∞,1)-categories]]
+
+[[!redirects cartesian monoidal (∞,1)-category]]
+[[!redirects cartesian monoidal (∞,1)-categories]]
+[[!redirects cartesian monoidal (infinity,1)-category]]
+[[!redirects cartesian monoidal (infinity,1)-categories]]
