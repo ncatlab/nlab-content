@@ -70,6 +70,21 @@ After that we turn to the general case of examples of
 
 * _[Higher Chern-Simons prequantum field theory](#HigherChern-SimonsLocalPrequantumFieldTheory)_.
 
+Here the pattern of the discussion of examples is the following:
+
+| | [[local prequantum field theory]] | [[homotopy theory]] |  | [[local action functional]] / [[prequantum n-bundle]] |  |
+|--|--|--|--|--|--|
+| **1)** | [[1-dimensional Dijkgraaf-Witten theory]] | [[1-groupoids]]/[[homotopy 1-types]] | $\mathbf{B}\flat G$ | $-$[[group character]]$\to$ | $\mathbf{B}\flat U(1)$ |
+| | $\vdots$ |  |  |  |  |
+| **2)** | [[n-dimensional Dijkgraaf-Witten theory]] | [[n-groupoids]]/[[homotopy n-types]] | $\mathbf{B}\flat G$ | $-$[[cocycle]] in [[group cohomology]]$\to$ | $\mathbf{B}^n\flat U(1)$ |
+|  |  |  |  $\downarrow$ | embed [[flat ∞-connections]] in all [[principal ∞-connections]] |  $\downarrow$ |
+| **3)** | [[schreiber:infinity-Chern-Simons theory|n-dimensional Chern-Simons theory]] | [[n-stacks]]/[[smooth homotopy n-types]] | $\mathbf{B}G_{conn}$ | $-$[[cocycle]] in [[differential cohomology]]$\to$ | $\mathbf{B}^n U(1)_{conn}$ |
+| |  |  |  $\downarrow$  |   [[forgetful functor|forget]] connection, remember [[principal ∞-bundle]] |  $\downarrow$ |
+| | (underlying [[instanton sectors]])  |  |  $\mathbf{B}G$ | $-$[[cocycle]] in [[smooth ∞-group]]-[[cohomology]]$\to$ | $\mathbf{B}^n U(1)$ |
+| |  |  |  |  |  |
+| | ([[transgression]]/[[fiber integration]]) |  |  $[\Sigma_k,\mathbf{B}G_{conn}]$ | $\stackrel{\exp(2 \pi in \int_{\Sigma_k} [\Sigma_k,\nabla])}{\to}$ | $\mathbf{B}^{n-k}U(1)$ |
+| | |  |  | ([[Chern-Simons invariant]]) |
+
 ### The ambient topos
  {#TheTopos}
 
@@ -816,6 +831,26 @@ The functions $p_1, p_2, \circ \colon \mathcal{G}_2 \to \mathcal{G}_1$ are those
 
 =--
 
++-- {: .num_example #SetAsGroupoid}
+###### Example
+
+For $X$ a [[set]], it becomes a groupoid by taking $X$ to be the set of objects and adding only precisely the [[identity]] morphism from each object to itself
+
+$$
+  \left(
+    X 
+    \stackrel
+    {\overset{id}{\to}}
+    {
+      \stackrel{\overset{id}{\leftarrow}}{\underset{id}{\to}}
+    }
+   X
+  \right)
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_example #DeloopingGroupoid}
 ###### Example
@@ -911,8 +946,7 @@ For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\m
 * $\mathcal{G}^I_0 = \mathcal{G}_1 = \left\{ \array{ \phi_0 \\ \downarrow^{\mathrlap{k}} \\ \phi_1  } \right\}$;
 
 * $\mathcal{G}^I_1 = $ [[commuting diagram|commuting squares]] in $\mathcal{G}_\bullet$ = 
-
-  $$
+  $
     \left\{
        \array{
           \phi_0 &\stackrel{h_0}{\to}& \tilde \phi_0
@@ -923,7 +957,7 @@ For $\mathcal{G}_\bullet$ any groupoid, there is the [[path space]] groupoid $\m
        }
     \right\}
     \,.
-  $$   
+  $   
 
 This comes with two canonical homomorphisms
 
@@ -1158,9 +1192,9 @@ $$
   \,,
 $$
 
-In the middle we have the groupoid $(\mathbf{B}G)^I_\bullet$ whose objects are elements of $G$ and whose morphisms are pairs of elements in $G$ which act by left and right multiplication. 
+In the middle we have the groupoid $(\mathbf{B}G)^I_\bullet$ whose objects are elements of $G$ and whose morphisms starting at some element are labeled by pairs of elements $h_1, h_2 \in G$ and end at $h_1 \cdot g \cdot h_2$. 
 Using remark \ref{FiberProductsOfGroupoidsComponentwise} 
-the limiting cone precisely picks those morphisms such that these two elements are constant on the neutral element, hence just produces the elements of $G$.
+the limiting cone is seen to precisely pick those morphisms in $(\mathbf{B}G_\bullet)^I_\bullet$ such that these two elements are constant on the neutral element $h_1 = h_2 = e = id_{\ast}$, hence it produces just the elements of $G$ regarded as a groupoid with only identity morphisms, as in example \ref{SetAsGroupoid}.
 
 =--
 
@@ -1297,7 +1331,26 @@ $$
 ##### Correspondences of groupoids 
  {#CorrespondencesOfGroupoids}
 
-With some basic homotopy theory of groupoids in hand, we can now talk about [[trajectories]] in finite gauge theories, namely about [[spans]]/[[correspondences]] of groupoids and their composition.
+With some basic [[homotopy theory]] of [[groupoids]] in hand, we can now talk about [[trajectories]] in finite gauge theories, namely about [[spans]]/[[correspondences]] of groupoids and their composition. These correspondences of groupoids encode [[trajectories]]/histories of [[field (physics)|field configurations]].
+
+The main point for fields in [[topological field theories]] are the _[[traces]]_ and higher traces of such correspondences (the "[[span trace]]"). This is because by the [[cobordism theorem]], the field configurations on, notably, the [[n-sphere]] are given by the $n$-fold [[span trace]] of the field configurations on the point, the trace of the traces of the ... of the 1-trace. This is because for instance the 1-sphere, hence the [[circle]] is, regarded as a 1-dimensional [[cobordism]] itself pretty much manifestly a [[trace]] on the point in the [[string diagram]] formulation of traces.
+
+$$
+  \array{
+     &&  \ast^- 
+     \\
+     & \swarrow & & \nwarrow
+     \\
+     \downarrow && && \uparrow
+     \\
+     & \searrow && \nearrow
+     \\
+     && \ast^+
+  }
+  \,.
+$$
+
+Here $\ast^+$ is the point with its potitive orientation, and $\ast^-$ is its [[dual object]] in the [[category of cobordisms]], the point with the reverse orientation. Since, by this picture, the construction that produces the circle from the point is one that involves only the [[coevaluation map]] and [[evaluation]] map on the point regarded as a [[dualizable object]], a [[topological field theory]] $Z \colon Bord_n \to Span_n(\mathbf{H})$, since it respects all this structure, takes the circle to precisely the same kind of diagram, but now in $Span_n(\mathbf{H})^\otimes$, where it becomes instead the [[span trace]] on the space $\mathbf{Fields}(\ast)$ over the point. This we discuss now.
 
 Before talking about correspondences of groupoids, we need to organize the groupoids themselves a bit more.
 
@@ -1706,7 +1759,7 @@ $$
     \\
     & \swarrow &&  \searrow
     \\
-    \ast && \swArrow_{\phi} && ast
+    \ast && \swArrow_{\phi} && \ast
     \\
     & \searrow && \swarrow
     \\
@@ -1741,7 +1794,7 @@ $$
     \\
     \downarrow & \swarrow &&  \searrow & \downarrow
     \\
-    \ast && \swArrow && ast
+    \ast && \swArrow && \ast
     \\
     & \searrow && \swarrow
     \\
@@ -2230,9 +2283,26 @@ where we discuss how the boundary theories for $S^{n+1}_{tYM}$ are precisely the
 
 
 
-#### $d = n + 1$, Universal topological Yang-Mills theory
+#### $d = n + 1$, Universal topological Yang-Mills theory $S_{tYM}$
  {#TopologicalYangMillsLocalPrequantumFieldTheory}
 
+There is a special and specially simple map to the [[coefficient]] object  $\flat \mathbf{B}^{n+1} U(1)$ for flat [[local action functionals]]/[[prequantum n-bundles]], namely the map
+
+$$
+  \array{
+    \Omega^{n+1}_{cl} 
+    \\
+    \downarrow^{\mathrlap{S_{tYM}}}
+    \\
+    \mathbf{B}^{n+1} \flat U(1)
+  }
+$$
+
+which in components is the inclusion of closed [[differential forms]] into [[de Rham cohomology|de Rham]] [[hypercohomology]] cocoycles. 
+
+We here introduce and describe this map and then regard it as a [[local action functional]] of a local prequantum field theory according to def. \ref{LocalPrequantumFieldWithAction}. Below in _[Higher Chern-Simons prequantum field theory](#HigherChernSimonsPrequantumFieldTheory)_ we find that this field theory is such that close to its boundaries it looks like (higher) [[topological Yang-Mills theory]] for every possible higher gauge group and every possible [[invariant polynomial]] on it, as one considers every possible [[boundary condition]]. Therefore we here refer to this as the "universal topological Yang-Mills theory".
+
+(...)
 
 +-- {: .num_prop }
 ###### Proposition
@@ -2312,6 +2382,18 @@ is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected co
 #### $d = n + 0$, Higher Chern-Simons field theories
  {#HigherChernSimonsPrequantumFieldTheory}
 
+(...)
+
+##### Universal boundary condition for $S_{tYM}$ -- differential cohomology and Cheeger-Simons theory
+
+(...)
+
+##### General boundary condition for $S_{tYM}$ -- $\infty$-Chern-Simons theory
+
+(...)
+
+
+##### Geometric defects for $S_{tYM}$ -- Chern-Simons invariants
 
 (...)
 
@@ -2320,9 +2402,6 @@ is a [[1-epimorphism]], hence a [[stalk]]-wise [[epimorphism]] on [[connected co
 
 (...)
 
-#### $d = n-k$, Dimensional reduction
-
-(...)
 
 #### $d = n-1$, Wess-Zumino-Witten field theories
 
