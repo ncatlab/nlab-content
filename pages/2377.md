@@ -9,9 +9,6 @@
 =--
 =--
 
-+--{: .standout}
-This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  -- [[Mike Shulman]]
-=--
 
 # SEAR
 * a table of contents
