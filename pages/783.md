@@ -21,6 +21,10 @@ The video of a talk by W. Scharlau on his life can be seen [here](http://www.dai
 
 * Reminiscenes of Grothendieck, 2007 conversations of [[Sasha Beilinson]], [[Luc Illusie]], [[Vladimir Drinfel'd]], [[Spencer Bloch]],  [pdf](http://www.math.uchicago.edu/~mitya/langlands/reminiscences1.pdf)
 
+
+
+A  recent article in French on Grothendieck is to be found [here](http://images.math.cnrs.fr/Alexandre-Grothendieck.html).
+
 category: people
 
 [[!redirects A. Grothendieck]]
