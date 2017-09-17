@@ -640,6 +640,15 @@ The whole formalism also applies to the locus of solutions of [[differential equ
 
 * S.L. Lyakhovich, A.A. Sharapov, _BRST theory without Hamiltonian and Lagrangian_ ([arXiv:hep-th/0411247](http://arxiv.org/abs/hep-th/0411247))
 
+Section 4.5 of 
+
+* [[Gennadi Sardanashvily]], _Advanced Classical Field Theory_ (2009) ([pdf](http://www.g-sardanashvily.ru/book09.pdf))
+
+This also makes the connection to 
+
+* P. Olver, _Applications of Lie Groups to Differential Equations_ (Springer-Verlag, Berlin) (1986)
+
+
 ### Hamiltonian BFV
 
 
