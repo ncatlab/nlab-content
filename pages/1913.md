@@ -313,21 +313,6 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects smooth differential n-form]]
 [[!redirects smooth differential n-forms]]
 
-[[!redirects exterior derivative]]
-[[!redirects exterior derivatives]]
-[[!redirects exterior differential]]
-[[!redirects exterior differentials]]
-[[!redirects exterior differentiation]]
-[[!redirects de Rham derivative]]
-[[!redirects de Rham derivatives]]
-[[!redirects deRham derivative]]
-[[!redirects deRham derivatives]]
-[[!redirects de Rham differential]]
-[[!redirects de Rham differentials]]
-[[!redirects deRham differential]]
-[[!redirects deRham differentials]]
-[[!redirects de Rham differentiation]]
-[[!redirects deRham differentiation]]
 
 [[!redirects integration of forms]]
 
