@@ -69,6 +69,8 @@ A general way to construct free functors is with a [[transfinite construction of
 
 * When $U: C \to Set$ is [[topological concrete category]] over $Set$, as for example the forgetful functor $U: Top \to Set$, it frequently happens that $U$ possesses a right adjoint, assigning to a set an "indiscrete topology". 
 
+* The ring of [[Witt vectors]] is the co-free [[Lambda-ring]].
+
 * A rich source of examples is [[coreflective subcategories]], which are comonadic over the ambient category. For example, the category of compactly generated spaces is coreflective in the category of all spaces, $Top$.  
 
 
