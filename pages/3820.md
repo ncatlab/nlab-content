@@ -23,7 +23,7 @@
 
 The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its solutions to its [[classical mechanics|classical equations of motion]], the space of _classical trajectories_ of the system.  Often one considers a parameterization of this by boundary data or choice of a [[Cauchy surface]]. This parameterization is what traditionally is just called a "phase space". The "covariant" in "covariant phase space" is to indicated that it comes without any unnatural choices.
 
-For a system described by [[Lagrangian]] mechanics, the covariant phase space comes canonically equipped with a [[presymplectic structure]]. A proper _phase space_ or _reduced phase space_ is a subspace or [[quotient space]] of the covariant phase space on which the presymplectic structure refines to a [[symplectic manifold|symplectic structure]] or [[Poisson manifold|Poisson strucure]]. 
+For a system described by [[Lagrangian]] mechanics, the covariant phase space comes canonically equipped with a [[presymplectic structure]]. A proper _phase space_ or _[[reduced phase space]]_ is a [[quotient space]] of the covariant phase space on which the presymplectic structure refines to a [[symplectic manifold|symplectic structure]] or [[Poisson manifold|Poisson strucure]]. 
 
 Typically these phase spaces are (locally) naturally parameterized by the suitable boundary conditions which uniquely determine the corresponding history of the physical system. Much of the literature on phase spaces deals with parameterizing these boundary conditions. 
 
@@ -31,7 +31,7 @@ For instance for a non-relativistic [[particle]] propagating on a [[Riemannian m
  
 (The term "phase" in "phase space" can be related to the phase of [[complex numbers]] in this example, see at _[[phase and phase space in physics]]_.)
 
-However, even reduced phase spaces are not all cotangent bundles, typically not, for instance, if they are obtained by [[symplectic reduction]]. This way a finite-dimensional phase space can sometimes describe continuous systems (e.g. in hydrodynamics) whch have infinitely many degrees of freedom; that phase space is however not a cotangent bundle of something in general. 
+However, even [[reduced phase spaces]] are not all cotangent bundles, typically not, for instance, if they are obtained by [[symplectic reduction]]. This way a finite-dimensional phase space can sometimes describe continuous systems (e.g. in hydrodynamics) whch have infinitely many degrees of freedom; that phase space is however not a cotangent bundle of something in general. 
 
 
 ## Covariant phase space
@@ -139,9 +139,9 @@ The presymplectic form $\iota^* \Omega$ on the covariant phase space is symplect
 
 =--
 
-However, the infinitesimal actions of gauge symmetries exhaust the kernel of the $\iota^* \Omega$ and upon performing [[symplectic reduction]], we obtain the space of orbits of solutions under the action of gauge symmetries, which is the _physical_ or _reduced phase space_.
+However, the infinitesimal actions of gauge symmetries exhaust the kernel of the $\iota^* \Omega$ and upon performing [[symplectic reduction]], we obtain the space of orbits of solutions under the action of gauge symmetries, which is the _physical_ or _[[reduced phase space]]_.
 
-Notice that the form $\Omega$, on the field configuration space, does depend on the choice of Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, and hence also the _reduced phase space_. Thus, the end point of the reduction no longer depends on the choice of the Cauchy surface.
+Notice that the form $\Omega$, on the field configuration space, does depend on the choice of Cauchy surface. Performing [[symplectic reduction]] gives the symplectic space of equivalence classes of solutions of equations of motion modulo [[gauge transformation]]s, and hence also the _[[reduced phase space]]_. Thus, the end point of the reduction no longer depends on the choice of the Cauchy surface.
 
 #### Application to the inverse problem of the calculus of variations
  {#InverseProblem}
@@ -200,7 +200,7 @@ The [[Peierls bracket]] of two functions $A$ and $B$ is the antisymmetrized infl
 
 The [[BV-BRST complex]] of a [[local action functional]] is (the [[Isbell duality|formal dual]] to) a [[resolution]] of the _reduced_ covariant phase space (the quotient of the covariant phase space by symmetries). As discussed in more detail at _[[BV-BRST complex]]_ the ghost sector of that complex is a model for the quotient by the symmetries, whereas the antifield/antighost sector is a model for the [[critical locus]] of the action functional.
 
-Moreover, by the nature of its construction, the BV-complex is canonically equipped with a _graded_ symplectic form $\Omega$, whose [[Gerstenhaber algebra|(-1)-graded Poisson bracket]] is called the _antibracket_ (essentially the canonical [[Schouten bracket]] on graded derivations). This is not the canonical symplectic form  $\int_\Sigma \omega$ on the reduced phase space, as discussed above, but it is  something like a potential for it.
+Moreover, by the nature of its construction, the BV-complex is canonically equipped with a _graded_ symplectic form $\Omega$, whose [[Gerstenhaber algebra|(-1)-graded Poisson bracket]] is called the _antibracket_ (essentially the canonical [[Schouten bracket]] on graded derivations). This is not the canonical symplectic form  $\int_\Sigma \omega$ on the [[reduced phase space]], as discussed above, but it is  something like a potential for it.
 
 We want to make the following
 
