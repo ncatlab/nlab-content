@@ -25,7 +25,85 @@ The generalization of the concept of [[Jacobian variety]] to higher dimensional 
 
 In [[differential geometry]] these appear as [[moduli spaces]] of [[flat infinity-connection|flat]] [[circle n-bundles with connection]] that are equipped with [[symplectic structure]] and [[Kähler polarization]] induced from any choice of [[complex structure]] on the base space. Via the [[Koszul-Malgrange theorem]], this translates to [[abelian sheaf cohomology]] of a suitable ([[complex variety|complex]]) [[variety]] with coefficients in the [[structure sheaf]].
 
+## Definition
+
+### In complex geometry
+ {#InComplexGeometry}
+
+Let $X$ be a [[projective variety|projective]] [[smooth variety|smooth]] [[complex variety]] (see at _[[GAGA]]_). 
+
+For $k \in \mathbb{N}$ the _$k$th intermediate Jacobian_ of $X$ is, as a [[real manifold]], the [[quotient]]
+
+$$
+  J^k(X) \coloneqq H^{2k-1}(X,\mathbb{R})/H^{2k-1}(X,\mathbb{Z})
+$$
+
+of the [[ordinary cohomology|ordinary]] [[cohomology groups]] of $X$ with [[coefficients]] in the [[abelian groups]] of [[real numbers]] and of [[integers]], respectively, induced by the canonical inclusion $\mathbb{Z} \hookrightarrow \mathbb{R}$.
+
+Here $H^{2k-1}(X,\mathbb{R})$ is naturally a [[vector space]] over the [[real numbers]] and this is what induces the [[manifold]]-structure on the quotient. 
+
+But in fact $J^k(X)$ canonically carries the structure of a [[complex manifold]], too, and this is the intermediate Jacobian proper:
+
+Namely since a real [[differential form]] 
+
+$$
+  \alpha \in \Omega^{2k-1}_{\mathbb{R}}(X)
+$$
+
+is, by the [[Hodge theorem]], a sum of forms in homogeneous [[Dolbeault complex|Dolbeaut bidegree]] of the form
+
+$$
+  \alpha = \alpha^{2k-1,0}+ \alpha^{2k-2,1} + \cdots + \overline{\alpha^{1,2k-2}} + \overline{\alpha^{0,2k-1}}
+$$
+
+it follows with the [[de Rham theorem]] that there is a canonical [[isomorphism]] of real vector spaces
+
+$$
+  H^{2k-1}(X, \mathbb{R}) \simeq H^{2k-1}(X,\mathbb{C})/(F^k H^{2k-1}(X))
+ \,,
+$$
+
+where 
+
+$$
+  F^k H^{2k-1}(X) \coloneqq \underset{p \geq k}{\oplus} H^{p,2k-1-p}(X)
+$$
+
+is the $k$th stage in the [[Hodge filtration]] of $K^{2k-1}(X,\mathbb{C})$. But since the latter is naturally in fact a [[vector space]] over the [[complex numbers]], the presentation
+
+$$
+  J^k(X)\simeq H^{2k-1}(X,\mathbb{C})/(F^k H^{2k-1}(X) \oplus H^{2k-1}(X,\mathbb{Z}))
+$$
+
+exhibits a [[complex torus]], and this is the _$k$th intermediate Jacobian_ proper.
+
+### Algebraically
+
+(...)
+
+## Properties
+
+### Cycle map / Abel-Jacobi map
+
+The intermediate Jacobians receive canonical maps from cycles (...)
+See at _[[Abel-Jacobi map]]_.
+
 ## Examples
+
+### $n = 1$: Picard varitey
+
+For $n =1$ the inermediate Jacobian  is the [[Jacobian variety]], the connected component of the [[Picard scheme]]:
+
+$$
+  J^1(X) = Pic^0_X
+  \,.
+$$ 
+
+### $n = 2 dim(X)-1$: Albanese variety
+
+For $n = 2 dim(X)-1$ then $J^{2 dim(X)-1}(X) = Alb(X)$
+is called the _[[Albanese variety]]_ of $X$.
+
 
 ### Of elliptic curves
 
