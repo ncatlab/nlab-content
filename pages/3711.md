@@ -30,7 +30,7 @@ The term _$\mathcal{D}$-geometry_ refers to a [[synthetic differential geometry|
 
 * [[synthetic differential geometry]], [[infinitesimal object]]
 
-* [[Kähler differential]], [[tangent category]], [[tangent (∞,1)-category]], [[cotangent complex]], [[deformation theory]], [[formally smooth morphism]], [[jet space]]
+* [[Kähler differential]], [[tangent category]], [[tangent (∞,1)-category]], [[cotangent complex]], [[deformation theory]], [[formally smooth morphism]], [[jet bundle]], [[jet space]]
 
 * [[Stokes phenomenon]], [[wall crossing]]
 
