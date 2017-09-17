@@ -20,8 +20,8 @@ The notion of _$A_\infty$-field_ is to the notion of [[A-∞ algebra]] as that o
 
 ## Definition
 
-+-- {: .num_remark}
-###### Remark
++-- {: .num_defn #InfinityField}
+###### Definition
 
 An [[A-∞ ring]] or in fact just an [[H-space]] $A$ is a **field** if $\pi_\bullet A$ is a [[graded field]].
 
@@ -29,6 +29,13 @@ An [[A-∞ ring]] or in fact just an [[H-space]] $A$ is a **field** if $\pi_\bul
 
 For instance ([Lurie, lecture 24, def. 3](#LurieLecture)).
 
+## Properties
+
+For $E$ an $\infty$-field, def. \ref{InfinityField}, then it carries the structure of an [[∞-module]] over the $n$th [[Morava K-theory]] spectrum $K(n)$, for some $n$. 
+
+([Lurie 10, lect 25, cor 10](#LurieLect25))
+
+This follows with the [[nilpotence theorem]].
 
 ## Examples
 
@@ -40,14 +47,16 @@ The [[Morava K-theory]] [[A-∞ rings]] $K(n)$ are essentially the only $A_\inft
 
 ## References
 
-Definition 3 in lecture 24 of
+Definition 3 in 
 
-* [[Jacob Lurie]], _Morava E-theory and Morava K-theory_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 24 _Uniqueness of Morava K-theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture24.pdf))
  {#LurieLecture}
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010,
+Lecture 25 _The Nilpotence lemma_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture25.pdf))
+ {#LurieLect25}
 
 [[!redirects infinity-fields]]
 
 [[!redirects ∞-field]]
 [[!redirects ∞-fields]]
-
-
