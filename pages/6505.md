@@ -133,7 +133,7 @@ This is the way it is often written in the literature.
 
 ## Related concepts
 
-The moment map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotients]].
+The moment map is a crucial ingredient in the construction of Marsden--Weinstein [[symplectic quotients]] and in other variants of symplectic reduction.
 
 
 
