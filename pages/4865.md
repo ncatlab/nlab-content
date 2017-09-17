@@ -166,7 +166,7 @@ And it seems that this is the same term later also redicovered around equation (
 
 11d supergravity was originally found in
 
-* E. Cremmer, [[Bernard Julia]], J. Scherk, _Supergravity in theory in 11 dimensions_ Phys. Lett. 76B (1978) 409
+* E. Cremmer, [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_ Phys. Lett. 76B (1978) 409
 
 
 The description of 11d supergravity in terms of the [[D'Auria-Fre formulation of supergravity]] originates in 
