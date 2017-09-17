@@ -3,20 +3,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
-=--
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
 =--
 =--
-=--
+
+
 
 
 #Contents#
