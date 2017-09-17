@@ -294,6 +294,8 @@ The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills 
 
 * [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
 
+* Chong-Sun Chu, Sheng-Lan Ko, _Non-abelian Action for Multiple Five-Branes with Self-Dual Tensors_, ([arXiv:1203.4224](http://arxiv.org/abs/1203.4224)) JHEP05(2012)028
+
 See also ([Witten 11](#Witten11)).
 
 ### Sugra solutions
