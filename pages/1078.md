@@ -198,3 +198,7 @@ In the category of [[Banach spaces]] (with [[short linear maps]]), the direct su
 
 [[!redirects weak direct product]]
 [[!redirects weak direct products]]
+
+[[!redirects direct sum of groups]]
+[[!redirects direct sum of abelian groups]]
+
