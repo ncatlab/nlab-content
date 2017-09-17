@@ -52,7 +52,7 @@ These are the [[chains on a simplicial set]] on $Sing X$.
 The groups of singular chains combine to the [[simplicial abelian group]]
 $\mathbb{Z}[Sing X] \in Ab^{\Delta^{op}}$. 
 
-+-- {: .num_defn }
++-- {: .num_defn #SingularComplex}
 ###### Definition
 
 The [[alternating face map complex]] 
@@ -117,13 +117,85 @@ This means that a [[singular chain]] is a [[cycle]] if the formal linear combina
 
 More generally, for $R$ any unital [[ring]] one can form the degreewise [[free module]] $R[Sing X]$ over $R$. The corresponding homology is the _singular homology with coefficients in $R$, denoted $H_n(X,R)$.
 
-Singular homologogy extends to a [[functor]]
++-- {: .num_defn }
+###### Definition
+
+Given a [[continuous map]] $f : X \to Y$ between topological spaces, 
+and given $n \in \mathbb{N}$, every singular $n$-simplex $\sigma : \Delta^n \to X$ in $X$ is sent to a singular $n$-simplex 
 
 $$
-  H_n(-,R) : Top \to Ab
+  f_* \sigma : \Delta^n \stackrel{\sigma}{\to} X \stackrel{f}{\to} Y
 $$
 
-from the category [[Top]] of topological spaces to the category [[Ab]] of [[abelian groups]]. 
+in $Y$. This is called the **push-forward** of $\sigma$ along $f$. Accordingly there is a push-forward map on groups of singular chains
+
+$$
+  (f_*)_n : C_n(X) \to C_n(Y)
+  \,. 
+$$
+
+=--
+
++-- {: .num_prop #PushForwardChainMap}
+###### Proposition
+
+These push-forward maps make all diagrams of the form
+
+$$
+  \array{
+     C_{n+1}(X) &\stackrel{(f_*)_{n+1}}{\to}& C_{n+1}(Y)
+     \\
+     \downarrow^{\mathrlap{\partial^X_n}} && \downarrow^{\mathrlap{\partial^Y_n}}
+     \\
+     C_n(X) &\stackrel{(f_*)_n}{\to}& C_n(Y)
+  }
+$$
+
+commute. In other words, push-forward along $f$ constitutes a [[chain map]]
+
+$$
+  f_* : C_\bullet(X) \to C_\bullet(Y)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is in fact evident that push-forward yields a functor of [[singular simplicial complexes]]
+
+$$
+ f_* : Sing X \to Sing Y
+ \,.
+$$
+
+From this the statement follows since $\mathbb{Z}[-] : sSet \to sAb$ is a functor.
+
+=--
+
+Accordingly we have:
+
++-- {: .num_prop #SingularHomologyAsAFunctor}
+###### Proposition
+
+Sending a topological space to its singular chain complex $C_\bullet(X)$, def. \ref{SingularComplex}, and a continuous map to its push-forward chain map, 
+prop. \ref{PushForwardChainMap}, constitutes a [[functor]]
+
+$$
+  C_\bullet(-,R) : Top \to Ch_\bullet(R Mod)
+$$
+
+from the category [[Top]] to the [[category of chain complexes]].
+
+In particular for each $n \in \mathbb{N}$ singular homology extends to a [[functor]]
+
+$$
+  H_n(-,R) : Top \to R Mod
+  \,.
+$$
+
+=--
 
 ## Examples
  
@@ -334,6 +406,7 @@ For more illustrations see for instance ([Ghrist, (4.5)](#Ghrist)).
 ## Properties
 
 ### Homotopy invariance
+ {#HomotopyInvariant}
 
 Singular homology is _homotopy invariant_:
 
@@ -348,7 +421,13 @@ $$
 
 is an [[isomorphism]].
 
+In other words: the singular chain functor of prop. \ref{SingularHomologyAsAFunctor}
+sends [[weak homotopy equivalences]] to [[quasi-isomorphisms]].
+
 =--
+
+A proof (via [[CW approximations]]) is spelled out for instance in ([Hatcher, prop. 4.21](#Hatcher)).
+
 
 ### Relation to homotopy groups
  {#RelationToHomotopyGroups}
@@ -452,10 +531,12 @@ Lecture notes include
 Textbook discussion in the context of [[homological algebra]] is around Application 1.1.4 of 
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+ {#Weibel}
 
 and in the context of [[algebraic topology]] in chapter 2.1 of 
 
 * [[Alan Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
+ {#Hatcher}
 
 and [chapter 4](http://www.math.upenn.edu/~ghrist/EAT/EATchapter4.pdf) of 
 
@@ -473,7 +554,7 @@ See also
 
 ### Examples and applications
 
-* [[Michael  Barratt]], [[John Milnor]], _An example of anomalous singular homology_, Proceedings of the American Mathematical Society
+* Michael  Barratt, [[John Milnor]], _An example of anomalous singular homology_, Proceedings of the American Mathematical Society
 Vol. 13, No. 2 (Apr., 1962), pp. 293-297 ([JSTOR]( http://www.jstor.org/stable/2034486))
 
 [[!redirects singular chain]] 
