@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include topology - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
