@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,12 +23,18 @@ a [[morphism of (∞,1)-operads]] such that the underlying map of [[(∞,1)-cate
 
 ### Relation to $(\infty,1)$-Algebras over an $(\infty,1)$-operad
 
-For $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$ a fibration of $(\infty,1)$-operads, then for $\mathcal{P}^\otimes \to \mathcal{O}^\otimes$ any other homomorphism, an [[(∞,1)-algebra over an (∞,1)-operad|(∞,1)-algebra over]] $\mathcal{P}^\otimes$ in $\mathcal{C}^\otimes$ is a homomorphism of [[(∞,1)-operads]] from $\mathcal{P}$ to $\mathcal{C}$ over $\mathcal{O}$
+For $\mathcal{C}^\otimes \to \mathcal{O}^\otimes$ a fibration of $(\infty,1)$-operads, then for $\mathcal{P}^\otimes \to \mathcal{O}^\otimes$ any other [[morphism of (∞,1)-operads|homomorphism]], an [[(∞,1)-algebra over an (∞,1)-operad|(∞,1)-algebra over]] $\mathcal{P}^\otimes$ in $\mathcal{C}^\otimes$ is a homomorphism of [[(∞,1)-operads]] from $\mathcal{P}$ to $\mathcal{C}$ over $\mathcal{O}$
 
 ([Lurie, def. 2.1.3.1](#Lurie))  
 
 
 ## Related concepts
+
+* [[morphism of (∞,1)-operads]]
+
+  * **fibration of (∞,1)-operads**
+
+  * [[coCartesian fibration of (∞,1)-operads]]
 
 * [[Kan fibration]], [[anodyne morphism]]
 
