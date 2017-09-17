@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[stable (infinity,1)-category of spectra]] has a [[dualizing object in a closed category]] (dualizing module), the _[[Anderson spectrum]]_ $I_{\mathbb{Z}}$ ([[Representability Theorems|Lurie, Example 4.3.9]]). The [[duality]] that this induces is called _Anderson duality_.
+
+## Examples
+
+The Anderson dual of [[KU]] is (complex conjugation-equivariantly) the 4-fold [[suspension spectrum]] $\Sigma^4 KU$ ([Heard-Stojanoska 14, theorem 8.2](#HeardStojanoska14)); and [[tmf]] is Anderson self-dual ([Stojanoska 12](#Stojanoska12))
+
+## Related concepts
+
+* [[Spanier-Whitehead duality]]
+
+## References
+
+* [[Jacob Lurie]], section 4.2 of _[[Representability Theorems]]_
+
+* {#Stojanoska12} [[Vesna Stojanoska]], _Duality for Topological Modular Forms_, Doc. Math. 17 (2012) 271-311 ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
+
+* {#HeardStojanoska14} [[Drew Heard]], [[Vesna Stojanoska]], _K-theory, reality, and duality_ ([arXiv:1401.2581](http://arxiv.org/abs/1401.2581))
+
+
+[[!redirects Anderson spectrum]]
