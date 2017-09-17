@@ -4,7 +4,9 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ***
 
-no sand here
+[pdf](http://www.math.ist.utl.pt/~rfern/Estudantes/TeseIStruchiner.pdf)
+
+[pdf](http://www.ams.org/journals/tran/1964-113-01/S0002-9947-1964-0164299-4/S0002-9947-1964-0164299-4.pdf)
 
 ***
 
