@@ -9,6 +9,7 @@
   * [[bornological vector space|Bornological Vector Spaces]]
   * [[barrelled topological vector space|Barrelled Vector Spaces]]
 * Topics in Functional Analysis
+  * [[basis in functional analysis|Bases]]
   * [[algebraic theories in functional analysis|Algebraic Theories in Functional Analysis]]
   * [[an elementary treatment of Hilbert spaces|An Elementary Treatment of Hilbert Spaces]]
 
