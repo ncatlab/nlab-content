@@ -122,7 +122,7 @@ For $C$ an [[(∞,1)-site]], the full [[sub-(∞,1)-category]] of $PSh(C)$ on [[
 This is [[Higher Topos Theory|HTT, Prop. 6.2.2.7]]
 
 +-- {: .proof}
-###### Proof sketch (in progress...)
+###### Proof
 
 We must prove that the [[(∞,1)-sheafification]] functor $L \colon PSh(C)\to Sh(C)$ preserves [[finite (∞,1)-limits]]. To do so we give an explicit construction of $L$. Given a presheaf $F\in PSh(C)$, define a new presheaf $F^+$ by the formula
 
@@ -137,7 +137,7 @@ Fix $c\in C$ and a covering sieve $U$ of $C$. Given a presheaf $G\in PSh(C/c)$, 
 
 $$Match(U,G)(f: d\to c)={\lim_{\leftarrow}}_{u\in f^\ast U}G(u).$$
 
-Restriction maps induce a morphism $\theta_G: G\to Match(U,G)$. A cofinality argument shows that $Match(U,-)$ is _idempotent_, in the sense that $Match(U,\theta_G)$ and $\theta_{Match(U,G)}$ are equivalences.
+Restriction maps induce a morphism $\theta_G: G\to Match(U,G)$. Since we clearly have $G(u)\stackrel{\sim}{\to} Match(U,G)(u)$ for $u\in U$, the functor $Match(U,-)$ is _idempotent_ in the sense that $Match(U,\theta_G)$ and $\theta_{Match(U,G)}$ are (equivalent) equivalences.
 
 By definition, $F\in PSh(C)$ is a sheaf if and only if $F(c)\stackrel{\sim}{\to} Match(U,F|_{C/c})(c)$ for every $c\in C$ and every covering sieve $U$ of $c$. Our goal is therefore to find an ordinal $\alpha$ (depending only on the (∞,1)-site $C$) such that, for every $F\in PSh(C)$, the map
 
