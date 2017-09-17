@@ -64,7 +64,8 @@ See [[Higher Topos Theory|HTT, prop 4.2.1.5]].
 
 ## Properties 
 
-### Simplicial aspects
+### In terms of slice $\infty$-categories
+ {#InTermsOfSlices}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -79,6 +80,44 @@ $$
 is an [[acyclic Kan fibration]].
 
 =--
+
++-- {: .num_prop #SlicingOverLimitingCone}
+###### Proposition
+
+For $F \colon \mathcal{K} \to \mathcal{C}$ a diagram in an $(\infty,1)$-category and $\underset{\leftarrow}{\lim} F$ its limit, there is a natural [[equivalence of (∞,1)-categories]] 
+
+$$
+  \mathcal{C}_{/F} \simeq \mathcal{C}_{/\underset{\leftarrow}{\lim} F}
+$$
+
+between the [[slice (∞,1)-categories]] over $F$ (the $(\infty,1)$-category of $\infty$-[[cones]] over $F$) and over just $\underset{\leftarrow}{\lim}F$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\tilde F \colon \Delta^0 \star \mathcal{K} \to \mathcal{C}$
+be the limiting cone. The canonical cospan of $\infty$-functors
+$$
+  \ast \to \Delta^0 \star \mathcal{K} \leftarrow \mathcal{K}
+$$
+
+induces a span of slice $\infty$-categories
+
+$$
+  \mathcal{C}_{/\underset{\leftarrow}{\lim}F}
+  \leftarrow
+  \mathcal{C}_{/\tilde F}
+  \rightarrow
+  \mathcal{C}_{/F}
+  \,.
+$$
+
+The right functor is an equivalence by prop. \ref{SlicingOverLimitingCone}. The left functor is induced by restriction along an op-[[final (∞,1)-functor]] (by the Examples discussed there) and hence is an equivalence by the discussion at _[[slice (∞,1)-category]]_ ([Lurie, prop. 4.1.1.8](#Lurie)).
+
+=--
+
 
 This appears for instance in ([Lurie, proof of prop. 1.2.13.8](#Lurie)).
 
