@@ -31,3 +31,12 @@ Let $f$ be a [[differentiable function]] and let $x$ in its [[domain]] be a poin
 
 [[!redirects maximum]]
 [[!redirects maxima]]
+
+[[!redirects local extremum]]
+[[!redirects local extrema]]
+
+[[!redirects local minimum]]
+[[!redirects local minima]]
+
+[[!redirects local maximum]]
+[[!redirects local maxima]]
