@@ -183,6 +183,8 @@ This appears for instance as ([Segal, prop. 4.2](#Segal)).
 
 * [[Kac character formula]]
 
+* [[Kac-Weyl character]]
+
 ## References
 
 The standard textbook on loop groups is
