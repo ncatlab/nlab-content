@@ -5,14 +5,14 @@
 
 ## Idea
 
-For a given [[manifold]] $X$ of finite [[dimension]] there exists an [[embedding]] $i : X \to \mathbb{R}^n$ into some [[Cartesian space]]. Using the [[Pontrjagin-Thom collaps map]] this induces a morphism in [[topological K-theory]]
+For a given [[manifold]] $X$ of finite [[dimension]] there exists an [[embedding]] $i : X \to \mathbb{R}^n$ into some [[Cartesian space]]. Using the [[Pontrjagin-Thom collapse map]] this induces a morphism in [[topological K-theory]]
 
 $$
   i_! : K(T X) \to K(T \mathbb{R}^n)
   \,.
 $$
 
-Similarly for any point inclusion $j_! * \to \mathbb{R}^n$ there is such a morphism $j_! : \mathbb{Z} = K(*) \to K(T \mathbb{R}^n)$ which is an [[isomorphism]] -- the [[Thom isomorphism]]. 
+Similarly for any point inclusion $j : * \to \mathbb{R}^n$ there is such a morphism $j_! : \mathbb{Z} = K(*) \to K(T \mathbb{R}^n)$ which is an [[isomorphism]] -- the [[Thom isomorphism]]. 
 
 The **topological index** of [[topological K-theory]] on $X$ is the composite
 
@@ -38,7 +38,7 @@ $$
 
 on one (hence all) [[Sobolev space]] that $D$ is defined on. 
 
-The [[Atiyah-Singer index theorem]] states that the [[analytical index]] of is equal to the topological one.
+The [[Atiyah-Singer index theorem]] states that the [[analytical index]] of $D$ is equal to its topological index.
 
 
 ### More on the Thom map
