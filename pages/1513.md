@@ -204,6 +204,13 @@ $$
 
 See [[quasitopos]] for the proof.
 
+## Related concepts
+
+* **separated presheaf**
+
+* [[separated (2,1)-presheaf]]
+
+* [[separated (∞,1)-presheaf]]
 
 ## References
 
