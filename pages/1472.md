@@ -145,6 +145,8 @@ We look at some aspects of the [above](#BasicStructures) general abstract story 
 
 ### Gauge theory {#GaugeTheory}
 
+#### Introduction
+
 The discovery of [[gauge theory]] in fundamental physics is the discovery of [[groupoid]]s. The notion of [[gauge transformation]] is close to synonymous to the notion [[isomorphism]] and more generally [[equivalence in an (∞,1)-category]].
 
 More precisely, the mathematical model for a [[gauge field]] in physics is a [[cocycle]] in [[differential cohomology]]. The development of [[differential cohomology]] has to a fair extent been motivated by and influenced by its application to fundamental theoretical physics in general and [[gauge theory]] in particular.  
@@ -205,11 +207,103 @@ It is noteworthy that the notions of generalized gauge groups and the generalize
 
 There is a natural mathematical concept that serves to describe contexts of such [[nLab:space|generalized space]]s: a [[nLab:gros topos|gros]] [[(∞,1)-topos]]. The notion of [[schreiber:differential cohomology in an (∞,1)-topos]] provides a unifying perspective on the mathematical structure encoding the generalized [[gauge field]]s and generalized [[spacetime]] models encountered in modern theoretical physics in such a general context.
 
-To consider some of these applications in more detail: 
+#### Classes of examples
 
-* [[Chern-Simons theory]] may be understood as the [[sigma-model]] whose target space is the [[delooping]] [[Lie groupoid]] $\mathbf{B}G$ of the [[Lie group]] $G$ on which the [[gauge field]] is the [[Chern-Simons circle 3-bundle]] with connection.
+We discuss classes of examples of gauge theories that have been considered. 
+For all of these the configuration space is a space of 
+[[connections on ∞-bundles]] $\{\nabla\}$ over [[spacetime]] $X$ of sorts, which one might take to be the 
+defining property of a gauge theory. But there are different types of
+[[action functional]]s on these configuration spaces.
 
-* Similarly there is a 7-dimensional Chern-Simons theory with target space the [[Lie 2-groupoid]] $\mathbf{B}String$ and gauge field the [[Chern-Simons circle 7-bundle]].
+##### Generalized Yang-Mills theory
+
+
+In [[Yang-Mills theory]] the [[action functional]] is of the form
+
+$$
+  \nabla \mapsto \int_X \langle F_\nabla \wedge \star F_\nabla \rangle
+  \,,
+$$
+
+where 
+
+* $F_\nabla$ is the [[curvature]] [[differential form]], 
+
+* "$\star$" the [[Hodge star]] operator with respect to a fixed
+([[pseudo Riemannian manifold|pseudo]]-)[[Riemannian metric]]-structure
+on $X$ 
+
+* and $\langle -\rangle$ some [[invariant polynomial]].
+
+This is the original notion of _gauge theory_ 
+and might be taken to be the strict sense of the term.
+
+* For [[gauge group]] $G = U(1)$ the [[circle group]] this is [[electromagnetism]];
+
+* For gauge group a general nonabelian [[Lie group]] $G$ this is [[Yang-Mills theory]] proper. 
+
+* Specifically for $G$ a discrete quotient of $SU(3) \times SU(2) \times U(1)$ this is the gauge-field part of the [[standard model of particle physics]].
+
+* For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 2-group</a> thi yields the [[Kalb-Ramond field]]
+
+* For structure group $G = \mathbf{B}U(1)$ the <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#BnU1">circle 3-group</a> thi yields the [[supergravity C-field]].
+
+
+
+
+##### $\infty$-Chern-Simons theory
+
+In [[schreiber:∞-Chern-Simons theory]] the [[action functional]] is of the form
+  
+$$
+  \nabla \mapsto \int_X CS(\nabla)
+  \,,
+$$
+
+* where $CS(-)$ is a [[Chern-Simons element]] for an [[invariant polynomial]]
+$\langle - \rangle$ on an [[∞-Lie algebroid]] $\mathfrak{a}$.
+
+This includes ordinary [[Chern-Simons theory]] in the case that 
+$\mathfrak{a}$ is a [[semisimple Lie algebra]], but for general 
+$\mathfrak{a}$ it subsumes a wide variety of types of
+[[TQFT]]s that are often counted as of different type than Chern-Simons
+theory, such as [[BF-theory]] and [[AKSZ theory]].
+
+The action functional of [[∞-Chern-Simons theory]] stands out by the fact
+that it arises by [[category theory|general abstract]] construction:
+   
+* the underlying Lagrangian $CS(\nabla)$ 
+is nothing but the [[∞-Chern-Weil homomorphism]] 
+$ CS(\nabla) : \mathbf{B}G_{diff} \to \mathbf{B}^n U(1)_{diff}$ induced by the given [[invariant polynomial]] $\langle - \rangle$, 
+
+* the integral over $CS(\nabla)$ is induced by postcomposition with the [[truncated|trunction]] morphism 
+
+  $\mathbf{H}(\Sigma, \mathbf{B}G_{conn}) \to \mathbf{H}(\Sigma,\mathbf{B}^n U(1)_{diff}) \simeq \infty Grpd(\Pi(\Sigma), B^n U(1)) \stackrel{\tau_{n-dim \Sigma}}{\to} B^{n-dim \Sigma}$.
+
+
+* For $\mathfrak{a}$ a [[semisimple Lie algebra]] equipped with its [[Killing form]] [[invariant polynomial]] we have that $CS(-)$ is the ordinary [[Chern-Simons element]] and $\int_X CS(\nabla)$ the ordinary [[Chern-Simons theory]] action functional. This may be understood as  the [[higher parallel transport]] of a [[Chern-Simons circle 3-bundle]] with connection.
+
+* For $\mathfrak{a}$ a [[semisimple Lie algebra]] equipped with its degree 8 [[invariant polynomial]] this yields 7-dimensional, whose action functional may be understood as  the [[higher parallel transport]] of a [[Chern-Simons circle 7-bundle]] with connection.
+
+* For $\mathfrak{a}$ a [[symplectic Lie n-algebroids]] equipped with its canonical [[invariant polynomial]] $\omega$ of degree $n+2$ $\int_X CS_\omega(-)$ is the actional functional of [[AKSZ theory]]:
+
+  * for $n = 1$ this is the [[Poisson sigma-model]];
+
+  * for $n = 2$ this is the [[Courant sigma-model]].
+
+* For $\mathfrak{a}$ a [[Lie 2-algebra]] equipped with the [[Killing form]] invariant polynomial, $\int_X CS(-)$ is the action functional of [[BF-theory]] coupled to [[topological Yang-Mills theory]] with a [[cosmological constant]]. 
+
+##### Gravity
+
+The configuration spaces of [[gravity]] and [[supergravity]] may be identified with spaces of [[connections on ∞-bundles]] with gauge group a variant of the [[Poincare group]]. This parameterization of the configuration space of gravity is known as the [[first order formulation of gravity]]. 
+
+* The [[special orthogonal group]]-component of the connection in this case is called the [[spin connection]];
+
+* the translation group-component of $\nable$ is called the [[vielbein]].
+
+For the ordinary Poincare group this yields the [[Palatini action]] expression for the standard [[Einstein-Hilbert action]] of [[general relativity]].
+
+We may lift here successively the [[special orthogonal group]] $S O$ through its <a href="http://nlab.mathforge.org/nlab/show/Lie%20infinity-groupoid#SmoothWhitehead">smooth Whitehead tower</a>
 
 * The familiar theory of smooth [[spin group|Spin(n)]]-[[principal bundle]]s [[connection on a bundle|with connnection]] has a motivation from the [[physics]] of quantum point particles such as electrons: for the [[quantum mechanics]] of a spinning point particle to be free of an obstruction called an [[quantum anomaly|anomalous]] [[action functional]], the target space it propagates in has to admit a [[spin structure]]. Then the dynamics of the particle is encoded in a smooth differential refinement of the corresponding
 topological $Spin(n)$-[[principal bundle]] to a smooth [[connection on a bundle|bundle with connection]].
@@ -220,16 +314,13 @@ topological $Spin(n)$-[[principal bundle]] to a smooth [[connection on a bundle|
 [[differential geometry]], but in _[[nLab:higher geometry|higher]]_ or _[[derived geometry|derived]]_ differential
 geometry: $String(n)$ naturally has the structure of a [[Lie 2-group]]. This allows to refine a topological String-principal bundle to a generalization of a differentiable nonabelian [[gerbe]]: a smooth [[principal 2-bundle]]. 
 
-* [[BF-theory]] coupled to [[topological Yang-Mills theory]] is the gauge theory for a [[Lie 2-algebra]] valued conneciton 
+The more or less explicit formulation of [[supergravity]] is a higher gauge theory with gauge group a super Lie $n$-group is known as the
 
+* [[D'Auria-Fre formulation of supergravity]].
 
-* the models of [[AKSZ theory]] are precisely the gauge theories for [[n-symplectic manifold|symplectic Lie n-algebroids]]
+For instance 11-dimensional supergravity is a gauge theory for the
 
-  (see [[schreiber:∞-Chern-Simons theory]] for more)
-
-(...)
-
-
+* [[supergravity Lie 6-algebra]]
 
 ### Phenomenological models: the standard model and gravity
 
