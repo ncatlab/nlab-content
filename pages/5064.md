@@ -1,7 +1,174 @@
-...named after indices of local Darboux coordinates (what can be seen in [[symplectic reduction]] approach)
 
-* Nikita Nekrasov, _Lectures on curved beta-gamma systems, pure spinors, and anomalies_, [http://arxiv.org/abs/hep-th/0511008](hep-th/0511008)
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
 
-* Anton M. Zeitlin, _Beta-gamma systems and the deformations of the BRST operator_, [arxiv/0904.2234](http://arxiv.org/abs/0904.2234)
+#Contents#
+* table of contents
+{:toc}
 
-Related: pure spinor formalism
+## Idea
+
+What is called the _$\beta$-$\gamma$ system_ is a 2-dimensional [[quantum field theory]] defined on [[Riemann surfaces]] $X$ whose [[field (physics)|fields]] are a $(0,0)$-form and a $(1,0)$-form and [[equations of motion]] demand these fields to be [[holomorphic differential forms]]. 
+
+The name results from the traditional symbols for these fields, which are 
+
+$$
+  (\gamma,\beta) \in \Omega^{0,\bullet}(X) \oplus \Omega^{1, \bullet}(X)
+  \,. 
+$$
+
+
+## Definition
+
+We state the definition of the $\beta$-$\gamma$-system as a [[free field theory]] (see there) in [[BV-BRST formalism]], following ([Gwilliam, section 6.1](#Gwilliam)).
+
+We first give the standard variant of the theory, the
+
+* [Abelian massless theory](#AbelianMasslessTheory). 
+
+Then we consider the
+
+* [Abelian massive theory](#AbelianMassiveTheory)
+
+* [Holomorphic Chern-Simons theory](#HolomorphicChernSimonsTheory)
+
+
+### Abelian massless theory
+ {#AbelianMasslessTheory}
+
+Let $X$ be a [[Riemann surface]]. 
+
+**[[kinematics]]**
+
+* the [[field bundle]] $E \to X$ is
+
+  $$
+    E \coloneqq \wedge^{0,\bullet}\Gamma(T X) \oplus \wedge^{1,\bullet} \Gamma(T X)
+  $$
+
+* hence the ([[abelian sheaf|abelian]]) [[sheaf]] of [[local sections]] is
+
+  $$
+    \mathcal{E} = \Omega_X^{0,\bullet} \oplus \Omega_X^{1, \bullet}
+    \,,
+  $$
+
+  we write
+
+  $\mathcal{E}_c \hookrightarrow \Gamma_X(E)$
+
+  for the sections of [[compact support]]
+
+* the local pairing
+
+  $$
+    \langle -,-\rangle_{loc} \colon E \otimes E \to Dens_X
+  $$
+
+  with values in the [[density bundle]] is given by [[wedge product]] followed by projection on the $(1,1)$-forms
+
+  $$
+    \langle \gamma_1 + \beta_1, \gamma_2, \beta_2\rangle_{loc}
+    \coloneqq
+    (\gamma_1 \wedge \beta_2 + \gamma_2 \wedge \beta_1)_{|(1,1)}
+  $$
+
+* hence the global pairing
+  
+  $$
+    \langle -,-\rangle \colon \mathcal{E}_c \otimes \mathcal{E}_c \to \mathbb{C}
+  $$
+
+  is given by
+
+  $$
+    \langle \gamma_1 + \beta_1, \gamma_2, \beta_2\rangle_{loc}
+    \coloneqq
+    \int_{X}\left(\gamma_1 \wedge \beta_2 + \gamma_2 \wedge \beta_1\right)
+  $$
+
+**[[dynamics]]**
+
+* the [[differential operator]]
+
+  $$
+    Q \colon \mathcal{E} \to \mathcal{E}
+  $$
+
+  is the [[Dolbeault differential]] $\bar \partial$
+
+* hence the [[elliptic complex]] of fields is
+
+  $$
+    (\mathcal{E}, Q) = (\Omega_X^{0,\bullet}\oplus \Omega_X^{1,\bullet}, \bar \partial)
+  $$
+
+  is the [[Dolbeault complex]];
+
+* and hence the [[action functional]] 
+
+  $$
+    S \colon \mathcal{E}_c \to \mathcal{C}
+  $$
+
+  is
+
+  $$
+    \begin{aligned}
+      (\gamma + \beta) & \mapsto  
+     \frac{1}{2}\int_X \langle \gamma+ \beta, \; \bar \partial (\gamma + \beta)\rangle 
+     \\
+     & =  \int_X \beta \wedge \bar \partial \gamma
+    \end{aligned}
+  $$
+
+### Abelian massive theory
+ {#AbelianMassiveTheory}
+
+(...)
+
+### Holomorphic Chern-Simons theory
+ {#HolomorphicChernSimonsTheory}
+
+...[[holomorphic Chern-Simons theory]]...
+
+## Properties
+
+### Euler-Lagrane equations of motion
+
+The [[equations of motion]] are
+
+$$
+  \bar \partial \gamma = 0
+  \;\;,
+  \;\;
+  \bar \partial\beta = 0
+  \,.
+$$
+
+
+## Related concepts
+
+* [[pure spinor formalism]]
+
+## References
+
+* [[Nikita Nekrasov]], _Lectures on curved beta-gamma systems, pure spinors, and anomalies_, ([hep-th/0511008](http://arxiv.org/abs/hep-th/0511008))
+
+* [[Anton Zeitlin]], _Beta-gamma systems and the deformations of the BRST operator_, ([arxiv/0904.2234](http://arxiv.org/abs/0904.2234))
+
+Discussion in the context of [[BV-quantization]] and [[factorization algebras]] is in chapter 6 of
+
+* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf)) 
+ {#Gwilliam}
