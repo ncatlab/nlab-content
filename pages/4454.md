@@ -8,7 +8,6 @@
 * automatic table of contents goes here
 {:toc}
 
-[[cosmiccube.jpg:pic]]
 
 
 ## Idea
@@ -16,14 +15,33 @@
 The **Cosmic Cube of [[higher category theory]]** is the name for a  [[diagram]] whose vertices correspond to special types of [[(n,r)-categories]], notably to $(n,r)$-categories with especially rigid [[stuff, structure, property|property and structure]].
 
 
-Its three axes each correspond to a form of simplification: groupoidal (giving only $n$-[[n-groupoid|groupoids]]), strict (giving only [[strict n-category|strict]] $n$-categories), and stably monoidal (giving only [[stably monoidal n-category|stably monoidal]] $n$-categories).  The cube is represented on page 10 of [[John Baez]]\'s talk _[What $n$-Categories Should Be Like](http://math.ucr.edu/home/baez/n_categories/what.pdf)_.
 
-Taking any combination of choices of simplification, there are $8$ vertices of the cube; besides the $4$ listed above, we have [[strict n-groupoid]]s, [[stably groupal n-groupoid]]s, [[strict stably monoidal n-category|strict stably monoidal]] $n$-categories, and of course [[strict stably groupal n-groupoid]]s.
+Its three axes each correspond to 
 
-Each vertex also corresponds to a version of [[homotopy theory]].  The stable strict groupoid vertex corresponds to [[chain complexes]] as used in ordinary [[cohomology]]. [[Ronnie Brown]]'s [[nonabelian algebraic topology]] studies the version corresponding to the strict groupoid vertex.
+* _groupoidal_ $\infty$-categories, i.e. [[(∞,0)-categories]], i.e. [[∞-groupoid]]s;
+
+* _[[strict ∞-categories|strict]]_ $\infty$-categories; 
+
+* _[[symmetric monoidal category|symmetric monoidal]]_ $\infty$-categories.
+
+
+
+### In terms of homotopy theory {#HomotopyTheory}
+
+Each vertex of the cube can also be understood as corresponding to a version of [[homotopy theory]]: 
+
+$\infty$-groupoids yield ordinary [[homotopy theory]], symmetric monoidal and groupal $\infty$-groupoids correspond to [[stable homotopy theory]], strictly abelian strict $\infty$-groupoids correspond to [[homological algebra]]. $\infty$-Categories that are not $\infty$-groupoids correspond to [[directed homotopy theory]].
+
+
+[[cosmiccube.jpg:pic]]
 
 
 ## Vertices of the cube
+
+### Strict $\infty$-categories
+
+* [[strict ∞-category]] 
+^^
 
 ### Strict $\infty$-groupoids
 
@@ -34,10 +52,16 @@ Each vertex also corresponds to a version of [[homotopy theory]].  The stable st
 
 ### Stably monoidal $\infty$-categories
 
-* [[symmetric monoidal (∞,1)-category]]
 
+* [[k-tuply monoidal n-category]]
+
+* [[stabilization hypothesis]]
+
+* [[periodic table]]
 
 ### Stably monoidal $\infty$-groupoids
+
+* [[∞-group]]
 
 * [[infinite loop space]], [[spectrum]]
 
