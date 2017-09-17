@@ -7,7 +7,7 @@ Robert Goldblatt is a logician based at Victoria University, Wellington, New Zea
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_Goldblatt)
 
-
+Related entries: [[Goldblatt-Thomason theorem]]
 
 category: people
 [[!redirects R. Goldblatt]]
