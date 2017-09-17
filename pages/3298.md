@@ -26,11 +26,11 @@ From the [[nPOV]] on [[cohomology]], the notion of Hochschild cohomology is the 
 
 Hochschild cohomology is the [[cohomology]] $\mathbf{H}(\mathcal{L}X,C)$ of [[free loop space object]]s $\mathcal{L}X$ in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$. 
 
-This naturally inherits an $S^1$-action from the [[free loop space object]]. The $S^1$-[[equivariant cohomology]] refinement of Hochschild cohomology is [[cyclic cohomology]].
+This carries an <a href="http://ncatlab.org/nlab/show/free+loop+space+object#CircleAction">intrinsic circle action</a> from the [[free loop space object]]. The $S^1$-[[equivariant cohomology]] version of Hochschild cohomology is [[cyclic cohomology]].
 
 =--
 
-After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild cohomology.
+After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild cohomology as well as various generalizations.
 
 Hochschild homology and cohomology are characteristic objects associated to  a [[bimodule]] $N$ over a [[monoid]] $A$, in a context where $A$ is really to be thought of as a [[algebra in an (infinity,1)-category|monoid in an monoidal (∞,1)-category]].
 
@@ -64,16 +64,15 @@ described there.
 
 Complementary to that, in the section 
 
-* [More traditional description of Hochschild cohomology](#TraditionalIdeas)
+* [Traditional description of Hochschild cohomology](#TraditionalIdeas)
 
 we describe the original definition of Hochschild cohomology and 
 the evolution of its understanding approaching the [[nPOV]].
 
-Finally in the section titled [Details](#Details) the technical details
-are spelled out.
+Then in [Definition](#Details) we give the precise details and then discuss and prove various properties and examples.
  
  
-### More traditional descriptions of Hochschild cohomology {#TraditionalIdeas}
+### Traditional description of Hochschild cohomology {#TraditionalIdeas}
  
 Originally the notion of Hochschild cohomology was introduced as the 
 [[cochain cohomology]] of a certain [[cochain complex]] associated to any [[bimodule]] $N$ over some [[algebra]] $A$: its [[bar complex]], written 
@@ -120,7 +119,7 @@ Very concretely, Hochschild homology can be computed by the Hochschild chain com
 
 ### The $n$POV on Hochschild cohomology {#nPOV}
 
-Let $\mathbf{H}$ be an [[(infinity,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] and let $\mathbf{K}$ the $(\infty,2)$-topos of $(\infty,2)$-sheaves on a [[site]] $C$, such that the [[quasicoherent ∞-stack]]
+Let $\mathbf{H}$ [[(∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]] and let $\mathbf{K}$ the $(\infty,2)$-topos of $(\infty,2)$-sheaves on a [[site]] $C$, such that the [[quasicoherent ∞-stack]]
 
 $$
   C : C^{op} \to (\infty,1)Cat
@@ -388,7 +387,7 @@ We demonstrate how the above $(\infty,1)$-category theoretic definition of highe
 
 Let $T$ be a [[Lawvere theory]] regarded as a 0-[[truncated]] [[(∞,1)-algebraic theory]]. 
 
-Consider a [[model structure on simplicial T-algebras]]/on [[homtoopy T-algebras]] [[presentable (∞,1)-category|presenting]] $T Alg_\infty$ such that 
+Consider a [[model structure on simplicial T-algebras]]/on [[homotopy T-algebras]] [[presentable (∞,1)-category|presenting]] $T Alg_\infty$ such that 
 
 1. it is a [[simplicial model category]];
 
@@ -410,9 +409,9 @@ The $(\infty,1)$-tensoring in an $(\infty,1)$-category [[presentable (∞,1)-cat
 
 We can always use the [[model structure on homotopy T-algebras]] to satisfy the assumption of the above proposition. That is a [[simplicial model category]] for every $T$ and every ordinary algebra is fibrant in this structure. 
 
-Notice that in this model category if $\mathcal{O}(X)$ is fibrant, then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathfrak{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homtopy T-algebra]].
+Notice that in this model category if $\mathcal{O}(X)$ is fibrant, then $K \cdot \mathcal{O}(X)$ is in general far from being fibant. Computing the [[simplicial homotopy group]]s of $K \cdot \mathfrak{O}(X)$ and hence the Hochschild homology involves passing to a fibrant reolsution of $K \cdot \mathcal{O}(X)$ first, that will make it a [[homotopy T-algebra]].
 
-On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kann correspondence]]) Pirashvili's formulation of higher order Hochschid homology, as described in the next example.
+On the other hand, if we find a simplicial [[model structure on simplicial T-algebras]] (which are degreewise genuine $T$-algebras) then the coproducts involved degreewise in forming $K \cdot \mathcal{O}(X)$ will be [[tensor product]]s of algebras, and hence in particular themselves again algebras. For such a model the tensoring $K \cdot \mathcal{O}(X)$ yields explicitly (under the [[Dold-Kan correspondence]]) Pirashvili's formulation of higher order Hochschid homology, as described in the next example.
 
 =--
 
@@ -950,7 +949,7 @@ $$
   \array{
      && X^{\Sigma^{d+1}}
      \\
-     & {}^{\mathllap{i_r}}\swarrow && \searrow^{mathrlap{o}}
+     & {}^{\mathllap{i_r}}\swarrow && \searrow^{\mathrlap{o}}
      \\
      \prod_r X^{S^d} &&&& X^{S^d}
   }
@@ -967,6 +966,24 @@ induced by these spans constitute the $E_n$-action on the function objects on $X
 =--
 
 This was observed in ([Ben-ZviFrancisNadler, corollary 6.8](#Ben-ZviFrancisNadler)).
+
++-- {: .un_remark }
+###### Remark
+**(Deligne conjecture)**
+
+Historically it was first found that there is the structure of a [[Gerstenhaber algebra]] on $HH^\bullet(A,A)$.  By ([Cohen](#Cohen)) it was known that Gerstenhaber algebras arise as the [[homology]] of [[E2-algebra]]s in [[chain complex]]s. In a letter in 1993 Deligne wondered whether the Gerstenhaber structure on the Hochschild cohomology $HH^\bullet(A,A)$ lifts to an [[E2-algebra]]-structure on the cochain complex $C^\bullet(A,A)$.
+
+In [GerstenhaberVoronov (1994)](#GerstenhaberVoronov) a resolution of the Gerstenhaber algebra structure was given, but the relationship to $E_2$-algebras remaind unclear.
+
+In ([Tamarkin (1998)](#Tamarkin)) a genuine resolution in the [[model structure on operads]] of the Gerstenhaber operad was given and shown to act via the Gerstenhaber-Voronov construction on $C^\bullet(A,A)$. This proved Deligne's conjecture.
+
+Various authors later further refined this result. A summary of this history can be found in ([Hess](#Hess)).
+
+In [Hu-Kriz-Voronov (2003)](#HuKrizVoronov) it was further shown that for $A$ an [[En-algebra]], $C^\bullet(A,A)$ is an $E_{n+1}$-algebra.
+
+Notice that the identification of Hochschild (co)homology as coming from higher order free loop spaces makes all this structure manifest.
+
+=--
 
 
 #### $HH$ of constant $\infty$-stacks: String topology BV-algebra {#StringTopology}
@@ -1071,7 +1088,7 @@ This is ([Menichi, theorem 3](#Menichi)).
 
 ### Relation to cyclic (co)homology
 
-There is an evident rotation-[[action]] on Hochschild (co)chains. Passing to the cyclically invariant (co)chains yields [[cyclic (co)homology]].
+There is an <a href="http://ncatlab.org/nlab/show/free+loop+space+object#CircleAction">intrinsic circle action</a> on Hochschild (co)chains. Passing to the cyclically invariant (co)chains yields [[cyclic (co)homology]].
 
 
 ### Further
@@ -1226,6 +1243,11 @@ The abstract differential caclulus on $(HH^\bullet(A,A), HH_\bullet(A,A))$ is di
 * [[Dmitry Tamarkin]], [[Boris Tsygan]], _Cyclic Formality and Index Theorems_ ,  Letters in Mathematical Physics
 Volume 56, Number 2, 85-97 ([journal](http://www.springerlink.com/content/u33hv13g0669h414/))
 {#TamarkinTsygan}
+
+A review of Deligne's conjecture and its solutions is in
+
+* [[Kathryn Hess]], _Deligne's Hochschild cohomology conjecture_ ([pdf](http://sma.epfl.ch/~hessbell/Pub_DeligneColloq.pdf))
+{#Hess}
 
 For references on [[topological chiral homology]] see there.
 
