@@ -38,7 +38,7 @@ This duality of the brane picture is at the heart of the [[AdS/CFT correspondenc
 
 ## Examples
 
-* [[black hole]]
+* [[black hole]], [[black hole in string theory]]
 
 * [[black string]]
 
