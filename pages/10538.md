@@ -1,6 +1,8 @@
 
 * [webpage](https://www.dpmms.cam.ac.uk/~zll22/)
 
+* [blog](http://semmibol.wordpress.com/)
+
 category: people
 
 [[!redirects Zhen Lin]]
