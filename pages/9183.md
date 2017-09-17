@@ -39,8 +39,9 @@ Any further details about the nature of this hypothetical dark matter remains el
 
 * Wikipedia, _[Dark matter](http://en.wikipedia.org/wiki/Dark_matter)_
 
+* [[Matthew Strassler]], _[Current hints of dark matter](http://profmattstrassler.com/articles-and-posts/relativity-space-astronomy-and-cosmology/dark-matter/current-hints-of-dark-matter-413/)_
 
-* Resonaances, [How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)
+* Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
  {#Resonaances}
 
 [[!redirects WIMP]]
