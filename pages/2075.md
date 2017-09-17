@@ -42,4 +42,24 @@ This is [[Higher Topos Theory|HTT, lemma 3.1.3.2]].
 
 =--
 
+## Related concepts
+
+* [[equality]]
+
+* [[isomorphism]]
+
+* [[equivalence]]
+
+* [[weak equivalence]]
+
+* [[homotopy equivalence]], [[weak homotopy equivalence]]
+
+* [[homotopy equivalence of toposes]]
+
+* [[equivalence in an (∞,1)-category]]
+
+* **equivalence of (∞,1)-categories**
+
+
+
 [[!redirects equivalence of (∞,1)-categories]]
