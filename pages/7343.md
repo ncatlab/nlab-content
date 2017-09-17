@@ -43,6 +43,8 @@ By [[Kaluza-Klein mechanism|dimensional reduction]] on $\mathbb{R}^3 \times S^1$
 
 ## References
 
+### General
+
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
 
 * [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
@@ -52,6 +54,15 @@ The dimensional reduction to $D = 3$ was first considered in
 
 * [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
  {#SeibergWitten96}
+
+For references on [[wall crossing]] of [[BPS states]] see the references given there.
+
+### Introductions and surveys
+ {#Surveys}
+
+* Gaiotto, _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
+
+* [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
 
 [[!redirects Coulomb branch]]
 [[!redirects Higgs branch]]
