@@ -26,11 +26,11 @@ Mathematically, despite the basic formalism of quantum mechanics which is sound 
 
 ## Definition
 
-We discuss some basic notions of quantum mechanics
+We discuss some basic notions of quantum mechanics.
 
 ### Quantum mechanical systems
 
-Recall the notion of a _[[classical mechanical system]]_ : the formal dual of a real _commutative_ [[Poisson algebra]]. 
+Recall the notion of a _[[classical mechanical system]]_: the formal dual of a real _commutative_ [[Poisson algebra]]. 
 
 +-- {: .num_defn #QuantumSystem}
 ###### Definition
@@ -38,7 +38,7 @@ Recall the notion of a _[[classical mechanical system]]_ : the formal dual of a 
 A **quantum mechanical system** is a [[star algebra]] $(A, (-)^\ast)$ over the [[complex number]]s. The [[category]] of of quantum mechanical systems is the [[opposite category]] of $\ast$-algebras:
 
 $$
-  QuantMechSys := {\ast}Alg_{\mathbb{C}}
+  QuantMechSys := {\ast}Alg_{\mathbb{C}}^{op}
   \,.
 $$
 
@@ -112,7 +112,7 @@ One also says that the internal classical mechanical system $(Sh(Com(A)), \under
 
 ### Spaces of states
 
-Given a $\ast$-algebra $A$ together with a [[state]] $\rho$ on it, the [[GNS construction]] provides an [[inner product space]] $H_\rho$ together an [[action]] of $A$ on $H_\rho$ and together with a [[vector]] $\Omega = \sqrt(\rho)$ -- the [[vacuum vector]]  -- such that for all $a \in A$ the value of the state $\rho : A \to \mathbb{C}$ is obtained by applying $a$ to $\sqrt{\rho}$ and then taking the inner product with $\sqrt \rho$:
+Given a $\ast$-algebra $A$ together with a [[state]] $\rho$ on it, the [[GNS construction]] provides an [[inner product space]] $H_\rho$ together with an [[action]] of $A$ on $H_\rho$ and a [[vector]] $\Omega = \sqrt(\rho)$ -- the [[vacuum vector]]  -- such that for all $a \in A$ the value of the state $\rho : A \to \mathbb{C}$ is obtained by applying $a$ to $\sqrt{\rho}$ and then taking the inner product with $\sqrt \rho$:
 
 $$
   \rho(A) = \langle \sqrt\rho, a \sqrt \rho\rangle
@@ -123,7 +123,7 @@ If the [[star algebra]] $A$ happens to be a [[C-star algebra]], then this inner 
 
 Historically and still often in the literature, such a Hilbert space is taken as a fundamental input of the definition of quantum systems.
 
-Traditionally, [[Dirac]]'s "bra-ket" notation is used to represent vectors in such Hilbert spaces of states, where $|\psi\rangle$ represents a state and $\langle\psi|$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such such as position and [[momentum]] and are called [[observables]]. [[measurements|Measurements]] are expressed as sets of [[projectors]] onto the eigenvectors of an observable.
+Traditionally, [[Dirac]]'s "bra-ket" notation is used to represent vectors in such Hilbert spaces of states, where $|\psi\rangle$ represents a state and $\langle\psi|$ represents its linear adjoint. State evolutions are expressed as unitary maps. Self-adjoint operators represent physical quantities such as position and [[momentum]] and are called [[observables]]. [[measurements|Measurements]] are expressed as sets of [[projectors]] onto the eigenvectors of an observable.
 
 In [[mixed state]] quantum mechanics, physical states are represented as [[density operators]] $\rho$, state evolution as maps of the form $\rho \mapsto U^\dagger \rho U$ for unitary maps $U$, and [[measurements]] are positive operator-valued measures (POVM's). There is a natural embedding of pure states into the space of density matrices: $|\psi\rangle \mapsto |\psi\rangle\langle\psi|$. So, one way to think of mixed states is a probabilistic mixture of pure states.
 
