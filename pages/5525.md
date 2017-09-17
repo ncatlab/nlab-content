@@ -184,7 +184,7 @@ $$
   sSet_{0}
 $$
 
-which [[presentable (infinity,1)-categor|presents]] the abstract [[looping and delooping]] equivalence of $\infty$-categories
+which [[presentable (infinity,1)-category|presents]] the abstract [[looping and delooping]] equivalence of $\infty$-categories
 
  $$
    (\Omega \dashv \mathbf{B})
