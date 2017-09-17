@@ -76,3 +76,11 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
 
 * [[3d quantum gravity]]
 
+## References
+
+Some of the standard lore about necessity of and the problems of quantum gravity are discussed in reviews such as
+
+* [[Steve Carlip]], _Quantum Gravity: a Progress Report_ ([arXiv:gr-qc/0108040](http://arxiv.org/abs/gr-qc/0108040))
+
+* R. P. Woodard, _How Far Are We from the Quantum Theory of Gravity?_ ([arXiv:0907.4238](http://arxiv.org/abs/0907.4238))
+
