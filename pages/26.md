@@ -1,2 +1,10 @@
-&lt; [[oidification]]
-[[!redirects oidification -- history]]
+There are also non-commutative Witt vectors; work in progress by [[Dmitri Kaledin]], cf.
+[video](http://blip.tv/pifagorov/d-kaledin-non-commutative-witt-vectors-4142422)
+
+Kaledin's abstract
+
+> Witt vectors were introduced by E. Witt back in 1930ies. In modern language, Witt's construction gives a functorial way to lift a commutative ring $A$ in char $p$ to a commutative ring $W(A)$ of characteristic $0$. Since the construction is functorial, it can be applied to the structure sheaf of an algebraic variety. However, this really became useful only in the 1970ies, when Deligne and Illusie showed how to extend it to differential forms. The result is a canonical "de Rham-Witt complex" $WO*$ on any smooth algebraic variety $X$ over a field of char p, and the cohomology of $X$ with coefficients in $WO*$ is canonically identified with Grothendieck's crystalline cohomology of X. I am going to report on some recent discoveries which can be roughly summarized as follows: even for a non-commutative ring $A$, one can define a functorial "Hochschild-Witt complex" with homology $WHH_*(A)$; if $A$ is commutative, then $WHH_i(A)=WO^i(A)$ (this is analogous to the isomorphism $HH_i(A)=O^i(A)$ discovered by Hochschild, Kostant and Rosenberg). Moreover, the construction of the Hochschild-Witt complex is actually simpler than the Deligne-Illusie construction, and it allows to clarify the structure of the de Rham-Witt complex. I will start very slowly, by introducing Witt vectors in the simplest possible case; at least in the first lecture, there will be definitely nothing non-commutative. I will assume very little prior knowledge. In particular, I will *not* assume knowledge of either Witt vectors or crystalline cohomology, and I will explain all the necessary material along the way. 
+
+[[!redirects non-commutative Witt vectors]]
+[[!redirects noncommutative Witt vectors]]
+
