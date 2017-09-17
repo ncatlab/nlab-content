@@ -5,9 +5,11 @@
 
 ## Idea
 
-The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)simplicial groups and (co)chain complexes.
+The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)[[simplicial group]]s and (co)[[chain complex]]es.
 
-Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monoidal structure, either strictly or in their suitable [[higher category theory|higher categorical]] sense.
+Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monoidal structure, to some extent strictly, but generally in the sense of [[homotopy theory]] and  [[higher category theory]].
+
+This way it extends to a [[Quillen equivalence]] between [[model categories]] of _[[monoids]]_ in simplicial groups -- [[simplicial ring]]s -- and monoids in chain complexes -- [[dg-algebra]]s. 
 
 
 ## General discussion 
@@ -28,9 +30,9 @@ Analogous statements apply to the dual Dod-Kan correspondence, where the monoids
 
 A crucial fact about the [[Dold-Kan correspondence]] is that
 
-* The Dold-Kan correspondence respects these monoidal structures.
+* The two functors in the Dold-Kan correspondence respects these monoidal structures, the are (lax) [[monoidal functor]]s.
 
-But it doesn't in general do so _strictly_, except possibly in one direction. Rather, it does so in the context of [[higher category theory]].
+But their [[adjunction]] fails to be a [[monoidal adjunction]]. As a result, thesy do not induce an [[equivalence of categories]] or even an adjunction between (co)simplicial rings and (co)chain complexes.
 
 
 There are two different versions of the monoidal Dold-Kan corespondence, which are almost but apparently not entirely formal duals of each other (at least not in the detailed constructions):
@@ -39,7 +41,8 @@ There are two different versions of the monoidal Dold-Kan corespondence, which a
 
 * the **cosimplicial version** that relates monoids in cosimplicial groups ([[cosimplicial algebra|cosimplicial ring]]) to monoidal in co-chain complexes (cochain [[dg-algebra]]s).
 
-
+The cosimplicial version is made monoidal by replacing the the Moore complex functor by something else, to obtain a [[Quillen equivalence]].
+The simplicial version is made monoidal by replacing the other functor by something else.
 
 ## Simplicial rings and chain dg-algebras {#simplicial}
 
@@ -115,7 +118,7 @@ and with more details in
 
 =--
 
-Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a monoidal and an opmonoidal structure.  This monoidal structure can also be given in a [[higher category theory|higher categorical]], i.e. [[homotopy theory|homotopical]] way.
+Since the normalized Moore complex functor $N_\bullet$ is an equivalence of categories, by [[doctrinal adjunction]] its inverse nerve functor $\Xi : Ch_+ \to sAb$ also acquires a monoidal and an opmonoidal structure.  (See te formula on the top of page 296 of Schwede-Shipley.) This monoidal structure can also be given in a [[higher category theory|higher categorical]], i.e. [[homotopy theory|homotopical]] way.
 This is the content of the following statements.
 
 In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s 
