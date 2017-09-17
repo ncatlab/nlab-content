@@ -1,4 +1,11 @@
-__$Grp$__ is the [[category]] with [[group|groups]] as [[object|objects]] and group homomorphisms as [[morphism]]s.
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+__$Grp$__ is the [[category]] with [[group|groups]] as [[object|objects]] and group [[homomorphisms]] as [[morphism]]s.
 
 More abstractly, we can think of $Grp$ as the [[full subcategory]] of $Cat$ with groups as objects.
 
@@ -11,5 +18,7 @@ On the other hand, if we regard $Grp$ as a full sub-$2$-category of $Grpd_*$, th
 
 Precisely analogous statements hold for the category [[Alg]] of algebras.
 
+
+[[!redirects Group]]
 
 category: category
