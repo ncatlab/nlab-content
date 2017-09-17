@@ -24,8 +24,13 @@ These notions have generalizations when $C$ is an [[(∞,1)-category]]:
 * it has an "effective quotient" if it is [[delooping|deloopable]].
 
 
+[[!redirects quotient object]]
 [[!redirects quotient objects]]
-[[!redirects effective quotient]]
-[[!redirects effective quotients]]
 [[!redirects quotient]]
 [[!redirects quotients]]
+
+[[!redirects regular quotient]]
+[[!redirects regular quotients]]
+
+[[!redirects effective quotient]]
+[[!redirects effective quotients]]
