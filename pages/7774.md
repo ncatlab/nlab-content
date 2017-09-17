@@ -1,0 +1,5 @@
+A *diagonalizable group scheme* $G$ is a group scheme satisfying the following equivalent conditions:
+
+1. $G$ is the [[Cartier duality|Cartier dual]] of a [[constant group scheme]].
+
+1. $G$ is a [[character|character group]] i.e. $G$ is generated morphisms $G\to \mu_k$ into the [[multiplicative group scheme]].
