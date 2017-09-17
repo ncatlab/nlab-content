@@ -37,6 +37,12 @@ A 1-[[category]] whose [[internal logic]] can interpret this needs to
 3. (needs to be finished)
 
 
+## References
+
+Around def. 2.5 of 
+
+* [[Mike Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+
 [[!redirects presentation of homotopy type theory]]
 [[!redirects categorical semantics of homotopy type theory]]
 [[!redirects type-theoretic model category]]
