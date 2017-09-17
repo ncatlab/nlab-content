@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -84,12 +84,12 @@ More generally, a setup by [[Bertrand Toen]] serves to provide a more comprehens
 
 ## Properties {#Properties}
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
-The left [[derived functor]] of the Quillen left adjoint $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullback]]s of objects of [[finite type]] (each rational homotopy group is a finite dimensional vector space over the ground field).
+The left [[derived functor]] of the [[Quillen functor|Quillen left adjoint]] $\Omega^\bullet : sSet \to dgAlg_{\mathbb{Q}}$ preserves [[homotopy pullbacks]] of objects of [[finite type]] (each rational homotopy group is a [[finite dimensional vector space]] over the [[ground field]).
 
-In other words in the induced pair of [[adjoint (∞,1)-functor]]s
+In other words in the induced pair of [[adjoint (∞,1)-functors]]
 
 $$
   (\Omega^\bullet \dashv K)
@@ -205,7 +205,7 @@ This is precisely the statement of that quoted result [He, theorem 2.2](http://w
 
 > check the following
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 Rationalization preserves homotopy pullbacks of objects of finite type.
@@ -227,9 +227,16 @@ Being a Quillen right adjoint, the right derived functor of $K$ of course preser
 
 =--
 
+## Related concepts
+
+* [[p-localization]]
+
+* [[fracture square]]
 
 ## References
 
 Around definition 1.4 in 
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv:math/0604626](http://arxiv.org/abs/math.AT/0604626))
+
+[[!redirects rationalizations]]
