@@ -175,7 +175,9 @@ _Mike_: I realized that there is a class of [[locally cartesian closed category|
 
 Any quasitopos that is a [[pretopos]] is in fact a topos, so I still don't know any interesting locally cartesian closed pretoposes that aren't toposes.  One could take the ex/reg completion of an extensive quasitopos to get an interesting pretopos, but I don't know whether it would still be locally cartesian closed.  But any locally cartesian closed Heyting category has an internal logic which is predicative with exponentials.  I wonder which quasitoposes have W-types and stuff like that.
 
-_Mike_: Also, the [[exact category|ex/lex completion]] takes extensive categories to pretoposes and preserves local cartesian closedness.  So, in particular, the ex/lex completion of a topos is locally cartesian closed pretopos which is not, in general, a topos.  I'm not sure what interesting categories of this sort there are.
+_Mike_: Also, the [[exact category|ex/lex completion]] takes extensive categories to pretoposes and preserves local cartesian closedness.  So, in particular, the ex/lex completion of a topos is locally cartesian closed pretopos which is not, in general, a topos.  I'm not sure what interesting categories of this sort there are. 
+
+_Todd_: Interesting discussion. Just wanted to add that I'd recently been thinking about small-colimit completions of toposes, which are examples of ex/lex completions of toposes that are (seemingly) almost never toposes. 
 
 
 [[!redirects predicative mathematics]]
