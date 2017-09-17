@@ -38,7 +38,7 @@ Algebraic topology is generally the study of [[functor]]s from [[nice categories
 
 A textbook with an emphasis on [[homotopy theory]] is in 
 
-* Marcelo Aguilar, Samuel Gitler, Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002)
+* Marcelo Aguilar, Samuel Gitler, Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([pdf](http://bib.tiera.ru/b/91777))
 
 Lecture notes include
 
