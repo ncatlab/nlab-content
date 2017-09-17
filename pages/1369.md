@@ -28,7 +28,7 @@ There are various ways to state the monoidal structure. One is in terms of fibra
 
 *  [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
-Another is in terms of [[(∞,1)-operad]]s (see there). This approach has been taken by John Francis in his thesis. 
+Another is in terms of [[(∞,1)-operad]]s (see there). This approach has been taken in ([Fracis](#Francis)) 
 
 Both are described below.
 
@@ -168,11 +168,11 @@ In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792)  the th
 
 ## Related concepts
 
-* [[monoidal category]]
+* [[monoidal category]], **monoidal $(\infty,1)$-category**
 
-* [[monoidal bicategory]]
+* [[symmetric monoidal category]], [[symmetric monoidal (∞,1)-category]]
 
-* **monoidal $(\infty,1)$-category**
+* [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
 
 
@@ -182,10 +182,10 @@ the simplicial definition is definition 1.1.2 in
 
 * [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
-John Francis' work on $E_n$-actions on $(\infty,1)$-categories is here
+John Francis' work on [[little cubes operad]]-actions on  $(\infty,1)$-categories is in
 
-* **EnAction** John Francis, PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
-
+* [[John Francis]], PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
+{#Francis}
 
 
 [[!redirects monoidal (infinity,1)-categories]]
