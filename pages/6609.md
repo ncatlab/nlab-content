@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Generally, a _tensor_ is an element of a [[tensor product]].
+
+Traditionally this is considered for the following case:
+
+for $X$ a [[manifold]], $T X$ the [[tangent bundle]], $T^* X$ the [[cotangent bundle]], $\Gamma(T X)$, $\Gamma(T^* X)$ their spaces of [[section]]s and $C(X)$ the [[algebra]] of [[function]]s on $X$, a **[[rank]]-$(p,q)$ tensor** on $X$ is an element of the tensor product over $C(X)$
+
+$$
+  t \in \Gamma(T X)^{\otimes_{C(X)}^p} \otimes_{C(X)} \Gamma(T^* X)^{\otimes^q}
+  \,.
+$$
+
+## Related concepts
+
+* [[decomposable tensor]]
