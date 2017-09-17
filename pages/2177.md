@@ -1,3 +1,3 @@
-The material previously on this page referred to [MyWikiBiz](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Cactus_Language).
+The material previously on this page referred to [InterSciWiki](http://intersci.ss.uci.edu/wiki/index.php/Cactus_Language).
 
 [[!redirects Cactus Language]]
