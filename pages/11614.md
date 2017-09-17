@@ -22,10 +22,17 @@ If a domain specific language is realized inside a general-purpose language, one
 
 ## References
 
+### General
+
 * Wikipedia, _[Domain specific language](http://en.wikipedia.org/wiki/Domain-specific_language)_
 
 * Haskell Wiki, _[Research papers/Domain specific languages](http://www.haskell.org/haskellwiki/Research_papers/Domain_specific_languages)_
 
+### Examples
+
+For [[differential equations]]:
+
+* {#ALORW12} Martin S. Alnaes, Anders Logg, Kristian B. Oelgaard, Marie E. Rognes, Garth N. Wells, _Unified Form Language: A domain-specific language for weak formulations of partial differential equations_ ([arXiv:1211.4047](http://arxiv.org/abs/1211.4047))
 
 [[!redirects domain specific programming languages]]
 
