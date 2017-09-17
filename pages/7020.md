@@ -1,4 +1,4 @@
 
-* [webpage](http://wwwiexp.desy.de/sfb676/researchers/rejzner/)
+* [webpage](http://rejzner.com/)
 
 category: people
