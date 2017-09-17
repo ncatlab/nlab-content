@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Effective field theory and renormalization
++--{: .hide}
+[[!include renormalization - contents]]
+=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
@@ -25,8 +29,8 @@ A choice of renormalization scheme amounts to a choice of decomposition, as [[ve
 
 ## References
 
-For instance def. 1.4.1 in 
+For instance def. 1.4.1, def. 8.0.2 in 
 
-* [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv](http://arxiv.org/abs/0706.1533))
+* [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv:0706.1533](http://arxiv.org/abs/0706.1533))
 
 [[!redirects renormalization schemes]]
