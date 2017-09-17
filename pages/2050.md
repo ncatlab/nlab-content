@@ -23,8 +23,8 @@ Every [[subgroup]] $H$ of a [[discrete group|discrete]] [[free group]] $G$ is it
 
 =-- 
 
-+-- {: .num_cor #DedekindTheorem}
-###### Corollary
++-- {: .num_theorem #DedekindTheorem}
+###### Theorem
 **(Dedekind's theorem)**
 
 Every subgroup of a [[free abelian group]] is itself a free abelian group.
@@ -71,30 +71,6 @@ The above simple [[homotopy theory|homotopy-theoretic]] proof was indicated in (
 
 =--
 
-+-- {: .proof}
-###### Proof 
-**of corollary \ref{DedekindTheorem}**
-
-A [[free abelian group]] $F_{Ab}(S)$ on a set $S$ is the [[abelianization]] 
-
-$$
-  F_{Ab}(S) \simeq F(S)/[F(S),F(S)]
-$$ 
-
-of the [[free group]] on $S$. Therefore a subgroup $H \hookrightarrow F_{Ab}(S)$ corresponds to a subgroup $p^{-1}(H) \hookrightarrow F(S)$, the [[preimage]] under the [[quotient]] [[projection]] $F(S) \to F(S)/[F(S),F(S)]$. By theorem \ref{NielsenSchreierTheorem} $p^{-1}(H)$ is a [[free group]] and hence by construction $H$ is the [[abelianization]] of a free group and hence is a free abelian group.
-
-$$
-  \array{
-    p^{-1}(H) &\hookrightarrow& F(S)
-    \\
-    \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{p}}
-    \\
-    H &\hookrightarrow& F(S)/[F(S),F(S)]
-  }
-  \,.
-$$
-
-=--
 
 
 ## Related concepts
