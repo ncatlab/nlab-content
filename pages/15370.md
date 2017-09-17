@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -24,6 +24,7 @@ A _normed ring_ is a [[ring]] compatibly equipped with a [[norm]] on the underly
 If this is suitably [[complete topological space|complete]] with respect to the norm, then a normed ring is called a _[[Banach ring]]_. A normed ring which is a [[field]] is, naturally, called a [[normed field]], and if the norm is multiplicative it is also called a [[valued field]].
 
 The [[Berkovich spectrum]] of a normed ring $R$ is the set of multiplicative [[seminorms]] on $R$ that are bounded by the norm on $R$.
+
 
 ## Definition
 
@@ -40,9 +41,9 @@ to the non-negative [[real numbers]] such that for all $f,g \in R$
 
 1. ${\vert f \vert} = 0$ precisely if $f = 0$;
 
-1. ${\vert f + g \vert} \leq {\vert f \vert}+ {\vert g \vert}$ ([[triangle identity]])
+2. ${\vert f + g \vert} \leq {\vert f \vert}+ {\vert g \vert}$ ([[triangle identity]])
 
-1. ${\vert f \cdot g\vert} \leq {\vert f \vert\cdot {\vert g \vert}}$.
+3. ${\vert f \cdot g\vert} \leq {\vert f \vert\cdot {\vert g \vert}}$.
 
 =--
 
@@ -51,8 +52,7 @@ e.g ([Berkovich 09, def. 1.2.1](#Berkovich09))
 +-- {: .num_remark}
 ###### Remark
 
-One could also define a normed ring to be a [[commutative monoid]] [[internalization|internal]] to the [[category]] of [[normed groups]].
-That generalizes the third clause in def. \ref{NormedCommutativeRing}
+One might also define a normed ring to be a [[commutative monoid]] [[internalization|internal]] to the [[monoidal category]] $NGrp$ of [[normed groups]].  If the morphisms in $NGrp$ are taken to be the [[short map|short]] group homomorphisms, then this reproduces the definition above.  If (as is often seen) the morphisms are generalized to [[bounded map|bounded]] group homomrophisms, then this generalizes the third clause in def. \ref{NormedCommutativeRing}
 to 
 
 * there is $C \in \mathbb{R}_{\gt 0}$ such that for all $f,g \in R$
@@ -62,8 +62,8 @@ to
   $$
 
 see e.g. ([Bassat-Kremnitzer 13, remark 6.32](#BassatKremnitzer13))
-
 =--
+
 
 ## Examples
 
@@ -92,6 +92,7 @@ Notice that even if $R$ if the norm on $R$ is multiplicative (is an [[absolute v
 
 [[!include analytic geometry ingredients -- table]]
 
+
 ## References
 
 * Naoki Kimura, _A note on normed ring_, Kodai Math. Sem. Rep.
@@ -103,11 +104,12 @@ Volume 1, Number 3-4 (1949), 23-24. ([Euclid](http://projecteuclid.org/euclid.km
 
 * {#Berkovich09} [[Vladimir Berkovich]], _Non-archimedean analytic spaces_, lectures at the _Advanced School on $p$-adic Analysis and Applications_, ICTP, Trieste, 31 August - 11 September 2009 ([pdf](http://www.wisdom.weizmann.ac.il/~vova/Trieste_2009.pdf))
 
-
 * {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 6.5 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
 * ProofWiki, _[Norm (Division ring)](https://proofwiki.org/wiki/Definition:Norm_(Division_Ring))_
 
 For more see the references at _[[Banach ring]]_.
 
+
+[[!redirects normed ring]]
 [[!redirects normed rings]]
