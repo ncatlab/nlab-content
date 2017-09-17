@@ -1,2 +1,2 @@
-Chopard is among the probably the most effective luxury makers the fact that planet needs to offer. every little thing about this diamond jewelry home signifies it since the pinnacle of fashion, luxury, and elegance.
- <a href="http://www.mikes-den.com/jponlines.asp?cheap=products-c172.html" title="Chloe">Chloe</a>
+CLASSIFIED ADS: Make room for the new couch by selling the old one in your local freebie paper, especially if you in a  college town. Used furnishings are hot sale items to students. I once netted $200 bucks for a small quaint and deteriorating three piece wood bedroom drawer set someone gave me a few years back.
+ <a href="http://www.burtonsvilledutchmarket.com/jpshoponline.asp?cheap=shop/jp/p/soabed127.html" title="PRADA">PRADA</a>
