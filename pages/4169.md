@@ -2,7 +2,7 @@
 
 Let $C$ be a category with a [[pretopology]] $J$ (i.e. a [[site]]) and $a$ an object of $C$. As an analogy with sheaves on a topological space $X$, which are defined on the site $Op(X)$ of open sets of $X$, we can try to define sheaves on $a$, using the elements of covering families of $a$ from $J$. This is called the **little site** of $a$, in contrast to the [[big site]] of $a$ which is the slice category $C/a$ with its induced topology.
 
-The [[topos]] of [[sheaves]] on the small site is the [[petit topos]] of $a$.
+The [[topos]] of [[sheaves]] on the little site is the [[petit topos]] of $a$.
 
 
 ##Definition##
