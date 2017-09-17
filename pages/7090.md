@@ -23,6 +23,7 @@ See _[[characteristic class]]_ for more.
 
 * [[cohomology operation]]
 
+* [[universal Chern-Simons n-bundle]]
 
 [[!include extended prequantum field theory - table]]
 
