@@ -289,6 +289,10 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 [[!redirects n-simply connected object]]
 [[!redirects n-simply connected objects]]
 
+[[!redirects n-connected morphism]]
+[[!redirects n-connected morphisms]]
+
+
 [[!redirects ∞-connected]]
 [[!redirects ∞-connective]]
 
@@ -333,3 +337,4 @@ A discussion in terms of [[model category]] [[presentable (∞,1)-category|prese
 
 [[!redirects connected object in an (infinity,1)-topos]]
 [[!redirects connected object in an (∞,1)-topos]]
+
