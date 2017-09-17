@@ -4,10 +4,15 @@ While for manifolds there is a [[Poincare duality|Poincaré duality]] relating h
 
 * scans from old MacPherson's notes [pdf](http://faculty.tcu.edu/gfriedman/notes/ih.pdf)
 
-* [wikipedia](http://en.wikipedia.org/wiki/Intersection_homology)
+* wikipedia: [intersection homology](http://en.wikipedia.org/wiki/Intersection_homology)
+
+* Kirwan and Woolf, _An introduction to intersection homology_
+
+* A. Borel et al. _Intersection cohomology_
 
 * Springer Online Enc. of Math., [intersection homology](http://eom.springer.de/I/i052000.htm)
 
+* MO question: [what happened to intersection homology](http://mathoverflow.net/questions/6874/what-if-anything-happened-to-intersection-homology)
 
 [[!redirects intersection cohomology]]
 [[!redirects intersection homology]]
