@@ -1,23 +1,22 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
 +-- {: .un_defn}
 ###### Definition
-
 
 In a [[category]] $C$ with [[zero object]] $0$ the **zero morphism ** $0_{c,d} : c \to d$ between two [[object]]s $c, d \in C$ is the unique [[morphism]] that factors through $0$:
 
@@ -28,7 +27,6 @@ $$
 
 
 More generally, in any category [[enriched category|enriched]] over the [[closed monoidal category|closed monoidal]] [[category of pointed sets]] (with [[tensor product]] the [[smash product]]), the **zero morphism** $0_{c,d} : c \to d$ is the basepoint of the [[hom-object]] $[c,d]$.
-
 
 =--
 
@@ -41,14 +39,20 @@ for any $c,d$.  Thus, the existence of zero morphisms can be regarded as a [[stu
 
 =--
 
+
 ## Examples
 
 See [[zero object]] for examples.
 
+
 ## Related concepts
+
+* [[zero function]]
 
 * [[null homotopy]]
 
 
+[[!redirects zero morphism]]
 [[!redirects zero morphisms]]
 [[!redirects zero map]]
+[[!redirects zero maps]]
