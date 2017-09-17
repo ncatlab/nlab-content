@@ -55,3 +55,5 @@ Also the [[path integral]] in [[quantum mechanics]] and [[quantum field theory]]
 
 
 [[!redirects integral transforms]]
+
+[[!redirects integral kernel]]
