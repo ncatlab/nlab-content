@@ -20,14 +20,16 @@ This terminology is often used when speaking about [[limits]] and [[colimits]]; 
 
 +-- {: .num_defn}
 ###### Definition
-If $J$ is a [[directed graph]], then a __diagram__ in $C$ of shape $J$ is a functor $D\colon F(J) \to C$, or equivalently a graph morphism $\bar{D}\colon J \to U(C)$.
+If $J$ is a [[quiver]], then a __diagram__ in $C$ of shape $J$ is a functor $D\colon F(J) \to C$, or equivalently a graph morphism $\bar{D}\colon J \to U(C)$.
 =--
 
-Here $F\colon Graph \to Cat$ denotes the [[free category]] on a directed graph and $U\colon Cat \to Graph$ the underlying directed graph of a category, which form a pair of [[adjoint functors]].  These are the sorts of diagrams which we "draw on a page" --- we draw a directed graph, and then label its vertices with objects of $C$ and its edges with morphisms in $C$, thereby forming a graph morphism $J\to U(C)$.
+Here $F\colon Quiv \to Cat$ denotes the [[free category]] on a quiver and $U\colon Cat \to Quiv$ the underlying quiver of a category, which form a pair of [[adjoint functors]].  These are the sorts of diagrams which we "draw on a page" --- we draw a quiver, and then label its vertices with objects of $C$ and its edges with morphisms in $C$, thereby forming a graph morphism $J\to U(C)$.
 
-A diagram is __[[commutative diagram|commutative]]__ if it factors through a [[preorder]].  Equivalently, if $J$ is a category, then a diagram of shape $J$ commutes iff any two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.  If $J$ is a directed graph, as is more common when we speak about "commutative" diagrams, then this definition has to be applied to $F(J)$ instead.
+A diagram is __[[commutative diagram|commutative]]__ if it factors through a [[preorder]].  Equivalently, if $J$ is a category, then a diagram of shape $J$ commutes iff any two morphisms in $C$ that are assigned to any pair of [[parallel morphisms]] in $J$ (i.e., with same source and target in $J$) are equal.  If $J$ is a quiver, as is more common when we speak about "commutative" diagrams, then this definition has to be applied to $F(J)$ instead; that is, we look at parallel paths of arbitrary finite length.
 
 In either case, $J$ may be called the __shape__, __scheme__, or __index__ category or graph.
+
+Note that given a diagram $F:J\to C$, the image of the shape $J$ is not necessarily a [[subcategory]] of $C$.
 
 
 ## Examples
