@@ -429,9 +429,40 @@ $$
  \,,
 $$
 
-where $d c$ denotes the group cohomology differential of $c$. Hence this vanishes precisely if $c$ is a group 2-cocycle.
+where $d c$ denotes the group cohomology differential of $c$. Hence this vanishes precisely if $c$ is a group 2-cocycle, hence we have an associative product.
 
-To see that the construction is independent of the choice of coycle $c$ representing $[c]$, let $\tilde c$ be another representative which differs by a [[coboundary]] $h \colon G \to A$ with
+To see that it has inverses, notice that for all $(g,a)$ we have
+
+$$
+  (g,a)
+  \cdot
+  (g^{-1}, - a - c(g,g^{-1}))
+  = 
+  (e, a - a - c(g,g^{-1})+ c(g,g^{-1}) )
+$$
+
+and hence inverses are given by $(g,a)^{-1} = (g^{-1}, -a - c(g,g^{-1}))$. Hence $G \times_c A$ is indeed a group. 
+
+By the discussion at [group cohomology  -- degree-2](group+cohomology#Degree2) we may assume without restriction that $c$ is a normalized cocycle, hence that $c(e,-) = c(-,e) = 0$. Using this we find that the inclusion 
+
+$$
+  i \colon A \to G \times_c A
+$$
+
+given by $a \mapsto (e,a)$ is a group homomorphism. Moreover, the projection on the underlying sets evidently yields a group homomorphism $p \colon G \times_c A \to G$ given by $(g,a) \mapsto g$. The kernel of this is $A$, and hence 
+
+$$
+  A \stackrel{i}{\hookrightarrow} G \times_c A \stackrel{p}{\to} G
+$$
+
+is indeed a group extension. It is a [[central extension]] again using the assumption that $c$ is normalized $c(g,e) = c(e,g) = 0$:
+
+$$
+  (g,a) \cdot (e,\tilde a) = (g, a + \tilde a + 0) = (e,\tilde a) \cdot (g,a)
+  \,.
+$$
+
+Finally to see that the construction is independent of the choice of coycle $c$ representing $[c]$, let $\tilde c$ be another representative which differs by a [[coboundary]] $h \colon G \to A$ with
 
 $$
   \tilde c (g_1,g_2) \coloneqq c(g_1,g_2) - h(g_1) - h(g_2) + h(g_1 g_2)
@@ -569,13 +600,21 @@ Let $[c] \in H^2_{Grp}(G,A)$. Then by construction of $\hat G \coloneqq G \times
 
 $$
   \begin{aligned}
-    (g_1, g_2) & \mapsto - (g_1, 0)^{-1} (g_1, 0)^{-1} (g_1 g_2, 0)
+    (g_1, g_2) & \mapsto (g_1, 0) (g_2, 0) (g_1 g_2, 0)^{-1}
     \\
-    & =  - (g_1, 0)^{-1} (g_1, 0)^{-1} (g_1 g_2, 0)
+    & = 
+    (g_1, 0) (g_1, 0) ((g_1 g_2)^{-1}, - c(g_1 g_2, (g_1 g_2)^{-1}) )
     \\
-    & = (1, c(g_1, g_2))
+    & =  (g_1 g_2, c(g_1, g_2) ) ((g_1 g_2)^{-1}, - c(g_1 g_2, (g_1 g_2)^{-1}) )
+    \\
+    & = (e, c(g_1, g_2) - c(g_1 g_2, (g_1 g_2)^{-1}) + c(g_1 g_2, (g_1 g_2)^{-1}))
+   \\
+   & = (e, c(g_1, g_2))
   \end{aligned}
+  \,,
 $$
+
+which is $c(g_1, g_2) \in A \hookrightarrow G \times_c A$, and hence this recovers the 2-cocycle that we started with.
 
 This shows that $Extr \circ Rec = id$ and in particular that $Rec$ is a [[surjection]]. It is readily seen that the [[kernel]] of $Rec$ is trivial, and so it is an equivalence.
 
