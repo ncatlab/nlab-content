@@ -1,5 +1,13 @@
 
-## Redirects 
+## Idea
+
+A certain identity for cetain [[Fourier transforms]].
+
+## Examples
+
+* The Poisson summation formulation implies the [[functional equation]] for the [[Jacobi theta function]], which in turn implise that of the [[Riemann zeta function]], see at _[Riemann zeta funciton -- functional identity](Riemann+zeta+function#functional_equation)_.
+
+## Related entries
 
 * [[functional equation]]
 
