@@ -27,7 +27,7 @@ For example, the ring $\mathbb{R}[x]$ consists of [[polynomial]] functions on th
 
 If on the other hand we put in an inverse to every element of $\mathbb{R}[x]$ that is _not_ in the ideal $I$, we obtain the ring of rational functions defined _somewhere_ on the real line _at least_ at the point $a$: namely, those without a factor of $(x-a)$ in the denominator.  This is called **localizing _at_ $a$**, or localizing at the ideal $I$.
 
-Notice that what is literally 'localized' when localizing the ring is not the ring itself, but its [[spectrum]]: the spectrum becomes smaller.  The spectrum of $\mathbb{R}[x]$ is the whole real line.  When we localize away from $a$, the resulting ring has spectrum $\mathbb{R} - \{a\}$.  When we localize at $a$, the resulting ring has spectrum $\{a\}$.
+Notice that what is literally 'localized' when localizing the ring is not the ring itself, but its [[spectrum of a commutative ring|spectrum]]: the spectrum becomes smaller.  The spectrum of $\mathbb{R}[x]$ is the whole real line.  When we localize away from $a$, the resulting ring has spectrum $\mathbb{R} - \{a\}$.  When we localize at $a$, the resulting ring has spectrum $\{a\}$.
 
 A ring is a very special case of a [[category]], namely a one-object [[Ab-enriched category]].  This article mainly treats the more general case of localizing an arbitrary category.  The localization of a category $C$ at a class of [[morphisms]] $W$ is the universal solution to making the morphisms in $W$ into [[isomorphisms]]; it is written $C[W^{-1}]$ or $W^{-1}C$.  It also could be called the [[homotopy category]] of $C$ with respect to $W$.
 
