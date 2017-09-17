@@ -2,3 +2,4 @@
 * [webpage](http://tlvp.net/~fej.math.wes/)
 
 category: people
+[[!redirects F. E. J. Linton]]
