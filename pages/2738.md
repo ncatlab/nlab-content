@@ -58,7 +58,7 @@ Write [[Operad]] for the category of [[operads]], specifically for
 
 * [[Set]]-enriched;
 
-* symmetric;
+* [[symmetric operad|symmetric]];
 
 * multi-colored
 
@@ -69,13 +69,13 @@ operads, also known as symmetric [[multicategories]].
 +-- {: .num_defn #FreeOperadCategory}
 ###### Definition
 
-The [[tree category]] is the [[full subcategory]]
+The symmetric [[tree category]] is the [[full subcategory]]
 
 $$
   \Omega \hookrightarrow Operad
 $$
 
-of [[Operad]] that are free on finite rooted trees. (...)
+of [[Operad]] on those [[symmetric operads]] that are [[free construction|free]] on the symmetric collections given by finite rooted trees. (...)
 
 =--
 
