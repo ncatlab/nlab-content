@@ -72,7 +72,7 @@ $$
   \mathbb{G}_m \;\colon\; \Sigma \mapsto \mathcal{O}_\Sigma^\times
 $$
 
-that sends a [[Stein manifold]] to the additive [[abelian group]] of non-vanishing [[holomorphic functions]] on it.
+that sends a [[Stein manifold]] to the multiplicative [[abelian group]] of non-vanishing [[holomorphic functions]] on it.
 
 The [[delooping]] $\mathbf{B}\mathbb{G}_m$ is the universal [[moduli stack]] for [[holomorphic line bundles]] (the [[Picard stack]]) and the double delooping $\mathbf{B}^2 \mathbb{G}_m$ that for [[holomorphic line 2-bundles]] (the [[Brauer stack]]).
 
