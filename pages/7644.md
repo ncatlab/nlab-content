@@ -1,0 +1,13 @@
+
+
+## Idea
+
+A notion of [[integration]] using the [[Euler characteristic]] as a [[measure]].
+
+## References
+
+* Yuliy Baryshnikov, Robert Ghrist, _Euler integration over definable functions_ ([pdf](http://www.math.upenn.edu/~ghrist/preprints/definable.pdf)) 
+
+There is also 
+
+* [blob discussion](http://golem.ph.utexas.edu/category/2012/05/integrating_against_the_euler.html)
