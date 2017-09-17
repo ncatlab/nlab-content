@@ -1,0 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A class of [[spectral sequences]] in [[stable homotopy theory]].
+
+## References
+
+* [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
+
+* [[Jacob Lurie]], _The Adams Spectral Sequence_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
+
+* [[Jacob Lurie]], _The Adams Spectral Sequence for $MU$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture9.pdf))
+
+[[!redirects Adams spectral sequences]]
+---
+See Adams summary (early in part III).
+
+We consider the stable group $\lim_{\to} [ S^{n+r}X, S^n Y  ]$ for some finite complexes $X$ and $Y$.
+
+The reduced cohomology of $X$ with coefficients in $\mathbb{Z} / p$ is a module over the Steenrod algebra $A$.
+
+The Adams spectral sequence goes from 
+
+$$ E^{**}_A (\tilde{H}^*(Y; \mathbb{Z} / p), \tilde{H}^*(X; \mathbb{Z} / p) )
+$$
+
+to the above stable group. (What does this mean???)
+
+There is actually a much better and more general formulation of all this. See Chapter 15 in Adams Part III.
+
+nLab page on [[nlab:Adams spectral sequence]]
