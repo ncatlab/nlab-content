@@ -294,6 +294,8 @@ For $G$ a [[discrete group]] ([[geometrically discrete ∞-groupoid|geometricall
 
 ## Related concepts
 
+* [[Sullivan conjecture]]
+
 Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[homotopy theory]] is to [[stable homotopy theory]].
 
 [[!include equivariant homotopy theory -- table]]
