@@ -22,7 +22,7 @@
 
 The notion of an _elementary (∞,1)-topos_ is the analog of the notion of _[[elementary topos]]_ in [[(∞,1)-category theory]].
 
-This is in contrast to the notion of an _[[(∞,1)-topos]] [[equivalence of (∞,1)-categories|equvialent]] to an [[(∞,1)-category of (∞,1)-sheaves]]_, the analog of a [[sheaf topos]], which is more specific (see [[geometric homotopy type theory]]). 
+This is in contrast to the notion of an _[[(∞,1)-topos]] [[equivalence of (∞,1)-categories|equivalent]] to an [[(∞,1)-category of (∞,1)-sheaves]]_, the analog of a [[sheaf topos]], which is more specific (see [[geometric homotopy type theory]]). 
 
 ## References
 
