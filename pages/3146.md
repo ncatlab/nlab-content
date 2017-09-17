@@ -14,6 +14,20 @@
 =--
 
 
+* [[∞-Lie algebroid valued differential forms]]
+
+* [[connection on an ∞-bundle]]
+
+* **curvature**
+
+* [[Bianchi identity]]
+
+* [[curvature characteristic form]]
+
+* [[Chern-Simons form]]
+
+***
+
 
 #Contents#
 * automatic table of contents goes here
@@ -366,7 +380,31 @@ If instead of just an $\infty$-Lie algebra $\mathfrak{g}$ we take more generally
 **Remark** In some places in the literature, the lower curvature form components have been called _fake curvature_ ([BreenMessing](http://arxiv.org/abs/math/0106083)). 
 
 
-### Bianchi identity
+### Properties
+
+#### Obstruction to flatness
+
+Precisely if the curvatures $F_A$ vanish does the morphism $A : W(\mathfrak{g}) \to \Omega^\bullet(X)$ factor through the [[Chevalley-Eilenberg algebra]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$.
+
+$$
+  (F_A = 0) 
+  \;\;\Leftrightarrow
+  \;\;
+  \left(
+  \array{
+     && CE(\mathfrak{g})
+     \\
+     & {}^{\mathllap{\exists A_{flat}}}\swarrow & \uparrow
+     \\
+     \Omega^\bullet(X) &\stackrel{A}{\leftarrow}& W(\mathfrak{g})     
+  }
+  \right)
+$$
+
+in which case we call $A$ **flat**.
+
+
+#### Bianchi identity
 
 By the fact that $A$ is a [[dg-algebra]] [[homomorphism]], its curvature forms satisfy
 
