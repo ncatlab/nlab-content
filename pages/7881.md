@@ -1,10 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # The Continuum Hypothesis
 * table of contents
 {: toc}
 
 ## Idea
 
-The *continuum hypothesis* is a statement of [[set theory]] which says, roughly, that every set of real numbers is either countable or has the same cardinality as all the reals.  It cannot be proven *or* disproven from any of the usual axioms of set theory.
+The *continuum hypothesis* is a statement of [[set theory]] which says, roughly, that every set of real numbers is either [[countable set|countable]] or has the same [[cardinality]] as all the reals ("the [[continuum]]").  It cannot be proven *or* disproven from any of the usual axioms of set theory.
 
 
 ## Statement
@@ -16,7 +27,7 @@ Let $E$ be an [[elementary topos]] with [[subobject classifier]] $\Omega$ and [[
 
 $$N \hookrightarrow B\hookrightarrow \Omega^N$$
 
-then either the first or the second is an isomorphism.
+then either the first or the second is an [[isomorphism]].
 
 In the classical case (that is, in the topos [[Set]] with the [[axiom of choice]]), this equivalently asserts that there is no strict inequality of [[cardinal numbers]]
 
@@ -33,7 +44,7 @@ $$ \aleph_0 \lt \alpha \lt 2^{\aleph_0} $$
 +-- {: .num_theorem}
 ###### Theorem
 
-There exists a boolean topos in which the axiom of choice holds and the continuum hypothesis fails.
+There exists a [[boolean topos]] in which the [[axiom of choice]] holds and the continuum hypothesis fails.
 
 =--
 
@@ -103,8 +114,8 @@ If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of ch
 
 ## References
 
-* [[Saunders Mac Lane]], [[Ieke Moerdijk]], [[Sheaves in geometry and logic]], VI.2, VI.3
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in geometry and logic]]_, VI.2, VI.3
 
-* M.C. Fitting, "Intuitionistic logic, model theory and forcing" , North-Holland (1969)
+* M.C. Fitting, _Intuitionistic logic, model theory and forcing_, North-Holland (1969)
 
 [[!redirects CH]]
