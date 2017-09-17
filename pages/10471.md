@@ -17,7 +17,7 @@ are all $O(n)\times O(k)$-[[equivariance|equivariant]], hence are [[action]] [[h
 
 ### Relation to global equivariant stable homotopy theory
 
-Since orthogonal spectra are by definition equipped with orthognal group [[actions]], they serve as models for [[equivariant homotopy theory]] "for all groups at once", called _[[global stable homotopy theory]]_.
+Since orthogonal spectra are by definition equipped with orthogonal group [[actions]], they serve as models for [[equivariant homotopy theory]] "for all groups at once", called _[[global stable homotopy theory]]_.
 
 ## Related concepts
 
