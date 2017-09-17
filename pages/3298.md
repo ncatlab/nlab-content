@@ -291,7 +291,7 @@ We discuss how the Hochschild complex is the function algebra on a [[derived loo
 
 #### For commutative $k$-Algebras
 
-We first describe the situaton for ordinary commutative algebras.
+We first describe the situation for ordinary commutative algebras.
 
 Let $T$ be the [[Lawvere theory]] of ordiary commutative [[associative algebra]]s over a [[field]] $k$. We shall regard this as an [[(∞,1)-algebraic theory]]. 
 
@@ -491,7 +491,11 @@ But this ordinary pushout it manifestly the claimed one.
 
 
 
+#### For general $T$-algebras {#LoopSpaceForGeneralTAlgebras}
 
+strategy: for $T$ a general [[monad]] proceed as above but replace the bar complex of a commutative $k$-algebra with the monadic [[bar construction]] of the $T$-algebra $\mathcal{O}(X)$
+
+(...)
 
 
 ### Hochschild cohomology and extensions {#Extensions}
