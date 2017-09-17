@@ -8,7 +8,7 @@
 The _Weil conjectures_ are a sequence of [[conjectures]] about counting the number of points of [[algebraic varieties]] $X$ over [[finite fields]]; $\mathbb{F}_p$ and extensions thereof. That is, the number of [[homomorphisms]]
 
 $$
-  Spec \mathbb{F}_{p^n} \longrightarrow X
+  \operatorname{Spec} \mathbb{F}_{p^n} \longrightarrow X
   \,
 $$
 for fixed $p$ but all $n \geq 1$.
