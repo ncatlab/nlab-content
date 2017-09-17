@@ -65,6 +65,10 @@ The most general case where a single object $I$ may be used to define global ele
 
 * An [[element in an abelian category]] is an equivalence class of generalised elements.
 
+### In type theory
+
+In the context of [[type theory]] a generalized element in a category is a [[term]] (possibly a [[variable]]) in the [[internal language]] of the category.
+
 [[!redirects generalised element]]
 [[!redirects generalised elements]]
 [[!redirects generalized elements]]
