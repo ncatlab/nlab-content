@@ -20,7 +20,7 @@ In traditional [[differential geometry]] a smooth [[manifold]] may be thought of
 [[vector space]] $\simeq \mathbb{R}^n$.
 
 In the broader context of [[synthetic differential geometry]]  there may exist [[spaces]] --- in a [[smooth topos]] $\mathcal{T}$ with line object $R$ ---
-considerably more general than manifolds. While for all of them  there is a notion of [[tangent bundle]] $T X : = X^D$ (with $D$ the [[infinitesimal space|infinitesimal interval]]), not all such tangent bundles 
+considerably more general than manifolds. While for all of them  there is a notion of [[tangent bundle]] $T X : = X^D$ (sometimes called a _[[kinematic tangent bundle]]_, with $D$ the [[infinitesimal space|infinitesimal interval]]), not all such tangent bundles 
 necessarily have $R$-linear fibers! 
 
 A _microlinear space_  is essentially an object $X$ in a [[smooth topos]],  such that its [[tangent bundle]] does have $R$-linear fibers.
