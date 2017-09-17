@@ -29,13 +29,13 @@ The way this works is roughly indicated in the following table:
 
 For [[K-theory]] this relation induces the $\mathbb{Z}_2$-[[equivariant cohomology]]-version of [[KU]] which is [[KR-theory]]. In direct analogy to this one may hence consider $SL_2(\mathbb{Z}/n\mathbb{Z})$-equivariant versions of [[tmf]] (localized at some primes). This maybe deserves to be called _modular equivariant elliptic cohomology_. 
 
-This hasn't been studied much yet (or not at all), but there is some motivation for this from [[string theory]] (see [below](#MotivationFromStringTheory)) and in this context a relevance of modular equivariant elliptic cohomology theory has been conjectured in ([Kriz-Sati 05](#KrizSati05)).
+This hasn't been studied much yet (or not at all), but there is some motivation for this from [[string theory]] (see [below](#MotivationFromStringTheory)) and in this context a relevance of modular equivariant elliptic cohomology theory has been conjectured in ([Kriz-Sati 05, p.3, p. 17, 18](#KrizSati05)).
 
 
 ### Motivation from string theory
  {#MotivationFromStringTheory}
 
-A relevant role of some modular equivariant elliptic cohomology theory in [[string theory]] has been conjectured in ([Kriz-Sati 05](#KrizSati05)):
+A relevant role of some modular equivariant elliptic cohomology theory in [[string theory]] has been conjectured in ([Kriz-Sati 05, p. 3, p. 17, 18](#KrizSati05)):
 
 First of all, $\mathbb{Z}_2$-equivariant [[topological K-theory]], hence [[KR-theory]], is what controls the [[D-brane charges]] in general [[orientifold]] [[vacua]] of [[type II superstring theory]] (hence also of [[type I superstring theory]], which is thereby a special case). 
 
@@ -100,7 +100,16 @@ for the [[category]] whose
     \coloneqq
     \left\{
       \array{
- Hom_{GL_2\left(\hat{\mathbb{Z}}\right)}\left(GL_2\left(\hat{\mathbb{Z}}\right)/(p_{n_1}^{-1}\left(\Gamma_1\right)\right), GL_2\left(\hat{\mathbb{Z}}\right)/(p_{n_2}^{-1}\left(\Gamma_2\right)\right)\right)
+         Hom_{GL_2\left(\hat{\mathbb{Z}}\right)}
+         \left(
+            GL_2\left(\hat{\mathbb{Z}}\right)
+            /
+            p_{n_1}^{-1}\left(\Gamma_1\right), 
+            \;
+            GL_2\left(\hat{\mathbb{Z}}\right)
+            /
+            p_{n_2}^{-1}\left(\Gamma_2\right)
+          \right)
         & if \; n'|n
         \\
         \emptyset & otherwise
@@ -116,7 +125,7 @@ This is ([Hill-Lawson 13, def. 3.15](#HillLawson13)).
 +-- {: .num_prop #SystemOfModuliStacks}
 ###### Proposition
 
-The construction for each $(n,\Gamma) \in \widetilde{Orb}_{GL_2(\hat{\mathbb{Z}})}$ of the [[Deligne-Mumford compactification|compactified]] [[moduli stack]] $\mathcal{M}_{\overline{ell}}(\Gamma)$ over $Spec(\mathbb{Z}[\frac{1}{n}])$ of [[elliptic curves with level structure]]determined by $\Gamma$ extends to a (lax) [[2-functor]] 
+The construction for each $(n,\Gamma) \in \widetilde{Orb}_{GL_2(\hat{\mathbb{Z}})}$ of the [[Deligne-Mumford compactification|compactified]] [[moduli stack]] $\mathcal{M}_{\overline{ell}}(\Gamma)$ over $Spec(\mathbb{Z}[\frac{1}{n}])$ of [[elliptic curves with level structure]] determined by $\Gamma$ (a [[modular curve]]) extends to a (lax) [[2-functor]] 
 
 $$
   \mathcal{M}_{\overline{ell}}(-)
@@ -171,6 +180,8 @@ which is such that
 
    $Tmf(1,1)\simeq $ [[Tmf]];
 
+1. the morphism induced by any morphism of the form $(n k ,P_k(\Gamma))\to (n,\Gamma)$ is $k$-[[localization of a spectrum|localization]];
+
 1. for any $n \in \mathbb{N}$ and every [[normal subgroup]]  $K \hookrightarrow \Gamma \hookrightarrow GL_2(\mathbb{Z}/n\mathbb{Z})$, the induced morphism
 
    $$
@@ -192,15 +203,83 @@ This is ([Hill-Lawson 13, theorem 9.1](#HillLawson13)).
 +-- {: .num_remark}
 ###### Remark
 
-For each $n\in \mathbb{N}$ theorem \ref{TheEquivariantConstruction} gives a genuine $SL_2(\mathbb{Z}/n\mathbb{Z})$-[[equivariant cohomology]] refinement of [[Tmf]]$[\frac{1}{n}]$.
-In total $Tmf(-)$ defines a "levelled" kind of genuine $SL_2(\hat {\mathbb{Z}})$-[[equivariant cohomology]] version of [[Tmf]].
+For each $n\in \mathbb{N}$ theorem \ref{TheEquivariantConstruction} gives a genuine $GL_2(\mathbb{Z}/n\mathbb{Z})$-[[equivariant cohomology]] refinement of [[Tmf]]$[\frac{1}{n}]$ (at least for orbits which are [[cosets]] by [[congruence subgroups]]...).
+In total $Tmf(-)$ defines a "levelled" kind of genuine $GL_2(\hat {\mathbb{Z}})$-[[equivariant cohomology]] version of [[Tmf]].
 
 =--
 
+The following proposition says how the modular equivariance of [[tmf]] as in theorem \ref{} (which, recall, is conjectured to be a precise form of [[F-theory]]'s [[S-duality]]) restricts to the $\mathbb{Z}_2$-equivariance of [[KU]] (hence [[KR-theory]], which is known to be the precise form of [[type II string theory]] [[orientifolds]]):
+
++-- {: .num_prop}
+###### Proposition
+
+The inclusion of the [[nodal cubic|nodal elliptic curve]] with its $\mathbb{Z}/2\mathbb{Z}$-worth of [[automorphisms]] (the [[inversion involution]]) as the [[cusp]] of the [[Deligne-Mumford compactification|compactified]] [[moduli stack of elliptic curves]]
+
+$$
+  \array{
+    \ast &\to& \mathcal{M}_{\overline{ell}}(3,\Gamma_1)
+    \\
+    \downarrow^{\mathrlap{\mathbb{Z}/2\mathbb{Z}}}
+    &&
+    \downarrow^{\mathrlap{SL}}
+    \\
+    \ast//(\mathbb{Z}/2\mathbb{Z})
+    &\hookrightarrow&
+    \mathcal{M}_{\overline{ell}}(3,\Gammma_0)
+  }
+$$
+
+over $Spec(\mathbb{Z}[\tfrac{1}{3}])$ yields under theorem \ref{TheEquivariantConstruction} a diagram of the form
+
+$$
+  \array{
+    ku[\frac{1}{3}] &\leftarrow& tmf_1(3)
+    \\
+    \uparrow && \uparrow
+    \\
+    ko[\frac{1}{3}] &\leftarrow& tmf_0(3)
+  }
+  \,.
+$$
+
+=--
+
+([Hill-Lawson 13, theorem 9.3](#HillLawson13))
+
++-- {: .num_remark}
+###### Remark
+
+The spectrum 
+
+$$
+  Tmf_1(3) \coloneqq Tmf(3,\Gamma_1)
+$$
+
+(first considered in ([Mahowald-Rezk 09](#MahowaldRezk09)), see at _[[congruence subgroup]]_ for the notation) is [[complex oriented cohomology theory|complex oriented]] ([Hill-Lawson 13, p.5](#HillLawson13)) (in contrast to [[Tmf]] $\simeq Tmf(1,1)$). This is one more way in which the inclusion
+
+$$
+  \array{
+    Tmf_1(3)
+    \\
+    \uparrow
+    \\
+    Tmf
+  }
+$$
+
+is analogous to the inclusion of [[KO]] into [[KU]]
+
+=--
+
+
 ## Related concepts
 
-* related but different: [[equivariant elliptic cohomology]]
+* [[real oriented generalized cohomology theory]]
+
+* related but different: _[[equivariant elliptic cohomology]]_
  
+
+
 ## References
 
 * {#MahowaldRezk09} [[Mark Mahowald]] [[Charles Rezk]], _Topological modular forms of level 3_, Pure Appl. Math. Quar. 5 (2009) 853-872 ([pdf](http://www.math.uiuc.edu/~rezk/tmf3-paper-final.pdf))
@@ -218,6 +297,7 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 * {#KrizSati04a} [[Igor Kriz]], [[Hisham Sati]], _M Theory, Type IIA Superstrings, and Elliptic Cohomology_, Adv.Theor.Math.Phys. 8 (2004) 345-395 ([arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
 
 * {#KrizSati04b} [[Igor Kriz]], [[Hisham Sati]], _Type IIB String Theory, S-Duality, and Generalized Cohomology_, Nucl.Phys. B715 (2005) 639-664 ([arXiv:hep-th/0410293](http://arxiv.org/abs/hep-th/0410293))
+
 
 * {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, 	JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
 
