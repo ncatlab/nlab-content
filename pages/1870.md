@@ -174,3 +174,8 @@ Discussion in terms of [[vectorial bundle]]s is in
 
 * [[Kiyonori Gomi]] und Yuji Terashima, _Chern-Weil Construction for Twisted K-Theory_ Communication ins Mathematical Physics, Volume 299, Number 1, 225-254, 
  {#GomiTerashima}
+
+The twisted version of [[differential K-theory]] is discussed in
+
+* [[Alan Carey]], _Differential twisted K-theory and applications_ ESI preprint ([pdf](http://www.esi.ac.at/preprints/esi1945.pdf))
+
