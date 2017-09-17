@@ -25,6 +25,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Ben Webster]]
 * [[Benjamin Antieau]]
 * [[Benoit Jubin]]
+* [[Beren Sanders]]
 * [[beroal]]
 * [[Bertfried Fauser]]
 * [[Bruce Bartlett]]
