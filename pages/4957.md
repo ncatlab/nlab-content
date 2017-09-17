@@ -25,7 +25,7 @@ A **local geometric morphism** $f : E \to S$ between [[topos]]es $E,S$ is
     {\to}}  S
    $$
 
-*  such that a further [[right adjoint]] $f^! : E \to S$ exists 
+*  such that a further [[right adjoint]] $f^! : S \to E$ exists 
 
    $$
     (f^* \dashv f_* \dashv f^!) : 
