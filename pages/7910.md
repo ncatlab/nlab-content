@@ -63,6 +63,11 @@ the morphism modulating a [[prequantum circle n-bundle]], the corresponding quan
 
 The quantomorphism group for a [[symplectic manifold]] may naturally be equipped with the structure of a [[group object]] in [[ILH manifolds]] ([Omori](Omori), [Ratiu-Schmid](RatiuSchmid)), as well as in [[convenient manifolds]] ([Vizman, prop. ](#Vizman)). 
 
+### Group extension
+
+[[!include geometric quantization extensions - table]]
+
+
 ## References
  {#References}
 
@@ -128,3 +133,6 @@ A [[metric]]-structure on quantomorphisms groups is discussed in
 [[!redirects quantomorphism ∞-groups]]
 [[!redirects quantomorphism infinity-group]]
 [[!redirects quantomorphism infinity-groups]]
+
+[[!redirects quantomorphism n-group]]
+[[!redirects quantomorphism n-groups]]
