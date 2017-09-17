@@ -46,3 +46,11 @@ In some forms of constructive mathematics, especially in the Russian school, it 
 [[!redirects uncountable sets]]
 [[!redirects countable family]]
 [[!redirects countable families]]
+
+
+[[!redirects numerable]]
+[[!redirects numerable set]]
+[[!redirects denumerable set]]
+
+[[!redirects numerable sets]]
+[[!redirects denumerable sets]]
