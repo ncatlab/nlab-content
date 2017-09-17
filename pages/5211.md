@@ -1,0 +1,15 @@
+##Idea##
+**Closure algebras** are type one [[modal algebras]], in which  the single operator behaves like a closure operation in a topological space.
+##Temporal algebras##
++--{: .un_defn}
+######Definition######
+A **closure algebra** is a Boolean algebra, $(\mathbb{B}, m)$ which satisfies:
+for all $x$, $x + mmx \leq mx$.
+=--
+### Example###  
+Let $X$ be a topological space and $\mathbb{P}(X)$ the powerset Boolean algebra of the underlying set of $X$.  Set $mT$ to be the closure of the set $T\subseteq X$ in the topology of $X$, then $(\mathbb{P}(X),m)$ is a closure algebra.
+
+I general if $(\mathbb{B},m)$ is a closure algebra and $x\in B$, we say that $x$ is _closed_ if $mx = x$ and _open$ if $lx = x$, where $l$ is the dual operator of $m$.
+
+A closure algebra is sometimes written in terms of $l$ instead of $m$ and is then called an **interoir algebra**.
+
