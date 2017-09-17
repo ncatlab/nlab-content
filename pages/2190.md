@@ -499,4 +499,26 @@ See also [[SVG Sandbox]] and [[Inclusion Sandbox]].
 </svg>
 </svg>
 
+<svg width="480" height="200" xmlns="http://www.w3.org/2000/svg" se:nonce="13138" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <line x1="200" y1="20" x2="200" y2="140" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="199" y1="20" x2="301" y2="20" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="220" y1="20" x2="220" y2="140" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="240" y1="20" x2="240" y2="100" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="260" y1="20" x2="260" y2="80" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="280" y1="20" x2="280" y2="80" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="300" y1="20" x2="300" y2="40" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="200" y1="40" x2="301" y2="40" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="200" y1="60" x2="280" y2="60" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="200" y1="80" x2="281" y2="80" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="200" y1="100" x2="241" y2="100" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="200" y1="120" x2="220" y2="120" stroke="#000000" stroke-width="2" fill="none"/>
+  <line x1="200" y1="140" x2="221" y2="140" stroke="#000000" stroke-width="2" fill="none"/>
+ </g>
+</svg>
+
+
+
 Maybe it works...
