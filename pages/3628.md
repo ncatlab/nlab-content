@@ -9,7 +9,7 @@ _under construction_
 
 #Idea
 
-In [[perturbation theory]], the Dyson series is a perturbative expansion of a [[unitary]] time evolution operator, $U(t,t_{0})$, primarily employed in quantum field theory.  While it is asymptotically divergent, the second-order deviation from experimental data is on the order of $10^{-10}$ paradoxically making it the most empirically accurate prediction in all of physics.  It is a starting point for the use of [[Feynman diagrams]].
+In [[perturbation theory]], the Dyson series is a perturbative expansion of a [[unitary]] time evolution operator, $U(t,t_{0})$, primarily employed in quantum field theory.  While it is asymptotically divergent, the second-order deviation from experimental data is on the order of $10^{-10}$ paradoxically making it the most empirically accurate prediction in all of physics.  It is a starting point for the use of [[Feynman diagram]]s.
 
 #The Dyson series
 
