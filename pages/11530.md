@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Sullivan conjecture_ (due to [[Dennis Sullivan]], now a [[theorem]] due to [[Haynes Miller]]) states that under certain conditions and after suitable [[p-adic integers|p-adic]] [[completion]] the canonical map for a [[G-space]] from its ordinary [[fixed points]] to its [[homotopy fixed points]] is a [[weak homotopy equivalence]].
+
+## References
+
+* Wikipedia, _[Sullivan conjecture](https://en.wikipedia.org/wiki/Sullivan_conjecture)_
+
+## References
+
+* [[Haynes Miller]], _The Sullivan conjecture on maps from classifying spaces_, Annals of Mathematics Second Series, Vol. 120, No. 1 (Jul., 1984), pp. 39-87 ([JSTOR](http://www.jstor.org/stable/2007071))
+
