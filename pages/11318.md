@@ -1,7 +1,44 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-(...)
+A [[modular form]].
+
+## Properties
+
+### Relation to Eisenstein series
+
+Let $G_{2k}$ be the [[Eisenstein series]], then
+
+$$
+  \frac{x}{e^{x/2} - e^{-x/2}}
+  \prod_{n\geq 1}
+  \frac{(1-q^n)^2}{(1-q^n e^x)(1-q^n e^{-x})}
+  =
+  \exp\left(
+    \sum_{k \geq 2} 2 G_k \frac{x^k}{k!}
+  \right)
+$$
+
+([Ando-Hopkins-Rezk 10, prop. 10.9](#AndoHopkinsRezk10))
 
 
 ## Related concepts
@@ -18,3 +55,5 @@ A textbook account includes for instance
 Relation to the [[Witten genus]] is discussed for instance in 
 
 * {#AndoBasterra00} [[Matthew Ando]], Maria Basterra, _The Witten genus and equivariant elliptic cohomology_ ([arXiv:0008192](http://arxiv.org/abs/math/0008192))
+
+* {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
