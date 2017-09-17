@@ -1,7 +1,7 @@
-[[!redirects symmetry protected topological order]]
-[[!redirects SPT order]]
-[[!redirects SPT state]]
-[[!redirects SPT phase]]
+
+# Symmetry-protected trivial order
+* table of contents
+{: toc}
 
 ## Idea
 
@@ -56,3 +56,19 @@ Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entang
 * Topological Phases of Matter: Simons Center, June 10-14, 2013, videos [available](http://scgp.stonybrook.edu/archives/3464)
 * A. Kitaev, _On the classification of short-range entangled states_, [video](http://scgp.stonybrook.edu/archives/7874) (This is about trivial topological order with symmetry, or [[symmetry protected trivial order]])
 
+
+[[!redirects symmetry protected trivial order]]
+[[!redirects symmetry protected trivial orders]]
+[[!redirects symmetry-protected trivial order]]
+[[!redirects symmetry-protected trivial orders]]
+[[!redirects symmetry protected topological order]]
+[[!redirects symmetry protected topological orders]]
+[[!redirects symmetry-protected topological order]]
+[[!redirects symmetry-protected topological orders]]
+[[!redirects SPT order]]
+[[!redirects SPT orders]]
+
+[[!redirects SPT state]]
+[[!redirects SPT states]]
+[[!redirects SPT phase]]
+[[!redirects SPT phases]]
