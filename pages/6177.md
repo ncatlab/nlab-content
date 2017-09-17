@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include monoidal categories - contents]]
 =--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
+=--
 =--
 =--
 
