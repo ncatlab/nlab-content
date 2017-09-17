@@ -106,14 +106,17 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 * [[analytic space]]
 
-## References
+* [[B1-homotopy theory]]
 
-...besides those already mentioned by the cited wikipedia articles:
+## References
+ {#References}
 
 
 Course notes are in 
 
 * [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
+
+* Kiran Sridhara Kedlaya, _Introduction to Rigid Analytic Geometry_ ([web](http://www-math.mit.edu/~kedlaya/18.727/notes.html))
 
 A gentle and modern introduction to [[complex manifolds]] that starts with an extensive exposition of the local theory is this:
 
