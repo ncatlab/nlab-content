@@ -1,9 +1,15 @@
 
 
-* [website](http://www.math.uzh.ch/index.php?assistenten&key1=3859&no_cache=1)
+* [website](http://user.math.uzh.ch/ayoub/)
 
 # related $n$Lab entries #
+
+* [[motive]]
 
 * [[model structure on homotopical presheaves]]
 
 category: people
+
+[[!redirects Yoseph Ayoub]]
+[[!redirects Josef Ayoub]]
+[[!redirects Ayoub]]
