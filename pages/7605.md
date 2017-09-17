@@ -58,10 +58,13 @@ Similar conisderations (using the term "typos" for something similar to a type-t
 
 * [[André Joyal]], _What is categorical type theory_, various talks in 2013, ([pdf](http://www.math.uwaterloo.ca/~asl2013/Slides/Joyal.pdf))
 
+
 [[!redirects presentation of homotopy type theory]]
 [[!redirects categorical semantics of homotopy type theory]]
+
 [[!redirects type-theoretic model category]]
 [[!redirects type-theoretic model categories]]
+[[!redirects type-theoretic model cateory]]
 
 [[!redirects type-theoretic fibration category]]
 [[!redirects type-theoretic fibration categories]]
