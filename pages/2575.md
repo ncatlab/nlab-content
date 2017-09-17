@@ -259,7 +259,8 @@ For more see the references [below](http://ncatlab.org/nlab/show/Chern-Simons+th
   {#GeometricQuantHigher}
 
 We discuss aspects of Chern-Simons theory in 
-[[higher geometric quantization]].
+[[extended prequantum field theory]]. For more on this
+see at _[[extended prequantum Chern-Simons theory]]_.
 
 Let $G$ be a [[simply connected topological space|simply connected]] [[Lie group]], such as
 the [[spin group]].
@@ -338,7 +339,7 @@ The result is a [[circle n-bundle with connection|circle (3-k)-bundle with conne
 
 | [[codimension]] $k= $ |  |  [[prequantum circle n-bundle|prequantum circle (3-k)-bundle]]
 |--|--|--|
-| 3 | [[differential string structure|differentially refined]] [[first fractional Pontryagin class]] | $\mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$ |
+| 3 | [[differential string structure|differentially refined]] [[first fractional Pontryagin class]] ([[level (Chern-Simons theory)]]) | $\mathbf{c} : \mathbf{B}G_{conn} \to \mathbf{B}^3 U(1)_{conn}$ |
 | 2 | [[Wess-Zumino-Witten model]] background [[B-field]] | $G \stackrel{\bar \nabla_{can}}{\to} [S^1, \mathbf{B}G_{conn}] \stackrel{[S^1, \mathbf{c}_{conn}]}{\to} [S^1, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{S^2}(-))}{\to} \mathbf{B}^2 U(1)_{conn} $ |
 | 1 | ordinary [[prequantum circle bundle]] of Chern-Simons theory | $[\Sigma_2, \flat\mathbf{B}G] \to [\Sigma_2, \mathbf{B}G_{conn}] \stackrel{[\Sigma_2, \mathbf{c}_{conn}]}{\to} [\Sigma_2, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_2}(-)}{\to}  \mathbf{B} U(1)_{conn}$ |
 | 0 | [[action functional]] of Chern-Simons theory | $[\Sigma_3, \mathbf{B}G_{conn}] \stackrel{[\Sigma_3, \mathbf{c}_{conn}]}{\to} [\Sigma_3, \mathbf{B}^3 U(1)_{conn}] \stackrel{\exp(2 \pi i \int_{\Sigma_3}(-))}{\to} U(1)$ |
@@ -497,6 +498,8 @@ Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?
 ## Related concepts
 
 * [[level (Chern-Simons theory)]]
+
+* [[extended prequantum Chern-Simons theory]]
 
 * [[schreiber:∞-Chern-Simons theory]]
 
