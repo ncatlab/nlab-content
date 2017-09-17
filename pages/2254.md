@@ -71,12 +71,17 @@ For instance ([Lurie 10, lecture 12, corollary 3](#Lurie10)).
 
 * [[Artin-Mazur formal group]]
 
+* [[Honda formal group]]
 
 ## Related concepts
 
 * [[height of a formal group law]]
 
 * [[p-typical formal group law]]
+
+* [[Morava stabilizer group]]
+
+* [[chromatic homotopy theory]]
 
 * [[Lie algebra]], [[Lie group]]
 
