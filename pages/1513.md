@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -215,7 +214,7 @@ The general theory of biseparated presheaves and Grothendieck quasitoposes is in
 A concrete description of separafication appears on page 43 of
 
 * [[Angelo Vistoli]], _Notes on Grothendieck topologies,
-fibered categories and descent theory_ ([pdf](http://homepage.sns.it/vistoli/descent.pdf))
+fibered categories and descent theory_ ([pdf](http://homepage.sns.it/vistoli/descent.pdf#Page=43))
 
 
 [[!redirects monopresheaf]]
