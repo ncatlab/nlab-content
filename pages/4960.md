@@ -881,6 +881,11 @@ The left and right adjoint to the global section functor as a means to identify 
 
 on [page 14](http://www.tac.mta.ca/tac/reprints/articles/8/tr8.pdf#page=14).
 
+An analysis of the interdependency of the axioms on a cohesive topos is in
+
+* [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+{#Johnstone}
+
 [[!redirects cohesive topos]]
 [[!redirects cohesive toposes]]
 [[!redirects cohesive topoi]]
