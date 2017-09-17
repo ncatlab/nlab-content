@@ -137,7 +137,7 @@ So [normal morphisms](#NormalMorphismOfInfinityGroups) of [[0-truncated]] [[disc
 
 Normal morphisms of [[discrete ∞-groups]] are discussed in 
 
-* Matan Prezma, _Homotopy Normal Maps_ (2010) ([arXiv:1011.4708](http://arxiv.org/abs/1011.4708))
+* [[Matan Prezma]], _Homotopy Normal Maps_ (2010) ([arXiv:1011.4708](http://arxiv.org/abs/1011.4708))
  {#Prezma}
 
 The special case of this for morphisms of 1-groups is discussed in 
