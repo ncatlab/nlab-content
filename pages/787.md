@@ -43,7 +43,7 @@ $$
 
 ## History
 
-The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was considered by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
+The concept of Courant algebroids was originally introduced by [[Irene Dorfman]] and [[Ted Courant]] to study [[geometric quantization]] in the presence of constraints. Later it was considered by Liu, [[Alan Weinstein]] and [[Ping Xu]] in the study of [[double Lie algebroids]].
 
 In these parts of the literature Courant algebroids are considered in the form of [[Lie algebroid]]s with relaxed axioms on the bracket. Even of this type there are two different definitions:
 
