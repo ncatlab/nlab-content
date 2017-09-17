@@ -32,9 +32,8 @@ $$
   \,.
 $$
 
-This was conjectured by [[Maxim Kontsevich]] in 1994 and is now pretty much established. Kontsevich introduced the categorical variant in 1994 under the name **homological mirror symmetry**  and used the [[A-infinity-category|A∞-categories]] as a model for [[stable (∞,1)-categories]] in his work. 
+This categorical formulation was introduced by [[Maxim Kontsevich]] in 1994 under the name **homological mirror symmetry**. The equivalence of the categorical expression of mirror symmetry to the SCFT formulation has been proven by [[Maxim Kontsevich]] and independently by [[Kevin Costello]], who showed how the datum of a topological conformal field theory is equivalent to the datum of a [[Calabi-Yau category|Calabi-Yau A-∞-category]](see [[TCFT]]).
 
-The expression of mirror symmetry via $(\infty,1)$-categories is equivalent to the SCFT formulation according to the theorems of [[Maxim Kontsevich]] and independently by [[Kevin Costello]] (see [[TCFT]]) which reconstruct the quantum field theory from a [[Calabi-Yau category|Calabi-Yau A-infinity-category]]. 
 
 The mirror symmetry conjecture roughly claims that every Calabi-Yau 3-fold has a mirror. In fact one considers (mirror symmetry for) degenerating families for Calabi-Yau 3-folds in large volume limit (what can be expressed precisely via the Gromov-Hausdorff metric). The appropriate definition of (an appropriate version of) the [[Fukaya category]] of a symplectic manifold is difficult to achieve in desired generality. 
 Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gromov-Witten invariants (building up the [[quantum cohomology]]). Mirror symmetry is related to the [[T-duality]] on each fiber of an associated Lagrangian fibration (Strominger-Yau-Zaslow conjecture).  
