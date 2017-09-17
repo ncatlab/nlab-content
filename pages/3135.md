@@ -29,6 +29,7 @@ The unitary groups are naturally [[topological group]]s and [[Lie group]]s (infi
 
 +-- {: .num_prop}
 ###### Proposition
+
 For $\mathcal{H}$ a Hilbert space, which can be either finite or infinite dimensional, the unitary group $U(\mathcal{H})$ and the [[general linear group]] $GL(\mathcal{H})$, regarded as [[topological group]]s, have the same [[homotopy type]]. 
 
 More specifically, $U(\mathcal{H})$ is a [[maximal compact subgroup]] of $GL(\mathcal{H})$.
@@ -53,8 +54,8 @@ For a separable infinite-dimensional complex [[Hilbert space]] $\mathcal{H}$, th
 
 See also [[Kuiper's theorem]].
 
-+-- {: .num_note}
-###### Note
++-- {: .num_remark}
+###### Remark
 
 This in contrast to the finite dimensional situation. For $n \in \mathbb{N}$ ($n \ge 1$), $U(n)$ is not contractible.
 
@@ -76,6 +77,24 @@ $$
 
 or sometimes $B U(\infty)$. Notice that this is very different from $B U(\mathcal{H})$ for $\mathcal{H}$ an infinite-dimensional Hilbert space. See [[topological K-theory]] for more on this.
 
++-- {: .num_prop}
+###### Proposition
+
+For all $n \in \mathbb{N}$, the [[unitary group]] $U(n)$ is a split [[group extension]] of the [[circle group]] $U(1)$ by the [[special unitary group]] $SU(n)$
+
+$$
+  SU(n) \to U(n) \to U(1)
+  \,.
+$$
+
+Hence it is a [[semidirect product group]]
+
+$$
+  U(n) \simeq SU(n) \rtimes U(1)
+  \,.
+$$
+
+=--
 
 ## Examples
 
