@@ -21,6 +21,14 @@ as a ([[prequantum field theory|pre]]-)[[quantum field theory|quantum]] [[field 
 
 If the [[field theory]] is thought of as a [[sigma-model]] that describes the [[quantum mechanics]] of a [[particle]] or [[string]] or [[membrane]], etc., then the boundary condition is also called a _[[brane]]_ for that [[sigma-model]].
 
+## Definition
+
+See at 
+
+* _[Cobordism theorem -- For cobordisms with singuarities (boundaries/branes and defects/domain walls)](cobordism+hypothesis#ForCobordismsWithSingularities)_ 
+
+* _[[QFT with defects]]_.
+
 ## Related concepts
 
 * [[holographic principle]]
