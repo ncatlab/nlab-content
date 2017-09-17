@@ -1,0 +1,20 @@
+
+(...)
+
+
+## References
+
+(...)
+
+Rational functions as functions on the Ran space in the sense of functions on the complement of finitely many points as these range over all points, is discussed in
+
+* {#Gaitsgory11} [[Dennis Gaitsgory]], _Contractibility of the space of rational maps_ ([arXiv:1108.1741](http://arxiv.org/abs/1108.1741))
+
+
+(...)
+
+
+[[!redirects Ran spaces]]
+
+[[!redirects ran space]]
+[[!redirects ran spaces]]
