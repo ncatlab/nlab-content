@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -263,7 +262,7 @@ For a free introductory text on $n$-categories that's <i>full of pictures</i>, t
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
-A grand pciture of the theory of higher categories is drawn in 
+A grand picture of the theory of higher categories is drawn in 
 
 * [[Carlos Simpson]], _[[Homotopy Theory of Higher Categories]]_ ([pdf](http://hal.archives-ouvertes.fr/docs/00/44/98/26/PDF/main.pdf))
 
