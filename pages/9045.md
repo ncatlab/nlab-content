@@ -205,6 +205,8 @@ When the [[complex manifold]] $X$ happens to be a [[Kähler manifold]] then the 
 
 * [[Hodge symmetry]]
 
+* [[Hodge cycle]]
+
 * [[Hodge cohomology]]
 
 * [[intermediate Jacobian]]
