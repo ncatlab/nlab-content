@@ -25,9 +25,9 @@
 
 A _cohomology spectral sequence_ is a sequence of certain [[cochain complex]]es such that each is in each entry the [[cochain cohomology]] of the previous one.
 
-Spectral sequences are used as computational tools in [[homological algebra]] and more generally in [[homotopy theory]].  Notably they are used to compute composition of [[derived functor]]s.
+Spectral sequences are used as computational tools in [[homological algebra]] and more generally in [[homotopy theory]].  Notably they are used to compute composition of [[derived functor]]s. 
 
-Traditionally this is considered on [[model structure on chain complexes|model catgories of chain complexes]] in some [[abelian category]] for which fibrant replacement is given by injective resolution of [[chain complex]]es.
+Traditionally this is considered on [[model structure on chain complexes|model categories of chain complexes]] in some [[abelian category]] for which fibrant replacement is given by injective resolution of [[chain complex]]es.
 But more generally there is a notion of [[nonabelian cohomology|nonabelian]]/unstable spectral sequences, called **homotopy spectral sequences**.
 
 
@@ -121,7 +121,7 @@ Therefore usually spectral sequences are required to converge in each degree, or
 ###### Definition
 **(collaps)**
 
-A spectral sequence **collases** at $r$ if in $E_r^{p,q}$ only a single row or a single column in non-vanishing.
+A spectral sequence **collapses** at $r$ if in $E_r^{p,q}$ only a single row or a single column in non-vanishing.
 
 =--
 
@@ -160,7 +160,7 @@ $$
 +-- {: .un_lemma}
 ###### Observation
 
-If the $r$th page is concentrated in the first qudrant, then so the $(r+)st$ page. So if the first one is, then all are.
+If the $r$th page is concentrated in the first quadrant, then so the $(r+1)st$ page. So if the first one is, then all are.
 
 =--
 
@@ -207,7 +207,7 @@ and we have
 
 #### Spectral sequence of a double complex
 
-A [[double complex]] is naturall filtered in two ways: by columns and by rows. By the above this gives two different spectral sequences associated with it.
+A [[double complex]] is naturally filtered in two ways: by columns and by rows. By the above this gives two different spectral sequences associated with it.
 
 (...)
 
@@ -244,7 +244,7 @@ The _Leray spectral sequence_ is the special case of the Grothendieck spectral s
 +-- {: .un_theorem}
 ###### Theorem
 
-Let $X, Y$ be suitable [[site]]s and $f : X \to Y$ be a morphism of sites. () Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bulle(Sh(Y,Ab))$ be the [[model structure on chain complexes|odel categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
+Let $X, Y$ be suitable [[site]]s and $f : X \to Y$ be a morphism of sites. () Let $\mathcal{C} = Ch_\bullet(Sh(X,Ab))$ and $\mathcal{D} = Ch_\bulle(Sh(Y,Ab))$ be the [[model structure on chain complexes|model categories of complexes of sheaves of abelian groups]]. The [[direct image]] $f_*$ and [[global section]] functor $\Gamma_Y$ compose to $\Gamma_X$:
 
 $$
   \Gamma_X : \mathcal{C} \stackrel{f_*}{\to} \mathcal{D} \stackrel{\Gamma_Y}{\to} Ch_\bullet(Ab)
