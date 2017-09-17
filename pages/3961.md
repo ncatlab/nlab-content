@@ -21,7 +21,7 @@ It is an old observation that xyz. One notices that from the [[nPOV]] this is ju
 
 ## Abstract
 
-A uvw is effectively a uv together with a w. Its main property is encoded in Somebody's Theorem which says that it consists of precisely three letters. The archetypical example of a uvw is $\mu \nu \omega$.
+A uvw is effectively a uv together with a w. Its main property is encoded in Somebody's Theorem which says that it consists of precisely three letters. The archetypical example of a uvw is $\mu \nu \omega$, details will be explained in the [special examples paragraph](/nlab/show/template+page#Specific_examples).
 
 
 ## Definition
@@ -144,7 +144,7 @@ _[[Toby Bartels|Second person]]_:  No, you're thinking of Lawvere.  When I find 
 =--
 
 
-### Specific examples
+### Specific examples {#Specific_examples}
 
 For ease of reference, we will number the examples.
 
