@@ -65,7 +65,7 @@ It is sufficient to discuss properties of Chern-Simons forms for $\mathfrak{g}$-
 
 Let $U$ be a [[smooth manifold]]. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Definition
 
 A **smooth path** of $\mathfrak{g}$-valued 1-forms on $U$ is a smooth 1-form $\hat A \in \Omega^1(U\times [0,1],\mathfrak{g})$ 
@@ -85,7 +85,7 @@ picks the copy of $U$ at parameter $t$.
 So a smooth path is a smooth 1-form on the cylinder $U \times [0,1]$ and it is _pure shift_ if it has no "leg" along the $[0,1]$-direction. We will see that $\iota_{\partial_t} \hat A$ encodes infinitesimal gauge transformations, while $\partial_t \hat A$ is the change by infinitesimal shifts minus infinitesimal gauge transformations of the connection.
 
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition/Observation
 
 Let $P$ be an [[invariant polynomial]] on $\mathfrak{g}$ of arity $n$.
@@ -263,7 +263,7 @@ $$
   ((\partial_t A)_t + d_U \lambda(t) + [\lambda,A_t]) \wedge d t
 $$
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The Chern-Simons form $\int_{[0,1]} P(F_{\hat A} \wedge \cdots \wedge F_{\hat A})$ defined with respect to any gauged lift of a pure shift path of connections differs from that of the pure shift path by an exact term.
@@ -468,7 +468,7 @@ The following proposition says this in a more precise way for ordinary Chern-Sim
 
 We now show how the [traditional definition](#PathsOfConnections) of Chern-Simons forms is reproduced by the [general abstract](#HigherOrderChernSimonsForms) mechanism.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 **(ordinary Chern-Simons form)**
 
