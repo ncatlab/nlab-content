@@ -9,13 +9,11 @@
 =--
 =--
 
-* [[Pontryagin class]]
+#Contents#
+* table of contents
+{:toc}
 
-* **Chern class**
-
-* [[Chern character]]
-
-***
+## Idea
 
 The _Chern classes_ are the [[integral cohomology|integral]] [[characteristic class]]es 
 
@@ -30,5 +28,14 @@ Accordingly these are characteristic classes of $U$-[[principal bundle]]s.
 The first Chern class is the unique characteristic class of [[circle group]]-principal bundles.
 
 The analogous classes for the [[orthogonal group]] are the [[Pontryagin class]]es.
+
+## Related concepts
+
+* [[Pontryagin class]]
+
+* **Chern class**
+
+* [[Chern character]]
+
 
 [[!redirects Chern classes]]
