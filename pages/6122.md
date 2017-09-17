@@ -1,4 +1,8 @@
 
 * [website](http://www.cl.cam.ac.uk/~mpf23/)
 
+## Some writings
+
+* [pdf](http://www.cl.cam.ac.uk/~mpf23/papers/Types/diff.pdf)
+
 category: people
