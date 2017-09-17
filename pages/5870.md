@@ -1,13 +1,15 @@
 
 **[[group theory]]**
 
-* [[group]]
+* [[group]], [[∞-group]]
 * [[group object]], [[group object in an (∞,1)-category]]
-* [[action|group action]]
+* [[abelian group]], [[spectrum]]
+* [[group action]], [[∞-action]]
+* [[representation]], [[∞-representation]]
+* [[progroup]]
 * [[homogeneous space]]
-* [[holomorph]]
 
-## Classical groups
+### Classical groups
 
 * [[general linear group]]
 
@@ -21,35 +23,49 @@
 
 * [[symplectic group]]  
 
-## Finite groups
+### Finite groups
 
 * [[finite group]]
 
+* [[symmetric group]], [[cyclic group]],  [[braid group]]
+
 * [[classification of finite simple groups]]
 
-* [[Monster group]]
+* [[sporadic finite simple groups]]
 
-## Group schemes
+  * [[Monster group]], [[Mathieu group]]
+
+### Group schemes
 
 * [[algebraic group]]
 * [[abelian variety]]
 
-## Topological groups
+### Topological groups
 
 * [[topological group]]
 
-## Lie groups
+* [[compact topological group]], [[locally compact topological group]]
+
+* [[maximal compact subgroup]]
+
+* [[string group]]
+
+### Lie groups
 
 * [[Lie group]]
 
-## Super-Lie groups
+* [[compact Lie group]]
+
+* [[Kac-Moody group]]
+
+### Super-Lie groups
 
 * [[super Lie group]]
 
 * [[super Euclidean group]]
 
 
-## Higher groups
+### Higher groups
 
 * [[2-group]]
   
@@ -67,9 +83,17 @@
 
   * [[spectrum]]
 
-* [[circle n-group]], [[string group]], [[string 2-group]], [[fivebrane Lie 6-group]]
+* [[circle n-group]], [[string 2-group]], [[fivebrane Lie 6-group]]
 
-## Related concepts
+### Cohomology and Extensions
+
+* [[group cohomology]]
+
+* [[group extension]],
+
+* [[∞-group extension]], [[Ext-group]]
+
+### Related concepts
 
 * [[quantum group]] 
 
