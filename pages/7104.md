@@ -36,7 +36,7 @@ Suppose given a metalanguage of homotopical higher (and even multi-) categories,
 
 +-- {: .un_defn}
 ###### Definition
-A __doctrine__ $D$ is a higher category given with _generators and relations_. A theory of type $D$ is an object $T$ of $D$. A model for a theory of type $D$ in another one is a morphism
+A __doctrine__ $D$ is an $(n+1)$-category whose objects are $n$-categories equipped with some specified finitary structure.  A theory of type $D$ is an object $T$ of $D$. A model for a theory of type $D$ in another one is a morphism
 $$M\colon T_1 \to T_2.$$
 =--
 
