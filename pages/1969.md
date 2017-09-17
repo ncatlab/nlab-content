@@ -45,7 +45,7 @@ For $(C,W \subset Mor(C))$ a [[category with weak equivalences]], Dwyer-Kan [[si
 
 For $X,Y \in Obj(C)$ and for $n \in \mathbb{N}$ define a category $w Mor_C^n(X,Y)$ 
 
-* whose objects are zig-zags of morphisms in $C$ of length $n$
+* whose objects are [[zig-zag]]s of morphisms in $C$ of length $n$
 
   $$
     X = X_0 \leftarrow X_1 \to X_2 \leftarrow \cdots \to X_{n-1} \leftarrow X_n = Y
