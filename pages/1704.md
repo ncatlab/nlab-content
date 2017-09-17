@@ -702,17 +702,17 @@ A principal $\infty$-bundle over a [[0-connected]] object / [[delooping]] object
 
 ## Related concepts
 
-* [[principal bundle]] / [[torsor]] / [[associated bundle]]
+* [[principal bundle]] / [[torsor]] / [[associated bundle]] / [[twisted bundle]]
 
 * [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
 
 * [[principal 3-bundle]] / [[2-gerbe]] / [[bundle 2-gerbe]]
 
-* **principal $\infty$-bundle** / [[associated ∞-bundle]] / [[∞-gerbe]]
+* **principal $\infty$-bundle** / [[associated ∞-bundle]] / [[∞-gerbe]], [[twisted ∞-bundle]]
  
 * [[vector bundle]]
 
-* [[(∞,1)-vector bundle]] / **$(\infty,n)$-vector bundle**
+* [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
 ## References
 
