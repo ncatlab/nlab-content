@@ -1,0 +1,4 @@
+
+* Wikipedia, _[Fock space](http://en.wikipedia.org/wiki/Fock_space)_
+
+[[!redirects Fock spaces]]
