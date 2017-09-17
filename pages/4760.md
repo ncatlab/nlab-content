@@ -19,12 +19,19 @@
 
 ## Idea
 
-The (unitary) _Geometric nerve_ is the [[nerve]] operation on [[bicategories]]. It is a [[functor]] from [[BiCat]] to [[sSet]]. This notion is due to R. Steet. 
+The (unitary) _geometric nerve_ is a natural  [[nerve]] operation on [[bicategories]]. It is a [[functor]] from [[BiCat]] to [[sSet]]. This is also sometimes called the _Duskin nerbve_. The  notion is implicit in work by R. Street (1987). The direct approach was used by Duskin in work at about the same time, as explained in both articles. (Duskin's article directly on the idea was published in 2002.) 
+
+The construction, thus, yields a functor:
 
 $$
   N : BiCat \to sSet
   \,.
 $$
+
+extending the ordinary nerve constrution on the category of small categories. 
+
+Special cases of the construction relate to earlier constructions relating to the [[homotopy coherent nerve]], see below for more detail.
+
 
 ## Definition
 
@@ -37,7 +44,7 @@ $$
   \,.
 $$
 
-The bicategorical nerve is the nerve induced from that. So far $C$ a bicategory we have
+The bicategorical nerve is the nerve induced from that. So for $C$ a bicategory we have
 
 $$
   N(C) : [k] \mapsto Hom_{NLax}(\Delta[k], C)
