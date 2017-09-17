@@ -27,11 +27,22 @@ Higher geometric quantization is meant to complete this table:
 | [[symplectic geometry]] | --[[geometric quantization]]$\to$ | [[quantum field theory]] |
 | [[higher symplectic geometry]] | --higher geometric quantization$\to$ | [[extended quantum field theory]] | 
 
-The basic ingredients are indicated in the following table
+Being a concept in [[higher geometry]], higher geometric quantization is formulated naturally in [[(∞,1)-topos theory]]. More precisely, since it involves not just _[[cohomology]]_ but _[[differential cohomology]]_, it is formulated in _[[cohesive (∞,1)-topos|cohesive (∞,1)-topos theory]]_ ([[cohesive homotopy type theory]]).
 
-| [[prequantum circle n-bundle]] | [[quantomorphism group]] | [[prequantum space of states]] |
+With the notation as used there, the basic constructions that higher geometric quantization is concerned with are indicated in the following table. All of them have also a fundamental interpretation in [[twisted cohomology|twisted]] [[cohomology]] (independent of any interpretation in the context of [[quantization]]) this is indicated in the right column of the table:
+
+
+
+| higher [[geometric quantization]]  | [[cohesive homotopy type theory]] |[[twisted cohomology]] | 
 |--|--|--|
-| $X \stackrel{\mathbf{c}_{conn}}{\to} \mathbf{B}^n \mathbb{G}_{conn}$ | $\mathbf{Aut}_{\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | $\mathbf{\Gamma}_X(E) = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ \mathbf{B}^n \mathb{G} } \right\} $ |
+| [[n-plectic ∞-groupoid]]  | $X \stackrel{\omega}{\to} \flat_{dR} \mathbf{B}^{n+1}\mathbb{G}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[de Rham cohomology]] |
+| [[prequantum circle n-bundle]] | $X \stackrel{\mathbf{c}_{conn}}{\to} \mathbf{B}^n \mathbb{G}_{conn}$ | [[twisted cohomology|twisting]] [[cocycle]] in [[ordinary differential cohomology|differential cohomology]] |
+| [[quantomorphism group]] | $\mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | twist [[automorphism ∞-group]] |
+| universal [[associated ∞-bundle]] / [[local coefficient bundle]] | $\array{ V &\to& V//\mathbf{B}^{n-1}\mathbb{G} \\ && \downarrow \\ && \mathbf{B}^n \mathbb{G} }$ | [[local coefficient bundle]] |
+|[[prequantum space of states]] | $\mathbf{\Gamma}_X(E) := [\mathbf{c},\mathbf{p}]_{/\mathbf{B}^n \mathbb{conn}} = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ && \mathbf{B}^n \mathbb{G} } \right\} $ | [[cocycles]] in $[\mathbf{c}]$-[[twisted cohomology|twisted V-cohomology]] |
+| [[prequantum operator]] | $\widehat{(-)} : \mathbf{\Gamma}_X(E) \times \mathbf{Aut}_{/\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) \to \mathbf{\Gamma}_X(E)$ | [[∞-action]] of twist automorphisms on twisted cocycles |
+
+
 
 ## Examples
 
@@ -43,6 +54,6 @@ Higher geometric quantization over [[smooth manifolds]] is discussed in
 
 * [[Chris Rogers]], _Higher geometric quantization_, at _Higher Structures 2011_ ([pdf](http://www.crcg.de/wiki/images/2/21/CR_Higherstruct_2011.pdf))
 
-Higher geometric quantization over [[smooth ∞-groupoids]] is discussed in
+Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-groupoids]] is discussed in
 
 * _[[schreiber:infinity-geometric prequantization]]_
