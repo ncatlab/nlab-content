@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Contents {: .clickToReveal}
@@ -99,10 +100,18 @@ Notice that **you don't need to know any MathML**. Only your browser does. You w
 
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
-## Reporting Issues
- {#Issues}
 
-Please report technical issues with the nLab at the [nForum](http://nforum.mathforge.org).  If you notice strange behaviour then others may have already reported it and there may be a temporary fix.
+## Technical issues
+ {#BugsAndHacks}
+
+Please report technical issues with the nLab at the [nForum](http://nforum.mathforge.org).  If you notice strange behaviour, then others may have already reported it and there may be a temporary fix.
+
+Currently known issues (last updated 2014-05-21) include:
+
+*  If the lab hangs or is very slow, report it to the '[Lab down](http://nforum.mathforge.org/discussion/51/5/lab-down/)' thread in the Forum so that an administrator will notice this and restart it.
+
+*  An error with a funny message about smoke (HTTP 500) will often go away if you simply reload the page.  But if it remains, then try deleting your cookies for ncatlab.org or www.ncatlab.org.  (Editors: this cookie has your username in it, so you\'ll have to type that in again when you next edit a page.)
+
 
 ## Steering Committee 
  {#SteeringCommitte}
