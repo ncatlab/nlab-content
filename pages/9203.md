@@ -78,7 +78,7 @@ Analogous reasoning and termionology applies to [[higher dimensional Chern-Simon
 
 For traditional accounts see at  _[Chern-Simons theory - References](#Chern-Simons+theory)_.
 
-Motivational discussion is in section _[Physics in Higher Geometry: Motivation and Survey](geometry%20of%20physics#PhysicsMotivationAndSurvey)_ at 
+Introductory discussion is in the section _[Physics in Higher Geometry: Motivation and Survey](geometry%20of%20physics#PhysicsMotivationAndSurvey)_ at 
 
 * _[[geometry of physics]]_.
 
