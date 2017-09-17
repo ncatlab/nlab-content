@@ -9,7 +9,7 @@ A [[2-category]] is a good context for doing a lot of category theory (including
 
 However, it would also be nice if the extra data in a proarrow equipment were somehow determined by the 2-category we started with.  This is especially so when talking about functors between equipments, since functors between 2-categories are often easier to construct.  It turns out that in many cases, including the most common ones, this is the case: we can construct the proarrows in terms of the underlying 2-category.  This was originally realized by Ross Street.
 
-The idea is to identify a profunctor with its [[collage]], aka its [[cograph of a profunctor|cograph]], which is a special sort of [[cospan]] in $Cat$ (or $V Cat$, or whatever other 2-category one wants to start with).  One then simply has to characterize, in 2-categorical terms, which cospans are collages, and how to do things like compose them.  It turns out that in most cases the characterization is precisely that they are the **two-sided codiscrete cofibations** --- i.e. the [[two-sided fibration|two-sided discrete fibrations]] in the [[opposite 2-category]].
+The idea is to identify a profunctor with its [[collage]], aka its [[cograph of a profunctor|cograph]], which is a special sort of [[cospan]] in $Cat$ (or $V Cat$, or whatever other 2-category one wants to start with).  One then simply has to characterize, in 2-categorical terms, which cospans are collages, and how to do things like compose them.  It turns out that in most cases the characterization is precisely that they are the **two-sided codiscrete cofibrations** --- i.e. the [[two-sided fibration|two-sided discrete fibrations]] in the [[opposite 2-category]].
 
 
 ## Definition
