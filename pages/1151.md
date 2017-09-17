@@ -36,7 +36,7 @@ $$ H^n(X;A) \coloneqq H^0(X;A_n). $$
 
 Every object $A$ has a unique $n$-fold delooping when $n$ is a negative [[integer]], namely its $(-n)$-fold [[loop object]] $\Omega^{-n}(A)$.  If $A$ has an $n$-fold delooping for positive $n$, then it must be an $n$-[[k-monoidal infinity-group|monoidal group]] --- and conversely, any $n$-monoidal group has a canonical (but not unique) $n$-fold delooping $\mathbf{B}^n A$.  Finally, $n$ could be more general than an integer; see below.
 
-For suitable choices of $\mathbf{H}$, $A$, and $n$, this general definition encompasses (1) the traditional algebraic-topology taught in [[algebraic topology]], (2) [[generalized (Eilenberg-Steenrod) cohomology]], (3) [[non-abelian cohomology]], (4) [[twisted cohomology]], (5) [[group cohomology]], (6) [[sheaf cohomology]], (7) sheaf [[hypercohomology]], and (8) [[equivariant cohomology]].  See below for explanations and discussion.
+For suitable choices of $\mathbf{H}$, $A$, and $n$, this general definition encompasses (1) the traditional (e.g. [[singular cohomology|singular]]) cohomology of [[topological spaces]] taught in [[algebraic topology]], (2) [[generalized (Eilenberg-Steenrod) cohomology]], (3) [[non-abelian cohomology]], (4) [[twisted cohomology]], (5) [[group cohomology]], (6) [[sheaf cohomology]], (7) sheaf [[hypercohomology]], and (8) [[equivariant cohomology]].  See below for explanations and discussion.
 
 Furthermore, this general notion of cohomology also accurately captures general classification and extension problems ([NSS](#NSS)), such as (1) [[principal ∞-bundles]], (2) [[group extensions]], (3) [[fiber ∞-bundles]], and (4) [[twisted ∞-bundles]].
 
@@ -386,6 +386,7 @@ One could argue that a more suitable term for cohomology is [[cohomotopy]]. Unfo
 ## Examples {#Examples}
 
 ### Long list of examples
+ {#LongListOfExamples}
 
 Classes of special cases of cohomologies with their own entries include
 
