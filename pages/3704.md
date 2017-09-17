@@ -83,11 +83,17 @@ $$
 The behaviour of [[quantum channel]]s and _completely positive maps_ has an elegant categorical description in terms of $\dagger$-compact categories. See ([Selinger](#SelingerPositive) and [Coecke](#CoeckePositive)).
 
 
+## Quantum logic
+
+[[symmetric monoidal categories|Symmetric monoidal categories]] such as [[†-compact categories]] have as [[internal logic]] a fragment of [[linear logic]] and as [[type theory]] a flavor of [[linear type theory]]. In this fashion everything that can be formally said about quantum mechanics in terms of [[†-compact categories]] has an equivalent expression in [[formal logic]]/[[type theory]]. It has been argued ([Abramsky-Duncan 05](#AbramskyDuncan05), [Duncan 06](#Duncan06)) that this [[linear logic]]/[[linear type theory]] of quantum mechanics is the correct formalization of "[[quantum logic]]". An exposition of this point of view is in ([Baez-Stay 09](#BaezStay09)).
+
+
 ## Related concepts
 
 * [[order-theoretic structure in quantum mechanics]]
 
 * [[linear logic]], [[linear type theory]], [[quantum logic]], [[quantum computing]]
+
 
 ## References
  {#References}
@@ -137,8 +143,20 @@ The role of [[complex numbers]] in general $\dagger$-compact categories is discu
 * [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 {#SelingerPositive}
 
-
 * [[Bob Coecke]], _Complete positivity without compactness_ ([pdf](http://www.comlab.ox.ac.uk/files/666/RR-07-05.pdf)) 
 {#CoeckePositive}
+
+The relation to [[quantum logic]]/[[linear logic]] has been expolred in 
+
+* [[Samson Abramsky]], [[Ross Duncan]], _A Categorical Quantum Logic_ ([arXiv:quant-ph/0512114](http://arxiv.org/abs/quant-ph/0512114))
+ {#AbramskyDuncan05}
+
+* [[Ross Duncan]], _Types for quantum mechanics_, 2006 ([pdf](http://homepages.ulb.ac.be/~rduncan/papers/rduncan-thesis.pdf), [slides](http://www.cs.ox.ac.uk/people/ross.duncan/talks/2005/pps-22-05-2005.pdf))
+ {#Duncan06}
+
+An exposition along these lines is in
+
+* [[John Baez]], [[Mike Stay]], _Physics, topology, logic and computation: a rosetta stone_, [arxiv/0903.0340](http://arxiv.org/abs/0903.0340); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
+ {#BaezStay09}
 
 [[!redirects quantum mechanics in terms of †-compact categories]]
