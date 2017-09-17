@@ -22,7 +22,14 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X
 
 
 
-## Properties
+## Properties {#Properties}
+
+Every [[paracompact space|paracompact]] [[manifold]] should admit a good open cover.
+
+Because every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a geodesic in the neighborhood; see for example the remark after lemma 10.3 in Milnor's _Morse Theory_ , page 59). It is immediate that a nonempty intersection of two geodesically convex regions is also geodesically convex, hence contractible. 
+
+
+### $n$POV
 
 The following [[nPOV]] perspective on good open covers gives a useful general "explanation" for their relevance, which also explains the role of good covers in [[Cech cohomology]] generally and [[abelian sheaf cohomology]]  in particular.
 
