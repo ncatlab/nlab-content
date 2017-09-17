@@ -56,10 +56,6 @@ In fact, this is an instance of the general theory of representability for [[gen
 
 ## Remarks
 
-* It is easy to verify that fibrations are closed under pullback in [[Cat]], and that the composite of fibrations is a fibration.  This latter property is notably difficult to even express in the language of pseudofunctors.
-
-* Every fibration (or opfibration) is a [[Conduché functor]], and therefore an [[exponentiable morphism]] in [[Cat]].
-
 * Fibrations are a "nonalgebraic" structure, since the base change functors $f^*$ are determined by universal properties, hence uniquely up to isomorphism.  By contrast, pseudofunctors are an "algebraic" structure, since the functors $f^*$ are specified, together with the necessary coherence data and axioms; the latter come for free in a fibration because of the universal property.
 
 * A [[stack]], being a particular type of pseudofunctor, can also be described as a particular sort of fibration.  This was the original application for which Grothendieck introduced the notion.
@@ -72,6 +68,23 @@ In fact, this is an instance of the general theory of representability for [[gen
 * Let $C$ be any category with pullbacks and $\mathbf{2}$ the free-living arrow, so that $C^{\mathbf{2}}$ is the category of arrows and commutative squares in $C$.  Then the "codomain" functor $C^{\mathbf{2}} \to C$ is a fibration and opfibration.  The cartesian arrows are precisely the pullback squares, and the functors $f_!$ are just given by composition.  The right adjoints $f_*$ exist iff $C$ is [[locally cartesian closed category|locally cartesian closed]].  The term "cartesian" is motivated by this example, which is usually called the **[[codomain fibration]]** over $C$.
 
 * Let $C$ be any category and let $Fam(C)$ be the category of set-indexed families of objects of $C$.  The forgetful functor $Fam(C)\to Set$ taking a family to its indexing set is a fibration; the functors $f^*$ are given by reindexing.  They have left adjoints iff $C$ has small coproducts, and right adjoints iff $C$ has small products.
+
+## Properties
+
+* It is easy to verify that fibrations are closed under pullback in [[Cat]], and that the composite of fibrations is a fibration.  This latter property is notably difficult to even express in the language of pseudofunctors.
+
+* Every fibration (or opfibration) is a [[Conduché functor]], and therefore an [[exponentiable morphism]] in [[Cat]].
+
+* Every fibration or opfibration is an [[isofibration]].  In particular, [[strict 2-limit|strict 2-pullbacks]] of fibrations are also [[2-pullbacks]].
+
+* If $p\colon A\to B$ is a fibration, then [[limits]] in $A$ can be constructed out of limits in $B$ and in the fiber categories.  Specifically, given a diagram $f\colon I\to A$, let $L$ be the limit of $p f\colon I\to B$, with projections $\phi_i\colon L \to p(f(i))$.  Then for each $i\in I$, let $g(i) = \phi_i^*(f(i)) \in p^{-1}(L)$; these objects form a diagram $g\colon I\to p^{-1}(L)$ whose limit is the limit of $f$.  Dually, if $p\colon A\to B$ is an opfibration, then [[colimits]] in $A$ can be constructed out of those in $B$ and in the fiber categories.
+
+* If $p\colon A\to B$ is a fibration and $B$ admits an [[orthogonal factorization system]] $(E,M)$, then there is a factorization system $(E',M')$ on $A$, where $M'$ is the class of cartesian arrows whose image in $B$ lies in $M$, and $E'$ is the class of all arrows whose image in $B$ lies in $E$.  A dual construction is possible if $p$ is an opfibration.  If it is a bifibration (or more generally, an [[ambifibration]] over $(E,M)$), then these together form a [[ternary factorization system]].
+
+* Under suitable hypotheses, versions of the preceding fact can be shown  [[weak factorization systems]] and [[model structures]] as well.
+
+* Generalizing in a different direction, if $p\colon A\to B$ is a fibration and $(E,M)$ is a [[factorization structure for sinks]] on $B$, then $A$ admits a factorization structure for sinks $(E',M')$, where $M'$ is the class of cartesian arrows whose image in $B$ lies in $M$, and $E'$ is the class of all arrows whose image in $B$ lies in $E$.  Similarly, we can lift factorization structures for *cosinks* along an opfibration.  To lift in the "opposite" way we require more of $p$; see [[topological concrete category]].
+
 
 ## Variations 
 
