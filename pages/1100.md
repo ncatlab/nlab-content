@@ -438,9 +438,9 @@ In retrospect it turns out that the [[homotopy category of an (∞,1)-category|h
 
 And the [[model category]] theory models have been known since [[Andre Joyal]] proposed the [[model structure on simplicial sheaves]] in his letter to [[Alexander  Grothendieck]].
 
-This work used 1-categorical [[site]]s. The generalization to [[(∞,1)-category|(∞,1)categorical sites]] -- modeld by [[model site]]s -- was discussed in
+This work used 1-categorical [[site]]s. The generalization to [[(∞,1)-category|(∞,1)categorical sites]] -- modeled by [[model sites]] -- was discussed in
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv](http://arxiv.org/abs/math.AG/0207028))
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical Algebraic Geometry I: Topos theory_ ([arXiv:math.AG/0207028](http://arxiv.org/abs/math.AG/0207028))
 
 and "model topos"-theory was also developed in
 
