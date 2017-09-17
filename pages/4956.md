@@ -316,6 +316,10 @@ $$
   \,.
 $$ 
 
+## Related concepts
+
+* [[Jacobian matrix]], [[Hessian matrix]], [[extremum]]
+
 [[!redirects derivative]] 
 [[!redirects derivatives]] 
 
