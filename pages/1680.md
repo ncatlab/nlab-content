@@ -18,9 +18,9 @@
 
 ## Idea
 
-For $A$ an [[abelian group]], the _Eilenberg-MacLane spetrum_ $H A$ is the [[spectrum]] that [[Brown representability theorem|represents]] the [[ordinary cohomology|ordinary]] [[cohomology theory]]  with coefficients in $A$.
+For $A$ an [[abelian group]], the _Eilenberg-Mac Lane spectrum_ $H A$ is the [[spectrum]] that [[Brown representability theorem|represents]] the [[ordinary cohomology|ordinary]] [[cohomology theory]]  with coefficients in $A$.
 
-Be  default $A$ is taken to be the [[integer]]s and hence "the Eilenberg-MacLane spectrum" is $H \mathbb{Z}$, representing [[integral cohomology]].
+By default $A$ is taken to be the [[integer]]s and hence "the Eilenberg-MacLane spectrum" is $H \mathbb{Z}$, representing [[integral cohomology]].
 
 ## As a symmetric monoidal $\infty$-groupoid.
 
@@ -31,7 +31,7 @@ $$
   \,.
 $$
 
-Here the set $\mathbb{Z}$ is regarded as a [[discrete category|discrete groupoid]] (one object per integer, no nontrivial morphisms) whose symmetric monoidal structure is that given by the additve group structure on the integers.
+Here the set $\mathbb{Z}$ is regarded as a [[discrete category|discrete groupoid]] (one object per integer, no nontrivial morphisms) whose symmetric monoidal structure is that given by the additive group structure on the integers.
 
 Accordingly, the infinite tower of [[suspension]]s induced by this is the sequence of [[∞-groupoid]]s
 
