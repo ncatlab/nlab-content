@@ -111,8 +111,6 @@ If $C$ has [[pullbacks]], then extremal epis reduce to strong ones, and so extre
 
 [[!redirects separator]]
 [[!redirects separators]]
-[[!redirects generator]]
-[[!redirects generators]]
 
 [[!redirects separating family]]
 [[!redirects separating families]]
