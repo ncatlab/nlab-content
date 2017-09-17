@@ -76,6 +76,22 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
 
   * $X^\sharp$ or $X^{cart}$ be the cartesian marked simplicial set: precisely the $p$-[[cartesian morphism]]s are marked
 
+
+
+=--
+
+
++-- {: .un_lemma }
+###### Observation
+
+
+The category $sSet^+$ is a [[cartesian closed category]].
+
+=--
+
+
+
+
 * For $X$ and $Y$ marked simplicial sets let
 
   * $Map^\flat(X,Y)$ be the [[simplicial set]] underlying the [[cartesian closed category|cartesian]] [[internal hom]] $Y^X$
@@ -96,6 +112,7 @@ A morphism $(S,E) \to (S',E')$ of marked simplicial sets is a morphism $f : S \t
   $$
 
 =--
+
 
 ### Properties
 
