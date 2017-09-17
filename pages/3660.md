@@ -26,6 +26,26 @@ In particular, a [[poset]] is a direct category just when its strict order relat
 
 If $D^{op}$ is a direct category, then we say that $D$ is an **inverse category**.
 
+### Direct versus one-way categories
+
+Of course, a direct category can have no nonidentity [[endomorphisms]], since any such endomorphism would be a cycle of length 1.  A category with this property is sometimes called a **one-way category**.
+
+A direct category is also necessarily [[skeleton|skeletal]], since any nonidentity isomorphism and its inverse would form a cycle of length 2.  The notion of generalized direct category, below, relaxes this requirement.
+
+Conversely, a skeletal one-way category can have no cycles of nonidentity morphisms of any finite length, since by the one-way property all morphisms in such a cycle would be isomorphisms, hence endomorphisms by skeletality, and hence identities by the one-way property.  Since any infinite chain in a [[finite category]] contains a cycle, we see that
+
+* A finite category is a direct category if and only if it is one-way and skeletal.
+
+Since this condition is self-dual, we also see that
+
+* A finite category is direct if and only if it is inverse.
+
+An infinite category can be one-way and skeletal without being direct or inverse, such as the [[poset]] $\mathbb{Z}$ with its usual ordering.  However, if it additionally has **finite fan-out**, meaning that for each object $x$ there are altogether only finitely many morphisms with [[source]] $x$ (and arbitrary target), then it must be an inverse category, for any infinite non-cyclic chain would induce infinitely many distinct morphisms out of any of its objects by composition.  In [[FOLDS]], skeletal one-way categories with finite fan-out are called **simple categories** and used as signatures; thus
+
+* Any simple category (in the sense of FOLDS) is an inverse category.
+
+However, a category can be inverse without having finite fan-out.  Let $S$ be an infinite set and consider the poset $S \cup \{\infty\}$, with $S$ having the discrete ordering (no nonidentity arrows) and $\infty$ being less than every element of $S$.  This does not have finite fan-out, since $\infty$ is the source of infinitely many distinct arrows, but it is inverse, since there are clearly no chains of nonidentity arrows of length $\gt 1$.
+
 ## Model structures
 
 Every direct category (and every inverse category) is in particular a [[Reedy category]], and therefore whenever $M$ is a [[model category]] there is a [[Reedy model structure]] on $M^D$.  In the case of direct and inverse categories, these model structures are even easier to describe, since either the latching or the matching objects are degenerate.
@@ -78,3 +98,6 @@ This subcategory of $Corolla$ is usually *not* full, however.  In particular, fo
 [[!redirects direct categories]]
 [[!redirects inverse category]]
 [[!redirects inverse categories]]
+[[!redirects one-way category]]
+[[!redirects category with finite fan-out]]
+[[!redirects simple category]]
