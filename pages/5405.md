@@ -301,3 +301,8 @@ The above material is taken from
 The generalization to geometric stacks in the context of [[Spectral Schemes]] is in 
 
 * [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+
+Related discussion is in 
+
+* [[Martin Brandenburg]], Alexandru Chirvasitu, _Tensor functors between categories of quasi-coherent sheaves_ ([arXiv:abs/1202.5147](http://arxiv.org/abs/1202.5147))
+
