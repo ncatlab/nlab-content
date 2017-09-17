@@ -1,0 +1,2 @@
+
+> [[infinity-algebra over an (infinity,1)-operad]]
