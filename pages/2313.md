@@ -7,6 +7,7 @@
 
 A _Bott element_ is an element in a [[periodic cohomology theory]], multiplication by which is [[invertible element|invertible]].
 
+Specifically for complex [[topological K-theory]] there is an element of degree 2 which induces [[Bott periodicity]]. This is where the term "Bott element" comes from.
 
 ## Related entries
 
