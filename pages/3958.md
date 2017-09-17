@@ -233,7 +233,9 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 
 =--
 
+## Related concepts
 
+* [[infinite dimensional smooth manifold]]
 
 ## References
 
