@@ -71,13 +71,17 @@ By a theorem by Al-Agl, Brown and Steiner, [[strict omega-category|strict omega-
 
 This is a category version of a corresponding groupoid theorem of Brown and Higgins which follows from the two papers listed below. 
 
-Loday introduced in the paper listed below the category of what he called $n$-cat groups, but are now called cat$^n$-groups as they are exactly $n$-fold groupoids internal to the category of groups. He showed that these objects model weak, pointed homotopy $n$-types,  see [[homotopy hypothesis]]. The paper by Brown and Loday shows that these structures can be used, via a van Kampen type theorem,  for explicit computations in homotopy theory, and this is further developed in the paper by Ellis and Steiner. This paper relates  relates the theory to that of crossed modules, $n$-ad homotopy groups, and the important $n$-ad connectivity theorem, which is related to results on homotopical excision. 
+[[Jean-Louis Loday]] introduced in the paper listed below the category of what he called $n$-cat groups, but are now called cat$^n$-groups as they are exactly $n$-fold groupoids internal to the category of groups. He showed that these objects model weak, pointed homotopy $n$-types,  see [[homotopy hypothesis]]. The paper by Brown and Loday shows that these structures can be used, via a van Kampen type theorem,  for explicit computations in homotopy theory, and this is further developed in the paper by Ellis and Steiner. This paper relates  relates the theory to that of crossed modules, $n$-ad homotopy groups, and the important $n$-ad connectivity theorem, which is related to results on homotopical excision. 
 
 ## Related concepts
 
 * [[double groupoid]]
 
 * [[double bicategory]]
+
+* [[cat-n-group]]
+
+* [[crossed n-cube]]
 
 
 * [[n-fold complete Segal space]]
