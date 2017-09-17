@@ -18,7 +18,7 @@
 A [[probability distribution]] on a [[Cartesian space]] $\mathbb{R}^n$ is called **Gaussian** or a **normal distribution** if it is of the form
 
 $$
-  \mu_S \;\colon\; \vec x \mapsto \frac{\sqrt{det A}}{(2\pi)^{n/2}} 
+  \mu_A \;\colon\; \vec x \mapsto \frac{\sqrt{det A}}{(2\pi)^{n/2}} 
   \exp\left(-\tfrac{1}{2} \left\langle \vec x , A \vec x\right\rangle\right)
   \,d x^1 \cdots d x^n
   \,.
