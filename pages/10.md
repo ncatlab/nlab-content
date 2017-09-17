@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include topos theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -332,6 +338,13 @@ we should expect there to be a topos analog of the total space, $E G$, for the c
 
 
 ## References ##
+
+A standard textbook reference is section D3 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+Original articles include
 
 * [[Ieke Moerdijk]],  The classifying topos of a continuous groupoid I, _Trans. A.M.S._ **310** (1988), 629-668.
 
