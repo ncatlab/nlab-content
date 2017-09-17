@@ -36,20 +36,20 @@
 
 * [[isotropic submanifold]], [[Lagrangian submanifold]]
 
-## Theorems
-
-(...)
-
-## Applications
+## Constructions
 
 * [[Hamiltonian mechanics]]
 
-  * [[deformation quantization]]
-
-  * [[geometric quantization]]
+* [[deformation quantization]]
 
 * [[BV-BRST formalism]]
 
 * [[AKSZ sigma-model]]
+
+* **[[geometric quantization]]**
+
+  * [[geometric quantization of symplectic groupoids]]
+
+  * [[geometric quantization of symplectic ∞-groupoids]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/symplectic+geometry+-+contents)</div>
