@@ -242,6 +242,10 @@ and applying a general technique called [[Bousfield localization]] which forces 
 
 ## References
 
+The concept originates in 
+
+* {#Quillen67} [[Daniel Quillen]], chapter I _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+
 An account is in
 
 * [[joyalscatlab:HomePage|Joyal's CatLab]], _[[joyalscatlab:Model categories]]_
