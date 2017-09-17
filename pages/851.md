@@ -203,7 +203,6 @@ This appears as [[Higher Topos Theory|HTT, remark 1.2.9.6]].
 +-- {: .num_prop}
 ###### Proposition
 
-
 If $q : C \to D$ is a [[model structure for quasi-categories|categorical equivalence]] then so is the induced morphism $C_{/F} \to C_{/q F}$.
 
 =--
@@ -232,6 +231,21 @@ are both [[left Kan fibrations]].
 
 This is a special case of [[Higher Topos Theory|HTT, prop 2.1.2.1]] and [[Higher Topos Theory|prop. 4.2.1.6]].
 
+
++-- {: .num_prop}
+###### Proposition
+
+For $v \colon K \to \tilde K$ an map of small [[(∞,1)-categories]] and $\mathcal{C}$ any $(\infty,1)$-category, the induced [[(∞,1)-functor]] between slice $(\infty,1)$-categories
+
+$$
+  \mathcal{C}_{/K} \to \mathcal{C}_{/\tilde K}
+$$
+
+is an [[equivalence of (∞,1)-categories]] precisely if $v$ if an op-[[final (∞,1)-functor]] (hence if $v^{op}$ is final).
+
+=--
+
+This is ([Lurie, prop. 4.1.1.8](#Lurie)).
 
 ### Hom-spaces in a slice
 
