@@ -75,7 +75,7 @@ Sheaves are used explicitly in:
 
 ## Properties
 
-Generically the algebra of a relativistic AQFT turns out to be a ([[generalized the|the]]) hypefinite type $III_1$ [[von Neumann algebra factor]]. See ([Yngvason](#Yngvason))
+Generically the algebra of a relativistic AQFT turns out to be a ([[generalized the|the]]) hyperfinite type $III_1$ [[von Neumann algebra factor]]. See ([Yngvason](#Yngvason))
 
 
 ## Related concepts
