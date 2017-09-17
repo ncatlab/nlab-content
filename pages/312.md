@@ -83,6 +83,7 @@ On the other hand, there is no particular harm either in having such structure a
 
 * [[subobject in an (∞,1)-category]]
 
+* [[property sup]]
 
 [[!redirects subobject]]
 [[!redirects subobjects]]
