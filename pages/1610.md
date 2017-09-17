@@ -1,1 +1,2 @@
-This is the work of a crackpot, so I have blanked the page - _Harry_
+The page apparently referred to dubious mathemaical content, see the original author's [blog](http://portonmath.wordpress.com/category/publications/). Because of this the page has been temporarly blanked. By the same reason also
+[[partially ordered dagger-category]] has been blanked.
