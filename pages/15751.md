@@ -48,13 +48,11 @@ is commutative, where $n(f)$, the name of $f$, obtains via adjointness from $k\o
 
 ## Examples
 
-* Nuclear objects in the category of complete semilattices are precisely the [[completely distributive lattices]].
+* Nuclear objects in the category of complete semilattices are precisely the [[completely distributive lattices]], or in absence of the [[axiom of choice]], more generally, the _constructively completely distributive lattices_ (Higgs&Rowe 1989, Rosebrugh&Wood 1994).
 
 * Nuclear objects in the category of pointed sets are precisely the pointed sets with cardinality $\leq 2$.
 
-* Nuclear objects in the category of [[Banach spaces]] with morphisms the bounded maps are the [[nuclear spaces]]. 
-
-(cf. Rowe 1988)
+* Nuclear objects in the category of [[Banach spaces]] with morphisms the bounded maps are the [[nuclear spaces]] (Rowe 1988).
 
 
 ## Related concepts
@@ -73,7 +71,9 @@ is commutative, where $n(f)$, the name of $f$, obtains via adjointness from $k\o
 
 ## References
 
-* D. A. Higgs, K. A. Rowe, _Nuclearity in the category of complete semilattices_, JPAA **57** no.1 (1989) pp.67-78.
+* D. A. Higgs, K. A. Rowe, _Nuclearity in the category of complete semilattices_ , JPAA **57** no.1 (1989) pp.67-78.
+
+* R. Rosebrugh, R. J. Wood, _Constructive complete distributivity IV_ , App. Cat. Struc. **2** (1994) pp.119-144. ([preprint](http://www.mta.ca/~rrosebru/articles/ccd4.pdf))
 
 * K. A. Rowe, _Nuclearity_ , Canad.Math.Bull. **31**  no.2 (1988) pp.227-235. ([pdf](http://cms.math.ca/cmb/v31/cmb1988v31.0227-0235.pdf))
 
