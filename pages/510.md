@@ -177,3 +177,7 @@ about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/
 * J.F. Adams, _Infinite loop spaces_
 
 [[!redirects spectra]]
+[[!redirects prespectrum]]
+[[!redirects prespectra]]
+[[!redirects pre-spectrum]]
+[[!redirects pre-spectra]]
