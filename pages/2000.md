@@ -46,6 +46,9 @@ A smooth morphism of [[relative dimension]] 0 is an [[étale morphism]].
 
 See also [[formally smooth morphism]].
 
+* The [[lisse-étale site]] of a [[scheme]] $X$ consists of smooth morphisms $U \to X$.
+
+
 ## References
 
 * Arthur Ogus, _Smooth morphisms_ ([pdf](http://math.berkeley.edu/~ogus/Math%20_256A--08/smooth.pdf))
