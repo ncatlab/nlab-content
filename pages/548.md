@@ -1,4 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+* [[group]]
+
+* **2-group**
+
+* [[n-group]]
+
+* [[∞-group]]
+
+***
+
 #Contents#
 
 * automatic table of contents goes here
@@ -77,7 +97,7 @@ Since strict 2-groups are equivalent to [[crossed module]]s, see the examples li
 
 For $C$ any [[2-category]] and $c \in C$ any object of it, the category $Aut_C(c) \subset Hom_C(c,c)$ of auto-equivalences of $c$ and invertible 2-morphisms between these is naturally a 2-group, whose group product comes from the horizontal composition in $C$.
 
-If $C$ is a [[strict 2-category]] there is the notion of [[strict 2-group|strict automorphism 2-group]]. See there for more details on that case.
+If $C$ is a [[strict 2-category]] there is the notion of strict [[automorphism 2-group]]. See there for more details on that case.
 
 For instance if $C = Grp_2 \subset Grpd$ is the 2-category of [[group]] obtained by regarding groups as one-object [[groupoid]]s, then for $H \in Grp$ a group, its automorphism 2-group obtained this way is the strict 2-group
 
@@ -98,8 +118,7 @@ See [[string 2-group]].
 
 ## References 
 
-*  John Baez and Aaron Lauda, _HDA V: 2-Groups_ ([arXiv](http://arxiv.org/abs/math.QA/0307200)).
+*  [[John Baez]] and [[Aaron Lauda]], _HDA V: 2-Groups_ ([arXiv](http://arxiv.org/abs/math.QA/0307200)).
 
 
-[[!redirects automorphism 2-group]]
 [[!redirects 2-groups]]
