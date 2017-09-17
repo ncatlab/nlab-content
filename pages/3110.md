@@ -7,13 +7,13 @@
 * automatic table of contents goes here
 {:toc}
 
-## The folk model structure on $Cat$
+## The canonical model structure on $Cat$
 
-The **folk model structure** on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[folk model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors. See the
+The **canonical model structure** on [[Cat]] is a [[model structure]] which encapsulates part of [[category theory]] as a version of [[homotopy theory]].  It is a special case of the general notion of [[canonical model structure]] on categorical structures, and is also called the **trivial model structure** or the **categorical model structure**.  Its [[weak equivalences]] are the [[equivalences of categories]] and its [[homotopy category]] is [[Ho(Cat)]], the category obtained from the 1-category $Cat$ by identifying naturally isomorphic functors. See the
 _[[joyalscatlab:Model structures on Cat|Catlab]]_ for the theory 
 of this structure. 
 
-On this page we give a concise construction of the folk model structure, as well as two variants that make sense in the absence of the full [[axiom of choice]].
+On this page we give a concise construction of the canonical model structure, as well as two variants that make sense in the absence of the full [[axiom of choice]].
 
 * toc
 {:toc}
@@ -80,3 +80,4 @@ Is there a dual model structure in which all categories are cofibrant?  This see
 
 
 [[!redirects natural model structure on Cat]]
+[[!redirects folk model structure on Cat]]
