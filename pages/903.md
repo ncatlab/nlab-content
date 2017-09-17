@@ -58,6 +58,10 @@ At least, that\'s where I *think* that it comes from ...  ---Toby
 
 See [[simplicial homotopy group]].
 
+### For Lie groupoids
+
+* [[homotopy groups of a Lie groupoid]]
+
 ### For objects in a general $\infty$-stack $(\infty,1)$-topos 
 
 [[Top]] is the archetypical [[(∞,1)-topos]].
