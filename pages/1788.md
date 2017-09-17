@@ -17,6 +17,26 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 ## abc $def$ ghi $jkl$ 
 
+Here are those texts in normal running text for comparison.
+
+This headline contains an exponent: $Spin^c$
+
+This one contains a bigger exponent: $Spin^{W_3}$
+
+And this one here several: $String^{\mathbf{c}_2}$ and $Fivebrane^{\mathbf{c}_4}$
+
+abc $def$ ghi $jkl$ 
+
+Here are those texts in links for comparison.
+
+[This headline contains an exponent: $Spin^c$](http://ncatlab.org)
+
+[This one contains a bigger exponent: $Spin^{W_3}$](http://ncatlab.org)
+
+[And this one here several: $String^{\mathbf{c}_2}$ and $Fivebrane^{\mathbf{c}_4}$](http://ncatlab.org)
+
+[abc $def$ ghi $jkl$](http://ncatlab.org)
+
 
 [[vanilla.print.css:file]]
 [[MAXIMISED.vanilla.print.css:file]]
