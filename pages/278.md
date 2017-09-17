@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
 =--
 =--
 
