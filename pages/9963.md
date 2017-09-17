@@ -49,13 +49,23 @@ Fully generally, a definition of augmentation of [[∞-algebras over an (∞,1)-
 +-- {: .num_example}
 ###### Example
 
-An augmentation of an [[E-∞ ring]] $R$ itself, being an [[A-∞ algebra]] over the [[sphere spectrum]] $\mathbb{S}$, is a homomorphism 
+An augmentation of an [[E-∞ ring]] $R$, being an [[E-∞ algebra]] over the [[sphere spectrum]] $\mathbb{S}$, is a homomorphism 
 
 $$
   \epsilon \colon R \to \mathbb{S}
 $$
 
 to the [[sphere spectrum]], regarded as an [[E-∞ ring]].
+
+Forming [[augmentation ideals]] constitutes an [[equivalence of (∞,1)-categories]]
+
+$$
+  E_\infty Ring_{/\mathbb{S}}
+  \stackrel{\simeq}{\longrightarrow}
+  E_\infty Ring^{nu}
+$$
+
+of $\mathbb{S}$-augmented $E_\infty$-rings and [[nonunital E-∞ rings]] ([Lurie, prop. 5.2.3.15](#Lurie)).
 
 =--
 
