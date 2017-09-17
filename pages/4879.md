@@ -15,7 +15,7 @@
 
 ## Idea
 
-A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothendieck fibration]] which is [[non-evil]], i.e. covariant under [[equivalence of categories]].  In [[Cat]], every Street fibration is equivalent to a Grothendieck one, so the extra generality is not very useful; since it is also fairly cumbersome, it is rarely used.  However, when working with [[anafunctors]] or internally to a [[bicategory]], Street fibrations are really the only sensible notion.
+A **Street fibration**, or **weak fibration**, is a generalization of a [[Grothendieck fibration]] which is [[non-evil]], i.e. covariant under [[equivalence of categories]].  In [[Cat]], and in many other [[strict 2-categories]], every Street fibration is equivalent to a Grothendieck one, so the extra generality is not very useful; since it is also fairly cumbersome, it is rarely used.  However, when working with [[anafunctors]] or internally to a [[bicategory]], one is essentially forced to work with Street fibrations instead.
 
 
 ## Definition
@@ -36,6 +36,8 @@ adjoint]] [[right inverse]] $c_a$. One avoids evilness if one just requires that
 Every Grothendieck fibration is a Street fibration, as is every [[equivalence of categories]] (the latter are not in general Grothendieck fibrations).  Conversely, every Street fibration (in Cat) is the composite of an equivalence with a Grothendieck fibration: the latter can be taken to be a [[fibrant replacement]] of it in the [[canonical model structure]] on Cat.  In fact, a Street fibration is a Grothendieck fibration precisely when it is also a [[isofibration]].
 
 When working with Street fibrations, one must always replace [[fibers]] with [[essential fibers]].  In particular, the lifting property of a Street fibration is insufficient for a morphism $u\colon J\to I$ in $B$ to induce a functor $u^*\colon E^I\to E^J$ between strict fibers, but such a functor is induced between essential fibers.  In this way we can reconstruct a [[pseudofunctor]] $B^{op}\to Cat$ from any Street fibration, and show that the [[2-category]] of Street fibrations is equivalent to that of such pseudofunctors (though not, as in the case of Grothendieck fibrations, [[strict 2-equivalence of 2-categories|strictly 2-equivalent]]).
+
+Just as every Grothendieck fibration is a [[strictly exponentiable functor]], i.e. an [[exponential object|exponentiable morphism]] in the [[strict 2-category]] [[Cat]], every Street fibration is a non-strictly exponentiable functor, i.e. an exponentiable morphism in the weak [[2-category]] Cat.
 
 
 ## References
