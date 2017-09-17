@@ -48,7 +48,7 @@ is _local_ (in that it carries the maximal ideal to the maximal ideal). See [[fu
 ###### Definition
 (k-ring, k-functor,affine k-scheme)
 
-For a ring $k$ the _category of $k$-rings_, denoted by $M_k:=k/Ring$ is defined to be the category of commutative associative $k$-algebras with unit which are rings. This is equivalently the category of pairs $(R,f:k\to R)$ where $R$ is a Ring and $f$ is a ring homomorphism.
+For a ring $k$ the _category of $k$-rings_, denoted by $M_k,$ is defined to be the category of commutative associative $k$-algebras with unit. This is equivalently the [[under category]] $k\downarrow CRing$ of pairs $(R,f:k\to R)$ where $R$ is a commutative ring and $f$ is a ring homomorphism.
 
 The _category of $k$-functors_, denoted by $co Psh (M_k)$, is defined to be the category of covariant functors $M_k\to Set$.
 
