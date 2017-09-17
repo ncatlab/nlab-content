@@ -1,24 +1,24 @@
 In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 
-* $\mathbf{1}$ -- See [[point]]
-* $\mathbf{2}$ - See [[interval category]]
-* $Arr(C)$ - See [[arrow category]]
-* $C^\to$ - See [[arrow category]]
-* $[C,D]$ - See [[functor category]] or [[enriched functor category]] or [[internal hom]]
-* $D^C$ - See [[exponential object]] or [[functor category]] 
-* $C\darr D$ - See [[comma category]]
-* $C/D$ - See [[comma category]]
-* $(C,D)$ - See [[comma category]]
-* $C\darr x$ - See [[over category]] a.k.a. slice category
-* $C/x$ - See [[over category]] a.k.a. slice category
-* $x\darr C$ - See [[under category]] a.k.a. coslice category
-* $x/C$ - See [[under category]] a.k.a. coslice category
-* $x\backslash C$ - See [[under category]] a.k.a. coslice category
-* $C(x,y)$ - See [[hom-set]] or [[hom-object]]
-* $hom(x,y)$ - See [[internal hom]] or [[hom-set]]
-* $Hom(x,y)$ - See [[internal hom]] or [[hom-set]]
-* $Hom_C(x,y)$ - See [[hom-set]]
-* $h_x$ - See [[hom-functor]]
+* $\mathbf{1}$ -- [[point]]
+* $\mathbf{2}$ - [[interval category]]
+* $Arr(C)$ - [[arrow category]]
+* $C^\to$ - [[arrow category]]
+* $[C,D]$ - [[functor category]] or [[enriched functor category]] or [[internal hom]]
+* $D^C$ - [[exponential object]] or [[functor category]] 
+* $C\darr D$ - [[comma category]]
+* $C/D$ - [[comma category]]
+* $(C,D)$ - [[comma category]]
+* $C\darr x$ - [[over category]] a.k.a. slice category
+* $C/x$ - [[over category]] a.k.a. slice category
+* $x\darr C$ - [[under category]] a.k.a. coslice category
+* $x/C$ - [[under category]] a.k.a. coslice category
+* $x\backslash C$ - [[under category]] a.k.a. coslice category
+* $C(x,y)$ - [[hom-set]] or [[hom-object]]
+* $hom(x,y)$ - [[internal hom]] or [[hom-set]]
+* $Hom(x,y)$ - [[internal hom]] or [[hom-set]]
+* $Hom_C(x,y)$ - [[hom-set]]
+* $h_x$ - [[hom-functor]]
 
 #Discussion#
 
