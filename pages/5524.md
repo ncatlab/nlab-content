@@ -920,6 +920,7 @@ $$
 
 =--
 
+
 ### Lie differentiation
  {#LieDifferentiation}
 
@@ -942,7 +943,7 @@ $$
   \simeq
   \mathbf{H}^{*/}_{\geq 1}
    \stackrel{yoneda}{\to}
-  PSh_\infty( \mathbf{H}^{/*})
+  PSh_\infty( \mathbf{H}^{*/})
   \stackrel{inf^*}{\to}
   PSh_\infty(InfPoint_\infty)
 $$
@@ -974,6 +975,13 @@ $$
 
 is Lie differentiation.
 
+For differentiation of smooth groupoids with [[atlas]] $U \to X$ to [[L-infinity algebroids]] this happens under $U$
+
+$$
+  \mathbf{H}^{U/}
+$$
+
+(...)
 
 ## Related concepts
 
