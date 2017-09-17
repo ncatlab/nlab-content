@@ -26,7 +26,7 @@ This plays a central role when these stacks serve as [[moduli stacks]] for certa
 
 
 ##Virtual Fundamental Classes of Derived Schemes
-Given a [[derived scheme]], $(X, \mathcal{O}_X)$ with underlying scheme $t_0X$, the virtual fundamental class is defined by first constructing a class in $G_0(t_0X)$ (the $K$-theory of coherent sheaves) and then using this to produce an element of the Chow homology of $t_0X$. In our hearts we all know that the fundamental class should be something tautological, just like how the fundamental class of a triangulated manifold in simplicial homology is _the manifold itself_. We can use this idea once we have the following theorem:
+Given a locally Noetherian [[derived scheme]], $(X, \mathcal{O}_X)$ with underlying scheme $t_0X$, and $\pi_i\mathcal{O}_X = 0$ for $i>>0$, the virtual fundamental class is defined by first constructing a class in $G_0(t_0X)$ (the $K$-theory of coherent sheaves) and then using this to produce an element of the Chow homology of $t_0X$. In our hearts we all know that the fundamental class should be something tautological, just like how the fundamental class of a triangulated manifold in simplicial homology is _the manifold itself_. We can use this idea once we have the following theorem:
 
  +-- {: .num_theorem #Devissage}
  ###### Theorem
@@ -38,6 +38,9 @@ Given a [[derived scheme]], $(X, \mathcal{O}_X)$ with underlying scheme $t_0X$, 
 ###### Definition
 The $K$-theory _virtual fundamental class_ of a derived scheme $(X, \mathcal{O}_X)$ is the unique element $[X]$ in $G_0(t_0X)$ such that $j_*[X] = [\mathcal{O}_X]$ where $j: t_0X \rightarrow X$ is the natural map.
 =--
+
+If you trace through the definition of $G_0$ and the identification of the heart of $Coh(X)$ with $Coh(t_0X)$, you can show that $[X] = \sum (-1)^i [\pi_i\mathcal{O}_X]$.
+
 To get from here to a virtual fundamental class in cohomology we need some more assumptions on $X$. For example, let's assume $X$ is finitely-presented over a field $k$ and that $\mathbb{L}_{X/k}$ is concentrated in degrees $0$ and $-1$, locally up to quasi-isomorphism, and a perfect complex. Then $j^*\mathbb{L}_{X/k}$ is a perfect complex over $t_0X$ and the dual is called the virtual tangent sheaf $\mathbb{T}^{vir}$. 
 
 +-- {: .un_defn}
