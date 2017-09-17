@@ -16,9 +16,9 @@ $$\Lambda^j \colon Vect_k \to Vect_k$$
 
 by the formula 
 
-$$\Lambda^j(V) = sgn \otimes_{k S_j} V^{\otimes j}.$$ 
+$$\Lambda^j(V) = sgn_j \otimes_{k S_j} V^{\otimes j}.$$ 
 
-It is called the $j^{th}$ **alternating product** (of $V$). 
+It is called the $j^{th}$ **alternating power** (of $V$). 
 
 +-- {: .num_prop}
 ###### Proposition 
@@ -123,35 +123,32 @@ This holds true even if we replace the field $k$ by an arbitrary commutative [[r
 
 =--
 
-+-- {: .num_cor} 
-###### Corollary 
-If $V$ is a finitely generated [[free module]] over a commutative [[ring]] $R$ and 
-$f \colon V \to V$ is a surjective $R$-[[linear map]], then it is an [[isomorphism]]. 
+### Cayley-Hamilton theorem 
+
++-- {: .un_lem}
+###### Lemma 
+Let $R$ be a commutative ring, let $V$ be a finitely generated free module, and let $f \colon V \to V$ be an $R$-module map. Then there exists an $R$-module map $\tilde{f} \colon V \to V$ such that $f \circ \tilde{f} = \tilde{f} \circ f = \det(f)\cdot 1_V$. 
+=-- 
+
++-- {: .proof}
+###### Proof 
+Pick a basis $v_1, \ldots, v_n$, and let $A = (a_{i j})$ be the matrix representation of $f$ with respect to this basis. In the case where $A$ is invertible ($\det(A)$ is a unit), we have a unique $\tilde{A}$ such that $A \tilde{A} = \det(A) = \tilde{A} A$, and the entries of $\tilde{A}$ are computed by Cramer's rule, 
+
+$$\tilde{A}_{j i} = \det(a_1, ldots, e_i, \ldots a_n),$$ 
+
+the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. This formula gives $\tilde{A}_{j i}$ as a polynomial expression in the entries $a_{i j}$. We define $\tilde{A}$ by the same formula for any $A$, and the collection of polynomial identities $A \tilde{A} = \det(A) = \tilde{A} A$ over the polynomial ring $R[a_{i j}]$ holds on the Zariski-dense subset $GL(V) \hookrightarrow Mod_R(V, V)$. It therefore holds on the closure, i.e., on the entire endomorphism ring $Mod_R(V, V)$ (as can also be established by direct computation). 
+=-- 
+
++-- {: .un_thm}
+###### Cayley-Hamilton Theorem 
+Let $V$ be a finitely generated free module over a commutative ring $R$, and let $f \colon V \to V$ be an $R$-module map. Let $p(t) \in R[t]$ be the **characteristic polynomial** $\det(t 1_V - f)$ of $f$, and let $\phi_f \colon R[t] \to Mod_R(V, V)$ be the unique $R$-algebra map sending $t$ to $f$. Then $p(f) \coloneqq \phi_f(p)$ is the zero map $0 \colon V \to V$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-Clearly $f$ admits a splitting $g \colon V \to V$, i.e., where $f \circ g = 1_V$. We conclude from $\det(f)\det(g) = 1$ that $\det(g)$ is a unit in $R$. Thus, by Cramer's rule, $g$ is also surjective, so that $g$ and therefore also $f$ are isomorphisms. 
-=-- 
-
-+-- {: .num_cor}
-###### Corollary 
-If $V$ is a finitely generated [[projective object|projective]] [[module]] and $f \colon V \to V$ is a surjective module map, then $f$ is an [[isomorphism]]. 
-=-- 
-
-+-- {: .proof}
-###### Proof (sketch) 
-There is a general result that $V$ is a projective module over $R$ if and only if for any [[prime ideal]] $\mathfrak{p}$ of $R$, the localization $V_{\mathfrak{p}} = R_{\mathfrak{p}} \otimes_R V$ is free over the [[local ring]] $R_{\mathfrak{p}}$. Of course, each [[localization]] $f_{\mathfrak{p}}$ is epic if $f$ is. The localizations $f_{\mathfrak{p}}$ are jointly [[exact functor|exact]] and [[faithful functor|faithful]] and therefore jointly [[reflected isomorphism|reflect isomorphisms]], so the conclusion follows from the previous result. 
-=-- 
 
 
 
-+-- {: .num_remark}
-###### Remark
-
-I think we could also argue as follows, at least over a ring whose only [[idempotents]] are $0$ and $1$: if $V$ is finitely generated projective, then $\Lambda^n(V)$ is 1-dimensional where $n$ is the **rank** of $V$ (the dimension of $V \otimes_R R_\mathfrak{p}/\mathfrak{m}_\mathfrak{p}$, for any prime $\mathfrak{p}$ -- the rank is locally constant over $Spec(R)$, and so if $Spec(R)$ is connected, i.e., if $0$ and $1$ are the only idempotents, then the rank is idependent of $\mathfrak{p}$). Then follow the preceding developments right up to the Cramer's rule argument used to prove the first corollary. 
-
-=--
 
 ### Over the real numbers 
 
