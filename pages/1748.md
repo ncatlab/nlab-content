@@ -102,6 +102,7 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
   * [[lax natural transformation]]
 
+* [[function extensionality]]
 
 ## References 
 
