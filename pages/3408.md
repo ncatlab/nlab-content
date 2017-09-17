@@ -71,7 +71,7 @@ takes a Boolean algebra $B$ to its [[spectrum]], i.e., the space of Boolean alge
 $$Bool(B, 2) \cong Set(X, 2) = 2^X$$ 
 
 where the Zariski topology coincides with the product topology on $2^X$. By the equivalence, we therefore retrieve $Bool(X)$ as $CH(2^X, \mathbf{2})$. 
-
+This in turn is identified with the Boolean algebra of clopen subsets of [[Cantor space]] $2^X$.  
 
 ## In constructive mathematics
  
