@@ -121,7 +121,7 @@ $$
 
 ### Holography
 
-By Chern-Simons [[holography]] (see there for more details) the 2d WZW [[CFT]] on $G$ is related to $G$-[[Chern-Simons theory]] in $3d$.
+By  the [[AdS3-CFT2 and CS-WZW correspondence]] (see there for more details) the 2d WZW [[CFT]] on $G$ is related to $G$-[[Chern-Simons theory]] in $3d$.
 
 ### D-branes
  {#DBranes}
