@@ -1465,7 +1465,11 @@ Remember that these formulas are to be taken with a grain of salt. Quite some ad
 
 * [[brane]]
 
-  * [[particle]], [[string]], [[membrane]]
+  * [[particle]], [[superparticle]]
+ 
+  * [[string]]
+
+  * [[membrane]]
 
 * [[homological mirror symmetry]]
 
