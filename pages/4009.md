@@ -1,6 +1,9 @@
 
+# Zigzags
+* table of contents
+{: toc}
 
-## Zigzag of morphisms
+## Zigzags of morphisms
 
 In a [[category]] $C$ a **zigzag of morphisms** is a finite collection of [[morphism]]s $(f_i)$ in $C$ of the form
 
@@ -21,11 +24,12 @@ A zigzag consisting just out of two morphisms is a _roof_ or [[span]].
 
 General such zig-zags of morphisms represent ordinary morphisms in the _groupoidification_ of $C$ -- the [[Kan fibrant replacement]] of its [[nerve]], its [[simplicial localization]] or its 1-categorical [[localization]] at all its morphisms. 
 
-More generally, if in these zig,zags the left-pointing morphisms are restricted to be in a class $S \subset Mor(C)$, then these zig-zags represent morphisms in the simplicial localizaton or localization of $C$ at $S$.
+More generally, if in these zig-zags the left-pointing morphisms are restricted to be in a class $S \subset Mor(C)$, then these zig-zags represent morphisms in the simplicial localizaton or localization of $C$ at $S$.
 
+
+[[!redirects zigzag]]
 [[!redirects zigzags]]
-
 [[!redirects zig-zag]]
-[[!redirects zig zag]]
 [[!redirects zig-zags]]
+[[!redirects zig zag]]
 [[!redirects zig zags]]
