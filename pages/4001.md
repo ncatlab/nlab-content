@@ -59,11 +59,14 @@ That article is now in the process of being imported in to the nLab.  In the tra
 
 ## References ## {#refs}
 
-* The convenient setting of global analysis, Kriegl, Andreas and Michor, Peter W., 1997 [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480)
+* [[Andreas Kriegl]], [[Peter Michor]], _The convenient setting of global analysis_ ,   1997 [MR1471480](http://www.ams.org/mathscinet-getitem?mr=1471480)
 {#KM97}
+
 * Spinors in Hilbert space, Plymen, R. J.  and Robinson, P. L., 1994 [MR1312612](http://www.ams.org/mathscinet-getitem?mr=1312612)
 {#PR94}
-* Loop groups, Pressley, Andrew and Segal, Graeme, 1986 [MR900587](http://www.ams.org/mathscinet-getitem?mr=900587)
+
+* Andrew Pressley, [[Graeme Segal]], _Loop groups_   1986 [MR900587](http://www.ams.org/mathscinet-getitem?mr=900587)
 {#PS86}
+
 * Spin geometry, Lawson, H. Blaine, Jr. and Michelsohn, Marie-Louise, 1989, [MR1031992](http://www.ams.org/mathscinet-getitem?mr=1031992)
 {#LM89}
