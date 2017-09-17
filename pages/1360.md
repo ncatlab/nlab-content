@@ -15,12 +15,14 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-A _simplicial model category_ is a model or presentation for an [[(∞,1)-category]] that is half way in between a bare [[model category]] and a [[Kan complex]]-[[enriched category]].
+The term _simplicial model category_ is short for _[[model structure on simplicial sets|sSet]]${}_{Quillen}$-[[enriched model category]]_.
+
+A simplicial model category is a model or presentation for an [[(∞,1)-category]] that is half way in between a bare [[model category]] and a [[Kan complex]]-[[enriched category]].
 
 Specifically, a simplicial model category is an [[sSet]]-[[enriched category]] $C$ together with the structure of a [[model category]] on its underlying [[category]] $C_0$ such that both structures are compatible in a reasonable way.
 
@@ -28,24 +30,39 @@ One important use of simplicial model categories comes from the fact that the fu
 
 For generalizations of this construction with [[sSet]] replaced by another [[monoidal model category]] see [[enriched homotopical category]].
 
++-- {: .num_remark}
+###### Remark
+
+The term _simplicial model category_ for the notion described here is entirely standard, but in itself a bit suboptimal. More properly one would speak of [[simplicially enriched category]], which is a proper special case of a [[simplicial object]] in [[Cat]] (that for which the simplicial set of objects is discrete). 
+
+The other caveat is that there are different model category structures on [[sSet]] and hence even the term $sSet$-[[enriched model category]] is ambiguous.
+
+For instance the [[model structure for quasi-categories]] is an $sSet$-[[enriched model category]], but not for the standard Quillen model structure on the enriching category: since $sSet_{Joyal}$ is a [[closed monoidal category|closed]] [[monoidal model category]] it is enriched over itself, hence is a $sSet_{Joyal}$-enriched model category, not an $sSet_{Quillen}$-enriched one. So in the standrt terminology, $sSet_{Joyal}$ is _not_ a "simplicial model category".
+ 
+=--
 
 
 ## Definition
 
++-- {: .num_defn}
+###### Definition
+
 A **simplicial model category** is an [[enriched model category]] which is enriched over $sSet_{Quillen}$: the category [[sSet]] equipped with its standard [[model structure on simplicial sets]].
 
+=--
 
-This means that a simplicial model category is
+
+Spelled out, this means that a simplicial model category is
 
 * an [[sSet]]-[[enriched category]]
 
-  * which is [[power]]ed and [[copower]]ed over [[sSet]]
+  * which is [[power|powered]] and [[tensoring|tensored]] over [[sSet]]
 
 * with the structure of a [[model category]] on the underlying category $C_0$
 
-* such that for every cofibration $i : A \to B$ and every fibration $p : X \to Y$ in $C_0$ the morphism of [[simplicial set]]s $C(B,X) \stackrel{i^* \times p_*}{\to} C(A,X) \times_{C(A,Y)} C(B,Y)$ is a fibration;
+* such that for every cofibration $i : A \to B$ and every fibration $p : X \to Y$ in $C_0$ the morphism of [[simplicial sets]] $C(B,X) \stackrel{i^* \times p_*}{\to} C(A,X) \times_{C(A,Y)} C(B,Y)$ is a fibration;
 
-* and such that this fibration is an acyclic fibration whenever either $i$ or $p$ are acyclic.
+  * and such that this fibration is an acyclic fibration whenever either $i$ or $p$ are acyclic.
 
 ## Properties
 
@@ -57,7 +74,7 @@ Let $\mathcal{C}$ be a category equipped with the structure of a [[model categor
 +-- {: .num_prop #EquivalenceOfConditions}
 ###### Proposition
 
-The following condition that each make $\mathcal{C}$ into a _simplicial model category_ are equivalent
+The following conditions -- that each make $\mathcal{C}$ into a _simplicial model category_ -- are equivalent:
 
 1. the [[tensoring]] $\otimes : \mathcal{C} \times sSet \to \mathcal{C}$ is a left [[Quillen bifunctor]];
 
@@ -140,38 +157,36 @@ $$
 
 =--
 
+### Derived hom-spaces
+
 +-- {: .num_remark}
 ###### Remark
 
-
-For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant replacement, respectively, $\mathcal{C}(Q X, P A)$ is the correct [[derived hom-space]] between $X$ and $A$. In particular the full $sSet$-enriched [[subcategory]] on cofibrant fibrant objects is therefore an [[simplicially enriched category|sSet-enriched category]] which is fibrant in the [[model structure on simplicially enriched categories]]. Its [[homotopy coherent nerve]] is a [[quasi-category]]. All this are intrinsic incarnatons of the [[(∞,1)-category]] that is [[presentable (∞,1)-category|presented]] by $C$.
+For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant replacement, respectively, $\mathcal{C}(Q X, P A)$ is the correct [[derived hom-space]] between $X$ and $A$ (see the discussion there). In particular the full $sSet$-enriched [[subcategory]] on cofibrant fibrant objects is therefore an [[simplicially enriched category|sSet-enriched category]] which is fibrant in the [[model structure on simplicially enriched categories]]. Its [[homotopy coherent nerve]] is a [[quasi-category]]. All this are intrinsic incarnatons of the [[(∞,1)-category]] that is [[presentable (∞,1)-category|presented]] by $C$.
 
 =--
 
 
 ## Examples
 
-The category $sSet_{Quillen}$ is a [[monoidal model category]] and is hence naturally enriched, as a model category, over itself. This is the archetypical simplicial model category.
+### General
 
-For $C$ any small [[sSet]]-[[enriched category]] and $A$ [[simplicial combinatorial model category]], the [[global model structure on functors]] $[C^{op}, A]_{proj}$ and $[C^{op},A]_{inj}$ are themselved simplicial combinatorial model categories.
+* The thandard [[model structure on simplicial sets]] $sSet_{Quillen}$ is a [[closed monoidal category|closed]] [[monoidal model category]] and is hence naturally enriched, as a model category, over itself. This is the archetypical simplicial model category.
 
-The [[Bousfield localization of model categories|left Bousfield localization]] of these at any set of morphisms is again a combinatorial simplicial model category. Large clases of examples arise this way. In particular for $A = sSet_{Quillen}$ itself this yields the [[model structure on simplicial presheaves]].
+* For $C$ any small [[sSet]]-[[enriched category]] and $A$ [[simplicial combinatorial model category]], the [[global model structure on functors]] $[C^{op}, A]_{proj}$ and $[C^{op},A]_{inj}$ are themselved simplicial combinatorial model categories. See _[[model structure on simplicial presheaves]]_.
 
-### Combinatorial simplicial model categories
+* The [[Bousfield localization of model categories|left Bousfield localization]] of a [[combinatorial simplicial model category]] at any set of morphisms is again a combinatorial simplicial model category. Large clases of examples arise this way. 
 
-A particularly important type of simplicial model categories are those that are also [[combinatorial model category|combinatorial model categories]].
+### Simplicial Quillen equivalent models 
+  {#SimpEquivMods}
 
-A [[combinatorial simplicial model category]] is precisely a _presentation_ for a [[locally presentable (∞,1)-category]]. See there for more details.
-
-## Simplicial Quillen equivalent models {#SimpEquivMods}
-
-While some model categories do not admit an $sSet_{Quillen}$-enrichment, for large classes of model categories one can find an [[Quillen equivalence]] to a model cateory that does have an $sSet_{Quillen}$-enrichment.
+While some model categories do not admit an $sSet_{Quillen}$-enrichment, for large classes of model categories one can find a [[Quillen equivalence]] to a model cateory that does have an $sSet_{Quillen}$-enrichment.
 
 
-+-- {: .num_theorem }
++-- {: .num_theorem #ReedyModelStructureOnSimplicialObjects}
 ###### Theorem
 
-Every left proper combinatorial model category is Quillen equivalent to a simplicial model category.
+Every [[proper model category|left proper]] [[combinatorial model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category.
 
 More precisely: let $A$ be a 
 
@@ -179,79 +194,29 @@ More precisely: let $A$ be a
 
 * [[combinatorial model category|combinatorial]] or [[cellular model category|cellular]]
 
-model category. Then the category $sA := [\Delta^{op}, A]$ of [[simplicial object]]s in $A$ carries the structure of a simplicial model category with respect to its canonical $sSet$-enrichment, such that the functor $ev_0 : sA \to A$ that sends a simplicial object to its degree 0 piece exhibits a [[Quillen equivalence]]
-
-$$
-  c_* : A \stackrel{\to}{\leftarrow} : ev_0
-  \,.
-$$
-
-In $sA$ we have
+model category. Then the [[category of simplicial objects]] $s A := [\Delta^{op}, A]$  in $A$ carries the structure of a simplicial model category, with respect to its canonical $sSet$-enrichment, where
 
 * the weak equivalences are those morphisms that induce weak equivalences in $A$ under [[homotopy colimit]] over $\Delta$;
 
 * the cofibrations are cofibrations in the [[Reedy model structure]] on $[\Delta^{op}, A]$.
 
-* the fibrant objects are precisely the Reedy-fibrant objects all whose face and degenarcy maps are weak equivalences in $A$.
+* the fibrant objects are precisely the Reedy-fibrant objects all whose face and degeneracy maps are weak equivalences in $A$.
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is theorem 1.2 of
-
-* [[Dan Dugger]], _Replacing model categories with simplicial ones_ Trans. Amer. Math. Soc. vol. 353 (2001), #12, 5003-5027. ([web](http://www.uoregon.edu/~ddugger/smod.html))
-
-The simplicial enrichment is theorem 6.1
-
-The characterization of the fibrant objects is theorem 5.7.
-
-=--
-
-
-+-- {: .num_theorem }
-###### Theorem
-
-
-There is a similar model structure on $sA$ where instead the cofibrations are the cofibrations with respect to the  projective [[global model structure on functors]] on $[\Delta^{op}, A]$.
-
-In this the fibrant objects are precisely the simplicial objects that are degreewise fibrant in $A$, and for which all face and degeneracy maps are weak equivalences in $A$. 
-
-The identity functor established a [[Quillen equivalence]] between this model structure and the one discussed above
+With respect to this model structure the functor $ev_0 : s A \to A$ that sends a simplicial object to its degree 0 piece exhibits a [[Quillen equivalence]]
 
 $$
-  s A_{Reedy, loc} \stackrel{\leftarrow}{\to} sA_{proj, loc}
+  (ev_0 \dashv c_*) 
+   : A 
+    \stackrel{\overset{ev_0}{\leftarrow}}{\underset{c_*}{\leftarrow}} 
+   s A 
   \,.
 $$
 
-
 =--
 
-+-- {: .proof}
-###### Proof
+This is ([Dugger, theorem 1.2](#Dugger)). The simplicial enrichment is theorem 6.1 there. The characterization of the fibrant objects is theorem 5.7.
 
-
-This is theorem 1.3 in the above article.
-
-
-=--
-
-
-There is also a version for stable model categories:
-
-+-- {: .num_theorem }
-###### Theorem
-
-Every [[proper model category|proper]] [[cofibrantly generated model category|cofibrantly generated]] [[stable model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category
-
-=--
-
-This is ([RezkSchwedeShipley,prop 1.3](#RezkSchwedeShipley)).
-
-
-
-+-- {: .num_theorem }
++-- {: .num_theorem #AUniquenessTheorem}
 ###### Theorem
 **(uniqueness)**
 
@@ -267,30 +232,80 @@ structure on $s A = [\Delta^{op}, A]$ such that
 
 =--
 
+This is ([RezkSchwedeShipley, theorem 3.1](#RezkSchwedeShipley)).
 
-This is ([RezkSchwedeShipley, theorm 3.1](#RezkSchwedeShipley)).
++-- {: .proof}
+###### Proof
+
+By the discussion at _[model category -- Redundancy of the axioms](model%20category#RedundancyInTheAxioms)_, the classes of cofibrations and fibrant objects already determine a model category structure.
+
+=--
 
 
 
-## Warning on terminology
++-- {: .num_theorem #ProjectiveStructureOnSimplicialObjects}
+###### Theorem
 
-The term _simplicial model category_ for the notion described here is entirely standard, but in itself a bit suboptimal. More properly one would speak of [[simplicially enriched category]], which is different (though not much) from a [[simplicial object]] in [[Cat]]. 
+There is a similar model structure on $s A$ where instead the cofibrations are the cofibrations with respect to the  projective [[global model structure on functors]] on $[\Delta^{op}, A]$.
 
-The other caveat is that there are different model category structures on [[sSet]] and hence even the term $sSet$-[[enriched model category]] is ambiguous.
+In this the fibrant objects are precisely the simplicial objects that are degreewise fibrant in $A$, and for which all face and degeneracy maps are weak equivalences in $A$. 
 
-For instance the [[Andre Joyal]]-[[model structure for quasi-categories]] is an $sSet$-enriched model category, but not for the standard Quillen model structure on the enriching category: since $sSet_{Joyal}$ is a closed [[monoidal model category]] it is enriched over itself, hence is a $sSet_{Joyal}$-enriched model category, not an $sSet_{Quillen}$-enriched one. So in the standrt terminology, $sSet_{Joyal}$ is _not_ a "simplicial model category".
- 
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The [[identity]] functor constitures a [[Quillen equivalence]] between 
+the model structures on $s A$ from theorem \ref{ProjectiveStructureOnSimplicialObjects} and prop. \ref{ReedyModelStructureOnSimplicialObjects}
+
+$$
+  s A_{Reedy, loc} \stackrel{\leftarrow}{\underset{id}{\to}} sA_{proj, loc}
+  \,.
+$$
+
+
+=--
+
+This is ([Dugger, theorem 1.3](#Dugger)).
+
+
+
+There is also a version for stable model categories:
+
++-- {: .num_theorem }
+###### Theorem
+
+Every [[proper model category|proper]] [[cofibrantly generated model category|cofibrantly generated]] [[stable model category]] is [[Quillen equivalence|Quillen equivalent]] to a simplicial model category
+
+=--
+
+This is ([Rezk-Schwede-Shipley, prop 1.3](#RezkSchwedeShipley)).
+
+
+### Combinatorial simplicial model categories
+
+A particularly important type of simplicial model categories are those that are also [[combinatorial model category|combinatorial model categories]].
+
+A [[combinatorial simplicial model category]] is precisely a _presentation_ for a [[locally presentable (∞,1)-category]]. See there for more details.
+
+
+
 
 ## References
 
-section 9.1.5 of
+A standard textbook reference is section 9.1.5 of
 
-* [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 
-of Mathematical Surveys and Monographs , American Mathematical Society, 
+* [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 
 2009.
 
-* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_ American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
+Original results are in
+
+* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
  {#RezkSchwedeShipley}
+
+* [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
+  {#Dugger}
+
 
 section A.3 in
 
