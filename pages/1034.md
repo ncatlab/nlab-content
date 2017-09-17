@@ -162,7 +162,7 @@ Recall that an $\mathcal{E}$-[[indexed category]] is a [[pseudofunctor]] $\mathc
 
 An **internal full subcategory** of $\mathcal{E}$ is a full sub-indexed category $\mathbb{F}$ of $\mathbb{E}$ (that is, a collection of full subcategories $\mathbb{F}^I\subset \mathbb{E}^I$ closed under reindexing) such that there exists a generic $\mathbb{F}$-morphism, i.e. a morphism $el\colon E \to U$ in $\mathbb{F}^U$ such that for any $a\colon A \to I$ in $\mathbb{F}^I$, we have $a \cong f^*(el)$ for some $f\colon I \to U$.  In this case (since $\mathcal{E}$ is [[locally cartesian closed category|locally cartesian closed]]) there exists an [[internal category]] $U_1 \;\rightrightarrows\; U$ in $\mathcal{E}$ such that $\mathbb{F}$ is equivalent, as an indexed category, to the indexed category represented by $U_1 \;\rightrightarrows\; U$.
 
-An internal full subcategory is an **internal full subtopos** if each $\mathbb{F}$ is a logical subtopos of $\mathbb{E}$ (closed under finite limits, exponentials, and containing the subobject classifier).  A universe in $\mathcal{E}$, as defined above, can then be identified with an internal full subtopos satisfying the additional axiom that $U$-small morphisms are closed under composition.
+An internal full subcategory is an **internal full subtopos** if each $\mathbb{F}$ is a [[logical functor|logical]] subtopos of $\mathbb{E}$ (closed under finite limits, exponentials, and containing the subobject classifier).  A universe in $\mathcal{E}$, as defined above, can then be identified with an internal full subtopos satisfying the additional axiom that $U$-small morphisms are closed under composition.
 
 
 ## In the internal logic 
@@ -183,7 +183,7 @@ In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axiom
 
 ## References 
 
-* [[Thomas Streicher]], _Universes in Toposes_, In: _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_ ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz))
+* [[Thomas Streicher]], _Universes in Toposes_, In: _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_ ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz),[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.pdf))
 
 
 [[!redirects universe in a topos]]
