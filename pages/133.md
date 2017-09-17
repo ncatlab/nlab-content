@@ -15,7 +15,7 @@
 
 ## Statement
 
-In its modern form, the _axiom of choice_ for a given [[category]] $C$ is the following statement:
+In its modern category-theoretic form, the _axiom of choice_ for a given [[category]] $C$ is the following statement:
 
 * _Every [[epimorphism]] in $C$ [[split epimorphism|splits]]._
 
@@ -27,9 +27,13 @@ $$
   \,.
 $$
 
-If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]].
+### Variations
 
-If $C$ is a [[extensive category|superextensive]] [[site]], then the axiom of choice for $C$ may be taken to say that, given any [[cover]]ing family $(p_i\colon U_i \to X)_i$, there is an appropriate section $X \to \coprod_i U_i$.
+* If $C$ is not [[balanced category|balanced]], such as a [[regular category|regular]] or [[coherent category]] which is not a [[pretopos]], it may be more appropriate to replace in this statement "epimorphism" by [[regular epimorphism]] (or [[extremal epimorphism]], [[effective epimorphism]], etc.)
+
+* More generally still, if $C$ is a [[site]], then the axiom of choice for $C$ may be taken to say that any [[cover]] $U\to X$ admits a section.  Obviously this refers only to singleton covers, but if $C$ is [[extensive category|superextensive]] then any covering family $(p_i\colon U_i \to X)_i$ can be replaced by a singleton cover $\coprod_u U_i \to X$.
+
+* When working in a category that has an [[internal logic]], we may want to "internalize" the axiom of choice by asserting, not that every epimorphism has a section, but that the statement "every epimorphism has a section" is true in the internal logic.  This is a weaker statement, but often it is the more relevant one.
 
 
 ## Remarks
