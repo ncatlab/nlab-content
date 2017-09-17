@@ -28,12 +28,13 @@ It is the [[coreduced object|coreduced reflection]] of $X$.
 
 ### On $Rings^{op}$
 
-Let [[CRing]] be the [[category]] of [[commutative ring]]s. For $R \in CRing$, write $I \in R$ for the [[nilradical]] of $R$, the [[ideal]] consisting of the nilpotent elements. The canonical projection $R \to R/I$ corresponds in the [[opposite category]] $Ring^{op}$ to the inclusion
+Let [[CRing]] be the [[category]] of [[commutative rings]]. For $R \in CRing$, write $I \in R$ for the [[nilradical]] of $R$, the [[ideal]] consisting of the nilpotent elements. The canonical [[projection]] $R \to R/I$ to the [[quotient]] y the ideal corresponds in the [[opposite category]] $Ring^{op}$ to the inclusion
 
 $$
-  Spec R/I \to Spec R
-  \,.
+  Spec (R/I) \to Spec R
 $$ 
+
+of the [[reduced object|reduced]] part of $Spec R$.
 
 +-- {: .num_defn}
 ###### Definition
@@ -41,13 +42,15 @@ $$
 For $X \in PSh(Ring^{op})$ a [[presheaf]] on $Ring^{op}$ (for instance a [[scheme]]), its **de Rham space** $X_{dR}$ is the presheaf defined by
 
 $$
-  X_{dR} : Spec R \mapsto X(Spec R/I)
+  X_{dR} : Spec R \mapsto X\left(Spec \left(R/I\right)\right)
   \,.
 $$
 
 =--
 
 ## Properties
+
+### As a quotient
 
 +-- {: .num_prop}
 ###### Proposition
@@ -69,6 +72,25 @@ $$
 $$
 
 of the two projections out of the formal neighbourhood of the diagonal.
+
+=--
+
+
+### Relation to jet bundles
+
+For $E \to X$ a [[bundle]] over $X$, its [[direct image]] under [[base change]] along the projection map $X \longrightarrow \Pi_{inf} X$ yields its _[[jet bundle]]_. See there for more.
+
++-- {: .num_remark}
+###### Remark
+
+In terms of [[differential homotopy type theory]] this means that
+forming "jet types" of [[dependent types]] over $X$ is the 
+[[dependent product]] operation along the unit of the [[infinitesimal shape modality]] 
+
+$$
+  jet(E) \coloneqq \underset{X \to \Pi_{inf}X}{\prod} E
+  \,.
+$$
 
 =--
 
