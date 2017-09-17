@@ -65,13 +65,9 @@ It should be closely related to
 
 ## References
 
-A rough pre-preprint is here:
+A preprint is here:
 
-* [[Scott Morrison]] and [[Kevin Walker]], _The Blob Complex_ ([pdf](http://canyon23.net/math/blob1.pdf)
-[web](http://tqft.net/blobs))  
-
-and a recent version on the [ArXiv](http://arxiv.org/PS_cache/arxiv/pdf/1009/1009.5025v1.pdf).
-
+* [[Scott Morrison]] and [[Kevin Walker]], _The blob complex_, [arxiv/1009.5025](http://arxiv.org/abs/1009.5025) (version at homepage: [pdf](http://canyon23.net/math/blob1.pdf); [website](http://tqft.net/blobs))  
 
 Notes from talks can be found [here](http://canyon23.net/math/talks) and [here](http://tqft.net/UCR-blobs1).
 
