@@ -5,8 +5,14 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
 =--
 =--
+=--
+
+
 
 # Contents
 * table of contents
