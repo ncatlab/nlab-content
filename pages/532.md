@@ -5,7 +5,13 @@
 
 ##Idea
 
-There is quite a difference between the [[Kan complex]] structure of the [[nerve|nerve]] of a [[groupoid]], $G$, and that of, say,  a singular complex.  In the first, if we are given a $(n,i)$-[[horn]], then there is _exactly one_ $n$-simplex in  $Ner(G)$, since the $(n,i)$-horn has a chain of $n$-composable arrows of $G$ in it (at least unless $(n,i) = (2,0)$ or $(2,2)$, which cases are slightly different) and that chain gives the required $n$-simplex.  In other words, there is a 'canonical' filler for any horn.  In $Sing(X)$,  there will usually be many fillers.
+There is quite a difference between the [[Kan complex]] structure
+
+1. of the [[nerve|nerve]] $N(\mathcal{G})$  of a [[groupoid]], $\mathcal{G}$, 
+
+1. and that of, say,  a [[path infinity-groupoid|singular complex]] $Sing X$ of some [[topological space]] $X$.  
+
+In the first, if we are given a $(n,i)$-[[horn]], then there is _exactly one_ $n$-simplex in  $Ner(G)$, since the $(n,i)$-horn has a chain of $n$-composable arrows of $G$ in it (at least unless $(n,i) = (2,0)$ or $(2,2)$, which cases are slightly different) and that chain gives the required $n$-simplex.  In other words, there is a 'canonical' filler for any horn.  In $Sing(X)$,  there will usually be many fillers.
 
 Abstracting from this idea, Brown and Higgins developed the idea of a [[cubical T-complex]]. This was a [[cubical set|cubical set]] with in each dimension $n$,  a subset of the $n$-[[cube]]s being declared _'thin'_. The term was adopted to indicate that they, somehow, were of lower dimension than they looked to be.  The theory was initially developed in the thesis of Keith Dakin in a simplicial context, and used by Brown and Higgins who showed that cubical $T$-complexes were equivalent to  [[crossed complex|crossed complexes]].  The corresponding simplicial $T$-complex theory was developed in another thesis, this time by Nick Ashley, (see below).
 
