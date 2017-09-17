@@ -79,7 +79,14 @@ The study of group presentations, their transformations etc. forms part of _comb
 
 ## References
 
-(needed)
+A basic introduction to the theory of group presentations can be found in some standard texts, both on group theory itself and on related areas of low dimensional topology, for instance,
+
+
+ * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
+
+For a deeper treatment of the area, more specialised sources are needed:
+
+* R. C. Lyndon and P. E. Schupp, Combinatorial group theory, Springer, 1977; [toc](http://elib.tu-darmstadt.de/tocs/94684782.pdf).
 
 
 category: group theory
