@@ -151,6 +151,10 @@ Generally, a geometric morphism with logical inverse image is called an
 
 ## Examples
 
+* The [[inverse image]] of any [[base change geometric morphism]] is logical. 
+
+  Generally, [[geometric morphism]] with logical inverse image are called [[atomic geometric morphism]]s.
+
 * The inclusion [[FinSet]] $\hookrightarrow$ [[Set]] is logical.
 
 * More generally, for any [[small category]] $C$ the inclusion
