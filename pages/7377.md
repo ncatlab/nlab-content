@@ -1,1 +1,2 @@
-[[!redirects Lawvere+theory]]
+[[!redirects lawvere theory]]
+[[!redirects lawvere theory]]
