@@ -160,11 +160,11 @@ Reviews and surveys include
 * C. Herbert Clemens, [[Phillip Griffith]], _The intermediate Jacobian of the cubic threefold_, Annals of Mathematics Second Series, Vol. 95, No. 2 (Mar., 1972), pp. 281-356 ([JSTOR](http://www.jstor.org/stable/1970801))
 
 
-
-
-
 * [[Claire Voisin]] ([pdf](http://www.math.polytechnique.fr/~voisin/Articlesweb/griffithsgroup.pdf))
 
+In positive [[characteristic]]:
+
+* {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_ ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
 Applications in [[string theory]]:
 
 
