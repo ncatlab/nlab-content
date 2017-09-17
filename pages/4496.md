@@ -1,9 +1,20 @@
 
-+-- {: .rightHandSide .toc .dropDown}
+
++-- {: .rightHandSide .toc}
+##Context##
++-- {: .dropDown}
+###Cohomology###
++-- {: .hide}
 [[!include cohomology - contents]]
+=--
+=--
+=--
 =--
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 ## Idea
 
@@ -35,7 +46,7 @@ $$
   \,.
 $$
 
-This is then called [[nonabelian cohomology]]. The notion of **hypercohomology** lies in between Eilenberg-MacLane-type cohomology and fully general nonabelian cohomology. For hypercohomology we allow the coefficiebnt object to be a _general sheaf of [[chain complex]]es_ $A_\bullet = [\cdots \to A_1 \to A_0]$, or rather the [[simplicial presheaf]] $\Xi A_\bullet$ represented by that. Then hypercohomology is
+This is then called [[nonabelian cohomology]]. The notion of **hypercohomology** lies in between Eilenberg-MacLane-type cohomology and fully general nonabelian cohomology. For hypercohomology we allow the coefficient object to be a _general sheaf of [[chain complex]]es_ $A_\bullet = [\cdots \to A_2 \to A_1 \to A_0]$, or rather the [[simplicial presheaf]] $\Xi A_\bullet$ represented by that. Then hypercohomology is
 
 $$
   H(X,A_\bullet) := \pi_0\mathbf{H}(X,\Xi A_\bullet)
@@ -43,4 +54,29 @@ $$
 $$
 
 For a bit more on this see also the discussion at [[abelian sheaf cohomology]].
+
+
+## Examples
+
+* [[Deligne cohomology]] is hypercohomology for complexes of sheaves of [[differential form]]s of the form
+
+  $$
+    [
+    \cdots 
+    \to
+    0 
+    \to
+    C^\infty(-,U(1))
+    \stackrel{d_{dR} log}{\to}
+    \Omega^1(-)
+    \stackrel{d_{dR}}{\to}
+    \Omega^2(-)
+    \stackrel{d_{dR}}{\to}
+    \cdots 
+    \Omega^{n-1}(-)
+    \stackrel{d_{dR}}{\to}
+    \Omega^n(-)
+    ]
+    \,.
+  $$  
 
