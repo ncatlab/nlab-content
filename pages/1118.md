@@ -1,10 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
-A group object in a [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$.
+A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$.
 
-# Definition #
+## Definition 
 
 A **group object** in a category $C$ with binary [[product]]s and a [[terminal object]] $*$ is an object $G$ in $C$ and arrows
 $$
@@ -47,7 +65,7 @@ $$
 
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
-## in terms of generalized group elements ##
+### In terms of generalized group elements 
 
 One useful way to characterize [[group object]]s $G$ in a [[cartesian monoidal category]] $C$ is by first sending 
 $G$ with the [[Yoneda embedding]] to a [[presheaf]] on $C$
@@ -104,7 +122,8 @@ etc.
 
 
 
-# Examples #
+## Examples 
+
 * A group object in [[Set]] is a [[group]].
 * A group object in [[Top]] is a [[topological group]].
 * A group object in [[Diff]] is a [[Lie group]].
@@ -115,7 +134,7 @@ etc.
 * A group object in [[Grpd]] is a strict $2$-group again.
 * A group object in [[CRing]]$^{op}$ is a commutative [[Hopf algebra]].
 
-# Theory #
+## Theory 
 
 The basic results of elementary group theory apply to group objects in any category with finite products.  (Arguably, it is precisely the *elementary* results that apply in any such category.)
 
