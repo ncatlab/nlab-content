@@ -14,33 +14,216 @@
 * table of contents
 {:toc}
 
-## Idea ##
+## Separated presheaf
+
+### Idea 
 
 The condition that a [[presheaf]] be a [[sheaf]] may be seen as a condition of unique existence.  A presheaf is separated if it satisfies the uniqueness part.
 
-## Definition ##
+### Definition 
 
-A [[presheaf]] $A \in PSh(S)$ with respect to some [[site]] $S$ is **separated** (or a **monopresheaf**) if for all [[local isomorphism]]s $Y \to X$ the induced morphism $Hom(X,A) \to Hom(Y,A)$ is a [[monomorphism]].
+Let $S$ be a [[site]].
 
-This definition generalizes to any system of [[local isomorphisms]] on any topos, such as that obtained from any [[Lawvere-Tierney topology]], or equivalently any [[subtopos]].
+Recall that a [[sheaf]] on $S$ is a presheaf $A \in PSh_S$ such that for all [[local isomorphism]]s $Y \to X$ the induced morphism  $PSh_S(X,A) \to PSh_S(Y,A)$ (under the [[hom-functor]] $PSh_S(-,A)$) is an [[isomorphism]].  (For an arbitrary class of morphisms $V$, the corresponding condition is called being a [[local object]].)  
+It is sufficient to check this on the [[dense monomorphism]]s instead of all local isomorphisms.  This is equivalent to checking [[cover]]ing [[sieve]]s.
+
+
++-- {: .un_defn}
+###### Definition
+
+A [[presheaf]] $A \in PSh(S)$ is called **separated** (or a **monopresheaf**) if for all [[local isomorphism]]s $Y \to X$ the induced morphism $Hom(X,A) \to Hom(Y,A)$ is a [[monomorphism]].
 
 More generally, for a class $V$ of arrows in a category $C$, an object $A\in C$ is $V$-**separated** if for all morphisms $Y\to X$ in $V$, the induced morphism $Hom(X,A)\to Hom(Y,A)$ is a monomorphism.
 
-## Basic results ## 
+=--
 
-* The full subcategory of separated presheaves in a presheaf category is a [[quasitopos]]. 
 
-* There are [[adjoint functor|left adjoints]] to the forgetful functors from sheaves of sets to separated presheaves of sets (called **sheafification**) and from separated presheaves of sets to presheaves of sets (called **monosheafification**); both of these can be described by the same operation on presheaves of sets: the Grothendieck [[plus construction]].  Thus, [[sheafification]] in the usual sense (the left adjoint to the forgetful functor from sheaves of sets all the way down to presheaves of sets) may be obtained by applying the plus construction twice.  This is all for presheaves of sets; some generalizations to other categories exist.
++-- {: .un_remark}
+###### Remark
 
-Both of these generalize to systems of local isomorphisms on any topos.
+As for sheaves, it is sufficient to check the separartion condition on the [[dense monomorphism]]s, hence on the [[sieve]]s.
 
-## Remarks ##
+For $\{p_i : U_i \to U\}$ a [[covering]] family of an object $U \in S$, the condition is that if $a,b \in A(U)$ are such that for all $i$ we have $A(p_i)(a) = A(p_i)(b)$ then already $a = b$.
 
-Recall that a [[sheaf]] on $S$ is a presheaf $A$ such that for all local isomorphisms $Y \to X$ the induced morphism is an *[[isomorphism]]*.  (For an arbitrary class of morphisms $V$, the corresponding condition is called being a [[local object]].)  So a separated presheaf is close to being a sheaf, but not necessarily quite there.
+=--
 
-As with sheaves, it is sufficient to check only the [[dense monomorphism]]s instead of all local isomorphisms.  This is equivalent to checking [[cover]]ing [[sieve]]s.
++-- {: .un_remark}
+###### Remark
+
+The definition generalizes to any system of [[local isomorphisms]] on any [[topos]], such as that obtained from any [[Lawvere-Tierney topology]], or equivalently any [[subtopos]].
+
+=--
+
+
+### Properties
+
+
++-- {: .un_prop}
+###### Proposition
+
+The full [[subcategory]]
+
+$$
+  i : Sep(S) \hookrightarrow PSh(S)
+$$
+
+of separated presheaves in a presheaf category is 
+
+* a [[reflective subcategory]];
+
+* a [[quasitopos]]. 
+
+=--
+
+Being a reflective subcategory means that there is a [[left adjoint]] functor to the inclusion
+
+$$
+  (L_{sep} \dashv i) : Sep(S) \stackrel{\overset{L_{sep}}{\leftarrow}}{\hookrightarrow} 
+  PSh_S
+  \,.
+$$
+
++-- {: .un_def}
+###### Definition
+
+For $A \in PSh_S$ the **separafication** $L_{sep}A$ of $A$ is the presheaf that assigns equivalence classes
+
+$$
+  L_{sep}A : U \mapsto A(U)/\sim_U
+  \,,
+$$
+
+where $\sim_U$ is the [[equivalence relation]] that relates two elements $a \sim b$ iff there exists a [[covering]] $\{p_i : U_i \to U\}$ such that $A(p_i)(a) = A(p_i)(b)$ for all $i$.
+
+This construction extends in the evident way to a functor
+
+$$
+  L_{sep} : PSh(S) \to Sep(S)
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+This functor $L_{sep}$ is indeed a [[left adjoint]] to the inclusion $i : Sep(S) \hookrightarrow PSh(S)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A \in PSh(S)$ and $B \in Sep(S) \hookrightarrow PSh(S)$. We need to show that morphisms $f : A \to B$ in $PSh_C$ are in natural bijection with morphisms $L_{sep} A \to B$ in $Sep(S)$.
+
+For $f$ such a morphism and $f_U : A(U) \to B(U)$ its component over any object $U \in S$, consider any covering $\{U_i \to U\}$, let $S(U_i) \to U$  be the corresponding [[sieve]] and consider the [[commuting diagram]]
+
+$$
+  \array{
+    \{(a_i \in A(U_i)) | \cdots \}
+    &\to& 
+   \{(b_i \in F(U_i)) | \cdots \}
+    \\ 
+    \uparrow && \uparrow
+    \\
+    A(U) &\stackrel{f_U}{\to}& B(U)
+  }
+$$
+
+obtained from the naturality of $PSh_S(S(U_i) \to U, A \stackrel{f}{\to} B)$.
+
+If for $a,a' \in A(U)$ two elements that are not equal their restrictions to the cover become equal in that  $\forall i :  a|_{U_i} = a'|_{U_i}$, then also $f(a|_{U_i}) = f(a'|_{U_i})$ and since the right vertical morphism is monic there is a _unique_ $b \in B(U)$ mapping to the latter. The commutativity of the diagram then demands that $f(a) = f(a') = b$.
+
+Since this argument applies to all covers of $U$, we have that $f_U$ factors uniquely through the projection map $A(U) \to A(U)/\sim_U =: L_{sep}(U)$ onto the quotient. Since this is true for every object $U$ we have that $f$ factors uniquely through $A \to L_{sep}A$.
+
+=--
+
+
+## Biseparated presheaf
+
+### Idea
+
+Often one is interested in separated presheaves with respect to one [[coverage]] that are sheaves with respect to another coverage. These are called _biseparated presheaves_ . 
+
+This typically arises if a [[reflective subcategory]]
+
+$$
+  C \stackrel{\stackrel{}{\leftarrow}}{\hookrightarrow}
+  Sh(S)
+$$
+
+of a [[sheaf topos]] is given. This is the [[localization]] at a set $W$ of morphisms in $Sh(S)$, with $C$ the full subcategory of all [[local object]]s $c$: objects such that $Sh_(S)(w,c)$ is an isomorphism for all $w \in W$. A $W$-separated object is then called a _biseparated presheaf_ on $S$ and their collection $BiSep(S)$ factors the reflective inclusion as
+
+$$
+  C 
+    \stackrel{\leftarrow}{\hookrightarrow}
+  BiSep(S) 
+    \stackrel{\leftarrow}{\hookrightarrow}
+  Sh(S)
+  \,.
+$$
+
+### Definition
+
++-- {: .un_defn}
+###### Definition
+
+A **bisite** is a [[small category]] $S$ equipped with two [[coverage]]s: $J$ and $K$ such that $J \subset K$.
+
+A presheaf $A \in PSh_S$ is called $(J,K)$-**biseparated** if it is
+
+* a [[sheaf]] with respect to $J$;
+
+* a separated presheaf with respect to $K$.
+
+Write 
+
+$$
+  BiSep_{(J,K)}(S) \hookrightarrow Sh_J(S) \hookrightarrow PSh(S)
+$$ 
+
+for the full [[subcategory]] on biseparated presheaves.
+
+=--
+
+
+### Properties
+
++-- {: .un_prop}
+###### Proposition
+
+Biseparated presheaves form a [[reflective subcategory]] of all sheaves
+
+$$
+  BiSep_{(J,K)}(S)
+  \stackrel{\stackrel{L^K_{sep}}{\leftarrow}}{\hookrightarrow}
+  Sh_J(S)
+  \,.
+$$
+
+=--
+
+See [[quasitopos]] for the proof.
+
+
+## References
+
+The general theory of biseparated presheaves and Grothendieck quasitoposes is in section C.2.2 of
+
+* [[Peter Johnstone]], [[Sketches of an Elephant]] .
+
+A concrete description of separafication appears on page 43 of
+
+* [[Angelo Vistoli]], _Notes on Grothendieck topologies,
+fibered categories and descent theory_ ([pdf](http://homepage.sns.it/vistoli/descent.pdf))
+
 
 [[!redirects monopresheaf]]
 [[!redirects separated presheaves]]
 [[!redirects separated object]]
 [[!redirects separated objects]]
+
+[[!redirects biseparated presheaf]]
+[[!redirects biseparated presheaves]]
+[[!redirects biseparated object]]
+[[!redirects biseparated objects]]
