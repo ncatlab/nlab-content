@@ -59,7 +59,7 @@ whereas any old [[(∞,1)-topos]] is a collection of _[[space]]s_ , a [[cohesive
 
 Now, in a [[discrete space|discrete object]] there are no non-trivial paths (formally because   by the fact that $Disc$  is [[full and faithful functor|full and faithful]] and [[left adjoint]] to $\Pi$ we haver $\Pi Disc \simeq Id$), so there is "no dynamics" in a discrete object hence "no becoming", if one wishes. Conversely in a [[codiscrete space|codiscrete object]] every sequence of points whatsoever counts as a path, hence the distinction between the space and its "dynamics" disappears and so we have "pure becoming", if one wishes.
 
-Notice next that every [[adjoint triple]] induces an [[adjoint functor|adjoint pair]] of [[monad]]s. In the present situation we get
+Notice next that every [[adjoint triple]] induces an [[adjoint monad]]. In the present situation we get
 
 $$
   (\mathrm{Disc} \;\Gamma \dashv \mathrm{coDisc}\; \Gamma) : \mathcal{E} \to \mathcal{E}
