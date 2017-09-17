@@ -45,11 +45,12 @@ If $C$ is [[braided monoidal category|braided]] then left and right adjoints in 
 +-- {: .un_remark}
 ###### Remark
 
-Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  But if we define right duals to be the same as right adjoints in $\mathbf{B}C$ (where $\otimes$ is interpreted as composition, with the traditional Leibnizian order of composition as opposed to diagrammatic order), then a right dual of $A$ is an object $A^*$ equipped with a **unit** (or *coevaluation*)
-$$i: I \to A^* \otimes A $$
+Unfortunately, conventions on left and right vary and sometimes contradict their use for adjoints.  A common convention is that a *right dual* of $A$ is an object $A^*$ equipped with a **unit** (or *coevaluation*)
+$$i: I \to A \otimes A^* $$
 and **counit** (or *evaluation*)
-$$e : A \otimes A^* \to I $$
-satisfying the 'triangle identities' familiar from the concept of [[adjunction]].
+$$e : A^* \otimes A \to I $$
+satisfying the 'triangle identities' familiar from the concept of [[adjunction]].  With this convention, if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in [[diagrammatic order]], then right duals in $C$ are the same as right adjoints in $\mathbf{B}C$ --- whereas if $\otimes$ in $C$ is interpreted as composition in $\mathbf{B} C$ in classical 'Leibnizian' order, then right duals in $C$ are the same as *left* adjoints in $\mathbf{B} C$.
+
 Of course, in a [[symmetric monoidal category]], there is no difference between left and right duals.
 
 =--
