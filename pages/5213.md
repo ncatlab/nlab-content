@@ -437,4 +437,6 @@ $$
 
 * [[path integral as a pull-push transform]]
 
+* [[polynomial functor]]
+
 * [[pure motives]], [[motives in physics]], [[motivic quantization]]
