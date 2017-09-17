@@ -27,6 +27,8 @@ Historically, this amplitude first arose in [[dual resonanace models]] and the r
 
 * In [[p-adic string theory]] (see there) one considers [[adelic integral]]-variants of the Veneziano amplitude.
 
+* [[vacuum amplitude]]
+
 ## References
 
 * [[Michael Green]], [[John Schwarz]], [[Edward Witten]], section 1.1 of _Superstring theory_ Volume 1, Cambridge Monographs on Mathematical Physics, 1987
