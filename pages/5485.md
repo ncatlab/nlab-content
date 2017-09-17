@@ -16,9 +16,13 @@
 
 ## Definition
 
-A _$(2,1)$-site_ is an [[(∞,1)-site]]. whose underlying [[(∞,1)-category]] is a [[(2,1)-category]].
+A _$(2,1)$-site_ is an [[(∞,1)-site]]. whose underlying [[(∞,1)-category]] is a [[(2,1)-category]].  Equivalently, it is a [[2-site]] whose underlying [[2-category]] is a [[(2,1)-category]].
 
-An [[(∞,1)-sheaf]] on a $(2,1)$-site is a [[(2,1)-sheaf]]/[[stack]].
+An [[(∞,1)-sheaf]] (or equivalently, a [[2-sheaf]]) on a $(2,1)$-site is called a [[(2,1)-sheaf]]/[[stack]].
+
+## Properties
+
+The (2,1)-category of (2,1)-sheaves on a (2,1)-site is a [[Grothendieck (2,1)-topos]].
 
 ## Related concepts
 
