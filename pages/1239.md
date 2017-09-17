@@ -26,6 +26,8 @@
 
   * [[vector space]],  [[affine space]], [[symplectic vector space]]
 
+  * [[character]]
+
   * [[action]], [[module]], [[equivariant object]]
 
   * [[bimodule]], [[Morita equivalence]], [[induced representation]]
@@ -47,7 +49,6 @@
   * [[Borel-Weil theorem]], [[Beĭlinson-Bernstein localization]]
   * [[D-module]], [[perverse sheaf]], [[BBDG decomposition theorem]]
   * [[Kazhdan-Lusztig theory]]
-
   * [[Dirac induction]]
 
 * [[Grothendieck group]], [[lambda-ring]], [[symmetric function]], [[formal group]]
@@ -59,6 +60,7 @@
 * [[Eilenberg-Moore category]], [[algebra over an operad]], [[actegory]], [[crossed module]]
 
 * [[reconstruction theorem]]s
+
 
 ## References
  {#References}
