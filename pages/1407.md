@@ -87,8 +87,9 @@ For a list of literature see
 
 * [[books about string theory]].
 
+We will also keep list of [[critics of string theory]].
 
-String theory leads a life somewhere in between the usual physics literature and the usual math literature. Large parts of it are still lacking a satisfactory mathematical formulation. But every now and then one aspect of the huge edifice of string theory finds a well defined formalization and branches off as a branch of pure mathematics. Famous examples are
+String theory leads a life somewhere in between the usual physics literature and the usual math literature. Large parts of it are still lacking a satisfactory mathematical formulation. But every now and then some aspect of string theory, some mathematical gadget or consequence found there is isolated and redefined independently and mathematically rigorously, retaining many features originally predicted. Famous examples are
 
 * [[FQFT|topological field theory]]
 
@@ -98,6 +99,7 @@ String theory leads a life somewhere in between the usual physics literature and
 
   * [[TCFT]]
 
+    * [[Gromov-Witten invariant]]
     * [[homological mirror symmetry]]
 
       * [[A-infinity category|A-infinity categories]]
