@@ -49,6 +49,7 @@ A cohesive $(\infty,1)$-topos is an $(\infty,1)$-topos whose terminal [[global s
 
 Notice that despite this motivation, the generic object in a cohesive $(\infty,1)$-topos is far from being a bare $\infty$-groupoid with extra structure: while the functor $\Gamma$ does produce the $\infty$-groupoid underlying an object $X$ in the cohesive $(\infty,1)$-topos, it may happen that $X$ is very non-trivial but that nevertheless $\Gamma(X)$ is $k$-[[truncated]] for very small $k$. The [[sub-(∞,1)-category]] of objects in $\mathbf{H}$ that we do may think of as bare $\infty$-groupoids with extra structure is that of the [[concrete sheaf|concrete (∞,1)-sheaves]] inside $\mathbf{H}$.
 
+
 ## Definition
 
 +-- {: .un_defn}
@@ -89,10 +90,15 @@ $$
   \,.
 $$
 
+For a cohesive $(\infty,1)$-topos we also demand that 
+
+* $\Pi$ preserves [[(∞,1)-limit|(∞,1)-product]]s.
 
 =--
 
 ## Properties
+
+### Shape
 
 +-- {: .un_prop}
 ###### Proposition
@@ -121,6 +127,35 @@ are [[equivalence in a quasi-category|equivalent]] to the identity $(\infty,1)$-
 
 
 =--
+
+### Geometric homotopy
+
+Since $\mathbf{H}$ is an [[(∞,1)-topos]] it carries canonically
+the structure of a [[cartesian closed (∞,1)-cateory]]. For  
+$X, Y \in \mathbf{H}$, write $Y^X \in \mathbf{H}$ for the corresponding
+[[internal hom]].
+
+Since $\Pi : \mathbf{H} \to $ [[∞Grpd]] preserves products, we have 
+for all $X,Y, Z \in \mathbf{H}$ canonically induced a morphism
+
+$$
+  \Pi(Y^X) \times \Pi(Z^Y)
+   \stackrel{\simeq}{\to}
+  \Pi(Y^X \times Z^Y)
+  \stackrel{\Pi(comp_{X,Y,Z})}{\to}
+  \Pi(Z^X)
+  \,.
+$$
+
+This should yield an [[(∞,1)-category]] $\tilde \mathbf{H}$
+with the same objects as $\mathbf{H}$ and
+
+$$
+  \tilde \mathbf{H}(X,Y) := \Pi(Y^X)
+  \,.
+$$
+
+
 
 ## Interpretation {#Interpretation}
 
