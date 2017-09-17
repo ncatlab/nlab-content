@@ -1,9 +1,18 @@
 
-Edward Witten
+Edward Witten is a theoretical physicist at the Institute for Advanced Study.
 
 * [website](http://www.sns.ias.edu/~witten/)
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Edward_Witten)
+
+Witten's work originates in theoretical [[quantum field theory]] and stands out as making numerous and deep connections between that and mathematical [[geometry]] and [[cohomology]]. In the course of the 1980s Witten became the central and leading figure in [[string theory]].
+
+Insight gained from the study of quantum field theoris and specifically those relevant in [[string theory]] led Witten to mathematical results deep enough to gain him a [[Fields medal]], see [below](#FieldMedalWork). Indeed, a whole list of sub-fields in mathematics originate in aspects of Witten's work in QFT/string theory and carry his name, such as [[Chern-Simons theory]] which many people call "Chern-Simons-Witten theory", [[Wess-Zumino-Witten theory]], the [[Witten genus]], [[Gromov-Witten theory]], [[Seiberg-Witten theory]], [[Rozansky-Witten invariant]], the [[Witten cojecture]].  Other parts are still waiting to be absorbed into the mathematical literature such as [[Horava-Witten theory]], [[Diaconescu-Moore-Witten anomaly]] etc..
+
+Despite the deeply theoretical and abstract mathematical aspects of his work, Witten has visibly always been motivated by fundamental questions in the [[phenomenology]] of the [[standard model of particle physics]] [[standard model of cosmology|and cosmology]]. (Indeed, some of his work on [[scattering amplitudes]] crucially enters into the [[experiment|experimental]] detection of the [[Higgs particle]], for more on this see at _[[string theory results applied elsewhere]]_. ) He prominently argued that specifically [[heterotic string theory]] is a plausible candidate for a fundamental [[GUT|grand unified gauge field theory]] including [[quantum gravity]]. 
+
+Since about the turn of the millennium Witten has tended to more esoteric mathematical aspects of string theory, such as its relation to [[Khovanov  homology]] and [[geometric Langlands duality]] which apparently the string theory community at large is following less enthusiastically than it was the case during the excited 1990s.
+
 
 #Contents#
 * table of contents
