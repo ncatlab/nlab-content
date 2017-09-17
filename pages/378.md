@@ -232,6 +232,12 @@ Fibrant replacement in $sSet_{Quillen}$ models the process of _$\infty$-groupoid
 
 * [[Kan fibrant replacement]].
 
+## Related concepts
+
+* [[model structure on topological spaces]], [[model structure on simplicial presheaves]]
+
+* [[model structure on semi-simplicial types]]
+
 ## References 
 
 Dan Quillen's original proof in
