@@ -2,16 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum physics
+#### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
-#### Differential geometry
+#### Symplectic geometry
 +--{: .hide}
-[[!include synthetic differential geometry - contents]]
+[[!include symplectic geometry - contents]]
 =--
 =--
 =--
+
 
 
 #Contents#
