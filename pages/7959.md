@@ -177,22 +177,22 @@ More such "heterotic standard models" are discussed in the following articles, w
 
 A survey is here:
 
-* Lara Andersen, _New aspects of heterotic geometry and phenomenology_, talk at String2012, Munich 2012 ([pdf](http://wwwth.mpp.mpg.de/members/strings/strings2012/strings_files/program/Talks/Wednesday/Anderson.pdf))
+* [[Lara Anderson]], _New aspects of heterotic geometry and phenomenology_, talk at String2012, Munich 2012 ([pdf](http://wwwth.mpp.mpg.de/members/strings/strings2012/strings_files/program/Talks/Wednesday/Anderson.pdf))
 
 Original articles in this program include
 
 
-* Lara B. Anderson, James Gray, Andre Lukas, Eran Palti, _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
+* [[Lara Anderson]], James Gray, Andre Lukas, Eran Palti, _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
-* Lara B. Anderson, James Gray, Andre Lukas, Eran Palti, _Heterotic Line Bundle Standard Models_ ([arXiv:1202.1757](http://arxiv.org/abs/1202.1757))
+* [[Lara Anderson]], James Gray, Andre Lukas, Eran Palti, _Heterotic Line Bundle Standard Models_ ([arXiv:1202.1757](http://arxiv.org/abs/1202.1757))
 
-* Lara Anderson, James Gray, Andre Lukas, Eran Palti, _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
+* [[Lara Anderson]], James Gray, Andre Lukas, Eran Palti, _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
 
 The issue of [[moduli stabilization]] in these kinds of models is discussed in 
 
 * Michele Cicoli, Senarath de Alwis, Alexander Westphal, _Heterotic Moduli Stabilization_ ([arXiv:1304.1809](http://arxiv.org/abs/1304.1809))
 
-* Lara B. Anderson, James Gray, Andre Lukas, Burt Ovrut, _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
+* [[Lara Anderson]], James Gray, Andre Lukas, Burt Ovrut, _Vacuum Varieties, Holomorphic Bundles and Complex Structure Stabilization in Heterotic Theories_ ([arXiv:1304.2704](http://arxiv.org/abs/1304.2704))
 
 List of models are discussed in 
 
@@ -202,7 +202,7 @@ List of models are discussed in
  {#ReferencesTypeIIModels}
 
 
-Reviews of intersecting brane models sin type II include
+Reviews of intersecting brane models in [[type II string theory]] include
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], Boris Kors, [[Dieter Lüst]], _The Standard Model on the Quintic_, Summary of Talks at SUSY02, 1st Intl. Conference on String Phenomenology in Oxford, Strings 2002 and 35th Ahrenshoop Symposium. ([arXiv:hep-th/0210083](http://arxiv.org/abs/hep-th/0210083))
 
@@ -217,7 +217,7 @@ Reviews of intersecting brane models sin type II include
 
 Discussion of [[GUT]] models via [[F-theory]] is in 
 
-* Chris Beasley, Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
+* [[Chris Beasley]], Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
 
 #### M-theory models
