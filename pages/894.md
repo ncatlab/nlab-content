@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
+=--
+=--
+
+
 # Function sets
 * table of contents
 {: toc}
@@ -11,6 +22,12 @@ Given [[sets]] $A$ and $B$, the __function set__ $A^B$ is the set of all [[funct
 ## Generalisations
 
 Thinking of [[Set]] as a [[locally small category]], this is a special case of a [[hom-set]].  Thinking of $\Set$ as a [[cartesian closed category]], this is a special case of an [[exponential object]], which is a special case of an [[internal hom]].
+
+## Related concepts
+
+* [[function type]]
+
+* [[internal hom]]
 
 
 category: foundational axiom
