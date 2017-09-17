@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Bryce_DeWitt)
+
+## related entries
+
+* [[supermanifold]]
+
+category: people
