@@ -72,4 +72,4 @@ A general picture of bundle $n$-gerbes (with connection) as [[circle n-bundle wi
 * Pawel Gajer, _Geometry of Deligne cohomology_ Invent. Math., 127(1):155--207 (1997) ([arXiv](http://arxiv.org/abs/alg-geom/9601025))
 
 
-[[!redirects bundle 2-gerbe]]
+[[!redirects bundle 2-gerbes]]
