@@ -41,9 +41,9 @@ C(c_1 \otimes \cdots \otimes c_n,\; c)
   \,,
 $$
 
-This comes with the obvious composition operation induced from the composition in $C$. Moreover, in the symmetric case there is a canoncial action of the symmetric group induced.
+This comes with the obvious composition operation induced from the composition in $C$. Moreover, in the symmetric case there is a canonical action of the symmetric group induced.
 
-For $S \subset Obj(C)$ any subset of objects, the **$S$-colored endomorphism operad** of $C$ is the restrictoin of the endomorphism operad defined to the set of colors being $S$.
+For $S \subset Obj(C)$ any subset of objects, the **$S$-colored endomorphism operad** of $C$ is the restriction of the endomorphism operad defined to the set of colors being $S$.
 
 In particular, the endomorphism operad of a single object $c \in C$, often denoted $End(c)$, is the single-colored operad whose $n$-ary operations are the morphism $c^{\otimes n}\to c$ in $C$.
 
