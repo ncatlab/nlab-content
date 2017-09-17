@@ -30,20 +30,21 @@ Every smash product algebra of the form $A\sharp H$ is naturally equipped with a
 If $H$ is a Hopf algebra, then the homomorphism $\gamma$ is a convolution invertible linear map with convolution inverse $\gamma^{-1}$ defined by $\gamma^{-1}(h)=\gamma(Sh)$ for $h\in H$, where $S$ is the antipode of $H$. Conversely, 
 
 **Proposition** _Let $H$ be a Hopf algebra, $E$ a right $H$-comodule algebra, and $\gamma:H\to E$ a map of right $H$-comodule algebra. Clearly $H$ acts on $E^{co H}$ by $h\triangleright a = \sum \gamma(h_{(1)}) a\gamma(Sh_{(2)})$ for $a\in E^{co H}$ and $h\in H$, where the product on the right-hand side is in $E$. Conclusion: 
-$E\cong E^{co H}\sharp H$ where the smash product is with respect to that action._
+$E\cong E^{co H}\sharp H$ where the smash product is with respect to that action.
 
-## Cocycled crossed product ##
+## Cocycled crossed product
 
-There is also a more general cocycled crossed product. In that case a similar convolution invertible map $\gamma$ is constructed, which is however just an $H$-comodule map, but it fails to be a homomorphism of algebras; the cocycle is needed to express the failure. 
+There is also a more general cocycled crossed product. For a bialgebra $H$ and an algebra $U$, if we consider the category $C(U,H)$ of extensions $U\hookrightarrow E$ which are compatibly left $U$-modules and right $H$-comodules, and where $U=E^{\mathrm{co}H}$, then the crossed product algebras are the canonical representatives of [[cleft Hopf-Galois extension]]s  which are a more invariant concept.
 
-More explicitly, let $U$ be an algebra, $H$ a Hopf algebra, $\triangleright : H\otimes U\to U$ a [[measuring]], i.e. a $k$-linear map satisfying $h\triangleright(u v)=\sum (h_{(1)}\triangleright u)(h_{(2)}\triangleright v)$ for all $h\in H$, $u,v\in U$, and which we assume unital, i.e. $h\triangleright 1 = \epsilon(h)1$ for all $h\in H$. We do _not_ assume that $\triangleright$ is an action. 
+Let $U$ be an algebra, $H$ a Hopf algebra, $\triangleright : H\otimes U\to U$ a [[measuring]], i.e. a $k$-linear map satisfying $h\triangleright(u v)=\sum (h_{(1)}\triangleright u)(h_{(2)}\triangleright v)$ for all $h\in H$, $u,v\in U$, and which we assume unital, i.e. $h\triangleright 1 = \epsilon(h)1$ for all $h\in H$. We do _not_ assume that $\triangleright$ is an action. 
 
-Let further an *invertible*  $k$-linear map $\sigma \in Hom_k(H\otimes H,U)$ be given. 
+Let further a (convolution) *invertible*  $k$-linear map $\sigma \in Hom_k(H\otimes H,U)$ be given. 
 
 We say that $\sigma$ is a **2-cocycle** (relative to the measuring $\triangleright$) if the following two cocycle identities hold
 
 $$
-h\triangleright (k\triangleright u) = \sum \sigma(h_{(1)},k_{(1)})( (h_{(2)}k_{(2)})\triangleright u ) \sigma^{-1}(h_{(3)},k_{(3)})
+h\triangleright (k\triangleright u) = \sum \sigma(h_{(1)},k_{(1)})
+((h_{(2)}k_{(2)})\triangleright u) \sigma^{-1}(h_{(3)},k_{(3)})
 $$
 
 $$
@@ -62,7 +63,7 @@ $$
 
 for all $h,k\in H$, $u,v\in U$. The cocycled crossed product is an associative algebra iff $\sigma$ is a cocycle. 
 
-If so, we call $U\sharp_\sigma H$ **cocycled crossed product algebra**. Map $1\otimes\Delta_H:U\sharp_\sigma H\to (U\sharp_\sigma H)\otimes H$ is a right $H$-coaction, making $U\sharp_\sigma H$ into a right $H$-comodule algebra, which is a special kind of a [[Hopf-Galois extension]] of $U$. A class of $H$-extensions called [[cleft extensions]] are always isomorphic (as $H$-extensions) to the cocycled crossed product algebras. 
+If so, we call $U\sharp_\sigma H$ **cocycled crossed product algebra**. Map $1\otimes\Delta_H:U\sharp_\sigma H\to (U\sharp_\sigma H)\otimes H$ is a right $H$-coaction, making $U\sharp_\sigma H$ into a right $H$-comodule algebra, which is cleft extensions]] are always isomorphic (as $H$-extensions) to the cocycled crossed product algebras. 
 
 If $\sigma(h,k)=\epsilon(h)\epsilon(k)1_U$ then we say that $\sigma$ is a trivial cocycle and then the compatibility conditions above reduce to demanding that the measuring $\triangleright$ is an action. The cocycled crossed product then reduces to the usual smash product algebra.  
 
@@ -77,6 +78,7 @@ $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
 
 ## Literature
 
+* Y. Doi, M. Takeuchi, _Cleft comodule algebras for a bialgebra_, Comm. Alg. __14__ (1986) 801--818
 * Y. Doi, _Equivalent crossed products for a Hopf
 algebra_, Comm. Alg. __17__ (1989), 3053--3085, [MR91k:16027](http://www.ams.org/mathscinet-getitem?mr=1030610), [doi](ttp://dx.doi.org/10.1080/00927878908823895)
 
@@ -86,3 +88,6 @@ AMS 1993.
 * S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995.
 [[!redirects Hopf smash product]]
 [[!redirects smash product algebra]]
+[[!redirects cleft extension]]
+[[!redirects cleft Hopf-Galois extension]]
+[[!redirects cleft comodule algebra]]
