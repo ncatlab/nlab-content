@@ -159,6 +159,7 @@ The _[[Verlinde algebra]]_.
 
 
 ### Deprojectivization, Cancelling of central charge, topological modular functor
+ {#TopologicalLift}
 
 By prop. \ref{FlatConnectionForVanishingCentralCharge} and prop. \ref{CentralChargeOfDeterminantLine}, if $E$ is a modular functor of central charge $c$ then the [[tensor product]]
 
