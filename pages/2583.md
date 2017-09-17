@@ -3,6 +3,8 @@
 </div>
 
 
+> under construction
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -214,7 +216,41 @@ $$
   \,.
 $$
 
-The resolution $\mathbf{B}Q$ may be chosen as follows: 1-cells are smooth paths in $Spin(n)$ starting at the neutral element, 2-cells smooth 2-[[simplex]]es in $Spin(n)$, 3-cells homotopy classes of smooth 3-[[simplex]]es. All other cells are degenerate. The projection to $\mathbf{B}Spin(n)$ takes paths to their endpoint. Because $\pi_2(Spin(n)) = 0$ this is indeed a weak equivalence.
+The resolution $\mathbf{B}Q$ may be chosen as the 3-[[coskeleton]] on the complex whose 1-cells are smooth paths in $Spin(n)$ starting at the neutral element, 2-cells smooth 2-[[simplex]]es in $Spin(n)$, 3-cells smooth 3-[[simplex]]es
+
+$$
+  \mathbf{B}Q
+  :=
+  cosk_3
+  \left(
+  \array{
+    \\     
+    hom_*(\Delta^3_{Diff}, G)
+   \\    
+    \downarrow \downarrow \downarrow\downarrow
+    \\     
+    hom_*(\Delta^2_{Diff}, G)
+   \\    
+    \downarrow \downarrow \downarrow
+    \\     
+    hom_*(\Delta^1_{Diff}, G)
+    \\
+    \downarrow \downarrow
+    \\
+    *
+  }
+  \right)
+$$
+
+
+
+
+The projection to $\mathbf{B}Spin(n)$ takes paths to their endpoint. Because $\pi_2(Spin(n)) = 0$ this is indeed a weak equivalence, where we  make use of the [[Steenrod approximation theorem]] (specifically prop 13 [here](http://www.emis.de/journals/AM/09-2/am1753.pdf#page=8)):
+
+the morphism $\mathbf{B}Q \to \mathbf{B} G$ is an acyclic Kan-fibration: given the boundary of a smooth $k$-simplex in $G$ for $k \leq 3$, there is a continuous map flling it and hence also a smooth $k$-simplex filling it. Above degree 3 both $\mathbf{B}Q$ and $\mathbf{B}Q$ have unique sphere fillers.
+
+
+
 
 Then let $\mu_3 \in \Omega^3(Spin(n))$ be the above-mentioned de-Rham representative of the generator of $H^3(Spin(n), \mathbb{Z}) \simeq \mathbb{Z}$.  The morphism $f$ in the above reads in 3-simplices $[\phi : \Delta^3_{Diff} \to Spin(n)]$ and sends them to
 
