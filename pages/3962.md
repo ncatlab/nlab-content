@@ -1,4 +1,15 @@
-A **local field** is a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] (non-discrete) [[topological space|topological]] [[field]]. Any local field is one of the following types: 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+A **local field** is a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] (non-discrete) [[topological space|topological]] [[field]]. 
+
+## Properties
+
+Any local field is one of the following types: 
 
 * Characteristic zero. In this case local fields $F$ are completions of [[number field]]s with respect to metrics induced by [[valuation]]s. The valuations may be 
 
@@ -10,3 +21,9 @@ A **local field** is a [[locally compact space|locally compact]] [[Hausdorff spa
 
 Local fields are technically useful in modern number theory; for example in formulating local-to-global principles, and in formulations of class field theory following Tate's thesis. Part of the technical convenience resides in the fact that one can effectively do Fourier analysis on them; as additive topological groups, they are self-dual locally compact abelian groups (in the sense of [[Pontryagin duality]]). 
  
+
+## Relation to local rings
+
+There's not much relation. One can say that the $p$-adic local fields have [[local ring]]s in them: the elements of norm 1 or less, where the maximal ideal is the set of elements of norm less than 1. 
+
+In general, given a local ring $(R, m)$, it's possible to complete it by taking an inverse [[limit]] of the quotient rings $R/m^n$, and the $p$-adic local fields arise as fields of fractions of completions of localizations of rings of integers in number fields. But those local rings coming from number field are a tiny fraction of local rings in general.
