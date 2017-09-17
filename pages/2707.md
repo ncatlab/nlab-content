@@ -27,7 +27,7 @@
 
 The similarity of the behaviour of various [[cohomologies]] of [[algebraic variety|varieties]] over a [[field]] suggests that there is a universal one among them with values in an intermediate [[abelian category]], called the _[[category]] of motives_. The idea is that for every variety $X$, there is a motive $M(X)$ and good [[cohomology theories]] would factor through the projection. (Here not every motive is supposed to be the image of a single variety.)
 
-[[Grothendieck]]'s original realization of this idea is the [[category of Chow motives]], which is a certain abelianization and completion of a [[category of spans]] of varieties. Later a more [[homotopy theory|homotopy theoretic]] version was givem, the [[Voevodsky motives]] or _derived motives_, see [below](#IdeaOfAbstractDefinition), which subsume the Chow motives faithfully.
+[[Grothendieck]]'s original realization of this idea is the [[category of Chow motives]], which is a certain abelianization and completion of a [[category of spans]] of varieties. Later a more [[homotopy theory|homotopy theoretic]] version was given, the [[Voevodsky motives]] or _derived motives_, see [below](#IdeaOfAbstractDefinition), which subsume the Chow motives faithfully.
 
 One distinguishes a theory of [[pure motives]] from a version with further filtrations, the [[mixed motives]]. 
 So far there are realizations of [[pure motives]], and not of the mixed motives. However there are several equivalent definitions of a [[triangulated category|triangulated]] [[tensor category]] which has all conjectured structural properties of the derived category of mixed motives (except t-structure which would manifestly make it a derived category); hence it is denoted $D(\mathcal{M M})$.
