@@ -147,7 +147,7 @@ A very detailed treatment of $A_\infty$-categories is a recent book
 
 The relation of $A_\infty$-categories to [[differential graded algebra]]s is emphasized in the introduction of
 
-* [[Maxim Kontsevich]], [[Yan Soibelman], _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_ ([arXiv](http://arxiv.org/abs/math/0606241))
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_ ([arXiv](http://arxiv.org/abs/math/0606241))
 
 which mostly discusses just [[A-infinity-algebra]]s, but points out a generalizations to $A_\infty$-categories, see the overview on [p. 3](http://arxiv.org/PS_cache/math/pdf/0606/0606241v2.pdf#page=3)
 
@@ -164,6 +164,12 @@ More [[category theory]] and [[homotopy theory]] of $A_\infty$-categories is dis
 If one understands $A_\infty$-category as "operadically defined higher category", then relevant references would include:
 
 * Eugenia Cheng, _Comparing operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
+
+Section 5 of 
+
+* Andor Lucacs, _Cyclic Operads, Dendroidal Structures, Higher Categories_ ([pdf](http://igitur-archive.library.uu.nl/dissertations/2011-0211-200314/lukacs.pdf))
+
+See also the references at _[[model structure on algebras over an operad]]_.
 
 
 [[!redirects A-infinity category]]
