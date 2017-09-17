@@ -108,6 +108,8 @@ Therefore $[A] \to X$ is a [[monomorphism]], and hence the interpretation of a [
 
 * [[image]], [[inhabited type]]
 
+* [[n-truncation modality]]
+
 [[!include homotopy n-types - table]]
 
 ## References
