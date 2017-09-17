@@ -53,25 +53,16 @@ In the former the internal notion of [[Galois theory]] subsumes the usual one (o
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .un_defn #CohesiveInfinTopos}
 ###### Definition
 
-An [[(∞,1)-topos]] $\mathbf{H}$ over some base $(\infty,1)$-topos $\mathbf{S}$ given by an [[(∞,1)-geometric morphism]]
+An [[(∞,1)-topos]] $\mathbf{H}$ is **cohesive** if
 
-$$
-  (f^* \dashv f_*) : \mathbf{H} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
-  \mathbf{S}
-$$
+1. it is a [[strongly ∞-connected (∞,1)-topos]];
 
-is **cohesive** over $\mathbf{S}$ if
+1. it is a [[local (∞,1)-topos]].
 
-1. it is a [[locally ∞-connected (∞,1)-topos|locally ∞-connected]] and [[∞-connected (∞,1)-topos]]
-
-1. it is a [[local (∞,1)-topos]]
-
-and such that  $f_!$ preserves finite [[(∞,1)-limit|product]]s.
-
-For $S = $ [[∞Grpd]] this means equivalently:  we have a quadruple of [[adjoint (∞,1)-functor]]s
+This means equivalently: the [[global section]] [[(∞,1)-geometric morphism]] lifts to a quadruple of [[adjoint (∞,1)-functor]]s
    
 $$
   (f_! \dashv f^* \dashv f_* \dashv f^!) : 
@@ -81,20 +72,16 @@ $$
   \;
 $$
 
-with both $f^*$ and $f^!$ being [[full and faithful (∞,1)-functor]]s and $f_!$ preserving finite products.
+where $f_!$ preserves [[finite limit|finite]] [[(∞,1)-product]].
 
-(For more general $\mathbf{S}$ there is an extra condition on $\Pi$.)
-
-If $(f_* \dashv f^*)$ is the [[global section]] geometric morphism of an $(\infty,1)$-topos over $\mathbf{S}$, we say that $\mathbf{H}$ is a **cohesive $(\infty,1)$-topos** over $\mathbf{S}$. In this case we denote the four $(\infty,1)$-functors also
+We say that **discrete objects are concrete** in $\mathbf{H}$ if
+for all [[n-groupoid]]s $S \in n Grpd \hookrightarrow \infty Grpd$  the morphism
 
 $$
-  (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : 
-  \mathbf{H}
-   \stackrel{\stackrel{\overset{\Pi}{\to}}{\overset{Disc}{\leftarrow}}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
-  \mathbf{S}
-  \,.
+  Disc S \to coDisc \Gamma Disc S \simeq coDisc S
 $$
 
+is a $(n-1)$-[[truncated]].
 
 =--
 
@@ -1626,7 +1613,6 @@ $X \to \mathrm{coDisc} \Gamma X$ is a
 
 =--
 
-
 +-- {: .un_prop}
 ###### Proposition
 
@@ -1677,6 +1663,18 @@ higher homotopies of those
 are to be regarded as _cohesive structure preserving_ .
 
 =--
+
++-- {: .un_remark}
+###### Remark
+
+The axiom _discrete objects are concrete_ in $\mathbf{H}$, 
+from the [above definition](#CohesiveInfinTopos) says 
+precisely that for for $S \in n Grpd$ an [[n-groupoid]], 
+the discrte object 
+$Disc S \in \mathbf{H}$ is a concrete cohesive $n$-groupoid.
+
+=--
+
 
 +-- {: .un_prop}
 ###### Proposition
