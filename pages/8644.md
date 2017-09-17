@@ -65,6 +65,8 @@ Notice that this is precisely the argument which for $G = U(1)$ the [[circle gro
 
 ## Related concepts
 
+* [[fiber bundles in physics]]
+
 * [[non-perturbative effect]]
 
 * [[Yang-Mills instanton]]
@@ -85,6 +87,7 @@ Physics-style  surveys include the introductory lecture notes
 and the fairly detailed account (with lot of pointers to the literature)
 
 * T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
+  {#SchaeferShuryak98}
 
   section III D: relation to [[confinement]]
   {#SchaeferShuryak}
