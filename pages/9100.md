@@ -48,6 +48,10 @@ The special case of [[higher dimensional Chern-Simons theory]] for [[dimension]]
 
   * **3d Chern-Simons theory**
 
+    * [[3d TQFT]]
+
+    * [[3d quantum gravity]]
+
     * [[2d Wess-Zumino-Witten theory]]
 
   * [[4d Chern-Simons theory]]
