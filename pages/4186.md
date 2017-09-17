@@ -11,7 +11,7 @@
 
 ## Idea
 
-A _conformal net_ is a central structure appearing in [[conformal field theory]]: it is the specialization of the [[AQFT]]-notion of a [[local net]] of algebras of observables from general [[quantum field theory]].
+A _conformal net_ is a [[local net]] of observables that describes (2-dimensional) [[conformal field theory]] in the framework of [[AQFT]].
 
 ## References
 
