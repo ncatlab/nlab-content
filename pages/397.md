@@ -126,7 +126,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Stefan Forcey]]
 * [[Stephen Gaito]]
 * [[Stephen with OK|Stephen]] [[Approved Stephen|Harris]]
-* [[Thomas]] (possibly one of the Thomases listed elsewhere)
+* [[Thomas]] (possibly one of the Thomases or Toms listed elsewhere)
 * [[Thomas Nikolaus]]
 * [[Tim Porter]]
 * [[Tim Silverman]]
@@ -135,6 +135,7 @@ Following is a list of people who have contributed content to the nLab (or at le
 * [[Toby Bartels]]
 * [[Todd Trimble]]
 * [[Tom Ellis]]
+* [[Tom Fiore]]
 * [[Tom Hirschowitz]]
 * [[Tom Leinster]]
 * [[Tom Prince]]
