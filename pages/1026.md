@@ -8,8 +8,9 @@ $$
   \,.
 $$
 
+Since all limits can be obtained from (small) [[product]]s and binary [[equalizer]]s, it follows that a functor is continuous if and only if it preserves all products and all binary equalizers.
 
-#Relation to other conecpt#
+#Relation to other concepts#
 
 
 ##Relation to adjoint functors##
