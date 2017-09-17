@@ -1,10 +1,16 @@
+
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
 
 
 ## Idea ##
-In the [[Haag-Kastler approach]] to [[quantum field theory]] the central object is a [[local net]] of [[operator algebras]]. The [[modular theory]] says that the local algebras have an associated modular group and a modular conjugation. The result of Bisognano-Wichmann that this page is about, describes the relation of these to the [[Poincare group]].
+In the [[Haag-Kastler approach]] to [[quantum field theory]] the central object is a [[local net]] of [[operator algebras]]. The [[modular theory]] says that the local algebras have an associated modular group and a modular conjugation (see [[modular theory]]). The result of Bisognano-Wichmann that this page is about, describes the relation of these to the [[Poincare group]].
 
 
 ## Abstract ##
