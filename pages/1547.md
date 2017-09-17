@@ -121,7 +121,7 @@ Much else to be discussed...
 
   * [[flat vector bundle]]
 
-  * [[complex vector bundle]]
+  * [[real vector bundle]], [[complex vector bundle]]
 
 * [[2-vector bundle]]
 
