@@ -38,6 +38,21 @@ Even if one is completely uninterested in [[internalization]] or weak logics, a 
 
 The morphisms between contexts are **substitutions**, or **interpretations**.  Such a morphism from the context $\Gamma$ to the context $\Delta$ consists of a way of fulfilling the assumptions required by $\Delta$ by appropriately interpreting those provided by $\Gamma$, generally by substituting terms available in $\Gamma$ for variables needed in $\Delta$ and proving whatever is necessary from the assumptions at hand.
 
+More precisely, suppose that $\Gamma$ and $\Delta$ are contexts in terms of some [[type theory]] of the form
+$$\Gamma \;=\; x_0:A_0,\; x_1:A_1(x_0),\; x_2:A_2(x_0,x_1),\;\dots x_n:A_n(x_0,\dots,x_{n-1})$$
+and
+$$\Delta \;=\; y_0:B_0,\; y_1:B_1(y_0),\; y_2:B_2(y_0,y_1),\;\dots y_m:B_m(y_0,\dots,y_{m-1})$$
+Here we allow the possibility that each type in these contexts depends on the variables occurring earlier in the context, but for simplicity we can ignore that.  Then a morphism of contexts from $\Gamma$ to $\Delta$ consists of a sequence of terms such as the following:
+$$
+\begin{aligned}
+\Gamma &\vdash t_0 :B_0\\
+\Gamma &\vdash t_1 : B_1(t_0)\\
+\vdots\\
+\Gamma &\vdash t_m : B_m(t_0,t_1,\dots, t_{m-1})
+\end{aligned}
+$$
+In other words, to give such a morphism we must give, for each type (or assumption) required by $\Delta$, a way to construct an element of that type (or a proof of that assumption) out of the data and assumptions contained in $\Gamma$.
+
 For example, consider these contexts in the theory of a group $G$:
 $$ \Gamma \;=\; a\colon G,\; b\colon G $$
 $$ \Delta \;=\; a\colon G,\; b\colon G,\; (a b)^2 = a^2 b^2 $$
@@ -46,7 +61,13 @@ $$ Z \;=\; x\colon G,\; y\colon G $$
 
 One interpretation of $\Gamma$ in $\Delta$ (that is, a morphism from $\Delta$ to $\Gamma$) is given by the substitution
 $$ a \coloneqq a,\; b \coloneqq b .$$
-The fact that $(a b)^2 = a^2 b^2$ in $\Delta$ is ignored.
+The fact that $(a b)^2 = a^2 b^2$ in $\Delta$ is ignored.  In type-theoretic language, this would consist of the two terms
+$$\begin{aligned}
+a\colon G,\; b\colon G,\; (a b)^2 = a^2 b^2 &\vdash a:G\\
+a\colon G,\; b\colon G,\; (a b)^2 = a^2 b^2 &\vdash b:G
+\end{aligned}
+$$
+Note that in this way of presenting things, the names of the variables in $\Gamma$ do not appear; only the order in which the types appear in $\Gamma$ matters.
 
 A less obvious interpretation of $\Gamma$ in $\Delta$ is the substitution
 $$ a \coloneqq b,\; b \coloneqq a .$$
@@ -83,18 +104,10 @@ Now that the category of contexts (in one sense) of the theory of a group has be
 
 +--{.proof}
 ###### Answer
-In [rot13](http://www.rot13.com/): gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
+In [rot13](http://www.rot13.com/) (so that you have a chance to think about it yourself without accidentally seeing the answer): gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
 =--
 
-+--{: .query}
-_David_: Not too sophisticated a code. What can be said in general about such context phenomena? Seems reminiscent of algebraic theories being equivalent to the opposite of the category of their free models.
-
-_Toby_:  If you mean rot13, it\'s only supposed to be sophisticated enough to keep people from reading it accidentally (and also to be involutory).  The link is mostly for lazy people.
-
-As for the code that hides finitely presented groups in this category of contexts, or free groups on finite sets in the category of contexts without equational hypotheses, or groups in the category of contexts with arbitrary hypotheses in the language of higher-order logic, well ... that\'s sophisticated enough that I don\'t understand it very well yet.  But I do believe that it\'s closely related to hiding a Lawvere theory\'s free models in itself.
-
-[[Mike Shulman|Mike]]: It's true in the generality of any finite-limit theory.  (And, presumably, there are infinitary generalizations.)  There's some general discussion in the [[Elephant]].
-=--
+The result of this exercise is true in more generality: it works for any finite-limit theory; see in particular [[Lawvere theory]].  Presumably there are also infinitary generalizations.  There's some general discussion in the [[Elephant]].
 
 
 ## Display morphisms
