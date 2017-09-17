@@ -20,8 +20,8 @@
 
 ## Idea
 
-One of the [[diagram chasing]] lemmas in [[homological algebra]].
-Follows directly from the [[salamander lemma]]. Directly implies the [[snake lemma]].
+The _four lemma_ is one of the basic [[diagram chasing]] lemmas in [[homological algebra]].
+It follows directly from the [[salamander lemma]]. It directly implies the [[five lemma]].
 
 ## Statement
 
@@ -34,7 +34,7 @@ Consider a [[commuting diagram]] in $\mathcal{A}$ of the form
 
 $$
   \array{
-    &\to& &\to& &\to&
+    &\to& &\stackrel{\xi}{\to}& &\to&
     \\
     \downarrow^{\mathrlap{\tau}}
     &&
@@ -44,7 +44,7 @@ $$
     &&
     \downarrow^{\mathrlap{\nu}}
     \\
-    &\to& &\to& &\to&
+    &\to& &\stackrel{\eta}{\to}& &\to&
   }
 $$
 
@@ -58,19 +58,27 @@ where
 
 Then
 
+1. $\xi(ker(f)) = ker(g)$
+
+1. $im(f) = \eta^{-1}(im(g))$
+
+(the "strong four lemma") and hence in particular
+
 1. if $g$ is an [[epimorphism]] then so is $f$;
 
-1. if $f$ is a [[monomorphism]] then so is $g$.
+1. if $f$ is a [[monomorphism]] then so is $g$
+
+(the "weak four lemma").
 
 =--
 
-A proof of this from the [[salamander lemma]] is spelled out at _[salamander lemma -- implications -- four lemma](salamander+lemma#FourLemma)_.
+A direct proof from the [[salamander lemma]] is spelled out at _[salamander lemma -- implications -- four lemma](salamander+lemma#FourLemma)_.
 
 ## References
 
 The strong/weak four lemma appears as lemma 3.2, 3.3 in chapter I and then with proof in lemma 3.1 of chapter XII of
 
-* [[Saunders MacLane]], _Homology_ (1967) reprinted as, Classics in Mathematics, Springer (1995)
+* [[Saunders MacLane]], _Homology_ (1967) reprinted as Classics in Mathematics, Springer (1995)
  {#MacLane}
 
 
