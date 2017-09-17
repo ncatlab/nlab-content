@@ -12,13 +12,23 @@
 * automatic table of contents goes here
 {:toc}
 
-## Definition
+## Definition as Ext-group or derived functor
 
 The abelian [[cohomology]] of a $k$-[[Lie algebra]] $\mathfrak{g}$ with coefficients in the left $\mathfrak{g}$-module $M$ is defined as $H^*_{Lie}(\mathfrak{g},M) = Ext_{U\mathfrak{g}}^*(k,M)$ where $k$ is the ground field understood as a trivial module over the universal enveloping algebra $U\mathfrak{g}$. In particular it is a derived functor. 
 
-Before this approach was advanced in Cartan-Eilenberg's _Homological algebra_, Lie algebra cohomology and homology were defined by Chevalley-Eilenberg with a help of concrete Koszul-type resolution which is in this case a chain complex $Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)$ where the first argument $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is naturally equipped with a differential to start with (see below). This first argument underlines a differential graded commutative algebra called the Chevalley-Eilenberg algebra, which is in $n$lab denoted (as well as its higher categorical analogues) by $CE(\mathfrak{g})$. 
+## Definition via resolution
 
-There is also [[nonabelian Lie algebra cohomology]]. 
+Before this approach was advanced in Cartan-Eilenberg's _Homological algebra_, Lie algebra cohomology and homology were defined by Chevalley-Eilenberg with a help of concrete Koszul-type resolution which is in this case a cochain complex 
+
+$$Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)\cong Hom_k(\Lambda^* \mathfrak{g},M),$$ 
+
+where the first argument $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is naturally equipped with a differential to start with (see below). The first argument in the Hom, i.e. $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is sometimes called the Chevalley-Eilenberg chain complex (cf. Weibel); the [[Chevalley-Eilenberg cochain complex]] is the whole thing, i.e. 
+
+$$CE(\mathfrak{g},M) := Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)\cong Hom_k(\Lambda^* \mathfrak{g},M).$$
+
+If $M$ is a trivial module $k$ then $CE(\mathfrak{g}) := Hom_k(\Lambda^* \mathfrak{g},k)$ and if $\mathfrak{g}$ is finite-dimensional this equals $\Lambda^* \mathfrak{g}^*$ with an appropriate differential and the exterior multiplication gives it a dg-algebra structure.
+
+## Definition via $L_\infty$-morphisms
 
 The degree $n$ Lie algebra cohomology with trivial coefficients computes the [[homotopy (as an operation)|homotopy]] classes of $L_\infty$-[[L-∞-algebra|algebra]] morphisms
 
@@ -27,7 +37,7 @@ $$
   \,.
 $$
 
-See also [[nonabelian Lie algebra cohomology]].
+There is also [[nonabelian Lie algebra cohomology]] extending nicely the [[nPOV]] on Lie algebra cohomology.
 
 ## Extensions
  
@@ -51,8 +61,6 @@ of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].   This is [[T
 
 * [[supergravity Lie 3-algebra]]
 
-* C. Weibel, _An introduction to homological algebra_ (Cambridge studies in advanced mathematics 38, 1994), chapter 7: Lie algebra homology and cohomology
-
 ## References
 
 ### Ordinary Lie algebras
@@ -61,7 +69,9 @@ of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].   This is [[T
 
 * [wikipedia](http://en.wikipedia.org/wiki/Lie_algebra_cohomology)
 
-* Charles Weibel, _Homological algebra_, ch. 7, Cambridge Studies in Adv. Math. __38__, CUP 1994
+* Charles Weibel, _An introduction to homological algebra_, ch. 7, Cambridge Studies in Adv. Math. __38__, CUP 1994
+
+* scholarpedia: [An introduction to Lie algebra cohomology](http://www.scholarpedia.org/article/An_introduction_to_Lie_algebra_cohomology)
 
 ### Super Lie algebras
 
