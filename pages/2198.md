@@ -74,7 +74,7 @@ If $U$ is a [[uniformity]] on $Y$ (making it into a [[uniform space]]), then for
 Uniformly continuous functions are proximally continuous for the induced proximities, so we have a functor $Unif \to Prox$ over $Set$.  Moreover, the composite $Unif \to Prox \to Top$ is the usual "underlying topology" functor of a uniform space, i.e. the topology induced by the uniformity and the topology induced by the proximity structure are the same.
 
 Conversely, if $X$ is a proximity space, consider the family of sets of the form
-$$ \bigcup_{k=1}^n A_k \times A_k$$
+$$ \bigcup_{k=1}^n (A_k \times A_k)$$
 where $(A_k)$ is a finite family of sets such that there exists a finite family of sets $(B_k)$ with $B_k \ll A_k$ and $X = \bigcup_{k=1}^n B_k$.  These sets form a base for a [[totally bounded uniformity]] on $X$, which induces the given proximity.
 
 In fact, this is the *unique* totally bounded uniformity which induces the given proximity: every proximity-class of uniformities contains a unique totally bounded member.  Moreover, a proximally continuous function between uniform spaces with totally bounded [[codomain]] is automatically uniformly continuous.  Therefore, the forgetful functor $Unif \to Prox$ is a left adjoint, whose right adjoint also lives over $Set$, is [[fully faithful functor|fully faithful]], and has its [[essential image]] given by the totally bounded uniform spaces.
