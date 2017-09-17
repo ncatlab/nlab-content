@@ -99,7 +99,27 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 
 ### In higher category theory
 
-In [[2-category theory]] one can consider the _[[michaelshulman:axiom of 2-choice]]_.
+To formulate a version of the axiom of choice in a higher category, one has to make an appropriate choice of the meaning of "epimorphism".  In most cases, it is best to choose [[effective epimorphisms|effective epimorphism in an (infinity,1)-category]] or a related notion such as [[eso morphisms]].
+
+Less obviously, we usually want to also impose [[truncated object|truncation]] requirements on at least some of the objects involved in the axiom of choice.  It seems usually necessary to require the codomain to be 0-truncated (axioms of choice without this requirement tend to be inconsistent); as for the domain we can choose to or not.
+
+* An $(\infty,1)$-category satisfies the **axiom of $n$-choice**, or $AC_n$, if every $n$-[[truncated morphism]] with 0-truncated codomain has a section.  We write $AC_\infty$ for the **axiom of infinity-choice**: the statement that *every* morphism with 0-truncated codomain has a section.
+
+These are stronger axioms as $n$ increases.  The "difference" between $AC_0$ and $AC_\infty$ is roughly the axiom that [[sets cover]].
+
+For $(n,k)$-categories with $k\gt 1$ it is unclear whether it is sensible to allow the domain to be non-groupoidal.
+
+* In [[2-category theory]], the _[[michaelshulman:axiom of 2-choice]]_ has been proposed to mean that every [[eso morphism]] with groupoidal domain and 0-truncated codomain has a section.
+
+There are also "internal" versions of these axioms.
+
+* In [[homotopy type theory]] (the internal logic of an $(\infty,1)$-topos), the internal version of $AC_n$ is "every surjection onto a set with $n$-type fibers has a section", or equivalently
+  $$ \prod_{(X:Set)} \prod_{(Y:X\to n Type)} \Big( \prod_{(x:X)} \Vert Y(x)\Vert \to \big\Vert \prod_{(x:X)} Y(x) \big\Vert \Big) $$
+
+* More generally, we can replace the $(-1)$-truncation by the $k$-truncation to obtain a family of axioms $AC_{k,n}$.
+
+* We can also replace the $(-1)$-truncation by the assertion of $k$-connectedness, obtaining the **axiom of $k$-connected choice**.
+
 
 ## Related concepts
 
@@ -121,7 +141,7 @@ In [[2-category theory]] one can consider the _[[michaelshulman:axiom of 2-choic
 
   Despite the title, this covers more than countable choice, but the focus is on sequential aspects (metric spaces, first- and second-countable spaces, etc).
 
-Reltion to [[cohomology]] is discussed in 
+Relation to [[cohomology]] is discussed in 
 
 * [[Andreas Blass]], _Cohomology detects failures of the axiom of choice_, Trans. Amer. Math. Soc. 279 (1983), 257-269 ([web](http://www.ams.org/journals/tran/1983-279-01/S0002-9947-1983-0704615-7/))
 
@@ -139,3 +159,7 @@ category: foundational axiom
 
 [[!redirects axiom of global choice]]
 [[!redirects global axiom of choice]]
+
+[[!redirects axiom of infinity-choice]]
+[[!redirects axiom of n-choice]]
+[[!redirects axiom of k-connected choice]]
