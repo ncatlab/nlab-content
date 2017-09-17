@@ -437,6 +437,8 @@ and
 
   * [[infinity-Lie algebra cohomology]]
 
+  * [[universal enveloping E-n algebra]]
+
   * [[L-∞ algebroid]]
 
   * [[derived L-∞ algebroid]]
