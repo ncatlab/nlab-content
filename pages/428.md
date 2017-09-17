@@ -71,7 +71,7 @@ $$
 
 The [[monoid]]-structure on $A$ makes this a [[monad]] in [[Cat]]: the monad product and unit are given by the product and unit in $A$.
 
-For $N$ a module its right action $\rho N \otimes A \to N$ makes the module an [[algebra over a monad|algebra over this monad]].
+For $N$ a module its right action $\rho :N \otimes A \to N$ makes the module an [[algebra over a monad|algebra over this monad]].
 
 The bar construction $\mathrm{B}(A,N)$ is then the simplicial module
 
