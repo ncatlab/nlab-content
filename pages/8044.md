@@ -53,6 +53,12 @@ There are a number of possible resolutions of Russell's paradox.
 
 * Finally, and perhaps most radically, one can decide to *allow* contradictions, choosing to use a [[paraconsistent logic]].  There exist nontrivial paraconsistent set theories with full comprehension in which the set $R$ exists, being both a member of itself and not a member of itself.
 
+## References
+
+Discussion of a paradox similar to Russell's in [[type theory]] with [[W-types]] is in 
+
+* [[Thierry Coquand]], _The paradox of trees in Type Theory_ (1991) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.1953))
+
 
 category: paradox
 
