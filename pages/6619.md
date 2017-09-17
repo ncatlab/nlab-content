@@ -34,7 +34,7 @@ There is an generalization of the machinery of geometric quantization to [[sympl
 
 (...)
 
-([Hawkins, section 4.2](#Hawkins))
+([Hawkins, section 4.2](#EH))
 
 (...)
 
@@ -42,7 +42,7 @@ There is an generalization of the machinery of geometric quantization to [[sympl
 
 (...)
 
-([Hawkins, section 4.3](#Hawkins))
+([Hawkins, section 4.3](#EH))
 
 (...)
 
@@ -51,7 +51,7 @@ There is an generalization of the machinery of geometric quantization to [[sympl
 
 (...)
 
-([Hawkins, section 5](#Hawkins))
+([Hawkins, section 5](#EH))
 
 (...)
 
@@ -111,7 +111,7 @@ Their [[prequantization]] are developed in
 A notion of [[polarization]] and of actual [[geometric quantization]] of symplectic groupoids, yielding a [[strict deformation quantization]] of the underlying Poisson manifold, is discussed in
 
 * [[Eli Hawkins]], _A groupoid approach to quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
-  {#Hawkins}
+  {#EH}
 
 
 An informal review of some aspects of this article is in
