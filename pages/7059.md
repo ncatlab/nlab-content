@@ -225,6 +225,10 @@ We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.or
 
 ## Related concepts
 
+* [[geometric homotopy type theory]]
+
+* [[modal homotopy type theory]]
+
 * [[differential homotopy type theory]]
 
 ## References
