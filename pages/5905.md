@@ -1,0 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+The term _cartesian category_ can mean either of
+
+* [[finitely complete category]]
+
+* [[cartesian monoidal category]]
+
+[[!redirects cartesian categories]]
