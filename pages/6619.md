@@ -55,6 +55,49 @@ There is an generalization of the machinery of geometric quantization to [[sympl
 
 (...)
 
+$$
+  \sqrt{\Omega}
+  \coloneqq
+  \sqrt{\wedge^{max} \Gamma (T_{d t = 0}^\ast \mathcal{G}_1) }
+  \otimes
+  \sqrt{\wedge^{max} \Gamma (T_{d s = 0}^\ast \mathcal{G}_1) }
+$$
+
+$$  
+  \begin{aligned}
+    pr_1^\ast \sqrt{\Omega}
+    \otimes
+    pr_2^\ast \sqrt{\Omega}
+    & 
+    \simeq
+    pr_1^\ast \sqrt{\wedge^{max} \Gamma (T_{d s = 0}^\ast \mathcal{G}_1) }
+    \otimes
+    pr_2^\ast \sqrt{\wedge^{max} \Gamma (T_{d t = 0}^\ast \mathcal{G}_1) }
+    \otimes
+    pr_1^\ast \sqrt{\wedge^{max} \Gamma (T_{d t = 0}^\ast\mathcal{G}_1) }
+    \otimes
+    pr_2^\ast \sqrt{\wedge^{max} \Gamma (T_{d s = 0}^\ast \mathcal{G}_1) }
+    \\
+    & \simeq
+    \sqrt{\wedge^{max} \Gamma (T_{d \circ = 0}^\ast \mathcal{G}_2) }
+    \otimes
+    \sqrt{\wedge^{max} \Gamma (T_{d \circ = 0}^\ast \mathcal{G}_2) }
+    \otimes
+    pr_1^\ast \sqrt{\wedge^{max} \Gamma (T_{d t = 0}^\ast\mathcal{G}_1) }
+    \otimes
+    pr_2^\ast \sqrt{\wedge^{max} \Gamma (T_{d s = 0}^\ast \mathcal{G}_1) }
+    \\
+    & \simeq
+    \wedge^{max} \Gamma(T_{d \circ = 0}^\ast \mathcal{G}_2)
+    \otimes 
+    \circ^\ast \sqrt{\Omega}
+  \end{aligned}
+$$
+
+(??)
+
+(...)
+
 ## Properties
 
 ### Relation to deformation quantization
