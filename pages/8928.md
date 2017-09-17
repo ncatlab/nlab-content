@@ -26,7 +26,7 @@ the [[black hole]] [[spacetime]] is regarded as a strongly coupled condensate of
 
 Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved, then one knows that certain observables are actually independent of the coupling constant, and accordingly these observables are the same for black holes as for the corresponding D-brane configurations in flat space.
 
-The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. For these configurations one may compute the number of quantum microstates of open strings attached to them, hence the corresponding [[entropy]]. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed there results match, see the [References](#References) below.
+The best studied such configuration is one of bound [[D5-brane]]-[[D1-branes]]. For these configurations one may compute number of [[BPS states]], hence the  [[entropy]], via the [[Witten genus]] ([Strominger-Vafa 96](#StromingerVafa96)), see at _[Witten genus -- Relation to BPS state counting](Witten+genus#RelationToBPSStateCounting)_. By the above reasoning this may then be compared to the [[Bekenstein-Hawking entropy]] of the corresponding (supersymmetric) black hole. And indeed there results match, see the [References](#References) below.
 
 ## Related concepts
 
@@ -60,7 +60,7 @@ The original computations are due to
 
 * [[Ashoke Sen]], _Extremal black holes and elementary string states_ ([arXiv:hep-th/9504147](http://arxiv.org/abs/hep-th/9504147))
 
-* [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_ ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
+* {#StromingerVafa96} [[Andrew Strominger]], [[Cumrun Vafa]], _Microscopic Origin of the Bekenstein-Hawking Entropy_ ([arXiv:hep-th/9601029](http://arxiv.org/abs/hep-th/9601029))
 
 * Curtis Callan, [[Juan Maldacena]], _D-brane Approach to Black Hole Quantum Mechanics_ ([arXiv:hep-th/9602043](http://arxiv.org/abs/hep-th/9602043))
 
@@ -72,6 +72,7 @@ Reviews include
 
 * [[Thibault Damour]], _The entropy of black holes: a primer_ ([arXiv:hep-th/0401160](http://arxiv.org/abs/hep-th/0401160))
 
+* [[Barton Zwiebach]], chapter 22 of _A first course in string theory_
 
 * Joao Gomes, _Joao Gomes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
 
