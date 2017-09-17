@@ -85,10 +85,25 @@ A **lax limit** is like a 2-limit, except that the triangles in the definition o
 
 Note that lax pullbacks are _not_ the same as [[comma objects]].  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
 
+## Special classes of 2-limits
 
-## Finite Limits 
+### Finite 2-Limits 
 
 A 2-limit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense (defined in terms of [[computads]]; see Street's article "Limits indexed by category-valued 2-functors").  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
+
+
+### $(2,1)$-limit {#(2,1)limit}
+
+
+If the ambient [[2-category]] is in fact a [[(2,1)-category]] in that all [[2-morphism]]s are invertible then there is a rich set of tools available for handling the 2-limits in this context. We may speak **$(2,1)$-limits** and **$(2,1)$-colimits** in this case.
+
+These are then a special case of the more general [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s in a [[(∞,1)-category]]. A [[(2,1)-category]] is a special case of an [[(∞,1)-category]].
+
+Traditionally [[(∞,1)-limit]]s and hence $(2,1)$-limits are best known in tersm of the presentation of $(\infty,1)$-catgeories by [[categories with weak equivalences]] in general and [[model categories]] in particular. The corresponding presentation of the $(\infty,1)$-limits / $(2,1)$-limits is called **[[homotopy limit]]s** and **[[homotopy colimit]]s**.
+
+For instance 2-limits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[natural transformation]]s and (necessarily) [[natural isomorphism]]s. Are equivalently computed as [[homotopy limit]]s in the [[model structure on simplicial sets]] $sSet_{Quillen}$ of diagrams of [[1-truncated]] [[Kan complex]]es. (The equivalnce of homotopy limits with $(\infty,1)$-limits is discusssed at [[(∞,1)-limit]]).
+
+Or for instance, more generally, the 2-limits in any [[(2,1)-sheaf]](=[[stack]]) [[(2,1)-topos]] may be computed as [[homotopy limit]]s in a [[model structure on simplicial presheaves]] over the given [[(2,1)-site]] of diagrams of [[1-truncated]] [[simplicial presheaves]]. This includes as examples [[big topos|big (2,1)-toposes]] such as those over the large sites [[Top]] or [[SmoothMfd]] where computations with [[topological groupoid]]s/[[topological stack]]s, [[Lie groupoid]]s/[[differentiable stack]]s etc. take place.
 
 
 ## References 
@@ -99,7 +114,9 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 
 * [[Ross Street]], "Fibrations in Bicategories" and correction.
 
-* [[Steve Lack]], [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+Section 6, page 37 in 
+
+* [[Steve Lack]], _A 2-categories companion_ ([arXiv:math.CT/0702535](http://arxiv.org/abs/math.CT/0702535))
 
 * G. J. Bird, G. M. Kelly, A. J. Power, R. H. Street, _Flexible limits for 2-categories_, <a href="http://dx.doi.org/10.1016/0022-4049(89)90065-0">doi</a>
 
@@ -151,3 +168,8 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 [[!redirects strict pseudocolimits]]
 [[!redirects strict pseudo colimits]]
 [[!redirects strict pseudo-colimits]]
+
+[[!redirects (2,1)-limit]]
+[[!redirects (2,1)-limits]]
+[[!redirects (2,1)-colimit]]
+[[!redirects (2,1)-colimits]]
