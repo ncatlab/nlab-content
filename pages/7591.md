@@ -87,7 +87,7 @@ given by ...
 
 =--
 
-([Sagave 11, def. 3.14](#Sagave11))
+This is ([Sagave 11, def. 3.14 in view of example 3.8](#Sagave11)). See also ([Sagave 11, section 1.4](#Sagave11)) for comments on how this yields an $\infty$-version of $\mathbb{Z}$-grading on an abelian group.
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -195,7 +195,7 @@ We might call $\mathbb{S}[A]$ the spring **[[∞-group ∞-ring]]** of $A$ over 
 
 ####  Augmented case
 
-Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOfUnits} is a homotopy right adjoint. ([Sagave 11, theorem 1.8](#Sagave11)).
+Also the augmented $\infty$-group of units functor of def. \ref{AugmentedGroupOfUnits} is a homotopy right adjoint. ([Sagave 11, theorem 1.7](#Sagave11)).
 
 ### Homotopy groups
 
@@ -221,6 +221,7 @@ Given $E$ an [[E-∞ ring]], then write $gl_1(E)$ for its $\infty$-group of unit
 $$
   H^0(X, gl_1(E))  \simeq (E^0(X))^\times
   \,.
+
 $$
 
 In positive degree the canonical map of pointed homotopy types $GL_1(E) = \Omega^\infty gl_1(E) \to \Omega^\infty E$ is in fact an [[isomorphism]] on all [[homotopy groups]]
@@ -235,6 +236,7 @@ On cohomology elements this map
 $$
   \pi_q(gl_1(E)) \simeq \tilde H^0(S^q, gl_1(E)) \simeq  (1+ \tilde R^0(S^q))^\times \subset (R^0(S^q))^\times
 $$
+
 
 is [[logarithm]]-like, in that it sends $1 + x \mapsto x$.
 
