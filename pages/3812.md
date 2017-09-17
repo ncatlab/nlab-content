@@ -1,80 +1,124 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Triangulation
 
-A **triangulation** of a [[topological space]] $Y$ is a [[simplicial set]] $X$ together with a [[homeomorphism]] $h: R X \to Y$, where $R$ denotes the [[geometric realization]] [[functor]]. 
+A **triangulation** of a [[topological space]] $Y$ is a [[simplicial set]] $X$ together with a [[homeomorphism]] $h: R X \to Y$, where $R$ denotes the [[geometric realization]] [[functor]].
 
 (Often $Y$ here is taken to be a [[simplicial complex]], but the difference does not really matter here.)
 
-Explicitly, $R X$ is given by a [[coend]] formula 
+Explicitly, $R X$ is given by a [[coend]] formula
 
-$$\int^{n \in \Delta} X(n) \cdot \sigma(n)$$ 
+$$\int^{n \in \Delta} X(n) \cdot \sigma(n)$$
 
-where $\sigma: \Delta \to Top$ is the standard affine [[simplex]] functor.
+where $\sigma: \Delta \to Top$ is the standard affine [[simplex]] functor. The functor $R$ is left exact, and in particular preserves products.
+
++--{.query}
+Perhaps this last statement is sensitive to what we take $Top$ to be. I think it's okay if $Top$ is compactly generated spaces, but somebody please check.
+=--
+
+### Standard affine simplex functor
+
+There are various ways to understand $\sigma: \Delta \to Top$ from a categorical perspective. (Note: in this article we will be working with the algebraist's version of the simplex category $\Delta$, namely the category of finite ordinals and order-preserving maps, including the initial or empty object which represents a (-1)-dimensional simplex. The $n$-element ordinal is conventionally, but perhaps unfortunately, denoted $[n-1]$, to indicate the dimension.)
+
+One way is begins by regarding $\Delta^{op}$ as isomorphic to the category of nonempty ordinals, for which maps are functions that preserve order and the top and bottom elements. The $n$-element object $[n-1]$ of $\Delta$ corresponds to the $(n+1)$-element object of $\Delta^{op}$ (again denoted $[n-1]$) that is isomorphic to $\hom_{\Delta}([n-1], [1])$. A totally ordered set with top and bottom is called an _interval_, and the affine simplex functor arises by homming into the standard unit interval $I$:
+
+$$\Delta = (\Delta^{op})^{op} \to Set: [n-1] \mapsto hom_{Int}([n-1], I)$$
+
+This produces a contravariant functor $hom_{Int}(-, I): \Delta^{op} \to Set$, that is to say a covariant functor $\Delta \to Set$. The hom-sets may be identified with spaces of tuples
+
+$$\{(x_0, x_1, \ldots, x_n): 0 = x_0 \leq x_1 \leq \ldots \leq x_n = 1\}$$
+
+topologized as a subspace $\{0 \leq x_1 \leq \ldots \leq x_{n-1} \leq 1\}$ of $I^{n-1}$. This produces the functor $\sigma: \Delta \to Top$.
+
+A second way of understanding $\sigma$ is by taking advantage of the fact that the algebraist's $\Delta$ is the walking [[monoid]]. This means that given a monoidal structure on $Top$ and a monoid $M$ therein, there is a unique monoidal functor $\sigma: \Delta \to Top$ which sends the generic monoid $[0]$ to the monoid $M$. To this end, take the monoidal product on $Top$ to be "topological simplicial join": the join $X \star Y$ of two spaces $X$, $Y$ may be defined to be the pushout of the diagram
+
+$$X \stackrel{\pi_1}{\leftarrow} X \times Y \stackrel{1_X \times \{0\} \times 1_Y}{\to} X \times I \times Y \stackrel{1_X \times \{1\} \times 1_Y}{\leftarrow} X \times Y \stackrel{\pi_2}{\to} Y$$
+
+and now take the monoid in $Top$ to be the 1-point space $1$ with its unique monoid structure.
+
+The induced monoidal functor is the affine simplex functor $\sigma: \Delta \to Top$. In effect, it identifies the $n$-dimensional simplex with an iterated simplicial join of $n+1$ copies of $1$:
+
+$$\sigma(n) = 1 \star \ldots \star 1$$
+
+because $[n]$ is itself the $(n+1)^{st}$ monoidal power of the 1-element ordinal $[0]$. Equivalently, it can be regarded as the result of applying the cone functor $C X = 1 \star X$ $n$ times to $1$.
 
 ## Cubulation
 
-Similarly, a **cubulation** of a [[topological space]] $Y$ is a [[cubical set]] $C$ together with a [[homeomorphism]] $h: R_{cub}C \to Y$ where $R_{cub}$ denotes the realization functor for [[cubical set]]s $Set^{\Box^{op}}$. Explicitly, $R_{cub}C$ is given by a [[coend]] formula 
+A **cubulation** of a [[topological space]] $Y$ is a [[cubical set]] $C$ together with a [[homeomorphism]] $h: R_{cub}C \to Y$ where $R_{cub}$ denotes the realization functor for [[cubical set]]s $Set^{\Box^{op}}$. Explicitly, $R_{cub}C$ is given by a [[coend]] formula
 
-$$R_{cub}C = \int^{m \in Cube} C(m) \cdot \Box(m)$$ 
+$$R_{cub}C = \int^{m \in Cube} C(m) \cdot \Box(m)$$
 
 where $\Box: Cube \to Top$ is the standard geometric cube functor.
 
+### Standard geometric cube functor
+
+The category $Cube$ may be regarded as a "walking interval" in a sense slightly different to the sense of interval above: it is initial among monoidal categories that are equipped with an object $I$, two maps $i_0, i_1: 1 \to I$ (where $1$ is the monoidal unit) and a map $p: I \to 1$ such that $p \circ i_0 = id_1 = p \circ i_1$. The monoidal unit $1$ in $Cube$ is terminal, hence there is a unique map $!: X \to 1$ for any object $X$. The interval $I$ of $Cube$ monoidally generates $Cube$ in the sense of [[PROP|PROS]].
+
+It follows that if $Top$ is considered as a cartesian monoidal category equipped with $I = [0, 1]$ in this sense of interval, we get an induced monoidal functor
+
+$$\Box: Cube \to Top$$
+
+The monoidal product on $Cube$ induces a monoidal product $\otimes$ on $Set^{Cube^{op}}$ by [[Day convolution]]. The cubical realization functor $R_{cub}: Set^{Cube^{op}} \to Top$ is, up to isomorphism, the unique cocontinuous monoidal functor which extends the monoidal functor $\Box$ along the Yoneda embedding; therefore $R_{cub}$ takes $\otimes$-products of cubical sets to the corresponding cartesian products of spaces.
+
 ## Relation between triangulation and cubulation
 
-There is a "cubulation" functor for standard simplices, $\Sigma: \Delta \to Set^{\Box^{op}}$, such that the affine simplex functor $\sigma: \Delta \to Top$ is naturally isomorphic to the composite 
+As explained below, there is a "cubulation" functor for standard simplices, $\Sigma: \Delta \to Set^{Cube^{op}}$, such that the affine simplex functor $\sigma: \Delta \to Top$ is naturally isomorphic to the composite
 
-$$\Delta \stackrel{\Sigma}{\to} Set^{\Box^{op}} \stackrel{R_{cub}}{\to} Top$$ 
+$$\Delta \stackrel{\Sigma}{\to} Set^{\Box^{op}} \stackrel{R_{cub}}{\to} Top$$
 
-Given a triangulation $(X, h: R X \to Y)$ of a space $Y$, we have [[isomorphism]]s 
+Given a triangulation $(X, h: R X \to Y)$ of a space $Y$, we have [[isomorphism]]s
 
 $$\array{
 Y & \cong & \int^n X(n) \cdot \sigma(n) \\
- & \cong & \int^n X(n) \cdot (\int^m \Sigma_n(m) \cdot \Box(m)) \\
- & \cong & \int^m (\int^n X(n) \cdot \Sigma_n(m)) \cdot \Box(m) 
-}$$ 
+& \cong & \int^n X(n) \cdot (\int^m \Sigma_n(m) \cdot \Box(m)) \\
+& \cong & \int^m (\int^n X(n) \cdot \Sigma_n(m)) \cdot \Box(m)
+}$$
 
-where in the last line we used the [[coend Fubini theorem]] for interchange of coends. Thus, defining the cubical set $C$ by 
+where in the last line we used the [[coend Fubini theorem]] for interchange of coends. Thus, defining the cubical set $C$ by
 
-$$C(m) = \int^n X(n) \cdot \Sigma_n(m)$$ 
+$$C(m) = \int^n X(n) \cdot \Sigma_n(m)$$
 
-we have a homeomorphism $Y \cong \int^m C(m) \cdot \Box(m) = R_{cub} C$, i.e., we obtain a cubulation of $Y$. 
+we have a homeomorphism $Y \cong \int^m C(m) \cdot \Box(m) = R_{cub} C$, i.e., we obtain a cubulation of $Y$.
 
+There is also a triangulation functor for standard cubes, $\Box: Cube \to Set^{\Delta^{op}}$, which can be used to triangulate the realizations of cubical sets.
+
+### Cubulating simplices and triangulating cubes
 
 The functor $\Sigma$ effectively regards an $n$-simplex as an iterated [[join of simplicial sets]] and then produces the analogous join in the category of cubical sets. This for instance regards the 2-simplex as a square with one degenerate edge.
 
-For that recall that one way of defining the affine simplex functor $\sigma: \Delta \to Top$ is by taking advantage of the fact that the augmented $\Delta$ (containing the object $[-1]$) is the walking [[monoid]], so all we need to do is cook up an appropriate monoidal structure on $Top$ and a monoid therein, and the walking monoid property takes care of the rest: we get an induced monoidal functor $\sigma: \Delta: \to Top$. So: take the monoidal product on $Top$ to be "topological simplicial join": the join $X \star Y$ of two spaces $X$, $Y$ may be defined for our purposes by pushout of the diagram 
+In other words, to define $\Sigma: \Delta \to Set^{Cube^{op}}$, we mimic the second construction of the affine simplex functor given above, replacing $Top$ by cubical sets and the topological simplicial join by a suitable "cubical simplicial join". Formally, we define a monoidal structure on cubical sets by taking $X \star Y$ to be the pushout of the diagram
 
-$$X \stackrel{\pi_1}{\leftarrow} X \times Y \stackrel{1_X \times \{0\} \times 1_Y}{\to} X \times I \times Y \stackrel{1_X \times \{1\} \times 1_Y}{\leftarrow} X \times Y \stackrel{\pi_2}{\to} Y$$ 
+$$X \stackrel{\pi_1}{\leftarrow} X \otimes Y \stackrel{1_X \otimes i_0 \otimes 1_Y}{\to} X \otimes I \otimes Y \stackrel{1_X \otimes i_1 \otimes 1_Y}{\leftarrow} X \otimes Y \stackrel{\pi_2}{\to} Y$$
 
-and now take the monoid in $Top$ to be the 1-point space with its unique monoid structure. 
-
-Now mimic this construction for cubical sets (but replacing $\times$ by the monoidal product $\otimes$ of $Cube$) as follows. First, although $\otimes$ is not cartesian product in $Cube$ (because $Cube$ lacks diagonals), the monoidal unit $1$ of $Cube$ is terminal, so we do have "projection maps" to work with: 
+where the projection maps $\pi_1$, $\pi_2$ are defined by taking advantage of the fact that the monoidal unit of $\otimes$ is terminal:
 
 $$\pi_1 = (X \otimes Y \stackrel{1_X \otimes !}{\to} X \otimes 1 \cong X)$$
 
 $$\pi_2 = (X \otimes Y \stackrel{! \otimes 1_Y}{\to} 1 \otimes Y \cong Y)$$
 
-and, taking $I$ to be the monoidal generator of $Cube$, we also have two maps $i_0, i_1: 1 \to I$ available to produce the diagram analogous to (1) in $Cube$. Next, there is a promonoidal structure on the site $Cube$ where, if $X$, $Y$ are objects of $Cube$, we define $X \star Y$ to be the pushout (in cubical sets) of this same diagram. This promonoidal product on $Cube$ induces a monoidal product on cubical sets which we will call "cubical simplicial join". As before, the terminal cubical set is a monoid with respect to this monoidal product, so by the walking monoid property we obtain a monoidal functor 
+The terminal cubical set is of course a monoid with respect to this monoidal product, so by the walking monoid property we obtain a monoidal functor
 
-$$\Sigma: \Delta \to Set^{Cube^{op}}$$ 
+$$\Sigma: \Delta \to Set^{Cube^{op}}$$
 
-which plays a role analogous to the affine simplex functor into $Top$. 
+which plays a role analogous to the affine simplex functor into $Top$.
 
-The crucial observation is that geometric realization $R_{cub}: Set^{Cube^{op}} \to Top$ takes cubical simplicial joins to topological simplicial joins, when restricted to the full subcategory given by the essential image of $\Sigma$. By definition, $R_{cub}$ takes $\otimes$ on representable objects to cartesian products of geometric cubes, and preserves colimits and in particular pushouts. So it takes cubical simplicial joins of *representable* cubical sets to topological simplicial joins. It is not unfortunately not generally true that 
+Observe that geometric realization $R_{cub}: Set^{Cube^{op}} \to Top$ takes cubical simplicial joins to topological simplicial joins, because $R_{cub}$ sends $\otimes$-products to cartesian products, and preserves pushouts because it is cocontinuous. We conclude that both $\sigma: \Delta \to Top$ and $R_{cub} \circ \Sigma: \Delta \to Top$ take monoidal products in $\Delta$ to topological simplicial joins, and both take the walking monoid of $\Delta$ to the one-point space. By the universal property of $\Delta$, it follows that there is a natural isomorphism
 
-$$R_{cub}(X \star Y) \cong R_{cub}(X) \star R_{cub} Y \qquad (1)$$ 
+$$\sigma \cong R_{cub} \circ \Sigma$$
 
-for general cubical sets $X$, $Y$; for example, if $X = 0$ is initial, then the left side is initial but the right side is isomorphic to $R_{cub}(Y)$. Basically, the problem is that topological simplicial join $\star$ does not preserve all colimits in each of its separate arguments. It does however preserve *connected* colimits in each of its separate arguments. Therefore, the isomorphism (1) obtains if $X$ and $Y$ are connected colimits of representables, and in particular applies when $X$ and $Y$ belong to the essential image of $\Sigma$.  
+(as monoidal functors), which is what we want.
 
-We conclude that $\sigma: \Delta \to Top$ and $R_{cub} \circ \Sigma: \Delta \to Top$ take monoidal products in $\Delta$ to topological simplicial joins, and both take the walking monoid of $\Delta$ to the one-point space. By the universal property of $\Delta$, it follows that these functors are naturally isomorphic (as monoidal functors, even), which is what we wanted to show.
+Similarly, we can easily define a monoidal functor $\Box_{\delta}: Cube \to Set^{\Delta^{op}}$ such that
 
+$$(\Box: Cube \to Top) \cong (Cube \stackrel{\Box_\delta}{\to} Set^{\Delta^{op}} \stackrel{R}{\to} Top) \qquad (2)$$
 
+In detail, regard the category of simplicial sets as a cartesian monoidal category equipped with the representable $hom(-, [1])$ as an interval (with two face maps from and a projection to the terminal object $hom(-, [0])$). By the walking interval property of $Cube$, there is an induced functor
 
+$$\Box_{\delta}: Cube \to Set^{\Delta^{op}}$$
 
+Finally, because $R: Set^{\Delta^{op}} \to Top$ is product-preserving and preserves the interval objects, the isomorphism (2) obtains by the universal property of $Cube$.
 
 
 [[!redirects cubulation]]
