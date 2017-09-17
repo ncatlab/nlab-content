@@ -88,15 +88,15 @@ is trivial.
 
 ## Examples
 
-### Extension through Postnikov stages
+### Lift through Postnikov stages
 
 If $F \to A$ in the above is a stage $\tau_{\leq n+1} B \to \tau_{\leq n}B$ in the [[Postnikov tower]] of an object $B$, then the lifting problem is that of lifting through the Postnikov tower of $A$ and the universal obstruction class is that which classified $\tau_{\leq n+1} B \to \tau_{\leq n}B$ as a $\pi_{n+1} B$-[[principal infinity-bundle]].
 
-## Obstruction to extension
+### Obstruction to extension
 
 The formal dual of the lift obstruction problem discussed above is the following extension problem:
 
-we start with a universal characteristic map
+we start with a [[universal characteristic class|universal characteristic map]]
 
 $$
   \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^n A
@@ -104,7 +104,7 @@ $$
 
 representing a class $[\mathbf{c}] \in H^n(\mathbf{B}G, A)$ in the $A$-cohomology of $\mathbf{B}G$. Then given a morphism  $\phi : \mathbf{B}G \to \mathbf{B}H$ we may ask for the obstruction to extending $\mathbf{c}$ along it.
 
-Now the statement is: if  $\phi$ is a homotopy cofiber, then there is a good obstruction theory to answer this question. Namely in that situation we are looking at a diagram of the form
+Now the statement is: if  $\phi$ is a [[homotopy cofiber|homotopy cofiber]], then there is a good obstruction theory to answer this question. Namely in that situation we are looking at a [[diagram]] of the form
 
 $$
   \array{
@@ -116,7 +116,7 @@ $$
   }
 $$
 
-where the left square is an $\infty$-pushout. By its universal property, the extension $\hat {\mathbf{c}}$ of $\mathbf{c}$ exists as indicated precisely if the class
+where the left square is an [[homotopy pushout]]. By its universal property, the extension $\hat {\mathbf{c}}$ of $\mathbf{c}$ exists as indicated precisely if the class
 
 $$
   [f^* \mathbf{c}] \in H^n(\mathbf{B}Q, A)
@@ -124,7 +124,8 @@ $$
 
 is trivial.
 
-A central example is where one considers refined Lie group cohomology on simply connected Lie groups and is asking for ways to push it down to discrete quotients, i.e. non-simply connected Lie groups integrating the same Lie algebra. This is often phrased in terms of "multiplicative bundle gerbes" over these Lie groups, but that is just another way of talking about the corresponding cohomology.
+One class of examples for this sort of situation is where one considers refined [[Lie group cohomology]] on simply connected [[Lie groups]] and is asking for ways to push it down to discrete [[quotients]], hence to non-simply connected Lie groups integrating the same [[Lie algebra]]. This is often phrased in terms of "multiplicative bundle gerbes" over these Lie groups, but that is just another way of talking about the corresponding cohomology of the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B}G$.
 
 (...)
+
 [[!redirects obstructions]]
