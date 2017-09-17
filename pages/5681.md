@@ -20,7 +20,7 @@
 +-- {: .un_defn}
 ###### Definition
 
-Let $C$ be an [[(∞,1)-category]] and $f : A \to B$ and $g : X \to Y$ two [[morphism]]s in $C$. Wrie $C_{A//Y}$ for the [[over-(∞,1)-category|under-over-(∞,1)-category]].
+Let $C$ be an [[(∞,1)-category]] and $f : A \to B$ and $g : X \to Y$ two [[morphism]]s in $C$. Wrie $C_{A\sslash Y}$ for the [[over-(∞,1)-category|under-over-(∞,1)-category]].
 
 We say that $f$ is **left orthogonal** to $g$ and that $g$ is **right orthogonal** to $f$ and write
 
@@ -40,9 +40,12 @@ $$
   }
 $$
 
-in $C$ we have that $C_{A//Y}(B,X) \simeq *$ is [[contractible]].
+in $C$ we have that $C_{A\sslash Y}(B,X) \simeq *$ is [[contractible]].
 
 =--
+
+Note that the notation $C_{A\sslash Y}(B,X)$ subtly includes the given commuting diagram, since $C_{A\sslash Y}$ is only defined relative to a particular given morphism $A\to Y$.  Here we take that to be the common composite of the given commuting square, with $B$ and $X$ regarded as objects of $C_{A\sslash Y}$ via the resulting commuting triangles.
+
 
 +-- {: .un_defn}
 ###### Definition
