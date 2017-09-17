@@ -13,6 +13,34 @@
 =--
 =--
 
+See also [[morphism of finite type]] for the notion in [[algebraic geometry]]. 
+See also [[compact object]].
+
+### In Abelian categories 
+
+An object $X$ in an [[AB5-category]] $C$ is __of finite type__ if one of the following equivalent conditions hold:
+
+(i) any complete directed set $\{X_i\}_{i\in I}$ of [[subobject]]s of $X$ is stationary
+
+(ii) for any complete directed set $\{Y_i\}_{i\in I}$ of subobjects of an object $Y$ the natural morphism $colim_i C(X,Y_i) \to C(X,Y)$ is an isomorphism.
+
+An object $X$ is __finitely presented__ if it is of finite type and if for any 
+epimorphism $p:Y\to X$ where $Y$ is of finite type, it follows that $ker\,p$ is also of finite type. An object $X$ in an AB5 category is __coherent__ if it is of finite type and for any morphism $f: Y\to X$ of finite type $ker\,f$ is of finite type.
+
+For an exact sequence $0\to X'\to X\to X''\to 0$ in an AB5 category the following hold:
+
+(a) if $X'$ and $X''$ are finitely presented, then $X$ is finitely presented;
+
+(b) if $X$ is finitely presented and $X'$ of finite type, then $X''$ is finitely presented;
+
+(c) if $X$ is coherent and $X'$ of finite type then $X''$ is also coherent.
+
+For a module $M$ over a ring $R$ this is equivalent to $M$ being finitely generated
+$R$-module. It is finitely presented if it is finitely presented in the usual
+sense of existence of short exact sequence of the form $R^I\to R^J\to M\to 0$
+where $I$ and $J$ are finite. 
+
+### In homotopical algebra
 
 A _graded object_ is often said to be of **finite type** if it is _degreewise_ of finite [[dimension]]/[[rank]], in some sense.
 
