@@ -369,6 +369,16 @@ The statement then follows with the "[stable Giraud theorem](stable%20%28infinit
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+This means that the tangent $(\infty,1)$-category $T(\infty Grpd)$
+is equivalently what in ([Joyal 08, section 30.34](#Joyal08))
+is denoted $D(Kan, X)$ in the case that $X = Spec$ is the [[(∞,1)-category of spectra]].
+
+=--
+
+
 +-- {: .num_prop #TangentOfInfinityGrpdIsTopos}
 ###### Proposition
 
@@ -380,7 +390,7 @@ an [[(∞,1)-topos]].
 +-- {: .proof}
 ###### Proof 
 
-With the above equivalence this is ([Joyal 08](#Joyal08)).
+With the above equivalence this is ([Joyal 08, section 35.5, 35.6](#Joyal08) (with [[Georg Biedermann]])).
 
 =--
 
@@ -404,7 +414,8 @@ From this it follows that
 The [[global elements]]/[[global sections]] functor (which forms the [[derived hom space|(∞,1)-categorical mapping space]] out of the terminal object)
 
 $$
-  \Gamma \coloneqq Hom(\ast, -) \colon T(\infty Grpd) \to \infty Grpd
+  \Gamma \coloneqq Hom(\ast, -) 
+  \;\colon\; T(\infty Grpd) \to \infty Grpd
 $$
 
 sends an $X$-[[parameterized spectrum]] to its base homotopy type $X$.
@@ -412,17 +423,22 @@ sends an $X$-[[parameterized spectrum]] to its base homotopy type $X$.
 
 This functor has a [[left adjoint|left]] and [[right adjoint|right]] [[adjoint (∞,1)-functor]] both given by sending $X$ to the [[zero spectrum]] bundle over $X$.
 
-So we have an infinite chain of [[adjoint (∞,1)-functors]] $(\cdots \Gamma \dashv (-)\times 0 \dashv \Gamma \dashv (-)\times 0 \dashv \cdots)$. 
+So we have an infinite chain of [[adjoint (∞,1)-functors]] 
+
+$$
+  (\cdots base \dashv 0 \dashv base \dashv 0 \dashv \cdots)
+  \,.
+$$
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The functor $(-) \times 0$ is a [[full and faithful (∞,1)-functor]]
+The functor $0$ is a [[full and faithful (∞,1)-functor]]
 
 $$
-  (-) \times 0 \colon \infty Grpd \hookrightarrow T \infty Grpd
+  0 \;\colon\; \infty Grpd \hookrightarrow T \infty Grpd
 $$
 
 and so the tangent $(\infty,1)$-category is [[cohesive (∞,1)-topos|cohesive]] over [[∞Grpd]], hence by prop. \ref{TangentOfInfinityGrpdIsTopos} $T(\infty Grpd)$ is a [[cohesive (∞,1)-topos]]:
@@ -434,18 +450,21 @@ $$
   \colon
   \;
   T(\infty Grpd)
-  \stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \stackrel{\overset{base}{\longrightarrow}}{\stackrel{\overset{0}{\leftarrow}}{\stackrel{\overset{base}{\longrightarrow}}{\underset{0}{\leftarrow}}}}
   \infty Grpd
   \,.
 $$
 
-Recalling that here $\Gamma = cod \circ \Omega^\infty$, we have one more adjunction, the [[cotangent complex]] adjunction due to prop. \ref{CotangentComplexAdjunction}
+Recalling that here $base = cod \circ \Omega^\infty$, we have one more adjunction, the [[cotangent complex]] adjunction due to prop. \ref{CotangentComplexAdjunction}
 
 $$
   \infty Grpd
-  \stackrel{\overset{\Omega}{\longrightarrow}}{\underset{dom\circ \Omega^{\infty}}{\leftarrow}}
+  \stackrel{
+     \overset{\Omega}{\longrightarrow}
+  }
+  {\underset{dom\circ \Omega^{\infty}}{\leftarrow}}
   T(\infty Grpd)
-  \stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \stackrel{\overset{base}{\longrightarrow}}{\stackrel{\overset{0}{\leftarrow}}{\stackrel{\overset{base}{\longrightarrow}}{\underset{0}{\leftarrow}}}}
   \infty Grpd
   \,.
 $$
@@ -461,12 +480,102 @@ $$
   \mathbf{H}
   \stackrel{\overset{\Omega}{\longrightarrow}}{\underset{dom}{\leftarrow}}
   T\mathbf{H}
-  \stackrel{\overset{\Gamma}{\longrightarrow}}{\stackrel{\overset{(-)\times 0}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{(-) \times 0}{\leftarrow}}}}
+  \stackrel{\overset{base}{\longrightarrow}}{\stackrel{\overset{0}{\leftarrow}}{\stackrel{\overset{base}{\longrightarrow}}{\underset{0}{\leftarrow}}}}
   \mathbf{H}
   \stackrel{}{\stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}}
   \infty Grpd
   \,.
 $$
+
+=--
+
++-- {: .num_prop #DifferentialOfCohesiveGlobalSections}
+###### Proposition
+
+For $\mathbf{H}$ a [[locally ∞-connected (∞,1)-topos]] (hence in particular for a [[cohesive (∞,1)-topos]]), there are canonical [[(∞,1)-functors]]
+
+$$
+  T \mathbf{H} \stackrel{\overset{T Disc}{\leftarrow}}{\underset{T \Gamma}{\longrightarrow}} T \infty Grpd
+$$
+
+and such that $T \Gamma$ covers the [[global section]] [[geometric morphism]] $\Gamma \;\colon\; \mathbf{H} \longrightarrow \infty Grpd$ in that it fits into a square  
+
+$$
+  \array{
+    T \mathbf{H}
+    &\stackrel{}{\stackrel{}{\stackrel{\overset{T\Gamma}{\longrightarrow}}{}}}&
+    T \infty Grpd
+    \\
+    {}^{\mathllap{0}}\uparrow\downarrow^{base}
+    && 
+    {}^{\mathllap{0}}\uparrow\downarrow^{base}
+    \\
+    \mathbf{H} &\stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{}}}& \infty Grpd
+  }
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof 
+
+By definition of [[stabilization]], $T \mathbf{H}$ is the [[(∞,1)-Grothendieck construction]] of 
+
+$$
+  X \mapsto 
+  \underset{\leftarrow}{\lim}
+  \left(
+    \cdots \stackrel{\Omega}{\to} \mathbf{H}^{\ast/}_{/X} \stackrel{\Omega}{\to} \mathbf{H}^{\ast/}_{/X} \stackrel{\Omega}{\to} \cdots
+  \right)
+  \,.
+$$
+
+Since the [[loop space object]] [[(∞,1)-functor]] $\Omega$ is an [[(∞,1)-limit]] construction and since the [[right adjoint]] [[global section]] functor $\Gamma$ preserves all [[(∞,1)-limits]], there is a homotopy-[[commuting diagram]]
+
+$$
+  \array{
+    \cdots &\stackrel{\Omega}{\to}& \mathbf{H}^{\ast/}_{/X} &\stackrel{\Omega}{\to}& \mathbf{H}^{\ast/}_{/X} &\stackrel{\Omega}{\to}& \cdots
+    \\
+    && \downarrow^{\mathrlap{\Gamma}} && \downarrow^{\mathrlap{\Gamma}}
+    \\
+    \cdots &\stackrel{\Omega}{\to}& \infty Grpd^{\ast/}_{/\Gamma(X)} &\stackrel{\Omega}{\to}& \infty Grpd^{\ast/}_{/\Gamma(X)} &\stackrel{\Omega}{\to}& \cdots
+  }
+$$
+
+in [[(∞,1)Cat]]. This induces a natural morphism 
+
+$$
+  Stab(\mathbf{H}_{/X})
+  \longrightarrow
+  Stab(\infty Grpd_{/\Gamma(X)})
+$$
+
+and hence a morphism 
+
+$$
+  T \mathbf{H} 
+  \simeq 
+  \int_{X \in \mathbf{H}} Stab(\mathbf{H}_{/X}) \longrightarrow \int_{X \in \mathbf{H}} Stab(\infty Grpd_{\Gamma(X)})
+  \,.
+$$
+
+The morphism in question is the postcomposition of this with pullback/restriction of the [[(∞,1)-Grothendieck construction]] along the [[reflective sub-(∞,1)-category|reflective inclusion]] (by assumption on $\mathbf{H}$) $Disc \;\colon\; \infty Grpd \longrightarrow \mathbf{H}$
+
+$$
+  T \mathbf{H} 
+  \simeq
+  \int_{X \in \mathbf{H}} Stab(\mathbf{H}_{/X})
+  \longrightarrow 
+  \int_{X \in \mathbf{H}} Stab(\infty Grpd_{/\Gamma(X)})
+  \longrightarrow 
+\int_{S \in \infty Grpd} Stab(\infty Grpd_{/S})
+  \simeq
+  T \infty Grpd
+  \,,
+$$
+
+where we used that by reflectivity $\Gamma \circ Disc \simeq id$.
 
 =--
 
