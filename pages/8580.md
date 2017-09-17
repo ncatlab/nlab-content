@@ -1458,9 +1458,9 @@ In this [Layer Sem]{#LayerSem} we mention some basic definitions of [[topos theo
 
   * the set of "glued plots", def. \ref{MatchingFamiliesOfPlots} is the [[descent object]];
 
-  * the canonical morphism of remark \ref{NaiveDescentMorphism} is the [[desencent morphism]];
+  * the canonical morphism of remark \ref{NaiveDescentMorphism} is the [[descent morphism]];
 
-  * the condition that it be an isomorphism (for each differentially good open cover) is the [[desencent]]- or [[sheaf condition]].
+  * the condition that it be an isomorphism (for each differentially good open cover) is the [[descent]]- or [[sheaf]] condition.
 
 =--
 
@@ -1530,7 +1530,7 @@ A [[sheaf topos]] is equivalently a [[presentable category]] with
 
 =--
 
-This characterization, or rather its refinement to [[(infinity,1)-categories of (infinity,1)-shaves]], is crucial, below, for the discussion of [[principal bundles]] and their [[associated bundle|associated]] [[fiber bundles]]. 
+This characterization, or rather its refinement to [[(infinity,1)-categories of (infinity,1)-sheaves]], is crucial, below, for the discussion of [[principal bundles]] and their [[associated bundle|associated]] [[fiber bundles]]. 
 
 For other general considerations we need rather that every [[sheaf topos]] is in particular an _[[elementary topos]]_
 
@@ -1872,17 +1872,35 @@ $$
 ## **Differential forms**
  {#DifferentialForms}
 
-We have seen above in _[The continuum real (world-)line](TheContinuumRealWorldLine)_ that that [[real line]] $\mathbb{R}$ is the basic [[kinematics|kinematical structure]] in the [[differential geometry]] of [[physics]]. Notably the smooth [[path spaces]] $[\mathbb{R}, X]$ from example \ref{SmoothPathSpace} are to be thought of as the smooth spaces of _trajectories_ (for instance of some [[particle]]) in a [[smooth space]] $X$, hence of a smooth map $\mathbb{R} \to X$.
 
-But moreover, in [[physics]] _[[dynamics]]_ is encoded by [[functionals]] on such trajectories: "[[action functionals]]". In the simplest case these are for instance homomorphisms of smooth spaces
+We introduce the standard concept of _[[nLab:differential forms]]_ in _[Layer Mod](#DifferentialFormsLayerMod)_, adding to the traditional discussion a precise version of the statement that differential forms are equivalently "incremental smooth $n$-dimensional measures", which accurately captures the role that they play in [[physics]], notably in [[local action functionals]].
+
+We define differential forms on general smooth spaces seamlessly in terms of the smooth [[moduli space]] $\Omega^\in \in Smooth0Type$ of differential forms. This has the special property that it is, for $n \geq 1$, a _non-[[concrete object|concrete]]_ smooth space. In _[Layer Sem](#DifferentialFormsLayerSem)_ below we take this as occasion to discuss the notion of [[concrete objects]] in a [[local topos]], such as the topos of smooth spaces. We show how the _concretification_ of the smooth mapping space $[X,\Omega^n]$ for any smooth space $X$ is the _smooth (moduli) space of differential forms on $X$_. Below in _[Action functionals for Chern-Simons type gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)_ the theory of _concretification_ in a local topos is a central ingredient in the _canonical existence_ of certain [[nLab:action functionals]].
+
+The process of concretification involves the general abstract notion of _[[image|images]]_. The type-theory of this notion we discuss in [Layer Syn](#DifferentialFormsLayerSyn) here.
+
+
+### Layer Mod
+ {#DifferentialFormsLayerMod}
+
+We have seen above in _[The continuum real (world-)line](TheContinuumRealWorldLine)_ that that [[real line]] $\mathbb{R}$ is the basic [[kinematics|kinematical structure]] in the [[differential geometry]] of [[physics]]. Notably the smooth [[path spaces]] $[\mathbb{R}, X]$ from example \ref{SmoothPathSpace} are to be thought of as the smooth spaces of _trajectories_ (for instance of some [[particle]]) in a [[smooth space]] $X$, hence of smooth maps $\mathbb{R} \to X$.
+
+But moreover, _[[dynamics]]_ in [[physics]]  is encoded by _[[functionals]] on such trajectories_: by "[[action functionals]]". In the simplest case these are for instance homomorphisms of smooth spaces
 
 $$
-  S \colon P X \to \mathbb{R}
+  S \colon \left[\left[0,1\right], X\right] \to \mathbb{R}
 $$
 
 Such action functionals we discuss in their own right in _[Variational calculus](#VariationalCalculus)_ below. Here we first examine in detail a fundamental property they all have: they are supposed to be _[[local action functional|local]]_.
 
-Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories. As one takes this property to the limit, one finds that the action functional is fixed by its value on _[[infinitesimal space|infinitesimal]] displacements_ along the worldline. If $\gamma \colon \mathbb{R} \to X$ denotes a path and "$\dot \gamma(x)"$ denotes the corresponding infinitesimal path at worldline parameter $x$, then the value of the action functional on such an infinitesimal path is traditionally written as
+Foremost this means that the value associated to a trajectory is _built up incrementally_ from small contributions associated to small sub-trajectories: if a rajectory $\gamma$ is decomposed as a trajectory $\gamma_1$ followed by a trajectory $\gamma_2$, then the action functional is assitive
+
+$$
+  S(\gamma) = S(\gamma_1) + S(\gamma_2)
+  \,.
+$$
+
+As one takes this property to the limit of iterative subdivision, one finds that action functionals are entirely determined by their value on _[[infinitesimal space|infinitesimal]] displacements_ along the worldline. If $\gamma \colon \mathbb{R} \to X$ denotes a path and "$\dot \gamma(x)$" denotes the corresponding "infinitesimal path" at worldline parameter $x$, then the value of the action functional on such an infinitesimal path is traditionally written as
 
 $$
   \mathbf{d}S(\dot \gamma)_x \mathbb{R}
@@ -1891,17 +1909,11 @@ $$
 
 to be read as "the small change $\mathbf{d}S$ of $S$ along the infinitesimal path $\dot \gamma_x$". 
 
-This function $\mathbf{d}S$ that assigns numbers to infinitesimal paths is called a _[[differential form]]_. This etymologically originates in the use of "form" as in [[bilinear form]]: something that is evaluated. Here it is evaluated on _infinitesimal differences_, referred to as _differentials_.
+This function $\mathbf{d}S$ that assigns numbers to infinitesimal paths is called a _[[differential form]]_. Etymologically this originates in the use of "form" as in _[[bilinear form]]_: something that is evaluated. Here it is evaluated on _infinitesimal differences_, referred to as _differentials_.
 
 
-
-
-### Layer Mod
- {#DifferentialFormsLayerMod}
 
 We define smooth differential forms on [[Cartesian spaces]] in 
-
-We further introduce and motivate the notion of differential forms as such differential measures in 
 
 * _[Differential forms on abstract coordinate sysetms](#DifferentialFormsOnAbstractCoordinateSystem)_
 
@@ -2098,6 +2110,7 @@ $$
 
 
 ### Layer Sem
+ {#DifferentialFormsLayerSem}
 
 #### Concrete smooth spaces
  {#ConcreteObjects}
@@ -2188,6 +2201,7 @@ $$
 $$
 
 ### Layer Syn
+ {#DifferentialFormsLayerSyn}
 
 #### Images
 
@@ -3127,7 +3141,23 @@ $$
 
 (...)
 
+## **Action functionals for Chern-Simons-type gauge theories**
+ {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
+
+### Layer Mod
+
+(...)
+
+### Layer Sem
+
+(...)
+
+### Layer Syn
+
+(...)
+
 ## **Abelian Chern-Simons theory**
+ {#AbelianChernSimonsTheory}
 
 ### Layer Mod
 
