@@ -19,7 +19,7 @@ The _$3 \times 3$-lemma_ or _nine lemma_ is a basic [[lemma]] in [[homological a
 
 ## Statement
 
-### Odinary $3 \times 3$-lemma
+### Ordinary $3 \times 3$-lemma
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -88,6 +88,7 @@ be a [[commuting diagram]] in some [[abelian category]] such that each of the th
 ### In abelian categories
 
 An early appearance of the $3 \times 3$-lemma is as lemma (5.5) in 
+
 
 * D. A. Buchsbaum, _Exact categories and duality_, Transactions of the American Mathematical Society Vol. 80, No. 1 (1955), pp. 1-34 ([JSTOR](http://www.jstor.org/stable/1993003))
 
