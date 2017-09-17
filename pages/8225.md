@@ -1,6 +1,7 @@
 
 **[[relation]]**, [[internal relation]]
 
+**[[Rel]]**
 
 ## Types of Binary relation
 
