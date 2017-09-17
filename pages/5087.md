@@ -12,18 +12,60 @@
 #Contemts#
 * table of contents
 {:toc}
+
  
 ## Definition
 
-A [[geometric morphism]] is **surjective** if it satisfies the following equivalent criteria:
++-- {: .num_defn}
+###### Definition
 
-* its [[inverse image functor]] is [[faithful functor|faithful]].
-* its [[inverse image functor]] is [[conservative functor|conservative]].
-* it is [[comonadic adjunction|comonadic]].
+A [[geometric morphism]] between [[toposes]] $(f^* \dashv f_*) : \mathcal{E} \to \mathcal{F}$ is **surjective** or a **geometric surjection** if it satisfies the following equivalent criteria:
+
+* its [[inverse image functor]] $f_*$ is [[faithful functor|faithful]];
+
+* its [[inverse image functor]] $f^*$ is [[conservative 
+functor|conservative]];
+
+* the components $X \to f_* f^* X$ of the [[unit of an adjunction|adjunction unit]] are [[monomorphism]]s, for all $X \in \mathcal{F}$;
+
+* $f^*$ induces a injective homomorphism of [[subobject]] [[lattice]]s
+  
+  $$
+    Sub(X) \hookrightarrow Sub(f^* X)
+  $$
+
+  for all $X \in \mathcal{F}$;
+
+* $f^*$ reflects the order on [[subobject]]s;
+
+* $(f^* \dashv f_*)$ is a [[comonadic adjunction]].
+
+=--
+
+The equivalence of these condition appears for instance as [MacLaneMoerdijk, VII 4. lemma 3 and prop. 4](#MacLaneMoerdijk).
 
 ## Properties
 
-There is a [[factorization system on a 2-category|factorization system]] on the [[2-category]] [[Topos]] whose left class is the surjective geometric morphisms and whose right class is the [[geometric embeddings]].  The factorization of a given geometric morphism $f$ can be given by constructing the [[Eilenberg-Moore category]] of the [[comonad]] $f^* f_*$.
+### Surjection/embedding factorization
+
+See [[geometric surjection/embedding factorization]]
+
+
+## Related concepts
+
+* [[geometric morphism]]
+
+  * **geometric surjection**
+
+  * [[geometric embedding]]
+
+
+## References
+
+Section VII. 4. of 
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
 
 [[!redirects surjective geometric morphisms]]
 [[!redirects geometric surjection]]
