@@ -81,7 +81,7 @@ Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for de
 =--
 
 
-### $\infty$-Connectedness over $Smooth \infty Grpd$ {#RelativeInftyConnectedness}
+### Cohesiveness under $Smooth \infty Grpd$ {#RelativeInftyConnectedness}
 
 +-- {: .un_def}
 ###### Definition
@@ -90,35 +90,22 @@ Write $i : CartSp_{smooth} \hookrightarrow CartSp_{synthdiff}$ for the canonical
 
 =--
 
-+-- {: .un_prop}
-###### Observation
-
-This functor has a [[right adjoint]], that exhibits a [[coreflective subcategory]]
-
-$$
-  (i \dashv p) : CartSp_{synthdiff}
-    \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\to}}
-   CartSp_{smooth}
-  \,.
-$$
-
-=--
 
 +-- {: .un_prop}
 ###### Proposition
 
-We have an [[essential geometric morphism|essential]] [[(∞,1)-geometric morphism]] 
+The functor $i^*$ given by restriction along $i$ exhibits the [[(∞,1)-topos]] [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s as a [[cohesive (∞,1)-topos]] over $SynthDiff\infty Grpd$, in that we have a quadruple of [[adjoint (∞,1)-functor]]s
 
 $$
- (\Pi_{inf} \dashv Disc_{inf} \dashv \Gamma_{inf} )
-  :
-  SynthDiff \infty Grpd
-    \stackrel{\overset{p_!}{\to}}{\stackrel{\overset{p^*}{\leftarrow}}{\underset{P_*}{\to}}}
+ ( i_! \dashv i^* \dashv i_* \dashv i^! )
   Smooth \infty Grpd
+  :
+  \stackrel{\overset{i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\stackrel{\overset{i_*}{\to}}{\stackrel{i^!}{\leftarrow}}}}
+  SynthDiff \infty Grpd
   \,,
 $$
 
-that exhibits $SynthDiff\infty Grpd$ as a [[totally ∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]].
+such that $i_!$ preserves finite [[(∞,1)-product]]s.
 
 =--
 
@@ -135,6 +122,24 @@ $$
 $$
 
 (as discussed at [[models for ∞-stack (∞,1)-toposes|models for (∞,1)-sheaf (∞,1)-toposes]]).
+
+
+Notice that the functor $i$ has a [[right adjoint]] given by
+
+$$
+  p : (K \times D) \mapsto D
+  \,,
+$$
+
+that exhibits a [[coreflective subcategory]]
+
+$$
+  (i \dashv p) : CartSp_{synthdiff}
+    \stackrel{\overset{i}{\leftarrow}}{\underset{p}{\to}}
+   CartSp_{smooth}
+  \,.
+$$
+
 
 Consider the right [[Kan extension]] $Ran_i : [CartSp_{smooth}^{op}, sSet] \to [CartSp_{synthdiff}^{op},sSet]$ of [[simplicial presheaves]] along the functor $i$. On an object $K \times D \in CartSp_{synthdiff}$ it is given by 
 
@@ -156,27 +161,71 @@ $$
 
 were the [[limit]]s are over the [[opposite category|opposite]] [[comma categories]] $(i/K \times D)$ and $Id_{CartSp_{smooth}}/K$, respectively, and where we are using in the first step that there is a unique terminal morphism from $K \in CartSp_{smooth}$ to the [[infinitesimally thickened point]] $D$ and in the second step the [[Yoneda reduction]]-form of the [[Yoneda lemma]]. The rest is notation.
 
-This shows that $p^*$ does have the further [[left adjoint]] given by restriction along $i$. 
+This shows that the right adjoint to $(-)\circ i$ is itself given by precomposition with a functor, and hence has itself a further right adjoint, which gives us a total of four [[adjoint functor]]s
+
+$$
+  [CartSp_{smooth}, sSet]  
+    \stackrel{\overset{Lan_i}{\to}}{\stackrel{\overset{(-)\circ i}{\leftarrow}}{\stackrel{\overset{(-)\circ p}{\to}}{\stackrel{Ran_p}{\leftarrow}}}}
+  [CartSp_{synthdiff}, sSet]
+  \,.
+$$
+
 
 From this are directly induced the corresponding [[simplicial Quillen adjunction]]s on the global projective and injective [[model structure on simplicial presheaves]]
 
 $$
+  (Lan_i \dashv (-) \circ i) : 
+  [CartSp_{smooth}^{op}, sSet]_{proj}
+   \stackrel{\overset{Lan_i}{\to}}{\underset{(-)\circ i}{\leftarrow}}
+  [CartSp_{synthdiff}^{op}, sSet]_{proj}
+  \,;
+$$
+
+$$
   ((-)\circ i \dashv (-) \circ p) : 
-  [CartSp_{synthdiff}, sSet]_{proj}
-   \stackrel{\overset{(-)\circ i}{\to}}{\underset{(-)\circ p}{\leftarrow}}
-  [CartSp_{smooth}, sSet]_{proj}
-  \,.
+  [CartSp_{smooth}^{op}, sSet]_{proj}
+   \stackrel{\overset{(-)\circ i}{\leftarrow}}
+    {\underset{(-)\circ p}{\to}}
+  [CartSp_{synthdiff}^{op}, sSet]_{proj}
+  \,;
 $$
 
 $$
   ((-) \circ p \dashv Ran_p) : 
-  [CartSp_{synthdiff}, sSet]_{inj}
-   \stackrel{\overset{(-)\circ p}{\leftarrow}}{\underset{Ran_p}{\to}}
-  [CartSp_{smooth}, sSet]_{inj}
+  [CartSp_{smooth}^{op}, sSet]_{inj}
+   \stackrel{\overset{(-)\circ p}{\to}}{\underset{Ran_p}{\leftarrow}}
+  [CartSp_{synthdiff}^{op}, sSet]_{inj}
   \,.
 $$
 
-By the discussion at [[simplicial Quillen adjunction]] for this to descent to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects. By the properties of [[Bousfield localization of model categories|left Bousfield localization]] this in turn is implied if  the [[left adjoint]]s preserve [[covering]]s. This is clearly the case by the very definition of the site structure on [[CartSp]]${}_{synthdiff}$.
+
+
+By the discussion at [[simplicial Quillen adjunction]] for these Quillen adjunctions to descent to the Cech-local [[model structure on simplicial presheaves]] it suffices that the [[right adjoint]]s preserve locally fibrant objects. By the properties of [[Bousfield localization of model categories|left Bousfield localization]] this in turn is implied if  the [[left adjoint]]s preserve [[covering]]s. 
+
+This is clearly the case for $(-) \circ i$ by the very definition of the site structure on [[CartSp]]${}_{synthdiff}$:
+
+$$
+  (-) \circ i : \{U_i \times D \stackrel{(f_i,Id_D)}{\to} U \times D\}
+    \mapsto
+      \{U_i \stackrel{f_i}{\to} U\}
+   \,.
+$$
+
+It is also the case for $Lan_i$, which on representables is given by $i$ itself:
+
+$$
+  Lan_i U : (K \times D) \mapsto \int^{U \in CartSp_{smooth}}
+    CartSp_{synthdiff}(K \times D, U) \cdot U
+    = U in [CartSp_{synthdiff}, sSet]
+$$
+
+and hence sends
+
+$$
+  Lan_i : \{U_i \to U\} \mapsto \{U_i \to U\}
+  \,.
+$$
+
 
 It follows that $\Pi_{inf} : SynthDiff \infty Grpd \to Smooth \infty Grpd$ is given by the left [[derived functor]] of restriction along $i$. Since [[(∞,1)-limit]]s of [[(∞,1)-sheaves]] are computed objectwise, this shows that $\Pi_{inf}$ preserves these.
 
