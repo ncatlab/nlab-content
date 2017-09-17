@@ -25,6 +25,8 @@ Typically a computable real number is an [[algorithm]] that successively produce
 
 ## Related concepts
 
+* [[exact real computer arithmetic]]
+
 * [[completion monad]]
 
 ## References
