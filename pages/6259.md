@@ -46,6 +46,18 @@ But sense can be made of the theory of self-dual gauge fields by other means. No
 
 ## References
 
+An original reference on sefl-dual/chiral fields is
+
+* X. Bekaert, [[Marc Henneaux]], _Comments on Chiral $p$-Forms_ ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
+
+A precise formulation of the phenomenon in terms of [[differential cohomology]] is given in
+
+* [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], 
+
+  _The Uncertainty of Fluxes_  Commun.Math.Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
+
+  _Heisenberg Groups and Noncommutative Fluxes_ ,  AnnalsPhys.322:236-285 (2007) ([arXiv:hep-th/0605200](http://arxiv.org/abs/hep-th/0605200))
+
 The idea of describing self-dual higher gauge theory by abelian Chern-Simons theory in one dimension higher originates in 
 
 * [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
@@ -64,7 +76,8 @@ A quick exposition of the basic idea is in
 
 * [[Jacques Distler]], _Actions for self-dual gauge fields_ ([blog](http://golem.ph.utexas.edu/~distler/blog/archives/000809.html))
 
-The application of this to the description of type II [[string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
+The application of this to the description of 
+[[type II string theory]] in 10-dimensions to [[schreiber:infinity-Chern-Simons theory|11-dimensional Chern-Simons theory]] is in the followup 
 
 * Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
 
