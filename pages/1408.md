@@ -246,9 +246,14 @@ We may think of this as saying that $Sh_{(\infty,1)}(\mathcal{G})$ is the $(\inf
 
 ### Local morphisms between structure sheaves {#LocalMorphisms}
 
-**Notice**. The $(\infty,1)$-category $Str_{\mathcal{G}}(\mathcal{X})$
++-- {: .num_remark}
+###### Remark
+
+The $(\infty,1)$-category $Str_{\mathcal{G}}(\mathcal{X})$
 of $\mathcal{G}$-structure sheaves on an $(\infty,1)$-topos $\mathcal{X}$ 
 does _not_ depend on the admissibility structure of $\mathcal{G}$, but only on the [[Grothendieck topology]] induced by it. 
+
+=--
 
 (See [[Structured Spaces|StrSp, remark below prop. 1.4.2]]).
 
@@ -470,7 +475,7 @@ $$
 
 So we have
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 The [[little topos]] $\mathcal{X} := \mathbf{H}/X$ of every object $X$ in the big topos $\mathbf{H}$ over $\mathcal{G}$ is canonically equipped with a $\mathcal{G}$-structure sheaf
