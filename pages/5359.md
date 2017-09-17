@@ -122,6 +122,8 @@ This is ([MorrisonWalker, example 6.2.6](#MorrisonWalker))).
 
 * [[blob homology]]
 
+* [[(∞,n)-category with adjoints]], [[(∞,n)-category with duals]]
+
 ## References
 
 Section 6 of
