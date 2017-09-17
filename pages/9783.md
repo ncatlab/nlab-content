@@ -1,0 +1,26 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functional analysis
++--{: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+## Idea
+
+A **bounded set** in functional analysis is one that is eventually absorbed by every open neighbourhood of $0$.
+
+## Definition
+
++-- {: .num_defn #bset}
+###### Definition
+Let $E$ be a [[LCTVS]].  A subset $B \subseteq E$ is **bounded** if whenever $U \subseteq E$ is a neighbourhood of $0$ then there is some $r \gt 0$ such that $B \subseteq r U$.
+=--
+
+The family of all bounded sets of a LCTVS defines a [[bornology]] on that space.
+
+[[!redirects bounded sets]]
+[[!redirects bounded subset]]
+[[!redirects bounded subsets]]
