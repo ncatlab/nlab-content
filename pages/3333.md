@@ -312,24 +312,63 @@ Follows by the above from the equivalence $[LConst S^1 , X] \simeq X^{S^1}$ disc
 
 #### Intrinsic circle action
 
-The realization of the free loop space object as an internal hom out of the circle induced a canonical [[action]] of the circle on $\mathcal{L}X$.
 
 
-##### Definition
+By precomposition, the [[automorphism 2-group]] of the [[circle]] $S^1$ acts on free loop space of an object $X \in \mathbf{H}$
 
-##### Details {#DetailsCircAct}
-
-Here is what this categorical circle action looks like in more detail:
-
-
-> [[Urs Schreiber]]: not clear yet how useful the following is for the above...
-
-we use the [[delooping]] [[groupoid]] $\mathbf{B}\mathbb{Z}$ of the additive [[group]] $\mathbb{Z}$ of integers for simplicity, as a model for $S^1_C$. The [[endomorphism]]s of this object form the category
 $$
-  END(\mathbf{B}\mathbb{Z})
+  Aut(S^1) \times [S^1, X] 
+  \to 
+  [S^1, S^1] \times [S^1, X] \stackrel{\circ}{\to} [S^1, X]
+  \,.
 $$
 
-whose objects are functors $\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}$ and whose morphisms are [[natural transformation]]s between these. The functors come from group homomorphisms, hence from multiplication by $n\in\mathbb{Z}$
+
++-- {: .un_prop}
+###### Proposition
+
+The connected component of $[S^1,S^1]$ on the identity is equivalent to $S^1$
+
+$$
+  [S^1 , S^1]_{Id} \simeq S^1
+$$
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+We say that
+
+$$
+  S^1 \times [S^1, X] 
+    \simeq
+  [S^1, S^1]_{Id} \times [S^1, X]
+  \stackrel{\circ}{\to} 
+  [S^1, X]
+$$
+
+is the intrinsic **circle action** on the free loop space object.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We spell out in detail what this action looks like.
+The reader should thoughout keep the [[homotopy hypothesis]]-equivalence, $(|-| \dashv \Pi) : Top \simeq \infty Grpd$ in mind.
+
+We may realize the [[circle]] $S^1 \in $ [[Top]] under $\Pi : Top \simeq \infty Grpd$ as the [delooping]] [[groupoid]] $\mathbf{B}\mathbb{Z}$ of the additive [[group]] $\mathbb{Z}$ of [[integer]]s 
+
+The [[automorphism 2-group]] of this object is the [[functor category|functor groupoid]]
+
+$$
+  Aut_{Grpd}(\mathbf{B}\mathbb{Z})
+$$
+
+whose [[object]]s are invertible [[functor]]s $\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}$ and whose [[morphism]]s are [[natural transformation]]s between these. 
+
+The functors $\mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}$ correspond bijectively to group [[homomorphism]]s $\mathbb{Z} \to \mathbb{Z}$, hence to multiplication by $n\in\mathbb{Z}$
 
 $$
   [n] : \mathbf{B}\mathbb{Z} \to \mathbf{B}\mathbb{Z}
@@ -339,7 +378,7 @@ $$
   (\bullet \stackrel{k}{\to} \bullet) \mapsto (\bullet \stackrel{n\cdot k}{\to} \bullet).
 $$
 
-Natural transformations between two such automorphisms are given by a component $\ell \in \mathbb{Z}$ such that all diagrams
+Natural transformations between two such endomorphisms are given by a component $\ell \in \mathbb{Z}$ such that all diagrams
 
 $$
   \array{
@@ -351,19 +390,24 @@ $$
   }
 $$
 
-commute in $\mathbf{B}\mathbb{Z}$. This can happen only for $n = n'$, but then it happens for arbitrary $\ell$. In other words we have
+commute in $\mathbf{B}\mathbb{Z}$. This can happen only for $n = n'$, but then it happens for arbitrary $\ell$. 
+
+In other words we have
 
 $$
-  END(\mathbf{B}\mathbb{Z}) \simeq \coprod_{\mathbb{Z}}\mathbf{B}\mathbb{Z}
+  Aut(\mathbf{B}\mathbb{Z}) \simeq 
+  \coprod_{[n] \in \mathbb{Z}^\times}\mathbf{B}\mathbb{Z}
   \,.
 $$
+
 and 
+
 $$
-AUT_0(\mathbf{B}\mathbb{Z}) \simeq \mathbf{B}\mathbb{Z}
+Aut_{Id}(\mathbf{B}\mathbb{Z}) \simeq \mathbf{B}\mathbb{Z}
   \,.
 $$
 
-The object $[n]$ corresponds to the self-mapping of the circle onto itself that fixes the basepoint and has winding number $n\in\mathbb{Z}$. The transformation $\ell$ corresponds then to a rigid rotation of the loop by $\ell$ full circles
+The object $[n]$ corresponds to the self-mapping of the circle that fixes the basepoint and has winding number $n\in\mathbb{Z}$. The transformation $\ell$ corresponds then to a rigid rotation of the loop by $\ell$ full circles
 
 Notably for $n = 1$ and $k = 1$ we may think of the diagram
 
@@ -377,18 +421,16 @@ $$
   }
 $$
 
-as depicting the unit loop around the circle (on the left, say) and the result of translating its basepoint $\ell$-times around the circle (the rest of the diagram). Of course since we are using a model of $S^1_C$ with a single object here, every rotation of the loop is a full circle rotation, which is a bit hard to see.
-
-> Exercise: spell out the above discussion analogously for the equivalent model given by the [[fundamental groupoid]] $\Pi_1(S^1)$ of the standard circle. The is the groupoid with $S^1_{Top}$ as its set of objects homotopy classes of paths in the circle as morphisms. In this model things look more like one might expect from a circle action. Notice that $\mathbf{B}\mathbb{Z}$ is the [[skeleton]] of $\Pi_1(S^1)$.
-
-+--{: .query}
-[[David Roberts]]: I presume that the 2-categories of groupoids and 1-types are equivalent (for the latter I'm taking a subcategory of the usual 2-category of CW complexes, with classes of homotopies as 2-arrows), giving us the conjectural result that the 2-group $AUT(\Pi_1(S^1))$ should be equivalent to the 2-group $AUT_{Ho}(S^1)$ with objects the self-homotopy equivalences of $S^1$ and morphisms the (homotopy classes of) homotopies between them. At the very least, without the above equivalence of 2-categories there should be a faithful functor $AUT_{Ho}(S^1) \to AUT(\Pi_1(S^1))$ which is also injective on objects. A simple exercise should show that it is full. 
-
-[[Urs Schreiber]]: yes, certainly, these should be equivalent. The entire discussion is maybe a bit of an exercise in "the obvious made explicit to the point that it becomes non-obvious".
+as depicting the unit loop around the circle (on the left, say) and the result of translating its basepoint $\ell$-times around the circle (the rest of the diagram). Of course since we are using a model of $S^1$ with a single object here, every rotation of the loop is a full circle rotation, which is a bit hard to see.
 
 =--
 
-Consider for instance $X = \mathbf{B}G$ such that $\mathcal{L}X = G//_{Ad}G$ (as discussed in detail below). Then a morphism $(g \stackrel{h}{\to} Ad_h a)$ in $G//G$ corresponds to a natural transformation
+> Exercise: spell out the above discussion analogously for the equivalent model given by the [[fundamental groupoid]] $\Pi_1(S^1)$ of the standard circle. The is the groupoid with $S^1_{Top}$ as its set of objects homotopy classes of paths in the circle as morphisms. In this model things look more like one might expect from a circle action. Notice that $\mathbf{B}\mathbb{Z}$ is the [[skeleton]] of $\Pi_1(S^1)$.
+
++-- {: .un_example}
+###### Example
+
+Consider $\mathbf{H} = $ [[∞Grpd]], $G$ a [[group]] and  $X = \mathbf{B}G$ the [[delooping groupoid]]. Then $\mathcal{L}X = G//_{Ad}G$ (as discussed in detail [below](#LoopsInBG)). A morphism $(g \stackrel{h}{\to} Ad_h a)$ in $G//G$ corresponds to a natural transformation
 
 $$
   \array{
@@ -451,7 +493,7 @@ $$
 \ell:(g \stackrel{h}{\to} Ad_h g)\mapsto (g \stackrel{g^{\ell} h}{\to} Ad_h g).
 $$ 
 
-
+=--
 
 ### Hochschild cohomology and cyclic cohomology
 
@@ -468,7 +510,7 @@ $$
 
 In [[Top]] the notion of free loop space objects reproduces the standard notion of topological [[free loop space]]s.
 
-### Details for $\mathcal{L} \mathbf{B}G$
+### Details for $\mathcal{L} \mathbf{B}G$ {#LoopsInBG}
 
 Let the ambient [[(∞,1)-category]] be [[∞Grpd]], let $G$ be an ordinary [[group]] and $\mathbf{B}G$ its one-object [[delooping]] [[groupoid]]. 
 
