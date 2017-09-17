@@ -19,7 +19,7 @@
 
 ## Definition
 
-An object $X$ of a category $C$ is said to be [[finitely presentable object|finitely presentable]] (sometimes called [[compact object|compact]] or 'finite') if the [[representable functor]] $C(X,-)$ is finitary, i.e., preserves [[filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ consisting of the finitely presentable objects.
+An [[object]] $X$ of a [[category]] $C$ is said to be [[finitely presentable object|finitely presentable]] (sometimes called [[compact object|compact]] or 'finite') if the [[representable functor]] $C(X,-)$ is finitary, i.e., preserves [[filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ consisting of the finitely presentable objects.
 
 
 A category $C$ satisfying (any of) the following equivalent conditions is said to be __locally finitely presentable__ (or **lfp**):
