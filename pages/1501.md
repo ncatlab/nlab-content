@@ -24,7 +24,7 @@ A _rigid (monoidal) category_, also called an _autonomous (monoidal) category_ i
 
 A [[monoidal category]] is **rigid** if every [[object]] has [[dualizable object|duals]] on both sides.  If only one type of dual exists, we speak of **left rigid** (or left autonomous) or **right rigid** categories.
 
-Conventions differ regarding which type of duals are which.  One convention is as follows: a _right dual_ of an object $V$ in a monoidal category $M$ is an object $V^*$ equipped with unit $\eta : 1 \rightarrow V^* \otimes V$ and counit maps $\epsilon: V \otimes V^* \rightarrow 1$ satisfying the [[triangle identities]] (the snake diagrams), while a left dual is is the dual notion.  This convention fits in with the standardized conventions regarding [[adjoint functor]]s: anendofunctor $F : C \rightarrow C$ has a right adjoint $F^* : C \rightarrow C$ if and only if $F^*$ is a right dual of $F$ in the [[monoidal category]] $End(C)$. 
+Conventions differ regarding which type of duals are which.  One convention is as follows: a _right dual_ of an object $V$ in a monoidal category $M$ is an object $V^*$ equipped with unit $\eta : 1 \rightarrow V^* \otimes V$ and counit maps $\epsilon: V \otimes V^* \rightarrow 1$ satisfying the [[triangle identities]] (the snake diagrams), while a left dual is the dual notion.  This convention fits in with the standardized conventions regarding [[adjoint functor]]s: an endofunctor $F : C \rightarrow C$ has a right adjoint $F^* : C \rightarrow C$ if and only if $F^*$ is a right dual of $F$ in the [[monoidal category]] $End(C)$. 
 
 
 ## Remarks
