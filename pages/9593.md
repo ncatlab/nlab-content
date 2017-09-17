@@ -1,0 +1,10 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Laurent_Schwartz)
+
+## Related entries
+
+* [[distribution]]
+
+category: people
+
+[[!redirects L. Schwartz]]
