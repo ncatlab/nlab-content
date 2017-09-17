@@ -18,17 +18,34 @@ The notion of **$\infty$-Lie groupoid** is the generalization of the notion of [
 
 an $\infty$-Lie groupoid is an [[∞-groupoid]] that is _smooth_ in some sense.
 
-One way to realize this is to pick a [[site]] $C$ of smooth test spaces -- such as [[CartSp]] or [[Diff]] -- and take a smooth $\infty$-groupoid $A$ to be an [[∞-stack]]/[[(∞,1)-sheaf]] $A : C^{op} \to $ [[∞Grpd]] on this site. 
 
-* Evalutaed on the [[point]] $* \in C$ this encodes an ordinary [[∞-groupoid]] $A(*) \in \infty Grpd$, which is the underlying $\infty$-groupoid of our smooth $\infty$-groupoid.
+### Reminder: Lie groupoids and differentiable stacks
 
-* Evaluated on an object $U \in C$ this encodes an $\infty$-groupoid $A(U)$ that is to be thought of as the $\infty$-groupoid of _smooth families paramterized by $U$_ of [[object]]s, [[morphism]]s, ... [[k-morphism]]s in $A(*)$.
+Before indicating the idea of $\infty$-Lie groupoids in more detail, recall some aspects of the theory of ordinary [[Lie groupoid]]s.
 
-This way of encoding smooth structure is entirely analogous to, and in fact a generalization of, the way a [[diffeological space]] is encoded as a [[sheaf]] on [[CartSp]]. 
+An ordinary [[Lie groupoid]] is usually understood to be a [[groupoid]] [[internalization|internal]] to [[Diff]], possibly with further extra conditions on its structure morphisms. The literature on Lie groupoids is familiar with the fact that it is often useful to regard these internal groupoids after embedding them into the more general context of [[stack]]s on the [[site]] [[Diff]] of all [[smooth manifold]]s: there they are called [[differentiable stack]]s.
 
-Accordingly, the generic [[∞-stack]] on [[CartSp]] or [[Diff]] is a smooth $\infty$-groupoid that may be a more general object than one may want to call an "$\infty$-Lie groupoid". The latter term one may want to reserve for special such stacks -- for [[geometric stack]]s and their $\infty$-categorical analogs.
+Regarding a groupoid internal to manifolds $\mathcal{G}$ as a [[stack]] $\mathcal{G} : Diff^{op} \to $ [[Grpd]] means encoding it in terms of the groupoids of smooth _families_ of objects and morphisms inside it:
 
-Notice that for the definition of the smooth structure on a [[diffeological space]] or on an ordinary [[Lie groupoid]] it is not in fact necessary to regard these as objects tested by objects in all of [[Diff]]: since smoothness is a local property, it is entirely sufficient to know around every point in the set of [[k-morphism]]s of the $\infty$-groupoid is, what all the extensions of this point to a _ball_ -shaped smooth family of points around that point are. This is precisely what an [[∞-stack]] on [[CartSp]] encodes. See the discussion below for the difference between $\infty$-stacks on [[CartSp]] and on [[Diff]].
+* to the point $* \in Diff$ it assigns the underlying bare groupoid $\mathcal{G}(*)$, the groupoid $\mathcal{G}$ with its smooth structure forgotten;
+
+* to a manifold $U \in Diff$ it assigns the groupoid $\mathcal{G}(U)$ whose set of [[object]]s is the set $\mathcal{G}(U)_0 := Hom_{Diff}(U,\mathcal{G}_0)$ of smooth $U$-parameterized [[object]]s in $U$, and whose set of [[morphism]]s $\mathcal{G}(U)_1 := Hom_{Diff}(U,\mathcal{G}_1)$ is the set of smooth $U$-parameterized morphisms in $\mathcal{G}$.
+
+Not every stack on [[Diff]] comes from a [[groupoid]] $\mathcal{G}$ [[internalization|internal to]] [[Diff]] this way. For instance the ([[stackification]] of the) [[groupoid of Lie-algebra valued forms]] for some [[Lie group]] $G$ is a [[concrete presheaf|non-concrete]] stack, which can never be represented by an internal groupoid. Still, most operations that one may want to apply to internal groupoids also make sense for general stacks on [[Diff]]. Indeed, some operations that one may want to apply to internal groupoids take values not in internal groupoids, but in more general stacks: the [[2-category]] $Sh_{(2,1)}(Diff)$ of all stacks on $Diff$ is formally more well behaved than the sub-category of [[differentiable stack]]s inside it. One useful way to formalize all the nice structure that $Sh_{(2,1)}(Diff)$ has is to see that this is a [[2-topos]].
+
+Therefore it is quite useful to think off _every_ stack on $Diff$ as encoding a _smooth groupoid_ and to think of the study of Lie groupoids as being the theory of the [[2-topos]] $Sh_{(2,1)}(Diff)$. The higher version of [[Lie theory]] takes place here. The groupoids internal to $Diff$ are special nice objects in this 2-topos: the [[geometric stack]]s.
+
+For this reason, here we shall find it useful to adopt the term _Lie groupoid_ for a general objects in $Sh_{(2,1)}(Diff)$ and to speak of Lie groupoids _[[representable functor|represented]]_ in [[smooth manifold]]s or [[geometric stack]]s if we mean groupoids internal to manifolds, under the embedding indicated above.
+
+
+### $\infty$-Lie groupoids as $(\infty,1)$-sheaves / $\infty$-stacks
+
+As we generalize from [[groupoid]]s to [[∞-groupoid]]s, the notion of [[stack]]/[[2-sheaf|(2,1)-sheaf]] generalizes to that of [[∞-stack]]/[[(∞,1)-sheaf]]. Therefore we shall _define_ an $\infty$-Lie groupoid to be an [[(∞,1)-sheaf]] on a [[site]] of smooth test spaces. 
+
+Notice that for the definition of the smooth structure on a [[diffeological space]] or on an ordinary [[Lie groupoid]] it is not in fact necessary to regard these as objects tested by objects in all of [[Diff]]: since smoothness is a local property, it is entirely sufficient to know around every point in the set of [[k-morphism]]s of the $\infty$-groupoid what all the extensions of this point to a _ball_ -shaped smooth family of points around that point are. This is precisely what an [[∞-stack]] on [[CartSp]] encodes, the category of just [[Cartesian space]]s and [[smooth function]]s between them. A discussion of the difference or not between $\infty$-stacks on [[Diff]] and on [[CartSp]] see the section [below](#CartSpAndDiff)
+
+
+We shall think of the [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ as being the context in wich [[∞-Lie theory]] takes place. As before, inside this large context only some nice objects correspond to [[internal ∞-groupoid]]s in [[Diff]] or in [[diffeological space|Diffeol]]. These [[geometric stack|geometric ∞-stack]]s are the concrete or geometric $\infty$-Lie groupoids inside more general objects. One way to make precise the notion of _geometric ∞-stack_ with respect to a chosen notion of _geometric_ is to adopt the concept of [[geometry (for structured (∞,1)-toposes)]].
 
 There are other sites on wich one may want a smooth $\infty$-groupoid to be modeled on. For instance instead of testing only with [[smooth manifold]]s, one may want to test with [[smooth loci]]. An ordinary [[sheaf]] on the category $\mathbb{L}$ of smooth loci is a generalized [[smooth space]] as considered in [[synthetic differential geometry]]. Accordingly, an $\infty$-stack on $\mathbb{L}$ may be thought of as a smooth $\infty$-Lie groupoid to which synthetic differential geometry applies.
 
@@ -380,7 +397,7 @@ The functor $\Pi : Sh_{(\infty,1)}(CartSp) \to \infty Grpd$ preserves homotopy f
 > may need to polish the technical assumptions...
 
 
-### Relation to $(\infty,1)$-sheaves on all manifolds
+### Relation to $(\infty,1)$-sheaves on all manifolds {#CartSpAndDiff}
 
 In the literature on [[Lie groupoid]]s and [[differentiable stack]]s, these are traditionally conceived as [[stack]]s on the [[site]] [[Diff]] of all [[smooth manifold]]s. As mentioned above, for the purpose of encoding a smooth structure on a [[groupoid]] the category [[Diff]] regarded as a category of test objects is larger than necessary. After all, every manifold is, by definition, itself patched together from [[Cartesian space]]s, and passing to sheaves or stacks on a site really just means that one allows objects patched together from the objects in the site, so that one could just as well take the site to be just that of [[Cartesian space]]s in the first place.
 
