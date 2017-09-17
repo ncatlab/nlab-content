@@ -31,7 +31,7 @@ More in detail, a complete Segal space $X$ is
 
 such that
 
-1. there is a [[composition]] operation well defined up to [[coherence|coherent]] [[homotopy]]: exibited by the canonical morphisms
+1. there is a [[composition]] operation well defined up to [[coherence|coherent]] [[homotopy]]: exibited by the [[Segal maps]]
 
    $$
      X_k \to X_1 \times_{X_0} \cdots \times_{X_0} X_1
@@ -76,7 +76,7 @@ such that
 
 * it is a [[local object]] with respect to the [[spine]] inclusions $\{Sp[n] \hookrightarrow \Delta[n]\}_{n \in \mathbb{N}}$;
 
-  equivalently: for all $n \in \mathbb{N}$ the canonical morphism
+  equivalently: for all $n \in \mathbb{N}$ the [[Segal map]]
 
   $$
     X_n \to X_1 \times_{X_0} \cdots \times_{X_0} X_1 
@@ -395,6 +395,7 @@ $$
 $$
 
 for the functor given by
+
 
 $$
   Sing_J(X)_n = Hom_{sSet}(\Delta[n] \times \Delta_J[\bullet], X)
