@@ -174,7 +174,40 @@ $$
 
 This is [Spittes06, theorem 9, corollary 10](#Spitters06).
 
-+-- {: .num_prop}
++-- {: .num_prop #FunctorToRingedToposes}
+###### Proposition
+
+Let $Cstar_{inc}$ be the [[category]] of [[C-star algebra]]s and inclusions. Then the construction of the [[ringed topos]] over the [[semilattice of commutative subalgebras]]
+
+$$
+  A \mapsto ([\mathcal{C}(A), Set], \underline{A})
+$$
+
+extends to a functor
+
+$$
+  Cstar_{incl} \to RingedTopos
+$$
+
+and even to
+
+$$
+  Cstar_{incl} \to CstarTopos
+  \,,
+$$
+
+where on the right the morphisms of internal rings are even morphisms of internal [[C-star algebra]]s.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+With the components of the morphism of internal rings the evident objectwise inclusions, this is directly checked.
+
+=--
+
++-- {: .num_prop #BohrificationFunctorToLoc}
 ###### Proposition
 
 Let $Cstar_{inc}$ be the [[category]] of [[C-star algebra]]s and inclusions. Then [Bohrification](#Bohrification) extends to a [[functor]]
@@ -186,16 +219,12 @@ $$
 
 =--
 
-This appears as ([vdBergHeunen, theorem 35](#vdBergHeunen)).
+This is effectively the functoriality of the internal [[constructive Gelfand duality]] applied to the [above observation](#FunctorToRingedToposes). The statement appears as ([vdBergHeunen, theorem 35](#vdBergHeunen)). 
 
-+-- {: .proof}
-###### Proof
-
-It is directly checked that on monomorphisms the assignment $A \mapsto (\mathcal{T}_A, \underline{A})$ is a morphism from $C^\ast$-algebras to [[ringed topos]]es.
-
-=--
 
 ## Applications 
+
+Notice that in the context of [[AQFT]] a [[quantum field theory]] is encoded by a [[local net]] of [[C-star algebra]]s on [[spacetime]].
 
 +-- {: .num_note}
 ###### Note
@@ -206,7 +235,7 @@ $$
   A : \mathcal{O}(X) \to CStar_{inc}
 $$
 
-be a [[local net]] of algebras. Notice that by definition this indeed takes values in $C^\ast$-algebras and _inclusions_ . Then postcomposition with Bohrification yield a [[presheaf]]
+be a [[local net]] of algebras. Notice that by definition this indeed takes values in $C^\ast$-algebras and _inclusions_ . Then postcomposition with the [Bohrification functor](#BohrificationFunctorToLoc) yield a [[presheaf]]
 
 $$
   \Sigma_A : \mathcal{O}(X)^{op} \to Loc \to Set
@@ -216,6 +245,7 @@ that assigns to each [[open subset]] of $X$ regarded as [[spacetime]] an object 
 
 =--
 
+(...)
 
 
 ## References
@@ -236,7 +266,7 @@ The [[functor|functoriality]] of Bohrification is observed in
 * [[Benno van den Berg]], [[Chris Heunen]], _Noncommutativity as a colimit_ ([arXiv:1003.3618](http://arxiv.org/abs/1003.3618))
 {#vdBergHeunen}
 
-The application of the double negation topology to make Bohrification coinicide with ordinary [[Gelfand duality]] on commutative $C^*$-algebras is discussed in 
+The application of the [[double negation topology]] to make Bohrification coinicide with ordinary [[Gelfand duality]] on commutative $C^*$-algebras is discussed in 
 
 * [[Bas Spitters]], _The space of measurement outcomes as a spectrum for non-commutative algebras_ in Cooper, Kashefi, Panangaden (eds.) _Developments in computational models_ (DCM 2010)([arXiv:1006.1432](http://arxiv.org/abs/1006.1432))
 {#Spitters06}
