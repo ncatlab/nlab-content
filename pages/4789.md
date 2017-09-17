@@ -156,7 +156,7 @@ The term _Chern-Simons element_ alludes to the term _[[Chern-Simons form]]_ and 
   {#PresentationForChernWeil}
 
 
-We explain here briefly how Chern-Simons elements provide a _presentation_ of a generalization of the [[Chern-Weil homomotphism]] -- the [[∞-Chern-Weil homomorphism]] in [[cohesive (∞,1)-topos]] theory -- in the sense in which [[(∞,1)-topos]]es have [[presentable (∞,1)-category|presentations]] by a [[model structure on simplicial presheaves]].
+We explain here briefly how Chern-Simons elements provide a _presentation_ of a generalization of the [[Chern-Weil homomorphism]] -- the [[∞-Chern-Weil homomorphism]] in [[cohesive (∞,1)-topos]] theory -- in the sense in which [[(∞,1)-topos]]es have [[presentable (∞,1)-category|presentations]] by a [[model structure on simplicial presheaves]].
 
 
 To warm up, we start with considering a traditional setup of [[Lie groupoid]] theory. Recall that for $G$ a [[Lie group]], we may form its [[delooping]] [[Lie groupoid]] dnoted $*//G$ or $\mathbf{B}G$. Then with $X$ any [[smooth manifold]], we have that the [[groupoid]] of [[morphism]]s of [[Lie groupoid]]s $X \to \mathbf{B}G$ is equivalent to that of $G$-[[principal bundle]]s on $X$:
@@ -174,10 +174,19 @@ $$
 
 of [[stack]]s/[[(2,1)-sheaves]] on the [[site]] [[SmoothMfd]] (equivalently on its [[small category|small]] [[dense subsite]] [[CartSp]] of [[Cartesian space]]s). (This is discussed in detail at _[[principal bundle]]_ ).
 
-There is a _differential refinement_ of the [[Lie groupoid]] $\mathbf{B}G$, to the smooth groupoid $\mathbf{B}G_{conn}$: this is the [[(2,1)-sheaf]] given by the 
+There is a _differential refinement_ of the [[Lie groupoid]] $\mathbf{B}G$, to the smooth groupoid 
+
+$$
+  \mathbf{B}G_{conn}
+   :=
+  SmoothGrpd(\mathbf{P}_1(-), \mathbf{B}G)
+  \,,
+$$ 
+
+where $\mathbf{P}_1(X)$ is the [[path groupoid]] of $X$. This is the [[(2,1)-sheaf]] given by the 
 [[(∞,1)-sheafification|(2,1)-sheafification]] of the assignment that sends a [[smooth manifold]] $U$ to the [[groupoid of Lie algebra-valued 1-forms]] on $U$.
 
-There is a coresponding [[natural equivalence]]
+There is a corresponding [[natural equivalence]]
 
 $$
   SmoothGrpd(X, \mathbf{B}G_{conn}) \simeq G Bund_{conn}(X)
@@ -221,7 +230,7 @@ It is this kind of construction on [[Lie groupoid]]s that we now want to general
 
 A general abstract context for [[higher geometry]] equipped with [[differential cohomology]] is a [[cohesive (∞,1)-topos]] $\mathbf{H}$ of [[∞-groupoid]]s equipped with _cohesive structure_ , such as [[Smooth∞Grpd|smooth cohesive structure]].
 
-An example for such is the [[∞-stack]]-analog of the [[stack]]-[[(2,1)-topos]] over [[SmoothMfd]]: the [[∞-stack (∞,1)-topos]] [[Smooth∞Grpd]] $:= \hat Sh_{(\infty,1)}(SmoothMfd)$.
+An example for such is the [[∞-stack]]-analog of the [[stack]]-[[(2,1)-topos]] over [[SmoothMfd]]: the [[(∞,1)-sheaf (∞,1)-topos|∞-stack (∞,1)-topos]] [[Smooth∞Grpd]] $:= \hat Sh_{(\infty,1)}(SmoothMfd)$.
 
 In that context we have for instance all the higher [[delooping]]s of $U(1)$: the <a href="">circle Lie (n+1)-groups</a>
 
@@ -247,7 +256,7 @@ $$
   \,.
 $$
 
-For instance for $G = Spin$ the [[spin group]], the first fractional [[Pontryagin class]] has a smooth incarnation
+For instance for $G = Spin$ the [[spin group]], the first fractional [[Pontryagin class]] has a smooth incarnation given by a morphism of the form
 
 $$
   \frac{1}{2}\mathbf{p}_1 : \mathbf{B} Spin \to \mathbf{B}^3 U(1)
@@ -260,14 +269,130 @@ Every [[cohesive (∞,1)-topos]] comes canonically and essentially uniquely equi
 There is an  [[adjoint (∞,1)-functor|endo-(∞,1)-adjunction]]
 
 $$
-  (\mathbf{\Pi} \dashv \mathbf{\flat}) : Smooth\infty Grpd \to Smooth \infty Grpd
+  (\mathbf{\Pi} \dashv \mathbf{\flat}) : Smooth\infty Grpd \to 
+  Smooth \infty Grpd
 $$
 
 where $\mathbf{\Pi}(X)$ is the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#Paths">path ∞-groupoid</a> of a [[smooth ∞-groupoid]] $X$.
+A morphism $\mathbf{\Pi}(X) \to \mathbf{B}^n U(1)$ encodes therefore the flat [[higher parallel transport]] of a flat [[circle n-bundle with connection]], and we have that the [[n-groupoid]] of morphisms
+
+$$
+  Smooth \infty Grpd(\mathbf{\Pi}(X), \mathbf{B}^n U(1))
+  \simeq
+  U(1) n Bund_{\nabla_{flat}}(X)
+$$
+
+is that of flat [[circle n-bundles with connection]]/ (n-1)-[[connection on a bundle gerbe|bundle gerbes with connection]].
+
+A _trivial_ circle $n$-bundle with connection is equivalently just a globally defined [[differential form|differential n-form]]. Therefore if we define the modified [[adjoint (∞,1)-functor|(∞,1)-adjunction]]
+
+$$
+  (\mathbf{\Pi}_{dR} \dashv \mathbf{\flat}_{dR})
+  : 
+   */Smooth\infty Grpd
+    \stackrel{\leftarrow}{\to}
+   Smooth\infty Grpd
+$$
+
+by the [[(∞,1)-pullback]] 
+
+$$
+  \mathbf{\flat}_{dR}\mathbf{B}^n U(1) 
+  := * \prod_{\mathbf{B}^n U(1)} \mathbf{\flat} \mathbf{B}^n U(1)
+$$ 
+
+one finds (discussed in detail <a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#StrucDeRham">here</a>) that morphisms $X \to \mathbf{\flat}_{dR} \mathbf{B}^n U(1)$ correspond to trivial circle bundle with connection, hence to cocycles in [[de Rham cohomology]] of $X$.
+
+This now allows us to construct differential refinements:
+
+one can show (detailed discussion is <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#CurvatureCharacteristics">here</a>) that there are canonical cocycles
+
+$$
+  curv : \mathbf{B}^n U(1) \to \mathbf{\flat}_{dR} \mathbf{B}^{n+1}
+$$
+
+in the degree $(n+1)$-[[de Rham cohomology]] of $\mathbf{B}^n U(1)$: the universal [[curvature characteristic form]]s. 
+
+Then for $\mathbf{c} : \mathbf{B}G \to \mathbf{B}^n U(1)$ any smooth [[characteristic class]], the correspodning (unrefined) [[differential characteristic class]] is simply the composite
+
+$$
+  \mathbf{c}_{dR} : \mathbf{B}G \stackrel{\mathbf{c}}{\to}
+   \mathbf{B}^n U(1)
+   \stackrel{curv}{\to}
+  \mathbf{\flat}_{dR} \mathbf{B}^{n+1} U(1)
+  \,.
+$$
+
+The (unrefined) [[∞-Chern-Weil homomorphism]] is postcomposition with this morphism. 
+
+This is finally where the Chern-Simons elements come in:
+
++-- {: .standout}
+
+Chern-Simons elements are a means to present the composite morphism $\mathbf{c}_{dR}$ of [[smooth ∞-groupoid]]s by an [[∞-anafunctor]].
+
+=--
+
+This presentation we describe in the next section.
+
+
+(In fact a bit more is true: the serve to present the refinement of $\mathbf{c}_{dR}$ to a morphism $\hat \mathbf{c}$ with values in [[ordinary differential cohomology]]. This we come to further below.)
 
 
 
 ### Chern-Simons forms
+
+This is where the notion of Chern-Simons elements starts to show up: one finds that there is a presentation of this morphism by a morphism of [[simplicial presheaves]] built as follows: the object $\mathbf{B}^n U(1)$ turns out to be presented by a quotient of the presheaf of [[Kan complex]]es given by
+
+$$
+  \mathbf{B}^n U(1)_{diff} : 
+  (U \in SmoothMfd, [k] \in \Delta)
+   \mapsto
+  \left\{
+    \array{
+      \Omega^\bullet_{si,vert}(U \times \Delta^k)
+      &\leftarrow& CE(b^{n-1} \mathbb{R})
+      \\
+      \uparrow && \uparrow
+      \\
+      \Omega^\bullet_{si}(U \times \Delta^k)
+      &\stackrel{\omega}{\leftarrow}&
+      W(b^{n-1} \mathbb{R})
+    }
+  \right\}
+  \,,
+$$
+
+where on the right we have the set of horizontal morphisms in [[dgAlg]] that make a [[commuting diagram]] with the canonical vertical morphisms as indicated.
+
+(We may think of a morphism of simplicial presheaves $X \to \mathbf{B}^n U(1)_{diff}$ as a [[circle n-bundle with connection|circle n-bundle]]/$(n-1)$-bundle gerbe equipped with a _[[pseudo-connection]]_ . )
+
+
+Notice that the bottom morphism here encodes precisely a degree-$n$ [[differential form]] $\omega$ on $U \times \Delta^k$, The morphism $curv$ is then presented by the map that sends such a form to its [[curvature]] $d A$. If the [[pseudo-connection]]s that we are dealing with are genuine connections the [[curvature]] is a basic form down on $U$ and this means diagrammatically means that it forms the [[pasting]] composite
+
+$$
+  \array{
+    \Omega^\bullet_{si,vert}(U \times \Delta^k)
+    &\leftarrow& CE(b^{n-1} \mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet_{si}(U \times \Delta^k)
+    &\stackrel{\omega}{\leftarrow}&
+    W(b^{n-1} \mathbb{R})
+    \\
+    \uparrow && \uparrow
+    \\
+    \Omega^\bullet(U)
+    &\stackrel{d \omega}{\leftarrow}&
+    inv(b^{n-1} \mathbb{R})
+  }
+  \,.
+$$
+
+
+
+
 
 
 As the term _Chern-Simons element_ indicates, when composed with [[∞-Lie algebra valued forms]] one obtain [[Chern-Simons forms]]:
@@ -906,10 +1031,6 @@ A survey of higher Chern-Simons elements and their action functionals as applied
 * Jorge Zanelli, _Lecture notes on Chern-Simons (super-)gravities_ [arXiv:0502193](http://arxiv.org/abs/hep-th/0502193)
 {#Zanelli}
 
-For the discussion of symplectic $n$-Lie algebroids above see [[n-symplectic manifold]] and
-
-* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv:math/0203110](http://arxiv.org/abs/math/0203110))
-{#Roytenberg}
 
 
 
