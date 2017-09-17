@@ -218,7 +218,7 @@ that is the usual braiding isomorphism of [[Vect]] on $V_{even} \otimes W_{even}
 
 A **super (associative) algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
 
-A **(graded)-commutative (associative) algebra** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
+A **[[graded commutative algebra|(graded)-commutative (associative) algebra]]** over $K$ is a [[monoid]] in the [[symmetric monoidal category]] [[SVect]] of [[super vector space]]s.
 
 =--
 
