@@ -1,6 +1,11 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-Let $q$ be a positive-definite [[quadratic form]] over the ring of [[integers]] $\mathbf{Z}$.  The **mass** of $q$ is a weighted count of the number of quadratic forms in the [[genus]] of $q$, up to isomorphism (weighted by multiplicity).  The Smith-Minkowski-Siegel mass formula gives a (complicated but computable) formula for the mass of $q$.
+Let $q$ be a positive-definite [[quadratic form]] over the ring of [[integers]] $\mathbf{Z}$.  The **mass** of $q$ is a weighted count of the number of quadratic forms in the [[genus]] of $q$, up to isomorphism (weighted by multiplicity).  The [[Smith-Minkowski-Siegel mass formula]] gives a (complicated but computable) formula for the mass of $q$.
 
 Over number fields, ideas of Tamagawa and Weil allow a reformulation of this formula as the statement that the [[Tamagawa number]] of a certain [[algebraic group]] associated to $q$ is equal to 1.  _Weil's conjecture_ is then the statement, now a theorem of [[Robert Langlands]], K. F. Lai and Robert Kottwitz, that the [[Tamagawa number]] of any semisimple simply-connected [[algebraic group]] is equal to 1.
 
@@ -38,7 +43,7 @@ where $\Spin_q$ is the 2-fold universal cover of $SO_q$.
 
 +-- {: .num_theorem}
 ###### Theorem
-**(Langlands-Lai-Kottwitz, "Weil conjecture")**.
+**(Langlands-Lai-Kottwitz, "[[Weil conjecture]]")**.
 Let $G$ be a semisimple simply-connected [[algebraic group]] over $\mathbf{Q}$.  Then
   \[ \mu_{\mathrm{Tam}}(G(\mathbf{Q})\backslash G(\mathbf{A})) = 1. \]
 =--
@@ -56,7 +61,7 @@ i.e. the subgroup consisting of elements $\{g_x\}_{x \in X}$ such that $g \in G(
 
 $\mathbf{A}_X$ is a [[locally compact]] [[commutative ring]] with [[discrete]] subring $K_X \subset \mathbf{A}_X$.
 
-Let $G_0$ be a semisimple simply-connected linear [[algebraic group]] over $K_X$.  Then $G_0(K_X) \subset G_0(\mathbf{A})$ is a [[discrete]] subgroup of the [[locally compact]] group $G_0(\mathbf{A})$.  One defines a [[Tamagawa measure]] on $G(\mathbf{A})$ in a similar way as usual, i.e. by choosing a [[differential form]] and multiplying the forms on $G_0(K_x)$ ($x \in X$).  Then the [[function field]] version of Weil's conjecture is
+Let $G_0$ be a semisimple simply-connected linear [[algebraic group]] over $K_X$.  Then $G_0(K_X) \subset G_0(\mathbf{A})$ is a [[discrete]] subgroup of the [[locally compact]] group $G_0(\mathbf{A})$.  One defines a [[Tamagawa measure]] on $G(\mathbf{A})$ in a similar way as usual, i.e. by choosing a [[differential form]] and multiplying the forms on $G_0(K_x)$ ($x \in X$).  Then the [[function field]] version of [[Weil's conjecture]] is
 
 +-- {: .num_theorem}
 ###### Theorem
