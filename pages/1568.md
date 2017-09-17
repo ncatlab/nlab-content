@@ -1,5 +1,5 @@
 
-> This entry discusseds the notion of _ideal_ in fair generality. For an entry closeer to the standard notion see at _[[ideal in a monoid]]_.
+> This entry discusseds the notion of _ideal_ in fair generality. For an entry closer to the standard notion see at _[[ideal in a monoid]]_.
 
 # Contents
 * table of contents
@@ -71,14 +71,14 @@ More generally still, passing from monoids to their many-object version there is
 
 ## Kinds of ideals
 
-An ideal $I$ is __proper__ if there exists an element $x$ such that $x \notin I$.  In a rig, $I$ is proper iff $1 \notin I$; in a (bounded) lattice, $I$ is proper iff $\top \notin I$.  If instead $x \in I$ for every $x$ (which follows if $1 \in I$ or $\top \in I$), we have the __[[improper ideal]]__.
+An ideal $I$ is __proper__ if there exists an element $x$ such that $x \notin I$.  In a [[rig]], $I$ is proper iff $1 \notin I$; in a (bounded) lattice, $I$ is proper iff $\top \notin I$.  If instead $x \in I$ for every $x$ (which follows if $1 \in I$ or $\top \in I$), we have the __[[improper ideal]]__.
 
 An ideal $I$ is __prime__ if it is proper and it satsfies a binary condition corresponding to the nullary condition that is properness:
 *  In a rig, $x \in I$ or $y \in I$ if $x y \in I$;
 *  In a proset, $x \in I$ or $y \in I$ if, for all $z$, $z \in I$ if $z \leq x$ or $z \leq y$.
 *  In a lattice (simplifying the proset version to look like the rig verison), $x \in I$ or $y \in I$ if $x \wedge y \in I$.
 
-An ideal is __maximal__ if it is maximal among *proper* ideals.  A maximal ideal in a rig (including in a distributive lattice, but not in every lattice) is necessarily prime; a prime ideal in a Boolean algebra is necessarily maximal.
+An ideal is a __[[maximal ideal]]__ if it is maximal among *proper* ideals.  A maximal ideal in a rig (including in a distributive lattice, but not in every lattice) is necessarily prime; a prime ideal in a Boolean algebra is necessarily maximal.
 
 That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; that every ideal is contained in a maximal ideal is a [[maximal ideal theorem]].
 
@@ -132,8 +132,6 @@ More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$,
 [[!redirects proper ideals]]
 [[!redirects prime ideal]]
 [[!redirects prime ideals]]
-[[!redirects maximal ideal]]
-[[!redirects maximal ideals]]
 [[!redirects principal ideal]]
 [[!redirects principal ideals]]
 [[!redirects generated ideal]]
