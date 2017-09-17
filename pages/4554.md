@@ -31,7 +31,7 @@ Let $C$ be a [[category of fibrant objects]].
 Every [[morphism]] $f : X \to Y$ in $C$ factors as
 
 $$
-  f : X \stackrel{i_\simeq}{\to} \hat X \stackrel{p}{\to} Y
+  f : X \underoverset{\simeq}{i}{\longrightarrow} \hat X \stackrel{p}{\longrightarrow} Y
   \,,
 $$
 
@@ -46,7 +46,7 @@ where
 +-- {: .proof}
 ###### Proof
 
-Let $Y \stackrel{\simeq}{\to} Y^I \stackrel{(d_0,d_1)}{\to} Y \times Y$ be a [[path space object]] for $Y$. Let $\hat X := Y^I \times_Y X$ be the [[pullback]] of $f$ along one of its legs, to get the diagram
+Let $Y^I$ with factorization $Y \stackrel{\simeq}{\to} Y^I \stackrel{(d_1,d_2)}{\longrightarrow} Y \times Y$ be a [[path space object]] for $Y$. Let $\hat X \coloneqq Y^I \times_Y X$ be the [[pullback]] of $f$ along one of its legs, to get the diagram
 
 $$
   \array{
@@ -56,7 +56,7 @@ $$
      \\
      Y^I &\stackrel{d_1}{\to}& Y
      \\
-     {}^{\mathllap{d_0}}\downarrow 
+     \downarrow^{\mathrlap{d_2}}
      \\
      Y
   }
@@ -66,7 +66,7 @@ $$
 Take $p$ to be the composite vertical morphism here:
 
 $$
-  p : \hat X \to Y^I \stackrel{d_0}{\to} Y
+  p \;\colon\; \hat X \to Y^I \stackrel{d_2}{\to} Y
   \,.
 $$
 
@@ -83,11 +83,11 @@ $$
      \\
      \downarrow && \downarrow^{(f, Id)} && \downarrow^\mathrlap{f}
      \\
-     Y^I &\stackrel{(d_0 , d_1) }{\to}&
+     Y^I &\stackrel{(d_1 , d_2) }{\to}&
      Y \times Y &\stackrel{p_1}{\to}&
      Y
      \\
-     \downarrow^{\mathrlap{d_1}} & \swarrow_{p_2}
+     \downarrow^{\mathrlap{d_2}} & \swarrow_{p_2}
      \\
      Y
   }
@@ -97,9 +97,9 @@ $$
 Both squares are pullback squares. Since
 pullbacks of fibrations are fibrations, the morphism
 $\hat X  \to X \times Y$ is a fibration.
-Similarly, since $Y$ is assumed to be fibrant, also the projection map $p_i : Y \times Y \to Y$ is a fibration. 
+Similarly, since $Y$ is assumed to be fibrant, also the [[projection]] map $X \times Y \to Y$ is a fibration (see [here](category+of+fibrant+objects#SimpleConsequences)). 
 
-Since $p$ is therefore the composite
+Since $p$ is thereby exhibited as the composite of two fibrations
 
 $$
   \begin{aligned}
@@ -109,12 +109,13 @@ $$
     \stackrel{p_2}{\to}
     Y
   \end{aligned}
+  \,,
 $$
 
-of two fibrations, it is itself a fibration.
+it is itself a fibration.
 
 
-Next, by the axioms of [[path space objects]] in a [[category of fibrant objects]] that $d_1 : Y^I \to Y$ is a trivial fibration. Since these are stable under pullback, also $\hat X \to X$ is a trivial fibration.
+Next, by the [[axioms]] of [[path space objects]] in a [[category of fibrant objects]] we have that $d_1 \;\colon\; Y^I \to Y$ is a trivial fibration. Since these are stable under pullback, also $\hat X \to X$ is a trivial fibration.
 
 But, by the axioms, $Y^I \to Y$ has a right inverse $Y \to Y^I$. By the [[pullback]] property this induces a right inverse of $\hat X \to X$ fitting into a [[pasting]] diagram
 
@@ -126,7 +127,7 @@ $$
      \\
      Y &\to& Y^I &\stackrel{d_1}{\to}& Y
      \\
-     & {}_{\mathllap{Id}}\searrow& {}^{\mathllap{d_0}}\downarrow 
+     & {}_{\mathllap{Id}}\searrow& \downarrow^{\mathrlap{d_2}} 
      \\
      && Y
   }
@@ -134,6 +135,7 @@ $$
 $$
 
 That establishes the claim.
+
 =--
 
 ## Corollaries
@@ -150,6 +152,7 @@ Let $F : C \to D$ be a functor from a [[category of fibrant objects]] to any [[c
 If $f : X \to Y$ is a weak equivalence, then by 2-out-of-3 also the $p : \hat X \to Y$ from the above proof is a weak equivalence, hence a trivial fibration.
 
 Apply the functor $F$ to the diagram of the above proof
+
 
 $$
   \array{
