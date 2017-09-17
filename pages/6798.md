@@ -1,4 +1,3 @@
-[[!redirects 4d super Yang-Mills theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -7,9 +6,9 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
-#### Differential cohomology
+#### Quantum field theory
 +--{: .hide}
-[[!include differential cohomology - contents]]
+[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
@@ -23,33 +22,15 @@
 
 A  [[supersymmetry|supersymmetric]] extension of plain [[Yang-Mills theory]].
 
-## Properties of 4d SYM
 
-### Holography
+## Examples
 
-$N=4$ $d=4$ SYM is supposed to be related under the [[AdS/CFT correspondence]] to [[type II superstring theory]] [[Kaluza-Klein mechanism|compactified]] on a 5-[[sphere]] to an asymptotically [[anti de Sitter spacetime]].
+Special properties are enjoyed by
 
-### Topological twists
+* [[N=4 D=4 super Yang-Mills theory]]. 
 
-There is a topological twist of 4d SYM to a [[TQFT]] -- the [[Kapustin-Witten TQFT]]. Its [[S-duality]] is supposed to contain [[geometric Langlands duality]] as a special case.
+See there for more details.
 
-## Related concepts
 
-[[!include table of branes]]
-
-## References
-
-An introduction to $d=4$ SYM is in 
-
-* Joseph A. Minahan _Review of AdS/CFT Integrability, Chapter I.1: Spin Chains in $N=4$ Super Yang-Mills_ ([arXiv:1012.3983](http://arxiv.org/abs/1012.3983))
-
-More recent results are in 
-
-* Simon Caron-Huot, _Superconformal symmetry and two-loop amplitudes in planar N=4 super Yang-Mills_ ([arXiv:1105.5606](http://arxiv.org/abs/1105.5606))
-
-A comprehensive discussion of the planar sector is in 
-
-* N. Beisert et al., _Review of AdS/CFT Integrability, An Overview_ 
-Lett. Math. Phys. vv, pp (2011), ([arXiv:1012.3982](http://arxiv.org/abs/1012.3982)).
 
 
