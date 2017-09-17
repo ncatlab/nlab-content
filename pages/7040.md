@@ -12,9 +12,9 @@ Dream mathematics is an alternative [[foundation of mathematics]] first studied 
 
 __Dream mathematics__ is [[mathematics]] founded on [[ZF]] (or an equivalent [[structural set theory]] such as [[SEAR]]) with [[dependent choice]] and the following axioms (any of which contradict [[full choice]]) required of every [[subset]] $A$ of the [[real line]]:
 
-*  [[Lebesgue measure|Lebesgue measurability]]: $A$ is the [[union]] of a [[Borel set]] and a [[null set]];
+*  [[Lebesgue-measurable set|Lebesgue measurability]]: $A$ is the [[union]] of a [[Borel set]] and a [[null set]];
 *  The [[perfect set property]]: $A$ has an [[inhabited set|inhabited]] [[perfect subset|perfect]] subset if it is [[uncountable set|uncountable]];
-*  The [[Baire property]]: $A$ is the [[union]] of an [[open set]] and a [[meagre set]].
+*  The [[Baire property]]: $A$ is the [[union]] of an [[open set]] and a [[meager set|meagre set]].
 
 A __dream universe__ is any [[model]] of dream mathematics.  The most well known (and the first known) is the _Solovay model_.
 
