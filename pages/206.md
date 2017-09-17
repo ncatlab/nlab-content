@@ -9,7 +9,7 @@
 =--
 =--
 
-[[space]] $\leftarrow$ [[Isbell duality]]  $\rightarrow$ **algebra**
+[[geometry]] $\leftarrow$ [[Isbell duality]]  $\rightarrow$ **algebra**
 
 ***
 
@@ -50,6 +50,8 @@ For many algebraic structures a notion of [[action]] is defined; they embody "sy
 See also 
 
 * [[counterexamples in algebra]].
+
+[[!include Isbell duality - table]]
 
 ## Further references
 
