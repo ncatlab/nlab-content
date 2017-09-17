@@ -1,0 +1,1 @@
+In categorical logic, **true** is a name for the 1-element [[set]], or in more advanced treatments, the unique [[(-2)-groupoid]].
