@@ -19,7 +19,7 @@
 
 ## Idea
 
-For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] with [[jet bundle]] $j_\infty E \to X$, the **variarional bicomplex** is essentially the [[de Rham complex]] of $j_\infty E$ with [[differential form]]s bigraded by horizontal degree (with respect to $X$) and vertical degree (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
+For $X$ a ([[spacetime]]) [[manifold]] and $E \to X$ a [[bundle]] (in [[physics]] called the _[[field bundle]]_) with [[jet bundle]] $j_\infty E \to X$, the **variarional bicomplex** is essentially the [[de Rham complex]] of $j_\infty E$ with [[differential forms]] bigraded by horizontal degree (with respect to $X$) and vertical degree (along the [[fiber]]s of $j_\infty E$)). Accordingly the [[differential]] decomposes as
 
 $$
   D = d + \delta
