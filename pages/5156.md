@@ -39,5 +39,9 @@ For the moment see [[(∞,1)-algebraic theory]].
 [[!redirects ∞-algebra over an (∞,1)-algebraic theory]]
 [[!redirects ∞-algebra over an (∞,1)-monad]]
 
+[[!redirects ∞-algebras over an (∞,1)-algebraic theory]]
+[[!redirects ∞-algebras over an (∞,1)-monad]]
+
+
 [[!redirects ∞-algebra]]
 [[!redirects ∞-algebras]]
