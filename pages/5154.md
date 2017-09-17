@@ -103,7 +103,7 @@ The above model transferred model structure on algebras over an operad exists if
 
 A **cocommutative coalgebra [[interval object]]** $H\in \mathcal{E}$ is
 
-* a cocommutative counittal [[comonoid]] in $\mathcal{E}$
+* a cocommutative co-unital [[comonoid]] in $\mathcal{E}$
 
 * equipped with a factorization
 
@@ -120,7 +120,7 @@ A **cocommutative coalgebra [[interval object]]** $H\in \mathcal{E}$ is
 +-- {: .un_example}
 ###### Examples
 
-Such cocommutative coalgebra inrvals exist in
+Such cocommutative coalgebra intervals exist in
 
 * the [[model structure on topological spaces|model structure on compactly generated topological spaces]];
 
