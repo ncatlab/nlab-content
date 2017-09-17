@@ -778,3 +778,4 @@ A detailed discussion of the [[quantum anomaly]] of the supergravity C-field -- 
 * [[Dan Freed]], [[Greg Moore]], _Setting the [[quantum integrand]] of M-theory_ , Communications in mathematical physics,  Volume 263, Number 1, 89-132, DOI: 10.1007/s00220-005-1482-7  ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
 
 [[!redirects C3-field]]
+[[!redirects C-field]]
