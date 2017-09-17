@@ -35,6 +35,9 @@ There is a remarkable observation of Loday and Pirashvili that in the [[Loday–
 
 Some people dislike the term (left/right) Leibniz algebra (which is allegedly due to Loday), and prefer other names, including 'Loday algebras' and many longer descriptive names.  
 
+## Corepresentations and representations
+
+..
 
 [[!redirects Leibniz algebras]]
 [[!redirects Loday algebra]]
