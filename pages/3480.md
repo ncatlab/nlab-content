@@ -82,7 +82,7 @@ $$
   \,.
 $$
 
-Here $Aut(F)$ denotes the group of invertbile [[natural transformation]]s from $F$ to itself.
+Here $Aut(F)$ denotes the group of invertible [[natural transformation]]s from $F$ to itself.
 
 =--
 
