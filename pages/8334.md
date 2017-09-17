@@ -27,12 +27,30 @@ However, despite the existence of this term, quantum cosmology is to a large ext
 
 1. the very formulations of [[quantum mechanics]]/[[quantum field theory]] available all require, more or less explicitly and to lesser or greater extent, an _external classical observer_ to make sense of the predictions of the theory. This makes sense, in principle, for every subsystem of the [[observable universe]]. But a comprehensive theory of "quantum cosmology" would seem to need a notion of [[observables]] of quantum phenomena by "quantum observers" _internal_ to the quantum system which they observe, instead of by "classical observers" external to that quantum system.
 
-Despite various attempts and proposals for how to proceed with these problems the issue remains essentially unsolved and mysterious.
+It has been suggested ([Doering-Isham, section 1](#DoeringIsham)) that the second of the conceptual problems above  might have a natural solution in terms of the [[internal logic]] of a [[topos]]-incarnation of the [[space of states]] of a quantum mechanical system. One proposed formalization of this is the notion of a _[[nLab:Bohr topos]]_. While these constructions may have something to them, implications, if any, for actual quantum cosmology are not clear yet.
 
 ## References
 
+### General
+
+
+* Calcagni, G.; Papantonopoulos, L.; Siopsis, G.; Tsamis, N. (Eds.), _Quantum Gravity and Quantum Cosmology_ Lecture Notes in Physics, Vol. 863
+
+* Claus Kiefer, Barbara Sandhoefer, _Quantum cosmology_ ([arXiv:0804.0672](http://arxiv.org/abs/0804.0672v2))
+
 * J.J.Halliwell, _Introductory Lectures on Quantum Cosmology (1990)_ ([arXiv:0909.2566](http://arxiv.org/abs/0909.2566))
 
-* Calcagni, G.; Papantonopoulos, L.; Siopsis, G.; Tsamis, N. (Eds.), _Quantum Gravity and Quantum Cosmology
-_ Lecture Notes in Physics, Vol. 863
+* Edward Anderson, _On the Semiclassical Approach to Quantum Cosmology_ Class. Quant. Grav. 28 185008 (2011) ([arXiv:1101.4916](http://arxiv.org/abs/1101.4916))
 
+### On conceptual problems
+
+A survey of conceptual problems in quantum cosmology, or issues regarded as such, is in 
+
+* Claus Kiefer, _Conceptual issues in quantum cosmology_ ([arXiv:gr-qc/9906100](http://arxiv.org/abs/gr-qc/9906100))
+
+Discussion of the problem of internal quantum observes with an eye towards the [[internal logic]] of a [[topos]] is in the introduction of 
+
+* Andreas Doering, [[Chris Isham]], _A Topos Foundation for Theories of Physics: I. Formal Languages for Physics_, J.Math.Phys.49:053515,2008 ([arXiv:quant-ph/0703060](http://arxiv.org/abs/quant-ph/0703060))
+ {#DoeringIsham}
+
+For more on this see at _[[Bohr topos]]_.
