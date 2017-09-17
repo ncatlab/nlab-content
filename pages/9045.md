@@ -58,6 +58,10 @@ A review is in section 8.4 of
 
 * Wikipedia, _[Hodge structure](http://en.wikipedia.org/wiki/Hodge_structure), 
 
+* [[Donu Arapura]], _Mixed Hodge Structures Associated to
+Geometric Variations_ ([pdf](http://www.math.purdue.edu/~dvb/preprints/tifr.pdf))
+
+
 *  [[eom]], 
 
    A.I. Ovseevich _[Hodge structure](http://eom.springer.de/H/h047470.htm)_, _[Period mapping](http://eom.springer.de/p/p072140.htm)_, 
