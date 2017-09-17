@@ -141,11 +141,21 @@ $$
 
 * [[simplex]], [[simplex category]]
 
+* **simplicial object**
+
+  * [[simplicial set]]
+
+  * [[simplicial object in an (∞,1)-category]]
+
+* [[semi-simplicial object]]
+
+  * [[semisimplicial set]]
+
+* [[globular set]], [[cubical set]]
+
 * [[nerve]], [[nerve and realization]]
 
 * [[Segal condition]]
-
-* [[simplicial object in an (∞,1)-category]]
 
 ## References
 
