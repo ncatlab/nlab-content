@@ -1,3 +1,29 @@
-The following statement is false.
 
-The previous statement is true.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
+A _paradox_ is or [[implication|implies]] a [[contradiction]]. Such as
+
+> The following statement is false.
+
+> The previous statement is true.
+
+## Examples
+
+* [[Russell's paradox]]
+
+* [[Burali-Forti's paradox]]
+
+* [[Cantor's paradox]]
+
+[[!redirects paradoxes]]
