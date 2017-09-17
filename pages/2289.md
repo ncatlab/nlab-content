@@ -44,6 +44,8 @@ The central theorem is
 
 =--
 
+See also _[[Chromatic Homotopy Theory]]_.
+
 #Table of Contents#
 
 1. [Summary](#Summary)
