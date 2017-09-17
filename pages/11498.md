@@ -1,8 +1,45 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### Of the modular group
+
+Let $n \in \mathbb{N}$ be a [[natural number]]. Write
+
+$$
+  p_n \;\colon\; SL_2(\mathbb{Z}) \to SL_2(\mathbb{Z}/\mathbb{Z}_n)
+$$
+
+for the projection from the [[special linear group]] induced by the [[quotient]] [[projection]] $\mathbb{Z} \to \mathbb{Z}/n\mathbb{Z}$ to the [[cyclic group]].
+
+The _congruence subgroups_ of the [[special linear group]] $SL_2(\mathbb{Z})$ (essentially the [[modular group]]) are defined as follows.
+
+The **principal congruence subgroup** is
+
+$$
+  \Gamma(n) \coloneqq ker(p_n) = p_n^{-1}\left(\left\{\array{ 1 & 0 \\ 0 & 1}\right\}\right)
+$$
+
+The other two are
+
+$$
+  \Gamma_0(n) \coloneqq p_n^{-1}\left(\left\{\array{ \ast & \ast \\ 0 & \ast}\right\}\right)
+$$
+
+$$
+  \Gamma_1(n) \coloneqq p_n^{-1}\left(\left\{\array{ 1 & \ast \\ 0 & \ast}\right\}\right)
+$$
 
 ## Examples
 
 * [[level n subgroup]] of the [[modular group]]
+
+## Related concepts
+
+* [[modular curve]]
 
 ## References
 
@@ -10,3 +47,5 @@
 
 [[!redirects congruence subgroups]]
 
+[[!redirects principal congruence subgroup]]
+[[!redirects principal congruence subgroups]]
