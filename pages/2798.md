@@ -235,6 +235,7 @@ This is in ([Moerdijk, section 8.4](#Moerdijk)).
 
 
 ### Enrichment
+ {#Enrichment}
 
 +-- {: .num_prop }
 ###### Proposition 
