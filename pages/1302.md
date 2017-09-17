@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 
 * automatic TOC goes here
@@ -155,7 +165,7 @@ $$
   \mapsto (R Mod \stackrel{S \otimes_{f} -}{\to} S Mod)
 $$
 
-be the (pseudo)functor ([[stack]]) corresponding to the canonical [[Grothendieck fibration]] of [[module]]s $Mod \to CRing$. Its right [[Kan extension]] through the 2-Yoneda embedding  $Y : CRing^{op} \hookrightarrow [CRing,Cat]$ is given on a presheaf $X : CRing \to Set$ by the [[hom-object]]
+be the (pseudo)functor ([[stack]]) corresponding to the canonical [[Grothendieck fibration]] of [[module]]s $Mod \to CRing$. Its right [[Kan extension]] through the 2-[[Yoneda embedding]]  $Y : CRing^{op} \hookrightarrow [CRing,Cat]$ is given on a presheaf $X : CRing \to Set$ by the [[hom-object]]
 
 $$
   QC(X) := (Ran_Y QC)(X) := [CRing,Cat](X,QC)
@@ -169,7 +179,6 @@ $X$, as defined above.
 =--
 
 We now explain the above statement in detail and thereby prove it.
-
 
 Let $C = $[[Ring]]${}^{op}$ be the category of (commutative, unital) [[ring]]s.
 For $R$ a [[ring]] write $Spec R$ for it regarded as an object of $R^{op}$.
@@ -185,14 +194,15 @@ $$
 and on morphisms by
 
 $$
-  QC : (Spec S \stackrel{f}{\to} Spec R) \mapsto 
-     R Mod \stackrel{S\otimes_{f} }{\to} S Mod
+  QC : (Spec S \stackrel{f}{\to} Spec R) 
+         \mapsto 
+       (R Mod \stackrel{S\otimes_{f} }{\to} S Mod)
   \,,
 $$
 
 where on the right we have the functor that sends any $R$-module $N$ to the 
 [[tensor product]] over $S$ with the $R$-$S$-[[bimodule]]
-$S = {}_S S_R$ with its canonical right $R$-action and with the left $S$-action induced by the ring homomorphism $f$.
+$S = {}_S S_R$ with its canonical left $S$-action and with the right $R$-action induced by the ring homomorphism $f$.
 
 One may think of this as the stack of generalized algebraic vector bundles:
 
