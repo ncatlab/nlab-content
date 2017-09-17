@@ -19,7 +19,7 @@
 =--
 
 
-This entry discusses fundamental physics from the [[nPOV]].
+This entry discusses [[fundamental physics]] from the [[nPOV]].
 
 #Contents#
 * automatic table of contents goes here
