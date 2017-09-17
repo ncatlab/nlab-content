@@ -18,7 +18,7 @@
 
 The _ring of adeles_ $\mathbb{A}_k$ of any [[global field]] $k$ -- in particular of the [[rational numbers]] $\mathbb{Q}$ -- is the [[restricted product]] of all [[formal completions]] $k_v$ of $k$ at all its [[places]] $v$, where the restriction is such that only a [[finite number]] of components have [[norm]] greater than 1. (This has a useful geometric interpretation and motivation by the [[function field analogy]], more on which [below](#FunctionFieldAnalogy)).
 
-In partcular the ring of adeles of the rational numbers is equivalently the [[rationalization]] of the [[product]] of all [[p-adic integers]] (including the "prime at infinity").
+In particular the ring of adeles of the rational numbers is equivalently the [[rationalization]] of the [[product]] of all [[p-adic integers]] (including the "prime at infinity").
 
 In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completion of a ring|completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. For example, the [[algebraic integers]] in the number field embed discretely and co-compactly into this [[cartesian product]], i.e., as a [[lattice in a vector space|lattice]], and this opens the way for example to the concrete realization of the [[group of units]] (modulo [[torsion subgroup|torsion]]) as a [[lattice]], and also to the technique of [[Fourier analysis]] where Poisson summation applied to the lattice has classical implications for [[theta functions]] and [[zeta functions]]. 
 
@@ -31,7 +31,7 @@ When considering the adeles and ideles, it is their [[topology]] as much as thei
 
 ## Definition
 
-The concept of a _ring of adeles_ makes sense for any [[global field]], hence for any finite-dimensional [[field extension]] of either the [[rational numbers]] or of a [[function field]] over a [[finite field]]. The ring of adeles of the [[rational numbers]] themselves is the classical case which we discuss first in 
+The concept of a _ring of adeles_ (older synonym: ring of valuation vectors) makes sense for any [[global field]], hence for any finite-dimensional [[field extension]] of either the [[rational numbers]] or of a [[function field]] over a [[finite field]]. The ring of adeles of the [[rational numbers]] themselves is the classical case which we discuss first in 
 
 * [For the rational numbers](#ForTheRationalNumbers)
 
@@ -360,6 +360,8 @@ This means for instance that the [[general linear group]] $GL_n(\mathbb{A}_F)$ w
 
 ## References
 
+* wikipedia: [adele ring](http://en.wikipedia.org/wiki/Adele_ring), [adelic algebraic group](http://en.wikipedia.org/wiki/Adelic_algebraic_group)
+
 * D. Goldfeld, J. Hundley, chapter 1 of _Automorphic Representations and L-functions for the General Linear Group_, vol. 1, Cambridge University 
 Press, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl1.pdf))
 
@@ -392,6 +394,9 @@ Discussion in the context of the [[function field analogy]] and the [[geometric 
 [[!redirects ring of integral adeles]]
 [[!redirects rings of integral adeles]]
 
+[[!redirects ring of valuation vectors]]
+[[!redirects valuation vector]]
+[[!redirects valuation vectors]]
 
 [[!redirects ring of finite adeles]]
 [[!redirects rings of finite adeles]]
