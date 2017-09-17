@@ -665,6 +665,8 @@ And once such a deformation of a critical locus has been obtained, we may read p
 
 =--
 
+See for instance ([Park, 2.1](#Park))
+
 In order to implement this idea, we need to axiomatize those properties of classical BV complexes and their quantum deformation as above which we demand to be preserved by the generalization away from finite dimensional manifolds. This is what the following definitions do.
 
 +-- {: .num_defn #ClassicalBVComplexAsPoisson0Algebra}
@@ -861,7 +863,10 @@ The original articles are
 
 Reviews are in
 
-* J. Gomis, J. Paris, S. Samuel, _Antibrackets, Antifields and Gauge Theory Quantization_ ([arXiv:hep-th/9412228](http://arxiv.org/abs/hep-th/9412228))
+* [[Joaquim Gomis]], J. Paris, S. Samuel, _Antibrackets, Antifields and Gauge Theory Quantization_ ([arXiv:hep-th/9412228](http://arxiv.org/abs/hep-th/9412228))
+
+* J. Park, _Pursuing the quantum world_ ([pdf](http://cds.cern.ch/record/638963/files/0308130.pdf))
+ {#Park}
 
 Geometrical aspects were pioneered in 
 
