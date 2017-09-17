@@ -1,3 +1,4 @@
+[[!redirects The logic K(m)]]
 [[!redirects The logic $K_{(m)}$]]
 
 #Contents#
@@ -30,3 +31,7 @@ $$\frac{\phi \quad \phi\to \psi}{\psi} \quad$$
 $$\frac{\phi}{K_i\phi}.$$
 
 The second deduction rule corresponds to the idea that if a statement has been proved, then it is known to all 'agents'.
+
+
+##K##
+This logic is the smallest [[normal modal logic]].
