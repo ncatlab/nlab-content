@@ -48,6 +48,7 @@ The following is a capsule history tabulating some important events in the histo
 |1971--72| |Kadanoff, Wilson _et al._ | | Development of RG concept, discovery that it explains universal properties of phase transitions like critical exponents |
 |1976 | | Doi| | Second-quantization formalism for classical stochastic many-particle dynamics |
 |1976--79| |Feigenbaum| | Observation and use of RG to explain universal scaling exponents in 1D dynamical maps |
+|1977| | Hohenberg, Halperin | | Classification of critical phenomena in dynamic continuum theories |
 |1978--80| |Grassberger, Sundermeyer, de la Torre, Cardy, Sugar| | Connection of [[Reggeon field theory]] with directed percolation |
 |1980| |Libchaber _et al._ | | Observation of Feigenbaum's constants in experimental systems, starting with convection of mercury |
 | 1981--82 | | Janssen, Grassberger | | Formulation of DP conjecture, setting out the likely criteria for phase transitions to belong to the directed-percolation class | 
