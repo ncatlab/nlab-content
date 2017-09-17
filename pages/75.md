@@ -25,11 +25,11 @@ In the context of _foundations of mathematics_ or _[[mathematical logic]]_ one s
 
 There are two different attitudes to what a desirable or interesting foundation should achieve:
 
-1. In **Bolzano-Frege-Peano-Russell-style foundations** the emphasis is on seeing which formal systems, however convoluted they may be conceptually, allow to formalize and prove which [[theorems]]. 
+1. In **proof-theoretic foundations** the emphasis is on seeing which formal systems, however convoluted they may be conceptually, allow us to formalize and prove which [[theorems]]. 
 
    The archetypical such system is [[ZFC]] [[set theory]]. Other formal systems of interest here are [[elementary function arithmetic]] and [[second order arithmetic]], because they are [[proof theory|proof-theoretically]] weak, and still can derive "almost all of undergraduate mathematics" ([Friedman](#Friedman)).
 
-1. In **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)).
+1. In **practical foundations** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in [[Foundations of Algebraic Topology]]. (See also ([Harper](#Harper)).)
 
    Formal systems of interest here are [[ETCS]] or flavors of [[type theory]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
 
@@ -120,6 +120,10 @@ It may seem on first sight that foundational questions in mathematics are remote
  {#Lawvere}
 
 * [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
+{#Taylor}
+
+*  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+{#Harper}
 
 * some old discussions from this page archived [here](http://nforum.mathforge.org/discussion/4172/foundation-of-mathematics/?Focus=33992#Comment_33992)
 
