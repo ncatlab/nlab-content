@@ -14,14 +14,14 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-#Idea#
+## Idea
 
 As every [[topos]], the category $PSh(X)$ of [[presheaf|presheaves]] is  [[cartesian monoidal category|cartesian]] [[closed monoidal category|closed monoidal]].
 
-#Definition#
+## Definition
 
 Let $S$ be a [[category]]. 
 
@@ -38,7 +38,7 @@ $$
 where on the right the product is in [[Set]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The corresponding **[[internal hom]]**
@@ -79,9 +79,8 @@ So if the [[internal hom]] exists, it has to be of the form given. It remains to
 
 =--
 
-See pages 46, 47 of 
+See ([MacLane-Moerdijk, pages 46, 47](#MacLaneMoerdijk)).
 
-* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]].
 
 
 ## Definition in terms of homs of direct images ##
@@ -120,12 +119,14 @@ $((-)\times y(U) \stackrel{p_2}{\to} y(U)) : PSh(S_X) \to PSh(S_X)/y(U)$;
 * and that $Hom_{PSh(S_X)/y(U)}(y(U) \times F, y(U) \times G) \simeq Hom_{PSh(S_X)}(y(U) \times F, G)$.
 
 
-#References#
+## References
 
 The first definition is discussed for instance in section I.6 of
 
-* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]].
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ {#MacLaneMoerdijk}
 
 The second definition is discussed for instance in section 17.1 of
 
-* Kashiwara-Shapira, [[Categories and Sheaves]]
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
+
