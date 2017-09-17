@@ -1,6 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -55,12 +65,16 @@ $$
 
 This happens to be the (Euclidean) [[quantum mechanics]] time evolution operator for the [[sigma-model]] given by the spinning particle on $Y$ charged under the connection $\nabla$.
 
+## Related concepts
+
+* [[super parallel transport]]
+
 
 ## References 
 
 The geometric interpretation of superconnections in terms of parallel transport along superpaths is due to
 
-* Florin Dumitrescu, _Superconnections and parallel transport_ ([arXiv](http://arxiv.org/abs/0711.2766))
+* [[Florin Dumitrescu]], _Superconnections and parallel transport_ ([arXiv](http://arxiv.org/abs/0711.2766))
 
 The algebraic formulation of superconnections as differential operators on the algebra of differential forms with values in endomorphisms of a $\mathbb{Z}_2$-graded [[vector bundle]] is much older, due to
 
@@ -76,5 +90,5 @@ Bismut also showed that under the push-forward in [[topological K-theory]] super
 
 This statement is generalized to a complete notion of push-forward of superconnections from vector bundles on a space $Y$ to vector bundles un a space $X$ along maps $\pi : Y \to X$ in
 
-* Alexander Kahle, _Superconnections and index theory_ ([arXiv](http://arxiv.org/abs/0810.0820), [talk notes](http://ncatlab.org/nlab/show/Oberwolfach+Workshop,+June+2009+--+Strings,+Fields,+Topology#kahle))
+* [[Alexander Kahle]], _Superconnections and index theory_ ([arXiv](http://arxiv.org/abs/0810.0820), [talk notes](http://ncatlab.org/nlab/show/Oberwolfach+Workshop,+June+2009+--+Strings,+Fields,+Topology#kahle))
 
