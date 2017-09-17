@@ -39,7 +39,7 @@ A _simplicial sheaf_ $A$ is equivalently
 
 ## Model structure ##
 
-The standard [[model structure on simplicial presheaves]] restricts to the standard [[model structure on simplicial sheaves]], this restriction is a [[Quillen equivalence]] and equipped with this model structure $SSh(C)$ is one of the standard [[models for ∞-stack (∞,1)-toposes]] for the site $C$.
+The Jardine-local [[model structure on simplicial presheaves]] restricts to the standard [[model structure on simplicial sheaves]].  This restriction is a [[Quillen equivalence]], so that equipped with this model structure $SSh(C)$ is a [[models for ∞-stack (∞,1)-toposes|model]] for the [[hypecomplete (infinity,1)-topos]] over the site $C$.
 
 ## References
 
@@ -51,7 +51,7 @@ The last part of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-is annoucned to be about simplicial objects in toposes, but that part does not exist yet.
+is announced to be about simplicial objects in toposes, but that part does not exist yet.
 
 For more see at _[[simplicial presheaf]]_ and _[[model structure on simplicial presheaves]]_.
 
