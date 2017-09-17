@@ -28,9 +28,9 @@ _Nullstelle_ means [[zero locus]]. Hilbert's _Nullstellensatz_ (theorem about ze
 
 One weak version of the Nullstellensatz says the following (e.g. [theorem 3.99.1 here](http://www.math.unipd.it/~frank/ALGANT/2010/Notes/7-12.pdf)).
 
-For $k$ an [[algebraically closed field]] and $I$ a proper [[ideal]] in the [[polynomial ring]] $k[X_1, \cdots, X_n]$, then the set $V(I)$ (of $n$-[[tuples]] $x = (x_i) \in k^n$ such that all elements in $I$ vanish on these $x$) is [[inhabited set]].
+For $k$ an [[algebraically closed field]] and $I$ a proper [[ideal]] in the [[polynomial ring]] $k[X_1, \cdots, X_n]$, then the set $V(I)$ (of $n$-[[tuples]] $x = (x_i) \in k^n$ such that all polynomials in $I$ vanish when evaluated on these $x$) is an [[inhabited set]].
 
-Observe that an element of $V(I)$ is just an $k$-[[associative algebra|algebra]] [[homomorphism]] of the form
+Observe that an element of $V(I)$ is just a $k$-[[associative algebra|algebra]] [[homomorphism]] of the form
 
 $$
   k \longleftarrow  k[X_1, \cdots, X_n]/I
@@ -51,7 +51,7 @@ Hence in this form the Nullstellensatz simply says that (for $k$ algebraically c
 ### General abstract formulation
  {#GeneralAbstract}
 
-By the discussion above at _[Exiestence of points](#ExistenceOfPoints)_ it follows that phrased in terms of the [[sheaf topos]] over the [[Zariski site]], the weak Nullstellensatz says that "objects have global points". 
+By the discussion above at _[Existence of points](#ExistenceOfPoints)_ it follows that phrased in terms of the [[sheaf topos]] over the [[Zariski site]], the weak Nullstellensatz says that "objects have global points". 
 
 Motivated by this, in ([Lawvere 07, def. 2](#Lawvere07)) is a proposal for a [[general abstract]] formulation of what consitutes a _Nullstellensatz_, formalized in the context of [[cohesion]].
 
