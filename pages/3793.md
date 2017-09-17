@@ -80,6 +80,12 @@
 
 * [[monadicity theorem|(∞,1)-monadicity theorem]]
 
+## Extra stuff, structure, properties
+
+* [[stable (∞,1)-category]]
+
+* [[(∞,1)-topos]]
+
 ## Models
 
 * [[category with weak equivalences]]
