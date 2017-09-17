@@ -20,7 +20,7 @@
 
 ## Idea
 
-The concept of a _2-vector space_ is supposed to be a [[vertical categorification|categorification]] of the concept of a vector space. As usual in the game of 'categorification', this requires us to think deeply about what an ordinary vector space really is, and then attempt to categorify that idea. 
+The concept of a _2-vector space_ is supposed to be a [[vertical categorification|categorification]] of the concept of a [[vector space]]. As usual in the game of 'categorification', this requires us to think deeply about what an ordinary vector space really is, and then attempt to categorify that idea. 
 
 ### What is a vector space?
 
