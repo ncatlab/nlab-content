@@ -49,6 +49,7 @@ The [[nerve]] of a [[semicategory]] is a semi-simplicial set (satisfying the [[S
 * [[semi-Segal space]]
 
 ## Historical and terminological remarks
+ {#History}
 
 The original paper
 
