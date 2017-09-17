@@ -17,6 +17,8 @@
 
 A [[function]] on (some subset of) a [[cartesian space]] $\mathbb{R}^n$ with values in the [[real line]] $\mathbb{R}$ is **smooth**, or __infinitely differentiable__, if all its [[derivative]]s exist at all points. 
 
+By [[coinduction]]: A [[function]] $f : \mathbb{R} \to \mathbb{R}$ is _smooth_ if 1. it's [[derivative]] exists and 2. the derivative is itself a smooth function.
+
 The concept can be generalised from cartesian spaces to [[Banach spaces]] and some other infinite-dimensional spaces.  There is a [[locale]]-based analogue suitable for [[constructive mathematics]] which is not described as a function of points but as a special case of a [[continuous map]] (in the localic sense).
 
 A [[manifold]] whose transition functions are smooth functions is a [[smooth manifold]]. The [[category]] [[Diff]] is the category whose objects are smooth manifolds and whose morphisms are smooth functions betweeen them.
