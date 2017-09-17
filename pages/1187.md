@@ -55,7 +55,9 @@ in $C$.
 
 This is ([[Higher Topos Theory|HTT, cor. 5.3.4.15]]).
 
+## Examples
 
+*  [[essentially small (∞,1)-category]]
 
 ## Related concepts
 
