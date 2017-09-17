@@ -1,0 +1,39 @@
+A **normed group** is to a [[group]] what a [[normed vector space]] is to a [[vector space]].  It consists of a group together with a length function and, as for normed vector spaces, gives rise to a [[metric space]].
+
+## Definition
+
++-- {: .num_defn }
+###### Definition
+A **normed group** is a pair $(G,\rho)$ where $G$ is a [[group]] and $\rho \colon G \to [0,\infty)$ is a function satisfying the following conditions:
+
+1. $\rho(g) = 0$ if and only if $g$ is the identity element in $G$,
+2. $\rho(g^{-1}) = \rho(g)$,
+3. $\rho(g h) \le \rho(g) + \rho(h)$.
+=--
+
+If $G$ is a [[vector space]] (viewed as an [[abelian group]]) the conditions on $\rho$ almost correspond to the axioms for a [[norm]] in the context of a [[normed vector space]].  The difference is that homogeneity is only assumed for $-1$ instead of for all elements of the coefficient field.
+
+A norm on a group defines two metrics:
+
+$$
+d_L(g,h) = \rho(g^{-1} h), \qquad d_R(g,h) = \rho(g h^{-1})
+$$
+
+The former is left invariant, the latter right invariant.
+
+## Extension to Groupoids
+
+The definition can be extended to [[groupoids]].
+
++-- {: .num_defn }
+###### Definition
+A **normed groupoid** is a pair $(G,\rho)$ where $G = (G_1,G_2)$ is a [[groupoid]] and $\rho \colon G_2 \to [0,\infty)$ is a function on the arrows of $G$ satisfying the conditions:
+
+1. $\rho(g) = 0$ if and only if $g$ is an identity arrow,
+2. $\rho(g) = \rho(g^{-1})$,
+3. if $g h$ exists then $\rho(g h) \le \rho(g) + \rho(h)$.
+=--
+
+From a normed groupoid we do not just get a single metric space.  Rather we get one metric space for each object.  For $x \in G_1$ the underlying set of the corresponding metric space is the set of all arrows with source $x$.  The metric is then $d_x(g,h) = \rho(g h^{-1})$.  An arrow from $x$ to $y$ induces an [[isometry]] by right translation.
+
+This reverses: from a [[metric space]], say $X$, we get a normed groupoid by taking the trivial groupoid on $X$.  An arrow in this groupoid is simply a pair $(x,y)$ of elements, whence we define the norm on $G \coloneqq X \times X$ by $\rho(x,y) = d_X(x,y)$.
