@@ -70,6 +70,8 @@ Hence these functors are a [[Frobenius functor|frobenius pair]].
 
 * [[effect algebra of predicates]]
 
+* The real unit inteval $[0,1]$ with $\vee$ being addition of real numbers is an effect algebra since $[0,1]$ is a pcm with zero object $0$ and commutative, associative addition of real numbers and $x\perp y$ iff $x+y\le 1$. The orthocomplement of $x\in [0,1]$ is given by $\x^\perp=1-x$.
+
 
 ## Reference
 
