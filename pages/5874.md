@@ -19,12 +19,12 @@ A [[bundle gerbe]] or [[circle n-bundle with connection|circle 2-bundle]] has a 
 
 ## Definition
 
-In the literature one find a universal Dixmier-Douday class defined for different entities, notably for [[projective unitary group|projective unitary]]-[[principal bundles]] and for $U(1)$-[[bundle gerbes]], as well as for [[C-star algebra]] constructions related to these. All these notions are equivalent in one sense, namely in bare [[homotopy theory]], but differ in other sense, namely in geometric homotopy theory. 
+In the literature one find a universal Dixmier-Douady class defined for different entities, notably for [[projective unitary group|projective unitary]]-[[principal bundles]] and for $U(1)$-[[bundle gerbes]], as well as for [[C-star algebra]] constructions related to these. All these notions are equivalent in one sense, namely in bare [[homotopy theory]], but differ in other sense, namely in geometric homotopy theory. 
 
 
 ### In bare homotopy-type theory
 
-The [[classifying space]] of the [[circle n-group|circle 2-group]] \mathbf{B}U(1)$ is an [[Eilenberg-MacLane space]] $B \mathbf{B} U(1) \simeq B^3 \mathbb{Z} \simeq K(\mathbb{Z}, 3)$.
+The [[classifying space]] of the [[circle n-group|circle 2-group]] $\mathbf{B}U(1)$ is an [[Eilenberg-MacLane space]] $B \mathbf{B} U(1) \simeq B^3 \mathbb{Z} \simeq K(\mathbb{Z}, 3)$.
 The bare _Dixmier-Douday class_ is the [[universal characteristic class]] 
 
 $$
@@ -35,7 +35,7 @@ exhibited by this equivalence. Hence if we identify $B B U(1)$ with $K(\mathbb{Z
 
 This is directly analogous to how the [[first Chern class]] is, as a [[universal characteristic class]], the identity on $K(\mathbb{Z},2) \simeq B U(1)$.
 
-This means conversely that the [[equivalence class]] of a $U(1)$-[[bundle gerbe]]/[[cirlce n-bundle with connection|circle 2-bundle]] is entirely characterized by its Dixmier-Douady class.
+This means conversely that the [[equivalence class]] of a $U(1)$-[[bundle gerbe]]/[[circle n-bundle with connection|circle 2-bundle]] is entirely characterized by its Dixmier-Douady class.
 
 ### In smooth homotopy-type theory
 
