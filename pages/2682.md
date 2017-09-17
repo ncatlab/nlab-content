@@ -85,3 +85,9 @@ Some general thoughts on what a [[moduli space]] of 2d CFTs should be are in
 The compactness results mentioned there are discussed in 
 
 * [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc geometry_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
+
+based on conjectures in 
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], _Homological Mirror Symmetry and
+torus fibrations_ , ([math.SG/0011041](http://arxiv.org/abs/math/0011041))
+
