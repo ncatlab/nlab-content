@@ -1,2 +1,4 @@
 
 For the moment see at _[[spectrum]]_ the section <a href="http://nlab.mathforge.org/nlab/show/spectrum#OmegaSpectrum">Omega-spectra</a>.
+
+[[!redirects Omega spectrum]]
