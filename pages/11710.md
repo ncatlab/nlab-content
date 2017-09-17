@@ -5,13 +5,17 @@
 
 ## Definition
 
-Given a [[ring]] $R$, a _maximal ideal_ is an [[ideal]] which is maximal among [[proper ideals]].
+A _maximal ideal_ is an [[ideal]] which is maximal among [[proper ideals]].
 
 
 ## Properties
 
 ### Relation to points in the spectrum
 
-Maximal ideals correspond precisely to the [[closed subset|closed]] points in the [[Zariski topology]] on the [[prime spectrum]] $Spec(R)$.
+Maximal ideals in the [[spectrum of a commutative ring]] $Spec(R)$ correspond precisely to the [[closed subset|closed]] points in the [[Zariski topology]] on $Spec(R)$.
+
+## References
+
+* Mathematics StackExchange, _[Meaning of closed points of a scheme](http://math.stackexchange.com/questions/942/meaning-of-closed-points-of-a-scheme)_
 
 [[!redirects maximal ideals]]
