@@ -139,7 +139,7 @@ coincides with [[Poincaré duality]].
 
 ## Related concepts
 
-* [[complexconjugation]], [[Hodge star operator]]
+* [[complex conjugation]], [[Hodge star operator]]
 
 ## References
 
