@@ -13,3 +13,7 @@ Note: The term 'up set' is also often used for an [[upper set]], a more general 
 
 [[!redirects upset]]
 [[!redirects up-set]]
+[[!redirects up set]]
+[[!redirects upsets]]
+[[!redirects up-sets]]
+[[!redirects up sets]]
