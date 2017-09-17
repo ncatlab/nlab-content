@@ -38,7 +38,7 @@ $$
   (LConst \dashv \Gamma)
   : 
   \mathbf{H}
-   \stackrel{\overset{LConst}{\leftarrow}}{\underset{LConst}{\to}}
+   \stackrel{\overset{LConst}{\leftarrow}}{\underset{\Gamma}{\to}}
   \infty Grpd
 $$
 
