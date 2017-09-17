@@ -9,6 +9,8 @@
 
 In [[complex analytic geometry]] a [[line bundle]] is ample precisely if its [[Chern class]] is represented by a [[Kähler form]].
 
+See also at _[[positive line bundle]]_.
+
 
 ## References
 
