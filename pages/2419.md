@@ -151,7 +151,9 @@ Original discussion in the context of [[elliptic genera]] and [[elliptic cohomol
 
 * {#Landweber88} [[Peter Landweber]], _Elliptic Cohomology and Modular Forms_, in _Elliptic Curves and Modular Forms in Algebraic Topology_, Lecture Notes in Mathematics Volume 1326, 1988, pp 55-68 ([[LandweberEllipticModular.pdf:file]])
 
+Reviews of this include
 
+* [[Kefeng Liu]], _Modular forms and topology_, 1996 ([citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.130.9779))
 
 [[!redirects modular forms]]
 
