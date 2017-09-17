@@ -161,6 +161,8 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[Bousfield localization of spectra]]
 
+* [[motivic spectrum]]
+
 
 [[!include k-monoidal table]]
 
