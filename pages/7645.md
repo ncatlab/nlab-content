@@ -20,7 +20,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-Let $C$ be a [[small category]]. Its _categorical wreath product_  with the [[simplex category]] is the category $\Delta \wr C$ whose
+Let $A$ be a [[small category]]. Its _categorical wreath product_  with the [[simplex category]] is the category $\Delta \wr A$ whose
 
 * objects are $k$-tuples $([k], (a_1, \cdots, a_k))$ of objects of $A$, for any $k \in \mathbb{N}$;
 
