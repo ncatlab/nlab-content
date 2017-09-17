@@ -157,6 +157,8 @@ If $A$ and $B$ are [[frame]]s regarded as sites via their canonical coverages, t
 
 =--
 
+#### Over-sites / sub-sites
+
 +-- {: .un_example}
 ###### Example
 **(sub-sites)**
@@ -174,6 +176,7 @@ $$
   j_{U \to X} : X \to U  
   \,.
 $$
+
 This induces a [[Grothendieck topology]] on the site $U$ whose [[local epimorphisms]] $(Y \to U) \in [S_U^{op}, Set]$ are precisely those morphisms for which
 $$
   \hat j^t_{U \to X}(Y \to U)
@@ -181,6 +184,8 @@ $$
   [S_X^{op}, Set]
 $$
 is a [[local epimorphism]].
+
+This is also called the [[big site]] of $U$
 
 There are natural operations for [[restriction and extension of sheaves]] from a sub-site $U$ to $X$ and back.
 
@@ -200,6 +205,8 @@ For $C$ and $D$ [[regular category|regular categories]] equipped with their [[re
 For $C$ any site with finite limits, there is canonically a  morphism of sites to its [[tangent category]]. See there for details.
 
 =--
+
+
 
 
 ### Specific sites
