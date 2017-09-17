@@ -4,6 +4,11 @@ The definition of coverage simplifies a little in this case: thus we may conside
 
 The [[topos of sheaves]] on any posite is a [[localic topos]].  We may describe the relevant [[locale]] explicitly as follows: the elements of its [[frame]] (i.e. its "open subsets") are the [[lower subsets]] of $F\subseteq P$ satisfying the closure property that if $(y_i)$ covers $x$ and each $y_i\in F$, then $x\in F$ also.  Such an $F$ is sometimes called an **ideal** for the coverage on $P$.
 
++--{: .query}
+[[David Roberts]]: Does this include the double negation topology used in the sheaf-theoretic approach to forcing?
+=--
+
+
 [[!redirects posites]]
 [[!redirects (0,1)-site]]
 [[!redirects (0,1)-sites]]
