@@ -83,10 +83,10 @@ Grothendieck has proved that faithfully flat morphisms of commutative schemes ar
 
 * W.W. Crawley-Boevey, _Locally finitely presented additive categories_, Communications in Algebra __22__(5)(1994), 1641-1674.
 
-* Mike Prest, _Purity, spectra and localisation_, Enc. Math. Appl. __121__, Camb. Univ. Press 2011, 798 pages; publishers book [page](http://www.cambridge.org/gb/knowledge/isbn/item2327409/?site_locale=en_GB)
+* [[Mike Prest]], _Purity, spectra and localisation_, Enc. Math. Appl. __121__, Camb. Univ. Press 2011, 798 pages; publishers book [page](http://www.cambridge.org/gb/knowledge/isbn/item2327409/?site_locale=en_GB)
 
 * Ivo Herzog, _Pure-injective envelopes_, [pdf](http://lima.osu.edu/people/iherzog/env.pdf)
-    Mike Prest
+    Journal of Algebra and Its Applications 2(4) (2003), 397-402.
 
 [[!redirects pure morphisms]]
 [[!redirects purity]]
