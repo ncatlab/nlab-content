@@ -58,7 +58,7 @@ We end by indicating how under [[Lie integration]] this lifts to the full [[∞-
 
 ## Principal $n$-bundles in low dimension {#PrincipalNBundles}
 
-We assume here that the reader has a working knowledge of [[groupoid]]s and at least a rough idea of [[2-groupoid]s. We first use these notions to motivate some constructions, before discussing the
+We assume here that the reader has a working knowledge of [[groupoid]]s and at least a rough idea of [[2-groupoid]]s. We first use these notions to motivate some constructions, before discussing the
 formalization of [[∞-groupoid]] in terms of [[Kan complex]]es.
 
 
