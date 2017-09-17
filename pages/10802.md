@@ -23,6 +23,11 @@ In the context of [[étale cohomology]] of [[schemes]], the _Artin comparison th
 
 Historically this kind of statement was a central motivation for the development of [[étale cohomology]] in the first place.
 
+## Related concepts
+
+* [[comparison theorem]]
+
+* [[comparison theorem (crystalline cohomology)]]
 
 ## References
 
