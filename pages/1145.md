@@ -2,6 +2,8 @@
 
   * [[math resources]]
 
+  * [[history of mathematics]]
+
 * [[foundations|Structural Foundations]]
 
   * [[logic]]
