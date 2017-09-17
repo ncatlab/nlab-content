@@ -75,7 +75,7 @@ $$
 
 as a quantum [[boundary field theory|boundary condition]], hence as a "quantum" [[D-brane]] for the [[open string]] [[sigma-model]]. These include all elements of the twisted K-theory, in particular the generators. These generators are called the _fractional D-branes_.
 
-In particular in the simple case that $X = \mathbb{C}^n/\Gamma$ is the global [[orbifold]] of a [[finit group]] acting on a [[Cartesian space]], the [[complex K-theory]] from the [[representation ring]] of $\Gamma$. In this case the fractional branes correspond simply to the [[irreducible representations]] of $\Gamma$.
+In particular, in the simple case that $X = \mathbb{C}^n/\Gamma$ is the global [[orbifold]] of a [[finite group]] acting on a [[Cartesian space]], the [[complex K-theory]] from the [[representation ring]] of $\Gamma$. In this case the fractional branes correspond simply to the [[irreducible representations]] of $\Gamma$.
 
 
 
