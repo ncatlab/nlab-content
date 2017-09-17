@@ -168,6 +168,8 @@ over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 ## Related concepts
 
+[[!include substitution natural deduction - table]]
+
 * [[context extension]]
 
 * [[dependent product]], [[universal quantifier]]
