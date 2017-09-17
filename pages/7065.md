@@ -1,0 +1,1 @@
+In [[homotopy type theory]], the notion of **contractible [[type]]** is an internalization of the notion of [[contractible space]].
