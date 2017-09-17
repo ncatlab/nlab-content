@@ -5,12 +5,12 @@
 
 ## Idea
 
-A uniform cover is an [[open cover]] in which enough of the [[subsets]] have a uniform minimal size.  This doesn\'t make sense in (say) an arbitrary [[topological space]], but it does make sense in a [[uniform space]].  In fact, it\'s possible to *define* a uniform space by specifying which covers are uniform.
+A uniform cover is an [[open cover]] in which enough of the [[subsets]] have a uniform minimal size.  This doesn\'t make sense in (say) an arbitrary [[topological space]], but it does make sense in a [[uniform space]] (or a [[uniform locale]]).  In fact, it\'s possible to *define* a uniform space by specifying which covers are uniform.
 
 
 ## Definitions
 
-The most general definition (that we have here so far) is in a uniform space, but we can write down the definition in other familiar situations as well.
+The most general definition (that we have here so far) is in a [[uniform space]] or [[uniform locale|locale]], but we can write down the definition in other familiar situations as well.
 
 
 ### In a metric space
