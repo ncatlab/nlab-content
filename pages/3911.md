@@ -211,7 +211,6 @@ $$
 
 ([ABG 11, prop. 10.5](#ABG11)).
 
-#### Umkehr map
 
 +-- {: .num_remark}
 ###### Remark
@@ -244,6 +243,18 @@ More generally a [[Thom isomorphism]] may not exists, but $[D X \otimes_{\mathbb
 =--
 
 ([ABG 10, 9.1](#ABG10))
+
+
+#### In linear homotopy-type theory
+
+We may formulate the above still a bit more abstractly in 
+[[linear homotopy-type theory]] (following [[schreiber:Homotopy-type semantics for quantization]]).
+
+(...)
+
+[[!include integration in linear homotopy type theory -- table]]
+
+(...)
 
 
 
@@ -615,6 +626,8 @@ and specifically including also [[twisted K-theory]] again (and the relation to 
 * Jacek Brodzki, [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. 277:643-706,2008 ([arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020))
  {#BrodzkiMathaiRosenbergSzabo06}
 
+### Abstract formulation
+
 The abstract formulation in [[stable homotopy theory]] via [[(infinity,1)-module bundles]] is sketched in section 9 of
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
@@ -625,6 +638,13 @@ and in section 10 of
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
  {#ABG11}
 
+This is reviewed and used also in 
+
+* [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of boundary prequantum field theory]]_, MSc thesis, Utrecht 2013
+
+Formulation of this in [[linear homotopy-type theory]] is discussed in
+
+* [[Urs Schreiber]], _[[schreiber:Homotopy-type semantics for quantization]]_
 
 [[!redirects Pontrjagin-Thom construction]]
 [[!redirects Pontryagin-Thom construction]]
@@ -638,4 +658,3 @@ and in section 10 of
 [[!redirects integration in generalized cohomology]]
 
 [[!redirects push-forward in generalized cohomology]]
-
