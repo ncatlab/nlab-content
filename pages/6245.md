@@ -16,7 +16,9 @@
 
 ## Idea
 
-A __Hilbert lattice__ is the [[lattice]] of closed linear subspaces of a [[Hilbert spaces]] (with [[preorder]] given by the inclusion) over real, complex or quaternion numbers. This is an [[orthocomplemented lattice]]. The [[logic]] it embodies is Birkhoff-von Neumann [[quantum logic]]. See there for more.
+A __Hilbert lattice__ is the [[lattice]] of [[closed subset|closed]] [[linear subspaces]] of a [[Hilbert spaces]] (with [[preorder]] given by the inclusion) over real, complex or quaternion numbers. This is an [[orthocomplemented lattice]] and in fact an [[orthomodular lattice]].
+
+The [[logic]] it embodies is Birkhoff-von Neumann [[quantum logic]]. See there for more.
 
 ## References
 
