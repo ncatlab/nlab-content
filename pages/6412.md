@@ -171,6 +171,11 @@ A standard reference is
 
 * [[Jean-Pierre Serre]], _A course in arithmetic_, Grad. Texts in Math. __7__, Springer (1973)
 
+Review in the context of [[p-localization|p-local]] [[homotopy theory]] is in
+
+* {#Sullivan70} [[Dennis Sullivan]], pp. 9 of _Localization, Periodicity and Galois Symmetry_ (The 1970 MIT notes) edited by [[Andrew Ranicki]], K-Monographs in Mathematics, Dordrecht: Springer ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/gtop.pdf)) 
+
+
 Review of the use of $p$-adic numbers in [[arithmetic geometry]] includes
 
 * {#Lubicz} [[David Lubicz]], _An introduction to the algorithmic of $p$-adic numbers_ ([pdf](http://www.hyperelliptic.org/tanja/conf/summerschool08/slides/p-adics.pdf))
