@@ -31,6 +31,8 @@ These are the [[characteristic element of a bilinear form|characteristic element
 
 * [[canonical bundle]]
 
+* [[Spin Chern-Simons theory]]
+
 [[!include quadratic invariants - table]]
 
 [[!include square roots of line bundles - table]]
