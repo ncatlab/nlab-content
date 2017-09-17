@@ -50,6 +50,8 @@ Hence a [[metaplectic structure]] on a [[symplectic manifold]] induces a [[metal
 
 * [[metaplectic correction (in geometric quantization)]]
 
+* [[metaplectic representation]]
+
 ## References
 
 An original reference is
