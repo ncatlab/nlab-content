@@ -21,4 +21,12 @@ For $p : P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in
 
 Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. Their [[variational calculus]] is governed by [[Euler-Lagrange equation]]s.
 
+## References
+
+A discussion of jet bundles with an eye towards discussion of the [[variational bicomplex]] on them is in chapter 1, section A of
+
+* Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
+{#Anderson}
+
+
 [[!redirects jet bundles]]
