@@ -224,8 +224,97 @@ $$
 
 So $p^*$ is indeed injective on subobjects and so $p$ is a [[geometric surjection]].
 
+This establishes the existence of a surjection/embedding factorization. Next we discss that this is unique.
+
+So consider two factorizations
+
+$$
+  \array{
+    && \mathcal{A}
+    \\
+    & {}^{\mathllap{p_1}}\nearrow &\Downarrow^\simeq& \searrow^{\mathrlap{i_1}}
+    \\
+    \mathcal{F}
+    &&\stackrel{f}{\to}&&
+    \mathcal{E}
+    \\
+    & {}_{\mathllap{p_2}}\searrow &\downarrow^{\simeq}& \nearrow_{\mathrlap{i_2}}
+    \\
+    && \mathcal{B}
+  }
+$$
+
+into a geometric surjection followed by a geometric embedding.
+
+We will now argue that $i_1$ factors -- essentially uniquely -- through $i_2$ in a way that makes 
+
+$$
+  \array{
+    && \mathcal{A}
+    \\
+    & {}^{\mathllap{p_1}}\nearrow && \searrow^{\mathrlap{i_1}}
+    \\
+    \mathcal{F}
+    &&\downarrow^g&&
+    \mathcal{E}
+    \\
+    & {}_{\mathllap{p_2}}\searrow && \nearrow_{\mathrlap{i_2}}
+    \\
+    && \mathcal{B}
+  }
+$$
+
+commute up to natural isomorphisms. By the same argument for the upside-down situation we find an essentially unique middle vertical morphism $h : \mathcal{B} \to \mathcal{A}$ the other way round. Then essential uniqueness of these factorizations implies that $g \circ h \simeq Id$ and $h \circ g \simeq Id$. This means that the original two factorizations are equivalent.
+
+To find $g$ and $h$, use again that every [[geometric embedding]] (by the discussion there) is, up to equivalence, an inclusion of $j$-sheaves for some $j$. Find such a $j$ the bottom morphism and then use again lemma \ref{ConditionForSheafFactorization} that $i_1$ factors through $i_2$ -- essentially uniquely -- precisely if $i_1^*$ sends [[dense monomorphism]]s to isomorphisms.
+
+To see that it does, let $IU \to X$ be a dense mono and consider the naturality square
+
+$$
+  \array{
+    p_2^* i_2^* U &\stackrel{\simeq}{\to}& p_1^* i_1^* U
+    \\
+    \downarrow && \downarrow 
+    \\
+    p_2^* i_2^* X &\stackrel{\simeq}{\to}& p_1^* i_1^* X    
+  }
+  \,.
+$$
+
+Since $i_2^*(U \to X)$ is an iso by definition, the left vertical morphism is, and thus so is the right vertical morphism. But since $p_1$ is a [[geometric surjection]] we have (by the discussion there) that $p_1^*$ is [[conservative functor|conservative]], and hence also $i_1^* U \to i_1^* X$ is an isomorphism.
+
+Hence $i_1$ factors via some $g$ through $i_2$ and the proof is completed by the above argument.
+
 =--
 
+## Examples
+
+* For $f : X \to Y$ a [[continuous function]] between [[topological space]]s and $X \to im(f) \to Y$ its ordinatry [[image]] factorization through an [[embedding]], the corresponding composite of geometric morphisms of [[sheaf topos]]es 
+
+  $$
+    Sh(X) \to Sh(im(f)) \to Sh(Y)
+  $$
+
+  is a geometric surjection/geometric embedding factorization.
+
+* For $\mathcal{E}$ any topos, $f : X \to Y$ any morphism in $\mathcal{E}$, and $X \to im(f) \to Y$ its [[image]] factorization, the corresponding composite of [[base change geometric morphisms]]
+
+  $$
+    \mathcal{E}/X  \to \mathcal{E}/im(f) \to \mathcal{E}/Y
+  $$  
+
+  is a geometric surjection/embedding factorization.
+
+* For $f : C \to D$ any [[functor]] between [[categories]], write $C \to im(f) \to D$ for its [[essential image]] factorization. Then the induced composite <a href="http://ncatlab.org/nlab/show/geometric%20morphism#BetweenPresheafToposes">geometric morphism of presheaf toposes</a>
+
+  $$
+    [C^{op}, Set] \stackrel{}{\to} [im(f)^{op}, Set] \to 
+    [D^{op}, Set]
+  $$
+
+  is a geometric surjection/embedding factorization.
+
+See ([MacLaneMoerdijk, p. 377](#MacLaneMoerdijk)).
 
 ## References
 
