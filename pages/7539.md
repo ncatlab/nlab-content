@@ -1,7 +1,7 @@
 
 
 
-This is an entry on the notion of **complex of groups** introduced by [[André Haefliger]] and [[Jon Corson]] as a higher dimensional generalisation of the Bass-Serre theory of [[graphs of groups]]. (It does _not_ refer to the idea of chain complexes of groups, i.e., [[chain complexes]] in the usual sense, except that the groups involved are not assumed to be abelian.) 
+This is an entry on the notion of **complex of groups** introduced by [[André Haefliger]] and [[Jon Corson]] as a higher dimensional generalisation of the Bass-Serre theory of [[graphs of groups]]. (It does _not_ refer to the idea of chain complexes of groups, i.e., [[chain complexes]] in the (more or less) usual sense.) 
 
 #Contents#
 * table of contents
