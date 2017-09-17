@@ -70,7 +70,7 @@ Still others think of the [[2-category]] assigned to the [[point]] in different 
 
 We have only focused on the "purely [[higher category theory|n-categorical]]" aspects of Chern--Simons theory so far and ignored hundreds of tremendously important topics, such as: 
 
-* The idea of [[transgression]], and the significance of the [[Chern-Simons form|Chern--Simons form]]
+* The idea of [[transgression]], and the significance of the [[Chern-Simons form|Chern–Simons form]]
 * Chern--Simons theory as a [[string theory]]
 * Large $N$ duality
 * The [[BV-theory|Batalin-Vilkovisky]] viewpoint
