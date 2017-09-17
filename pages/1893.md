@@ -145,7 +145,7 @@ A ring morphism $f$ between two $\lambda$-rings is a morphism of $\lambda$-rings
 
 +-- {: .num_cor}
 ###### Corollary
-There is an equivalence between the category of torsion-free $\lambda$-rings and the category of torsion-free commutative rings.
+There is an equivalence between the category of torsion-free $\lambda$-rings and the category of torsion-free commutative rings equipped with commuting Frobenius lifts..
 =--
 
 Now we will argue that these statements hold for arbitrary commutative rings.
