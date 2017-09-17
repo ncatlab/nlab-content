@@ -133,9 +133,9 @@ In terms of just the underlying $\infty$-Lie algebra valued local connection dat
  
 * [[spin structure]]
 
-* [[string structure]],  **differential string structure**
+* [[string structure]],  [[differential string structure]]
 
-* [[fivebrane structure]], [[differential fivebrane structure]]
+* [[fivebrane structure]], **differential fivebrane structure**
 
 ## References
 
