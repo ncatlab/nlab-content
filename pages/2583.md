@@ -165,43 +165,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the discussion at <a href="http://ncatlab.org/nlab/show/smooth+infinity-groupoid#StrucGeometricHomotopy">Smooth ∞-groupoi -- geometric homotopy</a> the action of $\Pi$ factors as $Smooth \infty Grpd \stackrel{i_!}{\to} ETop\infty Grpd \stackrel{\Pi_{ETop}}{\to} \infty Grpd$ and hence we may equivalently compute the geometric realization of the underlying  [[Euclidean-topological ∞-groupoid]]s 
-
-The statement we need to prove amounts to saying that $\Pi_{ETop}$ sends the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$ to the homtopy fiber of $\frac{1}{2}p_1$. 
-By <a href="http://ncatlab.org/nlab/show/Euclidean-topological+infinity-groupoid#Cohomology">Euclidean-topological ∞-groupoid -- Cohomology</a> it does so on all morphisms that are presented by morphisms of [[good simplicial topological space]]s of the form $X_\bullet \to \bar W G$, since on these [[geometric realization of simplicial topological spaces]] preserves homotopy fibers.
-
-Therefore the claim follows as soon as we exhibit an equivalence of the morphism $\frac{1}{2}\mathbf{p}_1$ from prop \ref{SmoothFractionalPontryaginClass} by a morphism of this form. 
-
-The standard presentation of $\mathbf{B}^3 U(1)$ already is of the form $\bar W (\Xi U(1)[2])$, where $\Xi : Ch_\bullet^+ \to sAb$ is the [[Dold-Kan correspondence]]. 
-
-The domain of the presentation of $\frac{1}{2}\mathbf{p}_1$ as given in 
-([FSS](#FSS)) is the [[Lie integration]] (see there) $\mathbf{cosk}_3 \exp(\mathfrak{so}(n))$ which sits by a global acyclic fibraton
-
-$$
-  \mathbf{cosk}_3 \exp(\mathfrak{so}(n)) \stackrel{\simeq}{\to}
-  \bar W Spin(n)
-$$
-
-over the simplicial smooth manifold $\bar W Spin$, but is not itself the image under $\bar W$ of a simplicial group that $\Pi_{ETop}$ sends to its geometric realization.  
-
-
-Consider then
-
-$$
-  \frac{1}{2}\mathbf{p}_1
-  : 
-  \array{
-    \mathbf{cosk}_3 \exp(b^2 \mathbb{R})
-    &\stackrel{\simeq}{\to}&
-    \bar W \Omega
-     \mathbf{cosk}_3 \exp(b^2 \mathbb{R})
-    &\to&
-    \bar W \Xi U(1)[2]
-  }
-  \,,
-$$
-
-
+Since $\mathbf{B}^3 U(1)$ is presented by a simplicial presheaf that is degreewise presented by a paracompact smooth manifold (a finite product of the [[circle group]] with itself), it follows from the general properties of $\Pi$ discussed at [[Smooth∞Grpd]] that $\Pi$ preserves the [[homotopy fiber]] of $\frac{1}{2}\mathbf{p}_1$.
 
 =--
 
