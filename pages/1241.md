@@ -15,9 +15,9 @@
 
 ## Idea
 
-The [[standard model of particle physics]] asserts that the fundamental physical fields and particles are modeled as sections of and connections on a vector bundle that is associated to a $G$-principal bundle, where the [[group]] $G$ is $SU(3) \times SU(2) \times U(1)$ (or perhaps a quotient of this by $Z_6$) and where the [[representation]] of $G$ used to form the associated vector bundle looks fairly ad hoc on first sight.
+The [[standard model of particle physics]] asserts that the fundamental quantum physical fields and [[particles]] are modeled as sections of and connections on a vector bundle that is associated to a $G$-principal bundle, where the [[group]] $G$ is $SU(3) \times SU(2) \times U(1)$ (or perhaps a quotient of this by $Z_6$) and where the [[representation]] of $G$ used to form the associated vector bundle looks fairly ad hoc on first sight.
 
-A **grand unified theory** in this context is an attempt to realize the standard model as sitting inside a conceptually simpler model, in particular one for which the structure group -- the gauge group -- is a bigger but _simpler_ group $\hat G$, preferably a [[simple group]], which contains $G$ as a subgroup.
+A **grand unified theory** in this context is an attempt to realize the standard model as sitting inside a conceptually simpler [[model (in particle physics)|model]], in particular one for which the structure group -- the gauge group -- is a bigger but _simpler_ group $\hat G$, preferably a [[simple group]], which contains $G$ as a subgroup.
 
 ## References 
 
@@ -37,3 +37,5 @@ Blog discussion of this is at
 [[!redirects GUTs]]
 [[!redirects grand unified theory]]
 [[!redirects grand unified theories]]
+
+[[!redirects Grand Unified Theory]]
