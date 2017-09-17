@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+The _Gepner model_ (after [[Doron Gepner]]) is a [[2d SCFT]] which is "non-geometric" in that it does not arise as a [[sigma-model]] with [[target space]] a [[smooth manifold]]. Indeed the Gepner model appears precisely at the degeneration point of such sigma-models in the _[[flop transition]]_.
+
+## Related concepts
+
+* [[heterotic string]], [[type II superstring]]
+
+* [[KK-compactification]]
+
+## References
+
+The original article is
+
+* [[Doron Gepner]], _Space-time supersymmetry in compactified string theory and superconformal models_, Nucl. Phys. B296 (1987) 757.
+
+See the references at _[[flop transition]]_ for more.
+
+[[D-branes]] in [[string theory]] [[vacua]] defines by Gepner model SCFTs are discussed in
+
+* [[Andreas Recknagel]], [[Volker Schomerus]], _D-branes in Gepner models_, Nucl.Phys. B531 (1998) 185-225 ([arXiv:hep-th/9712186](http://arxiv.org/abs/hep-th/9712186))
+
+[[!redirects Gepner models]]
+
+[[!redirects Gepner point]]
+[[!redirects Gepner points]]
