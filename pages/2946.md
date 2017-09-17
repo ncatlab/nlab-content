@@ -1,26 +1,28 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-Most of the earliest instances of [[limits]] and [[colimits]] used in mathematics were for [[diagrams]] indexed by the [[partially ordered set]] of [[natural numbers]], so these were '[[sequential limit|sequential]]' (co)limits, but another very important class of limits and colimits involved situations that generalised [[intersections]] and [[unions]]. If one is looking at a family of [[subsets]] of some [[set]], then one can close it up under finite intersections and/or unions (if they are not already included) and use it to index diagrams.  For instance, the family of [[continuous functions]] defined on [[open neighbourhoods]] of some point in a [[topological space]] will have this property.  It was noticed that these limits and colimits behaved very nicely and a closer look showed that it was the _(co)filtering_ nature of the indexing category that was the key. 
+Most of the earliest instances of [[limits]] and [[colimits]] used in mathematics were for [[diagrams]] indexed by the [[partially ordered set]] of [[natural numbers]], which we now call _[[sequential limit|sequential]] (co)limits_.  Many of the nice features of these (co)limits apply more generally to _[[codirected limits]]_ and _[[directed colimits]]_, where the indexing category is a (co)-[[directed set]] (much as [[sequences]] in [[topology]] generalise fruitfully to [[nets]]).  A _filtered (co)limit_ is a further generalisation of this, essentially removing the requirement that the indexing category be a poset while preserving the directedness aspect in a [[categorification|categorified]] way.
+
+Another very important class of early limits and colimits involved situations that generalised [[intersections]] and [[unions]].  If one is looking at a [[family of subsets]] of some [[set]], then one can close it up under finite intersections and/or unions (if they are not already included) and use it to index diagrams.  For instance, the family of [[continuous functions]] defined on [[open neighbourhoods]] of some point in a [[topological space]] will have this property.  It was noticed that these limits and colimits behaved very nicely and a closer look showed that it was the _(co)filtering_ nature of the indexing category that was the key.  This also leads us to filtered (co)limits.
 
 
-A _filtered colimit_ is thus a [[colimit]] over a [[diagram]] which is a [[filtered category]].
-Taken in a suitable category such as [[Set]] the colimit being filtered is equivalent to it commuting with [[finite limits]]. 
+So, a _filtered colimit_ is a [[colimit]] over a [[diagram]] from a [[filtered category]], and a _filtered limit_ is a [[limit]] over a [[diagram]] from a [[cofiltered category]]. Taken in a suitable category such as [[Set]], a colimit\'s being filtered is equivalent to its commuting with [[finite limits]].
 
-More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-filtered_ colimit is one over a $\kappa$-filtered category, and when taken with values in [[Set]] this are precisely the colimits that commute with $\kappa$-small limits. 
+More generally, for $\kappa$ a [[regular cardinal]], a _$\kappa$-filtered colimit_ is one over a $\kappa$-filtered category (and dually), and when taken with values in [[Set]] these are precisely the colimits that commute with $\kappa$-[[small limit]]s. 
 
 
 ## Definition
@@ -190,14 +192,15 @@ Section 2.13 in part I of
   {#Borceux}
 
 
-[[!redirects cofiltered limit]]
-[[!redirects filtered colimit]]
-[[!redirects filtered inverse limit]]
-[[!redirects cofiltered inverse limit]]
-[[!redirects filtered direct limit]]
+[[!redirects filtered limit]]
 [[!redirects filtered limits]]
+[[!redirects cofiltered limit]]
 [[!redirects cofiltered limits]]
+[[!redirects filtered colimit]]
 [[!redirects filtered colimits]]
+[[!redirects filtered inverse limit]]
 [[!redirects filtered inverse limits]]
+[[!redirects cofiltered inverse limit]]
 [[!redirects cofiltered inverse limits]]
+[[!redirects filtered direct limit]]
 [[!redirects filtered direct limits]]
