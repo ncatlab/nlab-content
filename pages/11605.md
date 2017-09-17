@@ -13,7 +13,6 @@
 =--
 =--
 
-> under construction
 
 #Contents#
 * table of contents
@@ -622,7 +621,7 @@ Of special interest are also the intermediate Jacobian
 ### $k = 0$: the Picard variety $J^1(\Sigma)$
  {#ExamplePicard}
 
-+-- {: .num_prop}
++-- {: .num_prop #J1IsPicard}
 ###### Proposition
 
 The intermediate Jacobian $J^1(\Sigma)$, def. \ref{PlainIJacobian}, of a [[complex curve]] ($dim_{\mathbb{C}}(\Sigma) = 1$) coincides with the connected component $Pic_0(\Sigma)$ of the [[Picard variety]] $Pic(\Sigma)$ of $\Sigma$, hence with the [[Jacobian variety]] $Jac(\Sigma)$:
@@ -634,7 +633,7 @@ $$
 
 =--
 
-(e.g. [Polishchuk 03, section 16.4](#Polishchuk03))
+First consider the elementary proof by direct inspection (e.g. [Polishchuk 03, section 16.4](#Polishchuk03)):
 
 +-- {: .proof}
 ###### Proof
@@ -674,6 +673,26 @@ $$
 is the connected component of the [[Picard variety]] of $\Sigma$.
 
 =--
+
+Alternatively, prop. \ref{J1IsPicard}
+follows with theorem \ref{DeligneTheorem} as follows:
+
++-- {: .proof}
+###### Proof
+
+Since $k = 0$ then $\mathbf{B}^2\mathbb{Z}(k+1)_D\simeq \mathbf{B}\mathbb{G}_m$ is just the universal moduli stack of line bundles without connection and so $H^{2k+2}(\Sigma, \mathbb{Z}(k+1)_D ) \simeq H(\Sigma,\mathbf{B}\mathbb{G}_m)$ is the full [[Picard variety]]. The fiber in the exact sequence in theorem \ref{DeligneTheorem} then restricts this to the elements which have trivial [[first Chern class]], hence the [[Jacobian variety]].
+
+=--
+
++-- {: .num_remark #GeneralizationToModuliOfGPrincipalConnections}
+###### Remark
+
+There is a [[non-abelian cohomology|non-abelian]] generalization of this statement that the [[moduli space of flat connections|moduli space of]] real bundles with flat connections is equivalently a moduli space of complex-analytic bundles, but without connection. This is a corollary of the [[Donaldson-Uhlenbeck-Yau theorem]], stated as ([Scheinost-Schottenloher 96, corollary 1.16](#ScheinostSchottenloher96)):
+
+the moduli space of [[flat connection|flat]] [[special unitary group|SU(n)]]-[[principal connections]] on $\Sigma$ is equivalently the moduli space of [[special linear group|SL(n,C)]]-[[holomorphic vector bundles]] which have vanishing [[Chern classes]] and are [[stable vector bundle|semi-stable]].
+
+=--
+
 
 ### $k = n-1$: Albanese variety 
  {#ExampleAlbanese}
