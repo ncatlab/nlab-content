@@ -21,7 +21,7 @@ A space is _connected_ if it can\'t be split up into two independent parts.  Eve
 
 Speaking category-theoretically a [[topological space]] $X$ is **connected** if the [[representable functor]]
 $$ hom(X, -): Top \to Set $$
-preserves [[coproduct]]s. It\'s actually enough to require that it preserves binary coproducts; in that case, notice that we always have a map
+preserves [[coproduct]]s. It\'s actually enough to require that it preserves binary coproducts (a detailed proof in a more general setting is given at [connected object](http://ncatlab.org/nlab/show/connected+object#reduction_to_binary_coproducts_8)); in that case, notice that we always have a map
 $$ hom(X,Y) + hom(X,Z) \to hom(X,Y + Z) ,$$
 so $X$ is connected if this is always a [[bijection]]. This definition generalises to the notion of [[connected object]] in an [[extensive category]].
 
@@ -36,7 +36,7 @@ be [[surjection]]s.  However, many results come out more cleanly by disqualifyin
 The elementary definitions above have been carefully phrased to be correct in [[constructive mathematics]].  One may also see classically equivalent forms that are constructively weaker.
 
 
-## Basic results 
+## Basic results {#basic}
 
 1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
 
@@ -85,18 +85,52 @@ A space $X$ is **totally disconnected** if its connected components are precisel
 
 An important variation on the theme of connectedness is path-connectedness. If $X$ is a space, define the path component $[x]$ to be the subspace of all $y \in X$ for which there exists a continuous map $h: [0, 1] \to X$ where $h(0) = x$, $h(1) = y$. 
 
-In a [[nice category of spaces]], the set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") may be equivalently defined to be the coequalizer in 
-$$ X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X \to \pi_0(X) .$$
+The set $\pi_0(X)$ of path components (the 0th "[[homotopy group]]") may be equivalently defined to be the coequalizer in 
+$$ \hom([0, 1], X) \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} \hom(1, X) \to \pi_0(X) .$$ 
+
+(We can even topologize $\pi_0(X)$ by taking the coequalizer in $Top$ of 
+
+$$X^{[0, 1]} \stackrel{\overset{ev_0}{\to}}{\underset{ev_1}{\to}} X,$$ 
+
+taking advantage of the fact that the locally compact Hausdorff space $[0, 1]$ is [exponentiable](http://ncatlab.org/nlab/show/exponential+law+for+spaces). The resulting quotient space will be discrete if $X$ is locally path-connected.)   
 
 We say $X$ is **path-connected** if it has exactly one path component.
 
-It follows easily from the basic results above that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$). The **topologist's sine curve**
+It follows easily from the basic results [above](basic) that each path component $[x]$ is connected. However, it need not be closed (and therefore need not be the connected component of $x$). The **topologist's sine curve**
 $$ \{ (x, y) \in \mathbb{R}^2 \;:\; (0 \lt x \leq 1 \;\wedge\; y = sin(1/x)) \;\vee\; (0 = x \;\wedge\; -1 \leq y \leq 1) \} $$
 provides a classic example of this happenstance. However, the path components and connected components coincide if $X$ is **locally path-connected** (meaning each point has an open neighborhood which is path-connected).
 
 The basic categorical results 1., 2., and 3. above carry over upon replacing "connected" by "path-connected". (As of course does 4., trivially.)
 
-As a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete!
+As a contrast to a path-connected space, a **totally path-disconnected** space is a space such that its set of path components is equal to the underlying set of the space. Equivalently, that there are no non-constant paths. This by far does not mean that the space is discrete! 
+
+### Path-components functor 
+
+As above, let $\pi_0 \colon Top \to Set$ be the functor which assigns to each space $X$ its set of path components $\pi_0(X)$. 
+
++-- {: .un_prop} 
+###### Proposition 
+The functor $\pi_0 \colon Top \to Set$ preserves arbitrary products. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $X_i$ be a family of spaces; we must show that the comparison map 
+
+$$\pi_0(\prod_i X_i) \to \prod_i \pi_0(X_i)$$ 
+
+is invertible. Define a relation $R$ from $\prod_i \pi_0(X_i)$ to $\pi_0(\prod_i X_i)$ where $R((c_i), [(x_i)])$ if $x_i \in c_i$ for all $i$. This is well-defined, because if $x_i \in c_i$ and $y_i \in c_i$ for all $i$, then for each $i$ we can choose a path $\alpha_i \colon I \to X_i$ connecting $x_i$ to $y_i$, and $\langle \alpha_i \rangle \colon I \to \prod_i X_i$ then connects $(x_i)$ to $(y_i)$. (This of course uses the [[axiom of choice]].) It is also total, again by the axiom of choice. It is straightforward that this functional relation is inverse to the comparison map above. 
+=-- 
+
++-- {: .un.prop} 
+###### Proposition 
+The functor $\pi_0 \colon Top \to Set$ preserves arbitrary coproducts. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The functor $\hom(I, -) \colon Top \to Set$ preserves coproducts since $I$ is connected, and similarly for $\hom(1, -)$. The coequalizer of a pair of natural transformations between coproduct-preserving functors is also a coproduct-preserving functor. 
+=-- 
 
 
 ## Related concepts
