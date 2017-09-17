@@ -40,6 +40,10 @@ The idea of *persistent homology* is to look for features that persist for some 
 * [[ACT-OIT.pdf|Slides:file]] for a talk by [[Tim Porter]] in 2008.
 
 
+## Software
+
+One can compute intervals for homological features algorithmically over field coefficients and software packages are available for this purpose. See for instance [Perseus](http://www.sas.upenn.edu/~vnanda/perseus).
+
 ## References
 
 * Robert MacPherson, Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012); [doi](http://dx.doi.org/10.1063/1.4737391)
