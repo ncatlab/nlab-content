@@ -1,6 +1,8 @@
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/Daniel_Quillen)
 
+* Scanned images of Quillen's research notebooks, Clay Mathematical Institute, [web](http://www.claymath.org/publications/quillen-notebooks).
+
 ## related $n$Lab entries
 
 * [[model category]], [[model structure on topological spaces]]
