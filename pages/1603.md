@@ -17,15 +17,11 @@
 
 ## Idea
 
-The notion of _quasigroup_ is a generalization of that of _[[group]]_ without the [[associativity]] law or [[identity]] element.   A quasigroup with identity is called a _loop_.
+Quasigroup is a binary algebraic structure in which every equation of the form $a\cdot x = b$ or of the form $y\cdot a = b$ has a unique solution for $x$, resp. $y$. The notion of _quasigroup_ is a generalization of the notion of _[[group]]_ without the [[associativity]] law or [[identity]] element.   A quasigroup with identity is called a _loop_.
 
 Note that, in the absence of associativity, it is not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
 
-Some consider the concept of quasigroup to be an example of [[centipede mathematics]] and uninteresting due to their lack of deep applications.  For example, one mathematician has written:
-
->The meeting was dominated by algebraic loop theory.  It occured to me that as a way to use your intellectual resources this was very akin in significance to doing a difficult sudoku, a thought that was made very ironic when one speaker started making loops out of what were essentially sudoku squares.
-
-Nonetheless it can be instructive to ponder these concepts, and there are some nontrivial examples.
+Some consider the concept of quasigroup to be an example of [[centipede mathematics]], see more at [[historical notes on  quasigroups]]. 
 
 
 ## Definitions
@@ -52,7 +48,7 @@ A __quasigroup__ is a [[set]] $G$ equipped with three binary operations (product
 *  $(x y) / y = x$,
 *  $x \backslash (x y) = y$.
 =--
-Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]].
+Thus quasigroups are described by a [[Lawvere theory]] and can therefore be [[internalization|internalized]] into any [[cartesian monoidal category]]. There are weaker structures, say left and right quasigroups in which either $\backslash$ or $/$ is well defined. 
 
 In any case:
 +-- {: .un_defn}
@@ -84,7 +80,13 @@ See also [[Moufang loop]].
 
 ## Applications
 
-Quasigroups have applications to the study of [[Latin square]]s (basically the 'sudoku squares' from the quotation above). 
+Local analytic loops have interesting induced structure on the tangent space at the identity, generalizing the Lie algebra of a group, see [[Sabinin algebra]]. Sabinin algebras are closely related to the local study of affine connections on manifolds. They include Lie algebras, Mal'cev algebras, Lie triple systems (related to the study of [[symmetric space]]s) as simplest cases.
+
+There are interesting subvarieties of quasigroups and loops (which are still not associative). Also, left [[racks]] (and quandles in particular) are precisely left distributive left quasigroups, with abundance of recent applications in the study of knots and links. Finite racks have been studied in the connection to classification of finite dimensional pointed Hopf algebras. Local augmented Lie racks appeared as integration objects in the local integration theory of [[Leibniz algebra]]s.
+
+TS-quasigroups are related to [[Steiner triple system]]s. 
+
+Cayley multiplication tables of finite quasigroups are [[Latin square]]s (basically the 'sudoku squares' from the quotation [[historical notes on quasigroups|here]]). 
 
 As a sample of centipede mathematics, we have the following result on smooth quasigroups, i.e., quasigroups internal to the category of [[smooth manifolds]]: 
 
