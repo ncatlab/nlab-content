@@ -137,7 +137,7 @@ By the same kind of argument:
 +-- {: .un_exampke}
 ###### Example
 
-For $n \in \mathbb{N}$ and for $X$ a locally $n$-[[connected]] [[topological space]], $Sh_{(n,1)}(X)$ is a locally $n$-connected $n$-topos.
+For $n \in \mathbb{N}$ and for $X$ a locally $n$-[[n-connected space|connected]] [[topological space]], $Sh_{(n,1)}(X)$ is a locally $n$-connected $n$-topos.
 =--
 
 +-- {: .un_prop}
