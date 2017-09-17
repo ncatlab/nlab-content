@@ -355,6 +355,10 @@ Some remarks on commutative monoids are in section C1.1 of
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 {#Johnstone}
 
+Discussion of the [[closed monoidal category]] structure on a category of algebras of a [[commutative algebraic theory]] is in
+
+* [[Peter Freyd]], _Algebra valued functors in general and tensor products in particular_, Colloq. Math. 14 (1966), 89-106.
+
 [[!redirects categories of monoids]]
 
 [[!redirects category of commutative monoids]]
