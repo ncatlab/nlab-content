@@ -15,7 +15,7 @@
 
 ## Definition
 
-A power series in a variable $X$ with coefficients in a [[ring]] $R$ is a formal [[series]] of the form
+A power series in a [[variable]] $X$ and with [[coefficients]] in a [[ring]] $R$ is a formal [[series]] of the form
 
 $$
   \sum_{n = 0}^\infty a_n X^n
