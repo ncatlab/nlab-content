@@ -89,8 +89,58 @@ The generalization to [[weak initial algebras]] captures the notion in [[intensi
 
 ## Examples
 
+### Natural numbers
+ {#NaturalNumbers}
+
+The archetypical example of an initial algebra is the set of [[natural numbers]].  
+
++-- {: .num_prop}
+###### Proposition
+
+
+Let $\mathcal{T}$ be  [[topos]] and let $F : \mathcal{T} \to \mathcal{T}$ the functor given by
+
+$$
+  F : X \mapsto * \coprod X
+  \,.
+$$
+
+Then an initial algebra over $F$ is precisely a [[natural number object]] $\mathbb{N}$ in $\mathcal{T}$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, an $F$-algebra is an object $X$ equipped with a morphism
+
+$$
+  (0,s) :  * \coprod X \to X
+  \,,
+$$
+
+hence equivalently with a [[pointed object|point]] $0 : * \to X$ and an [[endomorphism]] $s : X \to X$.  This being inital means that for $(0_Y, s_Y) : * \coprod Y \to Y$ any other morphism, there is a unique morphism $f : X \to Y$ such that the [[diagram]]
+
+$$
+  \array{
+    * &\stackrel{0}{\to}& X &\stackrel{s}{\to}& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{f}}
+    \\
+    * &\stackrel{0}{\to}& Y &\stackrel{s}{\to}& Y  
+  }
+$$
+
+
+commutes. This is the very definition of [[natural number object]] $X = \mathbb{N}$.
+
+=--
+
+### More examples
+
 Theorem \ref{AdameksTheorem} applies in particular to any functor $F: Set \to Set$ which is a [[colimit]] of finitely [[representable functors]] $hom(n, -): X \mapsto X^n$, as in the following examples. 
  
+
 * Let $A$ be a set, and let $F: Set \to Set$ be the functor $F(X) = 1 + A \times X$. Then the initial $F$-algebra is $A^*$, the [[free monoid]] on $A$. The $F$-algebra structure is 
   $$(e, m| ): 1 + A \times A^* \to A^*$$ 
   where $e: 1 \to A^*$ is the identity and $m|: A \times A^* \to A^*$ is the restriction of the monoid multiplication along the evident inclusion $i \times 1: A \times A^* \to A^* \times A^*$. 
@@ -124,6 +174,11 @@ A review of some basics with an eye towards [[inductive types]] is in section 2 
  {#AwodeyGambinoSojakova}
 
 [[!redirects initial algebras]]
+
 [[!redirects initial algebra of an endofunctor]]
 [[!redirects initial algebras of an endofunctor]]
 [[!redirects initial algebras of endofunctors]]
+
+[[!redirects initial algebra for an endofunctor]]
+[[!redirects initial algebras for an endofunctor]]
+[[!redirects initial algebras for endofunctors]]
