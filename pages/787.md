@@ -122,6 +122,9 @@ The relation between the two different Lie-alebroid-like  definition of Courant 
 
 Chris Rogers paper discusses 2-plectic manifolds, manifolds with nondegenerate closed 3 forms and shows that they are related to a special class of Courant algebroids, those that are exact.
 
-* [[Chris Rogers]] _Courant algebroids from categorified symplectic geometry_, <a href="http://front.math.ucdavis.edu/1001.0040">arXiv:1001.0040v1 [math-ph]</a>
+* [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_, <a href="http://front.math.ucdavis.edu/1001.0040">arXiv:1001.0040v1 [math-ph]</a>
+
+* Christopher L. Rogers, _2-plectic geometry, Courant algebroids, and categorified prequantization_, [arxiv/1009.2975](http://arxiv.org/abs/1009.2975) 
 
 [[!redirects Courant Lie algebroid]]
+[[!redirects Courant algebroids]]
