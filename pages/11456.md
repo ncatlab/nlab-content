@@ -1,8 +1,17 @@
 
+## Examples
+
+* [[nodal singularity]]
+
+* [[cusp]]
 
 ## Related concepts
 
 * [[singularity]]
+
+* [[Deligne-Mumford compactification]]
+
+* [[augmented Teichmüller space]]
 
 ## References
 
@@ -12,6 +21,4 @@
 [[!redirects singular points of a curves]]
 
 
-[[!redirects nodal singularity]]
-[[!redirects nodal singularities]]
 
