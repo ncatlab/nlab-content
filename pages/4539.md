@@ -13,6 +13,8 @@ and
 
   * [[abelian category]]
 
+  * [[semi-abelian category]]
+
 ## Basic definitions
 
 
