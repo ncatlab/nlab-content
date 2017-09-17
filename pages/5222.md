@@ -144,3 +144,4 @@ For a discussion of Fourier-Mukai transforms in the setting of $(\infty,1)$-enha
 [[!redirects Fourier-Mukai transforms]]
 [[!redirects Fourier-Mukai functor]]
 [[!redirects Fourier-Mukai functors]]
+[[!redirects Fourier-Mukai transformation]]
