@@ -147,7 +147,12 @@ A clean formulation and review is provided in
 
 * Fabio Ferrari Ruffino, _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
 
+and
+
 * Kim Laine, _Geometric and topological aspects of Type IIB D-branes_ ([arXiv:0912.0460](http://arxiv.org/abs/0912.0460))
+ {#Laine}
+
+In ([Laine](#Laine)) the discussion of FW-anomaly cancellation with finite-rank gauge bundles is towards the very end, culminating in equation (3.41).
 
 [[!redirects twisted spin^c structures]]
 
