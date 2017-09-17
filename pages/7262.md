@@ -24,6 +24,13 @@ A hyperbolic [[Kac-Moody Lie algebra]] in the E-series
 
 ... [[E6]], [[E7]], [[E8]], [[E9]], $E_{10}$, [[E11]], ...
 
+## Properties
+
+### As U-duality group of 1d supergravity
+
+$E_{10}$ is conjectured (e.g. [Nicolai 08](#Nicolai08)) to be the [[U-duality]] group (see there) of [[11-dimensional supergravity]] [[KK-compactification|compactified]] to 1 dimension.
+
+
 ## References
 
 ### General
@@ -42,5 +49,5 @@ The fact that every simply laced hyperbolic Kac-Moody algebra is a sub Lie algeb
 
 Reviews include
 
-* [[Hermann Nicolai]], _Wonders of $E_{10}$ and $K(E_{10})$_ (2008) ([pdf](http://ipht.cea.fr/Pisp/pierre.vanhove/Paris08/talk_PDF/nicolai.pdf))
+* {#Nicolai08} [[Hermann Nicolai]], _Wonders of $E_{10}$ and $K(E_{10})$_ (2008) ([pdf](http://ipht.cea.fr/Pisp/pierre.vanhove/Paris08/talk_PDF/nicolai.pdf))
 
