@@ -25,7 +25,8 @@ The [[action functional]] of [[gravity]] was originally conceived as a [[functio
 
 The first order formalism is also the formalism in which [[supergravity]] has to be formulated. 
 
-See also 
+## Related concepts 
+
 
 * [[supergravity]]
 
@@ -33,7 +34,7 @@ See also
 
 * [[gravity as a BF-theory]].
 
-
+* [[teleparallel gravity]]
 
 ## References
 
