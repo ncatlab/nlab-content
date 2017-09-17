@@ -27,7 +27,9 @@ Many people (especially non-category theorists) use _multicategory_ to mean what
 
 # Further details and generalizations #
 
-An efficient abstract method for defining multicategories and related structures is through the formalism of [[cartesian monad]]s. For ordinary categories, one uses the identity monad on [[Set]]; for ordinary multicategories, one uses the free monoid monad $(-)*: Set \to Set$. There is a very general notion of $T$-multicategory, where $T$ is a [[cartesian monad]] on a category with pullbacks, which we outline as follows.
+An efficient abstract method for defining multicategories and related structures is through the formalism of [[cartesian monad]]s. For ordinary categories, one uses the identity monad on [[Set]]; for ordinary multicategories, one uses the free monoid monad $(-)*: Set \to Set$.  This is a special case of the yet more general notion of [[generalized multicategory]].
+
+We summarize here how the theory applies to the case of a [[cartesian monad]] $T$ on a category with pullbacks; see [[generalized multicategory]] for the fully general context.
 
 * First, a $T$-span from $X$ to $Y$ is a [[span]] $p$ from $T X$ to $Y$, that is, a diagram
 $$T X \stackrel{p_1}{\leftarrow} P \stackrel{p_2}{\to} Y$$
@@ -41,9 +43,10 @@ where $m: T^2 \to T$ is the monad multiplication. The identity $T$-span from $X$
 $$T X \stackrel{u X}{\leftarrow} X \stackrel{1_X}{\to} X$$
 where $u: I \to T$ is the monad unit. The verification of the bicategory axioms uses the cartesianness of $T$ in concert with the corresponding axioms on the bicategory of spans.
 
-* A $T$-_multicategory_ is defined to be a [[monad]] in the bicategory of $T$-spans.
+* A _$T$-multicategory_ is defined to be a [[monad]] in the bicategory of $T$-spans.
 
-The full details are carefully treated in Tom Leinster's book, _loc. cit._, who gives many illuminating examples.
+When $T$ is the free monoid monad on sets, then a $T$-multicategory is a multicategory as defined above.  For more examples and generalizations, see [[generalized multicategory]].
+
 
 # Connection with operads #
 
@@ -51,11 +54,15 @@ A nonpermutative (or Stasheff) [[operad]] in [[Set]] may be defined as an ordina
 
 For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|categories]], a [[globular operad]] is a $T$-operad, where $T$ is the free (strict) $\omega$-[[strict omega-category|category]] monad on the category of [[globular set]]s.
 
-With a little care, ordinary (permutative/symmetric) operads may also be treated within this framework. See Tom Leinster's book for details.
+Ordinary (permutative/symmetric) operads, and their generalization to [[symmetric multicategory|symmetric multicategories]], can also be treated in the framework of [[generalized multicategories]], but they require a framework more general than that of cartesian monads.
 
 #References#
 
 * [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math.CT/0305049))
+
+[[!redirects multicategories]]
+[[!redirects symmetric multicategory]]
+[[!redirects symmetric multicategories]]
 
 
 [[!redirects multicategories]]
