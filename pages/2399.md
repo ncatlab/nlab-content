@@ -2,16 +2,16 @@
 [[!include functorial quantum field theory - contents]]
 </div>
 
-
 #Contents#
 * automatic table of contents
 {:toc}
 
-#Definition#
+## Definition
 
-....
+...
 
-# Relation to TQFT #
+
+## Relation to TQFT
 
 Gromov-Witten invariants may be understood (and have originally been found) as arising from a particular [[TQFT]], or actually a [[TCFT]], called the [[A-model]].
 
@@ -19,7 +19,8 @@ For a useful exposition of this see
 
 * A. J. Tolland, _Gromov-Witten Invariants and Topological Field Theory_ ([blog](http://sbseminar.wordpress.com/2008/12/11/gromov-witten-invariants-and-topological-field-theory))
 
-#Exposition entries#
+
+## Exposition entries
 
 here are some seminar notes:
 
@@ -29,7 +30,8 @@ And this introductory bit on the [[moduli stack]] of [[elliptic curve]]s:
 
 * [[A Survey of Elliptic Cohomology - elliptic curves]]. 
 
-#References #
+
+## References
 
 * M. Kontsevich, Yu. Manin, _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164 (1994), no. 3, 525--562 ([euclid](http://projecteuclid.org/euclid.cmp/1104270948)).
 
@@ -58,5 +60,14 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
 
 * [[Constantin Teleman]], _The structure of 2D semi-simple field theories_ ([arXiv](http://arxiv.org/abs/0712.0160))
 
-[[!redirects Gromov-Witten theory]]
+
 [[!redirects Gromov-Witten invariant]]
+[[!redirects Gromov-Witten invariants]]
+[[!redirects Gromov–Witten invariant]]
+[[!redirects Gromov–Witten invariants]]
+[[!redirects Gromov--Witten invariant]]
+[[!redirects Gromov--Witten invariants]]
+
+[[!redirects Gromov-Witten theory]]
+[[!redirects Gromov–Witten theory]]
+[[!redirects Gromov--Witten theory]]
