@@ -47,9 +47,9 @@ Geometric quantization is a marvelous tool for understanding the relation betwee
 
 1. We start with a *classical phase space*: mathematically, this is a [[manifold]] $X$ with a [[symplectic geometry|symplectic structure]] $\omega$.
 
-1. Then we do *prequantization*: this gives us a Hermitian [[vector bundle|line bundle]] $L$ over $X$, equipped with a $U(1)$ [[connection on a bundle|connection]] $D$ whose curvature equals $i \omega$. $L$ is called the *prequantum line bundle*.
+1. Then we do *prequantization*: this gives us a Hermitian [[vector bundle|line bundle]] $L$ over $X$, equipped with a $U(1)$ [[connection on a bundle|connection]] $D$ whose curvature equals $i \omega$. $L$ is called the **[[prequantum line bundle]]**.
 
-   **Warning:** we can only do this step if $\omega$ satisfies the *Bohr--Sommerfeld condition*, which says that $\omega/2\pi$ defines an [[Eilenberg-MacLane spectrum|integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
+   **Warning:** we can only do this step if $\omega$ satisfies the *Bohr--Sommerfeld condition*, which says that $\omega/2\pi$ defines an [[integral cohomology]] class. If this condition holds, $L$ and $D$ are determined up to [[isomorphism]], but not canonically.
 
 1. The [[Hilbert space]] $H_0$ of square-integrable [[section]]s of $L$ is called the *prequantum Hilbert space*. This is not yet the Hilbert space of our quantized theory -- it's too big. But it's a good step in the right direction. In particular, we can *prequantize classical observables*: there's a map sending any smooth function on $X$ to an operator on $H_0$. This map takes [[Poisson bracket]]s to [[commutator]]s, just as one would hope. The formula for this map involves the [[connection on a bundle|connection]] $D$.
 
