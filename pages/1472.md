@@ -19,7 +19,7 @@
 =--
 
 
-This entry discusses [[fundamental physics]] from the [[nPOV]].
+This entry lists aspects of [[fundamental physics]] from the [[nPOV]]: its description in terms of [[category theory]] and [[higher category theory]]. For a more coherent exposition starting see also _[[geometry of physics]]_.
 
 #Contents#
 * automatic table of contents goes here
