@@ -69,9 +69,141 @@ A [[monoid]] in $(R Mod, \otimes)$ is equivalently an $R$-[[associative algebra|
 
 =--
 
++-- {: .num_prop #DistributivityOverDirectSum}
+###### Proposition
+
+The tensor product of modules [[distributivity|distributes]] over the [[direct sum]] of modules: 
+
+$$
+  A \otimes \left(\oplus_{s \in S} B_s\right)
+  \simeq
+  \oplus_{s \in S} ( A \otimes B_c )
+  \,.
+$$
+
+=--
+
+
+
 ### Characterization by exact additive functors
 
 See _[[Eilenberg-Watts theorem]]_.
+
+### Exactness properties
+ {#ExactnessProperties}
+
+Let $R$ be a [[commutative ring]].
+
++-- {: .num_prop}
+###### Proposition
+
+For $N \in R Mod$ a module, the [[functor]] of tensoring with this module
+
+$$
+  (-) \otimes_R N \colon R Mod \to R Mod
+$$
+
+is an [[additive functor|additve]] [[right exact functor]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The functor is [[additive functor|additive]] by the [[distributivity]] of tensor products over [[direct sums]], prop. \ref{DistributivityOverDirectSum}.
+
+A [[category theory|general abstract]] way of seeing that the functor is right exact is to notice that $(-)\otimes_R N$ is a [[left adjoint]] functor, its [[right adjoint]] being the [[internal hom]] $[N,-]$ (see at [[Mod]]). By the discussion at _[[adjoint functor]]_ this means that $(-) \otimes_R N$ even preserves all [[limits]], in particular the [[finite limits]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The functor $(-)\otimes_R N$ is **not** a [[left exact functor]] (hence not an [[exact functor]]) for all choices of $R$ and $N$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $R \coloneqq \mathbb{Z}$, hence $R Mod \simeq$ [[Ab]] and let $N \coloneqq \mathbb{Z}/2\mathbb{Z}$ the [[cyclic group]] or [[order]] 2. 
+Moreover, consider the inclusion $\mathbb{Z} \stackrel{\cdot 2}{\hookrightarrow} \mathbb{T}$ sitting in the [[short exact sequence]]
+
+$$
+  0 \to \mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z} \to \mathbb{Z}/2\mathbb{Z} \to 0
+  \,.
+$$
+
+The functor $(-) \otimes \mathbb{Z}/2\mathbb{Z}$ sends this to
+
+$$
+  0 \to \mathbb{Z}/2\mathbb{Z} 
+    \stackrel{0}{\to}
+  \mathbb{Z}/2\mathbb{Z}
+   \stackrel{id}{\to}
+  \mathbb{Z}/2\mathbb{Z}
+  \to 0
+  \,.
+$$
+
+Here the morphism on the left is the 0-morphism: in components it is given for all $n_1, n_2 \in \mathbb{Z}$ by
+
+$$
+  \begin{aligned}
+    (n_1, n_2 mod 2) 
+    & \mapsto 
+    (2 n_1, n_2 mod 2)
+    \\
+    & \simeq 2 (n_1, n_2 mod 2)
+    \\
+    & \simeq (n_1, 2 n_2 mod 2)
+    \\
+    & \simeq (n_1, 0)
+    \\
+    & \simeq 0
+  \end{aligned} 
+  \,.
+$$ 
+
+Hence this is not a [[short exact sequence]] anymore.
+
+=--
+
+One kind of module $N$ for which $(-)\otimes_R N$ is always exact are [[free modules]].
+
++-- {: .num_example}
+###### Example
+
+Let $i \colon N_1 \hookrightarrow N_2$ be an inclusion of a [[submodule]]. For $S \in $ [[Set]] write $R^{\oplus {\vert S\vert}} = R[S]$ for the [[free module]] on $S$. Then 
+
+$$
+  i \otimes_R N \colon N_1 \otimes_R R^{\oplus {\vert S\vert}} \to N_2 \otimes_R R^{\oplus {\vert S\vert}}
+$$
+
+is again a [[monomorphism]]. Indeed, due to the [[distributivity]] of the tensor product over the [[direct sum]] and using that $R \in R Mod$ is the tensor unit, this is 
+
+$$  
+  i^{\oplus {\vert S\vert}} \colon N_1^{\oplus {\vert S\vert}} \hookrightarrow N_2^{\oplus {\vert S\vert}}
+  \,.
+$$
+
+=--
+
+There are more modules $N$ than the free ones for which $(-)\otimes_R N$ is exact. One says
+
++-- {: .num_defn}
+###### Definition
+
+If $N \in R Mod$ is such that $(-)\otimes_R N \colon R Mod \to R Mod$ is a [[left exact functor]] (hence an [[exact functor]]), $N$ is called a **[[flat module]]**.
+
+=--
+ 
++-- {: .num_remark}
+###### Remark
+
+For a general module, a measure of the failure of $(-)\otimes_R N$ to be exact is given by the [[Tor]]-functor $Tor^1(-,N)$. See there for more details.
+
+=--
 
 ## Related concepts
 
