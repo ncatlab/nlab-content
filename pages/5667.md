@@ -1023,7 +1023,7 @@ For a collection of literature see also paragraph 1.5 in
 
 In
 
-*  [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_, ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
+*  [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_,  J. Geom. Phys., 61 (5), 875-889, 2011 ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
  {#Mahanta13}
 
 it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
