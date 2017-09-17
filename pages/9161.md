@@ -9,7 +9,7 @@
 =--
 =--
 
-The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (at least those within a certain [[frequency]] range): light is _electromagentic [[radiation]]_. 
+The [[waves]] of the [[electromagnetic field]] in [[electromagnetism]] are called _light_ (at least those within a certain [[frequency]] range): light is _electromagnetic [[radiation]]_. 
 
 The [[quanta]] of light are [[photons]].
 
