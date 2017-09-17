@@ -657,38 +657,7 @@ is a fibration. But this follows from the fact that $\Omega^\bullet_{poly} : sSe
 We discuss a concrete model for the $(\infty,1)$-copowering of 
 $(cdgAlg_k)^\circ$ over [[∞Grpd]] in terms of an operation of $cdgAlg_k$ over [[sSet]].
 
-+-- {: .un_definition}
-###### Definition
-
-Define a [[functor]]
-
-$$  
-  CC : sSet \times cdgAlg \to cdgAlg
-$$
-
-by setting for $A \in cdgAlg$ and $Y \in sSet$ degreewise finite
-
-$$
-  CC(Y,A)^n := \bigoplus_{k \geq 0} (A^{\otimes_k |Y_k| })_{n+k}
-$$
-
-with the obvious value on differentials. Then left Kan extend to 
-all simplicial sets. (...)
-
-=--
-
-This appears as ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)).
-
-That this does indeed land in _commutative_ dg-algebras uses results of ([GinotTradlerZeinalian, Chen model](#GinotTradlerZeinalianChenModel)).
-
-+-- {: .un_prop}
-###### Proposition
-
-Restricted to the [[subcategory]] $cAlg_k \hookrightarrow cdgAlg_k$ this operation is under the [[monoidal Dold-Kan correspondence]] the canonical [[copowering]] $sSet \times cAlg_k \to cAlg_k^{\Delta^{op}} \stackrel{N}{\to} cdgAlg$ induced by the fact that $cAlg_k$ has [[coproduct]]s.
-
-=--
-
-This follows from the fllowing basic fact, which we recall here in detail for completeness.
+First notice a basic fact about ordinary commutative algebras.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -766,7 +735,7 @@ For these derivations it is crucial that we are working with commutative algebra
 +-- {: .un_cor}
 ###### Corollary
 
-We have that the tensoring of $A$ with the map of sets from two points to the single point
+We have that the [[copower]]ing of $A$ with the map of sets from two points to the single point
 
 $$
   (* \coprod * \to *) \cdot A
@@ -800,6 +769,66 @@ is the morphism between [[tensor power]]s of $A$ of the cardinalities of $S$ and
 
 =--
 
+The analogous statements hold true with $CAlg_k$ replaced by $cdgAlg_k$: for $S \in sSet$ and $ A \in cdgAlg_k$ we obtain a simplicial cdg-algebra 
+
+$$
+  S \cdot A \in cdgAlg_k^{\Delta^{op}}
+$$ 
+
+by the ordinary degreewise [[copower]]ing over [[Set]], using that $cdgAlg_k$ has coproducts (equal to the tensor product over $k$).
+
+This is equivalently a commutative monoid in simplicial unbounded chain complexes
+
+$$
+  cdgAlg_k^{\Delta^{op}} \simeq CMon(Ch^\bullet(k)^{\Delta^{op}})
+  \,.
+$$
+
+By the logic of the [[monoidal Dold-Kan correspondence]] the symmetric [[lax monoidal functor|lax monoidal]] [[Moore complex]] functor (via the [[Eilenberg-Zilber map]]) sends this to a commutative [[monoid]] in non-positively graded cochain complexes in unbounded cochain complexes
+
+$$
+  C^\bullet(S \cdot A) \in CMon(Ch^\bullet_-(Ch^\bullet(k)))
+  \,.
+$$
+
+Since the [[total complex]] functor $Tot : Ch^\bullet(Ch^\bullet(k)) \to Ch^\bullet(k)$ is itself symmetric lax monoidal (...), this finally yields
+
+$$
+  Tot C^\bullet(S \cdot A) \in CMon(Ch^\bullet(k)) \simeq
+    cdgAlg_k
+$$
+
+
++-- {: .un_definition}
+###### Definition
+
+Define the functor
+
+$$  
+  CC : sSet \times cdgAlg \to cdgAlg
+$$
+
+by 
+
+$$
+  CC(S,A) := Tot C^\bullt(S \cdot A) 
+  \,.
+$$
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+We have 
+
+$$
+  CC(Y,A)^n := \bigoplus_{k \geq 0} (A^{\otimes_k |Y_k| })_{n+k}
+$$
+
+=--
+
+This appears essentially (...) as ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)).
 
 
 +-- {: .un_prop}
@@ -810,60 +839,18 @@ The [[(∞,1)-limit|(∞,1)-copowering]] of $(dgcAlg_k)^\circ$ over [[∞Grpd]] 
 =--
 
 
-+-- {: .proof}
-###### Proof
-
 This follows from ([GinotTradlerZeinalian, theorem 4.2.7](#GinotTradlerZeinalian)), which asserts that the [[derived functor]] of this tensoring is the unique [[(∞,1)-functor]], up to equivalence, satisfying the axioms of $(\infty,1)$-copowering.
 
-> here is something that is almost an alternative proof, to be polished or to be discarded
 
-Pass to the [[Quillen equivalence|Quillen equivalent]] [[simplicial model category]] $[\Delta^{op}, dgcAlg_k]$ whose weak equivalences are those morphisms that become weak equivalences in $dgcAlg_k$ under [[homotopy colimit]] over $\Delta^{op}$ (described at [[simplicial model category]]). In that structure $(\infty,1)$-copowering is modeled by the [[derived functor]] of the ordinary copowering (as discussed at [[(∞,1)-colimit|(∞,1)-copowering]]). 
-
-Along the line of the rectification theorems at [[model structure on algebras over an operad]] we shouldd have that the model structure on the [[category of monoids|model structure on commutative monoids]] $dgCAlg_k = CMon(Ch_\bullet(k))$ [[presentable (∞,1)-category|presents]] the [[(∞,1)-category]] of [[commutative monoids in a symmetric monoidal (∞,1)-category]].
-
-As described there, $(\infty,1)$-colimits of such commutative monoids over [[sifted (∞,1)-categories]] are computed in the underlying symmetric monoidal $(\infty,1)$-category.
-
-By a result discussed at [[sifted (∞,1)-category]] the opposite of the [[simplex category]] is a sifted $(\infty,1)$-category.
-
-So finally we have that the homotopy colimit over simplicial cdg-algebras is computed in the model structure of the underlying chain complexes.
-
-=--
-
-+-- {: .un_prop}
-###### Observation
-
-This 1-categorical copowering of the chain complexes underlying a dgc-algebra is what is described in ([GinotTradlerZeinalian, def 3.1.1](#GinotTradlerZeinalian)):
-
-(...)
-
-
-=--
-
-+-- {: .un_prop}
-###### Corollary
-
-
-This 1-categorical [[copowering]] model of the $(\infty,1)$-categorical copowering preserves [[homotopy colimit]]s of simplicial sets.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-Given all of the above, this is ([GinotTradlerZeinalian, theorem 4.2.2 (3)](#GinotTradlerZeinalian)) .
-
-
-=--
 
 
 +-- {: .un_prop}
 ###### Proposition
 
-The copowering
+The functor
 
 $$
-  sSet \times cdgAlg_k \to cdgAlg_k
+  CC : sSet \times cdgAlg_k \to cdgAlg_k
 $$
 
 preserves weak equivalences in both arguments.
@@ -876,7 +863,10 @@ This is essentially due to ([Piashvili](#Pirashvili)). The full statement is ([G
 +-- {: .un_remark}
 ###### Remark
 
-This means that the assumption of section [Pirashvili's higher Hochschild homology](#PirashviliHigherOrder) is satisfied, and that we may compute higher order Hochschild homology in $\mathbf{H}$ by copowering in $cdgAlg$ over $sSet$.
+This means that the assumption for the copowering models of higher order [[Hochschild cohomology]] are satsified in $cdgAlg_k$ which are described in the section <a href="http://nlab.mathforge.org/nlab/show/Hochschild+cohomology#PirashviliHigherOrder">Pirashvili's higher Hochschild homology</a> is satisfied:
+
+this means that for $A \in cdgAlg$ and $S \in sSet$, $CC(S,A)$ is a model for the function $\infty$-algebra on the [[free loop space object]] of $Spec A$. See the section <a href="http://nlab.mathforge.org/nlab/show/Hochschild+cohomology#OvercdgAlgs">Higher order Hochschild homology modeled on cdg-algebras</a> for more details.
+
 
 =--
 
