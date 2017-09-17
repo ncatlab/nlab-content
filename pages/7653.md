@@ -1663,14 +1663,13 @@ This universal coefficient bundle controls the [[Freed-Witten anomaly cancellati
 
 
 
-#### The $B$-field on D-branes: twisted K-theory
+#### Twisted differential $Spin^c$-structure: Freed-Witten mechanism
  {#BFieldInK}
 
 We discuss aspects of the twisted smooth cohomology involved
 over [[D-branes]] in [[type II string theory]]: the [[Freed-Witten anomaly cancellation]] mechanism in terms of [[twisted K-theory]].
 
 
-#### Twisted unitary bundles
 
 For each $n$, the [[central extension]] of Lie groups
 
@@ -1856,7 +1855,32 @@ $$
 
 
 
-#### The supergravity $C$-field: flux quantization
+
+#### Twisted differential String-structure -- Green-Schwarz mechanism
+ {#TwistedStringStructure}
+
+
+The moduli 2-stack of anomaly-free heterotic string configurations (bosonic, massless) is
+
+$$
+  \array{
+    String^{\mathbf{a}} &\to& \mathbf{B} E_8 \times E_8_{conn}
+    \\
+    \downarrow &\swArrow& \downarrow^{2\hat \mathbf{a}}
+    \\
+    \mathbf{B} Spin_{conn} &\stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}&
+    \mathbf{B}^3 U(1)_{conn}
+  }
+$$
+
+(...)
+
+#### Twisted differential Fivebrane structure -- dual Green-Schwarz mechanism
+
+(...)
+
+
+#### Twisted differential $String^{\mathbf{c}_2}$-structure: M-theory flux quantization
  {#SuGraFluxQuantization}
 
 
@@ -1930,30 +1954,6 @@ $$
   }
 $$
 
-
-
-#### Twisted differential String-structure -- Green-Schwarz mechanism
- {#TwistedStringStructure}
-
-
-The moduli 2-stack of anomaly-free heterotic string configurations (bosonic, massless) is
-
-$$
-  \array{
-    String^{\mathbf{a}} &\to& \mathbf{B} E_8 \times E_8_{conn}
-    \\
-    \downarrow &\swArrow& \downarrow^{2\hat \mathbf{a}}
-    \\
-    \mathbf{B} Spin_{conn} &\stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}&
-    \mathbf{B}^3 U(1)_{conn}
-  }
-$$
-
-(...)
-
-#### Twisted differential Fivebrane structure -- dual Green-Schwarz mechanism
-
-(...)
 
 
 ### **IV)** Higher orientifold structure 
