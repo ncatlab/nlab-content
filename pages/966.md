@@ -1,14 +1,15 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -54,7 +55,7 @@ $$
 
 It is easy to check that these would be the unit and counit of an [[adjunction]] $L\dashv R$.
 
-The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] as well as internally in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
+The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a classical theorem of Freyd says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] and also holds classically in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily an **adjoint functor theorem for preorders**: 
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -62,6 +63,8 @@ The problem with this would-be argument is that in general the comma category $(
 If $G:D\to C$ is any functor between (small) preorders such that $D$ has, and $G$ preserves, all small [[meet]]s, then $G$ has a left adjoint.
 
 =--
+
+(This theorem holds in [[constructive mathematics]], although not in [[predicative mathematics]]; the classical reasoning before this explains why the theorem is not more general, but the proof itself is already constructive.)
 
 To obtain adjoint functor theorems for categories that are not preorders, one must therefore impose various additional "size conditions" on the category $D$ and/or the functor $G$.  
 
