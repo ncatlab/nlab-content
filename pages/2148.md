@@ -45,5 +45,51 @@ that no spectrum need be involved, but only a single target space, preferably at
 Also in 1972 Robinson constructed Moore--[[Postnikov system]]s for non-simple fibrations. In particular, he
 provided twisted $K(\pi,n)$s corresponding to cohomology with local coefficients.
 
+##Comments## 
+
+It is useful to show that  the work of Reidemeister was extended in another way by J.H.C. Whitehead in his paper [CHII] referenced below. Graham Ellis writes in his paper (E) as follows: 
+
+.... J.H.C. Whitehead showed in
+(CHII)  that, for connected $CW$-complexes $X, Y$ with
+dim $X \leq n$ and $\pi_i Y = 0$ for $2\leq i \leq  n - 1$, the
+homotopy classification of maps $X \to  Y$ can be reduced to a
+purely algebraic problem of classifying, up to an appropriate
+notion of homotopy, the $\p1$-equivariant chain homomorphisms $C_*
+\widetilde{X} \to  C_* \widetilde{Y}$ between the cellular chain complexes of the
+universal  covers. The classification of homotopy equivalences $Y
+\simeq Y$ can similarly be reduced to a purely algebraic problem.
+Moreover, the algebra of the cellular chains of the universal
+covers closely reflects the topology, and provides pleasant and
+interesting exercises.
+
+These results ought to be a standard piece of elementary algebraic
+topology. Yet, perhaps because of the somewhat esoteric exposition given in (CHII), and perhaps because of a lack of
+worked examples, they have remained largely ignored. The purpose
+of the present paper is to rectify this situation.  We shall show
+the utility of Whitehead's results by using them to give new and
+clearer treatments of various known classifications.
+
+In fact this work includes that of Olum referenced above. 
+
+(End of quote)
+
+Whitehead introduced what he called _homotopy systems_ which we now call free, reduced [[crossed complex]]es, and these were a major tool in his work. He related these to chain complexes with a group of operators, and, for CW-complexes, to the chains of the universal cover. 
+
+However Whitehead remarks that the homotopy systems have better realisation properties than the chain complexes with operators, and this we can now see is reflected in the classifying space $BC$ of a crossed complex $C$ defined in (BH). By choosing the crossed complex $C$ to be a group $G$ in dimension 1 and a $G$-module $A$ in dimension $n$ we easily get the classifying space for local coefficients defined by various authors. This is discussed in more generality in Section 7 of (BH). 
+ 
+##References##
+
+* (E) Ellis, G.J. Homotopy classification the J.H.C. Whitehead way.
+_Exposition. Math._ 6 (1988) 97--110.
+
+
+* (BH) Brown, R. and Higgins, P.J.
+The classifying space of a crossed complex.
+_Math. Proc. Cambridge Philos. Soc._ 110 (1991)
+  95--120.
+
+* (CHII) Whitehead, J. H.C.
+Combinatorial homotopy. II.
+_Bull. Amer. Math. Soc._ 55 (1949) 453--496.
 
 [[!redirects History of cohomology with local coefficients]]
