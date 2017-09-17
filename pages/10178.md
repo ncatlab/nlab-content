@@ -3915,6 +3915,7 @@ A proposal to axiomatize [[perturbative field theory|perturbative]] [[prequantum
 * [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239), [pdf slides](http://users.uoa.gr/~iandroul/GAP%202012%20WEBPAGE/GAP2012_Cattaneo.pdf))
  {#CattaneoMnevReshetikhin12}
 
+* [[Damien Calaque]], _Lagrangian structures on mapping stacks and semi-classical TFTs_ ([arXiv:1306.3235](http://arxiv.org/abs/1306.3235))
 
 ### On aspects of quantization
  {#ReferencesOnAspectsOfQuantization}
