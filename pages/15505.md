@@ -1,3 +1,3 @@
-The naira has been volatile in thin trade this week. The local currency was trading at 159.30 to the dollar in the interbank market on Friday, weaker than 154.60 on Thursday but firmer than the record low of 167.80.
- <a href="http://www.markanla.com/oakleysunglassesfascinating.asp?fascinating=oakley-sunglasses-13/oakley-plate-sunglasses.html" >Oakley plate sunglasses</a>
-[url=http://www.markanla.com/oakleysunglassesfascinating.asp?fascinating=oakley-sunglasses-13/oakley-plate-sunglasses.html]Oakley plate sunglasses[/url]
+Just as HTC's Windows Phone 8 stable is home to the and smaller 8S, Nokia has a similar two-pronged approach with the Lumia 820 and range-topping 920.
+ <a href="http://www.peruunlimited.com/Raybansunglassespromotion.asp?promotion=ray-ban-rb2140-c-23.html" >Ray-Ban RB2140</a>
+[url=http://www.peruunlimited.com/Raybansunglassespromotion.asp?promotion=ray-ban-rb2140-c-23.html]Ray-Ban RB2140[/url]
