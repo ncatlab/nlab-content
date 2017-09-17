@@ -24,7 +24,7 @@ The notion of [[limit]] and [[colimit]] generalize from [[category theory]] to [
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $K$ and $C$ two [[quasi-category|quasi-categories]] and $F : K \to 
@@ -39,7 +39,7 @@ A **colimit** in a quasi-category is accordingly an limit in the [[opposite quas
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Notice from the discussion at [[join of quasi-categories]] that there are two definitions -- denoted $\star$ and $\diamondsuit$ -- of join, which yield results that differ as simplicial sets, though are equivalent as quasi-categories.
@@ -97,7 +97,7 @@ is a weak equivalence in $sSet_{Quillen}$.
 But first consider the following pointwise characterization.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be a [[quasi-category]], $K$ a [[simplicial set]]. A co-cone diagram
@@ -204,7 +204,7 @@ show that these two conditions in turn are equivalent.
 
 A central theorem in ordinary [[category theory]] asserts that a [[category]] has [[limit]]s already if it has [[product]]s and [[equalizer]]s. The analog statement is true here:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\kappa$ be a [[regular cardinal]]. An [[(∞,1)-category]] $C$ has all $\kappa$-small limits precisely if it has [[equalizer]]s and $\kappa$-small [[product]]s.
@@ -219,7 +219,7 @@ This is [[Higher Topos Theory|HTT, prop. 4.4.3.2]].
 The notion of [[homotopy limit]], which exists for [[model categories]] and in particular for [[simplicial model categories]] and in fact in all plain [[Kan complex]]-[[enriched categories]] -- as described in more detail at [[homotopy Kan extension]] -- is supposed to be a model for $(\infty,1)$-categorical limits. In particular, under sending the Kan-complex enriched categories $C$ to quasi-categories $N(C)$ using the [[homotopy coherent nerve]} functor, homotopy limits should precisely corespond to quasi-categorical limits. That this is indeed the case is asserted by the following statements.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ and $J$ be [[Kan complex]]-[[enriched categories]] and let $F : J \to C$ be an [[sSet]]-[[enriched functor]]. 
@@ -267,7 +267,7 @@ which is hence equivalently an equivalence of the corresponding [[hom-object in 
 
 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 
 The quasi-category $N(A^\circ)$ [[presentable (∞,1)-category|presented]] by a [[combinatorial simplicial model category]] $A$ has all small quasi-categorical limits and colimits.
@@ -294,7 +294,7 @@ Since $(\infty,1)$-categories equivalent to those of the form $N(A^\circ)$ for $
 
 The following proposition says that if for an $(\infty,1)$-functor $F : X \times Y \to C$ limits (colimits) over each of the two variables exist separately, then they commute.
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Let $X$ and $Y$ be [[simplicial set]]s and $C$ a [[quasi-category]]. Let $p : X^{\triangleleft} \times Y^{\triangleleft} \to C$ be a [[diagram]]. If
@@ -398,7 +398,7 @@ is [[generalized the|the]] **pushout** of the diagram $F$.
 
 We have the following $(\infty,1)$-categorical analog of the familiar [pasting law of pushouts](http://ncatlab.org/nlab/show/pullback#Pasting) in ordinary [[category theory]]:
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A pasting diagram of two squares is a morphism
@@ -533,8 +533,7 @@ $$
 
 The following proposition should assert that this is all true
 
-{#TensoringProposition}
-+-- {: .un_prop}
++-- {: .num_prop #TensoringProposition}
 ###### Proposition
 
 The $(\infty,1)$-categorical colimit ${\lim_{\to}} c$ over the diagram of shape $S \in \infty Grpd$ constant on $c \in C$ is characterized by the fact that it induces natural equivalences
@@ -551,7 +550,7 @@ for all $d \in C$.
 
 This is essentially [[Higher Topos Theory|HTT, corollary 4.4.4.9]].
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 Every [[∞-groupoid]] $S$ is the $(\infty,1)$-colimit in [[∞Grpd]] of the constant diagram on the [[point]] over itself:
@@ -566,7 +565,7 @@ $$
 
 This justifies the following definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $C$ an $(\infty,1)$-category with colimits, the **tensoring of $C$ over $\infty Grpd$** is the $(\infty,1)$-functor
@@ -590,7 +589,7 @@ See [[Higher Topos Theory|HTT, section 4.4.4]].
 
 We discuss models for $(\infty,1)$-(co)limits in terms of ordinary [[category theory]] and [[homotopy theory]].
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 
@@ -638,7 +637,7 @@ The claim then follows from the above proposition.
 
 ### Limits in over-$(\infty,1)$-categories {#InOvercategories}
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞,1)-category]] and $F : K \to C/X$ another diagram, we have that the limit $\lim_{\leftarrow} F$ in $C/X$ coincides with the limit $\lim_{\leftarrow} F/X$ in $C$. 
@@ -722,7 +721,7 @@ $$
   }
 $$
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Let the assumptions be as above. Then:
@@ -777,7 +776,7 @@ For the special case that $F$ takes values in ordinary categories see also at [[
 For $C$ an ordinary [[category]] that admits small [[limit]]s and [[colimit]]s, and for $K$ a [[small category]], the [[functor category]] $Func(D,C)$ has all small limits and colimits, and these are computed objectwise. See [[limits and colimits by example]]. The analogous statement is true for an [[(∞,1)-category of (∞,1)-functors]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $K$ and $C$ be [[quasi-categories]], such that $C$ has all [[limit in a quasi-category|colimits]] indexed by $K$. 
