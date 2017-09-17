@@ -107,7 +107,7 @@ We now have the [[spectral sequence of a filtered stable homotopy type]].
 
 Let $\mathcal{C}$ be a [[stable (∞,1)-category]] and let $\pi_\bullet:\mathcal{C}\to\mathcal{A}$ be a homological functor where $\mathcal{A}$ is an [[abelian category]]. 
 
-If $\mathcal{C}$ has [[sequential limits]], if  $X_n \simeq 0$ for all $n \lt n_0$, and if some Mittag-Leffler condition holds, then the [[spectral sequence]] in $\mathcal{A}$ induced by the [[exact couple]]
+If $\mathcal{C}$ has [[sequential limits]], if  $X_n \simeq 0$ for all $n \lt n_0$, and if some [[Mittag-Leffler condition]] holds, then the [[spectral sequence]] in $\mathcal{A}$ induced by the [[exact couple]]
 of def. \ref{ExactCoupleForFilteredObject} converges to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filted object:
 
 $$
