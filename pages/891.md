@@ -46,6 +46,8 @@ For instance an [[action groupoid]] is a quotient of a group action in 2-categor
 
 ## Related concepts
 
+* [[fraction]]
+
 * [[subquotient]]
 
 * [[quotient space]], [[geometric invariant theory]]
