@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Type theory
++--{: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -60,11 +75,14 @@ $M(\sigma)(a)$ is defined if and only if all the equations in $Def(\sigma)$ are 
 
 Homomorphisms of models $\theta: M \to M'$ are defined in the standard way: a collection of functions $\theta(s): M(s) \to M'(s)$ for each sort of the signature $\Sigma$ which are compatible with the $M(\sigma), M'(\sigma)$ in the evident way. 
 
+
+## Properties
+
 The point is that (in the finitary case) either notion of theory may be used to specify the same category of models, and that 
 
 +-- {: .standout}
 
-Categories of models of finitary essentially algebraic theories are precisely equivalent to [[locally presentable category|locally finitely presentable categories]]. These are equivalent to categories of models of finite limit sketches. 
+Categories of models of finitary essentially algebraic theories are precisely equivalent to [[locally presentable category|locally finitely presentable categories]]. These are equivalent to categories of models of finite limit [[sketch]]es. 
 
 =--
 
