@@ -122,6 +122,8 @@ The abelian higher dimensional Chern-Simons theories in dimension $4k+3$ are the
 
 (...)
 
+See ([FRS, 4.1.4](#FRS)).
+
 ### Examples
 
 Higher dimensional abelian Chern-Simons theories appear automatically as components of systems of higher [[supergravity]], for instance in [[11-dimensional supergravity]] (they are automatically induced by the requirement of  [[local supersymmetry]] in these higher dimensional supergravity theories).
@@ -240,7 +242,16 @@ An introduction and survey is in
 
 * B. Broda, _Higher-dimensional Chern-Simons theory and link invariants_ Physics Letters B Volume 280, Issues 3-4, 30 (1992) Pages 213-218 
 
+### Formulation in $\infty$-Chern-Simons theory
 
+Section 4.1.4 of
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
+ {#FRS}
+
+Section 4.4 of 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects higher Chern-Simons theory]]
 [[!redirects higher Chern-Simons theories]]
