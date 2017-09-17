@@ -777,3 +777,6 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 [[!redirects Mayer-Vietoris sequence]]
 [[!redirects Mayer-Vietoris sequences]]
+
+[[!redirects homotopy exact sequence]]
+[[!redirects homotopy exact sequences]]
