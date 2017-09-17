@@ -249,3 +249,4 @@ The 1-categorical notion is discussed in
 
 
 [[!redirects local (infinity,1)-topos]]
+[[!redirects local (infinity,1)-toposes]]
