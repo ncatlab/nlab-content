@@ -85,6 +85,8 @@
 
   * [[perturbative quantum field theory]]
 
+  * [[effective quantum field theory]]
+
   * Axiomatizations
 
     * [[AQFT|algebraic QFT]]
