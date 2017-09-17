@@ -82,4 +82,8 @@ The notion of [[elegant Reedy category]], introduced by [[Julie Bergner]] and [[
 
 There is also a generalization of the notion of Reedy category to the context of [[enriched category theory]]: this is an [[enriched Reedy category]].
 
+## References
+
+See the references at _[[Reedy model structure]]_
+
 [[!redirects Reedy categories]]
