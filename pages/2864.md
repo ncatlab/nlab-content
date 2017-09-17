@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include model category theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
 
 According to definition 1.21 and remark 1.23 in
 
