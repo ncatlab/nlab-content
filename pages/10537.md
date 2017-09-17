@@ -81,9 +81,10 @@ $$
 $$
 
 ### Formal moduli problems/ strong homotopy Lie algebras
+ {#FormalModuliProblems}
 
-[[synthetic differential ∞-groupoids]] are cohesive over
-[[formal moduli problems]]/[[L-∞ algebras]] which in turn are infinitesimally cohesive over [[geometrically discrete ∞-groupoids]].
+[[synthetic differential ∞-groupoids]] are cohesive over generalized
+[[formal moduli problems]]/[[L-∞ algebras]] (generalized meaning without the condition of vanishing on the point and of without the condition of being [[cohesive (∞,1)-presheaf on E-∞ rings|infinitesimally cohesive sheaves in Lurie's sense]]) which in turn are infinitesimally cohesive over [[geometrically discrete ∞-groupoids]].
 
 $$
   \array{
@@ -105,6 +106,7 @@ $$
   }
 $$
 
+See also at _[[differential cohesion and adelic structure]]_.
 
 ### Goodwillie-tangent cohesion
 
