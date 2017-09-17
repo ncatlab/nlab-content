@@ -664,27 +664,7 @@ $$
 
 A central aspect of our development is that we shall understand [[connection on a bundle|connections]] and [[differential cohomology|differential cocycles]] in terms of the [[parallel transport]] along paths and higher dimensional paths that that they induce. The concept of an [[∞-connected (∞,1)-topos]] that we shall eventually adopt as the general abstract context for differential cohomology is precisely one where there is an [[schreiber:path ∞-groupoid|intrinsic notion of paths]] in generalized spaces.
 
-In the following subsections we describe the concept of a smooth [[path groupoid]] $P_1(X)$ of a [[smooth manifold]] $X$ and more generally of a smooth [[path n-groupoid]] $P_n(X)$ for low $n \in \mathbb{N}$, and how smooth functors $P_n(X) \to A$ out of these encode [[differential form]]s and [[connection on a bundle|connections]] on [[principal bundle]]s, [[vector bundle]]s and (abelian and nonabelian) [[gerbe]]s in terms of their [[nLab:parallel transport]] along curves and surfaces.
-
-The idea of these constructions was first described in 
-
-* [[John Baez]], [[Urs Schreiber|U.S.]], _Higher Gauge Theory_ ,in _Categories in Algebra, Geometry and Mathematical Physics_ , eds. A. Davydov et al, Contemp. Math. 431, AMS, Providence, Rhode Island, 2007, pp. 7-30 ([arXiv:math/0511710](http://arxiv.org/abs/math/0511710))
-
-refining and generalizing older ideas and results in the literature, as recounted at <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#HistConnAsParTrans">References -- Connections -- In terms of parallel transport</a>.
-
-A detailed account of the description of ordnary bundles with connection in the style that prepares the ground for our developments here is in 
-
-* [[Urs Schreiber|U. S.]] [[nLab:Konrad Waldorf]], _Parallel transport and functors_ ([arXiv](http://arxiv.org/abs/0705.0452)) J. Homotopy Relat. Struct. 4, 187-244 (2009) .
-
-A detailed account of the description of (abelian and nonabelian) [[nLab:gerbe]]s/[[nLab:bundle gerbe]]s/[[nLab:principal 2-bundle]]s in the style that we shall generalize to an $(\infty,1)$-topos theoretical context here is in
-
-* [[Urs Schreiber|U.S.]], [[nLab:Konrad Waldorf]], 
-
-  _Smooth Functors vs. Differential Forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
-
-  _Connections on nonabelian gerbes and their holonomy_ ([arXiv:0808.1923](http://arxiv.org/abs/0808.1923)).
-
-These low-categorical developments constitute the archetype for all of the [[nLab:(∞,1)-category]] theoretic develoments that are described [below](#Cohomolohy) and ought to provide the necessary intuition for what our abstract [[nLab:higher category theory|higher category theoretic]] machniery achieves, but from categorical dimension 3 on the direct description in terms of [[nLab:algebraic definition of higher categories|algebraic models]] such as the [[nLab:bicategories]] used there becomes increasingly unwieldy, and a description in terms of abstract [[nLab:higher category theory]] and realizations in terms of [[nLab:geometric definition of higher categories|geometric models for higher categories]] is called for. 
+In the following subsections we describe the concept of a smooth [[path groupoid]] $\mathbf{P}_1(X)$ of a [[smooth manifold]] $X$ and more generally of a smooth [[path n-groupoid]] $P_n(X)$ for low $n \in \mathbb{N}$, and how smooth functors $P_n(X) \to A$ out of these encode [[differential form]]s and [[connection on a bundle|connections]] on [[principal bundle]]s, [[vector bundle]]s and (abelian and nonabelian) [[gerbe]]s in terms of their [[nLab:parallel transport]] along curves and surfaces.
 
 
 #### Connections on a principal bundle {#ConnectionOnPrincipalBundle}
@@ -1955,6 +1935,26 @@ The [[universal principal ∞-bundle|universal principal 2-bundle]] $\mathbf{E}G
 
 * [[David Roberts]], [[Urs Schreiber]], _The inner automorphism 3-group of a strict 2-group_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#RobertsSchreiber">web</a>).
 {#RobertsSchreiber}
+
+For more see [[principal 2-bundle]].
+
+The ide of describing connections on principal 1- and 2-bundles in terms of parallel transport 1- and 2-functors appears in
+
+* [[Johnn Baez]], U. S. _Higher gauge theory_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#BaezSchreiber">web</a>)
+{#BaezSchreiber}
+
+A detailed account of the description of ordnary bundles with connection in the style that prepares the ground for our developments here is in 
+
+* U. S., [[Konrad Waldorf]], _Parallal transport and functors_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SWI">web</a>)
+
+A detailed account of the description of (abelian and nonabelian) [[gerbe]]s/[[bundle gerbe]]s/[[principal 2-bundle]]s in the style that we shall generalize to an $(\infty,1)$-topos theoretical context here is in
+
+* U. S., [[Konrad Waldorf]]
+
+  1. _Smooth functors versus differential forms_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+
+  1. _Connections on nonabelian gerbes and their holonomy_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SchrWalII+III">web</a>)
+{#SW}
 
 The Yoga of $\infty$-Lie algebra valued connections and the $\infty$-Chern-Weil homomorphism in local data is from 
 
