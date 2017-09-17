@@ -142,7 +142,7 @@ The notion of [[product type]] formalizes the [[logic]] of [[conjunction]] (logi
 
 (...)
 
-### Implication and and function types
+### Implication and function types
 
 (...)
 
@@ -178,3 +178,13 @@ A good account is at
 
 * Wikipedia, _[Natural deduction](http://en.wikipedia.org/wiki/Natural_deduction#Introduction_and_elimination)_
 
+
+[[!redirects type formation rule]]
+[[!redirects term introduction rule]]
+[[!redirects term elimination rule]]
+[[!redirects computation rule]]
+
+[[!redirects type formation rules]]
+[[!redirects term introduction rules]]
+[[!redirects term elimination rules]]
+[[!redirects computation rules]]
