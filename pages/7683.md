@@ -24,7 +24,7 @@ _Cartier [[duality]]_ is a refinement of [[Pontryagin duality]] form [[topologic
 ###### Definition
 
 
-Let $G$ be a finite [[group scheme]] over $k$, regarded as a
+Let $G$ be a [[finite group scheme]] over $k$, regarded as a
 [[sheaf]] of groups $G \in Sh(Ring^{op}_k)$. Write $\mathbb{G}_m$ for the [[multiplicative group]], similarly regarded. 
 
 Then the _Cartier dual_ $\widehat G$ is the [[internal hom]]
@@ -72,3 +72,6 @@ A textbook account is in section 10.1 of
 lecture notes include
 
 * [pdf](http://www.math.ethz.ch/~pink/ftp/FGS/Lecture11.pdf)
+
+[[!redirects Cartier dual]]
+[[!redirects Cartier duals]]
