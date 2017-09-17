@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -126,7 +137,7 @@ This functor $\mathbb{Z}$ has the following properties:
 
 ### As $\infty$-groups
 
-Simplicial groups are models for [[∞-group]]s. For details see
+Simplicial groups are models for [[∞-group]]s. This is exhibited by the [[model strructure on simplicial grups]]. See also
 <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">models for group objects in ∞Grpd</a>.
 
 ### Equivalence to connected $\infty$-groupoids
