@@ -1,0 +1,3 @@
+A __linear algebraic group__ $G$ is any algebraic subgroup of $GL(n,k)$ where $k$ is a field.
+
+* [[Armand Borel]], _Linear algebraic groups_, Springer
