@@ -52,6 +52,13 @@
 
 ## producing new model structures
 
+
+* [[global model structures on functor categories|on functor categories (global)]]
+
+  * [[Reedy model structure]]
+
+* [[model structure on an overcategory|on overcategories]]
+
 * [[Bousfield localization of model categories|Bousfield localization]]
 
 * [[transferred model structure]] 
@@ -69,15 +76,6 @@
 * [[presentable (∞,1)-category]]
 
 ## model structures ##
-
-* [[model structure on an overcategory]]
-
-* [[global model structures on functor categories|on functor categories (global)]]
-
-  * [[Reedy model structure]]
-
-
-
 
 ### for $\infty$-groupoids
 
