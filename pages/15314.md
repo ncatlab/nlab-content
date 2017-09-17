@@ -38,7 +38,6 @@ The universal version of this is the Deligne bundle on $\mathbb{G}_m \times \mat
 Review in the general context of [[Deligne cohomology]] is in 
 
 * {#EsnaultViehweg88} [[Hélène Esnault]], [[Eckart Viehweg]], p.5 of _Deligne-Beilinson cohomology_ in Rapoport, Schappacher, Schneider (eds.) _Beilinson's Conjectures on Special Values of L-Functions_ . Perspectives in Math. 4, Academic Press (1988) 43 - 91 ([pdf](http://www.uni-due.de/~mat903/preprints/ec/deligne_beilinson.pdf))
-Review in the context of [[holomorphic line 2-bundles]] is in 
 
 Review in the context of [[holomorphic line 2-bundles]] and [[Chern-Simons line 3-bundles]] is in
 
