@@ -113,3 +113,5 @@ and a discussion of the converse, that every rarional 2-d CT is obtained this wa
 [[!redirects FFRS-formalism]]
 [[!redirects FFRS-formalism]]
 
+[[!redirects FRS-formalism]]
+
