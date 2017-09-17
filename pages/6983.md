@@ -9,19 +9,21 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc} 
-
+{: toc} 
 
 ## Idea
 
 In [[type theory]] the _unit type_ is the [[type]] with a unique [[term]].
 
-In a [[model]] by [[categorical semantics]] the unit type maps to a [[terminal object]].
+In a [[model]] by [[categorical semantics]], this is a [[terminal object]]. In [[set theory]], it is a [[singleton]].
+
 
 ## Related concepts
 
-* [[bottom type]]
+* [[empty type]]
 
+
+[[!redirects unit type]]
 [[!redirects unit types]]
