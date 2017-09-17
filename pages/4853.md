@@ -38,33 +38,34 @@ Links can be studied in a number of ways depending on the notion of equivalence 
 
 ### Trivial links
 
-Any [[knot]] is a link, and any [[disjoint union]] of [[unknot]]s is a link.  We may call these 'trivial' (hopefully this name isn\'t standard for something different), in the sense of what you would know about before you study links.
+Any [[knot]] is a link, and any [[disjoint union]] of [[unknot]]s (called an __unlink__) is a link.  We may call these 'trivial' (hopefully this name isn\'t standard for something different), in the sense of what you would know about before you study links.
 
 
 ### The Hopf Link
 
-This is the simplest non-trivial (in the sense above) link, consisting of two components linked once.
+The [[Hopf link]] is the simplest non-trivial (in the sense above) link, consisting of two components linked once.
 
 [[!include Hopf link - SVG]]
 
+
 ### The Borromean Link
 
-It is possible to link together $n$ circles in such a way that removing any one makes the others fall apart.  For $n = 2$, we have the Hopf link above; for $n = 3$, we have the Borromean link, or Borromean Rings.
+It is possible to link together $n$ circles in such a way that removing any one makes the others fall apart.  For $n = 2$, we have the Hopf link above; for $n = 3$, we have the [[Borromean link]], or Borromean Rings.
 
 [[!include Borromean link - SVG]]
 
 
 ### The Whitehead Link
 
-This is an example of a link that shows the difference between the two notions of equivalence.  If the links are only allowed to move by isotopies, then the two components are linked.  However, if a link is allowed to pass through itself, then they can be unlinked.
-
+The [[Whitehead link]] is an example of a link that shows the difference between the two notions of equivalence.  If the links are only allowed to move by isotopies, then the two components are linked.  However, if a link is allowed to pass through itself, then they can be unlinked.
 
 [[!include Whitehead link - SVG]]
 
 
 ### Brunnian links
 
-A _Brunnian link_ is a non-trivial link which has the property that the removal of any of its components results in an unlink.  Technically, this includes the Hopf link and any knot (thanks to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link) for settling that issue). The Borromean rings above are an example of a Brunnian link with three components.
+A __Brunnian link__ is a link which is not an unlink but which has the property that the removal of any of its components results in an unlink.  Technically, this includes the Hopf link and any knot (thanks to [this MO question](http://mathoverflow.net/questions/40724/is-the-hopf-link-a-brunnian-link) for settling that issue). The Borromean rings above are an example of a Brunnian link with three components.
+
 
 ## References
 
@@ -75,3 +76,6 @@ A _Brunnian link_ is a non-trivial link which has the property that the removal 
 [[!redirects links]]
 [[!redirects Link]]
 [[!redirects Links]]
+
+[[!redirects Brunnian link]]
+[[!redirects Brunnian links]]
