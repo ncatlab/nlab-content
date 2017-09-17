@@ -28,6 +28,17 @@ $$
 
 More generally, to every [[stable (infinity,1)-category]] $C$ is associated a [[K-theory]] _space_ which in good cases, such as when the category is presented by a [[Waldhausen category]] is the degree 0 piece of a corresponding [[algebraic K-theory]] spectrum. The detailed construction is known as the [[Waldhausen S-construction]].
 
+## Properties
+
+### As a localization of an $\infty$-group $\infty$-ring
+
+[[Snaith's theorem]] asserts that the [[K-theory spectrum]] for [[complex K-theory]] is the [[∞-group ∞-ring]] of the [[circle 2-group]] localized at the [[Bott element]] $\beta$:
+
+$$
+  KU \simeq \mathbb{S}[B U(1)][\beta^{-1}]
+  \,.
+$$
+
 ## Related concepts
 
 * [[Eilenberg-MacLane spectrum]]
