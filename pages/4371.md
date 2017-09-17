@@ -39,7 +39,7 @@ Classically, we have $L = L_{\neg\neg}$ if and only if $L$ is the [[discrete loc
 +-- {: .num_example}
 ###### Example
 
-Let $\mathcal{O}_X$ be the sheaf of continuous (or smooth, or holomorphic, or regular) functions on a topological space (or manifold, or complex manifold, or reduced scheme) $X$. Then the [[direct image|pushforward]] of the [[inverse image|pullback]] of $\mathcal{O}_X$ to the smallest dense sublocale of $X$ is the sheaf of rational functions on $X$ (i.e. sections over an open subset $U$ are given by sections of $\mathcal{O}_X$ defined on some dense open subset $V \subseteq U$).
+Let $\mathcal{O}_X$ be the sheaf of continuous (or smooth, or holomorphic, or regular) functions on a topological space (or manifold, or complex manifold, or reduced scheme) $X$. Then the [[direct image|pushforward]] of the [[inverse image|pullback]] of $\mathcal{O}_X$ to the smallest dense sublocale of $X$ is the sheaf of meromorphic functions on $X$ (i.e. sections over an open subset $U$ are given by sections of $\mathcal{O}_X$ defined on some dense open subset $V \subseteq U$).
 
 =--
 
