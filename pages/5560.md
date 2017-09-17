@@ -1,7 +1,7 @@
 A __pseudocompact ring__ is a complete Hausdorff
 [[topological ring]], $R$, which admits a base at $0$ of two-sided open ideals $I$ for each of which $R/I$ is an Artinian ring. Equivalently, it is a regular [[pro-object]] in Artinian rings. 
 
-More generally let $R$ be a commutative pseudocompact ring. A complete Hausdorff topological ring $\Lambda$ will be called a pseudocompact algebra over $R$ if
+More generally let $R$ be a commutative pseudocompact ring. A complete Hausdorff topological ring $\Lambda$ will be called a __pseudocompact algebra__ over $R$ if
 
 (i)  $\Lambda$ is an $R$ algebra in the usual sense, and 
 
