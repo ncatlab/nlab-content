@@ -1,9 +1,13 @@
 
-> under construction
+> still under construction: the first $~ 1/3 + {\vert\epsilon\vert} $ should be readable, the rest is still skeletal, check again tomorrow or the day after
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 #### String theory
 +-- {: .hide}
 [[!include string theory - contents]]
@@ -101,14 +105,14 @@ The following table lists examples of such coefficient bundles and tabulates the
 | | $\array{ F_{conn} &\to& E_{conn}  \\ && \downarrow^{\mathrlap{\hat \mathbf{c}}} \\ && \mathbf{B}G_{conn} }$ | $G$-[[connection on an infinity-bundle|connection]] | $G$-[[higher gauge field|gauge field]]  | [[section]] of $\rho$-[[associated infinity-bundle|associated]] $F$-bundle | twisted $\Omega F$-[[gauge field]]|
 | **[I)](#VielbeinFields)** [[reduction of structure group]]/[[G-structure|geometric structure]] | | | | | |
 | | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n) \\ && \downarrow \\ && \mathbf{B} GL(n) }$ | [[manifold]] structure / [[tangent bundle]] |  | [[vielbein]] | [[gravity]] |
-| | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n)_{conn} \\ && \downarrow \\ && \mathbf{B} GL(n)_{conn} }$ | [[affine connection]] |  | [[spin connection]] | [[gravity]] |
-| | $\array{ && \mathbf{B} U(d,d) \\ && \downarrow  \\ && \mathbf{B} O(2d,2d) }$ | [[generalized tangent bundle]] | | [[generalized complex geometry]] | [[generalized Calabi-Yau manifolds]] |
+| | $\array{ GL(n)/O(n) &\to& \mathbf{B} O(n)_{conn} \\ && \downarrow \\ && \mathbf{B} GL(n)_{conn} }$ | [[affine connection]] |   | [[spin connection]] | [[gravity]] |
+| | $\array{ O(2d,2d)/SU(d,d) &\to& \mathbf{B} SU(d,d) \\ && \downarrow  \\ && \mathbf{B} O(2d,2d) }$ | [[generalized tangent bundle]] | |  | [[generalized Calabi-Yau manifolds]] |
 | | $\array{ O(n)\backslash O(n,n)/O(n) &\to& \mathbf{B} O(n) \times O(n) \\ && \downarrow \\ && \mathbf{B} O(n,n) }$ | [[generalized  tangent bundle]] |  | [[type II geometry]] | DFT [[type II supergravity]] | 
 | | $\array{ SU(3)\backslash O(6,6) / SU(3) &\to& \mathbf{B} SU(3) \\ && \downarrow \\ && \mathbf{B} O(6,6) }$ | [[generalized tangent bundle]]  | | [[type II geometry]] | $d = 6$, $N=1$  [[type II supergravity]] [[Kaluza-Klein mechanism|comactifications]] | 
-| |  $\array{ && \mathbf{B} SU(7) \\ && \downarrow \\ && \mathbf{B}E_{7(7)} }$ | [[exceptional tangent bundle]] | |  | $d = 7$, $N=1$ [[11-dimensional supergravity|11d supergravity]] [[Kaluza-Klein mechanism|compactifications]] |
-| | $\array{ E_{n(n)}/H_n &\to& \mathbf{B}H_n \\ && \downarrow \\ && \mathbf{B}E_{n(n)} }$ | [[exceptional tangent bundle]]  |  | [[U-duality]] [[exceptional generalized geometry]] | [[Kaluza-Klein mechanism|compactified]] [[11-dimensional supergravity|11d supergravity]] field |
+| |  $\array{ E_{7(7)}/SU(7) &\to& \mathbf{B} SU(7) \\ && \downarrow \\ && \mathbf{B}E_{7(7)} }$ | [[exceptional tangent bundle]] | [[E7]]-[U-duality](supergravity#UDuality) moduli ([[split real form]]) |  | $d = 7$, $N=1$ [[11-dimensional supergravity|11d supergravity]] [[Kaluza-Klein mechanism|compactifications]] |
+| | $\array{ E_{n(n)}/H_n &\to& \mathbf{B}H_n \\ && \downarrow \\ && \mathbf{B}E_{n(n)} }$ | [[exceptional tangent bundle]]  | [U-duality](supergravity#UDuality) moduli | [[U-duality]] [[exceptional generalized geometry]] | [[Kaluza-Klein mechanism|compactification]] of [[11-dimensional supergravity|11d supergravity]] to $d = 11-n$ |
 | | $\array{ \mathbf{B} U &\to& \mathbf{B} P U \\ && \downarrow^{\mathbf{dd}} \\ && \mathbf{B}^2 U(1) }$ | [[circle n-bundle with connection|circle 2-bundle]]/$U(1)$-[[bundle gerbe]] | [[B-field]] | [[twisted bundle|twisted unitary bundle]] | [[Yang-Mills field]] |
-| | $\array{ && \mathbf{B} E_8 \\ && \downarrow^{\mathrlap{\mathbf{a}}} \\ && \mathbf{B}^3 U(1)} $ | [[circle n-bundle with connection|circle 3-bundle]] / [[bundle 2-gerbe]] | [[supergravity C-field]] |  | [[E8]]-[[gauge field]] |
+| | $\array{ \mathbf{B}String(E_8) &\to& \mathbf{B} E_8 \\ && \downarrow^{\mathrlap{\mathbf{a}}} \\ && \mathbf{B}^3 U(1)} $ | [[circle n-bundle with connection|circle 3-bundle]] / [[bundle 2-gerbe]] | [[supergravity C-field]] |  | [[twisted differential string structure|twisted String(E8)]]-2-form gauge field  |
 | **[II)](#SpinStringFivebraneStructures)** [higher spin structures](spin+structure#Higher) | | | | | |
 | | $\array{ \mathbf{B} Spin &\to& \mathbf{B} SO \\ && \downarrow^{\mathrlap{\mathbf{w}_2}} \\ && \mathbf{B}^2 \mathbb{Z}_2 }$ | [[second Stiefel-Whitney class]] | | [[twisted spin structure]] |  |
 | | $\array{ \mathbf{B}String &\to& \mathbf{B} Spin  \\ && \downarrow^{\mathrlap{\tfrac{1}{2}\mathbf{p}_1}} \\ && \mathbf{B}^3 U(1)  }$ | [[circle n-bundle with connection|circle 3-bundle]]/$U(1)$-[[bundle 2-gerbe]] |  [[NS5-brane]] [[magnetic charge]] |  [[twisted differential string structure|twisted smooth string structure]] |  |
@@ -578,12 +582,11 @@ $$
 $$
 
 
-#### Generalized vielbein fields: generalized complex and type II geometry
+#### Generalized vielbein fields: type II geometry, generalized CY and U-duality
 
-The above discussion of vielbein fields has straightforward generalizations to _[[generalized complex geometry]]_, _[[type II geometry]]_ and _[[exceptional generalized geometry]]_. 
+The above discussion of ordinary [[vielbein]] fields is just a special case of an analogous discussion for general [[reduction of structure groups]], giving rise to [[generalized vielbein]] fields. Many geometric structures in string theory arise in this way, as indicated in the [table of twists](#TableOfTwists).
 
-
-We discuss, in the above language, how a [[type II geometry]] is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
+As one more out of these examples, we discuss in the above language of twisted smooth cohomology how a _[[type II geometry]]_ of [[type II supergravity]] is the [[reduction of the structure group]] of the [[generalized tangent bundle]] along the inclusion $O(d) \times O(d) \to O(d,d)$.
 
 +-- {: .num_defn #InclusionForTypeIIGeometry}
 ###### Definition
@@ -845,24 +848,7 @@ given by the [[vielbein|ordinary vielbein]] $e$.
 =--
 
 
-#### Exceptional generalized geometry: U-duality geometry
 
-(...)
-
-$$
-  \array{
-     E_n/H_n &\to& \mathbf{B} H_n
-     \\
-     && \downarrow^{\mathrlap{}}
-     \\
-     && \mathbf{B} E_n
-  }
-$$
-
-
-[[exceptional generalized geometry]], [[U-duality]]
-
-(...)
 
 ### **II)** Spin-, String- and Fivebrane-structure
  {#SpinStringFivebraneStructures}
@@ -1018,16 +1004,19 @@ The [[universal property]] of [[homotopy pullbacks]] says that
 
 
 #### Necessity of smooth refinement
+ {#NecessityOfSmoothRefinement}
 
-The [[classifying space]] for, say, the [[spin group]] is _not_ a [[fine moduli space]]: while homotopy classes $Maps(X, B Spin)_\sim$ of maps $X \to B Spin$ are in bijection with equivalence classes of [[spin bundles]] on $X$, the homotopy classes $Maps(X, \Omega B Spin)_\sim = Maps(X, Spin)_\sim$ of [[homotopies]] from the trivial map $X \to * \to B Spin$ are _not_ in general in bijection with the [[gauge transformations]] of the trivial spin bundle: the latter form the set of [[smooth functions]] $C^\infty(X,Spin)$, not just the homotopy classes of these.
+The [[classifying space]] for, say, the [[spin group]] is _not_ a _[[fine moduli space]]_: while homotopy classes $Maps(X, B Spin)_\sim$ of maps $X \to B Spin$ are in bijection with equivalence classes of [[spin bundles]] on $X$, the homotopy classes $Maps(X, \Omega B Spin)_\sim = Maps(X, Spin)_\sim$ of [[homotopies]] from the trivial map $X \to * \to B Spin$ are _not_ in general in bijection with the [[gauge transformations]] of the trivial spin bundle: the latter form the set of [[smooth functions]] $C^\infty(X,Spin)$, not just the homotopy classes of these.
 
 Problems include for instance:
 
 * $Maps(X, B(-))_\sim$ does not give the right [[BRST-complex]];
 
-* $Maps(X, B(-))_\sim$ cannot distinguish a group from its [[maximal compact subgroup]], such as $O \hookrightarrow GL_n$, and hence cannot see [[vielbeins]], not [[generalized vielbeins]], not [[exceptional generalized geometry]];
+* $Maps(X, B(-))_\sim$ cannot distinguish a group from its [[maximal compact subgroup]], such as $O \hookrightarrow GL_n$, and hence cannot see [[vielbeins]], not [[generalized vielbeins]], not [[exceptional generalized geometry]]:
 
-* $Maps(X, B(-))_\sim$ cannot distinguish (over 10-dimensional spacetime $X$) an [[E8]]-[[gauge field]] from a [[NS5-brane]] [[magnetic charge]];
+  in terms of classifying spaces the entire discussion [of vielbein fields above](#VielbeinFields) would collapse;
+
+* higher analogs of this problem include for instance that $Maps(X, B(-))_\sim$ cannot distinguish over 10-dimensional spacetime $X$ an [[E8]]-[[gauge field]] from a [[NS5-brane]] [[magnetic charge]];
 
 * etc.
 
@@ -1599,13 +1588,10 @@ The following table indicates the hierarchy of [[axioms]] that we invoke, the fr
 
 ### Homotopy-type theory
 
-_[[homotopy type theory|Homotopy-type theory]]_ or _[[homotopy theory]]_ is effectively the [[logic]] of [[gauge transformations]]. 
 
-Traditionally a _[[homotopy type]]_ is a [[topological space]] regarded up to [[weak homotopy equivalence]]. This is very different from regarding it up to [[homeomorphism]] and instead views it as an [[∞-groupoid]]: its [[fundamental ∞-groupoid]]. This models [[homotopy]] and hence [[gauge transformations]], but does not yet model [[geometry]]. 
+Traditionally a _[[homotopy type]]_ is a [[topological space]] regarded up to [[weak homotopy equivalence]], hence equivalently an _[[∞-groupoid]]_. More generally, we think of parameterized homotopy types -- of _[[∞-stacks]]_ or _[[(∞,1)-sheaves]]_ -- as _geometric homotopy types_. The collection of such forms an _[[(∞,1)-topos]]_ $\mathbf{H}$. One regards [[(∞,1)-topos theory]] as part of [[homotopy theory]], and, more specifically, the [[internal language]] of $\mathbf{H}$ is a _[[homotopy type theory|homotopy-type theory]]_.
 
-More generally, there are _geometric homotopy types_, traditionally called [[∞-stacks]] or [[(∞,1)-sheaves]]. The [[categorical semantics|interpretation]] of [[homotopy type theory]] that these form is an _[[(∞,1)-topos]]_ $\mathbf{H}$. 
-
-
+We discuss now some basic structures that are expressible in such bare homotopy-type theory. (The fundamentals are due to [[Charles Rezk|Rezk]] and [[Jacob Lurie|Lurie]], see _[[Higher Topos Theory]]_. We point out the perspective of [[twisted cohomology]] in slices and add some aspects about higher bundle theory from ([NSS](#NSS))).
 
 
 #### Cohomology
@@ -1711,7 +1697,17 @@ The [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as fo
      }
    $$ 
 
-   is a [[section]] of the [[(∞,1)-pullback]] bundle $\phi^* E \to X$;
+   is equivalently a [[section]] of the [[(∞,1)-pullback]] bundle $\phi^* E \to X$;
+
+   $$
+     \array{  
+        & \phi^* E &\to & E
+        \\
+        &{}^{\mathllap{\sigma}}\nearrow& \downarrow && \downarrow^{\mathbf{c}}
+        \\
+        X &\stackrel{id}{\to}& X &\stackrel{\phi}{\to}& \mathbf{B}G
+     }
+   $$
 
 * the [[cohomology]] 
 
@@ -1729,19 +1725,19 @@ The [[cohomology]] in $\mathbf{H}_{/\mathbf{B}G}$ is naturally interpreted as fo
 ###### Remark
 
 
-Equivalently, in the [[syntax]] of [[homotopy type theory]], the object of twisted cocycles is
+It can be instructive to formulate this in the [[syntax]] of [[homotopy type theory]]. The object of twisted cocycles is
 
 $$
+  [\phi, \mathbf{c}]
    \coloneqq
   \vdash \prod_{b \in \mathbf{B}G} (X(b) \to E(b)) : Type
   \;\;
   =
   \;\;
-  \vdash \prod_{b \in \mathbf{B}G} \prod_{x : X(b)} E(\phi(x)) : Type
-  \,.
+  \vdash \prod_{x : X} E(\phi(x)) : Type
 $$
 
-(see [here](http://www.ncatlab.org/nlab/show/locally%20cartesian%20closed%20category#RelationCartesianClosureBaseChangeInTypeTheory))
+(see [here](http://www.ncatlab.org/nlab/show/locally%20cartesian%20closed%20category#RelationCartesianClosureBaseChangeInTypeTheory)).
 
 While on the right this expresses the collection of sections of the pullback bundle, the left hand side expresses explicitly a $\mathbf{B}G$-parameterized collection of cocycles $X(b) \to E(b)$.
 
