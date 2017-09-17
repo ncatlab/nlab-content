@@ -1,6 +1,10 @@
+
 <div class="rightHandSide toc">
+[[!include quasi-category theory contents]]
+***
 [[!include infinity-limits - contents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
