@@ -25,12 +25,13 @@ roughly, given a [[spectrum]] $E$ [[Brown representability|representing]] a give
 
 * a smooth [[differential form]] $\omega$ on $U \times \Delta^k$ whose corresponding real cohomology class (under the [[de Rham theorem]]) is that of the pullback of the real cohomology classes of $E$ along $f$;
 
-* an explict [[coboundary]] in real cohomology exhibiting this fact.
+* an explicit [[coboundary]] in real cohomology exhibiting this fact.
 
 (More precisely, in order for this construction to yield not just a single [[simplicial set]] (which will be a [[Kan complex]]) but a suitable [[spectrum]] object, there are conditons on the dependency of $\omega$ on the [[tangent vector]]s to the [[simplex]].)
 
 When applied to the [[Eilenberg-MacLane spectrum]] $K\mathbb{Z}$ this construction reproduces, on cohomology classes, [[ordinary differential cohomology]]. Applied to the [[classifying space]] $B U$ of [[topological K-theory]] it gives [[differential K-theory]]. 
 
+See also at _[differential cohomology diagram --Hopkins-Singer coefficients](differential+cohomology+diagram#HopkinsSingerCoefficients)_.
 
 ## Definitions
 
@@ -284,6 +285,7 @@ identifying the [[loop space object]] (at the canonical base point) of the diffe
 ### Relation to differential cohomology in cohesive $(\infty,1)$-toposes
 
 The following is a simple corollary or slight rephrasing of some of the above constructions, which may serve to show how differential function complexes present differential cohomology in the [[cohesive (∞,1)-topos]] of [[smooth ∞-groupoid]]s.
+
 
 +-- {: .num_prop}
 ###### Proposition
