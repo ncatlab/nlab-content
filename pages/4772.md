@@ -39,6 +39,8 @@ $$
 
 This is often written as $ad(g)(x) = g^{-1} x g$ even though for a general Lie group the expression on the right is not the product of three factors in any way.  But for a [[matrix Lie group]] $G$ it is: in this case both $g$ as well as $x$ are canonically identified with [[matrices]] and the expression on the right is the product of these matrices.
 
+Since this is a linear action, it is called the _[[adjoint representation]]_ of a Lie group. The [[associated bundles]] with respect to this representation are called [[adjoint bundles]].
+
 ### Of a Lie algebra on itself
 
 Differentiating the above example also in the second argument, yields the adjoint action of a Lie algebra on itself
@@ -69,7 +71,7 @@ and it makes $H$ not only an $H$-module, but in fact a monoid in the monoidal ca
 
 * [[coadjoint action]]
 
-* [[adjoint representation]]
+* [[adjoint representation]], [[adjoint bundle]]
 
 * [[conjugation action]]
 
