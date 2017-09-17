@@ -7,11 +7,13 @@
 
 * [[weak factorization system]]
 
-## concepts ##
-
 * [[homotopy (as an operation)|homotopy]]
 
   * [[homotopy category]]
+
+* [[small object argument]]
+
+## morphisms ##
 
 * [[Quillen adjunction]]
   
@@ -21,12 +23,13 @@
 
   * [[derived functor]]
 
+## universal constructions ##
+
+* [[homotopy Kan extension]]
+
 * [[homotopy limit]]/[[homotopy colimit]]
 
-  * [[Bousfield-Kan map]]
-
-* [[small object argument]]
-
+ * [[Bousfield-Kan map]]
 
 
 ## refinements ##
