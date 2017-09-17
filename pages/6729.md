@@ -9,6 +9,8 @@ The refinement of the notion of [[critical locus]] from [[geometry]] to [[derive
 
 The formal duals to derived critical loci are described by [[BV-BRST formalism]].
 
+A formalization of this in [[cohesive (infinity,1)-topos|cohesive geometry]] is at _[cohesive (infinity,1)-topos -- infinitesimal cohesion -- critical locus](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CriticalLocus)_.
+
 
 ## References
 
