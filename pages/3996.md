@@ -1,7 +1,13 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
 [[!include infinity-limits - contents]]
-</div>
+=--
+=--
+=--
 
 
 
@@ -25,8 +31,11 @@ A functor which both reflects *and* preserves limits, and such that limits exist
 
 ## Related pages
 
-* [[preservation of limits]]
-* [[creation of limits]]
+* [[preserved limit]]
+
+* **reflected limit**
+
+* [[created limit]]
 
 [[!redirects reflection of limits]]
 [[!redirects reflected limits]]
