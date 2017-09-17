@@ -1,0 +1,24 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+In the context of [[number theory]], given an [[algebraic number field]] $K$, then its _ring of integers_ is the sub-ring $\mathcal{O}_K \hookrightarrow K$ of _integral elements_, which are those that are [[roots]] of [[polynomials]] with [[coefficients]] in $K$ whose top degree coefficient is 1 ("monic polynomials").
+
+For $K = \mathbb{Q}$ the [[rational numbers]] then $\mathcal{O}_{\mathbb{Q}} \simeq \mathbb{Z}$ is the [[commutative ring]] of ordinary [[integers]].
+
+## Properties
+
+### Function field analogy
+
+[[!include function field analogy -- table]]
+
+## References
+
+* Wikipedia, _[Ring of integers](http://en.wikipedia.org/wiki/Ring_of_integers)_
+
+
+[[!redirects rings of integers]]
