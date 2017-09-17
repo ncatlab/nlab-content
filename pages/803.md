@@ -12,9 +12,9 @@ where $(f/g)$ and $(g/h)$ are the ordinary [[comma object]]s.  It can also be ch
 
 ## Examples
 
-### in [[Cat]] ####
+### in Cat
 
-A double comma category is among other things the strict pullback
+A double comma category is among other things the strict [[pullback]]
 
 $$
   \array{
@@ -31,9 +31,10 @@ $$
 where $I^{\vee 2} = \{a \to b \to c\}$ is the category freely generated from a [[composable pair]] of morphisms (the linear [[quiver]] of length 2), obtained from the standard [[interval object]] in [[Cat]] by gluing it to itself. $[I^{\vee 2],D]$ is the [[functor category]], i.e. the category of composable pairs of morphisms in $D$.
 
 
-
 * If $A=C=1$ are the [[terminal category]] in [[Cat]] and $g$ is the identity functor, then $f=x$ and $h=y$ are objects of $D$ and $(f/g/h) = (x/D/y)$ is sometimes called the **[[over category|over]]-[[under category|under]]-category**.
 
 * If $f,g,h$ are all the identity functor of $A$, then $(f/g/h)$ is the [[power]] $A^{(\to\to)}$, the "object of composable pairs in $A$."
 
 [[!redirects double comma objects]]
+[[!redirects double comma category]]
+[[!redirects double comma categories]]
