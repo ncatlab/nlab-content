@@ -57,7 +57,7 @@ $$\array{
 b^y & \overset{\tilde{r}}{\to} & d^{a \otimes y}
 }$$
 
-where exponentials are used to denote internal homs in $C$, $\tilde{r}$ is the result of currying $r$ to $b \to d^a$ and exponentiating, and similarly for $\tilde{s}$. 
+where exponentials are used to denote internal homs in $C$, $\tilde{r}$ is the result of [[currying]] $r$ to $b \to d^a$ and exponentiating, and similarly for $\tilde{s}$. 
 
 The pullback is paired with $a \otimes y$, i.e., there is a map 
 
