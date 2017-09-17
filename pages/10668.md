@@ -25,7 +25,9 @@
 
 ## Idea
 
-**$E_\infty$-geometry**, or **spectral algebraic geometry** or maybe **[[higher geometry|higher]] [[arithmetic geometry]]**, is the "full" version of [[derived algebraic geometry]] where the spaces are locally modelled on [[E-infinity rings]] (as opposed to [[simplicial commutative rings]] or [[dg-algebras]]).
+What may be called **$E_\infty$-geometry**, or **spectral algebraic geometry** is the "full" version of [[derived algebraic geometry]] where the spaces are locally modelled on [[E-infinity rings]] (as opposed to [[simplicial commutative rings]] or [[dg-algebras]]).
+
+(In view of existing terms "[[arithmetic geometry]]" and "[[higher geometry]]" one might also tend call this **higher  [[arithmetic geometry]]**,but notice that the term _[[higher arithmetic geometry]]_ already has a different traditional usage. Maybe **$E_\infty$-arithmetic geometry** works well.)
 
 That is to say, it is the [[higher geometry]] in the [[(∞,1)-topos]] over the [[(∞,1)-site]] of [[Isbell duality|formal duals]] of [[E-∞ rings]], equipped with the [[etale topology]].
 
@@ -58,4 +60,5 @@ and the Grothendieck Existence Theorem]]_
 [[!redirects E-infinity geometry]]
 [[!redirects spectral algebraic geometry]]
 
-[[!redirects higher arithmetic geometry]]
+[[!redirects E-∞ arithmetic geometry]]
+[[!redirects E-infinity arithmetic geometry]]
