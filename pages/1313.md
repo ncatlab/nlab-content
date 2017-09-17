@@ -121,6 +121,10 @@ Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object
 
 Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-rig]] (such as [[Set]], of course).
 
+## Related concepts
+
+* [[exponential ideal]]
+
 
 [[!redirects exponential objects]]
 [[!redirects exponentiable object]]
