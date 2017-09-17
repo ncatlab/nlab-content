@@ -3,10 +3,9 @@
 </div>
 
 
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
-
 
 ## Idea
 
@@ -74,7 +73,8 @@ Notable families of examples include:
 
 The [[Chern character]] is a natural characteristic class with values in real cohomology. See there for more details.
 
-# Literature
+
+## Literature
 
 * J. Milnor, J. Stasheff, _Characteristic classes_, Princeton Univ. Press
 
@@ -84,4 +84,6 @@ The [[Chern character]] is a natural characteristic class with values in real co
 
 * R. Bott, L. W. Tu, _Differential forms in algebraic topology_, GTM __82__, Springer 1982.
 
+
+[[!redirects characteristic class]]
 [[!redirects characteristic classes]]
