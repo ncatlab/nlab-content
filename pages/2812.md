@@ -68,7 +68,7 @@ This latter point of view is often preferred in the literature when $R[S_\bullet
 More precisely, we should speak of chains and cochains after applying the [[Moore complex]] functor. Write
 
 $$
-  C^\bullet(S,R) := C^\bullet([S_\buller,R])
+  C^\bullet(S,R) := C^\bullet([S_\bullet,R])
 $$
 
 for the [[Moore complex|Moore cochain complex]] obtained from the [[simplicial group|cosimplicial group]] $[S_\bullet,R]$. This is the **cochain complex** of the simplicial set $S$. Using the [[cup product]], this is even a [[dg-algebra]]. 
