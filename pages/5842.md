@@ -7,6 +7,8 @@
 
 Unramified morphism of algebraic [[scheme]]s is a geometric generalization of a notion of an unramified [[field extension]]. The notion of ramification there, in turn is motivated by the branching phenomena in number fields, which in the [[Riemann surface]] picture involve branchings similar to the branching involved in Riemann surfaces over complex numbers. 
 
+So "unramified" means "not branching". In the context of [[differential geometry]] unramified maps correspond to [[immersions]].
+
 A weaker (infinitesimal) version is the notion of 
 [[formally unramified morphism]]. 
 
