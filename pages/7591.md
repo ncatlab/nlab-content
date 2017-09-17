@@ -89,7 +89,7 @@ where on the left we have the ordinary $\infty$-group of units of def. \ref{Plai
 
 =--
 
-Here the existence of the map $gl_1(E) \to gl_1^J(E)$ is ([Sagave 11, lemma 2.12 + lemma 3.16 ](Sagave11)). The fact that the resulting sequence is a homotopy fiber sequence is [Sagave 11, prop. 4.1](#Sagave11).
+Here the existence of the map $gl_1(E) \to gl_1^J(E)$ is ([Sagave 11, lemma 2.12 + lemma 3.16 ](Sagave11)). The fact that the resulting sequence is a homotopy fiber sequence is ([Sagave 11, prop. 4.1](#Sagave11)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -102,6 +102,23 @@ $$
 $$
 
 =--
+
+Using this, there is now a modified delooping of the ordinary $\infty$-group of units:
+
++-- {: .num_defn}
+###### Definition
+
+Write $bgl_1^\ast(E)$ for the [[homotopy cofiber]] of $gl_1^J(E) \to \mathbb{S}$ to yield
+
+$$
+  gl_1(E) \to gl_1^J(E) \to \mathbb{S} \to bgl_1^\ast(E)
+  \,.
+$$
+
+=--
+
+([Sagave 11, prop. 4.3](#Sagave11))
+
 
 
 ## Properties
