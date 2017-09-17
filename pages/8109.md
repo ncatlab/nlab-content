@@ -78,6 +78,10 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 
 * [[red-shift conjecture]]
 
+* [[formal group law]]
+
+  * [[Morava stabilizer group]]
+
 * [[Morava K-theory]]
 
   * [[∞-field]]
