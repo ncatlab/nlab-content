@@ -30,7 +30,7 @@ $$
 of the [[Lie algebra]] $\mathfrak{so}(n)$ by the [[Lie 2-algebra]] $\mathbf{b} \mathfrak{u}(1)$. This central extension is the one by the canonical (up to normalization) [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu$ on $\mathfrak{so}(n)$, which may itself be understood as a morphism
 
 $$
-  \mu : \mathfrak{so}(n) \to b^2 \mathrak{u}(1)
+  \mu : \mathfrak{so}(n) \to b^2 \mathfrak{u}(1)
   \,.
 $$
 
