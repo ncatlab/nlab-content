@@ -26,10 +26,14 @@ The set $M^{\perp\perp}$ is the **causal closure** of $M$.
 ## Properties ##
 Causal complements are always causally closed. The intersection of two causally closed sets is again a causally closed set. The causal complement of a set may be empty.
 
-A [[causal disjointness relation]] on an index set of subsets of a given set can be defined via
+A [[causal disjointness relation]] on an index set of subsets of a given set $X$ can be defined via
 $$
 M_1 \perp M_2 \; \text{iff} \; M_1 \subseteq (M_2)^{\perp}
 $$
-if all sets $M$ have a causal complement.
+if all sets $M$ have a causal complement and if
+
+(iv) there is a sequence $(Y_n)_{n=1}^{\infty}$ of mutually different subsets with $Y_n^{\perp} \neq \emptyset$ and $\bigcup Y_n = X$.
+
+The latter condition is needed to get an _unbounded_ [[poset]], the unboundedness is part of the definition of a  [[causal index set]].
 
 [[!redirects causal complements]]
