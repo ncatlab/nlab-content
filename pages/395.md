@@ -1231,7 +1231,7 @@ called  _homotopy fiber products_ .
 +-- {: .un_defn}
 ###### Definition
 
-A **homtopy fiber product** 
+A **homotopy fiber product** 
 or **homotopy pullback** of two morphisms
 
 $$
@@ -2207,5 +2207,9 @@ A review is in [section I.9](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 
 * P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
+There is a description and discussion of this theory and its dual (using cofibrant objects) in
+
+
+* K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
 [[!redirects categories of fibrant objects]]
