@@ -245,15 +245,13 @@ so that $\phi_{\alpha}$ factors uniquely through the inclusion $M_{\alpha + 1} \
 ###### Theorem 
 
 For 
-
-$$
+$
   (L \dashv R)
   \;\colon\;
   \mathcal{C}
   \stackrel{\overset{L}{\longrightarrow}}{\underset{R}{\longleftarrow}}
   \mathcal{D}
-$$
-
+$
 a pair of [[adjoint functors]] with induced [[monad]] $T = R\circ L$ on the complete and well-powered category $\mathcal{C}$, then the idempotent monad $\tilde T$ of theorem \ref{ExistenceOfIdempotentCore} corresponds via remark \ref{ReflectiveSubcategoryOfIdempotentMonad} to a [[reflective subcategory]] inclusion $\mathcal{C}_T \stackrel{i}{\hookrightarrow} \mathcal{C}$ which factors the original adjunction
 
 $$
@@ -272,6 +270,33 @@ such that $L'$ is a [[conservative functor]].
 
 ([Lucyshyn-Wright 14, theorem 4.15](#LucyshynWright14))
 
++-- {: .num_remark #IdempotentFactorizationAndBousfieldLocalization}
+###### Remark
+
+The factorization in theorem \ref{FactorizationOfIdempotentCore} has its analog in [[homotopy theory]] in the concept of [[Bousfield localization of model categories]]: given a [[Quillen adjunction]]
+
+$$
+  (L \dashv R) 
+  \;\colon\;
+  \mathcal{C}
+    \stackrel{\longrightarrow}{\longleftarrow}
+  \mathcal{D}
+$$
+
+then (if it exists) the [[Bousfield localization of model categories|Bousfield localized]] [[model category]] structure $\mathcal{C}_W$ obtained from $\mathcal{C}$ by adding the $L$-weak equivalences factors this into two consecutive Quillen adjunctions of the form
+
+$$
+  \mathcal{C}
+   \stackrel{\overset{id}{\longrightarrow}}{\underset{id}{\longleftarrow}}
+  \mathcal{C}_{W}
+    \stackrel{\overset{L}{\longrightarrow}}{\underset{R}{\longleftarrow}}
+  \mathcal{D}
+  \,.
+$$
+
+On the [[(∞,1)-categories]] [[presentable (∞,1)-category|presented]] by these model categories this gives a factorization of the [[derived functor|derived]] [[(∞,1)-adjunction]] through [[localization of an (∞,1)-category|localization]] onto a [[reflective sub-(∞,1)-category]] followed by a [[conservative (∞,1)-functor]].
+
+=--
 
 +-- {: .num_example}
 ###### Example
