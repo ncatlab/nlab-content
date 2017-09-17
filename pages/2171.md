@@ -350,10 +350,15 @@ Simplifying notation as before, we have generators $u,v,w$ and relations
 
 ## References
 
-A classic reference is
+Classic references is
 
-* Joan S. Birman, _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
-* R. Fox, L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) 119-126, [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
+* [[Joan S. Birman]], _Braids, links, and mapping class groups_, Princeton Univ Press, 1974.
+* [[R. H. Fox]], L. Neuwirth, _The braid groups_, Math. Scand. __10__ (1962) 119-126, [pdf](http://www.mscand.dk/article.php?id=1624), [MR150755](http://www.ams.org/mathscinet-getitem?mr=150755)
+
+and in addition see
+
 * Wikipedia: [Braid group](http://en.wikipedia.org/wiki/Braid_group)
 
+
+category : knot theory
 [[!redirects Artin braid group]]
