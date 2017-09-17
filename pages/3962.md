@@ -7,6 +7,8 @@
 
 (This refers to the term as it arises in algebra, particularly in algebraic number theory.) A **local field** is a [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] (non-discrete) [[topological space|topological]] [[field]]. 
 
+Note that for a topological field, the [[closed subspace|topological closure]] of $\{0\}$ is an [[ideal]], which must therefore be either $\{0\}$ or the whole field. It follows that either a topological field is [[separation axioms|T]]$_1$ (and therefore Hausdorff or T$_2$; see [[uniform space]]), or has the [[discrete and codiscrete topology|codiscrete topology]]. 
+
 ## Properties
 
 Any local field is one of the following types: 
