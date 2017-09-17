@@ -94,6 +94,7 @@ In fact, the Galatius-Madsen-Weiss theorem is now supposed to be a corollary of 
 
 
 ### For cobordisms with extra topological structure
+ {#CobsWithExtraTopStructure}
 
 We discuss the cobordism hypothesis for cobordisms that are equipped with the extra [[stuff, structure, property|structure]] of maps into some [[topological space]] equipped with a [[vector bundle]].
 
@@ -119,7 +120,7 @@ This is ([Lurie, notation 2.4.16](#Lurie)).
 +-- {: .num_defn #CatOfCobordismsWithXIStructure}
 ###### Definition
 
-Let $X$ be a [[topological space]] and $\xi \to X$ an $n$-[[dimensional]] [[vector bundle]]. The [[(∞,n)-category]] $Bord_n^(X, \xi)$ is defined analogously to $Bord_n$ but with all manifolds equipped with $(X,\xi)$-structure.
+Let $X$ be a [[topological space]] and $\xi \to X$ an $n$-[[dimensional]] [[vector bundle]]. The [[(∞,n)-category]] $Bord_n(X, \xi)$ is defined analogously to $Bord_n$ but with all manifolds equipped with $(X,\xi)$-structure.
 
 =--
 
