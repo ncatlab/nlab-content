@@ -1,0 +1,6 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/John_Archibald_Wheeler)
+
+[[!redirects John Archibald Wheeler]]
+
+category: people
