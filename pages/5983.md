@@ -224,7 +224,7 @@ This appears as [HopkinsSinger, p. 36 and corollary D15](#HopkinsSinger).
 Let $E_\bullet$ be an [[Omega-spectrum]]. Let $\iota_\bullet$ be the canonical [[Chern character]] class (...).
 
 +-- {: .num_prop}
-###### Proposition/Definition
+###### Proposition
 
 For $S$ a [[smooth manifold]], and $s \in \mathbb{N}$, the sequence of differential function complexes, def. \ref{DifferentialFunctionComplex},
 
@@ -259,6 +259,27 @@ This is ([HopkinsSinger, def. 4.34](#HopkinsSinger)).
 
 
 ## Properties
+
+### Homotopy groups
+
+For reference, we repeat from above the central statements about the [[homotopy type]]s of the differential function complexes, def. \ref{DifferentialFunctionComplex}.
+
++-- {: .num_prop #LoopObjectsOfDiffFunctionComplexes}
+###### Proposition
+
+For $E$ an [[Omega-spectrum]], $S$ a [[smooth manifold]], 
+we have for all $s,n \in \mathbb{N}$, a [[weak homotopy equivalence]]
+
+$$
+  \Omega  filt_{s+1}(E_{n}; \iota_{n})^S
+   \stackrel{\simeq}{\to}
+  filt_{s}(E_{n-1}; \iota_{n-1})^S
+  \,,
+$$
+
+identifying the [[loop space object]] (at the canonical base point) of the differential function complex of $E_{n}$ at filtration level $s+1$ with that differential function complex of $E_{n-1}$ at filtration level $s$.
+
+=--
 
 ### Relation to differential cohomology in cohesive $(\infty,1)$-toposes
 
@@ -320,6 +341,16 @@ $$
 
 ## Examples
 
+* For $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]], $H_{diff}^n(-,E)$ is [[ordinary differential cohomology]].
+
+* For $E = K U$ the [[K-theory spectrum]], $H_{diff}^n(-,E)$ is [[differential K-theory]].
+
+* For $E = M O, M U$ the [[Thom spectrum]], $H_{diff}^n(-,E)$ is [[differential cobordism cohomology]];
+
+* For $E = tmf$ the [[tmf]] spectrum, $H_{diff}^n(-,E)$ is [[differential cohomology]];
+
+
+
 ### Line bundles with connection
 
 
@@ -341,6 +372,36 @@ This means that that the parallel transoport of the connection $\hat \nabla$ on 
 
 (...)
 
+### Higher filtration degree
+
++-- {: .num_example #HigherFilteringOfOrdinaryDiffCoh}
+###### Example
+
+For $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]], prop. \ref{LoopObjectsOfDiffFunctionComplexes} states that 
+$filt_{1}(H \mathbb{Z}^{n+1}; \iota_{n})^S$ is an [[n-groupoid]] such that the [[automorphism]]s of the 0-object form [[ordinary differential cohomology]] in degree $n$.
+
+$$
+  \Omega filt_{1}(H \mathbb{Z}^{n+1}; \iota_{n})^S
+  \simeq 
+  \mathbf{H}_{diff}^n(S)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Example \ref{HigherFilteringOfOrdinaryDiffCoh} for $n = 4$
+plays a central role in the description of [[T-duality]] by
+[[twisted differential K-theory]] in ([KahleValentino](#KahleValentino)).
+
+=--
+
+
+
+
+
 ## References
 
 Differential function complexes were introduced and studied in
@@ -349,5 +410,9 @@ Differential function complexes were introduced and studied in
  {#HopkinsSinger}
 
 For further references see [[differential cohomology]].
+
+* [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
+  {#KahleValentino}
+
 
 [[!redirects differential function complexes]]
