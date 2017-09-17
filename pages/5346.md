@@ -24,7 +24,7 @@ The _model structure on simplicial groups_ is a presentation of the [[∞-group]
 
 ## Definition
 
-There is a [[model category]] structure on the [[category]] $sGrpd$ of [[simplicial group]]s where a morphism is
+There is a [[model category]] structure on the [[category]] $sGrp$ of [[simplicial group]]s where a morphism is
 
 * is a weak equivalence if the underlying morphism is a weak equivalence in the standard [[model structure on simplicial sets]].
 
