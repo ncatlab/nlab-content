@@ -1,0 +1,93 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Noncommutative geometry
++--{: .hide}
+[[!include noncommutative geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The generalization of the process of [[one-point compactification]] of possibly non-[[compact topological space|compact]] [[topological spaces]] from [[topology]] to [[non-commutative topology]] is the process of adding units to possibly non-unital [[C*-algebras]], thought of as formal duals of non-commutative spaces in [[noncommutative topology]].
+
+## Definition
+
+For $(A, {\Vert -\Vert_A})$ a not necessarily unital [[C*-algebra]], its **unitisation** is the $C^\ast$-algebra whose underlying Banach space is the [[direct sum]] 
+
+$$
+  A^+ \coloneqq A \oplus \mathbb{C}
+$$ 
+
+with the [[complex numbers]] equipped with the evident multiplication 
+
+$$
+  (a_1 + z_1) \cdot (a_2 + z_2) \coloneqq (a_1 a_2 + a_1 z_2 + z_1 a_2) + z_1 z_2
+$$
+
+the evident [[involution]]
+
+$$
+  (a + z)^\ast \coloneqq a^\ast + \overline{z}
+$$
+
+([[complex conjugation]] on the right) and with [[norm]] given by
+
+$$
+  {\Vert a + z\Vert}_{A^+} \coloneqq {\Vert a+ z\Vert}_{\mathcal{B}(A)}
+  \,.
+$$
+
+## Properties
+
+### The point at infinity
+
+The unitisation of $A$ comes with a canonical [[projection]] [[homomorphism]] of [[C*-algebras]]
+
+$$
+  i^\ast_A \colon A^+ \to \mathbb{C}
+$$
+
+given by
+
+$$
+ (a + z) \mapsto z
+  \,.
+$$
+
+Dually this corresponds to the inclusion of the "point at infinity".
+
+### K-theory with compact support on non-unital $C^\ast$-algebras
+
+The map $i^\ast_A \colon A^+ \to \mathbb{C}$ induces a morphism in [[operator K-theory]]
+
+$$
+  K(i^\ast_A) \colon K(A^+) \to K(\mathbb{C}) \simeq \mathbb{Z}
+  \,.
+$$
+
+The [[kernel]] of this map is the operator K-theory of the original possibly non-unital $C^\ast$-algebra $A$:
+
+$$
+  K(A) \coloneqq ker(K(i^\ast_A))
+ \,.
+$$
+
+Heuristically it is clear that this is the "compactly suppported" K-theory of the possibly non-compact non-commutative space given by the algebra $A$. This statement has been made precise in Heath... where it is shown that for $A = C(X)$ the functions on a topological space, $K(A)$ as above is isomorphic to the subspace of the space of maps $X \to KU$ to the [[K-theory spectrum]] to those that are compactly supported.
+
+## References
+
+[[!redirects unitisation of C-star algebras]]
+
