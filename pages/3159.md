@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -14,6 +25,26 @@ The [[left adjoint]] $C \to A Mod(C)$ is the corresponding [[free construction]]
 ## Related concepts
 
 * [[basis of a free module]]
+
+* [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
+
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
+
+  * [[injective module]]
+
+* [[free object]], [[free resolution]]
+ 
+  * **free module**
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
+
+
+
+
 
 
 [[!redirects free modules]]
