@@ -17,7 +17,7 @@ In an $n$-[[n-category|category]], or most generally an $\infty$-[[infinity-cate
 
 ## Definition
 
-All notions of higher category have $k$-morphisms, but the shapes may depend on the model (or theory) employed. 
+All notions of higher category have $k$-morphisms, but the [[geometric shape for higher categories|shapes]] may depend on the model (or theory) employed. 
 
 For a simplicially based [[geometric model of higher categories]], i.e., simplicial sets subject to some filler conditions, the $k$-morphisms are literally $k$-cells in the sense of a [[simplicial set]]. This applies for example to [[quasi-category|quasi-categories]], weak $n$-categories in the sense of Street, and the weak complicial sets of Verity. In other geometric models, based not on simplices but on other shapes such as [[opetope|opetopes]] (Baez-Dolan), [[multitope|multitopes]] (Hermida-Makkai-Power), or $n$-[[Theta category|disks]] (Joyal), a higher category is a presheaf 
 
