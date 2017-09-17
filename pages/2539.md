@@ -86,6 +86,13 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 =--
 
+## Related theorems
+
+* the [[Hadamard lemma]]
+
+* [[Borel's theorem]]
+
+* the [[Steenrod-Wockel approximation theorem]]
 
 
 
