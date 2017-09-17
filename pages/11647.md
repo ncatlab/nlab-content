@@ -2,9 +2,10 @@
 
 **[[moduli spaces]] of [[line n-bundles with connection]] on $n$-[[dimension|dimensional]] $X$**
 
-| $n$ | [[line n-bundle]] |  moduli of [[line n-bundles]]  | moduli of [[flat infinity-connection|flat]]/degree-0 n-bundles  |  [[Artin-Mazur formal group]] of [[deformation theory|deformation moduli]] of [[line n-bundles]] | [[complex oriented cohomology theory]] |
-|-----|---|-----|------|-----|----|
-| $n = 0$ | [[unit]] in [[structure sheaf]] | [[multiplicative group]]/[[group of units]] |  |  [[formal multiplicative group]]  | [[complex K-theory]] |
-| $n = 1$ | [[line bundle]] |  [[Picard group]]/[[Picard scheme]] | [[Jacobian]]  |  [[formal Picard group]] | [[elliptic cohomology]] |
-| $n = 2$ |[[line 2-bundle]] |  [[Brauer group]] | [[intermediate Jacobian]] | [[formal Brauer group]] |  [[K3 cohomology]] |
-| $n$   |    |  |     [[intermediate Jacobian]]  |   |   |
+| $n$ | [[line n-bundle]] |  moduli of [[line n-bundles]]  | moduli of [[flat infinity-connection|flat]]/degree-0 n-bundles  |  [[Artin-Mazur formal group]] of [[deformation theory|deformation moduli]] of [[line n-bundles]] | [[complex oriented cohomology theory]] | [[modular functor]] of [[higher dimensional Chern-Simons theory]] |
+|-----|---|-----|------|-----|----|----|
+| $n = 0$ | [[unit]] in [[structure sheaf]] | [[multiplicative group]]/[[group of units]] |  |  [[formal multiplicative group]]  | [[complex K-theory]] |  |
+| $n = 1$ | [[line bundle]] |  [[Picard group]]/[[Picard scheme]] | [[Jacobian]]  |  [[formal Picard group]] | [[elliptic cohomology]] | [[3d Chern-Simons theory]]  |
+| $n = 2$ |[[line 2-bundle]] |  [[Brauer group]] | [[intermediate Jacobian]] | [[formal Brauer group]] |  [[K3 cohomology]] | [[5d Chern-Simons theory]] |
+| $n = 3$ |[[line 3-bundle]] |   | [[intermediate Jacobian]] |  |   | [[7d Chern-Simons theory]] |
+| $n$   |    |  |     [[intermediate Jacobian]]  |   |   |  |
