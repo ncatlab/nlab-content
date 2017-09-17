@@ -69,7 +69,9 @@ The fully general description for [[connections on ∞-bundles]] is at
 
 ## Related concepts
 
-* [[gauge group]]
+* [[gauge group]], [[gauge fixing]]
+
+* [[spontaneously broken symmetry]]
 
 [[!redirects gauge transformations]]
 [[!redirects gauge symmetry]]
