@@ -23,7 +23,7 @@ This entry describes a concrete formalization of the general notion of [[state]]
 
 The [[AQFT|Heisenberg picture]] of [[quantum mechanics]] is sometimes formalized by describing the [[observables]] of a quantum system by an [[operator algebra]], and the [[state]] of the system as a state of the algebra. 
 
-The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited it's name from the physical concept. 
+The first "state" in the preceding sentence is the state the described physical system is in, the second one is the mathematical counterpart we are about to define, that inherited its name from the physical concept. 
 This is the viewpoint of the [[AQFT]] approach to [[quantum field theory]], especially of the [[Haag-Kastler approach]].
 
 We provide the definition of states and several associated properties and explain the physical interpretation and motivation of these concepts from the viewpoint of [[AQFT]].
