@@ -61,10 +61,12 @@ By the universal property, the natural numbers object is unique up to [[isomorph
 
 
 ### In a general category with finite products
+{#withparams}
 
 Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as when $E$ is a topos). What this amounts to is demanding that $(\mathbb{N}, z, s)$ not only be a natural numbers object (in the above, unparametrized sense) in $E$, but that also, for each object $A$, this is preserved by the free coalgebra functor into the [[Kleisli category]] of the [[comonad]] $X \mapsto A \times X$ (which may be thought of as the category of maps parametrized by $A$). (Put another way, the finite product structure of $E$ gives rise to a canonical [[self-indexing]], and we are demanding the existence of an (unparametrized) NNO within this [[indexed category]], rather than just within the base $E$).
 
 The functions which are constructable out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[primitive recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[Ackermann function]]) become definable as well.
+
 
 ### In type theory
 
@@ -81,7 +83,7 @@ In a topos, a triple $(\mathbb{N}, 0: 1 \to \mathbb{N}, s: \mathbb{N} \to \mathb
 
 1. The morphism $(0, s): 1 + \mathbb{N} \to \mathbb{N}$ is an [[isomorphism]]; 
 
-1. The diagram 
+2. The diagram 
 $$\mathbb{N} \stackrel{\overset{s}{\to}}{\underset{1}{\to}} \mathbb{N} \to 1$$ 
 is a [[coequalizer]]. 
 =-- 
@@ -205,9 +207,11 @@ Given a natural numbers object $\mathbb{N}$ in a [[pretopos]], we can construct 
 
 For a [[real numbers]] object, rather more care is needed; see [[real numbers object]].
 
+
 ## Related concepts
 
 * [[natural numbers]], [[natural numbers type]]
+
 
 ## References
 
@@ -224,4 +228,4 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 [[!redirects natural-number object]]
 [[!redirects natural-number objects]]
 [[!redirects NNO]]
-
+[[!redirects NNOs]]
