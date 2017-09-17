@@ -429,7 +429,7 @@ $$
 
 for $(a, b, v, w \in (\mathbb{R}^n)^*)_{1 \leq i \leq n}$ a collection of ordinary covectors and with "$\cdot$" denoting the evident contraction, and where in the last step we used the above relations.
 
-It is noteworthy here that the coefficient of the term which is linear in each of the $x_i$ is the wedge product of two covectors: we may naturally identify the subalgebra of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $x_1$ or $x_2$ are set to 0 as space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
+It is noteworthy here that the coefficient of the term which is linear in each of the $x_i$ is the wedge product of two covectors: we may naturally identify the subalgebra of $C^\infty(\tilde D(2,2))$ on those elements that vanish if either $x_1$ or $x_2$ are set to 0 as the space $\wedge^2 T_0^* \mathbb{R}^2$ of 2-forms at the origin of $\mathbb{R}^2$. 
 
 Of course for this identification to be more than a coincidence we need that this is the beginning of a pattern that holds more generally. But this is indeed the case.
 
@@ -622,9 +622,14 @@ where
     $$
       h \otimes (\sum_{\xi} det(\xi) f_\xi)
       \mapsto
-      h \otimes (\sum_{\xi} det(\xi) f_\xi)      
+      (h \otimes (\sum_{\xi} det(\xi) f_\xi)      
       +
-      \frac{\partial}{\partial x_i} ... (am being interrupted...)
+      \sum_{i=1}^n 
+      (\frac{\partial}{\partial x_i} h)
+      \otimes
+      x_1^i
+      (\sum_{\xi} det(\xi) f_\xi)
+      \,.
     $$  
 
 =--
@@ -645,9 +650,7 @@ the space of differential $k$-forms on $\mathbb{R}^n$.
 +-- {: .un_theorem}
 ###### Theorem
 
-The normalized cochain complex of  the cosimplicial algebra
-
-$C^{\infty}((\mathbb{R}^n)^{(\Delta^n_{diff})})$ is [[isomorphism|isomorphic]] as a cochain complex to the [[de Rham complex]] of $\mathbb{R}^n$.
+The normalized cochain complex of  the cosimplicial algebra $C^{\infty}((\mathbb{R}^n)^{(\Delta^n_{diff})})$ is [[isomorphism|isomorphic]] as a cochain complex to the [[de Rham complex]] of $\mathbb{R}^n$.
 
 Equipped with the [[cup product]] induced from $C^{\infty}((\mathbb{R}^n)^{(\Delta^n_{diff})})$ is is isomorphic to the de Rham complex even as a [[dg-algebra]].
 
@@ -658,7 +661,41 @@ Equipped with the [[cup product]] induced from $C^{\infty}((\mathbb{R}^n)^{(\Del
 
 We have already seen that degreewise the vector spaces in question are isomorphic. 
 
-It remains to check that the differentials agree.
+It remains to check that the differentials agree. The alternating sum of the face maps acts on an element
+
+$$
+  h \otimes (\omega^1 \cdot x_1)(\omega^2 \cdot x_2) \cdots
+      (\omega^k \cdot x_k)
+$$
+
+as
+
+$$
+  \begin{aligned}
+     & \cdots \mapsto
+     (d_0^* + \sum_{r = 1}^n d_1^*)(
+       h \otimes (\omega^1 \cdot x_{1})(\omega^2 \cdot x_{2}) \cdots
+       (\omega^k \cdot x_{k}))
+      \\
+      & = 
+       h \otimes (\omega^1 \cdot x_{1})(\omega^2 \cdot x_{2}) \cdots
+       (\omega^k \cdot x_{k}))
+      + 
+       (d h \cdot x_1)
+       (\omega^1 \cdot x_{2})(\omega^2 \cdot x_{3}) \cdots
+       (\omega^k \cdot x_{k+1}))
+      +
+      \sum \pm 
+       h \otimes (\omega^1 \cdot x_{1})(\omega^2 \cdot x_{2}) \cdots
+       (\omega^k \cdot x_{k}))
+      \\
+      & =
+       (d h \cdot x_1)
+       (\omega^1 \cdot x_{2})(\omega^2 \cdot x_{3}) \cdots
+       (\omega^k \cdot x_{k+1}))
+  \end{aligned}
+  \,.
+$$
 
 ...
 
