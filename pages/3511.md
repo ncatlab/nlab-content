@@ -153,9 +153,13 @@ $$
 
 =--
 
+## Presentations
+
+[[!include table - models for (infinity,1)-operads]]
+
 ## Related concepts
 
-* [[Cat]]
+* [[Cat]], [[Operad]]
 
 * [[2Cat]]
 
