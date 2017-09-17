@@ -8,11 +8,11 @@ There are also many variants and generalizations of this definition to various s
 Dunkl operators appear in the theory of [Caloger-Moser systems](http://www.scholarpedia.org/article/Calogero-Moser_system) and of the Cherednik (= double affine Hecke) algebras.
 
 * C. Dunkl, _Differential-difference operators associated to reflection groups_, Trans. AMS __311__ (1989), 167--183.
-
-* Ivan Cherednik, _Introduction to double Hecke algebras_ ([arXiv](http://arxiv.org/abs/math/0404307))
-
-* P. Etingof, X. Ma, _On elliptic Dunkl operators_, ([arXiv](http://arxiv.org/abs/0706.2152))
-
+* Ivan Cherednik, _Introduction to double Hecke algebras_, [arXiv/math/0404307](http://arxiv.org/abs/math/0404307)
+* [[Pavel Etingof]], _Lectures on Calogero-Moser systems_, [pdf](http://www-math.mit.edu/~etingof/zlecnew.pdf)
+* P. Etingof, X. Ma, _On elliptic Dunkl operators_, [arXiv/0706.2152](http://arxiv.org/abs/0706.2152)
+* Yu. Berest, P. Etingof, V. Ginzburg, Finite-dimensional representations of
+rational Cherednik algebras. Int. Math. Res. Not. 2003, no. 19, 1053-1088.
 * C. Dunkl, E. Opdam, _Dunkl operators for complex reflection groups_, Proc. London Math. Soc. __86__ (2003), 70--108.
 
 Dunkl operators are named after [Charles Dunkl](http://people.virginia.edu/~cfd5z/).
