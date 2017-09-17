@@ -1,8 +1,1 @@
-
-Currently there are two main ways to search for content on the $n$Lab:
-
-* use Google, add the command "site:http://nlab.mathforge.org/nlab/" in the Google search box.
-
-  This is usually the best way to find content for a given keyword.
-
-* Use the search box on the top of each page. This performs a regexp-search through the _source code_ of the $n$Lab pages. So this is for more sophisticated searches when you know what you are doing.
+see [[Searching the nLab]]
