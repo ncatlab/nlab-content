@@ -14,21 +14,23 @@ A Frobenius algebra in a [[monoidal category]] is a quadruple $(A, \delta, \epsi
 1. the **Frobenius laws** hold: $(1 \otimes \mu) \circ (\delta \otimes 1) = \delta \circ \mu = (\mu \otimes 1) \circ (1 \otimes \delta)$.
 =--
 
-In terms of string diagrams, this definition says:
+In terms of [[string diagram]]s, this definition says:
 
 [[frobenius_algebra.jpg:pic]]
 
 The first line here shows the associative law and left/right unit laws for a [[monoid]].  The second line shows the coassociative law and left/right counit laws for a [[comonoid]].  The third line shows the Frobenius laws.
 
-Frobenius algebras were originally formulated in the category of vector spaces with the following equivalent definition:
+Frobenius algebras were originally formulated in the category [[Vect]] of [[vector space]]s with the following equivalent definition:
 
 +-- {: .num_defn}
 ###### Definition
-A **Frobenius algebra** is a unital, associative algebra $(A, \mu, \eta)$ equipped with a linear form $\epsilon : A \rightarrow k$ such that $\epsilon\mu$ is a non-degenerate pairing. I.e. the induced map
+
+A **Frobenius algebra** is a unital, [[associative algebra]] $(A, \mu, \eta)$ equipped with a linear form $\epsilon : A \rightarrow k$ such that $\epsilon\mu$ is a non-degenerate pairing. I.e. the induced map
 
 \[  u \mapsto \epsilon\mu(1 \otimes u) \]
 
-is an isomorphism of $V$ with its dual space $V^*$. In such a case, $\epsilon$ is called a **Frobenius form**.
+is an [[isomorphism]] of $V$ with its dual space $V^*$. In such a case, $\epsilon$ is called a **Frobenius form**.
+
 =--
 
 From this definition it is easy to see that every Frobenius algebra in [[Vect]] is necessarily finite-dimensional. 
