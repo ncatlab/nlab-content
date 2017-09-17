@@ -32,11 +32,18 @@ A _smooth_ complex analytic space is locally isomorphic to a [[polydisc]] and he
 
 ## References
 
+* Brian Osserman, _Complex varieties and the analytic topology_ ([pdf](http://www.math.ucdavis.edu/~osserman/classes/248B-W10/analytic-top.pdf))
+
 Generalization of smooth complex analytic spaces to smooth $p$-adic analytic spaces is discussed in 
 
 * [[Vladimir Berkovich]], _Smooth $p$-adic analytic spaces ([[Berkovich spaces]]) are locally contractible_ ([pdf](www.wisdom.weizmann.ac.il/~vova/Inven_1999_137_contra.pdf))
  {#Berkovich}
 
 
+
+
 [[!redirects complex analytic space]]
 [[!redirects complex analytic spaces]]
+
+[[!redirects complex analytic variety]]
+[[!redirects complex analytic varieties]]
