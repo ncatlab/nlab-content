@@ -326,7 +326,7 @@ Hence the doubling process may be iterated three times at most.
 
 This same result can also be proven using [[string diagram]] calculus.  See [this paper](http://math.ucr.edu/home/baez/Hurwitz.pdf) for a nice exposition of that route.
 
-### Hurwitz's Theorem
+### Hurwitz's Theorem {#HurwitzTheoremSection}
 
 The classification of composition algebras over specific fields (e.g., [[number field]]s, [[local field]]s) can be a bit intricate; in this section we concentrate solely on the classical case where $k = \mathbb{R}$, where the results have been known for a long time. 
 
@@ -464,9 +464,11 @@ For all $u$, $v$ in a composition algebra, the third alternative law holds: $u(v
 
 * Markus Rost, _On the dimension of a composition algebra_, Documenta  Mathematica __1__ (1996), 209-214, [files](http://www.math.uni-bielefeld.de/documenta/vol-01/10.html) Abstract: "The possible dimensions of a composition algebra are 1, 2, 4, or 8. We give a tensor categorical argument."
 
-* [[John Baez]]'s [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
+An exposition of the [[string diagram]] proof of the [Hurwitz' theorem](HurwitzTheoremSection) on the classification of compositon algebras is given in
 
-* [[Bruce Westbury]], _[Hurwitz's Theorem](http://math.ucr.edu/home/baez/Hurwitz.pdf)_
+* [[Bruce Westbury]], _Hurwitz' theorem on composition algebras_ ([arXiv:1011.6197](http://arxiv.org/abs/1011.6197))
+
+* [[John Baez]]'s [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
 
 * [[John Conway]], Derek A. Smith, _On Quaternions and Octonions_, A.K. Peters, 2003. 
 
