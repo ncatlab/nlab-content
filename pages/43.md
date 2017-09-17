@@ -19,6 +19,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Another term for _[[dg-manifold]]_ .
+
 ## Definition
 
 +-- {: .un_defn}
@@ -40,6 +44,12 @@ A **P-[supermanifold]** is a supermanifold equipped with a graded symplectic str
 * It is an old observation by [[Maxim Kontsevich]], amplified by [[Pavol Severa]] (ref...) that NQ-supermanifolds are precisely those supermanifolds which are equipped with an action of $End(\mathbb{R}^{0|1})$, the endomorphism monoid of the [[odd line]].
 
 * NQ-supermanifolds are an equivalent way of thinking of [[∞-Lie algebroid]]s. See the list of references there.
+
+
+## Related concepts
+
+* [[dg-manifold]], [[derived smooth manifold]]
+
 
 
 ## References
