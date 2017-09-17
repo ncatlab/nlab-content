@@ -403,3 +403,8 @@ Basic facts about connections, such as the existence proof in terms of Cech cocy
 
 [[!redirects connections on a bundle]]
 [[!redirects connections on bundles]]
+
+[[!redirects bundle with connection]]
+[[!redirects bundle with connections]]
+[[!redirects bundles with connection]]
+[[!redirects bundles with connections]]
