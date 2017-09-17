@@ -54,10 +54,37 @@ All this is due to ([Ando-Hopkins-Strickland 01](#AndoHopkinsStrickland01), [And
 See the Idea-section at _[[tmf]]_ and at _[[Witten genus]]_ for more background.
 
 
-## Cubical sttructure
+## Construction via Cubical structure
 
 The construction proceeds via the relation between
 orientations in complex orientable cohomology theory and [[cubical structures on line bundles]], see there for more.
+
+## Properties
+
+### Relation to twists of $tmf$
+
+(...) relation to the [[twisted cohomology|twists]] of [[tmf]]-[[cohomology theory]] (...)
+
+$$
+  \array{
+      && B String
+      \\
+      & \swarrow && \searrow
+      \\
+     \ast && && B Spin
+     \\
+      & \searrow && \swarrow
+      \\
+      && B^3 U(1)
+      \\
+      && \downarrow
+      \\
+      && B GL_1(tmf)
+  }
+$$
+
+([ABG 10, (8.1)](#ABG10))
+
 
 ## Related concepts
 
@@ -90,8 +117,14 @@ which in turn follows the general program outlined in
 
 An alternative construction using the [[derived algebraic geometry]] of the [[moduli stack of elliptic curves]] is sketched in
 
-
 * [[Jacob Lurie]], section 5.3 of _[[A Survey of Elliptic Cohomology]]_
+
+
+Discussion in relation to the [[twisted cohomology|twists]] of [[tmf]]-cohomology is in 
+
+* {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ 
+with some related chat in _[[schreiber:Quantization via Linear homotopy types]]_.
 
 [[!redirects String orientation of tmf]]
 
