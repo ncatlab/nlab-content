@@ -83,6 +83,9 @@ The dg-Lagrangian submanifolds of a Courant Lie 2-algebroid $(\mathfrak{C}, \ome
 
 * [[Legendrean submanifold]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+
 ## References
 
 Lagrangian submanfolds of symplectic [[dg-manifolds]] are called "$\Lambda$-structures" in 
