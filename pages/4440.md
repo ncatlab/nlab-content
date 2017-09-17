@@ -143,7 +143,7 @@ Moreover, over a [[1-site]] the [[2-topos]] of 2-sheaves ought to be equivalent 
 
 Over a [[(2,1)-site]] the [[2-topos]] of 2-sheaves ought to be equivalent to the [[2-category]] of [[internal (infinity,1)-categories]] in the corresponding [[(2,1)-topos]].
 
-This is discussed at _[2-Topos -- In terms of internal categories]_.
+This is discussed at _[2-Topos -- In terms of internal categories](2-topos#InTermsOfInternalCategories)_.
 
 
 
