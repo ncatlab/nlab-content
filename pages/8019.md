@@ -1,0 +1,70 @@
+
+# Ordered groups
+* table of contents
+{: toc}
+
+## Idea
+
+An ordered group is both a [[poset]] and a [[group]] in a compatible way.  The concept applies directly to other constructs with group structure, such as ordered [[abelian groups]], ordered [[vector spaces]], etc.  However, for [[ordered ring]]s, [[ordered fields]], and so on, additional compatibility conditions are required.
+
+
+## Definition
+
+Let $G$ be a [[group]] (written additively but not necessarily [[abelian group|commutative]]), and let $\leq$ be a [[partial order]] on the [[underlying set]] of $G$.  Then $(G,\leq)$ is an __ordered group__ if this compatibility conditions holds:
+
+*  If $a \leq b$, then $a + c \leq b + c$ and $c + a \leq c + b$.
+
+
+## Properties
+
+The order $\leq$ is determined entirely by the group $G$ and the [[positive cone]] $G^+$:
+$$ G^+ \coloneqq \{x\colon G \;|\; 0 \leq x\} .$$
+It\'s possible to *define* an ordered group in terms of the positive cone (by specifying precisely the conditions that the positive cone must satisfy); see [[positive cone]] for this.
+
+
+## Ordered monoids
+
+Probably it works just as well to talk of partially ordered [[monoids]], but I haven\'t gotten around to checking this, and I don\'t want to jump to conclusions.  The characterisation in terms of the positive cone would be more difficult and may not be possible.
+
+
+## Examples
+
+The underlying additive group of any [[ordered field]] is an ordered group.
+
+In particular, the underlying additive group of the field $\mathbb{R}$ of [[real numbers]] is an ordered group.
+
+Although the field $\mathbb{C}$ of [[complex numbers]] is not an ordered field (since it is not *[[linear order|linearly]]* ordered), its underlying additive group is still an ordered group (where $a \leq b$ means that $b - a$ is a nonnegative real number).
+
+Given a [[topological vector space]] $V$, we often consider its [[dual space]] $V^*$, consisting of the [[continuous map|continuous]] [[linear maps]] from $V$ to its [[base field]], which is usually either $\mathbb{R}$ or $\mathbb{C}$.  This inherits a partial order from the [[target]] field, and then the underlying additive group is an ordered group; in fact, we have an [[ordered algebra]].  (This is the main sort of example that I know of, but that probably just reflects my own limited knowledge.)
+
+More generally, if $V$ is any [[set]], $G$ is any ordered group, and $F$ is any collection of [[functions]] from $V$ to $G$, as long as $F$ is a [[subgroup]] of the group of all functions from $V$ to $G$, then $F$ is an ordered group.
+
+All of these examples are [[abelian group|commutative]], but [Wikipedia](#Wikipedia) defines the concept for noncommutative groups as well, so presumably somebody has done something with those too.
+
+
+## References
+
+*  English Wikipedia: [Partially ordered group](https://en.wikipedia.org/wiki/Partially_ordered_group).
+   {#Wikipedia}
+
+
+[[!redirects ordered group]]
+[[!redirects ordered groups]]
+[[!redirects partially ordered group]]
+[[!redirects partially ordered groups]]
+[[!redirects partially-ordered group]]
+[[!redirects partially-ordered groups]]
+
+[[!redirects ordered abelian group]]
+[[!redirects ordered abelian groups]]
+[[!redirects partially ordered abelian group]]
+[[!redirects partially ordered abelian groups]]
+[[!redirects partially-ordered abelian group]]
+[[!redirects partially-ordered abelian groups]]
+
+[[!redirects ordered monoid]]
+[[!redirects ordered monoids]]
+[[!redirects partially ordered monoid]]
+[[!redirects partially ordered monoids]]
+[[!redirects partially-ordered monoid]]
+[[!redirects partially-ordered monoids]]
