@@ -39,29 +39,30 @@ In addition to a viewpoint on identity types and a general class of categorical 
 
 * [[higher inductive type|Higher inductive types]], which among other things enable the construction of finite [[(∞,1)-colimits]], [[cell complexes]], [[n-truncated|truncations]], [[localizations]], and other objects which in classical homotopy theory are constructed using the [[small object argument]].
 
-With all of these axioms included, homotopy type theory behaves like the [[internal language of an (∞,1)-topos]], and conjecturally should admit actual models in any (∞,1)-topos.  With fewer axioms and type constructors, it is known to admit models in more weakly structured $(\infty,1)$-categories --- see below.
+With all of these axioms included, homotopy type theory behaves like the [[internal language of an (∞,1)-topos]], and conjecturally should admit actual models in any [[(∞,1)-topos]].  With fewer axioms and type constructors, it is known to admit models in more weakly structured [[(∞,1)-categories]] --- see below.
 
-Many details are still being worked out, but the impression is that homotopy type theory thus should serve as a [[foundation]] for [[mathematics]] that is natively about [[homotopy theory]]/[[(∞,1)-category theory]] --- in other words, a foundation in which *homotopy types*, rather than sets, are basic objects.
+Many details are still being worked out, but the impression is that homotopy type theory thus should serve as a [[foundation]] for [[mathematics]] that is natively about [[homotopy theory]]/[[(∞,1)-category theory]] --- in other words, a foundation in which *[[homotopy types]]*, rather than [[sets]], are basic objects.
 
 ## Properties
 
 ### Advantages {#Advantages}
 
-As a [[foundation]] for mathematics, homotopy type theory (also called **univalent foundations**) has the following advantages.  Many of these advantages are shared with some other foundational systems, but no other known system shares all of these, and some are unique to HoTT.
+As a [[foundation]] for [[mathematics]], homotopy type theory (also called **univalent foundations**) has the following advantages.  Many of these advantages are shared with some other foundational systems, but no other known system shares all of these, and some are unique to HoTT.
 
-* It treats homotopy theory and $\infty$-groupoids natively.  This is an advantage for doing homotopical and higher-categorical mathematics, which is spreading slowly into other fields.
+* It treats [[homotopy theory]] and [[∞-groupoids]] natively.  This is an advantage for doing homotopical and [[higher category theory|higher-categorical]] mathematics, which is spreading slowly into other fields.
 
-* It inherits the good computational properties of intensional [[Martin-Lof type theory]].  Some of its new axioms, such as univalence and function extensionality, are not fully understood yet from a computational perspective, but progress is being made.
+* It inherits the good computational properties of intensional [[Martin-Löf type theory]].  Some of its new axioms, such as [[univalence] and 
+[[function extensionality]], are not fully understood yet from a computational perspective, but progress is being made.
 
 * It is [[constructive mathematics|constructive]] by default, but can easily be made [[classical logic|classical]] by adding axioms.  This makes it potentially more expressive at essentially no cost.  (In fact, it is not entirely clear how possible it is to do homotopy theory constructively in other foundations.)
 
-* It can (conjecturally) be internalized in many categories and higher categories, providing an [[internal logic]] which enables a single proof to be reinterpreted in many places with many different meanings.
+* It can (conjecturally) be [[internalization|internalized]] in many categories and higher categories, providing an [[internal logic]] which enables a single [[proof]] to be reinterpreted in many places with many different meanings.
 
 * It is naturally [[isomorphism]]- and [[equivalence]]-invariant (non-[[evil]]).  This is a consequence of the [[univalence axiom]]: any property or structure (even one which speaks only about [[sets]] and makes no reference to homotopy theory) which is expressible in the theory must be invariant under isomorphism/equivalence.
 
-* Notions such as propositions and sets are *defined* objects, which inherit good computational properties from the underlying type theory.
+* Notions such as [[propositions]] and sets are *defined* objects, which inherit good computational properties from the underlying type theory.
 
-* It treats sets, groupoids, and higher groupoids on an equal footing.  One can easily remain entirely in the fragment of the theory which talks about sets, not worrying about groupoids or homotopy theory, but as soon as one starts to say something which naturally needs structures of higher [[homotopy level]] (such as talking about some collection of structured sets), the groupoidal and homotopical structure is already there.
+* It treats sets, [[groupoids]], and [[n-groupoid|higher groupoids]] on an equal footing.  One can easily remain entirely in the fragment of the theory which talks about sets, not worrying about groupoids or homotopy theory, but as soon as one starts to say something which naturally needs structures of higher [[homotopy level]] (such as talking about some collection of structured sets), the groupoidal and homotopical structure is already there.
 
 
 ### Models
@@ -100,11 +101,11 @@ Note that while Coq-HoTT is supposed to be the internal language for such $C$, t
 
 We then have the following dictionary.
 
-The [[type]] [[Type]] of types
+The [[type of types]] [[Type]] 
 
     Type
 
-denotes an [[object classifier]] in $C$ for a certain size of [[universe]].   Both [[Coq]] and [[Agda]] have systems to manage universe sizes and [[universe enlargement]] automatically; Agda's is more advanced (universe polymorphism), whereas Coq's is good enough for many purposes but tends to produce "universe inconsistencies" when working with univalence.  As a stopgap measure until this is improved, some HoTT code must be compiled with a patch to Coq that turns off all universe consistency checks.
+denotes an [[object classifier]] in $C$ for a certain size of [[universe]].   Both [[Coq]] and [[Agda]] have systems to manage universe sizes and [[universe enlargement]] automatically; Agda's is more advanced (universe polymorphism), whereas Coq's is good enough for many purposes but tends to produce "universe inconsistencies" when working with [[univalence]].  As a stopgap measure until this is improved, some HoTT code must be compiled with a patch to Coq that turns off all universe consistency checks.
 
 A [[term]] of [[type]] Type (in the empty [[context]])
 
@@ -124,11 +125,11 @@ For $X, Y \in C$ two objects, the [[function type]]
 
 denotes the [[internal hom]] $[X,Y] \in C$ (a formal proof of that fact is [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/AdjunctionProdHom.v)).
 
-A [[dependent type]] (that is, a type in context)
+A [[dependent type]] (that is, a type in [[context]])
 
     x : X  |-  P x : Type
 
-denotes a map $P \to X$ (regarded as a [[fibration]] or [[bundle]]) in $C$. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]], it literally denotes a [[fibration]] $P \to X$.  In this case,
+denotes a [[morphism]] $P \to X$ (regarded as a [[fibration]] or [[bundle]]) in $C$. In a [[presentable (∞,1)-category|presentation]] of $C$ by a [[category of fibrant objects]], it literally denotes a [[fibration]] $P \to X$.  In this case,
 
     P : X -> Type
 
@@ -146,7 +147,7 @@ One might expect to also call the dependent sum type
 
     exists x : X, P x
 
-(see [[existential quantifier]]) but in the current [[Coq]] implementation that keyword is reserved for the corresponding operation on Coq's built-in universe `Prop`, which is not used by homotopy type theory.  In particular, it should not be confused with what HoTT calls [[proposition]]s, which are the [[(-1)-truncated]] types.  In fact, arguably in HoTT `exists` should refer not to the dependent sum itself, but to the (-1)-truncation thereof.
+(see [[existential quantifier]]) but in the current [[Coq]] implementation that keyword is reserved for the corresponding operation on Coq's built-in universe `Prop`, which is not used by homotopy type theory.  In particular, it should not be confused with what HoTT calls [[proposition]]s, which are the [[(-1)-truncated]] types.  In fact, arguably in HoTT `exists` should refer not to the dependent sum itself, but to the (-1)-truncation thereof (its [[bracket type]]).
 
 The type
 
