@@ -171,3 +171,6 @@ These notes, or at least the first few chapters of them, acted as course notes f
   * 10\.7 Pseudo-functors between 2-groups 
 
 (Up to here, more-or-less, is in the 10 chapter version. There are some additions since that version that are reflected here but not yet downloaded to the Lab.)
+
+
+category: reference
