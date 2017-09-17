@@ -42,6 +42,8 @@ If $(L \dashv R)$ is an [[adjunction]] that gives rise to the monad $T$ as $T \s
 
 * [[unit]]
 
+  * [[unit object]]
+
   * [[unit of an adjunction]]
 
   * **unit of a monad**
