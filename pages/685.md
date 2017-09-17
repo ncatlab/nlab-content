@@ -83,7 +83,7 @@ A **lax limit** is like a 2-limit, except that the triangles in the definition o
 
 * The **lax pullback** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$, $q:P\to B$, $r:P\to C$, and 2-cells $f p \to r$ and $g q \to r$.
 
-Note that lax pullbacks are _not_ the same as comma objects.  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
+Note that lax pullbacks are _not_ the same as [[comma objects]].  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
 
 
 ## Finite Limits 
