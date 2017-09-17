@@ -164,4 +164,4 @@ So in summary, this page is about the _real, finite, located, standard, analytic
 [[!redirects real numbers]]
 [[!redirects real line]]
 [[!redirects real number line]]
-[[!redirects continuum]]
+[[!redirects the continuum]]
