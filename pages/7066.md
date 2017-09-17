@@ -15,7 +15,9 @@
 
 ## Idea
 
-For $(X, \omega)$ a [[symplectic manifold]], a _polarization_ is a [[foliation]] of $X$ by [[Lagrangian submanifolds]].
+For $(X, \omega)$ a [[symplectic manifold]], a **polarization** is a [[foliation]] of $X$ by [[Lagrangian submanifolds]] with respect to $\omega$.
+
+After a choice of [[prequantum line bundle]] $\nabla$ lifting $\omega$, a **Bohr-Sommerfeld [[leaf]]** of a polarization is a leaf on which the prequantum line bundle is not just flat, but also trivializable as a [[circle bundle]].
 
 In [[geometric quantization]] the space of [[states]] is obrained as the subspace of the space of [[sections]] of a [[prequantum line bundle]] over a symplectic manifold, on those sections whose [[covariant derivative]] along the [[leafs]] of a polarization is constant.
 
@@ -26,3 +28,4 @@ For instance section 5 of
 * A. Echeverria-Enriquez, M.C. Munoz-Lecanda, N. Roman-Roy, C. Victoria-Monge, _Mathematical Foundations of Geometric Quantization_ Extracta Math. 13 (1998) 135-238 ([arXiv:math-ph/9904008](http://arxiv.org/abs/math-ph/9904008))
 
 [[!redirects polarizations]]
+[[!redirects Bohr-Sommerfeld leaf]]
