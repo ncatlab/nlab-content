@@ -71,7 +71,7 @@ In the absence of the axiom of choice, it is not clear that there exist arbitrar
 
 * More generally, any limit cardinal that can be "written down by hand" should be singular, since if it were regular then it would be [[weakly inaccessible cardinal|weakly inaccessible]], and the existence of weakly inaccessible cardinals cannot be proven in [[ZFC]] (if $ZFC$ is consistent).  We say 'should' rather than 'must', since there are exceptions, but they are sort of cheating: one (definable with Choice) is 'the smallest limit cardinal that is regular if and only if some weakly innaccessible cardinal exists'.
 
-* Assuming the consistency of 'there is a [[proper class]] of [[strongly compact cardinal|strongly compact cardinals]]', it is consistent that every uncountable cardinal is singular, a result due to [[Moti Gitik]].
+* Assuming the consistency (with [[ZFC]]) of 'there is a [[proper class]] of [[strongly compact cardinal|strongly compact cardinals]]', it is consistent with $ZF$ that every uncountable cardinal is singular (and in fact every infinite well-orderable cardinal has [[cofinality]] $\aleph_0$), a result due to [[Moti Gitik]].  (Of course this conclusion is inconsistent with $ZFC$, in which many uncountable cardinals, starting with $\aleph_1$, are regular.)
 
 
 [[!redirects regular cardinal]]
