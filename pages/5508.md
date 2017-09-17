@@ -16,7 +16,7 @@
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An [[(∞,1)-topos]] $\mathcal{X}$ has **homotopy dimension** $\leq n \in \mathbb{N}$ if every $(n-1)$-[[connected]] object $A$ has a [[global element]], a [[morphism]]  $* \to A$ from the 
@@ -27,7 +27,7 @@ An [[(∞,1)-topos]] $\mathcal{X}$ has **homotopy dimension** $\leq n \in \mathb
 This appears as [[Higher Topos Theory|HTT, def. 7.2.1.1]].
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An [[(∞,1)-topos]] $\mathcal{X}$ is **locally of homotopy dimension** $\leq n \in \mathbb{N}$ if there exists a collection $\{U_i \in \mathcal{X}\}$ of [[object]]s such that 
@@ -43,7 +43,7 @@ This appears as [[Higher Topos Theory|HTT, def. 7.2.1.8]].
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If an [[(∞,1)-topos]] $\mathcal{X}$ is locally of homotopy dimension $\leq n$ for some $n \in \mathbb{N}$ then it is a [[hypercomplete (∞,1)-topos]].
@@ -52,19 +52,19 @@ If an [[(∞,1)-topos]] $\mathcal{X}$ is locally of homotopy dimension $\leq n$ 
 
 This appears as [[Higher Topos Theory|HTT, cor. 7.2.1.12]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 If $\mathcal{X}$ has homotopy dimension $\leq n$ then it also has [[cohomological dimension]] $\leq n$.
 
-The converse holds if $\mathcal{X}$ has finite homotopy dimension an $n \geq 2$. 
+The converse holds if $\mathcal{X}$ has finite homotopy dimension and $n \geq 2$. 
 
 =--
 
 This appears as [[Higher Topos Theory|HTT, cor. 7.2.2.30]].
 
 
-+-- {: .un_prop #RecognitionByGlobalSections}
++-- {: .num_prop #RecognitionByGlobalSections}
 ###### Proposition
 
 An [[(∞,1)-topos]] $\mathcal{X}$ has homotopy dimension $\leq n$ precisely if the [[global section]] [[(∞,1)-geometric morphism]]
@@ -75,7 +75,7 @@ $$
   \infty Grpd
 $$
 
-has the property that $\Gamma$ sends $(k\geq n)$-[[n-connective|connective]] morphisms to $(n-k)$-[[n-connective|connective]] morphisms.
+has the property that $\Gamma$ sends $(k\geq n)$-[[n-connective|connective]] morphisms to $(k-n)$-[[n-connective|connective]] morphisms.
 
 =--
 
@@ -83,7 +83,7 @@ This is [[Higher Topos Theory|HTT, lemma 7.2.1.7]]
 
 ## Examples
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Up to [[equivalence in an (∞,1)-category|equivalence]], the unique [[(∞,1)-topos]] of homotopy dimension $\leq -1$ is the the [[terminal category]] $ * \simeq Sh_{(\infty,1)}(\emptyset)$. 
@@ -105,22 +105,41 @@ So $\mathcal{X}$ has homotopy dimension $\leq 0$ if $\Gamma$ preserves effective
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop #LocalToposesHaveHomotopDimension0}
 ###### Proposition
 
-For $C$ any [[(∞,1)-category]] with a [[terminal object in an (∞,1)-category|terminal object]], the 
-[[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is an [[(∞,1)-topos]] of homotopy dimension $\leq 0$.
-
-In particular [[Top]] $\simeq$ [[∞Grpd]] $\simeq PSh_{(\infty,1)}(*)$ has homotopy dimension $\leq 0$.
-
-More generally, every [[local (∞,1)-topos]] has homotopy dimension $\leq 0$.
+Every [[local (∞,1)-topos]] has homotopy dimension $\leq 0$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Let 
+
+$$
+  (\Delta \dashv \Gamma \dashv \nabla)
+  : 
+  \mathbf{H} \to \infty Grpd
+$$
+
+be [[generalized the|the]] terminal geometric morphism of the local $(\infty,1)$-topos, with $\nabla$ being the extra [[right adjoint]] to the [[global section]] [[(∞,1)-geometric morphism]] functor that characterizes locality. 
+
+By prop \ref{RecognitionByGlobalSections} it is sufficient to show that $\Gamma$ send [[(-1)-connected]] morphisms to (-1)-connected morphisms, hence [[effective epimorphism in an (∞,1)-category|effective epimorphisms]] to effective epimorphisms.
+
+By the existence of $\nabla$ we have that $\Gamma$ preserves not only [[(∞,1)-limit]]s but also [[(∞,1)-colimit]]s. Since effective epimorphisms are defined as certain colimits over diagrams of certain limits, $\Gamma$ preserves effective epimorphisms.
+
+=--
+
+So in particular for $C$ any [[(∞,1)-category]] with a [[terminal object in an (∞,1)-category|terminal object]], the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is an [[(∞,1)-topos]] of homotopy dimension $\leq 0$. Notably [[Top]] $\simeq$ [[∞Grpd]] $\simeq PSh_{(\infty,1)}(*)$ has homotopy dimension $\leq 0$.
 
 This is [[Higher Topos Theory|HTT, example. 7.2.1.3]].
 
 
-+-- {: .un_prop}
+
+
+
++-- {: .num_prop}
 ###### Proposition
 
 Every [[(∞,1)-category of (∞,1)-presheaves]] is an [[(∞,1)-topos]] of local homotopy dimension $\leq 0$.
@@ -129,7 +148,7 @@ Every [[(∞,1)-category of (∞,1)-presheaves]] is an [[(∞,1)-topos]] of loca
 
 This appears as [[Higher Topos Theory|HTT, example. 7.2.1.9]].
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 If a [[paracompact topological space]] $X$ has [[covering dimension]] $\leq n$, then the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,11)}(Op(X))$ is an [[(∞,1)-topos]] of homotopy dimension $\leq n$.
@@ -139,7 +158,7 @@ If a [[paracompact topological space]] $X$ has [[covering dimension]] $\leq n$, 
 This is [[Higher Topos Theory|HTT, theorem 7.2.3.6]].
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $X \in $ [[∞Grpd]] $\simeq$ [[Top]] an object, the [[over-(∞,1)-topos]] $\infty Grpd/X$ has homotopy dimension $\leq n$ precisely if $X \in Top$ a [[retract]] in the [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(Top)$ of a [[CW-complex]] of [[dimension]] $\leq n$.
