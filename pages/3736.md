@@ -52,7 +52,7 @@ $$
 
 for each morphism $A_j \to X$, $j \in J$. 
 
-Write $ALg C$ for the category whose objects are algebraic fibrant objects in $C$ and whose morphisms are morphisms in $C$ that respect the chosen lifts.
+Write $Alg C$ for the category whose objects are algebraic fibrant objects in $C$ and whose morphisms are morphisms in $C$ that respect the chosen lifts.
 
 =--
 
