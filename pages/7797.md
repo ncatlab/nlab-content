@@ -40,7 +40,12 @@ Notice that if $X$ is for instance a [[complex manifold]] regarded over the comp
 
 ## Related concepts
 
+* [[density bundle]]
+
+* [[volume form]]
+
 [[!include square roots of line bundles - table]]
+
 
 
 ## References
