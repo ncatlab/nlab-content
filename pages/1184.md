@@ -94,7 +94,7 @@ $
   succ\colon S \to S  
   \,
 $
-that sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \prec s\}$. 
+that sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \prec s\}$, whenever this set is inhabited. 
 
 +-- {: .num_defn} 
 ###### Definition 
