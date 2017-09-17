@@ -95,3 +95,5 @@ Another useful survey is
 
 
 [[!redirects Lie superalgebra]]
+[[!redirects super Lie algebras]]
+
