@@ -2507,7 +2507,7 @@ The observation that the further right adjoint $Codisc$ in a [[local (∞,1)-top
 
 A pdf-version of some of the material here is at
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos|Differential Cohomology in a Cohesive Topos]]_ 
 
 A commented list of related references is at
 
