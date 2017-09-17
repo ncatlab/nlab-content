@@ -14,7 +14,7 @@
 
 ## Idea
 
-A _higher homotopy van Kampen theorem_ is a theorem that asserts that the [[homotopy type]], or certain invariants thereof, of a [[topological space]] can be computed by a suitable [[colimit]] or [[homotopy colimit]] over the homotopy types / invariants of its pieces.
+A _higher homotopy van Kampen theorem_ is a theorem that asserts that the [[homotopy type]], or certain invariants thereof, of a [[topological space]] can be 'computed', in some sense, by a suitable [[colimit]] or [[homotopy colimit]] over the homotopy types / invariants of its pieces.
 
 These all in some sense generalize the [[van Kampen theorem]], (SvKT), which only deals with the underlying 1-type (the fundamental groupoid). The actual statements of the results depend on the models of the homotopy invariants being considered.
 
