@@ -1,0 +1,18 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+## References
+
+* Wikipedia, _[Absolute idealism](http://en.wikipedia.org/wiki/Absolute_idealism)_
+
+* [[Hegel]], _[[Science of Logic]]_
+
