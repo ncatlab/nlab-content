@@ -92,7 +92,7 @@ On this, in ([interview, p. 15](http://www.mat.uc.pt/~picado/lawvere/interview.p
 
 Then ([interview, p. 16](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)):
 
-> Q: Back to the origins of Synthetic Dierential Geometry, where did the idea of organizing such a joint course on Mechanics originate ? Apparently, Chandra had suggested that Saunders give some courses relevant to physics, and our joint course was the rst of a sequence. Eventually Mac Lane gave a talk about the [[Hamilton-Jacobi equation]] at the Naval Academy in summer 1970 that was published in the American Mathematical Monthly
+> Q: Back to the origins of Synthetic Differential Geometry, where did the idea of organizing such a joint course on Mechanics originate ? Apparently, Chandra had suggested that Saunders give some courses relevant to physics, and our joint course was the rst of a sequence. Eventually Mac Lane gave a talk about the [[Hamilton-Jacobi equation]] at the Naval Academy in summer 1970 that was published in the American Mathematical Monthly
 
 > A: $[...]$ I began to apply the Grothendieck topos theory that I had learned from Gabriel to the problem of simplied foundations of [[continuum mechanics]] as it had been inspired by [[Clifford Truesdell|Truesdell]]'s teachings, [[Walter Noll|Noll]]'s [[axiom|axiomatizations]], and by my 1958 efforts to render categorical the subject of [[topological dynamics]].
 
