@@ -19,7 +19,7 @@ The [[higher geometry]] in the [[(∞,1)-topos]] over the [[(∞,1)-site]] of [[
 
 This is the "full" version of [[derived algebraic geometry]] (as opposed to less refined versions where instead of genuine [[E-∞ rings]] one uses just [[simplicial rings]] and/or just [[dg-algebras]]).
 
-In ([Lurie](#Lurie)) this is called "[[spectral geometry]]", but see the possible terminology clash discussed there.
+In ([[Spectral Schemes|Lurie, Spectral Schemes]]) this is called "[[spectral geometry]]", but see the possible terminology clash discussed there.
 
 An [[E-∞ scheme]] in this sense is a [[structured (∞,1)-topos]] in $E_\infty$geometry.
 
@@ -31,6 +31,9 @@ The basic definitions are in
  {#Lurie}
 
 Further properties are discussed in 
+
+* [[Jacob Lurie]], _[[Proper Morphisms, Completions,
+and the Grothendieck Existence Theorem]]_
 
 * [[Jacob Lurie]], _[[Representability theorems]]_
 
