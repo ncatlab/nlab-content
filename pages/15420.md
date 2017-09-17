@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+This page collects links related to 
+
+* [[Gregory Moore]],
+
+  _The Impact of D-Branes on Mathematics_,
+
+  talk at [PolchinskiFest 2014](http://online.kitp.ucsb.edu/online/joefest-c14/)
+
+  ([pdf](http://www.physics.rutgers.edu/~gmoore/JOEFEST-THOUGHTS.pdf))
+
+on the concept of [[D-branes]] in  [[mathematical physics]] and [[mathematics]].
+
+Related:
+
+* G. Moore, _[[Physical Mathematics and the Future]]_, 2014
+
+category: reference
