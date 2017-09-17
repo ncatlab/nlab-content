@@ -19,6 +19,8 @@
 
 A **symplectomorphism** from a [[symplectic manifold]] $(M,\omega)$ to a symplectic manifold $(N,\nu)$ is a [[diffeomorphism]] $f : M \to N$ preserving the [[sympletic form]]: in other words $f$ is a differentiable map with differentiable inverse and it satisfies $f^*(\nu)=\omega$. 
 
+Inasmuch as a symplectic manifold carries a canonical volume form, it is clear that a symplectomorphism is locally volume-preserving. 
+
 ### Auto-symplectomorphisms
 
 The symplectomorphisms from a [[symplectic manifold]] $(X, \omega)$ to itself form an infinite-dimensional [[Lie group]]. Its [[Lie algebra]] is that of [[symplectic vector fields]]: those vector fields $v \Gamma(T X)$ such that their [[Lie derivative]] preserves the [[symplectic form]]
@@ -27,5 +29,36 @@ $$
   \mathcal{L}_v \omega = 0
   \,.
 $$
+
+### A curious example: volumes of balls 
+
+The following example, due to Andreas Blass and Stephen Schanuel, is a categorified way to calculate volumes of even-dimensional balls. 
+
+In any dimension $n$, the volume of the unit ball in $\mathbb{R}^n$ (with respect to Lebesgue measure) is 
+
+$$vol(B_n) = \frac{\pi^{n/2}}{\Gamma(\frac{n}{2} + 1)}$$ 
+
+where $\Gamma$ is the [[Euler Gamma function]]. In dimension $2 n$, this gives 
+
+$$vol(B_{2 n}) = \frac{\pi^n}{n!}$$ 
+
+Meanwhile, we may regard $\pi^n$ as the volume of the $n$-dimensional complex polydisc, viz. the $n^{th}$ cartesian power of the complex 1-disc $B_{2} = \{z: {|z|} \leq 1\}$, on which the symmetric group $S_n$ acts by permuting coordinates. The volume of the orbit space $B_2^n/S_n$ is clearly $\pi^n/n!$. 
+
++-- {: .un_thm}
+###### Theorem (Blass-Schanuel)
+Given $(z_1, \ldots, z_n) \in \mathbb{C}^n$, write coordinates $z_j$ in polar coordinate form $z_j = r_j e^{i \theta_j}$, and define an $S_n$-invariant map $\phi \colon B_2^n \to B_{2 n}$ by first permuting the $z_j$ so that $r_1 \geq r_2 \geq \ldots \geq r_n$ and then mapping $(z_1, \ldots, z_n)$ to 
+$$(\sqrt{r_1^2 - r_2^2}e^{i\theta_1}, \sqrt{r_2^2 - r_3^2}e^{i(\theta_1 + \theta_2)}, \ldots, \sqrt{r_{n-1}^2-r_n^2}e^{i(\theta_1 + \theta_2 + \ldots + \theta_{n-1})}, r_n e^{i(\theta_1 + \theta_2 + \ldots + \theta_n)})$$ 
+Then $\phi$ induces a continuous well-defined map $B_2^n/S_n \to B_{2 n}$. Furthermore, when restricted to the set $P_n$ of $(z_1, \ldots, z_n)$ for which the $r_j$ are all distinct, $\phi$ induces a smooth symplectic isomorphism mapping $P_n/S_n$ onto the set $Q_n$ of $(w_1, \ldots, w_n) \in B_{2 n}$ for which $w_j \neq 0$ for $1 \leq j \leq n-1$. 
+=--  
+
+In other words, writing $z_j = x_j + i y_j$ the symplectic 2-form 
+
+$$\sum_{j=1}^n d x_j \wedge d y_j = \sum_{j=1}^n r_j d r_j \wedge d\theta_j$$ 
+
+is preserved by pulling back along $\phi \colon P_n/S_n \to Q_n$. Since symplectic maps are locally volume-preserving, and since $P_n$ and $Q_n$ are almost all of $B_2^n$ and $B_{2 n}$ respectively, this gives a proof that the volume of $B_{2 n}$ is $\pi^n/n!$ (alternate to standard purely computational proofs). 
+
+## References 
+
+* [[Andreas Blass]] and [[Stephen Schanuel]], On the volumes of balls ([ps](http://www.math.lsa.umich.edu/~ablass/vol.ps)).  
 
 [[!redirects symplectomorphisms]]
