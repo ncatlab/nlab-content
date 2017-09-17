@@ -68,7 +68,7 @@ A model category structure on the category of $sSet$-categories with a fixed set
 
 * Dwyer, [[Dan Kan]], _Simplicial localization of categories_ , J. Pure and Applied Algebra 17 (3) (1980), 
 
-Dywer, Spalinski and later Rezk then pointed out that there ought to exist a model category structrue on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
+Dywer, Spalinski and later Rezk then pointed out that there ought to exist a model category structure on the collection of all $sSet$-categories that models the [[(∞,1)-category of (∞,1)-categories]]. This was then constructed in
 
 * [[Julie Bergner]], _A model category structure on the category of simplicial categories_ , Trans. AMS ([arXiv:0406507](http://arxiv.org/abs/math/0406507))
 
