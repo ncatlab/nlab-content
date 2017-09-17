@@ -37,7 +37,5 @@ See also
 * [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_, Prog.Math. 133 (1995) 637-678 ([arXiv:hep-th/9207094](http://arxiv.org/abs/hep-th/9207094))
  {#Witten92}
 
-Somebody has slides online titled
-
-* _World sheets for world sheets revisited_ ([pdf](http://pirsa.org/pdf/files/91367ab3-1691-4b7d-a5d8-10bcae327dc0.pdf))
+*  Eliezer Rabinovici, _World sheets for world sheets revisited_ ([talk](http://pirsa.org/09070008/), [slides](http://pirsa.org/pdf/files/91367ab3-1691-4b7d-a5d8-10bcae327dc0.pdf))
 
