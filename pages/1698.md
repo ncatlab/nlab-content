@@ -12,7 +12,7 @@
 
 ## Idea
 
-A _fibration sequence_ is a "long right-[[exact sequence]]" (or left-exact, I keep mixing that up) in an [[(∞,1)-category]].
+A _fibration sequence_ is a "long left-[[exact sequence]]" in an [[(∞,1)-category]].
 
 Traditionally fibration sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself. In these cases they are obtained in terms of [[homotopy pullback]]s.
 
