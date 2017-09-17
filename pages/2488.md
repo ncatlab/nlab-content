@@ -559,6 +559,8 @@ Moreover, by the fact discussed at <a href="http://ncatlab.org/nlab/show/adjoint
 
 * **$n$-truncated morphism** / [[n-connected]] morphism
 
+* [[homotopy level]]
+
 ## References
 
 The discussion of truncated objects in an $(\infty,1)$-category is in section 5.5.6 of
