@@ -18,7 +18,7 @@ which commutes up to specified isomorphism, where $e\in E$ and $m\in M$, has a d
 
 ## Examples
 
-The following are all factorization systems in the 2-category $Cat$.
+The following are all factorization systems in the 2-category $Cat$.  Many of them have analogues in more general 2-categories.
 
 * $E=$ [[essentially surjective functors]], $M=$ [[fully faithful functors]].  This is the "ur-example," and it generalizes to [[enriched category theory]], [[internal category]] theory, etc.
 
@@ -40,6 +40,12 @@ then we obtain the notion of a $Cat$-enriched, or strict 2-categorical, factoriz
 
 It is important to note that in general, the strict and weak notions of 2-categorical factorization system are incomparable; neither is a special case of the other.  For example, on $Cat$ there is a weak 2-categorical factorization system where $E=$ [[essentially surjective functors]] and $M=$ [[fully faithful functors]], and a strict 2-categorical factorization system where $E=$ [[bijective on objects functors]]
 and $M=$ [[fully faithful functors]].
+
+## Related pages
+
+* Factorization systems in a 2-category play an important role in the construction of a [[proarrow equipment]] out of [[codiscrete cofibrations]].
+
+* Combining the (eso,ff) and (eso+full, faithful) factorization systems into a "three-fold" factorization has connections with the theory of [[stuff, structure, property]].
 
 [[!redirects factorization system on a 2-category]]
 [[!redirects factorization systems in a 2-category]]
