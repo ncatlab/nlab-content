@@ -379,7 +379,7 @@ The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topo
 
 Extension of sheafification of presheaves with values in other categories has been advanced in
 
-* A. Heller, K. A. Rowe, _On the category of sheaves_ , Amer. J. Math. 84, 1962, 205-216.
+* [[Alex Heller]], K. A. Rowe, _On the category of sheaves_ , Amer. J. Math. 84, 1962, 205-216.
 
 * Barr, Grillet and Van Osdol, _Exact categories and categories of sheaves_ , Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971 
 
