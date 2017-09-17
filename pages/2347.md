@@ -236,6 +236,8 @@ Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechani
 
 * [[semiclassical approximation]]
 
+* [[classical anomaly]]
+
 * [[quantization]]: [[deformation quantization]], [[geometric quantization]]
 
 * [[quantum mechanics]], [[supersymmetric quantum mechanics]]
@@ -249,7 +251,7 @@ Traditional classical mechanics ([[Hamiltonian mechanics]], [[Lagrangian mechani
 
 Classical textbooks include
 
-* [[Vladimir Arnol'd]], _Mathematical methods of classical mechanics_, Graduate texts in Mathematics 60 (1978)
+* [[Vladimir Arnol'd]], _[[Mathematical methods of classical mechanics]]_, Graduate texts in Mathematics 60 (1978)
 
 * [[Ralph Abraham]], [[Jerrold Marsden]], _[[Foundations of Mechanics]]_ (1978)
 
