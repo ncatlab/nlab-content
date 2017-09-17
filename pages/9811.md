@@ -1,4 +1,13 @@
-Let $S$ be a noetherian scheme.  The **h-topology** is a [[Grothendieck topology]] on the category of schemes, used by [[Vladimir Voevodsky]] to construct a [[triangulated category]] $DM$ of mixed [[motives]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Let $S$ be a [[noetherian scheme]].  The **h-topology** is a [[Grothendieck topology]] on the category of schemes, used by [[Vladimir Voevodsky]] to construct a [[triangulated category]] $DM$ of [[mixed motive|mixed]] [[motives]].
+
+## Definition
 
 A morphism $p : X \to Y$ of [[schemes]] is called a [[topological epimorphism]] if the underlying topological space of $Y$ is a quotient space of the underlying topological space of $X$, i.e. $p$ is surjective and a subset $A \subset Y$ is open iff its preimage $p^{-1}(A) \subset X$ is open.  Such a morphism is further called a [[universal]] topological epimorphism if this property is preserved under any [[base change]].
 
@@ -14,13 +23,3 @@ The h-topology is stronger than the [[etale topology|etale]] and [[proper topolo
 ## References
 
 * [[Vladimir Voevodsky]], _Homology of schemes, I_.  1994, K-theory Preprint Archives, [url](http://www.math.uiuc.edu/K-theory/0031/)
----
-Section 3 of Voevodsky's thesis is probably the earliest reference. Contains some very interesting motivation. Example which seems to show necessity of considering nonsubcanonical topologies, as well as discussion of blowups as coverings. Also mention of qfh-topology, and a long list of examples clarifying the properties of the h-topology. THen loads and loads of more interesting material, for example a comparison thm with etale cohomology, Thm 3.32: If F is a loc constant sheaf in the etale topology, then F is also an h-sheaf, and etale and h-cohomology agree.
-
-See also Voevodsky: Homology of schemes I, which appears to be an improved version of his thesis.
-
-Scholbach article.
-
-On the h-topology (from Deglise's Oberwolfach talk I think): $f: W \to S$ is an h-cover if it is a topological epimorphism and remains so after any pullback (i.e. a universal topological epi). E.g. a faithfully flat map, or a proper surjective map.
-
-nLab page on [[nlab:h-topology]]
