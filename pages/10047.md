@@ -48,6 +48,10 @@ where $i$ is the [[adjunct]] of the identity $y = \colim \hat{y}$ (or of the ide
 
 However, if $\tilde{C}(x,y)$ denotes the set of wavy arrows, then the composition defines a map of [[profunctors]] $\tilde{C} \otimes_C \tilde{C} \to \tilde{C}$ which is in fact an isomorphism.  Combined with the map from wavy arrows to straight ones, this makes $\tilde{C}$ into an idempotent [[comonad]] on $C$ in the bicategory [[Prof]].
 
+## Related pages
+
+* Continuous categories can be generalized to [[continuous algebras]] for a [[lax-idempotent 2-monad]].
+
 ## References
 
 * [[Peter Johnstone]] and [[Andre Joyal]], *Continuous categories and exponentiable toposes*, JPAA 25 (1982), [doi (free PDF)](http://dx.doi.org/10.1016/0022-4049%2882%2990083-4)
