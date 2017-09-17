@@ -1,5 +1,5 @@
 
-> This page is about a variant of the notion of [[natural transformation]] in [[category theory]]. For the notion of _canonical transformation_ in [[Hamiltonian mechanics]] see at [[symplectomorphism]].
+> This page is about a variant of the notion of [[natural transformation]] in [[category theory]]. For the notion of _canonical transformation_ in [[Hamiltonian mechanics]] see at [[canonical transformation]], [[symplectomorphism]], [[Lagrangian correspondence]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -89,9 +89,6 @@ An analogous notion for higher functors makes a prominent appearance in [[Chris 
 * [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([pdf](http://sites.google.com/site/chrisschommerpriesmath/Home/Slides-MFO-6-11-09.pdf?attredirects=0))
 
 See [[holographic principle of higher category theory]] for more on that.
-
-[[!redirects canonical transformation]]
-[[!redirects canonical transformations]]
 
 [[!redirects canonical map]]
 [[!redirects canonical maps]]
