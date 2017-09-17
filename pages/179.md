@@ -143,6 +143,17 @@ $$
 
 from non-negatively graded cochain [[dg-algebra]]s to [[cosimplicial algebra]]s (over $\mathb{R}$).
 
++-- {: .num_defn #LInfinityAlgebras}
+###### Definition
+
+An $L_\infty$-algebroid with base space $X = *$ the [[point]] is an [[L-∞ algebra]] $\mathfrak{g}$, or rather is the [[delooping]] of an $L_\infty$-algebra. We write $b \mathfrak{g}$ for $L_\infty$-algebroids over the point. They form the full [[subcategory]]
+
+$$
+  L_\infty Alg \hookrightarrow L_\infty Algd
+  \,.
+$$
+
+=--
 
 +-- {: .num_defn #PresentationByMonoidalDoldKan}
 ###### Definition
@@ -244,7 +255,7 @@ where the first morphism is the [[monoidal Dold-Kan correspondence]] as in prop.
 +-- {: .num_remark}
 ###### Remark
 
-We do not consider the standard [[model structure on dg-algebras]] and do not consider $L_\infty Algd$ itself as a [[model category]] and do not consider an [[(∞,1)-category]] spanned by it. Instead, the functor $i : L_\infty Algd \to SynthDiff\infty Grpd$ only serves to exhibit a class of objects in $SynthDiff\infty Grpd$, which below in the seciton [ModelsForTheAbstractAxioms](#ModelsForTheAbstractAxioms) we show are indeed $\infty$-Lie algebroids by the general abstract definition, \def{TheGeneralAbstractDefinition}. All the [[homotopy theory]] of objects in $L_\infty Algd$ we is that of $SynthDiff\infty Grpd$ after this embedding.
+We do not consider the standard [[model structure on dg-algebras]] and do not consider $L_\infty Algd$ itself as a [[model category]] and do not consider an [[(∞,1)-category]] spanned by it. Instead, the functor $i : L_\infty Algd \to SynthDiff\infty Grpd$ only serves to exhibit a class of objects in $SynthDiff\infty Grpd$, which below in the section [ModelsForTheAbstractAxioms](#ModelsForTheAbstractAxioms) we show are indeed $\infty$-Lie algebroids by the general abstract definition, \ref{TheGeneralAbstractDefinition}. All the [[homotopy theory]] of objects in $L_\infty Algd$ is that of $SynthDiff\infty Grpd$ after this embedding.
 
 =--
 
@@ -255,15 +266,29 @@ We do not consider the standard [[model structure on dg-algebras]] and do not co
  {#ModelsForTheAbstractAxioms}
 
 Above we have given a general abstract definition, 
-def. \ref{TheGeneralAbstractDefinition} of $\infty$-Lie algebroids, and then a concrete construction in terms of [[dg-algebra]]s, def. \ref{PresentationByMonoidalDoldKan}. Here we discuss that this concrete construction is indeed a presentation for objects satisfying the abstract axioms.
+def. \ref{TheGeneralAbstractDefinition}, of $\infty$-Lie algebroids, and then a concrete construction in terms of [[dg-algebra]]s, def. \ref{PresentationByMonoidalDoldKan}. Here we discuss that this concrete construction is indeed a presentation for objects satisfying the abstract axioms.
 
-+-- {: .un_lemma }
+As in the discussion at [[SynthDiff∞Grpd]] we now present this [[cohesive (∞,1)-topos]] by the [[hypercompletion]] of the [[model structure on simplicial presheaves]] $[FSmoothDiff^{op}, sSet]_{proj,loc}$ of formal smooth manifolds.
+
+
++-- {: .num_lemma #CofibrantResolutionOfLinfinityAlgebroid}
 ###### Lemma
 
+For $\mathfrak{a} \in L_\infty Algd$ and $i(\mathfrak{a}) \in [FSmoothMfd^{op}, Set]_{proj,loc}$ its image in the presentation for $SynthDiff \infty Grpd$,  we have that
 
-The object $\mathbf{B}\mathfrak{g} \in [ThCartSp^{op}, sSet]_{proj,loc}$ is cofibrant.
+$$
+  \left(
+  \int^{[k]\in \Delta}
+    \mathbf{\Delta}[k] \cdot i(\mathfrak{a})_k
+  \right)
+   \stackrel{\simeq}{\to}
+  i(\mathfrak{a})
+$$
+
+is a cofibrant [[resolution]], where $\mathbf{\Delta} : \Delta \to sSet$ is the [[fat simplex]].
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
@@ -274,84 +299,40 @@ $$
   \int^{[k] \in \Delta}
   (-)\cdot (-)
   : 
-  [\Delta, sSet_{Quillen}]_{proj} \times
-  [\Delta^{op}, (T Alg^\Delta_{proj})^{op}]_{inj}
+  [\Delta, sSet_{Quillen}]_{proj} 
+    \times
+  [\Delta^{op}, [FSmoothMfd^{op}, sSet]_{proj,loc} ]_{inj}
   \to 
-  (T Alg^\Delta_{proj})^{op}
+  [FSmoothMfd^{op}, sSet]_{proj,loc}
 $$
 
 for the projective and injective [[global model structure on functors]] on the [[simplex category]] and its opposite is a [[Quillen bifunctor]] (as discussed there). We have moreover
 
 1. The [[fat simplex]] is cofibrant in $[\Delta, sSet_{Quillen}]_{proj}$. 
 
-1. Because every representable $ThCartSp \hookrightarrow [ThCartSp^{op}, sSet]_{proj}$ is cofibrant the object $\mathfrak{g}_\bullet \in [\Delta^{op}, [ThCartSp^{op}, sSet]_{proj}]_{inj}$ is cofibrant.
-
-Therefore also $\mathbf{B}\mathfrak{g}$ is cofibrant.
-
-=--
-
-
-+-- {: .un_lemma }
-###### Lemma
-
-The image of $\mathbf{B}\mathfrak{g}$ under the [[(∞,1)-functor]] $\mathcal{O} : \mathbf{H} \to \mathbf{L}$ described at [[function algebras on ∞-stacks]] is weakly equivalent to the object modeled by $\int^{[k] \in \Delta} \Delta[k] \cdot \mathfrak{g}_k$ (meaning: with the ordinary instead of the fat simplex).
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-As described at [[function algebras on ∞-stacks]] the $(\infty,1)$-functor $\mathcal{O}$ is modeled by a [[Quillen adjunction]]
-
-$$
-  (T Alg^\Delta_{proj})^{op}
-  \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\to}
-  [ThCartSp^{op}, sSet]_{proj}
-  \,,
-$$
-
-where $T = $ [[CartSp]] is the [[Lawvere theory]] of [[smooth algebra]]s.
-
-We use now the [[Reedy model structure]]s over the [[simplex category]]: 
-
-In $[\Delta^{op}, (T Alg^{\Delta}_{proj})^{op}]_{Reedy}$ we have that $[k] \mapsto \mathfrak{g}_k$ is cofibrant, because the inclusion of the degenerate $k$-cells into all $k$-cells is dually a surjection of algebras, hence dually a fibration. 
-
-The [[coend]] over the [[tensoring]] 
-
-$$
-  \int^{[k] \in \Delta}
-  (-)\cdot (-)
-  : 
-  [\Delta, sSet_{Quillen}]_{Reedy} \times
-  [\Delta^{op}, (T Alg^\Delta_{proj})^{op}]_{Reedy}
-  \to 
-  (T Alg^\Delta_{proj})^{op}
-$$
-
-is a [[Quillen bifunctor]] (as discussed there).
-
-Since both the simplex $\Delta$ as well as the [[fat simplex]] $\mathbf{\Delta}$ [[Reedy model structure|are Reedy cofibrant]] and the map $\mathbf{\Delta} \to \Delta$ a weak equivalence, it follows (by the [[factorization lemma]]) that 
-
-$$
-  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathfrak{g}_k
-    \stackrel{\simeq}{\to} 
-  \int^{[k] \in \Delta} \Delta[k] \cdot \mathfrak{g}_k
-$$
-
-is a weak equivalence in $(T Alg^\Delta_{proj})^{op}$.
-
+1. Because every representable $FSmoothMfd \hookrightarrow [FSmoothMfd^{op}, sSet]_{proj,loc}$ is cofibrant, the object $i(\mathfrak{a})_\bullet \in [\Delta^{op}, [FSmoothMfd^{op}, sSet]_{proj,loc} ]_{inj}$ is cofibrant; 
+   
 =--
 
 
 
-+-- {: .un_corollary }
-###### Corollary
 
-The image of $\mathbf{B}\mathfrak{g}$ under the [[(∞,1)-functor]] $\Pi : \mathbf{H} \to \infty Grpd$ described ar [[locally ∞-connected (∞,1)-topos]] is [[contractible]]
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathfrak{g}$ be an [[L-∞ algebra]], regarded as an $L_\infty$-algebroid $b \mathfrak{g} \in L_\infty Algd$ over the point
+by the embedding of def \ref{LInfinityAlgebras}.
+
+Then $i(b \mathfrak{g}) \in $ [[SynthDiff∞Grpd]] is an infinitesimal object, in that it is geometrically contractible
 
 $$
-  \Pi \mathbf{B}\mathfrak{g} \simeq *
+  \Pi b \mathfrak{g} \simeq *
+$$
+
+and has as underlying [[discrete ∞-groupoid]] the point
+
+$$
+  \Gamma b \mathfrak{g} \simeq *
   \,.
 $$
 
@@ -360,17 +341,24 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since by the above lemma $\mathbf{B}\mathfrak{g}$ is cofibrant, the $(\infty,1)$-functor $\Pi$ acts degreewise by replacing the representable presheaf by the point
+We present now [[SynthDiff∞Grpd]] by $[CartSp_{synthdiff}^{op}, sSet]_{proj,loc}$. Since [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]] we have by the discussion there that $\Pi$ is presented by the left [[derived functor]] $\mathbb{L} \lim\to$ of the degreewise [[colimit]] and $\Gamma$ is presented by the left [[derived functor]] of evaluation on the point.
+
+With lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} can evaluate 
 
 $$
-  \Pi : 
-  \mathbf{B}\mathfrak{g}
+  \begin{aligned}
+     (\mathbb{L} \lim_\to) i(b\mathfrak{g})
+     & \simeq
+    \lim_\to \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot 
+     (b \mathfrak{g})_{k} 
+    \\
   =
-  \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathfrak{g}_{k} 
-  \mapsto 
   \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot *
-  \,.
+  \end{aligned}
+  \,,
 $$ 
+
+because each $(b \mathfrak{g})_n \in InfPoint \hookrightarrow CartSp_{smooth}$ is an [[infinitesimally thickened point]], hence representable and hence sent to the point by the colimit functor.
 
 That this is equivalent to the point follows from the fact that $\emptyset \to \mathbf{\Delta}$ is an acylic cofibration in $[\Delta, sSet_{Quillen}]_{proj}$, and that
 
@@ -387,57 +375,108 @@ $$
 
 is a [[Quillen bifunctor]], using that $* \in [\Delta^{op}, sSet_{Quillen}]_{inj}$ is cofibrant.
 
+Similarly, we have degreewise that 
+
+$$
+  Hom(*, (b \mathfrak{g})_n) = *
+$$
+
+by the fact that an [[infinitesimally thickened point]] has a single gllobal point. Therefore the claim for $\Gamma$ follows analogously.
 
 =--
 
-+-- {: .un_corollary }
-###### Corollary
 
-The image of $\mathbf{B}\mathfrak{g}$ under the [[global section]] [[(∞,1)-functor]] $\Gamma : \mathbf{H} \to \infty Grpd$ is [[contractible]]
+
+### Cohomology of $\infty$-Lie algebroids
+  {#Cohomology}
+
+We discuss the relation between the intrinsic [[cohomology]] of $L_\infty$-algebroids when regarded as objects of $SynthDiff\infty Grpd$, and the ordinary cohomology of their [[Chevalley-Eilenberg algebra]]s. For more on this see [[∞-Lie algebroid cohomology]].
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $b \mathfrak{g} \in L_\infty Algd$ be an [[L-∞ algebra]]. Then its <a href="">intrinsic real cohomoloogy</a> in [[SynthDiff∞Grpd]]
 
 $$
-  \Gamma \mathbf{B}\mathfrak{g} \simeq *
+  H^n(b \mathfrak{g}, \mathbb{R})
+  :=
+  \pi_0 SynthDiff\infty Grpd(i(b\mathfrak{g}), \mathbf{B}^n \mathbb{R})
+$$
+
+coincides with its ordinary [[L-∞ algebra cohomology]]: the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
+
+$$
+  H^n(b \mathfrak{g}, \mathbb{R})
+   \simeq
+  H^n(CE(\mathfrak{g}))
   \,.
 $$
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
 
-Since [[ThCartSp]] is an [[(∞,1)-cohesive site]] and using the main theorem there, we have that $\Gamma$ is modeled by the functor that evaluates on the point, and that this is a left Quillen functor
+By <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity-groupoid#StrucCohomology">this discussion</a> at [[SynthDiff∞Grpd]] we have that 
 
 $$
-  Hom(*,-) : [ThCartSp^{op}, sSet]_{proj,loc} \to sSet_{Quillen}
+  H^n(b \mathfrak{g}, \mathbb{R}) \simeq
+  H^n N^\bullet(\mathbb{L}\mathcal{O})(i(b \mathfrak{g}))
   \,.
 $$
 
-Therefore $\Gamma \mathbf{B}\mathfrak{g}$ is modeled by degreewise evaluating $\mathfrak{g}_k$ on the point. But since this is by assumption an [[infinitesimal space]] it has only a single point, so that
+By lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} this is
 
 $$
-  \Gamma \mathbf{B}\mathfrak{g}_k  = \int^{[k] \in \Delta} \mathbf{\Delta}[k]
+  \cdots \simeq
+  H^n N^\bullet
+  \left(
+    \int^{[k] \in \Delta} \mathbf{\Delta}[k] \cdot \mathcal{O}(i(n\mathfrak{g})_k)
+  \right)
   \,.
 $$
 
-As in the previous corollary, this is equivalent to the point.
-
-=--
-
-+-- {: .un_corollary }
-###### Corollary
-
-The canonical morphism
+Observes that $\mathcal{O}(b \mathfrak{g})_\bullet$ is cofibrant in the [[Reedy model structure]] $[\Delta^{op}, (SmoothAlg^\Delta_{proj}})^{op}]_{Reedy}$ relative to the opposite of the projective [[model structure on cosimplicial algebras]]:  the map from the latching object in degree $n$ in $SmoothAlg^\Delta)^{op}$ is dually in $SmoothAlg \hookrightarrow SmoothAlg^\Delta$ the projection 
 
 $$
-  \Gamma \mathbf{B}\mathfrak{g} \to \Pi \mathbf{B}\mathfrak{g}
+  \oplus_{i = 0}^n CE(\mathfrak{g})_i \otimes \wedge^i \mathbb{R}^n
+  \to
+  \oplus_{i = 0}^{n-1} CE(\mathfrak{g})_i \otimes \wedge^i \mathbb{R}^n
 $$
 
+hence is a surjection, hence a fibration in $SmoothAlg^\Delta_{proj}$ and therefore indeed a cofibration in $(SmoothAlg^\Delta_{proj})^{op}$.
 
-is an [[equivalence in a quasi-category|equivalence]] in [[∞Grpd]].
+Therefore using the [[Quillen bifunctor]] property of the coend over the tensoring in reverse to lemma \ref{CofibrantResolutionOfLinfinityAlgebroid} the above is equivalent to
+
+$$
+  \cdots 
+  \simeq
+  H^n N^\bullet
+  \left(
+    \int^{[k] \in \Delta} \Delta[k] \cdot \mathcal{O}(i(n\mathfrak{g})_k)
+  \right)
+$$
+
+with the [[fat simplex]] replaced again by the ordinary simplex. But in brackets this is now by definition the image under the [[monoidal Dold-Kan correspondence]] of the [[Chevalley-Eilenberg algebra]]
+
+$$
+  \cdots 
+  \simeq
+  H^n( N^\bullet \Xi CE(\mathfrak{g}) )
+  \,.
+$$
+
+By the [[Dold-Kan correspondence]] we have hence
+
+$$
+  \cdots \simeq
+  H^n(CE(\mathfrak{g}))
+  \,.
+$$
 
 =--
-
-By the discussion at [[cohesive (∞,1)-topos]] this characterizes $\mathbf{B}\mathfrak{g}$ intrinsically as an infinitesmal object.
 
 
 ### Lie algebroids regarded as $\infty$-Lie algebroids
