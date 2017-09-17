@@ -18,6 +18,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A [[computability|computable function]] is often taken to be one that acts on the [[natural numbers]] (a [[partial  recursive function]]) but for purposes of [[analysis]] ([[computable analysis]], [[exact analysis]]) and related fields (notably [[physics]], see at _[[computable physics]]_) one considers [[computation]] on [[real numbers]] to finite but arbitrary precision. This means that in this context of analysis a computable function should be an [[algorithm]] that successively reads in [[natural numbers]] from a possibly infinite list (specifying an input to ever higher accuracy) and accordingly outputs a result as incrementally as an infinite list. 
+
+Mathematically this is captured by [[continuous functions]] on [[quotient spaces]] of [[Baire space (computability)]] and goes by the name _[[Type Two Theory of Effectivity]]_ or similar. In implementations this is essentially what is known as _[[exact real computer arithmetic]]_. 
+
 ## Definition
 
 In [[Type Two Theory of Effectivity]] for [[computable analysis]] (see [Weihrauch 00](#Weihrauch00)) one considers the following definition:
@@ -37,7 +43,7 @@ Write $AdmRep$ for the [[category]] of admissible representations in this sense,
 ### General
  {#GeneralProperties
 
-The category $AmdRep$ is [[cartesian closed category|cartesian closed]] and has all countable [[limits]] and [[colomits]] ([BSS 07 (4.10)](#BSS07))
+The category $AmdRep$ is [[cartesian closed category|cartesian closed]] and has all countable [[limits]] and [[colimits]] ([BSS 07 (4.10)](#BSS07))
 
 ### Relation to function realizability
 
