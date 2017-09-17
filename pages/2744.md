@@ -425,6 +425,10 @@ The relation to [[covariant phase space]] methods is discussed in
 * [[Frédéric Hélein]], _Multisymplectic formalism and the covariant phase_ ([arXiv:1106.2086](http://arxiv.org/abs/1106.2086))
   {#Helein}
 
+A discussion of [[Hamiltonian n-forms]] as [[observables]] is in 
+
+* [[Frédéric Hélein]], _The notion of observable in the covariant Hamiltonian formalism for the calculus of variations with several variables_ ([arXiv:math-ph/0401047](http://arxiv.org/abs/math-ph/0401047))
+
 Other texts include
 
 * [[Carlo Rovelli]], _Covariant hamiltonian formalism for field theory: Hamilton-Jacobi equation on the space $\mathcal{G}$_ ([arXiv:gr-qc/0207043](http://arxiv.org/abs/gr-qc/0207043))
