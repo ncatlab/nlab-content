@@ -1,23 +1,21 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Physics
+### Context
+#### Riemannian geometry
 +--{: .hide}
-[[!include physicscontents]]
+[[!include Riemannian geometry - contents]]
 =--
 #### Gravity
-+--{: .hide}
++-- {: .hide}
 [[!include gravity contents]]
 =--
 =--
 =--
 
 
-
-
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 
@@ -82,7 +80,9 @@ Given a general spacetime, there is not necessarily a globally defined coordinat
 
   * [[Kerr spacetime]] 
 
-...
+* [[anti de Sitter spacetime]]
+
+(...)
 
 [[!redirects space-time]]
 [[!redirects space time]]
