@@ -34,6 +34,6 @@ Each of these definitions can be unraveled to give a more explicit definition, a
 
 ## Composites
 
-Composition of double profunctors can (maybe?) be defined, but it is not in general associative.  From the internal-category point of view, this is because [[pullbacks]] in $Cat$ do not preserve [[coequalizers]].  Thus, double categories and double profunctors do not form a [[bicategory]].  They do, however, form an [[fc-multicategory]], as do internal categories in any category with pullbacks.
+Composition of double profunctors can (maybe?) be defined, but it is not in general associative.  From the internal-category point of view, this is because [[pullbacks]] in $Cat$ do not preserve [[coequalizers]].  Thus, double categories and double profunctors do not form a [[bicategory]].  They do, however, form a [[virtual double category]], as do internal categories in any category with pullbacks.
 
 [[!redirects double profunctors]]
