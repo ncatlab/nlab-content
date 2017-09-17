@@ -100,7 +100,7 @@ An $Ab$-enriched functor preserves all finite biproducts that exist, since finit
 =--
 
 
-### Characterization by exactness
+### Characterization of right exact additive functors
  {#CharacterizationByExactness}
 
 Let $R, R'$ be [[rings]].
@@ -131,7 +131,7 @@ In the context of [[derived functors in homological algebra]] one considers func
 
 ## References
 
-* Charles Watts, _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
+* Charles E. Watts, _Intrinsic characterizations of some additive functors_, Proceedings of the American Mathematical Society (1959) ([JSTOR](http://www.jstor.org/stable/2032707))
  {#Watts}
 
 [[!redirects additive functors]]
