@@ -1,3 +1,3 @@
-Under this proposal, customers would pay upfront and recurring fees  to cover the costs of turning off the radio, manually reading the meters every month, modifying IT systems and providing information to  customers on the program through call centers and other channels.
- <a href="http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Classic-c-56.html" >Classic</a>
-[url=http://www.artifexassociates.com/Coachhandbagcharming.asp?charming=Classic-c-56.html]Classic[/url]
+"These updated figures from the ONS still underestimate the true scale of zero-hour working, which has spread like wildfire throughout our economy," said Frances O'Grady, general secretary of the Trade Union Congress (TUC).
+ <a href="http://www.topazg.com/Coachhandbagdiscount.asp?discount=prada-totes-c-122_129.html" >Totes</a>
+[url=http://www.topazg.com/Coachhandbagdiscount.asp?discount=prada-totes-c-122_129.html]Totes[/url]
