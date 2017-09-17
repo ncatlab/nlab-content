@@ -129,29 +129,69 @@ This functor $\mathbb{Z}$ has the following properties:
 Simplicial groups are models for [[∞-group]]s. For details see
 <a href="http://ncatlab.org/nlab/show/groupoid+object+in+an+(infinity%2C1)-category#ModelsInInfGrpd">models for group objects in ∞Grpd</a>.
 
-## Delooping and universal principal bundle of a simplicial group {#DeloopingAndBundle}
+## Delooping and simplicial principal bundles  {#DeloopingAndBundle}
+
+For $G$ a simplicial group, we describe its [[delooping]] [[Kan complex]] $\mathbf{B}G  \in sSet$ and the corresponding [[generalized universal bundle]] $\mathbf{E}G \to \mathbf{B}G$ such that the ordinary [[pullback]]
+
+$$
+  \array{
+    P_\bullet &\to& \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    X_\bullet &\stackrel{g}{\to}& \mathbf{B}G
+  }
+$$  
+
+in [[sSet]] models the [[homotopy pullback]]
+
+$$
+  \array{
+    P_\bullet &\to& *
+    \\
+    \downarrow && \downarrow
+    \\
+    X_\bullet &\to& \mathbf{B}G
+  }
+$$  
+
+in the standard [[model structure on simplicial set]]s and hence produces the [[principal ∞-bundle]] $P_\bullet \to X_\bullet$ classified by $X_\bullet \to \mathbf{B}G$.
+
+For all these constructions exist very explicit combinatorial formulas that go by the symbols
+
+* $\overline{W}G$ for $\mathbf{B}G$
+
+* $W G$ for $\mathbf{E}G$
+
+* $X_\bullet \times_g W G$ for $P_\bullet$ (called "twisted product").
+
+All of these constructions are functorial and hence lift from the context of [[simplicial set]]s to that of [[simplicial presheaves]] over some [[site]] $C$. There they provide models for strict [[group object in an (infinity,1)-topos|group objects]], [[delooping]] and [[principal ∞-bundle]]s in the corresponding [[(∞,1)-topos]]es over $C$. In particular in the projective model structure on $[C^{op}, sSet]$ the pullback of the objectwise $W G \to \overline{W}G$ is still a homotopy pullback and models the corresponding principal $\infty$-bundles.
+
 
 ### Delooping {#Delooping}
 
-Every simplicial group $G$ gives rise to a one-object [[∞-groupoid]] $\mathbf{B} G$ -- its [[delooping]] -- whose explicit realization as a [[Kan complex]] is traditionally denoted $\bar W G$.
+A simplicial group $G$ is a [[group object in an (infinity,1)-category|group object]] [[internalization|internal]] to the category of [[Kan complex]]es. Accordingly, there should be a [[Kan complex]] $\mathbf{B}G$ which is the [[delooping]] of $G$, i.e. a Kan complex with an essentially unique object, such that the [[loop space object]] of that Kan complex reproduces $G$.
 
-We will give this in the more general form needed for a [[simplicial groupoid]].
+An explicit construction of $\mathbf{B}G$ from $G$ goes traditionally by the symbol $\bar W G \in KanCplx$. 
 
-For a general discussion on [[classifying space|classifying spaces]] go to that entry.
+It is immediate to deloop the simplicial group $G$ to the [[simplicial groupoid]] that in degree $k$ is the 1-[[groupoid]] with a single object and $G_k$ as its collection of morphisms. 
 
-Let $G$ be a simplicial groupoid, then $\overline{W}G$ is the simplicial set  described by
 
-* $(\overline{W}G)_0 = ob(G_0)$, the set of objects of the groupoid of 0-simplices (and hence of the groupoid at each level);
++-- {: .un_defn}
+###### Definition
 
-* $(\overline{W}G)_1 = arr(G_0)$, the set of arrows of the groupoid $G_0$:
+For $\mathcal{G}$ a [[simplicial groupoid]] that on objects is a constant simplicial set, define a [[simplicial set]] $\bar W \mathcal{G}$ as follows.
 
+* $(\overline{W}\mathcal{G})_0 := ob(\mathcal{G}_0)$, the set of objects of the groupoid of 0-simplices (and hence of the groupoid at each level);
+
+* $(\overline{W}\mathcal{G})_1 = Mor(\mathcal{G}_0)$, the collecton of [[morphism]]s of the groupoid $\mathcal{G}_0$:
 
 and for $n \geq 2$,
 
-*  $(\overline{W}G)_n = \{(h_{n-1}, \ldots ,h_0)| h_i \in arr(G_i)$  and $s(h_{i-1}) = t(h_i), 0\lt i\lt n\}$.
+*  $(\overline{W}\mathcal{G})_n = \{(h_{n-1}, \ldots ,h_0)| h_i \in Mor(\mathcal{G}_i)$  and $s(h_{i-1}) = t(h_i), 0\lt i\lt n\}$.
 
 Here  $s$ and $t$ are generic symbols for the domain and codomain mappings of all the groupoids involved.  The face and degeneracy mappings between 
-$\overline{W}(G)_1$ and $\overline{W}(G)_0$ are the source and target maps and the identity maps of $G_0$, respectively; whilst the face and degeneracy maps at higher levels are given as follows:
+$\overline{W}(\mathcal{G})_1$ and $\overline{W}(\mathcal{G})_0$ are the source and target maps and the identity maps of $\mathcal{G}_0$, respectively; whilst the face and degeneracy maps at higher levels are given as follows:
 
 The face and degeneracy maps are given by
 
@@ -160,20 +200,70 @@ The face and degeneracy maps are given by
 
 *  for $0 \lt  i\lt  n$, $d_i(h_{n-1}, \ldots, h_0)  = (d_{i-1}h_{n-1}, d_{i-2}h_{n-2}, \ldots, d_0h_{n-i}h_{n-i-1},h_{n-i-2}, \ldots , h_0)$; 
 
- and
-
+and
 
 *  $d_n(h_{n-1}, \ldots, h_0) = (d_{n-1}h_{n-1}, d_{n-2}h_{n-2}, \ldots, d_1h_{1})$;
 
 
- whilst
+whilst
 
 *  $s_0(h_{n-1}, \ldots, h_0) = (id_{dom(h_{n-1})},h_{n-1}, \ldots, h_0) $;
 
- and,
+and,
 
 
 * for $0\lt i \leq n$, $s_i(h_{n-1}, \ldots, h_0) = (s_{i-1}h_{n-1}, \ldots, s_0h_{n-i}, id_{cod(h_{n-i})},h_{n-i-1}, \ldots,  h_0) $.
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+For $G$ a simplicial group and $\mathcal{G}$ the corresponding one-object [[simplicial groupoid]], one writes
+
+$$
+  \overline{W}G := \overline{W}\mathcal{G}
+  \,.
+$$
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+The above construction has a straightforward [[internalization]] to contexts other than [[Set]]. For instance if $G$ is a [[simplicial object]] in [[topological group]]s or in [[Lie group]]s, then $\overline{W}G$ with
+
+$$
+  (\overline{W}G)_n :=
+  G_{n-1} \times G_{n-2} \times \cdots \times G_0
+$$
+
+is a [[simplicial object]] in this context ([[topological spaces]], [[smooth manifold]]s, etc.)
+
+In particular, if $C$ is a [[small category]] and $G : C^{op} \to sSet$ is a [[simplicial presheaf]] that is objectwise a simplicial group, then we have the simplicial presheaf
+
+$$
+  \overline{W}G : c \mapsto \overline{W}(G(c))
+  \,.
+$$
+
+
+=--
+
+#### Examples
+
+If $G$ is an ordinary [[group]], regarded as a simplicially constant simplicial group, then $\overline{W}G$ is the usual bar complex of $G$:
+
+$$
+  \overline{W}G =
+  \left(
+    \cdots G \times G \stackrel{\to}{\stackrel{\to}{\to}} G \stackrel{\to}{\to} *
+  \right)
+  \,.
+$$
+
+
 
 
 ### Universal simplicial principal bundle {#UniversalBundle}
