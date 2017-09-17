@@ -211,7 +211,7 @@ Original reference on self-dual/chiral fields include
 
 The chiral boson in 2d is discussed in detail in 
 
-* [[Luis Alvarez-Gaumé]], J.-B. Bost, [[Greg Moore]], P. Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503. (#GBMNV)
+* {#GBMNV} [[Luis Alvarez-Gaumé]], J.-B. Bost, [[Greg Moore]], P. Nelson, [[Cumrun Vafa]], _Bosonization On Higher Genus Riemann Surfaces_, Commun. Math. Phys. 112 (1987) 503. 
 
 A quick exposition of the basic idea is in
 
@@ -220,7 +220,7 @@ A quick exposition of the basic idea is in
 
 A precise formulation of the phenomenon in terms of [[ordinary differential cohomology]] is given in
 
-* [[Dan Freed]], [[Greg Moore]], [[Graeme Segal]], 
+* [[Daniel Freed]], [[Greg Moore]], [[Graeme Segal]], 
 
   _The Uncertainty of Fluxes_  Commun.Math.Phys.271:247-274 (2007) ([arXiv:hep-th/0605198](http://arxiv.org/abs/hep-th/0605198))
 
