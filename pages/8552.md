@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Bertrand_Russell)
+
+## Related entries
+
+* [[Russell's paradox]]
+
+category: people
