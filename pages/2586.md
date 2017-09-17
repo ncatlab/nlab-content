@@ -116,7 +116,7 @@ We have
 
   * $Spin(2,1) \simeq SL(2, \mathbb{R})$
 
-  * $Spin(3,1) \simeq SL(s,\mathbb{X})$
+  * $Spin(3,1) \simeq SL(2,\mathbb{C})$
 
   * $Spin(4,1) \simeq Sp(1,1)$
 
