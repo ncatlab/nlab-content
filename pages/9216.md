@@ -1,0 +1,6 @@
+* Helmut Hofer [webpage at IAS](http://www.math.ias.edu/people/faculty/hofer), [description](http://www.ias.edu/people/faculty-and-emeriti/hofer)
+* [wikipedia page](http://en.wikipedia.org/wiki/Helmut_Hofer)
+
+Related entries: [[Hofer's geometry]]/metric, [[polyfold]], [[symplectic topology]]
+
+category: people
