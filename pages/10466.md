@@ -182,7 +182,7 @@ Moreover,  $\Delta$ has a further [[left adjoint]] $\Pi$ which preserves [[finit
 
 ([Rezk 14, 5.1](#Rezk14))
 
-More in detail, the [[shape modality]], [[flat modality]] and [[sharp modality]] of this [[cohesion]] of the global equivariant homotopy theory has the followign description.
+More in detail, the [[shape modality]], [[flat modality]] and [[sharp modality]] of this [[cohesion]] of the global equivariant homotopy theory has the following description.
 
 
 ### Relation between global and local equivariant homotopy theory
