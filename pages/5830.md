@@ -65,16 +65,16 @@ denotes therefore a particular [[section]] of this bundle
 
 $$
   \array{
-     && X
+     && P
      \\  
      & {}^{\mathllap{f}}\nearrow& \downarrow
      \\ 
-     Y &= & Y
+     X &= & X
   }
   \,.
 $$
 
-    \exists x : X , P x
+    exists x : X , P x
 
 denotes the total space $P$ of this bundle (the _[[dependent sum]]_ of the bundle).
 
