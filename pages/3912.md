@@ -27,4 +27,4 @@ from the cohomology of $X$ to the cohomology of the [[Thom space]] $Th(V$, induc
 
 * R.M. Switzer,   _Algebraic topology - homotopy and homology_ , Springer  (1975)
 
-
+* myyn.org (Planetmath) [Thom space](http://myyn.org/m/article/thom-space), [Thom class](http://myyn.org/m/article/thom-class), [Thom isomorphism theorem](http://myyn.org/m/article/thom-isomorphism-theorem)
