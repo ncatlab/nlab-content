@@ -1,6 +1,17 @@
+
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+</div>
+
+
 +--{: .standout}
-Original research alert.
+[[Mike Shulman]]: Original research alert.
 =--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 
 ## Idea
 
