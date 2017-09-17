@@ -263,7 +263,7 @@ $$
   \,,
 $$
 
-where now in the top right we have the [[abelian sheaf cohomology|abelian sheaf]] [[hypercohomology]] with [[coefficients]] in the [[holomorphic differential form]] [[de Rham complex]], truncated as indicated.
+where now in the top right we have the [[abelian sheaf cohomology|abelian sheaf]] [[hypercohomology]] with [[coefficients]] in the [[holomorphic de Rham complex]], truncated as indicated.
 
 =--
 
@@ -488,9 +488,37 @@ A certain [[square root]] of the [[canonical bundle]] on intermediate Jacobians 
 
 ## Examples
 
-### $J^1(\Sigma)$: the Picard varitey
+The two extreme cases of intermdiate Jacobians $J^k(\Sigma)$ with minimal $k = 0$ and maximal $k = dim_{\mathbb{C}}(\Sigma)= 1$ go by special names, the
 
-For the plain [[Jacobian]] of a [[curve]] $\Sigma$ (hence $dim_{\mathbb{C}}(\Sigma) = 1$) one may reformulate as follows (e.g. [Polishchuk 03, section 16.4](#Polishchuk03)):
+* [Picard variety](#ExamplePicard)
+
+* [Albanese variety](#ExampleAlbanese)
+
+respectively.
+
+Of special interest are also the intermediate Jacobian
+
+* [of Calabi-Yau varieties](#ExampleCY).
+
+### $k = 0$: the Picard varitey $J^1(\Sigma)$
+ {#ExamplePicard}
+
++-- {: .num_prop}
+###### Proposition
+
+The intermdiate Jacobian $J^1(\Sigma)$, def. \ref{PlainIJacobian}, of a [[complex curve]] ($dim_{\mathbb{C}}(\Sigma) = 1$) coincides with the connected component $Pic_0(\Sigma)$ of the [[Picard variety]] $Pic(\Sigma)$ of $\Sigma$, hence with the [[Jacobian variety]] $Jac(\Sigma)$:
+
+$$
+  J^1(\Sigma) = Pic_0(\Sigma) = Jac(\Sigma)
+  \,.
+$$
+
+=--
+
+(e.g. [Polishchuk 03, section 16.4](#Polishchuk03))
+
++-- {: .proof}
+###### Proof
 
 Notice that the canonical map 
 
@@ -503,10 +531,9 @@ $$
   \stackrel{\simeq}{\to} H^1(\Sigma, \mathcal{O}_{\Sigma})
 $$ 
 
-is an [[isomorphism]]. (The first map is induced by the splitting $H^1(\Sigma, \mathbb{C}) \simeq H^1(\Sigma,\mathbb{R})\oplus i H^1(\Sigma,\mathbb{R})$ given by [[complexification]] and the second by the splitting $H^1(\Sigma,\mathbb{C}) \simeq H^{0,1}(\Sigma)\oplus H^{1,0}(\Sigma)$ of [[Dolbeault cohomology]], the last map is the [[Dolbeault isomorphism]]).
+is an [[isomorphism]]. The first map is induced by the splitting $H^1(\Sigma, \mathbb{C}) \simeq H^1(\Sigma,\mathbb{R})\oplus i H^1(\Sigma,\mathbb{R})$ given by [[complexification]] and the second by the splitting $H^1(\Sigma,\mathbb{C}) \simeq H^{0,1}(\Sigma)\oplus H^{1,0}(\Sigma)$ of [[Dolbeault cohomology]], the last map is the [[Dolbeault isomorphism]].
 
-
-Now by the [[long exact sequence in cohomology]] of the [[exponential exact sequence]] we have that
+Therefore by the [[long exact sequence in cohomology]] of the [[exponential exact sequence]] we have that
 
 $$
   \begin{aligned}
@@ -527,17 +554,26 @@ $$
 
 is the connected component of the [[Picard variety]] of $\Sigma$.
 
-### $n = 2 dim(X)-1$: Albanese variety
+=--
 
-For $n = 2 dim(X)-1$ then $J^{2 dim(X)-1}(X) = Alb(X)$
-is called the _[[Albanese variety]]_ of $X$.
+### $k = n-1$: Albanese variety 
+ {#ExampleAlbanese}
+
+For $\Sigma$ any space of complex dimension 
+$n \coloneqq dim_{\mathbb{C}}(\Sigma)$ then 
+with $k = n-1$ the $(k+1)$st intermediate Jacobian 
+is built from cohomology in degree one less than the real dimension of $\Sigma$:
+
+$$
+  J^{n-1}(\Sigma) = H^{2k-1}(\Sigma,\mathbb{R})/H^{2k-1}(\Sigma, \mathbb{Z})
+  \,.
+$$
+
+This $(n-1)$st intermediate Jacobian ia known as the _[[Albanese variety]]_ of $\Sigma$.
 
 
-### Of elliptic curves
-
-... [[moduli space of flat connections]]... [[Hitchin connection]]... [[modular functor]]... [[WZW model]]...
-
-### Of Calabi-Yau 3-folds
+### Of Calabi-Yau varieties
+ {#ExampleCY}
 
 A review of intermediate Jacobians of [[Calabi-Yau varieties]] of ([[complex manifold|complex]]) [[dimension]] 3 is in ([Baarsma 11, section 2](#Baarsma11)).
 
