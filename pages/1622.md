@@ -28,7 +28,7 @@ Here are notes from [[Urs Schreiber]] for Monday, June 8, from [[Oberwolfach Wor
 
 * [[braided monoidal category]]
 
-* [[ribbon category], in particular objects have duals
+* [[ribbon category]], in particular objects have duals
 
 * **modularity** a non-degeneracy condition on the braiding given by an isomorphism of algebras
   $$
@@ -47,8 +47,9 @@ Here are notes from [[Urs Schreiber]] for Monday, June 8, from [[Oberwolfach Wor
 
 #### 1.2 ####
 
-**Fact (Reshitikhin-Turaev)** for any modula tensor category
-$C$ there is a monoidal functor
+**Fact ([[Reshitikhin-Turaev model]])** for any 
+[[modular tensor category]]
+$C$ there is a [[monoidal functor]]
 $$
   tft_C : cobord_{3,2}^C \to vect_f(\mathcal{C})
 $$ 
