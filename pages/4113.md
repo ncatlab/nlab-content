@@ -137,7 +137,7 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 
 * [[Albrecht Dold]], _Partitions of unity in the theory of fibrations_, Ann. of Math. 78. (1963), 223-255.
 
-* [[Albrecht Dold]], _Lecturse on algebraic topology_, Springer Classics in Mathematics (1980), p.354.
+* [[Albrecht Dold]], _Lectures on algebraic topology_, Springer Classics in Mathematics (1980), p.354.
 
 * M. Mather, _Paracompactness and partitions of unity_, PhD thesis, Cambridge (1965).
 
