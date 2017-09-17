@@ -17,7 +17,7 @@ This entry is about the book
 
 * [[Kevin Costello]], _Renormalization and effective field theory_ ([pdf](http://www.math.northwestern.edu/%7Ecostello/full_document.pdf) [talk slides](http://www.math.northwestern.edu/~costello/slides.pdf))
 
-on [[perturbative quantum field theory]].
+on [[effective quantum field theory|effective]] [[perturbative quantum field theory]].
 
 
 #Contents#
