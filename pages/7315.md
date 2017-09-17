@@ -1,0 +1,11 @@
+
+* [mathematics genealogy](http://genealogy.math.ndsu.nodak.edu/id.php?id=138756)
+
+## Related entries
+
+* [[superconnection]]
+
+* [[super parallel transport]]
+
+category: people
+
