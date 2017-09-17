@@ -8,7 +8,7 @@ A bibundle is a [[bundle]] with compatible [[actions]] on the left and right.
 
 They generally arise in two related situations: as the objects used to define non-abelian bundle  gerbes and as morphisms between Lie groupoids. The former is a special case of the latter. The general concept of [[bundle]] has no action and so there is nothing to do to make it a bibundle.  However, suppose that $G$ is a [[group]] and you are interested in [[G-bundle]]s.  Then a __$G$-bibundle__ is a bundle that is simultaneously a left $G$-bundle and a right $G$-bundle, such that the left and right actions of $G$ commute. This is a bibundle in the first sense. 
 
-A __principal bibundle__ is a [[principal bundle|principal]] $G$-bundles with commuting left and right $G$-actions.
+A __principal bibundle__ is a [[principal bundle|principal]] $G$-bundle with commuting left and right $G$-actions.
 
 More generally, a __right principal bibundle__ between two groupoids $G$ and $H$ is a set $P$ with a $G$-$H$ [[biaction]] such that the map from $P$ to the objects of $G$ is a surjective submersion and such that the fibers are acted on by $H$ freely and transitively. See [discussion](http://sbseminar.wordpress.com/2007/07/23/a-bicategory-of-groupoids/).
 
