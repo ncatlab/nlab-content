@@ -1,0 +1,79 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Seiberg duality (named after ([Seiberg](#Seiberg))) is a version of [[electric-magnetic duality]] in [[supersymmetry|supersymmetric]] [[gauge theory]]. 
+
+For supersymmetric [[QCD]] it identifies in the infrared (long distance limit, and only there) the [[quark]]s and [[gluon]]s in a theory with $N_f$ quark falvors and $SU(N_c)$ [[gauge group]] for 
+
+$$
+  N_f \gt N_c +1
+$$
+
+with [[soliton]]s in a theory of $N_f$ quark flavors and gauge group $SU(\tilde N_c)$, where
+
+$$
+  \tilde N_c = N_f - N_c 
+  \,.
+$$
+
+
+
+## Related entries
+
+* [[S-duality]]
+
+  * [[electric-magnetic duality]]
+
+    * [[Montonen-Olive duality]]
+
+  * **Seiberg duality**
+
+  * [[geometric Langlands duality]]
+
+
+## References
+
+### Original articles
+
+The original article is
+
+* [[Nathan Seiberg]], _Electric-Magnetic Duality in Supersymmetric Non-Abelian Gauge Theories_ ([arXiv:hep-th/9411149](http://arxiv.org/abs/hep-th/9411149))
+ {#Seiberg}
+
+The "cascade" of Seiberg dualities is due to
+
+* [[Igor Klebanov]], [[Matthew Strassler]], _Supergravity and a Confining Gauge Theory: Duality Cascades and $\chi$SB-Resolution of Naked Singularities_ ([arXiv:hep-th/0007191](http://arxiv.org/abs/hep-th/0007191))
+
+### Lectures and reviews
+
+A good survey is in 
+
+* [[Matthew Strassler]], _The Duality Cascade_ ([arXiv:hep-th/0505153](http://arxiv.org/abs/hep-th/0505153))
+
+See also section 22 of 
+
+* Philip Argyres, _Introduction to supersymmetry_ ([pdf](http://www.physics.uc.edu/~argyres/661/susy1996.pdf))
+
+[[!redirects Seiberg dualities]]
