@@ -132,6 +132,10 @@ in terms of [[differential cohomology]] in general and [[differential string str
 
 * [[gravitational anomaly]]
 
+#### Axial anomaly
+
+* [[axial anomaly]]
+
 #### Conformal anomaly of the string
 
 The [[2d CFT]] on the [[worldsheet]] of the [[bosonic string]] (in flat space, without further background fields) has an
