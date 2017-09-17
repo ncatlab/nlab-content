@@ -1,5 +1,5 @@
 
-> This entry is about the identity in [[Lie theory]]. For another identity named after Jacobi, see at _[[Jacobo theta-function]]_ and _[[Jacobi form]]_.
+> This entry is about the identity in [[Lie theory]]. For another identity named after Jacobi, see at _[[Jacobi theta-function]]_ and _[[Jacobi form]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
