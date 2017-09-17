@@ -24,7 +24,7 @@ The _$J$-homomorphism_ is traditionally a family of [[group]] homomorphisms
 $$
   J_i \;\colon\; \pi_i(O(n)) \longrightarrow \pi_{n+i}(S^n)
 $$
-
+\pi
 from the [[homotopy groups]] of (the [[topological space]] underlying) the [[orthogonal group]] to the [[homotopy groups of spheres]].
 This refines to a morphism of [[∞-groups]]
 
@@ -193,6 +193,7 @@ $$
 (...)
 
 ## Properties
+ {#Properties}
 
 ### Image of the J-homomorphism
  {#Image}
@@ -219,14 +220,26 @@ Because all groups appearing here and in the following are [[cyclic groups]], we
 
 =--
 
+For the following statement it is convenient to restrict to J-homomorphism to the stable [[special orthogonal group]] $S O$, which removes the lowest degree homotopy group in the above
+
+| $n\;mod\; 8$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|---|---|---|---|---|---|---|---|
+| $\pi_n(S O)$ | 0 | $\mathbb{Z}_2$ |0 | $\mathbb{Z}$ | 0 | 0 | 0 | $\mathbb{Z}$ |
+
+| $n\;mod\; 8$ | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+|-----|---|---|---|---|---|---|---|---|
+| ${\vert\pi_n(S O)\vert}$ | 1 | 2 | 1 | $\infty$ | 1 | 1 | 1 | $\infty$ |
+
+
 +-- {: .num_theorem #AdamsQuillenTheorem}
 ###### Theorem
 
-The [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ are the [[direct sum]] of the ([[cyclic group|cyclic]]) [[image]] of the J-homomorphism, def. \ref{JHom}, and the [[kernel]] of the [[Adams e-invariant]].
+The [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ are the [[direct sum]] of the ([[cyclic group|cyclic]]) [[image]] 
+$im(J|_{SO})$ of the J-homomorphism, def. \ref{JHom}, applied to the [[special orthogonal group]] and the [[kernel]] of the [[Adams e-invariant]].
 
 Moreover,
 
-* for $n = 0 \;mod \;$ and $n = 1 \;mod \; 8$ and $n$ positive the J-homomorphism is [[injection|injective]], hence its image is $\mathbb{Z}_2$, 
+* for $n = 0 \;mod \;$ and $n = 1 \;mod \; 8$ and $n$ positive the J-homomorphism $\pi_n(J) \colon \pi_n(S O) \to \pi_n(\mathbb{S})$ is [[injection|injective]], hence its image is $\mathbb{Z}_2$, 
 
 * for $n = 3\; mod\; 8$ and $n = 7 \; mod \; 8$ hence for $n = 4 k -1$, the [[order of a group|order]] of the image is equal to the [[denominator]] of $B_{2k}/4k$, where $B_{2k}$ is the [[Bernoulli number]]
 
@@ -249,6 +262,17 @@ is for low $k$ given by the following table
 =--
 
 See for instance ([Ravenel, p. 5](#Ravenel)).
+
+
++-- {: .num_remark}
+###### Remark
+
+Therefore we have in low degree the following situation
+
+[[!include image of J -- table]]
+
+
+=--
 
 #### Formulation in chromatic homotopy theory
  {#ImageOfJInChromotopy}
@@ -388,4 +412,6 @@ Discussion in the modern perspective of [[higher algebra]] is for instance in
 [[!redirects Adams' conjecture]]
 
 [[!redirects image of J]]
+[[!redirects image of J-homomorphism]]
 [[!redirects image of the J-homomorphism]]
+
