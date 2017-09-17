@@ -1,0 +1,19 @@
+Microlocalization is a tool invented by Mikio Sato to study linear partial differential equations (as a part of his [[algebraic analysis]] program) not only locally in space but also locally in momentum variable. It is a purely algebraic theory that was also continued in parallel by analysts, like Hormander, giving the domain of [[microlocal analysis]].
+
+Sato's theory of microlocalization was first described in the setting of D-modules:
+
+* [[M. Kashiwara]], Kawai, Kimura: foundations of algebraic analysis.
+
+It was then extended by [[M. Kashiwara]] and [[P. Schapira]] to a purely sheaf theoretical theory. 
+
+This theory of microlocalization of (ind)-sheaves was developped in the following works:
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _Ind-sheaves, distributions and microlocalization_, describes the program.
+* [[Masaki Kashiwara]], [[Pierre Schapira]], [[Florian Ivorra]], [[Ingo Waschkies]] _Microlocalization of ind-sheaves_, gives the main results
+and proofs.
+* [[Masaki Kashiwara]], [[Pierre Schapira]] _Ind-sheaves_, SMF, gives a
+complete account of the theory.
+
+A good overview of the theory can by found at:
+
+* [[Pierre Schapira]] Derived categories for the analyst (2010)
