@@ -1,3 +1,3 @@
-$Spec$ is the [[stable (infinity,1)-category]] of [[spectrum|spectra]].
+$Spec$ is the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. It is the free stable [[locally presentable (infinity,1)-category]] on one generator, namely the [[sphere spectrum]].
 
 category: category
