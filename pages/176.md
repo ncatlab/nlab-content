@@ -19,7 +19,11 @@ A conformal field theory (CFT) is accordingly a functor on such a richer categor
 
 See the discussion at [[FQFT]] for more details.
 
-The low dimensional case of $2$-dimensional CFT is the best understood and the most interesting one. In d>2, the global transformations, i.e. the elements of the [[conformal group]], are given by the Poincare algebra, dilations and special conformal transformations. In $2$ dimensions, there are additionaly infinitely many local generators of conformal transformations whose commutation relations are given by the Virasoro algebra. In most of the literature, CFT is understood to be $2$-dimensional.
+Precisely in 2-dimensions is the representation theory of the conformal group exceptionally interesting. In $d \gt 2$, the global transformations, i.e. the elements of the [[conformal group]], are given by the [[Poincare group|Poincare algebra]], dilations and special conformal transformations. In $2$ dimensions, there are additionaly infinitely many local generators of conformal transformations whose commutation relations are given by the [[Virasoro algebra]]. 
+
+Nevertheless, due to the general problems with rigorously handling higher dimensional QFTs, the case of 2-dimensional QFT is the best understood one. There are well-developed tools for handling the theory locally ([[conformal net]]s, [[vertex operator algebra]]s) and at least in the rational case there are complete classification results for the full theories (defined on cobordisms of all genera).
+
+For this reason often in the literature the term "CFT" implicitly refers to the 2-dimensional case.
 
 $2$-dimensional conformal field theories have two major applications:
 
