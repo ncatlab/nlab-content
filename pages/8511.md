@@ -58,6 +58,19 @@ For $k$ a [[field]] and $R = k[x_1, \cdots, x_n]$ the [[polynomial ring]] over $
 
 * [[Koszul complex]]
 
+
+Non-linear variants of the idea of syzygy are
+
+* [[homotopical syzygy]]
+
+and
+
+* [[homological syzygy]].
+
+The idea of a homotopical  $n$-syzygy is discussed at 
+
+* [[higher dimensional szyzgy]]
+
 ## References
 
 An exposition is in 
