@@ -232,9 +232,12 @@ Discussion of the [[quantum anomaly]] of self-dual theories is in
 
 * Samuel Monnier, _The global gravitational anomaly of the self-dual field theory_ ([arXiv:1110.4639](http://arxiv.org/abs/1110.4639), [pdf slides](http://www.physics.rutgers.edu/het/video/monnier11b.pdf))
 
-Discussion of the [[conformal blocks]] of self-dual higher gauge theories is in 
+Discussion of the [[conformal blocks]] and [[geometric quantization]] of self-dual higher gauge theories is in 
 
 * [[Kiyonori Gomi]], _An analogue of the space of conformal blocks in $(4k+2)$-dimensions_ ([pdf](http://www.math.kyoto-u.ac.jp/~kgomi/papers/acb.pdf))
+
+* Samuel Monnier, _Geometric quantization and the metric dependence of the self-dual field theory_ ([arXiv:1011.5890](http://arxiv.org/abs/1011.5890))
+
 
 
 For the case of nonabelian self-dual 1-form gauge fields see the references at _[[Yang-Mills instanton]]_.
