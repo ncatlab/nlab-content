@@ -36,6 +36,8 @@ The notion of topological chiral homology should be closely related to that of
 
 * [[factorization algebra]]
 
+* [[factorization homology]]
+
 and be related to concepts in
 
 * [[AQFT]],
