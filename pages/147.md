@@ -60,9 +60,12 @@ A **morphism of sites** $f : (C,J) \to (D,K)$ is
 
 * such that 
 
-  * $f$ _preserves covers_ in that for every [[covering]] $\{p_i : U_i \to U\}$ of an object $U \in C$ with respect to the coverage $J$, we have that $\{f(p_i) : f(U_i) \to f(U)\}$ is a covering of $f(U) \in D$ with respect to the covering $K$.
+  1, $f$ is a [[flat functor]];
 
-  * $f$ is a [[flat functor]];
+  1. $f$ _preserves [[cover]]s_ 
+
+     in that for every [[covering]] $\{p_i : U_i \to U\}$ of an object $U \in C$ with respect to the coverage $J$, we have that $\{f(p_i) : f(U_i) \to f(U)\}$ is a covering of $f(U) \in D$ with respect to the covering $K$.
+
 
 =--
 
