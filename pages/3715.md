@@ -226,7 +226,7 @@ Such a thing is called a [[Gerstenhaber algebra]].  Note that we do not have the
 
 [[!include Isbell duality - table]]
 
-
+[[!include infinitesimal and local - table]]
 
 ## References
 
@@ -281,3 +281,6 @@ On the [[stack]] of deformation quantizations:
 [[!redirects deformation quantizations]]
 
 [[!redirects algebraic deformation quantization]]
+
+[[!redirects formal deformation quantization]]
+[[!redirects formal deformation quantizations]]
