@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Compact objects
-+--{: .hide}
++-- {: .hide}
 [[!include compact object - contents]]
 =--
 =--
 =--
 
-
-#Contents 
+# Contents 
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -37,7 +36,7 @@ On the other hand, there is also the notion of _[[finite object]]_ (in a [[topos
 +-- {: .num_defn }
 ###### Definition
 
-Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **[[finitely presentable object|finitely presentable]]** or **of finite presentation**), if the [[corepresentable functor]]
+Let $C$ be a [[locally small category]] that admits [[filtered colimits]]. Then an [[object]] $X \in C$ is **compact**, (or **finitely presented** or **finitely presentable** or **of finite presentation**), if the [[corepresentable functor]]
 
 $$
   Hom_C(X,-) : C \to Set
@@ -112,13 +111,13 @@ which proves the claim.
 ## Examples 
  {#Examples}
 
-* In $C = $ [[Set]] an object is compact precisely if it is a ([[Kuratowski finite object|Kuratowski]]) [[finite set]].
+* In $C = $ [[Set]] an object is compact precisely if it is a [[finite set]].
 
 * For $C$ a [[topos]], $X$ is compact if ... 
 
-* In $C = $ [[Grp]] an object is compact precisely if it is [[finitely presented object|finitely presented]] as a group.
+* In $C = $ [[Grp]] an object is compact precisely if it is [[finitely presented group|finitely presented]] as a group.
 
-* More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented object|finitely presented]] as an algebra.  A proof can be found in Corollary 3.13 of [[LPAC]].
+* More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented algebra|finitely presented]] as an algebra.  A proof can be found in Corollary 3.13 of [[LPAC]].
 
 * Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].  (It is *not* true that $X$ is a compact object of $Top$ iff it is a compact topological space; see below.)
 
@@ -255,6 +254,7 @@ For the general definition with an eye towards the definition of [[compact objec
 
 
 [[!redirects compact object"]]
+[[!redirects compact object]]
 [[!redirects compact objects]]
 
 [[!redirects finitely presentable object]]
