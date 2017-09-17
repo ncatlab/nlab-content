@@ -17,10 +17,13 @@
 * table of contents
 {:toc}
 
+## Idea
+
 The field content of 11-dimensional [[nLab:supergravity]] contains a field called the _supergravity C-field_ or _M-theory 3-form_ , which is locally a 3-form and globally _some_ variant of a [[circle n-bundle with connection|circle 3-bundle with connection]]. There have been several suggestions for what _precisely_ its correct global description must be.
 
 
 ## The DFM-model
+ {#DFMmodel}
 
 In ([DFM, section 3](#DFM)) the following definition is considered and argued to be a good model of the supergravity $C$-field.
 
@@ -47,7 +50,7 @@ $$
   \,.
 $$
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let $X$ be a [[nLab:smooth manifold]] of [[nLab:dimension]] $dim X \lt 15$.
@@ -106,17 +109,17 @@ for the [[nLab:groupoid]] whose
 
 See ([DFM, (3.22), (3.23)](#DFM)).
 
+Here we think of $X$ as equipped with a [[pseudo-Riemannian manifold|pseudo]] [[Riemannian manifold|Riemannian structure]] and [[spin connection]] $\omega$ and think of each object $(P,\nabla,C)$ of $\mathbf{E}(X)$ as inducing an degree-4 cocycle in [[ordinary differential cohomology]] with [[curvature]] 4-form
+
+$$
+  \mathcal{G}_{\nabla,c} = tr F_\nabla \wedge F_\nabla - \frac{1}{2} tr R_\omega \wedge R_\omega + d c
+  \,.
+$$
+
+
 ## Description in $\infty$-Chern-Weil theory
 
-Here we describe a natural construction in [[∞-Chern-Weil theory]] which assigns to every [[smooth manifold]] [[3-groupoid]] of structures consisting of pairs of a [[circle n-bundle with connection|circle 3-bundle]] and an [[E8]]-[[principal bundle]] that differentially twist each other via the refined [[Chern-Weil homomorphism]] induced by the [[Killing form]] on $\mathfrak{e}_8$. We show that the 1-[[truncated|truncation]] of this 3-groupoid is the 1-grooupoid of such structures that is considered in ([DFM](#DFM)).
-
 (...)
-
-See the discussion at [[differential string structure]] for the moment
-
-
-
-
 
 ## Related concepts
 
@@ -128,5 +131,5 @@ See the discussion at [[differential string structure]] for the moment
 
 ## References
 
-E. Diaconescu, [[nLab:Greg Moore]], [[nLab:Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
+* E. Diaconescu, [[Greg Moore]], [[Dan Freed]], _The $M$-theory 3-form and $E_8$-gauge theory_ ([arXiv:hep-th/0312069](http://arxiv.org/abs/hep-th/0312069))
  {#DFM}
