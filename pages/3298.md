@@ -20,31 +20,10 @@
  
 ## Idea
 
-From the general abstract point of view on [[cohomology]], the notion of Hochschild cohomology is the following.
+For $A$ a commutative [[∞-algebra]], its _Hochschild homology complex_ is its [[(∞,1)-colimit|(∞,1)-tensoring]] $S^1 \cdot A$ with the [[∞-groupoid]] incarnation of the circle. More generally, for $S$ any $\infty$-groupoid/simplicial set, $S \cdot A$ is the corresponding _higher order Hochschild homology_ of $X$.
 
-+-- {: .standout}
+In the presence of [[function algebras on ∞-stacks]] it may happen that $A = \mathcal{O}(X)$ is the algebra of functions on some [[∞-stack]] $X$ and that $\mathcal{O}(-)$ sends [[powering]]s of  $X$ to tensorings of $\mathcal{O}(X)$. In that case it follows that the Hochschild homology complex of $\mathcal{O}(X)$ is the function complex $\mathcal{O}(\mathcal{L}(X))$ on the [[derived loop space]] $\mathcal{L}X$ of $X$.
 
-For $X$ an object in a [[derived stack]] [[(∞,1)-topos]] $\mathbf{H}$, and $\mathcal{O}(X)$ its  [[∞-algebra]] of functions, Hochschild homology of $\mathcal{O}(X)$ is the [[cohomology]] of the [[free loop space object]] $\mathcal{L}X \simeq X^{S^1}$.
-
-This carries an <a href="http://ncatlab.org/nlab/show/free+loop+space+object#CircleAction">intrinsic circle action</a> induced from the automorphisms of $S^1$. The $S^1$-[[equivariant cohomology]] of $\mathcal{L}X$ is the [[cyclic homology]] of $\mathcal{O}(X)$.
-
-=--
-
-Even more general abstractly, if one passes to _higher order Hochschild homology_ the concept effectively merges into the canonical concept of <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-powering</a> of any [[(∞,1)-topos]] over [[∞Grpd]].
-
-+-- {: .standout}
-
-For $K$ any [[∞-groupoid]] and $X \in \mathbf{H}$ an object in an [[(∞,1)-topos]], the higher order Hochschild hohomology of $\mathcal{O}(X)$ parameterized by $K$ is the [[cohomology]] of the $(\infty,1)$-[[powering]] 
-
-$$
-  [K,X] \simeq X^K
-  \simeq {\lim_\leftarrow}_K X
-  \,.
-$$
-
-=--
-
-After unwinding what this means in algebraic terms, one obtains the tradional way of conceiving Hochschild homology as well as various generalizations such as [[topological chiral homology]], [[blob homology]] and [[factorization algebra]]s.
 
 ### The Hochschild complex {#TraditionalIdeas}
  
@@ -111,52 +90,44 @@ We look at the very general abstract definition of Hochschild (co)homology and s
 
 #### Hochschild homology
 
-+-- {: .un_def}
+We discuss Hohchschild homology of commutative algebras for the case that these are related to function algebras on derived loop spaces.
+
++-- {: .num_defn #DefByTensoring}
 ###### Definition
 
-Given an [[(∞,1)-topos]] $\mathbf{H}$, the **Hochschild cohomology** of an [[object]] $X \in \mathbf{H}$ is the [[cohomology]] (with whatever coefficients) of the [[free loop space object]] 
-
-$$
-  \mathcal{L}X \simeq [S^1,X] \simeq X^{S^1}
-  \,.
-$$
-
-More generally, for $K$ any [[∞-groupoid]], the **higher order Hochschild cohomology** of $X$ given by $K$ is the [[cohomology]] of the <a href="http://ncatlab.org/nlab/show/(infinity,1)-topos#ClosedMonoidalStructure">(∞,1)-topos internal hom</a> [K, X], equivalently the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#Tensoring">(∞,1)-powering</a> of $X$ by $K$, equivalently the [[(∞,1)-limit]] ${\lim_\leftarrow}_K X$ over the [[diagram]] $K$ of the [[(∞,1)-functor]] $const X : K \to \mathbf{H}$ constant on $X$:
-
-$$
-  [K, X] \simeq X^K \simeq {\lim_\leftarrow}_K X
-  \,.
-$$
-
-=--
-
-This defines Hochschild cohomology very generally for [[∞-stack]]s, which we think of as geoemtric objects in [[higher geometry]]. 
-
-Usually Hochschild cohomology is formulated in terms of the corresponding [[function algebras on ∞-stacks]] $\mathcal{O}(X)$, under [[Isbell duality]]. The Hochschild cohomology of $X$ then corresponds to what is called the Hochschild _homology_ of $\mathcal{O}(X)$.
-
-+-- {: .un_def}
-###### Definition
-
-If $\mathbf{H}$ admits [[function algebras on ∞-stacks]]
+Let $\mathbf{H}$ be an [[(∞,1)-topos]] that admits [[function algebras on ∞-stacks]] (see there for details)
 
 $$
   Alg^{op} \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{}{\to}}
   \mathbf{H}
+  \,.
 $$
 
-say  a full [[sub-(∞,1)-category]] of $\mathbf{H}$ consists of **$\mathcal{O}$-perfect objects** if on these $\mathcal{O}$ commutes with [[(∞,1)-limit]]s.
-
-Then for $X$ an $\mathcal{O}$-perfect object we have that the Hochschild homology object 
+In particular the [[(∞,1)-category]] of [[∞-algebra]]s $Alg^{op}$ is [[(∞,1)-colimit|(∞,1)-tensored]] over [[∞Grpd]]. Then for $A \in Alg$ and $K \in \infty Grpd$ we say that
 
 $$
-  \mathcal{O}(X^{K}) \simeq K \cdot \mathcal{O}(X)
+  K \cdot A \in Alg
 $$
 
-is given by the [[(∞,1)-limit|(∞,1)-copowering]] of $\mathcal{O}(X)$ over the $\infty$-groupoid $K$.
+is the _Hochschild homology complex_ of $A$ over $K$.
 
-We call the object $K \cdot \mathcal{O}(X)$ the **Hochschild complex** of $X$.
+We say  a full [[sub-(∞,1)-category]] of $\mathbf{H}$ consists of **$\mathcal{O}$-perfect objects** if on these $\mathcal{O}$ commutes with [[(∞,1)-limit]]s.
+
+Then for $X$ an $\mathcal{O}$-perfect object we have 
+
+$$
+  K \cdot \mathcal{O}(X)
+   \simeq
+  \mathcal{O}(X^{K}) 
+  \,.
+$$
 
 =--
+
+For $K = S^1$ the [[circle]], this is _ordinary_ Hochschild homology, while for general $K$ it is called _higher order Hochschild homology_ .
+
+
+
 
 +-- {: .un_example}
 ###### Example
@@ -165,9 +136,9 @@ For $\mathcal{O}$ the functor that forms [[symmetric monoidal (∞,1)-category|s
 
 =--
 
-The following definition formalizes large class of $\mathcal{O}$-perfect objects given by [[representable functor|representables]].
+The following definition formalizes large classes of $\mathcal{O}$-perfect objects given by [[representable functor|representables]].
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $T$ be an [[(∞,1)-algebraic theory]] and $T Alg_\infty$ its [[(∞,1)-category]] of $\infty$-algebras. Let $C$ with $T \hookrightarrow C \hookrightarrow T Alg_\infty^{op}$ be a [[small (∞,1)-category|small]] full [[sub-(∞,1)-category]] of $T Alg_\infty^{op}$ which is closed under [[(∞,1)-limit]]s in $T Alg$ and equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]]. 
@@ -178,7 +149,7 @@ For $X \in C\stackrel{}{\hookrightarrow} \mathbf{H} $ write $\mathcal{O}(X)$ for
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Proposition/Definition 
 
 In the context of the above definition we have 
