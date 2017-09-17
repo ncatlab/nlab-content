@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+* [[natural deduction]]
+
+* [[sequent]]
+
+## Related concepts
+
+* [[induction]]
+
+[[!redirects deductions]]
+
