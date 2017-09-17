@@ -1,0 +1,10 @@
+
+* [website](http://math.arizona.edu/~www-main-2003/people/profile.php?n=dienes)
+
+## related entries
+
+* [[supersymmetry]]
+
+* [[string theory]]
+
+category: people
