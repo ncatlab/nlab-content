@@ -31,6 +31,15 @@ For [[(∞,1)-category|(∞,1)-categories]] the corresponding notion of fully fa
 
 * [[fully faithful (∞,1)-functor]]
 
+## Related concepts
+
+* [[essentially surjective functor]]
+
+* [[full functor]]
+
+* [[faithful functor]]
+
+* [[equivalence of categories]]
 
 
 [[!redirects fully faithful functor]]
