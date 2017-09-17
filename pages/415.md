@@ -96,6 +96,8 @@ Copowers are frequently called _tensors_ and a $V$-category having all copowers 
 
 * [[power]]
 
+* [[bitensoring]]
+
 ## References
 
 Section 3.7 of
