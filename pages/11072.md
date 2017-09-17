@@ -42,7 +42,7 @@ As any [[comonad]], the !-modality may be realized as induced from an [[adjuncti
 
 The interpretation of the !-modality as a [[Fock space]] construction is discussed in the following articles.
 
-* {#BlutePanangadenSeely94} [[Richard Blute]], [[Prakash Panangaden]], [[R. A. G. Seely]], _Fock Space: A Model of Linear Exponential Types_ (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.6825))
+* {#BlutePanangadenSeely94} [[Richard Blute]], [[Prakash Panangaden]], [[R. A. G. Seely]], _Fock Space: A Model of Linear Exponential Types_ (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.6825), [[BPSLinear.pdf:file]])
 
 * {#Fiore07} [[Marcelo Fiore]], _Differential Structure in Models of Multiplicative Biadditive Intuitionistic Linear Logic_, Lecture Notes in Computer Science Volume 4583, 2007, pp 163-177 ([pdf](http://www.cl.cam.ac.uk/~mpf23/papers/Types/diff.pdf))
 
