@@ -1,0 +1,8 @@
+
+* [webpage](http://wolfweb.unr.edu/homepage/bruceb/)
+
+## Related entries
+
+* _[[K-Theory for Operator Algebras]]_
+
+category: people
