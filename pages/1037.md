@@ -326,21 +326,32 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ### 5.3 $(\infty,1)$-Categories of inductive limits ###
 
+#### 5.3.1 Filtered $\infty$-categories
+
+* [[cardinal number]]
+
+* [[filtered (∞,1)-category]]
+
+
+#### 5.3.2 Right exactness
+
+* [[exact (∞,1)-functor]]
+
+
+#### 5.3.3 Filtered colimits
+
+#### 5.3.4 Compact objects
+
+* [[compact object in an (∞,1)-category]]
+
+#### 5.3.5 Ind-objects
+
 * [[ind-object in an (∞,1)-category]]
 
-  * [[cardinal number]]
+#### 5.3.6 Adjoining colimits to $\infty$-categories
 
-  * [[filtered (∞,1)-category]]
-
-  * [[compact object in an (∞,1)-category]]
-
-  * [[accessible (∞,1)-category]]
-
-  * [[presentable (∞,1)-category]]
 
 ### 5.4 Accessible $(\infty,1)$-categories ###
-
-* [[accessible (∞,1)-category]]
 
 #### 5.4.1 Locally small $\infty$-categories
 
