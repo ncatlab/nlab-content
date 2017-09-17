@@ -2,12 +2,23 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential cohomology
+#### Cohomology
 +--{: .hide}
-[[!include differential cohomology - contents]]
+[[!include cohomology - contents]]
 =--
 =--
 =--
+
+* [[principal bundle]] / [[torsor]]
+
+* [[principal 2-bundle]] / [[gerbe]] / [[bundle gerbe]]
+
+* [[principal 3-bundle]] / **bundle 2-gerbe**
+
+* [[principal ∞-bundle]]
+
+***
+
 
 
 #Contents#
@@ -17,7 +28,7 @@
 
 ## Idea
 
-A _bundle 2-gerbe_ is a special geometric cocycle incarnation of a [[cocycle]] for a $\mathbf{B}^2 U(1)$-[[principal ∞-bundle]], where $\mathbf{B}^2 U(1)$ is the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 3-group</a>.
+A _bundle 2-gerbe_ is a special presentation of the total space of a $\mathbf{B}^2 U(1)$-[[principal 3-bundle]], where $\mathbf{B}^2 U(1)$ is the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle Lie 3-group</a>.
 
 Bundle 2-gerbes with connection are accordingly a special cocycle representative for [[circle n-bundles with connection]], hence for degree 4 [[Deligne cohomology]], hence for degree 4 [[Cheeger-Simons differential character]]s.
 
