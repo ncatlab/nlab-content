@@ -360,6 +360,7 @@ This is the strict [[n-category]] free on a single $n$-[[globe]].
 
 * A local [[model structure on simplicial presheaves]] on the Theta categories is called [[Theta space]]s and models [[(n,r)-category|(n,r)-categories]].
 
+* A [[Cisinski model structure]] on bare [[presheaves]] on $\Theta_n$, modelling [[(∞,n)-categories]] is the [[model structure on cellular sets]].
 
 ## References
 
