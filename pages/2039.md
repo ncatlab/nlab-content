@@ -1,10 +1,35 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -23,6 +48,14 @@ $$
 from the [[orbit category]] of $G$ into [[Ab]].
 
 More details are for the moment at [[equivariant cohomology]] in the section [Bredon equivariant cohomology](http://ncatlab.org/nlab/show/equivariant+cohomology#Bredon).
+
+## Related concepts
+
+* [[equivariant cohomology]]
+
+* [[global equivariant homotopy theory]]
+
+* [[global equivariant stable homotopy theory]]
 
 
 ## References
