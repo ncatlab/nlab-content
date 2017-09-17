@@ -75,6 +75,8 @@ There are many properties of locally compact Hausdorff abelian groups that impli
 
 * If $A$ is torsion-free and discrete, $\widehat{A}$ is connected and compact.
 
+* If $A$ is an abelian [[torsion group]] then $\widehat A$ is an abelian [[profinite group]] (for more see at _[[Pontryagin duality for torsion abelian groups]]_)
+
 * If $A$ is connected and compact, $\widehat{A}$ is torsion-free and discrete.
 
 * If $A$ is a Lie group, $\widehat{A}$ has finite rank.
