@@ -90,7 +90,7 @@ Under the same hypotheses, $T$ is consistent iff every finite subset of $T$ is c
 
 *(...think of a good way to state this...)*
 
-##### Corolaries worth thinking about
+##### Corollaries worth thinking about
 
 It follows that first-order theories are quite permissive; or in other words that they're inefficient at pinning down particular structures.
 
@@ -102,8 +102,17 @@ so that the *finite extensions* of $Th(V_\omega,\in)$ by suborders of $X$ are al
 
 By a similar argument, (if ZFC is consistent) there are models $M'$ of classical set theory satisfying the (higher-order) property that the natural numbers object $\omega_{M'}$ of $M'$ includes your favourite total order $(X,\lt)$ *as a suborder* --- of course, $M'$ isn't allowed to *know* this --- notably, there is **no object** $\xi$ in $M$ such that $\{y\mid y\epsilon \xi\} = \{c_x \mid x\in X\}$.
 
-## Related concepts
+## Literature and related entries
 
-* [[type (in model theory)]]
+* related entries: [[type (in model theory)]], [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]]
+* wikipedia [model theory](http://en.wikipedia.org/wiki/Model_theory)
+* entries on researchers in model theory: [[Boris Zilber]], [[Kenneth Kunen]], [[Saharon Shelah]] 
+* Chen Chung Chang, H. Jerome Keisler, _Model Theory. Studies in Logic and the Foundations of Mathematics_. 1973, 1990, Elsevier. 
+* Wilfrid Hodges, _A shorter model theory_, Cambridge University Press 1997
+* [[David Kazhdan]], _Lecture notes in motivic integration_, with intro to logic and model theory, [pdf](http://www.ma.huji.ac.il/~kazhdan/Notes/motivic/b.pdf)
+* David Marker, _Model Theory: An Introduction_ Graduate Texts in Mathematics __217__ (2002) 
+* C U Jensen, H Lenzing, Model theoretic algebra: with particular emphasis on fields, rings, modules (1989)
+* [[Boris Zilber]], _Elements of geometric stability theory_, lecture notes, [pdf](http://people.maths.ox.ac.uk/zilber/est.pdf); _On model theory, non-commutative geometry and physics_, (survey draft) [pdf](http://people.maths.ox.ac.uk/zilber/bul-survey.pdf); _Zariski geometries_, book, [draft pdf](http://people.maths.ox.ac.uk/zilber/s.pdf);  On model theory, noncommutative geometry and physics, conference talk, [video](http://zomobo.net/play.php?id=wnhbpIQBpiE)
+* [Shelah archive](http://shelah.logic.at), [Shelah's books](http://shelah.logic.at/books.html)
 
 [[!redirects model theory]]
