@@ -191,7 +191,7 @@ The straightening and the unstraightening functor constitute a [[Quillen adjunct
 
 $$
   (St_\phi \dashv Un_\phi) : sSet/S
-  \stackrel{\overset{Un_{\phi}}{\leftarrow}}{\overset{St_\phi}{\to}}
+  \stackrel{\overset{Un_{\phi}}{\leftarrow}}{\underset{St_\phi}{\to}}
   [C^{op}, sSet]
 $$
 
@@ -254,7 +254,7 @@ of the [[overcategory]] $sSet/C$ on [[Cartesian fibration]]s;
 In the next section we discuss how this statement is presented in terms of [[model categories]].
 
 
-### Model category presentation
+### Model category presentation {#ModCatCart}
 
 
 Regard the [[(∞,1)-category]] $C$ in its incarnation as a [[simplicially enriched category]].
@@ -276,35 +276,65 @@ from [[marked simplicial set]]s over $S$ to marked [[simplicial presheaves]] on 
 
 On the markings the functor acts as follows. 
 
-Each edge $f: d \rightarrow e$ of 
-$X \in sSet/S$ gives rise to an edge in 
-$St_\phi (X)(d) = K(\phi,p)(d,v)$: the 
-[[join of simplicial sets|join]] 2-simplex 
-$f \star v$ of $X^{\triangleright}$                
+Each edge $f: d \rightarrow e$ of $X \in sSet/S$ gives rise to an edge $\tilde f \in St_\phi (X)(d) = K(\phi,p)(d,v)$: the [[join of simplicial sets|join]] 2-simplex $f \star v$ of $X^{\triangleright}$                
 
 $$                                                                              
   \array{                                                                   
     d && \stackrel{f}{\to} && e                                            
     \\                                                                     
-    & \searrow & \stackrel{\tilde f}{\Leftarrow} & \swarrow                                    
+    & {}_{\mathllap{\tilde d}}\searrow 
+   & \stackrel{\tilde f}{\Rightarrow} 
+   & \swarrow_{\mathrlap{\tilde e}}                                    
     \\                                                                     
     && v                                                                   
   }                                                                         
 $$                                                                              
 
-corresponds to an edge $\tilde{f} \in K(\phi,p)(d,v)=St_\phi X(d)$. 
+regarded as its image $\tilde f : \tilde d \to f^* \tilde e$ 
+in the pushout $K(\phi,p)(d,v)=St_\phi X(d)$.
+
+We define the straightening functor to assign that
+marking of edges which is the minimal one such that all
+such morphisms $\tilde f$ are marked in 
+$St_\phi X(d)$, for all marked $f : d \to e$
+in $X$: 
+this means that this marking is being completed under the constraint
+that $St_\phi(X)$ be [[sSet]]-[[enriched functor|enriched functorial]]. 
+
+For that, notice that the hom simplicial sets of $sSet^+$ are 
+the spaces $Map^\sharp(X,Y)$, which consist of those simplices of the [[internal hom]] $Map(X,Y) := Y^X$ whose edges are all marked. So we need to find a marking on the $St_\phi(X)(-)$ such that for all
+$g : \Delta[1] \to C(c,d)$ the composite
+
+$$
+  \Delta[1]
+  \stackrel{g}{\to}
+  C(c,d)
+  \stackrel{St_\phi(X)(c,d)}{\to}
+  Map(St_\phi(X)(d), St_\phi(X)(c))
+$$
+
+is a marked edge of the mapping complex. By the internal hom-adjunction this edge corresponds to a morphism
+
+$$
+  St_\phi(X)(g)
+  :
+  St_\phi(X)(d) \times \Delta[1] \rightarrow St_\phi(X)(c)
+$$
+
+and is marked if this morphism carries edges of the form $(\tilde f , Id) : \Delta[1] \to St_\phi(X)(d) \times \Delta[1]$ to marked edges 
+
+$$
+  g^* \tilde f : \Delta[1] \stackrel{(\tilde f,Id)}{\to}
+  St_\phi(X)(d)\times \Delta[1] \stackrel{St_\phi(X)(g)}{\to}
+  St_{\phi}(X)(c)
+$$
+
+in $St_\phi(X)(c)$. So we need to ensure that the edges of this form are marked:
+
+we define that the straightening functor marks an edge in $St_\phi(X)(c)$ iff it is of this form $g^* \tilde f$, for $f : d \to e$ a marked edge of $X$ and $g \in C(c,d)_1$.
 
 
-We define the image of the straightening functor to assign that
-marking of edges which is the minimal 
-[[sSet]]-[[enriched functor|enriched functorial]] marking such
-that with te above notation all edges of the form 
-$\tilde f$ are marked in $St_\phi X(d)$, for all marked $f : c \to d$
-in $X$.
-
-The hom simplicial sets of $sSet^+$ are the spaces $Map^\sharp(X,Y)$, which consist of those simplices of the [[internal hom]] $Y^X$ whose edges are all marked. By the definition of the simplicial homs in the category of [[marked simplicial set]]s, we must also mark the edges $g^*(\tilde{f})$ defined as follows. Because $St_\phi(X)$ is a simplicial functor, each $g \in C(c,d)_1$ gives rise to a map $St_\phi(X)(d) \times \Delta^1 \rightarrow St_\phi(X)(c)$. Let $g^*(\tilde{f})$ be the 1-simplex of $St_\phi(X)(c)$ given by precomposing this map with $(\tilde{f},id) : \Delta^1 \rightarrow St_\phi(X)(d)\times \Delta^1$. An edge of $St^+_\phi(X)(c)$ is marked iff it is of the form $g^*(\tilde{f})$ for $g \in C(c,d)_1$ and $f$ a marked edge of $X$.
-
-As before, this has an [[sSet]]-[[right adjoint]], the **unstraightening functor**
+As in the unmarked cae, the straightening functor has an [[sSet]]-[[right adjoint]], the **unstraightening functor**
 
 $$
   n_\phi :  [C^{op}, sSet^+] \to sSet^+/S 
@@ -325,7 +355,7 @@ This induces a [[Quillen adjunction]]
 
 $$
   (St_\phi \dashv Un_\phi) : SSet^+/S
-  \stackrel{\overset{Un_{\phi}}{\leftarrow}}{\overset{St_\phi}{\to}}
+  \stackrel{\overset{Un_{\phi}}{\leftarrow}}{\underset{St_\phi}{\to}}
   [C^{op}, SSet^+]
 $$
 
