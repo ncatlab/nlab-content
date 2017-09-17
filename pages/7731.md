@@ -129,3 +129,4 @@ One class of examples for this sort of situation is where one considers refined 
 (...)
 
 [[!redirects obstructions]]
+[[!redirects obstruction theory]]
