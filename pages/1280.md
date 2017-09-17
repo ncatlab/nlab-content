@@ -82,6 +82,10 @@ Also worth noting is that _ex contradictione quodlibet_ can alternatively be sta
 
 In some versions of [[relevance logic]], no sequent can be valid unless the hypothesis and conclusion have a variable in common.  Thus, _ex contradictione quodlibet_ is invalid in general, but special cases such as $p, \neg{p} \vdash p$ or $p \wedge q, \neg{p \wedge q} \vdash p \vee r$ are valid.
 
++-- {: .query}
+But why doesn\'t the Lewis independent argument work?  Maybe it should be that every variable in the consequent appears somewhere in the antecedent?  (In which case we can\'t have $r$ in that last example.)
+=--
+
 
 ## Other paraconsistent logics
 
