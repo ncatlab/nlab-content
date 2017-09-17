@@ -19,7 +19,7 @@ A Lie $\infty$-algebroid is a [[complex]] $g$ of [[modules]] over a [[ring]] $A_
 
 ## Definition
 
-Let $dgAlg_{\mathbb{R}}^{op}$ be the [[opposite category]] of [[dg-algebra]]s equipped with the standard [[model structure on dg-algebras]]. An **$\infty$-Lie algebroid** is effectively a (fibrant) object in this category.
+Let $dgAlg_{\mathbb{R}}^{op}$ be the [[opposite category]] of graded-commutative [[dg-algebra]]s equipped with the standard [[model structure on dg-algebras]]. An **$\infty$-Lie algebroid** is effectively a (fibrant) object in this category.
 
 See also [[rational homotopy theory in an (∞,1)-topos]].
 
