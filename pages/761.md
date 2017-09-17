@@ -14,9 +14,34 @@
 
 ## Idea
 
-(...)
 
-## Details
+## Statement
+
+### For fundamental groups
+
+For the [[fundamental group]] the **Seifert-van kampen theorem** is the following.
+
++-- {: .un_theorem}
+###### Theorem
+
+Let $X$ be a [[topological space]] [[covering|covered]] by [[open subsets]] $U,V \subset X$ such that $U \cap V$ is [[path-connected space|path connected]]. Then for every choice of basepoint $x \in U \cap V$ the [[diagram]] of [[homotopy group]]s
+
+$$
+  \array{
+    \pi_1(U \cap V, x) &\to& \pi_1(U,x)
+    \\
+    \downarrow && \downarrow
+    \\
+    \pi_1(V,x) &\to& \pi_1(X,x)
+  }
+$$
+
+is a [[pushout]] square in [[Grp]].
+
+=--
+
+
+### For fundamental groupoids
 
 For the _van Kampen theorem_ for the [[fundamental groupoid]] of [[topological space]] it is convenient to define $\pi_1(X,X_0)$ of a space $X$ and a set $X_0$ to be the full subgroupoid of $\pi_1 X$ on the set $X \cap X_0$. Suppose $X_* =(X,X_0)$ is a pair consisting of a space $X$ and a set $X_0$ of base points. We say $X_*$ is _connected_ if $X_0$ meets each path component of $X$. 
 
@@ -87,6 +112,8 @@ Quickly reducing a groupoid to one object is to me a bit like _always_ choosing 
 * [[higher homotopy van Kampen theorem]]
 
 ## References
+
+The version for the fundamental groupoid is discussed in some detail in
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]], _[[Nonabelian Algebraic Topology]]_
 
