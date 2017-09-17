@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
 
 
 > under construction
@@ -59,7 +73,10 @@ In the category $C$ =[[Top]] of [[topological space]]s or $C$ = [[Diff]] of [[sm
 
 * [[open cover]] -- for $X \in C$ a space, an _open cover_ is a collection $\{U_i \subset X\}$ of [[open subset]]s, that cover $X$ in the obvious naive sense of the word, i.e. which are such that their union equals $X$;
 
-* [[good cover]] -- a cover $\{U_i \to X\}$ is called a _good cover_ (or _good open cover_ if in addition it is an open cover) if all of the $U_i$ and all their finite intersections $U_{i_1} \times_X U_{i_2} \times_X \cdots \times_X U_{i_n}$ are [[contractible]] as topological spaces.
+* [[good cover]] -- a cover $\{U_i \to X\}$ is called a _good cover_ (or _[[good open cover]]_ if in addition it is an open cover) if all of the $U_i$ and all their finite intersections $U_{i_1} \times_X U_{i_2} \times_X \cdots \times_X U_{i_n}$ are [[contractible]] as topological spaces.
+
+  A parameterized version of this is a [[stacked cover]].
+
 
 There is also the notion of
 
