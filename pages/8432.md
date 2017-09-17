@@ -1,0 +1,11 @@
+Joan Birman is an American mathematician who studies knots and braids, and related constructions.
+
+
+
+
+
+* [home page](http://www.math.columbia.edu/~jb/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Joan_Birman)
+
+category:people
