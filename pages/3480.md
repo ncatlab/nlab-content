@@ -437,7 +437,7 @@ Deligne's proof in turn fills the gap in the seminal work with the same title
 
 A revival in algebraic geometry related to the theory of mixed motives was marked by
 
-* [[P. Deligne]], [[J. Milne]], _Tannakian categories_, Springer Lecture Notes in Math. __900__, 1982, pp. 101-228.
+* [[P. Deligne]], [[J. Milne]], _Tannakian categories_, Springer Lecture Notes in Math. __900__, 1982, pp. 101-228, retyped [pdf](http://jmilne.org/math/xnotes/tc.pdf)
 
 Ulbrich made a major contribution at the coalgebra and Hopf algebra level
 
@@ -499,7 +499,7 @@ The Tannaka-type reconstruction in quantum field theory see [[Doplicher-Roberts 
 
 Tannaka duality in the context of [[(∞,1)-category theory]] is discussed in
 
-* [[James Wallbridge]], _Higher Tannaka duality_ , PhD thesis, Adelaide/Toulouse (2011) ([Adelaide University repository](http://digital.library.adelaide.edu.au/dspace/bitstream/2440/69436/1/02whole.pdf), [arXiv:1204.5787](http://arxiv.org/abs/1204.5787))
+* [[James Wallbridge]], _Higher Tannaka duality_, PhD thesis, Adelaide/Toulouse (2011) ([Adelaide University repository](http://digital.library.adelaide.edu.au/dspace/bitstream/2440/69436/1/02whole.pdf), [arXiv:1204.5787](http://arxiv.org/abs/1204.5787))
 
 
 [[!redirects Tannaka reconstruction]]
