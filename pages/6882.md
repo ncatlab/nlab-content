@@ -26,6 +26,10 @@
 
 Analogs of the 2d [[WZW model]] in higher dimension.
 
+## Examples
+
+* [[4d WZW model]]
+
 ## References
 
 * Takeo Inami, Hiroaki Kanno and Tatsuya Ueno, _Higher-dimensional WZW Model
