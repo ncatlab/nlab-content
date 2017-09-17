@@ -1,7 +1,21 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Model category theory
++--{: .hide}
 [[!include model category theory - contents]]
-</div>
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
 
 
 #Contents#
@@ -12,7 +26,7 @@
 
 By regarding a [[simplicial set]] as an [[object]] in the standard [[model structure on simplicial sets]], one effectively identifies it (up to weak equivalence) with that [[∞-groupoid]] that it presents under [[Kan fibrant replacement]].
 
-If the original simplicial set is the [[nerve]] of a [[category]], the corresponding Kan fibrant replacement is something like the _$\infty$-groupoidification_ of that category.
+If the original simplicial set is the [[nerve]] of a [[category]], the corresponding Kan fibrant replacement is something like the _$\infty$-groupoidification_ of that category: see [[geometric realization of categories]].
 
 This way each ordinary category models an [[∞-groupoid]]. The _Thomason_ [[model category]] structure on [[Cat]] exhibits this: in this [[model category]] a morphism between two categories is a weak equivalence, precisely if it induces a weak equivalence of the corresponding $\infty$-groupoids.
 
