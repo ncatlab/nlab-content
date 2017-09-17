@@ -1,3 +1,1 @@
-one day justin biber was searching on @ and a mustires mesage came up and it said "watch out for the mustires person or he will make you his slave" so justin went out and never reterned stay tuened if you will srvive by jasmyne gard dun dun dun.
-
-
+[[!redirects justin biber]]
