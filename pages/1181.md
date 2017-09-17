@@ -109,13 +109,48 @@ There are interesting cases in which such sheaf toposes contain objects that loo
 
 ## Properties
 
-Let $f = (f^* \dashv f_*) : E \underoverset{f_*}{f^*}{\leftrightarrows} F$ be a [[geometric morphism]] of toposes. If $N \in F$ is a natural numbers object, then its [[inverse image]] $f^* N$ is a natural numbers object in $E$. ([Johnstone, lemma A.4.1.14](#Johnstone)). 
+### Transfer along inverse images
+ {#Transfer}
 
-In particular, if $E$ is a [[Grothendieck topos]], then there is a unique [[geometric morphism]] $(E^* \dashv \Gamma): E \underoverset{\Gamma}{E^*}{\leftrightarrows} Set$, the [[global section]] geometric morphism. If $E^*$ is the [[exact functor|left exact]] [[left adjoint]], it follows that 
++-- {: .num_prop}
+###### Proposition
 
-$$E^*(\mathbb{N}) \cong E^*(\sum_{n: \mathbb{N}} 1) \cong \sum_{n: N} E^* 1 \cong \sum_{n: \mathbb{N}} 1,$$ 
+Natural number objects are preserved by [[inverse images]]:
 
-with the evident successor and constant $0$, is the natural nunbers object in $E$.  
+let $f = (f^* \dashv f_*) : \mathcal{E} \underoverset{f_*}{f^*}{\leftrightarrows} \mathcal{F}$ be a [[geometric morphism]] of toposes. If $\mathbb{N} \in \mathcal{F}$ is a natural numbers object, then its [[inverse image]] $f^* \mathbb{N}$ is a natural numbers object in $\mathcal{E}$. 
+
+=--
+
+([Johnstone, lemma A.4.1.14](#Johnstone)). 
+
++-- {: .num_example}
+###### Example
+
+If $\mathcal{E}$ is a [[sheaf topos]], then there is a unique [[geometric morphism]] $(\Delta \dashv \Gamma): \mathcal{E} \underoverset{\Gamma}{\Delta}{\leftrightarrows} Set$, the [[global section]] geometric morphism, with the [[inverse image]] being the [[locally constant sheaf]] functor, it follows that 
+
+$$
+  \Delta(\mathbb{N}) \cong \Delta(\sum_{n: \mathbb{N}} 1) \cong \sum_{n: N} \Delta 1 \cong \sum_{n: \mathbb{N}} 1,
+$$ 
+
+with the evident successor and constant $0$, is the natural nunbers object in $\mathcal{E}$.  
+
+=--
+
++-- {: .num_example}
+###### Example
+
+If $\mathcal{E}$ is a topos and $X \in \mathcal{E}$ an object, then the [[slice topos]] sits by an [[etale geometric morphism]] over $\mathcal{E}$
+
+$$
+  \mathcal{E}_{/X}
+  \stackrel{\overset{X^*}{\leftarrow}}{\underset{X_*}{\to}}
+  \mathcal{E}
+  \,,
+$$
+
+where the [[inverse image]] form the [[product]] with $X$. Hence for $\mathbb{N} \in \mathcal{E}$ a natural numbers object, the projection $(X \times \mathbb{N} \to X)$ is a natural numbers object in $\mathcal{E}_{/X}$.
+
+=--
 
 ## Related concepts
 
