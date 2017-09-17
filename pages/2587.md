@@ -15,10 +15,6 @@
 =--
 
 
-$\cdots \to$ [[Fivebrane group]] $\to$ **string group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
-
-
-***
 
 #Contents#
 * autoamtic table of contents goes here
@@ -177,6 +173,11 @@ If one considers passing to the (free) [[loop space]] of spacetime and then doin
 One may consider the universal 3-connected cover of any general [[compact space|compact]], [[simple Lie group|simple]] and [[simply connected space|simply connected]] [[Lie group]] $G$, in complete analogy to the case $G = Spin(n)$. Accordingly one speaks of string-groups $String_G$.
 
 Of these the case $G = $ [[E8]] is the other one relevant in [[string theory]]: see [[Green-Schwarz mechanism]].
+
+## Related concepts
+
+$\cdots \to$ [[Fivebrane group]] $\to$ **string group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]].
+
 
 ## References 
 
