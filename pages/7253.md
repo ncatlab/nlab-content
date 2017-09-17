@@ -1,5 +1,16 @@
 [[!redirects reduction of structure groups]]
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -148,4 +159,7 @@ In the generality of [[principal infinity-bundles]], reductions/lifts of structu
 
 [[!redirects reduction of structure group]]
 [[!redirects reduction of the structure group]]
+
+[[!redirects extension of principal bundles]]
+[[!redirects extension of a principal bundle]]
 
