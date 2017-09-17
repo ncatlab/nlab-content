@@ -12,15 +12,18 @@ There are several generalization to the noncommutative case. A difficult part is
 
 ## Literature
 
-The commutative version is classical, and there is an extensive literature. 
+The commutative version is classical, and there is an extensive literature. Some of the recent works on commutative case, related to homotopy theory and stacks are
 
-A nonsymmetric version is due Lu and a similar version is later studied by Xu 
+* M. Hovey, _Homotopy theory of comodules over a Hopf algebroid_, [pdf](http://math.wesleyan.edu/~mhovey/papers/comodule.pdf); _Morita theory of Hopf algebroids_, [pdf](http://math.wesleyan.edu/~mhovey/talks/hopfalgebroids.pdf)
+* T. Lawson, _Hopf algebroids and stacks_, [pdf](http://www.math.umn.edu/~tlawson/old/stackstalk.pdf)
+
+Over a noncommutative base ring, there is a nonsymmetric version is due J-H. Lu and a similar version is later studied by P. Xu 
 
 *  Jiang-Hua Lu, _Hopf algebroids and quantum groupoids_, Int. J. Math. __7__, 1 (1996) pp. 47-70, [q-alg/9505024](http://arxiv.org/abs/q-alg/9505024), [MR95e:16037](http://www.ams.org/mathscinet-getitem?mr=95e:16037), [doi](http://dx.doi.org/10.1142/S0129167X96000050)
 * [[Ping Xu]], _Quantum groupoids_, Commun. Math. Phys., 216:539581, 2001, [q-alg/9905192](http://arxiv.org/abs/math/9905192), [doi](http://dx.doi.org/10.1007/s002200000334); _Quantum groupoids and deformation quantization_, [q-alg/9708020](http://arxiv.org/abs/q-alg/9708020), _Quantum groupoids associated to universal dynamical R-matrice_, [q-alg/9811172](http://arxiv.org/abs/math/9811172)
-* blog discussion at [[Theoretical Atlas](http://theoreticalatlas.wordpress.com/2009/03/18/a-note-on-quantum-groupoids/)
+* blog discussion at [[Theoretical Atlas](http://theoreticalatlas.wordpress.com/2009/03/18/a-note-on-quantum-groupoids)
 
-The modern concept over noncommutative base is discovered in two formally different formalisms, but the two concepts are equivalent: 
+The modern concept over the noncommutative base is discovered in two formally different formalisms, but the two concepts are equivalent: 
  
 * [[B. Day]], [[R. Street]], _Monoidal bicategories and Hopf algebroids_, Advances in Mathematics __129__, 1 (1997) 99--157 
 
