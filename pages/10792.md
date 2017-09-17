@@ -30,16 +30,28 @@ A [[commutative ring]] $R$ is **w-contractible** if every [[faithfully flat morp
 
 ## Properties
 
+
 +-- {: .num_prop}
 ###### Proposition
 
-For every [[commutative ring]] $R$, there is a a w-contractible $A$, def. \ref{wContractible},
+For every [[commutative ring]] $R$, there is a w-contractible $A$, def. \ref{wContractible},
 equipped with a [[faithfully flat morphism|faithfully flat]] [[pro-étale morphism]] $Spec A \to Spec R$.
 
 =--
 
-
 ([Bhatt-Scholze 13, lemma 2.4.9](#BhattScholze13))
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $R$ w-contractible, the [[profinite set]] $\pi_0(Spec R)$
+is an [[extremally disconnected profinite set]].
+
+=--
+
+part of ([Bhatt-Scholze 13, theorem 1.8](#BhattScholze13))
+
 
 ## Related concepts
 
