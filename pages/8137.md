@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Duality
++-- {: .hide}
+[[!include duality - contents]]
+=--
+=--
+=--
+
+
 # Dual spaces
 * table of contents
 {: toc}
@@ -62,6 +73,10 @@ A [[von Neumann algebra]] (abstractly) is precisely a $C^*$-[[C-star-algebra|alg
 ## Examples
 
 See [[Riesz representation theorem]].
+
+## Related entries
+
+* [[dual vector space]]
 
 
 [[!redirects dual space]]
