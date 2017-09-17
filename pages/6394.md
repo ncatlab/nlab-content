@@ -1,0 +1,8 @@
+
+* [webpage](http://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/howep.aspx)
+
+## related entries
+
+* [[spinning string]]
+
+category: people
