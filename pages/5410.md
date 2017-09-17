@@ -356,7 +356,7 @@ One checks that this yields an equivalence of categories.
 +-- {: .un_lemma}
 ###### Observation
 
-The category $E_F$ is equivalently characterizd as being the [[comma category]] of the diagram $B \to K_F \leftarrow A$.
+The category $E_F$ is equivalently characterized as being the [[comma category]] of the diagram $B \to K_F \leftarrow A$.
 
 =--
 
