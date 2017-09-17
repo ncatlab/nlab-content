@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[resolution]] of a [[chain complex]] be a complex of [[free modules]].
+
+## Related concepts
+
+* [[projective object]], [[projective presentation]], [[projective cover]], [[projective resolution]]
+
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
+
+  * [[injective module]]
+
+* [[free object]], **free resolution**
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
+
+
+[[!redirects free resolutions]]
