@@ -292,7 +292,7 @@ with $\beta(\pi_1)(\mathcal{G})$ defined similarly. The monad multiplication $m_
 
 $$(\mathcal{U}: \beta\beta S) \;\; m_S(\mathcal{U}) \coloneqq \{A \subseteq S: \hat{A} \in \mathcal{U}\}$$ 
 
-where $\hat{A} = \{F \in \beta S: A \in F\}$ (see also the [previous section](nlab/show/relational+beta-module#functor)). 
+where $\hat{A} = \{F \in \beta S: A \in F\}$ (see also the [previous section](/nlab/show/relational+beta-module#functor)). 
 
 Thus, (eq:conv1) translates into the following entailment (using remark \ref{open}):  
 
