@@ -56,8 +56,6 @@ MathOverflow question [tomita-takesaki-versus-frobenuis-where-is-the-similarity]
 * [[Alain Connes]], [[Carlo Rovelli]], _Von Neumann algebra automorphisms and time-thermodynamics relation in general covariant quantum theories_, [arXiv:gr-qc/9406019](http://arxiv.org/abs/gr-qc/9406019), [pdf](http://www.alainconnes.org/docs/carlotime.pdf)
 
 
-[[!redirects modular group]]
-[[!redirects modular groups]]
 [[!redirects modular conjugation]]
 [[!redirects modular conjugations]]
 [[!redirects Tomita theory]]
