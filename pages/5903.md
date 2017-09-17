@@ -110,7 +110,7 @@ $$
   Con(Lan(C)) \to C
 $$
 
-says that there a canonical interpretatin of the internal logic of a category $C$ in $C$ itself, while the [[unit of an adjunction|unit]] evaluated at a theory $T$:
+says that there a canonical interpretation of the internal logic of a category $C$ in $C$ itself, while the [[unit of an adjunction|unit]] evaluated at a theory $T$:
 
 $$ T \to Lan(Con(T)) $$
 
@@ -219,7 +219,7 @@ The result of this exercise is true in more generality: it works for any finite-
 
 ### Cartesian multicategories
 
-Instead of a syntactic category, for a non-dependent type theory one can construct instead a syntactic [[cartesian multicategory]] (or, in the case of a [[linear logic|linear]] type theory, a plain (symmetric) [[multicategory]]).  This avoids the need to take the objects to be contexts rather than sigle types.
+Instead of a syntactic category, for a non-dependent type theory one can construct instead a syntactic [[cartesian multicategory]] (or, in the case of a [[linear logic|linear]] type theory, a plain (symmetric) [[multicategory]]).  This avoids the need to take the objects to be contexts rather than single types.
 
 ### The syntactic site
 
