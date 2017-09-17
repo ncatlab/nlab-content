@@ -88,7 +88,9 @@ is trivial.
 
 ## Examples
 
+### Extension through Postnikov stages
+
+If $F \to A$ in the above is a stage $\tau_{\leq n+1} B \to \tau_{\leq n}B$ in the [[Postnikov tower]] of an object $B$, then the lifting problem is that of lifting through the Postnikov tower of $A$ and the universal obstruction class is that which classified $\tau_{\leq n+1} B \to \tau_{\leq n}B$ as a $\pi_{n+1} B$-[[principal infinity-bundle]].
+
 (...)
-
-
 [[!redirects obstructions]]
