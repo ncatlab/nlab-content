@@ -1,12 +1,32 @@
-The parenthesized braid operad an operad in [[groupoid]] modelled on the [[braid group]].
 
-For any integer $n\geq 1$, let $PaB_n$ be the groupoid defined as follows:
-* its objects are parenthesized permutations of $\{1,\dots,n\}$, that is non-associative, non-commutative monomials on this set in which every letter appears exaclty once.
-* morphisms between two objects $s,t$ are braids connecting each letter in $s$ to the same letter in $t$. In other words, let $p:B_n\rightarrow S_n$ be the canonical projection from the braid group to the symmetric group whose kernel is the pure braid group. Then, forgetting the parenthesization and viewing $s,t$ as permutations:
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _parenthesized braid operad_ is an [[operad]] in [[Grpd]] modelled on the [[braid group]].
+
+## Definition
+
+For any [[integer]] $n\geq 1$, let $PaB_n$ be the [[groupoid]] defined as follows:
+* its [[objects]] are parenthesized [[permutations]] of $\{1,\dots,n\}$, that is non-associative, non-commutative monomials on this set in which every letter appears exactly once.
+* [[morphisms]] between two objects $s,t$ are braids connecting each letter in $s$ to the same letter in $t$. In other words, let $p:B_n\rightarrow S_n$ be the canonical projection from the braid group to the symmetric group whose kernel is the pure braid group. Then, forgetting the parenthesization and viewing $s,t$ as permutations:
 
 $$Hom(s,t)=p^{-1}(\{s^{-1}t\})$$
 
-Then the collection $PaB$ of the $PaB_n$'s is an operad. The composition
+Then the collection $PaB$ of the $PaB_n$'s is an [[operad]]. The composition
 
 $$\circ_i:PaB_n \times PaB_m \rightarrow PaB_{m+n-1}$$
 
@@ -14,8 +34,20 @@ is given by replacing the $i$th strand of the first braid, by the second braid m
 
 $PaB$ also have an obvious structure of a [[braided monoidal category]]. In fact:
 
-**Theorem** $PaB$ is an [[initial object]] in the category of braided monoidal categories.
++-- {: .num_theorem}
+###### Theorem
+
+$PaB$ is an [[initial object]] in the [[category]] of 
+[[braided monoidal categories]].
+
+=--
 
 A topological interpretation of $PaB$ is as follows:
 
-**Theorem** $PaB$ may be identified with a full sub-operad of the [[fundamental groupoid]] of the [[little 2-disk operad]].
++-- {: .num_theorem}
+###### Theorem
+
+$PaB$ may be identified with a full sub-operad of the [[fundamental groupoid]] of the [[little 2-disk operad]].
+
+=--
+
