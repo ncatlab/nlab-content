@@ -1,0 +1,31 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Topological automorphic forms are a generalization of [[topological modular forms]]: where the latter come with the [[moduli space]] of [[elliptic curves]], topological automorphic forms are associated to a given [[Shimura variety]].
+Moreover, just as topological modular forms refine to the [[tmf]]-[[spectrum]] representing the corresponding [[cohomology theory]], so every Shimura variety induces a cohomology theory $taf$.
+
+## Related concepts
+
+* [[topological modular forms]]
+
+## References
+
+### Original articles
+
+* [[Mark Behrens]], [[Tyler Lawson]], _Topological automorphic forms_, Mem. Amer. Math. Soc. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/taf.pdf))
+
+* [[Tyler Lawson]], _An overview of abelian varieties in homotopy theory_ ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/tafoverview.pdf))
+
+### Lectures
+
+* [[Mark Behrens]], _Topological Automorphic Forms_, Lecture series (2011) ([lecture notes](http://www.math.ist.utl.pt/~ggranja/SummerLect11_files/abstractmark.html))
+
+* [[Doug Ravenel]], _Seminar on topological automorphic forms_ (2009-11) ([web](http://www.math.rochester.edu/u/faculty/doug/taf.html))
+
+* _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
+
+[[!redirects automorphic forms]]
