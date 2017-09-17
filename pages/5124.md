@@ -37,6 +37,14 @@ Finally, the subcategory of $C/X$ whose objects are the [[fibration in a 2-categ
 
 When $C$ is a 1-category, the slice, strict-slice, lax- and colax-slice, and fibrational- and opfibrational-slice 2-categories all coincide with the usual [[slice category]].  When $C$ is a [[(2,1)-category]], then all of them coincide except the strict one.  Thus, when generalizing a concept involving slice categories from categories to 2-categories, it can sometimes be a little subtle to decide on the correct version of slice category to use.
 
+## Related concepts
+
+* [[michaelshulman:fibrational slice]]
+
+* [[slice category]]
+
+* [[slice (∞,1)-category]]
+
 [[!redirects slice 2-category]]
 [[!redirects slice 2-categories]]
 [[!redirects over 2-category]]
