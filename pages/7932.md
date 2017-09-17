@@ -460,7 +460,7 @@ The following lists some fundamental classes of examples of $\infty$-actions of 
 #### Trivial action
  {#TrivialAction}
 
-Consider the [[etale geometric morphism]]
+Consider the [[étale geometric morphism]]
 
 $$
   Act_{\mathbf{H}}(G) \coloneqq
@@ -530,6 +530,8 @@ $$
   G//_{Ad}G \simeq \mathcal{L}\mathbf{B}G
   \,.
 $$
+
+
 
 #### Automorphism action
  {#AutomorphismAction}
@@ -683,6 +685,49 @@ $$
 $$
 
 is the configuration space of fields on $\Sigma$ modulo automorphisms (diffeomorphisms, in [[smooth infinity-groupoid|smooth cohesion]]) of $\Sigma$. This is the configuration space of "[[general covariance|generally covariant]]" field theory on $\Sigma$.
+
+#### Semidirect product groups
+ {#SemidirectProductGroups}
+
+Let $G, A \in Grp(\mathbf{H})$ be 0-truncated group objects and let $\rho$ be an action of $G$ on $A$ by group homomorphisms. This is equivalently an action of $G$ on $\mathbf{B}A$, hence a fiber sequence
+
+$$
+  \array{
+    \mathbf{B}A &\to& \mathbf{B} (G \ltimes A)
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}G
+  }
+  \,.
+$$
+
+The corresponding [[action groupoid]] $(\mathbf{B}A)\sslash G \simeq \mathbf{B}( G \ltimes A)$ is the delooping of the corresponding [[semidirect product group]]. 
+
+
+#### $G$-Modules
+ {#GModules}
+
++-- {: .num_defn #InfinityModuleOverAnInfinityGroup}
+###### Definition
+
+For $G \in Grp(\mathbf{H})$ the $\infty$-category of **$G$-[[modules]]** is 
+
+$$
+  Stab( \mathbf{H}_{/\mathbf{B}G}) \simeq Stab(G Act)
+  \,,
+$$
+
+the [[stabilization]] of the $\infty$-category of $G$-actions.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]] structure, the semidirect product group $G \ltimes A$ from [above](#SemidirectProductGroups) exhibits $A$ as a $G$-module in the sense of def. \ref{InfinityModuleOverAnInfinityGroup}.
+
+=--
 
 ## Related concepts
 
