@@ -17,10 +17,9 @@
 =--
 =--
 
-
-#Bishop sets#
+# Bishop sets
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -39,7 +38,8 @@ These ideas have been formalized in [[type theory]], where they serve to set up 
 It is direct and natural to represent formally the notion of Bishop sets
 in [[type theory]]. See for instance ([Palmgren05](#Palmgren05)) for an exposition and ([Coquand-Spiwack, section 3](#CoquandSpiwack)) for a brief list of the axioms.
 
-In the context of type theory a Bishop set is sometimes called a _[[setoid]]_.
+In the context of type theory a Bishop set is sometimes called a __setoid__.
+
 
 ## Properties
 
@@ -60,6 +60,7 @@ This is ([van den Berg, theorem 6.2](#vdBerg)), based on ([Moerdijk-Palmgren, se
 ## Related concepts
 
 * [[ETCS]]
+
 
 ## References
 
@@ -93,5 +94,9 @@ The [[predicative topos]] formed by Bishop sets in type theory is discussed in
 * [[Benno van den Berg]], _Predicative toposes_  ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
 
+
+[[!redirects Bishop set]]
 [[!redirects Bishop sets]]
 
+[[!redirects setoid]]
+[[!redirects setoids]]
