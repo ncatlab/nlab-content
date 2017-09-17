@@ -17,7 +17,7 @@ $$
   C(-,c) : C^{op} \to Set
 $$
 sends morphisms in $S$ to [[isomorphisms]] in [[Set]], i.e. if
-for every $s : a \to b$ in $S$, the functor
+for every $s : a \to b$ in $S$, the function
 $$
   C(s,c) : C(b,c) \to C(a,c)
 $$
