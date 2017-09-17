@@ -1,5 +1,18 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -23,7 +36,7 @@ Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in 
 
 ### Relation to measure theory
 
-Boolean toposes are closed related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06)).
+Boolean toposes are closed related to [[measurable spaces]] (e.g [Jackson 06](#Jackson06), [Henry 14](#Henry14)).
 
 ## Examples
 
@@ -41,6 +54,7 @@ Any topos satisfying the [[axiom of choice]] is Boolean. This result is due to R
 
 * {#Jackson06} Matthew Jackson, _A sheaf-theoretic approach to measure theory_, 2006 ([pdf](http://www.andrew.cmu.edu/~awodey/students/jackson.pdf))
 
+* {#Henry14} [[Simon Henry]], _From toposes to non-commutative geometry through the study of internal Hilbert spaces_, 2014  ([pdf](http://www.math.jussieu.fr/~henrys/Thesis.pdf))
 
 
 [[!redirects Boolean topos]]
