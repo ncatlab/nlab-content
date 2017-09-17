@@ -18,7 +18,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -30,6 +30,7 @@ Traditionally fibration sequences have been considered in the context of [[homot
 
 
 ## Definition
+ {#Definition}
 
 Let $C$ be an [[(∞,1)-category]] with small [[limits]] and consider [[pointed objects]] of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken with respect to these points.
 
@@ -53,6 +54,9 @@ $$
   \,.
 $$
 
+A formalization of fiber sequences in [[homotopy type theory]] is in the [[Coq]] code 
+
+* [[Vladimir Voevodsky]], _[Foundations/Generalities/uuo.v](https://github.com/vladimirias/Foundations/blob/master/Generalities/uu0.v)_
 
 ## Long fibration sequences
 
