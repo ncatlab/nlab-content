@@ -38,7 +38,7 @@ $\mathcal{Ch}_\bullet$. Notice that often in the literature this choice of $\mat
 
 An $A_\infty$-algebra in chain complexes is concretely the following data. 
 
-A chain $A_\infty$-algebra is the structure of a degree 1 coderivation 
+A chain $A_\infty$-algebra is the structure of a degree 1 [[coderivation]] 
 
 $$
   D : T^c V \to T^c V
