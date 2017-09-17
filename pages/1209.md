@@ -55,6 +55,12 @@ These relations are known as _[[Tannaka duality]]_ [for monoids/algebras](Tannak
 
 It is interesting how to generalize this notion in various nonsymmetric situations, for example involving [[braided monoidal category|braidings]], or more generally in [[duoidal categories]], or in relative situations over noncommutative rings (e.g. Takeuchi bialgebroids). In the completely noncommutative situation of the monoidal category of endofunctors, one can look at various compatibilities between [[monad]]s and comonads or monads and tensor products, for example involving distributive laws.
 
+## Related concepts
+
+* [[Hopf monoid]], [[Frobenius monoid]]
+
+## References
+
 As far as compatibility with tensor product is concerned, there is a notion of a bimonad and involves a version of [[distributive law]]s, hence it is related to a lifting problem:
 
 * [[Ieke Moerdijk]], _Monads on tensor categories_, Category theory 1999 (Coimbra), J. Pure Appl. Algebra 168 (2002), no. 2-3, 189--208 (MR2003e:18012)
