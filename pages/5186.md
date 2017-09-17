@@ -27,11 +27,13 @@ The generalization to [[supergeometry]] is the [[superparticle]].
 
 The **relativistic particle** is described by the [[sigma-model]] whose
 
-* [[target space]] is a [[spacetime]] $(X,g)$ 
+* [[target space]] is a [[spacetime]] $(X,g)$,
+
+  where the [[pseudo-Riemannian metric]] $g$ -- or rather the [[Levi-Civita connection]] $\nabla$ that it induces on the [[tangent bundle]] $T X$ -- encodes the background field of [[gravity]] acting on the particle;
 
 * [[worldvolume]] is the [[real line]] $\Sigma = \mathbb{R}$ or the [[circle]] $\Sigma = S^1$;
 
-* [[background gauge field]] is [[connection on a bundle|connection]] $\nabla$ on a [[circle group]]-[[principal bundle]] over $X$.
+* [[background gauge field]] is [[connection on a bundle|connection]] $\nabla$ on a [[circle group]]-[[principal bundle]] over $X$, encoding a field of [[electromagnetism]] acting by [[Lorentz force]] on the particle;
 
 * [[configuration space]] is the [[quotient]]
 
@@ -255,7 +257,15 @@ express the [[parallel transport]] of the tangent vector along a physical trajec
 
 =--
 
+## Related concepts
 
+* [[sigma model]], [[brane]]
+
+  * **particle**, [[superparticle]]
+
+  * [[string]]
+
+  * [[membrane]]
  
 ## References
 
