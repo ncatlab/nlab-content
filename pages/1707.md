@@ -340,12 +340,10 @@ is just [[group homomorphism]] $G \to A$ -- a [[character]] of $G$.
 #### Degree-$2$ group cohomology 
  {#Degree2}
 
-Let $G$ be a [[discrete group]] and $A$ an [[abelian group|abelian]] [[discrete group]], regarded as being equipped with the trivial $G$-[[action]].
+We discuss here in detail and in components the special case of degree-2 group cohomology of a [[discrete group]] $G$ with coefficients in $A$ an [[abelian group|abelian]] [[discrete group]] and regarded as being equipped with the trivial $G$-[[action]].
 
 
-
-
-+-- {: .num_prop}
++-- {: .num_prop #2CocyclesAndCoboundaries}
 ###### Proposition
 
 Let $G$ be a [[discrete group]] and $A$ an [[abelian group|abelian]] [[discrete group]], regarded as being equipped with the trivial $G$-[[action]].
@@ -356,9 +354,10 @@ $$
   c \colon G \times G \to A
 $$
 
-such that for all $(g_1, g_2) \in G \times G$ it satisfies the [[equation]]
+such that for all $(g_1, g_2, g_3) \in G \times G \times G$ it satisfies the [[equation]]
 
-$$
+\[
+  \label{2CocycleConditionForCentralExtension}
   c(g_1, g_2)
   -
   c(g_1, g_2 \cdot g_3)
@@ -369,9 +368,9 @@ $$
   = 
   0
   \;\;\;\; \in A
-$$
+\]
 
-(called the _cocycle condition_). 
+(called the **group 2-cocycle condition**). 
 
 For $c, \tilde c$ two such cocycles, a **[[coboundary]]** $h \colon c \to \tilde c$ between them is a [[function]]
 
@@ -381,13 +380,20 @@ $$
 
 such that for all $(g_1,g_2) \in G \times G$ the [[equation]]
 
-$$
+\[
+  \label{Group2CoboundaryEquation}
   \tilde c(g_1,g_2)
   = 
-  c(g_1,g_2) + h(g_1 g_2) - h(g_1) - h(g_2)
+  c(g_1,g_2) + (d h)(g_1,g_2)
+\]
+
+holds in $A$, where
+
+$$
+  (d h)(g_1, g_2) \coloneqq h(g_1 g_2) - h(g_1) - h(g_2)
 $$
 
-holds in $A$.
+is the **group 2-coboundary** encoded by $h$.
 
 The degree-2 **group cohomology** is the set 
 
@@ -395,7 +401,7 @@ $$
   H^2_{Grp}(G,A) = 2Cocycles(G,A) / Coboundaries(G,A)
 $$
 
-of [[equivalence classes]] of group 2-cocycles modulo group coboundaries. This is itself naturally an [[abelian group]] under pointwise addition of cocycles in $A$
+of [[equivalence classes]] of group 2-cocycles modulo group 2-coboundaries. This is itself naturally an [[abelian group]] under pointwise addition of cocycles in $A$
 
 $$
   [c_1] + [c_2] = [c_1 + c_2]
@@ -410,6 +416,8 @@ $$
    
 
 =--
+
+This may be taken as the _definition_ of degree-2 group cohomology (with coefficients in abelian groups and with trivial action). The following proof shows how this _follows_ from the general simplicial presentation of prop. \ref{DiscreteGroupCohomologyBySimplicialHomotopy}.
 
 +-- {: .proof}
 ###### Proof
@@ -568,6 +576,122 @@ Since there is a unique 3-cell in $DK(A[2])$ whenever the oriented su, of the $A
 A similar argument gives the coboundaries
 
 =--
+
+We discuss now how in the computation of $H^2_{Grp}(G,A)$ one may concentrate on the _normalized_ cocycles.
+
++-- {: .num_defn #Normalized2Cocycle}
+###### Definition
+
+A group 2-cocycle $c \colon G \times G \to A$, def. \ref{2CocyclesAndCoboundaries} is called **normalized** if 
+
+$$
+  \forall_{g_0,g_1 \in G}
+  \;\;
+  \left(g_0 = e \;or\; g_1 = e \right)
+  \Rightarrow
+  \left( c(g_0,g_1) = e \right)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_lemma #2CocycleOngeisSameasOnee}
+###### Lemma
+
+For $c \colon G \times G \to A$ a group 2-cocycle, we have for all $g \in G$
+that 
+
+$$
+  c(e,g) = c(e,e) = c(g,e)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The cocycle condition (eq:2CocycleConditionForCentralExtension) evaluated on
+
+$$
+  (g^{-1},  g,  e) \in G^3
+$$
+
+says that
+
+$$
+ c(g^{-1}, g) + c(e, e) = c(g, e) + c(g^{-1}, g )
+$$
+
+hence that
+
+$$
+  c(e,e) = c(g, e)
+  \,.
+$$
+
+Similarly the 2-cocycle condition applied to 
+
+$$
+  (e,  g,  g^{-1}) \in G^3
+$$
+
+says that
+
+$$
+  c(e,g) + c(g,g^{-1}) = c(g,g^{-1}) + c(e,e)
+$$
+
+hence that
+
+$$
+  c(e,g) = c(e,e)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every group 2-cocycle $c \colon G \times G \to A$ is 
+cohomologous to a normalized one, def. \ref{Normalized2Cocycle}.
+
+=--
+
++-- {: .num_proof}
+###### Proof
+
+By lemma \ref{2CocycleOngeisSameasOnee} it is sufficient to 
+show that $c$ is cohomologous to a cocycle $\tilde c$ satisfying
+$\tilde c(e,e) = e$.
+Now given $c$, Let $h \colon G \to A$ be given by 
+
+$$
+  h(g) \coloneqq c(g,g)
+  \,.
+$$
+
+Then $\tilde c \coloneqq c + d c$ has the desired property, with (eq:Group2CoboundaryEquation):
+
+$$
+  \begin{aligned}
+    \tilde c(e,e)
+    & \coloneqq
+    (c + d h)(e,e) 
+    \\
+    & = 
+    c(e,e)  + c(e \cdot e, e \cdot e) - c(e,e) - c(e,e)
+    \\  
+    & = 
+    0
+  \end{aligned}
+  \,.
+$$
+
+=--
+
 
 ### Structured group cohomology (topological groups and Lie groups)
  {#StructuredCohomology}
