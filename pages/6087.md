@@ -1,0 +1,8 @@
+
+A [[Lie groupoid]] $(C_1 \stackrel{\overset{s}{\to}}{\underset{t}{\to}}) C_0$ is **proper** if
+
+$$
+  (s,t) : C_1 \to C_0
+$$
+
+is a [[proper map]].
