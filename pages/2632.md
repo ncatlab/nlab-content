@@ -195,7 +195,7 @@ $$
   (b_1, b_2) \mapsto b_1 \cdot b_2
 $$
 
-from the [[tensor product]] of algebras factors as an [[isomorphism]]
+from the [[tensor product]] of algebras (the [[composite system]]) factors as an [[isomorphism]]
 
 $$
   B_1 \otimes B_2 \stackrel{\simeq}{\to} B_1 \vee B_2 \hookrightarrow \mathcal{A}
