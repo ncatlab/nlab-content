@@ -1,5 +1,13 @@
 
 # Exchange structure
+* table of contents
+{: toc}
+
++-- {: .standout}
+This article was written by a new user and then blanked from the same address.
+=--
+
+## Definitions
 
 Let $\mathcal{C}_{1}$, $\mathcal{C}_2$ be two [[categories]] with the same [[objects]].
 Let $\mathcal{D}$ be a [[2-category]].
