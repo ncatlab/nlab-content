@@ -20,12 +20,9 @@
 
 ## Idea
 
-A _modular form_ is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation properties.
+A _modular form_ is a [[holomorphic function]] on the [[upper half-plane]] that satisfies certain transformation property under the [[action]] of the [[modular group]]. Abstractly this transformation property makes the function a [[section]] of a certain [[line bundle]] on the [[quotient]] of the [[upper half plane]] that makes it the [[moduli stack of elliptic curves]] (over the [[complex numbers]]).
 
-
-Modular forms appear as the [[coefficient]] ring of the [[Witten genus]] on manifolds with rational [[string structure]].
-
-(For manifolds with actual [[string structure]] this refines to [[topological modular forms]]).
+Modular forms appear as the [[coefficient]] ring of the [[Witten genus]] on manifolds with rational [[string structure]]. For manifolds with actual [[string structure]] this refines to [[topological modular forms]], which are the [[homotopy groups]] of the [[spectrum]] [[tmf]].
 
 
 ## Definition
