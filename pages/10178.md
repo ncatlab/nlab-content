@@ -38,7 +38,7 @@ The fundamental observation here is that is natural to
 
 1. (**path integral**) -- identify the [[path integral]] [[quantization]]/[[partition function]] of these local action functionals on spaces of trajectories as the [[path integral as a pull-push transform|pull-push operation]]  in [[twisted cohomology|twisted]] $E$-[[cohomology theory]] through these correspondences.
 
-This perspective has many precursors, listed in the [references below](#RelatedWorkOnTheIdeaOfMotivicQuantization). What is described here might be thought of as a proposal for a coherent, general and natural formulation, in the spirit of "[[schreiber:Synthetic Quantum Field Theory]]" formulated in the [[higher differential geometry]] of [[cohesive (∞,1)-toposes]].
+This perspective has many precursors, listed in the [references below](#PrevLit). What is described here might be thought of as a proposal for a coherent, general and natural formulation, in the spirit of "[[schreiber:Synthetic Quantum Field Theory]]" formulated in the [[higher differential geometry]] of [[cohesive (∞,1)-toposes]].
 
 Before looking at the details, we indicate some of the characteristic aspects of _motivic quantization_:
 
@@ -3670,7 +3670,7 @@ we first list references and notes along the lines of the above discussion in
 
 and then give an extensive list of precursors of articles on aspects of the idea of motivic quantization as laid out here in 
 
-* _[Related work on the idea of motivic quantization](#RelatedWorkOnTheIdeaOfMotivicQuantization)_
+* _[Related work on the idea of motivic quantization](#PrevLit)_
 
 ### Introductions and lecture notes
  {#IntroductionsAndLectureNotes}
@@ -3742,7 +3742,7 @@ This is based on previous work such as
 
 
 ### Related work on the idea of motivic quantization
- {#RelatedWorkOnTheIdeaOfMotivicQuantization}
+ {#PrevLit}
 
 The following is a list of "precursors" of aspects of the idea motivic quantization as laid out here.
 
