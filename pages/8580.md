@@ -1924,19 +1924,15 @@ Then we discuss how this induces a notion of smooth differential forms on genera
 
 * _[Smooth universal moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)_.
 
-Finally we provide a precise version of the statement that "Differential 1-forms are differential measures along paths." in 
+Further below we provide a precise version of the statement that "Differential 1-forms are differential measures along paths." in 
 
-* _[Differential 1-forms are smooth incremental path measures](#1FormsAsSmoothFunctors)_
-
-and of the statement that "Differential 2-forms are differential measures along surfaces." in
-
-* _[Differential 2-forms are smooth incremental surface measures](#2FormsAsSmoothFunctors)_
+* _[Differential 1-forms are smooth incremental path measures](#1FormsAsSmoothFunctors)_.
 
 
 #### Differential forms on abstract coordinate systems
  {#DifferentialFormsOnAbstractCoordinateSystem}
 
-We introduce the basic concept of a smooth [[differential form]] on a [[Cartesian space]] $\mathbb{R}^n$. Below in _[The smooth universal moduli space of differential forms](#SmoothUniversalModuliSpaceOfDifferentialForms)_ we use this to define differential forms on any [[smooth space]].
+We introduce the basic concept of a smooth [[differential form]] on a [[Cartesian space]] $\mathbb{R}^n$. Below in _[Differential forms on smooth spaces](#SmoothUniversalModuliSpaceOfDifferentialForms)_ we use this to define differential forms on any [[smooth space]].
 
 +-- {: .num_defn #Differential1FormsOnCartesianSpaces}
 ###### Definition
@@ -2085,7 +2081,7 @@ $$
 =--
 
 
-#### The smooth universal moduli space of differential forms
+#### Differential forms on smooth spaces
  {#SmoothUniversalModuliSpaceOfDifferentialForms}
 
 Above we have defined differential $n$-form on abstract coordinate systems. Here we extend this definition to one of differential $n$-forms on arbitrary [[smooth spaces]]. We start by observing that the space of _all_ differential $n$-forms on cordinate systems themselves naturally is a smooth space.
@@ -2151,7 +2147,7 @@ between the set of smooth $n$-forms on $\mathbb{R}^n$ according to def. \ref{Dif
 
 In view of this we have the following elegant definition of smooth $n$-forms on an arbitrary smooth space.
 
-+-- {: .num_defn}
++-- {: .num_defn #DifferentialnFormOnSmoothSpace}
 ###### Definition
 
 For $X \in Smooth0Type$ a [[smooth space]], def. \ref{SmoothSpace}, a **[[differential n-form]]** on $X$ is a [[homomorphism]] of [[smooth spaces]] of the form
@@ -2171,6 +2167,9 @@ for the set of smooth $n$-forms on $X$.
 
 =--
 
+We may unwind this definition to a very explicit description of differential forms on smooth spaces. This we do in a moment in remark \ref{DifferentialFormOnSmoothSpaceAsSystemOfDiffFormsOnCoordinates}.
+
+Notice that differential 0-forms are equivalently smooth $\mathbb{R}$-valued functions.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -2178,6 +2177,7 @@ for the set of smooth $n$-forms on $X$.
 $\Omega^0 = \mathbb{R}$
 
 =--
+
 
 +-- {: .num_defn #PullbackOfDifferentialFormsOnSmoothSpaces}
 ###### Definition
@@ -2213,6 +2213,35 @@ Again by the [[Yoneda lemma]].
 
 =--
 
++-- {: .num_remark #DifferentialFormOnSmoothSpaceAsSystemOfDiffFormsOnCoordinates}
+###### Remark
+
+Using def. \ref{PullbackOfDifferentialFormsOnSmoothSpaces}
+
+Unwinding def. \ref{DifferentialnFormOnSmoothSpace} yields the following explicit description:
+
+a differential $n$-form $\omega \in \Omega^n(X)$ on a smooth space $X$ is
+
+1. for each way $\phi \colon \mathbb{R}^k \to X$ of laying out a coordinate system $\mathbb{R}^k$ in $X$ a differential $n$-form
+
+   $$
+     \phi^* \omega \in \Omega^n(\mathbb{R}^k)
+   $$
+
+   on the abstract coordinate system, as given by def. \ref{DifferentialnForms};
+
+1. for each abstract [[coordinate transformation]] $f \colon \mathbb{R}^{k_2} \to \mathbb{R}^{k_1}$ a corresponding compatibility condition between local differential forms $\phi_1 \colon \mathbb{R}^{k_1} \to X$ and $\phi_2 \colon \mathbb{R}^{k_2} \to X$ of the form
+
+   $$
+     f^* \phi_1^* \omega = \phi_2^* \omega
+     \,.
+   $$
+
+Hence a differential form on a smooth space is simply a collection of differential forms on all its coordinate systems such that these glue along all possible coordinate transformations.
+
+=--
+
+
 The following adds further explanation to the role of $\Omega^n \in Smooth0Tye$ as a _[[moduli space]]_. Notice that since $\Omega^n$ is itself a [[smooth space]], we may speak about differential $n$-forms on $\Omega^n$ itsefl.
 
 +-- {: .num_defn #UniversalDifferentialnForm}
@@ -2242,38 +2271,12 @@ $$
 
 =--
 
-#### Differential 1-forms are smooth incremental path measures
- {#1FormsAsSmoothFunctors}
++-- {: .num_remark}
+###### Remark
 
-A [[smooth function]] $f \colon X \to \mathbb{R}$ is like a point-measure: for each point $x \colon * \to X$ it gives a value $f(x) \colon * \to \mathbb{R}$.
+This statement is of course in a way a big tautology. Nevertheless it is a very useful tautology to make explicit. The whole concept of differential forms on smooth spaces here may be thought of as simply a variation of the theme of the [[Yoneda lemma]].
 
-Instead a smooth function on the [[path space]] $\omega \colon P X \to \mathbb{R}$ is like a line measure. It gives a value for each path
-
-$$
-  \frac{* \stackrel{\vdash \gamma}{\to} P X}{\mathbb{R} \stackrel{\gamma}{\to} X}
-  \,.
-$$
-
-Suppose that measure is smooth and _incremental_ in that if we divide the path into segments $I_i$, then the value of the whole path in the sum of the value of the segments.
-
-Then in the limit, the path measure is fixed by knowing what it assigns to an _[[infinitesimal space|infinitesimal path]]_. Such an assignment is called a smooth _[[differential 1-form]]_.
-
-[[path groupoid]] 
-
-$$
-  \int_{(-)}\omega \colon P_1(X) \to \mathbf{B}\mathbb{R}
-$$
-
-#### Differential 2-forms are smooth incremental surface measures
- {#2FormsAsSmoothFunctors}
-
-[[path 2-groupoid]]
-
-(...)
-
-$$
-  \int_{(-)}\omega : P_2(X) \to \mathbf{B}^2 \mathbb{R}
-$$
+=--
 
 
 
@@ -2541,89 +2544,89 @@ $$
 $$
 
 
-
-## **Smooth $n$-groupoids**
- {#SmoothnGroupoids}
+## **Smooth groupoids**
+ {#SmoothGroupoids}
 
 ### Layer Mod
+ (...)
 
-* [[Lie groupoid]]
 
-$$
-  X_1 \stackrel{\overset{d_1}{\to}}{\stackrel{\overset{s_0}{\leftarrow}}{\underset{d_0}{\to}}}
-  X_0
-$$
+#### Differential 1-forms are smooth incremental path measures
+ {#1FormsAsSmoothFunctors}
 
-$$
-  \array{
-    && X^{\Delta^2}
-    \\
-    &{}^{\mathllap{\exists}}\nearrow & \downarrow
-    \\
-    U &\stackrel{}{\to}& X^{\Lambda^2_i}
-  }
-$$
+We give a more intrinsic characterization of [[differential 1-forms]].
 
-Example: $X$ a [[smooth space]] and $G$ a [[smooth group]] and 
++-- {: .num_defn #SmoothPath}
+###### Definition
 
-$\rho : X \times G \to X$ an [[action]] then
+A **smooth path with sitting instants** in $\mathbb{R}^k$ is a [[smooth function]] $\gamma \colon \mathbb{R} \to \mathbb{R}^k$ such 
 
-[[action groupoid]]
+1. the value of $\gamma$ converges to two points $x = \underset{t \to -\infty}{\lim} \gamma \in \mathbb{R}^k$ and $y = \underset{t \to \infty}{\lim} \gamma \in \mathbb{R}^k$;
+
+1. the value of all [[derivatives]] of $\gamma$ converges to 0 at $t \to \pm \infty$.
+
+A **localized diffeomorphism** $\phi \colon \mathbb{R} \to \mathbb{R}$ is a [[diffeomorphism]] such that there is an an open ball in $\mathbb{R}$ outside of which $\phi$ restricts to the identity.
+
+Write
 
 $$
-  X \sslash G = 
-  \left(
-    X \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}}
-    X
-  \right)
+  [\mathbb{R}, \mathbb{R}^k]\sslash Diff(\mathbb{R}) 
+  \in 
+  Smooth0Type
 $$
+
+for the smooth quotient space of smooth paths modulo localized diffeomorphism.
+
+=--
+
++-- {: .num_defn #SmoothFunctorOnPathsInRkWithValuesInBR}
+###### Definition
+
+Say that a **smooth functor** $\mathbf{P}_1(\mathbb{R}^k) \to \mathbf{B}\mathbb{R}$ from the [[smooth path groupoid]] of $\mathbb{R}^k$ is
+
+* a [[homomorphism]] of smooth space 
+
+  $$
+    S \colon [\mathbb{R}, \mathbb{R}^k] \to \mathbb{R}
+  $$
+
+* such that 
+
+  1. composition of paths $\gamma_1, \gamma_2$ is sent to addition in $\mathbb{R}$
+
+     $$
+       S(\gamma_2\circ \gamma_1) = S(\gamma_1) + S(\gamma_2)
+       \,.
+     $$
+  
+  1. the constant path is sent to 0.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+There is an [[equivalence]]
+
+$$
+  [\mathbf{P}_1(-), \mathbf{B}\mathbb{R}]
+  \stackrel{\overset{\int_{(-)}(-)}{\leftarrow}}{\underset{}{\to}}
+  DK(C^\infty(-) \stackrel{\mathbf{d}}{\to} \Omega^1(-)
+  \,.
+$$
+
+=--
+
+([SchreiberWaldorf](#SchreiberWaldorf)).
+
 
 ### Layer Sem
-
-#### The $\infty$-topos of smooth $\infty$-groupoids
-
-* [[differentiable stack]]
-
-* [[(2,1)-topos]]
-
-* [[(∞,1)-topos]]
-
-* [[smooth ∞-groupoid]]
-
-#### Local $\infty$-Connectedness of the $\infty$-topos of smooth $\infty$-groupoids
- {#InfinityConnectednessOfSmoothInfinityGrpd}
-
-(...)
-
-#### Localits of the $\infty$-topos of smooth $\infty$-groupoids
-
-(...)
-
-#### Cohesion of the $\infty$-topos of smooth $\ingfty$-groupoids
+ (...)
 
 ### Layer Syn
-
-#### Identity types
-
-* [[identity type]]
-
-* [[h-level]]
-
-* [[homotopy type theory]]
-
-#### Cohesive modality II: flat types
+ (...)
 
 
-**flat type** $\flat A$
-
-maps $X \to \flat \mathbf{B}G$ are flat $G$-connections
-
-
-$$
-  \mathbf{B}G \colon Type
-  \;\vdash\;
-  UnderlyingBundle \colon \flat \mathbf{B}G \to \mathbf{B}G
-$$
 
 
 ## **Principal bundles**
@@ -2973,7 +2976,7 @@ $$
 
 (...)
 
-## **Transgression**
+## **Transgression of differential forms**
 
 ### Layer Mod
 
@@ -3024,6 +3027,91 @@ variation gives [[Lorentz force]]
 ### Layer Syn
 
 (...)
+
+
+## **Smooth $n$-groupoids**
+ {#SmoothnGroupoids}
+
+### Layer Mod
+
+* [[Lie groupoid]]
+
+$$
+  X_1 \stackrel{\overset{d_1}{\to}}{\stackrel{\overset{s_0}{\leftarrow}}{\underset{d_0}{\to}}}
+  X_0
+$$
+
+$$
+  \array{
+    && X^{\Delta^2}
+    \\
+    &{}^{\mathllap{\exists}}\nearrow & \downarrow
+    \\
+    U &\stackrel{}{\to}& X^{\Lambda^2_i}
+  }
+$$
+
+Example: $X$ a [[smooth space]] and $G$ a [[smooth group]] and 
+
+$\rho : X \times G \to X$ an [[action]] then
+
+[[action groupoid]]
+
+$$
+  X \sslash G = 
+  \left(
+    X \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}}
+    X
+  \right)
+$$
+
+### Layer Sem
+
+#### The $\infty$-topos of smooth $\infty$-groupoids
+
+* [[differentiable stack]]
+
+* [[(2,1)-topos]]
+
+* [[(∞,1)-topos]]
+
+* [[smooth ∞-groupoid]]
+
+#### Local $\infty$-Connectedness of the $\infty$-topos of smooth $\infty$-groupoids
+ {#InfinityConnectednessOfSmoothInfinityGrpd}
+
+(...)
+
+#### Localits of the $\infty$-topos of smooth $\infty$-groupoids
+
+(...)
+
+#### Cohesion of the $\infty$-topos of smooth $\ingfty$-groupoids
+
+### Layer Syn
+
+#### Identity types
+
+* [[identity type]]
+
+* [[h-level]]
+
+* [[homotopy type theory]]
+
+#### Cohesive modality II: flat types
+
+
+**flat type** $\flat A$
+
+maps $X \to \flat \mathbf{B}G$ are flat $G$-connections
+
+
+$$
+  \mathbf{B}G \colon Type
+  \;\vdash\;
+  UnderlyingBundle \colon \flat \mathbf{B}G \to \mathbf{B}G
+$$
+
 
 ## **Flat connections**
  {#FlatConnections}
@@ -3485,6 +3573,8 @@ For $n = 0$ this is again the real line $\mathbb{R}^{1|0} = \mathbb{R}$.
 
 ## References
 
+### General
+
 A textbooks with basic introductions to [[differential geometry]] and [[physics]] is
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
@@ -3501,4 +3591,15 @@ An introductory discussion with much overlap with the above discussion is in sec
 Another introductory discussion along the above lines of aspects in [[gravity]] and [[higher gauge theory]] motivated from [[string theory]] is in 
 
 * [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, ESI (2012)
+
+
+### Differential Forms
+
+The relation between differential 1-forms and smooth incremental path measures as used above is discussed in 
+
+* [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel transport and functors_, J. Homotopy Relat. Struct. 4, 187-244 ([arXiv:0705.0452](http://arxiv.org/abs/0705.0452))
+ {#SchreiberWaldorf}
+
+For a commented list of related literature see [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos+--+references#HistConnAsParTrans).
+
 
