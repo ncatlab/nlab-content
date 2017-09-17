@@ -66,7 +66,7 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 * [Goettingen digital library](http://gdz.sub.uni-goettingen.de) -- mainly German journals
 
 ## General lists of math resources
-* [Math on the Web](http://www.ams.org/mathweb/index.html) links maintained by American Mathematical Society
+* [Math on the Web](http://www.mathontheweb.org/mathweb/index.html) links maintained by American Mathematical Society
 
 * [fsu vmlib](http://www.math.fsu.edu/Virtual) Florida State University Virtual Math Library -- long list of resources
 
