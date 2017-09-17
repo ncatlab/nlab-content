@@ -5,7 +5,7 @@
 
 ## Idea
 
-The generalization of the notion of [[Postnikov system]] from [[Top]] to a general [[(∞,1)-category]].
+The notion of **Postnikov tower in an $(\infty,1)$-category** is the  generalization of the notion of [[Postnikov tower]] from the archetypical [[(∞,1)-category]] [[Top]]$\simeq$ [[∞Grpd]] to more general $(\infty,1)$-categories.
 
 ## Definition
 
@@ -62,6 +62,14 @@ such that each $X \to X_n$ exhibits $X_n$ as [[generalized the|the]] $n$-truncat
 =--
 
 This is [[Higher Topos Theory|HTT, def. 5.5.6.23]].
+
+## Relation to other concepts
+
+At least if the ambient $(\infty,1)$-category is a [[locally contractible (∞,1)-topos]] $\mathbf{H}$, so that there is a notion of structured [[schreiber:path ∞-groupoid]]-functor $\mathbf{\Pi} : \mathbf{H} \to \mathbf{H}$, the [[homotopy fiber]]s of the morphisms $X \to \mathbf{\Pi}_n(X)$ into the Postnikov tower of $\mathbf{\Pi}(X)$ form the
+
+* [[Whitehead tower in an (∞,1)-topos|Whitehead tower in the (∞,1)-topos]] $\mathbf{H}$ of the object $X$.
+
+
 
 [[!redirects Postnikov tower in an (∞,1)-category]]
 [[!redirects Postnikov system in an (∞,1)-category]]
