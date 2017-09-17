@@ -62,7 +62,7 @@
 
     * [[Spin structure]], [[String structure]], [[Fivebrane structure]]
 
-* [[cohomology with constant coefficients]]
+* [[cohomology with constant coefficients]] / [[cohomology with a local system of coefficients|with a local system of coefficients]]
 
 * [[∞-Lie algebra cohomology]]
 
@@ -105,6 +105,10 @@
     * [[differential elliptic cohomology]]
 
   * [[schreiber:differential cohomology in an (∞,1)-topos]]
+
+    * [[Chern-Weil theory]]
+
+    * [[∞-Chern-Weil theory]]
 
 * [[relative cohomology]]
 
