@@ -9,6 +9,8 @@
 
 * [[Mumford conjecture]]
 
+* [[geometric Langlands correspondence]]-conjecture
+
 ## Related concepts
 
 * [[folklore]]
