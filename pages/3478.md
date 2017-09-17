@@ -9,7 +9,7 @@
 
 ## Definition
 
-A [[topological space]] $X$ is said to be *locally contractible** 
+A [[topological space]] $X$ is said to be **locally contractible** 
 
 * if it has a [[Grothendieck pretopology|basis]] of open sets $U$ such that the inclusions $U \to X$ are [[null-homotopic map|null-homotopic]].
 
