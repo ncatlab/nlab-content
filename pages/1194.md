@@ -527,6 +527,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[calculus of inductive constructions]]
 
+  * [[modal type theory]]
+
   * [[canonical form]], [[normal form]], [[beta-reduction]]
 
   * [[Bishop set]], [[predicative topos]]
