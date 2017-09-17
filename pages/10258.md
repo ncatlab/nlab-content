@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
