@@ -24,6 +24,66 @@ A [[super Lie algebra]] extension of a [[Poincare Lie algebra]].
 
 The corresponding [[super Lie group]] is the [[super Euclidean group]] (except for the signature of the metric).
 
+## Definition
+
+By the general discussion at [[Chevalley-Eilenberg algebra]], we may characterize the [[super Poincaré Lie algebra]] $\mathfrak{siso}(D-1,1)$ by its CE-algebra $CE(\mathfrak{siso}(D-1,1))$ "of [[left-invariant 1-forms]]" on its group manifold.
+
++-- {: .num_defn #CEAlgebraOfSuperPoincare}
+###### Definition
+
+The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}(d-1,1))$ is generated on 
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+with the differential defined by
+
+$$
+  d_{CE} \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+$$
+  d_{CE} e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+$$
+
+$$
+  d_{CE} \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  \,.
+$$
+
+Removing the terms involving $\omega$ here this is the [[super translation algebra]].
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The abstract generators in def. \ref{CEAlgebraOfSuperPoincare} are identified with [[left invariant 1-forms]] on the [[super-translation group]] as follows.
+
+Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the super translation group. Then the identification is 
+
+* $\psi^\alpha = d \theta^\alpha$.
+
+* $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
+
+This then gives the formula for the differential of the super-[[vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
+
+$$ 
+  \begin{aligned}
+    d e^a & = d (d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta)
+    \\
+    & = \frac{i}{2} d \overline{\theta}\Gamma^a d \theta
+    \\
+    & = \frac{i}{2} \overline{\psi}\Gamma^a \psi
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
 
 ## Properties
 
@@ -84,7 +144,9 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 
 * [[super Poincaré group]]
 
-* [[supersymmetry]]
+* [[super translation algebra]]
+
+* [[supersymmetry]], [[Green-Schwarz action functional]]
 
 
 ## References
