@@ -46,6 +46,13 @@ $$
 
 where $vol_g$ is the [[volume form]] and $\star_g$ is the [[Hodge star operator]] induced by $g$.  (The result is independent of [[orientation]], which can be made explicit by interpreting both $vol$ and $\star$ as valued in [[pseudoforms]].)
 
+####Example.
+
+If $(M,g)$ is $\mathbb{R}^n$ endowed with the standard Euclidean metric, then
+
+$$
+\nabla f= \sum_{i=1}^n\frac{\partial f}{\partial x^i}\partial_i.
+$$
 
 ## Remark
 
@@ -57,6 +64,10 @@ In many applications to [[vector analysis]], the Riemannian structure is irrelev
 * **gradient**
 
   * [[gradient flow]]
+
+* [[symplectic gradient]]
+
+* [[Hamiltonian flow]]
 
 * [[curl]]
 
