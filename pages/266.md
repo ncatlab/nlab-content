@@ -745,16 +745,20 @@ This means that whether or not Kan extension corresponds geometrically to pushfo
 
 ## Related concepts
 
-* **Kan extension**
+* **Kan extension**, [[(∞,1)-Kan extension]]
 
-* [[(∞,1)-Kan extension]]
+* [[base change]]
+
+  * [[dependent sum]], [[dependent product]]
+
+  * [[dependent sum type]], [[dependent product type]]
 
 
 ## References
 
-Textbook sources include
+Textbook sources include 
 
-Section 3.7 of
+section 3.7 of
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] I_
 
