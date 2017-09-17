@@ -77,6 +77,18 @@ Sheaves are used explicitly in:
 
 Generically the algebra of a relativistic AQFT turns out to be a ([[generalized the|the]]) hyperfinite type $III_1$ [[von Neumann algebra factor]]. See ([Yngvason](#Yngvason))
 
+## Examples
+ {#Examples}
+
+### Free scalar field / Klein Gordon field
+ {#FreeScalarField}
+
+A survey of the AQFT description of the free scalar field on [[Minkowski spacetime]] is in ([Motoya, slides 11-17](#Montoya)). Discussion in more general context of [[AQFT on curved spacetimes]] in ([Brunetti-Fredenhagen, section 5.2](#BrunettiFredenhagen))
+
+### Free fermion / Dirac field
+
+
+The free [[fermion]] / Dirac field and its deformations is discussed for instance in ([DLM, section 3.2](#DLM)).
 
 ## Related concepts
 
@@ -90,6 +102,7 @@ Generically the algebra of a relativistic AQFT turns out to be a ([[generalized 
 
   * [[FQFT]]
 
+
 ## References
 
 ### Axioms
@@ -98,7 +111,10 @@ The original article that introduced the [[Haag-Kastler axioms]] is
 
 * [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
 
-The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]] to more general and [[curvature|curved]] spacetimes is due to
+The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]] to more general and [[curvature|curved]] spacetimes (see [[AQFT on curved spacetimes]]) is due to
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved spaceitmes_ [arXiv:0901.2063](http://arxiv.org/abs/0901.2063)
+ {#BrunettiFredenhagen}
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
 
@@ -139,6 +155,10 @@ Recent account of the principle of locality in AQFT from the point of view of tr
 
 * [[Sergio Doplicher]], _The principle of locality: Effectiveness, fate, and challenges_, J. Math. Phys. __51__, 015218 (2010), [doi](http://dx.doi.org/10.1063/1.3276100)
 
+Talk slides include
+
+* Edison Montoya, _Algebraic quantum field theory_ (2009) ([pdf](http://www.matmor.unam.mx/~robert/sem/20091021_Montoya.pdf))
+ {#Montoya}
 
 ### Perturbation theory and renormalization
  {#ReferencesPerturbationTheory}
@@ -172,6 +192,11 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[gauge theory]] and [[QED]])
 
+
+### Further developments
+
+* C. Dappiaggi, [[Gandalf Lechner]], E. Morfa-Morales, _Deformations of quantum field theories on spacetimes with Killing vector fields_, Commun.Math.Phys.305:99-130, (2011), ([arXiv:1006.3548](http://arxiv.org/abs/1006.3548))
+ {#DLM}
 
 ### Relation to functorial QFT
 
