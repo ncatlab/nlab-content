@@ -13,7 +13,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
 
 For $(X,g)$ a [[Riemannian manifold]] and $\Delta : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[differential equation]]
 
@@ -22,5 +26,15 @@ $$
   \,.
 $$
 
+where $\Delta$ is the _wave operator_ /[[Laplace operator]].
+
+## Related concepts
+
+* [[scalar field]]
+
+* [[Feynman propagator]]
+
 [[!redirects wave equations]]
 
+
+[[!redirects wave operator]]
