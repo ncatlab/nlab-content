@@ -347,6 +347,10 @@ A comprehensive textbook is
 
 * [[Francis Borceux]], [[George Janelidze]], _Galois theories_ Cambridge University Press (2001)
 
+The locally simply connected case is discussed for instance in 
+
+* Marco Robalo, _Galois Theory towards Dessins d'Enfants_ ([pdf](https://dspace.ist.utl.pt/bitstream/2295/575330/1/dissertacao.pdf))
+
 See also
 
 * _[The Galois Theory Web Page](http://www.math.upenn.edu/~galois/)_
