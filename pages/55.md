@@ -184,3 +184,6 @@ There is also a recent "hom-version"
 * Camille Laurent-Gengoux, Joana Teles, _Hom-Lie algebroids_, [arxiv/1211.2263](http://arxiv.org/abs/1211.2263)
   
 [[!redirects Lie algebroids]]
+
+[[!redirects anchor map]]
+[[!redirects anchor maps]]
