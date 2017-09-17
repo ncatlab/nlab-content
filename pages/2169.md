@@ -46,7 +46,7 @@ The Cayley--Dickson construction applies to an algebra with [[involution]]; by t
 
 However, these algebras do all have some useful algebraic properties; in particular, they are all [[alternative algebra|alternative]] (a weak version of associativity).  They are also all [[composition algebra]]s.
 
-A __normed field__ is a commutative normed division algebra; it follows from the preceding that the only normed fields are $\mathbb{R}$ and $\mathbb{C}$.
+A __[[normed field]]__ is a commutative normed division algebra; it follows from the preceding that the only normed fields over $\mathbb{R}$ are $\mathbb{R}$ and $\mathbb{C}$ (e.g. [Tornheim 52](#Tornheim52)).
 
 
 ## Related concepts
@@ -63,7 +63,8 @@ see [[division algebra and supersymmetry]]
 *  John Baez, [This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)
 
 
+* {#Tornheim52} Leonard Tornheim, _Normed fields over the real and complex fields_, Michigan Math. J. Volume 1, Issue 1 (1952), 61-68. ([Euclid](http://projecteuclid.org/euclid.mmj/1028989727))
+
+
 [[!redirects normed division algebra]]
 [[!redirects normed division algebras]]
-[[!redirects normed field]]
-[[!redirects normed fields]]
