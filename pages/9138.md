@@ -39,21 +39,76 @@ A [[partial monoid|partial commutative monoid]] (PCM) consists of a set $M$ with
 
 1. Zero: $0\perp x$ and $0\vee x=x$
 
-(p.22)
+([Foulis-Bennet 94](#FoulisBennet) p.22)
+
+In a PCM, we define: $x \le y:\Leftrightarrow \exists_z. x \vee z = y$.  This is a preorder on any PCM.
+=--
+
++-- {: .num_prop}
+###### Proposition
+A PCM is preordered by $\le$.
+=--
+
++-- {: .proof}
+###### Proof
+Reflexivity is immediate from the Zero axiom, and transitivity follows easily from Associativity.
+=--
+
++-- {: .num_defn}
+###### Definition
+A *generalized effect algebra* is a PCM $(E, 0, \vee)$ such that:
+
+1. Cancellation Law: If $a \perp b$, $a \perp c$ and $a \vee b = a \vee c$ then $b = c$.
+
+2. Positivity Law: If $a \perp b$ and $a \vee b = 0$ then $a = b = 0$.
+
+In a generalized effect algebra, we define: $y\ominus x=z:\Leftrightarrow y=x\vee z$ (which exists iff $x \le y$, and is unique by the Cancellation Law).
+=--
+
++-- {: .num_prop}
+###### Proposition
+A generalized effect algebra is partially ordered by $\le$.
+=--
+
++-- {: .proof}
+###### Proof
+Suppose $x \le y$ and $y \le x$.  Let $x \vee a = y$ and $y \vee b = x$.  Then $x \vee (a \vee b) = x = x \vee 0$, and so $a \vee b = 0$ by the Cancellation Law.  Therefore, $a = b = 0$ and so $x = y$.
 =--
 
 +-- {: .num_defn}
 ###### Definition
 An *effect algebra* is a PCM $(E,0,\vee)$ with an orthocomplement. The latter is a unary operation $(-)^\perp :E\to E$ satisfying:
 
-1.  $x^\perp\in E$ is the unique element in $E$ with $x\vee x^\perp=1$, where $1=0^\perp$.
+1. Orthocomplement Law. $x^\perp\in E$ is the unique element in $E$ with $x\vee x^\perp=1$, where $1=0^\perp$.
 
-1. $x\perp 1\Rightarrow x=0$.
+2. Zero-One Law.  $x\perp 1\Rightarrow x=0$.
 
-For such an effect algebra one defines: $x\wedge y:=(x^\perp\vee y^\perp)^\perp$ and $x\le y:\Leftrightarrow \exists_z.x\vee z=y$ and $y\ominus x=z:\Leftrightarrow y=x\vee z$
- (p. 23)
+For such an effect algebra one defines: $x\wedge y:=(x^\perp\vee y^\perp)^\perp$ 
+ ([Foulis-Bennet 94](#FoulisBennet) p. 23)
 =--
 
++-- {: .num_prop}
+###### Proposition
+A structure $(E, 0, \vee)$ is an effect algebra iff it is a generalized effect algebra with a greatest element, in which case that greatest element is $1 = 0^\perp$.
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $(E, 0, \vee)$ be an effect algebra.  Then $E$ is a generalized effect algebra since:
+
+1. Cancellation Law.  If $a \vee b = a \vee c$ then $a \vee b \vee (a \vee b)^\perp = a \vee c \vee (a \vee b)^\perp = 1$, and so $b = c = (a \vee (a \vee b)^\perp)^\perp$.
+
+2. Positivity Law.  If $a \vee b = 0$ then $(a \vee b) \perp 1$, hence $a \perp 1$ and $b \perp 1$ by Associativity.  Thus, $a = b = 0$ by the Zero-One Law.
+
+1 is the greatest elements since, for any $x$, we have $x \vee x^\perp = 1$ and so $x \leq 1$.
+
+Conversely, let $(E, 0, \vee)$ be a generalized effect algebra with greatest element 1.  Define $x^\perp = 1 \ominus x$ for all $x$.  Then:
+
+1. Orthocomplement Law. $x^\perp$ is the unique element such that $x \vee x^\perp = 1$ by definition.
+
+2. Zero-One Law.  If $x \perp 1$, then $1 \leq x \vee 1$, so $x \vee 1 = 1$.  Thus, $x \vee 1 = 0 \vee 1$, and so $x = 0$ by the Cancellation Law.
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -63,7 +118,21 @@ $$((-\wedge y)\dashv (-\ominus y)\dashv (-\wedge y)$$
 
 Hence these functors are a [[Frobenius functor|frobenius pair]].
 
- (p.25)
+ ([Foulis-Bennet 94](#FoulisBennet) p.25)
+=--
+
+## Morphisms
+
++-- {: .num_defn}
+###### Definition
+Let $E$ and $F$ be effect algebras.
+A *morphism of effect algebras* $f : E \rightarrow F$ is a function such that:
+
+1. f(1) = 1
+
+2. If $x \perp y$ then $f(x) \perp f(y)$ and $f(x \vee y) = f(x) \vee f(y)$.
+
+We write $\mathbf{EA}$ for the category of effect algebras and morphisms of effect algebras.
 =--
 
 ## Examples
@@ -132,4 +201,3 @@ A survey of the use of effect algebras in [[quantum mechanics]] is in
 
 [[!redirects quantum effect]]
 [[!redirects quantum effects]]
-
