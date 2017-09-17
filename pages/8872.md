@@ -21,7 +21,7 @@ If $X$ is sufficiently regular, then this is the naive "Zariski [[tangent space]
 +-- {: .num_defn}
 ###### Definition
 
-For $X \hookrightarrow \mathbb{A}^n$ an [[affine algebraic variety]] definied by an [[ideal]] $I \hookrightarrow R[x_1, \cdots, x_n]$, hence $X \simeq Spec(R[x_1, \cdots, x_n]/I)$,then  its _tangent cone_ is 
+For $X \hookrightarrow \mathbb{A}^n$ an [[affine algebraic variety]] defined by an [[ideal]] $I \hookrightarrow R[x_1, \cdots, x_n]$, hence $X \simeq Spec(R[x_1, \cdots, x_n]/I)$, then  its _tangent cone_ is 
 
 $$
   C X \coloneqq Spec(R[x_1, \cdots, x_n]/I_\ast)
