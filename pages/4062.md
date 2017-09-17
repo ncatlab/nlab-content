@@ -87,11 +87,18 @@ Let $F \dashv U \colon D \to C$ be an adjunction in the 2-category $Cat$, i.e. a
 $$ D(F A,X) \cong C(A,U X) $$
 and the pasting operations as above yield the usual definition of the isomorphism of adjunction by means of unit and counit.  Moreover, the naturality of the mate correspondence yields naturality of the bijection.
 
+## Multi-variable mates
+
+There is a version of the mate correspondence that applies to [[two-variable adjunctions]] and $n$-variable adjunctions; see [Cheng-Gurski-Riehl](#CGR).
+
 ## References
 
 * [[Max Kelly]], [[Ross Street]], _Review of the elements of 2-categories_, in Kelly (ed.), Category Seminar, LNM 420.
 
-* Tom Leinster, _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
+* [[Tom Leinster]], _Higher operads, higher categories_, [math.CT/0305049](http://arxiv.org/abs/math/0305049), Section 6.1
+
+* [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates", [arXiv:1208.4520](http://arxiv.org/abs/1208.4520).
+{#CGR}
 
 [[!redirects mates]]
 [[!redirects mate correspondence]]
