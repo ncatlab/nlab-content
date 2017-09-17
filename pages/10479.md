@@ -8,6 +8,10 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
 #### Cohesive $\infty$-Toposes
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
