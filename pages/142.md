@@ -112,6 +112,12 @@ $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$
 
   * [[representable morphism of stacks]]
 
+  * [[mapping stack]]
+
+  * [[geometric stack]]
+
+    * [[differentiable stack]], [[Deligne-Mumford stack]]
+
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
 Special kinds of stacks include
