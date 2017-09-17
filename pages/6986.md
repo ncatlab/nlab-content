@@ -23,7 +23,7 @@ In a [[model]] by [[categorical semantics]], this is an [[initial object]]. In [
 
 Like all type constructors in type theory, to characterize the empty type we must specify how to build it, how to construct elements of it, how to use such elements, and the computation rules.
 
-The way to build the empty types is trivial: it exists.
+The way to build the empty type is trivial: it exists.
 
 $$\frac{ }{\emptyset\colon Type}$$
 
