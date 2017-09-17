@@ -73,9 +73,41 @@ on [[homological algebra]].
 
 ## 9 Hochschild and cyclic homology
 
+### 9.1 Hochschild Homology and Cohomology of Algebras
+
 * [[Hochschild cohomology]]
 
+
+### 9.2 Derivations, Differentials and Separable Algebra
+
+* [[derivation]]
+
+* [[differential]]
+
+* [[separable algebra]]
+
+### 9.3 $H^2$, Extensions, Smooth Algebras
+
+* [[smooth algebra]]
+
+### 9.4 Hochschild products
+
+* [[Hochschild-Kostant-Rosenberg theorem]]
+
+### 9.5 Morita Invariance
+
+### 9.6 Cyclic Homology
+
 * [[cyclic cohomology]]
+
+### 9.7 Group Rings
+
+### 9.8 Mixed Complexes
+
+### 9.9 Graded Algebras
+
+### 9.10 Lie Algebras of Matrices
+
 
 ## 10 The derived category
 
