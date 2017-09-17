@@ -34,7 +34,7 @@ A *[[model]]* of a [[theory]] $T$ in a category $C$ is equivalently a functor $C
 
 A couple of side notes for experts:
 
-* 1-categorical semantics is only relevant to *extensional* type theory; see the section on intensional vs. extensional type theory below.
+* 1-categorical semantics is only relevant to *extensional* type theory; see the section on [[intensional type theory]] vs. [[extensional type theory]] below.
 
 * The description given below is a somewhat simplified one, in that we identify objects of the category with single objects, rather than contexts.  This is strictly speaking only okay in type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.
 
@@ -395,11 +395,11 @@ The slicker categorial approach described above using categories of [[contexts]]
 
 ## Extensional vs Intensional
 
-There is an important distinction between *extensional* type theories and *intensional* ones.  The meanings of these words is probably clearest when dealing with function types, such as an exponential $Y^X$, but also arises in respect to quotient types and identity types.
+There is an important distinction between *[[extensional type theory|extensional]]* type theories and *[[intensional type theory|intensional]]* ones.  The meanings of these words is probably clearest when dealing with function types, such as an exponential $Y^X$, but also arises in respect to quotient types and identity types.
 
 ### Extensional and intensional function types
 
-A function type $Y^X$ is said to be **extensional** if whenever $f,g\colon X\to Y$ are functions such that $f(x)=g(x)$ for all $x\in X$, then in fact $f=g$ as elements of $Y^X$.  This clearly corresponds to the modeling of function types by [[function sets]] in the set-theoretic semantics, or more generally by [[exponential objects]] in the categorical semantics discussed above.  The uniqueness clause of the defining assertion of an exponential object, i.e. that any map $Z\times X\to Y$ factors through a *unique* map $Z\to Y^X$, precisely models this "extensionality" property.  Thus, the standard categorical semantics is most closely allied to type theories which have such an "extensionality" axiom.
+A [[function type]] $Y^X$ is said to be **extensional** if whenever $f,g\colon X\to Y$ are functions such that $f(x)=g(x)$ for all $x\in X$, then in fact $f=g$ as elements of $Y^X$.  This clearly corresponds to the modeling of function types by [[function sets]] in the set-theoretic semantics, or more generally by [[exponential objects]] in the categorical semantics discussed above.  The uniqueness clause of the defining assertion of an exponential object, i.e. that any map $Z\times X\to Y$ factors through a *unique* map $Z\to Y^X$, precisely models this "extensionality" property.  Thus, the standard categorical semantics is most closely allied to type theories which have such an "extensionality" axiom.
 
 By contrast, suppose that $X$ and $Y$ are interpreted by data types in some programming language, and $Y^X$ is interpreted by some type of computable functions from $Y^X$.  Of course, many differently coded functions can have the same "extensional behavior," i.e. the same output for any given input, but we may still want to distinguish between these functions because they may not share other properties (such as running time or complexity).  Thus, this type $Y^X$ is not extensional---equality of functions, as elements of $Y^X$, is "implementation-sensitive," a finer measure than mere equality on all inputs.  We say instead that these function types are **intensional**.
 
@@ -483,5 +483,3 @@ The following particular type theories are important enough to (potentially) hav
 [[!redirects dependent type theory]]
 [[!redirects dependent type theories]]
 
-[[!redirects intensional type theory]]
-[[!redirects extensional type theory]]
