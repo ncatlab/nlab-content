@@ -65,6 +65,7 @@ on $CartSp_{synthdiff}$.
 =--
 
 
+
 ## Properites
 
 
@@ -82,6 +83,36 @@ $SynthDiff \infty Grpd$ is a [[cohesive (∞,1)-topos]].
 Because [[CartSp]]${}_{synthdiff}$ is an [[∞-cohesive site]]. See there for details.
 
 =--
+
++-- {: .un_def}
+###### Definition
+
+Write $SmoothMfd_{synthdiff} \hookrightarrow SmoothAlg^{op}$ for the [[full subcategory]] of [[smooth loci]] on those of the form $X \times D$, for $X \in $ [[SmoothMfd]] $\hookrightarrow SmoothAlg^{op}$, equipped with the coveage induced form [[SmoothMfd]] as above.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+There is an [[equivalence of (∞,1)-categories]]
+
+$$
+  SynthDiff\infty Grpd \simeq \hat Sh_{(\infty,1)}(SmoothMfd_{synthdiff})
+$$
+
+with the [[hypercomplete (∞,1)-topos]] over $SmoothMfd_{synthdiff}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Directly analogous to the corresponding proof at [[ETop∞Grpd]]: use that $CartSp_{synthdiff}$ is a [[dense sub-site]] of $SmoothMfd_{synthdiff}$.
+
+=--
+
++-- {: .proof}
+###### Proof
 
 +-- {: .un_def}
 ###### Definition
