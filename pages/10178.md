@@ -397,10 +397,42 @@ $$
 
 which exhibits field configurations on $\Sigma$ as trajectories along which fields on $\partial_{in} \Sigma$ propagate to $\partial_{out} \Sigma$. 
 
-For example, if here $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field (hence $\mathbf{Fields} = X$ a [[target space]]), then this describe a bunch of [[branes]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] of shape $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
+In the example that here $\mathbf{Fields}$ is the moduli of some [[sigma-model]] field (hence $\mathbf{Fields} = X$ a [[target space]]), then this describe a bunch of [[branes]] of shape the [[connected components]] of $\Sigma_{in}$ coming in, propagating and interacting along a [[worldvolume]] of shape $\Sigma$, and finally emerging as a collection of branes of shape the [[connected components]] $\Sigma_{out}$. This describes a [[scattering process]]. Its [[quantization]] will be what is called the corresponding _[[scattering amplitude]]_ (the [[probability amplitude]] for the process to take place) or _[[n-point function]]_ or _[[correlator]]_. 
+
+Speicfying the example further, suppose that $\Sigma$ is an $n$-[[sphere]] with $(k+1)$ disjoint $n$-[[balls]] marked,  regarded as a [[cobordism]]
+
+$$
+  \array{
+    && S^d
+    \\
+    & \nearrow && \nwarrow
+    \\
+    \coprod_{i = 1}^k D^d 
+    && &&
+    D^d
+  }
+  \,,
+$$
+
+then For $\mathbf{Fields}$ some [[sigma-model]] fields this may be taken to encode a diagram where $k$ _open $d$-[[branes]]_ come in, merge, and one comes out. For instance for $d = 1$ and $k = 3$ this is a cobordism that when "viewed in time direction" is an inclusion of three small intervals into one larger intervak
+
+$$
+  \left[
+       \;\;\;
+       \left[ \;\;\;\;\; \right]_{\Sigma_{in}^1}
+       \;\;\;\;\;\;
+       \left[ \;\; \right]_{\Sigma_{in}^2}
+       \;\;\;\;
+       \left[ \;\;\;\; \right]_{\Sigma_{in}^3}
+       \;\;\;
+  \right]_{\Sigma_{out}}
+  \,.
+$$
+
+This are of course the operations in the [[little k-cubes operad]]. Hence [[quantization]] of local boundary prequantum field theory restricted to [[cobordisms]] of this form yields what are called topological or _locally constant_ [[factorization algebras]]. 
 
 
-Write then $Corr_n(\mathbf{H})^\otimes$ be the [[(∞,n)-category of n-fold correspondences]] whose [[objects]] are those of $\mathbf{H}$ and whose [[morphisms]] are [[correspondences]] between them, as above. This is [[symmetric monoidal (∞,1)-category|symmetric monoidal]] by objectwise [[Cartesian product]] in $\mathbf{H}$. 
+To capture all this functorially, write then $Corr_n(\mathbf{H})^\otimes$ for the [[(∞,n)-category of n-fold correspondences]] whose [[objects]] are those of $\mathbf{H}$ and whose [[morphisms]] are [[correspondences]] between them, as above. This is [[symmetric monoidal (∞,1)-category|symmetric monoidal]] by objectwise [[Cartesian product]] in $\mathbf{H}$. 
 
 One finds that: 
 
@@ -1421,35 +1453,29 @@ Next interesting might be the holographic motivic quantization analogously of th
 
 We give a summary of the central steps of motivic quantization of local prequantum field theory in general abstract terms of (or akin to) [[homotopy type theory]], hence in the [[internal language]] of [[(∞,1)-toposes]]. This is to bring out the sheer conceptual simplicity underlying the process.
 
-1. To choose a [[homotopy type theory]] for [[local prequantum field theory]] is to choose a [[homotopy type theory]] $\mathbf{H}$ with [[differential cohesion|differential]] [[cohesion]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
+1. Choose a [[homotopy type theory]] $\mathbf{H}$ with [[differential cohesion|differential]] [[cohesion]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
 
+   We say that $\mathbf{H}$ is a context for [[local prequantum field theory]].
 
-1. To choose a [[phase and phase space in physics|group of phases]] is to 
-   choose an [[abelian ∞-group]] $\mathbb{G} \in Grp(\mathbf{H})$.
+1. To choose a _[[phase and phase space in physics|group of phases]]_ is to choose an [[abelian ∞-group]] $\mathbb{G} \in Grp(\mathbf{H})$.
 
    By [[differential cohesion]] this choice induces a a [[type]]
    $\mathbf{B}\mathbb{G}_{conn}$ of $\mathbb{G}$-[[principal ∞-connections]].
 
-   We pass to this [[context]], hence to the [[slice (∞,1)-topos|slice homotopy theory]]
-   $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$. We say that this is 
-   _a context for [[local prequantum field theory]]_ and that a [[type]]
-   here is a [[local action functional]]. Its [[dependent sum]]
-   is the [[moduli ∞-stack]] of [[field (physics)|fields]].
+   The [[context]] of such a choice, hence the the [[slice (∞,1)-topos|slice homotopy theory]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$, is the context of [[local action functional]] assigning [[phase and phase space in physics|phases]] in $\mathbb{G}$ within the ambient context of local prequantum field theory. 
 
-1. To choose a [[superposition principle]] is to choose an 
-   [[E-∞ ring]] type $E \in CRing_\infty(\mathbf{H})$ and a 
-   a [[function]] $\rho \colon \mathbf{B}\mathbb{G}_{conn} \longrightarrow 
-   \mathbf{B}GL_1(E)$.
+   A [[type]] in this [[context]] is such a [[local action functional]] $\left[\array{\mathbf{Fields} \\ \downarrow^{\mathrlap{\exp(i S)}} \\ \mathbf{B}\mathbb{G}_{conn} }  \right]$, its [[dependent sum]] to the ambient context is the [[moduli ∞-stack]] of [[field (physics)|fields]].
+
+   Moreover, the [[automorphism ∞-groups]] of [[types]] in $\mathbf{H}_{/\mathbf{B}\mathbb{G}}_{conn}$ are the [[quantomorphism ∞-groups]] containing the [[Heisenberg ∞-groups]], whose [[Lie differentiation]] are the [[Poisson L-∞ algebras]] and [[Heisenberg L-∞ algebras]] of the local prequantum field theory, respectively.
+
+1. To choose a _[[superposition principle]]_ is to choose an 
+   [[E-∞ ring|commutative ring]] type $E \in CRing_\infty(\mathbf{H})$ and a [[function]] $\rho \colon \mathbf{B}\mathbb{G}_{conn} \longrightarrow \mathbf{B}GL_1(E)$ to its [[∞-group of units]].
 
    Given a superposition principle, the [[dependent sum]] of a
-   [[local action functional]] along $\rho$ we call the
+   [[local action functional]] $\exp(i S)$ along $\rho$ we call the
    [[higher prequantum line bundle|higher prequantum E-line bundle]].
 
-1. A [[section]] of the [[higher prequantum line bundle]] is called a
-   [[wavefunction]] and forming the [[space of sections]] is an 
-   [[(∞,1)-functor]] 
-   $E^{\bullet + (-)}(-) \colon \mathbf{H}_{/\mathbf{B}GL_1(E)} \longrightarrow E Mod$
-   to $E$-[[∞-modules]].
+   A [[section]] of the [[higher prequantum line bundle]] is called a [[wavefunction]] and forming the [[space of sections]] is an  [[(∞,1)-functor]]  $E^{\bullet + (-)}(-) \colon \mathbf{H}_{/\mathbf{B}GL_1(E)} \longrightarrow E Mod$ to $E$-[[∞-modules]].
 
 1. A [[relation]] in the local prequantum field theory context
    $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$ we call a 
