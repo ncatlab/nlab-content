@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 =--
 =--
 
@@ -17,13 +21,69 @@
 
 For $G$ a [[topological group]] a _compact subgroup_ is a topological [[subgroup]] $K \subset G$ which is a [[compact topological space]].
 
-A _maximal compact subgroup_ is a maximal subgroup with this property. This exists uniquely up to [[conjugation]], if $G$ is a (finite-dimensional) [[connected space|connected]] [[Lie group]]. (Notice it might not exist at all without the connectedness assumption. An example is the [[Prüfer group]] $\mathbb{Z}[1/p]/\mathbb{Z}$ endowed with the discrete ($0$-dimensional) smooth structure. This is a union of an increasing sequence of finite cyclic groups, each obviously compact.) 
++-- {: .num_defn}
+###### Definition
+
+A [[compact topological space|compact]] [[subgroup]] $K \hookrightarrow G$ is called **maximal compact** if every compact subgroup of $G$ is [[conjugation|conjugate]] to a subgroup of $K$.
+
+=--
+
+If it exists then, by definition, it is unique up to conjugation.
 
 ## Properties
 
-### Topology for Lie groups
++-- {: .num_defn #AlmostConnected}
+###### Definition
 
-For $G$ any [[connected topological space|connected]] [[Lie group]], regarded as a [[topological group]], the inclusion of the maximal compact subgroup
+A [[locally compact topological space|locally compact]] [[topological group]] $G$ is called **[[almost connected topological group|almost connected]]** if the [[quotient]] [[topological space]] $G/G_0$ (of $G$ by the [[connected component]] of the neutral element) is  [[compact topological space|compact]].
+
+=--
+
+See for instance ([Hofmann-Morris, def. 4.24](#HofmannMorris)).
+
++-- {: .num_defn }
+###### Example
+
+Every [[compact topological space|compact]] and every [[connected topological space|connected]] [[topological group]] is almost connected.
+
+Also every [[quotient]] of an almost connected group is almost connected.
+
+=--
+
++-- {: .num_theorem #MalcevIwasawa}
+###### Theorem
+
+Let $G$ be a [[locally compact topological space|locally compact]] [almost connected](#AlmostConnected) [[topological group]].
+
+Then 
+
+* $G$ has a maximal compact subgroup $K$;
+
+* the [[coset]] space $G/K$ is [[homeomorphism|homeomorphic]] to a [[Euclidean space]].
+
+
+=--
+
+This is due to Malcev-Iwasawa. See for instance ([Stroppel, theorem 32.5](#Stroppel)).
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $G$ be a [[locally compact topological space|locally compact]] [almost connected](#AlmostConnected) [[topological group]].
+
+Then a [[compact topological space|compact]] subgroup $K \hookrightarrow G$ is maximal compact precisely if the [[coset]] space $G/K$ is [[contractible space|contractible]]
+
+(in which case, due to theorem \ref{MalcevIwasawa}, it is necessarily [[homeomorphism|homeomorphic]] to a [[Euclidean space]]).
+
+=--
+
+This is ([Antonyan, theorem 1.2](#Antonyan)).
+
+
++-- {: .num_remark}
+###### Remark
+
+In particular, in the above situation the [[subgroup]] inclusion
 
 $$
   K \hookrightarrow G
@@ -31,18 +91,45 @@ $$
 
 is a [[homotopy equivalence]] of [[topological spaces]]. 
 
+=--
+
 ## Examples
 
-   Lie group                                  |     maximal compact subgroup 
---------------------------------------------------------------------------------
- [[general linear group]] $GL(2n\mathbb{R})$  | [[orthogonal group]] $O(2n)$
- [[general linear group]] $GL(2n\mathbb{C})$  | [[unitary group]] $U(n)$
- [[symplectic group]] $Sp(2n)$                | [[unitary group]] $U(n)$
- [[orthogonal group]] $O(p,q)$                | [[product]] $O(p) \times O(q)$
+### For Lie groups
+
+
+|            Lie group                         |     maximal compact subgroup    |
+|----------------------------------------------|---------------------------------|
+| [[real numbers|real]] [[general linear group]] $GL(2n\mathbb{R})$  | [[orthogonal group]] $O(2n)$    |
+| [[complex numbers|complex]] [[general linear group]] $GL(2n\mathbb{C})$  | [[unitary group]] $U(n)$        |
+| [[symplectic group]] $Sp(2n)$                | [[unitary group]] $U(n)$        |
+| [[orthogonal group]] $O(p,q)$                | [[product]] $O(p) \times O(q)$  |
+
+### Counterexamples
+
+A maximal compact subgroup may not exist at all without the almost connectedness assumption. An example is the [[Prüfer group]] $\mathbb{Z}[1/p]/\mathbb{Z}$ endowed with the discrete ($0$-dimensional) smooth structure. This is a union of an increasing sequence of finite cyclic groups, each obviously compact.
+
 
 
 ## References
 
+A general survey is given in 
+
 * wikipedia, _[Maximal compact subgroup](http://en.wikipedia.org/wiki/Maximal_compact_subgroup)_
+
+Textbooks with relevant material include
+
+* M. Stroppel, _Locally compact groups_, European Math. Soc., (2006)
+  {#Stroppel}
+
+* Karl Hofmann, Sidney Morris, _The Lie theory of connected pro-Lie groups_, Tracts in Mathematics 2, European Mathematical Society,  (2000)
+ {#HofmannMorris}
+
+Original articles include
+
+* M. Peyrovian, _Maximal compact normal subgroups_, Proceedings of the American Mathematical Society, Vol. 99, No. 2, (1987) ([jstor](http://www.jstor.org/pss/2046647))
+
+* Sergey A. Antonyan, _Characterizing maximal compact subgroups_ ([arXiv:1104.1820v1](http://arxiv.org/abs/1104.1820v1)) 
+ {#Antonyan}
 
 [[!redirects maximal compact subgroups]]
