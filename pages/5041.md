@@ -46,6 +46,10 @@ The construction is then generalized to noncommutative geometry.
 
 ## Related entries
 
+A [[model category]]-[[presentable (infinity,1)-category|presentation]] of much of the theory exists, see the discussion at
+
+* [[model structure for L-infinity algebras]] .
+
 A indication of how to use the main theorem here in order to implement [[Lie differentiation]] of [[smooth ∞-groups]] is at
 
 * _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic%20differential%20infinity-groupoid#LieDifferentiation)_
