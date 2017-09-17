@@ -34,7 +34,12 @@ $$
   \,.
 $$
 
-where $f^\ast$ is [[context extension]] and where $f_!$ and $f^\ast$ are linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]]. Typically one would also demand the [[Beck-Chevalley condition]] for consecutive such adjoint triples.
+where $f^\ast$ is [[context extension]] and where $f_!$ and $f^\ast$ are linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]]. 
+
+Equivalently this is an [[indexed closed monoidal category]] with fiberwise [[dual object|duals]].
+
+Typically one would in addition demand the [[Beck-Chevalley condition]] for consecutive such adjoint triples.
+
 
 In [[geometry]]/[[topos theory]] such a "linear hyperdoctrine" is known as _[[six operations]] yoga in [[Wirthmüller context|Wirtmüller flavor]]_. In fact there this appears in [[geometric homotopy theory]] ("[[derived functors]] on [[quasicoherent sheaves]]") hence as _dependent linear [[homotopy type theory]]_.
 
