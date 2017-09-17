@@ -9,7 +9,13 @@
 
 The _Legendre transformation_ is an operation on [[convex function]]s from a real [[normed vector space]] to the [[real line]]; it is one of the cornerstones of [[convex analysis]]. The space of arguments changes accordingly.
 
-The main application is in the differentiable setup in [[classical physics]] and [[symplectic geometry]]. In [[classical mechanics]], the [[Hamiltonian]] function $H$ is a Legendre transform of the [[Lagrangean]] $L$ and vice versa; in many dimensions, hybrid versions are possible. When the physics of the system is given by the variational principle, then the Legendre transform of an extremal quantity is a conserved quantity. In [[thermodynamics]], we can have some quantities set to be fixed (some candidates: entropy $S$, temperature $T$, pressure $P$, volume $V$, magnetization $M$); this dictates the choice of variables and quantity which is extremized as well as which one takes the role of conserved energy. Some of the standard choices are enthalpy $H$, Helmholtz free energy $F$, Gibbs free energy $G$, internal energy $U$, etc. 
+## In classical mechanics -- Hamiltonians and Lagrangians
+
+The main application of and the historical root of the notion of Legendre transform (in [[differential geometry]]) is in [[classical physics]] and its formalization by [[symplectic geometry]]. In [[classical mechanics]], the [[Hamiltonian]] function $H$ is a Legendre transform of the [[Lagrangean]] $L$ and vice versa. 
+
+When one formalizes [[classical mechanics]] as the [[local prequantum field theory]] given by [[prequantized Lagrangian correspondences]], then the Legendre transform is exhibited by the lift from a [[Lagrangian correspondence]] to a [[prequantized Lagrangian correspondence]]. For more on this see at _[The classical action, the Legendre transform and Prequantized Lagrangian correspondences](prequantized+Lagrangian+correspondence#HamiltonianTrajectoriesAndPrequantizedLagrangianCorrespondences)_.
+ 
+In many dimensions, hybrid versions are possible. When the physics of the system is given by the [[variational calculus|variational principle]], then the Legendre transform of an extremal quantity is a conserved quantity. In [[thermodynamics]], we can have some quantities set to be fixed (some candidates: entropy $S$, temperature $T$, pressure $P$, volume $V$, magnetization $M$); this dictates the choice of variables and quantity which is extremized as well as which one takes the role of conserved energy. Some of the standard choices are enthalpy $H$, Helmholtz free energy $F$, Gibbs free energy $G$, internal energy $U$, etc. 
 
 See also [wikipedia:Legendre transformation](http://ncatlab.org/nlab/edit/Legendre+transformation) and [wikipedia:Legendre-Fenchel transformation](http://en.wikipedia.org/wiki/Legendre-Fenchel_transformation); the two wikipedia articles have much detail in certain specific approaches and cases, but also miss some of the basic ones to be balanced. 
 
@@ -17,6 +23,9 @@ See also [wikipedia:Legendre transformation](http://ncatlab.org/nlab/edit/Legend
 ## Related concepts
 
 * [[canonical coordinates]], [[canonical momenta]]
+
+
+[[!include Hamiltonian and Lagrangian -- table]]
 
 
 ## References 
