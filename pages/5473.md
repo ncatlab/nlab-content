@@ -103,6 +103,20 @@ has a left adjoint.
 
 +-- {: .proof} 
 ######Proof 
+Since the following diagram is commutative: 
+$$
+\begin{array}{cccc}C^T & \overset{C^{\theta}}{\to}  & C^S    \\
+^{U^T}\downarrow     &                   & \downarrow^{U^S} \\
+C                    & =                 & C
+\end{array}
+$$
+(using an obvious notation), it follows immediately from a corollary
+to the [[adjoint lifting theorem]] that if $C^T$ has coequalizers of
+reflexive pairs, then $C^{\theta}$ has a left adjoint
+and is, in fact, monadic. 
+
+This completes the proof, but it is interesting to observe that there
+is a concrete description of the left adjoint in this case:
 The left adjoint sends an $S$-algebra $(c, \xi: S c \to c)$ to the (reflexive) coequalizer of the pair 
 
 $$T S c \stackrel{T \xi}{\to} T c \qquad T S c \stackrel{T \theta c}{\to} T T c \stackrel{\mu c}{\to} T c$$ 
@@ -146,20 +160,3 @@ $$\array{
 
 as desired. This completes the proof. 
 =-- 
-
-+-- {: .query}
-Yaron - I think that the last theorem has also a simple proof using the [[adjoint lifting theorem]]: By the definition of $C^{\theta}$ (I hope I'm using the
-right definition - I assume that of Ex. 3(b) on p. 142 of
-[[Categories Work]]) the
-following diagram is commutative:
-$$
-\begin{array}{cccc}C^T & \overset{C^{\theta}}{\to}  & C^S    \\
-^{U^T}\downarrow     &                   & \downarrow^{U^S} \\
-C                    & =                 & C
-\end{array}
-$$
-Hence, it seems that if $C^T$ has coequalizers of
-reflexive pairs, then it immediately follows from the corollary to the
-[[adjoint lifting theorem]] that $C^{\theta}$ has a left adjoint
-and is, in fact, also monadic.
-=--
