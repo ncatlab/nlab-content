@@ -311,7 +311,7 @@ First, here is a characterization that doesn't rely on any computational framewo
 +-- {: .un_defn}
 ###### Definition
 
-A Kan extension, def. \ref{LocalKanExtension}, is called __pointwise__ if and only if it is [preserved](#Preserved) by all [[representable functor]]s.
+A Kan extension, def. \ref{LocalKanExtension}, is called __pointwise__ if and only if it is [preserved](#Preservation) by all [[representable functor]]s.
 
 =--
 
