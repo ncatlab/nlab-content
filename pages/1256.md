@@ -1,13 +1,43 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 # Coherent logic
 * table of contents
 {: toc}
 
 ## Definitions
 
-**Coherent logic** is a fragment of (finitary) [[first-order logic]] which allows only the connectives and quantifiers $\wedge$, $\vee$, $\top$, $\bot$, and $\exists$.  A **coherent formula** is a formula in coherent logic.
+**Coherent logic** is a fragment of (finitary) [[first-order logic]] which allows only the connectives and quantifiers 
 
-A **coherent sequent** is a [[sequent]] of the form $\varphi \vdash \psi$, where $\varphi$ and $\psi$ are coherent formulas, possibly with free variables $x_1,\dots,x_n$.  In full first-order logic, such a sequent is equivalent to the single formula $\forall x_1, \dots, \forall x_n (\varphi \Rightarrow \psi)$ (in the empty [[context]]).  Of course, this latter formula is not coherent, but this shows that when we deal with coherent *sequents* rather than merely formulas, it can also be thought of as allowing one instance of $\Rightarrow$ and a string of $\forall$s at the very outer level of a formula.
+* $\wedge$ ([[and]]), 
+
+* $\vee$ ([[or]]), 
+
+* $\top$ ([[true]]), 
+
+* $\bot$ ([[false]]), 
+
+* $\exists$ ([[existential quantifier]]).  
+
+A **coherent formula** is a [[formula]] in coherent logic.
+
+A **coherent sequent** is a [[sequent]] of the form $\varphi \vdash \psi$, where $\varphi$ and $\psi$ are coherent formulas, possibly with [[free variables]] $x_1,\dots,x_n$.  
+
+In full first-order logic, such a sequent is equivalent to the single formula 
+
+$$
+  \forall x_1, \dots, \forall x_n (\varphi \Rightarrow \psi)
+$$ 
+
+(in the empty [[context]]).  Of course, this latter formula is not coherent, but this shows that when we deal with coherent *sequents* rather than merely formulas, it can also be thought of as allowing one instance of $\Rightarrow$ and a string of $\forall$s at the very outer level of a formula.
 
 Coherent logic (including sequents, as above) is the [[internal logic]] of a [[coherent category]].  The [[classifying topos]] of a coherent theory is a [[coherent topos]].
 
@@ -43,6 +73,17 @@ However, here is a property which one might expect coherent theories to have, bu
 * Sometimes coherent logic is called *geometric logic*, but that term now more commonly used for the analogous fragment of infinitary logic which allows disjunctions over arbitrary sets (though still only finitary conjunctions).  See [[geometric logic]].
 
 * Occasionally the [[existential quantifiers]] in coherent logic are further restricted to range only over *finitely presented types*.
+
+## Related concepts
+
+* [[finitely complete category]], [[cartesian functor]], [[cartesian logic]], [[cartesian theory]]
+
+* [[regular category]], [[regular functor]], [[regular logic]], [[regular theory]], [[regular coverage]], [[regular topos]]
+
+* [[coherent category]], [[coherent functor]], **coherent logic**, [[coherent theory]], [[coherent coverage]], [[coherent topos]]
+
+* [[geometric category]], [[geometric functor]], [[geometric logic]], [[geometric theory]]
+
 
 ## References
 
