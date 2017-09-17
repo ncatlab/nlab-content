@@ -1,0 +1,8 @@
+
+* [webpage](http://www.aei.mpg.de/~axkl/)
+
+## Related entries
+
+* [[U-duality]], [[Kac-Moody group]]
+
+category: people
