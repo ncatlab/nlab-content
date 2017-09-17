@@ -370,7 +370,17 @@ the sense of def. \ref{LocalPrequantumFieldTheory}.
 We give an expository discussion of this example and in the course of it
 introduce some basics of the [[homotopy theory]] of [[groupoids]] ([[homotopy 1-types]]).
 
-##### Finite gauge groups 
+1. [Finite gauge groups](#FiniteGaugeGroups)
+
+1. [Groupoids and basic homotopy 1-type theory](#GroupoidsAndBasicHomotopy1TypeTheory) 
+
+1. [Correspondences of groupoids](#CorrespondencesOfGroupoids)
+
+1. [1d DW local field theory](#1dDWLocalFieldTheory)
+
+
+##### Finite gauge groups
+ {#FiniteGaugeGroups} 
 
 
 A [[group character]] on a [[finite group]] $G$ is just a [[group]] [[homomorphism]] $G \to U(1)$ to the [[circle group]] (regarded here as a [[discrete group]]).
@@ -410,6 +420,7 @@ Regarded this way, we say the [gauge group acting on the single field $\phi_0$ f
 
 
 ##### Groupoids and basic homotopy 1-type theory
+ {#GroupoidsAndBasicHomotopy1TypeTheory}
 
 +-- {: .num_defn }
 ###### Definition
@@ -451,6 +462,13 @@ $$
   \,.
 $$
 
+Here, for the time being, all groups are [[discrete groups]]. Since the [[circle group]] $U(1)$ also has a standard structure of a [[Lie group]], and since later for the discussion of Chern-Simons type theories this will be relevant, we will write from now on
+
+$$
+  \flat U(1) \in Grp
+$$
+
+to mean explicitly the [[discrete group]] underlying the circle group. (Here "$\flat$" denotes the "[[flat modality]]".)
 
 =--
 
@@ -711,6 +729,7 @@ appears as the composition of an [[evaluation map]] with a [[coevaluation map]].
 =--
 
 ##### Correspondences of groupoids 
+ {#CorrespondencesOfGroupoids}
 
 +-- {: .num_defn}
 ###### Definition
@@ -820,9 +839,9 @@ $$
   \array{
     && && X \underset{[\Pi_1(S^1), X]}{\times} X
     \\
-    && & \swarrow &\swArrow& \searrow
+    && & \swarrow && \searrow
     \\
-    && X && && X
+    && X && \swArrow && X
     \\
     & \swarrow && \searrow && \swarrow && \searrow
     \\
@@ -848,6 +867,7 @@ $$
 =--
 
 ##### 1d DW local field theory 
+ {#1dDWLocalFieldTheory}
 
 +-- {: .num_defn}
 ###### Definition
@@ -990,6 +1010,7 @@ $$
 ###### Proposition
 
 The prequantum field theory defined by a [[group character]]
+
   $$
     \left[
       \array{
@@ -1012,10 +1033,11 @@ The prequantum field theory defined by a [[group character]]
 		\flat \mathbf{B}U(1)
 	  }
 	\right]	
+      \in Span_1(Grpd,\mathbf{B}\flat U(1))
   $$
-  assigns to the [[circle]] the [[action functional]] which 
-  sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
-  to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$:
+
+  assigns to the [[circle]] the [[trace]] of the idenity on this object, which is 
+
 
 $$
   \array{
@@ -1055,6 +1077,8 @@ $$
   \;\;\;
 $$
 
+Here the [[action functional]] on the right  sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
+  to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$.
 
 =--
 
