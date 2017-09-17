@@ -122,12 +122,21 @@ The basic definition of symmetric endomorphism operads is for instance in sectio
 
 A general account of the definition of representable multicategories is in section 3.3 of 
 
-* [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv:math/0305049](http://arxiv.org/abs/math/0305049)
+* [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv:math/0305049](http://arxiv.org/abs/math/0305049))
 
-Discussion of the [[2-adjunction]] with the [[category of operators]]-construction is in
+The notion of _representable multicategory_ is due to
 
 * [[Claudio Hermida]], _Representable multicategories_, Adv. Math. 151 (2000), no. 2, 164-225 ([pdf](http://wslc.math.ist.utl.pt/s84.www/cs/claudio/articles/rep-mult.pdf))
   {#Hermida}
+
+Discussion of the [[2-adjunction]] with the [[category of operators]]-construction is around theorem 7.3 there. Characterization of representable multicategories by [[fibrations of multicategories]] is in
+
+* [[Claudio Hermida]], _Fibrations for abstract multicategories_, Field Institute Communications, Volume 43 (2004) ([pdf](http://sqig.math.ist.utl.pt/pub/HermidaC/fib-mul.pdf)) 
+
+and in section 9 of 
+
+* [[Claudio Hermida]], _From Coherent Structures to Universal Properties_ ([arXiv:0006161](http://arxiv.org/abs/math/0006161))
+
 
 Discussion in the context of [[generalized multicategories]] is in section 9 of
 
