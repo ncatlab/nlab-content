@@ -53,9 +53,9 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 
 * _[Sheaf cohomology via abelian categories]()_, Strings Journal Club, University of Adelaide. 4 September 2012.
 
-* _2-categorical localisation_, [Australian Category Seminar](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/speaker-info.cgi?name=David+Roberts), Macquarie University. 12 October 2011
-
 * _Introduction to 2-groups_, Strings Journal Club, University of Adelaide. 5 May 2012.
+
+* _2-categorical localisation_, [Australian Category Seminar](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/speaker-info.cgi?name=David+Roberts), Macquarie University. 12 October 2011
 
 * _Functorial 2-connected covers_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 21 May 2010.
 
@@ -85,13 +85,13 @@ gerbe caloron transform_, unpublished and in progress, joint with Raymond Vozzo.
 
 * 2006
 
-   *  Semester 2 : Maths ??, Tutor
+   *  Semester 2 : Maths ?? (first year), Tutor
 
-   *  Semester 1: Maths ??, Tutor
+   *  Semester 1: Maths ?? (first year), Tutor
 
 * 2005 
 
-   *  Semester 2: Maths ??, Tutor
+   *  Semester 2: Maths ?? (first year), Tutor
 
 
 ## Copyright statement ##
