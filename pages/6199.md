@@ -1,3 +1,9 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Overview
 
 A __dynamical system__ is a set $M$ equipped with some geometric structure (say a manifold) together with a __law of motion__, that is the law of evolution of points which is the action 
@@ -16,14 +22,20 @@ Sometimes time is taken to be __discrete__, that is belonging to integers $\math
 
 Most often one looks at dynamical systems in which $M$ is a smooth manifold. Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
 
+## Related concepts
+
+* [[zeta function of a dynamical system]]
+
+* [[arithmetic topology]]
+
 ## Literature
 
-#### General
+### General
 
 * Boris Hasselblatt, Anatole Katok, _Handbook of dynamical systems_, [contents](http://www.math.psu.edu/katok_a/handbook.html)
 * wikipedia [dynamical system](http://en.wikipedia.org/wiki/Dynamical_system), [autonomous system](http://en.wikipedia.org/wiki/Autonomous_system_%28mathematics%29)
 
-#### Categorical aspects
+### Categorical aspects
 
 * George Dimitrov, Fabian Haiden, [[Ludmil Katzarkov]], [[Maxim Kontsevich]], _Dynamical systems and categories_, [arxiv/1307.8418](http://arxiv.org/abs/1307.8418)
 
