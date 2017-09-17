@@ -1,0 +1,55 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[perturbative string theory]] [[scattering amplitudes]] are defined as in [[quantum field theory]], but with [[n-point functions]] of 1-dimensional [[worldline]] theories replaced by those of [[2d CFTs]]. 
+
+The amplitudes come out term-wise finite, hence [[renormalization|renormalized]]: the higher string oscillations may be seen as providing canonical counterterms for the massless excitations in the [[effective field theory]]. In this sense string theory provides a [[UV-completion]] of these effective field theories ([[supergravity]] coupled to [[Yang-Mills theory]]).
+
+## References
+
+### Bosonic string
+
+* Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_, Lecture notes based on lectures given at the fifth Modave School on Mathematical Physics (August 2009)
+
+### Superstring
+
+A general discussion of the problem is in 
+
+* [[Eric D'Hoker]] [[Duong Phong]], _Loop amplitudes for the fermionic string_, Nucl. Phys. B 278 (1986) 225;
+
+* [[Greg Moore]], P. Nelson, [[Joseph Polchinski]], _Strings and supermoduli_, Phys. Lett. B 169 (1986) 47-53.
+
+The 1-loop amplitudes in [[type II string theory]] have been discussed in 
+
+* [[Michael Green]], [[John Schwarz]], _Supersymmetrical string theories_, Phys. Lett. 109 B (1982) 444-448.
+
+and for [[heterotic string theory]] in 
+
+* [[David Gross]], J.A. Harvey, E.J. Martinec and R. Rohm, _Heterotic String Theory (II). The interacting heterotic string_, Nucl. Phys. B267 (1986) 75.
+
+The description of 2-loop amplitudes in superstring theory is a the series of articles
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings I, Main Formulas_, Phys.Lett.B529:241-255,2002 ([arXiv:hep-th/0110247](http://arxiv.org/abs/hep-th/0110247))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings II, The Chiral Measure on Moduli Space_, Nucl.Phys.B636:3-60,2002 ([arXiv:hep-th/0110283](http://arxiv.org/abs/hep-th/0110283))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings III, Slice Independence and Absence of Ambiguities_, Nucl.Phys.B636:61-79,2002 ([arXiv:hep-th/0111016](http://arxiv.org/abs/hep-th/0111016))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings IV, The Cosmological Constant and Modular Forms_, Nucl.Phys.B639:129-181,2002 ([arXiv:hep-th/0111040](http://arxiv.org/abs/hep-th/0111040))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings V: Gauge Slice Independence of the N-Point Function_,  	Nucl.Phys.B715:91-119,2005 ([arXiv:hep-th/0501196](http://arxiv.org/abs/hep-th/0501196))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VI: Non-Renormalization Theorems and the 4-Point Function_,  	Nucl.Phys.B715:3-90,2005 ([arXiv:hep-th/0501197](http://arxiv.org/abs/hep-th/0501197))
+
+
+General finiteness of superstring amplitudes is discussed in 
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Momentum Analyticity and Finiteness of the 1-Loop Superstring Amplitude_,  	Phys.Rev.Lett. 70 (1993) 3692-3695 ([arXiv:hep-th/9302003](http://arxiv.org/abs/hep-th/9302003))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _The Box Graph In Superstring Theory_, Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9410152](http://arxiv.org/abs/hep-th/9410152))
+
+* [[Eric D'Hoker]], [[Duong Phong]], _Dispersion Relations in String Theory_; Nucl.Phys.B440:24-94,1995 ([arXiv:hep-th/9404128](http://arxiv.org/abs/hep-th/9404128))
