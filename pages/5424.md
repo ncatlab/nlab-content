@@ -1,0 +1,1 @@
+* wikipedia: [bisimulation](http://en.wikipedia.org/wiki/Bisimulation)
