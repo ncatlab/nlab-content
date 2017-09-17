@@ -73,7 +73,7 @@ This is rectified by passing to [[pro-étale cohomology]]. Here $\mathbb{Q}_{\el
 
 A textbook account is in
 
-* [[James Milne]], _Lectures on Etale Cohomology_ ([web] (http://www.jmilne.org/math/CourseNotes/lec.html))
+* [[James Milne]], section 19 of _[[Lectures on Étale Cohomology]]_ ([web] (http://www.jmilne.org/math/CourseNotes/lec.html))
 
 Surveys include
 
@@ -87,4 +87,3 @@ A variant of the [[étale site]], well adapted to the needs of $\ell$-adic cohom
 
 
 [[!redirects l-adic cohomology]]
-
