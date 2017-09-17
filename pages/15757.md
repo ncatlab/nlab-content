@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given a ring $R$, then there is a natural morphism of [[spectra]]
+
+$$
+  \array{
+     && \mathbf{TC}(R)
+     \\
+      & \nearrow & \downarrow
+     \\
+     \mathbf{K}(R) &\longrightarrow& \mathbf{THH}(R)
+  }
+$$
+
+from the [[algebraic K-theory]] spectrum to the [[topological Hochschild homology]] spectrum and factoring through the [[topological cyclic homology]] spectrum called the _cyclotomic trace_ which much like a [[Chern character]] map for [[algebraic K-theory]].
+
+This is a refinement to [[spectra]] of the [[Dennis trace]].
+
+## Related concepts
+
+* [[Beilinson regulator]]
+
+## References
+
+* [[Marcel Bökstedt]], W.C. Hsiang, [[Ib Madsen]], _The cyclotomic trace and algebraic K-theory of spaces_, Invent. Math. __111__ (1993), 463-539, [MR94g:55011](http://www.ams.org/mathscinet-getitem?mr=1202133), [doi](http://dx.doi.org/10.1007/BF01231296)
+
+
+* [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_ ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
+
+For more see the references at _[[topological Hochschild homology]]_.
