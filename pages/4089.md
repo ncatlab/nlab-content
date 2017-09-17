@@ -1,4 +1,10 @@
-# A Bibliography for Functional Analysis Entries
+
+<div class="rightHandSide toc">
+[[!include functional analysis - contents]]
+</div>
+
+
+**A Bibliography for [[functional analysis|Functional Analysis]] Entries**
 
 ## Topological Vector Spaces
 
