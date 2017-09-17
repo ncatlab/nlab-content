@@ -238,6 +238,8 @@ This is theorem 4.8 in ([LackStrict](#LackStrict)). This is a special case of th
 
 ## Related concepts
 
+* [[exact 2-category]], [[regular 2-category]]
+
 * [[0-category]], [[(0,1)-category]]
 
 * [[category]]
