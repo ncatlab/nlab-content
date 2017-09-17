@@ -198,5 +198,10 @@ Discussion of [[universal principal bundles]] over their classifying spaces is i
 
 * Stephen Mitchell, _Universal principal bundles and classifying spaces_ ([pdf](http://www-math.mit.edu/~mbehrens/18.906/prin.pdf))
 
+Discussion of characeerization of principal bundles by rational [[universal characteristic classes]] and torsion information is in the appendices of 
+
+* Igor Belegradek, Vitali Kapovitch, _Obstructions to nonnegative curvature and rational homotopy theory_ ([arXiv:math/0007007](http://arxiv.org/abs/math/0007007))
+
+* Igor Belegradek, _Pinching, Pontrjagin classes, and negatively curved vector bundles_ ([arXiv:math/0001132](http://arxiv.org/abs/math/0001132))
 
 [[!redirects classifying spaces]]
