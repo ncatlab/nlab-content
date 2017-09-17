@@ -58,11 +58,11 @@ Ordinary (permutative/symmetric) operads, and their generalization to [[symmetri
 
 #References#
 
-* [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math.CT/0305049))
+* [[Tom Leinster]], _Higher operads, higher categories_, London Math. Soc. Lec. Note Series __298__, [math.CT/0305049](http://arxiv.org/abs/math.CT/0305049)
+
+Related entries: [[generalized multicategory]], [[operad]]. 
 
 [[!redirects multicategories]]
 [[!redirects symmetric multicategory]]
 [[!redirects symmetric multicategories]]
-
-
 [[!redirects multicategories]]
