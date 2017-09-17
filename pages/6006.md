@@ -19,7 +19,7 @@ This entry is about the book
 
 * [[Peter May|May]], Sigurdsson, _Parametrized Homotopy Theory_ ([pdf]( http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
-which discusses [[homotopy theory]] and [[cohomology]] over base spaces, hence in [[slice categories]] [[Top]]$/X$ for given topological base spaces $X$. 
+which discusses [[homotopy theory]] and [[cohomology]] over base spaces, hence in [[slice categories]] [[Top]]$/X$ for given topological base spaces $X$: the homotopy theory of [[parametrized spectra]]. 
 
 A survey is in the slides
 
