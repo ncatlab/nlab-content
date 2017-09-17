@@ -32,7 +32,7 @@ Many types of exactness can be expressed in terms of "colimits in the left-exact
 
 ## References
 
-* [[Richard Garner]] and [[Steve Lack]], *Lex colimits*
+* [[Richard Garner]] and [[Steve Lack]], *Lex colimits* ([arXiv](http://arxiv.org/abs/1107.0778))
 
 [[!redirects exactness properties]]
 [[!redirects exactness properties of categories]]
