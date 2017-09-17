@@ -1,7 +1,20 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hegel)
 
 ## Related entries
+
+* [[objective idealism]]
 
 * _[[Science of Logic]]_
 
