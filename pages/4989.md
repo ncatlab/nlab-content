@@ -119,7 +119,26 @@ where
 
 The condition that $\Pi_0$ preserves finite products is precisely the condition that $C$ be a [[cosifted category]].
 
-#### Cohesive toposes of families of sets {#FamiliesOfSets}
+In conclusion we have
+
++-- {: .un_prop}
+###### Proposition
+
+A small category equipped with the trivial coverage/topology is a cohesive site if
+
+* it is cosifted;
+
+* has a terminal object $*$.
+
+* every object $U$ has a global points $* \to U$.
+
+The first two conditions ensure that $Sh(C) = PSh(C)$ is a cohesive topos. The last condition implies that _cohesive pieces have points_ in $PSh(C)$.
+
+=--
+
+### Cohesive toposes of families of sets {#FamiliesOfSets}
+
+We discuss cohesive toposes over sites with trivial coverage/topology, with terminal object _and_ initial object. In general these sites are not cohesive sites by the above definition in that not every object has a global point. Accordingly the cohesive toposes over these sites fail to satisfy the condition _cohesive pieces have points_ . The interest in these cases is that nevertheless they serve as a simple illustration of how the axioms model cohesiveness of points.
 
 Consider the site given by the [[interval category]] 
 
@@ -163,11 +182,29 @@ Moreover we find for $K \in Set$:
 
 This matches the interpretation we just found: $Disc K$ is the collection of elements of $K$ with no two of them lumped together by cohesion, while $Codisc K$ is all elements of $K$ lumped together.
 
-What is not satisfied in this example is the axiom that $\Gamma X \to \Pi_0 X$ is an [[epimorphism]] for all $X$ (_cohesive pieces have points_). In particular, notice the fibers $S_i$ may be empty. This is for instance the case for the object $y(\emptyset) = (* \leftarrow \emptyset)$ [[representable functor|represented]] by $\emptyset$. So there may be cohesive pieces that contain no point.
+The canonical morphism 
 
-This is the simplest special case of a general class of examples:
+$$
+  \Gamma (I \leftarrow S) \to \Pi_0 (I \leftarrow S)
+$$
 
-for $C$ any [[small category]], we have the left and right [[Kan extension]] of presehaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
+is
+
+$$
+  \Gamma Disc \Gamma (I \leftarrow S) \to \Gamma (I \leftarrow S) \to \Gamma Disc \Pi_0 (I \leftarrow S)
+  \,.
+$$
+
+Plugging in the above this is just
+
+$$
+  S \to I
+$$
+
+itself. Indeed, by the above interpretation, this sends each point to its cohesive component. It is not an epimorphism in general, because the fiber $S_i$ over an element $i$ may be empty: the cohesive component $i$ may have no points.
+
+
+This is the simplest special case of a general class of examples: for $C$ any [[small category]], we have the left and right [[Kan extension]] of presehaves $F : C^{op} \to Set$ along the [[functor]] $C^{op} \to *$. By definition, this are the [[colimit]] and [[limit]] functors
 
 $$
   (\lim_\to \dashv Const \dashv \lim_\leftarrow) :
@@ -280,17 +317,34 @@ $$
   \,.
 $$ 
 
-### Sites of balls
+### Sites of open balls
 
 Any full small subcategory of [[Top]] on [[connected]] topological spaces with the canonical induced [[open cover]] [[coverage]] is a cohesive site. If a subcategory on [[contractible]] spaces, then this is also an [[(∞,1)-cohesive site]]. 
 
-This includes notably the category [[CartSp]] of all [[open ball]]s (with either continuous maps or smooth maps as morphism). 
- 
+Specifically we have:
+
++-- {: .un_prop}
+###### Proposition
+
+The categories [[CartSp]] and [[ThCartSp]] equipped with the standard [[open cover]] [[coverage]] are cohesive sites.
+
+=--
+
+The axioms are readily checked.
+
+Notice that the cohesive topos over $ThCartSp$ is the [[Cahiers topos]].
+
++-- {: .un_prop}
+###### Proposition
+
+The cohesive concrete objects of the cohesive topos $Sh(CartSp)$ are precisely the [[diffeological space]]s.
+
+=-- 
+
+See [[cohesive topos]] for more on this.
 
 
 ## Related concepts
-
-An [[(n,1)-cohesive site]] is a site whose [[(n,1)-topos]] of $n$-sheaves is [[cohesive (n,1)-topos|cohesive]], and an [[(∞,1)-cohesive site]] is a site whose [[(∞,1)-topos]] of sheaves is [[cohesive (∞,1)-topos|cohesive]].
 
 
 * [[locally connected site]] / [[locally ∞-connected site]]
