@@ -417,6 +417,16 @@ for the moment see
 
 * [[universal fibration of (∞,1)-categories]]. 
 
+## Related concepts
+
+* [[Kan fibration]], [[anodyne morphism]]
+
+* [[right/left Kan fibration]], [[right/left anodyne map]]
+
+* [[inner fibration]]
+
+* **Cartesian fibration**
+
 
 
 ## References 
