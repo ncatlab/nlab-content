@@ -11,13 +11,16 @@ Type theory is a branch of mathematical [[logic]] which studies elements of vary
 
 # An introduction for category-theorists
 
-One way to look at type theory, from the point of view of a category theorist, is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  Note that this type of semantics is only relevant to *extensional* type theory; see the section on intensional vs. extensional type theory below.  Even so, the description given here is a somewhat simplified one, which really only applies to type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.
+One way to look at type theory, from the point of view of a [[category theory|category theorist]], is as a _syntax for describing the construction of objects and morphisms in a category_.  This interpretation can be called *categorical semantics*.  
+
+Note that this type of semantics is only relevant to *extensional* type theory; see the section on intensional vs. extensional type theory below.  Even so, the description given here is a somewhat simplified one, which really only applies to type theories with a [[dependent sum]] operation, which allows us to reinterpret every [[context]] as a single type.
 
 
 ## Categorical semantics of type theory {#CategoricalSemantics}
 
 Given a [[category]] $\mathcal{C}$, we may speak about its **categorical semantics** in terms of type theory. The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _types_ and _terms_, respectively. The types correspond to objects (with various subtleties), while the terms denote morphisms by using _variables_ to indicate domains.  
 
+### Types, terms, and variables
 
 * In category theory a [[morphism]] $f$ in $\mathcal{C}$ with 
   [[domain]] $B$ and [[codomain]] $A$ 
@@ -34,6 +37,8 @@ Given a [[category]] $\mathcal{C}$, we may speak about its **categorical semanti
 We may think of the _free variables_ here as being placeholders for all the [[generalized element]]s $U \stackrel{x}{\to} B$ of $B$. Then the assertion $x\colon B \vdash f(x)\colon A$ indicates that with $B \stackrel{f}{\to} A$ given we may send $U \stackrel{x}{\to} B$ to the [[composition]] $(U \stackrel{x}{\to} B \stackrel{f}{\to}A ) = (U \stackrel{f(x)}{\to} A)$.
 
 So the notation $x\colon B \vdash f(x)\colon A$ is a direct reflection of the description of the morphism $f$ under the [[Yoneda embedding]] $C \hookrightarrow Func(C^{op}, Set)$. Since the Yoneda embedding is a [[full and faithful functor]], this is indeed an entirely equivalent characterization of the morphism $f$.
+
+### Evaluation
 
 Generally, [[composition]] of morphisms in the category
 
@@ -59,11 +64,15 @@ In symbols:
 
 $$ \frac {}{ x\colon A \vdash x\colon A } $$
 
+### Type constructors
+
 What sorts of additional syntactical constructions you allow on types and terms corresponds to the structure of the category $\mathcal{C}$ in which the [[semantics]] is intended to occur.
 
 For example, if our semantic categories have binary [[product]]s, then the syntax of the type theory includes a _type constructor_ $\times$ allowing us to build a new type $A\times B$ from two given types $A$ and $B$.  It will also have _term constructors_ allowing us to build, for example, a term $\langle a,b\rangle$ of type $A\times B$ from any given terms $a$ of type $A$ and $b$ of type $B$, and to build terms $\pi_1(z)$ and $\pi_2(z)$ from any term $z$ of type $A\times B$, with rules that say that $\pi_1\langle a,b\rangle = a$, $\pi_2 \langle a,b\rangle = b$, and $\langle \pi_1(z),\pi_2(z)\rangle = z$.  Note the great advantage of the type-theoretic formalism: the notation (and thought process) can be very set-theoretic, but because the terms $a$ and $b$ can denote morphisms with arbitrary domain (i.e. generalized elements), this really describes the full universal property of a categorical cartesian product.
 
-An important extension of type theory involves _dependent_ types: types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  
+### Dependent types
+
+An important extension of type theory involves _[[dependent type]]s_ : types which are a "function" of the _elements_ of some other type.  For instance, the type $D(m)$ of "days of the month" is a function of the element $m$ of the type $M$ of months, since different months have different allowable collections of days.  
 
 In category theory language a _type $C(x)$ dependent on_ an element $x$ of type $A$ is (again) a [[morphism]] 
 
@@ -77,9 +86,15 @@ $$
   } 
 $$
 
-thought of as an $A$-indexed family of objects/types -- a [[bundle]] of objects:
+thought of as an $A$-indexed family of objects/types -- a [[bundle]] of objects. In type theory language this is written
 
-For every [[generalized element]] $U \stackrel{x}{\to} A$, we have the [[pullback]] $x^* C := C(x)$ in 
+$$
+  x : A \vdash C(x) : Type
+$$
+
+and read " _for each $x$ of type $A$ there is a type C(x)_ " or " _for each $x$ of type A there is a $C(x)$ of type $Type$_ ". 
+
+Here the variable $x$ is again a placeholder for [[generalized element]]s, but now the $\vdash$ denotes not postcomposition with a morphism, but [[pullback]] along a morphism: for every [[generalized element]] $U \stackrel{x}{\to} A$, we have the [[pullback]] $x^* C := C(x)$ in 
 
 $$
   \array{
