@@ -110,7 +110,7 @@ For instance if $A = \Omega^\bullet(X)$ is the [[de Rham algebra]] of a [[smooth
 ## Examples
 
 
-For $\mathfrak{g}$ a [[Lie algebra]], $X$ a [[smooth manifold]], ther eis a canonical dg-Lie algebra structure on $\Omega^\bullet(X) \otimes \mathfrak{g}$. 
+For $\mathfrak{g}$ a [[Lie algebra]], $X$ a [[smooth manifold]], there is a canonical dg-Lie algebra structure on $\Omega^\bullet(X) \otimes \mathfrak{g}$. 
 
 A Maurer-Cartan element is then precisely a [[Lie algebra valued 1-form]] $A$ whose [[curvature]] 2-form vanishes
 
