@@ -23,18 +23,12 @@ Two of the classic texts on the subject are:
 
 * W. Magnus, A. Karras, D. Solitar, _Combinatorial group theory_
 
-and
-
 * R. Lindon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
 
 For more elementary or introductory texts, see, for instance,
 
-* D. L. Johnson, Presentations of Groups (London Mathematical Society Student Texts 15) 1990, Cambridge Univ. Press,
+* D. L. Johnson, Presentations of Groups (London Mathematical Society Student Texts 15) 1990, Cambridge Univ. Press
 
-or his earlier:
+* D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press
 
-* D. L. Johnson, Topics in Theory of Group Presentations, London Mathematical Society Lecture notes series 42) 1980, Cambridge Univ. Press,
-
-have some very useful material in them.
-
-category: group theory
+category: group theory, algebra
