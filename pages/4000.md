@@ -702,3 +702,5 @@ Exposition of this and further developments are in
 [[!redirects Chern-Simons circle 3-bundle with connection]]
 
 [[!redirects universal Chern-Simons circle 3-connection]]
+
+[[!redirects universal Chern-Simons 3-connection]]
