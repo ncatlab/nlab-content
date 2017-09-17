@@ -471,11 +471,86 @@ More such higher structure appears as one passes to the [[supergeometry]] analog
 
 These are the first examples of a general phenomenon: as $n$ increases, a background gauge $n$-bundle with connection may constitute considerably more structure then one might naively expect from a generalization of the ordinary notion of a connection. More examples of this phenomenon arise when we allow our [[target space]]s to be general [[smooth ∞-groupoid]]s, below.
 
-## Higher gauge theories as $\sigma$-models
+## Exposition of higher gauge theories as $\sigma$-models
  {#GaugeTheoryAsSigmaModel}
+
+### Higher geometric target spaces
+ {#HigherGeometricTargetSpaces}
+
+The standard classical $\sigma$-models discussed 
+[above](ExpositionClassical) all head [[target space]]s that were [[smooth manifold]]s. However, we saw that from [[dimension]] $d \geq 2$ on, the [[background gauge field]]s on these target spaces are naturally no longer just [[principal bundle]]s [[connection on a bundle|with connection]]: instead they are smoth [[principal 2-bundle]]s, then smooth principal 3-bundles, etc. and eventually generally [[principal ∞-bundle]]s with [[connection on an ∞-bundle|∞-connections]]. But the total [[space]] of such higher smooth bundles is no longer in general a [[smooth manifold]] anymore: instead, the total space is a _[[Lie groupoid]]_ for $d = 2$ , then a _[[Lie 2-groupoid]]_ for $d = 3$ and eventually generally a [[smooth ∞-groupoid]].
+
+This means that -- unless we would artifically treat the total space of a [[background gauge field]] bundle on different grounds than its base space -- the general theory of $\sigma$-models should naturally include target spaces that are not just [[smooth manifold]]s. 
+
+At least from $d = 2$ on, for instance, target spaces should be allowed to be [[Lie groupoid]]s. This case is still quite familiar: the _[[proper groupoid|proper]] [[étale groupoid|étale]]_ [[Lie groupoid]]s are precisely _[[orbifold]]s_ : manifolds that are locally modeled on sufficiently nice quotients of a [[Cartesian space]] by a [[group]] [[action]]. Orbifolds have received a lot of attention in the study of [[string]] [[sigma-model]]s. The [[orientifold]] background gauge fields mentioned [above](RelativisticString) involve in general a $\mathbb{Z}_2$-orbifold target space.
+
+But once we pass to the higher geometry of [[Lie groupoid]]s at all, there is no good reason to restrict back to those that are orbifolds. For instance for any [[Lie group]] $G$ there is its _[[delooping]]_ Lie groupoid, the [[action groupoid]] of the trivial action of $G$ on the point, which we shall write 
+
+$$
+  \mathbf{B}G := *//G
+  \,;
+$$
+
+and this should perfectly serve as a [[target space]] object for $\sigma$-models, too. Here the boldface notation is to indicate that this Lie groupoid is a smooth refinement of the [[classifying space]] $B G \in Top$ of the Lie group: in fact, where $B G$ classifies [[isomorphism class]] of smooth $G$-principal bundles, $\mathbf{B}G$ also remembers the [[isomorphism]]s -- and hence in particular the [[automorphism]]s -- of these bundles: it is the _[[moduli stack]]_ of smooth $G$-principal bundles: for $\Sigma$ a [[smooth manifold]] we have that the _groupoid_ of morphisms of [[smooth infinity-groupoid|smooth groupoid]]s $\Sigma \to \mathbf{B}G$ (the _correct_ morphisms, sometimes called _[[Morita morphism]]_ to distinguish them from the incorrect notion) is that of smooth $G$-principal bundles and smooth homomorphisms between these
+
+$$
+  SmoothGrpd(\Sigma, \mathbf{B}G) \simeq G Bund(\Sigma) \in Grpd
+  \,,
+$$
+
+whereas the [[geometric realization]] $B G \simeq \vert \mathbf{B}G\vert$ only sees the equivalence classes:
+$$
+  [\Sigma, B G] \simeq \pi_0 G Bund(\Sigma) \in Set
+  \,.
+$$ 
+
+This indicates that ([[nonabelian cohomology|nonabelian]]) [[gauge theory]] on $\Sigma$ should have a formulation as a $\sigma$-model with target "space" $X$ the Lie groupoid $X = \mathbf{B}G$: a $\sigma$-model field $\Sigma \to X = \mathbf{B}G$ a $G$-bundle, and an isomorphism of field configurations being a [[gauge transformation]] of $G$-bundles.
+
+But the field configuration of $G$-gauge theory on $\Sigma$ is not just a $G$-principal bundle, but is a $G$-bundle _with [[connection on a bundle|connection]]_ . There is no Lie groupoid that that would similarly represent such connections. But there is a _[[smooth infinity-groupoid|smooth groupoid]]_ that does: $\mathbf{B}G_{conn}$, the [[groupoid of Lie algebra valued 1-forms]].
+
+Here by a _smooth groupoid_ we mean a [[groupoid]] that comes with rule for which of its collectins of objects or morphisms are _smoothly parameterized families_ . Technically this is a _[[(2,1)-sheaf]]_ or _[[stack]]_ on the [[site]] [[CartSp]]. Among all smooth groupoids, Lie groupoids and generally [[diffeological space|diffeological groupoid]]s are singled out as being the _[[concrete sheaf|concrete]]_ objects. It's nice if a smooth groupoid is concrete or even Lie, but all [[higher geometry|higher]] [[differential geometry]] exists for general smooth $\infty$-groupoids just as well. Therefore if we can allow Lie groupoids as targets for $\sigma$-models, we can allow general smooth groupoids as well.
+
+The non-concrete smooth groupoid $\mathbf{B}G_{conn}$ is defined by the following rule: for $U \in $ [[CartSp]], a smoothly $U$-paramezterized famnily of objects is by definition a $\mathfrak{g}$-valued differential 1-form on $U$, where $\mathfrak{g}$ is the [[Lie algebra]] of $G$. A smoothly $U$-parameterized family of morphisms is a smooth [[gauge transformation]] between two such form data.
+
+One then finds that the [[mapping space]] groupoid for this target is
+
+$$
+  SmoothGrpd(\Sigma , \mathbf{B}G_{conn})
+   \simeq
+  G Bund_{conn}(\Sigma)
+  \,,
+$$
+
+where on the right we have the groupoid of smooth $G$-principal bundles with conection on $\Sigma$, and whose morphisms are smooth morophisms of principal bundles with connection.
+
+
+But the pattern continues: target spaces can be [[Lie 2-groupoid]]s and eventually [[smooth ∞-groupoids]].
+
+the data specifying a $\sigma$-model is not generally hosted in the context of ordinary [[geometry]]. Rather, background data for $\sigma$-models are objects in _[[higher geometry]]_ .
+
+### Chern-Simons theory as a $\signa$-model
 
 (...)
 
+### AKSZ theory as a higher Chern-Simons $\sigma$-model
+
+(...)
+
+### Dijkgraaf-Witten theory as a $\sigma$-model
+
+(...)
+
+### The Yetter model as a $\sigma$-model
+
+(...)
+
+### $\infty$-Dijkgraaf-Witten theory
+
+(...)
+
+### $\infty$-Chern-Simons theory
+
+(...)
 
 ## Exposition of a general abstract formulation
  {#Exposition}
