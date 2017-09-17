@@ -1,0 +1,6 @@
+
+
+## References
+
+* Leila Schneps, _Survey of the theory of multiple zeta values_ (2011) ([pdf](http://www.maths.bris.ac.uk/events/meetings/uploads/4159LeilaSchnepsII.pdf))
+
