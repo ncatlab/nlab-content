@@ -225,7 +225,7 @@ about symmetric spectra_, a book in progress, [dvi](http://www.math.uni-bonn.de/
 
 * [[Robert Thomason]], _Symmetric Monoidal Categories Model All Connective Spectra_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.37.8193))
 
-* [[John Adams]], _Infinite loop spaces_
+* [[Frank Adams]], _Infinite loop spaces_, Princeton University Press, 1978 
 
 [[!redirects spectra]]
 [[!redirects prespectrum]]
