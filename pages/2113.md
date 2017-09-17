@@ -10,6 +10,14 @@ from $0$ to $n-1$. Given a [[field]] $k$, the space of all flags in an $n$-dimen
 
 More generally, the __generalized flag variety__ is the complex projective variety obtained as the coset space $G/T\cong G^{\mathbb{C}}/B$ where $G$ is a [[compact Lie group]], $T$ its [[maximal torus]], $G^{\mathbb{C}}$ the [[complexification]] of $G$, which is a complex semisimple group, and $B\subset G^{\mathbb{C}}$ is the [[Borel subgroup]]. It has a structure of a compact [[Kähler manifold]]. It is a special case of the larger family of coset spaces of semisimple groups modulo [[parabolic subgroup|parabolics]] which includes, for example, [[Grassmannians]]. There are quantum, noncommutative and infinite-dimensional generalizations. Flag varieties have rich combinatorial and geometric structure and play an important role in [[representation theory]] and [[integrable systems]]. 
 
+## Related concepts
+
+* [[Grassmannian]]
+
+* [[coset space]]
+
+* [[Schubert calculus]]
+
 ## References
 
 * D. Monk, _The geometry of flag manifolds_, Proceedings of the London Mathematical Society 1959 s3-9(2):253--286; [doi:10.1112/plms/s3-9.2.253](http://dx.doi.org/10.1112/plms/s3-9.2.253)
