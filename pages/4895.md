@@ -59,3 +59,11 @@ The application of this to the description of type II [[string theory]] in 10-di
 * Victor O. Rivelles, _Holographic Principle and AdS/CFT Correspondence_ ([arXiv](http://arxiv.org/abs/hep-th/9912139))
 
 * [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+
+### General abstract
+
+An identification of boundary conditions and [[QFT with defects|defects]] as [[natural transformation]]s between higher dimensional [[FQFT]]s is discussed in
+
+* [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([[SchommerPriesDefects.pdf:file]])
+{#SchommerPries}
+
