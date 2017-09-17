@@ -133,7 +133,7 @@ $$
     & {}^{g_1}\nearrow && \searrow^{g_2}
     \\
     {*}
-    &&\stackrel{g_1 g_2}{\to {*}
+    &&\stackrel{g_1 g_2}{\to}&& {*}
   }
   \right|
   g_1, g_2 \in G
