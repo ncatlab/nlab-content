@@ -63,7 +63,7 @@ For a fully faithful embedding $i \colon \mathcal{C} \to \mathcal{D}$ to exhibit
 
 * $i(p)$ splits in $\mathcal{D}$ for every idempotent $p$ in $\mathcal{C}$, and 
 
-* every object in $\tilde \mathcal{C}$ is the retract of an object in $\mathcal{C}$ under $i$. 
+* every object in $\mathcal{D}$ is the retract of an object in $\mathcal{C}$ under $i$. 
 =-- 
 
 +-- {: .proof} 
@@ -210,6 +210,12 @@ so that $p_1(x) = x$ for every $x \in V'$. Hence $g^{-1}(0) \cap V' \subseteq Fi
 From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix(p)$ is locally diffeomorphic to $\mathbb{R}^m$, and so $Fix(p)$ is an embedded submanifold of $\mathbb{R}^n$. 
 =--
 
++-- {: .num_remark} 
+###### Remark 
+[Lawvere](#Law) comments on this fact as follows: "For example, if $\mathbf{C}$ is the category of all smooth maps between all open subsets of all Euclidean spaces, then $\widebar{\mathbf{C}}$ $[$the Karoubi envelope$]$ 
+is the category of all smooth manifolds. This powerful theorem justifies bypassing the complicated considerations of charts, coordinate transformations, and atlases commonly offered as a "basic" definition of the concept of manifold. For example the 2-sphere, a manifold but not an open set of any Euclidean space, may be fully specified with its smooth structure by considering any open set $A$ in 3-space $E$ which contains it but not its center (taken to be $0$) and the smooth idempotent endomap of $A$ given by $e(x) = x/{|x|}$. All general constructions (i.e., functors into categories which are Cauchy complete) on manifolds now follow easily (without any need to check whether they are compatible with coverings, etc.) provided they are known on the opens of Euclidean spaces: for example, the tangent bundle on the sphere is obtained by splitting the idempotent $e'$ on the tangent bundle $A \times V$ of $A$ ($V$ being the vector space of translations of $E$) which is obtained by differentiating $e$. The same for cohomology groups, etc." 
+=-- 
+
 
 ## Related concepts
 
@@ -261,6 +267,11 @@ Discussion for [[triangulated categories]] is in
 The proof that idempotents split in the category of manifolds was adapted from this MO answer: 
 
 * Zack (http://mathoverflow.net/users/300/zack), Idempotents split in category of smooth manifolds?, URL (version: 2014-04-06): http://mathoverflow.net/q/162556 ([web](http://mathoverflow.net/a/162556/2926)) 
+
+The accompanying remark of Lawvere appears on page 267 of 
+
+* [[F. William Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemporary Mathematics 92 (1989), 261-299. ([pdf](http://conceptualmathematics.files.wordpress.com/2013/01/toposesofgeneralizedgraphs.pdf)) 
+ {#Law} 
 
 [[!redirects Karoubi completion]]
 [[!redirects Karoubi complete category]]
