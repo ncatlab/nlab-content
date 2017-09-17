@@ -26,7 +26,7 @@ The generalization in [[(∞,1)-category theory]] of the notion of _[[group of u
 
 ### Unaugmented definition
 
-+-- {: .num_defn}
++-- {: .num_defn #PlainInfinityGroupOfUnits}
 ###### Definition
 
 Let $A$ be an [[A-∞ algebra|A-∞]] [[ring spectrum]]. 
@@ -58,6 +58,58 @@ $$
  {#AugmentedDefinition}
 
 There is slight refinement of the above definition, which essentially adds one 0-th "grading" homotopy group to $B gl_1(E)$ and thereby makes the $\infty$-group of units of [[E-∞ rings]] be canonically [[augmented ∞-group|augmented]] over the [[sphere spectrum]] ([Sagave 11](#Sagave11)).
+
++-- {: .num_defn}
+###### Definition
+
+For $E$ an [[E-∞ ring]], its **$\mathbb{s}$-graded spectrum of units** 
+
+$$
+  gl_1^{gr}(E) \to \mathbb{S}
+$$ 
+
+is ...
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Write $\mathbb{S} \to b gl^\ast_1(E)$ for the [[homotopy cofiber]] of the above augmentation
+
+$$
+  gl_1^{gr}(E) \to \mathbb{S} \to b gl_1^\ast(E)
+  \,.
+$$
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The ordinary $\infty$-group of units $gl_1(E)$, def. \ref{PlainInfinityGroupOfUnits} is the [[connective cover]] of the [[looping]] of $b gl_1^\ast(E)$:
+
+$$
+  gl_1(E) \simeq \Omega_{conn} b gl_1^\ast(E)
+  \,.
+$$
+
+=--
+
+([Sagave 11, theorem, 1.2](#Sagave11))
+
++-- {: .num_remark}
+###### Remark
+
+From the [[homotopy cofiber sequence]]
+
+$$
+  gl_1(E) \to 0 \to b gl_1(E)
+$$
+
+it follows that there are maps (... to be continued ...)
+
+=--
 
 ## Properties
  {#Properties}
