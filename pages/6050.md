@@ -1,0 +1,7 @@
+
+For $(X,g)$ a [[Riemannian manifold]] and $\Delta : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[differential equation]]
+
+$$
+  \Delta f = 0
+  \,.
+$$
