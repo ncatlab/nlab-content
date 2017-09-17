@@ -58,6 +58,14 @@ Here $\tau$ is the morphism that modulates the circle 2-bundle on the fiber prod
 
 (...)
 
+## Related concepts
+
+* [[differential T-duality]]
+
+* [[generalized complex geometry]]
+
+* [[exceptional generalized geometry]]
+
 ## References
 
 The term $B_n$-geometry was introduced in
