@@ -176,7 +176,9 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 
 * [[equivariance]]
 
-* [[Baum-Connes conjecture]]
+* [[equivariant K-theory]], [[equivariant operator K-theory]], [[equivariant KK-theory]]
+
+  * [[Baum-Connes conjecture]]
 
 ## References
 
