@@ -22,7 +22,7 @@ $$
   \,,
 $$
 
-which is intended to be [[true]] if and only if $\phi a$ is true for at least one [[term]] $a$ of $T$.
+which is intended to be [[true]] if and only if $\phi a$ is true for at least one object $a$ of type $T$.
 
 Note that it is quite possible that $\exists\, x\colon T, \phi x$ may be [[proof|provable]] (in a given [[context]]) yet $\phi a$ cannot be proved for any [[term]] $a$ of type $T$ that can actually be constructed in that context.  Therefore, we cannot define the quantifier by taking the idea literally and applying it to terms.
 
@@ -33,7 +33,7 @@ Note that it is quite possible that $\exists\, x\colon T, \phi x$ may be [[proof
 
 We work in a [[logic]] in which we are concerned with which [[propositions]] entail which propositions (in a given [[context]]); in particular, two propositions which entail each other are considered equivalent.
 
-Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[context extension|weakening]] principle that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __existential quantification__ of $P$ is any proposition $\exists\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
+Let $\Gamma$ be an arbitrary [[context]] and $T$ a [[type]] in $\Gamma$ so that $\Delta \coloneqq \Gamma, x\colon T$ is $\Gamma$ extended by a [[free variable]] $x$ of type $T$.  We assume that we have a [[weakening rule]] that allows us to interpret any proposition $Q$ in $\Gamma$ as a proposition $Q[\hat{x}]$ in $\Delta$.  Fix a proposition $P$ in $\Delta$, which we think of as a [[predicate]] in $\Gamma$ with the free variable $x$.  Then the __existential quantification__ of $P$ is any proposition $\exists\, x\colon T, P$ in $\Gamma$ such that, given any proposition $Q$ in $\Gamma$, we have
 
 *  $\exists\, x\colon T, P \vdash_{\Gamma} Q$ if and only if $P \vdash_{\Gamma, x\colon T} Q[\hat{x}]$.
 
