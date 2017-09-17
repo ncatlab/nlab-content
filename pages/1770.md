@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Cohesive toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
+=--
+=--
+
 # Smooth spaces
 * table of contents
 {: toc}
@@ -13,13 +28,13 @@ Here standard smooth test spaces may be taken to be [[smooth manifolds]]. But si
 
 ## Definition
 
-The category of **smooth space**s is the [[sheaf]] [[topos]]
+The category of **smooth spaces** is the [[sheaf topos]]
 
 $$
   SmoothSp := Sh(Diff)
 $$
 
-of [[sheaf|sheaves]] on the [[site]] [[Diff]] of smooth manifolds equipped with its standard [[coverage]] ([[Grothendieck topology]]) given by open covers of manifolds.
+of [[sheaves]] on the [[site]] [[Diff]] of smooth manifolds equipped with its standard [[coverage]] ([[Grothendieck topology]]) given by open covers of manifolds.
 
 Since $Diff$ is [[equivalence of categories|equivalent]] to the category of [[manifolds]] _embedded_ into $\mathbb{R}^\infty$, $Diff$ is an [[essentially small category]], so there are no size issues involved in this definition.
 
@@ -111,9 +126,22 @@ $$
   [[smooth ∞-stacks]].
 
 
-## Topos points and stalks
+## Properties
+ {#Properties}
 
-+-- {: .un_lemma }
+### Connectedness, locality, cohesion
+
+The topos of smooth space is 
+
+* a [[locally connected topos|locally connected]] and [[connected topos]] (discussed [here](http://ncatlab.org/nlab/show/diffeological+space#Connectedness));
+
+* a [[local topos]] (discussed [here](http://ncatlab.org/nlab/show/diffeological+space#Locality));
+
+* hence a [[cohesive topos]] (discussed [here](http://ncatlab.org/nlab/show/diffeological+space#Cohesiveness)).
+
+### Topos points and stalks
+
++-- {: .num_lemma }
 ###### Lemma
 
 For every $n \in N$ there is a 
@@ -139,7 +167,7 @@ origin in $\mathbb{R}^n$.
 
 =--
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
 
 SmoothSp has [[point of a topos|enough points]]:
@@ -148,16 +176,33 @@ $D^n$ for $n \in \mathbb{N}$.
 
 =--
 
+## Variants and generalizations
+ {#VariantsAndGeneralizations}
+
+### Synthetic differential geometry
+
+The [[site]] [[CartSp]]${}_{smooth}$ may be replaced by the site [[CartSp]]${}_{th}$ (see there) whose objects are products of smooth Cartesian spaces with [[infinitesimally thickened points]]. The corresponding [[sheaf topos]] $Sh(CartSp_{th})$ is called the _[[Cahiers topos]]_. It contains smooth spaces with possibly infinitesimal extension and is a model for [[synthetic differential geometry]] (a "[[smooth topos]]"), which $Sh(CartSp)$ is not.
+
+The two toposes are related by an [[adjoint quadruple]] of functors that witness the fact that the objects of $Sh(CartSp_{th})$ are possiby infinitesimal extensions of objects in $Sh(CartSp)$. 
+For more discussion of this see [[synthetic differential ∞-groupoid]]
+
+### Higher smooth geometry
+
+The topos of smooth spaces has an evident generalization from [[geometry]] to [[higher geometry]] to an [[(∞,1)-topos]] of [[smooth ∞-groupoids]]. See there for more details. From this perspective it would be more systematic to speak of $Sh(CartSp)$ as 
 
 ## References
 
-The category $SmoothSp := Sh(Diff)$ is discussed with an eye towards its generalization to [[smooth ∞-stacks]]  in section 3.4, from page 29 on in
+The [[concrete objects|concrete]] smooth spaces are known as _[[diffeological spaces]]_. See there for more references.
 
-* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+Aspects of the category of smooth spaces is discussed with an eye towards its generalization to [[smooth ∞-groupoids]] and their [[homotopy]] [[localization]] in section 3.4, from page 29 on in
 
+* [[Daniel Dugger]], _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 The [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36. (they are mentioned before on p. 31).
 
+As a [[cohesive topos]] smooth spaces are discuss in sections 1.2, 1.3 and 3.3 in 
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects smooth space]]
 [[!redirects smooth spaces]]
