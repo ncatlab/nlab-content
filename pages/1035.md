@@ -41,5 +41,11 @@ An **additive category** is
 
 * The natural [[morphisms]] *between* additive categories are the [[additive functors]].
 
+## References
+
+Discussion of [[model category]] structures on additive categories is around def. 4.3 of 
+
+* Apostolos Beligiannis, _Homotopy theory of modules and Gorenstein rings_, Math. Scand. 89 (2001) ([pdf](http://users.uoi.gr/abeligia/mathscand.pdf))
+ {#Beligiannis}
 
 [[!redirects additive categories]]
