@@ -100,9 +100,9 @@ But first consider the following pointwise characterization.
 +-- {: .num_prop}
 ###### Proposition
 
-Let $C$ be a [[quasi-category]], $K$ a [[simplicial set]]. A co-cone diagram
+Let $C$ be a [[quasi-category]], $K$ a [[simplicial set]]. A [[co-cone]] [[diagram]]
 $\bar p : K \star \Delta[0] \to C$ with cone point $X \in C$ 
-is a colimiting diagram (an initial object in
+is a [[colimit|colimiting]] [[diagram]] (an initial object in
 $C_{p/}$) precisely if for every object $Y \in C$ the morphism
 
 $$
@@ -230,7 +230,7 @@ $$
   \bar {N(F)} : N(J)^{\triangleright} \to N(C) 
 $$
 
-is a quasi-categorical colimit diagram in $N(C)$. 
+is a quasi-categorical colimit [[diagram]] in $N(C)$. 
 
 =--
 
@@ -640,7 +640,7 @@ The claim then follows from the above proposition.
 +-- {: .num_prop }
 ###### Proposition
 
-For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞,1)-category]] and $F : K \to C/X$ another diagram, we have that the limit $\lim_{\leftarrow} F$ in $C/X$ coincides with the limit $\lim_{\leftarrow} F/X$ in $C$. 
+For $C$ an $(\infty,1)$-category, $X : D \to C$ a diagram, $C/X$ the [[over-(∞,1)-category]] and $F : K \to C/X$ a diagram in the over-$(\infty,1)$-category, then the [[(∞,1)-limit]] $\lim_{\leftarrow} F$ in $C/X$ coincides with the $(\infty,1)$-limit $\lim_{\leftarrow} F/X$ in $C$. 
  
 =--
 
