@@ -15,6 +15,7 @@ if it has a [[basis for a topology|basis]] of open sets $U$ such that the spaces
 Sometimes one requires just that the inclusions $U \to X$ are [[null-homotopic maps]]. This might be called **semi-locally contractible**.
 
 
+
 One could also consider a basis of open sets such that the opens $U$ have trivial homotopy groups, but this does not seem to crop up in practice.
 
 
@@ -22,8 +23,9 @@ One could also consider a basis of open sets such that the opens $U$ have trivia
 ## Examples 
 
 * Any [[CW-complex]] is locally contractible.
-
-> Any ideas for a semi-locally contractible space that is not locally contractible?
+* Any [[paracompact]] [[manifold]] is locally contractible
+* Any contractible space is semi-locally contractible
+* The cone on the [[Hawaiian earring space]] is contractible, hence semi-locally contractible, but is not locally contractible, as any neighbourhood of the 'bad point' is not simply connected.
 
 ## Other viewpoints
 
@@ -33,7 +35,7 @@ If one considers [[fundamental ∞-groupoid]]s, the inclusion $U\to X$ being nul
 [[David Roberts]]: The following may be straightforwardly obvious, but I have couched it as a conjecture, because I haven't seen it in print.
 =--
 
-**Conjecture:** This condition (local relative contractibility) is sufficient to ensure that every locally constant $n$-stack is locally trivial.
+**Conjecture:** If the space $X$ is semi-locally contractible then every locally constant $n$-stack on the site of open sets of $X$ is locally trivial.
 
 See also [[locally ∞-connected (∞,1)-topos]]. There a converse to this conjecture is stated:
 
