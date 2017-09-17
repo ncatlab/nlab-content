@@ -45,6 +45,8 @@ In [[algebraic geometry]] there are very important theorems due Chevalley, [[val
 
 * [[normed ring]]
 
+* [[normed field]]
+
 ## Literature 
 
 * wikipedia [valuation (algebra)](http://en.wikipedia.org/wiki/Valuation_%28algebra%29)
