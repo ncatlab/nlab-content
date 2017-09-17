@@ -146,9 +146,17 @@ The notion of spectral triple and of spectral action was introduced in
 
 * [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_ ([arXiv:hep-th/9603053](http://arxiv.org/abs/hep-th/9603053))
 
-The characterization of ordinary [[compact space|compact]] [[smooth manifold]]s in terms of spectral triples is in 
+The characterization of ordinary [[compact space|compact]] [[smooth manifolds]] in terms of spectral triples is in 
 
 * [[Alain Connes]], _On the spectral characterization of manifolds_ ([arXiv:0810.2088](http://arxiv.org/abs/0810.2088))
+
+Traditionally spectral triples are discussed without specifying their [[homomorphisms]]. Proposals to remedy this such as to obtain a sensible [[category]] of spectral triples include the following
+
+* {#BCL05} [[Paolo Bertozzini]], [[Roberto Conti]], Wicharn Lewkeeratiyutkul, _A Category of Spectral Triples and Discrete Groups with Length Function_, Osaka Journal of Mathematics, 43 n. 2, 327-350 (2006) ([arXiv:math/0502583](http://arxiv.org/abs/math/0502583))
+
+* {#BCL08} [[Paolo Bertozzini]], [[Roberto Conti]], Wicharn Lewkeeratiyutkul, _Non-Commutative Geometry, Categories and Quantum Physics_, East-West Journal of Mathematics "Contributions in Mathematics and Applications II" Special Volume 2007, 213-259 (2008) ([arXiv:0801.2826](http://arxiv.org/abs/0801.2826))
+
+(See also the pointers concerning the relation to [[KK-theory]] [below](#ReferencesRelationToKKTheory)).
 
 ### Relation to quantum physics 
 
@@ -192,6 +200,7 @@ One variation uses [[von Neumann algebra]]s instead of [[C-star algebra]]s.
 
 
 ### Relation to K-theory
+ {#ReferencesRelationToKKTheory}
 
 Relation to [[K-theory]] and [[KK-theory]] is discussed in
 
@@ -203,4 +212,3 @@ Relation to [[K-theory]] and [[KK-theory]] is discussed in
 
 [[!redirects spectral triples]]
 [[!redirects graph field theory]]
-
