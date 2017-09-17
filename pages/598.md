@@ -143,29 +143,32 @@ $$
   }
 $$  
 
-in [[sSet]] models the [[homotopy pullback]]
+in [[sSet]] models the [[homotopy pullback]] in $sSet_{Quillen}$ / [[(∞,1)-pullback]] in [[∞Grpd]]
 
 $$
   \array{
     P_\bullet &\to& *
     \\
-    \downarrow && \downarrow
+    \downarrow &swArrow& \downarrow
     \\
     X_\bullet &\to& \mathbf{B}G
   }
+  \,.
 $$  
 
-in the standard [[model structure on simplicial set]]s and hence produces the [[principal ∞-bundle]] $P_\bullet \to X_\bullet$ classified by $X_\bullet \to \mathbf{B}G$.
+in the standard [[model structure on simplicial sets]] and hence produces the [[principal ∞-bundle]] $P_\bullet \to X_\bullet$ classified by $X_\bullet \to \mathbf{B}G$.
 
 For all these constructions exist very explicit combinatorial formulas that go by the symbols
 
-* $\overline{W}G$ for $\mathbf{B}G$
+* $\overline{W}G$ for the [[delooping]] $\mathbf{B}G$
 
-* $W G$ for $\mathbf{E}G$
+* $W G$ for the [[generalized universal bundle]] $\mathbf{E}G$
 
-* $X_\bullet \times_g W G$ for $P_\bullet$ (called "twisted product").
+* $\tau : X_\bullet \to G_\bullet$ (called the _[[twisting function]]_) for the [[cocycle]] $X_\bullet \to \mathbf{B}G$;
 
-All of these constructions are functorial and hence lift from the context of [[simplicial set]]s to that of [[simplicial presheaves]] over some [[site]] $C$. There they provide models for strict [[group object in an (infinity,1)-topos|group objects]], [[delooping]] and [[principal ∞-bundle]]s in the corresponding [[(∞,1)-topos]]es over $C$. In particular in the projective model structure on $[C^{op}, sSet]$ the pullback of the objectwise $W G \to \overline{W}G$ is still a homotopy pullback and models the corresponding principal $\infty$-bundles.
+* $X_\bullet \times_g W G$ for $P_\bullet$ (called _[[twisted Cartesian product]]_ ).
+
+All of these constructions are functorial and hence lift from the context of [[simplicial set]]s to that of [[simplicial presheaves]] over some [[site]] $C$. There they provide models for strict [[group object in an (infinity,1)-category|group objects]], [[delooping]] and [[principal ∞-bundle]]s in the corresponding [[(∞,1)-topos]]es over $C$. In particular in the projective model structure on $[C^{op}, sSet]$ the pullback of the objectwise $W G \to \overline{W}G$ is still a homotopy pullback and models the corresponding principal $\infty$-bundles.
 
 
 ### Delooping {#Delooping}
@@ -266,9 +269,128 @@ $$
 
 
 
-### Universal simplicial principal bundle {#UniversalBundle}
+### Cocycles {#UniversalBundle}
 
-...
+For $X_\bullet$ a [[simplicial set]] a morphism 
+
+$$
+  g : X_\bullet \to \overline{W}G
+$$
+
+in [[sSet]] corresponds precisely to what is called a [[twisting function]], a family of maps
+
+$$
+  \{\phi(g)_n : X_n \to G_{n-1}\}
+$$
+
+satisfying the relations
+
+$$
+\array{
+  d_0 \phi(x) = (\phi(d_0 x))^{-1} \phi(d_1 x)
+  \\
+  d_i \phi(x) = \phi(d_{i+1}x), i\gt 0,
+  \\
+  s_i\phi(x) = \phi(s_{i+1}x), i\geq 0,
+  \\
+  \phi(s_0 x) = 1_G.
+}
+$$
+
+
+### Principal bundles
+
+
++-- {: .un_def}
+###### Definition
+
+For $G$ a simplicial group, define the [[simplicial set]] $W G$ to be the [[decalage]] of $\overline{W}G$
+
+$$
+  W := Dec \overline{W}G
+  \,.
+$$
+
+=--
+
+
+Notice by the discussion at [[decalage]] that this should be precisely the standard realization of the [[generalized universal bundle]] in the [[category of fibrant objects]] $KanCplx$, namely the [[pullback]]
+
+$$
+  \array{
+     W G &\to& *
+     \\
+     \downarrow && \downarrow
+     \\
+     \overline{W}G^{\Delta[1]} &\stackrel{d_0}{\to}& \overline{W}G
+     \\
+     \downarrow^{d_1}
+     \\
+     \overline{W}G
+  }
+$$
+
+which produces the canonical [[Kan fibration]] replacement of the morphism $* \to \overline{W}G$.
+
+By the discussion at [[homotopy pullback]] this means that for $X_\bullet$ any [[Kan complex]], an ordinary [[pullback]] diagram
+
+$$
+  \array{
+    P_\bullet &\to& W G
+    \\
+    \downarrow && \downarrow
+    \\
+    X_\bullet &\stackrel{g}{\to}& \overline{W}G
+  }
+$$
+
+in [[sSet]] exhibits $P_\bullet$ as the [[homotopy pullback]] in $sSet_{Quillen}$ / [[(∞,1)-pullback]] in [[∞Grpd]]
+
+$$
+  \array{
+    P_\bullet &\to& *
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    X_\bullet &\stackrel{g}{\to}& \overline{W}G
+  }
+  \,,
+$$
+
+i.e. as the [[homotopy fiber]] of the cocycle $g$.
+
++-- {: .un_def}
+###### Definition
+
+We call $P_\bullet := X_\bullet \times^g W G$ the simplicial $G$-[[principal bundle]] corresponding to $g$.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\{\phi : X_n \to G_{(n-1)}\}$ be the [[twisting function]] corresponding to $g : X_\bullet \to \overline{W}G$ by the above discussion.
+
+Then the simplicial set  $P_\bullet := X_\bullet \times_{g} W G$ is explicitly given by the formula called the [[twisted Cartesian product]] $X_\bullet \times^\phi G_\bullet$:
+
+its cells are
+
+$$
+  P_n  = X_n \times G_n
+$$
+
+with face and degeneracy maps
+
+*  $d_i (x,g) = (d_i x , d_i g) if $i \gt 0$
+
+* $d_0 (x,g) = (d_0 x, \phi(x) d_0 g)$
+
+* $s_i (x,g) = (s_i x, s_i g)$.
+
+=--
+
+
+
 
 
 ## References 
