@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Quantum chromodynamics_ ("QCD") is the [[quantum field theory]] of [[Yang-Mills theory]]: it describes the [[quantum theory]] of  [[gluon]]s and [[quark]]s.
+
+## Related concepts
+
+* [[quantum field theory]]
+
+  * [[gauge theory]]
+
+    * [[QED]]
+
+    * **QCD**
+
