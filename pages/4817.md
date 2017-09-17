@@ -15,15 +15,15 @@
 
 ## Idea
 
-Ordinary [[heterotic string theory]] is the study of the perturbation series of correlators of a certain 2-dimensional [[SCFT]] over surfaces. The resuling [[S-matrix]] is interpreted as encoding the scattering amplitudes of strings propagating in some target space.
+Ordinary [[heterotic string theory]] is the study of the perturbation series of correlators of a certain 2-dimensional [[SCFT]] over surfaces. The resulting [[S-matrix]] is interpreted as encoding the scattering amplitudes of strings propagating in some target space.
 
 Among the [[gauge field]]s that these strings are charged under is the [[Kalb-Ramond field]], which is a [[circle n-bundle with connection|circle 2-bundle with connection]].
 
 By general [[electric-magnetic duality]] (see [Freed](#Freed) for a formal treatment in [[differential cohomology]]) one expects there to be a dual theory theory where the $(p=1)$-dimensional strings are replaced by their magnetic duals, which are $10-(p+2)-2 = 5$-branes. 
 
-T&he study of the the corresponding perturbation series over correlators of the 6-dimensional fivebrane worldvolume [[SCFT]] over 6-volumes is far from tractable,  but a handful of consistency checks exist, that the corresponding _dual heterotic string theory_ makes sense.
+The study of the corresponding perturbation series over correlators of the 6-dimensional fivebrane worldvolume [[SCFT]] over 6-volumes is far from tractable,  but a handful of consistency checks exist, that the corresponding _dual heterotic string theory_ makes sense.
 
-Where the [[quantum anomaly]]-cancellation for the heterotic string involves the demand for (twissted) [[string structure]]s, that for the dual theory involves [[fivebrane structure]]s (which gives these their name).
+Where the [[quantum anomaly]]-cancellation for the heterotic string involves the demand for (twisted) [[string structure]]s, that for the dual theory involves [[fivebrane structure]]s (which gives these their name).
 
 
 ## References
@@ -34,9 +34,9 @@ The worldvolume fermion [[quantum anomaly]] of the super-fivebrane is discussed 
 
 * J. A. Dixon, M. J. Duff, J. C. Plefka, _Putting the string/fivebrane duality to the test_ ([arXiv:hep-th/9208055](http://arxiv.org/abs/hep-th/9208055))
  
-On p. 3 and 4 the latter revies the worldsheet description of the relevant terms for the string and then look at the corresponding situation for the 5-brane on p. 6.
+On p. 3 and 4 the latter reviews the worldsheet description of the relevant terms for the string and then look at the corresponding situation for the 5-brane on p. 6.
 
-So this is the EM-dual analog of the Kiilingback-Witten-computation of the fermionic  anomaly that leads to [[string structure]]s in the heterotic string (see there). Where the former involves cancelling the first fractional [[Pontryagin class]], this involves the second.
+So this is the EM-dual analog of the Killingback-Witten-computation of the fermionic  anomaly that leads to [[string structure]]s in the heterotic string (see there). Where the former involves cancelling the first fractional [[Pontryagin class]], this involves the second.
 
 For a description of the general mechanism in [[differential cohomology]] at work here, see
 
