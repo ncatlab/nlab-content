@@ -36,6 +36,9 @@ Einstein manifolds are precisely the solutions of [[Einstein's equations]] for p
 
 * A manifold of [[dimension]] 7 and of [[weak G2-holonomy]] with weakness parameter $\lambda$ -- $d \omega_3 = \lambda \star \omega_3$ -- is canonically an Einstein manifold with cosmological constant $\lambda$.
 
+## Related concepts
+
+* [[Kähler-Einstein manifold]]
 
 ## References
 
@@ -43,3 +46,5 @@ Einstein manifolds are precisely the solutions of [[Einstein's equations]] for p
 
 [[!redirects Einstein manifolds]]
 
+[[!redirects Einstein metric]]
+[[!redirects Einstein metrics]]
