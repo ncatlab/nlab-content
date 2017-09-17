@@ -30,30 +30,78 @@ This is the [[infinitesimal object|infinitesimal]] version of how a smooth [[cro
 
 ## Definition
 
+### As crossed modules of Lie algebras
+
 A **differential crossed module** $\mathfrak{g}$ is 
 
-* a pair of [[Lie algebra]]s $\mathfrak{g}_2$ and $\mathfrak{g}_1$
+* a pair of [[Lie algebra]]s $\mathfrak{g}_0$ and $\mathfrak{g}_1$
 
 * equipped with two Lie algebra homomorphisms
 
-  * $\partial : \mathfrak{g}_2 \to \mathfrak{g}_1$
+  * $\partial : \mathfrak{g}_1 \to \mathfrak{g}_0$
 
-  * $ \rho : \mathfrak{g}_1 \to Der(\mathfrak{g}_2)$
+  * $ \rho : \mathfrak{g}_0 \to Der(\mathfrak{g}_1)$
+  
+    (to the [[Lie algebra]] of Lie [[derivation]]s)
 
-* such that for all $x \in \mathfrak{g}_1, b,b' \in \mathfrak{g}_2$ we have
+* such that for all $x \in \mathfrak{g}_0, b,b' \in \mathfrak{g}_1$ we have
 
   * $\partial  ( \rho(x)(b) ) = [x, \partial(b)]$
 
   * $\rho(\partial b)(b') = [b, b']$.
 
-Notice that the Lie algebra structure on $\mathfrak{g}_2$ is already fixed by the rest of the data. So a differential crossed module may equivalently be thought of as extra structure on a Lie module of $\mathfrak{g}_1$.
+Notice that the Lie algebra structure on $\mathfrak{g}_1$ is already fixed by the rest of the data. So a differential crossed module may equivalently be thought of as extra structure on a Lie module $\mathfrak{g}_1$ of $\mathfrak{g}_0$. This leads over to the following perspective.
 
-## Properties
+### As dg-Lie algebras
 
-Crossed modules are equivalent to strict [[Lie 2-algebras]]: those for which the trinary bracket vanishes.
+Equivalently, a  differential crossed module is a [[dg-Lie algebra]] structure on a [[chain complex]] $(\mathfrak{g}_1 \stackrel{\partial}{\to} \mathfrak{g}_0)$ concentrated in degrees 0 and 1.
 
+The components of the dg-Lie bracket are
+
+* the given bracket $[-,-] : \mathfrak{g}_0 \otimes \mathfrak{g}_0 \to \mathfrak{g}_0$;
+
+* the mixed bracket
+
+  $$
+    [-,-] : \mathfrak{g}_0 \otimes \mathfrak{g}_1 \to \mathfrak{g}_1
+  $$
+
+  identifies with the action:
+
+  $$
+    [x,b] := \rho(x)(b)
+    \,.
+  $$
+
+This way the respect of the dg-bracket for the differential
+
+$$
+  \partial [x,b] = [\partial x, b ] + [x, \partial b] = [x,\partial b]
+$$
+
+is equivalently the above condition
+
+$$
+  \partial \rho(x)(b) = \rho(x)(\partial b)
+  \,.
+$$
+
+### As strict Lie 2-algebras
+
+By the discussion there, [[dg-Lie algebra]]s are _strict_ [[L-∞ algebra]]s (those for which all the brackets of higher arity vanish). Therefore the above identification of differential crossed modules with 2-term [[dg-Lie algebra]]s identifies these also with [[strict Lie 2-algebra]]s.
 
 ## Related concepts
+
+* [[Lie algebra]], [[Lie group]]
+
+* [[Lie 2-algebra]], [[Lie 2-group]]
+
+* [[L-infinity algebra]], [[smooth ∞-group]]
+
+* [[Lie algebroid]], [[Lie groupoid]]
+
+* [[L-∞ algebroid]], [[smooth ∞-groupoid]]
+
 
 ## References
 
