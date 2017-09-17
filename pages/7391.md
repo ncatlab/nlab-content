@@ -833,13 +833,93 @@ for its [[Bousfield localization of model categories|left Bousfield localization
 
 =--
 
++-- {: .num_prop #FibrantObjectsInTheLocallyConstantModelStructure}
+###### Proposition
+
+The fibrant objects in $[\Delta^{op}, dSet_{CM}]_{LocConst}$ are precisely
+the Reedy fibrant simplicial dendroidal sets $X$, such that for every $n \in \mathbb{N}$
+the morphism $X_n \to X_0$ is a weak equivalence in the [[model structure on dendroidal sets]].
+
+=--
+
+([Cis-Moer, 4.7](#CisinskiMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+By standard facts of [[Bousfield localization of model categories|left Bousfield localization]] a simplicial dendroidal set is fibrant in the locally constant model structure precisely if it is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$ and moreover the [[derived hom-space]] functor $RHom((\Delta[n]\cdot \Omega[T] \to \Omega[T]), X)$ is a weak equivalence. 
+
+We compute this derived hom space now in a maybe slightly non-obvious way, in order to get a useful result. First of all, since the derived hom space only depends on the weak equivalences, we may compute it working with the projective [[model structure on functors]]
+$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. Here in turn we use the discussion at [[simplicial model category]] and compute it by forming a fibrant replacement 
+
+$$
+  \hat X \in [\Delta^{op}, [\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}]_{Reedy}
+$$
+
+and then setting
+
+$$
+  RHom(\Delta[n] \cdot\Omega[T], X)
+  \simeq
+  ([n] \mapsto Hom(const(\Delta[n]\cdot \Omega[T]), \hat X))
+  \,.
+$$
+
+We claim now that such a resolution is given by
+
+$$
+  [n] \mapsto X^{(\Delta[n])}
+  \,.
+$$
+
+Because this is Reedy fibrant precisely if for all $k \in \mathbb{N}$ the morphism
+
+$$
+ X^{(\Delta[k])} \to X^{(\partial \Delta[k])}
+$$
+
+is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$, which is the case if for all $n \in \Delta$ the morphism 
+
+$$
+  X^{(\Delta[n])}_k \to X^{(\partial \Delta[n])}_k
+$$
+
+is a fibration in $dSet_{CM}$. But using that the Reedy fibrant $X$ is in particular projectively fibrant, hence that $X_k$ is a quasi-operad for all $k$, this is the case by discussion 
+[here](model+structure+on+dendroidal+sets#Enrichment)
+at _[[model structure on dendroidal sets]]_.
+
+Moreover, $\Delta[n]\cdot \Omega[T]$ is cofibrant in 
+$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. So we may compute the derived hom
+as
+
+$$
+  RHom(\Delta[n]\times \Omega[T], X)
+  :
+  [k]
+  \mapsto
+  Hom( \Delta[n] \times \Omega[T], X^{(\Delta[k])} )
+  = 
+  Hom(\Omega[T], X^{(\Delta[k])}_n)
+  \,.
+$$
+
+The right hand is the derived hom in $dSet_{CM}$. Therefore we find that $X$ is fibrant in the locally constant model structure if for all $n$ and $T$ the morphisms
+
+$$
+  RHom(\Omega[T], X_n) \to RHom(\Omega[T], X_0)
+$$
+
+are weak equivalences. This is the case precisely if $X_n \to X_0$ is a weak equivalence.
+
+=--
+
 +-- {: .num_prop }
 ###### Proposition
 
 Under the canonical identification of categories
 
 $$
-  [\Delta^{op}, dSet] \simeq [\Omega^{op}, Set]
+  [\Delta^{op}, dSet] \simeq [\Omega^{op}, sSet]
 $$
 
 the two model structures $[\Delta^{op}, dSet_{CM}]_{LocConst}$,
@@ -882,50 +962,8 @@ Therefore the cofibrations in the two model structures do coincide.
 
 Next, to see that the fibrant objects also coincide.
 
-Let $X$ be fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{Reedy}$. Then 
-it is also fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. 
- 
-We compute $RHom(\Delta[n] \times \Omega[T], X)$ by forming a fibrant resolution 
-of 
-$X$ in $[\Delta^{op},[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}]_{Reedy}$.
-We claim that such is given by
+(...) use prop. \ref{FibrantObjectsInTheLocallyConstantModelStructure} (...)
 
-$$
-  [n] \mapsto X^{(\Delta[n])}
-  \,.
-$$
-
-Because this is Reedy fibrant precisely if for all $n$ the morphism
-
-$$
- X^{(\Delta[n])} \to X^{(\partial \Delta[n])}
-$$
-
-is fibrant in $[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$, which is the case if for all $k \in \Delta$ the morphism 
-
-$$
-  X^{(\Delta[n])}_k \to X^{(\partial \Delta[n])}_k
-$$
-
-is a fibration in $dSet_{CM}$. But that is the case.
-Moreover, $\Delta[n]\cdot \Omega[T]$ is cofibrant in 
-$[\Delta^{op}, [\Omega^{op}, Set]_{CM}]_{proj}$. So we may compute the derived hom
-as
-
-$$
-  RHom(\Delta[n]\times \Omega[T], X)
-  :
-  [k]
-  \mapsto
-  Hom( \Delta[n] \times \Omega[T], X^{(\Delta[k])} )
-  = 
-  Hom(\Omega[T], X^{(\Delta[k])}_n)
-  \,.
-$$
-
-This last expression, now, also gives $RHom(\Omega[T], X_n)$.
-
-So it follows that (...)
 =--
 
 
