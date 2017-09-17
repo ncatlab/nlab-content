@@ -42,7 +42,7 @@ for the [[Spanier-Whitehead duality]] map which sends a [[topological space]] fi
 
 =--
 
-([ABG 12, def 10.3](#ABG12)).
+([ABG 11, def 10.3](#ABG11)).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -91,9 +91,41 @@ $$
 
 =--
 
-([ABG 13, prop. 10.5](#ABG13)).
+([ABG 11, prop. 10.5](#ABG11)).
+
+### Umkehr map
+
++-- {: .num_remark}
+###### Remark
+
+Given now $E \in CRing_\infty$ an [[E-∞ ring]], then the [[dual morphism]] $\mathbb{S} \to D X$ induces under [[smash product]] a similar Pontryagin-Thom collapse map, but now not in [[sphere spectrum]]-[[(∞,1)-modules]] but in $E$-[[(∞,1)-modules]].
+
+$$
+  E \to D X \otimes_{\mathbb{S}} E
+  \,.
+$$
+
+The image of this under the $E$-[[generalized cohomology theory|cohomology]] functor produces 
+
+$$
+  [D X \otimes_{\mathbb{S}} E, E] \to E
+  \,.
+$$
+
+If now one has a [[Thom isomorphism]] ($E$-[[orientation in generalized cohomology|orientation]]) $ [D X \otimes_{\mathbb{S}} E, E] \simeq [X,E]$ that identifies the cohomology of the dual object with the original cohomology, then together with produces the [[Umkehr map]]
+
+$$
+  [X,E] \simeq [D X \otimes_{\mathbb{S}} E, E] \to E
+$$
+
+that pushes the $E$-cohomology of $X$ to the $E$-cohomology of the point. Analogously if instead of the terminal map $X \to \ast$ we start with a more general map $X \to Y$.
+
+More generally a [[Thom isomorphism]] may not exists, but $[D X \otimes_{\mathbb{S}} E, E]$ may still be equivalent to a [[twisted cohomology]]-variant $[X,E]_{\chi}$ of $[X,E]$, namely to $[\Gamma_X(\chi),E]$, where $\chi \colon \Pi(X) \to E Line \hookrightarrow E Mod$ is an ([[flat (∞,1)-bundle|flat]]) $E$-[[(∞,1)-module bundle]] on $X$ and and $\Gamma \simeq \underset{\to}{\lim}$ is the [[(∞,1)-colimit]] (the [[generalized Thom spectrum]] construction). In this case the above yields a **twisted Umkehr map**.
 
 
+=--
+
+([ABG 10, 9.1](#ABG10))
 
 ## Examples
 
@@ -105,8 +137,19 @@ For a detailed discussion of an example in [[K-theory]] see at _[[Poincaré dual
 
 ## References
 
+Twisted Umkehr maps in [[topological K-theory]] are discussed (somewhat implicitly sometimes) in the literature on [[KK-theory]]. See the references at _[[Poincaré duality algebra]]_.
+
+The general abstract formulation in [[stable homotopy theory]] is sketched in section 9 of
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ {#ABG10}
+
+and in section 10 of
+
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
- {#ABG12}
+ {#ABG11}
+
+A review and applications to [[quantization]] of [[local prequantum field theory]] is in 
 
 * [[Joost Nuiten]], Master thesis, 2013
 
