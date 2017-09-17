@@ -149,6 +149,7 @@ Formalization of Cauchy real numbers in [[homotopy type theory]] is discussed in
 
 
 [[!redirects Cauchy real number]]
+[[!redirects Cachy real number]]
 [[!redirects Cauchy real numbers]]
 [[!redirects Cauchy real]]
 [[!redirects Cauchy reals]]
