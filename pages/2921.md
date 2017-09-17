@@ -48,10 +48,8 @@ Compare this to [[Bousfield localization of model categories]], noticing that mo
 ## References ##
 
 
-* Henning Krause, _Localization theory for triangulated categories_ ([arXiv](http://arxiv.org/abs/0806.1324))
+* [[Henning Krause]], _Localization theory for triangulated categories_, [arXiv/0806.1324](http://arxiv.org/abs/0806.1324)
 
-chapter 9 of 
+* [[Amnon Neeman]], _Triangulated categories_, chapter 9
 
-* Neeman, _Triangulated categories_
-
-* Neeman, _The connection between the $K$-theory localization theorem of Thomason, Trobaugh and Yao and the smashing subcategories of Bousfield and Ravenel_ ([pdf](http://archive.numdam.org/article/ASENS_1992_4_25_5_547_0.pdf))
+* Amnon Neeman, _The connection between the $K$-theory localization theorem of Thomason, Trobaugh and Yao and the smashing subcategories of Bousfield and Ravenel_ ([pdf](http://archive.numdam.org/article/ASENS_1992_4_25_5_547_0.pdf))
