@@ -36,6 +36,10 @@ If $C$ and $D$ are ordinaray [[categories]] regarded as 2-categories, a full sub
 If $D$ is a [[(2,1)-category]] a full sub-2-category is equivalently a [[full sub-(∞,1)-category]].
 
 
+## Related concepts
+
+* [[locally full and faithful 2-functor]]
+
 [[!redirects full sub-2-categories]]
 
 [[!redirects full and faithful 2-functor]]
