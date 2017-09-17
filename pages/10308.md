@@ -31,6 +31,14 @@ More recently all the ingredients of a proof that this is indeed equivalently th
 
 ## Related concepts
 
+* [[Donaldson-Uhlenbeck-Yau theorem]]
+
+* [[Narasimhan-Seshadri theorem]]
+
+* [[Harder-Narasimhan theorem]]
+
+
+
 * [[equivariant elliptic cohomology]]
 
 ## References
@@ -60,6 +68,5 @@ For discussion of the state of the proof see also
 Another approach is
 
 * [[Daniel Freed]], [[Mike Hopkins]], [[Constantin Teleman]], [[Jacob Lurie]], _[TQFT from compact Lie groups -- 3d Chern-Simons as a fully extended TQFT](http://ncatlab.org/nlab/show/Topological+Quantum+Field+Theories+from+Compact+Lie+Groups#3dCSFullyExtended)_.
-
 
 
