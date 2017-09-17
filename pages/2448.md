@@ -16,7 +16,7 @@ A **right Ore (sub)set** in a monoid or $R$ is a subset $S\subset R$ such that $
 
 An **Ore set** is a subset $S\subset R$ which is simultaneously left and right Ore subset. If $S\subset R\subset R'$ where $R$ and $R'$ are rings is a multiplicative subset then the satisfaction of Ore conditions in $R$ and Ore conditions in $R'$ are independent in general: the reason is that in a bigger ring one has simultaneously more conditions, but also a bigger set of possible solutions for the conditions. In general it is not sufficient to check the Ore condition on generators. If $S,T\subset R$ are two left Ore sets, it is not true in general that the image $i_T(S)$ in $T^{-1}R$ is left Ore; if it is then automatically $i_S(T)$ is left Ore in $S^{-1}R$ (mutually compatible left Ore sets) and $(i_S(T))^{-1}S^{-1} R$ is a ring canonically isomorphic to $(i_T(S))^{-1}T^{-1}T$. 
 
-The left and right Ore conditions for rings were introduced by O. Ore in 1931 in order to study the linear equations class of rings which are now called Ore domains. 
+The left and right Ore conditions for rings were introduced by [[Øystein Ore]] in 1931 in order to study the linear equations class of rings which are now called [[Ore domain]]s. 
 
 (nlab note: there are many results on Ore conditions which are independent from the study of Ore localization; thus the entries should be separated)
 
