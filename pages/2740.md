@@ -49,15 +49,15 @@ $$
   }
 $$
 
-equipped with the anchor map that sends a 1-form $\alpha$ to the vector obtained by contraction with the bivector $\pi$: $\alpha \mapsto \pi(\alpha,-)$.
+equipped with the anchor map that sends a [[differential 1-form]] $\alpha$ to the [[vector]] obtained by contraction with the bivector $\pi$: $\alpha \mapsto \pi(\alpha,-)$.
 
-The bracket $[-,-] : \Omega^1(X) \wedge \Omega^(X) \to \Omega^1(X)$ is given by
+The [[Lie bracket]] $[-,-] : \Omega^1(X) \wedge \Omega^(X) \to \Omega^1(X)$ is given by
 
 $$
  [\alpha,\beta] = \mathcal{L}_{\pi(\alpha)} \beta - \mathcal{L}_{\pi(\beta)} \alpha -d(\pi(\alpha,\beta))\,,
 $$
 
-where $\mathcal{L}$ denotes the [[Lie derivative]]. On a coordinate patch this reduces simply to $[d x^i , d x^j] = d_{dR} \pi^{i j}$.
+where $\mathcal{L}$ denotes the [[Lie derivative]]. On a [[coordinate patch]] this reduces simply to $[d x^i , d x^j] = d_{dR} \pi^{i j}$.
 
 
 ### Chevalley-Eilenberg algebra
@@ -120,7 +120,10 @@ $$
   \,.
 $$
 
-**Proposition** The [[invariant polynomial]] in transgression with $\pi$ is 
++-- {: .num_prop}
+###### Proposition
+
+The [[invariant polynomial]] in transgression with $\pi$ is 
 
 $$
   \omega =  (\mathbf{d}\partial_i) \wedge (\mathbf{d}x^i)
@@ -129,7 +132,12 @@ $$
   \,.
 $$
 
-**Proof** One checks that the following is a **[[Chern-Simons element]]** (see there for more) exhibiting the transgression
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks that the following is a **[[Chern-Simons element]]** (see there for more) exhibiting the transgression
 
 $$
   cs_\pi = \pi^{i j} \partial_i  \wedge \partial_j 
@@ -165,12 +173,20 @@ $$
   \,.
 $$
 
+=--
 
 
++-- {: .num_remark}
+###### Remark
 
-**Remark** The invariant polynomial $\omega$ makes $\mathfrak{P}(X,\pi)$ a [[schreiber:symplectic ∞-Lie algebroid]].
+The invariant polynomial $\omega$ makes $\mathfrak{P}(X,\pi)$ a [[schreiber:symplectic ∞-Lie algebroid]].
 
-**Remark** The [[Chern-Simons theory]] [[action functional]] induced from the above Chern-Simons element is that of the [[Poisson sigma-model]]:
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[schreiber:infinity-Chern-Simons theory]] [[action functional]] induced from the above Chern-Simons element is that of the [[Poisson sigma-model]]:
 
 it sends [[∞-Lie algebroid valued forms]]
 
@@ -196,6 +212,8 @@ $$
   CS_\omega(X,\eta) = \eta_i \wedge d_{dR} X^i + \pi^{i j} \eta_i \wedge \eta_j
   \,.
 $$
+
+=--
 
 ## Related concepts ##
 
