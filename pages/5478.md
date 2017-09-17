@@ -22,8 +22,12 @@ A *connected site* is a [[site]] satisfying sufficient conditions to make its [[
 
 ## Definition
 
-Let $C$ be a [[locally connected site]]; we say it is a **connected site** if it is also has a [[terminal object]]
++-- {: .un_prop}
+###### Proposition
 
+Let $C$ be a [[locally connected site]]; we say it is a **connected locally connected site** if it is also has a [[terminal object]].
+
+=--
 
 ## Properties
 
@@ -31,7 +35,7 @@ Let $C$ be a [[locally connected site]]; we say it is a **connected site** if it
 +-- {: .un_prop}
 ###### Proposition
 
-If $C$ is connected site, then the [[sheaf topos]] $Sh(C)$ is a [[connected topos]]. 
+If $C$ is connected locally connected site, then the [[sheaf topos]] $Sh(C)$ is a [[locally connected topos]] and [[connected topos]]. 
 
 =--
 
@@ -39,7 +43,8 @@ If $C$ is connected site, then the [[sheaf topos]] $Sh(C)$ is a [[connected topo
 +-- {: .proof}
 ###### Proof
 
-We need to check that $\Pi_0$ preserves the [[terminal object]].
+Being a [[locally connected site]], we already know that we have a [[locally connected topos]] $(\Pi_0 \dashv \Delta \Delta \Gamma)  : Sh(C) \to Set$.
+By the discussion there we need to check that $\Pi_0$ preserves the [[terminal object]].
 
 The terminal object in the site [[representable functor|represents]] the terminal presheaf on $C$, which is the presheaf constant on the point. By the discussion at [[locally connected site]] we have that every constant presheaf is a [[sheaf]] over $C$, hence the terminal object of $Sh(C)$ is also represented by the terminal object in the site, and we just write "$*$" for all these terminal objects.
 
