@@ -16,8 +16,13 @@
 ## Idea
 
 
-
 Ontology is the branch of [[philosophy]] concerned with [[being]] and [[becoming]].
+
+## Related concepts
+
+* [[metaphysics]]
+
+* [[category of being]]
 
 ## References
 
