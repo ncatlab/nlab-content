@@ -285,12 +285,39 @@ Notice that the function algebra on the derived loop space is just the different
 ## Details {#Details}
 
 
-### Function algebra on derived loop space {#FuncsOnDerivedLoopSpace}
+### As function algebras on derived loop spaces {#FuncsOnDerivedLoopSpace}
 
 We discuss how the Hochschild complex is the function algebra on a [[derived loop space]] object in the context of [[derived geometry]].
 
+#### For commutative $k$-Algebras
 
-Let $T$ be a [[Lawvere theory]] that contains the theory of commutative $k$-algebras , regarded as an [[(∞,1)-algebraic theory]]. 
+We first describe the situaton for ordinary commutative algebras.
+
+Let $T$ be the [[Lawvere theory]] of ordiary commutative [[associative algebra]]s over a [[field]] $k$. We shall regard this as an [[(∞,1)-algebraic theory]]. 
+
++-- {: .un_def}
+###### Proposition
+
+
+The [[(∞,1)-category]] $CAlg(k)_\infty$ of [[algebras over a Lawvere theory|∞-algebras]] over $T$ is [[presentable (∞,1)-category|presented]] by the [[model structure on simplicial T-algebras|model structure on simplicial commutative k-algebras]] $(CAlg_k^{\Delta^{op}})_{proj}$.
+
+This is [[Quillen equivalence|Quillen equivalent]] to the standard [[model structure on dg-algebras|model structure on connected dg-chain algebras]].
+
+$$
+  (CAlg_k^{\Delta^{op}})_{proj}
+  \simeq
+  dgAlg_k^+
+  \,.
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is discussed at [[(∞,1)-algebraic theory]] and [[homotopy T-algebra]]. The second statement is discussed at [[monoidal Dold-Kan correspondence]].
+
+=--
 
 Let 
 
@@ -298,30 +325,51 @@ $$
   T \subset C \subset  T Alg_\infty^{op}
 $$
 
-be a [[subcanonical coverage|subcanonical]] [[small site]] that is a full 
-[[sub-(∞,1)-category]] of formal duals of $\infty$-$T$-algebras, closed under [[(∞,1)-limit]]s in $T Alg_\infty^{op}$.
+be a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]] that is a full 
+[[sub-(∞,1)-category]] of formal duals of $\infty$-$T$-algebras, closed under [[(∞,1)-limit]]s in $T Alg_\infty^{op}$. 
 
-Let $\mathbf{H} = Sh_{(\infty,1)}(C)$ be the [[(∞,1)-sheaf (∞,1)-topos]] over $C$. 
+Let 
 
-We write $\mathcal{O}(X) \in T Alg_\infty$ for an object that under the [[(∞,1)-Yoneda embedding]] $T Alg_\infty^{op} \to \mathbf{H}$ maps to an object called $X$.
+$$
+  \mathbf{H} := Sh_{(\infty,1)}(C)
+$$ 
+
+be the [[(∞,1)-sheaf (∞,1)-topos]] over $C$. 
+
+Following the notation at [[Isbell duality]] and [[function algebras on ∞-stacks]] we write $\mathcal{O}(X) \in T Alg_\infty$ for an object that under the [[(∞,1)-Yoneda embedding]] $C \hookrightarrow T Alg_\infty^{op} \to \mathbf{H}$ maps to an object called $X$ in $\mathbf{H}$.
 
 +-- {: .un_def}
 ###### Definition
 
-For $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ an ordinary $T$-algebra, we say that the [[free loop space object]] $\mathcal{L}X$ of $X$ formed in $\mathbf{H}$ is the **[[derived loop space]]** of $X$.
+For $\mathcal{O}(X) \in T Alg \hookrightarrow T Alg_\infty$ an ordinary $T$-algebra, we say that the [[free loop space object]] 
+
+$$
+  \mathcal{L}X := [S^1,X]
+$$ 
+
+of $X$ formed in $\mathbf{H}$ is the **[[derived loop space]]** of $X$.
 
 =--
 
-+-- {: .un_prop}
-###### Proposition
++-- {: .un_remark}
+###### Remark
 
-We have that $\mathcal{O}(\mathcal{L}X)$ is given by the [[(∞,1)-pushout]] in $T Alg_\infty$ 
+The term _derived_ is just to emphasize that we do not form the [[free loop space object]] in an [[(∞,1)-topos]] of $(\infty,1)$-sheaves over a 1-[[site]] inside the 1-category $Alg_k^{op}$. These "underived" (not embedded into [[(∞,1)-category theory]]) free loop space objects would just be equivalent to $X$. The [[derived loop space]] instead has rich interesting structure.
+
+But if the ambient context of [[higher geometry]] over the genuine [[(∞,1)-site]] of formal duals to $\infty$-algebras is clear, we can just speakk of _free loop space objects_ . They are canonically given.
+
+=--
+
++-- {: .un_prop #LimitInAlg}
+###### Proposition 
+
+We have that $\mathcal{O}(\mathcal{L}X)$ is given by the [[(∞,1)-pushout]] in $CAlg_\infty$ 
 
 $$
   \mathcal{O}\mathcal{L}X \simeq \mathcal{O}(X) \coprod_{\mathcal{O}(X)\otimes \mathcal{O}(X) } \mathcal{O}(X)
 $$
 
-hence the universal [[cocone]]
+hence by the universal [[cocone]]
 
 $$
   \array{
@@ -332,7 +380,6 @@ $$
     \\
     \mathcal{O}(X) &\leftarrow& \mathcal{O}(X) \otimes \mathcal{O}(X)
   }
-  \,.
 $$
 
 =--
@@ -347,25 +394,10 @@ Since [[∞-stackification]] $L : PSh_{(\infty,1)}(C) \to \mathbf{H}$ is a [[lef
 +-- {: .un_prop}
 ###### Proposition
 
-Let $X \in T Alg^{op}$, hence $C(X) \in T Alg \hookrightarrow (\infty,1)T Alg$ be a [[T-algebra]], regarded as an $(\infty,1)$-$T$-algebra. 
-
-Let $\mathcal{L}X$ be the [[derived loop space]] object of $X$, given by the [[(∞,1)-colimit|(∞,1)-pullback]] 
+The $\infty$-algebra $\mathcal{O} \mathcal{L}X$ of functions on the derived loop space of $X$ is when modeled by a simplicial algebra in $CAlg_k^{\Delta^{op}}$ under the [[monoidal Dold-Kan correspondence]] equivalent to the Hochschild homology complex of $\mathcal{O}X$.
 
 $$
-  \array{
-    \mathcal{L}X &\to& X
-    \\
-    \downarrow &\swArrow_{\simeq}& \downarrow
-    \\
-    X &\to& X \times X
-  }
-$$
-
-in $T Alg_\infty^{op}$. Then  $C(\mathcal{L}X) \in T Alg_\infty$
-is such that 
-
-$$
-  \pi_k( C(\mathcal{L}X)) \simeq HH_k(C(X))
+  \mathcal{O} \mathcal{L}X \simeq HH_\bullet(\mathcal{O}X)
   \,.
 $$
 
@@ -374,51 +406,84 @@ $$
 +-- {: .proof}
 ###### Proof
 
-In the following write $\otimes$ for the [[coproduct]] in $T Alg$.
-
-Following the discussion at [[homotopy T-algebra]] we may model $T Alg_\infty$ by the _injective_ [[model structure on simplicial presheaves]] on $T^{op}$, [[Bousfield localization of model categories|left Bousfield localized]] at the morphisms $T[k] \otimes T[l] \to T[k+l]$. This localized model structure we write $[T, sSet]_{inj,prod}$.
-
-Since left Bousfield localization does not affect cofibrations, we may, by the general recipe described at [[homotopy pushout]] compute the [[(∞,1)-colimit]]
+First observe that the [[coproduct]] in $CAlg_k$ is the [[tensor product]] of commutative algebras over $k$
 
 $$
-  \array{
-     C(\mathcal{L}X) &\leftarrow& C(X)
-     \\
-     \uparrow &\swArrow_{\simeq}& \uparrow
-     \\
-     C(X) &\leftarrow& C(X) \otimes C(X)
-  }
-$$
-
-in $T Alg_\infty$ by an ordinary [[pushout]]
-
-$$
-  \array{
-     C(\mathcal{L}X) &\leftarrow& C(X)
-     \\
-     \uparrow && \uparrow
-     \\
-     Q C(X) &\leftarrow& C(X) \otimes C(X)
-  }
-$$
-
-
-where $Q C(X)$ is some [[resolution]] of $C(X)$ such that the bottom morphism is a cofibration. Since we are in the _injective_ model structure this just means that this morphism need to be a monomorphism. If we find $Q C(X)$ also as a strictly product-preserving functor as $C(X)$ then it being monic over the generating object implies that it is monic over every object.
-
-So we set
-
-$$
-  Q C(X) :=
-  \left(
-     \cdots C(X) \otimes C(X) \otimes C(X) \stackrel{\to}{\to} C(X) \otimes C(X)
-  \right)
+  A \coprod B = A \otimes_k B
   \,.
 $$
 
-with the evident face and degeneracy maps given by binary product operation in the algebra and insertion of units. Take the morphism 
-$C(X) \otimes C(X) \to Q C(X)$ to be the inclusion of $C(X) \otimes C(X)$ as the two outer direct summands. This is clearly a monomorphism. That this is also indeed a weak equivalence in $[T,sSet]_{proj}$ and hence also in $[T,sSet]_{proj,prod}$ (since left Boufield localization just adds weak equivalences, does not remove any) is the standard statement about the acyclicity of the bar complex (for instance <a href="http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=16">page 16 here</a>).
+By the discussion at [[homotopy T-algebra]] we may model $T Alg_\infty$ by the _injective_ [[model structure on simplicial presheaves]] on $T^{op}$, [[Bousfield localization of model categories|left Bousfield localized]] at the morphisms $T[k] \otimes T[l] \to T[k+l]$. This localized model structure we write $[T, sSet]_{inj,prod}$.
 
-We may now compute the pushout in $[T, sSet]$ and this will compute the desired homotopy pushout. Notice that this pushout indeed takes place just in simplicial copresheaves, not in product-preserving copresheaves! The nature of left Bousfield localization ensures that the result is nevertheless equivalent to the desired $(\infty,1)$-pushout of $\infty$-$T$-algebras.
+By the [above proposition](#LimitInAlg) we have that $\mathcal{O}\mathcal{L}X$ is given by the [[homotopy pushout]] in $[T, sSet]_{inj,prod}$ of 
+
+$$
+  \mathcal{O}X \leftarrow \mathcal{O}(X)\otimes_k \mathcal{O}(X) \to \mathcal{O}(X)
+  \,,
+$$
+
+where both morphissm are simple the product on $\mathcal{O}(X) \in CAlg_k$. By general properties of [[homotopy pushout]]s and the injective [[model structure on simplicial presheaves]] we have that this homotopy pushout is computed by an ordinary pushout once we pass to a weakly equivalent diagram in which one of the two morphism is a cofibration of simplicial algebras.
+
+$$
+  \array{
+  \mathcal{O}X 
+   &\leftarrow& 
+    \mathcal{O}(X)\otimes_k \mathcal{O}(X) &\hookrightarrow& \mathrm{B} \mathcal{O}(X)
+  \\
+  \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{=}} && 
+   \downarrow^{\mathrlap{\simeq}}
+   \\
+  \mathcal{O}X &\leftarrow& 
+    \mathcal{O}(X)\otimes_k \mathcal{O}(X) &\to& \mathcal{O}(X)
+  }
+  \,.
+$$
+
+It is sufficient to find a [[resolution]] $B \mathcal{O}X$ in the global model structure $[T, sSet]_{inj}$ because left Bousfield localization strictly increases the class of weak equivalences, so that every gloabl weak equivalence is also a local weak equivalence.
+
+Since we are in the _injective_ model structure this just means that this morphism $\mathcal{O}(X) \otimes_k \mathcal{O}(X) \to \mathrm{B} \mathcal{O}X$ needs to be over each $x^n$  in $T$ a [[monomorphism]] of simplicial sets. 
+If we find $\mathrm{B} \mathcal{O}X$ also as a strictly product-preserving functor (notice that the general functor in our model category need not even preserve products weakly, it will do so after fibrant replacement) then it being monomorphism over $x^1$ implies that it is monic over every $x^n$.
+
+There is a standard resolution of the kind we need called the [[bar complex]], see for intance ([Ginzburg, page 16](#Ginzburg)) for an explicit description.
+This is usually discussed as a [[chain complex]] in the category of $\mathcal{O}(X)$-[[module]]s. But in fact after applying the [[Dold-Kan correspondence]] to regard it as a simplicial module it is naturally even a [[simplicial object]] in $CAlg_k$:
+ 
+$$
+  \mathrm{B} \mathcal{O}(X) 
+   :=
+  \left(
+     \cdots 
+    \mathcal{O}(X) \otimes_k \mathcal{O}(X) \otimes_k
+     \mathcal{O}(X) \otimes_k \mathcal{O}(X)
+     \stackrel{\overset{\mu \otimes Id \otimes Id}{\to}}{\stackrel{\overset{Id \otimes \mu Id}{\to}}{\underset{Id \otimes Id \otimes \mu}{\to}}}
+    \mathcal{O}(X) \otimes_k \mathcal{O}(X) \otimes_k
+     \mathcal{O}(X) 
+     \stackrel{\overset{\mu \otimes Id}{\to}}{\underset{Id \otimes \mu}{\to}} 
+     \mathcal{O}(X) \otimes_k \mathcal{O}(X)
+  \right)
+  \in 
+  CAlg_k^{\Delta^{op}}
+  \,,
+$$
+
+with the evident face and degeneracy maps given by binary product operation in the algebra and insertion of units. 
+
+Take the morphism $\mathcal{O}(X) \otimes \mathcal{O}(X) \to \mathrm{B} \mathcal{O}(X)$ degreewise to be the inclusion of $\mathcal{O}(X) \otimes \mathcal{O}(X)$ as the two outer direct summands
+
+$$
+  \mathcal{O}(X)
+  \otimes_k 
+  \mathcal{O}(X)
+  \stackrel{Id \otimes e \otimes e \otimes \cdots \otimes e \otimes Id}{\to}
+  \mathcal{O}(X) \otimes_k \mathcal{O}(X) \otimes_k \cdots 
+  \otimes_k \mathcal{O}(X)
+  \,,
+$$
+
+where $e : k \to \mathcal{O}(X)$ is the monoid unit.
+
+This is clearly degreewise a [[monomorphism]], hence is a monomorphism. Under the [[Moore complex]] functor $N : Ab^{\Delta^{op}} \to Ch_\bullet^+$ it maps to the standard bar complex resolution as found in the traditional literature (as reviewed for instance in [Ginzburg](#Ginzburg)). This morphism of chain complexes is an [[isomorphism]] in [[homology]]. Since under the [[Dold-Kan correspondence]] [[simplicial homotopy group]]s are identified with [[homology]] groups, we find that indeed $\mu : \mathrm{B}\mathcal{O}(X) \to \mathcal{O}(X)$ is a weak equivalence in $[T,sSet]_{inj}$ and hence in $[T, sSet]_{inj,prod}$.
+
+We may now compute the pushout in $[T, sSet]$ and this will compute the desired homotopy pushout. Notice that this pushout indeed takes place just in simplicial copresheaves, not in product-preserving copresheaves! 
 
 But this ordinary pushout it manifestly the claimed one.
 
@@ -584,7 +649,7 @@ This is reviewed for instance as theorem 9.4.7 of
 
 * [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
 
-or as theorem 9.1.3 in [Ginzburg](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=44).
+or as  ([Ginzburg, theorem 9.1.3](#Ginzburg)).
 
 =--
 
@@ -602,6 +667,7 @@ in chapter 9 of
 or in chapter 4 of
  
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603))
+{#Ginzburg}
 
 An original paper on this is
 
