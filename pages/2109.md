@@ -46,7 +46,7 @@ Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ wit
 
 * A 2-category $M$, whose arrows are called *proarrows*.
 * A functor $K\to M$ which is [[bijective-on-objects functor|bijective on objects]] and [[locally fully faithful 2-functor|locally fully faithful]].  If $f\colon A\to B$ is a 1-morphism in $K$, we write its image in $M$ as $B(1,f)\colon A\nrightarrow B$.
-* For each arrow $f\colon A\to B$ in $K$, the proarrow $B(1,f)\colon A\to B$ has a right adjoint in $M$, which we write as $B(f,1)$.
+* For each arrow $f\colon A\to B$ in $K$, the proarrow $B(1,f)\colon A\to B$ has a [[right adjoint]] in $M$, which we write as $B(f,1)$.
 
 As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
 
@@ -71,6 +71,7 @@ The other most common sorts of generalized category, such as [[internal categori
 
 
 ### Definition as a double category
+ {#DefinitionAsDoubleCategory}
 
 Given a 2-category $K$ equipped with proarrows, we can construct a [[double category]] having the same objects as $K$, whose vertical 1-cells are the arrows, whose horizontal 1-cells are the proarrows, and whose squares
 $$\array{A & \overset{H}{\to} & C \\
@@ -192,6 +193,7 @@ Some related concepts include:
 * [[bicategory of relations]]
 * [[allegory]]
 
+See also at [[Segal space]], the section _[Examples -- In 1Grpd](Segal+space#ExamplesInIGrpd)_.
 
 ## Category theory in a proarrow equipment ##
 
