@@ -208,9 +208,9 @@ The [[type of natural numbers]] $\mathbb{N}$ is the inductive type defined as fo
         \left(
         x \in \mathbb{N} \vdash  P(x) : Type
         \;\;
-        \vdash p_0 : C(0)
+        \vdash p_0 : P(0)
         \;\;\;
-        x \in \mathbb{N}, p : C(x) \vdash p : P(s x)
+        x \in \mathbb{N}, p : P(x) \vdash q : P(s x)
        \right)
        \;\;
        \vdash n \in \mathbb{N}
