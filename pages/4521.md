@@ -1,6 +1,6 @@
 [[!redirects Joao Faria Martins]]
 
-* [website](http://ferrari.dmat.fct.unl.pt/~jnm/)
+* [website](http://ferrari.dmat.fct.unl.pt/personal/jnm/)
 
 ## related $n$Lab entries
 
