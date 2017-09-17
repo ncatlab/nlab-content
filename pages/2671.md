@@ -50,6 +50,8 @@ The additional [[fermion]]ic field $\Psi$ is the [[gravitino]] field.
 
 ## Related concepts
 
+* [[Einstein-Hilbert action]], [[Einstein equation]]
+
 * [[first order formulation of gravity]]
 
 * [[supergravity]]
