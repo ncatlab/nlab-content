@@ -1,18 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Higher category theory
-+--{: .hide}
++-- {: .hide}
 [[!include higher category theory - contents]]
 =--
 =--
 =--
-
 
 [Wikipedia](http://en.wikipedia.org/wiki/Main_Page) enforces its entries to adopt an [NPOV](http://en.wikipedia.org/wiki/NPOV) -- a _neutral point of view_ .  This is appropriate for an encyclopedia.
 
@@ -21,10 +20,9 @@ However, [[About|the nLab is not Wikipedia]], nor is it an encyclopedia, althoug
 To some extent the $n$POV is just the observation that [[category theory]] and [[higher category theory]] have a plethora of useful applications.
 
 
-#$n$POV#
+# $n$POV
 * automatic table of contents goes here
-{:toc}
-
+{: toc}
 
 ## Idea
 
@@ -38,18 +36,18 @@ As recalled in parts on the page on [[category theory]], category theorists have
 
 In particular, there have been dramatic developments since the 1960s. Back then promoting category theory may have been as visionary as the invention of [[complex numbers]] was in the 16th century. But just as the early rejections of the complex numbers appear strangely out of place from today's perspective, where their ubiquity proves their reality to the point that it is hard to imagine how life must have been before their conception, so developments of category theory and its applications in the last years have in many areas brought it to the point that rejecting its prevalence amounts (we believe) to rejecting the obvious and ubiquitous. But also mathematics as a whole has drastically grown since then, and while category theory has become an entirely obvious ingredient in areas such as [[homotopy theory]], [[homological algebra]], [[algebraic geometry]] and even fields like [[topological quantum field theory]], its similar role to be played in many other areas has often not found wide recognition yet. But this is gradually changing. 
 
-
 +-- {: .standout}
 
 Similar to the statement that
 
 > [Nothing in biology makes sense except in the light of evolution](http://en.wikipedia.org/wiki/Nothing_in_Biology_Makes_Sense_Except_in_the_Light_of_Evolution)
 
-the nPOV asserts that
+the $n$POV asserts that
 
 > Nothing in mathematics makes sense except in the light of [[higher category theory|higher]] [[category theory]].
 
 =--
+
 
 ## The role of the $n$POV {#RoleOfnPOV}
 
@@ -67,16 +65,17 @@ However, it is also possible to take it a step beyond the pragmatic attitude, an
 
 This arresting metaphor of "la mer qui monte", which over time changes the very form of the resistant substance, is very much in the style of Grothendieck himself. McLarty quotes Deligne as saying that a typical Grothendieck proof consists of a long series of trivial steps where "nothing seems to happen, and yet at the end a highly non-trivial theorem is there." 
 
+
 ## Examples
 
 For an (incomplete) list of examples of topics for which the $n$POV has proven to be a useful perspective see
 
-[[applications of (higher) category theory]].
-
+* [[applications of (higher) category theory]]
 
 
 category: meta
 
+[[!redirects nPOV]]
 [[!redirects n-point of view]]
 [[!redirects n-category point of view]]
 [[!redirects n-categorial point of view]]
