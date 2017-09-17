@@ -355,8 +355,29 @@ write on page 9 of their accurate study of [[orientifold]] backgrounds:
 In summary then, the [[landscape of string theory vacua]] is essentially the [[moduli space]] of [[2d SCFTs]]. As such it is a mathematically rich and subtle object about which almost nothing precise is known at the moment. The hand-waving arguments about the nature of corners of this space, whether correct or not, do not actually point to a problem in string model building that would be worse than in model building in other theories. On the contrary, in as far as parts of the "landscape" are indeed finite sets, then no matter how large that finite number is, it is still vastly smaller than the [[cardinality]] of the _infinite-dimensional_ spaces of solutions of a typical theory of physics.
 
 
+### Is string theory mathematically rigorous?
+ {#IsStringTheoryRigorous}
 
+The core of perturbative [[string theory]] has a mathematically rigorous formulation. In fact much of [[mathematical physics]] and mathematical insight into [[quantum field theory]] as such has been gained from the study of the low-dimensional QFTs that constitute the [[worldvolume]] [[theory (physics)|theories]] of the [[string]] and the various [[branes]]. For instance the [[axiom|axiomatization]] of [[QFT]] in the "[[FQFT]]" flavor (roughly dual to the [[AQFT]] picture) historically originates in insights gained in the study of ([[topological string|topological]]) [[string]] (namely the Moore-Seiberg axioms). On the other hand, the attempted implementations and applications of core string theory are vast and numerous, and when it finally comes to [[string phenomenology]] the usual level of rigor is just that common among practicing quantum field theorists. On the far end, deep aspects of string theory that are felt by many researchers to be of [[metaphysics|metaphysical]] relevance, such as the 
+"[[landscape of string theory vacua]]" (see [above](#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)) have led and are leading to speculations that are not anymore backed up by any disciplined reasoning. 
 
+More in detail:
+
+The [[quantization]] of the [[string]] [[sigma-model]] may be obtained cleanly via the mathematical sound process of [[geometric quantization]], see the references at _[string -- Symplectic geometry and Geometric quantization](string#ReferencesSymplecticGeometryAndGeometricQuantization)_. The famous [[Weyl anomaly]] of the string is formally understood in terms of [[quantum anomaly|anomalous action functionals]], see for instance ([Freed 86 2.](conformal+anomaly#Freed86)). Various other [[obstructions]] to [[quantization]] ([[quantum anomalies]]) in the [[background fields]] for the [[string]] [[sigma-model]] such as notably the [[Freed-Witten-Kapustin anomaly]], have been understood in fine detail in terms of [[obstructions]] in [[differential cohomology]], see for instance ([Distler-Freed-Moore 09](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionDistlerFreedMoore)). 
+ 
+Particularly well analyzed are the two special sectors of first quantized string theory, that of [[rational conformal field theory]], which contains the example of strings propagating on [[Lie group]] manifolds -- the [[Wess-Zumino-Witten model]]; as well as the example of [[topological strings]]. Rational conformal field theories indeed stand out as one non-trivial and rich class of [[QFT|QFTs]] which have been subject to complete mathematical classification (in the same sense in which mathematicians for instance do the [[classification of finite simple groups]]). For details on this classification see at _[[FRS formalism]]_.
+
+For the [[topological string]] much more is true. The topological string has effectively become a subject in pure mathematics, with its rigorous axiomatization via the [[TCFT]] version of the [[cobordism hypothesis]]-theorem, its formulation as mathematical [[homological mirror symmetry]], its relation to [[geometric Langlands duality]] etc. Here it is maybe noteworthy that all this mathematical insight into string physics rests on [[homotopy theory]] and [[higher category theory]] (the [[cobordism hypothesis]], to wit, which governs the [[topological string]], is a theorem in pure [[(infinity,n)-category]] theory). See also the question _[How does string theory involve homotopy theory, higher geometry and higher category theory?](#HowDoesStringTheoryInvolveHomotopyTheory)_.
+
+But the [[FQFT]]-axiomatics that serves to mathematically formalize the topological string is not restricted to the topological sector, it also applies to the physical string. For instance [Huang's theorem](vertex+operator+algebra#AsOperadAlgebras) shows that the familiar description of physical string via [[vertex operator algebra]] is an instance of the [[FQFT]]-formalization. Indeed, in [[FRS formalism]] these two formalizations, [[vertex operator algebras]] (via their [[modular tensor categories]] of [[representations]], and [[TQFT]] combined via the rigorous [[AdS3-CFT2 and CS-WZW correspondence]] give the classification of [[rational CFT]]). (In particular this says that in this low dimensionl [[holography]] and [[AdS-CFT duality]] is rigorous, of course this is far, far from true in higher dimensions.)
+
+In summary this is a level of rigour with which the [[worldsheet]] 2d [[QFT]] of the string is understood which is well beyond of what one typically encounters for non-trivial interacting ([[free field theory|non-free]]) QFT. And this is full [[non-perturbative quantum field theory]] (on the [[worldsheet]]!), not just the approximation in [[perturbation theory]].
+
+From here on, also [[string field theory]] (its [[action functional]], that is), has a completely rigorous formulation in terms of [[operads]] and [[L-infinity algebras]] ([[Lie n-algebras]] for $n \to \infty$).
+
+Of course what does not have a rigorous formulation, not even a good non-rigorous formulation, is any conjectured non-perturbative (in [[spacetime]]!) completion of string theory ([[M-theory]]). But this is clear from the answer above at _[What is string theory](#WhatIsStringTheory)_.
+
+A snapshot of the state of the art of rigorous foundations of string theory as of 2011 is in _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_.
 
 
 ### What does it mean to say that string theory depends on 'miracles', such as anomaly cancellation and avoidance of divergences?
@@ -422,4 +443,3 @@ Textbooks on [[string theory]] and [[quantum field theory]] include
 For more see at 
 
 * _[[books about string theory]]_
-
