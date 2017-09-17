@@ -41,11 +41,13 @@ satisfying the evident [[associative law]] and [[unit law]].
 
 ## Properties
 
-### Tannaka duality
+### Tannaka duality and 2-rings
 
 Precomposition with the product and unit bimodule makes the [[category of modules]] over the underlying [[associative algebra]] of a sesquialgebra itself into a [[monoidal category]].
 
 See for instance ([Vercruysse, 5.3.3](#Vercruysse)).
+
+In fact, regarding the [[category of modules]] $Mod_A$ as a [[2-abelian group]], the structure of a sesquialgebra on $A$ is equivalently the structure of a [[2-ring]] (see there) on $Mod_A$.
 
 ## References
 
