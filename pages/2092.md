@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
-#### AQFT
+#### Operator algebra
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -44,6 +44,13 @@ See [[states]].
 
 * **operator algebra**
 
+* [[C*-algebra]]
+
+  * [[Hilbert C*-module]], [[Hilbert C*-bimodule]]
+
+  * [[KK-theory]], [[nonabelian topology]]
+
+* [[von Neumann algebra]]
 
 ## References
 
