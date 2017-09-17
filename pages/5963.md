@@ -25,4 +25,10 @@ For the infinite-dimensional version see [[fermionic path integral]].
 
 * [[superpoint]], [[Grassmann algebra]]
 
+## References
+
+A summary of the standard lore is here: 
+
+* [[Urs Schreiber]], [_Integration over supermanifolds_](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
+
 [[!redirects Berezinian integral]]
