@@ -7,7 +7,7 @@
 
 A space is _totally bounded_ if it may be covered by finitely many sets of arbitrarily small size.
 
-The [[Heine-Borel theorem]], which states that a closed and bounded subset of the [[real line]] is [[compact space|compact]] (in the finite open subcover sense), applies to all [[cartesian spaces]] but not to general [[metric spaces]].  However, if we use two facts about the real line (which hold for all cartesian spaces) ---that a subset is [[closed subspace|closed]] if and only if it is [[complete space|complete]] and that a subset is [[bounded space|bounded]] if and only if it is _totally bounded_---, then we get a theorem that *does* apply to all metric spaces (at least assuming the [[axiom of choice]]): that a complete and totally bounded space is compact.
+The [[Heine-Borel theorem|Heine–Borel theorem]], which states that a closed and bounded subset of the [[real line]] is [[compact space|compact]] (in the finite open subcover sense), applies to all [[cartesian spaces]] but not to general [[metric spaces]].  However, if we use two facts about the real line (which hold for all cartesian spaces) ---that a subset is [[closed subspace|closed]] if and only if it is [[complete space|complete]] and that a subset is [[bounded space|bounded]] if and only if it is _totally bounded_---, then we get a theorem that *does* apply to all metric spaces (at least assuming the [[axiom of choice]]): that a complete and totally bounded space is compact.
 
 The concept (and the Heine--Borel theorem, in this sense) apply not only to metric spaces but to [[uniform spaces]]; like completeness, total boundedness is a uniform property.
 
@@ -18,7 +18,7 @@ In the following definitions, '[[finite set|finite]]' means Kuratowski-finite, o
 
 The slickest definition for [[uniform spaces]] is probably this one:
 
-+-- {: .un_defn #slick}
++-- {: .num_defn #slick}
 ###### Definition
 
 A uniform space $X$ is __totally bounded__ if every [[uniform cover]] of $X$ has a finite subcover.
@@ -26,23 +26,23 @@ A uniform space $X$ is __totally bounded__ if every [[uniform cover]] of $X$ has
 
 Since uniform covers are not a common approach to uniform spaces, we unwrap the definition of uniform covers in terms of entouranges to get this definition:
 
-+-- {: .un_defn #uniform}
++-- {: .num_defn #uniform}
 ###### Definition
 
 A uniform space $X$ is __totally bounded__ if, for every entourage $U$ of $X$, there is a finite [[open cover]] $\mathcal{C}$ of $X$ such that every set $G$ in $\mathcal{C}$ satisfies $G \times G \subseteq U$.
 =--
 
-In fact, it is enough to consider only basic entourages for some base of the uniformity.  Thus, we may specialise to [[gauge spaces]]:
+In fact, it is enough to consider only basic entourages for some [[base]] of the uniformity.  Thus, we may specialise to [[gauge spaces]]:
 
-+-- {: .un_defn #gauge}
++-- {: .num_defn #gauge}
 ###### Definition
 
 A gauge space $X$ is __totally bounded__ if, for every gauging distance $d$ of $X$, there is a finite open cover $\mathcal{C}$ of $X$ such that every set in $\mathcal{C}$ has $d$-diameter less than $1$.
 =--
 
-In fact, it is enough to consider only basic gauging distances for some base of the gauge, or even for some subbase of the gauge if we make the requirement for arbitrarily small diameters (rather than the fixed diameter $1$ as above).  Thus, we may specialise to [[metric spaces]]:
+In fact, it is enough to consider only basic gauging distances for some base of the gauge, or even for some [[subbase]] of the gauge if we make the requirement for arbitrarily small diameters (rather than the fixed diameter $1$ as above).  Thus, we may specialise to [[metric spaces]]:
 
-+-- {: .un_defn #metric}
++-- {: .num_defn #metric}
 ###### Definition
 
 A metric space $X$ is __totally bounded__ if, for every positive number $\epsilon$, there is a finite open cover $\mathcal{C}$ of $X$ such that every set in $\mathcal{C}$ has diameter less than $\epsilon$.
@@ -64,7 +64,7 @@ A [[subspace]] of a [[Cartesian space]] is totally bounded if and only if it is 
 
 Here is another definition of total boundedness, different in style from the others.  It makes sense even more generally, for any [[Cauchy space]]:
 
-+-- {: .un_defn #precompact}
++-- {: .num_defn #precompact}
 ###### Definition
 
 A Cauchy space $X$ is __precompact__ if its [[complete space|completion]] $\overline{X}$ is compact.
