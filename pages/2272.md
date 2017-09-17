@@ -60,20 +60,23 @@ The dual to a finite-dimensional [[Lie algebra]] has a natural structure of a Po
 
 * [[Poisson Lie algebroid]]
 
-
 * [[Poisson bracket Lie n-algebra]]
+
+* [[deformation quantization]]
+
+  * [[Moyal quantization]]
 
 [[!include Isbell duality - table]]
 
 [[!include infinitesimal and local - table]]
 
+
 [[!redirects Poisson Lie algebra]]
 
 [[!redirects Poisson manifolds]]
-[[!redirects Poisson bivector]]
-[[!redirects Poisson structure]]
 
 [[!redirects Poisson bracket]]
+
 
 [[!redirects Poisson structure]]
 [[!redirects Poisson structures]]
