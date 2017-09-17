@@ -82,6 +82,6 @@ The composition $r\circ (\sigma_0)_* (f)\circ \sigma_1 = f$, hence this is a dec
 
 See also [[mapping cone]].
 
-In [[homotopy type theory]] mapping cyclinders can be constructed as [[higher inductive types]]. See [here](#ncatlab.org/nlab/show/higher+inductive+type#MappingCylinders).
+In [[homotopy type theory]] mapping cyclinders can be constructed as [[higher inductive types]]. See [here](higher+inductive+type#MappingCylinders).
 
 [[!redirects mapping cylinders]]
