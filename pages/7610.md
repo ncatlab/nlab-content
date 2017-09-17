@@ -27,11 +27,20 @@ For the moment this page will mostly list pointers with brief comments to other 
 
 ## The perspective from slice categories
 
-From the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
+What is called _[[dependent type theory]]_ is an alternative (equivalent) formulation of [[category theory]], or rather of the theory of [[locally cartesian closed categories]], those for which each [[slice category]] is a [[locally cartesian closed category]]. This is discussed in detail at
+
+* _[[relation between type theory and category theory]]_.
+
+Therefore, from the perspective of [[dependent type theory]] [[categories]] $\mathcal{C}$ are regarded systematically via the collection of their [[slice categories]] (their "[[hyperdoctrines]]"). If $\mathcal{C}$ is a [[locally cartesian closed category]] then every [[morphism]] $f : X \to Y$ in $\mathcal{C}$ induces an [[adjoint triple]] of functors between the corresponding slice categories
 
 ([[dependent sum]] $\dashv$ [[base change]] $\dashv$ [[dependent product]]) = $(\sum_f \dashv f^* \dashv \prod_f) : \mathcal{C}_{/X} \to \mathcal{C}_{/Y}$.
 
-Many familiar constructions are usefully expressed entirely in terms of these adjoint triples. For instance the [[internal hom]] in a slice category. 
+Many familiar constructions are usefully expressed entirely in terms of these [[adjoint triples]]. For instance the [[internal hom]] in a slice category. 
+
+While this is in principle clear/well known, the systematic use of the base change adjoint triple enforced by type theory turns out to lead to various elegant constructions that have not found much attention before, and which can be useful in applications.
+
+
+
 
 ## Formulas for homotopy pullbacks and homotopy fibers
 
