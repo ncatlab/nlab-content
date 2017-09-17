@@ -26,14 +26,6 @@ They relate to [[(∞,1)-adjunctions]] as [[monads]] relate to [[adjunctions]].
 
 
 
-
-### Homotopy coherence
- {#HomotopyCoherence}
-
-An [[(∞,1)-adjunction]] is uniquely determined already by its image in the
-[[homotopy 2-category]] ([Riehl-Verity 13, theorem 5.4.14](#RiehlVerity13)). This is not in general true for $(\infty,1)$-monads: these being [[monoids in an (∞,1)-category]] of [[endomorphisms]], they in general have relevant [[coherence]] data all the way up in degree. However, by the previous statement and theorem \ref{InfinityBarrBeckTheorem}, for $(\infty,1)$-monads given as arising from specified [[(∞,1)-adjunctions]] are determined by less (further) coherence data ([[Higher Algebra|Higher Algebra, remark 6.2.0.7, prop. 6.2.2.3]], [Riehl-Verity 13, page 6](#RiehlVerity13)). This should justify the [[simplicial model category]]-theoretic discussion in ([Hess 10](#Hess10)) in [[(∞,1)-category theory]].
-
-
 ### Barr-Beck monadicity theorem
  {#MonadicityTheorem}
 
@@ -77,6 +69,15 @@ then for $T \coloneqq R \circ L$ the essentially unique $(\infty,1)$-endomorphis
 
 This appears as ([[Higher Algebra|Higher Algebra, theorem 6.2.0.6, theorem 6.2.2.5]], [Riehl-Verity 13, section 7](#RiehlVerity13))
 
+### Homotopy coherence
+ {#HomotopyCoherence}
+
++-- {: .num_remark}
+###### Remark
+
+An [[(∞,1)-adjunction]] $(L \dashv R) \colon \mathcal{C} \leftrightarrow \mathcal{D}$ is uniquely determined already by its image in the [[homotopy 2-category]] ([Riehl-Verity 13, theorem 5.4.14](#RiehlVerity13)). This is not in general true for $(\infty,1)$-monads $T \colon \mathcal{C} \to \mathcal{C}$. As these are [[monoids in an (∞,1)-category]] of [[endomorphisms]], they in general have relevant [[coherence]] data all the way up in degree. However, by the previous statement and the monadicity theorem \ref{InfinityBarrBeckTheorem}, for $(\infty,1)$-monads given via specified [[(∞,1)-adjunctions]] as $T \simeq R \circ L$ are determined by less (further) coherence data ([[Higher Algebra|Higher Algebra, remark 6.2.0.7, prop. 6.2.2.3]], [Riehl-Verity 13, page 6](#RiehlVerity13)). (Of course there is, instead, extra data/information carried by the choice of $\mathcal{D}$.) This should justify the [[simplicial model category]]-theoretic discussion in ([Hess 10](#Hess10)) in [[(∞,1)-category theory]].
+
+=--
 
 ## Related concepts
 
@@ -96,18 +97,18 @@ This appears as ([[Higher Algebra|Higher Algebra, theorem 6.2.0.6, theorem 6.2.2
 
 A general treatment of $(\infty,1)$-monads in [[(∞,1)-category theory]] is in 
 
-* [[Jacob Lurie]], section 3 of _Noncommutative algebra_, [math.CT/0702299](http://arxiv.org/abs/math/0702299)
+* [[Jacob Lurie]], section 3 of _Noncommutative algebra_ ([math.CT/0702299](http://arxiv.org/abs/math/0702299))
 
 later absorbed as
 
 * [[Jacob Lurie]], section 6.2 of _[[Higher Algebra]]_
 
-More explict discussion in terms of [[quasi-categories]] and [[simplicial sets]] in 
+More explict discussion in terms of [[quasi-categories]] and [[simplicial sets]] is in 
 
 * [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
  {#RiehlVerity13}
 
-Some homotopy theory of monads on ([[simplicial model category|simplicial]]) [[model categories]] is discussed (with an eye towards [[higher monadic descent]]) in 
+Some homotopy theory of ([[enriched functor|enriched]]) monads on ([[simplicial model category|simplicial]]) [[model categories]] is discussed (with an eye towards [[higher monadic descent]]) in 
 
 * [[Kathryn Hess]], _A general framework for homotopic descent and codescent_, [arXiv/1001.1556](http://arxiv.org/abs/1001.1556)
  {#Hess10}
@@ -118,3 +119,4 @@ Some homotopy theory of monads on ([[simplicial model category|simplicial]]) [[m
 
 [[!redirects (infinity,1)-monads]]
 [[!redirects (∞,1)-monads]]
+
