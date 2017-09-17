@@ -125,7 +125,7 @@ $$
   C^\ast Alg_{com}^{op} \stackrel{\overset{C}{\leftarrow}}{\underset{sp}{\to}} Top_{cpt}
 $$
 
-is an [[equivalences of categories]].
+is an [[equivalence of categories]].
 
 =--
 
