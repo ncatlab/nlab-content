@@ -122,7 +122,7 @@ In the case of HQFTs, the role of the circle is replaced by the family of  circl
 
 ##Links with other theories
 
-* In the paper by [[Greg Moore|Moore]] and [[Graeme Segal|Segal]], (see below), they discuss $G$-[[equivariant TFT]]s and show how they naturally correspond to Turaev's HQFTs.  They relate (1+1) equivariant TFTs to Turaev's crossed $G$-algebras (which they call Turaev algebras).
+* In the paper by [[Greg Moore|Moore]] and [[Graeme Segal|Segal]], (see below), they discuss $G$-[[equivariant TFT]]s and show how they naturally correspond to a simple case of Turaev's HQFTs.  They relate (1+1) equivariant TFTs to Turaev's [[crossed G-algebras]] (which they call Turaev algebras).
 
 
 
