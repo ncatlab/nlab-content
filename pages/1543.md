@@ -560,9 +560,17 @@ In fact, the history of the development of the theory of principal bundles and [
 
 ## References
 
+### General
+
 A classical reference for smooth principal bundles is
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+
+### Automorphism groups
+
+The [[automorphism groups]] of principal bundles are discussed for instance in 
+
+* M.C. Abbati, R. Cirelli, A. Mania, _The Lie group of automorphisms of a principal bundle_ ([pdf](http://www.mat.univie.ac.at/~michor/AutomorphismPrincipleBundle.pdf))
 
 
 [[!redirects principal bundles]]
