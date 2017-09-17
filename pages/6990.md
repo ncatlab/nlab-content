@@ -1,0 +1,11 @@
+
+
+
+
+
+## References
+
+The fact that in the internal formulation reflective subcategories are automatically product-preserving is mentioned on p. 5 of 
+
+* [[Eugenio Moggi]], _A note on SDT in Filter spaces_ ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/filter2.pdf))
+
