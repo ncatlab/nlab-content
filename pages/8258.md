@@ -1,4 +1,6 @@
 
+* [Web biography](http://dscpi.uninsubria.it/staff/Walters/Biography)
+
 * [blog](http://rfcwalters.blogspot.de/)
 
 * [list of publications](http://comocategoryarchive.com/People/Walters-papers/pdffiles.html)
@@ -10,3 +12,4 @@
 * [[allegory]]
 
 category: people
+[[!redirects Robert F. C. Walters]]
