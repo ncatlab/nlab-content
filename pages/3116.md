@@ -31,7 +31,7 @@ $$\tilde{f}(x,0) = f'(x)$$
 
 So, the function $\tilde{f}$ knows about the [[derivative]] of $f$!  (This can be done for polynomials over any [[commutative ring]], although Fermat wasn\'t working in that generality.)
 
-Later [[Jacques Hadamard]] generalized this observation from a polynomial function $f$ to a [[continuously differentiable function]] $f$, where now $\tilde{f}$ is unique if required to be [[continuous map|continuous]].  This is the statement the _[[Hadamard lemma]]_. (For a merely [[differentiable function]] $f$, require $\tilde{f}$ to be continuous in $y$ alone.)  The function $\tilde{f}$ is thus called a [[Hadamard quotient]].  If $\tilde{f}$ is to be the same class of function as $f$, then we need [[smooth functions]], and that will be our motivating context from now on.
+Later [[Jacques Hadamard]] generalized this observation from a polynomial function $f$ to a [[continuously differentiable function]] $f$, where now $\tilde{f}$ is unique if required to be [[continuous map|continuous]].  This is the statement of the _[[Hadamard lemma]]_. (For a merely [[differentiable function]] $f$, require $\tilde{f}$ to be continuous in $y$ alone.)  The function $\tilde{f}$ is thus called a [[Hadamard quotient]].  If $\tilde{f}$ is to be the same class of function as $f$, then we need [[smooth functions]], and that will be our motivating context from now on.
 
 If we take $\tilde{f}(x,0) = f'(x)$ as a _definition_ of the derivative, we can derive many of the basic rules for derivatives from the formula
 
@@ -218,7 +218,7 @@ For more, see:
 
 and the comments on this blog entry.
 
-refinement to [[supergeometry]] and extension to a notion of _super Fermat theory_ is disucssed in
+Refinement to [[supergeometry]] and extension to a notion of _super Fermat theory_ is discussed in
 
 * [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_, ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134))
 
