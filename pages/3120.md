@@ -120,3 +120,8 @@ Some homotopy theory of ([[enriched functor|enriched]]) monads on ([[simplicial 
 [[!redirects (infinity,1)-monads]]
 [[!redirects (∞,1)-monads]]
 
+[[!redirects (∞,1)-comonad]]
+[[!redirects (∞,1)-comonads]]
+
+[[!redirects (infinity,1)-comonad]]
+[[!redirects (infinity,1)-comonads]]
