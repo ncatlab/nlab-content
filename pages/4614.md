@@ -20,7 +20,7 @@ For $X_\bullet$ a [[simplicial object]] in [[Top]] --  a [[simplicial topologica
 
 ## Definition
 
-Let [[Top]] in the following denote the [[category]] of [[compactly generated space|compactly generated]] [[Hausdorff space]]s.
+Let [[Top]] in the following denote the [[category]] of [[compactly generated space|compactly generated]] [[weakly Hausdorff space]]s or the category of [[k-space]]s.
 
 Write $\Delta_{Top} : \Delta \to Top : [n] \mapsto \Delta^n_{Top}$ for the standard [[cosimplicial object|cosimplicial]] [[topological space]] of topological [[simplices]].
 
@@ -67,6 +67,8 @@ $$
 
 ## Properties
 
+### General
+
 +-- {: .un_lemma}
 ###### Observation
 
@@ -91,7 +93,29 @@ $$
 
 See for instance ([May, corollary 11.6](#May)).
 
+Write $({\vert- \vert} \dashv Sing) : Top\stackrel{\overset{{|-|}}{\leftarrow}}{\underset{Sing}{\to}} sSet$ for the ordinary [[geometric realization]]/[[singular simplicial complex]] adjunction (see [[homotopy hypothesis]]).
+
+For $S_{\bullet,\bullet} : \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplicial set]], write $d S$ for its [[diagonal]] $d X : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{S}{\to} Set$.
+
++-- {: .un_prop}
+###### Proposition
+
+For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between its geometric realization and the geometric realization of the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
+
+$$
+  {|X|}  \simeq_{iso} | d Sing(X_\bullet)_\bullet | 
+  \,.
+$$
+
+=--
+
+### Relation to the homotopy colimit
+
 In certain cases geometric realisation computes the [[homotopy colimit]] of the diagram $X_\bullet : \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[model structure on topological spaces]].
+
+#### Nice simplicial topological spaces
+
+Recall the following definitions and facts from [[nice simplicial topological space]].
 
 +-- {: .un_defn #GoodSimplicialSpace}
 ###### Definition 
@@ -116,12 +140,33 @@ A good simplicial topological space is proper.
 
 =--
 
-+-- {: .proof}
-###### Proof
+A proof appears as [Lewis, corollary 2.4 (b)](#Lewis). A generalization of this result is in [RobertsStevenson](#StevensonRoberts).
 
-This appears to be a folk theorem. A proof can be found in [RobertsStevenson](#RobertsStevenson).
++-- {: .un_prop #ProperIsReedyCofibrant}
+###### Proposition
+
+The proper simplicial topological spaces are precisely those that are cofibrant in the [[Reedy model structure]] $[\Delta^{op}, Top_{Str}]_{Reedy}$ on simplicial topological spaces, where [[Top]] is equipped with the [[Strøm model structure]] $Top_{Strm}$.
 
 =--
+
++-- {: .un_prop}
+###### Proposition
+
+For $X_\bullet$ any simplicial topological space, then ${|Sing X_\bullet|}$ is proper and the natural morphism
+
+$$
+  {|Sing X_\bullet|} \to X_\bullet
+$$
+
+is a cofibrant [[resolution]] of $X_\bullet$ in $[\Delta^{op},Top_{Strm}]_{Reedy}$.
+
+
+=--
+
+This follows by results in ([Lewis](#Lewis)).
+
+
+#### Models for the homotopy colimit
 
 +-- {: .un_prop}
 
@@ -133,14 +178,23 @@ $$
  \Vert X_\bullet\Vert \simeq hocolim_{n \in \Delta} X_n
 $$
 
-If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ {\Vert X\Vert} \to {|X|}$ is a [[weak homotopy equivalence]].
+from its fact geometric realization to the [[homotopy colimit]] over the simplicial diagram $X : \Delta^{op} \to Top$.
+
+If moreover $X_\bullet$ is [proper](#ProperSimplicialSpace), then the [[natural transformation|natural morphism]]  $ {\Vert X\Vert} \to {|X|}$ is a [[weak homotopy equivalence]], and hence also the ordinary geometric realization is a model for the homotopy colimit.
 
 =-- 
+
++-- {: .proof}
+###### Proof
+
+That the geometric realization of a proper simplicial space is is homotopy colimit follows from the [above fact](#ProperIsReedyCofibrant) that proper spaces are Reedy cofibrant, and using the general statement discussed at [[homotopy colimit]] about description of homotopy colimits by [[coend]]s.
+
+=--
 
 +-- {: .un_remark}
 ###### Remark
 
-In case $X_\bullet$ is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
+In the case $X_\bullet$ that is a [good](#GoodSimplicialSpace) [[simplicial topological space]], a direct (i.e., not using the fact that goodness implies properness) proof that $ \Vert X\Vert  \to |X|$ is a weak homotopy equivalence has been sketched by [[Graeme Segal]] and then refined by Tammo tom Dieck.
 
 =--
 
@@ -152,10 +206,21 @@ A standard textbook reference is chapter 11 of
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/geom_iter.pdf))
 {#May}
 
-That goodness implies properness is written out in 
+see the proof of Corollary 2.4 (b) in 
+
+A proof that good simplicial spaces are proper is in
+
+* L. Gaunce Lewis Jr., _When is the natural map $X\to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. **273** (1982) no. 1, 147--155 ([JSTOR](http://www.jstor.org/pss/1999197))
+{#Lewis}
+
+A generalization of the statement that good implies proper is in 
 
 * [[David Roberts]], [[Danny Stevenson]], unpublished notes
 {#RobertsStevenson}
+
+Comments on the relation between properness and cofibrancy in the [[Reedy model structure]] on $[\Delta^{op}, Set]$ are made in 
+
+* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:math.AT/0609537](http://arxiv.org/abs/math.AT/0609537)).
 
 
 [[!redirects geometric realization of a simplicial space]]
