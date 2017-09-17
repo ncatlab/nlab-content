@@ -43,6 +43,9 @@ See also [this MO discussion](http://mathoverflow.net/q/95288/381).
 
 ## References
 
+* {#Voisin02} [[Claire Voisin]], section 7 of _[[Hodge theory and Complex algebraic geometry]] I,II_,  Cambridge Stud. in Adv. Math. __76, 77__, 2002/3
+
+
 * [[eom]], _[Polarized algebraic variety](http://www.encyclopediaofmath.org/index.php/Polarized_algebraic_variety)_
 
 * Jeroen Sisling, _What is... a polarization?_ [pdf](http://pub.math.leidenuniv.nl/~strengtc/cm/polariz.pdf)
