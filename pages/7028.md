@@ -131,7 +131,11 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 * [[observable]]
 
-* [[Jordan algebra]], [[Bohr topos]]
+* [[order-theoretic structure in quantum mechanics]]
+
+  * [[Jordan algebra]], [[Bohr topos]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
 
 * [[effect algebra]]
 
