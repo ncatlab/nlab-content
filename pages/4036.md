@@ -24,10 +24,42 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X
 
 ## Properties {#Properties}
 
-Every [[paracompact space|paracompact]] [[manifold]] should admit a good open cover.
+Every [[paracompact space|paracompact]] [[manifold]] admits a good open cover.
 
 Because every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a geodesic in the neighborhood; see for example the remark after lemma 10.3 in Milnor's _Morse Theory_ , page 59). Provided that the neighborhoods are chosen small enough to guarantee uniqueness of the geodesic, it is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
 
+Every [[CW complex]] admits a good open cover. 
+
+Because: it suffices to prove that if $X$ admits a good open cover and $\phi: S^n \to X$ is an attaching map, then the pushout 
+$$\array{
+S^n & \stackrel{\phi}{\to} & X \\
+i \downarrow & & \downarrow \\
+D^{n+1} & \to & Y
+}$$ 
+also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under finite intersections, and choose a contracting homotopy $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the convex hull of $S$. Then, if $V$ is relatively open in the boundary $S^n$, $Hull(V)$ is open in $D^{n+1}$. It follows that the image in $Y$ of 
+
+$$V_\alpha \coloneqq U_\alpha \cup Hull(\phi^{-1}(U_\alpha)) \subseteq X \cup D^{n+1}$$ 
+
+is open in $Y$, and it is contractible: define a contracting homotopy 
+$$H_\alpha: I \times V_\alpha \to V_\alpha$$ 
+
+by 
+
+$$
+H_\alpha(v, t) = \left\{ 
+
+\array{
+(1 - 2t)v + 2t \frac{v}{|v|} & 0 \leq t \lt 1/2, v \in int(D^{n+1}) \cap V_\alpha \\
+
+v & 0 \leq t \leq 1/2, v \in U_\alpha \\
+
+h_\alpha(2t - 1, \phi(\frac{v}{|v|})) & 1/2 \leq t \leq 1, v \in int(D^{n+1}) \cap V_\alpha \\
+
+h_\alpha(2t - 1, v) & 1/2 \leq t \leq 1, v \in U_\alpha
+} \right.
+$$
+
+These sets $V_\alpha$ together with $int(D^{n+1})$ form a good open cover of $Y$. 
 
 ### $n$POV
 
