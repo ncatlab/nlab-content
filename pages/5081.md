@@ -214,9 +214,20 @@ This is ([StrSp, lemma 2.3.16](#StrSp)).
 
 ## Related concepts
 
-* [[over-topos]]
+* [[over-category]] 
 
-* **over-$(\infty,1)$-topos**
+  * [[slice category]] 
+
+  * [[under category]] 
+
+  * [[over topos]]
+
+
+* [[over (∞,1)-category]],
+
+  * [[model structure on an over category]] 
+
+  * **over-(∞,1)-topos**
 
 
 ## References
