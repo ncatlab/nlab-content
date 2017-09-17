@@ -15,7 +15,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -82,7 +82,9 @@ The original article that introduced the [[Haag-Kastler axioms]] is
 
 * [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
 
-The classical textbook is
+Classical textbooks are
+
+* [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_
 
 * [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
 
