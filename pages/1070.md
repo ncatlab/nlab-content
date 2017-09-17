@@ -6,9 +6,9 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
-#### Model category theory
+#### Homotopy theory
 +--{: .hide}
-[[!include model category theory - contents]]
+[[!include homotopy - contents]]
 =--
 =--
 =--
@@ -16,38 +16,39 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
-## Idea ##
+## Idea
 
-For $C$ an [[abelian category]], notice that
-naturally associated to $C$ is
+The _derived category_ $D(\mathcal{A})$ of an [[abelian category]] is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[(∞,1)-category of chain complexes]] in $\mathcal{A}$: the [[localization]] of the [[category of chain complexes]] $Ch_\bullet(\mathcal{A})$ at the [[quasi-isomorphisms]].
 
-* the [[category of chain complexes]] $K(C)$ in $C$ which
+More in detail, associated to $\mathcal{A}$ is
+
+* the [[category of chain complexes]] $K(\mathcal{A}) = Ch_\bullet(\mathcal{A})$ in $\mathcal{A}$ which
 is naturally a [[homotopical category]];
 
-* the [[stable ∞-category]] $K_\infty(C)$ of [[chain complexes]] in $C$.
-
+* the [[stable ∞-category]] $K_\infty(\mathcal{A})$ of [[chain complexes]] in $C$.
 
 The  _derived category_ $D(C)$ of $C$ is equivalently
 
-* the [[homotopy category|1-categorical homotopy category]] of $K(C)$;
+* the [[homotopy category|1-categorical homotopy category]] of $K(\mathcal{A})$;
 
-* the [[homotopy category of an (infinity,1)-category|(∞,1)-categorical homotopy category]] of $K_\infty(C)$.
+* the [[homotopy category of an (infinity,1)-category|(∞,1)-categorical homotopy category]] of $K_\infty(\mathcal{A})$.
 
 In either case, this means that under the canonical [[localization]] functor
+
 $$
-  Q : K(C) \to D(C)
+  Q : K(\mathcal{A}) \to D(\mathcal{A})
 $$
+
 the [[quasi-isomorphisms]] of [[chain complexes]] become true [[isomorphisms]]
-and that $D(C)$ is [[universal property|universal]] with respect to this
-property.
+and that $D(\mathcal{A})$ is [[universal property|universal]] with respect to this property.
+
+This the derived category is an approximation to the full [[simplicial localization]] of $K(\mathcal{A})$. It is or can be equipped with several further [[properties]] and [[structure]] that give a more accurate approximation. Notably every derived category is a _[[triangulated category]]_, wich is a way of remembering the [[suspension]] and de-suspension operations on its objects, hence its "[[stable (infinity,1)-category|stability]]".
 
 
-
-
-## Definition ##
+## Definition 
 
 Let $C$ be an [[abelian category]] and $K(C)$ its 
 [[category of chain complexes]] modulo [[chain homotopy]]. 
@@ -59,12 +60,16 @@ $f : V \to W$
 which induce [[isomorphisms]] in [[homology]], 
 $H(f) : H(V) \stackrel{\simeq}{\to} H(W)$. 
 
++-- {: .num_defn}
+###### Definition
+
 The **derived category** $D(C)$ is the [[homotopy category]] of
 $K(C)$ with respect to these weak equivalences.
 
+=--
 
-
-### Remark ###
++-- {: .un_remark}
+###### Remark
 
 This is a special case of the construction of a [[homotopy category]] of a [[triangulated category]] with respect to a [[null system]].
 
@@ -79,18 +84,27 @@ with the [[mapping cone]] $cone(f) \in N(C)$.
 
 The derived category is still naturally a [[triangulated category]] itself. 
 
+=--
+
+## Related concepts
+
+* [[derived functor]]
 
 
+## References 
 
-##References##
+A systematic discussion from the point of view of [[localization]] and [[homotopy theory]] is in section 13 of 
 
-A discussion in a comprehensive [[category theory|category theoretic]] and [[homological algebra]]-context is in [section 13] of
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+and, similarly, in section 7 of 
+
+* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ {#Schapira}
 
 A pedagogical introduction is 
 
-* R. P. Thomas, _Derived categories for the working mathematician_ ([arXiv](http://arxiv.org/abs/math.AG/0001045))
+* R. P. Thomas, _Derived categories for the working mathematician_ ([arXiv:math.AG/0001045](http://arxiv.org/abs/math.AG/0001045))
 
 A good survey of the more general topic of derived categories is 
 
@@ -98,11 +112,9 @@ A good survey of the more general topic of derived categories is
 
 See in particular the list of references given there.
 
-For a discussion in the context of [[(∞,1)-category|(∞,1)-categories]] and in particular [[stable (∞,1)-category|stable (∞,1)-categories]] see [section 13, p. 53](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf#page=53)
+For a discussion in the context of [[(∞,1)-category|(∞,1)-categories]] and in particular [[stable (∞,1)-category|stable (∞,1)-categories]] see [section 13, p. 53](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf#page=53) of
 
-of
-
-* [[Jacob Lurie]], [[Stable ∞-Categories]]
+* [[Jacob Lurie]], _[[Stable ∞-Categories]]_
 
 
 
