@@ -1,10 +1,8 @@
+
 <div class="rightHandSide toc">
-[[!include higher category theory - contents]]
-
+[[!include monoidal categories - contents]]
 ***
-
 [[!include higher algebra - contents]]
-
 </div>
 
 
