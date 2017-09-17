@@ -23,6 +23,8 @@ $$
   \,.
 $$
 
+### The model category structure
+
 The [[Dold-Kan correspondence]] provides the normalized cochain complex ([[Moore complex]]) functor
 
 $$
@@ -42,19 +44,32 @@ Say a morphism of cosimplicial algebras is a fibration if it is a [[monomorphism
 
 This defines the **projective [[model category]] structure** on $Alg_k^\Delta$.
 
+
+### The simplicial model category structure
+
 There is also the structure of an [[sSet]]-[[enriched category]] of $Alg_k^\Delta$.
 
 For $X$ a [[simplicial set]] and $A \in Alg_k$ let $A^X  \in Alg_k^\Delta$ be the corresponding $A$-valued [[cochains on simplicial sets]]
 
 $$
-  A^X : [n] \mapsto \prod_{X_n} A
+  A^X : [n] \mapsto \prod_{X_n} A_n
   \,.
 $$
+
+If we write $C(X) := Hom_{Set}(X_\bullet,k)$ for the cosimplicial algebra of [[cochains on simplicial sets]] then this may be written as
+
+$$
+  A^X := A \otimes C(X)
+$$ 
+
+where the tensor product is the degreewise tensor product of $k$-algebras.
+
 
 For $A,B \in Alg_k^\Delta$ define the [[sSet]]-[[hom-object]] $Alg_k^\Delta(A,B)$ by
 
 $$
   Alg_k^\Delta(A,B) := Hom_{sSet}(A, B^{\Delta[\bullet]})
+  = Hom_{sSet}(A, B \otimes C(\Delta[\bullet]))
   \in sSet
   \,.
 $$
