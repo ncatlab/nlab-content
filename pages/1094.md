@@ -56,9 +56,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This follows by general properties discussed at [[reflective subcategory]]. 
-
-We spell out the argument using the theory of [[localization]] at a set of morphisms satisfying a [[calculus of fractions]].
+This follows by general properties discussed at [[reflective subcategory]]. We spell out the argument using the theory of [[localization]] at a set of morphisms satisfying a [[calculus of fractions]].
 
 Recall from the discussion at [[sheaf]] that $Sh_J(C)$ is by definition the [[full subcategory]] of $PSh(C)$ on the [[local object]]s with respect to the morphisms 
 
@@ -73,9 +71,18 @@ $$
   \right\}
 $$
 
-of [[sieve]] inclusions for all [[covering]] famlilies of the [[coverage]] $J$.
+of [[sieve]] inclusions for all [[covering]] families of the [[coverage]] $J$.
 
-Notice that an object is a [[local object]] with respect to these morphisms precisely if it is local with respect to the set of all [[small set|small]] [[colimit]]s (in the [[arrow category]] $Arr(PSh(C))$ ) of such morphims (since the [[hom-functor]] $PSh_C(-,A)$ sends colimits in the first argument to [[limit]]s, and a limit of [[isomorphism]]s is an isomorphism).
+Now we invoke the following results:
+
+1. The <a href="http://ncatlab.org/nlab/show/reflective+sub-(infinity%2C1)-category#LocalizationProposition">localization proposition</a> says that every [[full subcategory]] of a [[locally presentable category]] on the $W$-[[local object]]s for a [[small set]] $W$ of morphisms is a [[reflective subcategory]], given by the [[localization]] at these morphisms;
+
+1. By <a href="http://nlab.mathforge.org/nlab/show/reflective+subcategory#CharacterizationByLocalization">Gabriel-Zisman's theorem</a> every reflective subcategory is the [[localization]] at the collection of morphisms inverted by the left adjoint (which by the localization proposition is the saturation of the original set of morphisms).
+
+1. If $W$ satisfies the axioms of a [[calculus of fractions]] then, by the discussion there, this localization is equivalently given by the category $PSh(C)[W^{-1}]$ whose objects are those of $PSh(C)$ and whose morphisms are given by $PSh(C)[W^{-1}](X,A) \simeq {\lim_{\to}}_{\hat X  \stackrel{w \in W}{\to} X} PSh_C(\hat X,A)$.
+
+
+Notice that an object is a [[local object]] with respect to the above set of  morphisms $W$ precisely if it is local with respect to the set of all [[small set|small]] [[colimit]]s (in the [[arrow category]] $Arr(PSh(C))$ ) of such morphims (since the [[hom-functor]] $PSh_C(-,A)$ sends colimits in the first argument to [[limit]]s, and a limit of [[isomorphism]]s is an isomorphism).
 
 Let hence $\bar W$ be the completion of $A$ under forming small colimits in $Arr(PSh(C))$.
 
@@ -137,7 +144,7 @@ This shows that $\bar W$ satisfies the first condition at [[factorization system
 The second condition at [[calculus of fractions]] demands that if two composites of the form
 
 $$
-   X \stackrel{\to}{\to} S(\{U_i\}) \to j()
+   X \stackrel{\to}{\to} S(\{U_i\}) \to j(U)
 $$
 
 are equal in $PSh(C)$, then there is a morphism $Y \to X$ in $PSh(C)$ such that the two composites
@@ -146,9 +153,38 @@ $$
   Y \to X \stackrel{\to}{\to} S(\{U_i\})
 $$
 
-are equal. But the [[sieve]] inclusions are [[monomorphism]]s, hence this condition is trivially satisyfied (choose $Y \to X$ to be the [[identity]] on $X$).
+are equal. But the [[sieve]] inclusions are [[monomorphism]]s, hence this condition is trivially satisyfied (choose $Y \to X$ to be the [[identity]] on $X$). Again by decomposing into colimits by the [[co-Yoneda lemma]] and using [[universal colimits]] and the pasting law for [[pullback]]s, the same follows for general morphisms in $\bar W$
 
-This gives us the [[localization]] $L : PSh(C) \to Sh_J(C)$ as described at [[calculus of fractions]]. By the discussion there we have that for $X \in PSh(C)$ a presheaf and $A \in Sh_J(C)$ the [[hom-set]] $Sh_C(L(X),A)$ is given by
+$$
+  \array{
+    {\lim_\to}_k X_k &\stackrel{\simeq}{\to}& X
+    \\
+    \downarrow \downarrow && \downarrow \downarrow
+    \\
+    {\lim_\to}_k S(U_{k,i}) &\to& Y
+    \\
+    \downarrow && \downarrow 
+    \\
+    {\lim_\to}_k j(U_k) &\stackrel{\simeq}{\to}& j(U)
+  }
+  \,.
+$$
+
+by applying the above on each component $k$ of the colimit.
+
+This gives us the [[localization]] $L : PSh(C) \to Sh_J(C)$ as described at [[calculus of fractions]]. By the discussion there 
+we have that $Sh_J(C)$ is equivalently given by the category $PSh(C)[W^{-1}]$ with the same objects as $PSh(C)$ and [[hom-set]]s given by
+
+$$
+  PSh(C)[W^{-1}](X,A) 
+   \simeq
+ {\lim_\to}_{\{\hat X \stackrel{w \in \hat W}{\to} X\}}
+  PSh_C(\hat X,A)
+  \,.
+$$
+
+
+So we have that for $X \in PSh(C)$ a presheaf and $A \in Sh_J(C)$ the [[hom-set]] $Sh_C(L(X),A)$ is given by
 
 $$
   Sh_C(L(X), A) \simeq
@@ -204,7 +240,7 @@ $$
 By the proof of the above proposition, using the formulas discussed at [[calculus of fractions]], this hom-set is given by 
 
 $$
-  \cdots \simeq {\lim_\to}_{\{ \hat U \stackrel{w}{\to} j(U)\}} PSh_C(\hat U, X)
+  \cdots \simeq {\lim_\to}_{\{ \hat U \stackrel{w \in \bar W}{\to} j(U)\}} PSh_C(\hat U, X)
   \,.
 $$
 
@@ -221,7 +257,7 @@ $$
   \,.
 $$
 
-This means that the the above coimit may be computed as two consecutive colimits of the form
+This means (...) that the above coimit may be computed as two consecutive colimits of the form
 
 $$
   {\lim_{\to}}_{\{S(\{U_i\}) \to j(U)\}} PSh_C(S(\{U_i\}), X)
