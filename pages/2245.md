@@ -1,6 +1,45 @@
-Given a [[field]] $k$, an __algebraic $k$-group__ is a [[group object]] in the category of $k$-[[algebraic variety|varieties]]. An algebraic $k$-group is *linear* if it is a Zariski-closed subgroup of the [[general linear group]] $GL(n,k)$ for some $n$. Another important class are commutative algebraic $k$-groups whose underlying variety is [[projective variety|projective]], namely the *abelian varieties*; in dimension $1$ these are precisely the [[elliptic curve]]s. If $k$ is a [[perfect field]] and $G$ an algebraic $k$-group, the theorem of Chevalley says that there is a unique linear subgroup $H\subset G$ such that $G/H$ is an abelian variety.
 
-The group objects in the category of [[algebraic schemes]] and [[formal scheme]]s are called (algebraic) [[group schemes]] and [[formal groups]], respectively. One should mention among group schemes 'the infinite-dimensional algebraic groups' of Shafarevich. An algebraic group scheme is *affine* if the underlying scheme is [[affine scheme|affine]]. Algebraic analogues of [[loop group]]s are in the category of [[ind-scheme]]s. All linear algebraic $k$-groups are affine. The category of affine group schemes is the [[opposite category|opposite]] of the category of commutative [[Hopf algebras]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[field]] $k$, an __algebraic $k$-group__ is a [[group object]] in the category of $k$-[[algebraic variety|varieties]]. 
+
+
+
+## Special cases
+
+An algebraic $k$-group is *linear* if it is a [[Zariski topology|Zariski]]-closed subgroup of the [[general linear group]] $GL(n,k)$ for some $n$. 
+
+Another important class are commutative algebraic $k$-groups whose underlying variety is [[projective variety|projective]], namely the *abelian varieties*; in dimension $1$ these are precisely the [[elliptic curve]]s. If $k$ is a [[perfect field]] and $G$ an algebraic $k$-group, the theorem of Chevalley says that there is a unique linear subgroup $H\subset G$ such that $G/H$ is an abelian variety.
+
+The group objects in the category of [[algebraic schemes]] and [[formal scheme]]s are called (algebraic) [[group schemes]] and [[formal groups]], respectively. 
+
+Among group schemes are 'the infinite-dimensional algebraic groups' of Shafarevich. 
+
+An algebraic group scheme is *affine* if the underlying scheme is [[affine scheme|affine]]. 
+
+Algebraic analogues of [[loop group]]s are in the category of [[ind-scheme]]s. All linear algebraic $k$-groups are affine. 
+
+The category of affine group schemes is the [[opposite category|opposite]] of the category of commutative [[Hopf algebras]].
+
+## Concrete examples
+
+The [[affine line]] $\mathbb{A}^1$ comes canonically with the structure of a group under addtion: the [[additive group]] $mathbb{G}_a$.
+
+The affine line without its origin, $\mathbb{A}^1 - \{0\}$ comes canonically with the structure of a group under multiplication: the [[multiplicative group]] $\mathbb{G}_m$.
 
 
 ## References
