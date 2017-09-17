@@ -120,7 +120,9 @@ If the site $S$ _has enough points_ then this condition is equivalent to saying 
 
 (see _DI02_, i.e. Dugger and Isaksen, Weak equivalences of simplicial presheaves )
 
-If $X$ and $Y$ are local fibrations there is a characterisation in terms of local homotopy liftings. In this case a local weak equivalence is a morphism $f : X \to Y$ such that for all commuting diagrams
+If $X$ and $Y$ are local fibrations there is a characterisation in terms of local homotopy liftings. Write $P$ for the pushout of the diagram $\partial \Delta^n \leftarrow \partial \Delta^n\times \Delta^1 \rightarrow \Delta^n\times \Delta^1$. Then there are two maps $\Delta^n\rightarrow P$ by restriction of $\Delta^n\times \Delta^1\rightarrow P$ along the cofaces.
+
+Then a local weak equivalence is a morphism $f : X \to Y$ such that for all commuting diagrams
 
 $$
   \array{
@@ -132,8 +134,19 @@ $$
   }
 $$
 
-with $U$ simplicially constantly representable there exists a covering sieve $R$ of $U$ such that for every $V\in R$ there are morphisms $g:\Delta^n \otimes V\rightarrow X$ and $h:P\rightarrow Y$, where $P$ is the pushout of $i_V: (\partial\Delta^n\rightarrow \Delta^n)\otimes V$ along itself for which $g\circ i_V=\partial\Delta^n \otimes V\rightarrow \partial\Delta^n \otimes U \rightarrow X$ and $\Delta^n\otimes V \rightarrow \Delta^n \otimes U\rightarrow Y= \Delta^n\otimes V\rightarrow P\rightarrow Y$. 
+with $U$ simplicially constantly representable there exists a covering sieve $R$ of $U$ such that for every $V\in R$ there are morphisms $g:\Delta^n \otimes V\rightarrow X$ and $h:P\otimes V\rightarrow Y$ for which $g\circ i_V=\partial\Delta^n \otimes V\rightarrow \partial\Delta^n \otimes U \rightarrow X$ and $\Delta^n\otimes V \rightarrow \Delta^n \otimes U\rightarrow Y= \Delta^n\otimes V\rightarrow P\otimes V\rightarrow Y$ and in addition the square
 
+$$
+\array{
+    \Delta^n\otimes V &\to& X
+    \\
+    \downarrow && \downarrow^f
+    \\
+    P \otimes U &\to& Y
+  }
+$$
+
+commutes.
 
 ## Examples ###
 
