@@ -4,7 +4,6 @@
 [[!include infinity-limits - contents]]
 </div>
 
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -205,7 +204,7 @@ Let $\kappa$ be a [[regular cardinal]]. An [[(∞,1)-category]] $C$ has all $\ka
 This is [[Higher Topos Theory|HTT, prop. 4.4.3.2]].
 
 
-### In terms of homotopy limits 
+### In terms of homotopy limits {#TermsOfHomotopy}
 
 The notion of [[homotopy limit]], which exists for [[model categories]] and in particular for [[simplicial model categories]] and in fact in all plain [[Kan complex]]-[[enriched categories]] -- as described in more detail at [[homotopy Kan extension]] -- is supposed to be a model for $(\infty,1)$-categorical limits. In particular, under sending the Kan-complex enriched categories $C$ to quasi-categories $N(C)$ using the [[homotopy coherent nerve]} functor, homotopy limits should precisely corespond to quasi-categorical limits. That this is indeed the case is asserted by the following statements.
 
@@ -372,7 +371,9 @@ If instead of [[∞-Grpd]] the target is the [[(∞,1)-category of (∞,1)-categ
 
 ...
 
-### Pushout
+### Pullback / Pushout
+
+See also [[(∞,1)-pullback]].
 
 The non-degenerate cells of the [[simplicial set]] $\Delta[1] \times \Delta[1]$ obtained as the [[cartesian product]] of the simplicial 1-[[simplex]] with itself look like
 
@@ -482,7 +483,7 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 ...
 
 ### Tensoring and cotensoring with an  $\infty$-groupoid {#Tensoring}
-
+^
 #### Recap of the 1-categorical situation
 
 An ordinary [[category]] with [[limit]]s is canonically [[power|cotensored]] over [[Set]]:
