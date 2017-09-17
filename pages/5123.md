@@ -73,7 +73,17 @@ $$
 
 =--
 
-Notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[symmetric monoidal categories]].
++-- {: .un_prop}
+###### Proposition
+
+For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a chain [[homotopy equivalence]].
+
+=--
+
+This is in 29.10 of ([May](#May)).
+
+
+For the next statement notice that both $sAb$ and $Ch_\bullet^+$ are in fact [[symmetric monoidal categories]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -97,14 +107,6 @@ commutes, where $\sigma$ denotes the symmetry isomorphism in $sAb$ and $Ch_\bull
 
 =--
 
-+-- {: .un_prop}
-###### Proposition
-
-For all $X,Y$ the EZ map $\nabla_{X,Y}$ is a [[quasi-isomorphism]] and in fact a chain [[homotopy equivalence]].
-
-=--
-
-This is in 29.10 of ([May](#May)).
 
 ## Related concepts
 
