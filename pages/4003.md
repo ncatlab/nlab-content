@@ -53,7 +53,7 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 ## References
 
-* [[Nicola Gambino]] and [[Joachim Kock]] (2009); Polynomial functors and polynomial monads; [arXiv](http://arxiv.org/abs/0906.4931).
+* [[Nicola Gambino]] and [[Joachim Kock]] (2009); Polynomial functors and [[polynomial monad]]s; [arXiv](http://arxiv.org/abs/0906.4931).
 {#GK}
 
 * [[Joachim Kock]] (2009); Polynomial functors and trees; [arXiv](http://arxiv.org/abs/0807.2874).
