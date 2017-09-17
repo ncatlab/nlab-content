@@ -17,3 +17,17 @@ X\mapsto X(k_s)
 
 from the category of [[étale scheme|étale schemes]] to the category of sets equipped with an [[action]] of the absolute Galois group is an equivalence of categories.
 =--
+
++-- {: .prop}
+###### Proposition
+Recall the every [[profinite group]] appears as the [[Galois group]] of some [[Galois extension]]. Moreover we have:
+
+Every [[projective object|projective]] [[profinite group]] appears as an absolute [[Galois group]] of a [[pseudo algebraically closed field]].
+=--
+
++-- {: .num_remark}
+###### Remark
+There is no direct description (for example in terms of [[generators and realtions]]) known for the absolute Galois group $G_\mathbb{Q}:=Gal(\mathbb{Q}\hookrightarrow \overline \mathbb{Q})$ of the rationals.
+
+However [[Belyi's theorem]] implies that there is a faithful action of $G_\mathbb{Q}$ on the [[children's drawing|children's drawings]].
+=--
