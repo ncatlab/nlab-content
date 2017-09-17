@@ -21,8 +21,48 @@
 
 In traditional mathematics and [[set theory]], the [[category]] [[Set]] of all [[sets]] is the archetypical [[topos]]. However, in [[predicative mathematics]] with its notion of sets, these do not form a topos since they do not satisfy the [[powerset axiom]]. In [[constructive mathematics]], we may be *weakly* predicative and *almost* form a topos; the resulting weaker structure which [[Bishop sets]] (for example) form is a  _predicative topos_ ([van den Berg](#vdBerg)).  
 
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+A **predicative topos** is a [[ΠW-pretopos]] satisfying the [[axiom of multiple choice]].
+
+=--
+
+This is ([van den Berg, def. 6.1](#vdBerg)).
+
++-- {: .num_remark }
+###### Remark
+
+The [[axiom of multiple choice]] appears in different strengths in the literature. Accordingly there is the notion of strong/weak predicative topos if it satisfies the strong/weak version of this axiom
+
+=--
+
+## Examples
+
++-- {: .num_theorem }
+###### Theorem
+
+The [[category]] of [[Bishop sets]] in [[Martin-Löf dependent type theory]] is a [strong predicative topos.
+
+=--
+
+This is ([van den Berg, theorem 6.2](#vdBerg)), based on ([Moerdijk-Palmgren 99, section 7](#MoerdijkPalmgren99)).
+
+
 
 ## References
+
+The goal of formulating a notion of _predicative topos_ was stated and pursued in a series of articles containing
+
+* [[Ieke Moerdijk]], [[Erik Palmgren]], _Wellfounded trees in categories_ (1999) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.6700))
+ {#MoerdijkPalmgren99}
+
+* [[Ieke Moerdijk]], [[Erik Palmgren]], _Type Theories, Toposes and Constructive Set Theory: Predicative Aspects of AST_ (2000) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.8934))
+ {#MoerdijkPalmgren00}
+ 
+The definition then appears in
 
 * [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
  {#vdBerg}
