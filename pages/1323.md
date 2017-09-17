@@ -32,7 +32,7 @@ is an isomorphism.  The canonical morphism is the unique morphism such that $X\t
 +-- {: .num_remark}
 ###### Remark
 
-A _[[linearly distributive category]]_ is _not_ distributive in this sense.
+This notion is part of a hierarchy of [[distributivity for monoidal structures]], and generalizes to [[distributive monoidal categories]] and [[rig categories]].  A [[linearly distributive category]] is _not_ distributive in this sense.
 
 =--
 
@@ -48,7 +48,11 @@ Any [[extensive category]] is distributive, but the converse is not true.
 
 * [[distributive law]]
 
-* [[bipermutative category]]
+* [[distributivity for monoidal structures]]
+
+  * [[distributive monoidal category]]
+
+  * [[rig category]]
 
 ## References 
 
