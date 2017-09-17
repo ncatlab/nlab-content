@@ -42,6 +42,8 @@ $$
 
 ## Related concepts
 
+* [[framed manifold]]
+
 * [[string structure]].
 
 ## References
