@@ -607,3 +607,4 @@ Jacob Lurie writes that the proof proceeds alonmg these steps. Details will be d
 =--
 
 
+[[!redirects derived moduli stack of derived elliptic curves]]
