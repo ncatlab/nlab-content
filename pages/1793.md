@@ -110,9 +110,9 @@ An account is given for instance in ([Dungan, 2.4.2, proof in section 2.5](#Dung
 +-- {: .num_remark }
 ###### Remark
 
-This means that a chain complex $C_\bullet \in Ch_{\bullet}(\mathcal{A})$ is a [[cofibrant object]] in the injective model structure precisely if it consists of [[projective modules]]. Accordingly, a [[cofibrant resolution]] in the injective model structure on chain complexes is precisely what in [[homological algebra]] is called a _[[projective resolution]]_. 
+This means that a chain complex $C_\bullet \in Ch_{\bullet}(\mathcal{A})$ is a [[cofibrant object]] in the projective model structure, theorem \ref{ProjectiveModelStructure}, precisely if it consists of [[projective modules]]. Accordingly, a [[cofibrant resolution]] in the projective model structure is precisely what in [[homological algebra]] is called a _[[projective resolution]]_. Dually for [[fibrant resolutions]] in the injective model structure, theorem \ref{InjectiveModelStructure}, and [[injective resolutions]] in homological algebra.
 
-This way the traditional definition of (left) [[derived functor in homological algebra]] relates to the general notion of [[left derived functor]]. See there for more details. Similar comments apply to the various other model structures below.
+This way the traditional definition of [[derived functor in homological algebra]] relates to the general construction of [[derived functors]] in [[model category]] theory. See there for more details. Similar comments apply to the various other model structures below.
 
 
 =--
