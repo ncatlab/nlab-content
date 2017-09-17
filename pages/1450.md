@@ -171,7 +171,7 @@ Transcipts or notes of further talks by Bill Lawvere on the subject are
 
 ### Books
 
-The textbooks by [[Anders Kock]]
+The textbooks 
 
 *  [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
@@ -199,24 +199,3 @@ Two useful introductory expositions of basic ideas of synthetic differential geo
 *  [John Bell], _An invitation to smooth infinitesimal analysis_ ([pdf](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf))
 
 
-## Discussion
-
-+-- {: .query}
-
-[[Eric]]: Mike, have you ever looked into [stochastic calculus](http://en.wikipedia.org/wiki/It%C5%8D%27s_lemma)? I was looking at your "pizza seminar" and was left with the thought that stochastic calculus might also be presented in terms of synthetic differential geometry. To do so, you need a slightly different class of elements $\delta$ such that that $\delta^2\in D$ and $d\delta = 0$. Then the 2-dimensional Taylor expansion becomes the [Ito lemma](http://en.wikipedia.org/wiki/It%C5%8D%27s_lemma):
-
-$$f(t+d,w+\delta) =  f(t,w) + \left(\frac{\partial f}{\partial t} + \frac{1}{2}\frac{\partial^2 f}{\partial w^2}\right) d + \frac{\partial f}{\partial w} \delta.$$
-
-Just curious...
-
-[[Eric]]: On second thought, $d\delta = 0$ is probably too strong. You could probably get away with $d\delta = -\delta d$.
-
-[[Mike Shulman]]: No, I haven't looked into stochastic calculus; that's an interesting idea.  But I don't know what $d\delta$ means.
-
-[[David Roberts]]: the product, presumably. So Eric seems to be proposing a second lot of infinitesimals $D'$ such that the product of two things in $D'$ are in $D$ and (in the first version) the product of something in $D$ and something in $D'$ vanishes, or in the second version that the product $D\times D' \to R$ is antisymmetric.
-
-[[Mike Shulman]]: Sorry, I guess I wasn't quite awake enough to guess that Eric meant "for any $d\in D$."  The usual models of SDG do contain pretty much any sort of infinitesimal you want; you can make that precise by talking about polynomial rings of nilpotents.
-
-[[Eric]]: Thanks for clarifying that David. So I think we can define a "synthetic stochastic calculus". We need a set of elements $D'$ that are like "square roots of infinitesimals" in the sense that they square to infinitesimals, i.e. for any $\delta\in D'$, we have $\delta^2\in D$. To get the synthetic stochastic calculus, we need elements in $D$ and $D'$ to anti-commute. Hmm... this makes me wonder if there is a synthetic differential graded algebra where you have differentials of different (possibly fractional) degrees.
-
-=--
