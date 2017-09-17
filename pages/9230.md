@@ -28,7 +28,7 @@ These graphs are called _Feynman diagrams_.
 
 ### In quantum field theory
 
-Feynman graphs play a central role in [[perturbation theory]] in [[quantum field theory]] where $\exp(I)\mu_S$ plays the role of an [[action functional]] on a space of [[field (physics)|fields]], $\mu_S$ is the kinetic action and measure for [[free fields]]  and $\exp(I)$ is the interaction part of th action functional: the order-$k$ monomials in $I$ encode an interaction of $k$ [[field (physics)|fields]]. In this context the corresponding Feynman diagrams are traditionally thought of as depicting interaction processes of quanta of these fields, with propagation along the edges and interaction at the vertices. But this interpretation has its limits, which is partly refelcted in speaking of "[[virtual particles]]".
+Feynman graphs play a central role in [[perturbation theory]] in [[quantum field theory]] where $\exp(I)\mu_S$ plays the role of an [[action functional]] on a space of [[field (physics)|fields]], $\mu_S$ is the kinetic action and measure for [[free fields]]  and $\exp(I)$ is the interaction part of th action functional: the order-$k$ monomials in $I$ encode an interaction of $k$ [[field (physics)|fields]]. In this context the corresponding Feynman diagrams are traditionally thought of as depicting interaction processes of quanta of these fields, with propagation along the edges and interaction at the vertices. But this interpretation has its limits, which is partly reflected in speaking of "[[virtual particles]]".
 
 ## Related concepts
 
@@ -38,7 +38,7 @@ Feynman graphs play a central role in [[perturbation theory]] in [[quantum field
 
 * [[scattering amplitude]], [[string scattering amplitude]]
 
-* [[path integral quantizaiton]]
+* [[path integral quantization]]
 
 * [[worldline formalism]]
 
@@ -46,7 +46,7 @@ Feynman graphs play a central role in [[perturbation theory]] in [[quantum field
 
 ### General
 
-For geenral accounts see at 
+For general accounts see at 
 
 * [[Alain Connes]], [[Matilde Marcolli]], section 3 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
