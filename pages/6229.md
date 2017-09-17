@@ -9,5 +9,16 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _probability space_ is a [[measure space]] whose [[measure]] is a [[probability distribution]]: its [[integral]] is 1.
+
+## Related concepts
+
+* [[expectation value]]
+
+* [[entropy]]
