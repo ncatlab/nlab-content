@@ -314,9 +314,10 @@ Follows by the above from the equivalence $[LConst S^1 , X] \simeq X^{S^1}$ disc
 
 The realization of the free loop space object as an internal hom out of the circle induced a canonical [[action]] of the circle on $\mathcal{L}X$.
 
-(...)
 
-#### Details {#DetailsCircAct}
+##### Definition
+
+##### Details {#DetailsCircAct}
 
 Here is what this categorical circle action looks like in more detail:
 
