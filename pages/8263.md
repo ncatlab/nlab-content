@@ -1,0 +1,27 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[homological algebra]] a _flat resolution_ is a [[resolution]] of a [[chain complex]] by a complex of [[flat modules]].
+
+## Related concepts
+
+* [[flat resolution lemma]]
+
+* [[injective resolution]], [[projective resolution]]
+
+[[!redirects flat resolutions]]
