@@ -9,7 +9,7 @@ A **rational homotopy equivalence** is the notion of equivalence of [[topologica
 
 ## Definition
 
-For $X$ and $Y$ [[topological space]]s and $f : X \to Y$ a continuous map between them, $f$ is called a **rational homotopy equivalence** if the following equivalent conditions are satisfied:
+For $X$ and $Y$ be [[simply connected space|simply connected]] [[topological space]]s and $f : X \to Y$ a continuous map between them, $f$ is called a **rational homotopy equivalence** if the following equivalent conditions are satisfied:
 
 1. it induces an isomorphism on rationalized homotopy groups: $\pi_*(f) : \pi_*(X) \stackrel{\simeq}{\to} \pi_*(X)$;
 
@@ -23,4 +23,4 @@ For $X$ and $Y$ [[topological space]]s and $f : X \to Y$ a continuous map betwee
 
 This appears as definition 1.17 in the review
 
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_
+* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
