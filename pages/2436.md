@@ -1,10 +1,15 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Super-Algebra and Super-Geometry
 +--{: .hide}
 [[!include supergeometry - contents]]
+=--
+#### Higher linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
 =--
 =--
 =--
@@ -24,6 +29,14 @@ $$ v \otimes w \mapsto (-1)^{deg(v) deg(w)} w \otimes v $$
 * [[super-algebra]], [[super Lie algebra]]
 
 * [[supertrace]]
+
+
+## References
+
+Section 3.1 of
+
+* [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
+ {#Varadarajan04}
 
 
 [[!redirects super vector space]]
