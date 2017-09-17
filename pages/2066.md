@@ -70,6 +70,8 @@ The functors that forms idempotent completion is the [[monad]] induced from the 
 
 * [[idempotent complete (infinity,1)-category]]
 
+* [[Karoubian category]] 
+
 
 ## References ##
 
