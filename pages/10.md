@@ -176,13 +176,15 @@ $$
   \,.
 $$
 
+For more details see [[Diaconescu's theorem]].
+
 #### Over topological groups
 
 If $G$ is a general [[topological group]] we have the  is a [[simplicial object|simplicial]] [[topological space]] $G^{\times \bullet}$. The category $Sh(G^{\times \bullet})$ of [[sheaves on a simplicial topological space|sheaves on this simplicial space]] is a topos. 
 
 This is such that for $X$ a topological space, geometric morphisms $Sh(X) \to Sh(G^{\times \bullet})$ classifies topological $G$-principal bundles on $X$.
 
-This idea admits generalizations to [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[Diaconescu's theorem]].
+This idea admits generalizations to [[localic groups]] --- and even to [[localic groupoids]].  For more details, see [[classifying topos of a localic groupoid]] .
 
 
 
