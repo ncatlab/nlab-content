@@ -362,7 +362,7 @@ first of [[Top]] into [[Locale]] and then into [[Topos]].
 
 
 
-+-- {: .num_defn }
++-- {: .num_defn #CStarTopos}
 ###### Definition
 
 Write
@@ -373,8 +373,19 @@ $$
 
 for the categories of [[ringed spaces]] and [[ringed toposes]], where the [[internalization|internal]] ring object is equipped with the structure of an internal _commutative_ [[C-star algebra]] and the morphisms respect the $C^*$-algebra structure.
 
-=--
+Hence a [[morphism]] $(\mathcal{E}, \underline{A}) \to (\mathcal{F}, \underline{B})$ in $C^\ast_{com} Topos$ is 
 
+1. a [[geometric morphism]] $f : \mathcal{E} \to \mathcal{F}$ such that the [[inverse image]] $f^* \underline{B}$ is still an internal $C^\ast$-algebra in $\mathcal{E}$;
+
+1. and a morphism of internal $C^\ast$-algebras
+
+   $$
+     f^\ast \underline{B} \to \underline{A}
+   $$
+
+   in $\mathcal{E}$.
+
+=--
 
 +-- {: .num_defn #TheSheafTopos}
 ###### Definition
@@ -450,7 +461,26 @@ More concretely: by the discussion of [Alexandrov locales](#http://ncatlab.org/n
 
 =--
 
-Using this we now obtain morphisms of Bohr toposes as [[ringed toposes]].
+For such essential geometric morphisms to be parts of morphisms in 
+$C^\ast Topos$, def. \ref{CStarTopos} we need that their [[inverse image]]s 
+respect internal $C^\ast$-algebras:
+
++-- {: .num_prop }
+###### Proposition
+
+For $f : Bohr(A) \to Bohr(B)$ an essential geometric morphism, 
+the [[inverse image]] $f^\ast \underline{B}$ is naturally a $C^\ast$-algebra in $[\mathcal{C}(A), Set]$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+According to ([HLS09, 4.8](#HLSDeep)) every functor $\mathcal{C}(A) \to C^\ast Alg$ is an $C^\ast$-algebra [[internalization|internal to]] $[\mathcal{C}(A), Set]$. Here $f^* \underline{B}$ is such a functor, sending $(C \in \mathcal{C}(A)) \mapsto im_f(C)$.
+
+=--
+
+Using this we now discuss morphisms of Bohr toposes in $C^\ast Topos$.
 
 +-- {: .num_prop #BohrFunctoriality}
 ###### Proposition
@@ -482,7 +512,7 @@ with the special property that any $f : A \to B$ is sent to
 
 =--
 
-For the most part this is due to ([vdBergHeunen, prop. 33](#vdBergHeunen)). The extra adjoint is observed in ([Nuiten, lemma 2.7](#Nuiten)).
+This is ([Nuiten, lemma 2.7](#Nuiten)). (Essentially this argument also appears as ([vdBergHeunen, prop. 33](#vdBergHeunen)), where however the extra right adjoint is not made use of and instead the variances of the morphisms involved in the definition of $C^\ast Topos$ are redefined in order to make the statement come out.)
 
 +-- {: .proof}
 ###### Proof
@@ -926,6 +956,13 @@ This appears as ([Nuiten, theorem 4.2](#Nuiten)).
 The term _Bohrification_ and the investigations associated with it are initiated in
 
 * [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification of operator algebras and quantum logic_ ([arXiv:0905.2275](http://arxiv.org/abs/0905.2275))
+
+See also
+
+* [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], _Bohrification_ 
+in _Deep Beauty_ Cambridge University Press(2009) ([arXiv:0909.3468](http://arxiv.org/abs/0909.3468))
+  {#HLSDeep}
+
 
 The computation of the internal Gelfand spectrum $\underline{\Sigma}$ was initiated in 
 
