@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -176,11 +176,13 @@ $RO(G)$-graded Bredon cohomology has lots of formal advantages over the integer-
 
 * [[equivariance]]
 
+* [[Baum-Connes conjecture]]
+
 ## References
 
 ### General
 
-* [[Matvei Libine]], _Lecture Notes on Equivariant Cohomology_ ([arXiv](http://arxiv.org/abs/0709.3615))
+* Matvei Libine, _Lecture Notes on Equivariant Cohomology_ ([arXiv](http://arxiv.org/abs/0709.3615))
 
 * [[Peter May]], _Equivariant homotopy and cohomology theory_ ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
