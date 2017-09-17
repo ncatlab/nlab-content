@@ -141,6 +141,11 @@ As an application of this, a detailed discussion of the cancellation of the anom
 * [[Dan Freed]], [[Greg Moore]], _Setting the quantum integrand of M-theory_ ([arXiv:hep-th/0409135](http://arxiv.org/abs/hep-th/0409135))
 
 ### Gauge anomaly
+ {#ReferencesGaugeAnomaly}
+
+An interpretation of gauge anomalies as failures of [[Hamiltonian]]s to have [[self-adjoint extension]]s is in
+
+* J. G. Esteve, _Origin of the anomalies: the modified Heisenberg equation_ ([arXiv:hep-th/0207164](http://arxiv.org/abs/hep-th/0207164))
 
 Discussion in the context of [[BRST-BV formalism]] is in
 
