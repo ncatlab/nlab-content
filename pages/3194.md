@@ -27,10 +27,12 @@ A [[Banach space]] $X$ is **reflexive** if the canonical map $X \to (X^*)^*$ fro
 
 By the [[Riesz duality theorem]], every [[separable space|separable]] [[Hilbert space]] is reflexive.
 
-The [[Lebesgue space]] $l^1$ is separable in [[dream mathematics]], but in [[classical mathematics]] it is not.
+The [[Lebesgue space]] $l^1$ is reflexive in [[dream mathematics]], but in [[classical mathematics]] it is not.
 
-The __James space__ $J$ is the standard example of a separable Banach space such that $J \cong J^{**}$ but $J$ is *not* reflexive.  This follows (after a little work) from the following striking property: the image of $J$ in $J^{**}$ under the canonical map turns out to have codimension $1$ in $J^{**}$.
+The __James space__ $J$ is the standard example of a separable Banach space such that $J \cong J^{**}$ as TVSes, but $J$ is *not* reflexive.
+This follows (after a little work) from the following striking property: the image of $J$ in $J^{**}$ under the canonical map turns out to have codimension $1$ in $J^{**}$.
 
+One can renorm $J$ to obtain a non-reflexive Banach space which is isometrically isomorphic as a Banach space to its second dual. 
 
 ## References
 
