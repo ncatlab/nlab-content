@@ -59,12 +59,13 @@ See for instance ([Arone-Hess](#AroneHess))
 
 * [[augmentation]], [[augmented simplicial set]]
 
+* [[augmented ∞-group]]
 
 ## References
 
-The following articles discuss augmentation, but in fact just of spectra (not considering the algebra structure on them).
+The following articles discuss (just) [[augmented ∞-groups]].
 
-Augmentation (of [[infinity-groups of units]]) over the [[sphere spectrum]]  appears in
+Augmentation (of [[∞-groups of units]] of [[E-∞ rings]]) over the [[sphere spectrum]]  appears in
 
 * Steffen Sagave, _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
 
