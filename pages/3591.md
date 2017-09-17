@@ -40,8 +40,10 @@ The concept was originally introduced for [[domain theory]] in [a privately circ
 
 * {#Scott}[[Dana Scott]], _A New Category? Domains, Spaces, and Equivalence Relations_, 
 
+It is then discussed in more detail in
 
-An early article on equilogical spaces: 
+* {#Bauer00} [[Andrej Bauer]], section 4 of _The Realizability Approach to
+Computable Analysis and Topology_, PhD thesis CMU (2000) ([pdf](http://andrej.com/thesis/thesis.pdf))
 
 * {#BBS} [[Andrej Bauer]], [[Lars Birkedal]], [[Dana Scott]], _Equilogical Spaces_, 2001  ([ps](http://www.andrej.com/papers/equ-paper.ps), [[BBSEquilogical.pdf:file]])
 
