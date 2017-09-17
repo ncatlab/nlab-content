@@ -3,6 +3,7 @@
 
 * in [[homological algebra]]: cycle in a [[chain complex]]
 
+  [[!include chains and cochains - table]]
 
 
 category: disambiguation
