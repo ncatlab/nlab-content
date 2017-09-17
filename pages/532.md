@@ -63,7 +63,7 @@ thin structure satisfies the following axioms:
 Together with very similar ideas of [[John Roberts]], adapted by 
 [[Ross Street]], the notion of $T$-complex is one of the precursors of [[Dominic Verity]]'s notion of [[complicial set|complicial set]].
 
-They are also related to [[Jack Duskin]]'s notion of [[hypergroupoid]].(The connection is explored in the papers by Nan Tie listed be;low.)
+They are also related to [[Jack Duskin]]'s notion of [[hypergroupoid]].(The connection is explored in the papers by Nan Tie listed below.)
 
 ##References
 
