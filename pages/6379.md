@@ -230,7 +230,7 @@ which completes the proof.
 
 ## Other reciprocity laws 
 
-As mentioned earlier, quadratic reciprocity law is due to Gauss and is the first of a number of reciprocity laws in number theory. The Wikipedia article lists a bevy of reciprocity laws, gradually increasing in modernity and abstraction (and power), and culminating in [[Artin reciprocity]], a capstone of the classical class field theory. 
+As mentioned earlier, quadratic reciprocity law is due to Gauss and is the first of a number of reciprocity laws in number theory. The Wikipedia article lists a bevy of reciprocity laws, gradually increasing in modernity and abstraction (and power), and culminating in [[Artin reciprocity]], a capstone of the classical [[class field theory]]. 
 
 
 ## References 
