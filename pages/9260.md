@@ -1,3 +1,9 @@
+A statistical model is a measurable function $P : \Theta \to \Delta(X)$, where $X$ and $\Theta$ are [[measurable spaces]] and $\Delta(X)$ is the [[simplex]] of [[probability measures]] over $X$.
+
+Peter McCullagh has written [an article](http://projecteuclid.org/DPubS/Repository/1.0/Disseminate?view=body&id=pdf_1&handle=euclid.aos/1035844977) on applying category theory to describe statistical models. One day much of this content should migrated here on the nLab.
+
+*** 
+
 Related entries
 
 physics
