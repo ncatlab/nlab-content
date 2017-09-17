@@ -124,6 +124,12 @@ $$
 \xRightarrow[a]{b} \xRightarrow [a]{b} \xRightarrow [a]b \xRightarrow[a]b
 $$
 
+*[[reflective]]* subcategory
+
+[[reflective subcategory|*reflective* subcategory]]
+
+[[reflective subcategory|<em>reflective</em> subcategory]]
+
 category: meta
 
 [[!redirects sandbox]]
