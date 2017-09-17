@@ -113,7 +113,7 @@ which uses the pentagon coherence condition, naturality of $\alpha$, and a unit 
 
 +-- {: .num_lemma} 
 ###### Lemma (Kelly) 
-The equation $\lambda_1 = \rho_1$ holds in a monoidal category. 
+The equation $\lambda_1 = \rho_1 \colon 1 \otimes 1 \to 1$ holds in a monoidal category. 
 =-- 
 
 +-- {: .proof}
