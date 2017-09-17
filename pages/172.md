@@ -13,13 +13,6 @@
 =--
 =--
 
-* [[sheaf]]
-
-* [[2-sheaf]] / [[stack]]
-
-* [[(∞,1)-sheaf]] / **$\infty$-stack**
-
-***
 
 
 #Contents#
@@ -148,6 +141,13 @@ $$
   \,.
 $$
 
+## Related concepts
+
+* [[sheaf]]
+
+* [[2-sheaf]] / [[stack]]
+
+* [[(∞,1)-sheaf]] / **$\infty$-stack**
 
 
 
