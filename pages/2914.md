@@ -49,30 +49,90 @@ The proofs are in ([OvMod](#OvMod)).
 +-- {: .num_prop}
 ###### Proposition
 
-If $C$ is a [[simplicial combinatorial model category]] and $X \in C$ is fibrant, then
-$C/X$ [[presentable (infinity,1)-category|presentation]] for the 
-[[over-(infinity,1)-category]] $C^\circ / X$
+If $C$ is a [[simplicial model category]] and $X \in C$ is fibrant, then
+the [[overcategory]] $C/X$ with the above slice model structure is a [[presentable (infinity,1)-category|presentation]] of the 
+[[over-(∞,1)-category]] $C^\circ / X$: we have an [[equivalence of (∞,1)-categories]]
 
 $$
   (C/X)^\circ \simeq C^\circ / X
+  \,.
 $$
 
 =--
 
-To see this, use the description of the [[derived hom-space]] in an [[over-(infinity,1)-category]] (see there) as a [[homotopy pullback]]
+
++-- {: .proof}
+###### Proof
+
+It is clear that we have an [[essentially surjective (∞,1)-functor]] $C^\circ/X \to (C/X)^\circ$. What has to be shown is that this is a [[full and faithful (∞,1)-functor]] in that it is an [[equivalence in an (∞,1)-category|equivalence]] on all [[hom-object|hom]]-[[∞-groupoid]]s $C^\circ/X(a,b) \simeq (C/X)^\circ(a,b)$.
+
+To see this, notice that the hom-space in an [[over-(∞,1)-category]] $C^\circ/X$ between objects $a : A \to X$ and $b : B \to X$ is given (as discussed there) by the 
+[[(∞,1)-pullback]]
 
 $$
   \array{
-    C^\circ/X(a : A \to X, b : B \to X) &\to& C(A,B)
+    C^\circ/X(A \stackrel{a}{\to} X, B \stackrel{b}{\to} X) 
+     &\to& C^\circ(A,B)
+    \\
+    \downarrow && \downarrow^{\mathrlap{b_*}}
+    \\
+    {*} &\stackrel{a}{\to}& C^\circ(A,X)
+  }
+$$
+
+in [[∞Grpd]].
+
+Let $A \in C$ be a cofibrant representative and $b : B \to X$ be a 
+fibration representative in $C$ (which always exists) of the objects of these names in $C^\circ$, respectively. In terms of these we have a cofibration
+
+$$
+  \array{
+    \emptyset &&\hookrightarrow&& A
+    \\
+    & \searrow && \swarrow_{\mathrlap{a}}
+    \\ 
+    && X
+  }
+$$
+
+in $C/X$, exhibiting $a$ as a cofibrant object of $C/X$;  and a fibration
+
+$$
+  \array{
+    B &&\stackrel{b}{\to}&& X
+    \\
+    & {}_{\mathllap{b}}\searrow && \swarrow_{\mathrlap{Id}}
+    \\ 
+    && X
+  }
+$$
+
+in $C/X$, exhibiting $b$ as a fibrant object in $C/X$.
+ 
+Moreover, the diagram in [[sSet]] given by
+
+$$
+  \array{
+    C/X(a, b) &\to& C(A,B)
     \\
     \downarrow && \downarrow^{\mathrlap{b_*}}
     \\
     {*} &\stackrel{a}{\to}& C(A,X)
   }
-  \,.
 $$
 
-If $a : A \to X$ is cofibrant then $A$ is cofibrant, and if then $b : B \to X$ is fibrant, $B$ is fibrant and $b_* : C(A,B) \to C(A,X)$ is a fibration in the standard [[model structure on simplicial sets]] (by the axioms on an [[enriched model category]].) Therefore in this case the above [[homotopy pullback]] is computed by the ordinary pullback in [[sSet]]. This computes indeed the hom-space of the ordinary [[overcategory]] $C/X$.
+is 
+
+1. a [[pullback]] diagram in [[sSet]] (by the definition of morphism in an ordinary [[overcategory]]);
+
+1. a [[homotopy pullback]] in the [[model structure on simplicial sets]], because  by the axioms on the [[sSet]]${}_{Quillen}$ [[enriched model category]] $C$ and the above (co)fibrancy assumptions, all objects are [[Kan complex]]es and the right vertical morphism is a [[Kan fibration]]. 
+
+1. has in the top left the correct [[derived hom-space]] in $C/X$ (since $a$ is cofibrant and $b$ fibrant).
+
+This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSet$ is indeed a model for $C^\circ/X(a,b) \in \infty Grpd$.
+
+=--
+
 
 ## Related concepts
 
