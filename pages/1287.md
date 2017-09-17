@@ -42,7 +42,8 @@ $$
 
 be the [[terminal object|terminal]] [[(∞,1)-geometric morphism]], where $\Gamma$ is the [[global section]] [[(∞,1)-functor]] and $LConst$ the [[constant ∞-stack]]-functor.
 
-Write $\mathcal{S} := Fin \infty Grpd \in $ [[∞Grpd]] for the [[∞-groupoid]] of finite $\infty$-groupoids. This is canonically a [[pointed object]] $* \to \mathcal{S}$, with points the terminal groupoid.
+Write $\mathcal{S} := core(Fin \infty Grpd) \in $ [[∞Grpd]] for the [[core]] [[∞-groupoid]] of the [[(∞,1)-category]] of finite $\infty$-groupoids. (We can drop the finiteness condition by making use of a higher [[universe]].) This is canonically a [[pointed object]] $* \to \mathcal{S}$, with points the terminal groupoid.
+
 
 +-- {: .un_defn}
 ###### Definition
