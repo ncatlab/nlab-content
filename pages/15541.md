@@ -1,4 +1,0 @@
-Creating geometric quantization You can also read our quantization&amp in nLab
-<a href="http://www.g94jdl2371626g97mxl7y8oc3ri0x0vss.org/">adbynlnnil</a>
-[url=http://www.g94jdl2371626g97mxl7y8oc3ri0x0vss.org/]udbynlnnil[/url]
-dbynlnnil http://www.g94jdl2371626g97mxl7y8oc3ri0x0vss.org/
