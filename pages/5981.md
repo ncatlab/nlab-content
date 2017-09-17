@@ -67,7 +67,7 @@ $$
 A free variable becomes a **bound variable** after application of a [[quantifier]]: for instance the image of $f\colon P \to X$ under [[base change]]
 
 $$
-  \mathcal{C}_{/A} \stackrel{\to}{\stackrel{\leftarrow}{\to}}
+  \mathcal{C}_{/X} \stackrel{\to}{\stackrel{\leftarrow}{\to}}
   \mathcal{C}
 $$
 
