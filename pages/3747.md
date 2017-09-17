@@ -75,6 +75,8 @@ holds whenever $i \geq \alpha$ and $j \geq \beta$.  Actually, this is already a 
 
 Requiring a modulus of convergence would make no difference for either of these, since we would expect such a modulus to also to be either multivalued or given by a net, and these are easy to construct explicitly (even in constructive	mathematics).
 
+(Since the term 'Cauchy real number' logically applies just as well to these generalisations, we may speak of __sequential real numbers__ for the classical or modulated version.)
+
 
 ### Relations between these definitions
 
