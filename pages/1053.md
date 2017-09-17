@@ -166,6 +166,44 @@ category.  The [[exponential object|exponential]] (unsurprisingly for a Kleisli
 category) is $B^A \cong !A\multimap B$.
 
 
+## Game semantics
+
+We can interpret any proposition in linear logic as a game between two players: we and they. The overall rules are perfectly symmetric between us and them, although no individual game is. At any given moment in a game, exactly one of these three situations obtains: it is our turn, it is their turn, we have won, or they have won; the last two states continue forever afterwards (and the game is over).  If it is our turn, then they are winninger; if it is their turn, then we are winning.  So there are two ways to win: because the game is over (and a winner has been decided), or because it is forever the other players turn (either because they have no move or because every move results in its still being their turn).
+
+This is a little complicated, but it\'s important to distinguish the four constants:
+
+*  In $\top$, it is their turn, but they have no moves; the game never ends, but we win.
+*  Dually, in $\mathbf{0}$, it is our turn, but we have no moves; the game never ends, but they win.
+*  In contrast, in $\mathbf{1}$, the game ends immediately, and we have won.
+*  Dually, in $\bot$, the game ends immediately, and they have won.
+
+The binary operators show how to combine two games into a larger game:
+
+*  In $A \& B$, is is their turn, and they must choose to play either $A$ or $B$.  Once they make their choice, play continues in the chosen game, with ending and winning conditions as in that game.
+*  Dually, in $A \oplus B$, is is our turn, and we must choose to play either $A$ or $B$.  Once we make our choice, play continues in the chosen game, with ending and winning conditions as in that game.
+*  In $A \otimes B$, play continues with both games in parallel.  If it is our turn in either game, then it is our turn overall; if it is their turn in both games, then it is their turn overall.  If either game ends, then play continues in the other game; if both games end, then the overall game ends.  If we have won both games, then we have won overall; if they have won either game, then they have won overall.
+*  Dually, in $A \parr B$, play continues with both games in parallel.  If it is their turn in either game, then it is their turn overall; if it is our turn in both games, then it is our turn overall.  If either game ends, then play continues in the other game; if both games end, then the overall game ends.  If they have won both games, then they have won overall; if we have won either game, then we have won overall.
+
+So we can classify things as follows:
+
+*  In a conjunction, they choose what game to play; in a disjunction, we have control.  Whoever has control must win at least one game to win overall.
+*  In an addition, one game must be played; in a multiplication, all games must be played.
+
+To further clarify the difference between $\top$ and $\mathbf{1}$ (the additive and multiplicative versions of truth, both of which we win); consider $A \parr \top$ and $A \parr \mathbf{1}$.  In $A \parr \top$, it is always their move (since it is their move in $\top$, hence their move in at least one game), so we win just as we win $\top$.  (In fact, $A \parr \top \equiv \top$.)  However, in $A \parr \mathbf{1}$, the game $\mathbf{1}$ ends immediately, so play continues as in $A$.  We have won $\mathbf{1}$, so we only have to end the game to win overall, but there is no guarantee that this will happen.  Indeed, in $\mathbf{0} \parr \mathbf{1}$, the game never ends and it is always our turn, so they win.  (In $\bot \parr \mathbf{1}$, both games end immediately, and we win.  In $A \otimes \mathbf{1}$, we must win both games to win overall, so this reduces to $A$; indeed, $A \otimes \mathbf{1} \equiv A$.)
+
+Negation is easy:
+
+*  To play $A^\perp$, simply swap roles and play $A$.
+
+There are several ways to think of the exponentials.  As before, they have control in a conjunction, while we have control in a disjunction.  Whoever has control of $!{A}$ or $?{A}$ chooses how many copies of $A$ to play and must win them all to win overall.  There are many variations on whether the player in control can spawn new copies of $A$ or close old copies of $A$ prematurely, and whether the other player can play different moves in different copies (whenever the player in control plays the same moves).
+
+Other than the decisions made by the player in control of a game, all moves are made by transmitting resources.  Ultimately, these come down to the propositional variables; in the game $p$, we must transmit a $p$ to them, while they must transmit a $p$ to us in $p^\perp$.
+
+A game is __valid__ if we have a strategy to win (whether by putting the game in a state where we have won or by guaranteeing that it is forever their turn).  The soundness and completeness of this interpretation is the theorem that $A$ is a valid game if and only if $\vdash A$ is a valid sequent.  (Recall that all questions of validity of sequents can be reduced to the validity of single propositions.)
+
+Game semantics for linear logic was first proposed by [[Andreas Blass]], I believe in [Blass (1992)](#Blass).  The semantics here may or may not be the same as proposed by Blass.
+
+
 ## Multiple exponential operators
 
 Much as there are many [[exponential functions]] (say from $\mathbb{R}$ to $\mathbb{R}$), even though there is only one addition operation and one multiplication operation, so there can be many versions of the exponential operators $!$ and $?$.  (However, there doesn\'t seem to be any analouge of the [[logarithm]] to convert between them.)
@@ -184,6 +222,9 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 
 ## References
+
+*  Blass, Andreas, 'A game semantics for linear logic'.  _Annals of Pure and Applied Logic_ 56: 183--220, 1992.
+{#Blass}
 
 *  Girard, Jean-Yves, 'Linear logic'.  _Theoretical Computer
    Science_ 50:1, 1987.  Available in [PDF](http://iml.univ-mrs.fr/~girard/linear.pdf).
