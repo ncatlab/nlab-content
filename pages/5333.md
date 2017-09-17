@@ -40,9 +40,19 @@ Since global $N=1$ supersymmetry for a long time has been considered a promising
 
   * [[type II string theory]]
 
-* [[landscape of string theory vacua]]
+  * [[landscape of string theory vacua]]
 
-* [[supersymmetry and Calabi-Yau manifolds]]
+  * [[supersymmetry and Calabi-Yau manifolds]]
+
+* [[string field theory]]
+
+* [[11-dimensional supergravity]]
+
+  * [[Hořava-Witten theory]]
+
+* [[AdS-CFT correspondence]]
+
+
 
 ## References
 
