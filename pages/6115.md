@@ -52,7 +52,7 @@ $$
 
 in that $f^\ast$ is not only a [[strong monoidal functor]] but also a [[strong closed functor]], hence that [[Frobenius reciprocity]] holds.
 
-Moreover, along ([[cospan|co-]])[[spans]] of moprhisms pull-push $(f_!\dashv f^\ast)$ satisfies the [[Beck-Chevalley condition]] ([Hopkins-Lurie 14, prop. 4.3.3](#HopkinsLurie14)).
+Moreover, along ([[cospan|co-]])[[spans]] of morphisms pull-push $(f_!\dashv f^\ast)$ satisfies the [[Beck-Chevalley condition]] ([Hopkins-Lurie 14, prop. 4.3.3](#HopkinsLurie14)).
 
 One way to summarize all this is to say that parameterized spectra over  [[∞Grpd]] constitute a [[linear homotopy type theory]] ([Schreiber 14](#Schreiber14)).
 
