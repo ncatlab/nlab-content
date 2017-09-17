@@ -90,3 +90,6 @@ A discussion and comparison of big vs little approaches to $(\infty,1)$-topos th
 [[!redirects gros and petit topoi]]
 [[!redirects petit and gros toposes]]
 [[!redirects petit and gros topoi]]
+
+
+[[!redirects big and little topos]]
