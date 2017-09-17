@@ -17,16 +17,14 @@
 =--
 =--
 
-
-
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-A _logical framework_ is a formal meta-language for deductive systems, such as [[natural deduction]], [[type theories]], or [[sequent calculus]] etc. 
+A _logical framework_ is a formal [[metalanguage]] for deductive systems, such as [[natural deduction]], [[type theories]], [[sequent calculus]], etc. 
+
 
 ## Examples
 
