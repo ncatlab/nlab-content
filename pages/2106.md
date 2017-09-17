@@ -39,6 +39,8 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
 
   See [[higher symplectic geometry]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
 
 ## References
 
