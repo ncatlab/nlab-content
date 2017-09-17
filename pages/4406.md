@@ -62,6 +62,12 @@ Finally, let $F \to R$ be any order-preserving field homomorphism to a real clos
 
 1. Given an o-minimal ordered ring $R$, the field of [[germ]]s at infinity of definable functions $R \to R$ in any o-minimal expansion of $(R, 0, 1, +, -, \cdot, \lt)$ is real closed. (By "germ at infinity", we mean an equivalence class of functions for which $f \equiv g$ if and only if $f(x) = g(x)$ for all sufficiently large $x$.)
 
+## References 
+
+* Serge Lang, _Algebra_ (3rd edition), Addison-Wesley, 1993. 
+
+* David Marker, _Notes on Real Algebra_ [(link)](http://www.math.uic.edu/~marker/orsay/real_algebra.pdf) 
+
 
 [[!redirects real closed field]]
 [[!redirects real closed fields]]
