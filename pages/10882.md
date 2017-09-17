@@ -37,6 +37,8 @@ of [[representable|representability]] by [[Deligne-Mumford stacks]] in [[E-∞ g
 
 ### 4.2 Dualizing modules
 
+* [[dualizing object in a closed category]]
+
 * [[dualizing module]] ([[Verdier duality]])
 
 ### 4.3 Existence of dualizing modules
