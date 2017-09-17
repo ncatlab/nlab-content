@@ -168,6 +168,8 @@ This morphism locally takes the local [[differential form]] incarnation $A$ of a
 
 * [[effective action functional]], [[background field formalism]]
 
+* [[parent action functional]]
+
 [[!include extended prequantum field theory - table]]
 
 
