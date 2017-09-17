@@ -385,9 +385,13 @@ Given a category $\mathrm{Aff}$ of affine schemes (opposite to the category of r
 consider two variants: a less important variant of quasicoherent $O_X^p$-modules (existing in bigger generality) and more delicate variant of quasicoherent $O^!_X$-modules defined for "reasonable ind-schemes"; one of the differences is which functors play the role of pullbacks.  In particular, these notions apply for a rather general variant of the category of formal schemes.
   
   
-### Quasicoherent modules in higher/derived context {#Higher}
+### Quasicoherent modules in higher/derived geometry
+ {#Higher}
 
-The last definition has a  straightforward generalization to various [[higher category theory|higher categorical]] setups, such as [[derived scheme]]s and other [[generalized scheme]]s. 
+
+The last definition has a  straightforward generalization to various [[higher geometry]] setups, such as [[derived schemes]] and other [[generalized schemes]]. 
+
+#### By maps into the stack $QCoh$
 
 For instance the notion of
 quasicoherent sheaves generalized to [[derived stack]]s on the
@@ -420,6 +424,57 @@ $$
 as a definition of generalized $\infty$-vector bundles on $X$. This general nonsense is considered further at [[schreiber:∞-vector bundle]]. Concrete realizations are discussed at [[quasicoherent ∞-stack]].
 
 
+#### As lifts of the structure sheaf
+
+In ([LurieQC, section 2.2, section 2.3](#LurieQC)) the following definition is given.
+
+Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]]. Let 
+
+$$
+  \mathcal{G}^{mod} \coloneqq T {\mathcal{G}^{op}}^{op}
+$$ 
+
+be the opposite [[tangent (∞,1)-category]] of its [[opposite (∞,1)-category]]. 
+
+For instance for [[E-∞ geometry]] we have $\mathcal{G} = CRing_\infty$ is the [[(∞,1)-category]] of [[E-∞ rings]] with [[etale morphisms]] as admissible maps.
+
+Then the canonical  [[(∞,1)-functor]]
+
+$$
+  \mathcal{G}^{mod} \longrightarrow \mathcal{G}
+$$
+
+is a morphism of discrete [[geometry (for structured (∞,1)-toposes)|geometries]].
+
+For $\mathcal{X}$ an [[(∞,1)-topos]], a [[left exact (∞,1)-functor]]
+
+$$
+  \mathcal{O} \colon \mathcal{G} \longrightarrow \mathcal{X}
+$$
+
+constitutes a $\mathcal{G}$-[[structure sheaf]] and makes $(\mathcal{X}, \mathcal{O})$ be a $\mathcal{G}$-[[structured (∞,1)-topos]]. A left exact extension of this
+
+$$
+  \array{
+     \mathcal{G}^{mod}
+     \\
+     \downarrow & \searrow^{\mathrlap{(\mathcal{O}, \mathcal{F})}}
+     \\
+     \mathcal{X} 
+     &\stackrel{\mathcal{O}}{\longrightarrow}& \mathcal{G}
+  }
+$$
+
+exhibits a sheaf $\mathcal{F}$ of [[modules]] over $\mathcal{O}$.
+
+([LurieQC, notation 2.2.4](#LurieQC))
+
+
+now
+
+([LurieQC, def. 2.3.6](#LurieQC))
+
+(...)
 
 
 
@@ -457,6 +512,7 @@ The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasico
 Quasicoherent sheaves in [[E-∞ geometry]] (on "[[Spectral Schemes]]" over [[E-∞ rings]]) are discussed in 
 
 * [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+ {#LurieQC}
 
 Their [[descent]] properties are discussed in
 
