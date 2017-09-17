@@ -32,7 +32,7 @@ This is similarr to [[ETop∞Grpd]], which models cohesibion in the form of [[Eu
 
 Let $CTop$ be some small version (...details missing...) of the site of [[locally contractible topological space|locally contractible]] [[contractible space|contractible topological space]]s with [[continuous map]]s betwen them and equpped with the standard [[open cover]] [[coverage]].
 
-This is a [[cohesive site]] (...for the evident generalization of that definitions where Cech covers are generalized to hypercovers...). The key axiom to check is that for $Y \to U$ a [[hypercover]] of $U \in CTop$ degreewise by a [[coproduct]] of contractibles, also the simplicial set $\lim_\to Y$ obtained by sending each contractible to a point is contractible. This follows with [ArtinMazur](#ArtinMazur). See the [proposition beelow](...)
+This is a [[cohesive site]] (...for the evident generalization of that definitions where Cech covers are generalized to hypercovers...). The key axiom to check is that for $Y \to U$ a [[hypercover]] of $U \in CTop$ degreewise by a [[coproduct]] of contractibles, also the simplicial set $\lim_\to Y$ obtained by sending each contractible to a point is contractible. This follows with [ArtinMazur](#ArtinMazur). See the [proposition below](...)
 
 Define then 
 
