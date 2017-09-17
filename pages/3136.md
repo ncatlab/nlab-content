@@ -110,3 +110,7 @@ A review is for instance in section 2.2 of
 * [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
   {#CBMMS} 
 
+
+[[!redirects lifting gerbes]]
+[[!redirects lifting bundle gerbe]]
+[[!redirects lifting bundle gerbes]]
