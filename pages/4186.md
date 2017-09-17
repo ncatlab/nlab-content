@@ -57,6 +57,12 @@ More on this in
 
 * [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Classification of Local Conformal Nets. Case $c \lt 1$ _ ([arXiv](http://arxiv.org/abs/math-ph/0201015))
 
+### Representation theory
+
+Articles that discuss the [[representation theory]] of conformal nets include
+
+* Sebastiano Carpi, [[Roberto Conti]], Robin Hillier, Mihaly Weiner, _Representations of Conformal Nets, Universal $C^\ast$-Algebras and K-Theory_ ([arXiv:1202.2543](http://arxiv.org/abs/1202.2543))
+
 
 [[!redirects conformal nets]]
 
