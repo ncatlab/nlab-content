@@ -62,16 +62,13 @@ Every von Neumann algebra may be written as a direct integral over factors.
 
 ## References
 
+### General
+
 The original sources are
 
 * Murray, [[John von Neumann]], ...
 
 * [[Alain Connes]], ...
-
-The mathematics of inclusions of __subfactors__ is giving very deep structural insights, see [[planar algebra]] and 
-
-* V. F. R. Jones, _Index for subfactors_, Invent. Math. __72__, I (I983); _A polynomial invariant for links via yon Neumann algebras_, Bull. AMS __12__, 103 (1985); _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__, 335 (1987)
-
 
 Lecture notes include
 
@@ -79,4 +76,28 @@ Lecture notes include
 
 * Hideki Kosaki, _Type III factors and index theory_ (1993) ([pdf](http://pages.uoregon.edu/njp/lec-f.pdf))
 
+### Subfactors
+
+The mathematics of inclusions of _subfactors_ is giving deep structural insights. See also at _[[planar algebra]]_. 
+
+* [[Vaughan Jones]], 
+
+  _Index for subfactors_, Invent. Math. __72__, I (I983); 
+
+  _A polynomial invariant for links via von Neumann algebras_, Bull. AMS __12__, 103 (1985); 
+
+  _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__, 335 (1987)
+
+* [[Vaughan Jones]], [[Scott Morrison]], [[Noah Snyder]], _The classification of subfactors of index at most 5_ ([arXiv:1304.6141](http://arxiv.org/abs/1304.6141))
+
+
+
+
 [[!redirects von Neumann algebra factors]]
+
+[[!redirects von Neumann algebra subfactor]]
+[[!redirects von Neumann algebra subfactors]]
+
+[[!redirects subfactor]]
+[[!redirects subfactors]]
+
