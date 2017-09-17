@@ -15,28 +15,29 @@
 
 ## Idea
 
-In [[type theory]]/[[categorical semantics]] some logical operations on [[propositions]]/[[h-level 1]] a priori lead out of the class of propositions into [[h-level 2]], namely forming [[or]]/[[sum type]] and [[existential quantification]]/[[dependent sum type]].
+There are various different paradigms for the interpretation of predicate [[logic]] in [[type theory]].  In "logic-enriched type theory", there is a separate class of "propositions" from the class of "types".  But we can also identify propositions with particular types.  In the [[propositions as types]] paradigm, every proposition is a type, and also every type is identified with a proposition (the proposition that it is [[inhabited]]).
 
-The _bracket type_ of a given type is the _underlying proposition_ in the sense of [[propositions as types]], namely the [[truncated|(-1)-truncation]]/[[h-level 1|h-level 1-projection]].
+By contrast, in the paradigm that may be called *propositions as some types*, every proposition is a type, but not every type is a proposition.  The types which are propositions are generally those which "have at most one inhabitant" --- in [[homotopy type theory]] this is called being of [[h-level 1]] or being a $(-1)$-type.  This paradigm is often used in the [[categorical semantics]] of type theory, such as the [[internal logic]] of various kinds of categories.
+
+Under "propositions as types", all type-theoretic operations represent corresponding logical operations ([[dependent sum]] is the [[existential quantifier]], [[dependent product]] the [[universal quantifier]], and so on).  However, under "propositions as some types", not every such operation preserves the class of propositions; this is particularly the case for [[dependent sum]] and [[or]].  Thus, in order to obtain the correct logical operations, we need to reflect these constructions back into propositions somehow, finding the "underlying proposition", corresponding to the [[truncated|(-1)-truncation]]/[[h-level 1|h-level 1-projection]].  This operation in type theory is called the **bracket type** (when denoted $[A]$); in [[homotopy type theory]] it can be identified with the [[higher inductive type]] $isInhab$.
 
 
 ## Properties
 
-[[dependent type theory]] with the [[unit type]], 
-[[strong extensional equality types]],
-strong [[dependent sums]], and bracket types is the 
-[[internal logic|internal]] [[type theory]] of 
-[[regular categories]].
+One presentation of the [[internal logic|internal]] [[type theory]] of 
+[[regular categories]] consists of [[dependent type theory]] with the [[unit type]], 
+[[strong extensional equality types]], strong [[dependent sums]], and bracket types.  (The internal logic of a regular category can alternatively be presented as a [[logic-enriched type theory]].)
+
 
 ## Semantics
 
 The [[semantics]] of bracket types in a [[regular category]] $C$ is as follows.
 
-For 
+A [[dependent type]] (a type in [[context]] $X$)
 
-    A ( x : X) : Type
+$$x\colon X \vdash A(x) \colon Type$$
 
-a [[dependent type]] (type in [[context]] $X$) it is interpreted in $C$ as a [[morphism]]
+is interpreted in $C$ as an arbitrary [[morphism]]
 
 $$
   \array{
@@ -51,7 +52,7 @@ $$
 
 The corresponding bracket type
 
-    [A] (x : X) : Type
+$$ x\colon X \vdash [A(x)] \colon Type $$
 
 is interpreted then as the [[image]]-[[(epi, mono) factorization system|factorization]] 
 
@@ -66,7 +67,7 @@ $$
   }
 $$
 
-Therefore $[A] \to X$ is a [[monomorphism]] and hence the interpretation of a [[proposition]] about the elements of $X$.
+Therefore $[A] \to X$ is a [[monomorphism]], and hence the interpretation of a [[proposition]] about the elements of $X$.
 
 ## References
 
