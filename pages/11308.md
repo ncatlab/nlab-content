@@ -1,0 +1,6 @@
+
+Different things are called _characteristic series_ in mathematics. For instance
+
+* the [[formal power series]] characterizing a [[genus]] (see there) of oriented or stable almost complex manifolds
+
+* ...
