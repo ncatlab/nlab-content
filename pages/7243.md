@@ -31,11 +31,37 @@ also considered as a topological ring if the limit is taken in the category of t
 
 ## Properties
 
+### Topology
+
 The $p$-adic integers have the following properties: 
 
 * As a [[topological space]], it is [[compact space|compact]], [[Hausdorff space|Hausdorff]], and [[totally disconnected space|totally disconnected]] (i.e., is a [[Stone space]]). Moreover, every point is an [[accumulation point]], and there is a countable basis of [[clopen set|clopen sets]] -- a Stone space with these properties must be [[homeomorphism|homeomorphic]] to [[Cantor space]]. 
 
 * As a [[topological group]] under addition, it is therefore an [[almost connected group]]. As an [[abelian group|abelian]]  [[compact group]], it is [[Pontryagin duality|Pontryagin dual]] to the [[Prüfer group|Prüfer]] $p$-group as [[discrete group]]. 
+
+### Relation to profinite group completion
+
++-- {: .num_example}
+###### Example
+
+The [[profinite completion of a group|profinite completion]] of the [[integers]] is
+
+$$
+  \widehat {\mathbb{Z}} \coloneqq \underset{\leftarrow}{\lim}_n \mathbb{Z}/n\mathbb{Z}
+  \,.
+$$
+
+This is [[isomorphism|isomorphic]] to the [[product]] of the $p$-adic integers for all $p$
+
+$$
+  \widehat{\mathbb{Z}} \simeq \underset{p}{\prod} \mathbb{Z}_p
+  \,.
+$$
+
+For more on this see at _[[p-adic integers]]_, at _[[adele]]_ and _[[idele]]_.
+
+=--
+
 
 
 ## Related notions 
