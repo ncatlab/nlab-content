@@ -354,3 +354,6 @@ which provides an alternative expression of the functoriality condition as simpl
 [[!redirects functors]]
 [[!redirects covariant functor]]
 [[!redirects covariant functors]]
+
+[[!redirects internal functor]]
+[[!redirects internal functors]]
