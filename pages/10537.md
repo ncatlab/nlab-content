@@ -24,7 +24,7 @@
 
 A [[cohesive (∞,1)-topos]] is _infinitesimal cohesive_ if all its objects behave like built from [[infinitesimally thickened points|infinitesimally thickened]] [[geometrically discrete ∞-groupoids]] in that they all have "precisely one point in each cohesive piece". 
 
-(There is an evident version of an infinitesimally cohesive 1-topos. In ([Lawvere 07, def. 1](#Lawvere07)) such is referred to as a "quality type". A hint of this seems to be also in ([Lawvere 91, p. 9](#Lawvere91))).
+(There is an evident version of an infinitesimally cohesive 1-topos. In ([Lawvere 07, def. 1](#Lawvere07)) such is referred to as a "[[quality type]]". A hint of this seems to be also in ([Lawvere 91, p. 9](#Lawvere91))).
 
 
 ## Definition
