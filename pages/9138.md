@@ -103,3 +103,11 @@ Discussion of effect algebras in the context of [[categorical logic]] is in
 
 * [[Bart Jacobs]], _New Directions in Categorical Logic, for Classical, Probabilistic and Quantum Logic_, (2012) ([arXiv:1205.3940 ](http://arxiv.org/abs/1205.3940))
  {#Jacobs}
+
+A survey of the use of effect algebras in [[quantum mechanics]] is in 
+
+* Teiko Heinosaari, Mario Ziman, _Guide to Mathematical Concepts of Quantum Theory_ ([arXiv:0810.3536](http://arxiv.org/abs/0810.3536))
+
+  also appeared as:
+
+  _The Mathematical Language of Quantum Theory_, Cambridge University Press (2011)
