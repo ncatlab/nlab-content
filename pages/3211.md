@@ -164,12 +164,10 @@ A discussion specific to [[dg-geometry]] with an emphasis on the [[geometric ∞
 * [[David Ben-Zvi|Ben-Zvi]], [[John Francis]],  [[David Nadler]], _Integral transforms and Drinfeld centers in derived algebraic geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
 {#Ben-ZviFrancisNadler}
 
-
-
+category: algebraic geometry
 [[!redirects quasicoherent ∞-stack]]
 [[!redirects quasicoherent ∞-stacks]]
 [[!redirects quasicoherent infinity-stacks]]
-
 [[!redirects quasicoherent (∞,1)-sheaf]]
 [[!redirects quasicoherent (∞,1)-sheaves]]
 [[!redirects quasicoherent (infinity,1)-sheaf]]
