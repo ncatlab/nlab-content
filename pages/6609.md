@@ -3,6 +3,8 @@
 * table of contents
 {:toc}
 
+This is about tensor quantities like used in physics and geometry. For the notion of a "tensor" in [[enriched category theory]] see under [[copower]]. 
+
 ## Definition
 
 Generally, a _tensor_ is an element of a [[tensor product]].
