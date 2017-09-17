@@ -36,7 +36,7 @@ Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each othe
 
 * Conjunctions (and companion pairs) have a [[mate]] correspondence generalizing the calculus of mates in 2-categories.
 
-* If every vertical arrow in some double category $D$ has a right conjoint, then the functor $f\mapsto g$ is a [[pseudofunctor]] $V D^{op}\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and locally fully faithful by the mate correspondence.  If every vertical arrow also has a companion, then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
+* If every vertical arrow in some double category $D$ has a right conjoint, then the functor $f\mapsto g$ is a [[pseudofunctor]] $V D^{op}\to H D$ from the vertical 2-category to the horizontal one, which is the identity on objects, and [[locally fully faithful 2-functor|locally fully faithful]] by the mate correspondence.  If every vertical arrow also has a [[companion]], then this makes $D$ into a [[proarrow equipment]], or equivalently a [[framed bicategory]].
 
 ## References
 
