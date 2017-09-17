@@ -6,7 +6,7 @@
 
 ## Idea
 
-In [[QCD]] a [[bound state]] of three [[quarks]] via the [[strong nuclear force]]. 
+In [[QCD]] a [[bound state]] of three [[quarks]] via the [[strong nuclear force]].  For instance a [[proton]] or a [[neutron]].
 
 ## Related concepts
 
