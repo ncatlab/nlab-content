@@ -205,6 +205,8 @@ where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. ([BG
 
   * [[noncommutative motive]]
 
+* [[Waldhausen K-theory of a dg-category]]
+
 * [[groupoid K-theory]]
 
 * [[operator K-theory]]
@@ -248,7 +250,7 @@ interprets the construction of the K-theory spectrum as a natural operation of
 
 The universal property of the $(\infty,1)$-categorical definition is studied in 
 
-* [[Andrew Blumberg]], [[David Gepner]], [[Gonzalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+* [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
  {#BGT}
 
 
@@ -256,7 +258,7 @@ The universal property of the $(\infty,1)$-categorical definition is studied in
 
 The standard constructions of K-theory spectra from [[Quillen exact categories]] are discussed in detail in chapter 1 of
 
-* Eric M. Friedlander, Daniel R. Grayson, _Handbook of K-theory_, Springer Verlag .
+* [[Eric Friedlander]], [[Daniel Grayson]], _Handbook of K-theory_, Springer Verlag .
 
 A useful introduction to the definition and computation of K-groups (with a little on K-spectra) is
 
