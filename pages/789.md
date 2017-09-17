@@ -39,7 +39,7 @@ It was in particular motivated by the observation that this provides a natural f
 
 ## References
 
-Generalized complex geometry was propsoed by [[Nigel Hitchin]] as a formalism in [[differential geometry]] that would be suited to capture the phenomena that physicists encountered in the study of [[T-duality]].
+Generalized complex geometry was proposed by [[Nigel Hitchin]] as a formalism in [[differential geometry]] that would be suited to capture the phenomena that physicists encountered in the study of [[T-duality]].
 It was later and is still developed by his students, notably Gualtieri and Cavalcanti.
 
 
