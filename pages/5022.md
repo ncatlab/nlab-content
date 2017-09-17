@@ -6,7 +6,7 @@
 ## Frames in Modal Logics ## 
 (The term **frame** is used in a different sense in [[modal logic]] than in [[geometric logic]] where it stands for an abstraction of the algebraic structure corresponding to the [[lattice]] of [[open sets]] of a [[topological space]].)
 
-We will start with the simplest case, namely a frame for the basic [[modal language]] $\mathcal{L}_\omega(1)$, (so with _one_ _binary_ modal operator, denoted $\Diamond$).
+We will start with the simplest case, namely a frame for the basic [[modal logic|modal language]]#modal language $\mathcal{L}_\omega(1)$, (so with _one_ _binary_ modal operator, denoted $\Diamond$).
 
 +--{: .un_defn}
 ######Definition ######
