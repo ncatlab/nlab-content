@@ -22,12 +22,31 @@
 
 In **string topology** one studies the [[BV-algebra]]-structure on the [[singular homology]] of the [[free loop space]] $X^{S^1}$ of an [[oriented]] [[manifold]] $X$, or more generally the [[framed little 2-disk operad|framed little 2-disk algebra]]-structure on the singular [[chain complex]]. This is a special case of the general algebraic structure on higher order [[Hochschild cohomology]], as discussed there. 
 
-The study of _string topology_ was initated by Moira Chas and [[Dennis Sullivan]]. 
+The study of _string topology_ was initated by [[Moira Chas]] and [[Dennis Sullivan]]. 
+
+
+## In terms of TQFTs
+
+The structures studied in the _string topology_ of a [[smooth manifold]] $X$ may be understood as being essentially the data of a 2-dimensional [[topological field theory]] [[sigma model]] with [[target space]] $X$, or rather its linearization to a [[TCFT]] (with due care on some technical subtleties). 
+
+The idea is that the [[configuration space]] of a closed or open [[string]]-[[sigma-model]] propagating on $X$ is the [[loop space]] or path space of $X$, respectively. The space of [[state]]s of the string is some space of sections over this configuration space, to which the (co)homology $H_\bullet(L X)$ is an approximation. The string topology operations are then the [[cobordism]]-representation
+
+$$
+  H_\bullet(Bord_2) \to Ch_\bullet
+$$
+
+given by the [[FQFT]] corresponding to the $\sigma$-modelon these state spaces, acting on these state spaces.
+
+The topological construction goes back to ([Godin](#Godin)). A conjecture for how string topology yields a [[TCFT]] is in ([Costello](#Costello)), which is made more precise at the end of ([Lurie](#Lurie)). More details on all this are in ([Kuipers](#Kuipers)).
+
+(...)
 
 
 ## References
 
-* Moira Chas, [[Dennis Sullivan]], _String topology_, Ann. Math. [math.GT/9911159](http://arxiv.org/abs/math/9911159)
+The original references include the following:
+
+* [[Moira Chas]], [[Dennis Sullivan]], _String topology_, Ann. Math. [math.GT/9911159](http://arxiv.org/abs/math/9911159)
 
 * [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_, [math.GT/05036259](http://arxiv.org/abs/math/0503625), 95 pp. published as a part of R. Cohen, [[Kathryn Hess|K. Hess]], A. Voronov, _String topology and cyclic homology_, CRM Barcelona courseware, Springer, [description](http://www.springer.com/birkhauser/mathematics/book/978-3-7643-2182-6), [doi](http://dx.doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)
 
@@ -37,10 +56,33 @@ The study of _string topology_ was initated by Moira Chas and [[Dennis Sullivan]
 
 * [[Ralph Cohen]], _Homotopy and geometric perspectives on string topology_, [pdf](http://math.stanford.edu/~ralph/skyesummary.pdf)
 
+The interpretation of string topology as a [[TQFT]] is due to
+
+* Veronique Godin, _Higher string topology operations_ ([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+ {#Godin}
+
+A conjecture for how the linearization gives a [[TCFT]] is in 
+
+* [[Kevin Costello]],  _Topological conformal field theories and Calabi-Yau $A_\infty$-categories_ , [arXiv:0412149](http://arxiv.org/abs/0412149).
+ {#Costello}
+
+which is later refined in
+
+* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+ {#Lurie}
+
+(see towards the very end).
+
+More details on all this, as well as the generalization to multiple [[D-brane]]s is discussed in
+
+* [[Sander Kuipers]], _String topology operations_ MS thesis (2011)
+ {#Kuipers}
+
+A generalization of string topology with target manifolds generalized to target [[differentiable stack]]s/[[Lie groupoid]]s is discussed in
+
 * [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_, (89 pages) [arxiv/0712.3857](http://arxiv.org/abs/0712.3857); _String topology for loop stacks_, C. R. Math. Acad. Sci. Paris, __344__ (2007), no. 4, 247--252, (6 pages, [pdf]())
 
 * Po Hu, _Higher string topology on general spaces_, Proc. London Math. Soc. __93__ (2006) 515-544, [doi](http://dx.doi.org/10.1112/S0024611506015838), [ps](http://www.math.wayne.edu/~po/koszul04.ps)
-
 
 The relation between string topology and [[Hochschild cohomology]] in dimenion $\gt 1$ is discussed in
 
