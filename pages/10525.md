@@ -70,14 +70,23 @@ The $JB$-algebra $A$ is a __$JBW$-algebra__ if it is unital and if its [[underly
 
 See [[von Neumann algebra]] for motivation of the predual.  (Is it unique?  Should be!)
 
++-- {: .num_defn}
+###### Definition
+
+A __[[homomorphism]]__ from a Jordan--Banach algebra $A$ to a Jordan--Banach algebra $B$ is a [[short linear map]] $T\colon A \to B$ of Banach spaces such that $T(x \circ y) = T(x) \circ T(y)$ always holds.  If $A$ and $B$ are unital, then the homomorphism is __unital__ if $T(1) = 1$.
+=--
+
+If $A$ and $B$ are $JB$-algebras, then we need not require $T$ to be short; this follows.  Also, if $A$ and $B$ are unital $JB$-algebras, then every nonzero homomorphism between them is unital.
+
+
+## Representations
+
+Given a $JB$-algebra $A$ and a [[Hilbert space]] $H$, a __[[representation]]__ $\pi$ of $A$ on $H$ is a homomorphism from $A$ to the algebra of [[Hermitian operators]] on $H$.
+
 
 ## Examples
 
-The main example of a $JB$-algebra is the algebra of [[self-adjoint operator]]s in a $C^*$-[[C-star-algebra|algebra]].  For a $JBW$-algebra, try the algebra of self-adjoint operators in a [[von Neumann algebra]].
-
-In particular, the algebra of self-adjoint operators on a [[Hilbert space]] is a $JBW$-algebra.  (Note that a real Hilbert space and its complexification have the same algebra of self-adjoint operators.)
-
-The [[trivial ring|trivial algebra]] (which is the algebra of self-adjoint operators on the zero Hilbert space) is a $JBW$-algebra, although it might not fit definitions by authors who mistakenly require ${\|1\|} = 1$.
+The main example of a $JB$-algebra is the algebra of [[self-adjoint operator]]s in a $C^*$-[[C-star-algebra|algebra]].  For a $JBW$-algebra, try the algebra of self-adjoint operators in a [[von Neumann algebra]].  In particular, the algebra of Hermitian operators on a [[Hilbert space]] is a $JBW$-algebra.  The [[trivial ring|trivial algebra]] (which is the algebra of self-adjoint operators on the zero Hilbert space) is a $JBW$-algebra, although it won\'t fit definitions by authors who require ${\|1\|} = 1$.
 
 
 ## Properties
