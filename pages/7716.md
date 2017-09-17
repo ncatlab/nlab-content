@@ -24,7 +24,7 @@ G&\mapsto&M(G)
 
 is a contravariant functor from affine commutative unipotent $k$-groups to the category of $W(k)$-modules.
 
-Recall from moreover from [[III.5, Dieudonné modules (affine unipotent groups)
+Recall moreover from [[III.5, Dieudonné modules (affine unipotent groups)
 ]] that $Tor_V D_k-Mod:=Acu_k(G,W_{nk})=\{m\in M(G)|V^n m =0\}$ is a submodule.
 
 which are $W(k)$-modules of finite length, killed by a power of $V$, Definition [[Verschiebung morphism]], and on which $F$, Definition [[Frobenius morphism]], is bijective  (resp. and killed by a power of $F$).
