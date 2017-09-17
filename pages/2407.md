@@ -28,6 +28,8 @@ A __propositional calculus__, also called __sentential calculus__, is simply a s
 
 * [[higher order logic]]
 
+* [[modal logic]]
+
 [[!redirects propositional logic]]
 [[!redirects propositional calculus]]
 [[!redirects 0th-order logic]]
@@ -42,3 +44,5 @@ A __propositional calculus__, also called __sentential calculus__, is simply a s
 [[!redirects sentential calculus]]
 [[!redirects sentensial logic]]
 [[!redirects sentensial calculus]]
+
+[[!redirects propositional logics]]
