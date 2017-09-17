@@ -14,6 +14,8 @@
 * table of contents
 {:toc}
 
+(This entry describes two distinct notions, one in the theory of inner product spaces, and the second in a more purely categorical context.)
+
 ## In inner product spaces
 
 Two elements $x,y$ in an [[inner product space]] $V, \langle -,-\rangle$ are **orthogonal** to each other, $x \perp y,$ if $\langle x,y\rangle = 0$
