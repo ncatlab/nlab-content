@@ -409,6 +409,20 @@ on those [[profunctor]]s with a [[right adjoint]] in $\mathcal{V}$[[Prof]].
 
 ## Examples 
 
+* When $\mathcal{V} = \mathbf{Set}$, a $\mathcal{V}$-category is an ordinary category. The Cauchy completion of an ordinary category is its _idempotent completion_, or [[Karoubi envelope]]. This also holds when $\mathcal{V} = \mathbf{Cat}$ or $\matcal{V} = \mathbf{sSet}$, or more generally whenever $\mathcal{V}$ is a cartesian [[cosmos]] where the terminal object is [[tiny]].
+
+* When $\mathcal{V} = [0,\infty]$ is the extended nonnegative reals ordered by $\geq$ and with $+$ as monoidal product, $\mathcal{V}$-categories are generalized metric spaces. The Cauchy completion is the usual completion under _Cauchy sequences_.
+
+* When $\mathcal{V} = \mathbf{Ab}$ is abelian groups, a $\mathcal{V}$-category is a [[pre-additive category]]. The Cauchy completion is the completion under _finite direct sums and idempotent splitting_. Notice that there is also a "sub-Cauchy completion" given by completing just under finite direct sums, which turns a pre-additive category into an [[additive category]].
+
+* When $\mathcal{V} = \mathbf{Slat}$ is the category of sup-lattices, a $\mathcal{V}$-category is a locally posetal, locally cocomplete bicategory, i.e. a [[quantaloid]]. The Cauchy completion is some sort of completion under _arbitrary_ sums: it is large even if the original quantaloid is small, and its existence depends on the precise definition we choose of Cauchy completion.
+
+* In the $\infty$-categorical context, we can consider enrichment in the $\infty$-category of [[spectra]]. The Cauchy completion of an $\infty$-category enriched in spectra is its completion under _all finite colimits_.
+
+* Generalizing to bicategorical enrichment, we can construct from a [[site]] $(\mathcal{C}, J)$ a certain bicategory $\mathcal{W}$ such that the Cauchy-complete, symmetric, skeletal $\mathcal{W}$-categories are just the sheaves on $(\mathcal{C}, J)$. Variations on this theme can yield $\mathcal{C}$-indexed categories, stacks, prestacks, or presheaves as Cauchy completions or sub-Cauchy completions for categories enriched in certain bicategories.
+
+Now we look at two examples in more detail: metric spaces and ordinary categories.
+
 ### Metric spaces 
 
 We consider first the classical case of [[metric space]]s, but as redefined by Lawvere to mean a category enriched in the [[poset]] $V = ([0, \infty], \geq)$, with [[tensor product]] given by addition. So, to say $X$ is a [[Lawvere metric space]] means that with the set $X$ there is a distance function 
