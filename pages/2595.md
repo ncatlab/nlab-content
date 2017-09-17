@@ -119,9 +119,11 @@ In order to say what _locally_ $T$-ringed means, one needs the extra structure o
 
 * [[ringed space]], [[locally ringed space]]
 
-* [[ringed site]],  
+* [[ringed site]], [[locally ringed site]]  
 
-* **ringed topos**, [[locally ringed topos]], [[locally algebra-ed topos]]
+* **ringed topos**, [[locally ringed topos]], 
+
+* [[locally algebra-ed topos]]
 
 * [[structured (∞,1)-topos]]
 
@@ -130,6 +132,11 @@ In order to say what _locally_ $T$-ringed means, one needs the extra structure o
 An original reference is
 
 * [[SGA]] IV 
+
+A textbook source is section 14.7 of 
+
+* [[Aise Johan de Jong]],  _[[The Stacks Project]]_ ([pdf](http://www.math.columbia.edu/algebraic_geometry/stacks-git/book.pdf)) ([project website](http://www.math.columbia.edu/algebraic_geometry/stacks-git/))
+{#deJong}
 
 See also
 
@@ -140,4 +147,5 @@ References on [[ringed space]]s include
 * [[eom]], _[Ringed spaces](http://eom.springer.de/R/r082460.htm)_
 
 [[!redirects ringed toposes]]
+[[!redirects ringed topoi]]
 
