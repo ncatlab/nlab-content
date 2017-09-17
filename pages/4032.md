@@ -12,4 +12,8 @@ Algebraic quasi-categories give a [[algebraic definition of higher categories|al
 
 For more see  the section [Algebraic  fibrant models for higher categories](http://ncatlab.org/nlab/show/model+structure+on+algebraic+fibrant+objects#AlgebaicHigherCategories) at [[model structure on algebraic fibrant objects]].
 
-[[!redirects algebraic quasi-categories]].
+
+[[!redirects algebraic quasi-category]]
+[[!redirects algebraic quasi-categories]]
+[[!redirects algebraic quasicategory]]
+[[!redirects algebraic quasicategories]]
