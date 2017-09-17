@@ -305,6 +305,8 @@ A useful quick collection of facts can be found at the beginning of Section 2 in
 
 * [[Clark Barwick]], _On (enriched) Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
+[[!redirects simplicial localizations]]
+
 
 [[!redirects Dwyer-Kan localization]]
 [[!redirects Dwyer-Kan localisation]]
@@ -318,3 +320,4 @@ A useful quick collection of facts can be found at the beginning of Section 2 in
 
 [[!redirects hammock localization]]
 [[!redirects hammock localizations]]
+
