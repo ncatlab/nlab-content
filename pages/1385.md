@@ -123,5 +123,4 @@ see proposition 6.14 and remark 6.18.
 [[!redirects presentable (infinity,1)-category]]
 
 
-category: categories
-
+category: category
