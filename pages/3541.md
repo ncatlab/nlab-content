@@ -118,6 +118,13 @@ Notice that the identity map is clearly completely positive and trace preserving
 
 [[Ian Durham]]: Yeah, the question on commutative squares was vague so let's not worry about it right now.  I would agree that, as defined, $QChan$ is small, though I'm not so sure about it necessarily being an endomorphism (unless I'm mis-interpreting Urs' comment).  For instance, a quantum channel can take as the input $L(\mathcal{H}_{A})\otimes C(X)$ (where $L(\mathcal{H}_{A})$ is the set of linear operators on the Hilbert space $\mathcal{H}_{A}$ and $C(X)$ is the set of continuous functions on some vector space $X$) and can spit out $L(\mathcal{H}_{B})$.  Physically this means it can take a quantum + classical input and give a quantum-only output.  This doesn't seem endomorphic to me (since we traditionally don't define the classical piece as being on a Hilbert space), at least on some level, but I could be wrong.
 
+[[David Roberts]]: Ok then - if I have two quantum channels, $L(\mathcal{H}_1)\otimes C(X) \to L(\mathcal{H}_2)$ and $L(\mathcal{H}_2)\otimes C(Y) \to L(\mathcal{H}_3)$ (where we may need to have $X = Y$), then what is the composite? I presume this is something of the form
+$$
+L(\mathcal{H}_1)\otimes C(X)\otimes C(Y) \to L(\mathcal{H}_3)?
+$$
+I would be more comfortable if instead of $C(X)\otimes C(Y)$ we had $C(somthing)$, but this should become clear once we write down what the map above is, some expression in terms of Kraus operators I presume.
+
+Personally I think that instead of identifying the objects of the category with the algebras $Mat(m \times m, \mathbb{C})$ (or better, $End(H)$), we should consider the isomorphic category with objects $H$, but with the arrows as before. This allows us to generalise the inputs of the channel to a mix of classical and quantum, as you indicate. The real substance is to show that composites (as I consider in the previous paragraph) exist and behave as they should.
 =--
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
