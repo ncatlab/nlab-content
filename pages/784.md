@@ -44,6 +44,75 @@ is a [[homotopy pullback]] square.
 
 A Segal space for which $X_0$ is a [[discrete space]] is called a _[[Segal category]]_. See there for more dicussion.
 
+## Examples
+
+### In $1Grpd$
+ {#ExamplesInIGrpd}
+
+Consider a Segal space that is degreewise just a [[1-groupoid]], hence a simplcial object in the inclusion
+
+$$
+  X_\bullet \in 1Grpd^{\Delta^{op}} \hookrightarrow \infty Grpd^{\Delta^{op}}
+  \,.
+$$
+
+Choosing this to be [[Reedy model structure|Reedy]] [[fibrant object|fibrant]], the map $(\partial_0,\partial_1) \colon X_1 \to X_0 \times X_0$ is an [[isofibration]]. 
+
+We may write an object $K \in X_1$ as a horizontal morphism
+
+$$
+  \partial_1(K) \stackrel{K}{\to} \partial_2(K)
+$$
+
+and a morphism $\lambda \colon L \to K$ in $X_1$ as a vertical [[double category]] arrow:
+
+$$
+  \array{
+     \partial_1(L) & \stackrel{L}{\to} & \partial_0(L)
+     \\
+     {}^{\mathllap{\partial_1(\lambda)}}\downarrow &\Downarrow^{\mathrlap{\lambda}}& \downarrow^{\mathrlap{\partial_0(\lambda)}}
+     \\
+     \partial_1(K) &\stackrel{K}{\to}& \partial_0(K)
+  }
+  \,.
+$$
+
+Then the fact that $(\partial_1,\partial_0)$ is an [[isofibration]] means that for every "niche"
+
+$$
+  \array{
+     y_0 & & y_1
+     \\
+     {}^{\mathllap{f_0}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{f_1}}
+     \\
+     x_0 &\stackrel{K}{\to}& x_1
+  }
+  \,,
+$$
+
+namely for every pair of morphisms $f_0, f_1$ in $X_0$ and lift of its codomain to an object $K \in X_1$, there is a "niche filler" 
+
+$$
+  \array{
+     y_0 & \stackrel{L}{\to} & Y_1
+     \\
+     {}^{\mathllap{f_0}}\downarrow 
+     &\Downarrow^{\mathrlap{\lambda}}& 
+    \downarrow^{\mathrlap{f_1}}
+     \\
+     x_0 &\stackrel{K}{\to}& x_1
+  }
+  \,,
+$$
+
+namely a lift of the whole pair $(f_0,f_1)$ to a morphism $\lambda$ in $X_1$, and this is necessarily universal in that any other such lift uniquely factors through this one (because $X_1$ is a groupoid). 
+
+Comparison with the definition of a [[2-category equipped with proarrows]] in the incarnation _[as a double category](2-category+equipped+with+proarrows#DefinitionAsDoubleCategory)_ shows that this is the beginning of the construction of a [[pseudo double category]] whose vertical category is $X_0$ and whose weak horizontal composition is that induced by the Segal maps. 
+
+
+
 ## Related notions
 
 * [[reduced Segal space]], [[Segal category]], 
