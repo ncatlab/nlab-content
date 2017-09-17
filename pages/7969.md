@@ -48,7 +48,7 @@ $$
   \,.
 $$
 
-see e.g. ([AlvaresGaume-Moore-Vafa 86](#AlvaresGaumeMooreVafa86)).
+see e.g. ([AlvaresGaume-Moore-Vafa 86](#AlvaresGaumeMooreVafa86), [Bunke-Olbrich 94, around def. 4.5](#BunkeOlbrich94)).
 
 Since from the point of view of [[Chern-Simons theory]] this is a [[wavefunction]], one might rather want to write $\Psi(\mathbf{z},\mathbf{\tau})$.
 
@@ -142,7 +142,10 @@ Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]]
 * {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
 
 * {#BeauvilleLaszlo93} [[Arnaud Beauville]], [[Yves Laszlo]], _Conformal blocks and generalized theta functions_ ([arXiv:alg-geom/9309003](http://arxiv.org/abs/alg-geom/9309003))
- 
+
+and more generally the [[partition functions]] of connection-twisted Dirac operators on even-dimensional locally symmetric spaces is discussed in
+
+* {#BunkeOlbrich94}  [[Ulrich Bunke]], [[Martin Olbrich]], _Theta and zeta functions for locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407013](http://arxiv.org/abs/dg-ga/9407013))
 
 Relation to [[elliptic genera]] (see also at _[[Jacobi form]]_)
 
@@ -163,4 +166,3 @@ see [Gelbhart 84, page 35 (211)](Langlands+program#Gelbhart84) for review.
 [[!redirects Theta functions]]
 [[!redirects Theta-function]]
 [[!redirects Theta-functions]]
-
