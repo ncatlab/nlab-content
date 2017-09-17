@@ -373,8 +373,18 @@ has the property that postcomposition with $\exp(2 \pi i \int_{S^1}[S^1, \mathbf
 ### Perturbative BV deformation quantization
  {#PerurbativeBVDeformationQuantization}
 
-We discuss the [[perturbation theory|perturbative]] [[deformation quantization]] of Chern-Simons theory to a [[factorization algebra of local observables]] along the lines of _[renormalization -- Of theories in BV-CS forms](renormalization#OfTheoriesInBVForm)_,
-along the lines of ([Costello, section 3](#Costello)).
+We discuss the [[perturbation theory|perturbative]] [[deformation quantization]] of Chern-Simons theory to a [[factorization algebra of local observables]] along the lines of _[renormalization -- Of theories in BV-CS forms](renormalization#OfTheoriesInBVForm)_ ([Costello](#Costello)).
+
+We first discuss the classical and quantum [[BV-BRST complex]] of the underlying [[free field theory]]
+
+* _[The BV-BRST complex of the underlying free field theory](#TheBVBRSTComplexOfTheUnderlyingFreeFieldTheory)_
+
+and then perturbatively introduce the [[interactions]] by  [[renormalization|renormalizing]] and solving the [[quantum master equation]]:
+
+* _[The renormalized quantum master equation](#TheRenormalizedQuantumMasterEquation)_.
+
+#### The BV-BRST complex of the underlying free field theory
+ {#TheBVBRSTComplexOfTheUnderlyingFreeFieldTheory}
 
 Fix $(\mathfrak{g}, \langle -,-\rangle_{\mathfrak{g}})$ a [[Lie algebra]] equipped with a binary and non-degenerate [[invariant polynomial]] (for instance a [[semisimple Lie algebra]] with [[Killing form]]).
 Let $\Sigma$ be a [[smooth manifold|smooth]] [[closed manifold]]. 
@@ -419,12 +429,76 @@ $$
 
 Here we should regard $\mathfrak{g}$ as being [[graded vector space|graded]] and homogeneously of degree $(-1)$ (this is the natural grading on $\mathfrak{g}$ regarded as an [[L-infinity algebra]]. In fact essentially all of the discussion here goes through for general $L_\infty$-algebras equipped with a binary [[invariant polynomial]]). With this the evident total grading on $\Omega^\bullet_\Sigma(-,\mathfrak{g})$ is already the correct BV-BRST grading
 
-|  | [[ghost fields]] | [[field (physics)|fields]] | [[antifields]]  |  [[antighost fields]] |
+| [[field (physics)|field]]: | [[ghost fields]] | genuine [[field (physics)|fields]] | [[antifields]]  |  [[antighost fields]] |
 |--| -----------------|----------------------------|-----------------|-----------------------|
-| | $\Omega_\Sigma^0(-,\mathfrak{g})$ | $\Omega_\Sigma^1(-,\mathfrak{g})$ | $\Omega_\Sigma^2(-,\mathfrak{g})$ | $\Omega_\Sigma^3(-,\mathfrak{g})$ |
+| $\phi \in$ | $\Omega_\Sigma^0(-,\mathfrak{g})$ | $\Omega_\Sigma^1(-,\mathfrak{g})$ | $\Omega_\Sigma^2(-,\mathfrak{g})$ | $\Omega_\Sigma^3(-,\mathfrak{g})$ |
 | degree | -1 | 0 | 1 | 2 | 
 
-Now (...)
+The [[antibracket]] is given by the canonical local pairing obtained by taking the [[wedge product]] of [[differential forms]], then evaluating the [[coefficients]] in $\mathfrak{g} \otimes \mathfrak{g}$ in the [[invariant polynomial]] $\langle-,-\rangle_{\mathfrak{g}}$, then projecting onto the 3-form summand and finally forming the [[integration of differential forms]] over $\Sigma$: for $\phi_1, \phi_2 \in \Omega^\bullet(-,\mathfrak{g})$ we have
+
+$$
+  \{\phi_1, \phi_2\}
+  = 
+  \int_\Sigma \langle \phi_1 \wedge \phi_2\rangle_{\mathfrak{g}}
+  \,.
+$$
+
+In [[perturbation theory]] we take the [[observables]] to be [[polynomial]] [[linear functions]] on these fields, hence the (graded-)[[symmetric algebra]] $Sym \overline{\mathcal{E}}$ of the [[distributions]] $\overline{\mathcal{E}}$. By the [Atiyah-Bott lemma](elliptic+chain+complex#AtiyahBottLemma) we may in the present situation take the observables equivalently to be the [[compact support|compactly supported]] sections of the dual field bundle, with duality induced by the local pairing $\mathcal{E}_c \otimes \mathcal{E}_c \to Dens_\Sigma$. For instance a monomial local linear function on the genuine fields 
+
+$$
+  f \colon \Omega^0(\Sigma,\mathfrak{g}) \to \mathbb{R}
+$$
+
+is then presented by an element $\bar f \in \Omega^3(\Sigma,\mathfrak{g})$ via the evaluation map:
+
+$$
+  f \;\colon\; \phi \mapsto \int_\Sigma \bar f \wedge \phi
+  \,.
+$$
+
+With this identification we have in summary the following situation:
+
+| linear local [[observables]]: | [[ghost field]] observables | genuine [[field (physics)|field]] observables | [[antifield]] observables  |  [[antighost field]] observables |
+|--| -----------------|----------------------------|-----------------|-----------------------|
+| $f \in$ | $\Omega_{cp}^3(\Sigma,\mathfrak{g})$ | $\Omega^2_{cp}(\Sigma,\mathfrak{g})$ | $\Omega_{cp}^1(\Sigma,\mathfrak{g})$ | $\Omega_{cp}^0(\Sigma,\mathfrak{g})$ |
+| degree | 1 | 0 | -1 | -2 | 
+
+The [[de Rham differential]] on the sections $\mathcal{E}$ of the [[field bundle]] induces a differential on the observables by dualization.
+
+Hence the [[classical BV-complex]] of the [[free field theory]] is
+
+$$
+  Obs^{cl}_{free}
+  = 
+  \left(
+    Sym (\Omega^\bullet_{cp}(\Sigma, \mathfrak{g})), Q = (d_{dR})^\ast, \langle -,-\rangle^\ast = \int_\Sigma (-) \wedge (-)
+  \right)
+  \,.
+$$
+
+Equipped with the standard [[BV-Laplacian]] $\Delta$ discussed at _[free field theory - The quantum observables](free+field+theory#TheQuantumObservables)_ this yields the corrsponding [[quantum BV-complex]] of the [[free field theory]]
+
+$$
+  Obs^{q}_{free}
+  = 
+  \left(
+    Sym (\Omega_{cp}^\bullet(\Sigma, \mathfrak{g})[ [\hbar] ], Q = (d_{dR})^\ast + \hbar \Delta, \langle -,-\rangle^\ast = \int_\Sigma (-) \wedge (-)
+  \right)
+  \,.
+$$
+
+#### The renormalized quantum master equation
+ {#TheRenormalizedQuantumMasterEquation}
+
+Next we want to add to the above free field theory the [[interaction]] term $I$.
+This amounts to changing the [[differential]] $Q + \hbar \Delta$ of $Obs^q_{free}$
+to $Q + \{I,-\} + \hbar \Delta$. For this indeed to still be a differential it
+must still square to 0, which is the condition expressed by the [[quantum master equation]],
+This needs [[renormalization]] in order to be well defined.
+
+This is discussed for instance in ([Costello, section 15](#Costello)).
+
+(...)
 
 ## Quantum Chern-Simons theory
 
