@@ -737,14 +737,14 @@ $$
   \array{
     \pi_{p+q} X(p-r-1,p) &\longrightarrow& \pi_{p+q-1} X(p-2r, p- r-1)
     \\
-    \downarrow && \downarrow
+    \downarrow && \downarrow & \searrow
     \\
     \pi_{p+q} X(p-r, p) &\longrightarrow& \pi_{p+q-1}X(p-2r, p-r)
     \\
-    \downarrow && \downarrow & \searrow
+    \downarrow && \downarrow 
     \\
     E_r^{p,q} &\stackrel{d_r}{\longrightarrow}& E_r^{p-r, q+r-1}
-    && \pi_{p+q-1} X(p - r - 1, p-r)
+    && \pi_{p+q-1} X(p - 2r, p-r)
     \\
     && \downarrow & \swarrow
     \\
@@ -787,7 +787,7 @@ $$
 +-- {: .num_prop #ConvergenceOfTheSpectralSequence}
 ###### Proposition
 
-Assume that  $\mathcal{C}$ admits all [[sequential colimits]] and let $X \simeq \underset{\longrightarrow}{\lim}_n X_n$ be a [[filtered object in an (∞,1)-category|filtered object]], def. \ref{GeneralizedFilteredObject}, for filtering with $X_{n \lt 0} \simeq 0$. Then the spectral sequence of prop. \ref{ExistenceOfTheSpectralSequence}, converges to the [[homotopy groups]] of $X$
+Assume that  $\mathcal{C}$ admits all [[sequential colimits]] and that $\pi$ preserves these. Let $X \simeq \underset{\longrightarrow}{\lim}_n X_n$ be a [[filtered object in an (∞,1)-category|filtered object]], def. \ref{GeneralizedFilteredObject}, for filtering with $X_{n \lt 0} \simeq 0$. Then the spectral sequence of prop. \ref{ExistenceOfTheSpectralSequence}, converges to the [[homotopy groups]] of $X$
 
 $$ 
 
@@ -931,6 +931,14 @@ Moreover, the discussion below in _[Examples](#Examples)_ shows that also conver
 (See also the title of ([Wilson 13](#Wilson13))).
 
 =--
+
++-- {: .num_remark }
+###### Remark
+
+The spectral sequence above itself only actually depends to the [[triangulated category|triangulated]] [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$. But its $\infty$-functorial dependence on the filtered object needs the full structure of the [[(∞,1)-category]] $\mathcal{C}$
+
+=--
+
 
 
 ### Spectral sequence of a cofiltered object
@@ -1224,6 +1232,7 @@ applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as i
 
 =--
 
+
 ([[Higher Algebra|Higher Algebra, prop. 1.2.4.5]])
 
 +-- {: .num_prop #E2PageByMooreComplex}
@@ -1232,7 +1241,7 @@ applied to the filtration of a [[totalization]] by [[coskeleton|coskeleta]] as i
 The [[spectral sequence of a simplicial stable homotopy type]] has as first page/$E_1$-term the [[cohomology groups]] of the [[Moore complex]] associated with the [[cosimplicial objects]] of [[homotopy groups]]
 
 $$
-  E_1^{p,q}
+  E_2^{p,q}
   = 
   H^p(\pi_q(Tot (cosk_\bullet(Y))))
   \Rightarrow
