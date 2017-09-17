@@ -43,7 +43,10 @@ Let $C$ be a [[2-category]] and $x \in C$ an [[object]]. Write $Id_x$ for the [[
 A [[pasting diagram]]-proof is depicted in [Cheng](#Cheng) below.  Here we prove the most general form in $Set$.
 
 The basic equation that we have (that one operation $*$ is a homomorphism with respect to another operation $\circ$) is
-$$ (a \circ b) * (c \circ d) = (a * c) \circ (b * d) .$$
+$$ (a \circ b) * (c \circ d) = (a * c) \circ (b * d) .$$ 
+
+This is the [[exchange law]].
+
 We prove the list of results from above in order:
 
 1.  Simply read the basic equation backwards to see that $\circ$ is a homomorphism with respect to $*$.
