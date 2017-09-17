@@ -111,11 +111,11 @@ The general theory for the context of [[higher geometry]] invoked here has later
 
 * [[Jacob Lurie]], [[Structured Spaces]]
 
-but the special case of the general theory that is needed here, where the coefficient objects of structure sheaves are [[E-∞ ring]]s has only been announced as
+The special case of the general theory that is needed here, where the coefficient objects of structure sheaves are [[E-∞ ring]]s, is described in
 
-* [[Jacob Lurie]], [[Spectral Schemes]]
+* [[Jacob Lurie]], [[Spectral Schemes]],
 
-and isn't available yet. On the other hand, the general theory of [[E-∞ ring]]s themselves, in the [[(∞,1)-category]] theory context needed here, is developed in
+while the general theory of [[E-∞ ring]]s themselves, in the [[(∞,1)-category]] theory context needed here, is developed in
 
 * [[Jacob Lurie]], [[higher algebra|Commutative geometry]].
 
