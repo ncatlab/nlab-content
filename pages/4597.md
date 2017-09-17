@@ -1,5 +1,5 @@
 
-> much of this material is currently being reorganized at [[Smooth∞Grpd]]
+> much of the material below has been or is being reworked into the entries [[Smooth∞Grpd]] and [[connection on a smooth principal ∞-bundle]]
 
 
 +-- {: .rightHandSide}
@@ -22,6 +22,8 @@
 * table of contents
 {:toc}
 
+
+In every [[cohesive (∞,1)-topos]] there is an <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#ChernWeilTheory">intrinsic notion of Chern-Weil theory</a>. We discuss the concrete realization of this in the cohesive $(\infty,1)$-topos [[Smooth∞Grpd]] of [[smooth ∞-groupoid]]s. This s the case that subsumes ordinary [[Chern-Weil theory]] of [[SmoothMfd|smooth]] [[principal bundle]]s with [[connection on a bundle|connection]] and generalizes it to [[connections on smooth principal ∞-bundles]].
 
 ## Motivation {#Motivation}
 
@@ -292,7 +294,7 @@ These are the kind of structures that $\infty$-Chern-Weil theory studies.
 
 ## Idea
 
-Ordinary [[Chern-Weil theory]] is about [[differential cohomology]]-refinements of [[characteristic class]]es of $G$-[[principal bundle]]s for $G$ a [[Lie group]], equivalently of the [[classifying space]] $\mathcal{B}G$ of that Lie group.
+Ordinary [[Chern-Weil theory]] is about refinements of [[characteristic class]]es of $G$-[[principal bundle]]s for $G$ a [[Lie group]] (equivalently of the [[classifying space]] $\mathcal{B}G$ of that Lie group) from ordinary [[cohomology]] to [[differential cohomology]].
 
 Under _$\infty$-Chern-Weil theory_ we want to understand the generalization of this to [[(∞,1)-category theory]]: where [[Lie group]]s are generalized to [[∞-Lie group]]s, [[Lie algebra]]s are generalized to [[∞-Lie algebra]]s and [[principal bundle]]s to [[principal ∞-bundle]]s.
 
@@ -625,7 +627,7 @@ $$
 
 Such $\infty$-Lie algebra valued connections were introduced in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">SSSI</a> and further studied in <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>.
 
-+-- {: .un_prop}
++-- {: .un_prop #ExistenceOfInftyConnections}
 ###### Proposition
 **(existence of $\infty$-connections)**
 
@@ -1208,10 +1210,12 @@ The $\infty$-Chern-Weil homomorphism is considered in
 
 For a commented list of related literature see
 
-<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references">differential cohomology in an (∞,1)-topos -- references</a>
+<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references">differential cohomology in cohesive topos -- references</a>
 
 [[!redirects ∞-Chern-Weil theory]]
 
 [[!redirects ∞-Chern-Weil homomorphism]]
 
+[[!redirects Chern-Weil homomorphism in Smooth∞Grpd]]
 
+[[!redirects infinity-Chern-Weil theory]]
