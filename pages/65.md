@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 In general, **canonical model structures** are [[model category]] structures on the categories of some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed), which are intended to capture the correct "categorical" theory of these categories.
 
@@ -26,7 +26,7 @@ In a canonical model structure for some flavor of $n$-categories, usually
 * a **cofibration** is a functor which is injective on objects and "relatively free" on $k$-morphisms for $1\le k \lt n$.  These can also be described as the morphisms [[cofibrantly generated model structure|generated]] by the inclusions 
 $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the $k$-[[globe]] for $0\le k \lt \infty$.
 
-#References on particular cases#
+## References on particular cases
 
 * The canonical model structure for 1-categories was known to experts for some time before being written down formally (this is the origin of the adjective "folk").
    * It was apparently first published (for categories internal to a Grothendieck topos) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
@@ -52,7 +52,7 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
    * R. Brown and M. Golasinski, _A model structure for the homotopy theory of crossed complexes_, Cah. Top. G&eacute;om. Diff. Cat. 30 (1989) 61-82 ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/RB-golskyrev.pdf))
 
 
-#Internalization#
+## Internalization
 
 A common problem is to transport the (a) model structure on plain $\omega$-categories, i.e. $\omega$-categories [[internal category|internal to]] $Sets$ to another [[internalization|internal context]], notably for the case that $Sets$ is replaced with some kind of category of $Spaces$. This is relevant for the discussion of the homotopy theory of topological and smooth $\omega$-categories.
 
@@ -61,7 +61,7 @@ cohomology theory]].
 
 But there are also full model structures for such situations. Notice that under a suitable [[nerve]] operation all [[n-category|n-categories]] usually embed into [[simplicial set]]s. The [[models for infinity-stack (infinity,1)-toposes]] given by the [[model structure on simplicial presheaves]] then serves to present the corresponding $(\infty,1)$-category of parameterized or internal $n$-categories. See for instance also [[smooth infinity-stack]].
 
-#Cofibrant resolutions#
+## Cofibrant resolutions
 
 
 In 
@@ -77,6 +77,11 @@ it is shown that _cofibrant_ $\omega$-categories with respect to the canonical m
 
 We had some blog discussion about this at
 [Freely generated omega-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
+
+## References
+
+* [[joyalscatlab:HomePage|Joyal's CatLat]], _[[joyalscatlab:Model structures on Cat]]_
+
 
 [[!redirects folk model structure]]
 [[!redirects canonical model structures]]
