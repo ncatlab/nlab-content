@@ -1,0 +1,17 @@
+
+* [biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/Chen.html)
+
+* [MathSciNet publication list](http://www.ams.org/mathscinet/search/publications.html?pg1=IID&s1=47865)
+
+* [[Richard Hain]] and Philippe Tondeur, _The life and work of Kuo-Tsai Chen_,  Illinois J. Math. Volume 34, Issue 2 (1990), 175-190. ([Euclid](http://projecteuclid.org/euclid.ijm/1255988263))
+
+## Related entries
+
+* [[diffeological space]], [[Chen space]]
+
+[[!redirects Kuo Chen]]
+
+category: people
+
+[[!redirects Kuo-Tsai Chen]]
+[[!redirects K.-T. Chen]]
