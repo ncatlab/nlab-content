@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+#### Higher geometry
++-- {: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -14,11 +29,12 @@ Higher geometric quantization is meant to complete this table:
 
 The basic ingredients are indicated in the following table
 
-| [[prequantum circle n-bundle]] | [[quantomoprhism group]] |
-|--|--|
-| $X \stackrel{\mathbf{c}_{conn}}{\to} \mathbf{B}^n \mathbb{G}_{conn}$ | $\mathbf{Aut}_{\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow} &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} } \right\}$ |
+| [[prequantum circle n-bundle]] | [[quantomorphism group]] | [[prequantum space of states]] |
+|--|--|--|
+| $X \stackrel{\mathbf{c}_{conn}}{\to} \mathbf{B}^n \mathbb{G}_{conn}$ | $\mathbf{Aut}_{\mathbf{B}^n \mathbb{G}_{conn}}(\mathbf{c}_{conn}) = \left\{ \array{ X &&\stackrel{\simeq}{\to}&& X \\ & {}_{\mathllap{\mathbf{c}_{conn}}}\searrow &\swArrow_\simeq& \swarrow_{\mathrlap{\mathbf{c}_{conn}}} \\ && \mathbf{B}^n \mathbb{G}_{conn} }  \right\}$ | $\mathbf{\Gamma}_X(E) = \left\{ \array{ X &&\stackrel{\sigma}{\to}&& V//\mathbf{B}^{n-1}\mathbb{G} \\ & {}_{\mathllap{\mathbf{c}}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{p}}} \\ \mathbf{B}^n \mathb{G} } \right\} $ |
 
 ## Examples
+
 
 
 ## References
