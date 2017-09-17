@@ -21,8 +21,14 @@ So [[model]] for this theory in a [[topos]] $\mathcal{E}$ is just an [[object]] 
 
 ## Properties
 
-* The [[classifying topos]] for the theory of objects is the [[presheaf topos]] $[FinSet, Set]$ over the [[opposite category]] of the category [[FinSet]] of [[finite sets]].
++-- {: .num_prop}
+###### Proposition
 
+The [[classifying topos]] for the theory of objects is the [[presheaf topos]] $[FinSet, Set]$ over the [[opposite category]] of the category [[FinSet]] of [[finite sets]].
+
+=--
+
+See at _[[classifying topos for the theory of objects]]_.
 
 
 ## References
