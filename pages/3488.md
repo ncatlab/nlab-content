@@ -1,18 +1,14 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-Topos theory
-+--{: .hide}
++-- {: .hide}
 =--
 =--
 =--
 
-
-
-
-#Contents#
+# Contents
 * automatic table of contents goes here
 {:toc}
 
@@ -22,23 +18,28 @@ A [[topos]] may be thought of as a generalized [[topological space]]. Accordingl
 
 * [[locally connected space]]
 
-* locally 2-connected space
+* [[locally simply connected space]]
 
-* etc. ...
+* locally $2$-connected space
+
+* locally $n$-connected space
 
 * [[locally contractible space]]
 
 have analogs for [[topos]]es, [[(n,1)-toposes]] and [[(∞,1)-topos]]es
 
 * [[locally connected topos]]
+
+* [[locally simply connected (2,1)-topos]]
  
-* **locally $n$-connected $(n,1)$-topos**
+* **locally $n$-connected $(n+1,1)$-topos**
 
-* **locally $\infty$-connected $(\infty,1)$-topos.
+* **locally $\infty$-connected $(\infty,1)$-topos**
 
-## Definition
+The numbering mismatch is traditional from topology; see [[n-connected space]].  It reads a bit better if we say _locally $n$-simply connected_ for _locally $n$-connected_, since _locally $1$-(simply) connected_ is _locally simply connected_, but being locally $n$-simply connected is still a property of an $(n+1,1)$-topos.
 
 
+## Definitions
 
 +-- {: .un_defn}
 ###### Definition
@@ -55,26 +56,22 @@ $$
   \,.
 $$
 
-If in addition $\Pi$ preserves the [[terminal object]] we say that $\mathbf{H}$ is an **[[∞-connected (∞,1)-topos]]** . 
+If in addition $\Pi$ preserves the [[terminal object]] we say that $\mathbf{H}$ is an **[[∞-connected (∞,1)-topos]]**. 
 
 If $\Pi$ preserves even all [[finite limit|finite]] [[(∞,1)-product]]s we say that $\mathbf{H}$ is a [[strongly ∞-connected (∞,1)-topos]].
 
 If $\Pi$ preserves even all [[finite limit|finite]] [[(∞,1)-limit]]s we say that $\mathbf{H}$ is a [[totally ∞-connected (∞,1)-topos]].
-
-
 =--
 
 +-- {: .un_defn}
 ###### Definition
 
-For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the 
-[[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
+For $\mathbf{H}$ a locally $\infty$-connected $(\infty,1)$-topos and $X \in \mathbf{H}$ an [[object]], we call $\Pi X \in $ [[∞Grpd]] the [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] of $X$. The ([[categorical homotopy groups in an (∞,1)-topos|categorical]]) [[homotopy group]]s of $\Pi(X)$ we call the [[geometric homotopy groups in an (∞,1)-topos|geometric homotopy groups]] of $X$
 
 $$
   \pi_\bullet^{geom}(X) := \pi_\bullet(\Pi (X))
   \,.
 $$
-
 =--
 
 Similarly we have:
@@ -82,17 +79,14 @@ Similarly we have:
 +-- {: .un_defn}
 ###### Definition
 
-For $n \in \mathbb{N}$ an [[(n,1)-topos]] $\mathbf{H}$ is called 
-**locally $n$-connected** if the (essentially unique) 
-[[global section]] geometric morphism is has an extra left adjoint.
-
+For $n \in \mathbb{N}$ an $(n+1,1)$-[[(n,1)-topos|topos]] $\mathbf{H}$ is called **locally $n$-connected** if the (essentially unique) [[global section]] geometric morphism is has an extra left adjoint.
 =--
 
-For $n = 1$ this reproduces the case of a [[locally connected topos]].
+For $n = 0$ this reproduces the case of a [[locally connected topos]].
 
 
-## Examples {#LocallyContractibleExamples}
-
+## Examples
+{#LocallyContractibleExamples}
 
 ### Over locally $\infty$-connected sites
 
@@ -103,7 +97,6 @@ The follow proposition gives a large supply of examples.
 
 Let $C$ be a [[locally ∞-connected (∞,1)-site]]/[[∞-connected (∞,1)-site]]. Then the  [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(C)$ is a 
 locally $\infty$-connected $(\infty,1)$-topos.
-
 =--
 
 See [[locally ∞-connected (∞,1)-site]]/[[∞-connected (∞,1)-site]] for the proof.
@@ -113,7 +106,6 @@ See [[locally ∞-connected (∞,1)-site]]/[[∞-connected (∞,1)-site]] for th
 
 In ([SimpsonTeleman, prop. 2.18](#SimpsonTeleman))
 is stated essentially what the above proposition asserts at the level of [[homotopy category|homotopy categories]]: if $C$ has contractible objects, then there exists a [[left adjoint]] $Ho(\Pi):Ho(Sh_{(\infty,1)}(C)) \to Ho(\infty Grpd)$. 
-
 =--
 
 This includes the following examples.
@@ -123,7 +115,6 @@ This includes the following examples.
 
 The sites [[CartSp]]${}_{top}$ $CartSp_{smooth}$ $CartSp_{synthdiff}$ are locally $\infty$-connected. 
 The corresponding $(\infty,1)$-toposes are the [[cohesive (∞,1)-topos]]es [[ETop∞Grpd]], [[Smooth∞Grpd]] and [[SynthDiff∞Grpd]].
-
 =--
 
 
@@ -133,14 +124,12 @@ The corresponding $(\infty,1)$-toposes are the [[cohesive (∞,1)-topos]]es [[ET
 ###### Example
 
 For $X$ a [[locally contractible space]], $Sh_{(\infty,1)}(X)$ is a locally $\infty$-connected $(\infty,1)$-topos.
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
 The full subcategory $cOp(X) \hookrightarrow Op(X)$ of the [[category of open subsets]] on the contractible subsets is another site of definition for $Sh_{(\infty,1)}(X)$. And it is a [[locally ∞-connected (∞,1)-site]].
-
 =--
 
 By the same kind of argument:
@@ -149,7 +138,6 @@ By the same kind of argument:
 ###### Example
 
 For $n \in \mathbb{N}$ and for $X$ a locally $n$-[[connected]] [[topological space]], $Sh_{(n,1)}(X)$ is a locally $n$-connected $n$-topos.
-
 =--
 
 +-- {: .un_prop}
@@ -170,14 +158,12 @@ $$
   \Pi(X) \simeq Sing X
   \,.
 $$
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
 By using the [[presentable (∞,1)-category|presentations]] of $Sh_{(\infty,1)}(X)$ by the [[model structure on simplicial presheaves]] as discussed at [[locally ∞-connected (∞,1)-site]] one finds that this boils down to the old Artin-Mazur theorem. More on this at [[geometric homotopy groups in an (∞,1)-topos]].
-
 =--
 
 
@@ -193,7 +179,6 @@ $$
   \Pi_X(X \in \mathbf{H}/X) \simeq \Pi(X \in \mathbf{H})
   \,.
 $$
-
 =--
 
 +-- {: .proof}
@@ -211,14 +196,12 @@ $$
 $$
 
 and $X_!$ is given by sending $(Y \to X) \in \mathbf{H}/X$ to $Y \in \mathbf{H}$.
-
 =--
 
 +-- {: .un_remark}
 ###### Remark
 
 If in the above $X$ is contractible in that $\Pi X \simeq *$ then $\mathbf{H}/X$ is even an [[∞-connected (∞,1)-topos]].
-
 =--
 
 +-- {: .proof}
@@ -230,11 +213,12 @@ $$
   \Pi_X (X \to X) \simeq \Pi X_! (X \to X) \simeq \Pi X \simeq *
   \,.
 $$
-
 =--
+
 
 ## Properties {#LocInfConnProperties}
 
+...
 
 
 ## Further structures
@@ -244,6 +228,7 @@ The fact that the terminal geometric morphism is essential gives rise to various
 * [[Whitehead tower in an (∞,1)-topos]].
 
 For a more exhaustive list of extra structures see [[cohesive (∞,1)-topos]].
+
 
 ## Related concepts
 
@@ -270,7 +255,6 @@ and
 * [[cohesive site]], [[(∞,1)-cohesive site]]
 
 
-
 ## References
 
 Some discussion of the [[homotopy category of an (∞,1)-category|homotopy category]] of locally $\infty$-connected $(\infty,1)$-toposes is around proposition 2.18 of
@@ -285,33 +269,112 @@ For related references see
 * [[cohesive (∞,1)-topos]].
 
 
-[[!redirects locally infinity-connected (infinity,1)-topos]]
-[[!redirects locally infinity-connected (infinity,1)-toposes]]
-[[!redirects locally infinity-connected (infinity,1)-topoi]]
+[[!redirects locally n-connected (n,1)-topos]]
+[[!redirects locally n-connected (n,1)-toposes]]
+[[!redirects locally n-connected (n,1)-topoi]]
+[[!redirects locally n-connected (n+1,1)-topos]]
+[[!redirects locally n-connected (n+1,1)-toposes]]
+[[!redirects locally n-connected (n+1,1)-topoi]]
+[[!redirects locally n-simply connected (n+1,1)-topos]]
+[[!redirects locally n-simply connected (n+1,1)-toposes]]
+[[!redirects locally n-simply connected (n+1,1)-topoi]]
 
+[[!redirects locally infinity-connected (n,1)-topos]]
+[[!redirects locally infinity-connected (n,1)-toposes]]
+[[!redirects locally infinity-connected (n,1)-topoi]]
+[[!redirects locally ∞-connected (n,1)-topos]]
+[[!redirects locally ∞-connected (n,1)-toposes]]
+[[!redirects locally ∞-connected (n,1)-topoi]]
+[[!redirects locally contractible (n,1)-topos]]
+[[!redirects locally contractible (n,1)-toposes]]
+[[!redirects locally contractible (n,1)-topoi]]
 
 [[!redirects locally n-connected (∞,1)-topos]]
-[[!redirects locally contractible (infinity,1)-topos]]
-[[!redirects locally contractible (∞,1)-topos]]
-[[!redirects n-connected (∞,1)-topos]]
-
-[[!redirects locally infinity-connected (∞,1)-topos]]
+[[!redirects locally n-connected (∞,1)-toposes]]
+[[!redirects locally n-connected (∞,1)-topoi]]
+[[!redirects locally n-connected (infinity,1)-topos]]
+[[!redirects locally n-connected (infinity,1)-toposes]]
+[[!redirects locally n-connected (infinity,1)-topoi]]
+[[!redirects locally n-connected (infinity,1)-tops]]
 
 [[!redirects locally ∞-connected (∞,1)-topos]]
 [[!redirects locally ∞-connected (∞,1)-toposes]]
 [[!redirects locally ∞-connected (∞,1)-topoi]]
+[[!redirects locally ∞-connected (infinity,1)-topos]]
+[[!redirects locally ∞-connected (infinity,1)-toposes]]
+[[!redirects locally ∞-connected (infinity,1)-topoi]]
+[[!redirects locally infinity-connected (∞,1)-topos]]
+[[!redirects locally infinity-connected (∞,1)-toposes]]
+[[!redirects locally infinity-connected (∞,1)-topoi]]
+[[!redirects locally infinity-connected (infinity,1)-topos]]
+[[!redirects locally infinity-connected (infinity,1)-toposes]]
+[[!redirects locally infinity-connected (infinity,1)-topoi]]
+[[!redirects locally contractible (∞,1)-topos]]
+[[!redirects locally contractible (∞,1)-toposes]]
+[[!redirects locally contractible (∞,1)-topoi]]
+[[!redirects locally contractible (infinity,1)-topos]]
+[[!redirects locally contractible (infinity,1)-toposes]]
+[[!redirects locally contractible (infinity,1)-topoi]]
 
 
-[[!redirects contractible (infinity,1)-topos]]
+[[!redirects n-connected (n,1)-topos]]
+[[!redirects n-connected (n,1)-toposes]]
+[[!redirects n-connected (n,1)-topoi]]
+[[!redirects n-connected (n+1,1)-topos]]
+[[!redirects n-connected (n+1,1)-toposes]]
+[[!redirects n-connected (n+1,1)-topoi]]
+[[!redirects n-simply connected (n+1,1)-topos]]
+[[!redirects n-simply connected (n+1,1)-toposes]]
+[[!redirects n-simply connected (n+1,1)-topoi]]
+
+[[!redirects ∞-connected (n,1)-topos]]
+[[!redirects ∞-connected (n,1)-toposes]]
+[[!redirects ∞-connected (n,1)-topoi]]
+[[!redirects infinity-connected (n,1)-topos]]
+[[!redirects infinity-connected (n,1)-toposes]]
+[[!redirects infinity-connected (n,1)-topoi]]
+[[!redirects contractible (n,1)-topos]]
+[[!redirects contractible (n,1)-toposes]]
+[[!redirects contractible (n,1)-topoi]]
+
+[[!redirects n-connected (∞,1)-topos]]
+[[!redirects n-connected (∞,1)-toposes]]
+[[!redirects n-connected (∞,1)-topoi]]
+[[!redirects n-connected (infinity,1)-topos]]
+[[!redirects n-connected (infinity,1)-toposes]]
+[[!redirects n-connected (infinity,1)-topoi]]
+
+[[!redirects ∞-connected (∞,1)-topos]]
+[[!redirects ∞-connected (∞,1)-toposes]]
+[[!redirects ∞-connected (∞,1)-topoi]]
+[[!redirects ∞-connected (infinity,1)-topos]]
+[[!redirects ∞-connected (infinity,1)-toposes]]
+[[!redirects ∞-connected (infinity,1)-topoi]]
+[[!redirects infinity-connected (∞,1)-topos]]
+[[!redirects infinity-connected (∞,1)-toposes]]
+[[!redirects infinity-connected (∞,1)-topoi]]
+[[!redirects infinity-connected (infinity,1)-topos]]
+[[!redirects infinity-connected (infinity,1)-toposes]]
+[[!redirects infinity-connected (infinity,1)-topoi]]
 [[!redirects contractible (∞,1)-topos]]
-[[!redirects contractible (infinity,1)-toposes]]
 [[!redirects contractible (∞,1)-toposes]]
-
-[[!redirects locally n-connected (infinity,1)-topos]]
-[[!redirects locally n-connected (infinity,1)-tops]]
-
+[[!redirects contractible (∞,1)-topoi]]
+[[!redirects contractible (infinity,1)-topos]]
+[[!redirects contractible (infinity,1)-toposes]]
+[[!redirects contractible (infinity,1)-topoi]]
 
 
 [[!redirects locally connected (∞,1)-geometric morphism]]
+[[!redirects locally connected (∞,1)-geometric morphisms]]
+[[!redirects locally connected (infinity,1)-geometric morphism]]
+[[!redirects locally connected (infinity,1)-geometric morphisms]]
+
 [[!redirects connected (∞,1)-geometric morphism]]
+[[!redirects connected (∞,1)-geometric morphisms]]
+[[!redirects connected (infinity,1)-geometric morphism]]
+[[!redirects connected (infinity,1)-geometric morphisms]]
+
 [[!redirects essential (∞,1)-geometric morphism]]
+[[!redirects essential (∞,1)-geometric morphisms]]
+[[!redirects essential (infinity,1)-geometric morphism]]
+[[!redirects essential (infinity,1)-geometric morphisms]]
