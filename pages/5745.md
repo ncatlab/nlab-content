@@ -10,7 +10,7 @@ This entry is about the book
 
   * [Chapter 1](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch1.pdf)
 
-  * [Cahpter 2](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch2.pdf)
+  * [Chapter 2](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch2.pdf)
 
   * [Chapter 3](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ch3.pdf)
 
@@ -19,6 +19,38 @@ This entry is about the book
   * [References](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ref_new.pdf)
 
   * [Index](http://www.math.uchicago.edu/~mitya/langlands/chiral/cha_ind.pdf)
+
+## Contents
+
+### Introduction
+
+### 1. Axiomatic patterns
+
+### 2. The Geometry of $\mathcal{D}$-Schemes
+
+#### 2.1 $\mathcal{D}$-modules: recollection and basics
+
+#### 2.2 The compound tensor structure
+
+#### 2.3 $\mathcal{D}_X$-Schemes
+
+#### 2.4 The space of horizontal sections
+
+#### 2.5 $Lie^\ast$-algebras and algebroids
+
+#### 2.6 Coisson algebra
+
+#### 2.7 The Tate extension
+
+#### 2.8 Tate structures and characteristic classes
+
+#### 2.9 The Harish-Chandra setting and the setting of $c$-stacks
+
+### 3. Local theory: chiral basics
+
+### 4. Global theory: chiral homology
+
+
 
 ## Related references
 
@@ -30,6 +62,9 @@ and section 3 of
 
 * [[Frédéric Paugam]], _Histories and observables in covariant field theory_ Journal of Geometry and Physics (2010) ([arXiv](http://arxiv.org/abs/1010.3210))
 
+with more details in
+
+* [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
 
 
 category: reference
