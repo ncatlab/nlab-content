@@ -105,3 +105,6 @@ See [[pure state]].
 
 [[!redirects space of states]]
 [[!redirects spaces of states]]
+
+[[!redirects space of physical states]]
+[[!redirects spaces of physicsal states]]
