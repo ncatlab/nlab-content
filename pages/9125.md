@@ -47,17 +47,23 @@ A widespread proposal for how to formalize the notion of _physical field_ is to 
 While this goes in the right direction, it cannot be quite the final answer for several reasons:
 
 
-1. **locality and global topology** Fields defined as sections of field bundles cannot capture "large" gauge phenomena in a local way, hence phenomena that genuinelay depend on the [[topological space|topology]] of the [[gauge group]] and not just on its [[Lie algebra]]. 
+1. **large gauge transformations**. In [[gauge theory]] specifically but in [[physics]] generally, physical fields come equipped with a notion of which fields configurations, while nominally different, are [[equivalence|equivalent]], called _[[gauge equivalence|gauge equivalent]]_. This means that generically for any [[physical theory]], even if all field configurations would be represented by a section of some [[field bundle]], many such sections are in fact to be regarded as being equivalent. Or more precisely, there should be a _[[groupoid]]_ or _[[(∞,1)-groupoid]]_ of field configurations of which the sections of the field bundle only form the space of [[objects]].
 
-   Spcefically, in [[Yang-Mills theory]] for [[gauge group]] $G$, a field configuration is a combination of an [[instanton sector]] -- modeled by the [[equivalence class]] of a $G$-[[principal bundle]] $P$ -- and the "[[gauge potential]]", modeled by a [[connection on a bundle|connection on this bundle]].  There is a bundle $E(P) \to X$ such that its sections are precisely the [[connection on a bundle|connections]] on $X$, and so $\coprod_{c} E(P_c) \to X$, where $c$ ranges over the instanton sectors, is a field bundle for Yang-Mills fields on $X$. 
+   To some extent this is dealt with in traditional [[variational calculus]]: after a choice of [[action functional]] on the space of field configurations, [[BV-BRST formalism]] spits out a [[derived L-∞ algebroid]] whose objects are field configurations, and whose 1-cells are infinitesimal invariances of the given [[action functional]]. 
 
-   But this construction is not local: if we consider this assignment of field bundles to all suitable manifolds $X$, and if $U \to X$ is a cover of $X$, then we cannot in general obtain the field bundle on $X$ by gluing the field bundle on the cover. This is because locally every $G$-principal bundle is trivial, so that locally there is always only a single (the trivial) instanton sector. 
+   This goes in the right direction, but has several problems, the main one being that this does now know about the [[large gauge transformations]], those which are not connected to the identity (because it only sees infinitesimal data). These are important in the full quantum theory. (Famous examples include [[2d CFT]], for which all standard theory would break down if the global [[conformal transformations]] were not considered as gauge transformations.)
 
-   (Even though often ignored in the literature, nontrivial instanton sectors are not a negligible phenomenon. For instance the very [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors, see at _[[instanton in QCD]] for more.)
+1. **locality and global topology** Fields defined as sections of field bundles cannot capture gauge phenomena in a _loca_l way, as is necessary for a manifestly local formulation such in [[extended prequantum field theoiry]], [[extended quantum field theory]] (sometimes called the "multi-tiered" formulation).
 
-   This example already points to the general nature of the problem with field bundles, and also to its solution: while the [[instanton]]-component of [[Yang-Mills fields]] are not section of a bundle, they famously are sections of a _[[stack]]_ (the "[[moduli stack]] $\mathbf{B}G$ of $G$-principal bundles"), an object in [[higher geometry]].
+   Spcefically, in [[Yang-Mills theory]] for [[gauge group]] $G$, a field configuration -- a _[[gauge field]] configuration_ -- is a combination of an [[instanton sector]] -- modeled by the [[equivalence class]] of a $G$-[[principal bundle]] $P$ -- and the "[[gauge potential]]", modeled by a [[connection on a bundle|connection on this bundle]] (see below at _[Gauge fields](#GaugeFields)_ for details).  There is a [[fiber bundle]] $E(P) \to X$ such that its [[sections]] are precisely the [[connection on a bundle|connections]] on $P \to X$, and so $\coprod_{c} E(P_c) \to X$, where $c$ ranges over the instanton sectors, is a field bundle for Yang-Mills fields on $X$. 
 
-   To some extent we can say that the problem with the locality of the [[field bundle]] for [[Yang-Mills theory]] is solved by passing from [[fiver bundles]] to [[fiber ∞-bundles]]: in the [[smooth ∞-groupoid|higher differential geometry]] there is an object $\mathbf{B}G_{conn}$ (the [[moduli stack]] of $G$-[[principal connectiojns]]) such that maps $X \to \mathb{B}G_{con}$ are equivalent to Yang-Mills fields on $X$ (even including their [[gauge transformations]]). This means that if we allow field bundles in higher geometry, then that for Yang-Mills theory ober $X$ is even a trivial field bundle, namely the projection
+   But this construction is not local: if we consider this assignment of field bundles to all suitable manifolds $X$, and if $U \to X$ is a cover of $X$, then we cannot in general obtain the field bundle on $X$ by gluing the field bundle on the cover. This is because _locally_ every $G$-[[principal bundle]] has trivial class, so that locally there is always only a single (the trivial) instanton sector. 
+
+   Notice that instanton sectors are non-negligible phenomena. For instance the very [[vacuum]] in the [[standard model of particle physics]] is a [[superposition]] of all possible instanton sectors (see at _[[instanton in QCD]] for more on this). 
+
+   But this example already points to the general nature of the problem with field bundles, and also to its solution: while the [[instanton]]-component of [[Yang-Mills fields]] are not section of a bundle, they famously are sections of a _[[stack]]_ -- the "[[moduli stack]] $\mathbf{B}G$ of $G$-principal bundles", an object in [[higher geometry]].
+
+   The problem with the locality of the [[field bundle]] for [[Yang-Mills theory]] is solved by passing from [[fiber bundles]] to [[fiber ∞-bundles]]: in the [[smooth ∞-groupoid|higher differential geometry]] there is an object $\mathbf{B}G_{conn}$  -- the [[moduli stack]] of $G$-[[principal connections]], being the [[stackication]] of the [[groupoid of Lie algebra-valued forms]] -- such that maps $X \to \mathbf{B}G_{conn}$ are equivalent to Yang-Mills fields on $X$ (even including their [[gauge transformations]]). This means that if we allow field bundles in higher geometry -- [[fiber ∞-bundles]], then that for Yang-Mills theory over $X$ is even a trivial field bundle, namely the [[projection]]
 
    $$
      X \times \mathbf{B}G_{conn} \to X
@@ -72,16 +78,19 @@ While this goes in the right direction, it cannot be quite the final answer for 
 
    and hence the "field bundle for instanton sectors" of Yang-Mills fields.
 
-   Judging from this example one might be tempted to guess that the notion of field [[fiber bundle]] should simply be replaced by that of field [[fiber ∞-bundle]]. But in fact what the example rather suggests is that what matters directly is the [[moduli stack]] $\mathbf{Fields}$ of fields, which for $G$-[[Yang-Mills theory]] is 
+   Judging from this example one might be tempted to guess that the notion of field [[fiber bundle]] should simply be replaced by that of field [[fiber ∞-bundle]]. But in fact what the example rather suggests is that what matters directly is the [[moduli stack]] $\mathbf{Fields}$ of fields, which for $G$-[[Yang-Mills theory]] is simply
 
    $$
      \mathbf{Fields} = \mathbf{B}G_{conn}
      \,.
    $$
 
-1. **general covariance** In [[general covariance|generally covariant]] [[theory (physics)|theories]] fields that differ by a pullback along a [[diffeomorphism]] are required to be [[gauge equivalence]]. Hence two sections of a field bundle are to be identified by they become the same when one is pulled back along a diffeomorphism of the base. Again, at least for large diffeomorphisms (thos not connected to the identity) standard field bundle formalism cannot see this.
+   This perspective, which we descrive in detail [below](#Definition) also has the pleasant effect that it drastically simplifies and unifies notions of quantum field theory, for this says equivalently that if only we allow spaces in [[higher geometry]], then [[Yang-Mills theory]] is a [[sigma-model]] quantum field theory: one whose fields are simply maps to a given [[target space]], only that this target space here is a [[stack]].
 
-1. **twisted and shifted fields**
+   But there are more advantages, slightly less obvious. These we come to in the following points.
+
+
+1. **$G$-structures, twisted and shifted fields**
 
    (...)
 
@@ -478,18 +487,9 @@ $$
 
 The term _gauge field_ in _[[gauge theory]]_ with respect to a [[gauge group]] $G$ refers to fields which are modeled by [[connection on a bundle|connections]] either on $G$-[[principal bundles]] or on [[associated bundles]] for these. The notion of [[equivalence]] between two such fields (hence between [[connections on bundles]]) is the original meaning of the word _[[gauge transformation]]_, even though that term is also used for equivalences between fields which are not modeled by connections.
 
-We discuss the general notion of gauge fields and then various special cases and variants.
+We discuss the general notion of gauge fields and then various special cases and variants. The following table gives an overview over the notions involved in the concept of gauge fields
 
-### General gauge field
-
-$$
-  \mathbf{BgFields} = *
-$$
-
-$$
-  \mathbf{Fields} = \mathbf{B}G_{conn}
-$$
-
+[[!include gauge field - table]]
 
 ##### Electromagnetic field
 
@@ -530,7 +530,34 @@ $$
 
 #### Tensor fields
 
-$\mathbf{Fields} : \mathbb{R}^{n (p+q)}//GL(n) \to \mathbf{B}GL(n) $
+While the term _physical field_ probably orignates from _[[tensor field]]_, few fields are fundamentally given by tensor fields. Nevertheless, tensor fields, being [[sections]] of a [[tensor product]] of copies of the [[tangent bundle]] and the [[cotangent bundle]] are certainly examples of the general notion of field as in def. \ref{FieldsInAnActionFunctional}. Gere we spell this out.
+
+For $X$ a [[smooth manifold]], a [[tensor field]] of rank $(p,q)$ is a [[section]] of the [[tensor product]] bundle
+
+$$
+  \Gamma(T X)^{\otimes_{C^\infty(X)} p} \otimes_{C^\infty(X)} \Gamma(T^* X)^{\otimes q}
+  \,. 
+$$
+
+This is canonically the [[associated bundle]] to the $GL(n)$-[[principal bundle]] which to which the [[tangent bundle]] is also canonically associated, by the given [[representation]] of $GL(n)$ on $\mathbb{R}^{n(p+q)}$.
+
+The [[universal associated ∞-bundle]] of this representation is 
+
+$\mathbf{Fields} 
+\;\colon\; \mathbb{R}^{n (p+q)}//GL(n) \to \mathbf{B}GL(n) $.
+
+Hence for $\tau_X \colon X \to \mathbf{B}GL(n)$ the canonical map, the space of $(p,q)$-tensor fields on $X$ is
+
+$$
+  [\tau_X, \mathbf{Fields}]_{\mathbf{H}}
+  \in
+  \mathbf{H}
+  \,.
+$$
+
+By passing to [[irreducible representations]] in the above, we obtain specifically the corresponding subclasses of tensor fields, such as [[differential forms]].
+
+
 
 ### **III)** Sigma-model fields
 
