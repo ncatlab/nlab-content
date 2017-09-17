@@ -166,7 +166,7 @@ A (right) **module** over $A$ in $(\mathcal{V}, \otimes, I)$ is
 * equipped with a morphism
 
   $$
-    \rho : N \otimes A \to N
+    \rho : A \otimes N \to N
   $$
 
   in $\mathcal{V}$
