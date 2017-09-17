@@ -48,7 +48,7 @@ If $R$ is local and its reduced ring (i.e., $R$ modulo its ideal of nilpotent el
 
 +-- {: .num_prop} 
 ###### Proposition 
-If $R$ is Henselian and $S$ is a local ring that is integral over $R$ (meaning that $S$ is an $R$-algebra and each $x \in S$ is an [[integral element]] over $R$), then $S$ is Henselian. 
+If $R$ is Henselian and $S$ is a local ring that is integral over $R$ (meaning that $S$ is an $R$-algebra and each $x \in S$ is an [[integral closure|integral element]] over $R$), then $S$ is Henselian. 
 =-- 
 
 ## Henselization 
