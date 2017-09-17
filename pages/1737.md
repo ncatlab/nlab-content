@@ -51,14 +51,11 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 * [[transition systems]]
 
 
-
-
 ## Some (theoretical) computer scientists
 
 * [[Samson Abramsky]];
 
 * [[Andrea Asperti]];
-
 
 * [[Andrej Bauer]];
 
@@ -82,6 +79,8 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 
 ## References
 
+* theoretical computer science at [cstheory.stackexchange.com](http://cstheory.stackexchange.com)
+
 A discussion of [[foundations]] of programming languages is in
 
 *  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
@@ -100,8 +99,6 @@ for which also see [[A Categorical Manifesto]].
 Other aspects are treated in
 
 * [[Michael Barr]], [[Charles Wells]], _[Category Theory for Computing Science](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html)_.
-
-and 
 
 * [[Andrea Asperti]], [[Guiseppe Longo]], _Categories, types and structures, An Introduction to Category Theory for the working computer scientist_, M.I. T. Press (out of print, but available [online](
 http://www.cs.unibo.it/~asperti/PAPERS/book.pdf).)
