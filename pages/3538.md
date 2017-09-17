@@ -1,3 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]=--
+=--
+=--
+=--
+
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -5,7 +22,11 @@
 
 ## Definition
 
-A __clique__ of a category $C$ is a pair of a category $T$ which is weakly equivalent to $1$ (i.e., $T$ is the [[indiscrete category]] on an [[inhabited set|inhabited collection]] of [[object]]s) and a [[functor]] $A : T \rightarrow C$.  A clique is also sometimes called an **anaobject**.
+A __clique__ of a category $C$ is a [[functor]] $T \to C$ from a [[truncated|(-2)-truncated]] [[groupoid]] $T$.
+
+So this is a pair of a category $T$ which is weakly equivalent to $1$ (i.e., $T$ is the [[indiscrete category]] on an [[inhabited set|inhabited collection]] of [[object]]s) and a [[functor]] $A : T \rightarrow C$.  
+
+A clique is also sometimes called an **anaobject**, due to its relation to the construction of [[anafunctor]]s.
 
 We can form a category __$Clique(C)$__ whose objects are cliques of $C$, and whose morphisms and compositions are given as follows: Given two such cliques $(T_0, A_0)$ and $(T_1, A_1)$ in $C$, say that a morphism between them is a natural transformation from $T_0 \times T_1 \stackrel{\pi}{\to} T_0 \stackrel{A_0}{\to} C$ to $T_0 \times T_1 \stackrel{\pi}{\to} T_1 \stackrel{A_1}{\to} C$, where the $\pi$ are the appropriate projections. Given such morphisms $m : (T_0, A_0) \rightarrow (T_1, A_1)$ and $n : (T_1, A_1) \rightarrow (T_2, A_2)$, and $(t_0, t_2) \in Ob(T_0 \times T_2)$, note that the composite $n_{(t_1, t_2)} m_{(t_0, t_1)}$ of corresponding components has the same value no matter what the choice of $t_1 \in Ob(T_1)$, and there is at least one such choice. Accordingly, we can take this to give a well-defined component $(n m)_{(t_0, t_2)}$, thus defining binary composition of morphisms of cliques. Similarly, we can take the identity on a clique $(T, A)$ to be the natural transformation whose component on $(t, t') \in Ob(T \times T)$ is the value of $A$ on the unique morphism from $t$ to $t'$ in $T$.
 
