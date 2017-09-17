@@ -97,7 +97,7 @@ In [[differential algebraic K-theory]] this construction can be refined from lan
 ### Becker-Gottlieb transfer and GRR for algebraic K-theory
  {#BeckerGottliebTransfer}
 
-For $\pi \colon X \to X$ a [[proper map|proper]] [[submersion]] of [[smooth manifolds]], there is a variant of [[fiber integration in generalized cohomology]] given by the [[Becker-Gottlieb transfer]] in some $E$-[[cohomology theory]]
+For $\pi \colon X \to B$ a [[proper map|proper]] [[submersion]] of [[smooth manifolds]], there is a variant of [[fiber integration in generalized cohomology]] given by the [[Becker-Gottlieb transfer]] in some $E$-[[cohomology theory]]
 
 $$
   tr_\pi \;\colon\; E^\ast(X) \longrightarrow E^\ast(B)
@@ -116,7 +116,7 @@ in $K R(B)$. The [above](#BorelRegulator) Borel-Dirichlet regulator $r_{\sigma,p
 
 The [[Becker-Gottlieb transfer]] refines in turn to [[differential cohomology]], hence [[differential algebraic K-theory]] mapping to [[ordinary differential cohomology]], according to ([Bunke-Gepner 13](BunkeGepner13)). 
 
-However, the above relation between direct image of sheaves and push-forward in cohomology receives a correction when refined to [[algebraic differential K-theory]], a correction by a term in the image of the inclusion $a(-)$ of differential forms into [[differential cohomology]], by the [[transfer index conjecture]] one has
+However, the above relation between direct image of sheaves and push-forward in cohomology receives a correction when refined to [[differential algebraic K-theory]], a correction by a term in the image of the inclusion $a(-)$ of differential forms into [[differential cohomology]], by the [[transfer index conjecture]] one has
 
 
 $$
