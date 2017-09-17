@@ -1,4 +1,24 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 __Isabelle__ is a [[proof assistant]]
+
+## References
 
 * [wikipedia](http://en.wikipedia.org/wiki/Isabelle_%28proof_assistant%29)
 * Isabelle [homepage](http://isabelle.in.tum.de)
