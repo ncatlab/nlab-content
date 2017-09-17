@@ -1,5 +1,5 @@
 
-> This page originates in notes prepared along with a [lecture series](#SchreiberLect). Some parts remain inclomplete, and probably typos and errors remain. Comments and corrections are welcome.
+> This page originates in notes prepared along with a [lecture series](#SchreiberLect). Some parts remain incomplete, and probably typos and errors remain. Comments and corrections are welcome.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -1402,6 +1402,7 @@ Using these tools, the stages of the above smooth Whitehead tower are constructe
 
 
 #### Differential refinement
+ {#DifferentialRefinement}
 
 While the [above](#SmoothWhitehead) smooth refinement of the Whitehead tower already improves on the [bare Whitehead tower](#WhiteheadTower) by remembering the correct spaces of [[gauge transformations]], it still only sees "[[instanton]] sectors" of [[gauge fields]] and [[higher gauge fields]], namely the underlying [[principal ∞-bundles]]. We add now the refinement from _smooth cohomology_ to [[differential cohomology]] such as to encode the actual [[higher gauge fields]] themselves. This differential cohomology in turn is naturally available in terms of _curvature twisted flat cohomology_ or equivalently _curvature-twisted [[local systems]]_.
 
@@ -1725,7 +1726,7 @@ We indicate briefly how this is constructed.
 
 Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory, following ([Freed](#Freed)). We add some stacky aspects to that and explain why.
 
-In summary, we discuss how the action functional of higher gauge theory in the presence of electric and magnetic charge is a [[circle n-bundle with connection|circle bundle with connection]] $\nabla_{higher\;gauge\;anomaly}$ on the [[smooth ∞-groupoid|smooth ∞-stack]] $[X, \mathbf{Fields}]$ of field configurations on a given [[spacetime]] $X$, exhibited by a morphism
+In summary, we discuss how the [[action functional]] of higher gauge theory in the presence of electric and magnetic charge is a [[section]] of a [[circle n-bundle with connection|circle bundle with connection]] $\nabla_{higher\;gauge\;anomaly}$ on the [[smooth ∞-groupoid|smooth ∞-stack]] $[X, \mathbf{Fields}]$ of field configurations on a given [[spacetime]] $X$, exhibited by a morphism
 
 $$
   \nabla_{higher\;gauge\;anomaly}
@@ -2679,6 +2680,7 @@ Where useful, we indicate some of the discussion in formal [[homotopy type theor
 
 
 #### Cohomology
+ {#Cohomology}
 
 A [[group object in an (infinity,1)-category|group object]] in an [[(∞,1)-topos]] is a groupal [[A-∞ algebra|A-∞]]-homotopy type: an _[[∞-group]]_.
 
@@ -2716,6 +2718,7 @@ For $A$ a group object which admits an $n$-fold [[delooping]] $\mathbf{B}^n A$ a
 
 
 #### Principal bundles
+ {#PrincipalBundles}
 
 For $G \in Grp(\mathbf{H})$, $G$-cocycles on $X$ have an equivalent geometric interpretation as $G$-[[principal ∞-bundles]]: these are types 
 
@@ -2843,6 +2846,7 @@ While on the right this expresses the collection of sections of the pullback bun
 =--
 
 #### Associated and twisted bundles
+ {#AssociatedAndTwistedBundles}
 
 For
 
@@ -2876,6 +2880,10 @@ $$
   }
   \,.
 $$
+
+([NSS](#NSS))
+
+(...)
 
 
 ### Cohesive homotopy-type theory
