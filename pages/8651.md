@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the general context of [[foundations of mathematics]] 
+in **[[practical foundations]]** (following a term introduced in ([Taylor](#Taylor))) the emphasis is on conceptually natural formalizations that _concentrate the essence of practice and in turn use the result to guide practice_ ([Lawvere](#Lawvere)), as in ([Eilenberg-Steenrod](#EilenbergSteenrod), [Harper](#Harper)).
+
+   Formal systems of interest here are [[natural deduction]] in [[type theories]], which allow natural expressions for central concepts in mathematics (notably via their [[categorical semantics]] and the conceptual strength of [[category theory]]).
+
+## References
+
+* [[Paul Taylor]], _Practical Foundations of Mathematics_, Cambridge University Press ([web](http://www.cs.man.ac.uk/~pt/Practical-Foundations/html/index.html))
+{#Taylor}
+
+Under [[computational trinitarianism]] this corresponds to a practical foundation in [[program|programming]], laid out in
+
+*  [[Robert Harper]], _Practical Foundations for Programming Languages_ ([web](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
+{#Harper}
+
+A foundation for [[algebraic topology]] is this practical spirit is laid out in 
+
+* [[Samuel Eilenberg]], [[Norman Steenrod]], _[[Foundations of Algebraic Topology]]_
+  {#EilenbergSteenrod}
+
+
+[[!redirects practical foundation]]
+[[!redirects practical foundations]]
+[[!redirects practical foundations of mathematics]]
+
