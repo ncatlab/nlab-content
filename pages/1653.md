@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
 # Measurable spaces
 * table of contents
 {: toc}
@@ -266,9 +277,9 @@ A useful series of expositions along these lines is in
 
 * [[Dmitry Pavlov]], _On measurable spaces_
 
-  [MO comment 1](http://mathoverflow.net/questions/20740/is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical-p/20820#20820)
+  * [MO comment 1](http://mathoverflow.net/questions/20740/is-there-an-introduction-to-probability-theory-from-a-structuralist-categorical-p/20820#20820)
 
-  [MO comment 2](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542)
+  * [MO comment 2](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542)
 
 
 [[!redirects measurable space]]
