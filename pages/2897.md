@@ -23,7 +23,9 @@ Periods appear in a number of situations in classical algebraic geometry. Specif
 ### References
  {#ReferencesInNumberTheory}
 
-* [[Maxim Kontsevich]], [[Don Zagier]], _Periods_ ([pdf](http://www.maths.gla.ac.uk/~tl/periods.pdf))
+A general introduction to and discussion of algebraic periods is in 
+
+* [[Maxim Kontsevich]], [[Don Zagier]], _Periods_ ([pdf](http://193.51.104.7/~maxim/TEXTS/Periods.pdf))
 
 Discussion of periods as appearing in the [[deformation quantization]] of [[free field theories]] and their relation to the [[cosmic Galois group]] originates in
 
