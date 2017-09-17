@@ -148,7 +148,7 @@ of [[trace class operator|trace class operators]].
 Any $C^*$-subalgebra of $B(H)$ closed in the ultraweak topology
 is again a von Neumann algebra. 
 
-Another example is $L^\infty(X)$ under pointwise almost everywhere multiplication, where $X$ is a [[measure space]] or even just a [[localizable measurable space]]. These are essentially all the _commutative_ von Neumann algebras, according to the [[Gelfand-Naimark theorem]]. 
+Another example is $L^\infty(X)$ under pointwise almost everywhere multiplication, where $X$ is a [[measure space]] or even just a [[localizable measurable space]]. These are essentially all the _commutative_ von Neumann algebras, according to a specialized version of the [[Gelfand-Naimark theorem]]. In the case where $X$ is a finite measure space, where we have $L^\infty(X) \subset L^2(X)$, a concrete realization $L^\infty(X) \hookrightarrow B(L^2(X))$ is given by considering $L^2(X)$ as an $L^\infty(X)$-module given by pointwise almost everywhere multiplication. 
 
 
 ## Properties of morphisms of von Neumann algebras
