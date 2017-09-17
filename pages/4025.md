@@ -5,7 +5,7 @@
 
 ## Disambiguation
 
-This is about functionals in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For functionals in the sense of [[functional analysis]], see [[linear functional]]. For the relation between these, see under Examples below.
+This is about functionals in the sense of [[higher-order logic]], which is the original sense and which has only that name.  For functionals in the sense of [[functional analysis]], see [[linear functional]]. For the relation between these, see under Examples below. There is also the notion of functional as "[[function]] on [[infinite-dimensional manifolds]]", for these see at _[[nonlinear functional]]_.
 
 
 ## Definition
