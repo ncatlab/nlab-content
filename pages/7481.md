@@ -1,7 +1,55 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### $(\infty,2)$-Topos theory
++--{: .hide}
+[[!include (infinity,2)-topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-(...)
+The notions of _[[presheaf]]_, _[[site]]_ and _[[sheaf]]_ can be formulated [[internalization|internal]] to any [[topos]]. The ordinary such notions are recovered by internalization into [[Set]].
+
+More precisely, the direct internalization of these notions is into the [[universe enlargement|very large]] [[2-topos]] of the given ambient topos $\mathcal{S}$, since an internal presheaf is to be an $\mathcal{S}$-valued internal functor, but $\mathcal{S}$ does not quite sit inside itself.
+
+
+
+## Definition
+
+For $\mathcal{S}$ a [[topos]] and $\mathbb{C}$ an [[internal category]] in $\mathcal{S}$, write $\bar \mathbb{C}$ for the [[2-sheaf]] on $\mathcal{S}$
+
+$$
+  \bar \mathbb{C} : \mathcal{S}^{op} \to Cat
+$$
+
+that it represents. Moreover write 
+
+$$
+  \bar \mathcal{S} : \mathcal{S}^{op} \to Cat
+$$
+
+for the [[2-sheaf]] that [[Grothendieck construction|classifies]] the [[codomain fibration]] of $\mathcal{S}$.
+
+Then an **internal presheaf** on $\mathbb{C}$ is a morphism
+
+$$
+  F : \bar \mathbb{C}^{op} \to \bar \mathcal{S}
+$$
+
+of [[2-sheaves]] on $\mathcal{S}$. (An "[[indexed functor]]" between "[[indexed categories]]".)
+
+Suppose moreover that $\mathbb{C}$ is equipped with the structure of an [[internal site]]. Then $F$ above is an **internal sheaf** on $\mathbb{C}$ if it satisfies the evident [[descent]] condition.
 
 ## References
 
@@ -9,6 +57,25 @@ Internal presheaves in a [[Grothendieck topos]] are discussed in Section V.7 of
 
 * [[Sauders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
+and in section B2.3 of
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+In these references internal presheaves are introduced in components. The equivalence to the abstract reformulation in terms of morphisms between 2-sheaves follows for instance with ([Johnstone, lemma 2.3.13](#Johnstone)).
+
 [[!redirects internal sheaves]]
 
+[[!redirects internal presheaf]]
+[[!redirects internal presheaves]]
+
+[[!redirects category of internal sheaves]]
+[[!redirects category of internal presheaves]]
+[[!redirects categories of internal sheaves]]
+[[!redirects categories of internal presheaves]]
+
+[[!redirects internal presheaf topos]]
 [[!redirects internal sheaf topos]]
+
+[[!redirects internal presheaf toposes]]
+[[!redirects internal sheaf toposes]]
