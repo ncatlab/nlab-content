@@ -149,7 +149,7 @@ $$
    &\stackrel{\stackrel{\;\;\;\;\;lex\;\;\;\;\;\;}{\leftarrow}}  
   {\hookrightarrow}&
      PSh_{(\infty,1)}(C)
-    && \text{abstract nonsense def of (\infty,1)-topos}
+    && \text{general abstract def of (\infty,1)-topos}
     \\
     \uparrow^{\simeq} &&
     \uparrow^{\simeq}
@@ -298,7 +298,7 @@ we call the **absolute spectrum functor**
 
 =--
 
-This [[category theory|abstract nonsense]] is reassuring, but we want a more concrete definition of what such $Spec^{\mathcal{G}} U$ is like:
+This [[category theory|general abstract]] description is reassuring, but we want a more concrete definition of what such $Spec^{\mathcal{G}} U$ is like:
 
 +-- {: .un_def}
 ###### Definition
