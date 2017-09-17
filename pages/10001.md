@@ -24,7 +24,7 @@
 
 ## Idea 
 
-A deformation of [[super Yang-Mills theory]] that yields a [[topological field theory]] in 4 [[dimensions]]. This is in higher dimensional analogy to how the [[topological string]]-twisting of the [[superstring]] yields the topological [[A-model]] and [[B-model]] 2d topological field theories.
+A deformation of [[super Yang-Mills theory]] that yields a [[topological field theory]] in 4 [[dimensions]]. This is in higher dimensional analogy to how the [[topological string]]-[[topological twist|twisting]] of the [[superstring]] yields the topological [[A-model]] and [[B-model]] 2d topological field theories.
 
 ### For $N = 4$ supersymmetry
 
@@ -162,5 +162,3 @@ is discussed that the holomorphically twisted $N=1$ theory is controled by the [
 [[!redirects topologically twisted N=4 D=4 super Yang-Mills theories]]
 
 
-[[!redirects topological twist]]
-[[!redirects topological twists]]
