@@ -13,11 +13,12 @@
 The **Cosmic Cube of [[higher category theory]]** is the name for a  [[diagram]] whose vertices correspond to special types of [[(n,r)-categories]], notably to $(n,r)$-categories with especially rigid [[stuff, structure, property|property and structure]].
 
 
-Its three axes each correspond to a form of simplification: groupoidal (giving only $n$-[[n-groupoid|groupoids]]), strict (giving only [[strict n-category|strict]] $n$-categories), and stable (giving only [[stable n-category|stable]] $n$-categories).  The cube is represented on page 10 of [[John Baez]]\'s talk _[What $n$-Categories Should Be Like](http://math.ucr.edu/home/baez/n_categories/what.pdf)_.
+Its three axes each correspond to a form of simplification: groupoidal (giving only $n$-[[n-groupoid|groupoids]]), strict (giving only [[strict n-category|strict]] $n$-categories), and stably monoidal (giving only [[stably monoidal n-category|stably monoidal]] $n$-categories).  The cube is represented on page 10 of [[John Baez]]\'s talk _[What $n$-Categories Should Be Like](http://math.ucr.edu/home/baez/n_categories/what.pdf)_.
 
-Taking any combination of choices of simplification, there are $8$ vertices of the cube; besides the $4$ listed above, we have [[strict n-groupoid]]s, [[stable n-groupoid]]s, [[stable strict n-category|stable strict]] $n$-categories, and of course [[stable strict n-groupoid]]s.
+Taking any combination of choices of simplification, there are $8$ vertices of the cube; besides the $4$ listed above, we have [[strict n-groupoid]]s, [[stably groupal n-groupoid]]s, [[strict stably monoidal n-category|strict stably monoidal]] $n$-categories, and of course [[strict stably groupal n-groupoid]]s.
 
 Each vertex also corresponds to a version of [[homotopy theory]].  The stable strict groupoid vertex corresponds to [[chain complexes]] as used in ordinary [[cohomology]]. [[Ronnie Brown]]'s [[nonabelian algebraic topology]] studies the version corresponding to the strict groupoid vertex.
+
 
 ## Vertices of the cube
 
@@ -27,21 +28,26 @@ Each vertex also corresponds to a version of [[homotopy theory]].  The stable st
 
 * [[crossed complex]]
 
+
 ### Stably monoidal $\infty$-categories
 
 * [[symmetric monoidal (∞,1)-category]]
+
 
 ### Stably monoidal $\infty$-groupoids
 
 * [[infinite loop space]], [[spectrum]]
 
-### Stricly stably monoidal strict $\infty$-groupoids
+
+### Strictly stably monoidal strict $\infty$-groupoids
 
 * [[chain complex]], [[Dold-Kan correspondence]]
+
 
 ### Etc.
 
 (...)
+
 
 ## Edges of the cube
 
@@ -105,12 +111,13 @@ $$
 yields in total the map $ChnCplx \to sAb$ from [[chain complex]]es to [[simplicial abelian group]]s (followed by the forgetful $sAb \to KanCpx$) of the [[Dold-Kan correspondence]].
 
 
-
-
 ## References
 
 * [[John Baez]], _[What $n$-Categories Should Be Like](http://math.ucr.edu/home/baez/n_categories/what.pdf)_.
 
 * Some blog [discussion](http://golem.ph.utexas.edu/category/2008/03/kim_on_fundamental_groups_in_n.html#c015463)
 
+
+[[!redirects cosmic cube]]
+[[!redirects Cosmic Cube]]
 [[!redirects cosmic cube of higher category theory]]
