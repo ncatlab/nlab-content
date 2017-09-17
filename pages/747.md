@@ -975,3 +975,5 @@ using instead of a full [[model category]] structure the more lightweight one of
 A comparison between Brown-Gersten and Joyal-Jardine approach:
 
 * V. Voevodsky, _Homotopy theory of simplicial presheaves in completely decomposable topologies_, [arxiv/0805.4578](http://arxiv.org/abs/0805.4578)
+
+[[!redirects model structures on simplicial presheaves]]
