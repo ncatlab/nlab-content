@@ -90,9 +90,9 @@ with a nice introduction in
 
 see also
  
-* B. Chandler, W. Magnus, _The history of combinatorial group theory: a case study in the history of ideas_, Springer 1982
+* B. Chandler, [[W. Magnus]], _The history of combinatorial group theory: a case study in the history of ideas_, Springer 1982
 
-* R. Lindon, P. Schupp, _Combinatorial group theory_, Ch. II.3, Springer 1977(Russian transl. Mir, Moskva 1980)
+* [[R. Lyndon]], [[P. Schupp]], _Combinatorial group theory_, Ch. II.3, Springer 1977(Russian transl. Mir, Moskva 1980)
 
 and more recently
 
