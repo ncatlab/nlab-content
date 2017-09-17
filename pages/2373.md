@@ -106,6 +106,18 @@
 
   * [[modification]]
 
+## Functors
+
+* [[functor]]
+
+* [[2-functor]]
+
+  * [[pseudofunctor]]
+
+  * [[lax functor]]
+
+* [[(∞,1)-functor]]
+
 ## Universal constructions
 
 * [[2-limit]]
