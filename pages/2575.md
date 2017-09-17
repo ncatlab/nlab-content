@@ -280,8 +280,7 @@ We discuss aspects of Chern-Simons theory in
 [[extended prequantum field theory]]. For more on this
 see at _[[schreiber:Higher Chern-Simons local prequantum field theory]]_.
 
-Let $G$ be a [[simply connected topological space|simply connected]] [[Lie group]], such as
-the [[spin group]].
+Let $G$ be a [[simply connected topological space|simply connected]] [[Lie group]], such as the [[spin group]].
 
 Write $\mathbf{B}G \in \mathbf{H}$ for the [[smooth infinity-groupoid|smooth]] [[moduli stack]] of $G$-[[principal bundles]] (as discussed [here](smooth+infinity-groupoid+--+structures#LieGroups)) and write $\mathbf{B}G_{conn} \in \mathbf{H}$ for that of $G$-[[connection on a bundle|principal bundles with connection]]. (Here $\mathbf{H} = $ [[Smooth∞Grpd]] is the [[(∞,1)-topos]] for smooth [[higher geometry]].) Similarly, for $n \in \mathbb{N}$ write $\mathbf{B}^n U(1)_{conn}$ for the [[smooth infinity-groupoid|smooth]] [[moduli infinity-stack|moduli n-stack]] of [[circle n-bundles with connection]]. 
 
@@ -677,6 +676,10 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 * [[level (Chern-Simons theory)]]
 
 * [[extended prequantum Chern-Simons theory]]
+
+* [[quantization of Chern-Simons theory]]
+
+* [[Spin Chern-Simons theory]]
 
 * [[schreiber:∞-Chern-Simons theory]]
 
