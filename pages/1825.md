@@ -88,6 +88,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[sphere spectrum]]
 
+* [[geometric quantization of the 2-sphere]]
+
 [[!redirects n-sphere]]
 [[!redirects spheres]]
 [[!redirects infinite sphere]]
