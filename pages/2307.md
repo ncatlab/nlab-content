@@ -28,7 +28,7 @@ is the [[spectrum]] is in degree $2 n$ given by the [[Thom space]] of the [[vect
 $$
   M U(2n) = Thom
   \left(
-    standard associated bundle to universal bundle
+    standard\;associated\;bundle\;to\;universal\;bundle
     \array{
       E U(n) \\ \downarrow \\ B U(n)
     }
@@ -78,6 +78,7 @@ $$
 
 * [[algebraic cobordism]], [[algebraic cobordism spectrum]]
 
+* [[Adams-Novikov spectral sequence]]
 
 
 ## References
