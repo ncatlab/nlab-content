@@ -117,6 +117,10 @@ $$
   \,.
 $$
 
+## Variants
+
+If in the definition of combinatorial species the  domain [[core]]([[FinSet]]) is replaced with [[FinVect]] and also the presheaves are take with values in [[FinVect]] then one obtains the notion of  **[[Schur functor]]**.
+
 ## References
 
 The notion of species goes back to
