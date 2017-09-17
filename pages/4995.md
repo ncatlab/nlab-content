@@ -701,11 +701,16 @@ A commented list of further related references is at
 ### In homotopy type theory
   {#ReferencesInHoTT}
 
-Formalizations of cohesive $(\infty,1)$-category theory in [[homotopy type theory]] -- _cohesive homotopy type theory_ -- are (in [[Coq]]-notation) in 
+Expositions and discussion of the formalization of cohesion in [[homotopy type theory]] is in
+
+* [[Mike Shulman]], _Axiomatic cohesion in HoTT_ ([blog post](http://homotopytypetheory.org/2011/11/02/axiomatic-cohesion-in-hott/))
+
+Some relevant [[Coq]]-code is in 
 
 * [[Guillaume Brunerie]], _[HoTT/Coq/Cohesion](https://github.com/guillaumebrunerie/HoTT/tree/master/Coq/Cohesion)_
 
 * [[Jelle Herold]], _[HoTT/Coq/Cohesive.v](https://github.com/0x01/HoTT/blob/05db0bca04e5ffecf0f559940934f22b915c28fc/Coq/Cohesive.v)_
+
 
 [[!redirects cohesive (∞,1)-topos]]
 
