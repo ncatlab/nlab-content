@@ -246,6 +246,8 @@ A survey of how this works is in
 
 * [[Akhil Mathew]], _The homotopy groups of $TMF$_ ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
+  (This presents as an instructive much simpler but analogous case the construction of [[KO]] in analogy to the construction of $tmf$, more details on this are in [Mathew 13, section 3](#Mathew13).)
+
 and course notes that go through the construction of tmf and the computation of its homotopy groups are here:
 
 *  _Talbot workshop on TMF_ ([web](http://math.mit.edu/conferences/talbot/2007/tmfproc/))
@@ -261,6 +263,10 @@ and course notes that go through the construction of tmf and the computation of 
 The non-connective version of this is discussed in
 
 * [[Johan Konter]], _The homotopy groups of the spectrum Tmf_ ([arXiv:1212.3656](http://arxiv.org/abs/1212.3656))
+
+The $\mathbb{Z}_2$-[[homology]] of $tmf$ is discussed in 
+
+* {#Mathew13} [[Akhil Mathew]], _The homology of $tmf$_ ([arXiv:1305.6100](http://arxiv.org/abs/1305.6100))
 
 The refinement of the [[Witten genus]] to a morphism of [[E-∞ rings]] to $tmf$, hence the [[string orientation of tmf]] is due to 
 
