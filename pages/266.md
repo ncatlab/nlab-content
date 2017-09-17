@@ -527,9 +527,17 @@ For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|
    for all $c \in C$.
 
 1. if $F$ is a [[full and faithful functor]] then 
-   $F^* (Lan_F H) \simeq H$.
+   $F^* (Lan_F H) \simeq H$ and in fact the $(Lan_F \dashv F^*)$-[[unit of an adjunction]] is a [[natural isomorphism]]
+
+   $$
+      Id \stackrel{\simeq}{\to} F^* \circ Lan_{F}
+   $$ 
+
+   whence it follows (see the basic properties of [[adjoint functor]]s) that $Lan_F : [C,\mathcal{V}] \to [D,\mathcal{V}]$ is itself a [[full and faithful functor]].
 
 =-- 
+
+The second statement appears for instance as ([Kelly, prop. 4.23](#Kelly)).
 
 +-- {: .proof}
 ###### Proof
