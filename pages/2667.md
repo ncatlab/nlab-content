@@ -430,6 +430,12 @@ $$U: SymMonLinCauch \to Cat$$
 
 The key is that $Schur$ is the free symmetric monoidal linear Cauchy-complete category on one generator.  
 
++-- {: .query}
+
+I added explanatory remarks above.
+ 
+=-- 
+
 ## Representability ##
 
 To build a bridge from abstract Schur functors as pseudonatural transformations to the more classical descriptions, we start with the following key result.  In what follows we use $k \mathbb{P}$ to denote the 'linearization' of the permutation groupoid: that is, the linear category formed by replacing the homsets in $\mathbb{P}$ by the free vector spaces on those homsets.  We use $\widebar{k \mathbb{P}}$ to denote the Cauchy completion of the linearization of $\mathbb{P}$.  As we shall see, $\widebar{k \mathbb{P}}$ is equivalent to the category of Schur functors.  But first:
