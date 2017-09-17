@@ -38,8 +38,17 @@ The category of directed graphs in $C$, [[DiGraph]], is the [[functor category]]
 
 * morphisms are [[natural transformation|natural transformations]] between such functors.
 
-In the basic case $C = Set$, we call this category the category of [[presheaf|presheaves]] on $X^{op}$.  So: the category of directed graphs, [[DiGraph]], is the category of presheaves on the category $X^{op}$.
+In the basic case $C = Set$, we call this category the category of [[presheaf|presheaves]] on $X^{op}$.  So: the category of directed graphs, [[DiGraph]], is the category of presheaves on the category $X^{op}$. 
 
+### Nuts-and-bolts definitions 
+
+A directed graph $G$ consists of two sets $E$ (the set of _edges_ of $G$), $V$ (the set of _vertices_ of $G$) and two functions 
+
+$$s, t: E \stackrel{\to}{\to} V$$ 
+
+(the source and target functions). More generally, a _directed graph internal to a category_ (more simply, in a category) $C$ consists of two objects $E$, $V$ and two morphisms $s, t: E \to V$. 
+
+If $G = (E, V, s, t)$ and $G' = (E', V', s', t')$ are two directed graphs in a category $C$, a morphism $g: G \to G'$ is a pair of morphisms $g_0: V \to V'$, $g_1: E \to E'$ such that $s' \circ g_1 = g_0 \circ s$ and $t' \circ g_1 = g_0 \circ t$. 
 
 #Remarks#
 
