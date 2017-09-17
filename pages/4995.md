@@ -341,6 +341,33 @@ natural in $X$, hence that $\tilde \Gamma \simeq \Gamma$.
 
 =--
 
++-- {: .num_remark #AdjunctionIsoFromInternalReflectionCoreflection}
+###### Remark
+
+In the above situation, the defining [[adjoint (∞,1)-functor|adjunction equivalence]]
+
+$$
+  \mathbf{H}(\mathbf{\Pi} X , A)
+    \simeq 
+  \mathbf{H}(X, \flat A) 
+$$
+
+exhibiting $(\mathbf{\Pi} \dashv \flat)$
+is given by the composite of natural equivalences
+
+$$
+    \mathbf{H}(\mathbf{\Pi}X, A)
+     \underoverset{\simeq}{\mathbf{H}(\mathbf{\Pi}X, coloc_A)^{-1}}{\to}
+     \mathbf{H}(\mathbf{\Pi} X, \flat A)
+   \underoverset{\simeq}{\mathbf{H}(loc_X, \flat A)}{\to}
+    \mathbf{H}(X, \flat A) 
+$$
+
+from lemma \ref{ReflectiveEmbeddingInternally}, using that both $\mathbf{\Pi} X$ as well as $\flat A$ are discrete.
+
+=--
+
+
 Using these lemmas we can now restate cohesiveness internally.
 
 +-- {: .num_corollary}
