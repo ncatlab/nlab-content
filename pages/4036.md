@@ -26,7 +26,7 @@ A [[cover]] $\{U_i \to X\}$ of a [[topological space]] or [[smooth manifold]] $X
 
 Every [[paracompact space|paracompact]] [[manifold]] should admit a good open cover.
 
-Because every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a geodesic in the neighborhood; see for example the remark after lemma 10.3 in Milnor's _Morse Theory_ , page 59). It is immediate that a nonempty intersection of two geodesically convex regions is also geodesically convex, hence contractible. 
+Because every paracompact manifold admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a geodesically convex neighborhood (any two points in the neighborhood are connected by a geodesic in the neighborhood; see for example the remark after lemma 10.3 in Milnor's _Morse Theory_ , page 59). Provided that the neighborhoods are chosen small enough to guarantee uniqueness of the geodesic, it is immediate that a nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex, hence contractible. 
 
 
 ### $n$POV
