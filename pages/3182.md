@@ -828,7 +828,7 @@ $$
 $$
 
 We check that $\mathbf{Sing}$ is also a [[Quillen adjunction|left Quillen functor]] first for the [[model structure on simplicial presheaves|global projective model structure]].
-For that, notice that the above expression is the evaluation of the left [[Quillen bifunctor]] (see the exmaples-section there for details)
+For that, notice that the above expression is the evaluation of the left [[Quillen bifunctor]] (see the examples-section there for details)
 
 $$
   \int^C (-) \cdot (-) : 
