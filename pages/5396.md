@@ -34,3 +34,4 @@ A review is in section 2 of
 
 
 [[!redirects Stone-Gelfand-Naimark theorem]]
+[[!redirects constructive Gelfand duality]]
