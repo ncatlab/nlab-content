@@ -151,6 +151,8 @@ By a similar argument, (if ZFC is consistent) there are models $M'$ of classical
 
 * [[stability in model theory]], [[geometric stability theory]]
 
+* [[abstract model theory]]
+
 * [[nonstandard analysis]], [[set theory]], [[foundations and logic]], [[algebraic set theory]], [[forcing]], [[o-minimal structure]]
 
 * [[Lascar group]]
