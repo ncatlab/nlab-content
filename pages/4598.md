@@ -16,7 +16,9 @@
 ## Idea
 
 
-The _Pontryagin classes_ are [[characteristic class]]es on the [[classifying space]] $\mathcal{B}O(n)$ of the [[orthogonal group]].
+The _Pontryagin classes_ are [[characteristic class]]es on the [[classifying space]] $\mathcal{B}O(n)$ of the [[orthogonal group]]
+and, by pullback, on the base of any bundle with structural group the
+[[orthogonal group]]. The latter is where they were originally defined.
 
 The analogs for the [[unitary group]] are the [[Chern class]]es.
 
