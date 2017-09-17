@@ -37,13 +37,15 @@ The [[action functional]] of the A-model is that associated by [[AKSZ theory]] t
 
 See the [references on Lagrangian formulation](#LagrangianLit).
 
-## Boundary theory
+## Boundary theory / holography
 
 On coisotropic [[brane]]s in symplectic target manifolds that arise by complexification of [[phase space]]s, the boundary [[path integral]] of the A-model computes the [[quantization]] of that phase space. For details see
 
 * [[quantization via the A-model]].
 
+and
 
+* [[holographic principle]].
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
