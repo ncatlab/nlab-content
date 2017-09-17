@@ -173,6 +173,8 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[symplectic reduction]]
 
+* [[geometric quantization]], [[canonical momentum]]
+
 ## References
 
 See the references at [[symplectic geometry]].
