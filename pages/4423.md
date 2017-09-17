@@ -56,7 +56,7 @@ Notably if $G$ is a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, $P$ is th
 
 The above description of curvature characteristic forms may be formulated in terms of [[∞-Lie theory]] as follows.
 
-For $P \to X$ a $G$-[[principal bundle]] write $T X$, $T P$ and $T_{vert} P$ for the [[tangent Lie algebroid]] of $X$, of $P$ and the [[vertical tangen Lie algebroid]] of $P$, respectively. Write $inn(\mathfrak{g})$ for the [[Lie 2-algebra]] given by the [[differential crossed module]] $\mathfrak{g}\stackrel{Id}{\to} \mathfrak{g}$ and finally $\prod_i b^{n_i} \mathbb{R}$ for the [[L-∞-algebra]] with one abelian generator for each generating [[invariant polynomial]] of $\mathfrak{g}$
+For $P \to X$ a $G$-[[principal bundle]] write $T X$, $T P$ and $T_{vert} P$ for the [[tangent Lie algebroid]] of $X$, of $P$ and the [[vertical tangent Lie algebroid]] of $P$, respectively. Write $inn(\mathfrak{g})$ for the [[Lie 2-algebra]] given by the [[differential crossed module]] $\mathfrak{g}\stackrel{Id}{\to} \mathfrak{g}$ and finally $\prod_i b^{n_i} \mathbb{R}$ for the [[L-∞-algebra]] with one abelian generator for each generating [[invariant polynomial]] of $\mathfrak{g}$
 
 From the discussion at [[invariant polynomial]] we have a canonical morphism $inn(\mathfrak{g}) \to \prod_i b^{n_i}\mathbb{R}$ that represents the generating invariant polynomials.
 
