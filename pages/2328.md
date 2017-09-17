@@ -53,3 +53,5 @@ section 6.4.2 of
 [[!redirects Grothendieck (0,1)-topos]]
 [[!redirects 0-topos]]
 [[!redirects Grothendieck 0-topos]]
+
+[[!redirects (0,1)-toposes]].
