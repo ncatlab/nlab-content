@@ -1694,6 +1694,8 @@ By prop. \ref{UnderlyingSetOfSmoothMappingSpace} a point $* \to [X,\mathbb{R}^1]
 
 #### Differential forms on abstract coordinate systems
 
+spring
+
 +-- {: .num_defn #Differential1FormsOnCartesianSpaces}
 ###### Definition
 
@@ -2450,6 +2452,103 @@ variation gives [[Lorentz force]]
 
 (...)
 
+## **flat connections**
+
+### Layer Mod
+
+
+### Layer Sem
+
+$$
+  UnderlyingBundle_G \colon \flat \mathbf{B}G \to \mathbf{B}G
+$$
+
+### Layer Syn
+
+$$
+  \mathbf{B}G \colon Type
+  \;\vdash \;
+  UnderlyingBundle \colon \flat \mathbf{B}G \to \mathbf{B}G
+$$
+
+## **de Rham Coefficients**
+
+### Layer Mod
+
+* [[de Rham complex]]
+
+* [[de Rham cohomology]]
+
+* [[de Rham theorem]]
+
+
+### Layer Sem
+
+
+For $G \in Gpr(\mathbf{H})$
+
+$$
+  \array{
+     \flat_{dR} \mathbf{B}G &\to& \flat \mathbf{B}G
+     \\
+     \downarrow &pb& \downarrow
+     \\
+     * &\to& \mathbf{B}G
+  }
+$$
+
+
+
+### Layer Syn
+
+$$
+  \begin{aligned}
+    \flat_{dR}\mathbf{B}G \;\; & (\mathbf{B}G \colon Type)\; \colon Type
+    \\
+    & \coloneqq
+    \;\;\;\;
+    &  \sum_{\nabla \colon \flat \mathbf{B}G}
+    (  UnderlyingBundle(\nabla) = * )
+  \end{aligned}
+$$
+
+## Maurer-Cartan forms
+
+
+### Layer Mod
+
+(...)
+
+### Layer Sem
+
+Let $G \in Grp(\mathbf{H})$. 
+
+Use the [[pasting law]] together with the fact that $\flat$ is
+[[right adjoint]] and hence preserves [[limits]] to get $\theta$ in
+
+$$
+  \array{
+    G &\to& *
+    \\
+    \downarrow^{\mathrlap{\theta}} & pb & \downarrow
+    \\
+    \flat_{dR} \mathbf{B}G &\to& \flat \mathbf{B}G
+    \\
+    \downarrow &pb& \downarrow
+    \\
+    * &\to& \mathbf{B}G
+  }
+$$
+
+This is the [[Maurer-Cartan form]] on $G$
+
+$$
+  \theta \colon G \to \flat_{dR} \mathbf{B}G
+$$
+
+### Layer Syn
+
+(...)
 
 ## **Circle-principal connections**
 
