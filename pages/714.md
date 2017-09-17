@@ -318,6 +318,9 @@ For more on this see
 
 * [[quantum mechanics in terms of †-compact categories]].
 
+## Related concepts
+
+* [[star-category]], [[C-star-category]]
 
 ## References
 
