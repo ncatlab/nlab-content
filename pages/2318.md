@@ -74,7 +74,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    B String &\stackrel{\frac{1}{6}}{\to} B^7 U(1)&
+    B String &\stackrel{\frac{1}{6}}{\to}& B^7 U(1)&
   }
 $$
 
@@ -84,7 +84,7 @@ $$
   \array{
     && B Fivebrane &\to& * 
     \\
-    {}^{\mathllap{\hat \hat g}}\nearrow & \downarrow && \downarrow
+    & {}^{\mathllap{\hat \hat g}}\nearrow & \downarrow && \downarrow
     \\
     X &\stackrel{\hat g}{\to}& B String &\stackrel{\frac{1}{6}p_2}{\to}& B^7 U(1)
   }
