@@ -98,6 +98,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Ars Mathematica](http://arsmathematica.net) (analysis, probability...)
 
+* [Azimuth](http://johncarlosbaez.wordpress.com/) (stochastic processes, network theory, 'green mathematics' and expository fun stuff)
+
 * [bit-player](http://bit-player.org/) Math/computer science blog of science writer Brian Hayes (writer for American Scientist)
 
 * [CTK Insights](http://www.mathteacherctk.com/blog/) A blog for teaching 
