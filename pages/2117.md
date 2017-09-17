@@ -90,6 +90,8 @@ Set theory is not the only [[foundation of mathematics]].  For example, there ar
 
 * [[universe enlargement]]
 
+* [[universe polymorphism]]
+
 * [[type of types]]
 
 [[!redirects universe]]
