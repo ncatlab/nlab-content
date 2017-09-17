@@ -65,7 +65,7 @@ More abstractly, the monads $s$ and $t$ in $K$ give rise to ordinary monads $s^*
 
 ### Algebras for monads in Cat
 
-If $K = Cat$ and $(T,\eta,\mu)$ is a monad on a category $C$, then a left $T$-module $A \colon 1 \to C$, where $1$ is the [[terminal category]], is usually called a **$T$-algebra**: it is given by an object $A \in C$ together with a morphism $\alpha \colon T A \to A$, such that
+If $K = Cat$ and $(T,\eta,\mu)$ is a monad on a category $C$, then a left $T$-module $A \colon C \to 1 \to C$, where $1$ is the [[terminal category]], is usually called a **$T$-algebra**: it is given by an object $A \in C$ together with a morphism $\alpha \colon T A \to A$, such that
 $$ \array {
   T(T(A))              & \stackrel{\mu_A}\rightarrow  & T(A) \\
   T(\alpha) \downarrow &                              & \downarrow \alpha \\
