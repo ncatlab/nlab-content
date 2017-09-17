@@ -89,7 +89,7 @@ Y n & = & (\lambda s. n (s s)) (\lambda s. n (s s)) \\
  & = & n (Y n)
 }$$ 
 
-so that $Y n$ is a fixed point of $n$. Compare Lawvere's proof of [[Cantor's theorem]]. 
+so that $Y n$ is a fixed point of $n$. Compare [[Lawvere fixed point theorem|Lawvere's proof]] of [[Cantor's theorem]]. 
 
 ### Combinatory logic
 
@@ -106,6 +106,8 @@ In many forms of (multi-) *typed* $\lambda$-calculus (and more general type theo
 However, it is possible to add a fixed-point combinator to typed $\lambda$-calculus by fiat, obtaining a typed system which includes general recursion and hence nontermination.  This is appropriate for some forms of [[domain semantics]], and for modeling some real-world programming languages ([[Haskell]] is a notable example).
 
 ## Related pages
+
+* [[Lawvere fixed point theorem]]
 
 * [[looping combinator]]
 
