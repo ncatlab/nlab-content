@@ -233,7 +233,7 @@ This is discussed in detail at <a href="http://ncatlab.org/nlab/show/over-topos#
 Let $X \in \mathcal{E}$ be concrete. Then the image under the
 $coDisc/X \circ \Gamma/X$-[[monad]] of any object $(A \to X) \in \mathcal{E}/X$ is an object $(\tilde A \to X)$ with $\tilde A$ being concrete.
 
-This $\tilde A$ is the finest concrete sheaf tructure on $\Gamma A$ that extends $\Gamma A \to \Gamma X$ to a morphism of concrete sheaves.
+This $\tilde A$ is the finest concrete sheaf structure on $\Gamma A$ that extends $\Gamma A \to \Gamma X$ to a morphism of concrete sheaves.
 
 =--
 
