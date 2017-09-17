@@ -5,18 +5,24 @@
 
 ## Idea
 
-An _algebraic curve_ over a [[field]] $F$ is the locus of solutions of $(n-1)$-[[polynomials]] in $n$-[[variables]] of [[type]] $F$.
+An algebraic curve is an [[algebraic variety]] of dimension $1$. Typically
+one restricts considerations to either affine or projective algebraic curves. Most often one treats the plane algebraic curves, i.e. curves
+with an embedding into $\mathbf{A}^2$ or $\mathbf{P}^2$; they are the locus of solutions of a single algebraic equation.
 
-## Related concepts
+An _algebraic curve_ over a [[field]] $F$ is the locus of solutions of $(n-1)$-[[polynomials]] in $n$-[[variables]] of [[type]] $F$, provided the 
+Krull dimension of the ring is $1$.
 
-* [[algebraic variety]]
 
 ## Properties
 
-* [[Mordell conjecture]]
-* [[Jacobian
+* Every projective algebraic curve is [[birationally equivalent]] to a plane algebraic curve
+* [[Mordell conjecture]]: every algebraic curve of genus $g\geq 2$ defined over rationals has at least one point over rationals
+* To a nonsingular curve $C$ over the field of complex numbers one associates an [[abelian variety]], namely its [[Jacobian variety]] together with the period map or Abel-Jacobi map $C\to J(C)$.
 
 ## References
+
+Related $n$Lab entries include [[moduli space of curves]], [[stable curve]], [[Jacobian variety]], [[Mordell conjecture]], [[Riemann surface]],
+[[elliptic curve]], [[Bezout's theorem]]
 
 * Wikipedia, _[Algebraic curve](http://en.wikipedia.org/wiki/Algebraic_curve)_
 
