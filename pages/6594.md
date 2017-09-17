@@ -77,11 +77,7 @@ One can read the [[D'Auria-Fre formulation of supergravity]] as saying that high
 
 ## Related concepts
 
- local model                |   global geometry
-----------------------------|----------------------------
- [[Klein geometry]]         |   [[Cartan geometry]]
- [[Klein 2-geometry]]       |   [[Cartan 2-geometry]]
- [[higher Klein geometry]]  |   _higher Cartan geometry_
+[[!include local and global geometry - table]]
 
 
 [[!redirects Cartan 2-geometry]]
