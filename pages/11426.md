@@ -1,0 +1,21 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The universal [[Thom spectrum]] of the [[orthogonal group]], the [[homotopy colimit]] of the [[J-homomorphism]] in [[Spectra]]:
+
+$$
+  MO = \underset{\rightarrow}{\lim}(B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to Spectra)
+$$
+
+## Related concepts
+
+* [[MU]], [[complex cobordism cohomology]]
+
+* [[orientation in generalized cohomology]]
+
+* [[KO]]
+
