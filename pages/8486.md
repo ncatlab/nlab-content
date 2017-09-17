@@ -102,5 +102,9 @@ Then $(C^\infty(X), \mathfrak{g})$ is the [[Lie-Rinehart algebra]] corresponding
 [[!redirects bisection]]
 [[!redirects bisections]]
 
+[[!redirects ∞-bisection]]
+[[!redirects ∞-bisections]]
+
+
 [[!redirects ∞-group of bisections]]
 [[!redirects ∞-groups of bisections]]
