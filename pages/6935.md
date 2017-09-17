@@ -36,7 +36,7 @@ We discuss the [[categorical semantics]] of inductive types.
 +-- {: .num_remark}
 ###### Remark
 
-Notice that traditionally in [[category theory]], the notion of an [[initial algebra of an endofunctor|initial algebra]] $W$ [[algebra for an endofunctor|for an endofunctor]] $F$ can be broken down into three parts: 
+Traditionally in [[category theory]], the notion of an [[initial algebra of an endofunctor|initial algebra]] $W$ [[algebra for an endofunctor|for an endofunctor]] $F$ can be broken down into three parts: 
 
 
 1. It is an $F$-algebra, given by a structure $F(W) \to W$. Typically this structure is delivered in terms of _constructors_ (maps into $W$ out of the components of a coproduct decomposition of $F(W)$).
@@ -45,9 +45,11 @@ Notice that traditionally in [[category theory]], the notion of an [[initial alg
 
 1. Any two algebra maps from $W$ to $A$ are equal. 
 
-In type theory, we break things down a bit differently, for a variety of reasons.  
 
 =--
+
+In the type theoretic use of the notion, the same concept is naturally thought of as broken down a bit differently (for a variety of reasons):
+
 
 +-- {: .num_defn #InterpretationOfTheRules}
 ###### Definition
@@ -91,19 +93,22 @@ For the special case that $B \to W$ is a [[projection]] $p_1 : W \times A \to W$
 
 =--
 
-+-- {: .num_lemma }
-###### Observation
++-- {: .num_prop }
+###### Proposition
 
 When interpreted in a category $\mathcal{C}$ of [[homotopy type|homotopy 0-types]] = sets,
 definition \ref{InterpretationOfTheRules}
-implies that $W$ is an [[initial algebra for an endofunctor|initial algebra]] for $F$.
+is equivalent to saying that $W$ is an [[initial algebra for an endofunctor|initial algebra]] for $F$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By remark \ref{EliminationInterpretationImpliesMapsOut} we have a homomorphism from $W$ to any other $F$-algebra $A$. Therefore it remains to show that for $f, g : W \to A$ two algebra homomorphism, they are necessarily equal.
+One direction is immediate: suppose that $W$ is an initial algebra. Then by definition it comes with a morphism $F(W) \to W$. Then since [[initial object|initiality]] entails first of all the existence of a morphims to any other object it follows that with $B$ another $F$-algebra there is a homomorphism $W \to B$, and since secondly initiality entails uniqueness of this morphism, it follows that given a homomorphism $B \to W$ the composite $W \to B \to W$ has to equal the identity $id_W$, hence that $B \to W$ has a section, and uniquely so.
+
+Conversely, assume that $W$ satisfies definition \ref{InterpretationOfTheRules}.
+By remark \ref{EliminationInterpretationImpliesMapsOut} we have a homomorphism from $W$ to any other $F$-algebra $A$. Therefore to show that $W$ is an initial $F$-algebra it remains to show that for $f, g : W \to A$ two algebra homomorphism, they are necessarily equal.
 
 To that end, notice that by the assumption of 0-truncation, the [[diagonal]]  $\delta \colon A \to A \times A$ is a display map / fibration. 
 
@@ -120,7 +125,7 @@ $$
   \,,
 $$ 
 
-which is also an algebra homomorphism. Therefore by the interpretation of the elimination rule has a (specified) [[section]]. $\sigma : W \to P$. But $P \to W$ is the pullback of a [[monomorphism]] and therefore itself a monomorphism, and so the section forces it to be in fact an [[isomorphism]]. This in turn means that $f$ and $g$ are equal. 
+which is also an algebra homomorphism. Therefore by the interpretation of the elimination rule it has a (specified) [[section]] $\sigma : W \to P$. But $P \to W$ is the pullback of a [[monomorphism]] and therefore itself a monomorphism, and so the section forces it to be in fact an [[isomorphism]]. This in turn means that $f$ and $g$ are equal. 
 
 =--
 
@@ -160,7 +165,29 @@ In [[Coq]]-[[syntax]] the [[natural numbers]] are the inductive type defined by
      | zero : nat
      | succ : nat -> nat.
 
-This is the initial algebra for the endofunctor $F(X) = 1 + X = * \coprod X$.
+In the [[categorical semantics]]
+this is interpreted as the [[initial algebra for an endofunctor|initial algebra]] for the endofunctor $F$ that sends an object to its [[coproduct]] with the [[terminal object]] 
+
+$$
+  F(X) = * \coprod X
+  \,,
+$$
+
+or in different equivalent notation, which is very suggestive here:
+
+$$
+  F(X) = 1 + X
+  \,.
+$$
+
+That [[initial algebra for an endofunctor|initial algebra]] is (as explained there) precisely a [[natural number object]] $\mathbb{N}$. The two components of the morphism $F(\mathbb{N}) \to \mathbb{N}$ that defines the algebra structure are the 0-[[generalized element|element]] $zero : * \to X$ and the successor [[endomorphism]] $successor : X \to X$
+
+$$
+  (zero,successor) : * \coprod X \to X
+  \,.
+$$
+
+The [[initial object|initiality]] of this object is the classical [[induction principle]] (...). 
 
 ### Identity types
 
