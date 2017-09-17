@@ -418,7 +418,7 @@ is a [[Kan complex]] [[internalization|internal to]] [[diffeological space]]s.
 =--
 
 
-+-- {: .un_prop}
++-- {: .un_prop #DiffeologicalKanComplexesAreConcrete}
 ###### Proposition
 
 Let $X$ be a diffeological $\infty$-groupoid. Regarded as an object
@@ -2512,33 +2512,71 @@ $$
   \Omega^\bullet_{vert}(U \times \Delta^n)
 $$
 
-in $dgAlg$.
+in [[dgAlg]].
 
 =--
 
 +-- {: .un_def}
 ###### Definition
 
-For $\mathfrak{g}$ an [[L-∞ algebra]] of finite type, with [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ write $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ for the [[simplicial presheaf]] given by
+For $\mathfrak{g}$ an [[L-∞ algebra]] (over the [[real number]]s $\mathbb{R}$)
+of  [[finite type]], with [[Chevalley-Eilenberg algebra]] 
+$CE(\mathfrak{g}) \in $ [[dgAlg]]${}_{\mathbb{R}}$
+write $\exp(\mathfrak{g}) \in [CartSp_{smooth}^{op}, sSet]$ for the [[simplicial presheaf]] defined over $U \in $ [[CartSp]] and 
+$n \in \mathbb{N}$ by
 
 $$
   \exp(\mathfrak{g}) 
    :
   (U, [n]) \mapsto
   Hom_{dgAlg}(\Omega_{vert}^\bullet(U \times \Delta^n), CE(\mathfrak{g}))
-  \,.
 $$
 
+with the evident structure maps given by pullback of [[differential form]]s.
+
 =--
+
+For references related to this definition see _[[Lie integration]]_ .
 
 +-- {: .un_prop}
 ###### Proposition
 
-The objects $\exp(\mathfrak{g})$ are 
-[diffeological Kan complexes](#DiffeologicalKanComplex)
-and hence [concrete objects](#StrucConcreteObjects).
+The objects $\exp(\mathfrak{g})$ are [concrete objects](#StrucConcreteObjects).
 
 =--
+
++-- {: .proof}
+###### Proof
+
+We claim that the object $\exp(\mathfrak{g})$
+is a [diffeological Kan complexes](#DiffeologicalKanComplex).
+By [a proposition above](DiffeologicalKanComplexesAreConcrete) 
+this implies that it is concrete.
+
+To see this, first notice that for each $n \in \mathbb{N}$ the
+presheaf $\exp(\mathfrak{g})_n : CartSp_{smooth} \to Set$
+is indeed [[sheaf]]. This follows from the fact that 
+$\Omega^\bullet : CartSp_{smooth} \to Set$ is a sheaf.
+
+Moreover, by definition of [[vertical differential form]]s
+we have that [[dg-algebra]] homomorphisms 
+$A : CE(\mathfrak{g}) \to \Omega_{vert}^\bullet(U \times \Delta^n)$
+are encoded by sets of certain [[function]]s $f_A : U \to \Omega^\bullet(\Delta^n) \otimes \mathfrak{g}$.
+
+Each such function is determined by its value on all points of $U$, and therefore the map
+
+$$
+  \{
+      f_A : U \to \Omega^\bullet(\Delta^n) \otimes \mathfrak{g}
+  \}
+    \to
+  Set(CartSp(*,U),\Omega^\bullet(\Delta^n) \otimes \mathfrak{g})
+$$
+
+is an injection.
+
+=--
+
 
 +-- {: .un_prop}
 ###### Proposition
