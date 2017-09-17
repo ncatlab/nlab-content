@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
 #### $\infty$-Lie theory
 +--{: .hide}
 [[!include infinity-Lie theory - contents]]
@@ -16,9 +20,9 @@
 
 ## Idea
 
-The notion of _Lie 2-group_ is the generalization of the notion of [[Lie group]] as [[group]]s are generalized to [[2-group]]s: 
+The notion of _Lie 2-group_ is the generalization of the notion of [[Lie group]] as [[group]]s are generalized to [[2-groups]]: 
 
-it is a [[Lie groupoid]] equipped with the structure of a [[group object]] (in general only up to [[homotopy]]). 
+it is a [[smooth 2-group]] that happens to have a model given by a [[Lie groupoid]] equipped with the structure of a [[group object]] (in general only up to [[homotopy]]). 
 
 One general way to make the notion precise is as a special case of an [[smooth ∞-groupoid]], namely a [[1-truncated]] [[∞-group]] object in [[∞-stack]]s over the [[site]] [[CartSp]]/[[SmthMfd]], possibly with some representability condition:
 
