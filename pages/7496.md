@@ -1,3 +1,4 @@
+[[!redirects Thomas Hale]]
 
 * [webpage](http://www.mathematics.pitt.edu/people/hales.php)
 
