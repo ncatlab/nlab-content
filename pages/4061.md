@@ -59,6 +59,8 @@ On [[quantum mechanics]]:
 
 * [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
 
+* R. Abraham, J. Marsden, _The Foundations of Mechanics_, Benjamin Press, 1967, Addison-Wesley, 1978; large pdf 86 Mb free at [CaltechAuthors](http://resolver.caltech.edu/CaltechBOOK:1987.001)
+
 ## Lorentzian geometry and general relativity
 
 Global aspects of the geometry of spacetimes:
