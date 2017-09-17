@@ -106,7 +106,8 @@ If $i: X \to Y$ is a subspace embedding, then we form the cokernel pair $(i_1, i
 In [[Grp]], the monics are (up to [[isomorphism]]) the inclusions of [[subgroup]]s, and every monomorphism is regular
 =--
 
-This is more difficult to prove than in the preceding cases.  (See exercise 7H of Adamek, Herrlich, Strecker, _Abstract and Concrete Categories_.)  In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
+This is more difficult to prove than in the preceding cases.  
+(See [exercise 7H](http://katmat.math.uni-bremen.de/acc/acc.pdf#page=129) of ([AdamekHerrlichStrecker](#AdamekHerrlichStrecker))).  In contrast, the [[normal monomorphisms]] (where one of the morphisms $d \to e$ is required to be the [[zero morphism]]) are the inclusions of [[normal subgroups]].
 
 +-- {: .proof}
 ###### Proof
@@ -133,6 +134,11 @@ Accordingly, it is not unreasonable to define a regular monomorphism for instanc
 In practice this is of particular relevance for the $\infty$-version of [[regular epimorphism]]s: with the analogous definition as described there, a morphism $f : c \to d$ is a [[regular epimorphism]] in an [[(∞,1)-category]] $C$ if for all objects $e \in C$ the induced morphism $f^* : C(d,e) \to C(c,e)$ is a [[regular monomorphism]] in [[∞Grpd]] (for instance [[model structure on simplicial sets|modeled]] by a [[homotopy limit]] over a cosimplicial diagram in [[SSet]]).
 
 **Warning** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. 
+
+## References
+
+* [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
+{#AdamekHerrlichStrecker}
 
 
 [[!redirects regular monomorphism]]
