@@ -142,7 +142,7 @@ This appears for instance as ([Goerss-Jardine, def. VI 2.9](#GoerssJardine)).
 +-- {: .num_remark }
 ###### Remark
 
-By the [[long exact sequence of homotopy groups]], the relative Postnikov tower is the tower of the [[(n-connected, n-truncated) factorization system]] of $f$ regarded as a morphism in the [[(∞,1)-category]] [[∞Grpd]]. For more on this see at _[[∞-image]]_.
+By the [[long exact sequence of homotopy groups]], the relative Postnikov tower is the tower of the [[(n-connected, n-truncated) factorization system]] of $f$ regarded as a morphism in the [[(∞,1)-category]] [[∞Grpd]]: is is the [[n-epimorphism]],[[n-monomorphism]] factorization through the  _[[n-image]]_ of a morphism.
 
 =--
 
