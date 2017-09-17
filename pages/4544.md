@@ -13,8 +13,17 @@
 =--
 =--
 
-See also [[morphism of finite type]] for the notion in [[algebraic geometry]]. 
-See also [[compact object]].
+## Contents
+* table of contents
+{:toc}
+
+See also _[[compact object]]_.
+
+
+### In algebraic geoemtry
+
+See at _[[morphism of finite type]]_ for the notion in [[algebraic geometry]].  
+
 
 ### In Abelian categories 
 
