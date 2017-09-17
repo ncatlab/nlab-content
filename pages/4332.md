@@ -23,17 +23,44 @@ In [[physics]] there are (at least) two different concepts that go by the name *
 
 Notably after [[quantization]] the gauge group in the first sense does _not_ become a gauge group in the second sense. On the contrary, observables in quantum field theory are required _not_ to depend on gauge transformations in the first sense, and part of what makes quantization of [[gauge theory]] nontrivial is to find among all potentiall candidate observables those that actually are invariant under gauge transformations, i.e. under isomorphisms of [[principal bundle]]s with [[connection on a bundle|connection]] in the configuration space of the gauge theory.
 
-## Global gauge group
+### Global gauge group
 
 The concept of gauge groups is most prominent in [[quantum field theory]], where the gauge group of a [[physical system]] is the [[group]] of transformations of the mathematical model of the system that do not correspond to any measurable [[physics|physical]] effects. In this sense, nontrivial gauge groups arise from redundancies of the mathematical description. Gauge groups are a central ingredient of [[gauge theories]]. 
 
 In  [[AQFT]] gauge groups are introduced via a [[net of C-star-systems]].
 
-## Local gauge groups
+### Local gauge groups
 
 In [[Yang-Mills theory]] and other [[gauge theories]] the _gauge groups_ is the structure group $G$ of the $G$-[[principal bundle]] on which the [[Yang-Mills field]] is a [[connection on a bundle|connection]].
 
 Local gauge groups are are visible in the [[Lagrangian mechanics|Lagrangian]] approach to [[quantum field theory]], where they act on the configuration space on which the [[action functional]] is a function by [[gauge transformation]]s. A large machinery has been developed to handle the ([[path integral]]) [[quantization]] of [[action functional]]s on such configuration spaces. See for instance [[BV-BRST formalism]].
+
+## Examples
+ {#Examples}
+
+We list examples of local gauge groups and -[[∞-groups]] for various higher [[gauge theories]].
+
+* the gauge group of $G$-[[Yang-Mills theory]] is the given [[Lie group]] $G$; for the Yabg-Mills theory appearing in the [[standard model of particle physics]] this is the [[unitary group]] $U(3) \times SU(2) \times U(1)$;
+
+* the local gauge group of [[gravity]] on a [[manifold]] $X$ is the [[Poincare group]];
+
+* the gauge [[2-group]] of the [[Kalb-Ramond field]] is the [[circle n-group|circle 2-gorup]] $\mathbf{B} U() = (U(1) \to 1)$;
+
+* the gauge [[3-group]] of the [[supergravity C-field]] is the [[circle n-group|circle 3-group]] $\mathbf{B}^2 U(1) = (U(1) \to 1 \to 1)$;
+
+* the gauge group of abelial [[higher dimensional Chern-Simons theory]] in dimension $4 k+3$ is the [[circle n-group|circle (2k+1)-group]] $\mathbf{B}^{2k} U(1)$;
+
+* the 7-dimensional "[[differential fivebrane structure|fivebrane Chern-Simons theory]]" has as gauge 2-group the [[string 2-group]];
+
+* the symmetry group of [[string field theory]] is some [[∞-group]] that is not an $n$-group for any finite $n$;
+
+* an [[schreiber:∞-Chern-Simons theory]] has in general not only a gauge [[∞-group]] but an [[∞-groupoid]] of symmetries:
+
+  * the [[Poisson sigma-model]] has as gauge groupoid the [[symplectic groupoid]] that is the [[Lie integration]] of the given [[Poisson Lie algebroid]];
+
+  * the [[Courant sigma-model]] has as gauge [[2-groupoid]] the [[symplectic infinity-groupoid|symplectic 2-groupoid]] that integrates the given [[Courant Lie 2-algebroid]];
+
+  * generally, the [[AKSZ sigma-model]] in grade $n$ has as gauge $\infty$-groupoid a [[symplectic infinity-groupoid|symplectic Lie n-groupoid]].
 
 
 ## Related concepts
