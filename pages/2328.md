@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
 #### Topos Theory
 +--{: .hide}
 [[!include topos theory - contents]]
@@ -19,7 +23,7 @@
 
 ## Idea
 
-The notion of $(0,1)$-topos is that of [[topos]] in the context of [[(0,1)-category]] theory (see [[(n,r)-category]]).
+The notion of $(0,1)$-topos is that of [[topos]] in the context of [[(0,1)-category theory]].
 
 The notion of $(0,1)$-topos is essentially equivalent to that of [[Heyting algebra]]; similarly, a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a [[locale]].
 
