@@ -6,14 +6,14 @@ where triple is in the sense of [[monad]]. So we say instead a __monad adjoint t
 
 ## Definition
 
-A *monad* $(T,\mu,\eta)$ is adjoint to a comonad $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is *left* adjoint to the underlying endofunctor $G$ of the comonad, and $\delta$ and $\epsilon$ are adjoint natural transformations to $\mu$ and $\eta$ in the sense of explained below.
+A [[monad]] $(T,\mu,\eta)$ is adjoint to a [[comonad]] $(G,\delta,\epsilon)$, if its underlying endofunctor $T$ is *left* adjoint to the underlying 1-cell $G$ of the comonad, and $\delta$ and $\epsilon$ are conjugate/adjoint 2-cells to $\mu$ and $\eta$ in the sense explained below.
 
 
 ## Construction
 
 In fact given a monad $\mathbf{T} = (T,\mu^T,\eta^T)$ which has a *right* adjoint $G$, automatically $G$ is a part of a comonad $\mathbf{G} = (G,\delta^G,\epsilon^G)$ where $\delta^G$ and $\epsilon^G$ are in some sense dual to $\mu^T$ and $\eta^T$. 
 
-Thus there is a correspondence between monads having right adjoint and comonads having left adjoint (what [[Alexander Rosenberg]] calls **duality**). I am not sure that the terminology is optimal. In any case, it is a little more than a consequence of two general facts. 
+Thus there is a bijective correspondence between monads having right adjoint and comonads having left adjoint (what [[Alexander Rosenberg]] calls **duality**). I am not sure that the terminology is optimal. In any case, it is a little more than a consequence of two general facts. 
 
 1. If $T\dashv G$ then $T^k \dashv G^k$ for every natural number $k$. 
 
@@ -25,7 +25,9 @@ A(\phi,-)\downarrow &&\downarrow B(-,\psi)\\
 A(S',-)&\to & B(-,T')
 }$$
 
-where the horizontal arrows are the natural bijections given by the adjunctions. If $\eta,\eta'$ and $\epsilon,\epsilon'$ are their unit and counit of course the upper arrow is $(SM\stackrel{f}\to N)\mapsto Tf\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
+where the horizontal arrows are the natural bijections given by the adjunctions. Eilenberg and Moore would write $\phi\dashv\psi$ and talk about "adjointness for morphisms" (of functors), which is of course relative to the given adjunctions among functors. MacLane calls the correspondence *conjugation* ([[Categories for Working Mathematician]], 99-102).
+
+If $\eta,\eta'$ and $\epsilon,\epsilon'$ are their unit and counit of course the upper arrow is $(SM\stackrel{f}\to N)\mapsto Tf\circ \eta_M$ and the lower arrow $(S'M\stackrel{g}\to N)\mapsto T'g\circ\eta'_M$. Thus the condition renders as 
 
 $$T'(f\circ\phi_M)\circ\eta'_M = \psi_N\circ Tf\circ\eta_M$$ 
 
@@ -41,10 +43,6 @@ S'\stackrel{S'\eta}\longrightarrow S' TS\stackrel{S'\psi S}\longrightarrow S'T'S
 $$
 
 > Zoran: The mechanism strongly reminds of [[mate]]s, but it is not (classical) mates (in their case one starts with one adjunction). Maybe somebody can elucidate the connection, maybe in some framework it is the same.
-
-+-- {: .query}
-Yaron:  Incidentally, this is what Mac Lane calls _conjugate_ natural transformations (for the given adjunctions) (pp. 99--102 of CWM).  
-=--
 
 This correspondence now enables in our special case to dualize $\mu^T$ to $\delta^G$, and similarly unit to the counit. 
 
