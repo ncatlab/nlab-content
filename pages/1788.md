@@ -9,9 +9,7 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 
 * [[cup product in ordinary differential cohomology]]
 
-
 category: meta
-
 
 [[!redirects Sandbox]]
 [[!redirects SandBox]]
