@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _completionf of a ring_ is a [[completion]] of a [[ring]] to a [[complete metric space|complete]] [[topological ring]].
+A _completion of a ring_ is a [[completion]] of a [[ring]] to a [[complete metric space|complete]] [[topological ring]].
 
 Specifically, for $R$ a [[commutative ring]] and $I \subset R$ a [[maximal ideal]], then the [[limit]]
 
