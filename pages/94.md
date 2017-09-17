@@ -24,9 +24,13 @@
 
 ## Idea ##
 
-$L_\infty$-algebras are a [[vertical categorification]] of Lie algebras: in an $L_\infty$-algebra the [[Jacobi identity]] is allowed to hold (only) up to higher coherent homotopy. 
+$L_\infty$-algebras are a higher generalization (a "[[vertical categorification]]") of [[Lie algebras]]: in an $L_\infty$-algebra the [[Jacobi identity]] is allowed to hold (only) up to higher [[coherence law|coherent]] [[homotopy]]. 
+
+An $L_\infty$-algebra that is concentrated in lowest degree is an ordinary [[Lie algebra]]. If it is concentrated in the lowest two degrees is is a [[Lie 2-algebra]], etc.
 
 From another perspective: an $L_\infty$-algebra is a [[Lie ∞-algebroid]] with a single object.
+
+$L_\infty$-algebras are [[infinitesimal space|infinitesimal]] approximations of [[smooth ∞-group]]s in analogy to how an ordinary Lie algebra is an infinitesimal approximation of a [[Lie group]]. Under [[Lie integration]] every $L_\infty$-algebra $\mathfrak{g}$ "exponentiates" to a [[smooth ∞-group]] $\Omega \exp(\mathfrak{g})$.
 
 ## Definition ##
 
