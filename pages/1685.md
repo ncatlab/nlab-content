@@ -218,5 +218,7 @@ Many other classes of spectral sequences are special cases of the Grothendieck s
 
 Leture notes include
 
+* [[James Milne]], section 10 of _[[Lectures on Étale Cohomology]]_
+
 * Jinhyun Park, _Personal notes on Grothendieck spectral sequence_ ([pdf](http://mathsci.kaist.ac.kr/~jinhyun/note/g_s_sequence/sequence.pdf))
 
