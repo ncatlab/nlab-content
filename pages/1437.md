@@ -200,7 +200,7 @@ aka the [[tree|category of trees]], where $\omega$ is the colimit of the finite 
 
 ## Related concepts
 
-Terminal coalgebras are the [[categorical semantics]] of [[M-types]].
+Terminal coalgebras are the [[categorical semantics]] of [[coinductive types]], for instance [[M-types]].
 
 ## References 
 
