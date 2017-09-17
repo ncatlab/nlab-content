@@ -81,3 +81,8 @@ There is a modification of the [[small object argument]], due to Richard Garner,
 [[!redirects natural weak factorization systems]]
 [[!redirects NWFS]]
 [[!redirects nwfs]]
+[[!redirects algebraic weak factorization system]]
+[[!redirects algebraic weak factorization systems]]
+[[!redirects AWFS]]
+[[!redirects awfs]]
+
