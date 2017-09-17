@@ -400,4 +400,5 @@ $$
 
 category: meta
 
-[[!redirects SVG Sandbox]
+[[!redirects Sandbox > SVG]]
+[[!redirects SVG Sandbox]]
