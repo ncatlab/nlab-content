@@ -85,10 +85,19 @@ We define the categorical nerve: $N:2\text{-}Cat\to Set_\Delta\text{-}Cat$ to be
 
 We call the simplicial category $N(GrC)$ the simplicial localization of $C$. 
 
-**Theorem**: The categorical nerve $N(GrC)$ sending objects to objects and hom-categories to simplicial sets $N(GrC^\mathbf{T}(X,Y))$ equips $N(GrC)$ with the structure of a simplicial category.  Further, the morphisms of the homotopy category of this simplicial category coincide with those of the homotopy category arising from the ordinary construction using equivalence relations.  That is, $Ho_C(X,Y)\cong \pi_0 (N(GrC(X,Y)))$ naturally in $X$ and $Y$, where $\pi_0(-):=Hom_{Ho(SSet)}(Ho(\Delta^0), Ho(-))$.  
+**Theorem**: The categorical nerve $N(GrC)$ sending objects to objects and hom-categories to simplicial sets $\nu(GrC^\mathbf{T}(X,Y))$ equips $N(GrC)$ with the structure of a simplicial category.  Further, the morphisms of the homotopy category of this simplicial category coincide with those of the homotopy category arising from the ordinary construction using equivalence relations.  That is, $Ho_C(X,Y)\cong \pi_0 (N(GrC(X,Y)))$ naturally in $X$ and $Y$, where $\pi_0(-):=Hom_{Ho(SSet)}(Ho(\Delta^0), Ho(-))$.  
 
 ## Hammock Localization
 
+We define $L_H C^\mathbf{T}(X,Y)$ to be $\varinjlim_\mathbf{T} \nu(C^\mathbf{T}(X,Y))$.  We define the _Hammock Localization_ of $C$ to be the simplicial category $L_H C$ defined by the following data:
+
+* The objects of $L_H C$ are precisely the objects of $C$.
+* The hom-spaces are precisely the $L_H C^\mathbf{T}(X,Y)
+* Composition is given by $\nu(\vee)$
+* The identities $Id_X$ are those maps $\Delta^0\to C^\mathbf{T}(X,X)$ classifying the unique empty zigzag
+
+It remains to show that the $\nu(\vee^{t,t'}_{XYZ})$ assemble to a morphism of simplicial sets $\vee_{XYZ}:L_H C^\mathbf{T}(X,Y)\times L_H C^\mathbf{T}(Y,Z)\to L_H C^\mathbf{T}(X,Z)$ "in the limit", as it were.  By the universality  of colimits in $SSet$ and the fact that $\nu$ is a right adjoint, we have that $L_H C^\mathbf{T}(X,Y)\times L_H C^\mathbf{T}(Y,Z)\cong $\varinjlim_\mathbf{T} \nu(C^\mathbf{T}(X,Y)\times C^\mathbf{T}(Y,Z)$.  
+
+Then to prove that everything assembles correctly, we may need to use some sort of [[coend]], but I'm not too sure.
+
 (...)
-
-
