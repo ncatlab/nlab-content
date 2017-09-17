@@ -70,7 +70,7 @@ $$
 
 See [[adjoint monad]] for more.
 
-In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoints and comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right adjoint comonad.
+In general there is a duality (an anti[[equivalence of categories]]) between the category of monads having right adjoints and comonads having left adjoints.  Note also that the [[algebra over a monad|algebras]] for a left-adjoint monad can be identified with the coalgebras for its right adjoint comonad. (Theorems 5.8.1 and 5.8.2 in ([SGL](#SGL)).)
 
 ### Fully faithful adjoint triples
  {#FullyFaithFulAdjointTriples}
@@ -97,7 +97,7 @@ Finally, by a standard fact about [[adjoint functor]]s (for instance ([Elephant,
 
 =--
 
-The preceeding proposition is [[folklore]]; perhaps its earliest appearance in print is ([DT, Lemma 1.3](#DyckhoffTholen)).  A slightly shorter proof is in ([KL, Prop. 2.3](#KellyLawvere)).  Both proofs explicitly exhibit an inverse to the counit $G H \to Id$ or the unit $Id \to G F$ given an inverse to the other (which could be extracted by [[beta-reduction|beta-reducing]] the above, slightly more abstract argument). It also appears in ([MM, Lemma 7.4.1](#MacLaneMoerdijk)).
+The preceeding proposition is [[folklore]]; perhaps its earliest appearance in print is ([DT, Lemma 1.3](#DyckhoffTholen)).  A slightly shorter proof is in ([KL, Prop. 2.3](#KellyLawvere)).  Both proofs explicitly exhibit an inverse to the counit $G H \to Id$ or the unit $Id \to G F$ given an inverse to the other (which could be extracted by [[beta-reduction|beta-reducing]] the above, slightly more abstract argument). It also appears in ([SGL, Lemma 7.4.1](#SGL)).
 
 In the situation of Proposition \ref{FullyFaithful}, we say that $F\dashv G \dashv H$ is a **fully faithful adjoint triple**.  This is often the case when $D$ is a category of "spaces" structured over $C$, where $F$ and $H$ construct "discrete" and "codiscrete" spaces respectively.
 
@@ -185,7 +185,7 @@ Proofs of the folklore Proposition \ref{FullyFaithful} can be found in
  {#KellyLawvere}
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, (1992) (Lemma 7.4.1).
- {#MacLaneMoerdijk}
+ {#SGL}
 
 Several lemmas concerning adjoint pairs and adjoint triples are included in 
 
