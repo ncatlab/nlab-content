@@ -1,5 +1,0 @@
-* [[Home page]]
-
-[[!redirects Blackadar]]
-
-category: people
