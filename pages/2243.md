@@ -74,7 +74,7 @@
 
 * [[∞-Lie algebra cohomology]]
 
-  * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]], [[Lie algebra extensions]]
+  * [[Lie algebra cohomology]], [[nonabelian Lie algebra cohomology]], [[Lie algebra extensions]], [[Gelfand-Fuks cohomology]]
 
 
  
@@ -109,7 +109,7 @@
 
     * [[differential elliptic cohomology]]
 
-  * [[schreiber:differential cohomology in an (∞,1)-topos]]
+  * [[schreiber:differential cohomology in a cohesive topos]]
 
     * [[Chern-Weil theory]]
 
