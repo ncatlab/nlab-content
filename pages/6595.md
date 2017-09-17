@@ -76,9 +76,17 @@ In many classical applications of the curl in [[vector analysis]], the Riemannia
 
 ## Related concepts
 
+* [[nabla]]
+
 * [[gradient]]
 
-* [[nabla]]
+  * [[gradient flow]]
+
+  * [[symplectic gradient]]
+
+* [[Hamiltonian flow]]
+
+* **curl**
 
 * [[divergence]]
 
