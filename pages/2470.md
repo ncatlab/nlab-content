@@ -28,13 +28,8 @@ pretriangulated $A_\infty$-categories or, even better,
 certain class of [[spectral categories]].  
 This is well into [[homotopy theory]] area. Quillen [[model category]] structures and [[homotopy limit]]s in the context of dg-categories were studied by a number of people (including the impressive thesis by Tabuada). On the other hand, over a mixed characteristics, the meaning of such representations is less well understood.
 
-Derived noncommutative geometry has been introduced by Kapranov-Bondal and later Orlov around 1990; contemporary main works belong also to [[Kontsevich]], [[Valery Lunts|Lunts]], van den Bergh, Katzarkov, Kuznetsov and Kaledin. Some of the works of [[Bertrand Toen|Toen]], Vaquie, Keller  are properly in this area as well. 
-
-## derived noncommutative geometry: stable $(\infty,1)$-categories ##
-
-> details to be inserted here and harmonized with [[derived noncommutative geometry]]:
-
-> Basic idea is to _identify_ [[triangulated category|triangulated]] [[dg-category|dg-categories]], [[A-infinity category|categories]] and other models for [[stable (∞,1)-category|stable (∞,1)-categories]] with generalized "derived" spaces and to describe morphism between them in terms of [[geometric morphism]]s between these categories. It might be noteworthy that a (accessible) stable $(\infty,1)$-category is much like a (Grothendieck) [[(∞,1)-topos]]. See the definition below.
+Derived noncommutative geometry has been informally introduced by Kapranov-Bondal and later Orlov around 1990; full framework belongs 
+to [[Kontsevich]], [[Valery Lunts|Lunts]], van den Bergh, Katzarkov, Kuznetsov, Kaledin. Some of the works of [[Bertrand Toen|Toen]], Vaquie, Keller, Cisinski, Tabuada are properly in this area as well. 
 
 ## Definitions
 
