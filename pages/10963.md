@@ -1,0 +1,3 @@
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Alonzo_Church)
+
+category:people
