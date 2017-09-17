@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
 
 
 #Contents#
