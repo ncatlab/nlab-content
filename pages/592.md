@@ -87,10 +87,10 @@ $$
   }
 $$
 
-there is a unique function $h: Y \to X$ such that 
-$$ h j_A = i_A $$
+there is a unique function $h: X \to Y$ such that 
+$$ h i_A = j_A $$
 and
-$$ h j_A = i_B .$$
+$$ h i_A = j_B .$$
 Since this universal property expresses the concept of pushout purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[colimit]].  
 
 
