@@ -267,3 +267,6 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 
 [[!redirects commutatiev dg-algebra]]
 [[!redirects commutative dg-algebras]]
+
+[[!redirects commutative differential graded algebra]]
+[[!redirects commutative differential graded algebras]]
