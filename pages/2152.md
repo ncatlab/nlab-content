@@ -123,7 +123,9 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 * [[rigid analytic geometry]], [[analytic spectrum]], [[analytic space]], [[Stein space]], [[Berkovich space]]
 
-* [[Oka principle]], [[B1-homotopy theory]]
+* [[G-topology]]
+
+* [[Oka principle]]
 
 * [[p-adic geometry]]
 
