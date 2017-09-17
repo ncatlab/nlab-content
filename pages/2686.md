@@ -35,7 +35,7 @@ The original definition of ([Weinstein](#Weinstein)) is this:
 +-- {: .num_defn #WeinsteinsDefintion}
 ###### Definition
 
-A **symplectic Lie groupoid** is a [[Lie groupoid]] $\mathbf{X}$ whose manifold of [[morphisms]] $\mathbf{X}_1$ is equipped with a [[symplectic manifold|symplectic structure]] whose symplectic form $\omega \in \Omega^2_{closed}(\mathbf{X}_1)$ is _multiplicative_ in that the alternating sum of its canonical [[pullback of a differential form|pullbacks]] to the space $\mathbf{X}_2$ of composable morphisms vanishes:
+A **symplectic Lie groupoid** is a [[Lie groupoid]] $\mathbf{X}_\bullet$ whose manifold of [[morphisms]] $\mathbf{X}_1$ is equipped with a [[symplectic manifold|symplectic structure]] whose symplectic form $\omega \in \Omega^2_{closed}(\mathbf{X}_1)$ is _multiplicative_ in that the alternating sum of its canonical [[pullback of a differential form|pullbacks]] to the space $\mathbf{X}_2$ of composable morphisms vanishes:
 
 $$
  0 = 
@@ -43,6 +43,15 @@ $$
   + pr_2^* \omega
   \,.
 $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The manifold of [[objects]] $\mathbf{X}_0$ of a symplectic Lie groupoid $\mathbf{X}_\bullet$, def. \ref{WeinsteinsDefintion}, carries the structure of a [[Poisson manifold]] which is unique, up to [[isomorphism]], with the property that the target map $t \colon \mathbf{X}_1 \to \mathbf{X}_0$ is a [[homomorphism]] of [[Poisson manifolds]] (canonically regarding the [[symplectic manifold]] $(\mathbf{X}_1, \omega)$ as a Poisson manifold).
+
+The [[Poisson manifolds]] that arise this way as $\mathbf{X}_0$ of a symplectic Lie groupoid are called **integrable Poisson manifolds**.
 
 =--
 
