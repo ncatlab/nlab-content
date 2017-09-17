@@ -184,7 +184,7 @@ where $\Delta_0^{op} \to \Delta$ is the [[wide subcategory]] of the [[simplex ca
 +-- {: .num_defn #HomotopyCategoryOfPreCategoryObject}
 ###### Definition
 
-For $X_\bullet \in \mathcal{C}$ a precategory object, def. \ref{PreCategoryObject}, its corresponding **H-category** is, up to [[equivalence of categories|equivalence]], the [[Ho(∞Grpd)]]-[[enriched category]] $h X_\bullet$ with
+For $X_\bullet \in \mathcal{C}$ a precategory object, def. \ref{PreCategoryObject}, its corresponding **[[H-category]]** is, up to [[equivalence of categories|equivalence]], the [[Ho(∞Grpd)]]-[[enriched category]] $h X_\bullet$ with
 
 * the [[objects]] are the points of $X_0$;
 
@@ -655,7 +655,7 @@ Hence it makes sense to consider the following many-object version ("[[oidificat
 +-- {: .num_defn }
 ###### Definition
 
-An **H-category type** $X$ is a 
+An **[[H-category]] type** $X$ is a 
 
 1. a [[type]] $\vdash \; X_0  \colon $ [[Type]] 
 
