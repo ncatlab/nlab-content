@@ -784,7 +784,123 @@ and that the left adjoint to the embedding inverts precisely the $R$-equivalence
 =--
 
 
+## In derived geometry {#DerivedGeometry}
 
+We now discuss funciton algebras on $\infty$-stacks more generally in the context of [[derived geometry]], meaning that we we pass in the above from sites inside the opposite of a 1-category of $T$-algebras to an [[(∞,1)-site]] inside the opposite of an [[(∞,1)-category]] of [[∞-algebras over an (∞,1)-algebraic theory]].
+
+
+### Over ordinary associative algebras
+
+Let $k$ be a [[field]] of characteristic $0$.
+
++-- {: .un_def}
+###### Definition
+
+Write $(cdgAlg_k^{op})^\circ$ for the [[(∞,1)-category]] that is 
+[[presentable (∞,1)-category|presented]] by the [[model structure on dg-algebras|model structure on unbounded commutative cochain dg-algebras]] over $k$.
+
+Write 
+
+$$
+  i : (cdgAlg_k^{op})^\circ_- \subset (cdgAlg_k^{op})^\circ
+$$
+
+for the full [[sub-(∞,1)-category]] on cochain dg-algebras concentrated in non-positive degree.
+
+=--
+
+Let $C \subset (cdgAlg_k^{op})^\circ_-$ be a [[small (∞,1)-category|small]] full sub-$(\infty,1)$-category equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]].
+
+Set
+
+$$
+  \mathbf{H} := Sh_{(\infty,1)}(C)
+  \,.
+$$
+
++-- {: .un_def}
+###### Definition
+
+Write 
+
+$$
+  \mathcal{O} : \mathbf{H} \to ((cdgAlg_k^{op})^\circ
+$$
+
+for the $(\infty,1)$-[[Yoneda extension]] of the inclusion $C \hookrightarrow ((cdgAlg_k^{op})^\circ_, \hookrightarrow ((cdgAlg_k^{op})^\circ$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+By the [[(∞,1)-co-Yoneda lemma]] we may express any $X \in Sh_{(\infty,1)}(C)$ by an [[(∞,1)-colimit]] over representables
+
+$$
+  X \simeq {\lim_\to}_i U_i \;\; \in Sh(C)
+  \,.
+$$
+
+The functor $\mathcal{O}$ simply evaluates this colimit in $((cdgAlg_k^{op})^\circ$, which is the [[(∞,1)-limit]] in the [[opposite (∞,1)-category]]
+
+$$
+  \mathcal{O}X \simeq {\lim_\leftarrow}_i \mathcal{O}(U_i) \;\; \in (cdgAlg_k)^\circ
+  \,,
+$$
+
+where we write $\mathcal{O}(U_i)$ simply for the object $U_i$ regarded in the opposite category.
+
+=--
+
+
++-- {: .un_lemma}
+###### Observation
+
+By construction $\mathcal{O}$ is a colimit-preserving $(\infty,1)$-functor between [[locally presentable (∞,1)-categories]]. Accordingly, by the [[adjoint (∞,1)-functor theorem]] is has a [[right adjoint|right]] [[adjoint (∞,1)-functor]].
+
+$$
+  j : ((cdgAlg_k^{op})^\circ \to Sh_{(\infty,1)}(C)
+  \,.
+$$
+
+This is given by 
+
+$$
+  Spec(A) : U \mapsto ((cdgAlg_k^{op})^\circ(U,A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by the general yoga of [[Kan extension]]s. Explcitly, we check the hom-equivalence
+
+$$
+  \begin{aligned}
+    Sh_C(X, Spec A) & \simeq \mathbf{H}({\lim_{\to}}_i U_i, Spec A)
+    \\
+    & \simeq {\lim_\leftarrow}_i \mathbf{H}(U_i, Spec A)
+    \\
+    & \simeq 
+    {\lim_\leftarrow}_i C(U_i, A) 
+    \\
+     & \simeq 
+    {\lim_\leftarrow}_i (cdgAlg_k)^\circ(A, \mathcal{O}(U_i))
+    \\
+    & \simeq 
+    (cdgAlg_k)^\circ(A, {\lim_\to}_i  \mathcal{O}(U_i))
+    \\
+    & \simeq 
+    (cdgAlg_k^{op})^\circ({\lim_\to}_i  \mathcal{O}(U_i), A)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+This is considered in ([Ben-Zvi/Nadler, prop. 3.1](#BenZviNadler)).
 
 ## Examples and applications {#Examples}
 
@@ -971,14 +1087,6 @@ This serves the purpose of presenting the $\infty$-stack of $\infty$-vector bund
 
 
 
-## Function algebra on derived $\infty$-stacks
-
-In a higher categorical context, it is unnatural to constrain the site $T Alg^{op}$ to be a 1-category, as so far we do above. A complete $(\infty,1)$-category theoretic setup would replace the [[algebraic theory]] $T$ with an [[(∞,1)-algebraic theory]], let $T Alg_{(\infty,1)}$ be its [[(∞,1)-category]] of algebras and equip $C \subset T Alg_{(\infty,1)}$ with the structure of an [[(∞,1)-site]].
-
-In an intermedite step, if $T$ remains an ordinary algebraic theory, but is regarded as an $(\infty,1)$-algebraic theory, its $(\infty,1)$-algebras $A \in T Alg_{(\infty,1)}$ are typically modeled by _simplicial_ $T$-algebras . In that case the above setup produces an adjunction between simplicial presheaves on duals of simplicial algebras, and cosimplicial simplicial algebras.
-
-For $T$ the theory of ordinary commutative algebras, this yields a derived extension of Toen's setup that has been considered in ([BenZvi-Nadler2010](#BenZviNadler)). For $T$ the theory of smooth algebras, simplicial $T$-algebras are the objects studied in ([Spivak](#Spivak)) as models for [[derived smooth manifold]]s.
-
 
 
 
@@ -1069,6 +1177,7 @@ For ordinary commutative algebras the generalizaton of Toen's setup to geometry 
 
 * [[David Ben-Zvi]], [[David Nadler]], _Loop spaces and connections_ ([arXiv:1002.3636](http://arxiv.org/abs/1002.3636))
 {#BenZviNadler}
+
 
 [[!redirects function algebras on ∞-stacks]]
 
