@@ -14,7 +14,7 @@ Let $G$ and $H$ be [[graph|simple graphs]]. Then $H$ is a **graph minor** of $G$
 
 ## Definition via subquotients 
 
-If we define a simple graph to mean a set $V$ equipped with a symmetric reflexive relation $E$, with the evident notion of morphism, then graph minors can be equivalently described as subquotients in the category of simple graphs. 
+If we define a simple graph to mean a set $V$ equipped with a symmetric reflexive relation $E$, with the evident notion of morphism, then graph minors can be equivalently described as subquotients in the category of simple graphs, where "quotient" here means "regular epi". 
 
 We begin by quoting some exactness properties of the category of simple graphs (or, again, the category of sets equipped with a symmetric reflexive relation). There is an evident inclusion 
 
@@ -22,10 +22,7 @@ $$i: SimpGph \to Set^{\bullet \stackrel{\to}{\to} \bullet}$$
 
 where the category on the right is the topos of directed graphs. 
 
-+-- {: .un_thm}
-###### Theorem 
-The functor $i$ preserves and reflects both finite limits and finite colimits. 
-=-- 
+* UGH, this article is a mess. Lots of wrong stuff. Look away, look away... 
 
 The category of directed graphs can be equivalently described as the comma category $Set \downarrow sq$ where $sq: Set \to Set$ is the squaring functor. A morphism in the comma category amounts to a commutative square of the form 
 
