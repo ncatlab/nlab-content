@@ -108,6 +108,7 @@ In the case that the fiber $F$ is the [[delooping]] $F = \mathbf{B}G$ of an [[�
 * [[(∞,1)-vector bundle]]
 
 ## References
+ {#References}
 
 Early work on associated $\infty$-bundles takes place in the $(\infty,1)$-topos [[∞Grpd]] $\simeq$ [[Top]]. In
 
