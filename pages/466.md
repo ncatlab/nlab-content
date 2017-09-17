@@ -204,9 +204,11 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 ## Applications
 
-* The Yoneda lemma is the or a central ingredient in various [[reconstruction theorem]]s, such as those of [[Tannaka duality]].
+* The Yoneda lemma is the or a central ingredient in various [[reconstruction theorem]]s, such as those of [[Tannaka duality]]. See there for a detailed account.
 
 * In its incarnations as [[Yoneda reduction]] the Yoneda lemma governs the algebra of [[end]]s and [[coend]]s and hence that of [[bimodule]]s and [[profunctor]]s.
+
+* The Yoneda lemma is effectively the reason that [[Isbell conjugation]] exists. This is a fundamental duality that relates [[geometry]] and [[algebra]] in large part of mathematics.
 
 ## References
 
