@@ -15,9 +15,11 @@
 
 ## Idea
 
-The _gluon_ is the [[gauge boson]] of the $SU(3)$-[[Yang-Mills field]].
+The _gluon_ is the [[gauge boson]] of the $SU(3)$-[[Yang-Mills field]] in [[QCD]].
 
 ## Related concepts
+
+* [[quark-gluon plasma]]
 
 * [[boson]]
 
