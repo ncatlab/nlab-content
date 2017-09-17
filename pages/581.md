@@ -1,4 +1,16 @@
-# Split epimorphisms
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+# Contents
 * table of contents
 {: toc}
 
@@ -8,8 +20,9 @@ A **split epimorphism** in a [[category]] $C$ is a [[morphism]] $e:A\to B$ which
 
 In such a situation one also says that $B$ is a [[retract]] of $A$, and that $B$ is a splitting of the [[idempotent]] $s \circ e:A \to A$.
 
+The dual notion is [[split monomorphism]].
 
-## Remarks
+## Properties
 
 * Any split epimorphism is automatically a [[regular epimorphism]] (it is the [[coequalizer]] of $s\circ e$ and $1_A$), and therefore also a [[strong epimorphism]], an [[extremal epimorphism]], and (of course) an [[epimorphism]].
 
