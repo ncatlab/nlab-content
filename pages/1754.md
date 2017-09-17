@@ -1,4 +1,4 @@
-An [[∞-stack]] on a [[(∞,1)-category]]-domain $C$ that happens to be an ordinary [[category]] (i.e. not a [[derived stack]]) is **rectified** if it is an ordinary [[functor]]
+An [[∞-stack]] on a [[(∞,1)-category]]-domain $C$ that happens to be an ordinary [[category]] (i.e. not a [[derived stack]]) is **[[rectification|rectified]]** if it is an ordinary [[functor]]
 $
  C^{op} \to  $ [[SSet]] instead of a general [[(∞,1)-functor]] (i.e. [[pseudofunctor]]).
 
