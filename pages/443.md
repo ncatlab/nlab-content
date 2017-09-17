@@ -37,7 +37,7 @@ and this operation obeys a number of obvious identities, such as $(S \circ R)^{o
 
 ## Relations and spans
 
-It is useful to be aware of the connections between the bicategory of relations and the [[bicategory]] of [[span|spans]]. Recall that a _span_ from $X$ to $Y$ is a diagram of the form 
+It is useful to be aware of the connections between the [[bicategory of relations]] and the [[bicategory]] of [[span|spans]]. Recall that a _span_ from $X$ to $Y$ is a diagram of the form 
 $$X \leftarrow S \to Y$$ 
 and there is an obvious category whose objects are spans from $X$ to $Y$ and whose morphisms are morphisms between such diagrams. The terminal span from $X$ to $Y$ is 
 $$X \stackrel{\pi_1}{\leftarrow} X \times Y \stackrel{\pi_2}{\to} Y$$ 
@@ -74,7 +74,9 @@ which says the functional relation is _well-defined_.
 
 For generalizations of $Rel$ see
 
-* [[allegory]], [[cartesian bicategory]]. 
+* [[allegory]], [[cartesian bicategory]]
+
+* [[bicategory of relations]]
 
 
 category: category
