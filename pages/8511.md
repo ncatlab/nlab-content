@@ -45,17 +45,37 @@ $$
   \,.
 $$
 
+## Properties
+
+### Hilbert's syzygy theorem
+
+For $k$ a [[field]] and $R = k[x_1, \cdots, x_n]$ the [[polynomial ring]] over $k$ in $n$ [[variables]], every finitely-generated $R$-module has a [[free resolution]] of length at most $n$.
+
+
+## Related concepts
+
+* [[projective resolution]]
+
+* [[Koszul complex]]
+
 ## References
 
 An exposition is in 
 
 * Roger Wiegand, _What is... a syzygy?_ ([pdf](http://www.ams.org/notices/200604/what-is.pdf))
 
-Discussion in a general context of [[projective resolutions]] in [[homological algebra]] is in section 4.5 of 
+Lecture note discussion in a general context of [[projective resolutions]] in [[homological algebra]] includes
+
+* E. L. Lady, _A course in homological algebra -- Syzygies, Projective dimension, regular sequences and depth_ (1997) ([pdf](http://www.math.hawaii.edu/~lee/homolog/proj-dim.pdf))
+
+and section 4.5 of 
 
 * [[Pierre Schapira]], _Categories and homological algebra_, lecture notes (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
  {#Schapira}
 
+Discussion in the context of the [[Koszul complex]] is in 
+
+* Yasuhiro Shimoda, _On the syzygy part of Koszul homology on certain ideals_, J. Math. Kyoto Univ. (1984) ([EUCLID](http://projecteuclid.org/euclid.kjm/1250521386))
 
 A useful source that discusses the use of syzygies in algebraic geometry, 
 
@@ -64,4 +84,17 @@ A useful source that discusses the use of syzygies in algebraic geometry,
 
 
 [[!redirects syzygies]]
+
+[[!redirects Hilbert's syzygy theorem]]
+
+
+
+
+
+
+
+
+
+
+
 
