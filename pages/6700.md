@@ -38,11 +38,18 @@ Original formulations include
 
 * [[Igor Kriz]], _On spin and modularity in conformal field theory_, Ann. Sci. ANS (4) 36 (2003), no. 1, 57112
 
+
 Lectures and reviews include
 
 * [[Bojko Bakalov]], [[Alexander Kirillov]], _Lectures on tensor categories and modular functor_ ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html))
 
 * {#Gawedzki99} [[Krzysztof Gawędzki]], section 5.6 of _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+
+
+Discussion in the context of [[(2,1)-dimensional Euclidean field theories and tmf]] is in
+
+* {#StolzTeichner11} [[Stefan Stolz]], [[Peter Teichner]], section 5.2 of _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
+
 
 
 A generalization of the modular functors is in
