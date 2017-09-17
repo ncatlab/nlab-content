@@ -1061,7 +1061,7 @@ To see that $h_\bullet$ defines a chain map recall the differential $\partial^{c
 $$
   \partial^{cone(f)} (x_{n-1}, \hat z_n)
   = 
-  (  \partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
+  (  -\partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
 $$
 
 and use that $x_{n-1}$ is in the [[kernel]] of $p_n$ by exactness, hence
@@ -1070,7 +1070,7 @@ $$
   \begin{aligned}
     h_{n-1}\partial^{cone(f)}(x_{n-1}, \hat z_n)
     &= 
-    h_{n-1}( \partial^X x_{n-1}, \partial^Y \hat z_n + x_{n-1}  )
+    h_{n-1}( -\partial^X x_{n-1}, \partial^Y \hat z_n + x_{n-1}  )
     \\
     & = p_{n-1}( \partial^Y \hat z_n + x_{n-1})
     \\
@@ -1103,46 +1103,66 @@ for this diagram gives a morphism of [[cocones]] under the diagram defining $con
 But in checking the claimed inverse of the induced map on homology groups, we verify this also explicity:
 
 We first determine those cycles $(x_{n-1}, y_n) \in cone(f)_n$ which lift a cycle $z_n$. By lemma \ref{HomotopyCofiberByFactorizationLemma}
-a lift of chains is any pair of the form $(x_{n-1}, \hat z_n)$ where $\hat z_n$ is a lift through $Y_n \to X_n$. So $x_{n-1}$ has to be found such that this pair is a cycle.
+a lift of chains is any pair of the form $(x_{n-1}, \hat z_n)$ where $\hat z_n$ is a lift of $z_n$ through $Y_n \to X_n$. So $x_{n-1}$ has to be found such that this pair is a cycle.
 By prop. \ref{ComponentsOfMappingConeInChainComplexes} the differential acts on it by
 
 $$
   \partial^{cone(f)} (x_{n-1}, \hat z_n)
   = 
-  (  \partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
+  (  -\partial^X x_{n-1} , \partial^Y \hat z_n + x_{n-1} )
 $$
 
-and so the condition is that $x_{n-1} \coloneqq \partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = \partial^X \partial^Y \hat z_n = \partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
+and so the condition is that 
+
+$x_{n-1} \coloneqq -\partial^Y \hat z_n$ (which implies $\partial^X x_{n-1} = -\partial^X \partial^Y \hat z_n = -\partial^Y \partial^Y \hat z_n = 0$ due to the fact that $f_n$ is assumed to be an inclusion, hence that $\partial^X$ is the restriction of $\partial^Y$ to elements in $X_n$).
 
 This condition clearly has a unique solution for every lift $\hat z_n$ and a lift $\hat z_n$ always exists since $p_n : Y_n \to Z_n$ is surjective, by assumption that we have a [[short exact sequence]] of chain complexes. This shows that $H_n(h_\bullet)$ is surjective.
 
-To see that it is also injective we need to show that for any other lift $\tilde z_n$ the cycles $(\partial^Y \hat z_n, \hat z_n)$ and $(\partial^Y \tilde z_n, \tilde z_n)$ are homologous in $cone(f)_\bullet$. Again by prop. \ref{ComponentsOfMappingConeInChainComplexes} this means that we need to find $(x_{n}, y_{n+1}) \in X_{n-1} \oplus Y_n$ such that
+To see that it is also injective we need to show that 
+if a [[cycle]] $(-\partial^Y \hat z_n, \hat z_n) \in cone(f)_n$ maps to a cycle $z_n = p_n(\hat z_n)$ that is trivial in $H_n(Z)$ in that there is $c_{n+1}$ with $\partial^Z c_{n+1} = z_n$, then also the original cycle was trivial in homology, in that there is $(x_n, y_{n+1})$ with
+
+$$
+  \partial^{cone(f)}(x_n, y_{n+1})
+  \coloneqq
+  (-\partial^X x_n, \partial^Y y_{n+1} + x_n)
+  =
+  (-\partial^Y \hat z_n, \hat z_n)
+  \,.
+$$
+
+For that let $\hat c_{n+1} \in Y_{n+1}$ be a lift of $c_{n+1}$ through $p_n$, which exists again by surjectivity of $p_{n+1}$. Observe that
+
+$$
+  p_{n}( \hat z_n -  \partial^Y \hat c_{n+1})
+  = 
+  z_n -\partial^Z ( p_n \hat c_{n+1} )
+  = 
+  z_n - \partial^Z ( c_{n+1} ) 
+  = 
+  0
+$$
+
+by assumption on $z_n$ and $c_{n+1}$,
+and hence that $\hat z_n - \partial^Y \hat c_{n+1}$ is in $X_n$ by exactness.
+
+Hence 
+$(z_n - \partial^Y \hat c_{n+1}, \hat c_{n+1}) \in cone(f)_n$
+trivializes the given cocycle:
 
 $$
   \begin{aligned}
-    (\partial^Y (\hat z_n - \tilde z_n), \hat z_n - \tilde z_n)
+    \partial^{cone(f)}( \hat z_n - \partial^Y \hat c_{n+1}  , \hat c_{n+1})
     & = 
-    \partial^{cone(f)}(x_{n}, y_{n+1})
+   (-\partial^X(\hat z_n - \partial^Y \hat c_{n+1} ), \partial^Y \hat c_{n+1} + (\hat z_n - \partial^Y \hat c_{n+1} ) )
     \\
-    & = ( \partial^X x_{n} , \partial^Y y_n + x_{n})
+    & = (-\partial^Y(\hat z_n - \partial^Y \hat c_{n+1}),  \hat z_n )
+    \\
+    & =
+    ( -\partial^Y \hat z_n, \hat z_n )
   \end{aligned}
   \,.
 $$
 
-Here we observe that since $p_n(\hat z_n - \tilde z_n) = 0$, by exactness $(\hat z_n - \tilde z_n) \in X_n \hookrightarrow Y_n$ and hence we can take
-
-$$
-  x_n \coloneqq \hat z_n - \tilde z_n
-  \,.
-$$
-
-Since moreover by exactness $\partial^X = \partial^Y|_{X}$ this means that with
-
-$$
-  y_{n+1} = 0
-$$
-
-this solves the condition.
 
 =--
 
