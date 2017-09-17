@@ -69,3 +69,6 @@ See [[proper map of toposes]].
 
 [[!redirects proper functor]]
 [[!redirects proper functors]]
+
+[[!redirects proper morphism of schemes]]
+[[!redirects proper morphisms of schemes]]
