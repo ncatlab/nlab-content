@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Topology
 +--{: .hide}
 [[!include topology - contents]]
@@ -12,6 +16,8 @@
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
