@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -23,18 +23,26 @@ If $F = Set = Sh(*)$ is the terminal [[sheaf topos]], then $E \to Set$ is essent
 
 ## Definition
 
-Given a geometric morphism $(f^* \dashv f_*) : E \to F$, it is an **essential geometric morphism** if the [[inverse image]] functor $f^*$ has not only the [[right adjoint]] $f_*$, but also a [[left adjoint]] $f_!$:
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[geometric morphism]] $(f^* \dashv f_*) : E \to F$, it is an **essential geometric morphism** if the [[inverse image]] functor $f^*$ has not only the [[right adjoint]] $f_*$, but also a [[left adjoint]] $f_!$:
 
 $$
-  (f_! \dashv f^* \dashv f_*) \;\;\; : \;\;\;
+  (f_! \dashv f^* \dashv f_*) 
+  \;\;\; : \;\;\;
   E
     \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
   F
   \,.
 $$
 
+=--
 
-### Refinements
++-- {: .num_remark}
+###### Remark
+
 
 There are various further conditions that can be imposed on a geometric morphism:
 
@@ -54,10 +62,110 @@ There are various further conditions that can be imposed on a geometric morphism
 
   is a [[geometric embedding]] and hence makes $F$ a subtopos of $E$.
 
-## Properties {#Properties}
+=--
 
-+-- {: .un_prop}
+## Properties 
+ {#Properties}
+
+### Relation to morphisms of (co)sites
+ {#RelationToSiteMorphisms}
+
+
+For $C$ and $D$ [[small categories]] write $[C,Set]$ and $[D,Set]$ for the corresponding [[copresheaf]] [[presheaf topos|toposes]]. (If we think of the [[opposite categories]] $C^{op}$ and $D^{op}$ as [[sites]] equipped with the trivial [[coverage]], then these are the corresponding [[sheaf toposes]].)
+
++-- {: .num_prop}
 ###### Proposition
+
+This construction extends to a [[2-functor]]
+
+$$
+  [-,Set] : Cat_{small}^{co} \to Topos_{ess}
+$$
+
+from the [[2-category]] [[Cat]]${}_{small}$ with [[2-morphism]]s reversed) to the sub-2-category of [[Topos]] on essential geometric morphisms, where a [[functor]] $f : C \to D$ is sent to the essential geometric morphism
+
+$$
+  (f_! \dashv f^* \dashv f_!) : 
+  [C,Set]
+    \stackrel{\overset{f_! := Lan_f}{\to}}{\stackrel{\overset{f^* := (-) \circ f}{\leftarrow}}{\underset{f^* := Ran_f}{\to}}}
+  [D,Set]
+  \,,
+$$
+
+where $Lan_f$ and $Ran_f$ denote the left and right [[Kan extension]] along $f$, respectively.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+This 2-functor is a [[full and faithful 2-functor]] when restricted to [[Cauchy complete categories]]:
+
+$$
+  [-, Set] : Cat^co_{CauchyComp} \hookrightarrow Topos_{ess}
+  \,.
+$$
+
+For all small categories $C,D$ we have an [[equivalence of categories]]
+
+$$
+  Func(\overline{C},\overline{D})^{op}
+  \simeq
+  Topos_{ess}([C,Set], [D,Set])
+$$
+
+between the [[opposite category]] of the [[functor category]] between the [[Cauchy completion]]s of $C$ and $D$ and the the category of essential geometric morphisms between the copresheaf toposes and [[geometric transformation]]s between them.
+
+=--
+
+In particular, since every [[poset]] -- when regarded as a [[category]] -- is Cauchy complete, we have
+
++-- {: .num_cor}
+###### Corollary
+
+The [[2-functor]]
+
+$$
+  [-,Set] : Poset \to Topos_{ess}
+$$
+
+is a [[full and faithful 2-functor]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Sometimes it is useful to decompose this statement as follows.
+
+There is a functor 
+
+$$
+  Alex : Poset \to Locale
+$$
+
+which assigns to each [[poset]] a [[locale]] called its [[Alexandrov locale]]. By a theorem discussed there, a morphisms of locales $f : X \to Y$ is in the image of this functor precisely if its inverse image morphism $f^* Op(Y) \to Op(X)$ of [[frame]]s has a [[left adjoint]] in the [[2-category]] [[Locale]]. 
+
+Moreover, for any poset $P$ the [[sheaf topos]] over $Alex P$ is naturally equivalent to $[P,Set]$
+
+$$
+  [-,Set] \simeq Sh \circ Alex
+  \,.
+$$
+
+With this, the fact that $[-,Set] : Poset \to Topos$ hits precisely the essential geometric morphisms follows with the basic fact about [[localic reflection]], which says that $Sh : Locale \to Topos$ is a [[full and faithful 2-functor]].
+
+=--
+
+
+### Some morphism calculus
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f : E \to F$ be an essential geometric morphism.
 
 For every $\phi : X \to f^* f_* A$ in $E$ the diagram
 
