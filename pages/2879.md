@@ -62,12 +62,17 @@ Given a [[Hopf algebra]] $B$ and a braided-commutative algebra $A$ in the catego
 
 ### Generalized Steenrod algebra
 
-For $E$ a suitable [[spectrum]], its [[homotopy groups]]
+For $E$ a suitable [[E-infinity ring]] [[spectrum]], its [[homotopy groups]]
 $\pi_\bullet(E)$ and [[generalized homology]] $E_\bullet(E)$
-form a Hopf algebroid of [[spectra]], the generalized [[Steenrod algebra]].
+form a Hopf algebroid of [[spectra]], the dual $E$-[[Steenrod algebra]].
+(These examples have also been called [[brave new Hopf algebroids]].)
 See at _[Steenrod algebra -- Hopf algebroid structure](Steenrod+algebra#HopfAlgebraStructure)_.
 
+
+
 ## References
+
+### General
 
 The commutative version is classical, and there is an extensive literature, see [[Hopf algebroids over a commutative base]]. 
 
@@ -97,6 +102,9 @@ Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod alg
 
 * [[Doug Ravenel]], appendix 1 of _[[Complex cobordism and stable homotopy groups of spheres]]_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
+### In homotopy theory
+
+* [pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf)
 
 category: algebra
 [[!redirects Hopf algebroids]]
