@@ -319,7 +319,7 @@ The [[equivalence of categories]] between [[first order logic|first order theori
 
 A lecture reviewing aspects involved in this equivalence is (see the discussion building up to the theorem on  [slide 96](www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf#page=96))
 
-* [[Tom Hirschowitz]], _Introduction to categorical logic_ (2010) ([pdf](www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf))
+* [[Tom Hirschowitz]], _Introduction to categorical logic_ (2010) ([pdf](http://www.lama.univ-savoie.fr/~hirschowitz/talks/cours.pdf))
 
 An [[adjunction]] between the category of [[type theories]] with [[product types]] and [[toposes]] is discussed in chapter II of
 
