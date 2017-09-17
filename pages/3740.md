@@ -124,6 +124,19 @@ If you really want to do arbitrary arithmetic operations on upper or lower reals
 Let\'s put this on a separate page: [[semicontinuous topology]].  For one thing, it\'s more advanced than the elementary stuff above; for another thing, it\'s more interesting in classical mathematics; and finally, it\'s more complicated in constructive mathematics.  (Also, we haven\'t written it yet.)
 
 
+## In topos theory
+
+There is a bijective correspondence of [[internal logic|internal]] extended lower real numbers in a sheaf topos $\mathrm{Sh}(X)$ of a [[topological space]] $X$ and [[semicontinuous map|upper semicontinuous]] functions $X \to \mathbb{R} \cup \{ +\infty \}$:
+
+Let $\Delta(\mathbb{Q})$ denote the [[constant sheaf]] of rational numbers on $X$. A _lower real number_ $U$ in $\mathrm{Sh}(X)$ is then defined as a subsheaf of $\Delta(\mathbb{Q})$ satisfying the axioms above (interpreted in the internal language). Such a lower real number induces an upper semicontinuous function $x \mapsto \inf U_x$, where $U_x$ denotes the [[stalk]] of $U$ at $x$ (taken as a subset of $\mathbb{Q}$).
+
+Conversely, an upper semicontinuous function $f : X \to \mathbb{R} \cup \{ +\infty \}$ defines an internal lower real number $U$ with sections
+$$U(A) \coloneqq \{ \varphi : A \to \mathbb{Q} | \forall x \in A: \varphi(x) \gt f(x) \} \subseteq \Delta(\mathbb{Q})(A)$$
+over open sets $A \subseteq X$.
+
+See C. Mulvey, _Intuitionistic Algebra and Representations of Rings_ in Hofmann, Liukkonen, _Recent Advances in the Representation Theory of Rings and C\*-Algebras by Continuous Sections_, AMS 1974 for details (page 28).
+
+
 [[!redirects one-sided real]]
 [[!redirects one-sided reals]]
 [[!redirects one-sided real number]]
