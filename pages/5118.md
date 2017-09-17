@@ -66,7 +66,7 @@ Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ b
 
 Then the following two conditions are sufficient for $(L \dashv R)$ to be a lax monoidal Quillen adjunction:
 
-1. for some (hence any) cofibrant [[resolution]] $q : \hat I_D \stackrel{\simeq}{\to} D$ of the unit object in $D$, the composite morphism
+1. for some (hence any) cofibrant [[resolution]] $q : \hat I_D \stackrel{\simeq}{\to} I_D$ of the unit object in $D$, the composite morphism
 
    $$
      L(\hat I_D) \stackrel{L(q)}{\to} L(I_D) \stackrel{\tilde i}{\to} I_C
@@ -84,6 +84,88 @@ This is proposition 3.16 in ([SchwedeShipley](#SchwedeShipley)).
 
 
 ### Lift to Quillen adjunctions on monoids {#LiftToMonoids}
+
+We discuss how a monoidal Quillen adjunction $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ induces, under mild conditions, a Quillen adjunction $(L^{mon} \dashv R) : Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)$ on the corresponding categories of [[monoid]]s.
+
+
+The [[lax monoidal functor]] $R : C \to D$ induces (as described there) a functor $R : Mon(C) \to Mon(D)$ on monoids (which by slight abuse of notation we denote by the same symbol). While the left adjoint $L$ will not extend to monoids unless $R$ is a [[strong monoidal functor]] there is nevertheless an adjoint $L^{mon}$ to $R : Mon(C) \to Mon(D)$:
+
++-- {: .un_prop}
+###### Proposition
+
+Let $C$ be a [[monoidal category]] with colimits, write $Mon(C)$ for its category of [[monoid]]s and $U_C : Mon(C) \to C$ for the evident [[forgetful functor]]. This has a [[left adjoint]] $F_C : C \to Mon(C)$ where on an object $X \in C$ the underlying object of $F_C X$ is
+
+$$
+  U_C F_C X 
+  = 
+  \coprod_{n \in \mathbb{N}} X^{\otimes n}
+  = 
+  I_C \coprod X \coprod (X \otimes X) \coprod \cdots
+$$
+
+in $C$, with the monoidal structure given by tensor product/juxtaposition.
+
+
+=--
+
+
++-- {: .un_prop #AdjunctionOnMonoids}
+###### Proposition
+
+Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a pair of adjoint functors between monoidal categories where $R$ is a lax monoidal functor and $D$ has all small colimits.
+
+Then the functor $R : Mon(C) \to Mon(D)$ has a left adjoint
+
+$$
+  L^{mon} : Mon(D) \to Mon(C)
+$$
+
+given by forming the [[coequalizer]]s
+
+$$
+  L^{mon} : B 
+    \mapsto 
+   \lim_{\to}
+  (F_D L F_C B \stackrel{\to}{\to} F_D L B)
+$$
+
+of the following two morphisms
+
+* the first one is the image under $F_C \circ L$ of the adjunction counit $ F_D U_D B  \to B$;
+
+* the second is the unique $C$-monoid morphism that restricts to the $C$-morphism
+
+  $$
+    L F_D B
+    \simeq
+   \coprod_{n \in \mathbb{N}} L( B^{otimes n})
+    \stackrel{\coprod \tilde e}{\to}
+   \coprod_{n \in \mathbb{N}}
+   (L B)^{\otimes n}
+   \simeq
+   F_C L B
+   \,.
+  $$
+
+
+This monoid left adjoint is related to the original left adjoint by a [[natural isomorphism]]
+
+$$
+  L^{mon} \circ F_D
+  \simeq
+  F_C \circ L
+$$
+
+=--
+
+This is considered on p. 305 of ([SchwedeShipley](#SchwedeShipley))
+
++-- {: .proof}
+###### Proof 
+
+(...)
+
+=--
 
 For $C$ and $D$ [[monoidal model categories]] we may ask if on their categories of [[monoid]]s exist the corresponding [[transferred model structure]]s, transferred along the [[stuff, structure, property|forgetful]]/[[free functor]] adjunction 
 
@@ -111,30 +193,16 @@ We say a model category structure on $Mon(C)$ is _created_ by $U_C$ is
 
 Let $(L \dashv R) : C \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} D$ be a lax monoidal Quillen adjunction between [[monoidal model categories]] with cofibrant unit obects.
 
-
-If the forgetful functors $U_C$ and $U_D$ [create](#CreatedModelStructure) model structures on monoids, then there is an induced [[Quillen adjunction]]
+If the forgetful functors $U_C$ and $U_D$ [create](#CreatedModelStructure) model structures on monoids, then the adjunction $(L^{mon} \dashv R)$ from [above](#AdjunctionOnMonoids) is a [[Quillen adjunction]]
 
 $$
   (L^{mon} \dashv R) 
   : 
-  Mon(C) \stackrel{\overset{L}{\leftarrow}}{\underset{R}{\to}} Mon(D)
+  Mon(C) \stackrel{\overset{L^{mon}}{\leftarrow}}{\underset{R}{\to}} Mon(D)
   \,,
 $$
 
-between the transferred model structures on monoids,
-where the functor underlying the [[right adjoint]] is the original $R$. 
-
-
-The left adjoint $L^{mon}$ is the functor given by forming the [[coequalizer]]s
-
-$$
-  L^{mon} : B 
-    \mapsto 
-   \lim_{\to}
-  (F_D L F_C B \stackrel{\to}{\to} F_D L B)
-$$
-
-of the following two morphisms (...)
+between the transferred model structures on monoids.
 
 =--
 
@@ -168,7 +236,11 @@ This is proposition 5.1 in ([SchwedeShipley](#SchwedeShipley)).
 +-- {: .proof}
 ###### Proof 
 
-We first show this for $B = I_D$ the tensor unit in $D$, which in $Mon(D)$ is the [[initial object]]s. Since $L^{mon}$ is a [[left adjoint]] it sends this initial object to he initial object in $Mon(D)$, $L^{mon} : I_D \mapsto I_C$. One checks (...) that the adjunction unit $I_C \to R L^{mon} I_D \stackrel{\simeq}{\to} R(I_C)$ is the lax monoidal unit. Therefore by the axioms on monoidal Quillen adjunctions its adjunct $\chi_I$ is a weak equivalence.
+We first show this for $B = I_D$ the tensor unit in $D$, which in $Mon(D)$ is the [[initial object]]s. Since $L^{mon}$ is a [[left adjoint]] it sends this initial object to he initial object in $Mon(D)$, $L^{mon} : I_D \mapsto I_C$. One checks 
+  
+(...) 
+
+that the adjunction unit $I_C \to R L^{mon} I_D \stackrel{\simeq}{\to} R(I_C)$ is the lax monoidal unit. Therefore by the axioms on monoidal Quillen adjunctions its adjunct $\chi_I$ is a weak equivalence.
 
 Now the strategy is to proceed from here by induction over the cells of the [[cell object]] of which every cofibrant monoid is, by assumption, a retract.
 
@@ -184,7 +256,7 @@ If $U_C$ [creates](#CreatedModelStructure) the model structure on $Mon(C)$ and t
 
 =--
 
-This is 6.2 in ([SchwedeShipleyAlgebras](#SchwedeShipleyAlgebras))
+This is a special case of lemma 6.2 in ([SchwedeShipleyAlgebras](#SchwedeShipleyAlgebras))
 
 +-- {: .proof}
 ###### Proof 
@@ -252,7 +324,7 @@ The lax monoidal version is considered as definition 3.6 of
 * [[Stefan Schwede]], [[Brooke Shipley]], _Equivalences of monoidal model categories_ , Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
 {#SchwedeShipley}
 
-Some of the fact mentioned above are from
+Some of the facts mentioned above are from
 
 * [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
 {#SchwedeShipleyAlgebras}
