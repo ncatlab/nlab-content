@@ -254,6 +254,10 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[locally connected geometric morphism]]
 
+#### C3.5 Atomic morphisms
+
+* [[atomic geometric morphism]]
+
 #### C3.6 Local maps
 
 * [[local geometric morphism]]
