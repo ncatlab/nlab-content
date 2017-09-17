@@ -166,6 +166,14 @@ $$
 over the terminal object is a [[truth value]]: the truth value of $P$ at $y_0$.
 
 
+## Related concepts
+
+* [[context extension]]
+
+* [[dependent product]], [[universal quantifier]]
+
+* [[dependent sum]], [[existential quantifier]]
+
 [[!redirects substitution]]
 [[!redirects substitutions]]
 [[!redirects variable substitution]]
