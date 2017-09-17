@@ -1,8 +1,15 @@
 **[[higher category theory]]**
 
-## Basic principles
+* [[category theory]]
+
+* [[homotopy theory]]
+
+
+## Basic concepts
 
 * [[k-morphism]], [[coherence]]
+
+## Basic theorems
 
 * [[homotopy hypothesis]]-theorem
 
@@ -17,6 +24,9 @@
 * [[holographic principle of higher category theory|holographic principle]]
 
 
+## Applications
+
+* [[applications of (higher) category theory]]
 
 ## Models
 
