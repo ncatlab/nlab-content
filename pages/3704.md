@@ -84,15 +84,16 @@ The behaviour of [[quantum channel]]s and _completely positive maps_ has an eleg
 
 
 ## References
+ {#References}
 
 The idea that the natural language of [[quantum mechanics]] and [[quantum computation]] is that of [[†-compact categories]] became popular with the publication
 
-* [[Samson Abramsky]] and [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv](http://arxiv.org/abs/quant-ph/0402130))
+* [[Samson Abramsky]] and [[Bob Coecke]], _A categorical semantics of quantum protocols_ , Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ([arXiv:quant-ph/0402130](http://arxiv.org/abs/quant-ph/0402130))
 {#AbramskyCoecke}
 
-A fairly comprehensive account of the underlying formalism is in
+A fairly comprehensive account of the underlying theory of [[string diagrams]] is in
 
-* Peter Selinger, _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
+* [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 {#Selinger}
 
 A pedagogical exposition of the graphical calculus is in
@@ -105,7 +106,6 @@ A pedagogical exposition of the graphical calculus is in
 
 More basic introductions are in
 
-
 * [[Bob Coecke]], _Introducing categories to the practicing physicist_ ([arXiv:0808.1032](http://arxiv.org/abs/0808.1032))
 {#CoeckeIntroducing}
 
@@ -117,12 +117,12 @@ The formalization of orthogonal bases in $\dagger$-compact categories is in
 * [[Bob Coecke]], [[Dusko Pavlovic]], [[Jamie Vicary]], _A new description of orthogonal bases_ ([arXiv:0810.0812](http://arxiv.org/abs/0810.0812))
 {#CoeckePavlovicVicary}
 
-The role of complex numbers in general $\dagger$-compact categories is discussed in
+The role of [[complex numbers]] in general $\dagger$-compact categories is discussed in
 
 * [[Jamie Vicary]], _Completeness and the complex numbers_ ([arXiv:0807.2927](http://arxiv.org/abs/0807.2927)) 
 {#Vicary}
 
-Completely positive maps in terms of $\dagger$-categories are discussed in
+[[quantum operation|Completely positive maps]] in terms of $\dagger$-categories are discussed in
 
 * [[Peter Selinger]], _Dagger compact closed categories and completely positive maps_ ([web](http://www.mscs.dal.ca/~selinger/papers.html#dagger), [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf))
 {#SelingerPositive}
