@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include manifolds and cobordisms - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -8,17 +13,25 @@
 For $R$ a [[ring]], an $R$-valued **genus** is a ring [[homomorphism]]
 
 $$
-  \mu : \Omega_{SO}  \to R
+  \sigma : \Omega_n  \to R
 $$
 
-from the [[bordism ring]]
+from the [[bordism ring]].
+
+
+The cobordism ring here may be replaced by rings of cobordisms with extra structure.  
+
+## Higher category theory interpretation
+
+The notion of genus finds its natural interpretation in [[higher category theory]], where it is refined to a morphism of [[symmetric monoidal (infinity,1)-category]] [[∞-groupoid]]s
 
 $$
-  \Omega_{SO} := \frac{closed\;oriented\;manifolds}{cobordisms}
-  \,.
+  \sigma : Bord_{(\infty,\infty)} \to S
 $$
 
-The cobordism ring here^may be replaced by rings of cobordisms with extra structure.  And it may, at least in some cases, be refined to a [[cobordism ring spectrum]].
+from the [[(∞,n)-category of cobordisms]] for $n \to \infty$ to a [[ring spectrum]] $S$.
+
+See [[cobordism ring]] for more.
 
 ## Examples
 
@@ -33,5 +46,5 @@ The cobordism ring here^may be replaced by rings of cobordisms with extra struct
   a [[spin bundle]];
 
 * The [[elliptic genus]] or [[Witten genus]] may be interpreted as the
-  index of a Dirac operator on loop space.
+  index of a [[Dirac operator]] on [[loop space]].
 
