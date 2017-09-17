@@ -387,6 +387,8 @@ Witt class.
 
   * [[Knizhnik-Zamolodchikov connection]]
 
+* [[Liouville theory]]
+
 * [[SCFT]]
 
   * [[2d SCFT]]
