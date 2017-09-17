@@ -72,37 +72,63 @@ The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal
 
 The [[periodic cohomology theory|periodic]] version is sometimes written $PMU$.
 
-## Differential cohomology refinement
+### Differential cohomology refinement
 
 The refinement of cobordism cohomology theory to [[differential cohomology]] is [[differential cobordism cohomology]].
 
 ## Properties
 
-### Complex bordism ring
+### On the point: Cobordism and Lazard ring
 
-The complex [[cobordism ring]] is the graded [[polynomial]] [[ring]]
+The [[graded ring]] given by evaluating complex cobordism theory on the point is both the complex [[cobordism ring]] as well as the [[Lazard ring]] classifying [[formal group laws]].
+
++-- {: .num_theorem #RelationToCobordismRing}
+###### Theorem
+
+Evaluation of $MU$ on the point yields the complex [[cobordism ring]], whose underlying group is
 
 $$
-  MU_\ast(pt) \simeq \mathbb{Z}[x_1, x_2, \cdots]
+  \pi_\ast MU \simeq MU_\ast(pt) \simeq \mathbb{Z}[x_1, x_2, \cdots]
   \,,
 $$
 
 where the generator $x_i$ is in degree $2 i$.
 
-e.g ([Ravenel theorem 1.2.18](#Ravenel))
+=--
+
+This is due to ([Milnor 60](#Milnor60), [Novikov 60](#Novikov60), [Novikov 62](#Novikov62)). A review is in ([Ravenel theorem 1.2.18](#Ravenel), [Ravenel, ch. 3, theorem 3.1.5](#Ravenel)).
 
 
-### Homotopy groups 
+The [[formal group law]] associated with $MU$ as with any [[complex oriented cohomology theory]] is classified by a [[ring]] [[homomorphism]] $L \longrightarrow \pi_\bullet(MU)$ out of the [[Lazard ring]].
 
-The [[homotopy groups]] of the [[Thom spectrum]] $MU$ form the [[ring]]
++-- {: .num_theorem}
+###### Theorem
+
+This canonical [[homomorphism]] is an [[isomorphism]]
 
 $$
-  \pi_\bullet(MU) \simeq \mathbb{Z}[x_1, x_2, \cdots]
+  L \stackrel{\simeq}{\longrightarrow} \pi_\bullet(MU)
 $$
 
-with the generator $x_i$ in degree $2i$.
+between the [[Lazard ring]] and the $MU$-[[cohomology ring]], hence by theorem \ref{RelationToCobordismRing} with the complex [[cobordism ring]].
 
-This is due to ([Milnor 60](#Milnor60), [Novikov 60](#Novikov60), [Novikov 62](#Novikov62)). A review is in ([Ravenel, ch. 3, theorem 3.1.5](#Ravenel)).
+=--
+
+This is [[Quillen's theorem on MU]].
+(e.g [Lurie 10, lect. 7, theorem 1](#LurieLect7))
+
+
+### Universal orientation
+
+For $E$ an [[E-infinity ring]] there is a [[bijection]] between [[complex oriented cohomology theory|complex orientation]] of $E$ and [[E-infinity ring]] maps of the form
+
+$$
+  MU \longrightarrow E
+  \,.
+$$
+
+(e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6))
+
 
 ### Nilpotence theorem
 
@@ -150,13 +176,15 @@ with an emphasis on the use of $MU$ in the [[Adams-Novikov spectral sequence]], 
 
 Lecture notes include 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 5 _Complex bordism_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
-  Lecture 5 _Complex bordism_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 6 _MU and complex orientations_ ([pdf]
+(http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf)) 
+ {#LurieLect6}
+ 
 
-  Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
-
-  Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
+ {#LurieLect7}
 
 For further context see also the discussion at
 
