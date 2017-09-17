@@ -581,3 +581,7 @@ A classical article that amplifies the expression of Postnikov towers in terms o
 [[!redirects truncated object in an (infinity,1)-topos]]
 
 [[!redirects n-truncated object of an (infinity,1)-topos]]
+
+
+[[!redirects truncation]]
+[[!redirects truncations]]
