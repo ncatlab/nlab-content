@@ -1,0 +1,7 @@
+
+
+* [German Wikipedia entry](https://de.wikipedia.org/wiki/Tammo_tom_Dieck)
+
+category: people
+
+[[!redirects tom Diek]]
