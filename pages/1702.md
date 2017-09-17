@@ -91,19 +91,26 @@ In particular, we get that for any two objects $C, D\in F(U)$ we have that the s
 
 For example, consider the stack of rank 1 vector bundles on a scheme $X$, $\text{Vect}_1$. One can check that $\text{Vect}_1$ is a $\mathbb{G}_m$-gerbe by noting that the automorphism group of any vector bundle over $U$ will be precisely $\mathcal{O}_X(U)^\times$, and everything is functorial. By the interpretation in cohomology, we see that the global vector bundles (up to isomorphism) are in correspondence with $H^1(X, \mathcal{O}_X^\times)$ which is just $\text{Pic}(X)$.
 
+
 One can form the *classifying stack*, $B\mathcal{A}$ from the important example above by taking $B\mathcal{A}(U)=\mathcal{T}ors(\mathcal{A}(U))$. A basic theorem about $\mathcal{A}$-gerbes is that an $\mathcal{A}$-gerbe, $F$, is isomorphic to $B\mathcal{A}$ if and only if $F(B)\neq \emptyset$. This says that $F$ is isomorphic to the classifying stack if and only if it has a global object.
 
 
 
 ##Differential geometry
 
-$H^3(X,\mathbb{Z})$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
+$H^3(X,Z)$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
+
+For the purposes of this subsection, we assume the base $X$ to be a smooth manifold. A *Dixmier-Douady sheaf of groupoids* over $X$ is an $C_X^*$-gerbe on $X$ where $C_X^*$ is the sheaf of smooth $C^*$-valued functions.
+
+We have a canonical isomorphism between the group of equivalence classes of Dixmier-Douady sheaves of groupoids over $X$ and $H^2(X, C_X^*)\stackrel{\sim}{\to} H^3(X, Z(1))$.
 
 +--{: .query}
 _Daniel_:Please, would someone mind explain this with detail? I am interested in understand quantization and somehow, this thing comes up all the time...
 I got it from the entry on wikipedia on [gerbes,]( http://en.wikipedia.org/wiki/Gerbe) but it was not explained.
 
 [[Tim Porter|Tim]]:  I will get there but the route is not that short! It is however not that long either.
+
+Matt (hilbertthm90): There seems to be enough to say here that it might not hurt to start a whole new page called something like gerbe (in differential geometry) or something like that. What do you think?
 =--
 
 
