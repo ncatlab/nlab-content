@@ -51,8 +51,8 @@ The original article on the CS/WZW correspondence is
 
 A review is around p. 30 in
 
-* [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
- {#Gawedzki99}
+* {#Gawedzki99} [[Krzysztof Gawędzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+ 
 
 The relation of this to the [[AdS-CFT correspondence]] is discussed in
 
