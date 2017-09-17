@@ -1,8 +1,15 @@
-The purpose of this stub is to collect (in future) various characterizations, expressions, consequences and applications of flatness of connections in various areas of mathematics and mathematical physics. 
+> The purpose of this stub is to collect (in future) various characterizations, expressions, consequences and applications of flatness of connections in various areas of mathematics and mathematical physics. 
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition and general properties
 
-A [[connection]] on a fibre bundle is **flat** if its [[curvature]] is zero. The same definition of flatness holds for connections in various algebraic setups and for connections on [[quasicoherent sheaves]]. 
+A [[connection]] on a fibre bundle is **flat** if its [[curvature]] is zero. 
+
+The same definition of flatness holds for connections in various algebraic setups and for connections on [[quasicoherent sheaves]]. 
 
 The condition of flatness is usually expressed via the [[Maurer-Cartan equation]]. Flat connections on bundles correspond to [[local system]]s. 
 
@@ -21,3 +28,5 @@ Maurer-Cartan equation is called also structure equation when used to treat the 
 ...
 
 [[!redirects integrable connection]]
+
+[[!redirects flat connections]]
