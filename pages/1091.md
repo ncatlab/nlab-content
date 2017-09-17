@@ -48,7 +48,7 @@ $$
   f^* : C/Y \to C/X
 $$
 
-of [[over-categories]].  It is on objects given by [[pullback]]/[[fiber product]]
+of [[over-categories]].  It is on objects given by [[pullback]]/[[fiber product]] along $f$
 
 $$
   (p : K \to Y)
