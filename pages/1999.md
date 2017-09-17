@@ -2,3 +2,4 @@
 
 For local properties of schemes, there is a standard way to extend them to morphisms: a morphism $f:X\to Y$ satisfies a property $P$ iff there is a [[Zariski topology|Zariski]] [[cover]] $\{U_\alpha\}_\alpha$ of $Y$ by open subschemes such that for all $\alpha$ the preimage $f^{-1}(U_\alpha)$ is a scheme satisfying property $P$. 
 
+category: algebraic geometry
