@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -24,6 +23,16 @@ By general [[electric-magnetic duality]] (see [Freed](#Freed) for a formal treat
 The study of the corresponding perturbation series over correlators of the 6-dimensional fivebrane worldvolume [[SCFT]] over 6-volumes is far from tractable,  but a handful of consistency checks exist, that the corresponding _dual heterotic string theory_ makes sense.
 
 Where the [[quantum anomaly]]-cancellation for the heterotic string involves the demand for (twisted) [[string structure]]s, that for the dual theory involves [[fivebrane structure]]s (which gives these their name).
+
+## Related concepts
+
+* [[string theory]]
+
+* [[heterotic string theory]]
+
+  * [[Green-Schwarz mechanism]]
+
+* **dual heterotic string theory**
 
 
 ## References
