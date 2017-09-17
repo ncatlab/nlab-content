@@ -16,7 +16,7 @@
 ## Idea
 
 
-A system of [[physics]] has a [[space]] of possible _configurations_ or _hostories_ or _trajectories_ . This is called the _configuration space_ .
+A system of [[physics]] has a [[space]] of possible _configurations_ or _histories_ or _trajectories_. This is called the _configuration space_ .
 
 More specifically, for a system described by an [[action functional]] the configuration space is the domain space of that functional.
 
