@@ -33,7 +33,7 @@ Then there is a (pseudo) [[2-functor]]
 $$ S : C^{op} \to Cat $$
 defined by $S(x) \coloneqq C/x$ (the [[slice category]]), called the [[self-indexing]] of $C$.  Its [[Grothendieck construction]] is the [[codomain fibration]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 A [[colimit]] in $C$ is **van Kampen** if it is [[preserved limit|preserved]] by the functor $S$, i.e. it is taken to a (weak) [[2-limit]] in $Cat$.
 =--
