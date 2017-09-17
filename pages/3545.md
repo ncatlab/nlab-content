@@ -39,7 +39,9 @@ Examples are
 
 * the unstable [[Thom space]]s $M U_n$ and $M S O_n$
 
+* the space $K(\mathbb{Z},2)$, 
 
+  whose Sullivan minimal model is the dg-algebra on a single degree-2 generator with trivial differential.
 
 
 ## References
