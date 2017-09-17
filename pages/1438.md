@@ -25,15 +25,16 @@ An __initial [[algebra for an endofunctor|algebra]]__ for an [[endofunctor]] $F$
 
 ### Relation to algebras over a monad
 
-The concept of an [[algebra of an endofunctor]] itself is somewhat odd, the natural concept being that of an [[algebra over a monad]].
+The concept of an [[algebra of an endofunctor]] is arguably somewhat odd, a more natural concept being that of an [[algebra over a monad]].  However, the former can often be reduced to the latter.
 
 +-- {: .num_prop}
 ###### Proposition
-
-The [[category]] of [[algebras of an endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ is [[equivalence of categories|equivalent]] to the category of [[algebras over a monad]] of the [[free monad]] on $F$.
+If $\mathcal{C}$ is a [[complete category]], then the [[category]] of [[algebras of an endofunctor]] $F : \mathcal{C} \to \mathcal{C}$ is [[equivalence of categories|equivalent]] to the category of [[algebras over a monad]] of the [[free monad]] on $F$, if the latter exists.
 =--
 
-The proof is fairly straightforward, see for instance ([Maciej](#Maciej)).
+The proof is fairly straightforward, see for instance ([Maciej](#Maciej)) or at [[free monad]].
+
+The existence of free monads, on the other hand, can be a tricky question.  One general technique is the [[transfinite construction of free algebras]].
 
 
 ### Lambek's theorem
@@ -93,6 +94,8 @@ carries a structure of initial $F$-algebra.
 
 The $F$-algebra structure $F\gamma \to \gamma$ is inverse to the canonical map $\gamma \to F\gamma$ out of the colimit (which is invertible by the hypothesis on $F$). The proof of initiality may be extracted by dualizing the corresponding proof given at [[terminal coalgebra]]. 
 =--
+
+This approach can be generalized to the [[transfinite construction of free algebras]].
 
 
 ### Semantics for inductive types
