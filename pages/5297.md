@@ -21,18 +21,18 @@ The bicategory $Map K$ is the [[locally full sub-2-category]] of $K$ determined 
 
 ## Properties
 
-If $K$ is a [[cartesian bicategory]], then $Map K$ has finite $2$-products.
-
-If every map in $K$ is [[comonadic morphism|comonadic]] and $Map K$ has a terminal object, then $Map K$ is equivalent to a $1$-category.  Further, if $K$ is a [[cartesian bicategory]] and every [[comonad]] in $K$ has an [[Eilenberg--Moore object]] then $K$ is [[biequivalence|biequivalent]] to $Span Map K$, where $Map K$ has finite (1-)limits [\[LWW10\]](#LWW10).
+If every map in $K$ is [[comonadic morphism|comonadic]] and $Map K$ has a terminal object, then $Map K$ is equivalent to a $1$-category.  If in addition $K$ is a [[cartesian bicategory]] and every [[comonad]] in $K$ has an [[Eilenberg--Moore object]], then $K$ is [[biequivalence|biequivalent]] to $Span Map K$, $Map K$ having finite limits.  The converse is true if pullback squares in $Map K$ satisfy the Beck--Chevalley condition in $K$, i.e. if their [[mates]] are invertible (see [\[LWW10\]](#LWW10)).
 
 $Map K$ is a [[regular category]] if and only if $K$ is a unitary tabular [[allegory]], equivalently a [[bicategory of relations]] in which every [[coreflexive morphism]] [[split idempotent|splits]].  In that case $Rel Map K \simeq K$.
 
+Similarly, $Map K$ is a [[topos]] if and only if $K$ is a unitary tabular power allegory.
 
-## Maps versus equipments
+
+## Maps and equipments
 
 A [[2-category equipped with proarrows]] is, by definition, a bijective-on-objects [[pseudofunctor]] $K\to M$ such that the image of every arrow in $K$ is a map in $M$.  Equivalently, therefore, it is a bijective-on-objects pseudofunctor $K\to Map M$.
 
-Hence the inclusion $Map M \to M$ is the "universal" proarrow equipment that can be constructed with a given bicategory $M$ as its bicategory of proarrows.  More precisely, there is a forgetful functor from $Equip$ to $Bicat$ which remembers only the bicategory $M$ of proarrows, and the assignation of $M$ to $Map M \to M$ is its right adjoint.
+Hence the inclusion $Map M \to M$ is the "universal" proarrow equipment that can be constructed with a given bicategory $M$ as its bicategory of proarrows.  More precisely, there is a forgetful functor from $Equip$ to $Bicat$ which remembers only the bicategory $M$ of proarrows, and the assignment of $M$ to $Map M \to M$ is its right adjoint.
 
 +--{: .query}
 [[Mike Shulman]]: This is obviously morally true, but I can't be bothered right now to check which 1-, 2-, or 3-categories of equipments and bicategories one has to use to make it precisely correct.
