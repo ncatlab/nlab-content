@@ -222,6 +222,77 @@ By the discussion at [[connected topos]] we could equivalently convince ourselve
 
 =--
 
+
+### Localnes
+
++-- {: .un_prop}
+###### Proposition
+
+
+The [[sheaf topos]] $Sh(CartSp)$ is also a [[local topos]]
+
+$$
+  (L Const \dashv \Gamma \dashv CoDisc)
+  :
+  Sh(CartSp) \stackrel{\overset{L Const}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{CoDisc}{\leftarrow}}} 
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The [[site]] [[CartSp]] is a [[local site]]: it has a [[terminal object]] and the only [[covering]] [[sieve]] of this object is the trivial one. This implies the claim, by the discussion at [[local site]].
+
+Concretely, the extra [[right adjoint]] $CoDisc$ takes a [[set]] $S$ to the presheaf given by the assigmnent
+
+$$
+  CoDisc(S) : U \mapsto Hom_{Set}(CartSp(*,U), S)
+  \,,
+$$
+
+that takes a Cartesian space $U$ to the set of [[function]]s from its underlying set of points to $S$. This is clearly a sheaf (a function of sets from $U$ to $S$ is clearly fixed by all its restrictions to a collections of  subsets of $U$ whose unition is $U$.)
+
+=--
+
+Geometrically, the object $CoDisc S \in Sh(CartSp)$ is the diffeological space [[codiscrete space|codiscrete]] (indiscrte) smooth structure.
+
++-- {: .un_prop}
+###### Proposition
+
+Every [[local topos]] comes with its notion of [[concrete sheaves]] that form a sub-[[quasitopos]]. For the local topos $Sh(CartSp)$ these are precisely the diffeological spaces.
+
+=--
+
+### Cohesiveness
+
++-- {: .un_prop}
+###### Proposition
+
+The [[sheaf topos]] $Sh(CartSp)$ is even a [[cohesive topos]] in which the axiom _pieces have points_ holds.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[site]] [[CartSp]] is a [[cohesive site]] (see there for detail). This implies the statement.
+
+=--
+
+This implies that $Sh(CartSp)$ is a [[locally connected topos]], [[connected topos]], [[local topos]]. It means in addition that it is also a [[strongly connected topos]].
+
+This means that there is a _homotopy category_ or _concordance category_ of smooth spaces, with the same objects as $Sh(CartSp)$, but with hom-sets given by
+
+$$
+  Conc(X,Y) := \Pi_0 [X,Y]_{Sh(CartSp)}
+ \,,
+$$
+
+where $[X,Y]_{Sh(CartSp)}$ is the [[internal hom]] in the [[cartesian closed category]] $Sh(CartSp)$.
+
+
 ## References 
 
 For a discussion on how diffeological spaces relate to the other notions of [[generalised smooth space]], see:
