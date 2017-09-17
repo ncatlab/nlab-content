@@ -339,6 +339,74 @@ This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is t
 
 =--
 
+## As the CE-algebra of the $L_\infty$-algebra of inner derivations {#AsInnerDer}
+
+By the discussion at [[∞-Lie algebra]] and [[Chevalley-Eilenberg algebra]], we may _identify_ the [[full subcategory]] of the [[opposite category]] [[dgAlg]] on commutative [[semi-free dga]]s in non-negative degree with that of [[∞-Lie algebra]]s/[[∞-Lie algebroid]]s.
+
+That means that the Weil algebra $W(\mathfrak{g})$ of some [[∞-Lie algebra]] $\mathfrak{g}$ is the Chevalley-Eilenberg algebra of _another_ $\infty$-Lie algebra. 
+
++-- {: .un_def}
+###### Definition
+
+For any $\infty$-Lie algebra $\mathfrak{g}$ write $inn(\mathfrak{g})$ for the $\infty$-Lie algebra whose CE-algebra is $W(\mathfrak{g})$:
+
+$$
+  CE(inn(\mathfrak{g})) := W(\mathfrak{g})
+  \,.
+$$
+
+=--
+
+In the following we discuss these _inner automorphism $\infty$-Lie algebras_ in more detail. (See section 6 of ([SSSI](#SSSI))).
+
+### For an ordinary Lie algebra
+
+
++-- {: .un_lemma}
+###### Observation
+
+For $\mathfrak{g}$ an ordinary [[Lie algebra]] the [[inner derivation Lie 2-algebra]] is the [[strict Lie 2-algebra]] given by the [[dg-Lie algebra]]
+
+$$
+  inn(\mathfrak{g}) = ( \mathfrak{g} \stackrel{d}{\to} \mathfrak{g}, [-,-])
+$$
+
+whose
+
+* elements in degree -1 are the elements $x \in \mathfrak{g}$, thought of as inner degree-(-1) [[derivation]]s
+
+  $\iota_x : CE(\mathfrak{g}) \to CE(\mathfrak{g})$
+
+  given by contraction with $x$;
+
+* elements in degree 0 are the derivations of degree 0 that are of the form
+
+  $ \mathcal{L}_X := [d_{CE(\mathfrak{g})}, \iota_x] : CE(\mathfrak{g}) \to CE(\mathfrak{g})$;
+
+* the differential $d = [d_{CE}, -] : \mathfrak{g} \to \mathfrak{g}$ is the commutator of derivations with the differential $d_{CE(\mathfrak{g})}$;
+
+* the bracket is the graded commutator of derivations.
+
+=--
+
+Equivalently this is identified with the [[differential crossed module]] $(\mathfrak{g} \stackrel{Id}{\to} \mathfrak{g})$ with the action being the [[adjoint action]] of $\mathfrak{g}$ on itself.
+
+One checks that for all $x, y \in \mathfrak{g}$ we have in $inn(\mathfrak{g})$ the brackets
+
+* $[\iota_x, \iota_y] = 0$
+
+* $[\mathcal{L}_x, \iota_y] = \iota_{[x,y]}$
+
+* $[\mathcal{L}_x, \mathcal{L}_y] = \mathcal{L}_{[x,y]}$
+
+and of course
+
+* $ \mathcal{L}_x = [d, \iota_x] $.
+
+These identities are known as [[Cartan calculus]]. In this context $\mathcal{L}_x$ is called a [[Lie derivative]].
+
+In this sense one may understand $inn(\mathfrak{g})$ for general $\infty$-Lie algebras $\mathfrak{g}$ as providing an $\infty$-version of [[Cartan calculus]].
+
 
 ## Relation to other concepts
 
@@ -439,7 +507,7 @@ $$
   \,.
 $$
 
-This is the [[Chern-Simons form|Chern-Simons element]] of the invariant polynomial. Notice, crucially, that this is ingeneral _not_ restricted to the shifted part $\wedge^\bullet (\mathfrak{g}^*[1])$ Its restriction
+This is the [[Chern-Simons element]] of the invariant polynomial. Notice, crucially, that this is ingeneral _not_ restricted to the shifted part $\wedge^\bullet (\mathfrak{g}^*[1])$ Its restriction
 
 $$
   \mu_{\langle -\rangle} := cs_{\langle - \rangle}|_{\wedge^\bullet \mathfrak{g}^*}
@@ -465,7 +533,7 @@ $$
   \Omega^\bullet(X)
 $$
 
-is the corresponding [[curvature characteristic form]], a closed $n$-form on $X$. For $(\langle - \rangle, cs) : W(b^{n-1}) \to W(\mathfrak{g})$ the corresponding Chern-Simons element we have that $cs(A,F_A)$ is the corresponding [[Chern-Simons form]] on $X$.
+is the corresponding [[curvature characteristic form]], a closed $n$-form on $X$. For $(\langle - \rangle, cs) : W(b^{n-1}) \to W(\mathfrak{g})$ the corresponding [[Chern-Simons element]] we have that $cs(A,F_A)$ is the corresponding [[Chern-Simons form]] on $X$.
 
 ## Examples
 
@@ -558,4 +626,5 @@ The use of the Weil algebra in the calculation of the equivariant [[de Rham coho
 
 For the role played by the Weil algebra in the general context of [[∞-Lie theory]] see
 
-* Hisham Sati, Urs Schreiber, Jim Stasheff, _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
+{#SSSI}
