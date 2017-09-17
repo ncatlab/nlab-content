@@ -60,6 +60,8 @@ on basic properties of [[E-∞ geometry]]
 
 ## 4. Completions of modules
 
+* [[torsion module]], [[torsion approximation]]
+
 * [[completion of a module]]
 
 ## 5. Completions of spectral Deligne-Mumford stacks
