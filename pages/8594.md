@@ -44,6 +44,8 @@ Shouldn't we demand that reciprocation be continuous in a topological field? Or 
 
 ## Related concepts
 
+* [[topological monoid]]
+
 * [[normed ring]]
 
 * [[local field]]
