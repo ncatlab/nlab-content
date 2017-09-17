@@ -114,7 +114,7 @@ The following table lists some [[Lie groups]] and their maximal compact Lie subg
 
 The following table lists specifically the maximal compact subgroups of the "$E$-series" of Lie groups culminating in the  [[exceptional Lie groups]] $E_n$.
 
-| $n$ | [[real form]] $E_{d(d)}$ | maximal compact subgroup $H_d$ | $dim(E_{n(n)})$ | $dim(E_{n(n)}/H_n ) $ |
+| $n$ | [[real form]] $E_{n(n)}$ | maximal compact subgroup $H_n$ | $dim(E_{n(n)})$ | $dim(E_{n(n)}/H_n ) $ |
 |---|---|---|---|---|
 | 2 | $SL(2, \mathbb{R}) \times \mathbb{R}$ | $SO(2)$ | 4 | 3 |
 | 3 | $SL(3,\mathbb{R}) \times SL(2,\mathbb{R})$ | $SO(3) \times SO(2)$ | 11 | 7 | 
