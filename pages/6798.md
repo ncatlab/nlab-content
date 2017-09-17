@@ -31,6 +31,8 @@ A  [[supersymmetry|supersymmetric]] extension of plain [[Yang-Mills theory]].
 
 Special properties are enjoyed by
 
+* [[N=1 D=4 super Yang-Mills theory]]
+
 * [[N=2 D=4 super Yang-Mills theory]]
 
 * [[N=4 D=3 super Yang-Mills theory]]
