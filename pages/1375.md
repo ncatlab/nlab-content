@@ -140,7 +140,10 @@ is itself again an [[(∞,1)-topos]] ([Joyal 08, section 35.5](#Joyal08)), see a
 
 ## Examples
 
-For $C = Top$, $Stab(C)$ is the $(\infty,1)$-category version of the classical stable homotopy category of spaces: the [[stable (infinity,1)-category of spectra]].
+* For $C = Top$, $Stab(C)$ is the $(\infty,1)$-category version of the classical stable homotopy category of spaces: the [[stable (infinity,1)-category of spectra]].
+
+* In the [[equivariant homotopy theory]] of [[G-spaces]] a spectrum object is a _[[spectrum with G-action]]_.
+
 
 ## Related concepts
 
