@@ -32,6 +32,12 @@ $$
   }
 $$
 
+\[
+\label{eqnoeq}
+x + y + z
+\]
+
+Equation \eqref{eqnoeq} is not an equation.
 
 ***
 category: meta
