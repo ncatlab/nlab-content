@@ -11,9 +11,9 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
-#### Functional analysis
+#### Integration theory
 +--{: .hide}
-[[!include functional analysis - contents]]
+[[!include integration theory - contents]]
 =--
 =--
 =--
@@ -134,6 +134,8 @@ based on material (on categories of "families") in _[[On the Classification of T
 * [[fermionic path integral]]
 
 * [[principle of extremal action]]
+
+* [[integration over infinite-dimensional manifolds]]
 
 ## References {#References}
 
