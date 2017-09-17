@@ -153,3 +153,6 @@ Discussion of [[supersymmetry]] breaking is in
 
 [[!redirects spontaneous symmetry breaking]]
 
+
+[[!redirects broken symmetry]]
+[[!redirects broken symmetries]]
