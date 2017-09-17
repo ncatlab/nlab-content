@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include monoidal categories - contents]]
+***
+[[!include category theory - contents]]
+</div>
 
 #Contents#
 * automatic table of contents goes here
@@ -125,29 +130,6 @@ naturally in $e$.
 
 =--
 
-
-
-
-
-## Related notions
-
-* [[braided monoidal category]]
-
-  * [[symmetric monoidal category]]
-
-* [[closed monoidal category]]
-
-  * [[cartesian closed category]] 
- 
-* [[rigid monoidal category]]
-
-* [[semisimple category]]
-
-* [[fusion category]]
-
-  * [[modular tensor category]]
-
-* [[monoidal (infinity,1)-category]] -- see also the discussion below
 
 ## References
 
