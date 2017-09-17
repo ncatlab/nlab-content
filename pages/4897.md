@@ -35,6 +35,7 @@ We list archives of **online** books, not the catalogues of physical libraries. 
 
 * [archive of category list](http://blog.gmane.org/gmane.science.mathematics.categories)
 * [tac](http://www.tac.mta.ca/tac) -- Theory and Application of Categories, free journal and a category reprint collection
+* [MSRI books](http://library.msri.org/books)
 
 ## General lists of math resources
 * [Math on the Web](http://www.ams.org/mathweb/index.html) links maintained by American Mathematical Society
