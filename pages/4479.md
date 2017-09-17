@@ -17,6 +17,7 @@ More generally, if $k \to K$ is *any* [[ring]] [[homomorphism]] between fields, 
 
 * [[group extension]]
 
+* [[algebraic extension]]
 
 [[!redirects field extension]]
 [[!redirects field extensions]]
