@@ -128,6 +128,7 @@ $$
   \,.
 $$
 
+
 Over a test space $U$ in degree 1 an element in $\exp(\mathfrak{P})_{diff}$ is a pair
 $(X^i, \eta^i)$
 
@@ -137,10 +138,18 @@ $$
 
 $$
   \eta^i \in \Omega^1_{vert}(U \times \Delta^1)
+$$
+
+subject to the verticality constraint, which says that along $\Delta^1$ we have
+
+$$
+  d_{\Delta^1} X^i + \eta^i_{\Delta^1} = 0
   \,.
 $$
 
-This pair is taken by the top morphism to
+The vertical morphism has in fact a section whose image is given by those pairs for which $\eta^i$ has no leg along $U$. We therefore find the desired form on $\exp(\mathfrak{P})$ by evaluating the top morphism on pairs of this form. 
+
+Such a pair is taken by the top morphism to
 
 $$
   (X^i, \eta^j) 
@@ -152,7 +161,19 @@ $$
   \,.
 $$
 
-By the [[Stokes theorem]] the integration yields
+Using the above verticality constraint and the condition that $\eta^i$ has no leg along $U$, we decompose this as
+
+$$
+  \cdots = 
+  \int_{\Delta^1}
+  \omega_{i j}
+    d_U X^i 
+  \wedge
+    d_U d_{\Delta^1} X^j 
+  \,.
+$$
+
+By the [[Stokes theorem]] the integration over $\Delta^1$ yields
 
 $$
   \cdots 
@@ -160,25 +181,10 @@ $$
   \omega_{i j} d_{dR} x^i \wedge \eta^j|_{1}
    -
   \omega_{i j} d_{dR} x^i \wedge \eta^j|_{0}
-   + \cdots
   \,.
 $$
 
-Restricting this back to $\exp(\mathfrak{P})$ where the flatness conditions
 
-$$
-  d_{dR} X^i - \eta^i = 0
-$$
-
-and
-
-$$
-  d_{dR} \eta^i = 0
-$$
-
-holds this yields the promised form on the space of morphisms of the [[symplectic groupoid]].
-
-(...)
 
 
 (...)
