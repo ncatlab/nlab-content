@@ -24,11 +24,11 @@
 
 ## Idea
 
-The Goerss-Hopkins-Miller theorem ([Goerss-Hopkins A](#GoerssHopkinsA), [Goerss-Hopkins B](#GoerssHopkinsB)) as such establishes that the assignment to each [[elliptic curve]] of its [[elliptic cohomology|elliptic]] [[cohomology theory]] lifts in a [[coherence|coherent]] way to an assignment of the [[Brown representability theorem|representing]] [[spectra]] regarded as [[E-∞ rings]]. In summay this makes for a [[structure sheaf]] $\mathcal{O}_{\mathcal{M}^{der}}$ of the [[moduli stack of elliptic curves]] in [[derived algebraic geometry]], realizing that moduli stack  as a [[derived scheme]] $\mathcal{M}^{der}$ in [[E-∞ geometry]] ("spectral geometry") ([[A Survey of Elliptic Cohomology|Lurie]]).
+The Goerss-Hopkins-Miller theorem ([Goerss-Hopkins A](#GoerssHopkinsA), [Goerss-Hopkins B](#GoerssHopkinsB)) as such establishes that the assignment to each [[elliptic curve]] of its [[elliptic cohomology|elliptic]] [[cohomology theory]] lifts in a [[coherence|coherent]] way to an assignment of the [[Brown representability theorem|representing]] [[spectra]] regarded as [[E-∞ rings]]. In summay this makes for a [[structure sheaf]] $\mathcal{O}_{\mathcal{M}^{der}}$ of the [[moduli stack of elliptic curves]] in [[derived algebraic geometry]], realizing that moduli stack  as a [[derived scheme]] $\mathcal{M}^{der}$ in [[E-∞ geometry]] ("spectral geometry") This is sketched in ([[A Survey of Elliptic Cohomology|Lurie]]) and discussed in detail in ([Behrens 13](#Behrens13)).
 
 In detail the theorem utilizes and establishes more general tools concerning the [[obstruction]] theory of lifting [[formal group laws]] to [[cohomology theories]] and homotopy associative/commutative [[spectra]] to [[A-∞ rings]] and to [[E-∞ ring]] structure, respectively. 
 
-In the succinct and suggestive form of ([[A Survey of Elliptic Cohomology|Lurie, theorem 1.1]]) the Goerss-Hopkins-Miller theorem asserts the existence of the lift $\mathcal{O}_{\mathcal{M}^{der}}$ in the [[diagram]]
+In the succinct and suggestive form of ([[A Survey of Elliptic Cohomology|Lurie, theorem 1.1]]) the Goerss-Hopkins-Miller theorem leads the existence of the lift $\mathcal{O}_{\mathcal{M}^{der}}$ in the [[diagram]]
 
 $$
   \array{
@@ -59,7 +59,9 @@ In this form this appears as ([Rezk 97, theorem 2.1](#Rezk97)).
 
 ### Goerss-Hopkins theorem
 
-(...)
+(...) 
+
+this appears reproduced as ([Behrens 13, theorem 4.2](#Behrens13))
 
 ## References
 
@@ -84,8 +86,8 @@ and a survey is also in
 
 The Goerss-Hopkins theorem is laid out in 
 
-
-* {#GoerssHopkinsA} [[Paul Goerss]], [[Michael Hopkins]], _Moduli spaces of commutative ring spectra_ ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/sum.pdf))
+* {#GoerssHopkinsA} [[Paul Goerss]], [[Michael Hopkins]], _Moduli spaces of commutative ring spectra_, in _Structured ring spectra_, London
+Math. Soc. Lecture Note Ser., vol. 315, Cambridge Univ. Press, Cambridge, 2004, pp. 151-200. ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/sum.pdf))
 
 * {#GoerssHopkinsB} [[Paul Goerss]], [[Michael Hopkins]], _Moduli problems for structured ring spectra_ ([pdf](http://www.math.northwestern.edu/~pgoerss/spectra/obstruct.pdf))
 
@@ -96,6 +98,10 @@ A more abstract formulation of this is sketched in
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_
 
 See also at _[survey of elliptic curves -- Gluing of curves to a spectrum](A+Survey+of+Elliptic+Cohomology#gluingallellipticcohomologytheoriestothetmfspectrum)_
+
+The actual details of the application of the Goerss-Hopkins-Miller theorem to the construction of $\mathcal{O}_{\mathcal{M}^{der}}$ (and hence of [[tmf]]) is in 
+
+* {#Behrens13} [[Mark Behrens]], _Notes on the construction of $tmf$_, 2013 ([pdf](http://math.mit.edu/~mbehrens/papers/buildTMF.pdf))
 
 
 An exposition with indications of further developments in [[(infinity,1)-category theory]] is in 
