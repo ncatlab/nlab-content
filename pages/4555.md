@@ -2,13 +2,12 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Differential cohomology
 +--{: .hide}
-[[!include cohomology - contents]]
+[[!include differential cohomology - contents]]
 =--
 =--
 =--
-
 
 #Contents#
 * automatic table of contents goes here
