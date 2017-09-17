@@ -151,6 +151,8 @@
 
       * [[Green-Schwarz mechanism]]
 
+    * [[Kaluza-Klein mechanism]]
+
   * Types of quantum field thories
 
     * [[TQFT]]
