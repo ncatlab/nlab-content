@@ -61,6 +61,8 @@ If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X
 
 ## Related concepts
 
+* [[holonomic D-module]]
+
 * [[D-geometry]]
 
 * [[D-scheme]]
