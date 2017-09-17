@@ -1,0 +1,113 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Integration theory
++--{: .hide}
+[[!include integration theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $E$ a [[cohomology theory]], and $f \colon X \to Y$ a map of suitable [[spaces]], an ordinary [[Umkehr map]] for the induced map $E^\bullet(f) \colon E^\bullet(Y) \to E^{\bullet}(X)$ is a [[dual morphism]] together with self-[[dual objects|duality]] [[equivalences]] for $E^\bullet(X)$ and $E^\bullet(Y)$ ([[orientation in generalized cohomology|orientation]]/[[Atiyah duality]]+[[Thom isomorphism]]). 
+
+More generally, $E^\bullet(X)$ may not be self-dual, but its [[dual object]] may be [[twisted cohomology]] $E^{\bullet+ \chi}(X)$ for some twist $\chi$. In this case the [[Umkehr map]] goes not between the original spaces and their cohomology, but between [[twisted cohomology]] variants of these.
+
+## Definition
+
+### Abstract duality and Atiyah-Milnor-Spanier duality + Pontryagin-Thom collapse
+
++-- {: .num_defn #SpanierDualityOperation}
+###### Definition
+
+Write
+
+$$
+  D \coloneqq (-)^\vee\circ \Sigma^\infty_+ \coloneqq L_{whe} Top \to \mathbb{S}Mod
+$$
+
+for the [[Spanier-Whitehead duality]] map which sends a [[topological space]] first to its [[suspension spectrum]] and then that to its [[dual object]] in the [[(∞,1)-category of spectra]].
+
+=--
+
+([ABG 12, def 10.3](#ABG12)).
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[compact manifold]], let $X \to \mathbb{R}^n$ be an [[embedding]] and write $S^n \to X^{\nu_n}$ for the classical [[Pontryagin-Thom collapse map]] for this situation, and write
+
+$$
+  \mathbb{S} \to X^{-T X}
+$$
+
+for the corresponding [[looping]] map from the [[sphere spectrum]] to the [[Thom spectrum]] of the negative [[tangent bundle]] of $X$. Then [[Atiyah duality]] produces an [[equivalence]]
+
+$$
+  X^{- T X} \simeq D X
+$$
+
+which identifies the [[Thom spectrum]] with the [[dual object]] of $\Sigma^\infty_+ X$ in $\mathbb{S} Mod$ and this constitutes a [[commuting diagram]]
+
+$$
+  \array{
+    && X^{- T X}
+    \\
+    & \nearrow & \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbb{S}
+    &\underset{D(X \to \ast)}{\to}&
+    D X
+  }
+$$
+
+identifying the classical [[Pontryagin-Thom collapse map]] with the abstract [[dual morphism]] construction of prop. \ref{SpanierDualityOperation}.
+
+More generally, for $W \hookrightarrow X$ an [[embedding]] of [[manifolds]], then [[Atiyah duality]] identifies the [[Pontryagin-Thom collapse maps]] 
+
+$$
+  \mathbb{S} \to X^{-T X} \to W^{- T W}
+$$
+
+with the abstract [[dual morphisms]]
+
+$$
+  \mathbb{S} \to D X \to D W
+  \,.
+$$
+
+
+=--
+
+([ABG 13, prop. 10.5](#ABG13)).
+
+
+
+## Examples
+
+For a detailed discussion of an example in [[K-theory]] see at _[[Poincaré duality algebra]]_ and at _[[Freed-Witten-Kapustin anomaly]]_.
+
+## Related concepts
+
+[[!include generalized fiber integration synonyms - table]]
+
+## References
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Parametrized spectra, multiplicative Thom spectra, and the twisted Umkehr map_ ([arXiv:1112.2203](http://arxiv.org/abs/1112.2203))
+ {#ABG12}
+
+* [[Joost Nuiten]], Master thesis, 2013
+
+[[!redirects twisted Umkehr maps]]
