@@ -1,0 +1,7 @@
+A subset $A$ of a topological space $X$ is locally closed if it is a closed subset of an open subset. Equivalently, every point in $A$ has a neighborhood $U\subset X$ such that $A\cap U$ is closed in $U$. 
+
+Locally closed subset in Zariski topology of the affine space
+over an algebraic closed field is called an embedded quasiaffine variety, and a locally closed subset in Zariski topology of the projective space over an algebraic closed field is called an embedded quasiprojective variety.
+
+category: topology
+[[!redirects locally closed subset]]
