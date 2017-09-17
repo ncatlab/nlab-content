@@ -32,6 +32,10 @@ A proposal for a definition, with an eye towards [[homotopy type theory]] and th
 
 This proposal is [[predicative mathematics|predicative]], but could be made impredicative easily (to correspond closer to elementary 1-toposes rather than to types of 1-[[pretoposes]]) by adding a [[subobject classifier]] (i.e. a classifier for *all* subobjects, rather than merely the "classifiers for small subobjects" obtainable from object classifiers).
 
+Related discussion is in 
+
+* [[André Joyal]], _What is an elementary higher topos?_, talk at _[Reimagining The Foundations Of Algebraic Topology](https://www.msri.org/workshops/689)_ April 07, 2014 - April 11, 2014_ [web video](https://www.msri.org/workshops/689/schedules/18227)
+
 [[!redirects elementary (∞,1)-topos]]
 
 [[!redirects elementary (∞,1)-toposes]]
