@@ -265,11 +265,16 @@ For more see at _[[equivariant stable homotopy theory]]_ and _[[global equivaria
 
 ### General
 
-* Matvei Libine, _Lecture Notes on Equivariant Cohomology_ ([arXiv](http://arxiv.org/abs/0709.3615))
+A quick introduction is in 
+
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 3 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+More details are in 
 
 * [[Peter May]], _Equivariant homotopy and cohomology theory_ ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
-* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+* Matvei Libine, _Lecture Notes on Equivariant Cohomology_ ([arXiv](http://arxiv.org/abs/0709.3615))
+
 
 * B. Guillou, _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
 
