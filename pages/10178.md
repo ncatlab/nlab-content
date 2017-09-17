@@ -72,8 +72,8 @@ and finally we discuss a list of examples in
 
 ### The motivic aspect
  {#TheMotivicAspect}
-
-As our title indicates, it may be useful to note the analogy of the structures considered here to structures in [[motivic cohomology]] and in [[six operations]]-yoga.
+cor
+As our title indicates, it may be useful to note the analogy of the structures considered here to structures in [[motivic cohomology]] and in [[six operations]]-yoga. (See also at _[[motives in physics]]_.)
 
 First notice the following heuristicts: Just as the idea of a category of [[motives]] is to constitute a "linearization" or "abelianization" of a category of [[spaces]], so [[quantization]] is a process that sends (non-linear) spaces of field configurations to linear [[spaces of quantum states]]. This linearization by which [[quantum states]] may be added as elements of an [[abelian group]] encodes the [[superposition principle]] and hence [[quantum interference]], the hallmark of [[quantum physics]].
 
