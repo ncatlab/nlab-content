@@ -181,6 +181,9 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 
 * [[star-autonomous category]]
 
+[[!include finite objects -- table]]
+
+
 ## References
 
 Duals in a closed/monoidal category are a very classical notion. A history of the basic definitions and applications in [[stable homotopy theory]]/[[higher algebra]] is in
