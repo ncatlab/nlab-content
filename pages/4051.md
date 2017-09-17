@@ -30,9 +30,9 @@ The axioms of $Th(Cat)$ are as follows:
 
 1. $c(f, g, h) \vdash (s(f) = t(g) \wedge t(f) = t(h) \wedge s(g) = s(h))$
 
-1. (Composition is well-defined) $(c(f, g, h) \wedge c(f, g, h')) \vdash h = h'$
-
 1. $s(f) = t(g) \vdash \exists_h c(f, g, h)$
+
+1. (Composition is well-defined) $(c(f, g, h) \wedge c(f, g, h')) \vdash h = h'$
 
 1. (Identity laws) $\vdash c(f, s(f), f) \wedge c(t(f), f, f)$
 
@@ -50,7 +50,7 @@ The signature of $Th(Lex)$ is obtained by adjoining to the signature of $Th(Cat)
 
 * A quaternary predicate $p$. 
 
-(The intended interpretation is that $1$ is a terminal object, and that $p(f, g, h, k)$ means that $f \circ h = g \circ k$, forming a pullback square.) 
+(The intended interpretation is that $1$ is a terminal object, and that $p(f, g, h, k)$ means $f \circ h = g \circ k$, forming a pullback square.) 
 
 The axioms of $Th(Lex)$ are the axioms of $Th(Cat)$ plus the following: 
 
@@ -122,7 +122,7 @@ $$(\forall_{g, h} (s(g) = s(h) \wedge t(g) = t(h) = s(f) \wedge f \circ g = f \c
 $$\vdash s(0) = 1 \wedge t(0) = \mathbb{N} = s(\sigma) = t(\sigma)$$
 
 1. (Recursion: existence) 
-$$s(f) = 1 \wedge t(f) = s(g) = t(g) \dashv \exists_h (s(h) = \mathbb{N} \wedge t(h) = t(f) \wedge f = h \circ 0 \wedge h \circ \sigma = g \circ h)$$ 
+$$s(f) = 1 \wedge t(f) = s(g) = t(g) \vdash \exists_h (s(h) = \mathbb{N} \wedge t(h) = t(f) \wedge f = h \circ 0 \wedge h \circ \sigma = g \circ h)$$ 
 
 1. (Recursion: uniqueness) 
 $$(s(f) = \mathbb{N} = s(g) \wedge t(f) = t(g) \wedge f \circ 0 = g \circ 0 \wedge f \circ \sigma = g \circ \sigma) \vdash f = g$$
@@ -135,6 +135,6 @@ Despite the length of the list of axioms, it should be noted that they generally
 
 Hence, the only "irremovable" existential clauses (that necessitate passing from essentially algebraic logic to a larger fragment of first-order logic) are well-pointedness and the axiom of choice. The axiom of choice belongs to [[geometric logic]]. 
 
-This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact axioms schemas are technically infinite lists of axioms) but whose logical complexity is much greater. 
+This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact that axiom schemas are technically infinite lists of axioms!) but whose logical complexity is much greater. 
 
 It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. However, this has been well-treated elsewhere and need not be gone into further here, as this page has a very particular focus and purpose (as stated in the Introduction). 
