@@ -30,7 +30,15 @@ If the ambient category is instead an [[(∞,1)-category]] such as [[∞Grpd]], 
 
 A **$0$-fold category** is a [[set]].  A (strict) **$n$-fold category** for $n \gt 0$ is an [[internal category]] in the category of $(n-1)$-fold categories.  An $n$-fold category is also known as an **$n$-tuple category**.
 
-In particular, a $1$-fold category is preciesely a [[category]], and a $2$-fold category is precisely a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
+In particular, a $1$-fold category is precisely a [[category]], and a $2$-fold category is precisely a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
+
+## Advantages
+
+A key advantage of $n$-fold categories is the ease of expressing multiple compositions, and so  the idea of "algebraic inverse to subdivision". This is important because subdivision is a key tool in many local-to-global problems in mathematics and science, and these themselves are an important class of problems. 
+
+Thus subdividing an $n$-cube amounts to dividing the cube into small cubes by hyperplanes parallel to the faces. For a $2$-fold category, we can define a _composable array_ $(a_{ij})$ of $2$-dimensional elements (called squares) to be such that any $a_{ij}$ is composable with its immediate neighbours. In such case, the associative and interchange laws imply that the composition $[a_{ij}]$ is well defined. This  process is easily extended to $n$-fold categories, using  elements say $a_{(r)}$ where $(r)$ is multi-index, and  is applied  widely in the JPAA papers by Brown and Higgins listed below. It seems much more difficult to express these ideas in the globular or simplicial contexts. 
+
+
 
 ### $n$-fold groupoids
 
@@ -39,6 +47,8 @@ Analogously, a **$0$-fold groupoid** is again a set, and an **$n$-fold groupoid*
 Analogous to how a [[group]] is a groupoid with a single object, one can consider $(n+1)$-fold groupoids for which all morphisms in one of the $(n+1)$ directions are endomorphisms. These are the _[[cat-n-groups]]_.
 
 More generally, an **$(n,r)$-fold groupoid** is an $r$-fold category in $(n-r)$-fold groupoids; compare $(n,r)$-[[(n,r)-category|category]].
+
+Note also that a category  object in the category of groups is actually a groupoid object. 
 
 
 
@@ -100,6 +110,7 @@ IMA Vol. Math. Appl., 152, Springer, New York, 2010.
 
 
 [[!redirects n-fold categories]]
+
 [[!redirects n-tuple category]]
 [[!redirects n-tuple categories]]
 
