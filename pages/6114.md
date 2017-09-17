@@ -1,0 +1,11 @@
+
+
+## Referenes
+
+For ex-spaces see around def. 1.4.2 of
+
+* [[Kate Ponto]], _Fixed point theory and trace for bicategories_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0807/0807.1471v1.pdf))
+
+For [[parametrized spectra]] see page xyz of
+
+* [[Peter May]], J. Sigurdsson, _[[Parametrized Homotopy Theory]]_
