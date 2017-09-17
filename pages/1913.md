@@ -299,6 +299,9 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects n-form]]
 [[!redirects n-forms]]
 
+[[!redirects differential n-form]]
+[[!redirects differential n-forms]]
+
 [[!redirects exterior derivative]]
 [[!redirects exterior derivatives]]
 [[!redirects exterior differential]]
