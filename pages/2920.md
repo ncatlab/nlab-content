@@ -1039,7 +1039,7 @@ Here $(-)^\circ$ denotes passing to the full [[simplicially enriched category|si
 There is also a notion of 
 [[Bousfield localization of triangulated categories]].
 
-Under suitable conditions it should be true that for $C$ a model category whose [[homotopy category]] $Ho(C)$ is a [[triangulated category]] the homotopy category of a left Bousfield localization of $C$ is the left Bousfield localization of $Ho(C)$.
+Under suitable conditions it should be true that for $C$ a model category whose [[homotopy category]] $Ho(C)$ is a [[triangulated category]] the homotopy category of a left Bousfield localization of $C$ is the left Bousfield localization of $Ho(C)$. See [this answer on MO](http://mathoverflow.net/a/136517/1291).
 
 
 
