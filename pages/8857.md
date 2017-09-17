@@ -1,6 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-__Cohomological induction__ is a derived functor version of [[induction functor]]s in [[representation theory]]. As the elements in induced representations correspond to sections of certain equivariant bundles or sheaves, similarly the cohomological induction functors could be interpreted as higher cohomologies of certain [[equivariant sheaves]]. 
+__Cohomological induction__ is a [[derived functor]] version of [[induction functors]] in [[representation theory]]. As the elements in induced representations correspond to [[sections]] of certain equivariant bundles or sheaves, similarly the cohomological induction functors could be interpreted as higher cohomologies of certain [[equivariant sheaves]]. 
 
 In specific contexts, like real Lie groups, there are specifical versions like Zuckerman induction functors; they are defined algebraically.
 
