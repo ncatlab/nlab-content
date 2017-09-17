@@ -80,6 +80,8 @@ There are also enriched, $k$-linear and other versions, hence one can talk about
 
 * [[adjoint representation]], [[coadjoint representation]]
 
+* [[Lie algebra representation]]
+
 ## Related concepts
 
 * [[action]], [[∞-action]]
