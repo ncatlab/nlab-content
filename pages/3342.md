@@ -166,7 +166,7 @@ From the physical point of view there are two different reasons to consider the 
 
 * From a conceptual viewpoint abandoning the special situation of the Minkowski spacetime could lead to the development of new ideas and tools that turn out to be helpful to understand the concept of a quantum field theorie better.
 
-The first point deserves some elaboration: The curved manifolds under consideration are supposed to be solutions to the field equations of General Relativity, i.e. physically realistic spacetimes, so that gravity is modelled classically by the curvature of spacetime. A quantum field theory on such a spacetime should be able to model the situation of elementary particles that feel the effects of gravity while neglecting the effect that the particles themselves have on spacetime (the notion of "particle" is highly nontrivial and nonproblematic in this setting and is to be understood in a methaphorical sense in the given context). Example: If you let an electron drop from your hand to the ground, that would be a situation that should be handled by the theory.
+The first point deserves some elaboration: The curved manifolds under consideration are supposed to be solutions to the field equations of General Relativity, i.e. physically realistic spacetimes, so that gravity is modelled classically by the curvature of spacetime. A quantum field theory on such a spacetime should be able to model the situation of elementary particles that feel the effects of gravity while neglecting the effect that the particles themselves have on spacetime (the notion of "particle" is highly nontrivial and problematic in this setting and is to be understood in a metaphorical sense in the given context). Example: If you let an electron drop from your hand to the ground, that would be a situation that the theory is supposed to describe.
 While a full theory of quantum gravity still eludes us, a theory of quantum fields on curved spacetimes could be useful as a kind of interpolation. In a certain sense this is already the case, since the [laws of black hole thermodynamics] (http://en.wikipedia.org/wiki/Black_hole_thermodynamics) were first discovered with the help of this setting.
 
 ## References 
@@ -185,7 +185,7 @@ and:
 
 * Huzihiro Araki: Mathematical theory of quantum fields. Oxford University Press 1999 [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0998.81501&format=complete). 
 
-An online reference page by is here:
+An online reference page is here:
 
 * Stephen J. Summers: [AQFT online] (http://www.math.ufl.edu/~sjs/aqft.html)
 
