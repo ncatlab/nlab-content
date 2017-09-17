@@ -28,5 +28,7 @@ For details see [[manifold]].
 
 * [[closed manifold]]
 
+[[!redirects manifolds with boundary]]
+
 [[!redirects manifold with corners]]
 [[!redirects manifolds with corners]]
