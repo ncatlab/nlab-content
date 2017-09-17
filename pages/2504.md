@@ -95,7 +95,8 @@ The supergravity Lie 3-algebra carries a 7-cocycle (the one that induces the [[s
 Let $\mathfrak{der}(\mathfrak{sugra}(10,1))$ be the [[automorphism ∞-Lie algebra]] of $\mathfrak{sugra}(10,1)$. This is a [[dg-Lie algebra]]. Write
 $\mathfrak{der}(\mathfrak{sugra}(10,1))_0$ for the ordinary [[Lie algebra]] in degree 0.
 
-This is [[isomorphic]] to the polyvector-extension of the [[super Poincaré Lie algebra]] (see there) in $d = 10+1$ -- the _"M-Lie algebra"_ -- with "2-brane central charge": the Lie algebra spanned by generators
+This is [[isomorphic]] to the polyvector-extension of the [[super Poincaré Lie algebra]] (see there) in $d = 10+1$ -- the _
+"[[M-theory super Lie algebra]]"_ -- with "2-brane central charge": the Lie algebra spanned by generators
 $\{P_a, Q_\alpha, J_{a b}, Z^{a b}\}$ and graded Lie brackets those of the [[super Poincaré Lie algebra]] as well as
 
 $$
