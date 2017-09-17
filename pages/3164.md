@@ -32,6 +32,8 @@ The refinement to [[higher geometry]] is [[E-infinity geometry]] ([[spectral geo
 
 * [[analytic geometry]]
 
+* [[Weil-étale topology for arithmetic schemes]]
+
 * [[absolute cohomology]]
 
 ## References
