@@ -100,6 +100,10 @@ Examples of categories with displays, def. \ref{CategoryWithDisplays}, include
 See also [Taylor](#Taylor), example 8.3.6.
 
 
+## Related pages
+
+* [[display map category]], a sort of [[categorical model of dependent types]]
+
 ## References
 
 Section 8.3 in 
