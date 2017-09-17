@@ -50,7 +50,7 @@ $$
 
 from the [[moduli stack]] of [[field (physics)|fields]] of the [[2d Chern-Simons theory]] to that of [[circle 2-bundles with connection]].
 
-If we forget the connection data here and just consider the underlying [[instanton sectors]], then this is precisely the symplectic groupoid data above
+If we [[concretify]] the moduli stack by forgetting the connection data here and just consider the underlying [[instanton sectors]], then this is precisely the symplectic groupoid data above
 
 $$
   \array{
@@ -58,7 +58,7 @@ $$
     &\stackrel{\mathbf{L}}{\to}& 
     \mathbf{B}^2 (\mathbb{R}/\Gamma)_{conn}
     \\
-    {}^{\mathllap{forget\;connection}}\downarrow && \downarrow
+    {}^{\mathllap{concretify}}\downarrow && \downarrow
     \\
     \mathbf{X} &\stackrel{\omega}{\to}& \flat_{dR} \mathbf{B}^3 U(1)
   }
@@ -81,9 +81,40 @@ This statement we recognize as a geometric quantization analog of a famous relat
 
 These relations to traditional theory we use in the following to explore aspects of the [[extended geometric quantization]] of [[2d Chern-Simons theory]].
 
+## The setup
+
+Let $(X, \pi)$ be a [[Poisson manifold]], which we tend to think of as defining a _[[quantum mechanical system]]_. This canonically induces the structure of [[Lie algebroid]] over $X$, the _[[Poisson Lie algebroid]]_ $(\mathfrak{P}, \mathbf{\omega})$ over $X$. This is a [[symplectic Lie n-algebroid|symplectic Lie algebroid]], with graded symplectic form (binary [[invariant polynomial]]) $\mathbf{\omega}$ which is in [[transgression]] with the Poisson tensor $\pi$, regarded as a [[Lie algebroid cohomology|Lie algebroid cocycle]]. The transgression is witnessed by a [[Chern-Simons element]] $cs_\pi$. By the general construction of [[schreiber:infinity-Chern-Simons theory]] this means that there is a universal differential characteristic map
+
+$$
+  \mathbf{L}
+  \;\colon\;
+  \exp(\mathfrak{P})_{conn}
+  \to 
+  \mathbf{B}^2 \mathbb{R}_{conn}
+$$
+
+and its truncation ([[Lie integration]])
+
+
+$$
+  \mathbf{L}
+  \;\colon\;
+  \tau_1 \exp(\mathfrak{P})_{conn}
+  \to 
+  \mathbf{B}^2 (\mathbb{R}/\Gamma)_{conn}
+  \,.
+$$
+
+This is the [[extended Lagrangian]] of a [[2d Chern-Simons theory]] ([[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models|FRS]]). Infinitesimally this yields the [[Poisson sigma-model]].
+
+We discuss here the [[higher geometric quantization]] of this [[theory (physics)|theory]] defined by $\mathbf{L}$.
+
+
 ## Constructions
 
 ### Moduli of 2d CS fields and symplectic groupoids
+
+We discuss how the [[moduli stack]] of the [[2d Chern-Simons theory]] obtained by [[Lie integration]] of the [[Poisson sigma-model]] is a [[symplectic groupoid]].
 
 Let $\mathfrak{P}$ be the [[Poisson Lie algebroid]] corresponding to a [[Poisson manifold]] that comes from a [[symplectic manifold]] $(X,\omega)$.
 
@@ -265,6 +296,11 @@ $$
 
 ### Prequantum 2-states
 
+Generally, given a [[prequantum line 2-bundle]] the corresponding (local) [[prequantum n-states]] are the (local) [[sections]] of this [[line 2-bundle]], and these in turn are equivalently the [[twisted unitary bundles]] (maybe best known for the [[WZW model]] where these are the [[Chan-Paton gauge fields]]). These 2-sections/twisted bundles form a [[2-vector space]] of prequantum 2-states. This is equivalently a [[category of modules]] over some [[associative algebra]], well defined up to [[Morita equivalence]]. A canonical way of constructing this algebra is as follows: present the [[line 2-bundle]] as a [[bundle 2-gerbe]], hence as a multiplicative [[line bundle]] over the morphisms of a [[Lie groupoid]], then the algebra is the [[groupoid algebra]] of sections of this line bundle. A module over this is manifestly a [[bundle gerbe module]], which in turn is equivalently a unitary bundle twisted by the line 2-bundle.
+
+
+More in detail:
+
 Let $\mathbf{X}$ be a smooth groupoid and $\mathbf{X} \to \mathbf{B}^2 U(1)$ the map modulating a [[circle 2-group]]-[[principal 2-bundle]] $P \to \mathbf{X}$.
 
 Let $(\coprod_n \mathbf{B}U(n))//\mathbf{B}U(1) \to \mathbf{B}^2 U(1)$ the canonical [[infinity-action|2-representation]], the sections of the [[associated infinity-bundle|associated 2-bundle]] are unitary [[twisted bundles]] equivariant on $\mathbf{X}$.
@@ -290,15 +326,15 @@ $$
 
 ### Polarizations and branes
 
-leaves of [[polarization]] of [[Poisson Lie algebroid]] are [[coisotropic submanifolds]] ([Ha](#EH), [Se](#Se)).
+leaves of [[polarization]] of [[Poisson Lie algebroid]] (see there) are [[coisotropic submanifolds]]
 
-Accordingly the [[branes]] of the [[Poisson sigma-model]] are coisotropic submanifolds (Cattaneo, Felder)
+Accordingly the [[branes]] of the [[Poisson sigma-model]] are coisotropic submanifolds ([[Cattaneo]], [[Felder]])
 
 ### Quantum 2-states
 
 Taken together, the convolution subalgebra $\mathcal{A}_q \hookrightarrow \mathcal{A}$ of polarized sections is under $\phi$ the actual 2-vector space of states.
 
-In [EH](...) it is show that for the [[geometric quantization of symplectic groupoids]], hence, as we have seen, for the 2d Chern-Simons theory associated with a Poisson manifold, this is the algebra of observables of the corresponding [[quantum mechanical system]] (its [[strict deformation quantization]]).
+In _[[geometric quantization of symplectic groupoids]]_ it is show that for the [[geometric quantization of symplectic groupoids]], hence, as we have seen, for the 2d Chern-Simons theory associated with a Poisson manifold, this is the algebra of observables of the corresponding [[quantum mechanical system]] (its [[strict deformation quantization]]).
 
 ## References
 
