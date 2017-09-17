@@ -1,16 +1,41 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-Given a [[self-adjoint operator]] (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a closed [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is
+
++-- {: .num_defn #SeriesDefinition}
+###### Definition
+
+Given a [[self-adjoint operator]] (usually first-order, such as a [[Dirac operator]] acting on [[sections]] of a [[vector bundle]] on a closed [[Riemannian manifold]]) with [[eigenvalues]] with multiplicities $\{\lambda_n\}$, then its _eta function_ is given by the [[series]]
 
 $$
   \eta(s) \coloneqq \underoverset{n = -\infty}{^\infty }{\sum} sgn(\lambda_n) \frac{1}{(\lambda_n)^s}
- \,.
 $$
+
+expression where this [[convergence|converges]], and extended by [[analytic continuation]] from there.
+
+=--
 
 If the operator is an [[elliptic differential operator]] then this is a [[holomorphic function]] in $s$ for large $\Re(s)$. One defines $\eta$ on the rest of the [[complex plane]] by [[analytic continuation]].
 
@@ -21,6 +46,7 @@ The _eta invariant_ of the operator finally is $\eta(0)$.
 The eta function may be understood as related to the [[zeta function of an elliptic differential operator]] $H$ by passing to a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root $D$ of $H$, see [below](RelationToTheZetaFunction).
 
 (Notice that if $D$ itself happens to have only positive [[eigenvalues]], then its eta function already is on the notre the [[zeta function of an elliptic differential operator]].)
+
 
 ## Properties
 
@@ -53,11 +79,25 @@ $$
   \,.
 $$
 
+### Analogy with L-series
+ {#AnalogyWithLSeries}
+
++-- {: .num_remark}
+###### Remark
+
+The series in def. \ref{SeriesDefinition} is [[analogy|analogous]] to that of a [[Dirichlet L-series]], whith the signa $sgn(-)$ playing the role of a [[Dirichlet character]].
+
+
+=--
+
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
+
 ## Related concepts
 
 * [[index of an operator]]
 
-[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
 
 ## References
 
