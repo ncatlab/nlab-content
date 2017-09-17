@@ -9,11 +9,9 @@
 =--
 =--
 
-* [[∞-Lie algebra cohomology]]
+* [[∞-Lie algebra cocycle]]
 
-* [[Chevalley-Eilenberg algebra]]
-
-* [[Weil algebra]]
+* [[Chern-Simons element]]
 
 * **invariant polynomial**
 
@@ -125,7 +123,7 @@ $$
   \,.
 $$
 
-This we call a [[Chern-Simons form|Chern-Simons element]] for $\langle -\rangle$.
+This we call a [[Chern-Simons element]] for $\langle -\rangle$.
 
 This element $cs$ will in general not sit entirely in the shifted copy. Its restriction
 
@@ -173,7 +171,7 @@ The element $\mu \in CE(\mathfrak{g})$ associated to an invariant polynomial $\l
 +-- {: .proof}
 ###### Proof
 
-The procedure tahat assigns $\mu$ to $\langle- \rangle$ is illustarted by the following diagram
+The procedure that assigns $\mu$ to $\langle- \rangle$ is illustarted by the following diagram
 
 $$
   \array{
@@ -251,7 +249,7 @@ For $X$ a [[paracompact space|paracompact]] [[smooth manifold]] with [[good open
 $$
   \mathbf{B}G = 
   \mathbf{cosk}_{n+1}((U,[k]) \mapsto \{ 
-     C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+     \Omega^\bullet_{vert}(U \times \Delta^k)
      \leftarrow
      CE(\mathfrak{g})
   \})
@@ -265,14 +263,14 @@ $$
   \mathbf{B}G_{diff} = 
   \mathbf{cosk}_{n+1}((U,[k]) \mapsto \left\{ 
     \array{
-       C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+       \Omega^\bullet_{vert}(U \times \Delta^k)
        &\leftarrow&
        CE(\mathfrak{g})
        &&& underlying \; cocycle
        \\
        \uparrow && \uparrow
        \\
-       \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^k)
+       \Omega^\bullet(U\times \Delta^k)
        &\stackrel{}{\leftarrow}&
        W(\mathfrak{g})
        &&&
@@ -282,18 +280,18 @@ $$
   \,.
 $$
 
-The diagrams on the left encode those $\mathfrak{g}$-valued forms on $U \times \Delta^k$ whose [[curvature]] vanishes on $\Delta^k$. One can show that one can always find a _genuine_ $\infty$-connection: one for which the curvatures have no leg along $\Delta^k$, in that they land in $\Omega^\bullet(U) \otimes C^\infty(\Delta^k)$. For tose the above diagram extends to
+The diagrams on the left encode those $\mathfrak{g}$-valued forms on $U \times \Delta^k$ whose [[curvature]] vanishes on $\Delta^k$. One can show that one can always find a _genuine_ $\infty$-connection: one for which the curvatures have no leg along $\Delta^k$, in that they land in $\Omega^\bullet(U) \otimes C^\infty(\Delta^k)$. For those the above diagram extends to
 
 $$
   \array{
-     C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+     \Omega^\bullet(U \times \Delta^k)_{vert}
      &\leftarrow&
      CE(\mathfrak{g})
      &&& underlying \; cocycle
      \\
      \uparrow && \uparrow
      \\
-     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^k)
+     \Omega^\bullet(U\times \Delta^k)
      &\stackrel{}{\leftarrow}&
      W(\mathfrak{g})
      &&&
@@ -301,19 +299,22 @@ $$
      \\
      \uparrow && \uparrow
      \\
-     \Omega^\bullet(U) \otimes C^\infty(\Delta^k)
+     \Omega^\bullet(U)
      &\leftarrow&
      inv(\mathfrak{g})
      &&&
      curvature
    }
+  \,.
 $$ 
+
+This defines the [[simplicial presheaf]] that classifies [[connections on ∞-bundles]].
 
 By [[pasting]]-postcomposition with the above diagrams for an invariant polynomial we obtain connections with values in $b^n \mathbb{R}$
 
 $$
   \array{
-     C^\infty(U)\otimes \Omega^\bullet(\Delta^k)
+     \Omega^\bullet_{vert}(U \times \Delta^k)
      &\leftarrow&
      CE(\mathfrak{g})
      &\stackrel{\mu}{\leftarrow}&
@@ -322,7 +323,7 @@ $$
      \\
      \uparrow && \uparrow && \uparrow
      \\
-     \Omega^\bullet(U)\otimes \Omega^\bullet(\Delta^k)
+     \Omega^\bullet(U\times \Delta^k)
      &\stackrel{}{\leftarrow}&
      W(\mathfrak{g})
      &\stackrel{(cs,\langle- \rangle)}{\leftarrow}&
@@ -332,7 +333,7 @@ $$
      \\
      \uparrow && \uparrow && \uparrow
      \\
-     \Omega^\bullet(U) \otimes C^\infty(\Delta^k)
+     \Omega^\bullet(U)
      &\leftarrow&
      inv(\mathfrak{g})
      &\stackrel{\langle -\rangle}{\leftarrow}&
@@ -345,24 +346,59 @@ $$
 
 where in the bottom row we have the [[curvature characteristic forms]] $\langle F_\nabla\rangle$ coresponding to the connection, and in the middle the corresponding [[Chern-Simons forms]].
 
-More details for the moment at [[schreiber:differential cohomology in an (∞,1)-topos -- examples]].
+More details for the moment at [[∞-Chern-Weil theory introduction]].
 
 
 ## Examples
 
-### On Lie algebras 
+### On Lie algebras {#OnLieAlgebras}
 
-For $\mathfrak{a} = \mathfrak{g}$ an ordinary [[Lie algebra]], the above reproduces the ordinary definition of invariant polynomials on Lie algebras.
 
-For instance for $\mathfrak{g}$ a semisimple Lie algebra with Killing form $P = \langle -,-\rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{R}$, this form regarded as a element (of degree 4) in $\mathfrak{g}[1]^* \wedge \mathfrak{g}[1]^*$ is an invariant polynomial:
++-- {: .un_lemma}
+###### Observation
 
-* the fact that it is an element in $\wedge^2 \mathfrak{g}[1]^*$ is precisely the fact that $\langle -,-\rangle$ is bilinear and symmetric;
+For $\mathfrak{g}$ a [[Lie algebra]], this definition of invariant polynomials is equivalent to more traditional ones.
 
-* the fact that it is closed under $d_{W(\mathfrak{g})}$ is precisely the statement that it is invariant.
+=--
+
++-- {: .proof}
+###### Proof
+
+To see this explicitly, let $\{t^a\}$ be a basis of $\mathfrak{g}^*$ and $\{r^a\}$ the corresponding basis of $\mathfrak{g}^*[1]$. Write $\{C^a{}_{b c}\}$ for the structure constants of the Lie bracket in this basis. 
+
+Then for $P = P_{(a_1 , \cdots , a_k)} r^{a_1} \wedge \cdots \wedge r^{a_k} \in \wedge^{r} \mathfrak{g}^*[1]$ an element in the shifted generators, the condition that it is $d_{W(\mathfrak{g})}$-closed is equivalent to
+
+$$
+  C^{b}_{c (a_1} P_{b, \cdots, a_k)} t^c \wedge r^{a_1} \wedge \cdots \wedge r^{a_k}
+  \,,
+$$
+
+where the parentheses around indices denotes symmetrization, as usual, so that this is equivalent to
+
+$$
+  \sum_{i} C^{b}_{c (a_i} P_{a_1 \cdots a_{i-1} b a_{i+1} \cdots, a_k)}
+  = 0
+$$ 
+
+
+for all choice of indices. This is the component-version of the familiar invariance statement 
+
+$$
+  \sum_i P(t_1, \cdots, t_{i-1}, [t_c, t_i], t_{i+1}, \cdots , t_k)
+  = 0
+$$
+
+for all $t_\bullet \in  \mathfrak{g}$.
+
+
+=--
+
 
 ### On semisimple Lie algebras {#SemisimpLie}
 
-See [[Killing form]].
+See [[Killing form]], [[string Lie 2-algebra]].
+
+
 
 ### On tangent Lie algebroids
 
