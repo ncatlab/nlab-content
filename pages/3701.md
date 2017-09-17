@@ -10,9 +10,15 @@ This page gives an elementary description of the [[locale]] of [[real numbers]],
 The exposition here is pretty much [[Toby Bartels|my]] own work, although of course the basic ideas are well known to many.  In particular, the technical zigzag lemma is mine (but it is not a very deep result!).
 
 
+## Idea
+{#idea}
+
+To describe the local of the real numbers, we need first of all to describe what an open in the real line is.  The key insight is that an open set is determined by the open intervals of [[rational numbers]] that it contains.  This is analogous to the key insight of [[Richard Dedekind]]\'s definition of [[real number]]: that a point in the real line is determined by which open intervals of rational numbers that it belongs to.  (Once you\'re talking about rational numbers, things are manageable.)
+
+
 ## Opens
 
-An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational number]]s that satisfies the three properties listed below.  Intuitively, we have $a \sim b$ iff the open [[interval]] $(a,b)$ is contained in the corresponding [[open subspace|open set]].
+An __open__ in the real line is a [[binary relation]] ${\sim}$ on the [[rational numbers]] that satisfies the three properties listed below.  Intuitively, we have $a \sim b$ iff the open [[interval]] $(a,b)$ is contained in the corresponding [[open subspace|open set]].
 
 1. If $a \geq b$, then $a \sim b$.
 2. If $a \geq b \sim c \geq d$, then $a \sim d$.
@@ -119,7 +125,9 @@ Every open cover of the unit interval has a finite subcover.
 +-- {: .proof}
 ###### Proof
 
-The proof is almost embarrassingly simple.  Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathcal{C}$.  If this equals $\mathbb{R}$, then in particular $(-1,2) \subseteq J$, a fact which is given by some zigzag $\zeta$.  This zigzag involves only finitely many of the elements of $\mathcal{C}$; let $\mathcal{D}$ be the collection of these, and let $K$ be the join of $(-\infty,0)$, $(1,\infty)$, and $\mathcal{D}$.  Now if $(a,b)$ is any pair of rational numbers, we construct a zigzag showing that $(a,b) \subseteq K$ as follows: the zig $(a,0) \subseteq (-\infty,0)$, the zag $0 \gt -1$, the zigzag $\zeta$ from $-1$ to $2$, the zag $2 \gt 1$, and the zig $(1,b) \subseteq (1,\infty)$.  This is always a valid zigzag, so $K = \mathbb{R}$.  Therefore, the finite collection $\mathcal{D}$ covers the unit interval.
+The proof is almost embarrassingly simple.  The key point is that the construction of joins in terms of zigzags involves only finite zigzags, even for an infinitary join.
+
+Let $J$ be the join of $(-\infty,0)$, $(1,\infty)$, and the elements of $\mathcal{C}$.  If this equals $\mathbb{R}$, then in particular $(-1,2) \subseteq J$, a fact which is given by some zigzag $\zeta$.  This zigzag involves only finitely many of the elements of $\mathcal{C}$; let $\mathcal{D}$ be the collection of these, and let $K$ be the join of $(-\infty,0)$, $(1,\infty)$, and $\mathcal{D}$.  Now if $(a,b)$ is any pair of rational numbers, we construct a zigzag showing that $(a,b) \subseteq K$ as follows: the zig $(a,0) \subseteq (-\infty,0)$, the zag $0 \gt -1$, the zigzag $\zeta$ from $-1$ to $2$, the zag $2 \gt 1$, and the zig $(1,b) \subseteq (1,\infty)$.  This is always a valid zigzag, so $K = \mathbb{R}$.  Therefore, the finite collection $\mathcal{D}$ covers the unit interval.
 =--
 
 This proof generalises immediately to any closed interval $[a,b]$, for $a$ any upper real and $b$ any lower real.  But note that we do not say 'extended' here; we need to find some rational number (analogous to $-1$ in the proof above) smaller than $a$ and some rational number (analogous to $2$ above) larger than $b$.  So the Heine--Borel theorem applies only to *bounded* closed intervals.
