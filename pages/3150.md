@@ -6,3 +6,4 @@ Given a commutative [[field]] $k$, a **noncommutative thin $k$-scheme** (in the 
 
 * [blog entry](http://matrix.cmi.ua.ac.be/fun/index.php/noncommutative-f_un-geometry-2.html)
 
+category: algebraic geometry, noncommutative geometry
