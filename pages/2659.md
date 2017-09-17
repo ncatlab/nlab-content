@@ -200,6 +200,9 @@ where the superscript on the right denotes restriction to semistable Higgs bundl
 
 A generalization of the nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) to [[twisted bundles]] in discussed in ([Raboso 14](#Raboso14)).
 
+## Relation to geometric Langlands
+
+Nonabelian Hodge theory is closely related to the [[geometric Langlands correspondence]]. 
 
 ## Related concepts
 
@@ -209,12 +212,16 @@ A generalization of the nonabelian Hodge theorem of ([Simpson 92](#Simpson92)) t
 
 ## References
 
+Lecture notes on [[geometric Langlands duality]] and nonabelian Hodge theory include
+
+* [[Ron Donagi]], [[Tony Pantev]], _Lectures on the geometric Langlands
+conjecture and non-abelian Hodge theory_, 2009 ([pdf](http://www.icmat.es/seminarios/langlands/school/handouts/pantev.pdf))
+
 Corlette's nonabelian Hodge theorem is in
 
 * {#Corlette88} K. Corlette, _Flat $G$-bundles with canonical metric_ J. Diff Geometry 28 (1988)
  
-
-Work by [[Carlos Simpson]]:
+Work by [[Carlos Simpson]] on nonabelian Hodge theory includes
 
 * {#Simpson92} [[Carlos Simpson]], _Higgs bundles and local systems_, Inst. Hautes Etudes Sci. Publ. Math. (1992), no. 75, 5{95. MR 1179076 (94d:32027) ([numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0))
 
