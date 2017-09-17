@@ -12,6 +12,8 @@ There are many additional structures on monoidal categories (see the article by 
 
 * in monoidal categories which are _[[spherical category|spherical]]_ all strings behave as if drawn on a sphere.
 
+* one can also describe [[monoidal functors]] in several ways; see for instance [these slides](http://web.science.mq.edu.au/~mmccurdy/cms2010talk.pdf).
+
 * etc.
 
 Many operations in monoidal categories that look rather unenlightening in symbols become very obvious in string diagram calculus, such as the [[trace]]: an output wire gets bent around and connects to an input.
