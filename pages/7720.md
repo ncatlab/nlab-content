@@ -47,12 +47,13 @@ $$
 
 ## Related concepts
 
-
 * [[Calabi-Yau object]]
 
   * [[Calabi-Yau algebra]], [[Calabi-Yau manifold]], **generalized Calabi-Yau manifold**
 
 * [[supersymmetry and Calabi-Yau manifolds]]
+
+* [[generalized G2-manifold]]
 
 ## References
 
