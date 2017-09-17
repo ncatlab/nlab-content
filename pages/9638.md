@@ -11,6 +11,8 @@ Specifically, _topological quantum computation_ is (or is meant to be) quantum c
 
 ## Related entries
 
+* [[Shor's algorithm]]
+
 * [[quantum information theory]]
 
 * [[quantum Hall effect]], [[Chern-Simons theory]].
@@ -24,6 +26,11 @@ Specifically, _topological quantum computation_ is (or is meant to be) quantum c
 * Wikipedia, _[Quantum computation](http://en.wikipedia.org/wiki/Quantum_computation)_
 * John C. Baez, Mike Stay, _Physics, topology, logic and computation: a rosetta stone_, [arxiv/0903.0340](http://arxiv.org/abs/0903.0340); in "New Structures for Physics", ed. Bob Coecke, Lecture Notes in Physics __813__, Springer, Berlin, 2011, pp. 95-174
 * Michael A. Nielsen, Isaac L. Chuang, _Quantum computation and quantum information_, Cambridge University Press 2000
+
+Discussion of aspects of quantum computing in terms of [[monad (in computer science)|monads]] in [[functional programming]] are in 
+
+* [[Thorsten Altenkirch]], Alexander Green, _The quantum IO monad_, in _Semantic Techniques in Quantum Computation_, January 2009, appeared in 2010 ([pdf](http://www.cs.nott.ac.uk/~txa/publ/qio-chapter.pdf), [talk slides](http://www.cs.nott.ac.uk/~txa/talks/qnet06.pdf))
+
 
 category: computer science, physics
 [[!redirects quantum computing]]
