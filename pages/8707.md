@@ -68,9 +68,14 @@ By adding to [[homotopy type theory]] three (higher) modalities that encode [[di
 
 * [[closure operator]]
 
+* [[idempotent monad]], [[idempotent (∞,1)-monad]]
+
+* [[modal type]], [[anti-modal type]]
+
 * [[modal homotopy type theory]]
 
 * [[geometric type theory]]
+
 
 
 
