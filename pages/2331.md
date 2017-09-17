@@ -191,12 +191,15 @@ The Kontsevich and Soibelman references below are also good.
 
 ## Related entries 
 
+* [[Kuranishi deformation theory]]
 
 * [[tangent complex]], [[André-Quillen cohomology]], [[Hochschild cohomology]]
 
 * [[cotangent complex]], [[André-Quillen homology]], [[Hochschild homology]]
 
 [[derived algebraic geometry]], [[formal scheme]], [[formal smoothness]]
+
+
 
 ## References
 
