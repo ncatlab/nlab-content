@@ -1,15 +1,14 @@
-#Contents#
+
+# Contents
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
-
+## Idea
 
 Given a [[group]] $G$ with subgroup $H \hookrightarrow G$ and a [[representation]] of $H$, there is canonically induced a representation of $G$: the _induced representation_.
 
 
-#Explanation#
-
+## Explanation
 
 We start with a Lie group $G$ acting smoothly and transitively on a smooth [[manifold]] $M$.  The stabilizer of your favorite point $x \in M$ will be a Lie subgroup $H \subseteq G$, and we have
 
@@ -84,8 +83,7 @@ which is called the <b>induced representation</b> trick.
 
 
 
-#Detailed description#
-
+## Detailed description
 
 Given a [[group]] $G$ with a subgroup $H$, and a [[representation]] $s$ of $H$ on a vector space $V$, we define a left [[action]] of $H$ on the [[product]] $G\times V$ by $h\cdot (g, v) = (g h^{-1}, s(h)v)$.  We write $[(g,v)]$ for the orbit, or equivalence class, that contains $(g,v)$.
 
@@ -117,7 +115,8 @@ We get a representation $r$ of $G$ on the vector space $\Gamma(E)$ of sections o
 
 $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 
-##Unitarity##
+
+### Unitarity
 
 +-- {: .standout}
 Beware! The chain of reasoning in this subsection is not complete, and I'm not confident that it's entirely correct. I'm posting it half-finished in the hope that many hands will make lighter (and more accurate) work.
@@ -157,8 +156,8 @@ $$= \int \lang \lang f(x), f'(x) \rang \rang \; d\mu(x)$$
 But where do we get a $G$-invariant measure on $G/H$?
 =--
 
-#Adjoint of induced bundle construction#
 
+## Adjoint of induced bundle construction
 
 The induced bundle construction described above is a functor that takes representations of the stabilizer subgroup $H$ to $G$-equivariant vector bundles over $M$:
 
@@ -249,13 +248,15 @@ $$h\cdot f^*(w) = [(h,v)] = [(e,s(h)v)]$$
 
 $$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
-#Related issues#
+
+## Related issues
 
 [[Bill Lawvere]] noted a structural similarity between induced representations and [[quantification]]. See blog [discussion](http://golem.ph.utexas.edu/category/2007/10/concrete_groups_and_axiomatic.html#c012917).
 
 If the modules over a group are considered as comodules over the function Hopf algebra over the group, then one can instead consider the induction for comodules. See [[cotensor product]]. 
 
-#References#
+
+## References
 
 This blog entry contains related discussion:
 
@@ -266,3 +267,7 @@ The above text is taken from these comments
 * Greg Egan _[Induced representations](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023252)_
 
 * John Baez _[Reply](http://golem.ph.utexas.edu/category/2009/03/unitary_representations_of_the.html#c023258)_
+
+
+[[!redirects induced representation]]
+[[!redirects induced representations]]
