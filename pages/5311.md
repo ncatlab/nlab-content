@@ -28,7 +28,7 @@ to $P$ to get $Q$, and passing the smallest [[intermediate subfield]] between $K
 More generally still, one may refer to roots even of non-polynomial [[functions]] $f$ defined on a field, for example of [[meromorphic functions]] $f \colon \mathbb{C} \to \mathbb{C}$, although it is much more usual to speak of _zeroes_ of $f$ instead of roots of $f$ (e.g., zeroes of the [[Riemann zeta function]]); see [[zero set]] and [[intermediate value theorem]]. 
 
 
-## Roots of unity in fields 
+## Roots of unity in fields {#rootsunity}
 
 In a [[field]] $k$, a [[torsion subgroup|torsion]] element of the multiplicative group $k^\ast$ is a root of unity by definition. Moreover we have the following useful result. 
 
