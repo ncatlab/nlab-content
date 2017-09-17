@@ -1,0 +1,10 @@
+
+## Idea
+
+A _Hamiltonian action_ of a [[Lie group]] $G$ on a [[symplectic manifold]] is an [[action]] by [[Hamiltonian symplectomorphisms]].
+
+## Related concepts
+
+* [[moment map]]
+
+[[!redirects Hamiltonian actions]]
