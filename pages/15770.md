@@ -1,0 +1,27 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[moduli space]] of [[framed manifolds]]
+
+## Related concepts
+
+* [[moduli space of complex structures]]
+
+* [[cobordism category]], [[cobordism hypothesis]]
+
+
+## References
+
+### General
+
+* Schumacher, Tsuji, section 8 of _Quasi-projectivity of moduli spaces of polarized varieties_ [pdf](http://annals.math.princeton.edu/wp-content/uploads/annals-v159-n2-p03.pdf)
+
+### Moduli space of framed surfaces
+
+*  [[Oscar Randal-Williams]], _Homology of the moduli spaces and mapping class groups of framed, r-Spin and Pin surfaces_ ([arXiv:1001.5366](http://arxiv.org/abs/1001.5366))
+
+[[!redirects moduli space of framed surfaces]]
