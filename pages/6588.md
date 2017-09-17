@@ -33,6 +33,7 @@ $$
   \,.
 $$
 
+
 ### In symplectic geometry
  {#InSymplecticGeometry}
 
@@ -42,7 +43,36 @@ A special case of the above definition is that where $(V,\omega)$ a [[symplectic
 
 In this case the Heisenberg algebra is a sub-Lie algebra of the Lie algebra underlying the [[Poisson algebra]] of $(V,\omega)$. For more on this see [below](#RelationToPoissonAlgebra).
 
+### In $n$-plectic geometry
+ {#InnplecticGeometry}
+
+We discuss a generalization of the notion of Heisenberg Lie algebra from ordinary [[symplectic geometry]] to [[n-plectic geometry]]. For the moment, this is a bit experimental.
+
++-- {: .num_defn}
+###### Definition
+
+For $n \in \mathbb{N}$, let $(V, \omega)$ be an [[n-plectic vector space]]. This canonically induces the structure of an [[n-plectic manifold]] on $V$ by defining the $n$-plectic [[differential form]] $\mathbf{\omega} \in \Omega^{n+2}(V)$ by translation of $\omega$ from the origin:
+
+for all [[vector fields]] $\{v_i \in \Gamma(T V)}_{i = 1}^n$ and all points $x \in V$ we set
+
+$$
+  \mathbf{omega}_x(v_1, \cdots, v_n)
+  :=
+  \omega(v_1(x), \cdots, v_n(x))
+  \,.
+$$
+
+Here on the right we are using that every [[tangent space]] $T_x V$ of $V$ is canonically identified with $V$ itself.
+
+Then ...
+
+
+
+=--
+
+
 ## Properties
+
 
 ### Relation to Poisson algebra
  {#RelationToPoissonAlgebra}
