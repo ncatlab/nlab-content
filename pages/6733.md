@@ -230,8 +230,22 @@ This condition reduces to the above one for the $B$-field under [[double dimensi
 
 ## References
 
-### Worldvolume theory
+A review of some aspects is in 
 
+* [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
+
+
+### $\sigma$-Model description
+
+[[sigma-model|Sigma model]] description of the M5-brane are discussed for [[Green-Schwarz action functional]]-type setups in
+
+* Igor Bandos, Kurt Lechner, Alexei Nurmagambetov, Paolo Pasti, Dmitri Sorokin, Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_ ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+
+* Mina Aganagic, Jaemo Park, Costin Popescu, [[John Schwarz]], _World-Volume Action of the M Theory Five-Brane_ ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+
+* Dmitri Sorokin, _Superbranes and Superembeddings_ ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
+
+### Worldvolume theory
 
 The original article suggesting the description of the [[self-dual higher gauge theory]] on the 5-brane [[holographic principle|holographically]] by a dual [[higher dimensional Chern-Simons theory]] is
 
@@ -249,19 +263,6 @@ A discussion that embeds this argument into the larger context of [[AdS-CFT dual
  {#Witten98}
 
 See also the references at _[[6d (2,0)-supersymmetric QFT]]_.
-
-
-### $\sigma$-Model description
-
-* Dmitri Sorokin, _Superbranes and Superembeddings_ ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
-
-
-
-### Surveys
-
-A review of some aspects is in 
-
-* [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
 
 
 ### Sugra solutions
