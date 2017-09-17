@@ -1,3 +1,3 @@
-Aku menangis lagi.
- <a href="http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1285" >Nike Air Max 2014 black uk</a>
-[url=http://www.spiritualpsychology.co.uk/UKairmax.asp?airmaxonlinestore=1285]Nike Air Max 2014 black uk[/url]
+Akhirnya teriakkan aku memecah kesunyian.  Aku meraung sekuat hati. Tangan ku gengam sekuat hati.  Tanpa ku sedar kini aku tidak mampu bergerak lagi. Sehinggakan mereka terpaksa menenangkan aku dengan pelukan.  Aku rasa yang mereka keluarkan memang betul-betul tak masuk akal.  Inilah yang kami nak.
+ <a href="http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2183" >nike air Jordan 7 gold</a>
+[url=http://www.villas-morocco.com/Onlinebrandsale.asp?US-NikeJordanOnline=2183]nike air Jordan 7 gold[/url]
