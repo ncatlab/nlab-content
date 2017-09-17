@@ -32,7 +32,7 @@ In particular, the Yoneda lemma for bicategories implies that there is a [[Yoned
 
 ## Proof
 
-A detailed proof of the bicategorical Yoneda lemma seems to be hard to find in the liturature.  (Anyone have references to add?)
+A detailed proof of the bicategorical Yoneda lemma seems to be hard to find in the literature.  (Anyone have references to add?)
 
 ### Explicit proof
 
