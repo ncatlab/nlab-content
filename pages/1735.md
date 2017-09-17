@@ -19,7 +19,7 @@ Opetopes are one of the [[geometric shapes for higher structures|geometric shape
 
 An overview is in [chapter 4](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf#page=63) of 
 
-* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illistrated guidebook_ ([pdf](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
+* [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illustrated guidebook_ ([pdf](http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
 
 and in chapter 7 of 
 
