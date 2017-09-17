@@ -36,6 +36,8 @@ If the original space is [[paracompact space|paracompact]] Hausdorff, then every
 
 * [[orbit category]]
 
+* [[coinvariant]]
+
 ### Orbit method
 
 The __[[orbit method]]__ is a method in [[representation theory]] introduced by Kirillov, Kostant and Souriau; it is a special case of [[geometric quantization]].  The orbit method is based on the study of the [[representations]] constructed from the [[coadjoint orbits]] with Kirillov symplectic structure. The terminology 'geometric quantization' allows for more general underlying spaces.
