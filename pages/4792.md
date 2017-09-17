@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Octonions
 * table of contents
 {: toc}
@@ -12,6 +22,10 @@ The __octonions__ form the largest of the four [[normed division algebra]]s, den
 The octonions are _not_ an [[associative algebra]].
 
 The [[automorphism group]] of the octonions is [[G2]].
+
+## Related concepts
+
+* [[associative 3-form]]
 
 ## References
 
