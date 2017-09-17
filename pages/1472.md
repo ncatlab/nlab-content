@@ -27,7 +27,7 @@ This entry discusses fundamental physics from the [[nPOV]].
 
 ## The basic structures {#BasicStructures}
 
-We discuss the context for fundamental physics. 
+We discuss the setting in which fundamental physics takes place. 
 
 ### Dynamics in space {#Fundamentals}
 
