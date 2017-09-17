@@ -1736,10 +1736,11 @@ After discussing some generalities of these higher unitary-twisted connected cov
 
 Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory, following ([Freed](#Freed)). We add some stacky aspects to that and explain why.
 
+> under construction -- check again later
 
-Gauge theory starts maybe with Maxwell aroung 1850, who discovered, in modern language, that the [[field strength]] of the [[electromagnetic field]] on [[spacetime]] is encoded in a closed [[differential form|differential 2-form]] $F \in \Omega^2_{cl}(X)$.
+Gauge theory starts maybe with Maxwell around 1850, who discovered, in modern language, that the [[field strength]] of the [[electromagnetic field]] on [[spacetime]] is encoded in a closed [[differential form|differential 2-form]] $F \in \Omega^2_{cl}(X)$.
 
-Then in the 1930s Dirac's [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- in the absence of, or outside of the [[support of]] [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
+Then in the 1930s Dirac's [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- in the absence of, or outside of the [[support]] of [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
 
 The [[Maxwell equations]] that the electromagnetic field has to satisfy are
 
@@ -1747,20 +1748,18 @@ The [[Maxwell equations]] that the electromagnetic field has to satisfy are
 
 1. $d_{dR} \star F = J_{el}$ ([[electric charge]] [[current]])
 
-where "$\star$" is the [[Hodge star operator]] for the given [[pseudo-Riemannian metric|pseudo]] [[Riemannian metric]] (the field of [[gravity]]) on $X$.
+where $\star$ is the [[Hodge star operator]] for the given [[pseudo-Riemannian metric|pseudo]] [[Riemannian metric]] (the field of [[gravity]]) on $X$.
 
-The first one equation the _kinematic_ constraint. For $J_{mag} = 0$ it just expresses part of the fact that $\hat F$ is a differential cocycle, so it is satisfied by all kinematic field configurations, meaning: by all points in the off-shell [[moduli stack]] $[X, \mathbf{B}U(1)_{conn}]$. 
+The first one equation the _kinematic_ constraint. For $J_{mag} = 0$ it just expresses that the cuvature 2-form is closed, which is part of the fact that $\hat F$ is a differential cocycle, so it is satisfied by all kinematic field configurations, meaning: by all points in the off-shell [[moduli stack]] $[X, \mathbf{B}U(1)_{conn}]$. 
 
 The second is _dynamics_, being the [[equations of motion]] of the system. The configurations that satisfy this form the [[covariant phase space]]
-$P \hookrightarrow [X, \mathbf{B}U(1)_{conn}]$ of the theory. For our purposes here this will not concern us.
+$P \hookrightarrow [X, \mathbf{B}U(1)_{conn}]$ of the theory. For our purposes here this will not concern us, we work "off-shell".
 
 While for phenomenologically observed electromagnetism it is consistent to assume that $J_{mag} = 0$, this is not the case for general theories, notably not for [[heterotic supergravity]], as we discuss in a moment. There, 
 
 * $J^{NS5}_{mag} = \langle F_\omega \wedge F_\omega\rangle -\langle F_A \wedge F_A\rangle$
 
 is non-vanishing. So one needs to find another way to refine $d F  = J_{mag}$ to differential cohomology.
-
-The following observation for how Dirac's famous argument is improved so that the [[support]] of the [[magnetic current]] has not to be removed from the discussion is due to ([Freed](#Freed)).
 
 Consider not just the _set_ 
 
@@ -1777,7 +1776,7 @@ $$
 
 whose 
 
-* [[objects]] are [[cocycles]] in degree-$(n+1)$ differential cohomology: [[circle n-group]]-[[principal n-bundles with connection]];
+* [[objects]] are [[cocycles]] in degree-$(n+1)$ differential cohomology: [[circle n-group]]-[[circle n-bundles with connection]];
 
 * [[morphisms]] are equivalence classes of [[gauge transformations]] between these.
 
@@ -1789,7 +1788,7 @@ $$
   0 \to \hat F
 $$
 
-in $\mathcal{H}^{n+1}_{diff}$ is a _flat section_ of the corresponding circle $n$-bundle, while a morphim
+in $\mathcal{H}^{n+1}_{diff}(X)$ is a _flat section_ of the corresponding circle $n$-bundle, while a morphim
 
 $$
   \omega \to \hat F
@@ -1809,16 +1808,21 @@ $$
   = 
   ((\delta g)_{i j k}, A_j - A_i + d_{dR} log g_{i j}, d_{dR} A_i)
   = 
-  ( \lambda_{i j k}, \alpha_{i j}, \beta_i + c_{mag} )
+  ( c_{i j k}^{-1}, -\gamma_{i j},  c_{mag} - \beta_i )
 $$
 
-so with $F \coloneqq d A_i + \beta_i = c_{mag}$ the twisted curvature, we have the first Maxwell equation
+so with 
+
+$$
+  F \coloneqq d A_i + \beta_i = c_{mag}
+$$ 
+
+the twisted curvature, we have the first [[Maxwell equation]]
 
 $$
   d_{dR} F = J_{mag}
   \,.
 $$
-
 
 But what is then a gauge transformation? Clearly, for this we need the 2-groupoid of differential cocycles
 
@@ -1833,7 +1837,7 @@ $$
   \array{
     & \nearrow \searrow^{\mathrlap{\hat F_1}}
     \\
-    \hat \matbf{c} &\Downarrow^{\hat \alpha}& J_{mag}
+    \hat \mathbf{c} &\Downarrow^{\hat \alpha}& J_{mag}
     \\
     & \searrow \nearrow_{\mathrlap{\hat F_2}}
   }
@@ -1850,6 +1854,25 @@ We also need a parameterized (notably: smoothly parameterized) refinement, for t
 1. We need the [[BRST complex]] of the gauge fields. Claim: for ordinary gauge theory this is the [[Lie algebroid]] of the smooth version $[X, \mathbf{B}G_{conn}]$. Similarly for higher gauge theory it is the [[L-infinity algebroid]].
 
 1. We need to consider the following "in families", hence as stacks (...).
+
+Let $G^{bg}$ be the gauge group of a [[background gauge field]], let $[X, \mathbf{B}G^{bg}_{conn}]$ be its moduli stack of field configurations, and let
+
+$$
+  \hat \mathbf{c} : \mathbf{B}G^{bg}_{conn}] \to \mathbf{B}^2 U(1)_{conn}
+$$
+
+be the above $\hat \mathbf{c}$, now depending on the background gauge field configurations. Then a twisted gauge field is now
+
+$$
+  \array{
+    X &\stackrel{\phi_{bg}}{\to}& \mathbf{B}G^{bg}_{conn}
+    \\
+    \downarrow &\swArrow_{\hat F}& \downarrow^{\mathrlap{\hat \mathbf{c}}}
+    \\
+    \Omega^2(-) &\stackrel{}{\to}& \mathbf{B}^2 U(1)_{conn}
+  }
+$$
+
 
 Next, to quantize we need the [[action functional]]. The kinetic piece is simply $\exp(i S_{kin}(\hat F)) = \exp(i \int_X F \wedge \ast F)$.
 
