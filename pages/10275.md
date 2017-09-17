@@ -1,0 +1,22 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[spacetime]] in [[supergeometry]], used in some formulations of [[supergravity]] (see at [[D'Auria-Fre formulation of supergravity]]) and as [[target space]] for super-$p$-brane [[sigma-models]] (see at [[Green-Schwarz action functional]]).
+
+## Examples
+
+* [[super Minkowski spacetime]]
+
+[[!redirects super spacetimes]]
+
+[[!redirects super-spacetime]]
+[[!redirects super-spacetimes]]
+
+[[!redirects superspacetime]]
+[[!redirects superspacetimes]]
+
+
