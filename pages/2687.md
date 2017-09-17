@@ -1,7 +1,7 @@
 
 **[[model category]]**
 
-## definition ##
+## Definitions ##
 
 * [[category with weak equivalences]]
 
@@ -13,7 +13,9 @@
 
 * [[small object argument]]
 
-## morphisms ##
+* [[resolution]]
+
+## Morphisms ##
 
 * [[Quillen adjunction]]
   
@@ -23,7 +25,7 @@
 
   * [[derived functor]]
 
-## universal constructions ##
+## Universal constructions ##
 
 * [[homotopy Kan extension]]
 
@@ -32,7 +34,7 @@
  * [[Bousfield-Kan map]]
 
 
-## refinements ##
+## Refinements ##
 
 * [[monoidal model category]]
 
@@ -50,7 +52,7 @@
 
 * [[stable model category]]
 
-## producing new model structures
+## Producing new model structures
 
 
 * [[global model structures on functor categories|on functor categories (global)]]
@@ -65,7 +67,7 @@
 
   * [[model structure on algebraic fibrant objects]]
 
-## presentation of $(\infty,1)$-categories ##
+## Presentation of $(\infty,1)$-categories ##
 
 * [[(∞,1)-category]]
 
@@ -75,7 +77,7 @@
 
 * [[presentable (∞,1)-category]]
 
-## model structures ##
+## Model structures ##
 
 * [[Cisinski model structure]]
 
