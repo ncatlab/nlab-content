@@ -43,24 +43,11 @@ As before, let $C$ be a category and $X,Y\in C$.
 
 * If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__ (or *powerful*, cf. Street-Verity [pdf](http://www.emis.de/journals/TAC/volumes/23/3/23-03.pdf)).  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable.
 
-* More generally, a morphism $f\colon Y \to A$ is __exponentiable__ (or *powerful*) when it is exponentiable in the [[over category]] $C/A$.  This is equivalent to saying that the [[base change]] functor $f^*$ has a [[right adjoint]], usually denoted $\Pi_f$ and called a [[dependent product]].  In particular, $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ iff every morphism is exponentiable.
+* More generally, a morphism $f\colon Y \to A$ is __exponentiable__ (or *powerful*) when it is exponentiable in the [[over category]] $C/A$.  This is equivalent to saying that the [[base change]] functor $f^*$ has a [[right adjoint]], usually denoted $\Pi_f$ and called a [[dependent product]].  In particular, $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ iff every morphism is exponentiable, iff all pullback functors have right adjoints.
 
 * Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.  (The reader should beware that some authors say "exponentiable" for what is here called "exponentiating.")
 
-Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).
-
-+--{: .query}
-_David_: How should entries involving the cocartesian property be organised? How many of the eight possibilities (co)cartesian (co)monoidal (co)closed are worth mentioning? Sixteen with (co)category?
-
-_Toby_:  Potentially all of them, but in practice only the ones that come up.  This one only came up since I wanted to say what a coexponential object was and (in context) it was natural to ask what is a category that has all of these.  But that doesn\'t mean that anybody actually has to create the page, much less the others.  On the other hand, if there\'s something interesting to say about them, then we should have them!
-
-[[Mike Shulman|Mike]]: One place where coexponential objects occur naturally is in algebraic categories whose opposites are viewed as categories of spaces.  So for instance [[ring]]s, or [[frame]]s, or the categories of [[locus|loci]] used in [[synthetic differential geometry]], have some interesting coexponential objects (although none of them is actually cocartesian coclosed).
-
-There is no difference between monoidal and comonoidal (there is a bijection between monoidal structures on $C$ and on $C^{op}$), so your eight possibilities are really only four.  And there aren't many cocartesian closed (or cartesian coclosed) categories; that would mean you have an object $[Y,X]$ and an isomorphism
-$$C(Z,[Y,X]) \cong C(Z\sqcup Y, X) \cong C(Z,X) \times C(Y,X)$$
-Taking $Z$ to be the initial object, we see that $C(Y,X)\cong *$ for any objects $X,Y$.  So the only cocartesian closed categories are [[(-1)-category|(-1)-categories]].
-=--
-
+Dually, a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian coclosed category]]__ has all of these (and an [[initial object]]).  Some coexponential objects occur naturally in algebraic categories (such as [[rings]] or [[frames]]) whose opposites are viewed as categories of spaces (such as [[schemes]] or [[locales]]).  Cf. also [[cocartesian closed category]].
 
 ## Examples 
 
