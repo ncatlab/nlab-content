@@ -468,7 +468,19 @@ where
 
 ## Related concepts
 
-[[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]]
+[[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]] $\hookrightarrow$ [[general linear group]]
+
+
+* [[spin group]], [[spin structure]], [[twisted spin structure]]
+
+* [[spin^c]], [[spin^c structure]], [[twisted spin^c structure]]
+
+* [[string group]], [[string 2-group]], [[string structure]], [[twisted string structure]]
+
+* [[string^c 2-group]]
+
+* [[fivebrane group]], [[fivebrane 6-group]]
+
 
 
 ## References
@@ -510,7 +522,7 @@ A construction explicitly in terms of the "basic" [[bundle gerbe]] on $G$ is dis
 
 * [[Konrad Waldorf]], _A Construction of String 2-Group Models using a Transgression-Regression Technique_ ([arXiv:1201.5052](http://arxiv.org/abs/1201.5052))
 
-Via fermionic nets
+Via fermionic nets:
 
 * [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
  {#DouglasHenriques}
