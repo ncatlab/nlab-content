@@ -105,7 +105,7 @@ The **logical rules** of sequent calculus for intuitionistic first-order logic a
 
 ### Cut rule and cut-free proofs
 
-The cut rule expresses the composition of proofs.  Gentzen's main result ([Gentzen, Haupsatz](#Gentzen)) is that any sequent proof that uses the cut rule can be transformed into one that doesn't.  This yields a normalization algorithm for proofs, which provided much of the inspiration behind Lambek's approach to categorical logic.
+The cut rule expresses the composition of proofs.  Gentzen's main result ([Gentzen, Haupsatz](#Gentzen)) is that any sequent proof that uses the cut rule can be transformed into one that doesn't.  This yields a normalization algorithm for proofs, which provided much of the inspiration behind [[Lambek]]'s approach to categorical logic.
 
 The most important property of cut-free proofs is that every formula occuring anywhere in a proof is a subformula of a formula contained in the conclusion of the proof (the _subformula property_).  This makes induction over proof-trees much more straightforward than with natural deduction or other systems.
 
