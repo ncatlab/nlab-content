@@ -50,9 +50,10 @@ An introduction to algebraic stacks is being written online in a collaborative p
 
 * [The Stacks Project](http://www.math.columbia.edu/algebraic_geometry/stacks-git/)
 
-For the topological variant, see [[topological stack]] and references therein; and for differentiable stacks 
+For the topological variant, see [[topological stack]] and references therein; and for differentiable stacks see
 
 * Kai Behrend, Ping Xu, [Differentiable Stacks and Gerbes](http://front.math.ucdavis.edu/0605.5694)
 
 
+[[!redirects algebraic stack]]
 [[!redirects algebraic stacks]]
