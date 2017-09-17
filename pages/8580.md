@@ -3,7 +3,7 @@
 
 
 
-> This page is growing incrementally as a lecture series proceeds.
+> This page is growing incrementally as a series of lecture series proceed.
 
 ***
 
@@ -21,7 +21,7 @@
 =--
 =--
 
-A set of lecture notes on [[differential geometry]] and theoretical [[physics]], combining an introduction to traditional notions with an exposition of their reformulation and refinement by [[higher geometry]] and [[extended prequantum field theory]].
+A set of lecture notes on [[differential geometry]] and theoretical fundamental [[physics]], combining an introduction to traditional notions with an exposition of their formulation and refinement by [[higher geometry]] and [[extended prequantum field theory]]. With an eye towards [[Hilbert's sixth problem]].
 
 Divided into two parts:
 
