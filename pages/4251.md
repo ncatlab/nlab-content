@@ -339,7 +339,7 @@ In [[Pursuing Stacks]] [[Alexander Grothendieck|Grothendieck]] talked about how 
 
 After _Pursuing Stacks_, apparently the first to publish a detailed formalization and proof of how the [[homotopy group]]s of a [[topological space]] $X$ may be recovered from the behaviour of [[locally constant ∞-stack]]s on $X$ was 
 
-* [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv1.library.cornell.edu/abs/math/0007157))
+* [[Bertrand Toen]], _Toward a Galoisian interpretation of homotopy theory_ ([arXiv:0007157](http://arxiv.org/abs/math/0007157))
 
 This has a followup construction in
 
