@@ -63,5 +63,11 @@ which is probably the best current starting point to read about tricategories an
 
 * [[Richard Garner]], [[Nick Gurski]], _The low-dimensional structures that tricategories form_ ([arXiv](http://arxiv.org/abs/0711.1761))
 
+A discussion of [[monoidal category|monoidal]] tricategories, regarded by the discussion at [[k-tuply monoidal (n,r)-category]] as one-object [[tetracategories]], is in section 3 of
+
+* [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
+
+
+
 
 [[!redirects tricategories]]
