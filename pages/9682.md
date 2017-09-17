@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,6 +18,8 @@
 
 In [[FQFT]]-language, 
 as a ([[prequantum field theory|pre]]-)[[quantum field theory|quantum]] [[field theory]] in [[dimension]] $n$ is given by a functor on an [[(infinity,n)-category of cobordisms]], so a field theory with boundaries/[[branes]] is given by such a  functor on an $(\infty,n)$-category of cobordisms with marked [[boundaries]]. The assignments to the boundary data itself defines a kind of field theory of one dimension lower, which is the corresponding boundary field theory. 
+
+If the [[field theory]] is thought of as a [[sigma-model]] that describes the [[quantum mechanics]] of a [[particle]] or [[string]] or [[membrane]], etc., then the boundary condition is also called a _[[brane]]_ for that [[sigma-model]].
 
 ## Related concepts
 
@@ -19,5 +32,15 @@ as a ([[prequantum field theory|pre]]-)[[quantum field theory|quantum]] [[field 
 * Wikipedia, _[Boundary conformal field theory](http://en.wikipedia.org/wiki/Boundary_conformal_field_theory)_
 
 For more see the references at _[[defect field theory]]_.
+
+Comments in the context of [[multisymplectic geometry]] are in 
+
+* [[José Zapata]], _Multisymplectic effective
+General Boundary Field Theory_, ([pdf](http://relativity.phys.lsu.edu/ilqgs/zapata090313.pdf))
+
+Axiomatization and examples of boundary field theories in [[local prequantum field theory]] is in
+
+* _[[schreiber:Local prequantum field theory]]_
+
 
 [[!redirects boundary field theories]]
