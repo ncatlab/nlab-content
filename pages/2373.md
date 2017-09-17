@@ -9,6 +9,10 @@
 
 * [[k-morphism]], [[coherence]]
 
+* [[looping and delooping]]
+
+* [[stabilization|looping and suspension]]
+
 ## Basic theorems
 
 * [[homotopy hypothesis]]-theorem
@@ -27,6 +31,8 @@
 ## Applications
 
 * [[applications of (higher) category theory]]
+
+* [[higher category theory and physics]]
 
 ## Models
 
