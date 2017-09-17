@@ -15,12 +15,20 @@
 
 ## Idea
 
-_Laurent series_ generalize [[Taylor series]] and other [[power series]] by allowing negative indices.  A Laurent series for the function $f(z)$ has the form
+_Laurent series_ generalize [[power series]] by allowing both positive and negative powers. In particular, _Laurent series_ with complex coefficients generalize [[Taylor series]] of analytic functions to meromorphic functions. A Laurent series for a meromorphic function $f(z)$ at finite $z\in\mathbb{C}$ has the form
 $$ f(z) = \sum_{n=k}^{\infty}f_n z^n, $$
 where $k$ is merely constrained to be finite and is often negative.
-Alternatively, we may write it as
+
+## Definition
+
+A Laurent series in one variable $z$ over a commutative unital ring $k$ is a [[doubly infinite series]] 
 $$ f(z) = \sum_{n=-\infty}^{\infty} f_n z^n ,$$
-where all but finitely many of the negatively indexed terms are zero.
+where $f_n\in k$.
+
+The questions of convergence are a separate issue. 
+In complex analysis, the Laurent series describes a meromorphic function in a neighborhood 
+around some point $z$ (possibly with a pole in $z$)
+if all but finitely many negatively indexed terms are zero. 
 
 ## Properties
 
@@ -35,3 +43,4 @@ If $K$ is [[algebraically closed field|algebraically closed]] and has [[characte
 See at _[[Puiseux series]]_ for more details.
 
 
+* [Doubly Infinite Laurent Series](http://math.rutgers.edu/~sdurst/DILS.html), lectures for formal Laurent series in [[vertex operator algebra]] context
