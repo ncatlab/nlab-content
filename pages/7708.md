@@ -1,29 +1,45 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-There are different notions called __structure__ in [[mathematics]]:
+It is common in informal language to speak of mathematical objects "equipped with extra structure" of some sort. The archetypical examples are [[algebras over a Lawvere theory]] in [[Set]]: these are [[sets]] equipped with the structure of certain algebraic operations. For instance a [[group]] $(G, e, \times)$ is a [[set]] $G$ equipped with a binary operation $\times : G \times G \to G$, etc.
 
-* A concept of a _structure_ is formulated as the basic object of mathematics in the work of [[Bourbaki]], cf. [[structure after Bourbaki]].
-
-* [[structure in model theory]] for a given language $L$ 
-
-* [[algebraic structure]]
-
-* In [[category theory]] we may talk about functor forgetting structure (formalizing an intuitive, related and in a way more general sense), see
-
-  [[stuff, structure, property]]
-
-  where adding [[extra structure]] and forgetting structure along a functor are formalized.
+One may formalize the notion of structure using the language of [[category theory]]. This is discussed at _[[stuff, structure, property]]_. In that formalization [[objects]] in some [[category]] $D$ are objects in some category $C$ _equipped with extra structure_ if there is a [[faithful functor]] $D \to C$. 
 
 
-## Related concepts
+## Examples
 
-See also for the theoretical notion of [[structuralism]].
+There are gazillions of examples of objects equipped with extra structure. The most familiar is maybe
 
-* [[property]]
+* [[algebraic structure]].
+
+Generally the [[forgetful functor]] form a category of algebras over an [[algebraic theory]] down to the base category exhibits the equipment with the corresponding algebraic structure.
+
+Or for instance in [[model theory]] given a [[first order language]] $L$ one can consider an [[structure in model theory|L-structure (in model theory)]] on a set. 
+
+
+## Related entries
+
+Evident as the notion of _mathematical structure_ may seem these days, it was at least not made explicit until the middle of the 20th century. Then it was the influence of the _[[Bourbaki]]_-project (see there for more) and then later the development of [[category theory]] which made the notion explicit and finally led to the above formalization.
+
 
 [[!redirects structures]]
