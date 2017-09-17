@@ -46,3 +46,7 @@ Note that this is an [[evil]] condition (on top of whatever evil is in the term 
 [[!redirects wide subcategories]]
 [[!redirects lluf subcategory]]
 [[!redirects lluf subcategories]]
+[[!redirects essentially wide subcategory]]
+[[!redirects essentially wide subcategories]]
+[[!redirects essentially lluf subcategory]]
+[[!redirects essentially lluf subcategories]]
