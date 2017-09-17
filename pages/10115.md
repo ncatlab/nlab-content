@@ -17,6 +17,10 @@
 
 The 2-[[sphere]] with its canonical structure of a [[complex manifold]] is called the _[[Riemann sphere]]_.
 
+## Related concepts
+
+* [[geometric quantization of the 2-sphere]].
+
 ## References
 
 * Wikipedia, _[Riemann sphere](http://en.wikipedia.org/wiki/Riemann_sphere)_
