@@ -142,3 +142,5 @@ contains a lot of basic information and some good intuition, although he uses th
 [[!redirects fibered categories]]
 [[!redirects fibred categories]]
 
+[[!redirects (Grothendieck) fibration]]
+[[!redirects (Grothendieck) fibrations]]
