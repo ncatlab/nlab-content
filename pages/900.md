@@ -19,7 +19,7 @@
 
 A **pro-object** of a category $C$ is a "formal [[filtered category|cofiltered]] limit" of objects of $C$.  The category of pro-objects of $C$ is written $pro$-$C$. Such a category is sometimes called a 'pro-category', but notice that that is *not* the same thing as a pro-object in [[Cat]].
 
-"Pro" is short for "projective limit," an old term for a [[limit]], as contrasted with "ind" in the [[ind-object|dual notion]] for "inductive limit," the old term for [[colimit]].
+"Pro" is short for "projective," (A 'projective limit' was older term for a [[limit]], as contrasted with "ind" in the [[ind-object|dual notion]], standing for "inductive" and corresponding to "inductive limit," the old term for [[colimit]].)  In some older source, the term 'projective system' is used more or less synonymously for pro-object.
 
 ## Definition 
 
