@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of a  _compact toposes_ is the generalization to [[toposes]] of the notion of [[compact topological space]].
+The notion of a  _compact topos_ is the generalization to [[toposes]] of the notion of [[compact topological space]].
 
 ## Definition
 
@@ -30,7 +30,8 @@ See _[[proper geometric morphism]]_ for more.
 
 ## References
 
-* [[Ieke Moerdijk]], J.J.C. Vermeulen, _Proper maps of toposes_, American Mathematical Society (2000)
+* [[Ieke Moerdijk]], J. Vermeulen,  _Relative compactness conditions for toposes_ ([pdf](http://igitur-archive.library.uu.nl/math/2001-0702-142944/1039.pdf)) and _Proper maps of toposes_ , American Mathematical Society (2000)
+  {#MoerdijkVermeulen}
 
 [[!redirects compact toposes]]
 [[!redirects compact topoi]]
