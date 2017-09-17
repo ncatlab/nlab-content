@@ -143,6 +143,12 @@ Let $A$, $X$ be categories.
 Then $\Desc [N(A),X]\cong[A,X]$
 =--
 
+## Related concepts
+
+See also _[[descent]]_.
+
+Discussion related to the computation of descent objects is also at _[[model structure on cosimplicial simplicial sets]]_.
+
 ## References
 
 See also the references at [[descent]].
