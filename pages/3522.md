@@ -17,10 +17,12 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
+
+### As an approximation to stabilization of a functor
 
 The operation of [[stabilization]] that sends an [[(∞,1)-category]] $C$ to the [[stable (∞,1)-category]] $Stab(C)$ does not in general extend to a functor.
 
@@ -280,6 +282,14 @@ Chris Schommer-Pries
 
 See also Eric Finster's blog post [Thoughts on the Goodwillie Calculus](http://curiousreasoning.wordpress.com/2010/08/02/thoughts-on-the-goodwillie-calculus/)
 
+## Properties
+
+### $\infty$-Toposes of polynomial functors
+
+For each $n$, the collection of [[polynomial functors]] of degree $n$ from bare [[homotopy types]] to bare homotopy types is an [[(infinity,1)-topos]]. 
+
+( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[tangent (infinity,1)-category]]_.
+
 ## References
 
 An overview for a workshop
@@ -315,3 +325,6 @@ A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable 
 See also
 
 * Luis Pereira, _A general context for Goodwillie Calculus_ ([arXiv:1301.2832](http://arxiv.org/abs/1301.2832))
+
+* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  {#Joyal08}
