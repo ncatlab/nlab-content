@@ -12,7 +12,7 @@ Zoran: there are several things called "Birkhoff's theorem" in various field of 
 * automatic table of contents goes here
 {:toc}
 
-#Birkhoff's theorem
+#The Birkhoff-von Neumann theorem
 
 Given a permutation $\sigma \in S_n$, the permutation matrix that is associated with $\sigma$ is the $n \times n$ matrix $P_{\sigma}(j,k)$, where $1 \le j,k \le n$, whose entries are given by
 
@@ -49,3 +49,5 @@ Categorically, one possible way to approach this problem is to determine the rel
 [[David Roberts]]: There may be a functor between the two which is \'nice\' in some sense (has an [[adjoint functor|adjoint]], say) which encapsulates the next best possible result.
 
 [[Ian Durham]]: Hmmm.  What I think I'm going to do is to try to tally up all the category theoretic properties of each.  That should make it easier to see if there's a functor between them, I would think.
+
+[[!redirects Birkhoff-von Neumann theorem]]
