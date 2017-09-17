@@ -79,3 +79,6 @@ Section 4.3 of
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
 
 * [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+
+* [[Anton Kapustin]], [[Natalia Saulina]], _Surface operators in 3d TFT and 2d Rational CFT_ in [[Branislav Jurco]], [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
+
