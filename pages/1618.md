@@ -191,6 +191,16 @@ On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]]
 
 * Points of [[over-topos]]es are discussed at <a href="http://ncatlab.org/nlab/show/over-topos#Points">over topos -- points</a>.
 
+### Toposes with enough points
+
+The following classes of topos have enough points.
+
+* every [[presheaf topos]];
+
+* every [[coherent topos]];
+
+* every [[Galois topos]] (see ([Zoghaib](#Zoghaib))).
+
 ## References ##
 
 Textbook references are section 7.5 of 
@@ -208,6 +218,9 @@ In
 * Carsten Butz, _Logical and cohomological aspects of the space of points of a topos_ ([ps](http://www.itu.dk/~butz/research/thesis0.ps.gz))
 
 is a discussion of how for every topos with enough points there is a topological space whose [[cohomology]] is related to the intrinsic cohomology of the topos.
+
+* Sam Zoghaib, _A few points in topos theory_ ([pdf](http://www.normalesup.org/~zoghaib/math/points-tt.pdf))
+ {#Zoghaib}
 
 [[!redirects point of topos]]
 [[!redirects topos with enough points]]
