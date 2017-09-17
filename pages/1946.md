@@ -97,16 +97,16 @@ in the appropriate way in $M$.
 Let $C$ be a [[combinatorial model category]] and $R$ a [[Reedy category]].
 
 
-The identity functors provide left [[Quillen equivalence]]s
+The identity functors provide left [[Quillen equivalences]]
 
 $$
   [R,C]_{proj} \stackrel{\simeq_{Quillen}}{\to}
   [R,C]_{Reedy}
   \stackrel{\simeq_{Quillen}}{\to}
   [R,C]_{inj}
-  \,.
 $$
 
+from the projective [[model structure on functors]] to the injective one.
 
 =--
 
