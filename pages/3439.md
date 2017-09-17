@@ -1,14 +1,26 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Chern-Weil theory
++--{: .hide}
+[[!include infinity-Chern-Weil theory - contents]]
+=--
+#### Physics
++--{: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
+
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Configuration spaces in [[physics]] are typically not just plain spaces, but are [[groupoid]]s and generally [[∞-groupoid]]s. This is traditionally most familiar for configuration spaces of [[gauge theory|gauge theories]]:
+[[configuration space|Configuration spaces]] in [[physics]] are typically not just plain spaces, but are [[groupoid]]s and generally [[∞-groupoid]]s. This is traditionally most familiar for configuration spaces of [[gauge theory|gauge theories]]:
 
 * the [[object]]s are the (field-)configurations of the physical system;
 
@@ -28,7 +40,7 @@ Standard textbook examples of gauge fixings include the following:
 
 * in the [[gauge theory]] of the **[[electromagnetic field]]**, a field configuration is, on a given [[pseudo-Riemannian manifold]] a [[line bundle]] [[connection on a bundle|with connection]]. Often the special case is considered where the underlying manifold is just [[Minkowski space]] and the bundle is assumed to be trivial, in which case a configuration of the gauge field configuration is just a [[differential form|1-form]] $A$ on Minkowski space, and a gauge transformation $\lambda: A \to A'$ is a 0-form, i.e. a function, such that $A' = A + d \lambda$.
 
-  * in the **Lorenz gauge** the gauge field $A$ is taken to be a [[harmonic form|harmonic]] 1-form $d \star d \star A = 0$.
+  * in the **[[Lorenz gauge]]** the gauge field $A$ is taken to be a [[harmonic form|harmonic]] 1-form $d \star d \star A = 0$.
 
 ## Category-theoretic description
 
@@ -49,9 +61,19 @@ A classical instance of gauge fixing is when $X=\tilde{X}//G$ is an action group
 * [[BRST complex]]
 * [[BV theory]]
   
+## Examples
 
+* [[temporal gauge]]
 
+* [[Lorenz gauge]]
 
+* [[Coulomb gauge]]
 
+## Related concepts
 
+* [[gauge group]], [[gauge transformation]]
+
+* [[spontaneously broken symmetry]]
+
+[[!redirects gauge fixings]]
      
