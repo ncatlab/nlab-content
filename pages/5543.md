@@ -1,0 +1,102 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _dense sub-site_ is a [[subcategory]] of a [[site]] such that the corresponding [[categories of sheaves]] are [[equivalent|equivalence of categories]].
+
+## Definition
+
++-- {: .un_prop #InducedCoverage}
+###### Definition
+
+For $(C,J)$ a [[site]] with [[coverage]] $J$ and $D \to C$ any [[subcategory]], the **induced coverage** $J_D$ on $D$ has as [[covering]] [[sieve]]s the intersections of the covering sieves of $C$ with the morphisms in $D$.
+
+=--
+
++-- {: .un_prop #DenseSubSite}
+###### Definition
+
+Let $(C,J)$ be a [[site]] (possibly [[large site|large]]). A [[subcategory]] $D \to C$ (not necessarily full) is called a **[[dense sub-site]]** with the [induced coverage](#InducedCoverage) $J_D$ if
+
+1. every object $U \in C$ has a [[covering]] $\{U_i \to U\}$ in $J$ with all $U_i$ in $D$;
+
+1. for every morphism $f : U \to d$ in $C$ with $d \in D$ there is a [[covering]] family $\{f_i : U_i \to U\}$ such that the composites $f \circ f_i$ are in $D$.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+If $D$ is a [[full subcategory]] then the second condition is automatic.
+
+=--
+
++-- {: .un_theorem}
+###### Theorem
+**(comparison lemma)**
+
+Let $(C,J)$ be a (possibly [[large site|large]]) [[site]] with $C$ a [[locally small category]] and let $f : D \to C$ be a [[small category|small]] [dense sub-site](#DenseSubSite). Then pair of [[adjoint functor]]s
+
+$$
+  (f^* \dashv f_*) 
+    : 
+  PSh(D)
+    \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}  
+   PSh(C)
+$$
+
+with $f^*$ given by precomposition with $f$ and $f_*$ given by right [[Kan extension]] induces an [[equivalence of categories]] between the categories of sheaves
+
+$$
+  (f_* \dashv f^*) : 
+  Sh_{J_D}(D)
+  \underoverset
+    {\underset{f_*}{\to}}{\overset{f^*}
+    {\leftarrow}}
+    {\simeq}
+  Sh_J{C}
+  \,.
+$$
+
+
+=--
+
+This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
+
++-- {: .un_examples}
+###### Examples
+
+
+* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage (\{U_i \to U\} covers if the [[join]] of the $U_i$ us $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
+
+  * For $X$ a [[locally contractible space]], $Op(X)$ its [[category of open subsets]] and $cOp(X)$ the full subcategory of [[contractible]] open subsets, we have that $cOp(X)$ is a dense sub-site.
+
+* For $C = TopManifold$  the category of all [[paracompact topological space|paracompact]] [[topological manifold]]s equipped with the [[open cover]] coverage, the category [[CartSp]]${}_{top}$ is a dense sub-site: every paracompact manifold has a [[good open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]].
+
+* Similaryl for $C = $ [[Diff]] the category of [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site.
+
+=--
+
+
+## References
+
+Section C2.2
+
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
+
+
+[[!redirects dense sub-sites]]
