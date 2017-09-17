@@ -1,5 +1,5 @@
 
-Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Other manings include
+Many very different things in mathematics are called _spectrum_ or _spectral_ or the like. This entry is about the notion of spectrum in [[stable homotopy theory]]. Other meanings include
 
 * [[spectrum of an operator]]
 
