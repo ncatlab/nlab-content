@@ -180,6 +180,8 @@ The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of 
 
 * [[holographic principle]], [[AdS-CFT]]
 
+* [[dual graviton]]
+
 ## References
 
 ### General
@@ -203,7 +205,7 @@ Self-duality for higher abelian gauge fields (in [[ordinary differential cohomol
 
 Original reference on self-dual/chiral fields include
 
-* X. Bekaert, [[Marc Henneaux]], _Comments on Chiral $p$-Forms_ ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
+* [[Xavier Bekaert]], [[Marc Henneaux]], _Comments on Chiral $p$-Forms_ ([arXiv:hep-th/9806062](http://arxiv.org/abs/hep-th/9806062))
 
 * Mans Henningson, Bengt E.W. Nilsson, Per Salomonson, _Holomorphic factorization of correlation functions in (4k+2)-dimensional (2k)-form gauge theory_ ([arXiv:hep-th/9908107](http://arxiv.org/abs/hep-th/9908107))
 
