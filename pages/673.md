@@ -1,7 +1,7 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="600" width="400" src="http://ncatlab.org/davidroberts/files/DavidRoberts2012.jpg" alt="David Roberts" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="600" width="400" src="http://ncatlab.org/davidroberts/files/DavidRoberts2012.jpg" alt="David Roberts - image (c) Peter Fisher, used with permission" /></div>
 
 
-I'm a visiting research fellow at the [University of Adelaide](http://www.maths.adelaide.edu.au/) and I work at the [National Centre for Vocational Education Research](http://www.ncver.edu.au/). I work on 2-bundles and internal groupoids/categories, and category theory more generally with a side interest in foundations.
+I'm a postdoctoral fellow at the [University of Adelaide](http://www.maths.adelaide.edu.au/). I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]].
 
 If you need it, here is my email: david dot roberts (at symbol) adelaide dot edu dot au
 
