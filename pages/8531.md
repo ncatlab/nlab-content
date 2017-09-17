@@ -5,7 +5,62 @@
 
 ## Idea
 
-A [[right adjoint]] to _[[restriction of scalars]]_. See at _[[extension of scalars]]_ for more.
+A [[right adjoint]] to _[[restriction of scalars]]_. The dual notion to _[[extension of scalars]]_ .
+
+## Properties
+
+Here is one special case.
+
+For $R$ a [[ring]], write $R$[[Mod]] for its category of [[modules]]. Write [[Ab]] = $\mathbb{Z}$[[Mod]] for the category of [[abelian groups]].
+
+Write $U\colon R Mod \to Ab$ for the [[forgetful functor]] that forgets the $R$-module structure on a module $N$ and just remembers the underlying abelian group $U(N)$. 
+
++-- {: .num_lemma #CoextensionOfScalarsForRModToZMod}
+###### Lemma
+
+The [[functor]] $U\colon R Mod \to Ab$ has a [[right adjoint]] 
+
+$$
+  R_* : Ab \to R Mod
+$$
+
+given by sending an [[abelian group]] $A$ to the abelian group
+
+$$
+  U(R_*(A)) \coloneqq Ab(U(R),A)
+$$
+
+equipped with the $R$-[[module]] struture by which for $r \in R$ an element $(U(R) \stackrel{f}{\to} A) \in U(R_*(A))$ is sent to the element $r f$ given by
+
+$$
+  r f : r' \mapsto f(r' \cdot r)
+  \,.
+$$ 
+
+This is called the **[[coextension of scalars]]** along the ring homomorphism $\mathbb{Z} \to R$.
+
+The [[unit of an adjunction|unit]] of the $(U \dash R_*)$ [[adjunction]]
+
+$$
+  \epsilon_N : N \to R_*(U(N))
+$$
+
+is the $R$-module homomorphism
+
+$$
+  \epsilon_N : N \to Hom_{Ab}(U(R), U(N))
+$$
+
+given on $n \in N$ by
+
+$$
+  j(n) : r \mapsto r n
+  \,.
+$$
+
+=--
+
+
 
 ## References
 
