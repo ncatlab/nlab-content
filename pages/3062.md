@@ -135,6 +135,8 @@ If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a 
 
 * **Lie 2-algebra**, [[Lie 2-group]]
 
+  * [[membrane matrix model]]
+
 * [[L-∞ algebra]], [[smooth ∞-group]]
 
 * [[Lie algebroid]], [[Lie groupoid]]
