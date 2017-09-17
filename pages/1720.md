@@ -95,15 +95,9 @@ Model categories which are both left and right proper include
 
 * [[sSet]]: [[model structure on simplicial sets]]
 
-All [[model category|model categories]] that model aspects of [[∞-stack]]s and hence of [[cohomology]] are right proper: 
+* The _global_ [[model structure on simplicial presheaves]].
 
-* [[model structure on simplicial presheaves]]
-
-* [[model structure on presheaves of spectra]] 
-
-  for presheaves over the point this restricts to:
-
-  * [[model structure on spectra]]
+* The standard [[model structures on chain complexes]].
 
 
 ### Proper Quillen equivalent model structures {#ProperEquivModels}
