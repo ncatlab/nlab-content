@@ -233,3 +233,4 @@ A discussion of aspects of how [[multisymplectic geometry]] related to $n$-sympl
 <a href="http://front.math.ucdavis.edu/1001.0040">arXiv:1001.0040v1 [math-ph]</a>
 
 
+[[!redirects symplectic Lie n-algebroids]]
