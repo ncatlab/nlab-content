@@ -174,4 +174,5 @@ Other discussions of higher categories of cobordisms are
 
 [[!redirects (∞,n)-category of cobordisms]]
 
-
+[[!redirects (∞,n)-categories of cobordisms]]
+[[!redirects (infinity,n)-categories of cobordisms]]
