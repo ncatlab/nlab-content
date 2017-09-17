@@ -33,7 +33,7 @@ Back then [[Niels Bohr]] proposed that, therefore, apparently the fundamental [[
 
 Opposed to this was the suggestion by [[Wolfgang Pauli]], who insisted that the [[conservation laws]] ought to hold true, and that therefore there must be an undetected new [[fundamental particle]] created in [[beta decay]], which carries the apparently missing [[energy]].
 
-Pauli with his argument and suggestion turned out to be right. The missing particle -- called the _neutrino_ by [[Enrico Fermi]] in 1933 -- was finally directly detected in 1956, hence 26 years after its proposal.
+Pauli with his argument and suggestion turned out to be right. The missing particle -- called the _neutrino_ by [[Enrico Fermi]] in 1933 -- was finally directly detected in 1956, hence 26 years after its proposal. (Compare maybe to the [[Higgs boson]] for which detection came 50 years after prediction.)
 
 Notice that back then, predicting unobserved and possibly practically unobservable [[fundamental particles]] was not taken as lightly as in some circles it is these days (e.g. in [[supersymmetry]] and/or [[string theory]]). In ([AP 06, p. 7](#AP06)) Pauli is quoted on this as having said:
 
