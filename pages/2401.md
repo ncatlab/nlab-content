@@ -132,6 +132,8 @@ A bit of elementary exposition of these ideas is at
 
 A blog discussion about the issue of classifying spaces versus moduli spaces is [here]() (where?)
 
+[[!redirects moduli spaces]]
+
 [[!redirects fine moduli space]]
 [[!redirects coarse moduli space]]
 [[!redirects moduli stack]]
