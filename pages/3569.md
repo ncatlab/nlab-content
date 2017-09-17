@@ -1,15 +1,26 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
 [[!include type theory - contents]]
-</div>
+=--
+#### $(\infty,1)$-Topos Theory
++-- {: .hide}
+[[!include (infinity,1)-topos - contents]]
+=--
+=--
+=--
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Just as an ordinary [[topos]] comes with its [[internal logic]], and [[(∞,1)-topos]] should come with its _internal "$(\infty,1)$-logic"_ .
+Just as an ordinary [[topos]] comes with its [[internal logic]] formalized by [[type theory]], an [[(∞,1)-topos]] should come with its _internal "$(\infty,1)$-logic"_ formalized by [[homotopy type theory]].
 
-Not much is known about this yet, so this page consists of speculation, experimentation, and references.  This subject is/was also discussed at [this blog post](http://golem.ph.utexas.edu/category/2010/02/infinity_1logic.html).
 
 ## Type theory versus logic
 
