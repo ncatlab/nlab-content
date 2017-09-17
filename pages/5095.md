@@ -52,12 +52,14 @@ Supercompact cardinals are discussed for instance in
 * T. Jech _Set Theory_ The Third Millenium Edition, Revised and Expanded.
 Springer Monographs in Mathematics. Springer-Verlag, Berlin, Heidelberg (2003)
 
-* A. Kanamori, _The Higher Innite: Large Cardinals in Set Theory from Their
+* A. Kanamori, _The Higher Infinite: Large Cardinals in Set Theory from Their
 Beginnings_ Perspectives in Mathematical Logic. Springer-Verlag, Berlin, Heidelberg (1994)
 
 The relation to refelctive subcategories is discusssed in
 
 * Joan Bagaria, [[Carles Casacuberta]], Adrian Mathias, _Epireflections and supercompact cardinals_  Journal of Pure and Applied Algebra 213 (2009), 1208-1215 ([pdf](http://atlas.mat.ub.es/personals/casac/articles/bcm.pdf))
 {#BagariaCasacubertaMathias}
+
+category: foundational axiom
 
 [[!redirects supercompact cardinals]]
