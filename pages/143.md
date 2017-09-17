@@ -642,7 +642,13 @@ The archetypical example of sheaves are _sheaves of [[function]]s_:
 
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
 
+* [[abelian sheaf cohomology]]
+  
+  * [[soft sheaf]]
 
+  * [[fine sheaf]]
+
+  * [[flabby sheaf]]
 ## References
 
 Section C2 in 
