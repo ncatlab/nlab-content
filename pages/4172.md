@@ -45,6 +45,7 @@ Every bimonoidal category is equivalent to a strict bimonoidal category ([Guillo
 
 * [[BDR 2-vector bundle]].
 
+* [[duoidal category]]
 
 ## References
 
