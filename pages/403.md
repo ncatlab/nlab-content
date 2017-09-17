@@ -310,7 +310,7 @@ Discussion in terms of [[monads]] in [[spans]] is in
 
 A detailed discussion with emphasis on the correct [[anafunctor]] morphisms between internal categories is in 
 
-* [[David Roberts]], _Internal categories, anafunctors and localization_ (2010) [pdf](http://nlab.mathforge.org/davidroberts/files/ICAL.pdf), [arXiv version](http://arxiv.org/abs/1101.2363)
+* [[David Roberts]], _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
 
 Discussion with emphasis on [[topos theory]] is in section B.2.3 of 
 
