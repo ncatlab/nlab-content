@@ -99,7 +99,8 @@ $$
   \,.
 $$
 
-For instance for $A = H(\mathbb{Z})$ the Eilenberg-MacLane object (discussed more in detail below), one writes
+For instance for $A = H(\mathbb{Z})$ the 
+[[Eilenberg-MacLane object]] (discussed more in detail below), one writes
 
 $$
   H^{p,q}(X, \mathbb{Z}) := \pi_0 \mathbf{H}(X, \Omega_T^\infty \Sigma^{p-q} \Sigma_{t}^{q} H(\mathbb{Z}))
@@ -114,7 +115,7 @@ To define an Eilenberg-MacLane object representing an interesting cohomology the
 
 2. Technically: The general construction would naturally yield an $S^1$-spectrum, but we want a $\mathbb{P}^1$-spectrum. This is not easy: Voevodsky states in his ICM-talk article (on p. 596, see references) that every morphism $\mathbb{P}^1 \wedge K(\mathbb{Z},n) \rightarrow K(\mathbb{Z},n+1)$ is trivial in the $\mathbb{A}^1$-homotopy category.
 
-Instead one applies a recipe which, when applied to the usual topological spheres produces the (topological) Eilenberg-MacLane spaces, to the algebro-geometric sphere $\mathbb{P^1}$:
+Instead one applies a recipe which, when applied to the usual topological spheres produces the (topological) [[Eilenberg-MacLane spaces]], to the algebro-geometric sphere $\mathbb{P}^1$:
 
 The [[Dold-Thom theorem]] says that in topology the reduced singular homology of a space $X$ can be produced as
 
