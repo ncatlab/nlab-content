@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include model category theory - contents]]
 =--
+#### Mapping space
++--{: .hide}
+[[!include mapping space - contents]]
+=--
 =--
 =--
 
