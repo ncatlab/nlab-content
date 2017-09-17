@@ -22,7 +22,7 @@ Traditionally this has been conceived in terms of [[model category]] presentatio
 
 * [Model category presentation](#ModCat).
 
-From the [[nPOV]], the notion of cotangent complex has a more intrisnci description as being the [[left adjoint]] to the [[tangent (∞,1)-category]] projection. This we discuss in the section
+From the [[nPOV]], the notion of cotangent complex has a more intrinsic description as being the [[left adjoint]] to the [[tangent (∞,1)-category]] projection. This we discuss in the section
 
 * [(∞,1)-Categorical description](#InfCat)
 
