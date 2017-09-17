@@ -459,8 +459,15 @@ $$
 ###### Proof
 
 One quick way to see that the [[left adjoint]] $F$ exists is by the 
-[[adjoint functor theorem]]: since [[limit]]s in $C^\infty Alg_{\mathbb{R}}$ are computed objectwise in $[CartSp, Set]$, the functor $U$ evidently preserves them. Moreover, $Alg_{\mathbb{R}}$ is evidently a [[locally small category]] and $C^\infty Alg_{\mathbb{R}}$ may easily be checked to be a [[cototal category]] (the left adjoint to the Yoneda embedding $C^\infty Alg_{\mathbb{R}}^{op} \hookrightarrow [C^\infty Alg_{\mathbb{R}}, Set] : A \mapsto Hom_{C^\infty Alg_{\mathbb{R}}}(A,-)$ is the functor $X \mapsto \int_{B \in C^\infty Alg_{\mathbb{R}}} \prod_{X(B)} B$.) These are sufficient conditions for the [[adjoint functor theorem]] to apply.
+[[adjoint functor theorem]]: since [[limit]]s in $C^\infty Alg_{\mathbb{R}}$ are computed objectwise in $[CartSp, Set]$, the functor $U$ evidently preserves them. Moreover, $Alg_{\mathbb{R}}$ is evidently a [[locally small category]] and $C^\infty Alg_{\mathbb{R}}$ may easily be checked to be a [[cototal category]] (the left adjoint to the Yoneda embedding $C^\infty Alg_{\mathbb{R}}^{op} \hookrightarrow [C^\infty Alg_{\mathbb{R}}, Set] : A \mapsto Hom_{C^\infty Alg_{\mathbb{R}}}(A,-)$ is the functor $X \mapsto \int_{B \in C^\infty Alg_{\mathbb{R}}} \prod_{X(B)} B$.) These are sufficient conditions for the [[adjoint functor theorem]] to apply. 
 
++--{.query} 
+
+[[Todd Trimble|Todd]]: I'm not saying the cototality statement is wrong, but I guess I'm slightly mistrustful because I am told that sometimes categories of algebras for a Lawvere theory fail to be cototal, for example the category of groups (Richard Wood, private communication). So this assertion at least requires proof. 
+
+However, I'm reasonably satisfied that the argument I gave earlier goes through, and I'll write up some details as soon as I get a free chance, which will be several hours from now. 
+
+=--
 
 This statement may be understood as a special case of the following much more general argument.
 
