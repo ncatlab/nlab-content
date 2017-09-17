@@ -92,6 +92,10 @@ Lecture notes on this are in
 
 * [[Weiping Zhang]], _Analytic aspects of geometric quantization_, 2009 ([pdf](http://www.math.ac.cn/PPT/PPT-hlg-lecture/ppt-hlg-2008/zhangweiping-hlg.pdf))
 
+Further generalizations are discussed in 
+
+* [[Peter Hochs]], [[Varghese Mathai]], _Quantizing tame actions_ ([arXiv:1309.6760](http://arxiv.org/abs/1309.6760))
+
 Similar discussion is in 
 
 * [[Paul-Emile Paradan]], _Spin-quantization commutes with reduction_ ([arXiv:0911.1067](http://arxiv.org/abs/0911.1067))
