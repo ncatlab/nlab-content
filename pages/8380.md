@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[computer science]], a programming language may be formalised or studied by means of a 'syntactic' [[category]], whose objects are the [[types]] of the language, and in which a [[morphism]] $A \to B$ is a [[term]] or program (or an equivalence class of such) that takes a value of type $A$ as input and returns a value of type $B$.  This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely functional languages.
+In [[computer science]], a programming language may be formalised or studied by means of a _[[syntactic category]]_, whose [[objects]] are the [[types]] of the language, and in which a [[morphism]] $A \to B$ is a [[term]] or [[program]] (or an [[equivalence class]] of such) that takes a value of type $A$ as input and returns a value of type $B$.  This point of view (see _[[computational trinitarianism]]_) is particularly useful when studying purely [[functional languages]].
 
 Monads provide one way to "embed [[imperative programming]] in 
 [[functional programming]]", and are used that way notably in the 
