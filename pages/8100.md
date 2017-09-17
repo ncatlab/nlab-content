@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,7 +17,19 @@
 
 ## Idea
 
-The [[action functional]] of the [[type II superstring]] [[sigma-model]] for [[open strings]] ending on [[D-branes]] is, without further conditions, not globally well defined: it is a [[section]] of a possibly non-trivial [[line bundle]] over the configuration space, instead of a plain function. The non-triviality of this line bundle (as a line bundle [[connection on a bundle|with connection]]) is the _Freed-Witten [[quantum anomaly]]_. The necessary conditions for this anomaly to vanish, hence for this line bundle to be trivializable, are the _Freed-Witten anomaly cancellation conditions_.
+The effective bosonic exponentiated [[action functional]] of the [[type II superstring]] [[sigma-model]] for [[open strings]] ending on [[D-branes]] has three factors:
+
+1. the [[higher holonomy]] of the backgroun [[B-field]] over the string 2-dimensional worldsheet;
+
+1. the ordinary [[holonomy]] of the [[Chan-Paton bundle]] on the D-brane along the boundary of the string;
+
+1. the [[Berezin integral|Berezinian]] [[path integral]] over the fermions.
+
+Each single contribution is in general not a globally well defined function on the space of string configurations, instead each is a [[section]] of a possibly non-trivial [[line bundle]] over the configuration space (the last one for instance of the [[Pfaffian bundle]]). Therefore the total action functional is a section of the [[tensor product]] of these three line bundles.
+
+The non-triviality of this tensor product line bundle (as a line bundle [[connection on a bundle|with connection]]) is the _Freed-Witten-Kapustin [[quantum anomaly]]_. The necessary conditions for this anomaly to vanish, hence for this line bundle to be trivializable, is the _Freed-Witten anomaly cancellation condition_.
+
+More precisely, the naive holonomy of an ordinary Chan-Paton [[principal connection]] would be globally well defined. But in order to cancel the anomaly contribution form the other two factors, one may take the Chan-Paton bundle to be a [[twisted bundle]], the twist being the [[B-field]] restricted to the brane. Then its holonomy becomes anomalous, too, but there are then interesting configurations where the product of all three anomalies cancels. This refined argument has been made precise by Kapustin, and so one should probably speak of the _Freed-Witten-Kapustin anomaly cancellation_.
 
 ## Details
 
@@ -43,9 +54,11 @@ A clean formulation and review is provided in
 
 * Loriano Bonora, Fabio Ferrari Ruffino, Raffaele Savelli, _Classifying A-field and B-field configurations in the presence of D-branes_ ([arXiv:0810.4291](http://arxiv.org/abs/0810.4291))
 
+* Fabio Ferrari Ruffino, _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
+
 * Fabio Ferrari Ruffino, _Classifying A-field and B-field configurations in the presence of D-branes - Part II: Stacks of D-branes_ ([arXiv:1104.2798](http://arxiv.org/abs/1104.2798))
 
-* Fabio Ferrari Ruffino, _Topics on topology and superstring theory_ ([arXiv:0910.4524](http://arxiv.org/abs/0910.4524))
+* Raffaele Savelli, _On Freed-Witten Anomaly and Charge/Flux quantization in String/F Theory_, Phd thesis (2011) ([pdf](http://digitallibrary.sissa.it/bitstream/handle/1963/4999/PhDthesisSavelli.pdf?sequence=1))
 
 and
 
@@ -53,6 +66,8 @@ and
  {#Laine}
 
 In ([Laine](#Laine)) the discussion of FW-anomaly cancellation with finite-rank gauge bundles is towards the very end, culminating in equation (3.41).
+
+
 
 [[!redirects Freed-Witten anomaly cancellation]]
 
