@@ -32,6 +32,8 @@ If one is interested in tensor products as well, then one gets a generalization 
 
 * [[higher linear algebra]]
 
+* [[linear type theory]]
+
 ## References
 
 * wikipedia [linear algebra](http://en.wikipedia.org/wiki/Linear_algebra)
