@@ -181,3 +181,9 @@ section 7 of
  {#FHLT}
 
 [[!redirects n-vector spaces]]
+[[!redirects n-vector spaces]]
+
+[[!redirects (∞,n)-vector space]]
+[[!redirects (infinity,n)-vector space]]
+[[!redirects (∞,n)-vector spaces]]
+[[!redirects (infinity,n)-vector spaces]]
