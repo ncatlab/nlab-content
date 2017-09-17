@@ -59,6 +59,8 @@ $$
 The most important example is the [[Jacobi theta function]].
 See for instance ([KL 95, section 2.4](#KL95)) for a review in the context of [[elliptic genera]].
 
+As part of this, the [[Kac-Weyl character]] of an integral highest-weight [[loop group representation]] is a Jacobi form ([KL 95, section 2.2](#KL95)).
+
 ## References
 
 The original canonical account is
