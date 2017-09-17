@@ -697,6 +697,7 @@ This example, too, is important at [[geometric function theory]].
 
 ### Homotopy colimits over simplicial diagrams {#OverSimplicialDiagrams}
 
+
 +-- {: .un_prop}
 ###### Proposition
 
@@ -802,6 +803,26 @@ $$
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+Let $ i : \Delta_f \hookright \Delta$ be the inclusion into the [[simplex category]] of all the monomorphisms (all the face maps).
+
+This inclusion is a homotopy-[[initial functor]]. As a consequence, 
+homotopy colimits of shape $\Delta$ can equivalently be computed after their restriction to $\Delta_f$
+
+$$
+  hocolim(  \Delta^{op} \stackrel{F}{\to} C)
+  \simeq
+  hocolim( \Delta_f^{op} \stackrel{i^{op}}{\to} \Delta^{op} \stackrel{F}{\to} C)
+  \,.
+$$
+
+=--
+
+See ([Dugger, example 18.2](#Dugger)).
+
+
 ### Homotopy colimits over diagrams of spaces
 
 
@@ -898,6 +919,7 @@ and Homotopical Categories]]_, Mathematical Surveys and Monographs __113__
 An introduction is 
 
 * [[Dan Dugger]], _A primer on homotopy colimits_ ([pdf](http://www.uoregon.edu/~ddugger/hocolim.pdf))
+ {#Dugger}
 
 A general overview via universal properties is in the [[Georges Maltsiniotis]]' 2008 Sevilla lectures, particularly in lec. I:
 
