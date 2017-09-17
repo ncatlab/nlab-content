@@ -49,9 +49,9 @@ Another perspective on the same situation is: a (small) category is a [[monad]] 
 
 ## Actions of a group object
 
-Suppose we have a  [[group object]], $G$, in a category, $C$, with binary [[product]]s and a [[terminal object]] $*$. There is an alternative way of viewing group actions so that we can talk about $G$ action on an object $X$ of $C$.
+Suppose we have  a category, $C$, with binary [[product]]s and a [[terminal object]] $*$. There is an alternative way of viewing group actions in [[Set]], so that we can talk about an action of a [[group object]], $G$, in $C$ on an object, $X$, of $C$.
 
-By the adjointness relation between cartesian product $A\times ?$ and function set $?^A$ in [[Set]], a group homomorphism
+By the adjointness relation between cartesian product, $A\times ?$, and function set, $?^A$, in [[Set]], a group homomorphism
 
 $$\alpha: G\to Aut(X)$$
 corresponds to a function
@@ -65,7 +65,7 @@ $$act(1,x) = x$$
 
 and these can be encoded diagrammatically.
 
-Because of this, we can **define** an action of a group object $G$ on an object $X$ to be a morphism
+Because of this, we can **define** an action of a group object, $G$, in $C$ on an object, $X$, of $C$ to be a morphism
 $$act: G\times X\to X$$
 satisfying conditions that certain diagrams (left to the reader) encoding these two rules, commute.
 
