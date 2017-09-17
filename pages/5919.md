@@ -15,9 +15,11 @@
 
 ## Definition
 
-The _theory of objects_ is the [[theory]] over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]], and no axioms.
+The _theory of objects_ is the [[theory]] with no axioms over the [[signature (in logic)|signature]] with a single [[type]] and no primitive symbols except [[equality]].
 
-So a [[model]] for this theory in a [[topos]], or more generally a category, $\mathcal{E}$ is just an [[object]] of $\mathcal{E}$.
+So a [[model]] for this theory in a [[topos]] (or more generally a category) $\mathcal{E}$ is just an [[object]] of $\mathcal{E}$.
+
+In the syntax-free approach to geometric theories of Johnstone (2002, I B4.2) the theory of objects corresponds to the forgetful functor sending an $\mathcal{S}$-topos to its underlying category (cf. [[geometric theory]] section 'functorial definition').
 
 ## Properties
 
@@ -28,12 +30,13 @@ The [[classifying topos]] for the theory of objects is the [[presheaf topos]] $[
 
 =--
 
-See at _[[classifying topos for the theory of objects]]_.
+For more general base toposes $\mathcal{S}$, it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
 
-For more general base toposes $\mathcal{S}$ it is a theorem due to [[Andreas Blass]] that the theory of objects has a classifying topos precisely if $\mathcal{S}$ has a [[natural numbers object]].
+See at _[[classifying topos for the theory of objects]]_.
 
 ## References
 
-Section D3.2 of
+Sections B4.2, D3.2 of
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
