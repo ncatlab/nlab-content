@@ -44,6 +44,10 @@ A quick survey is for instance in
 
 * [[Peter Aczel]], _On Voevodsky's univalence axiom_ ([pdf](http://www.cs.man.ac.uk/~petera/Recent-Slides/Edinburgh-2011-slides_pap.pdf))
 
+An exposition is at 
+
+* [[Mike Shulman]], _Homotopy type theory, IV_ ([blog post](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_iv.html))
+
 The [[HoTT]]-[[Coq]] code is at
 
 * _[HoTT/Coq/Univalence.v](https://github.com/HoTT/HoTT/blob/master/Coq/Univalence.v)_
