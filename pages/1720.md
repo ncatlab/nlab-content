@@ -128,7 +128,7 @@ This is theorem 2.18 in
 
 Let $T$ be a simplicial (possibly multi-colored) [[theory]], and let $T Alg$ be the corresponding category of simplicial T-algebras. This carries a model category structure where the fibrations and weak equivalences are those of the underlying simplicial sets in the standard [[model structure on simplicial sets]]. 
 
-Then there exists a morphism of siplicial theories $T \to S$ such that
+Then there exists a morphism of simplicial theories $T \to S$ such that
 
 1. the induced [[adjunction]] $S Alg \stackrel{\to}{\leftarrow} T Alg$ is a [[Quillen equivalence]];
 
@@ -374,6 +374,14 @@ The proof for the second statement is the precise formal dual.
 The usefulness of right properness for constructions of [[homotopy category|homotopy categories]] is discussed in
 
 * J. Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0605/0605198v1.pdf))
+
+
+The general theory can be found in Chapter 13 of 
+
+* [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 
+of Mathematical Surveys and Monographs , American Mathematical Society, 
+2009.
+
 
 [[!redirects proper model categories]]
 
