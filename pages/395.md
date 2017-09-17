@@ -67,7 +67,7 @@ This data has to satisfy the following properties:
     =
     (B \stackrel{\sigma}{\to} B^I \stackrel{d_0 \times d_1}{\to} B \times B)
   $$
-  where $s$ is a weak equivalence and $d_0 \times d_1$ is a fibration;
+  where $\sigma$ is a weak equivalence and $d_0 \times d_1$ is a fibration;
 
 * all objects are _fibrant_, i.e. all morphisms $B \to {*}$ to the terminal object are fibrations.
 
