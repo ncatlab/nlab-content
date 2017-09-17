@@ -9,6 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 A **wide subcategory** of a [[category]] $C$ is a [[subcategory]] containing all the [[object]]s of $C$. 
 
@@ -18,6 +23,24 @@ A wide subcategory is also called a **lluf subcategory** ("lluf" being "[[full s
 
 Note that this is an [[evil]] condition (on top of whatever evil is in the term 'subcategory').  To fix this, let an **essentially wide subcategory** contain at least one object from each isomorphism class of objects; that is, its inclusion functor is [[essentially surjective functor|essentially surjective on objects]].
 
+
+## Related concepts
+
+* [[subcategory]]
+
+  * [[full subcategory]], **wide subcategory**, [[dense subcategory]], [[replete subcategory]], [[reflective subcategory]], [[coreflective subcategory]]
+
+  * [[dense sub-site]]
+
+* [[sub-2-category]]
+
+  * [[full sub-2-category]]
+
+  * [[locally full sub-2-category]]
+
+* [[sub-(∞,1)-category]]
+
+  * [[reflective sub-(∞,1)-category]]
 
 [[!redirects wide subcategory]]
 [[!redirects wide subcategories]]
