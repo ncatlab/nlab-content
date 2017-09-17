@@ -54,6 +54,9 @@ For any object $x\in C$, the assumptions ensure that the [[codensity monad]] of 
 
 Notice that this second proof relies crucially on the fact that free monads have a universal property relative to a forgetful functor whose domain is all of $Mnd(C)$, not just some subcategory of finitary or accessible monads, since $\langle x,x\rangle$ will not in general be finitary or accessible.
 
+## Constructions
+
+Perhaps the most general [[set theory|set-theoretically]] based construction of (algebraically) free monads is the [[transfinite construction of free algebras]].  (In [[type theory]], it is natural to use instead [[higher inductive types]].)
 
 ## Examples
 
