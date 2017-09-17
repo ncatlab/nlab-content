@@ -46,4 +46,6 @@ This $G$ is called the **complexification** of $K$.
 
 * [[complex Lie algebra]]
 
+* [[relation between compact Lie groups and reductive algebraic groups]]
+
 [[!redirects complex Lie groups]]
