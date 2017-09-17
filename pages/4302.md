@@ -25,13 +25,13 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 * [[particle]], [[matter]]
 
-* [[boson]], **fermion, **anyon**
+* [[boson]], **fermion**, [[anyon]]
 
 * [[spin-statistics theorem]]
 
 * [[spinors in Yang-Mills theory]]
 
-* [[Pfaffian line bundle]]
+* [[fermionic path integral]], [[Pfaffian line bundle]]
 
 * [[quantum anomaly|fermion anomaly]]
 
