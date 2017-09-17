@@ -1,7 +1,7 @@
 
 A __place__ of a [[commutative unital ring]] has different meanings in the literature:
 
-* The most common one is an equivalence class of (archimedean or non-archimedean) [[absolute value]]s. (An _absolute value_ is a non-trivial multiplicative [[seminorm]].) This convention is often used in [[number theory]], where it applies to [[number field|number]] or [[function fields]].
+* The most common one is an equivalence class of ([[archimedean field|archimedean]] or non-archimedean) [[absolute value]]s. (An _absolute value_ is a non-trivial multiplicative [[seminorm]].) This convention is often used in [[number theory]], where it applies to [[number field|number]] or [[function fields]].
 
 * It can mean an equivalence class of (possibly higher-rank) [[valuations]]. This convention is sometimes used in non-archimedean [[analytic geometry]], after Zariski's work (Zariski--Riemann space).
 
