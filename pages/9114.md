@@ -551,10 +551,24 @@ For $X,Y$ two groupoids, the [[internal hom|mapping groupoid]] $[X,Y]$ or $Y^X$ 
 +-- {: .num_defn }
 ###### Definition
 
-  A ([[homotopy equivalence|homotopy-]])_[[equivalence of groupoids]]_ is a morphism
+  A ([[homotopy equivalence|homotopy-]]) _[[equivalence of groupoids]]_ is a morphism
 $\mathcal{G} \to \mathcal{K}$ which has a left and right [[inverse]] up to [[homotopy]].  
 
 =--
+
++-- {: .num_example #BZIsPiSOne}
+###### Example
+
+The map
+
+$$
+  \mathbf{B}\mathbb{Z} \stackrel{}{\to} \Pi(S^1)
+$$
+
+which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that point which winds around $n$ times, is an [[equivalence of groupoids]].
+
+=--
+
 
 +-- {: .num_prop #DiscreteGroupoidIsDijointUnioonOfDeloopings}
 ###### Proposition
@@ -634,8 +648,8 @@ For $G$ a group and $\mathbf{B}G$ its  [[delooping]] groupoid from
 
 =--
 
-+-- {: .num_example #FreeLoopSpaceOfGroupoid}
-###### Example
++-- {: .num_prop #FreeLoopSpaceOfGroupoid}
+###### Proposition
 
 
 The [[free loop space object]] is
@@ -647,6 +661,50 @@ The [[free loop space object]] is
   $$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Notice that $\Pi_1(S^0) \simeq \ast \coprod \ast$. Therefore
+the [[path space object]] $[\Pi(S^0), X_\bullet]^I_\bullet$ has
+
+* objects are pairs of morphisms in $X_\bullet$;
+
+* morphisms are commuting squares of such.
+
+Now the fiber product in def. \ref{HomotopyFiberProductOfGroupoids}
+picks in there those pairs of morphisms for which both start at the same object, and both end at the same object. Therefore $X_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} [\Pi(S^0), X_\bullet]^I_\bullet \underset{[\Pi(S^0), X_\bullet]_\bullet}{\times} X$ is the groupoid whose
+
+* objects are diagrams in $X_\bullet$ of the form 
+
+  $$
+    \array{
+       & \nearrow \searrow
+       \\
+       x_0 && x_1
+       \\
+       & \searrow \nearrow
+    }
+  $$
+
+* morphism are cylinder-diagrams over these.
+
+One finds along the lines of example 
+\ref{BZIsPiSOne} that this is equivalent to maps from $\Pi_1(S^1)$ into $X_\bullet$ and homotopies between these.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Even though all these models of the circle $\Pi_1(S^1)$ are equivalent,
+below the special appearance of the circle in the proof of 
+prop. \ref{FreeLoopSpaceOfGroupoid} as the combination of two semi-circles will be important for the following proofs. 
+As we see in a moment, this is the natural way in which the circle
+appears as the composition of an [[evaluation map]] with a [[coevaluation map]].
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -677,7 +735,17 @@ The prequantum field theory defined by a [[group character]]
   $$
   assigns to the [[circle]] the [[action functional]] which 
   sends a [[field configuration]] $g \in G = [\Pi(S^1), \mathbf{B}G]_0$
-  to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$.
+  to its value $c(g) \in U(1) = (\flat \mathbf{B}U(1))_1$:
+
+$$
+  \array{
+    \ast && && [\Pi_1(S^0),\mathbf{B}G]
+    \\
+    & {}_{\mathllap{0}} \searrow &&  
+    \\
+    && \flat \mathbf{B}U(1)
+  }
+$$
 
 =--
 
