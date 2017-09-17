@@ -1315,7 +1315,9 @@ In
 
 * [[Bill Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ [[Como]] (1990)
 
-the term _category of Being_ is used for a notion resembling that of a cohesive topos (with an [[adjoint quadruple]] but not considering _pieces have points_ or _discrete objects are concrete_). 
+the term _category of Being_ is used for a notion resembling that of a cohesive topos (with an [[adjoint quadruple]] but not considering _pieces have points_ or _discrete objects are concrete_). Behaviour of objects with respect to the extra left adjoined is interpreted in terms of properties of _Becoming_. The terminology here is probably inspired from
+
+* [[Hegel]], _[[Science of Logic]]_ (see  _[On being and becoming](#http://ncatlab.org/nlab/show/Science+of+Logic#OnBeingAndBecoming)_ ).
 
 In 
 
