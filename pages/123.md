@@ -26,17 +26,17 @@
 
 So a functor $F : C \to D$ is a [[morphism]] between two [[category|categories]] that 
 
-* constsis of a map $F_0 : Obj(C) \to Obj(D)$ of the objects of the categories
+* consists of a map $F_0 : Obj(C) \to Obj(D)$ of the objects of the categories
 
 * and a map $F_1 : Mor(C) \to Mor(D)$ of the morphisms of the categories
 
 such that
 
-* it respect source and target: $F_1$ coincides with $F_0$ on source and target objects;
+* it respects source and target: $F_1$ coincides with $F_0$ on source and target objects;
 
 * it respects composition: the image of the composite of two morphisms under $F$ is the composite of their images.
 
-This last property is the decicive one of a functor. It is called the **functoriality condition**. It is a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan we have
+This last property is the decisive one of a functor. It is called the **functoriality condition**. It is a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan we have
 
 The notion of functor is a [[horizontal categorification]] of that of [[homomorphism]].
 
@@ -85,7 +85,7 @@ Another equivalent way to say this is that a functor $F : C \to D$ is precisely 
 
 * the [[morphisms]] of $C$ and $D$ are the 1-cells of $N(C)$ and $N(D)$, so $N(F)_1 : N(F)_1 \to N(F)_1$ maps morphisms of $C$ to objects of $D$;
 
-* the identity morphisms of $C$ and $D$ are the degenerate 1-cellsof $N(C)$ and $N(D)$, so the fact that $N(F)$ respects degeneracy maps means that $F$ respects identities;
+* the identity morphisms of $C$ and $D$ are the degenerate 1-cells of $N(C)$ and $N(D)$, so the fact that $N(F)$ respects degeneracy maps means that $F$ respects identities;
 
 * the commuting triangles of $C$ and $D$ are the 2-cells of $N(C)$ and $N(D)$, so the fact that $N(F)$ maps 2-cells to 2-cells means that it respects commuting triangles, hence that it respects composition.
 
