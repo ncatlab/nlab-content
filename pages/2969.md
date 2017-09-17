@@ -1,18 +1,51 @@
-A [[continuous function|(continuous)]] map $i:A\to X$ of [[topological spaces]] is said to satisfy the **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}:X\to Y$ and a [[homotopy]] $F:A\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}:X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. Denote $f:=\tilde{f}\circ i=F(-,0)$; then this is expressed by means of the commutative diagram
 
-$$\array{
-A & &\stackrel{i}\to && X\\
-&\searrow^f&&\swarrow^{\tilde{f}}&\\
-{}^{\sigma_0}\downarrow & &Y&& \downarrow^{\sigma_0}\\
-&\nearrow{F}&&\nwarrow{\exists\tilde{F}}&\\
-A\times I &&\stackrel{i\times id}\to&&X\times I
-}$$
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A [[continuous function|(continuous)]] map $i:A\to X$ of [[topological spaces]] is said to satisfy the **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}:X\to Y$ and a [[homotopy]] $F:A\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}:X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. 
+
+If we write 
+
+$$
+  f:=\tilde{f}\circ i=F(-,0)
+  \,;
+$$ 
+
+then this is expressed by means of the [[commutative diagram]]
+
+$$
+\array{
+  A & & \stackrel{i}\to && X
+  \\
+  &\searrow^f && \swarrow^{\tilde{f}}&
+  \\
+  {}^{\mathllap{\sigma_0}}\downarrow & &Y && 
+    \downarrow^{\mathrlap{\sigma_0}}
+  \\
+  &\nearrow{F}&&\nwarrow{\exists\tilde{F}}&
+  \\
+  A\times I &&\stackrel{i\times id}\to&&X\times I
+}
+$$
 
 Here we denote $\sigma_0:x\mapsto (x,0)$, so that $F\circ\sigma_0=F(-,0)$. The map $\tilde{f}$ is sometimes said to be the _initial condition_ of a _homotopy extension problem_. $\tilde{F}$ is the extension of the homotopy $F$ with given initial condition which itself extends $F\circ\sigma_0$. 
 
-Surely it is superfluous to write the arrow $f:A\to Y$: if we erase it, the commutativity of the remaining square just surrounding its position is saying $F\circ\sigma_0=\tilde{f}\circ i$; however it is conceptually nice to think of $\tilde{f}$ as extending some $f:=F\circ\sigma_0$. 
+Of course it is superfluous to write the arrow $f:A\to Y$: if we erase it, the commutativity of the remaining square just surrounding its position is saying $F\circ\sigma_0=\tilde{f}\circ i$; however it is conceptually nice to think of $\tilde{f}$ as extending some $f:=F\circ\sigma_0$. 
 
-One can instead of the diagram above write a diagram involving adjoint maps. In other words, instead of any homotopy $h:A\times I\to Y$ we use the exponential law to write $h':A\to Y^I$ where the correspondence is given by the formula $h'(a)(t)=f(a,t)$. Then the homotopy lifting property is the existence of the diagonal map $\tilde{F}'$ in the diagram:
+One can instead of the diagram above write a diagram involving [[adjunction|adjoint]] maps. In other words, instead of any homotopy $h:A\times I\to Y$ we use the [[exponential object|exponential law]] to write $h':A\to Y^I$ where the correspondence is given by the formula $h'(a)(t)=f(a,t)$. Then the homotopy lifting property is the existence of the diagonal map $\tilde{F}'$ in the diagram:
 
 $$
   \array{
@@ -29,13 +62,18 @@ where $ev_0:Y^I\to Y$ is the map of evaluation at zero $u\mapsto u(0)$. This is 
 
 A map is a **[[Hurewicz cofibration]]** if it satisfies the homotopy extension property with respect to all spaces.
 
-+-- {: .un_prop}
+## Properties
+
++-- {: .num_prop}
 ###### Proposition
+
 If a map $i:A\to X$ has the homotopy extension property with respect to a space $Y$, then for any map $g:A\to Z$, the [[pushout]] $g_*(i)=i\amalg_A Z :Z\to X\amalg_A Z$ has the homotopy extension property with respect to the space $Y$. 
+
 =--
 
 +-- {: .proof}
 ###### Proof
+
 We would like to find $\tilde{F}$ to complete the commutative diagram 
 
 $$
@@ -69,3 +107,4 @@ $ev_0\circ\tilde{F}=F$ as $\tilde{F}\circ g_*(i)=f$ holds by the construction of
 
 By the definition of $\tilde{G}$ and the commutativity of the original double square diagram, $ev_0\circ \tilde{F}\circ i_*(g)=ev_0\circ\tilde{G}=F\circ i_*(g)$ and $ev_0\circ \tilde{F}\circ g_*(i)=ev_0\circ f=F\circ g_*(i)$. This is almost what we wanted except that we precompose the wanted identity with both maps into the pushout. Thus by the uniqueness part of the universal property of pushout it follows that $ev_0\circ\tilde{F}=F$.
 =--
+
