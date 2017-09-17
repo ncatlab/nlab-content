@@ -26,13 +26,13 @@
 
 +-- {: bluebox}
 
-**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology|generaized]]/[[nonabelian cohomology|nonabelian]] _[[differential cohomology]]_ which has realizations not just in [[higher differential geometry]] but also notably in [[higher complex analytic geometry]] and moreover in [[higher arithmetic geometry]] in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
+**Abstract** We discuss how the [[synthetic differential geometry]]-like axiomatics of _[[differential cohesion]]_ provides a theory of [[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology|generaized]]/[[nonabelian cohomology|nonabelian]] _[[differential cohomology]]_ which has realizations not just in [[higher differential geometry]] but also notably in [[higher complex analytic geometry]] and moreover in "[[higher arithmetic geometry]]" ([[E-∞ arithmetic geometry]]) in a way that systematizes some of the [[analogies]] which motivate the [[geometric Langlands correspondence]].
 
 =--
 
 ## Motivation
 
-A fruitful approach to mathematical theory is what might be called "inter-geometric", meaning that definitions and theorems make sense and hold when interpreted in different flavors of geometry. Examples are the [[GAGA principle]], the [[function field analogy]], the [[geometric Langlands correspondence|geometric]] [[Langlands correspondence]] and absolute [[F1]]-geometry. While in these examples the [[analogy]]  between different theories of geometry has been established case-by-case, there is by and large no meta-theory which would systematically imply the analogy. 
+A fruitful approach to mathematical theory is what might be called "inter-geometric", meaning that definitions and theorems make sense and hold when interpreted in different flavors of geometry. Classical examples are the [[GAGA principle]], the [[function field analogy]], the [[geometric Langlands correspondence|geometric]] [[Langlands correspondence]], more recent are various approaches to [[F1]]-geometry and [[global analytic geometry]]. While in these examples the [[analogy]]  between different theories of geometry has been established case-by-case, there is by and large no meta-theory which would systematically imply the analogy. 
 
 This is of practical concern for instance in the [[Langlands program]], where it is an open problem how the methods and insights which are deeply on the side of [[complex analytic geometry]], such as involving [[mirror symmetry]], might have incarnations on the [[arithmetic geometry]]-side. And vice-versa, the complex-analytic version of the conjecture was obtained by educated guessing via analogy from the arithmetic side in the first place, but this guesswork has been questioned ([[Problems in the theory of automorphic forms -- 45 years later|Langlands 14]]). Both of these issue would be resolved if one had an "inter-geometric" theory from which the correspondence both in [[arithmetic geometry]] and in [[complex-analytic geometry]] would both follow systematically.
 
@@ -47,7 +47,7 @@ A noteworthy example in this context is the construction of the refined [[Witten
 |------|----------|------------|---------|----|
 | [[differential geometry]] |  [[worldsheet]] | [[moduli stack of bundles]] |   |  |
 | [[complex analytic geometry]] | [[complex curve]]  |  [[Jacobian]]/moduli of [[stable vector bundle|(semi-)stable bundles]]  |  [[moduli stack of Riemann surfaces]] |  [[modular functor]], [[Witten genus]], ...  |
-| [[arithmetic geometry]] |  [[arithmetic curve]]   | [[geometric Langlands correspondence|geometric Langlands]]/[[Tamagawa measures]] | [[moduli stack of curves]] |  [[equivariant elliptic cohomology]], [[string orientation of tmf]], ...  |
+| [[arithmetic geometry]] |  [[arithmetic curve]]   | [[Tamagawa measures]]...[[geometric Langlands correspondence|geometric Langlands]] | [[moduli stack of curves]] |  [[equivariant elliptic cohomology]], [[string orientation of tmf]], ...  |
 
 The construction of the bottom right items here is a ground-breaking accomplishment in [[algebraic topology]], but at least in view of the origin of the WZW-string and the [[Witten genus]] in [[string theory]] it maybe raises more questions than it solves: from the perspective of physics these are but the first example of a tower of higher dimensional [[brane]] phenomena, the next instance being the [[partition function]] of the [[M5-brane]] and then that of 10d [[string theory]] itself (see e.g. at _[[self-dual higher gauge theory]]_).  
 
@@ -77,7 +77,7 @@ The idea of refining such a [[synthetic mathematics|synthetic reasoning]] to [[d
 |--------------------------------------------|
 | [[higher differential geometry]]                 |
 | [[higher complex analytic geometry]]       |
-| [[higher arithmetic geometry]]             |
+| [[E-∞ arithmetic geometry|higher arithmetic geometry]]             |
 
 
 
@@ -104,9 +104,9 @@ $$
 
 where 
 
-* $\mathbb{A}_{\mathbb{Z}} = \prod_p \mathbb{Z}_p$ is the [[product]] of all rings of [[p-adic integers]] -- the _[[ring of integral adeles]]_;
+* $\mathbb{A}_{\mathbb{Z}} = \prod_p \mathbb{Z}_p$ is the [[product]] of all rings of [[p-adic integers]] -- the _[[ring of integral adeles]]_ (finite integral adeles);
 
-* $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q}\otimes \mathbb{A}_{\mathbb{Z}} = \prod_p^{\prime} \mathbb{Q}_{p}$ is the [[restricted product]] of all rings of [[p-adic rational numbers]] -- the _[[ring of adeles]]_.
+* $\mathbb{A}_{\mathbb{Q}} = \mathbb{Q}\otimes \mathbb{A}_{\mathbb{Z}} = \prod_p^{\prime} \mathbb{Q}_{p}$ is the [[restricted product]] of all rings of [[p-adic rational numbers]] -- the _[[ring of adeles]]_ ([ring of finite adeles]]).
 
 For the case that $n = 1$ then the left part of this quotient is the _[[idele class group]]_, for higher $n$ this is an object in some nonabelian generalization of [[class field theory]].
 
@@ -292,7 +292,7 @@ for modern applications we need a systematic dictionary of the form
 |--------------------------------------------|
 | [[higher differential geometry]]           |
 | [[higher complex analytic geometry]]       |
-| [[higher arithmetic geometry]]             |
+| [[E-∞ arithmetic geometry|higher arithmetic geometry]]             |
 
 We will discuss here how this may be done via the axiomatics called _[[cohesive homotopy theory]]_ and _[[differential cohesion]]_ in ([Schreiber 13](#Schreiber13)).
 
@@ -551,6 +551,7 @@ $\tau \colon X \to Pic(\hat E)$ is the $\tau$-twisted $\hat E$-cohomology of $X$
 
 =--
 
+
 See [here](tangent+cohesion#Cohomology) for details and further discussion.
 
 So [[cohesion]] faithfully axiomatizes "inter-geometric" twisted differential generalized cohomology. 
@@ -608,6 +609,7 @@ By going back and forth, the [[adjoint quadruple]] on the left induces a further
 
 $$
   (\Re \dashv \Pi_{inf} \dashv \flat_{inf})
+
   \colon 
   \mathbf{H} \to \mathbf{H}
 $$
@@ -764,7 +766,7 @@ which is homotopy cartesian.
 
 Above we found general synthetic axioms for differential cohomology and realization of these axioms in [[higher differential geometry]] and [[higher complex analytic geometry]]. Both turned out to exhibit also _relative_ [[differential cohesion]] over "[[formal moduli problems]]".
 
-While [[higher arithmetic geometry]] is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit such a kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}.
+While [[higher arithmetic geometry]](i.e. [[E-∞ arithmetic geometry]]) is not [[cohesion|cohesive]] over the standard [[base (∞,1)-topos]] [[∞Grpd]], it does turn out to exhibit such a kind of relative [[differential cohesion]] in a way that the corresponding relative [[differential cohomology hexagon]] subsumes the traditional [[arithmetic fracture square]] of prop. \ref{ArithmeticFractureSquare}.
 
 +-- {: .num_prop #CompletionTorsionAdjointModalityForModuleSpectra}
 ###### Proposition
