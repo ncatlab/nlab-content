@@ -4,11 +4,13 @@
 
 * [[Riemannian manifold]]
 
-  * [[metric]]
+  * [[metric]], [[isometry]], [[isometry group]]
+
+* [[moduli space of Riemannian metrics]]
 
 * [[pseudo-Riemannian manifold]]
 
-  * [[Lorentzian manifold]]
+  * [[Lorentzian manifold]], [[spacetime]]
 
 * [[geodesic]]
 
@@ -18,9 +20,8 @@
 
 * [[Levi-Civita connection]]
 
-  * [[Riemann curvature]]
+  * [[Riemann curvature]], [[torsion of a metric connection]]
 
-* [[moduli space of Riemannian metrics]]
 
 ## Theorems
 
@@ -30,7 +31,7 @@
 
 * [[gravity]]
 
-  * [[Einstein-Hilbert action]]
+  * [[Einstein-Hilbert action]], [[Einstein equations]], [[supergravity]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/Riemannian+geometry+-+contents)</div>
