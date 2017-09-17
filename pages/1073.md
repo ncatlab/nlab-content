@@ -29,6 +29,17 @@ In light of the [[Dold-Kan correspondence]] this means that abelian sheaves can 
 
 For instance [[Deligne cohomology]], which classifies higher abelian [[gerbe]]s (certain [[infinity-stack]]s) with [[connection]]), is the [[sheaf cohomology]] of a certain class of sheaves with values in abelian complexes. This is understood conceptually by realizing that after embedding complexes of abelian sheaves -- via [[Dold-Kan correspondence|Dold-Kan]] -- into  general [[simplicial presheaf|simplicial sheaves]], a complex of abelian sheaves becomes an abelian $\infty$-prestack and the computation of its [[sheaf cohomology]] corresponds to passing to its [[infinity-stackification]].
 
+## Properties
+
+### Projective objects
+
+See at _[[projective object]]_ the section _[Existence of enough projectives](projective+object#ExistenceOfEnoughProjectives)_.
+
+## Related concepts
+
+* [[abelian group]]
+
+* [[abelian sheaf cohomology]]
 
 ## References
 
