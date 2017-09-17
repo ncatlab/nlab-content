@@ -16,11 +16,15 @@
 
 ## Idea
 
+### General 
+
 A **connective spectrum** is a [[spectrum]] whose [[homotopy group]]s in negative degree vanish. These are equivalently
 
 * [[infinite loop spaces]];
 
-* [[group object in an (infinity,1)-category|grouplike]] [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoids]].
+* [[group object in an (infinity,1)-category|grouplike]] [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[∞-groupoids]];
+
+* [[abelian ∞-groups]].
 
 Connective spectra form a [[sub-(∞,1)-category]] of [[spectra]]
 
