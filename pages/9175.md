@@ -48,4 +48,13 @@ There is a canonical projection $\overline{\rho} \;\colon\; V//G \to \mathbf{B}G
 
 * [[mapping stack]]
 
+* [[orbifold]], [[Deligne-Mumford stack]]
+
+
+## References
+
+(...)
+
+* [[Jack Morava]], _Theories of anything_ ([arXiv:1202.0684](http://arxiv.org/abs/1202.0684))
+
 [[!redirects quotient stacks]]
