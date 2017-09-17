@@ -77,3 +77,4 @@ The [[higher parallel transport|higher]] holonomy of [[circle n-bundles with con
 
 
 [[!redirects holonomies]]
+[[!redirects higher holonomy]]
