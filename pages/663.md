@@ -95,6 +95,18 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 
 * An equational [[Horn theory]] is essentially algebraic, but not all essentially algebraic theories are equational Horn theories. Perhaps surprisingly, $Cat$ is not the category of models of any equational Horn theory, nor is even the category $Pos$ of posets. See [this paper](ftp://132.206.150.195/pub/barr/pdffiles/horn.pdf) by Barr for a proof. 
 
+## Related concepts
+
+* [[algebraic theory]] / [[Lawvere theory]] / **essentially algebraic theory** 
+
+  * [[2-Lawvere theory]]  
+
+  *  [[algebraic (∞,1)-theory]] / [[essentially algebraic (∞,1)-theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / [[(∞,1)-operad]]
+
 
 [[!redirects essentially algebraic theory]]
 [[!redirects essentially algebraic theories]]
