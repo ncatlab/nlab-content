@@ -54,6 +54,8 @@ There are [[model category]] [[presentable (infinity,1)-category|presentations]]
 
 * [[(∞,1)-sheaf]] / [[∞-stack]]
 
+* [[(∞,n)-sheaf]]
+
 * [[descent]]
 
   * [[cover]]
