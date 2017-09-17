@@ -35,9 +35,18 @@ See at _[[Bohr topos]]_ for more.
 
 * [[linear logic]], [[quantum computing]]
 
+* [[quantum mechanics]]
+
+* [[Kochen-Specker theorem]]
+
+* [[Gleason's theorem]]
+
+* [[quantale]], 
+
+* [[Bohr topos]]
+
 ## Literature
 
-Related entries [[quantum mechanics]], [[Kochen-Specker theorem]], [[Gleason's theorem]], [[quantale]], [[Bohrification]]
 
 Stanford encyclopaedia of philosophy: [quantum logic and probability theory](http://plato.stanford.edu/entries/qt-quantlog), [quantum mechanics](http://plato.stanford.edu/entries/qm) (abbrev. qm), [qm: Kochen-Specker theorem](http://plato.stanford.edu/entries/kochen-specker), [qm: von Neumann vs. Dirac](http://plato.stanford.edu/entries/qt-nvd), [qm: Bohmian mechanics](http://plato.stanford.edu/entries/qm-bohm), [qm:colapse theories](http://plato.stanford.edu/entries/qm-collapse), [Copenhagen interpretation of qm](http://plato.stanford.edu/entries/qm-copenhagen), [many-world interpretation of qm](http://plato.stanford.edu/entries/qm-manyworlds), [modal-interpretations of qm](http://plato.stanford.edu/entries/qm-modal), [Everett's relative-state formulation of qm](http://plato.stanford.edu/entries/qm-everett)
 
