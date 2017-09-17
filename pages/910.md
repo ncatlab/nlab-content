@@ -36,11 +36,34 @@ continuous if and only if $f$ is $k$-continuous.
 
 A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t:C\to X$ is closed (when $C$ is compact Hausdorff).
 
-## Cartesian closure 
+## Kaonization
 
-The category $k\Top$ of topological spaces and $k$-continuous maps is [[cartesian closed category|cartesian closed]]. In fact the exponential map 
+Let $k\Top$ denote the category of $k$-spaces and continuous maps, and $\Top_k$ denote the category of all topological spaces and $k$-continuous maps.  We have inclusions
+$$ k\Top \to \Top \to \Top_k $$
+of which the first is the inclusion of a [[full subcategory|full]] [[coreflective subcategory]], the second is [[bijective on objects functor|bijective on objects]], and the composite $k\Top \to Top_k$ is an [[equivalence of categories]].
+
+The [[coreflection]] $\Top \to k\Top$ is denoted $k$, and is sometimes (e.g. by [[M M Postnikov]]) also called **kaonization** and sometimes (e.g. by [[Peter May]]) **$k$-ification**.  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact Hausdorff subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more.
+
+In particular, the identity map $id:k(X)\to X$ is continuous, and forms the counit of the coreflection.  Thus this coreflection has a counit which is both [[monic]] and [[epic]], i.e. a "[[bimorphism]]"---such a coreflection is sometimes called a "bicoreflection."
+
+Moreover, the identity $id: X \to k(X)$ is $k$-continuous, so that the counit becomes an isomorphism in $\Top_k$.  This shows that $k\Top \to \Top_k$ is [[essentially surjective functor|essentially surjective]], and it is fully faithful since any $k$-continuous function between $k$-spaces is $k$-continuous; hence it is an equivalence.
+
+Since $k\Top \hookrightarrow \Top$ is coreflective, it follows that $k\Top$ is [[complete category|complete]] and [[cocomplete category|cocomplete]].  Its [[colimits]] are constructed as in $Top$, but its [[limits]] are the $k$-ification of limits in $Top$.  This is nontrivial already for [[products]]: the $k$-space product $X\times Y$ is the $k$-ification of the usual [[product topology]].  The $k$-space product is better behaved in many ways; e.g. it enables [[geometric realization]] to preserve products (and all finite limits), and the product of two [[CW complexes]] to be another CW complex.
+
+
+## Weak Hausdorffification
+
+(this is a left adjoint...)
+
+
+## Cartesian closure
+
+The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian closed]].  For arbitrary spaces $X$ and $Y$, define the *test-open topology* on $\Top_k(X,Y)$ to have the [[subbase]] of sets $M(t,U)$, for a given $t: C
+\to X$ and $U$ open in $Y$, where $M(t,U)$ consists of all $k$-continuous functions $f:X \to Y$ such that $f(t(C))\subseteq U$.
+
+With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$.  It follows, by [[Yoneda lemma]] arguments, that the bijection
 $$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
-is a homeomorphism (not just a $k$-homeomorphism). 
+is actually an isomorphism in $\Top_k$, which we may call a *$k$-homeomorphism*.  In fact, it is actually a homeomorphism, i.e. an isomorphism already in $Top$.
 
 +--{: .query}
 [[Zoran Škoda]]: I do not understand the remark. I mean if the domain is k-space then by the characterization above continuous is the same as k-continuous. Thus if both domain and codomain are continuous then homeo is the same as k-homeo. I assume that even in noHausdorff case, the test-open topology for $X$ and $Y$ k-spaces gives a k-space and that the cartesian product has the correction for the k-spaces. 
@@ -49,21 +72,19 @@ is a homeomorphism (not just a $k$-homeomorphism).
 
 [[Mike Shulman]]: But any topological space is isomorphic in $k\Top$ to its $k$-ification, right?  So $k\Top$ might as well be defined to consist of $k$-spaces and continuous maps. 
 
-[[Todd Trimble]]: Okay, you're right that makes sense. So in that case, it seems that Zoran definitely has a point here. 
+[[Todd Trimble]]: Okay, you're right that makes sense. So in that case, it seems that Zoran definitely has a point here.
+
+[[Mike Shulman]]: See the [nForum discussion](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1958).
 =--
 
-The topology on $k\Top(X,Y)$ that is used here is the test-open
-topology, which has the [[subbase]] of sets $M(t,U)$ for a given $t: C
-\to X$ and $U$ open in $Y$ of all $k$-continuous functions $f:X \to
-Y$ such that $f(t(C))\subseteq U$.
+It follows that the category $k\Top$ of $k$-spaces and continuous maps is also cartesian closed, since it is equivalent to $\Top_k$.  Its exponential object is the $k$-ification of the one constructed above for $\Top_k$.  Since for $k$-spaces, $k$-continuous implies continuous, the underlying set of this exponential space $k\Top(X,Y)$ is the set of all continuous maps from $X$ to $Y$.
 
-It follows that the category of $k$-spaces and continuous maps is also cartesian closed.  This remains true if we also impose the weak Hausdorff condition.
+This all remains true if we also impose the weak Hausdorff, or Hausdorff, conditions.  If $X$ and $Y$ are Hausdorff $k$-spaces, then we can identify the mapping spaces $kHaus(X,Y)=k(Top(X,Y))$, where $Top(X,Y)$ has the [[compact-open topology]] (the best approximation to an exponential space in $Top$).
 
-## Kaonization
++--{: .query}
+[[Mike Shulman]]: Is the Hausdorff condition necessary there?
+=--
 
-Let us consider for the moment only the categories $Haus$ of Hausdorff and $kHaus$ of Hausdorff k-spaces. Then the tautological inclusion $kHaus\subset Haus$ has a right adjoint $k$ sometimes (e.g. by [[M M Postnikov]]) also called **kaonization** and sometimes (e.g. by [[Peter May]]) $k$-ification.  This functor is constructed as follows: we take $k(X)=X$ as a set, but with the topology whose closed sets are those whose intersection with compact subsets of (the original topology on) $X$ is closed (in the original topology on $X$). Then $k(X)$ has all the same closed sets and possibly more, hence all the same open sets and possibly more. In particular, the identity map $id:k(X)\to X$ is continuous.
-
-We can identify the mapping spaces $kHaus(X,Y)=k(Top(X,Y))$, where $Top(X,Y)$ is the standard mapping space in the sense of compact-open topology. Similarly, the categorical product in $kHaus$ is the kaonification of the usual (Tyhonov) product. Then $kHaus$ is [[cartesian closed category|cartesian closed]]. See G. Whitehead's _Elements of homotopy theory_, for more details.  
 
 ## Local cartesian closure 
 
@@ -97,7 +118,9 @@ Many properties of compactly generated Hausdorff spaces are used to establish a 
 
 * [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 
-Later references include
+Other and later references include
+
+* G. Whitehead, _Elements of homotopy theory_
 
 * [[Ronnie Brown]], _Topology and groupoids_, Booksurge 2006, section 5.9. 
 
