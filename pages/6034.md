@@ -1,3 +1,8 @@
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Motivation
 
 In the philosophy of Grothendieck school, one starts with some category $C$ of "local models" of spaces, equips it with a subcanonical Grothendieck topology, $\tau$, and enlarges $C$ to some category of sheaves of sets on the site $(C,\tau)$ playing the role of *spaces*. There are further generalizations to stacks and so on.
@@ -20,3 +25,7 @@ $h_X\to G$, the projection $F\times_G h_X\to h_X$ is in $\mathcal{P}$.
 In particular, a morphism $h_X\to h_Y$ is representable by a morphism in $\mathcal{P}$ iff it is of the form $h_w$ with $x\stackrel{w}\longrightarrow y\in \mathcal{P}$.
 
 This way the class $\mathcal{P}$ of morphisms in $C$ is extended to a class $\mathcal{P}\check{}$ of morphisms in the category of presheaves of sets $C\check{} = Set^{C^{op}}$.
+
+## Examples
+
+* [[representable morphism of stacks]]
