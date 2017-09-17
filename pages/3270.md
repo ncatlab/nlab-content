@@ -1,6 +1,6 @@
 ## Overview
 
-In study of solitons, one can try a WKB-style approximation to nonlinear wave equation (cf. eikonal equation, Maslov index etc.). Stokes has observed that when trying to connect the local solutions, one has discontinuities along certain lines, now called **Stokes lines**. This is called Stokes phenomenon. Similar issues appear in study of [[isomonodromic deformation]]s of nonlinear ODE-s in complex plane, what is also relevant in soliton theory, and integrable systems, and special functions like Painleve transcendents. This has especially much been studied by Kyoto school (Jimbo, Miwa, Sato, Kasiwara etc.), including using [[D-modules]] and microanalysis. Kyoto school found a connection of isomonodromic theory to so-called holonomic quantum systems (long series of papers, mainly in Publ. RIMS). 
+In study of solitons, one can try a WKB-style approximation to nonlinear wave equation (cf. eikonal equation, Maslov index etc.). Stokes has observed that when trying to connect the local solutions, one has discontinuities along certain lines, now called **Stokes lines**. This is called Stokes phenomenon. Similar issues appear in study of [[isomonodromic deformation]]s of nonlinear ODE-s in complex plane, what is also relevant in soliton theory, and integrable systems, and special functions like Painleve transcendents. This has especially much been studied by Kyoto school (Jimbo, Miwa, Sato, [[Masaki Kashiwara|Kashiwara]] etc.), including using [[D-modules]] and [[microlocal analysis]]. Kyoto school found a connection of isomonodromic theory to so-called holonomic quantum systems (long series of papers, mainly in Publ. RIMS). 
 
 In [[algebraic geometry]], [[Grothendieck]] has shown how to correctly define and construct some fundamental moduli spaces, like Hilbert schemes and Quot schemes for coherent sheaves. The work has been continued by Mumford who geometrized classical invariant theory into [[geometric invariant theory]]. To keep moduli under control, one needs to impose stability conditions on objects and also look at classes with some fixed data; they also involve slopes or equivalently phase factors, similarly to the phases of eikonal in the case of Stokes phenomenon. Cf. also [[Castelnuovo-Mumford regularity]] (cf. [wikipedia](http://en.wikipedia.org/wiki/Castelnuovo%E2%80%93Mumford_regularity)) etc. 
 
@@ -19,13 +19,17 @@ Department of Mathematics, University of Illinois at Urbana-Champaign
 
 * Description of seminar on stability conditions and Stokes factors in Bonn, [pdf](http://www.math.uni-bonn.de/people/compgeo/Hall.pdf)## References on wall crossing functors in representation theory
 
-## Literature: Representation theory wall crossing functors
+## Literature
+
+###Representation theory wall crossing functors
 
 * (rep. theory wall crossing functors) A. [[Beilinson]], [[Victor Ginzburg|V. Ginzburg]], _Wall-crossing functors and $D$-modules_, Representation Theory __3__ (electronic), 1--31 (1999) [pdf](http://www.ams.org/ert/1999-003-01/S1088-4165-99-00063-1/S1088-4165-99-00063-1.pdf).
 
-## References: wall crossing related to stability and Stokes factors
+### Wall crossing related to stability and Stokes factors
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
+
+* Arend Bayer, Yuri I. Manin, _Stability conditions, wall-crossing and weighted Gromov-Witten invariants_, [math.AG/0607580](http://arxiv.org/abs/math.AG/0607580), Mosc. Math. J. __9__ (1), 2009.
 
 * Mina Aganagic, Hirosi Ooguri, Cumrun Vafa, Masahito Yamazaki, _Wall crossing and M-theory_, [arxiv/0908.1194](http://arxiv.org/abs/0908.1194)
 
