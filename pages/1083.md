@@ -73,6 +73,8 @@ Equipped with the standard [[tensor product of chain complexes]] $Ch_\bullet$ is
 
 ## Related concepts
 
+* [[homotopy category of chain complexes]]
+
 * [[derived category]], [[derived functor]]
 
 * [[(∞,1)-category of chain complexes]]
