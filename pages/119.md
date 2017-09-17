@@ -1,20 +1,25 @@
-#The Idea 
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## The Idea 
 
 A preorder is like a [[partial order]], but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  The reason is that if we think of a partially ordered set as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preordered set, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
 
-#Definition
+## Definition
 
 A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder.
 
 Equivalently, a proset is a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.
 
-#Fact
+## Fact
 
 Any preordered set is [[equivalence of categories|equivalent]] to a [[partial order|poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
 
-#Discussion
+## Discussion
 
-## Axiom of choice
+### Axiom of choice
 
 _[[Todd Trimble|Todd]] says:_ It's not clear to me how one avoids the axiom of choice. For example, any equivalence relation $E$ on a set $X$ defines a preorder whose posetal reflection is the quotient $X \to X/E$, and it seems to me you need to split that quotient to get the equivalence between the preorder and the poset.
 
@@ -32,7 +37,7 @@ _Toby_:  Given the definition there that a skeleton must be a subcategory (not m
 
 _Mike_: We decided not to formally define a non-evil version of "subcategory," but [[subcategory]] currently is defined to mean the evil version.  However, I see that you edited [[skeleton]] to allow any equivalent skeletal category, and I can't really argue that that is a more reasonable definition in the absence of choice.
 
-## Poset reflection
+### Poset reflection
 
 _[[Eric Forgy|Eric]] says_: It seems to me that any category $C$ gives rise to a preorder in a natural way, i.e.
 
@@ -62,7 +67,7 @@ _Mike_: I don't think the preorder reflection $Cat\to Ord$ is full.  Let $C$ be 
 
 _Toby_:  Yeah, you\'re right; I made a level slip while thinking about this.  I fixed my comment above.
 
-## 'proset'
+### 'proset'
 
 [[Tim Porter]]: I see a potential problem with this terminology.   Proset has an already accepted meaning as a pro-object in Sets and that terminology dates back to early days of Grothendieck on Descent, so is well established. There are several situations in the various pages and entries that will lead to pro-objects (i.e. projective systems in ...) so feel it might be better to avoid the term proset here.
 
