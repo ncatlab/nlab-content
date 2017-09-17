@@ -75,7 +75,17 @@ $$
   \,.
 $$
 
+Such monoidal toposes appear as categories of [[local action functionals]] in the context of _[[motivic quantization]]_. 
+
 =--
+
++-- {: .num_example}
+###### Example
+
+The [[classifying topos for the theory of objects]] which is the [[presheaf topos]] $[FinSet, Set]$ on the [[opposite category]] of [[FinSet]] or equivalently the category of [[finitary monad|finitary]] [[endofunctors]] $End_f(Set)$ is naturally a monoidal topos under [[composition]] of endofunctors. A standard textbook reference is ([Johnstone D3.2](#Johnstone)). The [[enriched category theory]] over this monoidal category is discussed in ([Garner 13](#Garner13)).
+
+=--
+
 
 +-- {: .num_example}
 ###### Example
@@ -92,6 +102,19 @@ In ([Dolan 11](#Dolan11)) is indicated a category of "toric [[quasicoherent shea
 =--
 
 ## References
+
+For references on [[Day convolution]] see there.
+
+The monoidal [[classifying topos for the theory of objects]] is discussed for instance in 
+
+* [[Peter Johnstone]], section D3.2 in _[[Sketches of an Elephant]]_
+ {#Johnstone}
+
+* [[Richard Garner]], _Lawvere theories, finitary monads and Cauchy-completion_ ([arXiv:1307.2963](http://arxiv.org/abs/1307.2963))
+ {#Garner13}
+
+
+A monoidal classifying topos of "toric quasicoherent sheaves" is indicated in
 
 * [[James Dolan]], _tannakian correspondence for toric varieties (sketch for a doctoral thesis)_, December 2011 ([web](http://notebook360x.blogspot.nl/2011/12/toposes-of-toric-quasicoherent-sheaves.html))
  {#Dolan11}
