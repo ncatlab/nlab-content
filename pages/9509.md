@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $G$ a suitable [[Lie group]], the _Verlinde ring_ is the collection of [[isomorphism classes]] of [[positive energy representations]] of the corresponding [[loop group]], equipped with the "fusion" [[tensor product]].
+
+The Verlinde ring is also understood as being the ring of [[equivariant cohomology|equivariant]] [[twisted K-theory]] classes on $G$ ([FHT](#FHT)) and, essentially equivalently, of [[Chan-Paton gauge fields]] over [[D-branes]] in the [[WZW model]] (see there for further references).
+
+## References
+
+* [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]_
+
+[[!redirects Verlinde rings]]
