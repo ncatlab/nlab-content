@@ -6,6 +6,8 @@ Eric Friedlander is an American mathematician, who has worked extensively in alg
 
 ## related $n$Lab entries
 
+* [[étale homotopy]]
+
 * [[Nisnevich site]]
 
 * [[motivic cohomology]]
