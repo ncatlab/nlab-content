@@ -150,7 +150,7 @@ The [[supergravity C-field]] is an example of a general phenomenon of
 higher abelian Chern-Simons QFTs in the presence of 
 _background charge_. This phenomenon was originally noticed
 in ([Witten](#Witten96)) and then made precise in 
-([HopkinsSinger](#HopkinsSinger)).
+([HopkinsSinger 05](#HopkinsSinger05)).
 The holographic dual of this phenomenon is that of
 self-dual higher gauge theories, which for the supergravity $C$-field
 is the 2-form theory on the [[M5-brane]] -- see there for a discussion of this example. Here we discuss this effect generally, for higher abelian Chern-Simons theory in arbitrary dimension $4k+3$.
@@ -319,7 +319,7 @@ $-\frac{1}{2}\lambda$_.
 
 This of course only makes sense if $X$ is such that 
 $\lambda$ is further divisible by 2, which we will
-assume now. In ([Hopkins-Singer](#HopkinsSinger)) is discussed a way to
+assume now. In ([Hopkins-Singer 05](#HopkinsSinger05)) is discussed a way to
 make sense of the further division in general if one passes to a certain notion of  twisted differential cohomology. One can also adopt a different perspective and interpret the condition that $\frac{1}{2}p_1$ is further divisible by 
 2 precisely as a $\mathrm{String}^{2a}$-structure
 ([SSS3](http://ncatlab.org/schreiber/show/Twisted+Differential+String+and+Fivebrane+Structures)). This is a higher analog
@@ -478,8 +478,7 @@ For the formulation of abelian Chern-Simons theory by fiber integration over cup
 
 The idea of describing [[self-dual higher gauge theory]] by abelian Chern-Simons theory in one dimension higher originates in 
 
-* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ Journal of Geometry and Physics
-Volume 22, Issue 2, May 1997, Pages 103-133  ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ Journal of Geometry and Physics, Volume 22, Issue 2, May 1997, Pages 103-133  ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
  {#Witten96}
 
 (there for the [[6d (2,0)-susy QFT]] on the [[fivebrane]]) and
@@ -488,8 +487,8 @@ Volume 22, Issue 2, May 1997, Pages 103-133  ([arXiv:hep-th/9610234](http://arxi
 
 Motivated by this the [[differential cohomology]] of self-dual fields had been discussed in 
 
-* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
- {#HopkinsSinger}
+* {#HopkinsSinger05} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_, 2005
+ 
 
 More discussion of the general principle is in 
 
@@ -530,10 +529,12 @@ For more references see at
 
 ### Formulation in $\infty$-Chern-Simons theory
 
+Below (5.11) of ([Hopkins-Singer 05](#HopkinsSinger05)).
+
 Section 4.1.4 of
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
- {#FRS}
+* {#FRS} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
+ 
 
 Section 4.4 of 
 
@@ -553,4 +554,3 @@ Boundary [[higher dimensional WZW models]] for nonabelian [[higher dimensional C
 [[!redirects higher Chern-Simons theories]]
 
 [[!redirects higher dimensional Chern-Simons theories]]
-
