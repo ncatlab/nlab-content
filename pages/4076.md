@@ -7,7 +7,11 @@
 
 A **universal element** of a [[functor]] $F: C \to Set$ is an element $\theta \in F(x)$, where $x$ is some [[object]] of $C$, which exhibits [[representable functor|representability]] of $F$ via the [[Yoneda lemma]]. That is, any element $\theta \in F(x)$ induces, in natural bijective fashion, a [[natural transformation]]
 
-$$\hat{\theta}: \hom(x, -) \to F: (f: x \to y) \mapsto F(f)(\theta)$$ 
+$$\hat{\theta}: \hom(x, -) \to F$$ 
+
+[ ]
+
+$$\hat{\theta}_y(f: x \to y) \stackrel{def}{=} F(f)(\theta)$$ 
 
 and $\theta$ is _universal_ if $\hat{\theta}$ is an isomorphism. 
 
@@ -27,21 +31,20 @@ Consider first the construction of internal conjunction $\wedge: \Omega \times \
 
 ### Colimits of nerves 
 
-A [question](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1284) was brought to the nForum on [[colimit]]s of [[nerve]]s asked if the following is true:
+A [question](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=1284) was brought to the nForum on [[colimit]]s of [[nerve]]s, conjecturing the following which we state as a proposition (proof below): 
 
 +-- {: .un_prop}
-###### Propoposition
+###### Proposition
 
 If $C$ is a [[small category]], then the [[colimit]] of the composite 
 
 $$C^{op} \stackrel{(- \downarrow C)}{\to} Cat \stackrel{Nerve}{\to} Set^{\Delta^{op}}$$ 
 
-equivalent to the [[nerve]] of $C$.
+is equivalent to the [[nerve]] of $C$.
 
 =--
 
-
-The answer is in the affirmative. As a warm-up: 
+As a warm-up: 
 
 +-- {: .un_lemma}
 ###### Lemma
@@ -67,7 +70,7 @@ and it is immediate that every generalized element $g: c \to d$ is equivalent to
 =--
 
 
-Now for the question on colimits of nerves. 
+Now we prove the proposition on colimits of nerves. 
 
 +-- {: .proof}
 ###### Proof
