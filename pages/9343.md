@@ -1,4 +1,8 @@
 
+## Related concepts
+
+* [[singular point of a curve]]
+
 ## References
 
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
