@@ -43,7 +43,7 @@ Let $C$ be a [[category]] with [[pullback]]s. A **Grothendieck pretopology** or 
 
 =--
 
-If we drop the first and third conditions, we obtain the notion of a [[coverage]] on a category with pullbacks; conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies.
+If we drop the first and third conditions, we obtain the notion of a [[coverage]] on a category with pullbacks; conversely every coverage on a category with pullbacks generates a Grothendieck pretopology by an evident closure process.  However, many coverages that arise in practice are actually already Grothendieck pretopologies. On the other hand, for some analogues in noncommutative algebraic geometry, rather the stability axiom fails. 
 
 
 +-- {: .un_defn}
@@ -62,8 +62,7 @@ Given any [[Grothendieck topology]] on $C$, there is a **maximal basis** which g
 
 ## Examples 
 
-The prototype is the pretopology on the [[category of open subsets]] $Op(X)$ 
-of a [[topological space]] $X$, consisting of [[open cover]]s of $X$. 
+The prototype is the pretopology on the [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$, consisting of [[open cover]]s of $X$. 
 
 Notice that a **[[basis for the topology]]** of $X$ is not a Grothendieck pretopology on $Op(X)$ (since it is in general not closed under pullback, which here is restriction) but is a [[coverage]] on $Op(X)$.
 
@@ -74,9 +73,7 @@ Grothendieck pretopologies on [[Top]] include:
 * Surjective [[topological submersion|topological submersions]]
 * Surjective [[local homeomorphism|local homeomorphisms]]
 
-An example for the category [[Diff]] of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single morphisms. Such a pretopology is called a *singleton* pretopology (or, if you prefer the name [[coverage]], a singleton coverage).
-
-Most of the examples of [[coverage|coverages]] are in fact Grothendieck pretopologies.
+An example for the category [[Diff]] of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single morphisms. Such a pretopology is called a *singleton* pretopology (and, in particular, it is a *singleton coverage*).
 
 An example of a coverage that is not a pretopology is the coverage of [[good open cover]]s, say on [[Diff]]. In general the pullback of a good open cover is just an [[open cover]], not necessarily still one where all finite non-empty intersections are contractible.
 
@@ -86,7 +83,7 @@ An example of a coverage that is not a pretopology is the coverage of [[good ope
 The definition appears for instance as definition 2 on page 111 of
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
-* MO questions: [example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition](http://mathoverflow.net/questions/42437/example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition)
+* MO questions: [example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition](http://mathoverflow.net/questions/42437/example-of-a-grothendieck-pretopology-satisfying-a-weak-saturation-condition), [colimits-of-covers](http://mathoverflow.net/questions/44893/colimits-of-covers)
 
 [[!redirects Grothendieck pretopologies]]
 
