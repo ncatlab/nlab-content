@@ -87,7 +87,7 @@ The two [[diagram]]s can be translated into equations, which may often be helpfu
 
 *   If we write the effect of acting with $g_1\in G_1$ on $g_2\in G_2$ as ${}^{g_1}g_2$, then the second diagram translates as the equation:
     $$\delta({}^{g_1}g_2) = g_1\delta(g_2)g_1^{-1}.$$
-In other words that $\delta$ is equivariant for the action of $G_1$. 
+In other words, $\delta$ is equivariant for the action of $G_1$. 
 
 *   The first diagram is slightly more subtle.  The group $G_2$ can act on itself in two different ways, (i) by the usual conjugation action, ${}^{g_2}g^\prime_2=g_2g^\prime_2g_2^{-1} $ and (ii) by first mapping $g_2$ down to $G_1$ and then using the action of that group back on $G_2$.  The first diagram says that the two actions coincide. Equationally this gives:
 $${}^{\delta(g_2)}g^\prime_2 = g_2g^\prime_2g_2^{-1}.$$
@@ -132,6 +132,7 @@ between the corresponding [[delooping|delooped]] [[2-groupoid]]s. Expressing thi
 
 
 * Suppose $F\stackrel{i}{\to}E\stackrel{p}{\to}B$ is a [[fibration sequence]]
+
   of [[pointed object|pointed spaces]], thus $p$ is a [[fibration]] in the [[model structure on topological spaces|topological sense]] (lifting of paths and homotopies of paths will suffice), $F = p^{-1}(b_0)$, where $b_0$
   is the basepoint of $B$.  The fibre $F$ is pointed at $f_0$, say, and $f_0$
   is taken as the basepoint of $E$ as well.
@@ -150,9 +151,26 @@ gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusin
 their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a 
 crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
 
-* A particular case of this last example can be obtained from the inclusion of a subspace $A\to X$ into a pointed space $(X,x_0)$, (where we assume $x_0\in A$).  We can replace this inclusion by  a homotopic fibration, $\overline{A}\to X$ in 'the standard way', and then find that the fundamental group of its fibre is $\pi_2(X,A,x_0)$. This is especially useful when $X$ is a CW-complex and $A$ is a subcomplex, for instance the 1-skeleton of $X$. In this case, the crossed module is a [[free crossed module]].
+* A particular case of this last example can be obtained from the inclusion of a subspace $A\to X$ into a pointed space $(X,x_0)$, (where we assume $x_0\in A$).  We can replace this inclusion by  a homotopic fibration, $\overline{A}\to X$ in 'the standard way', and then find that the fundamental group of its fibre is $\pi_2(X,A,x_0)$. 
 
-This last example was one of the first investigated by Whitehead and appears also in a little book by Hilton.
+A deep theorem of J.H.C. Whitehead is that the crossed module 
+
+ $$\delta: \pi_2(A \cup \{e^2_\lambda\}_{\lambda \in \Lambda},A,x) \to \pi_1(A,x)$$
+
+ is the [[free crossed module]]  on the characteristic maps of the $2$-cells. One utility of this is that it enables the  expression of  nonabelian chains and boundaries ideas in dimensions $1$ and $2$: thus for the standard picture of a Klein Bottle formed by identifications from a square $\sigma$ the formula 
+
+$$\delta \sigma = a+b-a +b $$
+
+makes sense with $\sigma$ a generator of a free crossed module; in the usual abelian chain theory we can write only $\partial \sigma =2b$, thus losing information. 
+
+Whitehad's proof of this theorem used knot theory and transversality. The theorem is also a consequence of the $2$-dimensional Seifert-van Kampen Theorem, proved by Brown and Higgins, which states that the functor
+ 
+$\Pi_2$: (pairs of pointed spaces) $\to$ (crossed modules) 
+
+preserves certain colimits (see reference below).  
+
+
+This last example was one of the first investigated by Whitehead and his proof appears also in a little book by Hilton.
 
 
 
@@ -171,9 +189,9 @@ This last example was one of the first investigated by Whitehead and appears als
 
 ## References
 
-* R. Brown, _Groupoids and crossed objects in algebraic topology_ Homology, Homotopy and Applications, 1 (1999) 1-78. 
+* R. Brown, "Groupoids and crossed objects in algebraic topology",  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
 
-
+* R, Brown and P.J. Higgins, "On the connections between the second relative homotopy groups of some related spaces",  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
 
 
 [[!redirects crossed modules]]
