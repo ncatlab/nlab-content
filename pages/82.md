@@ -84,6 +84,11 @@ A gentle basic introduction is
 
 * [[John Baez]], [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
 
+A quick introduction of the basic facts of [[Grothendieck topos]] theory is chapter I, "Background in topos theory" in 
+
+* [[Ieke Moerdijk]], _Classifying Spaces and Classifying Topoi_ Lecture Notes in Mathematics 1616, Springer (1995)
+
+
 A survey is in
 
 * [[Ross Street]], _A survey of topos theory_ (notes for students, 1978) [pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf)
