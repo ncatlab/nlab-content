@@ -66,11 +66,15 @@ By a [[holographic principle]] realized in this case as [[AdS/CFT correspondence
 
     * [[dual heterotic string theory]]
 
+    * [[Witten genus]], [[string orientation of tmf]]
+
   * **type II string theory**
 
     [[Diaconescu-Moore-Witten anomaly]]
 
     [[type II geometry]]
+
+    [[elliptic genus]]
  
     4d [[super Yang-Mills theory]]
 
