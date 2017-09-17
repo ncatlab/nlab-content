@@ -23,11 +23,11 @@ The following is (supposed to be) a pedagogical motivation of the concepts [[she
 
 ## Motivation: maps between topological spaces
 
-It is a familiar fact that classes of maps between [[topological space]]s encode interesting information.
+Classes of maps between [[topological space]]s encode interesting information.
 
-To pick just one simple but important example: there is a [[topological space]]  that goes by the name $K(\mathbb{Z},2)$ or $\mathcal{B}U(1)$ and is called an [[Eilenberg-Mac Lane space]].  Whatever the name of this space, it is that space which has the  peculiar property that for any other space $X$, the [[homotopy]] classes $[X, \mathcal{B}U(1)]$ of continuous maps from $X$ to this space $\mathcal{B}U(1)$ characterize the following useful information:
+To pick just one example: there is a [[topological space]]  that goes by the name $K(\mathbb{Z},2)$ or $\mathcal{B}U(1)$ and is called an [[Eilenberg-Mac Lane space]].  It has the  peculiar property that for any other space $X$, the [[homotopy]] classes $[X, \mathcal{B}U(1)]$ of continuous maps from $X$ to $\mathcal{B}U(1)$ characterize the following:
 
-* they correspond to equivalence classes of circle [[bundle]]s over $X$: that is, to spaces $P$ equipped with a map to $X$ such that over 
+* they correspond to equivalence classes of [[circle bundle]]s over $X$: that is, to spaces $P$ equipped with a map to $X$ such that over 
 a contractible open subset $U \subset X$ the space $P$ looks like
 the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such that the identification respects the action of the [[group]] $U(1)$ on the circle). One says that $\mathcal{B}U(1)$ is the [[classifying space]] for circle [[bundle]]s: $[X, \mathcal{B}U(1)] \simeq \{ $circle bundles over $X \}/{\sim}$.
 
@@ -42,6 +42,7 @@ the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such tha
   
 * There is a similar such cohomology group $H^{n+1}(X,\mathbb{Z})$ 
 of $X$ for every natural number $n$: the $(n+1)$st 
+
 _integral cohomology group_ of $X$ -- and all these groups are naturally
 realized in terms of homotopy classes of maps from $X$ into 
 some topological space -- called the [[Eilenberg-MacLane space]]s $K(\mathbb{Z}, n+1)$ or $\mathcal{B}^{n} U(1)$ -- and again each element in these groups can be identified with a certain geometric structure living over $X$, called a circle $n$-bundle or $(n-1)$-[[gerbe]]: $[X, \mathcal{B}^{n} U(1)] = \{ $circle $n$-bundles on $X \}/{\sim}$.
@@ -292,6 +293,7 @@ of $Z$ by $X$ and $Y$ is a [[weak homotopy equivalence]].
 
 Now, that may fail to be true, simply because we are using
 an awkward realization of the sheaf $Z$. It may be that we have to _straighten out_ $Z$ a bit, without really changing it, for the above to be true. Indeed, if things are set up correctly, there should always a sheaf of topological spaces $Z'$ which is equivalent to $Z$, but for which the above consistency condition is true: the map $Z'(f) : Z'(Y) \to Z'(X)$ between spaces of probes of $Z'$ by $X$ and by $Y$ is a homotopy equivalence.
+
 
 The sheaves with this niceness property are called [[infinity-stack]]s or [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. Recall that despite the fancy terminology, these things are nothing but consistent rules for something that may be probed with test spaces $U$, $V$, ...
 
