@@ -173,7 +173,7 @@ Other classes of sites are listed in the following.
 
   * The sites that define the [[higher geometry|geometry]] called [[differential geometry]] are [[CartSp]]${}_{smooth}$, [[SmoothMfd]], etc, equipped with the [[open cover]] [[coverage]]. Or more generally [[smooth loci]] etc.
 
-  * The sites that induce [[topology]topological geometry]] are small versions of [[Top]] equipped with the [[open cover]] [[coverage]].
+  * The sites that induce [[topological geometry]] are small versions of [[Top]] equipped with the [[open cover]] [[coverage]].
 
   * The sites that induce the [[higher geometry]] modeled on [[Euclidean topology]] are the large site of [[paracompact manifold]]s and its [[dense sub-site]] [[CartSp]]${}_{top}$.
 
