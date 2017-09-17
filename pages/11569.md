@@ -21,8 +21,8 @@
 ## Idea
 
 The [[forgetful functor]] $U$ from [[abelian groups]] to [[commutative monoids]] has a [[left adjoint]] $G$. This is called _group completion_.
-A standard presentation of the group completion is the [[Grothendieck group]] construction.
-As such group completion plays a central role in the definition of [[K-theory]].
+A standard presentation of the group completion is the [[Grothendieck group]] construction. As such group completion plays a central role in the definition of [[K-theory]].
+
 
 More generally in [[(∞,1)-category theory]] and [[higher algebra]] there is 
 the [[left adjoint|left]] [[adjoint (∞,1)-functor]] 
@@ -35,11 +35,19 @@ to the inclusion of [[abelian ∞-groups]] ([[connective spectra]]) into [[commu
 
 This serves to define [[algebraic K-theory of symmetric monoidal (∞,1)-categories]].
 
+In [[algebraic topology]] a key role was played by models of this process at least on [[H-spaces]] ([Quillen 71](#Quillen71), [May, def. 1.3](#May)). If $N$ is a [[topological monoid]], let $B N$ denotes its [[bar construction]] ("[[classifying space]]") and $\Omega B N$ the [[loop space]] of that. Then this 
+$$
+  N \longrightarrow \Omega B N
+$$
+represents the group completion of $N$ ([Quillen 71, section 9](#Quillen71), [May, theorem  1.6](#May)). This crucially enters the construction of the [[K-theory of a permutative category]].
+
 ## References
 
 Classical accounts include
 
 * {#Quillen71} [[Daniel Quillen]], _On the group completion of a simplicial monoid_ [pdf](http://www.maths.ed.ac.uk/~aar/papers/quillencomp.pdf), MIT preprint 1971, Memoirs of the AMS vol 529, 1994, pp. 89-105
+
+* {#May} [[Peter May]], _$E_\infty$-Spaces, group completions, and permutative categories_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/13.pdf))
 
 $\infty$-Group completion is discussed in
 
