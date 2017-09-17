@@ -55,6 +55,9 @@ Reviews and surveys include
 
 * {#Demailly09} [[Jean-Pierre Demailly]], _Analytic methods in algebraic geometry_, lecture notes 2009  ([pdf](http://www-fourier.ujf-grenoble.fr/~demailly/manuscripts/analmeth.pdf))
 
+Discussion for [[real analytic spaces]] includes
+
+* {#Huisman02} [[Johannes Huisman]], section 2 of _The exponential sequence in real algebraic geometry and Harnack's Inequality for proper reduced real schemes_, Communications in Algebra, Volume 30, Issue 10, 2002 ([pdf](http://pageperso.univ-brest.fr/~huisman/rech/publications/exphi.pdf))
 
 
 Generalization to more general [[analytic geometry]] includes
