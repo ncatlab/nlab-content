@@ -1,8 +1,9 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Foundations
-+--{: .hide}
++-- {: .hide}
 [[!include foundations - contents]]
 =--
 =--
@@ -167,5 +168,5 @@ Now let $C$ be a $U$-moderate category (and not small).  Then the category of $U
 
 category: foundational axiom
 
-[[!redirects Grothendieck universes]]
+[[!redirects Grothendieck universe]]
 [[!redirects Grothendieck universes]]
