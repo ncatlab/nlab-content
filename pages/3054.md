@@ -1,3 +1,8 @@
+
+<div class="rightHandSide toc">
+[[!include functional analysis - contents]]
+</div>
+
 At the moment, this is a "place holder" page.  [[Andrew Stacey|I]] want to learn about the appearance of [[algebraic theories]] in [[functional analysis]] and shall record what I learn here.  A preliminary outline is to find out about the following statements:
 
 1. The category of [[Banach spaces]] with linear [[short maps]] is not [[monadic category|monadic]] over Set.  The "nearest" algebraic theory is that of [[totally convex spaces]].
