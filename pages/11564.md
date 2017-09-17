@@ -502,6 +502,7 @@ Given that conceptually, as made explicit in the [Idea-section](#Idea) above, we
 ## Examples
 
 ### Ordinary differential cohomology
+ {#OrdinaryDifferentialCohomology}
 
 We discuss differential refinements in $\mathbf{H} =$ [[Smooth∞Grpd]] of [[ordinary cohomology]], hence of cohomology with [[coefficients]] in [[chain complexes]] or equivalently, via the [[stable Dold-Kan correspondence]], cohomology [[Brown representability theorem|represented]] by [[spectra]] underlying [[Eilenberg-MacLane spectrum]]-[[module spectra]].
 
