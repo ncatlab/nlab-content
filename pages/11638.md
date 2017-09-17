@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[formal group]]-analog of the [[Brauer group]]. A special case of the [[Artin-Mazur formal group]].
+A [[formal group]]-analog of the [[Brauer group]]. The special case of the concept of [[Artin-Mazur formal group]] for $n = 2$. The $n = 1$-analog is the _[[formal Picard group]]_.
 
 ## Properties
 
