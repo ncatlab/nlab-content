@@ -215,4 +215,6 @@ Expositions include
 
 * [[UF-IAS-2012]], _[Higher Inductive Types](http://uf-ias-2012.wikispaces.com/Higher+Inductive+Types)_
 
+* [[Egbert Rijke]], [[Bas Spitters]], _Higher inductive types_, talk notes (May 2013) ([pdf](http://www.cs.ru.nl/~spitters/presentation_HITs.pdf))
+
 [[!redirects higher inductive types]]
