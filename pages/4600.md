@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -31,6 +31,7 @@ Here we write $H_{diff}^\bullet(X)$ for the ordinary differential cohomology gro
 
 ### Curvature and characteristic class
  {#CurvatureAndCharClass}
+ {#AbstractProperties}
 
 There are two [[natural transformation|natural]] morphism
 
@@ -55,8 +56,6 @@ There are two [[natural transformation|natural]] morphism
    produces a closed [[differential form]] of degree $n$. This happens to land in closed differential forms with integral [[period]]s (see [below](#AbstractProperties)).
 
 
-### Abstract properties
-  {#AbstractProperties}
 
 The following is either a definition, if regarded as an axiomatic characterization of ordinary differential cohomology, or it is an proposition, if regarded as a property of one of the [models](#Models).
 
@@ -106,7 +105,7 @@ The first sequence (eq:CurvatureSequence) says in words: two circle $(n-1)$-bund
 
 The second sequence (eq:CharacteristicClassSequence) says in words: two connections on the same circle $(n-1)$-bundle differ by a globally defined connection $(n-1)$-form, well defined up to addition of a form with integral periods. 
 
-More is true: both these sequences interlock to form the hexagonal _[[differential cohomology diagram]]_ of ordinary differential cohomology. See there for more.
+More is true: both these sequences interlock to form the hexagonal _[[differential cohomology diagram]]_ of ordinary differential cohomology. For more see at _[differential cohomology diagram -- Examples -- Deligne coefficients](differential+cohomology+diagram#DeligneCoefficients)_.
 
 ### Models
   {#Models}
