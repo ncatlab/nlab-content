@@ -4435,6 +4435,14 @@ in $\infty Grpd$\,.
 
 * [[schreiber:path ∞-groupoid]]
 
+## Related concepts
+
+* [[∞-groupoid]]
+
+* [[topological ∞-groupoid]]
+
+* **smooth $\infty$-groupoid**
+
 ## References
 
 > ... to be done ... not even close to a beginning of anything comprehensive ...
@@ -4484,3 +4492,9 @@ The relation to the general descent condition is discussed in
 
 [[!redirects ∞-Lie groupoid cohomology]]
 [[!redirects infinity-Lie groupoid cohomology]]
+
+[[!redirects smooth ∞-groupoid]]
+[[!redirects smooth ∞-groupoids]]
+
+[[!redirects smooth infinity-groupoid]]
+[[!redirects smooth infinity-groupoids]]
