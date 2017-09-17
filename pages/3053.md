@@ -23,6 +23,8 @@ Therefore every morphism $f : b_1 \to b_2$ in a bifibration has both a push-forw
 
 * Dually, for $C$ any [[category]] with [[pushout]]s, the [[domain opfibration]] $dom : [I,C] \to C$ is a bifibration.
 
+* The canonical functor [[Mod]] $\to $ [[CRing]] is a bifibration.
+
 
 ## Relation to monadic descent
 
