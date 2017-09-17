@@ -27,15 +27,30 @@ For $f = id$ the [[identity]] map, the Lefschetz trace reduces to the _[[Euler c
 
 ## Lefschetz fixed point theorem
 
+### Statement
+
 The _Lefschetz fixed point theorem_ says that if the Lefschetz number is non-zero, then $f$ has at least one [[fixed point]].
 
 
 The existence of a Lefschetz formula holds more general in [[Weil cohomology]] theories (by definition) and hence notably in [[ℓ-adic cohomology|ℓ-adic]] [[étale cohomology]]. This fact serves to prove the [[Weil conjectures]].
 
 
-## Equivariant case
+### Proof
 
-...
+(...)
+
+follows from existence of 
+
+* good [[cycle map]]
+
+* [[Künneth formula]]
+
+* [[Poincaré duality]]
+
+([Milne, section 25](#Milne))
+
+(...)
+
 
 ## Related concepts
 
