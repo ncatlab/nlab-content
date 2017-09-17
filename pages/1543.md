@@ -27,7 +27,10 @@
 
 ## Idea
 
-For $G$ a [[group]], a $G$-principal [[bundle]] over a space $X$ is another space $P$ sitting over $X$ by a map $P \to X$ such together with an [[action]] of $G$ on the space $P$, such that each fiber $P_x$ of $P$ over any $x \in X$ is a $G$-[[torsor]], so it looks like $G$ once we identify one of the elements of $P_x$ with the identity element in $G$. 
+A _$G$-principal bundle_ is a $G$-[[torsor]] that is _locally trivial_ .
+
+In the context of [[topological space]]s:  for $G$ a [[topological group]], a $G$-principal [[bundle]] over a space $X$ is another space $P$ sitting over $X$ by a map $P \to X$ together with an [[action]] of $G$ on $P$, such that there is a [[cover]] $\{U_i \to X\}$ and on each patch an identification $P_{U_i} \stackrel{\simeq}{\to} U_i \times G$ of spaces with $G$-action. 
+
 
 ## Definition
 
@@ -103,7 +106,7 @@ This diagram, incidentally, directly tells us about another important property o
 
 This is what the homotopy commutativity of the above homotopy pullback diagram says: the cocycle $X \to \mathbf{B}G$ pulled back to the bundle $P \to X$ that it classifies becomes $P \to X \to \mathbf{B}G$, which is homotopic to the trivial cocycle (the one that factors through the [[point]]) on $P$.
 
-The homotopy pullback here is conveniently and traditionally computed as an ordinary pullback of a [[fibration|fibrant replacement]] of the pullback diagram. The canonical such fibrant replacement is obtained by replacing ${*} \to \mathbf{B}G$ by $\mathbf{E}G \to \mathbf{B}G$, with $\mathbf{E}G$ an object [[weak equivalence|weakly equivalent]] to the point, called the **universal $G$-principal bundle**. Details on how this fibrant replacement works are in the example section of [[homotopy limit]] and of [[generalized universal bundle]].
+The homotopy pullback here is conveniently and traditionally computed as an ordinary pullback of a [[fibration|fibrant replacement]] of the pullback diagram. The canonical such fibrant replacement is obtained by replacing ${*} \to \mathbf{B}G$ by $\mathbf{E}G \to \mathbf{B}G$, with $\mathbf{E}G$ an object [[weak equivalence|weakly equivalent]] to the point, called the **$G$-[[universal principal bundle]]**. 
 
 With that the above homotopy pullback is computed as the ordinary [[pullback]]
 
@@ -117,7 +120,7 @@ $$
   }
 $$
 
-So every $G$-principal bundle $P \to X$ is the pullback along a classifying map $X \to \mathbf{B}G$ (in the right $(\infty,1)$-categorical context, otherwise a span such as an [[anafunctor]]) of the universal $G$-principal bundle.
+So every $G$-principal bundle $P \to X$ is the pullback along a classifying map $X \to \mathbf{B}G$ (in the right $(\infty,1)$-categorical context, otherwise a span such as an [[anafunctor]]) of the $G$-[[universal principal bundle]].
 
 #### The $G$-action from the homotopy pullback
 
@@ -185,7 +188,7 @@ $$
   }
 $$
 
-where all squares formed by the lowest horizontal morphisms are [[homotopy pullback]] squares, by construction, and where the remaining horizontal morphisms in the top row are induced by the universal property of the homotopy pullback and the morphisms downstairs.
+where all squares formed by the lowest horizontal morphisms are [[homotopy pullback]] squares, by construction, and where the remaining horizontal morphisms in the top row are induced by the universal property of the [[homotopy pullback]] and the morphisms downstairs.
 
 The claim is that 
 
