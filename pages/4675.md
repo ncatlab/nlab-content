@@ -1086,3 +1086,6 @@ and given a rigorous treatment in
 [[!redirects twisted String structure]]
 [[!redirects twisted string structures]]
 [[!redirects twisted String structures]]
+
+[[!redirects smooth first fractional Pontryagin class]]
+
