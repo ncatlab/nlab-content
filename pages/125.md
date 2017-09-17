@@ -17,7 +17,7 @@
 
 __Composition__ is the operation that takes [[morphism|morphisms]] $f\colon  x \to y$ and $g\colon  y \to z$ in a [[category]] and produces a morphism $g \circ f\colon  x \to z$, called the __composite__ of $f$ and $g$.
 
-Note that this composition is unique by the axioms of category theory. If we instead work in a weak (higher category) composition need not be unique. In this sense we may identify the composite of $f$ and $g$ with the colimit over the diagram $a\stackrel{f}{\to}b\stackrel{g}{\to}c$. This point of view is taken and generalized in [[transfinite composition]].
+Note that this composition is unique by the axioms of category theory. If we instead work in a weak [[higher category]], composition need not be unique. In this sense we may identify the composite of $f$ and $g$ with the colimit over the diagram $a\stackrel{f}{\to}b\stackrel{g}{\to}c$. This point of view is taken and generalized in [[transfinite composition]].
 
 
 ## Higher arity
