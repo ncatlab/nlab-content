@@ -93,7 +93,7 @@ $$
 If $e_1,\dots,e_n$ is a [[local frame|local basis]] on $X$ and $e^1,\dots,e^n$ is the [[dual basis]], so that $\alpha = \frac{1}{k!} \alpha_{i_1,\dots,i_k} e^{i_1} \wedge \cdots \wedge e^{i_k}$, then
 
 $$
-*\alpha = \frac{1}{k!(n-k)!} \epsilon_{i_1,\dots,i_n} \sqrt{|det(g)|} \alpha_{j_1,\dots,j_k} g^{i_1,j_1} \cdots g^{i_k,j_k} e^{i_{k+1}} \wedge \cdots \wedge e^{i_n},
+\star \alpha = \frac{1}{k!(n-k)!} \epsilon_{i_1,\dots,i_n} \sqrt{|det(g)|} \alpha_{j_1,\dots,j_k} g^{i_1,j_1} \cdots g^{i_k,j_k} e^{i_{k+1}} \wedge \cdots \wedge e^{i_n},
 $$
 
 where $\epsilon_{i_1,\dots,i_n}$ is the [[signature of a permutation|sign]] of the [[permutation]] $(1,2,\dots,n)\mapsto (i_1,i_2,\dots,i_n)$ and $det(g)$ is the [[determinant]] of $g$ in the local basis.
