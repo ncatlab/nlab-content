@@ -40,6 +40,10 @@ Then
 
 And various articles on the foundations of [[topological field theory]] such as
 
+* _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386 ([Euclid](http://projecteuclid.org/euclid.cmp/1104161738))
+
+  on [[topologically twisted D=4 super Yang-Mills theory]] and the corresponding twists of the [[superstring]] which yield the [[A-model]] and [[B-model]] [[topological string]] 2d [[TQFTs]];
+
 * _On the structure of the topological phase of two dimensional gravity_ Nuclear Phys, B 340 (1990) 281
 
   on the [[topological string]] limit of the [[worldsheet]] 2d [[quantum gravity]] theory of the string
