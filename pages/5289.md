@@ -43,6 +43,7 @@ See [[E-∞ algebra]].
 
 * [[k-tuply groupal n-groupoid]]
 
+* [[A-n algebra]]
 
 ## References
 
