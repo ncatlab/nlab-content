@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 Let $\mathbf{U}$ and $\mathbf{V}$ be set-theoretic [[universes]] (such as [[Grothendieck universes]] or [[universe in a topos|universes in an ambient topos]]), and let $C$ be a [[category]] "in the world of $\mathbf{U}$," i.e. whose objects are $\mathbf{U}$-[[small category|small]] and which itself is $\mathbf{U}$-[[large category|large]].  Its **universe enlargement** is supposed to be a category "in the world of $\mathbf{V}$" which is "the same" or at least similar to $C$, and perhaps better behaved.
