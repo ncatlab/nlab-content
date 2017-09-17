@@ -1267,14 +1267,10 @@ in the context of _[[Q-categories]]_ .
 
 ### On cohesive $(\infty,1)$-toposes proper
 
-The material presented here is also in section 2 of
+The material presented here is also in section 3 of
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ 
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
 
-A commented list of further related references is at
-
-* [[schreiber:differential cohomology in an (∞,1)-topos -- references
-  |differential cohomology in a cohesive topos -- references]]
 
 ### In homotopy type theory
   {#ReferencesInHoTT}
