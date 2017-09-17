@@ -16,6 +16,10 @@
 
 ## Idea
 
+Given an [[action functional]] that is invariant under a [[group]] of symmetries on the corresponding [[configuration space]], a solution to the [[Euler-Lagrange equations]] of motion is said to exhibit _spontaneously broken symmetry_ if it is not a fixed-point of that group [[action]].
+
+In the context of the [[quantum field theory]] arising by [[quantization]] of this action functional one considers the given classical solution as a background about which to consider [[perturbation theory]]. The fields in this QFT are then small excitations of the given classical solution and the state containing no such excitations is the [[vacuum]] of the corresponding theory. Therefore in this context one often says that a quantum theory exhibits spontaneouly broken symmetry if its vacuum state is not invariant under the pertinent symmetries.
+
 ### Broken global symmetry
 
 For $Conf$ a [[configuration space]] and
