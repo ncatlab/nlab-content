@@ -251,8 +251,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 ### Blogs 
 
-* [Hot Hand --- Sports Streakiness](http://thehothand.blogspot.com)
-
 * [Social Science Statistics Blog](http://www.iq.harvard.edu/blog/sss)
 
 * [Statistical Modeling, Causal Inference and Social Science](http://www.stat.columbia.edu/~gelman/blog)
