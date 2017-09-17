@@ -21,72 +21,132 @@
 
 ## Idea
 
-A _complete Segal space_ is a [[category object in an (∞,1)-category|category object]] in [[∞Grpd]] (a [[Segal space]] is a [[pre-category object in an (∞,1)-category|pre-category object]]).
+A _complete Segal space_ is a [[internal category in an (∞,1)-category]] in [[∞Grpd]], with the latter [[presentable (∞,1)-category|presented]] by [[sSet]]/[[Top]]. Complete Segal spaces are a model for [[(∞,1)-categories]].
 
-Hence complete Segal spaces are models for [[(∞,1)-categories]].
+More in detail, a complete Segal space $X$ is
 
-More explicitly, the rough idea is that a complete Segal space is the [[nerve]] of a [[enriched category|category enriched]] [[homotopical enrichment|weakly]] over [[Top]]/[[sSet]]: it is not a [[simplicial set]], but a simplicial [[topological space]] or [[bisimplicial set]] that satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
+* for each $n \in \mathbb{N}$ a [[Kan complex]] $X_n$, thought of as the _space of composable sequences of $n$-morphisms and their composites_;
 
-A bit more precisely: to determine if a [[simplicial set]] $X_\bullet$ arises from a [[category]] by passing to its [[nerve]] one has to check the **Segal condition**s: that for all natural numbers $m,n$ the square
+* forming a [[simplicial object]] $X_\bullet$ in [[sSet]] (a [[bisimplicial set]]);
+
+such that
+
+1. there is a [[composition]] operation well defined up to [[coherence|coherent]] [[homotopy]]: exibited by the canonical morphisms
+
+   $$
+     X_k \to X_1 \times_{X_0} \cdots \times_{X_0} X_1
+   $$
+
+   (into the iterated [[homotopy pullback]] of the [[∞-groupoid]] of 1-morphisms over the $\infty$-groupoid of objects) being [[homotopy equivalences]]
+
+   (so far this defines a _[[Segal space]]_);
+
+1. the notion of equivalence in $X_\bullet$ is compatible with that in the ambient [[∞Grpd]] ("completeness"): the sub-simplicial object $Core(X_\bullet)$ on the invertible morphisms in each degree has all face and degeneracy maps being homotopy equivalences.
+
+
+## Properties
+
+### Model category structure
+
+The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex category]] ([[bisimplicial sets]]) supports a [[model category]] structure whose fibrant objects are precisely the complete Segal spaces: the _[[model structure for complete Segal spaces]]_. This presents the [[(∞,1)-category of (∞,1)-categories]].
+
+## Examples
+
+### Ordinary categories as complete Segal spaces
+
+We discuss how an ordinary [[small category]] is naturally regarded as a complete Segal space.
+
+#### Preliminaries
+
+We need the following basic ingredients.
+
+Write $(-)^{(-)} : Cat^{op} \times Cat \to Cat$ for the [[internal hom]] in [[Cat]], sending two categories $A$, $X$ to the [[functor category]] $X^A = Func(A,X)$.
+
+By the discussion at [[nerve]] we have a canonical functor
 
 $$
-  \array{
-    X_{m+n} 
-     &
-      \stackrel{p^*_{0,\cdots, m}}{\to}
-     & 
-     X_m
-    \\
-    {}^{\mathllap{p^*_{m, \cdots, m+n}}}\downarrow 
-    && 
-    \downarrow^{\mathrlap{p^*_m}}
-    \\
-    X_n &\stackrel{\quad p^*_0\quad}{\to}& X_0
-  }
+  \Delta \hookrightarrow Cat
 $$
 
-is a [[pullback]] square in [[Set]] (where the maps $p^*_{\cdots}$ project out the indicated parts of the objects of the [[simplex category]] $\Delta$ regarded as [[posets]]). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n, m$.
+including the [[simplex category]] into [[Cat]] by regarding the [[simplex]] $\Delta[n]$ as the category generated from $n$ consecutive morphisms.
 
-This condition is internalized homotopically in the category of spaces to get the definition of a _[[Segal space]]_.  One can interpret "spaces" here as meaning either (sufficiently [[nice category of spaces|nice]]) [[topological spaces]] or [[simplicial sets]]; in the latter case a Segal space is a particular sort of [[bisimplicial set]].
-
-+-- {: .un_defn}
-###### Definition
-
-A **Segal space** $X_\bullet$
-  is a simplicial [[nice topological space]]/[[simplicial set]]
-  $X_\bullet : \Delta^{op} \to Top$ which is [[Reedy model structure|Reedy fibrant]] and for which for all $m,n \in \mathbb{N}$ the square
+The [[nerve]] itself is then then functor
 
 $$
-  \array{
-    X_{m+n} &\stackrel{
-      p^*_{0,\cdots, m}
-    }{\to}& X_m
-    \\
-    {}^{\mathllap{p^*_{m, \cdots, m+n}}}\downarrow 
-    && \downarrow^{\mathrlap{p^*_m}}
-    \\
-    X_n &\stackrel{p^*_0}{\to}& X_0
-  }
+  N : Cat \to sSet
 $$
 
-is a [[homotopy pullback]] square in [[Top]]/[[sSet]].
+to [[sSet]] sending a category $C$ to 
 
-=--
+$$
+  N(C) : k \mapsto C^{\Delta[k]}
+  \,.
+$$
 
-Next, the idea is that, roughly,
-a Segal space $X_\bullet$ is a **complete Segal space** if the the [[fundamental ∞-groupoid]] of $X_0$ is the maximal topological groupoid contained in the topologically enriched category of which $X_\bullet$ is like the nerve of.
+Its restriction along $Grpd \hookrightarrow Cat$ to [[groupoids]] lands in [[Kan complexes]] $KanCplx \hookrightarrow $ [[sSet]].
 
-## Definition
+The [[core]] operation is the functor
 
-More precisely...
+$$
+  Core : Cat \to Grpd
+$$
 
-...
+[[right adjoint]] to the inclusion of [[Grpd]] into [[Cat]]. It sends a category to the groupoid obtained by discarding all non-invertible morphisms.
+
+#### The construction
+
+Let $C$ be a [[small category]]. Define 
+
+$$
+  \mathbf{C} \in [\Delta^{op}, sSet]
+$$
+
+by
+
+$$
+  \mathbf{C}_k := N(Core(C^{\Delta[k]}))  
+  \,.
+$$
+
+In degree 0 this is the the [[core]] of $C$ itself. In degree 1 it is the groupoid $\mathbf{C}_1$ underlying the [[arrow category]] of $C$. 
+
+One sees that the [[source]] and [[target]] functors $s, t : C^{\Delta[1]} \to C$ are [[isofibrations]] and hence their image under [[core]] and [[nerve]] are [[Kan fibrations]]. Therefore it follows that the [[homotopy pullback]] (see there) $\mathbf{C}_1 \times_{\mathbf{C}_0} \cdots \times_{\mathbf{C}_0} \mathbf{C}_1$ is given already be the ordinary pullback in the 1-category [[Grpd]]. Using this, it is immediate that for all $k$ the functors
+
+$$
+  Core(C^{\Delta[k]}) \to Core(C^{\Delta[1]}) \times_{Core(C)} \cdots \times_{Core(C)} Core(C^{\Delta[1]}) 
+$$
+
+are [[isomorphisms]], and so in particular 
+
+$$
+  \mathbf{C}_k 
+   \to 
+  \mathbf{C}_1 \times_{\mathbf{C}_0} \cdots \times_{\mathbf{C}_0} \mathbf{C}_1
+$$
+
+is an equivalence. 
+
+It is clear that the composition operation defined this way "is" the composition in $C$. In particular the morphisms that are invertibel under this composition are precisely those that are already invertible in $C$. Therefore we have the core simplicial object
+
+$$
+  Core(\mathbf{C}) : k \mapsto N(Core(C)^{\Delta[k]})
+   = N(Core(C))^{\Delta[k]}
+  \,,
+$$
+
+where, note, now we _first_ take the core of $C$ and then form morphism categories. 
+
+This simplicial Kan complex has in each positive degree a [[path space object]] for the [[Kan complex]] $N(Core(C))$.
+
+Notably (since $\Delta[k]$ is [[weak homotopy equivalence|weak homotopy equivalent]] to the point) it follows that indeed all the face and degeneracy maps are weak homotopy equivalences.
+
+So for every category $C$, the simplicial object $\mathbf{C}$ constructed as above is a complete Segal space. This constructions extends to a functor $Cat \to completeSegalSpace$ and this is homotopy full and faithful.
 
 ## Related concepts
 
 * [[model structure for complete Segal spaces]]
 
-* [[higher complete Segal space]]
+* [[higher complete Segal space]], [[dendroidal complete Segal space]]
 
 * [[table - models for (infinity,1)-operads]]
 
