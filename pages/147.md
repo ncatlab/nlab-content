@@ -25,20 +25,32 @@ A _site_ is a [[small category]] equipped with a [[coverage]] or [[Grothendieck 
 +-- {: .un_defn}
 ###### Definition
 
-A _site_ is a category $C$ equipped with a [[Grothendieck topology]] $J$.
+A _site_ $(C,J)$ is a [[category]] $C$ equipped with a [[coverage]] $J$.
+
 
 =--
+
++-- {: .un_remark}
+###### Remark
+
+Usually a site is required to be a [[small category]]. See [[large site]].
+
+Every [[coverage]] induces a [[Grothendieck topology]]. Often sites are defined to be categories equipped with a Grothendieck topology. Some constructions and properties are more elegantly handled with covergaes, some with Grothendieck topologies.
+
+Notice that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphisms]], or in terms of a system of [[dense monomorphisms]] in the [[category of presheaves]] $PSh(S)$.
+
+=--
+
 
 +-- {: .un_defn}
 ###### Definition
 
-Sometimes it is useful to define a site to be a category equipped merely with a [[coverage]]. This does generate a Grothendieck topology, but many constructions are more elegantly carried out just with the coverage.
-
-Notice also that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphisms]], or in terms of a system of [[dense monomorphisms]] in the [[presheaf]] category $PSh(S)$.
+For $(C,J)$ a site, we write $Sh_J(C)$ for the
+[[category of sheaves]] on $C$ with respect to the [[coverage]] $J$.
 
 =--
 
-+-- {: .un_defn}
++-- {: .un_defn #MorphismOfSites}
 ###### Definition
 
 
@@ -48,54 +60,106 @@ A **morphism of sites** $f : (C,J) \to (D,K)$ is
 
 * such that 
 
-  * $f$ preserves covers in that for every $U \in C$ and every [[covering]] $\{p_i : U_i \to U\}$ on $U$, the images $f(p_i)$ cover $f(U)$.
+  * $f$ _preserves covers_ in that for every [[covering]] $\{p_i : U_i \to U\}$ of an object $U \in C$ with respect to the coverage $J$, we have that $\{f(p_i) : f(U_i) \to f(U)\}$ is a covering of $f(U) \in D$ with respect to the covering $K$.
 
   * $f$ is a [[flat functor]];
 
 =--
 
++-- {: .un_remark}
+###### Remark
 
-Equivalently this means that the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphisms]] to local isomorphisms.
+If $C$ has [[finite limit]]s then the condition that $f : C \to D$ is a [[flat functor]] is equivalent to $f$ preserving these finite limits: to $f$ being a left [[exact functor]].
 
+=--
 
-For $f : X \to Y$ a morphisms of sites, coming from a functor $f^t : S_Y \to S_X$, we have the induced [[inverse image]] functor 
-
-$$
-  f^{*} : Sh(Y) \to Sh(X)
-  \,.
-$$
-
-as well as the [[direct image]] functor 
-
-$$
-  f_* : Sh(X) \to Sh(Y)
-$$
-
+## Properties
 
 +-- {: .un_prop}
 ###### Proposition
 
-For $f : X \to Y$ a morphism of sites, the direct and inverse image functors give a [[geometric morphism]] between the corresponding [[category of sheaves|sheaf]] [[topos]]es in that they restrict to an [[adjunction]] 
+Let $f : (C,J) \to (D,K)$ be a [morphism of sites](#MorphismOfSites). 
+
+Notice that precomposition with $f$ defines a [[functor]] between categories of presheaves $(-)\circ f : PSh(D) \to PSh(C)$.
+
+There is a [[geometric morphism]] between the [[categories of sheaves]]
 
 $$
-  (f_* \dashv f^*) : Sh(X) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} Sh(Y)
+  (f^* \dashv f_*) : Sh_K(D) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+    Sh_(J)(C)
 $$
 
-where $f^*$ preserves finite limits.
+where $f_*$ is the restriction of $f$ to sheaves.
 
 =--
 
++-- {: .proof}
+###### Proof
+
+By the assumption that $f$ preserves covers we have that the restriction of $(-)\circ f$ to $Sh_K(D)$ indeed factors through $Sh_C(C) \hookrightarrow PSh(C)$.Also $(-)\circ f$ preserves all [[limit]]s, because for presheaves these are computed objectwise. And since the inclusion $Sh_K(D) \to PSh(D)$ is [[right adjoint]] (to [[sheafification]]) we have that 
+
+$$
+  f_* : Sh_K(D) \hookrightarrow PSh(D) \stackrel{(-)\circ f}{\to} Sh_J(C)
+$$ 
+
+preserves all limits. Therefore by the [[adjoint functor theorem]] it has a [[left adjoint]]. Explicitly, this is the composite of the left adjoints to $(-)\circ f$ and to sheaf inclusion. The first is left [[Kan extension]] $Lan_f$ along $f$ and the second is [[sheafification]] $L_J$ on $(C,J)$, so the left adjoint is the composite
+
+$$
+  f^*  :Sh_J(C) \hookrightarrow PSh(C) \stackrel{Lan_f}{\to}S
+   PSh(D) \stackrel{L_J}{\to} Sh_J(D)
+  \,.
+$$
+
+Here the first morphism preserves all limits, the last one all finite limits. Hence the composite preserves all finite limits if the left [[Kan extension]] $Lan_f$ does. This is the case if $f$ is a [[flat functor]].
+
+(Because the left [[Kan extension]] is given by the [[colimit]] 
+$Lan_f X : d \mapsto {\lim_{\to}}((f^{op}/d) \to C^{op} \stackrel{X}{\to})$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] by definition if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s ).
+
+=--
+
+
 ## Examples
 
-### Sites
 
-* The archetypical class of examples is the [[category of open subsets]] $S = Op(X)$ of a [[topological space]] $X$. Notice that a morphism $f : X \to Y$ of topological spaces induces naturally a [[functor]] $f^t : Op(Y) \to Op(X)$ going the other way around, sending an open subset $U \in Y$ to the open subset $f^{-1}(U)$ in $X$.
 
-(...)
+### Classes of sites
+
+* Every [[frame]] is canonically a site, where $U$ is covered by $\{U_i\}$ precisely if it is their [[join]].
+  
+  An subclass of examples is the [[category of open subsets]] of a [[topological space]].
+
+This are examples of [[posite]]s/[[(0,1)-site]].
+
+Other classes of sites are listed in the following.
+
+* [[concrete site]]
+
+* [[locally connected site]] / [[locally ∞-connected site]]
+
+  * [[connected site]] / [[∞-connected site]]
+
+  * [[strongly connected site]] / [[strongly ∞-connected site]]
+
+  * [[totally connected site]] / [[totally ∞-connected site]]
+
+* [[local site]] / [[∞-local site]]
+
+* [[cohesive site]], [[∞-cohesive site]]
+
 
 ### Morphisms of sites
 
-#### Sub-sites 
+
++-- {: .un_example}
+###### Example
+
+If $A$ and $B$ are [[frame]]s regarded as sites via their canonical coverages, then a morphism of sites $A \to B$ is equivalently a frame [[homomorphism]], a function preserving finite [[meet]]s and arbitrary [[join]]s.
+
+=--
+
++-- {: .un_example}
+###### Example
+**(sub-sites)**
 
 For $X$ a presite and $U \in S_X$ an object in the corresponding category, the [[comma category]] $(Y_{S_X} / U)$ is naturally regarded as the presite defined by $U$, which by convenient abuse of notation one would just write $U$ itself, so that $S_U = S_X \downarrow U$. 
 
@@ -120,57 +184,37 @@ is a [[local epimorphism]].
 
 There are natural operations for [[restriction and extension of sheaves]] from a sub-site $U$ to $X$ and back.
 
+=--
 
-#### Morphisms of frames
-
-For $A$ and $B$ [[frame]]s equipped with their [[canonical coverage]]s, a morphism of sites $A \to B$ is the same as a frame homomorphism: a function preserving finite meets and arbitrary joins.
-
-#### Morphisms of regular categories
++-- {: .un_example}
+###### Example
 
 For $C$ and $D$ [[regular category|regular categories]] equipped with their [[regular coverage]]s, a morphism of sites is the same as a [[regular functor]], i.e. a functor preserving finite limits and covers.
 
 
-#### Injections into tangent categories {#TangentCategories}
+=--
 
-We discuss morphisms of sites from a site to its [[tangent category]].
++-- {: .un_example}
+###### Example
 
-> check
+For $C$ any site with finite limits, there is canonically a  morphism of sites to its [[tangent category]]. See there for details.
 
-Let $C$ be a category with finite limits and let $T_C \to C$ be its [[tangent category]], the fiberwise abelianization of the [[codomain fibration]]: for $A \in C$ we have $(T_C)_A = Ab(C/A)$, the category of abelian [[group object]]s internal to the [[overcategory]] of $C$ over $A$.
-
-The standard example is $(T_C \to C) = $ [[Mod]] $\to$ [[CRing]].
-
-There is then the 0-section $i : C \to T_C$ which sends $A$ to the terminal object $Id : A\to A$ in the overcategory, equipped, necessarily, with the trivial group structure. This exhibits $C$ as a [[retract]] of $T_C$
-
-$$
-  (C \stackrel{i}{\to} T_C \stackrel{p}{\to} C) = Id_C
-  \,.
-$$
-
-Assume now that $C^{op}$ has [[pullback]]s and is equipped with a [[coverage]], hence with the structure of a site.
-
-Equip $(T_C)^{op}$ with the [[coverage]] where $\{f_i : U_i \to U\}$ is a cover in $(T_C)^{op}$ precisely if its image $\{p(f_i) : p(U_i) \to p(U)\}$ is a cover in $C^{op}$.
-
-Then the 0-section $C^{op} \to (T_C)^{op}$ preserves covers. 
-
-We claim it also preserves limits: i.e. that $i : C \to T_C$ preserves [[colimit]]s:
-
-let $F : K \to C$ be a diagram and $\lim_\to F$ its colimit in $C$. Then let $Q$ be any cocone under $i \circ F $ in $T_C$. By applying $p$ to that cocone we find that there is a unique morphism of cocones $\lim_\to F \to p(Q)$ in $C$. But any morphism of the form $A \to p(B)$ for $A \in C$ and $B \in T_C$ has a unique lift to a morphism $i(A) \to B$ in $T_C$ (because the trivial ablian group is initial, so that the morphism in $T_C$ is fixed by its underlying morphism in $C$).
-
-So for any coverage on $C^{op}$ and the above induced coverage on $(T_C)^{op}$, the 0-section $i : C^{op} \to (T_C)^{op}$ is a morphism of sites.
-
-Accordingly, we obtain a [[geometric morphism]] of [[category of sheaves|sheaf toposes]]
-
-$$
-  Sh((T_C)^{op}) \stackrel{\leftarrow}{\underset{}{\to}}
-  Sh(C^{op})
-  \,.
-$$
+=--
 
 
-#### Concrete sites
+### Specific sites
 
-A site that is also a [[concrete category]] in a compatible way is called a [[concrete site]].
+
+
+* The sites that define the [[higher geometry|geometry]] called [[differential geometry]] are [[CartSp]]${}_{smooth}$, [[Diff]], etc, equipped with the [[open cover]] [[coverage]].
+
+* The sites that induced topological geometry are small versions of [[Top]] equipped with the [[open cover]] [[coverage]].
+
+
+* The sites that define the [[higher geometry|geometry]] called [[algebraic geometry]] are site structures on categories of formal duals of [[commutative ring]]s or commutative [[associative algebra]]s
+
+  * [[fppf site]], [[fpqc site]], [[etale site]], etc.
+
 
 ## Related concepts
 
