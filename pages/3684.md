@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
@@ -22,11 +26,11 @@
 
 Consider a [[symplectic manifold]] representing say a [[phase space]] of a [[physics|physical theory]] of [[dimension]] $2n$. 
 
-Recall that a [[Lagrangean submanifold]] is a smooth submanifold of dimension $n$ whose [[tangent space]]s at all points are Lagrangean, i.e. maximal [[isotropic subspace]]s with respect to the symplectic form. Lagrangean submanifold describes the phase of short-wave oscillations. 
+Recall that a [[Lagrangean submanifold]] is a smooth [[submanifold]] of dimension $n$ whose [[tangent spaces]] at all points are [[Lagrangean subspaces]] , i.e. maximal [[isotropic subspaces]] with respect to the [[symplectic form]]. Lagrangean submanifold describes the phase of short-wave oscillations. 
 
-The _Maslov index_ is an invariant of a smooth path in a Lagrangean submanifold. The existence of such an invariant is related to the universal Maslov index which is a generator of the first [[integral cohomology]] of the [[Lagrangian Grassmanian|Langrangean Grassmanian]] (the space of $n$-dimensional Lagrangean subspaces in $\mathbb{R}^{2n}$, cf. wikipedia: [Lagrangian Grassmannian](http://en.wikipedia.org/wiki/Lagrangian_Grassmannian)). 
+The _Maslov index_ is an invariant of a smooth path in a Lagrangean submanifold. The existence of such an invariant is related to the universal Maslov index which is a generator of the first [[integral cohomology]] of the [[Lagrangian Grassmanian|Langrangean Grassmanian]] (the space of $n$-dimensional Lagrangean subspaces in $\mathbb{R}^{2n}$. 
 
-The Maslov index can be reinterpreted as a [[characteristic class]] of theories of Lagrangean and Legendrean [[cobordism]]s. 
+The Maslov index can be reinterpreted as a [[characteristic class]] of theories of Lagrangean and Legendrean [[cobordisms]]. 
 
 ## References and links
 
