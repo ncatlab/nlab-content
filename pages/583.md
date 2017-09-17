@@ -101,7 +101,7 @@ $$\array{
 }$$
 
 
-### Categorical semantics
+### Categorical semantics {#CategoricalSemantics}
 
 Now suppose that we have a category $C$ with [[finite limit]]s and we want to interpret such a theory internally in $C$. We identify the aspects of the theory with structures in the category by what is called [[categorical semantics]]: 
 
