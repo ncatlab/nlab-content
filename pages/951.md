@@ -75,3 +75,5 @@ This is discussed for instance as ([Awodey, prop. 7.31](#Awodey)). For the gener
  {#Awodey}
 
 category: category
+
+[[!redirects category of finite sets]]
