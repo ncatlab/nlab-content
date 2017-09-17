@@ -232,7 +232,7 @@ are both [[left Kan fibrations]].
 This is a special case of [[Higher Topos Theory|HTT, prop 2.1.2.1]] and [[Higher Topos Theory|prop. 4.2.1.6]].
 
 
-+-- {: .num_prop}
++-- {: .num_prop #FinalFunctorsInduceEquivalentSlices}
 ###### Proposition
 
 For $v \colon K \to \tilde K$ an map of small [[(∞,1)-categories]] and $\mathcal{C}$ any $(\infty,1)$-category, the induced [[(∞,1)-functor]] between slice $(\infty,1)$-categories
