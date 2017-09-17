@@ -130,9 +130,9 @@ Note also that for any virtual double category $X$, there is another virtual dou
 
 * If $V$ has pullbacks and $T$ is a monad preserving pullbacks (no condition on $\eta$ and $\mu$), then $T$ induces a monad on the virtual double category (which is actually, of course, a pseudo double category) $Span(V)$.  The $T$-monoids in $Span(V)$ are then precisely the $T$-multicategories, as defined above.
 
-* The "free symmetric strict monoidal category" monad on $Prof$ can also be regarded as a monad on the virtual double category $Prof$, and its $T$-monoids on a discrete category are symmetric multicategories.
+* The "free symmetric strict monoidal category" monad on $Prof$ can also be regarded as a monad on the virtual double category $Prof$, and its $T$-monoids on a discrete category are [[symmetric multicategories]].
 
-* If we use instead the "free category with finite products" monad on the virtual double category $Prof$, then $T$-monoids on discrete categories can be identified with [[Lawvere theories]].
+* If we use instead the "free category with finite products" monad on the virtual double category $Prof$, then $T$-monoids on discrete categories can be identified with [[cartesian multicategories]], which include a sub-collection equivalent to that of [[Lawvere theories]].
 
 * More basically, we also have a "free strict monoidal category" monad on $Prof$, whose $T$-monoids on discrete categories are ordinary non-symmetric multicategories.  Noting that $Prof = Mod(Span)$, this $T$ is also $Mod(S)$, where $S$ is the "free monoid" monad on $Span = Span(Set)$.  In fact, quite generally for any monad $S$ on a virtual double category $X$, we can identify $S$-monoids in $X$ with $Mod(S)$-monoids in $Mod(X)$ on "discrete objects."
 
