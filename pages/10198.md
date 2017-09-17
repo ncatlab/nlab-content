@@ -22,6 +22,10 @@
 
 The [[philosophy]] of [[mathematics]].
 
+## Related concepts
+
+* [[philosophy of physics]]
+
 ## References
 
 * Stanford Encyclopedia of Philosophy, _[Philosophy of Mathematics](http://plato.stanford.edu/entries/philosophy-mathematics/)_
@@ -29,4 +33,8 @@ The [[philosophy]] of [[mathematics]].
 * Wikipedia, _[Philosophy of mathematics](http://en.wikipedia.org/wiki/Philosophy_of_mathematics)_
 
 * [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press (2003)
+
+* [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
+
+
 
