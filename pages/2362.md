@@ -15,7 +15,7 @@
 
 A __direct limit__ is the same thing as a [[colimit]].  (Similarly, an [[inverse limit]] is the same thing as a [[limit]].)  In this context, a __direct system__ is the same thing as a [[diagram]], and a __direct cone__ is the same thing as a [[cocone]].
 
-Many authors restrict this terminology to limits over [[directed sets]] (or [[filtered categories]]), especially the directed set $(\mathbb{N},\leq)$ of [[natural numbers]]; see [[directed colimit]] (or [[filtered colimit]]) for discussion of this case if you think that it may be what you want.
+Many authors restrict this terminology to limits over [[directed sets]] (or [[filtered categories]]); see __[[directed colimit]]__ (or __[[filtered colimit]]__) for discussion of this case if you think that it may be what you want, or see __[[colimit]]__ for the more general notion.  Especially common is the directed set $(\mathbb{N},\leq)$ of [[natural numbers]], in which case the direct system may be called an __direct sequence__.
 
 
 [[!redirects direct limit]]
@@ -23,6 +23,9 @@ Many authors restrict this terminology to limits over [[directed sets]] (or [[fi
 
 [[!redirects direct system]]
 [[!redirects direct systems]]
+
+[[!redirects direct sequence]]
+[[!redirects direct sequences]]
 
 [[!redirects direct cone]]
 [[!redirects direct cones]]
