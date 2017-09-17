@@ -419,7 +419,7 @@ Parts of this statement can be strenghened:
 +-- {: .num_prop #ReflectionRecognizedByIdempotency}
 ###### Proposition
 
-Let $(L \dashv R) : D \to C$ be a pair of [[adjoint functor]] such that there is _any_ [[natural isomorphism]] 
+Let $(L \dashv R) : D \to C$ be a pair of [[adjoint functors]] such that there is _any_ [[natural isomorphism]] 
 
 $$
   L R \simeq Id
