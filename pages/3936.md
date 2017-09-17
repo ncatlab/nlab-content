@@ -50,7 +50,12 @@ $$
 
 The **category of models** in this case is hence the [[full subcategory]] of the [[functor category]] $[Syn(T),C]$ on product-preserving functors.
 
+## Examples
+
+* [[models in presheaf toposes]]
+
 ## Related entries
+
 
 * [[structure in model theory]]
 
