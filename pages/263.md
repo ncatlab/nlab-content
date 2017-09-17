@@ -21,7 +21,7 @@
 
 A _category with [[weak equivalence]]s_ is an ordinary [[category]] with a [[class]] of [[morphisms]] singled out -- called 'weak equivalences' -- that include the [[isomorphisms]], but also typically other morphisms.  Such a category can be thought of as a _presentation_ of an [[(∞,1)-category]] that defines explicitly only the 1-morphisms (as opposed to [[n-morphism]]s for all $n$) and the information about which of these morphisms should become _[[equivalence in an (infinity,1)-category|equivalences]]_ in the full [[(∞,1)-category]].
 
-The desired $(\infty,1)$-category in question can be constructed from such a "presentation" by "freely adjoining inverse equivalences" to the [[weak equivalences]], in a suitable $(\infty,1)$-categorical sense.  One way to make this precise is by the process of _[[simplicial localization]]_ .  A single $(\infty,1)$-category can admit many differemt such presentations. See the section _[Presentations of (∞,1)-categories](#InfCatPres)_ below for more details.
+The desired $(\infty,1)$-category in question can be constructed from such a "presentation" by "freely adjoining inverse equivalences" to the [[weak equivalences]], in a suitable $(\infty,1)$-categorical sense.  One way to make this precise is by the process of _[[simplicial localization]]_ .  A single $(\infty,1)$-category can admit many different such presentations. See the section _[Presentations of (∞,1)-categories](#InfCatPres)_ below for more details.
 
 
 ## Definition
