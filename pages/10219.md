@@ -1,5 +1,5 @@
-# Split supports
 
+# Split supports
 * table of contents
 {: toc}
 
@@ -11,11 +11,13 @@ We say that $X$ has a **split support** if the canonical map $X\to {\Vert X \Ver
 
 If all objects has split supports, we say that **supports split** in the ambient category.
 
+
 ## Relation to axiom of choice
 
 Supports splitting in a category is a weak form of the external [[axiom of choice]] (all regular epis split).  In fact, the splitting of supports is exactly the "difference" between the external axiom of choice and the *internal* axiom of choice, i.e.
 
 $$ EAC \Leftrightarrow (IAC \;\text{ and }\; SS).$$
+
 
 ## In foundations
 
@@ -32,7 +34,7 @@ In [[type theory]] under [[propositions as types]]), where assertions of existen
 
 $$ \prod_{(X:Type)} \Vert ( \Vert X \Vert \to X ) \Vert. $$
 
-We might pronounce this version as "all supports [[merely]] split".
+We might pronounce this version as "all supports [[mere proposition|merely]] split".
 
 In [[homotopy type theory]], the pure constructive version of "all supports split" ($\prod_{(X:Type)} \Vert X \Vert \to X$) is in fact inconsistent: it contradicts the [[univalence axiom]].  As before, the truncated version is true under LEM but may fail otherwise.
 
@@ -72,6 +74,10 @@ In particular, not all types of the form $steady(f)$ have split support.  Thus, 
 * [[Nicolai Kraus]] and [[Martin Escardo]] and [[Thierry Coquand]] and [[Thorsten Altenkirch]], "Generalizations of Hedberg's theorem", M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf).  In this paper, types with split support are called "h-stable".
  {#KECA}
 
+
+[[!redirects split support]]
 [[!redirects split supports]]
 [[!redirects supports split]]
+
 [[!redirects h-stable type]]
+[[!redirects h-stable types]]
