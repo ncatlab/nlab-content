@@ -73,7 +73,7 @@ More generally, let $k$ here be a [[ring spectrum]]. Set
 
 * [[2-vector space]]
 
-* **$n$-vctor space**
+* **$n$-vector space**, [[n-vector bundle]]
 
 
 
