@@ -171,7 +171,7 @@ $$
   }
 $$
 
-A lift of the tangent bundle map $\tau_X$ to a map $e_X \colon X \to \mathbf{B}O(n)$ as indicated is a choice of [[orthogonal structure]] (a [[vielbein field]], discussed in detail below in _[Ordinary gravity](#OrdinaryGravity)_). For the present discussion asssume that this is given.
+A lift of the tangent bundle map $\tau_X$ to a map $e_X \colon X \to \mathbf{B}O(n)$ as indicated is a choice of [[orthogonal structure]] (a [[vielbein field]], discussed in detail below in _[Ordinary gravity](#OrdinaryGravity)_). For the present discussion assume that this is given.
 
 
 The a further lift to $o_X : X \to \mathbf{B}SO(n)$ is a choice of [[orientation]], and finally a lift to $s_X : X \to \mathbf{B}Spin(n)$ is a choice of [[spin structure]].
@@ -337,6 +337,8 @@ There is a wide variety of [[higher dimensional Chern-Simons theories]] whose fi
 By the [above](#IdeaOfFieldBundlesAndItsProblems), defining a physical field to be a section of some bundle goes in the right direction, but misses crucial aspects of physical fields. These problems are fixed by passing to [[higher geometry]].
 
 Below in _[Definition](#Definition)_ we discuss a natural unified formulation of the notion of physical field in terms of [[higher geometry]] (the central definition being def. \ref{FieldsInAnActionFunctional} ) and then we spell out many [Examples](#Examples).
+
+This definition turns out to be equivalent, at least under mild conditions, to a formulation where fields are sections of an [[associated ∞-bundle]], hence a "field $\infty$-bundle". This we discuss in _[Properties -- Relation of fields to sections of ∞-bundles](#RelationOfFieldsToSections)_. But this is just one of several equivalent perspectives on physical fields, and not always the most transparent one. In fact, sections of higher associated bundles are best known in the literature on [[twisted cohomology]] and indeed one equivalent characterization of fields is as [[cocycles]] in [[twisted cohomology]] in the general sense of [[cohomology]] in an [[(∞,1)-topos]]. This we discuss below in _[Relation to twisted cohomology](#RelationToTwistedCohomology)_.
 
 ## Definition 
  {#Definition}
@@ -707,7 +709,7 @@ More generally, the moduli $\infty$-stacks of combined bulk/boundary-defect fiel
 +-- {: .num_prop #ModuliOfBulkAndDefectFieldsAsPullback}
 ###### Proposition
 
-The moduli stack $[\iota_X, \mathbf{Fields}]_{\mathbf{H}}$ of bulk and defect fields in def. \ref{ModuliOfBulkAndBoundaryFields} sits in an [[(∞,1)-pullback diagram]]
+The moduli stack $[\iota_X, \mathbf{Fields}]_{\mathbf{H}}$ of bulk and defect fields in def. \ref{ModuliOfBulkAndBoundaryFields} sits in an [[(∞,1)-pullback]] [[diagram]]
 
 $$
   \array{
@@ -718,7 +720,7 @@ $$
     \downarrow && \downarrow^{\mathrlap{}}
     \\
     [X_{bulk}, \mathbf{Fields}_{bulk}]
-    &\stackrel{}{\o}&
+    &\stackrel{}{\to}&
     [X_{def}, \mathbf{Fields}_{bulk}]
   }
   \,.
@@ -932,12 +934,12 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-This identifies $\pi_0 \Gamma[\iota_X, pt_A]$ as the 
-$\iota_X$-[[relative cohomology relative A-cohomology]] of $X$.
+This identifies the equivalence classes of global points in $[\iota_X, pt_A]$ as the 
+$\iota_X$-[[relative cohomology|relative A-cohomology]] of $X$.
 
 =--
 
-In general, if the defect fields are not trivial, the fields $\iota_X \to \mathbf{Fields}$ (hence ordinary cocycles in $\mathbf{H}^{(\Delta^1)}$) are a kind of cocycles in $\mathbf{H}$ that are relative cocycles in a twisted sense.
+In general, if the defect fields are not trivial, the fields $\iota_X \to \mathbf{Fields}$ (hence ordinary cocycles in $\mathbf{H}^{(\Delta^1)}$) are a kind of cocycles in $\mathbf{H}$ that are a combination of relative and twisted cocycles: instead with their pullback to $X_{def}$ being equipped with a trivialization, it is equipped with a "twisted trivialization" in the sense of [[twisted differential c-structure|twisted c-structures]], disucssed [below](#TwistedDifferentialcStructurs).
 
 
 ## Examples
@@ -1600,11 +1602,11 @@ $$
   \to \mathbf{B}^3 U(1)
 $$
 
-which maps to the generator of $H^4(BG, \mathbb{Z})$ under [[geometric realization of cohesive infinity-groups]]. For $G = Spin$ this is the smooth refinement of the [[first fractional Pontryagin class]] $\tfrac{1}{2}\mathbf{p}_1$, discussed further at _[[twisted differential string structure]]_. 
+which maps to the generator of $H^4(BG, \mathbb{Z})$ under [[geometric realization of cohesive infinity-groupoids]]. For $G = Spin$ this is the smooth refinement of the [[first fractional Pontryagin class]] $\tfrac{1}{2}\mathbf{p}_1$, discussed further at _[[twisted differential string structure]]_. 
 
 Of interest in [[heterotic supergravity]] here is the case that $G = E_8 \times E_8$ (the product of the  [[exceptional Lie group]] $E_8$ with itself) and $\mathbf{c}$ is twice the canonical string class.
 
-If then $g_X \;\colon\; X \to \mathbf{B}(E_8 \times E_8)$ is the [[instanton sector]] of the gauge field in [[heterotic supergravity]] regarded as a [[backgeound gauge field]] for the field of heterotic [[gravity]], then with  
+If then $g_X \;\colon\; X \to \mathbf{B}(E_8 \times E_8)$ is the [[instanton sector]] of the gauge field in [[heterotic supergravity]] regarded as a [[background gauge field]] for the field of heterotic [[gravity]], then with  
 
 $$
   \mathbf{Fields}
@@ -1640,7 +1642,7 @@ $$
   \,.
 $$
 
-These are precisely the [[instanton sectors]] of the fields of [[Green-Schwarz mechanism|Green-Schwarz anomaly free]] [[heterotic suprgravity]], discussed further below in _[Anomaly-free heterotic supergravity fields](#HeteroticStringBackgroundField)_.
+These are precisely the [[instanton sectors]] of the fields of [[Green-Schwarz mechanism|Green-Schwarz anomaly free]] [[heterotic supergravity]], discussed further below in _[Anomaly-free heterotic supergravity fields](#HeteroticStringBackgroundField)_. ([SSS](#SSS))
 
 #### **I b)** Gauge fields
  {#GaugeFields}
@@ -2035,17 +2037,16 @@ This is discussed further at [geometry of physics -- Prequantum gauge theory and
 #### 3d Chern-Simons field with Wilson line
  {#ChernSimonsWithWilsonLines}
 
-[[Chern-Simons theory]] with [[Wilson loops]]
+We discuss the field content of 3d [[Chern-Simons theory]] for a simple, simply connected compact Lie group with [[Wilson loops]].
+This is an example of _[Bulk fields with defect fields](#BoundaryAndDefectFields)_.
 
-and example of _[Bulk fields with defect fields](#BoundaryAndDefectFields)_
-
-Let 
+Let $\Sigma_3 \in SmthMfd \hookrightarrow \mathbf{H}$ be a [[smooth manifold]] of [[dimension]] 3, and let
 
 $$
-  C \;\colon\; S^1 \to \Sigma^3
+  C_X \;\colon\; S^1 \to \Sigma^3
 $$
 
-be a [[knot]] and let
+be the [[submanifold|embedding]] of a [[knot]]. Let the moduli of fields be
 
 $$
   \mathbf{Fields}
@@ -2053,15 +2054,15 @@ $$
   \Omega^1(-,\mathfrak{c})//T \to \mathbf{B}G_{conn}
 $$
 
-as in _[Nonabelian charged particle trajectories -- Wilson lines](#NonabelianChargedParticle)_ above. Then a field configuration is a map
+as defined in _[Nonabelian charged particle trajectories -- Wilson lines](#NonabelianChargedParticle)_ above. Regarding the not inclusion as a defect in the 3-dimnensional manifold, a bulk-defect fiedl configuration according to def. \ref{ModuliOfBulkAndBoundaryFields} is a map
 
 $$
   \phi 
    \;\colon\;
-  C \to \mathbf{Fields}
+   C_X \to \mathbf{Fields}
 $$
 
-in $\mathbf{H}^{(\Delta^1)}$, which is equivalently a diagram
+in $\mathbf{H}^{(\Delta^1)}$. This is equivalently a diagram
 
 $$
   \array{
@@ -2073,7 +2074,7 @@ $$
   }
 $$
 
-in $\mathbf{H}$. This is equivalently
+in $\mathbf{H}$. This in turn is equivalently
 
 1. a [[Lie algebra valued form]] $A \in \Omega^1(\Sigma_3, \mathfrak{g})$ (the bulk [[gauge field]] of $G$-[[Chern-Simons theory]])
 
@@ -2081,9 +2082,9 @@ in $\mathbf{H}$. This is equivalently
 
 which determine a background gauge field $A|_{S^1}^g$ on the knot.
 
-Moreover, a [[gauge transformation]] between two such field configurations $\kappa \;\colon\; \phi \Rightarrow \phi'$ is equivalently a gauge transformaiton of $A$ and of $A|_{S^1}$ such that together they intertwine $g$ and $g'$. In particular if the bulk field is held fixed, then such a gauge transformation is a function $t \colon S^1 \to T$ such that $g' = t g$. This means that the gauge equivalence classes of field confiurations for fixed background gauge field are labeled by maps to the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ as above.
+Moreover a [[gauge transformation]] between two such field configurations $\kappa \;\colon\; \phi \Rightarrow \phi'$ is equivalently a gauge transformaiton of $A$ and of $A|_{S^1}$ such that together they intertwine $g$ and $g'$. In particular if the bulk field is held fixed, then such a gauge transformation is a function $t \colon S^1 \to T$ such that $g' = t g$. This means that the gauge equivalence classes of field confiurations for fixed background gauge field are labeled by maps to the [[coadjoint orbit]] $\mathcal{O}_\lambda \simeq G/T$ as above.
 
-(...)
+This are the field confugurations for 3d [[Chern-Simons theory]] (see the discussion there) with Wilson lines ([FSS](#FSS)).
 
 
 #### Chan-Paton gauge fields on D-branes: twisted differential K-cocycles
@@ -2091,16 +2092,6 @@ Moreover, a [[gauge transformation]] between two such field configurations $\kap
 
 We discuss the [[Chan-Paton gauge fields]] over [[D-branes]]
 in [[type II string theory]].
-
-Let 
-
-$$
-  \iota_X   
-    \;\colon\;
-  Q \hookrightarrow X 
-$$
-
-be a [[submanifold]], to be thought of as a [[D-brane]] [[worldvolume]] in an ambient [[spacetime]] $X$.
 
 The [[extension of groups]] $U(1) \to U(n) \to PU(n)$ sits in a long [[homotopy fiber sequence]] of $\infty$-stacks
 
@@ -2120,9 +2111,20 @@ $$
   \mathbf{B}^2 U(1)_{conn}
 $$
 
-be the differential refinement of that universal [[Dixmier-Douady class]] 
+be the differential refinement of that universal [[Dixmier-Douady class]].
 
-then a field configuration of the [[B-field]] on $X$ together with a compatible rank-$n$ gauge field on the [[D-brane]] is a map
+Let 
+
+$$
+  \iota_X   
+    \;\colon\;
+  Q \hookrightarrow X 
+$$
+
+be a [[submanifold]], to be thought of as a [[D-brane]] [[worldvolume]] in an ambient [[spacetime]] $X$.
+
+ 
+Then a field configuration of the [[B-field]] on $X$ together with a compatible rank-$n$ gauge field on the [[D-brane]] is a map
 
 $$
   \iota_X \to \mathbf{Fields}
@@ -2142,9 +2144,8 @@ $$
 
 This identifies a  [[twisted bundle]] with connection on the D-brane whose twist is the class in $H^3(X, \mathbb{Z})$ of the bulk [[B-field]]. 
 
-This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes.
+This relation is the Kapustin-part of the [[Freed-Witten-Kapustin anomaly]] cancellation for the [[bosonic string]] or else for the [[type II string]] on $Spin^c$ D-branes. ([FSS](#FSS))
 
-(...)
 
 +-- {: .num_remark }
 ###### Remark
@@ -2165,24 +2166,68 @@ $$
 On the local connection forms this acts as
 
 $$
-  B \mapsto B + d \alpha
+  A \mapsto A + \alpha
+  \,.
 $$
 
 $$
-  A \mapsto A + \alpha
-  \,.
+  B \mapsto B + d \alpha
 $$
 
 This is the famous gauge transformation law known from the string theory literature.
 
 =--
 
-(...)
 
 #### Anomaly-free heterotic string background: differential $String^c$-structure
  {#HeteroticStringBackgroundField}
 
-* [[twisted differential string structure]]
+Let
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Spin_{conn}
+  \stackrel{\tfrac{1}{2}\hat \mathbf{p}_1}{\to}
+  \mathbf{B}^3 U(1)_{conn}
+$$
+
+Let 
+
+$$
+  \Phi_X \;\colon\; X \stackrel{g_X}{\to} \mathbf{B}(E_8 \times E_8)_{conn}
+  \stackrel{\hat \mathbf{c}_2}{\to}
+  \mathbf{B}^3 U(1)
+$$
+
+then fields are [[twisted differential string structures]] or equivalently
+differential $\mathbf{String}^{\mathbf{c}}$-structure with underlying gauge bundle give by $\Phi_X$, the differential refinement of the discussion in _[Higher spin structure](#HigherSpinStructures)_ above. 
+
+As in the discussion there, we implement the constraint that the string structure is on the tangent bundle $\tau_X \;\colol\; X \to \mathbf{B}GL(n)$ of the manifold by settting
+
+$$
+  \mathbf{Fields}
+  \;\colon\;
+  \mathbf{B}Spin_{conn}
+  \stackrel{(p,\tfrac{1}{2}\hat \mathbf{p}_1)}{\to}
+  \mathbf{B}GL(n)_conn \mathbf{B}^3 U(1)_{conn}
+$$
+
+and
+
+$$
+  \Phi_X
+  \;\colon\;
+  X
+  \stackrel{(\nabla_X, \hat \mathbf{c}_2(g_X))}{\to}
+  \mathbf{B}GL(n)_{conn} \times \mathbf{B}^3 U(1)_{conn}
+  \,.
+$$
+
+Then a field $\phi \;\colon\; \Phi_X \to \mathbf{Fields}$ 
+is the higher spin-connection version as discussed in _[Gravity](#OrdinaryGravity)_ above of a twisted differential string structure.
+
+The moduli stack of these fields is that of background fields that satisfy the [[Green-Schwarz anomaly cancellation]] in [[heterotic supergravity]]. ([SSS](#SSS)).
 
 ## Related concepts
 
@@ -2207,13 +2252,14 @@ This is the famous gauge transformation law known from the string theory literat
 
 ### Lecture notes and expositions
 
-Lecture notes containing the above material are in
+Lecture notes containing the above material are in 
 
 * _[[geometry of physics]]_
 
 An exposition of the general formulation of fields in terms of [[moduli stacks]] in [[slice (∞,1)-toposes]] is in section 4 of 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+ {#FSS}
 
 Lecture notes on fields as discussed here with applications in [[string theory]] are in 
 
@@ -2240,6 +2286,7 @@ Further articles since then are listed at
 In particular the general notion of fields as [[twisted differential c-structures]] appears in
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_ ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+ {#SSS}
 
 and the general theory of [[cohomology]] and [[twisted cohomology]] with [[local coefficient ∞-bundles]] as referred to in _[Relation to twisted cohomology](#RelationToTwistedCohomology)_ above as well as the theory of [[associated ∞-bundles]] as in _[Sections of associated ∞-bundles](#SectionsOfAssociatedBundles)_ is laid out in
 
