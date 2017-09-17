@@ -30,4 +30,8 @@
 
 category: people
 
+
+
 [[!redirects D. Freed]]
+
+[[!redirects Freed]]
