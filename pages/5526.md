@@ -76,7 +76,7 @@
 
 * **[[discrete ∞-groupoid]]**
 
-  * [[discrete space]], [[discrete group]]
+  * [[discrete space]], [[discrete group]], [[discrete groupoid]]
 
 * **[[Euclidean-topological ∞-groupoid]]**
 
