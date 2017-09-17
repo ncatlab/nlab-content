@@ -74,6 +74,14 @@ _Toby_:  When Neretin insists that the mantle is a semigroup, does he also insis
 We category theorists are strongly attracted to monoids, since they come from categories and semigroups don\'t.  But others consider monoids to be just a special kind of semigroup; as long as it\'s not a group, they\'re not going to bother worrying about whether a semigroup is a monoid or not.
 
 I agree with David that the mantle doesn\'t seem to be well defined; a group should have several mantles (the smallest of which is itself).  But if he\'s talking about a particular way of constructing certain groups, then this way may well come about by first constructing a monoid (the mantle) and then taking the mantle\'s group of invertible elements.
+
+_AnonymousCoward_: The notion of a semigroup is (as best as I can tell from closely reading the first chapters) left undefined. I assumed that the endomorphism monoid here is also a semigroup, so there is really nothing lost here (well...partially true; I think viewing the Mantle as a semigroup **does** play a role when considering morphisms!). 
+
+After looking a bit more into Neretin's writings (e.g. "Infinite-dimensional groups, their mantles, trains, and representations" in Kirillov's book _Topics in Representation Theory_) it does seem clear that the mantle of an infinite-dimensional group is not well-defined (there are apparently two different ways to consider it that produce not necessarily equal mantles --- one is by considering the group $G$ as the automorphism of an object $H$ in some category and thereby obtaining the mantle as the endomorphism monoid of this object; the other is to consider the closure of sequences of $G$ under a weak-operator norm, or something to that effect).
+
+I was just worried that I was forgetting some special situation when the endomorphisms form a semigroup instead of a monoid.
+
+Also, thank you both Toby and David for your quick and informative replies, I really appreciate it :) 
 =--
 
 
