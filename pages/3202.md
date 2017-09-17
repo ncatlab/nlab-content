@@ -132,6 +132,10 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 [[!redirects L-p spaces]]
 [[!redirects L-p-space]]
 [[!redirects L-p-spaces]]
+[[!redirects L^p space]]
+[[!redirects L^p spaces]]
+[[!redirects L_p space]]
+[[!redirects L_p spaces]]
 
 [[!redirects Minkowski inequality]]
 [[!redirects Minkowski's inequality]]
