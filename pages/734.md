@@ -52,3 +52,5 @@ Weak limits in homotopy categories play an important role in the [[Brown represe
 [[!redirects weak pullback]]
 [[!redirects weak finite limits]]
 [[!redirects weak limits]]
+[[!redirects weak colimit]]
+[[!redirects weak colimits]]
