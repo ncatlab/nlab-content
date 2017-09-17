@@ -160,6 +160,11 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 [[special_law.jpg:pic]]
 
 
+## Related concepts
+
+* [[Frobenius monoid]]
+
+* [[Frobenius monad]]
 
 
 ## References ##
