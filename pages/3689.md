@@ -19,7 +19,7 @@ That [[category]] $Mod$ is the category of all [[module]]s over all commutative 
 
   is a pair consisting of a ring homomorphism $\phi : R \to R'$ and a morphism $\kappa : N \to \phi^* N'$ of $R$-modules, where $\phi^* N'$ is the [[tensor product]] $\phi^* N' := R \otimes_{\phi} N$.
 
-## Tangents and deformation theory
+## As a bifibration
 
 Projecting out the first items in these pairs yields a canonical functor
 
@@ -34,7 +34,19 @@ $$
 
 that exhibits $Mod$ as a [[bifibration]] over $R$.
 
-By an old observation of Quillen -- reviewed at [[module]] -- this is [[equivalence of categories|equivalent]] to the category of fiberwise abelian [[group object]] in the [[codomain fibration]] $[I,CRing] \to CRing$:
+The fiber of this projection over a ring $R$ is $Mod_R$, the category of $R$-modules.
+
+In particular the fiber over the initial commutative ring $R = \mathbb{Z}$ is
+
+$$
+  Mod_{\mathbb{Z}} = Ab
+$$
+
+the category [[Ab]] of abelian groups.
+
+## Tangents and deformation theory
+
+By an old observation of Quillen -- reviewed at [[module]] -- the bifibration $Mod \to CRing$ this is [[equivalence of categories|equivalent]] to the category of fiberwise abelian [[group object]] in the [[codomain fibration]] $[I,CRing] \to CRing$:
 
 $$
   (Mod \to CRing) \simeq Ab([I,CRing]] \to CRing)
