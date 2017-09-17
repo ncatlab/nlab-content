@@ -1,4 +1,12 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[manifold]] of [[special holonomy]] [[spin group|Spin(7)]].
+
 ## Related concepts
 
 [[!include special holonomy table]]
@@ -6,7 +14,10 @@
 
 ## References
 
-(...)
+* Christine Taylor, _Compact Manifolds with Holonomy Spin(7)_ (1996) ([pdf](https://people.maths.ox.ac.uk/joyce/theses/TaylorMSc.pdf))
 
-[[!redirects Spin(7) manifold]]
+* [[Dominic Joyce]], _Compact Manifolds with Special Holonomy_, Oxford Mathematical Monographs, Oxford University Press (2000)
+
+
+[[!redirects Spin(7) manifolds]]
 
