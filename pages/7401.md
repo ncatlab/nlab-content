@@ -183,6 +183,7 @@ $$
 =--
 
 ### Skeleta and coskeleta
+ {#SkeletaAndCoskeleta}
 
 For $n \in \mathbb{N}$, write 
 
@@ -201,7 +202,7 @@ Left and right [[Kan extension]] along $t_n$ defines an [[adjoint triple]]
 $$
   ((t_n)_! \dashv t_n^* \dashv (t_n)_*)
   :
-   [S_{\leq n},\mathcal{C}] \stackrel{\overset{(t_n)_!}{\to}}{\stackrel{\overset{t_n^*}{\leftarrow}}{\underset{(t_n)_*}{\hookrightarrow}}}
+   [S_{\leq n},\mathcal{C}] \stackrel{\overset{(t_n)_!}{\hookrightarrow}}{\stackrel{\overset{t_n^*}{\leftarrow}}{\underset{(t_n)_*}{\hookrightarrow}}}
   [S,\mathcal{C}]
   \,.
 $$
@@ -213,9 +214,9 @@ $$
   (sk_n \dashv cosk_n)
   : 
   [S,\mathcal{C}]
-    \stackrel{\overset{(t_n)_!}{\leftarrow}}{\underset{t_n^*}{\hookrightarrow}}
+    \stackrel{\overset{(t_n)_!}{\leftarrow}}{\underset{t_n^*}{\to}}
   [S_{\leq n},\mathcal{C}]
-    \stackrel{\overset{t_n^*}{\hookleftarrow}}{\underset{(t_n)_*}{\to}}
+    \stackrel{\overset{t_n^*}{\leftarrow}}{\underset{(t_n)_*}{\to}}
   [S,\mathcal{C}]
 $$
 
@@ -236,7 +237,7 @@ $$
   \,.
 $$
 
-+-- {: .num_lemma }
++-- {: .num_lemma #LatchingIsSkeleton}
 ###### Lemma
 
 The degree-$n$th latching object, def. \ref{GlobalLatching}, is isomorphic to the $(n-1)$-skeleton, and dually, the degree-$n$ matching object is isomorphic to the $(n-1)$-coskeleton. Under these identifications the canonical morphisms on both sides match
@@ -308,7 +309,7 @@ We work with the "global" latching objects from [above](#GlobalLatchingObjects).
 +-- {: .num_prop }
 ###### Observation
 
-A morphism $f : X \to Y$ in $[S, \mathcal{C}]_{gReedy}$ is a cofibration
+A morphism $f : X \to Y$ in $[S, \mathcal{C}]_{gReedy}$ is a Reedy cofibration
 precisely if for all $n \in \mathbb{N}$ the global relative latching morphism, def. \ref{GlobalLatching}
 
 $$
@@ -319,12 +320,122 @@ is a cofibration in $[G_n(S), \mathcal{C}]$.
 
 =--
 
-+-- {: .num_lemma }
+
++-- {: .num_lemma #ExtraPropertyOfAcyclicCofibrations}
 ###### Lemma
 
-(...)
+Let $f : X \to Y$ in $[S, \mathcal{C}]$ be an acyclic Reedy cofibration. Then for all $n \in \mathbb{N}$ the morphism $Latch_n(f) : Latch_n(X) \to Latch_n(Y)$ is over each $s \in S$ an acyclic cofibration in $\mathcal{C}$
+
+Dually, let $f : X \to Y$ in $[S, \mathcal{C}]$ be an acyclic Reedy fibration. Then for all $n \in \mathbb{N}$ the morphism $Match_n(f) : Match_n(X) \to Match_n(Y)$ is over each $s \in S$ an acyclic fibration in $\mathcal{C}$
+
 
 =--
+
+This is ([Ber-Moer, lemma 5.3 and lemma 5.5](#BergerMoerdijk)).
+
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+In the generalized Reedy model structure, def. \ref{ReedyModelStructure}, 
+
+* acylcic cofibrations have the [[left lifting property]] agains fibrations;
+
+* cofibrations have the [[left lifting property]] agains acyclic fibrations.
+
+
+=--
+
+This is ([Ber-Moer, lemma 5.2, lemma 5.4](#BergerMoerdijk)).
+
++-- {: .proof}
+###### Proof
+
+We show the first clause. The second is dual. So let $f : X \to Y$ be an acyclic cofibration and let $g : Y \to X$ be a fibration.
+We will exhibit a lift in any commuting diagram
+
+$$
+  \array{
+    A &\stackrel{}{\to}& Y
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{}}
+    \\
+    B &\stackrel{}{\to}& X
+  }
+$$
+
+by inductively constructing lifts in its image under $t_n^*$ (restriction to objects of degree $\leq n$, see [above](#SkeletaAndCoskeleta)).
+
+First consider the case $n = 0$. Since $L_0(X) = \emptyset$ for all $X$, the fact that 
+
+$$
+  A_0 \coprod_{L_0(A)} L_0(B) \to B_0
+$$
+
+is a cofibration in $[G_0, \mathcal{C}]$ by assumption, means that in fact $f_0 : A_0 \to B_0$ is an acyclic cofibration here. Similarly $Y_0 \o X_0$ is a fibration there. But $G_0(S) = S_{\leq 0}$ and so the restriction of the lifting problem along $t_0$
+
+$$
+  \array{
+    A_0 &\stackrel{}{\to}& Y_0
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{}}
+    \\
+    B_0 &\stackrel{}{\to}& X_0
+  }
+$$
+
+is a lifting problem in $[G_0(S), \mathcal{C}]_{proj}$ of an acyclic cofibration against a fibration, and hence has a filler $\gamma_0 : B_0 \to Y_0$ there.
+
+Now assume that a fillier $\gamma_{\leq (n-1)}$ in 
+
+$$
+  \array{
+    A_{\leq (n-1)} &\stackrel{}{\to}& Y_{\leq (n-1)}
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{}}
+    \\
+    B_{\leq (n-1)} &\stackrel{}{\to}& X_{\leq (n-1)}
+  }
+$$
+
+has been found. By lemma \ref{LatchingIsSkeleton} this induces maps $Latch_n(B) \to Latch_{Y}$ and $Match_n(B) \to Match_n(Y)$ from which we can build the commuting diagram
+
+$$
+  \array{
+    A_n \coprod_{Latch_n A} Latch_n B
+    &\to&
+    Y_n
+    \\
+    \downarrow && \downarrow
+    \\
+    B_n &\to& X_n \times_{Match_n X} Match_n Y
+  }
+  \,.
+$$
+
+Staring at this for a while (...) one sees that a lift of this in $[G_n, \mathcal{C}]$ completes the induction step. 
+
+By assumption the left vertical morphism is a cofibration in $[G_n, \mathcal{C}]_{proj}$, and the right vertical morphism is a fibration there. It is now sufficient to show that the left morphism is also a weak equivalence, hence is a weak equivalence in $\mathcal{E}$ over each $s \in S$.
+
+By lemma \ref{ExtraPropertyOfAcyclicCofibrations} we know that $L_n(f)_s$ is an acyclic cofibration in $\mathcal{C}$ for all $s$. Hence so is its pushout $A_s \to 
+(A_s \coprod_{L_n(A)_s} L_n(B)_s)$. The morphism $v_n(s)$ finally sits in the diagram
+
+$$
+  \array{
+    A_r &\stackrel{f_r}{\to}&
+    \\
+    \downarrow  & \nearrow_{\mathrlap{v_n(s)}}
+    \\
+    (A_s \coprod_{L_n(A)_s} L_n(B)_s)
+  }
+$$ 
+
+and so is a weak equivalence by [[two-out-of-three]].
+
+=--
+
 
 (...)
 
