@@ -1,19 +1,17 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Homological algebra
-+--{: .hide}
++-- {: .hide}
 [[!include homological algebra - contents]]
 =--
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
-
+{: toc}
 
 ## Definition
 
@@ -107,8 +105,7 @@ of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F 
 
 =--
 
-
-
+Actually, the full axiom of choice is not necessary here; it is enough to have the [[presentation axiom]], which states the [[category of sets]] has enough projectives (whereas the axiom of choice states that *every* set is projective).  Then we can replace $U(N)$ above by a projective set $P \twoheadrightarrow U(N)$, giving an epimorphism $F(P) \twoheadrightarrow F(U(N)) \twoheadrightarrow N$ (and $F(P)$ is projective).
 
 
 ### Explicit characterizations
