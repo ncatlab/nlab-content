@@ -279,16 +279,15 @@ $$
 \end{aligned}
 $$
 
-where in the last step we used the [[nLab:Yoneda lemma]] in its
-coend-form (the [[nLab:co-Yoneda lemma]]). Notice that this holds for $Set$-valued colimits, but we have that the coend is the colimit
-
+where in the last step we used the isomorphism (described at [[coend]])
 $$
   \int^{k \in \Delta} \Delta(k,n) \cdot A_k
   \simeq
  \lim_\to( \Delta/n \to \Delta \stackrel{A}{\to} T Alg)
+  \simeq A_n
+  \,.
 $$
 
-where the [[over category]] $\Delta/n$ is a [[filtered category]] and [[filtered colimit]]s in $T Alg$ are computed in the underlying sets.
 
 =--
 
