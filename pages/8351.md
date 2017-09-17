@@ -1,0 +1,34 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+(...)
+
+
+## Related concepts
+
+* [[projective object]], [[projective presentation]], **projective cover**, [[projective resolution]]
+
+  * [[projective module]]
+
+* [[injective object]], [[injective presentation]], [[injective envelope]], [[injective resolution]]
+
+  * [[injective module]]
+
+* [[free object]], [[free resolution]]
+ 
+  * [[free module]]
+
+* flat object, [[flat resolution]]
+
+  * [[flat module]]
+
+## References
+
+* Wikipedia, _[Projective cover](http://en.wikipedia.org/wiki/Projective_cover)_
+
+[[!redirects projective covers]]
+
