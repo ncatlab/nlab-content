@@ -34,6 +34,7 @@ Let $C$ be a small [[site]]; we say it is a **locally connected site** if all [[
 
 
 ## Locally connected toposes from sites
+ {#LocallyConnectedToposesFromLocallyConnectedSites}
 
 We discuss that the [[sheaf toposes]] over locally connected sites are [[locally connected toposes]].
 
@@ -45,7 +46,7 @@ If $C$ is locally connected, then every [[constant presheaf]] on $C$ is a [[shea
 
 =--
 
-
+The fact that all [[covering families]] are [[inhabited set|inhabited]] makes the constant presheaves be [[separated presheaves]] (see [this example](separated+presheaf#ConstantPresheafOnSiteWithAllInhabitedCoverings)) and then the connectedness condition further makes them be sheaves.
 
 
 +-- {: .num_prop}
