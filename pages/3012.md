@@ -50,7 +50,7 @@ Let $A$ be a colored [[symmetric operad]] over [[Set]] ( hence a symmetric [[mul
 
 ### $(\infty,1)$-Category of operators
 
-The above definition has been [[vertical categorification|categorified]] to a notion of  [[(∞,1)-category]] of operators. See [[(∞,1)-operad]] for more.
+The above definition has been [[vertical categorification|categorified]] to a notion of  [[(∞,1)-category]] of operators. See at _[[(∞,1)-operad]]_ for more.
 
 
 ## Properties
@@ -111,3 +111,9 @@ This summarizes aspects of
 See [example 11.20](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.2460v1.pdf#page=70) there.
 
 [[!redirects categories of operators]]
+
+[[!redirects (∞,1)-category of operators]]
+[[!redirects (infinity,1)-category of operators]]
+[[!redirects (∞,1)-categories of operators]]
+[[!redirects (infinity,1)-categories of operators]]
+
