@@ -32,6 +32,8 @@ Recall that $f$ is a __[[continuous map]]__ if the [[preimage]] of every [[open 
 * If $G$ is a [[topological group]] and $H$ is a subgroup, then the projection to the coset space $p \colon G \to G/H$, where $G/H$ is provided with the quotient topology (making $p$ a quotient map), is open. This follows easily from the observation that if $U$ is open in $G$, then so is 
 $$p^{-1}(p(U)) = U H = \bigcup_{h \in H} U h$$ 
 
+* If $p \colon A \to B$ and $q \colon C \to D$ are open maps, then their product $p \times q \colon A \times C \to B \times D$ is also an open map. 
+
 ### For morphisms between locales
 
 A continuous map $f\colon X \to Y$ of topological spaces defines a homomorphism $f^*\colon Op(Y) \to Op(X)$ between the [[frames]] of open sets of $X$ and $Y$.  If $f$ is open, then this frame homomorphism is also a [[complete lattice|complete]] [[Heyting algebra]] homomorphism; the converse holds for [[sober spaces]] (maybe as long as $Y$ is $T_0$?).  Accordingly, we define a map $f\colon X \to Y$ of [[locales]] to be __open__ if it is, as a frame homomorphism $f^*\colon Op(Y) \to Op(X)$, a complete Heyting algebra homomorphism, i.e. it preserves arbitrary [[meets]] and the Heyting implication.
