@@ -27,6 +27,9 @@ Another classic source is
 
 * Dale Rolfsen, Knots and Links, 2003, (ISBN-10: 0-8218-3436-3, ISBN-13: 978-0-8218-3436-7), AMS Chelsea, vol. 346.H
 
+Another reference for the classical theory is
+
+* G. Burde and H. Zieschang, Knots, De Gruyter (1989).
 
 [[!redirects knots]]
 [[!redirects Knots]]
