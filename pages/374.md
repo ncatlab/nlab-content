@@ -196,7 +196,8 @@ The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open sub
 
 * [[product topological space]]
 
-* [[effective topological space]]
+* [[effective topological space]], [[equilogical space]]
+
 
 ## References
 
