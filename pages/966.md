@@ -304,6 +304,8 @@ $$
 
 * **adjoint functor theorem**
 
+* [[indexed adjoint functor theorem]]
+
 * [[adjoint (∞,1)-functor theorem]]
 
 
