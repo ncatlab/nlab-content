@@ -13,10 +13,18 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 
 ## Idea
 
 The supergravity $C$-field is a degree-3 [[gauge field]] that appears in theories of [[supergravity]].
+
+## Discussion
+
+It is the [[Chern-Simons circle 3-bundle]] [[circle n-bundle with connection|with connection]].
 
 The [[physical field|field]] content of standard $11$-dimensional [[supergravity]] consists of ---besides the [[gravity|gravitational field]] and the various fermionic [[superpartner]]s--- a field that is locally modeled by a differential $3$-[[differential form|form]]. 
 
@@ -36,5 +44,5 @@ so $(2+1)$-dimensional extended objects, quantum "mem[[branes]]", couple to the 
 
 the $C$-field is a degree-$3$ cocycle in [[ordinary differential cohomology]]. It may be realized as a [[Chern-Simons 2-gerbe]].
 
-Moreover, a phenomenon closely related to the [[Green–Schwarz mechanism]] implies that the $C$-field is not an arbitrary degree-$3$ differential cocycle, but the difference of two Chern--Simons differential cocycles, in that the curvature characteristic $4$-form is constrained to be in the de Rham cohomology class of the first Pontryagin characteristic class of the tangent bundle of the underlying space.
+Moreover, a phenomenon closely related to the [[Green–Schwarz mechanism]] implies that the $C$-field is not an arbitrary degree-$3$ differential cocycle, but the difference of two Chern--Simons differential cocycles, in that the curvature characteristic $4$-form is constrained to be in the de Rham cohomology class of the first fractional [[Pontryagin class]] of the [[tangent bundle]] of the underlying space.
 
