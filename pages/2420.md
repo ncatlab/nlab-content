@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _partition function_ is a certain assignment that may be extracted from a system in [[statistical mechanics]], or in [[quantum field theory]]. If the quantum field theory $Z$ is presented as an [[FQFT]], that is, as a [[functor]] on a category of $d$-dimensional [[cobordism]]s, then the partition function is the assignment of $d$-dimensional [[torus|tori]] $T$ to the valued $Z(T)$ assigned to these by the QFT.
+The _partition function_ is a certain assignment that may be extracted from a system in [[statistical mechanics]], or in [[quantum field theory]]. If the quantum field theory $Z$ is presented as an [[FQFT]], that is, as a [[functor]] on a category of $d$-dimensional [[cobordism]]s, then the partition function is the assignment to $d$-dimensional [[torus|tori]] $T$ of the values $Z(T)$ assigned to these by the QFT.
 
 By the axioms of functoriality and symmetric monoidalness of a QFT, this means that the partition function is the [[trace]] over the value of the QFT in the cylinder obtained by cutting the torus open.
 
@@ -31,13 +31,13 @@ This is where the partition function originally derives its name from: typically
 
 ## Origin of the term 
 
-When one thinks of the QFT --- under [[Wick rotation]] --- as describing a physical system in [[statistical mechanics]], then vector space that $H$ acts on is the vector space of all states of the system and $H$ is the operator whose eigenstates are the states of definite energy, and then the expression
+When one thinks of the QFT --- under [[Wick rotation]] --- as describing a physical system in [[statistical mechanics]], then the vector space that $H$ acts on is the vector space of all states of the system and $H$ is the operator whose eigenstates are the states of definite energy. The expression
 
 $$
   tr(exp(-t H))
 $$
 
-interprets as 
+then is interpreted as 
 
 > sum over all states $\Psi$ of the system and weigh each one by its energy $E_\Psi$.
 
