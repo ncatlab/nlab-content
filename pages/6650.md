@@ -40,8 +40,9 @@ A [[reflective factorization system]] on a finitely [[complete category]] is sta
 
 ## Examples
 
-* In an a [[topos]], [[epimorphism]] are stable under [[pullback]] and hence the [[(epi, mono) factorization system]] in an adhesive category is stable .
+* In an a [[topos]], [[epimorphism]] are stable under [[pullback]] and hence the [[(epi, mono) factorization system]] in a topos is stable.
 
+  More generally, in an [[(∞,1)-topos]] for all $n \in \mathbb{N}$ the [[(n-epi, n-mono) factorization system]] (see there for more details) is a stable [[orthogonal factorization system in an (∞,1)-category]]. 
 
 ## References
 
