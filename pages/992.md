@@ -293,6 +293,11 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 
 * [[spectral category]]
 
+* [[dg-category]], [[dg-nerve]]
+
+* [[A-∞ category]]
+
+* [[triangulated category]], [[enhanced triangulated category]]
 
 
 ## References
