@@ -17,7 +17,7 @@
 
 ## Definition ##
 
-Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  Consider the subsheaf of sets $\mathcal{S} \subset \mathcal{O}_X$ of the [[structure sheaf]] such that for each [[open subset]] $U \subset X$, $\Gamma(U, \mathcal{S})$ consists of only the regular sections of $\mathcal{O}_X$ over $U$, i.e. those elements of $\Gamma(U, \mathcal{O}_X)$ which are not [[zero divisors]].  Consider the [[presheaf]] of rings on $X$
+Let $(X, \mathcal{O}_X)$ be a [[ringed space]].  Consider the [[sheaf|subsheaf]] of [[sets]] $\mathcal{S} \subset \mathcal{O}_X$ of the [[structure sheaf]] such that for each [[open subset]] $U \subset X$, $\Gamma(U, \mathcal{S})$ consists of only the regular sections of $\mathcal{O}_X$ over $U$, i.e. those elements of $\Gamma(U, \mathcal{O}_X)$ which are not [[zero divisors]].  Consider the [[presheaf]] of rings on $X$
   \[ U \quad\mapsto\quad \Gamma(U, \mathcal{O}_X)[\Gamma(U, \mathcal{S})^{-1}] \]
 which assigns to $U$ the [[ring of fractions]] of $\Gamma(U, \mathcal{O}_X)$ with denominators in $\Gamma(U, \mathcal{S})$; its [[sheafification]] $\mathcal{M}_X$ is called the **sheaf of ([[germs]] of) [[meromorphic functions]] on $X$**.  The sections of $\mathcal{M}_X$ over $X$ are called the **meromorphic functions on X** and we denote this ring $M(X) = \Gamma(X, \mathcal{M}_X)$.
 
