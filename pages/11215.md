@@ -20,6 +20,8 @@
 
 * [[Kleene's second algebra]]
 
+* [[Kleene-Vesley topos]]
+
 [[!include computable mathematics -- table]]
 
 ## References
