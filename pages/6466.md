@@ -37,12 +37,14 @@ A _commutative ring object_ in $\mathcal{E}$ is an object $R$ equipped with morp
 Given a commutative ring object $R$ in $\mathcal{E}$, we define a [[binary relation]] $\#$ on $R$ (that is a [[subobject]] of $R \times R$) as
 $$ \{ (x,y)\colon R \times R \;|\; \exists z\colon R.\, x \cdot z = y \cdot z + 1 \} ,$$
 written in the [[internal language]] of $\mathcal{E}$.  Then $R$ is a (Heyting) _field object_ if $\#$ is a tight [[apartness relation]]; that is if the following axioms (in the internal language) hold:
+
 *  [[irreflexive relation|irreflexivity]]: $\forall x\colon R.\, \neg(x \# x)$,
 *  [[symmetric relation|symmetry]]: $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies y \# x)$ (which can actually be proved using $-$),
 *  [[comparison relation|comparison]]: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, (x \# z \implies (x \# y \vee y \# z))$,
 *  [[tight relation|tightness]]: $\forall x\colon R.\, \forall y\colon R.\, (\neg(x \# y) \implies x = y)$.
 
 A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equipped with a binary relation $\lt$ such that the following axioms hold:
+
 *  strong [[irreflexive relation|irreflexivity]]: $\forall x\colon R.\, \forall y\colon R.\, (x \lt y \implies x \# y)$,
 *  strong [[connected relation|connectedness]]: $\forall x\colon R.\, \forall y\colon R.\, (x \# y \implies (x \lt y \vee y \lt x))$,
 *  [[transitive relation|transitivity]]: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge y \lt z) \implies x \lt z)$,
@@ -50,6 +52,7 @@ A (linearly) _ordered field object_ in $\mathcal{E}$ is a field object $R$ equip
 *  respecting multiplication: $\forall x\colon R.\, \forall y\colon R.\, \forall z\colon R.\, ((x \lt y \wedge 0 \lt z) \implies x \cdot z \lt y \cdot z)$.
 
 Given an ordered field object $R$ in $\mathcal{E}$, any object $\Gamma$ in $\mathcal{E}$, and subobjects $L$ and $U$ of $\Gamma \times R$, we say that $(L,U)$ is a _Dedekind cut_ in $R$ (parametrised by $\Gamma$) if the following axioms hold:
+
 *  lower bound: $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in L$,
 *  upper bound: $\forall a\colon \Gamma.\, \exists x\colon R.\, (a,x) \in U$,
 *  downward roundedness: $\forall a\colon \Gamma.\, \forall x\colon R.\, \forall y\colon R.\, ((x \lt y \wedge (a,y) \in L) \implies (a,x) \in L)$,
