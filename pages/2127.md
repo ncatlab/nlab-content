@@ -58,7 +58,7 @@ This means that we have
 
 **Restatement**
 
-The object $X$ commutes with the colimit over $F$ precisely if every morphism $X \to \lim_\to F$ lifts to a morphism $C \to F(j)$ into one of the $F(j)$, schematically:
+The object $X$ commutes with the colimit over $F$ precisely if every morphism $X \to \lim_\to F$ lifts to a morphism $X \to F(j)$ into one of the $F(j)$, schematically:
 
 $$
   \array{
