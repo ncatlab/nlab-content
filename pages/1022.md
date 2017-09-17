@@ -1,24 +1,28 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Limits and colimits
-+--{: .hide}
++-- {: .hide}
 [[!include infinity-limits - contents]]
 =--
 =--
 =--
 
+A __projective limit__ is the same thing as a [[limit]].  (Similarly, an [[inductive limit]] is the same thing as a [[colimit]].)  In this context, a __projective system__ is the same thing as a [[diagram]], and a __projective cone__ is the same thing as a [[cone]].
 
-"Projective limit" is another term for what here is simply called [[limit]].  (Similarly, "[[inductive limit]]" is another term for what here is called [[colimit]].)
-
-Many authors restrict this term to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N}, \geq)$ of [[natural numbers]]; see [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
+Many authors restrict this terminology to limits over [[codirected sets]] (or [[cofiltered categories]]), especially the codirected set $(\mathbb{N},\geq)$ of [[natural numbers]]; see [[codirected limit]] (or [[cofiltered limit]]) for discussion of this case if you think that it may be what you want.
 
 
 [[!redirects projective limit]]
 [[!redirects projective limits]]
-[[!redirects projective limit -- history]]
+
+[[!redirects projective system]]
+[[!redirects projective systems]]
+
+[[!redirects projective cone]]
+[[!redirects projective cones]]
