@@ -37,6 +37,8 @@ The [[∞-Lie groupoid|Lie groupoid]] of _Lie algebra valued forms_ is a kind of
 
 its $U$-parameterized smooth families of objects are _[[Lie algebra]] valued [[differential form]]s_ on $U$. Its $U$-parameterized families of morphisms are gauge transformations of these forms by $G$-valued [[smooth function]]s on $U$.
 
+A [[cocycle]] with coefficients in this groupoid is a [[connection on a bundle]].
+
 For more discussion of this see <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#LieGroups">∞-Lie groupoid -- Lie groups</a>.
 
 ## Definition 
