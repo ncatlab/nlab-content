@@ -1,12 +1,21 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Yoneda lemma
++--{: .hide}
 [[!include Yoneda lemma - contents]]
-***
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
-# Yoneda lemma for $(\infty,1)$-categories
-* automatic table of contents goes here
+# Contents#
+* table of contents
 {: toc}
 
 
@@ -80,5 +89,7 @@ See also the  [discussion on MathOverflow](http://mathoverflow.net/questions/973
 [[!redirects Yoneda lemma for (∞,1)-categories]]
 [[!redirects (infinity,1)-Yoneda lemma]]
 [[!redirects (∞,1)-Yoneda lemma]]
+
+[[!redirects Yoneda embedding for (∞,1)-categories]]
 [[!redirects (∞,1)-Yoneda embedding]]
 [[!redirects (infinity,1)-Yoneda embedding]]
