@@ -1661,7 +1661,9 @@ Same proof as of the analogous statement at [[ETop∞Grpd]].
 
 =--
 
-#### With coefficients in ${\mathbf{B}^n U(1)}$ 
+
+#### With coefficients in ${\mathbf{B}^n U(1)} or $\mathbf{B}^n \mathbb{R}$
+ {#FlatCoefficientsForCircleNGroup} 
 
 Let $\mathbf{B}^n U(1)$ be the circle $(n+1)$-Lie group
 as discussed [above](#CircleLienGroup). Recall the notation and 
@@ -2865,7 +2867,7 @@ We consider [flat coefficient object](#StrucFlat)
 $\mathbf{\flat} \exp(\mathfrak{g})$ of [exponentiated ∞-Lie algebras](#StrucLieAlg) $\exp(\mathfrak{g})$.
 
 
-+-- {: .un_def }
++-- {: .un_def #FlatCoefficientsForLieNGroupSimplicial}
 ###### Definition
 
 Write $\mathbf{\flat}\exp(\mathfrak{g})_{smp}$ for the simplicial presheaf given by
@@ -3302,7 +3304,62 @@ I'll try to think of a convenient notation to express this.
 
 =--
 
+##### For a line Lie $n$-algebra {#LieIntDiffCoeffsForLineGroups}
 
+
+We have discussed two different presentations for the flat coefficient object $\mathbf{\flat}\mathbf{B}^n \mathbb{R}$:
+
+1. $\mathbf{\flat} \mathbf{B}^n \mathbb{R}_{chn}$ -- discussed [here](#FlatCoefficientsForCircleNGroup);
+
+1. $\mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}$ -- discusse [here](#FlatCoefficientsForLieNGroupSimplicial);
+
+
+There is an evident degreewise map
+
+$$
+  (-1)^{\bullet+1}
+  \int_{\Delta^\bullet} :
+  \mathbf{\flat}^{simp} \mathbf{B}^n \mathbb{R}
+  \to  
+  \mathbf{\flat}^{chn} \mathbf{B}^n \mathbb{R}
+$$
+
+that sends a closed $n$-form $\omega \in \Omega^n_{cl}(U \times \Delta^k)$ to $(-1)^{k+1}$ times  its [[fiber integration]] $\int_{\Delta^k} \omega$.
+
++-- {: .un_prop}
+###### Proposition
+
+This map yields a morphism of simplicial presheaves
+
+$$
+  \int : 
+   \mathbf{\flat}^{simp} \mathbf{B}^n \mathbb{R}
+     \to
+   \mathbf{\flat}^{chn} \mathbf{B}^n \mathbb{R}
+$$
+
+which is a weak equivalence in $[CartSp^{op}, sSet]_{proj}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion of the two objects we already know that both present the [[homotopy type]] of $\mathbf{\flat} \mathbf{B}^n \mathbb{R}$. Therefore it suffices to show that the integration map is over each $U \in CartSp$ an isomorphism on the [[simplicial homotopy group]] in degree $n$.
+
+Clearly the morphism
+
+$$
+  \int_{\Delta^n} : \Omega^\bullet_{si,cl}(U  \times \Delta^n)
+  \to 
+  C^\infty(U, \mathbb{R})
+$$
+
+is surjective on degree $n$ homotopy groups: for $f : U \to * \to \mathbb{R}$  constant, a preimage is $f \cdot vol_{\Delta^n}$, the normalized [[volume form]] of the $n$-[[simplex]] times $f$.
+
+Moreover, these preimages clearly span the whole homotopy group $\pi_n (\mathbf{\flat} \mathbf{B}^n \mathbb{R}) \simeq \mathb{R}_{disc}$ (they are in fact the images of the weak equivalence $const \Gamma \exp(b^{n-1}\mathbb{R}) \to \mathbf{\flat} \mathbf{B}^n \mathbb{R}_{smp}$ ) and the integration map is injective on them. Therefore it is an isomorphism on the homotopy group.
+
+=--
 
 #### de Rham coefficients {#DifferentialCoefficientsOfLieInt}
 
@@ -3350,52 +3407,22 @@ $$
     \\
     * &\to& \mathbf{B}^n \mathbb{R}   
   }
-  \,.
 $$
 
-=--
-
-
-+-- {: .un_remark}
-###### Remark
-
-Observe that $\exp(\mathfrak{g})$ is the _concretization_ (in the sense of [[concrete presheaf]]) of $G TrivBund_{flat} \simeq \mathbf{\flat} \mathbf{B}G$. And $\mathbf{\flat}_{dR}\mathbf{B}G$, being the kernel of the concretization map, is in a sense the maximally non-concrete sub-presheaf of $G TrivBund_{flat}$.
+in $[CartSp_{smooth}^{op}, sSet]$.
 
 =--
+
 
 ##### For a line Lie $n$-algebra {#LieIntDiffCoeffsForLineGroups}
 
-For the [circle n-groupoid](#BnU1) $\mathbf{B}^{n}U(1)$ we have now obtained two different models for its de Rham coefficient object $\mathbf{\flat}_{dR}\mathbf{B}^n U(1)$:
+We have discussed two different presentations for the de Rham coefficient object $\mathbf{\flat}\mathbf{B}^n \mathbb{R}$:
 
-1. The image under the [[Dold-Kan correspondence|Dold-Kan map]] 
-   $\Xi : [CartSp^{op}, Ch_\bullet] \to [CartSp^{op}, sSet]$ of the
-   complex of sheaves of forms
+1. $\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{chn}$ -- discussed [here](#OrdinaryDeRham);
 
-   $$
-     \mathbf{\flat}_{dR}^{chn}\mathbf{B}^n \mathbb{R}
-     :=
-     \Xi
-     (\Omega^1(-) \stackrel{d_{dR}}{\to}
-     \Omega^2(-) \stackrel{d_{dR}}{\to}
-     \cdots
-     \Omega^n_{cl}(-))
-     \,.
-   $$
+1. $\mathbf{\flat}_{dR} \mathbf{B}^n \mathbb{R}_{smp}$ -- discusse [here](#DifferentialCoefficientsOfLieInt);
 
-   (This is discussed <a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+examples#FlatCircleCohomology">here</a>).
 
-1. The $(n+1)$-[[coskeleton]] of the simplicial presheaf
-
-   $$
-     \mathbf{\flat}^{simp}_{dR}\mathbf{B}^n \mathbb{R}
-     :
-     U,[k] \mapsto \tilde \Omega^n_{cl}^n(U \times \Delta^k)
-     \,,
-   $$
-
-   where the tilde indicates the subset of all those forms with at least one leg along $U$.
-
-   (This is the result of the [Lie integration algorithm](#DifferentialCoefficientsOfLieInt).)
 
 There is an evident degreewise map
 
@@ -3456,11 +3483,25 @@ where we first used that $\omega$ is closed, so that $d_{dR} \omega = (d_U + d_{
 
 Therefore we have indeed objectwise a chain map.
 
-To see that it gives a weak equivalence we need to check that this chain map is a [[quasi-isomorphism]].
+To see that it gives a weak equivalence, notice that this morphism is the morphism on pullbacks induced from the morphism of diagrams
 
-From the construction of both objects we know that they have the same cohomology, because both are models for the same homotopy pullback. For $\mathbf{\flat}_{dR}^{chn}$ that cohomology is concentrated in degree $n$, where it is $\Omega^1_{cl}(U)$. Therefore it is in fact sufficient to check that the integration map is onto in degree $n$. 
+$$
+  \array{
+    * &\to& \exp(b^{n-1}\mathbb{R}) &\leftarrow& \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{smp}
+    \\
+    \downarrow^= 
+    && 
+    {}^{\pm \int_{\Delta^\bullet}} \downarrow^{\mathrlap{\simeq}}
+    &&
+    {}^{\pm \int_{\Delta^\bullet}} \downarrow^{\mathrlap{\simeq}}
+    \\
+    * &\to& \mathbf{B}^n \mathbb{R}_{chn} &
+      \leftarrow& \mathbf{\flat}\mathbf{B}^n \mathbb{R}_{chn}
+  }
+  \,.
+$$
 
-That amounts to observing that every 1-form $\alpha \in \Omega^1(U)$ may be obtained by integration of a closed $n$-form on $U \times \Delta^k$. This is clearly the case, for instance take $\frac{1}{c} \alpha \wedge d x^1 \wedge \cdots \wedge d x^{k} - \frac{1}{c} (d_U \alpha) \wedge x^1 \wedge d x^2 \wedge \cdots \wedge d x^k$.
+Since both of these pullbacks are [[homotopy pullback]]s by the above discussion, the induced morphism between the pullbacks is also a weak equivalence.
 
 =--
 
