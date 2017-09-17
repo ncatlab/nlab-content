@@ -7,7 +7,7 @@
 
 The _Lazard ring__ is a [[commutative ring]] which is 
 
-* the universal [[coefficient]] [[ring]] for [[formal group laws]].
+* the universal [[coefficient]] [[ring]] for commutative 1-dimensional [[formal group laws]].
 
 and by [[Quillen's theorem on MU|Quillen's theorem]] also
 
@@ -30,7 +30,7 @@ and relations as follows
 
 1. the obvious associativity relation
 
-the universal [[formal group law]] is the formal power series
+the universal 1-dimensional [[formal group law]] is the formal power series
 
 $$
   \ell(x,y) = \sum_{i,j} a_{i j} x^j y^j \in L[[x,y]]
