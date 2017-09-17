@@ -268,7 +268,7 @@ $$
   s Ab
 $$
 
-for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[connective]] chain complexes: non-negatively graded. 
+for the ordinary [[Dold-Kan correspondence]]. $Ch_\bullet^+$ denotes the [[connective chain complex|connective]] chain complexes: non-negatively graded. 
 
 Since $N$ and $\Gamma$ are strictly inverse to each other, this may be regarded as a pair of [[adjoint functor]]s in two ways. Moreover, with respect to the standard [[model category]] structures (the projective [[model structure on chain complexes]] (fibrations the degreewise surjections in positive degree) and the projective [[model structure on simplicial T-algebras|model structure on simplicial abelian groups]] (fibrations the underlying [[Kan fibration]])s ) both adjunctions are [[Quillen equivalence]]s.
 
