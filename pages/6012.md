@@ -1,3 +1,5 @@
+## Definition
+
 A __torsion theory__ in an [[abelian category]] $A$ is a couple $(T,F)$ of additive subcategories called the __torsion class__ $T$ and the __torsion free class__ $F$ such that the following conditions hold:
 
 * $Hom(T,F) = 0$
@@ -10,16 +12,23 @@ A __torsion theory__ in an [[abelian category]] $A$ is a couple $(T,F)$ of addit
 
 * for all $X\in Ob A$, there exists $Y\subset X$, $Y\in Ob T$ and $X/Y\in Ob F$
 
+Equivalently, a torsion theory in $A$ is a pair $(T,F)$ of [[strictly full subcategories]] of $A$ such that the first and last conditions in the above list hold. 
+
+#### Torsion part of an object
+
 If the abelian category satisfies the Gabriel's [[property (sup)]] then for every object $X$ there exist the largest subobject $t(X)\subset X$ called the torsion part of $X$. Under the axiom of choice, $t: X\to t(X)$ can be extended to a functor. 
 
-A torsion theory is __hereditary__ if $T$ is closed under subobjects, or equivalently, 
-$t$ is [[left exact functor]]. 
+#### Hereditary torsion theories
+
+A torsion theory is __hereditary__ if $T$ is closed under subobjects, or equivalently, $t$ is [[left exact functor]]. 
+
+## Examples
 
 The basic example of a torsion class is the class of torsion abelian groups within the category of all abelian groups. The torsion theories are often used as a means to formulate localization theory in abelian categories. 
 
-* Francis Borceux, _Handbook of categorical algebra_
-* Spencer E. Dickson, _A torsion theory for Abelian categories_, Trans. Amer. Math. Soc. __121__, No. 1 (Jan., 1966), pp. 223-235, [jstor](http://www.jstor.org/stable/1994341)
+## Literature
 
-
+* Francis Borceux, _Handbook of categorical algebra_, vol. 2
+* Spencer E. Dickson, _A torsion theory for Abelian categories_, Trans. Amer. Math. Soc. __121__, No. 1 (Jan., 1966), pp. 223-235, [jstor](http://www.jstor.org/stable/1994341) 
 
 [[!redirects torsion theory]]
