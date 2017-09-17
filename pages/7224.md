@@ -1,3 +1,17 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Relative adjoint functors#
+* table of contents
+{:toc}
+
 ## Idea ##
 
 Relative adjoints with respect to a functor $J$ are a generalization of [[adjoint functor|adjoints]], where $J$ in the relative case plays the role of the identity in the standard setting: adjoints are the same as $Id$-relative adjoints.
@@ -69,7 +83,7 @@ be the inclusion of the [[full subcategory|full subcategory]] determined by $Hom
 \[
 	L \dashv_J R
 \]
-This can be specialized to situations such as a category having _some_ but not all [[limit|limits]] of some kind, partially defined [[Kan extension|Kan extensions]], etc.
+This can be specialized to situations such as a category having _some_ but not all [[limit|limits]] of some kind, partially defined [[Kan extension|Kan extensions]], etc.  See also [[free object]].
 
 ### References ###
 
@@ -81,4 +95,5 @@ This can be specialized to situations such as a category having _some_ but not a
 [[!redirects relative left adjoint]]
 [[!redirects relative adjoint]]
 [[!redirects relative adjoints]]
-
+[[!redirects relative adjunction]]
+[[!redirects relative adjunctions]]
