@@ -9,6 +9,10 @@
 +-- {: .hide}
 [[!include deduction and induction - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 #### Foundations
 +-- {: .hide}
 [[!include foundations - contents]]
