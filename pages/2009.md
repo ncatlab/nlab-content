@@ -1,3 +1,4 @@
+
 A __skewfield__ (also spelled skew-field) or a __division ring__ is a unital [[ring]] where each nonzero element has an [[inverse]] (but zero does not). A commutative skewfield is called a [[field]], but sometimes in specialized works on skewfields one often says simply field for a skewfield.
 
 Very often textbooks develop [[linear algebra]] in the generality of division rings, namely the usual notions of basis, dimension, linear map, matrix of a linear map with respect to two bases and so on, pass without changes for left or right [[vector spaces]] over a division ring.
@@ -8,4 +9,10 @@ In [[constructive mathematics]] and [[internalization|internally]], the same iss
 
 
 [[!redirects division ring]]
+[[!redirects division rings]]
 [[!redirects skew field]]
+[[!redirects skew fields]]
+[[!redirects skew-field]]
+[[!redirects skew-fields]]
+[[!redirects skewfield]]
+[[!redirects skewfields]]
