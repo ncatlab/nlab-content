@@ -113,11 +113,11 @@ So here we have a diagram
 
 $$
   \array{
-    && X_{\mathbb{Q}} && && G_{\mathbb{F}_p}(X)
+    && X_{\mathbb{Q}} && && G_{H\mathbb{F}_p}(X)
     \\
     & \swarrow && \nwarrow && \swarrow
     \\
-    X_p^\wedge && && X
+    (X_p^\wedge)_{\mathbb{Q}} && && X
     \\
     & \nwarrow && \swarrow
     \\
@@ -125,7 +125,9 @@ $$
   }
 $$
 
-where the square is a [[homotopy pullback]] (and hence, by stability, also a [[homotopy pushout]]), and where the diagonal is a [[homotopy cofiber sequence]] (hence a [[homotopy fiber sequence]]), see e.g. [Lurie 10, lecture 20](http://ncatlab.org/nlab/show/localization+of+a+space#Lurie).
+where the square is a [[homotopy pullback]] (and hence, by stability, also a [[homotopy pushout]]), and where the diagonal is a [[homotopy cofiber sequence]] (hence a [[homotopy fiber sequence]]), see e.g. ([Lurie 10, lecture 20](http://ncatlab.org/nlab/show/localization+of+a+space#Lurie)). As in the notation there $G_{H \mathbb{F}_p}(X)$ is the $H \mathbb{F}_p$-acyclic spectrum corresponding to $X$. Geometrically this is like the restriction to the complement of all formal disks in [[Spec(Z)]]. (...)
+
+
 
 
 ### In cohesive (stable) homotopy theory
