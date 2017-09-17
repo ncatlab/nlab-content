@@ -268,7 +268,7 @@ by the above proposition.
 Since $(\infty,1)$-categories equivalent to those of the form $N(A^\circ)$ for $A$ a [[combinatorial simplicial model category]] are precisely the [[locally presentable (∞,1)-categories]], it follows from this in particular that every locally presentable $(\infty,1)$-category has all limits and colimits.
 
 
-### Limits and colimits with values in $\infty Grpd$ 
+### Limits and colimits with values in $\infty Grpd$ {#WithValInooGrpd}
 
 Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
 
