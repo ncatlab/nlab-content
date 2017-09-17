@@ -87,7 +87,7 @@ $$
 are equivalent to [[Calabi-Yau object]]s $A$ in $C$:
 the functor $Z$ sends the point to $A$.
 
-This is [[On the Classification of Topological Field Theories|CassTFT, theorem 4.2.11]]. One can "unfold" $Bord^{nc}_2$ and the theorem above, obtaining a statement in terms of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]]. Actually it was the unfolded version to be proven first, by [[Kevin Costello]] in [Cos04](http://arxiv.org/abs/math/0412149), in the particular case $C=Ch_\bullet$. We state it below in the general version given by [[Jacob Lurie]] in [[On the Classification of Topological Field Theories|CassTFT]].
+This is [[On the Classification of Topological Field Theories|ClassTFT, theorem 4.2.11]]. One can "unfold" $Bord^{nc}_2$ and the theorem above, obtaining a statement in terms of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]]. Actually it was the unfolded version to be proven first, by [[Kevin Costello]] in [Cos04](http://arxiv.org/abs/math/0412149), in the particular case $C=Ch_\bullet$. We state it below in the general version given by [[Jacob Lurie]] in [[On the Classification of Topological Field Theories|ClassTFT]].
 
 **Definition**
 
@@ -105,7 +105,7 @@ Let $\mathcal{OC}$ be the [[(infinity,1)-category]] of open-closed strings, desc
 Write $\mathcal{O}$ for the full [[sub-(∞,1)-category]] on 
 disjoint unions of intervals (open strings sector).
 
-This is [[On the Classification of Topological Field Theories|CassTFT, above theorem 4.2.13]].
+This is [[On the Classification of Topological Field Theories|ClassTFT, above theorem 4.2.13]].
 
 
 ## Classification
@@ -152,6 +152,7 @@ reformulated and generalized according to
 [[On the Classification of Topological Field Theories|ClassTFT, theorem 4.2.14]].
 
 This is a special case of the general [[cobordism hypothesis]]-theorem.
+
 
 The idea of the proof is that a topological open string theory, i.e., a symmetric monoidal [[(∞,1)-functor]] $Z : \mathcal{O} \to C$ has a [[Kan extension]] to an open-closed topological string theory, i.e., to a symmetric monoidal [[(∞,1)-functor]] $Z : \mathcal{OC} \to C$, which is the unfolded version of a symmetric monoidal [[(∞,2)-functor]] from $Bord^{nc}_2$ to a symmetric monoidal $(\infty,2)$-category $C'$.
 
@@ -202,7 +203,7 @@ The definition was given independently by
 
 and 
 
-* G. Segal, _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf).
+* G. Segal, _Topological field theory_ , (1999), Notes of lectures at Stanford university. ([web](http://www.cgtp.duke.edu/ITP99/segal/)). See in particular [lecture 5](http://www.cgtp.duke.edu/ITP99/segal/stanford/lect5.pdf) ("topological field theory with cochain values").
  
 The classification of TCFTs by [[Calabi-Yau categories]] was discussed in
 
