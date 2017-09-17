@@ -39,11 +39,11 @@ This is a corrolary to the closed graph theorem III.2 in the book
 ##closedness
 Recall that the graph of an operator T (or any function, in general) is the subset $\mathcal{G}_T := \{(x, y) \in \mathcal{H} \times \mathcal{H} \vert Tx = y \}$. The graph of a given operator need not be closed (in the product topology of $\mathcal{H} \times \mathcal{H}$). The notion that will be the supplement of continuity is "closable" defined as follows:
 
-* definition (extension): Given an operator T with domain $D_T$, any operator $T'$ with larger domain that is equal to $T$ on $D_T$ is called an **extension** of T.
+* definition: Given an operator T with domain $D_T$, any operator $T'$ with larger domain that is equal to $T$ on $D_T$ is called an **extension** of T, we write $T \subset T'$. 
 
-* definition (closed): An operator is **closed** if it's graph is closed.
+* definition: An operator is **closed** if it's graph is closed. 
 
-* definition (closeable): An operator is **closable** if it has a closed extension. The smallest such extension is called the **closure** of $T$ and is denoted by $\overline{T}$.
+* definition: An operator is **closable** if it has a closed extension. The smallest such extension is called the **closure** of $T$ and is denoted by $\overline{T}$.
 
 * proposition (closure of graph is graph of closure): If an operator $T$ is closable then the closure of it's graph $\overline{\mathcal{G}}$ is the graph of an operator, and this operator is it's closure.
 
@@ -51,23 +51,23 @@ The last part deserves some elaboration: Given an operator $T$, we can always fo
 
 We may assume without restriction that $(\lim_{n \to \infinity} x_n =: 0$, so that we get as a characterisation of closeability: if $(\lim_{n \to \infinity} Tx_n =:y$ exists, then $y=0$. It $T$ were continuous, we would not have to assume that $(Tx_n)$ is convergent, so this additional assumption tells us in what respect closability is weaker than continuity.
 
-
+* definition: For a closed operator $T$ a subset $D$ of $D_T$ is called a **core** of $T$ if $\overline{T \vert_{D}} = T$, put in words: If we restrict $T$ to $D$ and build the closure, we obtain again $T$.  
 
 ##example of an operator that is not closable
 ...
 
-#selfadjointness
+##selfadjointness
 We let $T^*$ be the adjoint of an operator $T$. Note that for an only densly defined $T$, the domain of the adjoint may be strictly larger.
 
-* definition (selfadjoint et alt.): An operator is **symmetric** (or **Hermitian**) if $T = T^* \vert_{D_T}$ (the adjoint is restricted to the domain of $T$). It is **selfadjoint** if it is symmetric and $D_T = D_{T^*}$.
+* definition (selfadjoint et alt.): An operator is **symmetric** (or **Hermitian**) if $T = T^* \vert_{D_T}$ (the adjoint is restricted to the domain of $T$). It is **selfadjoint** if it is symmetric and $D_T = D_{T^*}$. A symmetric operator is **essentially selfadjoint** if its closure is selfadjoint.
 
 The difference of being symmetric and being selfadjoint is crucial, although there is a famous anecdote that seems to indicate otherwise:
 
 * anecdote of selfadjointness: Once upon a time John von Neumann thanked Werner Heisenberg for the invention of [[quantum mechanics]], because this had led to the development of so much beautiful mathematics, adding that mathematics paid back a part of the debt by clarifying for example the difference of a selfadjoint operator and one that is only symmetric. Heisenberg replied: "What is the difference?".
 
+Nevertheless theorems that assume an operator to be selfadjoint will be not applicable to an operator that is only symmetric. One example is the [[spectral theorem]].
 
-
-##example of a symmetric, but not selfadjoint, operator
+###example of a symmetric, but not selfadjoint, operator
 ...
 
 #affiliation with von Neumann algebras
