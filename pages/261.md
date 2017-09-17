@@ -9,7 +9,7 @@
 =--
 
 #Content#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -24,12 +24,39 @@ More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \
 One of the main uses of simplicial sets is as combinatorial _models_ for  the (weak) [[homotopy type]] of [[topological spaces]]. They can also be taken as models for [[∞-groupoids]]. This is encoded in the [[model structure on simplicial sets]]. For more reasons why simplicial sets see MathOverflow [here](http://mathoverflow.net/questions/58497/is-there-a-high-concept-explanation-for-why-simplicial-leads-to-homotopy-theor).
 
 ## Definition
+ {#Definition}
 
-A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a functor $X : \Delta^{op} \to Sets$.
++-- {: .num_defn}
+###### Definition
 
-This is, of course, a [[simplicial object]] in the category [[Set]] of sets.
+A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a [[functor]] $X : \Delta^{op} \to Sets$, equivalently a [[simplicial object]] in the category [[Set]] of sets.
 
-With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial sets form the category [[sSet]] (also called $SSet$ or $sSet$). See there for more details.
+=--
+
+With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial sets form the category [[sSet]] (also called $SSet$ or $sSet$). 
+
+More explicitly this means the following.
+
++-- {: .num_defn}
+###### Definition
+
+A **simplicial set** $S \in sSet$ is 
+
+* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$;
+
+* for each [[injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
+
+  a [[function]] $d_i : S_{n} \to S_{n-1}$ -- the $i$th **face map** on $n$-simplices;
+
+* for each [[surjective map]] $\sigma_i : \overline{n+1} \to \bar n$ of [[totally ordered sets]]
+
+  a [[function]] $\sigma_i : S_{n} \to S_{n+1}$ -- the $i$th **degeneracy map** on $n$-simplices;
+
+such that these functions satisfy the _[[simplicial identities]]_.
+
+
+=--
+
 
 ## Remarks
 
