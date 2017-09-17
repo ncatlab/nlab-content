@@ -1,4 +1,6 @@
 
+> to be merged with [[geometric Langlands program]]
+
 #Contents#
 * table of contents
 {:toc}
@@ -17,6 +19,16 @@ for ${}^L G$ the [[Langlands dual group]].
 
 This equivalence is a certain limit of the more general [[quantum geometric Langlands correspondence]] that identifies twisted $D$-modules on both sides.
 
+## Related concepts
+
+* [[S-duality]]
+
+  * [[electro-magnetic duality]]
+
+  * **geometric Langlands correspondence**
+
+  * [[quantum geometric Langlands correspondence]]
+
 ## References
 
 A classical survey is
@@ -32,6 +44,10 @@ Notes on two introductory lecture talks are here:
 An interpretation of the geometric Langlands correspondence as describing [[S-duality]] of certain twisted reduction of super [[Yang-Mills theory]] was given in
 
 * [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_ ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
+
+An exposition of the relation to [[S-duality]] and [[electro-magnetic duality]] is in
+
+* [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
 
 
 [[!redirects geometric Langlands duality]]
