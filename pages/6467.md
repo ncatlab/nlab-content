@@ -23,9 +23,7 @@
 Given a [[monoidal category]] $(C, \otimes)$, the _Picard group of $(C,\otimes)$ is the group of [[isomorphism classes]] of [[objects]] that have an [[inverse]] under the [[tensor product]] -- the [[line objects]]. 
 Equivalently, this is the [[decategorification]] of the [[Picard 2-group]], the maximal [[2-group]] inside a monoidal category. 
 
-In geometry, the monoidal category is usually some category of [[vector bundles]] or quasicoherent sheaves.
-
-The __Picard group__ $Pic(X)$ of a [[ringed space]] $X$ is the Picard group of the monoidal category of [[invertible sheaves]], i.e. the locally free sheaves of $\mathcal{O}_X$-modules of [[rank]] $1$ (i.e. the [[line bundle]]s).
+In [[geometry]], the monoidal category in queszion is often assumed by default to be a category of [[vector bundles]] or [[quasicoherent sheaves]] over some space. For instance The _Picard group $Pic(X)$ of a [[ringed space]]_ $X$ is the Picard group of the monoidal category of [[invertible sheaves]], i.e. the locally free sheaves of $\mathcal{O}_X$-modules of [[rank]] $1$ (i.e. the [[line bundle]]s).
 
 ## Pic(X) is a Group
 
