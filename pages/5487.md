@@ -23,5 +23,6 @@ More generally, in the context of the [[cohomology|intrinsic cohomology]] of an 
 
 [[!include chains and cochains - table]]
 
+* [[homotopy]], [[concordance]]
 
 [[!redirects coboundaries]]
