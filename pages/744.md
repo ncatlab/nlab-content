@@ -79,7 +79,7 @@ You can use HTML/XML/SGML [character entity references](http://www.w3schools.com
 * [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) pages:
   1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
   1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
-  1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
+  1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)  [Halloween Contacts](http://www.discount-lenses.com/halloween-contact-lenses.php)
   1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
   1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
   1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
