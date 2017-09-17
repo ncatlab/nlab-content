@@ -93,7 +93,9 @@ A [[function]] $f\colon X \to Y$ between spaces is __[[Cauchy-continuous map|Cau
 
 In [[nonstandard analysis]], the hyperpoints of a (quasi)uniform space have a relation of [[adequality]].  A proper filter $F$ is Cauchy iff its nonstandard extension $F^*$ contains a hyperset (a collection of hyperpoints) $A$ whose elements are all adequal.  So compared to the other definitions, a single $A$ of infinitesimal diameter suffices.
 
-A hyperpoint $x$ is _finite_ (or _limited_) if there is a proper filter $F$ (necessarily Cauchy) such that $F^*$ contains a hyperset whose elements are all adequal to $x$.  Then a map between (quasi)uniform spaces is Cauchy-continuous iff its nonstandard extension assigns only finite hyperpoints to finite hyperpoints.
+A hyperpoint $x$ is __[[finite hyperpoint|finite]]__ (or __limited__) if there is a proper filter $F$ (necessarily Cauchy) such that $F^*$ contains a hyperset whose elements are all adequal to $x$.  In the analogy between hyperpoints and [[ultrafilters]], the finite hyperpoints correspond to the Cauchy ultrafilters.
+
+A map $f$ between (quasi)uniform spaces is Cauchy-continuous iff its nonstandard extension $f^*$ has the property that $f^*(x)$ and $f^*(y)$ are adequal whenever $x$ and $y$ are adequal and $x$ is finite.  Presumably one can define a [[Cauchy space]] in nonstandard analysis by specifying the finite hyperpoints and the relation of adequality only with these (although perhaps not every Cauchy space arises in this way).
 
 
 [[!redirects Cauchy filter]]
