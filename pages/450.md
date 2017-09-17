@@ -1,13 +1,20 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher category theory
++--{: .hide}
 [[!include higher category theory - contents]]
-</div>
+=--
+=--
+=--
 
 
 #Contents#
 * automatic table of contents
 {:toc}
 
-## Definition of strict case ##
+## Definition of strict case 
 
 A **$0$-fold category** is a [[set]].  An **$n$-fold category** for $n \gt 0$ is an [[internal category]] in $(n-1)$-fold categories.  An $n$-fold category is also known as an **$n$-tuple category**.
 
