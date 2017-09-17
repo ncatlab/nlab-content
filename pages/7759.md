@@ -1,6 +1,14 @@
-In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary class]]es of [[structure in model theory|structures]] for higher-order theories (and infnitary logics and more) introduced by [[Saharon Shelah]].
+In [[model theory]] abstract elementary classes are a vast generalizations of [[elementary class]]es of [[structure in model theory|structures]] beyond first-order theories (e.g. for some infinitary logics) as introduced by [[Saharon Shelah]].
+
+An __abstract elementary class__ is a __nonempty__ class of structures in a given signature, which is closed under isomorphisms and equipped with a strong substructure relation of partial order $\lt_K$ which satisfies the axioms on union of chains, coherence and Loewenheim-Skolem properties.
 
 * wikipedia [abstract elementary class](http://en.wikipedia.org/wiki/Abstract_elementary_class)
 * [[Saharon Shelah]], _Classification theory for elementary abstract classes I, II_, Studies in Logic (London), __18__, __20__, College Publications, London 2009
+* Tibor Beke, Jiri Rosicky, _Abstract elementary classes and accessible categories_, [arxiv/1005.2910](http://arxiv.org/abs/1005.2910) 
+* John Baldwin, _Categoricity_, Amer. Math. Soc. 2011, [pdf](http://www.math.uic.edu/~jbaldwin/pub/AEClec.pdf)
+* D. W. Kueker, _Abstract elementary classes and infinitary logic_, Ann. Pure
+Appl. Logic __156__ (2008), 274-286.
+* M. J. Lieberman, _Topological and category-theoretic aspects of abstract
+elementary classes_, Thesis, The University of Michigan 2009, [pdf](http://deepblue.lib.umich.edu/bitstream/2027.42/63854/1/liebermm_1.pdf); defense slides [pdf](http://www.math.upenn.edu/~mlieb/defense.pdf); _Category theoretic aspects of abstract elementary classes_, Annals Pure Appl. Logic 162 (2011), 903-915; _A topology for Galois types in AECs_, [arxiv/0906.3573](http://arxiv.org/abs/0906.3573)
 
 [[!redirects abstract elementary classes]]
