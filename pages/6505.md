@@ -88,6 +88,7 @@ Math. Soc. __14__ (1982), 1-15.
 quivers_, Compositio Math. __126__ (2001), no. 3, 257-293.
 * [[Joel W. Robbin]], _Moment map_, an exposition, [pdf](http://www.math.wisc.edu/~robbin/moment.pdf)
 
+* [[Nicole Berline]], [[Michele Vergne]], _Hamiltonian manifolds and moment maps_ ([pdf](http://www.math.polytechnique.fr/~berline/cours-Fudan.pdf))
 
 [[!redirects moment map]]
 [[!redirects moment maps]]
