@@ -16,6 +16,8 @@
 
   * [[sifted colimit]]
 
+  * [[connected limit]], [[wide pullback]]
+
   * [[preserved limit]], [[reflected limit]], [[created limit]]
 
   * [[product]], [[fiber product]], [[base change]], [[coproduct]], [[pullback]], [[pushout]], [[cobase change]], [[equalizer]], [[coequalizer]], [[join]], [[meet]], [[terminal object]], [[initial object]]
