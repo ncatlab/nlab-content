@@ -5,7 +5,7 @@
 under construction
 
 +--{: .query}
-[[Ian Durham]]: Please help make this a bit more clear, but please note there is some dispute concerning the nature of quantum states.
+[[Ian Durham]]: Please help make this a bit more clear, but please note there is some dispute concerning the nature of quantum states, including whether or not they even exist (see below).
 =--
 
 #Contents#
@@ -29,5 +29,13 @@ The full state of a quantum system with $n \in \mathbb{N}$ degrees of freedom is
 ### Categorical caveat
 
 It pays to spend some time looking over the entry on [[2-vector space]] since the categorification of vector spaces is not entirely clear.
+
+## References
+
+* C.A. Fuchs, _QBism, the Perimeter of Quantum Bayesianism_ ([pdf](http://arxiv.org/abs/1003.5209)).
+
+* G. Brida, M. Bondani, I. P. Degiovanni, M. Genovese, M. G. A. Paris, I. Ruo Berchera, V. Schettini, _On the discrimination between classical and quantum states_, ([pdf](http://arxiv.org/abs/0909.5288))
+
+* D.N. Page, _Do Our Observations Depend upon the Quantum State of the Universe?_, ([pdf](http://arxiv.org/abs/0907.4751))
 
 [[!redirects quantum states]]
