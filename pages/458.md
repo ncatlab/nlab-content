@@ -239,15 +239,31 @@ This appears for instance as [MacLaneMoerdijk, section IX.5 prop 3](#MacLaneMoer
 
 The functor $L$ here is also called **localic reflection**.
 
-
 In summary this means that locales form a [[reflective subcategory]] of [[Topos]]
 
 $$ 
   Locale \stackrel{\overset{L}{\leftarrow}}{\hookrightarrow}
   Topos
+  \,.
 $$
 
-+-- {: .un_prop}
+In fact this is even a genuine [[reflective sub-2-category]]: 
+
++-- {: .num_prop}
+###### Proposition
+
+For all $X,Y \in $ [[Locale]] the [[2-functor]] $Sh :$ [[Locale]] $\to$ [[Topos]] induces an [[equivalence of categories]]
+
+$$
+  Sh : Locale(X,Y) \stackrel{\simeq}{\to} Topos(Sh(X), Sh(Y))
+  \,.
+$$
+
+=--
+
+See ...
+
++-- {: .num_prop}
 ###### Proposition
 
 The [[poset of subobjects]] $Sub_{\mathca{E}}(*)$ of the terminal object of $\mathcal{E}$ is equivalent to the full [[subcategory]] $\tau_{\leq -1}(\mathcal{E})$ of $\mathcal{E}$ on the $(-1)$-[[truncated]] objects of $E$.
