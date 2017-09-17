@@ -59,9 +59,9 @@ A two-sided Street fibration from $B$ to $A$ in $Cat$ is given by a span $p \col
 
 By the usual theory of [[distributive laws]], an $M$-algebra $m \colon M E \to E$ gives rise to $L$- and $R$-algebras $m \cdot (\Phi A \circ \eta^R_E)$ and $m \cdot (\eta^L_E \circ \Phi B)$, and conversely an $L$-algebra $\ell$ and an $R$-algebra $r$ underlie an $M$-algebra if and only if there is an isomorphism $r \cdot (\ell \circ \Phi B) \cong \ell \cdot (\Phi A \circ r)$ that makes $r$ a morphism of $L$-algebras.
 
-Now given $\ell$ and $r$, because $L$ is [[colax-idempotent]], there is a unique two-cell $\bar r \colon r \cdot (\ell \circ \Phi B) \Rightarrow \ell \cdot (\Phi A \circ r)$ that makes $r$ a colax morphism of $L$-algebras.  So we want to show that given an $L$-algebra and an $R$-algebra in $Cat$, this two-cell is invertible if and only if condition (3) above holds.
+Now given $\ell$ and $r$, because $L$ is [[colax-idempotent]], there is a unique 2-cell $\bar r \colon r \cdot (\ell \circ \Phi B) \Rightarrow \ell \cdot (\Phi A \circ r)$ that makes $r$ a colax morphism of $L$-algebras.  So we want to show that in the case of $Cat$, the components of this natural transformation are the canonical morphisms of (3).
 
-The two-cell in question is given here by $\ell \cdot (\Phi A \circ r) \cdot (\epsilon \circ \Phi B)$, where $\epsilon$ is the counit of the adjunction $\eta^L_E \dashv \ell$.  Its components are thus given, for each $i \colon a \to p x$ in $A$ and $j \colon p x \to b$ in $B$, by first factoring $\kappa^j \kappa_i$ through the opcartesian $j_! i^* x \to i^* x$ and then factoring the result through the cartesian $i^* j_! x  \to j_! x$, to obtain exactly the canonical morphism $j_! i^* x \to i^* j_! x$.
+The 2-cell $\bar r$ is given by $\ell \cdot (\Phi A \circ r) \cdot (\epsilon \circ \Phi B)$, where $\epsilon$ is the counit of the adjunction $\eta^L_E \dashv \ell$.  Its components are thus given, for each $i \colon a \to p x$ in $A$ and $j \colon p x \to b$ in $B$, by first factoring $\kappa^j \kappa_i$ through the opcartesian $i^* x \to j_! i^* x$ and then factoring the result through the cartesian $i^* j_! x  \to j_! x$, to obtain exactly the canonical morphism $j_! i^* x \to i^* j_! x$.
 
 =--
 
