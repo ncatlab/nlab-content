@@ -42,7 +42,7 @@ This is highly doubtful as a property of knowledge when applied to human beings.
 ##Equivalence frames##
 With $T_{(m)}$, the models corresponded to frames where each relation $R_i$ was reflexive. With $S4_{(m)}$, the frames needed to be transitive as well.  Here we consider the class $\mathcal{S}5(m)$ of models with frames, where each $R_i$ is an equivalence relation.  These are sometimes called _equivalence frames_.
 
-+--{: .un_defn}
++--{: .un_theorem}
 ######Theorem (Soundness of $S5_{(m)}$)
 $S5_{(m)}\vdash \phi \Rightarrow \mathcal{S}5(m)\models \phi.$
 =--
