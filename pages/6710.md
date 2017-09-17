@@ -66,9 +66,9 @@ If the class does not vanish and if hence there is no $Spin^c$-structure, it sti
 
 ### Smooth
 
-Since $U(1) \to Spin^c \to SO$ is a sequence of [[Lie group]]s, the above may be lifted from the [[(∞,1)-topos]] [[Top]] $\simeq$ [[∞Grpd]] to [[Smooth∞Grpd]].
+Since $U(1) \to Spin^c \to SO$ is a sequence of [[Lie group]]s, the above may be lifted from the [[(∞,1)-topos]] $L_{whe}$ [[Top]] $\simeq$ [[∞Grpd]] of [[discrete ∞-groupoids]] to that of [[smooth ∞-groupoids]], [[Smooth∞Grpd]].
 
-More precisely, by the discussion at [[Lie group cohomology]] (and [[smooth ∞-groupoid -- structures]]) the characteristic map $W_3 : B SO \to B^2 U(1)$ in $\infty Grpd$ has, up to equivalence, a unique lift
+More in detail, by the discussion at [[Lie group cohomology]] (and [[smooth ∞-groupoid -- structures]]) the characteristic map $W_3 : B SO \to B^2 U(1)$ in $\infty Grpd$ has, up to equivalence, a unique lift
 
 $$
   \mathbf{W}_3 : \mathbf{B} SO \to \mathbf{B}^2 U(1)
