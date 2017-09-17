@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include complex geometry - contents]]
 =--
+#### Elliptic cohomology
++-- {: .hide}
+[[!include elliptic cohomology -- contents]]
 =--
 =--
+=--
+
+
 
 #Contents#
 * table of contents
