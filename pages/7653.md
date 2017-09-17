@@ -1,4 +1,5 @@
 
+> This page originates in notes prepared along with a [lecture series](#SchreiberLect). Some parts remain inclomplete, and probably typos and errors remain. Comments and corrections are welcome.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -24,23 +25,29 @@
 
 The [[background gauge fields]] on [[spacetime]] appearing in [[string theory]] are mathematically described by [[cocycles]] in [[twisted cohomology|twisted]] and [[differential cohomology|differential]] refinements of [[smooth infinity-groupoid|smooth]] [[cohomology]]. A famous example is the [[twisted K-theory]] that describes the [[B-field]]-twisted [[Yang-Mills fields]] over [[D-branes]] in [[type II string theory]]. But there are many more classes of examples of twisted / smooth / differential cohomology appearing throughout string theory.
 
-This page provides a survey of and introduction to such examples, organized along a _[Table of twists](#TableOfTwists)_, that indicates how all of these are instances a single pattern. For further reading and more details see the list of _[related entries](#RelatedEntries)_ and the list of _[references](#References)_ below.
+This page provides a survey of and introduction to such examples, organized along a _[Table of twists](#TableOfTwists)_, that indicates how all of these are instances a single pattern. For further reading and more details see the list of _[references](#References)_ below.
 
 We start with an introduction to the general notion of twisted smooth cohomology by way of the simple but instructive class of examples of
 
-* I) _[Geometric structure (generalized, exceptional)](#VielbeinFields)_,
+* **I)** _[Geometric structure (generalized, exceptional)](#VielbeinFields)_,
 
-which serves as a blueprint for all of the examples to follow, and which we use to introduce the general machinery.
+via [[reduction of structure groups]], which, simple as it is, serves as a blueprint for all of the examples to follow, and which we use to introduce the general machinery. It also serves to highlight the need and use of _smooth_ cohomology in addition to both [[generalized (Eilenberg-Steenrod) cohomology|ordinary topological/homotopical]] as well as [[differential cohomology]].
 
-(The mathematically inclined reader wishing to see a more formal development of the general theory behind the discussion here should look at the section _[General theory](#GeneralTheory)_ for pointers.)
+(The mathematically inclined reader wishing to see a more formal development of the general theory behind the discussion here should look at the section _[General theory](#GeneralTheory)_ below for pointers.)
 
-Then we proceed in direct analogy, but now with ordinary [[gauge fields]] generalized to the genuine [[higher gauge fields]] of string theory, and discuss aspects of the main classes of examples of twisted smooth cohomology appearing there:
+Then we proceed in direct analogy, but now with ordinary [[gauge fields]] generalized to the genuine [[higher gauge fields]] of [[string theory]], and discuss aspects of the main classes of examples of twisted smooth cohomology appearing there. First we indicate how higher spin structures as such lead to higher smooth homotopy theory:
 
-* II) _[Spin-, String-, and Fivebrane structure](#SpinStringFivebraneStructures)_;
+* II) _[Spin-, String-, and Fivebrane structure](#SpinStringFivebraneStructures)_.
+
+Then we roughly indicate the relation between higher gauge fields and [[quantum anomalies]]:
+
+* Interlude) _[Anomaly line bundle on smooth moduli stacks of fields](#Anomalies)_.
+
+Finally we put the pieces together and scan through various situations appearing in string theory with their anomaly structure and discuss the smooth moduli $\infty$-stacks of anomaly-free field configurations / of twisted smooth cocycles:
 
 * III) _[$Spin^c$-, $String^c$-, and $Fivebrane^c$-structure](#TwistedK)_ .
 
-There are various further details and refinements, which however go beyond the intended scope of this page. As an outlook we indicate aspects of
+There are various further examples. As an outlook we indicate aspects of
 
 * IV) _[Higher orientifold structure](#HigherOrientifold)_.
 
@@ -63,7 +70,7 @@ $$
    }
 $$
 
-which exists in a [[(∞,1)-topos|higher topos]] $\mathbf{H} = $ [[Smooth∞Grpd]] of [[smooth ∞-groupoid|smooth homotopy types]]. 
+which exists in a context of _[[cohesive homotopy type theory|geometric homotopy types]]_: an [[(∞,1)-topos|higher topos]] to be denoted $\mathbf{H} \coloneqq $ [[Smooth∞Grpd]], of [[smooth ∞-groupoids]]/smooth [[∞-stacks]]. 
 
 Here
 
@@ -75,7 +82,7 @@ Here
 
 * $E \to \mathbf{B}G$ is the [[associated ∞-bundle|associated bundle]] to the $G$-[[universal principal ∞-bundle]] over the [[moduli ∞-stack]] $\mathbf{B}G$ of $G$-[[principal ∞-bundles]].
 
-Given such, and given a [[spacetime]]/[[target space]] $X$, we have
+Given such, and given a [[spacetime]]/[[target space]] $X$, we have:
 
 * a morphism $\phi : X \to \mathbf{B}G$ determines a _twisting bundle_ or _twisting [[background gauge field]]_ on $X$;
 
@@ -83,9 +90,9 @@ Given such, and given a [[spacetime]]/[[target space]] $X$, we have
 
   $$
     \array{
-      X &&\stackrel{\hat \phi}{\to}&& P
+      X &&\stackrel{\hat \phi}{\to}&& E
       \\
-      & {}_{\mathllap{\phi}}\searrow &\swArrow& \swarrow_{\mathrlap{\mathbf{c}}}
+      & {}_{\mathllap{\phi}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{\mathbf{c}}}
       \\
       && \mathbf{B}G
     }
@@ -120,7 +127,7 @@ The following table lists examples of such coefficient bundles and tabulates the
 | | $\array{ \mathbf{B}Fivebrane_{conn} &\to& \mathbf{B} String_{conn}  \\ && \downarrow^{\mathrlap{\tfrac{1}{6}\hat \mathbf{p}_2}} \\ && \mathbf{B}^7 U(1)_{conn}  }$ | [[circle n-bundle with connection|circle 7-bundle with connection]]| [[string]] [[current|electric current]] | [[twisted differential fivebrane structure]] | dual [[Green-Schwarz mechanism]] [[gravity]]+[[B6-field]] |
 | **[III)](#TwistedK)** [higher spin^c-structures](spin^c+structure#Higher) | | | | | |
 | | $\array{ \mathbf{B}Spin^c &\to& \mathbf{B} (SO \times U(1))  \\ && \downarrow^{\mathrlap{ w_2 - c_1}} \\ && \mathbf{B}^2 \mathbb{Z}_2  }$ |  |   | [[twisted spin^c structure]] |  |
-|  | $\array{ && \mathbf{B} (PU \times SO) \\ && \downarrow^{\mathrlap{ \mathbf{dd} - \mathbf{W}_3 }} \\ && \mathbf{B}^2 U(1) }$ | [[circle n-bundle with connection|circle 2-bundle]] |  [[B-field]] | [[twisted spin^c structure]]  | Freed-Witten anomaly for type II string on D-brane  |
+|  | $\array{ \mathbf{B}(Spin^c)^{\mathbf{dd}} &\to& \mathbf{B} (PU \times SO) \\ && \downarrow^{\mathrlap{ \mathbf{dd} - \mathbf{W}_3 }} \\ && \mathbf{B}^2 U(1) }$ | [[circle n-bundle with connection|circle 2-bundle]] |  [[B-field]] | [[twisted spin^c structure]]  | [[Freed-Witten anomaly]] for [[type II superstring]] on [[D-brane]]  |
 | | $\array{ \mathbf{B}String^{\mathbf{a}} &\to& \mathbf{B} Spin \times E_8  \\ && \downarrow^{\mathrlap{\tfrac{1}{2}\mathbf{p}_1 - 2 \mathbf{a}}} \\ && \mathbf{B}^3 U(1)  }$ | [[circle n-bundle with connection|circle 3-bundle]]/$U(1)$-[[bundle 2-gerbe]] |  [[supergravity C-field]] |  [[twisted differential string structure|twisted smooth string^c structure]] |  [[gravity]]+[[B-field]]+[[E8]]-[[gauge field]] |
 | **[IV)](#HigherOrientifold)** Giraud-[[∞-gerbes]] | | | | | |
 | | $\array{ \mathbf{B}^2 U(1) &\to& \mathbf{B}Aut(\mathbf{B}U(1)) \\ && \downarrow \\ && \mathbf{B}\mathbb{Z}_2 }$ | [[double cover]] |  | [[Jandl gerbe]] | [[orientifold]] [[B-field]] | 
@@ -1027,23 +1034,21 @@ We will below consider a _smooth refinement_ of the above Whitehead tower. Befor
 
 One way to state the general problem is:
 
-_The [[classifying space]] of, say, the [[spin group]] is **not** a _[[fine moduli space]]_. 
+1. _The [[classifying space]] of, say, the [[spin group]] is **not** a _[[fine moduli space]]_. 
 
-Because, while homotopy classes $Maps(X, B Spin)_\sim$ of maps $X \to B Spin$ are in bijection with equivalence classes of [[spin bundles]] on $X$, the homotopy classes $Maps(X, \Omega B Spin)_\sim = Maps(X, Spin)_\sim$ of [[homotopies]] from the trivial map $X \to * \to B Spin$ are _not_ in general in bijection with the [[gauge transformations]] of the trivial spin bundle: the latter form the set of [[smooth functions]] $C^\infty(X,Spin)$, not just the homotopy classes of these.
+   Because, while homotopy classes $Maps(X, B Spin)_\sim$ of maps $X \to B Spin$ are in bijection with equivalence classes of [[spin bundles]] on $X$, the homotopy classes $Maps(X, \Omega B Spin)_\sim = Maps(X, Spin)_\sim$ of [[homotopies]] from the trivial map $X \to * \to B Spin$ are _not_ in general in bijection with the [[gauge transformations]] of the trivial spin bundle: the latter form the set of [[smooth functions]] $C^\infty(X,Spin)$, not just the homotopy classes of these.
 
-The problems induced by this problem include the following
+1. $Maps(X, B(-))_\sim$ does not give the right [[BRST-complex]]; hence speaking about [[gauge theory]] in terms of just bare (as opposed to geometric) [[homotopy theory]] does not yield an admissible starting point for [[quantization]] (by [[BV-BRST formalism]]).
 
-* $Maps(X, B(-))_\sim$ does not give the right [[BRST-complex]]; hence speaking about [[gauge theory]] in terms of just bare (as opposed to geometric) [[homotopy theory]] does not yield an admissible starting point for [[quantization]] (by [[BV-BRST formalism]]).
-
-* $Maps(X, B(-))_\sim$ cannot distinguish a group from its [[maximal compact subgroup]], such as $O \hookrightarrow GL_n$, and hence cannot see [[vielbeins]], not [[generalized vielbeins]], not [[exceptional generalized geometry]]:
+1. $Maps(X, B(-))_\sim$ cannot distinguish a group from its [[maximal compact subgroup]], such as $O \hookrightarrow GL_n$, and hence cannot see [[vielbeins]], not [[generalized vielbeins]], not [[exceptional generalized geometry]]:
 
   in terms of classifying spaces the entire discussion [of vielbein fields above](#VielbeinFields) would collapse;
 
-* higher analogs of this problem include for instance that $Maps(X, B(-))_\sim$ cannot distinguish over 10-dimensional spacetime $X$ an [[E8]]-[[gauge field]] from a [[NS5-brane]] [[magnetic charge]];
+  higher analogs of this problem include for instance that $Maps(X, B(-))_\sim$ cannot distinguish over 10-dimensional spacetime $X$ an [[E8]]-[[gauge field]] from a [[NS5-brane]] [[magnetic charge]];
 
-* etc.
+1. eventually an [[action functional]] on the space of fields is to be constructed as a [[smooth function]], or in fact as a smooth _[[flat section]]_ of a smooth [[circle n-bundle with connection|circle bundle with connection]] on the space of fields -- which requires some smooth structure on that space.
 
-These problems are all fixed by refining the [[classifying space]] $B Spin \in \infty Grpd$ to the [[smooth infinity-groupoid|smooth]] [[moduli stack]] $\mathbf{B} Spin \in Smooth \infty Grpd$, and similarly for the other cases.
+These problems are all fixed by refining [[classifying spaces]] such as $B Spin \in \infty Grpd$ to [[smooth infinity-groupoid|smooth]] [[moduli stacks]] such as $\mathbf{B} Spin \in Smooth \infty Grpd$.
 
 
 
@@ -1714,27 +1719,31 @@ We indicate briefly how this is constructed.
 
 (...)
 
-### Interlude: the anomaly line bundle on the smooth moduli stack of higher gauge fields
+### **Interlude)** Anomaly line bundle on smooth moduli stacks of fields
  {#Anomalies}
 
 
 Before coming to the description in [[smooth ∞-groupoid|smooth]] [[moduli ∞-stacks]] below, we make some introductory comments on the general origin of twisted differential structures in higher gauge theory, following ([Freed](#Freed)). We add some stacky aspects to that and explain why.
 
-In summary, we discuss how the action functional of higher gauge theory in the presence of electric and magnetic charge is a [[circle n-bundle with connection|circle bundle with connection]] on the [[smooth ∞-groupoid|smooth ∞-stack]] of field configurations on a given [[spacetime]] $X$, given by a morphism
+In summary, we discuss how the action functional of higher gauge theory in the presence of electric and magnetic charge is a [[circle n-bundle with connection|circle bundle with connection]] $\nabla_{higher\;gauge\;anomaly}$ on the [[smooth ∞-groupoid|smooth ∞-stack]] $[X, \mathbf{Fields}]$ of field configurations on a given [[spacetime]] $X$, exhibited by a morphism
 
 $$
   \nabla_{higher\;gauge\;anomaly}
+   \coloneqq
+   \exp(2 \pi i \int_X \hat\mathbf{c}_{el} \cup \hat \mathbf{c}_{mag}  )
    : 
   [X, \mathbf{Fields}]
    \stackrel{}{\to}
-  \mathbf{B} U(1)
-  \,.
+  \mathbf{B} U(1)_{conn}
+  \,,
 $$
+
+where $\hat\mathbf{c}_{el} \cup \hat \mathbf{c}_{mag} : \mathbf{Fields} \to \mathbf{B}^{dim X +2} U(1)_{conn}$ is the differential characteristic morphism induced by the [[differential cup product]] of universal electric and magnetic currents, and where $\exp(2\pi i \int_X(-))$ is [[fiber integration in ordinary differential cohomology]] refined to smooth $\infty$-stacks (this is the "$(dim X)+1$-dimensional [[schreiber:infinity-Chern-Simons theory]]" of $\hat\mathbf{c}_{el} \cup \hat \mathbf{c}_{mag}$ in [[codimension]] 1).
 
 #### Higher gauge fields in the presence of magnetic charge current
 
-Gauge theory starts maybe with Maxwell around 1850, who discovered, in modern language, that the [[field strength]] of the [[electromagnetic field]] on [[spacetime]] is encoded in a closed [[differential form|differential 2-form]] $F \in \Omega^2_{cl}(X)$.
-Then in the 1930s Dirac's [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- _in the absence_ of, or _outside of_ the [[support]] of [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
+[[gauge theory|Gauge theory]] starts maybe with [[James Clerk Maxwell|Maxwell]] around 1850, who discovered, in modern language, that the [[field strength]] of the [[electromagnetic field]] on [[spacetime]] is encoded in a closed [[differential form|differential 2-form]] $F \in \Omega^2_{cl}(X)$.
+Then in the 1930s [[Paul Dirac|Dirac]]'s [famous argument](electromagnetic+field#ChargeQuantization) showed that more precisely -- _in the absence_ of, or _outside of_ the [[support]] of [[magnetic charge]] [[current]] -- this 2-form is the [[curvature]] of a [[circle group]]-[[principal bundle]] [[connection on a bundle|with connection]], a 2-cocycle $\hat F$ in [[ordinary differential cohomology]].
 
 In view of this the [[gauge transformation|gauge]] [[equivalence classes]] of configurations of the electromagnetic field on $X$ form the set
 
@@ -1823,7 +1832,7 @@ $$
   \,.
 $$
 
-of a _magnetic charge [[circle n-bundle with connection|circle 2-bundle with connection]]_ $\hat \mathbf{c} \in \mathcal{H}^{3}_{diff}(X)$.
+of a _magnetic charge [[circle n-bundle with connection|circle 2-bundle with connection]]_ $\hat \mathbf{c} \in \mathcal{H}^{3}_{diff}(X)$. Equivalently, in terms of the corresponding classifying morphisms in $\mathbf{H}$ this is a homotopy in a diagram of the form
 
 $$
   \array{
@@ -2964,7 +2973,36 @@ The string-theoretic aspects of the above discussion owe a lot to [[Hisham Sati]
 
 * _[[Geometric and topological structures related to M-branes]]_ , part I ([arXiv:1001.5020](http://arXiv.org/abs/1001.5020)), part _II: Twisted $String$ and $String^c$ structures_ ([arXiv:1007.5419](http://arxiv/1007.5419)); part _III: Twisted higher structures_ ([arXiv:1008.1755](http://arxiv.org/abs/1008.1755))
 
-The smooth and differential refinements of these structures have been jointly developed in articles including the following
+The notion of [[twisted cohomology]] by sections of twisting coeffcient $\infty$-bundles used here is similar to that in 
+
+* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81) ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
+ {#ABG}
+
+but considered in the non-stable context of [[nonabelian cohomology]] and refined from bare homotopy types to [[cohesive homotopy type theory|geometric homotopy types]].
+
+The fundamental observation that background gauge fields in string theory are modeled by (twisted) [[differential cohomology]] goes back to 
+
+* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
+ {#Freed}
+
+and literature referenced there. For this classical literature, notably on the example of _[[twisted K-theory|twisted]]_ and _[[differential K-theory|differential]] [[K-theory]]_, as well as on _[[orientifolds]]_, see the lists of references provided at these entries.
+
+The [[higher dimensional Chern-Simons theory|7d Chern-Simons theory]] that the [[supergravity C-field]] participates in, the relation of the flux quantization to the corresponding [[holographic principle|holographic]] description of the [[self-dual higher gauge field|self-dual]] field on the [[M5-brane]] has been discussed in 
+
+* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+ {#Witten96}
+
+* [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J.Geom.Phys.22:1-13 (1997) ([arXiv:hep-th/9609122](http://arxiv.org/abs/hep-th/9609122))
+ {#Witten96b}
+
+A precise mathematical formulation of the proposal made there is given in
+
+* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ {#HopkinsSinger}
+
+in terms of [[quadratic refinement]] of [[secondary intersection pairing]] via [[differential integral Wu structures]]. This also lays the mathematical foundation of much of [[differential cohomology]].
+
+The smooth $\infty$-stack refinements of these structures, as discussed above, have been developed in articles including the following
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:L-∞ algebra connections]]_ 
  {#SSSa}
@@ -2987,43 +3025,17 @@ The smooth and differential refinements of these structures have been jointly de
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
  {#NSS}
 
-A general theory of smooth homotopy-type theory is laid out in 
+An attempt at a general theory of such smooth homotopy-type theory is laid out in 
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
  {#Schreiber}
 
-The notion of [[twisted cohomology]] by sections of twisting coeffcient $\infty$-bundles used here is similar to that in 
 
-* [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81) ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
- {#ABG}
-
-but considered in the non-stable context of [[nonabelian cohomology]] and refined from bare homotopy types to geometric homotopy types.
-
-The fundamental observation that background gauge fields in string theory are modeled by (twisted) [[differential cohomology]] goes back to 
-
-* [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
- {#Freed}
-
-and literature referenced there. For this classical literature, notably on the example of _[[twisted K-theory|twisted]]_ and _[[differential K-theory|differential]] [[K-theory]]_, as well as on _[[orientifolds]]_, see the lists of references provided at these entries.
-
-The [[higher dimensional Chern-Simons theory|7d Chern-Simons theory]] that the [[supergravity C-field]] participates in, the relation of the flux quantization to the corresponding [[holographic principle|holographic]] description of the [[self-dual higher gauge field|self-dual]] field on the [[M5-brane]] has been discussed in 
-
-* [[Edward Witten]], _Five-Brane Effective Action In M-Theory_ ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
- {#Witten96}
-
-* [[Edward Witten]], _On Flux Quantization In M-Theory And The Effective Action_, J.Geom.Phys.22:1-13 (1997) ([arXiv:hep-th/9609122](http://arxiv.org/abs/hep-th/9609122))
- {#Witten96b}
-
-A precise mathematical formulation of the proposal made there is given in
-
-* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
- {#HopkinsSinger}
-
-in terms of [[quadratic refinement]] of [[secondary intersection pairing]] via [[differential integral Wu structures]].
 
 $\,$
 
 This page here originates in notes for an introductory lecture:
 
 * [[Urs Schreiber]], _[Twisted differential structures in string theory](http://maths-old.anu.edu.au/esi/2012/program.html#Schreiber)_ at _[ESI Program on K-Theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012)
+ {#SchreiberLect}
 
