@@ -13,7 +13,7 @@ The Eilenberg--Moore category of a [[monad]] is the category of its [[algebra fo
 Given a [[monad]] $\mathbf{T}=(T,\mu,\eta)$ in [[Cat]], where $T:C\to C$ is an endofunctor with multiplication $\mu:T T\to T$ and unit $\eta:Id_C\to T$, a $\mathbf{T}$-[[algebra for a monad|module]] (or $\mathbf{T}$-algebra) in $C$ is a pair $(M,\nu)$ of an object $M\in C$ and a morphism $\nu:T(M)\to M$ which is a __$T$-action__, namely $\nu\circ T(\nu)=\nu\circ\mu_{M} :T(T(M))\to M$ and $\nu\circ\eta_M = id_M$. 
 A morphism of $\mathbf{T}$-modules $f:(M,\nu^M)\to (N,\nu^N)$ is a morphism $f:M\to N$ in $C$ such that it commutes with the action: $f\circ\nu^M=\nu^N\circ T(f):T(M)\to N$. The composition of morphisms of $\mathbf{T}$-modules is the composition of underlying morphisms in $C$.
 
-$\mathbf{T}$-modules and their morphisms form a category $C^{\mathbf{T}}$ which is called the __Eilenberg--Moore category__ of the monad $\mathbf{T}$.
+$\mathbf{T}$-modules and their morphisms form a category $C^{\mathbf{T}}$ which is called the __Eilenberg--Moore category__ of the monad $\mathbf{T}$.  This may also be written $Alg(T)$, $T\,Alg$, etc.
 
 
 ## Remarks
@@ -38,3 +38,6 @@ This encompasses for example the theory of (op)monoidal monads and corresonding 
 [[!redirects Eilenberg--Moore object]]
 [[!redirects Alg(T)]]
 [[!redirects T-Alg]]
+[[!redirects T-alg]]
+[[!redirects T Alg]]
+[[!redirects T alg]]
