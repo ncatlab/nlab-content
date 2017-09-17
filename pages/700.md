@@ -24,6 +24,8 @@ In this situation, $r$ is a [[split epimorphism]] and $i$ is a [[split monomorph
 
 ## Properties
 
+Retracts are clearly preserved by any functor. A split epimorphism $r; B \to A$ is the strongest of various notions of epimorphism (e.g., it is a regular epimorphism, in fact an absolute coequalizer, being the coequalizer of a pair $(e, 1_B)$ where $e = i \circ r: B \to B$ is idempotent). Dually, a split monomorphism is the strongest of various notions of monomorphism. 
+
 If an object $B$ has the [[left lifting property]] against a morphism $X \to Y$, then so does every of its retracts $A \to B$:
 
 $$
