@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In traditional mathematics and [[set theory]], the [[category]] [[Set]] of all [[sets]] is the archetypical [[topos]]. However, in [[constructive mathematics]] with its notion of sets -- [[Bishop sets]] -- these do not quite form a topos since they do not satisfy the [[powerset]] [[axiom]] (see at _[[predicative mathematics]]_). The resulting weaker structure which they form is a  _predicative topos_ ([van den Berg](#vdBerg)).  
+
+## References
+
+* [[Benno van den Berg]], _Predicative toposes_ ([arXiv:1207.0959](http://arxiv.org/abs/1207.0959))
+ {#vdBerg}
+
+[[!redirects predicative toposes]]
+
+[[!redirects strong predicative topos]]
+[[!redirects strong predicative toposes]]
