@@ -118,16 +118,19 @@ whose morphisms are to be called the **intramural maps** of $A$.
 
 =--
 
+("Intramural" because they go between objects that all belong to $A$ and hence remain "in the context of $A$". The "extramural" maps to follow instead go from objects associated to some $A$ to objects associated to some $B$, so they go "out of the context of $A$".)
+
 +-- {: .num_lemma #Extramural}
 ###### Lemma
 
-For $\partial^{hor} : A \to B$ any horizontal morphism in the double complex, there is a canonically induced morphism
+For $\partial^{hor} : A \to B$ any morphism in the double complex (either horizontal or vertical), there is an induced morphism
 
 $$
   A_\Box \to {}^\Box B
 $$
 
 to be called the **extramural map associated with $f$**. 
+
 
 =--
 
@@ -142,6 +145,121 @@ An $[a] \in A_{\Box}$ is represented by an $a \in A$ for which $\partial^{vert}\
 
 =--
 
++-- {: .num_remark #ExtramuralMapsAsDiagonals}
+###### Remark
+
+It is useful in computations to follow to draw these extramural morphisms as follows.
+
+1. For a horizontal $\partial : A \to B$ we draw the induced extramural map as
+
+   $$   
+     \array{   
+        &&& \Box
+        \\
+        A && \nearrow & & B
+        \\
+        & \Box
+     }
+     \,.
+   $$
+
+1. For a vertical $\partial : A \to B$ we draw the induced extramural map as
+
+   $$
+     \array{
+       & A
+       \\
+       && \Box
+       \\
+       & \swarrow
+       \\
+       \Box
+       \\
+       & B
+     }
+   $$
+
+This notation makes it manifest that in every [[double complex]] $X_{\bullet, \bullet}$ the extramural maps form long diagonal [[zigzags]]
+
+$$   
+  \array{   
+     && &&&&&&&& \udots
+     \\
+     && &&&&& X_{k+1, l} && \nearrow
+     \\
+     && &&&&&& \Box
+     \\
+     && &&&&& \swarrow
+     \\
+     && &&&& \Box
+     \\
+     && &X_{k,l+1} && \nearrow & & X_{k,l}
+     \\
+     && && \Box
+     \\
+     && &\swarrow
+     \\
+     && \Box
+     \\
+     & \nearrow & & X_{k-1, l+1}
+     \\
+     \udots
+  }
+  \,.
+$$
+
+Below in _[Intramural and extramural isomorphism](#IntraExtramuralIsomorphisms)_ we discuss exactness conditions on $X_{\bullet, \bullet}$ that make these [[zigzags]] consist entirely of _[[isomorphisms]]_, so that they give "long diagonal identifications" in a double complex. These long diagonal identifications are what the basic diagram chasing lemmas all follow from, discussed below in 
+_[Implications](#Implications)_.
+
+
+=--
+
++-- {: .num_remark #OmittingIntramuralMaps}
+###### Remark
+
+Morever, it is useful to combine the intramural notation of remark \ref{ExtramuralMapsAsDiagonals} with the evident diagonal notation for the extramural maps, which allow extramural maps to "enter at the receptor" and "exit at the donor" of a given entry in the double complex. Together these two notations yield for every piece of a [[double complex]] of the form
+
+$$
+  \array{
+    C 
+    \\
+    \downarrow^{\mathrlap{\partial^{vert}}}
+    \\
+    A &\stackrel{\partial^{hor}}{\to}& B
+    \\
+    && \downarrow^{\mathrlap{\partial^{vert}}}
+    \\
+    && D
+  }
+$$
+
+the **salamander**-shaped diagrams of mural maps
+
+$$
+  \array{
+      & C
+      \\
+      && \Box
+      \\
+      & \swarrow
+      \\
+      \Box &&& & \Box
+      \\
+      & A && \nearrow & & B
+      \\
+      && \Box & && & \Box
+      \\
+      &&&&& \swarrow
+      \\
+      &&&& \Box
+      \\
+      &&&&& D
+  }
+$$
+
+that give the salamander lemma, prop. \ref{SalamanderLemma} below, its name. 
+
+=--
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -204,7 +322,7 @@ $$
   \,,
 $$
 
-where all the elementary morphisms are the unique intramural maps from lemma \ref{Intramural} and the extramural maps from lemma \ref{Extramural}.
+where all the elementary morphisms are the unique intramural maps from lemma \ref{Intramural} and the extramural maps from lemma \ref{Extramural} -- they are the morphisms of the _salamander diagram_ of remark \ref{OmittingIntramuralMaps}.
 
 =--
 
@@ -221,13 +339,11 @@ the kernel of $A^{hor} \to A_{\Box}$ is $im(\partial^{vert})$ and this is manife
 
 =--
 
-
-## Implications
-
 ### Intramural and extramural isomorphisms
+ {#IntraExtramuralIsomorphisms}
 
-The following two statements are direct concequenes of the 
-salamander lemma.
+The following two statements are direct concequences of the 
+salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps from the _[Preliminaries](#Preliminaries)_ to be [[isomorphisms]].
 
 +-- {: .num_cor #ExtramuralIso}
 ###### Corollary
@@ -241,19 +357,23 @@ $$
 
 is an [[isomorphism]].
 
+Similarly if for a vertical morphism $\partial : A \to B$ we have $A^{vert} \simeq 0$ and $B^{vert} \simeq 0$, the induced extramural map is an isomorphism.
+
 =--
+
+This appears as ([Bergman, cor. 2.1](#Bergman)).
 
 +-- {: .proof}
 ###### Proof
 
-In this case the exact sequence of prop. \ref{SalamanderLemma} gives the exact sequence
+Under the given assumptions the exact sequence of prop. \ref{SalamanderLemma} gives the exact sequence
 
 $$
   0 \to A_{\Box} \to {}^\Box B \to 0
   \,.
 $$
 
-This says that the map in the middle has vanishing [[kernel]] and [[cokernel]] and is hence an isomorphism.
+This says that the map in the middle has vanishing [[kernel]] and [[cokernel]] and is hence an [[isomorphism]].
 
 =--
 
@@ -261,7 +381,7 @@ This says that the map in the middle has vanishing [[kernel]] and [[cokernel]] a
 ###### Corollary
 **(intramural isomorphisms)**
 
-In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ or $\partial : B \to A$ is [[exact sequence|exact]] at $B$, then the two intramural maps shown on the right, lemma \ref{Intramural}, [[isomorphisms]]:
+In each of the situations in a double complex shown below, if the direction _perpendicular_ to $\partial : A \to B$ or $\partial : B \to A$ is [[exact sequence|exact]] at $B$, then the two intramural maps from lemma \ref{Intramural},  shown in each case on the right, are [[isomorphisms]]:
 
 1. $$
      \array{
@@ -295,7 +415,7 @@ In each of the situations in a double complex shown below, if the direction _per
        \\
        && \downarrow && \downarrow
        \\
-       \cdots &\to& A &\to& B &\to& \cdots
+       \cdots &\to& A &\stackrel{\partial}{\to}& B &\to& \cdots
        \\
        && \downarrow && \downarrow^{\mathrlap{ker = 0}}
        \\
@@ -321,7 +441,7 @@ In each of the situations in a double complex shown below, if the direction _per
        \\
        \cdots &\to& &\stackrel{im = B}{\to}& B &\to& 0
        \\
-       && \downarrow && \downarrow
+       && \downarrow && \downarrow^{\mathrlap{\partial}}
        \\
        \cdots &\to& &\to& A &\to& 0
        \\
@@ -347,7 +467,7 @@ In each of the situations in a double complex shown below, if the direction _per
        \\
        && \downarrow^{\mathrlap{im = B}} && \downarrow
        \\
-       \cdots &\to& B &\to& A &\to& \cdots
+       \cdots &\to& B &\stackrel{\partial}{\to}& A &\to& \cdots
        \\
        && \downarrow && \downarrow
        \\
@@ -397,7 +517,7 @@ $$
   \,,
 $$
 
-which implies the first isomorphism. Analogously, the Salamander exact sequence associated with 
+which implies the first isomorphism. Analogously, the salamander exact sequence associated with 
 
 $$
   \array{
@@ -427,7 +547,13 @@ Corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} are also readily checke
 
 =--
 
+## Implications: The basic diagram-chasing lemmas
+ {#Implications}
+
+
+
 ### The sharp $3 \times 3$-lemma
+ {#Sharp3x3Lemmas}
 
 We derive the [[sharp 3x3 lemma]] from the salamander lemma.
 
@@ -466,7 +592,40 @@ The following proof is that given in ([Bergman, lemma 2.3](#Bergman)).
 
 First of all one notices that the diagram is a [[double complex]]: by column-exactness the first row includes as [[subobjects]] into the second, so the horizontal maps of the first row are restrictions of the [[differentials]] of the second and so at least the first row is a [[chain complex]].
 
-Then with the exactness assumptions, corollaries \ref{ExtramuralIso} and \ref{IntramuralIsos} applied to the diagonal mural maps
+We need to show that ${A'}^{hor}\simeq 0$ and ${B'}^{hor} \simeq 0$.
+
+First consider exactness at $A'$. The intramural iso, cor \ref{IntramuralIsos}, of
+
+$$
+  \array{
+    A'  
+    \\
+    \downarrow^{\mathrlap{\partial}}
+    \\
+    A &\stackrel{ker = 0}{\to}& B
+  }
+$$
+
+is ${}^\Box A \simeq A^{hor}$, and the one of 
+
+$$
+  \array{
+    A' &\stackrel{\partial}{\to}& B'
+    \\
+    && \downarrow^{\mathrlap{ker = 0}}
+    \\
+    && B
+  }
+$$
+
+is ${}^\Box A' \simeq {A'}^{vert} = 0$, which together gives the desired exactness from the assumtion that ${A'}^{vert} \simeq 0$ (since all the columns are exact by assumption):
+
+$$
+  {A'}^{hor} \simeq A'_\Box \simeq ({A'}^{vert} \simeq 0)
+  \,.
+$$
+
+To apply an analogous argument for ${B'}^{hor}$, we first interpolate along the [[zigzag]] of intramural maps along the diagonal
 
 $$
   \array{
@@ -482,25 +641,30 @@ $$
     \\
     & \Box
   }
+  \,,
 $$
 
+which are isos by cor \ref{ExtramuralIso}. These appear now in the 
+middle of the following chain of isomorphisms
 
-
-yield isomorphisms
 
 $$
-  {A'}^{hor} \simeq A'_{\Box} \simeq A'^{vert} \simeq 0
+  {B'}^{hor} \simeq \left({B'}_{\Box}\simeq {}^{\Box}B \simeq A_{\Box}\right) \simeq \left(A^{vert} \simeq 0\right)\,,
 $$
 
-and
-
-$$
-  {B'}^{hor} \simeq {B'}_{\Box}\simeq {}^{\Box}B \simeq A_{\Box} \simeq A^{vert} \simeq 0\,.
-$$
-
-The vanishing of the terms on the left in these three expressions is the exactness of the first row, to be shown
+where the first and the last are intramural isos obtained from cor. \ref{IntramuralIsos}.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+From this argument it is clear that by directly analogous reasoning we obtain "$n \times n$-lemmas" for arbitrary $n$, see prop. \ref{nxn} below. 
+
+=--
+
+In particular we have the following _[[sharp 3x3 lemma]]_.
+
 
 +-- {: .num_prop #Sharp3x3}
 ###### Proposition
@@ -537,29 +701,211 @@ then also the first row is exact.
 +-- {: .proof}
 ###### Proof
 
-Exactness in $A$ and $B$ is prop. \ref{ShortSharp3x3}.
-For exactness in $C$ use...
+Exactness in $A'$ and $B'$ is as in prop. \ref{ShortSharp3x3}.
+For exactness in $C'$ we now use the long [[zigzag]] of 
+intramural isomorphisms, cor \ref{ExtramuralIso}. 
 
 $$
-  {C'}^\hor \simeq \cdots.
+  \array{  
+    &&&&&&&& C'
+    \\
+    &&&&&&&& & \Box
+    \\
+    &&&&&&&& \swarrow
+    \\ 
+    &&&&&&& \Box
+    \\
+    &&&& B && \nearrow && C
+    \\
+    &&&&& \Box
+    \\
+    &&&& \swarrow
+    \\
+    &&& \Box
+    \\
+    A'' && \nearrow && B''
+    \\
+    & \Box
+  }
+  \,,
 $$
 
-(...)
+So ${C'}^{hor} \simeq C_{\Box}$ by the intramural iso, then $\dots \simeq A''_\Box$ by this zigzag of extramural isos, and this finally $\cdots \simeq {A''}^{hor} \simeq 0$ by another intramural iso and by assumotion.
+
+=--
+
+### $n \times n$-Lemmas
+
++-- {: .num_prop #nxn}
+###### Proposition
+
+If in a diagram of the form
+
+$$
+  \array{
+    && 0 && 0 && 0 && 0 &&
+    \\
+    0 &\to& X_{n,n} &\to& X_{n-1,n} &\to& X_{n-2,n} &\to& X_{n-3,n} &\to& \cdots
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& X_{n,n-1} &\to& X_{n-1,n-1} &\to& X_{n-2,n-1} &\to& X_{n-3,n-1} &\to& \cdots
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& X_{n,n-2} &\to& X_{n-1,n-2} &\to& X_{n-2,n-2} &\to& X_{n-3,n-2} &\to& \cdots
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& X_{n,n-3} &\to& X_{n-1,n-3} &\to& X_{n-2,n-3} &\to& X_{n-3,n-3} &\to& \cdots
+    \\
+    && \downarrow && \downarrow && \downarrow && \downarrow
+  }
+$$
+
+all rows except possibly the first $X_{\bullet, n}$ as well as all columns except possibly the first $X_{n,\bullet}$ are [[exact sequence|exact]], then the homology groups of the first row equal those of the first column in that
+
+$$
+  \forall k : X_{k,0}^{hor} \simeq X_{0,k}^{vert}
+  \,.
+$$
+
+=--
+
+This appears as ([Bergman, lemma 2.6](#Bergman)).
+
++-- {: .proof}
+###### Proof
+
+The proof proceeds in direct generalization of the proofs of the 
+sharp 3x3 lemma [above](#Sharp3x3Lemmas): the isomorphism for each $k$ is given by the comoposite of two extramural isomorphism that identify the given homology group with a donor or receptor group, respectively, with a long zigzag of extramural isomorphisms.
 
 =--
 
 
-
 ### The snake lemma
 
-We discuss an elegant proof of the [[snake lemma]] from the Salamander lemma.
+We discuss a proof of the [[snake lemma]] from the salamander lemma.
 
++-- {: .num_prop #Snake}
+###### Proposition
 
-(...)
+If in a commuting diagram of the form
 
-### Long exact sequences
+$$
+  \array{
+    && X_1 &\to& X_2 &\to& X_3 &\to& 0
+    \\
+    && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{h}}
+    \\
+    0 &\to& Y_1 &\to& Y_2 &\to& Y_3
+  }
+$$
 
-(...)
+both rows are [[exact sequence|exact]], then there is a [[long exact sequence]]
+
+$$
+  ker(f) \to ker(g) \to ker(h) 
+   \stackrel{\partial}{\to}
+  coker(f) \to coker(g) \to coker(h)
+$$
+
+starting with the [[kernels]] of the three vertical maps and ending with their [[cokernels]] (with the middle morphism $\delta$ called the "[[connecting homomorphism]]").
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the completion of the given diagram to a [[double complex]]:
+
+$$
+  \array{
+     &&  ker(f) &\to& ker(g) &\to& ker(h) &\to& 0
+    \\
+     && \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    ker(l) &\to& X_1 &\stackrel{l}{\to}& X_2 &\stackrel{p}{\to}& X_3 &\to& 0
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{h}} && \downarrow
+    \\
+    0 &\to& Y_1 &\stackrel{i}{\to}& Y_2 &\stackrel{r}{\to}& Y_3 &\to& coker(r)
+    \\
+    \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    0 &\to& coker(f) &\to& coker(g) &\to& coker(h) && 
+  }
+  \,.
+$$
+
+By assumption and construction, here all columns are exact and the rows are exact at the $X_i$ and at the $Y_i$. 
+
+Now horizontal exactness at $ker(g)$ follows from the intramural isomorphism
+$ker(g)^{hor} \simeq ker(f)_{\Box}$, cor. \ref{IntramuralIsos}, combined with the [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso},
+
+$$
+  \array{
+     &&&&&&& ker(g)
+     \\
+     &&&&&&&& \Box
+     \\
+     &&&&&&& \swarrow
+     \\
+     & &&&&& \Box
+     \\
+     & X_1 &&&& \nearrow & & X_2
+     \\
+     && \Box
+     \\
+     & \swarrow
+     \\
+     \Box
+     \\
+     & Y_1
+  }
+$$
+
+which give $\cdots \simeq {}^\Box Y_1$ and then by another intramural iso 
+$ \cdots \simeq Y_1^{hor}$, and finally by assumption $\cdots  \simeq 0$.
+
+The exactness as $coker(g)$ is shown analogously.
+
+Finally, to build the [[connecting homomorphism]] $ker(h) \to coker(f)$ is the same as giving an  [[isomorphism]] from $coker(ker(g) \to ker(h)) \simeq ker(h)^{hor}$ to 
+$ker(coker(f) \to coker(g)) = coker(f)^{hor}$. This is in turn given by the intramural isomorphisms $ker(h)^{hor} \simeq ker(h)_{\Box}$ and ${}^\Box coker(f) \simeq coker(f)^{hor}$, cor. \ref{IntramuralIsos} connected by the [[zigzag]] of extramural isomorphisms, cor. \ref{ExtramuralIso}
+
+$$
+  \array{
+    &&&&&&&&& ker(h)
+    \\
+    &&&&&&&&&& \Box
+    \\
+    &&&&&&&&& \swarrow
+    \\
+    &&&&& && & \Box
+    \\
+    &&&&& X_2 && \nearrow && X_3
+    \\
+    &&&&&& \Box
+    \\
+    &&&&& \swarrow
+    \\
+    &&&& \Box
+    \\
+    & Y_1 && \nearrow & & Y_2
+    \\
+    && \Box
+    \\
+    & \swarrow
+    \\
+    \Box
+    \\
+    & coker(f)
+  }
+  \,.
+$$
+
+=--
+
 
 ## Related concepts
 
