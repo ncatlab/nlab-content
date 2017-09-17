@@ -26,6 +26,8 @@ The analog of [[spin geometry]] as one passes from [[spinning particles]] to [[s
 
 * [[spin geometry]], [[fivebrane geometry]]
 
+* [[Stolz conjecture]]
+
 ## References
 
 * _The String Geometry Research Network_ ([website](http://www-app.uni-regensburg.de/Fakultaeten/MAT/waldorf/Stringgeometry/index.php?show=home)).
