@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _graviton_ is the quantum of the [[field (physics)|field]] of [[gravity]].
+The _graviton_ is the (hypothetical) quantum of the [[field (physics)|field]] of [[gravity]], i.e., the quanta of the theory of [quantum gravity](http://ncatlab.org/nlab/show/quantum+gravity).
 
 ## Details
 
@@ -36,6 +36,8 @@ $$
 with values in the [[Poincare Lie algebra]].
 
 This is a [[vielbein]] $E$ and a [[spin connection]] $\Omega$. This together is the **graviton field**.
+
+A graviton has [spin](http://ncatlab.org/nlab/show/spin) $2$, and is massless. We can see that it has spin $2$ from the fact that the source of gravity is $T$, the [energy-momentum tensor](http://ncatlab.org/nlab/show/stress-energy+tensor), which is a second-rank tensor. It can be shown that a massless spin-$2$ particle has to be a graviton. The basic concept behind this is that massless particles have to couple to conserved currents - the stress-energy tensor $T$, the source of gravity.
 
 In [[supergravity]] this is accompanied by the [[gravitino]].
 
