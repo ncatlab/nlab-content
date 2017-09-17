@@ -21,6 +21,10 @@ More generally, for $n \geq 1$ the [[conjecture]] of _[[Langlands correspondence
 
 
 
+## Related concepts
+
+* The definition of the Artin L-function has some similarity to that of the [[Alexander polynomial]]...
+
 ## References
 
 * Wikipedia, _[Artin L-function](http://en.wikipedia.org/wiki/Artin_L-function)_
