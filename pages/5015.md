@@ -50,6 +50,8 @@ In the literature one finds, roughly speaking, two dierent approaches to the stu
 
 ## Related concepts
 
+* [[étale space]]
+
 * [[orbifold]], [[Deligne-Mumford stack]]
 
 * [[étale ∞-groupoid]]
