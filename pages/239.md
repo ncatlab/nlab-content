@@ -79,6 +79,10 @@ A [[virtual double category]] is a common generalization of a multicategory and 
 
 On the other hand, in any bicategory (in fact, any double category) there is a virtual double category whose objects are monads and whose 1-cells are bimodules, and the tensor product in this virtual double category is the tensor product of modules in a bicategory defined above.  Thus, tensor products in a virtual double category include all notions of tensor product discussed above.
 
+## Examples
+
+* [[tensor product of chain complexes]]
+
 ## Related concepts
 
 [[!include homotopy-homology-cohomology]]
