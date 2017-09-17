@@ -15,82 +15,47 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea 
 
-The structure of a _site_ on a [[category]] $C$ is a structure that regards each [[object]] $c$ of $C$ as a [[space and quantity|space]] and determines which [[morphisms]] $\pi : d \to c$ from collections $d := \{\sqcup_i d_i\}$ of [[objects]] of $C$ to $c$ behave as [[cover|covers]] of spaces.
-
-One says a site is a [[category]] equipped with a [[topology]], called a [[Grothendieck topology]]. The structure of a site on a category allows to characterize those [[presheaf|presheaves]] on the category which are "continuous" with respect to this topology in that they send covering morphisms to [[equivalences]]. 
-
-Such presheaves are [[sheaf|sheaves]]. Or, in [[higher category theory|higher categorical contexts]], [[stacks]], and further [[∞-stacks]].
+A _site_ is a [[small category]] equipped with a [[coverage]] or [[Grothendieck topology]]. The [[category of sheaves]] is a [[sheaf topos]] and the site is a _site of definition_ for this topos.
 
 ## Definition 
 
 +-- {: .un_defn}
 ###### Definition
+
 A _site_ is a category $C$ equipped with a [[Grothendieck topology]] $J$.
+
 =--
 
-**Remarks**
++-- {: .un_defn}
+###### Definition
 
-* Sometimes it is useful to define a site to be a category equipped merely with a [[coverage]].
+Sometimes it is useful to define a site to be a category equipped merely with a [[coverage]]. This does generate a Grothendieck topology, but many constructions are more elegantly carried out just with the coverage.
 
-* Notice also that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphisms]], or in terms of a system of [[dense monomorphisms]] in the [[presheaf]] category $PSh(S)$.
+Notice also that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphisms]], or in terms of a system of [[dense monomorphisms]] in the [[presheaf]] category $PSh(S)$.
 
-## Examples 
+=--
 
-* The archetypical class of examples is the [[category of open subsets]] $S = Op(X)$ of a [[topological space]] $X$. Notice that a morphism $f : X \to Y$ of topological spaces induces naturally a [[functor]] $f^t : Op(Y) \to Op(X)$ going the other way around, sending an open subset $U \in Y$ to the open subset $f^{-1}(U)$ in $X$.
-
-
-
-
-## Morphisms of sites  {#Morphisms}
-
-### Definition
-
-Motivated from the archetypical example of [[category of open subsets|categories of open subsets]], one says that 
-
-* a **presite** is the same as a [[category]] $S$;
-
-* a **morphism of presites** $S \to S'$ is a [[functor]] going the other way round, $S' \to S$. 
-
-Hence the **category of presites** is just the [[opposite category]] of the category [[Cat]] of categoris, 
-
-$$
-  PSit := Cat^{op}
-  \,.
-$$
-
-This is just terminology, but supposedly suggestive for working with presheaf categories. For instance one would denote a presite by $X$ and the same entity regarded as a category as $S_X$ and write
-
-$$
-  PSh(X) := [S_X^{op}, Set]
-$$
-
-and thus have notation entirely analogous to the familiar notation for presheaves on a topological space $X$.
++-- {: .un_defn}
+###### Definition
 
 
-In this notation a **site** $X$ is a pair consisting of 
+A **morphism of sites** $f : (C,J) \to (D,K)$ is 
 
-* a presite $X$ (with underlying catgeory $S_X$)
+* a [[functor]] $f : C \to D$;
 
-* and a [[coverage]] on $S_X$. 
+* such that 
+
+  * $f$ preserves covers in that for every $U \in C$ and every [[covering]] $\{p_i : U_i \to U\}$ on $U$, the images $f(p_i)$ cover $f(U)$.
+
+  * $f$ is a [[flat functor]];
+
+=--
 
 
-Then a **morphism of sites** $f : X \to Y$ is
-
-* a morphism of presites $f : X \to Y$ (hence a [[functor]] $f^t : S_Y \to S_X$);
-
-* such that it preserves the site structure. This means
-
-  * it preserves 
-
-    * finite [[limit]]s 
-
-    * and it preserves covers in that for every $U \in S_Y$ and every covering [[sieve]] $\{p_i : U_i \to U\}$ on $U$, the images $f^t(p_i)$ cover $f^t(U)$.
-
-  * equivalently: 
-
-    the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphisms]] to local isomorphisms.
+Equivalently this means that the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphisms]] to local isomorphisms.
 
 
 For $f : X \to Y$ a morphisms of sites, coming from a functor $f^t : S_Y \to S_X$, we have the induced [[inverse image]] functor 
@@ -107,7 +72,8 @@ $$
 $$
 
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 For $f : X \to Y$ a morphism of sites, the direct and inverse image functors give a [[geometric morphism]] between the corresponding [[category of sheaves|sheaf]] [[topos]]es in that they restrict to an [[adjunction]] 
 
@@ -117,9 +83,17 @@ $$
 
 where $f^*$ preserves finite limits.
 
+=--
 
+## Examples
 
-### Examples
+### Sites
+
+* The archetypical class of examples is the [[category of open subsets]] $S = Op(X)$ of a [[topological space]] $X$. Notice that a morphism $f : X \to Y$ of topological spaces induces naturally a [[functor]] $f^t : Op(Y) \to Op(X)$ going the other way around, sending an open subset $U \in Y$ to the open subset $f^{-1}(U)$ in $X$.
+
+(...)
+
+### Morphisms of sites
 
 #### Sub-sites 
 
