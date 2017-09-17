@@ -1,16 +1,25 @@
-<div class="rightHandSide toc">
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-
-</div>
-
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 
-## Idea ##
+## Idea 
+
 Recall that a [[TQFT]] is an [[FQFT]] defined on the $(\infty,n)$-[[(infinity,n)-category of cobordisms|category of cobordisms]] whose morphisms are plain cobordisms and diffeomorphisms between these.
 
 In a _conformal_ quantum field theory the cobordisms are equipped with a conformal structure (a Riemannian structure modulo a pointwise rescaling).
@@ -353,6 +362,10 @@ Witt class.
 
 =--
 
+
+## Examples
+
+* [[WZW model]]
 
 
 ## References ##
