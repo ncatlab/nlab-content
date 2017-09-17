@@ -1,13 +1,33 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 An [[algebraic curve]] with a cirtain [[singular point of an algebraic variety]].
 
-For [[elliptic curves]] see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_
+## The nodal cubic
+
+For nodal [[cubic curve]] (over some base) is (see at _[ellitpic curve -- Nodal curves and cuspidal curves](elliptic+curve#EllipticCurvesNodalCurvesCuspidalCurves)_ for notation and background) the solution to the [[Weierstrass equation]] for which the [[discriminant]] vanishes, but the modular invariant $c_4$ does not.
+
+## Properties of the nodal cubic
+
+### Compactified moduli stack of elliptic curves and the Tate curve
+
+The nodal [[cubic curve]] is not an [[elliptic curve]], as it is singular, but adding it to the [[moduli stack of elliptic curves]] $\mathcal{M}_{ell}$ produces the [[Deligne-Mumford compactification|compactification]] $\mathcal{M}_{\overline{ell}}$ which is often relevant.
+
+The [[formal neighbourhood]] of the nodal curve in $\mathcal{M}_{\overline{ell}}$ is the [[Tate curve]].
 
 ## Related concepts
 
 * [[cusp]]
 
+## References
+
+
+
 [[!redirects nodal curves]]
 
+[[!redirects nodal cubic curve]]
+[[!redirects nodal cubic curves]]
