@@ -35,11 +35,9 @@
 
   * [[smooth locus]]
 
-  * [[smooth manifold]]
+  * [[smooth manifold]], [[formal smooth manifold]], [[derived smooth manifold]]
 
   * [[diffeological space]], [[Frölicher space]]
-
-  * [[derived smooth manifold]]
 
   * [[smooth natural numbers]]
 
