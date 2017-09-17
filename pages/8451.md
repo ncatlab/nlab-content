@@ -1,0 +1,41 @@
+
+# Bayesian reasoning
+* table of contents
+{: toc}
+
+## Idea
+
+Bayesian reasoning is an application of [[probability theory]] to [[inductive reasoning]] (and [[abductive reasoning]]).  The perspective here is that, when done correctly, inductive reasoning is simply a generalisation of [[deductive reasoning]]; the latter simply restricts to the probabilities $0$ and $1$.
+
+
+## Stuff
+
+This was moved from [[inductive reasoning]], and I hope to edit it further today, but now I have to go:
+
+It can be shown by so-called "Dutch Book" arguments, that a rational agent must set their degrees of belief in such a way that they satisfy the axioms of probability theory. For example, if your degree of belief that the next toss of a coin will show heads is $p$, then you should believe it will show tails to degree $(1 - p)$, otherwise it will be possible for someone to take betting positions against you making a loss certain whatever the outcome.
+
+Using [[Bayes' Rule]], degrees of belief can be updated on receipt of new evidence.
+
+$$
+P(h|e) = P(e|h) \cdot \frac{P(h)}{P(e)},
+$$
+
+where $h$ is a hypothesis and $e$ is evidence.
+
+The idea here is that when $e$ is observed, your degree of belief in $h$ should be changed from $P(h)$ to $P(h|e)$. This is known as **conditionalizing**. If $P(h|e) \gt P(h)$, we say that $e$ has provided **confirmation** for $h$.
+
+Typically, situations will involve a range of possible hypotheses, $h_1, h_2, \ldots$, and applying Bayes' Rule will allow us to compare how these fare as new observations are made. For example, comparing the fate of two hypotheses,
+
+$$
+\frac{P(h_1|e)}{P(h_2|e)} = \frac{P(e|h_1)}{P(e|h_2)}\cdot \frac{P(h_1)}{P(h_2)}.
+$$
+
+How to assign prior probabilities to hypotheses when you don't think you have an exhaustive set of rivals is not obvious. When astronomers in the nineteenth century tried to account for the anomalies in the position of Mercury's perihelion, they tried out all manner of explanations: maybe there was a planet inside Mercury's orbit, maybe there was a cloud of dust surrounding the sun, maybe the power in the inverse square law ought to be (2 - $\epsilon$),... Assigning priors and changing these as evidence comes in is one thing, but it would have been wise to have reserved some of the prior for 'none of the above'.
+
+Interestingly, one of the first people to give a qualitative sketch of how such an approach would work was [[George Polya]] in 'Mathematics and Plausible Reasoning' ([Polya](#Polya)), where examples from mathematics are widely used. The idea of a Bayesian account of plausible reasoning in mathematics surprises many, it being assumed that mathematicians rely solely on [[deductive reasoning|deduction]].
+
+
+[[!redirects Bayesian reasoning]]
+[[!redirects Bayesian induction]]
+[[!redirects Bayesian probability]]
+[[!redirects Bayesianism]]
