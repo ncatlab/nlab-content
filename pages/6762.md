@@ -1,0 +1,21 @@
+Day's reflection theorem gives conditions under which a reflective subcategory of a symmetric monoidal closed category is closed under internal homs (or, more strongly, is an "exponential ideal"). The formulation and efficient proof we give are modeled on some notes by Ross Street. 
+
++-- {: .un_thm}
+######Theorem (Day)
+Let $R: C \to D$ be a fully faithful functor with left adjoint $L \colon D \to C$, and suppose given a symmetric monoidal closed structure on $D$ with tensor $\otimes$ and internal hom $[-, -]$. Then for any object $c$ of $C$ and $d$ of $D$, if any one of the following natural transformations is invertible, then all are: 
+
+1. $u[d, R c] \colon [d, R c] \to R L[d, R c]$; 
+
+1. $[u, 1] \colon [R L d, R c] \to [d, R c]$; 
+
+1. $L(u \otimes 1) \colon L(d \otimes d') \to L(R L d \otimes d')$; 
+
+1. $L(u \otimes u) \colon L(d \otimes d') \to L(R L d \otimes R L d')$. 
+
+In particular, if $D$ is cartesian closed and $L$ preserves products, then $R \colon C \to D$ realizes $C$ as an [[exponential ideal]] of $D$. 
+=-- 
+
++-- {: .proof}
+######Proof 
+I will put this in later. 
+=--
