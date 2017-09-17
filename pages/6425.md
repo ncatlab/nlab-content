@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Fermi theory of weak $\beta$-decay_ is an [[effective quantum field theory]] approximation -- valied to an [[energy]] of about 10 [[TeV]] -- to that part of the [[standard model of particle physics]] which is relevant for the decay of [[hadron]]s by the [[weak interaction]].
+The _Fermi theory of weak $\beta$-decay_ is an [[effective quantum field theory]] approximation -- valid to an [[energy]] of about 10 [[TeV]] -- to that part of the [[standard model of particle physics]] which is relevant for the decay of [[hadron]]s by the [[weak interaction]].
 
 ## References
 
