@@ -95,7 +95,7 @@ $$
 For every [[morphism]] $v : X \to Y$ in the ambient [[(∞,1)-topos]] $\mathbf{H}$ there is the corresponding [[base change geometric morphism]]
 
 $$
-  (v_! \dashv v^* \dashv f_*) 
+  (v_! \dashv v^* \dashv v_*) 
     : 
   \mathbf{H}/X
    \stackrel{\overset{v_!}{\to}}{\stackrel{\overset{v^*}{\leftarrow}}{\underset{v_*}{\to}}}
@@ -122,7 +122,7 @@ When we think of [[base change]] in the context of linear algebra on sheaves, we
 $$
   (\int_{X/Y} \dashv v^*) : 
   \mathbf{H}/X
-  \stackrel{\overset{\int_v}{\to}}{\underset{v^*}{\leftarrow}}
+  \stackrel{\overset{\int_{X/Y}}{\to}}{\underset{v^*}{\leftarrow}}
   \mathbf{H}/Y
 $$
 
@@ -207,7 +207,7 @@ $$
 We call the function object
 
 $$
-  ((i,o) : A \to X \to Y) \in \mathbf{H}/(X\times Y)
+  ((i,o) : A \to X \times Y) \in \mathbf{H}/(X\times Y)
 $$
 
 on $X \times Y$ the **integral kernel** of $\underline{A}$.
