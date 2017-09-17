@@ -352,6 +352,14 @@ Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-the
 
 The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
+### Relation to algebraic K-theory
+ {#RelationToAlgebraicKTheory}
+
+The topological K-theory over a space $X$ is not
+identical with the _[[algebraic K-theory]]_ of the
+ring of functions on $X$, but the two are closely related. See for instance ([Paluch](#Paluch)).
+
+
 ## Related concepts
 
 * [[K-theory]]
@@ -384,3 +392,8 @@ A discussion of the topological K-theory of [[classifying space]]s of [[Lie grou
 
 * Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
  {#JackowskiOliver}
+
+Relations to [[algebraic K-theory]] are discussed in
+
+* Michael Paluch, _Algebraic $K$-theory and topological spaces_ K-theory 0471 ([web](http://www.math.uiuc.edu/K-theory/0471/))
+ {#Paluch}
