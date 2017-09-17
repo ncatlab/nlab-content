@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-A category $C$ is _closed_ if for any pair $a, b$ of objects the collection of morphisms from $a$ to $b$ can be regarded as forming itself an object of $C$.
+A [[category]] $C$ is _closed_ if for any pair $a, b$ of [[objects]] the collection of [[morphisms]] from $a$ to $b$ can be regarded as forming itself an object of $C$.
 
 This object is often denoted $hom(a,b)$ or $[a,b]$ or similar and often addressed as the _internal [[hom-object]]_ or simply the [[internal hom]].
 
@@ -19,14 +30,14 @@ While this is less fashionable, in some cases it is more obvious what the correc
 A **closed category** is a [[category]] $C$ together with the following data:
 
 * A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
-* An object $I\in C$ called the *unit*.
-* A natural isomorphism $i\colon Id_C \cong [I,-]$.
+* An [[object]] $I\in C$ called the *[[unit object]]*.
+* A [[natural isomorphism]] $i\colon Id_C \cong [I,-]$.
 * A transformation $j_X\colon I \to [X,X]$, [[extranatural]] in $X$.
 * A transformation $L^X_{Y Z} \colon  [Y,Z] \to [[X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
 
 which is required to satisfy the following axioms.
 
-* The following diagram commutes for any $X,Y$.
+* The following [[diagram]] commutes for any $X,Y$.
 
   $$\array{I & \overset{j_Y}{\to} & [Y,Y]\\
   & _{\mathllap{j_{[X,Y]}}}\searrow & \downarrow^{L^X_{Y Y}}\\
@@ -82,6 +93,12 @@ By a result due to Miguel LaPlaza, every closed category embeds [[full and faith
 ### Monadicity and 2-categories
 
 Since the notion of closed category involves a contravariant functor and extranatural transformations, it cannot be expected to be [[2-monad|2-monadic]] over the [[2-category]] [[Cat]].  It is, however, 2-monadic over the 2-category $Cat_g$ of categories, functors, and natural isomorphisms, the [[core]] of [[Cat]].  In this way we obtain a 2-category $ClCat$ of closed categories, strong [[closed functors]], and [[closed natural transformations]].  One can also define a notion of non-strong, or "lax," closed functor; although these do not seemingly arise from the 2-monad in question, they generalize lax monoidal functors between closed monoidal categories.
+
+## Related concepts
+
+* [[closed functor]]
+
+* [[dual object in a closed category]]
 
 
 ## References 
