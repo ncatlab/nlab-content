@@ -2783,7 +2783,12 @@ $$
   \langle F_A \rangle
 $$ 
 
-descent along the trivial bundle $U \times\Delta^k \to U$.
+have no component long the simplicial directions: for $v \in \Gamma T \Delta^k$,
+
+$$
+  \iota_v F_A = 0
+  \,.
+$$
 
 This sits in an evident chain of morphisms
 
@@ -3275,7 +3280,7 @@ For fixed $U \in $ [[CartSp]] and $k \in \Delta$ the sets on the right are sets 
 
 1. their [[curvature characteristic form]]s $\langle F_A \rangle$ descend to the base.
 
-The subsheaf $\exp(\mathfrak{g})_{conn} \hookrightarrow \exp(\mathfrak{g})_{conn'}$ is that for which even the curvature forms $F_A$ themselves descent.
+The subsheaf $\exp(\mathfrak{g})_{conn} \hookrightarrow \exp(\mathfrak{g})_{conn'}$ is that for every [[curvature]] form $F_A$ has no component along the simplicial directions.
 
 Here $\Omega^\bullet(U \times \Delta^k)_{vert}$ are the [[vertical differential form]]s on the trivial simplex bundle $U \times \Delta^k \to U$ 
 and on the right we have the canonical sequence [[Chevalley-Eilenberg algebra]] $\leftarrow$ [[Weil algebra]] $\leftarrow$ [[invariant polynomial]]s and all morphisms are [[dg-algebra]] morphisms. 
