@@ -9,7 +9,7 @@
 
 ## Idea
 
-An [[object]] of a [[category]] is often called *compact* if it is "finite" or "small" in some precise sense.
+An [[object]] of a [[category]] is *compact* if it is "finite" or "small" in some precise sense.
 
 
 ## Definition 
@@ -173,7 +173,7 @@ For the pages quoted in the context of the discussion of compact objects in [[To
 
 For the general definition with an eye towards the definition of [[compact object in an (infinity,1)-category]]  see section A.1.1 section 5.3.4 of 
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
 [[!redirects compact object"]]
