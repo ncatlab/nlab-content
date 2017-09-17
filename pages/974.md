@@ -250,7 +250,7 @@ The definition is due to
 
 The standard textbook is
 
-* [[Jiri Adamek]], [[Jiri Rosicky]], _Locally presentable and accessible categories_
+* [[Jiri Adamek]], [[Jiri Rosicky]], _[[Locally presentable and accessible categories]]_
 
 Some further discussion is in 
 
