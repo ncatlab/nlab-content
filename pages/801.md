@@ -79,6 +79,8 @@ Using variants of 'weak equivalence', for instance, '$n$-equivalence', one gets 
 
 * [[stable homotopy type]]
 
+[[!include notions of type]]
+
 [[!include homotopy n-types - table]]
 
 [[!include notions of type]]
