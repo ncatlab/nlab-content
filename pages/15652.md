@@ -8,6 +8,8 @@
 
 * [[Selberg zeta function]]
 
+* [[Rankin-Selberg method]]
+
 category: people
 
 [[!redirects Selberg]]
