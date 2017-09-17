@@ -1,3 +1,4 @@
+[[!redirects natural model structure on groupoids]]
 
 
 +-- {: .rightHandSide}
