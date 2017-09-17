@@ -1,6 +1,9 @@
 <div class="rightHandSide toc">
+[[!include topos theory - contents]]
+***
 [[!include category theory - contents]]
 </div>
+
 
 # Contents #
 * autamatic table of contents goes here
