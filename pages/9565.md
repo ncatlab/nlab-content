@@ -41,7 +41,7 @@ The original statement is due to
 
 The first proof in [[geometric quantization by push-forward]] for compact groups acting on compact manifolds appears in 
 
-* [[Eckard Meinrenken]], _Symplectic surgery and the $Spin^c$-Dirac operator_, Adv. Math. 134 (1998), 240-277.
+* [[Eckhard Meinrenken]], _Symplectic surgery and the $Spin^c$-Dirac operator_, Adv. Math. 134 (1998), 240-277.
 
 A survey is in 
 
