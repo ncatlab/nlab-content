@@ -46,7 +46,7 @@ The actual [[extended quantum field theory]] would be obtained from such a data 
 This is summarized in the following table:
 
 [[!include extended prequantum field theory - table]]
-  
+
 
 ## Examples
 
