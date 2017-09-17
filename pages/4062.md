@@ -13,14 +13,18 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
+ {#Definition}
 
-Given a [[2-category]] $K$, [[adjunction|adjoint pairs]] $(\eta,\epsilon) \colon f \dashv u \colon b \to a$ and $(\eta',\epsilon') \colon f' \dashv u' \colon b' \to a'$ , and 1-cells $x \colon a \to a'$ and $y \colon b \to b'$, there is a bijection
++-- {: .num_prop #MateBijection}
+###### Proposition
+
+Given a [[2-category]] $K$, [[adjunction|adjoint pairs]] $(\eta,\epsilon) \colon f \dashv u \colon b \to a$ and $(\eta',\epsilon') \colon f' \dashv u' \colon b' \to a'$ , and [[1-morphisms|1-cells]] $x \colon a \to a'$ and $y \colon b \to b'$, there is a [[bijection]]
 $$ K(a,b')(f' x,y f) \cong K(b,a')(x u,u' y) $$
-given by [[pasting]] with the unit of one adjunction and the counit of the other, i.e.
+given by [[pasting]] with the [[unit of an adjunction|unit]] of one adjunction and the [[counit of an adjunction|counit]] of the other, i.e.
 
 $$
   \array{
@@ -65,13 +69,39 @@ $$
   }
 $$
 
-That this is a bijection follows easily from the [[triangle identities]].  The 2-cells $\lambda$ and $\mu$ are called **mates** (or sometimes **conjugates**) with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
+=--
+
++-- {: .proof}
+###### Proof
+
+That this is a bijection follows easily from the [[triangle identities]].  
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+The 2-cells $\lambda$ and $\mu$ in prop. \ref{MateBijection} are called **mates** (or sometimes **conjugates**) with respect to the adjunctions $f \dashv u$ and $f' \dashv u'$ (and to the 1-cells $x$ and $y$).
+
+=--
 
 ## Properties
 
-Strict [[2-functors]] preserve adjunctions and pasting diagrams, so that if $F \colon K \to J$ is a 2-functor and if $\lambda$ and $\mu$ are mates wrt $f \dashv u$ and $f' \dashv u'$ in $K$, then $F \lambda$ and $F \mu$ are mates wrt $F f \dashv F u$ and $F f' \dashv F u'$ in $J$.
+### General
+
++-- {: .num_prop}
+###### Proposition
+
+Strict [[2-functors]] preserve adjunctions and [[pasting diagrams]], so that if $F \colon K \to J$ is a 2-functor and if $\lambda$ and $\mu$ are mates wrt $f \dashv u$ and $f' \dashv u'$ in $K$, then $F \lambda$ and $F \mu$ are mates wrt $F f \dashv F u$ and $F f' \dashv F u'$ in $J$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
 
 If $\alpha \colon F \Rightarrow G$ is a [[2-natural transformation]], then the naturality identities $\alpha_b \circ F f = G f \circ \alpha_a$ and $\alpha_a \circ F u = G u \circ \alpha_b$ are mates wrt $F f \dashv F u$ and $G f \dashv G u$.
+
+=--
 
 ### Naturality
 
@@ -81,11 +111,30 @@ What this means is that, for example, the mate of a square coming from a [[pasti
 
 In the double category $Adj(K)$, every vertical arrow has both a [[companion]] (the left adjoint) and a [[conjoint]] (the right adjoint).  (In fact, in some sense it is the universal double category cosntructed from $K$ with this property.)  Therefore, it is equivalent to a [[2-category equipped with proarrows]].  More explicitly, there is a forgetful functor $L \colon Adj_V(K) \to K$ from the 2-category of objects, adjunctions and mate-pairs in $K$ to $K$ that sends an adjunction $f \dashv u$ to $f$.  It is [[locally fully faithful 2-functor|locally fully faithful]], and moreover every $L f$ has a right adjoint in $K$ by definition; this gives the more traditional definition of a proarrow equipment.
 
-## Example
+## Examples
+ {#Examples}
 
-Let $F \dashv U \colon D \to C$ be an adjunction in the 2-category $Cat$, i.e. a pair of [[adjoint functors]], and $A \colon * \to C$ and $X \colon * \to D$ be objects of $C$ and $D$ considered as functors out of the terminal category $*$.  Then taking mates with respect to $1 \dashv 1 \colon * \to *$ and $F \dashv U$ yields the familiar bijection
++-- {: .num_example}
+###### Example
+
+Let $F \dashv U \colon D \to C$ be an [[adjunction]] in the [[2-category]] [[Cat]], i.e. a pair of [[adjoint functors]], and $A \colon * \to C$ and $X \colon * \to D$ be objects of $C$ and $D$ considered as [[functors]] out of the [[terminal category]] $*$.  Then taking mates with respect to $1 \dashv 1 \colon * \to *$ and $F \dashv U$ yields the familiar [[bijection]
 $$ D(F A,X) \cong C(A,U X) $$
-and the pasting operations as above yield the usual definition of the isomorphism of adjunction by means of unit and counit.  Moreover, the naturality of the mate correspondence yields naturality of the bijection.
+and the pasting operations as above yield the usual definition of the isomorphism of adjunction by means of [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]].  Moreover, the naturality of the mate correspondence yields [[natural isomorphism|naturality]] of the bijection.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+If the ambient [[2-category]] $K$ is the [[delooping]] of a [[monoidal category]] $(\mathcal{C}, \otimes)$ in that
+
+$$
+  K \simeq \mathbf{B}_\otimes \mathcal{C}
+$$
+
+then an [[adjunction]] in $K$ is a pair of [[dual objects]] and the mate-construction is the construction of [[dual morphisms]] between [[dualizable objects]].
+
+=--
 
 ## Multi-variable mates
 
