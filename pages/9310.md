@@ -1,7 +1,7 @@
 
 **[[schreiber:∞-Chern-Simons theory]] from binary and non-degenerate [[invariant polynomial]]**
 
-| $n \in \mathbb{N}$ | [[symplectic Lie n-algebroid]] |  [[Lie integration|Lie integrated]] [[smooth ∞-groupoid]] = [[moduli ∞-stack]] of [[field (physics)|fields]] of $(n+1)$ [[sigma-model]] | [[higher symplectic geometry]] |  $(n+1)$d [[sigma-model]] | [[dg-manifold|dg-]][[Lagrangian submanifold]]/ [[real polarization]] [[leaf]] | =  [[brane]]  | [[n-module]] of [[quantum states]] in [[codimension]] $n$ | discussed in: |
+| $n \in \mathbb{N}$ | [[symplectic Lie n-algebroid]] |  [[Lie integration|Lie integrated]] [[smooth ∞-groupoid]] = [[moduli ∞-stack]] of [[field (physics)|fields]] of $(n+1)$-d [[sigma-model]] | [[higher symplectic geometry]] |  $(n+1)$d [[sigma-model]] | [[dg-manifold|dg-]][[Lagrangian submanifold]]/ [[real polarization]] [[leaf]] | =  [[brane]]  | [[n-module|(n+1)-module]] of [[quantum states]] in [[codimension]] $(n+1)$ | discussed in: |
 |--|--|--|--|--|--|--|--|--|
 | 0 | [[symplectic manifold]] | [[symplectic manifold]] | [[symplectic geometry]] |   | [[Lagrangian submanifold]] | -- | ordinary [[space of states (in geometric quantization)]] | _[[geometric quantization]]_ |
 | 1 | [[Poisson Lie algebroid]] | [[symplectic groupoid]] | [[2-plectic geometry]]  | [[Poisson sigma-model]] |  [[coisotropic submanifold]] |  [brane of Poisson sigma-model](Poisson+sigma-model#Branes)  | [[2-module]] = [[category of modules]] over [[strict deformation quantization|strict deformation quantiized]] [[algebra of observables]] | _[[extended geometric quantization of 2d Chern-Simons theory]]_ |
