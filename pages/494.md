@@ -7,7 +7,7 @@
 {:toc}
 
 
-# Definition #
+## Definition 
 
 We say that two functors $L:C\to D$ and $R:D\to C$ are **adjoint** if they form an [[adjunction]] $L \dashv R$ in the [[2-category]] [[Cat]] of categories.  This means that they are equipped with [[natural transformation]]s $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$ satisfying the [[triangle identities]], that is the compositions
 $L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L$
@@ -21,7 +21,7 @@ We say that $L$ is the __[[left adjoint]]__ of $R$ and that $R$ is the __[[right
 In the case of [[Cat]], there are a number of equivalent characterizations of an adjunction, some of which are given below.
 
 
-#Definition in terms of Hom isomorphism#
+## Definition in terms of Hom isomorphism
 
 An adjunction $L\dashv R$ is equivalently given by a [[natural transformation|natural isomorphism]] of [[hom-functor]]s $C^{op} \times D \to Set$
 
@@ -41,7 +41,7 @@ naturally in $c$ and $d$.  This isomorphism is the **adjunction isomorphism** an
 Given such an adjunction isomorphism, $\eta$ and $\epsilon$ can be recovered as the adjuncts of identity morphisms.  The [[Yoneda lemma]] ensures that the entire adjunction isomorphism can be recovered from them by composition: the adjunct of $f:L(c)\to d$ is $R(f) \eta$, and the adjunct of $g:c \to R(d)$ is $\epsilon L(g)$.  The triangle identities are precisely what is necessary to ensure that this _is_ an isomorphism.
 
 
-#Definition in terms of representable functors#
+## Definition in terms of representable functors
 
 A functor $L:C\to D$ has a right adjoint if and only if for all $d$, the [[presheaf]] $Hom_D(L(-),d):D^{op}\to Set$ is [[representable functor|representable]], i.e. there exists an object $R(d)$ and a natural isomorphism
 $$Hom_D(L(-),d) \cong Hom_C(-,R(d)).$$
@@ -69,7 +69,7 @@ $$
   \,.
 $$
 
-## Local definition ##
+### Local definition 
 
 This definition has the advantage that it yields useful information even if the adjoint functor $R$ does not exist globally, i.e. as a functor on all of $D$:
 
@@ -87,7 +87,7 @@ This _global_ versus _local_ evaluation of adjoint functors induces the global/l
 
 as discussed there.
 
-# Definition in terms of universal arrows #
+## Definition in terms of universal arrows 
 
 Given $R:D\to C$, and $c\in C$, a _universal arrow_ from $c$ to $R$ is an initial object of the [[comma category]] $(c/R)$.  That is, it consists of an object $L(c)\in D$ and an arrow $\eta:c\to R(L(c))$ such that for any $d\in D$, any arrow $g:c\to R(d)$ factors as $R(f) \eta$ for a unique $f:L(c)\to d$.  In particular, we have a bijection
 $$Hom_C(c,R(d)) \cong Hom_D(L(c),d)$$
@@ -96,7 +96,7 @@ which it is easy to see is natural in $d$.  Again, in this case there is a uniqu
 Note that this definition is simply obtained by applying the [[Yoneda lemma]] to the definition in terms of representable functors.
 
 
-# Definition in terms of correspondences #
+## Definition in terms of correspondences 
 
 Every [[distributor]]
 
@@ -149,12 +149,12 @@ $C \star^L D \simeq (D^{op} \star^{R^{op}} C^{op})^{op}$.
 
 We say that $C \star^k D$ is the [[cograph of a functor|cograph of the functor]] $k$. See there for more on this.
 
-# Definition for $(\infty,1)$-functors #
+## Definition for $(\infty,1)$-functors 
 
 
 The above characterization of adjoint functors in terms of categories over the interval is used in section 5.2.2 of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 (motivated from the discussion of correspondences in section 2.3.1) 
 
@@ -183,12 +183,12 @@ For more on this see
 * [[adjoint (∞,1)-functor]].
 
 
-#Examples#
+## Examples
 
 * see [[examples of adjoint functors]].
 
 
-#Properties#
+## Properties
 
 Let $L \dashv R$ be a pair of adjoint functors. We have the following
 
@@ -208,9 +208,11 @@ Let $L \dashv R$ be a pair of adjoint functors. We have the following
 * $L$ [[preserved limit|preserves]] all [[colimits]] that may exist in $C$, while $R$ preserves all [[limits]] in $D$.  For a partial converse, see the [[adjoint functor theorem]].
 
 
-#Videos#
+## References
 
-* The Catsters [list](http://www.youtube.com/view_play_list?p=54B49729E5102248)
+A video of a pedagogical introduction to adjoint functors is provided by
+
+* [[The Catsters]] ([list](http://www.youtube.com/view_play_list?p=54B49729E5102248))
 
 
 [[!redirects adjoint functors]]
