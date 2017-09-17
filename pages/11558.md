@@ -33,7 +33,7 @@ After inversion of 6, $TMF_0(2)$ is ([Behrens 05](#Behrens05)) the [[elliptic sp
 
 ### Periodicity
 
-The periodicity of $TMF_2(0)$ is 8.
+The periodicity of $TMF_0(2)$ is 8.
 
 ## Related concepts
 
