@@ -1,5 +1,5 @@
 
-> under construction
+> under construction, for a more coherent account see ([hpqg](#FiorenzaSchreiber)).
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -336,7 +336,7 @@ Higher geometric quantization in a [[cohesive (∞,1)-topos]] over [[smooth ∞-
 
 and the examples of higher Chern-Simons theories in 
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]] _[[schreiber:Higher geometric prequantum theory]]_
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]] _[[schreiber:Higher geometric prequantum theory]]_
  {#FiorenzaSchreiber}
 
 [[!redirects higher geometric prequantization]]
