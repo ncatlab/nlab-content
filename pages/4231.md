@@ -189,17 +189,17 @@ $$
   \,.
 $$
 
-Together this generates a $J$-homotopy equivalence $f' \circ f \Rightarrow g' \circ g$.
+Together this generates a $J$-homotopy $f' \circ f \Rightarrow g' \circ g$.
 
 =--
 
 
 Hence the following is well defined.
 
-+-- {: .num_defn}
++-- {: .num_defn #JHomotopyCategory}
 ###### Definition
 
-Write $Ho_J(A)$ exists for the category whose objects are those of $PSh(A)$, and whose morphisms are $J$-homotopy equivalence classes of morphisms in $PSh(A)$. Write
+Write $Ho_J(A)$ for the category whose objects are those of $PSh(A)$, and whose morphisms are $J$-homotopy equivalence classes of morphisms in $PSh(A)$. Write
 
 $$
   Q : PSh(A) \to Ho_J(A)
@@ -209,7 +209,7 @@ for the projection functor.
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #JHomotopyEquivalence}
 ###### Definition
 
 A morphism $f : X \to Y$ in $PSh(A)$ is called a **$J$-homotopy equivalence** if it is sent by $Q$ to an [[isomorphism]].
@@ -587,7 +587,7 @@ Let $A$ be a [[small category]] and $(J, AnExt)$ a homotopical structure on $PSh
 
 * the **fibrant objects** are those $X \in PSh(A)$ for which  the [[terminal object|terminal]] morphism $X \to *$ has the [[right lifting property]] against the anodyne extensions (the morphisms in $AnExt$);
 
-* the **weak equivalences** are those morphisms $f : A \to B$, such that for all fibrant objects $X$ the induced morphism
+* the **weak equivalences** are those morphisms $f : A \to B$, such that for all fibrant objects $X$ the induced morphism in the $J$-homotopy category, def. \ref{JHomotopyCategory},
 
   $$
     Ho_J(f,X) : Ho_J(B,X) \to Ho_J(A, X)
@@ -609,7 +609,14 @@ With the classes of morphisms as in def. \ref{ModelStructureMorphismsFromHomotop
 
 ([Cisinski 06, theorem 1.3.22](#Cisinski06)).
 
-The following two statements say that the terminology introduced so far is indeed consistent with the meaning of this theorem.
++-- {: .num_prop }
+###### Proposition
+
+The [[homotopy category]] of this model category is [[equivalence of categories|equivalent]] to the [[full subcategory]] of the $J$-homotopy category, def. \ref{JHomotopyCategory}, on the fibrant objects
+
+=--
+
+Before coming to the proof of this statement, the following two statements say that the terminology introduced so far is indeed consistent with the meaning of this theorem.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -626,6 +633,32 @@ The morphisms called _acyclic fibrations_ in def. \ref{AcyclicFibration} are ind
 Every anodyne extension, def. \ref{AnodyneExtensions}, is a weak equivalence in the model structure of theorem \ref{ModelStructureFromHomotopicalStructure}.
 
 =--
+
+Now we collect lemmas to prove theorem \ref{ModelStructureFromHomotopicalStructure}.
+
+
++-- {: .num_lemma }
+###### Lemma
+
+Every $J$-homotopy equivalence, def. \ref{JHomotopyEquivalence}, is a weak equivalence.
+
+Every morphism that becomes invertible in the [[homotopy category]] is a weak equivalence.
+
+In particular, therefore, the weak equivalences satisfy the [[two-out-of-three]]-property and are stable under [[retracts]].
+
+=--
+
+([Cisinski 06, remark 1.3.24](#Cisinski06)).
+
++-- {: .proof}
+###### Proof
+
+The first statement holds by definition of $Ho_J$. 
+
+(...)
+
+=--
+
 ## Examples
 
 * The archetypical and motivating example is the standard [[model structure on simplicial sets]], which is a Cisinski model structure on the [[presheaf topos]] on the [[simplex category]].
