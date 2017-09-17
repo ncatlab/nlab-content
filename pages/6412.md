@@ -97,6 +97,15 @@ with finitely many terms to the "right" of the "decimal" point. Again such expre
 
 ## Properties
 
+### Basic properties
+
++-- {: .num_prop #InvertiblepAdic} 
+###### Proposition 
+
+An element $x\in \mathbb{Z}_p$ is invertible precisely if $x_0 \neq 0$.
+
+=--
+
 ### As a field completion
 
 [[Ostrowski's theorem]] implies there are precisely two kinds of [[complete field|completions]] of the [[rational numbers]]: the [[real numbers]] and the $p$-adic numbers.
