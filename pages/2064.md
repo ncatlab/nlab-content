@@ -71,7 +71,7 @@ As a fairly specific example, if $F$ is a [[topological vector space]] (and $C$ 
 
 ### Associated bundles 
 
-Given a right [[principal bundle|principal]] $G$-bundle $\pi: P\to X$ and a left $G$-space $F$, all in a sufficiently strong category $C$ (such as [[Top]]), one can form the [[quotient object]] $P\times_G F = (P\times F)/{\sim}$, where $P \times F$ is a [[product]] and $\sim$ is the smallest [[congruence]] such that (using [[generalized element]]s) $(p g,f)\sim (p,g f)$; there is a canonical projection $P\times_G F\to X$ where the class of $(p,f)$ is mapped to $\pi(p)\in X$, hence making $P\times_G F\to X$ into a fibre bundle with typical fiber $F$, and the transition functions belonging to the action of $G$ on $F$. We say that  $P\times_G F\to X$ is the __associated bundle__ to $P\to X$ with fiber $F$. 
+Given a right [[principal bundle|principal]] $G$-bundle $\pi: P\to X$ and a left $G$-space $F$, all in a sufficiently strong category $C$ (such as [[Top]]), one can form the [[quotient object]] $P\times_G F = (P\times F)/{\sim}$, where $P \times F$ is a [[product]] and $\sim$ is the smallest [[congruence]] such that (using [[generalized element]]s) $(p g,f)\sim (p,g f)$; there is a canonical projection $P\times_G F\to X$ where the class of $(p,f)$ is mapped to $\pi(p)\in X$, hence making $P\times_G F\to X$ into a fibre bundle with typical fiber $F$, and the transition functions belonging to the action of $G$ on $F$. We say that  $P\times_G F\to X$ is the __[[associated bundle]]__ to $P\to X$ with fiber $F$. 
 
 ## Generalizations
 
@@ -125,7 +125,6 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 [[!redirects transition function]]
 [[!redirects G-bundle]]
 [[!redirects bundle with structure group]]
-[[!redirects associated bundle]]
 [[!redirects fiber bundles]]
 [[!redirects fibre bundles]]
 [[!redirects standard fibers]]
@@ -141,7 +140,6 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 [[!redirects G-bundles]]
 [[!redirects bundles with structure group]]
 [[!redirects bundles with structure groups]]
-[[!redirects associated bundles]]
 
 [[!redirects locally trivial bundle]]
 [[!redirects locally trivial bundles]]
