@@ -62,6 +62,12 @@ In many of the simplest examples, this is taken to be the [[classifying space]] 
 
 ## Literature 
 
+An introduction to 2D TQFTs can be found in
+
+* [[Joachim Kock]], _Frobenius algebras and 2D topological quantum field theories_, No. 59 of LMSST, Cambridge University Press, 2003., (full information [here](http://mat.uab.es/~kock/TQFT.html)).
+
+Further literature includes:
+
 * [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, [arxiv/1004.2307](http://arxiv.org/abs/1004.2307)
 * D. Freed, M. Hopkins, J. Lurie, C. Teleman, [[Topological Quantum Field Theories from Compact Lie Groups]]
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]; _TQFT and the Cobordism Hypothesis_ ([video](http://www.ma.utexas.edu/video/dafr/lurie/), [notes](http://www.ma.utexas.edu/users/plowrey/dev/rtg/notes/perspectives_TQFT_notes.html))
