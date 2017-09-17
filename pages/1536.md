@@ -554,10 +554,12 @@ A [[representable functor]] $C(-,X) :  C^{op} \to Set \hookrightarrow Cat$ maps 
 
 ## References
 
-A standard textbook reference is sections A1.1.7, B1.3.1 in
+Standard references are  in
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+* sections A1.1.7, B1.3.1 of [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
+* [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_, pp. 1--104 of [[FGA explained]]; [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512).
+
 
 See also
 
