@@ -75,6 +75,13 @@ It suffices to exhibit an operation connecting any endo-path $p \in Paths(x,x)$ 
 Let $r$ be the image of $(1_x,p) \in Paths_{A\times A}((x,x),(x,x)$ under the section $d$.  This is a path in the total space $Paths_A$ lying over the path $(1_x,p)$ in $A$.  Equivalently, it is a path in the fiber over $x$ from $(1_x,p)_*(d(x,x))$ to $d(x,x)$, where $(1_x,p)_*$ denotes transport in the fibration $Paths_A \to A\times A$ along the path $(1_x,p)$.  However, we have defined $d(x,x) = q$, and transport in a path-space is just composition, so $r$ may be regarded as a path from $q p$ to $q$.  Canceling $q$, we obtain a path from $p$ to $1_x$.
 =--
 
+Not every h-set has decidable equality (unless the law of [[excluded middle]] hold), but there are some other related equivalent characterizations.
+
+* A type $A$ is an h-set if and only if all its identity types $x=_A y$ have [[split support]], i.e. $\prod_{(x,y:A)} \Vert x=y\Vert \to (x=y)$.  This is proven in [(KECA)](#KECA).
+
+* More generally, $A$ is an h-set if and only if there is some $R:A\to A\to Prop$ which is reflexive (i.e. $\prod_{(x:A)} R(x,x)$) and such that $\prod_{(x,y:A)} R(x,y) \to (x=y)$.  This is Theorem 7.2.2 in the [[HoTT Book]].
+
+
 
 ### Relation to internal sets
  {#RelationToInternalSets}
@@ -102,10 +109,12 @@ A good way to reconcile these seemingly clashing terminologies is to talk about 
 
 * Nicolai Kraus, *A direct proof of Hedberg's theorem*, [blog post](http://homotopytypetheory.org/2012/03/30/a-direct-proof-of-hedbergs-theorem/)
 
+* [[Nicolai Kraus]] and [[Martin Escardo]] and [[Thierry Coquand]] and [[Thorsten Altenkirch]], "Generalizations of Hedberg's theorem", M. Hasegawa (Ed.): TLCA 2013, LNCS 7941, pp. 173-188. Springer, Heidelberg 2013. [PDF](http://www.cs.bham.ac.uk/~mhe/papers/hedberg.pdf)
+ {#KECA}
+
 Formalization of [[set theory]] via h-sets in [[homotopy type theory]] is discussed in 
 
 * [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
-
 
 
 [[!redirects h-set]]
