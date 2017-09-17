@@ -1,6 +1,6 @@
 This is a book entry for 
 
-* Leon A. Takhtajan, _Quantum mechanics for mathematicians_, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
+* [[Leon A. Takhtajan]], _Quantum mechanics for mathematicians_, Graduate Studies in Mathematics __95__, Amer. Math. Soc. 2008.
 
 Preface, table of contents and chapters 1,2 ([pdf](http://www.ams.org/bookstore/pspdf/gsm-95-prev.pdf)) can be found at 
 
