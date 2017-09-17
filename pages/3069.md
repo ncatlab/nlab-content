@@ -46,7 +46,7 @@ According to the [[Benabou–Roubaud theorem]], the Beck--Chevalley condition  i
 
 * If $C$ is a [[regular category]] (such as a [[topos]]), the bifibration $Sub(C) \to C$ of [[subobjects]] satisfies the Beck--Chevalley condition at every pullback square.
 
-* The [[family fibration]] $Fam(C)\to Set$ of any category $C$ satisfies the Beck--Chevalley condition at every pullback square in $Set$.
+* The [[family fibration]] $Fam(C)\to Set$ of any category $C$ with small sums satisfies the Beck--Chevalley condition at every pullback square in $Set$.
 
 
 ## References
