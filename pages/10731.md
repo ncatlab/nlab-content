@@ -51,8 +51,9 @@ This is due to [Quillen 69](#Quillen69)
 +-- {: .num_remark}
 ###### Remark
 
-Moreover, there is a [[Hopf algebroid]] structure over the [[Lazard ring]]
-on the dual generalized [[Steenrod algebra]] $MU_\bullet(MU)$.
+The dual generalized [[Steenrod algebra]] $MU_\bullet(MU)$ has a structure of 
+[[Hopf algebroid over a commutative base]] which is the 
+[[Lazard ring]].
 This is the content of the [[Landweber-Novikov theorem]].
 
 =--
@@ -76,7 +77,7 @@ The original proof is due to
 
 Reviews and lecture notes include
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 4 _$B P$-Theory and the Adams-Novikov spectral sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf))
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 4 _$B P$-Theory and the Adams-Novikov spectral sequence_, [pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)
 
 * [[Jacob Lurie]], _[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf)) 
  {#LurieLect7}
