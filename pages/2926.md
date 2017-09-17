@@ -57,7 +57,7 @@ $$
 
 #### Curvature
 
-The Maurer-Cartan form is a Lie-algebra valued form with vanishin [[curvature]].
+The Maurer-Cartan form is a Lie-algebra valued form with vanishing [[curvature]].
 
 $$
   d \theta + [\theta \wedge \theta] = 0
