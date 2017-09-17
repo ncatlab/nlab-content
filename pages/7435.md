@@ -40,7 +40,7 @@ The following traditional notions of "traces" turn out to be special cases of bi
 
 A survey is in 
 
-* [[Mike Shulman]], _Traces in monoidal categories and bicategories_ (2008) ([pdf slides](http://www.math.ucsd.edu/~mshulman/papers/ccrtraces.pdf))
+* [[Mike Shulman]], _Traces in monoidal categories and bicategories_ (2008) ([pdf slides](http://home.sandiego.edu/~shulman/papers/ccrtraces.pdf))
 
 [[!redirects 2-bicategorical traces]]
 
