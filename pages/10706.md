@@ -57,6 +57,11 @@ Landwever exactness is a sufficient condition on $R$ for $MU_\bullet(-)\otimes_L
 
 Between Landweber exact spectra, every [[phantom map]] is already null-homotopic. (e.g. [Lurie lect 17, corollary 7](#Lurie)).
 
+## Related theorems
+
+* [[Lazard's theorem]]
+
+* [[Quillen's theorem on MU]]
 
 ## References
 
