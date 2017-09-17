@@ -86,9 +86,13 @@ General statements seem not to be in the literature yet, but see [this MO discus
 
 * [[compact object]]
 
+* [[compact topos]]
+
 * **compact object in an $(\infty,1)$-category**
 
 * [[relatively k-compact morphism in an (infinity,1)-category]]
+
+
 
 ## References
 
