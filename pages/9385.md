@@ -49,6 +49,8 @@ For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections
 
 * [[Galois theory]]
 
+* [[local system]]
+
 * [[constant infinity-stack]]
 
 * [[Riemann-Hilbert correspondence]]
@@ -60,3 +62,11 @@ For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections
 
 [[!redirects infinity-local system]]
 [[!redirects infinity-local systems]]
+
+[[!redirects flat (∞,1)-bundle]]
+[[!redirects flat (∞,1)-bundles]]
+
+[[!redirects flat (infinity,1)-bundle]]
+[[!redirects flat (infinity,1)-bundles]]
+
+
