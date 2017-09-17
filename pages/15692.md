@@ -64,6 +64,10 @@ The zeta function regularization method originates around
 
 and a comprehensive discussion is in ([BCEMZ 03, section 2](#BCEMZ03)).
 
+Discussion of zeta functions of Dirac operators in 2d includes
+
+* Michael McGuigan, _Riemann Hypothesis and Short Distance Fermionic Green's Functions_ ([arXiv:math-ph/0504035](http://arxiv.org/abs/math-ph/0504035))
+
 [[!redirects Feynman propagators]]
 
 [[!redirects Dirac propagator]]
