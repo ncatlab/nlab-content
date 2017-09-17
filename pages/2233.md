@@ -139,3 +139,5 @@ _Rafael_: Yes, for the merge. I think of a subsection here **construction of ETQ
 
 [[!redirects EQFT]]
 [[!redirects extended TQFT]]
+
+[[!redirects extended quantum field theory]]
