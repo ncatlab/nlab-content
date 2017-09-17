@@ -1,0 +1,34 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Supergeometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### Manifolds and cobordisms
++--{: .hide}
+[[!include manifolds and cobordisms - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _super Riemann surface_ is the analog of a [[Riemann surface]] in [[supergeometry]].
+
+## Related concepts
+
+* [[superstring]]
+
+## Reference
+
+* [[Edward Witten]], _Notes On Super Riemann Surfaces And Their Moduli_ ([arXiv:1209.2459](http://arxiv.org/abs/1209.2459))
+
+[[!redirects super Riemann surfaces]]
