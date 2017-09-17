@@ -13,23 +13,22 @@ _Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[
 
 * target space is the groupoid $\mathbf{B}G = \{ \bullet \righttoleftarrow g \;|\; g \in G \}$ obtained by [[delooping]]  from a _finite_ [[group]] $G$ ;
 
-* background field is an $n$-functor $exp(i S) : \mathbf{B} G \to \mathbf{B}^n U(1)$ 
+* background field is an $n$-functor $\alpha : \mathbf{B} G \to \mathbf{B}^n U(1)$ 
 
-  * this is the same thing as a $U(1)$-valued group $n$-cocycle $c$ on $G$;
+  * this is the same thing as a $U(1)$-valued [[group cohomology|group n-cocycle]9 $c$ on $G$;
 
-* or rather the background field is the associated functor $\mathbf{B} G \to \mathbf{B}^n U(1) \to n Vect$ for the canonical representation of $\mathbf{B}^n U(1)$ 
+* or rather the background field is the associated functor $\mathbf{B} G \to \mathbf{B}^n U(1) \to n Vect$ for the canonical representation of $\mathbf{B}^n U(1)$ on [[n-vector space]]s 
 
-  * (for this purpose often what is considered is the simple model of $n Vect$ given by $\mathbf{B}^{n-1} 1dVect_{iso}$).
-
-* parameter spaces $\Sigma = \Pi(X)$ are [[skeleton|skeleta]] of the [[fundamental groupoid]]s of $n$-dimensional manifolds $X$.
+* parameter spaces $\Sigma = \Pi(X)$ are [[skeleton|skeleta]] of the [[fundamental ∞-groupoid]]s of $n$-dimensional [[manifold]]s $X$.
 
 Therefore 
 
-* a field configuration $\Sigma  = \Pi(X) \stackrel{\phi}{\to} \mathbf{B} G$ is a $G$-bundle on $X$ (recall that $G$ is assumed to be a finite group);
+* a field configuration $\Sigma  = \Pi(X) \stackrel{\phi}{\to} \mathbf{B} G$ is a $G$-[[principal bundle]] on $X$ (recall that $G$ is assumed to be a finite group);
 
-* the action $\Pi(X) \stackrel{\phi}{\to} \mathbf{B} G \stackrel{exp(i S)}{\to} \mathbf{B}^n U(1)$ of this field configuration is the cohomology class $c(\phi)$ of this bundle under the given group cocycle;
+* the action $\Pi(X) \stackrel{\phi}{\to} \mathbf{B} G \stackrel{\alpha}{\to} \mathbf{B}^n U(1)$ of this field configuration is the [[cohomology]] class $c(\phi)$ of this bundle under the given group cocycle;
 
 * the weight in the path integral over all $\phi$ for $n$-dimensional $X$ (i.e. in codimension 0) is the [[groupoid cardinality|groupoid measure]] of the [[functor category]] $[\Pi(X), \mathbf{B}G]$.
+
 
 ## Details of DW-theory as an extended TQFT
 
@@ -49,14 +48,97 @@ To be continued...
 
 ### The $k$-vector spaces of states in codimension $k$
 
-The [[n-vector space|k-vecto space]] associated with a closed $(n-k)$-dimensional manifold $X_{n-k}$ admits a simple description in terms of [[section]]s. By the [[universal coefficient theorem]] we find that the _space of phases_ on $X_{n-k}$ is
+The [[n-vector space|k-vector space]] associated with a closed $(n-k)$-dimensional manifold $X_{n-k}$ admits a simple description in terms of [[section]]s:
+
+The background field $\alpha : \mathbf{B}G \to A$ is [[transgression|transgressed]] to the mapping space $[\Pi(X_{n-k}), \mathbf{B}G]$ by forming the [[internal hom]]
+
+$$ 
+  [\Pi(X_{n-k}), \mathbf{B}G]
+  \stackrel{[\Pi(X_{n-k}), \alpha]}{\to}
+  [\Pi(X_{n-k}), A]
+  \stackrel{\tau_{\leq k}}{\to}
+  \tau_{\leq k} [\Pi(X_{n-k}), A]
+  \,,
+$$
+
+where the last morphism is the projection on the [[truncated|k-truncation]]. This defines a [[cocycle]] on the _space of fields_ $[\Pi(X_{n-k}), \mathbf{B}G]$ over $X_{n-k}$, which classifies some [[principal ∞-bundle]] on this space. Given a canonical [[representation]] of the _spaces of phases_ $\tau_k [\Pi(X_{n-k}), A]$ on a [[n-vector space|k-vector space]] we obtain the corresponding [[associated bundle]] over the space of fields. The $(k-1)$-category assigned by the [[extended topological quantum field theory]] to the closed $X_{n-k}$ is the category of sections of this $k$-vector bundle.
+
+
++-- {: .un_prop}
+###### Proposition
+
+We have
 
 $$
-  [\Pi(X_{n-k}), \mathbf{B}^n U(1)] \simeq \mathbf{B}^k U(1)
+  \tau_k [\Pi(X_{n-k}), \mathbf{B}^n U(1)]
+  \simeq
+  \mathbf{B}^k U(1)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By general nonsense (recalled at [[cohomology]] and [[fiber sequence]], for instance) we have for the [[homotopy group]]s that
+
+\[
+  \pi_i[\Pi(X_{n-k},\mathbf{B}^n U(1)]
+  \simeq 
+  H^{n-i}(X_{n-k}, U(1))
+  \,.
+\]
+
+Now use the [[universal coefficient theorem]], which asserts that we have an [[exact sequence]]
+
+\[
+  0
+  \to 
+  Ext^1(H_{n-i-1}(X_{n-k},\mathbb{Z}),U(1))
+  \to 
+  H^{n-i}(X_{n-k},U(1))
+  \to 
+  Hom(H_{n-i}(X_{n-k},\mathbb{Z}),U(1))
+  \to 0
+  \,.
+\]
+
+Since $U(1)$ is an [[injective object|injective]] $\mathbb{Z}$-[[module]] we have 
+
+$$
+  Ext^1(-,U(1))=0
+  \,.
+$$  
+
+Together this means that we have an [[isomorphism]]
+
+\[
+  H^{n-i}(X_{n-k},U(1))
+  \simeq 
+  Hom_{Ab}(H_{n-i}(X_{n-k},\mathbb{Z}),U(1))
+\]
+
+that identifies the [[cohomology group]] in question with the [[internal hom]] in [[Ab]] from the integral [[homology]] group of $X_{n-k}$ to $U(1)$.
+
+For $i\lt k$, the right hand side is zero, and so 
+
+$$
+  \pi_i[\Pi(X_{n-k},\mathbf{B}^n U(1)]=0 \;\;\;\;
+  for i\lt k
+  \,. 
+$$ 
+
+For $i=k$, instead, $H_{n-i}(X_{n-k},\mathbb{Z})\simeq \mathbb{Z}$, since $X_{n-k}$ is a closed $(n-k)$-manifold and so 
+
+$$
+  \pi_k[\Pi(X_{n-k},\mathbf{B}^n U(1)]\simeq U(1)
   \,.
 $$
 
-This means that the [[transgression]] of the background field
+
+=--
+
+This means that the [[transgression]] of the Dijkgraaf-witten background field
 
 $$
   \alpha : \mathbf{B}G \to \mathbf{B}^n U(1)
