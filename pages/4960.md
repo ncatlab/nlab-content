@@ -171,7 +171,7 @@ is an [[epimorphism]] for all $X \in \mathcal{E}$.
 
 This is equivalent to the following condition (see the [proposition below](PiecesHavePointsEquivalentToDiscreteObjectsAreConcrete)):
 
-+-- {: .un_defn #DiscreteObjectsAreConcrete}
++-- {: .num_defn #DiscreteObjectsAreConcrete}
 ###### Definition
 
 We say that **discrete objects are concrete** in $\mathcal{E}$ if the transformation
@@ -184,7 +184,7 @@ is a [[monomorphism]] for all $S \in \mathcal{S}$ .
 
 =--
 
-+-- {: .un_defn }
++-- {: .num_defn }
 ###### Definition
 
 We say **pieces of powers are powers of pieces** if for all $S \in \mathcal{S}$ and $X \in E$ the natural morphism
@@ -197,7 +197,7 @@ is an [[isomorphism]].
 
 =--
 
-+-- {: .un_remark }
++-- {: .num_remark }
 ###### Remark
 
 This morphism is the [[internal hom]]-[[adjunct]] of 
@@ -219,7 +219,7 @@ where we use that by definition $f^*$ is [[full and faithful functor|full and fa
 
 These extra axioms are proposed in ([Lawvere, Axiomatic cohesion](#LawvereAxiomatic)). 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that 
@@ -237,7 +237,7 @@ This implies that for all $X \in \mathcal{E}$ also $f_! \Omega^X \simeq *$.
 
 This appears as axiom 2 in ([Lawvere, Categories of spaces](#LawvereCatsOfSpaces)).
 
-+-- {: .un_note}
++-- {: .num_note}
 ###### Note
 
 There is some overlap between the structures and conditions appearing here and those considered in the context of [[Q-categories]]. See there for more details.
@@ -343,7 +343,7 @@ are defined to be the equal composites of the sides of these diagrams.
 
 This appears as ([Johnstone, lemma 2.1, corollary 2.2](#Johnstone)).
 
-+-- {: .un_prop #TheEpiAndTheMono}
++-- {: .num_prop #TheEpiAndTheMono}
 ###### Proposition
 
 The following conditions are equivalent:
@@ -415,7 +415,7 @@ $(p_! \dashv p^*)$-[[zig-zag identity]].
 
 We record some relations between the various axioms characterizing cohesive toposes.
 
-+-- {: .un_prop #PiecesHavePointsEquivalentToDiscreteObjectsAreConcrete}
++-- {: .num_prop #PiecesHavePointsEquivalentToDiscreteObjectsAreConcrete}
 ###### Proposition
 
 The axioms [pieces have points](#PiecesHavePoints) and [discrete objects are concrete](#DiscreteObjectsAreConcrete) are equivalent.
@@ -424,7 +424,7 @@ The axioms [pieces have points](#PiecesHavePoints) and [discrete objects are con
 
 This is just a reformulation of the [above proposition](#TheEpiAndTheMono).
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 A [[sheaf topos]] that
@@ -447,7 +447,7 @@ also is
 
 The statement of the first items appears as ([Johnstone, prop. 1.6](#Johnstone)). The last item is then a consequence by definition.
 
-+-- {: .un_prop #HyperconnectivityAndPiecesHavePoints}
++-- {: .num_prop #HyperconnectivityAndPiecesHavePoints}
 ###### Proposition
 
 For a [[sheaf topos]] the condition that it
@@ -470,6 +470,21 @@ is equivalent to the condition that it
 
 This is ([Johnstone, theorem 3.4](#Johnstone)).
 
+### Subcategories of discrete and codiscrete objects
+
++-- {: .num_prop }
+###### Proposition
+
+The [[reflective subcategories]] of discrete objects and of codiscrete objects are both [[exponential ideals]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the discussion at [[exponential ideal]] a reflective subcategories of a [[cartesian closed category]] is an exponential ideal precisely if the [[reflector]] preserves [[products]]. For the codiscrete objects the reflector $\Gamma$ preserves even all [[limits]] and for the discrete objects the reflector $\Pi$ does so by assumotion of strong connectedness.
+
+=--
 
 ### Quasitoposes of concrete objects 
   {#ConcreteObjects}
@@ -477,7 +492,7 @@ This is ([Johnstone, theorem 3.4](#Johnstone)).
 A cohesive topos comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. We discuss some of these.
 
 
-+-- {: .un_lemmaa}
++-- {: .num_lemmaa}
 ###### Observation
 
 For $(\Pi \dashv \Disc \dashv \Gamma \dashv coDisc) :  \mathcal{E} \to Set$ a cohesive topos, $(\Gamma \dashv coDisc)$ exhibits $Set$ as a [[subtopos]]
@@ -497,7 +512,7 @@ By general properties of [[local topos]]es. See there.
 
 =--
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 The category $Set$ is equivalent to the full [[subcategory]] of $\mathcal{E}$ on those objects $X \in \mathcal{E}$ for which the $(\Gamma \dashv coDisc)$ [[unit of an adjunction|unit]]
@@ -517,7 +532,7 @@ By general properties of [[reflective subcategories]]. See there for details.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 An object $X$ of the cohesive topos $\mathcal{E}$ for which $X \to coDisc \Gamma X$ is a [[monomorphism]] we call a **concrete object**. 
@@ -531,7 +546,7 @@ for the [[full subcategory]] on concrete objects.
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The functor $\Gamma : \mathcal{E} \to Set$ is a [[faithful functor]] on morphisms $(X \to Y) \in \mathcal{E}$ precisely if $Y$ is a concrete object.
@@ -570,7 +585,7 @@ The condition that $Y$ is a concrete object, hence that $Y \to coDisc \Gamma Y$ 
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This means that in the formal sense discussed at [[stuff, structure, property]] we may regard $Conc(\mathcal{E})$ as a category of sets _equipped with cohesive structure_ .
@@ -578,7 +593,7 @@ This means that in the formal sense discussed at [[stuff, structure, property]] 
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -600,7 +615,7 @@ which must correspond to another [[coverage]] $K$:  $Set \simeq Sh_K(C)$. Since 
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Precisely if the cohesive topos $\mathcal{E}$ satisfies the axiom _discrete objects are concrete_ (saying that for all $S \in Set$ the canonical morphism $Disc S \to coDisc \Gamma Disc S \simeq coDisc S$ is a [[monomorphism]]) then $Conc(\mathcal{E})$ is a **cohesive quasitopos** in that we have a quadrupled of [[adjoint functor]]s.
@@ -629,7 +644,7 @@ Since by reflectivity [[limit]]s in $Conc(\mathcal{E})$ may be computed in $\mat
 ### Objects with one point per cohesive piece
  {#ObjectsWithOnePointPerCohesivePiece}
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 
@@ -847,7 +862,7 @@ $$
   \,.
 $$
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 If $C$ has a [[terminal object]] $*$ then 
@@ -902,7 +917,7 @@ Here the first step is the expression of [[natural transformation]]s by [[end]]-
 
 The formal dual of this statement is the following.
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Corollary
 
 If $C$ has an [[initial object]] $\emptyset$ then 
@@ -918,7 +933,7 @@ If $C$ has an [[initial object]] $\emptyset$ then
 
 In summary we have
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Proposition
 
 If $C$ has both an [[initial object]] $\emptyset$ as well as a [[terminal object]] $*$ then there is a quadruple of adjoint functors
@@ -955,7 +970,7 @@ $$
 
 #### Reflexive directed graphs {#Graphs}
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The category $RDGraph$ of reflexive [[directed graphs]] is a cohesive topos. 
@@ -968,7 +983,7 @@ This example was considered in ([Lawvere, Categories of spaces](#LawvereCatsOfSp
 
 We spell out some details on the cohesive topos of reflexive directed graphs.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let $\mathbf{B}End(\Delta[1])$ be the one-object category coming from the [[monoid]] with three [[idempotent]] elements $\{Id, \sigma, \tau\}$
@@ -1020,7 +1035,7 @@ In fact this is the [[Cauchy completion]] of $\mathbf{B}End(\Delta[1])$, obtaine
 
 In summary this shows that
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 We have an [[equivalence of categories]]
@@ -1058,7 +1073,7 @@ The canonical morphism $\Gamma X \to \Pi_0 X$ sends each vertex to its connected
 Reflexive directed graphs are equivalently [[simplicial skeleton|skeleta]] of 
 [[simplicial set]]s.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The category [[sSet]] of simplicial sets is a cohesive topos in which _cohesive pieces have points_ . 
@@ -1094,7 +1109,7 @@ $$
 
 A class of examples is obtained from toposes over a [[cohesive site]]:
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 Let $C$ be a [[cohesive site]]. The [[sheaf topos]] $Sh(C)$ is cohesive.
@@ -1105,14 +1120,14 @@ See [[cohesive site]] for examples.
 
 #### Diffeological spaces
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The site [[CartSp]] with the standard [[open cover]] [[coverage]] is a [[cohesive site]] and even an [[(∞,1)-cohesive site]]. 
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The quasitopos $Conc(Sh(CartSp))$ of [concrete objects](#ConcreteObjects)
@@ -1149,7 +1164,7 @@ This being a monomorphism is precisely the condition on $X$ being a [[concrete s
 
 #### Smooth toposes
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The site [[ThCartSp]] with the standard [[open cover]] [[coverage]] is a [[cohesive site]] and even an [[(∞,1)-cohesive site]]. 
@@ -1164,7 +1179,7 @@ The corresponding cohesive topos is the [[Cahiers topos]] $ \simeq Sh(ThCartSp)$
 
 ### Cohesive over-toposes
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $\mathcal{E}$ be a cohesive topos and $X \in \mathcal{E}$ an object. 
@@ -1186,7 +1201,7 @@ See the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#FormalSm
 
 ### Counter-examples {#CounterExamples}
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Counter-Example
 
 Let $G$ be a non-trivial [[finite group]] of [[cardinality]] $n$. Write $\mathbf{B}G = \{\bullet \stackrel{g}{\to} \bullet | g \in G\}$ for its [[delooping]] [[groupoid]]. The [[presheaf topos]]
