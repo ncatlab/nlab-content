@@ -13,10 +13,10 @@ As for the big site notion, the _Zariski topology_ is a [[coverage]] on the [[op
 
 For $R$ a commutative [[ring]], write $Spec R \in CRing^{op}$ for its incarnation in the [[opposite category]].
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
-A family of morphisms $\{Spec A_i \to Spec R\}$ in $CRing^{op}$ is a Zariski-[[covering]] precisely if 
+A family of [[morphisms]] $\{Spec A_i \to Spec R\}$ in $CRing^{op}$ is a Zariski-[[covering]] precisely if 
 
 * each ring $A_i$ is the [[localization]]
 
@@ -62,14 +62,14 @@ The [[sheaf topos]] over this [[site]] is the [[big topos]] version of the  **Za
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The Zariski coverage is [[subcanonical coverage|subcanoncial]].
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 
@@ -90,6 +90,8 @@ See [[classifying topos]] and [[locally ringed topos]] for more details on this.
 ## Related concepts
 
 [[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ [[Nisnevich site]] $\to$ **Zariski site**
+
+* [[spectrum of a commutative ring]]
 
 ## References
 
