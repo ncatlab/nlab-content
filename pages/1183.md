@@ -26,18 +26,32 @@
 
 
 ## Idea
+ {#Idea}
 
-A _$\sigma$-model_ is a [[quantum field theory]]  whose fields are maps from a _[[worldvolume]]_ $\Sigma$ into some _[[target space]]_ that carries some geometric structure -- usually a [[background gauge field]] given by a [[connection on an infinity-bundle]] generally or a cocycle in abelian [[differential cohomology]] more specifically.
+A _$\sigma$-model_ is a particular kind of [[classical field theory]], which induces its quantization to a [[quantum field theory]].  The basic data describing a specific $\sigma$-model is some kind ot "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of fields" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is like an an $X$-valued [[function]] on $\Sigma$.
 
-One way to make this precise for _topological_ $\sigma$-models is to say that target space $X$, or possibly the gauge bundle $P \to X$ over it, [[representable functor|represents]] an functor that sends [[cobordism]] [[cospan]]s to [[span]]s which in turn are taken to act by pull-push on the quantum states, which are objects in [[geometric infinity-function theory]] living over the mapping spaces $[\Sigma, P]$. (...)
+We assign a [[dimension]] $n \in \mathbb{N}$ to our $\sigma$-model, take $dim \Sigma \leq n$ and assume that [[target space]] $X$ is equipped with a "[[circle n-bundle with connection]]".  
 
-### Physical interpretation 
+For $n = 1$ this is an ordinary [[circle bundle]] [[connection on a bundle|with connection]] and models a configuration of the [[electromagnetic field]] on $X$. To distinguish this "field" on $X$ from the fields on $\Sigma$ we speak of a _[[background gauge field]]_. (This remains fixed background data unless and until we pass to _[[second quantization]]_ .) A field configuration $\Sigma \to X$ on $\Sigma$ models a trajectory of a [[charge]]d particle subject to the [[force]]s exerted by this background field.
 
-$\sigma$-model quantum field theories on [[worldvolume]] $\Sigma$ of top dimension $n+1$ are to be thought of as encoding the quantum mechanics of the propagation of an $n$-dimensional particle, called an _$(n-1)$-[[brane]]_, in [[target space]] $X$, subject to [[force]]s imposed on it by the [[background gauge field]], under which it is said to be _[[charge]]d_.
+For $n = 2$, a circle $n$-bundle with connection is a [[circle n-group|circle 2-group]] [[principal 2-bundle]] or equivalently a [[bundle gerbe]] with connection. This models a "higher electromagnetic field" called a [[Kalb-Ramond field]]. Now $\Sigma$ is taken to be 2-dimensional and a map $\Sigma \to X$ models the trajectory of a [[string]] on $X$, subject to forces exerted on it by this higher order field.
 
-These cases describe non-topological quantum field theories. Here the formalization of the notion of $\sigma$-model is not entirely complete. Yet.
+This pattern continues. In the next dimension a [[membrane]] with 3-dimensional [[worldvolume]] is charged under a [[circle n-bundle with connection|circle 3-bundle]] with connection, for instance something called the [[supergravity C-field]].
 
-### Terminology and history
+While one can speak of [[principal ∞-bundles|higher bundles]] in full generality and full analogy to ordinary [[principal bundle]]s, it is useful to observe that any circle $n$-bundle is characterized by a classifying map $\alpha : X \to \mathbf{B}^n U(1)$ in our category of [[space]]s, so we can just think about classifying maps instead.  Here $U(1)$ is the [[circle group]], and $\mathbf{B}^n$ denotes its $n$th [[delooping]]; thus such a map is also a sort of [[cocycle]] in "smooth $n$th [[cohomology]] of $X$ with coefficients in $U(1)$". The additional data of a _connection_ refines this to a cocycle in [[ordinary differential cohomology|differential cohomology]] of $X$.
+
+Such connection data $\nabla$ on a circle $n$-bundle defines -- and is defined by -- a notion of [[higher parallel transport]] over $n$-dimensional trajectories: for closed $n$-dimensional $\Sigma$ it defines a map $hol : (\gamma : \Sigma \to X) \mapsto \exp(i \int_\Sigma \gamma^*\nabla) \in U(1)$ that sends trajectories to elements in $U(1)$: the [[holonomy]] of $\nabla$ over $\Sigma$, given by [[integration]] of local data over $\Sigma$. The local data being integrated is called the _[[Lagrangian]]_ of the $\sigma$-model. Its integral is called the [[action functional]]. 
+
+In the _[[QFT|quantum]]_ $\sigma$-model one considers in turn the integral of the [[action functional]] over all of [[configuration space]]: the "[[path integral]]". In the _classical $\sigma$-model_ one considers only the [[critical locus]] of the action functional (where the rough idea is that the path integral to some approximation localizes around the critical locus). Points in this critical locus are said to be configurations that satisfy the "[[Euler-Lagrange equations]] of motion". These are supposed to be the physically realized trajectories among all of them, in the classical approximation.
+
+Finally, just like an ordinary [[circle group]]-[[principal bundle]] has an [[associated bundle|associated]] [[vector bundle]] once we fix a [[representation]] of $U(1)$ to be the [[fiber]]s, any "[[circle n-bundle]]" has an associated "[[n-vector bundle]]" once we fix a "[[∞-representation]]" $\rho : \mathbf{B}^n U(1) \to n Vect$ on "[[n-vector spaces]]".  Just as for the ordinary $U(1)$, here we usually pick the canonical 1-dimensional such "representation".  Finally, we define bundles $V_\Sigma : Conf_\Sigma \to \mathcal{C}$ of "internal states" by [[transgression]] of these associated bundles.
+
+The passage from [[principal ∞-bundle]]s to [[associated ∞-bundle]]s is necessary for the description of the quantum $\sigma$-model: it assigns in positive codimension spaces of [[section]]s of these associated bundles. For a 1-categorical description of the resulting [[QFT]] ordinary vector bundles (assigned in codimension 1) would suffice, but the $\sigma$-model should determine much more: an [[extended quantum field theory]]. This requires sections of higher vector bundles. For instance for $n = 2$ some boundary conditions of the $\sigma$-model are given by sections of the background [[n-vector bundle|2-vector bundle]]: these are the [[twisted bundle|twisted vector bundles]] known as the [[Chan-Paton bundles]] on the [[boundary]]-[[D-brane]]s of the [[string]]. (...)
+
+We now try to fill this with life by spelling out some standard examples. Further [below](Exposition) we look at precise formalizations of the situation.
+
+
+## Terminology and history
  {#TerminologyAndHistory}
 
 In physics one tends to speak of a _model_ if one specifies a particular [[quantum field theory]] for describing a particular situation, for instance by specifying a [[Lagrangian]] or [[local action functional]] on some [[configuration space]]. This is traditionally not meant in the mathematical sense of _[[model]]_ of some [[theory]]. But in light of progress of mathematically formalizing [[quantum field theory]] (see [[FQFT]] and [[AQFT]]), it can with hindsight be interpreted in this way: 
@@ -55,24 +69,12 @@ In [[string theory]] one considers 2-[[dimension]]al $\Sigma$ and thinks of maps
 
 In the context of [[11-dimensional supergravity]] there is a $\sigma$-model with 3-dimensional $\Sigma$, describing the propagation of a [[membrane]] in [[spacetime]].
 
+
 ## Exposition of classical sigma-models
  {#ExpositionClassical}
 
 We survey, starting from the very basics, [[classical field theory]] aspects of $\sigma$-models that describe dynamics of [[particle]]s, [[strings]]s and [[brane]]s on geometric [[target space]]s.
 
-We are going to build a particular kind of [[classical field theory]], and call it a _classical $\sigma$-model.  We start by assuming we have some "[[space]]" $X$, in a [[category]] of "[[spaces]]" which includes [[smooth manifolds]].  We call $X$ the [[target space]], and we define the "[[configuration space]] of fields" $Conf_\Sigma$  over a manifold $\Sigma$ to be the [[mapping space]] $Map(\Sigma, X)$.  That is, a "configuration of fields" over a manifold $\Sigma$ is just like an an $X$-valued [[function]] on $\Sigma$.
-
-We assign a [[dimension]] $n \in \mathbb{N}$ to our $\sigma$-model, take $dim \sigma \leq n$ and assume that [[target space]] $X$ is equipped with a "[[circle n-bundle with connection]]".  
-
-For $n = 1$ this is an ordinary [[circle bundle]] [[connection on a bundle|with connection]] and models an [[electromagnetic field]] configuration on $X$. To distinguish this "field" on $X$ from the fields on $\Sigma$ we speak of a [[background gauge field]]. A field configuration $\Sigma \to X$ on $\Sigma$ models a trajectory of a charged particle subject to the forces excerted by this background field.
-
-For $n = 2$, a circle $n$-bundle with connection is a [[circle n-group|circle 2-group]] [[principal 2-bundle]] or equivalently a [[bundle gerbe]] with connection. This models a "higher electromagnetic field" called a [[Kalb-Ramond field]]. Now $\Sigma$ is taken to be 2-dimensional and a map $\Sigma \to X$ models the trajectory of a [[string]] on $X$, subject to forces excerted on it by this higher order field.
-
-While one can speak of [[principal ∞-bundles|higher bundles]] in full generality and full analogy to ordinary [[principal bundle]]s, it is useful to observe that any circle $n$-bundle is characterized by a classifying map $\alpha : X \to \mathbf{B}^n U(1)$ in our category of [[space]]s, so we can just think about classifying maps instead.  Here $U(1)$ is the [[circle group]], and $\mathbf{B}^n$ denotes its $n$th [[delooping]]; thus such a map is also a sort of [[cocycle]] in "smooth $n$th [[cohomology]] of $X$ with coefficients in $U(1)$". The additional data of a _connection_ refines this to a cocycle in [[ordinary differential cohomology|differential cohomology]] of $X$.
-
-Now, just like an ordinary [[circle group]]-[[principal bundle]] has an [[associated bundle|associated]] [[vector bundle]] once we fix a [[representation]] of $U(1)$ to be the [[fiber]]s, any "[[circle n-bundle]]" has an associated "[[n-vector bundle]]" once we fix a "[[∞-representation]]" $\rho : \mathbf{B}^n U(1) \to n Vect$ on "[[n-vector spaces]]".  Just as for the ordinary $U(1)$, here we usually pick the canonical 1-dimensional such "representation".  Finally, we define bundles $V_\Sigma : Conf_\Sigma \to \mathcal{C}$ of "internal states" by [[trangression]] of these associated bundles.
-
-We now try to fill this with life by spelling out some standard examples. Further [below](Exposition) we look at precise formalizations of the situation.
 
 ### The Newtonian particle
  {#ExpositionNewtonianParticle}
@@ -214,7 +216,7 @@ $$
   \,,
 $$
 
-where in the second term we have the [[cross product]] of vectors in $\mathbb{R}^3$. The [[force]] on the right is the _[[Lorentz force]]_ excerted by an electromagnetic field on a charged particle.
+where in the second term we have the [[cross product]] of vectors in $\mathbb{R}^3$. The [[force]] on the right is the _[[Lorentz force]]_ exerted by an electromagnetic field on a charged particle.
 
 Notice that the equations of motion imply, generally, that the [[norm]] of $\dot \gamma$ is constant along the trajectory
 
