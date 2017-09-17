@@ -4,7 +4,7 @@ A Hopf algebra is a generalization of:
 
 * the [[group algebra]] of a [[group]]
 
-* the algebra of functions on a finite group, and more generally, the algebra of regular function on an affine algebraic $k$-group
+* the algebra of functions on a finite group, and more generally, the algebra of regular functions on an affine algebraic $k$-group
 
 * the [[universal enveloping algebra]] of a [[Lie algebra]]
 
