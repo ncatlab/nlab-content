@@ -14,14 +14,17 @@
 * table of contents
 {: toc}
 
-## Character on a group
+
+## Definition
+
+### Character on a group
 
 There are many notions of a character for an algebraic structure, often topologized. A character on the [[group]] $G$ is a [[homomorphism]] into the group of units (invertible elements) of the [[ground field]]. Regarding that the codomain is abelian, the set of characters is an abelian group under the pointwise multiplication.
 
 For [[topological groups]] one considers continuous characters. Specifically, for a [[locally compact Hausdorff]] group $G$ (often further assumed to be an [[abelian group]]), a __character__ of $G$ is continuous homomorphism to the [[circle]] group $\mathbb{R}/\mathbb{Z}$. If $G$ is [[profinite group|profinite]], then this is the same as an continuous homomorphism to the [[discrete space|discrete]] group $\mathbb{Q}/\mathbb{Z}$.  (See [MO](http://mathoverflow.net/questions/86089/two-definitions-of-character-of-topological-groups).)
 
 
-## Character of a representation
+### Character of a representation
 
 In [[representation theory]], one defines the character of a representation $\rho\colon G\to End(V)$ to be the function on $G$ given by $g \mapsto Tr \rho(g)$, whenever the [[trace]] in $V$ makes sense (e.g. when $V$ is finite-dimensional).  Since such a function is invariant under conjugation, we may equivalently consider it a function on the set of conjugacy classes of elements in $G$.
 
@@ -31,7 +34,7 @@ There is a different notion of an _infinitesimal character_ in [[Harish–Chandr
 
 There are important formulas concerning characters in representation theory, like Weyl character formula, Kirillov character formula, Demazure character formula and so on.  There is also a formula for the [[induced character]] of an [[induced representation]].
 
-## Left and right characters on a ring over a ring
+### Left and right characters on a ring over a ring
 
 Let $A$ be a unital, not necessarily commutative, [[ring]] (or, more generally, $k$-algebra for $k$-commutative); then a monoid in a category of $A$-bimodules (which are respectively also compatibly $k$-modules), is called an $A$-ring. In other words an $A$-ring $B$ is an object in the [[coslice category]] $A\Ring$; it is thus a ring $B$ equipped with multiplication $\mu_B$ and a map $\eta: A\to B$ of rings. 
 
@@ -61,10 +64,20 @@ $\chi(b\eta(a)) = \chi(b)a$ for all $a\in A$, $b\in B$
 
 This is in turn equivalent to extending the right regular action of $A$ to the action of $B$ on $A$.
 
-## Character of a topological space
+
+### Character of a topological space
 
 The character $\chi(X,x)$ of a [[topological space]] $X$ at a point $x$ is the minimal cardinality of a local basis of neighborhoods of point $x$ (local [[topological basis|basis of topology]] on $X$) if it is infinite and aleph zero otherwise. The character of a topological space is the supremum of $\chi(X,x)$ when $x$ runs through $X$. 
 
+
+
+## Related concepts
+
+* [[Weyl character formula]]
+
+* [[Kac character formula]]
+
+* [[Cheeger-Simons differential character]]
 
 [[!redirects character]]
 [[!redirects characters]]
