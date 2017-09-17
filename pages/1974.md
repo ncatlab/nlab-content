@@ -216,3 +216,8 @@ In
 see
 
 * section 2: _The Grothendieck group $K_0$_ ([pdf](http://www.math.rutgers.edu/~weibel/Kbook/Kbook.II.pdf))
+
+[[!redirects group completion]]
+[[!redirects group completions]]
+
+[[!redirects Grothendieck groups]]
