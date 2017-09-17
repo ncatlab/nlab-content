@@ -15,7 +15,7 @@
 
 ## Definition
 
-In the context of [[geometric quantization]] of a [[symplectic manifold]] $(X, \omega)$ equipped with a choice of [[prequantum line bundle]] $(E,\nabla)$, a [[Lagrangian submanifold]] $Q \hookrigtharrow X$ of a [[symplectic manifold]] is called a _Bohr-Sommerfeld leaf_ if the prequantum [[circle bundle]] $E|_Q$ restricted to $Q$ has not only vanishing [[curvature]] but is also trivializable as a [[circle bundle]]. Such a trivializaton as a circle bundle with connection is given by a [[covariant derivative|covariantly constant]] [[section]]. 
+In the context of [[geometric quantization]] of a [[symplectic manifold]] $(X, \omega)$ equipped with a choice of [[prequantum line bundle]] $(E,\nabla)$, a [[Lagrangian submanifold]] $Q \hookrightarrow X$ of a [[symplectic manifold]] is called a _Bohr-Sommerfeld leaf_ if the prequantum [[circle bundle]] $E|_Q$ restricted to $Q$ has not only vanishing [[curvature]] but is also trivializable as a [[circle bundle]]. Such a trivializaton as a circle bundle with connection is given by a [[covariant derivative|covariantly constant]] [[section]]. 
 
 ## Examples
 
