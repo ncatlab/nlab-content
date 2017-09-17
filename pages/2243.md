@@ -64,11 +64,11 @@
 
   * [[locally constant ∞-stack|covering ∞-bundle]]/[[local system]]
 
-  * [[schreiber:∞-vector bundle]]
+  * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
 
   * [[quantum anomaly]]
 
-    * [[Spin structure]], [[String structure]], [[Fivebrane structure]]
+    * [[orientation]], [[Spin structure]], [[String structure]], [[Fivebrane structure]]
 
 * [[cohomology with constant coefficients]] / [[cohomology with a local system of coefficients|with a local system of coefficients]]
 
