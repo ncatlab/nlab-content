@@ -16,7 +16,7 @@
 
 ## Definition
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 The **framed little 2-disk operad** is the [[operad]] $fD_2$ in [[Top]] whose [[topological space]] $fD_2(n)$ of $n$-ary operations is the space of maps
@@ -36,7 +36,7 @@ from $n$-copies of the 2-[[ball]] to itself, which restrict on each component to
 of the disk (regarded via its standard [[embedding]] $D \hookrightarrow \mathbb{R}^2$ into the 2-simensional [[Cartesian space]]) such that the images of all disks are disjoint.
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 This differs from the [[little 2-disk operad]] by the fact that rotations of the disks are admitted. Under passing to chains and then to [[homology]], this operation gives rise to the BV-operator in a [[BV-algebra]]. See [Properties](#Properties) below.
@@ -46,7 +46,7 @@ This differs from the [[little 2-disk operad]] by the fact that rotations of the
 ## Properties {#Properties}
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The [[homology]] of the framed little 2-disk operad in chain complexes is the [[BV-operad]] $BV$ the operad for [[BV-algebra]]s:
@@ -61,7 +61,7 @@ $$
 
 This is due to ([Getzler](#Getzler)).
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 The framed little disk operad is [[formal dg-algebra|formal]]. 
@@ -85,14 +85,14 @@ This is due to ([Giansiracusa-Salvatore-Severa 09)](#Giansiracusa-Salvatore-Seve
 
 Accordingly one makes the following definition:
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 The operad for [[homotopy BV-algebra]]s is any cofibrant [[resolution]] of $BV \simeq  H_\bullet(fD_2)$, or equivalently of $C_\bullet(fD_2)$.
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Write $R \beta_j$ for the [[ribbon braid group]] on $j$ elements and $P R \beta_j$ for the [[kernel]] of the surjection $R \beta_j \to \Sigma_j$ onto the [[symmetric group]].
@@ -101,7 +101,7 @@ Say that a [[ribbon operad]] $P$ is an **$R_\infty$-operad** if the [[ribbon bra
 
 =--
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 
@@ -116,6 +116,10 @@ This is ([Wahl, lemma 1.5.17](#Wahl)).
 * **framed little 2-disk operad**
 
 * [[framed little n-disk operad]]
+
+* [[BD operad]]
+
+[[!include deformation quantization - table]]
 
 ## References
 
