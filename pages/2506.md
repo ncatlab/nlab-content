@@ -13,7 +13,13 @@ The announcement of the change and the reasons for it have been [archived](http:
 
 ***
 
+## 2010-03-27
+
+* _Rafael_: Commented on [[database of categories]]. I will continue to log my changes here and i don't even feel to argue about it.
+
+
 [[2008 changes|First list]] --- [[2009 September changes|Previous list]] --- No next list --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
+
 
 ***
 
