@@ -63,6 +63,8 @@ Some rigs which are neither rings nor distributive lattices include:
 
 ## Related concepts
 
+* [[rng]] ([[nonunital ring]])
+
 * [[ring]], [[near-ring]]
 
 * [[tropical geometry]]
