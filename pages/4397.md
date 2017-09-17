@@ -10,7 +10,7 @@ Much as a [[topological structure]] on a [[set]] is a notion of which [[subsets]
 
 ## Definitions
 
-So far, we only discuss [[bornological topological vector spaces]].
+So far, we only discuss [[bornological topological vector spaces]].  See [[bornological set]] for the general notion of bornological space.
 
 However, we can tell that bornological spaces and certain [[morphisms]] between them form a [[category]] $Born$.
 
