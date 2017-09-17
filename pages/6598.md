@@ -32,7 +32,7 @@
 
   * [[symplectic gradient]]
 
-* [[moment map]]
+* [[Hamiltonian action]], [[moment map]]
 
 * [[isotropic submanifold]], [[Lagrangian submanifold]], [[polarization]]
 
