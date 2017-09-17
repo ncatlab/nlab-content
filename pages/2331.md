@@ -237,7 +237,7 @@ __253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9);
 
 * M. Artin, _Deformations of singularities_, TATA Lecture Notes vol. 54.
 
-* M. Artin, _Versal deformations and Algebraic stacks_, Invent. Math. 1974
+* M. Artin, _Versal deformations and algebraic stacks_, Invent. Math. 1974
 
 * K. Kodaira, L. Nirenberg, D. C. Spencer, _On the existence of deformation of complex analytic structures_, Ann. Math. __68__, 450-459 (1958). 
 
@@ -247,4 +247,4 @@ __253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9);
 
 * B. Osserman, _Deformation theory and moduli in algebraic geometry_, [pdf](http://www.msri.org/people/members/defthy07/lectures/brian.pdf)
 
-* [[Robbin Hartshorne]], _Deformation theory_, Grad. texts in math. Springer 2010,  viii+234 pp. (draft of the chap. I-IV: [pdf](http://math.berkeley.edu/~robin/math274root.pdf)), [gBooks](http://books.google.hr/books?id=bwhEX01JlXkC&lpg=PP1&ots=2zkSvT3Bvz&dq=Robin%20Hartshorne%20deformation%20theory&pg=PP1#v=onepage&q&f=false), [doi](http://dx.doi.org/10.1007/978-1-4419-1596-2)
+* [[Robin Hartshorne]], _Deformation theory_, Grad. texts in math. Springer 2010,  viii+234 pp. (draft of the chap. I-IV: [pdf](http://math.berkeley.edu/~robin/math274root.pdf)), [gBooks](http://books.google.hr/books?id=bwhEX01JlXkC&lpg=PP1&ots=2zkSvT3Bvz&dq=Robin%20Hartshorne%20deformation%20theory&pg=PP1#v=onepage&q&f=false), [doi](http://dx.doi.org/10.1007/978-1-4419-1596-2)
