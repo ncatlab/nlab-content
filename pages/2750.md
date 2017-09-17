@@ -16,7 +16,7 @@ The things $a$ and $b$ are called the __components__ of the ordered pair $(a,b)$
 One may wish to declare ordered pairs to exist by fiat, which was done, for example, by both [[Bourbaki]] and [[Bill Lawvere]].  In Bourbaki\'s foundational [[set theory]], $\langle{-,-}\rangle$ is a fundamental binary operation on mathematical objects satisfying two axioms: \eqref{basic} and the existence (as a set) of the Cartesian product of any two sets.  In Lawvere\'s foundational set theory, [[ETCS]], one axiom is the existence of [[products]] in the category of sets; when applied to [[global elements]], this gives their ordered pair (with the product itself being the Cartesian product), and \eqref{basic} can be proved.  Other [[structural set theories]] should contain an axiom similar to Lawvere\'s axiom of products.
 
 +-- {: .query}
-I need to check that I remembered Bourbaki correctly.  ---Toby
+I need to check that I remembered Bourbaki correctly; it varies with the edition.  ---Toby
 =--
 
 Instead, one may construct ordered pairs out of some more basic operation.  In a [[material set theory]], one may use Kuratowski\'s definition
@@ -30,11 +30,12 @@ In a foundational [[type theory]], ordered pairs are usually also given by fiat,
 
 ## Generalisations
 
-... tuples ...
+... [[tuple]]s ...
 
-... pairings ...
+... [[pairings]] ...
 
-... dependent sums ...
+... [[dependent sums]] ...
 
 
+[[!redirects ordered pair]]
 [[!redirects ordered pairs]]
