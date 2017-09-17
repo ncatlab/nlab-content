@@ -154,6 +154,8 @@ $$
 
 * [[differential cohesion]]
 
+* [[differential cohesion and idelic structure]]
+
 ## References
 
 The notion of infinitesimal cohesion appears under the name "quality type" in def. 1 of 
