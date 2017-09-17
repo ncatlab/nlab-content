@@ -46,11 +46,11 @@ In fact it was Gerstenhaber who coined the term 'pre-Lie algebra', for this reas
 
 Connes and Kreimer formalized the process of [renormalization](http://ncatlab.org/nlab/show/renormalization#hopfalgebraic_renormalization_3) using a certain [Hopf algebra] built from Feynman diagrams.  More abstractly we can understand the essence of their construction using a Hopf algebra built from rooted trees, as explained here:
 
-* John Baez, [This Week's Finds in Mathematical Physics (Week 299)](http://math.ucr.edu/home/baez/week299.html)
+* John Baez, [This Week's Finds in Mathematical Physics (Week 299)](http://math.ucr.edu/home/baez/week299.html) (which does not exist yet!)
 
 The key is to form the free pre-Lie algebra on one generator, then turn this into a Lie algebra as described above, and then form the universal enveloping of that, which is a cocommutative Hopf algebra.  Finally, the restricted dual of this cocommutative Hopf algebra is the commutative Hopf algebra considered by Connes and Kreimer here:
 
-* Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and noncommutative geometry, _Commun. Math. Phys._ **199** (1998), 203-242.  ([arXiv](http://arxiv.org/abshep-th/9808042))
+* Alain Connes and Dirk Kreimer, Hopf algebras, renormalization and noncommutative geometry, _Commun. Math. Phys._ **199** (1998), 203--242 ([arXiv](http://arxiv.org/abs/hep-th/9808042))
 
 Pre-Lie algebras are algebras of a [[linear operad]] called $PL$.  The space $PL_n$ has a basis given by labelled rooted [[trees]] with $n$ vertices, and the $i$th partial composite $s \circ_i t$ is given by summing all the possible ways of inserting the tree $t$ inside the tree $s$ at the vertex labelled $i$.  For details see:
 
