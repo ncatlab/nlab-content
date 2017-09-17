@@ -52,6 +52,10 @@ For a simple abstract (non-computational) definition of a notion of doctrine, pe
 * [[Frédéric Paugam]]: Chapter 1 of
 [Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
 
-Other reference:
+Other references:
 
 * [Algebraic Geometry for Category Theorists (blog post)](http://golem.ph.utexas.edu/category/2009/06/algebraic_geometry_for_categor.html)
+
+* [Doctrines by Dolan and Baez](http://ncatlab.org/johnbaez/show/Doctrines)
+
+* [A duality relative to a limit doctrine](http://www.emis.de/journals/TAC/volumes/10/20/10-20abs.html) by C. Centazzo and E.M. Vitale 
