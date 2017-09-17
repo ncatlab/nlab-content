@@ -62,9 +62,9 @@ There are several systems of formal logic with several specific implementations 
 
 Under the [[categorical semantics]] of [[homotopy type theory]]
 sequents in the type theory pretty accurately corrsepond to 
-[[morphisms]] in the [[(∞,1)-topos]]. We indicate how this works, for type declarations, the for terms of [[dependent types]].
+[[morphisms]] in the [[(∞,1)-topos]]. We indicate how this works, first for type declarations, then for terms of [[dependent types]].
 
-Let $\mathb{H}$ be an [[(∞,1)-topos]]. Write $Type \in \mathbf{H}$ for the [[universe in a topos|internal universe]] of  [[small objects]] of $\mathbf{H}$, called the _[[object classifier]]_. 
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Write $Type \in \mathbf{H}$ for the [[universe in a topos|internal universe]] of  [[small objects]] of $\mathbf{H}$, called the _[[object classifier]]_. 
 
 This is defined as the [[representable functor|representing object]]
 for the [[core]] of the [[small object|small]] [[codomain fibration]], exhibited by an  [[equivalence of ∞-groupoids]]
@@ -98,9 +98,8 @@ $$
 $$
 
 If here we simply replace, notationally, the arrow "$\to$" by the turnstile "$\vdash$", display a generic [[generalized element]] $x$ of $X$ and then write $E(x)$ to highlight the dependence of the [[fibers]] of $E$ on $x$ in $X$, then the symbols "$X \stackrel{\vdash E}{\to} Type$" become the 
-sequent "$x : X \vdash E(x) : Type$" 
-
-This sequent is the [[syntax]] of which the morphism is the [[categorical semantics]]. In summary, we have a notational correspondence 
+sequent "$x : X \vdash E(x) : Type$".
+This sequent is the [[syntax]] of which the morphism is the [[categorical semantics]]. 
 
 Similarly, if $X \stackrel{t}{\to}_X E$
 is a [[section]] of $E$ over $X$, hence 
@@ -112,7 +111,6 @@ This is the sequent for the [[term]] $t$ of the [[dependent type]] $E$.
 In summary we have under the [[relation between category theory and type theory]] the notational correspondence:
 
 **morphisms to sequents.**
-
 
 | $\,$ | [[types]] | [[terms]] |
 |--|--|--|
