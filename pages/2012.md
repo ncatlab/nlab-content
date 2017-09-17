@@ -48,3 +48,5 @@ Related entries include [[quasitriangular bialgebra]], [[Dunkl operator]], [[Yan
 [[!redirects integrable systems]]
 [[!redirects integrable model]]
 [[!redirects integrable systems]]
+
+[[!redirects integrability]]
