@@ -36,9 +36,20 @@ for
 
 All gauge fields in the [[standard model of particle physics]] as well as in [[GUT]] models are Yang--Mills fields.
 
+
 The matter fields in the standard model are spinors charged under the Yang-Mills field. See
 
 * [[spinors in Yang-Mills theory]]
+
+## Related concepts
+
+* [[Chern-Simons theory]]
+
+* [[instanton]]
+
+## References
+
+* [[Simon Donaldson]], _Yang-Mills theory and geometry_ ([pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF))
 
 [[!redirects Yang--Mills theory]]
 [[!redirects Yang–Mills theory]]
