@@ -29,6 +29,8 @@ There does not seem to be any way to define the notion of positive element in a 
 
 Then one can prove, predicatively but not constructively, that every poset has a unique positivity predicate, which must match the first definition above; and one prove, constructively but not predicatively, that every poset has a unique positivity predicate, which must match the second definition above.
 
+Such a positivity predicate is used in [[formal topology]].
+
 
 [[!redirects positive element]]
 [[!redirects positive elements]]
