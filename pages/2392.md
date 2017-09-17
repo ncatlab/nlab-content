@@ -14,13 +14,6 @@
 =--
 =--
 
-* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
-
-* [[monad]] / [[(∞,1)-monad]]
-
-* [[operad]] / **$(\infty,1)$-operad**
-
-***
 
 
 
@@ -64,9 +57,8 @@ This and the conditions on these are encoded in requiring that $C^\otimes$ is an
 
 In particular, any [[symmetric monoidal (∞,1)-category]] yields an example of an $(\infty,1)$-operad in this sense.  In fact, symmetric monoidal $(\infty,1)$-categories can be *defined* as $(\infty,1)$-operads such that the functor $C^\otimes \to \Gamma$ is a [[coCartesian fibration]].  (For the moment, see [[monoidal (infinity,1)-category]] for more comments and references on higher operads in this context.)
 
-This is the approach described in (the new version of !)
+This is the approach described in ([LurieCommutative](#LurieCommutative))
 
-* [[Jacob Lurie]], _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
 
 ### Model for $(\infty,1)$-categories of operators {#ModelForinfOpera}
 
@@ -327,6 +319,34 @@ Hence $C_f$ is a weak equivalence.
 
 =--
 
+
+## Related concepts
+
+* [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
+
+* [[monad]] / [[(∞,1)-monad]]
+
+* [[operad]] / **$(\infty,1)$-operad**
+
+
+
+## References
+
+The formulation in terms of [[dendroidal sets]] is due to
+
+* [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_ ([web](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314))
+
+* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv](http://arxiv.org/abs/0902.1954)) .
+
+
+The formulation in terms of an $(\infty,1)$-version of the [[category of operators]] is introduced in
+
+* [[Jacob Lurie]], _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
+{#LurieCommutative}
+
+and further discussed in
+
+* [[Jacob Lurie]], _[[Ek-Algebras]]_ .
 
 
 [[!redirects (∞,1)-operad]]
