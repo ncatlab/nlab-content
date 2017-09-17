@@ -1,16 +1,2 @@
 
-## Related concepts
-
-* [[cup product]]
-
-* [[intersection theory]]
-
-## References
-
-Introductions and surveys include
-
-* [[Akhil Mathew]], _Intersection theory on surfaces_, 2013 ([web](http://amathew.wordpress.com/2013/01/27/intersection-theory-on-surfaces/))
-
-* Wikipedia, _[Intersection theory](http://en.wikipedia.org/wiki/Intersection_theory)_
-
-[[!redirects intersection products]]
+see [[intersection pairing]]
