@@ -1,4 +1,4 @@
-Crystal bases are a construction in the [[representation theory]] of [[quantum groups]] (which in a specialization exist hence for usual [[Lie groups]] as well): roughly speaking they provide a uniform description notonly of irreducible finite-dimensional modules but also a uniform choice of bases in all of them as well as in tensor products. 
+Crystal bases are a construction in the [[representation theory]] of [[quantum groups]] (which in a specialization exist hence for usual [[Lie groups]] as well): roughly speaking they provide a uniform description not only of irreducible finite-dimensional modules but also a uniform choice of bases in all of them as well as in tensor products. 
 
 There are two mutually dual versions due [[Masaki Kashiwara]] and [[George Lusztig]]. 
 
