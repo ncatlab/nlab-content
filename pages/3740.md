@@ -7,22 +7,24 @@
 
 There are really two notions of one-sided real number: lower reals and upper reals.  But there is a perfect symmetry between them.
 
-These are really concepts in [[constructive mathematics]].  Using [[excluded middle]], a one-sided real number is simply a [[real number]], but constructively they are more general (and less well behaved).
+These are largely concepts in [[constructive mathematics]].  Using [[excluded middle]], a bounded one-sided real number is simply a [[real number]], but constructively they are more general (and less well behaved).
 
-Actually, there is a small technicality: most naturally, a lower real may (classically) be either a real number or $\infty$, while an upper real may be either a real number or $-\infty$.  You can restrict to _bounded_ lower/upper reals to avoid that, or alternatively genralise to _extended_ lower/upper reals if you want to include both $\pm\infty$ at once.
+However, even in [[classical mathematics]], there are some differences, at least in emphasis and application.  First, it is most natural to include $\infty$ as a lower real and include $-\infty$ as an upper real.  (However, you can restrict to _bounded_ lower/upper reals to avoid that, or alternatively genralise to _extended_ lower/upper reals if you want to include both $\pm\infty$ at once.)  Also, the natural [[topological structure|topology]] on the lower reals is the _lower [[semicontinuous topology]]_ (and the natural topology on the upper reals is the _upper semicontinuous topology_).
 
-In [[topos theory]], one-sided numbers are often called (upper or lower) *semicontinuous* numbers; in a [[sheaf topos]], internal semicontinuous numbers are external (upper or lower) [[semicontinuous function]]s.
+One-sided numbers are often called (upper or lower) *semicontinuous* numbers.  To see why, consider a [[locale]] (or [[topological space]]) $L$, and consider the (upper or lower) [[semicontinuous function]]s (real-valued) on $L$.  On the one hand, these are the same as the [[continuous functions]] from $L$ to (classically) the set of real numbers equipped with the semicontinuous topology or to (constructively) a locale whose [[point of a locale|points]] are the one-sided real numbers.  On the other hand, these semicontinuous functions are precisely the [[internal logic|internal]] one-sided real numbers in the [[topos of sheaves]] over $L$.
 
 Lower and upper reals don\'t interact well together; for a system that naturally includes both (and, constructively, much more), use the [[MacNeille real number]]s.
 
 
 ## Idea
 
-A __lower real number__ is the [[supremum]] of an [[inhabited set|inhabited]] set of [[real numbers]], or equivalently of an inhabited set of [[rational numbers]].  A __bounded lower real__ is the supremum of an inhabited set of numbers that has a finite upper bound.  An __extended lower real__ is the supremum of an arbitrary set of  real numbers.
+(In the following, 'number' without qualification may be taken to mean either a [[real number]] or a [[rational number]]; the result is the same either way.  Indeed, we could take any [[dense subset|dense set]] of real numbers.)
 
-An __upper real number__ is the [[infimum]] of an inhabited set of numbers.  A __bounded upper real__ is the infimum of an inhabited set of numbers that has a finite upper bound.  An __extended lower real__ is the supremum of an arbitrary set of numbers.
+A __lower real number__ is the [[supremum]] of an [[inhabited set|inhabited]] set of numbers.  A __bounded lower real__ is the supremum of an inhabited set of numbers that has a finite upper bound.  An __extended lower real__ is the supremum of an arbitrary set of real numbers.
 
-We cannot generalise further by taking more extrema of the same sort.  Explicitly, the supremum of any inhabited set of lower reals is a lower real and the infimum of any inhabited set of upper reals is an upper real.  (Similar results obtain if we use bounded or extended reals to include or exclude $\pm\infty$ or to allow for the extrema of the [[empty subset|empty set]].)  However, mixing extrema takes us further to the [[MacNeille real number]]s.
+An __upper real number__ is the [[infimum]] of an inhabited set of numbers.  A __bounded upper real__ is the infimum of an inhabited set of numbers that has a finite lower bound.  An __extended lower real__ is the infimum of an arbitrary set of numbers.
+
+We cannot generalise further by taking more extrema of the same sort.  Explicitly, the supremum of any inhabited set of lower reals is a lower real and the infimum of any inhabited set of upper reals is an upper real.  (Similar results obtain if we use either bounded or extended reals, so long as we also either require the set to bounded or allow it to be [[empty subset|empty]].)  However, mixing extrema takes us further to the [[MacNeille real number]]s.
 
 
 ## Definitions
@@ -51,7 +53,7 @@ A __bounded lower real number__ is a lower real $L$ such that
 
 When treated explicitly as a subset of $\mathbb{Q}$, we call $L$ a __lower set__.  When we interpret $L$ as a number $x$, we write $a \lt x$ to mean that $a \in L$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded lower real, specifically as the set of all rational numbers less than $x$.  We interpret $\infty$ as the lower real whose lower set is all of $\mathbb{Q}$; we interpret $-\infty$ as the extended lower real whose lower set is empty.
 
-A bounded lower real is __located__ if it is the lower real obtained in this way from a real number.
+A bounded lower real is __located__ if it is the lower real obtained in this way from a real number; classically, every lower real number is located.
 
 
 ### Upper reals
@@ -75,7 +77,7 @@ A __bounded upper real number__ is an upper real $U$ such that
 
 When treated explicitly as a subset of $\mathbb{Q}$, we call $U$ an __upper set__.  When we interpret $U$ as a number $x$, we write $x \lt b$ to mean that $b \in U$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded upper real, specifically as the set of all rational numbers greater than $x$.  We interpret $-\infty$ as the upper real whose upper set is all of $\mathbb{Q}$; we interpret $\infty$ as the extended upper real whose upper set is empty.
 
-A bounded upper real is __located__ if it is the upper real obtained in this way from a real number.
+A bounded upper real is __located__ if it is the upper real obtained in this way from a real number; classically, every upper real number is located.
 
 
 ## Order relations
@@ -112,9 +114,14 @@ Constructively, we cannot necessarily take the infimum of a set of lower reals, 
 
 In general, you can extend order-preserving functions of rational numbers to lower reals and to upper reals; you simply take the [[image]] of the lower or upper set and close it downward or upwards, as appropriate.  If you have an order-reversing function of rational numbers, then you can apply it to a lower real to get an upper real and conversely; this is about the only interaction that I know of between the two kinds of one-sided real.
 
-Since addition is order-preserving, it works nicely, at least to make a [[monoid]]; but subtraction doesn\'t work in general.  Multiplication has trouble with negative numbers but produces good results if you restrict to $[0,\infty]$.  Notice that we get $0 \cdot \infty = 0$ with lower reals but $0 \cdot \infty = \infty$ with extended upper reals; thus, $[0,\infty)$ is a [[rig]] for either lower or upper reals, while $[0,\infty]$ is a rig only for lower reals.  We can also use [[logarithm]]s to translate between addition and multiplication.
+Since addition is order-preserving, it works nicely, at least to make a [[monoid]]; but subtraction doesn\'t work in general.  Multiplication has trouble with negative numbers but produces good results if you restrict to $[0,\infty]$.  Notice that we get $0 \cdot \infty = 0$ with lower reals but $0 \cdot \infty = \infty$ with extended upper reals; thus, $[0,\infty)$ is a [[rig]] for either lower or upper reals, while $[0,\infty]$ is a rig only for lower reals.  (This doesn\'t really mean that lower reals behave better overall, since $[-\infty,0]$ is a rig for upper reals.  The real conclusion is that non-extended one-sided reals behave better.)  We can also use [[logarithm]]s to translate between addition and multiplication.
 
 If you really want to do arbitrary arithmetic operations on upper or lower reals, then again you need their common generalisation, the [[MacNeille real number|MacNeille reals]].
+
+
+## Topology
+
+Let\'s put this on a separate page: [[semicontinuous topology]].  For one thing, it\'s more advanced than the elementary stuff above; for another thing, it\'s more interesting in classical mathematics; and finally, it\'s more complicated in constructive mathematics.  (Also, we haven\'t written it yet.)
 
 
 [[!redirects one-sided real]]
