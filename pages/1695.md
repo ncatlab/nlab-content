@@ -92,6 +92,21 @@ In general, if $X$ is locally $n$-[[n-connected space|connected]], $\Omega X$ is
 The fundamental $n$-groupoid of a space $X$ ([[Trimble n-category|Trimblean]] for choice) can be topologised to be an internal $n$-groupoid in $\Top$ when $X$ is semi-locally $n$-connected. Furthermore, the homotopy groups of the $n$-groupoid, _a priori_ topological groups, are discrete.
 =--
 
+## Related concepts
+
+* [[loop space object]], [[free loop space object]],
+
+  * [[delooping]]
+
+  * **loop space**, [[free loop space]], [[derived loop space]]
+
+
+* [[suspension object]]
+
+  * [[suspension]]
+
+
+
 ## References
 
 * [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. 108, 1963, 275-312 
