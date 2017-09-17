@@ -51,7 +51,7 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 ## Related entries
 
 * [[pure motive]], [[mixed motive]], [[Voevodsky motive]], [[Nori motive]]
-* [[zeta function]]
+* [[zeta function]], [[motivic multiple zeta values]]
 
 
 ## Extensions
