@@ -11,6 +11,10 @@ The (proof of the) [[Weil conjectures]] concerns the properties of the Weil zeta
 
 ## Properties
 
+### Relation to other zeta-, theta- and L-functions 
+
+[[!include zeta-functions and eta-functions and theta-functions and L-functions -- table]]
+
 ### Function field analogy
 
 [[!include function field analogy -- table]]
