@@ -7,7 +7,7 @@
 
 What is known as _(Grothendieck's) six operations_ is a formalization of structure that 
 
-* assigns to every [[morphism]] $f$ of suitable [[spaces]] a [[direct image]]/[[inverse image]] [[adjunction]] $(f^\ast \dashv f_*)$;
+* assigns to every [[morphism]] $f$ of suitable [[spaces]] a ([[derived direct image|derived]])[[direct image]]/([[derived inverse image|derived]])[[inverse image]] [[adjunction]] $(f^\ast \dashv f_*)$;
 
 * assigns to every [[separated morphism]] a [[direct image with compact support]]/[[Verdier duality|Verdier dual]] [[adjunction]] $(f_! \dashv f^!)$.
 
