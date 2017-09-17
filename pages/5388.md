@@ -24,6 +24,8 @@ In [[physics]] the [[theory (physics)|theory]] of _[[special relativity]]_ the L
 * [[Lorentzian manifold]]
 * quantum group version: [[quantum Lorentz group]]
 
+* [[Galilelan group]]
+
 [[!include table of orthogonal groups and related]] 
 
 [[!redirects Lorentz transformation]]
