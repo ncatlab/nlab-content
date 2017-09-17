@@ -59,6 +59,9 @@ However, in ([Cho-Maison](#ChoMaison)) it is claimed that the true topology of t
 
 ## Related concepts
 
+
+* [[fiber bundles in physics]]
+
 * [[domain wall]], [[cosmic string]]
 
 [[!include fields and quanta - table]]
