@@ -905,6 +905,9 @@ Relation to [[Feynman diagrams]] is made explicit in
 
 * [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for nite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
 
+See also 
+
+* [[Theo Johnson-Freyd]], _Star-quantization via lattice topological field theory_, talk at [String-Math 2013](http://scgp.stonybrook.edu/events/event-pages/string-math-2013) ([pdf](http://media.scgp.stonybrook.edu/presentations/20130618_johnson-freyd.pdf))
 
 The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
 
