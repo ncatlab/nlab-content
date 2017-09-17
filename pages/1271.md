@@ -1,11 +1,49 @@
-An __element__ of an object $W$ in a fixed [[abelian category]] $A$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to X'$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to X'$. 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Additive and abelian categories
++--{: .hide}
+[[!include additive and abelian categories - contents]]
+=--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Not every [[abelian category]] is a [[concrete category]], such as [[Ab]] or $R$[[Mod]], hence its [[objects]] do not necessrily have underlying [[sets]] whose elements one can reason about. To circumvent this and reason by "diagram chases" of elements in general abelian categories, one can instead use [[generalized elements]] in a suitable way. 
+
+This is closely related to embedding the abelian category fully-faithfully and exactly into a concrete abelian category. See at _[[abelian category]]_ the section _[Embedding theorems](abelian+category#EmbeddingTheorems)_ for more on this.
+
+## Definition
+
+One definition goes likes this:
+
+An __(generalized) element__ of an object $W$ in a fixed [[abelian category]] $A$ is an [[equivalence class]] $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to X'$ a morphism (hence a [[generalized element]]) and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphisms]] $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v : Z\to X'$. 
 
 Notice that subtlety in the equivalence relation.
 
-Elements in an abelian category can be used for [[diagram chasing]], see the exercises at the end of chapter II.5 of the following reference:
+Elements in an abelian category can be used for [[diagram chasing]], see the exercises at the end of chapter II.5 of ([Gelfand-Manin](#Gelfand-Manin)).
+
+## References
+
+Equivalence classes of generalized elements are considered for instance in
 
 * [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_,  transl. from the 1988 Russian (Nauka Publ.) original. Springer 1996. xviii+372 pp.; 2nd corrected ed. 2002.
-{# Gelfand-Manin}
+{#Gelfand-Manin}
+
+Genuine generalized elements are considered in
+
+* [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) ([pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf))
+ {#Bergman}
 
 
 [[!redirects element of an abelian category]]
