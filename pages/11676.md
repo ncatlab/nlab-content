@@ -26,7 +26,9 @@ The definition of absolute Hodge cohomology originates around
 
 see also the references at _[[Hodge theory]]_ for background.
 
-Application to [[Beilinson regulators]] appeaits in 
+* {#CharlesSchnell10} Francois Charles, Christian Schnell, _Notes on absolute Hodge classes_, lecture notes 2010 ([pdf](http://www.math.u-psud.fr/~fcharles/AH.pdf))
+
+Application to [[Beilinson regulators]] appears in 
 
 * [[Jose Ignacio Burgos]] and Steve Wang, _Higher Bott-Chern forms and Beilinson's regulator_, Invent. Math. 132 (1998), no. 2, 261{305. MR 1621424 (99j:14008)
 
