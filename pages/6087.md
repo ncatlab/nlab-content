@@ -19,13 +19,13 @@
 
 ## Definition
 
-A [[Lie groupoid]] $(C_1 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} C_0)$ is **proper** if
+A [[Lie groupoid]] $(C_1 \stackrel{\overset{s}{\to}}{\underset{t}{\to}} C_0)$ is **proper** if its underlying [[topological groupoid]] is a [[proper topological groupoid]], hence if
 
 $$
   (s,t) : C_1 \to C_0 \times C_0
 $$
 
-is a [[proper map]]. In particular, properness is really a property of the underlying [[topological groupoid]].
+is a [[proper map]]. 
 
 So in particular the [[automorphism group]] of any [[object]] in a proper Lie groupoid is a [[compact space|compact]] [[Lie group]]. In this sense proper Lie groupoids generalize [[compact Lie groups]].
 
