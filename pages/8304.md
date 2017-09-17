@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Group Theory
@@ -13,13 +13,20 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
-There are several notions of abelianizations for various algebraic structures. There is also the [[Verdier's abelianization functor]] from triangulated to an abelian category with some universal property; this is treated in a separate entry.  
+## Idea
 
-## Definition
+Abelianisation is the process of [[free functor|freely]] making an [[algebraic structure]] 'abelian'. There are several notions of abelianizations for various algebraic structures.
+
+There is also [[Verdier's abelianization functor]] from a [[triangulated category]] to an [[abelian category]] with some universal property; this is treated in a separate entry.  
+
+
+## For groups
+
+### Definition
 
 +-- {: .num_defn }
 ###### Definition
@@ -44,9 +51,21 @@ Abelianization extends to a [[functor]] $(-)^{ab} \colon $ [[Grp]] $\to$ [[Ab]] 
 
 Hence abelianization is the _[[free construction]]_ of an abelian group from a group.
 
-## Examples
 
-### Free groups
+### Examples
+
+Given a [[pointed space]] $(X,a)$, its first [[homology group]] with coefficients in the [[integers]] is the abelianisation of its [[fundamental group]]:
+$$ H^1(X,\mathbb{Z}) \cong \pi_1(X,a)^{ab} .$$
+This is a [[natural isomorphism]] filling the following diagram of [[functors]]:
+$$ \array {
+   Top_* & \overset{\pi_1} & Grp \\
+   \llap{U}\downarrow & & \downarrow\rlap{ab} \\
+   Top & \overset{H^1({-},\mathbb{Z}) & Ab Grp
+} $$
+(where $U$ [[forgetful functor|forgets]] the point).
+
+
+#### Free abelian groups
 
 A [[free abelian group]] on a set $S$ is the abelianization of the [[free group]] on $S$.
 
@@ -76,4 +95,22 @@ $$
 
 and $(-)^{ab} \circ F_{grp}$ is left adjoint to $U_{grp} \circ U$. 
 
+
+## Monoids etc
+
+Abelianisation of monoids works pretty much like abelianisation of groups.
+
+We can also do abelianisation of [[monoid objects]] in many [[monoidal categories]] (or [[closed categories]] or more generally [[multicategories]]).  For example, we can form abelianisations of [[rings]], which are monoid objects in [[Ab]].
+
+We can even form abelianisations of [[semigroups]] or [[magmas]].
+
+
+## Lie algebras
+
+Lie algebras are not monoid objects in any category, but one still considers [[abelian Lie algebra]]s.
+
+
+[[!redirects abelianization]]
 [[!redirects abelianizations]]
+[[!redirects abelianisation]]
+[[!redirects abelianisations]]
