@@ -23,14 +23,15 @@ An _irreducible representation_ --  often abbreviated _irrep_ -- is a [[represen
 
 ## Definition ##
 
-An _irreducible representation_ is a [[representation]] that has no nontrivial proper [[subobject]] in the [[category]] of all representations in question and yet which is not itself trivial either.  In other words, an irrep is a [[simple object]] in the category of representation.
+Given some algebraic structure, such as a [[group]], equipped with a notion of (linear) [[representation]], then an _irreducible representation_ is a [[representation]] that has no nontrivial proper [[subobject]] in the [[category]] of all representations in question and yet which is not itself trivial either.  In other words, an irrep is a [[simple object]] in the category of representation.
 
-
-## Remarks ##
-
-There is also the closely related but in general different notion of an [[indecomposable representation]].  Every irrep is indecomposable, but the converse may fail.
+Notice that there is also the closely related but in general different notion of an [[indecomposable representation]].  Every irrep is indecomposable, but the converse may fail.
 
 A representation that has proper nontrivial subrepresentations but can not be decomposed into a [[direct sum]] of such representations is indecomposable but still reducible.
+
+## Related concepts
+
+* In [[quantum physics]] an irreducible representation of an [[algebra of observables]] is called a _[[superselection sector]]_.
 
 
 [[!redirects irreducible representations]]
