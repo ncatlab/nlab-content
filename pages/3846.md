@@ -32,7 +32,7 @@ Also since the form is nondegenerate, there exists $v \in V$ such that $N(v) \ne
 
 ## Basic identities
 
-The arrangements of the proofs below closely follow the treatment by Conway and Smith (see references below). 
+The arrangements of the proofs below are based in part on the treatments by Conway and Smith, and by Springer and Veldkamp (see references below). 
 
 +-- {: .un_prop}
 ######Proposition (Scaling)
@@ -199,7 +199,7 @@ Thus, given a composition algebra $V$ and a composition subalgebra $W$ of $V$ (t
 
 $$\langle \alpha v, w \rangle = \langle \alpha, w \bar{v} \rangle = 0$$ 
 
-so that, by nondegeneracy of the form on $W$, $\alpha \cdot W \cap W = \{0\}$. Indeed, $\alpha W$ is orthogonal to $W$. It follows that $W + \alpha W$ has double the dimension of $W$. 
+so that, by nondegeneracy of the form on $W$, $\alpha W \cap W = \{0\}$. Indeed, $\alpha W$ is orthogonal to $W$. It follows that $W + \alpha W$ has double the dimension of $W$. 
 
 Now let us fix such an $\alpha$, and put $\lambda = N(\alpha)$. 
 
@@ -221,7 +221,7 @@ plus bilinearity of the form.
 
 Consequently, if $\langle u + \alpha v, w \rangle = 0$ for all $w \in W$, we must have $u = 0$, and if $\langle u + \alpha v, \alpha x \rangle = 0$ for all $x \in W$, then $v = 0$. It follows that the form on $V$, when restricted to $W + \alpha W$, is nondegenerate. 
 
-Now we want to show that the double $W + \alpha W$ is closed under multiplication, hence forms a composition subalgebra. It follows immediately from all this that $dim(V)$ is a power of 2, and in fact we will see later that the only possible dimensions are 1, 2, 4, and 8. Indeed, the structure of composition algebras is very tightly constrained. 
+Now we want to show that the double $W + \alpha W$ is closed under multiplication, hence forms a composition subalgebra. It follows immediately from all this that, starting from the trivial composition subalgebra $k \cdot e$ of dimension 1, $dim(V)$ must be a power of 2, and in fact we will see later that the only possible dimensions are 1, 2, 4, and 8. Indeed, the possible structures of composition algebras are very tightly constrained. 
 
 +-- {: .un_prop}
 ######Proposition (Conjugation on the double)
@@ -235,7 +235,7 @@ $\widebar{\alpha v} = 2\langle \alpha v, e \rangle e - \alpha v = -\alpha v$.
 
 +-- {: .un_thm}
 ######Theorem (Closure under multiplication)
-For all $u, v, w, x \in W$, $(u + \alpha v)(w + \alpha x) = (u w - \lambda x v) + \alpha (w v + \bar{u} x)$.
+For all $u, v, w, x \in W$, $(u + \alpha v)(w + \alpha x) = (u w - \lambda x \bar{v}) + \alpha (w v + \bar{u} x)$.
 =--
 
 +-- {: .proof}
@@ -254,6 +254,103 @@ $$\langle (\alpha v)(\alpha x), y \rangle \stackrel{Conj}{=} -\langle \alpha v, 
 
 These identities, combined with nondegeneracy of the form, give the result. 
 =--
+
+### Possible dimensions are 1, 2, 4, and 8. 
+
+This calculation expressed by this fundamental theorem has some remarkable consequences: 
+
+* Suppose $V = W + \alpha W$. Then $W$ is an _associative_ composition algebra. 
+
+For, by starting from the identity 
+
+$$N(u + \alpha v)N(w + \alpha x) = N((u w - \lambda x \bar{v}) + \alpha (w v + \bar{u} x))$$ 
+
+and expanding, one obtains 
+
+$$(N(u) + \lambda N(v))(N(w) + \lambda N(x)) = N(u w) - 2\lambda \langle u w, x\bar{v} \rangle + \lambda^2 N(x\bar{v}) + \lambda (N(w v) + 2\langle w v, \bar{u} x \rangle + N(\bar{u}x))$$ 
+
+Using the fact that $N$ is a homomorphism, plus unitarity $N(u) = N(\bar{u})$, further expansions and cancellations yield 
+
+$$0 = -2\lambda \langle u w, x\bar{v} \rangle + 2\lambda \langle w v, \bar{u}x \rangle$$
+
+which, by adjointness, yields 
+
+$$\langle (u w)v, x \rangle = \langle u(w v), x \rangle$$ 
+
+which by nondegeneracy on $W$, yields associativity $(u w)v = u(w v)$. 
+
+* Suppose $V = W + \alpha W$ is an associative composition algebra. Then $W$ is a _commutative, associative_ composition algebra. 
+
+For clearly the subalgebra $W$ must be associative; it is also commutative via the following string of equations (using conjugation of the double): 
+
+$$\alpha(v w) = (\alpha v)w = (\bar{v}\alpha)w = \bar{v}(\alpha w) = \bar{v}(\bar{w} \alpha) = (\bar{v}\bar{w})\alpha = \widebar{w v}\alpha = \alpha (w v)$$
+
+and cancelling out $\alpha$. 
+
+Conversely, a lengthy but straightforward calculation shows that if $W$ is commutative and associative, then $V$ is associative. 
+
+* Suppose $V = W + \alpha W$ is a commutative associative composition algebra. Then $W$ is purely real, i.e., is the trivial 1-dimensional associative commutative algebra $k \cdot e$. 
+
+This results from 
+
+$$\alpha w \stackrel{Conj}{=} \bar{w}\alpha \stackrel{comm}{=} \alpha \bar{w}$$ 
+
+so that $w = \bar{w}$ for every $w \in W$, so that $w$ is real. Conversely, from 
+
+$$(u + \alpha v)(w + \alpha x) = (u w - \lambda x\bar{v}) + \alpha (w v + \bar{u} x)$$
+
+[ ] 
+
+$$(w + \alpha x)(u + \alpha v) = (w u - \lambda v\bar{x}) + \alpha (u x + \bar{w} v)$$ 
+
+together with commutativity and trivial conjugation in $W$, we infer commutativity in $V$. 
+
+Hence the doubling process may be iterated three times at most. 
+
+## Hurwitz's Theorem
+
+The classification of composition algebras over specific fields (e.g., [[number field]]s, [[local field]]s) can be a bit intricate; in this section we concentrate solely on the classical case where $k = \mathbb{R}$, where the results have been known for a long time. 
+
+The fundamental dichotomy is whether or not the composition algebra has zero divisors, i.e., elements $v$ such that $N(v) = 0$. If not, then the composition algebra is a division algebra (every nonzero element is invertible). If so, then the composition algebra is called a **split** composition algebra. We analyze each in turn. 
+
++-- {: .un_prop}
+######Proposition
+In a division composition algebra, all nonzero elements have positive norm. 
+=--
+
++-- {: .proof} 
+######Proof
+If all elements $v$ orthogonal to the identity $e$ have positive norm, the result is immediate since 
+
+$$N(r v + s e) = r^2 N(v) + s^2 \geq 0$$ 
+
+Otherwise, if some such element $v$ has $N(v) = \lambda \lt 0$, we may put $u = v/|\lambda|^{1/2}$ so that $N(u) = -1$. Then $u$ is orthogonal to $e$ and 
+
+$$N(u + e) = N(u) + N(e) = -1 + 1 = 0$$ 
+
+which contradicts the assumption that all nonzero elements are invertible.
+=--
+
+Now let $V$ be a division composition algebra, with $V = W + \alpha W$, with $0 \neq \alpha \in W^\perp$. Put $j = \alpha/N(\alpha)^{1/2}$, so that 
+$N(j) = 1$, $j \perp W$, and $V = W + j W$. We have the following possibilities. 
+
+* $dim(V) = 2$. In that case $W$ is purely real and $V$ is a commutative field over $\mathbb{R}$ with $-j^2 = j\bar{j} = N(j) = 1$. This is of course the complex numbers, with 
+$$N(s + j t) = s^2 + t^2$$ 
+the usual norm. The conjugate of $s + j t$ is $s - j t$. 
+
+* $dim(V) = 4$. In that case $W$ is a 2-dimensional division composition algebra, hence isomorphic to $\mathbb{C}$, and $V$ is an associative division algebra over $\mathbb{R}$ given by $V = \mathbb{C} + j\mathbb{C}$, where again $j^2 = -1$. (Evidently $V$ is not commutative because $W$ is not purely real.) By conjugation of the double, we have 
+$$j i = -i j$$ 
+where $i$ is an imaginary unit of $\mathbb{C}$, and we arrive at the algebra of quaternions $\mathbb{H}$ over $\mathbb{R}$, with orthonormal basis provided by $1, i, j, k = i j$. Conjugation is given by the usual operation
+$$a + b i + c j + d k \mapsto a - b i - c j - d k$$
+
+* $dim(V) = 8$. In that case $W$ is a 4-dimensional division composition algebra, hence isomorphic to $\mathbb{H}$, and $V$ is an alternative division algebra over $\mathbb{R}$ given by $V = \mathbb{H} + j\mathbb{H}$, with $j^2 = -1$. ($V$ is not associative because $W$ is not commutative.) The structure of multiplication is given by the theorem above and the resulting algebra is the algebra of octonions, with the standard norm and conjugation. 
+
+Thus, we have established 
+
++-- {: .un_thm}
+######Theorem (Hurwitz) 
+The only division composition algebras over $\mathbb{R}$ are the reals, complexes, quaternions, and octonions. 
+=-- 
 
 
 
