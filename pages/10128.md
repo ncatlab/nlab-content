@@ -32,6 +32,10 @@ A special kind of [[Poincaré duality space]]: a [[CW-complex]] which satisfies 
 
 * [pdf](http://www.dm.ufscar.br/~ebt2012/main_files/mc-Hillman.pdf)
 
+With an eye towards generalization in [[spectral geometry]] ([[spectral triples]]):
+
+* {#Connes95} [[Alain Connes]], page 10 of _Noncommutative geometry and reality_, J. Math. Phys. 36 (11), 1995 ([pdf](http://www.alainconnes.org/docs/reality.pdf))
+
 [[!redirects Poincaré complexes]]
 
 [[!redirects Poincare complex]]
