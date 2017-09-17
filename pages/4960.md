@@ -96,7 +96,7 @@ For more general products, it would be a similar map $\Pi_0(\prod_i X_i) \to \pr
 A [[topos]] $\mathcal{E}$ over some base topos $\mathcal{S}$, i.e. equipped with a [[geometric morphism]]
 
 $$
-  (f^* \dashv f_*) : \mathcal{E} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+  (f^* \dashv f_*) : \mathcal{E} \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\longrightarrow}}
   \mathcal{S}
 $$
 
@@ -121,7 +121,7 @@ In summary $\mathcal{E}$ is cohesive over $\mathcal{S}$ if we have a quadruple o
 $$
  (f_! \dashv f^* \dashv f_* \dashv f^!) : 
  \mathcal{E}
-  \stackrel{\stackrel{\overset{f_!}{\to}}{\overset{f^*}{\hookleftarrow}}}{\stackrel{\underset{f_*}{\to}}{\underset{f^!}{\hookleftarrow}}}
+  \stackrel{\stackrel{\overset{f_!}{\longrightarrow}}{\overset{f^*}{\hookleftarrow}}}{\stackrel{\underset{f_*}{\longrightarrow}}{\underset{f^!}{\hookleftarrow}}}
   \mathcal{S}
 $$
 
@@ -160,9 +160,9 @@ $$
   (\mathbf{\Pi}_0 \dashv \mathbf{\flat} \dashv \mathbf{#})
   : 
   \mathcal{E}
-   \stackrel{\overset{\Pi_0}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}}
+   \stackrel{\overset{\Pi_0}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\longrightarrow}}}
   \mathcal{S}
-  \stackrel{\overset{Disc}{\to}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}}
+  \stackrel{\overset{Disc}{\longrightarrow}}{\stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\longrightarrow}}}
   \mathcal{E} 
   \,.
 $$
@@ -183,7 +183,7 @@ In addition to the fundamental axioms of cohesion above, there are several furth
 For $f : \mathcal{E} \to \mathcal{S}$ a cohesive topos, we say that **pieces have points** in $\mathcal{E}$ if the [[natural transformation]]
 
 $$
-  f_* X \stackrel{}{\to} f_* f^* f_! X \stackrel{\simeq}{\to} f_! X 
+  f_* X \stackrel{}{\longrightarrow} f_* f^* f_! X \stackrel{\simeq}{\longrightarrow} f_! X 
 $$
 
 is an [[epimorphism]] for all $X \in \mathcal{E}$.
@@ -198,7 +198,7 @@ This is equivalent to the following condition (see the [proposition below](Piece
 We say that **[[discrete objects]] are [[concrete object|concrete]]** in $\mathcal{E}$ if the transformation
 
 $$
-  f^* S \to f^! f_* f^* S \stackrel{\simeq}{\to} f^! S
+  f^* S \to f^! f_* f^* S \stackrel{\simeq}{\longrightarrow} f^! S
 $$
 
 is a [[monomorphism]] for all $S \in \mathcal{S}$ .
@@ -211,7 +211,7 @@ is a [[monomorphism]] for all $S \in \mathcal{S}$ .
 We say **pieces of powers are powers of pieces** if for all $S \in \mathcal{S}$ and $X \in E$ the natural morphism
 
 $$
-  f_! (X^{f^* S}) \stackrel{\simeq}{\to} (f_!(X))^S
+  f_! (X^{f^* S}) \stackrel{\simeq}{\longrightarrow} (f_!(X))^S
 $$
 
 is an [[isomorphism]].
@@ -411,7 +411,7 @@ Similarly, by the above definition the morphism $\theta_X$ is an epimorphism pre
 $$
   \array{
     \mathcal{S}(p_! X, S) 
-      &\stackrel{(-) \circ p_!(\eta_X)}{\to} &
+      &\stackrel{(-) \circ p_!(\eta_X)}{\longrightarrow} &
     \mathcal{S}(p_! p^* p_* X, S)
     \\
     {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
@@ -420,7 +420,7 @@ $$
     \\
     {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathcal{E}(X, p^* S) &\stackrel{p_*}{\to}& \mathcal{S}(p_* X, p_* p^* S)
+    \mathcal{E}(X, p^* S) &\stackrel{p_*}{\longrightarrow}& \mathcal{S}(p_* X, p_* p^* S)
   }
 $$
 
@@ -584,8 +584,8 @@ Observe that the composite morphism
 $$
   F 
   : 
-  \mathcal{E}(X,Y) \stackrel{\Gamma}{\to} \mathcal{S}(\Gamma X, \Gamma Y)
-  \stackrel{\simeq}{\to}
+  \mathcal{E}(X,Y) \stackrel{\Gamma}{\longrightarrow} \mathcal{S}(\Gamma X, \Gamma Y)
+  \stackrel{\simeq}{\longrightarrow}
   \mathcal{E}(X, coDisc \Gamma Y)
 $$
 
@@ -643,7 +643,7 @@ Precisely if the cohesive topos $\mathcal{E}$ satisfies the axiom _[[discrete ob
 
 $$
    Conc(\mathcal{E})
-    \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+    \stackrel{\overset{\Pi}{\longrightarrow}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\longrightarrow}}{\underset{coDisc}{\leftarrow}}}}
   Set
   \,.
 $$
@@ -679,7 +679,7 @@ Let $s^* : \mathcal{L} \hookrightarrow \mathcal{E}$ be the [[full subcategory]] 
      (s_! \dashv s^* \dashv s_*)
      : 
      \mathcal{E}
-       \stackrel{\overset{s_!}{\to}}{\stackrel{\overset{s^*}{\leftarrow}}{\underset{s_*}{\to}}}
+       \stackrel{\overset{s_!}{\longrightarrow}}{\stackrel{\overset{s^*}{\leftarrow}}{\underset{s_*}{\longrightarrow}}}
      \mathcal{L} 
    $$
 
@@ -885,7 +885,7 @@ First notice that for $C$ any [[small category]], we have the left and right [[K
 
 $$
   (\lim_\to \dashv Const \dashv \lim_\leftarrow) :
-  PSh(C) \stackrel{\overset{\lim_{\to}}{\to}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\lim_\leftarrow}{\to}}}
+  PSh(C) \stackrel{\overset{\lim_{\to}}{\longrightarrow}}{\stackrel{\overset{Const}{\leftarrow}}{\underset{\lim_\leftarrow}{\longrightarrow}}}
   Set
   \,.
 $$
