@@ -72,7 +72,11 @@ The following is (or will eventually be) a linked list of keywords.
 
 * [[Dold-Kan correspondence]]
 
+
 #### 1.2.4 The $\infty$-categorical Dold-Kan correspondence
+
+* [[infinity-Dold-Kan correspondence]]
+
 
 ### 1.3 Homological algebra and derived categories
 
