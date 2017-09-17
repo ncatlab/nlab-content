@@ -14,7 +14,7 @@ $$
   F\colon C\to D
 $$ 
 
-is an **accessible functor** i there exists a [[regular cardinal]] $\kappa$ such that $C$ and $D$ are both $\kappa$-[[accessible categories]] and $F$ preserves $\kappa$-[[filtered colimit]]s.
+is a **$\kappa$-accessible functor** (for $\kappa$ a [[regular cardinal]]) if $C$ and $D$ are both $\kappa$-[[accessible categories]] and $F$ preserves $\kappa$-[[filtered colimit]]s.  $F$ is an **accessible functor** if it is $\kappa$-accessible for some regular cardinal $\kappa$.
 
 ### Higher categorical version
 
