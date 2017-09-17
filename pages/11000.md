@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.cs.cornell.edu/home/rc/)
+
+## Related entries
+
+* [[NuPRL]]
+
+* [[computational type theory]]
+
+category: people
