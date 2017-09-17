@@ -313,6 +313,8 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects exterior forms]]
 [[!redirects exterior differential form]]
 [[!redirects exterior differential forms]]
+[[!redirects differential p-form]]
+[[!redirects differential p-forms]]
 [[!redirects p-form]]
 [[!redirects p-forms]]
 [[!redirects n-form]]
