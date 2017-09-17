@@ -4,14 +4,14 @@
 
 ## Idea
 
-To every complex 3-dimensional [[Calabi-Yau variety]] $X$ is associated a 2-dimensional [[sigma-model]] $N=2$-[[CFT|superconfomal field theory]] $SCFT(X)$. There is at least for some CY $X$ a map $X \mapsto \hat X$ which exchanges the [[Hodge number]]s $h^{1,1}$ and $h^{1,2}$ such that $SCFT(X)$ is expected to be equivalent to $SCFT(\hat X)$. 
+To every complex 3-dimensional [[Calabi-Yau variety]] $X$ is associated a 2-dimensional [[sigma-model]] $N=2$-[[CFT|superconformal field theory]] $SCFT(X)$. There is at least for some CY $X$ a map $X \mapsto \hat X$ which exchanges the [[Hodge number]]s $h^{1,1}$ and $h^{1,2}$ such that $SCFT(X)$ is expected to be equivalent to $SCFT(\hat X)$. 
 
 $$
   SCFT(X) \simeq SCFT(\hat X)
   \,.
 $$
 
-This is called _mirror symmetry_ . At least in some cases this can be understood as a special case of [[T-duality]].
+This is called _mirror symmetry_. At least in some cases this can be understood as a special case of [[T-duality]].
 
 In this form mirror symmetry remains a conjecture, not the least because for the moment there is no complete construction of these SCFTs. But to every such $SCFT(X)$ one can associate two [[TCFT]]s, $A(X)$ and $B(X)$, the [[A-model]] and the [[B-model]]. These $N=1$ supersymmetric field theories were obtained by [[Edward Witten]] using a "topological twist". The topological A-model can be expressed in terms of [[symplectic geometry]] of a variety and the topological B-model can be expressed in terms of the [[algebraic geometry]] of a variety. 
 
@@ -24,7 +24,7 @@ $$
 
 By a version of the [[cobordism hypothesis]]-theorem, these [[TCFT]]s (see there) are encoded by [[A-∞ categories]] that are [[Calabi-Yau categories]]: the [[A-model]] by the [[Fukaya category]] $Fuk(X)$ of $X$ which can be understood as a [[stable (∞,1)-category]] representing the Lagrangean intersection theory on the underlying [[symplectic manifold]]; and the [[B-model]] by an [[enhanced triangulated category|enhancement]] of the [[derived category]] of [[coherent sheaves]] $D^b_\infty(\hat X)$ on $\hat X$.
 
-In terms of this data, mirror symmetry is the assertion that these [[A-∞ categories]] are equivalent and simultenously the same under exchange $X\leftrightarrow \hat{X}$:
+In terms of this data, mirror symmetry is the assertion that these [[A-∞ categories]] are equivalent and simultaneously the same under exchange $X\leftrightarrow \hat{X}$:
 
 $$
   Fuk(X) \simeq D^b_\infty(\hat{X}),
