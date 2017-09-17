@@ -281,7 +281,14 @@ This situation can also be considered from the perspective of the formalization 
 
 ## Related concepts
 
+* [[image]], [[coimage]]
+
 * [[homotopy image]]
+
+* [[Postnikov system]]
+
+* [[k-ary factorization system]]
+  
 
 [[!redirects ∞-image]]
 [[!redirects ∞-images]]
