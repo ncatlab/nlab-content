@@ -442,3 +442,6 @@ and in
 [[!redirects n-plectic structures]]
 
 [[!redirects 3-plectic geometry]]
+
+[[!redirects pre-n-plectic manifold]]
+[[!redirects pre-n-plectic manifolds]]
