@@ -1,11 +1,14 @@
 
+# Twisted arrow categories
+* table of contents
+{: toc}
 
-##Terminology##
+## Terminology
 
-The twisted arrow category is an alternative name for [[category of factorisations]]. That latter name is applied when discussing natural systems  and [[Baues-Wirsching cohomology]], whilst the name _twisted arrow category_ is more often used in discussing Kan extensions and within the categorical literature.
+A twisted arrow category is an alternative name for a [[category of factorisations]]. That latter name is applied when discussing natural systems  and [[Baues-Wirsching cohomology]], whilst the name _twisted arrow category_ is more often used in discussing Kan extensions and within the categorical literature.
 
 
-## Definition ##
+## Definition
 
 The twisted arrow category $Tw(C)$ of $C$ a category is the [[category of elements]] of its [[hom-functor]]: 
 \[ 
@@ -13,17 +16,13 @@ Tw(C) = el(hom) = * / hom
 \]
 
 
-## explicit description ##
+## Explicit description
 
 Unpacking the well-known explicit construction of [[comma object|comma objects]] in $\mathbf{Cat}$ as [[comma category|comma categories]], we get that $Tw(C)$ has
 
-### objects ###
+* objects: $f$ an arrow in $C$, and
 
-$f$ an arrow in $C$, and
-
-### morphisms ###
-
-between $f$ and $g$ are pairs of arrows $(p,q)$ such that the following diagram commutes:
+* morphisms: between $f$ and $g$ are pairs of arrows $(p,q)$ such that the following diagram commutes:
 \[
 \begin{matrix}
   A             & \overset{p}{\leftarrow}   & C            \\
@@ -33,11 +32,13 @@ between $f$ and $g$ are pairs of arrows $(p,q)$ such that the following diagram 
 \]
 you could view then morphisms from $f$ to $g$ as *factorizations* of $g$ through $f$; this is in fact a good way of getting the arrows directions above right.
 
-## why the name ##
+
+## Origin of the name
 
 From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category]] of $C$, but with the direction of $p$ above in the def of morphism *reversed*, hence the twist. 
 
-## Properties ##
+
+## Properties
 
 From its definition as a comma category, there's a functor (a [[discrete fibration]], in fact) 
 \[ 
@@ -49,7 +50,8 @@ which at the level of objects forgets the arrows:
 \] 
 and keeps everything at the morphisms level. 
 
-### $tw(C)$ and wedges ###
+
+### $tw(C)$ and wedges
 
 One could say that $tw(C)$ *classifies* [[wedge|wedges]], in the sense of for a functor $F \colon C^{op} \times C \to B$ 
 
@@ -61,9 +63,13 @@ are the same as
 
 This can be used to give a proof of the reduction of [[end|ends]] to [[conical limit|conical limits]] in the $\mathbf{Set}$-enriched case. 
 
-## References ##
+
+## References
 
 The statement above is Ex. IX.6.4 in 
 
 * [[MacLane]], _Categories for the working mathematician - 2nd Edition_
 
+
+[[!redirects twisted arrow category]]
+[[!redirects twisted arrow categories]]
