@@ -63,8 +63,7 @@ in its incarnation as a [[simplicial set]],
 is turned into something like a piecewise smooth space by [[nerve and realization|realizing]]
 each abstract $n$-[[simplex]] by the standard $n$-simplex in $\mathbb{R}^n$; and
 then a [[dg-algebra]] of [[differential form]]s on this piecewise smooth space
-is formed by taking on each simplex the dg-algebra of ordinary rational polynomial
-forms and gluing these dg-algebras all together.
+is formed by taking on each simplex the dg-algebra of ordinary rational [[polynomial differential forms]] and gluing these dg-algebras all together.
 
    This goes back to
 
@@ -96,7 +95,7 @@ the dg-Lie algebra obtained from Quillen's construction.
 
 #### Differential forms on topological spaces {#FormsOnTopSpaces}
 
-A central tool in the study of rational topological spaces is an assignment that sends each [[topological space]]/[[simplicial set]] $X$ to a [[dg-algebra]] $\Omega^\bullet_{poly}(X)$ that behaves like the [[deRham complex|deRham dg-algebra]] of a smooth [[manifold]]. Instead of consisting of smooth [[differential form]]s, $\Omega^\bullet_{poly}(X)$ consists of _piecewise linear polynomial differential forms_ , in a way described in detail now.
+A central tool in the study of rational topological spaces is an assignment that sends each [[topological space]]/[[simplicial set]] $X$ to a [[dg-algebra]] $\Omega^\bullet_{poly}(X)$ that behaves like the [[deRham complex|deRham dg-algebra]] of a smooth [[manifold]]. Instead of consisting of smooth [[differential forms]], $\Omega^\bullet_{poly}(X)$ consists of _piecewise linear polynomial differential forms_ , in a way described in detail now.
 
 The construction of $\Omega^\bullet_{poly}$ is a special case of the following general construction:
 
@@ -149,7 +148,7 @@ is an example for the adjunction induced from a [[dualizing object]].
 
 For the purpose of rational homotopy theory, consider the following special case of the [above general discussion](#FormsOnPresheaves) of differential forms on presheaves.
 
-Recall that by the [[homotopy hypothesis]] theorem, [[Top]] is equivalent to [[SSet]]. In the sense of [[space and quantity]], a [[simplicial set]] is a "generalized space modeled on the [[simplex category]]": a [[presheaf]] on $\Delta$.
+Recall that by the [[homotopy hypothesis]] theorem, [[Top]] is equivalent to [[sSet]]. In the sense of [[space and quantity]], a [[simplicial set]] is a "generalized space modeled on the [[simplex category]]": a [[presheaf]] on $\Delta$.
 
 Therefore set in the above $C := \Delta$. 
 
