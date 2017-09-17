@@ -1377,12 +1377,12 @@ For the purposes of [[Chern-Weil theory]] we want a good way to extract the [[cu
 
 There is an evident higher dimensional generalization of the definition of connections on 1-bundles in terms of functors out of the [[path groupoid]] discussed [above](#ConnectionOnPrincipalBundle). This we discuss now. We will see that, however, the obvious generalization captures not quite all 2-connections. But we will also see a way to recode 1-connections in terms of flat 2-connections. And that recoding then is the right general abstract perspective on connections, which generalizes to [[principal ∞-bundles]] and in fact which in the [[schreiber:differential cohomology in an (∞,1)-topos|full theory]] follows from first principles.
 
-(Construtions and results in this section are from ([SWII+III](#SW)}.)
+(Constructions and results in this section are from ([SWII+III](#SW).)
 
 +-- {: .un_def}
 ###### Definition
 
-The [[path n-groupoid]] $\mathbf{P}_2(X)$ is the smooth [[strict 2-groupoid]] analogous to $\mathbf{P}_1(X)$, but with nontrivial [[2-morphism]]s given by [[thin homotopy]]-classes of disks $\Delta^2_{Diff} \to X$ with [[sitting instant]]s.
+The [[path n-groupoid|path 2-groupoid]] $\mathbf{P}_2(X)$ is the smooth [[strict 2-groupoid]] analogous to $\mathbf{P}_1(X)$, but with nontrivial [[2-morphism]]s given by [[thin homotopy]]-classes of disks $\Delta^2_{Diff} \to X$ with [[sitting instant]]s.
 
 In analogy to the projection $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ there is a projection to $\mathbf{P}_2(X) \to \mathbf{\Pi}_2(X)$ to the 2-groupoid obtained by dividing out full homotopy of disks, relative boundary.
 
@@ -1415,14 +1415,14 @@ $$
   \,.
 $$
 
-This inducces a [[differential crossed module]] $(\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1)$, the [[Lie 2-algebra]] of $G$.
+This induces a [[differential crossed module]] $(\mathfrak{g}_2 \stackrel{\delta_*}{\to} \mathfrak{g}_1)$, the [[Lie 2-algebra]] of $G$.
 
 =--
 
 +-- {: .un_example}
 ###### Example
 
-For $A$ is an [[abelian group|abelian]] Lie group then $\mathbf{B}K$ is the [[delooping]] 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ is the 2-group coming from the complex $[K \to 1 \to 1]$.
+For $K$ an [[abelian group|abelian]] Lie group then $\mathbf{B}K$ is the [[delooping]] 2-group coming from the crossed module $[K \to 1]$ and $\mathbf{B}\mathbf{B}K$ is the 2-group coming from the complex $[K \to 1 \to 1]$.
 
 =--
 
@@ -1446,7 +1446,7 @@ $$
       && y
       \\
       & {}^{\mathllap{tra(\gamma_1)}}\nearrow 
-      &\Downarrow^{\mathrlap{tra(\sigma)}}& 
+      &\Downarrow^{\mathrlap{tra(\Sigma)}}& 
       \searrow^{\mathrlap{tra(\gamma_2)}}
       \\
       x &&\to&& z
@@ -1499,7 +1499,7 @@ As before, this is natural in $X$, so that we that we get a [[(infinity,1)-presh
 
 $$
   \mathbf{\flat}\mathbf{B}G : U \mapsto
-  [CartSp^{op}, 2Grpd]\mathbf{\Pi}_2(U), \mathbf{B}G)
+  [CartSp^{op}, 2Grpd](\mathbf{\Pi}_2(U), \mathbf{B}G)
   \,.
 $$
 
@@ -1590,12 +1590,12 @@ This appears for instance in the [[action functional]] of the [[sigma model]] th
 
 =--
 
-The following example of a flat nonabelian 2-bundle is very degenerate as far as 2-bundles go, but does congtain in it the seed of a full understanding of connections on 1-bundles.
+The following example of a flat nonabelian 2-bundle is very degenerate as far as 2-bundles go, but does contain in it the seed of a full understanding of connections on 1-bundles.
 
 +-- {: .un_def}
 ###### Definition
 
-For $G$ a [[Lie group]] its [[inner automorphism 2-group]] $INN(G)$ is as a groupoid just the [[universal principal infinity-bundle|universal G-bundle]] $\mathbf{E}G$, but regarded as a 2-group with the group structure coming from the crossed module $[G \stackrel{Id}{\to} G].
+For $G$ a [[Lie group]] its [[inner automorphism 2-group]] $INN(G)$ is as a groupoid just the [[universal principal infinity-bundle|universal G-bundle]] $\mathbf{E}G$, but regarded as a 2-group with the group structure coming from the crossed module $[G \stackrel{Id}{\to} G]$.
 
 =--
 
@@ -1628,7 +1628,7 @@ of flat $INN(G)$-valued 2-connections and Lie-algebra valued 1-forms. Under the 
 
 =--
 
-This means that 2-connectons with values in $INN(G)$ actually model 1-connections _and_ keep track of their curvatures. Using this we see in the next section a general abstract definition of connections on 1-bundles that naturally supposrt the [[Chern-Weil homomorphism]].
+This means that 2-connections with values in $INN(G)$ actually model 1-connections _and_ keep track of their curvatures. Using this we see in the next section a general abstract definition of connections on 1-bundles that naturally supposrt the [[Chern-Weil homomorphism]].
 
 #### Curvature characteristics of 1-bundles {#CurvatureCharacteristicsI}
 
