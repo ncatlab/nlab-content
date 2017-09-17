@@ -1831,7 +1831,7 @@ We have the following morphisms between these:
 
 * $X \to \mathbf{P}_1(X)$ -- includion of constant paths into all paths;
 
-* $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ -- sends [[thin-homotopy]]-classes of paths to their full homotopy classes;
+* $\mathbf{P}_1(X) \to \mathbf{\Pi}_1(X)$ -- sends [[thin homotopy]]-classes of paths to their full homotopy classes;
 
 * $\mathbf{\flat}\mathbf{B}G \to \mathbf{B}G_{conn}$ -- the morphism induced by that which forgets that a connection is flat;
 
@@ -1843,7 +1843,7 @@ We have the following morphisms between these:
 
 
 
-### For the $\infty$-Chern-Weil homomorphism
+### For the $\infty$-Chern-Weil homomorphism {#CWHomomorphismSummary}
 
 For $\mathfrak{g}$ an [[∞-Lie algebra]] we have the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$, the [[Weil algebra]] $W(\mathfrak{g})$ and the algebra of [[invariant polynomial]]s $inv(\mathfrak{g})$, with canonical morphisms
 
@@ -1914,7 +1914,7 @@ $$
   \,.
 $$
 
-The $\infty$-Chern-Weil homomorphism is at this level of local data the operation that takes the $\mathfrak{g}$-connection to a $b^k \mathbb{R}$-conneciton by forming the [[pasting]] composite of these two diagrams
+The $\infty$-Chern-Weil homomorphism is at this level of local data the operation that takes the $\mathfrak{g}$-connection to a $b^k \mathbb{R}$-connection by forming the [[pasting]] composite of these two diagrams
 
 $$
   \array{
