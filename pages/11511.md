@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -42,5 +44,10 @@ Under [[S-duality]] the [[modular group]] $SL_2(\mathbb{Z})$ acts on these $(p,q
 * [[S-duality]]
 
 * [[F-theory]]
+
+## References
+
+* [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
+
 
 [[!redirects (p,q)-strings]]
