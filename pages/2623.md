@@ -599,6 +599,11 @@ holds.
 ## References 
  {#References}
 
+Review of renormalization and specifically of the Hopf algebra description of the BPHZ method is in
+
+* [[Alain Connes]], [[Matilde Marcolli]] _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+
 ### Traditional physics accounts
  {#General}
 
@@ -682,3 +687,5 @@ See also
 [[!redirects BPHZ renormalization]]
 
 [[!redirects Hopf-algebraic renormalization]]
+
+[[!redirects Hopf algebra renormalization]]
