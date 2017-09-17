@@ -40,6 +40,8 @@ See at _[perturbation theory -- Divergence/convergence](perturbation+theory#Dive
 
 ## Related concepts
 
+* [[fiber bundles in physics]]
+
 * [[instanton]], [[brane]], [[renormalon]]
 
 * [[lattice gauge theory]]
