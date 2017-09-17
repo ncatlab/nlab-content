@@ -152,6 +152,22 @@ X^p
 
 * Frobenius is [[surjective]] if and only if $k$ is [[perfect field|perfect]].
 
+### As elements of the Galois group
+ {#AsElementsOfGaloisGroup}
+
+Some powers of the Frobenius morphism canonically induce elements in the [[Galois group]] (...) 
+
+
+Review of the standard story is for instance in ([Snyder 02, section 1.5](#Snyder02)).
+Further developments include  ([Dokchitser-Dokchitser 10](#DokchitserDokchitser10))
+
+If $\mathbb{F}_{p^n}$ is a [[finite field]],then $Gal(\mathbb{F}_{p^n}/\mathbb{F}_p)$ is [[generators and relations|generated]] by the Frobenius map $x\mapsto x^p$ (e.g. [Snyder 02, lemma 1.5.10](#Snyder02)).
+
+(..)
+
+See also at _[[Artin L-function]]_.
+
+
 
 ### For schemes
 
@@ -188,16 +204,29 @@ For a more detailed account of the relationship of Frobenius-, [[Verschiebung mo
 
 ## References
 
+* {#Frobenius68} [[Ferdinand Georg Frobenius]], Vol 2, around p. 719 of _Gesammelte Abhandlungen_, Springer-Verlag, Berlin, 1968.
 
-* Michel Demazure, [[lectures on p-divisible groups]] [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
+Lecture notes include
+
+* [[Günter Tamme]], section II 4.2 of _[[Introduction to Étale Cohomology]]_
+
+* [[James Milne]], section 27 of _[[Lectures on Étale Cohomology]]_
+
+
+Further discussion of the relation to the [[Galois group]] includes
+
+* {#Snyder02} [[Noah Snyder]], section 1.5 of _Artin L-Functions: A Historical Approach_, 2002 ([pdf](http://www.math.columbia.edu/~nsnyder/thesismain.pdf))
+
+* {#DokchitserDokchitser10} Tim Dokchitser, Vladimir Dokchitser, _Identifying Frobenius elements in Galois groups_ ([arXiv:1009.5388](http://arxiv.org/abs/1009.5388)) 
+
+See also
+
+* Michel Demazure, _[[lectures on p-divisible groups]]_ [web](http://sites.google.com/site/mtnpdivisblegroupsworkshop/lecture-notes-on-p-divisible-groups)
 
 * [[Michiel Hazewinkel]], witt vectors. part 1, [arXiv:0804.3888v1](http://arxiv.org/abs/0804.3888v1){#Hazewinkel}
 
 * Karen Smith, *Brief Guide to Some of the Literature on F-singularities*, <a href="www.aimath.org/WWN/singularvariety/F-sings.pdf">American Institute of Mathematics</a>
 
-* [[Günter Tamme]], section II 4.2 of _[[Introduction to Étale Cohomology]]_
-
-* [[James Milne]], section 27 of _[[Lectures on Étale Cohomology]]_
 
 Discussion in the context of [[power operations]] on [[E-infinity rings]] is in 
 
@@ -219,6 +248,3 @@ Discussion in the context of [[power operations]] on [[E-infinity rings]] is in
 
 [[!redirects Frobenius map]]
 [[!redirects Frobenius maps]]
-
-
-
