@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -25,6 +24,8 @@ Here are some details on clubs of mixed variance, which I was going to get to bu
 In cases like that, the basic club idea will work. Given a category $C$, the free smc category $F(C)$ has the expected objects given by formal iterated applications of hom and tensor to objects of $C$. A morphism is given by a morphism of $F(1)$ together with a labeling of the oriented edges of its underlying graph (an oriented 1-cobordism) by morphisms of $C$. Then, you compose morphisms of this "wreath product" in the obvious way, composing the morphism-labels of edges in 1-cobordisms as they get pasted together. 
 
 It should also be mentioned (I'm sure you know this) that in such mixed variance cases, even if there are no islands in formal compositions, the result is merely a monad on $Cat$, not a 2-monad. On the other hand, you do get a 2-monad if you restict to categories, functors, and natural isomorphisms.
+
+[[Mike Shulman]]: Ah, right, thanks.  Now I remember how Kelly dealt with graphs in that way by just throwing away the "bad composites".  I must have forgotten about it because I thought it was so weird.  (-:  Is that sort of club also a generalized operad for some cartesian monad on $Cat$?
 =--
 
 Clubs were introduced by [[Max Kelly], and are akin in spirit to [[operad|operads]].  In fact, most types of clubs are a special case of [[generalized multicategories|generalized operads]].
