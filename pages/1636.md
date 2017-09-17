@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents 
 {:toc}
@@ -68,7 +78,7 @@ For low $n$ the boundaries of $n$-simplices look as follows (see also the illust
 
 ## Related concepts
 
-* the closely related concept is that of [[horn]].
+* [[horn]], [[spine]]
 
 [[!redirects boundaries of simplicies]]
 
