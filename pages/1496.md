@@ -73,6 +73,7 @@ Thus a Banach space may equivalently be defined as a vector space equipped with 
 
 
 ### Maps between Banach spaces
+{#morphisms}
 
 If $V$ and $W$ are pseudonormed vector spaces, then the **norm** of a linear function $f\colon V \to W$ may be defined in either of these equivalent ways:
 
