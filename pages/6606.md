@@ -1,0 +1,12 @@
+[[!redirects Cartan homotopy formula]]
+Let $M$ be a [[differentiable manifold]], $X$ a [[vector field]] on $M$, and $\mathcal{L}_X$ the [[Lie derivative]] along $X$. The contraction of a vector field and a $k$-form $\omega$ is denoted in modern literature by $X \rfloor \omega$ (should be lrcorner instead of rfloor LaTeX command, but it does not work in iTeX) or $\iota_X \omega$ or $\iota(X)(\omega)$.
+
+Then the __Cartan's infinitesimal homotopy formula__, nowdays called simply Cartan's homotopy formula or even Cartan formula, says
+
+$$
+\mathcal{L}_X \omega = d \iota(X)\omega + \iota(X) d\omega
+$$
+
+The word "homotopy" is used because it supplies a homotopy operator for some manipulation with chain complexes in [[de Rham cohomology]]. Cartan's homotopy formula is part of [[Cartan calculus]]. 
+
+[[!redirects Cartan's magic formula]]
