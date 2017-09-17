@@ -62,6 +62,7 @@ A formal proof is whatever is called a 'proof' in a formal system; a formal syst
 
 * [[proof management system]]
 
+* [[ForMath]], [[MathScheme]]
 
 ## References
 
