@@ -190,7 +190,62 @@ every functor $C \to B$ to any [[model category]] $B$ has a factorization throug
 
 This is theorem 1.1 in
 
-* [[Dan Dugger]], _[[Universal homotopy theories]]_
+* [[Dan Dugger]], _[[Universal homotopy theories]]_ .
+
+The proof is on page 30.
+
+To produce the factorization $[C^{op},sSet] \to B$ given the functor $\gamma$, first
+notice that the ordinary [[Yoneda extension]] $[C^{op},Set] \to B$ would be given by the left [[Kan extension]] given by the [[coend]] formula
+
+$$
+  F \mapsto \int^{c \in C} \gamma(c) \cdot F(c)
+  \,,
+$$
+
+where the dot in the integrand is the [[copower|tensoring]] of cocomplete category $B$ over [[Set]]. To refine this to a [[Quillen adjunction|left Quillen functor]] $L : [C^{op},sSet] \to B$, _choose_ a [[cosimplicial resolution]]
+
+$$
+  \Gamma : C \to [\Delta,B]
+$$
+
+of $\gamma$. Then set
+
+$$
+  L : F \mapsto 
+  \int^{c \in C} 
+  \int^{[n] \in \Delta}
+  \Gamma^n(c) \cdot F_n(c)
+  \,.
+$$
+
+The [[right adjoint]] $R : B \to [C^{op},sSet]$ of this functor is given by
+
+$$
+  R(X) : c \mapsto Hom_B(\Gamma^\bullet(c), X)
+  \,.
+$$
+
+For $(L \dashv R) : [C^{op}, sSet]_{proj} \stackrel{\to}{\leftarrow} B$ to be a [[Quillen adjunction]], it is  sufficient to check that $R$ preserves fibrations and acyclic fibrations. By definition of the projective model structure this means that for every (acyclic) fibration $b_1 \to b_2$ in $B$ we have for every object $c \in C$ that that
+
+$$
+  Hom_C(\Gamma^\bullet(c), b_1 \to b_2)
+$$
+
+is an (acyclic) fibration of simplicial sets. But this is one of the standard properties of [[cosimplicial resolution]]s.
+
+Finally, to find the natural weak equivalence $\eta : L \circ j \simeq \gamma$, write $j : C \to [C^{op},sSet]$ for the [[Yoneda embedding]] and notice that by [[Yoneda reduction]] it follows that for $x \in C$ we have
+
+$$
+  L(j(x))
+  =
+  \int^{c \in C} \int^{[n] \in \Delta}
+  \Gamma^n(c) \cdot C(c,x)
+  =
+  \Gamma^0(x)
+$$
+(where equality signs denote [[isomorphism]]s).
+
+By the very definition of cosimplicial resolutions, there is a natural weak equivalence $\Gamma(x) \stackrel{\simeq}{\to}$. We can take this to be the component of $\eta$.
 
 =--
 
