@@ -728,7 +728,7 @@ See also [[Dold-Kan correspondence]].
 
 For an extensive list of relevant publications see
 
-* [[Ronnie Brown9], _publication list_ ([web](http://www.bangor.ac.uk/~mas010/publicfull.htm))
+* [[Ronnie Brown]], _publication list_ ([web](http://www.bangor.ac.uk/~mas010/publicfull.htm))
 
 Some selected references are:
 
