@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
 =--
 =--
 
@@ -115,7 +119,7 @@ in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$
 
 The above definition is due to Gabriel and Zisman in the book 
 
-* [[P. Gabriel]], M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
+* [[Pierre Gabriel]], [[Michel Zisman]], _[[Calculus of fractions and homotopy theory]]_, _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. Springer, New York (1967) 
 
 although their left-right conventions are reversed from ours.
 
