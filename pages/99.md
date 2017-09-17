@@ -1,7 +1,13 @@
-<div class="rightHandSide toc">
-[[!include infinity-Lie theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -10,7 +16,7 @@
 
 ## Idea
 
-The notion of _Weil algebra_ is ordinarily defined for a [[Lie algebra]] $\mathfrak{g}$. It may be understood as the [[Chevalley-Eilenberg algebra]] of the tangent [[Lie 2-algebra]] $T \mathfrak{g}$ of $\mathfrak{g}$, generalizing the notion of [[tangent Lie algebroid]] $T X$ from a 0-[[truncated]] Lie algebroid $X$ (a [[smooth manifold]]) to the one-obeject [[Lie algebroid]] $\mathfrak{g}$.
+The notion of _Weil algebra_ is ordinarily defined for a [[Lie algebra]] $\mathfrak{g}$. It may be understood as the [[Chevalley-Eilenberg algebra]] of the tangent [[Lie 2-algebra]] $T \mathfrak{g}$ or $inn(\mathfrak{g})$ of $\mathfrak{g}$, generalizing the notion of [[tangent Lie algebroid]] $T X$ from a 0-[[truncated]] Lie algebroid $X$ (a [[smooth manifold]]) to the one-obeject [[Lie algebroid]] $\mathfrak{g}$.
 
 Generally, for every [[Lie-∞-algebroid]] $\mathfrak{a}$ one may define the corresponding tangent Lie-$\infty$-algebroid $T \mathfrak{a}$ , whose Chevalley-Eilenberg algebra may be called the Weil algebra of $\mathfrak{a}$:
 
@@ -93,7 +99,127 @@ $$
   \right)
 $$
 
-where $\sigma|_{\mathfrak{a}^*} : \mathfrak{a}^* \to \mathfrak{a}^*[1]$ is the canonical degree-shifting isomorphism.
+where $\sigma|_{\mathfrak{a}^*} : \mathfrak{a}^* \to \mathfrak{a}^*[1]$ is the canonical degree-shifting isomorphism, and in $\sigma \circ d_{\mathrm{CE}(\mathfrak{a})} \circ \sigma^{-1}$ its left appearance is its extension as a degree +1 [[derivation]].
+
+## Properties {#Properties}
+
+The main point of the definition is that the differential restricted to the original (unshifted) generators is the original differential plus the shift:
+
+$$
+  d_{W(\mathfrak{a})} |_{\mathfrak{a}^*} = d_{CE(\mathfrak{a})} + \sigma
+  \,.
+$$
+
+By solving the condition $d_{W(\mathfrak{a})} \circ d_{W(\mathfrak{a})} = 0$ and using that $d_{CE(\mathfrak{a})} d_{CE(\mathfrak{a})} = 0$ this already fixes uniquely the differential $d_{W(\mathfrak{a})} \sigma t$ on the shifted generators $\sigma(t) \in \mathfrak{a}^*[1]$. For one computes:
+
+$$
+  \begin{aligned}
+    0 & =
+    d_{W(\mathfrak{a})}(d_{W(\mathfrak{a})} t)
+    \\
+    & = 
+    d_{W(\mathfrak{a})}(d_{CE(\mathfrak{a})}t + \sigma t)
+    \\
+    & = \sigma d_{CE(\mathfrak{a})} t + d_{W(\mathfrak{a}) } \sigma t
+  \end{aligned}
+$$
+
+and hence
+
+$$
+  d_{W(\mathfrak{a})} \sigma t = - \sigma d_{CE(\mathfrak{a})} \sigma^{-1} (\sigma t)
+  \,.
+$$
+
+This implies the following [[free functor|free property]]:
+
++-- {: .un_prop}
+###### Proposition
+
+Let $\mathfrak{g}$ be an $L_\infty$-algebra. Morphisms of $dg$-algebras $W(\mathfrak{g}) \to A$ are in natural bijection to morphisms of [[graded vector space]]s $\mathfrak{g}^* \to U(A)$, where $U(A)$ is the graded vector space underlying $A$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $f : W(\mathfrak{g}) \to A$ be a dg-algebra morphism. By the fact that $\wedge^\bullet (\mathfrak{g}^* \oplus \mathfrak{g}^*[1])$ is a free graded-commutative algebra, this is fixed already by its value on the generators in $\mathfrak{g}^*$ and $\mathfrak{g}^*[1]$ and only further subject to the respect for the differentials.
+
+This respect for the differentials implies that the value $f(\sigma(t))$ of $f$ on the shifted generators $\sigma(t)$ is uniquely fixed by its value on the unshifted generators $t$. From 
+
+$$
+  \begin{aligned}
+    0 &=
+    f(d_{W(\mathfrak{g})} t) - d_A f(t)
+    \\
+    & =
+    f(d_{CE(\mathfrak{g})} t) + f(\sigma(t)) - d_A f(t)
+  \end{aligned}
+$$
+
+we find that in order to have a dg-algebra homomorphism, it must be true that
+
+$$
+  f(\sigma(t)) = d_A f(t) - f(d_{CE(\mathfrak{g})} t)
+  \,.
+$$ 
+
+So it only remains to check that this assignment does in turn imply that $f$ commutes with the differentials also on the shifted generators, i.e. that also
+
+$$
+  0 = f(d_{W(\mathfrak{g})} \sigma t) - d_A f(\sigma t)
+$$
+
+for all $t \in \mathfrak{g}^*$. To see this, apply $d_A$ to the above assignment, and use $d_A \circ d_A = 0$ to get
+
+$$
+  d_A f(\sigma(t)) = - d_A f( d_{CE(\mathfrak{g})} t)
+  \,.
+$$
+
+Now observe that on the right we have $d_A \circ f$ applied to an expression entirely in the unshifted generators. On these we already know that the differential commutes with the morphism, so that this is
+
+$$
+  \cdots = - f (d_{W(\mathfrak{g})} \circ d_{CE(\mathfrak{g})} t)
+  \,.
+$$
+
+Using now again the definition of $d_{W(\mathfrak{g})}$ on unshifted generators and the fact that $d_{CE(\mathfrak{g})}^2 = 0$ this is
+
+$$
+  \cdots = - f \sigma d_{CE(\mathfrak{g}) }t 
+  \,.
+$$
+
+Comparing with the above unique solution of the action of $d_{W(\mathfrak{g})}$, we find that indeed this is
+
+$$
+  \cdots = f d_{W(\mathfrak{g})} \sigma t
+  \,.
+$$
+
+=--
+
+**Example**
+
+In particular for $A = \Omega^\bullet(X)$ the [[de Rham complex]] of a [[smooth manifold]] $X$, we have that 
+
+$$
+  Hom_{dgAlg}(W(\mathfrak{g}), \Omega^\bullet(X))
+  = 
+  \Omega^\bullet(X) \otimes \mathfrak{g}
+$$
+
+is the collection of [[differential form]]s with values in the $\infty$-Lie algebra $\mathfrak{g}$.
+
+A morphism of 
+
+$$
+  (A, F_A) : W(\mathfrak{g}) \to \Omega^\bullet(X)
+$$
+
+sends the unshifted generators $t^a$ to differential forms $A^a$ and sends the shifted generators $\sigma t^a$ to their [[curvature]]. The respect for the differential on the shifted generators is the [[Bianchi identity]] on these curvatures.
+
 
 ## Examples
 
