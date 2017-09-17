@@ -150,6 +150,8 @@ This is also called the **Kostant-Souriau central extension**
 
 * A [[Jordan-Lie-Banach algebra]] is a non-associative (quantum) Poisson algebra.
 
+* The [[quantomorphism group]] is the [[Lie group]] that integrates the Poisson [[Lie bracket]]. Over a [[symplectic vector space]] this contains notably the corresponding [[Heisenberg group]].
+
 ## References
 
 * [[Yvette Kosmann-Schwarzbach]],  _Poisson algebra_, article in _Encyclopedia of mathematics_, ([pdf](http://www.math.polytechnique.fr/~kosmann/palg.pdf))
