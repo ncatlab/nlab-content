@@ -66,6 +66,8 @@ In noncommutative geometry various homotopical and (co)homological invariants we
 
 * [[QFT on non-commutative spacetime]]
 
+* [[noncommutative motive]]
+
 ## References
 
 * [[Alain Connes]], _[[Noncommutative Geometry]]_
