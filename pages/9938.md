@@ -66,3 +66,6 @@ The truncated version is discussed in
 
 [[!redirects Brown-Peterson cohomology theory]]
 [[!redirects Brown-Peterson cohomology theories]]
+
+[[!redirects Brown-Peterson theory]]
+[[!redirects Brown-Peterson theories]]
