@@ -23,6 +23,7 @@ The basic definition of a [[smooth manifold]] is as a space locally modeled on a
 
 * [[manifold structure of mapping spaces]]
 
+* [[orthogonal structure]]
 
 [[!redirects infinite dimensional smooth manifolds]]
 
