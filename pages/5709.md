@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -27,6 +29,74 @@ In the perspective of effective field theory notably  [[renormalization|unrenorm
 
 For instance [[gravity]] -- which is notoriously non-renormalizable -- makes perfect sense as an effective field theory (see for instance the introduction in ([Donoghue](#DonoghueIntroduction)). It is in principle possible that there is some more fundamental theory with plenty of excitations at high energies that is however degreewise finite in [[perturbation theory]], whose _effective_ description at low energy is given by the unrenormalizable [[Einstein-Hilbert action]]. (For instance, [[string theory]] is meant to be such a theory.)
 
+## Theory
+
+The technique of effective field theory is based on the followig fact:
+
++-- {: .num_prop}
+###### Proposition
+
+For a given set of asymptotic states, [[perturbation theory]] with the most
+general [[Lagrangian]] containing all terms allowed by the assumed symmetries
+will yield the most general [[S-matrix]] elements consistent with
+analyticity, [[perturbative unitarity]], [[cluster decomposition]] and the assumed symmetries.
+
+=--
+
+This is due to ([Weinberg 1979](#Weinberg79)) and ([Leutweyler94](#Leutwyler94)).
+
+Based on this fact, one obtains an effective approximation to a given more fundamental theory (which may or may not be actually known) by
+
+1. choosing the (sub)set of fields to be considered;
+
+1. writing down a [[Lagrangian]] 
+
+   $$
+     L_{eff} = \sum_i c_i O_i
+   $$
+
+   that contains _all_ the possible polynomial interaction terms $O_i$ of these fields scaled by their expected/known energy scale $[O_i] = d_i$, up to a maximal energy scale
+
+   (this will in general contain lots of direct interaction that in the fundamental theory are really compound interactions)
+
+    with $c_i \propto \frac{1}{\Lambda^{d_i - dim X}}$;
+
+1. finally one fixes all the coupling constants of all these interactions by
+
+   * either deriving them from a known fundamental theory by _integrating out_ higher energy effects in that theory;
+
+   * or, otherwise, measuring them in the laboratory. The point being that due to the energy cutoff, this is guaranteed to be a finite number of parameters. After these have been determined, all remaining quantities given by the Lagrangian are then predictions of the effective theory.
+
+
+
+## Examples
+
+### Light-by-light scattering
+
+([Pich, section 2.1](#Pich))
+
+### Rayleigh scattering
+
+([Pich, section 2.2](#Pich))
+
+
+### Fermi theory of weak interactions
+
+* [[Fermi theory of beta decay]]
+
+([Pich, section 2.3](#Pich))
+
+
+### Chiral perturbation theory
+
+[[chiral perturbation theory]] is an effective approximation of [[QCD]] in the light [[quark]] sector.
+
+
+### Heavy quark effective field theory
+
+(...)
+
+
 ## References
 
 The modern picture of effective low-energy QFT goes back to 
@@ -36,6 +106,12 @@ The modern picture of effective low-energy QFT goes back to
 * [[Kenneth Wilson]], _Renormalization group and critical phenomena_ , I., Physical review B 4(9) (1971).
 
 * [[Joe Polchinski]], _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231 (1984).
+
+* [[Steven Weinberg]], Physica 96 A (1979) 327
+  {#Weinberg79}
+
+* H. Leutwyler, Ann. Phys., NY 235 (1994) 165.
+  {#Leutwyler94}
 
 A standard textbook adopting this perspective is
 
@@ -50,7 +126,7 @@ to be a book on quantum field theory for the era of effective field theory."  An
 Introductory lecture notes are for instance in 
 
 * A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
-
+ {#Pich}
 The theory of [[gravity]] based on the standard [[Einstein-Hilbert action]] may be regarded as just an effective QFT, which makes some of its notorious problems be non-problems:
 
 * John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
