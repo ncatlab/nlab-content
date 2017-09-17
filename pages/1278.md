@@ -91,8 +91,9 @@ For $c \in \bar \Gamma^\bullet(X)$ a differentia cocycle representing a gauge, o
 
 We survey some aspects of the constructions in
 
-* [[ike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
+* [[Mike Hopkins]], I. Singer, _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
 
+#### Definitions
 
 **Definition
 
@@ -120,15 +121,40 @@ holds, where $\omega$ is here regarded as a singular cochain (that sends a chain
 
 In words this is: a continuous map to the topological space together with a _smooth_ refinement of the pullback of the chosen singular cochain.
 
-The **differential function complex** or [[infinity-groupoid]] $(X,\iota)^S$ of all differential functions $S \to (X,\iota)$ is the [[simplicial set]] whose $k$-cells are differential functions
+The **differential function complex** or **[[infinity-groupoid]] of differential functions** $(X,\iota)^S$ of all differential functions $S \to (X,\iota)$ is the [[simplicial set]] whose $k$-cells are differential functions
 
 $$
   S \times \Delta^k_{\Diff} \to (X,\iota)
   \,.
 $$
 
+Let
+
+$$
+  filt_0 (X,\iota)^S \subset (X,\iota)^S
+$$
+
+be the sub-simplicial set of those simplices $(c,\omega,h) S \times \Delta^k_{Diff} \to (S,\iota)$ for which $\omega \on \Omega^n(S \times \Delta^k_{Diff})$ is pulled back from a form on just $S$, i.e. has no components along the $\Delta^k_{Diff}$-direction.
+
+This $filt_0 (X,\iota)^S$ is the [[homotopy pullback]] in the category [[sSet]] equipped with the standard [[model structure on simplicial sets]] in the diagram
+
+$$
+  \array{
+    filt_0 (X,\iota)^S &\to& filt_0 \Omega^n_{cl}(S \times \Delta^\bullet_{Diff})
+   \\
+   \downarrow && \downarrow
+   \\
+   Hom_{Top}(S \times \Delta^\bullet_{Top}, X)
+   &\to&
+   Z^n(S \times\Delta^\bullet, \mathbb{R})
+  }
+  \,.
+$$
+
+#### Examples
 
 
+...
 
 ### Detailed construction following Bunke--Schick
 
