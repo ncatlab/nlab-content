@@ -509,6 +509,14 @@ Higher order [[moment map]]s are considered in
 * Thomas Bruun Madsen, Andrew Swann, _Closed forms and multi-moment maps_ ([arXiv:1110.6541](http://arxiv.org/abs/1110.6541))
  
 
+### Relation to covariant phase space formalism
+
+The relation of multisymplectic formalism to [[covariant phase space]] and [[variational bicomplex]] methods is discussed in 
+
+
+* Michael Forger, Sandro V. Romero, _Covariant Poisson Brackets in Geometric Field Theory_ ([arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008))
+
+
 ### On quantization of multisymplectic geometry {#RefsonQuantization}
 
 The following articles discuss the [[quantization]] procedure for multisymplectic geometry, generalizing [[geometric quantization]] of [[symplectic geometry]].
