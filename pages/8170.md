@@ -1,0 +1,12 @@
+
+* [Webpage](http://particle-theory.physics.lsa.umich.edu/kane/)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Gordon_L._Kane)
+
+## Related entries
+
+* [[string phenomenology]]
+
+* [[G2-MSSM]]
+
+category: people
