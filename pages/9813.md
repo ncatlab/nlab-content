@@ -46,6 +46,10 @@ $$
 
 (e.g [Mazza-Voevodsky-Weibel, prop. 20.1](#MazzaVoevodskyWeibel))
 
+### Relation to KK-theory
+
+The definition of Chow motives in algebraic geometry is somewhat analogous to the construction of [[KK-theory]] in [[noncommutative topology]]. See at _[KK-theory -- Relation to motives](http://ncatlab.org/nlab/show/KK-theory#AsAnAnalogOfMotives)_.
+
 ## Related concepts
 
 * [[motivic cohomology]]
