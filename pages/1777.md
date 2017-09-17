@@ -61,7 +61,7 @@ where $i^{-1}(-)$ and $p^{-1}(-)$ denote any choice of [[pre-image]] (the total 
 
 =--
 
-![Snake lemma](http://i.stack.imgur.com/lLy14.png)
+[[SnakeLemma.png:pic]]
 
 
 ## Related concepts
