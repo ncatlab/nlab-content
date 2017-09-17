@@ -1,10 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
+=--
+=--
+
 > under construction
 
 > so far these are notes taken in talks by [[Ezra Getzler]]
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## $L_\infty$-algebras
@@ -443,7 +457,7 @@ $$
   \,.
 $$
 
-Now assume that we have a [[sheaf]] of [[L-infinity algebra]]s over a [[topological space]] $X$. Let \{U_\alpha \to X\} be an [[open cover]] of $X$.
+Now assume that we have a [[sheaf L-∞ algebras]] over a [[topological space]] $X$. Let $\{U_\alpha \to X\}$ be an [[open cover]] of $X$.
 
 On $k$-fold intersections we form 
 
@@ -596,3 +610,5 @@ The discussion of the Deligne groupoid (the $\infty$-groupoid "integrating" an $
 * [[Ezra Getzler]], _Lie theory for nilpotent L-infinity algebras_ ([arXiv:0404003](http://arxiv.org/abs/math/0404003))
 
 > A reference for the theorem above seems not to be available yet, but I'll check.
+
+[[!redirects descent for L-∞ algebras]]
