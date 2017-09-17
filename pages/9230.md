@@ -89,8 +89,8 @@ A review of this formulation is in
 
 * [[John Baez]], [[Aaron Lauda]], _A Prehistory of n-Categorical Physics_, Deep beauty, 13-128, Cambridge Univ. Press, Cambridge, 2011 ([arXiv:0908.2469](http://arxiv.org/abs/0908.2469))
 
-Moreover, one may think of [[string diagrams]] in [[monoidal categories]] as being the [[categorical semantics]] for [[proof nets]] (see there for more) in [[linear logic]]. Under this
-identification then Feynman diagrams are [[proof nets]]. This is discussed in
+Moreover, one may think of [[string diagrams]] in [[monoidal categories]] as providing [[categorical semantics]] for [[proof nets]] (see there for more) in multiplicative [[linear logic]]. Under this
+identification then Feynman diagrams have a relation to [[proof nets]]. Something like this is discussed in
 
 * [[Richard Blute]], [[Prakash Panangaden]], _Proof nets as formal Feynman diagrams_ ([pdf](http://www.indiana.edu/~iulg/qliqc/phi.pdf))
 
