@@ -129,6 +129,8 @@ This is given by letting a projective unitary act by conjugation on a Fredholm o
 
 ## Related concepts
 
+* [[projective linear group]]
+
 * [[unitary group]]
 
   * [[special unitary group]], **projective unitary group**
