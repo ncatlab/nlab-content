@@ -39,11 +39,23 @@ Further generalization of the concept leads to [[(∞,n)-vector bundle]]s: an $(
 
 ## Discrete $(\infty,1)$-vector bundles
 
-### General
+We discuss $(\infty,1)$-vector bundles internal to the [[(∞,1)-topos]] [[∞Grpd]] $\simeq$ [[Top]]. Since we are discussing objects with geometric interpretation, we are to think of this as the $(\infty,1)$-topos of _[[discrete ∞-groupoids]]_. 
 
-Throughout we denote by $K$ an [[E-∞ ring]] and by $A$ a $K$-[[algebra spectrum|algebra]], hence an [[A-∞ algebra]] in [[Spec]] equipped with a $\infty$-algebra homomorphism $K \to A$.
+Discussion of $\infty$-vector  bundles internal to _structured_ (non-discrete) $\infty$-groupoids is [below](#Structured).
 
-Write $A Mod$ for the [[(∞,1)-category]] of $A$-[[module spectrum|module spectra]].
+### $\infty$-Modules and $\infty$-Module bundles
+
+Assume in the following choices
+
+* $K$ -- an [[E-∞ ring]] 
+
+* $A$ -- a $K$-[[algebra spectrum|algebra]], 
+  
+  hence an [[A-∞ algebra]] in [[Spec]] equipped with a $\infty$-algebra homomorphism $K \to A$.
+
+Denote
+
+* $A Mod$ -- the [[(∞,1)-category]] of $A$-[[module spectrum|module spectra]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -57,7 +69,7 @@ $$
 
 =--
 
-In this form this appears as ([ABG def. 3.7](#ABG)). Compare this to the analogous definition at [[principal ∞-bundle]]. 
+In this form this appears as ([ABG def. 3.7](#ABG)). Compare this to the analogous definition at _[[principal ∞-bundle]]_. 
 
 +-- {: .num_remark}
 ###### Remark
@@ -75,6 +87,8 @@ Equivalently, this morphism may be regarded as an [[∞-representation]] of $\Pi
 
 =--
 
+### $\infty$-Lines and $\infty$-line bundles
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -84,29 +98,57 @@ $$
   A Line \hookrightarrow A Mod
 $$
 
-for the [[full sub-(∞,1)-category]] on the _$A$-line_ : on those $A$-modules that are equivalent to $A$ as an $A$-module. The full subcatgeory of $A Mod(X)$ on morphisms factoring through this inclusion we call the $(\infty,1)$-catgeory of **$A$-line $\infty$-bundles**.
+for the [[full sub-(∞,1)-category]] on the _$A$-lines_ : on those $A$-modules that are equivalent to $A$ as an $A$-module. The full subcatgeory of $A Mod(X)$ on morphisms factoring through this inclusion we call the $(\infty,1)$-catgeory of **$A$-line $\infty$-bundles**.
 
 =--
 
 This appears as ([ABG def. 3.12](#ABG)), ([ABGHR, 7.5](#ABGHR)).
 
++-- {: .num_defn}
+###### Definition
 
-### Sections and trivializations
+Let $A$ be an [[A-∞ algebra|A-∞]] [[ring spectrum]]. 
+
+For $\Omega^\infty A$ the underlying [[A-∞ space]] and $\pi_0 \Omega^\infty A$ the ordinary [[ring]] of connected components, writ $(\pi_0 \Omega^\infty A)^\times$ for its [[group of units]]. 
+
+Then the [[∞-group of units]] of $A$ is the [[(∞,1)-pullback]] $GL_1(A)$ in
+
+$$
+  \array{
+    GL_1(A) &\to& \Omega^\infty A
+    \\
+    \downarrow && \downarrow
+    \\
+    (\pi_0 \Omega^\infty A)^\times &\to& \pi_0 \Omega^\infty A
+  }
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_prop}
 ###### Proposition
 
-There is an [[equivalence of (∞,1)-categories]] 
+There is an [[equivalence in an (∞,1)-category|equivalence]] of [[∞-groups]] 
+
+$$
+  GL_1(A) \simeq Aut_{A Line}(A)
+$$
+
+of the [[∞-group of units]] of $A$ with the [[automorphism ∞-group]] of $A$, regarded canonically as a module over itself.
+
+Since every $A$-line is by definition equivalent to $A$ as an $A$-module, there is accordingly, an [[equivalence of (∞,1)-categories]], in fact of [[∞-groupoids]]:
 
 $$
  A Line \simeq B GL_1(A) \simeq B Aut(A)
 $$
 
-that identifies $A Line$ as the [[delooping]] of the [[automorphism ∞-group]] of $A$, equivalently its [[group of units]].
+that identifies $A Line$ as the [[delooping]] [[∞-groupoid]] of either of these two [[∞-groups]].
 
 =--
 
-This appears in ([ABG, 3.6](#ABG)).
+This appears in ([ABG, 3.6](#ABG)) ([p. 10](http://arxiv.org/pdf/1002.3004v2.pdf#page=10)). See also ([ABGHR, section 6](#ABGHR).
 
 
 +-- {: .num_remark}
@@ -124,21 +166,41 @@ $A$-[[generalized (Eilenberg-Steenrod) cohomology|cohomology]] on $X$.
 
 =--
 
-For the moment see [[twisted cohomology]] for more on this.
+For the moment see _[[twisted cohomology]]_ for more on this.
+
+
+### Sections and twisted cohomology
+
 
 +-- {: .num_defn}
 ###### Definition
 
-The $A$-module of (dual) [[section]]s of an $(\infty,1)$-module bundle $f : X \to A Mod$ is the [[(∞,1)-colimit]] over this functor
+The $A$-module of (dual) [[sections]] of an $(\infty,1)$-module bundle $f : X \to A Mod$ is the [[(∞,1)-colimit]] over this functor
 
 $$
-  \Gamma(f) := \lim_\to (X \stackrel{\alpha}{\to} A Mod)
+  X^f := \lim_\to (X \stackrel{\alpha}{\to} A Mod)
+  \,.
+$$
+
+The corresponding _spectrum of sections_ is the $A$-dual 
+
+$$
+  \Gamma(f) := Mod_A(X^f, A)
   \,.
 $$
 
 =--
 
-For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR, def. 7.27, remark 7.28](#ABGHR)) the **Thom $A$-module** of $f$ and written $M f$. Because for $A = S$ the [[sphere spectrum]], $M f$ is indeed the classical [[Thom spectrum]] of the spherical fibration given by $f$:
+This is ([ABG, def. 4.1](#ABG)) and ([ABG, p. 15](#ABG)), ([ABG11, remark 10.16](#ABGII)).
+
++-- {: .num_remark}
+###### Remark
+
+For $f$ an $A$-line bundle  $\Gamma(f)$ is called in ([ABGHR, def. 7.27, remark 7.28](#ABGHR)) the **Thom $A$-module** of $f$ and written $M f$. 
+
+=--
+
+Because for $A = S$ the [[sphere spectrum]], $M f$ is indeed the classical [[Thom spectrum]] of the spherical fibration given by $f$:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -155,6 +217,9 @@ $$
 =--
 
 This is ([ABGHR, theorem 4.5](#ABGHR)).
+
+
+### Trivializations and orientations
 
 
 +-- {: .num_defn}
@@ -223,6 +288,9 @@ $$
 =--
 
 ## Structured $(\infty,1)$-vector bundles
+ {#Structured}
+
+We discuss now $(\infty,1)$-vector bundles in more general [[(∞,1)-toposes]].
 
 (...)
 
@@ -250,7 +318,7 @@ $$
 
 ## References
 
-A systematic discussion of discrete $(\infty,1)$-module bundles is in the pair of articles
+A systematic discussion of discrete $(\infty,1)$-module bundles is in the triple of articles
 
 * [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
  {#ABGHR}
