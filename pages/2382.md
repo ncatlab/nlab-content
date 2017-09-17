@@ -55,6 +55,8 @@
   
 ## Topos morphisms
 
+* [[logical morphism]]
+
 * [[geometric morphism]]
 
   * [[direct image]]/[[inverse image]]
@@ -87,7 +89,8 @@
 
   * [[hyperconnected geometric morphism]]
 
-* [[logical morphism]]
+  * [[atomic geometric morphism]]
+
 
 
 ## Extra stuff, structure, properties
