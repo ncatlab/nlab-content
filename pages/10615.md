@@ -28,11 +28,16 @@ For all $n \in \{-2, -1, 0,1,2,3, \cdots\}$, [[truncated object in an (infinity,
 
 $(-2)$-truncation is the [[unit type]] modality (constant on the unit type).
 
-In a [[predicative topos|predicative]] context, (-1)-truncation is equivalent to the [[double negation modality]].
+(-1)-truncation is given by _[[bracket types]]_. [[classical logic|Classically]] by the [[double negation modality]].
 
 ### Relation to higher inductive type
 
 $n$-truncation is given by a [[higher inductive type]].
+
+## Related concepts
+
+[[!include homotopy n-types - table]]
+
 
 ## References
 
