@@ -85,7 +85,7 @@ A proviola-enhanced version of the Coq-library for [[homotopy type theory]] is a
   _Math Classes_, Coq Library for basic mathematical structures ([web](http://math-classes.org/))
  {#MathClasses}
 
-For applications to [[homotopy type theory]] see there references listed there. Especially
+For applications to [[homotopy type theory]] see the references listed there. Especially
 
 * [[Vladimir Voevodsky]], _[Univalent Foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   {#UnivalentFoundations}
