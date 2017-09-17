@@ -108,6 +108,8 @@ Notice well the two assumptions that were made to make this argument work:
 
 ## Examples
 
+* [[moduli space of complex structures]]
+
 * [[moduli space of Riemannian metrics]]
 
 * [[moduli space of connections]]
@@ -123,6 +125,11 @@ Notice well the two assumptions that were made to make this argument work:
 * [[Hilbert scheme]], [[Quot scheme]], [[Picard scheme]], [[moduli stabilization]]
 
 ## References
+ {#References}
+
+* [[David Ben-Zvi]], _Moduli spaces_ ([pdf](http://www.math.utexas.edu/users/benzvi/math/pcm0178.pdf))
+
+* [[Ib Madsen]], _Moduli spaces from a topological viewpoint_, ICM 2006 ([pdf](http://www.icm2006.org/proceedings/Vol_I/20.pdf))
 
 A bit of elementary exposition of these ideas is at 
 
