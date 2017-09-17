@@ -116,7 +116,77 @@ $$
 
 by precomposition with a cofibrant replacement functor (for the colimit) and a fibrant replacement functor (for the limit).
 
-For instance for $Q_{proj} : [D,C] \to [D,C]$ a cofibrant replacment for the projective [[model structure on functors]] we have
+### Local definition 
+
+The local definition requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram. 
+
+For the case of [[SimpSet]]-[[enriched category|enrichment]] one elegant way to do so is in terms of suitable [[weighted limit]]s as described in the example section at [[weighted limit]]: a homotopy commutative cone with tip $c \in C$ over a diagram $F : K \to C$ in an $\Simp\Set$-enriched category $C$ is a natural transformation 
+$W \Rightarrow C(c,F(-)) : K \to \Simp\Set$ where the _weight_ functor $W$ is not constant on the point, as for ordinary limits, but is given by $W : k \mapsto N(K/k)$.
+
+
+The same idea works if we are enriched over a category $V$ that is not $\SimpSet$ but is itself enriched over $\Simp\Set$, such as [[topological space]]s or [[spectrum|spectra]], since then any $V$-category becomes a $\Simp\Set$-category as well in a natural way.  Finally, although a general [[model category]] need not be enriched over anything, it is always "almost" enriched over $\Simp\Set$, and so one can still make sense of this using the techniques of _framings_ and _resolutions_; see the books of Hirschhorn and Hovey.
+
+Following the reasoning described in Example 1 of [[representable functor]] one then defines the homotopy limit $L$ of a functor $F: K \to C$ to be a representing object for such homotopy cones, in the sense that we have a (weak) equivalence
+$$ Map(X,L) \simeq HoCones(X,F)$$
+of [[hom-objects]] (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
+
+
+### Global versus local
+
+The global definition is formulated in terms of [[weak equivalence|weak equivalences]] only, while the local definition is formulated in terms of [[homotopy|homotopies]] only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
+
+It then turns out that the "good" (precisely, "fibrant") replacement $R F$ "builds in" precisely the right homotopies so that an ordinary cone over $R F$ is the same as a homotopy-commutative cone over $F$.  Therefore, $lim (R F)$, which is the global homotopy-limit of $F$, is a representing object for homotopy-commutative cones over $F$, and thus is also a local homotopy-limit of $F$.  There is a dual argument for colimits using cofibrant replacements.
+
+Formal versions of this argument can be found in many places.  Perhaps the original statement can be found in XI.8.1 of:
+
+* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.
+
+(As was often the case with Kan's papers at that time, there are some details omitted from that treatment, but most are, as he claimed, quite easy to complete.)  For another approach in an algebraic context, there is a description in Illusie's thesis.
+
+An abstract version in modern language, with proof, can be found in
+
+* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
+
+
+#### Strictness 
+
+Another notable difference between the local and global definitions is that the global definition can only ever define the homotopy limit up to weak equivalence (isomorphism in the homotopy category), while in the local definition we _could_ require, if we wanted to, an actual isomorphism
+$$ Map(X,L) \cong HoCones(X,F)$$
+of hom-objects, rather than merely a weak equivalence.  By analogy with [[strict 2-limit|strict 2-limits]], we may call such an object a **strict homotopy limit**.
+
+Frequently a strict homotopy limit does in fact exist, and can be constructed as a [[weighted limit]] in the ordinary (enriched) category in question.  In such cases, the strict homotopy limit may be easier to compute with than an arbitrary homotopy limit merely known to have the up-to-weak-equivalence universal property.  Thus, sometimes when people say [[generalized the|the]] homotopy limit they refer mean a _strict_ homotopy limit.
+
+When a strict homotopy limit exists, an arbitrary homotopy limit may be defined as an object which is (weakly) equivalent to the strict homotopy limit.
+
+### Derivators {#Derivators}
+
+It is noteworthy that the homotopy limit and colimit in a [[category with weak equivalences]] are drastically different from the ordinary [[limit]] and colimit in the corresponding [[homotopy category]]: the universal property of the full $(\infty,1)$-categorical limits and colimits crucially does take into account the explicit higher cells and does not work just up to any higher cells.
+
+This (obvious) observation is a very old one and can be seen to be one of the driving forces behind the insight that just working with [[homotopy categories]] misses crucial information, something which today is understood as the statement that a homotopy category is just the [[decategorification]] of an [[(∞,1)-category]].
+
+While the full theory of [[(∞,1)-categories]] is one way to impose the correct notion of higher categorical limits, there are other ways to deal with issue. Due to [[Alexander Grothendieck]] is the technique of using **[[derivator]]s** for keeping track of homotopy limits.
+
+Roughly, the idea of a derivator is that while the single [[homotopy category]] $Ho(C)$ of a category $C$ with weak equivalences is not sufficient information, the homotopy limit of a diagram in $[D,C]$ _is_ encoded in the homotopy category $Ho([D,C])$ of that [[functor category]] (this is after all the domain of the plain 1-categorical [[derived functor]] of the limit functor). Accordingly, what is called the [[derivator]] of a category with weak equivalences $C$ is a collection of _all_ the homotopy categories $Ho([D,C])$ of _all_ the possible [[diagram]] categories $[D,C]$, as $D$ runs over all small categories. See there for more details.
+
+
+## Computational methods
+
+Above we defined homotopy (co)limits in general. There are various more specific formulas and algorithms for computing homotopy (co)limits. Here we discuss some of these
+
+### Ordinary (co)limits over resolved diagrams
+
+The direct prescription for computing the value of a rigt or left [[derived functor]] between [[model categories]] is by evaluating the original functor on a fibrant or cofibrant [[resolution]] of the given object.
+
+For the derived functors of limit and colimit
+
+$$
+  [D,C] \stackrel{\overset{\lim_\leftarrow}{\to}}{\stackrel{\overset{const}{\leftarrow}}{\underset{\lim_\to}{\to}}}
+  C
+$$
+
+let for instance 
+
+$Q_{proj} : [D,C] \to [D,C]$ be a cofibrant replacement for the projective [[model structure on functors]]. Then we have
 
 $$
   hocolim F \simeq colim Q_{proj}(F)
@@ -130,7 +200,13 @@ $$
   \,.
 $$
 
-In some applications it is, however, inconvenient to to produce a projectively cofbrant  replacement of a colimit diagram. There is another formula that produces an equivalent result: let $Q'_{proj}$ a cofibrant replacement functor for $[D^{op}, sSet_{Quillen}]_{proj}$ (notice the [[opposite category]]) and $Q_{inj}$ one for $[D,C]_{inj}$. Let $* \in [D^op,sSet]$ [[simplicial presheaf]] constant on the terminal simplicial set and $Q'_{proj}(')$ its projective cofibrant replacement. 
+Often, however, it is inconvenient to produce a resolution of a diagram. Because often all the work is in finding the resolution, while it is easy to evaluate the original functor on it.  Therefore one wants ways to slightly change the setup of the problem such that the computation of the resolutions becomes more systematic. One such way is the use of derived (co)ends, discussed [below](ResolvedCoEnds).
+
+
+### Resolved (co)ends
+ {#ResolvedCoEnds}
+
+Let $Q'_{proj}$ a cofibrant replacement functor for $[D^{op}, sSet_{Quillen}]_{proj}$ (notice the [[opposite category]]) and $Q_{inj}$ one for $[D,C]_{inj}$. Let $* \in [D^op,sSet]$ [[simplicial presheaf]] constant on the terminal simplicial set and $Q'_{proj}(')$ its projective cofibrant replacement. 
 
 Then we also have the [[coend]] expression
 
@@ -193,58 +269,14 @@ For details on this see [[Quillen bifunctor]] or around page 9 of ([Gambino](#Ga
 From the fact that this is a Quillen bifunctor and using the observation that for the _trivial_ weight $W = const 1$ the wighted colimit reduces to an ordinary colimit, follows the above Bousfield-Kan-type formula for the homotopy colimit.
 
 
-### Local definition 
-
-The local definition requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram. 
-
-For the case of [[SimpSet]]-[[enriched category|enrichment]] one elegant way to do so is in terms of suitable [[weighted limit]]s as described in the example section at [[weighted limit]]: a homotopy commutative cone with tip $c \in C$ over a diagram $F : K \to C$ in an $\Simp\Set$-enriched category $C$ is a natural transformation 
-$W \Rightarrow C(c,F(-)) : K \to \Simp\Set$ where the _weight_ functor $W$ is not constant on the point, as for ordinary limits, but is given by $W : k \mapsto N(K/k)$.
 
 
-The same idea works if we are enriched over a category $V$ that is not $\SimpSet$ but is itself enriched over $\Simp\Set$, such as [[topological space]]s or [[spectrum|spectra]], since then any $V$-category becomes a $\Simp\Set$-category as well in a natural way.  Finally, although a general [[model category]] need not be enriched over anything, it is always "almost" enriched over $\Simp\Set$, and so one can still make sense of this using the techniques of _framings_ and _resolutions_; see the books of Hirschhorn and Hovey.
 
-Following the reasoning described in Example 1 of [[representable functor]] one then defines the homotopy limit $L$ of a functor $F: K \to C$ to be a representing object for such homotopy cones, in the sense that we have a (weak) equivalence
-$$ Map(X,L) \simeq HoCones(X,F)$$
-of [[hom-objects]] (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
+### Bar constructions
+ {#BarConstruction}
 
 
-### Global versus local
-
-The global definition is formulated in terms of [[weak equivalence|weak equivalences]] only, while the local definition is formulated in terms of [[homotopy|homotopies]] only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
-
-It then turns out that the "good" (precisely, "fibrant") replacement $R F$ "builds in" precisely the right homotopies so that an ordinary cone over $R F$ is the same as a homotopy-commutative cone over $F$.  Therefore, $lim (R F)$, which is the global homotopy-limit of $F$, is a representing object for homotopy-commutative cones over $F$, and thus is also a local homotopy-limit of $F$.  There is a dual argument for colimits using cofibrant replacements.
-
-Formal versions of this argument can be found in many places.  Perhaps the original statement can be found in XI.8.1 of:
-
-* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.
-
-(As was often the case with Kan's papers at that time, there are some details omitted from that treatment, but most are, as he claimed, quite easy to complete.)  For another approach in an algebraic context, there is a description in Illusie's thesis.
-
-An abstract version in modern language, with proof, can be found in
-
-* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
-
-
-#### Strictness 
-
-Another notable difference between the local and global definitions is that the global definition can only ever define the homotopy limit up to weak equivalence (isomorphism in the homotopy category), while in the local definition we _could_ require, if we wanted to, an actual isomorphism
-$$ Map(X,L) \cong HoCones(X,F)$$
-of hom-objects, rather than merely a weak equivalence.  By analogy with [[strict 2-limit|strict 2-limits]], we may call such an object a **strict homotopy limit**.
-
-Frequently a strict homotopy limit does in fact exist, and can be constructed as a [[weighted limit]] in the ordinary (enriched) category in question.  In such cases, the strict homotopy limit may be easier to compute with than an arbitrary homotopy limit merely known to have the up-to-weak-equivalence universal property.  Thus, sometimes when people say [[generalized the|the]] homotopy limit they refer mean a _strict_ homotopy limit.
-
-When a strict homotopy limit exists, an arbitrary homotopy limit may be defined as an object which is (weakly) equivalent to the strict homotopy limit.
-
-### Derivators {#Derivators}
-
-It is noteworthy that the homotopy limit and colimit in a [[category with weak equivalences]] are drastically different from the ordinary [[limit]] and colimit in the corresponding [[homotopy category]]: the universal property of the full $(\infty,1)$-categorical limits and colimits crucially does take into account the explicit higher cells and does not work just up to any higher cells.
-
-This (obvious) observation is a very old one and can be seen to be one of the driving forces behind the insight that just working with [[homotopy categories]] misses crucial information, something which today is understood as the statement that a homotopy category is just the [[decategorification]] of an [[(∞,1)-category]].
-
-While the full theory of [[(∞,1)-categories]] is one way to impose the correct notion of higher categorical limits, there are other ways to deal with issue. Due to [[Alexander Grothendieck]] is the technique of using **[[derivator]]s** for keeping track of homotopy limits.
-
-Roughly, the idea of a derivator is that while the single [[homotopy category]] $Ho(C)$ of a category $C$ with weak equivalences is not sufficient information, the homotopy limit of a diagram in $[D,C]$ _is_ encoded in the homotopy category $Ho([D,C])$ of that [[functor category]] (this is after all the domain of the plain 1-categorical [[derived functor]] of the limit functor). Accordingly, what is called the [[derivator]] of a category with weak equivalences $C$ is a collection of _all_ the homotopy categories $Ho([D,C])$ of _all_ the possible [[diagram]] categories $[D,C]$, as $D$ runs over all small categories. See there for more details.
-
+A general way of obtaining resoltions that compute homotopy (co)limits involves [[bar construction]]s. (...)
 
 ## Homotopy limits versus higher categorical limits
 
@@ -825,6 +857,43 @@ See ([Dugger, example 18.2](#Dugger)).
 
 ### Homotopy colimits over diagrams of spaces
 
+#### By geometric realization
+
+The following is sometimes in the literature taken as the definition of homotopy colimits of diagrams of spaces. It is one of the earliest formulas for there.
+
++-- {: .un_defn}
+###### Definition
+
+Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [{[functor]]. 
+
+Define a [[simplicial topological space]] $sF$ by setting
+
+$$
+  sF : [n] \mapsto \coprod_{d_0 \leftarrow d_1 \leftarrow \cdots \leftarrow d_n} F(d_n) 
+$$
+
+and using the obvious face and degeneracy maps: face maps act by mapping components of the [[coproduct]]s over one sequence of morphisms to one obtained by deleting outer arrows or composing inner arrows. If the rightmost arrow is deleted, then the component map is not the identity but is $F(d_n) \to D(d_{n-1})$. The degeneracy maps similarly introduce identity morphisms.
+
+=--
+
++-- {: .un_theorem}
+###### Theorem
+
+Let $D$ be a [[category]] and $F : D \to$ [[Top]] a [{[functor]]. Then the homotopy colimit of $F$ is equivalent to the [[geometric realization of simplicial topological spaces]] of $s F$:
+
+$$
+   hocolim F \simeq \vert sF \vert
+  \,.
+$$
+
+=--
+
+This is an application of the [bar-construction method](BarConstruction).
+
+See for instance ([Dugger, part 1](#Dugger)) for an exposition.
+
+
+#### Higher homotopy van Kampen theorem
 
 +-- {: .un_theorem}
 ###### Theorem
