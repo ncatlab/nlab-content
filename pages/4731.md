@@ -55,3 +55,4 @@ $$
 
 
 [[!redirects connections on a 2-bundle]]
+[[!redirects connections on 2-bundles]]
