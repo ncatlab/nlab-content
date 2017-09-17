@@ -119,7 +119,7 @@ $$
 with 
 
 $$
-  J^n \mathbf{H} \coloneqq Exc^n(\mathbf{H}^{\ast/}, \mathbf{H})
+  J^n \mathbf{H} \coloneqq Exc^n(\infty Grpd^{\ast/}, \mathbf{H})
 $$
 
 the tower of "[[Goodwillie calculus|Goodwillie]] [[jet (∞,1)-categories]]" of $\mathbf{H}$.
