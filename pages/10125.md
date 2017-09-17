@@ -1,0 +1,5 @@
+
+
+The [[unit object]] of a [[tensor product]].
+
+[[!redirects tensor units]]
