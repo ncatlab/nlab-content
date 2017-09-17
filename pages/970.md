@@ -36,4 +36,6 @@ Many tools and results about small categories, in particular concerning [[limit]
 
 * **large category**
 
+* [[universe enlargement]]
+
 [[!redirects large categories]]
