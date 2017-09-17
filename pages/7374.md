@@ -1,0 +1,41 @@
+# Special $\Delta$-space
+* table of contents
+{: toc}
+
+## Idea
+
+A special $\Delta$-space is a simplicial space that constitutes a model for an $\infty$-monoid. It was first introduced by [[G. Segal]] as a mean for the characterization of an infinite loop space via [[Gamma-space]]. 
+When a special $\Delta$-space is group-like, it becomes a model for an [[infinity-group]] aka a loop space. Group-like special $\Delta$-spaces characterize loop spaces by means of finite products and weak equivalences and as such show that the property of being a loop space is transparently invariant under localizations.
+
+If $M$ is a topological monoid, its classifying space $BM$ has a model as a simplicial space in which the 0th level is a point and the nth level is n-times the product of the 1st level. The idea of a special $\Delta$-space is requiring the above two properties of the simplicial space $BM$ to hold up to homotopy and capture all $\infty$-monoids in this way.
+
+The passage from special $\Delta$-spaces to group-like special $\Delta$-spaces is the step of adding "inverses up to coherent homotopy". It turns out to be equivalent to simply require that the monoid of path components of the 1st level admits a group structure.
+
+## Definition
+
+A simplicial space $X:\Delta^{op}\to Top$ is called a special $\Delta$-space if:
+
+(1) the space $X_0$ is weakly contractible;
+
+(2) for each $n\geq 1$, the Segal map $X_n\to X_1\times ...\times X_1$ is a weak equivalence.
+
+$X$ is called group-like special if in addition:
+
+(3) the monoid structure on $\pi_0 X_1$, induced from the $H$-space structure on $X_1$, admits a group structure.
+
+## Properties
+
+Proposition([[G. Segal]]): if $X$ is a group-like special $\Delta$-space, the map $X_1\to \Omega |X|$ is a weak equivalence.
+
+## Generalizations
+
+The idea of special $\Delta$-spaces can be used for the characterization of n-fold loop spaces by n-simplicial spaces $X:(\Delta^{op})^n\to Top$ in which the corresponding Segal maps are weak equivalences.
+This is explained in "Iterated
+Monoidal Categories" (below).
+
+## References
+
+* [[G. Segal]], "Categories and Cohomology Theories", Topology 13 (1974).
+
+*  C. Balteanu, Z. Fiedorowicz, R. Schwanzl and [[R. Vogt]], "Iterated
+Monoidal Categories", Advances in Mathematics (2003).
