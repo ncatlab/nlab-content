@@ -1,5 +1,7 @@
 
-The __trefoil knot__ is a famous [[knot]].
+The __trefoil knot__ is a famous [[knot]]. One of the reasons is that in the list of knots, ordered by  [[crossing number]], it is the first 'real' knot one meets, being the simplest non-trivial knot. (The first knot listed is usually the 'unknot', i.e. the unknotted circle.) The trefoil has crossing number 3.
+
+
 
 Here is a traditional view:
 
@@ -9,7 +11,7 @@ Here is a depiction with [[bridge number]] 2:
 
 [[!include trefoil knot (2 bridge) - SVG]]
 
-The group of the trefoil knot (calculated either by the Dehn or Wirtinger presentations) has two very useful presentations:
+The [[knot group]] of the trefoil knot (calculated either by the Dehn or Wirtinger presentations) has two very useful presentations:
 
 * $\langle x,y \mid xyx=yxy\rangle$, which is the [[braid group]], **Br 3**;
 
