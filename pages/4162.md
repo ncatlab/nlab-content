@@ -2,12 +2,17 @@
 [[!include physicscontents]]
 </div>
 
-**Under Construction**
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
-## Bell's Theorem
+## Idea
+
+_Bell's theorem_ is the collective name for a family of results, all showing the impossibility of a Local Realistic interpretation of [[quantum mechanics]].  As such, it is a form of a [[no-go theorem]] and is related to
+
+* the [[Kochen-Specker theorem]] and
+
+* [[Gleason's theorem]].
 
 ### Original derivation
 
@@ -182,24 +187,13 @@ $$
 
 Then (14) is violated for $0 \lt \theta \lt \frac{\pi}{2}$.  For example, if $\theta = \frac{\pi}{4}$, (14) would become $0.500 \le 0.292$ which is absurd!
 
-***
-
-
-#Contents#
-* automatic table of contents goes here
-{:toc}
-
-## Idea
-
-_Bell's theorem_ is the collective name for a family of results, all showing the impossibility of a Local Realistic interpretation of [[quantum mechanics]].
-
-As such it is related to the
-
-* [[Kochen-Specker theorem]]
-
-* [[Gleason's theorem]].
-
 ## References
+
+The original paper outlining [[Bell's theorem]] is
+
+* J. S. Bell, _On the Einstein Podolsky Rosen Paradox_ , Physics, [pdf](http://www.drchinese.com/David/Bell_Compact.pdf).
+
+A detailed discussion is found here:
 
 * Stanford Encyclopedia of Philosophy, _Bell's theorem_ ([url](http://plato.stanford.edu/entries/bell-theorem/))
 
