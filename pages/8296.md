@@ -136,6 +136,8 @@ In particular they are classified by the intrinsic $n+1$st $A$-[[cohomology]] of
 
 ## Related concepts
 
+* [[∞-group cohomology]]
+
 * [[central extension]]
 
 * [[centrally extended groupoid]]
@@ -159,4 +161,3 @@ Extensions by [[braided 2-groups]] are discussed in
 [[!redirects extension of infinity-groups]]
 [[!redirects extensions of ∞-groups]]
 [[!redirects extensions of infinity-groups]]
-
