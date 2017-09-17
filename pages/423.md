@@ -83,6 +83,21 @@ See also [[examples in topology]].
 * [[model structure on chain complexes]], [[model structure on crossed complexes]]
 * [[homotopy hypothesis]], [[homotopy theory of Grothendieck]], [[test category]]
 
+#### Simplicial sets and related notions
+
+* [[simplicial set]], [[simplex category]], [[simplicial identities]], [[simplicial object]], [[cosimplicial object]]
+* [[simplicial complex]], [[singular simplicial complex]], 
+* [[boundary of a simplex]], [[simplicial skeleton]], [[category of simplices]] 
+* [[combinatorial spectrum]], [[simplicial groupoid]], [[simplicial model category]]
+* [[simplicially enriched category]], [[quasicategory]], [[Segal category]], [[complete Segal space]]
+* [[Kan fibration]], [[Kan complex]], [[nerve]], [[nerve and realization]], [[simplicial homotopy]], [[simplicial homotopy group]], [[simplicial local system]]
+* [[simplicial presheaf]], [[local model structure on simplicial presheaves]], [[local model structure on simplicial sheaves]]
+* [[marked simplicial set]], [[model structure on marked simplicial over-sets]], [[infinity topos]], [[Higher Topos Theory]]
+* [[dendroidal set]], [[model structure on dendroidal sets]], [[cubical set]], [[cellular set]], [[cyclic object]], [[Theta space]]
+
+
+
+
 ### Sheaves, stacks, cohomology
 
 * [[sheaf]], [[flabby sheaf]], [[local epimorphism]], [[etale space]], [[hypercover]]
@@ -99,20 +114,13 @@ See also [[examples in topology]].
 * [[topological quantum field theory]], [[tmf]], [[cobordism hypothesis]], [[topological T-duality]]
 * [[characteristic class]], [[Chern-Weil theory]]
 
-### Simplicial sets and related notions
+### Non-commutative topology
 
-* [[simplicial set]], [[simplex category]], [[simplicial identities]], [[simplicial object]], [[cosimplicial object]]
-* [[simplicial complex]], [[singular simplicial complex]], 
-* [[boundary of a simplex]], [[simplicial skeleton]], [[category of simplices]] 
-* [[combinatorial spectrum]], [[simplicial groupoid]], [[simplicial model category]]
-* [[simplicially enriched category]], [[quasicategory]], [[Segal category]], [[complete Segal space]]
-* [[Kan fibration]], [[Kan complex]], [[nerve]], [[nerve and realization]], [[simplicial homotopy]], [[simplicial homotopy group]], [[simplicial local system]]
-* [[simplicial presheaf]], [[local model structure on simplicial presheaves]], [[local model structure on simplicial sheaves]]
-* [[marked simplicial set]], [[model structure on marked simplicial over-sets]], [[infinity topos]], [[Higher Topos Theory]]
-* [[dendroidal set]], [[model structure on dendroidal sets]], [[cubical set]], [[cellular set]], [[cyclic object]], [[Theta space]]
+* [[noncommutative topology]]
 
+  * [[C-star-algebra]], [[KK-theory]]
 
-###Computational Topology
+### Computational Topology
 
 * [[computational topology]]
 * [[topological data analysis]]
