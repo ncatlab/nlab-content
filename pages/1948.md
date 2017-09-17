@@ -30,7 +30,7 @@ In the special case that $C = $ [[SSet]] is the standard [[model structure on si
 +-- {: .num_defn #ProjectiveAndInjectiveStructure}
 ###### Definition
 
-For $C$ a [[combinatorial model category]] or, in the projective case, just a [[cofibrantly generated model category]], and $D$ a [[small category]] there exists the following two (combinatorial) model category structures on the [[functor category]] $[D,C]$:
+For $C$ a [[combinatorial model category]] or, in the projective case, just a [[cofibrantly generated model category]], and $D$ a [[small category]] there exist the following two (combinatorial) model category structures on the [[functor category]] $[D,C]$:
 
 * the **projective** structure $[D,C]_{proj}$: weak equivalences and fibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. 
 
@@ -230,6 +230,12 @@ $$
 respectively.
 
 For more on this see [[homotopy Kan extension]]. For the case that $D' = *$ this reduces to [[homotopy limit]] and [[homotopy colimit]].
+
+## Related concepts
+
+* [[Reedy model structure]], [[generalized Reedy model structure]],
+
+* [[model structure on homotopical presheaves]], [[model structure on simplicial presheaves]]
 
 ## References
 
