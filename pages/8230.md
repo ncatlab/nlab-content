@@ -1,0 +1,51 @@
+# Contents 
+* table of contents
+{: toc}
+
+## Idea 
+
+A _modular lattice_ is a lattice in which the "parallel sides" of a "diamond" formed by four points $x \wedge y$, $x$, $y$, $x \vee y$ are "congruent". 
+
+## Definition 
+
+A modular lattice is a [[lattice]] which satisfies the modular identity, which we introduce after a few preliminaries. 
+
+In any lattice $L$, given two elements $a, b \in L$ with $a \leq b$, let $[a, b]$ denote the sub[[poset]] $\{z \colon a \leq z \leq b\}$. Then, given any two elements $x, y \in L$, there is an [[adjunction|adjoint pair]]  
+
+$$x \vee (-) \colon [x \wedge y, y] \stackrel{\leftarrow}{\to} [x, x \vee y] \colon (-) \wedge y$$ 
+
+where $x \vee (-)$ is _right_ adjoint to $(-) \wedge y$. Indeed, for any $w \in [x \wedge y, y]$, we have a [[adjunction|unit]] 
+
+$$w \leq x \vee w = x \vee (w \wedge y),$$ 
+
+whereas for any $z \in [x, x \vee y]$, we have dually a [[adjunction|counit]]  
+
+$$(x \vee z) \wedge y = z \wedge y \leq z.$$ 
+
++-- {: .num_defn}
+###### Definition 
+A lattice $L$ is **modular** if for any $x, y \in L$, the adjoint pair 
+
+$$(-) \wedge y \dashv x \vee (-) \colon [x \wedge y, y] \stackrel{\leftarrow}{\to} [x, x \vee y]$$ 
+
+is an [[adjoint equivalence]]. 
+=-- 
+
+The definition is usually stated in other ways, viz.: 
+
+* The **modular law** is the [[Horn theory|Horn sentence]] $a \leq b \vdash (a \vee z) \wedge b = a \vee (z \wedge b)$, or 
+
+* The modular law is the inequality $(r \vee s) \wedge t \leq (r \wedge (t \vee s)) \vee s$ 
+
+where the latter can obviously be re-expressed in equational form. 
+
+## Examples 
+
+* For any [[Mal'cev variety]] or Mal'cev [[algebraic theory]], the lattice of internal [[equivalence relations]] of an algebra is a modular lattice. The equivalence classes often arise as cosets of kernels; for example, for a [[vector space]] $V$, equivalence relations correspond to subspaces of $V$, and form a modular lattice. Other examples include the lattice of normal subgroups of a [[group]], the lattice of two-sided [[ideals]] of a [[ring]], etc. 
+
+* In fact, any lattice of commuting equivalence relations on a [[set]] is a modular lattice (being a suballegory of the [[allegory]] of sets, one in which composition provides the join). 
+
+* Every abstract [[projective plane]] gives rise to a modular lattice $L$ whose underlying set is the disjoint union 
+$$\{0\} \cup \{1\} \cup \{points\} \cup \{lines\}$$ 
+where $0$ is taken as bottom, $1$ as top, the points are atoms, and the lines are coatoms, ordered by the incidence relation. The projective plane need not be Desarguesian. 
+
