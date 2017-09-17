@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -32,14 +32,18 @@ Write $Ch_\bullet(k)$ for the [[category of chain complexes|category of unbounde
 
 An [[operad]] $P$ over $Ch_\bullet(k)$ is called **$\Sigma$-split** if (...)
 
+A quasi-isomorphism between such operads $P_1 \to P_2$ is said to be compatible with $\Sigma$-splitting if (...)
+
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-* The [[associative operad]] $Assoc_k$ is $\Sigma$-split for all $k$.
+If $k$ contains the ring of [[rational number]]s, $\mathbb{Q} \hookrightarrow k$, then every $Ch_\bullet(k)$-operad is $\Sigma$-split and every quasi-isomorphism of operads is compatible with $\Sigma$-splitting.
 
-* If $k$ contains the ring of [[rational number]]s, $\mathbb{Q} \hookrightarrow k$, then every $Ch_\bullet(k)$-operad is $\Sigma$-split.
+
+The [[associative operad]] $Assoc_k$ is $\Sigma$-split for all $k$.
+
 
 =--
 
@@ -70,8 +74,39 @@ is therefore a [[Quillen adjunction]] (see at _[[transferred model structure]]_)
 
 This appears as ([Hinich, theorem 4.1.1](#Hinich)).
 
-
 ## Properties
+
+### Invariance under equivalence and rectification
+
++-- {: .num_theorem #ResolutionInvariance}
+###### Theorem
+
+If $P_1 \to P_2$ is a [[quasi-isomorphism]] of $\Sigma$-split operads compatible with splittings, then there is an induced [[Quillen equivalence]]
+
+$$
+  Alg(P_1) \stackrel{\overset{}{\leftarrow}}{\underset{}{\rightarrow}}
+  Alg(P_2)
+$$
+
+between the corresponding model structures on their algebras, as above.
+
+=--
+
+This is ([Hinich, theorem 4.7.4](#Hinich)).
+
++-- {: .num_remark}
+###### Remark
+
+Theorem \ref{ResolutionInvariance} in particular provides 
+rectification results for [[homotopy algebras]]: if
+$P$ is some operad and $\tilde P \stackrel{\simeq}{\to} P$ a 
+[[cofibrant resolution]] in the suitable [[model structure on operads]], then the theorem says that $P$-[[homotopy algebras]] have the same homotopy theory as the plain $P$-algebras.
+
+Famous examples include the [[Quillen equivalence]] between the [[model structure on dg-Lie algebras]] and the [[model structure for L-infinity algebras]].
+
+=--
+
+
 
 ### Simplicial enrichment {#SimplicialEnrichment}
 
@@ -187,6 +222,10 @@ where $Q A$ is a cofibrant [[resolution]] of $A$.
 =--
 
 This appears as ([Hinich, section 4.8.10](#Hinich)).
+
+## Examples
+
+* [[model structure for L-∞ algebras]]
 
 
 ## Related concepts
