@@ -1,6 +1,5 @@
 
-For $n \in \mathbb{N}$,  the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of an $n$-dimensional complex [[Hilbert space]]. 
-This is canonically identified with the group of $n \times n$ unitary matrices.
+For $n \in \mathbb{N}$,  the **unitary group** $U(n)$ is the [[group]] of [[isometry|isometries]] of the $n$-dimensional complex [[Hilbert space]] $\mathbb{C}^n$.   This is canonically identified with the group of $n \times n$ unitary matrices.
 
 
 For instance $U(1)$ is the [[circle group]].
@@ -8,3 +7,6 @@ For instance $U(1)$ is the [[circle group]].
 More generally, for $\mathcal{H}$ any Hilbert space, $U(\mathcal{H})$ is the group of [[unitary operator]]s on that Hilbert space.
 
 The analog of the unitary group for real metric spaces is the [[orthogonal group]].
+
+
+[[!redirects unitary groups]]
