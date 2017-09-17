@@ -179,13 +179,13 @@ Examples of 2-connections with vanishing 2-form curvature obtained from [[geomet
 
 The [[cocycle]] data for 2-connections with coeffcients in [[automorphism 2-group]]s but without restrictions on the 2-form curvature  have been proposed in 
 
-* [[Lawrence Breen]], [[William Messing]], _Differential Geometry of Gerbes _ ([arXiv:math/0106083](http://arxiv.org/abs/math/0106083))
+* [[Lawrence Breen]], [[William Messing]], _Differential Geometry of Gerbes _ Advances in Mathematics, Volume 198, Issue 2, 20 (2005) ([arXiv:math/0106083](http://arxiv.org/abs/math/0106083))
 
 * [[Lawrence Breen]], _Differential Geometry of Gerbes and Differential Forms_ ([arXiv:0802.1833](http://arxiv.org/abs/0802.1833))
 
 and 
 
-* Paolo Aschieri, Luigi Cantini, [[Branislav Jurco]], _Nonabelian Bundle Gerbes, their Differential Geometry and Gauge Theory_ ([arXiv:hep-th/0312154](http://arxiv.org/abs/hep-th/0312154)).
+* Paolo Aschieri, Luigi Cantini, [[Branislav Jurco]], _Nonabelian Bundle Gerbes, their Differential Geometry and Gauge Theory_ , Communications in Mathematical Physics Volume 254, Number 2 (2005) 367-400,([arXiv:hep-th/0312154](http://arxiv.org/abs/hep-th/0312154)).
 
 A discussion of fully general local 2-connections is in 
 
