@@ -36,7 +36,7 @@ A primary example for that kind of deferred analysis is the study of [[topologic
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in [Johnstone (1996)](#JS96).
 
-In typical (topos) cases these come as [[adjoint triples|adjoint strings]] $\Pi\dashv\Delta\dashv\Gamma$ with $\Delta$ [[fully faithful functor|fully fiathful]] (hence: [[adjoint modalities]]) such that the [[connected components]] and the [[section|section functor]] coincide: $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]).
+In typical (topos) cases these come as [[adjoint triples|adjoint strings]] $\Pi\dashv\Delta\dashv\Gamma$ with $\Delta$ [[fully faithful functor|fully faithful]] (hence: [[adjoint modalities]]) such that the [[connected components]] and the [[section|section functor]] coincide: $\Pi\cong\Gamma$ (cf. [[points-to-pieces transform]]).
 
 Hence from a more geometrical point of view, a quality type is a particular simple kind of space with 'degenerate' components, or, if you prefer, a space with 'thick' points which in turn can be viewed as an _infinitesimal_ or 'minimal' vestige of cohesion: when a set is a space with no cohesion, a quality type is a space with _almost_ no cohesion. (For an elaboration of this perspective in the context of [[cohesive toposes]] see at [[infinitesimal cohesion]].)
 
