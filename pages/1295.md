@@ -23,7 +23,7 @@ The _dependent product_ is a [[universal construction]] in [[category theory]]. 
 
 The [[duality|dual]] concept is that of _[[dependent sum]]_.
 
-The concept of [[cartesian product]] makes sense for any [[family of sets]], while the category-theoretic [[product]] makes sense for any family of objects.  In each case, however, the family is indexed by a [[set]]; how can we get a purely category-theoretic product indexed by an object?
+The concept of [[cartesian product]] of [[sets]] makes sense for any [[family of sets]], while the [[category theory|category-theoretic]] [[product]] makes sense for any family of objects.  In each case, however, the family is indexed by a [[set]]; how can we get a purely category-theoretic product indexed by an object?
 
 First we need to describe a family of objects indexed by an object; it\'s common to interpret this as a [[bundle]], that is an arbitrary morphism $g: B \to A$.  (In [[Set]], $A$ would be the index set of the family, and the [[fiber]] of the bundle over an element $x$ of $A$ would be the set indexed by $x$.  Conversely, given a family of sets, $B$ can be constructed as its [[disjoint union]].)
 
@@ -37,16 +37,34 @@ In other words, $S$ and $ev$ define an [[adjoint functor|adjunction]] from $Set$
 
 ## Definitions
 
-For $C$ a [[category]], the **dependent product** of the morphism $g\colon B \to A$ indexed by the morphism $f\colon A \to I$ is an object $\prod_f g$ in the [[over category]] $C/I$, where the operation $\prod_f\colon C/A \to C/I$ is [[generalized the|the]] [[adjoint functor|right adjoint]] to the [[base change]] functor $f^*\colon C/I \to C/A$. For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ must exist.  So a category with all dependent products is necessarily a category with all [[pullback]]s.
+Let  $\mathcal{C}$ be a [[category]], and $g\colon B \to A$ a [[morphism]] in $\mathcal{C}$, such that [[pullbacks]] along this morphism exist. These then constitute the [[base change]] [[functor]] between the corresponding [[slice categories]]
 
-In [[type theory]], the operation of dependent product is typically taken as a primitive; see [[dependent product type]].  When employing the [[Curry–Howard correspondence]], one sometimes (such as in [[Coq]]) writes $\Pi_{x \in X} P_x$ as written $\forall x\colon X, P x$, because dependent products correspond to [[universal quantification]].
+$$
+  g^* \colon \mathcal{C}_{/A} \to \mathcal{C}_{/B}
+  \,.
+$$
 
++-- {: .num_defn}
+###### Definition
 
-Note that the binary [[cartesian product]] is a special case of the direct *sum*: when $g\colon B\to A$ is a constant family, i.e. a [[projection]] $C \times A \to A$ from a binary [[product]], then its dependent sum is just the ordinary cartesian product $C \times A$.  In this context, the dependent product can be identified with the [[exponential object]] $C^A$.  In other words, *dependent sums generalize ordinary products*, while *dependent products generalize ordinary exponentials*.  (For this reason, one occasionally finds the dependent *sum* called the "dependent product".)  This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
+The **dependent product** along $g$ is, if it exists, the [[right adjoint]] functor $\prod_g \colon : \mathcal{C}_{/B} \to \mathcal{C}_{/A}$ to the [[base change]] along $g$
 
+$$
+  (g^* \vdash \prod_g)
+  \colon
+  \mathcal{C}_{/B}
+   \stackrel{\overset{g^* }{\leftarrow}}{\underset{\prod_g}{\to}}
+  \mathcal{C}_{/A}
+  \,.
+$$
+
+=--
+
+So a category with all dependent products is necessarily a category with all [[pullbacks]].
 
 ## Properties
  {#Properties}
+
 
 ### Relation to spaces of sections
  {#RelationToSpacesOfSections}
@@ -108,19 +126,35 @@ This statement and its proof remain valid in [[homotopy theory]]. More in detail
 
 =--
 
-### Relation to quantification in logic
+### Relation to exponential objects / internal homs
 
-In terms of the [[internal logic]] of categories, when one considers [[propositions as types]], one has that
+As a special case of the above one obtaines [[exponential objects]]/[[internal homs]].
 
-* dependent sum corresponds to [[existential quantification]];
+Let $\mathcal{C}$ have a [[terminal object]] $* \in \mathcal{C}$. Let $X \in \mathcal{C}$ be any object and let $X \colon X \to *$ be the terminal morphism.
 
-* dependent product corresponds to [[universal quantification]].
++-- {: .num_prop}
+###### Proposition
 
-See there for more details.
+The dependent product along $X$ of the base change along $X$ is the [[exponential object]]/[[internal hom]] $[X,A]$
 
-### Relation to type theory
+$$
+  \prod_{X} X^* A \simeq [X,A]  \in \mathcal{C}
+  \,.
+$$
 
-Under the [[relation between category theory and type theory]] the dependent product is the [[categorical semantics]] of [[dependent product types]].
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is essentially a [[categorification|categorified]] version of the familiar fact that the product $n\cdot m$ of two [[natural numbers]] can be identified with the sum $\overset{n}{\overbrace{m+\dots +m}}$ of $n$ copies of $m$.
+
+=--
+
+### Relation to type theory and quantification in logic
+
+The dependent product is the [[categorical semantics]] of what in [[type theory]] is the [[type formation|formation]] of [[dependent product types]].  Under [[propositions as types]] this corresponds to [[universal quantification]].
+
 
 ## Examples
 
@@ -141,11 +175,15 @@ The dependent product plays a role in the definition of [[universe in a topos]].
 
 ## Related concepts
 
-[[base change]]
+* [[product]], [[coproduct]]
 
-* [[dependent sum]], **dependent product**
+* [[Kan extension]]
 
-* [[dependent sum type]], [[dependent product type]]
+* [[base change]]
+
+  * [[dependent sum]], **dependent product**
+
+  * [[dependent sum type]], [[dependent product type]]
 
 
 ## References
