@@ -72,8 +72,9 @@ The [[phase space]] of [[higher dimensional Chern-Simons theory]] in [[dimension
 $$
   (\delta B_1, \delta B_2) \mapsto
   \int_\Sigma \delta B_1 \wedge \delta B_2
-  \,.
 $$
+
+obtained as the [[integration of differential forms]] over $\Sigma$ of the [[wedge product]] of the two forms.
 
 The [[geometric quantization]] of the theory requires that we choose a [[polarization]] of the [[complexification]] of this space (split the space of forms into "coordinates" and their "[[canonical momenta]]"). 
 
