@@ -69,7 +69,7 @@ For $X, Y \in C$ two objects
 
     X -> Y : Type
 
-denotes the [[internal hom]] $[X,Y] \in C$.
+denotes the [[internal hom]] $[X,Y] \in C$ (a formal proof of that is [here](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/AdjunctionProdHom.v)).
 
     P (x : X) : Type
 
