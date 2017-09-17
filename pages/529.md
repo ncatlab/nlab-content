@@ -1,3 +1,25 @@
+
+##Idea 
+
+Take the elements of a group, $G$, as labelling a basis for a vector space over a field $k$, then that multiplication of the group will extend to give that vector space the structure of an [[algebra]] over $k$. This is usually denoted $k[G]$.
+
+
+If instead of a field we used the ring of integers, $\mathbb{Z}$, it is usual to call the result the __group ring__. For this we take the free abelian group on the set of elements of the group and extend the multiplication to give a ring structure  on the result.
+ This is usually denoted $\mathbb{Z}[G]$. 
+
+As a further generalisation, the field can be replaced by any commutative ring.
+
+## The multiplication:
+
+If we denote by $e_g$, the generator corresponding to $g\in G$, then an arbitrary element of $k[G]$ can be written as $\sum_{g\in G}n_ge_g$ where the $n_g$ are elements of $k$, and only finitely many of them are non-zero. 
+
+The multiplication is then by what is sometimes called a 'convolution' product, that is,
+
+$$\Big(\sum_{g\in G}n_ge_g\Big)\Big(\sum_{g\in G}m_ge_g\Big) = \sum_{g\in G}\Big(\sum_{g_1\in G}n_{g_1}m_{g_1^{-1}g}e_g\Big).$$
+
+
+##Thoughts
+
 Thinking of a [[group]], $G$,  as a special sort of [[category]], the **group algebra** (denoted $k[G]$ or $k G$) of a group  is just the [[category algebra]] of that category. 
 
 ##Extra structure
