@@ -15,7 +15,7 @@
 
 ## Idea
 
-Electromagnetism is the [[gauge theory]] whose field is the [[electromagnetic field]].
+__Electromagnetism__ or __electrodynamics__ is the [[gauge theory]] whose field is the [[electromagnetic field]].
 
 The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
@@ -24,8 +24,9 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 * [[quantum field theory]]
 
   * [[gauge theory]]
-
+    * [[classical electrodynamics]]
     * **electromagnetism**
 
     * [[Yang-Mills theory]]
 
+[[!redirects electrodynamics]]
