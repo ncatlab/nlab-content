@@ -10,8 +10,13 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### Formal geometry
++--{: .hide}
+[[!include formal geometry -- contents]]
 =--
 =--
+=--
+
 
 
 # Contents
