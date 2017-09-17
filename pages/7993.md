@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of _[[geometric quantization]]_ a _metaplectic correction_ is a choice of [[metaplectic structure]] on the given [[symplectic manifold]]. It allows to make the [[space of states (in geometric quantization)|space of states]] into a [[Hilbert space]].
+
+It is called a _correction_ mostly for historical reasons, since it was not included in all constructions from the beginning. 
+
+## Related concepts
+
+* [[metaplectic group]]
+
+[[!redirects metaplectic correction]]
+[[!redirects metaplectic corrections]]
