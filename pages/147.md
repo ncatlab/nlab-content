@@ -101,7 +101,7 @@ This appears as ([Johnstone, theorem C2.2.8 (iii)](#Johnstone)).
 +-- {: .num_remark }
 ###### Remark
 
-By cor. \ref{LemmaForClassifyingToposes} this means that every sheaf topos is the [[classifying topos]] for some [[theory]] of [[local algebra]]s.
+By [this corollary](classifying+topos#SheafToposesAreClassifyingForTheirTheoryOfLocalAlgegras) at _[[classifying topos]]_ this means that every sheaf topos is the [[classifying topos]] for some [[theory]] of [[local algebras]].
 
 =--
 
