@@ -174,13 +174,18 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
     * [[6d (2,0)-supersymmetric QFT]]
 
 
+[[!include table of branes]]
+
+
 ### Topological strings
 
 * [[A-model]], [[B-model]]
 
 
+### String phenomenology
 
-[[!include table of branes]]
+* [[string phenomenology]]
+
 
 ## References
 
