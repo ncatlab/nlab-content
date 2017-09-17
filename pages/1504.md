@@ -454,8 +454,9 @@ Surveys are in
 See also _[[higher category theory and physics]]_ .
 
 #### For Yang-Mills theory
+ {#ReferencesOnYMTheoryAspects}
 
-Discussion of the [[L-infinity algebra]] structure in the [[Yang-Mills theory]] that appears to lowest order in open string field theory is for instance in
+Discussion of the [[L-infinity algebra]] [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] of the [[Yang-Mills theory]] that appears to lowest order as the [[effective QFT]] in open string field theory is for instance in
 
 * [[Anton Zeitlin]], 
 
