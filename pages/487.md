@@ -1,15 +1,32 @@
-# Definition #
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition 
 
 A category is **balanced** if every [[monomorphism|monic]] [[epimorphism|epic]] morphism is an [[isomorphism]].  Monic epics are  sometimes called [[bimorphism]]s.
 
-# Remarks #
+
+## Remarks 
 
 * The possibility of monic epics that are not isomorphisms does not survive any strengthening of "monic" or "epic."  Any monic [[extremal epimorphism]] is necessarily an isomorphism, and therefore so is any monic [[strong epimorphism]] or [[regular epimorphism]] (and dually).  It follows that if all epics, or all monos, are extremal, then the category is automatically balanced.
 
 * In an "unbalanced" category it is frequently the case that the monomorphisms, the epimorphisms, or both, are not the "right" notion to consider and should be replaced by their [[extremal epimorphism|extremal]], [[strong epimorphism|strong]], or [[regular epimorphism|regular]] counterparts.
 
 
-# Examples and non-examples #
+## Examples and non-examples 
 
 * Any [[topos]] (in fact, any [[pretopos]]) is balanced.  Of course, this includes [[Set]].
 
