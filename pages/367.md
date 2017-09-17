@@ -51,6 +51,8 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in the category of [[topological group]]s is a [[simplicial topological group]].
 
+* A simplicial object in [[Lie algebra]]s is a [[simplicial Lie algebra]].
+
 * A simplicial object in [[Ring]] is a [[simplicial ring]].
 
 * A cosimplicial object in the category of [[rings]] ([[algebras]]) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
