@@ -408,7 +408,7 @@ Discussion of the [[moduli stack]] of [[twisted differential string structures]]
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, October 2012, Volume 315, Issue 1, pp 169-213 ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
 
-An explicit cocycle construction of the essentially unique [[]string 2-group]
+An explicit cocycle construction of the essentially unique [[string 2-group]]
 -[[principal 2-bundle]] lift of the [[tangent bundle]] of the [[sphere|5-sphere]] is given in 
 
 * {#Roberts14} [[David Roberts]] _Explicit string bundles_, talk at _[Workshopn on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html)_ 2014 ([[RobertsStringS5.pdf:file]])
