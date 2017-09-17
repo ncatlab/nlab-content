@@ -65,4 +65,3 @@ In [[Set|the category of sets]], every [[epimorphism]] is effective. Thus, it ca
 [[!redirects effective epimorphisms]]
 
 
-[[!redirects effective epimorphism in an (∞,1)-category]]
