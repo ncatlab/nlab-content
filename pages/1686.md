@@ -514,7 +514,7 @@ The exact couple recipe for spectral sequences is notable in that it doesn't men
 
 #### Lurie spectral sequences
 
-[[!include Lurie spectral sequence -- table]]
+[[!include Lurie spectral sequences -- table]]
 
 #### More
 
