@@ -151,6 +151,8 @@ Here are some examples of internal $\infty$-groupoids according to the first def
 
 * [[Kan-fibrant simplicial manifold]]
 
+* [[geometric infinity-stack]]
+
 ## References
 
 Models for [[∞-stacks]]/[[(∞,1)-presheaves]] in [[higher geometry]] by local Kan complexes of objects in a given site (for instance locally Kan [[simplicial manifolds]] for [[higher differential geometry]]) are discussed in 
@@ -160,6 +162,8 @@ Models for [[∞-stacks]]/[[(∞,1)-presheaves]] in [[higher geometry]] by local
 
 
 [[!redirects Internal infinity-groupoid]]
+[[!redirects Internal infinity-groupoids]]
+
 [[!redirects Internal ∞-groupoid]]
 [[!redirects internal ∞-groupoid]]
 [[!redirects infinity-groupoid object]]
@@ -167,3 +171,4 @@ Models for [[∞-stacks]]/[[(∞,1)-presheaves]] in [[higher geometry]] by local
 [[!redirects internal Kan complex]]
 [[!redirects internal-infinity groupoids]]
 
+[[!redirects internal infinity-groupoids]]
