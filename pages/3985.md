@@ -524,6 +524,43 @@ Finally we can use that $f$ is terminal in the full subcategory $D_c$ of $C_{c/}
 
 =--
 
+### Transport of reflective subcategories
+ {#TransportOfReflectiveSubcategories}
+
++-- {: .num_prop #TransportOfReflectionAlongAdjunction}
+###### Proposition
+
+Let $f \colon \mathcal{C} \to \mathcal{D}$ be an [[(∞,1)-functor]] between [[presentable (∞,1)-categories]], and let $\mathcal{C}^0 \hookrightarrow \mathcal{C}$ be a reflective sub-$(\infty,1)$-category. If $f$ has a [[right adjoint|right]] [[adjoint (∞,1)-functor]] $f^*$, then 
+
+$$
+  \mathcal{D}^0 \coloneqq (f^*)^{-1}(\mathcal{C}^0) \hookrightarrow \mathcal{D}
+$$
+
+is also a reflective sub-$(\infty,1)$-category.
+
+$$
+  \array{
+    \mathcal{C}^0 &\hookrightarrow& \mathcal{C}
+    \\
+    {}^{\mathllap{f^*}}\uparrow 
+   && {}^{\mathllap{f^*}}\uparrow\downarrow^{\mathrlap{f}}
+    \\
+    \mathcal{D}^0 &\hookrightarrow& \mathcal{D}
+  }
+  \,.
+$$
+
+=--
+
+This is ([Lurie, lemma 5.5.4.17](#Lurie)).
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{LocalizationProposition} $\mathcal{C}^0 \hookrightarrow \mathcal{C}$ is the inclusion of the $S$-[[local objects]] for some class $S$ of morphisms of $\mathcal{C}$. By adjunction it follows that $\mathcal{D}^0$ is precisely the class of $f(S)$-[[local objects]], and hence is a reflective subcategory, again by prop. \ref{LocalizationProposition}.
+
+=--
+
 ## Extra conditions
  {#ExtraConditions}
 
@@ -555,7 +592,7 @@ a reflective subcategory.  Then the following conditions are equivalent:
 
 1. The localization $Loc : R\circ L : C \to C$ is an [[accessible (∞,1)-functor]].
 
-1. There exists a [[small set]] $S_0 \subset S := L^{-1}(equiv.)$ such that every $S$-[[local object]] is also $S$-local.
+1. There exists a [[small set]] $S_0 \subset S := L^{-1}(equiv.)$ such that every $S$-[[local object]] is also $S_0$-local.
 
 =--
 
