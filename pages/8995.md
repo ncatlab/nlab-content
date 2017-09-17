@@ -1,0 +1,6 @@
+Aurelio Carboni is an Italian category theorist, now based in Como.
+
+
+* [webpage](http://www.uninsubria.eu/research/physmath/cv_Carboni.htm)
+
+category:people
