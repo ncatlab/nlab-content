@@ -27,7 +27,7 @@ In as far as an [[algebraic theory]] or [[Lawvere theory]] is nothing but a [[sm
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 An **$(\infty,1)$-Lawvere theory** is (given by a syntactic $(\infty,1)$-category that is) an [[(∞,1)-category]] $C$ with finite [[limit in a quasi-category|(∞,1)-product]]s. An $(\infty,1)$-algebra for the theory is an [[(∞,1)-functor]] $C \to $ [[∞Grpd]] that preserves these products.
@@ -46,7 +46,7 @@ In a full $(\infty,1)$-category theoretic context this appears as [[Higher Topos
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be an [[(∞,1)-category]] with finite [[limit in a quasi-category|product]]s. Then 
@@ -95,7 +95,7 @@ If $T$ is an ordinary category with products, hence an ordinary [[Lawvere theory
 
 We now look at model category structure on _strictly_ product preserving functors $C \to sSet$, which gives an equivalent model for $Alg_{(\infty,1)}(C)$. See [[model structure on simplicial T-algebras]].
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let $C$ be a [[category]] with finite [[product]]s, and let $sTAlg \subset Func(C,sSet)$ be the [[full subcategory]] of the [[functor category]] from $C$ to [[sSet]] on those functors that preserve these products.  
@@ -117,7 +117,7 @@ $$
 $$
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The total right [[derived functor]] 
