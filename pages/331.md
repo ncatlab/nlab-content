@@ -40,6 +40,11 @@ For instance,
 
 * while [[image]]s, dual images, [[intersection]]s, [[union]]s, and [[subobject classifiers]] belong to the logic.
 
+See also:
+
+* [[internal language]],
+* [[syntactic category]].
+
 
 ## Entries on logic
 
@@ -100,3 +105,7 @@ For instance,
 
 [[!redirects logic]]
 [[!redirects logics]]
+
+[[!redirects categorical logic]]
+[[!redirects categorial logic]]
+[[!redirects category-theoretic logic]]
