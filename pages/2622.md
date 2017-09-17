@@ -7,6 +7,9 @@
 
 * [[compact object]]
 
+  * [[compact element|compact object in a (0,1)-category]], [[compact object in an (∞,1)-category]]
+
+
   * [[finite object]]
 
   * [[small object]]
