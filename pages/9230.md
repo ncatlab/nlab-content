@@ -30,9 +30,17 @@ These graphs are called _Feynman diagrams_.
 
 Feynman graphs play a central role in [[perturbation theory]] in [[quantum field theory]] where $\exp(I)\mu_S$ plays the role of an [[action functional]] on a space of [[field (physics)|fields]], $\mu_S$ is the kinetic action and measure for [[free fields]]  and $\exp(I)$ is the interaction part of th action functional: the order-$k$ monomials in $I$ encode an interaction of $k$ [[field (physics)|fields]]. In this context the corresponding Feynman diagrams are traditionally thought of as depicting interaction processes of quanta of these fields, with propagation along the edges and interaction at the vertices. But this interpretation has its limits, which is partly refelcted in speaking of "[[virtual particles]]".
 
+## Related concepts
+
+* [[worldline formalism]]
+
 ## References
 
-A clean derivation of the Feynman diagram rules for finite-dimensional spaces of fields in terms of [[cochain cohomology]] of [[BV-complexes]] is in
+For traditional accounts see at 
+
+* Wikipedia, _[Feynman diagram](https://en.wikipedia.org/wiki/Feynman_diagram)_
+
+A clean derivation of the [[Feynman rules]] for finite-dimensional spaces of fields in terms of [[cochain cohomology]] of [[BV-complexes]] is in
 
 * [[Owen Gwilliam]], [[Theo Johnson-Freyd]], _How to derive Feynman diagrams for finite-dimensional integrals directly from the BV formalism_ (2011) ([arXiv:1202.1554](http://arxiv.org/abs/1202.1554))
 
@@ -41,3 +49,6 @@ with a review in the broader context of [[factorization algebras of observables]
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
 
 [[!redirects Feynman diagrams]]
+
+[[!redirects Feynman rule]]
+[[!redirects Feynman rules]]
