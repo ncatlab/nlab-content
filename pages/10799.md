@@ -18,7 +18,7 @@
 
 In classical [[algebraic number theory]] one embeds a [[number field]] into the [[cartesian product]] of its [[completion of a ring|completions]] at its [[archimedean absolute values]]. This embedding is very useful in the [[proofs]] of several fundamental [[theorems]]. For example, the algebraic integers in the number field embed discretely and co-compactly into this cartesian product, i.e., as a [[lattice in a vector space|lattice]], and this opens the way for example to the concrete realization of the group of units (modulo torsion) as a lattice, and also to the technique of Fourier analysis where Poisson summation applied to the lattice has classical implications for [[theta functions]] and [[zeta functions]]. 
 
-It was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation is made even better if the number field itself is embedded in the cartesian product of its completions at all of its absolute values. With a few additional restrictions, these objects are known as the _adeles_, and the [[group of units|units]] of this ring are called the _[[ideles]]_. Under these restrictions, the given number field embeds discretely and cocompactly into the adeles. 
+It was noticed by [[Claude Chevalley]] and [[André Weil]] that the situation is made even better if the number field itself is embedded in the cartesian product of its completions at all of its absolute values. With a few additional restrictions, these objects are known as the _adeles_, and the [[group of units|units]] of this ring are called the _[[ideles]]_. Under these restrictions, the given number field embeds discretely and cocompactly into the adeles, i.e., behaves as a lattice where it is again possible to apply Poisson summation. 
 
 When considering the adeles and ideles, it is their [[topology]] as much as their algebraic structure that is of interest. Many important results in [[number theory]] translate into simple statements about the topologies of the adeles and ideles. For example, the finiteness of the [[ideal class group]] and the [[Dirichlet unit theorem]] are equivalent to a certain quotient of the ideles being compact and discrete.
 
@@ -116,7 +116,7 @@ and indeed the idele topology coincides with the filtered colimit topology.
 
 +-- {: .num_prop} 
 ###### Proposition 
-Under the natural inclusion $k \to \mathbb{A}_k$, the subspace topology on $k$ is discrete, and the quotient topology on $\mathbb{A}_k/k$ is compact. 
+Under the natural inclusion $i: k \to \mathbb{A}_k$, the subspace topology on $k$ is discrete, and the quotient topology on $\mathbb{A}_k/k$ is compact. 
 =-- 
 
 As an additive topological group, there is a natural pairing on $\mathbb{A}_k$: 
@@ -127,7 +127,35 @@ If $x = (x_v)_{v \in P}$ and $y = (y_v)_{v \in P}$, then
 
 $$\langle x, y \rangle \coloneqq \prod_v \langle x_v, y_v \rangle_v$$ 
 
-is given by a product of local pairings ... (to be continued). 
+where each local pairing $\langle -, - \rangle_v$ is defined to be a composite of the form 
+
+$$k_v \times k_v \stackrel{mult}{\to} k_v \stackrel{Tr}{\to} \mathbf{Q}_v \stackrel{\chi_v}{\to} \mathbb{R}/\mathbb{Z} \cong S^1,$$ 
+
+noting that a place $v$ of $k$ restricts to a place on 
+
++-- {: .num_remarks} 
+###### Remarks 
+* The trace map $Tr$ on the finite algebraic extension $k_v/\mathbf{Q}_v$ is of course defined by $Tr(x) = \sum_\sigma \sigma(x)$ where $\sigma$ ranges over all embeddings into the algebraic closure of $k_v$. 
+
+* When $v$ is the archimedean place on $\mathbb{Q}$, we will take the map $\chi_v: \mathbb{R} \to \mathbb{R}/\mathbb{Z}$ to be not the quotient map, but its *additive inverse*. For non-archimedean places $v = p$, the character $\chi_p$ is the composite $\mathbf{Q}_p \to \mathbb{Z}(p^\infty) \hookrightarrow \mathbb{R}/\mathbb{Z}$ as defined [here](http://ncatlab.org/nlab/show/p-adic+number#duality). 
+
+* For each $x, y \in \mathbb{A}_k$, observe that $\langle x_v, y_v \rangle_v = 1 \in S^1$ for all but finitely many places $v$, since $x_v, y_v \in \mathcal{O}_v$ for all but finitely many places. Hence $\langle x, y\rangle$ is well-defined. 
+=-- 
+
++-- {: .num_prop} 
+###### Proposition 
+The additive group $\mathbb{A}_k$ is [[Pontrjagin duality|Pontrjagin self-dual]] in the sense that the map $\phi: \mathbb{A}_k \to \mathbb{A}_k^\wedge$ induced from the pairing $\langle-, -\rangle$ is an isomorphism onto the character group. 
+=-- 
+
+Moreover, define $\pi: \mathbb{A}_k \to k^\wedge$ to be the composite 
+
+$$\mathbb{A}_k \stackrel{\phi}{\to} \mathbb{A}_k^\wedge \stackrel{i^\wedge}{\to} k^\wedge.$$ 
+
++-- {: .num_prop} 
+###### Proposition 
+The map $\pi \circ i: k \to k^\wedge$ vanishes. The map $\mathbb{A}_k/k \to k^\wedge$ induced by $\pi: \mathbb{A}_k \to k^\wedge$ is an isomorphism of topological groups, so that $\mathbb{A}_k/k$ is Pontrjagin dual to $k$. 
+=-- 
+
 
 
 
