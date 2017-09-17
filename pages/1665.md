@@ -1,6 +1,23 @@
-The notion of Kan lift in a [[2-category]] or in a [[bicategory]] is [[duality|dual]] to the notion of [[Kan extension]], by a process of turning the 1-cells around, much in the same way as a homotopy lifting property is dual to a homotopy extension property (in [[model category|model category theory]], for instance). 
 
-Informally, a Kan lift is a best approximate solution to the problem of finding a lift $\widetilde{f}: A \to B$ of an arrow $f: A \to C$ through an arrow $p: B \to C$, as in the diagram 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The notion of _Kan lift_ in a [[2-category]] or in a [[bicategory]] is [[duality|dual]] to the notion of [[Kan extension]], by a process of turning the 1-cells around, much in the same way as a [[homotopy lifting property]] is dual to a [[homotopy extension property]] (in [[model category|model category theory]], for instance). 
+
+Informally, a Kan lift is a best approximate solution to the problem of finding a lift $\widetilde{f}: A \to B$ of an arrow ([[morphism]]) $f: A \to C$ through an arrow $p: B \to C$, as in the [[diagram]]
 
 $$\array{
  & & B \\
@@ -8,7 +25,7 @@ $$\array{
 A & \overset{f}{\to} & C
 }$$
 
-Of course, lifts typically don't literally exist in the sense of an equation $p \circ \widetilde{f} = f$ or an isomorphism $p \circ \widetilde{f} \cong f$. But in good situations, one may have the next best thing: a 2-cell $p \circ \widetilde{f} \Rightarrow f$ which is universal among 2-cells of this form. This gives the notion of _right_ Kan lift. The notion of _left_ Kan lift is similar, but with 2-cells in the opposite direction. 
+Of course, lifts typically don't literally exist in the sense of an equation $p \circ \widetilde{f} = f$ or an [[isomorphism]] $p \circ \widetilde{f} \cong f$. But in good situations, one may have the next best thing: a [[2-morphism|2-cell]] $p \circ \widetilde{f} \Rightarrow f$ which is universal among 2-cells of this form. This gives the notion of _right_ Kan lift. The notion of _left_ Kan lift is similar, but with 2-cells in the opposite direction. 
 
 ## Definition ## 
 
@@ -20,7 +37,7 @@ Given 1-cells $p: B \to C$, $f: A \to C$ in a [[bicategory]], a **right Kan lift
 
 $$\varepsilon: p \circ \widetilde{f} \Rightarrow f$$ 
 
-satisfying the universal property: given any pair $(g: A \to B, \eta: p \circ g \Rightarrow f)$, there exists a unique 2-cell 
+satisfying the [[universal property]]: given any pair $(g: A \to B, \eta: p \circ g \Rightarrow f)$, there exists a unique 2-cell 
 
 $$\zeta: g \Rightarrow \widetilde{f}$$ 
 
