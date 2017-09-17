@@ -34,7 +34,7 @@ Chain complexes crucially come with their _[[chain homology]]_ [[groups]]. When 
 ### Meaning in homotopy theory
  {#MeaningInHomotopyTheory}
 
-By the [[Dold-Kan correspondence]] there is an equivalence between the category of *connective chain complexes of abelian groups* and the category of *abelian [[simplicial group|simplicial groups]]*. The functor
+By the [[Dold-Kan correspondence]] there is an equivalence between the category of *[[connective chain complex|connective]] chain complexes of abelian groups* and the category of *abelian [[simplicial group|simplicial groups]]*. The functor
 
 $$NCC:AB^\Delta^{op}\to Ch_\bullet^+(AB)$$
 
