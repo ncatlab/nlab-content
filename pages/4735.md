@@ -32,6 +32,10 @@ $$
   }
 $$
 
+## Examples
+
+* [[11-dimensional supergravity]] can be understood as the theory of 3-connections with coefficients in the [[super L-infinity algebra]] called the [[supergravity Lie 3-algebra]]. See [[D'Auria-Fre formulation of supergravity]].
+
 ## Related concepts
 
 * [[connection on a bundle]]
@@ -52,6 +56,21 @@ The [[higher parallel transport]] of local 3-connections is considered in
 Examples of 3-connections obtained from fibrations of [[Courant algebroid]]s are discussed in
 
 * Olivier Brahic, _On the infinitesimal Gauge Symmetries of closed forms_ ([arXiv](http://arxiv.org/abs/1010.2189))
+
+A discussion of fully general local 3-connections is in 
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-connections_ ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+
+and the globalization is in
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Cech cocycles for differential characteristic classes]]_
+
+For a discussion of all this in a more comprehensive context see section xy of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+ {#SchreiberCohesive}
+
+See also [[connection on an infinity-bundle]] for the general theory.
 
 
 [[!redirects connections on a 3-bundle]]
