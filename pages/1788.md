@@ -42,3 +42,5 @@ category: meta
 [[!redirects nincompoops]]
 [[!redirects שנה טובה]]
 [[!redirects Featured math : Quora]]
+[[!redirects test4535]]
+[[!redirects empty32]]
