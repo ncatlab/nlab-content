@@ -55,6 +55,8 @@ Here, too, one can consider the analog of [[extended quantum field theory]] and 
 
 * [[microcausality]], [[Einstein causality]]
 
+* [[cluster decomposition]]
+
 [[!redirects local quantum field theories]]
 
 [[!redirects local field theory]]
