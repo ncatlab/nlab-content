@@ -31,7 +31,7 @@
 
       * [[n-symplectic manifold]]
 
-  * [[Lagrangean mechanics]]
+  * [[Lagrangian mechanics]]
 
     * [[Lagrangian]]
 
