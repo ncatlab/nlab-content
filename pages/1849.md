@@ -1,9 +1,14 @@
 
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 ## Idea
 
 The supergravity $C$-field is a degree-3 [[gauge field]] that appears in theories of [[supergravity]].
 
-The [[physical field|field]] content of standard $11$-dimensional [[supergravity]] consists of ---besides the [[gravitational field]] and the various fermionic [[superpartner]]s--- a field that is locally modeled by a differential $3$-[[differential form|form]]. 
+The [[physical field|field]] content of standard $11$-dimensional [[supergravity]] consists of ---besides the [[gravity|gravitational field]] and the various fermionic [[superpartner]]s--- a field that is locally modeled by a differential $3$-[[differential form|form]]. 
 
 Given that 
 
