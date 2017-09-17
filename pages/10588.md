@@ -25,22 +25,22 @@ An _elliptic spectrum_ is a [[spectrum]] which [[Brown representability theorem|
 
 For $E$ a [[ring spectrum]], write $E^\bullet(\ast)$ for its coefficient ring and generally $E^\bullet(X)$ for its [[generalized cohomology theory|generalized]] [[cohomology ring]] over any $X$.
 
-+-- {: .num_prop #EllipticSpectrum}
-###### Proposition
++-- {: .num_defn #EllipticSpectrum}
+###### Definition
 
 An _elliptic spectrum_ is a [[triple]] consisting of 
 
-1. an [[elliptic curve]] $A$ over the coefficient ring $E^\bullet(\ast)$
+1. an [[elliptic curve]] $A$ over the coefficient ring $E^\bullet(\ast)$;
 
-1. an even [[periodic cohomology theory|periodic]] [[ring spectrum]] $E$ 
+1. an even [[periodic cohomology theory|periodic]] [[ring spectrum]] $E$; 
 
-1.an [[equivalence]]
+1. an [[equivalence]]
 
-  $$
-    Spec E^\bullet(BU(1)) \stackrel{\simeq}{\longrightarrow} Pic_A^0
-  $$
+   $$
+     Spec E^\bullet(BU(1)) \stackrel{\simeq}{\longrightarrow} Pic_A^0
+   $$
 
-  between the [[spectrum of a commutative ring|algebraic spectrum]] of the $E$-[[cohomology ring]] over the [[classifying space]] for [[complex line bundles]] (see at _[[complex oriented cohomology theory]]_) and the [[formal Picard group]] $Pic_A^0$ of $A$.
+   between the [[spectrum of a commutative ring|algebraic spectrum]] of the $E$-[[cohomology ring]] over the [[classifying space]] for [[complex line bundles]] (see at _[[complex oriented cohomology theory]]_) and the [[formal Picard group]] $Pic_A^0$ of $A$.
 
 =--
 
