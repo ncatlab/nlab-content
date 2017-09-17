@@ -3,6 +3,8 @@
 ***
 [[!include higher category theory - contents]]
 ***
+[[!include quasi-category theory contents]]
+***
 [[!include (infinity,1)-topos - contents]]
 ***
 [[!include model category theory - contents]]
@@ -304,13 +306,13 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
 ##5 Presentable and Accessible $\infty$-Categories##
 
-### 5.1 $(\infty,1)$-categories of presheaves ###
+### 5.1 $(\infty,1)$-Categories of presheaves ###
 
 * [[(∞,1)-category of (∞,1)-presheaves]]
 
 * [[Yoneda lemma for (∞,1)-categories]]
 
-### 5.2 adjoint $(\infty,1)$-functors ###
+### 5.2 Adjoint $(\infty,1)$-functors ###
 
 * [[adjoint (∞,1)-functor]]
 
@@ -320,7 +322,9 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[adjoint functor theorem]]
 
-### 5.3 $(\infty,1)$-categories of inductive limits ###
+  * [[Quillen adjunction]] / [[derived functor]]
+
+### 5.3 $(\infty,1)$-Categories of inductive limits ###
 
 * [[ind-object in an (∞,1)-category]]
 
@@ -334,11 +338,18 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
   * [[presentable (∞,1)-category]]
 
-### 5.4 accessible $(\infty,1)$-categories ###
+### 5.4 Accessible $(\infty,1)$-categories ###
 
 * [[accessible (∞,1)-category]]
 
-### 5.5 presentable $(\infty,1)$-categories ###
+#### 5.4.1 Locally small $\infty$-categories
+
+* [[essentially small (∞,1)-category]]
+
+* [[locally small (∞,1)-category]]
+
+
+### 5.5 Presentable $(\infty,1)$-categories ###
 
 * [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
 
