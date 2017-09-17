@@ -150,7 +150,9 @@ in positive degree.
 
 * [[Stokes theorem]]
 
-* [[de Rham theorem]].
+* [[de Rham theorem]]
+
+* [[Hodge theorem]]
 
 
 
