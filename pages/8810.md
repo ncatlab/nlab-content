@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[vector bundle]] (typically considered in [[complex-analytic geometry]] or [[algebraic geometry]]) is _(semi-)stable_ if it is a _[[GIT-stable point|(semi-)stable point]]_ in the [[moduli space of bundles]]. Under suitable conditions this is equivalent to a certain [[inequality]] on the [[slope of a coherent sheaf|slopes]] of the sub-bundles, and this inequality is what tends to be stated as the definition of stability of vector bundles. 
+A [[vector bundle]] (typically considered in [[complex-analytic geometry]] or [[algebraic geometry]]) is called _(semi-)stable_ if it is a _[[GIT-stable point|(semi-)stable point]]_ in the [[moduli space of bundles]]. Under suitable conditions this is equivalent to a certain [[inequality]] on the [[slope of a coherent sheaf|slopes]] of the sub-bundles, and this inequality is what tends to be stated as the definition of stability of vector bundles. 
 
 ## Definition
 
@@ -52,7 +52,7 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.4, def. 1.2.12](#HuybrechtsLehn96))
 
 ## Examples
 
-Every [[line bundle]] is stable. The [[extension]] of a degree-0 line bundle by a degree-1 line bundle is stable.
+Every [[line bundle]] is slope-stable. The [[extension]] of a degree-0 line bundle by a degree-1 line bundle is stable.
 
 e.g. ([Huybrechts-Lehn 96, example 1.2.10](#HuybrechtsLehn96))
 
