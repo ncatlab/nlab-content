@@ -65,3 +65,6 @@ A circle $n$-group-[[principal ∞-bundle]] is a [[circle n-bundle]], equivalent
 
 [[!redirects circle 2-group]]
 [[!redirects circle 2-groups]]
+
+[[!redirects circle Lie n-group]]
+[[!redirects circle Lie n-groups]]
