@@ -35,9 +35,9 @@ The following is a list of properties of and pertaining to sequentially compact 
 
 1. For a [[metric space]], the notions of sequential compactness and compactness coincide.
 
-2. The [[Eberlein–Šmulian theorem]] states that in a [[Banach space]], for a subset with regard to the [[weak topology]], compactness and sequentially compactness are both equivalent to the weaker notion of [[countable compactness]].
+2. The [[Eberlein-Smulian theorem|Eberlein–Šmulian theorem]] states that in a [[Banach space]], for a subset with regard to the [[weak topology]], compactness and sequentially compactness are both equivalent to the weaker notion of [[countably compact space|countable compactness]].
 
-3. A [[countable]] product of sequentially compact spaces is again sequentially compact.
+3. A [[countable set|countable]] product of sequentially compact spaces is again sequentially compact.
 
    Let $\{X_k\}$ be a countable family of sequentially compact spaces.  Let $(a_l)$ be a sequence in $\prod X_k$.  For each $m$ we recursively define an infinite subset $A_m \subseteq A_{m-1} \subseteq \mathbb{N}$ with the property that the sequence $(a_l)_{l \in A_m}$ converges when projected down to $\prod_{k=1}^m X_k$.  Let $l_m = \min\{A_l\}$.  Consider the sequence $(a_{l_m})$.  For each $k$, we choose a limit $x_k$ of the projection of $(a_l)_{l \in A_k}$ to $X_k$.  Let $x = (x_k) \in \prod X_k$.  Let $U$ be a neighbourhood of $x$.  Then there is some $n \in \mathbb{N}$ and neighbourhood $U_n \subseteq \prod_{k=1}^n X_k$ of $(x_k)_{k=1}^n$ such that $U$ contains the preimage of $U_n$.  For $m \ge n$, the sequence $(l_m)$ is contained in $A_n$ and so the image of $(a_{l_m})$ converges to $(x_k)_{k=1}^n$.  Hence there is some $r$ such that for $m \ge r$, the projection of $a_{l_m}$ lies in $U_n$.  Hence for $m \ge r$, $a_{l_m} \in U$.  Thus $(a_{l_m})$ converges to $(x_k)$ and so $\prod X_k$ is sequentially compact.
 
@@ -51,7 +51,7 @@ The following is a list of properties of and pertaining to sequentially compact 
 
    1. $\mathcal{T}_1 \supseteq \mathcal{T}_2$ (equivalently, the identity map on $X$ is continuous as a map $(X,\mathcal{T}_1) \to (X, \mathcal{T}_2)$)
    2. $\mathcal{T}_1$ is sequentially compact
-   3. $\mathcal{T}_2$ is [[completely regular]] and singleton sets are [[G-delta]] sets,
+   3. $\mathcal{T}_2$ is [[completely regular space|completely regular]] and singleton sets are $G_\delta$-[[G-delta set|sets]],
 
    then $\mathcal{T}_1 = \mathcal{T}_2$.
    =--
@@ -64,7 +64,7 @@ The following is a list of properties of and pertaining to sequentially compact 
 
 ### Relationship to Compactness 
 
-[[compact space|Compactness]] does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces] (href="http://en.wikipedia.org/wiki/Compact_space")). 
+[[compact space|Compactness]] does not imply sequentially compactness, nor does sequentially compactness imply compactness, without further assumptions (see for example wikipedia: [compact spaces](http://en.wikipedia.org/wiki/Compact_space)).
 In [[metric spaces]] for example both notions coincide.
 
 This is _not_ a contradiction to the statement that compact is equivalent to every [[net]] having a convergent subnet: Given a sequence in a compact space, its convergent _subnet_ need not be a _subsequence_ (see [[net]] for a definition of subnet).
@@ -106,3 +106,4 @@ This counterexample is based on the one in item 105 of the book
 [[!redirects sequentially compact]]
 [[!redirects sequential compactness]]
 [[!redirects sequentially compact space]]
+[[!redirects sequentially compact spaces]]
