@@ -16,13 +16,14 @@
 
 ## Idea 
 
-In great generality, a _homotopy limit_ is a way of constructing appropriate sorts of [[limit]]s in a [[higher category theory|(weak) higher category]] using some "presentation" of that higher category by a stricter structure.  The general study of such presentations is [[homotopy theory]].
+In great generality, a _homotopy limit_ is a way of constructing appropriate sorts of [[limit]]s in a [[higher category theory|(weak) higher category]] and in general and in [[(∞,1)-category]] theory in particular, using some _presentation_ of that higher category by a [[category theory|1-categorical]] structure.  The general study of such presentations is [[homotopy theory]].
 
-In classical homotopy theory, the presentation is given by a [[category with weak equivalences]], possibly satisfying extra axioms such as those of a [[homotopical category]], a [[category of fibrant objects]], or a [[model category]].  Such structures are considered to present an $(\infty,1)$-[[(infinity,1)-category|category]], and homotopy limits give a way of constructing the appropriate sort of "$(\infty,1)$-limits" in an $(\infty,1)$-category.
+In classical homotopy theory, the presentation is given by a [[category with weak equivalences]], possibly satisfying extra axioms such as those of a [[homotopical category]], a [[category of fibrant objects]], or a [[model category]].  Such structures are considered to present an [[(∞,1)-category]], and homotopy limits give a way of constructing the appropriate sort of [[limit in a quasi-category|(∞,1)-categorical limits]].
 
-In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it presents an "enriched $(\infty,1)$-category."  Here the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which is expected to construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category."  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
+In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it may presents an "enriched $(\infty,1)$-category" or be a more powerful presentation of a bare $(\infty,1)$-category (notably if the enrichment is over [[sSet]]).  In the [[enriched category theory]] context the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which may construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category" or may be a more powerful tool for constructing plain $(\infty,1)$-categorical limits (in particular if the enrichment is over [[sSet]]).  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
-More concretely, in a [[simplicial model category]] that [[presentable (∞,1)-category|presents]] an [[(∞,1)-category]], homotopy limits model the more intrinsic notion of [[limit in a quasi-category]].
+Maybe the most commonly encountered setup for homotopy limits is that where the [[(∞,1)-category]] in question is [[presentable (∞,1)-category|presents]] by a [[simplicial model category]]. See also [[homotopy Kan extension]], of which (globally defined) homotopy (co)limits are a special case.
+
 
 ## Definitions 
 
@@ -31,21 +32,144 @@ there are two ways to define homotopy limits:
 
 * with explicit constructions that satisfy a _local_ universal property: the homotopy limit object "represents homotopy-coherent cones up to homotopy."
 
-* as [[derived functor]]s that satisfy a _global_ universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
+* as [[derived functor]]s of a [[homotopy Kan extension]] that satisfy a _global_ universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
 
 One of the central theorems of the subject is that in good cases, the two give equivalent results; see below.
 
 
-### Global definition 
+### Global definition {#GlobalDefinition}
 
-Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
+Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) [[diagram]] category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
 
-The **homotopy limit** of a functor $F : D \to C$ is the image of $F$ under the right [[derived functor]], if it exists, of the [[limit]] functor $lim_D : [D,C] \to C$ with respect to the given weak equivalences on $C$ and the objectwise weak equivalences on $[D,C]$:
+The ordinary [[limit]] and [[colimit]] operations over $D$-diagrams are (as described there) the left and right [[Kan extension]] of the functor $const : C \to [D,C]$
+
 $$
-  holim_D F := (R lim_D)F
+  [D,C]
+  \stackrel{\stackrel{\overset{colim = Lan const}{\to}}{\overset{const}{\leftarrow}}}{\underset{lim = Ran const}{\to}}
+  C
   \,.
 $$
+
+The (globally defined) _homotopy limit_ and _colimit_ are accordingly the right and left [[homotopy Kan extension]] of the constant diagram functor:
+
+* The **homotopy limit** of a functor $F : D \to C$ is, if it exists, the image of $F$ under the right [[derived functor]] of the [[limit]] functor $lim_D : [D,C] \to C$ with respect to the given weak equivalences on $C$ and the objectwise weak equivalences on $[D,C]$:
+$$
+  holim_D F := (\mathbb{R} lim_D)F
+  \,.
+$$
+
+* The **homotopy colimit** of a functor $F : D \to C$ is, if it exists, the image of $F$ under the left [[derived functor]] of the [[colimit]] functor $colim_D : [D,C] \to C$ with respect to the given weak equivalences on $C$ and the objectwise weak equivalences on $[D,C]$:
+
+$$
+  hocolim_D F := (\mathbb{L} colim_D)F
+  \,.
+$$
+
+
 In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
+
+In particular, if $C$ is equipped with the extra structure of a [[simplicial model category]] and $K$ is an (small) [[sSet]]-[[enriched category]] we may also equip the [[enriched functor]] category $[D,C]$ with the structure of a simplicial model category, actually with two different such structures:
+
+* the _projective_ [[model structure on functors]] $[D,C]_{proj}$;
+
+* the _injective_ [[model structure on functors]] $[D,C]_{inj}$
+
+(both of which have the same objectwise weak equivalences and are in fact [[Quillen equivalence|Quillen equivalence]]) and limit and colimit constitute then two $sSet$-enriched [[Quillen adjunction]]s
+
+$$
+  [D,C]_{proj}
+   \stackrel{\overset{colim}{\to}}{\underset{const}{\leftarrow}} 
+  C
+$$
+
+and
+
+$$
+  [D,C]_{inj}
+   \stackrel{\overset{const}{\leftarrow}}{\underset{lim}{\to}} 
+  C
+  \,.
+$$
+
+(All proofs and other technical details on this are at [[homotopy Kan extension]].)
+
+These present directly the corresponding [[adjoint (∞,1)-functor]]s (as described there)
+
+$$
+  (\infty,1)Func(D,C^\circ)
+  \stackrel{\to}{\stackrel{\leftarrow}{\to}}
+  C^\circ
+$$
+
+by precomposition with a cofibrant replacement functor (for the colimit) and a fibrant replacement functor (for the limit).
+
+For instance for $Q_{proj} : [D,C] \to [D,C]$ a cofibrant replacment for the projective [[model structure on functors]] we have
+
+$$
+  hocolim F \simeq colim Q_{proj}(F)
+  \,.
+$$
+
+This is sometimes called the **Quillen formula** for comuting homotopy colimits. Analogously with $P_{inj}$ a fibrant replacement functor for the injective model structure, we have
+
+$$
+  holim F \simeq lim P_{inj}(F)
+  \,.
+$$
+
+In some applications it is, however, inconvenient to to produce a projectively cofbrant  replacement of a colimit diagram. There is another formula that produces an quivalent result: let $Q'_{proj}$ a cofibrant replacement functor for $[D^{op}, sSet_{Quillen}]_{proj}$ (notice the [[opposite category]]) and $Q_{inj}$ one for $[D,C]_{inj}$. Let $* \in [D^op,sSet]$ [[simplicial presheaf]] constant on the terminal simplicial set and $Q'_{proj}(')$ its projective cofibrant replacement. 
+
+Then we also have the [[coend]] expression
+
+$$
+  hocolim F \simeq \int^{D}
+  Q'_{proj}(*) \cdot Q_{inj}(F)
+  \,,
+$$
+
+where in the integrand we have the [[copower|tensoring]] of the [[simplicial model category]] $C$ over [[sSet]]. 
+
+This formula is often called the **Bousfield-Kan formula** (see also [[Bousfield-Kan map]]). The coend is a [[weighted limit]] and this formula for the plain homotopy colimit can be understood the left derived _weighted_ colimit which trivial weight (the underived weight is trivial, but becomes non-trivial after derivation -- this extra complexity helps reduce the complexity for the replacement for the functor $F$ itself).
+
+In detail, let $V$ be a [[monoidal model category]] and $C$ a $V$-[[enriched model category]] (for instance $V = sSet_{Quillen}$ as in the above discussion). Let $D$ be a small $V$-[[enriched category]]. Then for a any given [[weighted limit|weight]]
+
+$$
+  W : D^{op} \to V
+$$
+
+we have a $V$-[[adjunction]]
+
+$$
+  [D,C]
+  \stackrel{\overset{W \otimes_D (-)}{\to}}{\underset{const(-)^{W}}{\leftarrow}}
+  D
+  \,,
+$$
+
+where the [[left adjoint]] is the weighted colimit given by the [[coend]]
+
+$$
+  W \otimes_D F = \int^{d \in D} W(d) \otimes F(d)
+$$
+
+(with the [[copower|tensoring]] over $V$ in the integran) and where the [[right adjoint]] is formed using the [[power|cotensor]] over $V$.
+
+The crux now is that as $W$ varies, the left adjoint here is a left [[Quillen bifunctor]]
+
+$$
+  \int (-)\cdot (-)
+  :
+  [D^{op}, V] \times [D,C]
+  \to 
+  C
+  \,.
+$$
+
+For details on this see [[Quillen bifunctor]] or around page 9 of
+
+* Nicola Gambino, _Wheighted limits in simplicial homotopy theory_ .
+
+From the fact that this is a Quillen bifunctor and using the observation that for the _trivial_ weight $W = const 1$ the wighted colimit reduces to an ordinary colimit, follows the above Bousfield-Kan-type formula for the homotopy colimit.
 
 
 ### Local definition 
@@ -89,6 +213,16 @@ of hom-objects, rather than merely a weak equivalence.  By analogy with [[strict
 Frequently a strict homotopy limit does in fact exist, and can be constructed as a [[weighted limit]] in the ordinary (enriched) category in question.  In such cases, the strict homotopy limit may be easier to compute with than an arbitrary homotopy limit merely known to have the up-to-weak-equivalence universal property.  Thus, sometimes when people say [[generalized the|the]] homotopy limit they refer mean a _strict_ homotopy limit.
 
 When a strict homotopy limit exists, an arbitrary homotopy limit may be defined as an object which is (weakly) equivalent to the strict homotopy limit.
+
+### Derivators {#Derivators}
+
+It is noteworthy that the homotopy limit and colimit in a [[category with weak equivalences]] are drastically different from the from the ordinary [[limit]] and colimit in the corresponding [[homotopy category]]: the universal property of the full $(\infty,1)$-categorical limits and colimits crucially does take into account the explicit higher cells and does not work just up to any higher cells.
+
+This (obvious) observation is a very old one and can be seen to be one of the driving forces behind the insight that just working with [[homotopy categories]] misses crucial information, something which today is understood as the statement that a homotopy category is just the [[decategorification]] of an [[(∞,1)-category]].
+
+While the full theory of [[(∞,1)-categories]] is one way to impose the correct notion of higher categorical limits, there are other ways to deal with issue. Due to [[Alexander Grothendieck]] is the technique of using **[[derivator]]s** for keeping track of homotopy limits.
+
+Roughly, the idea of a derivator is that while the single [[homotopy category]] $Ho(C)$ of a category $C$ with weak equivalences is not sufficient information, the homotopy limit of a diagram in $[D,C]$ _is_ encoded in the homotopy category $Ho([D,C])$ of that [[functor category]] (this is after all the domain of the plain 1-categorical [[derived functor]] of the limit functor). Accordingly, what is called the [[derivator]] of a category with weak equivalences $C$ is a collection of _all_ the homotopy categories $Ho([D,C])$ of _all_ the possible [[diagram]] categories $[D,C]$, as $D$ runs over all small categories. See there for more details.
 
 
 ## Homotopy limits versus higher categorical limits
