@@ -6,6 +6,8 @@
 
 * [[balanced monoidal category]]
 
+  * [[twist]]
+
 * [[symmetric monoidal category]]
 
 ## With duals for objects
