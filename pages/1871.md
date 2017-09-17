@@ -17,6 +17,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 Yang--Mills theory is a [[gauge theory]] on a given 4-[[dimensional]] ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian manifold|Riemannian]] [[manifold]] $X$ whose field is the [[Yang–Mills field]] -- a cocycle $\nabla \in \mathbf{H}(X,\bar \mathbf{B}U(n))$ in differential [[nonabelian cohomology]] represented by a [[vector bundle]] [[connection on a bundle|with connection]] -- and whose [[action functional]] is 
@@ -44,11 +45,16 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 ## Related concepts
 
+
 * [[standard model of particle physics]]
 
   * [[electromagnetism]]
 
   * [[spinors in Yang-Mills theory]]
+
+  * [[QED]], [[QCD]]
+
+* [[super Yang-Mills theory]]
 
 * [[S-duality]], [[Montonen-Olive duality]]
 
@@ -74,6 +80,3 @@ For the relation to [[instanton Floer homology]] see also
 [[!redirects Yang-Mills action]]
 [[!redirects Yang-Mills action functional]]
 
-[[!redirects super Yang-Mills theory]]
-
-[[!redirects super Yang-Mills theory]]
