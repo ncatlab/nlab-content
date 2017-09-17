@@ -41,6 +41,8 @@ Theta functions are naturally thought of as being the [[space of states (in geom
 
 * [[special functions]]
 
+* [[cubical structure on a line bundle]]
+
 * [[mock theta function]]
 
 ## References
