@@ -114,6 +114,11 @@ The relation to [[combinatorial model categories]] is discussed in
 * [[Jiří Rosický]], _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
 {#Rosicky}
 
+
+* [[Carles Casacuberta]], Dirk Scevenels, [[Jeff Smith]], _Implications of large-cardinal principles in homotopical localization_  Advances in Mathematics
+Volume 197, Issue 1, 20 October 2005, Pages 120-139 
+
+
 category: foundational axiom
 
 [[!redirects Vopěnka's principle]]
