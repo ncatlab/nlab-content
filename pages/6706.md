@@ -1,0 +1,37 @@
+
+
+## Idea
+
+The _quantum master equation_ is an condition on a consistent [[quantization]] of a [[schreiber:derived critical locus|derived]] [[phase space]], given dually by a [[BV-BRST complex]]:
+
+as explained there, this [[derived L-infinity algebra|derived L-∞ algebroid]] $\mathfrak{P}_{BV}$ has a [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{P}_{BV})$ -- a graded-commutative [[dg-algebra]] -- which is equipped with the structure of a [[BV-algebra]], hence with a [[Poisson n-algebra]] bracket $\{-,-\}$ and a [[BV-operator]] $\Delta$, such that there is a "[[Hamiltonian]]" $S$ for the [[differential]] $d_{BV}$ on $CE(\mathfrak{P}_{BV})$
+
+$$
+  d_{BV} = \{S, -\}
+  \,,
+$$
+
+so that the condition on the differential $(d_{BV})^2 = 0$ is equivalently 
+
+$$
+  \{S,S\} = 0
+  \,.
+$$
+
+
+This $S$ is an extension of the classical [[action]]: the _BV-action_ . This equation $\{S,S\} = 0$ is called the **classical master equation**.
+
+Under [[quantization]] the graded-commutative [[dg-algebra]] $CE(\mathfrak{P}_{BV})$ becomes a non-commutative dg-algebra. For instance in [[deformation quantization]] it becomes a non-commutative algebra over the [[power series]] [[ring]] in a formal parameter $\hbar$.
+
+In general such a deformation breaks the condition $\{S,S\} = 0$ by terms of order $O(\hbar)$. For a _consistent BV-quantization_ (...) the condition is that after [[quantization]] the relation is
+
+$$
+  \{S,S\} + \hbar \Delta S = 0
+  \,.
+$$
+
+This equation is called the **quantum master equation** in the context of BV-quantization. 
+
+If after quantization this condition does not hold one says that the system has a gauge _[[quantum anomaly]]_ . See there for more references on this point.
+
+[[!redirects classical master equation]]
