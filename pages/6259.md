@@ -141,6 +141,9 @@ Therefore indeed the symplectic pairing vanishes on the self-dual and on the ant
 
 Therefore a [[state]] of higher Chern-Simons theory on $\Sigma$ may locally be thought of as a function of the self-dual forms on $\Sigma$. Under holography this is (therefore) identified with the [[correlator]] of a [[self-dual higher gauge theory]] on $\Sigma$.
 
+### Partition function
+
+(...)
 
 
 ## Examples
@@ -162,6 +165,11 @@ The [[worldvolume]] theory of the [[M5-brane]], the
 ### RR-Fields in type II supergravity
 
 The [[RR-field]] in [[type II string theory]] are self-dual (as a formal sum of fields). A holographic description is discussed in ([Belov-Moore II](#BelovMooreII)).
+
+## Related concepts
+
+[[!include square roots of line bundles - table]]
+
 
 ## References
 
