@@ -160,7 +160,7 @@ of morphisms out of the terminal object.
 
 This is indeed again the terminal geometric morphism
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 Let $\mathbf{H}$ be an [[∞-stack]] [[(∞,1)-topos]]. Then the [[∞-groupoid]] $Geom(\mathbf{H}, \infty Grpd)$ of [[geometric morphism|geometric]] [[(∞,1)-functor]]s is [[contractible]].
@@ -180,9 +180,18 @@ If the [[(∞,1)-topos]] is a [[locally contractible (∞,1)-topos]] then this i
 
 The composite [[(∞,1)-functor]] $\Gamma \circ LConst$ is the [[shape of an (∞,1)-topos|shape of]] $\mathbf{H}$.
 
+## Related concepts
+
+* [[abelian sheaf cohomology]]
 
 
 [[!redirects global sections]]
+
+[[!redirects global sections functor]]
+[[!redirects global section functor]]
+[[!redirects global sections functors]]
+[[!redirects global section functors]]
+
 
 [[!redirects global section geometric morphism]]
 [[!redirects global section geometric morphisms]]
