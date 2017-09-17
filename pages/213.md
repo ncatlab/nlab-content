@@ -18,6 +18,10 @@ By $CartSp$ we denote the [[category]]
 
 So $CartSp$ may be thought of as the [[full subcategory]] of [[Diff]] on the [[smooth manifold]]s of the form $\mathbb{R}^n$ for $n \in \mathbb{N}$.
 
+Some variants of this are of interest:
+
+* write $ThCartSp$ for the category of [[nLab:infinitesimal object|infinitesimally thickened]] Cartesian spaces: the [[full subcategory]] on the category of [[smooth loci]] on those of the form $\mathbb{R}^n \times d$, where $d$ is an [[infinitesimal space]].
+
 ## Geometry induced from $CartSp$.
 
 Along the general lines of [notions of space](http://ncatlab.org/nlab/show/space#NotionsOfSpace) we have the following notions of spaces modeled on $CartSp$.
@@ -89,3 +93,5 @@ category: category
 [[!redirects Cartesian Space]]
 [[!redirects CartesianSpaces]]
 [[!redirects Cartesian Spaces]]
+
+[[!redirects ThCartSp]]
