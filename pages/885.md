@@ -1,11 +1,28 @@
-[[!redirects natural numbers]]
 
-A __natural number__ is traditionally defined as any of the numbers $1$, $2$, $3$, and so on.  It is now common in many fields of mathematics to include $0$ as a natural number as well.  One advantage of this is that then the natural numbers can be identified with the [[cardinal number|cardinalities]] of [[finite set]]s, as well as the finite [[ordinal number]]s.
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A __natural number__ is traditionally defined as any of the numbers $1$, $2$, $3$, and so on.  It is now common in many fields of mathematics to include $0$ as a natural number as well.  One advantage of this is that then the natural numbers can be identified with the [[cardinal number|cardinalities]] of [[finite sets]], as well as the finite [[ordinal numbers]].
 
 The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\omega$, or $\aleph_0$.  The last two notations refer to this set\'s structure as an [[ordinal number]] or [[cardinal number]] respectively, and they often (usually for $\aleph$) have a subscript $0$ allowing them to be generalised.  In the [[foundations]] of mathematics, the [[axiom of infinity]] states that this actually forms a set (rather than a proper class).
 
-$\mathbf{N}$ has the structure of a [[natural numbers object]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n+$).  Given any other set $X$ with an element $a: X$ and a [[function]] $s: X \to X$, we define by __primitive recursion at $X$__ a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$.  (Fancier forms of [[recursion]] are also possible.)  The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
+## Properties
 
-# Remarks #
+### Natural numbers objects
 
-The generalizations of $\mathbf{N}$ to other [[category|categories]] than [[Set]] are the [[natural numbers object]]s.
+$\mathbf{N}$ has the structure of a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n+$).  Given any other set $X$ with an element $a: X$ and a [[function]] $s: X \to X$, we define by __primitive recursion at $X$__ a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$.  (Fancier forms of [[recursion]] are also possible.)  The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
+
+
+## Related concepts
+
+
+
+* [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]], [[p-adic number]]
+
+
+* [[carrying]]
+
+[[!redirects natural numbers]]
