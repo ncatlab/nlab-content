@@ -1,4 +1,3 @@
-#Definition#
 
 An [[(∞,1)-functor]] $F : C \to D$ is **fully faithful** if, when modeled as a functor of [[simplicially enriched category|simplicially enriched categories]] the [[homotopy category of an (∞,1)-category|induced]]
 functor on [[homotopy category of an (infinity,1)-category|homotopy categories]]
@@ -15,10 +14,7 @@ $$
 
 are [[isomorphism]]s in $Ho_{Top}$ for all objects $X, Y$.
 
-
-#Remarks#
-
-* See also [[(infinity,1)-essentially surjective functor|(∞,1)-essentially surjective functor]].
+For more see at **[[full and faithful (∞,1)-functor]]**.
 
 
 [[!redirects (∞,1)-fully faithful functor]]
