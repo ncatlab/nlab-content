@@ -28,7 +28,7 @@
 
 ## Idea
 
-This page describes a proposal for a formalization of the concept of [[quantization]] -- supposedly a natural process that turns  the [[higher geometry|higher geometric]] data of a [[local prequantum field theory]] into the [[higher algebra|higher algebraic]] data of a [[local quantum field theory]] -- formulated in terms of [[cohomology]] in [[higher differential geometry]], specifically in [[cohesive (∞,1)-toposes]].
+This page describes a proposal for a formalization of the concept of [[quantization]] -- supposedly a natural process that turns  the [[higher geometry|higher geometric]] [[local Lagrangian]] data of a [[local prequantum field theory]] into the [[higher algebra|higher algebraic]] data of a [[local quantum field theory]] -- formulated in terms of [[cohomology]] in [[higher differential geometry]], specifically in [[cohesive (∞,1)-toposes]].
 
 The fundamental observation here is that is natural to 
 
