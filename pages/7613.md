@@ -1,1 +1,64 @@
-A conjectured [[UV-completion]] of [[11-dimensional supergravity]].
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The term  _M-theory_ refers to a conjectured [[UV-completion]] of [[11-dimensional supergravity]] whose [[Kaluza-Klein mechanism|dimensional reduction]] yields [[string theory]].
+
+Keeping in mind that already [[string theory]] itself and in fact already [[quantum field theory]] itself have only partially been formulated in a precise way, the conjecture is motivated from the fact that with the available knowledge of these subjects, one can see indications that there is a kind of [[commuting diagram]] of the form
+
+$$
+  \array{
+      ??? &\stackrel{effective QFT}{\to}& 11d Supergravity
+      \\
+      \downarrow && \downarrow^{\mathrlap{dimensional reduction}}
+      \\
+      StringTheory &\stackrel{effective QFT}{\to}& 10d Supergravity
+  }
+$$
+
+in some sense. The unknown top left corner here has optimistically been given a name, and that is "M-theory". But even the rough global structure of the top left corner has remained elusive. 
+
+## Hints
+
+The available evidence that there is something of interest consists of various facets of the bottom left and the top right entry of the above diagram, that seem to have a common origin in the top left corner.
+
+### Membranes
+
+Notably, from the [[black brane]]-solution structure in [[11-dimensional supergravity]] one finds that it contains a 2-[[brane]], called the _[[M2-brane]]_, and to the extent that one has this under control one can show that under "double dimensional reduction" this becomes the [[string]]. However, a partial [[sigma-model]]-description of this M2-brane has only very recently surfaced (see _[[BLG model]]_ and _[[ABJM theory]]_) and even so it is clear that this cannot quite give a definition of the top left corner by perturbation theory (as the string sigma-model does for the bottom left corner) because by the very nature of the conjecture, the top left corner is supposed to be given by a non-perturbative strong-coupling limit of the bottom left corner.
+
+### U-duality
+
+Another hint comes from the fact that the [[U-duality]]-structure of [[supergravity]] theories forms a clear pattern in those dimensions where one understands it well, giving rise to a description of higher dimensional supergravtiy theories by [[exceptional generalized geometry]]. Now, this pattern, as a mathematical pattern, can be continued to the case that would correspond to the top left corner above, by passing to [[exceptional generalized geometry]] over _hyperbolic_ [[Kac-Moody Lie algebras]] such as first [[E10]] and then, ultimately [[E11]]. The references there show that these are huge algebraic structures inside which people incrementally find all kinds of relations that are naturally identified with various aspects of M-theory. This leads to the conjecture that M-theory somhow _is_ $E_{11}$ in some way. But it all remains rather mysterious at the moment.
+
+## Related entries
+
+* [[topological M-theory]]
+
+* [[M2-brane]], [[M5-brane]]
+
+* [[Hořava-Witten theory]]
+
+## References
+
+The original insight that gave rise to the conjecture is due to
+
+* [[Edward Witten]], _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+The term "M-theory" occurs somewhere around
+
+* [[Mike Duff]], _M-Theory (the Theory Formerly Known as Strings)_, 	Int.J.Mod.Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
+
+For more references see also _[[M2-brane]]_.
