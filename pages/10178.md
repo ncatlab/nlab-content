@@ -1591,14 +1591,17 @@ So now one just needs to put the pieces toghether with the nonabelian [[7d Chern
 
 We give a summary of the central steps of motivic quantization of local prequantum field theory in general abstract terms of [[homotopy type theory]], hence in the [[internal language]] of [[(∞,1)-toposes]], following the idea of _[Synthetic quantum field theory](#SyntheticQuantumFieldTheory)_. This is to bring out the sheer conceptual simplicity underlying the process.
 
-1. Choose a [[homotopy type theory]] $\mathbf{H}$ with [[differential cohesion|differential]] [[cohesion]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
+* **(QFT 0)** _The gauge principle_: The ambient [[theory]] is a [[homotopy type theory]] $\mathbf{H}$.
+
+  This encodes the [[gauge principle]].
+
+* **(QFT 1)** _Phases and action functionals_: The [[homotopy type theory]] $\mathbf{H}$ is [[differential cohesion|differentially]] [[cohesive]], hence equipped with [[higher modalities]]  $(\Pi \dashv \flat \dashv \sharp)$ ([[shape modality]], [[flat modality]], [[sharp modality]]) and $(Red \dashv \Pi_{inf} \dashv \flat_{ingf})$ ([[reduction modality]], [[infinitesimal shape modality]], [[infinitesimal flat modality]]). 
+
+  This induces for every choice of [[abelian ∞-group]] $\mathbb{G}$ the [[moduli ∞-stack|universal moduli]] $\mathbf{B}\mathbb{G}_{conn}$ of $\mathbb{G}$-[[principal ∞-connections]].
+
+  Here $\mathbb{G}$ is a choice of [[phase and phase space in physics|phases]].
 
    We say that $\mathbf{H}$ is a context for [[local prequantum field theory]].
-
-1. In this [[context]] $\mathbf{H}_{/\ast}$, to choose a _[[phase and phase space in physics|group of phases]]_ is to choose an [[abelian ∞-group]] $\mathbb{G} \in Grp(\mathbf{H})$.
-
-   By [[differential cohesion]] this choice induces a a [[type]]
-   $\mathbf{B}\mathbb{G}_{conn} \in \mathbf{H}$ of [[moduli ∞-stack|universal moduli]] of $\mathbb{G}$-[[principal ∞-connections]].
 
    The [[context]] of such, hence the the [[slice (∞,1)-topos|slice homotopy theory]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$, is the context of [[local action functionals]] assigning [[phase and phase space in physics|phases]] in $\mathbb{G}$. 
 
@@ -1612,13 +1615,13 @@ We give a summary of the central steps of motivic quantization of local prequant
 
    of the local prequantum field theory $\exp(i S)$.
 
-1. To choose a _[[superposition principle]]_ in the [[context]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}}_{conn}$ is to choose a function [[function]] $\rho \colon \mathbf{B}\mathbb{G} \longrightarrow \mathbf{B}GL_1(E)$ to the [[delooping]] of the [[∞-group of units]] of an  [[E-∞ ring|commutative ring]] type $E \in CRing_\infty(\mathbf{H})$.
+* **(QFT 2)** _Superposition principle and wavefunctions_: To choose a _[[superposition principle]]_ in the [[context]] $\mathbf{H}_{/\mathbf{B}\mathbb{G}}_{conn}$ is to choose a function [[function]] $\rho \colon \mathbf{B}\mathbb{G} \longrightarrow \mathbf{B}GL_1(E)$ to the [[delooping]] of the [[∞-group of units]] of an  [[E-∞ ring|commutative ring]] type $E \in CRing_\infty(\mathbf{H})$.
 
    Given a [[superposition principle]] $\rho$, the [[dependent sum]] of a [[local action functional]] along it is the [[higher prequantum line bundle|higher prequantum E-line bundle]] $L \coloneqq \underset{\rho}{\sum} \exp(i S) \in \mathbf{H}_{/\mathbf{B}GL_1(E)}$. 
 
    A [[section]] of the [[higher prequantum line bundle]] is a [[wavefunction]] and the $E$-[[∞-module]] which is the [[space of sections]] $E^{\bullet + L}(\mathbf{Fields})$ is the [[space of quantum states]].
 
-1. A [[relation]] $\exp(i S_{traj}) \to \exp(i S_{in}) \times \exp(i S_{out})$ in the local prequantum field theory context $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$ is a [[space]] of [[trajectories]] equipped with [[probability amplitudes]]. Its [[dependent sum]] $L_{traj} \to L_{in} \times L_{out}$ along $\rho$ is the corresponding [[integral kernel]], as is its image under $\Gamma$.
+* **(QFT 3)** _Quantization and path integral_: A [[relation]] $\exp(i S_{traj}) \to \exp(i S_{in}) \times \exp(i S_{out})$ in the local prequantum field theory context $\mathbf{H}_{/\mathbf{B}\mathbb{G}_{conn}}$ is a [[space]] of [[trajectories]] equipped with [[probability amplitudes]]. Its [[dependent sum]] $L_{traj} \to L_{in} \times L_{out}$ along $\rho$ is the corresponding [[integral kernel]], as is its image under $\Gamma$.
 
    A choice of self-[[dual object|duality]] on the correspondence $E$-module $E^{\bullet + L_{traj}}(\mathbf{Fields}_{traj})$ is  a [[path integral]] [[measure]] $d \mu_{traj}$. The [[obstruction]] to its existence is the [[quantum anomaly]]. 
 
