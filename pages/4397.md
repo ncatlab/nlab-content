@@ -22,8 +22,6 @@ However, we can tell that bornological spaces and certain [[morphisms]] between 
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 
 
-[[!redirects bornology]]
-[[!redirects bornological]]
 [[!redirects bornological space]]
 [[!redirects bornological spaces]]
 [[!redirects Bor]]
