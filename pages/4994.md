@@ -58,14 +58,14 @@ For a summary of automata theory , look at the [Wikipedia](http://en.wikipedia.o
 
 For a thorough treatment, see
 
-*  M. V. Lawson, _Finite Automata_, [Google books](http://books.google.co.uk/books?id=MDQ_K7-z2AMC&dq=automata+theory+lawson&source=bl&ots=0w-Xp8AaDa&sig=6dXKjG0tVY6aUlvlAc5UaT-ObX8&hl=en&ei=Ywy6TPmtCJSOjAfzgYXYDg&sa=X&oi=book_result&ct=result&resnum=1&sqi=2&ved=0CBoQ6AEwAA)
+*  [[M. V. Lawson]], _Finite Automata_, [Google books](http://books.google.co.uk/books?id=MDQ_K7-z2AMC&dq=automata+theory+lawson&source=bl&ots=0w-Xp8AaDa&sig=6dXKjG0tVY6aUlvlAc5UaT-ObX8&hl=en&ei=Ywy6TPmtCJSOjAfzgYXYDg&sa=X&oi=book_result&ct=result&resnum=1&sqi=2&ved=0CBoQ6AEwAA)
 
 or other texts on the subject.
 
 For the coalgebraic treatment, this is discussed in: 
 
-*  A.Kurz:  _Coalgebras and Modal Logic._ Course Notes for ESSLLI 2001, Version of October 2001. Appeared on the CD-Rom ESSLLI'01, Department of Philosophy, University of Helsinki, Finland, available from [site](http://www.cs.le.ac.uk/people/akurz/works.html).
+*  [[A. Kurz]]:  _Coalgebras and Modal Logic._ Course Notes for ESSLLI 2001, Version of October 2001. Appeared on the CD-Rom ESSLLI'01, Department of Philosophy, University of Helsinki, Finland, available from [site](http://www.cs.le.ac.uk/people/akurz/works.html).
 
-
+category: computer science
 [[!redirects deterministic automaton]]
 [[!redirects deterministic automata]]
