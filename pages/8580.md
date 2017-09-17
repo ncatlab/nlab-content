@@ -45,15 +45,13 @@
 
 1. [Maurer-Cartan forms](#MaurerCartanForms)
 
-1. [Circle-principal connections](#CirclePrincipalConnections)
+1. [Principal connections](#PrincipalConnections)
 
 1. [Integration](#Integration)
 
 1. [Characteristic classes](#CharacteristicClasses)
 
-1. [Principal connections](#PrincipalConnections)
-
-1. [Chern-Simons-type gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
+1. [Gauge theories](#ActionFunctionalsForChernSimonsTypeGaugeTheories)
 
 1. [Geometric quantization](#GeometricQuantization)
 
@@ -5254,11 +5252,17 @@ $$
   }
 $$
 
-This is the [[Maurer-Cartan form]] on $G$
++-- {: .num_defn #GeneralAbstractMaurerCartanForm}
+###### Definition
+
+This is the **[[Maurer-Cartan form]]** on $G$
 
 $$
   \theta \colon G \to \flat_{dR} \mathbf{B}G
+  \,.
 $$
+
+=--
 
 #### Maurer-Cartan forms on smooth $\infty$-groups
 
@@ -5310,13 +5314,13 @@ sends a circle $n$-bundle to the curvature of a pseudo-connection on it.
 
 (...)
 
-## **Circle-principal connections**
- {#CirclePrincipalConnections}
- {#CirclePrincipalNConnections}
+## **Principal connections**
+ {#PrincipalConnections}
 
 ### Model Layer
 
 #### Circle-principal connections
+ {#CirclePrincipalConnections}
 
 [[Dirac charge quantization]] says that the
 [[electromagnetic field]] is only locally in general a map
@@ -5390,6 +5394,37 @@ $$
 
 * [[electromagnetic field]]
 
+#### Principal 1-connection
+
+* [[principal connection]]
+
+#### Covariant derivatives
+
+* [[covariant derivative]]
+
+$$
+  \array{
+     (V\sslash G)_{conn}
+     \\
+     \downarrow
+     \\
+     \mathbf{B}G_{conn}
+  }
+$$
+
+$$
+  \array{
+    \tilde X &&\stackrel{(\sigma, \nabla \sigma)}{\to}&& (V \sslash G)_{conn}
+    \\
+    & \searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}G_{conn}
+  }
+$$
+
+
+
+
 #### Deligne cohomology and Cheeger-Simons differential characters
 
 * [[Deligne cohomology]]
@@ -5420,21 +5455,57 @@ $$
 
 * [[supergravity C-field]]
 
-### Semantic Layer
-
-#### Smooth differential cohomology
+#### Circle-principal $n$-connection
+  {#CirclePrincipalNConnections}
 
 * [[ordinary differential cohomology]]
 
 * [[circle n-bundle with connection]]
 
-set 
+### Semantic Layer
+
+#### Smooth differential cohomology
+ {#SmoothDifferentialCohomology}
+
+Let $G \in Grp(\mathbf{H})$ be a groupal [[Ek-algebra|E2-alhgebra]], hence an [[∞-group]] which is twice [[delooping|deloopable]]
 
 $$
-  curv \coloneqq \theta_{\mathbf{B}\mathbb{G}}
+  \mathbf{B}^2 G \in \mathbf{H}
+  \,.
 $$
 
-and
++-- {: .num_defn}
+###### Definition
+
+Write 
+
+$$
+  curv_{G} 
+   \coloneqq 
+  \theta_{\mathbf{B}\mathbb{G}}
+  \colon
+  \mathbf{B}G
+  \to
+  \flat_{dR} \mathbf{B}^2 G
+$$
+
+for the [[Maurer-Cartan form]] on the [[∞-group]] $\mathbf{B}G$, def. \ref{GeneralAbstractMaurerCartanForm}. We call this the **universal curvature characteristic** of $G$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+The **[[differential cohomology]]** with [[coefficients]] in $\mathbf{B}G$ is [[cohomology]] in the [[slice (∞,1)-topos]] $\mathbf{H}_{/\flat_{dR} \mathbf{B}^2 G}$ with [[coefficients]] in $curv_G$
+
+$$
+  \mathbf{H}_{/\flat_{dR}\mathbf{B}^2 G}(-, curv_G)
+  \,.
+$$
+
+=--
+
+(...)
 
 $$
   \array{
@@ -5448,7 +5519,7 @@ $$
   }
 $$
 
-presented by [[ordinary differential cohomomology]]
+presented by [[ordinary differential cohomology]]
 
 #### Higher holonomy
  {#Holonomy}
@@ -5618,50 +5689,6 @@ $$
 (...)
 
 
-
-
-
-## **Principal connections**
- {#PrincipalConnections}
-
-### Model Layer
-
-#### Principal 1-connections
-
-* [[connection on a bundle]] $\mathbf{B}G_{conn}$
-
-#### Covariant derivatives
-
-* [[covariant derivative]]
-
-$$
-  \array{
-     (V\sslash G)_{conn}
-     \\
-     \downarrow
-     \\
-     \mathbf{B}G_{conn}
-  }
-$$
-
-$$
-  \array{
-    \tilde X &&\stackrel{(\sigma, \nabla \sigma)}{\to}&& (V \sslash G)_{conn}
-    \\
-    & \searrow &\swArrow& \swarrow
-    \\
-    && \mathbf{B}G_{conn}
-  }
-$$
-
-
-#### Yang-Mills theory
- {#Yang-MillsTheory}
-
-* [[Yang-Mills theory]]
-
-* [[Yang-Mills instanton]] number = [[second Chern class]]
-
 #### Principal $\infty$-connections
 
 * [[connection on a principal infinity-bundle]]
@@ -5677,10 +5704,33 @@ $$
 
 
 
-## **Chern-Simons-type gauge theories**
+## **Gauge theories**
  {#ActionFunctionalsForChernSimonsTypeGaugeTheories}
 
+
+
+* [[cohesion]] 
+
+* $\stackrel{differential\;refinement\;of\;universal\;char\;classes}{\Rightarrow}$ [[schreiber:infinity-Chern-Simons theory]]
+
+  * [[closed bosonic string field theory|closed string field theory]]
+
+    * via level-truncation and [[Kaluza-Klein mechanism]] $\Rightarrow$ 
+
+      [[Einstein-Yang-Mills theory]]
+
+      * [[standard model of particle physics]]
+
+      * [[standard model of cosmology]]
+
+    
+
+
 ### Model Layer
+
+#### 3d Chern-Simons theory for compact simple gauge group
+
+* [[Chern-Simons theory]]
 
 #### Higher dimensional abelian Chern-Simons theory
  {#AbelianChernSimonsTheory}
@@ -5728,6 +5778,21 @@ $$
 
 * [[Einstein-Yang-Mills theory]]
 
+###### Yang-Mills theory
+ {#Yang-MillsTheory}
+
+* [[Yang-Mills theory]]
+
+* [[Yang-Mills instanton]] number = [[second Chern class]]
+
+###### Einstein gravity
+
+* [[gravity]]
+
+###### Phenomenological Standard model of particle physics and cosmology
+
+* [[model (in theoretical physics)]]
+
 * [[standard model of particle physics]]
 
 * [[standard model of cosmology]]
@@ -5752,6 +5817,12 @@ $$
 #### 1-Geometric quantization
 
 * [[geometric quantization]]
+
+#### Quantum 3d Chern-Simons theory for compact simple gauge group
+
+* [[Reshetikhin-Turaev construction]], [[Turaev-Viro construction]]
+
+* [[conformal blocks]]
 
 #### Higher geometric quantization
 
