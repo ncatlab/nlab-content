@@ -23,17 +23,17 @@
 
 ### General
 
-Generally, a _theta function_ ($\theta$-function, $\Theta$-function) is a [[holomorphic section]] of a ([[polarized variety|prinicpally polarizing]]) [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]].
+Generally, a _theta function_ ($\theta$-function, $\Theta$-function) is a [[holomorphic section]] of a ([[polarized variety|principally polarizing]]) [[holomorphic line bundle]] over a [[complex torus]] / [[abelian variety]].
 (e.g. [Polishchuk 03, section 17](#Polishchuk03)) and in particular over a [[Jacobian variety]] ([Beauville](#Beauville)) such as [[prequantum line bundles]] for (abelian) [[gauge theory]]. The line bundle being principally polarizing means that its space of holomorphic sections is 1-dimensional, hence that it determines the $\theta$-function up to a global complex scale factor. Typically these line bundles themselves are [[Theta characteristics]].
 Expressed in local [[coordinates]] on $\mathbb{C}^g$ a $\theta$-function appears as an actual function, satisfying certain transformation properties. 
 
-Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more), which is the historically first and archetypical function from which all modern generlizations derive their name.
+Specifically in the context of [[number theory]]/[[arithmetic geometry]], by _the_ theta function one usually means the _[[Jacobi theta function]]_ (see there for more), which is the historically first and archetypical function from which all modern generalizations derive their name.
 
 Certain integrals of theta functions yield [[zeta functions]], see also at _[[function field analogy]]_.
 
 ### In quantization
 
-Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instace ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
+Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instance ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
 
 ## Definition
  {#Definition}
