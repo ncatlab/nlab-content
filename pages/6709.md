@@ -87,6 +87,17 @@ $$
   \,.
 $$
 
+### Relation to Chern-classes
+
+If $E_{\mathbb{C}}$ is a complex [[vector bundle]] and $E_{\mathbb{R}}$ is the underlying real bundle then the second Stiefel-Whitney class is given by the [[first Chern class]] mod 2
+
+$$ 
+  w2(E_{\mathbb{R}}) = c_1(E_{\mathbb{C}}) \; mod 2
+  \,.
+$$
+
+More generally, the SW classes are then given by the [[Chern character]]. See for instance [Milnor-Stasheff, p. 171](#MilnorStasheff).
+
 ## Related concepts
 
 * [[Chern class]]
@@ -98,6 +109,7 @@ $$
 A classic work on the subject is 
 
 * [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
+  {#MilnorStasheff}
 
 A concise introduction is in chapter 23, section 3 of 
 
