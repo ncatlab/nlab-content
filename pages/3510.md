@@ -196,7 +196,9 @@ This appears [JT, theorem 4.11, 4.12](http://arxiv.org/PS_cache/math/pdf/0607/06
 
 =--
 
+## Related concepts
 
+* [[model structure for dendroidal complete Segal spaces]]
 
 ## References
 
