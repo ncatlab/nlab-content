@@ -27,36 +27,35 @@ An object $X$ in an [[AB5-category]] $C$ is __of [[finite type]]__ if one of the
 
 (i) any complete directed set $\{X_i\}_{i\in I}$ of [[subobject]]s of $X$ is stationary
 
-(ii) for any complete directed set $\{Y_i\}_{i\in I}$ of subobjects of an object $Y$ the natural morphism $colim_i C(X,Y_i) \to C(X,Y)$ is an isomorphism.
+(ii) for any complete directed set $\{Y_i\}_{i\in I}$ of subobjects of an object $Y$ the natural morphism $\operatorname{colim}_i C(X,Y_i) \to C(X,Y)$ is an isomorphism.
 
-An object $X$ is __finitely presented__ if it is of finite type and if for any 
-epimorphism $p:Y\to X$ where $Y$ is of finite type, it follows that $ker\,p$ is also of finite type. An object $X$ in an AB5 category is __coherent__ if it is of finite type and for any morphism $f: Y\to X$ of finite type $ker\,f$ is of finite type.
+An object $X$ is __finitely presented__ if it is of finite type and if for any epimorphism $p : Y \to X$ where $Y$ is of finite type, it follows that $\operatorname{ker} p$ is also of finite type. An object $X$ in an AB5 category is __coherent__ if it is of finite type and for any morphism $f : Y \to X$ where $Y$ is of finite type $\operatorname{ker} f$ is of finite type.
 
-For an exact sequence $0\to X'\to X\to X''\to 0$ in an AB5 category the following hold:
+For an exact sequence $0 \to X' \to X \to X'' \to 0$ in an AB5 category the following hold:
 
-(a) if $X'$ and $X''$ are finitely presented, then $X$ is finitely presented;
+1. if $X'$ and $X''$ are finitely presented, then $X$ is finitely presented;
+2. if $X$ is finitely presented and $X'$ of finite type, then $X''$ is finitely presented;
+3. if $X$ is coherent and $X'$ of finite type then $X''$ is also coherent.
 
-(b) if $X$ is finitely presented and $X'$ of finite type, then $X''$ is finitely presented;
-
-(c) if $X$ is coherent and $X'$ of finite type then $X''$ is also coherent.
-
-For a module $M$ over a ring $R$ this is equivalent to $M$ being finitely generated
-$R$-module. It is finitely presented if it is finitely presented in the usual
-sense of existence of short exact sequence of the form $R^I\to R^J\to M\to 0$
-where $I$ and $J$ are finite. 
+For a module $M$ over a ring $R$ this is equivalent to $M$ being finitely generated $R$-module. It is finitely presented if it is finitely presented in the usual sense of existence of short exact sequence of the form $R^I \to R^J \to M \to 0$ where $I$ and $J$ are finite. 
 
 ### In 1-topos theory
 
-Let $(C, \tau)$ be a [[small site|small]] [[cartesian site|cartesian]] [[site]].
+Let $C$ be a [[topos]].
 
 +-- {: .num_defn}
 ###### Definition
-An object $X$ of $C$ is called **stable** if for all morphisms $Y \to X$ from a [[compact object]] $Y$, the [[domain]] of the [[kernel pair]] $R \rightrightarrows Y$ of $f$ is also a [[compact object]].
+An object $X$ of $C$ is called **compact** if the top element of $Sub(X)$ is a [[compact element]].
 =--
 
 +-- {: .num_defn}
 ###### Definition
-An object $X$ of $C$ is called **coherent** if it is [[compact object|compact]] and stable.
+An object $X$ of $C$ is called **stable** if for all morphisms $Y \to X$ from a compact object $Y$, the [[domain]] of the [[kernel pair]] $R \rightrightarrows Y$ of $f$ is also a compact object.
+=--
+
++-- {: .num_defn}
+###### Definition
+An object $X$ of $C$ is called **coherent** if it is compact and stable.
 =--
 
 +-- {: .num_theorem}
