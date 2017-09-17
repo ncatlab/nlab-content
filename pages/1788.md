@@ -120,6 +120,10 @@ $$
 \hat{\otimes} \hat{\times}
 $$
 
+$$
+\xRightarrow[a]{b} \xRightarrow [a]{b} \xRightarrow [a]b \xRightarrow[a]b
+$$
+
 category: meta
 
 [[!redirects sandbox]]
