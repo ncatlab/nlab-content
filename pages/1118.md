@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Category theory
-+--{: .hide}
++-- {: .hide}
 [[!include category theory - contents]]
 =--
 #### Group Theory
@@ -13,14 +13,12 @@
 =--
 =--
 
-
-
-
-#Contents#
+# Contents
 * table of contents 
-{:toc}
+{: toc}
 
 A _group object_ in a [[category]] $C$ is a [[group]] [[internalization|internal]] to $C$.
+
 
 ## Definition 
 
@@ -65,9 +63,13 @@ $$
 
 Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can still speak of a group object $G$ in $C$.
 
+
 ### In terms of generalized group elements 
 
-__Proposition.__ Given a [[cartesian monoidal category]] $C$, the category of internal groups in $C$ is equivalent to the full subcategory of the category of presheaves of groups $Grp^{C^{op}}$ on $C$, spanned by those presheaves whose underlying set part in $Set^{C^{op}}$ is representable. 
++-- {: .un_prop}
+###### Proposition
+Given a [[cartesian monoidal category]] $C$, the category of internal groups in $C$ is equivalent to the full subcategory of the category of presheaves of groups $Grp^{C^{op}}$ on $C$, spanned by those presheaves whose underlying set part in $Set^{C^{op}}$ is representable. 
+=--
 
 In other words, the [[forgetful functor]] from $Grp^{C^{op}}$ to $Set^{C^{op}}$ (obtained by composing with the forgetful functor [[Grp]] $\to$ [[Set]]) creates representable group objects from 
 representable objects. 
@@ -120,7 +122,6 @@ product of the group structure on the object $G$ that we are after.
 etc.  
 
 
-
 ## Examples 
 
 * A group object in [[Set]] is a [[group]].
@@ -133,11 +134,13 @@ etc.
 * A group object in [[Grpd]] is a strict $2$-group again.
 * A group object in [[CRing]]$^{op}$ is a commutative [[Hopf algebra]].
 
+
 ## Theory 
 
 The basic results of elementary group theory apply to group objects in any category with finite products.  (Arguably, it is precisely the *elementary* results that apply in any such category.)
 
 The theory of group objects is an example of a [[Lawvere theory]].
+
 
 ## Related concepts
 
@@ -149,5 +152,8 @@ The theory of group objects is an example of a [[Lawvere theory]].
 
 
 [[!redirects internal group]]
+[[!redirects internal groups]]
 [[!redirects inner group]]
+[[!redirects inner groups]]
+[[!redirects group object]]
 [[!redirects group objects]]
