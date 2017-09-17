@@ -50,6 +50,8 @@ Such a setup describes the quantum mechanics of a particle that feels forces of 
 
 More generally, _quantum mechanics_ or _quantum physics_ may be taken to subsume [[quantum field theory]] and all of physics that is not [[classical mechanics]]. Another way to look at quantum processes is via [[quantum channels]] which are completely positive trace-preserving maps.
 
+
++--{.query}
 Zoran: I slightly disagree with that opposite extremity either. The sentence is better suited to define quantum physics (though complement to [[classical physics]] includes relativity, while opposite to classical mechanics includes thermodynamics). Quantum physics is not the same as quantum mechanics. There are quantum phenomena which are not treated by quantum mechanics only. I mean it would be very unusual calling quantum statistical 
 physics, part of quantum mechanics; it requires special limiting assumptions (thermodynamic limit, quantum ergodicity and so on lie outside) outside of scope of the things derivable from quantum mechanics.    
 
@@ -58,6 +60,9 @@ physics, part of quantum mechanics; it requires special limiting assumptions (th
 Zoran: Quantum physics includes all quantum phenomena, including experimental reality. Quantum mechanics is just the theoretical description at the fundamental level, like mechanics is of the classical physics. 
 
 [[Ian Durham]]: I agree, in principle, but I'm simply saying that not everyone interprets the term as such.
+
+Zoran: not everybody cares about fine distinctions, but we should try to acknowledge the distinctions which are made at least by more careful treatises, not the least common denominator. 
+=--
 
 ## Quantum mechanics in terms of $\dagger$-compact categories
 
@@ -75,5 +80,9 @@ For more on this see
 * Glimm and Jaffe, [[Glimm-Jaffe|Quantum physics%3A a functional integral point of view]] (how to quote the link with : ??)
 
 * Movshev's course has nice references: [link](http://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/syllabusfinal.html)
+
+* P. Cartier, C. DeWitt-Morette, _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.
+
+* Leon Takhtajan, [[Quantum mechanics for mathematicians]], Amer. Math. Soc. 2008. 
 
 [[!redirects quantum physics]]
