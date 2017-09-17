@@ -104,6 +104,8 @@ A conjecture by Frenkel, Lepowsky and Meurman says that the Moonshine VOA is, up
 
 * [[super vertex operator algebra]]
 
+* [[sheaf of vertex operator algebras]]
+
 ## References
 
 Related $n$Lab entries include [[conformal field theory]], [[Poisson vertex algebra]], [[factorization algebra]], [[affine Lie algebra]]
