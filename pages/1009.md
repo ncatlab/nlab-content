@@ -10,12 +10,14 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
-#### Physics
+#### Symplectic geometry
 +--{: .hide}
-[[!include physicscontents]]
+[[!include symplectic geometry - contents]]
 =--
 =--
 =--
+
+
 
 
 
