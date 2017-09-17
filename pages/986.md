@@ -10,23 +10,37 @@ The __specialisation order__ is a way of turning any [[topological space]] $X$ i
 
 ## Definition
 
-Let $x \leq y$ if and only if $x$ belongs to the closure of $\{y\}$; we say that $x$ is a __specialisation__ of $y$.  One may also use the opposite convention.
++-- {: .un_defn}
+###### Definition 
+Given a topological space $X$ with topology $\mathcal{O}(X)$, the specialization order $\leq$ is defined by either of the following two equivalent conditions: 
+
+1. $x \leq y$ if and only if $x$ belongs to the closure of $\{y\}$; we say that $x$ is a __specialisation__ of $y$. 
+
+1. $x \leq y$ if and only if $\forall_{U \colon \mathcal{O}(X)} (x \in U) \Rightarrow (y \in U).$
+
+(Note: some authors use the opposite ordering convention.) 
+=-- 
 
 
 ## Properties
 
 $X$ is $T_0$ if and only if its specialisation order is a [[partial order]].  $X$ is $T_1$ iff its specialisation order is [[equality]].  $X$ is $R_1$ (like $T_1$ but without $T_0$) iff its specialisation order is an [[equivalence relation]].  (See [[separation axioms]].)
 
-Given a [[continuous map]] $f: X \to Y$ between topological spaces, it is order-preserving relative to the specialisation order.  Thus, we have a [[faithful functor]] from the category of $\Top$ of topological spaces to the category $\Pros$ of preordered sets.
+Given a [[continuous map]] $f: X \to Y$ between topological spaces, it is order-preserving relative to the specialisation order.  Thus, we have a [[faithful functor]] $Spec$ from the category of $\Top$ of topological spaces to the category $\Pros$ of preordered sets.
 
-If we restrict to a [[finite set|finite]] underlying set, then the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces are thus [[equivalence of categories|equivalent]] as [[concrete categories]].  The corresponding topology can be recovered from a finite proset through its [[specialization topology]].  More generally, the category of [[Alexandroff spaces]] (spaces in which an arbitrary intersection of open sets is open) is equivalent to the category of all preordered sets in the same way.
+In the other direction, to each proset $X$ we may associate a topological space whose elements are those of $X$, and whose open sets are precisely the upward-closed sets with respect to the preorder. This topology is called the [[specialization topology]]. This defines a functor 
 
-+--{.query}
-There\'s an adjunction here; I should think about which way it goes and whether it\'s a reflection or something.  ---Toby
+$$i \colon ProSet \to Top$$ 
 
-[[Mike Shulman|Mike]]: If it exists, it's either a reflection or a coreflection, since the functor $\Pros \to \Top$ is fully faithful.
-=--
+which is a full embedding; the [[essential image]] of this functor is the category of [[Alexandroff spaces]] (spaces in which an arbitrary intersection of open sets is open). Hence the category of prosets is equivalent to the category of Alexandroff spaces. 
 
+In fact, we have an adjunction $i \dashv Spec$, making $ProSet$ a [[coreflective subcategory]] of $Top$. In particular, the counit evaluated at a space $X$, 
+
+$$i(Spec(X)) \to X,$$ 
+
+is the identity function at the level of sets, and is continuous because any open $U$ of $X$ is upward-closed with respect to $\leq$, according to the second equivalent condition of the definition of the specialization order. 
+
+This adjunction restricts to an [[adjoint equivalence]] between the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces. The unit and counit are both identity functions at the level of sets, so we in fact have an equivalence between these categories as [[concrete categories]]. 
 
 [[!redirects specialization order]]
 [[!redirects specialisation order]]
