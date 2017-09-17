@@ -241,7 +241,9 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 [[!include table of branes]]
 
 
-### Amplitudes
+### Scattering amplitudes
+
+* [[S-matrix]]
 
 * [[Veneziano amplitude]]
 
