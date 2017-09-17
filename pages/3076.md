@@ -7,15 +7,23 @@
 
   * [[limits and colimits by example]]
 
+  * [[commutativity of limits and colimits]]
+
   * [[filtered colimit]]
 
     * [[directed colimit]]
 
       * [[sequential colimit]]
 
+  * [[preserved limit]], [[reflected limit]], [[created limit]]
+
 * [[Kan extension]]
 
+* [[weighted limit]]
+
 * [[end|end and coend]]
+
+
 
 ## 2-Categorical
 
