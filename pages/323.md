@@ -168,7 +168,7 @@ $$
 
 of the two morphisms induced by $f$ and $g$ out of the [[product]] of $a$ with $b$.
 
-### Pasting of pullbacks
+### Pasting of pullbacks {#Pasting}
 
 Consider a [[pasting diagram]] of the form
 
