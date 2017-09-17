@@ -1,6 +1,14 @@
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/baez_small.jpg" alt="John Baez" /></div>
 
-[[!include contents ]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Contents### {: .clickToReveal}
+###Contents### {: .clickToHide tabindex="0"}
++--{: .hide}
+[[!include contents]]
+=--
+=--
+=--
 
 I work on mathematical physics --- which I interpret broadly as 'math that could be of interest in physics, and physics that could be of interest in math'.  I'm especially interested in $n$-categories and their applications.  I've spent a lot of time explaining these subjects on the web.   You can see a sampling below.  For a lot more stuff, see my [website](http://math.ucr.edu/home/baez/).
 
