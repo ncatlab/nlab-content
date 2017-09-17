@@ -26,6 +26,8 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
 
 ## Related concepts
 
+* [[worldline formalism]] (for [[scattering amplitudes]] in [[QFT]]) 
+
 * [[sigma-model]]
 
   * **worldvolume**
