@@ -1,5 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -9,11 +21,11 @@ A **connected limit** is a [[limit]] over a [[connected category]]. Similarly, a
 
 ## Connection with wide pullbacks
 
-A basic example of a connected limit is a [[wide pullback]], where the limit is taken over a diagram whose underlying shape is the [[poset]] obtained by freely adjoining a [[top element|terminal element]] to a [[set|discrete poset]]. 
+A basic example of a connected limit is a [[wide pullback]], where the limit is taken over a [[diagram]] whose underlying shape is the [[poset]] obtained by [[free functor|freely]] adjoining a [[top element|terminal element]] to a [[set|discrete poset]]. 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ######Lemma 
-A category $C$ with all wide pullbacks and a [[terminal object]] $1$ is [[complete category|complete]]. If $C$ is complete and $F: C \to D$ preserves wide pullbacks and the terminal object, then it preserves all limits. 
+A [[category]] $C$ with all [[wide pullbacks]] and a [[terminal object]] $1$ is [[complete category|complete]]. If $C$ is complete and $F: C \to D$ preserves wide pullbacks and the terminal object, then it preserves all limits. 
 =-- 
 
 +-- {: .proof}
@@ -27,7 +39,7 @@ c & \underset{\langle f, g \rangle}{\to} & d \times d
 From products and equalizers, we can get arbitrary limits. 
 =--
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ######Theorem
 Let $C$ be a complete category, and let $D$ be [[locally small category|locally small]]. Then a functor $G: C \to D$ preserves connected limits if and only if it preserves wide pullbacks. 
 =-- 
