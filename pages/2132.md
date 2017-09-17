@@ -61,7 +61,7 @@ $$
   g(v,w) = \omega(v, J w), 
 $$
 
-definesa smooth symmetric rank $(2,0)$ [[tensor field]]. This is a
+defines a smooth symmetric rank $(2,0)$ [[tensor field]]. This is a
 [[Riemannian metric]] precisely if it is fiberwise a [[positive definite bilinear form]]. If it $g(-,-) = \omega(-,J -)$ is hence a Riemannian metric, then $\omega(-,-)$ is called positive definite, too.
 
 The triple of data $(J, \omega, g)$, where $J$ is an [[almost complex structure]], $\omega$ is a real positive $(1,1)$-[[differential form]], and $g$ is the associated [[Riemannian metric]] this way define an *[[almost Hermitian manifold]]*. 
