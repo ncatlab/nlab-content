@@ -93,7 +93,9 @@ For more on this see
 
 ## Related concepts
 
-* [[Hamilton operator]], [[semiclassical approximation]], [[quantization]]
+* [[classical mechanics]]
+
+* [[semiclassical approximation]], [[quantization]]
 
 * [[supersymmetric quantum mechanics]]
 
@@ -112,3 +114,6 @@ For more on this see
 
 [[!redirects quantum physics]]
 [[!redirects quantum theory]]
+
+[[!redirects quantum mechanical system]]
+[[!redirects quantum mechanical systems]]
