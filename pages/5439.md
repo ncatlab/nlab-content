@@ -121,14 +121,14 @@ An ordinary complex [[Hilbert space]] is a Hilbert $\mathbb{C}$-module.
 
 =--
 
-The archetypical class of examples of Hilbert $C^\ast$-modules for [[commutative C*-algebras]] is the following. The general definition \ref{HilbertCStarModule} may be understood as the generalization of the structure of this example to [[noncommutative topology|non-cmmutative C*-algebras]]. See also remark \ref{TheTrivialHilbertBundleAndL2} below.
+The archetypical class of examples of Hilbert $C^\ast$-modules for [[commutative C*-algebras]] is the following. The general definition \ref{HilbertCStarModule} may be understood as the generalization of the structure of this example to [[noncommutative topology|non-commutative C*-algebras]]. See also remark \ref{TheTrivialHilbertBundleAndL2} below.
 
 +-- {: .num_example #FromAHilbertSpaceBundle}
 ###### Example
 
-Let $X$ be a [[locally compact topological space]] and write $C_0(X)$ for its [[C*-algebra]] of [[continuous functions]] of [[compact support]].
+Let $X$ be a [[locally compact topological space]] and write $C_0(X)$ for its [[C*-algebra]] of [[continuous functions]] [[vanishing at infinity]].
 
-Let $E \to X$ be a [[fiber bundle]] of [[Hilbert spaces]] over $X$, hence an canonically [[associated bundle]] to a [[unitary group]]-[[principal bundle]]. Then the space $\Gamma_0(E)$ of continuous compactly supported [[sections]] is a Hilbert $C^\ast$-module over $C_0(X)$ with $C_0(X)$-valued [[inner product]] $\langle -,-\rangle$ the pointwise inner product in the [[Hilbert space]] [[fiber]] of $E$:
+Let $E \to X$ be a [[fiber bundle]] of [[Hilbert spaces]] over $X$, hence a canonically [[associated bundle]] to a [[unitary group]]-[[principal bundle]]. Then the space $\Gamma_0(E)$ of continuous compactly supported [[sections]] is a Hilbert $C^\ast$-module over $C_0(X)$ with $C_0(X)$-valued [[inner product]] $\langle -,-\rangle$ the pointwise inner product in the [[Hilbert space]] [[fiber]] of $E$:
 
 $$
   \langle \sigma_1, \sigma_2\rangle(x)
