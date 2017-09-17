@@ -1,7 +1,14 @@
 
 ## Related concepts
 
+* [[stable homotopy theory]]
+
+* [[Lubin-Tate theory]]
+
 * [[Morava K-theory]], [[Morava E-theory]]
+
+* [[E-∞ field]]
+
 
 ## References
 
