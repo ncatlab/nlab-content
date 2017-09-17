@@ -49,7 +49,7 @@ Let $U$ be a linear map from a bornological space $E$ to any locally convex [[TV
 
 ### Relation to Banach spaces
 
-Every [[inductive limit]] of [[Banach spaces]] is a bornological vecotr space. ([Alpay-Salomon 13, prop. 2.3](#AlpaySalomon13))
+Every [[inductive limit]] of [[Banach spaces]] is a bornological vector space. ([Alpay-Salomon 13, prop. 2.3](#AlpaySalomon13))
 
 Conversely, every bornological vector space is an inductive limit of [[normed spaces]], and of [[Banach spaces]] if it is quasi-complete ([Schaefer-Wolff 99](#SchaeferWolff99))
 
@@ -58,7 +58,7 @@ Conversely, every bornological vector space is an inductive limit of [[normed sp
 
 Every metrizible locally convex space is bornological, that is every [[Fréchet space]] and thus every [[Banach space]].
 
-## Related conceots
+## Related concepts
 
 * [[bornological set]]
 
