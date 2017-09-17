@@ -1,14 +1,27 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
 [[!include physicscontents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Wick rotation is a method for finding a solution to a problem in Minkowski space from the solution to a related problem in Euclidean space.  It is motivated by the observation that the Minkowski metric (with the $-1,1,1,1$ convention) and the four-dimensional Euclidean metric are equivalent if the time components of either are allowed to have imaginary values.
+Wick rotation is a method in [[physics]] for finding a solution to a problem in [[Minkowski spacetime]] from the solution to a related problem in [[Euclidean space]].  It is motivated by the observation that the Minkowski metric (with the $-1,1,1,1$ convention) and the four-dimensional Euclidean metric are equivalent if the [[time9] components of either are allowed to have imaginary values.
+
+Specifically, in [[quantum field theory]] Wick rotation is a method for identifying QFT [[partition functions]] with [[expectation values]] of a corresponding system of [[statistical mechanics]]. 
+
+In some special cases Wick rotation has been rigorously understood and takes the form of a theorem. Notably the _[[Osterwalder-Schrader theorem]]_ gives a precise meaning to Wick rotation for quantum field theory on [[Minkowski spacetime]] formalized by the [[axioms]] of [[AQFT]].
+
+However, Wick rotation is sometimes also appealed to in situations where the assumtopins that theorems like this make use of are evidently violated. For instance it has been appealed to a lot in an approach to [[quantum gravity]] often known as "Euclidean quantum gravity", where however by definition the assumotion of global spacetime translation invariance is manifestly violated. In such context the exact meaning of Wick rotation remains mysterious, but on the other hand on this basis some subtle relations between quantum mechanics and thermodynamics such as the [[Bekenstein-Hawking entropy]] find elegant explanations at the leval of manipulations of formulas, at least. 
 
 ### Example
 
@@ -22,8 +35,12 @@ $d s^{2}= d \tau^{2} + (d x)^{2} + (d y)^{2} + (d z)^{2}$.
 
 Notice that if $d t = i\cdot d \tau$, the two are equivalent.
 
-## Method
+### Method
 
 A typical method for employing Wick rotation would be to make the substitution $t=i\tau$ in a problem in Minkowski space.  The resulting problem is in Euclidean space and is sometimes easier to solve, after which a reverse substitution can (sometimes) be performed, yielding a solution to the original problem.
 
 Technically, this works for any four-vector comparison between Minkowski space and Euclidean space, not just for space-time intervals.
+
+## References
+
+See at _[[Osterwalder-Schrader theorem]]_.
