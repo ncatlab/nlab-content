@@ -99,3 +99,5 @@ Yes, I think certainly all those types of action should eventually be described 
 
 [[!redirects action]]
 [[!redirects actions]]
+[[!redirects group action]]
+[[!redirects group actions]]
