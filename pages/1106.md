@@ -1,6 +1,8 @@
+
 <div class="rightHandSide toc">
-[[!include mathematicscontents]]
+[[!include topos theory - contents]]
 </div>
+
 
 This entry is about the book
 
@@ -32,6 +34,8 @@ For a similar link list with considerable overlap see
 
 * [[presheaf]]
 
+* [[category of presheaves]]
+
 ##II Sheaves of Sets
 
 * [[category of open subsets]]
@@ -44,9 +48,15 @@ For a similar link list with considerable overlap see
 
 * [[presheaf]]
 
-* [[Grothendieck topology]]
+* [[site]]
 
-  * [[site]]
+
+  * [[coverage]]
+
+  * [[basis for a topology]]
+
+  * [[Grothendieck topology]]
+
 
   * [[sheaf]]
 
