@@ -26,7 +26,7 @@
 
 A **differential graded Lie algebra**, or **dg-Lie algebra** for short, is a [[Lie algebra]] [[internalization|internal to]] the [[category]] of [[chain complex]]es. 
 
-Equivalerntly this is as _strict_ [[L-∞-algebra]], i.e. an $L_\infty$-algebra in which only the unary and the binary brackets may be nontrivial.
+Equivalently this is a _strict_ [[L-∞-algebra]], i.e. an $L_\infty$-algebra in which only the unary and the binary brackets may be nontrivial.
 
 
 ##Differential graded Lie algebras
