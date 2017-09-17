@@ -26,7 +26,7 @@ The [[probability amplitude]] for a process of scattering of [[fundamental parti
 
 * [[renormalization]]
 
-* [[on-shell recursion]]
+* [[on-shell recursion]], [[planar limit]]
 
 * [[KLT relations]]
 
@@ -46,7 +46,7 @@ See also at _[[motivic multiple zeta values]]_.
 
 ### In super Yang-Mills theory
 
-In [[super Yang-Mills theory]] (and there in particular in the planar limit of [[N=4 D=4 super Yang-Mills theory]]) scattering amplitudes enjoy special symmetry properties, some of which can be used to extract information about scattering amplitudes in non-supersymmetric theories:
+In [[super Yang-Mills theory]] (and there in particular in the [[planar limit]] of [[N=4 D=4 super Yang-Mills theory]]) scattering amplitudes enjoy special symmetry properties, some of which can be used to extract information about scattering amplitudes in non-supersymmetric theories:
 
 * [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering Amplitudes and the Positive Grassmannian_ ([arXiv:1212.5605](http://arxiv.org/abs/1212.5605))
 
