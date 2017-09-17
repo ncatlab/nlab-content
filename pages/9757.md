@@ -34,6 +34,8 @@ In analogy to how [[3d TQFTs]] are induced from [[quantum groups]]/[[Hopf algebr
 
 * [[4d Chern-Simons theory]]
 
+* [[Walker-Zhang model]]
+
 ## Related concepts
 
 * [[TQFT]]
