@@ -129,12 +129,47 @@ in [[∞Grpd]]. This being universal means that $\Pi(X^{(n)})$ is $n$-connected,
 
 ## Properties {#Properties}
 
++-- {: .un_def}
+###### Definition
+
+
 For $* \to X \in \mathbf{H}$ a [[pointed object]] and $n \in \mathbb{N}$, $n \geq 1 $, define the object $\mathbf{B}^n \mathbf{\pi}_n(X)$ to be the [[homotopy fiber]] of $\mathbf{\Pi}_n(X) \to \mathbf{\Pi}_{n-1}(X)$, so that we have a [[fibration sequence]]
 
 $$
   \mathbf{B}^n \mathbf{\pi}_n(X) \to \mathbf{\Pi}_n(X) \to \mathbf{\Pi}_{n-1}(X)
   \,.
 $$
+
+=--
+
++-- {: .un_proposition}
+###### Proposition
+
+With $\Pi(X) \in \infty Grpd \simeq Top$ the underlying topological space of $X \in \mathbf{H}$ (its [geometric realization](http://ncatlab.org/schreiber/show/path+%E2%88%9E-groupoid#GeomReal)) we have that 
+
+$$
+  \mathbf{B} \mathbf{\pi}_n(X)
+  \simeq
+  LConst \mathcal{B}^n \pi_n(X)
+  \,,
+$$
+
+where $\mathcal{B}^n \pi_n(X)$ denotes the [[homotopy fiber]] of 
+$\Pi_n(X) \to \Pi_{(n-1)}(X)$ in [[∞Grpd]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+> check
+
+This follows from $\mathbf{\tau}_{\leq n} LConst \Pi(X) \simeq LConst \tau_{\leq n} \Pi(X)$. This, in turn, can for instance be checked in terms of the [[model structure on simplicial presheaves]], using that $\tau$ is objectwise the [[coskeleton]] operation. More on that at [[Postnikov tower in an (∞,1)-category]].
+
+
+
+=--
+
 
 +-- {: .un_proposition}
 ###### Proposition
