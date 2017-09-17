@@ -126,6 +126,8 @@ See
 
 ## Related concepts
 
+* [[smooth groupoid]]
+
 * [[bisection of a Lie groupoid]]
 
 * [[orbifold]]
@@ -139,6 +141,8 @@ See
 * [[Tannaka duality for Lie groupoids]]
 
 * [[double Lie groupoid]]
+
+* [[higher differential geometry]]
 
 ## References
 
