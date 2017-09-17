@@ -58,7 +58,7 @@
 
   on little cubes [[(∞,1)-operad]]s
 
->**Warning** These documents keep being updated and expanded. On the personal webpage as well as, with the due time delay, on the arXiv. Likely many references to page and definition/theorem numbers on the $n$Lab to these articles are already outdated
+* _[[Tannaka duality for geometric stacks]]_
 
 * PhD thesis, _derived algebraic geometry_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf))
 
