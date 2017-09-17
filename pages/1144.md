@@ -283,3 +283,8 @@ More on the relation to Lie theory is in:
 
 
 The above description of the Quillen approach draws on blog comments by [[Kathryn Hess]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c030961) and by [[David Ben-Zvi]] [here](http://golem.ph.utexas.edu/category/2010/01/this_weeks_finds_in_mathematic_50.html#c031038).
+
+Discussion from the point of view of [[(∞,1)-category theory]] and [[E-∞ algebras]] is in 
+
+* [[Jacob Lurie]], _Rational and $p$-adic homotopy theory_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIII.pdf))
+
