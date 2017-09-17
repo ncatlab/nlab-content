@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Mathematical logic_ or _symbolic logic_ is the study of [[logic]] and [[foundations]] of mathematcis as, or via, formal systems -- _[[theories]]_ --  such as [[first-order logic]] or [[type theory]].
+_Mathematical logic_ or _symbolic logic_ is the study of [[logic]] and [[foundations]] of mathematics as, or via, formal systems -- _[[theories]]_ --  such as [[first-order logic]] or [[type theory]].
 
 ## Subfields
 
