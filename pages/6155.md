@@ -24,7 +24,7 @@ $2.$ Duality construction
 
 $2.1$ The case of abstract groups
 
-Here a basic pair of adjoint functors is defined $\mathcal{R}_{C\tilde{}^\ast}\dashv Aut(C\tilde{}^\ast)$ where $Aut(C\tilde{}^\ast): Cat^\ast/C\tilde{}^\ast\to Group$ gives the group of automorphisms of a monoidal $\ast$-functor with codomain $C\tilde^\ast$ and its left adjoint is $\mathcal{R}_{C\tilde{}^\ast} : G\mapsto Rep^G(C)\tilde{}^\ast$.
+Here a basic pair of adjoint functors is defined $\mathcal{R}_{C\tilde{}^\ast}\dashv Aut(C\tilde{}^\ast)$ where $Aut(C\tilde{}^\ast): Cat^\ast/C\tilde{}^\ast\to Group$ gives the group of automorphisms of a monoidal $\ast$-functor with codomain $C\tilde{}^\ast$ and its left adjoint is $\mathcal{R}_{C\tilde{}^\ast} : G\mapsto Rep^G(C)\tilde{}^\ast$.
 
 $2.2$ The case of topological groups
 
