@@ -21,11 +21,11 @@ It is in particular a [[fusion category]] that is also a [[ribbon category]] suc
 
 this means that for $i,j \in I$ indices for representatives of simple objects $U_i$, $U_j$, the matrix 
 $$
-  (s^{i j}) = (U_i-circle threading through the U_j-circle)
+  (s^{i j}) = (U_i\text{-circle threading through the } U_j\text{-circle})
 $$
 is non-degenerate.
 
-Here on the right what is meant is the diagram in the modular tensor category made from the identity morphisms, the duality morphisms and the braiding morphism on the objects $U_i$ and $U_j$ that looks like a figure-8 with one circle threading through the other, and this diagram is interpreted as an element in the endormorphism space of the tensor unit object, which in turn is canonically identified with the [[ground field]].
+Here on the right what is meant is the diagram in the modular tensor category made from the identity morphisms, the duality morphisms and the braiding morphism on the objects $U_i$ and $U_j$ that looks like a figure-eight with one circle threading through the other, and this diagram is interpreted as an element in the endomorphism space of the tensor unit object, which in turn is canonically identified with the [[ground field]].
 
 In the description of 2-dimensional [[conformal field theory]] in the [[FFRS-formalism]] it is manifestly this kind of modular diagram that encodes the torus partition function of the CFT. This explains the relevance of modular tensor categories in the description of [[conformal field theory]].
 
@@ -59,7 +59,7 @@ A **modular tensor category** is a [[category]] with the following long list of 
   $$
   where the transformation $\alpha_U$ is given on the simple object $V$ by
   $$
-    \alpha_U(V) = straight V-line encircled by U-loop
+    \alpha_U(V) = \text{straight } V\text{-line encircled by } U\text{-loop}
   $$
   (on the right we use string diagram notation)
 
