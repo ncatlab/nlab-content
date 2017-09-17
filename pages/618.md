@@ -125,7 +125,7 @@ Frequently, though, these covering families will satisfy at least some of the sa
 
   This is the standard choice of coverage on $Op(X)$. Sheaves for this coverage are the usual notion of sheaf on a topologcal space.  
 
-  A **basis for the topology** on $X$ is is also a coverage on $X$, generating the same Grothendieck topology but in general not being closed under pullbacks (which in $Op(X)$ is intersection of open subsets). Notice that thence a basis for a topology on $X$ is not what is called a [[basis for a Grothendieck topology]] on $Op(X)$.
+  A **[[basis for the topology]]** on $X$ is also a coverage on $X$, generating the same Grothendieck topology but in general not being closed under pullbacks (which in $Op(X)$ is intersection of open subsets). Notice that thence a basis for a topology on $X$ is not what is called a [[basis for a Grothendieck topology]] on $Op(X)$.
 
 * Similarly on (any [[small category|small]] version of) the category [[Top]] or [[Diff]] or similar categories of topological spaces possibly with extra [[stuff, structure, property|structure]], [[open cover]]s form a coverage.
 
