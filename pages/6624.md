@@ -10,7 +10,7 @@ A simulation is a [[morphism]] of [[coalgebras]].
 
 ## Definition
 
-Let $C$ be a [[category]], and let $F\colon C \to C$ be an [[endofunctor]].  Recall that a [[coalgebra of an endofunctor|coalgebra]] of $F$ is an [[object]] $X$ of $C$ equipped with a [[morphism]] $\theta\colon X \to F(X)$.
+Let $C$ be a [[category]], and let $F\colon C \to C$ be an [[endofunctor]].  Recall that a [[coalgebra for an endofunctor|coalgebra]] of $F$ is an [[object]] $X$ of $C$ equipped with a [[morphism]] $\theta\colon X \to F(X)$.
 
 +-- {: .un_defn}
 ###### Definition
