@@ -1,7 +1,13 @@
-Mathematician at Aarhus University
+Anders Kock is a mathematician at Aarhus University, Denmark. He has proved important results in category theory and particularly in [[synthetic differential geometry]].
 
 [Homepage](http://home.imf.au.dk/kock/)
 
-See [[Kock-Lawvere axiom]] and [[synthetic differential geometry]].
+##References:
+
+See 
+
+* [[Kock-Lawvere axiom]] and 
+
+* [[synthetic differential geometry]].
 
 category: people
