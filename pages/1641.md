@@ -126,6 +126,8 @@ It also follows that $U$ is a [[Street fibration|fibration]] and opfibration, in
 
 * Gerhard Preuss; 2002; _Foundations of Topology: An Approach to Convenient Topology_; Kluwer ISBN 1-4020-0891-0.
 
+* [[Richard Garner]], *Topological functors as total categories*, [TAC](http://www.tac.mta.ca/tac/volumes/29/15/29-15abs.html)
+
 [[!redirects topological concrete category]]
 [[!redirects topological concrete categories]]
 
