@@ -61,6 +61,8 @@ A famous moduli stack is that of [[elliptic curves]]. See _[[moduli stack of ell
 
 * [[classifying space]], [[moduli space]], [[derived moduli space]], [[geometric invariant theory]]
 
+* [[rigidification of a stack]]
+
 * [[Yoneda lemma]], [[(∞,1)-Yoneda lemma]]
 
 [[!redirects moduli stack]]
