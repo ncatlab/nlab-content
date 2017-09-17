@@ -13,6 +13,8 @@ _Harry_: It's not obvious whether or not you mean the space of smooth loops or c
 Note: I changed the thing about the loop space for clarity, but it's still not clear to me which loop space and which smooth structure we give it.
 
 I'm also afraid that calling the loop space functor L could be confusing, given that the loop space is traditionally denoted by $\Omega$, but this is unfortunate given the also-very-standard symbol for the module of differentials.
+
+[[David Roberts]]: LM is standard notation for the free loop space, as is mentioned in the text. The Frechet manifold structure on LM does, a little surprisingly, not give rise to the compact-open topology, as I learned recently. For details of the manifold LM see almost anything of what [[Andrew Stacey]] has written. Oh, and it is always smooth loops, not continuous loops.
 =--
 A $0$-form $f:LM\to \mathbb{R}$ induces a $1$-form $L^*f\in \Omega^1(M)$ and a loop $\gamma: S^1\to M$ in $M$ determines a point $L_*\gamma$ in $LM$. Then we give the condition that for any $0$-form $f: LM\to \mathbb{R}$ and any loop $\gamma: S^1\to M$,
 
