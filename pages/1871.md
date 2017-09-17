@@ -70,6 +70,8 @@ The matter fields in the standard model are spinors charged under the Yang-Mills
 
 ### General
 
+* [[Arthur Jaffe]], [[Edward Wittem]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
+
 * [[Simon Donaldson]], _Yang-Mills theory and geometry_ (2005) ([pdf](http://www2.imperial.ac.uk/~skdona/YMILLS.PDF))
 
 For the relation to [[instanton Floer homology]] see also
