@@ -5,7 +5,7 @@
 
 ## Idea
 
-Epsilontic analysis is the now standard rigorous approach to [[analysis]], developed by [[Augustin Cauchy]], [[Karl Weierstrass|Karl Weierstraß]], [[Richard Dedekind]], and others in the mid-to-late 19th century.  It contrasts with [[infinitesimal analysis]], both the less-than-rigorous analysis that preceded it and the rigorous [[nonstandard analysis]] (and other approaches to infinitesimals, such as [[synthetic differential geometry]]) that followed it.
+Epsilontic analysis is the now standard rigorous approach to [[analysis]], developed by [[Bernard Bolzano]], [[Augustin Cauchy]], [[Karl Weierstrass|Karl Weierstraß]], [[Richard Dedekind]], and others in the mid-to-late 19th century.  It contrasts with [[infinitesimal analysis]], both the less-than-rigorous analysis that preceded it and the rigorous [[nonstandard analysis]] (and other approaches to infinitesimals, such as [[synthetic differential geometry]]) that followed it.
 
 Ironically, [[classical analysis|classical]] epsilontic analysis is not rigorous enough for [[constructive mathematics]], which requires it to be applied using [[intuitionistic logic]].  This was developed thoroughly by [[Errett Bishop]]; see [[constructive analysis]].
 
