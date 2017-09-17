@@ -23,7 +23,7 @@ Notice however that by far not every concept studied in [[mathematics]] fits as 
 ## Definition
  {#Definition}
 
-Given a [[first-order language]] $L$, which consists of symbols ([[variable|variable symbols]], constant symbols, [[function symbols]] and relation symbols including $\epsilon$) and [[quantifiers]]; a __structure__ for $L$, or $L$-structure is a [[set]] $M$ with an __interpretation__ for symbols: 
+Given a [[first-order language]] $L$, which consists of symbols ([[variable|variable symbols]], constant symbols, [[function symbols]] and [[relation]] symbols including $\epsilon$) and [[quantifiers]]; a __structure__ for $L$, or "$L$-structure", is a [[set]] $M$ with an __interpretation__ for symbols: 
 
 * if $R\in L$ is an $n$-ary [[relation]] symbol, then its interpretation $R^M\subset M^n$
 
@@ -33,8 +33,7 @@ Given a [[first-order language]] $L$, which consists of symbols ([[variable|vari
 
 The underlying set $M$ of the structure is referred to as (universal) __domain__ of the structure (or the universe of the structure).
 
-Interpretation for an $L$-structure inductively defines an interpretation for well-formed formulas in $L$. We say that a sentence $\phi\in L$ is true in $M$ if $\phi^M$ is true. Given a [[theory]] $(L,T)$, which is a language $L$ 
-together with a given set $T$ of sentences in $L$, the interpretation in a structure $M$ makes those sentences true or false; if all the sentences in $T$ are true in $M$ we say that $M$ is a [[model]] of $(L,T)$. 
+Interpretation for an $L$-structure inductively defines an interpretation for well-formed formulas in $L$. We say that a sentence $\phi\in L$ is [[true]] in $M$ if $\phi^M$ is true. Given a [[theory]] $(L,T)$, which is a language $L$  together with a given set $T$ of sentences in $L$ ([[axioms]]), the interpretation in a structure $M$ makes those sentences true or false; if all the sentences in $T$ are true in $M$ we say that $M$ is a [[model]] of $(L,T)$. 
 
 In [[model theory]], given a language $L$, a structure for $L$ is the same as a [[model]] of $L$ as a [[theory]] with an empty set of axioms. Conversely, a _model_ of a theory is a _structure_ of its underlying language that satisfies the axioms demanded by that theory.
 
@@ -59,6 +58,9 @@ This observation opens the door to a widened interpretation of "interpretation",
 Standard textbook accounts include
 
 * [[Wilfrid Hodges]], section 1 of _A shorted model theory_, Cambridge University Press (1997)
+
+* Chen Chung Chang, H. Jerome Keisler, _Model Theory. Studies in Logic and the Foundations of Mathematics_. 1973, 1990, Elsevier. 
+
 
 Characterizations of [[categories]] of model-theoretic structures  and [[homomorphisms]] between them (certain accessible categories) is discussed in
 
