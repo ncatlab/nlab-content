@@ -4,16 +4,27 @@
 
 ## Definition
 
-In [[model theory]], an **elementary embedding** between structures is an [[injection]] that preserves and reflects all first-order logic.  That is, it is an injection $f\colon M\to N$ such that for any formula $\varphi$ and parameters $a_1,\dots,a_n\in M$ (of appropriate types), we have
+In [[model theory]], an **elementary embedding** between structures is an [[injection]] that preserves and reflects all [[first-order logic]].  That is, it is an injection $f\colon M\to N$ such that for any formula $\varphi$ and parameters $a_1,\dots,a_n\in M$ (of appropriate [[type]]s), we have
 $$ M \vDash \varphi(a_1,\dots,a_n) \;\iff\; N \vDash \varphi(f(a_1),\dots, f(a_n)). $$
 Note that the condition that $f$ be injective is automatic as long as the logic in question includes equality, since reflecting of the formula $x=y$ implies that $f$ is injective.  If $f$ is (interpreted as) the inclusion of a [[subset]], we say that $M$ is an **elementary substructure** of $N$.
 
 More generally, when we consider structures in a [[category]] as in [[categorical logic]], a morphism $f\colon M\to N$ between structures in $C$ is an **elementary embedding** if for any formula $\varphi$, the following square is a [[pullback]]:
-$$\array{[\varphi]_M & \overset{}{\to} & [\varphi]_N\\
+
+$$
+ \array{[\varphi]_M & \overset{}{\to} & [\varphi]_N\\
   \downarrow && \downarrow\\
-  M A_1 \times\dots \times M A_n & \underset{}{\to} & N A_1 \times \dots \times N A_n}$$
+  M A_1 \times\dots \times M A_n & \underset{}{\to} & N A_1 \times \dots \times N A_n}
+$$
+
 where $M A_i$ denotes the object of $C$ interpreting the type $A_i$, and $[\varphi]_M$ denotes the corresponding subobject interpreting the truth value of the formula $\varphi$.  Note that for an arbitrary morphism of structures, this square need not even commute; one sometimes says that $f$ is an **elementary morphism** if it does.
 
++-- {: .query}
+
+[[Urs Schreiber]]: let me try to say this more explicitly, to check if I am following:
+
+The [[theory]] $T$ that we are modelling is exhibited by its syntactic category $Syn(T)$ with finite limits. A model of $T$ in a category $C$ with limits -- equivalently a $T$-structure in $C$ -- is a finite-limit preserving functor $N : Syn(T) \to C$. A morphism $f : M \to N : Syn(T) \to C$ of models is a [[natural transformation]] between such functors. We say that such a natural transformation is an _elementary embedding_ if its naturality squares on certain morphisms of $Syn(T)$ are pullback squares.
+
+=--
 
 ## Elementary embeddings between models of set theory
 
