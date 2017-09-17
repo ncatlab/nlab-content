@@ -1,0 +1,18 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Constructions of [[quantum field theories]] in [[mathematics]].
+
+## Related concepts
+
+* [[AQFT]], [[FQFT
+]]
+
+## Refereces
+
+* [[Arthur Jaffe]], _Constructive quantum field theory_ ([pdf](http://www.arthurjaffe.com/Assets/pdf/CQFT.pdf))
+
