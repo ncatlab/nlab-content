@@ -110,7 +110,7 @@ A collection $B$ of [[subsets]] of $X$ is a base for *some* topology on $X$ iff 
 *  if $U, V \in B$, then $U \cap V$ contains some element of $B$.
 =--
 
-This is a sort of lax closure under [[finitary intersections]].
+This is a sort of colax closure (see [discussion](http://nforum.mathforge.org/discussion/4188/laxness-of-bases-of-topologies/)) under [[finitary intersections]].
 
 +-- {: .num_prop}
 ###### Proposition
@@ -118,7 +118,7 @@ This is a sort of lax closure under [[finitary intersections]].
 *Every* collection $S$ of subsets of $X$ is a subbase for some topology on $X$.
 =--
 
-A subbase naturally generates a base (for the same topology) by closing it under finitary intersections.
+A subbase naturally generates a base (for the same topology) by [[Moore closure|closing]] it under finitary intersections.  (The resulting base will actually be closed under intersection, not just colax-closed.)
 
 
 ## Relation to Grothendieck topologies and coverages
@@ -172,3 +172,17 @@ This coverage is *not* in general a [[basis for the Grothendieck topology]], bec
 [[!redirects subbase for the topology]]
 [[!redirects subbasis for the topology]]
 [[!redirects subbases for the topology]]
+
+[[!redirects local base]]
+[[!redirects local basis]]
+[[!redirects local bases]]
+[[!redirects base of neighborhoods]]
+[[!redirects basis of neighborhoods]]
+[[!redirects bases of neighborhoods]]
+[[!redirects base of neighbourhoods]]
+[[!redirects basis of neighbourhoods]]
+[[!redirects bases of neighbourhoods]]
+[[!redirects fundamental system of neighborhoods]]
+[[!redirects fundamental systems of neighborhoods]]
+[[!redirects fundamental system of neighbourhoods]]
+[[!redirects fundamental systems of neighbourhoods]]
