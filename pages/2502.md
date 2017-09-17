@@ -182,9 +182,9 @@ and completely classified in
 
   _I: Definition and general structure_  J. Math. Phys.51:122302, 2010, ([arXiv:0911.2118](http://arxiv.org/abs/0911.2118))
 
-  _II: Primitive elements in 2 and 3 dimensions_, J. Math. Phys. 51 (2010) 112303 ([arXiv](http://arxiv.org/abs/1004.2978))
+  _II: Primitive elements in 2 and 3 dimensions_, J. Math. Phys. 51 (2010) 112303 ([arXiv:1004.2978](http://arxiv.org/abs/1004.2978))
 
-  _III: Primitive elements in four and five dimensions_ ([arXiv:1005.2102](http://arxiv.org/abs/1005.2102))
+  _III: Primitive elements in four and five dimensions_, J. Math. Phys. 52:052301, 2011 ([arXiv:1005.2102](http://arxiv.org/abs/1005.2102))
 
   _IV: Primitive elements in all dimensions from $D=4$ to $D=11$_, J. Math. Phys. 54, 052302 (2013) ([arXiv:1303.6211](http://arxiv.org/abs/1303.6211))
  {#Brandt12-13}
