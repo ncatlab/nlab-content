@@ -140,12 +140,20 @@ These appear notably in the following applications:
 
 #### $p = 0$ -- spinor metric
 
-+-- {: .num_prop}
+First the case over the complex numbers:
+
++-- {: .num_prop #DualityPairingOverComplexNumbers}
 ###### Proposition
 
-Let $V$ be a quadratic vector space, def. \ref{QuadraticVectorSpace} over the [[complex numbers]] of [[dimension]] $d$. Then there exists, up to rescaling, a unique $Spin(V)$-invariant [[bilinear form]] $(-,-) \;\colon\; S \otimes S \longrightarrow \mathbb{C}$ on a complex [[irreducible representation]] $S$ of $Spin(V)$, and its symmetry is given by the following table
+Let $V$ be a quadratic vector space, def. \ref{QuadraticVectorSpace} over the [[complex numbers]] of [[dimension]] $d$. Then there exists, up to rescaling, a unique $Spin(V)$-invariant [[bilinear form]] 
 
-| $d \, mod\, 8$ | $(-,-)$ |
+$$
+  C \;\colon\; S \otimes S \longrightarrow \mathbb{C}
+$$ 
+
+on a complex [[irreducible representation]] $S$ of $Spin(V)$, which is non-degenerate and its symmetry is given by the following table:
+
+| $d \, mod\, 8$ | C |
 |--|--|
 | 0 | symmetric |
 | 1 | symmetric |
@@ -158,14 +166,50 @@ Let $V$ be a quadratic vector space, def. \ref{QuadraticVectorSpace} over the [[
 
 =--
 
-This is ([Varadarajan 04, theorem 6.5.7](#Varadrajan04)).
+This appears for instance as ([Varadarajan 04, theorem 6.5.7](#Varadrajan04)).
+
++-- {: .num_remark}
+###### Remark
+
+The [[matrix]] representation of the bilinear form in prop. \ref{DualityPairingOverComplexNumbers} is known in the physics literature as the _[[charge conjugation matrix]]_. 
+In [[matrix calculus]] the symmetry property means that the [[transpose matrix]]  $C^T$ satisfies
+
+$$
+  C^T = - \epsilon C
+$$
+
+with $\epsilon \in \{-1,1\}$ give in [[dimension]] $d$ by the following table
+
+| $d \, mod \, 8$ | $C$ |
+|--|--|
+| 0 | -1 |
+| 1 | -1 |
+| 2 | either |
+| 3 | +1 |
+| 4 | +1 |
+| 5 | +1 |
+| 6 | either |
+| 7 | -1 |
+
+=--
+
+For instance ([van Proeyen 99, table 1](#vanProeyen99)).
+
+
+Now the case over the real numbers:
 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $V$ be a quadratic vector space, def. \ref{QuadraticVectorSpace} over the [[real numbers]] of [[dimension]] $d$ with [[Minkowski metric|Loentzian]] [[signature]]. Then there exists, up to rescaling, a unique $Spin(V)$-invariant [[bilinear form]] $(-,-) \;\colon\; S \otimes S \longrightarrow \mathbb{R}$ on a real [[irreducible representation]] $S$ of $Spin(V)$, and its symmetry is given by the following table
+Let $V$ be a quadratic vector space, def. \ref{QuadraticVectorSpace} over the [[real numbers]] of [[dimension]] $d$ with [[Minkowski metric|Loentzian]] [[signature]]. Then there exists, up to rescaling, a unique $Spin(V)$-invariant [[bilinear form]] 
 
-| $d \, mod \, 8$ |  $(-,-)$ |
+$$
+  C \;\colon\; S \otimes S \longrightarrow \mathbb{R}
+$$ 
+
+on a real [[irreducible representation]] $S$ of $Spin(V)$, and its symmetry is given by the following table
+
+| $d \, mod \, 8$ |  $C$ |
 |---|---|
 | 0 | symmetric |
 | 1 | symmetric |
@@ -253,10 +297,9 @@ Chapter I.5 of
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
-
 * Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
 
-For [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[supersymmetry]] in [[QFT]], see 
+For [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[supersymmetry]] in [[QFT]], see for mathematical accounts
 
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_ 1999
   {#Freed99}
@@ -264,9 +307,13 @@ For [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[super
 * [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
   {#Varadarajan04}
 
-* [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+and for the traditional component notation used in physics see
+
+* [[Antoine Van Proeyen]], _Tools for supersymmetry_, Lectures in the spring school in Calimanesti, Romania, April 1998 ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+  {#vanProeyen99}
 
 * [[Joseph Polchinski]], part II, appendix B of _[[String theory]]_, Cambridge Monographs on Mathematical Physics (2001)
+ {#Polchinski01}
 
 [[!redirects spin representations]]
 
