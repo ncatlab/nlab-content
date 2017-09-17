@@ -1,26 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
 [[!redirects cocompleteness of categories of algebras]]
 
-## Contents
+#Contents#
 * tic
 {: toc}
 
 ## Introduction 
 
-Let $T$ be a monad on a category $C$, and let $C^T$ denote the [[Eilenberg-Moore category]] of $T$. Let 
+Let $T$ be a [[monad]] on a [[category]] $C$, and let $C^T$ denote the [[Eilenberg-Moore category]] of $T$. Let 
 
 $$U: C^T \to C$$ 
 
-be the usual underlying or forgetful functor, with left adjoint $F: C \to C^T$, unit $\eta: 1_C \to U F$, and counit $\varepsilon: F U \to 1_{C^T}$. It is well-known that $U$ reflects limits, so that if $C$ is [[complete category|complete]], then $C^T$ is also complete and $U$ is [[continuous functor|continuous]]. 
+be the usual underlying or [[forgetful functor]], with [[left adjoint]] $F: C \to C^T$, [[unit of an adjunction|unit]] $\eta: 1_C \to U F$, and counit $\varepsilon: F U \to 1_{C^T}$. It is well-known that $U$ [[reflected limit|reflects limits]], so that if $C$ is [[complete category|complete]], then $C^T$ is also complete and $U$ is [[continuous functor|continuous]]. 
 
 The situation with regard to colimits is more complicated. It is not generally true that if $C$ is cocomplete, then $C^T$ is also. In this article we collect some partial results which address these issues. 
 
 ## Reflexive coequalizers and cocompleteness
 
-A simple but basic fact is the following. Suppose $J$ is a small category, and suppose that the monad $T$ preserves colimits over $J$, that is, suppose that for every $F: J \to C$ the canonical map 
+A simple but basic fact is the following. Suppose $J$ is a [[small category]], and suppose that the monad $T$ preserves colimits over $J$, that is, suppose that for every $F: J \to C$ the canonical map 
 
 $$colim_J T \circ F \to T(colim_J F)$$ 
 
-is an isomorphism. 
+is an [[isomorphism]]. 
 
 +-- {: .un_prop} 
 ######Proposition 
