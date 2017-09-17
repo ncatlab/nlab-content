@@ -10,7 +10,7 @@ $$
   \array{
     && b
     \\
-    & \nearrow &\Downarrow& \searrow
+    & \nearrow &\mathllap{\scriptsize{\alpha}}\Downarrow& \searrow
     \\
     a &&\to&& c
   }
@@ -20,7 +20,7 @@ $$
 [[Eric]]: How about a square?
 $$\array{
 a & \to & b \\
-\downarrow & \Downarrow & \downarrow \\
+\downarrow & \mathllap{\scriptsize{\alpha}}\Downarrow & \downarrow \\
 c & \to & d
 }
 $$
