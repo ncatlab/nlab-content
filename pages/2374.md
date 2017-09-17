@@ -28,10 +28,13 @@
 
 * [[smash product of spectra]]
 
-  * [[symmetric monoidal smash product of spectra]]
+  * [[symmetric smash product of spectra]]
+
+  * [[Spanier-Whitehead duality]]
 
   * [[A-∞ ring]]
 
   * [[E-∞ ring]]
+
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/stable+homotopy+theory+-+contents)</div>
