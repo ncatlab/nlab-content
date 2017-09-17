@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -86,7 +85,7 @@ $$
   W : K \to V
 $$
 
-is, if it exists, the object $lim^W F \in V$ which [[representable functor|represents]] the functor
+is, if it exists, the object $lim^W F \in C$ which [[representable functor|represents]] the functor
 
 $$
   [K,V](W, C(-,F(-))) : C^{op} \to V
