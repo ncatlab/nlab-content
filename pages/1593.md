@@ -38,16 +38,16 @@ We discuss the notion of [[circle n-bundles with connection]] over [[double cove
 The [[smooth infinity-groupoid|smooth]] [[automorphism 2-group]] of the [[circle group]] $U(1)$ is that corresponding to the smooth [[crossed module]]
 
 $$
-  AUT(U(1)) \simeq [U(1) \to \mathbb{Z}_2]
+  Aut(\mathbf{B}U(1)) \simeq [U(1) \to \mathbb{Z}_2]
   \,,
 $$
 
-where the differential $U(1) \to \mathbb{Z}_2$ is trivial and where the [[action]] of $\mathbb{Z}_2$ on $U(1)$ is given under the identification of $U(1)$ with the unit circle in the plane by reversal of the sign of the angle.
+where the [[differential]] $U(1) \to \mathbb{Z}_2$ is trivial (constant on the neutral element) and where the [[action]] of $\mathbb{Z}_2$ on $U(1)$ is given under the identification of $U(1)$ with the unit circle in the plane by reversal of the sign of the angle.
 
-This is an <a href="http://nlab.mathforge.org/nlab/edit/cohesive+%28infinity%2C1%29-topos+--+structures#InfinityGroupExtensions">extension of smooth ∞-groups</a>
+This is an [extension of smooth ∞-groups](cohesive+%28infinity%2C1%29-topos+--+structures#InfinityGroupExtensions)
 
 $$
-  \mathbf{B}U(1) \to AUT(U(1)) \to \mathbb{Z}_2
+  \mathbf{B}U(1) \to Aut(\mathbf{B}U(1)) \to \mathbb{Z}_2
   \,.
 $$
 
@@ -56,18 +56,18 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The nature of $AUT(U(1))$ is clear. Let $\mathbf{B}U(1) \to AUT(U(1))$ be the evident inclusion. We have to show that its [[delooping]] is the [[homotopy fiber]] of $\mathbf{B}AUT(U(1)) \to \mathbf{B}\mathbb{Z}_2$.
+The nature of $Aut(\mathbf{B}U(1))$ is clear. Let $\mathbf{B}U(1) \to Aut(\mathbf{B}U(1))$ be the evident inclusion. We have to show that its [[delooping]] is the [[homotopy fiber]] of $\mathbf{B}Aut(\mathbf{B}U(1)) \to \mathbf{B}\mathbb{Z}_2$.
 
-For this it is sufficient to show that $\mathbf{B}^2 U(1)$ is equivalent to the  ordinary [[pullback]] of simplicial presheaves 
-$\mathbf{B}AUT(U(1))\times_{\mathbf{B}\mathbb{Z}_2} \mathbf{E}\mathbb{Z}_2$ of the $\mathbb{Z}$_2-[[universal principal bundle]].
+For this it is sufficient to show that $\mathbf{B}^2 U(1)$ is equivalent to the  ordinary [[pullback]] of [[simplicial presheaves]] 
+$\mathbf{B}Aut(\mathbf{B}U(1))\times_{\mathbf{B}\mathbb{Z}_2} \mathbf{E}\mathbb{Z}_2$ of the $\mathbb{Z}$_2-[[universal principal bundle]].
 
 This pullback is the [[2-groupoid]] whose 
 
 * [[object]]s are elements of $\mathbb{Z}_2$;
 
-* [[morphism]]s $\sigma_1 \to \sigma_2$ are labeled by $\sigma \in \mathbb{Z}_2$ such that $\sigma_2 = \sigma \sigma_1$;
+* [[morphisms]] $\sigma_1 \to \sigma_2$ are labeled by $\sigma \in \mathbb{Z}_2$ such that $\sigma_2 = \sigma \sigma_1$;
 
-* all [[2-morphism]]s are [[endomorphism]]s, labeled by $c \in U(1)$;
+* all [[2-morphisms]] are [[endomorphisms]], labeled by $c \in U(1)$;
 
 * [[vertical composition]] of 2-morphisms is given by the group operation in $U(1)$, 
 
@@ -75,15 +75,15 @@ This pullback is the [[2-groupoid]] whose
 
 * horizontal composition of 1-morphisms with 2-morphisms ([[whiskering]]) is given by the [[action]] of $\mathbb{Z}_2$ on $U(1)$.
 
-This 2-groupoid has vanishing $\pi_1$, and $\pi_2 = U(1)$.
-The inclusion of $\mathbf{B}^2 U(1)$ into this pullback is the obvious one, includion elements in $U(1)$ as endomorphisms of the trivial element in $\mathbb{Z}_2$. This is manifestly an isomorphism on $\pi_2$ and trivially an isomorphism on all other homotopy groups, hence is a [[weak equivalence]].
+This 2-groupoid has vanishing $\pi_1$, and has $\pi_2 = U(1)$.
+The inclusion of $\mathbf{B}^2 U(1)$ into this pullback is the obvious one, including elements in $U(1)$ as endomorphisms of the trivial element in $\mathbb{Z}_2$. This is manifestly an isomorphism on $\pi_2$ and trivially an isomorphism on all other homotopy groups, hence is a [[weak equivalence]].
 
 =--
 
 +-- {: .num_prop }
 ###### Observation
 
-A $U(1)$-[[gerbe]] in the full sense Giraud (as opposed to a $U(1)$-[[bundle gerbe]] in the sense of Murray) is equivalent to an $AUT(U(1))$-[[principal 2-bundle]], not in general to a circle 2-bundle, wich is only a special case.
+A $U(1)$-[[gerbe]] in the full sense Giraud (as opposed to a $U(1)$-[[bundle gerbe]] in the sense of Murray) is equivalent to an $Aut(\mathbf{B}U(1))$-[[principal 2-bundle]], not in general to a circle 2-bundle, wich is only a special case.
 
 =--
 
@@ -95,7 +95,7 @@ More generally we have:
 For every $n \in \mathbb{N}$ the automorphism $(n+1)$-group of $\mathbf{B}^n U(1)$ is given by the [[crossed complex]]
 
 $$
-  AUT(\mathbf{B}^n U(1))
+  Aut(\mathbf{B}^{n+1} U(1))
   \simeq
   [U(1) \to 0 \to \cdots \to 0 \to \mathbb{Z}_2]
 $$
@@ -105,7 +105,7 @@ with $U(1)$ in degree $n+1$ and $\mathbb{Z}_2$ acting by automorphisms.
 This is an extension of cohesive $\infty$-groups
 
 $$
-  \mathbf{B}^{n+1} U(1) \to AUT(\mathbf{B}^n U(1)) \to \mathbb{Z}_2
+  \mathbf{B}^{n+1} U(1) \to Aut(\mathbf{B}^{n+1} U(1)) \to \mathbb{Z}_2
   \,.
 $$
 
@@ -116,11 +116,11 @@ $$
 
 For $X \in Smooth\infty Grpd$ a **[[double cover]]** $\hat X \to X$ is a $\mathbb{Z}_2$-[[principal bundle]]. 
 
-For $n \in \mathbb{N}$, $n \geq 1$, an **orientifold circle $n$-bundle (with connection)** is an $AUT(\mathbf{B}^{n-1}U(1))$-[[principal ∞-bundle]] (with [[connection on an ∞-bundle|∞-connection]]) on $X$ that <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Cohomology">extends</a> $\hat X \to X$ with respect to the extension def. \ref{ExtensionOfZTwo} of $\mathbb{Z}^2$ by $AUT(\mathbf{B}^n U(1))$.
+For $n \in \mathbb{N}$, $n \geq 1$, an **orientifold circle $n$-bundle (with connection)** is an $Aut(\mathbf{B}^{n}U(1))$-[[principal ∞-bundle]] (with [[connection on an ∞-bundle|∞-connection]]) on $X$ that <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#Cohomology">extends</a> $\hat X \to X$ with respect to the extension def. \ref{ExtensionOfZTwo} of $\mathbb{Z}^2$ by $AUT(\mathbf{B}^n U(1))$.
 
 =--
 
-This means that if $X \to \mathbf{B}\mathbb{Z}^2$ is the cocycle for the [[double cover]] $\hat X$, this factors as
+This means that if $X \to \mathbf{B}\mathbb{Z}^2$ is the [[cocycle]] for the [[double cover]] $\hat X$, this factors as
 
 $$
   X \stackrel{g}{\to} \mathbf{B} AUT(\mathbf{B}^{n-1} U(1)) \to \mathbf{B}\mathbb{Z}^2
@@ -242,11 +242,11 @@ A definition and study of orientifold [[bundle gerbe]]s, modeling the [[Kalb-Ram
 * [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0512283))
  {#Jandl}
 
-* [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ ([arXiv](http://arxiv.org/abs/0809.5125))
+* [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ ([arXiv:0809.5125](http://arxiv.org/abs/0809.5125))
 
 A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&eacute;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&eacute;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
  {#Precis}
 
 A summary talk on this is
