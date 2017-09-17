@@ -26,7 +26,7 @@ $$
 
 This form is always an [[exact form]].  The $(2 n -1)$-form trivializing it is called a [[Chern-Simons form]].
 
-Notably if $G$ is a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, $P$ is the total space of a $G$-[[principal bundle]] $\pi : P \to X$, and $A \in \Omega^1(P,\mathfrak{g})$ is an [[Ehresmann connection]] 1-form on $P$ then by the very definition of the $G$-equivariance of $A$ and the _invariance_ of $\langle \cdots \rangle$ it follows that the curvature form is invariant under the $G$-action on $P$ and is therefore the pullback along $\pi$ of a $2 n$-form $P_n \in \Omega^{2 n}(X)$ down on $X$. This form is in general no longer exaxt, but is always a [[closed form]] and hence represent a class in the [[de Rham cohomology]] of $X$.
+Notably if $G$ is a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$, $P$ is the total space of a $G$-[[principal bundle]] $\pi : P \to X$, and $A \in \Omega^1(P,\mathfrak{g})$ is an [[Ehresmann connection]] 1-form on $P$ then by the very definition of the $G$-equivariance of $A$ and the _invariance_ of $\langle \cdots \rangle$ it follows that the curvature form is invariant under the $G$-action on $P$ and is therefore the pullback along $\pi$ of a $2 n$-form $P_n \in \Omega^{2 n}(X)$ down on $X$. This form is in general no longer exaxt, but is always a [[closed form]] and hence represent a class in the [[de Rham cohomology]] of $X$. This establishes the [[Weil homomorphism]] from invariant polynomials to de Rham cohomology
 
 
 ## In terms of $\infty$-Lie algebroids
