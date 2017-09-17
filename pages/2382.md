@@ -33,9 +33,7 @@
  
         * [[sieve]]
 
-        * [[coverage]]
-
-        * [[Grothendieck topology]]
+        * [[coverage]], [[basis for a topology|basis]], [[Grothendieck topology]]
 
       * [[sheaf]]
 
