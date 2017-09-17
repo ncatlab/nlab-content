@@ -17,6 +17,8 @@
 * tabl of contents
 {:toc}
 
+This entry is about induction in the sense of logic. For induction (functors) in representation theory see [[induced module]], [[induced comodule]], [[cohomological induction]]. 
+
 ## Idea
 
 The **principle of induction** says that if a [[proposition]] $n \in \mathbb{N} \vdash P(n)$ that [[dependent type|depends]] on the [[natural numbers]] has the property that 
