@@ -131,6 +131,8 @@ Personally I think that instead of identifying the objects of the category with 
 Regarding composites, normally it is just a composite of Kraus operators (see my first revision of the [quantum channel](http://ncatlab.org/nlab/revision/quantum+channel/1) page).  Regarding the categories, though, I think I may have actually been able to show that it behaves as expected using a commutative square.
 
 [[David Roberts]]: I think you have misunderstood. The comment about isomorphic categories was secretly directed at Urs, and doesn't bear on what quantum channels are, just on how one should view the category of them with a mind towards generalisation. Also note that a single quantum channel is not a category, neither is a quantum channel a map between categories (at least, not in an interesting way that adds to the conceptual development).
+
+[[Ian Durham]]: I was pretending to be Urs. :)  In all seriousness, I didn't mean to give the impression that a single channel was a category.  What I meant was that there are "clumps" (you category people have absconded with all the good words!) of channels of certain dimension (e.g. there's a bunch of channels with 2 x 2 matrix representations) that aren't reversible, even with environmental assistance.
 =--
 
 * morphism are completely positive and trace-preserving linear maps $\Phi : Mat(n\times n , \mathbb{C}) \to Mat(m \times m, \mathbb{C})$;
