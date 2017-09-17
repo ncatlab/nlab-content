@@ -17,88 +17,146 @@
 * table of contents
 {: toc}
 
-
-## Idea
-
-The [[category]] $CartSp$ is the category of [[cartesian space]]s $\mathbb{R}^n$ and [[smooth function]]s between them.
-This is the basic category of test [[space]]s on which [[differential geometry]] and its generalizations are modeled. 
-
 ## Definition
 
-By $CartSp$ we denote the [[category]]
++-- {: .un_def}
+###### Definition
 
-* whose [[object]]s are the [[cartesian spaces]] $\mathbb{R}^n$, $n \in \mathbb{N}$ -- the [[real line]] to its $n$th [[product|cartesian power]] -- equipped with their standard smooth structure;
+Write $CartSp$ for the [[category]] whose 
 
-* whose [[morphism]]s are all [[smooth functions]] between these spaces.
+* [[object]]s are [[Cartesian space]]s $\mathbb{R}^n$ for $n \in \mathbb{N}$;
 
-So $CartSp$ may be thought of as the [[full subcategory]] of [[Diff]] on the [[smooth manifold]]s of the form $\mathbb{R}^n$ for $n \in \mathbb{N}$.
+* [[morphism]]s are suitable structure-preserving [[function]]s between these spaces. 
 
+For definiteness we write
 
-Some variants of this are of interest:
+$CartSp_{lin}$ for the category whose objects are [[Cartesian space]]s regarded as [[real number|real]] [[vector space]]s and whose morphisms are [[linear function]]s between these;
 
-* write $ThCartSp$ for the category of [[infinitesimal object|infinitesimally thickened]] Cartesian spaces: the [[full subcategory]] on the category of [[smooth loci]] on those of the form $\mathbb{R}^n \times d$, where $d$ is an [[infinitesimal space]].
+* $CartSp_{top}$ for the category whose objects are Cartesian spaces regarded as [[topological spaces]] equipped with their [[Euclidean topology]] and morphisms are [[continuous maps]] between them.
 
-## Geometry induced from $CartSp$.
+* $CartSp_{smooth}$ for the category whose objects are Cartesian spaces regarded as [[smooth manifolds]] with their standard [[smooth structure]] and morphisms are [[smooth function]]s.
 
-Along the general lines of [notions of space](http://ncatlab.org/nlab/show/space#NotionsOfSpace) we have the following notions of spaces modeled on $CartSp$.
-
-Consider [[CartSp]] as a [[site]] with the standard notion of [[coverage]] (for instance [[good open cover]]s, using the fact that a [[Cartesian space]] is [[diffeomorphism|diffeomorphic]] to an [[open ball]]). This is a [[cohesive site]] and even an [[∞-cohesive site]].
-
-
-Then 
-
-* the category of very general spaces modeled on $CartSp$ is the [[sheaf topos]] $Sh(CartSp)$;
-
-  Some objects in here are indeed very general spaces. For instance there is the sheaf $\Omega^p : \mathbb{R}^n \mapsto \Omega^p_{closed}(\mathbb{R}^n)$ that assigns sets of closed [[differential form]]s. This is a very non-classical object. For instance in that this space has just a single point, a single curve, a single surface, and so on, up to a single $(p-1)$-dimensional plot, but then has infinitely many $p$-dimensional plots. Despite this non-classicality, this is a very natural and useful object. To some extent it plays the role of an [[Eilenberg-MacLane space]] $K(\mathbb{R},p)$, even though it is far from having an underlying topological space.
-
-* Accordingly, the first major subcategories inside $Sh(Cart)$ of more tame objects are those sheaves that do have underlying [[topological space]]s: these are the [[concrete sheaves]]
-
-  $$
-    DiffeologicalSpaces \subset Sh(CartSp)
-  $$
-
-  called [[diffeological space]]s. Among them objects like [[Frölicher space]]s play roughly the role of locally [[CartSp]]-ringed spaces, vaguely in the sense of [[structured (∞,1)-topos]]es.
-
-* Refining one step further to even more tame objects inside $Sh(CartSp)$ we arrive at those concrete sheaves that are locally isomorphic to a [[representable functor]]. i.e. to a Cartesian space itsef. These are the [[smooth manifold]]s
-
-  $$
-    SmoothManifolds \hookrightarrow DiffeologicalSpaces \hookrightarrow
-    Sh(CartSp)
-    \,.
-  $$
-
-* Finally the Cartesian test spaces themselves sit inside this hierarchy via the [[Yoneda embedding]]  $CartSp \hookrightarrow Sh(CartSp)$ , which we have hence factored as
-
-  $$
-    CartSp \hookrightarrow
-    SmoothManifolds \hookrightarrow DiffeologicalSpaces \hookrightarrow
-    Sh(CartSp)
-    \,.
-  $$
-
-As already indicated, this story in ordinary [[category theory]] may be lifted to [[higher topos theory]]. The [[(∞,1)-topos]] $Sh_{(\infty,1)}(CartSp)$ is a model for generalized [[Lie ∞-groupoid]]s. The fact that a Cartesian space is effectively just a smooth open ball makes this a [[locally contractible (∞,1)-topos]].
+=--
 
 
-Dually, using that $CartSp$ is evidently the syntactic category of a [[Lawvere theory]] (even of a [[Fermat theory]]) there are the generalized [[quantities]] modeled on $CartSp$, algebras over this theory:
+## Properties
 
-* a product-preserving [[functor]] $A \in Func_\times(CartSp,Set)$ is a [[smooth algebra]].
+### As a small category of objects with a basis
 
-* a product-preserving [[(∞,1)-functor]] $A \in (\infty,1)Func_\times(CartSp, \infty Grpd)$ , i.e. an algebra over $CartSp$ regarded as an [[(∞,1)-algebraic theory]] is a [[smooth (∞,1)-algebra]]. 
+A [[Cartesian space]] carries a lot of structure, for instance [[CartSp]] may be naturally regarded as a [[full subcategory]] of the category $C$
+
+*  [[vector space]]s,
+*  [[affine space]]s,
+*  [[normed vector space]]s,
+*  [[inner product space]]s,
+*  [[Euclidean space]]s.
+
+In all these cases, the inclusion $CartSp \hookrightarrow C$ is an [[equivalence of categories]]: choosing an [[isomorphism]] from any of these objects to a [[Cartesian space]] amounts to choosing a [[basis]] of a [[vector space]], a [[coordinate system]].
+
+### As a site
+
++-- {: .un_defn}
+###### Definition
+
+Write
+
+* [[CartSp]]${}_{top}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[continuous maps]] between these.
+
+* [[CartSp]]${}_{smooth}$ for the category whose [[object]]s are Cartesian spaces and whose [[morphism]]s are all [[smooth functions]] between these.
+
+* [[CartSp]]${}_{synthdiff}$ for the [[full subcategory]] of the category of [[smooth loci]] on those of the form $\mathbb{R}^n \times D$ for $D$ an [[infinitesimal space]] (the formal dual of a Weil algebra).
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+In all three cases there is the [[good open cover]] [[coverage]] that makes $[[CartSp]] a [[site]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For [[CartSp]]${}_{top}$ this is obvious. For [[CartSp]]${}_{smooth}$ this is somewhat more subtle. It is a folk theorem (see the references at [[open ball]]). A detailed proof is at [[good open cover]]. This directly carries over to $CartSp_{synthdiff}$.
+
+=--
+
++-- {: .un_prop #AsDenseSubsite}
+###### Proposition
+
+* The site $CartSp_{top}$ is a [[dense subsite]] of the site of [[paracompact topological space|paracompact]] [[topological manifold]]s with the [[open cover]] [[coverage]].
+
+* The site $CartSp_{smooth}$ is a [[dense subsite]] of the [[site]] [[Diff]] of [[paracompact topological space|paracompact]] [[smooth manifold]]s equipped with the [[open cover]] [[coverage]].
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Equipped with this structure of a site, [[CartSp]] is an 
+[[∞-cohesive site]].
+
+=--
+
+The corresponding [[cohesive topos]] [[sheaf topos|of sheaves]] is
+
+* $Sh_{(1,1)}(CartSp_{smooth})$, discussed at [[diffeological space]].
+
+* $Sh_{(1,1)}(CartSp_{synthdiff})$, discussed at [[Cahiers topos]].
+
+The corresponding [[cohesive (∞,1)-topos]] [[(∞,1)-category of (∞,1)-sheaves|of (∞,1)-sheaves]] is
+
+* $Sh_{(\infty,1)}(CartSp_{top}) =$ [[ETop∞Grpd]];
+
+* $Sh_{(\infty,1)}(CartSp_{smooth}) =$ [[Smooth∞Grpd]];
+
+* $Sh_{(\infty,1)}(CartSp_{synthdiff}) =$ [[SynthDiff∞Grpd]];
+
++-- {: .un_cor}
+###### Corollary
+
+We have [[equivalences of categories]]
+
+* $Sh(CartSp_{top}) \simeq Sh(TopMfd)$
+
+* $Sh(CartSp_{smooth}) \simeq Sh(Diff)$
+
+and [[equivalences of (∞,1)-categories]]
+
+* $Sh_{(∞,1)}(CartSp_{top}) \simeq Sh_{(\infty,1)}(TopMfd)$;
+
+* $Sh_{(∞,1)}(CartSp_{smooth}) \simeq Sh_{(\infty,1)}(Diff)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first two statements follow by the [above proposition](#AsDenseSubsite) with the _comparison lemma_ discussed at [[dense sub-site]].
+
+For the second condition notice that since an [[∞-cohesive site]] is in particular an [[∞-local site]] we hat that $Sh_{(∞,1)}(CartSp)$ is a [[local (∞,1)-topos]]. As discussed there, this implies that it is a [[hypercomplete (∞,1)-topos]]. By the discussion at [[model structure on simplicial presheaves]] this means that it is [[presentable (∞,1)-category|presented]] by the Joyal-Jardine-[[model structure on simplicial sheaves]] $Sh(CartSp)^{\Delta^{op}}_{loc}$. The claim then follows with the first two statements.
+
+=--
+
+### As a category with open maps
+
+There is a canonical structure of a category with [[open map]]s on $CartSp$ (...)
 
 
-Iterating this way of passing from simple test spaces to spaces and quantities modeled on them, we can next consider 
+### As an algebraic theory
 
-* $C^\infty Alg^{op} := Func_\times(CartSp,Set)^{op}$
+The category $CartSp$ is (the [[syntactic category]] of ) a [[Lawvere theory]]: the theory for [[smooth algebra]]s.
 
-and
 
-* $(\infty,1)C^\infty Alg^{op} := Func_\times(CartSp,\infty Grpd)^{op}$
+### As a pre-geometry
 
-as new categories of test spaces, and pass to generalized spaces modeled on these.
+Equipped with the above [[coverage]]-structure,  [[open map]]-structure and [[Lawvere theory]]-property, $CartSp$ is essentially a [[pregeometry (for structured (∞,1)-toposes)]].
 
-The very general spaces modeled on $C^\infty Alg^{op}$ form the [[smooth topos]]es used in the well-adapted [[Models for Smooth Infinitesimal Analysis]] in the context of [[synthetic differential geometry]].
+(Except that the pullback stability of the open maps holds only in the weaker sense of [[coverage]]s).
 
-On the other hand, considering [[locally ringed space]]s with local rings of functions in $(\infty,1)C^\infty Alg^{op}$  leads to the notion of [[derived smooth manifold]]s.
+(...)
+
 
 
 ## References {#References}
