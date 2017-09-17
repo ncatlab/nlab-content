@@ -95,11 +95,13 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 
 * [[Ross Street]], "Limits indexed by category-valued 2-functors"
 
-* [[Max Kelly]], "Elementary observations on 2-categorical limits"
+* [[Max Kelly]], _Elementary observations on 2-categorical limits_, Bulletin of the Australian Mathematical Society (1989), 39: 301-317, [link](http://journals.cambridge.org/abstract_S0004972700002781)
 
 * [[Ross Street]], "Fibrations in Bicategories" and correction.
 
 * [[Steve Lack]], [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+
+* G. J. Bird, G. M. Kelly, A. J. Power, R. H. Street, _Flexible limits for 2-categories_, <a href="http://dx.doi.org/10.1016/0022-4049(89)90065-0">doi</a>
 
 [[!redirects bilimit]]
 [[!redirects bilimits]]
