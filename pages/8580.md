@@ -208,7 +208,7 @@ But all fundamental [[quantum field theories]] observed in (or conjectured to un
 
 This differential geometric data involves 
 
-* [[smooth function|smooth]] [[functionals]] -- called _[[action functionals]]_ 
+* [[smooth function|smooth]] [[nonlinear functional|functionals]] -- called _[[action functionals]]_ 
 
 * on [[smooth infinity-groupoid|smooth "spaces"]] -- called _[[moduli stacks]]_ 
 
@@ -3559,7 +3559,7 @@ $$
 
 Traditionally a _[[functional]]_ is a [[function]] which is sufficiently like a [[smooth function]], but defined not on a [[manifold]], but on a [[mapping space]] between manifolds. Also traditionally, a _[[variational derivative]]_ of such a functional is something aking to a [[derivative]], generalized to this context, and subject to the condition that all variations _preserve some boundary conditions_. 
 
-We formulate this classical theory in the context of [[smooth spaces]]. Here a functional is simply a homomorphism of smooth spaces out of a smooth [[mapping space]], as in def. \ref{SmoothFunctionSpace}. We may impose _respect for boundary conditions_ by forming the [[fiber product]] of this mapping space with a _discrete smooth space inclusion_, given in def. \ref{MapFromDiscretizationOfSmooth0Type} below. Then the _variational derivative_ is simply the ordinary derivative of def. \ref{DeRhamDifferentialOverSmoothSpaces}.
+We formulate this classical theory in the context of [[smooth spaces]]. Here a [[nonlinear functional|functional]] is simply a homomorphism of smooth spaces out of a smooth [[mapping space]], as in def. \ref{SmoothFunctionSpace}. We may impose _respect for boundary conditions_ by forming the [[fiber product]] of this mapping space with a _discrete smooth space inclusion_, given in def. \ref{MapFromDiscretizationOfSmooth0Type} below. Then the _variational derivative_ is simply the ordinary derivative of def. \ref{DeRhamDifferentialOverSmoothSpaces}.
 
 
 ##### Discrete points of a smooth space
@@ -3669,7 +3669,7 @@ $\phi \colon U \times \Sigma \to X$ such that $\phi(-,s) \colon U \to X$ is the 
 +-- {: .num_defn #SmoothFunctional}
 ###### Definition
 
-A **[[functional]]** on the mapping space $[\Sigma, X]$ is a [[homomorphism]] of smooth spaces
+A **[[nonlinear functional|functional]]** on the mapping space $[\Sigma, X]$ is a [[homomorphism]] of smooth spaces
 
 $$
   S \colon [\Sigma, X]_{\partial \Sigma} \to \mathbb{R}
