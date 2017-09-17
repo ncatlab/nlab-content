@@ -18,7 +18,7 @@ Just as a [[Jordan algebra]] that happens to be associative is the same thing as
 
 One can also consider Jordan $*$-algebras and the like, but the interesting thing is that important results about $C^*$-[[C-star-algebra|algebras]] have analogues already for $JB$-algebras. Instead of an involution, we can add a compatible [[Lie algebra]] structure to a Jordan algebra; then even *without* assuming associativity or commutativity, a [[Jordan–Lie algebra]] over the [[real numbers]] is the same thing as an associative $*$-algebra over the [[complex numbers]], up to [[equivalence of categories]], and this extends to lower rows.
 
-The right column is discussed at [[JLB-algebra]]; here we discuss the next-to-rightmost column (assuming the top row and left column as known).
+The right column is discussed at [[JLB-algebra]]; here we discuss the middle column (assuming the top row and left column as known).
 
 
 ## Definitions
@@ -112,7 +112,7 @@ Every $JB$-algebra is [[formally real algebra|formally real]]; conversely, all o
 
 $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.  They are generally proved in the analogous ways.  Some properties are different, however.
 
-An associative $JB$-algebra is the same thing as a commutative $C^*$-algebra with trivial involution, which (over the [[real numbers]]) is in turn the same thing as the algebra of (real-valued) [[continuous maps]] vanishing at infinity on a [[local compactum]] (which is a [[compactum]] iff the algebra is unital, and then every continuous map vanished at infinity).
+An associative $JB$-algebra is the same thing as a commutative $C^*$-algebra with trivial involution, which (over the [[real numbers]]) is in turn the same thing as the algebra of (real-valued) [[continuous maps]] vanishing at infinity on a [[local compactum]] (which is a [[compactum]] iff the algebra is unital, and then every continuous map vanishes at infinity).
 
 Like any Jordan algebra, a $JB$-algebra $A$ is [[power-associative algebra|power-associative]], so each element $x$ generates an associative [[subalgebra]] and hence a local compactum $Spec(x)$; in a unital $JB$-algebra, each element generates an associative unital subalgebra and hence a compactum (which we will also write $Spec(x)$).  Any [[continuous map]] $f\colon Spec(x) \to \mathbb{R}$ therefore defines an element $f(x)$ of $A$.  More generally, any associative subalgebra $X$ generates a (local) compactum $Spec(X)$, its [[spectrum]], and any continuous map on $Spec(X)$ defines an element of $A$ (in fact belonging to $X$).  Thus we have a [[functional calculus]] on $JB$-algebras.  In a $JBW$-algebra, we may instead interpret the spectrum as a [[localizable measure space]], with $X$ identified as the algebra of [[essentially bounded function|essentially bounded]] [[measurable functions]] (modulo [[almost equality]]) on the spectrum, so that the functional calculus extends to measurable functions.
 
