@@ -4,6 +4,10 @@
 #### $(\infty,1)$-Topos theory
 +--{: .hide}
 =--
+#### Discrete and concrete objects
++-- {: .hide}
+[[!include discrete and concrete objects - contents]]
+=--
 =--
 =--
 
