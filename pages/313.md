@@ -19,7 +19,7 @@ On the other hand, a more direct representation of what we draw on the page, whe
 
 Let $C$ be a [[category]].
 
-### Diagrams as functors
+### Diagrams shaped like categories
 
 +-- {: .num_defn}
 ###### Definition
@@ -28,7 +28,7 @@ If $J$ is a category, then a __diagram__ in $C$ of shape $J$ is simply a [[funct
 
 This terminology is often used when speaking about [[limits]] and [[colimits]]; that is, we speak about "the limit or colimit of a diagram."  Similarly, it is common to call the [[functor category]] $C^J$ the "category of diagrams in $C$ of shape $J$".
 
-### Diagrams as graph morphisms
+### Diagrams shaped like graphs
 
 +-- {: .num_defn}
 ###### Definition
