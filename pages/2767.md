@@ -1,20 +1,41 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Definition
 
-A **constant functor** $\Delta(d):C\to D$ is a [[functor]] that maps each object of $C$ to a fixed object $d\in D$ and each morphism of $C$ to the identity morphism of that fixed object.
+A **constant functor** $\Delta(d):C\to D$ is a [[functor]] that maps each [[object]] of the [[category]] $C$ to a fixed object $d\in D$ and each morphism of $C$ to the identity morphism of that fixed object.
 
 Note that a constant functor can be expressed as the composite
 $$C \stackrel{!}{\to} 1 \stackrel{[d]}{\to} D.$$ 
 
 Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism, namely the identity), and $[d]$ denotes the unique functor from $1$ with $F(\bullet) = d$ and $F(Id_\bullet) = Id_d$. 
 
-+--{.query}
-[[Eric]]: Is there a standard notation for constant functor? I had originally written $d!:C\to D$ which is kind of fitting given the composite, i.e. $d! = [d]\circ !$. If there is no established standard, I may change it. Opinions?
+## Examples
 
-_Toby_:  I don\'t think that there is.  Sometimes people write it $K_d$, $const_d$, or even just $d$.
+* For $F$ any functor, a [[natural transformation]]
 
-[[Mike Shulman]]: $\Delta d$ is fairly common too, I think.
+  $\Delta_d \Rightarrow F$ 
 
-[[Eric]]: As a notational convention, which is most common, $\Delta(d)$ or $\Delta d$? There were a couple instances of $Fj$ that I converted to $F(j)$. Any preference?
+  from a constant functor into $F$ is precisely a [[cone]] over $F$. Similarly are natural transformation
+  
+  $F \Rightarrow \Delta_d$
 
-_Toby_:  I prefer $F(j)$ (the application of functor $F$ to the object $j$) and $\Delta d$ (not an application of a functor to the object $d$).  But it\'s no big deal.
-=--
+  is a [[cocone]].
+
+## Related concepts
+
+* [[constant sheaf]]
+
+[[!redirects constant functors]]
