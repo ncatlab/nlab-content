@@ -58,6 +58,8 @@ and
 
 The [[second quantization]] [[effective field theory|effective]] background field theory defined by the [[perturbation series]] of the A-model string has been argued to be [[Chern-Simons theory]]. ([Witten 92](#Witten92), [Costello 06](#Costello06))
 
+For more on this see at _[TCFT -- Worldsheet and effective background theories](http://ncatlab.org/nlab/show/TCFT#ActionFunctionals)_.
+
 ## Related concepts
 
 * [[schreiber:∞-Chern-Simons theory]]
