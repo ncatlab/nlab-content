@@ -293,7 +293,7 @@ For $f : \mathcal{G} \to \mathcal{G}'$ a morphism of geometries, let
 $$
   \mathcal{O}_{\mathcal{G}}^{\mathcal{G}'}
   : 
-  Top(\mathcal{G}') \to Top(\mathcal{G})
+  Topos(\mathcal{G}') \to Topos(\mathcal{G})
 $$
 
 be the induced functor on categories of structured toposes.
@@ -310,11 +310,11 @@ $$
     Spec_{\mathcal{G}^{\mathcal{G}'}})
   )
   : 
-  Top(\mathcal{G})
+  Topos(\mathcal{G})
   \stackrel{\overset{\mathcal{O}_{\mathcal{G}}^{\mathcal{G}'}
 }{\leftarrow}}{\underset{Spec_{\mathcal{G}}^{\mathcal{G}'}
 }{\to}}
-  Top(\mathcal{G}')
+  Topos(\mathcal{G}')
   \,.
 $$
 
@@ -334,9 +334,9 @@ $$
     : 
   Pro(\mathcal{G})
    \to 
-  Top(\mathcal{G}_0)
+  Topos(\mathcal{G}_0)
    \stackrel{Spec_{\mathcal{G}_0}^{\math}}{\to}
-  Top(\mathcal{G})
+  Topos(\mathcal{G})
 $$
 
 for the composite.
