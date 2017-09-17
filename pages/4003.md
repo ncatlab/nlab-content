@@ -59,7 +59,7 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 * [[Joachim Kock]] (2009); Polynomial functors and trees; [arXiv](http://arxiv.org/abs/0807.2874).
 {#Kock}
 
-* [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]] (2010); Polynomial functors and opetopes; Advances in Mathematics, vol 224, pages 2690--2737.
+* [[Joachim Kock]], [[André Joyal]], [[Michael Batanin]], [[Jean-François Mascari]] (2010); Polynomial functors and opetopes; Advances in Mathematics, vol 224, pages 2690--2737, [arXiv:0706.1033](http://arxiv.org/abs/0706.1033)
 {#KJBM}
 
 
