@@ -148,7 +148,17 @@ $$
 
 This section assumes that the reader is well familiar with [[homotopy theory]] and maybe with [[(∞,1)-category theory]] but in need of some introductory words on $(\infty,n)$-categories.
 
-(...)
+A fundamental insight of [[homotopy theory]] is, of course,  that the [[geometric shapes for higher structures|cellular shape]] of [[simplices]] naturally serves to model paths and higher [[homotopies]] in "spaces", which here really means: in [[homotopy types]]/[[∞-groupoids]]. In fact, the simplices see a bit more: since $\Delta[n]$ is naturally identified with the [[total order|linear category]] $\{0 \to 1 \to 2 \to \cdots \to n\}$ on $(n+1)$-objects, there is a _direction_ on the paths which form the [[simplicial skeleton|1-skeleton]] of a map $\Delta^n \to X$. 
+
+If $X$ is a [[topological space]]/[[simplicial set]]/[[homotopy type]], then this directedness in a way "disappears up to equivalence", in that for every such directed path there is also the reverse path, which is an inverse up to equivalence.
+
+But it is straightforward to consider a slight generalization of this situation where we take $X$ to be such that _not_ all paths in it have inverses. Still thinking of $X$ as a homotopy type this may be thought of as modelling a _[[directed homotopy theory|directed homotopy type]]_. For $X$ instead modeled as a simplicial set, this has been formalized by the concept of a _[[quasi-category]]_ or _[[(∞,1)-category]]_. These are combinatorial models for _[[directed homotopy theory|directed homotopy types]]_ in direct generalization of how [[Kan complexes]] are combinatorial models for ordinary [[homotopy types]].
+
+As the notation already suggests, the idea of $(\infty,n)$-category theory is that this generalization from [[∞-groupoids]] ("($\infty,0$)-categories") to [[(∞,1)-categories]] is but the first step in a tower of higher generalizations, where in step $n$ one considers "directed homotopy" up to and including dimension $n$.
+
+It is natural that such _$(\infty,n)$-categories_ should be probed by corresponding higher dimensional analogs of the objects in the [[simplex category]], the linear categories $\Delta[n] = \{0 \to 1 \to 2 \to \cdots \to n\}$ that support traditional homotopy theory. There are many such generalizations which one could consider. One which has proven to be useful are the objects in the $n$th [[Theta-category]] $\Theta_n$. Where the linear categories as above arise from gluing -- [[pasting]] -- of cellular intervals, the objects of $\Theta_n$ arise from [[pasting]] of $n$-dimensional cellular _[[globes]]_ (an interval being a 1-dimensional globe). 
+
+Accordingly, just as an [[∞-groupoid]]/[[homotopy type]] may be presented by a [[simplicial set]], hence a [[presheaf]] on the [[simplex category]] -- or more generally by a [[bisimplicial set|simplicial space]]-- satisfying some ([[Kan complex|Kan filler]]-)condition that encodes the existence of composites and inverses, so an [[(∞,n)-category]] may be presented by a presheaf of spaces on the $n$th [[Theta-category]], similarly subject to some conditions that ensure the existence of composites and inverses -- but only of inverses above dimension $n$.
 
 
 ## Definitions
@@ -179,11 +189,21 @@ We discuss a characterization of the [[(∞,1)-category]] of $(\infty,n)$-catego
 
 The main definition is def. \ref{AxiomaticDefinition} below, which roughly says that the collection of $(\infty,n)$-categories is _generated_ from [[strict n-categories]] in a certain sense. Therefore we first need to fix some terminology and notions about strict $n$-categories and about the relevant notion of generation.
 
+
+
+
 +-- {: .num_defn #GauntStrictNCategories}
 ###### Definition
 
-Write $Str n Cat$ for the 1-[[category]] of [[strict n-categories]]. Write
-$Str n Cat_{gaunt} \hookrightarrow  Str n Cat$ for the [[full subcategory]] on the _gaunt $n$-categories_, those $n$-categories whose only invertible [[k-morphisms]] are the identities.
+Write $Str n Cat$ for the 1-[[category]] of [[strict n-categories]]. 
+
+Write
+
+$$
+  Str n Cat_{gaunt} \hookrightarrow  Str n Cat
+$$ 
+
+for the [[full subcategory]] on the _gaunt $n$-categories_, those $n$-categories whose only invertible [[k-morphisms]] are the identities.
 
 =--
 
@@ -205,6 +225,54 @@ for the [[full subcategory]] of the [[globe category]] on the $k$-globes for $k 
 Being a [[subobject]] of a gaunt $n$-category, also the [[boundary]] of a globe $\partial G_k \hookrightarrow G_k$ is gaunt, i.e. the $(k-1)$-[[skeleton]] of $G_k$.
 
 =--
+
++-- {: .num_defn #Suspension}
+###### Definition
+
+Write 
+
+$$
+  \sigma_k : Str (k) Cat to Str (k+1) Cat
+$$
+
+for the "categorical suspension" functor which sends a strict $k$-category to the object $\sigma(X) \in Str (k+1) Cat \simeq (Str k Cat)Cat$ which has precisely two objects $a$ and $b$, has $\sigma(C)(a,a) = \{id_a\}$, $\sigma(C)(b,b) = \{id_b\}$, $\sigma(C)(b,a) = \emptyset$ and 
+
+$$
+  \sigma(C)(a,b) = C
+  \,.
+$$
+
+=--
+
+We usually suppress the subscript $k$ and write $\sigma^i = \sigma_{k+i} \circ \cdots \circ \sigma_{k+1} \circ \sigma_k$, etc.
+
++-- {: .num_example }
+###### Example
+
+The $k$-[[globe]] $G_k$ is the $k$-fold suspension of the 0-globe (the point)
+
+$$
+  G_k = \sigma^k(G_0)
+  \,.
+$$
+
+The [[boundary]] $\partial G_k$ of the $k$-globe is the $k$-fold suspension of the
+empty category
+
+$$
+  \partial G_k = \sigma^k(\emptyset)
+  \,.
+$$
+
+Accordingly, the boundary inclusion $\partial G_k \hookrightarrow G_k$ is the $k$-fold suspension of the initial morphism $\emptyset \to G_0$
+
+$$
+  (\partial G_k \hookrightarrow G_k) = \sigma^k(\emptyset \to G_0)
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_defn #nCatGen}
 ###### Definition
@@ -228,15 +296,15 @@ for the smallest [[full subcategory]] that
 +-- {: .num_defn #FundamentalPushouts}
 ###### Definition
 
-The following [[pushout]] identities in $Str n Cat$ we call the _fundamental pushouts_ in the following
+The following [[pushouts]] in $Str n Cat$ we call the **fundamental pushouts** 
 
-1. Gluing two $k$-globes along their boundary gives the boundary of the $(k+1)$-globle
+1. Gluing two $k$-[[globes]] along their [[boundary]] gives the boundary of the $(k+1)$-globle
 
-   $G_k \coprod_{\partial C_{k-1}} G_k \simeq \partial G_{k+1}$
+   $$G_k \coprod_{\partial C_{k-1}} G_k \simeq \partial G_{k+1}$$
 
 1. Gluing two $k$-globes along an $i$-face gives a [[pasting]] composition of the two globles
 
-   $G_k \coprod_{G_i} G_k$
+   $$G_k \coprod_{G_i} G_k $$
 
 1. The [[fiber product]] of globes along non-degenerate morphisms $G_{i+j} \to G_i$ and $G_{i+k} \to G_i$ is built from gluing of globes by
 
@@ -245,6 +313,22 @@ The following [[pushout]] identities in $Str n Cat$ we call the _fundamental pus
      \simeq
      (G_{i+j} \coprod_{G_i} G_{i+k}) \coprod_{\sigma^{i+1}(G_{j-1} \times G_{k-1})} (G_{i+k} \coprod_{G_i} G_{i+j})
    $$
+
+1. The [[interval groupoid]] $(a \stackrel{\simeq}{\to} b)$ is obtained by forcing in $\Delta[3]$ the morphisms $(0\to 2)$ and $(1 \to 3)$ to be identities and it is equivalent, as an $n$-category, to the 0-globe
+
+   $ \Delta[3] \coprod_{\{0,2\} \coprod \{1,3\}} (\Delta[0] \coprod \Delta[0])
+   \stackrel{\sim}{\to} G_0$
+
+   and the analog is true for all suspensions of this relation
+
+   $$ 
+     \sigma^k(\Delta[3]) \coprod_{\sigma^k\{0,2\} \coprod \sigma^k\{1,3\}} (G_k\coprod G_k)
+     \stackrel{\sim}{\to} G_k
+     \,.
+   $$
+
+We say a functor $i$ on $Str n Cat$ _preserves_ the fundamental pushouts if it preserves the first three classes of pushouts, and if for the last one the morphism
+$i(\sigma^k(\Delta[3])) \coprod_{i(\sigma^k\{0,2\}) \coprod i(\sigma^k\{1,3\})} (i(G_k \coprod G_k)) \to i(G_k)$ is an equivalence.
 
 =--
 
@@ -298,8 +382,7 @@ from the generating strict $n$-categories, def. \ref{nCatGen} into its category 
 
 1. $\mathcal{Y}_n \to \tau_{\leq 0} Cat_{(\infty,n)} \hookrightarrow Cat_{(\infty,n)} $ [strongly generates](#StrongGeneration) $\mathcal{C}$;
 
-1. $i$ preserves the [fundamental pushouts](#FundamentalPushouts);
-   and sends (...) to an equivalence.
+1. $i$ preserves the [fundamental pushout](#FundamentalPushouts) relations;
 
 1. the [[base change]] [[adjoint triple]] in $Cat_{(\infty,n)}$ exists along morphisms with codomain a [[globe]];
 
@@ -361,7 +444,7 @@ $$
   \,.
 $$
 
-Notice that this is indeed also a [[homotopy pushout]]/[[(∞,1)-pushout]] since, by remark \ref{GauntIs0Truncted}, all objects in volved are 0-truncated.
+Notice that this is indeed also a [[homotopy pushout]]/[[(∞,1)-pushout]] since, by remark \ref{GauntIs0Truncted}, all objects involved are 0-truncated.
 
 Regard this canonically as a pushout diagram in the [[slice category]] $Cat_{/\Delta[2]}$ and consider then the pullback $\delta_1^* : Cat_{/\Delta[1]} \to Cat_{/\Delta[1]}$ along the remaining face $\delta_1 : \Delta[1] \to \Delta[2]$. This yields the diagram
 
@@ -382,25 +465,21 @@ which evidently no longer is a pushout.
 
 (See also the discussion [here](http://golem.ph.utexas.edu/category/2011/11/the_1category_of_ncategories.html#c040335)).
 
-#### Presentation
+#### Universal presentation
 
-By def. \ref{AxiomaticDefinition} $Cat_{(\infty,n)}$ is [[equivalence of (∞,1)-categories]] to a [[localization of an (∞,1)-category|localization]] of the [[(∞,1)-category of (∞,1)-presheaves]] on $Str n Cat_{gen}$. In fact, various subcategories of $Str n Cat_{gen}$ are already sufficient. Here we discuss these [[presentable (∞,1)-category|presentations]]. 
-
+By def. \ref{AxiomaticDefinition} $Cat_{(\infty,n)}$ is [[equivalence of (∞,1)-categories|equivalent]] to a [[localization of an (∞,1)-category|localization]] of the [[(∞,1)-category of (∞,1)-presheaves]] on $Str n Cat_{gen}$. In fact, various subcategories of $Str n Cat_{gen}$ are already sufficient, notable the [[Theta-category]] $\Theta_n \hookrightarrow Str n Cat$ (discussed below in \ref{PresentationByThetaSpaces}). Here we discuss these [[presentable (∞,1)-category|presentations]]. 
 
 
 +-- {: .num_defn #UniversalLocalizingClass}
 ###### Definition
 
 Let $S_{0} \subset Mor(PSh_\infty(Str n Cat_{gen}))$
-be the  class of morphism generated under fiber product $X \times_{G_k} (-)$ with objects $X \in Str n Cat_{gen}$ over globes by the following finite sets of morphisms
+be the  class of morphism generated under fiber product $X \times_{G_k} (-)$ with objects $X \in Str n Cat_{gen}$ over globes by 
 
-1. (...)
+1. the morphisms that witness the [fundamental pushout relations](#FundamentalPushouts)
 
-1. (...)
+1. the initial morphism $\emptyset \to i(\emptyset)$ into presheaf represented by the empty category (which coincides with the initial presheaf on all objects except on the empty category, where it is the singleton).
 
-1. (...)
-
-1. (...)
 
 Write $S$ for the strongly saturated class of morphisms (see [[reflective sub-(∞,1)-category]]) generated by $S_0$.
 
@@ -424,6 +503,40 @@ $$
 ###### Proof
 
 The three axioms of def. \ref{AxiomaticDefinition} are satisfied effectively by construction  of $S$ (...). Conversely, every localization satisfying the second and third axiom must invert the morphisms in $S$, hence must be a sub-localization.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+This construction shows that the [fundamental pushout relations](#FundamentalPushouts) encode the _composition_ of [[k-morphisms]] in an $(\infty,n)$-category.
+
+Let $X \in PSh_\infty(Str n Cat)$ be some object.
+
+Firts, by the [[(∞,1)-Yoneda lemma]] the value of this [[(∞,1)-presheaf]] on a strict $n$-category $C$ is the $\infty$-groupoid of $(\infty,n)$-functors $C \to X$, [[natural equivalences]] between them, and so on.
+
+
+And if $X$ is an $S$-[[local object]] then it has in particular the property that all the morphisms
+
+$$
+  Cat_{(\infty,n)}(
+    i(G_k) \coprod_{i(G_j)} i(G_k)
+    \to 
+    i(G_jk \coprod_{ G_j } G_k)
+    , 
+    X
+  )
+$$
+
+are equivalences of $\infty$-groupoids. So by the [[(∞,1)-Yoneda lemma]] this is equivalent to
+
+$$
+  X(G_k) \times_{X(G_i)} X(G_k)
+  \to
+  Cat_{(\infty,n)}(i(G_jk \coprod_{ G_j } G_k), X)
+$$
+
+being an equivalence. On the left this is the collection of all those pairs of $k$-globes in $X$ that touch at an $i$-boundary. On the right this is the collection of all [[k-morphisms]] in $X$ equipped with a choice of decomposing them into two $k$-morphisms touching at an $i$-boundary. So the statement that this morphism is an equivalence says that _composition_ of $k$-morphisms along $i$-boundaries exists in $X$.
 
 =--
 
@@ -465,6 +578,8 @@ is an [[equivalence of (∞,1)-categories]]:
 
 ([B-SP, theorem 9.2](#BarwickSchommerPries)) 
 
+#### Presentation by theta-spaces
+ {#PresentationByThetaSpaces}
 
 A closely related presentation is given by [[Theta spaces]].
 
@@ -605,6 +720,52 @@ $$
 
 ## Properties
 
+### Generators
+ {#Generators}
+
++-- {: .num_prop }
+###### Proposition
+
+The [[(∞,1)-category]] $Cat_{(\infty,n)}$ is generated under [[(∞,1)-colimits]] from the $k$-[[globes]] $G_k$ for $k \leq n$: every object is the [[(∞,1)-colimit]] over a diagram of globes.
+
+=--
+
+([B-SP, cor. 8.4](#BarwickSchommerPries))
+
++-- {: .num_prop }
+###### Proposition
+
+[[equivalence in an (∞,1)-category|Equivalences]] in the [[(∞,1)-category]] $Cat_{(\infty,n)}$ are detected on [[globes]]: a morphism $f : X \to Y$ in $Cat_{(\infty,n)}$ is an equivalence precisely if for all globes $G_{k \leq n}$ the induced morphism on [[derived hom-space|(∞,1)-categorical hom-spaces]]
+
+$$
+  Cat_{(\infty,n)}(G_k, f) : Cat_{(\infty,n)}(Y, f) \to Cat_{(\infty,n)}(X, f)
+$$
+
+is an equivalence of [[∞-groupoids]].
+
+=--
+
+([B-SP, cor. 8.5](#BarwickSchommerPries))
+
+### Truncated objects
+
++-- {: .num_prop }
+###### Proposition
+
+The [[truncated object in an (∞,1)-category|truncated objects]] in the [[(∞,1)-category]] $Cat_{(\infty,n)}$ are precisely the [gaunt](#GauntStrictNCategories) [[strict n-categories]]
+
+=--
+
+([B-SP, cor. 8.6](#BarwickSchommerPries))
+
++-- {: .num_remark }
+###### Remark
+
+That 0-truncated objects in the $Cat_{(\infty,n)}$ regarded as an $(\infty,1)$-category are gaunt is effectively the definition of 0-truncation in the absence of non-invertibles [[transfors]]. That these gaunt $(\infty,n)$-categories are then necessarily _[[strict n-category|strict]]_ reflects the fact that all the weakening, namely all the [[associators]] and [[unitors]] as well as all there [[coherence|coherences]] need to be invertible [[k-morphisms]], and hence must be trivial if there are no non-trivial such.
+
+=--
+
+
 ### Moduli 
 
 +-- {: .num_prop #AutomorphismInfinityGroup}
@@ -628,6 +789,15 @@ The nontrivial element $\sigma \in \mathbb{Z}_2$ in the $k$th slot acts by passi
 
 ([B-SP, theorem 8.13](#BarwickSchommerPries))
 
++-- {: .proof}
+###### Proof
+
+The idea is this:
+One first observes that $Str n Cat_{gaunt}$ from def. \ref{GauntStrictNCategories} has $(\mathbb{Z}_2)^{\times n}$ worth of automorphisms, given by 
+reversing the directions of the [[k-morphisms]]. Then one uses that, by the [above discussion](#Generators) these generate all of $Cat_{(\infty,n)}$ under [[(∞,1)-colimits]].
+
+=--
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -635,7 +805,7 @@ This means that
 
 1. the $(\infty,1)$-category $Cat_{(\infty,n)}$ from def. \ref{AxiomaticDefinition} is uniquely defined, up to [[equivalence of (∞,1)-categories]];
 
-1. the [[automorphism ∞-group]] of $Cat_{(\infty,n)}$ in $\hat Cat_{(\infty,1)}$ is $(\mathbb{Z}_2)^n$, hence the only auto-equivalences are given by reversal of [[k-morphisms]].
+1. the [[automorphism ∞-group]] of $Cat_{(\infty,n)}$ in $\hat Cat_{(\infty,1)}$ is $(\mathbb{Z}_2)^n$, hence the only auto-equivalences are given by forming the $n$ analogs of forming an [[opposite (∞,1)-category]].
 
 =--
 
@@ -729,8 +899,11 @@ Comparison of models is in
 [[!redirects (infinity,k)-category]]
 [[!redirects (infinity,r)-categories]]
 [[!redirects (infinity,k)-categories]]
+
 [[!redirects (∞,n)-category]]
 [[!redirects (∞,n)-categories]]
+[[!redirects (infinity,n)-categories]]
+
 [[!redirects (∞,r)-category]]
 [[!redirects (∞,r)-categories]]
 [[!redirects (∞,k)-category]]
