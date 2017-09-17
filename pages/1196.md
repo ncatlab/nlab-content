@@ -15,7 +15,7 @@
 
 ## Idea
 
-__Intuitionistic logic__ was introduced by [[Arend Heyting]] as a [[logic]] for [[Jan Brouwer]]\'s [[intuitionistic mathematics]].  It applies more generally to [[constructive mathematics]] and so may also be called __constructive logic__.
+__Intuitionistic logic__ was introduced by [[Arend Heyting]] as a [[logic]] for [[Brouwer]]\'s [[intuitionistic mathematics]].  It applies more generally to [[constructive mathematics]] and so may also be called __constructive logic__.
 
 
 ## Definition
