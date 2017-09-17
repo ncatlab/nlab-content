@@ -48,7 +48,7 @@ $$
 
 where in the last [[sequent]] on the right we have the [[identity type]]. ([Voevodsky](#Voevodsky), [HoTTLibrary](#HoTTLibrary))
 
-This says that $supp(A)$ is the type which is [[universal property|univeral]] with the property that the [[terms]] of $A$ map to it and that any two term of $A$ become [[equivalence in homotopy type theory|equivalent]] in $supp(A)$.
+This says that $supp(A)$ is the type which is [[universal property|universal]] with the property that the [[terms]] of $A$ map to it and that any two term of $A$ become [[equivalence in homotopy type theory|equivalent]] in $supp(A)$.
 
 In [[Agda]] [[syntax]] this is
 
