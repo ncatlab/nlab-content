@@ -122,7 +122,7 @@ $$
 
 To see that the functor is faithful, notice that if $f,g : X \to Y$ are two [[smooth function]]s that differ at some point, then they must differ in some [[open neighbourhood]] of that point. This [[open ball]] is a plot, hence the corresponding diffeological spaces differ on that plot.
 
-To see that the functor is full, we need to show that a map of sets $f : X \to Y$ that sends plots to plots is necessarily a [[smooth function]], hence that all its [[derivative]]s exist. This can be tested already on all smooth curves $\gamma : (0,1) \to X$ in $X$. A function that takes all smooth curves to smooth curves in necessarily a smooth function. But curves are in particular plots, so a function that take all plots of $X$ to plots of $Y$ must be smooth.
+To see that the functor is full, we need to show that a map of sets $f : X \to Y$ that sends plots to plots is necessarily a [[smooth function]], hence that all its [[derivative]]s exist. This can be tested already on all smooth curves $\gamma : (0,1) \to X$ in $X$. By [[Boman's theorem]], a function that takes all smooth curves to smooth curves is necessarily a smooth function. But curves are in particular plots, so a function that take all plots of $X$ to plots of $Y$ must be smooth.
 
 =--
 
@@ -136,7 +136,7 @@ $$
   \,.
 $$
 
-This fact plays a role in the definition of [[Frölicher space]]s, which are [[generalized smootth space]]s defined by plots by curves into and out of them.
+This fact plays a role in the definition of [[Frölicher space]]s, which are [[generalized smooth space]]s defined by plots by curves into and out of them.
 
 While the site $CartSp_{dim \leq 1}$ is more convenient for some purposes, it is not so useful for other purposes, mostly when diffeological spaces are regarded from the point of view of the full sheaf topos: the sheaf topos $Sh(CartSp_{dim \leq 1})$ lacks some non-[[concrete sheaf|concrete]] sheaves of interest, such as the sheaves of differential forms of degree $\geq 2$.
 
