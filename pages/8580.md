@@ -591,6 +591,7 @@ In this [Sem Layer](#LayerSem) we discuss the [[concrete general]] aspects of _a
 
 1. a _[[site]]_.
 
+
 #### The algebraic theory of smooth algebras
  {#TheAlgebraicTheoryOfSmoothAlgebras}
 
@@ -606,12 +607,12 @@ In this [Sem Layer](#LayerSem) we discuss the [[concrete general]] aspects of _a
 
 =--
 
-Hence [[CartSp]] is (the [[syntactic category]]) of an [[algebraic theory]] ([[Lawvere theory]]). 
+Hence [[CartSp]] is (the [[syntactic category]]) of an [[algebraic theory]] (a [[Lawvere theory]]). 
+
+This is called the [[theory]] of _[[smooth algebras]]_.
 
 +-- {: .num_defn}
 ###### Definition
-
-This is called the [[theory]] of _[[smooth algebras]]_.
 
 A [[product]]-preserving [[functor]] 
 
@@ -619,22 +620,111 @@ $$
   A : CartSp \to Set
 $$
 
-is a _[[smooth algebra]]_.
+is a _[[smooth algebra]]_. A [[homomorphism]] of smooth algebras is a [[natural transformation]] between the corresponding functors.
 
 =--
 
-+-- {: .num_example}
+The basic example is:
+
++-- {: .num_example #TheSmoothgAlgebraOfFunctionsOnACartesianSpace}
 ###### Example
 
-* The [[smooth algebra]] $C^\infty(\mathbb{R}^n)$ of [[smooth functions]] on the [[Cartesian space]] $\mathbb{R}^n$ is the [[representable functor|functor corepresented]] by $\mathbb{R}^n$.
+For $n \in \mathb{N}$, the [[smooth algebra]] $C^\infty(\mathbb{R}^n)$ 
+is the functor $CartSp \to Set$ which is [[representable functor|functor corepresented]] by $\mathbb{R}^n \in $ [[CartSp]]. This means that to $\mathbb{R}^k \in CartSp$ it assigns the set
 
-* The [[ring of dual numbers|algebra of dual numbers]] $C^\infty(\mathbf{D})$ is the smooth algebra which assigns...
+$$
+  Hom_{CartSp}(\mathbb{R}^n , \mathbb{R}^k)
+  = 
+  C^\infty(\mathbb{R}^n, \mathbb{R}^k)
+$$
 
-* (...)
+of [[smooth functions]] from $\mathbb{R}^n$ to $\mathbb{R}^k$, and to a [[smooth function]] $f \colon \mathbb{R}^{k_1} \to \mathbb{R}^{k_2}$ it assigns the function
+
+$$
+  f\circ (-)
+  \colon
+  C^\infty(\mathbb{R}^n, \mathbb{R}^{k_1})
+  \to
+  C^\infty(\mathbb{R}^n, \mathbb{R}^{k_2})
+$$
+
+given by postcomposition with $f$.
 
 =--
 
-(...)
++-- {: .num_remark}
+###### Remark
+
+Example \ref{TheSmoothgAlgebraOfFunctionsOnACartesianSpace} shows how we are to think of a functor $A \colon CartSp \to Set$ as encoding an algebra: such a functor assigns to $\mathbb{R}^n$ a set to be interpreted as a set of "smooth functions on something with values in $\mathbb{R}^n$", only that the "something" here is not pre-defined, but is instead indirectly characterized by this assignment.
+
+Due to this we will often denote smooth algebras as "$C^\infty(X)$", even if "$X$" is not a pre-defined object, and write their value on $\mathbb{R}^n$ as $C^\infty(X,\mathbb{R}^n)$. 
+
+=--
+
+This is illustrated by the next example.
+
++-- {: .num_example #DualNumbers}
+###### Example
+
+The **[[ring of dual numbers|smooth algebra of dual numbers]]** $C^\infty(\mathbf{D})$ is the smooth algebra which assigns to $\mathbb{R}^n$ the [[Cartesian product]]
+
+$$
+  C^\infty(D,\mathbb{R}^n)
+  \coloneqq
+  \mathbb{R}^n \times \mathbb{R}^n
+$$
+
+of two copies of $\mathbb{R}^n$, which we will write as
+
+$$
+  \left\{
+    (\epsilon \mapsto (\vec x + \epsilon \vec c))
+    |
+    \vec x , \vec v \in \mathbb{R}^n
+  \right\}
+  \,.
+$$
+
+Moreover, a [[smooth function]] $f \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ is sent to the function
+
+$$
+  C^\infty(D, f)
+  \colon
+  C^\infty(D, \mathbb{R}^{n_1})
+  \to 
+  C^\infty(D, \mathbb{R}^{n_2})
+$$
+
+given by
+
+$$
+  \left(\epsilon \mapsto \left(\vec x + \epsilon \vec v\right)\right)
+  \mapsto 
+  \left(
+    \epsilon
+    \mapsto 
+    \left(
+       f\left(\vec x\right) 
+        +  
+       \sum_{i = 1}^{j = 1}^{n_2}
+       \left(\sum_{i = 1}^{n_1}\frac{\partial f^j}{\partial x^i} v^i\right)
+       \vec e_i  
+    \right)
+    \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+As the notation suggests, we may think of $C^\infty(D)$ as the functions on a first order [[infinitesimal object|infinitesimal neighbourhood]] of the origin in $\mathbb{R}^n$. 
+
+=--
+
+
+
 
 #### The coverage of differentially good open covers
  {#CoverageOfDifferentiallyGoodOpenCovers}
@@ -3346,6 +3436,17 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 * [[critical locus]]
 
+#### de Rham space
+
+* [[de Rham space]]
+
+#### Submersions and immersions
+
+* [[submersion]], [[immersion]]
+
+#### Jet bundle
+
+* [[jet bundle]]
 
 #### Variational calculus
 
@@ -3357,17 +3458,103 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 * [[synthetic differential geometry]]
 
++-- {: .num_defn #SmoothL}
+###### Definition
+
+Write
+
+$$
+  SmoothLoci \coloneqq SmoothAlgebras^{op} \coloneqq Func^\times(CartSp,Set)
+$$
+
+for the category of [[spaces]] which are [[Isbell duality|formally dual]] to [[smooth algebras]]: the [[opposite category]] of that of [[smooth algebras]]. This is called the category of **[[smooth loci]]**.
+
+=--
+
++-- {: .num_defn #InfinitesimalAlgebra}
+###### Definition
+
+An **[[Artin ring|smooth Artin algebra]]** (also called a "Weil algebra" in the [[synthetic differential geoemtry]]-literature) is a [[smooth algebra]] $A$ whose underlying $\mathbb{R}$-[[vector space]] is a [[direct sum]] of the form
+
+$$
+  A = \mathbb{R} \oplus V
+  \,,
+$$
+
+where $V$ is of finite [[dimension]] and such that every element $v \in V \subset A$ is nilpotent, in that there is $n \in \mathbb{N}$ such that the $n$-fold product of $v$ with itself in $A$ vanishes: $v^n = 0$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The smallest smooth Artin algebra is the [[ring of dual numbers]], 
+def. \ref{DualNumbers}, for which $V = \mathb{R}$. 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Write 
+
+$$
+  InfPoint \hookrightarrow SmoothLoci
+$$
+
+for the [[full subcategory]] of $SmoothLoci$, def. \ref{SmoothL}, of those that are duals of Artin algebras, def. \ref{InfinitesimalAlgebra}.
+
+We call this the category of **[[infinitesimally thickened points]]**.
+
+=--
+
+We have two [[full and faithful functors]]
+
+$$
+  CartSp \hookrightarrow SmoothLoci
+$$
+
+$$
+ InfPoint \hookrightarrow SmoothLoci
+ \,.
+$$
+
++-- {: .num_defn }
+###### Definition
+
+Write [[CartSp]]${}_{th} \hookrightarrow SmoothLocus$ for the [[full subcategory]] of that of [[smooth loci]], def. \ref{SmoothL}, on those of the form 
+
+$$
+  \mathbf{U} = U \times D
+$$ 
+
+with $U \in CartSp \hookrightarrow SmoothLoci$ and $D \in InfPoint \hookrightarrow SmoothLoci$.
+
+We may call this the category of **infinitesimally thickened Cartesian spaces** or or **[[formal smooth manifold|formal smooth Cartesian spaces]]**.
+
+=--
+
+The category $CartSp_{th}$ carries severa [[coverages]] of interest. One is this:
+
++-- {: .num_defn }
+###### Definition
+
+For $\mathbf{U} = U \times D \in CartSp_{th}$ say that a [[covering family]] is a set of morphisms in $CartSp_{th}$ of the form $\{ U_i \times D \stackrel{(\phi_i, id_D)}{\to} U \times D\}_i$ such that 
+$\{ U_i \stackrel{\phi_i}{\to} U\}_i$ is a [[covering]] family in [[CartSp]]. 
+
+The corresponding [[sheaf topos]] $Sh(CartSp_{th})$ is known as the **[[Cahiers topos]]**.
+
+=--
+
+
+
 #### Synthetic differential cohesion
 
 * [[synthetic differential infinity-groupoid]]
 
-Write
+#### Infinitesimal cohesive neighbourhood
 
-1. $CartSp$ for the [[site]] of [[Cartesian spaces]] and [[smooth functions]] between them;
 
-1. $InfPoint$ for the [[site]] of [[infinitesimally thickened points]];
-
-1. $CartSp_{th} \hookrightarrow SmoothLocus$ for the [[full subcategory]] of that of [[smooth loci]] on those of the form $\mathbf{U} = U \times D$ with $U \in CartSp$ and $D \in InfPoint$.
 
 $$
   CartSp
@@ -3424,6 +3611,12 @@ $$
 form a [[homotopy fiber sequence]] in [[(∞,1)Cat]]. Computing this is the [[model structure for quasi-categories]] after passing to [[nerves]], the morphism $N(Lan_p)$ is clearly an [[inner Kan fibration]] because of the [[subcategory]] inclusion $Sh(CartSp) \hookrightarrow Sh(CartSp_{th})$, and so by the general discussion at [[homotopy pullback]] the homotopy fiber is given by the 1-categorical fiber of $N(Lan_p)$ in [[sSet]]. By the discussion at _[Left Kan extension - on representables](http://ncatlab.org/nlab/show/Kan+extension#LeftKanOnRepresentables)_ $Lan_p$ acts as $p$ on [[representable functor|representables]]. The 1-categorical fiber of $N(p) \colon N(CartSp_{th}) \to N(CartSp)$ is evidently $N(InfPoint)$.
 
 =--
+
+#### de Rham space
+
+* 
+
+#### jet bundle
 
 
 #### Differential equations
