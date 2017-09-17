@@ -16,7 +16,26 @@
 
 ## Idea
 
-The notion of _hopfish algebra_ is a generalization of that of [[Hopf algebra]] designed to behave better with respect to [[Morita equivalence]] of algebras.
+The notion of _hopfish algebra_ is a generalization of that of [[Hopf algebra]] designed to behave better with respect to [[Morita equivalence]] of algebras. It is defined to be a [[sesquialgebra]] which is grouplike in a suitable sense.
+
+## Definition
+
+Let $R$ be some [[commutative ring]] (or [[E-infinity ring]]).
+
++-- {: .num_defn}
+###### Definition
+
+A [[sesquiunital sesquialgebra]] over $R$ is an [[associative algebra]] $A$ over $R$ equipped with the structure of an [[algebra object]] internal to the [[2-category]] [[2Mod]] of [[associative algebras]], [[bimodules]] and [[bimodule intertwiners]].
+
+This means that it is an $R$-algebra $A$ equipped with 
+
+* a product $A \otimes_R A$-$A$-[[bimodule]] $\Delta$;
+
+* a unit $R$-$A$-[[bimodule]] $\epsilon$
+
+satisfying the evident [[associative law]] and [[unit law]].
+
+=--
 
 ## References
 
