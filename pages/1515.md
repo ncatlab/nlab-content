@@ -6,11 +6,13 @@ Corecursion exploits the existence of a morphism from a [[coalgebra for an endof
 $$
 add(n, m) =
 \begin{cases}
-(n - 1, m) & if\; n \gt 0; \\
-(0, m - 1) & if\; n = 0,\; m \gt 0; \\
-* & if\; m = n = 0.
+(pred(n), m) & if\; n \gt 0; \\
+(0, pred(m)) & if\; n = 0,\; m \gt 0; \\
+* & if\; m = n = 0,
 \end{cases}
 $$
+
+where $pred(x)$ is as defined at [[extended natural number]].
 
 This makes $\bar{\mathbb{N}} \times \bar{\mathbb{N}}$ into an $H$-coalgebra. The unique arrow to the terminal coalgebra defines addition on the natural numbers extended with $\infty$.
 
