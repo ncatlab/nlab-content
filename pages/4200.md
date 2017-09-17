@@ -6,6 +6,7 @@
 ## Idea ##
 In the [[Haag-Kastler approach]] to [[quantum field theory]] one deals with [[local nets]] indexed by bounded open regions of [[Minkowski spacetime]]. An important axiom of this approach is that of causality, which says that observables localized in spacelike separated regions of spacetime commute.
 A causal index set is an abstraction of the index set of bounded open regions that retains the relation induced by the concept of spacelike separation. It can be used to generalize the axiom of causality to nets with different or more general index sets as the one mentioned above. 
+Causal index sets are needed to define the notion of a [[causal net of algebras]].
 
 ## Definition ##
 
