@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _weak equivalence_ is a [[morphism]] in a [[category]] $C$ which is supposed to be a true [[equivalence]] in a [[higher category theory|higher categorical]] refinement of $C$.
 
@@ -14,9 +19,26 @@ The bare minimum of axioms to be satisfied by a weak equivalence are encoded in 
 
 Often, categories having weak equivalences also have extra structure that makes them easier to work with.  A very powerful, and commonly occurring, level of such structure is called a [[model category|model structure]].  There are also various weaker levels of structure, such as a [[category of fibrant objects]].
 
-# Examples
+## Examples
 
 *  A weak equivalence between categories themselves is a functor that is [[full and faithful functor|fully faithful]] and [[essentially surjective functor|essentially surjective]]; this is the proper notion to use even in the absence of the [[axiom of choice]]; see [[equivalence of categories]] for more.
 *  A weak [[homotopy equivalence]] between topological spaces is a continuous function that induces (for all choices of basepoint) an isomorphism of all [[homotopy groups]].
+
+## Related concepts
+
+* [[equality]]
+
+* [[isomorphism]]
+
+* [[equivalence]]
+
+* **weak equivalence**
+
+* [[homotopy equivalence]], [[weak homotopy equivalence]]
+
+* [[equivalence in an (∞,1)-category]]
+
+* [[equivalence of (∞,1)-categories]]
+
 
 [[!redirects weak equivalences]]
