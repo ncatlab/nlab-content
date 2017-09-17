@@ -61,7 +61,7 @@ A _duality_ or _[[dual equivalence]]_ is an [[equivalence of categories|equivale
 
 ## Remarks
 
-* Often two categories are not related by a dual equivalence, but just by a [[dual adjunction]]: an [[adjoint functor|adjunction]] between $C^{op}$ and $C$. But every dual adjunction induces a _maximal dual equivalence_ between subcategories of $C$ and $D$, as described below.
+* Often two categories are not related by a dual equivalence, but just by a [[dual adjunction]]: an [[adjoint functor|adjunction]] between $C^{op}$ and $D$. But every dual adjunction induces a _maximal dual equivalence_ between subcategories of $C$ and $D$, as described below.
 
 
 ## Dualizing objects
