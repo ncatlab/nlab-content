@@ -1,10 +1,11 @@
+[[!redirects barrelled topological vector space]]
 #Contents#
 * the following line creates the automatic table of contents
 {:toc}
 
 
 ## Idea ##
-Barreled spaces are [[topological vector spaces]] for whicht the theorem of [[Banach-Steinhaus]] is valid. This theorem says, roughly, that for a set of continuous linear maps $L(E, F)$ from a barreled space $E$ to a [[locally convex]] [[TVS]] boundedness in the topology of pointwise convergence implies boundedness in the topology of bounded convergence.
+Barreled spaces are [[topological vector spaces]] for which the theorem of [[Banach-Steinhaus]] is valid. This theorem says, roughly, that for a set of continuous linear maps $L(E, F)$ from a barreled space $E$ to a [[locally convex]] [[TVS]] boundedness in the topology of pointwise convergence implies boundedness in the topology of bounded convergence.
 
 ## Abstract ##
 ...
@@ -45,18 +46,18 @@ The definition of quasibarreled is from
  
 
 [[!redirects barreled]]
-[[!redirects Barrelled topological vector space]]
-[[!redirects Barrelled space]]
-[[!redirects barrelled space]]
-[[!redirects Barrelled topological vector spaces]]
-[[!redirects Barrelled spaces]]
-[[!redirects barrelled spaces]]
+[[!redirects Barreled topological vector space]]
+[[!redirects Barreled space]]
+[[!redirects barreled space]]
+[[!redirects Barreled topological vector spaces]]
+[[!redirects Barreled spaces]]
+[[!redirects barreled spaces]]
 
 
-[[!redirects quasibarrelled topological vector space]]
-[[!redirects Quasibarrelled topological vector space]]
-[[!redirects Quasibarrelled space]]
-[[!redirects quasibarrelled space]]
-[[!redirects Quasibarrelled topological vector spaces]]
-[[!redirects Quasibarrelled spaces]]
-[[!redirects quasibarrelled spaces]]
+[[!redirects quasibarreled topological vector space]]
+[[!redirects Quasibarreled topological vector space]]
+[[!redirects Quasibarreled space]]
+[[!redirects quasibarreled space]]
+[[!redirects Quasibarreled topological vector spaces]]
+[[!redirects Quasibarreled spaces]]
+[[!redirects quasibarreled spaces]]
