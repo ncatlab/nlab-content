@@ -318,7 +318,7 @@ The configuration spaces of [[gravity]] and [[supergravity]] may be identified w
 
 * The [[special orthogonal group]] $S O$-component of the connection in this case is called the [[spin connection]];
 
-* the translation group-component of $\nable$ is called the [[vielbein]].
+* the translation group-component of $\nabla$ is called the [[vielbein]].
 
 For the ordinary Poincare group this yields the [[Palatini action]] expression for the standard [[Einstein-Hilbert action]] of [[general relativity]].
 
