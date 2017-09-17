@@ -366,7 +366,8 @@ Here the [[WZW model|WZW]] [[B-field]] is the topological part of a 2-dimensiona
 ### $\infty$-Chern-Simons theory as the general example
  {#InfinityCSAsGeneralExample}
 
-(...)
+So far we have considered general motivation for [[extended prequantum field theory]], and indication how its application to the comparatively simple model of [[3d Chern-Simons theory]] accurately reflects the known higher geometry of the [[theory (physics)|theory]]. Now we consider further examples whose higher geometry has not necessarily been understood before.
+
 
 | [[schreiber:∞-Chern-Simons theory]] | $\leftarrow$[[holographic principle]] $\rightarrow$| [[schreiber:∞-Wess-Zumino-Witten theory ]] | [[Kaluza-Klein reduction]] $\to$ |   |
 |--|--|--|--|--|
@@ -375,7 +376,48 @@ Here the [[WZW model|WZW]] [[B-field]] is the topological part of a 2-dimensiona
 | [[string field theory]] | |  |  | [[Einstein-Yang-Mills theory]] |
 
 
+The assignment of a higher Wess-Zumino-Witten-type [[prequantum n-bundle|prequantum (n-1)-bundle]] to an extended prequantum Lagrangian works very generally.
+
+[[7d Chern-Simons theory]]]
+
+[[second fractional Pontryagin class]]
+
+$$
+  \tfrac{1}{6}\mathbf{p}_2
+  \;\colon\;
+  \mathbf{B}String 
+   \stackrel{}{\to}
+  \mathbf{B}^7 U(1)
+$$
+
+
+$$
+  \array{
+    \mathbf{B}String
+    && &\stackrel{\Omega \tfrac{1}{6}\mathbf{p_2}}{\to}& &&
+    \mathbf{B}^6 U(1)
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+    \\
+    String //_{Ad} String
+    &
+    \stackrel{\simeq}{\to}
+    &
+    [\mathbf{\Pi}(S^1), \mathbf{B}String]
+    &
+    \stackrel{[\mathbf{\Pi}(S^1), \tfrac{1}{2}\mathbf{p}_2]}{\to}
+    &
+    [\mathbf{\Pi}(S^1), \mathbf{B}^7 U(1)]
+    &\simeq&
+    \mathbf{B}^6 U(1) // \mathbf{B}^6 U(1)
+  }
+$$
+
+WZW 6-bundle for 7-d CS theory
+
 (...)
+
+
 
 ## Definition
 
