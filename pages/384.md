@@ -72,6 +72,8 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 
 * [[John Milnor]], _On spaces having the homotopy type of a CW-complex_, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280.
 
+* We had an inconclusive discussion [here](http://nforum.mathforge.org/discussion/4135/simplicial-homology/?Focus=33785#Comment_33785) about what parts of the definition a CW complex should be [[stuff, structure, property|properties]] and what parts should be structure.
+
 
 [[!redirects CW complex]]
 [[!redirects CW-complex]]
