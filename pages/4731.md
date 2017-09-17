@@ -32,7 +32,7 @@
 
 The notion of _connection on a 2-bundle_ generalizes the notion of [[connection on a bundle]] from [[principal bundle]]s to [[principal 2-bundle]]s.
 
-It comeswith a notion of [[higher parallel transport|2-dimensional parallel transport]].
+It comes with a notion of [[higher parallel transport|2-dimensional parallel transport]].
 
 ## Definition
 
