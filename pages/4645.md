@@ -3768,7 +3768,7 @@ Moreover, these constructions naturally yield the full cocycle
 $\infty$-groupoids, not just their cohomology sets. This 
 allows to form the [[homotopy fiber]]s of the $\infty$-Chern-Weil
 homomorphism and thus define [[differential string structure]]s
-etc. a \emph{twisted} differential string structures
+etc., and _[[twisted cohomology|twisted]]_ differential string structures etc.
 (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSIII">SSSIII</a>).
 
 ## Summary
