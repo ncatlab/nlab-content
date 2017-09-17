@@ -25,7 +25,7 @@ $\,$
 =--
 
 
-[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated [link building](http://www.diamondlinks.net/) with tools and notions of [[category theory]] or [[higher category theory]].  
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work [loan modification](http://www.mycaal.com/)on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated [link building](http://www.diamondlinks.net/) with tools and notions of [[category theory]] or [[higher category theory]].  
 
 
 # The $n$Lab
@@ -89,7 +89,7 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
 ## Steering Committee 
  {#SteeringCommitte}
 
-The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
+The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
 
 
 category: meta
