@@ -1,4 +1,19 @@
-[[!redirects derived complex analytic spaces]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -8,8 +23,14 @@
 
 The refinement of the notion of [[complex analytic space]] from [[geometry]] to [[higher geometry]]/[[higher algebra]].
 
+## Related concepts
+
+* [[higher complex analytic geometry]]
+
 ## References
 
 * [[Jacob Lurie]], sections 11 and 12 of _[[Closed Immersions]]_
+
+[[!redirects derived complex analytic spaces]]
 
 [[!redirects derived complex analytic spaces]]
