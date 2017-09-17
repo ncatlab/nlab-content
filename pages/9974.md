@@ -262,7 +262,7 @@ and based on the discussion of [[twisted K-theory]] in
 
 as refined in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_ ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)) 
+* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_,  Journal of Topology (2011) 4 (4): 737-798 ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)) 
  {#FreedHopkinsTeleman}
 
 and developing constructions in 
