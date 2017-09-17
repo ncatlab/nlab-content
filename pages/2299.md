@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -69,6 +70,8 @@ A notable exception to this is possibly the program by [[Maxim Kontsevich]] and 
   * [[étale (∞,1)-site]], [[dg-geometry]], [[Hochschild cohomology]] of [[dg-algebra]]s
 
   * [[schematic homotopy type]]
+
+* [[higher complex analytic geometry]]
 
 * [[derived noncommutative geometry]]
 
