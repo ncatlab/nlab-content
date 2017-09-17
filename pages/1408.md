@@ -144,8 +144,9 @@ But since we are taking care of the sheaf condition on $S$, we also want to allo
 
     with $X \to Z$ and $Y \to Z$ admissible, also $X \to Y$ is admissible ([[category with weak equivalences|2-out-of-3 property]]).
 
-* a [[Grothendieck topology]] on $V$; such that all covering sieves are generated from admissible morphisms.
+* a choice of [[coverage]] on $V$ by admissible covering morphisms.
 
+  This choice of coverage, and not just the [[Grothendieck topology]] on $V$ that it generates, is part of the datum of the admissibility structure.
 
 
 =--
