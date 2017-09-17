@@ -29,6 +29,41 @@ The set of natural numbers is often written $N$, $\mathbf{N}$, $\mathbb{N}$, $\o
 $\mathbf{N}$ has the structure of a [[natural numbers object]] in [[Set]]; indeed, it is the original example.  This consists of an initial element $0$ (or $1$ if $0$ is not used) and a successor operation $n \mapsto n + 1$ (or simply $n \mapsto n+$).  Given any other set $X$ with an element $a: X$ and a [[function]] $s: X \to X$, we define by __primitive recursion at $X$__ a unique function $f: \mathbf{N} \to X$ such that $f_0 = a$ and $f_{n+} = s(f_n)$.  (Fancier forms of [[recursion]] are also possible.)  The basic idea is that we define the values of $f$ one by one, starting with $f_0 = a$, then $f_1 = s(a)$, $f_2 = s(s(a))$, and so on.  These are all both possible and necessary individually, but something must be put in the [[foundations]] to ensure that this can go on uniquely forever.
 
 
+## Minima of subsets of natural numbers
+
+In [[classical mathematics]], any [[inhabited set|inhabited]] subset of the natural numbers possesses a minimal element. In [[constructive mathematics]], one cannot show this:
+
++-- {: .num_prop}
+###### Proposition (a Brouwerian counterexample)
+If any inhabited subset of the natural numbers possesses a minimal element, the [[excluded middle|law of excluded middle]] holds.
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\varphi$ be an arbitrary formula. Then the subset
+$$ U := \{ n \in \mathbb{N} \,|\, n = 1 \vee \varphi \} \subseteq \mathbb{N} $$
+is inhabited. By assumption, it possesses a minimal element $n_0$. By discreteness of the natural numbers, $n_0 = 0$ or $n_0 \gt 0$. In the first case, $\varphi$ holds. In the second case, $\neg\varphi$ holds.
+=--
+
+In this sense, the natural numbers are not complete, and it's fruitful to study their completion: For instance, the global sections of the completed natural numbers object in the [[category of sheaves|sheaf topos]] on a topological space $X$ are in one-to-one correspondence with upper semicontinuous functions $X \to \mathbb{N}$ (details at _[[one-sided real number]]_).
+
+We can salvage the minimum principle in two ways:
+
++-- {: .num_prop}
+###### Proposition
+
+Any **[[decidable subset|detachable]]** inhabited subset of the natural numbers possesses a minimal element.
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Any inhabited subset of the natural numbers does **not not** possess a minimal element.
+=--
+
+For instance, any finitely generated vector space over a [[field|residue field]] does _not not_ possess a finite basis (pick a minimal generating set, guaranteed to _not not_ exist). Interpreting this in the [[internal language]] of the sheaf topos of a [[reduced scheme]] $X$, one obtains the well-known fact that any $\mathcal{O}_X$-module locally of finite type over $X$ is locally free on a dense open subset.
+
 ## Related concepts
 
 * [[natural number]], [[integer]], [[rational number]], [[algebraic number]], [[Gaussian number]], [[irrational number]], [[real number]], [[p-adic number]]
