@@ -22,12 +22,6 @@ A **Hurewicz fibration** $p:E\to B$ is a [[continuous map]] of [[topological spa
 
 Strictly speaking, the "all" in this context should be interpreted to refer to all spaces in whatever ambient category of spaces one is working in, since frequently this is a [[convenient category of spaces]].  In theory, therefore, a map in such a category could be a Hurewicz fibration in that category without necessarily being a Hurewicz fibration in the category of *all* topological spaces, but in practice this usually doesn't make a whole lot of difference.
 
-+-- {: .query}
-__Harry__: At least according to May's _Concise Introduction to Algebraic Topology_, the lifting property for Hurewicz fibrations is with respect to inclusions (at 0) of CG(WH)-spaces rather than just _all_ spaces.  Is the book wrong, is the nLab page wrong, is it a different choice of convention, or is it some case where the definitions are somehow equivalent?  If what I said is at all unclear, I mean to say that May's book has the exact same definition as above, but the class of spaces for which it must hold is only CGWH spaces rather than all topological spaces.
-
-[[Mike Shulman|Mike]]: I added a clarificatory paragraph.
-=--
-
 This right lifting property is in this context called the [[homotopy lifting property]], because the maps from $X\times I$ are understood as [[homotopies]]. In more detail, for every space $X$, any homotopy $F:X\times I\to B$, and a continuous map $f:X\to E$, there is a homotopy $\tilde{F}:X\times I\to E$ such that $f =\tilde{F}
 \circ\sigma_0 :=\tilde{F}_0$ and $F=p\circ\tilde{F}$: 
 
@@ -42,7 +36,10 @@ $$
   \,.
 $$
 
-Instead of checking the homotopy lifting property, one can instead solve a universal problem, see [[Hurewicz connection]].
+Instead of checking the homotopy lifting property, one can instead solve a universal problem:
+
+
+**Theorem** A map is a Hurewicz fibration precisely if it admits a [[Hurewicz connection]]. (See there for details.)
 
 ## Appearance in a model structure ##
 
