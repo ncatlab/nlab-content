@@ -564,7 +564,7 @@ Assume the [[axiom of choice]] in the ambient [[foundations]].
 ###### Definition
 **(2-cocycle extracted from central extension)**
 
-Given a central extension $A \to \hat G \to B$ define a group 2-cocycle $c : G \times G \to A$ as follows.
+Given a central extension $A \to \hat G \to G$ define a group 2-cocycle $c : G \times G \to A$ as follows.
 
 Choose a [[section]] $\sigma : U(G) \to U(\hat G)$ of the underlying [[sets]] (which exists by the [[axiom of choice]] and the fact that $p : \hat G \to G$ is by definition an [[epimorphism]]). Then define $c$ by
 
