@@ -268,7 +268,7 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 *  [John\'s alter ego the Wizard](https://groups.google.com/group/sci.physics.research/msg/3c6a1a7237b66c8c?dmode=source) explains why $n$-pseudoforms are the most natural things to integrate on an $n$-dimensional manifold;
 *  [applications of pseudoforms](https://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e?dmode=source) to classical contexts where absolute values appear;
 *  [the general notion of form](https://groups.google.com/group/sci.physics.research/msg/47bbd29289f208f8?dmode=source) corresponding to an arbitrary representation of the [[general linear group]] (towards the end of the post);
-*  [absolute values of forms](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) and how to integrate them even when they don\'t exist (near the end of the post).
+*  [absolute values of forms](https://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) and how to integrate them (near the end of the post, a precursor to [[absolute differential forms]]).
 
 
 [[!redirects differential form]]
