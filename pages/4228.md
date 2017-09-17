@@ -141,6 +141,143 @@ in the Cahiers topos.
 
 =--
 
+### Synthetic tangent bundles of smooth spaces
+
+### Synthetic tangent spaces
+ {#RelationToSyntheticTangentSpaces}
+
+We discuss here induced [[synthetic tangent spaces]] of [[smooth spaces]] in the sense of [[diffeological spaces]] and more general [[sheaves]] on the site of [[smooth manifolds]] after their canonical embedding into the Cahiers topos.
+
++-- {: .num_defn}
+###### Definition
+
+Write $SmoothLoc$ for the [[category]] of [[smooth loci]]. Write 
+
+$$
+  CartSp \hookrightarrow SmoothLoc
+$$
+
+for the [[full subcategory]] on the [[Cartesian spaces]] $\mathbb{R}^n$ ($n \in \mathbb{N}$). Write 
+
+$$
+  InfThPoint \hookrightarrow SmoothLoc
+$$
+
+for the [[full subcategory]] on the [[infinitesimally thickened points]], and write
+
+$$
+  CartSp_{synthdiff} \hookrightarrow SmoothLoc
+$$
+
+for the full subcategory on those smooth loci which are the [[cartesian product]] of a [[Cartesian space]] $\mathbb{R}^n$ ($n \in \mathbb{N}$) and an [[infinitesimally thickened point]].
+
+We regard [[CartSp]] as a [[site]] by equipping it with the [[good open cover]] [[coverage]]. We regard $InfThPoint$ as equipped with the trivial coverage and $CartSp_{synthdiff}$ as equipped with the induced product coverage.
+
+The [[sheaf topos]] $Sh(CartSp)$ is that of _[[smooth spaces]]_. The sheaf topos $Sh(CartSp_{synthdiff})$ is the _Cahier topos_.
+
+=--
+
++-- {: .num_example #InfinitesimalInterval}
+###### Example
+
+We write
+
+$$
+  D \coloneqq \ell(\mathbb{R}[\epsilon]/(\epsilon^2))
+  \in 
+  InfThPt \hookrightarrow CartSp_{synthdiff}
+$$
+
+for the [[infinitesimal space|infinitesimal interval]], the [[smooth locus]] dual to the [[smooth algebra]] "[[ring of dual numbers|of dual numbers]]".
+
+=--
+
++-- {: .num_defn #SyntheticTangentBundle}
+###### Definition
+
+For $X \in Sh(CartSp_{synthdiff})$ any object in the Cahier topos, its **[[synthetic tangent bundle]]** in the sense of [[synthetic differential geometry]] is the [[internal hom]] space $X^D$, equipped with the projection map
+
+$$
+  X(\ast \to D) \colon X^D \to X
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The canonical inclusion functor $i \colon CartSp \to CartSp_{synthdiff}$ induces an [[adjoint pair]]
+
+$$
+  Sh(CartSp)
+   \stackrel{\overset{i_\ast}{\to}}{\underset{i^\ast}{\leftarrow}}
+  Sh(CartSp_{synthdiff})
+$$
+
+where $i^\ast$ is given by precomposing a [[presheaf]] on $CartSp_{synthdiff}$ with $i$. The [[left adjoint]] $i_\ast$ has the interpretation of the inclusion of [[smooth spaces]] as [[reduced objects]] in the Cahiers topos.
+
+=--
+
+This is discussed in more detail at _[[synthetic differential infinity-groupoid]]_.
+
++-- {: .num_prop #CharacterizationOfImageInCahiersTopos}
+###### Proposition
+
+For $X \in Sh(CartSp)$ a [[smooth space]], and for $\ell(W) \in InfThPoint$ an infinitesimally thickened point, the morphisms
+
+$$
+  \ell(W) \to i_\ast X
+$$
+
+in $Sh(CartSp_{synthdiff})$ are in natural [[bijection]] to [[equivalence classes]] of pairs of morphisms
+
+$$
+  \ell(W) \to \mathbb{R}^n \to X
+$$
+
+consisting of a morphism in $CartSp_{synth}$ on the left and a morphism in $Sh(CartSp)$ on the right (which live in different categories and hence are not composable, but usefully written in juxtaposition anyway). The [[equivalence relation]] relates two such pairs if there is a [[smooth function]] $\phi \colon \mathbb{R}^n \to \mathbb{R}^{n'}$ such that in the diagram
+
+$$
+  \array{
+    && \mathbb{R}^n
+    \\
+    & \nearrow & & \searrow
+    \\
+    \ell(W) && \downarrow^{\mathrlap{\phi}} && X
+    \\
+    & \searrow && \nearrow
+    \\
+    && \mathbb{R}^{n'}
+  }
+$$
+
+the left triangle commutes in $CartSp_{synthdiff}$ and the right one in $Sh(CartSp)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By general properties of [[left adjoints]] of functors of [[presheaves]], $i_\ast X$ is the [[left Kan extension]] of the presheaf $X$ along $i$. By the [[Yoneda lemma]] and the [[coend]] formula for these (as discussed there), we have that the set of maps $\ell(W) \to i_\ast X$ is naturally identified with
+
+$$
+  (i_\ast X)(\ell(W))
+  =
+  (Lan_i X)(\ell(W))
+  =
+  \int^{\mathbb{R}^n \in CartSp}
+  Hom_{CartSp_{synthdiff}}(\ell(W), \mathbb{R}^n)
+  \times 
+  X(\mathbb{R}^n)
+  \,.
+$$ 
+
+Unwinding the definition of this [[coend]] as a [[coequalizer]] yields the above description of equivalence classes.
+
+=--
+
+
 
 ## Variants and generalizations
 
