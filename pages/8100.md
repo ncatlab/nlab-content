@@ -94,6 +94,8 @@ is called the corresponding _[[D-brane charge]]_.
 
 ## Related concepts
 
+* [[D-brane]], [[D-brane charge]], [[fractional D-brane]]
+
 * [[twisted spin^c structure]]
 
 * [[Spin^c Dirac operator]]
