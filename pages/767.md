@@ -30,6 +30,7 @@ However, for many purposes it is desirable to consider the notion of [[sheaves]]
 ## Small (dense) sub-sites
 
 In some cases, sheaves on a large site can be identified with sheaves on some small full sub-site, for instance a [[dense sub-site]].  
+A large site with a small dense sub-site is called an [[essentially small site]].
 
 For example, if $C$ is a [[Grothendieck topos]] with its [[subcanonical coverage|canonical coverage]], then every sheaf on $C$ is representable, so $C\simeq Sh(C)$; thus $Sh(C)$ is equivalent to the category of sheaves on some small site (a defining site for $C$ itself).
 
