@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _curved dg-algebra_ is like a [[dg-algebra]], but instead of the [[differential]] squaring to 0, it squares to the graded commutator with a fixed element of the algebra: its "[[curvature]]". 
+
+This is like the [[covariant derivative]] on the [[section]]s of a [[vector bundle]] with [[connection on a bundle|connection]] satisfying $\nabla \circ \nabla = F_\nabla$, where $F_\nabla$ is the [[curvature]] 2-form of the connection (valued, here, in fiber [[endomorphism]])s.
+
+Curved dg-algebras appear in the description of various [[TQFT]]s.
+
+(...)
+
+## References
+
+* A. Polishchuk, _Introduction to curved dg-algebra_ , notes taken in a talk ([pdf](http://www.math.polytechnique.fr/SEDIGA/documents/polishchuk_ens100324.pdf))
+
+[[!redirects curved dg-algebras]]
