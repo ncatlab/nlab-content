@@ -40,7 +40,7 @@ $$
 
 is a [[pullback]] square in [[Set]] (where the maps $p^*_{\cdots}$ project out the indicated parts of the objects of the [[simplex category]] $\Delta$ regarded as [[posets]]). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n, m$.
 
-This condition is internalized homotopically in the category of spaces to get the definition of a _Segal space_.  One can interpret "spaces" here as meaning either (sufficiently [[nice category of spaces|nice]]) [[topological spaces]] or [[simplicial sets]]; in the latter case a Segal space is a particular sort of [[bisimplicial set]].
+This condition is internalized homotopically in the category of spaces to get the definition of a _[[Segal space]]_.  One can interpret "spaces" here as meaning either (sufficiently [[nice category of spaces|nice]]) [[topological spaces]] or [[simplicial sets]]; in the latter case a Segal space is a particular sort of [[bisimplicial set]].
 
 +-- {: .un_defn}
 ###### Definition
@@ -75,7 +75,11 @@ More precisely...
 
 ...
 
+## Related concepts
+
 * [[model structure for complete Segal spaces]]
+
+* [[higher complete Segal space]]
 
 ## References
 
