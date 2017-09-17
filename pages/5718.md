@@ -26,9 +26,16 @@ For $p : P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in
 
 ### The infinite order jet bundle as the cofree $J^1$-coalgebra
 
-Let $J^1$ be the functor on bundles over $X$ sending a bundle $p:P\to X$ to the bundle $J^1 p: J^1 P \to X$ of first order jets of sections of $p$. This functor is co-pointed: the natural projection $J^1 P \to P$ forgets first order information. A $J^1$-[[coalgebra for an endofunctor|coalgebra]] is then by definition a bundle $p:P\to X$ with a bundle map $P\to J^1 P$, which is the same as a [[connection on a bundle|connection]] on $P$. Whit this, the infinite order jet bundle of sections of $p$ may be defined as the cofree $ J^1$-coalgebra on $P$. By definition it comes with a bundle map $p_\infty: J^\infty P \to P$ ("forgetting all higher order information") and a universal connection $C: J^\infty P \to J^1( J^\infty P)$ sometimes called the Cartan connection or infinite order contact structure on $J^\infty P$. Its universal property states that for any bundle $q:Q\to X$ with connection $K: Q \to J^1 Q$ and bundle map $\varphi: Q\to P$, there exists a unique prolongation of $\varphi$ denoted with $j^\infty \varphi: Q \to J^\infty P$ commuting with all given maps: $p_\infty \circ j^\infty \varphi =\varphi $ and $J^1(j^\infty \varphi)\circ K= C \circ j^\infty \varphi$. 
+Let $J^1$ be the functor on bundles over $X$ sending a bundle $p:P\to X$ to the bundle $J^1 p: J^1 P \to X$ of first order jets of sections of $p$. This functor is co-pointed: the natural projection $J^1 P \to P$ forgets first order information. A $J^1$-[[coalgebra for an endofunctor|coalgebra]] is then by definition a bundle $p:P\to X$ with a bundle map $P\to J^1 P$, which is the same as a [[connection on a bundle|connection]] on $P$. With this, the infinite order jet bundle of sections of $p$ may be defined as the cofree $ J^1$-coalgebra on $P$. By definition it comes with a bundle map $p_\infty: J^\infty P \to P$ ("forgetting all higher order information") and a universal connection $C: J^\infty P \to J^1( J^\infty P)$ sometimes called the Cartan connection or infinite order contact structure on $J^\infty P$. Its universal property states that for any bundle $q:Q\to X$ with connection $K: Q \to J^1 Q$ and bundle map $\varphi: Q\to P$, there exists a unique prolongation of $\varphi$ denoted with $j^\infty \varphi: Q \to J^\infty P$ commuting with all given maps: $p_\infty \circ j^\infty \varphi =\varphi $ and $J^1(j^\infty \varphi)\circ K= C \circ j^\infty \varphi$. 
 
 In the particular case when $q:Q\to X$ is the identity $X\to X$ with its canonical connection, a morphisms of bundles $\varphi$ from $q$ to $p$ is the same as a section of $p$ and $j^\infty \varphi$ is traditionally called the infinite jet prolongation of the section $\varphi$.
+
+When the the functor $J^1$ preserves sequential limits and the category of bundles over $X$ has equalizers, the cofree $J^1$-coalgebra can be constructed as a sequential limit:
+
+$$ \cdots \to J^3 P \to J^2 P \to J^1 P \to J^0 P = P $$
+where  $J^{n+1} P$ is recursively defined as the equalizer between $J^1 (J^n P ) \to J^n P \to J^1 ( J^{n-1} P)$ and $J^1 (J^n P) \to J^1 (J^{n-1} P)$, where the first arrow in $J^1 (J^n P ) \to J^n P \to J^1 ( J^{n-1} P)$ is the standard projection and the second one is the previously obtained equalizer (starting the induction with the identity $J^1 P \to J^1 P$), while the arrow  $J^1(J^n P ) \to J^1( J^{n-1} P)$ is just the map obtained applying the functor $J^1$ to $J^n P \to J_{n-1} P$.
+
+This construction should be a special case (and dual) to the one described in [[transfinite construction of free algebras]].
 
 
 ### other definitions 
@@ -159,6 +166,7 @@ $$
 Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. Their [[variational calculus]] is governed by [[Euler-Lagrange equation]]s.
 
 ## Related concepts
+
 
 * [[jet prolongation]]
 
