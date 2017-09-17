@@ -457,6 +457,14 @@ because $\not U \vee U = (U^c)^\circ \cup U = X \backslash \partial U$ is the to
 Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in general) [[intuitionistic logic]].  As remarked above, this is the case in many toposes.
 
 
+## Related concepts
+
+
+* [[type theory]], [[homotopy type theory]]
+
+* [[relation between category theory and type theory]]
+
+
 ## References 
 
 Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
