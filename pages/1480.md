@@ -1,8 +1,8 @@
 Topologist and author of 
 
-*  _Algebraic Homotopy_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989); 
-*  _Combinatorial Homotopy and 4-Dimensional Complexes_, de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991);
-*  _Homotopy Types_, in I.M.James, ed., _Handbook of Algebraic Topology_, 1--72, Elsevier, (1995);
+*  _[[Algebraic Homotopy]]_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989); 
+*  _[[Combinatorial Homotopy and 4-Dimensional Complexes]]_, de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991);
+*  _[[Homotopy Types]]_, in I.M.James, ed., _Handbook of Algebraic Topology_, 1--72, Elsevier, (1995);
 *  _Homotopy type and homology_, Oxford University Press, 1996
 * (with Antonio Quintero) _Infinite Homotopy Theory_,  K-monographs in mathematics, Volume 6, Kluwer, 2001;
 
