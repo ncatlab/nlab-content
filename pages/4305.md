@@ -42,7 +42,7 @@ If $C$ is a suitable [[linear category]], the $n$th tensor power functor is a si
 
 ### Tensor algebra
 
-The [[coproduct]] of all of the tensor powers of $V$ naturally inherits the structure of a [[monoid]] in $C$. This is called the __tensor algebra__ of $V$. This is the [[free functor|free]] monoid on $V$. For more on this see [[category of monoids]].
+The [[coproduct]] of all of the tensor powers of $V$ naturally inherits the structure of a [[monoid]] in $C$. This is called the __tensor algebra__ of $V$. This is the [[free monoid]] object on $V$. For more on this see [[category of monoids]].
 
 ## Examples
 
