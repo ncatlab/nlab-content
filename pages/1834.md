@@ -22,3 +22,8 @@ where in chapters 7--9 Durov presented a flexible theory of functors which can b
 * _Classifying vectoids and generalizations of operads_, talk at 
 The International Conference "Contemporary Mathematics"
 June 12, 2009, video can be found at page: [link](http://www.mathnet.ru/php/presentation.phtml?option_lang=eng&presentid=345) (see also [[algebrad]])
+
+
+[[!redirects Nikolai Durov]]
+[[!redirects Николай Дуров]]
+[[!redirects Николай Валерьевич Дуров]]
