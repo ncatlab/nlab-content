@@ -168,7 +168,7 @@ where we use that by definition $f^*$ is full and faithful and then that $f_!$ p
 
 =--
 
-These two axioms are considered in [Lawvere, Axiomatic cohesion](#LawvereAxiomatic).
+These two axioms are considered in [Lawvere, Axiomatic cohesion](#LawvereAxiomatic). More on this axiom below in [Quasitopos of concrete objects](#ConcreteObjects).
 
 +-- {: .un_defn}
 ###### Definition
@@ -195,59 +195,111 @@ Let $f : \mathcal{E} \to \mathcal{S}$ be a cohesive topos.
 
 It comes canonically with various [[subcategories]], sub-[[quasi-toposes]] and [[subtopos]]es of interest. 
 
-### Subtoposes of discrete and codiscrete objects {#DiscreteSubtop}
-
-The topos $\mathcal{S}$ is a subtopos of $f = (\Pi_0 \dashv Disc \dashv \Gamma dashv CoDisc) : \mathcal{E}\to \mathcal{S}$ by a [[geometric embedding]] in two ways.
-
-1. By the fact that $f$ is a [[local geometric morphism]] we have that $Disc$ is a [[full and faithful functor]], hence that
-
-   $$
-    (\Pi_0 \dashv Disc) : \mathcal{S} \stackrel{\overset{f_!}{\leftarrow}}{\underset{f^*}{\hookrightarrow}}
-     \mathcal{S}
-   $$
-
-   is a geoemtric embedding. This is the **subtopos of discrete objects** .
-
-1. The fact that $f$ is a [[local geometric morphism]] implies, in particular, that $CoDisc$ is a full and faithful functor, hence that
-
-   $$
-     (\Gamma \dashv CoDisc)
-     \mathcal{S} 
-       \stackrel{\overset{f_*}{\leftarrow}}{\underset{f^!}{\hookrightarrow}} 
-     \mathcal{E}
-   $$ 
-
-   is a [[subtopos]]. This is the **subtopos of codiscrete objects**.
-
-
-=--
 
 ### Quasitoposes of concrete objects {#ConcreteObjects}
 
-Let $(C,J)$ be a [[site]] with of definition for $\mathcal{E}$ with [[coverage]] $J$, so that $\mathcal{E} = Sh_J(C) \hookrightarrow PSh(C)$. Since by the [above](#DiscreteSubtop) $Set \stackrel{CoDisc}{\hookrightarrow} \mathcal{E}$ is a subtopos, we have that $Set$ is itself a [[category of sheaves]] on $C$
++-- {: .un_lemmaa}
+###### Observation
+
+For $(\Pi \dashv \Disc \dashv \Gamma \dashv coDisc) :  \mathcal{E} \to Set$ a cohesive topos, $(\Gamma \dashv coDisc)$ exhibits $Set$ as a [[subtopos]]
+
+$$
+  (\Gamma \dashv \coDisc) : Set \stackrel{\leftarrow}{\hookrightarrow}
+  \mathcal{E}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By general properties of [[local topos]]es. See there.
+
+=--
+
++-- {: .un_lemma}
+###### Observation
+
+The category $Set$ is equivalent to the full [[subcategory]] of $\mathcal{E}$ on those objects $X \in \mathcal{E}$ for which the $(\Gamma \dashv coDisc)$ [[unit of an adjunction|unt]]
+
+$$
+  X \to coDisc \Gamma X
+$$
+
+is an [[isomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By general properties of [[reflective subcategories]]. See there for details.
+
+=--
+
++-- {: .un_def}
+###### Definition
+
+An object $X$ of the cohesive topos $\mathcal{E}$ for which $X \to coDisc \Gamma X$ is a [[monomorphism]] we call a **concrete object**. 
+
+
+Write 
+
+$$Conc(\mathcal{E}) \hookrightarrow \mathcal{E}$$
+
+for the [[full subcategory]] on concrete objects.
+
+ 
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+
+The category $Conc(\mathcal{E})$ is a [[quasitopos]] and a [[reflective subcategory]] of $\mathcal{E}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+Let $(C,J)$ be a [[site]] of definition for $\mathcal{E}$ with [[coverage]] $J$, so that $\mathcal{E} = Sh_J(C) \hookrightarrow PSh(C)$. Since $Set \stackrel{CoDisc}{\hookrightarrow} \mathcal{E}$ is a subtopos, we have that $Set$ is itself a [[category of sheaves]] on $C$
 
 $$
   Set \simeq Sh_K(C) \stackrel{CoDisc}{\hookrightarrow} Sh_J(C) \hookrightarrow PSh(C)
 $$
 
-which must correspond to another [[coverage]] $K$:  $Set \simeq Sh_K(C)$. Since we have this sequence of inclusions, we have an inclusion of coverages $J \subset K$.
-
-
-+-- {: .un_defn}
-###### Definition
-
-A **[[concrete sheaf|concrete object]]** of the cohesive topos $\mathcal{E}$ is a $(J,K)$-[biseparated presheaf]] on $C$. 
-
-The [[quasitopos]]
-
-$$
-  Conc(\mathcal{E}) := BiSep_{(J,K)}(C) \hookrightarrow \mathcal{E}
-$$
-
-we call the **subcategory of concrete objects** of $\mathcal{E}$.
+which must correspond to another [[coverage]] $K$:  $Set \simeq Sh_K(C)$. Since we have this sequence of inclusions, we have an inclusion of coverages $J \subset K$. We observe that the concrete objects in $\mathcal{E}$ are precisely the $(J,K)$-[[biseparated presheaves]] on $C$. The claim then follows by standard facts of quasitoposes of biseparated presheaves.
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+Precisely if the cohesive topos $\mathcal{E}$ satisfies the axiom _discrete objects are concrete_ (saying that for all $S \in Set$ the canonical morphism $Disc S \to coDisc \Gamma Disc S \simeq coDisc S$ is a [[monomorphism]]) then $Conc(\mathcal{E})$ is a **cohesive quasitopos** in that we have a quadrupled of [[adjoint functor]]s.
+
+$$
+   Conc(\mathcal{E})
+    \stackrel{\overset{\Pi}{\to}}{\stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\overset{\Gamma}{\to}}{\underset{coDisc}{\leftarrow}}}}
+  Set
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The axiom says precisely that the functor $Disc : Set \to \mathcal{E}$ factors through $Conc(\mathcal{E})$. Also $coDisc : Set \to \mathcal{E}$ clearly factors through $Conc(\mathcal{E})$. Since $Conc(\mathcal{E})$ is a [[full subcategory]] therefore the restriction of $\Gamma$ and $\Pi$ to  $Conc(\mathcal{E})$ yields a quadruple of adjunctions as indicated.
+
+
+Since by reflectivity [[limit]]s in $Conc(\mathcal{E})$ may be computed in $\mathcal{E}$, $\Pi$ preserves finite products on $Conc(\mathcal{E})$.
+
+
+
+=--
 
 ### Objects with one point per cohesive piece
 
