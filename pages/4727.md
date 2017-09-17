@@ -585,9 +585,9 @@ that is a weak equivalence.
 +-- {: .proof}
 ###### Proof
 
-First notice that we do have a chain homomorphism at all:
+First notice that we do have a chain homomorphism:
 
-an element in $N \exp(b^{n-1} \mathbb{R})_{conn}$ in degree $k$ is an $n$-forms $\omega \in \Omega^n(U \times \Delta^k)$. The differential acts on this as the alterating sum of the restriction to the $(k-1)$-faces
+an element in $N \exp(b^{n-1} \mathbb{R})_{conn}$ in degree $k$ is an $n$-form $\omega \in \Omega^n(U \times \Delta^k)$. The differential acts on this as the alterating sum of the restriction to the $(k-1)$-faces
 
 $$
   \partial \omega = \sum_{i = 0}^k (-1)^i \partial_i^* \omega
@@ -623,7 +623,38 @@ $$
   \,.
 $$
 
-So we do indeed have a chain map. Next (...)
+So we do indeed have a chain map. 
+
+Next we observe that over $U \in CartSp$ the chain homology of $N \exp(b^{n-1}\mathbb{R})$ in degree 0 is the group of $n$-forms modulo exact $n$-forms on $U$: the differential
+
+$$
+  \partial : N\exp(b^{n-1} \mathbb{R})(U)_1 \to N\exp(b^{n-1}\mathbb{R})(U)_0
+$$
+
+takes a path of $n$-forms $\omega = \omega_U + \lambda d t \in \Omega^\bullet(U \times \Delta^1)$ to the difference between the enpoints. 
+
+$$
+  \partial \omega = \omega_U(1) - \omega_U(0)
+  \,.
+$$
+
+By the discussion of gauge transformations above, we have that due to the constraint that the curvature $d \omega$ is horizontal we have
+
+$$
+  \frac{d}{d t} \omega_U = d_U \lambda
+  \,.
+$$
+
+For fixed $\omega_U(0)$ This is solved uniquely by 
+
+$$
+  \omega_U(1) = \omega_U(0) + d_U \int_{0}^1 \lambda d t
+  \,.
+$$
+
+Therefore $\partial \omega = d_U \int_0^1 \lambda d t$. Clearly every exact form is obtained this way. 
+
+
 
 =--
 
