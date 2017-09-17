@@ -38,7 +38,7 @@ We also have the second differential $\mathrm{d}^2f$, defined by
 
 $$ \langle \mathrm{d}^2f | c \rangle = (f\circ c)''(0),$$
 
-which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *cojet differential 1-form*.
+which depends only on the 2-[[jet]] of $c$ at $0$.  We can similarly consider higher differentials which depend on higher jets.  A cogerm differential 1-form which depends only on the jet of $c$ may be called a *[[cojet differential 1-form]]*.
 
 For an example of a cogerm differential form that is not a cojet differential form, let $\langle{\omega|c}\rangle$ be $0$ or $1$ according as $c$ is or is not [[analytic function|analytic]] (say for $X$ the real line).  We do not know any more interesting examples.
 
@@ -101,13 +101,52 @@ and so on.  Note that the first formula justifies the common notation $\frac{\ma
 
 ## Integration
 
-Let $c:[a,b] \to X$ be a curve and $\omega$ a cogerm differential 1-form.  The **integral** of $\omega$ over $c$ is defined to be
+Let $c:[a,b] \to X$ be a curve and $\omega$ a cogerm differential 1-form; we would like to integrate $\omega$ over $c$.  There are at least two possible definitions.
 
-$$\oint_c \omega = \int_{t=a}^b \langle \omega | c_t \rangle dt. $$
+### Naive integration
 
-If $\omega$ is an exterior differential 1-form, then this agrees with its usual line integral over $c$.  Unlike that particular case, however, for general $\omega$ the integral is not invariant under (even orientation-preserving) reparametrization of $c$.  (This is most obvious when $\omega$ is just a function, in which case its integral is just its ordinary integral.)
+The **naive integral** of $\omega$ over $c$ is defined to be
+
+$$\int_c \omega = \int_{t=a}^b \langle \omega | c_t \rangle dt. $$
+
+if this exists.  If $\omega$ is an exterior differential 1-form, then this agrees with its usual line integral over $c$.  Unlike that particular case, however, for general $\omega$ the integral is not invariant under (even orientation-preserving) reparametrization of $c$.  (This is most obvious when $\omega$ is just a function, in which case its integral is just its ordinary integral.)
 
 There are non-exterior forms for which the integral is parametrization-independent, however, such as [[absolute differential forms]] (in that case, it is even independent of orientation).  What is needed for this is a sort of *degree-1 homogeneity*.
+
+The naive integral does satisfy a fundamental theorem of calculus for all cogerm forms: for any $\omega$ we have
+
+$$\int_c \mathrm{d}\omega = \langle \omega| c_b\rangle - \langle \omega | c_a \rangle. $$
+
+This follows directly from the definition of the naive integral and the cogerm differential $\mathrm{d}$.
+
+### Linear integration
+
+The **linear integral** of $\omega$ over $c$ is defined as follows.  Given a [[tagged partition]] $a = t_0 \lt t_1 \cdots \lt t_{n-1} \lt t_n = b$ with tags $t^*_i \in [t_{i-1},t_i]$, we define the corresponding [[Riemann sum]] to be
+
+$$ \sum_{i=1}^n \langle \omega | \Delta t_i \cdot c_{t^*_i} \rangle $$
+
+Here $\Delta t_i = t_i - t_{i-1}$, and for a curve $c$ and a number $h$ the curve $h\cdot c$ is defined by $(h\cdot c)(t) = c(h t)$.  Now we take the limit as the tagged partitions shrink.
+
+It is convenient to do this in the manner of the [[Henstock integral]].  That is, we consider *gauges* $\delta : [a,b] \to \mathbb{R}_{\gt 0}$ and say that a tagged partition is *$\delta$-fine* if $[t_{i-1},t_i] \subset (t^*_i - \delta(t^*_i), t^*_i + \delta(t^*_i))$ for all $i$.  Then we say that a number $I$ is the integral $\int_c \omega$ if for all $\epsilon\gt 0$ there exists a gauge $\delta$ such that the Riemann sum of any $\delta$-fine tagged partition is within $\epsilon$ of $I$.
+
+The linear integral also agrees with the usual integral for exterior 1-forms, and probably also for absolute differential forms.  However, in other cases it disagrees.  In particular, it "detects only the degree-1 part" of a form, in a way that we can make precise as follows.
+
+Let us say that $\omega$ is **$o(dx)$** if $\lim_{h\to 0} \frac{\langle \omega | h\cdot c \rangle}{h} = 0$ for any curve $c$.  Some examples of forms that are $o(dx)$ are $\mathrm{d}x^2$ and $\mathrm{d}^2x$.
+
++-- {: .un_theorem}
+###### Theorem
+If $\omega$ is $o(dx)$, then $\int_c \omega = 0$ for any curve $c$.
+=--
++-- {: .proof}
+###### Proof
+Suppose $\epsilon\gt 0$; then for any $t\in [a,b]$ there is a $\delta(t)$ such that ${\langle \omega {|} h \cdot c_t\rangle} \lt \frac{\epsilon}{b-a} h$ for any $0\lt h\lt \delta(t)$. This defines a gauge $\delta$ on $[a,b]$. Now suppose we have a $\delta$-fine tagged partition $a = x_0 \lt \cdots \lt x_n = b$ with tags $t_i \in [x_{i-1},x_i]$, so that $\Delta x_i = x_i - x_{i-1} \lt \delta(t_i)$. Then the corresponding Riemann sum is, by definition, $\sum_{i} \langle \omega {|} \Delta x_i \cdot c_{t_i}\rangle $. Since $\Delta x_i \lt \delta(t_i)$, each $\langle \omega {|} \Delta x_i \cdot c_{t_i}\rangle \lt \frac{\epsilon}{b-a} \Delta x_i$. Thus, when we sum them up, we get something less than $\frac{\epsilon}{b-a} \sum_i \Delta x_i = \frac{\epsilon}{b-a} (b-a) = \epsilon$. Thus, for any $\epsilon$ there is a gauge $\delta$ such that the Riemann sum over any $\delta$-fine tagged partition is $\lt\epsilon$; so the integral is zero.
+=--
+
+Thus, for instance, $\int_c \mathrm{d}^2 x = 0$ according to the linear integral, while according to the naive integral it would be (by the fundamental theorem of calculus) $\langle \mathrm{d}x | c_b \rangle - \langle \mathrm{d}x|c_a \rangle = (x\circ c)'(b) - (x\circ c)'(a)$.
+
+In particular, this means that the linear integral does not satisfy as general a fundamental theorem of calculus as the naive integral.  It does, however, satisfy FTC for differentials of *functions*:
+$$ \int_c \mathrm{d}f = f(c(b)) - f(c(a))$$
+This can be proven in exactly the same way as the usual FTC for (line) integrals.
 
 
 ## Higher forms
