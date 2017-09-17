@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _loop space_ is a [[loop space object]] in [[Top]], or a [[mapping space]] from the [[circle]], a space of [[loop]]s.
+A _loop space_ is a [[loop space object]] in [[Top]], or a [[mapping space]] from the [[circle]], a space of [[loops]].
 
 
 ## Definition
