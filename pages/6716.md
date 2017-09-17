@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {: toc}
@@ -326,21 +336,19 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Notice that we have a [[fiber sequence]]
+We observe that we have a [[fiber sequence]]
 
 $$
   \mathbf{B} U(1)
-    \to
+    \stackrel{\mathbf{c}_1 mod 2}{\to}
   \mathbf{B}^2 \mathbb{Z}_2 
     \stackrel{\mathbf{\beta}_2}{\to}
-  \mathbf{B}^2 U(1)
-    \to
   \mathbf{B}^2 U(1)
 $$
 
 where $\mathbf{\beta}_2$ is the smoothly refined [[Bockstein homomorphism]].
 
-Then consider the [[pasting diagram]] of [[homotopy pullback]]
+Then consider the [[pasting diagram]] of [[homotopy pullbacks]]
 
 $$
   \array{
@@ -352,7 +360,7 @@ $$
      \\
      \downarrow && \downarrow && \downarrow
      \\
-     \mathbf{B} Spin 
+     \mathbf{B} SO 
        &\stackrel{\mathbf{w}_2}{\to}&
      \mathbf{B}^2 \mathbb{Z}_2
        &\stackrel{\mathbf{\beta}_2}{\to}&
@@ -361,16 +369,19 @@ $$
   \,.
 $$
 
-The right square is a [[homotopy pullback]] by prop \ref{SmoothRefinementOfBockstein}. The left square is a homotopy pullback by 
+The right square is the fiber sequence just mentioned.
+The left square is a homotopy pullback by 
 prop. \ref{SpinCAsHomotopyPullbackOfW2AndC1}.
-This implies by the [[pasting law]] for homotopy pullbacks that the total rectangle is also a homotopy pullback. This proves the claim.
+The bottom composite is the smooth $\mathbf{W}_3$ by prop \ref{SmoothRefinementOfBockstein}. 
 
+This implies by claim by the [[pasting law]].
 =--
 
 ## Related concepts
 
 * [[spin group]], **$Spin^c$-group**
 
-* [[spin^c structure]]
+* [[spin^c structure]], [[twisted spin^c structure]]
+
 
 [[!redirects spin^c group]]
