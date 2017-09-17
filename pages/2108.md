@@ -359,7 +359,7 @@ $$
   \,.
 $$
 
-Observe how from the point of view of just the [[Dolbeault operator]], this is twisting noth just by the prequantum line bundle, but by the _[[metaplectic correction|metaplectically corrected]]_ prequantum line bundle $L_\omega \otimes \sqrt{\Omega^{n,0}}$, while from the point of view of the [[Dirac operator]] it is just twisting by $L_\omega$, since tensoring with the square root line bundle $\sqrt{\Omega^{n,0}}$ induces the isomorphism between the antiholomorphic differential form bundle and the actual [[spinor bundle]] over the [[Kähler manifold]].
+Observe how from the point of view of just the [[Dolbeault operator]], this is twisting not just by the prequantum line bundle itself but by the _[[metaplectic correction|metaplectically corrected]]_ prequantum line bundle $L_\omega \otimes \sqrt{\Omega^{n,0}}$, while from the point of view of the [[Dirac operator]] it is just twisting by $L_\omega$, since tensoring with the square root line bundle $\sqrt{\Omega^{n,0}}$ induces the isomorphism between the antiholomorphic differential form bundle and the actual [[spinor bundle]] over the [[Kähler manifold]].
 
 =--
 
