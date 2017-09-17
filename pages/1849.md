@@ -721,6 +721,7 @@ This means that cocycles with coefficients in this subobject for $C = 0$ are coc
 [[!include table of branes]]
 
 ## References
+ {#References}
 
 The state-of-the-art in the literature concerning attempts to find the correct mathematical model for the supergravity C-field seems to be
 
