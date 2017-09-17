@@ -61,7 +61,7 @@ To 'deconstruct' this a bit, in a simple case, we suppose given a base space $B$
 
 ## Definition
 
-Let $G$ be a [[group]] object in some [[category]] $C$, that in the following is assumed, for simplicity, to be a [[cartesian closed category]].
+Let $G$ be a [[group]] object in some [[category]] $C$, that in the following is assumed, for simplicity, to be a [[cartesian monoidal category]].
 The [[object]]s of $C$ we sometimes call [[space]]s.
 
 Let $G$ be a [[group object]] in $C$. A left **$G$-torsor** is an [[inhabited object]] $P$ equipped with a $G$-action $\rho: G \times P \to P$ (subject to the usual laws for actions) such that the map 
@@ -119,7 +119,7 @@ is an [[isomorphism]].
 
 Let $P$ be a $G$-torsor over the point in the category $C = Set$. Then as objects of $C$, $P$ is [[isomorphism|isomorphic]] to $G$: 
 
-since $P$ is inhabited (here meaning non-empty), we may pick an point $p : * \to P$ of $P$. Write $\{p\} \to P$ for this morphism, for emphasis.  One sees that the diagram
+since $P$ is [[inhabited set|inhabited]] (here meaning non-empty), we may pick an point $p : * \to P$ of $P$. Write $\{p\} \to P$ for this morphism, for emphasis.  One sees that the diagram
 
 $$
   \array{
