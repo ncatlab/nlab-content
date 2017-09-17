@@ -283,8 +283,12 @@ More details are in
 
 * Matvei Libine, _Lecture Notes on Equivariant Cohomology_ ([arXiv](http://arxiv.org/abs/0709.3615))
 
+For a brief modern surves see also the first three sections of
 
-* B. Guillou, _A short note on models for equivariant homotopy theory_ ([pdf](http://www.math.uiuc.edu/~bertg/EquivModels.pdf))
+* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
+
+  (with an eye towards application to the [[Arf-Kervaire invariant problem]])
+
 
 Parts of the above material is taken from a blog discussion between [[Mike Shulman|Mike]] and [[Urs Schreiber|Urs]] [here](http://golem.ph.utexas.edu/category/2010/01/the_sacred_and_the_profane.html#c031280).
 
