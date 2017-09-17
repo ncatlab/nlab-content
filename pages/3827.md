@@ -4,17 +4,17 @@ Original research alert.
 
 ## Idea
 
-An **autonomous double category** is a (usually pseudo) [[double category]] which is [[monoidal double category|symmetric monoidal]], and in which every object has an assigned [[dualizable object|dual]] in the "proarrow" direction.  The basic example is the double category $\underline{Cat}$ of categories, functors, and [[profunctors]], in which the dual of a category is its [[opposite category]].
+A **compact double category** is a (usually pseudo) [[double category]] which is [[monoidal double category|symmetric monoidal]], and in which every object has an assigned [[dualizable object|dual]] in the "proarrow" direction (as in a [[compact closed category]]).  The basic example is the double category $\underline{Cat}$ of categories, functors, and [[profunctors]], in which the dual of a category is its [[opposite category]].
 
-On this page, we will draw the "functor" direction horizontally and the "profunctor" direction vertically.  Thus, in an autonomous double category, every object has a vertical dual.
+On this page, we will draw the "functor" direction horizontally and the "profunctor" direction vertically.  Thus, in a compact double category, every object has a vertical dual.
 
-Note that if an autonomous double category is a [[proarrow equipment]], then its [[vertical bicategory]] is a [[symmetric monoidal bicategory]], which is moreover an [[autonomous bicategory]].  However, saying that a double category is autonomous says more than this: it says that the vertical duals are assigned in a horizontally functorial way.  Just as duals in a monoidal category are characterized up to isomorphism, duals in an autonomous bicategory are characterized up to equivalence, which in this case would mean *vertical* equivalence.  But equivalence in the bicategory $Prof$ of categories and profunctors is a weaker notion than [[equivalence of categories]], so just saying that $C^{op}$ is a dual of $C$ in $Prof$ does not characterize $C^{op}$ up to equivalence, only up to [[Morita equivalence]] (i.e. equivalence of [[Cauchy completion]]s).  The extra structure (not merely extra properties) of the autonomous double category $\underline{Cat}$ includes the specification of $C^{op}$ up to equivalence (i.e., horizontal equivalence), along with all the attendant structure.
+Note that if a compact double category is a [[proarrow equipment]], then its [[vertical bicategory]] is a [[symmetric monoidal bicategory]], which is moreover an [[autonomous bicategory]].  However, saying that a double category is compact says more than this: it says that the vertical duals are assigned in a horizontally functorial way.  Just as duals in a monoidal category are characterized up to isomorphism, duals in an autonomous bicategory are characterized up to equivalence, which in this case would mean *vertical* equivalence.  But equivalence in the bicategory $Prof$ of categories and profunctors is a weaker notion than [[equivalence of categories]], so just saying that $C^{op}$ is a dual of $C$ in $Prof$ does not characterize $C^{op}$ up to equivalence, only up to [[Morita equivalence]] (i.e. equivalence of [[Cauchy completion]]s).  The extra structure (not merely extra properties) of the compact double category $\underline{Cat}$ includes the specification of $C^{op}$ up to equivalence (i.e., horizontal equivalence), along with all the attendant structure.
 
-Likewise, an **autonomous virtual double category** is a [[virtual double category]] which is autonomous in a similar sense: it has a monoidal structure and functorially assigned duals.  Note that in order to match with our conventions on this page, the role of vertical and horizontal cells in a virtual double category is flipped from the choices made at [[virtual double category]], and the cells must be transposed and have their multi-sources on the left, rather than the top.
+Likewise, a **compact virtual double category** is a [[virtual double category]] which is compact in a similar sense: it has a monoidal structure and functorially assigned duals.  Note that in order to match with our conventions on this page, the role of vertical and horizontal cells in a virtual double category is flipped from the choices made at [[virtual double category]], and the cells must be transposed and have their multi-sources on the left, rather than the top.
 
-By contrast, in a **virtually autonomous virtual double category**, the monoidal and autonomous structure has also been "virtualized": rather than coming equipped with a horizontally functorial tensor product, in such a virtual double category there are also horizontal arrows with multi-sources that are finite lists of objects with variance, such as $(A,B^{op},C)$.  We can also have a **virtually autonomous double category** which is an honest double category, but whose monoidal and autonomous structure is only virtual.
+By contrast, in a **virtually compact virtual double category**, the monoidal and compact structure has also been "virtualized": rather than coming equipped with a horizontally functorial tensor product, in such a virtual double category there are also horizontal arrows with multi-sources that are finite lists of objects with variance, such as $(A,B^{op},C)$.  We can also have a **virtually compact double category** which is an honest double category, but whose monoidal and compact structure is only virtual.
 
-Finally, if an autonomous double category or virtual category is a [[proarrow equipment]] or a [[virtual equipment]], we of course call it an **autonomous (virtual) proarrow equipment**.
+Finally, if a compact double category or virtual category is a [[proarrow equipment]] or a [[virtual equipment]], we of course call it a **compact (virtual) proarrow equipment**.
 
 ## Definition
 
@@ -34,7 +34,7 @@ Let $G$ be the [[pseudomonad]] on $Cat(Quiv)$ defined as follows.  We may consid
 
 With this definition, $G$ is evidently an endofunctor of the category of $Cat$-quivers.  We can extend it to the virtual equipment $Cat(Quiv)$ in a straightforward way, mimicking the definition above for horizontal arrows and squares to define it on the proarrows (which are like [[double profunctors]] but, again, without vertical composites).
 
-Note that the action of $G$ on vertical arrows is very much like that of the monad on $Cat$ whose algebras are [[autonomous categories]].  The main difference is that in the latter, rather than an *ordered* list of loops (an element of the [[free monoid]] on endomorphims), we have an element of the free *commutative* monoid on the endomorphisms.  This change is what will make $G$ be only a pseudomonad, rather than a monad, but it is also crucial for the applications.
+Note that the action of $G$ on vertical arrows is very much like that of the monad on $Cat$ whose algebras are [[compact closed categories]].  The main difference is that in the latter, rather than an *ordered* list of loops (an element of the [[free monoid]] on endomorphims), we have an element of the free *commutative* monoid on the endomorphisms.  This change is what will make $G$ be only a pseudomonad, rather than a monad, but it is also crucial for the applications.
 
 We next extend $G$ to a pseudomonad in the [[Gray-category]] of [[virtual equipments]].  The unit $C\to G(C)$ is easy to define and strictly natural: an object $x$ goes to the unary list $(x)$, horizontal arrows are labeled with the unique permutation of one element, and vertical arrows are labeled with the unique graph between two such unary lists.
 
@@ -46,13 +46,13 @@ We now claim that there is a [[distributive law]] relating $T'$ to $G$, and ther
 
 It follows by the functoriality of the construction of [[generalized multicategories]] that $G$ induces a pseudomonad $G' = nKMod(G,T')$  on the virtual equipment $Vdc = nKMod(Cat(Quiv),T')$ of virtual double categories.  Moreover, we can verify that $G'$ preserves pseudo double categories, and induces a monad $G''$ on the virtual equipment of double categories and [[double profunctors]].  Finally, we can define:
 
-* An **autonomous double category** is a pseudo $G''$-algebra.  By general nonsense about distributive laws, this should be the same as a pseudo $G T'$-algebra, where $G T'$ is the composite pseudomonad on $Cat(Quiv)$ resulting from the distributive law.
+* A **compact double category** is a pseudo $G''$-algebra.  By general nonsense about distributive laws, this should be the same as a pseudo $G T'$-algebra, where $G T'$ is the composite pseudomonad on $Cat(Quiv)$ resulting from the distributive law.
 
-* An **autonomous virtual double category** is a pseudo $G'$-algebra.
+* A **compact virtual double category** is a pseudo $G'$-algebra.
 
-* A **virtually autonomous virtual double category** is a virtual $G T'$-algebra (in $Cat(Quiv)$).  I *don't* think this is quite the same as a virtual $G'$-algebra in $Vdc$.
+* A **virtually compact virtual double category** is a virtual $G T'$-algebra (in $Cat(Quiv)$).  I *don't* think this is quite the same as a virtual $G'$-algebra in $Vdc$.
 
-* A **virtually autonomous double category** is a virtual $G''$-algebra.
+* A **virtually compact double category** is a virtual $G''$-algebra.
 
 In each of the above cases, we can replace "double category" by [[proarrow equipment]] if the (virtual) double category in question is additional a ([[virtual equipment|virtual]]) equipment.
 
@@ -60,17 +60,17 @@ In each of the above cases, we can replace "double category" by [[proarrow equip
 
 ## Examples
 
-The basic example is $\underline{Cat}$, in which the objects are categories, the horizontal arrows are functors, and the vertical arrows are profunctors.  This is an autonomous proarrow equipment.  There are similar examples $V \underline{Prof}$ for any Benabou [[cosmos]] $V$.  In fact, as long as $V$ is any symmetric [[multicategory]], we can define a virtually autonomous virtual equipment $V \underline{Prof}$.
+The basic example is $\underline{Cat}$, in which the objects are categories, the horizontal arrows are functors, and the vertical arrows are profunctors.  This is a compact proarrow equipment.  There are similar examples $V \underline{Prof}$ for any Benabou [[cosmos]] $V$.  In fact, as long as $V$ is any symmetric [[multicategory]], we can define a virtually compact virtual equipment $V \underline{Prof}$.
 
 
 ## Extraordinary 2-cells
 
-Let $C$ be a virtually autonomous virtual double category with units (it could be an equipment).  Note that the source of a general 2-cell in $C$ is a graph whose edges are labeled by composable strings of vertical arrows in $C$.  Suppose also that $f\colon \vec{x} \to z$ and $g\colon \vec{y}\to z$ are horizontal arrows in $C$.  An **extraordinary 2-cell** in $C$ is defined to be a 2-cell whose target is the unit/identity $U_z$, and whose source is a loop-free graph whose edges are all labeled by empty strings (or, equivalently, by identities).  One can verify that in $\underline{Cat}$, this reproduces the usual notion of [[extraordinary natural transformation]].
+Let $C$ be a virtually compact virtual double category with units (it could be an equipment).  Note that the source of a general 2-cell in $C$ is a graph whose edges are labeled by composable strings of vertical arrows in $C$.  Suppose also that $f\colon \vec{x} \to z$ and $g\colon \vec{y}\to z$ are horizontal arrows in $C$.  An **extraordinary 2-cell** in $C$ is defined to be a 2-cell whose target is the unit/identity $U_z$, and whose source is a loop-free graph whose edges are all labeled by empty strings (or, equivalently, by identities).  One can verify that in $\underline{Cat}$, this reproduces the usual notion of [[extraordinary natural transformation]].
 
 
-## Structures in an autonomous double category
+## Structures in a compact double category
 
-In a (possibly virtual) autonomous double category, we can define internal notions of "closed category," "closed monoidal category," and so on.
+In a (possibly virtual) compact double category, we can define internal notions of "closed category," "closed monoidal category," and so on.
 
 ...
 
@@ -84,6 +84,23 @@ In a (possibly virtual) autonomous double category, we can define internal notio
 
 * [Blog post](http://golem.ph.utexas.edu/category/2010/03/extraordinary_2multicategories.html) about extraordinary 2-multicategories and their ilk.
 
+[[!redirects compact virtual double category]]
+[[!redirects virtually compact double category]]
+[[!redirects virtually compact virtual double category]]
+[[!redirects compact double categories]]
+[[!redirects compact virtual double categories]]
+[[!redirects virtually compact double categories]]
+[[!redirects virtually compact virtual double categories]]
+[[!redirects compact closed double category]]
+[[!redirects compact closed double categories]]
+[[!redirects compact equipment]]
+[[!redirects compact proarrow equipment]]
+[[!redirects compact virtual equipment]]
+[[!redirects virtually compact equipment]]
+[[!redirects virtually compact proarrow equipment]]
+[[!redirects virtually compact virtual equipment]]
+
+[[!redirects autonomous double category]]
 [[!redirects autonomous virtual double category]]
 [[!redirects virtually autonomous double category]]
 [[!redirects virtually autonomous virtual double category]]
