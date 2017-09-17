@@ -61,7 +61,9 @@ The reinterpretation of the "state sum" equation used in the above publications 
 
 * [[Tim Porter]], _Interpretations of Yetter's notion of $G$-coloring : simplicial fibre bundles and non-abelian cohomology_,  Journal of Knot Theory and its Ramifications 5 (1996) 687-720, 
 
-and then extended to colorings in [[homotopy n-types]] in 
+and then extended 
+[geckoz](http://geckozz.site50.net/) [bloepets](http://bloepets.wordpress.com/) [colorez](http://colerez.blogspot.com/) [kanduyung](http://kanduyung.pun.bz/) [yestues](http://ystubes.blogdetik.com/) [kataku](kataku.ealios.info/wp/) [kambingks](http://kambing.trecions.us/) [galopets](http://galopets.pertigo.info/) [golomie](http://genduts.colopi.info/) [heiye](http://deyong.0fees.net/wp/) [gogonsf](http://golds.fey345.com/)
+ to colorings in [[homotopy n-types]] in 
 
 * [[Tim Porter]], _Topological Quantum Field Theories from Homotopy n-types_, Journal of the London Math. Soc. (2) 58 (1998) 723-732.
 
