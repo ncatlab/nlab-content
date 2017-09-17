@@ -52,7 +52,7 @@ There are also two add-on packages:
 ### How can I help? ###
 
 There are many ways the package could be improved. If you'd like to get involved, please get in touch with Dan or Jamie.
-* It should be possible in principle for the structural isomorphisms to be automatically inserted where necessary. This would be enormously useful, and would involve original research. There is a good Masters or PhD project here if anyone who enjoys both theory and programming is interested.
+* It may be possible to write code that inserts the structural isomorphisms automatically where necessary. This would be enormously useful, and would involve original research. There is a good Masters or PhD project here if anyone who enjoys both theory and programming is interested.
 * The basic functions that perform 2-cell tensor product, horizontal composition and vertical composition haven't been optimized, and run slowly for large inputs. There should be a lot of scope for improving the code, and perhaps also for compilation, which Mathematica supports.
 * There are some other strange issues around speed - different ways to tell Mathematica to compute the same thing can give rise to very different calculation times.
 * We're not sure how to test systematically whether everything has been implemented correctly.
