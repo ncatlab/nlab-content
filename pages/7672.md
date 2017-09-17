@@ -54,6 +54,7 @@ The description of the image of the $J$-homomorphism in the [[stable homotopy gr
 +-- {: .num_defn #SphereAsCompactification}
 ###### Definition
 
+
 For $n \in \mathbb{N}$ regard the $n$-[[sphere]] (as a [[topological space]]) as the [[one-point compactification]] of the [[Cartesian space]] $\mathbb{R}^n$
 
 $$
@@ -291,8 +292,8 @@ Moreover,
 
 =--
 
-The characterization of the image is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)). 
-Specifically the identification of $J(\pi_{4n-1}(S O))$ is ([Adams 65a, theorem 3.7](#Adams65a) and the diract summand property is ([Adams 66, theorems 1.1-1.6.](#Adams66)).
+This characterization of the image of $J$ is due to ([Adams 66](#Adams66), [Quillen 71](#Quillen71), [Sullivan 74](#Sullivan74)). 
+Specifically the identification of $J(\pi_{4n-1}(S O))$ is ([Adams 65a, theorem 3.7](#Adams65a) and the direct summand property is ([Adams 66, theorems 1.1-1.6.](#Adams66)).
 That the image is a direct summand of the codomain is proven for instance in ([Switzer 75, end of chapter 19](#Switzer75)). 
 
 A modern version of the proof, using methods from [[chromatic homotopy theory]], is surveyed in some detail in ([Lorman 13](#Lorman13)).
