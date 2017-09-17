@@ -27,12 +27,25 @@
 
 The maximally supersymmetric $N = 8$-version arises from [[type II supergravity]] in 10 dimension by [[Kaluza-Klein mechanism|compactification]] on a 6-[[torus]].
 
+## Related entries
+
+* [[string theory results applied elsewhere]]
+
+  * [[KLT relations]]
+
 ## References
+
+### On $N=8$ $d=4$ supergravity
 
 * [[Zvi Bern]], [[Lance Dixon]], Radu Roiban, _Is $N = 8$ Supergravity Ultraviolet Finite?_ ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
 
 * [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, [[David Kosower]], R. Roiban, _Three-Loop Superfiniteness of $N=8$ Supergravity_,  	Phys.Rev.Lett.98:161303, 2007 ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
 
+* [[Lance Dixon]], _Ultraviolet Behavior of $N=8$ Supergravity_ ([arXiv:1005.2703](http://arxiv.org/abs/1005.2703))
+
 * [[Jacques Distler]], _Decoupling $N = 8$ supergravity_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001235.html))
 
 [[!redirects 4d supergravity]]
+
+[[!redirects N=8 d=4 supergravity]]
+
