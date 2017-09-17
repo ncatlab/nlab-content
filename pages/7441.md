@@ -21,7 +21,7 @@
 
 ## In [[∞Grpd]]
 
-* [[Segal space]], [[complete Segal space]], 
+* [[semi-Segal space]], [[Segal space]], [[complete Segal space]], 
 
 * [[reduced Segal space]]
 
