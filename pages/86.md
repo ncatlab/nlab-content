@@ -48,7 +48,8 @@ $$
 
 One distinguishes two somewhat different constructions 
 
-* **Lagrangian BV formalism** first constructs a presymplctic derived manifold $P^{BV}$ with action functional $S^{BV} : P^{BV} \to \mathbb{R}$ and then changes the action functional to an equivalent (homotopical) functional $S_{\Psi}^{BV}$, such that the presymplectic structure of $S_{\Psi}^{BV}$ is in fact symplectic;
+* **Lagrangian BV formalism** (or "field-antifield formalism") first constructs a derived space with Poisson bracket of degree +1 and then passes to isotropic subspaces.
+
 
 * **Hamiltonian BFV formalism** first extendes the original configuration space $C$ to a larger space $C'$ on which the presymplectic structure does refine to a [[symplectic structure]], then adds symplectic _constraints_ $I$ such that the classical [[symplectic reduction]] by $I$ is the would-be reduced phase space, and then constructs a [[derived geometry|derived]] [[dg-geometry]]-model of that symplectic reduction.
 
@@ -208,7 +209,21 @@ the **BRST-BV charge** such that
 ## Lagrangian BV
  {#LagrangianBV}
 
+Given an action functional $S : C \to \mathbb{R}$, the derived manifold of Lagrangian BV is constructed by extending $S$ to an element $S^{BV} \in \mathcal{X}^\bullet(C)$ of the algebra of [[multivector field]]s ("antifields") of $C$, such that 
 
+$$
+  (S^{BV},S^{BV}) = 0
+$$
+
+(the "master equation") with respect to the [[Schouten bracket]] $(-,-) : \mathcal{X}^\bullet(X) \otimes \mathcal{X}^\bullet(C) \to\mathcal{X}^\bullet(C)$ (the "anti-bracket") and then considering the formal dual of the [[dg-algebra]] $(\mathcal{X}^\bullet(C), d = (S^{BV},-))$.
+
+The central theorem says that formal integration in this dg-manifold over [[Lagrangian submanifold]]s with respect to the Schouten bracket regarded as an odd Poisson bracket is independent of the choice of Lagrangian submanifold precisely due to the equation $(S,S) = 0$.
+
+
+
+### Poincare duality on Hochschild (co)homology
+
+Multivector fields may be understood in terms of [[Hochschild cohomology]] of $C$.
 Under the identification of 
 [[nLab:Hochschild homology]]/[[nLab:cyclic homology]] with 
 the [[nLab:de Rham complex]] the product of the 
@@ -235,7 +250,6 @@ as an algebra over (the homology of) the
 [below](#BVAlgebra).
 
 
-### Poincare duality on Hochschild (co)homology
 
 We indicate how on a finite dimensional smooth manifold the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]]. (This observation goes back to [Witten90](#Witten90)). Then we discuss the generalization of this statement given by [[Poincare duality]] on [[Hochschild cohomology|Hochschild (co)homology]].
 
@@ -313,6 +327,10 @@ The original articles are
 {#BV83}
 
 * I.A. Batalin and G.A. Vilkovisky, _Existence Theorem For Gauge Algebra_ , J. Math. Phys. 26 (1985) 172-184.
+
+Reviews are in
+
+* J. Gomis, J. Paris, S. Samuel, _Antibrackets, Antifields and Gauge Theory Quantization_ ([arXiv:hep-th/9412228](http://arxiv.org/abs/hep-th/9412228))
 
 Geometrical aspects were pioneered in 
 
