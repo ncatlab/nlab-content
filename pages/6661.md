@@ -90,4 +90,6 @@ Each has a fairly obvious dual version which is $c$-rigged.  There are $p$-rigge
 [[!redirects c-rigged limits]]
 [[!redirects p-rigged limit]]
 [[!redirects p-rigged limits]]
+[[!redirects rigged weight]]
+[[!redirects rigged weights]]
 
