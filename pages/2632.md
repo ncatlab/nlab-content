@@ -64,6 +64,8 @@ Zoran: Quantum physics includes all quantum phenomena, including experimental re
 Zoran: not everybody cares about fine distinctions, but we should try to acknowledge the distinctions which are made at least by more careful treatises, not the least common denominator. 
 
 Ian: The more I think about it, the more I strongly disagree.  I think you are correct in saying that quantum mechanics is the theoretical formalism for describing quantum phenomena in a non-field theoretic POV.  But what we're going on this site is describing the theory in terms of categories, not the phenomena.  If you want to strip it all down to the bear bones, rid quantum physics of the "mechanics," and then rebuild it entirely from an nPOV, be my guest.  But so far, that is not what has been done on this site.
+
+Zoran: why non-field ?? Field is a continuous limiting case of mechanics when it becomes with infinitely many degrees of freedom. Classical mechanics of particles and fields. Quantum mechanics of particles and fields. These are standard expressions. After 52 courses of physics I attended in my life I am confident in basic terminology. Quantum physics is without a doubt more general notion. For example, Bohr was studying quantum physics, and de Broglie was and they did NOT do QM as they studied quantum physics at a incomplete level before QM proper was invented. Sometimes one intermediate phase, from 1913 with Bohr-Sommerfeld quantization conditions call "old quantum mechanics", though. The things you talk about categories and $n$POV have nothing to do with all of this and make no sense in this discussion. 
 =--
 
 ## Quantum mechanics in terms of $\dagger$-compact categories
