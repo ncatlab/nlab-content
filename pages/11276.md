@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Riemannian geometry
-+--{: .hide}
-[[!include Riemannian geometry - contents]]
-=--
 #### Gravity
 +-- {: .hide}
 [[!include gravity contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
 =--
 =--
 =--
@@ -35,5 +35,10 @@ Reviews include
 
 See also
 
-* Gabor Etesi, Istvan Nemeti, _Non-Turing computations via Malament-Hogarth space-times_, Int.J.Theor.Phys. 41 (2002) 341-370 ([arXiv:gr-qc/0104023](http://arxiv.org/abs/gr-qc/0104023))
- 
+* [[Gabor Etesi]], Istvan Nemeti, _Non-Turing computations via Malament-Hogarth space-times_, Int.J.Theor.Phys. 41 (2002) 341-370 ([arXiv:gr-qc/0104023](http://arxiv.org/abs/gr-qc/0104023))
+
+Discussion relating to the [[cosmic censorship hypothesis]] is in
+
+* {#Etesi12} [[Gabor Etesi]], _A proof of the Geroch-Horowitz-Penrose formulation of the strong cosmic censor conjecture motivated by computability theory_ ([arXiv:1205.4550](http://arxiv.org/abs/1205.4550))
+
+[[!redirects Malament–Hogarth spacetimes]]
