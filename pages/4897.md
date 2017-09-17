@@ -1,6 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
 For a separate list of math blogs and forums see [[math blogs]]. Main wikis should belong to both lists. For math societies and institutes see [[math institutions]]. There is also page of [[math resources by individuals]]. The level up is [[math resources]]. 
 
 We list archives of **online** books, not the catalogues of physical libraries. We shall not list commercial subscription lists (especially of current journals) except semi-commercial jstor and few publication sites by the main mathematical societies.  
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Archives of articles, books, proceedings
 
