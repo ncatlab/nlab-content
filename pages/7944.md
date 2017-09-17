@@ -30,6 +30,8 @@
   
 * [[orbit]], [[coadjoint orbit]], [[Killing form]]
 
+* [[unitary representation]]
+
 * [[geometric quantization]], [[coherent state]]
 
 * [[socle]], [[quiver]]
