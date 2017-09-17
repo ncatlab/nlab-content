@@ -58,7 +58,7 @@ $$
   B O \to B GL_1(\mathbb{S})
 $$
 
-from the classifying space of the [[orthogonal group]], called the **$J$-homomorphism**. Postcomposition with this sends real [[vector bundle]]s $V \to X$ to sphere bundles. This is what is modeled by the [[Thom space]] construction
+from the classifying space of the [[orthogonal group]] to that of the [[infinity-group of units]] of the [[sphere spectrum]], called the _[[J-homomorphism]]_. Postcomposition with this sends real [[vector bundle]]s $V \to X$ to sphere bundles. This is what is modeled by the [[Thom space]] construction
 
 
 $$
