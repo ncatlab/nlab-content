@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -32,6 +33,23 @@ The above notion of "binary" factorization system can be generalized to factor a
 * This has a generalization to a [[k-ary factorization system]].
 
 * The corresponding 3-ary version for *weak* factorization systems is closely related to the notion of [[model category]] (one of the main applications of weak factorization systems).
+
+
+
+## Related concepts
+
+* **factorization system**
+
+  * [[weak factorization system]]
+
+  * [[orthogonal factorization system]]
+
+* [[factorization system in a 2-category]]
+
+* [[factorization system in an (∞,1)-category]]
+
+  * [[orthogonal factorization system in an (∞,1)-category]]
+
 
 ## References
 
