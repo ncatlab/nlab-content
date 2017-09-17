@@ -78,7 +78,7 @@ There are isomorphisms:
 ###### Examples
 
 
-1.  Keeping in the case where $\mathcal{H} = \{H_1,H_2\}$, so two subgroups of $G$ then we have that $\underset{\cap}{\sqcup} \mathcal{H}\to G$ is an isomorphism if and only if $N( \mathfrak{H})$ is a [[tree]].  This gives one of the basic types of a [[graph of groups]].
+1.  Keeping in the case where $\mathcal{H} = \{H_1,H_2\}$, so two subgroups of $G$ then we have that $\underset{\cap}{\sqcup} \mathcal{H}\to G$ is an isomorphism if and only if $N( \mathfrak{H})$ is a [[tree]].  This gives one of the basic types of a [[graph of groups]]. In more generality, if $\mathcal{H} = \{H_1,\ldots ,H_n\}$ then there is a [[complex of groups]] associated with $N( \mathfrak{H})$.
 
 1.  A more complex family of  examples of the above situation occurs in algebraic K-theory. This has the general linear group, $G\ell _n(R)$, of invertible $n\times n$ matrices together with a family of subgroups corresponding to lower triangular matrices, .... but with some subtleties involved.  
 
