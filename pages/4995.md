@@ -16,11 +16,18 @@
 
 ## Idea
 
-A _cohesive $(\infty,1)$-topos_ is an [[(∞,1)-topos]] $\mathbf{H}$ whose [[global section]] [[geometric morphism]] admits a further [[left adjoint]] $\Pi$ and a further right adjoint $Codisc$: $(\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : \mathbf{H} \to $ [[∞Grpd]], where
+A _cohesive $(\infty,1)$-topos_ is an [[(∞,1)-topos]] $\mathbf{H}$ whose [[global section]] [[geometric morphism]] $\Gamma : \mathbf{H} \to $ [[∞Grpd]] admits a further [[left adjoint]] $\Pi$ and a further right adjoint $Codisc$: 
 
-1. $\Pi$ sends an object $X$ to its [[geometric homotopy groups in an (∞,1)-topos|geometric]] [[schreiber:path ∞-groupoid]], which co-classifies [[locally constant ∞-stack]]s on $X$;
+$$
+  (\Pi \dashv Disc \dashv \Gamma \dashv Codisc) : \mathbf{H} \to \infty Grpd
+$$ 
+
+such that $\Pi$ moreover preserves [[(∞,1)-limit|product]]s. Here
 
 1. $Codisc$ induces an [[(∞,1)-quasitopos]] $Conc(\mathbf{H}) \hookrightarrow \mathbf{H}$ of _concrete_ objects, those that look like [[∞-groupoid]]s _equipped with extra cohesive structure_ : for instance with [[topology]], or with [[smooth structure]].
+
+1. $\Pi$ sends an object $X$ to its [[geometric homotopy groups in an (∞,1)-topos|geometric]] [[schreiber:path ∞-groupoid]], which co-classifies [[locally constant ∞-stack]]s on $X$.
+
 
 The definition of _cohesive $(\infty,1)$ topos_ aims to axiomatize properties of an [[(∞,1)-topos]] that make it a [[gros topos]] of [[space]]s inside of which [[higher geometry]] may take place.
 
@@ -190,7 +197,7 @@ This encodes the [[concrete sheaf|concrete]] objects in $\mathbf{H}$.
 ### Concordance {#Concordance}
 
 Since $\mathbf{H}$ is an [[(∞,1)-topos]] it carries canonically
-the structure of a [[cartesian closed (∞,1)-cateory]]. For  
+the structure of a [[cartesian closed (∞,1)-category]]. For  
 $X, Y \in \mathbf{H}$, write $Y^X \in \mathbf{H}$ for the corresponding
 [[internal hom]].
 
