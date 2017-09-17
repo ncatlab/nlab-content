@@ -71,6 +71,7 @@ bla bla bla
 * [[CartSp]]
 * [[Chevalley-Eilenberg algebra]]
 * [[CoDGCA]]
+* [[coalgebra]]
 * [[L-infinity-algebra]]
 * [[Lie algebra]]
 * [[Lie algebroid]]
@@ -81,7 +82,7 @@ bla bla bla
 * [[Lie's three theorems]]
 * [[Morita equivalence]]
 * [[NQ-supermanifold]]
-* [[coalgebra]]
+* [[orbifold]]
 * [[differentiable stack]]
 * [[examples for Lagrangian BV]]
 * [[free graded co-commutative coalgebra]]
@@ -96,3 +97,4 @@ bla bla bla
 
 
 [[!redirects Lie Theory]]
+category: Lie theory
