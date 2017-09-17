@@ -1,8 +1,14 @@
-# Physics
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Physics
 
 The first relativistic Schroedinger type equation found was Klein-Gordon. At first it did not look that K-G equation could be interpreted physically because of negative energy states and other paradoxes. Dirac proposed to take a square root of [[Laplace operator]] within the matrix-valued differential operators and obtained a Dirac equation; matrix valued generators involved representations of a Clifford algebra. It also had negative energy solutions, but with half-integer spin interpretation which was appropriate the Pauli exclusion principle together with the Dirac sea picture came at rescue (Klein-Gordon is now also useful with more modern formalisms). 
 
-# Mathematics
+## Mathematics
 
 The tangent bundle of an oriented Riemannian $n$-dimensional manifold $M$ is an $SO(n)$-bundle. Orientation means that the first [[Stiefel-Whitney class]] $w_1(M)$ is zero. If $w_2(M)$ is zero than the $SO(n)$ bundle can be lifted to a $Spin(n)$-bundle. A choice of connection on such a $Spin(n)$-bundle is a $Spin$-structure on $M$. There is a standard $n/2$-dimensional representation of $Spin(n)$-group, so called Spin representation, which is depending, if $n$ is odd irreducible, and if $n$ is even it decomposes into the sum of two irreducible representations of equal dimension $S_+$ and $S_-$. Thus we can associate associated bundles to the original $Spin(n)$ bundle $P$ with respect to these representations. Thus we get the **spinor bundles** $E_\pm := P\times_{Spin(n)} S_\pm\to M$
 and $E = E_+\oplus E_-$.
@@ -29,7 +35,11 @@ In Euclidean space the Dirac operator is elliptic, but not in Minkowski space.
 
 The Dirac operator is involved in approaches to the [[Atiyah-Singer index theorem]] about the index of an elliptic operator: namely the index can be easier calculated for Dirac operator and the deformation to the Dirac operator does not change the index. An appropriate version of a Dirac operator is a part of a concept of the [[spectral triple]] in [[noncommutative geometry]] a la [[Alain Connes]]. 
 
-# Literature
+## Related concepts
+
+* [[index of a Dirac operator]]
+
+## Literature
 
 * C. Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
 
@@ -50,5 +60,4 @@ The Dirac operator is involved in approaches to the [[Atiyah-Singer index theore
 
 [[!redirects Dirac operators]]
 
-[[!redirects index of a Dirac operator]] 
 
