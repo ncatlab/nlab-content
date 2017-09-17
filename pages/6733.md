@@ -230,9 +230,13 @@ This condition reduces to the above one for the $B$-field under [[double dimensi
 
 ## References
 
-A review of some aspects is in 
+### General
+
+Reviews include
 
 * [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
+
+* [[David Berman]], _M-theory branes and their interactions_, Phys. Rept. 456:89-126, 2008 ([arXiv:0710.1707](http://arxiv.org/abs/0710.1707))
 
 
 ### $\sigma$-Model description
@@ -297,6 +301,12 @@ The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills 
 * Chong-Sun Chu, Sheng-Lan Ko, _Non-abelian Action for Multiple Five-Branes with Self-Dual Tensors_, ([arXiv:1203.4224](http://arxiv.org/abs/1203.4224)) JHEP05(2012)028
 
 See also ([Witten 11](#Witten11)).
+
+### Open M5-branes
+
+Discussion of open M5-branes ending on [[M9-branes]] in a [[Yang monopole]] is in 
+
+* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys.Rev.Lett.97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193))
 
 ### Sugra solutions
 
