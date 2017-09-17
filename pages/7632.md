@@ -1,0 +1,14 @@
+**Substructural logic** is a general term for [[logic]]s in which the *structural rules*:
+
+* the [[contraction rule]]
+* the [[weakening rule]]
+* the [[exchange rule]]
+
+are not necessarily allowed, or are only allowed with restrictions.
+
+Some particular substructural logics include:
+
+* [[linear logic]], perhaps the best-known to category theorists
+* Some forms of [[relevant logic]] can be regarded as substructural logics.
+
+[[!redirects substructural logics]]
