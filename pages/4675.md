@@ -129,7 +129,31 @@ For the case where the twist is given just by globally defined 3-forms, i.e. by 
 
 We discuss here an explicit computation of the homotopy fibers in the [above definition](#Definition) using tools described at [[∞-Chern-Weil theory]]. That is we describe a model for $\frac{1}{2}\mathbf{p}_1$ in terms of [[Lie integration]] of a morphism in [[∞-Lie algebra cohomology]] (following [SSSIII](#SSSIII)).
 
-In order to compute the [[homotopy pullback]] (see there) as an ordinary [[pullback]], we want to model $\frac{1}{2}\mathbf{p}_1$  by a _fibration_ in the [[model structure on simplicial presheaves]] $[CartSp^{op}, sSet]_{proj,cov}$. To that end, we replace the [[Lie algebra]] $\mathfrak{g}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]]
+At [[circle n-bundle with connection]] is described an explicit model for the [[ordinary differential cohomology]] $\mathbf{H}_{diff}(X,\mathbf{B}^3 U(1))$ as the ordinary [[pullback]]
+
+$$
+  \array{
+    \mathbf{H}_{diff}(C(U), \mathbf{B}^3 U(1))
+    &\to&
+    H_{dR}^4(X)
+    \\
+    \downarrow && \downnarrow
+    \\
+    [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})
+    &\stackrel{curv}{\to}&
+    [CartSp^{op}, sSet]((C(U), \mathbf{\flat}_{dR}\mathbf{B}^4 U(1)_{chn})
+  }
+$$
+
+in the category of [[simplicial presheaves]] over [[CartSp]]. Our strategy is therefore to produce a _fibration_ 
+
+$$
+  \hat \mathbf{B}G \to \mathbf{B}^3 U(1)_{diff,simp}
+$$
+
+in the projective [[model structure on simplical presheaves]] that models the morphism $\frac{1}{2}\mathbf{p}_1$, for that allows to compute the [[homotopy pullback]] in questions (as described there) by an ordinary pullback along $[CartSp^{op}, sSet](C(U), \hat \mathbf{B}G) \to [CartSp^{op}, sSet](C(U), \mathbf{B}^3 U(1)_{diff,simp})$.
+
+To that end, we replace the [[Lie algebra]] $\mathfrak{g}$ by an equivalent [[∞-Lie algebra|Lie 3-algebra]] (following [SSSIII](#SSSIII)).
 
 +-- {: .un_def }
 ###### Definition
@@ -160,10 +184,22 @@ $$
 
 =--
 
-+-- {: .un_prop }
-###### Proposition
+There is a canonical inclusion 
 
-The canonical correspondence
+$$
+  CE(\hat \mathfrak{g})
+  \leftarrow
+  CE(b^2 \mathbb{R}) = (\wedge^\bullet(\langle c \rangle), d =0)
+$$
+
+which includes the generator $c$.
+
+
+
++-- {: .un_lemma }
+###### Lemma
+
+Composition with $CE(\mathfrak{\hat g}) \leftarrow CE(b^2 \mathbb{R})$ induces a fibration
 
 $$
   \array{
@@ -177,9 +213,41 @@ $$
   }
 $$
 
-obtained by projecting out onto the 3-forms induced by the generator $c$ and then integrating is another model for $\frac{1}{2}\mathbf{p}_1$, with the special property that the top morphism is a fibration in $[CartSp^{op}, sSet]_{proj}$.
+in $[CartSp^{op}, sSet]_{proj}$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+A 3-morphism in $\mathbf{cosk}_3 \exp(\hat \mathfrak{g})$ is a based 3-ball $\phi : \Delta^3 \to G$ together with a 2-form $B \in \Omega^2(D^3)$. The morphism sends this to the number 
+
+$$
+  \int_{\Delta^3} (\phi^* \langle \theta\wedge [\theta\wedge \theta]\rangle + d B) \;\; \in \mathbb{R}\;\; mod \;\; \mathbb{Z}
+  \,,
+$$
+
+where $\theta$ is the [[Maurer-Cartan form]]. By the integrality of $\mu$ = \langle -,[-,-]\rangle$ this is well defined.
+
+Now for
+
+$$
+  \array{
+     \Lambda[3]^i &\stackrel{(f,B)}{\to} & \mathbf{cosk}_3(\exp(\hat \mathfrak{g}))
+     \\
+     \downarrow && \downarrow
+     \\
+     \Delta[3] &\stackrel{c}{\to}& \mathbf{B}^3 U(1)
+  }
+$$
+
+a lifting problem, with $c \in U(1)$, and $f : S^2 \to G$ an extension is given by extending $f$ along a smooth [[retract]] $D^3 \to S^2$ identifying the upper hemisphere, and extending $B$ to any 2-form $\hat B \in \Omega^2(D^3 )$ such that $\int_{S^2} B = c - \int_{D^3} \langle \theta\wedge [\theta\wedge \theta]\rangle$. Such a $B$ can always be found. And the same is true for $U$-parameterized families of this problem.
+
+All other lifting problems are trivial, hence we have for each $U \in $ [[CartSp]] a [[Kan fibration]], hence a fibration in $[CartSp^{op}, sSet]_{proj}$.
+
+
+=--
+
 
 With this observation we can read off the cocycles in $String_{diff,tw}(X)$ from the diagrams of dg-algebras in SSSIII.
 
