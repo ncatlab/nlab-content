@@ -55,6 +55,8 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[first order formulation of gravity]]
 
+* [[teleparallel gravity]]
+
 * [[supergravity]]
 
 * [[Plebanski formulation of gravity]], [[gravity as a BF-theory]]
