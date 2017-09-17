@@ -71,6 +71,10 @@ For models of higher categories by [[simplicial set]]s, i.e. presehaves on the [
 
 [[Simpson's conjecture]] says that every $\infty$-category has a model where all [[composition]] operations are strict and only the [[unit law]]s hold up to [[coherent]] homotopies. This would mean that the $\infty$-semicategory underlying any $\infty$-category can always be chosen to be strict.
 
+## Related concepts
+
+* [[semi-Segal space]]
+
 ## References
 
 Semicategories and semigroups are mentioned for instance in section 2 in
