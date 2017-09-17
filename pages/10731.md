@@ -47,12 +47,24 @@ $$
 
 This is due to [Quillen 69](#Quillen69)
 
+
++-- {: .num_remark}
+###### Remark
+
+Moreover, there is a [[Hopf algebroid]] structure over the [[Lazard ring]]
+on the dual generalized [[Steenrod algebra]] $MU_\bullet(MU)$.
+This is the content of the [[Landweber-Novikov theorem]].
+
+=--
+
+
 ## Related theorems
 
 * [[Lazard's theorem]]
 
 * [[Landweber exact functor theorem]]
 
+* [[Landweber-Novikov theorem]]
 
 ## References
 
