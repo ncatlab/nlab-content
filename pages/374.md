@@ -10,21 +10,104 @@
 =--
 
 # Topological spaces
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
+## Idea
+ {#Idea}
+
+The notion of _topological space_ aims to axiomatize the idea of a _[[space]]_ as a collection of [[points]] that hang together ("[[cohesive topos|cohere]]") in a _[[continuous function|continuous]]_ way.
+
+The proverbial motivating example is the surface of a [[torus]] and that of a mug: these are [[isomorphism|isomorphic]] as topological spaces, because, abstractly, the surface of the mug can be deformed _continuously_ to become the standard torus: the continuous cohesion among the collections of points of the two surfaces is the same.
+
+There is a slight generalization of the notion of topological space to that of a _[[locale]]_, which consists of dropping the assumption that all [[neighbourhoods]] are explicitly or even necessarily supported by points. In this form the definition is quite fundamental and can be naturally motivated from just pure [[logic]] -- as the formal dual of _[[frames]]_ --  as well as, and [[duality|dually]], from [[category theory]] in its variant as [[topos theory]] -- by the notion of _[[(0,1)-toposes]]_. 
+
+Topological spaces are the objects studied in _[[topology]]_. 
+By equipping them with a notion of [[weak equivalence]], namely of [[weak homotopy equivalence]], they turn out to support also _[[homotopy theory]]_. 
+
+Topological spaces equipped with extra [[property]] and [[structure]] form the fundament of much of [[geometry]]. For instance a topological space locally isomorphic to a [[Cartesian space]] is a _[[manifold]]_. A topological space equipped with a notion of [[smooth functions]] into it is a [[diffeological space]]. The intersection of these two notions is that of a _[[smooth manifold]]_ on which [[differential geometry]] is based. And so on.
+
+
 ## Definitions
+ {#Definitions}
 
-A **topological space** is a set $X$ equipped with a set of [[subsets]] of $X$, called **[[open sets]]**, which are closed under finite [[intersections]] and arbitrary [[unions]].  Since $X$ itself is the intersection of zero subsets, it is open, and since the empty set $\emptyset$ is the union of zero subsets, it is also open.
+We present first the
+
+* [standard definition](#StandardDefinition)
+
+and then a list of different
+
+* [equivalent definitions](#AlternateDefinitions).
+
+Finally we mention genuine
+
+* [variants of the notion](#Variants).
+
+### Standard definition
+ {#StandardDefinition}
+
++-- {: .num_defn}
+###### Definition
+
+A **topological space** is a [[set]] $X$ equipped with a set of [[subsets]] of $X$, called **[[open sets]]**, which are closed under 
+
+1. finite [[intersections]] 
+1. arbitrary [[unions]].  
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The word 'topology' sometimes means the [[topology|study of topological spaces]] but here it means the collection of open sets in a topological space. In particular, if someone says 'Let $T$ be a topology on $X$', then they mean 'Let $X$ be equipped with the structure of a topological space, and let $T$ be the collection of open sets in this space'.
+
+=--
 
 
-The word 'topology' sometimes means the [[topology|study of topological spaces]] but sometimes the collection of open sets in a topological space. In particular, if someone says 'Let $T$ be a topology on $X$', then they mean 'Let $X$ be equipped with the structure of a topological space, and let $T$ be the collection of open sets in this space'.
++-- {: .num_remark}
+###### Remark
 
+Since $X$ itself is the intersection of zero subsets, it is open, and since the [[empty set]] $\emptyset$ is the union of zero subsets, it is also open. Moreover, every open subset $U$ of $X$ contains the empty set and is contained in $X$
 
-The morphisms between topological spaces are **[[continuous maps]]**: functions $f:X\to Y$ such that the [[preimage]] of any open set is open.
+$$
+  \emptyset \subset U \subset X
+  \,,
+$$
 
+so that the topology of $X$ is determined by a [[poset of open subsets]] $Op(X)$ with [[bottom]] element $\bot = \emptyset$ and [[top]] element $\top = X$. 
 
-## Alternate definitions
+Since by definition the elements in this [[poset]] are closed under finite [[meets]] (intersection) and arbitrary [[joins]] (unions), this poset of open subsets defining a topology is a _[[frame]]_, the _[[frame of opens]]_ of $X$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A [[homomorphisms]] between topological spaces $f : X \to Y$ is a **[[continuous function]]**: 
+
+a [[function]] $f:X\to Y$ of the underlying [[sets]] such that the [[preimage]] of every open set of $Y$ is an open set of $X$.
+
+=--
+
+Topological spaces with continuous maps between them form a [[category]], usually denoted _[[Top]]_.
+
++-- {: .num_remark}
+###### Remark
+
+The definition of [[continuous function]] $f : X \to Y$ is such that it induces a homomorphism of the corresponding [[frames of opens]] the other way around
+
+$$
+  Op(X) \leftarrow Op(Y) : f^{-1}
+  \,.
+$$
+
+And this is not just a morphism of [[posets]] but even of [[frames]].
+For more on this see at _[[locale]]_.
+
+=--
+
+### Alternate equivalent definitions
+ {#AlternateDefinitions}
 
 There are many equivalent ways to define a topological space.  A non-exhaustive list follows:
 
@@ -43,7 +126,8 @@ There are many equivalent ways to define a topological space.  A non-exhaustive 
 * A set with a [[convergence relation]] between [[nets]] or [[filters]] (not just ultrafilters) and points, or even between transfinite [[sequences]] and points, satisfying appropriate axioms.
 
 
-## Variations
+### Variations
+ {#Variants}
 
 The definition of topological space was a matter of some debate, especially about 100 years ago. Our definition is due to [[Bourbaki]], so may be called **Bourbaki spaces**.
 
@@ -71,6 +155,17 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 
 * [[point]]
 
+
++-- {: .num_example}
+###### Example
+
+The [[nLab:Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets [[nLab:topological base|generated from]]: [[nLab:unions]] of [[open balls]] $D^n subset \mathbb{R}^n$.
+
+=--
+
+
+* [[simplex]]
+
 * [[circle]]
 
 * [[Cantor space]]
@@ -84,6 +179,10 @@ Some applications to [[analysis]] require more general [[convergence spaces]] or
 * [[locale]], [[topos]]
 
 * [[proximity space]], [[uniform space]], [[syntopogenous space]]
+
+## References
+
+See at _[[topology]]_.
 
 [[!redirects topological space]]
 [[!redirects topological spaces]]
