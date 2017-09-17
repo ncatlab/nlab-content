@@ -920,3 +920,4 @@ _[[John Baez|John]] says:_ Okay, good: move most of the General Discussion to th
 This General Discussion page has, embedded in the general discussion, a number of important how-to tips and useful conventions (like how to spell $n$-category).  <i>This</i> stuff deserves a page or two here at the $n$Lab.  Maybe some energetic young person can create that.   
 
 category: meta
+
