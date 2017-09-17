@@ -28,7 +28,12 @@ However, in the absence of choice, it is more appropriate to define a skeleton o
 _Mike_: It would be interesting to know the precise strength of the statement "every category is (ana-)equivalent to a skeletal one."
 =--
 
-Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton.
+Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton. A necessary condition for an internal category $X_1 \rightrightarrows X_0$ to have a skeleton is the existence quotient $X_0/X_1$ - the object of orbits under the action of the core of $X$. If the quotient map $X_0 \to X_0/X_1$ has a section, then one could consider $X$ to have a skeleton, but this condition isn't sufficient for the induced inclusion functor to be a weak equivalence of internal categories when this makes sense (i.e. if the category is internal to a site).
+
+
++--{: .query}
+[[David Roberts]]: The claim above about the necessity of the existence of the quotient needs to be checked.
+=--
 
 ## Equivalents of choice
 
