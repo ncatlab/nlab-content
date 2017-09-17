@@ -87,6 +87,8 @@ provided the Hamiltonian is time-independent.
 
 ## Related concepts
 
+* [[Hamilton's equations]]
+
 * [[quantum operator]]
 
 * [[Hamiltonian action]]
