@@ -82,7 +82,7 @@ The next few propositions develop properties of conjugation.
 
 +-- {: .un_prop}
 ######Proposition (Adjointness)
-$\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rangle = \langle u, w\bar{v} \rangle$. $\langle w, u v \rangle = \langle \bar{u} w, v \rangle$ and $\langle w, u v \rangle = \langle w\bar{v}. u \rangle. 
+$\langle u v, w \rangle = \langle v, \bar{u}w \rangle$ and $\langle u v, w \rangle = \langle u, w\bar{v} \rangle$. $\langle w, u v \rangle = \langle \bar{u} w, v \rangle$ and $\langle w, u v \rangle = \langle w\bar{v}. u \rangle$. 
 =-- 
 
 +-- {: .proof}
@@ -257,7 +257,7 @@ These identities, combined with nondegeneracy of the form, give the result.
 
 ### Possible dimensions are 1, 2, 4, and 8. 
 
-This calculation expressed by this fundamental theorem has some remarkable consequences: 
+The calculation expressed by the fundamental theorem just stated has some remarkable consequences: 
 
 * Suppose $V = W + \alpha W$. Then $W$ is an _associative_ composition algebra. 
 
@@ -311,7 +311,7 @@ Hence the doubling process may be iterated three times at most.
 
 The classification of composition algebras over specific fields (e.g., [[number field]]s, [[local field]]s) can be a bit intricate; in this section we concentrate solely on the classical case where $k = \mathbb{R}$, where the results have been known for a long time. 
 
-The fundamental dichotomy is whether or not the composition algebra has zero divisors, i.e., elements $v$ such that $N(v) = 0$. If not, then the composition algebra is a division algebra (every nonzero element is invertible). If so, then the composition algebra is called a **split** composition algebra. We analyze each in turn. 
+A fundamental dichotomy is whether or not the composition algebra has zero divisors, i.e., elements $v$ such that $N(v) = 0$. If not, then the composition algebra is a division algebra (every nonzero element is invertible). If so, then the composition algebra is called a **split** composition algebra. We analyze each in turn. 
 
 +-- {: .un_prop}
 ######Proposition
@@ -351,7 +351,11 @@ Thus, we have established
 The only division composition algebras over $\mathbb{R}$ are the reals, complexes, quaternions, and octonions. 
 =-- 
 
-Now we turn to split composition algebras $V$. Suppose $V = W + \alpha W$, where $\alpha \in W^\perp$, $N(\alpha) \neq 0$. Put $j = \alpha/|N(\alpha)|^{1/2}$, so $|N(j)| = 1$, $V = W + j W$. We have the following possibilities. 
+### Split composition algebras
+
+Now we turn to split composition algebras $V$. It turns out that the structure of these is _not_ specific to the field $\mathbb{R}$: the classification of possible split composition algebras is the same over any field (see the text by Springer and Veldkamp), although we will continue to work over $\mathbb{R}$ as we describe them below. 
+
+Suppose $V = W + \alpha W$, where $\alpha \in W^\perp$, $N(\alpha) \neq 0$. Put $j = \alpha/|N(\alpha)|^{1/2}$, so $|N(j)| = 1$, $V = W + j W$. In addition to the trivial 1-dimensional case, we have the following possibilities. 
 
 * $dim(V) = 2$. In this case $N(j) = -1$ (else $V$ would be a division algebra, not a split composition algebra) and $j^2 = 1$ (we are now using $1$ to denote the identity). The elements 
 $$e_1 = \frac{1 + j}{2} \qquad e_2 = \frac{1-j}{2}$$ 
@@ -359,7 +363,44 @@ are primitive idempotents, conjugate to one another, and $V \cong \mathbb{R} e_1
 
 * $dim(V) = 4$. Let $i$ be a pure imaginary of $W$, so $\bar{i} = -i$ and $|N(i)| = 1$. Here either $N(i) = -1$ ($W$ is split), or $N(i) = 1$ ($W$ is isomorphic to $\mathbb{C}$). In the second instance, $N(j) = -1$, else $V$ would be a division algebra, and we may replace $W$ by the split algebra $W' = \mathbb{R} + \mathbb{R} i j$ and still have $V = W' + j W'$. So without loss of generality we may assume $W$ is split; therefore, there is up to isomorphism only one split composition algebra of dimension 4. This is the algebra of $2 \times 2$ matrices $A$, for which $N(A) = det(A)$ and $W$ is embedded as the subalgebra of diagonal matrices; the element $j$ may be taken to be the matrix $A$ with $a_{11} = a_{22} = 0$, $a_{12} = a_{21} = 1$. The conjugate of a matrix $A$ is $\bar{A} = Tr(A)I - A$, which leads to the familiar formula for $det(A) A^{-1}$ when $A$ is invertible. 
 
-* $dim(V) = 8$. Again, by an argument similar to the one used for the case of dimension 4, we may assume a maximal proper composition subalgebra $W$ is split, and up to isomorphism there is only one split composition algebra of dimension 8. 
+* $dim(V) = 8$. Again, by an argument similar to the one used for the case of dimension 4, we may assume a maximal proper composition subalgebra $W$ is split, and up to isomorphism there is only one split composition algebra of dimension 8. The multiplication may be deduced from the fundamental theorem on doubling multiplication above, or may be expressed as follows. Denote scalars by letters like $r, s$ and 3-vectors by letters like $x, y$. Let $\langle x, y \rangle$ denote the standard inner product 
+$$x_1 y_1 + x_2 y_2 + x_3 y_3$$ 
+and let $x \wedge y$ denote the standard cross-product, so that $\langle x \wedge y, z \rangle = det(x, y, z)$. Elements of $V$ are represented by $2 \times 2$ arrays 
+$$\left( 
+\begin{aligned}
+r & x\\
+y & s
+\end{aligned}
+\right)$$
+and multiplication is given by the following formula, highly reminiscent of matrix multiplication but with some cross-product cross terms: 
+$$\left(
+\begin{aligned}
+r & x\\
+y & s
+\end{aligned}
+\right) 
+\cdot
+\left(
+\begin{aligned}
+r' & x'\\
+y' & s'
+\end{aligned}
+\right) = 
+\left(
+\begin{aligned}
+r r' + \langle x, y' \rangle & r x' + s' x + y \wedge y'\\ 
+r' y + s y' + x \wedge x' & \langle y, x' \rangle + s s'
+\end{aligned}
+\right)
+$$
+The norm is given by a kind of determinant formula 
+$$N\left(
+\begin{aligned}
+r & x\\
+y & s
+\end{aligned}
+\right) = r s - \langle x, y \rangle
+$$
 
 ## Moufang identities
 
@@ -371,7 +412,9 @@ are primitive idempotents, conjugate to one another, and $V \cong \mathbb{R} e_1
 
 * John Baez's [comment](http://golem.ph.utexas.edu/category/2010/03/division_algebras_and_supersym.html#c032790)
 
-* John H. Conway, Derek A. Smith, _On Quaternions and Octonions_, A.K. Peters, 2003.
+* John H. Conway, Derek A. Smith, _On Quaternions and Octonions_, A.K. Peters, 2003. 
+
+* T.A. Springer, F.D. Veldkamp, _Octonions, Jordan algebras, and exceptional groups_, Springer Monographs in Mathematics, Springer-Verlag 2000. 
 
 Related $n$lab entries: [[alternative algebra]], [[Cayley-Dickson construction]]
 
