@@ -1,9 +1,10 @@
+# Monoids
 * ten of clubs
 {:toc}
 
-#Definition#
+## Definitions
 
-##Classical##
+### Classical
 
 Classically, a **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **associative law**:
 
@@ -13,7 +14,8 @@ and the **left and right unit laws**:
 
 $$ 1 \cdot x = x = x \cdot 1 .$$
 
-##In a monoidal category##
+
+### In a monoidal category
 
 More generally, we can define a monoid (sometimes called **monoid object**) in any [[monoidal category]] $(C,\otimes,I)$.  Namely, a **monoid in $C$** is an object $M$ equipped with a multiplication $\mu: M \otimes M \to M$ and a unit $\eta: I \to M$ satisfying the **associative law**:
 
@@ -25,9 +27,12 @@ and the **left and right unit laws**:
 
 Here $\alpha$ is the [[associator]] in $C$, while $\lambda$ and $\rho$ are the left and right [[unitor|unitors]].
 
-Classical monoids are of course just monoids in $(\mathbf{Set},\times,1)$.
+Classical monoids are of course just monoids in [[Set]] with the [[cartesian product]].
 
-## In string diagrams##
+By the [[microcosm principle]], in order to define monoid objects in $C$, $C$ itself must be a "categorified monoid" in some way.  The natural requirement is that it be a [[monoidal category]].  In fact, it suffices if $C$ is a [[multicategory]].  Contrast this with a [[group object]], which can only be defined in a [[cartesian monoidal category]] (or a [[cartesian multicategory]]).
+
+
+### In string diagrams
 
 The data of a monoid may be written in [[string diagrams]] as:
 
@@ -41,7 +46,8 @@ The axioms $\mu \cdot (\eta \otimes M) = 1_M = \mu \cdot (M \otimes \eta)$ and $
 
 [[monoid-axioms-unlabeled.png:pic]]
 
-## As a one-object category ##
+
+### As a one-object category
 
 Equivalently, and more efficiently, we may say that a (classical) monoid is the [[hom-set]] of a [[category]] with a single [[object]], equipped with the structure of its unit element and composition. 
 
@@ -52,7 +58,8 @@ Similarly, a monoid in $(C,\otimes,I)$ may be defined as the [[hom-object]] of a
 
 For more on this see also [[group]].
 
-#Examples#
+
+## Examples
 
 * A monoid in which every element has an inverse is a [[group]]. For that reason monoids are often known (especially outside category theory) as _semi-group_s. (But this term is often extended to monoids without identities, that is to sets equipped with any associative operation.)
 * A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product) is a [[ring]].
@@ -62,14 +69,15 @@ For more on this see also [[group]].
 * A monoid object in the category of monoids (with cartesian product as the tensor product) is a commutative monoid.  This is a version of the [[Eckmann-Hilton argument]].
 * A monoid object in the category of complete join-[[semilattice]]s (with its tensor product that represents maps preserving joins in each variable separately) is a unital [[quantale]].
 * Given any monoidal category $C$, a monoid in the monoidal category $C^{op}$ is called a [[comonoid]] in $C$.
+* In a [[cocartesian monoidal category]], every object is a monoid object in a unique way.
 * For any category $C$, the [[endofunctor]] category $C^C$ has a monoidal structure induced by composition of endofunctors, and a monoid object in $C^C$ is a [[monad]] on $C$.
 
 These are examples of monoids internal to monoidal categories.  More generally, given any [[bicategory]] $B$ and a chosen object $a$, the [[hom-category]] $B(a,a)$ has the structure of a monoidal category.  So, the concept of monoid makes sense in any [[bicategory]] $B$: we define a **monoid in $B$** to be a monoid in $B(a,a)$ for some object $a \in B$.  This often called a [[monad]] in $B$.  The reason is that a monad in [[Cat]] is the same as monad on a category.
 
 A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B$-[[enriched category]] with a single object. 
 
-#Remarks on notation
-(originally from [[category algebra]])
+
+## Remarks on notation
 
 It can be important to distinguish between a $k$-tuply monoidal structure and the corresponding $k$-tuply degenerate category, even though there is a map identifying them. The issue appears here for instance when discussing the universal $G$-bundle in its groupoid incarnation.  This is 
 $$
@@ -130,5 +138,11 @@ $$
 
 In summary, it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identified should be, for instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives.
 
+
+[[!redirects monoid]]
 [[!redirects monoids]]
+
 [[!redirects monoid object]]
+[[!redirects monoid objects]]
+[[!redirects internal monoid]]
+[[!redirects internal monoids]]
