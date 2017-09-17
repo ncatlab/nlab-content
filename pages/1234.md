@@ -96,6 +96,8 @@ _[[numerical motives]]_.
 
 ## Related concepts
 
+* [[sheaf with transfer]]
+
 * [[motive]]
 
 * [[mixed motive]]
@@ -103,6 +105,8 @@ _[[numerical motives]]_.
 * [[Voevodsky motive]]
 
 * [[noncommutative motive]]
+
+
 
 ## References 
 
