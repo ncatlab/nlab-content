@@ -1,9 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+#### Geometric quantization
++--{: .hide}
+[[!include geometric quantization - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The archetypical example of a [[mechanical system]] is a [[particle]] propagating on a [[manifold]] $\Sigma$. The [[phase space]] of this particular system happens to be canonically identified with the [[cotangent bundle]] $X \coloneqq T^* \Sigma$ of $\Sigma$. Here the covector $(x,p)$ in $X$ over a point $x \in \Sigma$ is physically interpretd as describing a [[state]] of the system where the particle is at position $x \in \Sigma$ and has [[momentum]] (essentially: speed) as given by $p$. 
+
+Therefore locally for [[coordinate patch]] $\phi : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to T^* \Sigma$ the $2n$-canonical coordinates of the [[Cartesian space]] $\mathbb{R}^n$ are naturally thought of as decomposed into $n$ "canonical coordinates" on the first $n$ factors and a set of "canonical momenta", being the canonical coordinates on the second $\mathbb{R}^n$-factor.
+
+Notice that "canonical" here refers (at best) to the canonical coordinates of the [[Cartesian space]] $\mathbb{R}^n$ _once $\phi$ has been chosen_. The choice of $\phi$ however is arbitrary. Hence, despite the (standard) term, there is nothing much canonical about these "canonical coordinates" and "canonical momenta".
+
+In general, the [[phase space]] of a [[physical system]] is a [[symplectic manifold]] which need not be a [[cotangent bundle]] as for the [[particle]] [[sigma-model]]. 
+
+But _locally_ over a [[coordinate patch]] every [[symplectic manifold]] looks like $\mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n$ such that under this identification the [[symplectic form]] reads $\sum_{i = 1}^n d q_i \wedge d p^i$, for $\{q_i\}$ the canonical [[coordinates]] on one $\mathbb{R}^n$ and $\{p^i\}$ for the other. 
+
+Therefore generally, in the context of [[mechanics]], with such a local  identification one calls _$p^i$_ the **canonical momentum** of the coordinate (or sometimes "canonical coordinate") $q_i$.
+
+Globally the notion of canonical momenta may not exist at all. The notion that does exist globally is that of a [[polarization]] of a symplectic manifold. See there for more details.
+
+
+## Related concepts
+
+* [[momentum]]
+
+* [[canonical coordinates]]
+
+* [[phase space]]
+
+* [[Hamiltonian mechanics]]
+
+* [[geometric quantization]]
+
 [[!redirects canonical momenta]]
-
-
-Locally a [[symplectic manifold]] looks like $\mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n$ such that under this identification the [[symplectic form]] reads $\sum_{i = 1}^n d q_i \wedge d p^i$, for $\{q_i\}$ the canonical [[coordinates]] on one $\mathbb{R}^n$ and $\{p^i\}$ for the other. 
-
-In the context of [[mechanics]], with such an identification one calls _$p^i$_ the **canonical momentum** of the coordinate (or sometimes "canonical coordinate") $q_i$.
-
-Beware that, despite this terminology, canonical momenta are in fact not canonically given, but require a choice of splitting as above. Moreover, in general such a splitting does not exist globally, on the whole symplectic manifold.
-
