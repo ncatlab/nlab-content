@@ -34,3 +34,5 @@
 [[!redirects weight lattice]]
 [[!redirects weight lattices]]
 
+
+[[!redirects root system]]
