@@ -7,6 +7,7 @@ There are different notions in mathematics called _basis_.  Generally speaking, 
 
 *  the generating [[set]] of a [[free object]]:
    *  [[basis of a free module]],
+   *  [[basis in functional analysis]]
    *  etc ....
 
 Note that the plurals of 'basis' and 'base' are both spelt 'bases' (although their pronunciations differ).
