@@ -340,6 +340,14 @@ For instance section A.3.3 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
+  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
+and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
+
+* [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
+
+
+
 [[!redirects homotopy Kan extensions]]
 [[!redirects left homotopy Kan extension]]
 [[!redirects left homotopy Kan extensions]]
