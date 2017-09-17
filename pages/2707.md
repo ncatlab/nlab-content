@@ -45,7 +45,7 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 
 ##Nori motives##
 
-[[Madham Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _Nori's Tannakian theorem_. 
+[[Madham Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _[[Nori's Tannakian theorem]]_. 
 
 
 ## Related entries##
@@ -71,6 +71,10 @@ In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rig
 A modern introduction to Voevodsky's theory is
 
 * [[Alexander Beilinson|A. Beilinson]], V. Vologodsky, _A DG guide to Voevodsky's motives_, [math.AG/0604004](http://de.arxiv.org/abs/math/0604004)
+
+An outline of the big picture can be found in the introduction to
+
+* [[Dmitri Kaledin]], _Motivic structures in non-commutative geometry_, [arxiv/1003.3210](http://arxiv.org/abs/1003.3210)
 
 Some pretty useful comments on motives are at this MathOverflow thead:
 
