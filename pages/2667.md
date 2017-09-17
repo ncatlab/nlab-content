@@ -51,32 +51,12 @@ Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. 
 
 To understand them more generally, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] enriched over $FinVect_k$, where $k$ is any field of characteristic zero.
 
-+--{.query}
-[[Todd Trimble]]: 
-I wimped out and chose rational vector spaces as the base of enrichment. For one thing, the blog commentary seems to suggest that there are delicate issues in nonzero characteristic. Even in cases where there is no integer torsion, it seems to me that integer divisibility makes certain things come out a lot more cleanly, and (if I am not mistaken) means that certain finite cocompleteness conditions can be relaxed in favor of Cauchy completeness (in the enriched category sense of Lawvere). More on this later. 
-
-[[John Baez]]: You're right that there are special tricky endofunctors 
-$$ F: FinVect_{k} \to FinVect_{k} $$
-that can be defined only when $k$ has characteristic $p$.
-So, using categories enriched over $Vect_k$ with $k$ having characteristic zero is probably a wise idea, at least for starters.  But I'm really hoping that we can drop that in the more sophisticated approach where we work with all symmetric monoidal abelian categories simultaneously and demand pseudonaturality.  I'm hoping this will 'wash out' the tricky functors that only work in characteristic $p$, leaving us with just the Schur functors we know and love.  
-
-[[Todd Trimble]]: Could be! 
-
-[[John Baez]]: By the way, I believe one upshot from the blog discussion so far is that the Schur functors we know and love _do_ work in characteristic $p$... but only if we define them using coinvariants, not invariants!
-
-[[Ben Webster]]: I don't understand pseudo-naturality all that well, but it seems like working with all symmetric monoidal categories simultaneously should just mean taking $\mathbb{Z}$-representations of $S_n$, which certainly will not wash away all the characteristic p problems, but will just hand them all to you simultaneously.  For example, over $\mathbb{Z}$, the functor $X\mapsto X^{\otimes 2}$ doesn't decompose into symmetric and anti-symmetric parts. How does this fit with your picture?
-
-There is a version of the original Schur functors over $\mathbb{Z}$, given by tensor product with [[Specht modules]], but this isn't very canonical.  You could just as easily take [[dual Specht module|dual Specht modules]]. 
-
-=-- 
-
 Recall that the [[group algebra]] $k[S_n]$ decomposes as a direct sum of matrix algebras 
 
 $$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
 
-where $\lambda$ ranges over all $n$-box Young diagrams,
-or in other words, isomorphism classes of irreducible representations of $S_n$, and for each Young diagram $V_\lambda$ is the corresponding irreducible representation.
-At the level of $S_n$-representations, we have
+where $\lambda$ ranges over isomorphism classes of irreducible representations of $S_n$, and $V_\lambda$ is a chosen representative of its isomorphism class.
+In more concrete terms, these representations $V_\lambda$ are labelled by $n$-box [[Young diagram|Young diagrams]].   At the level of $S_n$-representations, we have
 
 $$k[S_n] \cong \bigoplus_{\nu} V_{\nu}$$ 
 
@@ -84,24 +64,25 @@ where this time $\nu$ ranges over $n$-box [[Young tableau]]x, and $V_\nu$ repres
 
 This group algebra lives as a [[monoid]] in the symmetric monoidal category $FinVect_k$. We would like it to also live in $C$.  
 
-To achieve, this let $Sk$ be the skeleton of $FinVect_k$ consisting of the vector spaces $k^n$ and all linear maps between these.   There is an evident linear functor
+To achieve, this let $Sk$ be the [[skeleton]] of $FinVect_k$ consisting of the vector spaces $k^n$ and all linear maps between these.   There is an evident linear functor
 
 $$ Sk \to C $$
 
-sending $k^n$ to $I^n$, where $I$ is the tensor unit in $C$.  
-
-By left Kan extension along the inclusion
-
-$$Sk \hookrightarrow FinVect_k$$ 
-
-we therefore obtain a functor 
+sending $k^n$ to $I^n$, where $I$ is the tensor unit in $C$.  Since $Sk$ is equivalent as a linear category to $Vect_k$, we therefore obtain a linear functor 
 
 $$i: FinVect_k \to C$$ 
 
-which is in fact [[symmetric monoidal functor|symmetric monoidal]].  This therefore maps the group algebra $k[S_n]$ to a monoid in $C$, which we again denote $j[S_n]$ by abuse of notation.  It also maps each of the irreducible representations $V_\lambda$ to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\lambda$. 
+which is in fact [[symmetric monoidal functor|symmetric monoidal]].  
 
-If $X$ is an object of $C$, the symmetric group $S_n$ has a
-representation on $X^{\otimes n}$.  It thus has a representation 
++--{.query} 
+
+Is $i$ the unique symmetric monoidal linear functor from $FinVect_k$ to $C$, up to symmetric monoidal natural transformation?
+
+=--
+
+This functor $i$ therefore maps the group algebra $k[S_n]$ to a monoid in $C$, which we again call $k[S_n]$ by abuse of notation.  It also maps each of the irreducible representations $V_\lambda$ to a corresponding module over the monoid $k[S_n]$ in $C$, which we again denote by $V_\lambda$. 
+
+If $X$ is an object of $C$, the symmetric group $S_n$ has a representation on $X^{\otimes n}$.  It thus has a representation 
 
 $$V_\lambda \otimes X^{\otimes n}$$ 
 
