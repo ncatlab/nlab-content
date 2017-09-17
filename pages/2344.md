@@ -5,9 +5,11 @@
 
 ## Idea
 
-A **derivator** is a refinement of a [[homotopy category]] which includes information about [[homotopy limits]] and colimits, 
+A **derivator** is a refinement of a [[homotopy category]] which also includes information about [[homotopy limits]] and colimits.  In some cases derivators can be used where one might otherwise need to use [[(∞,1)-categories]], which can be helpful since their theory is much simpler and purely (2-)categorical.  They were invented by [[Grothendieck]] and Heller.
 
-The notion was invented by [[Grothendieck]] and Heller.  It can be motivated in several ways.
+## Motivation
+
+The notion of derivator can be motivated in several ways.
 
 ### As a halfway house
 
