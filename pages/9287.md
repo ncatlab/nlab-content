@@ -1,0 +1,49 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _quasitriangular Hopf algebra_ is a [[Hopf algebra]] with the property that its [[category of modules]] is not just a [[rigid monoidal category]] but a [[symmetric monoidal category]].
+
+
+## Definition
+
+(...) e.g. ([Gelaki, 2.1](#Gelaki)) (...)
+
+## Properties
+
+### Tannaka duality
+
+[[!include structure on algebras and their module categories - table]]
+
+
+## References
+
+* Shlomo Gelaki, _On the classification of finite-dimensional triangular Hopf algebras_, New directions in Hopf algebras, MSRI publications volume 43 (2002) ([pdf](http://library.msri.org/books/Book43/files/gelaki.pdf))
+ {#Gelaki}
+
+* Wikipedia, _[Quasitriangular Hopf algebra](http://en.wikipedia.org/wiki/Quasitriangular_Hopf_algebra)_
+
+* Nicolas Andruskiewitsch, [[Pavel Etingof]], Shlomo Gelaki, _Triangular Hopf algebras with the Chevalley property_ ([arXiv:math/0008232](http://arxiv.org/abs/math/0008232))
+
+* [[Pavel Etingof]], Shlomo Gelaki, _On families of triangular Hopf algebras_ ([arXiv:math/0110043](http://arxiv.org/abs/math/0110043))
+
+
+[[!redirects triangular Hopf algebras]]
+
+[[!redirects quasitriangular Hopf algebra]]
+[[!redirects quasitriangular Hopf algebras]]
+[[!redirects quasi-triangular Hopf algebra]]
+[[!redirects quasi-triangular Hopf algebras]]
