@@ -38,6 +38,8 @@ The [[stable homotopy category]] $Ho(Spec)$ is a [[symmetric monoidal category]]
 
 * [[S-theory]]
 
+* [[Anderson duality]]
+
 
 ## References
 
@@ -77,4 +79,4 @@ Vol. 296, No. 1 (Jul., 1986), pp. 151-166
 [[!redirects S-dual]]
 [[!redirects S-duality]]
 
-[[!redirects Alexander-Whitehead-Atiyah duality]]]
+[[!redirects Alexander-Whitehead-Atiyah duality]]
