@@ -61,3 +61,7 @@ Accordingly, [[chain complex]] of vector spaces, possibly that generating a [[se
 
 Beware however that the terminology clashes with the use in [[homotopy theory]], there the concept of _[[finite homotopy type]]_ is crucially different from _[[homotopy type with finite homotopy groups]]_.
 
+## References
+
+* [[Nicolae Popescu]], _Abelian categories with applications to rings and modules_, London Math. Soc. Monographs 3, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+* MathOverflow [m-oplus-n-is-of-finite-type-if-m-n-are-of-finite-type](http://mathoverflow.net/questions/46136/m-oplus-n-is-of-finite-type-if-m-n-are-of-finite-type)
