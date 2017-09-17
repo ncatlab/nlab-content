@@ -64,7 +64,7 @@ intended to
 
 A historical overview of the development of on-shell methods/analytic methods is in 
 
-* [[Lance Dixon]], _Calculuating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+* [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
  {#Dixon13}
 
 
