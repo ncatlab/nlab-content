@@ -531,6 +531,7 @@ $$
   \,.
 $$
 
+For more on this see also the discussion at _[[general covariance]]_.
 
 #### Differential refinement: Spin connection
  {#SpinConnection}
