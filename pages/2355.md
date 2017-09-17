@@ -24,7 +24,7 @@ There are many equivalent definitions of the ordinary notion of [[adjoint functo
 
   The analog of this definition makes sense very generally in [[(∞,1)-category theory]], where $Hom_C(-,-) : C^{op} \times C \to \infty Grpd$ is the $(\infty,1)$-categorical hom-object.
 
-* One other characterization of adjoint functors  in terms of their [[cograph of a functor|cographs]]. At [[cograph of a functor]] it is discussed how two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
+* One other characterization of adjoint functors  in terms of their [[cograph of a functor|cographs]]: the [[Cartesian fibration]]s to which the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-Grothendieck+construction#FibsOverInterval">functor is associated</a>. At [[cograph of a functor]] it is discussed how two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
 
 $$
   (L \dashv R) \Leftrightarrow
@@ -88,7 +88,7 @@ Two [[(∞,1)-functors]] $L : C \to D$ and $R : D \to C$ are called **adjoint** 
 
 * there exists an adjunction $K \to I$ in the above sense
 
-* and $K$ is the [[cograph of a functor|cograph]] of $L$ and the opposite of the cograph of $R^{op}$.
+* and $L$ and $K$ are the <a href="http://ncatlab.org/nlab/show/(infinity%2C1)-Grothendieck+construction#FibsOverInterval">associated functors to</a> the Cartesian fibation $p : K to \Delta[1]$ and the Cartesian fibration $p^{op} : K^{op} \to \Delta[1]^{op}$, respectively. 
 
 =--
 
