@@ -1,0 +1,4 @@
+* [[Thomas M. Fiore]], _Pseudo limits, biadjoints, and pseudo algebras: categorical foundations of conformal field theory_, Memoirs of the American Mathematical Society __182__ (2006), no. 860. 171 pages, [MR2007f:18006](http://www.ams.org/mathscinet-getitem?mr=2007f:18006),  [math.CT/0408298](http://arxiv.org/abs/math.CT/0408298)
+* J.W. Gray, _[[Gray-adjointness-for-2-categories|Formal category theory: adjointness for 2-categories]]_, Lecture Notes in Mathematics __391__, Springer, Berlin, 1974.
+* I. J. Le Creurer, F. Marmolejo, E. M. Vitale, _Beck's theorem for pseudo-monads_, J. Pure Appl. Algebra __173__ (2002), no. 3, 293--313, [MR2003f:18004](http://www.ams.org/mathscinet-getitem?mr=2003f:18004), <a href="http://dx.doi.org/10.1016/S0022-4049(02)00038-5">doi</a>
+[[!redirects pseudo-adjunction]]
