@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,57 +13,66 @@
 =--
 
 
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea 
 
-The familiar notion of the image of a map between [[set]]s, i.e. morphisms in [[Set]], may be formalized to yield a notion of image for [[morphism]]s in an arbitrary [[category]].
+The **image** of a [[function]] $f\colon A\to B$ between [[sets]] is the [[subset]] of $B$ consisting of all those elements $b\in B$ that are of the form $f(a)$ for some $a\in A$.  This notion can be generalized from [[Set]] to other categories, as follows.
 
-If the ambient category has sufficient [[limit]]s and [[colimit]]s, we may understand the notion of image as follows:
+To discuss images in a category $C$, we must first fix a notion of [[subobject]] or [[embedding]] in $C$.  (Sometimes we want these to be the [[monomorphisms]], but sometimes we want the [[regular monomorphisms]] instead.)  Then [[generalized the|the]] **image**  of a [[morphism]] $f\colon A\to B$ in $C$ is a universal factorization of $f$ into a composite $A \to im(f) \to C$ such that $im(f)\to C$ is a subobject, of the specified sort.
 
-A [[monomorphism]] is _regular_ if it behaves like an [[embedding]].
-
-* [[effective epimorphism]] $\Rightarrow$ [[regular epimorphism]] $\Leftrightarrow$ [[covering]]
-
-* [[effective monomorphism]] $\Rightarrow$ [[regular monomorphism]] $\Leftrightarrow$ [[embedding]] .
-
-The universal factorization through an embedding is the _image_ . 
+Note that in this generality, a given morphism may or may not have an image, although if it does, it is unique up to isomorphism by universality.  In many cases, images can be constructed out of [[limits]] and [[colimits]] in the ambient category.  In particular, in a [[regular category]], images (relative to all monomorphisms) can be constructed as the [[quotient object]] of a [[kernel pair]].
 
 
+## Definition
+
+Let $C$ be a [[category]], let $M\subset Mono(C)$ be a subclass of the monomorphisms in $C$, and let $f: c \to d$ be a [[morphism]] in $C$.  The **image** of $f$ is the smallest $M$-[[subobject]] $im(f) \hookrightarrow d$ through which $f$ factors (if it exists).
+
+In other words, it is a factorization $c \overset{e}{\to} im(f) \overset{m}{\to} d$ of $f$ (i.e. $f = m e$) such that $m\in M$, and given any other factorization $f = m' e'$ with $m'\in M$, we have $m \subseteq m'$ as subobjects of $C$ (i.e. $m$ factors through $m'$, $m = m' k$ for some $k$).  Such a factorization is unique up to unique isomorphism, if it exists.
+
+This can be phrased equivalently as follows.  Let $C/d$ be the [[slice category]] of $C$ over $d$, and let $M/d$ be its full subcategory whose objects are $M$-morphisms into $d$.  If all images exist in $C$, then taking the image of a map $f: c \to d$ provides a [[left adjoint]]
+
+$$C/d \to M/d$$ 
+
+to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a single morphism $f\colon c\to d$ is a [[universal arrow]] from $f$ to this inclusion.
 
 
-## Definitions 
+## Examples
 
-There are several definitions that are equivalent when they jointly apply.
+* In [[Set]], for $M=$ monomorphisms = [[injections]], this reproduces the ordinary notion of image.
 
+* In algebraic categories such as [[Grp]], for $M=$ monomorphisms, this also reproduces the ordinary notions of image.
 
-### In terms of subobjects 
+* In [[Top]], for $M=$ [[subspace]] inclusions, the $M$-image is the set-theoretic image topologized as a subspace of the [[target|codomain]].  On the other hand, for $M=$ injective continuous maps, the $M$-image is the set-theoretic image topologized as a quotient space of the [[source|domain]].
 
-Let $C$ be a [[category]], and $f: c \to d$ be a [[morphism]]. The **image** of $f$ is the smallest [[subobject]] $s \subseteq d$ through which $f$ factors (if it exists). There is a [[duality|dual]] notion of _[[coimage|co-image]]_: the largest [[quotient object|quotient]] (in the co-subobject sense) of $c$ through which $f$ factors. 
+* A [[regular category]] can be defined as a [[finitely complete category]] in which all images exist for $M=$ monomorphisms, and such images are moreover stable under [[pullback]].  In particular, this includes any [[topos]].
 
+* In [[Cat]] (considered as a [[1-category]]), the image of a [[functor]] $F\colon A\to B$ is the smallest [[subcategory]] of $B$ which contains images through $F$ of all morphisms in $A$.  Note that some of the morphisms in the image may not be images of any morphism in $A$; all morphisms in the image of $F$ are [[composite|compositions]] in $B$ of $B$-composable sequences of images of morphisms in $A$, but these themselves do not necessarily form $A$-composable sequences of morphisms in $A$.
 
-**Remarks**
-
-* If $C$ admits equalizers, and if $i: k \to d$ represents the image of $f: c \to d$, then the unique map $q: c \to k$ such that $f = i q$ is an epimorphism. Thus, in a finitely complete category in which every morphism admits an image, one obtains in this way an [[weak factorization system|epi-mono factorization]], but the factorization may not have particularly good properties (in particular, the factorization through the image might not be stable with respect to [[pullback]]). 
-
-* The notion of [[regular category]] formalizes a sense in which image factorizations do behave well: factorizations into a [[regular epimorphism]] followed by a mono which are stable under pullback. 
-
-* In [[Cat]], the __image__ of a [[functor]] $F:A\to B$ is the smallest [[subcategory]] of $B$ which contains images through $F$ of all morphisms in $A$.  Some of the morphisms in the image may not be images of any morphism in $A$; all morphisms in the image of $F$ are [[composite|compositions]] in $B$ of $B$-composable sequences of images of morphisms in $A$ which themselves do not necessarily form $A$-composable sequences of morphisms in $A$. Sometimes the notion of   [[essential image]] is more appropriate; as the essential image is only [[equivalence of categories|equivalent]] to the image, this is somewhat $2$-[[2-category|category]]-theoretic point of view.  
+  Usually it is better to treat $Cat$ as a 2-category, in which case one can use a more 2-categorical notion of image.  See, for instance, [[full image]], [[essential image]], and [[replete image]].
 
 
-### As a left adjoint functor
+## Relation to factorization systems
 
-Alternatively, let $C/d$ be the [[over category|slice category]] over $d$, and let $Mono(C)/d$ be the full subcategory whose objects are monos into $d$. Assuming images exist in $C$, taking the image of a map $f: c \to d$ provides a [[adjoint functor|left adjoint]] 
+Suppose that $M$ is closed under composition, and that $f = m e$ is an image factorization relative to $M$.  Then $e$ has the property that if $e = n g$ for some $n\in M$, then $n$ is an isomorphism --- for then we would have $f = (m n) g$ and so by universality of images, $m$ would factor through $m n$.  In particular, if $M$ is the class of all monomorphisms and $C$ has [[equalizers]], then $e$ is an [[extremal epimorphism]].
 
-$$C/d \to Mono(C)/d$$ 
+If $C$ has [[pullbacks]] and $M$ is closed under pullbacks, then we can say more: $e$ is [[orthogonality|orthogonal]] to $M$.  For if
+$$\array{ & \overset{h}{\to} & \\
+  ^e\downarrow && \downarrow^n\\
+  & \underset{k}{\to} & }$$
+is a commutative square with $n\in M$, then the pullback $k^*n$ is an $M$-morphism through which $e$ factors.  Hence $k^*n$ must be an isomorphism, and so the square admits a diagonal filler, which is unique since $n\in M$ is monic.  It follows that if all $M$-images exist in $C$, then $M$ is the right class of an [[orthogonal factorization system]], and $M$-images are precisely the factorizations in this OFS.
 
-to the inclusion $Mono(C)/d \hookrightarrow C/d$. 
+Conversely, it is easy to see that if $(E,M)$ is an OFS on a category $C$, then all $M$-images exist and are given by the factorizations of the OFS.  Therefore, to give a notion of image is more or less equivalent to giving an orthogonal factorization system.
 
+### Duality
 
-### As an equalizer {#AsEqualizer}
+Note that the notion of factorization system is self-dual.  Therefore, if $(E,M)$ is a factorization system and $c \overset{e}{\to} a \overset{m}{\to} d$ is an $(E,M)$-factorization of $f\colon c\to d$, then not only is $m$ the $M$-image of $f$ (the largest $M$-subobject through which $f$ factors), but dually $e$ is also the **$E$-coimage** of $f$, i.e. the smallest $E$-quotient through which $f$ factors.
+
+However, see below for additional remarks on the usage of the terms "image" and "coimage."
+
+## Construction using limits
 
 If the category $C$ admits finite [[limits]] and [[colimits]], then the image $Im f$ of a morphism $f : c \to d$ my be expressed as 
 
@@ -202,6 +210,7 @@ exists uniquely.
   * in a [[presentable (infinity,1)-category]] or [[model category]] there is the notion of [[homotopy image]].
 
 * If the factorization of a morphism $f$ through its image is by an [[isomorphism]] then the morphism probably deserves to be called an [[embedding]].
+
 
 ## In higher category theory 
 
