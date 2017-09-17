@@ -9,9 +9,14 @@
 =--
 =--
 
-A **sequential (co)limit** is a [[limit]]/[[colimit]] whose [[diagram]] category is an [[ordinal]] or its [[opposite poset|opposite]] (regarded as a [[poset]], regarded as a [[category]]).  Sometimes the term is used even more specifically for a (co)limit over the ordinal $\omega$.
+## Definition
+
+A **sequential (co)limit** is a [[limit]]/[[colimit]] whose [[diagram]] category is an [[ordinal]] or its [[opposite poset|opposite]] (regarded as a [[poset]], regarded as a [[category]]). For instance over a [[tower diagram]]. 
+
+ Sometimes the term is used even more specifically for a (co)limit over the ordinal $\omega$.
 
 Thus, a sequential limit is a special case of a [[directed limit]]. See there for more details.
+
 
 
 [[!redirects sequential limit]]
