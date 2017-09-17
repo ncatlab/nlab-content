@@ -5,7 +5,8 @@
 ###Context###
 #### Homotopy theory
 +--{: .hide}
-[[!include homotopy - contents]]=--
+[[!include homotopy - contents]]
+=--
 #### Model category theory
 +--{: .hide}
 [[!include model category theory - contents]]
@@ -334,6 +335,57 @@ This is [[Higher Topos Theory|HTT, theorem 4.2.4.1]]. Some details on the proof 
 
 The notion of [[derivator]] is largely a tool for handling homotopy Kan extensions. See there for details.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Properties
+
+### Pointwise homotopy Kan extensions
+ {#Pointwise}
+
+Under suitable conditions (but typically) homotopy Kan extensions may be computed [pointwise](Kan+extension#Pointwise) by [[homotopy colimits]].
+
+Discussion of pointwise homotopy Kan extensions in [[cofibration categories]] is in ([Radulescu-Banu 06, theorem 9.6.5](#Radulescu-Banu06)). This is reviewed in the context of [[model categories]] in ([Cisinski 09, prop. 1.14](#Cisinski09)). In the more general context of [[relative categories]] discussion is in ([Gonzales 11, section 4](#Gonzales11)).
+
+See also at [(∞,1)-Kan extension -- Properties -- Pointwise](/%28infinity%2C1%29-Kan+extension#Pointwise).
+
+
+
+
 ## References
 
 General theory of homotopy Kan extensions is discussed in  
@@ -354,8 +406,12 @@ A list of basic properties is in
 
 Pointwise [[homotopy Kan extensions]] are discussed in 
 
-* {#Gonzales11} Beatriz Rodriguez Gonzalez, section 4 of _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
+* {#Radulescu-Banu06} Andrei Radulescu-Banu, _Cofibrations in Homotopy Theory_ ([arXiv:0610009](http://arxiv.org/abs/math/0610009))
 
+* {#Cisinski09} [[Denis-Charles Cisinski]], _Locally constant functors_, Math. Proc. Camb. Phil. Soc. (2009), 147, 593 ([pdf](http://www.math.univ-toulouse.fr/~dcisinsk/lcmodcat3.pdf))
+
+
+* {#Gonzales11} Beatriz Rodriguez Gonzalez, section 4 of _Realizable homotopy colimits_ ([arXiv:1104.0646](http://arxiv.org/abs/1104.0646))
 
 
 
