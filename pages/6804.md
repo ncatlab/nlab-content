@@ -21,7 +21,7 @@ The [[D-brane]] of [[dimension]] $1+1$ in [[type IIB string theory]]. Also calle
 
 ### S-duality with the fundamental string
 
-Under [[S-duality]] the D1-brane mixes with the [[fundamental string]]. 
+Under [[S-duality]] the D1-brane mixes with the [[fundamental string]] to form the [[(p,q)-string]].
 
 A formalization of this in terms of the [[homotopy theory]] of the [[super L-infinity algebras]] which constitute the respective [[extended super spacetimes]] is in ([FSS 13](#FSS13)).
 
