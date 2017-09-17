@@ -242,6 +242,8 @@ is discussed there in definition 14.7.8 on p. 269.
 
 * [[saturated class of limits]]
 
+* [[weighted colimit]]
+
 #References#
 
 A standard reference is
