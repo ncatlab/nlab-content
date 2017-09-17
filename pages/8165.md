@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _$G_2$-MSSM_ is an [[MSSM]] [[model (in particle phyiscs)]] motivated from [[Kaluza-Klein mechanism|compactification]] of [[M-theory]] on a 7-dimensional [[G2-manifold]], hence a model in [[string phenomenology]].
+
+Among its attractive properties are a working [[moduli stabilization]] together with a possibility to accomodate the [[Higgs particle]] at the observed [[energy]] of around 125 GeV together with reasonable [[dark matter]] and without need of [[fine tuning]].
+
+## References
+
+A comprehensive account is in 
+
+* Bobby S. Acharya, Konstantin Bobkov, Gordon L. Kane, Piyush Kumar, Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
+
+Original articles on which this is based include
+
+* Bobby S. Acharya, Konstantin Bobkov, Gordon L. Kane, Piyush Kumar, Jing Shao, _Explaining the Electroweak Scale and Stabilizing Moduli in M Theory_ ([arXiv:hep-th/0701034](http://xxx.lanl.gov/abs/hep-th/0701034)) 
+
+* Bobby Acharya, Konstantin Bobkov, Gordon Kane, Piyush Kumar, Diana Vaman, _An M theory Solution to the Hierarchy Problem_ ([arXiv:hep-th/0606262](http://arxiv.org/abs/hepth/0606262))
+
+A review of the specific phenomenological properties is in 
+
+
+* Bobby Samir Acharya, Gordon Kane, Piyush Kumar, _Compactified String Theories -- Generic Predictions for Particle Physics_,  Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+
