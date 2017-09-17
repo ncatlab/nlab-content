@@ -19,19 +19,19 @@
 
 Algebraic K-theory is about natural constructions of [[cohomology theories]]/[[spectra]] from [[algebra|algebraic]] data such as [[commutative rings]], [[symmetric monoidal categories]] and various [[homotopy theory|homotopy theoretic]] refinements of these. 
 
-The _algebraic K-theory_ of a [[commutative ring]] $R$ was originally defined to be the [[Grothendieck group]] of its [[category]] of [[projective modules]]. Under the [relation between modules and vector bundles](module#RelationToVectorBundlesInIntroduction) this is directly analogous to the basic definition of [[topological K-theory]] and hence the common term.
+The _algebraic K-theory_ of a [[commutative ring]] $R$ was originally defined to be the [[Grothendieck group]] of its [[category]] of [[projective modules]]. Under the [relation between modules and vector bundles](module#RelationToVectorBundlesInIntroduction) this is directly analogous to the basic definition of [[topological K-theory]] and hence the common term. (In fact when applied to the _[[stack]]_ of [[vector bundles]] then algebraic K-theory subsumes [[topological K-theory]] and also [[differential K-theory]], see [below](#OnMonoidalStacks)).
 
-More generally, following the axiomatics of _[[generalized (Eilenberg-Steenrod) cohomology]]_ any _algebraic K-theory_ should be given by a sequence of [[functors]] $K_i$ from some suitable class of [[categories]] of "algebraic nature" to [[abelian groups]], satisfying some natural conditions. Moreover, following the [[Brown representability theorem]] thesse groups should arise as the [[homotopy groups]] of a [[spectrum]], the algebraic _[[K-theory spectrum]]_. Classical constructions producing this by combinatorial means are known as the _[[Quillen Q-construction]]_ defined on _[[Quillen exact categories]]_ and more generally the _[[Waldhausen S-construction]]_ defined on _[[Waldhausen categories]]_.
+More generally, following the axiomatics of _[[generalized (Eilenberg-Steenrod) cohomology]]_ any _algebraic K-theory_ should be given by a sequence of [[functors]] $K_i$ from some suitable class of [[categories]] of "algebraic nature" to [[abelian groups]], satisfying some natural conditions. Moreover, following the [[Brown representability theorem]] these groups should arise as the [[homotopy groups]] of a [[spectrum]], the algebraic _[[K-theory spectrum]]_. Classical constructions producing this by combinatorial means are known as the _[[Quillen Q-construction]]_ defined on _[[Quillen exact categories]]_ and more generally the _[[Waldhausen S-construction]]_ defined on _[[Waldhausen categories]]_.
 
 For more on the history of the subject see ([Arlettaz 04](#Arlettaz04)) and see at at _[[Algebraic K-theory, a historical perspective]]_.
 
 There are two ways to think of the traditional algebraic K-theory of a commutative ring more conceptually: on the one hand this construction is the [[group completion]] of the [[direct sum]] [[symmetric monoidal category|symmetric monoidal]]-structure on the [[category of modules]], on the other hand it is the group completion of the addition operation expressed by [[short exact sequences]] in that category. This leads to the two modern ways of expressing and viewing algebraic K-theory:
 
-1. **monoidal.** The [[core]] of a [[symmetric monoidal category]] or more generally of a [[symmetric monoidal (∞,1)-category]] has a [[universal construction|universal]] completion to an [[abelian ∞-group]]/[[connective spectrum]] optained by universally adjoining [[inverses]] to the symmetric monoidal operation. This yields the concept of [[K-theory of a permutative category|algebraic K-theory of a symmetric monoidal category]] and more generally that of [[algebraic K-theory of a symmetric monoidal (∞,1)-category]];
+1. **monoidal.** The [[core]] of a [[symmetric monoidal category]] or more generally of a [[symmetric monoidal (∞,1)-category]] has a [[universal construction|universal]] completion to an [[abelian ∞-group]]/[[connective spectrum]] optained by universally adjoining [[inverses]] to the symmetric monoidal operation -- the [[∞-group completion]]. This yields the concept of [[K-theory of a permutative category|algebraic K-theory of a symmetric monoidal category]] and more generally that of [[algebraic K-theory of a symmetric monoidal (∞,1)-category]];
 
 1. **exact/stable.** Analogously, inverting the addition operation expressed by the [[exact sequences]] in an [[abelian category]] or more generally in a [[stable (∞,1)-category]] yields the [[algebraic K-theory of a stable (∞,1)-category]]. Explicit ways to express this are known as the  _[[Quillen Q-construction]]_ and the _[[Waldhausen S-construction]]_. This turns out to be a universal construction in the context of [[non-commutative motives]].
 
-Here the second construction may be understood as first [[split exact sequence|splitting]] the [[exact sequences]] and the applying the first construction to the resulting [[direct sum]] monoidal structure. Typically the first construction here contains more information but is harder to compute, and vice versa (see also MO-discussion [here](http://mathoverflow.net/a/98602/381) and [here](http://mathoverflow.net/a/102583/381)).
+Here the second construction may be understood as first [[split exact sequence|splitting]] the [[exact sequences]] and then applying the first construction to the resulting [[direct sum]] monoidal structure. Typically the first construction here contains more information but is harder to compute, and vice versa (see also MO-discussion [here](http://mathoverflow.net/a/98602/381) and [here](http://mathoverflow.net/a/102583/381)).
 
 
 Both of these constructions produce a [[spectrum]] (hence [[Brown representability theorem|representing]] a [[generalized (Eilenberg-Steenrod) cohomology theory]]) -- called the _[[K-theory spectrum]]_ -- and the algebraic K-theory groups are the [[homotopy groups]] of that spectrum.
@@ -44,7 +44,7 @@ The classical case of the algebraic K-theory of a commutative ring $R$ is a spec
 
 
 
-## More Details
+## Constructions
 
 
 ### Classical constructions
@@ -89,6 +89,12 @@ See at
 
 ## Properties
 
+### Relation to non-commutative topology and non-commutative motives
+ {#RelationToKKAndMotives}
+
+[[!include noncommutative motives - table]]
+
+
 ### Regulators (relation to ordinary cohomology)
 
 See at _[[Beilinson regulator]]_.
@@ -103,6 +109,16 @@ See at _[[Beilinson regulator]]_.
 * [[red-shift conjecture]]
 
 [[!include chromatic tower examples - table]]
+
+
+## Examples
+
+### On monoidal stacks
+ {#OnMonoidalStacks}
+
+Algebraic K-theory is traditionally applied to single [[symmetric monoidal (∞,1)-categories|symmetric monoidal]]/[[stable (∞,1)-category|stable]] [[(∞,1)-categories]], but to the extent that it is [[(∞,1)-functor|functorial]] it may just as well be applied to [[(∞,1)-sheaves]] with values in these.
+
+Notably, applied to the monoidal [[stack]] of [[vector bundles]] (with [[connection on a bundle|connection]]) on the [[site]] of [[smooth manifolds]], the [[K-theory of a symmetric monoidal (∞,1)-category|K-theory of a monoidal category]]-functor produces a [[sheaf of spectra]] which is a form of [[differential K-theory]] and whose [[geometric realization]] is the [[topological K-theory]] spectrum. For more on this see at _[differential cohomology hexagon -- Differential K-theory](differential%20cohomology%20diagram#DifferentialKTheory)_.
 
 
 ## Related concepts
