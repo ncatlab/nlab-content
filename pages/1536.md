@@ -67,7 +67,7 @@ $$
   \,.
 $$
 
-This equivalence notably allows to discuss [[stack]]s equivalently as pseudofunctors or as groupoid fibrations (in each case satisfying a [[descent]] condition with respect to a [[Grothendieck topology]] on $D$).
+This equivalence notably allows one to discuss [[stack]]s equivalently as pseudofunctors or as groupoid fibrations (in each case satisfying a [[descent]] condition with respect to a [[Grothendieck topology]] on $D$).
 
 The Grothendieck construction is one of the central aspects of [[category theory]], together with the notions of universal constructions such as [[limit]], [[adjunction]] and [[Kan extension]]. It is expected to have suitable analogs in all sufficiently good contexts of [[higher category theory]]. Notably there is an [[(∞,1)-Grothendieck construction]] in [[(∞,1)-category]] theory.
 
