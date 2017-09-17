@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
