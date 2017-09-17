@@ -88,7 +88,7 @@ A closely related question is:
 
 > _What is the path integral_ ? 
 
-After its conception by Feynman in the middle of the 20th century It was notably Edward Witten's achievement in the late 20th century to make clear the vast potential for fundamental physics and pure math underlying the concept of the quantum field theoretic path integral.
+After its conception by [[Richard Feynman]] in the middle of the 20th century It was notably [[Edward Witten]]'s achievement in the late 20th century to make clear the vast potential for fundamental physics and pure math underlying the concept of the quantum field theoretic path integral.
 
 And yet, among all the aspects of QFT, the notion of the path integral is the one that has resisted attempts at formalization the most.
 
@@ -96,7 +96,7 @@ While [[FQFT|functorial quantum field theory]] is the formalization of the prope
 
 The single major insight into the right [[higher category theory|higher categorical]] formalization of the path integral is probably the idea indicated in
 
-* Dan Freed
+* [[Dan Freed]]
 
   * _Quantum groups from path integrals_ ([arXiv](http://xxx.lanl.gov/abs/q-alg/9501025))
 
@@ -115,9 +115,7 @@ More recently, one sees attempts to formalize this observation of Freed's, notab
 
 * [[geometric infinity-function theory]] is used to compute at least something like a path integral in codimension 1 and 2 in the context of [[sigma-model]] QFT;
 
-* something not unsimilar is [[schreiber:Nonabelian cocycles and their sigma model QFTs|here]], the underlying idea of which for a toy example is spelled out at
-
-  *[[exercise in groupoidification - the path integral]];
+* see [[path integral as a pull-push transform]]
 
 * and something similar or is indicated in section 3 and section 6 of
 
