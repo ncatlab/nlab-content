@@ -41,6 +41,8 @@ Given a [[category]] $X$, the [[functor category]] $[I,X]$ for $I$ the [[interva
 
 ## Related concepts
 
+* [[free groupoid]]
+
 * [[free monoid]], [[free operad]]
 
 [[!redirects path category]]
