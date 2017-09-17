@@ -1,0 +1,14 @@
+
+## Idea
+
+The next [[Pontryagin class]] afer
+
+* [[first fractional Pontryagin class]]
+
+* [[second fractional Pontryagin class]]
+
+
+## Related concepts
+
+[[!include higher spin structure - table]]
+
