@@ -185,7 +185,7 @@ For example, we can conclude:
 
 +-- {: .num_cor #LocallNullFinalFF}
 ###### Corollary
-If $f\colon A\to B$ is a locally null-final functor between categories with zeros, then for any pointed derivator $D$, the functor $f_!\colon D(A,A_0) \to D(B,B_0)$ is fully faithful.
+If $f\colon A\to B$ is a fully faithful and locally null-final functor between categories with zeros, then for any pointed derivator $D$, the functor $f_!\colon D(A,A_0) \to D(B,B_0)$ is fully faithful.
 =--
 +-- {: .proof}
 ###### Proof
