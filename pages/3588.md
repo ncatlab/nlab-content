@@ -1,34 +1,25 @@
 **[[type theory]]** ([[extensional type theory|extensional]], [[intensional type theory|intensional]])
 
-**[[homotopy type theory]]**
-
-# Types, logic and theories
+# Basic notions
 
 * [[theory]]
 
-  * [[signature (in logic)]]
+  * [[signature (in logic)]], [[type]], [[context]], [[predicate]], [[axiom]], [[proof]]
 
-  * [[type]]
+# Notions of type
 
-    * [[propositions as types]], [[inductive type]], [[dependent type]]
+[[!include notions of type]]
 
-  * [[context]]
-
-  * [[predicate]]
-
-  * [[axiom]]
+# Models
 
 * [[display map]]
 
 * [[internal logic]], [[categorical semantics]]
 
+* [[internal logic of a topos]]
+
   * [[Mitchell-Benabou language]]
 
-  * [[internal logic of an (∞,1)-topos]]
-
-# Specific types
-
-* [[function type]], [[identity type]]
-
+* [[internal logic of an (∞,1)-topos]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/type+theory+-+contents)</div>
