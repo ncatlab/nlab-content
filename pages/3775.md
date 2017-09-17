@@ -13,7 +13,7 @@ Disclaimer: This page is created mainly to have more navigability within the $n$
 
 * [[Gerd Faltings]], [[Edward Frenkel]], [[William Fulton]]
  
-* [[Ofer Gabber]], [[Victor Ginzburg]], [[Alexander Goncharov]], [[Phillip Griffiths]], [[Alexandre Grothendieck]]
+* [[Ofer Gabber]], [[Dennis Gaitsgory]], [[Victor Ginzburg]], [[Alexander Goncharov]], [[Phillip Griffiths]], [[Alexandre Grothendieck]]
 
 * [[Joseph Harris]], [[Robin Hartshorne]], [[David Hilbert]], [[Heisuke Hironaka]], [[André Hirschowitz]], [[Friedrich Hirzebruch]], [[Nigel Hitchin]], [[William Hodge]]
 
