@@ -1,3 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
 The __complement__ of a [[subset]] $S$ of a set $X$ is the set
 $$
 \tilde{S} = \{ a: X \;|\; a \notin S \}
@@ -6,7 +26,7 @@ $$
 
 Notice that $S \cap \tilde{S} = \empty$, while $S \cup \tilde{S} = X$ by the principle of [[excluded middle]].  
 
-The __complement__ of an element $S$ of a [[lattice]] is (if it exists) the unique element $\tilde{S}$ such that $S \wedge \tilde{S} = \bot$ and $S \vee \tilde{S} = \top$.  Such complements always exist in a [[Boolean algebra]].
+The __complement__ of an element $S$ of a [[lattice]] is (if it exists) the unique element $\tilde{S}$ such that $S \wedge \tilde{S} = \bot$ and $S \vee \tilde{S} = \top$.  If all complements exists one speaks of a [[complemented lattice]]. Examples are [[Boolean algebras]].
 
 More generally, the __pseudocomplement__ of an element $S$ of a [[Heyting algebra]] is given by $\tilde{S} = S \Rightarrow \bot$.  This satisfies $S \wedge \tilde{S} = \bot$ but not $S \vee \tilde{S} = \top$ in general.  This case includes the complement of a subset even in [[constructive mathematics]].
 
@@ -14,6 +34,9 @@ In another direction, the __complement__ of a [[complemented subobject]] $S$ of 
 
 The complement of a [[truth value]] (seen as a subset of the [[point]]) is called its _[[negation]]_.
 
+## Related concepts
+
+* [[orthocomplemented lattice]]
 
 [[!redirects complement]]
 [[!redirects complements]]
