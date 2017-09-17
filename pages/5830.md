@@ -270,6 +270,10 @@ together with the map `inl`, `inr` and the homotopy `glue`.
 
 * [[HoTT methods for homotopy theorists]]
 
+* [[modal homotopy type theory]]
+
+* [[geometric homotopy type theory]]
+
 * [[cohesive homotopy type theory]]
 
 * [[directed homotopy type theory]]
