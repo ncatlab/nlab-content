@@ -689,7 +689,7 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
 We discuss examples of Kan extensions that are not point-wise
 
-* ([Borceux, I exercise 3.9.7](#Borceux))
+* Borceux, _[[Handbook of Categorical Algebra]]_ I exercise 3.9.7
 
 ### Restriction and extension of sheaves 
 
