@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _manifold_ is a [[topological space]] which looks locally like a [[Cartesian space]], commonly a finite-dimensional Cartesian space $\mathbb{R}^n$ but possibily an infinite-dimensional [[topological vector space]]-
+A _manifold_ is a [[topological space]] which looks locally like a [[Cartesian space]], commonly a finite-dimensional Cartesian space $\mathbb{R}^n$ but possibly an infinite-dimensional [[topological vector space]]-
 
 What "locally looks like" means depends on what sort of structure we are considering a Cartesian space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a [[topological space]]. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure, such as $C^k$-[[differential structure]], [[smooth structure]], piecewise-linear (PL) structure, real [[analytic function|analytic structure]], affine structure, hyperbolic structure, foliated structure, etc., etc. Accordingly we have notions of [[topological manifold]], [[differential manifold]], [[smooth manifold]], etc. By default these are modeled on finite [[dimension]]al spaces, but most notions have generalizations to a corresponding notion of [[infinite dimensional manifold]].
 
@@ -48,7 +48,7 @@ Commonly used choices for $X$ in def. \ref{Pseudogroup} include
 
 * the [[complex plane]] $\mathbb{C}^n$ (for [[complex manifolds]])
 
-* the half-space $$H^n = \{(x_1, \ldots, x_n) \in \mathbb{R}^n: x_1 \geq 0\}$$ (for [[manifolds with boundary]])
+* the half-space $H^n = \{(x_1, \ldots, x_n) \in \mathbb{R}^n: x_1 \geq 0\}$ (for [[manifolds with boundary]])
 
 * the $n$-[[cube]] $I^n = [0, 1]^n$. 
 
@@ -108,7 +108,7 @@ Usually, in the definition of manifold it is understood that the underlying topo
 
 1. is a [[paracompact topological space]];
 
-Often it is also assumeed that the topology has a countable [[basis of a topology|basis]] as well. 
+Often it is also assumed that the topology has a countable [[basis of a topology|basis]] as well. 
 
 In the typical cases mentioned above for $X$, this will mean that $M$ is [[metric space|metrizable]]. In many studies, for example in 
 [[cobordism theory]], one goes even further and assumes the manifolds are [[compact space|compact]].
