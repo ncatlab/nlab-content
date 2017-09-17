@@ -65,8 +65,14 @@ $$
 $$
 and the classification of weak orthogonal structures is essentially a study of how well that diagram extends over the base space.
 
+## Related concepts
+
+* [[vielbein]]
+
 ## References
 
 * _How to Construct a Dirac Operator in Infinite Dimensions_ [[Andrew Stacey]] [0809.3104](http://arxiv.org/abs/0809.3104)
 
 * _The Co-Riemannian Structure of Smooth Loop Spaces_ [[Andrew Stacey]] [0809.3108](http://arxiv.org/abs/0809.3108)
+
+[[!redirects orthogonal structures]]
