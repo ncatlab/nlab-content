@@ -181,7 +181,7 @@ If one thinks of a [[dg-coalgebra]] as presenting a
 a derived formal space, as discuss [below](#SheavesOverCosimplicialInfinitesimallyThickenedPoints)
 then its image under $\mathcal{L}$, prop. \ref{LeftAdjointFromDgCoAlgToDgAlg}, 
 may be thought of as its
-_tangen dg-Lie algebra_. Therefore $\mathcal{L}$
+_tangent dg-Lie algebra_. Therefore $\mathcal{L}$
 is also called the **tangent Lie algebra functor**.
 
 =--
