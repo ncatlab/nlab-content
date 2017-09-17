@@ -1,3 +1,3 @@
-Cefn Druids v Cefn Druids Alumni XI,Michael Kors, kick-off on Tuesday 10 August at 18.45 BST. All proceeds go to Nightingale House Hospice, Wrexham.
- <a href="http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-furious-4216-c-29.html" >Ray Ban Furious 4216</a>
-[url=http://www.destinationvenus.co.uk/RayBannfashion-2014.asp?fashion=ray-ban-furious-4216-c-29.html]Ray Ban Furious 4216[/url]
+"The general rule..buy what you love," Brack said.
+ <a href="http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=ray-ban-wayfarer-9" >Ray Ban Wayfarer</a>
+[url=http://www.dragidol.co.uk/RayBannonlinesales-2014.asp?onlinesales=ray-ban-wayfarer-9]Ray Ban Wayfarer[/url]
