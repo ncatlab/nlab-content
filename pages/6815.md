@@ -20,7 +20,9 @@ There are two types of [[black brane]] solutions in [[11-dimensional supergravit
 
 * [[M2-brane]]
 
-* [[M5-brane]].
+* [[M5-brane]]
+
+* [[M9-brane]]
 
 The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The M5-brane is the dual magnetic charge.
 
