@@ -7,7 +7,7 @@
 ## Models in Modal Logics ## 
 To give the standard (geometric) semantics of [[modal logics]], one needs models and these will be discussed here and in the companion [[algebraic models for  modal logics]].
 
-(This outlines the basics of the **Kripke semantics** of these logics.)
+(This outlines the basics of the semantics often called **Kripke semantics** of these logics. We concentrate on modal languages with unary modalities and therefore on relational structures with binary relations in them only.  This is largely for the sake of keeping the exposition fairly straightforward and simple.  This means the frames used will be 'Kripke frames'.  There may be a need later (or elsewhere in the Lab) to discuss more general frames.) 
 
 ###Models in Monomodal Logics###
 
@@ -45,6 +45,10 @@ Suppose that $w$ is a state in a model $\mathfrak{M} = (W,R,V)$.  We inductively
 =--
 
 ###Notes###
+
+1. The terminology used in talking about 'satisfaction' tends to interpret $\mathfrak{M},v \models \phi$ as saying the formula $\phi$ is **true** in $\mathfrak{M}$ at state $v$.  We will adopt this usage, but we will avoid entering into the niceties of discussing 'what is truth?',... at least in this entry!
+ 
+
 1. $\mathfrak{M},w \models \square \phi$ if and only if $\forall v\in W$ $ R w n$ implies $\mathfrak{M},v \models  \phi$. (The proof is fairly routine manipulation of negations.)
 
 
