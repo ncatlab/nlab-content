@@ -1,3 +1,9 @@
+# Finite categories
+* table of contents
+{: toc}
+
+## Definition
+
 A **finite category** $C$ is a [[category]] [[internal category|internal to]] the category [[FinSet]] of finite sets.
 
 This means that a finite category consists of
@@ -10,11 +16,13 @@ Similarly, a **locally finite category** is a category [[enriched category|enric
 
 (Locally) finite categories may also be called (locally) **$\omega$-small**; this generalises from $\omega$ (the set of [[natural number]]s) to (other) [[inaccessible cardinal]]s (or, equivalently, [[Grothendieck universe]]s).
 
-# Limits and colimits
+
+## Limits and colimits
 
 One is often interested in whether an arbitrary category $D$ has [[limit]]s and [[colimit]]s indexed by finite categories.  A category with all finite limits is called **[[finitely complete category|finitely complete]]** or **left exact** (or **lex** for short).  A category with all finite colimits is called **finitely cocomplete** or **right exact**.
 
-# Discussion #
+
+## Discussion
 
 [[Eric]]: Is the following statement correct?
 
@@ -177,3 +185,7 @@ By the way, I'm not hoping to get _only_ finite categories this way. My only hop
 [[Mike Shulman]]: As I said at [[directed n-graph]], it sounds like maybe you really want a [[computad]].  It is true that any (finite) category can be obtained as the 1-truncation of the free 2-category on some (finite) 2-computad; in fact this is more or less the definition of a "finitely presented category."
 
 I still don't understand your response to me above (beginning with "Sorry I wasn't clear").
+
+
+[[!redirects finite category]]
+[[!redirects finite categories]]
