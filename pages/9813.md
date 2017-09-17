@@ -95,7 +95,7 @@ A review of [[noncommutative Chow motives]] is in section 4 of
 
 Discussion of how the [[triangulated categories of sheaves|derived category]] of a [[scheme]] determines its commutative and [[noncommutative motive|noncommutative]] Chow motive is in 
 
-* [[Adeel Khan]], _Perfect correspondences and Chow motives_, Thesis 2013 ([pdf](http://www.preschema.com/documents/masters.pdf))
+* [[Adeel Khan]], _On derived categories and noncommutative motives of varieties_, [arXiv](http://arxiv.org/abs/1401.7222).
 
 [[!redirects Chow motives]]
 [[!redirects category of Chow motives]]
