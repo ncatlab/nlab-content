@@ -29,6 +29,8 @@ Important examples of classical field theories are
 Zoran: criterium on which book is irrelevant. It is easy to see in any treatment, that one has a classical version first and then quantization. 
 
 Tim van Beek: There may be some confusion because spin in physics is a quantum phenomenon, and "supertheories" try to unify the treatment of fermions and bosons, who are again pure quantum terms. But that does not imply that e.g. a spin structure on a manifold would be considered to be a "quantum structure": Take a smooth mainifold and put a bundle structure on it: That is still a "classical object" for mainstream physics. Same thing with supergravity. Both become "quantum objects" if you build a Hilbert space of states and turn your observables into operators on this space, for example (see [[geometric quantization]]).
+
+[[Ian Durham]]: Well, true, but in my personal experience it doesn't take on any physical meaning until it is quantized (in this case).  In other words, while I'm not necessarily disputing what you're saying, I'm saying it's a little misleading to list it under "classical field theory" without some accompanying caveat.
 =--
 
 ## quantizaton of classical field theory ##
