@@ -1,5 +1,6 @@
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Motivation
@@ -9,7 +10,7 @@ While the [[homotopy type]], is suitable for the study of (locally) good [[topol
 ## Idea
 
 If there are few maps from polyhedra (e.g. from spheres) into the space, then the [[weak homotopy type]] may tell too little about the space. 
-Therefore one "expands" the space into a successive system of spaces which are good recipents of maps from polyhedra (e.g. ANR-s, polyhedra) and adapts the homotopy theory to such expansions. The analogue of strong homotopy type in this setting is the shape of a space; the shape is an invariant of the strong homotopy type and agrees with it on the ANR-s for metric spaces and on the polyhedra; it is more crude for other spaces, but more suitable than the weak homotopy type. Instead of embedding a space, one may abstractly expand or resolve the space or its homotopy class into a pro-object in a smaller category of nice spaces. Strong shape theory is a variant which is closer to the usual homotopy and more geometric; it differs by passing to the homotopy type at a later stage in the theory. 
+Therefore one "expands" the space into a successive system of spaces which are good recipents of maps from polyhedra (e.g. ANR-s, polyhedra) and adapts the homotopy theory to such expansions. The analogue of strong homotopy type in this setting is the shape of a space; the shape is an invariant of the strong homotopy type and agrees with it on the ANR-s for metric spaces and on the polyhedra; it is more crude for other spaces, but more suitable than the weak homotopy type. Instead of embedding a space, one may abstractly expand or resolve the space or its homotopy class into a pro-object in a smaller category of nice spaces. [[Strong shape theory]] is a variant which is closer to the usual homotopy and more geometric; it differs by passing to the homotopy type at a later stage in the theory. 
 
 
 ## History
@@ -95,7 +96,7 @@ A different terminology and slightly different emphasis is often used within the
 
 ### Strong shape in terms of $(\infty,1)$-sheaves on a space
 
-There is a way to study the strong shape theory of a topological space $X$ in terms of [[∞-stack]]s on $X$, i.e. in terms of the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ on the [[category of open subsets]] of $X$. This is described in
+There is a way to study the [[strong shape theory]] of a [[topological space]] $X$ in terms of [[∞-stack]]s on $X$, i.e. in terms of the [[(∞,1)-category of (∞,1)-sheaves]] $Sh_{(\infty,1)}(X) := Sh_{(\infty,1)}(Op(X))$ on the [[category of open subsets]] of $X$. This is described in
 
 * [[Bertrand Toen]] and [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_ in Proceedings of the
 Program _Stacks, Intersection theory and Non-abelian Hodge Theory_ , MSRI, Berkeley, January-May 2002 ([arXiv:math/0212330](http://arxiv.org/abs/math/0212330)) 
@@ -170,6 +171,12 @@ is an equivalence.
 This is [[Higher Topos Theory|HTT, prop. 7.1.6.8]].
 
 =--
+
+## Related concepts
+
+* [[topology]]
+
+* [[strong shape theory]], [[Borsuk's shape theory]]
 
 ## References
 
