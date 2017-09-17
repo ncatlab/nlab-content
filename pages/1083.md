@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -29,9 +29,15 @@ If $A$ is moreover [[abelian category|abelian]], then we also have
 
 * $D(A)$, the [[derived category]] obtained from $C(A)$ (or $K(A)$) by inverting all [[quasi-isomorphism]]s.
 
+## Properties
+
+### Closed monoidal structure
+
+Equipped with the standard [[tensor product of chain complexes]] $Ch_\bullet$ is a [[closed monoidal category]].
+
 ## Related concepts
 
-* [[derived category]]
+* [[derived category]], [[derived functor]]
 
 category: category
 
