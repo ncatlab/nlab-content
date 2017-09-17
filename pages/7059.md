@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -89,10 +90,10 @@ for the reflector into [[discrete objects]].
 Before looking at the consequences of the axioms formally, 
 we mention some example phenomena to illustrate the meaning of the axioms.
 
-### Geometric spaces and their homotopy types
+### Geometric spaces and their cohesive homotopy types
  {#GeometricSpacesAndTheirHomotopyTypes}
 
-The standard [[interval]] $I = [0,1]$ in [[topological space]]
+The standard [[interval]] $I = [0,1]$ in [[Top|topological spaces]]
 plays two rather different roles, depending on what kind of
 equivalence between spaces is considered. To make this more vivid,
 it serves to think of $[0,1]$ as equipped 
@@ -100,12 +101,12 @@ even with its canonical structure
 of a [[smooth manifold]] ([[manifold with boundary|with boundary]]).
 
 The canonical map $I \to *$ to the [[point]] is certainly not
-a [[diffeomorphism]] and from the point of view of
-[[differential geometry]] the interval carries interesting structure.
+a [[diffeomorphism]], and from the point of view of
+[[differential geometry]] the interval carries non-trivial structure.
 Notably its endpoints $0,1 : I$ are not equivalent points ([[terms]])
-in differential geometry, but are distinct. From the point of differential
+in differential geometry, but are distinct. From the point of view of differential
 geometry the interval is a [[homotopy n-type|homotopy 0-type]]
-(has [[h-level]] 2) -- but one that is somehow equipped with geometric
+(has [[h-level]] 2) -- but one that is in some way equipped with geometric
 structure.
 
 This geometric structure, however, induces also a notion of 
@@ -116,15 +117,15 @@ $\Pi(I)$ of the interval and regard _that_ as a [[homotopy type]]
 _without_ further geometric structure (a [[discrete ∞-groupoid]]).
 
 As such, the canonical map $\Pi(I) \to *$ is an [[equivalence]]
-after all, namely a [[weak homotopy equivalence]]. Therefore
-after application of $\Pi$ what used to be a geometric 0-type
+after all, namely a [[weak homotopy equivalence]]. Therefore,
+after application of $\Pi$, what used to be a geometric 0-type
 becomes a [[(-1)-groupoid|(-1)-type]] and actually a
-[[(-2)-groupoid|(-2)-type]] ([[h-level]] 0), but without any geometry.
+[[(-2)-groupoid|(-2)-type]] ([[h-level]] 0) --  up to equivalence the [[interval type]] , but without any geometry.
 
 This latter property is what makes the interval important in bare
 [[homotopy theory]], where it serves to model notions
 such as [[cylinder objects]], [[left homotopies]], etc. The former
-property, however, is what makes the interval important in geometry, where it serves to model [[Cartesian spaces]], [[manifolds]], etcs.
+property, however, is what makes the interval important in [[geometry]], where it serves to model [[Cartesian spaces]], [[manifolds]], etc.
 
 In cohesive homotopy type theory these two roles of the interval
 can both be seen, via the reflective embedding of [[discrete objects]], 
@@ -153,7 +154,7 @@ In particular, the smooth [[circle]] $S^1$ in this model is a
 [[1-truncated|1-type]] $\mathbf{B}\mathbb{Z}$ (the [[delooping]]
 [[groupoid]] of the [[integers]]).
 
-One can turn this around and axiomatice a [[continuum]] [[line object]]
+One can turn this around and axiomatize a [[continuum]] [[line object]]
 in cohesive homotopy type theory as a [[ring object]] 
 $\mathbb{Z} \hookrightarrow \mathbb{A}^1$ such that 
 $\mathbf{\Pi}(\mathbb{A}^1) \simeq *$.
@@ -171,8 +172,12 @@ For $X$ and $A$ two [[types]], the externalization $\sharp(X \to A)$ of the [[fu
 
 ### Flat cohomology and local systems
 
+We give the [[Coq]]-formalization of [Flat cohomology and local systems](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#FlatDifferentialCohomology).
+
 For $A$ a [[type]], we say that [[cohomology]] with coefficients in 
 $\flat A$ is _flat cohomoloy_. A [[cocycle]] [[term]] $c : \sharp(X \to \flat A)$ is called a [[local system]] of coefficients $A$ on $X$.
+
+(...)
 
 ### de Rham cohomology
 
@@ -187,7 +192,7 @@ $$
   \,.
 $$
 
-Coq-code:
+[[Coq]]-code:
 
     Require Import Homotopy Subtopos Codiscrete LocalTopos CohesiveTopos.
 
@@ -200,18 +205,22 @@ Coq-code:
 
 ### Differential cohomology
 
+We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#DifferentialCohomology).
+
 (...)
 
 
 
 ## References
 
-The [[Coq]]-[[homotopy type theory]] formalization is discussed in 
+The formulation of [[cohesive topos|axiomatic cohesion]] on 1-[[categories]] is due to [[Bill Lawvere]], see [there](http://ncatlab.org/nlab/show/cohesive+topos#References) for a detailed bibliography.
+
+The [[Coq]] formalization of [[cohesive (infinity,1)-topos|axiomatic homotopy cohesion]] is discussed in 
 
 * [[Mike Shulman]], _Internalizing the external, or The Joys of Codiscreteness_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/internalizing_the_external_or.html))
  {#ShulmanInternalizing}
 
-The Coq-code library is at 
+The corresponding Coq-code library is at 
 
 * [[Mike Shulman]], _[HoTT/Coq/Subcatgeories](https://github.com/mikeshulman/HoTT/tree/master/Coq/Subcategories)_
 
