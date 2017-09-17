@@ -384,8 +384,6 @@ The [[foundation]] of category theory in [[homotopy type theory]] (via the notio
 
 * [[David Spivak]], _Category theory for scientists_ ([arXiv:1302.6946](http://arxiv.org/abs/1302.6946))
 
-* [[Andrew Stacey]], _Teaching category theory_ ([web](http://www.math.ntnu.no/~stacey/CountingOnMyFingers/TeachingCategories.html))
-
 ### Relation to philosophy
  {#ReferencesRelationToPhilosophy}
 
