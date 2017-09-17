@@ -30,3 +30,10 @@ Moreover we have
 
 $$hom(G,D(H))=hom(H,D(G))=hom(G\times H,\mu_k)$$
 =--
+
+## References
+
+lecture notes include
+
+* [pdf](http://www.math.ethz.ch/~pink/ftp/FGS/Lecture11.pdf)
+
