@@ -111,9 +111,21 @@ See at _[[Bohr topos]]_ for more.
 
 * [[interpretation of quantum mechanics]]
 
-  * [[Kochen-Specker theorem]]
+  * [[order-theoretic structure in quantum mechanics]]
 
-  * [[Gleason's theorem]]
+    * [[Bub-Clifton theorem]]
+
+    * [[Kochen-Specker theorem]]
+
+    * [[Gleason's theorem]]
+
+    * [[Alfsen-Shultz theorem]]
+
+    * [[Harding-Döring-Hamhalter theorem]]
+
+  * [[Bell's theorem]]
+
+  * [[Wigner theorem]]
 
 * [[qbit]]
 
