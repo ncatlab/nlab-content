@@ -44,7 +44,7 @@ Here the [[free functor|free]] $T$-algebra on a single generator $F_T(*)$ is the
 ### Multiplicative group
  {#MultiplicativeGroup}
 
-The multiplicative [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** -- is the [[group scheme]] denoted $\mathbb{G}_m$
+The [multiplicative group object](http://ncatlab.org/nlab/show/affine%20line#MultiplicativeGroup) in $Ring^{op}$ corresponding to the affine line -- usually just called the **multiplicative group** -- is the [[group scheme]] denoted $\mathbb{G}_m$
 
 * whose underlying affine scheme is
 
@@ -84,7 +84,7 @@ The multiplicative [[group object]] in $Ring^{op}$ corresponding to the affine l
 
 ### Additive group
 
-The additive [[group object]] in $Ring^{op}$ corresponding to the affine line -- usually just called the **additive group** -- is the [[group scheme]] denoted $\mathbb{G}_a$  
+The [additive group object](http://ncatlab.org/nlab/show/line+object#AdditiveGroupObject) in $Ring^{op}$ corresponding to the affine line -- usually just called the **additive group** -- is the [[group scheme]] denoted $\mathbb{G}_a$  
 
 * whose underlying object is $\mathbb{A}^1$ itself;
 
@@ -272,6 +272,3 @@ $$
 $$
 
 that contract away cartesian factors of the affine line.
-
-[[!redirects multiplicative group]]
-[[!redirects additive group]]
