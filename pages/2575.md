@@ -622,6 +622,8 @@ This new definition actually converges, and makes sense. Apparantly the same tec
 
 In ([Witten 89](#Witten)) is the observation that the "[[trace]]" occuring in the "trace of the [[holonomy]] around the knot" term in the path integral should _itself_ be seen as a [[path integral]]. In this way one hopes to obtain a much more unified formalism. The quote is reproduced at  _[[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]]_. 
 
+For technical details on this see at _[[orbit method]]_.
+
 ### Higher dimensional generalizations
  {#HigherDimensionalGeneralization}
 
@@ -631,7 +633,11 @@ One question that's been bugging me (Ben Webster) recently is what fills in the 
 
 Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?_  I'm inclined to think there must be one, as it seems that all of the knot homologies associated by Chern--Simons theory to representations have categorifications (I have a [mostly finished paper](http://math.mit.edu/~bwebster/KI-HRT.pdf) on this).  Presumably these all glue together into something, possibly by a similar trick to the Reshetikhin-Turaev construction of 3-manifold invariants, but it's not so easy for me to see how.
 
+### Realization in physical systems
 
+Chern-Simons theory has mostly been studied as a test case example for ([[prequantum field theory|pre]]-)[[quantum field theories]] in theoretical physics and mathematics. Also in [[string theory]] it appears in various incarnations and governs the hypothetical physics of [[string]], notably through its [[holographic principle|holographic]] relation to the [[WZW model]] and the higher dimensional generalizations of this.
+
+But there are also [[physical systems]] that one can set up in a laboratory experiment which are described by at least some aspects of Chern-Simons theory at least in some limit. The most prominent such example is the _[[quantum Hall effect]]_ system in [[solid state physics]], which consists of [[electrons]] constrained to an effectively 2-dimensional [[surface]] and subject to perpendicular [[magnetic field]]. This system and its variant are also being proposed as supporting [[topological quantum computing]]. 
 
 
 ## Related concepts
