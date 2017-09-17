@@ -1,9 +1,21 @@
 
-The founder of the science of _[[physics]]_ and of _[[differential calculus]]_.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+The founder of the science of _[[physics]]_ ([[mechanics]]) as a science rooted in [[mathematics]], and of _[[differential calculus]]_.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Isaac_Newton)
 
 ## Related entries
+
+* [[Newton's laws of motion]]
 
 * [[physics]]
 
