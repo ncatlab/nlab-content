@@ -55,12 +55,12 @@ Hence abelianization is the _[[free construction]]_ of an abelian group from a g
 ### Examples
 
 Given a [[pointed space]] $(X,a)$, its first [[homology group]] with coefficients in the [[integers]] is the abelianisation of its [[fundamental group]]:
-$$ H^1(X,\mathbb{Z}) \cong \pi_1(X,a)^{ab} .$$
+$$ H_1(X,\mathbb{Z}) \cong \pi_1(X,a)^{ab} .$$
 This is a [[natural isomorphism]] filling the following diagram of [[functors]]:
 $$ \array {
    Top_* & \overset{\pi_1}\longrightarrow & Grp \\
    \llap{U}\downarrow & & \downarrow\rlap{ab} \\
-   Top & \underset{H^1({-},\mathbb{Z})}\longrightarrow & Ab Grp
+   Top & \underset{H_1({-},\mathbb{Z})}\longrightarrow & Ab Grp
 } $$
 (where $U$ [[forgetful functor|forgets]] the point).
 
