@@ -12,7 +12,7 @@
 |   | [[genus of a number field|genus of the rational numbers]] = 0 |  |  [[genus of a surface|genus of the Riemann sphere]] = 0 |
 | **formal neighbourhoods**  |   |   |   |
 |   | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ t -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [t-x] ]$ ([[holomorphic functions]] on [[formal disk]] around $x$)  |
-|   |  $Spf(\mathbb{Z}_p)\underset{Spec(\mathbb{Z})}{\times} X$ ("$p$-[[arithmetic jet space]]" of $X$ $p$) |  |  [[formal disks]] in $X$  |
+|   |  $Spf(\mathbb{Z}_p)\underset{Spec(\mathbb{Z})}{\times} X$ ("$p$-[[arithmetic jet space]]" of $X$ at $p$) |  |  [[formal disks]] in $X$  |
 |   | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((t-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((t-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
 |   | $\mathbb{A}_{\mathbb{Q}} = \underset{p\; place}{\prod^\prime}\mathbb{Q}_p$ ([[ring of adeles]])  | $\mathbb{A}_{\mathbb{F}_q((t))}$  ( [adeles of function field](ring%20of%20adeles#ForAGlobalField) ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} \mathbb{C}((t-x))$ ([[restricted product]] of holomorphic functions on all punctured formal disks, finitely of which do not extend to the unpunctured disks) |
 |   | $\mathbb{I}_{\mathbb{Q}} = GL_1(\mathbb{A}_{\mathbb{Q}})$ ([[group of ideles]])  | $\mathbb{I}_{\mathbb{F}_q((t))}$  ( [[group of ideles|ideles of function field]] ) |  $\underset{x \in \mathbb{C}}{\prod^\prime} GL_1(\mathbb{C}((t-x)))$   |
