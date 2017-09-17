@@ -50,6 +50,8 @@ This is ([Lurie, def. 2.3.13, def. 2.3.16](#Lurie)).
 
 * [[dualizable object]]
 
+* [[fully dualizable object]]
+
 ## References
 
 * [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
