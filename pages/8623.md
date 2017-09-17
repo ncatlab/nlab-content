@@ -17,17 +17,23 @@
 
             * add the [[axiom of excluded middle]] $\to$ **[[classical logic|classical]] [[first order logic]]**
 
-          * consider [[setoid]] [[types]] $\to$ **[[intuitionistic mathematics|intuitionistic]] [[predicative mathematics|predicative]] [[structural set theory]]**
+              * add [[ZF]]-axioms $\to$ **[[set theory|classical set theory]]**
 
-            * add [[excluded middle]]-[[axiom]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory|set theory]]**
+                * add [[axiom of choice]] $\to$ **[[ZFC]]**
 
-              * add [[axiom of choice]] $\to$ **[[predicative mathematics|predicative]] [[structural set theory|set theory]] with Choice**
+                  * add [[large cardinal axioms]] 
 
-                * add [[large cardinal axioms]] 
- 
+          * consider [[setoid]] [[types]] $\to$ **[[predicative mathematics|predicative]] [[set theory]]**
+
         * add [[univalence]]-[[axiom]] and [[natural deduction|rules]] for introducing [[higher inductive types]] $\to$ **[[homotopy type theory]]**
 
-          * [[reflective sub-(infinity,1)-category|reflect]] to [[h-sets]] $\to$ **[[intuitionistic mathematics|intuitionistic]] [[set theory]]**
+          * [[reflective sub-(infinity,1)-category|reflect]] to [[h-props]] $\to$ **[[intuitionistic mathematics|intuitionistic]] [[first-order logic]]**
+
+            * add [[axiom of excluded middle]] $\to$ **[[first-order logic]]**
+
+          * [[reflective sub-(infinity,1)-category|reflect]] to [[h-sets]] $\to$ **[[intuitionistic mathematics|intuitionistic]] [[structural set theory]]**
+
+            * add [[axiom of excluded middle]] $\to$ **[[structural set theory]]**
 
           * [[reflective sub-(infinity,1)-category|reflect]] to [[h-level]] 3 $\to$ **[[groupoid]] theory**
 
