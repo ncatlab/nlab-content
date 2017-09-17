@@ -38,7 +38,7 @@ $$
 $$
 
 
-the general nonsense of [[twisted cohomology]] induces a notion of _twisted_ $\hat G$-cohomology. The fibrations classified by this are the twisted $\hat G$-bundles.
+the general mechanism of [[twisted cohomology]] induces a notion of _twisted_ $\hat G$-cohomology. The fibrations classified by this are the twisted $\hat G$-bundles.
 
 ## Definition 
 
@@ -183,7 +183,8 @@ Just as [[vector bundle]]s model cocycles in [[K-theory]], twisted vector bundle
 
 For twists $c$ that are torsion class (i.e. have finite order as group elements in the [[cohomology group]] $H(X,\mathbf{B}^2 A)$ ) this was realized in
 
-* P. Bouwknegt, A. L. Carey, V. Mathai, M. K. Murray, D. Stevenson, _Twisted K-theory and K-theory of bundle gerbes_ ([arXiv](http://arxiv.org/abs/hep-th/0106194))
+* [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
+  {#CBMMS} 
 
 which also, apparently, is the source where gerbe modules as such were first introduced.
 
