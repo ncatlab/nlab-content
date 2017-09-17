@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -22,7 +24,12 @@
 
 This page is going to contain an introduction to aspects of [[differential geometry]] and their application in fundamental [[physics]]: the [[gauge theory]] appearing in the [[standard model of particle physics]] and the [[Riemannian geometry]] appearing in the [[standard model of cosmology]], as well as the [[symplectic geometry]] appearing in the [[quantization]] of both.
 
-The intended topic scope and readership of the first part of this page is much like that of the book ([Frankel](#Frankel)), with a similar title as this page, only that here we make use of a more modern and more transparent conceptual toolbox. For instance where traditionally expositions of [[differential geometry]] proceed by generalizing the [[geometry]] of "[[Cartesian spaces]]" $\mathbb{R}^n$ ([[coordinate|coordinate systems]]) to _[[smooth manifolds]]_, here we instead begin by generalizing them right away to _[[smooth spaces]]_, which happens to be both more expressive as well as actually much easier. Smooth manifolds are then introduced later as an intermediate notion, together with that of _[[diffeological spaces]]_. (Many of the constructions in [[differential geometry]] applied in [[physics]] do not actually need the notion of a smooth manifold, and, more importantly, for many notions in modern theoretical physics smooth manifolds are not actually sufficiently general.) But we will of course discuss plain manifolds, too.
+The intended topic scope and readership of this page is much like that of the book ([Frankel](#Frankel)), only that here we make use of a more modern and more transparent conceptual toolbox. 
+
+For instance where traditionally expositions of [[differential geometry]] proceed by generalizing the [[geometry]] of [[coordinate|coordinate systems]] $\mathbb{R}^n$ to _[[smooth manifolds]]_, here we instead begin by generalizing coordinate systems right away to _[[smooth spaces]]_, which happens to be both more expressive as well as actually much easier. Smooth manifolds are then introduced later as an intermediate notion, together with that of _[[diffeological spaces]]_. (Many of the constructions in [[differential geometry]] applied in [[physics]] do not actually need the notion of a smooth manifold, and, more importantly, for many notions in modern theoretical physics smooth manifolds are not actually sufficiently general.) But we will of course discuss plain manifolds, too.
+
+In fact we introduce smooth manifolds only after we introduce _[[smooth groupoids]]_, which are differential geometric structures that are _still_ simpler than smooth manifolds, and of course even more expressive than smooth spaces. In fact, smooth groupoids are the very heart of the geometry of physics. Modern fundamental physics is all based on the "[[gauge symmetry|gauge principle]]" and mathematically this is essentially nothing but the theory of smooth groupoids. 
+
 
 
 ## Coordinate systems
@@ -50,7 +57,7 @@ such that
 
 1. [[identity]] is respected $X(id_{\mathbb{R}^n}) = id_{X(\mathbb{R}^n)}$;
 
-1. composition is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
+1. [[composition]] is respected $X(f_2)\circ X(f_1) = X(f_2 \circ f_1)$
 
 ## Smooth spaces
 
@@ -148,11 +155,29 @@ $$
   B_1 = \frac{\partial A_2}{\partial x^3} - \frac{\partial A_3}{\partial x^2}
 $$
 
-...
+etc
+
+for
+
+$$
+  A,A' : X \to \Omega^1(-)
+$$
+
+a [[gauge transformation]] $A \to A'$
+is $\lambda : X \to \mathbb{R}$ with
+
+$$
+  A' = A + \mathbf{d} \lambda
+$$
+
+
+
 
 first 2 of 4 [[Maxwell equations]]: $\mathbf{d} F = 0$
 
 (the other 2 below in Riemannian geometry)
+
+## Variational calculus
 
 for instance [[variational calculus]]
 
@@ -167,9 +192,10 @@ variation is
 $$
   \mathbf{d}S : [S^1, X] \stackrel{S}{\to} \mathbb{R}
   \stackrel{\mathbf{d}}{\to}
-  \Omega^1
+  \Omega^1(-)
 $$
 
+* [[Euler-Lagrange equations]]
 
 ## Integration 
 
@@ -190,7 +216,7 @@ $$
 
 ## Transgression
 
-[[transgression]] to [[mapping space]] is the composite
+[[transgression]] of [[differential forms]] to [[mapping space]] is the composite
 
 $$
   \int_\Sigma [\Sigma,-]
@@ -207,7 +233,7 @@ to
 $$
   \int_{\Sigma} [\Sigma,\omega]
    :
-  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \to \Omega^{n-k}(-)
+  [\Sigma, X] \stackrel{[\Sigma, \omega]}{\to}  \Omega^{n-k}(-)
 $$
 
 for instance [[action functional]] for [[electron]] in [[electromagnetic field]] $A$ is $S_{em} = \int_{S^1} [S^1, A]$
@@ -223,6 +249,8 @@ $$
   = 
   \mathbb{R}
 $$
+
+variation gives [[Lorentz force]]
 
 
 * [[Stokes theorem]]
@@ -245,12 +273,28 @@ $$
   }
 $$
 
+Example: $X$ a [[smooth space]] and $G$ a [[smooth group]] and 
+
+$\rho : X \times G \to X$ an [[action]] then
+
+[[action groupoid]]
+
+$$
+  X \sslash G = 
+  \left(
+    X \times G \stackrel{\overset{\rho}{\to}}{\underset{p_1}{\to}}
+    X
+  \right)
+$$
+
 ## Principal bundles
 
 any [[Lie group]] $G$ induces its [[delooping]] [[Lie groupoid]] 
   
 $$
   \mathbf{B}G
+  =
+  * \sslash G
   = 
   \left(
      G \stackrel{\to}{\to} * 
@@ -262,6 +306,8 @@ also
 
 $$
   \mathbf{E}G
+  =
+  G \sslash G
   = 
   \left(
      G\times G \stackrel{\overset{\cdot}{\to}}{\underset{p_1}{\to}} G 
@@ -460,11 +506,292 @@ $$
 $e$ is [[vielbein]]: definition of an [[orthonormal frame]]
 at each point
 
+example: the other 2 [[Maxwell equations]]: $\mathbf{d} \star F = j_{el}$.
+
+[[Einstein-Maxwell theory]]
+
+## Circle-principal connections
+
+[[Dirac charge quantization]] says that the
+[[electromagnetic field]] is only locally in general a map
+
+$$
+  \array{
+    && \Omega^1(-)
+    \\
+    & {}^{\mathllap{A}}\nearrow & \downarrow^{\mathrlap{\mathbf{d}}}
+    \\
+    X &\stackrel{\omega}{\to}& \Omega^2_{cl}
+  }
+$$
+
+globally it is instead a map
+
+$$
+  \array{
+    && \mathbf{B}U(1)_{conn}
+    \\
+    & {}^{\nabla}\nearrow & \downarrow^{F_{(-)}}
+    \\
+    X &\stackrel{\omega}{\to}& \Omega^2_{cl}
+  }
+$$
+
+where
+
+$$
+  \array{  
+    \mathbf{B}U(1)_{conn} &\stackrel{F_{(-)}}{\to}& \Omega^2_{cl}
+    \\
+    \downarrow &pb& \downarrow
+    \\
+    \mathbf{B}U(1)_{diff} &\to& \Omega^{1 \leq 2}_{cl}
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}U(1)
+  }
+$$
+
+[[circle bundle with connection]]
+
+the [[smooth groupoid]] is
+
+$$
+  \mathbf{B}U(1)_{conn}
+  =
+  \Omega^1(-) \sslash U(1)
+$$
+
+quotient of $\Omega^1(-)$ by $U(1)$-[[gauge transformations]]
+
+for
+
+$$
+  A,A' : X \to \Omega^1(-)
+$$
+
+a [[gauge transformation]] $A \to A'$
+is $\lambda : X \to U(1)$ with
+
+$$
+  A' = A + \mathbf{d} log \lambda
+$$
+
+## Smooth $n$-groupoids
+
+* [[groupoid]]
+
+[[smooth infinity-groupoid|smooth n-groupoid]]
+
+* [[Dold-Kan correspondence]]
+
+
+## First Chern class
+
+* [[magnetic charge]], [[first Chern class]]
+
+$$
+  \array{
+    && && \mathbf{B}(\mathbb{R}\sslash \mathbb{Z})
+    &\to& \mathbf{B}^2 \mathbb{Z}
+    \\
+    && && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbf{B}\mathbb{Z} 
+      &\to&  
+    \mathbb{B}\mathbb{R} 
+      &\to&  
+    \mathbf{B}U(1)
+  }
+$$
+
+$$
+  \mathbf{c}_1
+   :
+  \pi_0\mathbf{H}(X,\mathbf{B}U(1))
+  \to 
+  \pi_0 \mathbf{H}(X, \mathbf{B}^2 \mathbb{Z})
+  \simeq
+  H^2(X, \mathbb{Z})
+$$
+
+## Circle-principal $n$-connection
+
+* [[Deligne complex]]
+
+* [[circle n-bundle with connection]] $\mathbf{B}^n U(1)_{conn}$
+
+* [[fiber integration in ordinary differential cohomology]]
+
+  $$
+    \exp(2 \pi i \int_\Sigma(-)) 
+     :
+    [\Sigma, \mathbf{B}^n U(1)_{conn}]
+    \to 
+    \mathbf{B}^{n-k}U(1)_{conn}
+  $$
+
+## Abelian Chern-Simons theory
+
+* [[higher dimensional Chern-Simons theory]]
+
+* [[cup-product in ordinary differential cohomology]]
+
+$$
+  \cup_{conn}
+  :
+  \mathbf{B}U(1)_{conn}
+  \to 
+  \mathbf{B}^3 U(1)_{conn}
+$$
+
+$$
+  \exp(2 \pi i \int_{\Sigma}[\Sigma, \cup_\conn])
+   : 
+  [\Sigma, \mathbf{B}U(1)_{conn}]
+   \stackrel{[\Sigma, \cup_{conn}]}{\to}
+  [\Sigma, \mathbf{B}^3 U(1)_{conn}]
+   \stackrel{\exp(2 \pi i \int_\Sigma (-))}{\to}
+  U(1)
+$$
+
+## Principal connections
+
+* [[connection on a bundle]] $\mathbf{B}G_{conn}$
+
+* [[Yang-Mills theory]]
+
+## Associated bundle
+
+* [[action]]
+
+  $$
+    \array{
+      V &\to& V\sslash G
+      \\
+      && \downarrow
+      \\
+      && \mathbf{B}G
+    }
+  $$
+
+* [[associated bundle]]
+
+$$
+  \array{
+    E &\to& V\sslash G
+    \\
+    \downarrow &pb& \downarrow
+    \\
+    \tilde X &\to& \mathbf{B}G
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    X
+  }
+$$
+
+* [[section]]
+
+$$
+  \array{
+    X &&\stackrel{\sigma}{\to}&& V \sslash G
+    \\
+    & \searrow &\swArrow_{\simeq}& \swarrow
+    \\
+    && \mathbf{B}G
+  }
+$$
+
+## Spin geometry
+
+* [[spin group]]
+
+* [[spin representation]]
+
+$$
+  \array{
+    V &\to& V \sslash Spin
+    \\
+    && \downarrow
+    \\
+    && \mathbf{B}Spin
+  }
+$$
+
+* [[spinor bundle]]
+
+* [[spinor]]
+
+$$
+  \array{
+    X &&\stackrel{\psi}{\to}&& V \sslash Spin
+    \\
+    & \searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}Spin
+  }
+$$
+
+## Covariant derivative
+
+* [[covariant derivative]]
+
+$$
+  \array{
+     (V\sslash G)_{conn}
+     \\
+     \downarrow
+     \\
+     \mathbf{B}G_{conn}
+  }
+$$
+
+$$
+  \array{
+    \tilde X &&\stackrel{(\sigma, \nabla \sigma)}{\to}&& (V \sslash G)_{conn}
+    \\
+    & \searrow &\swArrow& \swarrow
+    \\
+    && \mathbf{B}G_{conn}
+  }
+$$
+
+## Einstein-Yang-Mills theory
+
+* [[Einstein-Yang-Mills theory]]
+
+* [[standard model of particle physics]]
+
+* [[standard model of cosmology]]
+
+## Symplectic geometry
+
+* [[symplectic geometry]]
+
+## Geometric quantization
+
+* [[geometric quantization]]
+
+
 
 ## References
 
-Textbooks with basic introductions to [[differential geometry]] and [[physics]] include
+A textbooks with basic introductions to [[differential geometry]] and [[physics]] is
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
  {#Frankel}
+
+A discussion with emphasis on the kind of tools that we are using here is in 
+
+* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
+
+An introductory discussion with much overlap with the above discussion is in section "1.3 Introduction -- Models and applications" of
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+Another introductory discussion along the above lines of aspects in [[gravity]] and [[higher gauge theory]] motivated from [[string theory]] is in 
+
+* [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, ESI (2012)
 
