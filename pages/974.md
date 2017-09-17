@@ -70,6 +70,33 @@ Every locally finitely presentable category $A$ is equivalent to the category of
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+**(as reflective subcategories of presheaves)**
+
+Every locally presentable category $C$ is equivalent to a full [[reflective subcategory]] 
+
+$$
+  (L \dashv i) 
+  :
+  C \stackrel{\overset{L}{\leftarrow}}{\underset{i}{\hookrightarrow}}
+  PSh(K)
+$$
+
+of a [[category of presheaves]] on some category $K$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as proposition 1.46 of 
+
+* Adamek, Rosicky, _Locally presentable and accessible categories_ Cambridge University Press, (1994)
+
+=--
+
+
 ### Gabriel--Ulmer duality 
 
 Let $Lex$ denote the [[2-category]] of small finitely complete categories, finitely continuous (i.e., finite limit preserving) functors, and [[natural transformation]]s between them. 
