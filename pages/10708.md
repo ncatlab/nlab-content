@@ -26,7 +26,7 @@ $$
   \,,
 $$
 
-where $K(n)$ is the $n$th [[Morava K-theory]] (for the given [[prime]] $p$). These arrange into the _chromatic tower_ which for each spectrum $X$ is of the form
+where $K(n)$ is the $n$th [[Morava K-theory]] (for the given [[prime]] $p$). These arrange into the _[[chromatic tower]]_ which for each spectrum $X$ is of the form
 
 $$  
   X \to \cdots \to L_n X \to L_{n-1} X \to \cdots \to L_0 X
@@ -41,12 +41,15 @@ $$
 
 of $X$. 
 
+In particular if $X$ is a [[finite spectrum|finite]] [[p-local spectrum]] then the chromatic convergence theorem says that the [[homotopy limit]] over the [[chromatic tower]] of $X$ reproduces $X$.
+
 Since moreover $L_n X$ is the [[homotopy fiber product]]
 
 $$
   L_n X \simeq L_{K(n)}X \underset{L_{n-1}L_{K(n)}X}{\times} L_{n-1}X
 $$
 
+(see at [[smash product theorem]])
 it follows that in principle one can study a spectrum $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. This is the topic of [[chromatic homotopy theory]].
 
 
@@ -55,5 +58,3 @@ it follows that in principle one can study a spectrum $X$ by understanding all i
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 32 _The chromatic convergence theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture32.pdf)) 
 
 
-[[!redirects chromatic tower]]
-[[!redirects chromatic towers]]
