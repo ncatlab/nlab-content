@@ -14,8 +14,17 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-(...)
+Quite generally, _automorphic forms_ are [[functions]] on [[coset spaces]] $G/K$, hence functions on [[groups]] $G$ which are [[invariant]] with respect to the [[action]] of some [[subgroup]] $K \hookrightarrow G$. 
+
+
+For [[modular group]]/[[congruence subgroups]] $K$ of the real [[general linear group]] in dimension 2, $G = SL(2,\mathbb{R})$, _[[modular forms]]_ may be identified with such functions on $SL(2,\mathbb{R})/K$ (see at _[modular form -- as automorphic forms](http://ncatlab.org/nlab/show/modular+form#AsAutomorphicForms)_) and this is where the concept of automorphic forms originates.
+
+In [[harmonic analysis]] one typically considers [[topoligical groups]] and [[discrete subgroups]].
+
+For the [[general linear group]] $G = GL_n(\mathbb{A}_F)$, for any $n$ and with [[coefficients]] in a [[ring of adeles]] $\mathbb{A}_F$ of some [[number field]], and for the subgroup $GL_n(F)$, then the automorphic functions form [[representations]] of $GL_n(\mathbb{A}_{F})$ which are called _[[automorphic representations]]_. See at _[[Langlands correspondence]]_ for more on this. 
+
 
 ## Properties
 
@@ -29,7 +38,7 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 
 ## Related entries
 
-* [[modular form]], [[topological automorphic form]]
+* [[modular form]], [[topological modular form]], [[topological automorphic form]]
 
 * [[automorphic L-function]]
 
@@ -44,12 +53,17 @@ In [[string theory]] [[partition functions]] tend to be automorphic forms for [[
 * Nolan Wallach, _Introductory lectures on automorphic forms_ ([pdf](http://math.ucsd.edu/~nwallach/luminy-port2.pdf))
 [[!redirects automorphic forms]]
 
-The relatin between [[string theory]] on [[Riemann surfaces]] and automorphic forms was first highlighted in
+* [pdf](http://math.stanford.edu/~conrad/modseminar/pdf/L10.pdf)
 
-* {#Witten88} [[Edward Witten]], _Quantum field theory, Grassmannians, and algebraic curves_, Comm. Math. Phys. Volume 113, Number 4 (1988), 529-700 ([Euclid](http://projecteuclid.org/euclid.cmp/1104160350))
 
 ### In string theory
   {#ReferencesInStringTheory}
+
+The relation between [[string theory]] on [[Riemann surfaces]] and automorphic forms was first highlighted in
+
+* {#Witten88} [[Edward Witten]], _Quantum field theory, Grassmannians, and algebraic curves_, Comm. Math. Phys. Volume 113, Number 4 (1988), 529-700 ([Euclid](http://projecteuclid.org/euclid.cmp/1104160350))
+
+See also
 
 * {#GRV10} [[Michael Green]], Jorge G. Russo, Pierre Vanhove, _Automorphic properties of low energy string amplitudes in various dimensions_ ([arXiv:1001.2535](http://arxiv.org/abs/1001.2535))
 
