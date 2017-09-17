@@ -41,5 +41,7 @@ For [[sigma-models]] that are supposed to describe quantum objects in the observ
 
   * [[background gauge field]]
 
+  * [[genus]]
+
 [[!redirects target spaces]]
 
