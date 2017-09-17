@@ -24,7 +24,11 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 ## Related concepts
 
+* [[Donaldson theory]]
+
 * [[Chern-Simons theory]], [[topological Yang-Mills theory]]
+
+* [[topologically twisted D=4 super Yang-Mills theory]]
 
 * [[AGT correspondence]]
 
