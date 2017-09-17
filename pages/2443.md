@@ -24,6 +24,8 @@ and
 
   * [[Clifford algebra]]
 
+* [[superdeterminant]]
+
 * [[super Lie algebra]]
 
   * [[super Poincare Lie algebra]]
@@ -46,6 +48,10 @@ and
   * [[complex supermanifold]]
 
   * [[Euclidean supermanifold]]
+
+* [[integration over supermanifolds]]
+
+  * [[Berezin integral]]
 
 ## Structures
 
