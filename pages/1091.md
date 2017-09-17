@@ -17,12 +17,12 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-For $f : X \to Y$ a [[morphism]] in a [[category]] $C$ with [[pullback]]s, there is an induced [[functor]]
+For $f : X \to Y$ a [[morphism]] in a [[category]] $C$ with [[pullbacks]], there is an induced [[functor]]
 
 $$
   f^* : C/Y \to C/X
@@ -96,6 +96,15 @@ where $f_!$ is given by postcomposition with $f$ and $f^*$ by [[pullback]] along
 That we have [[adjoint functor]]s/[[adjoint (∞,1)-functor]]s $(f_! \dashv f^*)$ follows directly from the universal property of the pullback. The fact that $f^*$ has a further [[right adjoint]] is due to the fact that it preserves all small [[colimit]]s/[[(∞,1)-colimit]]s by the fact that in a topos we have [[universal colimits]] and then by the [[adjoint functor theorem]]/[[adjoint (∞,1)-functor theorem]].
 
 =--
+
++-- {: .num_prop}
+###### Proposition
+
+Here $f^\ast$ is a [[cartesian closed functor]], hence base change of toposes constitutes a cartesian [[Wirthmüller context]].
+
+=--
+
+See at _[[cartesian closed functor]]_ for the proof.
 
 +-- {: .num_prop}
 ###### Proposition
