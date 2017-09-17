@@ -1,35 +1,52 @@
-# Contents
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+=--
+=--
+
+
+# Contents
+* table of contents
 {:toc}
-* toc
+
 
 > This article is under construction.
 
 ## Conditional expectation relative to a random variable
 
-Let $(\Omega,\mathfrak{A},P)$ be a probability space, let $(U,\Sigma,P^Y)$ be a measure space equipped with the pushforward measure induced by $Y$, let $X:(\Omega,\mathfrak{A},P)\to(\mathbb{R},\mathcal{B}(\mathbb{R}), \lambda)$ be a real-valued random variable.
+Let $(\Omega,\mathfrak{A},P)$ be a [[probability space]], let $(U,\Sigma,P^Y)$ be a [[measure space]] equipped with the 
+[[pushforward measure]] induced by $Y$, let $X:(\Omega,\mathfrak{A},P)\to(\mathbb{R},\mathcal{B}(\mathbb{R}), \lambda)$ be a real-valued [[random variable]].
 
-Then for $X$ and $Y$ there exists a essentially unique (two sets are defined to be equivalent if their difference is a set of measure $0$) integrable function $g=:E[X|Y]$ such that the following diagram commutes:
+Then for $X$ and $Y$ there exists a essentially unique (two sets are defined to be equivalent if their difference is a set of measure $0$) [[integrable function]] $g=:E[X|Y]$ such that the following [[commuting diagram|diagram commutes]]:
 
-$$\array{
-(\Omega,\mathfrak{A},P)&
-\stackrel{Y}{\to}&
-(\U, \Sigma, P^Y)
-\\
-\downarrow^X&&
-\swarrow^{g=:E[X|Y]}
-\\
-(\mathbb{R},\mathcal{B}(\mathbb{R}),\lambda)
-}$$
+$$
+  \array{
+   (\Omega,\mathfrak{A},P)&
+    \stackrel{Y}{\to}&
+    (\U, \Sigma, P^Y)
+    \\
+    \downarrow^{\mathrlap{X}}
+    &&
+   \swarrow_{\mathrlap{g=:E[X|Y]}}
+  \\
+   (\mathbb{R},\mathcal{B}(\mathbb{R}),\lambda)
+ }
+$$
 
 where $g:y\mapsto E[X|Y=y]$. Here ''commutes'' shall mean that
 
 (1) $g$ is $\Sigma$-measurable. (We could also write $\sigma(Y)=\Sigma$.)
 
 
-(2) the integrals over $X$ and $g\circ Y$ are equal.
+(2) the [[integrals]] over $X$ and $g\circ Y$ are equal.
 
-In this case $g=E[X|Y]$ is called a *version of the conditional expectation of $X$ provided $Y$*.
+In this case $g=E[X|Y]$ is called a **version of the conditional expectation of $X$ provided $Y$**.
 
 In more detail (2) is equivalent to that for all $B\in \Sigma$ we have
 
@@ -41,7 +58,7 @@ $$\int_{Y^{-1}(B)}X(\omega)d P(\omega)=\int_{Y^{-1}(B)}(g\circ Y)(\omega)d P (\o
 
 (The equivalence of the last two formulas is given since we always have $\int_B g(u)d P^Y (u)=\int_{Y^{-1}(B)} (g\circ Y)(\omega)d P (\omega)$ by the substitution rule.)
 
-Note that it does *not* follow from the preceding definition that the conditional expectation exists. This is a consequence of the Radon-Nikodym theorem as will be shown in the following section. (Note that the argument of the theorem applies to the definition of the conditional expectation by random variables if we consider the pushforward measure as given by a sub-$\sigma$-algebra of the original one. In this sense $E[X|Y]$ is a ''coarsened version'' of $X$ factored by the information (i.e. the $\sigma$-algebra) given by $Y$.)
+Note that it does *not* follow from the preceding definition that the conditional expectation exists. This is a consequence of the [[Radon-Nikodym theorem]] as will be shown in the following section. (Note that the argument of the theorem applies to the definition of the conditional expectation by random variables if we consider the [[pushforward measure]] as given by a sub-$\sigma$-algebra of the original one. In this sense $E[X|Y]$ is a ''coarsened version'' of $X$ factored by the information (i.e. the $\sigma$-algebra) given by $Y$.)
 
 ## Conditional expectation relative to a sub-$\sigma$-algebra
 
@@ -276,3 +293,6 @@ $$\overline P_t (P_s(\omega,A))=P_{s+t} (\omega, A)$$
 where
 
 $$\overline P_t: P_s(\omega,-)\mapsto (A\mapsto\int_\Omega P_t (y,A) P_s(\omega,-)(d_y))$$
+
+[[!redirects conditional probability]]
+[[!redirects conditional probabilities]]
