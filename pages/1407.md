@@ -161,6 +161,8 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
   * [[Diaconescu-Moore-Witten anomaly]]
 
+* [[type I string theory]]
+
 * [[little string theory]]
 
 * [[Kaluza-Klein mechanism]]
