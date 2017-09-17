@@ -193,7 +193,7 @@ The computation of the automorphism Lie algebra of $\mathfrak{sugra}(10,1)$ is i
 * [[Leonardo Castellani]], _Lie derivatives along antisymmetric tensors and the M-theory superalgebra_ ([arXiv:hep-th/0508213](http://arxiv.org/abs/hep-th/0508213))
  {#Castellani05}
 
-A similar argument with more explicit use of the Lie 3-algebra as underlying the [[Green-Schwarrz action functional|Green-Schwarz-like action functional]] for the [[M5-brane]] is in 
+A similar argument with more explicit use of the Lie 3-algebra as underlying the [[Green-Schwarz action functional|Green-Schwarz-like action functional]] for the [[M5-brane]] is in 
 
 * [[Dmitri Sorokin]], [[Paul Townsend]], _M-theory superalgebra from the M-5-brane_, Phys. Lett. B412 (1997) 265-273 ([arXiv:hep-th/9708003](http://arxiv.org/abs/hep-th/9708003))
 
