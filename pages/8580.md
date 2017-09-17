@@ -11502,7 +11502,7 @@ where on the left we have the [[coadjoint orbit]] of $\langle \lambda , -\rangle
 This implies that if $\nabla = 0$ is the trivial background field, than fields $\phi : X \to \mathbf{Fields}$ are equivalently maps to the coadjoint orbit
 
 $$
-  [X, \mathbf{Fields}]_{\matbf{H}}|_{\Phi_X = 0}
+  [X, \mathbf{Fields}]_{\mathbf{H}}|_{\Phi_X = 0}
   \simeq
   C^\infty(X, \mathcal{O}_\lambda)
   \,.
@@ -11720,6 +11720,20 @@ is the higher spin-connection version as discussed in _[Gravity](#OrdinaryGravit
 The moduli stack of these fields is that of background fields that satisfy the [[Green-Schwarz anomaly cancellation]] in [[heterotic supergravity]]. ([SSS](#SSS)).
 
 
+## **Lagrangians and Action functionals**
+ {#LagrangiansAndActionFunctionals}
+
+### Model layer
+
+* [[Lagrangian]], [[action functional]]
+
+### Semantics layer
+
+* [[extended Lagrangian]], [[extended prequantum field theory]]
+
+### Syntactic layer
+
+(...)
 
 
 ## **Equations of motion**
