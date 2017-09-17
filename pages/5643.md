@@ -23,46 +23,61 @@
 
 ## Idea
 
-A _smooth super $\infty$-groupoid_ is an [[∞-groupoid]] equiped with [[cohesive (∞,1)-topos|cohesion]] in the form of [[supermanifold]]-structure.
+A _smooth super $\infty$-groupoid_ is a [[super ∞-groupoid]] equipped with _smooth_ [[cohesive (∞,1)-topos|cohesion]].
+
+This includes [[supermanifold]]s and [[delooping]]s of [[super Lie group]]s.
 
 ## Definition
 
-Let [[CartSp]]${}_{super}$ be the [[site]] of [[supermanifold]] of the form $\mathbb{R}^{p|q}$ and smooth superfunctions between them, equipped with the [[coverage]] of [[good open cover]]s.
-
-This is a [[∞-cohesive site]], by the same argument as [[CartSp]]${}_{synthdiff}$ is.
-
-The [[(∞,1)-topos]] of **super smooth ∞-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]]
+Let [[CartSp]]${}_{smooth}$ be the site of [[Cartesian space]]s and [[smooth function]]s between them. Notice that the [[(∞,1)-sheaf (∞,1)-topos]] $Smooth \infty Grpd := Sh_{(\infty,1)}(CartSp_{smooth})$ is that of [[smooth ∞-groupoid]]s. This is an [[(∞,1)-topos]] over the  [[base topos]]
 
 $$
- SSmooth\infty Grpd := Sh_{(\infty,1)}(CartSp_{super})
- \,.
+  Smooth \infty Grpd \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
+  Sh_{(\infty,1)}(Point) \simeq \infty Grpd
+  \,.
 $$
+
+Consider in this construction the replacement of the category $Point = \{*\}$ with the categoy $SuperPoint$ of [[superpoints]].
+
+
++-- {: .num_defn}
+###### Definition
+
+The [[(∞,1)-topos]] of **super smooth ∞-groupoids** is the [[(∞,1)-category of (∞,1)-sheaves]] on [[CartSp]]${}_{smooth}$ with values in [[super ∞-groupoid]]s
+
+$$
+  \begin{aligned}
+    SuperSmooth\infty Grpd 
+     & := Sh_{(\infty,1)}(CartSp_{smooth}, Super \infty Grpd)
+     \\
+     & =: Sh_{(\infty,1)}(CartSp_{smooth} \times SuperPoint)
+  \end{aligned}
+ \,,
+$$
+
+where the product site $CartSp_{smooth} \times SuperPoint$ is equipped with the product topology, whose [[covering]] families are precisely those of the form 
+$\{U_i \times D  \stackrel{(p_i, id)}{\to} U \times D\}$ for $\{U_i \stackrel{p_i}{\to} U\}$ a covering family in [[CartSp]]${}_{smooth}$ (a [[good open cover]]).
+
+=--
+
++-- {: .num_note}
+###### Note
+
+This definition follows the Molotkov-Voronov-Schwarz school on [[superalgebra]] and [[supergeometry]] that works over the [[base topos|base]] [[presheaf topos]] on [[superpoints]]. See the references listed at [[super ∞-groupoid]].
+
+=--
 
 ## Properties
 
-This is a [[cohesive (∞,1)-topos]]. It is an <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#structures_in_the_presence_of_infinitesimal_cohesion_149">infinitesimal thickening</a> of [[Smooth∞Grpd]]. As such it is similar to [[SynthDiff∞Grpd]] but differs subtly from it. Both are unified in the $(\infty,1)$-topos [[SSynthDiff∞Grpd]] of _super synthetic differential $\infty$-groupoids_
+The [[(∞,1)-topos]] $SmoothSuper\infty Grpd$ is a [[cohesive (∞,1)-topos]] over [[Super∞Grpd]].
+
+It is an <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#structures_in_the_presence_of_infinitesimal_cohesion_149">infinitesimal thickening</a> of [[Smooth∞Grpd]]. As such it is similar to [[SynthDiff∞Grpd]] but differs subtly from it. Both are unified in the $(\infty,1)$-topos [[SSynthDiff∞Grpd]] of _super synthetic differential $\infty$-groupoids_
 
 (...)
 
 ## References
 
-Supermanifolds regarded as sheaves on sites similar to $CartSp_{super}$ are considered -- in the context of [[synthetic differential supergeometry]] -- in
-
-* H. Nishimura, _Synthetic differential supergeometry_,  International Journal of Theoretical Physics, 	Volume 37, Number 11 (1998) ([journal](http://www.springerlink.com/content/l226546023178715/))
-
-* D. N. Yetter, _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) 
-
-* H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / Februar 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
-
-* H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
-
-* H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
-
-
-
-Something roughly akin to looking at supermanifolds as [[sheaves]] on a combination of even [[smooth manifold]] and [[superpoint]]s is in
-
-* L. Balduzzi, C. Carmeli, R. Fioresi, _The local functors of points of Supermanifolds_ ([arXiv:0908.1872](http://arxiv.org/abs/0908.1872))
+See the references at [[super ∞-groupoid]].
 
 
 [[!redirects super smooth ∞-groupoid]]
