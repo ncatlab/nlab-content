@@ -37,11 +37,17 @@ $$
 $$
 
 
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The underlying [[adjoint triple]] $\Pi \dashv Disc \dashv \Gamma$ in the case of infinitesimal cohesion is an [[ambidextrous adjunction]].
 
 =--
 
-
 ## Examples
+
 
 
 Given an [[(∞,1)-site]] with a [[zero object]], then the [[(∞,1)-presheaf (∞,1)-topos]] over it is infinitesimally cohesive. This class of examples contains the following ones.
