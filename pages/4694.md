@@ -13,7 +13,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -38,7 +37,9 @@ Actually, since there are several types of [[monoidal functors]] (lax, colax, an
 
 * In [[linear type theory]] (see there for more) the $!$-[[modality]] may have [[categorical semantics]] as the [[comonad]] induced by a monoidal adjunction. 
 
+## Related concepts
 
+* [[projection formula]]
 
 [[!redirects monoidal adjunctions]]
 [[!redirects opmonoidal adjunction]]
