@@ -256,6 +256,8 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 
 * [[p-adic homotopy theory]]
 
+* [[real homotopy theory]]
+
 * [[fracture theorem]]
 
 ## References
