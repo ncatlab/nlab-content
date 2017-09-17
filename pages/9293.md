@@ -9,6 +9,10 @@ A [[vector space]]/[[module]] over the [[field]] of [[complex numbers]].
 
 ## Related concepts
 
+* [[real vector space]]
+
+* [[real structure]], [[complex structure]]
+
 * [[complexification]]
 
 * [[complex vector bundle]]
