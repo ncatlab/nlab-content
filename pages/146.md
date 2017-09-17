@@ -169,9 +169,17 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
   $V \subset U$ the corresponding restriction operation of functions.
 
 
-
 ... etc. pp.
 
+## In higher category theory
+
+The notion of _presheaf_ from [[category theory]] has its evident analogs in [[higher category theory]].
+
+See the entries
+
+* [[(∞,1)-category]] theory: [[(∞,1)-presheaf]].
+
+...
 
 [[!redirects presheaves]]
 [[!redirects presheaf category]]
