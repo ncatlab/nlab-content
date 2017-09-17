@@ -133,6 +133,8 @@ etc.
 * A group object in [[Cat]] is a strict [[2-group]].
 * A group object in [[Grpd]] is a strict $2$-group again.
 * A group object in [[CRing]]$^{op}$ is a commutative [[Hopf algebra]].
+* A group object in some functor category is a [[group functor]].
+* A group object in the category of [[scheme|schemes]] is a [[group scheme]]
 
 
 ## Theory 
