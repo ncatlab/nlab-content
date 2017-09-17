@@ -318,6 +318,8 @@ $$
 
 ## Related concepts
 
+* [[product law]]
+
 * [[Jacobian matrix]], [[Hessian matrix]], [[extremum]]
 
 * [[pullback of differential forms]]
