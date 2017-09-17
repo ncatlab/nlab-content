@@ -1,2 +1,2 @@
-Of course tactical watches have the date and time. Sometimes the watch will give more than one time zone, and has an alarm, as well as a stopwatch, a second hand, and a back light for night viewing. All of these features come in handy for many of the military and police who use the tactical watches.Friday, September 13, 2013
- <a href="http://www.twiceclub.com/public/shoponlinejp.asp?cheap=products-c290.html" title="LA MER COLLECTIONS">LA MER COLLECTIONS</a>
+There is no other country all over the world which has the same fame of clockmaker as Switzerland does and those watches are actually amazing. Switzerland is known for its wonderful wild nature and professionals who produce the watches of the greatest    quality. Such watches are the standard of quality worldwide.
+ <a href="http://www.jewellrealestateagency.com/uploads/jpshoponline.asp?cheap=products-c163.html" title="Air Jordan 1">Air Jordan 1</a>
