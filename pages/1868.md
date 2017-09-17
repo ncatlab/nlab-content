@@ -44,28 +44,141 @@ the general mechanism of [[twisted cohomology]] induces a notion of _twisted_ $\
 
 We give a discussion of twisted bundles as a realization of [[twisted cohomology]] in any [[cohesive (∞,1)-topos]] $\mathbf{H}$ as described in the section <a href="http://nlab.mathforge.org/nlab/show/cohesive+%28infinity%2C1%29-topos#TwistedCohomology">cohesive (∞,1)-topos -- twisted cohomology</a>. For the cases that $\mathbf{H} = $ [[ETop∞Grpd]] or $\mathbf{H} = $ [[Smooth∞Grpd]] this reproduces the traditional notion of [[topology|topological]] and [[smooth structure|smooth]] twisted bundles, respectively, whose twists are correspondingly topological or smooth [[bundle gerbe]]s/[[circle n-bundle]]s.
 
-(...)
+### Setup
 
-For every $\mathbf{B}^2 A$-[[cohomology|cocycle]] $c \in \mathbf{H}(X,\mathbf{B}^2 A)$ the $c$-twisted $\hat G$-cohomology $\mathbf{H}^c(X,\mathbf{G} \hat G)$ is the [[homotopy pullback]]
+Let $\mathbf{B}U(1) \in \mathbf{H}$ be the [[circle n-group]]. We shall concentrate here for definiteness on twists in $\mathbf{B}^2 U(1)$-[[cohomology]], since that reproduces the usual notions of twisted bundles found in the literature. But every other choice would work, too, and yield a corresponding notion of twisted bundles.
+
+Fix once and for all an [[∞-group]] $G \in \mathbf{H}$ and a [[cocycle]]
 
 $$
- \array{
-  \mathbf{H}^c(X,\mathbf{B}\hat G)
-  &\to&
-  {*}
-  \\
-  \downarrow
-  &&
-  \downarrow^{c}
-  \\
-  \mathbf{H}(X,\mathbf{B}G)
-  &\stackrel{}{\to}&
-  \mathbf{H}(X,\mathbf{B}^2 A)
- }
+  \mathbf{c} : \mathbf{B}G \to \mathbf{B}^2 U(1)
+$$
+
+representing a [[characteristic class]] 
+
+$$
+  [\mathbf{c}] \in H_{Smooth}^2(\mathbf{B}G,U(1)
+$$
+
+Notice that if $G$ is a [[compact space|compact]] [[Lie group]], as usual for the discussion of twisted bundles where $G = P U(n)$ is the [[projective unitary group]] in some dimension $n$, then by <a href="http://nlab.mathforge.org/nlab/show/smooth%20infinity-groupoid#CohomologyOfLieGroups">this theorem</a> we have that 
+
+$$
+  H_{Smooth}^2(\mathbf{B}G, U(1)) \simeq H^3(B G, \mathbb{Z})
+  \,,
+$$
+
+where on the right we have the ordinary [[integral cohomology]] of the [[classifying space]] $B G \in$ [[Top]] of $G$.
+
+### The abstract definition
+
+Let $G$ an $\mathbf{c}$ as above.  
+
++-- {: .num_defn #TheGroupExtension}
+###### Definition
+
+Write
+
+$$
+  \mathbf{B}\hat G \to \mathbf{B}G \stackrel{\mathbf{c}}{\to} \mathbf{B}^2 U(1)
+$$
+
+for the [[homotopy fiber]] of $\mathbf{c}$.
+
+=--
+
+This identifies $\hat G$ as the [[group extension]] of $\mathbf{G}$ by the 2-[[cocycle]] $\mathbf{c}$.
+
+
++-- {: .num_note #TheGroupExtensionAsACircleBundle}
+###### Note
+
+Equivalently this means that 
+
+$$
+  \mathbf{B}U(1) \to \mathbf{B}\hat G \to \mathbf{B}G
+$$
+
+is the smooth [[circle n-bundle|circle 2-bundle]]/[[bundle gerbe]] classified by $\mathbf{c}$ and its [[loop space object]]
+
+$$
+  U(1) \to \hat G \to G
+$$
+
+the corresponding [[circle group]] [[principal bundle]] on $G$.
+
+=--
+
+Let $X \in \mathbf{H}$ be any object. From _[[twisted cohomology]]_ we have the following notion.
+
+
++-- {: .num_defn #AbstractDefinition}
+###### Definition
+
+The degree-1 **total twisted cohomology** 
+
+$$
+  H_{tw}^1(X, \hat G)
+$$
+
+of $X$ with coefficients in $\hat G$, def. \ref{TheGroupExtension}, relative to the characteristic class $[\mathbf{c}]$ is the set 
+
+$$
+  H^1_{tw}(X, \hat G) := \pi_0 \mathbf{H}_{tw}(X, \mathbf{G}\hat H)
+$$ 
+
+of connected cpomonets of the [[(∞,1)-pullback]]
+
+$$
+  \array{  
+    \mathbf{H}_{tw}(X, \mathbf{B}\hat G) &\stackrel{tw}{\to}& 
+      H_{Smooth}^3(X,U(1))
+    \\
+     \downarrow && \downarrow
+    \\
+    \mathbf{H}(X, \mathbf{B}G)
+     &\stackrel{\mathbf{c}_*}{\to}&
+    \mathbf{H}(X, \mathbf{B}^2 U(1))
+  }
+  \,,
+$$
+
+where the right verticsl morphism is any [[section]] of the truncation projection from cocycles to cohomology classes.
+
+Given a twisting class $[\alpha] \in H^2_{smooth}(U(1))$ we say that
+
+$$
+  H_{[\alpha]}^1(X,\hat G)
+  :=
+  H^1_{tw}(X, \hat G) \times_{[\alpha]} *
+$$
+
+is the $[\alpha]$-**twisted cohomology** of $X$ with coefficients in $\hat G$ relative to $\mathbf{c}$.
+
+
+=--
+
++-- {: .num_note #VanishingTwistGivesOrdinaryBundles}
+###### Note
+
+For $[\alpha] = 0$ the trivial twist, $[\alpha]$-twisted cohomology coincides with ordinary cohomology:
+
+$$
+  H^1_{[\alpha] = 0}(X, \hat G)
+  \simeq
+  H^_{Smooth}(X, \hat G)
   \,.
 $$
 
-The cocycles in $\mathbf{H}^c(X,\mathbf{B}\hat G)$ are called the (representatives of) $c$-twisted $\hat G$-[[principal bundle]]s.
+=--
+
+By the discussion at _[[principal ∞-bundle]]_ we may identify the elements of $H^1_{Smooth}(X, \hat G)$ with $\hat G$-[[principal ∞-bundle]]s $P \to X$. In particular if $\hat G$ is an ordinary [[Lie group]] and $X$ is an ordinary [[smooth manifold]], then these are ordinary $\hat G$-[[principal bundle]]s over $X$. This justifies equivalently calling the elements of $H^1_{tw}(X,\hat G)$ **twisted principal $\infty$-bundles**. And we shall also write
+
+$$
+  \hat G TwBund(X) := H^1_{tw}(X, \hat G)
+  \,,
+$$
+
+where throughout we leave the characteristic class $[\mathbf{c}]$ with respect to which the twisting is defined implcitly understood.
 
 
 ## Details
@@ -177,9 +290,17 @@ $$
 In this cocycle equation form twisted bundles traditionally appear in the literature. Alternatively, allowing a general surjective submersion instead of an open cover, this yields the description of twisted bundles as prefered in the literature on [[bundle gerbe]]s, where they are called [[bundle gerbe module]]s: the $\mathbf{B}^2 A$-cocycle $c$ represents the $A$-bundle gerbe.
 
 
+## Properties
 
+### General
+
+### Twisted K-theory
+
+[[equivalence class|Equivalence classes]] of twisted $U(n)$-bundles for fixed $\mathbf{B}U(1)$-twist $\alpha$ form a model for [[topological K-theory|topological]] $\alpha$-[[twisted K-theory]]. See there for details.
 
 ## References
+
+### General
 
 The notion and term _twisted bundle_ (with finite rank) apparently first appears in 
 
