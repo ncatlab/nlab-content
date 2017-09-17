@@ -56,6 +56,7 @@ The category $[\Delta^{op}, sSet]$ of [[simplicial presheaves]] on the [[simplex
  {#OrdinaryCategoriesAsCompleteSegalSpaces}
 
 We discuss how an ordinary [[small category]] is naturally regarded as a complete Segal space.
+([Rezk, 3.5](#Rezk))
 
 #### Preliminaries
 
@@ -143,6 +144,42 @@ Notably (since $\Delta[k]$ is [[weak homotopy equivalence|weak homotopy equivale
 
 So for every category $C$, the simplicial object $\mathbf{C}$ constructed as above is a complete Segal space. This constructions extends to a functor $Cat \to completeSegalSpace$ and this is homotopy full and faithful.
 
+#### Properties of the inclusion
+ {#PropertiesOfTheInclusionOfCategories}
+ 
+
+Write
+
+$$
+ Sing_J : Cat \to [\Delta^{op}, sSet]
+$$
+
+for the functor just defined
+
++-- {: .num_prop}
+###### Proposition
+
+For $C$ and $D$ two categories, there are [[natural isomorphisms]]
+
+$$
+  Sing_J(C \times D)
+  \simeq
+  Sing_J(C) \times Sing_J(D)
+$$
+
+and
+
+$$
+  Sing_J(D^C) \simeq (Sing_J D)^{Sing_J C}
+  \,.
+$$
+
+A functor $f : C \to D$ is an [[equivalence of categories]] precisely if $Sing_J(f)$ is an equivalence in the [[Reedy model structure]] $[\Delta^{op}, sSet]_{Reedy}$ (hence is degreewise a [[weak homotopy equivalence]] of Kan complexes).
+
+=--
+
+This appears as ([Rezk, theorem 3.7](#Rezk)).
+
 ## Related concepts
 
 * [[model structure for complete Segal spaces]]
@@ -151,15 +188,18 @@ So for every category $C$, the simplicial object $\mathbf{C}$ constructed as abo
 
 * [[table - models for (infinity,1)-operads]]
 
+
+
 ## References
 
 Complete Segal spaces were originally defined in 
 
-* [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007
+* [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
+ {#Rezk}
 
 The relation to [[quasi-categories]] is discussed in 
 
-* [[Andre Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+* [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
 
 A survey of the definition and its relation to equivalent definitions is in section 4 of 
 
