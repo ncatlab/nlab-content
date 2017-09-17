@@ -99,12 +99,21 @@ An intermediate notion is that of a [[Grothendieck pretopology]], which consists
 
 As remarked above, Grothendieck topologies on a small category $C$ are also in bijective correspondence with [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] on the [[presheaf]] [[topos]] $[C^{op},Set]$.  See [[Lawvere-Tierney topology]] for a description of the correspondence.
 
-## Literature and related entries
+See also 
 
-Discussions of variants of this notion and its variants are discussed in [[historical notes on Grothendieck topology]]. 
+* [[coverage]], [[site]] [[Lawvere-Tierney topology]], [[Grothendieck pretopology]], [[Q-category]]
 
-* [[coverage]], [[Lawvere-Tierney topology]], [[Grothendieck pretopology]], [[Q-category]]
+* [[(∞,1)-Grothendieck topology]]
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]]
+## References
+
+Standard texbooks inlcude
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
+Discussions of variants of the notion and its variants is at _[[historical notes on Grothendieck topology]]_. 
+
 
 [[!redirects Grothendieck topologies]]
