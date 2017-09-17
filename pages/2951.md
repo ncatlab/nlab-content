@@ -6,4 +6,6 @@
 * [wikipedia entry](http://en.wikipedia.org/wiki/Graeme_Segal)
 
 
+[[!redirects G. Segal]]
+
 category: people
