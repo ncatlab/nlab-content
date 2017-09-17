@@ -23,7 +23,19 @@ There have long been speculations (see the references [below](#ReferencesApplica
 
 ## Definition
 
-Let $\mathbf{Z}$ be the [[ring]] of [[integer]]s and for every $q\neq 0$, $q\mathbf{Z}$ its ideal consisting of all integer multiples of $q$, and $\mathbf{Z}/q\mathbf{Z}$ the corresponding quotient, the ring of residues mod $q$.
+We first recall the definition and construction of the [[p-adic integers]]
+
+* [Recollection of the p-adic integers](#RecollectionOfPAdicIntegers)
+
+and then consider
+
+* [The p-adic numbers proper](#PAdicNumbersProper)
+
+### Recollection of the $p$-adic integers
+ {#RecollectionOfPAdicIntegers}
+
+
+Let $\mathbf{Z}$ be the [[ring]] of [[integers]] and for every $q\neq 0$, $q\mathbf{Z}$ its ideal consisting of all integer multiples of $q$, and $\mathbf{Z}/q\mathbf{Z}$ the corresponding [[quotient]], the ring of residues mod $q$.
 
 Let now $p\in \mathbf{Z}_+$ be a [[prime number]]. Then for any two positive integers $n\geq m$ there is an inclusion $p^m \mathbf{Z}\subset p^n\mathbf{Z}$ which induces the canonical homomorphism of quotients $\phi_{n,m}:\mathbf{Z}/p^n\mathbf{Z}\to \mathbf{Z}/p^m\mathbf{Z}$. These homomorphism for all pairs $n\geq m$ form a family closed under composition, and in fact a category, which is in fact a poset, and moreover a directed system of (commutative unital) rings. The __ring of [[p-adic integers]]__ $\mathbf{Z}_p$ is the (inverse) [[limit]] of this directed system (inside the category of rings).
 
@@ -47,7 +59,10 @@ $$
 
 ring $\mathbf{Z}_p$ is a [[complete metric space]] in that $d$ is a [[metric]], and $\mathbf{Z}$ is dense in it.
 
-The __field of $p$-adic numbers__ $\mathbf{Q}_p$ is the [[field of fractions]] of $\mathbf{Z}_p$. The $p$-adic valuation $v_p$ extends to a discrete valuation, also denoted $v_p$ on $\mathbf{Q}_p$. Indeed, it is still true for all $x\in \mathbf{Q}_p$ that they can be uniquely written in the form $p^n u$ where $u\in U$ (the same group $U$ as before), but now one needs to allow $n\in \mathbf{Z}$. One defines the metric on $\mathbf{Q}_p$ by the same formula as for $\mathbf{Z}_p$. It appears that $\mathbf{Q}_p$ is a [[complete field]] (in particular locally compact Hausdorff) and that $\mathbf{Z}_p$ is an *open* subring. 
+### The $p$-adic numers proper
+ {#PAdicNumbersProper}
+
+The __field of $p$-adic numbers__ $\mathbf{Q}_p$ is the [[field of fractions]] of the [[p-adic integers]] $\mathbf{Z}_p$. The $p$-adic valuation $v_p$ extends to a discrete valuation, also denoted $v_p$ on $\mathbf{Q}_p$. Indeed, it is still true for all $x\in \mathbf{Q}_p$ that they can be uniquely written in the form $p^n u$ where $u\in U$ (the same group $U$ as before), but now one needs to allow $n\in \mathbf{Z}$. One defines the metric on $\mathbf{Q}_p$ by the same formula as for $\mathbf{Z}_p$. It appears that $\mathbf{Q}_p$ is a [[complete field]] (in particular locally compact Hausdorff) and that $\mathbf{Z}_p$ is an *open* subring. 
 
 The distance $d$ satisfies the "utrametric" inequality
 
@@ -70,9 +85,6 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 
 =--
 
-## Applications
-
-* [[p-adic physics]]
 
 ## Related concepts
 
@@ -91,6 +103,8 @@ Any non-trivial [[absolute value]] on the [[rational numbers]] is equivalent eit
 * [[p-adic cohomology]]
 
 * [[p-adic physics]]
+
+  * [[p-adic string theory]]
 
 ## References
  {#References}
