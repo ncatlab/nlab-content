@@ -13,7 +13,7 @@ It is an example of a space which is not [[semi-locally simply connected space|s
 
 The Hawaiian earring space is the [[topological space]] defined to be the set 
 
-$$\{(x, y) \in \mathbb{R}^2: (x - 1/2^n)^2 + y^2 = 1/2^{2n}\}$$
+$$\bigcup_{n \in \mathbb{N}} \{(x, y) \in \mathbb{R}^2: (x - 1/2^n)^2 + y^2 = 1/2^{2n}\}$$
 
 endowed with [[subspace topology]] inherited from $\mathbb{R}^2$. 
 
