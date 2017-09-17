@@ -15,11 +15,9 @@ for all $a,b\in A$. One can rescale the norm to another norm to get $C = 1$. A n
 
 ## Related concepts
 
-* [[normed ring]]
-
-* [[Banach algebra]]
-
 * [[normed division algebra]]
+
+[[!include analytic geometry ingredients -- table]]
 
 ## References
 
