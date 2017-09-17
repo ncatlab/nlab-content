@@ -6,7 +6,7 @@ Note that, perhaps by some abuse of notation, $B_T\subseteq\mathbf{Loc}(T)$, the
 
 ##The Distributive Lattice of the Bousfield Lattice
 
-Within $B_T$, there is a distributive lattice $DL_T$ that is precisely all _Bousfield idempotent_ objects of $T$.  That is, $DL_T$ is precisely the objects $X$ such that $\langle X\otimes X\rangle=\langle X\rangle$. It is known that this lattice is a coherent [[frame]] and that there is a duality of categories between coherent frames and coherent spaces.  For more on this, see [[Stone duality]].
+Within $B_T$, there is a distributive lattice $DL_T$ that is precisely all _Bousfield idempotent_ objects of $T$.  That is, $DL_T$ is precisely the objects $X$ such that $\langle X\otimes X\rangle=\langle X\rangle$. It is known that this lattice is a [[frame]].  Additionally, $DL_T$ is a distributive lattice, so by the work of Stone, it corresponds to a coherent space.  For more on this, see [[Stone duality]].
 
 
 
