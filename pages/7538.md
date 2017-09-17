@@ -41,7 +41,7 @@ as the most general definition of the line integral of a vector field along an o
 ### Line integral of a scalar field
 
 Classically, we again have a [[Cartesian space]] $X$, now a [[continuous map]] $f$ from $X$ to $\mathbb{R}$ or $\mathbb{C}$, and again a [[continuously differentiable map]] $C\colon [a,b] \to X$; the __line integral__ of $f$ along $C$ is defined as
-$$ \int_C f \mathrm{d}s \coloneqq \int_a^b f(C(t)) \cdot {\|C'(t)\|} \,\mathrm{d}t ,$$
+$$ \int_C f \mathrm{d}s \coloneqq \int_a^b f(C(t)) {\|C'(t)\|} \,\mathrm{d}t ,$$
 where again the integral on the right is a [[Riemann integral]] and $C'$ is the [[derivative]] of $C$ componentwise.  If $\phi\colon [e,f] \to [a,b]$ is a continuously differentiable [[bijection]] (whether increasing *or* decreasing), then
 $$ \int_{C \circ \phi} f \mathrm{d}s = \int_C f \mathrm{d}s ,$$
 the reparametrisation theorem.
