@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[higher geometry]] version of [[complex analytic geometry]], for instance with [[geometry (for structured ((∞,1)-toposes)]] being the [[site]] of [[Stein manifolds]].
+
+## Related concepts
+
+* [[GAGA]]
+
+## References
+
+* [[Jacob Lurie]], section 4.4. of _[[Structured Spaces]]_
+
