@@ -1779,7 +1779,7 @@ $$
   \,,
 $$
 
-where $\hat\mathbf{c}_{el} \cup \hat \mathbf{c}_{mag} : \mathbf{Fields} \to \mathbf{B}^{dim X +2} U(1)_{conn}$ is the differential characteristic morphism induced by the [[differential cup product]] of universal electric and magnetic currents, and where $\exp(2\pi i \int_X(-))$ is [[fiber integration in ordinary differential cohomology]] refined to smooth $\infty$-stacks (this is the "$(dim X)+1$-dimensional [[schreiber:infinity-Chern-Simons theory]]" of $\hat\mathbf{c}_{el} \cup \hat \mathbf{c}_{mag}$ in [[codimension]] 1).
+where $\hat\mathbf{c}_{el} \cup \hat \mathbf{c}_{mag} : \mathbf{Fields} \to \mathbf{B}^{dim X +2} U(1)_{conn}$ is the differential characteristic morphism induced by the [[differential cup product]] ([FSSd](#FSSd)) of universal electric and magnetic currents, and where $\exp(2\pi i \int_X(-))$ is [[fiber integration in ordinary differential cohomology]] refined to smooth $\infty$-stacks (this is the "$(dim X)+1$-dimensional [[schreiber:infinity-Chern-Simons theory]]" of $\hat\mathbf{c}_{el} \cup \hat \mathbf{c}_{mag}$ in [[codimension]] 1).
 
 #### Higher gauge fields in the presence of magnetic charge current
 
@@ -2079,7 +2079,7 @@ $$
 
 is a "$k$-extended action functional".
 
-An important class of [[schreiber:∞-Chern-Simons theories]] arising this way come from $\hat \mathbf{c}$ that are [[cup product|cup products]] of two other differential classes. For instance in ordinary abelian [[higher dimensional Chern-Simons theory]] one starts with the tautological differential class
+An important class of [[schreiber:∞-Chern-Simons theories]] arising this way come from $\hat \mathbf{c}$ that are [[cup product|cup products]] of two other differential classes ([FSSd](#FSSd)). For instance in ordinary abelian [[higher dimensional Chern-Simons theory]] one starts with the tautological differential class
 
 $$
   \hat \mathbf{DD}  
@@ -2089,7 +2089,7 @@ $$
   \mathbf{B}^{2k+1} U(1)_{conn}
 $$
 
-and then forms its [[differential cup product]]
+and then forms its [[differential cup product]] ([FSSd](#FSSd))
 
 $$
   \hat \mathbf{c} 
@@ -3285,6 +3285,9 @@ The smooth $\infty$-stack refinements of these structures, as discussed above, h
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_
  {#FSSc}
 
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Extended higher cup-product Chern-Simons theories]]_
+ {#FSSd}
+
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_
  {#NSS}
 
@@ -3304,6 +3307,6 @@ This page here originates in notes for an introductory lecture:
 
 Closely related lectures at the same program included
 
-* [[Dan Freed]], _Lectures on twisted $K$-theory and orientifolds_ at _[ESI Program on K-Theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012)
+* [[Dan Freed]], _Lectures on twisted $K$-theory and orientifolds_ at _[ESI Program on K-Theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_ (2012) ([pdf](http://www.ma.utexas.edu/users/dafr/ESI.pdf))
  {#FreedLecture}
 
