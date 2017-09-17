@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $\infty$-Lie theory
+#### $\infty$-Chern-Simons theory
 +--{: .hide}
-[[!include infinity-Lie theory - contents]]
+[[!include infinity-Chern-Simons theory - contents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 #### Physics
 +--{: .hide}
@@ -12,6 +16,7 @@
 =--
 =--
 =--
+
 
 
 # Contents
@@ -46,6 +51,10 @@ The original reference is
 Dmitry Roytenberg's useful review of the original work:
 
 * [[Dmitry Roytenberg]], _AKSZ-BV Formalism and Courant Algebroid-induced Topological Field Theories_ ([arXiv](http://arxiv.org/abs/hep-th/0608150)).
+
+Another review is
+
+* Noriaki Ikeda, _Deformation of graded (Batalin-Volkvisky) Structures_ in Dito, Lu, Maeda, Weinstein (eds.) _Poisson geometry in mathematics and physics_ Contemp. Math. 450, AMS (2008) 
 
 A cohomological reduction of the formalism is described in 
 
