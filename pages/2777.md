@@ -49,7 +49,7 @@ The following result makes precise for _parameterized [[∞-groupoid]]s_  -- for
 +-- {: .un_theorem}
 ###### Theorem (k-tuply monoidal $\infty$-stacks)
 
-Let $k \gt 0$, let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and let $\mathcal{X}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathcal{X}_{*}$ of pointed objects, spanned by those pointed objects thar are $k$-connective (i.e. their first $k$ [[homotopy group (of an ∞-stack)|∞-stack homotopy groups]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
+Let $k \gt 0$, let $\mathcal{X}$ be an [[∞-stack]] [[(∞,1)-topos]] and let $\mathcal{X}_*^{\geq k}$ denote the [[full subcategory]] of the category $\mathcal{X}_{*}$ of pointed objects, spanned by those pointed objects thar are $k-1$-[[connected]] (i.e. their first $k$ [[homotopy groups in an (∞,1)-topos|∞-stack homotopy groups]]) vanish. Then there is a canonical equivalence of [[(∞,1)-category|(∞,1)-categories]]
 
 $$
   \mathcal{X}_*^{\geq k} \simeq Mon^{gp}_{\mathbb{E}[k]}(\mathcal{X}) \,.
@@ -60,7 +60,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Theorem 1.3.6.
+This is [[Ek-Algebras|EKAlg, theorem 1.3.6.]].
 
 =--
 
@@ -76,14 +76,14 @@ Let $Y$ be a [[topological space]] equipped with an action of the [[little cubes
 +-- {: .proof}
 ###### Proof
 
-Theorem 1.3.16.
+This is [[Ek-Algebras|EkAlg, theorem 1.3.16.]]
 
 =--
 
 
 #### Related literature
 
-Lurie's proof of the equivalence of $n$-connected objects with grouplike $E[k]$-objects is entirely at the level of [[(∞,1)-category|(∞,1)-categories]]. One would hope that in addition there is a model for this equivalence at the level of [[model category|model categories]].
+Lurie's proof of the equivalence of $n+1$-[[connected]] objects with grouplike $E[k]$-objects is entirely at the level of [[(∞,1)-category|(∞,1)-categories]]. One would hope that in addition there is a model for this equivalence at the level of [[model category|model categories]].
 
 There is a model category structure on the category $Top_*$ of pointed topological spaces, such that the cofibrant objects are $n$-connected [[CW-complex]]es, described in
 
