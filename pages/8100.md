@@ -7,7 +7,10 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
-
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
 =--
 =--
 
@@ -40,6 +43,8 @@ More precisely, the naive holonomy of an ordinary Chan-Paton [[principal connect
 * [[Spin^c Dirac operator]]
 
 * [[Green-Schwarz mechanism]]
+
+[[!include orientations in higher quantization - table]]
 
 
 
