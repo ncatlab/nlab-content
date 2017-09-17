@@ -610,7 +610,7 @@ For $G$ an ordinary Lie group, this reproduces the groupoid $\mathbf{E}G$ discus
 
 For detailed illustration of what $\mathbf{E}G$ looks like for $G$ a [[2-group]], see ([RobertsSchreiber](#RobertsSchreiber)).
 
-#### Circle 2-bundles
+#### Circle 2-bundles and bundle gerbes
 
 (...)
 
@@ -624,19 +624,19 @@ $$
     \\
     C(U) &\stackrel{g}{\to}& \mathbf{B}^2 U(1)
     \\
-    \downarow^{\mathrlap{\simeq}}
+    \downarrow^{\mathrlap{\simeq}}
     \\
     X
   }
 $$
 
-is equivalent what in the literature is called a central extension of the Cech groupoid, or a [[bundle gerbe]] relative to $\coprod_i U_i$.
+is equivalent what in the literature is called a central extension of the Cech groupoid, or a [[bundle gerbe]] relative to the [[surjective submersion]] $U \to X$.
 
 (...)
 
 
 
-#### String 2-bundles
+#### String 2-bundles and nonabelian bundle gerbes
 
 (...)
 
@@ -658,6 +658,111 @@ $$
 
 
 (...)
+
+
+#### A model for principal $\infty$-bundles
+
+We have seen that the theory of ordinary smooth [[principal bundle]]s is naturally situated within the context of [[Lie groupoid]]s, and that the theory of smooth [[principal 2-bundle]]s is naturally situated within the theory of [[Lie 2-groupoid]]s. This is clearly the beginning of a pattern in [[higher category theory]] where in the next step we see smooth [[3-groupoids]] and so on. Finally the general theory of [[principal ∞-bundle]]s deals with smooth [[∞-groupoid]]s. 
+
+A comprehensive discussion of such [[∞-Lie groupoid]]s is given at [[∞-Lie groupoid|that link]]. In this introduction here we will just briefly describe the main _tool_ to model these and describe principal $\infty$-bundles in this model.
+
+(...)
+
+* [[Kan complex]]
+
+* [[simplicial presheaf]]
+
+* [[model category]]
+
+* [[model structure on simplicial presheaves]]
+
+* [[factorization lemma]]
+
+* [[universal principal ∞-bundle]]
+  
+  $$
+    \array{ 
+      \mathbf{E}G &\to& *
+      \\
+      \downarrow && \downarrow
+      \\
+      \mathbf{B}G^I &\to& \mathbf{B}G
+      \\
+      \downarrow
+      \\
+      \mathbf{B}G
+    }
+  $$
+
+* [[homtopy pullback]]
+
+  $$
+    \array{ 
+      \tilde P && \mathbf{E}G &\to& *
+      \\
+      \downarrow && \downarrow && \downarrow
+      \\
+      && \mathbf{B}G^I &\to& \mathbf{B}G
+      \\
+      \downarrow && \downarrow
+      \\
+      C(U) &\stackrel{g}{\to}& \mathbf{B}G
+      \\
+      \downarrow^{\mathrlap{\simeq}}
+      \\
+      X
+    }
+  $$
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     \tilde P \times G &\to& \mathbf{E}G \times G
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde P &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     C(U) &\stackrel{g}{\to}& \mathbf{B}G
+     \\
+     \downarrow^{\mathrlap{\simeq}}
+     \\
+     X
+     \\
+     {}
+     \\
+     {}
+     \\
+     & in\;the\;model\;category &
+  }
+  \;\;\;\;\;\;\;
+  \array{
+     \vdots && \vdots
+     \\
+     P \times G &\to& G
+     \\
+     \downarrow && \downarrow
+     \\
+     P &\to& * 
+     \\
+     \downarrow &\swArrow_{\simeq}& \downarrow 
+     \\
+     X &\stackrel{}{\to}& \mathbf{B}G
+     \\
+     .
+     \\
+     .
+     \\
+     \\
+     \\
+     & in\;the\;(\infty,1)-topos
+  }
+  \,.
+$$
+
 
 
 ### Parallel transport in low dimensions {#LowDimension}
