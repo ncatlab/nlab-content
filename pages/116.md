@@ -209,7 +209,7 @@ For more see [[counterexamples in algebra]].
 
 * **group**, [[group object]]
 
-  * [[finite group]], [[discrete group]], [[abelian group]], [[topological group]], [[Lie group]], [[loop group]]
+  * [[finite group]], [[discrete group]], [[abelian group]], [[topological group]], [[Lie group]], [[loop group]], [[profinite group]]
 
 * [[ring]], [[ring object]]
 
@@ -221,7 +221,8 @@ For more see [[counterexamples in algebra]].
 
 * [[outer automorphism group]], [[outer automorphism ∞-group]]
 
-
+* [[group presentation]]
 
 
 [[!redirects groups]]
+category: group theory
