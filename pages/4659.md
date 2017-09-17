@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -23,6 +23,8 @@ By [[Lie integration]] semisimple Lie algebras correspond to [[Lie group]]s that
 
 
 ## Properties
+
+Every semisimple Lie algebra is a [[reductive Lie algebra]].
 
 A Lie algebra $\mathfrak{g}$ is semisimple precisely if the [[Killing form]] [[invariant polynomial]]
 
