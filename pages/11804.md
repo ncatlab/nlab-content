@@ -5,7 +5,7 @@
 
 ## Idea
 
-A [[spectral sequence]] induced by the [[Hodge filtration]] on a [[complex analytic space]] $X.
+A [[spectral sequence]] induced by the [[Hodge filtration]] on a [[complex analytic space]] $X$.
 
 Write $\Omega^\bullet$ for the [[holomorphic de Rham complex]].
 
