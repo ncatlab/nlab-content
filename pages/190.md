@@ -69,11 +69,11 @@ By the [[axiom of choice]], the two definitions of $Cat$ as a $2$-[[2-category|c
 
 ## Related concepts
 
-* **$Cat$**
+* **$Cat$**, [[Operad]]
 
 * [[2Cat]]
 
-* [[(∞,1)Cat]]
+* [[(∞,1)Cat]], [[(∞,1)Operad]]
 
 * [[(∞,n)Cat]]
 
