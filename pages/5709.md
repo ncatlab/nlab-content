@@ -25,9 +25,13 @@ While fundamental [[physics]] is at some level well described by [[quantum field
 
 An example (historically the first to be successfully considered) is the [[Fermi theory of beta decay]] of hadrons: this contains interactions of four [[fermion]]s at a time, for instance a process in which a [[neutron]] decays into a collection consisting of a [[proton]], an [[electron]] and a [[neutrino]]. Later it was discovered that, more fundamentally, this is not a single reaction but is composed out of several other interactions that involve exchanges of [[W boson]]s between these four particles. Nevertheless, Fermi's original _effective_ theory made very precise predictions at energy scales less than 10 [[MeV]]. The reason is that the $W$-boson has mass several orders of magnitude higher than that (about 80 [[GeV]]) and was thus _effectively_ invisible at these low energies.
 
+The low energy expansion of any unitary, relativistic, [[crossing symmetry|crossing symmetric]] [[S-matrix]] can be described by an effective quantum field theory
+
 In the perspective of effective field theory notably  [[renormalization|unrenormalizable]] Lagrangians can still make perfect sense as effective theories and give rise to well defined predictions: they can be effective approximations to renormalizable or even degreewise finite more fundamental theories. This is sometimes called a [[UV completion]] of the given effective theory.
 
 For instance [[gravity]] -- which is notoriously non-renormalizable -- makes perfect sense as an effective field theory (see for instance the introduction in ([Donoghue](#DonoghueIntroduction)). It is in principle possible that there is some more fundamental theory with plenty of excitations at high energies that is however degreewise finite in [[perturbation theory]], whose _effective_ description at low energy is given by the unrenormalizable [[Einstein-Hilbert action]]. (For instance, [[string theory]] is meant to be such a theory.)
+
+
 
 ## Theory
 
