@@ -204,6 +204,9 @@ The notion of symplectic manifold is equivalent to that of [[symplectic Lie n-al
 
 * [[G2-manifold]]
 
+[[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
+
+
 ## References
 
 See the references at [[symplectic geometry]].
