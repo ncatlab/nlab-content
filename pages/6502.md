@@ -82,7 +82,9 @@ the $\mathbb{R}^{d+1}$-valued part of the connection is the [[vielbein]].
 
 * [[connection on a 2-bundle]]
 
-* [[connection on an infinity-bundle]]
+* [[connection on an ∞-bundle]]
+
+  * [[higher Cartan geometry|∞-Cartan connection]]
 
   * [[higher parallel transport]]
 
