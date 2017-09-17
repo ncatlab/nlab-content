@@ -8,7 +8,7 @@
 =--
 #### Induction
 +-- {: .hide}
-[[!include type induction - contents]]
+[[!include induction - contents]]
 =--
 =--
 =--
@@ -74,6 +74,8 @@ The main distinction from the naive categorical theory above is that the map $f$
 Note also that in [[intensional type theory]], a W-type is only an initial algebra with respect to propositional equality, not definitional equality.  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the natural numbers.
 
 ## Related concepts
+
+* [[M-type]]
 
 [[!include notions of type]]
 
