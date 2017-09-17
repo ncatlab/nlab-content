@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -41,9 +40,11 @@ A [[curve]] $\gamma : \mathbb{R} \to X$ is called _timelike_  or _lightlike_ or 
 
 ## Related concepts
 
+* [[time]]
+
 * [[future cone]]
 
-* [[Lorentzian spacetime]], [[Lorentian geometry]]
+* [[Lorentzian spacetime]], [[Lorentzian geometry]]
 
 
 [[!redirects timelike]]
