@@ -88,70 +88,72 @@ So it is good that there are many model structures on simplicial (pre)sheaves, a
 
 The following diagram is a map for part of the territory:
 
+<div style="overflow:auto" markdown="1">
 $$
   \array{
-     &&
+     &amp;&amp;
        (\infty,1)Sh(C)
-     &&&
+     &amp;&amp;&amp;
        (\infty,1)PSh(C)
-     &&&
+     &amp;&amp;&amp;
        (\infty,1)Sh(C)
      \\
-     && 
+     &amp;&amp; 
        \uparrow^{presentation}
-     &&&
+     &amp;&amp;&amp;
        \uparrow^{presentation}
-     &&& 
+     &amp;&amp;&amp; 
        \uparrow^{presentation}
      \\
-     SSh(C)^{l loc}_{inj} & 
+     SSh(C)^{l loc}_{inj} &amp; 
      \stackrel{\stackrel{sheafification}{\leftarrow}}
-       {\stackrel{embedding}{\to}}& 
+       {\stackrel{embedding}{\to}}&amp; 
      SPSh(C)^{l loc}_{inj} 
-     &\stackrel{}{\leftarrow}|&
+     &amp;\stackrel{}{\leftarrow}|&amp;
      SPSh(C)_{inj}
-     &\stackrel{\stackrel{Id}{\leftarrow}}
-       {\stackrel{Id}{\rightarrow}}&
+     &amp;\stackrel{\stackrel{Id}{\leftarrow}}
+       {\stackrel{Id}{\rightarrow}}&amp;
      SPSh(C)_{proj}
-     &\stackrel{}{\mapsto}&
+     &amp;\stackrel{}{\mapsto}&amp;
      SPSh(C)_{proj}^{l loc}
-     &
+     &amp;
      \stackrel{\stackrel{sheafification}{\to}}
-       {\stackrel{embedding}{\leftarrow}}& 
+       {\stackrel{embedding}{\leftarrow}}&amp; 
      SSh(C)_{proj}^{l loc}
      \\
      Joyal
-     &\stackrel{Quillen equivalence}{\leftrightarrow}&
+     &amp;\stackrel{Quillen equivalence}{\leftrightarrow}&amp;
      Jardine
-     &\stackrel{left Bousf. localization}{\leftarrow|}&
+     &amp;\stackrel{left Bousf. localization}{\leftarrow|}&amp;
      Heller
-     &\stackrel{Quillen equivalence}{\leftrightarrow}&
+     &amp;\stackrel{Quillen equivalence}{\leftrightarrow}&amp;
      Bousfield-Kan 
-    &\stackrel{left Bousf. localization}{\mapsto}&
+    &amp;\stackrel{left Bousf. localization}{\mapsto}&amp;
      Blander
-     &\stackrel{Quillen equivalence}{\leftrightarrow}& 
+     &amp;\stackrel{Quillen equivalence}{\leftrightarrow}&amp; 
      Brown-Gersten    
      \\
      \\
-     &
+     &amp;
      everything cofibrant;
      \\
-     & fibrant = global injective fib...     
+     &amp; fibrant = global injective fib...     
      \\
      \;\;\; 
-     & ...satisfying descent
-     &&&&&&&&
+     &amp; ...satisfying descent
+     &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;
      cofibrant = global projective cofib;
      \\
-     &&&&&&&&&
+     &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;
      fibrant = Kan valued and...    
      \\
-     &&&&&&&&&
+     &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;
      \;\;\; 
      ...satisfying descent
 
   }
 $$
+</div>
 
 Here 
 
@@ -183,38 +185,40 @@ while
 
 The following diagram collection [[model category|model categories]] that are [[presentable (infinity,1)-category|presentations]] for the [[(∞,1)-category of (∞,1)-sheaves]]. All indicated morphism pairs are [[Quillen equivalences]].
 
+<div style="overflow:auto" markdown="1">
 $$
   \array{
      PSh(X, SGrpd)
-     &\stackrel{\stackrel{embedding}{\leftarrow}}
-       {\stackrel{sheafification}{\to}}&
+     &amp;\stackrel{\stackrel{embedding}{\leftarrow}}
+       {\stackrel{sheafification}{\to}}&amp;
      Sh(X,SGrpd)
-     &\stackrel{}{\leftrightarrow}&
+     &amp;\stackrel{}{\leftrightarrow}&amp;
      Sh(X, SSet)^{l loc}_{inj}
-     &\stackrel{\stackrel{sheafification}{\leftarrow}}
-        {\stackrel{embedding}{\to}}&
+     &amp;\stackrel{\stackrel{sheafification}{\leftarrow}}
+        {\stackrel{embedding}{\to}}&amp;
      PSh(X, SSet)^{l loc}_{inj}
-     &\stackrel{\stackrel{Id}{\leftarrow}}
-        {\stackrel{Id}{\to}}&
+     &amp;\stackrel{\stackrel{Id}{\leftarrow}}
+        {\stackrel{Id}{\to}}&amp;
      PSh(X, SSet)^{l loc}_{proj}
-     &\stackrel{\stackrel{embedding}{\leftarrow}}
-       {\stackrel{sheafification}{\to}}&
+     &amp;\stackrel{\stackrel{embedding}{\leftarrow}}
+       {\stackrel{sheafification}{\to}}&amp;
      Sh(X, SSet)^{l loc}_{proj}
      \\
      \\
      Luo-Bubenik-Tim
-     &&
+     &amp;&amp;
      Joyal-Tierney
-     &&
+     &amp;&amp;
      Joyal
-     &&
+     &amp;&amp;
      Jardine
-     &&
+     &amp;&amp;
      Blander
-     &&
+     &amp;&amp;
      Brown-Gersten     
   }
 $$
+</div>
 
 On the right this lists the model structures on simplicial (pre)sheaves, here displayed as (pre)sheaves with values in [[simplicial sets]], using $SPSh(C) \simeq PSh(C,SSet)$.
 
