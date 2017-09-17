@@ -1,0 +1,10 @@
+
+* [website](http://web.mit.edu/physics/people/faculty/zwiebach_barton.html)
+
+  [Wikipedia entry](http://en.wikipedia.org/wiki/Barton_Zwiebach)
+
+## Related entries
+
+* [[string field theory]]
+
+category: people
