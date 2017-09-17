@@ -11,6 +11,7 @@
 ## Subareas
 
 * [[computational homology]]
+* [[persistent homology]]
 
 * [[topological data analysis]]
 
@@ -27,7 +28,8 @@ Related areas include
 
 ## References
 
-See the separate entry [[sources in computational topology]].
+See the separate entry [[sources in computational topology]]
+and the book entry [[Computational Topology, An Introduction]].
 
 
 [[!redirects computational topology]]
