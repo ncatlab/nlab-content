@@ -176,7 +176,7 @@ $$
     + 
     k
     \,
-    \pi(\phi\wedge \cdots \wedge \phi)
+    \phi^* \pi
   \right)
   \,,
 $$
