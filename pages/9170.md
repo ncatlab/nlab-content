@@ -15,7 +15,7 @@
 
 ## Idea
 
-The Steady State theory is a [[model (in theoretical physics)|model]] in [[cosmology]]. Originally proposed as a [[phenomenology|phenomenologically viable]] model, it was later ruled out by observation, which instead prefers the [[Big Bang]] [[FRW model]].
+The _Steady State theory_ is a [[model (in theoretical physics)|model]] in [[cosmology]]. Originally proposed as a [[phenomenology|phenomenologically viable]] model, it was later ruled out by observation, which instead prefers the [[Big Bang]] [[FRW model]].
 
 
 ## Related concepts
