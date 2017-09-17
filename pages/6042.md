@@ -1,0 +1,5 @@
+
+
+The _Lorentz force_ is the [[force]] excerted in a [[particle]] that is charged under the [[electromagnetic field]].
+
+See [[relativistic particle]] for details.
