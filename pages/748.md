@@ -289,6 +289,22 @@ For $C$ a category, $X : D \to C$ a [[diagram]], $C/X$ the [[comma category]] (o
 
 For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
 
+### Initial and terminal objects
+
+As a special case of the above discussion of limits and colimits in a 
+slice $\mathcal{C}_{/X}$ we obtain the following statement, which of 
+course is also immediately checked explicitly.
+
++-- {: .num_cor }
+###### Corollary
+
+* If $\mathcal{C}$ has an initial object $\emptyset$, then $\mathcal{C}_{/X}$ has an [[initial obect]], given by $\langle \emptyset \to X\rangle$.
+
+* The [[terminal object]] $\mathcal{C}_{/X}$ is $\mathrm{id}_X$.
+
+=--
+
+
 
 
 ## Related concepts
