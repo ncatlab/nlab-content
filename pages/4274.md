@@ -84,13 +84,22 @@ It is maybe noteworthy that [[tmf]] (and hence its universal string orientation)
 The [characteristic series](genus#LogarithmAndCharacteristicSeries) of the Witten genus as a [[power series]] in $z$ with [[coefficients]] in formal power series in $q$ over $\mathbb{Q}$ is
 
 $$
-  K_w(z)(q)
-  =
-  \frac{z/2}{sinh(z/2)}
-  \prod_{n \geq 1}
-  \frac{(1-q^n)^2}{(1-q^n e^z)(1-q^n e^{-z})}
-  \,.
+  \begin{aligned}
+    K_w(z)(q)
+    & =
+    \frac{z/2}{sinh(z/2)}
+    \prod_{n \geq 1}
+    \frac{(1-q^n)^2}{(1-q^n e^z)(1-q^n e^{-z})}
+      \\
+      & = 
+      \exp\left(
+        \sum_{k \geq 2} G_k \frac{z^k}{k!}
+      \right)
+   \end{aligned}
+  \,,
 $$
+
+where $G_k$ are the [[Eisenstein series]] ([Ando-Hopkins-Strickland 01](AndoHopkinsStrickland01), [Ando-Hopkins-Rezk 10, prop. 10.9](#AndoHopkinsRezk10)).
 
 By the discussion at _[Integrality and modularity](#IntegralityAndModularity)_ a [[modular form]] with respect to the variable $q$. Such functions which are power series of two variables $z$ and $q$ with elliptic nature in $z$ and modular nature in $q$ are called _[[Jacobi forms]]_ ([Zagier 86, p. 8](#Zagier86), [Ando-French-Ganter 08](#AndoFrenchGanter08)).
 
@@ -100,7 +109,7 @@ Explicitly, the Witten genus has the following equivalent re-expressions:
 
 > check prefactors
 
-in terms of the [[Jacob theta-function]] it is...
+in terms of the [[Jacobi theta-function]] it is...
 
 
 
@@ -120,7 +129,7 @@ On manifolds with actual [[string structure]], finally, the Witten genus factors
 ### Relation to Dirac operators and supersymmetric QM on loop space
  {#RelationToSuSyQMOnLoopSpace}
 
-Originally in ([Witten 87a](#Witten87a)) the elliptic genus was derived as the [[large volume limit]] of the [[index]] of the supercharge of the [[superstring]] [[worldsheet]] [[2d SCFT]]. Here the "large volume limit" is what restricts the oscillations of the string to be "small". But then in ([Witten87b](#Witten87b)) it was observed that if this supercharge -- the [[Dirac-Ramond operator]] -- would really behave like a [[Dirac operator on smooth loop space]], then the elliptic genus would be the $S^1$-equivariant [[index of a Dirac operator]], where $S^1$ acts by rigid rotationl of the parameterization of the loops, and by analogy standard formulas for equivariant indices in K-theory would imply the localization to the tangent spaces to the space of constant loops. 
+Originally in ([Witten 87a](#Witten87a)) the elliptic genus was derived as the [[large volume limit]] of the [[index]] of the [[supercharge]] of the [[superstring]] [[worldsheet]] [[2d SCFT]]. Here the "large volume limit" is what restricts the oscillations of the string to be "small". But then in ([Witten87b](#Witten87b)) it was observed that if this supercharge -- the [[Dirac-Ramond operator]] -- would really behave like a [[Dirac operator on smooth loop space]], then the elliptic genus would be the $S^1$-equivariant [[index of a Dirac operator]], where $S^1$ acts by rigid rotationl of the parameterization of the loops, and by analogy standard formulas for equivariant indices in K-theory would imply the localization to the tangent spaces to the space of constant loops. 
 
 Notice that the would-be [[Dirac operator on smooth loop space]] is what would realize the [[superstring]] quantum dynamics as [[supersymmetric quantum mechanics]] on [[smooth loop space]]. This observation was the original motivation for the study of [[supersymmetric quantum mechanics]] in ([Witten 82](#Witten82), [Witten 85](#Witten85)) in the presence of a given [[Killing vector field]] (correspinding to the $S^1$-action on loop space ).
 
