@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include topos theory - contents]]
 =--
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
 =--
 =--
 
