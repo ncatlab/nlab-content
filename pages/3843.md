@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
@@ -30,9 +30,13 @@ $$
 
 is a **$\kappa$-accessible functor** (for $\kappa$ a [[regular cardinal]]) if $C$ and $D$ are both $\kappa$-[[accessible categories]] and $F$ preserves $\kappa$-[[filtered colimit]]s.  $F$ is an **accessible functor** if it is $\kappa$-accessible for some regular cardinal $\kappa$.
 
-### Higher categorical version
 
-See [[accessible (∞,1)-functor]].
+## Related concepts
+
+
+* [[accessible (∞,1)-functor]].
+
+* [[accessible monad]]
 
 
 
