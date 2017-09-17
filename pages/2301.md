@@ -18,9 +18,9 @@
 
 ## Idea 
 
-A general idea of [[Alexander Grothendieck]] was that to study a geometry more general than [[scheme]]s instead of the gluing of [[affine scheme]]s as [[ringed space]]s, one glues the functors of points; hence **a [[space]] is simply a [[sheaf]] of sets on some [[site]] $Loc$ of local models with a [[Grothendieck topology]]** $\tau$ on it. 
+A general idea of [[Alexander Grothendieck]] was that to study a geometry more general than [[scheme]]s instead of the gluing of [[affine scheme]]s as [[ringed space]]s, one glues the [[functors of points]]; hence **a [[space]] is simply a [[sheaf]] of sets on some [[site]] $Loc$ of local models with a [[Grothendieck topology]]** $\tau$ on it. 
 
-An algebraic [[scheme]] $X$ is a [[ringed space]] that is locally isomorphic to an [[affine scheme]]. Alternatively (see Gabriel-Demazure), it is a presheaf of sets on $Aff=CommRing^{op}$ locally representable in Zariski topology on $Aff$. The second approach [[Alexander Grothendieck]] calls functor of points approach. 
+An algebraic [[scheme]] $X$ is a [[ringed space]] that is locally isomorphic to an [[affine scheme]]. Alternatively (see Gabriel-Demazure), it is a presheaf of sets on $Aff=CommRing^{op}$ locally representable in Zariski topology on $Aff$. The second approach [[Alexander Grothendieck]] calls [[functor of points]] approach. 
 
 To recall the equivalence between the two points of view, every scheme $X$ gives rise to a representable [[presheaf]] on the formal dual of commutative rings
 
