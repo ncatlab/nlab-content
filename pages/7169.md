@@ -45,8 +45,19 @@ The [[signature of a quadratic form]] of the [[quadratic form]] induced by the i
 
 
 ### In ordinary differential cohomology: higher abelian Chern-Simons theory
+ {#SecondaryIntersectionPairing}
 
-For the case that the cohomology in question is [[ordinary differential cohomology]], a [[cocycle]] in degree $k$ is a [[circle n-bundle with connection|circle (k-1)-bundle with connection]], and the required notion of orientation is now _[[orientation in differential cohomology]]_: a [[differential Thom class]].  The [[diagonal]] of the intersection pairing in this case is the [[action functional]] of quadratic abelian [[higher dimensional Chern-Simons theory]].
+For the case that the cohomology in question is [[ordinary differential cohomology]], 
+
+* a [[cocycle]] in degree $k$ is a [[circle n-bundle with connection|circle (k-1)-bundle with connection]], 
+
+* the cup product is the [[Beilinson-Deligne cup product]];
+
+* and the required notion of orientation is now _[[orientation in differential cohomology]]_: a [[differential Thom class]].  
+
+The differentially refined intersection pairing is non-trivial and interesting also on manifolds of dimension less than $2k$, where the integral intersection pairing vanishes: it provides a _[[secondary characteristic class]]_, a **secondary intersection pairing**.
+
+Notably, the [[diagonal]] of the intersection pairing in in dimension $2k-1$ is the [[action functional]] of quadratic abelian [[higher dimensional Chern-Simons theory]].
 
 Its [[quadratic refinement]] is discussed in 
 ([Hopkins-Singer](#HopkinsSinger)).
@@ -66,3 +77,6 @@ Discussion of the intersection pairing in [[ordinary differential cohomology]] a
  {#HopkinsSinger}
 
 [[!redirects intersection pairings]]
+
+[[!redirects secondary intersection pairing]]
+[[!redirects secondary intersection pairings]]
