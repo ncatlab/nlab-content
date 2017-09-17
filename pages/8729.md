@@ -1,0 +1,43 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+A _sylleptic 3-group_ is a [[3-group]] eqipped with the following equivalent [[structure]]:
+
+1. Regarded as a [[monoidal 2-category]], $G$ is a [[sylleptic monoidal 2-category]].
+
+1. The [[A-∞ algebra]]/[[E1-algebra]] structure on $G$ refines to an [[E4-algebra]] structure.
+
+1. $G$ is a [[k-tuply groupal n-groupoid|3-tuply monoidal 2-groupoid]].
+
+1. $G$ is a groupal [[k-tuply monoidal (n,r)-category|3-tuply monoidal (2,0)-category]].
+
+=--
+
+## Related concepts
+
+* [[k-tuply groupal n-groupoid]]
+
+[[!redirects syllectic 3-groups]]
