@@ -12,13 +12,7 @@
 =--
 =--
 
-* **presheaf**
 
-* [[(2,1)-presheaf]]
-
-* [[(∞,1)-presheaf]]
-
-***
 
 #Contents#
 * automatic table of contents goes here
@@ -222,15 +216,16 @@ Examples for presheaves are abundant. Here is a non-representative selection of 
 
 ... etc. pp.
 
-## In higher category theory
 
-The notion of _presheaf_ from [[category theory]] has its evident analogs in [[higher category theory]].
+## Related concepts
 
-See the entries
+* **presheaf**
 
-* [[(∞,1)-category]] theory: [[(∞,1)-presheaf]].
+* [[(2,1)-presheaf]]
 
-...
+* [[(∞,1)-presheaf]]
+ 
+
 
 [[!redirects presheaves]]
 [[!redirects presheaf category]]
