@@ -15,7 +15,7 @@
 
 * [[connection on a bundle]]
 
-* [[connection on a 2-bundle]] / connection on a gerbe / [[connection on a bundle gerbe]]
+* [[connection on a 2-bundle]] / [[connection on a gerbe]] / **connection on a bundle gerbe**
 
 * [[connection on a 3-bundle]] / [[connection on a bundle 2-gerbe]]
 
