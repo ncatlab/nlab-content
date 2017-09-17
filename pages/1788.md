@@ -4,20 +4,20 @@ Every wiki needs a sandbox! Just test *between* the horizontal rules below (`***
 =--
 
 ***
+$$
+  (b:B) \; \vdash \; 
+  \left(
+    \sum_{a \colon A} (b = f(a))
+  : Type\right).
+$$
 
+$$\left(\sum_i a_i\right)$$
 
-no sand in this box -- just arrows
+$$\left[\sum_i a_i \right]$$
 
-$\curvearrowleft$ $\curvearrowbotright$
+$$\Big[\sum_i a_i\Big]$$
 
-$\leftsquigarrow$
-
-$\righttoleftarrow$ $\lefttorightarrow$ 
-
-How do you pronounce it, chech or something
-
-$\check{b}$ 
-
+$$\left(\Big[\sum_i a_i\Big]\right)$$
 
 
 ***
