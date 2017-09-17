@@ -35,7 +35,7 @@ $$
 
 be the [[dependent sum]] in one [[variable]] $x : X$ over the [[dependent product]] on the other [[variable]] $y \colon X$ of the $x,y$-[[dependent type|dependent]] [[identity type]] $(x = y)$.
 
-We say that $X$ is a **contracrible type** if $isContr(X)$ is an [[inhabited type]].
+We say that $X$ is a **contractible type** if $isContr(X)$ is an [[inhabited type]].
 
 =--
 
@@ -95,11 +95,112 @@ A type is contractible if and only if it is [[equivalence in homotopy type theor
 
 We discuss the [[categorical semantics]] of contractible types.
 
-Let $\mathcal{C}$ be a [[locally cartesian closed category]] with [[presentation of homotopy type theory|sufficient structure]] to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[acyclic cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of [[coherence]], which are not important for this discussion.)
+Let $\mathcal{C}$ be a [[locally cartesian closed category]] with [[categorical semantics of homotopy type theory|sufficient structure]] to intepret all the above type theory.  This means that $C$ has a [[weak factorization system]] with [[stable path objects]], and that [[acyclic cofibrations]] are preserved by pullback along fibrations between fibrant objects.  (We ignore questions of [[coherence]], which are not important for this discussion.)
 
-Then for a [[fibrant object]] $A$, the fibrant object $isContr(A)$ is obtained by taking the dependent product of the [[path space object]] $A^I \to A\times A$ along one [[projection]] $p_2 : A\times A\to A$ (then forgetting the remaining map to $A$).
+In this [[categorical semantics]], the interpretation of a type $\dashv A : Type$ is a [[fibrant object]] $[\dashv A : Type]$, which for short we will just write $A$. The interpretation of the [[identity type]] $x,y : A \dashv (x = y) : Type$ is as the [[path space object]] $A^I \to A \times A$.
+The interpretation of $isContr(A)$ is the object obtained by taking the [[dependent product]] of the [[path space object]] along one [[projection]] $p_2 : A\times A\to A$ and then forgetting the remaining morphism to $A$.
 
-This means that to give a [[global element]] of $isContr(A)$ is to give a global element $a\colon 1\to A$ together with a right [[homotopy]] relating the composite $A\to 1\to A$ to the identity.  Thus, $A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
+$$
+  [isContr(A)]
+  \;\;
+  =
+  \;\;
+  \array{
+    \prod_{p_2} A^I
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    *
+  }
+  \,.
+$$
+
+The interpretation $[\hat a : isContr(A)]$ of a [[term]] of $isContr(A)$ is precisely a morphism $\hat a : * \to \prod_{p_2} A^I$.
+
++-- {: .num_prop}
+###### Proposition
+
+An interpreted term of $isContr(A)$ induces a [[contraction]] [[right homotopy]] of the object $A$, hence with [[diagrams]] in $\mathcal{C}$ of the form
+
+$$
+  \array{
+    A \times A &\stackrel{\eta}{\to}& A^I
+    \\
+    & {}_{\mathllap{(id, pt_a)}}\searrow & \downarrow
+    \\
+    && A \times A
+  }
+  \,,
+$$
+
+where $pt_a$ is a morphism of the form $A \to * \stackrel{a}{\to} A$. And every contraction right homotopy arises from a term.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Given a term $\hat a : * \to \prod_{p_2} A^I$, write $a : * \to A$ for the corresponding projection in
+
+$$
+  \array{
+     * &\stackrel{\hat a}{\to} & \prod_{p_2} A^I
+     \\
+     &{}_{\mathllap{a}}\searrow & \downarrow
+     \\
+     && A
+     \\
+     && \downarrow
+     \\
+     && *
+  }
+  \,.
+$$
+
+By precomposing with the [[terminal object|terminal]] morphism $A \to *$ this yields a diagram 
+
+$$
+  \array{
+    A &\to& * &\stackrel{\hat a}{\to}& \prod_{p_2} A^I  
+    \\
+    &\searrow& \downarrow & & \downarrow
+    \\
+    && * 
+    \\
+    && & {}_{\mathllap{a}}\searrow & \downarrow
+    \\
+    &&&& A
+  }
+$$
+
+in $\mathcal{C}$, which represents an element in the [[hom set]] $\mathcal{C}_{/A}(pt_a, \prod_{p_2} A^I)$ of the [[slice category]] over $A$. By the ([[base change]] $\dashv$ [[dependent product]])-[[adjunction]] this is equivalently an element in $\mathcal{C}_{/A \times A}( p_2^* pt_a, A^I )$, given in $\mathcal{C}$ by a diagram of the form
+
+$$
+  \array{
+    A \times A && \stackrel{\eta}{\to} &  & A^I  
+    \\
+    &\searrow& & & \downarrow
+    \\
+    && A \times * 
+    \\
+    && & {}_{\mathllap{(id,a)}}\searrow & \downarrow
+    \\
+    &&&& A \times A
+  }
+  \,.
+$$
+
+This is the [[contraction]] right [[homotopy]] in question.
+
+Conversely, starting with a contraction $\eta$ as above, its [[adjunct]] is a morphism $\mathcal{C}_{/A}(pt_a, \prod_{p_2} A^I)$ and precomposing with $a : * \to A$ this gives a term of $[isContr(A)]$.
+
+=--
+
+Thus, $A\to 1$ is a (right) [[homotopy equivalence]], and hence (since $A$ is [[fibrant]]) an [[acyclic fibration]].
 
 Conversely, if $\mathcal{C}$ is a model category, $A$ and $1$ are cofibrant, and $A\to 1$ is an acyclic fibration, then $A\to 1$ is a right homotopy equivalence, and hence $isContr(A)$ has a global element.  Thus, in most cases, the existence of a global element of $isContr(A)$ (which is unique up to homotopy, since $isContr(A)$ is an [[h-proposition]]) is equivalent to $A\to 1$ being an acyclic fibration.
 
