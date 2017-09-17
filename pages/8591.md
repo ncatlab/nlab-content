@@ -69,7 +69,7 @@ Or, this generalises to any [[compact group]] (with [[Haar measure]]) or indeed 
 
 Let $\nu$ be a measure, and let $f \in L^1(\nu)$ be an [[absolutely integrable function]] with respect to $\nu$; then [[integration]] defines a measure $f \nu$:
 $$ (f \nu)(E) = \int_E f \nu = \int_E f(x) \nu(\mathrm{d}x) .$$
-This measure $f \nu$ is absolutely continuous with respect to $\nu$.  Conversely, given any absolutely continuous measure $\mu$, there is (at most) a unique (up to [[almost equality]]) absolutely integrable function $f$ such that $\mu = f \nu$; and this function must exist if $\mu$ and $\nu$ are [[localizable measure|localisable]], or equivalently if $\mu$ and $\nu$ are [[normal measure]]s on a [[localisable measurable space]].  This converse is the subject of the [[Radon–Nikodym theorem]].
+This measure $f \nu$ is absolutely continuous with respect to $\nu$.  Conversely, given any absolutely continuous measure $\mu$, there is (at most) a unique (up to [[almost equality]]) absolutely integrable function $f$ such that $\mu = f \nu$; and this function must exist if $\mu$ and $\nu$ are [[localizable measure|localizable]].  This converse is the subject of the [[Radon–Nikodym theorem]].
 
 
 [[!redirects absolutely continuous measure]]
