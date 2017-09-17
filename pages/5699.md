@@ -4,4 +4,12 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Cumrun_Vafa)
 
+## Related entries
+
+* [[string theory]]
+
+## Expositions
+
+* _[Strings, and the magic of extra dimensions](http://www.icts.res.in/lecture/1/details/1632/)_, public talk at [ICTS](http://www.icts.res.in/home/), Bangalore, June 2013 ([pdf slides](http://www.icts.res.in/media/uploads/Lecture/Slides/Cumrun%20Vafa.pdf), [video](http://www.icts.res.in/media/uploads/Lecture/Slides/Cumrun%20Vafa.pdf))
+
 category: people
