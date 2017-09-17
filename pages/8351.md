@@ -3,10 +3,10 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
 
-(...)
-
+For $N \in \mathcal{A}$ an [[object]], a _projective cover_ is a morphism
+$\tilde N \to N$ out of a [[projective object]] which is a _[[superfluous epimorphism]]_.
 
 ## Related concepts
 
