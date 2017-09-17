@@ -19,7 +19,7 @@
 
 ## Idea
 
-Analytic spaces are [[spaces]] that are locally modeled on [[Isbell duality|formal duals]] of sub-[[associative algebra|algebras]] of [[power series]] algebras on elements with certain [[convergence]] properties with respect to given [[seminorms]]. This is in contrast to [[algebraic spaces]] ([[algebraic varieties]], [[schemes]]) where no [[convergence]] properties are considered
+Analytic spaces are [[spaces]] that are locally modeled on [[Isbell duality|formal duals]] of sub-[[associative algebra|algebras]] of [[power series]] algebras on elements with certain [[convergence]] properties with respect to given [[seminorms]]. This is in contrast to ([[formal geometry|formal]]) [[algebraic spaces]] (([[formal scheme|formal]]) [[schemes]]) where no [[convergence]] properties are considered.
 
 In [[complex number|complex]] [[analytic geometry]] analytic spaces -- [[complex analytic space]] -- are a vast generalization of complex [[analytic manifolds]] and are usually treated in the formalism of [[locally ringed spaces]]. In this case the _[[GAGA]]-principle_ closely relates [[complex analytic geometry]] with [[algebraic geometry]] over the [[complex numbers]].
 
