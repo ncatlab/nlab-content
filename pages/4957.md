@@ -104,38 +104,110 @@ $$
   }
 $$
 
-+-- {: .num_defn #LocalReflection}
++-- {: .num_defn #EssentialTopology}
 ###### Definition
 
-Say that $j$ is a **local reflection** if the closure operation $# : Sub(X) \to Sub(X)$ has a [[left adjoint]] $\flat$.
+Say that $j$ is an **[[essential geometric morphism|essential]] topology** if the closure operation $# : Sub(X) \to Sub(X)$ has a [[left adjoint]] $\flat \dashv #$:
 
 $$
-  (\flat U \hookrightarrow V)
-  \Leftrightarrow
   (U \hookrightarrow # V)
+   \Leftrightarrow
+  (\flat U \hookrightarrow V)
   \,.
 $$
 
 =--
 
-This appears under the term "principal" in ([AwodeyBirkedal, def. 2.1](#AwodeyBirkedal)). 
+This appears under the term "principal" in ([Awodey-Birkedal, def. 2.1](#AwodeyBirkedal)). 
 
 +-- {: .num_remark}
 ###### Remark
 
-Notice that we use the notation "$\flat$" and "$#$" oppositely to the use on p.14 of that article. Our convention is such that it harmonizes with the terminology at _[[cohesive topos]]_ and _[[cohesive (infinity,1)-topos]]_, where it makes interpretational sense to pronounce "$\flat$" as "flat".
+We use the notation "$\flat$" and "$#$" oppositely to the use on p.14 of [Awodey-Birkedal](#AwodeyBirkedal). Our convention is such that it harmonizes with the terminology at _[[cohesive topos]]_ and _[[cohesive (infinity,1)-topos]]_, where it makes interpretational sense to pronounce "$\flat$" as "flat".
 
 =--
 
 +-- {: .num_prop #InternalCharacterizationOfLocalReflection}
 ###### Proposition
 
-A [[Lawvere-Tierney topology]] $j$ is a [local reflection](#LocalReflection) $(\flat \dashv #)$ precisely if for all objects $X$ there exists a least $#$-[[dense monomorphism|dense subobject]] $U_X \hookrightarrow X$.
+A [[Lawvere-Tierney topology]] $j$ is [essential](#EssentialTopology), $(\flat \dashv #)$, precisely if for all objects $X$ there exists a least $#$-[[dense subobject]] $U_X \hookrightarrow X$.
 
 =--
 
 This appears as ([AwodeyBirkedal, lemma 2.3](#AwodeyBirkedal)). 
 
++-- {: .proof}
+###### Proof
+
+By the discussion at [[category of sheaves]] we have that $#$ is given by the composite
+
+$$
+  # : \mathcal{E} \stackrel{\Gamma}{\to} Sh_j(\mathcal{E}) \stackrel{coDisc}{\hookrightarrow} \mathcal{E}
+  \,,
+$$
+
+where the first morphism is [[sheafification]] and the second is [[full and faithful functor|full and faithful]]. 
+
+If now the [[left adjoint]] $\flat$ exists, it follows that this comes from a left adjoint $Disc$ to $\Gamma$ as
+
+$$
+  \flat
+   : 
+  \mathcal{E}
+   \stackrel{\overset{Disc}{\hookleftarrow}}{\underset{\Gamma}
+{\to}}
+  Sh_j(\mathcal{E})
+  \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\hookrightarrow}}
+  \mathcal{E}
+  : 
+  #
+  \,.
+$$
+
+Therefore the $(Disc \dashv \Gamma)$-[[counit of an adjunction|counit]] provides morphisms
+
+$$
+  \flat X \to X
+  \,.
+$$
+
+We need to show that these are $#$-[[dense monomorphisms]], hence that 
+
+$$
+  #(\flat X \to X)
+  = 
+  (coDisc \Gamma Disc \Gamma \to coDisc \Gamma X)
+$$
+
+is an [[isomorphism]], and universally so. 
+
+Composing this morphism with $coDisc$ of the $(Disc \dashv\Gamma)$-unit on $\Gamma X$ (which is an [[isomorphism]] since $Disc$ is a [[full and faithful functor]] by the discussion at [[adjoint triple]]) and using the $(Disc \dashv \Gamma)$ [[triangle identity]] we have 
+
+$$
+  coDisc(
+    \Gamma X 
+      \stackrel{\simeq}{\to}
+    \Gamma Disc \Gamma X
+      \stackrel{}{\to}
+    \Gamma X
+  )
+  = 
+  coDisc ( \Gamma X \stackrel{Id}{\to} \Gamma X)
+  \,.
+$$
+
+Using that also $coDisc$ is full and faithful and then [[2-out-of-3]] for [[isomorphisms]] it follows that $coDisc \Gamma Disc \Gamma X \stackrel{\simeq}{\to} coDisc \Gamma X$ hence
+
+$$
+  # \flat X \stackrel{\simeq}{\to} # X
+$$
+
+is indeed an isomorphism. 
+
+Moreover, by one of the equivalent characterizations of [[reflective subcategories]] we have (...)
+
+
+=--
 
 ## Examples
 
