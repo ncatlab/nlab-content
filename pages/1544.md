@@ -356,6 +356,10 @@ See [[connection on a principal ∞-bundle]].
 
     * [[Chen connection]]
 
+    * [[covariant derivative]]
+
+    * [[equivariant connection]]
+
   * [[moduli space of connections]]
 
   * [[fiber bundles in physics]]
