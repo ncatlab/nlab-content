@@ -11,8 +11,14 @@
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### $\infty$-Chern-Simons theory
++--{: .hide}
+[[!include infinity-Chern-Simons theory - contents]]
 =--
 =--
+=--
+
+
 
 # Contents
 * automatic table of contents goes here
@@ -42,7 +48,9 @@ These cases describe non-topological quantum field theories. Here the formalizat
 
   For $X$ a [[spacetime]] this is called the [[relativistic particle]].
 
-* Generalizing in the above example the line bundle $E$ by an abelian [[bundle gerbe]] with a connection yields a background for a 2-dimensional $\sigma$-model which mayb be thought of as describing the propgation of a [[string theory|string]].  The best-studied version of this is the case where $X = G$ is a [[Lie group]], in which case this $\sigma$-model is known as the _Wess--Zumino--Witten model_.
+  For $\Sigma$ or $X$ a [[supermanifold]] this is the [[superparticle]].
+
+* Generalizing in the above example the line bundle $E$ by an abelian [[bundle gerbe]] with a connection yields a background for a 2-dimensional $\sigma$-model which mayb be thought of as describing the propgation of a [[string theory|string]].  The best-studied version of this is the case where $X = G$ is a [[Lie group]], in which case this $\sigma$-model is known as the _[[WZW model|Wess--Zumino--Witten model]]_.
 
 
 
@@ -55,7 +63,7 @@ These cases describe non-topological quantum field theories. Here the formalizat
 
 * the [[Poisson sigma-model]] is a model whose target is a [[Poisson Lie algebroid]].
 
-* in [[AKSZ theory]] this is generalized to a large class of sigma models with [[Lie infinity-algebroid]]s as target.
+* in [[AKSZ theory]] this is generalized to a large class of sigma models with [[symplectic Lie n-algebroid]]s as target.
 
 * Rozansky--Witten theory is essentially the $\sigma$-model for $X$ a smooth projective variety.
 
@@ -66,15 +74,15 @@ These cases describe non-topological quantum field theories. Here the formalizat
 
 First indications on how to formalize $\sigma$-models in a [[higher category theory|higher categorical]] context were given in
 
-* Dan Freed, _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
+* [[Dan Freed]], _Higher algebraic structures and quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
-A more complete formalization along the lines of the above operation was indicated in
+A grand picture developing this approach further is sketched in 
 
-* Marco Grandis, [[Cospans in Algebraic Topology]]
+* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_  ([arXiv](http://arxiv.org/abs/0905.0731))
 
-and
+A discussion of 2 or 2+1-dimensional $\Sigma$-models whose target is an [[derived stack]]/[[infinity-stack]] is in
 
-* David Ben-Zvi, John Francis, David Nadler, _Integral transforms and Drinfeld centers in derived geometry_ ([arXiv](http://arxiv.org/abs/0805.0157)) .
+* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral transforms and Drinfeld centers in derived geometry_ ([arXiv](http://arxiv.org/abs/0805.0157)) .
 
 More discussion of the latter is at [[geometric infinity-function theory]].
 
