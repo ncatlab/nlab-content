@@ -47,7 +47,7 @@ $$
 
 ## Related concepts
 
-* [[differentiation]]
+* [[differentiation]], [[Hessian matrix]], [[extremum]]
 
 [[!redirects Jacobian matrix]]
 [[!redirects Jacobian determinant]]
