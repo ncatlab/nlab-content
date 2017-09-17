@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -242,7 +253,7 @@ $$
   B U := {\lim_{\to}}_{n \in \mathbb{N}} B U(n)
 $$
 
-for the [[colimit]] (the "[[direct limit]]") over this diagram.
+for the [[homotopy colimit]] (the "homotopy [[direct limit]]") over this diagram.
 
 =--
 
@@ -312,3 +323,7 @@ Introductions are in
  {#Friedlander}
 
 
+A discussion of the topological K-theory of [[classifying space]]s of [[Lie group]]s is in 
+
+* Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
+ {#JackowskiOliver}
