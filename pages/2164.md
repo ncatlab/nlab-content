@@ -892,22 +892,9 @@ and chapter I, section 4 and chapter II, theorem 1.13 and onwards in
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal  Analysis]]
 
+A discussion on terminology and share of the content between infinitesimal object and [[infinitesimal quantity]] is saved at $n$Forum [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2696&Focus=22805#Comment_22805).
 
-## Discussion
-
-+-- {: .query}
-Do all of the following really involve infinitesimal *objects*?  Or should we move the others to [[infinitesimal quantity]] to clarify that this page is about objects of categories as defined below?  ---Toby
-
-[[Urs Schreiber]]: good point. I think Lawvere's definition is, as stated, to be thought of as defining _infinitesimal space_s, yes. For infinitesimal quantities it will likely have to be dualized (in the hopefully obvious way). 
-
-So maybe we should rename the entry here into _infinitesimal space_ and, yes, create another entry on infinitesimal quantities. Yes, I think that's a good idea. I have to run now, but I can implement it later.
-
-_Toby_:  I could do it too, although I\'d like to see what Zoran thinks.
-
-_Zoran_: I don't really feel/know what is the most sensitive here. Surely our understanding is developing and we will see more in future (you see yet another thing are the sheaves supported on infinitesimal neighborhoods as well as the duality between infinitesimals and (regular) differential operators in algebraic setting, the duality whose analogue I do not understand in the smooth context (cf. Maszczyk 0611806). 
-=--
-
-
+For an approach to infinitesimal thickenings in the context of abelian categories of quasicoherent sheaves see [[differential monad]] and [[regular differential operator in noncommutative geometry]]. 
 
 [[!redirects infinitesimal objects]]
 [[!redirects infinitesimal quantity]]
