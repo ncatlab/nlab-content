@@ -3125,7 +3125,11 @@ $$
   \mathbf{H}_{th}
 $$
 
-where $i_!$ preserves [[(∞,1)-product]] is a [[full and faithful (∞,1)-functor]].
+where $i_!$ is 
+
+* a [[full and faithful (∞,1)-functor]] 
+
+* that preserves the [[terminal object in an (∞,1)-category|terminal object]].
 
 =--
 
