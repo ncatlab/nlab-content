@@ -57,5 +57,7 @@ This approach generalizes to any [[semigroup]] or to any category with binary ([
 [[!redirects binary nullary pairs]]
 
 [[!redirects bias]]
+[[!redirects biased]]
+[[!redirects unbiased]]
 [[!redirects biased definition]]
 [[!redirects unbiased definition]]
