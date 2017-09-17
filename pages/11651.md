@@ -1,0 +1,9 @@
+
+* [[Weil divisor]], [[Cartier divisor]]
+
+## References
+
+* Wikipedia, _[Divisor (algebraic geometry)](http://en.wikipedia.org/wiki/Divisor_(algebraic_geometry)_
+
+* [[The Stacks Project]], _[53 Divisors on Algebraic Spaces](http://stacks.math.columbia.edu/chapter/53)_
+
