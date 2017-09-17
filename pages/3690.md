@@ -12,6 +12,7 @@ Mathematically, the biggest single credit to Bourbaki is for decisively  definin
 
 * [website](http://www.bourbaki.ens.fr) of the group
 * [[Armand Borel]]: [25 years with Bourbaki](http://www.ega-math.narod.ru/Bbaki/Bourb3.htm)
+* Amir D. Aczel, _The artist and the mathematician_: the story of Nicolas Bourbaki, the genius mathematician who never existed, Thunder's Mouth Press, New York, 2006, viii+239 pp. [MR2008h:01020](http://www.ams.org/mathscinet-getitem?mr=2339913), [SIAM review](http://www.siam.org/news/news.php?id=1078)
 
 category: people
 
