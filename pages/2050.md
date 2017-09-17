@@ -16,7 +16,7 @@
 
 ## Statement
 
-+-- {: .num_theorem}
++-- {: .num_theorem #NielsenSchreierTheorem}
 ###### Theorem
 **(Nielsen--Schreier theorem)**
 
@@ -24,32 +24,28 @@ Every [[subgroup]] of a [[discrete group|discrete]] [[free group]] is itself a [
 
 =--
 
-Nielsen's theorem is the weaker form proved by [[Jakob Nielsen]] in 1921 saying that every finitely generated subgroup of a free group is free. [[Otto Schreier]] proved in 1927 the theorem in full generality.
++-- {: .proof}
+###### Proof
 
-The algebraic proof of this theorem is rather long and complicated and it is usually based on Nielsen's method of short cancellations in [[combinatorial group theory]] based on words (Nielsen's transformations of words, word length functions, ...). The class of _'projective groups'_ ( that is, in this context, [[projective object]]s in [[Grp|the category of groups]]) coincides with the class of free groups. 
+Let  $\mathbf{E} F(S) \coloneqq  F(S)\sslash F(S)$ be the [[action groupoid]] of $F(S)$ acting on itself (see also at [[universal principal bundle]]). This is [[contractible]], $\mathbf{E}F(S) \simeq *$, and comes with a canonical $F(S)$-[[action]] (from the other side). Hence it comes with an induced $H$-action and the [[quotient]] $H \backslash \backslash\mathbf{E}F(S) \simeq H \backslash \backslash *$ is [[generalized the|the]] connected groupoid whose [[fundamental group]] is $\pi_1 = H$. By the properties of [[free groupoids]] discussed at _[free groupoid -- fundamental group](http://ncatlab.org/nlab/show/free+groupoid#FundamentalGroup)_ it is sufficient to show that $H \backslash \backslash\mathbf{E}F(S)$ is isomorphic to the [[free groupoid]] on a connected [[directed graph]]. But $\mathbf{E}F(S)$ itself is the free groupoid on a directed graph, namely on the _action graph_ $F(S)\sslash S$. So 
 
-There is also a shorter proof by the basic methods of [[algebraic topology]], see below for a sketch, see also ([Higgins](#Higgins)) for an account.
+$$
+  H \backslash \backslash \mathbf{E}F\left(S\right) = H  \backslash F\left( F\left(S\right)\sslash S \right) =  F \left(\left(H \backslash F\left(S\right)\right)\sslash S\right)
+  \,.
+$$
 
-As stated, the theorem is not valid in [[constructive mathematics]], although Nielsen\'s weaker 1921 version is.
+=--
 
-## Sketch of the topological proof
- {#SketchOfTheProof}
++-- {: .num_remark}
+###### Remark
 
-(For ease, think of it in the simple case of a finitely generated free group, $F$.)
+The original algebraic proof of theorem \ref{NielsenSchreierTheorem} was rather long and complicated, based on Nielsen's method of short cancellations in [[combinatorial group theory]] based on words (Nielsen's transformations of words, word length functions, ...). The class of _'projective groups'_ ( that is, in this context, [[projective object]]s in [[Grp|the category of groups]]) coincides with the class of free groups. 
 
-* The fundamental group of a connected graph, $\Gamma$, is a free group.  (Take a maximal tree, $T$, in the graph and the rank of the free group will be the number of edges in $\Gamma \setminus T$.)
+The above simple [[homotopy theory|homotopy-theoretic]] proof was indicated in ([Higgins](#Higgins)), also ([Gilbert-Porter](#GilbrtPorter)).
 
-* Any free group is the fundamental group of a bouquet of circles, which is, of course, a connected graph, $\Gamma$, (with one vertex).
+=--
 
-* If $H\lt F$ is a subgroup, it corresponds to a covering graph of $\Gamma$, and this covering graph will have fundamental group isomorphic to $H$, ...
 
-hence $H$ is a free group.
-
-The rank of $H$ can be calculated by the **Schreier index  formula** if the rank of $F$ is finite and the index of $H$ in $F$ is finite:
-
-_Let $H$ be a subgroup of finite index $i$ in the free group $F$ of finite rank $r$, then $H$ is a free group of rank $i(r-1)+1$._
-
-The proof is by using the maximal tree argument mentioned above;  see for instance ([Gilbert-Porter](#GilbertPorter)) for more details.
 
 ## Related concepts
 
