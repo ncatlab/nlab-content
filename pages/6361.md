@@ -47,11 +47,10 @@ If we take $A$ to be a $*$-[[star-algebra|algebra]] over the [[complex numbers]]
 
 ## Related concepts
 
-* [[state]]
+[[!include classical-to-quantum notions - table]]
 
-  * **classical state**, [[quantum state]]
 
-  * [[state in AQFT and operator algebra]]
+* [[state in AQFT and operator algebra]]
 
 * [[observable]]
 
