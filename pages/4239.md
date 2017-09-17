@@ -1,11 +1,12 @@
 
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
 
 ## Idea
 
-The notion of _Calabi-Yau category_ is a [[horizontal categorification]] of that of [[Frobenius algebra]] -- a _Frobenius [[algebroid]]_ . Their name derives from the fact that the definition of Calabi-Yau categories have been originally studied as an abstract version of the derived category of coherent sheaves on a [[Calabi Yau manifold]].
+The notion of _Calabi-Yau category_ is a [[horizontal categorification]] of that of [[Frobenius algebra]] -- a _Frobenius [[algebroid]]_ . Their name derives from the fact that the definition of Calabi-Yau categories have been originally studied as an abstract version of the derived category of coherent sheaves on a [[Calabi-Yau manifold]].
 
 ## Definition
 
@@ -37,7 +38,7 @@ A Calabi-Yau category with a single object is the same (or rather the [[deloopin
 
 ### $(\infty,1)$-categorical
 
-A **Calabi-Yau $A_\infty$-category** of _dimension_ $d \in \mathbb{N}$ is an [[A-infinity category]] $C$ equipped for each pair $a,b$ of [[object]]s a morphism of [[chain complex]]es
+A **Calabi-Yau $A_\infty$-category** of _dimension_ $d \in \mathbb{N}$ is an [[A-∞ category]] $C$ equipped for each pair $a,b$ of [[object]]s a morphism of [[chain complex]]es
 
 $$
   \langle -,-\rangle_{a,b}
@@ -97,12 +98,14 @@ such that
   This is however not the morally correct CY $A_\infty$-structure associated
   with a Calabi-Yau. The correct one is 
   the $A_\infty$-category of complexes of vector bundles 
-  on a [[Calabi-Yau space]] ...
+  on a [[Calabi-Yau space]]. 
+  See [page 35](http://arxiv.org/PS_cache/math/pdf/0509/0509264v2.pdf#page=35)
+  of [Cos05](http://arxiv.org/abs/math/0509264).
 
 
 * The [[Fukaya category]] associated with a [[symplectic manifold]] $X$.
 
-* [[string topology]]: for $X$ a [[compact manifold|compact]] [[simply connected]] [[oriented]] [[manifold]], its cohomology $H^{\bullet}(X)$ is naturally a Calabi-Yau $A_\infty$-category with a single object.
+* [[string topology]]: for $X$ a [[compact space|compact]] [[simply connected]] [[orientation|oriented]] [[manifold]], its cohomology $H^{\bullet}(X)$ is naturally a Calabi-Yau $A_\infty$-category with a single object.
 
 ## Properties
 
