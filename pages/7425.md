@@ -49,7 +49,30 @@ Due to the thrid point one may regard $K(n)$ as a "$E_\infty$-field" among the [
 
 ## Properties
 
-### Relation to chromatics homotopy theory
+### As $E_\infty$-fields
+ {#AsInfinityFields}
+
++-- {: .num_prop}
+###### Proposition
+
+If $E$ is an [[E-∞ field]] then $E \otimes K(n) \neq 0$ and $E$ admits the structure of a $K(n)$-[[module spectrum|module]].
+
+=--
+
+This appears for instance as ([Lurie, lecture 24, prop. 9, remark 13](#LurieLecture))
+
++-- {: .num_remark}
+###### Remark
+
+This means that the Morava $E_\infty$-rings $K(n)$ are essentially the only [[E-∞ fields]] in the [[stable homotopy category]].
+
+=--
+
+See ([Lurie, lecture 24, remark 13](#LurieLecture))
+
+
+
+### Relation to chromatic homotopy theory
 
 The layers in the [[chromatic homotopy theory|chromatic tower]] capture periodic phenomena in [[stable homotopy theory]], corresponding to the Morava K-theory $E_\infty$-fields.
 
@@ -66,13 +89,20 @@ It is known that in the [[Bousfield lattice]] of the [[stable homotopy category]
 
 * [[chromatic homotopy theory]]
 
+* [[Lubin-Tate theory]]
+
 * [[Morava E-theory]]
 
 ## References
 
 * D. Ravenel, _Nilpotence and Periodicity in Stable Homotopy Theory_, Annals of Mathematics Studies 128, Princeton University Press (1992).
 
-* [[Jacob Lurie]], _Morava E-theory and Morava K-theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture22.pdf))
+In 
+
+* [[Jacob Lurie]], _Morava E-theory and Morava K-theory_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+ {#LurieLecture}
+
+the explicit definition via [[formal group laws]] is in lecture 22 and the abstract characterization in lecture 24.
 
 
 [[!redirects Morava K-theories]]
