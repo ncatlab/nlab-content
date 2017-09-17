@@ -31,4 +31,8 @@ Perturbative string theory is _defined_ as the [[string perturbation series]] of
 
 The [[moduli space]] of these vacua -- which is hardly understood -- has come to be called the _[[landscape of string theory vacua]]_ .
 
+## Related concepts
+
+* [[false vacuum]]
+
 [[!redirects vacua]]
