@@ -71,8 +71,7 @@ The (unaugmented) **simplex category** $\Delta$ is given by the full subcategory
 
 ## Monoidal structure ##
 
-The addition of natural numbers extends to a [[tensor product]]-type functor on both $\Delta$ and $\Delta_a$. If we visualise an object, $[n]$ of $\Delta_a$, as above, as a totally ordered set
-$\{0 \lt 1 \lt  \cdots \lt n-1\}$, then from two such $[m]$ and $[n]$, we can form a new one by making all the elements of $[n]$ strictly greater than those in $[m]$.  Thus
+The addition of natural numbers extends to a [[bifunctor]] $\oplus$ on both $\Delta$ and $\Delta_a$, by taking $[m] \oplus [n]$ to be the [[disjoint union]] of the underlying sets of $[m]$ and $[n]$, with the linear order that puts every element of $[m]$ below every element of $[n]$.  So if we visualise $[n]$ as a totally ordered set $\{0 \lt 1 \lt \cdots \lt n-1\}$, and similarly for $[m]$, then $[m] \oplus [n]$ looks like
 $$
 [m] \oplus [n] = \{0 \lt 1 \lt  \cdots \lt m-1 \lt 0^*\lt 1^* \lt \cdots \lt (n-1)^*\}
 $$
