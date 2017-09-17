@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -56,3 +66,6 @@ $$
 and it makes $H$ not only an $H$-module, but in fact a monoid in the monoidal category of $H$-modules (usually called $H$-[[module algebra]]). 
 
 [[!redirects adjoint actions]]
+
+[[!redirects conjugation]]
+[[!redirects conjugations]]
