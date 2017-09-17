@@ -20,7 +20,9 @@
 
 ## Idea
 
-The construction called _Bohrification_ by some authors is a generalization of the [[Gelfand spectrum]] for commutative [[C-star algebra]]s to a context of _noncommutative_ $C^*$-algebras. It assigns to a noncommutative $C^*$-algebra $A$ a generalized [[Gelfand spectrum]] in the form of a [[locale]] $\underline{\Sigma}_A$ [[internalization|internal]] to the [[sheaf topos]] $\mathcal{T}_A$ over the [[semilattice of commutative subalgebras]] of $A$, or  equivalently its externalization $\Sigma_A \to \mathcal{C}(A)$ regarded as a [[locale]] [[over category|over]] the locale of open subalgebras.
+To every [[quantum mechanical system]] is associated its _Bohr topos_ : a [[ringed topos]] which plays the role of the quantum [[phase space]]. The idea of this construction -- _Bohrification_ -- is that it naturally captures the [[geometry|geometric]] and [[logic|logical]] aspects of [[quantum physics]] in terms of [[higher geometry]]/[[topos theory]].
+
+One way to understand Bohrification is as a generalization of the construction of the [[Gelfand spectrum]] of a commutative [[C-star algebra]]s to a context of _noncommutative_ $C^*$-algebras. It assigns to a noncommutative $C^*$-algebra $A$ a generalized [[Gelfand spectrum]] in the form of a [[locale]] $\underline{\Sigma}_A$ [[internalization|internal]] to the [[sheaf topos]] $\mathcal{T}_A$ over the [[semilattice of commutative subalgebras]] of $A$, or  equivalently its externalization $\Sigma_A \to \mathcal{C}(A)$ regarded as a [[locale]] [[over category|over]] the locale of open subalgebras.
 
 When applied to subalgebras of [[bounded operator]]s on a [[Hilbert space]] this construction has been suggested to formalize faithfully and usefully a heuristic that has goes back to [[Nils Bohr]] and is known as the _doctrine of classical concepts_ ([Scheibe](#Scheibe)) in [[quantum mechanics]]. This states that  nonclassical/noncommutative as the [[logic]]/[[geometry]] of quantum mechanics may be, it is to be probed and detected by classical/commutative logic/geometry. In _Bohrification_ this heuristics is formalized by the [[semilattice of commutative subalgebras]] and various entities induced by this [[posite]]. The internal [[locale]] $\underline{\Sigma}_A$ may be thought of as an incarnation of the quantum [[phase space]] encoded by $A$.
 
@@ -34,7 +36,7 @@ The discussion below proceeds in the following steps (following ([Nuiten11](#Nui
 
 1. [Bohr topos of a quantum mechanics system](#BohrToposOfQMSystem)
 
-   This discusses the Bohr topos incarnation of a [[quantum mechanical system]] -- the topos-theoretic quantum [[phase space]] -- and its [[functor]]ialty.
+   This discusses the Bohr topos incarnation of a [[quantum mechanical system]] -- the topos-theoretic quantum [[phase space]] -- and its [[functor]]iality.
 
 1. [Kinematics on a Bohr topos](#KinematicsOnBohrTopos)
 
@@ -49,7 +51,35 @@ The discussion below proceeds in the following steps (following ([Nuiten11](#Nui
 
 ### Definition
 
-#### $C^*$-algebras and partial $C^*$-algebras
+#### $C^*$-algebras
+
++-- {: .num_defn}
+###### Definition
+
+A [[C-star algebra]] is (...)
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $A$ a [[star-algebra]], an element $a \in A$ is called a **[[normal operator|normal element]]** if $a^* a = a a^*$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Every element of a $C^*$-algebra is the sum of two normal elements, because
+
+$$
+  a = \frac{1}{2} \left( \left( a + a^* \right) + \left( a - a^*  \right) \right)
+  \,.
+$$
+
+This means whenever a linear morphism between the vector spaces underlying two  $C^*$-algebras is defined on normal elements, it is already defined on all elements. This will be used in several of the arguments below.
+
+=--
 
 +-- {: .num_defn #PartialCStar}
 ###### Definition
@@ -90,33 +120,109 @@ for its set of [[normal operator]]s. This is naturally a [partial C-star algebra
 
 =--
 
-#### The topos over commutative subalgebras
 
+#### The Bohr site
+ {#BohrSite}
 
 +-- {: .num_defn #PosetOfCommutativeSubalgebras}
 ###### Definition
 
-For $A$ a [partial C-star algebra](#PartialCStar) write $\mathcal{C}(A)$ for the [[poset]] of total (not partial) commutative sub [[C-star algebra]]s. We call this the [[semilattice of commutative subalgebras]].
+For $A$ a [partial C-star algebra](#PartialCStar) write $\mathcal{C}(A)$ for the [[poset]] of total (not partial) commutative sub [[C-star algebra]]s. We call this the [[poset of commutative subalgebras]].
 
-Often we shall think of $\mathcal{C}(A)$ equivalently as the [[frame]] of opens of the [[Alexandrov topology]] of the poset.
+This extends to a functor
+
+$$
+  \mathcal{C} : C^* Alg \to Poset
+  \,.
+$$
+
+Write $Alex(\mathcal{C}(A))$ for the [[Alexandroff space]] associated with $\mathcal{C}(A)$.
+
+$$
+  Alex \mathcal{C} : C^* Alg \stackrel{\mathcal{C}}{\to}
+    Poset \underoverset{\simeq}{Alex}{\to}
+  AlexandrofvTop 
+  \hookrightarrow 
+  Top
+  \,.
+$$
 
 =--
 
-+-- {: .num_defn #TheSheafTopos}
++-- {: .num_defn }
 ###### Definition
 
+A morphism $f : A \to B$ in $C^* Alg$ is called **commutativity reflecting** if for all $a_1, a_2 \in A$ we have that if $f(a_1)$ commutes with $f(a_2)$ in $B$ then already $a_1$ commutes with $a_2$ in $A$.
+
+Write
+
+$$
+  C^* Alg_{cr} \subset C^* Alg
+$$
+
+for the [[subcategory]] of [[C-star algebra]]s on the commutativity-reflecting morphisms.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Every [[monomorphism]] $A \hookrightarrow B$ in $C^* Alg$ is commutativity reflecting.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+A morphism $f : A \to B$ in $C^* Alg$ is commutativity reflecting precisely if the morphism $Alex \mathcal{C} (f) : Alex \mathcal{C}(A) \to Alex \mathcal{C}(B)$  in $AlexandrovTop$ has a [[left adjoint]]
+
+$$
+  Alex \mathcal{C}(A)
+   \stackrel{L_f}{\underset{Alex \mathcal{C}(f)}{\to}}
+  Alex \mathcal{C}(B)
+  \,.
+$$
+
+=--
+
+This appears as ([Nuiten, lemma 2.6](#Nuiten)).
+
++-- {: .num_defn }
+###### Definition
+
+Write 
+
+$$
+  C^* Alg_{inc}
+  \subset 
+  C^* Alg_{cr}
+  \subset
+  C^* Alg
+$$
+
+for the subcategories of $C^* Alg$ on the monomorphisms and on the commutativity-reflecting morphisms, respectively.
+
+=--
+
+
+#### The Bohr topos
+ {#BohrTopos}
+
+
++-- {: .num_defn #TheSheafTopos}
+###### Definition
 
 Let 
 
 $$
   \begin{aligned}
-    Sh(\mathcal{C}(A))
+    Sh(Alex(\mathcal{C}(A)))
     \simeq
     [\mathcal{C}(A), Set]
   \end{aligned}
 $$ 
 
-be the [[sheaf topos]] over the [[site]] of def. \ref{PosetOfCommutativeSubalgebras}, equivalently regarded as the [[presheaf topos]] over the [[poset]] of commutative subalgebras, or as the topos of sheaves on the corresponding [[Alexandrov topology]].
+be the [[sheaf topos]] over the [Bohr site](#BohrSite) of $A$, equivalently regarded as the [[presheaf topos|copresheaf topos]] over the [[poset of commutative subalgebras]], or as the [[sheaf topos]] on the corresponding [[Alexandrov topology]].
 
 Moreover, write
 
@@ -141,6 +247,70 @@ $$
 (where $U : CStar \to Set$ is the underlying set functor) that is naturally equipped with the structure an [[internalization|internal]] commutative $C^*$-algebra. 
 
 =--
+
++-- {: .num_prop }
+###### Proposition
+
+This construction extends to a [[functor]]
+
+$$
+  Bohr : C^* Alg_{cr}^{op} \to C^* TopSpace
+$$
+
+=--
+
+This is ([Nuiten, lemma 2.7](#Nuiten)).
+
++-- {: .proof}
+###### Proof
+
+To $f : A \to B$ with
+
+$$
+  ( L_f \dashv Alex \mathcal{C}(f)) : 
+  Alex \mathcal{C}(A)
+  \stackrel{\overset{L_f}{\leftarrow}}{\underset{Alex \mathcal{C}(f)}{\to}}
+  Alex \mathcal{C}(B)
+$$
+
+we assing the [[geometric morphism]]
+
+$$
+  (f^* \dashv f_*)
+  :=
+  [\mathcal{C}(B), Set]
+   \stackrel{\overset{(-)\circ L_f}{\leftarrow}}{\underset{Ran_{L_f}}{\to}}
+  [\mathcal{C}(A), Set]
+$$
+
+equipped with the evident morphism of internal $C^*$-algebras
+
+$$
+  f^* \underline{A} \to \underline{B}
+$$
+
+which over $C \in \mathcal{C}(B)$ is the restriction
+
+$$
+  (f^* \underline{A})(C) = L_f(C) \stackrel{f|_{L_f C}}{\to} C
+$$
+
+of $f$ to $L_f C$. This indeed lands in $C$ due to the $(f \dashv L_f)$-[[unit of an adjunction|counit]] (on posets)
+
+$$
+  f(L_f(D)) \hookrightarrow D
+  \,.
+$$
+
+=--
+
+
+## Kinematics on a Bohr topos
+ {#KinematicsOnBohrTopos}
+
+
+
+### The internal phase space locale
 
 +-- {: .num_defn #TheInternalLocale}
 ###### Definition
@@ -168,8 +338,6 @@ discussed at [[internal locale]].
 
 =--
 
-#### Bohrification
-
 +-- {: .num_defn #Bohrification}
 ###### Definition
 
@@ -189,13 +357,6 @@ is called the **Bohrification** of $A$.
 
 =--
 
-## Kinematics on a Bohr topos
- {#KinematicsOnBohrTopos}
-
-
-### Properties
-
-### Identification of the internal locale
 
 +-- {: .num_prop #TheInternalLocale}
 ###### Proposition
@@ -279,7 +440,7 @@ This is ([Spitters06, theorem 9, corollary 10](#Spitters06)).
 +-- {: .num_prop #FunctorToRingedToposes}
 ###### Proposition
 
-Let $Cstar_{inc}$ be the [[category]] of [[C-star algebra]]s and inclusions. Then the construction of the [[ringed topos]] over the [[semilattice of commutative subalgebras]]
+Then the construction of the [[ringed topos]] over the [[poset of commutative subalgebras]]
 
 $$
   A \mapsto ([\mathcal{C}(A), Set], \underline{A})
@@ -288,15 +449,10 @@ $$
 extends to a functor
 
 $$
-  Cstar_{incl} \to RingedTopos
-$$
-
-and even to
-
-$$
-  Cstar_{incl} \to CstarTopos
+  C^* Alg_{incl} \to C^*TopSpace \hookrigharrow C^* Topos
   \,,
 $$
+
 
 where on the right the morphisms of internal rings are even morphisms of internal [[C-star algebra]]s.
 
@@ -324,7 +480,11 @@ $$
 This is effectively the functoriality of the internal [[constructive Gelfand duality]] applied to the [above observation](#FunctorToRingedToposes). The statement appears as ([vdBergHeunen, theorem 35](#vdBergHeunen)). 
 
 
-## Applications 
+
+
+## (Pre-)Sheaf of Bohr toposes of a quantum field theory
+ {#SheafOfBohrToposesOfQFT}
+
 
 Notice that in the context of [[AQFT]] a [[quantum field theory]] is encoded by a [[local net]] of [[C-star algebra]]s on [[spacetime]].
 
@@ -334,23 +494,29 @@ Notice that in the context of [[AQFT]] a [[quantum field theory]] is encoded by 
 Let $X$ be a [[Lorentzian manifold]] and 
 
 $$
-  A : \mathcal{O}(X) \to CStar_{inc}
+  A : \mathcal{O}(X) \to C^* Alg_{inc}
 $$
 
-be a [[local net]] of algebras. Notice that by definition this indeed takes values in $C^\ast$-algebras and _inclusions_ . Then postcomposition with the [Bohrification functor](#BohrificationFunctorToLoc) yield a [[presheaf]]
+be a [[local net]] of algebras. Notice that by definition this indeed takes values in $C^\ast$-algebras and _inclusions_ . Then postcomposition with the [Bohr topos](#BohrTopos)-functor yields a presheaf of ringed spaces
 
 $$
-  \Sigma_A : \mathcal{O}(X)^{op} \to Loc \to Set
+  Bohr(A) : \mathcal{O}(X)^{op} 
+    \to 
+  C^* Alg_{inc}^{op}
+   \hookrightarrow 
+  C^* Alg_{cr}^{op}
+   \stackrel{Bohr}{\to}
+  C^* TopSpace
+   \hookrightarrow
+  C^* Topos
+  \,.
 $$
-
-that assigns to each [[open subset]] of $X$ regarded as [[spacetime]] an object to be regarded as the quantum [[phase space]] of the [[AQFT]] encoded by $A$ restricted to that open subset.
 
 =--
 
-(...)
+This appears as ([Nuiten, def. 17](#Nuiten)).
 
-## (Pre-)Sheaf of Bohr toposes of a quantum field theory
- {#SheafOfBohrToposesOfQFT}
+(...)
 
 
 ## References
