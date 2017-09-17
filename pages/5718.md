@@ -46,31 +46,37 @@ Let
 
 For $X \in \mathbf{H}$, write $\mathbf{\Pi}_{inf}(X)$ for the corresponding [[de Rham space]] object.
 
-The canonical morphism
+Notice that we have the canonical morphism
 
 $$
   i : X \to \mathbf{\Pi}_{inf}(X)
 $$
 
-induces a [[base change geometric morphism]]
+("inclusion of constant paths into all infinitesimal paths").
+
++-- {: .num_defn}
+###### Definition
+
+
+Write 
 
 $$
+  Jet 
+   :
   \mathbf{H}/X 
-   \stackrel{\overset{Jet := i_!}{\to}}{\stackrel{\overset{i^*}{\leftarrow}}{\underset{i_*}{\to}}}
-  \mathbf{H}_{\mathbf{\Pi}_{inf}(X)}
- \,.
+   \stackrel{\overset{i^*}{\leftarrow}}{\underset{Jet := i_*}{\to}}
+  \mathbf{H}_{\mathbf{\Pi}_{inf}}(X)
 $$
 
-Its extra [[left adjoint]]
+for the corresponding [[base change geometric morphism]].
 
-$$
-  Jet : 
-  \mathbf{H}/X 
-  \to 
-  \mathbf{H}/\mathbf{\Pi}_{inf}(X)
-$$
+Its [[direct image]] we call the _jet bundle [[(∞,1)-functor]]_ . 
 
-we call the _jet bundle [[(∞,1)-functor]]_ . 
+=--
+
+In the context of [[D-scheme]]s this is ([BeilinsonDrinfeld, 2.3.2](#BeilinsonDrinfeld)). See ([Paugam, section 2.3](#Paugam)) for a review.
+There this is expressed dually in terms of algebras in [[D-module]]s. We indicate how the translation works
+
 
 +-- {: .num_defn}
 ###### Definition
@@ -107,7 +113,7 @@ for the [[stable (∞,1)-category]] of D-modules.
 
 =--
 
-The **Jet algebra** functor is
+The **Jet algebra** functor is the [[left adjoint]] to the [[forgetful functor]] from [[associative algebra|commutative algebra]]s over $\mathcal{D}(X)$ to those over the [[structure sheaf]] $\mathcal{O}(X)$
 
 $$
   (Jet \dashv F)
@@ -118,7 +124,6 @@ $$
   \,.
 $$
 
-(...)
 
 ## Application 
 
@@ -126,7 +131,17 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 ## References
 
-Text book references include
+The abstract characterization was given in the context of [[D-scheme]]s in 
+
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebra]]_
+ {#BeilinsonDrinfeld}
+
+An exposition of this is in section 2.3 of 
+
+* [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
+ {#Paugam}
+
+Standard textbook references include
 
 * G. Sardanashvily, _Fibre bundles, jet manifolds and Lagrangian theory_,  Lectures for theoreticians, [arXiv:0908.1886](http://xxx.lanl.gov/abs/0908.1886)
 
