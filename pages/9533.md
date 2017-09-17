@@ -1,0 +1,8 @@
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Werner_Heisenberg)
+
+category: people
+
+
+[[!redirects Heisenberg]]
+
