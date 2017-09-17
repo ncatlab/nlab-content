@@ -122,3 +122,4 @@ Section 6.4 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
 
 [[!redirects (n,1)-toposes]]
+[[!redirects (n,1)-topoi]]
