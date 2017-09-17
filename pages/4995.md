@@ -224,10 +224,18 @@ $(\infty,1)$-toposes that exhibit the objects of $\mathbf{H}_{th}$
 as infinitesimal cohesive neighbourhoods of objects in 
 $\mathbf{H}$.
 
-This section is now at
+This section is at
 
-[[cohesive (infinity,1)-topos -- infinitesimal cohesion]]
+* [[cohesive (∞,1)-topos -- infinitesimal cohesion]]
 
+## Locally ringed cohesion
+
+Every cohesive $(\infty,1)$-topos $\mathbf{H}$ equipped with 
+[infinitesimal cohesion](#InfinitesimalCohesion) comes canonically equipped with a notion of [[formally étale morphism]]s (as discussed there). Combined with the canonical interpretation of $\mathbf{H}$ as the [[classifying topos]] of a [[theory]] of [[local algebra|local T-algebra]]s, this caninically induces a notion of [[locally algebra-ed topos|locally algebra-ed (∞,1)-toposes]] with cohesive structure, generalizing the notion of [[locally ringed space]]s and [[locally ringed topos]]es.
+
+This section is at 
+
+* [[cohesive (∞,1)-topos -- structure ∞-sheaves]].
 
 
 ## Examples {#Examples}
