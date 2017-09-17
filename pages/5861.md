@@ -1,4 +1,3 @@
-[[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -1001,7 +1000,7 @@ For more see at _[[Lie differentiation]]_.
  {#StructureSheaves}
  {#CotangentBundles}
 
-We discuss how in differential cohesion $\mathbf{H}_{th}$ every object $X$ canonically induces its [[étale topos]] $Sh_{\mathbf{H}_{th}}()$.
+We discuss how in differential cohesion $\mathbf{H}_{th}$ every object $X$ canonically induces its [[étale (∞,1)-topos]] $Sh_{\mathbf{H}_{th}}(X)$.
 
 
 For $X \in \mathbf{H}_{th}$ any object in a differential cohesive $\infty$-topos, we formulate 
@@ -1137,7 +1136,8 @@ $$
   (\mathbf{H}_{th})_{/X}^{fet}
 $$
 
-also as the ([[petit (∞,1)-topos|petit]]) [[(∞,1)-topos]] of $X$.
+also as the ([[petit (∞,1)-topos|petit]]) [[(∞,1)-topos]] of $X$
+or the _[[étale (∞,1)-topos]]_ of $X$.
 
 Write
 
@@ -1894,3 +1894,5 @@ The notion of forming [[petit topos|petit]] $(\infty,1)$-toposes of &eacute;tale
 [[!redirects differential cohesive infinity-topos]]
 [[!redirects differential cohesive (infinity,1)-toposes]]
 [[!redirects differential cohesive infinity-toposes]]
+
+[[!redirects cohesive (infinity,1)-topos -- infinitesimal cohesion]]
