@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[Banach space]] $X$ is **reflexive** if the canonical map $X \to (X^*)^*$ from $X$ to its second dual is an [[isomorphism]] (it is always an [[isometry]] in the presence of [[axiom of choice|Choice]], by the [[Hahn–Banach theorem]]).
+A [[Banach space]] $X$ is **reflexive** if the canonical map $X \to (X^*)^*$ from $X$ to its second dual is an [[isomorphism]] of TVSes (it is always an [[isometry]] in the presence of [[axiom of choice|Choice]], by the [[Hahn–Banach theorem]]).
 
 
 ## Properties
@@ -37,6 +37,9 @@ A theorem of Davis-Figiel-Johnson-Pelczynski (1974) tells us that the converse i
 By the [[Riesz duality theorem]], every [[separable space|separable]] [[Hilbert space]] is reflexive.
 
 The [[Lebesgue space]] $l^1$ is reflexive in [[dream mathematics]], but in [[classical mathematics]] it is not.
+
+In [[dream mathematics]] $l^\infty$ is reflexive; but its closed subspace $c_0$ is not. On the other hand, if one works in a setting where the canonical map $X \to X^{**}$ is a monomorphism, then closed subspaces of reflexive Banach spaces are reflexive (Linton? this is in Cigler-Losert-Michor but the author of this sentence has no access to a copy at time of typing).
+
 
 James (1950) constructed a separable non-reflexive Banach space which is isomorphic as a TVS to its second dual; nowadays this is known as the __James space__ $J$. More is true: the image of $J$ in $J^{**}$ under the canonical map turns out to have codimension $1$ in $J^{**}$.
 
