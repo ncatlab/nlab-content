@@ -22,8 +22,8 @@ One can also consider categories enriched over a locally finitely presentable cl
 
 * Dimitri Chikhladze, _Barr's embedding theorem for enriched categories_, J. Pure Appl. Alg. __215__, n. 9 (2011) 2148-2153, [arxiv/0903.1173](http://arxiv.org/abs/0903.1173), [doi](http://dx.doi.org/10.1016/j.jpaa.2010.12.004)
 
-Its main results is 
+Its main result is 
 
 > Theorem 10. For a small regular $V$-category $C$ there exists a small category $T$ and a regular fully faithful functor $E : C \longrightarrow [T, V]$.
 
-[[!redirect Barr's embedding theorem]]
+[[!redirects Barr's embedding theorem]]
