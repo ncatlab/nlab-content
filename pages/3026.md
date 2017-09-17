@@ -24,6 +24,8 @@ The one-point compactification is usually applied to a non-[[compact space|compa
 
 ## Definition
 
+### For topological spaces
+
 Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the topological space 
 
 * whose underlying [[set]] is the [[disjoint union]] $X \cup \{\infty\}$ 
@@ -35,6 +37,10 @@ Let $X$ be any [[topological space]]. Its **one-point extension** $X^*$ is the t
   2. the [[complements]] (in $X^*$) of the [[closed subspace|closed]] [[compact space|compact]] subsets of $X$.
 
 (If $X$ is [[Hausdorff space|Hausdorff]], then its compact subsets must always be closed, so (2) is often given in a simpler form.)
+
+### For non-commutative topological spaces ($C^\ast$-algebras)
+
+Dually in [[non-commutative topology]] the one-point compactification corresponds to the [[unitisation of C*-algebras]].
 
 
 ## Properties
