@@ -200,7 +200,7 @@ $(p_! \dashv p^*)$-[[zig-zag identity]].
 ## Examples
 
 
-* For $(L \dashv R): C \to D$ any pair of [[adjoint functor]]s, there is induced on the [[presheaf categories]] a dquadruple of adjoint functors
+* For $(L \dashv R): C \to D$ any pair of [[adjoint functor]]s, there is induced on the [[presheaf categories]] a quadruple of adjoint functors
 
   $$
     Lan L \dashv (-)\circ L \dashv (-) \circ R \dashv Ran R
