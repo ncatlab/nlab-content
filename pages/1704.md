@@ -20,7 +20,16 @@ For motivation, background and further details see
 * [[gerbe]]
 * [[principal 2-bundle]].
 
-A model for principal $\infty$-bundles is given by [[simplicial principal bundle]]s.
+A model for principal $\infty$-bundles is given by 
+
+* [[simplicial principal bundle]]s.
+
+See also
+
+* [[universal principal ∞-bundle]]
+
+* [[groupal model for universal principal ∞-bundles]].
+
 
 ## Definition in a general $(\infty,1)$-topos 
 
