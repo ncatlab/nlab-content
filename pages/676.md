@@ -1,15 +1,18 @@
 
-**[[physics]]**
+**[[physics]]**, [[mathematical physics]]
 
-* [[mathematical physics]], [[higher category theory and physics|(higher) category theory and physics]]
+## Surveys, textbooks and lecture notes
+
+* _[[higher category theory and physics|(higher) category theory and physics]]_
+
+* _[[geometry of physics]]_
 
 * [[books and reviews in mathematical physics|books and reviews]], [[physics resources]]
 
-[[geometry of physics]]
 
 ***
 
-
+[[theory (physics)]], [[model (physics)]]
 
 * **[[mechanics]]**
 
