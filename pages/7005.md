@@ -208,6 +208,10 @@ This appears originally as [Voevodsky, def. 3.4](#UnivalentFoundationsProject)
 
 (...)
 
+See ([Shulman 12](#Shulman12), [UF 13](UF13))
+
+(...)
+
 ## Properties
 
 The univalence axiom implies [[function extensionality]].
@@ -257,6 +261,12 @@ A guided walk through the formal proof that univalence implies [[functional exte
 A discussion of univalence in [[categories of presheaves]] over an [[inverse category]] with values in a category for which univalence is already established is discussed in 
 
 * [[Michael Shulman]], _The univalence axiom for inverse diagrams_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+ {#Shulman12}
+
+On the issue of strict pullback of the univalent universe see
+
+* Univalent Foundations Mailing List, _[Quotients](https://groups.google.com/d/msg/univalent-foundations/Glo7NgNvhJA/4j9SewiFvQ0J)_, March 2013
+  {#UF13}
 
 The computational interpretation of univalence / [[canonicity]] is discussed in 
 
