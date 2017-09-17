@@ -37,7 +37,7 @@
 
 * [[2-pullback]], [[comma object]]
 
-## $(\infty,1)$-Categorical
+## (∞,1)-Categorical
 
 * [[limit in a quasi-category|limit in an (∞,1)-category]]
 
