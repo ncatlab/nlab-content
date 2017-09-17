@@ -127,7 +127,7 @@ Also relevant to $n$-ad connectivity is
 * Ellis, G.J. and Steiner, R. Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$-ads. _J. Pure Appl. Algebra_ 46 (1987) 117--136. 
 
 
-###  In homtopy type theory and $\infty$-topos theory
+###  In homotopy type theory and $\infty$-topos theory
  {#ReferencesInHoTT}
 
 The general version of the connectivity theorem in [[homotopy type theory]]
@@ -138,40 +138,3 @@ The general version of the connectivity theorem in [[homotopy type theory]]
 The proof formalized in HoTT-[[Agda]] is in
 
 * {#LumsdaineFinsterLicata13} [[Peter LeFanu Lumsdaine]], [[Eric Finster]], [[Dan Licata]], _[BlakersMassey.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/BlakersMassey.agda)_
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
