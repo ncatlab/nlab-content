@@ -5,7 +5,7 @@
 
 ## Idea
 
-A simulation is a [[morphism]] of [[coalgebras]].
+A simulation is a [[morphism]] of [[coalgebras for an endofunctor|coalgebra for an endofunctor]].
 
 
 ## Definition
