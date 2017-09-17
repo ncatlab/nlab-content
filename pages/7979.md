@@ -27,6 +27,8 @@ For the moment see at _[electromagnetic field -- Maxwell's equations](http://nca
 
 * [[Kirchhoff's laws]]
 
+* [[Yang-Mills equations]]
+
 ## References
 
 [[Maxwell's equations]] originate in
