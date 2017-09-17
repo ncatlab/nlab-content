@@ -251,10 +251,13 @@ The [[connecting homomorphism]] of the [[long exact sequence in homology]] induc
 +-- {: .num_example }
 ###### Example
 
-* [[Artin-Schreier sequence]]
+* [[exponential exact sequence]]
 
 * [[Kummer sequence]]
 
+* [[Artin-Schreier sequence]]
+
+* [[Kummer-Artin-Schreier-Witt exact sequence]]
 
 =--
 
