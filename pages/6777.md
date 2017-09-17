@@ -26,7 +26,7 @@ The epi-mono factorization system in a topos is the special case of the [[n-conn
 
 ## Related concepts
 
-* **epi-mono factorization system**
+* **(epi, mono) factorization system**
 
 * [[(eso+full, faithful) factorization system]]
 
