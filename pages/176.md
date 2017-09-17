@@ -31,7 +31,7 @@ See the discussion at [[FQFT]] for more details.
 The conformally invariant quantum field theories have fields for whom the correlation functions have a specific behaviour accounting for the so called conformal dimension of the fields. This kind of constraints coming from conformal invariance, leads to constraints on the possible shapes of correlation functions; this has being formulated in 1971 by Polyakov as a **bootstrap program**: the conformal invariance should be sufficient to classify consistent conformal QFTs directly from the analysis of symmetries, rather than computing the Feynman integrals from possible actions; this avoids the usual problems with regularization and renormalization. 
 
 Precisely in 2-dimensions is the representation theory of the conformal group exceptionally interesting. In $d \gt 2$, the global transformations, i.e. the elements of the [[conformal group]], are given by the [[Poincare group|Poincare algebra]], dilations and special conformal transformations. In $2$ dimensions, there are additionaly infinitely many local generators of conformal transformations whose commutation relations are given by the [[Virasoro algebra]]. This circumstance enables Belavin, Polyakov and Zamolodchikov to make a breakthrough in the bootstrap program in 1984 (what also helped a 1984-1985 revolution in string theory). 
- There are well-developed tools for handling the theory locally ([[conformal net]]s, [[vertex operator algebra]]s) and at least in the rational case there are complete classification results for the full theories (defined on cobordisms of all genera).
+ There are well-developed tools for handling the theory locally ([[conformal net]]s, [[vertex operator algebra]]s) and at least in the [[rational conformal field theory]] case there are complete classification results for the full theories (defined on cobordisms of all genera).
 
 For this reason often in the literature the term "CFT" often implicitly refers to 2d CFT.
 
@@ -370,6 +370,8 @@ Witt class.
 ## Related concepts
 
 * [[conformal structure]], [[moduli space of conformal structures]], [[Teichmüller theory]]
+
+* [[rational conformal field theory]]
 
 * [[conformal net]]
 
