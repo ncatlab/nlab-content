@@ -27,7 +27,7 @@ The reference below defines $M_*(X)$ as a strict [[cubical omega-category|cubica
 
 ## Reference
 
-* R. Brown, Moore hyperrectangles on a space form a strict cubical omega-category, arXiv 0909.2212v2 
+* R. Brown, Moore hyperrectangles on a space form a strict cubical omega-category, [arXiv 0909.2212v2](http://arxiv.org/abs/0909.2212)
 
 
 [[!redirects Moor path category]]
