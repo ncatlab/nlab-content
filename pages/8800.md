@@ -14,6 +14,9 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -23,6 +26,11 @@ For $n =1$ this is a [[category object in an (∞,1)-category]].
 
 A model along these lines for general with the [[simplex category]] generalized to the [[Theta category|Theta_n category]] and the ambient $(\infty,1)$-category being [[∞Grpd]] are _[[Theta_n spaces]]_.
 
+Another model is that of [[n-fold complete Segal space]] objects.
 
+## Related concepts
+
+* [[n-fold category]]
 
 [[!redirects n-category object in an (∞,1)-category]]
+[[!redirects internal (infinity,n)-category]]
