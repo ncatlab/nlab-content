@@ -122,3 +122,9 @@ Volume 160, Issues 2-3, 25 June 2001, Pages 333-343
 [[!redirects automorphism infinity-Lie algebras]]
 [[!redirects automorphism ∞-Lie algebras]]
 [[!redirects automorphism dg-Lie algebras]]
+
+[[!redirects automorphism L-infinity algebra]]
+[[!redirects automorphism L-∞ algebra]]
+[[!redirects automorphism L-infinity algebras]]
+[[!redirects automorphism L-∞ algebras]]
+
