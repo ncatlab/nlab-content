@@ -7,6 +7,8 @@
 
 In his influential 1821 textbook _[[Cours d'Analyse]]_, [[Augustin Cauchy]] states a theorem that is now widely regarded as false, attributed to a confusion between [[pointwise convergence]] and [[uniform convergence]].  This mistake ---if indeed it is a mistake--- is of both pedagogical and philosophical-historical interest.
 
+Counterexamples (specific [[Fourier series]]) were known already to [[Joseph Fourier]], and [[Niels Abel]] specifically pointed them out as counterexamples to Cauchy\'s claim.  However, Cauchy denied that these were counterexamples, on the grounds that the series did not converge everywhere.  [[Imre Lakatos]] has argued that the confusion rests on different conceptions of the [[continuum]], so that Cauchy\'s notion of convergence everywhere is really more like Weierstrass\'s notion of uniform convergence than pointwise convergence, and the theorem as he intended it is true.
+
 
 ## Statements
 
@@ -29,10 +31,16 @@ Let $f = (f_1, f_2, \ldots)$ be an [[equicontinuous family|equicontinuous]] [[in
 =--
 
 
+## Counterexamples
+
+The first counterexamples to Non-Theorem \ref{mistake} arose as [[Fourier series]].  The sawtooth wave
+$$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} = \frac{1}{2} (\pi - x \bmod 2 \pi) $$
+may be the simplest.  Each partial sum of this [[infinite series]] is continuous; the sum converges pointwise as indicated for $x$ not a multiple of $2 \pi$ and to $0$ (which is the average of the limits $\pm\pi/2$ on either side) for $x$ a multiple of $2 \pi$.  However, the sequence of partial sums is not equicontinuous, nor does it converge uniformly.  And indeed, the sum is not continuous at multiples of $2 \pi$.
+
+
 ## Proofs
 
 Here is Cauchy\'s argument:
-
 +-- {: .proof}
 ###### Proof?
 
@@ -53,19 +61,35 @@ Analysing this argument, Philipp von Seidel (first, and others afterwards) reali
 ### In epsilontics
 
 Writing Cauchy\'s argument in the epsilontic language developed by [[Karl Weierstrass]], we have:
-
 +-- {: .proof}
 ###### Non-proof
-(Non-theorem \ref{mistake})
+(Non-theorem \ref{mistake}).
 
-Let $\epsilon$ be a [[positive number]], and consider $\epsilon/3$.  Because $f$ converges to $f_\infty$ at $x$, there is some [[natural number]] $N$ such that ${|f_n(x) - f_\infty(x)|} \lt \epsilon/3$ whenever $n \geq N$.  Because $f_n$ is continuous at $x$ for each $n$, there is some positive number $\delta$ such that ${|f_n(x + h) - f_n(x)|} \lt \epsilon/3$ whenever $h \lt \delta$.  Because $f$ converges to $f_\infty$ at $x + h$ for each $h$, there is some natural number $N$ such that ${|f_\infty(x + h) - f_n(x + h)|} \lt \epsilon/3$ whenever $n \geq N$.  Therefore, there is some $\delta$ such that
+Let $\epsilon$ be a [[positive number]], and consider $\epsilon/3$.  Because $f$ converges to $f_\infty$ at $x$, there is some [[natural number]] $N$ such that ${|f_n(x) - f_\infty(x)|} \lt \epsilon/3$ whenever $n \geq N$.  Because $f_n$ is continuous at $x$ for each $n$, there is some positive number $\delta$ such that ${|f_n(x + h) - f_n(x)|} \lt \epsilon/3$ whenever $h \lt \delta$.  Because $f$ converges to $f_\infty$ at $x + h$ for each $h$, there is some natural number $N$ such that ${|f_\infty(x + h) - f_n(x + h)|} \lt \epsilon/3$ whenever $n \geq N$.  Therefore, there are $N$ and $\delta$ such that
 $$    {|f_\infty(x + h) - f_\infty(x)|}
  \leq {|f_\infty(x + h) - f_n(x + h)|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
   \lt \epsilon/3 + \epsilon/3 + \epsilon/3
     = \epsilon
-.$$
-In other words, $f_\infty$ is continuous.
+$$
+whenever $n \geq $N$ and $h \lt \delta$.  Fixing any $n$, $f_\infty$ is continuous.
 =--
+
+We have used the variable names $n$ and $h$ in two different [[contexts]] each, then pretended that they arose in a single context for the final inequality.  The error can be made more explicit by using different variable names:
++-- {: .proof}
+###### Non-proof
+(Non-theorem \ref{mistake}).
+
+Let $\epsilon$ be a [[positive number]], and consider $\epsilon/3$.  Because $f$ converges to $f_\infty$ at $x$, there is some [[natural number]] $N$ such that ${|f_n(x) - f_\infty(x)|} \lt \epsilon/3$ whenever $n \geq N$.  Because $f_{n'}$ is continuous at $x$ for each $n'$, there is some positive number $\delta$ such that ${|f_{n'}(x + h) - f_{n'}(x)|} \lt \epsilon/3$ whenever $h \lt \delta$.  Because $f$ converges to $f_\infty$ at $x + h'$ for each $h'$, there is some natural number $N'$ such that ${|f_\infty(x + h') - f_{n''}(x + h')|} \lt \epsilon/3$ whenever $n'' \geq N'$.  Therefore, there are $N$ and $\delta$ such that
+$$    {|f_\infty(x + h) - f_\infty(x)|}
+ \leq {|f_\infty(x + h') - f_{n''}(x + h')|} + {|f_n(x + h) - f_n(x)|} + {|f_n(x) - f_\infty(x)|}
+  \lt \epsilon/3 + \epsilon/3 + \epsilon/3
+    = \epsilon
+$$
+whenever $n \geq $N$ and $h \lt \delta$.  Fixing any $n$, $f_\infty$ is continuous.
+=--
+The final inequality is now clearly spurious, since $n, n', n''$ need not be equal, nor $h, h'$.
+
+This can be fixed up to a point.  We may let $n'$ be $n$ and let $h'$ be $h$, but then we have no control over $n''$.  Conversely, we may let $n, n', n''$ all be (anything bounded below by) $max(N,N')$, but then we have no control over $h'$.  Indeed, Non-theorem \ref{mistake} is false.
 
 ...
 
