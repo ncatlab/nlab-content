@@ -27,6 +27,8 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 * [[measurable cardinal]] -- the boundary between "small" large cardinals and "large" large cardinals
 * [[elementary embedding]] -- a tool used in the study of large large cardinals
 * [[supercompact cardinal]]
+* [[extendible cardinal]]
+* [[C(n)-extendible cardinal]]
 * [[Vopěnka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
 
 Here is a diagram showing the relation between these:
