@@ -76,6 +76,14 @@ The central insight (due to [[Vladimir Voevodsky]]) that boosts dependent type t
 
 (...)
 
+## Induction in homotopy theory
+
+* [[algebra over an endofunctor]]
+
+* [[inductive type]], [[higher inductive type]]
+
+(...)
+
 ## Specific HoTT proofs in homotopy theory
 
 We list in the following theorems in homotopy theory together with such proofs of them in terms of homotopy type theory language that are either new (to the best of our knowledge), or else that are at least considerably simpler than earlier proofs with traditional homotopy theory tools.
