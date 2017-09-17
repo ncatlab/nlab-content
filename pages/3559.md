@@ -11,6 +11,18 @@
 
 A __bicartesian closed category__ is a [[cartesian closed category]] with finite [[coproducts]]. In the case where this is furthermore a [[preorder]] or [[poset]], it is called a [[Heyting prealgebra]] or [[Heyting algebra]], respectively. They provide the semantics and proof theory of [[intuitionistic logic|intuitionistic]] [[propositional logic]].
 
+
 Note that a bicartesian closed category is [[bicartesian category|bicartesian]] (that is, it is both [[cartesian monoidal category|cartesian]] and [[cocartesian monoidal category|cocartesian]]), and furthermore it is cartesian closed, but it is usually *not* [[cocartesian closed category|cocartesian closed]] (as the only such category is the trivial terminal category), nor co-(cartesian closed) (i.e., the dual of a cartesian closed category; aka, cocartesian coclosed). Thus the terminology could be confusing, but since the only categories which are both cartesian closed and co-(cartesian closed) are preorders, there is not much danger.
 
 A bicartesian closed category is one kind of [[2-rig]].
+
+***
+Question: don't you need *distributive* bicartesian closed categories to interpret intuitionistic propositional logic? Consider the or-elimination rule 
+
+$$
+\frac{\Gamma, A \vdash C \qquad \Gamma,B \vdash C}
+     {\Gamma, A + B \vdash C}
+$$
+
+The intepretations of the two premises will be maps of type $\Gamma \times A \to C$ and $\Gamma \times B \to C$. Then the universal property of coproducts gets us to $(\Gamma \times A) + (\Gamma \times B) \to C$, but we can't get any farther -- we need a distributivity law to get $\Gamma \times (A+B) \to C$. 
+
