@@ -51,6 +51,8 @@
 
   all the material in there should now be, in more complete and more coherent form, in the articles above. But some papers will cite page and verse in the PhD thesis, so it is useful to have that as a reference, too.
 
+* undergraduate thesis, _On simply laced Lie algebras and their minuscule representations_ ([pdf](http://www.math.harvard.edu/~lurie/papers/thesis.pdf))
+
 * _[[Moduli Problems and DG-Lie Algebras]]_  
 
   on [[∞-Lie algebra]]s as formal neighbourhoods of point in [[∞-stack]]s.
