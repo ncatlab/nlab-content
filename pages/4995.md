@@ -3703,7 +3703,7 @@ For $X\in \mathbf{H}_{th}$ we say that
 We say an object $X \in \mathbf{H}_{th}$ is **formally smooth** if the constant infinitesimal path inclusion
 
 $$
-  X \to \mathbf{\Pi}(X)
+  X \to \mathbf{\Pi}_{inf}(X)
 $$
 
 is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
@@ -3898,10 +3898,10 @@ $$
 The objects on the left are [[principal ∞-bundle]]s equipped with flat [[connection on an ∞-bundle|∞-connection]]. The first morphism forgets their [[higher parallel transport]] along finite volumes and just remembers the parallel transport along infinitesimal volumes. The last morphism finally forgets also this connection information.
 
 
-#### $\infty$-Lie algebras and $\infty$-Lie algebroids
+#### Formal cohesive $\infty$-groupoids
  {#LieAlgebroids}
 
-The infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are genuine [[∞-Lie algebra]]s.
+The infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
 
 +-- {: .un_def #InfinitesimalObject}
 ###### Definition
@@ -3910,11 +3910,11 @@ An object $X \in \mathbf{H}_{th}$ is an
 **infinitesimal cohesive $\infty$-groupoid** if 
 $\mathbf{\Pi}_{inf} X \simeq *$.
 
-An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an **[[∞-Lie algebra]]** . 
+An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an **[[formal ∞-group]]** . 
 
 For $X \in \mathbf{H}$ any object, we say 
-$\mathfrak{a} \in \mathbf{H}_{th}$ is an 
-**[[∞-Lie algebroid]] over $X$** if $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq \mathbf{\Pi}_{inf}(X)$; equivalently: if there is a morphism
+$\mathfrak{a} \in \mathbf{H}_{th}$ is a
+**[[formal cohesive ∞-groupoid]] over $X$** if $\mathbf{\Pi}_{inf}(\mathfrak{a}) \simeq \mathbf{\Pi}_{inf}(X)$; equivalently: if there is a morphism
 
 $$
   \mathfrak{a} \to \mathbf{\Pi}_{inf}(X)
@@ -3968,7 +3968,7 @@ $$
 +-- {: .un_prop}
 ###### Observation
 
-For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [∞-Lie algebroids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
+For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [formal cohesive ∞-groupoids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
 
 =--
 
@@ -3979,39 +3979,20 @@ For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempot
 
 =--
 
-+-- {: .un_def}
-###### Definition
-
-If we think of $\mathbf{\Pi}_{inf}(X)$ as an $\infty$-Lie algebroid we shall equivalently write
-
-$$
-  T X := \mathbf{\Pi}_{inf}(X)
-$$
-
-and call this the [[tangent Lie algebroid]] of $X$.
-
-In this notation any other $\infty$-Lie algebroid $\mathfrak{a}$ over $X$ is characterized by a morphism
-
-$$
-  \mathfrak{a} \to T X
-  \,.
-$$
-
-=--
 
 +-- {: .un_remark}
 ###### Remark
 
 In other contexts the object $\mathbf{\Pi}_{inf}(X)$ is also called the **[[de Rham space]] of $X$**.
 
-Here we avoid this terminology, since by the [above discussion](#deRhamCohomology) we have a good notion of intrinsic [[de Rham cohomology]] in a cohesive $(\infty,1)$-topos already without introducing infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represents de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly infinitesimal way.
+Here we may tend to avoid this terminology, since by the [above discussion](#deRhamCohomology) we have a good notion of intrinsic [[de Rham cohomology]] in a cohesive $(\infty,1)$-topos already without introducing infinitesimal cohesion. From this point of view the object $\mathbf{\Pi}_{inf}(X)$ is not primarily characterized by the fact that (in some models, see [below](#Examples)) it does co-represents de Rham cohomology -- because the object $\mathbf{\Pi}_{dR}(X)$ from [above](#deRhamCohomology) does, too -- but by the fact that it does so in an explicitly infinitesimal way.
 
 =--
 
 +-- {: .un_prop}
 ###### Proposition
 
-The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [∞-Lie algebra](#InfinitesimalObject) $\mathfrak{g}$ is an [[∞-Lie algebroid]] over the point.
+The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [formal cohesive ∞-group](#InfinitesimalObject) $\mathfrak{g}$ is an [[formal cohesive ∞-groupoid]] over the point.
 
 =--
 
