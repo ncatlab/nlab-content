@@ -32,7 +32,7 @@ A **blob $n$-category** $C$ is given by
 * for every $k \in \mathbb{N}$ a [[functor]] 
 
   $$
-    C_k : core(Balls_k) \to Set
+    C_k : core(Ball_k) \to Set
   $$ 
 
   from the [[groupoid]] of [[topological space]]s [[homeomorphism|homeomorphic]] to a $k$-[[ball]] and [[homeomorphism]]s between them to [[Set]];
@@ -47,7 +47,7 @@ A **blob $n$-category** $C$ is given by
   where 
 
   $$
-    \underset{\to}{C}_{k-1}(X) := {\lim_\to}_{U \hookrightarrow S^{k-1}} C_{k-1}(U)
+    \underset{\to}{C}_{k-1}(\partial X) := {\lim_\to}_{U \hookrightarrow S^{k-1}} C_{k-1}(U)
   $$
 
   is the [[colimit]] of $C_{k-1}$ over the category of open balls in the $(k-1)$-[[sphere]]
