@@ -41,20 +41,28 @@ The following theorem should be compared with the fact that every [[locally pres
 For a locally presentable $(\infty,1)$-category $C$, the following are equivalent.
 
 1. $C$ is locally cartesian closed.
-1. Colimits in $C$ are stable under pullback.
+1. [[(∞,1)-colimit|(∞,1)-Colimits]] in $C$ are [[universal colimits|stable under pullback]].
 1. $C$ admits a presentation by a [[right proper model category|right proper]] [[Cisinski model category]].
-1. $C$ admits a presentation by a right proper left Bousfield localization of an injective model category of simplicial presheaves.
+1. $C$ admits a [[presentable (infinity,1)-category|presentation]] by a right proper left Bousfield localization of an injective model category of simplicial presheaves.
 
 =--
 +-- {: .proof}
 ###### Proof
-Since left adjoints preserve colimits, the first condition implies the second.  The converse holds by the [[adjoint functor theorem]] since each slice of $C$ is locally presentable.
+Since [[left adjoints]] preserve colimits, the first condition implies the second.  The converse holds by the [[adjoint functor theorem]] since each slice of $C$ is locally presentable.
 
-Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a left Quillen functor, and hence preserves homotopy colimits.  Thus the third condition implies the second.
+Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a [[Quillen adjunction|left Quillen functor]], and hence preserves [[homotopy colimits]].  Thus the third condition implies the second.
 
-Clearly the fourth condition implies the third, so it suffices to show that the second condition implies the fourth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by Denis-Charles Cisinski.
+Clearly the fourth condition implies the third, so it suffices to show that the second condition implies the fourth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].
+
 =--
 
++-- {: .num_remark }
+###### Remark
+
+Further equivalent characterizations of locally cartesian closed $(\infty,1)$-categories are in 
+([Lurie, prop. 6.1.1.4, lemma 6.1.3.3](#Lurie))
+
+=--
 
 ## Related concepts
 
@@ -67,6 +75,13 @@ Clearly the fourth condition implies the third, so it suffices to show that the 
 * [[cartesian closed (∞,1)-category]], **locally cartesian closed (∞,1)-category**
 
 ## References
+
+Characterizations of locally cartesial closed $(\infty,1)$-categories (as [[presentable (∞,1)-categories]] with [[universal colimits]]) are discussed in section 6.1 of 
+
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ {#Lurie}
+
+Discussion in the context of [[homotopy type theory]] is in
 
 * [[André Joyal]], _Remarks on homotopical logic_, Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
  {#Joyal}
