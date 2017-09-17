@@ -322,7 +322,7 @@ Here are some fields to which category theory has been applied; ultimately we sh
 
 Standard category theory textbooks for which the $n$Lab currently provides detailed linked indexes are
 
-* Kashiwara and Schapira, _[[Categories and Sheaves]]_ .
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_ .
 
 * [[Ieke Moerdijk]], [[Saunders Mac Lane]], _[[Sheaves in Geometry and Logic]]_
 
@@ -340,9 +340,11 @@ Other standard references include:
 
 #### Topos theory
 
-The standard monomgraph on [[topos theory]] is
+The standard monographs on [[topos theory]] are
 
-* [[Peter Johnstone]], _[[Elephant|Topos theory]]_ .
+* [[Peter Johnstone]], _Topos theory_, 1977.
+* [[Peter Johnstone]], _[[Elephant]]_
+* [[Robert Goldblatt]], _Topoi_
 
 Other texts include
 
@@ -375,4 +377,3 @@ Other texts include
 
 [[!redirects abstract nonsense]]
 [[!redirects general abstract nonsense]]
-[[!redirects applied category theory]]
