@@ -6,7 +6,8 @@
 
 ## Definition
 
-In intrinsic terms, a [[topos]] is _localic_ if it is generated under [[colimit]]s by the [[subobject]]s of its [[terminal object]]. In equivalent but extrinsic terms, a category is a localic topos if it is equivalent to the [[category of sheaves]] on a [[locale]] with respect to the [[coverage|topology]] of jointly epimorphic families (accordingly, every localic topos is a [[Grothendieck topos]]). The [[frame]] of [[open set|opens]] specifying the locale may indeed be taken as the [[poset]] of [[subobject]]s of 1. From the perspective of logic, localic toposes are those categories which are equivalent to the category of [[partial equivalence relation]]s of the [[tripos]] given by a [[complete Heyting algebra]] (as before, the complete Heyting algebra may be taken as the poset of subobjects of 1 (i.e., internal [[truth value|truth values]])).
+In intrinsic terms, a [[topos]] is _localic_ if it is generated under [[colimit]]s by the [[subobject]]s of its [[terminal object]] $1$. In equivalent but extrinsic terms, a category is a localic topos if it is equivalent to the [[category of sheaves]] on a [[locale]] with respect to the [[coverage|topology]] of jointly epimorphic families (accordingly, every localic topos is a [[Grothendieck topos]]). The [[frame]] of [[open set|opens]] specifying the locale may indeed be taken as the [[poset]] of [[subobject]]s of $1$ (i.e., internal [[truth value|truth values]]). From the perspective of logic, localic toposes are those categories which are equivalent to the category of [[partial equivalence relation]]s of the [[tripos]] given by a [[complete Heyting algebra]] (as before, the complete Heyting algebra may be taken as the poset of internal truth values).
+
 
 ## Properties
 
