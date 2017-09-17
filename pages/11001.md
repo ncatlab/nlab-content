@@ -1,0 +1,8 @@
+
+* [webpage](http://homepages.inf.ed.ac.uk/wadler/)
+
+## Related entries
+
+* [[monad (in computer science)]]
+
+category: people
