@@ -8,7 +8,7 @@
 
 ## Hermitian adjoints
 
-Suppose $\mathcal{H}$ is a Hilbert space with an inner product $\langle\cdot,\cdot\rangle$.  Consider a continuous linear operator $A: \mathcal{H} \to \mathcal{H}$.  One can show that there exists a unique continuous linear operator $A^{*}: \mathcal{H} \to \mathcal{H}$ with the following property:
+Suppose $\mathcal{H}$ is a [[Hilbert space]] with an inner product $\langle\cdot,\cdot\rangle$.  Consider a continuous [[linear operator]] $A: \mathcal{H} \to \mathcal{H}$.  One can show that there exists a unique continuous linear operator $A^{*}: \mathcal{H} \to \mathcal{H}$ with the following property:
 
 $\langle A x,y\rangle=\langle x,A^{*}y\rangle$ for all $x,y \in \mathcal{H}$.
 
@@ -32,4 +32,4 @@ where $A^{*}$ is the Hermitian adjoint of $A$.
 
 ## Notation
 
-The notation used here for the adjoint, $A^{*}$, is commonly used in linear algebraic circles (as is $A^{H}$).  In quantum mechanics, $A^{\dagger}$ is exclusively used for the adjoint while $A^{*}$ is interpreted as the same thing as $\bar{A}$.
+The notation used here for the adjoint, $A^{*}$, is commonly used in linear algebraic circles (as is $A^{H}$).  In [[quantum mechanics]], $A^{\dagger}$ is exclusively used for the adjoint while $A^{*}$ is interpreted as the same thing as $\bar{A}$.
