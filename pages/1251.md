@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include infinity-limits - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -9,6 +14,8 @@
 A **directed colimit** is a [[colimit]] $\lim_\to F$ of a functor $F : J \to C$ whose [[source]] [[category]] $J$ is an (upward)-[[direction|directed set]].  
 
 More generally, for $\kappa$ a [[cardinal number|regular cardinal]] say that a **$\kappa$-directed set** $J$ is a [[poset]] in which every subset of cardinality $\lt \kappa$ has an upper bound. Then a colimit over a functor $J \to C$ is called **$\kappa$-directed colimit**.
+
+If the directed set is an [[ordinal]], one speaks of a [[sequential limit]].
 
 The [[duality|dual]] notion is that of _[[directed limit]]_, a [[limit]] of a functor whose source is a downward-directed set.
 
