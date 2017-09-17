@@ -18,19 +18,20 @@ As the term implies, an open neighbourhood is precisely a neighbourhood that is 
 
 When definitions of topological concepts are given in terms of neighbourhoods, it often makes no difference if the neighbourhoods are required to be open or not.  There should be some deep logical reason for this ....
 
-The neighbourhoods of a given point form a proper [[filter]], the __neighbourhood filter__ of that point.  A __local (sub)base__ for the topology at that point is a (sub)base for that filter.
+The neighbourhoods of a given point form a proper [[filter]], the __neighbourhood filter__ of that point.  A __local (sub)[[base]]__ for the topology at that point is a (sub)base for that filter.
 
 The concept of [[topological space]] can be defined by taking the neighbourhood relation as primitive.  One axiom is more complicated than the others; if it is dropped, then the result is the definition of [[pretopological space]].
 
 
+[[!redirects neighborhood]]
 [[!redirects neighbourhood]]
 [[!redirects neighborhoods]]
 [[!redirects neighbourhoods]]
 [[!redirects neighbourhood filter]]
 [[!redirects neighborhood filter]]
-[[!redirects local base]]
-[[!redirects local subbase]]
 [[!redirects neighbourhood filters]]
 [[!redirects neighborhood filters]]
+[[!redirects local base]]
 [[!redirects local bases]]
+[[!redirects local subbase]]
 [[!redirects local subbases]]
