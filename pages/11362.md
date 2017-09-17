@@ -1,0 +1,130 @@
+# Contents #
+* table of contents 
+{: toc}
+
+## Idea 
+
+A _continued fraction_ is a finite or infinite expression of the form 
+
+$$x = a_0 + \frac{b_1}{a_1 + \frac{b_2}{a_2 + \frac{b_3}{a_3 + \cdots}}} $$ 
+
+with convergence under appropriate conditions. The most commonly used form is where $b_i = 1$ for all $i$; such is called a _regular_ continued fraction. 
+
+Every real number may be uniquely expressed as a finite or infinite regular continued fraction for which all the $a_i$ are integers and $a_i \gt 0$ for $i \gt 0$. The expression is an infinite continued fraction if and only if the real number is [[irrational number|irrational]], so that there is a [[bijection]] 
+
+$$\mathbb{Z} \times \mathbb{N}_+^{\mathbb{N}_+} \to \{irrationals\}$$ 
+
+$$(a_0; a_1, a_2, \ldots) \mapsto x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \cdots}}}.$$ 
+
+This is in fact a [[homeomorphism]] if we endow the left side with the [[product topology]] and the right side with the [[subspace]] topology, regarding the set of irrationals as a subset of the real line (with its standard [[topological space|topology]]). (The space of irrationals becomes in this way a kind of prototypical chaotic dynamical system, where the dynamics on the product space is given by a shift map.) 
+
+## Coalgebraic formulation 
+
+We can describe the basic theory of continued fractions for real numbers in terms of dynamics of fractional linear transformations on the real [[projective line]] $\mathbb{P}^1(\mathbb{R})$, with the point at infinity playing a special role. From an nPOV, it is useful to cast this in coalgebraic terms. 
+
+Let us denote by $\mathbf{R}$ the interval $[1, \infty]$ (considered as a subset of the projective line $\mathbb{P}^1(\mathbb{R})$); if $1 \leq x \lt \infty$, we let $fl(x)$ be the floor (the greatest integer such that $fl(x) \leq x$). We denote the $\mathbb{N}_+$ the set of positive integers (so, excluding $0$). Put $\mathbf{1} = \{\ast\}$, and define a map 
+
+$$\alpha: \mathbf{R} \to \mathbf{1} + \mathbf{R} \times \mathbb{N}_+$$ 
+
+where $\alpha(x) = ((x - fl(x))^{-1}, fl(x))$ if $x \lt \infty$, and $\alpha(\infty) = \ast$. This defines a coalgebra of the functor $F: Set \to Set$ defined by the formula 
+
+$$F(X) = \mathbf{1} + X \times \mathbb{N}_+.$$ 
+
+The following is a theorem of classical mathematics, and expresses the essence of (regular) continued fraction expansions: 
+
++-- {: .num_theorem #terminal} 
+###### Theorem 
+$\mathbf{R}$ is the terminal $F$-coalgebra. 
+=-- 
+
+Let us define $x \in \mathbf{R}$ to be _rational_ if it is a quotient of two integers (including $0$, so $1/0 = \infty$ is here considered "rational"). Define $\tau: \mathbf{R} \to \mathbf{R}$ by $\tau(x) = (x - fl(x))^{-1}$ if $x \lt \infty$, and $\tau(\infty) = \infty$. 
+
++-- {: .num_lemma #rational} 
+###### Lemma 
+An element $x \in \mathbf{R}$ is rational if and only if there exists $n \geq 0$ such that $\tau^n(x) = \infty$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Only if: this is clear for $x = \infty$. Otherwise, write $x = p/q$ in lowest terms, so that $p, q \gt 0$ and $\gcd(p, q) = 1$. We argue by strong induction on $q$, where we have $p = n q + r$ for which $n = fl(p/q)$ and $0 \leq r \lt q$ by the Euclidean algorithm. If $r = 0$, then $\tau(x) = \infty$ and we are done; otherwise $\tau(p/q) = q/r$ where $q \gt r \gt 0$ and $\gcd(q, r) = 1$, whence $\tau^n (q/r) = \infty$ for some $n$ by inductive hypothesis, and then $\tau^{n+1}(p/q) = \infty$. 
+
+If: argue by induction on the least $n$ such that $\tau^n(x) = \infty$. If $n = 0$, then $x = \tau^0(x) = \infty$ is rational. Otherwise, we have 
+
+$$x = fl(x) + 1/\tau(x)$$ 
+
+and since $\tau^{n-1}(\tau(x)) = \infty$, we have that $\tau(x)$ is rational by inductive hypothesis, and therefore $x$ is also rational. 
+=-- 
+
++-- {: .num_lemma} 
+###### Lemma 
+If $(a_0, a_1, a_2, \ldots) \in \mathbb{N}_+^{\mathbb{N}}$ is any sequence of positive integers, then there is a unique $x \in \mathbf{R}$ such that $a_n = fl(\tau^n(x))$ for all $n \geq 0$. (This $x$ must be irrational by Lemma \ref{rational}.) 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+In a nutshell, $x$ is given by the continued fraction 
+
+$$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + \cdots}}} $$ 
+
+and so it is really only a matter of proving that this continued fraction converges, i.e., that its truncations $p_n/q_n = [a_0, a_1, \ldots, a_n]$, namely the rational numbers $p_n/q_n$ with $\tau^{n+1}(p_n/q_n) = \infty$ and $fl(\tau^k(p_n/q_n)) = a_k$ for $0 \leq k \leq n$, form a Cauchy sequence. 
+
+For $a \in \mathbb{N}_+$, let $a \cdot -: \mathbf{R} \to \mathbf{R}$ denote the fractional linear transformation $x \mapsto a + \frac1{x}$. We have 
+
+$$[a] = a \cdot \infty, \qquad [a_0, a_1, \ldots, a_n] = a_0 \cdot [a_1, \ldots, a_n]$$ 
+
+and since $a \cdot -: \mathbf{R} \to \mathbf{R}$ is monotone decreasing, we have that $a_0 \cdot a_1 \cdot -$ is monotone increasing. Thus some easy inductions establish 
+
+* $$[a_0] \lt [a_0, a_1, a_2] \lt [a_0, a_1, a_2, a_3, a_4] \lt \ldots$$ 
+
+* $$[a_0, a_1] \gt [a_0, a_1, a_2, a_3] \gt [a_0, a_1, a_2, a_3, a_4, a_5] \gt \ldots$$ 
+
+* $$[a_0, \ldots, a_{2n}] \lt [a_0, \ldots, a_{2n}, a_{2n+1}]$$ 
+
+so that all that remains is to show $lim_{m\to \infty} {|p_m/q_m - p_{m+1}/q_{m+1}|} = 0$. 
+
+In fact we have 
+
+$${|\frac{p_m}{q_m} - \frac{p_{m+1}}{q_{m+1}}|} = \frac{{|p_m q_{m+1} - p_{m+1}q_m|}}{q_m q_{m+1}} = \frac1{q_m q_{m+1}}$$ 
+
+To see the second equation, put $[a_1, \ldots, a_m] = \frac{q_m}{r_m}$ and $[a_1, \ldots, a_{m+1}] = \frac{q_{m+1}}{r_{m+1}}$, with all fractions in reduced form. Then the fractional linear transformation $a_0 \cdot -$, being represented by the integral matrix 
+
+$$A_0 = \left(
+\array{ 
+a_0 & 1 \\
+1 & 0
+}\right)$$ 
+
+with determinant $-1$, takes $(\pm 1)$-determinant matrices to $(\pm 1)$-determinant matrices: 
+
+$$\left(
+\array{
+q_m & q_{m+1} \\
+r_m & r_{m+1}
+}\right) \; \; \stackrel{A_0}{\mapsto} \; \; \left(
+\array{
+p_m & p_{m+1} \\
+q_m & q_{m+1}
+}\right).$$ 
+
+Here $p_m = a_0 q_m + r_m \gt 2r_m$ and $p_{m+1} = a_0 q_{m+1} + r_{m+1} \gt 2r_{m+1}$. By this argument, if 
+
+$$[a_2, \ldots, a_m] = \frac{r_m}{s_m}, \qquad [a_2, \ldots, a_{m+1}] = \frac{r_{m+1}}{s_{m+1}},$$ 
+
+then 
+
+* $${|[a_2, \ldots, a_m] - [a_2, \ldots, a_{m+1}]|} = \frac1{s_m s_{m+1}}$$ 
+
+* $${[a_0, \ldots, a_m] - [a_0, \ldots, a_{m+1}]|} = \frac1{q_m q_{m+1}} \lt \frac1{(2s_m)(2s_{m+1})} = \frac1{4s_m s_{m+1}}$$ 
+
+so that by induction, ${|p_{2m}/q_{2m} - p_{2m+1}/q_{2m+1}|} \lt \frac1{4^m}$, completing the proof. 
+=-- 
+
++-- {: .proof} 
+###### Proof of Theorem 1
+Let $(X, \phi: X \to \mathbf{1} + X \times \mathbb{N}_+)$ be an $F$-coalgebra. An $F$-coalgebra map $\xi: X \to R$ must take $x \in X$ to $\infty$ if $\phi(x) = \ast$. Otherwise $\phi(x) = (x', a_0)$, and in general $x$ generates a behavior stream $x_0 = x, x_1 = x', \ldots$ where $x_0 = x$, $\phi(x_n) = (x_{n+1}, a_n)$. This forces the corecursive definition 
+
+$$\xi(x) = a_0 \cdot \xi(x')$$ 
+
+with $\xi(x) = [a_0, a_1, \ldots]$ if the stream continues without end. As all this is forced and evidently defines a coalgebra map, terminality is guaranteed. 
+=-- 
+
