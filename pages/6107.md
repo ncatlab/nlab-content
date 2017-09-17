@@ -26,6 +26,14 @@ Curved dg-algebras appear in the description of various [[TQFT]]s.
 
 ## References
 
+A basic exposition of the definition is in
+
 * A. Polishchuk, _Introduction to curved dg-algebra_ , notes taken in a talk ([pdf](http://www.math.polytechnique.fr/SEDIGA/documents/polishchuk_ens100324.pdf))
+
+For applications in [[derived categories]] of [[D-brane]]s in [[Landau-Ginzburg model]]s see
+
+* [[Dmitri Orlov]], _Derived Categories of Singularities and D-branes in Landau-Ginzburg models_ , ([arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/0503632))
+
+* Anatoly Preygel, _Thom-Sebastiani & Duality for Matrix Factorizations_ ([arXiv:1101.5834](http://arxiv.org/abs/1101.5834))
 
 [[!redirects curved dg-algebras]]
