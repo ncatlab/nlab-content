@@ -54,6 +54,11 @@ geometry, and, of course, $\infty$-[[infinity-groupoid|groupoids]].)
 
 *  [[Ronnie Brown]]'s [[nonabelian algebraic topology]] has developed Whitehead's theory of crossed complexes along the lines suggested by the original papers of Whitehead, but extending that, in particular, using generalisations of van Kampen's theorem. (This is discussed in detail in the entry: [[nonabelian algebraic topology]].)
 
+##Is Algebraic Homotopy 'the same as' Homotopical Algebra?
+
+Often the objects of study are the same,  and there is an enormous interaction between the two areas, but the aims and objectives seem to be different.  Perhaps, tentatively, one could say that 'algebraic homotopy' is 'combinatorial homotopical algebra'.
+
+
 ##References
 *  [[Hans-Joachim Baues]], _[[Algebraic Homotopy]]_, Cambridge studies in advanced mathematics 15, Cambridge University Press, (1989); 
 *   [[Hans-Joachim Baues]], _[[Combinatorial Homotopy and 4-Dimensional Complexes]]_, de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991);
