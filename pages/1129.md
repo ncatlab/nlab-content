@@ -25,7 +25,7 @@ There is a very general notion of _injective objects_ in a [[category]] $C$, and
 
 Let $C$ be a [[category]] and $J \subset Mor(C)$ a [[class]] of [[morphism]]s in $C$.  
 
-+-- {: .un_example}
++-- {: .num_example}
 ###### Example
 
 Frequently $J$ is the class of all [[monomorphism]]s or a related class.  
@@ -34,7 +34,7 @@ This is notably the case for  $C$ is a [[category of chain complexes]] equipped 
 
 =--
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 
@@ -74,12 +74,12 @@ The dual notion is a [[projective object]].
 
 Assuming the axiom of choice, we have the following easy result. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition 
 An arbitrary small product of injective objects is injective. 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 
@@ -104,7 +104,7 @@ and hence the $J$-injective objects are precisely those that have the [[left lif
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 If $C$ is a [[locally small category]] then $I$ is $J$-injective precisely if the [[hom-functor]]
@@ -123,7 +123,7 @@ takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
 The term _injective object_ is used most frequently in the context that $C$ is an [[abelian category]].  
 
-+-- {: .un_lemma}
++-- {: .num_lemma}
 ###### Observation
 
 
@@ -162,7 +162,7 @@ is a pullback, hence $0 \to A \to B$ is exact.
 
 =--
 
-+-- {: .un_corollary}
++-- {: .num_corollary}
 ###### Corollary
 
 An [[object]] $I$ of an abelian category $C$ is then **injective** if it satisfies the following equivalent conditions:
@@ -196,8 +196,9 @@ See [[homotopically injective object]] for a relevant generalization to categori
 
 Let $R$ be a [[commutative ring]] and  $C = R Mod$ the category of $R$-[[module]]s.
 
-+-- {: .un_thm}
-###### Proposition (Baer's criterion)
++-- {: .num_theorem}
+###### Proposition 
+**([[Baer's criterion]])**
 {#Baer}
 An object $Q \in R Mod$ is injective precisely if for $I$ any left $R$-ideal regarded as an $R$-module, any morphism $g : I \to Q$ in $C$ can be extended to all of $R$ along the inclusion $I \hookrightarrow R$.
 =-- 
@@ -213,7 +214,7 @@ $$f''(r x + y) = k(r) + g(y)$$
 is well-defined and extends $f'$, as desired. 
 =-- 
 
-+-- {: .un_cor}
++-- {: .num_cor}
 ###### Corollary
 {#DirectSumInjectives} 
 Let $R$ be a Noetherian ring, and let $\{Q_j\}_{j \in J}$ be a collection of injective modules over $R$. Then the direct sum $Q = \bigoplus_{j \in J} Q_j$ is also injective. 
