@@ -135,5 +135,6 @@ There may be the [[stuff, structure, property|structure]] of an [[∞-Lie group]
 
 [[!redirects outer automorphisms]]
 [[!redirects automorphism ∞-group]]
+[[!redirects automorphism ∞-groups]]
 
 [[!redirects automorphism infinity-groups]]
