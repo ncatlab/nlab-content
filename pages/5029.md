@@ -27,7 +27,7 @@ $$
 
 in [[∞Grpd]] is a [[full and faithful (∞,1)-functor]].
 
-An **$(\infty,1)$-quasitopos** is an [[(∞,1)-category]] that is [[equivalence of quasi-categories|equivalent]] to the full [[sub-(∞,1)-category]] of some $(\infty,1)PSh_C$ on the separated $(\infty,1)$-presheaves.
+A **(Grothendieck) $(\infty,1)$-quasitopos** is an [[(∞,1)-category]] that is [[equivalence of quasi-categories|equivalent]] to the full [[sub-(∞,1)-category]] of some $(\infty,1)PSh_C$ on the separated $(\infty,1)$-presheaves.
 
 
 ## Examples
@@ -60,5 +60,16 @@ is that of **concrete objects** in $\mathbf{H}$, the analog of [[concrete sheave
 
 
 [[!redirects (∞,1)-quasitopos]]
+[[!redirects (∞,1)-quasitoposes]]
+[[!redirects (∞,1)-quasitopoi]]
+[[!redirects Grothendieck (∞,1)-quasitopos]]
+[[!redirects Grothendieck (∞,1)-quasitoposes]]
+[[!redirects Grothendieck (∞,1)-quasitopoi]]
+[[!redirects (infinity,1)-quasitoposes]]
+[[!redirects (infinity,1)-quasitopoi]]
+[[!redirects Grothendieck (infinity,1)-quasitopos]]
+[[!redirects Grothendieck (infinity,1)-quasitoposes]]
+[[!redirects Grothendieck (infinity,1)-quasitopoi]]
+
 
 
