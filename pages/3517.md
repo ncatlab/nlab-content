@@ -23,8 +23,6 @@ The **five lemma** is one of the basic lemmas of [[homological algebra]], useful
 
 ## Statement
 
-### Ordinary five lemma
-
 Let $\mathcal{A}$ be an [[abelian category]].
 Consider a [[commutative diagram]] in $\mathcal{A}$  of the form 
 
@@ -36,8 +34,8 @@ B_1 & \to & B_2 & \to & B_3 & \to & B_4 &\to & B_5
 
 where the top and bottom rows are [[exact sequences]]. For simplicity we denote all the differentials in both exact sequences by $d$.
 
-+-- {: .num_lemma}
-###### Lemma (the lemma on five homomorphisms or the **five lemma**)
++-- {: .num_prop #FiveLemma}
+###### Proposition (the lemma on five homomorphisms or the **five lemma**)
 
 1. sharp five lemma (essentially the weak **[[four lemma]]**)
 
@@ -51,11 +49,19 @@ where the top and bottom rows are [[exact sequences]]. For simplicity we denote 
 
 =--
 
-The weak four lemma is another terminology (cf. MacLane, _Homology_) for the same as 1.1 and 1.2 except that in 1.1 $f_1$ is not required to exist, and in 1.2 $f_5$ is not required to exist
-(see [[four lemma]]), where the dropped requirements are inessential as not used in the proof. The [[four lemma]] follows directly also with the [[salamander lemma]], as discussed at _[salamander lemma - impliciations - four lemma](salamander%20lemma#FourLemma)_. The following is a direct proof.
++-- {: .num_remark}
+###### Remark
+**on terminology**
+
+The _weak four lemma_ is another terminology (cf. MacLane, _Homology_) for the same as 1.1 and 1.2 except that in 1.1 $f_1$ is not required to exist, and in 1.2 $f_5$ is not required to exist
+(see [[four lemma]]), where the dropped requirements are inessential as not used in the proof. 
+
+=--
 
 +-- {: .proof}
 ###### Proof
+
+The [[four lemma]] follows immediately from the [[salamander lemma]], as discussed at _[salamander lemma - impliciations - four lemma](salamander%20lemma#FourLemma)_. Here is direct proof.
 
 By the [[Freyd-Mitchell embedding theorem]]
 we can always assume that the abelian category is $R$[[Mod]] (though this requires the category to be [[small category|small]], one can always take a smaller abelian subcategory containing the morphism in the diagram which is small). Then we can do the [[diagram chasing]] using elements in that setup. We prove only 1) as 2) is dual. 
@@ -81,6 +87,61 @@ The five lemma also holds in the category [[Grp]] of [[groups]], by essentially 
 One can avoid appealing to the [[Freyd-Mitchell embedding theorem]] if one works with [[element in an abelian category|generalized elements]] or uses the device of [[internal logic|interpreting]] [[regular logic]] in the given abelian category. The former requires a bit of manual reformulation, while the latter is almost automatic, as the element-based proof given above only uses (constructive) regular reasoning.
 =--
 
+## Immediate consequences
+
+### Short five lemma
+
++-- {: .num_cor #ShortFiveLemma}
+###### Corollary 
+**(short five lemma)**
+
+Let $A \to B \to C$ and $A \to \tilde B \to C$ be two [[exact sequences]]. If a [[homomorphism]] $f \colon B \to \tilde B$ makes the [[diagram]]
+
+
+$$
+  \array{
+     && B
+     \\
+     & \nearrow && \searrow
+     \\
+     A &&\downarrow^{\mathrlap{f}}&& C
+     \\
+     & \searrow && \nearrow
+     \\
+     && \tilde B
+  }
+$$
+
+[[commuting diagram|commute]], then $f$ is an [[isomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply prop. \ref{FiveLemma} to the diagram
+
+$$
+  \array{
+    0 &\to& A &\to& B &\to& C &\to& 0
+    \\
+    \downarrow^{\mathrlap{=}}
+    &&
+    \downarrow^{\mathrlap{=}}
+    &&
+    \downarrow^{\mathrlap{f}}
+    &&
+    \downarrow^{\mathrlap{=}}
+    &&
+    \downarrow^{\mathrlap{=}}
+    \\
+    0 &\to& A &\to& \tilde B &\to& C &\to& 0
+  }
+$$
+
+=--
+
+
 
 ### Short split five lemma
 
@@ -88,8 +149,9 @@ A special case of the five lemma is the _short five lemma_ where the objects $A_
 
 The **short split five lemma** is a statement usually stated in the setup of [[semiabelian categories]]:
 
-+-- {: .num_lemma}
-###### Lemma (short split five lemma)
++-- {: .num_cor}
+###### Corollary 
+**(short split five lemma)**
 
 Given a commutative diagram
 $$\array{L & \overset{l}{\to} & H & \overset{q}{\to} & C\\
