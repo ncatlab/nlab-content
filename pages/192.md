@@ -11,13 +11,13 @@ __$Set$__ is the (or a) [[category]] with [[sets]] as [[objects]] and [[function
 
 This category has many marvelous properties, which make it a common choice for serving as a '[[foundations|foundation]]' of mathematics.  For instance:
 
-* It is a [[well-pointed category|well-pointed]] [[topos]], 
+* It is a [[well-pointed category|well-pointed]] {:yes} [[topos]]{:}, 
 
   So in particular it is [[locally cartesian closed category|locally cartesian closed]].
 
-* It is [[locally small category|locally small]].
+* It is {:yes} [[locally small]]{:}.
 
-* It is [[complete category|complete]] and [[cocomplete category|cocomplete]], and therefore $\infty$-[[extensive category|extensive]] (as is any cocomplete topos).
+* It is [[complete category|complete]] and [[cocomplete category|cocomplete]], and therefore $\infty$-[[extensive category|extensive]] (as is any cocomplete topos).{:data complete="yes" co-complete="yes"}
 
 At least assuming [[classical logic]], these properties suffice to characterize $Set$ uniquely up to equivalence among all categories; see [[cocomplete well-pointed topos]].  Note, however, that the definitions of "locally small" and "(co)complete" presuppose a notion of _small_ and therefore a knowledge of what a _set_ (as opposed to a [[proper class]]) is.
 
@@ -41,3 +41,38 @@ category: category
 [[!redirects SET]]
 [[!redirects category of sets]]
 [[!redirects the category of sets]]
+
+{:data
+name="\(\mathbf{Set\}\)"
+wp="Category of sets"
+key=Set
+desc="Sets with functions"
+small="no"
+concrete="yes"
+skeleton="Cardinals"
+imp_enrich=""
+imp_monoidal="cartesian product"
+imp_adj=""
+imp_equ=""
+Mono=Injections
+Epi=Surjections
+Co-Retr=Injections
+Retr=Surjections
+Iso=Bijections
+Const="Constant maps"
+Co-Const="\(\emptyset \to X\)"
+Null="\(\emptyset \to X\)"
+Gen="Non-empty sets"
+Co-Gen="Sets with at least two elements"
+Init="\(\emptyset\)"
+Term="\(\{x\\\}\)"
+Zero=none
+Empty="\(\emptyset\)"
+Co-Empty=none
+Strong-Init=none
+Strong-Term="\(\{x\\\}\)"
+Prod="Cartesian product"
+Co-Prod="Disjoint union"
+Equal="any (common subsets)"
+Co-Equal="any (by a minimal equivalence relation compatible with equality of the function values)"
+}
