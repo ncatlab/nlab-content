@@ -91,6 +91,12 @@ Therefore the condition that the invariant polynomial is $n$-plectic amounts to 
 
 (...)
 
+## Related concepts
+
+* [[symplectic Lie n-algebroid]]
+
+* [[symplectic ∞-groupoid]]
+
 
 ## References
 
