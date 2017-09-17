@@ -1,0 +1,8 @@
+
+* [webpage](http://members.ift.uam-csic.es/auranga/intro.html)
+
+## related pages
+
+* [[string phenomenology]]
+
+category: people
