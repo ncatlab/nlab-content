@@ -49,7 +49,8 @@ Finally we mention genuine
 +-- {: .num_defn}
 ###### Definition
 
-A **topological space** is a [[set]] $X$ equipped with a set of [[subsets]] of $X$, called **[[open sets]]**, which are closed under 
+A **topological space** is a [[set]] $X$ equipped with a set of [[subsets]] 
+$U \subset X$, called the **[[open sets]]**, which are closed under 
 
 1. finite [[intersections]] 
 1. arbitrary [[unions]].  
