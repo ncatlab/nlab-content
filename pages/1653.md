@@ -28,14 +28,14 @@ In any case, measurable spaces are of some interest in their own right, even wit
 
 We assume the law of [[excluded middle]]; see below for the constructive theory.
 
-Given a [[set]] $X$, a __$\sigma$-[[sigma-algebra|algebra]]__ is a collection of [[subsets]] of $X$ that is closed under [[complement|complementation]], [[countable set|countable]] [[unions]], and countable [[intersections]].  A __measurable space__, by the usual modern definition, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __measurable subsets__ of $X$ (or more properly, the measurable sets of $(X,\Sigma)$).
+Given a [[set]] $X$, a __$\sigma$-[[sigma-algebra|algebra]]__ is a collection of [[subsets]] of $X$ that is closed under [[complement|complementation]], [[countable set|countable]] [[unions]], and countable [[intersections]].  A __measurable space__, by the usual modern definition, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __[[measurable sets]]__ of $X$ (or more properly, the measurable subsets of $(X,\Sigma)$).
 
 Historically, people have used more general notions that $\sigma$-algebras, such as $\delta$-rings and similar concepts whose names you can probably now guess; these are discussed at [[sigma-algebra]].
 
 
 ### Measurable functions
 
-Given measurable spaces $X$ and $Y$, a __measurable function__ from $X$ to $Y$ is a [[function]] $f: X \to Y$ such that the [[preimage]] $f^*(T)$ is measurable in $X$ whenever $T$ is measurable in $Y$.  Measurable spaces and measurable functions form a [[category]] $Measble$, which is [[topological concrete category|topological]] over [[Set]].
+Given measurable spaces $X$ and $Y$, a __[[measurable function]]__ from $X$ to $Y$ is a [[function]] $f\colon X \to Y$ such that the [[preimage]] $f^*(T)$ is measurable in $X$ whenever $T$ is measurable in $Y$.  Measurable spaces and measurable functions form a [[category]] $Measble$, which is [[topological concrete category|topological]] over [[Set]].
 
 In classical measure theory, it is usually assumed that $Y$ is the [[real line]] (or a variation such as the extended real line or the complex plane) equipped with the [[Borel sets]] (see the examples below).  Then $f$ is measurable if and only if $f^{-1}(I)$ is measurable whenever $I \subseteq Y$ is an interval.
 
@@ -141,14 +141,6 @@ A useful series of expositions along these lines is in
 
 [[!redirects measurable space]]
 [[!redirects measurable spaces]]
-
-[[!redirects measurable set]]
-[[!redirects measurable sets]]
-[[!redirects measurable subset]]
-[[!redirects measurable subsets]]
-
-[[!redirects measurable function]]
-[[!redirects measurable functions]]
 
 [[!redirects localizable measurable space]]
 [[!redirects localizable measurable spaces]]
