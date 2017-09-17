@@ -65,7 +65,7 @@ $$
 ### Jacobi theta-functions
  {#JacobiThetaFunctions}
 
-The most important examples are the Jacobi [[theta-functions]].
+The most important examples are the  [[Jacobi theta-functions]].
 The four Jacobi $\theta$-functions are (with $q = e^{2\pi i \tau}$)
 
 $$
