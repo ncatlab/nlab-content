@@ -1,5 +1,28 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 The _Lorentz force_ is the [[force]] excerted in a [[particle]] that is charged under the [[electromagnetic field]].
 
 See [[relativistic particle]] for details.
+
+
+## References
+
+The generalization to the [[spinning particle]] is discussed for instance in 
+
+* J.W. van Holten, _Relativistic Dynamics of Spin in Strong
+External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
