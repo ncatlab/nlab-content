@@ -366,6 +366,7 @@ _[[Zuckerman induction]]_. See there for more details.
 ## References
 
 ### Traditional formulation
+ {#ReferencesTraditionalFormulation}
 
 Textbook accounts include
 
@@ -373,10 +374,16 @@ Textbook accounts include
  {#CR}
 
 
-Lecture noted with standard material on induced representations and [[Frobenius reciprocity]] include
+Lecture note with standard material on induced representations and [[Frobenius reciprocity]] include
 
 * Peter Woit, _Induced representations and Frobenius Reciprocity_ ([pdf](http://www.math.columbia.edu/~woit/LieGroups-2012/inducedreps.pdf))
  {#Woit}
+
+MO discussion includes
+
+* [Wrong-way Frobenius reciprocity for finite groups representations](http://mathoverflow.net/questions/132272/wrong-way-frobenius-reciprocity-for-finite-groups-representations)
+
+
 
 
 The [exposition of the Traditional formulation](#TraditionalFormulation) in the above entry is in parts taken from 
