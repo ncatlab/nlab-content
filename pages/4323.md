@@ -566,6 +566,10 @@ A generalized notion of Thom spectra in terms of [[(∞,1)-module bundles]] is d
 
 * {#ABGHR} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
   
+a streamlined update of which is
+
+* {#ABGHR14} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _An $\infty$-categorical approach to $R$-line bundles, $R$-module Thom spectra, and twisted $R$-homology_ ([arXiv:1403.4325](http://arxiv.org/abs/1403.4325))
+
 
 Discussion of Thom spectra from the point of view of [[(∞,1)-module bundles]] is in 
 
