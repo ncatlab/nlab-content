@@ -318,7 +318,7 @@ In terms of ([[stable model category|stable]]) [[model category|model categories
 
 * [[spectral sequence of a filtered stable homotopy type]]
 
-* [[prime spectrum of a monoidal stable (∞,1)-category]]
+* [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]
 
 
 ## References
