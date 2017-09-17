@@ -1,8 +1,13 @@
 
-<div class="rightHandSide toc" markdown="1">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### $(\infty,1)$-Topos Theory
++--{: .hide}
 [[!include (infinity,1)-topos - contents]]
-</div>
-
+=--
+=--
+=--
 #Contents#
 * automatic table of contents goes here
 {:toc}
