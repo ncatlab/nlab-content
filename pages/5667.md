@@ -25,13 +25,29 @@ Accordingly, the groups $KK(A,B)$ are now viewed as a "correct" hom-set among no
 
 ## Definition
 
-Let $A,B$ be two [[C-star algebras]].
+We state first the original and standard definition of $KK$-groups in terms of [[equivalence classes]] of [[Fredholm module|Fredholm]]-[[Hilbert C*-module|Hilbert C*]]-[[Hilbert bimodules|bimodules]] in 
+
+* [In terms of Fredholm Hilbert C*-bimodules(#InTermsOfFredholmHilbertBimodules)
+
+Then we state the abstract [[category theory|category-theoretic]] characterization by [[localizatiojn]] in
+
+* _[Universal category-theoretic characterization](#UniversalCharacterization). 
+
+An equivalent and explicity [[homotopy theory|homotopy theoretic]] characterization akin to that of the standard [[homotopy category]] [[Ho(Top)]] is in  
+
+* [In terms of homotopy classes of star-homomorphisms](#RelationToHomotopyClassesOfStarHomomorphisms).
+
+
+### In terms of Fredholm-Hilbert $C^\ast$-bimodules
+ {#InTermsOfFredholmHilbertBimodules}
+
+Let $A,B$ be two [[separable space|separable]] [[C-star algebras]].
 
 Say a _KK-bimodule_ is a $\mathbb{Z}_2$-[[graded vector space|graded]] $(A,B)$-[[Hilbert bimodules]] $\mathcal{H}$ equipped with an adjointable odd-graded bounded operator $F \in \mathcal{B}_A(\mathcal{H})$ such that $\pi(a)(F^2 - 1) \in \mathcal{K}_A(\mathcal{H})$ and $[\pi(a), F] \in \mathcal{K}_A(\mathcal{H})$ for all $a \in A$. 
 
 (...)
 
-For $B = \mathbb{C}$ this is equivalently an $A$-[[Fredholm module]].
+(For $B = \mathbb{C}$ this is equivalently an $A$-[[Fredholm module]].)
 
 A [[homotopy]] between two $(A,B)$-KK-bimodules is an $(A, C([0,1],B))$-bimodule which interpolates between then two.
 
@@ -39,17 +55,93 @@ Then one writes $KK(A,B)$ for the [[quotient]] of $(A,B)$-KK-bimodules under hom
 
 Here $KK(A,\mathbb{C}) \simeq K_0(A)$ is the [[algebraic K-theory]] group of $A$. (...)
 
-## Properties
+There is a composition operation
 
-### Relation to extensions
+$$
+  KK(A,B) \times KK(B,C) \to KK(A,C)
+$$
 
-There is an [[isomorphism]]
+such that (...). This is called the **Kasparov product**.
 
-$KK(A,B) \simeq Ext^1(A,B)$
+This is [[associativity|associative]] and [[unitality|unital]] and makes $KK(-,-)$ into the [[hom-functor]] of a [[category]].
 
-to a suitable group of suitable [[extensions]] of $A$ by $B$. ([Kasparov 80](#Kasparov80), reviewed in [Inassaridze](#Inassaridze)).
+
+
+
+### Universal category-theoretic characterization
+ {#UniversalCharacterization}
+
++-- {: .num_prop #KasparovProductIsAssociative}
+###### Proposition
+
+The Kasparov product, def. \ref{spring}, is [[associativity|associtative]]. Thus under the Kasparov product
+
+$$
+  KK(-,-) \cocon C^\ast Alg \times C^\ast Alg \to C^\ast Alg
+$$
+
+is the [[hom-functor]] of an [[additive category]]. 
+
+=--
+
+([Higson 87, theorem 4.1](#Higson))
+
+
+The category $KK$ is a kind of [[localization]] of the category of [[C-star-algebras]]:
+
++-- {: .num_theorem #KKIsAdditiveSplitExactLocalizationAtCompacts}
+###### Theorem
+
+The canonical functor
+
+$$
+  Q \colon C^\ast Alg \to KK
+$$
+
+exhibits $KK$ as the [[universal property|universal category]] receiving a functor from [[C*-algebras]] such that
+
+1. $KK$ is an [[additive category]];
+
+1. $Q$ is homotopy-invariant;
+
+1. $Q$ [[isomorphism|inverts]] the [[tensor product]] with the [[C*-algebra]] of [[compact operators]]
+
+   (for all $C^\ast$-homomorphisms of the form $id \otimes e \langle e,- \rangle \;\colon A\; \to A \otimes \mathcal{K}$ the morphism $Q(id \otimes e \langle e)$ is an [[isomorphism]]).
+
+1. $Q$ preserves [[split short exact sequences]].
+
+=--
+
+([Higson 87, theorem 4.5](#Higson))
+
++-- {: .num_cor }
+###### Corollary
+
+The minimal [[tensor product of C-star algebras]]
+
+$$
+  \otimes \colon C^\ast Alg \times C^\ast Alg \to C^\ast Alg
+$$
+
+extends uniquely to a [[tensor product]] $\otimes_{KK}$ on $KK$ such that there is a [[commuting diagram]] of [[functors]]
+
+$$
+  \array{
+    C^\ast Alg \times C^\ast Alg &\stackrel{Q \times Q}{\to}& KK
+    \\
+    \downarrow^{\mathrlap{\otimes}} && \downarrow^{\mathrlap{\otimes_{KK}}}
+    \\
+    C^\ast Alg &\stackrel{Q}{\to}& KK
+  }
+  \,.
+$$
+
+=--
+
+([Higson 87, theorem 4.8](#Higson))
 
 ### Relation to homotopy-classes of $\ast$-homomorphisms
+ {#RelationToHomotopyClassesOfStarHomomorphisms}
 
 Theorem (Cuntz)
 
@@ -70,11 +162,24 @@ where
 
 (reviewed in ([Joachim-Johnson07](#JoachimJohnson07))).
 
+## Properties
+
+### Relation to extensions
+
+There is an [[isomorphism]]
+
+$KK(A,B) \simeq Ext^1(A,B)$
+
+to a suitable group of suitable [[extensions]] of $A$ by $B$. ([Kasparov 80](#Kasparov80), reviewed in [Inassaridze](#Inassaridze)).
+
+
+
+
 ## Theorems
 
 * The [[Baum-Connes conjecture]] is naturally formulated within KK-theory.
 
-* The [[Novikov conjecture]] has been verified in many cases using KK-theory.
+* The [[Novikov conjecture]] has been verified in many cases using KK-theory. (see for instance [Roseberg 80](#Rosernberg80)).
 
 ## Related concepts
 
@@ -116,9 +221,21 @@ algebras]] in the context of [[geometric quantization]] [[geometric quantization
 * [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
  {#Bos}
 
-### Homotopy theory
+### In Category theory and Homotopy theory
 
-KK-theory is naturally understood in terms of [[homotopy theory]].
+KK-theory is naturally understood in terms of [[universal properties]] in [[category theory]] and in [[homotopy theory]].
+
+That $KK(A,B)$ is naturally thought of as a collection of "generalized [[homomorphisms]]" of $C^\ast$-algebras was amplified in 
+
+* [[Joachim Cuntz]], _Generalized Homomorphisms Between C*'-algebras and KK-theory, Springer Lecture Notes in Mathematics, 1031 (1983), 31-45.
+
+* [[Joachim Cuntz]], _K-theory and C*-algebras_, Springer Lecture Notes in Mathematics, 1046 (1984), 55-79.
+
+That under the Kasparov product these are indeed the [[hom-objects]] in a [[category]] was first observed in 
+
+* [[Nigel Higson]], _A characterization of KK-theory_,  Pacific J. Math. Volume 126, Number 2 (1987), 253-276. ([EUCLID](http://projecteuclid.org/euclid.pjm/1102699804))
+
+where moreover this category is realized as the [[universal property|universal]] additive and split exact "[[localization]]" of $C^\ast Alg$ at the $C^\ast$-algebra of [[compact operators]].
 
 Characterization of KK-theory as the [[satellites]] of a functor is in 
 
@@ -139,6 +256,12 @@ A [[model category]] realization of KK-theory is discussed in
 
 * [[Michael Joachim]], [[Mark Johnson]], _Realizing Kasparov's KK-theory groups as the homotopy classes of maps of a Quillen model category_ ([arXiv:0705.1971](http://arxiv.org/abs/0705.1971))
  {#JoachimJohnson07}
+
+### In the context of the Novikov conjecture
+
+* [[Jonathan Rosenberg]], _Group C*-algebras and Topological Invariants_, Proc. Conf. in Neptun, Romania, 1980, Pitman (London, 1985)
+ {#Rosernberg80}
+
 
 
 ### In D-brane theory
