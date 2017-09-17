@@ -62,11 +62,13 @@ This is a special case of a [more general result](http://ncatlab.org/nlab/show/p
 
 * [[torsion approximation]]
 
+* [[Pontryagin duality for torsion abelian groups]]
+
 ## References
 
-* S. E. Dickson, _Torsion theories for abelian categories_,
+* {#Dickson} S. E. Dickson, _Torsion theories for abelian categories_,
 Thesis, New Mexico State University (1963).
- {#Dickson}
+ 
 
 
 [[!redirects torsion subgroup]]
