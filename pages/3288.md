@@ -61,7 +61,7 @@ Let $\eta \colon T M \to M$ be a local addition on $M$.  Let $V \subseteq M \tim
 Let $\alpha \in L M$.  Define the set $U_\alpha \subseteq L M$ by:
 
 $$
-U_\alpha \coloneq \{ \beta \in L M : (\alpha, \beta) \in L V\}.
+U_\alpha \coloneqq \{ \beta \in L M : (\alpha, \beta) \in L V\}.
 $$
 
 Then the preimage of $\{\alpha\} \times U_\alpha$ under $(\pi \times \eta)^L$ is naturally identified with $\Gamma_{S^1}(\alpha^* T M)$.  In particular, the zero section of $\alpha^* T M$ maps to $(\alpha, \alpha) \in \{\alpha\} \times U_\alpha$.
