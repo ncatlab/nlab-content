@@ -203,11 +203,11 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|strict omega-categories]].
 
-* An [[algebroid]], or [[linear category]], is a category enriched over [[Vect]].  Here Vect is the category of vector spaces over some fixed field $k$, equipped with its usual tensor product.  It is common to emphasize the dependence on $k$ and call a category enriched over Vect a **_K_-linear category**.  
+* An [[algebroid]], or [[linear category]], is a category enriched over [[Vect]].  Here $Vect$ is the category of vector spaces over some fixed [[field]] $K$, equipped with its usual tensor product.  It is common to emphasize the dependence on $K$ and call a category enriched over Vect a **$K$-linear category**.  
 
-* More generally, if $K$ is any commutative ring, a category enriched over $K Mod$ is sometimes called a $K$-linear category.
+* More generally, if $K$ is any [[commutative ring]], a category enriched over $K\,$[[Mod]] is sometimes called a $K$-linear category.
 
-* In particular, taking $K = \mathbb{Z}$, a [[ringoid]] or [[pre-additive category]] is a category enriched over [[Ab]].
+* In particular, taking $K$ to be $\mathbb{Z}$ (the ring of [[integers]]), a [[ringoid]] (or [[Ab-enriched category]]) is a category enriched over [[Ab]].
 
 * A (Lawvere) [[metric space]] is a category enriched over the poset $([0, \infty], \geq)$ of extended positive real numbers, where $\otimes$ is $+$.
 
