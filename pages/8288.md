@@ -598,30 +598,190 @@ with $\eta^{-1} = 0$ and $\eta^{0 } = 0$, which works because $f^{-1} = 0$. The 
 
 =--
 
+### Functorial resolutions and derived functors
+ {#FunctorialResolutions}
 
 
+We discuss how the injective/projective resolutions constructed in _[Existence and construction](#ExistenceAndConstruction)_ are [[functor|functorial]] if regarded in the [[homotopy category of chain complexes]] and how this yields the construction of _[[derived functors in homological algebra]]_.
+
+Write 
+
+$$
+  \mathcal{K}^{+,n}(\mathcal{A}) \hookrightarrow \mathcal{K}(\mathcal{A})
+$$ 
+
+for the [[full subcategory]] of the [[homotopy category of chain complexes]] on the one bounded above or bounded below, respectively.
+Write 
+
+$$
+  \mathcal{K}^+(\mathcal{I}_{\mathcal{A}})
+    \hookrightarrow
+  \mathcal{K}^+(\mathcal{A})
+$$
+
+
+for the [[full subcategory]] on the degreewise [[injective object|injective]] complexes, and 
+
+$$
+  \mathcal{K}^-(\mathcal{P}_{\mathcal{A}})
+    \hookrightarrow
+  \mathcal{K}^-(\mathcal{A})
+$$
+
+for the full subcategory on the degreewise [[projective object|projective]] objects.
+
+
+
++-- {: .num_theorem #InjectiveResolutionFunctors}
+###### Theorem
+
+If $\mathcal{A}$ has [enough injectives](injective+object#EnoughInjectives) then there exists a [[functor]]
+
+$$
+  P : \mathcal{A} \to \mathcal{K}^+(\mathcal{I}_{\mathcal{A}})
+$$
+
+together with a [[natural isomorphisms]]
+
+$$
+  H^0(-) \circ P \simeq id_{\mathcal{A}}
+$$
+
+and
+
+$$
+  H^{n \geq 1}(-) \circ P \simeq 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ExistenceOfInjectiveResolutions} every object $X^\bullet \in Ch^\bullet(\mathcal{A})$ has an injective resolution. 
+Proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that for $X \to X^\bullet$ and $X \to \tilde X^\bullet$ two resolutions the there is a morphism $X^\bullet \to \tilde X^\bullet$ in $\mathcal{K}^+()$ and prop. \ref{HomotopyUniquenessOfResolutionOfMorphism} says that this morphism is unique in $\mathcal{K}^+(\mathcal{A})$. In particular it is therefore an [[isomorphism]] in $\mathcal{K}^+(\mathcal{A})$ (since the composite with the reverse lifted morphism, also being unique, has to be the identity). 
+
+So choose one such injective resolution $P(X)^\bullet$ for each $X^\bullet$.
+
+Then for $f : X \to Y$ any morphism in $\mathcal{A}$, 
+proposition \ref{ExistenceOfInjectiveResolutions} again says that it can be lifted to a morphism between $P(X)^\bullet$ and $P(Y)^\bullet$ and proposition \ref{InjectiveResolutionOfCodomainRespectsMorphisms} says that there is a unique such image in $\mathcal{K}^+(\mathcal{A})$ for morphism making the given diagram commute. 
+
+This implies that this assignment of morphisms is [[functor|functorial]], since then also the composites are unique. 
+
+=--
+
+Dually we have:
+
++-- {: .num_theorem #ProjectiveResolutionFunctors}
+###### Theorem
+
+If $\mathcal{A}$ has [enough projectives](projectice+object#EnoughInjectives) then there exists a [[functor]]
+
+$$
+  Q : \mathcal{A} \to \mathcal{K}^-(\mathcal{P}_{\mathcal{A}})
+$$
+
+together with a [[natural isomorphisms]]
+
+$$
+  H_0(-) \circ P \simeq id_{\mathcal{A}}
+$$
+
+and
+
+$$
+  H_{n \geq 1}(-) \circ P \simeq 0
+  \,.
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Let 
+
+$$
+  F : \mathcal{A} \to \mathcal{A}'
+$$
+
+be a [[left exact functor]] between [[abelian categories]] such that $\mathcal{A}$ has [enough injectives](inhective+object#EnoughInjectives). For $n \in \mathbb{N}$ the **$n$th [[right derived functor]]** of $F$ is the composite
+
+$$
+  R^n F : 
+  \mathcal{A}
+   \stackrel{P}{\to}
+  K^+(\mathcal{I}_{\mathcal{A}})
+   \stackrel{\mathcal{K}(F)}{\to}
+  \mathcal{K}^+(\mathcal{A}')
+    \stackrel{H^n(-)}{\to}
+  \mathcal{A}'
+  \,,
+$$
+
+where
+
+* $P$ is the injective resolution functor of theorem \ref{InjectiveResolutionFunctors};
+
+* $\mathcal{K}(F)$ is the evident prolongation of $F$ to $\mathcal{K}^+(\mathcal{A})$;
+
+* $H^n(-)$ is the $n$-[[chain homology]] functor. Hence
+
+$$
+  (R^n F)(X^\bullet) \coloneqq H^n(F(P(X)^\bullet))
+  \,.
+$$
+
+=--
+
+Dually:
+
++-- {: .num_defn }
+###### Definition
+
+Let 
+
+$$
+  F : \mathcal{A} \to \mathcal{A}'
+$$
+
+be a [[right exact functor]] between [[abelian categories]] such that $\mathcal{A}$ has [enough projectives](projective+object#EnoughProjectives). For $n \in \mathbb{N}$ the **$n$th [[left derived functor]]** of $F$ is the composite
+
+$$
+  L_n F : 
+  \mathcal{A}
+   \stackrel{Q}{\to}
+  K^-(\mathcal{P}_{\mathcal{A}})
+   \stackrel{\mathcal{K}(F)}{\to}
+  \mathcal{K}^-(\mathcal{A}')
+    \stackrel{H_n(-)}{\to}
+  \mathcal{A}'
+  \,,
+$$
+
+where
+
+* $Q$ is the injective resolution functor of theorem \ref{ProjectiveResolutionFunctors};
+
+* $\mathcal{K}(F)$ is the evident prolongation of $F$ to $\mathcal{K}^+(\mathcal{A})$;
+
+* $H_n(-)$ is the $n$-[[chain homology]] functor. Hence
+
+$$
+  (L^n F)(X_\bullet) \coloneqq H_n(F(Q(X)_\bullet))
+  \,.
+$$
+
+=--
+
+For further discussion along these lines see at _[[derived functor in homological algebra]]_.
 
 
 ### Relation to syzygies
 
 (...) [[syzygy]] (...)
 
-### Relation to axioms of choice 
-
-For ordinary [[modules]] $M$ over a [[ring]] $R$, a standard way of constructing a projective resolution of $M$ is to construct a 
-[[projective cover]] $\pi_1 \colon P_1 \to M$ by, for example, taking $P_1$ to be the [[free module]] $F U(M)$ generated by the underlying set of $M$ and $\pi_1$ the counit $F U(M) \to M$ of the [[free-forgetful adjunction]] evaluated at $M$. Then iterate this process where $K_n$ is the kernel of $\pi_n$ and $\pi_{n+1} \colon P_{n+1} \to K_n$ is a projective cover. 
-
-A slightly subtle point is that there is no guarantee that the free module $F U(M)$ is actually projective, unless one assumes some form of the [[axiom of choice]]. Since the axiom of choice is not available in all [[toposes]], one cannot use this procedure in general to construct, say, projective resolutions in the abelian category $Ab(E)$ of abelian [[group objects]] in a general [[Grothendieck topos]] $E$ (even though one can construct free resolutions), such as needed in general in [[abelian sheaf cohomology]]. 
-
-There are however weak forms of the axiom of choice that hold in many toposes, such as the [[presentation axiom]], aka _COSHEP_. We have the following result: 
-
-+-- {: .num_prop} 
-###### Proposition 
-Let $E$ be a [[W-pretopos]] that satisfies [[COSHEP]]. Then projective resolutions exist for any object of $Ab(E)$. 
-
-=-- 
-
-The idea of proof is that the underlying object of an abelian group $A$ in $E$ admits a [[projective cover]] $X \to U(A)$ in $E$, and then the corresponding $F(X) \to A$ is a projective cover in $Ab(E)$. 
 
 ## Related concepts
  {#RelatedConcepts}
