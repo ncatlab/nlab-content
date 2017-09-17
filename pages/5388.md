@@ -1,4 +1,24 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
 The _Lorentz group_ is the [[orthogonal group]] for an invariant [[bilinear form]] of signature $(-+++\cdots)$, $O(n,1)$.
 
-Its [[semidirect product]] with the translation group is the [[Poincare group]].
+## Related concepts
+
+* [[Lorentzian manifold]]
+
+[[!include table of orthogonal groups and related]] 
