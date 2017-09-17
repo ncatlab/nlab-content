@@ -106,6 +106,10 @@ Jonathan Rosenberg has also written a little introductory book for mathematician
 
 * Jonathan Rosenberg: _Topology, $C^*$-algebras, and string duality_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete))
 
+A discussion that instead of noncommutative spaces uses [[topological groupoids]] is in 
+
+* Calder Daenzer, _A groupoid approach to noncommutative T-duality_ ([arXiv:0704.2592](http://arxiv.org/abs/0704.2592))
+
 The [[bi-brane]] perspective on T-duality is amplified in
 
 * Gor Sarkissian and [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv](http://arxiv.org/abs/0810.3159))
