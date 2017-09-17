@@ -37,7 +37,9 @@ This is dual to [[geometric realization]].
 
 ## Related concepts
 
-* [[geometric realization]]
+Formally the dual to totalization is [[geometric realization]]: where totalization is the [[end]] over a [[power]]ing with $\Delta$, realization is the [[coend]] over the [[tensoring]].
+
+But various other operations carry names similar to "totalization". For instance a [[total chain complex]] is related under [[Dold-Kan correspondence]] to the [[diagonal]] of a [[bisimplicial set]] -- see [[Eilenberg-Zilber theorem]]. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the operation that is often called $Tot$ and called the _total simplicial set_ of a bisimplicial set.
 
 ## References
 
