@@ -115,6 +115,8 @@
 
   * Tools
 
+    * [[renormalization]]
+
     * [[BV-BRST formalism]]
 
     * [[AKSZ theory]]
