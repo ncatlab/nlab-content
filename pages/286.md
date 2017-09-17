@@ -1,9 +1,9 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Equality and Equivalence
-+--{: .hide}
++-- {: .hide}
 [[!include equality and equivalence - contents]]
 =--
 =--
@@ -49,7 +49,7 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 In [[material set theory]] based on [[ZFC]], any two objects are [[pure sets]] and can be compared for [[equality]].  Yet this is often mathematical nonsense which depends on precisely how one writes definitions; for example, the [[ordered pair]] $(0,0)$ is equal to the [[natural number]] $1$ by some standards and equal to $2$ by other standards (while $(1,1) = 2$ by yet other standards), but this makes no difference mathematically.  In contrast, [[structural set theory]] either implicitly (as in [[ETCS]]) or explicitly (as in [[SEAR]]) considers only equality between [[elements]] of a given [[set]] (or [[functions]] or [[binary relations]] between two given sets, etc).  This can be built into the [[logic]] using [[dependent type theory]] (which can serve as a foundation all by itself).
 
-Does it make sense, then, to ask whether two arbitrary *sets* are equal?  In material set theory, of course it does; two sets are equal if they have the same elements (by the [[axiom of extensionality]]).  But structurally, this definition is meaningless.  All the same, a structural set theory built on [[first-order logic]] with equality automatically gives this question (whether two arbitrary sets are equal) a meaning, as do the most common forms of foundational type theory, but this is again never used in mathematics.  ($SEAR$, which is based on first-order logic without equality, does not give this question a meaning and does not suffer for it.)  So just as we don\'t need to ask whether $(0,0) = 2$, we don\'t need to ask whether $\{(0,0)\} = \{2\}$ as sets.  (Note that this a completely different question, structurally, from whether, say, $\{(0,0)\} = \{(0,1)\}$ as *[[subsets]]* of $\mathbb{N} \times \mathbb{N}$.)
+Does it make sense, then, to ask whether two arbitrary *sets* are equal?  In material set theory, of course it does; two sets are equal if they have the same elements (by the [[axiom of extensionality]]).  But structurally, this definition is meaningless.  All the same, a structural set theory built on [[first-order logic]] with equality automatically gives this question (whether two arbitrary sets are equal) a meaning, as do the most common forms of foundational type theory, but this is again never used in mathematics.  ($SEAR$, which is based on first-order logic without equality, does not give this question a meaning and does not suffer for it.)  So just as we don\'t need to ask whether $(0,0) = 2$, we don\'t need to ask whether $\{(0,0)\} = \{2\}$ as sets.  (Note that this is a completely different question, structurally, from whether, say, $\{(0,0)\} = \{(0,1)\}$ as *[[subsets]]* of $\mathbb{N} \times \mathbb{N}$.)
 
 Now let us move from the foundations of [[set theory]] to those of [[category theory]].  Usually, category theory is founded on set theory, or something very much like it; if the [[objects]] of a category don\'t form a set, then this is only because of [[size issues]], and they still form a [[proper class]].  Accordingly, it makes sense to compare them for equality.  However, if the [[category of sets]] is itself an example of a category, then by the previous paragraph, it does *not* have to make sense (and is mathematically meaningless) to test the objects of this category for equality.  So we get the idea that we cannot compare objects of a given category for equality in general (although this may make sense for particular categories).  In other words, a [[category]] is not by default a [[strict category]] (a category equipped with the [[extra stuff]] of an explicit equality predicate on its objects).
 
@@ -77,11 +77,12 @@ The most common source of of breaking of equivalence-invariance is a statement t
 
 It does not break equivalence-invariance to state that two [[morphisms]] are equal, given a common [[source]] and [[target]]; this is because a [[hom-set]] is a [[set]], where equality is meaningful.  However, it violates the principle of equivalence to state that two morphisms are equal if the source and target are *not* given, because this includes the claim that their sources (which are objects) are equal, and similarly for the targets.
 
+
 #### In higher category theory
 
 It violates the principle of equivalence to state that two morphisms in a $2$-[[2-category|category]] are equal, because these morphisms are objects in a [[hom-category]], but does not violate the principle of equivalence to state that that two $2$-morphisms are equal, given a common source and target.  And so on.  In an $\infty$-[[infinity-category|category]], *every* claim of equality break equivalence-invariance.
 
-Defining higher categorial structures using such equalities violating equivalence-invariance tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
+Defining higher categorial structures using such 'evil' equalities tends to lead to *strict* concepts; avoiding them and imposing coherence relations leads to *weak* concepts.  Sometimes there is a [[coherence theorem]] showing that every weak concept can be strictified, which justifies using equality as a figure of speech.  See [[bicategory]], [[Gray-category]], and [[model category]] for examples of this in action.
 
 
 #### In the concept of $\dagger$-categories
