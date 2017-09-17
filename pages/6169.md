@@ -23,28 +23,70 @@ A [[submanifold]] of a [[symplectic manifold]] each [[tangent space]] of which i
 
 ### In cohesive higher geometry
 
-We discuss an axiomatization of isotropic foliation in [[differential cohesion]].
+We discuss an axiomatization of ([[foliations]] by) isotropic subspaces in [[differential cohesion]].
 
-(...)
+So let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]].
 
-Given
+
+
+
++-- {: .num_defn #FoliationInDifferentialCohesion}
+###### Definition
+
+For $X \in \mathbf{H}$ a **[[foliation]]** of $X$ is 
+a morphism $\mathcal{D} \colon X \to X//\mathcal{D}$ which is 
+
+1. a [[1-epimorphism]];
+
+1. a [[formally smooth morphism]].
+
+Equivalently $\mathcal{D}$ is a map that exhibits $X$ as an [[atlas]]
+for a [[geometric infinity-groupoid]].
+
+Given a foliation $\mathcal{D}$ we say that the **the leaf decomposition** of $X$ induced by the foliation is the [[(∞,1)-pullback]] $LeafDec(\mathcal{D})$ in 
+
+$$
+  \array{
+    LeafDec(\mathcal{D}) &\stackrel{\iota_{\mathcal{D}}}{\to}& X
+    \\
+    \downarrow && \downarrow
+    \\
+    \flat (X//\mathcal{D}) &\to& X//\mathcal{D}
+  }
+  \,.
+$$
+
+=--
+
+Here $\flat$ is the [[flat modality]] of the given [[cohesion]].
+
+
+Now let $\mathbb{G} \in Grp_2(\mathbf{H})$ a [[braided ∞-group]]. Write
+
+$$
+  \Omega^2_{cl} := \Omega^2_{flat}(-,\mathbb{G})
+$$ 
+
+for the corresponding coefficient object for [[curvature]] forms of $\mathbb{G}$-[[principal ∞-connections]] (as discussed there).
+
++-- {: .num_defn }
+###### Definition
+
+Given a closed 2-form 
 
 $$
   \omega \;\colon\; X \to \Omega^2_{cl}
 $$
 
-a [[foliation]] by isotropic submanifolds is an 
-[[geometric infinity-groupoid]] $X \to \mathcal{E}$ on $X$, hence an [[atlas]] which is a [[submersion]]/[[formally smooth morphism]], hence such that the map
+a foliation of $X$ by **$\omega$-isotropic subspaces** is a [[foliation]] $\mathcal{D} \colon X \to X//\mathcal{D}$
+as in def. \ref{FoliationInDifferentialCohesion} such that the restriction of $\omega$ to the leaf decomposition is equivalent to the 0-form
 
-$$  
-  \array{
-    X &\to& \mathcal{E} \underset{\mathbf{\Pi}_{inf}\mathcal{E}}{\times} \mathbf{\Pi}_{inf}(X)
-  }
+$$
+  \iota_{\mathcal{D}}^* \omega \simeq 0
+  \,,
 $$
 
-is an [[1-epimorphism]] (where $\mathbf{\Pi}_{inf}(X)$ is the [[infinitesimal shape modality]]),
-
-which is such that the top composite morphism in
+hence such that the top composite morphism in the diagram
 
 $$
   \array{
@@ -53,11 +95,16 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    \flat \mathcal{E} &\to& \mathcal{E}
+    \flat (X//\mathcal{D}) &\to& X//\mathcal{D}
   }
 $$
 
-factors through the point (where $\flat$ is the [[flat modality]]). 
+factors through the point.
+
+=-- 
+
+
+
 
 (...)  
 
