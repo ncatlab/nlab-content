@@ -1,6 +1,6 @@
 
 
-| | [[(∞,1)-operad]] | [[∞-algebra over an (∞,1)-operad|∞-algebra]] | groupal version | in [[Top]] | generally |
+| | [[(∞,1)-operad]] | [[∞-algebra over an (∞,1)-operad|∞-algebra]] | grouplike version | in [[Top]] | generally |
 |--|----------------|--------------------------------|----|--------|------|
 | | [[A-∞ operad]]  | [[A-∞ algebra]] | [[∞-group]] | [[loop space]] | [[loop space object]] |
 | | [[E-k operad]] | [[E-k algebra]] | [[k-monoidal ∞-group]] | [[iterated loop space]] | [[iterated loop space object]] |
