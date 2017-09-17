@@ -23,6 +23,8 @@ Classical mechanics of a system of point particles and rigid bodies is usually d
 
 For a theoretical classical mechanics one often starts with a concrete system of bodies with pulleys, strings, spins, external and internal forces, and dissipative sinks and sources (e.g. friction forces), which are then analysed to get the configuration or phase space of the system, the equations of motion and possibly to determine some special [[observable]]s of interest. Once abstracted that way, the rest of the study is a rather special case of the theory of [[dynamical system]]s, which itself studies general (either deterministic or stochastic) spatially-parametrized systems in a (discrete or continuous) time evolution. 
 
+A terminological and scope discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2807&Focus=23543#Comment_23543).
+
 ## Definition
 
 We set up some basic notions of classical mechanics. 
@@ -32,7 +34,7 @@ We set up some basic notions of classical mechanics.
 +-- {: .num_defn}
 ###### Definition
 
-A _real [[Poisson algebra]]_ is an [[associative algebra]] $(A, \dot )$over the [[real number]]s that is equipped with with an additional bilinear operation
+A _real [[Poisson algebra]]_ is a unital (commutative) [[associative algebra]] $(A, \dot)$ over the [[real number]]s that is equipped with with an additional bilinear operation
 
 $$
   [-,-] : A \otimes_{\mathbb{R}} A \to A 
@@ -40,10 +42,11 @@ $$
 
 that makes $A$ into a [[Lie algebra]] such that for each element $a \in A$ the operation $[a,-] : A \to A$ is a [[derivation]] of the product $\cdot : A \otimes A \to A$.
 
+This definition is rarely used, but it makes sense also when $\cdot$ is not commutative. 
 A _[[homomorphism]]_ $(A, \dot, [-,-]) \to (B, \cdot, [-,-])$ of Poisson algebras is a [[linear function]] $A \to B$ that respects both the associative product and the Lie bracket.
 
-Write [[Poiss]] for th resulting category of Poisson algebras. Write
-$CPoiss \subset Poiss$ for the [[full subcategory]] on those Poisson algebras whose underlying [[associative algebra]] is commutative.
+Write [[Poiss]] for the resulting category of (not necessarily commutative)
+Poisson algebras. Write $CPoiss \subset Poiss$ for the [[full subcategory]] on those Poisson algebras whose underlying [[associative algebra]] is commutative.
 
 =--
 
