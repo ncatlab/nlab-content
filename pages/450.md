@@ -75,6 +75,8 @@ Loday introduced in the paper listed below the category of what he called $n$-ca
 
 ## Related concepts
 
+* [[double groupoid]]
+
 * [[double bicategory]]
 
 
