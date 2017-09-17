@@ -19,7 +19,7 @@ An MV-algebra consists of
 * a unary operation, $\neg$, on $A$; and a constant, $0$, such that
 
 
-1. $\langle A, \oplus,\neg\rangle$ is a commutative [[monoid]];
+1. $\langle A, \oplus, 0\rangle$ is a commutative [[monoid]];
 
 1. $\neg\neg x =  x$ for all $x \in A$;
 
@@ -51,7 +51,48 @@ This gives a commutative monoid easily enough and the double negation and absorp
 
 Any [[Boolean algebra]] defines a MV-algebra with $\oplus = \vee$, and $\neg$ being the complement operation. The expressions in the last axiom evaluate to $x\vee y$.
 
-=--
+=-- 
+
+## Properties 
+
+Define $x \odot y \coloneqq \neg (\neg x \oplus \neg y)$, and define $x \Rightarrow y \coloneqq \neg x \oplus y$. 
+
++-- {: .un_prop}
+######Proposition 1
+Each MV algebra carries a lattice structure, where the meet and join operations are defined by 
+
+$$x \wedge y = (x \odot \neg y) \oplus y$$ 
+
+$$x \vee y = x \odot (\neg x \oplus y)$$ 
+
+and where $0$ and $1 = \neg 0$ are the bottom and top elements. 
+=-- 
+
+Let $\leq$ be the partial ordering for the lattice structure, where $x \leq y$ if $x = x \wedge y$. 
+
++-- {: .un_prop} 
+######Proposition 2
+Each MV algebra is a [[residuated lattice]], i.e., a closed monoidal poset, where the monoidal product is $\odot$ and 
+$$x \odot y \leq z \qquad iff \qquad x \leq y \Rightarrow z.$$
+In particular, for all elements $x$ and $y$ we have $1 = y \Rightarrow y$, $1 \Rightarrow y = y$, and $x \leq (x \Rightarrow y) \Rightarrow y$. 
+=-- 
+
+In fact, an MV algebra is a $\ast$-[[star-autonomous category|autonomous]] poset, where $\neg x = x \Rightarrow 0$. 
+
++-- {: .un_prop}
+######Proposition 3 
+The equational variety of MV algebras is a [[Mal'cev variety]], where the Mal'cev operation is defined by 
+
+$$t(x, y, z) = ((x \Rightarrow y) \Rightarrow z) \wedge ((z \Rightarrow y) \Rightarrow x).$$  
+
+In other words, $t(x, y, y) = x = t(y, y, x)$. 
+=-- 
+
++-- {: .un_thm}
+######Completeness theorem
+Every MV algebra is an MV subalgebra of some power of $[0, 1]$ with its standard MV algebra structure. An identity holds for all MV algebras if and only if it holds in $[0, 1]$. 
+=-- 
+
 
 ##References
 
