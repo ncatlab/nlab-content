@@ -46,7 +46,7 @@ e.g. ([Huybrechts-Lehn 96, def. 1.2.4, def. 1.2.12](#HuybrechtsLehn96))
 
 ## Examples
 
-Every [[line bundle]] is stanle. The [[extension]] of a degree-0 line bundle by a degree-1 line bundle is stable
+Every [[line bundle]] is stable. The [[extension]] of a degree-0 line bundle by a degree-1 line bundle is stable.
 
 e.g. ([Huybrechts-Lehn 96, example 1.2.10](#HuybrechtsLehn96))
 
@@ -82,7 +82,7 @@ Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/st
 
 A textbook account is in
 
-* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Mafred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
+* {#HuybrechtsLehn96} [[Daniel Huybrechts]], [[Manfred Lehn]], _The Geometry of the Moduli Spaces of Sheaves_, 1996 ([[HuybrechtsLehn.pdf:file]])
 
 See also
 
