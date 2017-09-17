@@ -51,7 +51,7 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 ### Singular homology
  {#SingularHomology}
 
-We discuss aspects of the [[singular homology]] $H_n(-) \colon $ [[Top]] $\to$ [[Ab]] of CW-complexes.
+We discuss aspects of the [[singular homology]] $H_n(-) \colon $ [[Top]] $\to$ [[Ab]] of CW-complexes. See also at _[[cellular homology]] of CW-complexes_.
 
 Let $X$ be a CW-complex and write 
 
@@ -68,7 +68,7 @@ for its [[filtered topological space]]-structure with $X_{n+1}$ the topological 
 The [[relative singular homology]] of the filtering degrees is
 
 $$
-  H_n(X_k | X_{k-1})
+  H_n(X_k , X_{k-1})
   \simeq
   \left\{
     \array{
@@ -114,7 +114,7 @@ For instance ([Hatcher, lemma 2.34 b)](#Hatcher)).
 By the [[long exact sequence]] in [[relative homology]], discussed at _[Relative homology -- long exact sequences](relative+homology#LongExactSequences)_, we have an [[exact sequence]]
 
 $$
-  H_{k+1}(X_n | X_{n-1})
+  H_{k+1}(X_n , X_{n-1})
   \to 
   H_k(X_{n-1})
   \to 
