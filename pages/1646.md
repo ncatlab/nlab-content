@@ -145,6 +145,8 @@ This is really two theorems (at least): an abstract theorem that the inequality 
 
 * [[rigged Hilbert space]]
 
+* [[Hilbert C-star-module]], [[Hilbert bimodule]]
+
 category: analysis
 
 [[!redirects Hilbert spaces]]
