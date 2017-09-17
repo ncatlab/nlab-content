@@ -25,14 +25,14 @@ Historically quantum field theory grew out of attempts to combine [[classical fi
 
 * algebraic quantum field theory: [[AQFT]] -- this encodes a quantum field theory as an assignment of [[operator algebra]]s "of observables" to patches of [[spacetime]];
 
-* functorial quantum field theory: [[FQFT]] -- this encodes a quantum field theory as an assignment of _spaces of quantum states_ to patches of [[codimension]] 1, and of maps between spaces of states -- the time evolution opeator -- to [[cobordism]]s between such patches.
+* functorial quantum field theory: [[FQFT]] -- this encodes a quantum field theory as an assignment of _spaces of quantum states_ to patches of [[codimension]] 1, and of maps between spaces of states -- the time evolution operator -- to [[cobordism]]s between such patches.
 
 Both these approaches try to capture the notion of a _full_ quantum field theory. On the other hand, much activity in physics is concerned with [[perturbative quantum field theory]]. This is a priori to be thought of as an approximation to a full quantum field theory akin to the approximation of a function by its Taylor series, but not the least because it is often the only available technique, the tools of perturbative quantum field theory are to some extent also taken as a definition of quantum field theory. 
 
 The gap for instance between the formal study of the [[AQFT]] axioms and physics as done in practice by physicists had to a large extent been due to the fact that [[AQFT]] had little to say about perturbative quantum field theory. But recently this has been changing. See [[perturbative quantum field theory]] for more.
 
 
-Recent times have seen major progress in understanding these axiomatizations and connecting them to the structures studied in [[physics]] (see the references below), but still the number of interesting phenomena in quantum field theory that physicist handle semi-rigorously and that are waiting for a fully formal understanding is large.
+Recent times have seen major progress in understanding these axiomatizations and connecting them to the structures studied in [[physics]] (see the references below), but still the number of interesting phenomena in quantum field theory that physicists handle semi-rigorously and that are waiting for a fully formal understanding is large.
 
 
 
