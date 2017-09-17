@@ -1,5 +1,13 @@
 
 
-* H.  Edelsbrunner and J.L Harer,_Computational Topology: An Introduction_, AMS, 2010. ([webpage](http://www.ams.org/bookstore-getitem/item=MBK-69)
+* H.  Edelsbrunner and J.L Harer, _[[Computational Topology: An Introduction]]_, AMS, 2010. ([webpage](http://www.ams.org/bookstore-getitem/item=MBK-69)
 
-* A. Zomorodoian,_Topology for Computing_, Cambridge University Press, 2005, [publishers' webpage](http://www.cambridge.org/gb/knowledge/isbn/item1171674/?site_locale=en_GB)
+* A. Zomorodian, _Topology for Computing_, Cambridge University Press, 2005, [publishers' webpage](http://www.cambridge.org/gb/knowledge/isbn/item1171674/?site_locale=en_GB)
+
+* Tomasz Kaczynski, Konstantin Mischaikow and Marian Mrozek, _Computational Homology_, Appl. Math. Sci. Vol. 157, Springer Verlag, NY 2004, [webpage](http://www.springer.com/mathematics/applications/book/978-0-387-40853-8)
+
+##Websites
+
+* [Chomp](http://chomp.rutgers.edu/)
+
+* [Comptop](http://comptop.stanford.edu/) at Stanford.
