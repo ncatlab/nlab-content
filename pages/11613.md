@@ -1,0 +1,42 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _[[domain specific programming language]]_ is one designed for  a specialized "domain" of applications. A _domain specific embedded programming language_ is a domain specific language realized "inside" a general-purpose high level ([[type theory|typed]]) [[programming language]].
+ 
+## Reference
+
+* Paul Hudak, _Modular Domain Specific Languages and Tools_, in _Proceedings of Fifth International Conference on Software Reuse_, IEEE Computer Society Press  1989  ([pdf](http://cs.yale.edu/c2/images/uploads/dsl.pdf))
+
+A list of literature is at 
+
+* Haskell Wiki, _[Research papers/Domain specific languages](http://www.haskell.org/haskellwiki/Research_papers/Domain_specific_languages)_
+
+
+[[!redirects domain specific embedded programming languages]]
+
+[[!redirects domain specific embedded language]]
+[[!redirects domain specific embedded languages]]
+
+[[!redirects embedded domain specific language]]
+[[!redirects embedded domain specific languages]]
+
+[[!redirects embedded domain specific programming language]]
+[[!redirects embedded domain specific programming languages]]
+
+
+[[!redirects DSEL]]
+[[!redirects EDSL]]
