@@ -8,11 +8,10 @@
 
 A __simple Lie algebra__ is a [[Lie algebra]] $L$ such that:
 
-*  $L$ is not [[abelian Lie algebra|abelian]],
-*  $L$ is not [[trivial Lie algebra|trivial]],
+*  $L$ is not [[abelian Lie algebra|abelian]], and
 *  the only [[proper ideal]] of $L$ is the zero ideal.
 
-In other words, a simple Lie algebra is a [[simple object]] of [[LieAlg]] that *also* is nonabelian.
+Equivalently, a simple Lie algebra is a [[simple object]] of [[LieAlg]] that *also* is nonabelian.
 
 
 ## Semisimple Lie algebras
