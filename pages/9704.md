@@ -35,7 +35,7 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 In the original [[Dirac charge quantization]] argument an [[electromagnetic field]] is considerd _outside_ a given point in space (line in [[spacetime]]). Mathematically this just corresponds to considering electromagfnetism on the maifold $(\mathbb{R}^3-D^0) \times \mathbb{R}$, but physically this may be taken to model a situation where there is a magnetic monopole defect in the vavuum structure. The _[[Dirac monopole]]_.
 
-This is the classical exmaple of monopoles and often taken to be the default meaning. (In the context of the [[standard model of particle physics]], however, the default meaning is that of electroweak vacuum defect monopoles, discussed [below](#ElectroweakMonopoles).)
+This is the classical example of monopoles and often taken to be the default meaning. (In the context of the [[standard model of particle physics]], however, the default meaning is that of electroweak vacuum defect monopoles, discussed [below](#ElectroweakMonopoles).)
 
 Technically, in the sense of the discussion at [[QFT with defects]] in the section _[Topological defects from spontaneous symmetry breaking](QFT%20with%20defects#DefectsFromBrokenSymmetry)_ what happens here is that the [[moduli space]] of the [[instanton sector]] of electromagnetism (= the [[classifying space]] of [[circle group]]-[[principal bundles]]) $BU(1)$ has the [[homotopy type]] of an [[Eilenberg-MacLane space]] $B U(1) \simeq K(\mathbb{Z},2)$. This is by definition a space such that [[homotopy classes]] of [[continuous functions]] from a [[sphere]] into it are classified by the [[integers]]: $\pi_2(B U(1)) \simeq \mathbb{Z}$.
 
