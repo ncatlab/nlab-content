@@ -6,18 +6,18 @@
 
 In the [[foundations]] of [[mathematics]], it\'s interesting to consider the axiom that the [[Set|Category Of Sets]] Has [[projective object|Enough Projectives]]; in short: **COSHEP** (pronounced /ko:-shep/).  This is also known as the **presentation axiom** "PAx."   It is a weak form of the [[axiom of choice]].
 
-In elementary terms, COSHEP states that for every set $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]]. (Note that the full axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with algebra (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of constructivism, we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
+In elementary terms, COSHEP states that for every set $A$, there exists a set $P$ and a [[surjection]] $P \to A$, such that every surjection $X \twoheadrightarrow P$ has a [[section]]. (Note that the full axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with [[algebra]] (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of [[constructive mathematics|constructivism]], we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
 
-As in homological algebra, an object $P$ in a category $C$ is (externally) projective iff the hom-functor 
+As in [[homological algebra]], an [[object]] $P$ in a [[category]] $C$ is (externally) projective iff the [[hom-functor]] 
 
 $$C(P, -): C \to Set$$ 
 
-takes epis to epis. This is the same as saying: given an epi $p: B \to A$ and a map $f: P \to A$, there exists a lift $g: P \to B$ in the sense that $f = p \circ g$. 
+takes [[epimorphism|epis]] to epis. This is the same as saying: given an epi $p: B \to A$ and a map $f: P \to A$, there exists a lift $g: P \to B$ in the sense that $f = p \circ g$. 
 
 
 ## Consequences
 
-As an axiom, this has important consequences for algebra; there, one often uses the axiom of choice to prove that categories of modules have enough projectives, on the grounds that the [[free functor|free]] modules are projective. But COSHEP is sufficient; while not every free module will be projective, one can still use COSHEP to find a [[projective resolution]] for every free module (and thus for every module).
+As an axiom, this has important consequences for algebra; there, one often uses the axiom of choice to prove that categories of [[module]]s have enough projectives, on the grounds that the [[free functor|free]] modules are projective. But COSHEP is sufficient; while not every free module will be projective, one can still use COSHEP to find a [[projective resolution]] for every free module (and thus for every module).
 
 +-- {: .un_prop}
 ######Proposition
