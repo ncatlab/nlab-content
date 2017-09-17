@@ -17,7 +17,7 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 
    _Toby_:  I wouldn\'t use 'algebraic' that way; see [[algebraic theory]].
 
-   [[John Baez]]: How come the first sentence of [this paper](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf) seems to suggest that the category of models of _any_ category with finite limits is locally finitely presentable?  I don't see any 'finitarity' constraint.  Does this contradict what Mike is saying, or am I just confused?
+   [[John Baez]]: How come the first sentence of [this paper](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf) seems to suggest that the category of models of _any_ essentially algebraic theory is locally finitely presentable?  The characterization below, which I did not write, seems to agree.  Here there is no restriction that the theory be finitary.  Does this contradict what Mike is saying, or am I just confused?  
 
 =--
 1. $C$ is equivalent to the category of finite-limit-preserving functors $D \to Set$ for some small category $D$ with finite limits.
