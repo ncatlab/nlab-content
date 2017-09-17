@@ -45,7 +45,7 @@ A __cohomology spectral sequence__ in $\mathcal{A}$ is
 
 * a family $(E^{p,q}_r)$ of [[object]]s in $\mathcal{A}$, for all [[integer]]s $p,q,r$ with $r\geq 1$ 
 
-  (these are said to form the __$r$-th page__ of the spectral sequence)
+  (for a fixed $r$ these are said to form the __$r$-th page__ of the spectral sequence)
 
 * for each $p,q,r$ as above a [[morphism]] (called the __differential__) 
   
@@ -119,7 +119,7 @@ Therefore usually spectral sequences are required to converge in each degree, or
 
 +-- {: .un_defn}
 ###### Definition
-**(collaps)**
+**(Collapse)**
 
 A spectral sequence **collapses** at $r$ if in $E_r^{p,q}$ only a single row or a single column in non-vanishing.
 
