@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Dold--Kan correspondence_ asserts there is an [[equivalence of categories]] between [[abelian group|abelian]] [[simplicial group]]s and [[connective chain complex|connective]] [[chain complex]]es of [[abelian groups]].
+The _Dold--Kan correspondence_ asserts there is an [[equivalence of categories]] between [[abelian group|abelian]] [[simplicial group]]s and [[connective]] [[chain complex]]es of [[abelian groups]].
 
 Since every [[simplicial group]] is in particular a [[Kan complex]] with [[group object|group structure]], hence an [[∞-groupoid]] with group structurem, hence an [[∞-group]], the Dold-Kan correspondence says that connective chain complexes are a model for abelian [[∞-group]]s. (This is part of the [[cosmic cube]] of [[higher category theory]]). The relevance of this is that chain complexes are typically easier to handle: all the tools of [[homological algebra]] apply. In fact, the [[functor]] that identifies simplicial abelian groups with their corresponding chain complexes -- the [[Moore complex|normalized chains functor]] -- does precisely this: it _normalizes_ an abelian group by discarding irrelevant information and constructing a smaller and less redundant model for it.
 
@@ -506,12 +506,12 @@ If the coefficient objects come from sheaves of chain complexes along $\Gamma$, 
 
 Historical references for the Dold--Kan correspondence are
 
-* A. Dold, _Homology of symmetric products and other functors of complexes_ 
+* [[Albrecht Dold]], _Homology of symmetric products and other functors of complexes_ 
 ([jstor](http://www.jstor.org/stable/1970043))
 
 which considers the correspondence for categories of [[modules]], and
 
-* A. Dold, D. Puppe, _Homologie nicht-additiver Funktoren. Anwendugen_ ([numdam](http://www.numdam.org/item?id=aif_1961__11__201_0))
+* [[Albrecht Dold]], [[Dieter Puppe]], _Homologie nicht-additiver Funktoren. Anwendugen_ ([numdam](http://www.numdam.org/item?id=aif_1961__11__201_0))
 
 that generalizes the result to arbitrary [[abelian category|abelian categories]].
 
@@ -523,7 +523,7 @@ This remarkable article, which appeared shortly after the work by Dold and Puppe
 
 A standard modern textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
 
-* [[Paul Goerss]], Jardine, _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[Rick Jardine]], _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
 Remarks about the interpretation in terms of model categories are in
 
