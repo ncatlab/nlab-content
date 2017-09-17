@@ -1,17 +1,93 @@
 ## Idea ## 
 
-A club is a particular sort of [[doctrine]] or monad on categories, one which encapsulates the following phenomenon: that to describe the free structured categories (i.e., free algebras), it is often sufficient to describe the free algebra on one generator, with general free algebras being describable as certain wreath products involving the free algebra on one generator. Examples of this phenomenon include the monad for monoidal categories and the monad for closed symmetric monoidal categories. 
+A club is a particular sort of [[doctrine]] or monad on categories, one which encapsulates the following frequently observed phenomenon: to describe free algebras $F(C)$ with respect to the monad, it frequently suffices to describe the free algebra $F(1)$ on the terminal category, and then a certain "wreath product" gives the free algebra on $C$: 
+
+$$F(C) \cong F(1) \int C$$
+
+Examples of this phenomenon include the monad for monoidal categories, symmetric monoidal categories, braided monoidal categories, categories with finite products, closed symmetric monoidal categories, and many others. 
 
 Clubs were introduced by Max Kelly, and are akin in spirit to [[operad|operads]]. 
 
-## Wreath products ## 
+## Clubs over the permutation category 
 
-Let $Cat$ denote the category of small categories, and let $CAT$ denote the category of locally small categories. We define a functor 
+### Action by substitution product
 
-$$\int: CAT/Cat \times CAT \to CAT$$ 
+Let $\mathbf{P}$ be the category of finite sets $[n] = \{1, \ldots, n\}$ (including the empty set $[0]$) and permutations between them, and let $Cat$ be the category of small categories. We define a "wreath product" action of the category $Cat/\mathbf{P}$ on $Cat$, 
 
-called **wreath product**. At the object level, 
+$$\circ: Cat/\mathbf{P} \times Cat \to Cat$$ 
 
-$$(U: C \to Cat) \int D$$ 
+taking a pair $(\Gamma: C \to \mathbf{P}, D)$ to the category whose objects are tuples 
 
-is the category whose objects are pairs $(c \in Ob(C), F: U(c) \to D)$, and where morphisms $(c, F) \to (c', F')$ are pairs $(f: c \to c', \phi: F \to F' \circ U(f))$, in which $\phi$ is a [[natural transformation]] valued in $D$. 
+$$(c; d_1, \ldots, d_n)$$
+
+with $c \in Ob(C)$, $d_i \in Ob(D)$, and $\Gamma(c) = [n]$. A morphism is a tuple 
+
+$$(f; g_1, \ldots, g_n)$$ 
+
+consisting of a morphism $f: c \to c'$ in $C$ and morphisms $g_i: d_i \to d_{\Gamma(f)(i)}'$ in $D$, composed in the obvious way. 
+
+This generalizes the standard notion of wreath product: given a group $G$ and a permutation representation, i.e., a homomorphism $\gamma: G \to Aut([n]) \hookrightarrow \mathbf{P}$, and given a group $H$, the wreath product is defined to be the semidirect product
+
+$$G \int H = G \ltimes H^n$$ 
+
+with the action of $G$ on $H^n$ induced from the action on $[n]$. 
+
+### Substitution product as monoidal product
+
+We describe how the substitution action $\circ$ lifts to a self-action denoted by the same symbol:
+
+$$\circ: Cat/\mathbf{P} \times Cat/\mathbf{P} \to Cat/\mathbf{P}$$ 
+
+To start, given a pair $(\Gamma: C \to \mathbf{P}, \Delta: D \to \mathbf{P})$, the domain of $\Gamma \circ \Delta$ is the category $\Gamma \circ D$ described above. The functor 
+
+$$\Gamma \circ \Delta: \Gamma \circ D \to \mathbf{P}$$ 
+
+sends an object $(c; d_1, \ldots, d_n)$ to $\sum_i \Delta(d_i)$. 
+
+The effect of $\Gamma \circ \Delta$ on morphisms $(f; g_1, \ldots, g_n)$ may be summarized as "substituting the permutations $\Delta(g_i)$ into the permutation $\Gamma(f)$". To describe this more precisely, we give a little preface. The hom-set $\mathbf{P}([n], [n]) = Aut(n)$ of permutations on $n$ may be identified with the set $Lin(n)$ of total (or linear) orders on $[n]$, if we identify the identity element with the standard order on $\{1, 2, \ldots, n\}$. The sets $Aut(n) = Lin(n)$ are components of an [[operad]] $Lin$ where the operadic multiplication 
+
+$$\mu(n; k_1, \ldots, k_n): Lin(n) \times Lin(k_1) \times \ldots \times Lin(k_n) \to Lin(k_1 + \ldots + k_n)$$ 
+
+takes a linear ordering of $n$ linearly ordered sets of and produces the evident linear ordering on the disjoint sum of the sets. 
+
+Then, given a morphism $(f; g_1, \ldots, g_n)$ in $\Gamma \circ D$, we define 
+
+$$(\Gamma \circ \Delta)(f; g_1, \ldots, g_n) \stackrel{def}{=} \mu(n; k_1, \ldots, k_n)(\Gamma(f), \Delta(g_1), \ldots \Delta(g_n))$$ 
+
+The substitution product thus indicated, 
+
+$$\circ: Cat/\mathbf{P} \times Cat/\mathbf{P} \to Cat/\mathbf{P},$$ 
+
+is the product for a [[monoidal category]] structure on $Cat/mathbf{P}$. The monoidal unit is the functor $I: 1 \to \mathbf{P}$ which names the 1-element set. Under this monoidal product, the substitution action indiccated earlier, 
+
+$$\circ: Cat/mathbf{P} \times Cat \to Cat,$$ 
+
+carries a structure of [[actegory]] over the monoidal category $Cat/\mathbf{P}$, in the sense that there is a coherent associativity 
+
+$$(\Gamma \circ \Delta) \circ E \cong \Gamma \circ (\Delta \circ E)$$ 
+
+for $Gamma: C \to \mathbf{P}$, $\Delta: D \to \mathbf{P}$, and a category $E$, and similarly coherent left and right unit isomorphisms. 
+
+### Clubs over $\mathbf{P}$
+
+**Definition:** A **club** over $\mathbf{P}$ is a monoid in the monoidal category $(Cat/\mathbf{P}, \circ, I)$. A club over $\mathbf{P}$ induces (via the actegory structure) a 2-monad on $Cat$, and an algebra over the club is an algebra for this monad. That is, an **algebra** over a club $C$ is a category $D$ together with an action $m: C \circ D \to D$ compatible in the usual way with the monoid structure on $C$. 
+
+Given a club structure on $\Gamma: C \to \mathbf{P}$, we think of the objects $c$ as formal operations of arity $n = \Gamma(c)$. An algebra $D$ over $C$, $m: C \circ D \to D$, gives in effect an interpretation of each $c$ of arity $n$ as an actual operation $D^n \to D$. 
+
+The free $C$-algebra over a category $D$ is just $C \circ D$. For the free algebra over the terminal category $1$, notice that 
+
+$$C \circ 1 \cong C$$ 
+
+(strictly speaking, the $C$ on the left is a category over $\mathbf{P}$ and the $C$ on the right is just the category). Thus, in a manner of speaking, the free algebra generated by $D$ is obtained by wreathing the free algebra generated by $1$ with $D$, as adumbrated in the idea section above. 
+
+#### Examples: 
+
+* The identity $1_{\mathbf{P}}: \mathbf{P} \to \mathbf{P}$ carries a club structure. The multiplication $\mu$ of the club, on the object level, is given by the assignment
+$$(n; k_1, \ldots, k_n) \mapsto k_1 + \ldots + k_n$$ 
+and on morphisms, it is given by the operad structure on $Aut(n) = Lin(n)$ discussed above. Algebras over this club are symmetric (strict) monoidal categories. Algebras in the "pseudo" sense over the induced 2-monad on $Cat$ are symmetric monoidal categories. 
+
+* Let $\mathbf{B}$ be the [[braid category]], equipped with the usual forgetful functor $\Gamma: \mathbf{B} \to \mathbf{P}$. The club mutliplication, at the level of morphisms, is "substitution" of $n$ braids into a braid on $n$ elements. Pseudo-algebras over the induced 2-monad on $Cat$ are braided monoidal categories. 
+
+* Let $C$ be any (permutative) operad valued in $Set$, with underlying species $\mathbf{P} \to Set$. Then category of elements gives a functor $\Gamma: El(C) \to \mathbf{P}$, and this carries a club structure induced from the operad structure on $C$. In this way, clubs generalize operads. 
+
+## Clubs over finite sets 
