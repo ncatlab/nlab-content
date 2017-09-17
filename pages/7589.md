@@ -1,5 +1,5 @@
 
-Bill Thurston was an American mathematician (Fields Medalist, 1982) who made important contributions to the theory of [[orbifold]]s, the theory of [[foliation|foliations]], [[low-dimensional topology]] (especially in three dimensions), and to [[geometric group theory]].  He is perhaps best known for his [[geometrization conjecture]] (which was proved by Thurston in special cases, and by [[Richard Hamilton]] and [[Grigori Perelman]] in complete generality, and which in turn implies the [[Poincaré conjecture]]).
+Bill Thurston was an American mathematician (Fields Medalist, 1982) who made important contributions to the theory of [[orbifolds]], the theory of [[foliation|foliations]], [[low-dimensional topology]] (especially in three dimensions), and to [[geometric group theory]].  He is perhaps best known for his [[geometrization conjecture]] (which was proved by Thurston in special cases, and by [[Richard Hamilton]] and [[Grigori Perelman]] in complete generality, and which in turn implies the [[Poincaré conjecture]]).
 
 * [wikipedia entry](http://en.wikipedia.org/wiki/William_Thurston)
 
