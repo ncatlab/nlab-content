@@ -63,3 +63,5 @@ A Gerstenhaber algebra equipped in addition with a certain morphism $\Delta : A 
 
 [[!redirects Poisson 2-algebra]]
 [[!redirects Poisson 2-algebras]]
+
+[[!redirects Gerstenhaber bracket]]
