@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
 #### Enriched category theory
 +--{: .hide}
 [[!include enriched category theory contents]]
@@ -17,7 +21,9 @@
 
 ## Idea
 
-Very often instead of merely having a _set_ of morphisms from one object to another, a category will have a _vector space_ of morphisms, or a _topological space_ of morphisms, or some other such thing.  This suggests that we should take the definition of ([[locally small category|locally small]]) category and generalize it by replacing the hom-sets by 'hom-objects', which are objects in a suitable category $K$.
+The notion of _enriched category_ is a generalization of the notioon of [[category]].
+
+Very often instead of merely having a _[[set]]_ of [[morphism]]s from one [[object]] to another, a category will have a _[[vector space]]_ of morphisms, or a _[[topological space]]_ of morphisms, or some other such thing.  This suggests that we should take the definition of ([[locally small category|locally small]]) category and generalize it by replacing the [[hom-set]]s by _hom-objects_ , which are objects in a suitable category $K$.
 This gives the concept of 'enriched category'.
 
 The category $K$ must be [[monoidal category|monoidal]], so that we can define composition as a morphism
