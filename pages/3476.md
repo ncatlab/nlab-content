@@ -32,7 +32,7 @@ The most basic W-type is the [[natural numbers]].  Here there are two constructo
 * $S$ of arity one.
 Therefore, zero is a natural number, any natural number has a successor, and all natural numbers are generated in this way.
 
-Similarly, if $X$ is any set, then the W-type $L X$ of lists of elements of $X$ has $|X|+1$ constructors:
+Similarly, if $X$ is any set, then the W-type $L X$ of [[lists]] of elements of $X$ has $|X|+1$ constructors:
 * $nil$ of arity zero, and
 * $cons(x,-)$ of arity one, for each $x\in X$.
 Therefore, $nil$ is a list, $cons(x,\ell)$ is a list for any list $\ell$ and $x\in X$, and all lists are generated in this way.
@@ -44,15 +44,19 @@ Actually, there are two slightly different formulations of W-types.
 
 ### W-types in categories
 
-This version of W-types is the most natural for mathematicians used to thinking in terms of set theory or category theory.  Here we describe a W-type as the [[initial algebra|initial]] algebra for an endofunctor.  The family $\{A_b\}_{b\in B}$ can be thought of as a map $f\colon A\to B$ in some category $C$ (the fiber over $b\in B$ being $A_b$), and the endofunctor in question is the composite
+This version of W-types is the most natural for mathematicians used to thinking in terms of [[set theory]] or [[category theory]].  Here we describe a W-type as the [[initial algebra|initial]] [[algebra for an endofunctor]].  The family $\{A_b\}_{b\in B}$ can be thought of as a [[morphism]] $f\colon A\to B$ in some [[category]] $C$ (the [[fiber]] over $b\in B$ being $A_b$), and the [[endofunctor]] in question is the composite
 $$ C \overset{A^*}{\to} C/A \overset{\Pi_f}{\to} C/B \overset{\Sigma_B}{\to} C. $$
-Such a composite is called a [[polynomial endofunctor]].  Here $A^*$ is the [[pullback]] functor (a.k.a. $A\times -$), $\Pi_f$ is a [[dependent product]], and $\Sigma_B$ is a [[dependent sum]] (a.k.a. the [[forgetful functor]] from $C/B$ to $C$).  This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.
+Here $A^*$ is the [[pullback]] functor (a.k.a. $A\times -$), $\Pi_f$ is a [[dependent product]], and $\Sigma_B$ is a [[dependent sum]] (a.k.a. the [[forgetful functor]] from $C/B$ to $C$).  
+Such a composite is called a [[polynomial endofunctor]].  
 
-This definition is most useful when the category $C$ is not just locally cartesian closed but is a [[Π-pretopos]], since often we want to use at least coproducts in constructing $A$ and $B$.  For example, a [[natural numbers object]] is a W-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a W-types specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomial]]s in the traditional sense:
+This definition makes sense in any [[locally cartesian closed category]], although the W-type (the initial algebra) may or may not exist in any given such category.
+
+This definition is most useful when the category $C$ is not just 
+[[locally cartesian closed category|locally cartesian closed]] but is a [[Π-pretopos]], since often we want to use at least [[coproducts]] in constructing $A$ and $B$.  For example, a [[natural numbers object]] is a W-type specified by one of the coproduct inclusions $1\to 1+1$, and the [[list object]] $L X$ is a W-type specified by $X\to X+1$.  More generally, endofunctors that look like [[polynomial]]s in the traditional sense:
 $$ F(Y) = A_n \times Y^{\times n}  + \dots + A_1 \times Y  + A_0 $$
 can be constructed as polynomial endofunctors in the above sense in any $\Pi$-pretopos.  A $\Pi$-pretopos in which all W-types exist is called a **[[ΠW-pretopos]]**.
 
-In a [[topos]] with a [[natural numbers object]], W-types for any polynomial endofunctor can be constructed as certain sets of well-founded trees; thus every topos with a NNO is a $\Pi$-$W$-pretopos.  This applies in particular in the topos [[Set]] (unless one is a [[predicative mathematics|predicativist]], in which case $Set$ is not a topos and W-types in it must be postulated explicitly).
+In a [[topos]] with a [[natural numbers object]] (NNO), W-types for any polynomial endofunctor can be constructed as certain sets of well-founded trees; thus every topos with a NNO is a [[ΠW-pretopos]].  This applies in particular in the topos [[Set]] (unless one is a [[predicative mathematics|predicativist]], in which case $Set$ is not a topos and W-types in it must be postulated explicitly).
 
 W-types can also be generalized to initial algebras for *dependent* polynomial functors, which are given by composites
 $$ C/D \overset{p^*}{\to} C/A \overset{\Pi_f}{\to} C/B \overset{\Sigma_q}{\to} C/D $$
@@ -63,15 +67,20 @@ Note that we do not necessarily have $q f = p$, so this is not just simply a pol
 
 ### W-types in type theory
 
-In [[type theory]], W-types are introduced by giving explicit constructors and destructors, a.k.a. introduction and elimination rules.  If the type theory is *extensional*, i.e. [[identity type|identities]] have unique proofs and (dependent) function types are extensional ($f=g$ if and only if $f(x)=g(x)$ for all $x$), then this is more or less equivalent to the categorical version given above.  The type theories that are the [[internal logic]] of familiar kinds of categories are all extensional in this sense.
+In [[type theory]], W-types are introduced by giving explicit constructors and destructors, a.k.a. [[term introduction]] and [[term elimination]] rules.  If the type theory is *[[extensional type theory|extensional]]*, i.e. [[identity type|identities]] have unique proofs and (dependent) [[function types]] are [[function extensionality|extensional]] ($f=g$ if and only if $f(x)=g(x)$ for all $x$), then this is more or less equivalent to the categorical version given above.  The type theories that are the [[internal logic]] of familiar kinds of categories are all extensional in this sense.
 
-The main distinction from the naive categorical theory above is that the map $f$ must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.  In the case of dependent polynomial functors, $q$ must also be a display map in order to define $\Sigma_q$.  (Actually, using adjointness, one can still define the W-type even if $q$ is not a display map, but its properties are not as good.  This extra generality is important, however.  For example, [[identity type]]s arise as this more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
+The main distinction from the naive categorical theory above is that the map $f$ must be assumed to be a [[display map]], i.e. to exhibit $A$ as a [[dependent type]] over $B$, in order that the dependent product $\Pi_f$ be defined.  In the case of dependent polynomial functors, $q$ must also be a display map in order to define $\Sigma_q$.  (Actually, using [[adjunction|adjointness]], one can still define the W-type even if $q$ is not a display map, but its properties are not as good.  This extra generality is important, however.  For example, [[identity type]]s arise as this more general kind of W-type; see [this blog post](http://homotopytypetheory.org/2011/04/18/whats-special-about-identity-types/).)
 
 +--{: .query}
 [[Mike Shulman]]: Is the term "W-type" still used in this generality?  Or are they just called "inductive types"?
 =--
 
 Note also that in [[intensional type theory]], a W-type is only an initial algebra with respect to propositional equality, not definitional equality.  In particular, the constructors are injective only propositionally, not definitionally.  This applies already for the natural numbers.
+
+## Properties
+ {#Properties}
+
+Formation of W-types in [[homotopy type theory]] only increases [[h-level]] (as it should be for [[(infinity,1)-colimits]]). A formal proof of this is discussed in ([Danielsson](#Danielsson)).
 
 ## Related concepts
 
@@ -86,6 +95,11 @@ Note also that in [[intensional type theory]], a W-type is only an initial algeb
 * [[Ieke Moerdijk]], [[Erik Palmgren]], _Wellfounded trees in categories_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.44.6700))
 
 *  [[Benno van den Berg]],  [[Ieke Moerdijk]] (2008-09-25); _$W$-types in sheaves_; [vdBM_Wtypes.ps/pdf](http://www.phil.cmu.edu/projects/ast/Papers/)
+
+A formal proof that [[type formation|formation]] for W-types only increases [[h-level]] is discussed in
+
+* Nils Anders Danielsson, _Positive h-levels are closed under W_
+ {#Danielsson}
 
 Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 
