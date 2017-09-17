@@ -20,6 +20,12 @@
 
 * [[orientation in generalized cohomology]]
 
+## Properties
+
+### Relation to formal group laws
+
+* [[formal group law]]
+
 ## References
 
 * [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
