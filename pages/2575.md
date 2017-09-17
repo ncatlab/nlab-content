@@ -496,11 +496,23 @@ Which is to say _What 3/4-dimensional structure is Khovanov homology hinting at?
 
 ## Related concepts
 
-* [[infinite-dimensional Chern-Simons theory]]
-
 * [[schreiber:∞-Chern-Simons theory]]
 
-  * [[higher dimensional Chern-Simons theory]]
+* [[higher dimensional Chern-Simons theory]]
+
+  * [[1d Chern-Simons theory]]
+
+  * [[3d Chern-Simons theory]]
+
+  * [[5d Chern-Simons theory]]
+
+  * [[7d Chern-Simons theory]]
+
+  * [[AKSZ sigma-models]]
+
+  * [[string field theory]]
+
+  * [[infinite-dimensional Chern-Simons theory]]
 
 * [[sigma-model]]
 
@@ -720,3 +732,4 @@ an argument was given that Chern-Simons theory can be understood as the [[effect
 [[!redirects Chern-Simons action functional]]
 [[!redirects Chern-Simons theory action functional]]
 [[!redirects Chern-Simons functional]]
+
