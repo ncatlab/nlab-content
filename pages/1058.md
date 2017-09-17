@@ -30,8 +30,8 @@ Suppose now $C$ is a finitely complete category with a [[calculus of left fracti
 
 Let $A$ be an [[internal category]] in $C$. An __$A$-torsor trivialized by a cover__ $e : V\to U$ is a [[discrete fibration]] $A\stackrel{p}\leftarrow E\stackrel{q}\to U$ for which there exist a morphism $a : V\to A$ and a commutative diagram
 
-$$
-\begin{svg}<svg width="164" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="11550">
+<div style="width: 164px; margin: auto">
+<svg width="164" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:math="http://www.w3.org/1998/Math/MathML" se:nonce="11550">
  <g>
   <title>Layer 1</title>
   <foreignObject height="200" width="160" font-size="16" id="svg_11550_1" y="0" x="7.878906">
@@ -141,8 +141,8 @@ p&amp;&amp;
    <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
   </marker>
  </defs>
-</svg>\end{svg}
-$$
+</svg>
+</div>
 
 <center><img src="http://latex.codecogs.com/gif.latex?
 \xymatrix{
