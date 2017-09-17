@@ -356,3 +356,5 @@ given by $\phi(\alpha) = s(v_\alpha) + \alpha$.
 
 See also the references at [[multisymplectic geometry]] and [[n-symplectic manifold]].
 
+[[!redirects n-plectic manifold]]
+[[!redirects n-plectic manifolds]]
