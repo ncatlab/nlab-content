@@ -12,11 +12,11 @@ The *continuum hypothesis* is a statement of [[set theory]] which says, roughly,
 +-- {: .num_defn}
 ###### Definition
 
-Let $E$ be an [[elementary topos]] with [[subobject classifier]] $\Omega$ and [[natural numbers object]] $N$.  The (external) **continuum hypothesis** in $E$ asserts that there is no sequence of [[monomorphisms]]
+Let $E$ be an [[elementary topos]] with [[subobject classifier]] $\Omega$ and [[natural numbers object]] $N$.  The (external) **continuum hypothesis** in $E$ asserts that if there is a sequence of [[monomorphisms]]
 
-$$N \hookrightarrow B\hookrightarrow \Omega^n$$
+$$N \hookrightarrow B\hookrightarrow \Omega^N$$
 
-which are not isomorphisms.
+then either the first or the second is an isomorphism.
 
 In the classical case (that is, in the topos [[Set]] with the [[axiom of choice]]), this equivalently asserts that there is no strict inequality of [[cardinal numbers]]
 
@@ -37,7 +37,7 @@ There exists a boolean topos in which the axiom of choice holds and the continuu
 
 =--
 
-One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen poset.  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow B\hookrightarrow 2^{\mathbb{N}}$ that are not isomorphisms.
+One topos for which the theorem holds is called the *Cohen topos*; it is the topos of sheaves with respect to the [[dense topology]] (also called the $\neg\neg$-topology) on the Cohen [[poset]].  Thus, in this topos, there exist monomorphisms $\mathbb{N} \hookrightarrow B\hookrightarrow 2^{\mathbb{N}}$ that are both not isomorphisms.
 
 The Cohen topos will be constructed from the topos [[Set]] of sets.  For this, recall that the subobject classifier of $Set$ is $2\coloneqq \{0,1\}$. The technique of constructing such a topos is called [[forcing]].
  
