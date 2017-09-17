@@ -106,8 +106,11 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 
 category: foundational axiom
 
-
-[[!redirects Choice]]
 [[!redirects axiom of choice]]
+[[!redirects Choice]]
+[[!redirects AC]]
+[[!redirects full choice]]
+[[!redirects full AC]]
+
 [[!redirects axiom of global choice]]
 [[!redirects global axiom of choice]]
