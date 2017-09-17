@@ -70,7 +70,7 @@ Call an object $X \in \mathcal{T}$  **contractible** with respect to the [[inter
 
 * **sheaves on topological spaces** Let $Top'$ be a [[small category|small]] version of the category of sufficiently nice [[topological space]]s, for instance connected [[CW complex]]es. The canonical line object in $Sh(Top)$ is ${*} \stackrel{0}{\to} [0,1] \stackrel{1}{\leftarrow} {*}$ the standard topological interval. For $X \in Top$, $\Pi(X) = X^{\Delta_R^\bullet}$ is the [[singular simplicial complex]] of $X$.  This is contractible in the above sense precisely if $X$ is a [[contractible space]] in the standard sense.
 
-* **sheaves on cartesian spaces** Let [[CartSp]] be the full subcategory of [[Diff]] on smooth [[manifold]]s of the form $\mathbb{R}^n$, for $n \in \mathbb{N}$. The canonical line object in $\mathcal{T} = Sh(CartSp)$ is the real line regarded as an [[interval object]]
+* **sheaves on cartesian spaces** Let [[CartSp]] be the full subcategory of [[Diff]] on [[smooth manifold]]s of the form $\mathbb{R}^n$, for $n \in \mathbb{N}$. The canonical line object in $\mathcal{T} = Sh(CartSp)$ is the real line regarded as an [[interval object]]
 
   $$
     R = ({*} \stackrel{0}{\to} \mathbb{R} \stackrel{1}{\leftarrow} {*})
