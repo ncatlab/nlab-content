@@ -40,7 +40,7 @@ $\mathbf{H}$.
 ### Definition
 
 
-+-- {: .un_defn #InfinitesimalCohesiveInfTopos}
++-- {: .num_defn #InfinitesimalCohesiveInfTopos}
 ###### Definition
 
 Given a cohesive $(\infty,1)$-topos $\mathbf{H}$ we say that 
@@ -65,7 +65,8 @@ where $i_!$ is
 
 This definition is an abstraction of similar situations considered in ([SimpsonTeleman](#SimpsonTeleman)) and in [Kontsevich-Rosenberg](#KontsevichRosenbergSpaces). See also the section <a href="http://nlab.mathforge.org/nlab/show/Q-category#InfinitesimalThickening">Infinitesimal thickenings</a> at [[Q-category]].
 
-+-- {: .un_prop #InfinitesimalInclusionIfFullAndFaithful}
+
++-- {: .num_prop #InfinitesimalInclusionIfFullAndFaithful}
 ###### Observation
 
 This implies that also $i_*$ is a [[full and faithful (∞,1)-functor]].
@@ -80,8 +81,8 @@ the condition on $i_!$ is equivalent to $i^* i_! \simeq Id$. Since $(i^* i_! \da
 
 =--
 
-+-- {: .un_remark}
-###### Remark
++-- {: .num_note}
+###### Note
 
 This definition captures the characterization of an [[infinitesimal object]] as having a single [[global element|global point]] surrounded by an infinitesimal neighbourhood: as we shall see in more detail [below](#InfinitesimalPathsAndReduction), the [[(∞,1)-functor]] $i^*$ may be thought of as contracting away any infinitesimal extension of an object. Thus $X$ being an [infinitesimal object](#InfinitesimalObject) amounts to  $i^* X \simeq *$, and the [[adjoint (∞,1)-functor|(∞,1)-adjunction]] $(i_! \dashv i^*)$ then indeed guarantees that $X$ has only a single global point, since 
 
@@ -101,8 +102,8 @@ $$
 
 =--
 
-+-- {: .un_prop #InfinitesimalNeighbourhoodIsOverInfGroupoid}
-###### Observation
++-- {: .num_prop #InfinitesimalNeighbourhoodIsOverInfGroupoid}
+###### Proposition
 
 The inclusion into the infinitesimal neighbourhood is necessarily
 a morphism of [[(∞,1)-topos]]es over [[∞Grpd]].
@@ -192,7 +193,9 @@ Let for the remainder of this section an infinitesimal neighbourhood $\mathbf{H}
 
 ### Properties
 
-+-- {: .un_def #InfinitesimalNeighBourhoodSite}
+We give a presentation of classes of infinitesimal neighbourhoods by [[simplicial presheaves]] on suitable [[site]]s.
+
++-- {: .num_defn #InfinitesimalNeighBourhoodSite}
 ###### Definition
 
 Let $C$ be an [[∞-cohesive site]]. We say a [[site]] $C_{th}$ 
@@ -218,7 +221,7 @@ is an **infinitesimal neighbourhood site** of $C$.
 =--
 
 
-+-- {: .un_prop #InfinitesimalNeighbourhoodFromInfinitesimalSite}
++-- {: .num_prop #InfinitesimalNeighbourhoodFromInfinitesimalSite}
 ###### Proposition
 
 Let $C$ be an [[∞-cohesive site]] and  $(i \dashv p) : C \stackrel{\overset{i}{\hookrightarrow}}{\underset{p}{\leftarrow}} C_{th}$ an [infinitesimal neighbourhood site](#InfinitesimalNeighBourhoodSite). 
@@ -432,8 +435,8 @@ For that notice the general fact that left
 =--
 
 
-+-- {: .un_remark}
-###### Remark
++-- {: .num_note}
+###### Note
 
 Conversely this implies that $Sh_{(\infty,1)}(C_{th})$ is an [[∞-connected (∞,1)-topos]] over [[Smooth∞Grpd]], exhibited by the triple of adjunctions
 
@@ -461,7 +464,7 @@ a cohesive $(\infty,1)$-topos equipped with infinitesimal cohesion. These struct
 In the presence of [infinitesimal cohesion](#InfinitesimalCohesiveInfTopos) there is an infinitesimal analog of the [geometric paths ∞-groupoids](#Paths).
 
 
-+-- {: .un_def #InfinitesimalPathsAndReduction}
++-- {: .num_defn #InfinitesimalPathsAndReduction}
 ###### Definition
 
 Define the [[adjoint triple]] of [[adjoint (∞,1)-functor]]s corresponding to the [[adjoint quadruple]] $(i_! \dashv i^* \dashv i_* \dashv i^!)$:
@@ -519,7 +522,7 @@ is an [[effective epimorphism in an (∞,1)-category|effective epimorphism]].
 
 In this form this is the evident $(\infty,1)$-categorical analog of the conditions as they appear for instance in [SimpsonTeleman, page 7](#SimpsonTeleman).
 
-+-- {: .un_note #FormalSmoothnessByCanonicalMorphism}
++-- {: .num_note #FormalSmoothnessByCanonicalMorphism}
 ###### Note
 
 An object $X \in \mathbf{H}$ is formally smooth according to def. \ref{FormalSmoothness} precisely if the canonical morphism
@@ -558,7 +561,7 @@ In this form this characterization of formal smoothness is the evident generaliz
 
 Therefore we have the following more general definition.
 
-+-- {: .un_defn #FormalRelativeSmoothnessByCanonicalMorphism}
++-- {: .num_defn #FormalRelativeSmoothnessByCanonicalMorphism}
 ###### Definition
 
 For $f : X \to Y$ a morphism in $\mathbf{H}$, we say that 
@@ -588,7 +591,7 @@ Only for [[0-truncated]] $X$ does formal smoothness together with formal unramif
 
 =--
 
-+-- {: .un_prop #RedIsIdempotent}
++-- {: .num_prop #RedIsIdempotent}
 ###### Observation
 
 The operation $\mathbf{Red}$ is an [[idempotent]] projection of
@@ -638,7 +641,7 @@ $$
 
 =--
 
-+-- {: .un_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
++-- {: .num_prop #InclusionOfConstantIntoInfinitesimalIntoAllPaths}
 ###### Observation
 
 There is a canonical [[natural transformation]]
@@ -687,7 +690,7 @@ $$
 
 We discuss the <a href="http://nlab.mathforge.org/nlab/show/cohesive%20(infinity,1)-topos#FlatDifferentialCohomology">intrinsic flat cohomology</a> in an infinitesimal neighbourhood.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 For $X, A \in \mathbf{H}_{th}$ we say that
@@ -721,7 +724,7 @@ The objects on the left are [[principal ∞-bundle]]s equipped with flat [[conne
 
 The genuine infinitesimal analog of [exponentiated ∞-Lie algebra](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
 
-+-- {: .un_def #InfinitesimalObject}
++-- {: .num_defn #InfinitesimalObject}
 ###### Definition
 
 An object $X \in \mathbf{H}_{th}$ is an 
@@ -742,7 +745,7 @@ that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunctio
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 An infinitesimal cohesive $\infty$-groupoid
@@ -783,7 +786,7 @@ $$
 
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 For all $X \in \mathbf{H}$, we have that $X$ and $\mathbf{\Pi}_{inf}(X)$ are [formal cohesive ∞-groupoids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
@@ -798,7 +801,7 @@ For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempot
 =--
 
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 In other contexts the object $\mathbf{\Pi}_{inf}(X)$ is also called the **[[de Rham space]] of $X$**.
@@ -807,7 +810,7 @@ Here we may tend to avoid this terminology, since by the [above discussion](#deR
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [formal cohesive ∞-group](#InfinitesimalObject) $\mathfrak{g}$ is an [[formal cohesive ∞-groupoid]] over the point.
@@ -837,7 +840,7 @@ $$
 =--
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject) 
