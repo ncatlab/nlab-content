@@ -31,11 +31,18 @@ The precise mathematical notion of _state_ depends on what formalization is used
 
 ### In classical mechanics
 
-In simple situations of [[classical mechanics]], a state is a [[global element|point]] in the [[configuration space]] of the system. A physically realized state is a point in the [[phase space]] of the system.
+In simple situations of [[classical mechanics]], a _pure state_ is a [[global element|point]] in the [[configuration space]] of the system. A physically realized state is a point in the [[phase space]] of the system.
+
+More generally, a _[[classical state]]_ is a [[linear function]] $\rho : A \to \mathbb{R}$ on the [[Poisson algebra]] $A$ underlying the [[classical mechanical system]] which satisfies _positivity_ and _normalization_ . This definition captures also [[probability distributions]] of pure classical states.
 
 ### In quantum mechanics
 
-In simple situations in [[quantum mechanics]], a state is a ray in a [[Hilbert space]] -- the Hilbert space of states.
+In the [[Schrödinger picture]] of [[quantum mechanics]], a state is a ray in a [[Hilbert space]] -- the Hilbert space of states.
+
+In the dual [[Heisenberg picture]] where a [[quantum mechanical system]] is given by a [[C-star algebra]] $A$, a state is a linear function $\rho : A \to \mathbb{C}$ which satisfies positivity_ and _normalization_ . See [[states in AQFT and operator algebra]] for more on this.
+
+It has been argued that more accurately the correct notion is that of [[quasi-state]] instead. See also the Idea-section at [[Bohr topos]] for a discussion of this point.
+
 
 ### In statistical physics
 
@@ -58,17 +65,21 @@ $$
 
 In this formulation the [[k-morphism|(n-1)-morphism]] in $\mathcal{C}$ assigned to an $(n-1)$-dimensional [[manifold]] $\Sigma_{n-1}$ is the _space of states_ over that manifold. A state is accordingly a [[generalized element]] of this object.
 
-### In AQFT and operator algebra
 
-Dually, in the [[AQFT]] formulation of [[quantum field theory]] a physical system is encoded by a [[local net]] of [[operator algebra]]s. These are to be interpreted as _algebras of observables_. Since each observable is supposed to have a given value on a given state, a state here is a [[linear functional]] on the operator algebra of observables. For more on this see
-
-* [[states in AQFT and operator algebra]].
 
 ## Related concepts
 
-* [[quasi-state]]
+* **state**
 
-* [[GNS construction]]
+  * [[classical state]], [[quantum state]]
+
+  * [[state in AQFT and operator algebra]]
+
+* [[observable]]
+
+  * [[algebra of observables]]
+
+  * [[GNS construction]]
 
 
 
