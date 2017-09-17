@@ -10,8 +10,15 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
+=--
+
+
+
 
 #Contents#
 * table of contents
