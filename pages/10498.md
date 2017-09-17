@@ -61,6 +61,10 @@ This is best known in the case of bilinear and quadratic *forms*, where $W$ is t
 
 This also applies to [[commutative algebras]], where $W$ is $V$.  Actually, there is no need for $m$ to be associative; although one rarely studies commutative but [[non-associative algebras]], we have an exception with [[Jordan algebras]].  Although the Jordan identity is simpler to express in terms of the multiplication operation (as usual), the application to [[quantum mechanics]] may be more easily motivated through the squaring operation (since the square of an [[observable]] has a more obvious meaning than the Jordan product of two observables), and the polarization identities allow us to recover multiplication from squaring.
 
+## Related concepts
+
+* [[cubical structure on a line bundle]]
+
 
 [[!redirects polarization identity]]
 [[!redirects polarization identities]]
