@@ -174,7 +174,7 @@ and the fact that $\rho$ has trace 1 is equivalent to
   \,.
 \]
 
-All of this generalizes to an arbitrary finite-dimensional formally real Jordan algebra $J$.  Any such algebra automatically has an [[identity]] element.  This lets us define a **[[state]]** on $J$ to be a linear [[functional]] $\langle \cdot \rangle : J \to \mathbb{R}$ that is 
+All of this generalizes to an arbitrary finite-dimensional formally real Jordan algebra $J$.  Any such algebra automatically has an [[identity]] element.  This lets us define a **[[state]]** on $J$ to be a [[linear functional]] $\langle \cdot \rangle : J \to \mathbb{R}$ that is 
 
 * **nonnegative**:
   $$  
