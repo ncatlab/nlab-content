@@ -28,5 +28,7 @@ Dually, in a [[closed category]] there is a _unit object_ which is such that map
 
 * [[identity]]
 
+* [[dual object]], [[invertible object]]
+
 [[!redirects unit object]]
 [[!redirects unit objects]]
