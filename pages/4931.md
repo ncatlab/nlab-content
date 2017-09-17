@@ -115,32 +115,23 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Use for instance the map 
+For instance, the smooth map
 
 $$
-  f : \mathbb{R}^n \to \mathbb{B}^n
+  x\mapsto \frac{x}{\sqrt{1+|x|^2}} : \mathbb{R}^n \to \mathbb{B}^n
 $$
 
-given by
+has smooth inverse
 
 $$
-  (x^1, \cdots, x^n) 
-  \mapsto
-  \left(
-    \frac{x^1}{\sqrt{1 + r^2}},
-    \cdots
-    \frac{x^n}{\sqrt{1 + r^2}}
-  \right)
-  \,,
+  y\mapsto \frac{y}{\sqrt{1-|y|^2}} : \mathbb{B}^n \to \mathbb{R}^n.
 $$
-
-where $r^2 = \sum_{i = 1}^n (x^i)^2$.
 
 =--
 
-So the open $n$-ball is naturally a ([[smooth manifold|smooth]]) [[manifold]]. And every (smooth) $n$-dimensional manifold is locally isomorphic to $\mathbb{B}^n$.
+This probe from ${\mathbb{R}}^n$ witnesses the property that the open $n$-ball is a ([[smooth manifold|smooth]]) [[manifold]]. Hence, each (smooth) $n$-dimensional manifold is locally isomorphic to both ${\mathbb{R}}^n$ and $\mathbb{B}^n$.
 
-From very general existence results about [[smooth structure]]s on [[Cartesian space]]s we have that
+From general existence results about [[smooth structure]]s on [[Cartesian space]]s we have that
 
 +-- {: .num_theorem}
 ###### Theorem
