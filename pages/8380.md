@@ -100,6 +100,10 @@ See also
 
 * [[adjoint modality]]
 
+Another approach to modelling side effects in [[functional programming languages]] are 
+
+* [[algebraic side effects]]
+
 ## References
 
 The original reference for monads as 'notions of computation' is
