@@ -15,9 +15,11 @@
 
 ## Idea
 
-In [[type theory]], a _type of types_ is a [[universe]] of [[types]]. 
+In [[type theory]], a _type of (small) types_ is a [[universe]] of (small) [[types]]. 
 
-In [[homotopy type theory]] a type of types is what [[semantics|semantically]] becomes an [[object classifier]].
+In [[homotopy type theory]] a type of (small) types is what [[semantics|semantically]] becomes a (small)[[object classifier]].
+
+Therefore the type of types is a refinement of the [[type of propositions]] which only contains the [[(-1)-truncated]]/[[h-level]]-1 types.
 
 ## References
 
