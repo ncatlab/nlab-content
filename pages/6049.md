@@ -1,11 +1,37 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _F5-brane_ is a 6-dimensional [[sigma-model]] with 10-[[dimension]]al [[target space]] that is the [[electric-magnetic duality|magnetic dual]] to the [[string]] 2-dimensional [[sigma-model]].
+In the context of [[string theory]] the _NS5-brane_ is a certain extended physical objects -- a [[brane]] -- that appears in/is predicted by the theory.
+
+There are different incarnations of this object:
+
+For instance the [[effective QFT|effective background QFT]] of the [[type II string theory|type II string]] -- [[type II supergravity]] -- admits solutions to its generalized [[Einstein equations]] which describe higher dimensional analogs of charged [[black holes]] in ordinary gravity. Among them is a 5+1-dimensional "black brane" which is [[magnetic charge|magnetically charged]] under the [[Kalb-Ramond field]]. Since the KR field and the field of [[gravity]] constituting this solution of type II supergravity have as quanta the [[worldsheet]] excitations of the [[spinning string]] [[sigma-model]] that sit in what is called the [[Neveu-Schwarz sector]] one calls this the **NS5-brane**. 
+
+This is to distinguish it from the [[D-brane|D5-brane]] which is instead charged under the [[RR-field]] whose quanta come from the [[Ramond-Ramond sector]] of the [[superstring]].
+
+There are other incarnations of the NS 5-brane:
+
+by the general logic of [[Kalb-Ramond field|higher electromagnetism]] the (1+1)-dimensional string has under [[electric-magnetic duality]] a _magnetic dual_ . By dimension counting this is a 5-brane. If we think of the string this way as the structure that supports the [[sigma-model]] that defines perturbative [[string theory]],  we also call it the _F1-brane_ (the _fundamental_ 1-brane). In this sense the the corresponding magnetic dual is the _F5-brane_ -- the _fundamental_ fivebrane.
+
+One can understand the NS5-"black brane" solution to [[type II supergravity]] as being the solitonic incarnation of the fundamental 5-brane in much the same way as an ordinary [[black hole]] in ordinary [[gravity]] is a solitonic incarnation of the [[fundamental particle]]: as the particle, the black hole it is characterized just by [[mass]], [[charge]] and [[angular momentum]]. 
+
+Similarly, the "black" NS5-brane is characterizes by mass, [[B-field]] charge and angular momentum. 
+
 
 ## Properties
 
@@ -52,7 +78,9 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## References
 
-The fact that the worldvolume theory of the 5-brane should fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
+* Igor Bandos, Alexei Nurmagambetov, Dmitri Sorokin, _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
+
+The fact that the worldvolume theory of the 5-brane should support fields that are [[self-dual higher gauge theory|self-dual]] [[connections on a 2-bundle]] ($\sim$ a [[gerbe]]) is discussed in 
 
 * [[Edward Witten]], _Conformal Field Theory In Four And Six Dimensions_ ([arXiv:0712.0157](http://arxiv.org/abs/0712.0157))
  {#Witten07}
