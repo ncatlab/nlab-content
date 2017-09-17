@@ -33,7 +33,7 @@ $$
      \to Top
 $$
 
-which satisfies the condition of [[complete Segal space|Segal spaces]] (characterizing nerves of categories, recall) in each variable, in that all the squares
+which satisfies the condition of [[complete Segal space|Segal spaces]] -- te [[Segal condition]] (characterizing also [[nerves]] of [[categories]]) in each variable, in that all the squares
 
 $$
   \array{
@@ -46,6 +46,9 @@ $$
 $$
 
 are [[homotopy coherent category theory|homotopy pullbacks]] of $(n-1)$-fold Segal spaces.
+
+In analogy of how it works for [[complete Segal spaces]], the completness condition on an $n$-fold complete Segal space demands that the $(n-1)$-fold complete Segal space in degree zero is (under suitable identifications) the 
+[[infinity-groupoid]] which is the [[core]] of the [[(infinity,n)-category]] which is being presented. Since the embedding of $\infty$-groupoids into ($n-1$)-fold complete Segal spaces is by adding lots of degeneracies, this means that the completeness condition on an $n$-fold complete Segal space involves lots of degeneracy conditions in degree 0.
 
 ## Definition
 
@@ -77,8 +80,8 @@ The basic idea was being popularized and put to use in
 
 A detailed discussion in the general context of [[internal categories in an (∞,1)-category]] is in section 1 of
 
-* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
- {#Lurie}
+* {#Lurie09} [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ 
 
 
 For related references see at _[[(∞,n)-category]]_ .
