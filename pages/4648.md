@@ -129,6 +129,10 @@ An interpretation of the geometric Langlands correspondence as describing [[S-du
  
 * {#Witten08} [[Edward Witten]], _Mirror Symmetry, Hitchin's Equations, And Langlands Duality_ ([arXiv:0802.0999](http://arxiv.org/abs/0802.0999))
 
+and discussed in bigger picture of [[S-duality]] arising as the conformal invariance of the [[6d (2,0)-superconformal QFT]] in 
+
+* {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, AMS 2010 ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
+
 An exposition of the relation to [[S-duality]] and [[electro-magnetic duality]] is in
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
