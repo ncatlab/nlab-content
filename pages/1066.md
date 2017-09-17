@@ -22,7 +22,7 @@
 
 The [[homotopy category]] of an [[(∞,1)-category]] $\mathcal{C}$ is, its [[decategorification]] to an ordinary [[category]] obtained by identifying 1-[[morphism]]s that are connected by a [[2-morphism]].
 
-If the [[(∞,1)-category]] $\mathcal{C}$ is presented by a [[category with weak equivalences]] $C$ (for instance as the [[simplicial localization]] $\mathcal{C} = L C$) then then notion of [[homotopy category]] of $C$ (where the weak equivalences are universally turned into [[isomorphism]]s) coinicides with that of $\mathcal{V}$:
+If the [[(∞,1)-category]] $\mathcal{C}$ is presented by a [[category with weak equivalences]] $C$ (for instance as the [[simplicial localization]] $\mathcal{C} = L C$) then then notion of [[homotopy category]] of $C$ (where the weak equivalences are universally turned into [[isomorphism]]s) coinicides with that of $\mathcal{C}$:
 
 $$
   Ho(\mathcal{C}) \simeq Ho(C)
