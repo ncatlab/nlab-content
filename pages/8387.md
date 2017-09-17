@@ -35,8 +35,13 @@ A [[program]]. A construction of a [[term]] of some [[type]].
 
 * [[programming language]]
 
+* [[quantum computation]]
+
 ## References
 
 * [[Robert Harper]], _[[Practical Foundations for Programming Languages]]_
 
 [[!redirects computations]]
+
+[[!redirects computing]]
+
