@@ -38,7 +38,7 @@ Apart from original work this provides an exhaustive bibliography of the relevan
 ## Higher cohomological charges
  {#HigherCohomologicalCharges}
 
-Discussion of [[elliptic cohomology]] and [[Morava K-theory]] as the home for higher analogs of [[D-brane charges]] ([[M5-brane]]-charge, [[M9-brane]] charge...) and the corresponding [[orientation in generalized cohomology]] as higher [[quantum anomaly]] conditions (such as the [[Diaconescu-Moore-Witten anomaly]]):
+Discussion of [[elliptic cohomology]] and [[Morava K-theory]] as the home for higher analogs of [[D-brane charges]] ([[M5-brane charge]], [[M9-brane]] charge...) and the corresponding [[orientation in generalized cohomology]] as higher [[quantum anomaly]] conditions (such as the [[Diaconescu-Moore-Witten anomaly]]):
 
 * [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
 
