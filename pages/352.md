@@ -1,9 +1,13 @@
+
 <div class="rightHandSide toc">
 [[!include higher category theory - contents]]
 </div>
 
+# $\infty$-categories
+* table of contents
+{: toc}
 
-#Idea#
+## Idea
 
 $\infty$-Categories are the entities studied in [[higher category theory]]. See also there.
 
@@ -24,7 +28,7 @@ There are many different definitions realizing the general idea of $\infty$-cate
 One of the tasks of [[higher category theory]] is to relate and organize all these different models to a coherent general theory.
 
 
-## Strict versus weak ##
+## Strict versus weak
 
 There are many different definitions of $\infty$-categories, which may differ in particular in the degree to which certain structural identities are required to hold as equations or allowed to hold up to higher morphisms.
 
@@ -33,8 +37,7 @@ There are many different definitions of $\infty$-categories, which may differ in
 * See the discussion we had at [[discussion on terminology -- omega-category]].
 
 
-
-#Literature#
+## Literature
 
 For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
 
@@ -61,6 +64,10 @@ Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much 
 
 There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
 
+
+[[!redirects $infinity$-category]]
+[[!redirects $infinity$-categories]]
 [[!redirects ∞-category]]
 [[!redirects ∞-categories]]
 [[!redirects $\infty$-category]]
+[[!redirects $\infty$-categories]]
