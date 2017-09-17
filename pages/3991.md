@@ -2,7 +2,9 @@
 * automatic table of contents goes here
 {:toc}
 
-A **signature** is a collection of data which prescribes the 'alphabet' of non-logical symbols of a logical theory, saying which operations and predicates are taken to be primitive. 
+In logic, a **signature** is a collection of data which prescribes the 'alphabet' of non-logical symbols of a logical theory, saying which operations and predicates are taken to be primitive. 
+
+For other notions of signature, see [[signature (disambiguation)]]. 
 
 ## Definition
 
