@@ -1,0 +1,37 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Complex geometry
++--{: .hide}
+[[!include complex geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+A _[[branched cover]] of the [[Riemann sphere]]_ $\mathbb{C}P^1$ is a [[compact topological space|compact]] [[connected topological space|connected]] [[Riemann surface]] $\Sigma$ equipped with a non-[[constant functionionconstant]] [[holomorphic function]]
+
+$$
+  \Sigma \longrightarrow \mathbb{C}P^1
+  \,.
+$$
+
+## Properties
+
+By the [[Riemann existence theorem]], every connected compact [[Riemann surface]] admits the [[structure]] of a branched cover of the Riemann sphere. ([MO discussion](http://mathoverflow.net/a/53286/381))
+
+## References
+
+* Brian Ossermann, _Branched covers of the Riemann sphere_ ([pdf](https://www.math.ucdavis.edu/~osserman/rfg/290W/branched-covers.pdf))
+
+[[!redirects branched covers of Riemann sphere]]
+
+[[!redirects branched cover of the Riemann sphere]]
+[[!redirects branched covers of the Riemann sphere]]
