@@ -1,17 +1,17 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Analysis
 +-- {: .hide}
 [[!include analysis - contents]]
 =--
 #### Complex geometry
-+--{: .hide}
++-- {: .hide}
 [[!include complex geometry - contents]]
 =--
 =--
 =--
-
 
 # The Goursat theorem
 * table of contents
@@ -49,7 +49,7 @@ That is, the [[Cauchy integral theorem]] holds for $f$.
 
 +-- {: .num_theorem #IF}
 ###### Theorem
-Given any point $z$ in $U$ and any [[Jordan curve]] $C$ in $U$ whose inside contains $z$ and is contained in $U$, the [[contour integral]]
+Given any point $\zeta$ in $U$ and any [[Jordan curve]] $C$ in $U$ whose inside contains $\zeta$ and is contained in $U$, the [[contour integral]]
 $$ \oint_C \frac{f(z)}{z - \zeta} \,\mathrm{d}z = 2\pi\mathrm{i}f(\zeta) .$$
 That is, the [[Cauchy integral formula]] holds for $f$.
 =--
