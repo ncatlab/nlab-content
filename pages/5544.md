@@ -33,3 +33,6 @@ An [[atlas]] is the collection of coordinate charts defining a manifold structur
 
 [[!redirects coordinate]]
 [[!redirects coordinates]]
+
+[[!redirects coordinate patch]]
+[[!redirects coordinate patches]]
