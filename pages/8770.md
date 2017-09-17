@@ -11,4 +11,6 @@
 
 ### Examples
 
+* [[projector]]
+
 * [[idempotent monad]], [[idempotent adjunction]]
