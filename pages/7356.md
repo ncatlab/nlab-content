@@ -72,11 +72,18 @@ $$
 
 The original article is 
 
-* [[Cumrum Vafa]], _Evidence for F-theory_, Nucl.Phys.B469:403-418,1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
+* [[Cumrun Vafa]], _Evidence for F-theory_, Nucl.Phys.B469:403-418,1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
 
 Lecture notes include
 
 * Timo Weigand, _Lectures on F-theory compactifications and model building_ Class. Quantum Grav. 27 214004 ([arXiv:1009.3497](http://arxiv.org/abs/1009.3497))
+
+F-theory lifts of [[orientifold]] backgrounds were first identified in
+
+* [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
+
+* [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
 
 ### Phenomenology and model building
 
