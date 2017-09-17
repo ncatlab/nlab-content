@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Locality and descent
++--{: .hide}
+[[!include descent and locality - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
@@ -10,17 +14,14 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
-#### $(\infty,1)$-Topos Theory
-+--{: .hide}
-[[!include (infinity,1)-topos - contents]]
 =--
 =--
-=--
+
 
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
