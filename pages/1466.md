@@ -226,9 +226,11 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * I.M. James, _Topologies and Uniformities_, Springer
 
-* Norman Howes, _Modern Analysis and Topology_, Springer
+* Norman Howes, _Modern analysis and topology_, Springer
+* P. Samuel, _Ultrafilters and compactifications of uniform spaces_, Trans. Amer. Math. Soc. __64__ (1948) 100-132
+* J. R. Isbell, _Uniform spaces_, Math. Surveys __12__, Amer. Math. Soc. 1964
 
-
+category: topology
 [[!redirects uniform space]]
 [[!redirects uniform spaces]]
 [[!redirects uniform structure]]
