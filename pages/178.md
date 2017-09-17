@@ -6,13 +6,13 @@
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
-#### $\infty$-Lie theory
-+--{: .hide}
-[[!include infinity-Lie theory - contents]]
-=--
 #### Differential geometry
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
+=--
+#### $\infty$-Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
@@ -339,21 +339,6 @@ This fact related to the classical [[nerve theorem]] which asserts that the simp
 More on that below in the discussion of $Sh_{(\infty,1)}(CartSp)$ as a [[locally ∞-connected (∞,1)-topos]].
 
 =--
-
-### Relation to topological and to synthetic-differential $\infty$-groupoids
-
-
-[[ETop∞Grpd]], [[SynthDiff∞Grpd]]
-
-$$
-  SynthDiff\infty Grpd
-    \stackrel{\overset{\Pi_{inf}}{\to}}
-   {\stackrel{\overset{Disc_{inf}}{\leftarrow}}
-   {\underset{\Gamma_{inf}}{\to}}}
-  Smooth \infty Grpd
-   \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
-  ETop\infty Grpd
-$$
 
 
 
@@ -1362,7 +1347,7 @@ Finally the same argument that above showed that no nontrivial automorphisms of 
 
 
 
-### $\infty$-Lie algebras {#StrucLieAlg}
+### Exponentiated $\infty$-Lie algebras {#StrucLieAlg}
 
 (...)
 
@@ -1388,8 +1373,25 @@ See
 
 
 
+## Infinitesimal smooth cohesion
+
+The [[cohesive (∞,1)-topos]] [[SynthDiff∞Grpd]] of 
+[[synthetic differential ∞-groupoid]]s is an 
+<a href="">infinitesimal cohesive neighbourhood</a> of $Smooth \infty Grpd$
+
+$$
+  SynthDiff\infty Grpd
+    \stackrel{\overset{\Pi_{inf}}{\to}}
+   {\stackrel{\overset{Disc_{inf}}{\leftarrow}}
+   {\underset{\Gamma_{inf}}{\to}}}
+  Smooth \infty Grpd
+   \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
+  ETop\infty Grpd
+  \,.
+$$
 
 
+In [[SynthDiff∞Grpd]] we have [[∞-Lie algebra]]s and [[∞-Lie algebroid]]s as actual [[infinitesimal object]]s. 
 
 
 
