@@ -1,10 +1,12 @@
 (under construction)
 
-Algebrad is a new notion due [[Nikolai Durov]], see conference talk  
+**Algebrad** is a new notion due [[Nikolai Durov]], see conference talk  
 
-* Classifying vectoids and generalizations of operads, The International Conference "Contemporary Mathematics", June 12, 2009, [link](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=34084)
+* _Classifying vectoids and generalizations of operads_ , The International Conference "Contemporary Mathematics", June 12, 2009, [link](http://www.mathnet.ru/php/person.phtml?option_lang=eng&personid=34084)
 
-A **vectoid** is a cocomplete category with a small set of generator and the following "completeness" axiom: every functor commuting with all colimits is representable. Vectoid is simultaneously generalizing  topoi and abelian categories of O-modules for ringed topoi: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring. To come to the notion of algebrad he develops the notions of monoidal vectoids and classifying vectoids. Algebrads generalize simultaneously symmetric operads, algebraic monads (which appear when one wants to classify coalgebras) and some objects which appear when one wants to classify algebras. 
+A **vectoid** is a [[cocomplete category]] $C$ with a [[small set]] of [[generator]]s and the following "completeness" axiom: every [[functor]]  $F : C^{op} \to Set$ commuting with all [[colimit]]s is [[representable functor|representable]]. Vectoid is simultaneously generalizing  [[topoi]] and [[abelian categories]] of $O$-[[module]]s for [[ringed topoi]]: intuitively it is roughly to the category of O-modules for a ringed topos $(X,O)$, what is a [[generalized ring]] (algebraic monad in Set) to a ring. 
+
+To come to the notion of algebrad he develops the notions of monoidal vectoids and classifying vectoids. Algebrads generalize simultaneously symmetric [[operad]]s, algebraic [[monad]]s (which appear when one wants to classify [[coalgebra]]s) and some objects which appear when one wants to classify algebras. 
 
 Abstract (in Russian, from [link](http://www.pdmi.ras.ru/EIMI/2009/cm/abs.html)): 
 
