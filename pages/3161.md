@@ -1,4 +1,4 @@
-Herman Stel is unemployed.
+Herman Stel is looking for a PhD position.
 
 He wrote his master thesis
 
