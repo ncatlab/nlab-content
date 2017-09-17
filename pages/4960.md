@@ -186,13 +186,14 @@ A **site of cohesion** over [[Set]] is
     * the [[Cech nerve]] $C(U) \in [C^{op}, sSet]$ is degreewise 
       a [[coproduct]] of [[representable functor|representables]];
 
-    * the [[simplicial set]] obtained by replacing each copy of a representable by a point is a [[contractible]] [[Kan complex]]:
+    * the [[simplicial set]] obtained by replacing each copy of a representable by a point is [[contractible]] (weakly equivalent to the 
+      point in the standard [[model structure on simplicial sets]])
 
       $$
         \lim_\to C(U) \stackrel{\simeq}{\to} *
       $$
 
-    * the simplicial set of points in $C(U)$ is a [[Kan complex]] [[homotopy equivalence|homotopy equivalent]] to the set of points of $U$:
+    * the simplicial set of points in $C(U)$ is weakly equivalent to the set of points of $U$:
 
       $$
         Hom_C(*, C(U)) \stackrel{\simeq}{\to} Hom_C(*,U)
