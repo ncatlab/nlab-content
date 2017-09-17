@@ -6,4 +6,5 @@ Wikipedia uses less preferrable term [ideal sheaf](http://en.wikipedia.org/wiki/
 
 Having a [[finitary monad]] $T$ in the category of sets, the [[sheafification functor]] from the category of presheaves of sets to the category of sheaves of sets, can be strictly lifted to the category of presheaves of $T$-modules (or, if you like, $T$-algebras) to the category of sheaves of $T$-modules. More generally, one can consider sheaves of finitary monads and corresponding categories of sheaves of modules and of bimodules. The discussions of sheaves of ideals extends easily to this setting. 
 
+category: algebraic geometry, sheaf theory
 [[!redirects ideal sheaf]]
