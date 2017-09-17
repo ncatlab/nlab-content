@@ -345,6 +345,8 @@ Which implies that with the magnetic charge being quantized, also the electric c
 
 ## Related concepts
 
+* [[Dirac charge quantization]]
+
 * [[Yang-Mills field]]
 
 * [[B-field]], [[C-field]]
