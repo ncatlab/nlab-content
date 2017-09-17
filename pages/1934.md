@@ -137,3 +137,13 @@ A discussion and comparison of big vs little approaches to $(\infty,1)$-topos th
 [[!redirects petit and gros topos]]
 [[!redirects petit and gros toposes]]
 [[!redirects petit and gros topoi]]
+
+[[!redirects petit (∞,1)-topos]]
+[[!redirects petit (infinity,1)-topos]]
+[[!redirects petit (∞,1)-toposes]]
+[[!redirects petit (infinity,1)-toposes]]
+
+[[!redirects gros (∞,1)-topos]]
+[[!redirects gros (infinity,1)-topos]]
+[[!redirects gros (∞,1)-toposes]]
+[[!redirects gros (infinity,1)-toposes]]
