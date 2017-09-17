@@ -101,11 +101,12 @@ $$
 
 ## Related concepts
 
+
 * [[kernel]]
 
 * [[cocone]]
 
-* [[homotopy cofiber]]
+* [[cofiber]], [[homotopy cofiber]]
 
 [[!redirects cokernels]]
 
