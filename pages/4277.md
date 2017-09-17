@@ -37,7 +37,7 @@ $$
 
 =--
 
-The [[Thom spectrum]] $M O$ is a connected [[spectrum]] hence essentially a [[symmetric monoidal (infinity,1)-category|∞-groupoid]] $\Omega^\infty M O$. 
+The [[Thom spectrum]] $M O$ is a connected [[spectrum]] hence essentially a [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]] ([[infinite loop space]]) $\Omega^\infty M O$. 
 
 By one aspect of the (proof of the) [[cobordism hypothesis]]-theorem, this is the [[(∞,n)-category of cobordisms]] for $n \to \infty$
 
