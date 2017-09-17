@@ -1,9 +1,11 @@
 
 * [[zero divisor]]
 
-* [[divisor (algebraic geoemetry)]]
+* [[divisor (algebraic geometry)]]
 
   * [[Weil divisor]], [[Cartier divisor]]
+
+  * [[theta divisor]]
 
 category: dismabiguation
 
