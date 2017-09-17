@@ -1,6 +1,6 @@
 For a commutative [[integral domain]] $D$, the set of all nonzero elements $D^\times$ is a multiplicative set, the corresponding [[commutative localization]] $D\to (D^\times)^{-1} D$ is an injective homomorphism of rings and $Q(D) = (D^\times)^{-1} D$ is a field, called the field of fractions or the quotient field of $D$. Its elements are fractions $a/b$ where $a\in D$ and $b\in D^\times$ which are by the definition the equivalence classes of pairs $(a,b) \in D\times D^\sharp$ and $(a,b)\sim (c,d)$ iff $a d = b c$. The addition is given by the formula
 $$
-\frac{a}{b}+\frac{c}{d} = \frac{ad+bc){bd}
+\frac{a}{b}+\frac{c}{d} = \frac{ad+bc}{bd}
 $$
 and multiplication by $(a/b)(c/d) = (ac)/(bd)$. 
 
