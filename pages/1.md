@@ -73,7 +73,7 @@ If you wish to make use of content obtained from the $n$Lab, you are free and en
 
 Conversely, if you contribute material to the $n$Lab, you are making it publically available and should be aware that others may use it (whatever you decide to do with it elsewhere) or, in fact, edit it. In the first case you trust that they will cite your contributions properly, in the second that they respect it and only improve on it. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
 
-[Meriahkan pesta ulang tahun bersama GarudaFood](http://symbian-kreatif.blog.co.uk/)Usually this works well. If there is need for discussion, the 
+Usually this works well. If there is need for discussion, the 
 [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
 
 
@@ -82,7 +82,7 @@ Conversely, if you contribute material to the $n$Lab, you are making it publical
 
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  
 
-Notice that **you don't need to know any MathML**.[Meriahkan pesta ulang tahun bersama GarudaFood](http://symbian-kreatif.blog.co.uk/2011/07/03/meriahkan-pesta-ulang-tahun-garudafood-11414328/) Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
+Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
 
 Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
@@ -90,7 +90,7 @@ Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how 
 ## Steering Committee 
  {#SteeringCommitte}
 
-The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]].[Amikom.us Tempat Belanja Hosting Murah](http://cupu.web.id/amikomus-tempat-belanja-hosting-murah/) _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
+The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]].  Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have.
 
 
 category: meta
