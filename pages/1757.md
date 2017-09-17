@@ -185,7 +185,11 @@ The general discussion of Eilenberg-MacLane objects is in section 7.2.2 of
 
 For a discussion of Eilenberg-MacLane objects in the context of the [[model structure on simplicial presheaves]] see top of page 4 of
 
-* Jardine, _Fields Lectures: Simplicial Presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+* [[Rick Jardine]], _Fields Lectures: Simplicial Presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+Formalization in [[homotopy type theory]] is in 
+
+* {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, LICS 2014 ([pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/))
 
 
 [[!redirects Eilenberg-MacLane object]]
