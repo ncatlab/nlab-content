@@ -54,9 +54,9 @@ which is required to satisfy the following axioms.
   ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
   [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
 
-This definition is from Manzyuk's paper below.  It differs slightly from Eilenberg-Kelly's original definition, which  assumed in addition an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ and that the resulting isomorphism
+This definition is from Manzyuk's paper below.  It differs slightly from Eilenberg-Kelly's original definition, which omitted $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ and that the resulting isomorphism
 $$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
-sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given here is perhaps a little simpler and avoids introducing superfluous data.
+sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given here is perhaps a little simpler.
 
 
 ## Examples
